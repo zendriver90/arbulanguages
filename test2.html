@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Przesuwanie innercontainer przez scrollowanie body</title>
+        <link rel="stylesheet" type="text/css" href="css/audio.css">
+</head>
+<body>
+  <div class="container">
+    <div class="navbar">
+      <div class="dot-button"></div>
+    </div>
+    <div class="content">
+<table>
+<tr>
+<th>
+<div class="menu">
+	  <div class="przycisk">
+	  	<button id="buttonstart" onclick="startScrolling()">ZACZNIJ</button></div>
+  <div class="table-background">
+    <div class="overlay"><p>FISZKA 5</p><br><img src="img/intro/fiszka1.png"/><br></div></div>
+<button id="result2" class="noweb">UCZĘ SIĘ: </button><button id="result1" class="nowea">ZNAM: </button><button id="result3" class="nowec">NAUCZYŁEM SIĘ: </button>
+<div id="counter"></div>
+<button id="hejj" class="nowe">GUY</button><button id="hejnowej" class="nowe">CATCH</button><button id="hejnowesj" class="nowe">CAT</button><button id="hejnowessj" class="nowe">AND</button><button id="hejnowesssj" class="nowe">HUG</button><button id="hejnowessssj" class="nowe">HIM</button>
+</th>
+</tr>
+</div>
+<div class="section">
+<tr>
+<td>
+<div id="itemitemj" class="itemj">
+    <img id="33" src="img/fiszki1/3a.jpg"/>
+    <span class="caption">W leśnym <u><b>gaj</b></u>u jest <u><b>gaj</u></b>owy, który jest fajnym <u><b>gościem</u></b></span>
+						<button><b>guy[gaj] - gościu</b></button><br>
+<button onclick="dodajPrzycisk2(1)" class="Button1j" id="jQueryColorChangej">TRENING</button>
+<button onclick="dodajPrzycisk(1)" class="Button2j" id="jQueryColorChange2j">ZNAM</button>
+  <audio id="music" preload="true">
+  <source src="img/Glos_190321_1.wav">
+			<source src="img/Glos_190321_1.wav">
+	</audio>
+<div id="audioplayer">
+	<button id="pButton" class="play" onclick="play()"></button>
+  <div id="timeline">    
+  		  <div id="playhead"></div>
+  </div>
+</div>
+</div>
+</td>
+<td>
+<div id="itemitem2j" class="item2j">
+    <img id="33" src="img/fiszki1/3b.jpg"/>
+    <span class="caption"><u><b>Kacz</u></b>ki i łabędzie <u><b>łapią</u></b> chleb</span>
+						<button><b>catch[kacz] - łapać</b></button><br>
+<button onclick="dodajPrzycisk2(2)" class="Button11j" id="jQueryColorChange11j">TRENING</button>
+<button onclick="dodajPrzycisk(2)" class="Button22j" id="jQueryColorChange22j">ZNAM</button>
+</div>
+  <script src="js/2.js"></script>
+</td>
+<td>
+<div id="itemitem3j" class="item3j">
+    <img id="33" src="img/fiszki1/3c.jpg"/>
+    <span class="caption"></span>
+					<button><b>cut[kut] - ciąć</b></button><br>
+<button onclick="dodajPrzycisk2(3)" class="Button111j" id="jQueryColorChange111j">TRENING</button>
+<button onclick="dodajPrzycisk(3)" class="Button222j" id="jQueryColorChange222j">ZNAM</button>
+</div>
+  <script src="js/3.js"></script>
+</td>
+</tr>
+<tr>
+<td>
+<div id="itemitem4j" class="item4j">
+    <img id="33" src="img/fiszki1/3d.jpg"/>
+    <span class="caption"><u><b>End</u></b>riu wydziela <u><b>end</u></b>orfiny i ćwiczy: to <u><b>i</u></b> to, <u><b>i</u></b> to, aby było więcej endorfin i wyczekuje <u><b>końca</u></b> treningu</span>
+						<button><b>end[end] - koniec</b></button><br>
+<button onclick="dodajPrzycisk2(4)" class="Button1111j" id="jQueryColorChange1111j">TRENING</button>
+<button onclick="dodajPrzycisk(4)" class="Button2222j" id="jQueryColorChange2222j">ZNAM</button>
+</div>
+  <script src="js/4.js"></script>
+</td>
+<td>
+<div id="itemitem5j" class="item5j">
+    <img id="33" src="img/fiszki1/3e.jpg"/>
+    <span class="caption">W mieście <u><b>Hag</u></b>a wszyscy się <u><b>przytulają</u></b></span>
+							<button><b>hug[hag] - przytulać</b></button><br>
+<button onclick="dodajPrzycisk2(5)" class="Button11111j" id="jQueryColorChange11111j">TRENING</button>
+<button onclick="dodajPrzycisk(5)" class="Button22222j" id="jQueryColorChange22222j">ZNAM</button>
+</div>
+  <script src="js/5.js"></script>
+</td>
+<td>
+<div id="itemitem6j" class="item6j">
+    <img id="33" src="img/fiszki1/3f.jpg"/>
+    <span class="caption">Ludzie powiedzieli, że jeżeli pewien gociu wspiął się na szczyt to <u><b>Him</u></b>alaje są <u><b>jego</u></b></span>
+								<button><b>him[him] - jego</b></button><br>
+<button onclick="dodajPrzycisk2(6)" class="Button111111j" id="jQueryColorChange111111j">TRENING</button>
+<button onclick="dodajPrzycisk(6)" class="Button222222j" id="jQueryColorChange222222j">ZNAM</button>
+</div>
+</td>
+</tr>
+</div>
+<br>
+<br>
+</table>
+	  <div class="table-container">
+  <div class="table-background">
+    <div class="overlay">FISZKA 4<br><img src="img/intro/fiszka2.png"/><br>
+	<button onclick="startScrolling()">ZACZNIJ</button></div></div>
+<table>
+<tr>
+<th>
+<div class="section">
+<div class="menu">
+<button id="result2" class="noweb">UCZĘ SIĘ: </button><button id="result1" class="nowea">ZNAM: </button><button id="result3" class="nowec">NAUCZYŁEM SIĘ: </button>
+<div id="counter"></div>
+<button id="hejj" class="nowe">GUY</button><button id="hejnowej" class="nowe">CATCH</button><button id="hejnowesj" class="nowe">CAT</button><button id="hejnowessj" class="nowe">AND</button><button id="hejnowesssj" class="nowe">HUG</button><button id="hejnowessssj" class="nowe">HIM</button>
+</th>
+</tr>
+</div>
+<tr>
+<td>
+<div id="itemitemj" class="itemj">
+    <img id="33" src="img/fiszki1/3a.jpg"/>
+    <span class="caption">W leśnym <u><b>gaj</b></u>u jest <u><b>gaj</u></b>owy, który jest fajnym <u><b>gościem</u></b></span>
+						<button><b>guy[gaj] - gościu</b></button><br>
+<button onclick="dodajPrzycisk2(1)" class="Button1j" id="jQueryColorChangej">TRENING</button>
+<button onclick="dodajPrzycisk(1)" class="Button2j" id="jQueryColorChange2j">ZNAM</button>
+</div>
+</td>
+<td>
+<div id="itemitem2j" class="item2j">
+    <img id="33" src="img/fiszki1/3b.jpg"/>
+    <span class="caption"><u><b>Kacz</u></b>ki i łabędzie <u><b>łapią</u></b> chleb</span>
+						<button><b>catch[kacz] - łapać</b></button><br>
+<button onclick="dodajPrzycisk2(2)" class="Button11j" id="jQueryColorChange11j">TRENING</button>
+<button onclick="dodajPrzycisk(2)" class="Button22j" id="jQueryColorChange22j">ZNAM</button>
+</div>
+  <script src="js/2.js"></script>
+</td>
+<td>
+<div id="itemitem3j" class="item3j">
+    <img id="33" src="img/fiszki1/3c.jpg"/>
+    <span class="caption"></span>
+					<button><b>cut[kut] - ciąć</b></button><br>
+<button onclick="dodajPrzycisk2(3)" class="Button111j" id="jQueryColorChange111j">TRENING</button>
+<button onclick="dodajPrzycisk(3)" class="Button222j" id="jQueryColorChange222j">ZNAM</button>
+</div>
+  <script src="js/3.js"></script>
+</td>
+</tr>
+<tr>
+<td>
+<div id="itemitem4j" class="item4j">
+    <img id="33" src="img/fiszki1/3d.jpg"/>
+    <span class="caption"><u><b>End</u></b>riu wydziela <u><b>end</u></b>orfiny i ćwiczy: to <u><b>i</u></b> to, <u><b>i</u></b> to, aby było więcej endorfin i wyczekuje <u><b>końca</u></b> treningu</span>
+						<button><b>end[end] - koniec</b></button><br>
+<button onclick="dodajPrzycisk2(4)" class="Button1111j" id="jQueryColorChange1111j">TRENING</button>
+<button onclick="dodajPrzycisk(4)" class="Button2222j" id="jQueryColorChange2222j">ZNAM</button>
+</div>
+  <script src="js/4.js"></script>
+</td>
+<td>
+<div id="itemitem5j" class="item5j">
+    <img id="33" src="img/fiszki1/3e.jpg"/>
+    <span class="caption">W mieście <u><b>Hag</u></b>a wszyscy się <u><b>przytulają</u></b></span>
+							<button><b>hug[hag] - przytulać</b></button><br>
+<button onclick="dodajPrzycisk2(5)" class="Button11111j" id="jQueryColorChange11111j">TRENING</button>
+<button onclick="dodajPrzycisk(5)" class="Button22222j" id="jQueryColorChange22222j">ZNAM</button>
+</div>
+  <script src="js/5.js"></script>
+</td>
+<td>
+<div id="itemitem6j" class="item6j">
+    <img id="33" src="img/fiszki1/3f.jpg"/>
+    <span class="caption">Ludzie powiedzieli, że jeżeli pewien gociu wspiął się na szczyt to <u><b>Him</u></b>alaje są <u><b>jego</u></b></span>
+								<button><b>him[him] - jego</b></button><br>
+<button onclick="dodajPrzycisk2(6)" class="Button111111j" id="jQueryColorChange111111j">TRENING</button>
+<button onclick="dodajPrzycisk(6)" class="Button222222j" id="jQueryColorChange222222j">ZNAM</button>
+</div>
+</td>
+</tr>
+</div>
+</div>
+<br>
+<br>
+</table>
+<table>
+<tr>
+<th>
+<div class="menu">
+	  <div class="przycisk">
+	  	<button id="buttonstart" onclick="startScrolling()">ZACZNIJ</button></div>
+  <div class="table-background">
+    <div class="overlay"><p>FISZKA 5</p><br><img src="img/intro/fiszka1.png"/><br></div></div>
+<button id="result2" class="noweb">UCZĘ SIĘ: </button><button id="result1" class="nowea">ZNAM: </button><button id="result3" class="nowec">NAUCZYŁEM SIĘ: </button>
+<div id="counter"></div>
+<button id="hejj" class="nowe">GUY</button><button id="hejnowej" class="nowe">CATCH</button><button id="hejnowesj" class="nowe">CAT</button><button id="hejnowessj" class="nowe">AND</button><button id="hejnowesssj" class="nowe">HUG</button><button id="hejnowessssj" class="nowe">HIM</button>
+</th>
+</tr>
+</div>
+<div class="section">
+<tr>
+<td>
+<div id="itemitemj" class="itemj">
+    <img id="33" src="img/fiszki1/3a.jpg"/>
+    <span class="caption">W leśnym <u><b>gaj</b></u>u jest <u><b>gaj</u></b>owy, który jest fajnym <u><b>gościem</u></b></span>
+						<button><b>guy[gaj] - gościu</b></button><br>
+<button onclick="dodajPrzycisk2(1)" class="Button1j" id="jQueryColorChangej">TRENING</button>
+<button onclick="dodajPrzycisk(1)" class="Button2j" id="jQueryColorChange2j">ZNAM</button>
+</div>
+</td>
+<td>
+<div id="itemitem2j" class="item2j">
+    <img id="33" src="img/fiszki1/3b.jpg"/>
+    <span class="caption"><u><b>Kacz</u></b>ki i łabędzie <u><b>łapią</u></b> chleb</span>
+						<button><b>catch[kacz] - łapać</b></button><br>
+<button onclick="dodajPrzycisk2(2)" class="Button11j" id="jQueryColorChange11j">TRENING</button>
+<button onclick="dodajPrzycisk(2)" class="Button22j" id="jQueryColorChange22j">ZNAM</button>
+</div>
+  <script src="js/2.js"></script>
+</td>
+<td>
+<div id="itemitem3j" class="item3j">
+    <img id="33" src="img/fiszki1/3c.jpg"/>
+    <span class="caption"></span>
+					<button><b>cut[kut] - ciąć</b></button><br>
+<button onclick="dodajPrzycisk2(3)" class="Button111j" id="jQueryColorChange111j">TRENING</button>
+<button onclick="dodajPrzycisk(3)" class="Button222j" id="jQueryColorChange222j">ZNAM</button>
+</div>
+  <script src="js/3.js"></script>
+</td>
+</tr>
+<tr>
+<td>
+<div id="itemitem4j" class="item4j">
+    <img id="33" src="img/fiszki1/3d.jpg"/>
+    <span class="caption"><u><b>End</u></b>riu wydziela <u><b>end</u></b>orfiny i ćwiczy: to <u><b>i</u></b> to, <u><b>i</u></b> to, aby było więcej endorfin i wyczekuje <u><b>końca</u></b> treningu</span>
+						<button><b>end[end] - koniec</b></button><br>
+<button onclick="dodajPrzycisk2(4)" class="Button1111j" id="jQueryColorChange1111j">TRENING</button>
+<button onclick="dodajPrzycisk(4)" class="Button2222j" id="jQueryColorChange2222j">ZNAM</button>
+</div>
+  <script src="js/4.js"></script>
+</td>
+<td>
+<div id="itemitem5j" class="item5j">
+    <img id="33" src="img/fiszki1/3e.jpg"/>
+    <span class="caption">W mieście <u><b>Hag</u></b>a wszyscy się <u><b>przytulają</u></b></span>
+							<button><b>hug[hag] - przytulać</b></button><br>
+<button onclick="dodajPrzycisk2(5)" class="Button11111j" id="jQueryColorChange11111j">TRENING</button>
+<button onclick="dodajPrzycisk(5)" class="Button22222j" id="jQueryColorChange22222j">ZNAM</button>
+</div>
+  <script src="js/5.js"></script>
+</td>
+<td>
+<div id="itemitem6j" class="item6j">
+    <img id="33" src="img/fiszki1/3f.jpg"/>
+    <span class="caption">Ludzie powiedzieli, że jeżeli pewien gociu wspiął się na szczyt to <u><b>Him</u></b>alaje są <u><b>jego</u></b></span>
+								<button><b>him[him] - jego</b></button><br>
+<button onclick="dodajPrzycisk2(6)" class="Button111111j" id="jQueryColorChange111111j">TRENING</button>
+<button onclick="dodajPrzycisk(6)" class="Button222222j" id="jQueryColorChange222222j">ZNAM</button>
+</div>
+</td>
+</tr>
+</div>
+<br>
+<br>
+</table>
+	  <div class="table-container">
+  <div class="table-background">
+    <div class="overlay">FISZKA 4<br><img src="img/intro/fiszka2.png"/><br>
+	<button onclick="startScrolling()">ZACZNIJ</button></div></div>
+<table>
+<tr>
+<th>
+<div class="section">
+<div class="menu">
+<button id="result2" class="noweb">UCZĘ SIĘ: </button><button id="result1" class="nowea">ZNAM: </button><button id="result3" class="nowec">NAUCZYŁEM SIĘ: </button>
+<div id="counter"></div>
+<button id="hejj" class="nowe">GUY</button><button id="hejnowej" class="nowe">CATCH</button><button id="hejnowesj" class="nowe">CAT</button><button id="hejnowessj" class="nowe">AND</button><button id="hejnowesssj" class="nowe">HUG</button><button id="hejnowessssj" class="nowe">HIM</button>
+</th>
+</tr>
+</div>
+<tr>
+<td>
+<div id="itemitemj" class="itemj">
+    <img id="33" src="img/fiszki1/3a.jpg"/>
+    <span class="caption">W leśnym <u><b>gaj</b></u>u jest <u><b>gaj</u></b>owy, który jest fajnym <u><b>gościem</u></b></span>
+						<button><b>guy[gaj] - gościu</b></button><br>
+<button onclick="dodajPrzycisk2(1)" class="Button1j" id="jQueryColorChangej">TRENING</button>
+<button onclick="dodajPrzycisk(1)" class="Button2j" id="jQueryColorChange2j">ZNAM</button>
+</div>
+</td>
+<td>
+<div id="itemitem2j" class="item2j">
+    <img id="33" src="img/fiszki1/3b.jpg"/>
+    <span class="caption"><u><b>Kacz</u></b>ki i łabędzie <u><b>łapią</u></b> chleb</span>
+						<button><b>catch[kacz] - łapać</b></button><br>
+<button onclick="dodajPrzycisk2(2)" class="Button11j" id="jQueryColorChange11j">TRENING</button>
+<button onclick="dodajPrzycisk(2)" class="Button22j" id="jQueryColorChange22j">ZNAM</button>
+</div>
+  <script src="js/2.js"></script>
+</td>
+<td>
+<div id="itemitem3j" class="item3j">
+    <img id="33" src="img/fiszki1/3c.jpg"/>
+    <span class="caption"></span>
+					<button><b>cut[kut] - ciąć</b></button><br>
+<button onclick="dodajPrzycisk2(3)" class="Button111j" id="jQueryColorChange111j">TRENING</button>
+<button onclick="dodajPrzycisk(3)" class="Button222j" id="jQueryColorChange222j">ZNAM</button>
+</div>
+  <script src="js/3.js"></script>
+</td>
+</tr>
+<tr>
+<td>
+<div id="itemitem4j" class="item4j">
+    <img id="33" src="img/fiszki1/3d.jpg"/>
+    <span class="caption"><u><b>End</u></b>riu wydziela <u><b>end</u></b>orfiny i ćwiczy: to <u><b>i</u></b> to, <u><b>i</u></b> to, aby było więcej endorfin i wyczekuje <u><b>końca</u></b> treningu</span>
+						<button><b>end[end] - koniec</b></button><br>
+<button onclick="dodajPrzycisk2(4)" class="Button1111j" id="jQueryColorChange1111j">TRENING</button>
+<button onclick="dodajPrzycisk(4)" class="Button2222j" id="jQueryColorChange2222j">ZNAM</button>
+</div>
+  <script src="js/4.js"></script>
+</td>
+<td>
+<div id="itemitem5j" class="item5j">
+    <img id="33" src="img/fiszki1/3e.jpg"/>
+    <span class="caption">W mieście <u><b>Hag</u></b>a wszyscy się <u><b>przytulają</u></b></span>
+							<button><b>hug[hag] - przytulać</b></button><br>
+<button onclick="dodajPrzycisk2(5)" class="Button11111j" id="jQueryColorChange11111j">TRENING</button>
+<button onclick="dodajPrzycisk(5)" class="Button22222j" id="jQueryColorChange22222j">ZNAM</button>
+</div>
+  <script src="js/5.js"></script>
+</td>
+<td>
+<div id="itemitem6j" class="item6j">
+    <img id="33" src="img/fiszki1/3f.jpg"/>
+    <span class="caption">Ludzie powiedzieli, że jeżeli pewien gociu wspiął się na szczyt to <u><b>Him</u></b>alaje są <u><b>jego</u></b></span>
+								<button><b>him[him] - jego</b></button><br>
+<button onclick="dodajPrzycisk2(6)" class="Button111111j" id="jQueryColorChange111111j">TRENING</button>
+<button onclick="dodajPrzycisk(6)" class="Button222222j" id="jQueryColorChange222222j">ZNAM</button>
+</div>
+</td>
+</tr>
+</div>
+</div>
+<br>
+<br>
+</table>
+  <script>
+var music = document.getElementById('music'); // id for audio element
+var duration; // Duration of audio clip
+var pButton = document.getElementById('pButton'); // play button
+
+var playhead = document.getElementById('playhead'); // playhead
+
+var timeline = document.getElementById('timeline'); // timeline
+// timeline width adjusted for playhead
+var timelineWidth = timeline.offsetWidth - playhead.offsetWidth;
+
+// timeupdate event listener
+music.addEventListener("timeupdate", timeUpdate, false);
+
+//Makes timeline clickable
+timeline.addEventListener("click", function (event) {
+	moveplayhead(event);
+	music.currentTime = duration * clickPercent(event);
+}, false);
+
+// returns click as decimal (.77) of the total timelineWidth
+function clickPercent(e) {
+	return (e.pageX - timeline.offsetLeft) / timelineWidth;
+}
+
+// Makes playhead draggable 
+playhead.addEventListener('mousedown', mouseDown, false);
+window.addEventListener('mouseup', mouseUp, false);
+
+// Boolean value so that mouse is moved on mouseUp only when the playhead is released 
+var onplayhead = false;
+// mouseDown EventListener
+function mouseDown() {
+	onplayhead = true;
+	window.addEventListener('mousemove', moveplayhead, true);
+	music.removeEventListener('timeupdate', timeUpdate, false);
+}
+// mouseUp EventListener
+// getting input from all mouse clicks
+function mouseUp(e) {
+	if (onplayhead == true) {
+		moveplayhead(e);
+		window.removeEventListener('mousemove', moveplayhead, true);
+		// change current time
+		music.currentTime = duration * clickPercent(e);
+		music.addEventListener('timeupdate', timeUpdate, false);
+	}
+	onplayhead = false;
+}
+// mousemove EventListener
+// Moves playhead as user drags
+function moveplayhead(e) {
+	var newMargLeft = e.pageX - timeline.offsetLeft;
+	if (newMargLeft >= 0 && newMargLeft <= timelineWidth) {
+		playhead.style.marginLeft = newMargLeft + "px";
+	}
+	if (newMargLeft < 0) {
+		playhead.style.marginLeft = "0px";
+	}
+	if (newMargLeft > timelineWidth) {
+		playhead.style.marginLeft = timelineWidth + "px";
+	}
+}
+
+// timeUpdate 
+// Synchronizes playhead position with current point in audio 
+function timeUpdate() {
+	var playPercent = timelineWidth * (music.currentTime / duration);
+	playhead.style.marginLeft = playPercent + "px";
+	if (music.currentTime == duration) {
+		pButton.className = "";
+		pButton.className = "play";
+	}
+}
+
+//Play and Pause
+function play() {
+	// start music
+	if (music.paused) {
+		music.play();
+		// remove play, add pause
+		pButton.className = "";
+		pButton.className = "pause";
+	} else { // pause music
+		music.pause();
+		// remove pause, add play
+		pButton.className = "";
+		pButton.className = "play";
+	}
+}
+
+// Gets audio file duration
+music.addEventListener("canplaythrough", function () {
+	duration = music.duration;  
+}, false);
+  </script>
+  </div>
+  </div>
+</body>
+</html>

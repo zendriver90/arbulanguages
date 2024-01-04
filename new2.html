@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Przyk³ad animacji przycisków</title>
+    <style>
+        /* Styl dla kontenera przycisków */
+        #button-container {
+            display: flex;
+            justify-content: flex-start;
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            opacity: 0;
+            transition: opacity 0.5s ease-in-out;
+            z-index: 9999;
+        }
+		
+		#button-container2 {
+            display: flex;
+            justify-content: flex-start;
+            position: fixed;
+            bottom: 70px;
+            left: 0;
+            opacity: 0;
+            transition: opacity 0.5s ease-in-out;
+            z-index: 9999;
+        }
+
+        /* Animacja pojawiania siê */
+        #button-container.active, #button-container2.active {
+            opacity: 1;
+        }
+
+        /* Styl dla ka¿dego przycisku */
+        .button-container button {
+            margin-right: 10px;
+        }
+    </style>
+    <script>
+        var buttonCounter1 = 0; // Licznik przycisków dla pierwszej kolejki
+		var buttonCounter2 = 0; // Licznik przycisków dla drugiej kolejki
+
+        function dodajPrzycisk(buttonId) {
+            var button = document.createElement("button");
+            button.innerText = "Przycisk " + buttonId;
+
+            var container = document.createElement("div");
+            container.className = "button-container";
+            container.appendChild(button);
+
+            var buttonContainer;
+			
+			if (buttonId <= 6) {
+				buttonContainer = document.getElementById("button-container");
+				buttonCounter1++;
+			} else {
+				buttonContainer = document.getElementById("button-container2");
+				buttonCounter2++;
+			}
+
+            buttonContainer.appendChild(container);
+
+            setTimeout(function() {
+                buttonContainer.classList.add("active");
+            }, 100);
+        }
+    </script>
+</head>
+<body>
+    <button id="button1" onclick="dodajPrzycisk(1)">Przycisk 1</button>
+    <button id="button2" onclick="dodajPrzycisk(2)">Przycisk 2</button>
+    <button id="button3" onclick="dodajPrzycisk(3)">Przycisk 3</button>
+    <button id="button4" onclick="dodajPrzycisk(2)">Przycisk 4</button>
+    <button id="button5" onclick="dodajPrzycisk(5)">Przycisk 5</button>
+    <button id="button6" onclick="dodajPrzycisk(6)">Przycisk 6</button>
+	<button id="button1" onclick="dodajPrzycisk(7)">Przycisk 1</button>
+    <button id="button2" onclick="dodajPrzycisk(8)">Przycisk 2</button>
+    <button id="button3" onclick="dodajPrzycisk(9)">Przycisk 3</button>
+    <button id="button4" onclick="dodajPrzycisk(10)">Przycisk 4</button>
+    <button id="button5" onclick="dodajPrzycisk(11)">Przycisk 5</button>
+    <button id="button6" onclick="dodajPrzycisk(12)">Przycisk 6</button>
+
+    <div id="button-container"></div>
+	<div id="button-container2"></div>
+</body>
+</html>
+
+<script>
+var topDiv = document.getElementById('top');
+var middleDiv = document.getElementById('middle');
+var endDiv = document.getElementById('end');
+var scrollThreshold = 30; // Próg przewiniêcia, po którym strona przybli¿y siê do danego diva
+
+var isMouseScrolling = false; // Flaga wskazuj¹ca, czy u¿ytkownik przewija stronê mysz¹
+
+window.addEventListener('scroll', function() {
+  var scrollPos = window.pageYOffset || document.documentElement.scrollTop;
+  var windowHeight = window.innerHeight;
+
+  // Oblicz odleg³oœæ od pola widzenia do diva "top"
+  var distanceToTop = Math.abs(scrollPos - topDiv.offsetTop);
+  // Oblicz odleg³oœæ od pola widzenia do diva "middle"
+  var distanceToMiddle = Math.abs(scrollPos - middleDiv.offsetTop);
+  // Oblicz odleg³oœæ od pola widzenia do diva "end"
+  var distanceToEnd = Math.abs(scrollPos - endDiv.offsetTop);
+
+  if (!isMouseScrolling) {
+    if (distanceToTop <= scrollThreshold) {
+      // Przybli¿ do diva "top"
+      window.scrollTo({
+        top: topDiv.offsetTop,
+        behavior: 'instant'
+      });
+    } else if (distanceToMiddle <= scrollThreshold) {
+      // Przybli¿ do diva "middle"
+      window.scrollTo({
+        top: middleDiv.offsetTop,
+        behavior: 'instant'
+      });
+    } else if (distanceToEnd <= scrollThreshold) {
+      // Przybli¿ do diva "end"
+      window.scrollTo({
+        top: endDiv.offsetTop,
+        behavior: 'instant'
+      });
+    }
+  }
+});
+
+// Event listener do wykrywania przewijania mysz¹
+window.addEventListener('mousewheel', function() {
+  isMouseScrolling = true;
+
+  // Ustawienie flagi isMouseScrolling na false po 500ms, aby umo¿liwiæ ponowne automatyczne scrollowanie
+  setTimeout(function() {
+    isMouseScrolling = false;
+  }, 1600);
+});
+</script>
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 50px; /* Dodatkowy odstêp na górze strony przed przewiniêciem do elementu */
+  scroll-padding-bottom: 50px; /* Dodatkowy odstêp na dole strony po przewiniêciu do elementu */
+  scroll-snap-type: y mandatory; /* Okreœla typ przewijania dla osi Y */
+}
+
+/* Styl dla elementów docelowych */
+.target-element {
+  scroll-snap-align: start end; /* Okreœla wyrównanie elementu docelowego wzglêdem kontenera przewijania */
+}
+
+body {
+	  width: 1100px;
+	  height: 100%;
+      padding-left: 140px;
+      overflow: auto;
+	  z-index: 4;
+    }
+
+    .container2 {
+      position: fixed;
+      top: 0;
+      right: 20px;
+      width: 140px;
+      height: 100%;
+      overflow: auto;
+      border: 2px solid red;
+      box-sizing: border-box;
+	  z-index: 4;
+    }
+
+    .inner-container {
+      margin: 5px;
+      height: calc(100% / 5 - 13px);
+      background-color: #ddd;
+    }
+
+    .active {
+      border: 2px solid green;
+    }
+
+    .active:last-child {
+      border: 2px solid blue;
+    }
+	
+	<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html lang="pl-PL">
+<head>
+<META HTTP-EQUIV="Content-type" CONTENT="text/html; charset=iso-8859-2">

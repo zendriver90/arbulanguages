@@ -1,0 +1,103 @@
+.Button {
+    font-family: Calibri, sans-serif;
+    font-size:13px;
+    font-weight: bold;
+    width: 160px;
+    height: 25px;
+    background:green;
+    color: yellow
+}
+.selected {
+    color: white;
+    background:green;
+    border: solid;
+}
+.selected2 {
+    color: white;
+    background:orange;
+    border: solid;
+}
+
+div {
+   display: inline-block;
+   position: relative;
+   z-index : 1;
+}
+
+
+div.item {
+    /* To correctly align image, regardless of content height: */
+    vertical-align: top;
+    display: inline-block;
+    /* To horizontally center images and caption */
+    /* The width of the container also implies margin around the images. */
+    width: 380px;
+    background-color: white;
+}
+
+div.three {
+  text-align: center;
+}
+
+#two {
+  background-color: green;
+}
+#three {
+  background-color: orange;
+}
+
+div.item:hover {
+  border: 3px red solid;}
+}
+
+img33 {
+    width: 294px;
+    height: 201px;
+    background-color: grey;
+}
+.caption {
+    /* Make the caption a block so it occupies its own line. */
+    display: block;
+}
+.tlo  {background-color: red;}
+
+#audioplayer{
+	width: 370px;
+	height: 60px;
+	margin: auto auto auto;
+	text-align: left;
+border: solid;
+visibility: hidden;
+}
+
+#pButton{
+    height:60px; 
+    width: 60px;
+    border: none;
+    background-size: 50% 50%;
+    background-repeat: no-repeat;
+    background-position: center;
+    float:left;
+    outline:none;
+}
+
+.play{background: url('http://smartangielski.j.pl/img/play.png') ;}
+.pause{background: url('http://smartangielski.j.pl/img/stop.png') ;}
+
+#timeline{
+	width: 300px;
+	height: 20px;
+	margin-top: 20px;
+	float: left;
+	border-radius: 15px;
+	background: rgba(0,0,0,.3);
+  
+}
+#playhead{
+	width: 18px;
+	height: 18px;
+	border-radius: 50%;
+	margin-top: 1px;
+	background: rgba(0, 0, 0,1);
+
+}

@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8"
+    <title>ARBULANGUAGES.COM<br>DOSTĘPNYCH 150 SŁÓW</title>
+    <style>
+        /* Styl dla głównego kontenera */
+        .container {
+            display: flex;
+            align-items: flex-start; /* Ustawienie wyrównania elementów wertykalnie */
+            justify-content: space-between;
+        }
+
+        /* Styl dla menu pionowego */
+        .side-menu {
+            width: 150px;
+            margin-right: 20px;
+        }
+
+        .side-menu button {
+            display: block;
+            margin-bottom: 10px;
+            width: 100%;
+            padding: 8px 15px;
+            font-size: 16px;
+            border: none;
+            cursor: pointer;
+        }
+
+/* Dodane style dla podpisów zdjęć */
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    text-align: center;
+    position: relative; /* Ustawienie pozycji dla podpisów */
+}
+
+        .image {
+            position: relative;
+            width: 100%;
+            height: auto;
+        }
+		
+		video {
+            position: relative;
+            width: 100%;
+            height: auto;
+        }
+		
+		#mojeVideo::-webkit-media-controls {
+  /* Ukryj kontrolki dla przeglądarek opartych na silniku Chromium (np. Chrome) */
+  display: none !important;
+}
+
+#mojeVideo::-webkit-media-controls-enclosure {
+  /* Ukryj kontrolki dla przeglądarek opartych na silniku Chromium (np. Chrome) */
+  display: none !important;
+}
+
+#mojeVideo::-webkit-media-controls-panel {
+  /* Ukryj kontrolki dla przeglądarek opartych na silniku Chromium (np. Chrome) */
+  display: none !important;
+}
+
+#mojeVideo {
+  /* Ukryj kontrolki dla innych przeglądarek */
+  appearance: none;
+  outline: none;
+  width: 100%; /* Dostosuj szerokość wideo */
+  height: auto; /* Dostosuj wysokość wideo */
+}
+
+        .caption {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            font-size: 10px;
+            color: white;
+            width: 100%;
+            text-align: left;
+            box-sizing: border-box;
+            z-index: 1;
+        }
+
+        .image:hover .caption {
+            opacity: 1;
+        }
+
+/* Styl dla podpisów zdjęć */
+.image-container {
+    position: relative;
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.image {
+    width: 100%;
+    height: auto;
+}
+
+.caption {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+	padding-bottom: 8px;
+      font-size: 15px; /* Rozmiar czcionki */
+      font-family: Arial, sans-serif; /* Wybór czcionki */
+      color: white; /* Ustawienie koloru tekstu na biały */
+      -webkit-text-stroke: 1px blue; /* Obramowanie tekstu w przeglądarkach opartych na silniku WebKit */
+      text-stroke: 1px white; /* Obramowanie tekstu */
+    width: 100%;
+    text-align: left;
+    box-sizing: border-box;
+    z-index: 1;
+}
+
+.image-container:hover .caption {
+    opacity: 1;
+}
+
+        /* Styl dla paska poziomego z tagami */
+        .horizontal-bar {
+            display: flex;
+            justify-content: center;
+            width: 100%;
+            margin-bottom: 10px;
+        }
+
+        .horizontal-bar button {
+            padding: 8px 15px;
+            font-size: 16px;
+            border: none;
+            cursor: pointer;
+			border: solid;
+        }
+		
+@media (max-width: 999px) {
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    text-align: center;
+    position: relative; /* Ustawienie pozycji dla podpisów */
+}
+        /* Styl dla menu pionowego */
+        .side-menu {
+            width: 0px;
+            margin-right: 0px;
+        }
+
+        .side-menu button {
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="horizontal-bar">
+        <button onclick="showVideos('set2')">LEKCJA 15 MINUTOWA(30 SŁÓW)</button>
+        <button onclick="showVideos('set3')">LEKCJA 7 MINUTOWA(12 SŁÓW)</button>
+		        <button onclick="showVideos('set4')">WSZYSTKIE</button>
+    </div>
+
+    <div class="container">
+        <div class="side-menu">
+            <button onclick="showImages('set1')">PRZEBYTE LEKCJE</button>
+			<button onclick="showImages('set2')">LEKCJE STWORZONE INDYWIDUALNIE</button>
+            <button onclick="showImages('set3')">SŁÓWKA KTÓRE ZNAM</button>
+			<button onclick="showImages('set4')">SŁÓWKA TRENING</button>
+            <button onclick="showImages('set2')">SŁÓWKA NAUCZONE</button>
+			<button onclick="showImages('set1')">POLUBIONE SŁOWKA</button>
+            <button onclick="showImages('set2')">SŁÓWKA TEMATYCZNE</button>
+        </div>
+
+        <div class="grid-container">
+        <div class="image-container">
+		<a href="demo.html">
+            <video id="player" width="640" height="360" controls muted id="mojeVideo">
+        <source src="voice/Project3.mp4" type="video/mp4">
+    </video>
+	</a>
+			<span class="caption">Nauka/Emocje/Zwierzęta/Impreza</span>
+        </div>
+        <div class="image-container">
+		<a href="demob.html">
+            <video id="player" width="640" height="360" controls muted>
+        <source src="voice/Project4.mp4" type="video/mp4">
+    </video>
+	</a>
+			<span class="caption">Świętowanie/Sport/Zawód/Czynności</span>
+        </div>
+        <div class="image-container">
+            <video id="player" width="640" height="360" controls muted>
+        <source src="voice/music.mp4" type="video/mp4">
+    </video>
+			<span class="caption">Muzyka</span>
+        </div>
+        <div class="image-container">
+            <video id="player" width="640" height="360" controls muted>
+        <source src="voice/bike.mp4" type="video/mp4">
+    </video>
+			<span class="caption">Transport</span>
+        </div>
+        <div class="image-container">
+            <video id="player" width="640" height="360" controls autoplay muted>
+        <source src="voice/bike.mp4" type="video/mp4">
+    </video>
+			<span class="caption">Transport</span>
+        </div>
+        <div>
+            <img class="image" src="img/fiszki1/1f.jpg" alt="Obraz 6">
+			<span class="caption">Podpis 1</span>
+        </div>
+        <div>
+            <img class="image" src="img/fiszki1/2a.jpg" alt="Obraz 7">
+			<span class="caption">Podpis 1</span>
+        </div>
+        <div>
+            <img class="image" src="img/fiszki1/2b.jpg" alt="Obraz 8">
+			<span class="caption">Podpis 1</span>
+        </div>
+		        <div>
+            <img class="image" src="img/fiszki1/2c.jpg" alt="Obraz 1">
+			<span class="caption">Podpis 1</span>
+        </div>
+        <div>
+            <img class="image" src="img/fiszki1/2d.jpg" alt="Obraz 2">
+			<span class="caption">Podpis 1</span>
+        </div>
+        <div>
+            <img class="image" src="img/fiszki1/2e.jpg" alt="Obraz 3">
+			<span class="caption">Podpis 1</span>
+        </div>
+        <div>
+            <img class="image" src="img/fiszki1/2f.jpg" alt="Obraz 4">
+			<span class="caption">Podpis 1</span>
+        </div>
+        <div>
+            <img class="image" src="img/fiszki1/3a.jpg" alt="Obraz 5">
+			<span class="caption">Podpis 1</span>
+        </div>
+        <div>
+            <img class="image" src="img/fiszki1/3b.jpg" alt="Obraz 6">
+			<span class="caption">Podpis 1</span>
+        </div>
+        <div>
+            <img class="image" src="img/fiszki1/3c.jpg" alt="Obraz 7">
+			<span class="caption">Podpis 1</span>
+        </div>
+        <div>
+            <img class="image" src="img/fiszki1/3d.jpg" alt="Obraz 8">
+			<span class="caption">Podpis 1</span>
+        </div>
+    </div>
+        </div>
+<script>
+    let videosArray = []; // Tablica przechowująca filmy
+    let currentVideoIndex = 0; // Indeks bieżącego filmu do odtworzenia
+
+    // Funkcja odtwarzająca losowy film
+    function playRandomVideo() {
+        const randomIndex = Math.floor(Math.random() * videosArray.length);
+        const randomVideo = videosArray[randomIndex];
+
+        randomVideo.style.display = 'block'; // Wyświetl wylosowany film
+        randomVideo.currentTime = 0; // Przewiń film do początku przed odtworzeniem
+        randomVideo.play();
+    }
+
+    // Funkcja obsługująca zdarzenie zakończenia odtwarzania filmu
+    function videoEndedHandler() {
+        currentVideoIndex = (currentVideoIndex + 1) % videosArray.length; // Przejście do następnego filmu
+        playRandomVideo(); // Odtwórz kolejny losowy film
+    }
+
+    // Funkcja wyświetlająca filmy z wybranego zestawu
+    function showVideos(set) {
+        const videoContainer = document.querySelector('.grid-container');
+        videoContainer.innerHTML = ''; // Wyczyść poprzednie filmy
+
+        videosArray = []; // Wyczyść tablicę filmów
+
+        let selectedVideos = [];
+
+        // Wybierz zestaw filmów w zależności od wybranego setu
+        switch (set) {
+            case 'set2':
+                selectedVideos = [
+                    {
+                        videoSrc: "voice/Project3.mp4",
+                        caption: "Nauka/Emocje/Zwierzęta/Impreza",
+						link: "demo.html"
+                    },
+                    {
+                        videoSrc: "voice/Project4.mp4",
+                        caption: "Świętowanie/Sport/Zawód/Czynności",
+						link: "demo.html"
+                    },
+                    // Dodaj kolejne filmy dla set1
+                ];
+                break;
+				            case 'set3':
+                selectedVideos = [
+                    {
+                        videoSrc: "voice/bike.mp4",
+                        caption: "Sport/Transport",
+						link: "demo.html"
+                    },
+                    {
+                        videoSrc: "voice/music.mp4",
+                        caption: "Muzyka/Rozrywka",
+						link: "demo.html"
+                    },
+                    // Dodaj kolejne filmy dla set1
+                ];
+                break;
+				            case 'set4':
+                selectedVideos = [
+                    {
+                        videoSrc: "voice/bike.mp4",
+                        caption: "Sport/Transport",
+						link: "demo.html"
+                    },
+                    {
+                        videoSrc: "voice/music.mp4",
+                        caption: "Muzyka/Rozrywka",
+						link: "demo.html"
+                    },
+					                    {
+                        videoSrc: "voice/Project3.mp4",
+                        caption: "Nauka/Emocje/Zwierzęta/Impreza",
+						link: "demo.html"
+                    },
+                    {
+                        videoSrc: "voice/Project4.mp4",
+                        caption: "Świętowanie/Sport/Zawód/Czynności",
+						link: "demo.html"
+                    },
+                    // Dodaj kolejne filmy dla set1
+                ];
+                break;
+            // Dodaj pozostałe przypadki dla innych zestawów
+
+            default:
+                break;
+        }
+
+        // Wyświetl filmy dla wybranego zestawu
+        selectedVideos.forEach(function (videoData) {
+            const videoLink = document.createElement('a');
+            videoLink.href = videoData.link || '#';
+
+            const videoContainer = document.createElement('div');
+            videoContainer.classList.add('image-container');
+
+            const videoElement = document.createElement('video');
+            videoElement.setAttribute('width', '640');
+            videoElement.setAttribute('height', '360');
+            videoElement.setAttribute('controls', '');
+            videoElement.muted = true;
+            videoElement.controls = false;
+
+            videoElement.innerHTML = `<source src="${videoData.videoSrc}" type="video/mp4">`;
+            videoElement.addEventListener('ended', videoEndedHandler);
+
+            videoLink.appendChild(videoElement); // Umieść film wewnątrz linku
+
+            videoContainer.appendChild(videoLink); // Umieść link w kontenerze obrazu
+
+            const captionSpan = document.createElement('span');
+            captionSpan.classList.add('caption');
+            captionSpan.textContent = videoData.caption;
+
+            videoContainer.appendChild(captionSpan);
+
+            document.querySelector('.grid-container').appendChild(videoContainer);
+            videosArray.push(videoElement); // Dodaj filmy do tablicy
+        });
+
+        playRandomVideo();
+    }
+showVideos('set2');
+</script>
+</body>
+</html>

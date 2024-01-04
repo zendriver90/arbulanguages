@@ -1,0 +1,1230 @@
+body {
+      position: relative;
+      height: 100%;
+      overflow-y: scroll;
+	  z-index: 15;
+}
+
+.container2 {
+  position: fixed;
+  padding-right: 30px;
+  top: 40px; /* Dostosuj wartość top, aby odpowiednio umieścić kontenery */
+  right: 0px;
+  width: 80px;
+  overflow: hidden;
+  height: calc(100% - 45px); /* Dostosuj wartość wysokości, uwzględniając odstępy */
+  border: 2px solid red;
+  box-sizing: border-box;
+  z-index: 7;
+}
+
+.inner-container {
+  margin: 2px;
+  width: 72px;
+  height: calc(100% / 5 - 22px);
+  background-color: #ddd;
+    overflow: hidden;
+	      transition: opacity 0.2s ease;
+}
+
+    .inner-container.active {
+      border: 2px solid green;
+	  background-color: green;
+    }
+	
+#but {
+  position: absolute;
+      top: 160px; /* Przesunięcie względem góry diva */
+    right: 117px; /* Przesunięcie względem prawej strony diva */
+  z-index: 30;
+  display: none;
+}
+
+.ass img,
+.krol img,
+.dama img,
+.jopek img,
+.10tka img {
+  transition: all 0.75s ease-out;
+  transform:  rotateY(28deg) rotateX(40deg);
+}
+	
+.arrow-up-container,
+.arrow-down-container {
+  position: fixed;
+  width: 80px;
+  right: 0px;
+  height: 15px;
+  overflow: auto; /* Dodaj warstwę na górze, aby strzałki były widoczne */
+  box-sizing: border-box;
+  margin: 5px solid black;
+  height: calc(100% / 10 - 20px);
+  background-color: #ddd;
+  border: 2px solid blue;
+}
+
+.arrow-up-container {
+  top: 0;
+}
+
+.arrow-down-container {
+  bottom: 50px;
+    z-index: 10;
+}
+
+.arrow-up,
+.arrow-down {
+  width: 0;
+  height: 0;
+  border-style: solid;
+}
+
+.arrow-up {  
+  right: 50%;
+  border-width: 0 20px 20px 20px;
+  border-color: transparent transparent blue transparent;
+  top: 5px;
+}
+
+.arrow-down {
+  right: 50%;
+  position: center;
+  border-width: 20px 20px 0 20px;
+  border-color: blue transparent transparent transparent;
+    z-index: 10;
+}
+
+.container {
+  position: relative;
+}
+
+.navbar {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: #333;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+    z-index: 9;
+}
+
+.dot-button {
+  transform: translateX(100px);
+  width: 100px;
+  height: 100px;
+  background-color: #f00;
+  border-radius: 50%;
+  cursor: pointer;
+  z-index: 9;
+}
+
+.content {
+  padding-bottom: 60px; /* Dodaj odstęp na dole, aby uniknąć zakrywania treści przez pasek nawigacyjny */
+  z-index: 9;
+}
+
+table, th, td {
+  width: 1300px;
+  height: 100%;
+  text-align: center;
+  z-index: 8;
+  position: center;
+  padding-left: 25px;
+  z-index: 9;
+}
+
+.section {
+    color: black;
+    font-size: 24px;
+    text-align: center;
+    transition: transform 0.5s;
+}
+
+.section.active {
+    transform: translateY(0);
+}
+
+.table-container {
+  position: relative;
+  width: 1300px;
+  height: 100vh;
+}
+
+.table-background .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: block;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  color: orange;
+  font-size: 40px;
+}
+
+.przycisk {
+  position: absolute;
+  top: 140px;
+  left: 18px;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  color: orange; /* Kolor tekstu */
+  font-size: 40px;
+  z-index: 3;
+}
+
+#startButton {
+  position: relative; /* Ustawienie na relative, aby centrować przycisk */
+  height: 150px;
+  width: 400px;
+  background-color: green; /* Kolor tła przycisku */
+  color: white; /* Kolor tekstu przycisku */
+  z-index: 5;
+  border-radius: 8px;
+  opacity: 0.7;
+}
+
+.przycisk2 {
+  position: absolute;
+  top: 340px;
+  left: 18px;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  color: orange; /* Kolor tekstu */
+  font-size: 40px;
+  z-index: 3;
+}
+
+#startButton2 {
+  position: relative; /* Ustawienie na relative, aby centrować przycisk */
+  height: 100px;
+  width: 400px;
+  background-color: blue; /* Kolor tła przycisku */
+  color: white; /* Kolor tekstu przycisku */
+  z-index: 5;
+  border-radius: 8px;
+  opacity: 0.7;
+}
+
+.przycisknowy {
+  position: absolute;
+  top: 2900px;
+  left: 18px;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  color: orange; /* Kolor tekstu */
+  font-size: 40px;
+  z-index: 30;
+}
+
+#startButtonhej {
+  position: relative; /* Ustawienie na relative, aby centrować przycisk */
+  height: 100px;
+  width: 150px;
+  position: center;
+  background-color: blue; /* Kolor tła przycisku */
+  color: white; /* Kolor tekstu przycisku */
+  z-index: 5;
+  border-radius: 8px;
+  opacity: 0.7;
+}
+
+.button-container {
+  margin-left: 200px; /* Oddalenie przycisku na prawo o 100px */
+}
+
+#kasowanie {
+  background-color: blue;
+  color: white;
+  border: none;
+  width: 300px;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-left: 100px;
+  margin-top: 5px;
+  font-size: 30px;
+  transform: translateX(150px);
+}
+#konsola {
+  background-color: red;
+  color: white;
+  border: none;
+  width: 100px;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 5px;
+  font-size: 20px;
+  transform: translateX(70px);
+  z-index: 40;
+}
+#znam {
+  background-color: green;
+  color: white;
+  border: none;
+  width: 100px;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 5px;
+  font-size: 20px;
+  transform: translateX(-190px);
+  z-index: 40;
+}
+
+div.menu {
+  width: 300%;
+  position: relative;
+  text-align: center;
+  padding-left: 25px;
+}
+
+.counter {
+	color; black;
+}
+
+.nowe,
+.nowei {
+    font-family: Calibri, sans-serif;
+    font-size:13px;
+    font-weight: bold;
+    width: 160px;
+    height: 32px;
+    background:yellow;
+	text-align: center;
+    border-radius: 8px;
+}
+
+.nowe.selected1,
+.nowe.selected3,
+.nowe.selected5,
+.nowe.selected7,
+.nowe.selected9,
+.nowe.selected11,
+.nowe.selected13,
+.nowe.selected15,
+.nowe.selected17,
+.nowe.selected19,
+.nowe.selected21,
+.nowe.selected23 {
+    border: 2px solid;
+    border-radius: 8px;
+    background: green;
+}
+
+.nowe.selected2,
+.nowe.selected4,
+.nowe.selected6,
+.nowe.selected8,
+.nowe.selected10,
+.nowe.selected12,
+.nowe.selected14,
+.nowe.selected16,
+.nowe.selected18,
+.nowe.selected20,
+.nowe.selected22 {
+    border: 2px solid;
+    border-radius: 8px;
+    background: orange;
+}
+
+.Button1.active,
+.Button11.active,
+.Button111.active,
+.Button1111.active,
+.Button11111.active,
+.Button111111.active,
+.Button1i.active,
+.Button11i.active,
+.Button111i.active,
+.Button1111i.active,
+.Button11111i.active,
+.Button111111i.active,
+.Button1j.active,
+.Button11j.active,
+.Button111j.active,
+.Button1111j.active,
+.Button11111j.active,
+.Button111111j.active {
+	text-align: center;
+    font-size: 13px;
+    font-weight: bold;
+    width: 100px;
+    height: 25px;
+    background: orange;
+    color: yellow;
+    border-radius: 8px;
+}
+
+.Button1.inactive,
+.Button11.inactive,
+.Button111.inactive,
+.Button1111.inactive,
+.Button11111.inactive,
+.Button111111.inactive,
+.Button1i.inactive,
+.Button11i.inactive,
+.Button111i.inactive,
+.Button1111i.inactive,
+.Button11111i.inactive,
+.Button111111i.inactive,
+.Button1j.inactive,
+.Button11j.inactive,
+.Button111j.inactive,
+.Button1111j.inactive,
+.Button11111j.inactive,
+.Button111111j.inactive {
+	text-align: center;
+    font-size: 13px;
+    font-weight: bold;
+    width: 100px;
+    height: 25px;
+    background: grey;
+    color: black;
+    border-radius: 8px;
+}
+
+.Button2.active,
+.Button22.active,
+.Button222.active,
+.Button2222.active,
+.Button22222.active,
+.Button222222.active,
+.Button2i.active,
+.Button22i.active,
+.Button222i.active,
+.Button2222i.active,
+.Button22222i.active,
+.Button222222i.active,
+.Button2j.active,
+.Button22j.active,
+.Button222j.active,
+.Button2222j.active,
+.Button22222j.active,
+.Button222222j.active  {
+	text-align: center;
+    font-size: 13px;
+    font-weight: bold;
+    width: 100px;
+    height: 25px;
+    background: green;
+    color: yellow;
+    border-radius: 8px;
+}
+
+.Button2.inactive,
+.Button22.inactive,
+.Button222.inactive,
+.Button2222.inactive,
+.Button22222.inactive,
+.Button222222.inactive,
+.Button2i.inactive,
+.Button22i.inactive,
+.Button222i.inactive,
+.Button2222i.inactive,
+.Button22222i.inactive,
+.Button222222i.inactive,
+.Button2j.inactive,
+.Button22j.inactive,
+.Button222j.inactive,
+.Button2222j.inactive,
+.Button22222j.inactive,
+.Button222222j.inactive {
+	text-align: center;
+    font-size:13px;
+    font-weight: bold;
+    width: 100px;
+    height: 25px;
+    background: grey;
+    color: black;
+    border-radius: 8px;
+}
+
+.selected,
+.selected3,
+.selected5 {
+    color: black;
+    background:orange;
+    border: solid;
+}
+.selected2,
+.selected4,
+.selected5 {
+    color: black;
+    background:green;
+    border: solid;
+}
+
+.item,
+.item2,
+.item3,
+.item4,
+.item5,
+.item6,
+.itemi,
+.item2i,
+.item3i,
+.item4i,
+.item5i,
+.item6i,
+.itemj,
+.item2j,
+.item3j,
+.item4j,
+.item5j,
+.item6j,
+.iteml,
+.item2l,
+.item3l,
+.item4l,
+.item5l,
+.item6l,
+.itemk,
+.item2k,
+.item3k,
+.item4k,
+.item5k,
+.item6k {
+  position: relative;
+  background: white;
+  display: inline-block;
+  width: 294px;
+  border: 2px solid black;
+  border-radius: 8px;
+  visibility: visible;
+}
+
+.overlay,
+.overlay2,
+.overlay3,
+.overlay4,
+.overlay5,
+.overlay6,
+.overlay7,
+.overlay8,
+.overlay9,
+.overlay10,
+.overlay11,
+.overlay12,
+.overlay13,
+.overlay14,
+.overlay15,
+.overlay16,
+.overlay17,
+.overlay18 {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background-color: green;
+  z-index: 23;
+  opacity: 0.2;
+  display: none;
+  }
+  
+.Buttonnowyy,
+.Buttonnowyy2,
+.Buttonnowyy3,
+.Buttonnowyy4,
+.Buttonnowyy5,
+.Buttonnowyy6,
+.Buttonnowyy7,
+.Buttonnowyy8,
+.Buttonnowyy9,
+.Buttonnowyy10,
+.Buttonnowyy11,
+.Buttonnowyy12,
+.Buttonnowyy13,
+.Buttonnowyy14,
+.Buttonnowyy15,
+.Buttonnowyy16,
+.Buttonnowyy17,
+.Buttonnowyy18 {
+  position: absolute;
+      top: 160px; /* Przesunięcie względem góry diva */
+    right: 117px; /* Przesunięcie względem prawej strony diva */
+  z-index: 30;
+  display: none;
+}
+
+#itemitem.orange,
+#itemitem2.orange,
+#itemitem3.orange,
+#itemitem4.orange,
+#itemitem5.orange,
+#itemitem6.orange,
+#itemitemi.orange,
+#itemitem2i.orange,
+#itemitem3i.orange,
+#itemitem4i.orange,
+#itemitem5i.orange,
+#itemitem6i.orange,
+#itemitemj.orange,
+#itemitem2j.orange,
+#itemitem3j.orange,
+#itemitem4j.orange,
+#itemitem5j.orange,
+#itemitem6j.orange,
+#itemitemj.orange,
+#itemitem2k.orange,
+#itemitem3k.orange,
+#itemitem4k.orange,
+#itemitem5k.orange,
+#itemitem6k.orange {
+background-color: orange;
+}
+
+#itemitem.green,
+#itemitem2.green,
+#itemitem3.green,
+#itemitem4.green,
+#itemitem5.green,
+#itemitem6.green,
+#itemitemi.green,
+#itemitem2i.green,
+#itemitem3i.green,
+#itemitem4i.green,
+#itemitem5i.green,
+#itemitem6i.green,
+#itemitemj.green,
+#itemitem2j.green,
+#itemitem3j.green,
+#itemitem4j.green,
+#itemitem5j.green,
+#itemitem6j.green,
+#itemitemk.green,
+#itemitem2k.green,
+#itemitem3k.green,
+#itemitem4k.green,
+#itemitem5k.green,
+#itemitem6k.green {
+background-color: green;
+}
+
+#33 {
+    width: 294px;
+    height: 201px;
+    background-color: grey;
+	z-index: 1;
+}
+.caption {
+  text-align: center;
+    /* Make the caption a block so it occupies its own line. */
+    display: block;
+    color: black;
+}
+
+.bordered {
+      border: 2px solid red; /* Obramowanie, które ma się wyświetlać */
+      border-radius: 8px;
+	    z-index: 7;
+    }
+
+.transform {
+  transform: scale(1.5);
+  position: relative;
+  top: 35px;
+  left: 30px;
+  z-index: 7;
+  }
+  
+.transformb {
+  transform: scale(1.5);
+  position: relative;
+  top: 35px;
+  z-index: 7;
+  }
+  
+.transformc {
+  transform: scale(1.5);
+  position: relative;
+  top: 35px;
+  right: 100px;
+  z-index: 2;
+  }
+  
+.transformd {
+  transform: scale(1.5);
+  position: relative;
+  bottom: 35px;
+  left: 20px;
+  z-index: 2;
+  }
+  
+.transforme {
+  transform: scale(1.5);
+  position: relative;
+  bottom: 35px;
+  z-index: 2;
+  }
+  
+.transformf {
+  transform: scale(1.5);
+  position: relative;
+  bottom: 35px;
+  right: 100px;
+  z-index: 2;
+  }
+
+.hideBefore::before {
+  content: "";
+  position: absolute;
+  top: -10px;
+  left: 50%;
+  transform: translateX(-50%);
+  border-width: 20px 20px 0;
+  border-style: solid;
+  border-color: blue transparent transparent;
+}
+
+@media (max-width: 999px) {
+ .container2 {
+  position: fixed;
+  padding-right: 30px;
+  padding-top: 30px;
+  top: 600px; /* Dostosuj wartość top, aby odpowiednio umieścić kontenery */
+  right: 0px;
+  width: 80px;
+  overflow: hidden;
+  height: calc(100% - 1400px); /* Dostosuj wartość wysokości, uwzględniając odstępy */
+  border: 2px solid red;
+  box-sizing: border-box;
+  z-index: 7;
+  bottom: 1000px;
+}
+
+.inner-container {
+  margin: 2px;
+  width: 72px;
+  height: calc(100% / 5 - 22px);
+  background-color: #ddd;
+    overflow: hidden;
+	      transition: opacity 0.2s ease;
+		    bottom: 1000px;
+}
+
+#kasowanie {
+  background-color: blue;
+  color: white;
+  border: none;
+  width: 90px;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-left: 70px;
+  margin-top: 10px;
+  font-size: 12px;
+  transform: translateX(60px);
+  z-index: 40;
+}
+
+.dbutton {
+  transform: scale(3.2) translateX(35px);
+  z-index: 9;
+}
+
+#konsola {
+  background-color: red;
+  color: white;
+  border: none;
+  width: 100px;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 5px;
+  font-size: 20px;
+  transform: translateX(50px);
+  z-index: 40;
+}
+#znam {
+  background-color: green;
+  color: white;
+  border: none;
+  width: 100px;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 5px;
+  font-size: 20px;
+  transform: translateX(-160px);
+  z-index: 40;
+}
+
+.container {
+  position: relative;
+}
+
+.navbar {
+  width: 150px;
+  height: 150px;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: #333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 9;
+}
+
+.dot-button {
+  transform: scale(3.2) translateX(35px);
+  width: 70px;
+  height: 70px;
+  background-color: #f00;
+  border-radius: 50%;
+  cursor: pointer;
+  z-index: 9;
+}
+
+.arrow-up-container,
+.arrow-down-container {
+  position: fixed;
+  width: 80px;
+  right: 0px;
+  height: 200px;
+  overflow: auto; /* Dodaj warstwę na górze, aby strzałki były widoczne */
+  box-sizing: border-box;
+  margin: 5px solid black;
+  height: calc(100% / 10 - 20px);
+  background-color: #ddd;
+  border: 2px solid blue;
+}
+
+.arrow-up-container {
+  top: 0;
+    height: 200px;
+	  height: 600px;
+}
+
+.arrow-down-container {
+  bottom: 145px;
+    z-index: 10;
+	  height: 650px;
+}
+
+.arrow-up,
+.arrow-down {
+  height: 600px;
+  width: 0;
+  height: 0;
+  border-style: solid;
+}
+
+.arrow-up {  
+  right: 50%;
+  border-width: 0 20px 20px 20px;
+  border-color: transparent transparent blue transparent;
+  top: 5px;
+  height: 600px;
+}
+
+.arrow-down {
+  right: 50%;
+  position: center;
+  border-width: 20px 20px 0 20px;
+  border-color: blue transparent transparent transparent;
+    z-index: 10;
+	  height: 600px;
+}
+
+ .container {
+    height: 2500px;
+	width: 1300px;
+    overflow: auto;
+}
+	tr:nth-child(2) {
+		height: 400px;
+		}
+	tr:nth-child(3) {
+		height: 400px;
+		}
+	tr:nth-child(5) {
+		height: 400px;
+		}
+	tr:nth-child(6) {
+		height: 400px;
+		}
+	tr:nth-child(8) {
+		height: 400px;
+		}
+	tr:nth-child(9) {
+		height: 400px;
+		}
+    .item,
+	.item2,
+	.item3,
+	.item4,
+	.item5,
+	.item6,
+	.itemi,
+	.item2i,
+	.item3i,
+	.item4i,
+	.item5i,
+	.item6i,
+	.itemj,
+	.item2j,
+	.item3j,
+	.item4j,
+	.item5j,
+	.item6j,
+.iteml,
+.item2l,
+.item3l,
+.item4l,
+.item5l,
+.item6l,
+.itemk,
+.item2k,
+.item3k,
+.item4k,
+.item5k,
+.item6k	{
+	  transform: scale(1.28) translate(0, 0);
+	  background: white;
+	  display: inline-block;
+	  width: 294px;
+	  border: 2px solid black;
+	  border-radius: 8px;
+	  top: 0;
+	  right: 0;
+      transition: transform 0.5s ease;
+	}
+	.transform {
+	transform: scale(2.1) translate(100px, 70px);
+    transition: transform 0.5s ease, translate 0.5s ease;
+	position: relative;
+	z-index: 7;
+	  }
+	  
+	.transformb {
+	  transform: scale(2.1) translateY(70px);
+    transition: transform 0.5s ease, translate 0.5s ease;
+	  position: relative;
+	  top: 35px;
+	  z-index: 2;
+	  }
+	  
+	.transformc {
+	  transform: scale(2.1) translate(-100px, 70px);
+    transition: transform 0.5s ease, translate 0.5s ease;
+	  position: relative;
+	  top: 35px;
+	  left: 20px;
+	  z-index: 2;
+	  }
+	  
+	.transformd {
+	  transform: scale(2.1) translate(100px, -70px);
+    transition: transform 0.5s ease, translate 0.5s ease;
+	  position: relative;
+	  bottom: 35px;
+	  left: 20px;
+	  z-index: 2;
+	  }
+	  
+	.transforme {
+	  transform: scale(2.1) translateY(-70px);
+    transition: transform 0.5s ease, translate 0.5s ease;
+	  position: relative;
+	  bottom: 35px;
+	  z-index: 2;
+	  }
+	  
+	.transformf {
+	  transform: scale(2.1) translate(-100px, -70px);
+    transition: transform 0.5s ease, translate 0.5s ease;
+	  position: relative;
+	  bottom: 35px;
+	  right: 20px;
+	  z-index: 2;
+	  }
+
+	.hideBefore::before {
+	  content: "";
+	  position: absolute;
+	  top: -10px;
+	  left: 50%;
+	  transform: translateX(-50%);
+	  border-width: 20px 20px 0;
+	  border-style: solid;
+	  border-color: blue transparent transparent;
+	}
+	
+	table, th, td {
+  width: 1150px;
+  height: 100%;
+  text-align: center;
+  z-index: 8;
+  position: center;
+  padding-left: 50px;
+  padding-right: 40px;
+  z-index: 9;
+}
+div.menu {
+  width: 350%;
+  position: relative;
+  text-align: center;
+  padding-left: 50px;
+  padding-right: 40px;
+}
+}
+@media (min-width: 999px) and (max-width: 1100px) {
+  .container2 {
+  position: fixed;
+  padding-right: 30px;
+  padding-top: 5px;
+  top: 50px; /* Dostosuj wartość top, aby odpowiednio umieścić kontenery */
+  right: 0px;
+  width: 80px;
+  overflow: hidden;
+  height: calc(100% - 180px); /* Dostosuj wartość wysokości, uwzględniając odstępy */
+  border: 2px solid red;
+  box-sizing: border-box;
+  z-index: 37;
+}
+
+.inner-container {
+  margin: 2px;
+  width: 72px;
+  height: calc(100% / 5);
+  background-color: #ddd;
+    overflow: hidden;
+	      transition: opacity 0.2s ease;
+}
+
+.container {
+  position: relative;
+}
+
+.navbar {
+  width: 150px;
+  height: 60px;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: #333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 9;
+}
+
+.dot-button {
+  transform: scale(1.8) translateX(110px);
+  width: 70px;
+  height: 70px;
+  background-color: #f00;
+  border-radius: 50%;
+  cursor: pointer;
+  z-index: 9;
+}
+
+.arrow-up-container,
+.arrow-down-container {
+  position: fixed;
+  width: 80px;
+  right: 0px;
+  overflow: auto; /* Dodaj warstwę na górze, aby strzałki były widoczne */
+  box-sizing: border-box;
+  margin: 5px solid black;
+  height: calc(100% / 10);
+  background-color: #ddd;
+  border: 2px solid blue;
+}
+
+.arrow-up-container {
+  top: 0;
+  height: 55px;
+}
+
+.arrow-down-container {
+    z-index: 10;
+	height: 85px;
+}
+
+.arrow-up,
+.arrow-down {
+  width: 0;
+  height: 0;
+  border-style: solid;
+}
+
+.arrow-up {  
+  right: 50%;
+  border-width: 0 20px 20px 20px;
+  border-color: transparent transparent blue transparent;
+  top: 5px;
+}
+
+.arrow-down {
+  right: 50%;
+  position: center;
+  border-width: 20px 20px 0 20px;
+  border-color: blue transparent transparent transparent;
+  z-index: 10;
+  height: 600px;
+}
+
+ .container {
+    height: 2500px;
+	width: 1300px;
+    overflow: auto;
+}
+	tr:nth-child(2) {
+		height: 400px;
+		}
+	tr:nth-child(3) {
+		height: 400px;
+		}
+	tr:nth-child(5) {
+		height: 400px;
+		}
+	tr:nth-child(6) {
+		height: 400px;
+		}
+	tr:nth-child(8) {
+		height: 400px;
+		}
+	tr:nth-child(9) {
+		height: 400px;
+		}
+    .item,
+	.item2,
+	.item3,
+	.item4,
+	.item5,
+	.item6,
+	.itemi,
+	.item2i,
+	.item3i,
+	.item4i,
+	.item5i,
+	.item6i,
+	.itemj,
+	.item2j,
+	.item3j,
+	.item4j,
+	.item5j,
+	.item6j,
+.iteml,
+.item2l,
+.item3l,
+.item4l,
+.item5l,
+.item6l,
+.itemk,
+.item2k,
+.item3k,
+.item4k,
+.item5k,
+.item6k	{
+	  transform: scale(1.20) translate(0, 0);
+	  background: white;
+	  display: inline-block;
+	  width: 294px;
+	  border: 2px solid black;
+	  border-radius: 8px;
+	  top: 0;
+	  right: 0;
+      transition: transform 0.5s ease;
+	}
+	.transform {
+	transform: scale(2.1) translate(100px, 70px);
+    transition: transform 0.5s ease, translate 0.5s ease;
+	position: relative;
+	z-index: 7;
+	  }
+	  
+	.transformb {
+	  transform: scale(2.1) translateY(70px);
+    transition: transform 0.5s ease, translate 0.5s ease;
+	  position: relative;
+	  top: 35px;
+	  z-index: 2;
+	  }
+	  
+	.transformc {
+	  transform: scale(2.1) translate(-100px, 70px);
+    transition: transform 0.5s ease, translate 0.5s ease;
+	  position: relative;
+	  top: 35px;
+	  left: 20px;
+	  z-index: 2;
+	  }
+	  
+	.transformd {
+	  transform: scale(2.1) translate(100px, -70px);
+    transition: transform 0.5s ease, translate 0.5s ease;
+	  position: relative;
+	  bottom: 35px;
+	  left: 20px;
+	  z-index: 2;
+	  }
+	  
+	.transforme {
+	  transform: scale(2.1) translateY(-70px);
+    transition: transform 0.5s ease, translate 0.5s ease;
+	  position: relative;
+	  bottom: 35px;
+	  z-index: 2;
+	  }
+	  
+	.transformf {
+	  transform: scale(2.1) translate(-100px, -70px);
+    transition: transform 0.5s ease, translate 0.5s ease;
+	  position: relative;
+	  bottom: 35px;
+	  right: 20px;
+	  z-index: 2;
+	  }
+
+	.hideBefore::before {
+	  content: "";
+	  position: absolute;
+	  top: -10px;
+	  left: 50%;
+	  transform: translateX(-50%);
+	  border-width: 20px 20px 0;
+	  border-style: solid;
+	  border-color: blue transparent transparent;
+	}
+	
+	table, th, td {
+  width: 1150px;
+  height: 100%;
+  text-align: center;
+  z-index: 8;
+  position: center;
+  padding-left: 50px;
+  padding-right: 40px;
+  z-index: 9;
+}
+div.menu {
+  width: 350%;
+  position: relative;
+  text-align: center;
+  padding-left: 50px;
+  padding-right: 40px;
+}
+}

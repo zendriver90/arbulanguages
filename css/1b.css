@@ -1,0 +1,1986 @@
+.grid-container {
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    gap: 60px;
+    row-gap: 15px;
+    justify-content: center;
+    align-items: center;
+}
+
+#textToShow1 {
+      font-size: 40px; /* Dostosuj rozmiar czcionki według potrzeb */
+    }
+	 #textToShow2 {
+      font-size: 40px; /* Dostosuj rozmiar czcionki według potrzeb */
+    }
+	 #textToShow1b {
+      font-size: 40px; /* Dostosuj rozmiar czcionki według potrzeb */
+	    display: flex;
+  justify-content: center;
+  align-items: center;
+    }
+	 #textToShow2 {
+      font-size: 40px; /* Dostosuj rozmiar czcionki według potrzeb */
+    }
+    /* Styl dla powiększonego słowa IS */
+    .enlarged {
+      font-size: 2.0em; /* Możesz dostosować wielkość czcionki według potrzeb */
+    }
+	    .enlarged2 {
+      font-size: 1.0em; /* Możesz dostosować wielkość czcionki według potrzeb */
+    }	    
+	.enlarged2d {
+      font-size: 1.2em; /* Możesz dostosować wielkość czcionki według potrzeb */
+    }
+		    .enlarged2a {
+      font-size: 1.6em; /* Możesz dostosować wielkość czcionki według potrzeb */
+    }
+		    .enlarged2b {
+      font-size: 0.7em; /* Możesz dostosować wielkość czcionki według potrzeb */
+    }
+			    .enlarged2c {
+      font-size: 0.9em; /* Możesz dostosować wielkość czcionki według potrzeb */
+    }
+
+#obrazek-i-tekst-container {
+    padding-right: 20px; /* Przesunięcie obrazka w prawo */
+    padding-top: 100px; /* Przesunięcie obrazka w dół */
+}
+
+#obrazek {
+    /* Dodatkowe style dla obrazka */
+}
+ 
+.container2 {
+  position: fixed;
+  padding-right: 30px;
+  top: 40px; /* Dostosuj wartość top, aby odpowiednio umieścić kontenery */
+  right: 0px;
+  width: 80px;
+  overflow: hidden;
+  height: calc(100% - 45px); /* Dostosuj wartość wysokości, uwzględniając odstępy */
+  border: 2px solid red;
+  box-sizing: border-box;
+  z-index: 7;
+}
+ 
+.inner-container {
+  margin: 2px;
+  width: 72px;
+  height: calc(100% / 5 - 22px);
+  background-color: #ddd;
+  overflow: hidden;
+  transition: opacity 0.2s ease;
+}
+ 
+    .inner-container.active {
+      border: 2px solid green;
+	  background-color: green;
+    }
+.ass img,
+.krol img,
+.dama img,
+.jopek img,
+.10tka img {
+  transition: all 0.75s ease-out;
+  transform:  rotateY(28deg) rotateX(40deg);
+}
+ 
+.arrow-up-container,
+.arrow-down-container {
+  position: fixed;
+  width: 80px;
+  right: 0px;
+  height: 15px;
+  overflow: auto; /* Dodaj warstwę na górze, aby strzałki były widoczne */
+  box-sizing: border-box;
+  margin: 5px solid black;
+  height: calc(100% / 10 - 20px);
+  background-color: #ddd;
+  border: 2px solid blue;
+}
+ 
+.arrow-up-container {
+  top: 0;
+}
+ 
+.arrow-down-container {
+  bottom: 50px;
+    z-index: 10;
+}
+ 
+.arrow-up,
+.arrow-down {
+  width: 0;
+  height: 0;
+  border-style: solid;
+}
+ 
+.arrow-up {  
+  right: 50%;
+  border-width: 0 20px 20px 20px;
+  border-color: transparent transparent blue transparent;
+  top: 5px;
+}
+ 
+.arrow-down {
+  right: 50%;
+  position: center;
+  border-width: 20px 20px 0 20px;
+  border-color: blue transparent transparent transparent;
+    z-index: 10;
+}
+ 
+.navbar {
+  width: 100%;
+  height: 45px;
+  background-color: #f0f0f0; /* Kolor tła paska */
+  bottom: 0px;
+  position: fixed;
+    z-index: 100;
+}
+
+.dot-button {
+  width: 135px;
+  height: 135px;
+  background-color: orange; /* Kolor kropki */
+  border-radius: 50%; /* Ustawienie kształtu kropki na okrąg */
+  position: absolute;
+  top: 50%; /* Pozycja pionowa kropki */
+  transform: translate(-50%, -50%); /* Przesunięcie kropki na środek */
+  left: 50%; /* Pozycja pozioma na środku */
+  z-index: 100;
+}
+ 
+.content {
+  padding-bottom: 60px; /* Dodaj odstęp na dole, aby uniknąć zakrywania treści przez pasek nawigacyjny */
+  z-index: 9;
+}
+ 
+.section {
+    color: black;
+    font-size: 24px;
+    text-align: center;
+    transition: transform 0.5s;
+}
+ 
+.section.active {
+    transform: translateY(0);
+}
+ 
+#displayplayer.on {
+  text-align: center;
+  display: block;
+}
+#displayplayer.off {
+  text-align: center;
+  display: none;
+}
+
+.przycisk {
+  position: absolute;
+  top: 150px;
+  left: 11px;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  color: orange; /* Kolor tekstu */
+  font-size: 40px;
+  z-index: 3;
+}
+ 
+#startButton5 {
+animation: blink 1s infinite; /* Ustawienie animacji */
+  position: relative; /* Ustawienie na relative, aby centrować przycisk */
+  height: 100px;
+  width: 300px;
+  position: center;
+  background-color: blue; /* Kolor tła przycisku */
+  color: white; /* Kolor tekstu przycisku */
+  z-index: 5;
+  border-radius: 8px;
+  opacity: 0.7;
+}
+.przycisk4 {
+  position: absolute;
+  top: 270px;
+  left: 11px;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  color: orange; /* Kolor tekstu */
+  font-size: 40px;
+  z-index: 90;
+}
+ 
+#startButton7 {
+  position: relative; /* Ustawienie na relative, aby centrować przycisk */
+  height: 100px;
+  width: 300px;
+  position: center;
+  background-color: blue; /* Kolor tła przycisku */
+  color: white; /* Kolor tekstu przycisku */
+  z-index: 90;
+  border-radius: 8px;
+  opacity: 0.7;
+}
+.przycisk5 {
+  position: absolute;
+  top: 3000px;
+  left: 11px;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  color: orange; /* Kolor tekstu */
+  font-size: 40px;
+  z-index: 90;
+}
+ 
+#startButton8 {
+animation: blink 1s infinite; /* Ustawienie animacji */
+  position: relative; /* Ustawienie na relative, aby centrować przycisk */
+  height: 100px;
+  width: 150px;
+  position: center;
+  background-color: blue; /* Kolor tła przycisku */
+  color: white; /* Kolor tekstu przycisku */
+  z-index: 90;
+  border-radius: 8px;
+  opacity: 0.7;
+}
+
+@keyframes blink {
+  0% {
+    background-color: red; /* Początkowy kolor tła */
+  }
+  50% {
+    background-color: blue; /* Kolor tła pośredni */
+  }
+  100% {
+    background-color: red; /* Powrót do początkowego koloru tła */
+  }
+}
+
+#kasowanie {
+  position: absolute;
+  height: 50px;
+    bottom: -7px;
+  right: 180px; /* Odległość od prawej strony */
+  padding: 8px 16px;
+  background-color: blue; /* Kolor tła przycisku */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  display: block;
+}
+#dalej.hej2 {
+  position: absolute;
+  height: 28px;
+    width: 120px;
+  bottom: 23px;
+  right: 500px; /* Odległość od prawej strony */
+  padding: 8px 16px;
+  background-color: gray; /* Kolor tła przycisku */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  display: block;
+}
+#dalej.hej3 {
+  position: absolute;
+  height: 28px;
+    width: 120px;
+  bottom: 23px;
+  right: 500px; /* Odległość od prawej strony */
+  padding: 8px 16px;
+  background-color: blue; /* Kolor tła przycisku */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  display: block;
+}
+#cofnij {
+  position: absolute;
+  height: 28px;
+    width: 120px;
+  bottom: -4px;
+  right: 490px; /* Odległość od prawej strony */
+  padding: 8px 16px;
+  background-color: gray; /* Kolor tła przycisku */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  display: block;
+  z-index: 110;
+}
+#odswiezone {
+  position: absolute;
+  height: 56px;
+    width: 143px;
+  bottom: -4px;
+  right: 838px; /* Odległość od prawej strony */
+  padding: 8px 16px;
+  background-color: yellow; /* Kolor tła przycisku */
+  color: black;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  opacity: 0.8;
+  display: block;
+  z-index: 50;
+}
+#pomin {
+  position: absolute;
+  height: 56px;
+    width: 90px;
+  bottom: -4px;
+  right: 410px; /* Odległość od prawej strony */
+  padding: 8px 16px;
+  background-color: yellow; /* Kolor tła przycisku */
+  color: black;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+    opacity: 0.8;
+  display: block;
+  z-index: 100;
+}
+#znam {
+  position: absolute;
+  height: 28px;
+  width: 120px;
+  bottom: -4px;
+  right: 730px; /* Odległość od prawej strony */
+  padding: 8px 16px;
+  background-color: green; /* Kolor tła przycisku */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  display: block;
+  z-index: 110;
+}
+#juzznam.hej2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  position: absolute;
+  height: 28px;
+    width: 130px;
+  bottom: 23px;
+  right: 720px; /* Odległość od prawej strony */
+  padding: 8px 16px;
+  background-color: gray; /* Kolor tła przycisku */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  z-index: 60;
+  display: block;
+  z-index: 90;
+}
+#juzznam.hej3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  position: absolute;
+  height: 28px;
+    width: 130px;
+  bottom: 23px;
+  right: 720px; /* Odległość od prawej strony */
+  padding: 8px 16px;
+  background-color: blue; /* Kolor tła przycisku */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  z-index: 60;
+  display: block;
+  z-index: 90;
+}
+
+#trening.hidden {
+  position: absolute;
+  height: 70px;
+  width: 117px;
+  bottom: -7px;
+  right: 665px; /* Odległość od prawej strony */
+  padding: 8px 16px;
+  background-color: orange; /* Kolor tła przycisku */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  display: none;
+  z-index: 110;
+}
+#trening.hej3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  position: absolute;
+  height: 33px;
+    width: 110px;
+  bottom: 15px;
+  right: 625px; /* Odległość od prawej strony */
+  padding: 0px 5px;
+  background-color: orange; /* Kolor tła przycisku */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  z-index: 60;
+  display: block;
+  z-index: 145;
+}
+#trening2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  position: absolute;
+  height: 30px;
+    width: 125px;
+  bottom: -5px;
+  right: 611px; /* Odległość od prawej strony */
+  padding: 8px 16px;
+  background-color: orange; /* Kolor tła przycisku */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  z-index: 60;
+  display: block;
+  z-index: 140;
+}
+#story.hidden {
+  position: absolute;
+  height: 70px;
+  top: 0%; /* Pozycja pionowa przycisku */
+  right: 180px; /* Odległość od prawej strony */
+  padding: 8px 16px;
+  background-color: blue; /* Kolor tła przycisku */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  display: none;
+}
+#story.hej3 {
+  position: absolute;
+  height: 70px;
+  bottom: -9px; /* Pozycja pionowa przycisku */
+  right: 620px; /* Odległość od prawej strony */
+  padding: 8px 16px;
+  background-color: orange; /* Kolor tła przycisku */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  z-index: 150;
+  display: block;
+}
+#slowoagain {
+  position: absolute;
+  height: 70px;
+  top: 0%; /* Pozycja pionowa przycisku */
+  right: 180px; /* Odległość od prawej strony */
+  padding: 8px 16px;
+  background-color: red; /* Kolor tła przycisku */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  display: block;
+}
+#storyplay {
+  position: absolute;
+  height: 39px;
+  width: 220px;
+  bottom: 48px; /* Pozycja pionowa przycisku */
+  right: 565px; /* Odległość od prawej strony */
+  padding: 8px 16px;
+  background-color: orange; /* Kolor tła przycisku */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  display: block;
+  z-index: 160;
+}
+ 
+.nowe,
+.nowei {
+    position: relative;
+    font-family: Calibri, sans-serif;
+    font-size:13px;
+    font-weight: bold;
+    width: 160px;
+    height: 32px;
+    background:yellow;
+    border-radius: 8px;
+}
+ 
+.nowe.selected1,
+.nowe.selected3,
+.nowe.selected5,
+.nowe.selected7,
+.nowe.selected9,
+.nowe.selected11,
+.nowe.selected13,
+.nowe.selected15,
+.nowe.selected17,
+.nowe.selected19,
+.nowe.selected21,
+.nowe.selected23 {
+    border: 2px solid;
+    border-radius: 8px;
+    background: green;
+}
+ 
+.nowe.selected2,
+.nowe.selected4,
+.nowe.selected6,
+.nowe.selected8,
+.nowe.selected10,
+.nowe.selected12,
+.nowe.selected14,
+.nowe.selected16,
+.nowe.selected18,
+.nowe.selected20,
+.nowe.selected22 {
+    border: 2px solid;
+    border-radius: 8px;
+    background: orange;
+}
+ 
+.Button1.active,
+.Button11.active,
+.Button111.active,
+.Button1111.active,
+.Button11111.active,
+.Button111111.active,
+.Button1i.active,
+.Button11i.active,
+.Button111i.active,
+.Button1111i.active,
+.Button11111i.active,
+.Button111111i.active,
+.Button1j.active,
+.Button11j.active,
+.Button111j.active,
+.Button1111j.active,
+.Button11111j.active,
+.Button111111j.active {
+	text-align: center;
+    font-size: 13px;
+    font-weight: bold;
+    width: 100px;
+    height: 25px;
+    background: orange;
+    color: yellow;
+    border-radius: 8px;
+}
+ 
+.Button1.inactive,
+.Button11.inactive,
+.Button111.inactive,
+.Button1111.inactive,
+.Button11111.inactive,
+.Button111111.inactive,
+.Button1i.inactive,
+.Button11i.inactive,
+.Button111i.inactive,
+.Button1111i.inactive,
+.Button11111i.inactive,
+.Button111111i.inactive,
+.Button1j.inactive,
+.Button11j.inactive,
+.Button111j.inactive,
+.Button1111j.inactive,
+.Button11111j.inactive,
+.Button111111j.inactive {
+	text-align: center;
+    font-size: 13px;
+    font-weight: bold;
+    width: 100px;
+    height: 25px;
+    background: grey;
+    color: black;
+    border-radius: 8px;
+}
+ 
+.Button2.active,
+.Button22.active,
+.Button222.active,
+.Button2222.active,
+.Button22222.active,
+.Button222222.active,
+.Button2i.active,
+.Button22i.active,
+.Button222i.active,
+.Button2222i.active,
+.Button22222i.active,
+.Button222222i.active,
+.Button2j.active,
+.Button22j.active,
+.Button222j.active,
+.Button2222j.active,
+.Button22222j.active,
+.Button222222j.active  {
+	text-align: center;
+    font-size: 13px;
+    font-weight: bold;
+    width: 100px;
+    height: 25px;
+    background: green;
+    color: yellow;
+    border-radius: 8px;
+}
+ 
+.Button2.inactive,
+.Button22.inactive,
+.Button222.inactive,
+.Button2222.inactive,
+.Button22222.inactive,
+.Button222222.inactive,
+.Button2i.inactive,
+.Button22i.inactive,
+.Button222i.inactive,
+.Button2222i.inactive,
+.Button22222i.inactive,
+.Button222222i.inactive,
+.Button2j.inactive,
+.Button22j.inactive,
+.Button222j.inactive,
+.Button2222j.inactive,
+.Button22222j.inactive,
+.Button222222j.inactive {
+	text-align: center;
+    font-size:13px;
+    font-weight: bold;
+    width: 100px;
+    height: 25px;
+    background: grey;
+    color: black;
+    border-radius: 8px;
+}
+ 
+.selected,
+.selected3,
+.selected5 {
+    color: black;
+    background:orange;
+    border: solid;
+}
+.selected2,
+.selected4,
+.selected5 {
+    color: black;
+    background:green;
+    border: solid;
+}
+.item,
+.item2,
+.item3,
+.item4,
+.item5,
+.item6,
+.itemi,
+.item2i,
+.item3i,
+.item4i,
+.item5i,
+.item6i,
+.itemj,
+.item2j,
+.item3j,
+.item4j,
+.item5j,
+.item6j,
+.iteml,
+.item2l,
+.item3l,
+.item4l,
+.item5l,
+.item6l,
+.itemk,
+.item2k,
+.item3k,
+.item4k,
+.item5k,
+.item6k {
+  position: relative;
+  background: white;
+  width: 294px;
+  border: 2px solid black;
+  border-radius: 8px;
+  z-index: 1;
+}
+ 
+.overlay,
+.overlay2,
+.overlay3,
+.overlay4,
+.overlay5,
+.overlay6,
+.overlay7,
+.overlay8,
+.overlay9,
+.overlay10,
+.overlay11,
+.overlay12,
+.overlay13,
+.overlay14,
+.overlay15,
+.overlay16,
+.overlay17,
+.overlay18 {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background-color: green;
+  z-index: 23;
+  opacity: 0.2;
+  display: none;
+  }
+ 
+.Buttonnowyy,
+.Buttonnowyy2,
+.Buttonnowyy3,
+.Buttonnowyy4,
+.Buttonnowyy5,
+.Buttonnowyy6,
+.Buttonnowyy7,
+.Buttonnowyy8,
+.Buttonnowyy9,
+.Buttonnowyy10,
+.Buttonnowyy11,
+.Buttonnowyy12,
+.Buttonnowyy13,
+.Buttonnowyy14,
+.Buttonnowyy15,
+.Buttonnowyy16,
+.Buttonnowyy17,
+.Buttonnowyy18 {
+  position: absolute;
+      top: 160px; /* Przesunięcie względem góry diva */
+    right: 117px; /* Przesunięcie względem prawej strony diva */
+  z-index: 30;
+  display: none;
+}
+ 
+#itemitem.orange,
+#itemitem2.orange,
+#itemitem3.orange,
+#itemitem4.orange,
+#itemitem5.orange,
+#itemitem6.orange,
+#itemitemi.orange,
+#itemitem2i.orange,
+#itemitem3i.orange,
+#itemitem4i.orange,
+#itemitem5i.orange,
+#itemitem6i.orange,
+#itemitemj.orange,
+#itemitem2j.orange,
+#itemitem3j.orange,
+#itemitem4j.orange,
+#itemitem5j.orange,
+#itemitem6j.orange,
+#itemitemj.orange,
+#itemitem2k.orange,
+#itemitem3k.orange,
+#itemitem4k.orange,
+#itemitem5k.orange,
+#itemitem6k.orange {
+background-color: orange;
+}
+ 
+#itemitem.green,
+#itemitem2.green,
+#itemitem3.green,
+#itemitem4.green,
+#itemitem5.green,
+#itemitem6.green,
+#itemitemi.green,
+#itemitem2i.green,
+#itemitem3i.green,
+#itemitem4i.green,
+#itemitem5i.green,
+#itemitem6i.green,
+#itemitemj.green,
+#itemitem2j.green,
+#itemitem3j.green,
+#itemitem4j.green,
+#itemitem5j.green,
+#itemitem6j.green,
+#itemitemk.green,
+#itemitem2k.green,
+#itemitem3k.green,
+#itemitem4k.green,
+#itemitem5k.green,
+#itemitem6k.green {
+background-color: green;
+}
+
+.button1,
+.button2,
+.button3 {
+  position: absolute;
+  top: 200px; /* Możesz dostosować położenie w pionie */
+  left: 200px; /* Możesz dostosować położenie w poziomie */
+  padding: 10px 20px;
+  background-color: #ffffff; /* Możesz dostosować kolor tła przycisków */
+  border: 1px solid #000000; /* Możesz dostosować styl obramowania przycisków */
+  border-radius: 5px; /* Możesz dostosować zaokrąglenie rogów przycisków */
+  font-size: 16px;
+  cursor: pointer;
+}
+
+#33 {
+    position: relative;
+    width: 294px;
+    height: 201px;
+    background-color: grey;
+	z-index: 1;
+          position: relative;
+  margin: 0 auto;
+}
+.caption {
+    position: relative;
+  text-align: center;
+    /* Make the caption a block so it occupies its own line. */
+    display: block;
+    color: black;
+}
+ 
+.bordered {
+      border: 2px solid red; /* Obramowanie, które ma się wyświetlać */
+      border-radius: 8px;
+	    z-index: 300;
+    }
+ 
+.transform {
+  position: relative;
+  top: 35px;
+  left: 80px;
+  z-index: 300;
+  }
+ 
+.transformb {
+  position: relative;
+  top: 35px;
+  z-index: 300;
+  }
+ 
+.transformc {
+  position: relative;
+  top: 35px;
+  right: 80px;
+  z-index: 300;
+  }
+ 
+.transformd {
+  transform: scale(1.5);
+  position: relative;
+  bottom: 35px;
+  left: 80px;
+  z-index: 2;
+  }
+ 
+.transforme {
+  transform: scale(1.5);
+  position: relative;
+  bottom: 35px;
+  z-index: 2;
+  }
+ 
+.transformf {
+  transform: scale(1.5);
+  position: relative;
+  bottom: 35px;
+  right: 80px;
+  z-index: 2;
+  }
+ 
+.hideBefore::before {
+  content: "";
+  position: absolute;
+  top: -10px;
+  left: 50%;
+  transform: translateX(-50%);
+  border-width: 20px 20px 0;
+  border-style: solid;
+  border-color: blue transparent transparent;
+    z-index: 300;
+}
+ 
+#audioplayer.off {
+	width: 220px;
+	height: 40px;
+	margin: auto auto auto;
+	border: solid;
+	display: none;
+}
+#audioplayer.add {
+	width: 255px;
+	height: 40px;
+	margin: auto auto auto;
+	border: solid;
+	display: block;
+	border-radius: 8px;
+}
+
+#pButton{
+    height: 38px; 
+    width: 38px;
+    border: none;
+    background-size: 50% 50%;
+    background-repeat: no-repeat;
+    background-position: center;
+    float: left;
+	z-index: 200;
+	outline: none;
+}
+
+.play{background: url('/arbulanguage.com/img/play2.png') ;}
+.pause{background: url('/arbulanguage.com/img/stop.jpg') ;}
+
+#timeline{
+	width: 210px;
+	height: 20px;
+	margin-top: 8px;
+	float: left;
+	border-radius: 15px;
+	background: rgba(0,0,0,.3);
+  
+}
+#playhead{
+	width: 18px;
+	height: 18px;
+	border-radius: 50%;
+	margin-top: 1px;
+	background: rgba(0, 0, 0,1);
+
+}
+ 
+#word {
+	height: 40px;
+	font-size: 15px;
+    display: grid;
+	text-align: center;
+	justify-content: center;
+	align-items: center;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto; /* Dwa wiersze o automatycznej wysokości */
+}
+ 
+#audioplayerB {
+    grid-column: 2 / span 2; /* Rozciągnięcie elementu na dwóch kolumnach */
+    grid-row: 1;
+	width: 48px;
+	height: 48px;
+	text-align: right;
+	justify-content: right;
+	align-items: right;
+	border: solid;
+	border-radius: 8px;
+}
+ 
+#pButtonB {
+    height:40px; 
+    width: 40px;
+    border: none;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    float:left;
+    outline:none;
+}
+
+.playB{background: url('/arbulanguage.com/img/play2.png') ;}
+.pauseB{background: url('/arbulanguage.com/img/stop.jpg') ;}
+
+#audioplayerA2.off {
+	width: 220px;
+	height: 40px;
+	margin: auto auto auto;
+	border: solid;
+	display: none;
+}
+#audioplayerA2.add {
+	width: 255px;
+	height: 40px;
+	margin: auto auto auto;
+	border: solid;
+	display: block;
+	border-radius: 8px;
+}
+
+#pButtonA2{
+    height: 38px; 
+    width: 38px;
+    border: none;
+    background-size: 50% 50%;
+    background-repeat: no-repeat;
+    background-position: center;
+    float: left;
+	z-index: 200;
+	outline: none;
+}
+
+.playA2{background: url('/arbulanguage.com/img/play2.png') ;}
+.pauseA2{background: url('/arbulanguage.com/img/stop.jpg') ;}
+
+#timelineA2{
+	width: 210px;
+	height: 20px;
+	margin-top: 8px;
+	float: left;
+	border-radius: 15px;
+	background: rgba(0,0,0,.3);
+  
+}
+#playheadA2{
+	width: 18px;
+	height: 18px;
+	border-radius: 50%;
+	margin-top: 1px;
+	background: rgba(0, 0, 0,1);
+
+}
+ 
+#wordB {
+	height: 40px;
+	font-size: 15px;
+    display: grid;
+	text-align: center;
+	justify-content: center;
+	align-items: center;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto; /* Dwa wiersze o automatycznej wysokości */
+}
+ 
+#audioplayerB2{
+    grid-column: 2 / span 2; /* Rozciągnięcie elementu na dwóch kolumnach */
+    grid-row: 1;
+	width: 48px;
+	height: 48px;
+	text-align: right;
+	justify-content: right;
+	align-items: right;
+	border: solid;
+	border-radius: 8px;
+}
+ 
+#pButtonB2{
+    height:40px; 
+    width: 40px;
+    border: none;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    float:left;
+    outline:none;
+}
+.playB2{background: url('/arbulanguage.com/img/play2.png') ;}
+.pauseB2{background: url('/arbulanguage.com/img/stop.jpg') ;}
+
+#audioplayerA3.off {
+	width: 220px;
+	height: 40px;
+	margin: auto auto auto;
+	border: solid;
+	display: none;
+}
+#audioplayerA3.add {
+	width: 255px;
+	height: 40px;
+	margin: auto auto auto;
+	border: solid;
+	display: block;
+	border-radius: 8px;
+}
+
+#pButtonA3 {
+    height: 38px; 
+    width: 38px;
+    border: none;
+    background-size: 50% 50%;
+    background-repeat: no-repeat;
+    background-position: center;
+    float: left;
+	z-index: 200;
+	outline: none;
+}
+
+.playA3{background: url('/arbulanguage.com/img/play2.png') ;}
+.pauseA3{background: url('/arbulanguage.com/img/stop.jpg') ;}
+
+#timelineA3{
+	width: 210px;
+	height: 20px;
+	margin-top: 8px;
+	float: left;
+	border-radius: 15px;
+	background: rgba(0,0,0,.3);
+  
+}
+#playheadA3{
+	width: 18px;
+	height: 18px;
+	border-radius: 50%;
+	margin-top: 1px;
+	background: rgba(0, 0, 0,1);
+
+}
+ 
+#wordC {
+	height: 40px;
+	font-size: 15px;
+    display: grid;
+	text-align: center;
+	justify-content: center;
+	align-items: center;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto; /* Dwa wiersze o automatycznej wysokości */
+}
+
+#audioplayerB3{
+    grid-column: 2 / span 2; /* Rozciągnięcie elementu na dwóch kolumnach */
+    grid-row: 1;
+	width: 48px;
+	height: 48px;
+	text-align: right;
+	justify-content: right;
+	align-items: right;
+	border: solid;
+	border-radius: 8px;
+}
+ 
+#pButtonB3{
+    height:40px; 
+    width: 40px;
+    border: none;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    float:left;
+    outline:none;
+}
+.playB3{background: url('/arbulanguage.com/img/play2.png') ;}
+.pauseB3{background: url('/arbulanguage.com/img/stop.jpg') ;}
+
+@media (max-width: 999px) {
+    /* Opcjonalny styl dla tekstu */
+    #textToShow1 {
+      font-size: 16px; /* Dostosuj rozmiar czcionki według potrzeb */
+    }
+    /* Styl dla powiększonego słowa IS */
+    .enlarged {
+      font-size: 1.5em; /* Możesz dostosować wielkość czcionki według potrzeb */
+    }
+    
+    .button1,
+.button2,
+.button3 {
+  position: absolute;
+  background-color: #ffffff; /* Możesz dostosować kolor tła przycisków */
+  border: 1px solid #000000; /* Możesz dostosować styl obramowania przycisków */
+  border-radius: 5px; /* Możesz dostosować zaokrąglenie rogów przycisków */
+  font-size: 14px;
+  cursor: pointer;
+}
+
+    #container1 {
+      width: 100px;
+      max-height: calc(100vh - 0px); /* Maksymalna wysokość równa wysokości widoku minus marginesy */
+      border: 1px solid orange;
+      overflow: auto;
+      position: fixed; /* Ustawienie kontenera jako przyczepionego do lewej krawędzi widoku */
+      top: 0; /* Umiejscowienie kontenera na górze widoku */
+      left: 0; /* Umiejscowienie kontenera na lewej krawędzi widoku */
+      padding: 1px;
+      margin-top: 50px; /* Odstęp między obrazkami */
+    }
+        #container2 {
+      width: 100px;
+      max-height: calc(100vh - 0px); /* Maksymalna wysokość równa wysokości widoku minus marginesy */
+      border: 1px solid orange;
+      overflow: auto;
+      position: fixed; /* Ustawienie kontenera jako przyczepionego do lewej krawędzi widoku */
+      top: 0; /* Umiejscowienie kontenera na górze widoku */
+      left: 0; /* Umiejscowienie kontenera na lewej krawędzi widoku */
+      padding: 1px;
+      margin-top: 50px; /* Odstęp między obrazkami */
+    }
+        #right-container {
+      width: 100px;
+      max-height: calc(100vh - 20px); /* Maksymalna wysokość równa wysokości widoku minus marginesy */
+      border: 1px solid orange;
+      overflow: auto;
+      position: fixed; /* Ustawienie kontenera jako przyczepionego do lewej krawędzi widoku */
+      top: 0; /* Umiejscowienie kontenera na górze widoku */
+      right: 0; /* Umiejscowienie kontenera na lewej krawędzi widoku */
+      padding: 2px;
+   }
+            #bottom-container {
+      width: 100px;
+      max-height: calc(100vh - 20px); /* Maksymalna wysokość równa wysokości widoku minus marginesy */
+      border: 1px solid orange;
+      overflow: auto;
+      position: fixed; /* Ustawienie kontenera jako przyczepionego do lewej krawędzi widoku */
+      bottom: 0; /* Umiejscowienie kontenera na górze widoku */
+      left: 0; /* Umiejscowienie kontenera na lewej krawędzi widoku */
+      padding: 2px;
+    }
+    .image-wrapper {
+      max-width: 100%; /* Maksymalna szerokość obrazka równa szerokości kontenera */
+      height: auto; /* Automatyczna wysokość proporcjonalna */
+      margin-bottom: 2px; /* Odstęp między obrazkami */
+    }
+    img {
+      width: 100%; /* Dopasowanie obrazka do szerokości kontenera */
+      height: auto; /* Automatyczna wysokość proporcjonalna */
+    }
+
+    #nauka {
+      width: 100px;
+      border: 1px solid orange;
+      overflow: auto;
+      position: fixed; /* Ustawienie kontenera jako przyczepionego do lewej krawędzi widoku */
+      top: 0; /* Umiejscowienie kontenera na górze widoku */
+      left: 0; /* Umiejscowienie kontenera na lewej krawędzi widoku */
+      padding: 1px;
+    }
+    
+        #nauka3 {
+      width: 100px;
+      border: 1px solid orange;
+      overflow: auto;
+      position: fixed; /* Ustawienie kontenera jako przyczepionego do lewej krawędzi widoku */
+      top: 0; /* Umiejscowienie kontenera na górze widoku */
+      left: 0; /* Umiejscowienie kontenera na lewej krawędzi widoku */
+      padding: 1px;
+      margin-top: 60px
+    }
+    
+    #nauka2 {
+        width: 100%;
+        font-size: 8px;
+    }
+ .container2 {
+  position: fixed;
+  padding-right: 30px;
+  padding-top: 30px;
+  top: 600px; /* Dostosuj wartość top, aby odpowiednio umieścić kontenery */
+  right: 0px;
+  width: 80px;
+  overflow: hidden;
+  height: calc(100% - 1400px); /* Dostosuj wartość wysokości, uwzględniając odstępy */
+  border: 2px solid red;
+  box-sizing: border-box;
+  z-index: 7;
+  bottom: 1000px;
+}
+	tr:nth-child(2) {
+		height: 450px;
+		}
+	tr:nth-child(3) {
+		height: 450px;
+}
+ 
+.inner-container {
+  margin: 2px;
+  width: 72px;
+  height: calc(100% / 5 - 22px);
+  background-color: #ddd;
+    overflow: hidden;
+	      transition: opacity 0.2s ease;
+		    bottom: 1000px;
+}
+ 
+.navbar {
+  width: 100%;
+  height: 100px;
+  background-color: #f0f0f0; /* Kolor tła paska */
+  bottom: 0px;
+  position: fixed;
+}
+
+.dot-button {
+  width: 180px;
+  height: 180px;
+  background-color: red; /* Kolor kropki */
+  border-radius: 50%; /* Ustawienie kształtu kropki na okrąg */
+  position: absolute;
+  top: 50%; /* Pozycja pionowa kropki */
+  transform: translate(-50%, -50%); /* Przesunięcie kropki na środek */
+  left: 50%; /* Pozycja pozioma na środku */
+  z-index: 50;
+}
+
+.przycisk5 {
+  position: absolute;
+  top: 4900px;
+  left: 18px;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  color: orange; /* Kolor tekstu */
+  font-size: 40px;
+  z-index: 90;
+}
+ 
+#startButton8 {
+  position: relative; /* Ustawienie na relative, aby centrować przycisk */
+  height: 100px;
+  width: 150px;
+  position: center;
+  background-color: blue; /* Kolor tła przycisku */
+  color: white; /* Kolor tekstu przycisku */
+  z-index: 90;
+  border-radius: 8px;
+  opacity: 0.7;
+}
+
+#kasowanie {
+  position: absolute;
+  height: 70px;
+  top: 0%; /* Pozycja pionowa przycisku */
+  right: 180px; /* Odległość od prawej strony */
+  padding: 8px 16px;
+  background-color: blue; /* Kolor tła przycisku */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  display: block;
+}
+#dalej {
+  position: absolute;
+  height: 70px;
+  top: 0%; /* Pozycja pionowa przycisku */
+  right: 700px; /* Odległość od prawej strony */
+  padding: 8px 16px;
+  background-color: gray; /* Kolor tła przycisku */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  display: block;
+}
+#znam {
+  position: absolute;
+  height: 70px;
+  top: 0%; /* Pozycja pionowa przycisku */
+  right: 1000px; /* Odległość od prawej strony */
+  padding: 8px 16px;
+  background-color: green; /* Kolor tła przycisku */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  display: block;
+}
+
+#trening.hidden {
+  position: absolute;
+  height: 70px;
+  top: 0%; /* Pozycja pionowa przycisku */
+  right: 667px; /* Odległość od prawej strony */
+  padding: 8px 16px;
+  background-color: blue; /* Kolor tła przycisku */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  display: none;
+}
+#trening.hej3 {
+  position: absolute;
+  height: 70px;
+  top: 0%; /* Pozycja pionowa przycisku */
+  right: 667px; /* Odległość od prawej strony */
+  padding: 8px 16px;
+  background-color: red; /* Kolor tła przycisku */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  z-index: 60;
+  display: block;
+}
+#story.hidden {
+  position: absolute;
+  height: 70px;
+  top: 0%; /* Pozycja pionowa przycisku */
+  right: 180px; /* Odległość od prawej strony */
+  padding: 8px 16px;
+  background-color: blue; /* Kolor tła przycisku */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  display: none;
+}
+#story.hej3 {
+  position: absolute;
+  height: 70px;
+  top: 0%; /* Pozycja pionowa przycisku */
+  right: 605px; /* Odległość od prawej strony */
+  padding: 8px 16px;
+  background-color: red; /* Kolor tła przycisku */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  display: block;
+  z-index: 160;
+}
+#storyplay {
+  position: absolute;
+  height: 70px;
+  top: 0%; /* Pozycja pionowa przycisku */
+  right: 605px; /* Odległość od prawej strony */
+  padding: 8px 16px;
+  background-color: red; /* Kolor tła przycisku */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  display: block;
+  z-index: 80;
+}
+.container {
+  position: relative;
+}
+ 
+.arrow-up-container,
+.arrow-down-container {
+  position: fixed;
+  width: 80px;
+  right: 0px;
+  height: 200px;
+  overflow: auto; /* Dodaj warstwę na górze, aby strzałki były widoczne */
+  box-sizing: border-box;
+  margin: 5px solid black;
+  height: calc(100% / 10 - 20px);
+  background-color: #ddd;
+  border: 2px solid blue;
+}
+ 
+.arrow-up-container {
+  top: 0;
+    height: 200px;
+	  height: 600px;
+}
+ 
+.arrow-down-container {
+  bottom: 145px;
+    z-index: 10;
+	  height: 650px;
+}
+ 
+.arrow-up,
+.arrow-down {
+  height: 600px;
+  width: 0;
+  height: 0;
+  border-style: solid;
+}
+ 
+.arrow-up {  
+  right: 50%;
+  border-width: 0 20px 20px 20px;
+  border-color: transparent transparent blue transparent;
+  top: 5px;
+  height: 600px;
+}
+ 
+.arrow-down {
+  right: 50%;
+  position: center;
+  border-width: 20px 20px 0 20px;
+  border-color: blue transparent transparent transparent;
+    z-index: 10;
+	  height: 600px;
+}
+ 
+ .container {
+    height: 2500px;
+	width: 1300px;
+    overflow: auto;
+}
+tr:nth-child(2) {
+		height: 0px;
+		}
+	tr:nth-child(3) {
+		height: 0px;
+		}
+	tr:nth-child(5) {
+		height: 0px;
+		}
+	tr:nth-child(6) {
+		height: 0px;
+		}
+	tr:nth-child(8) {
+		height: 0px;
+		}
+	tr:nth-child(9) {
+		height: 0px;
+		}
+        .item,
+	.item2,
+	.item3,
+	.item4,
+	.item5,
+	.item6,
+	.itemi,
+	.item2i,
+	.item3i,
+	.item4i,
+	.item5i,
+	.item6i,
+	.itemj,
+	.item2j,
+	.item3j,
+	.item4j,
+	.item5j,
+	.item6j,
+.iteml,
+.item2l,
+.item3l,
+.item4l,
+.item5l,
+.item6l,
+.itemk,
+.item2k,
+.item3k,
+.item4k,
+.item5k,
+.item6k	{
+	  transform: scale(1.15) translate(0, 0);
+	  background: white;
+	  display: inline-block;
+	  width: 294px;
+	  border: 2px solid black;
+	  border-radius: 8px;
+	  top: 0;
+	  left: 60px;
+	}
+	.transform {
+	position: relative;
+	z-index: 300;
+	  }
+ 
+	.transformb {
+	  position: relative;
+	  z-index: 305;
+	  }
+ 
+	.transformc {
+	  position: relative;
+	  z-index: 310;
+	  }
+ 
+	.transformd {
+	  position: relative;
+	  z-index: 315;
+	  }
+ 
+	.transforme {
+	  position: relative;
+	  z-index: 320;
+	  }
+ 
+	.transformf {
+	  position: relative;
+	  z-index: 325;
+	  }
+ 
+	.hideBefore::before {
+	  content: "";
+	  position: absolute;
+	  top: -10px;
+	  left: 50%;
+	  transform: translateX(-50%);
+	  border-width: 20px 20px 0;
+	  border-style: solid;
+	  border-color: blue transparent transparent;
+	}
+  
+.caption {
+    position: relative;
+  text-align: center;
+    font-size: 17px;
+    }
+    /* Make the caption a block so it occupies its own line. */
+    display: block;
+         
+
+#audioplayer.on {
+	width: 220px;
+	height: 40px;
+	margin: auto auto auto;
+	border: solid;
+	visibility: visible;
+}
+#audioplayer.add {
+	width: 220px;
+	height: 40px;
+	margin: auto auto auto;
+	border: solid;
+	visibility: inline;
+}
+ 
+#pButton{
+    height:40px; 
+    width: 40px;
+    border: none;
+    background-size: 50% 50%;
+    background-repeat: no-repeat;
+    background-position: center;
+    float:left;
+    outline:none;
+}
+ 
+.play{background: url('https://www.arbulanguages.com/img/play.png') ;}
+.pause{background: url('https://www.arbulanguages.com/img/stop.jpg') ;}
+ 
+#timeline{
+	width: 160px;
+	height: 16px;
+	margin-top: 10px;
+	float: left;
+	border-radius: 15px;
+	background: rgba(0,0,0,.3);
+ 
+}
+#playhead{
+	width: 15px;
+	height: 15px;
+	border-radius: 50%;
+	margin-top: 1px;
+	background: rgba(0, 0, 0,1);
+}
+ 
+#word {
+	height: 40px;
+	font-size: 15px;
+    display: grid;
+	text-align: center;
+	justify-content: center;
+	align-items: center;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto; /* Dwa wiersze o automatycznej wysokości */
+}
+ 
+#audioplayer2{
+    grid-column: 2 / span 2; /* Rozciągnięcie elementu na dwóch kolumnach */
+    grid-row: 1;
+	width: 48px;
+	height: 48px;
+	text-align: right;
+	justify-content: right;
+	align-items: right;
+	border: solid;
+}
+ 
+#pButton2{
+    height:40px; 
+    width: 40px;
+    border: none;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    float:left;
+    outline:none;
+}
+ 
+.play2 {
+    background: url('https://www.arbulanguages.com/img/play.png');
+}
+ 
+.pause {
+    background: url('https://www.arbulanguages.com/img/stop.jpg');
+}
+	table, th, td {
+  width: 1150px;
+  height: 100%;
+  text-align: center;
+  z-index: 8;
+  position: center;
+  padding-left: 50px;
+  padding-right: 40px;
+  z-index: 9;
+}
+div.menu {
+  width: 350%;
+  position: relative;
+  text-align: center;
+  padding-left: 50px;
+  padding-right: 40px;
+}
+}
+@media (min-width: 999px) and (max-width: 1100px) {
+  .container2 {
+  position: fixed;
+  padding-right: 30px;
+  padding-top: 5px;
+  top: 50px; /* Dostosuj wartość top, aby odpowiednio umieścić kontenery */
+  right: 0px;
+  width: 80px;
+  overflow: hidden;
+  height: calc(100% - 180px); /* Dostosuj wartość wysokości, uwzględniając odstępy */
+  border: 2px solid red;
+  box-sizing: border-box;
+  z-index: 37;
+}
+ 
+.inner-container {
+  margin: 2px;
+  width: 72px;
+  height: calc(100% / 5);
+  background-color: #ddd;
+    overflow: hidden;
+	      transition: opacity 0.2s ease;
+}
+ 
+.container {
+  position: relative;
+}
+
+.navbar {
+  width: 150px;
+  height: 60px;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: #333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 9;
+}
+ 
+.dot-button {
+  transform: scale(1.8) translateX(110px);
+  width: 70px;
+  height: 70px;
+  background-color: #f00;
+  border-radius: 50%;
+  cursor: pointer;
+  z-index: 9;
+}
+ 
+.arrow-up-container,
+.arrow-down-container {
+  position: fixed;
+  width: 80px;
+  right: 0px;
+  overflow: auto; /* Dodaj warstwę na górze, aby strzałki były widoczne */
+  box-sizing: border-box;
+  margin: 5px solid black;
+  height: calc(100% / 10);
+  background-color: #ddd;
+  border: 2px solid blue;
+}
+ 
+.arrow-up-container {
+  top: 0;
+  height: 55px;
+}
+ 
+.arrow-down-container {
+    z-index: 10;
+	height: 85px;
+}
+ 
+.arrow-up,
+.arrow-down {
+  width: 0;
+  height: 0;
+  border-style: solid;
+}
+ 
+.arrow-up {  
+  right: 50%;
+  border-width: 0 20px 20px 20px;
+  border-color: transparent transparent blue transparent;
+  top: 5px;
+}
+ 
+.arrow-down {
+  right: 50%;
+  position: center;
+  border-width: 20px 20px 0 20px;
+  border-color: blue transparent transparent transparent;
+  z-index: 10;
+  height: 600px;
+}
+ 
+ .container {
+    height: 2500px;
+	width: 1300px;
+    overflow: auto;
+}
+	tr:nth-child(2) {
+		height: 400px;
+		}
+	tr:nth-child(3) {
+		height: 400px;
+		}
+	tr:nth-child(5) {
+		height: 400px;
+		}
+	tr:nth-child(6) {
+		height: 400px;
+		}
+	tr:nth-child(8) {
+		height: 400px;
+		}
+	tr:nth-child(9) {
+		height: 400px;
+		}
+    .item,
+	.item2,
+	.item3,
+	.item4,
+	.item5,
+	.item6,
+	.itemi,
+	.item2i,
+	.item3i,
+	.item4i,
+	.item5i,
+	.item6i,
+	.itemj,
+	.item2j,
+	.item3j,
+	.item4j,
+	.item5j,
+	.item6j,
+.iteml,
+.item2l,
+.item3l,
+.item4l,
+.item5l,
+.item6l,
+.itemk,
+.item2k,
+.item3k,
+.item4k,
+.item5k,
+.item6k	{
+	  transform: scale(1.20) translate(0, 0);
+	  background: white;
+	  display: inline-block;
+	  width: 294px;
+	  border: 2px solid black;
+	  border-radius: 8px;
+	  top: 0;
+	  right: 0;
+      transition: transform 0.5s ease;
+	}
+	.transform {
+	transform: scale(2.1) translate(100px, 70px);
+    transition: transform 0.5s ease, translate 0.5s ease;
+	position: relative;
+	z-index: 7;
+	  }
+ 
+	.transformb {
+	  transform: scale(2.1) translateY(70px);
+    transition: transform 0.5s ease, translate 0.5s ease;
+	  position: relative;
+	  top: 35px;
+	  z-index: 2;
+	  }
+ 
+	.transformc {
+	  transform: scale(2.1) translate(-100px, 70px);
+    transition: transform 0.5s ease, translate 0.5s ease;
+	  position: relative;
+	  top: 35px;
+	  left: 20px;
+	  z-index: 2;
+	  }
+ 
+	.transformd {
+	  transform: scale(2.1) translate(100px, -70px);
+    transition: transform 0.5s ease, translate 0.5s ease;
+	  position: relative;
+	  bottom: 35px;
+	  left: 20px;
+	  z-index: 2;
+	  }
+ 
+	.transforme {
+	  transform: scale(2.1) translateY(-70px);
+    transition: transform 0.5s ease, translate 0.5s ease;
+	  position: relative;
+	  bottom: 35px;
+	  z-index: 2;
+	  }
+ 
+	.transformf {
+	  transform: scale(2.1) translate(-100px, -70px);
+    transition: transform 0.5s ease, translate 0.5s ease;
+	  position: relative;
+	  bottom: 35px;
+	  right: 20px;
+	  z-index: 2;
+	  }
+ 
+	.hideBefore::before {
+	  content: "";
+	  position: absolute;
+	  top: -10px;
+	  left: 50%;
+	  transform: translateX(-50%);
+	  border-width: 20px 20px 0;
+	  border-style: solid;
+	  border-color: blue transparent transparent;
+	}
+ 
+	table, th, td {
+  width: 1150px;
+  height: 100%;
+  text-align: center;
+  z-index: 8;
+  position: center;
+  padding-left: 50px;
+  padding-right: 40px;
+  z-index: 9;
+}
+div.menu {
+  width: 350%;
+  position: relative;
+  text-align: center;
+  padding-left: 50px;
+  padding-right: 40px;
+}
+}

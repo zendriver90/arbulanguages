@@ -1,0 +1,88 @@
+
+<html>
+<head>
+  <title>Przykład zapisywania wyborów obrazków</title>
+</head>
+<body>
+
+<!-- Przyciski do wyboru obrazków -->
+<button onclick="pokazObrazek('obrazek7', 'container1')">Wybierz obrazek 7 do kontenera 1</button>
+<button onclick="pokazObrazek('obrazek8', 'container1')">Wybierz obrazek 8 do kontenera 1</button>
+
+<button onclick="pokazObrazek('obrazek9', 'container2')">Wybierz obrazek 9 do kontenera 2</button>
+<button onclick="pokazObrazek('obrazek10', 'container2')">Wybierz obrazek 10 do kontenera 2</button>
+
+<!-- Przycisk do zapisania wybranych obrazków -->
+<button onclick="zapiszDwaWybory()">Zapisz dwa wybory</button>
+
+<script>
+  const loadedImages = {
+    container1: [],
+    container2: []
+  };
+
+  function pokazObrazek(nazwaObrazka, containerId) {
+    const container = loadedImages[containerId];
+    container.push(nazwaObrazka);
+  }
+
+  function zapiszDwaWybory() {
+    const wybor1 = loadedImages.container1.slice(-1)[0];
+    const wybor2 = loadedImages.container2.slice(-1)[0];
+
+    console.log('Pierwszy wybór:', wybor1);
+    console.log('Drugi wybór:', wybor2);
+  }
+</script>
+<div class="menu">
+<button id="hej" class="nowe">HE</button><button id="hejnowe" class="nowe">IS</button><button id="hejnowes" class="nowe">OBEDIENT</button><button id="hejnowess" class="nowe">TO</button><button id="hejnowesss" class="nowe">SCIENCE</button><button id="hejnowessss" class="nowe">PROCEDURE</button>
+</div>
+<div class="grid-container">
+<div id="itemitem4" class="item4">
+    <img id="33" src="img/fiszki1/1d.jpg"/>
+    <span class="caption"><u><b>Dla</u></b> spor<u><b>tu</b></u> przeszed�em si� pieszo z domu do pracy</span>
+		<button><b>to[tu] - dla</b></button><br>
+<button onclick="dodajPrzycisk2(4)" class="Button1111" id="jQueryColorChange1111">TRENING</button>
+<button onclick="dodajPrzycisk(4)" class="Button2222" id="jQueryColorChange2222">ZNAM</button>
+</div>
+<div id="itemitem5" class="item5">
+    <img id="33" src="img/fiszki1/1e.jpg"/>
+    <span class="caption">Badacz naukowy nie ma <u><b>saj</b></u>gonu w dziedzinie nauki i ma s<u><b>ens</b></u> tego co robi</span>
+			<button><b>science[sajens] - nauka(dziedzina badawcza:nauka)</b></button><br>
+<button onclick="dodajPrzycisk2(5)" onclick="addCode()" class="Button11111" id="jQueryColorChange11111">TRENING</button>
+<button onclick="dodajPrzycisk(5)" class="Button22222" id="jQueryColorChange22222">ZNAM</button>
+</div>
+<div id="itemitem6" class="item6">
+    <img id="33" src="img/fiszki1/1f.jpg"/>
+    <span class="caption">Popre te <u><b>pro</b></u>cedury <u><b>siii</b></u> bo jestem na wyspie <u><b>D�er</b></u>ba w Tunezji</span>
+				<button><b>procedure[prosidzer] - procedury</b></button>
+<button onclick="dodajPrzycisk2(6); showMessage()" class="Button111111" id="jQueryColorChange111111">TRENING</button>
+<button onclick="dodajPrzycisk(6); showMessage()" class="Button222222" id="jQueryColorChange222222">ZNAM</button>
+</div>
+<div id="itemitem4" class="item4">
+    <img id="33" src="img/fiszki1/1d.jpg"/>
+    <span class="caption"><u><b>Dla</u></b> spor<u><b>tu</b></u> przeszed�em si� pieszo z domu do pracy</span>
+		<button><b>to[tu] - dla</b></button><br>
+<button onclick="dodajPrzycisk2(4)" class="Button1111" id="jQueryColorChange1111">TRENING</button>
+<button onclick="dodajPrzycisk(4)" class="Button2222" id="jQueryColorChange2222">ZNAM</button>
+</div>
+<div id="itemitem5" class="item5">
+    <img id="33" src="img/fiszki1/1e.jpg"/>
+    <span class="caption">Badacz naukowy nie ma <u><b>saj</b></u>gonu w dziedzinie nauki i ma s<u><b>ens</b></u> tego co robi</span>
+			<button><b>science[sajens] - nauka(dziedzina badawcza:nauka)</b></button><br>
+<button onclick="dodajPrzycisk2(5)" onclick="addCode()" class="Button11111" id="jQueryColorChange11111">TRENING</button>
+<button onclick="dodajPrzycisk(5)" class="Button22222" id="jQueryColorChange22222">ZNAM</button>
+</div>
+<div id="itemitem6" class="item6">
+    <img id="33" src="img/fiszki1/1f.jpg"/>
+    <span class="caption">Popre te <u><b>pro</b></u>cedury <u><b>siii</b></u> bo jestem na wyspie <u><b>D�er</b></u>ba w Tunezji</span>
+				<button><b>procedure[prosidzer] - procedury</b></button>
+<button onclick="dodajPrzycisk2(6); showMessage()" class="Button111111" id="jQueryColorChange111111">TRENING</button>
+<button onclick="dodajPrzycisk(6); showMessage()" class="Button222222" id="jQueryColorChange222222">ZNAM</button>
+</div>
+	<img src="img/karty/as.jpg" class="as"></img>
+</div>
+</body>
+<div id="footer"></div>
+<div id="footer"></div>
+</html>

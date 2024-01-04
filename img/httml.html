@@ -1,0 +1,296 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html lang="pl-PL">
+<head>
+<META HTTP-EQUIV="Content-type" CONTENT="text/html; charset=iso-8859-2">
+  <title>Smart Angielski</title>
+
+
+
+  <link rel="stylesheet" type="text/css" href="styl.css">
+    <link rel="stylesheet" type="text/css" href="styl7.css">
+<link rel="stylesheet" type="text/css" href="play.css">
+<link rel="stylesheet" type="text/css" href="play2.css">
+<link rel="stylesheet" type="text/css" href="play3.css">
+  <script src="http://code.jquery.com/jquery-1.9.1.js"></script>
+
+<div id="wrap">
+<div id="header"></div>
+
+<div id="content">
+<div class="dropdown">
+    <input type="checkbox" id="checkbox-toggle">
+    <label for="checkbox-toggle"> &#9786; <?php echo $userData["login"];?> &#8681; </label>
+    <ul>
+        <li><a href="logout.php">Wyloguj</a></li>
+        <li><a href="profile.php?id='.$userData['id'].'">Profil</a></li>
+        <li><a href="#">Ustawienia</a></li>
+        <li><a href="#">Test poziomu</a></li>
+    </ul>
+</div>
+</td>
+</tr>
+<tr>
+</p>
+<br>
+<br>
+<br>
+<br>
+<div class="table">
+(The) <button class="<?php $userData = $user->data(); if(empty($userData['guybutton'])){
+												echo 'Button0';
+												} else {
+												echo $userData['guybutton'];
+												}
+												?>">guy</button>
+	<button class="<?php $userData = $user->data(); if(empty($userData['catchbutton'])){
+												echo 'Button0';
+												} else {
+												echo $userData['catchbutton'];
+												}
+												?>">catch</button>
+<button class="<?php $userData = $user->data(); if(empty($userData['catbutton'])){
+												echo 'Button0';
+												} else {
+												echo $userData['catbutton'];
+												}
+												?>">cat</button> 
+<button class="<?php $userData = $user->data(); if(empty($userData['andbutton'])){
+												echo 'Button0';
+												} else {
+												echo $userData['andbutton'];
+												}
+												?>">and</button> 
+<button class="<?php $userData = $user->data(); if(empty($userData['hugbutton'])){
+												echo 'Button0';
+												} else {
+												echo $userData['hugbutton'];
+												}
+												?>">hug</button> 
+<button class="<?php $userData = $user->data(); if(empty($userData['himbutton'])){
+												echo 'Button0';
+												} else {
+												echo $userData['himbutton'];
+												}
+												?>">him.</button>.
+<br>
+<input type="hidden" id="guybutton" value="">
+<input type="hidden" id="myBtn" value="">
+<input type="hidden" id="myBtnn" value="">
+<div id="<?php $userData = $user->data(); echo $userData["colorvalue"];?>" class="item">
+<div class="three">
+<div>
+    <img id="33" src="http://smartangielski.j.pl/img/1amix.jpg"/>
+    <span class="caption">W leśnym gaju jest gajowy, który jest fajnym gościem --- <b>guy[gaj] - gościu</b></span>
+</div>
+  <button onclick="myFunctionbuttonhej();myFunctionhej();setTimeout('history.go(0);',50);" class="Button" id="jQueryColorChangehej">ZNAM</button>
+  <button onclick="myFunctionbutton();showElem();myFunction();setTimeout('history.go(0);',50);" class="Button" id="jQueryColorChange">UCZ SI�</button>
+  </div>
+  <audio id="music" preload="true">
+  <source src="http://smartangielski.j.pl/img/Glos_190321.wav">
+			<source src="http://smartangielski.j.pl/img/Glos_190321.ogg">
+	</audio>
+<div id="audioplayer" style="visibility: <?php $userData = $user->data(); echo $userData["visibility"];?>">
+	<button id="pButton" class="play" onclick="play()"></button>
+  <div id="timeline">    
+  		  <div id="playhead"></div>
+  </div>
+</div>
+</div>
+<input type="hidden" id="catchbutton" value="">
+<input type="hidden" id="myBtn2" value="">
+<input type="hidden" id="myBtnn2" value="">
+<div id="<?php $userData = $user->data(); echo $userData["colorvalue2"];?>" class="item">
+<div class="three">
+<div>
+    <img id="33" src="http://smartangielski.j.pl/img/1bmix.jpg"/>
+    <span class="caption">Kaczyński łapie motyle --- <b>catch[kacz] - �apa�</b></span>
+</div>
+  <button onclick="myFunctionbuttonhejb();myFunctionhejb();setTimeout('history.go(0);',50);" class="Button" id="jQueryColorChangehej">ZNAM</button>
+  <button onclick="myFunctionbuttonb();showElemb();myFunctionb();setTimeout('history.go(0);',50);" class="Button" id="jQueryColorChange">UCZ SI�</button>
+  </div>
+  <audio id="musicon" preload="true">
+  <source src="http://smartangielski.j.pl/img/Glos_190321_1.wav">
+			<source src="http://smartangielski.j.pl/img/Glos_190321_1.ogg">
+	</audio>
+<div id="audioplayeron" style="visibility: <?php $userData = $user->data(); echo $userData["visibility2"];?>">
+	<button id="pButtonon" class="playon" onclick="playon()"></button>
+  <div id="timelineon">    
+  		  <div id="playheadon"></div>
+  </div>
+</div>
+</div>
+<input type="hidden" id="catbutton" value="">
+<input type="hidden" id="myBtn3" value="">
+<input type="hidden" id="myBtnn3" value="">
+<div id="<?php $userData = $user->data(); echo $userData["colorvalue3"];?>" class="item">
+<div class="three">
+<div>
+    <img id="33" src="http://smartangielski.j.pl/img/1cmix.jpg"/>
+    <span class="caption">Katarzyna Caryca miała osobistego kata, który ucinał głowy kotom --- <b>cat/cut[kat] - kot/ci��</b></span>
+</div>
+  <button onclick="myFunctionbuttonhejc();myFunctionhejc();setTimeout('history.go(0);',50);" class="Button" id="jQueryColorChangehej">ZNAM</button>
+  <button onclick="myFunctionbuttonc();showElemc();myFunctionc();setTimeout('history.go(0);',50);" class="Button" id="jQueryColorChange">UCZ SI�</button>
+  </div>
+  <audio id="musicthree" preload="true">
+  <source src="http://smartangielski.j.pl/img/Glos_190321_3.wav">
+			<source src="http://smartangielski.j.pl/img/Glos_190321_3.ogg">
+	</audio>
+<div id="audioplayerthree" style="visibility: <?php $userData = $user->data(); echo $userData["visibility3"];?>">
+	<button id="pButtonthree" class="playthree" onclick="playthree()"></button>
+  <div id="timelinethree">    
+  		  <div id="playheadthree"></div>
+  </div>
+</div>
+</div>
+<input type="hidden" id="andbutton" value="">
+<input type="hidden" id="myBtn4" value="">
+<input type="hidden" id="myBtnn4" value="">
+<div id="<?php $userData = $user->data(); echo $userData["colorvalue4"];?>" class="item">
+<div class="three">
+<div>
+    <img id="33" src="http://smartangielski.j.pl/img/1dmix.jpg"/>
+    <span class="caption">Endriu wydziela endorfiny i ćwiczy to i to i to, aby było więcej endorfin i wyczekuje końca treningu --- <b>end[end] - koniec</b></span>
+</div>
+  <button onclick="myFunctionbuttonhejd();myFunctionhejd();setTimeout('history.go(0);',50);" class="Button" id="jQueryColorChangehej">ZNAM</button>
+  <button onclick="myFunctionbuttond();showElemd();myFunctiond();setTimeout('history.go(0);',50);" class="Button" id="jQueryColorChange">UCZ SI�</button>
+  </div>
+  <audio id="music" preload="true">
+  <source src="http://www.alexkatz.me/codepen/music/interlude.mp3">
+			<source src="http://www.alexkatz.me/codepen/music/interlude.ogg">
+	</audio>
+<div id="audioplayer" style="visibility: <?php $userData = $user->data(); echo $userData["visibility4"];?>">
+	<button id="pButton" class="play" onclick="play()"></button>
+  <div id="timeline">    
+  		  <div id="playhead"></div>
+  </div>
+</div>
+</div>
+<input type="hidden" id="hugbutton" value="">
+<input type="hidden" id="myBtn5" value="">
+<input type="hidden" id="myBtnn5" value="">
+<div id="<?php $userData = $user->data(); echo $userData["colorvalue5"];?>" class="item">
+<div class="three">
+<div>
+    <img id="33" src="http://smartangielski.j.pl/img/1emix.jpg"/>
+    <span class="caption">W mieście Haga wszyscy się przytulają   --------------------- <b>hug[hag] - przytula�</b></span>
+</div>
+  <button onclick="myFunctionbuttonheje();myFunctionheje();setTimeout('history.go(0);',50);" class="Button" id="jQueryColorChangehej">ZNAM</button>
+  <button onclick="myFunctionbuttone();showEleme();myFunctione();setTimeout('history.go(0);',50);" class="Button" id="jQueryColorChange">UCZ SI�</button>
+  </div>
+  <audio id="music" preload="true">
+  <source src="http://www.alexkatz.me/codepen/music/interlude.mp3">
+			<source src="http://www.alexkatz.me/codepen/music/interlude.ogg">
+	</audio>
+<div id="audioplayer" style="visibility: <?php $userData = $user->data(); echo $userData["visibility5"];?>">
+	<button id="pButton" class="play" onclick="play()"></button>
+  <div id="timeline">    
+  		  <div id="playhead"></div>
+  </div>
+</div>
+</div>
+<input type="hidden" id="himbutton" value="">
+<input type="hidden" id="myBtn6" value="">
+<input type="hidden" id="myBtnn6" value="">
+<div id="<?php $userData = $user->data(); echo $userData["colorvalue6"];?>" class="item">
+<div class="three">
+<div>
+    <img id="33" src="http://smartangielski.j.pl/img/1fmix.jpg"/>
+    <span class="caption">Ludzie powiedzieli, że jeżeli pewien gościu wspiął się na szczyt to Himalaje są jego --- <b>him[him] - jego</b></span>
+</div>
+  <button onclick="myFunctionbuttonhejf();myFunctionhejf();setTimeout('history.go(0);',50);" class="Button" id="jQueryColorChangehej">ZNAM</button>
+  <button onclick="myFunctionbuttonf();showElemf();myFunctionf();setTimeout('history.go(0);',50);" class="Button" id="jQueryColorChange">UCZ SIę</button>
+  </div>
+  <audio id="music" preload="true">
+  <source src="http://www.alexkatz.me/codepen/music/interlude.mp3">
+			<source src="http://www.alexkatz.me/codepen/music/interlude.ogg">
+	</audio>
+<div id="audioplayer" style="visibility: <?php $userData = $user->data(); echo $userData["visibility6"];?>">
+	<button id="pButton" class="play" onclick="play()"></button>
+  <div id="timeline">    
+  		  <div id="playhead"></div>
+  </div>
+</div>
+</div>
+<br>
+(The) guy catch (the) cat and hug him.
+<br>
+<br>
+<br>
+<div class="item">
+<div>
+    <img id=""33" src="http://smartangielski.j.pl/img/1amix.jpg"/>
+    <span class="caption">W leśnym gaju jest gajowy, który jest fajnym gościem</span>
+</div>
+  <img class="1" src="http://www.smartangielski.j.pl/menu.png" alt="" style="height: 40px; width: 70px;" />
+  </div>
+<div class="item">
+<div>
+    <img id=""33" src="http://smartangielski.j.pl/img/1bmix.jpg"/>
+    <span class="caption">Kaczyński łapie motyle</span>
+</div>
+  <img src="http://www.smartangielski.j.pl/menu.png" alt="" style="height: 40px; width: 70px;" />
+  </div>
+<div class="item">
+<div>
+    <img id=""33" src="http://smartangielski.j.pl/img/1cmix.jpg"/>
+    <span class="caption">Katarzyna Caryca miała osobistego kata, który ucinał głowy kotom</span>
+</div>
+<img src="http://www.smartangielski.j.pl/menu.png" alt="" style="height: 40px; width: 70px;" />
+</div>
+<div class="item">
+<div>
+    <img id=""33" src="http://smartangielski.j.pl/img/1dmix.jpg"/>
+    <span class="caption">Endriu wydziela endorfiny i ćwiczy to i to i to, aby było więcej endorfin i wyczekuje końca treningu</span>
+</div>
+<img src="http://www.smartangielski.j.pl/menu.png" alt="" style="height: 40px; width: 70px;" />
+</div>
+<div class="item">
+<div>
+    <img id=""33" src="http://smartangielski.j.pl/img/1emix.jpg"/>
+    <span class="caption">W mieście Haga wszyscy się przytulają</span>
+</div>
+<img src="http://www.smartangielski.j.pl/menu.png" alt="" style="height: 40px; width: 70px;" />
+</div>
+<div class="item">
+<div>
+    <img id=""33" src="http://smartangielski.j.pl/img/1fmix.pg"/>
+    <span class="caption">Ludzie powiedzieli, że jeżeli pewien gościu wspiął się na szczyt to Himalaje są jego</span>
+</div>
+<img src="http://www.smartangielski.j.pl/menu.png" alt="" style="height: 40px; width: 70px;" />
+</div>
+  <script src="color.js"></script>
+  <script src="color2.js"></script>
+  <script src="color3.js"></script>
+
+<div id="aside">
+<script type="text/javascript">
+function shBlock(id)
+{
+var item;
+item = document.getElementById(id);
+if( item.style.display == 'none' || item.style.display == '')
+{
+item.style.display = 'block';
+}
+else
+{
+item.style.display = 'none';
+}
+}
+</script>
+<div id="animabox"><iframe id="iframe" width="560" height="500" frameborder="0" src="ramkanowa.php?id=<?php echo $userData["id"];?>">
+</iframe></div>
+<div style="font-weight: bold;" id="animabox2"><a href="javascript:shBlock('animabox')" ;="">
+<img src="menu.png" width="93" height="41"></a>
+</div>
+
+<div id="footer"></div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+</html>

@@ -1,0 +1,64 @@
+ * {
+            -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+
+            }
+            .animation {
+            width: 20px;
+            height: 20px;
+            }
+            .a1,
+			.a2,
+			.a3,
+			.a4,
+			.a5,
+			.a6,
+			.a7
+			.a8,
+			.a9,
+			.a10 {
+            display: inline-block;
+            background-color: green;
+            width: 5px;
+            height: 5px;
+            animation: wave 1s linear infinite;
+            }
+            .a1 {
+            animation-delay: .0s;
+            }
+            .a2 {
+            animation-delay: .2s;
+            }
+            .a3 {
+            animation-delay: .3s;
+            }
+            .a4 {
+            animation-delay: .4s;
+            }
+            .a5 {
+            animation-delay: .5s;
+            }
+            .a6 {
+            animation-delay: .6s;
+            }
+            .a7 {
+            animation-delay: .7s;
+            }
+            .a8 {
+            animation-delay: .8s;
+            }
+            .a9 {
+            animation-delay: .9s;
+            }
+            .a10 {
+            animation-delay: 1.0s;
+            }
+            
+            
+            @keyframes wave {
+            50%{
+                transform: scaleY(80);
+                transform: scaleY(5);
+            }
+            
+            }

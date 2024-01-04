@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Przesuwanie innercontainer przez scrollowanie body</title>
+  <style>
+
+    .container2 {
+      position: fixed;
+      top: 40px;
+      right: 0;
+      width: 100px;
+      height: calc(100% - 45px);
+      overflow: hidden;
+      border: 2px solid red;
+      box-sizing: border-box;
+      z-index: 7;
+    }
+
+    .inner-container {
+      height: 200px;
+      border: 1px solid black;
+      margin: 10px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 24px;
+      opacity: 0.5;
+      transition: opacity 0.2s ease; /* Dodajemy płynne przejście dla efektu podświetlenia */
+    }
+
+    .inner-container.active {
+      border: 2px solid red;
+    }
+
+    body {
+      position: relative;
+      height: 100%;
+      overflow-y: scroll;
+    }
+  </style>
+</head>
+<body>
+  <div class="container2">
+    <div class="inner-container">Inner Container 1</div>
+    <div class="inner-container">Inner Container 2</div>
+  </div>
+<table>
+<tr>
+<th>
+<div class="menu">
+	  <div class="przycisk">
+	  	<button id="buttonstart" onclick="startScrolling()">ZACZNIJ</button></div>
+  <div class="table-background">
+    <div class="overlay"><p>FISZKA 5</p><br><img src="img/intro/fiszka1.png"/><br></div></div>
+<button id="result2" class="noweb">UCZĘ SIĘ: </button><button id="result1" class="nowea">ZNAM: </button><button id="result3" class="nowec">NAUCZYŁEM SIĘ: </button>
+<div id="counter"></div>
+<button id="hejj" class="nowe">GUY</button><button id="hejnowej" class="nowe">CATCH</button><button id="hejnowesj" class="nowe">CAT</button><button id="hejnowessj" class="nowe">AND</button><button id="hejnowesssj" class="nowe">HUG</button><button id="hejnowessssj" class="nowe">HIM</button>
+</th>
+</tr>
+</div>
+<div class="section">
+<tr>
+<td>
+<div id="itemitemj" class="itemj">
+    <img id="33" src="img/fiszki1/3a.jpg"/>
+    <span class="caption">W leśnym <u><b>gaj</b></u>u jest <u><b>gaj</u></b>owy, który jest fajnym <u><b>gościem</u></b></span>
+						<button><b>guy[gaj] - gościu</b></button><br>
+<button onclick="dodajPrzycisk2(1)" class="Button1j" id="jQueryColorChangej">TRENING</button>
+<button onclick="dodajPrzycisk(1)" class="Button2j" id="jQueryColorChange2j">ZNAM</button>
+</div>
+</td>
+<td>
+<div id="itemitem2j" class="item2j">
+    <img id="33" src="img/fiszki1/3b.jpg"/>
+    <span class="caption"><u><b>Kacz</u></b>ki i łabędzie <u><b>łapią</u></b> chleb</span>
+						<button><b>catch[kacz] - łapać</b></button><br>
+<button onclick="dodajPrzycisk2(2)" class="Button11j" id="jQueryColorChange11j">TRENING</button>
+<button onclick="dodajPrzycisk(2)" class="Button22j" id="jQueryColorChange22j">ZNAM</button>
+</div>
+  <script src="js/2.js"></script>
+</td>
+<td>
+<div id="itemitem3j" class="item3j">
+    <img id="33" src="img/fiszki1/3c.jpg"/>
+    <span class="caption"></span>
+					<button><b>cut[kut] - ciąć</b></button><br>
+<button onclick="dodajPrzycisk2(3)" class="Button111j" id="jQueryColorChange111j">TRENING</button>
+<button onclick="dodajPrzycisk(3)" class="Button222j" id="jQueryColorChange222j">ZNAM</button>
+</div>
+  <script src="js/3.js"></script>
+</td>
+</tr>
+<tr>
+<td>
+<div id="itemitem4j" class="item4j">
+    <img id="33" src="img/fiszki1/3d.jpg"/>
+    <span class="caption"><u><b>End</u></b>riu wydziela <u><b>end</u></b>orfiny i ćwiczy: to <u><b>i</u></b> to, <u><b>i</u></b> to, aby było więcej endorfin i wyczekuje <u><b>końca</u></b> treningu</span>
+						<button><b>end[end] - koniec</b></button><br>
+<button onclick="dodajPrzycisk2(4)" class="Button1111j" id="jQueryColorChange1111j">TRENING</button>
+<button onclick="dodajPrzycisk(4)" class="Button2222j" id="jQueryColorChange2222j">ZNAM</button>
+</div>
+  <script src="js/4.js"></script>
+</td>
+<td>
+<div id="itemitem5j" class="item5j">
+    <img id="33" src="img/fiszki1/3e.jpg"/>
+    <span class="caption">W mieście <u><b>Hag</u></b>a wszyscy się <u><b>przytulają</u></b></span>
+							<button><b>hug[hag] - przytulać</b></button><br>
+<button onclick="dodajPrzycisk2(5)" class="Button11111j" id="jQueryColorChange11111j">TRENING</button>
+<button onclick="dodajPrzycisk(5)" class="Button22222j" id="jQueryColorChange22222j">ZNAM</button>
+</div>
+  <script src="js/5.js"></script>
+</td>
+<td>
+<div id="itemitem6j" class="item6j">
+    <img id="33" src="img/fiszki1/3f.jpg"/>
+    <span class="caption">Ludzie powiedzieli, że jeżeli pewien gociu wspiął się na szczyt to <u><b>Him</u></b>alaje są <u><b>jego</u></b></span>
+								<button><b>him[him] - jego</b></button><br>
+<button onclick="dodajPrzycisk2(6)" class="Button111111j" id="jQueryColorChange111111j">TRENING</button>
+<button onclick="dodajPrzycisk(6)" class="Button222222j" id="jQueryColorChange222222j">ZNAM</button>
+</div>
+</td>
+</tr>
+</div>
+</div>
+<br>
+<br>
+</table>
+	  <div class="table-container">
+  <div class="table-background">
+    <div class="overlay">FISZKA 4<br><img src="img/intro/fiszka2.png"/><br>
+	<button onclick="startScrolling()">ZACZNIJ</button></div></div>
+<table>
+<tr>
+<th>
+<div class="section">
+<div class="menu">
+<button id="result2" class="noweb">UCZĘ SIĘ: </button><button id="result1" class="nowea">ZNAM: </button><button id="result3" class="nowec">NAUCZYŁEM SIĘ: </button>
+<div id="counter"></div>
+<button id="hejj" class="nowe">GUY</button><button id="hejnowej" class="nowe">CATCH</button><button id="hejnowesj" class="nowe">CAT</button><button id="hejnowessj" class="nowe">AND</button><button id="hejnowesssj" class="nowe">HUG</button><button id="hejnowessssj" class="nowe">HIM</button>
+</th>
+</tr>
+</div>
+<tr>
+<td>
+<div id="itemitemj" class="itemj">
+    <img id="33" src="img/fiszki1/3a.jpg"/>
+    <span class="caption">W leśnym <u><b>gaj</b></u>u jest <u><b>gaj</u></b>owy, który jest fajnym <u><b>gościem</u></b></span>
+						<button><b>guy[gaj] - gościu</b></button><br>
+<button onclick="dodajPrzycisk2(1)" class="Button1j" id="jQueryColorChangej">TRENING</button>
+<button onclick="dodajPrzycisk(1)" class="Button2j" id="jQueryColorChange2j">ZNAM</button>
+</div>
+</td>
+<td>
+<div id="itemitem2j" class="item2j">
+    <img id="33" src="img/fiszki1/3b.jpg"/>
+    <span class="caption"><u><b>Kacz</u></b>ki i łabędzie <u><b>łapią</u></b> chleb</span>
+						<button><b>catch[kacz] - łapać</b></button><br>
+<button onclick="dodajPrzycisk2(2)" class="Button11j" id="jQueryColorChange11j">TRENING</button>
+<button onclick="dodajPrzycisk(2)" class="Button22j" id="jQueryColorChange22j">ZNAM</button>
+</div>
+  <script src="js/2.js"></script>
+</td>
+<td>
+<div id="itemitem3j" class="item3j">
+    <img id="33" src="img/fiszki1/3c.jpg"/>
+    <span class="caption"></span>
+					<button><b>cut[kut] - ciąć</b></button><br>
+<button onclick="dodajPrzycisk2(3)" class="Button111j" id="jQueryColorChange111j">TRENING</button>
+<button onclick="dodajPrzycisk(3)" class="Button222j" id="jQueryColorChange222j">ZNAM</button>
+</div>
+  <script src="js/3.js"></script>
+</td>
+</tr>
+<tr>
+<td>
+<div id="itemitem4j" class="item4j">
+    <img id="33" src="img/fiszki1/3d.jpg"/>
+    <span class="caption"><u><b>End</u></b>riu wydziela <u><b>end</u></b>orfiny i ćwiczy: to <u><b>i</u></b> to, <u><b>i</u></b> to, aby było więcej endorfin i wyczekuje <u><b>końca</u></b> treningu</span>
+						<button><b>end[end] - koniec</b></button><br>
+<button onclick="dodajPrzycisk2(4)" class="Button1111j" id="jQueryColorChange1111j">TRENING</button>
+<button onclick="dodajPrzycisk(4)" class="Button2222j" id="jQueryColorChange2222j">ZNAM</button>
+</div>
+  <script src="js/4.js"></script>
+</td>
+<td>
+<div id="itemitem5j" class="item5j">
+    <img id="33" src="img/fiszki1/3e.jpg"/>
+    <span class="caption">W mieście <u><b>Hag</u></b>a wszyscy się <u><b>przytulają</u></b></span>
+							<button><b>hug[hag] - przytulać</b></button><br>
+<button onclick="dodajPrzycisk2(5)" class="Button11111j" id="jQueryColorChange11111j">TRENING</button>
+<button onclick="dodajPrzycisk(5)" class="Button22222j" id="jQueryColorChange22222j">ZNAM</button>
+</div>
+  <script src="js/5.js"></script>
+</td>
+<td>
+<div id="itemitem6j" class="item6j">
+    <img id="33" src="img/fiszki1/3f.jpg"/>
+    <span class="caption">Ludzie powiedzieli, że jeżeli pewien gociu wspiął się na szczyt to <u><b>Him</u></b>alaje są <u><b>jego</u></b></span>
+								<button><b>him[him] - jego</b></button><br>
+<button onclick="dodajPrzycisk2(6)" class="Button111111j" id="jQueryColorChange111111j">TRENING</button>
+<button onclick="dodajPrzycisk(6)" class="Button222222j" id="jQueryColorChange222222j">ZNAM</button>
+</div>
+</td>
+</tr>
+</div>
+</div>
+<br>
+<br>
+</table>
+<table>
+<tr>
+<th>
+<div class="menu">
+	  <div class="przycisk">
+	  	<button id="buttonstart" onclick="startScrolling()">ZACZNIJ</button></div>
+  <div class="table-background">
+    <div class="overlay"><p>FISZKA 5</p><br><img src="img/intro/fiszka1.png"/><br></div></div>
+<button id="result2" class="noweb">UCZĘ SIĘ: </button><button id="result1" class="nowea">ZNAM: </button><button id="result3" class="nowec">NAUCZYŁEM SIĘ: </button>
+<div id="counter"></div>
+<button id="hejj" class="nowe">GUY</button><button id="hejnowej" class="nowe">CATCH</button><button id="hejnowesj" class="nowe">CAT</button><button id="hejnowessj" class="nowe">AND</button><button id="hejnowesssj" class="nowe">HUG</button><button id="hejnowessssj" class="nowe">HIM</button>
+</th>
+</tr>
+</div>
+<div class="section">
+<tr>
+<td>
+<div id="itemitemj" class="itemj">
+    <img id="33" src="img/fiszki1/3a.jpg"/>
+    <span class="caption">W leśnym <u><b>gaj</b></u>u jest <u><b>gaj</u></b>owy, który jest fajnym <u><b>gościem</u></b></span>
+						<button><b>guy[gaj] - gościu</b></button><br>
+<button onclick="dodajPrzycisk2(1)" class="Button1j" id="jQueryColorChangej">TRENING</button>
+<button onclick="dodajPrzycisk(1)" class="Button2j" id="jQueryColorChange2j">ZNAM</button>
+</div>
+</td>
+<td>
+<div id="itemitem2j" class="item2j">
+    <img id="33" src="img/fiszki1/3b.jpg"/>
+    <span class="caption"><u><b>Kacz</u></b>ki i łabędzie <u><b>łapią</u></b> chleb</span>
+						<button><b>catch[kacz] - łapać</b></button><br>
+<button onclick="dodajPrzycisk2(2)" class="Button11j" id="jQueryColorChange11j">TRENING</button>
+<button onclick="dodajPrzycisk(2)" class="Button22j" id="jQueryColorChange22j">ZNAM</button>
+</div>
+  <script src="js/2.js"></script>
+</td>
+<td>
+<div id="itemitem3j" class="item3j">
+    <img id="33" src="img/fiszki1/3c.jpg"/>
+    <span class="caption"></span>
+					<button><b>cut[kut] - ciąć</b></button><br>
+<button onclick="dodajPrzycisk2(3)" class="Button111j" id="jQueryColorChange111j">TRENING</button>
+<button onclick="dodajPrzycisk(3)" class="Button222j" id="jQueryColorChange222j">ZNAM</button>
+</div>
+  <script src="js/3.js"></script>
+</td>
+</tr>
+<tr>
+<td>
+<div id="itemitem4j" class="item4j">
+    <img id="33" src="img/fiszki1/3d.jpg"/>
+    <span class="caption"><u><b>End</u></b>riu wydziela <u><b>end</u></b>orfiny i ćwiczy: to <u><b>i</u></b> to, <u><b>i</u></b> to, aby było więcej endorfin i wyczekuje <u><b>końca</u></b> treningu</span>
+						<button><b>end[end] - koniec</b></button><br>
+<button onclick="dodajPrzycisk2(4)" class="Button1111j" id="jQueryColorChange1111j">TRENING</button>
+<button onclick="dodajPrzycisk(4)" class="Button2222j" id="jQueryColorChange2222j">ZNAM</button>
+</div>
+  <script src="js/4.js"></script>
+</td>
+<td>
+<div id="itemitem5j" class="item5j">
+    <img id="33" src="img/fiszki1/3e.jpg"/>
+    <span class="caption">W mieście <u><b>Hag</u></b>a wszyscy się <u><b>przytulają</u></b></span>
+							<button><b>hug[hag] - przytulać</b></button><br>
+<button onclick="dodajPrzycisk2(5)" class="Button11111j" id="jQueryColorChange11111j">TRENING</button>
+<button onclick="dodajPrzycisk(5)" class="Button22222j" id="jQueryColorChange22222j">ZNAM</button>
+</div>
+  <script src="js/5.js"></script>
+</td>
+<td>
+<div id="itemitem6j" class="item6j">
+    <img id="33" src="img/fiszki1/3f.jpg"/>
+    <span class="caption">Ludzie powiedzieli, że jeżeli pewien gociu wspiął się na szczyt to <u><b>Him</u></b>alaje są <u><b>jego</u></b></span>
+								<button><b>him[him] - jego</b></button><br>
+<button onclick="dodajPrzycisk2(6)" class="Button111111j" id="jQueryColorChange111111j">TRENING</button>
+<button onclick="dodajPrzycisk(6)" class="Button222222j" id="jQueryColorChange222222j">ZNAM</button>
+</div>
+</td>
+</tr>
+</div>
+</div>
+<br>
+<br>
+</table>
+	  <div class="table-container">
+  <div class="table-background">
+    <div class="overlay">FISZKA 4<br><img src="img/intro/fiszka2.png"/><br>
+	<button onclick="startScrolling()">ZACZNIJ</button></div></div>
+<table>
+<tr>
+<th>
+<div class="section">
+<div class="menu">
+<button id="result2" class="noweb">UCZĘ SIĘ: </button><button id="result1" class="nowea">ZNAM: </button><button id="result3" class="nowec">NAUCZYŁEM SIĘ: </button>
+<div id="counter"></div>
+<button id="hejj" class="nowe">GUY</button><button id="hejnowej" class="nowe">CATCH</button><button id="hejnowesj" class="nowe">CAT</button><button id="hejnowessj" class="nowe">AND</button><button id="hejnowesssj" class="nowe">HUG</button><button id="hejnowessssj" class="nowe">HIM</button>
+</th>
+</tr>
+</div>
+<tr>
+<td>
+<div id="itemitemj" class="itemj">
+    <img id="33" src="img/fiszki1/3a.jpg"/>
+    <span class="caption">W leśnym <u><b>gaj</b></u>u jest <u><b>gaj</u></b>owy, który jest fajnym <u><b>gościem</u></b></span>
+						<button><b>guy[gaj] - gościu</b></button><br>
+<button onclick="dodajPrzycisk2(1)" class="Button1j" id="jQueryColorChangej">TRENING</button>
+<button onclick="dodajPrzycisk(1)" class="Button2j" id="jQueryColorChange2j">ZNAM</button>
+</div>
+</td>
+<td>
+<div id="itemitem2j" class="item2j">
+    <img id="33" src="img/fiszki1/3b.jpg"/>
+    <span class="caption"><u><b>Kacz</u></b>ki i łabędzie <u><b>łapią</u></b> chleb</span>
+						<button><b>catch[kacz] - łapać</b></button><br>
+<button onclick="dodajPrzycisk2(2)" class="Button11j" id="jQueryColorChange11j">TRENING</button>
+<button onclick="dodajPrzycisk(2)" class="Button22j" id="jQueryColorChange22j">ZNAM</button>
+</div>
+  <script src="js/2.js"></script>
+</td>
+<td>
+<div id="itemitem3j" class="item3j">
+    <img id="33" src="img/fiszki1/3c.jpg"/>
+    <span class="caption"></span>
+					<button><b>cut[kut] - ciąć</b></button><br>
+<button onclick="dodajPrzycisk2(3)" class="Button111j" id="jQueryColorChange111j">TRENING</button>
+<button onclick="dodajPrzycisk(3)" class="Button222j" id="jQueryColorChange222j">ZNAM</button>
+</div>
+  <script src="js/3.js"></script>
+</td>
+</tr>
+<tr>
+<td>
+<div id="itemitem4j" class="item4j">
+    <img id="33" src="img/fiszki1/3d.jpg"/>
+    <span class="caption"><u><b>End</u></b>riu wydziela <u><b>end</u></b>orfiny i ćwiczy: to <u><b>i</u></b> to, <u><b>i</u></b> to, aby było więcej endorfin i wyczekuje <u><b>końca</u></b> treningu</span>
+						<button><b>end[end] - koniec</b></button><br>
+<button onclick="dodajPrzycisk2(4)" class="Button1111j" id="jQueryColorChange1111j">TRENING</button>
+<button onclick="dodajPrzycisk(4)" class="Button2222j" id="jQueryColorChange2222j">ZNAM</button>
+</div>
+  <script src="js/4.js"></script>
+</td>
+<td>
+<div id="itemitem5j" class="item5j">
+    <img id="33" src="img/fiszki1/3e.jpg"/>
+    <span class="caption">W mieście <u><b>Hag</u></b>a wszyscy się <u><b>przytulają</u></b></span>
+							<button><b>hug[hag] - przytulać</b></button><br>
+<button onclick="dodajPrzycisk2(5)" class="Button11111j" id="jQueryColorChange11111j">TRENING</button>
+<button onclick="dodajPrzycisk(5)" class="Button22222j" id="jQueryColorChange22222j">ZNAM</button>
+</div>
+  <script src="js/5.js"></script>
+</td>
+<td>
+<div id="itemitem6j" class="item6j">
+    <img id="33" src="img/fiszki1/3f.jpg"/>
+    <span class="caption">Ludzie powiedzieli, że jeżeli pewien gociu wspiął się na szczyt to <u><b>Him</u></b>alaje są <u><b>jego</u></b></span>
+								<button><b>him[him] - jego</b></button><br>
+<button onclick="dodajPrzycisk2(6)" class="Button111111j" id="jQueryColorChange111111j">TRENING</button>
+<button onclick="dodajPrzycisk(6)" class="Button222222j" id="jQueryColorChange222222j">ZNAM</button>
+</div>
+</td>
+</tr>
+</div>
+</div>
+<br>
+<br>
+</table>
+  <script>
+    const innerContainers = document.querySelectorAll('.inner-container');
+
+    // Ustaw pierwszy kontener jako aktywny na początku
+    innerContainers[0].classList.add('active');
+
+    document.addEventListener('scroll', () => {
+      const scrollPercentage = document.documentElement.scrollTop / (document.documentElement.scrollHeight - document.documentElement.clientHeight);
+
+      innerContainers.forEach((innerContainer, index) => {
+        innerContainer.classList.remove('active');
+
+        if (scrollPercentage >= index / innerContainers.length && scrollPercentage < (index + 1) / innerContainers.length) {
+          innerContainer.classList.add('active');
+        }
+      });
+
+      // Ustaw ostatni kontener jako aktywny po przewinięciu do końca strony
+      if (scrollPercentage >= 0.99) {
+        innerContainers[innerContainers.length - 1].classList.add('active');
+      }
+    });
+  </script>
+</body>
+</html>

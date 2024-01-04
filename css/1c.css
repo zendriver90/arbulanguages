@@ -1,0 +1,43 @@
+.grid-container {
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    gap: 60px;
+    row-gap: 15px;
+    justify-content: center;
+    align-items: center;
+}
+
+.as {
+	height: 400px;
+	width: 250px;
+    position: absolute;
+    top: 50%;
+	right: 270px;
+    transform: translate(-50%, -50%);
+    z-index: 9999;
+	opacity: 0.9;
+	border-radius: 11px;
+    /* Dodaj właściwości tła dla obrazka */
+    /* background-image: url('ścieżka/do/obrazka.jpg'); */
+    /* background-size: cover; */
+    /* background-position: center; */
+}
+
+/* Style dla .item i innych elementów */
+.item,
+.item2,
+.item3,
+.item4,
+.item5,
+.item6,
+.itemi,
+.item2i
+{
+    position: relative;
+    background: white;
+    width: 294px;
+    border: 2px solid black;
+    border-radius: 8px;
+    z-index: 1; /* Lub wartość niższa niż dla .as, aby były pod nim */
+}
