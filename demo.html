@@ -48,12 +48,13 @@
   }
 
   function pokazZaladowaneObrazki(containerId) {
+      console.log('klientowto w pokazZaladowaneObrazki w demohtml')
     const images = loadedImages[containerId];
     console.log(`Załadowane obrazki dla ${containerId}:`, images);
   }
 </script>
 <button onclick="przelaczKontenery()">Przełącz do kontenera 2</button>
-<button onclick="pokazZaladowaneObrazki('container1">Pokaż załadowane obrazki z kontenera 1</button>
+<button onclick="pokazZaladowaneObrazki('container1')">Pokaż załadowane obrazki z kontenera 1</button>
   <div id="container1" class="image-container"></div>
   <div id="container2" class="image-container"></div>
   <button id="nauka"><p>UCZE SIĘ: <span id="liczbaKlikniec2">0</span></button>
