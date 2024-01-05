@@ -1210,6 +1210,32 @@ background-color: green;
   cursor: pointer;
 }
 
+
+    .container10 {
+      display: none;
+      position: fixed;
+      top: 50%;
+      left: 50%;
+      background-color: #f9f9f9;
+      padding: 20px;
+      border: 1px solid #ccc;
+      z-index: 9999;
+    }
+.image-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+    #myContainer {
+      display: none;
+      border: 1px solid #000;
+      padding: 10px;
+      margin-left: 10px; /* Dodaj margines z lewej strony, aby był obok obrazka */
+    }
+    .container-flex {
+      display: flex;
+      align-items: center;
+    }
     #container1 {
       width: 100px;
       max-height: calc(100vh - 0px); /* Maksymalna wysokość równa wysokości widoku minus marginesy */
@@ -1220,6 +1246,7 @@ background-color: green;
       left: 0; /* Umiejscowienie kontenera na lewej krawędzi widoku */
       padding: 1px;
       margin-top: 50px; /* Odstęp między obrazkami */
+      z-index: 999;
     }
         #container2 {
       width: 100px;
@@ -1244,22 +1271,35 @@ background-color: green;
    }
             #bottom-container {
       width: 100px;
-      max-height: calc(100vh - 20px); /* Maksymalna wysokość równa wysokości widoku minus marginesy */
-      border: 1px solid orange;
+      height: 45px; /* Maksymalna wysokość równa wysokości widoku minus marginesy */
       overflow: auto;
       position: fixed; /* Ustawienie kontenera jako przyczepionego do lewej krawędzi widoku */
       bottom: 0; /* Umiejscowienie kontenera na górze widoku */
       left: 0; /* Umiejscowienie kontenera na lewej krawędzi widoku */
       padding: 2px;
     }
-    .image-wrapper {
-      max-width: 100%; /* Maksymalna szerokość obrazka równa szerokości kontenera */
-      height: auto; /* Automatyczna wysokość proporcjonalna */
-      margin-bottom: 2px; /* Odstęp między obrazkami */
+.image-wrapper {
+      margin: 10px;
+      border: 1px solid #ccc;
+      padding: 5px;
+      text-align: center;
+      position: relative;
+      display: inline-block;
     }
     img {
-      width: 100%; /* Dopasowanie obrazka do szerokości kontenera */
-      height: auto; /* Automatyczna wysokość proporcjonalna */
+      max-width: 100%;
+      height: auto;
+      cursor: pointer;
+    }
+    .myContainer {
+      display: none;
+      border: 1px solid #000;
+      padding: 10px;
+      position: absolute;
+      top: 0;
+      left: 100%; /* Położenie po prawej stronie obrazka */
+      width: 200px; /* Szerokość kontenera */
+      background-color: #fff;
     }
 
     #nauka {
@@ -1273,14 +1313,18 @@ background-color: green;
     }
     
         #nauka3 {
-      width: 100px;
-      border: 1px solid orange;
+      width: 20px;
+      border: 1px solid;
       overflow: auto;
       position: fixed; /* Ustawienie kontenera jako przyczepionego do lewej krawędzi widoku */
-      top: 0; /* Umiejscowienie kontenera na górze widoku */
+      top: -25px; /* Umiejscowienie kontenera na górze widoku */
       left: 0; /* Umiejscowienie kontenera na lewej krawędzi widoku */
-      padding: 1px;
-      margin-top: 60px
+      margin-top: 60px;
+      z-index: 999;
+    }
+    #as {
+        width: 10px;
+        height: 20px;
     }
     
     #nauka2 {

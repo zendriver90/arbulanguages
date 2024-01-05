@@ -33,6 +33,43 @@
     console.log('Drugi wybór:', wybor2);
   }
 </script>
+<script>
+  const loadedImages = {
+    container1: [],
+    container2: []
+  };
+
+  function pokazObrazek(nazwaObrazka, containerId) {
+    const container = document.getElementById(containerId);
+
+    const imageWrapper = document.createElement('div');
+    imageWrapper.className = 'image-wrapper';
+
+    const obrazek = document.createElement('img');
+    obrazek.src = `${nazwaObrazka}.jpg`; // Załóżmy, że obrazy mają rozszerzenie .jpg
+    obrazek.alt = nazwaObrazka;
+
+    imageWrapper.appendChild(obrazek);
+    container.appendChild(imageWrapper);
+
+    loadedImages[containerId].push(nazwaObrazka); // Zapisz wybrane obrazy w odpowiednim kontenerze
+  }
+
+  function przelaczIKontynuuj() {
+    const container1 = document.getElementById('container1');
+    const container2 = document.getElementById('container2');
+
+    container1.style.display = 'none';
+    container2.style.display = 'block';
+    container2.innerHTML = ''; // Wyczyść zawartość kontenera 2
+  }
+
+function pokazZaladowaneObrazki(containerId) {
+  const container1 = document.getElementById('container1');
+  container2.innerHTML = '';
+  container1.style.display = 'block';
+  }
+</script>
 <div class="menu">
 <button id="hej" class="nowe">HE</button><button id="hejnowe" class="nowe">IS</button><button id="hejnowes" class="nowe">OBEDIENT</button><button id="hejnowess" class="nowe">TO</button><button id="hejnowesss" class="nowe">SCIENCE</button><button id="hejnowessss" class="nowe">PROCEDURE</button>
 </div>
