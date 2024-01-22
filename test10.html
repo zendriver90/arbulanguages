@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dynamiczne ładowanie obrazków</title>
+    <style>
+#kontenery {
+      width: 101px;
+      max-height: calc(100vh - 0px); /* Maksymalna wysokość równa wysokości widoku minus marginesy */
+      border: 1px solid orange;
+      overflow: auto;
+      position: fixed; /* Ustawienie kontenera jako przyczepionego do lewej krawędzi widoku */
+      top: -10px; /* Umiejscowienie kontenera na górze widoku */
+      margin-top: 50px; /* Odstęp między obrazkami */
+      z-index: 999;
+      font-size: 12px;
+      overflow: scroll;
+      overflow: inherit;
+      padding-right: 10px;
+      overflow-x: hidden;
+}
+
+.obrazek-container {
+    border: 1px solid #ccc;
+}
+
+        @keyframes rozwijanie {
+    from {
+        height: 0;
+    }
+    to {
+        height: 70px; /* Dostosuj wysokość, którą chcesz uzyskać podczas animacji */
+    }
+}
+ @keyframes przesuwanie1 {
+    from {
+        transform: translateY(0);
+    }
+    to {
+        transform: translateY(-130px); /* Dostosuj odległość, o którą chcesz przesunąć obrazek w górę */
+    }
+}
+ @keyframes przesuwanie2 {
+    from {
+        transform: translateY(0);
+    }
+    to {
+        transform: translateY(-130px); /* Dostosuj odległość, o którą chcesz przesunąć obrazek w górę */
+    }
+}
+       
+        .puste-pole {
+            visibility: hidden;
+            overflow: hidden;
+            width: 100px;
+            height: 65px;
+            background-color: limegreen;
+            position: relative;
+            animation: rozwijanie 1s ease-in-out;
+        }
+        .puste-pole2 {
+            visibility: hidden;
+            overflow: hidden;
+            width: 100px;
+            height: 65px;
+            background-color: blue;
+            position: relative;
+            animation: rozwijanie 1s ease-in-out;
+        }
+        .puste-pole.rozwiniete {
+    visibility: visible;
+    height: 70px; /* Dostosuj wysokość, która chcesz uzyskać podczas animacji */
+}
+
+.przesuniety1 {
+    animation: przesuwanie1 1s ease-in-out;
+}
+.przesuniety2 {
+    animation: przesuwanie2 1s ease-in-out;
+}
+    </style>
+</head>
+<body>
+           <button onclick="aktywujObrazek('obrazek-container1', 0)">Dodaj obrazek</button>
+           <button onclick="aktywujObrazek('obrazek-container1', 1)">Dodaj obrazek</button>
+           <button onclick="aktywujObrazek('obrazek-container1', 2)">Dodaj obrazek</button>
+           <button onclick="aktywujObrazek('obrazek-container1', 3)">Dodaj obrazek</button>
+           <button onclick="aktywujObrazek('obrazek-container1', 4)">Dodaj obrazek</button>
+   <div id="kontenery">
+       <p>Zdanie 1sze</p>
+        <div class="obrazek-container" id="obrazek-container1">
+        </div>
+                   <p>Zdanie 2gie</p>
+        <div class="obrazek-container" id="obrazek-container2">
+        </div>
+                               <p>Zdanie 3cie</p>
+        <div class="obrazek-container" id="obrazek-container3">
+        </div>
+                                           <p>Zdanie 4te</p>
+        <div class="obrazek-container" id="obrazek-container4">
+        </div>
+                                                       <p>Zdanie 5te</p>
+        <div class="obrazek-container" id="obrazek-container5">
+        </div>
+    </div>
+<script>
+const obrazki = [
+    'obrazek1.jpg',
+    'obrazek2.jpg',
+    'obrazek3.jpg',
+    'obrazek4.jpg',
+    'obrazek5.jpg'
+];
+
+let indeksObrazka = 1;
+let poprzedniObrazek = null;
+let czyKliknietyObrazek0 = false;
+
+function aktywujPustePole(obrazekContainer, indexObrazka) {
+    const pustePole = document.createElement('div');
+    pustePole.classList.add('puste-pole');
+    
+        const obrazek = document.createElement('img');
+    obrazek.src = 'obrazek1.jpg'; // Zmień to na rzeczywistą nazwę obrazka
+    obrazek.style.width = '100%';
+    obrazek.style.height = '100%';
+
+    pustePole.appendChild(obrazek);
+
+    obrazekContainer.insertBefore(pustePole, obrazekContainer.children[0]);
+        setTimeout(() => {
+        pustePole.classList.add('rozwiniete');
+    }, 1000);
+}
+function aktywujPustePole2(obrazekContainer, indexObrazka) {
+    const pustePole = document.createElement('div');
+    pustePole.classList.add('puste-pole');
+    
+        const obrazek = document.createElement('img');
+    obrazek.src = 'obrazek2.jpg'; // Zmień to na rzeczywistą nazwę obrazka
+    obrazek.style.width = '100%';
+    obrazek.style.height = '100%';
+
+    pustePole.appendChild(obrazek);
+    
+    obrazekContainer.insertBefore(pustePole, obrazekContainer.children[1]);
+        setTimeout(() => {
+        pustePole.classList.add('rozwiniete');
+    }, 1000);
+}
+
+function aktywujPustePole3(obrazekContainer, indexObrazka) {
+    const pustePole = document.createElement('div');
+    pustePole.classList.add('puste-pole');
+    
+        const obrazek = document.createElement('img');
+    obrazek.src = 'obrazek2.jpg'; // Zmień to na rzeczywistą nazwę obrazka
+    obrazek.style.width = '100%';
+    obrazek.style.height = '100%';
+
+    pustePole.appendChild(obrazek);
+    
+    obrazekContainer.insertBefore(pustePole, obrazekContainer.children[0]);
+        setTimeout(() => {
+        pustePole.classList.add('rozwiniete');
+    }, 1000);
+}
+
+function aktywujObrazek(nazwaKontenera, indexObrazka) {
+    console.log(indexObrazka);
+    if (indexObrazka >= 0 && indexObrazka < obrazki.length) {
+        const obrazek = document.createElement('img');
+        obrazek.src = obrazki[indexObrazka];
+        obrazek.style.width = '100px';
+        obrazek.style.height = 'auto';
+
+        const obrazekContainer = document.getElementById(nazwaKontenera);
+
+        obrazekContainer.appendChild(obrazek);
+
+                if (indexObrazka === 0) {
+            czyKliknietyObrazek0 = true;
+                console.log(czyKliknietyObrazek0);
+        }
+
+        if (poprzedniObrazek) {
+            const aktualnyObrazek = obrazekContainer.lastChild;
+
+            console.log('Poprzedni indeks:', parseInt(poprzedniObrazek.src.split('obrazek')[1]));
+            console.log('Aktualny indeks:', parseInt(aktualnyObrazek.src.split('obrazek')[1]));
+
+            if (parseInt(aktualnyObrazek.src.split('obrazek')[1]) < parseInt(poprzedniObrazek.src.split('obrazek')[1])) {
+                console.log('Dodaję klasę przesunięcia do aktualnego obrazka');
+                aktualnyObrazek.classList.add('przesuniety');
+            if (parseInt(aktualnyObrazek.src.split('obrazek')[1]) === 1 && parseInt(poprzedniObrazek.src.split('obrazek')[1]) === 2) {
+                                        setTimeout(() => {
+        aktualnyObrazek.classList.add('przesuniety2');
+                            aktywujPustePole(obrazekContainer, indexObrazka);
+    }, 100);
+    setTimeout(() => {
+                                if (aktualnyObrazek) {
+    obrazekContainer.removeChild(aktualnyObrazek);
+}
+    }, 1100);
+            }
+                                    if (parseInt(aktualnyObrazek.src.split('obrazek')[1]) === 2 && parseInt(poprzedniObrazek.src.split('obrazek')[1]) === 3 && !czyKliknietyObrazek0) {
+                                                        setTimeout(() => {
+        aktualnyObrazek.classList.add('przesuniety2');
+                            aktywujPustePole3(obrazekContainer, indexObrazka);
+    }, 100);
+    setTimeout(() => {
+                                if (aktualnyObrazek) {
+    obrazekContainer.removeChild(aktualnyObrazek);
+}
+    }, 1100);
+            }
+                                    if (parseInt(aktualnyObrazek.src.split('obrazek')[1]) === 2 && parseInt(poprzedniObrazek.src.split('obrazek')[1]) === 3 && czyKliknietyObrazek0) {
+                                                                        setTimeout(() => {
+        aktualnyObrazek.classList.add('przesuniety1');
+                            aktywujPustePole2(obrazekContainer, indexObrazka);
+    }, 100);
+    setTimeout(() => {
+                                if (aktualnyObrazek) {
+    obrazekContainer.removeChild(aktualnyObrazek);
+}
+    }, 1100);
+            }
+            }
+        }
+
+        poprzedniObrazek = obrazek;
+        indeksObrazka++;
+    } else {
+        alert('Błędny indeks obrazka!');
+    }
+}
+</script>
+</body>
+</html>
