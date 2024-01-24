@@ -1,14 +1,16 @@
-// Przykład użycia z opcjonalnymi parametrami
+// Napisz domyślny alert (wyskakujące okienko własnym oknem)
+//
+// Przykład użycia z opcjonalnymi parametrami:
 // alert("Tekst alertu", "Niestandardowy tytuł", "Zamknij");
 
 // to napisuje domyślną funckcje "alert"
 if ($('body').load) {
-	window.alert = function (txt, title, buttonText) {
-		createCustomAlert(txt, title, buttonText);
+	window.alert = function (txt) {
+		createCustomAlert(txt);
 	}
 }
 
-function createCustomAlert(txt, title = "Alert", buttonText = "OK") {
+function createCustomAlert(title = "Alert", message, buttonText = "OK") {
 	const documentElement = document.documentElement;
 
 	// Sprawdź, czy modalContainer już istnieje
@@ -35,7 +37,7 @@ function createCustomAlert(txt, title = "Alert", buttonText = "OK") {
 	// Dodaj treść alertu
 	const message = alertBox.appendChild(document.createElement("p"));
 	//message.appendChild(document.createTextNode(txt));
-	message.innerHTML = txt;
+	message.innerHTML = message;
 
 	// Dodaj przycisk zamykający
 	const closeButton = alertBox.appendChild(document.createElement("a"));
@@ -56,8 +58,4 @@ function createCustomAlert(txt, title = "Alert", buttonText = "OK") {
 
 function removeCustomAlert() {
 	document.getElementsByTagName("body")[0].removeChild(document.getElementById("modalContainer"));
-}
-
-function ful() {
-	alert('Alert this pages');
 }
