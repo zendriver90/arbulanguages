@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Obrazki w kontenerach</title>
+    <link rel="stylesheet" href="styles.css">
+      <style>
+#kontenery {
+      width: 100px;
+      max-height: calc(100vh - 0px); /* Maksymalna wysokość równa wysokości widoku minus marginesy */
+      border: 1px solid orange;
+      overflow: auto;
+      position: fixed; /* Ustawienie kontenera jako przyczepionego do lewej krawędzi widoku */
+      top: -10px; /* Umiejscowienie kontenera na górze widoku */
+      left: 0; /* Umiejscowienie kontenera na lewej krawędzi widoku */
+      padding: 1px;
+      margin-top: 50px; /* Odstęp między obrazkami */
+      z-index: 999;
+      font-size: 7px;
+}
+
+.obrazek-container {
+    border: 1px solid #ccc;
+    margin: 1px;
+    padding: 2px;
+}
+  </style>
+</head>
+<body>
+           <button onclick="aktywujObrazek('obrazek-container1', 0)">Dodaj obrazek</button>
+           <button onclick="aktywujObrazek('obrazek-container1', 1)">Dodaj obrazek</button>
+           <button onclick="aktywujObrazek('obrazek-container1', 2)">Dodaj obrazek</button>
+           <button onclick="aktywujObrazek('obrazek-container2', 1)">Dodaj obrazek</button>
+   <div id="kontenery">
+        <div class="obrazek-container" id="obrazek-container1">
+            <p>Zdanie 1sze</p>
+        </div>
+        <div class="obrazek-container" id="obrazek-container2">
+            <p>Zdanie 2ie</p>
+        </div>
+        <div class="obrazek-container" id="obrazek-container3">
+            <p>Zdanie 3cie</p>
+        </div>
+        <div class="obrazek-container" id="obrazek-container4">
+            <p>Zdanie 4te</p>
+        </div>
+        <div class="obrazek-container" id="obrazek-container5">
+            <p>Zdanie 5te</p>
+        </div>
+    </div>
+<script>
+const obrazki = [
+    'obrazek1.jpg',
+    'obrazek2.jpg',
+    'obrazek3.jpg',
+    'obrazek4.jpg',
+    'obrazek5.jpg'
+];
+
+function aktywujObrazek(nazwaKontenera, indexObrazka) {
+    if (indexObrazka >= 0 && indexObrazka < obrazki.length) {
+        const obrazek = document.createElement('img');
+        obrazek.src = obrazki[indexObrazka];
+        obrazek.style.width = '100px';
+        obrazek.style.height = 'auto';
+
+        const obrazekContainer = document.getElementById(nazwaKontenera);
+
+        obrazekContainer.appendChild(obrazek);
+        
+                if (poprzedniObrazek) {
+            const aktualnyObrazek = obrazekContainer.lastChild;
+
+            console.log('Poprzedni indeks:', parseInt(poprzedniObrazek.src.split('obrazek')[1]));
+            console.log('Aktualny indeks:', parseInt(aktualnyObrazek.src.split('obrazek')[1]));
+
+            if (parseInt(aktualnyObrazek.src.split('obrazek')[1]) < parseInt(poprzedniObrazek.src.split('obrazek')[1])) {
+                console.log('Dodaję klasę przesunięcia do aktualnego obrazka');
+                aktualnyObrazek.classList.add('przesuniety');
+            if (parseInt(aktualnyObrazek.src.split('obrazek')[1]) === 1 && parseInt(poprzedniObrazek.src.split('obrazek')[1]) === 2) {
+                                        setTimeout(() => {
+        aktualnyObrazek.classList.add('przesuniety2');
+                            aktywujPustePole(obrazekContainer, index);
+    }, 100);
+    setTimeout(() => {
+                                if (aktualnyObrazek) {
+    obrazekContainer.removeChild(aktualnyObrazek);
+}
+    }, 1100);
+            }
+                                    if (parseInt(aktualnyObrazek.src.split('obrazek')[1]) === 2 && parseInt(poprzedniObrazek.src.split('obrazek')[1]) === 3 && !czyKliknietyObrazek0) {
+                                                        setTimeout(() => {
+        aktualnyObrazek.classList.add('przesuniety2');
+                            aktywujPustePole3(obrazekContainer, index);
+    }, 100);
+    setTimeout(() => {
+                                if (aktualnyObrazek) {
+    obrazekContainer.removeChild(aktualnyObrazek);
+}
+    }, 1100);
+            }
+                                    if (parseInt(aktualnyObrazek.src.split('obrazek')[1]) === 2 && parseInt(poprzedniObrazek.src.split('obrazek')[1]) === 3 && czyKliknietyObrazek0) {
+                                                                        setTimeout(() => {
+        aktualnyObrazek.classList.add('przesuniety1');
+                            aktywujPustePole2(obrazekContainer, index);
+    }, 100);
+    setTimeout(() => {
+                                if (aktualnyObrazek) {
+    obrazekContainer.removeChild(aktualnyObrazek);
+}
+    }, 1100);
+            }
+            }
+        }
+    } else {
+        alert('Błędny indeks obrazka!');
+    }
+}
+    </script>
+    </body>
+</html>

@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kontenery z Obrazkami</title>
+  <style>
+    #mainContainer {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      height: 200px; /* Ustaw odpowiednią wysokość */
+    }
+
+    .empty-container {
+      border: 1px solid #ddd;
+      padding: 10px;
+      text-align: center;
+      cursor: pointer;
+    }
+
+    .sub-container {
+      border: 1px solid #ddd;
+      padding: 10px;
+      text-align: center;
+    }
+
+    .image-wrapper img {
+      max-width: 100px;
+      max-height: 100px;
+    }
+
+    .container-number {
+      margin-top: 5px;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+
+<div id="mainContainer"></div>
+
+<button onclick="pokazObrazek('https://i.imgur.com/abc123.jpg', 2)">Pokaż obrazek z Imgur</button>
+<button onclick="pokazObrazek('obrazek1', 0)">Pokaż lokalny obrazek</button>
+<button onclick="pokazObrazek('obrazek2', 0)">Pokaż lokalny obrazek</button>
+
+<script>
+  const numberOfContainers = 5;
+  let selectedContainerIndex = null;
+  let containerImages = Array.from({ length: numberOfContainers }, () => []);
+
+  function initMainContainer() {
+    const mainContainer = document.getElementById('mainContainer');
+    for (let i = 0; i < numberOfContainers; i++) {
+      const emptyContainer = document.createElement('div');
+      emptyContainer.className = 'empty-container';
+      emptyContainer.innerHTML = `Kontener ${i + 1}`;
+      emptyContainer.addEventListener('click', () => pokazObrazek(`https://i.imgur.com/abc${i + 1}.jpg`, i));
+      mainContainer.appendChild(emptyContainer);
+    }
+  }
+
+  function pokazObrazek(obrazekUrl, containerIndex) {
+    const mainContainer = document.getElementById('mainContainer');
+    const subContainer = document.createElement('div');
+    subContainer.className = 'sub-container';
+
+    const imageWrapper = document.createElement('div');
+    imageWrapper.className = 'image-wrapper';
+
+    const obrazek = new Image();
+    obrazek.src = obrazekUrl;
+    obrazek.crossOrigin = "anonymous";
+
+    obrazek.addEventListener('load', function () {
+      subContainer.innerHTML = '';
+      subContainer.appendChild(imageWrapper);
+      containerImages[containerIndex].push(obrazek);
+
+      containerImages[containerIndex].forEach(img => imageWrapper.appendChild(img));
+
+      const containerNumber = document.createElement('div');
+      containerNumber.className = 'container-number';
+      containerNumber.textContent = `Kontener ${containerIndex + 1}`;
+      subContainer.appendChild(containerNumber);
+
+      if (selectedContainerIndex !== null && selectedContainerIndex === containerIndex) {
+        mainContainer.replaceChild(subContainer, mainContainer.childNodes[selectedContainerIndex]);
+      } else {
+        mainContainer.replaceChild(subContainer, mainContainer.childNodes[containerIndex]);
+        selectedContainerIndex = containerIndex;
+      }
+    });
+
+    imageWrapper.appendChild(obrazek);
+    subContainer.appendChild(imageWrapper);
+  }
+
+  // Inicjalizacja głównego kontenera po załadowaniu strony
+  document.addEventListener('DOMContentLoaded', function () {
+    initMainContainer();
+  });
+</script>
+
+</body>
+</html>

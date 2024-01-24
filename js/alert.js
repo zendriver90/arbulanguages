@@ -1,54 +1,63 @@
-var ALERT_TITLE = "Oops!";
-var ALERT_BUTTON_TEXT = "Ok";
+// Przykład użycia z opcjonalnymi parametrami
+// alert("Tekst alertu", "Niestandardowy tytuł", "Zamknij");
 
-if($('body').load) {
-	window.alert = function(txt) {
-  if(window.matchMedia("(orientation: portrait)").matches){
-		setTimeout(function() { alert("Odwr\u00f3\u0107 ekran. Po odwr\u00f3ceniu ekranu komunikat zniknie"); }, 2000);
-    }
-    if (window.matchMedia("(orientation: landscape)").matches) {
-    
-}
-    		createCustomAlert(txt);
+// to napisuje domyślną funckcje "alert"
+if ($('body').load) {
+	window.alert = function (txt, title, buttonText) {
+		createCustomAlert(txt, title, buttonText);
 	}
 }
 
-function createCustomAlert(txt) {
-	d = document;
+function createCustomAlert(txt, title = "Alert", buttonText = "OK") {
+	const documentElement = document.documentElement;
 
-	if(d.getElementById("modalContainer")) return;
+	// Sprawdź, czy modalContainer już istnieje
+	if (document.getElementById("modalContainer")) {
+		return;
+	}
 
-	mObj = d.getElementsByTagName("body")[0].appendChild(d.createElement("div"));
-	mObj.id = "modalContainer";
-	mObj.style.height = d.documentElement.scrollHeight + "px";
-	
-	alertObj = mObj.appendChild(d.createElement("div"));
-	alertObj.id = "alertBox";
-	if(d.all && !window.opera) alertObj.style.top = document.documentElement.scrollTop + "px";
-	alertObj.style.left = (d.documentElement.scrollWidth - alertObj.offsetWidth)/2 + "px";
-	alertObj.style.visiblity="visible";
+	// Stwórz element modalContainer
+	const modalContainer = document.body.appendChild(document.createElement("div"));
+	modalContainer.id = "modalContainer";
+	modalContainer.style.height = documentElement.scrollHeight + "px";
 
-	h1 = alertObj.appendChild(d.createElement("h1"));
-	h1.appendChild(d.createTextNode(ALERT_TITLE));
+	// Stwórz element alertBox
+	const alertBox = modalContainer.appendChild(document.createElement("div"));
+	alertBox.id = "alertBox";
+	alertBox.style.top = documentElement.scrollTop + "px";
+	alertBox.style.left = (documentElement.scrollWidth - alertBox.offsetWidth) / 2 + "px";
+	alertBox.style.visibility = "visible";
 
-	msg = alertObj.appendChild(d.createElement("p"));
-	//msg.appendChild(d.createTextNode(txt));
-	msg.innerHTML = txt;
+	// Dodaj nagłówek
+	const header = alertBox.appendChild(document.createElement("h1"));
+	header.appendChild(document.createTextNode(title));
 
-	btn = alertObj.appendChild(d.createElement("a"));
-	btn.id = "closeBtn";
-	btn.appendChild(d.createTextNode(ALERT_BUTTON_TEXT));
-	btn.href = "#";
-	btn.focus();
-	btn.onclick = function() { removeCustomAlert();return false; }
+	// Dodaj treść alertu
+	const message = alertBox.appendChild(document.createElement("p"));
+	//message.appendChild(document.createTextNode(txt));
+	message.innerHTML = txt;
 
-	alertObj.style.display = "block";
-	
+	// Dodaj przycisk zamykający
+	const closeButton = alertBox.appendChild(document.createElement("a"));
+	closeButton.id = "closeBtn";
+	closeButton.appendChild(document.createTextNode(buttonText));
+	closeButton.href = "#";
+	closeButton.focus();
+
+	// Dodaj obsługę kliknięcia na przycisk zamykający
+	closeButton.onclick = function () {
+		removeCustomAlert();
+		return false;
+	};
+
+	// Wyświetl alert
+	alertBox.style.display = "block";
 }
 
 function removeCustomAlert() {
 	document.getElementsByTagName("body")[0].removeChild(document.getElementById("modalContainer"));
 }
-function ful(){
-alert('Alert this pages');
+
+function ful() {
+	alert('Alert this pages');
 }

@@ -571,7 +571,7 @@ animation: blink 1s infinite; /* Ustawienie animacji */
     background: orange;
 }
  
-.Button1.active,
+.Button.active,
 .Button11.active,
 .Button111.active,
 .Button1111.active,
@@ -599,7 +599,7 @@ animation: blink 1s infinite; /* Ustawienie animacji */
     border-radius: 8px;
 }
  
-.Button1.inactive,
+.Button.inactive,
 .Button11.inactive,
 .Button111.inactive,
 .Button1111.inactive,
@@ -1217,19 +1217,12 @@ background-color: green;
       top: 50%;
       left: 50%;
       background-color: #f9f9f9;
-      padding: 20px;
-      border: 1px solid #ccc;
       z-index: 9999;
     }
-.image-container {
-  display: flex;
-  flex-wrap: wrap;
-}
+
 
     #myContainer {
       display: none;
-      border: 1px solid #000;
-      padding: 10px;
       margin-left: 10px; /* Dodaj margines z lewej strony, aby był obok obrazka */
     }
     .container-flex {
@@ -1242,7 +1235,7 @@ background-color: green;
       border: 1px solid orange;
       overflow: auto;
       position: fixed; /* Ustawienie kontenera jako przyczepionego do lewej krawędzi widoku */
-      top: 0; /* Umiejscowienie kontenera na górze widoku */
+      top: -10px; /* Umiejscowienie kontenera na górze widoku */
       left: 0; /* Umiejscowienie kontenera na lewej krawędzi widoku */
       padding: 1px;
       margin-top: 50px; /* Odstęp między obrazkami */
@@ -1254,7 +1247,7 @@ background-color: green;
       border: 1px solid orange;
       overflow: auto;
       position: fixed; /* Ustawienie kontenera jako przyczepionego do lewej krawędzi widoku */
-      top: 0; /* Umiejscowienie kontenera na górze widoku */
+      top: -10px; /* Umiejscowienie kontenera na górze widoku */
       left: 0; /* Umiejscowienie kontenera na lewej krawędzi widoku */
       padding: 1px;
       margin-top: 50px; /* Odstęp między obrazkami */
@@ -1273,43 +1266,74 @@ background-color: green;
       width: 100px;
       height: 45px; /* Maksymalna wysokość równa wysokości widoku minus marginesy */
       overflow: auto;
+      font-size: 4px;
       position: fixed; /* Ustawienie kontenera jako przyczepionego do lewej krawędzi widoku */
       bottom: 0; /* Umiejscowienie kontenera na górze widoku */
       left: 0; /* Umiejscowienie kontenera na lewej krawędzi widoku */
-      padding: 2px;
     }
-.image-wrapper {
-      margin: 10px;
-      border: 1px solid #ccc;
-      padding: 5px;
-      text-align: center;
-      position: relative;
-      display: inline-block;
+  .image-container {
+    position: relative;
+    margin-bottom: 20px;
+  }
+
+  .image-wrapper {
+    position: relative;
+    display: inline-block;
+  }
+
+  .myContainer {
+    position: absolute;
+    display: none;
+    padding: 3px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    z-index: 1000;
+  }
+    .orange-dot {
+    position: absolute;
+    width: 12px;
+    height: 12px;
+    background-color: orange;
+    border-radius: 50%;
+    bottom: 10px;
+    left: 10px;
+    display: none;
+  }
+     .word {
+      display: block;
+      position: absolute;
+      bottom: 15px;
+      left: 20px;
+      padding: 5px 5px;
+      font-size: 10px;
+      background-color: rgba(255, 165, 0, 0.7);
+      color: white;
+      border-radius: 5px;
+      z-index: 0;
     }
-    img {
+    @keyframes blink {
+      0%, 100% {
+        opacity: 1;
+      }
+      50% {
+        opacity: 0;
+      }
+    }
+      img {
       max-width: 100%;
       height: auto;
       cursor: pointer;
-    }
-    .myContainer {
-      display: none;
-      border: 1px solid #000;
-      padding: 10px;
-      position: absolute;
-      top: 0;
-      left: 100%; /* Położenie po prawej stronie obrazka */
-      width: 200px; /* Szerokość kontenera */
-      background-color: #fff;
+      border: none;
     }
 
     #nauka {
       width: 100px;
-      border: 1px solid orange;
+      height: 38px;
+      font-size: 10px;
       overflow: auto;
       position: fixed; /* Ustawienie kontenera jako przyczepionego do lewej krawędzi widoku */
       top: 0; /* Umiejscowienie kontenera na górze widoku */
       left: 0; /* Umiejscowienie kontenera na lewej krawędzi widoku */
-      padding: 1px;
     }
     
         #nauka3 {
@@ -1323,13 +1347,16 @@ background-color: green;
       z-index: 999;
     }
     #as {
-        width: 10px;
-        height: 20px;
+        width: 100%;
+        height: 100%;
     }
     
     #nauka2 {
         width: 100%;
-        font-size: 8px;
+        font-size: 5px;
+        margin-top: 17px; /* Umiejscowienie kontenera na górze widoku */
+        left: 0; /* Umiejscowienie kontenera na lewej krawędzi widoku */
+        
     }
  .container2 {
   position: fixed;
@@ -1770,246 +1797,6 @@ tr:nth-child(2) {
 .pause {
     background: url('https://www.arbulanguages.com/img/stop.jpg');
 }
-	table, th, td {
-  width: 1150px;
-  height: 100%;
-  text-align: center;
-  z-index: 8;
-  position: center;
-  padding-left: 50px;
-  padding-right: 40px;
-  z-index: 9;
-}
-div.menu {
-  width: 350%;
-  position: relative;
-  text-align: center;
-  padding-left: 50px;
-  padding-right: 40px;
-}
-}
-@media (min-width: 999px) and (max-width: 1100px) {
-  .container2 {
-  position: fixed;
-  padding-right: 30px;
-  padding-top: 5px;
-  top: 50px; /* Dostosuj wartość top, aby odpowiednio umieścić kontenery */
-  right: 0px;
-  width: 80px;
-  overflow: hidden;
-  height: calc(100% - 180px); /* Dostosuj wartość wysokości, uwzględniając odstępy */
-  border: 2px solid red;
-  box-sizing: border-box;
-  z-index: 37;
-}
- 
-.inner-container {
-  margin: 2px;
-  width: 72px;
-  height: calc(100% / 5);
-  background-color: #ddd;
-    overflow: hidden;
-	      transition: opacity 0.2s ease;
-}
- 
-.container {
-  position: relative;
-}
-
-.navbar {
-  width: 150px;
-  height: 60px;
-  position: fixed;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  background-color: #333;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  z-index: 9;
-}
- 
-.dot-button {
-  transform: scale(1.8) translateX(110px);
-  width: 70px;
-  height: 70px;
-  background-color: #f00;
-  border-radius: 50%;
-  cursor: pointer;
-  z-index: 9;
-}
- 
-.arrow-up-container,
-.arrow-down-container {
-  position: fixed;
-  width: 80px;
-  right: 0px;
-  overflow: auto; /* Dodaj warstwę na górze, aby strzałki były widoczne */
-  box-sizing: border-box;
-  margin: 5px solid black;
-  height: calc(100% / 10);
-  background-color: #ddd;
-  border: 2px solid blue;
-}
- 
-.arrow-up-container {
-  top: 0;
-  height: 55px;
-}
- 
-.arrow-down-container {
-    z-index: 10;
-	height: 85px;
-}
- 
-.arrow-up,
-.arrow-down {
-  width: 0;
-  height: 0;
-  border-style: solid;
-}
- 
-.arrow-up {  
-  right: 50%;
-  border-width: 0 20px 20px 20px;
-  border-color: transparent transparent blue transparent;
-  top: 5px;
-}
- 
-.arrow-down {
-  right: 50%;
-  position: center;
-  border-width: 20px 20px 0 20px;
-  border-color: blue transparent transparent transparent;
-  z-index: 10;
-  height: 600px;
-}
- 
- .container {
-    height: 2500px;
-	width: 1300px;
-    overflow: auto;
-}
-	tr:nth-child(2) {
-		height: 400px;
-		}
-	tr:nth-child(3) {
-		height: 400px;
-		}
-	tr:nth-child(5) {
-		height: 400px;
-		}
-	tr:nth-child(6) {
-		height: 400px;
-		}
-	tr:nth-child(8) {
-		height: 400px;
-		}
-	tr:nth-child(9) {
-		height: 400px;
-		}
-    .item,
-	.item2,
-	.item3,
-	.item4,
-	.item5,
-	.item6,
-	.itemi,
-	.item2i,
-	.item3i,
-	.item4i,
-	.item5i,
-	.item6i,
-	.itemj,
-	.item2j,
-	.item3j,
-	.item4j,
-	.item5j,
-	.item6j,
-.iteml,
-.item2l,
-.item3l,
-.item4l,
-.item5l,
-.item6l,
-.itemk,
-.item2k,
-.item3k,
-.item4k,
-.item5k,
-.item6k	{
-	  transform: scale(1.20) translate(0, 0);
-	  background: white;
-	  display: inline-block;
-	  width: 294px;
-	  border: 2px solid black;
-	  border-radius: 8px;
-	  top: 0;
-	  right: 0;
-      transition: transform 0.5s ease;
-	}
-	.transform {
-	transform: scale(2.1) translate(100px, 70px);
-    transition: transform 0.5s ease, translate 0.5s ease;
-	position: relative;
-	z-index: 7;
-	  }
- 
-	.transformb {
-	  transform: scale(2.1) translateY(70px);
-    transition: transform 0.5s ease, translate 0.5s ease;
-	  position: relative;
-	  top: 35px;
-	  z-index: 2;
-	  }
- 
-	.transformc {
-	  transform: scale(2.1) translate(-100px, 70px);
-    transition: transform 0.5s ease, translate 0.5s ease;
-	  position: relative;
-	  top: 35px;
-	  left: 20px;
-	  z-index: 2;
-	  }
- 
-	.transformd {
-	  transform: scale(2.1) translate(100px, -70px);
-    transition: transform 0.5s ease, translate 0.5s ease;
-	  position: relative;
-	  bottom: 35px;
-	  left: 20px;
-	  z-index: 2;
-	  }
- 
-	.transforme {
-	  transform: scale(2.1) translateY(-70px);
-    transition: transform 0.5s ease, translate 0.5s ease;
-	  position: relative;
-	  bottom: 35px;
-	  z-index: 2;
-	  }
- 
-	.transformf {
-	  transform: scale(2.1) translate(-100px, -70px);
-    transition: transform 0.5s ease, translate 0.5s ease;
-	  position: relative;
-	  bottom: 35px;
-	  right: 20px;
-	  z-index: 2;
-	  }
- 
-	.hideBefore::before {
-	  content: "";
-	  position: absolute;
-	  top: -10px;
-	  left: 50%;
-	  transform: translateX(-50%);
-	  border-width: 20px 20px 0;
-	  border-style: solid;
-	  border-color: blue transparent transparent;
-	}
- 
 	table, th, td {
   width: 1150px;
   height: 100%;

@@ -1,0 +1,560 @@
+@media (max-width: 999px) {
+    /* Opcjonalny styl dla tekstu */
+    #textToShow1 {
+      font-size: 16px; /* Dostosuj rozmiar czcionki według potrzeb */
+    }
+    /* Styl dla powiększonego słowa IS */
+    .enlarged {
+      font-size: 1.5em; /* Możesz dostosować wielkość czcionki według potrzeb */
+    }
+    
+    .button1,
+.button2,
+.button3 {
+  position: absolute;
+  background-color: #ffffff; /* Możesz dostosować kolor tła przycisków */
+  border: 1px solid #000000; /* Możesz dostosować styl obramowania przycisków */
+  border-radius: 5px; /* Możesz dostosować zaokrąglenie rogów przycisków */
+  font-size: 14px;
+  cursor: pointer;
+}
+    #mainContainer {
+      width: 100px;
+      max-height: calc(100vh - 0px); /* Maksymalna wysokość równa wysokości widoku minus marginesy */
+      border: 1px solid orange;
+      overflow: auto;
+      position: fixed; /* Ustawienie kontenera jako przyczepionego do lewej krawędzi widoku */
+      top: -10px; /* Umiejscowienie kontenera na górze widoku */
+      left: 0; /* Umiejscowienie kontenera na lewej krawędzi widoku */
+      padding: 1px;
+      margin-top: 50px; /* Odstęp między obrazkami */
+      z-index: 999;
+    }
+
+    .empty-container {
+      border: 1px solid #ddd;
+      padding: 10px;
+      text-align: center;
+      cursor: pointer;
+    }
+
+    .sub-container {
+    position: relative;
+    margin-bottom: 20px;
+    }
+
+    .image-wrapper img {
+      max-width: 100%;
+      height: auto;
+      cursor: pointer;
+      border: none;
+    }
+
+    .container-number {
+      margin-top: 5px;
+      font-weight: bold;
+    }
+    @keyframes blink {
+      0%, 100% {
+        opacity: 1;
+      }
+      50% {
+        opacity: 0;
+      }
+    }
+      img {
+      max-width: 100%;
+      height: auto;
+      cursor: pointer;
+      border: none;
+    }
+
+    #nauka {
+      width: 100px;
+      height: 38px;
+      font-size: 10px;
+      overflow: auto;
+      position: fixed; /* Ustawienie kontenera jako przyczepionego do lewej krawędzi widoku */
+      top: 0; /* Umiejscowienie kontenera na górze widoku */
+      left: 0; /* Umiejscowienie kontenera na lewej krawędzi widoku */
+    }
+    
+        #nauka3 {
+      width: 20px;
+      border: 1px solid;
+      overflow: auto;
+      position: fixed; /* Ustawienie kontenera jako przyczepionego do lewej krawędzi widoku */
+      top: -25px; /* Umiejscowienie kontenera na górze widoku */
+      left: 0; /* Umiejscowienie kontenera na lewej krawędzi widoku */
+      margin-top: 60px;
+      z-index: 999;
+    }
+    #as {
+        width: 100%;
+        height: 100%;
+    }
+    
+    #nauka2 {
+        width: 100%;
+        font-size: 5px;
+        margin-top: 17px; /* Umiejscowienie kontenera na górze widoku */
+        left: 0; /* Umiejscowienie kontenera na lewej krawędzi widoku */
+        
+    }
+ .container2 {
+  position: fixed;
+  padding-right: 30px;
+  padding-top: 30px;
+  top: 600px; /* Dostosuj wartość top, aby odpowiednio umieścić kontenery */
+  right: 0px;
+  width: 80px;
+  overflow: hidden;
+  height: calc(100% - 1400px); /* Dostosuj wartość wysokości, uwzględniając odstępy */
+  border: 2px solid red;
+  box-sizing: border-box;
+  z-index: 7;
+  bottom: 1000px;
+}
+	tr:nth-child(2) {
+		height: 450px;
+		}
+	tr:nth-child(3) {
+		height: 450px;
+}
+ 
+.inner-container {
+  margin: 2px;
+  width: 72px;
+  height: calc(100% / 5 - 22px);
+  background-color: #ddd;
+    overflow: hidden;
+	      transition: opacity 0.2s ease;
+		    bottom: 1000px;
+}
+ 
+.navbar {
+  width: 100%;
+  height: 100px;
+  background-color: #f0f0f0; /* Kolor tła paska */
+  bottom: 0px;
+  position: fixed;
+}
+
+.dot-button {
+  width: 180px;
+  height: 180px;
+  background-color: red; /* Kolor kropki */
+  border-radius: 50%; /* Ustawienie kształtu kropki na okrąg */
+  position: absolute;
+  top: 50%; /* Pozycja pionowa kropki */
+  transform: translate(-50%, -50%); /* Przesunięcie kropki na środek */
+  left: 50%; /* Pozycja pozioma na środku */
+  z-index: 50;
+}
+
+.przycisk5 {
+  position: absolute;
+  top: 4900px;
+  left: 18px;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  color: orange; /* Kolor tekstu */
+  font-size: 40px;
+  z-index: 90;
+}
+ 
+#startButton8 {
+  position: relative; /* Ustawienie na relative, aby centrować przycisk */
+  height: 100px;
+  width: 150px;
+  position: center;
+  background-color: blue; /* Kolor tła przycisku */
+  color: white; /* Kolor tekstu przycisku */
+  z-index: 90;
+  border-radius: 8px;
+  opacity: 0.7;
+}
+
+#kasowanie {
+  position: absolute;
+  height: 70px;
+  top: 0%; /* Pozycja pionowa przycisku */
+  right: 180px; /* Odległość od prawej strony */
+  padding: 8px 16px;
+  background-color: blue; /* Kolor tła przycisku */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  display: block;
+}
+#dalej {
+  position: absolute;
+  height: 70px;
+  top: 0%; /* Pozycja pionowa przycisku */
+  right: 700px; /* Odległość od prawej strony */
+  padding: 8px 16px;
+  background-color: gray; /* Kolor tła przycisku */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  display: block;
+}
+#znam {
+  position: absolute;
+  height: 70px;
+  top: 0%; /* Pozycja pionowa przycisku */
+  right: 1000px; /* Odległość od prawej strony */
+  padding: 8px 16px;
+  background-color: green; /* Kolor tła przycisku */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  display: block;
+}
+
+#trening.hidden {
+  position: absolute;
+  height: 70px;
+  top: 0%; /* Pozycja pionowa przycisku */
+  right: 667px; /* Odległość od prawej strony */
+  padding: 8px 16px;
+  background-color: blue; /* Kolor tła przycisku */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  display: none;
+}
+#trening.hej3 {
+  position: absolute;
+  height: 70px;
+  top: 0%; /* Pozycja pionowa przycisku */
+  right: 667px; /* Odległość od prawej strony */
+  padding: 8px 16px;
+  background-color: red; /* Kolor tła przycisku */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  z-index: 60;
+  display: block;
+}
+#story.hidden {
+  position: absolute;
+  height: 70px;
+  top: 0%; /* Pozycja pionowa przycisku */
+  right: 180px; /* Odległość od prawej strony */
+  padding: 8px 16px;
+  background-color: blue; /* Kolor tła przycisku */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  display: none;
+}
+#story.hej3 {
+  position: absolute;
+  height: 70px;
+  top: 0%; /* Pozycja pionowa przycisku */
+  right: 605px; /* Odległość od prawej strony */
+  padding: 8px 16px;
+  background-color: red; /* Kolor tła przycisku */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  display: block;
+  z-index: 160;
+}
+#storyplay {
+  position: absolute;
+  height: 70px;
+  top: 0%; /* Pozycja pionowa przycisku */
+  right: 605px; /* Odległość od prawej strony */
+  padding: 8px 16px;
+  background-color: red; /* Kolor tła przycisku */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  display: block;
+  z-index: 80;
+}
+.container {
+  position: relative;
+}
+ 
+.arrow-up-container,
+.arrow-down-container {
+  position: fixed;
+  width: 80px;
+  right: 0px;
+  height: 200px;
+  overflow: auto; /* Dodaj warstwę na górze, aby strzałki były widoczne */
+  box-sizing: border-box;
+  margin: 5px solid black;
+  height: calc(100% / 10 - 20px);
+  background-color: #ddd;
+  border: 2px solid blue;
+}
+ 
+.arrow-up-container {
+  top: 0;
+    height: 200px;
+	  height: 600px;
+}
+ 
+.arrow-down-container {
+  bottom: 145px;
+    z-index: 10;
+	  height: 650px;
+}
+ 
+.arrow-up,
+.arrow-down {
+  height: 600px;
+  width: 0;
+  height: 0;
+  border-style: solid;
+}
+ 
+.arrow-up {  
+  right: 50%;
+  border-width: 0 20px 20px 20px;
+  border-color: transparent transparent blue transparent;
+  top: 5px;
+  height: 600px;
+}
+ 
+.arrow-down {
+  right: 50%;
+  position: center;
+  border-width: 20px 20px 0 20px;
+  border-color: blue transparent transparent transparent;
+    z-index: 10;
+	  height: 600px;
+}
+ 
+ .container {
+    height: 2500px;
+	width: 1300px;
+    overflow: auto;
+}
+tr:nth-child(2) {
+		height: 0px;
+		}
+	tr:nth-child(3) {
+		height: 0px;
+		}
+	tr:nth-child(5) {
+		height: 0px;
+		}
+	tr:nth-child(6) {
+		height: 0px;
+		}
+	tr:nth-child(8) {
+		height: 0px;
+		}
+	tr:nth-child(9) {
+		height: 0px;
+		}
+        .item,
+	.item2,
+	.item3,
+	.item4,
+	.item5,
+	.item6,
+	.itemi,
+	.item2i,
+	.item3i,
+	.item4i,
+	.item5i,
+	.item6i,
+	.itemj,
+	.item2j,
+	.item3j,
+	.item4j,
+	.item5j,
+	.item6j,
+.iteml,
+.item2l,
+.item3l,
+.item4l,
+.item5l,
+.item6l,
+.itemk,
+.item2k,
+.item3k,
+.item4k,
+.item5k,
+.item6k	{
+	  transform: scale(1.15) translate(0, 0);
+	  background: white;
+	  display: inline-block;
+	  width: 294px;
+	  border: 2px solid black;
+	  border-radius: 8px;
+	  top: 0;
+	  left: 60px;
+	}
+	.transform {
+	position: relative;
+	z-index: 300;
+	  }
+ 
+	.transformb {
+	  position: relative;
+	  z-index: 305;
+	  }
+ 
+	.transformc {
+	  position: relative;
+	  z-index: 310;
+	  }
+ 
+	.transformd {
+	  position: relative;
+	  z-index: 315;
+	  }
+ 
+	.transforme {
+	  position: relative;
+	  z-index: 320;
+	  }
+ 
+	.transformf {
+	  position: relative;
+	  z-index: 325;
+	  }
+ 
+	.hideBefore::before {
+	  content: "";
+	  position: absolute;
+	  top: -10px;
+	  left: 50%;
+	  transform: translateX(-50%);
+	  border-width: 20px 20px 0;
+	  border-style: solid;
+	  border-color: blue transparent transparent;
+	}
+  
+.caption {
+    position: relative;
+  text-align: center;
+    font-size: 17px;
+    }
+    /* Make the caption a block so it occupies its own line. */
+    display: block;
+         
+
+#audioplayer.on {
+	width: 220px;
+	height: 40px;
+	margin: auto auto auto;
+	border: solid;
+	visibility: visible;
+}
+#audioplayer.add {
+	width: 220px;
+	height: 40px;
+	margin: auto auto auto;
+	border: solid;
+	visibility: inline;
+}
+ 
+#pButton{
+    height:40px; 
+    width: 40px;
+    border: none;
+    background-size: 50% 50%;
+    background-repeat: no-repeat;
+    background-position: center;
+    float:left;
+    outline:none;
+}
+ 
+.play{background: url('https://www.arbulanguages.com/img/play.png') ;}
+.pause{background: url('https://www.arbulanguages.com/img/stop.jpg') ;}
+ 
+#timeline{
+	width: 160px;
+	height: 16px;
+	margin-top: 10px;
+	float: left;
+	border-radius: 15px;
+	background: rgba(0,0,0,.3);
+ 
+}
+#playhead{
+	width: 15px;
+	height: 15px;
+	border-radius: 50%;
+	margin-top: 1px;
+	background: rgba(0, 0, 0,1);
+}
+ 
+#word {
+	height: 40px;
+	font-size: 15px;
+    display: grid;
+	text-align: center;
+	justify-content: center;
+	align-items: center;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto; /* Dwa wiersze o automatycznej wysokości */
+}
+ 
+#audioplayer2{
+    grid-column: 2 / span 2; /* Rozciągnięcie elementu na dwóch kolumnach */
+    grid-row: 1;
+	width: 48px;
+	height: 48px;
+	text-align: right;
+	justify-content: right;
+	align-items: right;
+	border: solid;
+}
+ 
+#pButton2{
+    height:40px; 
+    width: 40px;
+    border: none;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    float:left;
+    outline:none;
+}
+ 
+.play2 {
+    background: url('https://www.arbulanguages.com/img/play.png');
+}
+ 
+.pause {
+    background: url('https://www.arbulanguages.com/img/stop.jpg');
+}
+	table, th, td {
+  width: 1150px;
+  height: 100%;
+  text-align: center;
+  z-index: 8;
+  position: center;
+  padding-left: 50px;
+  padding-right: 40px;
+  z-index: 9;
+}
+div.menu {
+  width: 350%;
+  position: relative;
+  text-align: center;
+  padding-left: 50px;
+  padding-right: 40px;
+}
+}

@@ -23,7 +23,6 @@
 
 .obrazek-container {
     border: 1px solid #ccc;
-    padding-left: 0px;
 }
 
         @keyframes rozwijanie {
@@ -80,20 +79,6 @@
 .przesuniety2 {
     animation: przesuwanie2 1s ease-in-out;
 }
-    #karta {
-        width: 90px;
-        display: flex;
-        justify-content: flex-end;
-        margin-right: 5px;
-        margin-left: 5px;
-    }
-
-    #karta img {
-        width: 20px;
-        height: 30px;
-        margin-left: 5px;
-        margin-top: 5px;
-    }
     </style>
 </head>
 <body>
@@ -103,19 +88,19 @@
            <button onclick="aktywujObrazek('obrazek-container1', 3)">Dodaj obrazek</button>
            <button onclick="aktywujObrazek('obrazek-container1', 4)">Dodaj obrazek</button>
    <div id="kontenery">
-       <div id='karta'><p>Zdanie 1sze</p><img id="as" src="img/karty/as.jpg"></div>
+       <p>Zdanie 1sze</p>
         <div class="obrazek-container" id="obrazek-container1">
         </div>
-        <div id='karta'><p>Zdanie 2gie</p><img id="as" src="img/karty/krol.jpg"></div>
+                   <p>Zdanie 2gie</p>
         <div class="obrazek-container" id="obrazek-container2">
         </div>
-        <div id='karta'><p>Zdanie 3cie</p><img id="as" src="img/karty/dama.jpg"></div>
+                               <p>Zdanie 3cie</p>
         <div class="obrazek-container" id="obrazek-container3">
         </div>
-        <div id='karta'><p>Zdanie 4te</p><img id="as" src="img/karty/jpek.jpg"></div>
+                                           <p>Zdanie 4te</p>
         <div class="obrazek-container" id="obrazek-container4">
         </div>
-        <div id='karta'><p>Zdanie 5te</p><img id="as" src="img/karty/10tka.jpg"></div>
+                                                       <p>Zdanie 5te</p>
         <div class="obrazek-container" id="obrazek-container5">
         </div>
     </div>
@@ -131,7 +116,6 @@ const obrazki = [
 let indeksObrazka = 1;
 let poprzedniObrazek = null;
 let czyKliknietyObrazek0 = false;
-let czyKliknietyObrazek1 = false;
 
 function aktywujPustePole(obrazekContainer, indexObrazka) {
     const pustePole = document.createElement('div');
@@ -183,23 +167,6 @@ function aktywujPustePole3(obrazekContainer, indexObrazka) {
     }, 1000);
 }
 
-function aktywujPustePole4(obrazekContainer, indexObrazka) {
-    const pustePole = document.createElement('div');
-    pustePole.classList.add('puste-pole');
-    
-        const obrazek = document.createElement('img');
-    obrazek.src = 'obrazek3.jpg'; // Zmień to na rzeczywistą nazwę obrazka
-    obrazek.style.width = '100%';
-    obrazek.style.height = '100%';
-
-    pustePole.appendChild(obrazek);
-    
-    obrazekContainer.insertBefore(pustePole, obrazekContainer.children[0]);
-        setTimeout(() => {
-        pustePole.classList.add('rozwiniete');
-    }, 1000);
-}
-
 function aktywujObrazek(nazwaKontenera, indexObrazka) {
     console.log(indexObrazka);
     if (indexObrazka >= 0 && indexObrazka < obrazki.length) {
@@ -216,10 +183,6 @@ function aktywujObrazek(nazwaKontenera, indexObrazka) {
             czyKliknietyObrazek0 = true;
                 console.log(czyKliknietyObrazek0);
         }
-                        if (indexObrazka === 1) {
-            czyKliknietyObrazek1 = true;
-                console.log(czyKliknietyObrazek1);
-        }
 
         if (poprzedniObrazek) {
             const aktualnyObrazek = obrazekContainer.lastChild;
@@ -230,85 +193,41 @@ function aktywujObrazek(nazwaKontenera, indexObrazka) {
             if (parseInt(aktualnyObrazek.src.split('obrazek')[1]) < parseInt(poprzedniObrazek.src.split('obrazek')[1])) {
                 console.log('Dodaję klasę przesunięcia do aktualnego obrazka');
                 aktualnyObrazek.classList.add('przesuniety');
-    if (parseInt(aktualnyObrazek.src.split('obrazek')[1]) === 1 && parseInt(poprzedniObrazek.src.split('obrazek')[1]) === 2) {
-    setTimeout(() => {
+            if (parseInt(aktualnyObrazek.src.split('obrazek')[1]) === 1 && parseInt(poprzedniObrazek.src.split('obrazek')[1]) === 2) {
+                                        setTimeout(() => {
         aktualnyObrazek.classList.add('przesuniety2');
-        aktywujPustePole(obrazekContainer, indexObrazka);
-            }, 100);
-    setTimeout(() => {
-        if (aktualnyObrazek) {
-            obrazekContainer.removeChild(aktualnyObrazek);
-            }
-            }, 1100);
-        }
-    if (parseInt(aktualnyObrazek.src.split('obrazek')[1]) === 2 && parseInt(poprzedniObrazek.src.split('obrazek')[1]) === 3 && !czyKliknietyObrazek0) {
-    setTimeout(() => {
-        aktualnyObrazek.classList.add('przesuniety2');
-        aktywujPustePole3(obrazekContainer, indexObrazka);
-            }, 100);
-    setTimeout(() => {
-        if (aktualnyObrazek) {
-            obrazekContainer.removeChild(aktualnyObrazek);
-            }
-            }, 1100);
-        }
-    if (parseInt(aktualnyObrazek.src.split('obrazek')[1]) === 2 && parseInt(poprzedniObrazek.src.split('obrazek')[1]) === 3 && czyKliknietyObrazek0) {
-    setTimeout(() => {
-        aktualnyObrazek.classList.add('przesuniety1');
-        aktywujPustePole2(obrazekContainer, indexObrazka);
+                            aktywujPustePole(obrazekContainer, indexObrazka);
     }, 100);
     setTimeout(() => {
-        if (aktualnyObrazek) {
-            obrazekContainer.removeChild(aktualnyObrazek);
-            }
-            }, 1100);
-        }
-    if (parseInt(aktualnyObrazek.src.split('obrazek')[1]) === 3 && parseInt(poprzedniObrazek.src.split('obrazek')[1]) === 4 && !czyKliknietyObrazek0 && !czyKliknietyObrazek1) {
-    setTimeout(() => {
-        aktualnyObrazek.classList.add('przesuniety2');
-        aktywujPustePole4(obrazekContainer, indexObrazka);
-    }, 100);
-    setTimeout(() => {
-        if (aktualnyObrazek) {
-            obrazekContainer.removeChild(aktualnyObrazek);
-            }
-            }, 1100);
-        }
-    if (parseInt(aktualnyObrazek.src.split('obrazek')[1]) === 3 && parseInt(poprzedniObrazek.src.split('obrazek')[1]) === 4 && !czyKliknietyObrazek0 && czyKliknietyObrazek1) {
-    setTimeout(() => {
-        aktualnyObrazek.classList.add('przesuniety2');
-        aktywujPustePole4(obrazekContainer, indexObrazka);
-    }, 100);
-    setTimeout(() => {
-        if (aktualnyObrazek) {
-            obrazekContainer.removeChild(aktualnyObrazek);
-            }
-            }, 1100);
-        }
-    if (parseInt(aktualnyObrazek.src.split('obrazek')[1]) === 3 && parseInt(poprzedniObrazek.src.split('obrazek')[1]) === 4 && czyKliknietyObrazek0 && !czyKliknietyObrazek1) {
-    setTimeout(() => {
-        aktualnyObrazek.classList.add('przesuniety2');
-        aktywujPustePole4(obrazekContainer, indexObrazka);
-    }, 100);
-    setTimeout(() => {
-        if (aktualnyObrazek) {
-            obrazekContainer.removeChild(aktualnyObrazek);
-            }
-            }, 1100);
-        }
-    if (parseInt(aktualnyObrazek.src.split('obrazek')[1]) === 3 && parseInt(poprzedniObrazek.src.split('obrazek')[1]) === 4 && czyKliknietyObrazek0 && czyKliknietyObrazek1) {
-    setTimeout(() => {
-        aktualnyObrazek.classList.add('przesuniety2');
-        aktywujPustePole4(obrazekContainer, indexObrazka);
-    }, 100);
-    setTimeout(() => {
-        if (aktualnyObrazek) {
-            obrazekContainer.removeChild(aktualnyObrazek);
-            }
-            }, 1100);
-        }
-    }
+                                if (aktualnyObrazek) {
+    obrazekContainer.removeChild(aktualnyObrazek);
 }
+    }, 1100);
+            }
+                                    if (parseInt(aktualnyObrazek.src.split('obrazek')[1]) === 2 && parseInt(poprzedniObrazek.src.split('obrazek')[1]) === 3 && !czyKliknietyObrazek0) {
+                                                        setTimeout(() => {
+        aktualnyObrazek.classList.add('przesuniety2');
+                            aktywujPustePole3(obrazekContainer, indexObrazka);
+    }, 100);
+    setTimeout(() => {
+                                if (aktualnyObrazek) {
+    obrazekContainer.removeChild(aktualnyObrazek);
+}
+    }, 1100);
+            }
+                                    if (parseInt(aktualnyObrazek.src.split('obrazek')[1]) === 2 && parseInt(poprzedniObrazek.src.split('obrazek')[1]) === 3 && czyKliknietyObrazek0) {
+                                                                        setTimeout(() => {
+        aktualnyObrazek.classList.add('przesuniety1');
+                            aktywujPustePole2(obrazekContainer, indexObrazka);
+    }, 100);
+    setTimeout(() => {
+                                if (aktualnyObrazek) {
+    obrazekContainer.removeChild(aktualnyObrazek);
+}
+    }, 1100);
+            }
+            }
+        }
 
         poprzedniObrazek = obrazek;
         indeksObrazka++;

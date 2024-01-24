@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+  <title>Smart Angielski</title>
+           <meta charset="UTF-8">
+  <head>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+	<script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+  	        <link rel="stylesheet" type="text/css" href="css/alert.css">
+			<script src="js/alert.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/styl7.css">
+        <link rel="stylesheet" type="text/css" href="css/1test.css">
+	        <link rel="stylesheet" type="text/css" href="css/1i.css">
+			<link rel="stylesheet" type="text/css" href="css/buttons.css">
+			<link rel="stylesheet" type="text/css" href="css/player.css">
+			<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2654094815555460"
+     crossorigin="anonymous"></script>
+			</head>
+			<body>
+<script>
+  const loadedImages = {
+    container1: [],
+    container2: []
+  };
+
+  var expectedWords = {
+    obrazek1: "wszyscy",
+    obrazek2: "mają",
+  };
+    var expectedWordshej = {
+    obrazek1: "everybody",
+    obrazek2: "has",
+    obrazek3: "fun",
+    obrazek4: "at",
+    obrazek5: "the",
+    obrazek6: "party"
+  };
+
+function migotanieKropki(orangeDot) {
+        setTimeout(() => {
+          orangeDot.style.display = 'none';
+        }, 150);
+        setTimeout(() => {
+          orangeDot.style.display = 'block';
+        }, 300);
+        setTimeout(() => {
+          orangeDot.style.display = 'none';
+        }, 450);
+                setTimeout(() => {
+          orangeDot.style.display = 'block';
+        }, 600);
+                        setTimeout(() => {
+          orangeDot.style.display = 'none';
+        }, 750);
+}
+function pokazObrazek(nazwaObrazka, containerId) {
+    const container = document.getElementById(containerId);
+
+    const imageWrapper = document.createElement('div');
+    imageWrapper.className = 'image-wrapper';
+
+    const obrazek = document.createElement('img');
+    obrazek.src = `${nazwaObrazka}.jpg`;
+    obrazek.alt = nazwaObrazka;
+
+    imageWrapper.appendChild(obrazek);
+    container.appendChild(imageWrapper);
+
+    const myContainer = document.createElement('div');
+    myContainer.className = 'myContainer';
+    myContainer.style.display = 'none';
+    document.body.appendChild(myContainer);
+    
+          obrazek.addEventListener('load', function() {
+        const orangeDot = document.createElement('div');
+        orangeDot.className = 'orange-dot';
+        imageWrapper.appendChild(orangeDot);
+
+        const word = document.createElement('span');
+        word.className = 'word';
+        word.textContent = expectedWordshej[nazwaObrazka];
+        imageWrapper.appendChild(word);
+
+        orangeDot.style.display = 'block';
+                migotanieKropki(orangeDot);
+      });
+
+  const nazwyObrazkow = Object.keys(expectedWords);
+
+  const index = nazwyObrazkow.indexOf(nazwaObrazka);
+  if ((index === 0 || index === 1) && expectedWords[nazwaObrazka]) {
+      obrazek.addEventListener('load', function() {
+          const treningButton = document.getElementById('jQueryColorChange1111');
+    treningButton.addEventListener('click', function() {
+                setTimeout(function() {
+        console.log('klikniete');
+        const clickedWord = expectedWords[nazwaObrazka];
+        console.log('load');
+
+        myContainer.style.display = 'block';
+
+        const checkButton = document.createElement("button");
+        checkButton.textContent = "Sprawdź";
+
+        const wordInput = document.createElement("input");
+        wordInput.type = "text";
+        wordInput.placeholder = "Wpisz słowo";
+
+        const resultParagraph = document.createElement("p");
+
+        myContainer.innerHTML = '';
+        myContainer.appendChild(wordInput);
+        myContainer.appendChild(checkButton);
+        myContainer.appendChild(resultParagraph);
+       
+        const orangeDot = document.createElement('div');
+        orangeDot.className = 'orange-dot';
+        imageWrapper.appendChild(orangeDot);
+
+  const nazwyObrazkow = Object.keys(expectedWords);
+  const index = nazwyObrazkow.indexOf(nazwaObrazka);
+
+let intervalId1; // Zmienna przechowująca identyfikator interwału dla pierwszej kropki
+let intervalId2; // Zmienna przechowująca identyfikator interwału dla drugiej kropki
+
+function migotanieKropki2(orangeDot) {
+  if (index === 0) {
+    intervalId1 = setInterval(() => {
+      orangeDot.style.display = (orangeDot.style.display === 'none') ? 'block' : 'none';
+    }, 300); // Zmienia widoczność kropki co 300 milisekund (0.3 sekundy)
+  } else if (index === 1) {
+    intervalId2 = setInterval(() => {
+      orangeDot.style.display = (orangeDot.style.display === 'none') ? 'block' : 'none';
+    }, 300); // Zmienia widoczność kropki co 300 milisekund (0.3 sekundy)
+  }
+}
+
+// Przykładowe użycie funkcji z elementem kropki o id "orangeDot"
+const orangeDotElement = document.getElementById('.orangeDot');
+migotanieKropki2(orangeDot);
+
+      checkButton.addEventListener('click', function() {
+        var word = wordInput.value.toLowerCase();
+        if (clickedWord && word === clickedWord.toLowerCase()) {
+          resultParagraph.textContent = 'Poprawne!';
+if (index === 0 && clickedWord && word === clickedWord.toLowerCase()) {
+  clearInterval(intervalId1); // Zatrzymaj migotanie dla pierwszej kropki
+  orangeDot.style.display = 'block'; // Ustaw kropkę jako widoczną po zatrzymaniu migotania
+  orangeDot.style.backgroundColor = 'green';
+} else if (index === 1 && clickedWord && word === clickedWord.toLowerCase()) {
+  clearInterval(intervalId2); // Zatrzymaj migotanie dla drugiej kropki
+  orangeDot.style.display = 'block'; // Ustaw kropkę jako widoczną po zatrzymaniu migotania
+  orangeDot.style.backgroundColor = 'green';
+}
+        } else if (!clickedWord) {
+          resultParagraph.textContent = 'Weryfikacja słowa nie jest dostępna.';
+        } else {
+          resultParagraph.textContent = 'Błędne słowo. Spróbuj ponownie.';
+        }
+    });
+    }, 450);
+  });
+      const imgRect = obrazek.getBoundingClientRect();
+      myContainer.style.top = `${imgRect.top + window.scrollY}px`;
+      myContainer.style.left = `${imgRect.right + window.scrollX}px`;
+
+      window.addEventListener('scroll', function() {
+        const imgRect = obrazek.getBoundingClientRect();
+        myContainer.style.top = `${imgRect.top + window.scrollY}px`;
+        myContainer.style.left = `${imgRect.right + window.scrollX}px`;
+      });
+  });
+    }
+    }
+  function przelaczIKontynuuj() {
+    const container1 = document.getElementById('container1');
+    const container2 = document.getElementById('container2');
+
+    container1.style.display = 'none';
+    container2.style.display = 'block';
+    container2.innerHTML = ''; // Wyczyść zawartość kontenera 2
+  }
+  
+  function obslugaOnClick() {
+    setTimeout(przelaczIKontynuuj, 5000); // Uruchomienie funkcji po 5 sekundach
+}
+
+  function pokazZaladowaneObrazki(containerId) {
+    const container1 = document.getElementById('container1');
+    container2.innerHTML = '';
+    container1.style.display = 'block';
+  }
+</script>
+<button onclick="przelaczIKontynuuj()">Przełącz do kontenera 2</button>
+<button onclick="pokazZaladowaneObrazki('container1')">Pokaż obrazki z kontenera 1</button>
+<div class="container10" id="myContainer">
+</div>
+  <div id="container1" class="image-container"></div>
+  <div id="container2" class="image-container"></div>
+  <button id="nauka"><p>UCZE SIĘ: <span id="liczbaKlikniec2">0</span></button><br><br><br>
+  <button id="nauka3" onclick="pokazZaladowaneObrazki('container1')"><img id="as" src="img/karty/as.jpg"></button>
+  <div id="right-container"><button id="nauka2">NAUCZYŁEM SIĘ X</button></div>
+    <div id="bottom-container"><button id="nauka2"><p>POSTĘP: <span id="liczbaKlikniec">0</span>- ZAZNAJOMIONYCH</button></div>
+                  <div class="grid-container">
+<div class="section">
+<div id="itemitem" class="item">
+    <img id="33" src="img/fiszki1/2a.jpg"/>
+      <button>Everybody</button>
+  <button>has</button>
+  <button>fun</button>
+    	<button><b>everybody[ewrybody] - wszyscy</b></button>
+    <span class="caption">W <u><b>e-</u></b>sportowej grze silnik samochodu robi <u><b>wry</u></b>, wszyscy chcą takich rajdów, <u><b>bo</u></b> idzie <u><b>dy</u></b>m</span>
+<button onclick="pokazObrazek('obrazek1', 'container1', 'wszyscy')" class="Button1" id="jQueryColorChange">TRENING</button>
+<button onclick="dodajPrzycisk(1)" class="Button2" id="jQueryColorChange2">ZNAM</button>
+</div>
+<div id="itemitem2" class="item2">
+    <img id="33" src="img/fiszki1/2b.jpg"/>
+      <button>Everybody</button>
+  <button>has</button>
+  <button>fun</button>
+    		<button><b>has[hes]/have[hew] - mieć(on/ona/oni)/mieć(ja/ty)</b></button>
+    <span class="caption">Teraz uczeń ma książkę Hermanna Hesse</span>
+<button onclick="pokazObrazek('obrazek2', 'container1', 'mają')" id="jQueryColorChange11">TRENING</button>
+<button onclick="dodajPrzycisk(2)" class="Button22" id="jQueryColorChange22">ZNAM</button>
+</div>
+<div id="itemitem3" class="item3">
+    <img id="33" src="img/fiszki1/2c.jpg"/>
+      <button>Everybody</button>
+  <button>has</button>
+  <button>fun</button>
+    	<button><b>fun[fan] - zabawa</b></button><br>
+    <span class="caption"><u><b>Fan</u></b>tastyczne jest to by się dobrze <u><b>bawić</u></b>. A jeżli chodzi o <u><b>zabawę</u></b> zawsze jestem jej <u><b>fan</u></b>em</span>
+<button onclick="pokazObrazek('obrazek3', 'container1', 'zabawę')" id="jQueryColorChange111">TRENING</button>
+<button onclick="dodajPrzycisk(3)" class="Button222" id="jQueryColorChange222">ZNAM</button>
+</div>
+<div id="itemitem4" class="item4">
+    <img id="33" src="img/fiszki1/2d.jpg"/>
+          <button>at</button>
+  <button>the</button>
+  <button>party</button>
+    		<button><b>at[at] - w tym</b></button><br>
+    <span class="caption"><u><b>W tym</u></b> piórze jest za mało <u><b>at</u></b>ramentu</span>
+<button onclick="pokazObrazek('obrazek4', 'container1')" class="Button1111" id="jQueryColorChange1111">TRENING</button>
+<button onclick="dodajPrzycisk(4)" class="Button2222" id="jQueryColorChange2222">ZNAM</button>
+</div>
+<div id="itemitem5" class="item5">
+    <img id="33" src="img/fiszki1/2e.jpg"/>
+          <button>at</button>
+  <button>the</button>
+  <button>party</button><br>
+    			<button><b>the[de] - to</b></button><br>
+    <span class="caption">Czasami politycy stosują <u><b>de</u></b>magogię. Czyli co stosują? <u><b>Tę</u></b> <u><b>de</u></b>magogię</span>
+<button onclick="pokazObrazek('obrazek5', 'container1')" class="Button11111" id="jQueryColorChange11111">TRENING</button>
+<button onclick="dodajPrzycisk(5)" class="Button22222" id="jQueryColorChange22222">ZNAM</button>
+</div>
+<div id="itemitem6" class="item6">
+    <img id="33" src="img/fiszki1/2f.jpg"/>
+              <button>at</button>
+  <button>the</button>
+  <button>party</button><br><br>
+    				<button><b>party[party] - przyjęcie</b></button><br>
+    <span class="caption">Jesteśmy na <u><b>zabawie</u></b> gdzie a<u><b>par</u></b>atem robimy zdjęcia. Zdjęcia mają pewien <u><b>arty</u></b>zm, bo to doświadczony fotograf i on ciągle opowiada ż<u><b>arty</u></b></span>
+<button onclick="pokazObrazek('obrazek6', 'container1'); obslugaOnClick()" class="Button111111" id="jQueryColorChange111111">TRENING</button>
+<button onclick="obslugaOnClick()" class="Button222222" id="jQueryColorChange222222">ZNAM</butokazObrazek('obrazek6', 'container1')ton>
+</div>
+</div>
+                  </div>
+                                                        <div class="grid-container">
+<div class="section">
+<div id="itemitemi" class="itemi">
+    <img id="33" src="img/fiszki1/1a.jpg"/>
+                  <button>He</button>
+  <button>is</button>
+  <button>obedient</button><br>
+    <div id="word">
+        <button id="storyone"><b>he[hi] - on</b></button>
+<audio id="musicB" preload="true">
+  <source src="voice/he.wav">
+</audio>
+<div id="audioplayerB">
+  <button id="pButtonB" class="playB" onclick="playB()"></button>
+</div>
+</div>
+    <span class="caption"><u><b>On</b></u> - <u><b>Hi</b></u>eronim odleciał balonem</span>
+<button onclick="pokazObrazek('obrazek1b', 'container2')" class="Button1i" id="jQueryColorChange1i">TRENING</button>
+<button onclick="dodajPrzycisk(1)" class="Button2i" id="jQueryColorChange2i">ZNAM</button>
+<button id="displayplayer">TUTAJ BĘDZIESZ KONTROLOWAŁ NAGRANIE BUDOWY SŁOWA</button>
+  <audio id="music" preload="true">
+  <source src="voice/historia_he.wav">
+	</audio>
+<div id="audioplayer">
+	<button id="pButton" class="play" onclick="playA()"></button>
+  <div id="timeline">    
+  		  <div id="playhead"></div>
+  </div>
+</div>
+</div>
+<div id="itemitem2i" class="item2i">
+    <img id="33" src="img/fiszki1/1b.jpg"/>
+                      <button>He</button>
+  <button>is</button>
+  <button>obedient</button><br>
+    <div id="word">
+    <button id="storyone"><b>is[is] - jest</b></button>
+<audio id="musicB2" preload="true">
+  <source src="voice/is.wav">
+</audio>
+<div id="audioplayerB2">
+  <button id="pButtonB2" class="playB2" onclick="playB2()"></button>
+</div>
+</div>
+       <span class="caption">Johny Bravo <u><b>jest</b></u> m<u><b>is</b></u>trzem relacji damsko-m?skich</span>
+<button onclick="pokazObrazek('obrazek2b', 'container2')" class="Button11i" id="jQueryColorChange11i">TRENING</button>
+<button onclick="dodajPrzycisk(1)" class="Button22i" id="jQueryColorChange22i">ZNAM</button>
+  <audio id="musicA2" preload="true">
+  <source src="voice/historia_is.wav">
+	</audio>
+<div id="audioplayerA2">
+	<button id="pButtonA2" class="play" onclick="playA2()"></button>
+  <div id="timelineA2">    
+  		  <div id="playheadA2"></div>
+  </div>
+</div>
+</div>
+<div id="itemitem3i" class="item3i">
+    <img id="33" src="img/fiszki1/1c.jpg"/>
+                      <button>He</button>
+  <button>is</button>
+  <button>obedient</button><br>
+<div id="word">
+        	<button><b>obedient[obidient] - posłuszny</b></button><br>
+<audio id="musicB3" preload="true">
+  <source src="voice/obedient.wav">
+</audio>
+<div id="audioplayerB3">
+  <button id="pButtonB3" class="playB3" onclick="playB3()"></button>
+</div>
+</div>
+    <span class="caption">ćwiczę s<b><u>obi</u></b>e i jestem <u><b>posłuszny</b></u> swojemu <u><b>die</b></u>tetykowi, powtarzam jak ma<u><b>nt</b></u>rę, że będę szczupły</span>
+<button onclick="pokazObrazek('obrazek3b', 'container2')" class="Button111i" id="jQueryColorChange111i">TRENING</button>
+<button onclick="dodajPrzycisk(3)" class="Button222i" id="jQueryColorChange222i">ZNAM</button>
+  <audio id="musicA3" preload="true">
+  <source src="voice/historia_obedient.wav">
+	</audio>
+<div id="audioplayerA3">
+	<button id="pButtonA3" class="play" onclick="playA3()"></button>
+  <div id="timelineA3">    
+  		  <div id="playheadA3"></div>
+  </div>
+</div>
+</div>
+<div id="itemitem4i" class="item4i">
+    <img id="33" src="img/fiszki1/1d.jpg"/>
+                      <button>to</button>
+  <button>science</button>
+  <button>procedure</button><br>
+    		<button><b>to[tu] - dla</b></button><br>
+    <span class="caption"><u><b>Dla</u></b> spor<u><b>tu</b></u> przeszedłem się pieszo z domu do pracy</span>
+<button onclick="dodajPrzycisk2(4)" class="Button1111i" id="jQueryColorChange1111i">TRENING</button>
+<button onclick="dodajPrzycisk(4)" class="Button2222i" id="jQueryColorChange2222i">ZNAM</button>
+</div>
+<div id="itemitem5i" class="item5i">
+    <img id="33" src="img/fiszki1/1e.jpg"/>
+                          <button>to</button>
+  <button>science</button>
+  <button>procedure</button><br>
+    			<button><b>science[sajens] - nauka(dziedzina badawcza:nauka)</b></button><br>
+    <span class="caption">Badacz naukowy nie ma <u><b>saj</b></u>gonu w dziedzinie nauki i ma s<u><b>ens</b></u> tego co robi</span>
+<button onclick="dodajPrzycisk2(5)" onclick="addCode()" class="Button11111i" id="jQueryColorChange11111i">TRENING</button>
+<button onclick="dodajPrzycisk(5)" class="Button22222i" id="jQueryColorChange22222i">ZNAM</button>
+</div>
+<div id="itemitem6i" class="item6i">
+    <img id="33" src="img/fiszki1/1f.jpg"/>
+                          <button>to</button>
+  <button>science</button>
+  <button>procedure</button><br>
+    				<button><b>procedure[prosidzer] - procedury</b></button>
+    <span class="caption">Popre te <u><b>pro</b></u>cedury <u><b>siii</b></u> bo jestem na wyspie <u><b>Dżer</b></u>ba w Tunezji</span>
+<button onclick="dodajPrzycisk2(6); showMessage()" class="Button111111i" id="jQueryColorChange111111i">TRENING</button>
+<button onclick="dodajPrzycisk(6); showMessage()" class="Button222222i" id="jQueryColorChange222222i">ZNAM</button>
+</div>
+</div>
+</div>
+    <script>
+  // Pobranie elementu licznika kliknięć
+  const liczbaKlikniecElement = document.getElementById('liczbaKlikniec2');// TRENING
+    const liczbaKlikniecElement2 = document.getElementById('liczbaKlikniec');// ZAZNAJOMIONE
+  let liczbaKlikniec = 0;
+    let liczbaKlikniec2 = 0;
+
+  // Funkcja zwiększająca liczbę kliknięć i aktualizująca wyświetlanie
+  function zwiekszLiczbeKlikniec() {
+    liczbaKlikniec++;
+    liczbaKlikniecElement.textContent = liczbaKlikniec;
+  }
+
+  function zwiekszLiczbeKlikniec2() {
+    liczbaKlikniec2++;
+    liczbaKlikniecElement2.textContent = liczbaKlikniec2;
+  }
+// TRENING
+  document.getElementById('jQueryColorChange').addEventListener('click', zwiekszLiczbeKlikniec);
+  document.getElementById('jQueryColorChange11').addEventListener('click', zwiekszLiczbeKlikniec);
+  document.getElementById('jQueryColorChange111').addEventListener('click', zwiekszLiczbeKlikniec);
+  document.getElementById('jQueryColorChange1111').addEventListener('click', zwiekszLiczbeKlikniec);
+    document.getElementById('jQueryColorChange11111').addEventListener('click', zwiekszLiczbeKlikniec);
+  document.getElementById('jQueryColorChange111111').addEventListener('click', zwiekszLiczbeKlikniec);
+  document.getElementById('jQueryColorChange1i').addEventListener('click', zwiekszLiczbeKlikniec);
+//ZAZNAJOMIONE
+    document.getElementById('jQueryColorChange').addEventListener('click', zwiekszLiczbeKlikniec2);
+  document.getElementById('jQueryColorChange2').addEventListener('click', zwiekszLiczbeKlikniec2);
+    document.getElementById('jQueryColorChange11').addEventListener('click', zwiekszLiczbeKlikniec2);
+    document.getElementById('jQueryColorChange22').addEventListener('click', zwiekszLiczbeKlikniec2);
+  document.getElementById('jQueryColorChange111').addEventListener('click', zwiekszLiczbeKlikniec2);
+  document.getElementById('jQueryColorChange222').addEventListener('click', zwiekszLiczbeKlikniec2);
+      document.getElementById('jQueryColorChange1111').addEventListener('click', zwiekszLiczbeKlikniec2);
+  document.getElementById('jQueryColorChange2222').addEventListener('click', zwiekszLiczbeKlikniec2);
+    document.getElementById('jQueryColorChange11111').addEventListener('click', zwiekszLiczbeKlikniec2);
+  document.getElementById('jQueryColorChange22222').addEventListener('click', zwiekszLiczbeKlikniec2);
+      document.getElementById('jQueryColorChange111111').addEventListener('click', zwiekszLiczbeKlikniec2);
+  document.getElementById('jQueryColorChange222222').addEventListener('click', zwiekszLiczbeKlikniec2);
+</script>
+<script src="js/scroll.js"></script>
+			<script src="js/konsola.js"></script>
+<script src="js/activeclasses.js"></script>
+<script src="js/scrollapp.js"></script>
+<script src="js/konsolabuttons.js"></script>
+<script src="js/konsolabuttons2.js"></script>
+<script src="js/repeating.js"></script>
+</body>
+<div id="footer"></div>
+<div id="footer"></div>
+</html>

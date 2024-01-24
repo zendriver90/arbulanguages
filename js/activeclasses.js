@@ -107,6 +107,7 @@ $('#kasowanie').click(function() {
   $('#jQueryColorChange').click(function() {
 		item1Clickedb = true;
 	  	$('#jQueryColorChange11, #jQueryColorChange22').prop('disabled', false);
+                                $('#jQueryColorChange111, #jQueryColorChange222').prop('disabled', false);
 		$('#jQueryColorChange1, #jQueryColorChange2, #jQueryColorChange1111, #jQueryColorChange2222').prop('disabled', true);
         $('#hej').addClass('selected2');
 	    $('.item2').addClass('transformb bordered hideBefore');
@@ -124,6 +125,7 @@ $('#kasowanie').click(function() {
 });
   $('#jQueryColorChange2').click(function() {
 	  	$('#jQueryColorChange11, #jQueryColorChange22').prop('disabled', false);
+                $('#jQueryColorChange111, #jQueryColorChange222').prop('disabled', false);
         $('#hej').addClass('selected1');
 	    $('.item2').addClass('transformb bordered hideBefore');
         $('.item').removeClass('transform bordered hideBefore');
@@ -144,8 +146,7 @@ $('#jQueryColorChange11').click(function() {
         $('#hejnowe').addClass('selected4');
 	    $('.item3').addClass('transformc bordered hideBefore');
         $('.item2').removeClass('transformb bordered hideBefore')
-	    $('#itemitem2').addClass('orange');
-		$('.Button11, .Button22').removeClass('active').addClass('inactive');
+               $('.Button111, .Button222').removeClass('inactive').addClass('active');
    
    var classesToSave = {
 	    hej: $('#hej').attr('class'),
@@ -178,7 +179,7 @@ $('#jQueryColorChange11').click(function() {
      $('#jQueryColorChange111').click(function() {
 		item3Clickedb = true;
 		$('#jQueryColorChange1111, #jQueryColorChange2222').prop('disabled', false);
-		$('#jQueryColorChange, #jQueryColorChange2, #jQueryColorChange11, #jQueryColorChange22, #jQueryColorChange111, #jQueryColorChange222, #jQueryColorChange11111, #jQueryColorChange22222').prop('disabled', true);
+                                $('#jQueryColorChange11, #jQueryColorChange22').prop('disabled', false);
         $('#hejnowes').addClass('selected6');
 	    $('.item4').addClass('transformd bordered hideBefore');
         $('.item3').removeClass('transformc bordered hideBefore');
@@ -199,6 +200,7 @@ $('#jQueryColorChange11').click(function() {
 });
   $('#jQueryColorChange222').click(function() {
 	  	$('#jQueryColorChange1111, #jQueryColorChange2222').prop('disabled', false);
+                                $('#jQueryColorChange11, #jQueryColorChange22').prop('disabled', false);
 		$('#jQueryColorChange, #jQueryColorChange2, #jQueryColorChange11, #jQueryColorChange22, #jQueryColorChange111, #jQueryColorChange222, #jQueryColorChange11111, #jQueryColorChange22222').prop('disabled', true);
         $('#hejnowes').addClass('selected5');
 	    $('#itemitem4').addClass('transformd bordered hideBefore');
@@ -2180,20 +2182,6 @@ $('#jQueryColorChange222222k').click(function() {
     };
     localStorage.setItem('savedClassesb', JSON.stringify(classesToSave));
 	});
-$('#jQueryColorChange11, #jQueryColorChange22, #jQueryColorChange111, #jQueryColorChange222, #jQueryColorChange1111, #jQueryColorChange2222, #jQueryColorChange11111, #jQueryColorChange22222, #jQueryColorChange111111, #jQueryColorChange222222').prop('disabled', true);
-	$('.Button11, .Button22').addClass('inactive');
-	$('.Button111, .Button222').addClass('inactive');
-	$('.Button1111, .Button2222').addClass('inactive');
-	$('.Button11111, .Button22222').addClass('inactive');
-	$('.Button111111, .Button222222').addClass('inactive');
-	$('.Button1i, .Button2i').addClass('inactive');
-	$('.Button11i, .Button22i').addClass('inactive');
-	$('.Button111i, .Button222i').addClass('inactive');
-	$('.Button1111i, .Button2222i').addClass('inactive');
-	$('.Button11111i, .Button22222i').addClass('inactive');
-	$('.Button1j, .Button2j').addClass('inactive');
-	$('.Button11j, .Button22j').addClass('inactive');
-	$('.Button111j, .Button222j').addClass('inactive');
         $('.item').addClass('transform bordered hideBefore');
 	$("#displayplayer").addClass('on');
 	$("#audioplayer").addClass('off');
