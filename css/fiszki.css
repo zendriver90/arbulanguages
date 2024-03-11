@@ -1,0 +1,76 @@
+.fiszka {
+    border: 1px solid #999;
+    background: #eee;
+    border-radius: 5px;
+    text-align: center;
+    width: 100%;
+    height: auto;
+    margin-right: 200px; /* Ustaw margines prawy */
+    box-sizing: border-box; /* Wlicz marginesy w szerokość i wysokość */
+}
+
+.fiszka.active {
+    border: 1px solid #999;
+    background: green;
+    border-radius: 5px;
+    text-align: center;
+    width: 100%;
+    height: auto;
+}
+
+.fiszka.active2 {
+    border: 1px solid #999;
+    background: orange;
+    border-radius: 5px;
+    text-align: center;
+    width: 100%;
+    height: auto;
+}
+
+.fiszka_story {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 26px;
+}
+
+img.fiszka_img {
+    width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+}
+
+.hashtag-container {
+  position: relative;
+  bottom: 40px;
+  text-align: left; /* Tekst przylega do prawej strony */
+  padding-right: 5px;
+  font-weight: bold;
+  border-top-left-radius: 5px;
+  box-sizing: border-box;
+  display: inline-block; /* Ustawienie na inline-block ograniczy szerokość do tekstu */
+  background-color: #f0f0f0;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.fiszka_button.fiszka_button_trening {
+  width: 100px;  /* Dostosuj szerokość według własnych preferencji */
+  height: 30px;  /* Dostosuj wysokość według własnych preferencji */
+  /* Dodaj inne właściwości CSS, jeśli są potrzebne */
+}
+.fiszka_button.fiszka_button_znam {
+  width: 100px;  /* Dostosuj szerokość według własnych preferencji */
+  height: 30px;  /* Dostosuj wysokość według własnych preferencji */
+  /* Dodaj inne właściwości CSS, jeśli są potrzebne */
+}
+
+
+button.fiszka_button {
+    /* zestylowac */
+}
+
+button.fiszka_button_znam {}
+button.fiszka_button_trening {}
+
+button.fiszka_button_znam.fiszka.active { background: green }
+button.fiszka_button_trening.fiszka.active { background: orange }

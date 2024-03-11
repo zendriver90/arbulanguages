@@ -1,0 +1,10 @@
+ body { font-family:Arial; }
+        #wrap { position:left; width:1280px; margin-top: 0px; }
+        #content { position:left; margin-top: 0px; }
+        #main { float:left; width:500px; }
+        #aside { position:left; width:190px; margin-top: 0px;}
+	#animabox2 { visibility: visible; width: 400px; float: left;}
+        #animabox { border:2px; width:500px; background-color:#fcc; height:420px; margin-top:0px; display: none; }
+        .fixed { position:fixed; top:0px; }
+        .bottom { position:absolute; bottom:15px; right:0}
+	#slowa {background: yellow; float: right;}

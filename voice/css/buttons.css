@@ -1,0 +1,95 @@
+        #button-container {
+		    max-width: 65px;
+            max-height: 10px;
+            display: flex;
+            justify-content: flex-start;
+            position: fixed;
+            bottom: 2px;
+            left: 0;
+            opacity: 0;
+            transition: opacity 0.5s ease-in-out;
+            z-index: 9999;
+        }
+
+        #button-container2 {
+            max-width: 65px;
+			max-height: 10px;
+            display: flex;
+            justify-content: flex-start;
+            position: fixed;
+            bottom: 12px;
+            left: 0;
+            opacity: 0;
+            transition: opacity 0.5s ease-in-out;
+            z-index: 9999;
+        }
+
+        /* Animacja pojawiania się */
+        #button-container.active,
+        #button-container2.active {
+			max-width: 65px;
+            max-height: 10px;
+            opacity: 1;
+        }
+
+        /* Styl dla każdego przycisku */
+        .button-container button {
+			width: 65px;
+            max-height: 12px;
+            margin-right: 2px;
+            color: green;
+            background: green;
+			  border-radius: 4px;
+        }
+
+        .button-container2 button {
+			width: 65px;
+            max-height: 12px;
+            margin-right: 2px;
+            color: orange;
+            background: orange;
+			  border-radius: 4px;
+        }
+
+.button-container button.four-buttons {
+    animation-name: pulse-animation, enlarge-animation, highlight-animation;
+    animation-duration: 0.3s;
+}
+		
+		.button-container2 button.four-buttons2 {
+    animation-name: pulse-animation, enlarge-animation, highlight-animation;
+    animation-duration: 0.3s;
+}
+		
+        @keyframes pulse-animation {
+            0% {
+                transform: scale(1);
+            }
+            50% {
+                transform: scale(1.1);
+            }
+            100% {
+                transform: scale(1);
+            }
+        }
+
+        @keyframes enlarge-animation {
+            0% {
+                transform: scale(1);
+            }
+            100% {
+                transform: scale(1.5);
+            }
+        }
+		
+		@keyframes highlight-animation {
+    0% {
+        background-color: transparent;
+    }
+    50% {
+        background-color: yellow;
+    }
+    100% {
+        background-color: transparent;
+    }
+}

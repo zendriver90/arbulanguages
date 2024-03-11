@@ -106,9 +106,6 @@ document.addEventListener('DOMContentLoaded', function () {
 		var item6Clickedb = false;
 		$('#jQueryColorChange').click(function () {
 			item1Clickedb = true;
-			$('#jQueryColorChange11, #jQueryColorChange22').prop('disabled', false);
-			$('#jQueryColorChange111, #jQueryColorChange222').prop('disabled', false);
-			$('#jQueryColorChange1, #jQueryColorChange2, #jQueryColorChange1111, #jQueryColorChange2222').prop('disabled', true);
 			$('#hej').addClass('selected2');
 			$('.item2').addClass('transformb bordered hideBefore');
 			$('.item').removeClass('transform bordered hideBefore');
@@ -121,11 +118,9 @@ document.addEventListener('DOMContentLoaded', function () {
 				itemitem: $('#itemitem').attr('class'),
 				itemitem2: $('#itemitem2').attr('class')
 			};
-			localStorage.setItem('savedClassesb', JSON.stringify(classesToSave));
+    localStorage.setItem('savedClassesb', JSON.stringify(classesToSave));
 		});
 		$('#jQueryColorChange2').click(function () {
-			$('#jQueryColorChange11, #jQueryColorChange22').prop('disabled', false);
-			$('#jQueryColorChange111, #jQueryColorChange222').prop('disabled', false);
 			$('#hej').addClass('selected1');
 			$('.item2').addClass('transformb bordered hideBefore');
 			$('.item').removeClass('transform bordered hideBefore');
@@ -142,7 +137,6 @@ document.addEventListener('DOMContentLoaded', function () {
 		});
 		$('#jQueryColorChange11').click(function () {
 			item2Clickedb = true;
-			$('#jQueryColorChange111, #jQueryColorChange222').prop('disabled', false);
 			$('#hejnowe').addClass('selected4');
 			$('.item3').addClass('transformc bordered hideBefore');
 			$('.item2').removeClass('transformb bordered hideBefore')
@@ -158,8 +152,6 @@ document.addEventListener('DOMContentLoaded', function () {
 			localStorage.setItem('savedClassesb', JSON.stringify(classesToSave));
 		});
 		$('#jQueryColorChange22').click(function () {
-			$('#jQueryColorChange111, #jQueryColorChange222').prop('disabled', false);
-			$('#jQueryColorChange, #jQueryColorChange2, #jQueryColorChange11, #jQueryColorChange22, #jQueryColorChange1111, #jQueryColorChange2222').prop('disabled', true);
 			$('#hejnowe').addClass('selected3');
 			$('.item3').addClass('transformc bordered hideBefore');
 			$('.item2').removeClass('transformb bordered hideBefore');
@@ -178,8 +170,6 @@ document.addEventListener('DOMContentLoaded', function () {
 		});
 		$('#jQueryColorChange111').click(function () {
 			item3Clickedb = true;
-			$('#jQueryColorChange1111, #jQueryColorChange2222').prop('disabled', false);
-			$('#jQueryColorChange11, #jQueryColorChange22').prop('disabled', false);
 			$('#hejnowes').addClass('selected6');
 			$('.item4').addClass('transformd bordered hideBefore');
 			$('.item3').removeClass('transformc bordered hideBefore');
@@ -199,9 +189,6 @@ document.addEventListener('DOMContentLoaded', function () {
 			localStorage.setItem('savedClassesb', JSON.stringify(classesToSave));
 		});
 		$('#jQueryColorChange222').click(function () {
-			$('#jQueryColorChange1111, #jQueryColorChange2222').prop('disabled', false);
-			$('#jQueryColorChange11, #jQueryColorChange22').prop('disabled', false);
-			$('#jQueryColorChange, #jQueryColorChange2, #jQueryColorChange11, #jQueryColorChange22, #jQueryColorChange111, #jQueryColorChange222, #jQueryColorChange11111, #jQueryColorChange22222').prop('disabled', true);
 			$('#hejnowes').addClass('selected5');
 			$('#itemitem4').addClass('transformd bordered hideBefore');
 			$('#itemitem3').removeClass('transformc bordered hideBefore');
@@ -222,8 +209,6 @@ document.addEventListener('DOMContentLoaded', function () {
 		});
 		$('#jQueryColorChange1111').click(function () {
 			item4Clickedb = true;
-			$('#jQueryColorChange11111, #jQueryColorChange22222').prop('disabled', false);
-			$('#jQueryColorChange, #jQueryColorChange2, #jQueryColorChange11, #jQueryColorChange22, #jQueryColorChange111, #jQueryColorChange222, #jQueryColorChange1111, #jQueryColorChange2222').prop('disabled', true);
 			$('#hejnowess').addClass('selected8');
 			$('#itemitem5').addClass('transforme bordered hideBefore');
 			$('#itemitem4').removeClass('transformd bordered hideBefore');
@@ -245,8 +230,6 @@ document.addEventListener('DOMContentLoaded', function () {
 			localStorage.setItem('savedClassesb', JSON.stringify(classesToSave));
 		});
 		$('#jQueryColorChange2222').click(function () {
-			$('#jQueryColorChange11111, #jQueryColorChange22222').prop('disabled', false);
-			$('#jQueryColorChange, #jQueryColorChange2, #jQueryColorChange11, #jQueryColorChange22, #jQueryColorChange111, #jQueryColorChange222, #jQueryColorChange1111, #jQueryColorChange2222').prop('disabled', true);
 			$('#hejnowess').addClass('selected7');
 			$('#itemitem5').addClass('transforme bordered hideBefore');
 			$('#itemitem4').removeClass('transformd bordered hideBefore');
@@ -269,8 +252,6 @@ document.addEventListener('DOMContentLoaded', function () {
 		});
 		$('#jQueryColorChange11111').click(function () {
 			item5Clickedb = true;
-			$('#jQueryColorChange111111, #jQueryColorChange222222').prop('disabled', false);
-			$('#jQueryColorChange, #jQueryColorChange2, #jQueryColorChange11, #jQueryColorChange22, #jQueryColorChange111, #jQueryColorChange222, #jQueryColorChange1111, #jQueryColorChange2222, #jQueryColorChange11111, #jQueryColorChange22222').prop('disabled', true);
 			$('#hejnowesss').addClass('selected10');
 			$('#itemitem6').addClass('transformf bordered hideBefore');
 			$('#itemitem5').removeClass('transforme bordered hideBefore');
@@ -294,8 +275,6 @@ document.addEventListener('DOMContentLoaded', function () {
 			localStorage.setItem('savedClassesb', JSON.stringify(classesToSave));
 		});
 		$('#jQueryColorChange22222').click(function () {
-			$('#jQueryColorChange111111, #jQueryColorChange222222').prop('disabled', false);
-			$('#jQueryColorChange, #jQueryColorChange2, #jQueryColorChange11, #jQueryColorChange22, #jQueryColorChange111, #jQueryColorChange222, #jQueryColorChange1111, #jQueryColorChange2222, #jQueryColorChange11111, #jQueryColorChange22222').prop('disabled', true);
 			$('#hejnowesss').addClass('selected9');
 			$('#itemitem6').addClass('transformf bordered hideBefore');
 			$('#itemitem5').removeClass('transforme bordered hideBefore');

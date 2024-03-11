@@ -1,0 +1,627 @@
+<!DOCTYPE html>
+<title>Smart Angielski</title>
+<meta charset="UTF-8">
+
+<head>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="css/alert.css">
+  <script src="js/alert.js"></script>
+  <link rel="stylesheet" type="text/css" href="css/styl7.css">
+  <link rel="stylesheet" type="text/css" href="css/1nowe-tel.css">
+    <link rel="stylesheet" type="text/css" href="css/1nowe-pc.css">
+      <link rel="stylesheet" type="text/css" href="css/1nowe-tablet.css">
+  <link rel="stylesheet" type="text/css" href="css/1i.css">
+  <link rel="stylesheet" type="text/css" href="css/buttons.css">
+  <link rel="stylesheet" type="text/css" href="css/player.css">
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2654094815555460"
+    crossorigin="anonymous"></script>
+        <style>
+        #kontenery {
+      width: 101px;
+      max-height: calc(100vh - 0px); /* Maksymalna wysokość równa wysokości widoku minus marginesy */
+      border: 1px solid orange;
+      overflow: auto;
+      position: fixed; /* Ustawienie kontenera jako przyczepionego do lewej krawędzi widoku */
+      top: -10px; /* Umiejscowienie kontenera na górze widoku */
+      left: 0; /* Umiejscowienie kontenera na lewej krawędzi widoku */ /* Umiejscowienie kontenera na górze widoku */
+      margin-top: 50px; /* Odstęp między obrazkami */
+      z-index: 999;
+      font-size: 12px;
+      overflow: scroll;
+      overflow: inherit;
+      overflow-x: hidden;
+        }
+
+        #kontenery2 {
+      width: 101px;
+      max-height: calc(100vh - 0px); /* Maksymalna wysokość równa wysokości widoku minus marginesy */
+      border: 1px solid orange;
+      overflow: auto;
+      position: fixed; /* Ustawienie kontenera jako przyczepionego do lewej krawędzi widoku */
+      top: -10px; /* Umiejscowienie kontenera na górze widoku */
+      left: 0; /* Umiejscowienie kontenera na lewej krawędzi widoku */ /* Umiejscowienie kontenera na górze widoku */
+      margin-top: 50px; /* Odstęp między obrazkami */
+      margin-left: 105px; /* Odstęp między obrazkami */
+      z-index: 999;
+      font-size: 12px;
+      overflow: scroll;
+      overflow: inherit;
+      overflow-x: hidden;
+        }
+
+.obrazek-container {
+            width: 100%;
+            box-sizing: border-box;
+            padding: 10px;
+}
+
+        @keyframes rozwijanie {
+    from {
+        height: 0;
+    }
+    to {
+        height: 70px; /* Dostosuj wysokość, którą chcesz uzyskać podczas animacji */
+    }
+}
+ @keyframes przesuwanie1 {
+    from {
+        transform: translateY(0);
+    }
+    to {
+        transform: translateY(-130px); /* Dostosuj odległość, o którą chcesz przesunąć obrazek w górę */
+    }
+}
+ @keyframes przesuwanie2 {
+    from {
+        transform: translateY(0);
+    }
+    to {
+        transform: translateY(-130px); /* Dostosuj odległość, o którą chcesz przesunąć obrazek w górę */
+    }
+}
+       
+        .puste-pole {
+            visibility: hidden;
+            overflow: hidden;
+            width: 100px;
+            height: 65px;
+            background-color: limegreen;
+            position: relative;
+            animation: rozwijanie 1s ease-in-out;
+        }
+        .puste-pole2 {
+            visibility: hidden;
+            overflow: hidden;
+            width: 100px;
+            height: 65px;
+            background-color: blue;
+            position: relative;
+            animation: rozwijanie 1s ease-in-out;
+        }
+        .puste-pole.rozwiniete {
+    visibility: visible;
+    height: 70px; /* Dostosuj wysokość, która chcesz uzyskać podczas animacji */
+}
+
+.przesuniety1 {
+    animation: przesuwanie1 1s ease-in-out;
+}
+.przesuniety2 {
+    animation: przesuwanie2 1s ease-in-out;
+}
+    #karta {
+        width: 90px;
+        display: flex;
+        justify-content: flex-end;
+        margin-right: 5px;
+        margin-left: 5px;
+    }
+
+    #karta img {
+        width: 20px;
+        height: 30px;
+        margin-left: 5px;
+        margin-top: 5px;
+    }
+    </style>
+    </head>
+    <body>
+<script>
+
+function aktywujPustePole(container, indexElementu) {
+    const pustePole = document.createElement('div');
+    pustePole.classList.add('puste-pole');
+    
+        const element = document.createElement('img');
+    element.src = 'obrazek1.jpg'; // Zmień to na rzeczywistą nazwę obrazka
+    element.style.width = '100%';
+    element.style.height = '100%';
+
+    pustePole.appendChild(obrazek);
+
+    container.insertBefore(pustePole, container.children[0]);
+        setTimeout(() => {
+        pustePole.classList.add('rozwiniete');
+    }, 1000);
+}
+function aktywujPustePole2(container, indexElementu) {
+    const pustePole = document.createElement('div');
+    pustePole.classList.add('puste-pole');
+    
+        const element = document.createElement('img');
+    element.src = 'obrazek2.jpg'; // Zmień to na rzeczywistą nazwę obrazka
+    element.style.width = '100%';
+    element.style.height = '100%';
+
+    pustePole.appendChild(obrazek);
+    
+    container.insertBefore(pustePole, container.children[1]);
+        setTimeout(() => {
+        pustePole.classList.add('rozwiniete');
+    }, 1000);
+}
+
+function aktywujPustePole3(container, indexElementu) {
+    const pustePole = document.createElement('div');
+    pustePole.classList.add('puste-pole');
+    
+        const element = document.createElement('img');
+    element.src = 'obrazek2.jpg'; // Zmień to na rzeczywistą nazwę obrazka
+    element.style.width = '100%';
+    element.style.height = '100%';
+
+    pustePole.appendChild(obrazek);
+    
+    container.insertBefore(pustePole, container.children[0]);
+        setTimeout(() => {
+        pustePole.classList.add('rozwiniete');
+    }, 1000);
+}
+
+function aktywujPustePole4(container, indexElementu) {
+    const pustePole = document.createElement('div');
+    pustePole.classList.add('puste-pole');
+    
+        const element = document.createElement('img');
+    element.src = 'obrazek3.jpg'; // Zmień to na rzeczywistą nazwę obrazka
+    element.style.width = '100%';
+    element.style.height = '100%';
+
+    pustePole.appendChild(element);
+    
+    container.insertBefore(pustePole, container.children[0]);
+        setTimeout(() => {
+        pustePole.classList.add('rozwiniete');
+    }, 1000);
+}
+
+const obrazki = [
+    'obrazek1.jpg',
+    'obrazek2.jpg',
+    'obrazek3.jpg',
+    'obrazek4.jpg',
+    'obrazek5.jpg',
+    'obrazek6.jpg',
+    'obrazekb1.jpg',
+    'obrazekb2.jpg',
+    'obrazekb3.jpg',
+    'obrazekb4.jpg',
+    'obrazekb5.jpg',
+    'obrazekb6.jpg'
+];
+
+let indeksObrazka = 1;
+let poprzedniObrazek = null;
+let czyKliknietyObrazek0 = false;
+let czyKliknietyObrazek1 = false;
+
+function aktywujObrazek(nazwaKontenera, indexElementu, listaId) {
+    console.log(indexObrazka);
+    if (indexElementu >= 0 && indexElementu < obrazki.length) {
+        const element = document.createElement('img');
+        element.src = obrazki[indexElementu];
+        element.style.width = '100px';
+        element.style.height = 'auto';
+        
+        const container = document.getElementById(nazwaKontenera);
+
+        container.appendChild(element);
+        
+                        if (indexObrazka = container.children[1]) {
+                    console.log("Załadowano 5 obrazków.");
+                            const lista = document.getElementById(listaId);
+                            lista.appendChild(element);
+                }
+        
+                if (indexElementu === 0) {
+            czyKliknietyObrazek0 = true;
+                console.log(czyKliknietyObrazek0);
+        }
+                        if (indexElementu === 1) {
+            czyKliknietyObrazek1 = true;
+                console.log(czyKliknietyObrazek1);
+        }
+
+        if (poprzedniObrazek) {
+            const aktualnyObrazek = container.lastChild;
+
+            console.log('Poprzedni indeks:', parseInt(poprzedniObrazek.src.split('obrazek')[1]));
+            console.log('Aktualny indeks:', parseInt(aktualnyObrazek.src.split('obrazek')[1]));
+
+            if (parseInt(aktualnyObrazek.src.split('obrazek')[1]) < parseInt(poprzedniObrazek.src.split('obrazek')[1])) {
+                console.log('Dodaję klasę przesunięcia do aktualnego obrazka');
+                aktualnyObrazek.classList.add('przesuniety');
+    if (parseInt(aktualnyObrazek.src.split('obrazek')[1]) === 1 && parseInt(poprzedniObrazek.src.split('obrazek')[1]) === 2) {
+    setTimeout(() => {
+        aktualnyObrazek.classList.add('przesuniety2');
+        aktywujPustePole(container, indexElementu);
+            }, 100);
+    setTimeout(() => {
+        if (aktualnyObrazek) {
+            container.removeChild(aktualnyObrazek);
+            }
+            }, 1100);
+        }
+    if (parseInt(aktualnyObrazek.src.split('obrazek')[1]) === 2 && parseInt(poprzedniObrazek.src.split('obrazek')[1]) === 3 && !czyKliknietyObrazek0) {
+    setTimeout(() => {
+        aktualnyObrazek.classList.add('przesuniety2');
+        aktywujPustePole3(container, indexElementu);
+            }, 100);
+    setTimeout(() => {
+        if (aktualnyObrazek) {
+            container.removeChild(aktualnyObrazek);
+            }
+            }, 1100);
+        }
+    if (parseInt(aktualnyObrazek.src.split('obrazek')[1]) === 2 && parseInt(poprzedniObrazek.src.split('obrazek')[1]) === 3 && czyKliknietyObrazek0) {
+    setTimeout(() => {
+        aktualnyObrazek.classList.add('przesuniety1');
+        aktywujPustePole2(container, indexElementu);
+    }, 100);
+    setTimeout(() => {
+        if (aktualnyObrazek) {
+            container.removeChild(aktualnyObrazek);
+            }
+            }, 1100);
+        }
+    if (parseInt(aktualnyObrazek.src.split('obrazek')[1]) === 3 && parseInt(poprzedniObrazek.src.split('obrazek')[1]) === 4 && !czyKliknietyObrazek0 && !czyKliknietyObrazek1) {
+    setTimeout(() => {
+        aktualnyObrazek.classList.add('przesuniety2');
+        aktywujPustePole4(container, indexElementu);
+    }, 100);
+    setTimeout(() => {
+        if (aktualnyObrazek) {
+            container.removeChild(aktualnyObrazek);
+            }
+            }, 1100);
+        }
+    if (parseInt(aktualnyObrazek.src.split('obrazek')[1]) === 3 && parseInt(poprzedniObrazek.src.split('obrazek')[1]) === 4 && !czyKliknietyObrazek0 && czyKliknietyObrazek1) {
+    setTimeout(() => {
+        aktualnyObrazek.classList.add('przesuniety2');
+        aktywujPustePole4(container, indexElementu);
+    }, 100);
+    setTimeout(() => {
+        if (aktualnyObrazek) {
+            container.removeChild(aktualnyObrazek);
+            }
+            }, 1100);
+        }
+    if (parseInt(aktualnyObrazek.src.split('obrazek')[1]) === 3 && parseInt(poprzedniObrazek.src.split('obrazek')[1]) === 4 && czyKliknietyObrazek0 && !czyKliknietyObrazek1) {
+    setTimeout(() => {
+        aktualnyObrazek.classList.add('przesuniety2');
+        aktywujPustePole4(container, indexElementu);
+    }, 100);
+    setTimeout(() => {
+        if (aktualnyObrazek) {
+            container.removeChild(aktualnyObrazek);
+            }
+            }, 1100);
+        }
+    if (parseInt(aktualnyObrazek.src.split('obrazek')[1]) === 3 && parseInt(poprzedniObrazek.src.split('obrazek')[1]) === 4 && czyKliknietyObrazek0 && czyKliknietyObrazek1) {
+    setTimeout(() => {
+        aktualnyObrazek.classList.add('przesuniety2');
+        aktywujPustePole4(container, indexElementu);
+    }, 100);
+    setTimeout(() => {
+        if (aktualnyObrazek) {
+            container.removeChild(aktualnyObrazek);
+            }
+            }, 1100);
+        }
+    }
+}
+
+        poprzedniObrazek = element;
+        indeksObrazka++;
+    } else {
+        alert('Błędny indeks obrazka!');
+    }
+}
+</script>
+  <button onclick="przelaczIKontynuuj()">Przełącz do kontenera 2</button>
+  <button onclick="pokazZaladowaneObrazki('container1')">Pokaż obrazki z kontenera 1</button>
+   <div id="kontenery">
+       <div id='karta'><p>Zdanie 1sze</p><img id="as" src="img/karty/as.jpg"></div>
+        <div class="obrazek-container" id="obrazek-container1">
+        </div>
+        <div id='karta'><p>Zdanie 2gie</p><img id="as" src="img/karty/krol.jpg"></div>
+        <div class="obrazek-container" id="obrazek-container2">
+        </div>
+        <div id='karta'><p>Zdanie 3cie</p><img id="as" src="img/karty/dama.jpg"></div>
+        <div class="obrazek-container" id="obrazek-container3">
+        </div>
+        <div id='karta'><p>Zdanie 4te</p><img id="as" src="img/karty/jpek.jpg"></div>
+        <div class="obrazek-container" id="obrazek-container4">
+        </div>
+        <div id='karta'><p>Zdanie 5te</p><img id="as" src="img/karty/10tka.jpg"></div>
+        <div class="obrazek-container" id="obrazek-container5">
+        </div>
+    </div>
+  <div id="kontenery2">
+             <div id='karta'><p>Zdanie 1sze</p><img id="as" src="img/karty/as.jpg"></div>
+        <div class="obrazek-container" id="obrazek-container1b">
+        </div>
+        <div id='karta'><p>Zdanie 2gie</p><img id="as" src="img/karty/krol.jpg"></div>
+        <div class="obrazek-container" id="obrazek-container2b">
+        </div>
+  </div>
+  <button id="nauka">
+    <p>UCZE SIĘ: <span id="liczbaKlikniec2">0</span>
+  </button>
+  <div id="right-container"><button id="nauka2">NAUCZYŁEM SIĘ X</button></div>
+  <div id="bottom-container"><button id="nauka2">
+      <p>POSTĘP: <span id="liczbaKlikniec">0</span>- ZAZNAJOMIONYCH
+    </button></div>
+  <div class="grid-container">
+      <div id="itemitem" class="item">
+          <img id="33" src="img/fiszki1/2a.jpg" /><br>
+          <div id="part">
+        <button>Everybody</button>
+        <button>has</button>
+        <button>fun</button><br>
+        <button><b>everybody[ewrybody] - wszyscy</b></button><br></div>
+        <span class="caption">W <u><b>e-</u></b>sportowej grze silnik samochodu robi <u><b>wry</u></b>, wszyscy chcą
+            takich rajdów, <u><b>bo</u></b> idzie <u><b>dy</u></b>m</span><br>
+        <button onclick="aktywujObrazek('obrazek-container1', 0, 'obrazek-container2b')" class="Button"
+          id="jQueryColorChange">TRENING</button>
+        <button onclick="dodajPrzycisk(1)" class="Button2" id="jQueryColorChange2">ZNAM</button>
+      </div>
+      <div id="itemitem2" class="item2">
+        <img id="33" src="img/fiszki1/2b.jpg" />
+                  <div id="part">
+        <button>Everybody</button>
+        <button>has</button>
+        <button>fun</button><br>
+        <button><b>has[hes]/have[hew] - mieć(on/ona/oni)/mieć(ja/ty)</b></button></div>
+        <span class="caption">Teraz uczeń ma książkę Hermanna Hesse</span><br>
+        <button onclick="aktywujObrazek('obrazek-container1', 1, 'obrazek-container2b')" class="Button11"
+          id="jQueryColorChange11">TRENING</button>
+        <button onclick="dodajPrzycisk(2)" class="Button22" id="jQueryColorChange22">ZNAM</button>
+      </div>
+      <div id="itemitem3" class="item3">
+        <img id="33" src="img/fiszki1/2c.jpg" />
+                          <div id="part">
+        <button>Everybody</button>
+        <button>has</button>
+        <button>fun</button><br>
+        <button><b>fun[fan] - zabawa</b></button><br></div>
+        <span class="caption"><u><b>Fan</u></b>tastyczne jest to by się dobrze <u><b>bawić</u></b>. A jeżli chodzi o
+          <u><b>zabawę</u></b> zawsze jestem jej <u><b>fan</u></b>em</span>
+        <button onclick="aktywujObrazek('obrazek-container1', 2)" class="Button222"
+          id="jQueryColorChange111">TRENING</button>
+        <button onclick="dodajPrzycisk(3)" class="Button222" id="jQueryColorChange222">ZNAM</button>
+      </div>
+      <div id="itemitem4" class="item4">
+        <img id="33" src="img/fiszki1/2d.jpg" />
+                          <div id="part">
+        <button>at</button>
+        <button>the</button>
+        <button>party</button><br>
+        <button><b>at[at] - w tym</b></button><br></div>
+        <span class="caption"><u><b>W tym</u></b> piórze jest za mało <u><b>at</u></b>ramentu</span>
+        <button onclick="aktywujObrazek('obrazek-container1', 3)" class="Button1111"
+          id="jQueryColorChange1111">TRENING</button>
+        <button onclick="dodajPrzycisk(4)" class="Button2222" id="jQueryColorChange2222">ZNAM</button>
+      </div>
+      <div id="itemitem5" class="item5">
+        <img id="33" src="img/fiszki1/2e.jpg" />
+                          <div id="part">
+        <button>at</button>
+        <button>the</button>
+        <button>party</button><br>
+        <button><b>the[de] - to</b></button><br></div>
+        <span class="caption">Czasami politycy stosują <u><b>de</u></b>magogię. Czyli co stosują? <u><b>Tę</u></b>
+          <u><b>de</u></b>magogię</span>
+        <button onclick="aktywujObrazek('obrazek-container1', 4)" class="Button11111"
+          id="jQueryColorChange11111">TRENING</button>
+        <button onclick="dodajPrzycisk(5)" class="Button22222" id="jQueryColorChange22222">ZNAM</button>
+      </div>
+      <div id="itemitem6" class="item6">
+        <img id="33" src="img/fiszki1/2f.jpg" />
+                          <div id="part">
+        <button>at</button>
+        <button>the</button>
+        <button>party</button><br>
+        <button><b>party[party] - przyjęcie</b></button><br></div>
+        <span class="caption">Jesteśmy na <u><b>zabawie</u></b> gdzie a<u><b>par</u></b>atem robimy zdjęcia. Zdjęcia
+          mają pewien <u><b>arty</u></b>zm, bo to doświadczony fotograf i on ciągle opowiada ż<u><b>arty</u></b></span>
+        <button onclick="aktywujObrazek('obrazek-container1', 5); sprawdzLiczbeObrazkow();" class="Button111111"
+          id="jQueryColorChange111111">TRENING</button>
+        <button onclick="obslugaOnClick()" class="Button222222" id="jQueryColorChange222222">ZNAM
+          </butokazObrazek('obrazek6', 'container1' )ton>
+      </div>
+      <div id="itemitemi" class="itemi">
+        <img id="33" src="img/fiszki1/1a.jpg" />
+        <button>He</button>
+        <button>is</button>
+        <button>obedient</button><br>
+        <div id="word">
+          <button id="storyone"><b>he[hi] - on</b></button>
+          <audio id="musicB" preload="true">
+            <source src="voice/he.wav">
+          </audio>
+          <div id="audioplayerB">
+            <button id="pButtonB" class="playB" onclick="playB()"></button>
+          </div>
+        </div>
+        <span class="caption"><u><b>On</b></u> - <u><b>Hi</b></u>eronim odleciał balonem</span>
+        <button onclick="aktywujObrazek('obrazek-container2', 6)" class="Button1i"
+          id="jQueryColorChange1i">TRENING</button>
+        <button onclick="dodajPrzycisk(1)" class="Button2i" id="jQueryColorChange2i">ZNAM</button>
+        <button id="displayplayer">TUTAJ BĘDZIESZ KONTROLOWAŁ NAGRANIE BUDOWY SŁOWA</button>
+        <audio id="music" preload="true">
+          <source src="voice/historia_he.wav">
+        </audio>
+        <div id="audioplayer">
+          <button id="pButton" class="play" onclick="playA()"></button>
+          <div id="timeline">
+            <div id="playhead"></div>
+          </div>
+        </div>
+      </div>
+      <div id="itemitem2i" class="item2i">
+        <img id="33" src="img/fiszki1/1b.jpg" />
+        <button>He</button>
+        <button>is</button>
+        <button>obedient</button><br>
+        <div id="word">
+          <button id="storyone"><b>is[is] - jest</b></button>
+          <audio id="musicB2" preload="true">
+            <source src="voice/is.wav">
+          </audio>
+          <div id="audioplayerB2">
+            <button id="pButtonB2" class="playB2" onclick="playB2()"></button>
+          </div>
+        </div>
+        <span class="caption">Johny Bravo <u><b>jest</b></u> m<u><b>is</b></u>trzem relacji damsko-m?skich</span>
+        <button onclick="aktywujObrazek('obrazek-container2', 7)" class="Button11i"
+          id="jQueryColorChange11i">TRENING</button>
+        <button onclick="dodajPrzycisk(1)" class="Button22i" id="jQueryColorChange22i">ZNAM</button>
+        <audio id="musicA2" preload="true">
+          <source src="voice/historia_is.wav">
+        </audio>
+        <div id="audioplayerA2">
+          <button id="pButtonA2" class="play" onclick="playA2()"></button>
+          <div id="timelineA2">
+            <div id="playheadA2"></div>
+          </div>
+        </div>
+      </div>
+      <div id="itemitem3i" class="item3i">
+        <img id="33" src="img/fiszki1/1c.jpg" />
+        <button>He</button>
+        <button>is</button>
+        <button>obedient</button><br>
+        <div id="word">
+          <button><b>obedient[obidient] - posłuszny</b></button><br>
+          <audio id="musicB3" preload="true">
+            <source src="voice/obedient.wav">
+          </audio>
+          <div id="audioplayerB3">
+            <button id="pButtonB3" class="playB3" onclick="playB3()"></button>
+          </div>
+        </div>
+        <span class="caption">ćwiczę s<b><u>obi</u></b>e i jestem <u><b>posłuszny</b></u> swojemu
+          <u><b>die</b></u>tetykowi, powtarzam jak ma<u><b>nt</b></u>rę, że będę szczupły</span>
+        <button onclick="aktywujObrazek('obrazek-container2', 8)" class="Button111i"
+          id="jQueryColorChange111i">TRENING</button>
+        <button onclick="dodajPrzycisk(3)" class="Button222i" id="jQueryColorChange222i">ZNAM</button>
+        <audio id="musicA3" preload="true">
+          <source src="voice/historia_obedient.wav">
+        </audio>
+        <div id="audioplayerA3">
+          <button id="pButtonA3" class="play" onclick="playA3()"></button>
+          <div id="timelineA3">
+            <div id="playheadA3"></div>
+          </div>
+        </div>
+      </div>
+      <div id="itemitem4i" class="item4i">
+        <img id="33" src="img/fiszki1/1d.jpg" />
+        <button>to</button>
+        <button>science</button>
+        <button>procedure</button><br>
+        <button><b>to[tu] - dla</b></button><br>
+        <span class="caption"><u><b>Dla</u></b> spor<u><b>tu</b></u> przeszedłem się pieszo z domu do pracy</span>
+        <button onclick="aktywujObrazek('obrazek-container2', 9)" class="Button1111i" id="jQueryColorChange1111i">TRENING</button>
+        <button onclick="dodajPrzycisk(4)" class="Button2222i" id="jQueryColorChange2222i">ZNAM</button>
+      </div>
+      <div id="itemitem5i" class="item5i">
+        <img id="33" src="img/fiszki1/1e.jpg" />
+        <button>to</button>
+        <button>science</button>
+        <button>procedure</button><br>
+        <button><b>science[sajens] - nauka(dziedzina badawcza:nauka)</b></button><br>
+        <span class="caption">Badacz naukowy nie ma <u><b>saj</b></u>gonu w dziedzinie nauki i ma s<u><b>ens</b></u>
+          tego co robi</span>
+        <button onclick="aktywujObrazek('obrazek-container2', 10)" class="Button11111i"
+          id="jQueryColorChange11111i">TRENING</button>
+        <button onclick="dodajPrzycisk(5)" class="Button22222i" id="jQueryColorChange22222i">ZNAM</button>
+      </div>
+      <div id="itemitem6i" class="item6i">
+        <img id="33" src="img/fiszki1/1f.jpg" />
+        <button>to</button>
+        <button>science</button>
+        <button>procedure</button><br>
+        <button><b>procedure[prosidzer] - procedury</b></button>
+        <span class="caption">Popre te <u><b>pro</b></u>cedury <u><b>siii</b></u> bo jestem na wyspie
+          <u><b>Dżer</b></u>ba w Tunezji</span>
+        <button onclick="aktywujObrazek('obrazek-container2', 11)" class="Button111111i"
+          id="jQueryColorChange111111i">TRENING</button>
+        <button onclick="dodajPrzycisk(6); showMessage()" class="Button222222i"
+          id="jQueryColorChange222222i">ZNAM</button>
+      </div>
+    </div>
+  </div>
+  <script>
+    // Pobranie elementu licznika kliknięć
+    const liczbaKlikniecElement = document.getElementById('liczbaKlikniec2');// TRENING
+    const liczbaKlikniecElement2 = document.getElementById('liczbaKlikniec');// ZAZNAJOMIONE
+    let liczbaKlikniec = 0;
+    let liczbaKlikniec2 = 0;
+
+    // Funkcja zwiększająca liczbę kliknięć i aktualizująca wyświetlanie
+    function zwiekszLiczbeKlikniec() {
+      liczbaKlikniec++;
+      liczbaKlikniecElement.textContent = liczbaKlikniec;
+    }
+
+    function zwiekszLiczbeKlikniec2() {
+      liczbaKlikniec2++;
+      liczbaKlikniecElement2.textContent = liczbaKlikniec2;
+    }
+    // TRENING
+    document.getElementById('jQueryColorChange').addEventListener('click', zwiekszLiczbeKlikniec);
+    document.getElementById('jQueryColorChange11').addEventListener('click', zwiekszLiczbeKlikniec);
+    document.getElementById('jQueryColorChange111').addEventListener('click', zwiekszLiczbeKlikniec);
+    document.getElementById('jQueryColorChange1111').addEventListener('click', zwiekszLiczbeKlikniec);
+    document.getElementById('jQueryColorChange11111').addEventListener('click', zwiekszLiczbeKlikniec);
+    document.getElementById('jQueryColorChange111111').addEventListener('click', zwiekszLiczbeKlikniec);
+    document.getElementById('jQueryColorChange1i').addEventListener('click', zwiekszLiczbeKlikniec);
+    //ZAZNAJOMIONE
+    document.getElementById('jQueryColorChange').addEventListener('click', zwiekszLiczbeKlikniec2);
+    document.getElementById('jQueryColorChange2').addEventListener('click', zwiekszLiczbeKlikniec2);
+    document.getElementById('jQueryColorChange11').addEventListener('click', zwiekszLiczbeKlikniec2);
+    document.getElementById('jQueryColorChange22').addEventListener('click', zwiekszLiczbeKlikniec2);
+    document.getElementById('jQueryColorChange111').addEventListener('click', zwiekszLiczbeKlikniec2);
+    document.getElementById('jQueryColorChange222').addEventListener('click', zwiekszLiczbeKlikniec2);
+    document.getElementById('jQueryColorChange1111').addEventListener('click', zwiekszLiczbeKlikniec2);
+    document.getElementById('jQueryColorChange2222').addEventListener('click', zwiekszLiczbeKlikniec2);
+    document.getElementById('jQueryColorChange11111').addEventListener('click', zwiekszLiczbeKlikniec2);
+    document.getElementById('jQueryColorChange22222').addEventListener('click', zwiekszLiczbeKlikniec2);
+    document.getElementById('jQueryColorChange111111').addEventListener('click', zwiekszLiczbeKlikniec2);
+    document.getElementById('jQueryColorChange222222').addEventListener('click', zwiekszLiczbeKlikniec2);
+  </script>
+  <script src="js/scroll.js"></script>
+  <script src="js/konsola.js"></script>
+  <script src="js/activeclasses.js"></script>
+  <script src="js/scrollapp.js"></script>
+  <script src="js/konsolabuttons.js"></script>
+  <script src="js/konsolabuttons2.js"></script>
+  <script src="js/repeating.js"></script>
+</body>
+<div id="footer"></div>
+<div id="footer"></div>
+
+</html>

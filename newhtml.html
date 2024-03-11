@@ -1,0 +1,80 @@
+    let indeksElementu = 1;
+    let poprzedniObrazek = null;
+    let czyKliknietyObrazek0 = false;
+    let czyKliknietyObrazek1 = false;
+
+    function aktywujObrazek(nazwaKontenera, indexElementu, listaId, czyObrazek, zawartoscTekstowa) {
+      console.log(indexElementu);
+
+      const container = document.getElementById(nazwaKontenera);
+
+      if (indexElementu >= 0 && indexElementu < obrazki.length) {
+        const element = czyObrazek ? document.createElement('img') : document.createElement('div');
+
+        if (czyObrazek) { // sprawdzenie czy ładować obrazek czy słowo
+          element.src = obrazki[indexElementu];
+          element.style.width = '100px';
+          element.style.height = 'auto';
+        } else {
+          element.textContent = zawartoscTekstowa;
+          element.style.height = '30px';
+          element.style.backgroundColor = 'green';
+          element.style.fontSize = '18px'; // Ustawiamy rozmiar tekstu
+          element.style.textAlign = 'center'; // Wycentrowanie tekstu
+          element.style.margin = '3px'; // Wycentrowanie tekstu
+        }
+
+        container.appendChild(element);
+        if (czyObrazek) {
+          const orangeDot = document.createElement('div');
+          orangeDot.className = 'orange-dot';
+
+          container.appendChild(orangeDot);
+
+          orangeDot.style.display = 'block';
+          migotanieKropki(orangeDot);
+
+          const word = document.createElement('span');
+          word.className = 'word';
+          word.textContent = expectedWordshej[indexElementu];
+          container.appendChild(word);
+        }
+
+        if (indexElementu === 0) { // sprawdza czy wczesniej został klikniety obrazek ktory jest przed tasowaniem w dalszej czesci listy
+          czyKliknietyObrazek0 = true;
+          console.log(czyKliknietyObrazek0);
+        }
+        if (indexElementu === 1) {
+          czyKliknietyObrazek1 = true;
+          console.log(czyKliknietyObrazek1);
+        }
+
+        if (poprzedniObrazek) {
+          const aktualnyObrazek = container.lastChild;
+
+          console.log('Poprzedni indeks:', parseInt(poprzedniObrazek.src.split('obrazek')[1]));
+          console.log('Aktualny indeks:', parseInt(aktualnyObrazek.src.split('obrazek')[1]));
+
+          if (parseInt(aktualnyObrazek.src.split('obrazek')[1]) < parseInt(poprzedniObrazek.src.split('obrazek')[1])) { //sprawdza czy obrazki mają być przetasowane
+            console.log('Dodaję klasę przesunięcia do aktualnego obrazka');
+            aktualnyObrazek.classList.add('przesuniety');
+            if (parseInt(aktualnyObrazek.src.split('obrazek')[1]) === 1 && parseInt(poprzedniObrazek.src.split('obrazek')[1]) === 2) {
+              setTimeout(() => {
+                aktualnyObrazek.classList.add('przesuniety2');
+                aktywujPustePole(container, indexElementu);
+              }, 100);
+              setTimeout(() => {
+                if (aktualnyObrazek) {
+                  container.removeChild(aktualnyObrazek);
+                }
+              }, 1100);
+            }
+          }
+        }
+
+        poprzedniObrazek = element;
+        indeksElementu++;
+      } else {
+        alert('Błędny indeks obrazka!');
+      }
+    }
