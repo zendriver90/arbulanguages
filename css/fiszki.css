@@ -9,6 +9,15 @@
     box-sizing: border-box; /* Wlicz marginesy w szerokość i wysokość */
 }
 
+.fiszka.active2 {
+    border: 1px solid #999;
+    background: green;
+    border-radius: 5px;
+    text-align: center;
+    width: 100%;
+    height: auto;
+}
+
 .fiszka.active {
     border: 1px solid #999;
     background: green;
@@ -18,7 +27,52 @@
     height: auto;
 }
 
-.fiszka.active2 {
+.fiszka.imgIndexNull {
+    border: 1px solid #999;
+    background: #eee;
+    border-radius: 5px;
+    text-align: center;
+    width: 100%;
+    height: auto;
+}
+
+.fiszka.imgIndex-0 {
+    border: 1px solid #999;
+    background: orange;
+    border-radius: 5px;
+    text-align: center;
+    width: 100%;
+    height: auto;
+}
+
+.fiszka.imgIndex-1 {
+    border: 1px solid #999;
+    background: orange;
+    border-radius: 5px;
+    text-align: center;
+    width: 100%;
+    height: auto;
+}
+
+.fiszka.imgIndex-2 {
+    border: 1px solid #999;
+    background: orange;
+    border-radius: 5px;
+    text-align: center;
+    width: 100%;
+    height: auto;
+}
+
+.fiszka.imgIndex-3 {
+    border: 1px solid #999;
+    background: orange;
+    border-radius: 5px;
+    text-align: center;
+    width: 100%;
+    height: auto;
+}
+
+.fiszka.imgIndex-4 {
     border: 1px solid #999;
     background: orange;
     border-radius: 5px;
@@ -34,23 +88,26 @@
 }
 
 img.fiszka_img {
+    position: relative;
     width: 100%;
     max-height: 100%;
     object-fit: cover;
+    z-index: 100;
 }
 
 .hashtag-container {
-  position: relative;
-  bottom: 40px;
-  text-align: left; /* Tekst przylega do prawej strony */
-  padding-right: 5px;
-  font-weight: bold;
-  border-top-left-radius: 5px;
-  box-sizing: border-box;
-  display: inline-block; /* Ustawienie na inline-block ograniczy szerokość do tekstu */
-  background-color: #f0f0f0;
-  display: flex;
-  justify-content: flex-end;
+    display: block;
+    position: relative;
+    background-color: gray;
+    color: #fff;
+    border-radius: 3px;
+    width: 200px;
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+    transition: background 1s;
+    float: right;
+    z-index: 150;
+    font-size: 15px;
 }
 
 .fiszka_button.fiszka_button_trening {
@@ -69,8 +126,74 @@ button.fiszka_button {
     /* zestylowac */
 }
 
+button.story_button {
+    border-radius: 5px;
+    height: 25px;
+}
+
 button.fiszka_button_znam {}
 button.fiszka_button_trening {}
 
 button.fiszka_button_znam.fiszka.active { background: green }
 button.fiszka_button_trening.fiszka.active { background: orange }
+
+.like {
+        position: absolute;
+    background-color: white;
+    color:gray;
+    border-radius:3px;
+    width:150px;
+    height:40px;
+    line-height:40px;
+    vertical-align:middle;
+    text-align:center;
+    display:block;
+    text-decoration:none;
+    font-family: 'Open Sans', sans-serif;
+    transition: background 1s;
+    z-index: 200;
+}
+
+    .like:hover {
+        background-color: #aaa; /* Dowolny kolor tła dla efektu hover */
+    }
+.liked {
+    background-color: white;
+    color: orange;
+}
+
+.fiszka.button.story_button.active2 {
+    border: 1px solid #999;
+    background: orange;
+    border-radius: 5px;
+    text-align: center;
+    width: 100%;
+    height: auto;
+}
+
+story_button {
+    border-radius: 8px;
+}
+
+.likeIconContainer {
+    display: inline-block; /* Ustawia ikonę i tekst obok siebie */
+    vertical-align: middle; /* Wyśrodkuj ikonę względem tekstu */
+}
+
+.story_button {
+    white-space: nowrap; /* Zapobiega przewijaniu tekstu */
+}
+
+.orange-button {
+    background-color: orange;
+    /* Dodaj inne właściwości stylu, jeśli to konieczne */
+}
+
+.likeCounterDiv {
+        position: relative;
+        display: block;
+    float: left;
+    z-index: 999;
+    bottom: 30px;
+    background-color: #dcdcdc;
+}

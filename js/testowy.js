@@ -13,6 +13,9 @@ const fiszki = [
             "http://localhost/arbulanguage.com/img/fiszki1/2a4.jpg",
             "http://localhost/arbulanguage.com/img/fiszki1/2a5.jpg"
         ],
+        srcWord: [
+            "http://localhost/arbulanguage.com/src/everybody.wav"
+        ],
 
         // historia
         story: [
@@ -51,14 +54,20 @@ const fiszki = [
         ],
         img: [
             "http://localhost/arbulanguage.com/img/fiszki1/2b.jpg",
-            "http://localhost/arbulanguage.com/img/fiszki1/2b2.jpg"
+            "http://localhost/arbulanguage.com/img/fiszki1/2b2.jpg",
+            "http://localhost/arbulanguage.com/img/fiszki1/2b3.jpg",
+            "http://localhost/arbulanguage.com/img/fiszki1/2b4.jpg",
+            "http://localhost/arbulanguage.com/img/fiszki1/2b5.jpg"
+        ],
+        srcWord: [
+            "http://localhost/arbulanguage.com/src/has.wav"
         ],
         story: [
             "W niemieckim mieście <u><b>Hess</u></b>en Jurek <u><b>ma</u></b> bilet na mecze jego drużyny",
             "<u><b>H</u></b>ipopotam występuje w cyrku na <u><b>es</u></b>tradzie, <u><b>ma</u></b> duże umiejętności",
-            "",
-            "",
-            ""
+            "Naukowiec nagle się zapomniał i zapytał: <u><b>he</u></b>?, a wtedy jego kolega <u><b>ma</u></b> niezłą zabawę, <u><b>s</u></b>prawa oczywista..",
+            "<u><b>He</u></b>gemonia konsumpcjonizmu doprowadziła do tego, że 'ON'-dyrektor ma problemy, bo nikt nie chce chodzić na <u><b>s</u></b>pektakle teatralne",
+            "Moja koleżanka <u><b>ma</u></b> nowy klarnet z drzewa <u><b>he</u></b>banowego. Super sprawa"
         ],
         desc: "has[hes]/have[hew] - mieć(on/ona/oni)/mieć(ja/ty)",
         sentence: [
@@ -70,9 +79,9 @@ const fiszki = [
         category1: [
             "sport", "kibic",
             "natura", "zoologia",
-            "nauka",
-            "czarny humor",
-            "związki"
+            "nauka", "humor",
+            "czarny humor", "trendy",
+            "związki", "muzyka"
         ],
         category2: ["czasowniki, czasy"]
     },
@@ -87,6 +96,9 @@ const fiszki = [
             "http://localhost/arbulanguage.com/img/fiszki1/2c3.jpg",
             "http://localhost/arbulanguage.com/img/fiszki1/2c4.jpg",
             "http://localhost/arbulanguage.com/img/fiszki1/2c5.jpg"
+        ],
+        srcWord: [
+            "http://localhost/arbulanguage.com/src/fun.wav"
         ],
         story: [
             "<u><b>Fan</u></b>tastycznie jest być fanem jakiejś drużyny, to doskonała <u><b>zabawa</u></b>",
@@ -123,6 +135,9 @@ const fiszki = [
             "http://localhost/arbulanguage.com/img/fiszki1/2d4.jpg",
             "http://localhost/arbulanguage.com/img/fiszki1/2d5.jpg"
         ],
+        srcWord: [
+            "http://localhost/arbulanguage.com/src/at.wav"
+        ],
         story: [
             "<u><b>W tym</u></b> atelcie jest dużo siły",
             "Scott <u><b>At</u></b>kinson <u><b>w tym</u></b> lesie był na spacerze",
@@ -157,6 +172,9 @@ const fiszki = [
             "http://localhost/arbulanguage.com/img/fiszki1/2e3.jpg",
             "http://localhost/arbulanguage.com/img/fiszki1/2e4.jpg",
             "http://localhost/arbulanguage.com/img/fiszki1/2e5.jpg"
+        ],
+        srcWord: [
+            "http://localhost/arbulanguage.com/src/the.wav"
         ],
         story: [
             "Piłki do gry w kosza są twar<u><b>de</u></b>. Sam ten sport <u><b>to</u></b> twarda gra",
@@ -193,6 +211,9 @@ const fiszki = [
             "http://localhost/arbulanguage.com/img/fiszki1/2f4.jpg",
             "http://localhost/arbulanguage.com/img/fiszki1/2f5.jpg"
         ],
+        srcWord: [
+            "http://localhost/arbulanguage.com/src/party.wav"
+        ],
         story: [
             "<u><b>Par</u></b>ada zawodnika pokazuje, że on ma świetną <u><b>ucztę</u></b> gry  i zresztą uprawia różne inne sporty",
             "Z za<u><b>party</u></b>m tchem obserwuje jak lwiątka <u><b>ucztę</u></b> na sawannie",
@@ -228,6 +249,9 @@ const fiszki = [
             "http://localhost/arbulanguage.com/img/fiszki1/1a4.jpg",
             "http://localhost/arbulanguage.com/img/fiszki1/1a5.jpg"
         ],
+        srcWord: [
+            "http://localhost/arbulanguage.com/src/he.wav"
+        ],
         story: [
             "To właśnie on jest <b><u>hi</b></u>tem tego sezonu piłkarskiego",
             "Samiec czyli on - <b><u>hi</b></u>popotam",
@@ -260,9 +284,12 @@ const fiszki = [
         img: [
             "http://localhost/arbulanguage.com/img/fiszki1/1b.jpg",
             "http://localhost/arbulanguage.com/img/fiszki1/1b2.jpg",
-            "http://localhost/arbulanguage.com/img/fiszki1/1b3.png",
+            "http://localhost/arbulanguage.com/img/fiszki1/1b3.jpg",
             "http://localhost/arbulanguage.com/img/fiszki1/1b4.jpg",
             "http://localhost/arbulanguage.com/img/fiszki1/1b5.jpg"
+        ],
+        srcWord: [
+            "http://localhost/arbulanguage.com/src/is.wav"
         ],
         story: [
             "Gdy ktoś szybko biega obok nas to <u><b>jest</u></b> w popłochu, słyszymy tylko św<u><b>is</u></b>t",
@@ -301,6 +328,9 @@ const fiszki = [
             "http://localhost/arbulanguage.com/img/fiszki1/1c4.jpg",
             "http://localhost/arbulanguage.com/img/fiszki1/1c5.jpg"
         ],
+        srcWord: [
+            "http://localhost/arbulanguage.com/src/obedient.wav"
+        ],
         story: [
             "Ćwiczę s<b><u>obi</u></b>e i jestem <u><b>posłuszny</b></u> swojemu <u><b>die</b></u>tetykowi, powtarzam jak ma<u><b>nt</b></u>rę, że będę szczupły",
             "<u><b>Di</u></b>nozaury były <u><b>posłuszne</u></b> swoim odczuciom z ciała i nie miały czegoś takiego jak zjem s<u><b>obie</u></b> co chce. Dziś widzimy je s<u><b>ent</u></b>ymentalnie na zdjęciu",
@@ -335,6 +365,9 @@ const fiszki = [
             "http://localhost/arbulanguage.com/img/fiszki1/1d3.jpg",
             "http://localhost/arbulanguage.com/img/fiszki1/1d4.jpg",
             "http://localhost/arbulanguage.com/img/fiszki1/1d5.jpg"
+        ],
+        srcWord: [
+            "http://localhost/arbulanguage.com/src/to.wav"
         ],
         story: [
             "<u><b>Dla</u></b> spor<u><b>tu</b></u> przeszedłem się pieszo z domu do pracy",
@@ -371,6 +404,9 @@ const fiszki = [
             "http://localhost/arbulanguage.com/img/fiszki1/1e4.jpg",
             "http://localhost/arbulanguage.com/img/fiszki1/1e5.jpg"
         ],
+        srcWord: [
+            "http://localhost/arbulanguage.com/src/science.wav"
+        ],
         story: [
             "Ma<u><b>sa</u></b>j wedle <u><b>nauk</u></b> - uczy w jaki sposób zwiększyć szanse sportowca i wpłynąć na jego s<u><b>ens</u></b>orykę",
             "<u><b>Sa</u></b>m idę przez las i przygotowuję się do obrony doktoratu. Dla potrzeb <u><b>nauki</u></b> <u><b>j</u></b>eszcze muszę w<u><b>ensz</u></b>yć za odpowiednimi zdjęciami",
@@ -406,6 +442,9 @@ const fiszki = [
             "http://localhost/arbulanguage.com/img/fiszki1/1f4.jpg",
             "http://localhost/arbulanguage.com/img/fiszki1/1f5.jpg"
         ],
+        srcWord: [
+            "http://localhost/arbulanguage.com/src/procedure.wav"
+        ],
         story: [
             "Prestiż w dżungli to przetrwanie. Tu stosujemy procedury szamanów",
             "Popre te <u><b>pro</b></u>cedury <u><b>siii</b></u> bo jestem na wyspie <u><b>Dżer</b></u>ba w Tunezji",
@@ -425,7 +464,7 @@ const fiszki = [
             "natura", "wycieczki",
             "nauka", "procedury",
             "czarny humor", "zdrowie",
-            "związki", ""
+            "związki", "zdrowie"
         ],
         category2: ["czasowniki"]
     },
@@ -434,8 +473,23 @@ const fiszki = [
             13,
             3
         ],
-        img: "http://localhost/arbulanguage.com/img/fiszki1/5a.jpg",
-        story: "<u><b>Bi</u></b>egnę w zawodach i chcę <u><b>być</u></b> najlepszy, ale natrafiłem na słupa i wybiłem jedynkę",
+        img: [
+            "http://localhost/arbulanguage.com/img/fiszki1/5a.jpg",
+            "http://localhost/arbulanguage.com/img/fiszki1/5a2.jpg",
+            "http://localhost/arbulanguage.com/img/fiszki1/5a3.jpg",
+            "http://localhost/arbulanguage.com/img/fiszki1/5a4.jpg",
+            "http://localhost/arbulanguage.com/img/fiszki1/5a5.jpg"
+        ],
+        srcWord: [
+            "http://localhost/arbulanguage.com/src/be.wav"
+        ],
+        story: [
+            "<u><b>Bi</u></b>egam dobrze i podczas biegania odczuwam całkowicie inny stan <u><b>bycia</u></b>",
+            "Jestestwo lisa <u><b>Bi</u></b>ll i łabędzia <u><b>Bi</u></b>anka polega na jedzeniu bigosu. Lisek mówi do Bianki: ja lubie <u><b>być</u></b> smakoszem bigosu",
+            "<u><b>Bi</u></b>ologia jest taką dziedziną, w której warto jako badacz <u><b>być</u></b> zaangażowanym",
+            "<u><b>Bi</u></b>egnę w zawodach i chcę <u><b>być</u></b> najlepszy, ale natrafiłem na słupa i wybiłem jedynkę",
+            "<u><b>Być</u></b> <u><b>bi</u></b>ednym to nie to samo co być początkującym milionerem"
+        ],
         desc: "be[bi] - być",
         sentence: [
             "Be",
@@ -443,16 +497,37 @@ const fiszki = [
             "present"
         ],
         key: "party",
-        category1: "sport",
-        category2: "osiągnięcia"
+        category1: [
+            "sport", "trening",
+            "natura", "zwierzęta",
+            "nauka", "biologia",
+            "czarny humor", "zdrowie",
+            "związki", "finanse"
+        ],
+        category2: "czasy"
     },
     {
         id: [
             14,
             3
         ],
-        img: "http://localhost/arbulanguage.com/img/fiszki1/5b.jpg",
-        story: "Spodnie <u><b>mor</u></b>o dają plus 10 punktów <u><b>więcej</u></b> do ataku",
+        img: [
+            "http://localhost/arbulanguage.com/img/fiszki1/5b.jpg",
+            "http://localhost/arbulanguage.com/img/fiszki1/5b2.jpg",
+            "http://localhost/arbulanguage.com/img/fiszki1/5b3.png",
+            "http://localhost/arbulanguage.com/img/fiszki1/5b4.jpg",
+            "http://localhost/arbulanguage.com/img/fiszki1/5b5.jpg"
+        ],
+        srcWord: [
+            "http://localhost/arbulanguage.com/src/more.wav"
+        ],
+        story: [
+            "Bokser inspiruje się tym jak walczyli w <u><b>Mor</u></b>tal Kombat, ogląda tego <u><b>więcej</u></b> i wiecej",
+            "<u><b>Mor</u></b>ska zmora <u><b>mor</u></b>suje w morzu - <u><b>więcej</u></b> i więcej",
+            "<u><b>Mor</u></b>fina jest podawana na silny ból. Nie można dać <u><b>więcej</u></b> niż określoną dawkę",
+            "Spodnie <u><b>mor</u></b>o dają plus 10 punktów <u><b>więcej</u></b> do ataku",
+            "Mój chłopak wie, że smakuje mi <u><b>mor</u></b>tadela i mogę wtedy <u><b>więcej</u></b> jeść"
+        ],
         desc: "more[mor] - więcej",
         sentence: [
             "Be",
@@ -460,16 +535,37 @@ const fiszki = [
             "present"
         ],
         key: "more",
-        category1: "sport",
-        category2: "wizerunek"
+        category1: [
+            "sport", "film",
+            "natura", "morze",
+            "nauka", "zdrowie",
+            "czarny humor", "wojsko",
+            "związki", "jedzenie"
+        ],
+        category2: ""
     },
     {
         id: [
             15,
             3
         ],
-        img: "http://localhost/arbulanguage.com/img/fiszki1/5c.jpg",
-        story: "Byłem <u><b>obecny</u></b> na losowaniu, gdzie każdy wygrywał <u><b>prezent</u></b>, los kosztował 30zł, a nagroda wynosiła też 30zł",
+        img: [
+            "http://localhost/arbulanguage.com/img/fiszki1/5c.jpg",
+            "http://localhost/arbulanguage.com/img/fiszki1/5c2.jpg",
+            "http://localhost/arbulanguage.com/img/fiszki1/5c3.jpg",
+            "http://localhost/arbulanguage.com/img/fiszki1/5c4.jpg",
+            "http://localhost/arbulanguage.com/img/fiszki1/5c5.jpg"
+        ],
+        srcWord: [
+            "http://localhost/arbulanguage.com/src/present.wav"
+        ],
+        story: [
+            "<u><b>Prezent</u></b>em dla każdego sportowca jest <u><b>obecność</u></b> kibiców",
+            "Na <u><b>pre</u></b>riach Sawanny podczas <u><b>zen</u></b>itu <u><b>obecne</u></b> są Antylopy",
+            "<u><b>Pre</u></b>dykcja czyli przewidywanie jest <u><b>obecne</u></b> w procedurach <u><b>ze</u></b> względu na prawdopodobieństwo r<u><b>ent</u></b>owności badań",
+            "Byłem <u><b>obecny</u></b> na losowaniu, gdzie każdy wygrywał <u><b>prezent</u></b>, los kosztował 30zł, a nagroda wynosiła też 30zł",
+            "Ten <u><b>prezent</u></b> na imieniny czyli spektakl jest fajny. Fajnie, że wszyscy przyjaciele się pojawili (byli <u><b>obecni</u></b>)"
+        ],
         desc: "present[prezent] - obecny",
         sentence: [
             "Be",
@@ -477,16 +573,37 @@ const fiszki = [
             "present"
         ],
         key: "present",
-        category1: "czarny humor",
-        category2: "czas wolny, zabawa"
+        category1: [
+            "sport", "widowisko",
+            "natura", "pustynia",
+            "nauka", "statystyka",
+            "czarny humor", "loteria",
+            "związki", "jedzenie"
+        ],
+        category2: ""
     },
     {
         id: [
             16,
             3
         ],
-        img: "http://localhost/arbulanguage.com/img/fiszki1/5d.jpg",
-        story: "Bez <u><b>wiz</u></b>y Pan nie wjedzie, a <u><b>z</u></b> wizą to oczywiście",
+        img: [
+            "http://localhost/arbulanguage.com/img/fiszki1/5d.jpg",
+            "http://localhost/arbulanguage.com/img/fiszki1/5d2.jpg",
+            "http://localhost/arbulanguage.com/img/fiszki1/5d3.jpg",
+            "http://localhost/arbulanguage.com/img/fiszki1/5d4.jpg",
+            "http://localhost/arbulanguage.com/img/fiszki1/5d5.jpg"
+        ],
+        srcWord: [
+            "http://localhost/arbulanguage.com/src/with.wav"
+        ],
+        story: [
+            "<u><b>Z</u></b> <u><b>wiz</u></b>ualizacją wygranej sportowcy są bardziej przygotowani",
+            "Wizja wiewiórek, które jedzą z wiadomo, którego wiaderka(mojego) jest słuszna",
+            "<u><b>Wiz</u></b>ytacja naukowców <u><b>z</u></b> Japonii jest znakomitą okazją do wymiany poglądów",
+            "Bez <u><b>wiz</u></b>y Pan nie wjedzie, a <u><b>z</u></b> wizą to oczywiście",
+            "Z wizażem czyli makijażem - królowa robi jeszcze lepsze wrażenie w królestwie. Wraz z królową jest jej wizażysta i rozdaje wizytówki. Z wizytóką 10% taniej."
+        ],
         desc: "with[wiz] - z",
         sentence: [
             "with",
@@ -494,33 +611,75 @@ const fiszki = [
             "emotions"
         ],
         key: "with",
-        category1: "związki",
-        category2: "administracja, społeczność"
+        category1: [
+            "sport", "trening mentalny",
+            "natura", "zwierzęta",
+            "nauka", "statystyka",
+            "czarny humor", "loteria",
+            "związki", "wizerunek"
+        ],
+        category2: ""
     },
     {
         id: [
             17,
             3
         ],
-        img: "http://localhost/arbulanguage.com/img/fiszki1/5e.jpg",
-        story: "Każde dziecko miało kiedyś <u><b>swoje</u></b> ba<u><b>jor</u></b>ko",
-        desc: "your[jor] - twoim/swoim",
+        img: [
+            "http://localhost/arbulanguage.com/img/fiszki1/5e.jpg",
+            "http://localhost/arbulanguage.com/img/fiszki1/5e2.jpg",
+            "http://localhost/arbulanguage.com/img/fiszki1/5e3.jpg",
+            "http://localhost/arbulanguage.com/img/fiszki1/5e4.jpg",
+            "http://localhost/arbulanguage.com/img/fiszki1/5e5.jpg"
+        ],
+        srcWord: [
+            "http://localhost/arbulanguage.com/src/your.wav"
+        ],
+        story: [
+            "W wojsku ma<u><b>jor</u></b> to <u><b>twój</u></b> szef od musztry",
+            "F<u><b>jor</u></b>d to zatoka, gdzie <u><b>twój</u></b> wypoczynek może być fajny",
+            "W <u><b>Jor</u></b>dani kobieta musi bieć burkę, ale to <u><b>twój</u></b> wybór",
+            "<u><b>Twoje</u></b> dziecko ma fajne ba<u><b>jor</u></b>ko",
+            "B<u><b>jor</u></b>n jest ma<u><b>jor</u></b>em i mieszka na Ma<u><b>jor</u></b>ce. Każdy mu mówi - <u><b>twój</u></b> piersek </u><b>York</u></b> jest śliczny"
+        ],
+        desc: "your[jor] - twój",
         sentence: [
             "with",
             "your",
             "emotions"
         ],
         key: "your",
-        category1: "związki",
-        category2: "czas wolny"
+        category1: [
+            "sport", "wojsko",
+            "natura", "miejsca",
+            "nauka", "socjologia",
+            "czarny humor", "dzieciństwo",
+            "związki", "otoczenie"
+        ],
+        category2: ""
     },
     {
         id: [
             18,
             3
         ],
-        img: "http://localhost/arbulanguage.com/img/fiszki1/5f.jpg",
-        story: "<u><b>I</u></b>gnacy mieszka w <u><b>Moł</u></b>dawi i karmi w Zoo <u><b>szy</u></b>mpanse <u><b>szyn</u></b>ką, obok wąż robi <u><b>sss</u></b>. Wszyscy, którzy to widzą są w <u><b>emocjach</u></b>",
+        img: [
+            "http://localhost/arbulanguage.com/img/fiszki1/5f.jpg",
+            "http://localhost/arbulanguage.com/img/fiszki1/5f2.jpg",
+            "http://localhost/arbulanguage.com/img/fiszki1/5f3.jpg",
+            "http://localhost/arbulanguage.com/img/fiszki1/5f4.jpg",
+            "http://localhost/arbulanguage.com/img/fiszki1/5f5.jpg"
+        ],
+        srcWord: [
+            "http://localhost/arbulanguage.com/src/emotions.wav"
+        ],
+        story: [
+            "M<u><b>imo</u></b> złej pogody <u><b>Ł</u></b>ukasz startuje z <u><b>szyn</u></b>y startowej, teraz <u><b>sss</u></b>tart.... (są emocje)",
+            "M<u><b>imo</u></b> trudności wdrapaliśmy się pomału na górę, mamy kanapki z <u><b>szyn</u></b>ki na posiłek i zaraz <u><b>s</u></b>tartujemy do zejścia - ale <u><b>emocje</u></b>",
+            "<u><b>Im</u></b> trudniejszy temat tym bardzsiej chce go zgłębić, p<u><b>oł</u></b>owa pracy za nami, <u><b>szy</u></b>bko trzeba jeszcze zrobić ankiety. <u><b>Emocjonalnie</u></b> podchodze do badań, które dla mnie mają wielki se<u><b>ns</u></b>",
+            "<u><b>I</u></b>gnacy mieszka w <u><b>Moł</u></b>dawi i karmi w Zoo <u><b>szy</u></b>mpanse <u><b>szyn</u></b>ką, obok wąż robi <u><b>sss</u></b>. Wszyscy, którzy to widzą są w <u><b>emocjach</u></b>",
+            "Dzisiaj mam <u><b>im</u></b>ieniny, które są <u><b>emocjonalne</u></b> dziś. Ogarnow<u><b>szy</u></b> wszystkie obowiązki - teraz mam <u><b>s</u></b>pokój w pracy"
+        ],
         desc: "emotions[imołszyns] - emocje",
         sentence: [
             "with",
@@ -528,16 +687,34 @@ const fiszki = [
             "emotions"
         ],
         key: "emotions",
-        category1: "natura",
-        category2: "zwierzęta"
+        category1: [
+            "sport", "bieganie",
+            "natura", "wspianczka",
+            "nauka", "zagadka",
+            "czarny humor", "zwierzęta",
+            "związki", "świętowanie"
+        ],
+        category2: ""
     },
     {
         id: [
             19,
             4
         ],
-        img: "http://localhost/arbulanguage.com/img/fiszki1/4a.jpg",
-        story: "M<u><b>aj</u></b>a ma zezowate <u><b>oko</u></b> i mówi, no <u><b>JA</u></b> widzę ciebie podwójnie",
+        img: [
+            "http://localhost/arbulanguage.com/img/fiszki1/4a.jpg",
+            "http://localhost/arbulanguage.com/img/fiszki1/4a2.jpg",
+            "http://localhost/arbulanguage.com/img/fiszki1/4a3.jpg",
+            "http://localhost/arbulanguage.com/img/fiszki1/4a4.jpg",
+            "http://localhost/arbulanguage.com/img/fiszki1/4a5.jpg"
+        ],
+        story: [
+            "Ja jestem Piotrek, mam okulary ochronne, gdy jechałem rowerem wleciała mi mucha do oka, krzyczałem ajjj - dlaczego to mi wleciała mucha do oka, ajjj",
+            "M<u><b>aj</u></b>a ma zezowate <u><b>oko</u></b> i mówi, no <u><b>JA</u></b> widzę ciebie podwójnie",
+            "Nauka o mitach, takich jak królowa G</u></b>aj</u></b>a to ten temat, gdzie <u><b>ja</u></b> mam największą wiedze",
+            "",
+            ""
+        ],
         desc: "I[aj] - ja",
         sentence: [
             "I",
@@ -545,16 +722,35 @@ const fiszki = [
             "shy"
         ],
         key: "I",
-        category1: "związki",
-        category2: "percepcja"
+        category1: [
+            "sport", "rowery",
+            "natura", "zdrowie",
+            "nauka", "",
+            "czarny humor", "",
+            "związki", ""
+        ],
+        category2: ""
     },
     {
         id: [
             20,
             4
         ],
-        img: "http://localhost/arbulanguage.com/img/fiszki1/4b.jpg",
-        story: "Mój idol <u><b>Em</u></b>inem powiedział, <u><b>ja jestem</u></b> najlepszym raperem i po tym stwierdzneiu teraz <u><b>ja jestem</u></b> w fajnych emocjach",
+        img: [
+            "http://localhost/arbulanguage.com/img/fiszki1/4b.jpg",
+            "http://localhost/arbulanguage.com/img/fiszki1/4b2.jpg",
+            "http://localhost/arbulanguage.com/img/fiszki1/4b3.jpg",
+            "http://localhost/arbulanguage.com/img/fiszki1/4b4.jpg",
+            "http://localhost/arbulanguage.com/img/fiszki1/4b5.jpg"
+
+        ],
+        story: [
+            "Zawszse po treningu j<u><b>em</u></b>, dlatego <u><b>jestem</u></b> wysportowany i silny",
+            "M<u><b>am</u></b> j<u><b>em</u></b>iołę i <u><b>jestem</u></b> zadowolony z jej zapachu",
+            "Emanacją mojej pracy badawczej, którą prowadziłem s<u><b>am</u></b> - jest to, że teraz ja <u><b>jestem</u></b> w tym temacie specjalistą",
+            "Amstaf <u><b>Em</u></b>il mnie goni, <u><b>jestem</u></b> w tarapatach",
+            "Mój idol <u><b>Em</u></b>inem powiedział, <u><b>ja jestem</u></b> najlepszym raperem i po tym stwierdzneiu teraz <u><b>ja jestem</u></b> w fajnych emocjach",
+        ],
         desc: "am[em] - jestem",
         sentence: [
             "I",
@@ -562,16 +758,35 @@ const fiszki = [
             "shy"
         ],
         key: "am",
-        category1: "związki",
-        category2: "muzyka, pasja"
+        category1: [
+            "sport", "trening",
+            "natura", "zapach",
+            "nauka", "autorytet",
+            "czarny humor", "bezpieczeństwo",
+            "związki", "muzyka"
+        ],
+        category2: ""
     },
     {
         id: [
             21,
             4
         ],
-        img: "http://localhost/arbulanguage.com/img/fiszki1/4c.jpg",
-        story: "W pewnej <u><b>szaj</u></b>ce złożonej z <u><b>szaj</u></b>busów jest nieśmiały Wojtek i wszyscy mówią do niego ogła<u><b>szaj</u></b> przemówienie",
+        img: [
+            "http://localhost/arbulanguage.com/img/fiszki1/4c.jpg",
+            "http://localhost/arbulanguage.com/img/fiszki1/4c2.jpg",
+            "http://localhost/arbulanguage.com/img/fiszki1/4c3.jpg",
+            "http://localhost/arbulanguage.com/img/fiszki1/4c4.jpg",
+            "http://localhost/arbulanguage.com/img/fiszki1/4c5.jpg"
+
+        ],
+        story: [
+            "<u><b>Szaj</u></b>bus jest <u><b>nieśmiały</u></b>, ale jest najlepszym sportowcem w naszej ekipie",
+            "Małpy <u><b>nieśmiało</u></b> wie<u><b>szaj</u></b>ą się po drzewach swoimi rękoma",
+            "Moi koledzy na Uniwersytecie zawsze coś namie<u><b>szaj</u></b>ą zadając pytania i wtedy staję się <u><b>nieśmiały</u></b>",
+            "",
+            "W pewnej <u><b>szaj</u></b>ce złożonej z <u><b>szaj</u></b>busów jest nieśmiały Wojtek i wszyscy mówią do niego ogła<u><b>szaj</u></b> przemówienie",
+        ],
         desc: "shy[szaj] - nieśmiały",
         sentence: [
             "I",
@@ -579,16 +794,34 @@ const fiszki = [
             "shy"
         ],
         key: "shy",
-        category1: "związki",
-        category2: "wystąpienia publiczne, związki"
+        category1: [
+            "sport", "umiejętności",
+            "natura", "zwierzęta",
+            "nauka", "organizacja",
+            "czarny humor", "",
+            "związki", "wystąpienia publiczne"
+        ],
+        category2: ""
     },
     {
         id: [
             22,
             4
         ],
-        img: "http://localhost/arbulanguage.com/img/fiszki1/4d.jpg",
-        story: "Po spotkaniu z kolegą, na którego mówią <u><b>Bat</u></b>man mam naładowane baterie towarzyskieg, <u><b>ale</u></b> chcę więcej rozmów",
+        img: [
+            "http://localhost/arbulanguage.com/img/fiszki1/4d.jpg",
+            "http://localhost/arbulanguage.com/img/fiszki1/4d2.jpg",
+            "http://localhost/arbulanguage.com/img/fiszki1/4d3.jpg",
+            "http://localhost/arbulanguage.com/img/fiszki1/4d4.jpg",
+            "http://localhost/arbulanguage.com/img/fiszki1/4d5.jpg"
+        ],
+        story: [
+            "Po spotkaniu z kolegą, na którego mówią <u><b>Bat</u></b>man mam naładowane baterie towarzyskieg, <u><b>ale</u></b> chcę więcej rozmów",
+            "",
+            "",
+            "",
+            ""
+        ],
         desc: "but[bat] - ale",
         sentence: [
             "but",
@@ -596,16 +829,34 @@ const fiszki = [
             "dare"
         ],
         key: "but",
-        category1: "związki",
-        category2: "czas wolny"
+        category1: [
+            "sport", "umiejętności",
+            "natura", "zwierzęta",
+            "nauka", "",
+            "czarny humor", "",
+            "związki", "wystąpienia publiczne"
+        ],
+        category2: ""
     },
     {
         id: [
             23,
             4
         ],
-        img: "http://localhost/arbulanguage.com/img/fiszki1/4e.jpg",
-        story: "<u><b>Sam</u></b>uraj <u><b>czasami</u></b> spotyka bra<u><b>ta</u></b>, ktory jest w se<u><b>jm</u></b>ie i zamiast poszedł mówi po<u><b>sss</u></b>edł, lecz <u><b>czasami</u></b> mówi poprawnie",
+        img: [
+            "http://localhost/arbulanguage.com/img/fiszki1/4e.jpg",
+            "http://localhost/arbulanguage.com/img/fiszki1/4e2.jpg",
+            "http://localhost/arbulanguage.com/img/fiszki1/4e3.jpg",
+            "http://localhost/arbulanguage.com/img/fiszki1/4e4.jpg",
+            "http://localhost/arbulanguage.com/img/fiszki1/4e5.jpg"
+        ],
+        story: [
+            "<u><b>Sam</u></b> jeden <u><b>Tai</u></b> robi pomstę przeciwnikom, ale tylko <u><b>czasami</u></b>",
+            "<u><b>Sam</u></b>uel jest w dżungli w <u><b>Taj</u></b>landi ze swoim ze swoim psem a<u><b>ms</u></b>tafem, którego <u><b>czasami</u></b> karmi",
+            "Bal<u><b>sam</u></b> na rany świadczy o wkładzie naukowców w rozwój świa<u><b>ta</u></b> i odważnym zaangażowaniu w medycynę. Naukowca cytuje gazeta T<u><b>ajms</u></b>",
+            "<u><b>Sam</u></b>uraj <u><b>czasami</u></b> spotyka bra<u><b>ta</u></b>, ktory jest w se<u><b>jm</u></b>ie i zamiast poszedł mówi po<u><b>sss</u></b>edł, lecz <u><b>czasami</u></b> mówi poprawnie",
+            "<u><b>Sam</u></b> sport bez dobrego odżywiania <u><b>czasami</u></b> nie jest <u><b>ta</u></b>ki efektywny, ale daje fe<u><b>jm</u></b> i sprawczość"
+        ],
         desc: "sometimes[samtajms] - czasami",
         sentence: [
             "but",
@@ -613,7 +864,13 @@ const fiszki = [
             "dare"
         ],
         key: "sometimes",
-        category1: "związki",
+        category1: [
+            "sport", "sztuki walki",
+            "natura", "miejsca",
+            "nauka", "medycyna",
+            "czarny humor", "wystąpienia publiczne",
+            "związki", ""
+        ],
         category2: "polityka, praca"
     },
     {
@@ -621,8 +878,20 @@ const fiszki = [
             24,
             4
         ],
-        img: "http://localhost/arbulanguage.com/img/fiszki1/4f.jpg",
-        story: "Pewien imprezowicz <u><b>odważył się</u></b> wejść na duże wia<u><b>der</u></b>ko i kręci bio<u><b>der</u></b>kami",
+        img: [
+            "http://localhost/arbulanguage.com/img/fiszki1/4f.jpg",
+            "http://localhost/arbulanguage.com/img/fiszki1/4f.jpg",
+            "http://localhost/arbulanguage.com/img/fiszki1/4f.jpg",
+            "http://localhost/arbulanguage.com/img/fiszki1/4f.jpg",
+            "http://localhost/arbulanguage.com/img/fiszki1/4f.jpg"
+        ],
+        story: [
+            "</u></b>Der<u><b>ek <u><b>odważył się </u></b> zrobić salto",
+            "<u><b>Der</u></b>matolog przestrzega, aby nie zdobywać się na <u><b>odwagę</u></b> chodzić do dżungli",
+            "Na</u></b>der<u><b> oczywiste jest, że <u><b>odwaga</u></b> w głoszeniu poglądów jest dla naukowca bardzo ważna",
+            "</u></b>Der<u><b>by tych klubów spowodowały zadymy na meczu, każdy był <u><b>odważny</u></b>",
+            "Pewien imprezowicz <u><b>odważył się</u></b> wejść na duże wia<u><b>der</u></b>ko i kręci bio<u><b>der</u></b>kami"
+        ],
         desc: "dare[der] - odważył się",
         sentence: [
             "but",
@@ -630,7 +899,13 @@ const fiszki = [
             "dare"
         ],
         key: "dare",
-        category1: "związki",
+        category1: [
+            "sport", "gimnastyka",
+            "natura", "medycyna",
+            "nauka", "cechy charakteru",
+            "czarny humor", "kibic",
+            "związki", "impreza"
+        ],
         category2: "czas wolny, zabawa"
     },
     {
@@ -638,8 +913,20 @@ const fiszki = [
             25,
             5
         ],
-        img: "http://localhost/arbulanguage.com/img/fiszki1/3a.jpg",
-        story: "W leśnym <u><b>gaj</b></u>u jest <u><b>gaj</u></b>owy, który jest fajnym <u><b>gościem</u></b>",
+        img: [
+            "http://localhost/arbulanguage.com/img/fiszki1/3a.jpg",
+            "http://localhost/arbulanguage.com/img/fiszki1/3a2.jpg",
+            "http://localhost/arbulanguage.com/img/fiszki1/3a3.jpg",
+            "http://localhost/arbulanguage.com/img/fiszki1/3a4.jpg",
+            "http://localhost/arbulanguage.com/img/fiszki1/3a5.jpg"
+        ],
+        story: [
+            "Ten <b><u>chłopak</b></u> nie jest mazgajem, jest wysportowany i pije przed treningiem <b><u>gaj</b></u>ner",
+            "W leśnym <u><b>gaj</b></u>u jest <u><b>gaj</u></b>owy, który jest fajnym <u><b>gościem</u></b>",
+            "",
+            "Inni motywują <b><u>chłopaka</b></u>, zapowiadającego się dobrze sportowca: bie<b><u>gaj</b></u>, biegaj",
+            "Pewien <b><u>chłopak</b></u> studiuje mitologię i czyta o Bogini <b><u>Gaj</b></u>i, aby jego związek był lepszy "
+        ],
         desc: "guy[gaj] - gościu",
         sentence: [
             "(A) guy",
@@ -647,7 +934,13 @@ const fiszki = [
             "cat"
         ],
         key: "guy",
-        category1: "natura",
+        category1: [
+            "sport", "gimnastyka",
+            "natura", "medycyna",
+            "nauka", "cechy charakteru",
+            "czarny humor", "kibic",
+            "związki", "impreza"
+        ],
         category2: "praca, zawody"
     },
     {
@@ -655,8 +948,20 @@ const fiszki = [
             26,
             5
         ],
-        img: "http://localhost/arbulanguage.com/img/fiszki1/3b.jpg",
-        story: "<u><b>Kacz</u></b>ki <u><b>przeskakują</u></b> przez płotek",
+        img: [
+            "http://localhost/arbulanguage.com/img/fiszki1/3b.jpg",
+            "http://localhost/arbulanguage.com/img/fiszki1/3b2.jpg",
+            "http://localhost/arbulanguage.com/img/fiszki1/3b3.jpg",
+            "http://localhost/arbulanguage.com/img/fiszki1/3b4.jpg",
+            "http://localhost/arbulanguage.com/img/fiszki1/3b5.jpg"
+        ],
+        story: [
+            "To są wyścigi. Mała kaczka <u><b>łapie</u></b> dużą <u><b>kacz</u></b>ek, ciekawe czy ja dogoni",
+            "<u><b>Kacz</u></b>ki <u><b>przeskakują</u></b> przez płotek",
+            "",
+            "Kamil s<u><b>kacz</u></b>e, bo się czymś poparzył",
+            "Para uczy sie tańczyć, chłopak mówi do dziewczyny: s<u><b>kacz</u></b>, a ja cię <u><b>złapię</u></b>"
+        ],
         desc: "catch[kacz] - łapać",
         sentence: [
             "(A) guy",
@@ -664,7 +969,13 @@ const fiszki = [
             "cat"
         ],
         key: "catch",
-        category1: "natura",
+        category1: [
+            "sport", "zabawa",
+            "natura", "zwierzęta",
+            "nauka", "",
+            "czarny humor", "zdrowie",
+            "związki", "taniec"
+        ],
         category2: "zwierzęta"
     },
     {
@@ -672,8 +983,20 @@ const fiszki = [
             27,
             5
         ],
-        img: "http://localhost/arbulanguage.com/img/fiszki1/3c.jpg",
-        story: "Ten <u><b>kot</u></b> to <u><b>kat</u></b>astrofa",
+        img: [
+            "http://localhost/arbulanguage.com/img/fiszki1/3c.jpg",
+            "http://localhost/arbulanguage.com/img/fiszki1/3c2.jpg",
+            "http://localhost/arbulanguage.com/img/fiszki1/3c3.jpg",
+            "http://localhost/arbulanguage.com/img/fiszki1/3c4.jpg",
+            "http://localhost/arbulanguage.com/img/fiszki1/3c5.jpg"
+        ],
+        story: [
+            "",
+            "",
+            "W państwie <u><b>Kat</u></b>ar, <u><b>kot</u></b> ma szczególne uznanie wśród ludzi",
+            "Ten <u><b>kot</u></b> to <u><b>kat</u></b>astrofa",
+            "W <u><b>kat</u></b>egori zwierząt moja dziewczyna lubi najbardziej <u><b>koty</u></b>"
+        ],
         desc: "cat[kat] - kot",
         sentence: [
             "(A) guy",
@@ -681,7 +1004,13 @@ const fiszki = [
             "cat"
         ],
         key: "cat",
-        category1: "natura",
+        category1: [
+            "sport", "",
+            "natura", "",
+            "nauka", "miasta",
+            "czarny humor", "zwierzęta",
+            "związki", "zwierzęta domowe"
+        ],
         category2: "zwierzęta"
     },
     {
@@ -689,8 +1018,20 @@ const fiszki = [
             28,
             5
         ],
-        img: "http://localhost/arbulanguage.com/img/fiszki1/3d.jpg",
-        story: "<u><b>End</u></b>riu wydziela <u><b>end</u></b>orfiny i ćwiczy: to <u><b>i</u></b> to, <u><b>i</u></b> to, aby było więcej endorfin i wyczekuje <u><b>końca</u></b> treningu",
+        img: [
+            "http://localhost/arbulanguage.com/img/fiszki1/3d.jpg",
+            "http://localhost/arbulanguage.com/img/fiszki1/3d2.jpg",
+            "http://localhost/arbulanguage.com/img/fiszki1/3d3.jpg",
+            "http://localhost/arbulanguage.com/img/fiszki1/3d4.jpg",
+            "http://localhost/arbulanguage.com/img/fiszki1/3d5.jpg"
+        ],
+        story: [
+            "<u><b>End</u></b>riu wydziela <u><b>end</u></b>orfiny i ćwiczy: to <u><b>i</u></b> to, <u><b>i</u></b> to, aby było więcej endorfin i wyczekuje <u><b>końca</u></b> treningu",
+            "Endriu w końcu skończył prace w ogrodzie. Zrobił to i to i to..",
+            "",
+            "Endriu jeździ motorem enduro i miał wypadek, to koniec jego karier. Pyta: i co dalej?",
+            "W końcu zapędy Endriu do pewnej dziewczyny skończyły się sukcesem i para jest szczęśliwa"
+        ],
         desc: "end[end] - i/koniec",
         sentence: [
             "and",
@@ -698,7 +1039,13 @@ const fiszki = [
             "him"
         ],
         key: "and",
-        category1: "sport",
+        category1: [
+            "sport", "trening",
+            "natura", "ogród",
+            "nauka", "",
+            "czarny humor", "kariera",
+            "związki", "podryw"
+        ],
         category2: "pasja"
     },
     {
@@ -706,8 +1053,20 @@ const fiszki = [
             29,
             5
         ],
-        img: "http://localhost/arbulanguage.com/img/fiszki1/3e.jpg",
-        story: "W mieście <u><b>Hag</u></b>a wszyscy się <u><b>przytulają",
+        img: [
+            "http://localhost/arbulanguage.com/img/fiszki1/3e.jpg",
+            "http://localhost/arbulanguage.com/img/fiszki1/3e2.jpg",
+            "http://localhost/arbulanguage.com/img/fiszki1/3e3.jpg",
+            "http://localhost/arbulanguage.com/img/fiszki1/3e4.jpg",
+            "http://localhost/arbulanguage.com/img/fiszki1/3e5.jpg"
+        ],
+        story: [
+            "<u><b>Ha</u></b>rry trenuje <u><b>g</u></b>roźne chwyty a potreningu <u><b>przytula się</u></b> do Haliny",
+            "W mieście <u><b>Hag</u></b>a jest ogród, w którym ludzie <u><b>przytulają się</u></b> do siebie",
+            "",
+            "<u><b>Ha</u></b>milton <u><b>przytula się</u></b> z konkurentem <u><b>G</u></b>iorgio chociaż właśnie stracił pozycję lidera w klasyfikacji",
+            "W mieście <u><b>Hag</u></b>a wszyscy się <u><b>przytulają"
+        ],
         desc: "hug[hag] - przytulać",
         sentence: [
             "and",
@@ -715,7 +1074,13 @@ const fiszki = [
             "him"
         ],
         key: "hug",
-        category1: "związki",
+        category1: [
+            "sport", "trening",
+            "natura", "ogród",
+            "nauka", "",
+            "czarny humor", "sport",
+            "związki", "bliskość"
+        ],
         category2: "czas wolny, empatia"
     },
     {
@@ -723,8 +1088,20 @@ const fiszki = [
             30,
             5
         ],
-        img: "http://localhost/arbulanguage.com/img/fiszki1/3f.jpg",
-        story: "Ludzie powiedzieli, że jeżeli pewien gociu wspiął się na szczyt to <u><b>Him</u></b>alaje są <u><b>jego</u></b>",
+        img: [
+            "http://localhost/arbulanguage.com/img/fiszki1/3f.jpg",
+            "http://localhost/arbulanguage.com/img/fiszki1/3f2.jpg",
+            "http://localhost/arbulanguage.com/img/fiszki1/3f3.jpg",
+            "http://localhost/arbulanguage.com/img/fiszki1/3f4.jpg",
+            "http://localhost/arbulanguage.com/img/fiszki1/3f5.jpg"
+        ],
+        story: [
+            "",
+            "Ludzie powiedzieli, że jeżeli pewien gociu wspiął się na szczyt to <u><b>Him</u></b>alaje są <u><b>jego</u></b>",
+            "",
+            "Henek wybiera się w <u><b>Him</u></b>alaje a wszyscy wiedzą, że <u><b>jego</u></b> doświadczenie pomoże mu przeżyć",
+            "Koleżanka Joa<u><b>him</u></b>a wspiera <u><b>jego</u></b> projekt"
+        ],
         desc: "him[him] - jego",
         sentence: [
             "and",
@@ -732,7 +1109,13 @@ const fiszki = [
             "him"
         ],
         key: "him",
-        category1: "sport",
+        category1: [
+            "sport", "",
+            "natura", "osiągnięcia",
+            "nauka", "",
+            "czarny humor", "wspinaczka",
+            "związki", "wsparcie"
+        ],
         category2: "osiągnięcia"
     },
     {
@@ -740,8 +1123,20 @@ const fiszki = [
             31,
             6
         ],
-        img: "http://localhost/arbulanguage.com/img/fiszki1/6a.jpg",
-        story: "<u><b>Nasz</u></b> dostawca prądu to <u><b>Taur</u></b>on",
+        img: [
+            "http://localhost/arbulanguage.com/img/fiszki1/6a.jpg",
+            "http://localhost/arbulanguage.com/img/fiszki1/6a2.jpg",
+            "http://localhost/arbulanguage.com/img/fiszki1/6a3.jpg",
+            "http://localhost/arbulanguage.com/img/fiszki1/6a4.jpg",
+            "http://localhost/arbulanguage.com/img/fiszki1/6a5.jpg"
+        ],
+        story: [
+            "<u><b>Aur</u></b>a zawodnika z <u><b>naszego</u></b> zespołu jest niesamowita",
+            "M<u><b>aur</u></b>ycy to jest <u><b>nasz</u></b> ogrodnik",
+            "<u><b>Nasz</u></b> dostawca prądu to <u><b>Taur</u></b>on",
+            "Władcy pierścieni.. najniebezpieczniejsze dla <u><b>naszego</u></b> bezpieczeństwa było oko S<u><b>aur</u></b>ona",
+            "<u><b>Nasza</u></b> mama dostała l<u><b>aur</u></b>kę na dzień mamy"
+        ],
         desc: "our[aur] - nasz",
         sentence: [
             "Our",
@@ -749,7 +1144,13 @@ const fiszki = [
             "organizes"
         ],
         key: "Our",
-        category1: "nauka",
+        category1: [
+            "sport", "",
+            "natura", "zawód",
+            "nauka", "energetyka",
+            "czarny humor", "filmy",
+            "związki", "okazje"
+        ],
         category2: "praca"
     },
     {
@@ -757,8 +1158,20 @@ const fiszki = [
             32,
             6
         ],
-        img: "http://localhost/arbulanguage.com/img/fiszki1/6b.jpg",
-        story: "W <b><u>szkole</b></u> <b><u>sku</b></u>wają tynki, kurzy się na <b><u>ul</b></u>icę",
+        img: [
+            "http://localhost/arbulanguage.com/img/fiszki1/6b.jpg",
+            "http://localhost/arbulanguage.com/img/fiszki1/6b2.jpg",
+            "http://localhost/arbulanguage.com/img/fiszki1/6b3.jpg",
+            "http://localhost/arbulanguage.com/img/fiszki1/6b4.jpg",
+            "http://localhost/arbulanguage.com/img/fiszki1/6b5.jpg"
+        ],
+        story: [
+            "W <b><u>szkole</b></u> <b><u>sku</b></u>wają tynki, kurzy się na <b><u>ul</b></u>icę",
+            "",
+            "",
+            "Jasio jest <b><u>skul</b></u>ony w <b><u>szkole</b></u>, bo dostał palicą od nauczyciela",
+            ""
+        ],
         desc: "school[skul] - szkoła",
         sentence: [
             "Our",
@@ -3641,7 +4054,6 @@ function addToTrainingList(idFiszki) {
     // dodaj do local storage do treningu
     addFiszkaToLesson(idFiszki);
 }
-// Funkcja do zapisywania i dodawania klas
 function activateFiszka(idFiszki, znam) {
     let id = idFiszki;
     let parametr = '';
@@ -3653,6 +4065,7 @@ function activateFiszka(idFiszki, znam) {
 
     const className = `fiszka-${id}\\,${parametr}`;
     const selector = `.${className}`;
+    console.log(selector);
 
     if (znam) {
         // Zapisz klasę 'active' lub zmień z 'active2' na 'active'
@@ -3725,48 +4138,79 @@ function generateFiszkaBlock(fiszka, lessonId2) {
     // Tworzenie kontenera fiszki
 
     $(document).ready(function () {
+
         function initAudio(fiszkaId) {
-    var audioId = 'music' + fiszkaId;
-    var pButtonId = 'pButton' + fiszkaId;
+            var audioId = 'music' + fiszkaId;
+            var pButtonId = 'pButton' + fiszkaId;
 
-    var music = document.getElementById(audioId);
-    var pButton = document.getElementById(pButtonId);
+            var music = document.getElementById(audioId);
+            var pButton = document.getElementById(pButtonId);
 
-    console.log('Initialized audio element with ID:', audioId);
-    console.log('Initialized play/pause button with ID:', pButtonId);
+            console.log('Initialized audio element with ID:', audioId);
+            console.log('Initialized play/pause button with ID:', pButtonId);
 
-    // Play and Pause
-    function playb() {
-        // start music
-        if (music.paused) {
-            music.play();
-            // remove play, add pause
-            pButton.classList.remove("play");
-            pButton.classList.add("pause");
-        } else { // pause music
-            music.pause();
-            // remove pause, add play
-            pButton.classList.remove("pause");
-            pButton.classList.add("play");
+            // Play and Pause
+            function playb() {
+                // start music
+                if (music.paused) {
+                    music.play();
+                    // remove play, add pause
+                    pButton.classList.remove("play");
+                    pButton.classList.add("pause");
+                } else { // pause music
+                    music.pause();
+                    // remove pause, add play
+                    pButton.classList.remove("pause");
+                    pButton.classList.add("play");
+                }
+                console.log('Audio playback status:', music.paused ? 'Paused' : 'Playing');
+            }
+
+            // Gets audio file duration
+            music.addEventListener("canplaythrough", function () {
+                var duration = music.duration;
+                console.log('Audio duration:', duration);
+            }, false);
+
+            // Dodajemy event listener do przycisku play/pause
+            pButton.addEventListener('click', playb);
+
+            console.log('Audio initialization completed.');
         }
-        console.log('Audio playback status:', music.paused ? 'Paused' : 'Playing');
-    }
 
-    // Gets audio file duration
-    music.addEventListener("canplaythrough", function () {
-        var duration = music.duration;
-        console.log('Audio duration:', duration);
-    }, false);
-
-    // Dodajemy event listener do przycisku play/pause
-    pButton.addEventListener('click', playb);
-
-    console.log('Audio initialization completed.');
-}
-        
-        // TWORZENIE KONTENERA FISZKI
+// TWORZENIE KONTENERA FISZKI
         const fiszkaContainer = $('<div>').addClass('fiszka fiszka-' + fiszka.id);
-        
+
+        // Pobierz istniejące wartości z localStorage (jeśli istnieją)
+        const savedMarginTop = localStorage.getItem('marginTop');
+        const savedMarginBottom = localStorage.getItem('marginBottom');
+
+        console.log('Saved values from localStorage:', savedMarginTop, savedMarginBottom);
+
+        // Ustaw domyślne wartości lub skorzystaj z zapisanych wartości z localStorage
+        let marginTop = savedMarginTop !== null ? JSON.parse(savedMarginTop) : {};
+        let marginBottom = savedMarginBottom !== null ? JSON.parse(savedMarginBottom) : {};
+
+        console.log('Calculated values:', marginTop, marginBottom);
+
+        // Utwórz lub pobierz unikalne wartości marginesów dla danej fiszki
+        const fiszkaId = fiszka.id.join('-');
+
+        // Ustaw margines na zero dla pierwszej fiszki
+        marginTop[fiszkaId] = marginTop[fiszkaId] !== undefined ? marginTop[fiszkaId] : fiszkaId === '1' ? 0 : Math.floor(Math.random() * 160);
+        marginBottom[fiszkaId] = marginBottom[fiszkaId] !== undefined ? marginBottom[fiszkaId] : fiszkaId === '1' ? 0 : Math.floor(Math.random() * 80);
+
+        // Zapisz wartości marginesów do localStorage
+        localStorage.setItem('marginTop', JSON.stringify(marginTop));
+        localStorage.setItem('marginBottom', JSON.stringify(marginBottom));
+
+        console.log('Values after saving to localStorage:', marginTop, marginBottom);
+
+        // Ustaw marginesy w elemencie fiszkaContainer
+        fiszkaContainer.css({
+            'margin-top': `${fiszka.id[0] % 2 === 0 ? -marginTop[fiszkaId] + 170 : -marginTop[fiszkaId] + 40}px`,
+            'margin-bottom': `${fiszka.id[0] % 2 !== 0 ? marginBottom[fiszkaId] + 70 : -marginBottom[fiszkaId] + 50}px`
+        });
 
         // DODANIE OBRAZKA
         const imgContainer = $('<div>').addClass('fiszka_img_container');
@@ -3785,7 +4229,156 @@ function generateFiszkaBlock(fiszka, lessonId2) {
         }
         fiszkaContainer.append(imgContainer); //DODANIE OBRAZKA
 
-        const hashtagContainer = $('<div>').addClass('hashtag-container');
+        const selectedLikes = [];
+        console.log('hej10', selectedLikes);
+
+// Funkcja do obsługi kliknięcia na przycisk "likeButton"
+        function handleLikeButtonClick(index) {
+            const likeButton = $(this);
+            const storyButton = fiszkaContainer.find('.story_button').eq(index);
+            const selectedLike = likeButton.text();
+            console.log('Zaktualizowano przycisk dla indeksu:', index);
+            console.log('Aktualne wartości selectedLikes:', selectedLikes);
+        }
+        const likeButton = $('<a>').addClass('like').attr('href', '#');
+        const likeText = $('<span>').text('Śmieszna historia');
+        likeButton.append(likeText);
+        fiszkaContainer.append(likeButton);
+
+        // Tworzymy kontener opcji "like" i dodajemy opcje do kontenera
+        const likeOptionsContainer = $('<div>').attr('id', 'likeOptionsContainer');
+        const likeOption1 = createLikeOption('thumbsUp', '👍 Śmieszne');
+        const likeOption2 = createLikeOption('heart', '❤️ Miłe');
+        const likeOption3 = createLikeOption('star', '⭐ Pamiętliwe');
+        likeOptionsContainer.append(likeOption1, likeOption2, likeOption3);
+
+        // Dodajemy kontener opcji "like" do docelowego kontenera
+        likeButton.append(likeOptionsContainer);
+
+        // Ukrywamy kontener opcji "like"
+        likeOptionsContainer.hide();
+
+        // Obsługa zdarzenia hover na przycisku "like"
+        likeButton.hover(function () {
+            const buttonPosition = likeButton.offset();
+            const buttonWidth = likeButton.outerWidth();
+
+            // Pozycjonujemy kontener opcji "like" nad przyciskiem
+            likeOptionsContainer.css({
+                top: buttonPosition.top - likeOptionsContainer.outerHeight() - 10,
+                left: buttonPosition.left + (buttonWidth / 2) - (likeOptionsContainer.outerWidth() / 2),
+                backgroundColor: '#f0f0f0', // Dodajemy szary kolor tła
+            }).fadeIn('fast');
+        }, function () {
+            // Ukrywamy kontener opcji "like" po zjechaniu z przycisku
+            likeOptionsContainer.fadeOut('fast');
+        });
+
+// Funkcja do umieszczania ikony obok przycisku "story_button" w odpowiedniej fiszce
+        function addLikeIconToStoryButton(index, like) {
+            const storyButton = fiszkaContainer.find('.story_button').eq(index);
+            if (storyButton.length === 0) {
+                console.error('Nie znaleziono przycisku dla indeksu:', index);
+                return;
+            }
+
+            // Tworzymy kontener dla ikony i dodajemy ikonę
+            const iconContainer = $('<div>').addClass('likeIconContainer');
+            const likeIcon = getLikeIcon(like);
+            iconContainer.append(likeIcon);
+
+            // Usuwamy wcześniej dodaną ikonę, jeśli istnieje
+            storyButton.find('.likeIconContainer').remove();
+
+            // Dodajemy kontener z ikoną do przycisku "story_button"
+            storyButton.append(iconContainer);
+        }
+
+function createLikeOption(like, text) {
+    const likeOption = $('<div>').addClass('likeOption').attr('data-like', like).text(text);
+
+    // Dodajemy efekt zmiany koloru na lekko ciemniejszy szary po najechaniu myszką na pojedynczą opcję "like"
+    likeOption.hover(
+        function () {
+            likeOption.css('background-color', '#dcdcdc'); // Lekko ciemniejszy szary kolor tła dla opcji "like"
+        },
+        function () {
+            likeOption.css('background-color', ''); // Usuwamy styl, aby wrócić do domyślnego tła opcji "like"
+        }
+    );
+
+    let likeCounter = 0; // Dodajemy licznik polubień dla każdej opcji "like"
+
+    const counterDiv = $('<div>').addClass('likeCounterDiv'); // Nowy div na licznik
+
+    // Dodajemy ikonę do licznika
+    const likeIcon = getLikeIcon(like);
+    const iconContainer = $('<span>').addClass('likeIconContainer').append(likeIcon);
+    counterDiv.append(iconContainer);
+
+    const likeCounterSpan = $('<span>').addClass('likeCounter').text(` ${likeCounter} `);
+    counterDiv.append(likeCounterSpan); // Licznik jest dodany po ikonie
+
+    imgContainer.append(counterDiv); // Dodajemy licznik na zewnątrz kontenera przycisków
+
+    likeOption.click(function (event) {
+        event.preventDefault(); // Zapobiegamy domyślnej akcji przycisku
+
+        // Inkrementujemy licznik polubień za każdym razem, gdy opcja "like" zostanie wybrana
+        likeCounter++;
+        likeCounterSpan.text(` ${likeCounter} `);
+
+        const selectedLike = $(this).data('like');
+        const selectedIcon = getLikeIcon(selectedLike);
+        likeText.text(text);
+        likeButton.removeClass('liked');
+        addLikeIconToStoryButton(lastClickedIndex, selectedLike); // Dodaj ikonę do story_button na podstawie wybranej opcji "like"
+
+        // Sprawdź, czy index już istnieje w tablicy
+        const existingIndex = selectedLikes.findIndex(item => item.index === lastClickedIndex);
+        if (existingIndex !== -1) {
+            // Jeśli index istnieje, zaktualizuj wartość
+            selectedLikes[existingIndex].like = selectedLike;
+        } else {
+            // Jeśli index nie istnieje, dodaj nowy wpis
+            selectedLikes.push({index: lastClickedIndex, like: text}); // Dodaj tylko nazwę "like"
+        }
+
+        likeOptionsContainer.fadeOut('fast');
+        saveSelectedLike(selectedLike, text); // Przekazujemy nazwę "like" i tekst do funkcji saveSelectedLike
+    });
+
+    return likeOption;
+}
+
+// Funkcja do zapisywania wybranego "like"
+        function saveSelectedLike(selectedLike, text) {
+            // Tutaj możesz zapisać wybrany "like" w odpowiednim kontekście, np. wysłać go na serwer, zapisać w lokalnym magazynie itp.
+            console.log('Wybrany like:', text);
+            console.log('Tekst:', text);
+            // Jeśli chcesz użyć go w innych miejscach, możesz przekazać go jako argument do innych funkcji lub zmiennych.
+        }
+
+        // Funkcja do pobierania ikony dla wybranego "like"
+        function getLikeIcon(like) {
+            let icon;
+            switch (like) {
+                case 'thumbsUp':
+                    icon = $('<span class="likeIcon">👍</span>');
+                    break;
+                case 'heart':
+                    icon = $('<span class="likeIcon">❤️</span>');
+                    break;
+                case 'star':
+                    icon = $('<span class="likeIcon">⭐</span>');
+                    break;
+                default:
+                    icon = $('<span class="likeIcon">👍</span>');
+            }
+            return icon;
+        }
+
+        const hashtagContainer = $('<a>').addClass('hashtag-container').attr('href', '#');
         fiszkaContainer.append(hashtagContainer);
 
         function showStory(index) {
@@ -3804,65 +4397,100 @@ function generateFiszkaBlock(fiszka, lessonId2) {
 
             // WYBRANY OBRAZ
             if (fiszka.img && fiszka.img.length > 0) {
-                const imgIndex = Math.min(index, fiszka.img.length - 1);
+                imgIndex = Math.min(index, fiszka.img.length - 1); // Przypisz imgIndex
                 currentFiszka.find('.fiszka_img').eq(imgIndex).show();
 
                 specificLesson2Ref = fiszka.img[imgIndex];
+
+                // Wyświetl console log z indeksem obrazka
+                console.log("Index obrazka:", imgIndex);
+                lastClickedIndex = index;
+
+                // Wybierz odpowiedni "likeButton" dla danego indeksu
+                selectLikeButton(index);
             }
-            // Dodaj hashtagi do kontenera
+            // HASHTAG
             const selectedCategoryIndex = index * 2;
             const value = fiszka.category1[selectedCategoryIndex];
             const hashtag = fiszka.category1[selectedCategoryIndex + 1];
 
             hashtagContainer.empty(); // Wyczyść poprzednie hashtagi
             hashtagContainer.text(`${value} #${hashtag}`);
+
+            console.log('Calculated imgIndex:', imgIndex);
+
+            return imgIndex; // Zwracamy indeks obrazka
         }
 
+        function selectLikeButton(index) {
+            console.log("Wybór likeButton dla indeksu:", index);
+            const storyButton = $('.story_button').eq(index);
+            if (!storyButton.length) {
+                console.error('Nie znaleziono przycisku dla indeksu:', index);
+                return;
+            }
+
+            const likeButton = storyButton.find('.like');
+            likeText.find('span').remove();
+            likeText.text('Śmieszna historia');
+
+            // Sprawdź, czy index jest zawarty w tablicy selectedLikes
+            const selectedLike = selectedLikes.find(item => item.index === index);
+            if (selectedLike) {
+                // Jeśli index istnieje w tablicy, ustaw ikonę przycisku na wartość z tablicy
+                console.log("Wybrano like dla indeksu:", index, "- Like:", selectedLike.like);
+                const selectedIcon = getLikeIcon(selectedLike.like); // Przekazujemy tylko nazwę ikony
+                console.log('hej5', selectedIcon);
+                likeText.html(selectedLike.like); // Ustawiamy ikonę
+            } else {
+                // Jeśli index nie istnieje, ustaw domyślny tekst
+                console.log("Brak wyboru like dla indeksu:", index, "- Ustawianie domyślnego tekstu");
+                likeButton.text('Śmieszna historia');
+            }
+        }
         // NIEZNACZĄCE WYJAŚNIENIE SŁOWA
         const sentenceDiv = $('<div>').attr('id', 'part');
         fiszka.sentence.forEach(word => {
             sentenceDiv.append($('<button>').text(word));
         });
-// Dodanie pustego diva jako odstępu przed fiszka.desc
-        sentenceDiv.append('<div style="height: 0; width: 0;"></div>');
         // Dodanie diva z przyciskami do kontenera fiszki
         fiszkaContainer.append(sentenceDiv);
 
-console.log('Przed utworzeniem wordDiv');
-const wordDiv = $('<div>').attr('id', 'word');
-const button = $('<button>').attr('id', 'storyone').html('<b>' + fiszka.desc + '</b>');
-const audio = $('<audio>').attr({
-  id: 'music' + fiszka.id,
-  preload: 'true'
-});
-const source = $('<source>').attr('src', fiszka.src);
-audio.append(source);
-const audioplayerDiv = $('<div>').attr('id', 'audioplayer' + fiszka.id).addClass('audioplayer'); // Dodano klasę 'audioplayer'
-const pButton = $('<button>').attr('id', 'pButton' + fiszka.id).addClass('pButton play').click(function() {
-  console.log('playb called for fiszka.id:', fiszka.id);
-  window['playb' + fiszka.id]();
-});
+        console.log('Przed utworzeniem wordDiv');
+        const wordDiv = $('<div>').attr('id', 'word');
+        const button = $('<button>').attr('id', 'storyone').html('<b>' + fiszka.desc + '</b>');
+        const audio = $('<audio>').attr({
+            id: 'music' + fiszka.id,
+            preload: 'true'
+        });
+        const source = $('<source>').attr('src', fiszka.srcWord);
+        audio.append(source);
+        const audioplayerDiv = $('<div>').attr('id', 'audioplayer' + fiszka.id).addClass('audioplayer'); // Dodano klasę 'audioplayer'
+        const pButton = $('<button>').attr('id', 'pButton' + fiszka.id).addClass('pButton play').click(function () {
+            console.log('playb called for fiszka.id:', fiszka.id);
+            window['playb' + fiszka.id]();
+        });
 
-pButton.css({
-  height: '60px',
-  width: '60px',
-  backgroundSize: 'cover',
-  backgroundRepeat: 'no-repeat',
-  backgroundPosition: 'center',
-  float: 'left',
-  outline: 'none',
-  display: 'flex',
-  alignItems: 'center',
-  justifyContent: 'center',
-  overflow: 'hidden'
-});
+        pButton.css({
+            height: '60px',
+            width: '60px',
+            backgroundSize: 'cover',
+            backgroundRepeat: 'no-repeat',
+            backgroundPosition: 'center',
+            float: 'left',
+            outline: 'none',
+            display: 'flex',
+            alignItems: 'center',
+            justifyContent: 'center',
+            overflow: 'hidden'
+        });
 
-audioplayerDiv.append(pButton);
-wordDiv.append(button);
-wordDiv.append(audio);
-wordDiv.append(audioplayerDiv);
-fiszkaContainer.append(wordDiv);
-console.log('Po utworzeniu wordDiv');
+        audioplayerDiv.append(pButton);
+        wordDiv.append(button);
+        wordDiv.append(audio);
+        wordDiv.append(audioplayerDiv);
+        fiszkaContainer.append(wordDiv);
+        console.log('Po utworzeniu wordDiv');
 
         // DODANIE  MNEMOTECHNIKI
         if (Array.isArray(fiszka.story) && fiszka.story.length > 0) {
@@ -3871,11 +4499,52 @@ console.log('Po utworzeniu wordDiv');
                 fiszkaContainer.append(storyContainer);
             });
         }
+        console.log('Przed utworzeniem wordDiv');
+
+// Utworzenie reszty elementów zgodnie z istniejącym kodem
+        const wordDiv2 = $('<div>').attr('id', 'word2');
+        const audio2 = $('<audio>').attr({
+            id: 'music2' + fiszka.id,
+            preload: 'true'
+        });
+        const source2 = $('<source>').attr('src', fiszka.srcWord);
+        audio2.append(source2);
+        const audioplayerDiv2 = $('<div>').attr('id', 'audioplayer2' + fiszka.id).addClass('audioplayer2'); // Dodano klasę 'audioplayer'
+        const pButton2 = $('<button>').attr('id', 'pButton2' + fiszka.id).addClass('pButton play').click(function () {
+            console.log('playb called for fiszka.id:', fiszka.id);
+            window['playb' + fiszka.id]();
+        });
+
+// Utworzenie elementów za pomocą jQuery
+        const timelineDiv = $('<div>').attr('id', 'timeline' + fiszka.id);
+        const playheadDiv = $('<div>').attr('id', 'playhead' + fiszka.id);
+
+// Dodanie playhead do timeline
+        timelineDiv.append(playheadDiv);
+
+// Dodanie elementów do odpowiednich kontenerów
+        audioplayerDiv.append(pButton2);
+        wordDiv2.append(audio2);
+        wordDiv2.append(audioplayerDiv2);
+        wordDiv2.append(timelineDiv); // Dodano timeline do wordDiv
+        fiszkaContainer.append(wordDiv2);
+
+        console.log('Po utworzeniu wordDiv');
+        // Zdefiniuj zmienną początkową na poziomie wyższym
+        let initialSpecificLesson2Ref;
+        let specificLesson2Ref;
+        let lastClickedIndex = null;
+        let lastApprovedIndex = null; // Zmienna do przechowywania ostatnio zatwierdzonego indeksu
+        let approvedIndexes = []; // Tablica przechowująca zatwierdzone indeksy
+        let approvedColors = [];
+
+// DODANIE PRZYCISKÓW
         if (Array.isArray(fiszka.category1)) {
-            const storyButtonContainer = $('<div>'); // PRZYCISKI
+            const storyButtonContainer = $('<div>'); // Kontener na przyciski
             const randomIndex = Math.floor(Math.random() * fiszka.category1.length / 2);
+            let lastClickedButton; // Zmienna do przechowywania ostatnio klikniętego przycisku w danej fiszce
+
             fiszka.category1.slice(0, 5).forEach((category1, index) => {
-                showStory(randomIndex);
                 const valueIndex = index * 2; // Indeks wartości w tablicy, zaczynając od 0
                 const hashtagIndex = valueIndex + 1; // Indeks hashtagu w tablicy
 
@@ -3884,39 +4553,86 @@ console.log('Po utworzeniu wordDiv');
 
                 const displayText = `${value} #${hashtag}`;
 
-                const storyButton = $('<button>').text(displayText).addClass('story_button').click(function () {
-                    showStory(index);
-                    // Dodajemy zieloną klasę dla aktualnie klikniętego przycisku
-                    $('.story_button').removeClass('green-button');
-                    $(this).addClass('green-button');
-                    // Dodajemy czerwone obramowanie dla aktywnego przycisku
-                    $('.story_button').removeClass('active-button');
-                    $(this).addClass('active-button');
-                });
-                if (index === randomIndex) { // Sprawdzaj, czy bieżący index równa się randomIndex
+                const storyButton = $('<button>')
+                        .text(displayText)
+                        .addClass('story_button')
+                        .click(function () {
+                            showStory(index);
+                            lastClickedIndex = index;
+
+                            // Usuwamy zieloną klasę tylko z poprzedniego przycisku w danej fiszce
+                            if (lastClickedButton) {
+                                lastClickedButton.removeClass('green-button');
+                            }
+
+                            // Usuwamy klasę imgIndex z poprzedniego przycisku w danej fiszce
+                            $('.story_button').removeClass((index, className) => (className.match(/imgIndex-\d+/g) || []).join(' '));
+                            // Dodajemy klasę imgIndexNull do przycisków, które nie zostały jeszcze zatwierdzone
+                            $('.fiszka').addClass('imgIndexNull').removeClass('imgIndex-0 imgIndex-1 imgIndex-2 imgIndex-3 imgIndex-4 ');
+
+                            // Dodajemy zieloną klasę tylko dla aktualnie klikniętego przycisku w danej fiszce
+                            $(this).addClass('green-button');
+                            $('.story_button').removeClass('active-button');
+                            $(this).addClass('active-button');
+                            $('.story_button').each(function (index) {
+                                if ($(this).hasClass('orange-button')) {
+                                    $(this).removeClass('green-button');
+                                    $(this).addClass('orange-button');
+                                }
+                            });
+
+                            // Jeśli przycisk został wcześniej zatwierdzony, przywróć jego zatwierdzoną klasę
+                            if (approvedIndexes.includes(lastClickedIndex)) {
+                                fiszkaContainer.addClass('imgIndex-' + lastClickedIndex);
+                            }
+
+                            // Zapisujemy ostatnio kliknięty przycisk w danej fiszce
+                            lastClickedButton = $(this);
+                            handleLikeButtonClick();
+                        });
+
+                if (index === randomIndex) {
+                    // Przypisanie specificLesson2Ref dla przycisku o losowym indeksie
+                    newImgIndex = Math.min(index, fiszka.img.length - 1); // Aktualizacja zmiennej globalnej imgIndex
+                    specificLesson2Ref = fiszka.img[newImgIndex];
+                    initialSpecificLesson2Ref = specificLesson2Ref;
+                    console.log('hej7', newImgIndex);
                     storyButton.addClass('green-button');
+                    lastClickedButton = storyButton;
+                    lastApprovedIndex = index; // Ustaw ostatnio zatwierdzony indeks na indeks losowego przycisku
                 }
+
+                // Dodaj typ "like" dla tej fiszki do tablicy
                 storyButtonContainer.append(storyButton);
             });
+
             fiszkaContainer.append(storyButtonContainer);
+
             // WYWOŁANIE TABLICY
             showStory(randomIndex);
             console.log(randomIndex);
-        } else if (fiszka.story) {
-            // Jeśli fiszka ma tylko jedną wartość w tablicy story
-            const storyContainer = $('<div>').addClass('fiszka_story story-0').html(fiszka.story).show();
-            fiszkaContainer.append(storyContainer);
-        }
 
-        // DODANIE PRZYCISKU TRENING
+            // Użycie specificLesson2Ref po załadowaniu strony
+            console.log("Początkowy specificLesson2Ref:", initialSpecificLesson2Ref);
+        }
+        $('.fiszka_button_trening').click(function () {
+            // Dodaj klasę pomarańczową tylko dla przycisku zatwierdzonego
+            $('.story_button').each(function (index) {
+                if ($(this).hasClass('green-button')) {
+                    $(this).removeClass('green-button');
+                    $(this).addClass('orange-button');
+                }
+            });
+        });
+// DODANIE PRZYCISKU TRENING
         fiszkaContainer.append($('<button>').text('TRENING').addClass('fiszka_button fiszka_button_trening').click(function () {
-            console.log("Trening clicked on fiszka nr " + fiszka.id);
             activateFiszka(fiszka.id, false);
+            console.log("Trening clicked on fiszka nr " + fiszka.id);
             console.log("lessonId2:", lessonId2);
             console.log("nr fiszki", lessons2[lessonId2]);
             console.log("nazwa", fiszka.key);
             // Wyswietlenie danej wartości img dla danej fiszka.id
-            const specificLesson2 = specificLesson2Ref;
+            const specificLesson2 = specificLesson2Ref || initialSpecificLesson2Ref;
             console.log("img dla fiszki o id", fiszka.id, ":", specificLesson2);
             specificLesson2Ref = fiszka.img;
             // Znajdź indeks dla danej fiszki w tablicy lessons2[lessonId2]
@@ -3927,7 +4643,18 @@ console.log('Po utworzeniu wordDiv');
                 console.log("Fiszka nie została znaleziona w tablicy.");
             }
             console.log('Przed aktywujObrazek');
-            aktywujObrazek(lessonId2, specificLesson2, 'obrazek-container2b', true, fiszka, fiszka.img);
+            // Używamy lastClickedIndex zamiast index
+            imgIndex = showStory(lastClickedIndex); // Wywołanie funkcji showStory i zapisanie zwróconego indeksu obrazka
+            aktywujObrazek(lessonId2, specificLesson2, 'obrazek-container2b', true, fiszka, imgIndex); // Przekazanie imgIndex do funkcji aktywujObrazek
+            console.log('hej2', imgIndex);
+
+
+            // Dodajemy zatwierdzony indeks do tablicy
+            approvedIndexes.push(lastClickedIndex);
+            console.log(approvedIndexes);
+
+            // Dodanie zatwierdzonej klasy imgIndex do fiszkaContainer po kliknięciu przycisku "TRENING"
+            fiszkaContainer.addClass('imgIndex-' + lastClickedIndex);
         }));
 
         fiszkaContainer.append($('<button>').text('ZNAM').addClass('fiszka_button fiszka_button_znam').click(function () {
@@ -3947,7 +4674,7 @@ console.log('Po utworzeniu wordDiv');
         // Dodanie kontenera fiszki do body
         $('.grid-container').append(fiszkaContainer);
         console.log(`Generated fiszka block for ID: [${fiszka.id.join(', ')}]`);
-                initAudio(fiszka.id);
+        initAudio(fiszka.id);
     });
 }
 
@@ -4027,7 +4754,7 @@ if (storedLessons) {
             console.log(`Lekcja ${lessonId2} przefiltrowane dane:`, lessons2[lessonId2]);
         }
 
-        // Zapisz wylosowane dane do localStorage
+        // Zapisz wylosowane dane do  localStorage
         saveToLocalStorage(lessons2);
 
         // Opóźnij wywołanie funkcji do wyświetlania fiszek
