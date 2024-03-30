@@ -13,8 +13,9 @@ const fiszki = [
             "http://localhost/arbulanguage.com/img/fiszki1/2a4.jpg",
             "http://localhost/arbulanguage.com/img/fiszki1/2a5.jpg"
         ],
+        video: "",
         srcWord: [
-            "http://localhost/arbulanguage.com/src/everybody.wav"
+            "voice/music.mp4"
         ],
 
         // historia
@@ -59,6 +60,7 @@ const fiszki = [
             "http://localhost/arbulanguage.com/img/fiszki1/2b4.jpg",
             "http://localhost/arbulanguage.com/img/fiszki1/2b5.jpg"
         ],
+        video: "",
         srcWord: [
             "http://localhost/arbulanguage.com/src/has.wav"
         ],
@@ -83,7 +85,7 @@ const fiszki = [
             "czarny humor", "trendy",
             "związki", "muzyka"
         ],
-        category2: ["czasowniki, czasy"]
+        category2: ["osoby"]
     },
     {
         id: [
@@ -97,6 +99,7 @@ const fiszki = [
             "http://localhost/arbulanguage.com/img/fiszki1/2c4.jpg",
             "http://localhost/arbulanguage.com/img/fiszki1/2c5.jpg"
         ],
+        video: "",
         srcWord: [
             "http://localhost/arbulanguage.com/src/fun.wav"
         ],
@@ -314,7 +317,7 @@ const fiszki = [
             "czarny humor", "zoologia",
             "związki", "kreskówki"
         ],
-        category2: ["czasowniki"]
+        category2: ["osoby"]
     },
     {
         id: [
@@ -765,7 +768,7 @@ const fiszki = [
             "czarny humor", "bezpieczeństwo",
             "związki", "muzyka"
         ],
-        category2: ""
+        category2: "osoby"
     },
     {
         id: [
@@ -941,7 +944,7 @@ const fiszki = [
             "czarny humor", "kibic",
             "związki", "impreza"
         ],
-        category2: "praca, zawody"
+        category2: "osoby"
     },
     {
         id: [
@@ -1151,7 +1154,7 @@ const fiszki = [
             "czarny humor", "filmy",
             "związki", "okazje"
         ],
-        category2: "praca"
+        category2: "osoby"
     },
     {
         id: [
@@ -1265,7 +1268,7 @@ const fiszki = [
         ],
         key: "my",
         category1: "natura",
-        category2: "florystyka, czas wolny"
+        category2: "osoby"
     },
     {
         id: [

@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <html>
     <head>
-                    <script src="js/storage.js"></script>
-<script src="js/fiszki.js"></script>
-<script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-              <title>ARBULANGUAGES.COM<br>DOSTĘPNYCH 150 SŁÓW</title>
+        <script src="js/storage.js"></script>
+        <script src="js/testowy.js"></script>
+        <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>ARBULANGUAGES.COM<br>DOSTĘPNYCH 150 SŁÓW</title>
         <style>
             /* Styl dla głównego kontenera */
             .container {
@@ -16,8 +16,8 @@
                 justify-content: space-between;
             }
             .content-container {
-    position: relative;
-}
+                position: relative;
+            }
             /* Styl dla menu pionowego */
             .side-menu {
                 width: 150px;
@@ -34,75 +34,95 @@
                 cursor: pointer;
             }
 
-.image-container {
-    width: 330px;
-    position: relative;
-    height: auto;
-    left: 0px;
-    margin-right: 0px;
-}
+            .image-container {
+                width: 330px;
+                position: relative;
+                height: auto;
+                left: 0px;
+                margin-right: 0px;
+            }
 
-.image-container2 {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    background-color: blue;
-    width: 330px;
-    position: relative;
-    height: 170px;
-    margin-bottom: 0px;
-    align-items: center;
-    font-size: 20px;
-}
+            .image-container2 {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                background-color: blue;
+                width: 330px;
+                position: relative;
+                height: 170px;
+                margin-bottom: 0px;
+                align-items: center;
+                font-size: 20px;
+            }
 
-.flashcard-container {
-    width: 1200px;
-    height: 250px;
-    background-color: #2ecc71; /* Zielony kolor, możesz dostosować według potrzeb */
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    gap: 10px;
-    padding: 10px;
-    box-sizing: border-box;
-    position: absolute;
-    left: 50%;
-    transform: translateX(-50%);
-    left: 600px;
-    margin-top: 500px;
-}
-        #buttoncreate {
-            background-color: blue;
-        }
-                #buttoncreate.active {
-            background-color: #2ecc71;
-        }
+            .image-container3 {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                background-color: blue;
+                width: 330px;
+                position: relative;
+                height: 170px;
+                margin-bottom: 0px;
+                align-items: center;
+                font-size: 20px;
+                margin-top: 20px;
+                order: -1; /* Kolejność odwrotna - spycha w dół */
+            }
 
-.grid-containera {
-    width: 0px;
-    height: 100px;
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 10px;
-    text-align: center;
-    position: relative;
-    align-items: center;
-}
+            .sentence {
+                margin-bottom: 10px;
+                color: white;
+            }
 
-.grid-container {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 10px;
-    position: relative;
-    margin-top: 90px;
-    margin-left: 0px;
-    margin-right: 0px;
-    top: 20px;
-}
-.spacer {
-    height: 20px; /* Dostosuj wysokość przestrzeni spacerowej */
-}
-        
+            .flashcard-container {
+                width: 1200px;
+                height: 250px;
+                background-color: #2ecc71; /* Zielony kolor, możesz dostosować według potrzeb */
+                display: flex;
+                justify-content: space-around;
+                align-items: center;
+                gap: 10px;
+                padding: 10px;
+                box-sizing: border-box;
+                position: absolute;
+                left: 50%;
+                transform: translateX(-50%);
+                left: 600px;
+                margin-top: 500px;
+            }
+            #buttoncreate {
+                background-color: blue;
+            }
+            #buttoncreate.active {
+                background-color: #2ecc71;
+            }
+
+            .grid-containera {
+                width: 0px;
+                height: 100px;
+                display: grid;
+                grid-template-columns: repeat(4, 1fr);
+                gap: 10px;
+                text-align: center;
+                position: relative;
+                align-items: center;
+            }
+
+            .grid-container {
+                display: grid;
+                grid-template-columns: repeat(4, 1fr);
+                gap: 10px;
+                position: relative;
+                margin-top: 90px;
+                margin-left: 0px;
+                margin-right: 0px;
+                top: 20px;
+            }
+            .spacer {
+                height: 20px; /* Dostosuj wysokość przestrzeni spacerowej */
+            }
+
             .image {
                 position: relative;
                 width: 100%;
@@ -199,7 +219,13 @@
                 background-color: green;
                 color: white;
             }
+            .zaznaczony-rodzaj {
+                border: 3px solid green;
+            }
 
+            .zaznaczony-charakter {
+                border: 3px solid blue;
+            }
             @media (max-width: 999px) {
                 .grid-container {
                     display: grid;
@@ -240,101 +266,102 @@
                     <button onclick="showImages('set1')">POLUBIONE SŁOWKA</button>
                     <button onclick="showImages('set2')">SŁÓWKA TEMATYCZNE</button>
                 </div>
-<div class="content-container">
-                <div class="grid-containera">
-                    <div class="image-container2">Standard<button onclick="showImages('set1')"> WŁĄCZONE</button>
+                <div class="content-container">
+                    <div class="grid-containera">
+                        <div class="image-container2">Standard<button onclick="showImages('set1')"> WŁĄCZONE</button>
+                        </div>
+                        <div class="image-container2" id="buttoncreate">Generowanie fiszki<button onclick="addFlashcardContainer();">START</button>
+                        </div>
+                        <div class="image-container2">Kartkówka<button onclick="showImages('set1')">START</button>
+                        </div>
+                        <div class="image-container2">Tłumacz tekst<button onclick="showImages('set1')">START</button>
+                        </div>
                     </div>
-                    <div class="image-container2" id="buttoncreate">Generowanie fiszki<button onclick="addFlashcardContainer();">START</button>
-                    </div>
-                    <div class="image-container2">Kartkówka<button onclick="showImages('set1')">START</button>
-                    </div>
-                    <div class="image-container2">Tłumacz tekst<button onclick="showImages('set1')">START</button>
-                    </div>
-                </div>
-                
-                <div class="grid-container">
-                    <div class="image-container">
-                        <a href="demo.html">
-                            <video id="player" width="640" height="360" controls muted id="mojeVideo">
-                                <source src="voice/Project3.mp4" type="video/mp4">
-                            </video>
-                        </a>
-                        <span class="caption">Nauka/Emocje/Zwierzęta/Impreza</span>
-                    </div>
-                    <div class="image-container">
-                        <a href="demob.html">
+
+                    <div class="grid-container">
+                        <div class="image-container3" style="display: none;"></div>
+                        <div class="image-container">
+                            <a href="demo.html">
+                                <video id="player" width="640" height="360" controls muted id="mojeVideo">
+                                    <source src="voice/Project3.mp4" type="video/mp4">
+                                </video>
+                            </a>
+                            <span class="caption">Nauka/Emocje/Zwierzęta/Impreza</span>
+                        </div>
+                        <div class="image-container">
+                            <a href="demob.html">
+                                <video id="player" width="640" height="360" controls muted>
+                                    <source src="voice/Project4.mp4" type="video/mp4">
+                                </video>
+                            </a>
+                            <span class="caption">Świętowanie/Sport/Zawód/Czynności</span>
+                        </div>
+                        <div class="image-container">
                             <video id="player" width="640" height="360" controls muted>
-                                <source src="voice/Project4.mp4" type="video/mp4">
+                                <source src="voice/music.mp4" type="video/mp4">
                             </video>
-                        </a>
-                        <span class="caption">Świętowanie/Sport/Zawód/Czynności</span>
-                    </div>
-                    <div class="image-container">
-                        <video id="player" width="640" height="360" controls muted>
-                            <source src="voice/music.mp4" type="video/mp4">
-                        </video>
-                        <span class="caption">Muzyka</span>
-                    </div>
-                    <div class="image-container">
-                        <video id="player" width="640" height="360" controls muted>
-                            <source src="voice/bike.mp4" type="video/mp4">
-                        </video>
-                        <span class="caption">Transport</span>
-                    </div>
-                    <div class="image-container">
-                        <video id="player" width="640" height="360" controls autoplay muted>
-                            <source src="voice/bike.mp4" type="video/mp4">
-                        </video>
-                        <span class="caption">Transport</span>
-                    </div>
-                    <div>
-                        <img class="image" src="img/fiszki1/1f.jpg" alt="Obraz 6">
-                        <span class="caption">Podpis 1</span>
-                    </div>
-                    <div>
-                        <img class="image" src="img/fiszki1/2a.jpg" alt="Obraz 7">
-                        <span class="caption">Podpis 1</span>
-                    </div>
-                    <div>
-                        <img class="image" src="img/fiszki1/2b.jpg" alt="Obraz 8">
-                        <span class="caption">Podpis 1</span>
-                    </div>
-                    <div>
-                        <img class="image" src="img/fiszki1/2c.jpg" alt="Obraz 1">
-                        <span class="caption">Podpis 1</span>
-                    </div>
-                    <div>
-                        <img class="image" src="img/fiszki1/2d.jpg" alt="Obraz 2">
-                        <span class="caption">Podpis 1</span>
-                    </div>
-                    <div>
-                        <img class="image" src="img/fiszki1/2e.jpg" alt="Obraz 3">
-                        <span class="caption">Podpis 1</span>
-                    </div>
-                    <div>
-                        <img class="image" src="img/fiszki1/2f.jpg" alt="Obraz 4">
-                        <span class="caption">Podpis 1</span>
-                    </div>
-                    <div>
-                        <img class="image" src="img/fiszki1/3a.jpg" alt="Obraz 5">
-                        <span class="caption">Podpis 1</span>
-                    </div>
-                    <div>
-                        <img class="image" src="img/fiszki1/3b.jpg" alt="Obraz 6">
-                        <span class="caption">Podpis 1</span>
-                    </div>
-                    <div>
-                        <img class="image" src="img/fiszki1/3c.jpg" alt="Obraz 7">
-                        <span class="caption">Podpis 1</span>
-                    </div>
-                    <div>
-                        <img class="image" src="img/fiszki1/3d.jpg" alt="Obraz 8">
-                        <span class="caption">Podpis 1</span>
+                            <span class="caption">Muzyka</span>
+                        </div>
+                        <div class="image-container">
+                            <video id="player" width="640" height="360" controls muted>
+                                <source src="voice/bike.mp4" type="video/mp4">
+                            </video>
+                            <span class="caption">Transport</span>
+                        </div>
+                        <div class="image-container">
+                            <video id="player" width="640" height="360" controls autoplay muted>
+                                <source src="voice/bike.mp4" type="video/mp4">
+                            </video>
+                            <span class="caption">Transport</span>
+                        </div>
+                        <div>
+                            <img class="image" src="img/fiszki1/1f.jpg" alt="Obraz 6">
+                            <span class="caption">Podpis 1</span>
+                        </div>
+                        <div>
+                            <img class="image" src="img/fiszki1/2a.jpg" alt="Obraz 7">
+                            <span class="caption">Podpis 1</span>
+                        </div>
+                        <div>
+                            <img class="image" src="img/fiszki1/2b.jpg" alt="Obraz 8">
+                            <span class="caption">Podpis 1</span>
+                        </div>
+                        <div>
+                            <img class="image" src="img/fiszki1/2c.jpg" alt="Obraz 1">
+                            <span class="caption">Podpis 1</span>
+                        </div>
+                        <div>
+                            <img class="image" src="img/fiszki1/2d.jpg" alt="Obraz 2">
+                            <span class="caption">Podpis 1</span>
+                        </div>
+                        <div>
+                            <img class="image" src="img/fiszki1/2e.jpg" alt="Obraz 3">
+                            <span class="caption">Podpis 1</span>
+                        </div>
+                        <div>
+                            <img class="image" src="img/fiszki1/2f.jpg" alt="Obraz 4">
+                            <span class="caption">Podpis 1</span>
+                        </div>
+                        <div>
+                            <img class="image" src="img/fiszki1/3a.jpg" alt="Obraz 5">
+                            <span class="caption">Podpis 1</span>
+                        </div>
+                        <div>
+                            <img class="image" src="img/fiszki1/3b.jpg" alt="Obraz 6">
+                            <span class="caption">Podpis 1</span>
+                        </div>
+                        <div>
+                            <img class="image" src="img/fiszki1/3c.jpg" alt="Obraz 7">
+                            <span class="caption">Podpis 1</span>
+                        </div>
+                        <div>
+                            <img class="image" src="img/fiszki1/3d.jpg" alt="Obraz 8">
+                            <span class="caption">Podpis 1</span>
+                        </div>
                     </div>
                 </div>
-</div>
             </div>
-                                            <a id="linkDoStrony" href="#" onclick="wybierzRodzaj('osoby')">Osoby</a>
+            <a id="linkDoStrony" href="demo5.html" onclick="wybierzRodzaj('osoby')">Osoby</a>
             <script>
                 let videosArray = []; // Tablica przechowująca filmy
                 let currentVideoIndex = 0; // Indeks bieżącego filmu do odtworzenia
@@ -462,7 +489,6 @@
                     playRandomVideo();
                 }
                 showVideos('set2');
-                wybierzRodzaj("osoby");
 
 
                 function highlightButton(buttonId, horizontalBarId) {
@@ -501,22 +527,22 @@
                     showVideos('set4');
                     highlightButton('button5', 'horizontalBar2');
                 });
-    function addFlashcardContainer() {
-        var flashcardContainer = document.createElement("div");
-        flashcardContainer.className = "flashcard-container";
-        buttoncreate.classList.add('active');
+                function addFlashcardContainer() {
+                    var flashcardContainer = document.createElement("div");
+                    flashcardContainer.className = "flashcard-container";
+                    buttoncreate.classList.add('active');
 
-        // Dodaj buttony do diva
-        flashcardContainer.innerHTML += `
-            <div>
-                <h2>Rodzaj Słownictwa</h2>
-<button onclick="przekazArgument('osoby')">Osoby</button>
-<button onclick="przekazArgument('zaimki')">Spójniki</button>
-<button onclick="przekazArgument('kolory')">Kolory</button>
-<button onclick="przekazArgument('zwierzeta')">Zwierzęta</button>
-                        <button onclick="wybierzCharakter('zdania')">W ZDANIACH</button>
-                <button onclick="wybierzCharakter('fiszki')">W FISZKACH</button>
-            </div>
+                    // Dodaj buttony do diva
+                    flashcardContainer.innerHTML += `
+ <div>
+            <h2>Rodzaj Słownictwa</h2>
+<button onclick="przekazArgument('osoby')" class="rodzaj-button" data-rodzaj="osoby">Osoby</button>
+<button onclick="wybierzRodzaj('zaimki')" class="rodzaj-button" data-rodzaj="zaimki">Spójniki</button>
+<button onclick="wybierzRodzaj('kolory')" class="rodzaj-button" data-rodzaj="kolory">Kolory</button>
+<button onclick="wybierzRodzaj('zwierzeta')" class="rodzaj-button" data-rodzaj="zwierzeta">Zwierzęta</button>
+<button onclick="wybierzCharakter('zdania')" class="charakter-button">5 MINUT(JEDNO ZDANIE)</button>
+<button onclick="wybierzCharakter('fiszki')" class="charakter-button">10 MINUT(2 ZDANIA)</button>
+        </div>
 
             <div>
                 <h2>Charakter Zdania</h2>
@@ -547,79 +573,249 @@
             </div>
         `;
 
-        // Dodaj do konsoli informację o próbie dodania diva
-        console.log("Próba dodania diva");
+                    // Dodaj do konsoli informację o próbie dodania diva
+                    console.log("Próba dodania diva");
 
-        // Dodaj do konsoli zawartość body przed dodaniem diva
-        console.log("Zawartość body przed dodaniem diva:", document.body.innerHTML);
+                    // Dodaj do konsoli zawartość body przed dodaniem diva
+                    console.log("Zawartość body przed dodaniem diva:", document.body.innerHTML);
 
-        // Znajdź kontener, do którego chcesz dodać .flashcard-container
-        var targetContainer = document.querySelector('.grid-containera'); // Możesz zmienić na odpowiednią klasę lub id
+                    // Znajdź kontener, do którego chcesz dodać .flashcard-container
+                    var targetContainer = document.querySelector('.grid-containera'); // Możesz zmienić na odpowiednią klasę lub id
 
-        // Dodaj div do znalezionego kontenera
-        targetContainer.appendChild(flashcardContainer);
+                    // Dodaj div do znalezionego kontenera
+                    targetContainer.appendChild(flashcardContainer);
 
-        var gridContainer = document.querySelector('.grid-container');
-        var flashcardContainerHeight = flashcardContainer.offsetHeight;
-        gridContainer.style.marginTop = flashcardContainerHeight + 70 + 'px';
+                    var gridContainer = document.querySelector('.grid-container');
+                    var flashcardContainerHeight = flashcardContainer.offsetHeight;
+                    gridContainer.style.marginTop = flashcardContainerHeight + 70 + 'px';
 
-        // Dodaj do konsoli zawartość body po dodaniu diva
-        console.log("Zawartość body po dodaniu diva:", document.body.innerHTML);
+                    // Dodaj do konsoli zawartość body po dodaniu diva
+                    console.log("Zawartość body po dodaniu diva:", document.body.innerHTML);
+                    // Dodaj zieloną ramkę po kliknięciu na przycisk
+// Dodaj zieloną ramkę po kliknięciu na przycisk rodzaju słownictwa
+                    flashcardContainer.querySelectorAll('.rodzaj-button').forEach(button => {
+                        button.addEventListener('click', function () {
+                            // Usuń zieloną ramkę z poprzednio zaznaczonego przycisku rodzaju słownictwa
+                            var currentlySelectedRodzaj = flashcardContainer.querySelector('.zaznaczony-rodzaj');
+                            if (currentlySelectedRodzaj) {
+                                currentlySelectedRodzaj.classList.remove('zaznaczony-rodzaj');
+                            }
+                            // Dodaj zieloną ramkę do aktualnie klikniętego przycisku rodzaju słownictwa
+                            button.classList.add('zaznaczony-rodzaj');
+                        });
+                    });
+
+// Dodaj zieloną ramkę po kliknięciu na przycisk charakteru
+                    flashcardContainer.querySelectorAll('.charakter-button').forEach(button => {
+                        button.addEventListener('click', function () {
+                            // Usuń zieloną ramkę z poprzednio zaznaczonego przycisku charakteru
+                            var currentlySelectedCharakter = flashcardContainer.querySelector('.zaznaczony-charakter');
+                            if (currentlySelectedCharakter) {
+                                currentlySelectedCharakter.classList.remove('zaznaczony-charakter');
+                            }
+                            // Dodaj zieloną ramkę do aktualnie klikniętego przycisku charakteru
+                            button.classList.add('zaznaczony-charakter');
+                        });
+                    });
+                }
+
+                var globalCategory;
+                var czasv2;
+
+                function przekazArgument(category) {
+                    // Przypisz wartość do zmiennej globalnej
+                    globalCategory = category;
+
+                    // Wywołaj funkcję wybierzRodzaj
+                    wybierzRodzaj();
+                }
+
+                function wybierzCharakter(czas) {
+                    czasv2 = czas;
+                    wybierzRodzaj(category, czas);
+                    console.log('hej5', czas); // Wybierz 'fiszki' dla 10 minut
+                }
+
+                function findXForMatchingFiszka(category, fiszki) {
+                    const matchingIndexes = [];
+                    // Iteruj przez tablicę fiszki
+                    for (let i = 0; i < fiszki.length; i++) {
+                        // Sprawdzamy, czy category2 w fiszce zawiera podaną kategorię
+                        if (fiszki[i].category2.includes(category)) {
+                            // Jeśli warunek jest spełniony, dodajemy indeks "fiszki" do tablicy
+                            matchingIndexes.push(i + 1);
+                        }
+                    }
+                    // Zwracamy tablicę indeksów pasujących "fiszek"
+                    return matchingIndexes;
+                    console.log('hej7', matchingIndexes);
+                }
+
+// Przykładowe użycie:
+                const categoryToFind = "osoby"; // Kategoria do znalezienia
+                const matchingIndexes = findXForMatchingFiszka(categoryToFind, fiszki);
+                console.log("Indeksy dla kategorii", categoryToFind, "to", matchingIndexes);
+// Wywołaj funkcję z otrzymaną wartością
+// Wywołaj funkcję z otrzymaną wartością
+// Wywołaj funkcję z otrzymaną wartością
+                function wybierzRodzaj(category, czas) {
+                    category = category || globalCategory;
+                    czasv2 = czas;
+                    console.log("Wybrany rodzaj słownictwa: " + category);
+                    console.log('hej5', czas); // Wybierz 'fiszki' dla 10 minut
+
+                    const matchingLessons = new Set(); // Użyj obiektu Set do przechowywania unikalnych wartości
+
+                    // Iteracja przez fiszki
+                    for (const fiszka of fiszki) {
+                        console.log(`Przetwarzanie fiszki: ${JSON.stringify(fiszka)}`);
+                        // Sprawdzenie, czy istnieje fiszka w zadanej kategorii
+                        const matchingFiszka = fiszka.category2.includes(category);
+
+                        // Jeśli znaleziono pasującą fiszkę, dodaj numer lekcji do zestawu matchingLessons
+                        if (matchingFiszka) {
+                            console.log(`Znaleziono fiszkę z kategorią "${category}" w lekcji ${JSON.stringify(fiszka)}`);
+                            matchingLessons.add(fiszka.id[1]);
+                            console.log('hej8', matchingLessons);
+                        }
+                    }
+
+                    // Konwertuj zestaw z powrotem na tablicę, jeśli to konieczne
+                    const uniqueMatchingLessons = Array.from(matchingLessons);
+
+                    // Usuń załadowane kontenery o klasie 'image-container3'
+                    const loadedContainers = document.querySelectorAll('.image-container3');
+                    loadedContainers.forEach(container => {
+                        container.parentNode.removeChild(container);
+                    });
+
+if (czas === 'fiszki') {
+    const sentence1 = '';
+    const sentence2 = '';
+    if (uniqueMatchingLessons.length > 1) {
+        // Wyświetl fiszki dla każdej znalezionej pary lekcji
+        let startIndex = 0; // Zainicjuj startIndex poza pętlą
+        for (let i = 0; i < uniqueMatchingLessons.length; i += 2) {
+            const lessonId1 = uniqueMatchingLessons[i];
+            const lessonId2 = uniqueMatchingLessons[i + 1];
+            // Zwiększ startIndex o 7 za każdym razem, gdy funkcja iteruje
+            startIndex = i * 6;
+            console.log('hej40', startIndex); // Wyświetl wartość startIndex
+            showCombinedSentenceForLesson(lessonId1, lessonId2, fiszki, matchingIndexes, startIndex);
+        }
     }
-
-var globalCategory;
-
-function przekazArgument(category) {
-    // Przypisz wartość do zmiennej globalnej
-    globalCategory = category;
-
-    // Wywołaj funkcję wybierzRodzaj
-    wybierzRodzaj();
 }
 
-function wybierzRodzaj(category) {
-    console.log("Wybrany rodzaj słownictwa: " + category);
-    alert('Funkcja dodana do strona.html!');
-    console.log('Zakończono wykonanie funkcji wybierzRodzaj.');
+                    if (czas === 'zdania') {
+                        // Wyświetl pojedyncze zdania dla znalezionych lekcji
+                        uniqueMatchingLessons.forEach(lessonId => {
+                            showCombinedSentenceForLesson2(lessonId, fiszki);
+                        });
+                    }
 
-    // Ustaw wartość globalCategory
-    globalCategory = category;
+                    // Ustaw wartość globalCategory
+                    globalCategory = category;
 
-    // Aktualizuj atrybut href linku z użyciem JavaScript
-    var link = document.getElementById('linkDoStrony');
-    link.href = 'demo5.html?category=' + encodeURIComponent(globalCategory);
-}
-</script>
-        <script>
-function showFiszkiForLesson(lessonIdToShow, fiszki) {
-    const matchingFiszki = fiszki.filter(fiszka => fiszka.id[1] === lessonIdToShow);
+                    // Aktualizuj atrybut href linku z użyciem JavaScript
+                    var link = document.getElementById('linkDoStrony');
+                    link.href = 'demo5.html?category=' + encodeURIComponent(globalCategory);
+                }
 
-    if (matchingFiszki.length > 0) {
-        console.log(`Fiszki dla lekcji ${lessonIdToShow}:`);
-        matchingFiszki.forEach(fiszka => {
-            console.log(`Processing fiszka with ID: [${fiszka.id.join(', ')}]`);
-            generateFiszkaBlock(fiszka, lessonIdToShow);
-            console.log(`Generated fiszka with ID: [${fiszka.id.join(', ')}]`);
-        });
-    } else {
-        console.log(`No fiszki found for Lesson ${lessonIdToShow}.`);
-    }
-}
+// Pobierz parametr z adresu URL
+                const urlParams = new URLSearchParams(window.location.search);
+                const category = urlParams.get('category');
 
-    function wybierzCharakter(charakter) {
-        console.log("Wybrany charakter zdania: " + charakter);
-        // Dodaj logikę lub akcje związane z wyborem charakteru zdania.
-    }
+                wybierzRodzaj(category);
+                function showCombinedSentenceForLesson(lessonIdToShow1, lessonIdToShow2, fiszki, matchingIndexes, startIndex) {
+                    const matchingFiszki1 = fiszki.filter(fiszka => fiszka.id[1] === lessonIdToShow1);
+                    const matchingFiszki2 = fiszki.filter(fiszka => fiszka.id[1] === lessonIdToShow2);
 
-    function wybierzTematyke(tematyka) {
-        console.log("Wybrana ulubiona tematyka fiszek: " + tematyka);
-        // Dodaj logikę lub akcje związane z wyborem tematyki fiszek.
-    }
+                    if (matchingFiszki1.length > 0 && matchingFiszki2.length > 0) {
+                        console.log(`Fiszki dla lekcji ${lessonIdToShow1} i ${lessonIdToShow2}:`);
 
-    function wplecUlubioneFiszki() {
-        console.log("Wpływaj ulubione fiszki!");
-        // Dodaj logikę lub akcje związane z wpleceniem ulubionych fiszek.
-    }
+                        // Budowanie zdania dla pierwszego zestawu fiszek
+                        let sentence1 = "";
+                        for (let i = 0; i < matchingFiszki1.length; i++) {
+                            const fiszka = matchingFiszki1[i];
+                            let sentencePart = fiszka.sentence[i % 3]; // Domyślnie używaj zdania bez zmian
+
+                            // Sprawdzenie, czy indeks bieżącej fiszki znajduje się w tablicy matchingIndexes
+                            if (matchingIndexes.includes(i + 1 + startIndex)) {
+                                sentencePart = `<span style="color: yellow;">${fiszka.sentence[i % 3]}xx</span>`;
+                                console.log(`Zaznaczono słowo ${i + 1 + startIndex} w pierwszym zestawie fiszek.`);
+                            }
+
+                            sentence1 += sentencePart + " ";
+                        }
+
+                        // Budowanie zdania dla drugiego zestawu fiszek
+                        let sentence2 = "";
+                        for (let j = 0; j < matchingFiszki2.length; j++) {
+                            const fiszka = matchingFiszki2[j];
+                            let sentencePart = fiszka.sentence[j % 3]; // Domyślnie używaj zdania bez zmian
+
+                            // Sprawdzenie, czy indeks bieżącej fiszki znajduje się w tablicy matchingIndexes
+                            if (matchingIndexes.includes(matchingFiszki1.length + j + 1 + startIndex)) {
+                                sentencePart = `<span style="color: yellow;">${fiszka.sentence[j % 3]}zz</span>`;
+                                console.log(`Zaznaczono słowo ${matchingFiszki1.length + j + 1 + startIndex} w drugim zestawie fiszek.`);
+                            }
+
+                            sentence2 += sentencePart + " ";
+                        }
+
+                        // Utwórz kontener i dodaj zdanie do niego
+                        const container = document.createElement('div');
+                        container.classList.add('image-container3');
+                        container.innerHTML = `<div class="sentence">${sentence1} ${sentence2}</div>`;
+
+                        // Pobierz pierwszy element .image-container
+                        const firstImageContainer = document.querySelector('.image-container');
+
+                        // Wstaw .image-container3 przed pierwszym .image-container
+                        firstImageContainer.parentNode.insertBefore(container, firstImageContainer);
+                    } else {
+                        console.log(`Brak fiszek dla lekcji ${lessonIdToShow1} lub ${lessonIdToShow2}.`);
+                    }
+                }
+
+                function showCombinedSentenceForLesson2(lessonIdToShow, fiszki) {
+                    const matchingFiszki = fiszki.filter(fiszka => fiszka.id[1] === lessonIdToShow);
+                    console.log('hej10', matchingFiszki);
+                    if (matchingFiszki.length > 0) {
+                        console.log(`Fiszki dla lekcji ${lessonIdToShow}:`);
+
+                        // Zbuduj zdanie z pierwszego zdania z pierwszych trzech fiszek oraz pierwszego zdania z trzech kolejnych
+                        const firstword = matchingFiszki.slice(0, 1).map(fiszka => fiszka.sentence[0]);
+                        const nextword = matchingFiszki.slice(0, 1).map(fiszka => fiszka.sentence[1]);
+                        const thirdword = matchingFiszki.slice(0, 1).map(fiszka => fiszka.sentence[2]);
+                        const forthword = matchingFiszki.slice(3, 4).map(fiszka => fiszka.sentence[0]);
+                        const fifthword = matchingFiszki.slice(4, 5).map(fiszka => fiszka.sentence[1]);
+                        const sixthword = matchingFiszki.slice(5, 6).map(fiszka => fiszka.sentence[2]);
+                        const sentence = `${firstword.join(" ")} ${nextword.join(" ")} ${thirdword.join(" ")} ${forthword.join(" ")} ${fifthword.join(" ")} ${sixthword.join(" ")}`;
+
+                        // Utwórz kontener i dodaj zdanie do niego
+                        const container = document.createElement('div');
+                        container.classList.add('image-container3');
+                        container.innerHTML = `<div class="sentence">${sentence}</div>`;
+
+                        // Pobierz pierwszy element .image-container
+                        const firstImageContainer = document.querySelector('.image-container');
+
+                        // Wstaw .image-container3 przed pierwszym .image-container
+                        firstImageContainer.parentNode.insertBefore(container, firstImageContainer);
+                    } else {
+                        console.log(`No fiszki found for Lesson ${lessonIdToShow}.`);
+                    }
+                }
+                function wybierzTematyke(tematyka) {
+                    console.log("Wybrana ulubiona tematyka fiszek: " + tematyka);
+                    // Dodaj logikę lub akcje związane z wyborem tematyki fiszek.
+                }
+
+                function wplecUlubioneFiszki() {
+                    console.log("Wpływaj ulubione fiszki!");
+                    // Dodaj logikę lub akcje związane z wpleceniem ulubionych fiszek.
+                }
             </script>
             <script id="demoScript" data-category=""></script>
         </body>

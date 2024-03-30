@@ -6,11 +6,12 @@
     <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
     <script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
     <link rel="stylesheet" type="text/css" href="css/alert.css">
-    <script src="js/lista.js"></script>
     <link rel="stylesheet" type="text/css" href="css/lista.css">
     <link rel="stylesheet" type="text/css" href="css/fiszki.css">
     <link rel="stylesheet" type="text/css" href="css/styl7.css">
+        <link rel="stylesheet" type="text/css" href="js/audioaudio.css">
     <link rel="stylesheet" type="text/css" href="css/1nowe-pc.css">
+            <script src="js/story.js"></script>
     <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2654094815555460"
     crossorigin="anonymous"></script>
 </head>
@@ -50,37 +51,38 @@
     <div id="bottom-container"><button id="nauka2">
             <p>POSTĘP: <span id="liczbaKlikniec">0</span>- ZAZNAJOMIONYCH
         </button></div>
+        <script src="js/lista.js"></script>
     <div class="grid-container">
     </div>
-    <script src="js/fiszki.js"></script>
+    <script src="js/testowy.js"></script>
 <script>
 // Wywołaj funkcję z otrzymaną wartością
 function wybierzRodzaj(category) {
     console.log("Wybrany rodzaj słownictwa: " + category);
 
-    const result = (function() {
-        // Iteracja przez fiszki
-        for (const fiszka of fiszki) {
-            console.log(`Przetwarzanie fiszki: ${JSON.stringify(fiszka)}`);
+    const matchingLessons = [];
 
-            // Sprawdzenie, czy istnieje fiszka w zadanej kategorii
-            const matchingFiszka = fiszka.category.includes(category);
+    // Iteracja przez fiszki
+    for (const fiszka of fiszki) {
+        console.log(`Przetwarzanie fiszki: ${JSON.stringify(fiszka)}`);
 
-            // Jeśli znaleziono pasującą fiszkę, zwróć numer lekcji
-            if (matchingFiszka) {
-                console.log(`Znaleziono fiszkę z kategorią "${category}" w lekcji ${JSON.stringify(fiszka)}`);
-                return fiszka.id[1];
-            }
+        // Sprawdzenie, czy istnieje fiszka w zadanej kategorii
+        const matchingFiszka = fiszka.category2.includes(category);
+
+        // Jeśli znaleziono pasującą fiszkę, dodaj numer lekcji do tablicy matchingLessons
+        if (matchingFiszka) {
+            console.log(`Znaleziono fiszkę z kategorią "${category}" w lekcji ${JSON.stringify(fiszka)}`);
+            matchingLessons.push(fiszka.id[1]);
         }
+    }
 
-        // Jeśli nie znaleziono fiszki z podaną kategorią, zwróć null
-        return null;
-    })();
-
-    if (result !== null) {
-        showFiszkiForLesson(result, fiszki);
+    if (matchingLessons.length > 0) {
+        // Wyświetl fiszki dla każdej znalezionej lekcji
+        matchingLessons.forEach(lessonId => {
+            showFiszkiForLesson(lessonId, fiszki);
+        });
     } else {
-        console.log(`Nie znaleziono fiszki z kategorią "${category}".`);
+        console.log(`Nie znaleziono fiszek z kategorią "${category}".`);
     }
 }
 
@@ -98,7 +100,7 @@ function showFiszkiForLesson(lessonIdToShow, fiszki) {
         console.log(`Fiszki dla lekcji ${lessonIdToShow}:`);
         matchingFiszki.forEach(fiszka => {
             console.log(`Processing fiszka with ID: [${fiszka.id.join(', ')}]`);
-            generateFiszkaBlock(fiszka, lessonIdToShow);
+            generateFiszkaBlock(fiszka, lessonIdToShow); // Upewnij się, że funkcja generateFiszkaBlock() jest zdefiniowana
             console.log(`Generated fiszka with ID: [${fiszka.id.join(', ')}]`);
         });
     } else {
