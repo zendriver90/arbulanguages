@@ -1398,7 +1398,7 @@ const fiszki = [
         ],
         key: "This",
         category1: "nauka",
-        category2: ["podmiot+czas"]
+        category2: ["osoby"]
     },
     {
         id: [
@@ -1432,7 +1432,7 @@ const fiszki = [
         ],
         key: "belongs",
         category1: "czarny humor",
-        category2: ["podmiot+czas"]
+        category2: ["osoby"]
     },
     {
         id: [

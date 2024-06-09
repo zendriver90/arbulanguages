@@ -2,7 +2,7 @@
 <html>
     <head>
         <script src="js/storage.js"></script>
-        <script src="js/testowy2.js"></script>
+        <script src="js/testowy.js"></script>
         <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -88,7 +88,7 @@
 
                         .sentence10,
             .sentence20,
-            .sentence3 {
+            .sentence30 {
                 z-index: 9999;
             }
                         .highlighted-sentence {
@@ -954,6 +954,11 @@ console.log('Part lengths2:', partLengths2);
                             const zeroIndex = Math.floor(Math.random() * (uniqueMatchingLessons.length / 3));
 
                             let indexDiv = 0;
+                            
+            // Zmienna do kumulowania długości zdań
+            let previousCumulativeFirstPartLength3 = 0;  // Przechowywanie poprzedniej kumulacji dla lesson3
+            
+                            
                             // Wyświetl fiszki dla każdej znalezionej pary lekcji
                             let startIndex = 0; // Zainicjuj startIndex poza pętlą
 
@@ -981,6 +986,8 @@ console.log('Part lengths2:', partLengths2);
                 const lesson2Sentences = correlationsCount.find(item => item[0] === lessonId2) || [lessonId2, 0];
                 const lesson3Sentences = correlationsCount.find(item => item[0] === lessonId3) || [lessonId3, 0];
 
+
+
 // Znajdź długości drugiej części zdania dla każdej lekcji
 const lesson1SecondPartLength = partLengths.find(item => item.id === lessonId1)?.secondPartLength || 0;
 const lesson2SecondPartLength = partLengths.find(item => item.id === lessonId2)?.secondPartLength || 0;
@@ -991,6 +998,19 @@ const lesson1FirstPartLength = partLengths2.find(item => item.id === lessonId1)?
 const lesson2FirstPartLength = partLengths2.find(item => item.id === lessonId2)?.firstPartLength || 0;
 const lesson3FirstPartLength = partLengths2.find(item => item.id === lessonId3)?.firstPartLength || 0;
 
+                // Obliczanie skumulowanych długości
+                cumulativeFirstPartLength1 = previousCumulativeFirstPartLength3 + lesson1FirstPartLength + lesson1SecondPartLength;
+                cumulativeFirstPartLength2 = cumulativeFirstPartLength1 + lesson2FirstPartLength + lesson2SecondPartLength;
+                cumulativeFirstPartLength3 = cumulativeFirstPartLength2 + lesson3FirstPartLength + lesson3SecondPartLength;
+
+                const cumulativeTotalFirstPartLength1 = cumulativeFirstPartLength1;
+                const cumulativeTotalFirstPartLength2 = cumulativeFirstPartLength2;
+                const cumulativeTotalFirstPartLength3 = cumulativeFirstPartLength3;
+
+                // Aktualizacja poprzedniej wartości skumulowanej dla następnej iteracji
+                previousCumulativeFirstPartLength3 = cumulativeFirstPartLength3;
+
+
                 const lessonObject = {
                     lessonId1: lessonId1,
                     lessonId2: lessonId2,
@@ -999,6 +1019,9 @@ const lesson3FirstPartLength = partLengths2.find(item => item.id === lessonId3)?
                     lesson1Sentences: lesson1Sentences,
                     lesson2Sentences: lesson2Sentences,
                     lesson3Sentences: lesson3Sentences,
+                    cumulativeFirstPartLength1: cumulativeFirstPartLength1,
+                    cumulativeFirstPartLength2: cumulativeFirstPartLength2,
+                    cumulativeFirstPartLength3: cumulativeFirstPartLength3,
                     lesson1FirstPartLength: lesson1FirstPartLength,
                     lesson2FirstPartLength: lesson2FirstPartLength,
                     lesson3FirstPartLength: lesson3FirstPartLength,
@@ -1081,52 +1104,102 @@ console.log('hej450', matchingIndexes);
                         }
                         console.log(`Fiszki dla lekcji ${lessonIdToShow1}, ${lessonIdToShow2} i ${lessonIdToShow3}:`);
 
-                        let sentence10 = ""; // Deklaracja zmiennej sentence1 na poziomie lokalnym
+let sentence10 = ""; // Deklaracja zmiennej sentence1 na poziomie lokalnym
+let sentence11 = "";
+function addBackgroundToText(matchingFiszki1, lessonIdToShow1, matchingIndexes, currentIndexValue, aktualny, lesson1FirstPartLength, lesson1SecondPartLength) {
+    sentence10 = "";
 
-                        function addBackgroundToText(matchingFiszki1, lessonIdToShow1, matchingIndexes, currentIndexValue, aktualny) {
-                            sentence10 = "";
 
-                            for (let i = 0; i < matchingFiszki1.length; i++) {
-                                const fiszka = matchingFiszki1[i];
-                                let sentencePart = fiszka.sentence[i % 3]; // Domyślnie używaj zdania bez zmian
-                                console.log('hej30', sentencePart);
-                                // Sprawdź, czy indeks jest równy 0
-                                if (aktualny) {
-                                    if (matchingIndexes.includes(i + (lessonIdToShow1 - 1) * 6 + 1) && currentIndexValue == 0) {
-                                        // Sprawdzenie, czy indeks bieżącej fiszki znajduje się w tablicy matchingIndexes
-                                        const spanElement = document.createElement('span');
-                                        spanElement.textContent = sentencePart;
-                                        if (!spanElement.classList.contains('highlighted-sentence')) {
-                                            spanElement.classList.add('yellow');
-                                            spanElement.classList.add('highlighted-sentence');
-                                        }
-                                        // Zaktualizuj sentencePart, aby zawierał utworzony element span
-                                        sentencePart = spanElement.outerHTML;
-                                        console.log(`Zaznaczono słowo ${i + (lessonIdToShow1 - 1) * 6 + 1} w pierwszym zestawie fiszek.`);
-                                    } else if (currentIndexValue == 0) {
-                                        const spanElement = document.createElement('span');
-                                        spanElement.textContent = sentencePart;
-                                        spanElement.classList.add('highlighted-sentence');
-                                        // Zaktualizuj sentencePart, aby zawierał utworzony element span
-                                        sentencePart = spanElement.outerHTML;
-                                        console.log(`Zaznaczono słowo ${i + (lessonIdToShow1 - 1) * 6 + 1} w pierwszym zestawie fiszek.`);
-                                    } else if (currentIndexValue == 1 && matchingIndexes.includes(i + (lessonIdToShow1 - 1) * 6 + 1)) {
-                                        const spanElement = document.createElement('span');
-                                        spanElement.textContent = sentencePart;
-                                        spanElement.classList.remove('highlighted-sentence');
-                                        spanElement.classList.add('yellow');
-                                        // Zaktualizuj sentencePart, aby zawierał utworzony element span
-                                        sentencePart = spanElement.outerHTML;
-                                        console.log(`Zaznaczono słowo ${i + (lessonIdToShow1 - 1) * 6 + 1} w pierwszym zestawie fiszek.`);
-                                    }
-                                }
+    console.log('Rozpoczęcie funkcji addBackgroundToText');
+    console.log('matchingFiszki1:', matchingFiszki1);
+    console.log('lessonIdToShow1:', lessonIdToShow1);
+    console.log('matchingIndexes:', matchingIndexes);
+    console.log('currentIndexValue:', currentIndexValue);
+    console.log('aktualny:', aktualny);
 
-                                sentence10 += sentencePart + " ";
-                            }
- 
-                            $sentenceDiv.html(`${sentence10}<br> ${sentence20}<br> ${sentence3}`);
-                            
+    for (let i = 0; i < matchingFiszki1.length; i++) {
+        const fiszka = matchingFiszki1[i];
+        console.log('fiszka:', fiszka);
+        
+        if (!fiszka.sentence1 || fiszka.sentence1.length === 0) {
+            console.log('fiszka.sentence1 is undefined or empty');
+            continue; // Jeśli sentence1 nie istnieje lub jest puste, przejdź do następnej fiszki
+        }
+
+        let sentencePart = fiszka.sentence1[i % lesson1FirstPartLength]; // Domyślnie używaj zdania bez zmian
+        console.log('sentencePart przed przetworzeniem:', sentencePart);
+
+        if (aktualny) {
+            if (matchingIndexes.includes(i + (lessonIdToShow1 - 1) * lesson1FirstPartLength + 1) && currentIndexValue == 0) {
+                const spanElement = document.createElement('span');
+                spanElement.innerHTML = sentencePart; // Użyj innerHTML zamiast textContent
+                if (!spanElement.classList.contains('highlighted-sentence')) {
+                    spanElement.classList.add('yellow');
+                    spanElement.classList.add('highlighted-sentence');
+                }
+                sentencePart = spanElement.outerHTML;
+            } else if (currentIndexValue == 0) {
+                const spanElement = document.createElement('span');
+                spanElement.innerHTML = sentencePart; // Użyj innerHTML zamiast textContent
+                spanElement.classList.add('highlighted-sentence');
+                sentencePart = spanElement.outerHTML;
+            } else if (currentIndexValue == 1 && matchingIndexes.includes(i + (lessonIdToShow1 - 1) * lesson1FirstPartLength + 1)) {
+                const spanElement = document.createElement('span');
+                spanElement.innerHTML = sentencePart; // Użyj innerHTML zamiast textContent
+                spanElement.classList.remove('highlighted-sentence');
+                spanElement.classList.add('yellow');
+                sentencePart = spanElement.outerHTML;
+            }
+        }
+
+        console.log('sentencePart po przetworzeniu:', sentencePart); // Dodaj log po przetworzeniu
+        sentence10 += sentencePart + " ";
     }
+
+    console.log('final sentence10:', sentence10); // Dodaj log dla ostatecznego wyniku
+
+    sentence11 = "";
+        for (let i = 0; i < matchingFiszki1.length; i++) {
+        const fiszka = matchingFiszki1[i];
+        console.log('fiszka2:', fiszka);
+        
+        if (!fiszka.sentence2 || fiszka.sentence2.length === 0) {
+            console.log('fiszka.sentence1 is undefined or empty');
+            continue; // Jeśli sentence1 nie istnieje lub jest puste, przejdź do następnej fiszki
+        }
+
+        let sentencePart2 = fiszka.sentence2[i % lesson1SecondPartLength]; // Domyślnie używaj zdania bez zmian
+        console.log('sentencePart2 przed przetworzeniem:', sentencePart2);
+
+        if (aktualny) {
+            if (matchingIndexes.includes(i + (lessonIdToShow1 - 1) * lesson1SecondPartLength + 1) && currentIndexValue == 0) {
+                const spanElement = document.createElement('span');
+                spanElement.innerHTML = sentencePart2; // Użyj innerHTML zamiast textContent
+                if (!spanElement.classList.contains('highlighted-sentence')) {
+                    spanElement.classList.add('yellow');
+                    spanElement.classList.add('highlighted-sentence');
+                }
+                sentencePart2 = spanElement.outerHTML;
+            } else if (currentIndexValue == 0) {
+                const spanElement = document.createElement('span');
+                spanElement.innerHTML = sentencePart2; // Użyj innerHTML zamiast textContent
+                spanElement.classList.add('highlighted-sentence');
+                sentencePart2 = spanElement.outerHTML;
+            } else if (currentIndexValue == 1 && matchingIndexes.includes(i + (lessonIdToShow1 - 1) * lesson1SecondPartLength + 1)) {
+                const spanElement = document.createElement('span');
+                spanElement.innerHTML = sentencePart2; // Użyj innerHTML zamiast textContent
+                spanElement.classList.remove('highlighted-sentence');
+                spanElement.classList.add('yellow');
+                sentencePart2 = spanElement.outerHTML;
+            }
+        }
+                console.log('sentencePart po przetworzeniu:', sentencePart2); // Dodaj log po przetworzeniu
+        sentence11 += sentencePart2 + " ";
+    }
+    
+        $sentenceDiv.html(`${sentence10}${sentence11}<br> ${sentence20}<br> ${sentence30}`);
+    
+}
 
                         let sentence20 = ""; // Deklaracja zmiennej sentence1 na poziomie lokalnym
 
@@ -1140,14 +1213,12 @@ console.log('hej450', matchingIndexes);
                                 // Sprawdź, czy indeks jest równy 0
                                 if (aktualny) {
                                     if (matchingIndexes.includes(j + (lessonIdToShow2 - 1) * 6 + 1) && currentIndexValue == 0) {
-                                        console.log('drukuj', matchingIndexes.includes(j + (lessonIdToShow2 - 1) * 6 + 1))
                                         const spanElement = document.createElement('span');
                                         spanElement.textContent = combinedSentence;
                                         spanElement.classList.remove('highlighted-sentence');
                                         spanElement.classList.add('yellow');
                                         // Zaktualizuj sentencePart, aby zawierał utworzony element span
                                         combinedSentence = spanElement.outerHTML;
-                                        console.log(`Zaznaczono słowo ${j + (lessonIdToShow2 - 1) * 6 + 1} w pierwszym zestawie fiszek.`);
                                     } else if (matchingIndexes.includes(j + (lessonIdToShow2 - 1) * 6 + 1) && currentIndexValue == 1) {
                                         // Sprawdzenie, czy indeks bieżącej fiszki znajduje się w tablicy matchingIndexes
                                         const spanElement = document.createElement('span');
@@ -1158,14 +1229,12 @@ console.log('hej450', matchingIndexes);
                                         }
                                         // Zaktualizuj sentencePart, aby zawierał utworzony element span
                                         combinedSentence = spanElement.outerHTML;
-                                        console.log(`Zaznaczono słowo ${j + (lessonIdToShow2 - 1) * 6 + 1} w pierwszym zestawie fiszek.`);
                                     } else if (currentIndexValue == 1) {
                                         const spanElement = document.createElement('span');
                                         spanElement.textContent = combinedSentence;
                                         spanElement.classList.add('highlighted-sentence');
                                         // Zaktualizuj sentencePart, aby zawierał utworzony element span
                                         combinedSentence = spanElement.outerHTML;
-                                        console.log(`Zaznaczono słowo ${j + (lessonIdToShow2 - 1) * 6 + 1} w pierwszym zestawie fiszek.`);
                                     } else if (currentIndexValue == 2 && matchingIndexes.includes(j + (lessonIdToShow1 - 1) * 6 + 1)) {
                                         const spanElement = document.createElement('span');
                                         spanElement.textContent = combinedSentence;
@@ -1173,29 +1242,23 @@ console.log('hej450', matchingIndexes);
                                         spanElement.classList.add('yellow');
                                         // Zaktualizuj sentencePart, aby zawierał utworzony element span
                                         combinedSentence = spanElement.outerHTML;
-                                        console.log(`Zaznaczono słowo ${j + (lessonIdToShow2 - 1) * 6 + 1} w pierwszym zestawie fiszek.`);
                                     }
                                 }
 
                                 sentence20 += combinedSentence + " ";
                             }
  
-                            $sentenceDiv.html(`${sentence10}<br> ${sentence20}<br> ${sentence3}`);
+                            $sentenceDiv.html(`${sentence10}<br> ${sentence20}<br> ${sentence30}`);
      }
 
                         
-                        let sentence3 = ""; // Deklaracja zmiennej sentence1 na poziomie lokalnym
+                        let sentence30 = ""; // Deklaracja zmiennej sentence1 na poziomie lokalnym
 
-                        function addBackgroundToText3(matchingFiszki3, lessonIdToShow3, matchingIndexes, currentIndexValue, aktualny, lesson3Sentences, lesson3FirstPartLength, lesson3SecondPartLength) {
-                                    $(document).ready(function () { 
-                                        
-                                        sentence3 = "";
-                                                            setTimeout(() => {
-
+                        function addBackgroundToText3(matchingFiszki3, lessonIdToShow3, matchingIndexes, currentIndexValue, aktualny) {
+                                        sentence30 = "";
                             for (let k = 0; k < matchingFiszki3.length; k++) {
                                 const fiszka = matchingFiszki3[k];
                                 let combinedSentence = fiszka.sentence[k % 3]; // Domyślnie używaj zdania bez zmian
-                                console.log('hej222', combinedSentence);
                                 // Sprawdź, czy indeks jest równy 0
                                 if (aktualny) {
                                     if (matchingIndexes.includes(k + (lessonIdToShow3 - 1) * lesson3FirstPartLength + 1) && currentIndexValue == 1) {
@@ -1231,18 +1294,9 @@ console.log('hej450', matchingIndexes);
                                     }
                                 }
 
-                                sentence3 += combinedSentence + " ";
+                                sentence30 += combinedSentence + " ";
                             }
-                                                                                            }, 100);
-                                                                                            
-                            });
-                            // Dodanie treści do diva wraz z przyciskiem
-                            $sentenceDiv.html('<span class="sentence10">' + sentence10 + '</span><br>' + '<span class="sentence20">' + sentence20 + '</span><br>' + '<span class="sentence3" style="position:relative;">' + sentence3 + '</span><br>');
-
-                            // Ustawienie stylu dla przycisków .left-button
-                            $('.left-button').css('position', 'relative');
-                            $('.left-buttonb').css('position', 'relative');
-                            $('.left-buttonbb').css('position', 'relative');
+                            $sentenceDiv.html(`${sentence10}<br> ${sentence20}<br> ${sentence30}`);
                         }
 
                         
@@ -1350,17 +1404,17 @@ console.log('hej450', matchingIndexes);
                                             console.log('hej70', currentIndexValue);
                                             // Wywołaj funkcję addBackgroundToText tylko raz
                                             if (currentIndexValue[0] === 0 || currentIndexValue[0] === 1) {
-                                                addBackgroundToText(matchingFiszki1, lessonIdToShow1, matchingIndexes, currentIndexValue, true);                      
-                        addBackgroundToText2(matchingFiszki2, lessonIdToShow2, matchingIndexes, currentIndexValue, true);
-                                                addBackgroundToText3(matchingFiszki3, lessonIdToShow3, matchingIndexes, currentIndexValue, true, lesson3Sentences, lesson3FirstPartLength, lesson3SecondPartLength);
+                                                addBackgroundToText(matchingFiszki1, lessonIdToShow1, matchingIndexes, currentIndexValue, true, lesson1FirstPartLength, lesson1SecondPartLength);                      
+                                                addBackgroundToText2(matchingFiszki2, lessonIdToShow2, matchingIndexes, currentIndexValue, true);
+                                                addBackgroundToText3(matchingFiszki3, lessonIdToShow3, matchingIndexes, currentIndexValue, true);
                                             }
                                                                                             
                                             if (currentIndexValue[0] === 1 || currentIndexValue[0] === 2) {
                                                 addBackgroundToText2(matchingFiszki2, lessonIdToShow2, matchingIndexes, currentIndexValue, true);
-                                                addBackgroundToText3(matchingFiszki3, lessonIdToShow3, matchingIndexes, currentIndexValue, true, lesson3Sentences, lesson3FirstPartLength, lesson3SecondPartLength);
+                                                addBackgroundToText3(matchingFiszki3, lessonIdToShow3, matchingIndexes, currentIndexValue, true);
                                             }
                                             if (currentIndexValue[0] === 2 || currentIndexValue[0] === 3) {
-                                                addBackgroundToText3(matchingFiszki3, lessonIdToShow3, matchingIndexes, currentIndexValue, true, lesson3Sentences, lesson3FirstPartLength, lesson3SecondPartLength);
+                                                addBackgroundToText3(matchingFiszki3, lessonIdToShow3, matchingIndexes, currentIndexValue, true);
                                             }
                                         }
 
@@ -1476,7 +1530,7 @@ console.log('hej450', matchingIndexes);
 // Tworzenie nowego elementu div za pomocą jQuery
                         var $sentenceDiv = $('<div></div>');
                         $sentenceDiv.addClass('sentence'); // Dodanie klasy 'sentence'
-                        $sentenceDiv.html(`${sentence10}<br>${sentence20}<br>${sentence3}`); // Dodanie treści do diva
+                        $sentenceDiv.html(`${sentence10}<br>${sentence20}<br>${sentence30}`); // Dodanie treści do diva
                         $sentenceDiv.css({
                             'position': 'absolute',
                             'font-size': '18px',
