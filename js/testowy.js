@@ -34,11 +34,13 @@ const fiszki = [
 
         //zdanie
         sentence1: [
+            "Everybody"
+        ],
+                sentence: [
             "Everybody",
             "has",
             "fun"
         ],
-
         //  slowo do nauki
         key: "everybody",
         category1: [
@@ -74,6 +76,9 @@ const fiszki = [
         ],
         desc: "has[hes]/have[hew] - mieć(on/ona/oni)/mieć(ja/ty)",
         sentence1: [
+            "has"
+        ],
+                sentence: [
             "Everybody",
             "has",
             "fun"
@@ -112,6 +117,9 @@ const fiszki = [
         ],
         desc: "fun[fan] - zabawa",
         sentence1: [
+            "fun"
+        ],
+                sentence: [
             "Everybody",
             "has",
             "fun"
@@ -150,6 +158,9 @@ const fiszki = [
         ],
         desc: "at[at] - w tym",
         sentence2: [
+            "at"
+        ],
+                sentence: [
             "at",
             "the",
             "party"
@@ -188,6 +199,9 @@ const fiszki = [
         ],
         desc: "the[de] - to",
         sentence2: [
+            "the"
+        ],
+                sentence: [
             "at",
             "the",
             "party"
@@ -226,6 +240,9 @@ const fiszki = [
         ],
         desc: "party[party] - przyjęcie, bawić się",
         sentence2: [
+            "party"
+        ],
+                sentence: [
             "at",
             "the",
             "party"
@@ -238,7 +255,7 @@ const fiszki = [
             "czarny humor", "hazard",
             "związki", "czas wolny"
         ],
-        category2: ["czasowniki, nazwa czynności"]
+        category2: ["osoby", "osoby+czas"]
     },
     {
         id: [
@@ -268,6 +285,9 @@ const fiszki = [
         ],
         desc: "he[hi] - on",
         sentence1: [
+            "He"
+        ],
+                sentence: [
             "He",
             "is",
             "obedient"
@@ -308,6 +328,9 @@ const fiszki = [
         ],
         desc: "is[is] - jest",
         sentence1: [
+            "is"
+        ],
+                sentence: [
             "He",
             "is",
             "obedient"
@@ -346,6 +369,9 @@ const fiszki = [
         ],
         desc: "obedient[obidient] - posłuszny",
         sentence1: [
+            "obedient"
+        ],
+                sentence: [
             "He",
             "is",
             "obedient"
@@ -384,6 +410,9 @@ const fiszki = [
         ],
         desc: "to[tu] - dla",
         sentence2: [
+            "to"
+        ],
+                sentence: [
             "to",
             "science",
             "procedure"
@@ -422,6 +451,9 @@ const fiszki = [
         ],
         desc: "science[sajens] - nauka(dziedzina badawcza:nauka)",
         sentence2: [
+            "science"
+        ],
+                sentence: [
             "to",
             "science",
             "procedure"
@@ -460,6 +492,9 @@ const fiszki = [
         ],
         desc: "procedure[prosidzer] - procedura",
         sentence2: [
+            "procedure"
+        ],
+                sentence: [
             "to",
             "science",
             "procedure"
@@ -501,6 +536,9 @@ const fiszki = [
         ],
         desc: "be[bi] - być",
         sentence1: [
+            "Be"
+        ],
+                sentence: [
             "Be",
             "more",
             "present"
@@ -539,6 +577,9 @@ const fiszki = [
         ],
         desc: "more[mor] - więcej",
         sentence1: [
+            "more"
+        ],
+                sentence: [
             "Be",
             "more",
             "present"
@@ -577,6 +618,9 @@ const fiszki = [
         ],
         desc: "present[prezent] - obecny",
         sentence1: [
+            "present"
+        ],
+                sentence: [
             "Be",
             "more",
             "present"
@@ -615,6 +659,9 @@ const fiszki = [
         ],
         desc: "with[wiz] - z",
         sentence2: [
+            "with"
+        ],
+                sentence: [
             "with",
             "your",
             "emotions"
@@ -653,6 +700,9 @@ const fiszki = [
         ],
         desc: "your[jor] - twój",
         sentence2: [
+            "your"
+        ],
+                sentence: [
             "with",
             "your",
             "emotions"
@@ -691,6 +741,9 @@ const fiszki = [
         ],
         desc: "emotions[imołszyns] - emocje",
         sentence2: [
+            "emotions"
+        ],
+                sentence: [
             "with",
             "your",
             "emotions"
@@ -732,6 +785,9 @@ const fiszki = [
         ],
         desc: "I[aj] - ja",
         sentence1: [
+            "I"
+        ],
+                sentence: [
             "I",
             "am",
             "shy"
@@ -768,6 +824,9 @@ const fiszki = [
         ],
         desc: "am[em] - jestem",
         sentence1: [
+            "am"
+        ],
+                sentence: [
             "I",
             "am",
             "shy"
@@ -804,6 +863,9 @@ const fiszki = [
         ],
         desc: "shy[szaj] - nieśmiały",
         sentence1: [
+            "shy"
+        ],
+                sentence: [
             "I",
             "am",
             "shy"
@@ -839,6 +901,9 @@ const fiszki = [
         ],
         desc: "but[bat] - ale",
         sentence2: [
+            "but"
+        ],
+                sentence: [
             "but",
             "sometimes",
             "dare"
@@ -874,6 +939,9 @@ const fiszki = [
         ],
         desc: "sometimes[samtajms] - czasami",
         sentence2: [
+            "sometimes"
+        ],
+                sentence: [
             "but",
             "sometimes",
             "dare"
@@ -909,6 +977,9 @@ const fiszki = [
         ],
         desc: "dare[der] - odważył się",
         sentence2: [
+            "dare"
+        ],
+                sentence: [
             "but",
             "sometimes",
             "dare"
@@ -950,6 +1021,9 @@ const fiszki = [
         ],
         desc: "guy[gaj] - gościu",
         sentence1: [
+            "(A) guy"
+        ],
+                sentence: [
             "(A) guy",
             "catch",
             "cat"
@@ -985,6 +1059,9 @@ const fiszki = [
         ],
         desc: "catch[kacz] - łapać",
         sentence1: [
+            "catch"
+        ],
+                sentence: [
             "(A) guy",
             "catch",
             "cat"
@@ -1020,6 +1097,9 @@ const fiszki = [
         ],
         desc: "cat[kat] - kot",
         sentence1: [
+            "cat"
+        ],
+                sentence: [
             "(A) guy",
             "catch",
             "cat"
@@ -1055,6 +1135,9 @@ const fiszki = [
         ],
         desc: "end[end] - i/koniec",
         sentence2: [
+            "and"
+        ],
+                sentence: [
             "and",
             "hug",
             "him"
@@ -1090,6 +1173,9 @@ const fiszki = [
         ],
         desc: "hug[hag] - przytulać",
         sentence2: [
+            "hug"
+        ],
+                sentence: [
             "and",
             "hug",
             "him"
@@ -1125,6 +1211,9 @@ const fiszki = [
         ],
         desc: "him[him] - jego",
         sentence2: [
+            "him"
+        ],
+                sentence: [
             "and",
             "hug",
             "him"
@@ -1162,6 +1251,9 @@ const fiszki = [
         ],
         desc: "our[aur] - nasz",
         sentence1: [
+            "Our"
+        ],
+                sentence: [
             "Our",
             "school",
             "organizes"
@@ -1197,6 +1289,9 @@ const fiszki = [
         ],
         desc: "school[skul] - szkoła",
         sentence1: [
+            "school"
+        ],
+                sentence: [
             "Our",
             "school",
             "organizes"
@@ -1214,6 +1309,9 @@ const fiszki = [
         story: "<b><u>Organ</b></u>izacja dobroczynna współpracuje z Filipem H<b><u>ajze</b></u>rem",
         desc: "organizes[organajz] - organizować",
         sentence1: [
+            "organizes"
+        ],
+                sentence: [
             "Our",
             "school",
             "organizes"
@@ -1231,6 +1329,9 @@ const fiszki = [
         story: "<b><u>Kła</b></u>dziemy <b><u>całkiem</b></u> duży nacisk na ilość b<b><u>ajt</b></u>ów w pliku",
         desc: "quite[kłajt] - całkiem",
         sentence2: [
+            "quite"
+        ],
+                sentence: [
             "quite",
             "interesting",
             "events"
@@ -1248,6 +1349,9 @@ const fiszki = [
         story: "<b><u>Interesujące</b></u> są te boksersie spar<b><u>ing</b></u>i",
         desc: "interesting[interesting] - interesujące",
         sentence2: [
+            "interesting"
+        ],
+                sentence: [
             "quite",
             "interesting",
             "events"
@@ -1265,11 +1369,14 @@ const fiszki = [
         story: "Prezydent miasta trochę sepleni i patrzy w <b><u>inwent</b></u>a<b><u>ssss</b></u>, a tam same wydarzenia kulturowe",
         desc: "events[iwents] - wydarzenia",
         sentence2: [
+            "events"
+        ],
+                sentence: [
             "quite",
             "interesting",
             "events"
         ],
-        key: "him",
+        key: "events",
         category1: "związki",
         category2: "polityka, administracja"
     },
@@ -1286,6 +1393,9 @@ const fiszki = [
         story: "W <b><u>maj</b></u>u kwitną <b><u>moje</b></u> ulubione kwiaty",
         desc: "my[maj] - moje",
         sentence1: [
+            "My"
+        ],
+                sentence: [
             "My",
             "company",
             "starts"
@@ -1303,6 +1413,9 @@ const fiszki = [
         story: "<b><u>Kamp</b></u>ing jest koloru <b><u>any</b></u>żowego, prowadzi go <b><u>firma</b></u> z Polski",
         desc: "company[kampany] - firma",
         sentence1: [
+            "company"
+        ],
+                sentence: [
             "My",
             "company",
             "starts"
@@ -1320,6 +1433,9 @@ const fiszki = [
         story: "<b><u>Start</b></u>uje z udawaniem węża.. <b><u>ssssss</b></u>",
         desc: "starts[starts] - zacząć",
         sentence1: [
+            "starts"
+        ],
+                sentence: [
             "My",
             "company",
             "starts"
@@ -1337,6 +1453,9 @@ const fiszki = [
         story: "<b><u>Dewelop</b></u>er gra w p<b><u>ing</b></u>-ponga z właścicielem i <b><u>rozwija</b></u> narracje, aby coś ugrać",
         desc: "developing[deweloping] - rozwijać",
         sentence2: [
+            "developing"
+        ],
+                sentence: [
             "developing",
             "so",
             "intensively"
@@ -1354,6 +1473,9 @@ const fiszki = [
         story: "<b><u>Soł</b></u>tys <b><u>tak bardzo</b></u> lubi tą wieś",
         desc: "so[soł] - tak bardzo/więc",
         sentence2: [
+            "so"
+        ],
+                sentence: [
             "developing",
             "so",
             "intensively"
@@ -1371,6 +1493,9 @@ const fiszki = [
         story: "<b><u>Inten</b></u>cją zo<b><u>si</b></u> jest <b><u>wli</b></u>czenie jej zasług do intensywnej pracy społeczności",
         desc: "intensively[intensiwli] - intensywnie",
         sentence2: [
+            "intensively"
+        ],
+                sentence: [
             "developing",
             "so",
             "intensively"
@@ -1392,6 +1517,9 @@ const fiszki = [
         story: "<b><u>Quo vadis</b></u> <b><u>to</b></u> cytat bardzo znany",
         desc: "this[dis] - ta rzecz/osoba",
         sentence1: [
+            "This"
+        ],
+                sentence: [
             "This",
             "book",
             "belongs"
@@ -1409,6 +1537,9 @@ const fiszki = [
         story: "Z drzewa <b><u>buk</b></u>owego jest najlepszy papier na <b><u>książki</b></u>",
         desc: "book[buk] - książka",
         sentence1: [
+            "book"
+        ],
+                sentence: [
             "This",
             "book",
             "belongs"
@@ -1426,6 +1557,9 @@ const fiszki = [
         story: "<b><u>Bel</b></u>ki <b><u>przynależą</b></u> do stropu, w Mongoli tak robiono stropy",
         desc: "belongs[belongs] - przynależy",
         sentence1: [
+            "belongs"
+        ],
+                sentence: [
             "This",
             "book",
             "belongs"
@@ -1448,6 +1582,9 @@ const fiszki = [
         ],
         desc: "to[tu] - do",
         sentence2: [
+            "to"
+        ],
+                sentence: [
             "to",
             "his",
             "grandfather"
@@ -1467,6 +1604,9 @@ const fiszki = [
         story: "<b><u>Jego</b></u> <b><u>his</b></u>toria jest bardzo atrakcyjna i bujna",
         desc: "his[his] -jego",
         sentence2: [
+            "his"
+        ],
+                sentence: [
             "to",
             "his",
             "grandfather"
@@ -1484,6 +1624,9 @@ const fiszki = [
         story: "<b><u>Kłóciłem się z <b><u>dziadkeim</b></u> i była granda.. ta familia mnie już <b><u>de</b></u>ne<b><u>r</b></u>wuje",
         desc: "grandfather[grandfader] - dziadek",
         sentence2: [
+            "grandfather"
+        ],
+                sentence: [
             "to",
             "his",
             "grandfather"
@@ -1503,11 +1646,14 @@ const fiszki = [
         ],
         desc: "My[maj] - moje",
         sentence1: [
+            "My"
+        ],
+                sentence: [
             "My",
             "neighbours",
             "sell"
         ],
-        key: "grandfather",
+        key: "my",
         category1: [ "natura", "florystyka",
                     "związki", "przyjaźń"
         ],
@@ -1522,11 +1668,14 @@ const fiszki = [
         story: "<b><u>Dla zdol<b><u>nej</b></u> ucznnicy <b><u>sąsiedzi<b><u> ułożyli wierszyk, <b><u>bo</b></u> <b><u>s</b></u>ą jej urodziny",
         desc: "neighbours[nejbours] - sąsiedzi",
         sentence1: [
+            "neighbours"
+        ],
+                sentence: [
             "My",
             "neighbours",
             "sell"
         ],
-        key: "grandfather",
+        key: "neighbours",
         category1: "związki",
         category2: ["podmiot+czas"]
     },
@@ -1539,11 +1688,14 @@ const fiszki = [
         story: "Ten <b><u>sel</b></u>er łatwo jest <b><u>sprzedać</b></u> na targu",
         desc: "sell[sel] - sprzedać",
         sentence1: [
+            "sell"
+        ],
+                sentence: [
             "My",
             "neighbours",
             "sell"
         ],
-        key: "grandfather",
+        key: "sell",
         category1: "związki",
         category2: ["podmiot+czas"]
     },
@@ -1556,11 +1708,14 @@ const fiszki = [
         story: "<b><u>W ten <b><u>de</b></u>seń jest <b><u>i</b></u>ch <b><u>r</b></u>obota",
         desc: "their[deir] - ich",
         sentence2: [
+            "their"
+        ],
+                sentence: [
             "their",
             "big",
             "house"
         ],
-        key: "grandfather",
+        key: "their",
         category1: "związki",
         category2: "praca"
     },
@@ -1573,11 +1728,14 @@ const fiszki = [
         story: "Bardzo <b><u>duży</b></u> samolot M<b><u>ig</b></u> właśnie przeleciał na niebie",
         desc: "big[big] - duży, duża",
         sentence2: [
+            "big"
+        ],
+                sentence: [
             "their",
             "big",
             "house"
         ],
-        key: "grandfather",
+        key: "big",
         category1: "nauka",
         category2: "technika, transport"
     },
@@ -1590,11 +1748,14 @@ const fiszki = [
         story: "W <b><u>domu</b></u> mamy psa, który robi <b><u>hał</b></u>.. hał.. na sąsiadów i wabi się <b><u>S</b></u>ara",
         desc: "house[hałs] - dom",
         sentence2: [
+            "house"
+        ],
+                sentence: [
             "their",
             "big",
             "house"
         ],
-        key: "grandfather",
+        key: "house",
         category1: "natura",
         category2: "czas wolny, sąsiedztwo"
     },
@@ -1615,6 +1776,9 @@ const fiszki = [
         ],
         desc: "my[maj] - moje",
         sentence1: [
+            "My"
+        ],
+                sentence: [
             "My",
             "dog",
             "is"
@@ -1635,11 +1799,14 @@ const fiszki = [
         story: "Mój <b><u>pies</b></u> mnie słucha, <b><u>dog</b></u>aduje się z nim",
         desc: "dog[dog] - pies",
         sentence1: [
+            "dog"
+        ],
+                sentence: [
             "My",
             "dog",
             "is"
         ],
-        key: "grandfather",
+        key: "dog",
         category1: "natura",
         category2: ["podmiot+czas, zwierzęta"]
     },
@@ -1658,11 +1825,14 @@ const fiszki = [
         ],
         desc: "is[is] - jest",
         sentence1: [
+            "is"
+        ],
+                sentence: [
             "My",
             "dog",
             "is"
         ],
-        key: "grandfather",
+        key: "is",
         category1: [ "związki", "podryw",
                     "natura", "miasta"
         ],
@@ -1677,11 +1847,14 @@ const fiszki = [
         story: "Zobaczyłem wypłatę.. <b><u>eeeee</b></u> to jest dopiero wypłata",
         desc: "a[e] - coś",
         sentence2: [
+            "a"
+        ],
+                sentence: [
             "a",
             "good",
             "friend"
         ],
-        key: "grandfather",
+        key: "a",
         category1: "związki",
         category2: "praca, biznes"
     },
@@ -1694,11 +1867,14 @@ const fiszki = [
         story: "Jest <b><u>dobrze</b></u> kiedy jest więcej wy<b><u>gód</b></u>",
         desc: "good[gud] - dobre",
         sentence2: [
+            "good"
+        ],
+                sentence: [
             "a",
             "good",
             "friend"
         ],
-        key: "grandfather",
+        key: "good",
         category1: "związki",
         category2: "czas wolny"
     },
@@ -1711,11 +1887,14 @@ const fiszki = [
         story: "<b><u>End</b></u>riu ma <b><u>fr</b></u>ak na zimę, każda pora roku to jego przyjaciel",
         desc: "friend[frend] - przyjaciel",
         sentence2: [
+            "friend"
+        ],
+                sentence: [
             "a",
             "good",
             "friend"
         ],
-        key: "grandfather",
+        key: "friend",
         category1: "natura",
         category2: "osoby"
     },
@@ -1732,6 +1911,9 @@ const fiszki = [
         story: "<b><u>De</b></u>partament do Spraw Uchodźców <b><u>to</b></u> ważna instytucja",
         desc: "the[de] - to",
         sentence1: [
+            "The"
+        ],
+                sentence: [
             "The",
             "teacher",
             "tries"
@@ -1749,6 +1931,9 @@ const fiszki = [
         story: "W tym pa<b><u>ti</b></u>o siedzi nauczyciel w <b><u>czer</b></u>wonej koszuli",
         desc: "teacher[ticzer] - nauczyciel",
         sentence1: [
+            "teacher"
+        ],
+                sentence: [
             "The",
             "teacher",
             "tries"
@@ -1768,6 +1953,9 @@ const fiszki = [
         story: "Nasa <b><u>próbuje</b></u> zmienić <b><u>traj</b></u>ektorie lotu <b><u>s</b></u>atelity",
         desc: "tries[trajs] - próbuje",
         sentence1: [
+            "tries"
+        ],
+                sentence: [
             "The",
             "teacher",
             "tries"
@@ -1790,6 +1978,9 @@ const fiszki = [
         ],
         desc: "to[tu] - dla",
         sentence2: [
+            "to"
+        ],
+                sentence: [
             "to",
             "help",
             "us"
@@ -1809,6 +2000,9 @@ const fiszki = [
         story: "Gaz - <b><u>hel</b></u>, <b><u>p</b></u>omaga zmieniać ton głosu",
         desc: "help[help] - pomagać",
         sentence2: [
+            "help"
+        ],
+                sentence: [
             "to",
             "help",
             "us"
@@ -1826,6 +2020,9 @@ const fiszki = [
         story: "<b><u>As</b></u>teroida pod mikroskopem wydaje się <b><u>nam</b></u> niezwykła",
         desc: "us[as] - my, nam",
         sentence2: [
+            "us"
+        ],
+                sentence: [
             "to",
             "help",
             "us"
@@ -1850,6 +2047,9 @@ const fiszki = [
         ],
         desc: "your[jor] - twój",
         sentence1: [
+            "Your"
+        ],
+                sentence: [
             "Your",
             "parents",
             "seem"
@@ -1870,6 +2070,9 @@ const fiszki = [
         story: "<b><u>Pare</b></u> lat temu moi <b><u>rodzice</b></u> byli sentym<b><u>ent</b></u>alni i chyba <b><u>s</b></u>ą nadal",
         desc: "parents[parents] - rodzice",
         sentence1: [
+            "parents"
+        ],
+                sentence: [
             "Your",
             "parents",
             "seem"
@@ -1887,6 +2090,9 @@ const fiszki = [
         story: "Ta karta <b><u>sim</b></u> nie działa, <b><u>wydaje mi się</b></u>, że uszkodziłem ją wcześniej",
         desc: "seem[sim] - wydaje się",
         sentence1: [
+            "seem"
+        ],
+                sentence: [
             "Your",
             "parents",
             "seem"
@@ -1909,6 +2115,9 @@ const fiszki = [
         ],
         desc: "to[tu] - dla",
         sentence2: [
+            "to"
+        ],
+                sentence: [
             "to",
             "be",
             "friendly"
@@ -1933,6 +2142,9 @@ const fiszki = [
         ],
         desc: "be[bi] - być",
         sentence2: [
+            "be"
+        ],
+                sentence: [
             "to",
             "be",
             "friendly"
@@ -1952,6 +2164,9 @@ const fiszki = [
         story: "Mali <b><u>Fr</b></u>anek i <b><u>End</b></u>riu są <b><u>dl</b></u>a siebie <b><u>przyjacielscy</b></u>",
         desc: "friendly[frendli] - przyjacielski",
         sentence2: [
+            "friendly"
+        ],
+                sentence: [
             "to",
             "be",
             "friendly"
@@ -1972,6 +2187,9 @@ const fiszki = [
         ],
         desc: "the[de] - to",
         sentence1: [
+            "The"
+        ],
+                sentence: [
             "The",
             "dogs",
             "can"
@@ -1995,6 +2213,9 @@ const fiszki = [
         ],
         desc: "dogs[dogs] - psy",
         sentence1: [
+            "dogs"
+        ],
+                sentence: [
             "The",
             "dogs",
             "can"
@@ -2015,11 +2236,14 @@ const fiszki = [
         story: "W <b><u>Ken</b></u>ii każdy <b><u>może</b></u> ubierać się na ciepłą pogodę",
         desc: "can[ken] - może",
         sentence1: [
+            "can"
+        ],
+                sentence: [
             "The",
             "dogs",
             "can"
         ],
-        key: "us",
+        key: "can",
         category1: "natura",
         category2: "geografia"
     },
@@ -2032,6 +2256,9 @@ const fiszki = [
         story: "<b><u>Ran</b></u>o zawsze <b><u>biegam</b></u>",
         desc: "run[ran] - biegać",
         sentence2: [
+            "run"
+        ],
+                sentence: [
             "run",
             "really",
             "fast"
@@ -2049,6 +2276,9 @@ const fiszki = [
         story: "Na spotkaniu g<b><u>ril</b></u>owym naprawdę można się najeść saszł<b><u>y</b></u>ków",
         desc: "really[rily] - naprawdę",
         sentence2: [
+            "really"
+        ],
+                sentence: [
             "run",
             "really",
             "fast"
@@ -2066,6 +2296,9 @@ const fiszki = [
         story: "Ten chw<b><u>ast</b></u> szybko rośnie, bo to <b><u>f</b></u>uriat wśród chwastów",
         desc: "fast[fast] - szybko",
         sentence2: [
+            "fast"
+        ],
+                sentence: [
             "run",
             "really",
             "fast"
@@ -2090,6 +2323,9 @@ const fiszki = [
         ],
         desc: "this[dis] - to",
         sentence1: [
+            "This"
+        ],
+                sentence: [
             "This",
             "edition",
             "expires"
@@ -2109,6 +2345,9 @@ const fiszki = [
         story: "Kiedy <b><u>Edi</b></u>son robił przerwe w tworzeniu żarówki jadł bułkę z <b><u>szyn</b></u>ką",
         desc: "edition[ediszyn] - edycja",
         sentence1: [
+            "edition"
+        ],
+                sentence: [
             "This",
             "edition",
             "expires"
@@ -2126,6 +2365,9 @@ const fiszki = [
         story: "Jedziemy do miejscowości X na wakacje pod palmy i statkiem w rejs.. musimy zapłacić X dnia, później okazja się przedawnia",
         desc: "expires[iksparejs] - przedawnia się/wagasa",
         sentence1: [
+            "expires"
+        ],
+                sentence: [
             "This",
             "edition",
             "expires"
@@ -2147,6 +2389,9 @@ const fiszki = [
         ],
         desc: "this[dis] - ten/tego",
         sentence2: [
+            "this"
+        ],
+                sentence: [
             "this",
             "week"
         ],
@@ -2167,6 +2412,9 @@ const fiszki = [
         story: "Po francusku tak to <b><u>łi</b></u>, w tym <b><u>tygodniu</b></u> mam na studiach egazminy z francuskiego i za<b><u>k</b></u>uwam materiał",
         desc: "week[łik] - tydzień",
         sentence2: [
+            "week"
+        ],
+                sentence: [
             "this",
             "week"
         ],
@@ -2186,6 +2434,9 @@ const fiszki = [
         ],
         desc: "he[hi] - on",
         sentence1: [
+            "He"
+        ],
+                sentence: [
             "He",
             "has",
             "wide"
@@ -2208,6 +2459,9 @@ const fiszki = [
         ],
         desc: "has[hes] - ma/mają",
         sentence1: [
+            "has"
+        ],
+                sentence: [
             "He",
             "has",
             "wide"
@@ -2227,6 +2481,9 @@ const fiszki = [
         story: "Nasza <b><u>łaj</b></u>ba znajduje się na <b><u>szerokim</b></u> morzu, daleko ma <b><u>d</b></u>o lądu",
         desc: "wide[łajd] - szeroki/szeroki/szeroko",
         sentence1: [
+            "wide"
+        ],
+                sentence: [
             "He",
             "has",
             "wide"
@@ -2244,6 +2501,9 @@ const fiszki = [
         story: "Amerykański żołnierz <b><u>Rang</b></u>ers ma szeroki <b><u>zakres</b></u> umiejętności",
         desc: "range[reindź] - zakres",
         sentence2: [
+            "range"
+        ],
+                sentence: [
             "range",
             "of",
             "words"
@@ -2261,6 +2521,9 @@ const fiszki = [
         story: "Tą <b><u>of</b></u>ensywę podjął każdy żołnierz",
         desc: "of[of] - to",
         sentence2: [
+            "of"
+        ],
+                sentence: [
             "range",
             "of",
             "words"
@@ -2278,6 +2541,9 @@ const fiszki = [
         story: "Ośrodek <b><u>WORD</b></u> to Wojewódzki Ośrodek Ruchu Drogowego - taka <b><u>s</b></u>zkoła",
         desc: "words[łords] - słowa/słów",
         sentence2: [
+            "words"
+        ],
+                sentence: [
             "range",
             "of",
             "words"
@@ -2303,6 +2569,9 @@ const fiszki = [
         ],
         desc: "he[hi] - on",
         sentence1: [
+            "He"
+        ],
+                sentence: [
             "He",
             "dares",
             "to"
@@ -2327,6 +2596,9 @@ const fiszki = [
         ],
         desc: "dares[ders] - odważyć się",
         sentence1: [
+            "dares"
+        ],
+                sentence: [
             "He",
             "dares",
             "to"
@@ -2349,6 +2621,9 @@ const fiszki = [
         ],
         desc: "to[tu] - do",
         sentence1: [
+            "to"
+        ],
+                sentence: [
             "He",
             "dares",
             "to"
@@ -2366,6 +2641,9 @@ const fiszki = [
         story: "Suczce <b><u>K</b></u>alina nie wolno sa<b><u>mej</b></u> ściągac jedzenia ze stołu, nie wolno jej tego <b><u>robić</b></u>",
         desc: "make[mejk] - zrobić",
         sentence2: [
+            "make"
+        ],
+                sentence: [
             "make",
             "approach",
             "to",
@@ -2384,6 +2662,9 @@ const fiszki = [
         story: "<b><u>Ep</b></u>oka w której podchodzono do <b><u>ro</b></u>bienia ikon ołówkiem to stare <b><u>cz</b></u>asy",
         desc: "approach[eprołcz] - podejść/podejście",
         sentence2: [
+            "approach"
+        ],
+                sentence: [
             "make",
             "approach",
             "to",
@@ -2407,6 +2688,9 @@ const fiszki = [
         ],
         desc: "to[tu] - do",
         sentence2: [
+            "to"
+        ],
+                sentence: [
             "make",
             "approach",
             "to",
@@ -2425,6 +2709,9 @@ const fiszki = [
         story: "<u><b>Jej</u></b> <u><b>her</u></b>batka jest bardzo słodka",
         desc: "her[her] - jej/niej",
         sentence2: [
+            "her"
+        ],
+                sentence: [
             "make",
             "approach",
             "to",
@@ -2443,6 +2730,9 @@ const fiszki = [
         story: "<u><b>Ona</u></b> - Patrycja ma ri<u><b>szi</u></b> to naturalny antyoksydant",
         desc: "she[szi] - ona",
         sentence1: [
+            "She"
+        ],
+                sentence: [
             "She",
             "is",
             "atatched"
@@ -2464,6 +2754,9 @@ const fiszki = [
         ],
         desc: "is[is] - jest",
         sentence1: [
+            "is"
+        ],
+                sentence: [
             "She",
             "is",
             "atatched"
@@ -2481,6 +2774,9 @@ const fiszki = [
         story: "Jestem przywiązany do z</b></u>apła<b><u>ty za moje usług, wypłatę wypłaca mi po</b></u>czt<b><u>a",
         desc: "attached[ataczt] - przywiązany",
         sentence1: [
+            "atatched"
+        ],
+                sentence: [
             "She",
             "is",
             "atatched"
@@ -2503,6 +2799,9 @@ const fiszki = [
         ],
         desc: "to[tu] - dla",
         sentence2: [
+            "to"
+        ],
+                sentence: [
             "to",
             "his",
             "bow"
@@ -2523,6 +2822,9 @@ const fiszki = [
         ],
         desc: "his[his] - jego",
         sentence2: [
+            "his"
+        ],
+                sentence: [
             "to",
             "his",
             "bow"
@@ -2540,6 +2842,9 @@ const fiszki = [
         story: "To jest <b><u>bo</b></u>ski <b><u>łuk</b></u>",
         desc: "bow[boł] - łuk",
         sentence2: [
+            "bow"
+        ],
+                sentence: [
             "to",
             "his",
             "bow"
@@ -2562,6 +2867,9 @@ const fiszki = [
         ],
         desc: "he[hi] - on",
         sentence1: [
+            "He"
+        ],
+                sentence: [
             "He",
             "does not",
             "obey"
@@ -2579,6 +2887,9 @@ const fiszki = [
         story: "Leoni<b><u>das</b></u> król spartan odpala k<b><u>not</b></u> świeczki, bo <b><u>nie jest</b></u> odpalona",
         desc: "does not[das not] - nie jest",
         sentence1: [
+            "does not"
+        ],
+                sentence: [
             "He",
             "does not",
             "obey"
@@ -2596,6 +2907,9 @@ const fiszki = [
         story: "Ta instalacja elektryczna ma <b><u>obej</b></u>ście i jest zrobiona według <b><u>posłuszeństwa</b></u> do norm",
         desc: "obey[obej] - posłuszny",
         sentence1: [
+            "obey"
+        ],
+                sentence: [
             "He",
             "does not",
             "obey"
@@ -2618,6 +2932,9 @@ const fiszki = [
         ],
         desc: "to[tu] - do",
         sentence2: [
+            "to"
+        ],
+                sentence: [
             "to",
             "his",
             "trainer"
@@ -2638,6 +2955,9 @@ const fiszki = [
         ],
         desc: "his[his] - jego",
         sentence2: [
+            "his"
+        ],
+                sentence: [
             "to",
             "his",
             "trainer"
@@ -2655,6 +2975,9 @@ const fiszki = [
         story: "<b><u>Tra</b></u>cę tkankę tłuszczową, bo ćwiczę i pije g<b><u>ajner</b></u> - tak jak polecił mi <b><u>trener</b></u>",
         desc: "trainer[trajner] - trener",
         sentence2: [
+            "trainer"
+        ],
+                sentence: [
             "to",
             "his",
             "trainer"
@@ -2676,6 +2999,9 @@ const fiszki = [
         ],
         desc: "this[dis] - to",
         sentence1: [
+            "This"
+        ],
+                sentence: [
             "This",
             "city",
             "is"
@@ -2693,6 +3019,9 @@ const fiszki = [
         story: "<b><u>Siti</b></u> Bank jest teraz bankiem na topie w każdym </b></u>mieście<b><u>",
         desc: "city[siti] - miasto",
         sentence1: [
+            "city"
+        ],
+                sentence: [
             "This",
             "city",
             "is"
@@ -2715,6 +3044,9 @@ const fiszki = [
         ],
         desc: "is[is] - jest",
         sentence1: [
+            "is"
+        ],
+                sentence: [
             "This",
             "city",
             "is"
@@ -2732,6 +3064,9 @@ const fiszki = [
         story: "Ktoś miał </b></u>fu<b><u>ksa i wylosował całą nagrodę w </b></u>l<b><u>oteri",
         desc: "full[ful] - wszystko/całe",
         sentence2: [
+            "full"
+        ],
+                sentence: [
             "full",
             "of",
             "people"
@@ -2752,6 +3087,9 @@ const fiszki = [
         ],
         desc: "of[of] - te/tego/tej",
         sentence2: [
+            "of"
+        ],
+                sentence: [
             "full",
             "of",
             "people"
@@ -2769,6 +3107,9 @@ const fiszki = [
         story: "Wszyscy </b></u>ludzie<b><u> muszą pić wodę tak jak <b><u>pel</b></u>ikany",
         desc: "people[pipel] - ludzie",
         sentence2: [
+            "people"
+        ],
+                sentence: [
             "full",
             "of",
             "people"
