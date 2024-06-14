@@ -770,7 +770,7 @@ const fiszki = [
             "http://localhost/arbulanguage.com/img/fiszki1/4a4.jpg",
             "http://localhost/arbulanguage.com/img/fiszki1/4a5.jpg"
         ],
-        translate: "Je jestem nieśmiały, ale czaami odważny",
+        translate: "Ja jestem nieśmiały, ale czaami odważny",
         translateb: "[Aj em szaj bat samtajms der]",
         srcWord: "http://localhost/arbulanguage.com/filmy/emotions.mp4",
                 word: [
@@ -1240,6 +1240,8 @@ const fiszki = [
             "http://localhost/arbulanguage.com/img/fiszki1/6a4.jpg",
             "http://localhost/arbulanguage.com/img/fiszki1/6a5.jpg"
         ],
+        translate: "Nasza szkoła organizuje całkiem ciekawe wydarzenie",
+        translateb: "[Aur skul organajz kłajt interesting iwents]",
                         srcWord: "http://localhost/arbulanguage.com/filmy/school.mp4",
                 word: "http://localhost/arbulanguage.com/voice/party.mp4",
         story: [
@@ -1390,6 +1392,8 @@ const fiszki = [
                                 word: [
             "http://localhost/arbulanguage.com/voice/music.mp4"
         ],
+                translate: "Moja firma zaczyna rozwijać się bardzo intensywnie",
+        translateb: "[Maj kampany starts deweloping soł intensiwili]",
         story: "W <b><u>maj</b></u>u kwitną <b><u>moje</b></u> ulubione kwiaty",
         desc: "my[maj] - moje",
         sentence1: [
@@ -1514,6 +1518,8 @@ const fiszki = [
                                 word: [
             "http://localhost/arbulanguage.com/voice/music.mp4"
         ],
+        translate: "Ta książka należy do jego dziadka",
+        translateb: "[Dis buk belongs tu his grandfader]",
         story: "<b><u>Quo vadis</b></u> <b><u>to</b></u> cytat bardzo znany",
         desc: "this[dis] - ta rzecz/osoba",
         sentence1: [
@@ -1640,6 +1646,8 @@ const fiszki = [
             9
         ],
         img: "http://localhost/arbulanguage.com/img/fiszki1/9a.jpg",
+                translate: "Moi sąsiedzi sprzedali ich duży dom",
+        translateb: "[Maj nejbours sel deir big hałs]",
         story: [
             "W <b><u>maj</b></u>u kwitną <b><u>moje</b></u> ulubione kwiaty",
             "Przetrzymaj mi na pare dni moje auto"
@@ -1765,6 +1773,8 @@ const fiszki = [
             10
         ],
         img: "http://localhost/arbulanguage.com/img/fiszki1/9a.jpg",
+        translate: "Mój pies jest dobrym przyjacielem",
+        translateb: "[Maj dog is a gud frend]",
                         srcWord: "http://localhost/arbulanguage.com/filmy/dog.mp4",
                                 word: [
             "http://localhost/arbulanguage.com/voice/music.mp4"
@@ -1904,6 +1914,8 @@ const fiszki = [
             11
         ],
         img: "http://localhost/arbulanguage.com/img/fiszki1/11a.jpg",
+                translate: "Nauczyciel stara się pomóc nam",
+        translateb: "[De ticzer trajs tu help as]",
                         srcWord: "http://localhost/arbulanguage.com/filmy/teacher.mp4",
                                 word: [
             "http://localhost/arbulanguage.com/voice/music.mp4"
@@ -2037,6 +2049,8 @@ const fiszki = [
             12
         ],
         img: "http://localhost/arbulanguage.com/img/fiszki1/5e.jpg",
+        translate: "Twoi rodzice wydają się być przyjaźni",
+        translateb: "[Jor parents sim tu bi frendli]",
                         srcWord: "http://localhost/arbulanguage.com/filmy/parents.mp4",
                                 word: [
             "http://localhost/arbulanguage.com/voice/music.mp4"
@@ -2181,6 +2195,8 @@ const fiszki = [
             13
         ],
         img: "http://localhost/arbulanguage.com/img/fiszki1/13a.jpg",
+        translate: "Psy mogą biec naprawdę szybko",
+        translateb: "[De dog ken ran rili fast]",
         story: [
             "Czasami politycy stosują <u><b>de</u></b>magogię. Czyli co stosują? <u><b>Tę</u></b> <u><b>de</u></b>magogię",
             "<u><b>De</u></b>mografia społeczństwa to ważny czynnik ekonomiczny"
@@ -2313,6 +2329,8 @@ const fiszki = [
             14
         ],
         img: "http://localhost/arbulanguage.com/img/fiszki1/14a.jpg",
+        translate: "Ta edycja traci ważność w tym tygodniu",
+        translateb: "[Dis ediszyn ikspires dis łik]",
                         srcWord: "http://localhost/arbulanguage.com/filmy/counting.mp4",
                                 word: [
             "http://localhost/arbulanguage.com/voice/music.mp4"
@@ -2363,7 +2381,7 @@ const fiszki = [
         ],
         img: "http://localhost/arbulanguage.com/img/fiszki1/14c.jpg",
         story: "Jedziemy do miejscowości X na wakacje pod palmy i statkiem w rejs.. musimy zapłacić X dnia, później okazja się przedawnia",
-        desc: "expires[iksparejs] - przedawnia się/wagasa",
+        desc: "expires[ikspires] - przedawnia się/wagasa",
         sentence1: [
             "expires"
         ],
@@ -2428,6 +2446,8 @@ const fiszki = [
             15
         ],
         img: "http://localhost/arbulanguage.com/img/fiszki1/15a.jpg",
+                translate: "On ma szeroki zasób słów",
+        translateb: "[Hi hes łajd rendż of łords]",
         story: [
             "<u><b>On</b></u> - <u><b>Hi</b></u>eronim odleciał balonem",
             "To właśnie on jest <b><u>hi</b></u>tem tego sezonu piłkarskiego"
@@ -2558,6 +2578,8 @@ const fiszki = [
             16
         ],
         img: "http://localhost/arbulanguage.com/img/fiszki1/16a.jpg",
+                        translate: "On odważył się podejść do niej",
+        translateb: "[Hi dares tu mejk eprołcz tu her]",
                         srcWord: "http://localhost/arbulanguage.com/filmy/approach.mp4",
                                 word: [
             "http://localhost/arbulanguage.com/voice/music.mp4"

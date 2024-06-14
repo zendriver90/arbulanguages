@@ -81,7 +81,12 @@
             .sentence1bb2a,
             .sentence1bba,
             .sentence1bb {
-                margin-bottom: 5px;
+                font-size: 15px;
+                color: white;
+            }
+                        .sentence1bb1,
+                        .sentence1bb1b {
+                margin-bottom: -15px;
                 font-size: 15px;
                 color: white;
             }
@@ -1142,8 +1147,12 @@ function calculatePartLengths3(fiszki) {
                         let sentence10 = ""; // Deklaracja zmiennej sentence1 na poziomie lokalnym
                         let sentence11 = "";
                         let sentence12 = " / ";
+                                                let sentence1b = "";
+                        let sentence1bb1 = "";
+                        let sentence1bba = "";
                         function addBackgroundToText(matchingFiszki1, matchingIndexes, currentIndexValue, aktualny, lesson1FirstPartLength, lesson1PartLength) {
                             sentence10 = "";
+                            sentence1bb1 = "";
 
 
                             console.log('Rozpoczęcie funkcji addBackgroundToText');
@@ -1180,6 +1189,38 @@ function calculatePartLengths3(fiszki) {
                                                 spanElement.classList.add('highlighted-sentence');
                                             }
                                             sentencePart = spanElement.outerHTML;
+                                                    let sentencePart1 = fiszka.translate ? fiszka.translate : "";
+        sentence1bb1 += sentencePart1 + " ";
+        let sentencePart1a = fiszka.translateb ? fiszka.translateb : "";
+        sentence1bba += sentencePart1a + " ";
+                                        console.log('hej45', sentencePart1);
+                        // Dodaj element do DOM, jeśli jeszcze go nie ma
+                        if ($sentenceDiv.find('.sentence1bb1').length === 0) {
+                            $sentenceDiv.append('<div class="sentence1bb1"></div>');
+                        }
+                                        let $sentence1bb1 = $sentenceDiv.find('.sentence1bb1');
+                                        let $sentence1bba = $sentenceDiv.find('.sentence1bba');
+                                        // Ustawienie widoczności i stylu dla .sentence1bb
+                                        // Spróbuj ustawić styl po pewnym czasie, aby upewnić się, że element jest w pełni renderowany
+                                        if (!sentence1bVisible) {
+                                            $sentence1bb1.css({
+                                                'display': 'block',
+                                                'margin-bottom': '50px',
+                                                'top': '20px',
+                                                'position': 'relative'
+                                            });
+                                            console.log('sentence1bb style set to visible');
+                                        }
+                                        $sentence1bb1.html(sentence1bb1);
+                                        if (!sentence1bVisible) {
+                                            // Pokazujemy zdanie .sentence1bba
+                                            $sentence1bba.css('display', 'block');
+                                            $sentence1bba.css({
+                                                'margin-bottom': '-0px',
+                                                'top': '0px',
+                                                'position': 'relative'
+                                            });
+                                        }
                                         } else if (currentIndexValue == 0) {
                                             const spanElement = document.createElement('span');
                                             spanElement.innerHTML = sentencePart; // Użyj innerHTML zamiast textContent
@@ -1246,8 +1287,9 @@ function calculatePartLengths3(fiszki) {
                                     sentence11 += sentencePart2 + " ";
                                 }
                             }
+                                // Dodaj sentence1bb tutaj
                             console.log('final sentence11:', sentence11);
-                            $sentenceDiv.html(`${sentence10}${sentence12}${sentence11}<br> ${sentence20}${sentence22}<br> ${sentence30}${sentence33}`);
+    $sentenceDiv.html(`${sentence10}${sentence12}${sentence11}<br><div class="sentence1bb1">${sentence1bb1}</div><br> ${sentence20}${sentence22}<br><div class="sentence1bb1b">${sentence1bb1b}</div><br> ${sentence30}${sentence33}`);
                                 $('#insertSlashButton').on('click', function() {
                                     if (!isSlashInserted) {
         $('#sentence12').show();
@@ -1262,12 +1304,166 @@ function calculatePartLengths3(fiszki) {
                                     }
                                     }, 10);
                         }
+                        
+                        let sentence1bb = "";
+                        function addBackgroundToText1b(matchingFiszki1, lessonIdToShow1, matchingIndexes, aktualny) {
+                            $(document).ready(function () {
+
+                                sentence1b = "";
+                                sentence1bb = "";
+                                sentence1bba = "";
+                                setTimeout(() => {
+                                    for (let i = 0; i < matchingFiszki1.length; i++) {
+                                        const fiszka = matchingFiszki1[i];
+                                        let sentencePart = fiszka.sentence[i % 3]; // Domyślnie używaj zdania bez zmian
+
+                                        console.log('hej31', sentencePart);
+                                        // Sprawdź, czy indeks jest równy 0
+                                        if (aktualny) {
+                                            if (matchingIndexes.includes(i + (lessonIdToShow1 - 1) * 6 + 1)) {
+                                                // Sprawdzenie, czy indeks bieżącej fiszki znajduje się w tablicy matchingIndexes
+                                                const spanElement = document.createElement('span');
+                                                spanElement.textContent = sentencePart;
+                                                spanElement.classList.add('yellow');
+                                                // Zaktualizuj sentencePart, aby zawierał utworzony element span
+                                                sentencePart = spanElement.outerHTML;
+                                                console.log(`Zaznaczono słowo ${i + (lessonIdToShow1 - 1) * 6 + 1} w pierwszym zestawie fiszek.`);
+                                            }
+                                        }
+
+                                        sentence1b += sentencePart + " ";
+                                        let sentencePart1 = fiszka.translate ? fiszka.translate : "";
+                                        sentence1bb += sentencePart1 + " ";
+                                        let sentencePart1a = fiszka.translateb ? fiszka.translateb : "";
+                                        sentence1bba += sentencePart1a + " ";
+                                        $sentenceDiv.html(
+                                                '<br><button class="left-button first-button">+<br></button>' +
+                                                '<span class="sentence1b">' + sentence1b + '</span>' +
+                                                '<span class="sentence1bba" style="position:relative; display:none;">' + sentence1bba + '</span>' +
+                                                '<span class="sentence1bb" style="position:relative; display:none;">' + sentence1bb + '</span>' +
+                                                '<br><button class="left-buttonb second-button">+<br></button>' +
+                                                '<span class="sentence2b">' + sentence2b + '</span>' +
+                                                '<span class="sentence1bb2" style="position:relative; display:none;">' + sentence1bb2 + '</span>' +
+                                                '<span class="sentence1bb2a" style="position:relative; display:none;">' + sentence1bb2a + '</span>' +
+                                                '<br><button class="left-buttonbb third-button">+<br></button>' +
+                                                '<span class="sentence3b">' + sentence3b + '</span>' +
+                                                '<span class="sentence1bb3" style="position:relative; display:none;">' + sentence1bb3 + '</span>' +
+                                                '<span class="sentence1bb3a" style="position:relative; display:none;">' + sentence1bb3a + '</span>' +
+                                                '<br>'
+                                                );
+
+                                        // Ustawienie stylu dla przycisków .left-button
+                                        $('.left-button').css('position', 'relative');
+                                        $('.left-buttonb').css('position', 'relative');
+                                        $('.left-buttonbb').css('position', 'relative');
+                                        let $sentence1bb = $sentenceDiv.find('.sentence1bb');
+                                        let $sentence1bba = $sentenceDiv.find('.sentence1bba');
+                                        console.log('hej20', $sentence1bb); // Upewnij się, że ta linia wyświetla poprawne elementy
+                                        // Ustawienie widoczności i stylu dla .sentence1bb
+                                        // Spróbuj ustawić styl po pewnym czasie, aby upewnić się, że element jest w pełni renderowany
+                                        if (sentence1bVisible) {
+                                            $sentence1bb.css({
+                                                'display': 'block',
+                                                'margin-bottom': '-0px',
+                                                'top': '0px',
+                                                'position': 'relative'
+                                            });
+                                            console.log('sentence1bb style set to visible');
+                                        }
+                                        if (sentence1bVisible) {
+                                            // Pokazujemy zdanie .sentence1bba
+                                            $sentence1bba.css('display', 'block');
+                                            $sentence1bba.css({
+                                                'margin-bottom': '-0px',
+                                                'top': '0px',
+                                                'position': 'relative'
+                                            });
+                                        }
+
+                                        // Dodatkowe logowanie stylów po ich ustawieniu
+                                        console.log('Final display style for .sentence1bb:', $sentence1bb.css('display'));
+                                        // Obsługa kliknięcia przycisku
+                                        $sentenceDiv.on('click', '.left-button', function () {
+                                            // Dodawanie zdania tylko jeśli sentence1bb2 jest puste
+                                            if (sentence1bb === "") {
+                                                let sentencePart1 = fiszka.translate ? fiszka.translate : "";
+                                                sentence1bb += sentencePart1 + " ";
+                                            }
+                                            if (sentence1bba === "") {
+                                                let sentencePart1a = fiszka.translateb ? fiszka.translateb : "";
+                                                sentence1bba += sentencePart1a + " ";
+                                            }
+                                            // Dodanie treści do diva wraz z przyciskiem
+                                            $sentenceDiv.html(
+                                                    '<br><button class="left-button first-button">+<br></button>' +
+                                                    '<span class="sentence1b">' + sentence1b + '</span>' +
+                                                    '<span class="sentence1bba" style="position:relative; display:none;">' + sentence1bba + '</span>' +
+                                                    '<span class="sentence1bb" style="position:relative; display:none;">' + sentence1bb + '</span>' +
+                                                    '<br><button class="left-buttonb second-button">+<br></button>' +
+                                                    '<span class="sentence2b">' + sentence2b + '</span>' +
+                                                    '<span class="sentence1bb2" style="position:relative; display:none;">' + sentence1bb2 + '</span>' +
+                                                    '<span class="sentence1bb2a" style="position:relative; display:none;">' + sentence1bb2a + '</span>' +
+                                                    '<br><button class="left-buttonbb third-button">+<br></button>' +
+                                                    '<span class="sentence3b">' + sentence3b + '</span>' +
+                                                    '<span class="sentence1bb3" style="position:relative; display:none;">' + sentence1bb3 + '</span>' +
+                                                    '<span class="sentence1bb3a" style="position:relative; display:none;">' + sentence1bb3a + '</span>' +
+                                                    '<br>'
+                                                    );
+
+                                            // Ustawienie stylu dla przycisków .left-button
+                                            $('.left-button').css('position', 'relative');
+                                            $('.left-buttonb').css('position', 'relative');
+                                            $('.left-buttonbb').css('position', 'relative');
+                                            let sentencePart1 = fiszka.translate ? fiszka.translate : ""; // Sprawdź, czy translate istnieje
+                                            let sentencePart1a = fiszka.translateb ? fiszka.translateb : ""; // Sprawdź, czy translate istnieje
+                                            console.log('Kliknięto przycisk');
+                                            let $sentence1bb2 = $sentenceDiv.find('.sentence1bb2');
+                                            let $sentence1bb = $sentenceDiv.find('.sentence1bb');
+                                            let $sentence1bba = $sentenceDiv.find('.sentence1bba');
+                                            if ($sentence1bb.css('display') === 'none' || sentence1bVisible) {
+                                                sentence1bVisible = true;
+                                                sentence1baVisible = false;
+                                                console.log('hej15', sentence1bVisible);
+                                                // Pokazujemy zdanie .sentence1bb
+                                                $sentence1bb.css('display', 'block');
+                                                $sentence1bb.css({
+                                                    'margin-bottom': '-20px',
+                                                    'top': '0px',
+                                                    'position': 'relative'
+                                                });
+                                            }
+
+                                            if ($sentence1bba.css('display') === 'none' || sentence1bVisible) {
+                                                // Pokazujemy zdanie .sentence1bba
+                                                $sentence1bba.css('display', 'block');
+                                                $sentence1bba.css({
+                                                    'margin-bottom': '-0px',
+                                                    'top': '0px',
+                                                    'position': 'relative'
+                                                });
+                                            }
+                                            $sentence1bb2.html('');
+                                            $sentence1bb2.empty();
+                                            $sentence1bb2a.html('');
+                                            $sentence1bb2a.empty();
+                                        });
+                                    }
+                                    ;
+                                }, 100);
+                            });
+
+
+                            console.log('Zawartość zmiennej sentence1:', sentence1b); // Wyświetlenie zawartości zmiennej sentence1                          
+                        }
+                        
                         let sentence20 = ""; // Deklaracja zmiennej sentence20 na poziomie lokalnym
                         let sentence22 = "";
+                                                let sentence1bb1b = "";
 
                         function addBackgroundToText2(matchingFiszki2, matchingIndexes, currentIndexValue, aktualny, lesson2FirstPartLength, lesson2PartLength) {
                             sentence20 = "";
                             sentence22 = "";
+                            sentence1bb1b = "";
 
                             // Iteracja przez matchingFiszki2 dla sentence1
                             for (let j = 0; j < matchingFiszki2.length; j++) {
@@ -1295,6 +1491,7 @@ function calculatePartLengths3(fiszki) {
                                             spanElement.classList.add('yellow');
                                             // Zaktualizuj sentencePart, aby zawierał utworzony element span
                                             sentencePart = spanElement.outerHTML;
+                                         
                                         } else if (matchingIndexes.includes(indexToCheck) && currentIndexValue == 1) {
                                             // Sprawdzenie, czy indeks bieżącej fiszki znajduje się w tablicy matchingIndexes
                                             const spanElement = document.createElement('span');
@@ -1305,6 +1502,38 @@ function calculatePartLengths3(fiszki) {
                                             }
                                             // Zaktualizuj sentencePart, aby zawierał utworzony element span
                                             sentencePart = spanElement.outerHTML;
+                                                                                                   let sentencePart1 = fiszka.translate ? fiszka.translate : "";
+        sentence1bb1b += sentencePart1 + " ";
+        let sentencePart1a = fiszka.translateb ? fiszka.translateb : "";
+        sentence1bba += sentencePart1a + " ";
+                                        console.log('hej45', sentencePart1);
+                        // Dodaj element do DOM, jeśli jeszcze go nie ma
+                        if ($sentenceDiv.find('.sentence1bb1b').length === 0) {
+                            $sentenceDiv.append('<div class="sentence1bb1b"></div>');
+                        }
+                                        let $sentence1bb1b = $sentenceDiv.find('.sentence1bb1b');
+                                        let $sentence1bba = $sentenceDiv.find('.sentence1bba');
+                                        // Ustawienie widoczności i stylu dla .sentence1bb
+                                        // Spróbuj ustawić styl po pewnym czasie, aby upewnić się, że element jest w pełni renderowany
+                                        if (!sentence1bVisible) {
+                                            $sentence1bb1b.css({
+                                                'display': 'block',
+                                                'margin-bottom': '0px',
+                                                'top': '20px',
+                                                'position': 'relative'
+                                            });
+                                            console.log('sentence1bb style set to visible');
+                                        }
+                                        $sentence1bb1b.html(sentence1bb1b);
+                                        if (!sentence1bVisible) {
+                                            // Pokazujemy zdanie .sentence1bba
+                                            $sentence1bba.css('display', 'block');
+                                            $sentence1bba.css({
+                                                'margin-bottom': '-0px',
+                                                'top': '0px',
+                                                'position': 'relative'
+                                            });
+                                        }
                                         } else if (currentIndexValue == 1) {
                                             const spanElement = document.createElement('span');
                                             spanElement.textContent = sentencePart;
@@ -1384,7 +1613,7 @@ function calculatePartLengths3(fiszki) {
                             console.log('final sentence20:', sentence20);
                             console.log('final sentence22:', sentence22);
 
-                            $sentenceDiv.html(`${sentence10}${sentence11}<br> ${sentence20}${sentence22}<br> ${sentence30}${sentence33}`);
+   $sentenceDiv.html(`${sentence10}${sentence12}${sentence11}<br><div class="sentence1bb1">${sentence1bb1}</div><br> ${sentence20}${sentence22}<br><div class="sentence1bb1b">${sentence1bb1b}</div><br> ${sentence30}${sentence33}`);
                                                             $('#insertSlashButton').on('click', function() {
                                     if (!isSlashInserted) {
         $('#sentence12').show();
@@ -1400,6 +1629,158 @@ function calculatePartLengths3(fiszki) {
                                     }, 10);
                         }
 
+                        let sentence2b = "";
+                        let sentence1bb2 = "";
+                        let sentence1bb2a = "";
+                        function addBackgroundToText2b(matchingFiszki2, lessonIdToShow2, matchingIndexes, aktualny) {
+
+                            $(document).ready(function () {
+                                                                                                                            setTimeout(() => {
+                                sentence2b = "";
+                                sentence1bb2 = "";
+                                sentence1bb2a = "";
+
+                                for (let j = 0; j < matchingFiszki2.length; j++) {
+                                    const fiszka = matchingFiszki2[j];
+                                    let sentencePart = fiszka.sentence[j % 3]; // Domyślnie używaj zdania bez zmian
+
+                                    console.log('hej31', sentencePart);
+                                    // Sprawdź, czy indeks jest równy 0
+                                    if (aktualny) {
+                                        if (matchingIndexes.includes(j + (lessonIdToShow2 - 1) * 6 + 1)) {
+                                            // Sprawdzenie, czy indeks bieżącej fiszki znajduje się w tablicy matchingIndexes
+                                            const spanElement = document.createElement('span');
+                                            spanElement.textContent = sentencePart;
+                                            spanElement.classList.add('yellow');
+                                            // Zaktualizuj sentencePart, aby zawierał utworzony element span
+                                            sentencePart = spanElement.outerHTML;
+                                            console.log(`Zaznaczono słowo ${j + (lessonIdToShow2 - 1) * 6 + 1} w pierwszym zestawie fiszek.`);
+                                        }
+                                    }
+                                    sentence2b += sentencePart + " ";
+                                    
+                                    console.log('Zawartość zmiennej sentence1:', sentence2b); // Wyświetlenie zawartości zmiennej sentence1
+                                    $sentenceDiv.on('click', '.left-buttonb', function () {
+                                        // Dodawanie zdania tylko jeśli sentence1bb2 jest puste
+                                        if (sentence1bb2 === "") {
+                                            let sentencePart2 = fiszka.translate ? fiszka.translate : "";
+                                            sentence1bb2 += sentencePart2 + " ";
+                                        }
+                                        if (sentence1bb2a === "") {
+                                            let sentencePart2a = fiszka.translateb ? fiszka.translateb : "";
+                                            sentence1bb2a += sentencePart2a + " ";
+                                        }
+                                        // Dodanie treści do diva wraz z przyciskiem
+                                        $sentenceDiv.html(
+                                                '<br><button class="left-button first-button">+<br></button>' +
+                                                '<span class="sentence1b">' + sentence1b + '</span>' +
+                                                '<span class="sentence1bba" style="position:relative; display:none;">' + sentence1bba + '</span>' +
+                                                '<span class="sentence1bb" style="position:relative; display:none;">' + sentence1bb + '</span>' +
+                                                '<br><button class="left-buttonb second-button">+<br></button>' +
+                                                '<span class="sentence2b">' + sentence2b + '</span>' +
+                                                '<span class="sentence1bb2" style="position:relative; display:none;">' + sentence1bb2 + '</span>' +
+                                                '<span class="sentence1bb2a" style="position:relative; display:none;">' + sentence1bb2a + '</span>' +
+                                                '<br><button class="left-buttonbb third-button">+<br></button>' +
+                                                '<span class="sentence3b">' + sentence3b + '</span>' +
+                                                '<span class="sentence1bb3" style="position:relative; display:none;">' + sentence1bb3 + '</span>' +
+                                                '<span class="sentence1bb3a" style="position:relative; display:none;">' + sentence1bb3a + '</span>' +
+                                                '<br>'
+                                                );
+                                        // Ustawienie stylu dla przycisków .left-button
+                                        $('.left-button').css('position', 'relative');
+                                        $('.left-buttonb').css('position', 'relative');
+                                        $('.left-buttonbb').css('position', 'relative');
+                                        let sentencePart2 = fiszka.translate ? fiszka.translate : ""; // Sprawdź, czy translate istnieje
+                                        let sentencePart2a = fiszka.translateb ? fiszka.translateb : ""; // Sprawdź, czy translate istnieje
+                                        // Obsługa kliknięcia przycisku
+                                        console.log('Kliknięto przycisk');
+                                        let $sentence1bb2 = $sentenceDiv.find('.sentence1bb2');
+                                        let $sentence1bb2a = $sentenceDiv.find('.sentence1bb2a');
+                                        let $sentence1bb = $sentenceDiv.find('.sentence1bb');
+                                        let $sentence1bba = $sentenceDiv.find('.sentence1bba');
+
+                                        if ($sentence1bb2.css('display') === 'none') {
+                                            sentence1bVisible = false;
+                                            sentence1baVisible = true;
+                                            // Pokazujemy zdanie .sentence1b
+                                            $sentence1bb2.css('display', 'block');
+                                            $sentence1bb2.css({
+                                                'margin-top': '-10px',
+                                                'top': '25px',
+                                                'position': 'relative'
+                                            });
+                                        }
+                                        if ($sentence1bb2a.css('display') === 'none') {
+                                            // Pokazujemy zdanie .sentence1b
+                                            $sentence1bb2a.css('display', 'block');
+                                            $sentence1bb2a.css({
+                                                'margin-top': '-20px',
+                                                'top': '5px',
+                                                'position': 'relative'
+                                            });
+                                        }
+                                        $sentence1bb.html('');
+                                        $sentence1bb.empty();
+                                        $sentence1bba.html('');
+                                        $sentence1bba.empty();
+                                    });
+                                    let sentencePart1 = fiszka.translate ? fiszka.translate : "";
+                                        sentence1bb2 += sentencePart1 + " ";
+                                        let sentencePart1a = fiszka.translateb ? fiszka.translateb : "";
+                                        sentence1bb2a += sentencePart1a + " ";
+                                        $sentenceDiv.html(
+                                                '<br><button class="left-button first-button">+<br></button>' +
+                                                '<span class="sentence1b">' + sentence1b + '</span>' +
+                                                '<span class="sentence1bba" style="position:relative; display:none;">' + sentence1bba + '</span>' +
+                                                '<span class="sentence1bb" style="position:relative; display:none;">' + sentence1bb + '</span>' +
+                                                '<br><button class="left-buttonb second-button">+<br></button>' +
+                                                '<span class="sentence2b">' + sentence2b + '</span>' +
+                                                '<span class="sentence1bb2" style="position:relative; display:none;">' + sentence1bb2 + '</span>' +
+                                                '<span class="sentence1bb2a" style="position:relative; display:none;">' + sentence1bb2a + '</span>' +
+                                                '<br><button class="left-buttonbb third-button">+<br></button>' +
+                                                '<span class="sentence3b">' + sentence3b + '</span>' +
+                                                '<span class="sentence1bb3" style="position:relative; display:none;">' + sentence1bb3 + '</span>' +
+                                                '<span class="sentence1bb3a" style="position:relative; display:none;">' + sentence1bb3a + '</span>' +
+                                                
+                                                '<br>'
+                                                );
+
+                                        // Ustawienie stylu dla przycisków .left-button
+                                        $('.left-button').css('position', 'relative');
+                                        $('.left-buttonb').css('position', 'relative');
+                                        $('.left-buttonbb').css('position', 'relative');
+                                        let $sentence1bb2 = $sentenceDiv.find('.sentence1bb2');
+                                        let $sentence1bb2a = $sentenceDiv.find('.sentence1bb2a');
+                                        console.log('hej20', $sentence1bb2); // Upewnij się, że ta linia wyświetla poprawne elementy
+                                        // Ustawienie widoczności i stylu dla .sentence1bb
+                                        // Spróbuj ustawić styl po pewnym czasie, aby upewnić się, że element jest w pełni renderowany
+                                                                                    console.log('hej46', sentence1baVisible);
+                                        if (sentence1baVisible) {
+
+                                            $sentence1bb2.css('display', 'block');
+                                            $sentence1bb2.css({
+                                                'display': 'block',
+                                                'margin-bottom': '-20px',
+                                                'top': '0px',
+                                                'position': 'relative'
+                                            });
+                                            console.log('sentence1bb style set to visible');
+                                        }
+                                        if (sentence1baVisible) {
+                                            // Pokazujemy zdanie .sentence1bba
+                                            $sentence1bb2a.css('display', 'block');
+                                            $sentence1bb2a.css({
+                                                'margin-bottom': '-0px',
+                                                'top': '0px',
+                                                'position': 'relative'
+                                            });
+                                        };
+                                };
+                                
+                        }, 100);
+                            });
+
+                        }
 
                         let sentence30 = ""; // Deklaracja zmiennej sentence1 na poziomie lokalnym
                         let sentence33 = "";
@@ -1517,7 +1898,7 @@ function calculatePartLengths3(fiszki) {
                             }
 
 
-                            $sentenceDiv.html(`${sentence10}${sentence11}<br> ${sentence20}${sentence22}<br> ${sentence30}${sentence33}`);
+   $sentenceDiv.html(`${sentence10}${sentence12}${sentence11}<br><div class="sentence1bb1">${sentence1bb1}</div><br> ${sentence20}${sentence22}<div class="sentence1bb1b">${sentence1bb1b}</div><br> ${sentence30}${sentence33}`);
                                                             $('#insertSlashButton').on('click', function() {
                                     if (!isSlashInserted) {
         $('#sentence12').show();
@@ -1531,6 +1912,160 @@ function calculatePartLengths3(fiszki) {
         $sentenceDiv.html(`${sentence10}${sentence12}${sentence11}<br>${sentence20}${sentence12}${sentence22}<br>${sentence30}${sentence12}${sentence33}`);
                                     }
                                     }, 10);
+                        }
+                        
+                        
+                        let sentence3b = "";
+                        let sentence1bb3 = "";
+                        let sentence1bb3a = "";
+                        function addBackgroundToText3b(matchingFiszki3, lessonIdToShow3, matchingIndexes, aktualny) {
+                                                        $(document).ready(function () {
+
+                            sentence3b = "";
+                            sentence1bb3 = "";
+                            sentence1bb3a = "";
+
+                            for (let k = 0; k < matchingFiszki3.length; k++) {
+                                const fiszka = matchingFiszki3[k];
+                                let sentencePart = fiszka.sentence[k % 3]; // Domyślnie używaj zdania bez zmian
+                                console.log('hej31', sentencePart);
+                                // Sprawdź, czy indeks jest równy 0
+                                if (aktualny) {
+                                    if (matchingIndexes.includes(k + (lessonIdToShow3 - 1) * lesson3Sentences[1] + 1)) {
+                                        // Sprawdzenie, czy indeks bieżącej fiszki znajduje się w tablicy matchingIndexes
+                                        const spanElement = document.createElement('span');
+                                        spanElement.textContent = sentencePart;
+                                        spanElement.classList.add('yellow');
+                                        // Zaktualizuj sentencePart, aby zawierał utworzony element span
+                                        sentencePart = spanElement.outerHTML;
+                                        console.log(`Zaznaczono słowo ${k + (lessonIdToShow3 - 1) * 6 + 1} w pierwszym zestawie fiszek.`);
+                                    }
+                                }
+
+                                sentence3b += sentencePart + " ";
+                                                                                                                    setTimeout(() => {
+                            $sentenceDiv.on('click', '.left-buttonbb', function () {
+                                        // Dodawanie zdania tylko jeśli sentence1bb2 jest puste
+                                        if (sentence1bb3 === "") {
+                                            let sentencePart3 = fiszka.translate ? fiszka.translate : "";
+                                            sentence1bb3 += sentencePart3 + " ";
+                                        }
+                                        if (sentence1bb3a === "") {
+                                            let sentencePart3a = fiszka.translateb ? fiszka.translateb : "";
+                                            sentence1bb3a += sentencePart3a + " ";
+                                        }
+                                        // Dodanie treści do diva wraz z przyciskiem
+                                        $sentenceDiv.html(
+                                                '<br><button class="left-button first-button">+<br></button>' +
+                                                '<span class="sentence1b">' + sentence1b + '</span>' +
+                                                '<span class="sentence1bba" style="position:relative; display:none;">' + sentence1bba + '</span>' +
+                                                '<span class="sentence1bb" style="position:relative; display:none;">' + sentence1bb + '</span>' +
+                                                '<br><button class="left-buttonb second-button">+<br></button>' +
+                                                '<span class="sentence2b">' + sentence2b + '</span>' +
+                                                '<span class="sentence1bb2" style="position:relative; display:none;">' + sentence1bb2 + '</span>' +
+                                                '<span class="sentence1bb2a" style="position:relative; display:none;">' + sentence1bb2a + '</span>' +
+                                                '<br><button class="left-buttonbb third-button">+<br></button>' +
+                                                '<span class="sentence3b">' + sentence3b + '</span>' +
+                                                '<span class="sentence1bb3" style="position:relative; display:none;">' + sentence1bb3 + '</span>' +
+                                                '<span class="sentence1bb3a" style="position:relative; display:none;">' + sentence1bb3a + '</span>' +
+                                                '<br>'
+                                                );
+                                        // Ustawienie stylu dla przycisków .left-button
+                                        $('.left-button').css('position', 'relative');
+                                        $('.left-buttonb').css('position', 'relative');
+                                        $('.left-buttonbb').css('position', 'relative');
+                                        let sentencePart3 = fiszka.translate ? fiszka.translate : ""; // Sprawdź, czy translate istnieje
+                                        let sentencePart3a = fiszka.translateb ? fiszka.translateb : ""; // Sprawdź, czy translate istnieje
+                                        // Obsługa kliknięcia przycisku
+                                        console.log('Kliknięto przycisk');
+                                        let $sentence1bb3 = $sentenceDiv.find('.sentence1bb3');
+                                        let $sentence1bb3a = $sentenceDiv.find('.sentence1bb3a');
+                                        let $sentence1bb = $sentenceDiv.find('.sentence1bb');
+                                        let $sentence1bba = $sentenceDiv.find('.sentence1bba');
+
+                                        if ($sentence1bb3.css('display') === 'none') {
+                                            sentence1bVisible = false;
+                                            sentence1b3aVisible = true;
+                                            // Pokazujemy zdanie .sentence1b
+                                            $sentence1bb3.css('display', 'block');
+                                            $sentence1bb3.css({
+                                                'display': 'block',
+                                                'margin-bottom': '-40px',
+                                                'top': '8px',
+                                                'position': 'relative'
+                                            });
+                                        }
+                                        if ($sentence1bb3a.css('display') === 'none') {
+                                            // Pokazujemy zdanie .sentence1b
+                                            $sentence1bb3a.css('display', 'block');
+                                            $sentence1bb3a.css({
+                                                'margin-top': '-0px',
+                                                'top': '18px',
+                                                'position': 'relative'
+                                            });
+                                        }
+                                        $sentence1bb.html('');
+                                        $sentence1bb.empty();
+                                        $sentence1bba.html('');
+                                        $sentence1bba.empty();
+                                    });
+                                    let sentencePart3 = fiszka.translate ? fiszka.translate : "";
+                                        sentence1bb3 += sentencePart3 + " ";
+                                        let sentencePart3a = fiszka.translateb ? fiszka.translateb : "";
+                                        sentence1bb3a += sentencePart3a + " ";
+                                        $sentenceDiv.html(
+                                                '<br><button class="left-button first-button">+<br></button>' +
+                                                '<span class="sentence1b">' + sentence1b + '</span>' +
+                                                '<span class="sentence1bba" style="position:relative; display:none;">' + sentence1bba + '</span>' +
+                                                '<span class="sentence1bb" style="position:relative; display:none;">' + sentence1bb + '</span>' +
+                                                '<br><button class="left-buttonb second-button">+<br></button>' +
+                                                '<span class="sentence2b">' + sentence2b + '</span>' +
+                                                '<span class="sentence1bb2" style="position:relative; display:none;">' + sentence1bb2 + '</span>' +
+                                                '<span class="sentence1bb2a" style="position:relative; display:none;">' + sentence1bb2a + '</span>' +
+                                                '<br><button class="left-buttonbb third-button">+<br></button>' +
+                                                '<span class="sentence3b">' + sentence3b + '</span>' +
+                                                '<span class="sentence1bb3" style="position:relative; display:none;">' + sentence1bb3 + '</span>' +
+                                                '<span class="sentence1bb3a" style="position:relative; display:none;">' + sentence1bb3a + '</span>' +
+                                                
+                                                '<br>'
+                                                );
+
+                                        // Ustawienie stylu dla przycisków .left-button
+                                        $('.left-button').css('position', 'relative');
+                                        $('.left-buttonb').css('position', 'relative');
+                                        $('.left-buttonbb').css('position', 'relative');
+                                        let $sentence1bb3 = $sentenceDiv.find('.sentence1bb3');
+                                        let $sentence1bb3a = $sentenceDiv.find('.sentence1bb3a');
+                                        console.log('hej20', sentence1b3aVisible); // Upewnij się, że ta linia wyświetla poprawne elementy
+                                        // Ustawienie widoczności i stylu dla .sentence1bb
+                                        // Spróbuj ustawić styl po pewnym czasie, aby upewnić się, że element jest w pełni renderowany
+                                                                                    console.log('hej46', sentence1baVisible);
+                                        if (sentence1b3aVisible) {
+
+                                            $sentence1bb3.css('display', 'block');
+                                            $sentence1bb3.css({
+                                                'display': 'block',
+                                                'margin-bottom': '-40px',
+                                                'top': '8px',
+                                                'position': 'relative'
+                                            });
+                                            console.log('sentence1bb style set to visible');
+                                        }
+                                        if (sentence1b3aVisible) {
+                                            // Pokazujemy zdanie .sentence1bba
+                                            $sentence1bb3a.css('display', 'block');
+                                            $sentence1bb3a.css({
+                                                'margin-bottom': '-0px',
+                                                'top': '18px',
+                                                'position': 'relative'
+                                            });
+                                        };
+                                                                                                    }, 100);
+                                    
+                                        };
+
+                            });
+                            
                         }
 
 
@@ -1755,7 +2290,9 @@ function calculatePartLengths3(fiszki) {
                                 $vidDiv.appendTo($container);
 
                                 // Jeśli kontener nie został jeszcze wybrany, wybierz losowy kontener
-
+                                addBackgroundToText1b(matchingFiszki1, lessonIdToShow1, matchingIndexes, true);
+                                addBackgroundToText2b(matchingFiszki2, lessonIdToShow2, matchingIndexes, true);
+                                addBackgroundToText3b(matchingFiszki3, lessonIdToShow3, matchingIndexes, true);
                             }
                             addVideo2(0);
 
@@ -1764,7 +2301,7 @@ function calculatePartLengths3(fiszki) {
 // Tworzenie nowego elementu div za pomocą jQuery
                         var $sentenceDiv = $('<div></div>');
                         $sentenceDiv.addClass('sentence'); // Dodanie klasy 'sentence'
-                        $sentenceDiv.html(`${sentence10}${sentence11}<br> ${sentence20}${sentence22}<br> ${sentence30}`);
+                        $sentenceDiv.html(`${sentence10}${sentence12}${sentence11}${sentence1bb}<br> ${sentence20}${sentence22}<br> ${sentence30}`);
                         $sentenceDiv.css({
                             'position': 'absolute',
                             'font-size': '18px',
