@@ -2826,3 +2826,89 @@ const lesson3FirstPartLength = partLengths2.find(item => item.id === lessonId3)?
                             });
 
                         }
+                        
+                                        let videosArray = []; // Tablica przechowująca filmy
+
+
+                // Funkcja odtwarzająca losowy film
+                function playRandomVideo() {
+                    const randomIndex = Math.floor(Math.random() * videosArray.length);
+                    const randomVideo = videosArray[randomIndex];
+
+                    randomVideo.style.display = 'block'; // Wyświetl wylosowany film
+                    randomVideo.currentTime = 0; // Przewiń film do początku przed odtworzeniem
+                    randomVideo.play();
+                }
+
+                // Funkcja obsługująca zdarzenie zakończenia odtwarzania filmu
+                function videoEndedHandler2() {
+                    currentVideoIndex = (currentVideoIndex + 1) % imageContainer3Array.length; // Przejście do następnego filmu
+                    playRandomImageContainer3(); // Odtwórz kolejny losowy film
+                }
+
+                // Funkcja wyświetlająca filmy z wybranego zestawu
+                function showVideos(set) {
+                    const videoContainer = document.querySelector('.grid-container');
+                    videoContainer.innerHTML = ''; // Wyczyść poprzednie filmy
+
+                    videosArray = []; // Wyczyść tablicę filmów
+
+                    let selectedVideos = [];
+
+                    // Wybierz zestaw filmów w zależności od wybranego setu
+                    switch (set) {
+                        case 'set2':
+                            selectedVideos = [
+                                {
+                                    videoSrc: "voice/Project3.mp4",
+                                    caption: "Nauka/Emocje/Zwierzęta/Impreza",
+                                    link: "demo.html"
+                                },
+                                {
+                                    videoSrc: "voice/Project4.mp4",
+                                    caption: "Świętowanie/Sport/Zawód/Czynności",
+                                    link: "demo.html"
+                                }
+                                // Dodaj kolejne filmy dla set1
+                            ];
+                            break;
+                            // Dodaj pozostałe przypadki dla innych zestawów
+                        default:
+                            break;
+                    }
+
+                    // Wyświetl filmy dla wybranego zestawu
+                    selectedVideos.forEach(function (videoData) {
+                        const videoLink = document.createElement('a');
+                        videoLink.href = videoData.link || '#';
+
+                        const videoContainer = document.createElement('div');
+                        videoContainer.classList.add('image-container');
+
+                        const videoElement = document.createElement('video');
+                        videoElement.setAttribute('width', '640');
+                        videoElement.setAttribute('height', '360');
+                        videoElement.setAttribute('controls', '');
+                        videoElement.muted = true;
+                        videoElement.controls = false;
+
+                        videoElement.innerHTML = `<source src="${videoData.videoSrc}" type="video/mp4">`;
+                        videoElement.addEventListener('ended', videoEndedHandler);
+
+                        videoLink.appendChild(videoElement); // Umieść film wewnątrz linku
+
+                        videoContainer.appendChild(videoLink); // Umieść link w kontenerze obrazu
+
+                        const captionSpan = document.createElement('span');
+                        captionSpan.classList.add('caption');
+                        captionSpan.textContent = videoData.caption;
+
+                        videoContainer.appendChild(captionSpan);
+
+                        document.querySelector('.grid-container').appendChild(videoContainer);
+                        videosArray.push(videoElement); // Dodaj filmy do tablicy
+                    });
+
+                    playRandomVideo();
+                }
+                showVideos('set2');
