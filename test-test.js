@@ -1417,3 +1417,20 @@ przekazArgument0(null, 55, 1);
                             console.log('hej8', matchingLessons);
                         }
                     }
+                    
+                                                                                        losuj = true;
+                                        if (button0) {
+                                                przekazArgument0(category, index55, true);
+                                                console.log('hej26');
+                                            }
+                                                                                    if (button) {
+                                                przekazArgument(category, index55, true);
+                                            }
+                                                                                    if (button2) {
+                                                przekazArgument2(category, index55, true);
+                                            }
+                                                  if (button3) {
+                                                przekazArgument3(category, index55, true);
+                                            }
+                                        console.log("wykonuje się");
+                                        funkcjaWywolana = true;

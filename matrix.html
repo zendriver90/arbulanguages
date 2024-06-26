@@ -751,7 +751,14 @@
                     });
                     przekazArgument0();
                 }
-
+                                        let button0 = false;
+                                        let button = false;
+                                        let button2 = false;
+                                        let button3 = false;
+                                        let button4 = false;
+                                        let button5 = false;
+                                        let button8 = false;
+                                                        let pulpitstartowy = false;
                 var czasv2;
 // Definicja zmiennej globalnej globalCategory
                 var przyciskKlikniety = false;
@@ -773,6 +780,13 @@
                     if (!category) {
                         category = 'animals';
                     }
+                                    button8 = true;
+                                        button0 = false;
+                                        button = false;
+                                        button2 = false;
+                                        button3 = false;
+                                        button4 = false;
+                                        button5 = false;
                     // Przypisz wartość do zmiennej globalnej
                     globalCategory = category;
                     // Wywołaj funkcję wybierzCharakter
@@ -787,6 +801,13 @@
                     if (!category) {
                         category = 'emocje';
                     }
+                                    button5 = true;
+                                        button0 = false;
+                                        button = false;
+                                        button2 = false;
+                                        button3 = false;
+                                        button4 = false;
+                                        button8 = false;
                     // Przypisz wartość do zmiennej globalnej
                     globalCategory = category;
                     // Wywołaj funkcję wybierzCharakter
@@ -801,6 +822,13 @@
                     if (!category) {
                         category = 'podmiot+czas';
                     }
+                                    button4 = true;
+                                        button0 = false;
+                                        button = false;
+                                        button2 = false;
+                                        button3 = false;
+                                        button5 = false;
+                                        button8 = false;
                     // Przypisz wartość do zmiennej globalnej
                     globalCategory = category;
                     // Wywołaj funkcję wybierzCharakter
@@ -815,6 +843,13 @@
                     if (!category) {
                         category = 'osoby+czas';
                     }
+                                    button3 = true;
+                                        button0 = false;
+                                        button = false;
+                                        button2 = false;
+                                        button4 = false;
+                                        button5 = false;
+                                        button8 = false;
                     // Przypisz wartość do zmiennej globalnej
                     globalCategory = category;
                     // Wywołaj funkcję wybierzCharakter
@@ -829,6 +864,14 @@
                     if (!category) {
                         category = 'zaimkiosobowe';
                     }
+                                        pulpitstartowy = false;
+                                    button2 = true;
+                                        button0 = false;
+                                        button = false;
+                                        button3 = false;
+                                        button4 = false;
+                                        button5 = false;
+                                        button8 = false;
                     // Przypisz wartość do zmiennej globalnej
                     globalCategory = category;
                     // Wywołaj funkcję wybierzCharakter
@@ -843,7 +886,15 @@
                     if (!category) {
                         category = 'osoby';
                     }
+                                        pulpitstartowy = false;
                     przyciskKlikniety = true;
+                                    button = true;
+                                        button0 = false;
+                                        button2 = false;
+                                        button3 = false;
+                                        button4 = false;
+                                        button5 = false;
+                                        button8 = false;
                     // Przypisz wartość do zmiennej globalnej
                     globalCategory = category;
                     tablica10.length = 0;
@@ -856,8 +907,16 @@
                                         if (!category) {
                         category = 'all';
                     }
+                    pulpitstartowy = true;
                     console.log('hej22', category);
                     przyciskKlikniety = true;
+                                    button0 = true;
+                                        button = false;
+                                        button2 = false;
+                                        button3 = false;
+                                        button4 = false;
+                                        button5 = false;
+                                        button8 = false;
                     // Przypisz wartość do zmiennej globalnej
                     globalCategory = category;
                     tablica10.length = 0;
@@ -1271,8 +1330,10 @@
                 let sentence1baVisible = false;
                 let sentence1b3aVisible = false;
                 let buttonindex = false;
+
                 function showCombinedSentenceForLesson(index50, lessonIdToShow1, lessonIdToShow2, lessonIdToShow3, fiszki, matchingIndexes, startIndex, newIndex, indexDiv, lessonsArray, lesson1PartLength, lesson2PartLength, lesson3PartLength, lesson1Sentences, lesson2Sentences, lesson3Sentences, lesson1FirstPartLength, lesson2FirstPartLength, lesson3FirstPartLength, lesson1SecondPartLength, lesson2SecondPartLength, lesson3SecondPartLength, cumulativeFirstPartLength1, cumulativeFirstPartLength2, cumulativeFirstPartLength3) {
                 let isSlashInserted = false;
+
                         const matchingFiszki1 = fiszki.filter(fiszka => fiszka.id[1] === lessonIdToShow1);
                         const matchingFiszki2 = fiszki.filter(fiszka => fiszka.id[1] === lessonIdToShow2);
                         const matchingFiszki3 = fiszki.filter(fiszka => fiszka.id[1] === lessonIdToShow3);
@@ -1299,6 +1360,7 @@
                         function addBackgroundToText(matchingFiszki1, matchingIndexes, currentIndexValue, aktualny, lesson1FirstPartLength, lesson1PartLength) {
                         sentence10 = "";
                                 sentence1bb1 = "";
+
                                 console.log('Rozpoczęcie funkcji addBackgroundToText');
                                 console.log('matchingFiszki1:', matchingFiszki1);
                                 console.log('lessonIdToShow1:', lessonIdToShow1);
@@ -1320,15 +1382,11 @@
                                 const indexToCheck = i + lesson1PartLength + 1;
                                 console.log('indexToCheck5:', indexToCheck);
                                 if (aktualny) {
-                        if (matchingIndexes.includes(indexToCheck) && currentIndexValue == 0) {
-                        console.log('działa2', i + cumulativeFirstPartLength1 + 1);
-                                const spanElement = document.createElement('span');
+                                    if (!matchingIndexes.includes(indexToCheck) && currentIndexValue == 0 && pulpitstartowy) {
+                            console.log('hej67', pulpitstartowy);
+                                                            const spanElement = document.createElement('span');
                                 spanElement.innerHTML = sentencePart; // Użyj innerHTML zamiast textContent
-                                if (!spanElement.classList.contains('highlighted-sentence')) {
-                        spanElement.classList.add('yellow');
-                                spanElement.classList.add('highlighted-sentence');
-                        }
-                        sentencePart = spanElement.outerHTML;
+                            sentencePart = spanElement.outerHTML;
                                 let sentencePart1 = fiszka.translate ? fiszka.translate : "";
                                 sentence1bb1 += sentencePart1 + " ";
                                 let sentencePart1a = fiszka.translateb ? fiszka.translateb : "";
@@ -1361,6 +1419,35 @@
                                         'position': 'relative'
                                 });
                         }
+                        } else if (matchingIndexes.includes(indexToCheck) && currentIndexValue == 0) {
+                        console.log('działa255', matchingIndexes.includes(indexToCheck));
+                                const spanElement = document.createElement('span');
+                                spanElement.innerHTML = sentencePart; // Użyj innerHTML zamiast textContent
+                                if (!spanElement.classList.contains('highlighted-sentence')) {
+                        spanElement.classList.add('yellow');
+                                spanElement.classList.add('highlighted-sentence');
+                        }
+                        sentencePart = spanElement.outerHTML;
+                                                        if ($sentenceDiv.find('.sentence1bba').length === 0) {
+                        $sentenceDiv.append('<div class="sentence1bba"></div>');
+                        }
+                                let sentencePart1a = fiszka.translateb ? fiszka.translateb : "";
+                                sentence1bba += sentencePart1a + " ";
+                                                        console.log('hej1515', sentence1bba);
+                                // Dodaj element do DOM, jeśli jeszcze go nie ma
+                                let $sentence1bba = $sentenceDiv.find('.sentence1bba');
+                                // Ustawienie widoczności i stylu dla .sentence1bb
+                                // Spróbuj ustawić styl po pewnym czasie, aby upewnić się, że element jest w pełni renderowany
+
+
+                        // Pokazujemy zdanie .sentence1bba
+                        $sentence1bba.css({
+                        'display': 'block',
+                                'margin-bottom': '-0px',
+                                        'top': '0px',
+                                        'position': 'relative'
+                                });
+                                                                                        $sentence1bba.html(sentence1bba);
                         } else if (currentIndexValue == 0) {
                         const spanElement = document.createElement('span');
                                 spanElement.innerHTML = sentencePart; // Użyj innerHTML zamiast textContent
@@ -1397,7 +1484,12 @@
                                 const indexToCheck = ii + lesson1PartLength + 1;
                                 console.log('indexToCheck77:', indexToCheck);
                                 if (aktualny) {
-                        if (matchingIndexes.includes(indexToCheck) && currentIndexValue == 0) {
+                            if (!matchingIndexes.includes(indexToCheck) && currentIndexValue == 0 && pulpitstartowy) {
+                            console.log('hej678', pulpitstartowy);
+                                const spanElement = document.createElement('span');
+                                spanElement.innerHTML = sentencePart2; // Użyj innerHTML zamiast textContent
+                            sentencePart2 = spanElement.outerHTML;
+                            } else if (matchingIndexes.includes(indexToCheck) && currentIndexValue == 0 && !pulpitstartowy) {
                         console.log('działa22', indexToCheck);
                                 const spanElement = document.createElement('span');
                                 spanElement.innerHTML = sentencePart2;
@@ -1623,14 +1715,12 @@ $('.sentence1bba').html('');
                         sentencePart = spanElement.outerHTML;
                                 let sentencePart22 = fiszka.translate ? fiszka.translate : "";
                                 sentence1bb1b += sentencePart22 + " ";
-                                let sentencePart1a = fiszka.translateb ? fiszka.translateb : "";
-                                sentence1bba += sentencePart1a + " ";
                                 // Dodaj element do DOM, jeśli jeszcze go nie ma
                                 if ($sentenceDiv.find('.sentence1bb1b').length === 0) {
                         $sentenceDiv.append('<div class="sentence1bb1b"></div>');
                         }
                         let $sentence1bb1b = $sentenceDiv.find('.sentence1bb1b');
-                                let $sentence1bba = $sentenceDiv.find('.sentence1bba');
+                                let $sentence1bba2 = $sentenceDiv.find('.sentence1bba2');
                                 // Ustawienie widoczności i stylu dla .sentence1bb
                                 // Spróbuj ustawić styl po pewnym czasie, aby upewnić się, że element jest w pełni renderowany
                                 if (!sentence1bVisible) {
@@ -1921,8 +2011,6 @@ $('.sentence1bba').html('');
                         sentencePart = spanElement.outerHTML;
                                 let sentencePart1 = fiszka.translate ? fiszka.translate : "";
                                 sentence1bb1c += sentencePart1 + " ";
-                                let sentencePart1a = fiszka.translateb ? fiszka.translateb : "";
-                                sentence1bba += sentencePart1a + " ";
                                 console.log('hej45', sentencePart1);
                                 // Dodaj element do DOM, jeśli jeszcze go nie ma
                                 if ($sentenceDiv.find('.sentence1bb1c').length === 0) {
@@ -2148,16 +2236,26 @@ $('.sentence1bba').html('');
                                 }
 
                         if (newIndex === 0 && !buttonindex) {
+                            console.log('hej33');
                         let funkcjaWywolana = false;
                                 function addVideo1(index) {
                                 console.log('hej80', index);
                                         // Sprawdź, czy jesteśmy poza zakresem tablicy
                                         if (index >= srcWords.length && !funkcjaWywolana) {
-                                setTimeout(function () {
-                                $('.progress-bar').remove();
-                                }, 200); // Opóźnienie w milisekundach (tu: 1 sekunda)
-                                        setFirstFrame();
-                                        przekazArgument();
+                                            console.log('hej123', button0);
+                                        if (button0) {
+                                                przekazArgument0(category, undefined, true);
+                                                console.log('hej26');
+                                            }
+                                                                                    if (button) {
+                                                przekazArgument(category, undefined, true);
+                                            }
+                                                                                    if (button2) {
+                                                przekazArgument2(category, undefined, true);
+                                            }
+                                                  if (button3) {
+                                                przekazArgument3(category, undefined, true);
+                                            }
                                         console.log("wykonuje się");
                                         funkcjaWywolana = true;
                                 }
@@ -2289,13 +2387,26 @@ $('.sentence1bba').html('');
                         let funkcjaWywolana = false;
                                 function addVideo2(index) {
                                 console.log('hej80', index);
+                                        console.log('hej123', button0);
                                         // Sprawdź, czy jesteśmy poza zakresem tablicy
                                         if (index >= srcWords.length && !funkcjaWywolana) {
+                                            console.log('hej123', button0);
                                 setTimeout(function () {
                                 $('.progress-bar').remove();
                                 }, 200); // Opóźnienie w milisekundach (tu: 1 sekunda)
-                                        setFirstFrame();
-                                        przekazArgument();
+                                        if (button0) {
+                                                przekazArgument0(category, undefined, true);
+                                                console.log('hej26');
+                                            }
+                                                                                    if (button) {
+                                                przekazArgument(category, undefined, true);
+                                            }
+                                                                                    if (button2) {
+                                                przekazArgument2(category, undefined, true);
+                                            }
+                                                  if (button3) {
+                                                przekazArgument3(category, undefined, true);
+                                            }
                                         console.log("wykonuje się");
                                         funkcjaWywolana = true;
                                 }
@@ -2473,7 +2584,19 @@ $('.sentence1bba').html('');
                                         buttonindex = true;
                                         setTimeout(() => {
                                         console.log('Kliknięto przycisk o indeksie:', index55);
+                                        if (button0) {
                                                 przekazArgument0(category, index55, true);
+                                                console.log('hej26');
+                                            }
+                                                                                    if (button) {
+                                                przekazArgument(category, index55, true);
+                                            }
+                                                                                    if (button2) {
+                                                przekazArgument2(category, index55, true);
+                                            }
+                                                  if (button3) {
+                                                przekazArgument3(category, index55, true);
+                                            }
                                         }, 100);
                                         // Usunięcie kontenera po wstawieniu nowego
                                 });

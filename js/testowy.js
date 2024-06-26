@@ -1782,7 +1782,7 @@ const fiszki = [
             55,
             10
         ],
-        img: "http://localhost/arbulanguage.com/img/fiszki1/9a.jpg",
+        img: "http://localhost/arbulanguage.com/img/fiszki1/10a.jpg",
         translate: "Mój pies jest dobrym przyjacielem",
         translateb: "[Maj dog is a gud frend]",
         srcWord: "http://localhost/arbulanguage.com/filmy/dog.mp4",
@@ -1804,7 +1804,7 @@ const fiszki = [
             "dog",
             "is"
         ],
-        key: "grandfather",
+        key: "my",
         category1: [ "natura", "florystyka",
                     "związki", "przyjaźń",
                     "nauka", "pory roku"
@@ -1877,7 +1877,7 @@ const fiszki = [
         ],
         key: "a",
         category1: "związki",
-        category2: "praca, biznes"
+        category2: ""
     },
     {
         id: [
