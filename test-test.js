@@ -1434,3 +1434,1129 @@ przekazArgument0(null, 55, 1);
                                             }
                                         console.log("wykonuje się");
                                         funkcjaWywolana = true;
+                                        
+                                                                uniqueMatchingLessons.forEach(lessonId => {
+                            showCombinedSentenceForLesson2(lessonId, fiszki);
+                        });
+                        
+                        function showCombinedSentenceForLesson3(lessonIdToShow1, lessonIdToShow2, lessonIdToShow3, lesson1Sentences, lesson2Sentences, lesson3Sentences, fiszki, matchingIndexes, startIndex, newIndex, indexDiv, lessonsArray) {
+                        console.log('załadowane');
+                                const matchingFiszki1 = fiszki.filter(fiszka => fiszka.id[1] === lessonIdToShow1);
+                                const matchingFiszki2 = fiszki.filter(fiszka => fiszka.id[1] === lessonIdToShow2);
+                                const matchingFiszki3 = fiszki.filter(fiszka => fiszka.id[1] === lessonIdToShow3);
+                                if (matchingFiszki1.length > 0 && matchingFiszki2.length > 0 && matchingFiszki3.length > 0) {
+                        const $container = $('<div></div>'); // Tworzymy nowy element div za pomocą jQuery
+                                $container.addClass('image-container3'); // Dodajemy klasę do nowego diva
+                                $container.css('position', 'relative'); // Ustawiamy pozycję diva na relative
+
+                                // Możesz również dodać dodatkowe atrybuty, takie jak 'data-lesson'
+                                $container.attr('data-lesson', indexDiv);
+                                // Dodajemy nowy div do istniejącego kontenera .grid-container
+                                $('.grid-container').append($container);
+                                const srcWord1 = pobierzSrcWordDlaLekcji(lessonIdToShow1, fiszki);
+                                const srcWord2 = pobierzSrcWordDlaLekcji(lessonIdToShow2, fiszki);
+                                const srcWord3 = pobierzSrcWordDlaLekcji(lessonIdToShow3, fiszki);
+                                function pobierzSrcWordDlaLekcji(lessonId, fiszki) {
+                                const matchingFiszka = fiszki.find(fiszka => fiszka.id[1] === lessonId);
+                                        return matchingFiszka ? matchingFiszka.srcWord : null;
+                                }
+
+                        let sentence1 = ""; // Deklaracja zmiennej sentence1 na poziomie lokalnym
+
+                                function addBackgroundToText(matchingFiszki1, lessonIdToShow1, matchingIndexes, currentIndexValue, aktualny) {
+                                sentence1 = "";
+                                        console.log('działa1');
+                                        console.log('hej1', matchingFiszki1);
+                                        console.log('hej2', lessonIdToShow1);
+                                        console.log('hej3', matchingIndexes);
+                                        console.log('hej4', sentence1); // Użycie zmiennej sentence1
+                                        console.log('hej5', currentIndexValue);
+                                        for (let i = 0; i < matchingFiszki1.length; i++) {
+                                const fiszka = matchingFiszki1[i];
+                                        console.log('hej38', fiszka);
+                                        let sentencePart = fiszka.sentence[i % 3]; // Domyślnie używaj zdania bez zmian
+                                        console.log('hej30', sentencePart);
+                                        // Sprawdź, czy indeks jest równy 0
+                                        if (aktualny) {
+                                if (matchingIndexes.includes(i + (lessonIdToShow1 - 1) * 6 + 1) && currentIndexValue == 0) {
+                                // Sprawdzenie, czy indeks bieżącej fiszki znajduje się w tablicy matchingIndexes
+                                const spanElement = document.createElement('span');
+                                        spanElement.textContent = sentencePart;
+                                        if (!spanElement.classList.contains('highlighted-sentence')) {
+                                spanElement.classList.add('yellow');
+                                        spanElement.classList.add('highlighted-sentence');
+                                }
+                                // Zaktualizuj sentencePart, aby zawierał utworzony element span
+                                sentencePart = spanElement.outerHTML;
+                                        console.log(`Zaznaczono słowo ${i + (lessonIdToShow1 - 1) * 6 + 1} w pierwszym zestawie fiszek.`);
+                                } else if (currentIndexValue == 0) {
+                                const spanElement = document.createElement('span');
+                                        spanElement.textContent = sentencePart;
+                                        spanElement.classList.add('highlighted-sentence');
+                                        // Zaktualizuj sentencePart, aby zawierał utworzony element span
+                                        sentencePart = spanElement.outerHTML;
+                                        console.log(`Zaznaczono słowo ${i + (lessonIdToShow1 - 1) * 6 + 1} w pierwszym zestawie fiszek.`);
+                                } else if (currentIndexValue == 1 && matchingIndexes.includes(i + (lessonIdToShow1 - 1) * 6 + 1)) {
+                                const spanElement = document.createElement('span');
+                                        spanElement.textContent = sentencePart;
+                                        spanElement.classList.remove('highlighted-sentence');
+                                        spanElement.classList.add('yellow');
+                                        // Zaktualizuj sentencePart, aby zawierał utworzony element span
+                                        sentencePart = spanElement.outerHTML;
+                                        console.log(`Zaznaczono słowo ${i + (lessonIdToShow1 - 1) * 6 + 1} w pierwszym zestawie fiszek.`);
+                                }
+                                }
+
+                                sentence1 += sentencePart + " ";
+                                }
+                                console.log('Zawartość zmiennej sentence1:', sentence1); // Wyświetlenie zawartości zmiennej sentence1
+                                        $sentenceDiv.html(`${sentence10}${sentence11}<br> ${sentence20}${sentence22}<br> ${sentence30}${sentence33}`);
+                                        $('#insertSlashButton').on('click', function () {
+                                if (!isSlashInserted) {
+                                $('#sentence12').show();
+                                        $sentenceDiv.html(`${sentence10}${sentence12}${sentence11}<br>${sentence20}${sentence12}${sentence22}<br>${sentence30}${sentence12}${sentence33}`);
+                                        isSlashInserted = true;
+                                }
+                                });
+                                        setTimeout(() => {
+                                        if (isSlashInserted) {
+                                        $('#sentence12').show();
+                                                $sentenceDiv.html(`${sentence10}${sentence12}${sentence11}<br>${sentence20}${sentence12}${sentence22}<br>${sentence30}${sentence12}${sentence33}`);
+                                        }
+                                        }, 10);
+                                }
+
+                        let sentence2 = ""; // Deklaracja zmiennej sentence1 na poziomie lokalnym
+
+                                function addBackgroundToText2(matchingFiszki2, lessonIdToShow2, matchingIndexes, currentIndexValue, aktualny) {
+                                sentence2 = "";
+                                        console.log('działa1');
+                                        console.log('hej1', matchingFiszki1);
+                                        console.log('hej2', lessonIdToShow1);
+                                        console.log('hej3', matchingIndexes);
+                                        console.log('hej4', sentence1); // Użycie zmiennej sentence1
+                                        console.log('hej5', currentIndexValue);
+                                        for (let j = 0; j < matchingFiszki2.length; j++) {
+                                const fiszka = matchingFiszki2[j];
+                                        let sentencePart = fiszka.sentence[j % 3]; // Domyślnie używaj zdania bez zmian
+                                        console.log('hej30', sentencePart);
+                                        // Sprawdź, czy indeks jest równy 0
+                                        if (aktualny) {
+                                if (matchingIndexes.includes(j + (lessonIdToShow2 - 1) * 6 + 1) && currentIndexValue == 0) {
+                                const spanElement = document.createElement('span');
+                                        spanElement.textContent = sentencePart;
+                                        spanElement.classList.remove('highlighted-sentence');
+                                        spanElement.classList.add('yellow');
+                                        // Zaktualizuj sentencePart, aby zawierał utworzony element span
+                                        sentencePart = spanElement.outerHTML;
+                                        console.log(`Zaznaczono słowo ${j + (lessonIdToShow2 - 1) * 6 + 1} w pierwszym zestawie fiszek.`);
+                                } else if (matchingIndexes.includes(j + (lessonIdToShow2 - 1) * 6 + 1) && currentIndexValue == 1) {
+                                // Sprawdzenie, czy indeks bieżącej fiszki znajduje się w tablicy matchingIndexes
+                                const spanElement = document.createElement('span');
+                                        spanElement.textContent = sentencePart;
+                                        if (!spanElement.classList.contains('yellow')) {
+                                spanElement.classList.add('yellow');
+                                        spanElement.classList.add('highlighted-sentence');
+                                }
+                                // Zaktualizuj sentencePart, aby zawierał utworzony element span
+                                sentencePart = spanElement.outerHTML;
+                                        console.log(`Zaznaczono słowo ${j + (lessonIdToShow2 - 1) * 6 + 1} w pierwszym zestawie fiszek.`);
+                                } else if (currentIndexValue == 1) {
+                                const spanElement = document.createElement('span');
+                                        spanElement.textContent = sentencePart;
+                                        spanElement.classList.add('highlighted-sentence');
+                                        // Zaktualizuj sentencePart, aby zawierał utworzony element span
+                                        sentencePart = spanElement.outerHTML;
+                                        console.log(`Zaznaczono słowo ${j + (lessonIdToShow2 - 1) * 6 + 1} w pierwszym zestawie fiszek.`);
+                                } else if (currentIndexValue == 2 && matchingIndexes.includes(j + (lessonIdToShow1 - 1) * 6 + 1)) {
+                                const spanElement = document.createElement('span');
+                                        spanElement.textContent = sentencePart;
+                                        spanElement.classList.remove('highlighted-sentence');
+                                        spanElement.classList.add('yellow');
+                                        // Zaktualizuj sentencePart, aby zawierał utworzony element span
+                                        sentencePart = spanElement.outerHTML;
+                                        console.log(`Zaznaczono słowo ${j + (lessonIdToShow2 - 1) * 6 + 1} w pierwszym zestawie fiszek.`);
+                                }
+                                }
+
+                                sentence2 += sentencePart + " ";
+                                }
+                                console.log('Zawartość zmiennej sentence1:', sentence1); // Wyświetlenie zawartości zmiennej sentence1
+                                        $sentenceDiv.html(`${sentence10}${sentence11}<br> ${sentence20}${sentence22}<br> ${sentence30}${sentence33}`);
+                                        $('#insertSlashButton').on('click', function () {
+                                if (!isSlashInserted) {
+                                $('#sentence12').show();
+                                        $sentenceDiv.html(`${sentence10}${sentence12}${sentence11}<br>${sentence20}${sentence12}${sentence22}<br>${sentence30}${sentence12}${sentence33}`);
+                                        isSlashInserted = true;
+                                }
+                                });
+                                        setTimeout(() => {
+                                        if (isSlashInserted) {
+                                        $('#sentence12').show();
+                                                $sentenceDiv.html(`${sentence10}${sentence12}${sentence11}<br>${sentence20}${sentence12}${sentence22}<br>${sentence30}${sentence12}${sentence33}`);
+                                        }
+                                        }, 10);
+                                }
+
+                        let sentence3 = ""; // Deklaracja zmiennej sentence1 na poziomie lokalnym
+
+                                function addBackgroundToText3(matchingFiszki3, lessonIdToShow3, matchingIndexes, currentIndexValue, aktualny) {
+                                sentence3 = "";
+                                        console.log('działa1');
+                                        console.log('hej1', matchingFiszki1);
+                                        console.log('hej2', lessonIdToShow1);
+                                        console.log('hej3', matchingIndexes);
+                                        console.log('hej4', sentence1); // Użycie zmiennej sentence1
+                                        console.log('hej5', currentIndexValue);
+                                        for (let k = 0; k < matchingFiszki3.length; k++) {
+                                const fiszka = matchingFiszki3[k];
+                                        let sentencePart = fiszka.sentence[k % 3]; // Domyślnie używaj zdania bez zmian
+                                        console.log('hej30', sentencePart);
+                                        // Sprawdź, czy indeks jest równy 0
+                                        if (aktualny) {
+                                if (matchingIndexes.includes(k + (lessonIdToShow3 - 1) * 6 + 1) && currentIndexValue == 1) {
+                                const spanElement = document.createElement('span');
+                                        spanElement.textContent = sentencePart;
+                                        spanElement.classList.remove('highlighted-sentence');
+                                        spanElement.classList.add('yellow');
+                                        // Zaktualizuj sentencePart, aby zawierał utworzony element span
+                                        sentencePart = spanElement.outerHTML;
+                                } else if (matchingIndexes.includes(k + (lessonIdToShow3 - 1) * 6 + 1) && currentIndexValue == 2) {
+                                // Sprawdzenie, czy indeks bieżącej fiszki znajduje się w tablicy matchingIndexes
+                                const spanElement = document.createElement('span');
+                                        spanElement.textContent = sentencePart;
+                                        if (!spanElement.classList.contains('yellow')) {
+                                spanElement.classList.add('yellow');
+                                        spanElement.classList.add('highlighted-sentence');
+                                }
+                                // Zaktualizuj sentencePart, aby zawierał utworzony element span
+                                sentencePart = spanElement.outerHTML;
+                                } else if (currentIndexValue == 2) {
+                                const spanElement = document.createElement('span');
+                                        spanElement.textContent = sentencePart;
+                                        spanElement.classList.add('highlighted-sentence');
+                                        // Zaktualizuj sentencePart, aby zawierał utworzony element span
+                                        sentencePart = spanElement.outerHTML;
+                                } else if (currentIndexValue == 0 && matchingIndexes.includes(k + (lessonIdToShow3 - 1) * 6 + 1)) {
+                                const spanElement = document.createElement('span');
+                                        spanElement.textContent = sentencePart;
+                                        spanElement.classList.remove('highlighted-sentence');
+                                        spanElement.classList.add('yellow');
+                                        // Zaktualizuj sentencePart, aby zawierał utworzony element span
+                                        sentencePart = spanElement.outerHTML;
+                                }
+                                }
+
+                                sentence3 += sentencePart + " ";
+                                }
+                                console.log('Zawartość zmiennej sentence1:', sentence1); // Wyświetlenie zawartości zmiennej sentence1
+                                        $sentenceDiv.html(`${sentence10}${sentence11}<br> ${sentence20}${sentence22}<br> ${sentence30}${sentence33}`);
+                                        $('#insertSlashButton').on('click', function () {
+                                if (!isSlashInserted) {
+                                $('#sentence12').show();
+                                        $sentenceDiv.html(`${sentence10}${sentence12}${sentence11}<br>${sentence20}${sentence12}${sentence22}<br>${sentence30}${sentence12}${sentence33}`);
+                                        isSlashInserted = true;
+                                }
+                                });
+                                        setTimeout(() => {
+                                        if (isSlashInserted) {
+                                        $('#sentence12').show();
+                                                $sentenceDiv.html(`${sentence10}${sentence12}${sentence11}<br>${sentence20}${sentence12}${sentence22}<br>${sentence30}${sentence12}${sentence33}`);
+                                        }
+                                        }, 10);
+                                }
+
+                        const srcWords = [srcWord1, srcWord2, srcWord3];
+                                let videoDurations = [];
+                                let totalDuration = 0;
+                                for (let i = 0; i < srcWords.length; i++) {
+                        const video = document.createElement('video');
+                                video.src = srcWords[i];
+                                video.addEventListener('loadedmetadata', function () {
+                                totalDuration += this.duration;
+                                        console.log('tablica8', totalDuration);
+                                });
+                        }
+                        console.log('tablica11', videoDurations);
+                                function removePreviousVideo() {
+                                const previousVideo = $container.find('video'); // Poprawne odwołanie do poprzedniego wideo
+                                        if (previousVideo.length > 0) {
+                                previousVideo.remove(); // Usunięcie poprzedniego wideo z kontenera
+                                }
+                                }
+
+                        if (index50 === 0) {
+                        // Znajdź kontener, przed którym chcesz wstawić nowy kontener
+                        const containerToInsertBefore = document.querySelector(`.image-container3[data-lesson="${indexDiv + 1}"]`);
+                                const newContainer = document.querySelector(`.image-container3[data-lesson="${indexDiv}"]`);
+// Wstaw nowy kontener przed kontenerem znalezionym w poprzednim kroku
+                                if (containerToInsertBefore) {
+                        containerToInsertBefore.parentNode.insertBefore(newContainer, containerToInsertBefore);
+                        } else {
+                        console.error('Nie można znaleźć kontenera, przed którym należy wstawić nowy kontener.');
+                        }
+                        console.log('Adres URL pierwszego filmu:', srcWords[0]);
+                                let funkcjaWywolana = false;
+                                function addVideo(index) {
+                                console.log('hej78', index);
+                                        // Sprawdź, czy jesteśmy poza zakresem tablicy
+
+                                        if (index >= srcWords.length && !funkcjaWywolana) {
+                                // Ustawienie pierwszego filmu jako tła kontenera
+                                setTimeout(function () {
+                                $('.progress-bar2').remove();
+                                }, 200); // Opóźnienie w milisekundach (tu: 1 sekunda)
+                                        setFirstFrame2();
+                                        przekazArgument();
+                                        console.log("wykonuje się");
+                                }
+                                // Usuń poprzednie wideo
+                                removePreviousVideo();
+                                        console.log('hej78', index);
+                                        const $vidDiv = $('<div>').addClass('background-video');
+// Utwórz element <video> i ustaw atrybuty
+                                        const $videoElement = $('<video>').attr({
+                                'autoplay': true, // Automatyczne odtwarzanie wideo
+                                        'muted': true, // Wyciszenie dźwięku wideo
+                                        'loop': true      // Zapętlenie wideo
+                                });
+                                        // Dodaj klasę CSS zależnie od indeksu wideo
+                                        if (index === 0) {
+                                $videoElement.addClass('scaled-video');
+                                } else {
+                                $videoElement.addClass('next-video');
+                                }
+// Utwórz element <source> dla wideo i ustaw atrybuty
+                                const $sourceElement = $('<source>').attr({
+                                'src': srcWords[index], // Poprawne użycie interpolacji
+                                        'type': 'video/mp4'     // Typ pliku wideo
+                                });
+// Dodaj element source do elementu video
+                                        $sourceElement.appendTo($videoElement);
+// Dodaj element video do diva dla wideo
+                                        $videoElement.appendTo($vidDiv);
+                                        // Dodaj element <source> do elementu <video>
+
+                                        // Obsługa błędu ładowania wideo
+                                        $videoElement.onerror = function () {
+                                        console.error('Nie można załadować pliku wideo.');
+                                        };
+                                        let currentIndexValue = [];
+                                        $videoElement.on('loadedmetadata', function () {
+                                        const videoDuration = this.duration;
+                                                videoDurations[index] = videoDuration;
+                                                console.log('tablica7', totalDuration);
+                                                $videoElement.on('timeupdate', function () {
+                                                let adjustedProgress = 0;
+                                                        for (let i = 0; i < index; i++) {
+                                                adjustedProgress += (videoDurations[i] / totalDuration) * 100;
+                                                }
+                                                adjustedProgress += (this.currentTime / videoDuration) * (videoDurations[index] / totalDuration) * 100;
+                                                        updateProgress2(adjustedProgress);
+                                                        console.log('funkcja tutaj dociera');
+                                                        console.log('hej77', index);
+                                                        // Sprawdź, czy wartość index nie została jeszcze dodana do tablicy currentIndex
+                                                        if (!currentIndexValue.includes(index)) {
+                                                // Dodaj index do tablicy currentIndex
+                                                currentIndexValue.push(index);
+                                                        console.log('hej7', currentIndexValue);
+                                                        // Wywołaj funkcję addBackgroundToText tylko raz
+                                                        if (currentIndexValue[0] === 0 || currentIndexValue[0] === 1) {
+                                                addBackgroundToText(matchingFiszki1, lessonIdToShow1, matchingIndexes, currentIndexValue, true);
+                                                        addBackgroundToText2(matchingFiszki2, lessonIdToShow2, matchingIndexes, currentIndexValue, true);
+                                                        addBackgroundToText3(matchingFiszki3, lessonIdToShow3, matchingIndexes, currentIndexValue, true);
+                                                }
+                                                if (currentIndexValue[0] === 1 || currentIndexValue[0] === 2) {
+                                                addBackgroundToText2(matchingFiszki2, lessonIdToShow2, matchingIndexes, currentIndexValue, true);
+                                                        addBackgroundToText3(matchingFiszki3, lessonIdToShow3, matchingIndexes, currentIndexValue, true);
+                                                }
+                                                if (currentIndexValue[0] === 2 || currentIndexValue[0] === 3) {
+                                                addBackgroundToText3(matchingFiszki3, lessonIdToShow3, matchingIndexes, currentIndexValue, true);
+                                                }
+                                                }
+
+                                                // Sprawdź, czy wideo zostało zakończone
+                                                if ($videoElement[0].duration - $videoElement[0].currentTime < 1) {
+                                                console.log('Wideo zakończone, uruchamiam następne.');
+                                                        // Odtwórz następne wideo po zakończeniu poprzedniego
+                                                        addVideo(index + 1);
+                                                        updateProgress2(0);
+                                                }
+                                                });
+                                        });
+                                        // Dodaj div z wideo do tła kontenera
+                                        $vidDiv.appendTo($container);
+                                        function setFirstFrame2() {
+                                        // Tworzenie nowego wideo
+                                        const video = document.createElement('video');
+                                                video.src = srcWords[0]; // Ustawienie pierwszego filmu
+                                                video.muted = true;
+                                                video.preload = 'metadata'; // Wczytanie metadanych filmu, ale nie całego filmu
+
+                                                // Odczytanie pierwszej klatki wideo jako obraz
+                                                video.addEventListener('loadeddata', function () {
+                                                const canvas = document.createElement('canvas');
+                                                        canvas.width = this.videoWidth;
+                                                        canvas.height = this.videoHeight;
+                                                        const ctx = canvas.getContext('2d');
+                                                        ctx.drawImage(this, 0, 0, canvas.width, canvas.height);
+                                                        // Ustawienie pierwszej klatki jako tło kontenera
+                                                        $container.css({
+                                                        'background-image': 'url(' + canvas.toDataURL() + ')',
+                                                                'background-size': 'cover',
+                                                                'background-position': 'center',
+                                                                'background-repeat': 'no-repeat'
+                                                        });
+                                                });
+                                                // Rozpoczęcie odtwarzania wideo, aby odczytać pierwszą klatkę
+                                                video.play();
+                                        }
+                                function updateProgress2(progress) {
+                                // Aktualizuj pasek postępu na dole kontenera
+                                $('.progress-bar2').css('width', progress + '%');
+                                }
+
+// Inicjalizacja paska postępu
+                                const $progressBar2 = $('<div>').addClass('progress-bar2');
+                                        $progressBar2.css({
+                                        'position': 'absolute',
+                                                'z-index': '2',
+                                                'bottom': '0',
+                                                'left': '0',
+                                                'height': '5px', // Wysokość paska postępu
+                                                'background-color': '#007bff', // Kolor paska postępu
+                                                'width': '140%', // Delikatne powiększenie paska postępu o 2% w każdym kierunku
+                                                'margin-bottom': '-2%',
+                                                'margin-left': '-4%',
+                                                'margin-right': '-4%'// Zapewnienie równowagi dla powiększenia paska postępu
+                                        });
+                                        $progressBar2.appendTo($container);
+                                }
+                        addVideo(0);
+                        } else {
+                        function addVideo2(index) {
+                        // Sprawdź, czy jesteśmy poza zakresem tablicy
+                        console.log('hej78', index);
+                                const $vidDiv = $('<div>').addClass('background-video');
+// Utwórz element <video> i ustaw atrybuty
+                                const $videoElement = $('<video>').attr({
+                        'muted': true, // Wyciszenie dźwięku wideo
+                                'loop': true      // Zapętlenie wideo
+                        });
+                                // Zatrzymaj odtwarzanie wideo
+
+
+// Utwórz element <source> dla wideo i ustaw atrybuty
+                                const $sourceElement = $('<source>').attr({
+                        'src': srcWords[index], // Poprawne użycie interpolacji
+                                'type': 'video/mp4'     // Typ pliku wideo
+                        });
+// Dodaj element source do elementu video
+                                $sourceElement.appendTo($videoElement);
+// Dodaj element video do diva dla wideo
+                                $videoElement.appendTo($vidDiv);
+                                if ($videoElement && !$videoElement.paused) {
+                        $videoElement.pause();
+                        }
+                        // Dodaj element <source> do elementu <video>
+
+                        // Obsługa błędu ładowania wideo
+                        $videoElement.onerror = function () {
+                        console.error('Nie można załadować pliku wideo.');
+                        };
+                                let currentIndexValue = [];
+                                // Obsługa zdarzenia timeupdate
+                                $videoElement.on('timeupdate', function () {
+                                console.log('hej77', index);
+                                        // Sprawdź, czy wartość index nie została jeszcze dodana do tablicy currentIndex
+                                        if (!currentIndexValue.includes(index)) {
+                                // Dodaj index do tablicy currentIndex
+                                currentIndexValue.push(index);
+                                        console.log('hej70', currentIndexValue);
+                                        // Wywołaj funkcję addBackgroundToText tylko raz
+                                        if (currentIndexValue[0] === 0 || currentIndexValue[0] === 1) {
+                                addBackgroundToText(matchingFiszki1, lessonIdToShow1, matchingIndexes, currentIndexValue, true);
+                                        addBackgroundToText2(matchingFiszki2, lessonIdToShow2, matchingIndexes, currentIndexValue, true);
+                                        addBackgroundToText3(matchingFiszki3, lessonIdToShow3, matchingIndexes, currentIndexValue, true);
+                                }
+                                if (currentIndexValue[0] === 1 || currentIndexValue[0] === 2) {
+                                addBackgroundToText2(matchingFiszki2, lessonIdToShow2, matchingIndexes, currentIndexValue, true);
+                                        addBackgroundToText3(matchingFiszki3, lessonIdToShow3, matchingIndexes, currentIndexValue, true);
+                                }
+                                if (currentIndexValue[0] === 2 || currentIndexValue[0] === 3) {
+                                addBackgroundToText3(matchingFiszki3, lessonIdToShow3, matchingIndexes, currentIndexValue, true);
+                                }
+                                }
+
+                                // Sprawdź, czy wideo zostało zakończone
+                                if ($videoElement[0].duration - $videoElement[0].currentTime < 1) {
+                                console.log('Wideo zakończone, uruchamiam następne.');
+                                        // Odtwórz następne wideo po zakończeniu poprzedniego
+                                        addVideo(index + 1);
+                                }
+                                });
+                                // Dodaj div z wideo do tła kontenera
+                                $vidDiv.appendTo($container);
+                                // Jeśli kontener nie został jeszcze wybrany, wybierz losowy kontener
+
+                        }
+                        addVideo2(0);
+                        }
+                        // Pobierz pierwszy element .image-container
+                        var $sentenceDiv = $('<div></div>'); // Utwórz nowy element div za pomocą jQuery
+                                $sentenceDiv.addClass('sentence');
+                                $sentenceDiv.html(`${sentence1}<br> ${sentence2}<br> ${sentence3}`);
+                                $sentenceDiv.css({
+                                'position': 'absolute',
+                                        'font-size': '18px',
+                                        'bottom': '0',
+                                        'text-align': 'center',
+                                        'z-index': '1'
+                                });
+                                // Dodaj div z zdaniem do kontenera
+                                $sentenceDiv.appendTo($container);
+                                tablica10.push(srcWords);
+                                console.log('hej6', tablica10);
+                        }
+                        // Deklaracja tablicy, która będzie zawierać wszystkie tablice
+                        }
+                        
+                        function showCombinedSentenceForLesson4(lessonIdToShow1, lessonIdToShow2, lessonIdToShow3, fiszki, matchingIndexes, startIndex, newIndex, indexDiv, lessonsArray, index50) {
+                        console.log('załadowane2');
+                                const matchingFiszki1 = fiszki.filter(fiszka => fiszka.id[1] === lessonIdToShow1);
+                                const matchingFiszki2 = fiszki.filter(fiszka => fiszka.id[1] === lessonIdToShow2);
+                                const matchingFiszki3 = fiszki.filter(fiszka => fiszka.id[1] === lessonIdToShow3);
+                                setTimeout(() => {
+                                if (matchingFiszki1.length > 0 && matchingFiszki2.length > 0 && matchingFiszki3.length > 0) {
+                                const $container = $('<div></div>'); // Tworzymy nowy element div za pomocą jQuery
+                                        $container.addClass('image-container3'); // Dodajemy klasę do nowego diva
+                                        $container.css('position', 'relative'); // Ustawiamy pozycję diva na relative
+
+                                        // Możesz również dodać dodatkowe atrybuty, takie jak 'data-lesson'
+                                        $container.attr('data-lesson', indexDiv);
+                                        // Dodajemy nowy div do istniejącego kontenera .grid-container
+                                        $('.grid-container').append($container);
+                                        const srcWord1 = pobierzSrcWordDlaLekcji(lessonIdToShow1, fiszki);
+                                        const srcWord2 = pobierzSrcWordDlaLekcji(lessonIdToShow2, fiszki);
+                                        const srcWord3 = pobierzSrcWordDlaLekcji(lessonIdToShow3, fiszki);
+                                        function pobierzSrcWordDlaLekcji(lessonId, fiszki) {
+                                        const matchingFiszka = fiszki.find(fiszka => fiszka.id[1] === lessonId);
+                                                return matchingFiszka ? matchingFiszka.srcWord : null;
+                                        }
+
+                                let sentence10 = ""; // Deklaracja zmiennej sentence1 na poziomie lokalnym
+
+                                        function addBackgroundToText11(matchingFiszki1, lessonIdToShow1, matchingIndexes, currentIndexValue, aktualny) {
+                                        sentence1 = "";
+                                                console.log('działa1');
+                                                console.log('hej1', matchingFiszki1);
+                                                console.log('hej2', lessonIdToShow1);
+                                                console.log('hej3', matchingIndexes);
+                                                console.log('hej4', sentence1); // Użycie zmiennej sentence1
+                                                console.log('hej5', currentIndexValue);
+                                                for (let i = 0; i < matchingFiszki1.length; i++) {
+                                        const fiszka = matchingFiszki1[i];
+                                                console.log('hej38', fiszka);
+                                                let sentencePart = fiszka.sentence[i % 3]; // Domyślnie używaj zdania bez zmian
+                                                console.log('hej30', sentencePart);
+                                                // Sprawdź, czy indeks jest równy 0
+                                                if (aktualny) {
+                                        if (matchingIndexes.includes(i + (lessonIdToShow1 - 1) * 6 + 1) && currentIndexValue == 0) {
+                                        // Sprawdzenie, czy indeks bieżącej fiszki znajduje się w tablicy matchingIndexes
+                                        const spanElement = document.createElement('span');
+                                                spanElement.textContent = sentencePart;
+                                                if (!spanElement.classList.contains('highlighted-sentence')) {
+                                        spanElement.classList.add('yellow');
+                                                spanElement.classList.add('highlighted-sentence');
+                                        }
+                                        // Zaktualizuj sentencePart, aby zawierał utworzony element span
+                                        sentencePart = spanElement.outerHTML;
+                                                console.log(`Zaznaczono słowo ${i + (lessonIdToShow1 - 1) * 6 + 1} w pierwszym zestawie fiszek.`);
+                                        } else if (currentIndexValue == 0) {
+                                        const spanElement = document.createElement('span');
+                                                spanElement.textContent = sentencePart;
+                                                spanElement.classList.add('highlighted-sentence');
+                                                // Zaktualizuj sentencePart, aby zawierał utworzony element span
+                                                sentencePart = spanElement.outerHTML;
+                                                console.log(`Zaznaczono słowo ${i + (lessonIdToShow1 - 1) * 6 + 1} w pierwszym zestawie fiszek.`);
+                                        } else if (currentIndexValue == 1 && matchingIndexes.includes(i + (lessonIdToShow1 - 1) * 6 + 1)) {
+                                        const spanElement = document.createElement('span');
+                                                spanElement.textContent = sentencePart;
+                                                spanElement.classList.remove('highlighted-sentence');
+                                                spanElement.classList.add('yellow');
+                                                // Zaktualizuj sentencePart, aby zawierał utworzony element span
+                                                sentencePart = spanElement.outerHTML;
+                                                console.log(`Zaznaczono słowo ${i + (lessonIdToShow1 - 1) * 6 + 1} w pierwszym zestawie fiszek.`);
+                                        }
+                                        }
+
+                                        sentence10 += sentencePart + " ";
+                                        }
+                                        console.log('Zawartość zmiennej sentence1:', sentence1); // Wyświetlenie zawartości zmiennej sentence1
+                                                $sentenceDiv.html(`${sentence10}<br> ${sentence20}<br> ${sentence30}`);
+                                        }
+
+                                let sentence20 = ""; // Deklaracja zmiennej sentence1 na poziomie lokalnym
+
+                                        function addBackgroundToText22(matchingFiszki2, lessonIdToShow2, matchingIndexes, currentIndexValue, aktualny) {
+                                        sentence2 = "";
+                                                console.log('działa1');
+                                                console.log('hej1', matchingFiszki1);
+                                                console.log('hej2', lessonIdToShow1);
+                                                console.log('hej3', matchingIndexes);
+                                                console.log('hej4', sentence1); // Użycie zmiennej sentence1
+                                                console.log('hej5', currentIndexValue);
+                                                for (let j = 0; j < matchingFiszki2.length; j++) {
+                                        const fiszka = matchingFiszki2[j];
+                                                let sentencePart = fiszka.sentence[j % 3]; // Domyślnie używaj zdania bez zmian
+                                                console.log('hej30', sentencePart);
+                                                // Sprawdź, czy indeks jest równy 0
+                                                if (aktualny) {
+                                        if (matchingIndexes.includes(j + (lessonIdToShow2 - 1) * 6 + 1) && currentIndexValue == 0) {
+                                        const spanElement = document.createElement('span');
+                                                spanElement.textContent = sentencePart;
+                                                spanElement.classList.remove('highlighted-sentence');
+                                                spanElement.classList.add('yellow');
+                                                // Zaktualizuj sentencePart, aby zawierał utworzony element span
+                                                sentencePart = spanElement.outerHTML;
+                                                console.log(`Zaznaczono słowo ${j + (lessonIdToShow2 - 1) * 6 + 1} w pierwszym zestawie fiszek.`);
+                                        } else if (matchingIndexes.includes(j + (lessonIdToShow2 - 1) * 6 + 1) && currentIndexValue == 1) {
+                                        // Sprawdzenie, czy indeks bieżącej fiszki znajduje się w tablicy matchingIndexes
+                                        const spanElement = document.createElement('span');
+                                                spanElement.textContent = sentencePart;
+                                                if (!spanElement.classList.contains('yellow')) {
+                                        spanElement.classList.add('yellow');
+                                                spanElement.classList.add('highlighted-sentence');
+                                        }
+                                        // Zaktualizuj sentencePart, aby zawierał utworzony element span
+                                        sentencePart = spanElement.outerHTML;
+                                                console.log(`Zaznaczono słowo ${j + (lessonIdToShow2 - 1) * 6 + 1} w pierwszym zestawie fiszek.`);
+                                        } else if (currentIndexValue == 1) {
+                                        const spanElement = document.createElement('span');
+                                                spanElement.textContent = sentencePart;
+                                                spanElement.classList.add('highlighted-sentence');
+                                                // Zaktualizuj sentencePart, aby zawierał utworzony element span
+                                                sentencePart = spanElement.outerHTML;
+                                                console.log(`Zaznaczono słowo ${j + (lessonIdToShow2 - 1) * 6 + 1} w pierwszym zestawie fiszek.`);
+                                        } else if (currentIndexValue == 2 && matchingIndexes.includes(j + (lessonIdToShow1 - 1) * 6 + 1)) {
+                                        const spanElement = document.createElement('span');
+                                                spanElement.textContent = sentencePart;
+                                                spanElement.classList.remove('highlighted-sentence');
+                                                spanElement.classList.add('yellow');
+                                                // Zaktualizuj sentencePart, aby zawierał utworzony element span
+                                                sentencePart = spanElement.outerHTML;
+                                                console.log(`Zaznaczono słowo ${j + (lessonIdToShow2 - 1) * 6 + 1} w pierwszym zestawie fiszek.`);
+                                        }
+                                        }
+
+                                        sentence20 += sentencePart + " ";
+                                        }
+                                        console.log('Zawartość zmiennej sentence1:', sentence1); // Wyświetlenie zawartości zmiennej sentence1
+                                                $sentenceDiv.html(`${sentence10}<br> ${sentence20}<br> ${sentence30}`);
+                                        }
+
+                                let sentence30 = ""; // Deklaracja zmiennej sentence1 na poziomie lokalnym
+
+                                        function addBackgroundToText33(matchingFiszki3, lessonIdToShow3, matchingIndexes, currentIndexValue, aktualny) {
+                                        sentence3 = "";
+                                                console.log('działa1');
+                                                console.log('hej1', matchingFiszki1);
+                                                console.log('hej2', lessonIdToShow1);
+                                                console.log('hej3', matchingIndexes);
+                                                console.log('hej4', sentence1); // Użycie zmiennej sentence1
+                                                console.log('hej5', currentIndexValue);
+                                                for (let k = 0; k < matchingFiszki3.length; k++) {
+                                        const fiszka = matchingFiszki3[k];
+                                                let sentencePart = fiszka.sentence[k % 3]; // Domyślnie używaj zdania bez zmian
+                                                console.log('hej30', sentencePart);
+                                                // Sprawdź, czy indeks jest równy 0
+                                                if (aktualny) {
+                                        if (matchingIndexes.includes(k + (lessonIdToShow3 - 1) * 6 + 1) && currentIndexValue == 1) {
+                                        const spanElement = document.createElement('span');
+                                                spanElement.textContent = sentencePart;
+                                                spanElement.classList.remove('highlighted-sentence');
+                                                spanElement.classList.add('yellow');
+                                                // Zaktualizuj sentencePart, aby zawierał utworzony element span
+                                                sentencePart = spanElement.outerHTML;
+                                        } else if (matchingIndexes.includes(k + (lessonIdToShow3 - 1) * 6 + 1) && currentIndexValue == 2) {
+                                        // Sprawdzenie, czy indeks bieżącej fiszki znajduje się w tablicy matchingIndexes
+                                        const spanElement = document.createElement('span');
+                                                spanElement.textContent = sentencePart;
+                                                if (!spanElement.classList.contains('yellow')) {
+                                        spanElement.classList.add('yellow');
+                                                spanElement.classList.add('highlighted-sentence');
+                                        }
+                                        // Zaktualizuj sentencePart, aby zawierał utworzony element span
+                                        sentencePart = spanElement.outerHTML;
+                                        } else if (currentIndexValue == 2) {
+                                        const spanElement = document.createElement('span');
+                                                spanElement.textContent = sentencePart;
+                                                spanElement.classList.add('highlighted-sentence');
+                                                // Zaktualizuj sentencePart, aby zawierał utworzony element span
+                                                sentencePart = spanElement.outerHTML;
+                                        } else if (currentIndexValue == 0 && matchingIndexes.includes(k + (lessonIdToShow3 - 1) * 6 + 1)) {
+                                        const spanElement = document.createElement('span');
+                                                spanElement.textContent = sentencePart;
+                                                spanElement.classList.remove('highlighted-sentence');
+                                                spanElement.classList.add('yellow');
+                                                // Zaktualizuj sentencePart, aby zawierał utworzony element span
+                                                sentencePart = spanElement.outerHTML;
+                                        }
+                                        }
+
+                                        sentence30 += sentencePart + " ";
+                                        }
+                                        console.log('Zawartość zmiennej sentence1:', sentence1); // Wyświetlenie zawartości zmiennej sentence1
+                                                $sentenceDiv.html(`${sentence10}<br> ${sentence20}<br> ${sentence30}`);
+                                        }
+
+                                const srcWordsb = [srcWord1, srcWord2, srcWord3];
+                                        let videoDurations = [];
+                                        let totalDuration = 0;
+                                        for (let i = 0; i < srcWordsb.length; i++) {
+                                const video = document.createElement('video');
+                                        video.src = srcWordsb[i];
+                                        video.addEventListener('loadedmetadata', function () {
+                                        totalDuration += this.duration;
+                                                console.log('tablica8', totalDuration);
+                                        });
+                                }
+                                console.log('tablica11', videoDurations);
+                                        function removePreviousVideo() {
+                                        const previousVideo = $container.find('video'); // Poprawne odwołanie do poprzedniego wideo
+                                                if (previousVideo.length > 0) {
+                                        previousVideo.remove(); // Usunięcie poprzedniego wideo z kontenera
+                                        }
+                                        }
+
+                                if (index50 === 0) {
+                                console.log('hej2000');
+                                        // Znajdź kontener, przed którym chcesz wstawić nowy kontener
+                                        const containerToInsertBefore = document.querySelector(`.image-container3[data-lesson="${indexDiv + 1}"]`);
+                                        const newContainer = document.querySelector(`.image-container3[data-lesson="${indexDiv}"]`);
+// Wstaw nowy kontener przed kontenerem znalezionym w poprzednim kroku
+                                        if (containerToInsertBefore) {
+                                containerToInsertBefore.parentNode.insertBefore(newContainer, containerToInsertBefore);
+                                } else {
+                                console.error('Nie można znaleźć kontenera, przed którym należy wstawić nowy kontener.');
+                                }
+                                console.log('Adres URL pierwszego filmu:', srcWordsb[0]);
+                                        let funkcjaWywolana = false;
+                                        function addVideo8(index) {
+                                        console.log('hej78', index);
+                                                // Sprawdź, czy jesteśmy poza zakresem tablicy
+
+                                                if (index >= srcWordsb.length && !funkcjaWywolana) {
+                                        // Ustawienie pierwszego filmu jako tła kontenera
+                                        setTimeout(function () {
+                                        $('.progress-bar2').remove();
+                                        }, 200); // Opóźnienie w milisekundach (tu: 1 sekunda)
+                                                setFirstFrame2();
+                                                przekazArgument();
+                                                console.log("wykonuje się");
+                                        }
+                                        // Usuń poprzednie wideo
+                                        removePreviousVideo();
+                                                console.log('hej78', index);
+                                                const $vidDiv = $('<div>').addClass('background-video');
+// Utwórz element <video> i ustaw atrybuty
+                                                const $videoElement = $('<video>').attr({
+                                        'autoplay': true, // Automatyczne odtwarzanie wideo
+                                                'muted': true, // Wyciszenie dźwięku wideo
+                                                'loop': true      // Zapętlenie wideo
+                                        });
+                                                // Dodaj klasę CSS zależnie od indeksu wideo
+                                                if (index === 0) {
+                                        $videoElement.addClass('scaled-video');
+                                        } else {
+                                        $videoElement.addClass('next-video');
+                                        }
+// Utwórz element <source> dla wideo i ustaw atrybuty
+                                        const $sourceElement = $('<source>').attr({
+                                        'src': srcWordsb[index], // Poprawne użycie interpolacji
+                                                'type': 'video/mp4'     // Typ pliku wideo
+                                        });
+// Dodaj element source do elementu video
+                                                $sourceElement.appendTo($videoElement);
+// Dodaj element video do diva dla wideo
+                                                $videoElement.appendTo($vidDiv);
+                                                // Dodaj element <source> do elementu <video>
+
+                                                // Obsługa błędu ładowania wideo
+                                                $videoElement.onerror = function () {
+                                                console.error('Nie można załadować pliku wideo.');
+                                                };
+                                                let currentIndexValue = [];
+                                                $videoElement.on('loadedmetadata', function () {
+                                                const videoDuration = this.duration;
+                                                        videoDurations[index] = videoDuration;
+                                                        console.log('tablica7', totalDuration);
+                                                        $videoElement.on('timeupdate', function () {
+                                                        let adjustedProgress = 0;
+                                                                for (let i = 0; i < index; i++) {
+                                                        adjustedProgress += (videoDurations[i] / totalDuration) * 100;
+                                                        }
+                                                        adjustedProgress += (this.currentTime / videoDuration) * (videoDurations[index] / totalDuration) * 100;
+                                                                updateProgress2(adjustedProgress);
+                                                                console.log('funkcja tutaj dociera');
+                                                                console.log('hej77', index);
+                                                                // Sprawdź, czy wartość index nie została jeszcze dodana do tablicy currentIndex
+                                                                if (!currentIndexValue.includes(index)) {
+                                                        // Dodaj index do tablicy currentIndex
+                                                        currentIndexValue.push(index);
+                                                                console.log('hej7', currentIndexValue);
+                                                                // Wywołaj funkcję addBackgroundToText tylko raz
+                                                                if (currentIndexValue[0] === 0 || currentIndexValue[0] === 1) {
+                                                        addBackgroundToText11(matchingFiszki1, lessonIdToShow1, matchingIndexes, currentIndexValue, true);
+                                                                addBackgroundToText22(matchingFiszki2, lessonIdToShow2, matchingIndexes, currentIndexValue, true);
+                                                                addBackgroundToText33(matchingFiszki3, lessonIdToShow3, matchingIndexes, currentIndexValue, true);
+                                                        }
+                                                        if (currentIndexValue[0] === 1 || currentIndexValue[0] === 2) {
+                                                        addBackgroundToText22(matchingFiszki2, lessonIdToShow2, matchingIndexes, currentIndexValue, true);
+                                                                addBackgroundToText33(matchingFiszki3, lessonIdToShow3, matchingIndexes, currentIndexValue, true);
+                                                        }
+                                                        if (currentIndexValue[0] === 2 || currentIndexValue[0] === 3) {
+                                                        addBackgroundToText33(matchingFiszki3, lessonIdToShow3, matchingIndexes, currentIndexValue, true);
+                                                        }
+                                                        }
+
+                                                        // Sprawdź, czy wideo zostało zakończone
+                                                        if ($videoElement[0].duration - $videoElement[0].currentTime < 1) {
+                                                        console.log('Wideo zakończone, uruchamiam następne.');
+                                                                // Odtwórz następne wideo po zakończeniu poprzedniego
+                                                                addVideo8(index + 1);
+                                                                updateProgress2(0);
+                                                        }
+                                                        });
+                                                });
+                                                // Dodaj div z wideo do tła kontenera
+                                                $vidDiv.appendTo($container);
+                                                function updateProgress2(progress) {
+                                                // Aktualizuj pasek postępu na dole kontenera
+                                                $('.progress-bar2').css('width', progress + '%');
+                                                }
+
+// Inicjalizacja paska postępu
+                                        const $progressBar2 = $('<div>').addClass('progress-bar2');
+                                                $progressBar2.css({
+                                                'position': 'absolute',
+                                                        'z-index': '2',
+                                                        'bottom': '0',
+                                                        'left': '0',
+                                                        'height': '5px', // Wysokość paska postępu
+                                                        'background-color': '#007bff', // Kolor paska postępu
+                                                        'width': '140%', // Delikatne powiększenie paska postępu o 2% w każdym kierunku
+                                                        'margin-bottom': '-2%',
+                                                        'margin-left': '-4%',
+                                                        'margin-right': '-4%'// Zapewnienie równowagi dla powiększenia paska postępu
+                                                });
+                                                $progressBar2.appendTo($container);
+                                        }
+                                addVideo8(0);
+                                } else {
+                                function setFirstFrame2() {
+                                // Tworzenie nowego wideo
+                                const video = document.createElement('video');
+                                        video.src = srcWordsb[0]; // Ustawienie pierwszego filmu
+                                        video.muted = true;
+                                        video.preload = 'metadata'; // Wczytanie metadanych filmu, ale nie całego filmu
+
+                                        // Odczytanie pierwszej klatki wideo jako obraz
+                                        video.addEventListener('loadeddata', function () {
+                                        const canvas = document.createElement('canvas');
+                                                canvas.width = this.videoWidth;
+                                                canvas.height = this.videoHeight;
+                                                const ctx = canvas.getContext('2d');
+                                                ctx.drawImage(this, 0, 0, canvas.width, canvas.height);
+                                                // Ustawienie pierwszej klatki jako tło kontenera
+                                                $container.css({
+                                                'background-image': 'url(' + canvas.toDataURL() + ')',
+                                                        'background-size': 'cover',
+                                                        'background-position': 'center',
+                                                        'background-repeat': 'no-repeat'
+                                                });
+                                        });
+                                        // Rozpoczęcie odtwarzania wideo, aby odczytać pierwszą klatkę
+                                        video.play();
+                                }
+                                console.log('hej555', indexDiv);
+                                        function addVideo22(index) {
+                                        // Sprawdź, czy jesteśmy poza zakresem tablicy
+                                        console.log('hej787', index);
+                                                const $vidDiv = $('<div>').addClass('background-video');
+// Utwórz element <video> i ustaw atrybuty
+                                                const $videoElement = $('<video>').attr({
+                                        'muted': true, // Wyciszenie dźwięku wideo
+                                                'loop': true      // Zapętlenie wideo
+                                        });
+                                                // Zatrzymaj odtwarzanie wideo
+
+
+// Utwórz element <source> dla wideo i ustaw atrybuty
+                                                const $sourceElement = $('<source>').attr({
+                                        'src': srcWordsb[index], // Poprawne użycie interpolacji
+                                                'type': 'video/mp4'     // Typ pliku wideo
+                                        });
+// Dodaj element source do elementu video
+                                                $sourceElement.appendTo($videoElement);
+// Dodaj element video do diva dla wideo
+                                                $videoElement.appendTo($vidDiv);
+                                                // Dodaj element <source> do elementu <video>
+
+                                                // Obsługa błędu ładowania wideo
+                                                $videoElement.onerror = function () {
+                                                console.error('Nie można załadować pliku wideo.');
+                                                };
+                                                let currentIndexValue = [];
+                                                // Obsługa zdarzenia timeupdate
+                                                $videoElement.on('timeupdate', function () {
+                                                console.log('hej77', index);
+                                                        // Sprawdź, czy wartość index nie została jeszcze dodana do tablicy currentIndex
+                                                        if (!currentIndexValue.includes(index)) {
+                                                // Dodaj index do tablicy currentIndex
+                                                currentIndexValue.push(index);
+                                                        console.log('hej70', currentIndexValue);
+                                                        // Wywołaj funkcję addBackgroundToText tylko raz
+                                                        if (currentIndexValue[0] === 0 || currentIndexValue[0] === 1) {
+                                                addBackgroundToText(matchingFiszki1, lessonIdToShow1, matchingIndexes, currentIndexValue, true);
+                                                        addBackgroundToText2(matchingFiszki2, lessonIdToShow2, matchingIndexes, currentIndexValue, true);
+                                                        addBackgroundToText3(matchingFiszki3, lessonIdToShow3, matchingIndexes, currentIndexValue, true);
+                                                }
+                                                if (currentIndexValue[0] === 1 || currentIndexValue[0] === 2) {
+                                                addBackgroundToText2(matchingFiszki2, lessonIdToShow2, matchingIndexes, currentIndexValue, true);
+                                                        addBackgroundToText3(matchingFiszki3, lessonIdToShow3, matchingIndexes, currentIndexValue, true);
+                                                }
+                                                if (currentIndexValue[0] === 2 || currentIndexValue[0] === 3) {
+                                                addBackgroundToText3(matchingFiszki3, lessonIdToShow3, matchingIndexes, currentIndexValue, true);
+                                                }
+                                                }
+
+                                                // Sprawdź, czy wideo zostało zakończone
+                                                if ($videoElement[0].duration - $videoElement[0].currentTime < 1) {
+                                                console.log('Wideo zakończone, uruchamiam następne.');
+                                                        // Odtwórz następne wideo po zakończeniu poprzedniego
+                                                        addVideo22(index + 1);
+                                                }
+                                                });
+                                                // Dodaj div z wideo do tła kontenera
+                                                $vidDiv.appendTo($container);
+                                                // Jeśli kontener nie został jeszcze wybrany, wybierz losowy kontener
+
+                                        }
+                                addVideo22(0);
+                                }
+
+                                // Pobierz pierwszy element .image-container
+                                var $sentenceDiv = $('<div></div>'); // Utwórz nowy element div za pomocą jQuery
+                                        $sentenceDiv.addClass('sentence');
+                                        $sentenceDiv.html(`${sentence10}<br> ${sentence20}<br> ${sentence30}`);
+                                        $sentenceDiv.css({
+                                        'position': 'absolute',
+                                                'font-size': '18px',
+                                                'bottom': '0',
+                                                'text-align': 'center',
+                                                'z-index': '1'
+                                        });
+                                        // Dodaj div z zdaniem do kontenera
+                                        $sentenceDiv.appendTo($container);
+                                        tablica15.push(srcWords);
+                                        console.log('hej51', tablica15);
+                                }
+                                }, 0);
+                                // Deklaracja tablicy, która będzie zawierać wszystkie tablice
+                        }
+                        
+                        let sentence10 = ""; // Deklaracja zmiennej sentence1 na poziomie lokalnym
+                        let sentence11 = "";
+                        let sentence12 = " / ";
+                        let sentence1bb1 = "";
+                        function addBackgroundToText(matchingFiszki10, matchingIndexes, currentIndexValue, aktualny, lesson1PartLength) {
+                                    console.log('hej111');
+                        sentence10 = "";
+                                sentence1bb1 = "";
+                                console.log('hej10');
+                                console.log('Rozpoczęcie funkcji addBackgroundToText');
+                                console.log('matchingFiszki1:', matchingFiszki10);
+                                console.log('lessonIdToShow1:', lessonIdToShow1);
+                                console.log('matchingIndexes:', matchingIndexes);
+                                console.log('currentIndexValue:', currentIndexValue);
+                                console.log('aktualny:', aktualny);
+                                for (let i = 0; i < matchingFiszki10.length; i++) {
+                        const fiszka = matchingFiszki10[i];
+                                console.log('fiszka:', fiszka);
+                                if (!fiszka.sentence1 || fiszka.sentence1.length === 0) {
+                        console.log('fiszka.sentence1 is undefined or empty');
+                                continue; // Jeśli sentence1 nie istnieje lub jest puste, przejdź do następnej fiszki
+                        }
+
+                        // Iteracja przez elementy sentence1
+                        for (let ki = 0; ki < fiszka.sentence1.length; ki++) {
+                        let sentencePart = fiszka.sentence1[ki];
+                                console.log('sentencePart5:', sentencePart);
+                                const indexToCheck = i + lesson1PartLength + 1;
+                                console.log('indexToCheck5:', indexToCheck);
+                                if (aktualny) {
+                                    if (!matchingIndexes.includes(indexToCheck) && currentIndexValue == 0 && pulpitstartowy) {
+                            console.log('hej67', pulpitstartowy);
+                                                            const spanElement = document.createElement('span');
+                                spanElement.innerHTML = sentencePart; // Użyj innerHTML zamiast textContent
+                            sentencePart = spanElement.outerHTML;
+                                let sentencePart1 = fiszka.translate ? fiszka.translate : "";
+                                sentence1bb1 += sentencePart1 + " ";
+                                let sentencePart1a = fiszka.translateb ? fiszka.translateb : "";
+                                sentence1bba += sentencePart1a + " ";
+                                console.log('hej45', sentencePart1);
+                                // Dodaj element do DOM, jeśli jeszcze go nie ma
+                                if ($sentenceDiv.find('.sentence1bb1').length === 0) {
+                        $sentenceDiv.append('<div class="sentence1bb1"></div>');
+                        }
+                        let $sentence1bb1 = $sentenceDiv.find('.sentence1bb1');
+                                let $sentence1bba = $sentenceDiv.find('.sentence1bba');
+                                // Ustawienie widoczności i stylu dla .sentence1bb
+                                // Spróbuj ustawić styl po pewnym czasie, aby upewnić się, że element jest w pełni renderowany
+                                if (!sentence1bVisible) {
+                        $sentence1bb1.css({
+                        'display': 'block',
+                                'margin-bottom': '50px',
+                                'top': '20px',
+                                'position': 'relative'
+                        });
+                                console.log('sentence1bb style set to visible');
+                        }
+                        $sentence1bb1.html(sentence1bb1);
+                                if (!sentence1bVisible) {
+                        // Pokazujemy zdanie .sentence1bba
+                        $sentence1bba.css('display', 'block');
+                                $sentence1bba.css({
+                                'margin-bottom': '-0px',
+                                        'top': '0px',
+                                        'position': 'relative'
+                                });
+                        }
+                        } else if (matchingIndexes.includes(indexToCheck) && currentIndexValue == 0) {
+                        console.log('działa255', matchingIndexes.includes(indexToCheck));
+                                const spanElement = document.createElement('span');
+                                spanElement.innerHTML = sentencePart; // Użyj innerHTML zamiast textContent
+                                if (!spanElement.classList.contains('highlighted-sentence')) {
+                        spanElement.classList.add('yellow');
+                                spanElement.classList.add('highlighted-sentence');
+                        }
+                        sentencePart = spanElement.outerHTML;
+                                                        if ($sentenceDiv.find('.sentence1bba').length === 0) {
+                        $sentenceDiv.append('<div class="sentence1bba"></div>');
+                        }
+                                let sentencePart1a = fiszka.translateb ? fiszka.translateb : "";
+                                sentence1bba += sentencePart1a + " ";
+                                                        console.log('hej1515', sentence1bba);
+                                // Dodaj element do DOM, jeśli jeszcze go nie ma
+                                let $sentence1bba = $sentenceDiv.find('.sentence1bba');
+                                // Ustawienie widoczności i stylu dla .sentence1bb
+                                // Spróbuj ustawić styl po pewnym czasie, aby upewnić się, że element jest w pełni renderowany
+
+
+                        // Pokazujemy zdanie .sentence1bba
+                        $sentence1bba.css({
+                        'display': 'block',
+                                'margin-bottom': '-0px',
+                                        'top': '0px',
+                                        'position': 'relative'
+                                });
+                                                                                        $sentence1bba.html(sentence1bba);
+                        } else if (currentIndexValue == 0) {
+                        const spanElement = document.createElement('span');
+                                spanElement.innerHTML = sentencePart; // Użyj innerHTML zamiast textContent
+                                spanElement.classList.add('highlighted-sentence');
+                                sentencePart = spanElement.outerHTML;
+                        } else if (currentIndexValue == 1 && matchingIndexes.includes(indexToCheck)) {
+                        const spanElement = document.createElement('span');
+                                spanElement.innerHTML = sentencePart; // Użyj innerHTML zamiast textContent
+                                spanElement.classList.remove('highlighted-sentence');
+                                spanElement.classList.add('yellow');
+                                sentencePart = spanElement.outerHTML;
+                        }
+                        }
+
+                        console.log('sentencePart po przetworzeniu:', sentencePart); // Dodaj log po przetworzeniu
+                                sentence10 += sentencePart + " ";
+                        }
+                        }
+                        console.log('final sentence10:', sentence10); // Dodaj log dla ostatecznego wyniku
+
+                                sentence11 = "";
+                                for (let ii = 0; ii < matchingFiszki1.length; ii++) {
+                        const fiszka = matchingFiszki1[ii];
+                                console.log('fiszka2:', fiszka);
+                                if (!fiszka.sentence2 || fiszka.sentence2.length === 0) {
+                        console.log('fiszka.sentence2 is undefined or empty');
+                                continue;
+                        }
+
+                        // Iteracja przez elementy sentence1
+                        for (let kii = 0; kii < fiszka.sentence2.length; kii++) {
+                        let sentencePart2 = fiszka.sentence2[kii];
+                                console.log('sentencePart5:', sentencePart2);
+                                const indexToCheck = ii + lesson1PartLength + 1;
+                                console.log('indexToCheck77:', indexToCheck);
+                                if (aktualny) {
+                            if (!matchingIndexes.includes(indexToCheck) && currentIndexValue == 0 && pulpitstartowy) {
+                            console.log('hej678', pulpitstartowy);
+                                const spanElement = document.createElement('span');
+                                spanElement.innerHTML = sentencePart2; // Użyj innerHTML zamiast textContent
+                            sentencePart2 = spanElement.outerHTML;
+                            } else if (matchingIndexes.includes(indexToCheck) && currentIndexValue == 0 && !pulpitstartowy) {
+                        console.log('działa22', indexToCheck);
+                                const spanElement = document.createElement('span');
+                                spanElement.innerHTML = sentencePart2;
+                                if (!spanElement.classList.contains('highlighted-sentence')) {
+                        spanElement.classList.add('yellow');
+                                spanElement.classList.add('highlighted-sentence');
+                        }
+                        sentencePart2 = spanElement.outerHTML;
+                        } else if (currentIndexValue == 0) {
+                        const spanElement = document.createElement('span');
+                                spanElement.innerHTML = sentencePart2;
+                                spanElement.classList.add('highlighted-sentence');
+                                sentencePart2 = spanElement.outerHTML;
+                        } else if (currentIndexValue == 1 && matchingIndexes.includes(indexToCheck)) {
+                        const spanElement = document.createElement('span');
+                                spanElement.innerHTML = sentencePart2;
+                                spanElement.classList.remove('highlighted-sentence');
+                                spanElement.classList.add('yellow');
+                                sentencePart2 = spanElement.outerHTML;
+                        }
+                        }
+
+                        console.log('sentencePart2 po przetworzeniu:', sentencePart2);
+                                sentence11 += sentencePart2 + " ";
+                        }
+                        }
+                        // Dodaj sentence1bb tutaj
+                        console.log('final sentence11:', sentence11);
+                                $sentenceDiv.html(`<button class="left-button first-button">+<br></button>${sentence10}${sentence12}${sentence11}<br><div class="sentence1bba">${sentence1bba}</div><br><button class="left-buttonb second-button">+<br></button>${sentence20}${sentence22}<br><div class="sentence1bb1b">${sentence1bb1b}</div><br> ${sentence30}${sentence33}<br><span class="sentence1bb3>' + sentence1bb3 + '</span><div class="sentence1bb1c">${sentence1bb1c}</div>`);
+                                $('#insertSlashButton').on('click', function () {
+                        if (!isSlashInserted) {
+                        $('#sentence12').show();
+                                $sentenceDiv.html(`${sentence10}${sentence12}${sentence11}<br>${sentence20}${sentence12}${sentence22}<br>${sentence30}${sentence12}${sentence33}`);
+                                isSlashInserted = true;
+                        }
+                        });
+                                setTimeout(() => {
+                                if (isSlashInserted) {
+                                $('#sentence12').show();
+                                        $sentenceDiv.html(`${sentence10}${sentence12}${sentence11}<br>${sentence20}${sentence12}${sentence22}<br>${sentence30}${sentence12}${sentence33}`);
+                                }
+                                }, 10);
+                        }
+                        
+                                                var $sentenceDiv = $('<div></div>');
+                                $sentenceDiv.addClass('sentence'); // Dodanie klasy 'sentence'
+                                $sentenceDiv.html(`<button class="left-button first-button">+<br></button>${sentence10}${sentence12}${sentence11}<br><div class="sentence1bba">${sentence1bba}</div><br> <button class="left-button second-button">+<br></button>${sentence20}${sentence22}<br><div class="sentence1bb1b">${sentence1bb1b}</div><br> ${sentence30}${sentence33}<br><span class="sentence1bb3>' + sentence1bb3 + '</span><div class="sentence1bb1c">${sentence1bb1c}</div>`);
+                                $sentenceDiv.css({
+                                'position': 'absolute',
+                                        'font-size': '18px',
+                                        'bottom': '0',
+                                        'text-align': 'center',
+                                        'z-index': '5'
+                                });
+                                
+                                                                $container.append($sentenceDiv);

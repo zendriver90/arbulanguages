@@ -608,7 +608,7 @@
                     // Dodaj buttony do diva
                     flashcardContainer.innerHTML += `
  <div id="konsola" style="width: 850px;">
-            <h2>Rodzaj Słownictwa</h2>
+            <div id="title">Rodzaj Słownictwa</div>
         <button id="osoby" onclick="przekazArgument0()" class="rodzaj-button" data-rodzaj="osoby">Wszystkie</button>
 <button onclick="przekazArgument('osoby')" class="rodzaj-button" data-rodzaj="osoby">Osoby</button>
                 <button onclick="przekazArgument2('zaimkiosobowe')" class="rodzaj-button" data-rodzaj="zaimki osobowe">Zaimki osobowe</button>
@@ -619,13 +619,13 @@
 <button onclick="przekazArgument7('kolory')" class="rodzaj-button" data-rodzaj="kolory">Kolory</button>
 <button onclick="przekazArgument8('zwierzeta')" class="rodzaj-button" data-rodzaj="zwierzeta">Zwierzęta</button>
         <button onclick="przekazArgument9('czasownik')" class="rodzaj-button" data-rodzaj="czasownik">Czasowniki</button>
-        <br>
+        <br>---------------------------<br>
 <button onclick="wybierzCharakter('zdania')" class="czas">5 MINUT(JEDNO ZDANIE)</button>
 <button id="fiszki" onclick="wybierzCharakter('fiszki')" class="czas">10 MINUT(3 ZDANIA)-OPCJONALNIE</button><br>
+                <br>---------------------------<br>        
 <button id="english" onclick="wybierzCharakter('zdania')" class="charakter-button">TŁUMACZ NA ŻADANIE-OPCJONALNIE</button>
 <button id="mix" onclick="wybierzCharakter('fiszki')" class="charakter-button">TYLKO PO ANGIELSKU</button>
 <button id="polski" onclick="wybierzCharakter('fiszki')" class="charakter-button">TYLKO PO POLSKU</button>
-
         </div>
             <div>
                 <h2>OPCJE ZDANIA</h2>
@@ -1113,6 +1113,7 @@
                 matchingIndexes = findXForMatchingFiszka(categoryToFind, fiszki);
 
                 const lessonsArray = [];
+                const lessonsArrayA = [];
                 console.log('hej45', lessonsArray);
 // Wyświetlenie wyniku
 // Funkcja odtwarzająca losowy kontener image-container3
@@ -1169,6 +1170,7 @@
 
                     if (czas === 'fiszki' && czas !== "zdania") {
                         console.log('Warunek czas === "fiszki" jest spełniony');
+                        $('.grid-container .image-container4').remove();
                         if (uniqueMatchingLessons.length > 1) {
                             // Inicjuj flagę dla wystąpienia zera
                             let zeroWylosowane = false;
@@ -1282,7 +1284,6 @@
                                 console.log('hej556', lessonsArray);
                                 console.log('hej40', startIndex); // Wyświetl wartość startIndex
                                 console.log('hej77', tablica10);
-                                console.log('hej79', tablica15);
                                 console.log('wykonuje się 7');
                                 console.log('hej155', buttonindex);
                                 console.log('hej323', index55);
@@ -1302,11 +1303,105 @@
                         }
                     }
 
-                    if (czas === 'zdania') {
+                    if (czas === 'zdania' && czas !== 'fiszki') {
                         // Wyświetl pojedyncze zdania dla znalezionych lekcji
-                        uniqueMatchingLessons.forEach(lessonId => {
-                            showCombinedSentenceForLesson2(lessonId, fiszki);
-                        });
+                        console.log('Warunek czas === "fiszki" jest spełniony');
+                                            $('.grid-container .image-container3').remove();
+                        if (uniqueMatchingLessons.length > 1) {
+                            // Inicjuj flagę dla wystąpienia zera
+                            let zeroWylosowane = false;
+                            // Losowy indeks, w którym pojawi się zero
+
+                            let indexDiv = 0;
+                            // Zmienna do kumulowania długości zdań
+                            let previousCumulativeFirstPartLength3 = 0;  // Przechowywanie poprzedniej kumulacji dla lesson3
+                            let cumulativeFirstPartLength1 = 0;
+                            let cumulativeFirstPartLength2 = 0;
+                            let cumulativeFirstPartLength3 = 0;
+
+                            // Wyświetl fiszki dla każdej znalezionej pary lekcji
+                            let startIndex = 0; // Zainicjuj startIndex poza pętlą
+                            const lengthDividedByThree = uniqueMatchingLessons.length;
+
+// Tworzenie tablicy indeksów od 1 do uniqueMatchingLessons.length / 3
+                            let indices = [];
+                            for (let i = 1; i <= lengthDividedByThree; i++) {
+                                indices.push(i);
+                            }
+                            let indices2 = [];
+                            for (let i = 1; i <= lengthDividedByThree; i++) {
+                                indices2.push(i);
+                            }
+                            console.log('hej12', indices2);
+// Wylosowanie indeksu, który będzie miał wartość 0
+                            const zeroIndex = Math.floor(Math.random() * lengthDividedByThree);
+                            const zeroIndex2 = index55 - 1;
+// Wstawienie 0 na wylosowane miejsce
+                            indices[zeroIndex] = 0;
+                            indices2[zeroIndex2] = 0;
+                                                            console.log('hej166');
+
+                            for (let i = 0; i < uniqueMatchingLessons.length; i += 1) {
+                                indexDiv++;
+                                const lessonId1 = uniqueMatchingLessons[i];
+                                const newIndex = indices[Math.floor(i)];
+                                const index50 = indices2[Math.floor(i)];
+                                console.log('hej166', index50);
+
+
+// Znajdź długości drugiej części zdania dla każdej lekcji
+                                const lesson1PartLength = partLengths3.find(item => item.id === lessonId1)?.cumulativeCount || 0;
+
+                                // Obliczanie skumulowanych długości
+                                cumulativeFirstPartLength1 += lesson1PartLength;
+
+                                const cumulativeTotalFirstPartLength1 = cumulativeFirstPartLength1;
+
+                                // Aktualizacja poprzedniej wartości skumulowanej dla następnej iteracji
+                                previousCumulativeFirstPartLength3 = cumulativeFirstPartLength3;
+
+
+                                const lessonObjectA = {
+                                    lessonId1: lessonId1,
+                                    index50: index50,
+                                    newIndex: newIndex,
+                                    lesson1PartLength: lesson1PartLength,
+                                    indexDiv: indexDiv
+                                };
+
+                                // Dodawanie obiektu do tablicy lekcji
+                                lessonsArrayA.push(lessonObjectA);
+                                console.log('hej35', lessonObjectA);
+                                if (newIndex === 0 && indexDiv >= 1 && indexDiv <= 4) {
+                                    const containerToRemove = $(`.image-container3[data-lesson="${indexDiv}"]`);
+                                    if (containerToRemove.length > 0) {
+                                        containerToRemove.remove();
+                                    }
+                                }
+
+
+                                // Zwiększ startIndex o 7 za każdym razem, gdy funkcja iteruje
+                                console.log('hej558', lessonsArrayA);
+                                console.log('hej40', startIndex); // Wyświetl wartość startIndex
+                                console.log('hej79', tablica15);
+                                console.log('wykonuje się 7');
+                                console.log('hej155', buttonindex);
+                                console.log('hej323', index55);
+
+                    console.log('hej344'); 
+                                if ((tablica15.length <= 30 || tablica15.length === 0)) {
+                                    console.log('wykonuje się 8');
+                                    console.log('hej32', newIndex);
+                                    console.log('hej188', tablica15);
+                showCombinedSentenceForLesson2(index50, lessonId1, fiszki, matchingIndexes, startIndex, newIndex, indexDiv, lessonsArrayA, lesson1PartLength);
+           
+                    }
+                            }
+                            console.log('Aktualna zawartość tablicy lessonsArray:', lessonsArray);
+// Sprawdź, czy dodano odpowiednią liczbę divów
+                            const numberOfContainers = $('.image-container3').length;
+                            console.log('Liczba dodanych divów:', numberOfContainers);
+                        }
                     }
 
                     // Ustaw wartość globalCategory
@@ -2615,679 +2710,39 @@ $('.sentence1bba').html('');
                         // Deklaracja tablicy, która będzie zawierać wszystkie tablice
                         }
 
-                        function showCombinedSentenceForLesson4(lessonIdToShow1, lessonIdToShow2, lessonIdToShow3, fiszki, matchingIndexes, startIndex, newIndex, indexDiv, lessonsArray, index50) {
-                        console.log('załadowane2');
-                                const matchingFiszki1 = fiszki.filter(fiszka => fiszka.id[1] === lessonIdToShow1);
-                                const matchingFiszki2 = fiszki.filter(fiszka => fiszka.id[1] === lessonIdToShow2);
-                                const matchingFiszki3 = fiszki.filter(fiszka => fiszka.id[1] === lessonIdToShow3);
-                                setTimeout(() => {
-                                if (matchingFiszki1.length > 0 && matchingFiszki2.length > 0 && matchingFiszki3.length > 0) {
-                                const $container = $('<div></div>'); // Tworzymy nowy element div za pomocą jQuery
-                                        $container.addClass('image-container3'); // Dodajemy klasę do nowego diva
-                                        $container.css('position', 'relative'); // Ustawiamy pozycję diva na relative
-
-                                        // Możesz również dodać dodatkowe atrybuty, takie jak 'data-lesson'
-                                        $container.attr('data-lesson', indexDiv);
-                                        // Dodajemy nowy div do istniejącego kontenera .grid-container
-                                        $('.grid-container').append($container);
-                                        const srcWord1 = pobierzSrcWordDlaLekcji(lessonIdToShow1, fiszki);
-                                        const srcWord2 = pobierzSrcWordDlaLekcji(lessonIdToShow2, fiszki);
-                                        const srcWord3 = pobierzSrcWordDlaLekcji(lessonIdToShow3, fiszki);
-                                        function pobierzSrcWordDlaLekcji(lessonId, fiszki) {
-                                        const matchingFiszka = fiszki.find(fiszka => fiszka.id[1] === lessonId);
-                                                return matchingFiszka ? matchingFiszka.srcWord : null;
-                                        }
-
-                                let sentence10 = ""; // Deklaracja zmiennej sentence1 na poziomie lokalnym
-
-                                        function addBackgroundToText11(matchingFiszki1, lessonIdToShow1, matchingIndexes, currentIndexValue, aktualny) {
-                                        sentence1 = "";
-                                                console.log('działa1');
-                                                console.log('hej1', matchingFiszki1);
-                                                console.log('hej2', lessonIdToShow1);
-                                                console.log('hej3', matchingIndexes);
-                                                console.log('hej4', sentence1); // Użycie zmiennej sentence1
-                                                console.log('hej5', currentIndexValue);
-                                                for (let i = 0; i < matchingFiszki1.length; i++) {
-                                        const fiszka = matchingFiszki1[i];
-                                                console.log('hej38', fiszka);
-                                                let sentencePart = fiszka.sentence[i % 3]; // Domyślnie używaj zdania bez zmian
-                                                console.log('hej30', sentencePart);
-                                                // Sprawdź, czy indeks jest równy 0
-                                                if (aktualny) {
-                                        if (matchingIndexes.includes(i + (lessonIdToShow1 - 1) * 6 + 1) && currentIndexValue == 0) {
-                                        // Sprawdzenie, czy indeks bieżącej fiszki znajduje się w tablicy matchingIndexes
-                                        const spanElement = document.createElement('span');
-                                                spanElement.textContent = sentencePart;
-                                                if (!spanElement.classList.contains('highlighted-sentence')) {
-                                        spanElement.classList.add('yellow');
-                                                spanElement.classList.add('highlighted-sentence');
-                                        }
-                                        // Zaktualizuj sentencePart, aby zawierał utworzony element span
-                                        sentencePart = spanElement.outerHTML;
-                                                console.log(`Zaznaczono słowo ${i + (lessonIdToShow1 - 1) * 6 + 1} w pierwszym zestawie fiszek.`);
-                                        } else if (currentIndexValue == 0) {
-                                        const spanElement = document.createElement('span');
-                                                spanElement.textContent = sentencePart;
-                                                spanElement.classList.add('highlighted-sentence');
-                                                // Zaktualizuj sentencePart, aby zawierał utworzony element span
-                                                sentencePart = spanElement.outerHTML;
-                                                console.log(`Zaznaczono słowo ${i + (lessonIdToShow1 - 1) * 6 + 1} w pierwszym zestawie fiszek.`);
-                                        } else if (currentIndexValue == 1 && matchingIndexes.includes(i + (lessonIdToShow1 - 1) * 6 + 1)) {
-                                        const spanElement = document.createElement('span');
-                                                spanElement.textContent = sentencePart;
-                                                spanElement.classList.remove('highlighted-sentence');
-                                                spanElement.classList.add('yellow');
-                                                // Zaktualizuj sentencePart, aby zawierał utworzony element span
-                                                sentencePart = spanElement.outerHTML;
-                                                console.log(`Zaznaczono słowo ${i + (lessonIdToShow1 - 1) * 6 + 1} w pierwszym zestawie fiszek.`);
-                                        }
-                                        }
-
-                                        sentence10 += sentencePart + " ";
-                                        }
-                                        console.log('Zawartość zmiennej sentence1:', sentence1); // Wyświetlenie zawartości zmiennej sentence1
-                                                $sentenceDiv.html(`${sentence10}<br> ${sentence20}<br> ${sentence30}`);
-                                        }
-
-                                let sentence20 = ""; // Deklaracja zmiennej sentence1 na poziomie lokalnym
-
-                                        function addBackgroundToText22(matchingFiszki2, lessonIdToShow2, matchingIndexes, currentIndexValue, aktualny) {
-                                        sentence2 = "";
-                                                console.log('działa1');
-                                                console.log('hej1', matchingFiszki1);
-                                                console.log('hej2', lessonIdToShow1);
-                                                console.log('hej3', matchingIndexes);
-                                                console.log('hej4', sentence1); // Użycie zmiennej sentence1
-                                                console.log('hej5', currentIndexValue);
-                                                for (let j = 0; j < matchingFiszki2.length; j++) {
-                                        const fiszka = matchingFiszki2[j];
-                                                let sentencePart = fiszka.sentence[j % 3]; // Domyślnie używaj zdania bez zmian
-                                                console.log('hej30', sentencePart);
-                                                // Sprawdź, czy indeks jest równy 0
-                                                if (aktualny) {
-                                        if (matchingIndexes.includes(j + (lessonIdToShow2 - 1) * 6 + 1) && currentIndexValue == 0) {
-                                        const spanElement = document.createElement('span');
-                                                spanElement.textContent = sentencePart;
-                                                spanElement.classList.remove('highlighted-sentence');
-                                                spanElement.classList.add('yellow');
-                                                // Zaktualizuj sentencePart, aby zawierał utworzony element span
-                                                sentencePart = spanElement.outerHTML;
-                                                console.log(`Zaznaczono słowo ${j + (lessonIdToShow2 - 1) * 6 + 1} w pierwszym zestawie fiszek.`);
-                                        } else if (matchingIndexes.includes(j + (lessonIdToShow2 - 1) * 6 + 1) && currentIndexValue == 1) {
-                                        // Sprawdzenie, czy indeks bieżącej fiszki znajduje się w tablicy matchingIndexes
-                                        const spanElement = document.createElement('span');
-                                                spanElement.textContent = sentencePart;
-                                                if (!spanElement.classList.contains('yellow')) {
-                                        spanElement.classList.add('yellow');
-                                                spanElement.classList.add('highlighted-sentence');
-                                        }
-                                        // Zaktualizuj sentencePart, aby zawierał utworzony element span
-                                        sentencePart = spanElement.outerHTML;
-                                                console.log(`Zaznaczono słowo ${j + (lessonIdToShow2 - 1) * 6 + 1} w pierwszym zestawie fiszek.`);
-                                        } else if (currentIndexValue == 1) {
-                                        const spanElement = document.createElement('span');
-                                                spanElement.textContent = sentencePart;
-                                                spanElement.classList.add('highlighted-sentence');
-                                                // Zaktualizuj sentencePart, aby zawierał utworzony element span
-                                                sentencePart = spanElement.outerHTML;
-                                                console.log(`Zaznaczono słowo ${j + (lessonIdToShow2 - 1) * 6 + 1} w pierwszym zestawie fiszek.`);
-                                        } else if (currentIndexValue == 2 && matchingIndexes.includes(j + (lessonIdToShow1 - 1) * 6 + 1)) {
-                                        const spanElement = document.createElement('span');
-                                                spanElement.textContent = sentencePart;
-                                                spanElement.classList.remove('highlighted-sentence');
-                                                spanElement.classList.add('yellow');
-                                                // Zaktualizuj sentencePart, aby zawierał utworzony element span
-                                                sentencePart = spanElement.outerHTML;
-                                                console.log(`Zaznaczono słowo ${j + (lessonIdToShow2 - 1) * 6 + 1} w pierwszym zestawie fiszek.`);
-                                        }
-                                        }
-
-                                        sentence20 += sentencePart + " ";
-                                        }
-                                        console.log('Zawartość zmiennej sentence1:', sentence1); // Wyświetlenie zawartości zmiennej sentence1
-                                                $sentenceDiv.html(`${sentence10}<br> ${sentence20}<br> ${sentence30}`);
-                                        }
-
-                                let sentence30 = ""; // Deklaracja zmiennej sentence1 na poziomie lokalnym
-
-                                        function addBackgroundToText33(matchingFiszki3, lessonIdToShow3, matchingIndexes, currentIndexValue, aktualny) {
-                                        sentence3 = "";
-                                                console.log('działa1');
-                                                console.log('hej1', matchingFiszki1);
-                                                console.log('hej2', lessonIdToShow1);
-                                                console.log('hej3', matchingIndexes);
-                                                console.log('hej4', sentence1); // Użycie zmiennej sentence1
-                                                console.log('hej5', currentIndexValue);
-                                                for (let k = 0; k < matchingFiszki3.length; k++) {
-                                        const fiszka = matchingFiszki3[k];
-                                                let sentencePart = fiszka.sentence[k % 3]; // Domyślnie używaj zdania bez zmian
-                                                console.log('hej30', sentencePart);
-                                                // Sprawdź, czy indeks jest równy 0
-                                                if (aktualny) {
-                                        if (matchingIndexes.includes(k + (lessonIdToShow3 - 1) * 6 + 1) && currentIndexValue == 1) {
-                                        const spanElement = document.createElement('span');
-                                                spanElement.textContent = sentencePart;
-                                                spanElement.classList.remove('highlighted-sentence');
-                                                spanElement.classList.add('yellow');
-                                                // Zaktualizuj sentencePart, aby zawierał utworzony element span
-                                                sentencePart = spanElement.outerHTML;
-                                        } else if (matchingIndexes.includes(k + (lessonIdToShow3 - 1) * 6 + 1) && currentIndexValue == 2) {
-                                        // Sprawdzenie, czy indeks bieżącej fiszki znajduje się w tablicy matchingIndexes
-                                        const spanElement = document.createElement('span');
-                                                spanElement.textContent = sentencePart;
-                                                if (!spanElement.classList.contains('yellow')) {
-                                        spanElement.classList.add('yellow');
-                                                spanElement.classList.add('highlighted-sentence');
-                                        }
-                                        // Zaktualizuj sentencePart, aby zawierał utworzony element span
-                                        sentencePart = spanElement.outerHTML;
-                                        } else if (currentIndexValue == 2) {
-                                        const spanElement = document.createElement('span');
-                                                spanElement.textContent = sentencePart;
-                                                spanElement.classList.add('highlighted-sentence');
-                                                // Zaktualizuj sentencePart, aby zawierał utworzony element span
-                                                sentencePart = spanElement.outerHTML;
-                                        } else if (currentIndexValue == 0 && matchingIndexes.includes(k + (lessonIdToShow3 - 1) * 6 + 1)) {
-                                        const spanElement = document.createElement('span');
-                                                spanElement.textContent = sentencePart;
-                                                spanElement.classList.remove('highlighted-sentence');
-                                                spanElement.classList.add('yellow');
-                                                // Zaktualizuj sentencePart, aby zawierał utworzony element span
-                                                sentencePart = spanElement.outerHTML;
-                                        }
-                                        }
-
-                                        sentence30 += sentencePart + " ";
-                                        }
-                                        console.log('Zawartość zmiennej sentence1:', sentence1); // Wyświetlenie zawartości zmiennej sentence1
-                                                $sentenceDiv.html(`${sentence10}<br> ${sentence20}<br> ${sentence30}`);
-                                        }
-
-                                const srcWordsb = [srcWord1, srcWord2, srcWord3];
-                                        let videoDurations = [];
-                                        let totalDuration = 0;
-                                        for (let i = 0; i < srcWordsb.length; i++) {
-                                const video = document.createElement('video');
-                                        video.src = srcWordsb[i];
-                                        video.addEventListener('loadedmetadata', function () {
-                                        totalDuration += this.duration;
-                                                console.log('tablica8', totalDuration);
-                                        });
-                                }
-                                console.log('tablica11', videoDurations);
-                                        function removePreviousVideo() {
-                                        const previousVideo = $container.find('video'); // Poprawne odwołanie do poprzedniego wideo
-                                                if (previousVideo.length > 0) {
-                                        previousVideo.remove(); // Usunięcie poprzedniego wideo z kontenera
-                                        }
-                                        }
-
-                                if (index50 === 0) {
-                                console.log('hej2000');
-                                        // Znajdź kontener, przed którym chcesz wstawić nowy kontener
-                                        const containerToInsertBefore = document.querySelector(`.image-container3[data-lesson="${indexDiv + 1}"]`);
-                                        const newContainer = document.querySelector(`.image-container3[data-lesson="${indexDiv}"]`);
-// Wstaw nowy kontener przed kontenerem znalezionym w poprzednim kroku
-                                        if (containerToInsertBefore) {
-                                containerToInsertBefore.parentNode.insertBefore(newContainer, containerToInsertBefore);
-                                } else {
-                                console.error('Nie można znaleźć kontenera, przed którym należy wstawić nowy kontener.');
-                                }
-                                console.log('Adres URL pierwszego filmu:', srcWordsb[0]);
-                                        let funkcjaWywolana = false;
-                                        function addVideo8(index) {
-                                        console.log('hej78', index);
-                                                // Sprawdź, czy jesteśmy poza zakresem tablicy
-
-                                                if (index >= srcWordsb.length && !funkcjaWywolana) {
-                                        // Ustawienie pierwszego filmu jako tła kontenera
-                                        setTimeout(function () {
-                                        $('.progress-bar2').remove();
-                                        }, 200); // Opóźnienie w milisekundach (tu: 1 sekunda)
-                                                setFirstFrame2();
-                                                przekazArgument();
-                                                console.log("wykonuje się");
-                                        }
-                                        // Usuń poprzednie wideo
-                                        removePreviousVideo();
-                                                console.log('hej78', index);
-                                                const $vidDiv = $('<div>').addClass('background-video');
-// Utwórz element <video> i ustaw atrybuty
-                                                const $videoElement = $('<video>').attr({
-                                        'autoplay': true, // Automatyczne odtwarzanie wideo
-                                                'muted': true, // Wyciszenie dźwięku wideo
-                                                'loop': true      // Zapętlenie wideo
-                                        });
-                                                // Dodaj klasę CSS zależnie od indeksu wideo
-                                                if (index === 0) {
-                                        $videoElement.addClass('scaled-video');
-                                        } else {
-                                        $videoElement.addClass('next-video');
-                                        }
-// Utwórz element <source> dla wideo i ustaw atrybuty
-                                        const $sourceElement = $('<source>').attr({
-                                        'src': srcWordsb[index], // Poprawne użycie interpolacji
-                                                'type': 'video/mp4'     // Typ pliku wideo
-                                        });
-// Dodaj element source do elementu video
-                                                $sourceElement.appendTo($videoElement);
-// Dodaj element video do diva dla wideo
-                                                $videoElement.appendTo($vidDiv);
-                                                // Dodaj element <source> do elementu <video>
-
-                                                // Obsługa błędu ładowania wideo
-                                                $videoElement.onerror = function () {
-                                                console.error('Nie można załadować pliku wideo.');
-                                                };
-                                                let currentIndexValue = [];
-                                                $videoElement.on('loadedmetadata', function () {
-                                                const videoDuration = this.duration;
-                                                        videoDurations[index] = videoDuration;
-                                                        console.log('tablica7', totalDuration);
-                                                        $videoElement.on('timeupdate', function () {
-                                                        let adjustedProgress = 0;
-                                                                for (let i = 0; i < index; i++) {
-                                                        adjustedProgress += (videoDurations[i] / totalDuration) * 100;
-                                                        }
-                                                        adjustedProgress += (this.currentTime / videoDuration) * (videoDurations[index] / totalDuration) * 100;
-                                                                updateProgress2(adjustedProgress);
-                                                                console.log('funkcja tutaj dociera');
-                                                                console.log('hej77', index);
-                                                                // Sprawdź, czy wartość index nie została jeszcze dodana do tablicy currentIndex
-                                                                if (!currentIndexValue.includes(index)) {
-                                                        // Dodaj index do tablicy currentIndex
-                                                        currentIndexValue.push(index);
-                                                                console.log('hej7', currentIndexValue);
-                                                                // Wywołaj funkcję addBackgroundToText tylko raz
-                                                                if (currentIndexValue[0] === 0 || currentIndexValue[0] === 1) {
-                                                        addBackgroundToText11(matchingFiszki1, lessonIdToShow1, matchingIndexes, currentIndexValue, true);
-                                                                addBackgroundToText22(matchingFiszki2, lessonIdToShow2, matchingIndexes, currentIndexValue, true);
-                                                                addBackgroundToText33(matchingFiszki3, lessonIdToShow3, matchingIndexes, currentIndexValue, true);
-                                                        }
-                                                        if (currentIndexValue[0] === 1 || currentIndexValue[0] === 2) {
-                                                        addBackgroundToText22(matchingFiszki2, lessonIdToShow2, matchingIndexes, currentIndexValue, true);
-                                                                addBackgroundToText33(matchingFiszki3, lessonIdToShow3, matchingIndexes, currentIndexValue, true);
-                                                        }
-                                                        if (currentIndexValue[0] === 2 || currentIndexValue[0] === 3) {
-                                                        addBackgroundToText33(matchingFiszki3, lessonIdToShow3, matchingIndexes, currentIndexValue, true);
-                                                        }
-                                                        }
-
-                                                        // Sprawdź, czy wideo zostało zakończone
-                                                        if ($videoElement[0].duration - $videoElement[0].currentTime < 1) {
-                                                        console.log('Wideo zakończone, uruchamiam następne.');
-                                                                // Odtwórz następne wideo po zakończeniu poprzedniego
-                                                                addVideo8(index + 1);
-                                                                updateProgress2(0);
-                                                        }
-                                                        });
-                                                });
-                                                // Dodaj div z wideo do tła kontenera
-                                                $vidDiv.appendTo($container);
-                                                function updateProgress2(progress) {
-                                                // Aktualizuj pasek postępu na dole kontenera
-                                                $('.progress-bar2').css('width', progress + '%');
-                                                }
-
-// Inicjalizacja paska postępu
-                                        const $progressBar2 = $('<div>').addClass('progress-bar2');
-                                                $progressBar2.css({
-                                                'position': 'absolute',
-                                                        'z-index': '2',
-                                                        'bottom': '0',
-                                                        'left': '0',
-                                                        'height': '5px', // Wysokość paska postępu
-                                                        'background-color': '#007bff', // Kolor paska postępu
-                                                        'width': '140%', // Delikatne powiększenie paska postępu o 2% w każdym kierunku
-                                                        'margin-bottom': '-2%',
-                                                        'margin-left': '-4%',
-                                                        'margin-right': '-4%'// Zapewnienie równowagi dla powiększenia paska postępu
-                                                });
-                                                $progressBar2.appendTo($container);
-                                        }
-                                addVideo8(0);
-                                } else {
-                                function setFirstFrame2() {
-                                // Tworzenie nowego wideo
-                                const video = document.createElement('video');
-                                        video.src = srcWordsb[0]; // Ustawienie pierwszego filmu
-                                        video.muted = true;
-                                        video.preload = 'metadata'; // Wczytanie metadanych filmu, ale nie całego filmu
-
-                                        // Odczytanie pierwszej klatki wideo jako obraz
-                                        video.addEventListener('loadeddata', function () {
-                                        const canvas = document.createElement('canvas');
-                                                canvas.width = this.videoWidth;
-                                                canvas.height = this.videoHeight;
-                                                const ctx = canvas.getContext('2d');
-                                                ctx.drawImage(this, 0, 0, canvas.width, canvas.height);
-                                                // Ustawienie pierwszej klatki jako tło kontenera
-                                                $container.css({
-                                                'background-image': 'url(' + canvas.toDataURL() + ')',
-                                                        'background-size': 'cover',
-                                                        'background-position': 'center',
-                                                        'background-repeat': 'no-repeat'
-                                                });
-                                        });
-                                        // Rozpoczęcie odtwarzania wideo, aby odczytać pierwszą klatkę
-                                        video.play();
-                                }
-                                console.log('hej555', indexDiv);
-                                        function addVideo22(index) {
-                                        // Sprawdź, czy jesteśmy poza zakresem tablicy
-                                        console.log('hej787', index);
-                                                const $vidDiv = $('<div>').addClass('background-video');
-// Utwórz element <video> i ustaw atrybuty
-                                                const $videoElement = $('<video>').attr({
-                                        'muted': true, // Wyciszenie dźwięku wideo
-                                                'loop': true      // Zapętlenie wideo
-                                        });
-                                                // Zatrzymaj odtwarzanie wideo
-
-
-// Utwórz element <source> dla wideo i ustaw atrybuty
-                                                const $sourceElement = $('<source>').attr({
-                                        'src': srcWordsb[index], // Poprawne użycie interpolacji
-                                                'type': 'video/mp4'     // Typ pliku wideo
-                                        });
-// Dodaj element source do elementu video
-                                                $sourceElement.appendTo($videoElement);
-// Dodaj element video do diva dla wideo
-                                                $videoElement.appendTo($vidDiv);
-                                                // Dodaj element <source> do elementu <video>
-
-                                                // Obsługa błędu ładowania wideo
-                                                $videoElement.onerror = function () {
-                                                console.error('Nie można załadować pliku wideo.');
-                                                };
-                                                let currentIndexValue = [];
-                                                // Obsługa zdarzenia timeupdate
-                                                $videoElement.on('timeupdate', function () {
-                                                console.log('hej77', index);
-                                                        // Sprawdź, czy wartość index nie została jeszcze dodana do tablicy currentIndex
-                                                        if (!currentIndexValue.includes(index)) {
-                                                // Dodaj index do tablicy currentIndex
-                                                currentIndexValue.push(index);
-                                                        console.log('hej70', currentIndexValue);
-                                                        // Wywołaj funkcję addBackgroundToText tylko raz
-                                                        if (currentIndexValue[0] === 0 || currentIndexValue[0] === 1) {
-                                                addBackgroundToText(matchingFiszki1, lessonIdToShow1, matchingIndexes, currentIndexValue, true);
-                                                        addBackgroundToText2(matchingFiszki2, lessonIdToShow2, matchingIndexes, currentIndexValue, true);
-                                                        addBackgroundToText3(matchingFiszki3, lessonIdToShow3, matchingIndexes, currentIndexValue, true);
-                                                }
-                                                if (currentIndexValue[0] === 1 || currentIndexValue[0] === 2) {
-                                                addBackgroundToText2(matchingFiszki2, lessonIdToShow2, matchingIndexes, currentIndexValue, true);
-                                                        addBackgroundToText3(matchingFiszki3, lessonIdToShow3, matchingIndexes, currentIndexValue, true);
-                                                }
-                                                if (currentIndexValue[0] === 2 || currentIndexValue[0] === 3) {
-                                                addBackgroundToText3(matchingFiszki3, lessonIdToShow3, matchingIndexes, currentIndexValue, true);
-                                                }
-                                                }
-
-                                                // Sprawdź, czy wideo zostało zakończone
-                                                if ($videoElement[0].duration - $videoElement[0].currentTime < 1) {
-                                                console.log('Wideo zakończone, uruchamiam następne.');
-                                                        // Odtwórz następne wideo po zakończeniu poprzedniego
-                                                        addVideo22(index + 1);
-                                                }
-                                                });
-                                                // Dodaj div z wideo do tła kontenera
-                                                $vidDiv.appendTo($container);
-                                                // Jeśli kontener nie został jeszcze wybrany, wybierz losowy kontener
-
-                                        }
-                                addVideo22(0);
-                                }
-
-                                // Pobierz pierwszy element .image-container
-                                var $sentenceDiv = $('<div></div>'); // Utwórz nowy element div za pomocą jQuery
-                                        $sentenceDiv.addClass('sentence');
-                                        $sentenceDiv.html(`${sentence10}<br> ${sentence20}<br> ${sentence30}`);
-                                        $sentenceDiv.css({
-                                        'position': 'absolute',
-                                                'font-size': '18px',
-                                                'bottom': '0',
-                                                'text-align': 'center',
-                                                'z-index': '1'
-                                        });
-                                        // Dodaj div z zdaniem do kontenera
-                                        $sentenceDiv.appendTo($container);
-                                        tablica15.push(srcWords);
-                                        console.log('hej51', tablica15);
-                                }
-                                }, 0);
-                                // Deklaracja tablicy, która będzie zawierać wszystkie tablice
+                function showCombinedSentenceForLesson2(index50, lessonIdToShow1, fiszki, matchingIndexes, startIndex, newIndex, indexDiv, lessonsArrayA, lesson1PartLength) {                    const matchingFiszki1 = fiszki.filter(fiszka => fiszka.id[1] === lessonIdToShow1);
+                                const matchingFiszki10 = fiszki.filter(fiszka => fiszka.id[1] === lessonIdToShow1);                        
+        console.log('hej10', matchingFiszki10);
+                console.log('hej10', lessonsArrayA);
+                                                if (matchingFiszki10.length > 0) {
+                        const srcWord1 = pobierzSrcWordDlaLekcji(lessonIdToShow1, fiszki);
+                        const srcWord10 = pobierzSrcWordDlaLekcji2(lessonIdToShow1, fiszki);
+                        function pobierzSrcWordDlaLekcji(lessonId, fiszki) {
+                        const matchingFiszka = fiszki.find(fiszka => fiszka.id[1] === lessonId);
+                                return matchingFiszka ? matchingFiszka.srcWord : null;
                         }
+                function pobierzSrcWordDlaLekcji2(lessonId, fiszki) {
+                const matchingFiszka = fiszki.find(fiszka => fiszka.id[1] === lessonId);
+                        return matchingFiszka ? matchingFiszka.srcWordimage : null;
+                }
+                console.log(`Fiszki dla lekcji ${lessonIdToShow1}`);
 
-                        function showCombinedSentenceForLesson3(lessonIdToShow1, lessonIdToShow2, lessonIdToShow3, lesson1Sentences, lesson2Sentences, lesson3Sentences, fiszki, matchingIndexes, startIndex, newIndex, indexDiv, lessonsArray) {
-                        console.log('załadowane');
-                                const matchingFiszki1 = fiszki.filter(fiszka => fiszka.id[1] === lessonIdToShow1);
-                                const matchingFiszki2 = fiszki.filter(fiszka => fiszka.id[1] === lessonIdToShow2);
-                                const matchingFiszki3 = fiszki.filter(fiszka => fiszka.id[1] === lessonIdToShow3);
-                                if (matchingFiszki1.length > 0 && matchingFiszki2.length > 0 && matchingFiszki3.length > 0) {
+                                                    console.log('hej467');
+                        
+
+
                         const $container = $('<div></div>'); // Tworzymy nowy element div za pomocą jQuery
-                                $container.addClass('image-container3'); // Dodajemy klasę do nowego diva
+                                $container.addClass('image-container4'); // Dodajemy klasę do nowego diva
                                 $container.css('position', 'relative'); // Ustawiamy pozycję diva na relative
 
                                 // Możesz również dodać dodatkowe atrybuty, takie jak 'data-lesson'
                                 $container.attr('data-lesson', indexDiv);
-                                // Dodajemy nowy div do istniejącego kontenera .grid-container
                                 $('.grid-container').append($container);
-                                const srcWord1 = pobierzSrcWordDlaLekcji(lessonIdToShow1, fiszki);
-                                const srcWord2 = pobierzSrcWordDlaLekcji(lessonIdToShow2, fiszki);
-                                const srcWord3 = pobierzSrcWordDlaLekcji(lessonIdToShow3, fiszki);
-                                function pobierzSrcWordDlaLekcji(lessonId, fiszki) {
-                                const matchingFiszka = fiszki.find(fiszka => fiszka.id[1] === lessonId);
-                                        return matchingFiszka ? matchingFiszka.srcWord : null;
-                                }
-
-                        let sentence1 = ""; // Deklaracja zmiennej sentence1 na poziomie lokalnym
-
-                                function addBackgroundToText(matchingFiszki1, lessonIdToShow1, matchingIndexes, currentIndexValue, aktualny) {
-                                sentence1 = "";
-                                        console.log('działa1');
-                                        console.log('hej1', matchingFiszki1);
-                                        console.log('hej2', lessonIdToShow1);
-                                        console.log('hej3', matchingIndexes);
-                                        console.log('hej4', sentence1); // Użycie zmiennej sentence1
-                                        console.log('hej5', currentIndexValue);
-                                        for (let i = 0; i < matchingFiszki1.length; i++) {
-                                const fiszka = matchingFiszki1[i];
-                                        console.log('hej38', fiszka);
-                                        let sentencePart = fiszka.sentence[i % 3]; // Domyślnie używaj zdania bez zmian
-                                        console.log('hej30', sentencePart);
-                                        // Sprawdź, czy indeks jest równy 0
-                                        if (aktualny) {
-                                if (matchingIndexes.includes(i + (lessonIdToShow1 - 1) * 6 + 1) && currentIndexValue == 0) {
-                                // Sprawdzenie, czy indeks bieżącej fiszki znajduje się w tablicy matchingIndexes
-                                const spanElement = document.createElement('span');
-                                        spanElement.textContent = sentencePart;
-                                        if (!spanElement.classList.contains('highlighted-sentence')) {
-                                spanElement.classList.add('yellow');
-                                        spanElement.classList.add('highlighted-sentence');
-                                }
-                                // Zaktualizuj sentencePart, aby zawierał utworzony element span
-                                sentencePart = spanElement.outerHTML;
-                                        console.log(`Zaznaczono słowo ${i + (lessonIdToShow1 - 1) * 6 + 1} w pierwszym zestawie fiszek.`);
-                                } else if (currentIndexValue == 0) {
-                                const spanElement = document.createElement('span');
-                                        spanElement.textContent = sentencePart;
-                                        spanElement.classList.add('highlighted-sentence');
-                                        // Zaktualizuj sentencePart, aby zawierał utworzony element span
-                                        sentencePart = spanElement.outerHTML;
-                                        console.log(`Zaznaczono słowo ${i + (lessonIdToShow1 - 1) * 6 + 1} w pierwszym zestawie fiszek.`);
-                                } else if (currentIndexValue == 1 && matchingIndexes.includes(i + (lessonIdToShow1 - 1) * 6 + 1)) {
-                                const spanElement = document.createElement('span');
-                                        spanElement.textContent = sentencePart;
-                                        spanElement.classList.remove('highlighted-sentence');
-                                        spanElement.classList.add('yellow');
-                                        // Zaktualizuj sentencePart, aby zawierał utworzony element span
-                                        sentencePart = spanElement.outerHTML;
-                                        console.log(`Zaznaczono słowo ${i + (lessonIdToShow1 - 1) * 6 + 1} w pierwszym zestawie fiszek.`);
-                                }
-                                }
-
-                                sentence1 += sentencePart + " ";
-                                }
-                                console.log('Zawartość zmiennej sentence1:', sentence1); // Wyświetlenie zawartości zmiennej sentence1
-                                        $sentenceDiv.html(`${sentence10}${sentence11}<br> ${sentence20}${sentence22}<br> ${sentence30}${sentence33}`);
-                                        $('#insertSlashButton').on('click', function () {
-                                if (!isSlashInserted) {
-                                $('#sentence12').show();
-                                        $sentenceDiv.html(`${sentence10}${sentence12}${sentence11}<br>${sentence20}${sentence12}${sentence22}<br>${sentence30}${sentence12}${sentence33}`);
-                                        isSlashInserted = true;
-                                }
-                                });
-                                        setTimeout(() => {
-                                        if (isSlashInserted) {
-                                        $('#sentence12').show();
-                                                $sentenceDiv.html(`${sentence10}${sentence12}${sentence11}<br>${sentence20}${sentence12}${sentence22}<br>${sentence30}${sentence12}${sentence33}`);
-                                        }
-                                        }, 10);
-                                }
-
-                        let sentence2 = ""; // Deklaracja zmiennej sentence1 na poziomie lokalnym
-
-                                function addBackgroundToText2(matchingFiszki2, lessonIdToShow2, matchingIndexes, currentIndexValue, aktualny) {
-                                sentence2 = "";
-                                        console.log('działa1');
-                                        console.log('hej1', matchingFiszki1);
-                                        console.log('hej2', lessonIdToShow1);
-                                        console.log('hej3', matchingIndexes);
-                                        console.log('hej4', sentence1); // Użycie zmiennej sentence1
-                                        console.log('hej5', currentIndexValue);
-                                        for (let j = 0; j < matchingFiszki2.length; j++) {
-                                const fiszka = matchingFiszki2[j];
-                                        let sentencePart = fiszka.sentence[j % 3]; // Domyślnie używaj zdania bez zmian
-                                        console.log('hej30', sentencePart);
-                                        // Sprawdź, czy indeks jest równy 0
-                                        if (aktualny) {
-                                if (matchingIndexes.includes(j + (lessonIdToShow2 - 1) * 6 + 1) && currentIndexValue == 0) {
-                                const spanElement = document.createElement('span');
-                                        spanElement.textContent = sentencePart;
-                                        spanElement.classList.remove('highlighted-sentence');
-                                        spanElement.classList.add('yellow');
-                                        // Zaktualizuj sentencePart, aby zawierał utworzony element span
-                                        sentencePart = spanElement.outerHTML;
-                                        console.log(`Zaznaczono słowo ${j + (lessonIdToShow2 - 1) * 6 + 1} w pierwszym zestawie fiszek.`);
-                                } else if (matchingIndexes.includes(j + (lessonIdToShow2 - 1) * 6 + 1) && currentIndexValue == 1) {
-                                // Sprawdzenie, czy indeks bieżącej fiszki znajduje się w tablicy matchingIndexes
-                                const spanElement = document.createElement('span');
-                                        spanElement.textContent = sentencePart;
-                                        if (!spanElement.classList.contains('yellow')) {
-                                spanElement.classList.add('yellow');
-                                        spanElement.classList.add('highlighted-sentence');
-                                }
-                                // Zaktualizuj sentencePart, aby zawierał utworzony element span
-                                sentencePart = spanElement.outerHTML;
-                                        console.log(`Zaznaczono słowo ${j + (lessonIdToShow2 - 1) * 6 + 1} w pierwszym zestawie fiszek.`);
-                                } else if (currentIndexValue == 1) {
-                                const spanElement = document.createElement('span');
-                                        spanElement.textContent = sentencePart;
-                                        spanElement.classList.add('highlighted-sentence');
-                                        // Zaktualizuj sentencePart, aby zawierał utworzony element span
-                                        sentencePart = spanElement.outerHTML;
-                                        console.log(`Zaznaczono słowo ${j + (lessonIdToShow2 - 1) * 6 + 1} w pierwszym zestawie fiszek.`);
-                                } else if (currentIndexValue == 2 && matchingIndexes.includes(j + (lessonIdToShow1 - 1) * 6 + 1)) {
-                                const spanElement = document.createElement('span');
-                                        spanElement.textContent = sentencePart;
-                                        spanElement.classList.remove('highlighted-sentence');
-                                        spanElement.classList.add('yellow');
-                                        // Zaktualizuj sentencePart, aby zawierał utworzony element span
-                                        sentencePart = spanElement.outerHTML;
-                                        console.log(`Zaznaczono słowo ${j + (lessonIdToShow2 - 1) * 6 + 1} w pierwszym zestawie fiszek.`);
-                                }
-                                }
-
-                                sentence2 += sentencePart + " ";
-                                }
-                                console.log('Zawartość zmiennej sentence1:', sentence1); // Wyświetlenie zawartości zmiennej sentence1
-                                        $sentenceDiv.html(`${sentence10}${sentence11}<br> ${sentence20}${sentence22}<br> ${sentence30}${sentence33}`);
-                                        $('#insertSlashButton').on('click', function () {
-                                if (!isSlashInserted) {
-                                $('#sentence12').show();
-                                        $sentenceDiv.html(`${sentence10}${sentence12}${sentence11}<br>${sentence20}${sentence12}${sentence22}<br>${sentence30}${sentence12}${sentence33}`);
-                                        isSlashInserted = true;
-                                }
-                                });
-                                        setTimeout(() => {
-                                        if (isSlashInserted) {
-                                        $('#sentence12').show();
-                                                $sentenceDiv.html(`${sentence10}${sentence12}${sentence11}<br>${sentence20}${sentence12}${sentence22}<br>${sentence30}${sentence12}${sentence33}`);
-                                        }
-                                        }, 10);
-                                }
-
-                        let sentence3 = ""; // Deklaracja zmiennej sentence1 na poziomie lokalnym
-
-                                function addBackgroundToText3(matchingFiszki3, lessonIdToShow3, matchingIndexes, currentIndexValue, aktualny) {
-                                sentence3 = "";
-                                        console.log('działa1');
-                                        console.log('hej1', matchingFiszki1);
-                                        console.log('hej2', lessonIdToShow1);
-                                        console.log('hej3', matchingIndexes);
-                                        console.log('hej4', sentence1); // Użycie zmiennej sentence1
-                                        console.log('hej5', currentIndexValue);
-                                        for (let k = 0; k < matchingFiszki3.length; k++) {
-                                const fiszka = matchingFiszki3[k];
-                                        let sentencePart = fiszka.sentence[k % 3]; // Domyślnie używaj zdania bez zmian
-                                        console.log('hej30', sentencePart);
-                                        // Sprawdź, czy indeks jest równy 0
-                                        if (aktualny) {
-                                if (matchingIndexes.includes(k + (lessonIdToShow3 - 1) * 6 + 1) && currentIndexValue == 1) {
-                                const spanElement = document.createElement('span');
-                                        spanElement.textContent = sentencePart;
-                                        spanElement.classList.remove('highlighted-sentence');
-                                        spanElement.classList.add('yellow');
-                                        // Zaktualizuj sentencePart, aby zawierał utworzony element span
-                                        sentencePart = spanElement.outerHTML;
-                                } else if (matchingIndexes.includes(k + (lessonIdToShow3 - 1) * 6 + 1) && currentIndexValue == 2) {
-                                // Sprawdzenie, czy indeks bieżącej fiszki znajduje się w tablicy matchingIndexes
-                                const spanElement = document.createElement('span');
-                                        spanElement.textContent = sentencePart;
-                                        if (!spanElement.classList.contains('yellow')) {
-                                spanElement.classList.add('yellow');
-                                        spanElement.classList.add('highlighted-sentence');
-                                }
-                                // Zaktualizuj sentencePart, aby zawierał utworzony element span
-                                sentencePart = spanElement.outerHTML;
-                                } else if (currentIndexValue == 2) {
-                                const spanElement = document.createElement('span');
-                                        spanElement.textContent = sentencePart;
-                                        spanElement.classList.add('highlighted-sentence');
-                                        // Zaktualizuj sentencePart, aby zawierał utworzony element span
-                                        sentencePart = spanElement.outerHTML;
-                                } else if (currentIndexValue == 0 && matchingIndexes.includes(k + (lessonIdToShow3 - 1) * 6 + 1)) {
-                                const spanElement = document.createElement('span');
-                                        spanElement.textContent = sentencePart;
-                                        spanElement.classList.remove('highlighted-sentence');
-                                        spanElement.classList.add('yellow');
-                                        // Zaktualizuj sentencePart, aby zawierał utworzony element span
-                                        sentencePart = spanElement.outerHTML;
-                                }
-                                }
-
-                                sentence3 += sentencePart + " ";
-                                }
-                                console.log('Zawartość zmiennej sentence1:', sentence1); // Wyświetlenie zawartości zmiennej sentence1
-                                        $sentenceDiv.html(`${sentence10}${sentence11}<br> ${sentence20}${sentence22}<br> ${sentence30}${sentence33}`);
-                                        $('#insertSlashButton').on('click', function () {
-                                if (!isSlashInserted) {
-                                $('#sentence12').show();
-                                        $sentenceDiv.html(`${sentence10}${sentence12}${sentence11}<br>${sentence20}${sentence12}${sentence22}<br>${sentence30}${sentence12}${sentence33}`);
-                                        isSlashInserted = true;
-                                }
-                                });
-                                        setTimeout(() => {
-                                        if (isSlashInserted) {
-                                        $('#sentence12').show();
-                                                $sentenceDiv.html(`${sentence10}${sentence12}${sentence11}<br>${sentence20}${sentence12}${sentence22}<br>${sentence30}${sentence12}${sentence33}`);
-                                        }
-                                        }, 10);
-                                }
-
-                        const srcWords = [srcWord1, srcWord2, srcWord3];
+                                const srcWords = [srcWord1];
+                                console.log('hej2', srcWords);
+                                const srcWordimage = [srcWord10];
+                                // Zmienna globalna przechowująca łączny czas trwania wszystkich wideo
+                                console.log('hej2', srcWordimage);
                                 let videoDurations = [];
                                 let totalDuration = 0;
                                 for (let i = 0; i < srcWords.length; i++) {
@@ -3296,8 +2751,10 @@ $('.sentence1bba').html('');
                                 video.addEventListener('loadedmetadata', function () {
                                 totalDuration += this.duration;
                                         console.log('tablica8', totalDuration);
+                                        console.log('działa5');
                                 });
                         }
+                        console.log('hej');
                         console.log('tablica11', videoDurations);
                                 function removePreviousVideo() {
                                 const previousVideo = $container.find('video'); // Poprawne odwołanie do poprzedniego wideo
@@ -3306,30 +2763,29 @@ $('.sentence1bba').html('');
                                 }
                                 }
 
-                        if (index50 === 0) {
-                        // Znajdź kontener, przed którym chcesz wstawić nowy kontener
-                        const containerToInsertBefore = document.querySelector(`.image-container3[data-lesson="${indexDiv + 1}"]`);
-                                const newContainer = document.querySelector(`.image-container3[data-lesson="${indexDiv}"]`);
-// Wstaw nowy kontener przed kontenerem znalezionym w poprzednim kroku
-                                if (containerToInsertBefore) {
-                        containerToInsertBefore.parentNode.insertBefore(newContainer, containerToInsertBefore);
-                        } else {
-                        console.error('Nie można znaleźć kontenera, przed którym należy wstawić nowy kontener.');
-                        }
-                        console.log('Adres URL pierwszego filmu:', srcWords[0]);
-                                let funkcjaWywolana = false;
-                                function addVideo(index) {
-                                console.log('hej78', index);
+                        if (newIndex === 0 && !buttonindex) {
+                            console.log('hej333');
+                        let funkcjaWywolana = false;
+                                function addVideo1(index) {
+                                console.log('hej80', index);
                                         // Sprawdź, czy jesteśmy poza zakresem tablicy
-
                                         if (index >= srcWords.length && !funkcjaWywolana) {
-                                // Ustawienie pierwszego filmu jako tła kontenera
-                                setTimeout(function () {
-                                $('.progress-bar2').remove();
-                                }, 200); // Opóźnienie w milisekundach (tu: 1 sekunda)
-                                        setFirstFrame2();
-                                        przekazArgument();
+                                            console.log('hej123', button0);
+                                        if (button0) {
+                                                przekazArgument0(category, undefined, true);
+                                                console.log('hej26');
+                                            }
+                                                                                    if (button) {
+                                                przekazArgument(category, undefined, true);
+                                            }
+                                                                                    if (button2) {
+                                                przekazArgument2(category, undefined, true);
+                                            }
+                                                  if (button3) {
+                                                przekazArgument3(category, undefined, true);
+                                            }
                                         console.log("wykonuje się");
+                                        funkcjaWywolana = true;
                                 }
                                 // Usuń poprzednie wideo
                                 removePreviousVideo();
@@ -3339,7 +2795,7 @@ $('.sentence1bba').html('');
                                         const $videoElement = $('<video>').attr({
                                 'autoplay': true, // Automatyczne odtwarzanie wideo
                                         'muted': true, // Wyciszenie dźwięku wideo
-                                        'loop': true      // Zapętlenie wideo
+                                        'loop': true // Zapętlenie wideo
                                 });
                                         // Dodaj klasę CSS zależnie od indeksu wideo
                                         if (index === 0) {
@@ -3363,36 +2819,27 @@ $('.sentence1bba').html('');
                                         console.error('Nie można załadować pliku wideo.');
                                         };
                                         let currentIndexValue = [];
+                                        // Funkcja obsługi zdarzenia loadedmetadata
                                         $videoElement.on('loadedmetadata', function () {
                                         const videoDuration = this.duration;
                                                 videoDurations[index] = videoDuration;
-                                                console.log('tablica7', totalDuration);
+                                                console.log('tablica77', totalDuration);
                                                 $videoElement.on('timeupdate', function () {
                                                 let adjustedProgress = 0;
                                                         for (let i = 0; i < index; i++) {
                                                 adjustedProgress += (videoDurations[i] / totalDuration) * 100;
                                                 }
                                                 adjustedProgress += (this.currentTime / videoDuration) * (videoDurations[index] / totalDuration) * 100;
-                                                        updateProgress2(adjustedProgress);
-                                                        console.log('funkcja tutaj dociera');
-                                                        console.log('hej77', index);
+                                                        updateProgress(adjustedProgress);
+                                                        console.log('hej786', index);
                                                         // Sprawdź, czy wartość index nie została jeszcze dodana do tablicy currentIndex
                                                         if (!currentIndexValue.includes(index)) {
                                                 // Dodaj index do tablicy currentIndex
                                                 currentIndexValue.push(index);
-                                                        console.log('hej7', currentIndexValue);
+                                                        console.log('hej70', currentIndexValue);
                                                         // Wywołaj funkcję addBackgroundToText tylko raz
-                                                        if (currentIndexValue[0] === 0 || currentIndexValue[0] === 1) {
-                                                addBackgroundToText(matchingFiszki1, lessonIdToShow1, matchingIndexes, currentIndexValue, true);
-                                                        addBackgroundToText2(matchingFiszki2, lessonIdToShow2, matchingIndexes, currentIndexValue, true);
-                                                        addBackgroundToText3(matchingFiszki3, lessonIdToShow3, matchingIndexes, currentIndexValue, true);
-                                                }
-                                                if (currentIndexValue[0] === 1 || currentIndexValue[0] === 2) {
-                                                addBackgroundToText2(matchingFiszki2, lessonIdToShow2, matchingIndexes, currentIndexValue, true);
-                                                        addBackgroundToText3(matchingFiszki3, lessonIdToShow3, matchingIndexes, currentIndexValue, true);
-                                                }
-                                                if (currentIndexValue[0] === 2 || currentIndexValue[0] === 3) {
-                                                addBackgroundToText3(matchingFiszki3, lessonIdToShow3, matchingIndexes, currentIndexValue, true);
+                                                        if (currentIndexValue[0] === 0) {
+                                                addBackgroundToText(matchingFiszki10, matchingIndexes, currentIndexValue, true, lesson1PartLength);
                                                 }
                                                 }
 
@@ -3400,46 +2847,21 @@ $('.sentence1bba').html('');
                                                 if ($videoElement[0].duration - $videoElement[0].currentTime < 1) {
                                                 console.log('Wideo zakończone, uruchamiam następne.');
                                                         // Odtwórz następne wideo po zakończeniu poprzedniego
-                                                        addVideo(index + 1);
-                                                        updateProgress2(0);
+                                                        addVideo1(index + 1);
+                                                        updateProgress(0);
                                                 }
                                                 });
                                         });
                                         // Dodaj div z wideo do tła kontenera
                                         $vidDiv.appendTo($container);
-                                        function setFirstFrame2() {
-                                        // Tworzenie nowego wideo
-                                        const video = document.createElement('video');
-                                                video.src = srcWords[0]; // Ustawienie pierwszego filmu
-                                                video.muted = true;
-                                                video.preload = 'metadata'; // Wczytanie metadanych filmu, ale nie całego filmu
-
-                                                // Odczytanie pierwszej klatki wideo jako obraz
-                                                video.addEventListener('loadeddata', function () {
-                                                const canvas = document.createElement('canvas');
-                                                        canvas.width = this.videoWidth;
-                                                        canvas.height = this.videoHeight;
-                                                        const ctx = canvas.getContext('2d');
-                                                        ctx.drawImage(this, 0, 0, canvas.width, canvas.height);
-                                                        // Ustawienie pierwszej klatki jako tło kontenera
-                                                        $container.css({
-                                                        'background-image': 'url(' + canvas.toDataURL() + ')',
-                                                                'background-size': 'cover',
-                                                                'background-position': 'center',
-                                                                'background-repeat': 'no-repeat'
-                                                        });
-                                                });
-                                                // Rozpoczęcie odtwarzania wideo, aby odczytać pierwszą klatkę
-                                                video.play();
-                                        }
-                                function updateProgress2(progress) {
+                                function updateProgress(progress) {
                                 // Aktualizuj pasek postępu na dole kontenera
-                                $('.progress-bar2').css('width', progress + '%');
+                                $('.progress-bar').css('width', progress + '%');
                                 }
 
 // Inicjalizacja paska postępu
-                                const $progressBar2 = $('<div>').addClass('progress-bar2');
-                                        $progressBar2.css({
+                                const $progressBar = $('<div>').addClass('progress-bar');
+                                        $progressBar.css({
                                         'position': 'absolute',
                                                 'z-index': '2',
                                                 'bottom': '0',
@@ -3451,126 +2873,194 @@ $('.sentence1bba').html('');
                                                 'margin-left': '-4%',
                                                 'margin-right': '-4%'// Zapewnienie równowagi dla powiększenia paska postępu
                                         });
-                                        $progressBar2.appendTo($container);
+                                        $progressBar.appendTo($container);
                                 }
-                        addVideo(0);
-                        } else {
-                        function addVideo2(index) {
-                        // Sprawdź, czy jesteśmy poza zakresem tablicy
-                        console.log('hej78', index);
-                                const $vidDiv = $('<div>').addClass('background-video');
+                        addVideo1(0);
+                        } else if (index50 === 0 && buttonindex) {
+                        let funkcjaWywolana = false;
+                                function addVideo2(index) {
+                                console.log('hej80', index);
+                                        console.log('hej123', button0);
+                                        // Sprawdź, czy jesteśmy poza zakresem tablicy
+                                        if (index >= srcWords.length && !funkcjaWywolana) {
+                                            console.log('hej123', button0);
+                                setTimeout(function () {
+                                $('.progress-bar').remove();
+                                }, 200); // Opóźnienie w milisekundach (tu: 1 sekunda)
+                                        if (button0) {
+                                                przekazArgument0(category, undefined, true);
+                                                console.log('hej26');
+                                            }
+                                                                                    if (button) {
+                                                przekazArgument(category, undefined, true);
+                                            }
+                                                                                    if (button2) {
+                                                przekazArgument2(category, undefined, true);
+                                            }
+                                                  if (button3) {
+                                                przekazArgument3(category, undefined, true);
+                                            }
+                                        console.log("wykonuje się");
+                                        funkcjaWywolana = true;
+                                }
+                                // Usuń poprzednie wideo
+                                removePreviousVideo();
+                                        console.log('hej78', index);
+                                        const $vidDiv = $('<div>').addClass('background-video');
 // Utwórz element <video> i ustaw atrybuty
-                                const $videoElement = $('<video>').attr({
-                        'muted': true, // Wyciszenie dźwięku wideo
-                                'loop': true      // Zapętlenie wideo
-                        });
-                                // Zatrzymaj odtwarzanie wideo
-
-
+                                        const $videoElement = $('<video>').attr({
+                                'autoplay': true, // Automatyczne odtwarzanie wideo
+                                        'muted': true, // Wyciszenie dźwięku wideo
+                                        'loop': true // Zapętlenie wideo
+                                });
+                                        // Dodaj klasę CSS zależnie od indeksu wideo
+                                        if (index === 0) {
+                                $videoElement.addClass('scaled-video');
+                                } else {
+                                $videoElement.addClass('next-video');
+                                }
 // Utwórz element <source> dla wideo i ustaw atrybuty
                                 const $sourceElement = $('<source>').attr({
-                        'src': srcWords[index], // Poprawne użycie interpolacji
-                                'type': 'video/mp4'     // Typ pliku wideo
-                        });
+                                'src': srcWords[index], // Poprawne użycie interpolacji
+                                        'type': 'video/mp4'     // Typ pliku wideo
+                                });
 // Dodaj element source do elementu video
-                                $sourceElement.appendTo($videoElement);
+                                        $sourceElement.appendTo($videoElement);
 // Dodaj element video do diva dla wideo
-                                $videoElement.appendTo($vidDiv);
-                                if ($videoElement && !$videoElement.paused) {
-                        $videoElement.pause();
-                        }
-                        // Dodaj element <source> do elementu <video>
+                                        $videoElement.appendTo($vidDiv);
+                                        // Dodaj element <source> do elementu <video>
 
-                        // Obsługa błędu ładowania wideo
-                        $videoElement.onerror = function () {
-                        console.error('Nie można załadować pliku wideo.');
-                        };
-                                let currentIndexValue = [];
-                                // Obsługa zdarzenia timeupdate
-                                $videoElement.on('timeupdate', function () {
-                                console.log('hej77', index);
-                                        // Sprawdź, czy wartość index nie została jeszcze dodana do tablicy currentIndex
-                                        if (!currentIndexValue.includes(index)) {
-                                // Dodaj index do tablicy currentIndex
-                                currentIndexValue.push(index);
-                                        console.log('hej70', currentIndexValue);
-                                        // Wywołaj funkcję addBackgroundToText tylko raz
-                                        if (currentIndexValue[0] === 0 || currentIndexValue[0] === 1) {
-                                addBackgroundToText(matchingFiszki1, lessonIdToShow1, matchingIndexes, currentIndexValue, true);
-                                        addBackgroundToText2(matchingFiszki2, lessonIdToShow2, matchingIndexes, currentIndexValue, true);
-                                        addBackgroundToText3(matchingFiszki3, lessonIdToShow3, matchingIndexes, currentIndexValue, true);
-                                }
-                                if (currentIndexValue[0] === 1 || currentIndexValue[0] === 2) {
-                                addBackgroundToText2(matchingFiszki2, lessonIdToShow2, matchingIndexes, currentIndexValue, true);
-                                        addBackgroundToText3(matchingFiszki3, lessonIdToShow3, matchingIndexes, currentIndexValue, true);
-                                }
-                                if (currentIndexValue[0] === 2 || currentIndexValue[0] === 3) {
-                                addBackgroundToText3(matchingFiszki3, lessonIdToShow3, matchingIndexes, currentIndexValue, true);
-                                }
+                                        // Obsługa błędu ładowania wideo
+                                        $videoElement.onerror = function () {
+                                        console.error('Nie można załadować pliku wideo.');
+                                        };
+                                        let currentIndexValue = [];
+                                        // Funkcja obsługi zdarzenia loadedmetadata
+                                        $videoElement.on('loadedmetadata', function () {
+                                        const videoDuration = this.duration;
+                                                videoDurations[index] = videoDuration;
+                                                console.log('tablica77', totalDuration);
+                                                $videoElement.on('timeupdate', function () {
+                                                let adjustedProgress = 0;
+                                                        for (let i = 0; i < index; i++) {
+                                                adjustedProgress += (videoDurations[i] / totalDuration) * 100;
+                                                }
+                                                adjustedProgress += (this.currentTime / videoDuration) * (videoDurations[index] / totalDuration) * 100;
+                                                        updateProgress(adjustedProgress);
+                                                        console.log('hej78', index);
+                                                        // Sprawdź, czy wartość index nie została jeszcze dodana do tablicy currentIndex
+                                                        if (!currentIndexValue.includes(index)) {
+                                                // Dodaj index do tablicy currentIndex
+                                                currentIndexValue.push(index);
+                                                        console.log('hej70', currentIndexValue);
+                                                        // Wywołaj funkcję addBackgroundToText tylko raz
+                                                        if (currentIndexValue[0] === 0) {
+                                                addBackgroundToText(matchingFiszki10, matchingIndexes, currentIndexValue, true, lesson1PartLength);
+                                                }
+                                                }
+
+                                                // Sprawdź, czy wideo zostało zakończone
+                                                if ($videoElement[0].duration - $videoElement[0].currentTime < 1) {
+                                                console.log('Wideo zakończone, uruchamiam następne.');
+                                                        // Odtwórz następne wideo po zakończeniu poprzedniego
+                                                        addVideo2(index + 1);
+                                                        updateProgress(0);
+                                                }
+                                                });
+                                        });
+                                        // Dodaj div z wideo do tła kontenera
+                                        $vidDiv.appendTo($container);
+                                function updateProgress(progress) {
+                                // Aktualizuj pasek postępu na dole kontenera
+                                $('.progress-bar').css('width', progress + '%');
                                 }
 
-                                // Sprawdź, czy wideo zostało zakończone
-                                if ($videoElement[0].duration - $videoElement[0].currentTime < 1) {
-                                console.log('Wideo zakończone, uruchamiam następne.');
-                                        // Odtwórz następne wideo po zakończeniu poprzedniego
-                                        addVideo(index + 1);
+// Inicjalizacja paska postępu
+                                const $progressBar = $('<div>').addClass('progress-bar');
+                                        $progressBar.css({
+                                        'position': 'absolute',
+                                                'z-index': '2',
+                                                'bottom': '0',
+                                                'left': '0',
+                                                'height': '5px', // Wysokość paska postępu
+                                                'background-color': '#007bff', // Kolor paska postępu
+                                                'width': '140%', // Delikatne powiększenie paska postępu o 2% w każdym kierunku
+                                                'margin-bottom': '-2%',
+                                                'margin-left': '-4%',
+                                                'margin-right': '-4%'// Zapewnienie równowagi dla powiększenia paska postępu
+                                        });
+                                        $progressBar.appendTo($container);
                                 }
-                                });
-                                // Dodaj div z wideo do tła kontenera
-                                $vidDiv.appendTo($container);
-                                // Jeśli kontener nie został jeszcze wybrany, wybierz losowy kontener
-
-                        }
                         addVideo2(0);
-                        }
-                        // Pobierz pierwszy element .image-container
-                        var $sentenceDiv = $('<div></div>'); // Utwórz nowy element div za pomocą jQuery
-                                $sentenceDiv.addClass('sentence');
-                                $sentenceDiv.html(`${sentence1}<br> ${sentence2}<br> ${sentence3}`);
-                                $sentenceDiv.css({
-                                'position': 'absolute',
-                                        'font-size': '18px',
-                                        'bottom': '0',
-                                        'text-align': 'center',
-                                        'z-index': '1'
-                                });
-                                // Dodaj div z zdaniem do kontenera
-                                $sentenceDiv.appendTo($container);
-                                tablica10.push(srcWords);
-                                console.log('hej6', tablica10);
-                        }
-                        // Deklaracja tablicy, która będzie zawierać wszystkie tablice
-                        }
-                        // Funkcja, która zapisuje adres URL pierwszej klatki pierwszego filmu
-// Funkcja, która zapisuje adres URL pierwszego filmu
-
-
-
-                        function showCombinedSentenceForLesson2(lessonIdToShow, fiszki) {
-                        const matchingFiszki = fiszki.filter(fiszka => fiszka.id[1] === lessonIdToShow);
-                                console.log('hej10', matchingFiszki);
-                                if (matchingFiszki.length > 0) {
-                        console.log(`Fiszki dla lekcji ${lessonIdToShow}:`);
-                                // Zbuduj zdanie z pierwszego zdania z pierwszych trzech fiszek oraz pierwszego zdania z trzech kolejnych
-                                const firstword = matchingFiszki.slice(0, 1).map(fiszka => fiszka.sentence[0]);
-                                const nextword = matchingFiszki.slice(0, 1).map(fiszka => fiszka.sentence[1]);
-                                const thirdword = matchingFiszki.slice(0, 1).map(fiszka => fiszka.sentence[2]);
-                                const forthword = matchingFiszki.slice(3, 4).map(fiszka => fiszka.sentence[0]);
-                                const fifthword = matchingFiszki.slice(4, 5).map(fiszka => fiszka.sentence[1]);
-                                const sixthword = matchingFiszki.slice(5, 6).map(fiszka => fiszka.sentence[2]);
-                                const sentence = `${firstword.join(" ")} ${nextword.join(" ")} ${thirdword.join(" ")} ${forthword.join(" ")} ${fifthword.join(" ")} ${sixthword.join(" ")}`;
-                                // Utwórz kontener i dodaj zdanie do niego
-                                const container = document.createElement('div');
-                                container.classList.add('image-container3');
-                                container.innerHTML = `<div class="sentence">${sentence}</div>`;
-                                // Pobierz pierwszy element .image-container
-                                const firstImageContainer = document.querySelector('.image-container');
-                                // Wstaw .image-container3 przed pierwszym .image-container
-                                firstImageContainer.parentNode.insertBefore(container, firstImageContainer);
                         } else {
-                        console.log(`No fiszki found for Lesson ${lessonIdToShow}.`);
+                        function addVideo3(index) {
+// Utwórz element <video> i ustaw atrybuty
+                        const $videoElement = $('<video>').attr({
+                        'muted': true, // Wyciszenie dźwięku wideo
+                                'loop': true, // Zapętlenie wideo
+                                'style': 'z-index: 0',
+                                'poster': srcWordimage[index] // Dodanie plakatu do wideo
+                        });
+                                // Utwórz element <div> dla nakładki
+                                const $overlay = $('<div>').addClass('overlay');
+// Dodaj element video do diva dla wideo
+                                $videoElement.appendTo($container);
+                                // Dodaj nakładkę do kontenera, po dodaniu wideo
+                                $overlay.appendTo($container);
+                                // Jeśli kontener nie został jeszcze wybrany, wybierz losowy kontenerh);
+                        }
+                        addVideo3(0);
+                        }
+                        // Stwórz przycisk za pomocą jQuery
+// Tworzenie nowego elementu div za pomocą jQuery
+console.log('hejhej');
+
+                                const $button = $('<button></button>');
+                                $button.addClass('run-button');
+                                $button.text('Uruchom'); // Ustawiamy tekst przycisku na 'Uruchom'
+
+// Dodajemy atrybut 'data-index' z wartością indexDiv do przycisku
+                                $button.attr('data-index', indexDiv);
+                                $button.on('click', function () {
+
+                                const index5 = $button.attr('data-index');
+                                        const index55 = parseInt(index5, 10); // Zamieniamy index55 na liczbę
+                                        // Alternatywnie można użyć Number(index55)
+                                        // const numericIndex = Number(index55);
+                                        buttonindex = true;
+                                        setTimeout(() => {
+                                        console.log('Kliknięto przycisk o indeksie:', index55);
+                                        if (button0) {
+                                                przekazArgument0(category, index55, true);
+                                                console.log('hej26');
+                                            }
+                                                                                    if (button) {
+                                                przekazArgument(category, index55, true);
+                                            }
+                                                                                    if (button2) {
+                                                przekazArgument2(category, index55, true);
+                                            }
+                                                  if (button3) {
+                                                przekazArgument3(category, index55, true);
+                                            }
+                                        }, 100);
+                                        // Usunięcie kontenera po wstawieniu nowego
+                                });
+                                $button.css({
+                                'position': 'absolute',
+                                        'left': '50%', // Przykładowa wartość odstępu od lewej krawędzi
+                                        'top': '10px',
+                                        'z-index': '10' // Ustawienie z-index dla buttona większe niż dla sentenceDiv
+                                });
+                                console.log('hejhej4');
+                                $container.append($button);
+                                console.log('hejhej5');
+// Dodanie diva z zdaniem do kontenera
+                                tablica15.push(srcWords);
+                                console.log('hej688', tablica15);
                         }
                         }
+                        
                         function wybierzTematyke(tematyka) {
                         console.log("Wybrana ulubiona tematyka fiszek: " + tematyka);
                                 // Dodaj logikę lub akcje związane z wyborem tematyki fiszek.
