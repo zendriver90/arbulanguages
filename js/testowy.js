@@ -4507,6 +4507,7 @@ const fiszki = [
             28
         ],
         img: "http://localhost/arbulanguage.com/img/fiszki1/25j.jpg",
+                srcWord: "http://localhost/arbulanguage.com/filmy/bridge.mp4",
         srcWordimage: "http://localhost/arbulanguage.com/filmy/bridge.png",
         story: "",
         desc: "tell[tel] - powiedz/powiedzieć",
@@ -4662,7 +4663,7 @@ const fiszki = [
             28
         ],
         img: "http://localhost/arbulanguage.com/img/fiszki1/25j.jpg",
-        story: "",
+        story: "<u><b>Import</u></b> antyków z zagranicy to <u><b>ważne</u></b> zadanie dla kolekcjonera",
         desc: "important[important] - ważne/ważny",
                 sentence2: [
             "important"
@@ -4706,8 +4707,8 @@ const fiszki = [
             28
         ],
         img: "http://localhost/arbulanguage.com/img/fiszki1/25j.jpg",
-        story: "",
-        desc: "you[bridź] - ty",
+        story: "<u><b>Ju</u></b>tro <u><b>ty</u></b> masz wolny dzień od pracy",
+        desc: "you[ju] - ty",
                 sentence2: [
             "you"
         ],
@@ -4721,6 +4722,433 @@ const fiszki = [
         key: "you",
         category1: "nauka",
         category2: "transport, "
+    },
+        {
+        id: [
+            185,
+            29
+        ],
+        img: "http://localhost/arbulanguage.com/img/fiszki1/25j.jpg",
+                srcWord: "http://localhost/arbulanguage.com/filmy/accounts.mp4",
+        story: "Już wielu <u><b>użytkowników</u></b> wykupi<u><b>ł</u></b> płatne subskrypcje, bo darmowa wersja jest m<u><b>iz</u></b>erna",
+        desc: "user[juzer] - użytkownik",
+                sentence1: [
+            "(A) user"
+        ],
+        sentence: [
+            "(A) user",
+            "may",
+            "add",
+            "or",
+            "remove",
+            "those",
+            "account"
+        ],
+        key: "you",
+        category1: "nauka",
+        category2: "transport, "
+    },
+            {
+        id: [
+            186,
+            29
+        ],
+        img: "http://localhost/arbulanguage.com/img/fiszki1/25j.jpg",
+        story: "Iwonie sa<u><b>mej</u></b> <u><b>może</u>/<b> być trudno wykonać to zadanie",
+        desc: "may[mej] - może",
+                sentence1: [
+            "may"
+        ],
+        sentence: [
+            "(A) user",
+            "may",
+            "add",
+            "or",
+            "remove",
+            "those",
+            "account"
+        ],
+        key: "you",
+        category1: "nauka",
+        category2: ["czasownik"]
+    },
+                {
+        id: [
+            187,
+            29
+        ],
+        img: "http://localhost/arbulanguage.com/img/fiszki1/25j.jpg",
+        story: "Z<u><b>ad</u></b>anie dla uczniów to <u><b>dodać</u></b> do swojego wypracowanie wątki fantastyczne",
+        desc: "add[ad] - dodać",
+                sentence1: [
+            "add"
+        ],
+        sentence: [
+            "(A) user",
+            "may",
+            "add",
+            "or",
+            "remove",
+            "those",
+            "account"
+        ],
+        key: "you",
+        category1: "nauka",
+        category2: ["czasownik"]
+    },
+                    {
+        id: [
+            188,
+            29
+        ],
+        img: "http://localhost/arbulanguage.com/img/fiszki1/25j.jpg",
+        story: "To jest już p<u><b>or</u></b>a na kolacje <u><b>lub</u></b> spanie",
+        desc: "or[or] - lub",
+                sentence1: [
+            "or"
+        ],
+        sentence: [
+            "(A) user",
+            "may",
+            "add",
+            "or",
+            "remove",
+            "those",
+            "account"
+        ],
+        key: "you",
+        category1: "nauka",
+        category2: ["spojniki"]
+    },
+                        {
+        id: [
+            189,
+            29
+        ],
+        img: "http://localhost/arbulanguage.com/img/fiszki1/25j.jpg",
+        story: "Na <u><b>re</u></b>sztę towaru mam już za<u><b>mów</u></b>ienie, to co pozostanie wyrzucę/usunę z magazynu",
+        desc: "remove[remuw] - usunąć",
+                sentence1: [
+            "remove"
+        ],
+        sentence: [
+            "(A) user",
+            "may",
+            "add",
+            "or",
+            "remove",
+            "those",
+            "account"
+        ],
+        key: "you",
+        category1: "nauka",
+        category2: ["czasownik"]
+    },
+                            {
+        id: [
+            190,
+            29
+        ],
+        img: "http://localhost/arbulanguage.com/img/fiszki1/25j.jpg",
+        story: "Koroporacja <u><b>uz</u></b>urpuje sobie prawo <u><b>do</u></b> tych danych",
+        desc: "those[douz] - te",
+                sentence1: [
+            "those"
+        ],
+        sentence: [
+            "(A) user",
+            "may",
+            "add",
+            "or",
+            "remove",
+            "those",
+            "accounts"
+        ],
+        key: "you",
+        category1: "nauka",
+        category2: ["zaimki osobowe"]
+    },
+                                {
+        id: [
+            191,
+            29
+        ],
+        img: "http://localhost/arbulanguage.com/img/fiszki1/25j.jpg",
+        story: "",
+        desc: "accounts[akounts] - konta",
+                sentence1: [
+            "accounts"
+        ],
+        sentence: [
+            "(A) user",
+            "may",
+            "add",
+            "or",
+            "remove",
+            "those",
+            "accounts"
+        ],
+        key: "you",
+        category1: "nauka",
+        category2: [""]
+    },
+                                    {
+        id: [
+            192,
+            29
+        ],
+        img: "http://localhost/arbulanguage.com/img/fiszki1/25j.jpg",
+        story: "Każdy żołnierz chodzi na polu walki z che<u><b>ł</u></b>mem i kam<u><b>iz</u></b>elką kuloodporną",
+        desc: "with[łiz] - z",
+                sentence2: [
+            "with"
+        ],
+        sentence: [
+            "with",
+            "ease"
+        ],
+        key: "you",
+        category1: "nauka",
+        category2: ["spojniki"]
+    },
+                                        {
+        id: [
+            193,
+            29
+        ],
+        img: "http://localhost/arbulanguage.com/img/fiszki1/25j.jpg",
+        story: "Ten <u><b>iz</u></b>otop <u><b>łatwo</u></b> się rozpuszcza",
+        desc: "ease[izz] - łatwość/łatwością",
+                sentence2: [
+            "ease"
+        ],
+        sentence: [
+            "with",
+            "ease"
+        ],
+        key: "you",
+        category1: "nauka",
+        category2: ["spojniki"]
+    },
+                                            {
+        id: [
+            194,
+            30
+        ],
+        img: "http://localhost/arbulanguage.com/img/fiszki1/25j.jpg",
+        story: "Ten <u><b>iz</u></b>otop <u><b>łatwo</u></b> się rozpuszcza",
+        desc: "she[szi] - ona",
+                sentence1: [
+            "She"
+        ],
+        sentence: [
+            "She",
+            "offers",
+            "some",
+            "advice",
+            "about"
+        ],
+        key: "she",
+        category1: "nauka",
+        category2: ["spojniki"]
+    },
+                                            {
+        id: [
+            195,
+            30
+        ],
+        img: "http://localhost/arbulanguage.com/img/fiszki1/25j.jpg",
+        story: "Ten <u><b>iz</u></b>otop <u><b>łatwo</u></b> się rozpuszcza",
+        desc: "ease[izz] - łatwość/łatwością",
+                sentence1: [
+            "offers"
+        ],
+        sentence: [
+            "She",
+            "offers",
+            "some",
+            "advice",
+            "about"
+        ],
+        key: "offers",
+        category1: "nauka",
+        category2: ["spojniki"]
+    },                                        
+    {
+        id: [
+            196,
+            30
+        ],
+        img: "http://localhost/arbulanguage.com/img/fiszki1/25j.jpg",
+        story: "Ten <u><b>iz</u></b>otop <u><b>łatwo</u></b> się rozpuszcza",
+        desc: "ease[izz] - łatwość/łatwością",
+                sentence1: [
+            "some"
+        ],
+        sentence: [
+            "She",
+            "offers",
+            "some",
+            "advice",
+            "about"
+        ],
+        key: "some",
+        category1: "nauka",
+        category2: ["spojniki"]
+    },
+        {
+        id: [
+            197,
+            30
+        ],
+        img: "http://localhost/arbulanguage.com/img/fiszki1/25j.jpg",
+        story: "Ten <u><b>iz</u></b>otop <u><b>łatwo</u></b> się rozpuszcza",
+        desc: "ease[izz] - łatwość/łatwością",
+                sentence1: [
+            "advice"
+        ],
+        sentence: [
+            "She",
+            "offers",
+            "some",
+            "advice",
+            "about"
+        ],
+        key: "you",
+        category1: "nauka",
+        category2: ["spojniki"]
+    },
+        {
+        id: [
+            198,
+            30
+        ],
+        img: "http://localhost/arbulanguage.com/img/fiszki1/25j.jpg",
+        story: "Ten <u><b>iz</u></b>otop <u><b>łatwo</u></b> się rozpuszcza",
+        desc: "ease[izz] - łatwość/łatwością",
+                sentence1: [
+            "about"
+        ],
+        sentence: [
+            "She",
+            "offers",
+            "some",
+            "advice",
+            "about"
+        ],
+        key: "about",
+        category1: "nauka",
+        category2: ["spojniki"]
+    },
+        {
+        id: [
+            199,
+            30
+        ],
+        img: "http://localhost/arbulanguage.com/img/fiszki1/25j.jpg",
+        story: "Ten <u><b>iz</u></b>otop <u><b>łatwo</u></b> się rozpuszcza",
+        desc: "ease[izz] - łatwość/łatwością",
+                sentence2: [
+            "how"
+        ],
+        sentence: [
+            "how",
+            "to",
+            "help",
+            "your",
+            "child"
+        ],
+        key: "how",
+        category1: "nauka",
+        category2: ["spojniki"]
+    },
+        {
+        id: [
+            200,
+            30
+        ],
+        img: "http://localhost/arbulanguage.com/img/fiszki1/25j.jpg",
+        story: "Ten <u><b>iz</u></b>otop <u><b>łatwo</u></b> się rozpuszcza",
+        desc: "ease[izz] - łatwość/łatwością",
+                sentence2: [
+            "to"
+        ],
+        sentence: [
+            "how",
+            "to",
+            "help",
+            "your",
+            "child"
+        ],
+        key: "to",
+        category1: "nauka",
+        category2: ["spojniki"]
+    },
+            {
+        id: [
+            201,
+            30
+        ],
+        img: "http://localhost/arbulanguage.com/img/fiszki1/25j.jpg",
+        story: "Ten <u><b>iz</u></b>otop <u><b>łatwo</u></b> się rozpuszcza",
+        desc: "ease[izz] - łatwość/łatwością",
+                sentence2: [
+            "help"
+        ],
+        sentence: [
+            "how",
+            "to",
+            "help",
+            "your",
+            "child"
+        ],
+        key: "help",
+        category1: "nauka",
+        category2: ["spojniki"]
+    },
+            {
+        id: [
+            202,
+            30
+        ],
+        img: "http://localhost/arbulanguage.com/img/fiszki1/25j.jpg",
+        story: "Ten <u><b>iz</u></b>otop <u><b>łatwo</u></b> się rozpuszcza",
+        desc: "ease[izz] - łatwość/łatwością",
+                sentence2: [
+            "your"
+        ],
+        sentence: [
+            "how",
+            "to",
+            "help",
+            "your",
+            "child"
+        ],
+        key: "your",
+        category1: "nauka",
+        category2: ["spojniki"]
+    },
+                {
+        id: [
+            202,
+            30
+        ],
+        img: "http://localhost/arbulanguage.com/img/fiszki1/25j.jpg",
+        story: "Ten <u><b>iz</u></b>otop <u><b>łatwo</u></b> się rozpuszcza",
+        desc: "child[czaild] - dziecko",
+                sentence2: [
+            "child"
+        ],
+        sentence: [
+            "how",
+            "to",
+            "help",
+            "your",
+            "child"
+        ],
+        key: "child",
+        category1: "nauka",
+        category2: ["spojniki"]
     }
 ];
 

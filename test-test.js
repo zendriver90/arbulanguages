@@ -2560,3 +2560,620 @@ przekazArgument0(null, 55, 1);
                                 });
                                 
                                                                 $container.append($sentenceDiv);
+                                                                
+                                                                                                            $sentence1bb1.html(sentence1bb1);
+                                                                                                            
+                                                                                                                                        $('#insertSlashButton').on('click', function () {
+                                if (!isSlashInserted) {
+                                    $('#sentence12').show();
+                                    $sentenceDiv.html(`${sentence10}${sentence12}${sentence11}<br>${sentence20}${sentence12}${sentence22}<br>${sentence30}${sentence12}${sentence33}`);
+                                    isSlashInserted = true;
+                                }
+                            });
+                            setTimeout(() => {
+                                if (isSlashInserted) {
+                                    $('#sentence12').show();
+                                    $sentenceDiv.html(`${sentence10}${sentence12}${sentence11}<br>${sentence20}${sentence12}${sentence22}<br>${sentence30}${sentence12}${sentence33}`);
+                                }
+                            }, 10);
+                            
+                            let sentence1b2 = "";
+                        let sentence1b22 = "";
+                        let sentence1bb1b = "";
+                        function addBackgroundToText2(matchingFiszki2, matchingIndexes, currentIndexValue, aktualny, lesson2FirstPartLength, lesson2PartLength) {
+                            sentence20 = "";
+                            sentence22 = "";
+                            sentence1b2 = "";
+                            sentence1b22 = "";
+                            sentence1bb1b = "";
+                            // Iteracja przez matchingFiszki2 dla sentence1
+                            for (let j = 0; j < matchingFiszki2.length; j++) {
+                                const fiszka = matchingFiszki2[j];
+                                console.log('fiszka:', fiszka);
+                                if (!fiszka.sentence1 || fiszka.sentence1.length === 0) {
+                                    console.log('fiszka.sentence1 is undefined or empty');
+                                    continue; // Jeśli sentence1 nie istnieje lub jest puste, przejdź do następnej fiszki
+                                }
+
+                                // Iteracja przez elementy sentence1
+                                for (let k = 0; k < fiszka.sentence1.length; k++) {
+                                    let sentencePart = fiszka.sentence1[k];
+                                    console.log('sentencePart5:', sentencePart);
+                                    const indexToCheck = j + lesson2PartLength + 1;
+                                    console.log('indexToCheck5:', indexToCheck);
+                                    if (aktualny) {
+                                        if (matchingIndexes.includes(indexToCheck) && currentIndexValue == 0) {
+                                            const spanElement = document.createElement('span');
+                                            spanElement.textContent = sentencePart;
+                                            spanElement.classList.remove('highlighted-sentence');
+                                            spanElement.classList.add('yellow');
+                                            // Zaktualizuj sentencePart, aby zawierał utworzony element span
+                                            sentencePart = spanElement.outerHTML;
+                                        } else if (matchingIndexes.includes(indexToCheck) && currentIndexValue == 1) {
+                                            // Sprawdzenie, czy indeks bieżącej fiszki znajduje się w tablicy matchingIndexes
+                                            const spanElement = document.createElement('span');
+                                            spanElement.textContent = sentencePart;
+                                        } else if (currentIndexValue == 1) {
+                                            const spanElement = document.createElement('span');
+                                            spanElement.textContent = sentencePart;
+                                            spanElement.classList.add('highlighted-sentence');
+                                            // Zaktualizuj sentencePart, aby zawierał utworzony element span
+                                            sentencePart = spanElement.outerHTML;
+                                        } else if (currentIndexValue == 2 && matchingIndexes.includes(indexToCheck)) {
+                                            const spanElement = document.createElement('span');
+                                            spanElement.textContent = sentencePart;
+                                            spanElement.classList.remove('highlighted-sentence');
+                                            spanElement.classList.add('yellow');
+                                            // Zaktualizuj sentencePart, aby zawierał utworzony element span
+                                            sentencePart = spanElement.outerHTML;
+                                        }
+                                    }
+
+                                    sentence20 += sentencePart + " ";
+                                }
+                            }
+
+                            // Iteracja przez matchingFiszki2 dla sentence2
+                            for (let jj = 0; jj < matchingFiszki2.length; jj++) {
+                                const fiszka = matchingFiszki2[jj];
+                                console.log('fiszka2:', fiszka);
+                                if (!fiszka.sentence2 || fiszka.sentence2.length === 0) {
+                                    console.log('fiszka.sentence2 is undefined or empty');
+                                    continue;
+                                }
+
+                                // Iteracja przez elementy sentence2
+                                for (let kk = 0; kk < fiszka.sentence2.length; kk++) {
+                                    let sentencePart2 = fiszka.sentence2[kk];
+                                    console.log('sentencePart2 przed przetworzeniem:', sentencePart2);
+                                    const indexToCheck = jj + lesson2PartLength + 1;
+                                    console.log('indexToCheck3:', indexToCheck);
+                                    if (aktualny) {
+                                        if (matchingIndexes.includes(indexToCheck) && currentIndexValue == 0) {
+                                            const spanElement = document.createElement('span');
+                                            spanElement.textContent = sentencePart2;
+                                            spanElement.classList.remove('highlighted-sentence');
+                                            spanElement.classList.add('yellow');
+                                            // Zaktualizuj sentencePart, aby zawierał utworzony element span
+                                            sentencePart2 = spanElement.outerHTML;
+                                        } else if (matchingIndexes.includes(indexToCheck) && currentIndexValue == 1) {
+                                            // Sprawdzenie, czy indeks bieżącej fiszki znajduje się w tablicy matchingIndexes
+                                            const spanElement = document.createElement('span');
+                                            spanElement.textContent = sentencePart2;
+                                            if (!spanElement.classList.contains('yellow')) {
+                                                spanElement.classList.add('yellow');
+                                                spanElement.classList.add('highlighted-sentence');
+                                            }
+                                            // Zaktualizuj sentencePart, aby zawierał utworzony element span
+                                            sentencePart2 = spanElement.outerHTML;
+                                        } else if (currentIndexValue == 1) {
+                                            const spanElement = document.createElement('span');
+                                            spanElement.textContent = sentencePart2;
+                                            spanElement.classList.add('highlighted-sentence');
+                                            // Zaktualizuj sentencePart, aby zawierał utworzony element span
+                                            sentencePart2 = spanElement.outerHTML;
+                                        } else if (currentIndexValue == 2 && matchingIndexes.includes(indexToCheck)) {
+                                            const spanElement = document.createElement('span');
+                                            spanElement.textContent = sentencePart2;
+                                            spanElement.classList.remove('highlighted-sentence');
+                                            spanElement.classList.add('yellow');
+                                            // Zaktualizuj sentencePart, aby zawierał utworzony element span
+                                            sentencePart2 = spanElement.outerHTML;
+                                        }
+                                    }
+
+                                    sentence22 += sentencePart2 + " ";
+                                }
+                            }
+                            for (let li = 0; li < matchingFiszki2.length; li++) {
+                                const fiszka = matchingFiszki2[li];
+                                console.log('fiszka:', fiszka);
+                                let sentencePart333 = fiszka.translateb;
+                                console.log('sentencePart333:', sentencePart333);
+                                if (aktualny) {
+                                    // Sprawdzenie, czy indeks bieżącej fiszki znajduje się w tablicy matchingIndexes
+                                    const spanElement = document.createElement('span');
+                                    spanElement.textContent = sentencePart333;
+                                    sentencePart333 = spanElement.outerHTML;
+                                }
+                                sentence1b2 += sentencePart333 + " ";
+                            }
+                            for (let li = 0; li < matchingFiszki2.length; li++) {
+                                const fiszka = matchingFiszki2[li];
+                                console.log('fiszka:', fiszka);
+                                let sentencePart444 = fiszka.translate;
+                                if (aktualny) {
+                                    // Sprawdzenie, czy indeks bieżącej fiszki znajduje się w tablicy matchingIndexes
+                                    const spanElement = document.createElement('span');
+                                    spanElement.textContent = sentencePart444;
+                                    sentencePart444 = spanElement.outerHTML;
+                                }
+                                sentence1b22 += sentencePart444 + " ";
+                            }
+                            if (sentence1b2 === "") {
+                                let sentencePart333 = fiszka.translateb ? fiszka.translateb : "";
+                                sentence1b2 += sentencePart333 + " ";
+                            }
+                            if (sentence1b22 === "") {
+                                let sentencePart444 = fiszka.translate ? fiszka.translate : "";
+                                sentence1b22 += sentencePart444 + " ";
+                            }
+                            console.log('hej20', sentence1bba);
+                            // Dodanie treści do diva wraz z przyciskiem
+                            $sentenceDivB.html(`
+    ${sentence10}${sentence12}${sentence11}<br>
+    <div class="sentence1bba">${sentence1bba}</div>
+    ${sentence20}${sentence22}<br>
+    <div class="sentence1b2">${sentence1b2}</div>
+    <div class="sentence1b22">${sentence1b22}</div>
+    ${sentence30}${sentence33}<br>
+    <span class="sentence1bb3">${sentence1bb3}</span>
+    <div class="sentence1bb1c">${sentence1bb1c}</div>
+`);
+                            if (currentIndexValue == 1) {
+                                sentence1bVisible = true;
+                                sentence1baVisible = false;
+                                console.log('hej15', sentence1bVisible);
+                                // Pokazujemy zdanie .sentence1bb
+                                $sentence1b2.css('display', 'block');
+                                $sentence1b2.css({
+                                    'margin-bottom': '-20px',
+                                    'top': '0px',
+                                    'position': 'relative'
+                                });
+                            }
+                            if (currentIndexValue == 1) {
+                                console.log('hej15', sentence1bVisible);
+                                // Pokazujemy zdanie .sentence1bb
+                                $sentence1b22.css('display', 'block');
+                                $sentence1b22.css({
+                                    'margin-bottom': '-20px',
+                                    'top': '0px',
+                                    'position': 'relative'
+                                });
+                            }
+                        }
+
+                        let sentence2b = "";
+                        let sentence2b2 = "";
+                        let sentence1bb2 = "";
+                        let sentence1bba2 = "";
+                        function addBackgroundToText2b(matchingFiszki2, matchingIndexes, aktualny, lesson2PartLength) {
+
+                            $(document).ready(function () {
+                                setTimeout(() => {
+                                    sentence2b = "";
+                                    sentence2b2 = "";
+                                    sentence1bb2 = "";
+                                    sentence1bba2 = "";
+// Iteracja przez matchingFiszki2 dla sentence1
+                                    for (let j = 0; j < matchingFiszki2.length; j++) {
+                                        const fiszka = matchingFiszki2[j];
+                                        console.log('fiszka:', fiszka);
+                                        if (!fiszka.sentence1 || fiszka.sentence1.length === 0) {
+                                            console.log('fiszka.sentence1 is undefined or empty');
+                                            continue; // Jeśli sentence1 nie istnieje lub jest puste, przejdź do następnej fiszki
+                                        }
+
+                                        // Iteracja przez elementy sentence1
+                                        for (let k = 0; k < fiszka.sentence1.length; k++) {
+                                            let sentencePart = fiszka.sentence1[k];
+                                            console.log('sentencePart5:', sentencePart);
+                                            const indexToCheck = j + lesson2PartLength + 1;
+                                            console.log('indexToCheck5:', indexToCheck);
+                                            console.log('hej31', sentencePart);
+                                            // Sprawdź, czy indeks jest równy 0
+                                            if (aktualny) {
+                                                if (matchingIndexes.includes(indexToCheck)) {
+                                                    // Sprawdzenie, czy indeks bieżącej fiszki znajduje się w tablicy matchingIndexes
+                                                    const spanElement = document.createElement('span');
+                                                    spanElement.textContent = sentencePart;
+                                                    spanElement.classList.add('yellow');
+                                                    // Zaktualizuj sentencePart, aby zawierał utworzony element span
+                                                    sentencePart = spanElement.outerHTML;
+                                                }
+                                            }
+                                            sentence20 += sentencePart + " ";
+                                            console.log('hej17', sentence2b);
+                                        }
+                                    }
+                                    // Iteracja przez matchingFiszki2 dla sentence2
+                                    for (let jj = 0; jj < matchingFiszki2.length; jj++) {
+                                        const fiszka = matchingFiszki2[jj];
+                                        console.log('fiszka2:', fiszka);
+                                        if (!fiszka.sentence2 || fiszka.sentence2.length === 0) {
+                                            console.log('fiszka.sentence2 is undefined or empty');
+                                            continue;
+                                        }
+
+                                        // Iteracja przez elementy sentence2
+                                        for (let kk = 0; kk < fiszka.sentence2.length; kk++) {
+                                            let sentencePart2 = fiszka.sentence2[kk];
+                                            console.log('sentencePart2 przed przetworzeniem:', sentencePart2);
+                                            const indexToCheck = jj + lesson2PartLength + 1;
+                                            console.log('indexToCheck3:', indexToCheck);
+                                            if (aktualny) {
+                                                if (matchingIndexes.includes(indexToCheck)) {
+                                                    // Sprawdzenie, czy indeks bieżącej fiszki znajduje się w tablicy matchingIndexes
+                                                    const spanElement = document.createElement('span');
+                                                    spanElement.textContent = sentencePart2;
+                                                    spanElement.classList.add('yellow');
+                                                    // Zaktualizuj sentencePart, aby zawierał utworzony element span
+                                                    sentencePart2 = spanElement.outerHTML;
+                                                }
+                                            }
+                                            sentence22 += sentencePart2 + " ";
+                                        }
+                                    }
+                                    for (let li = 0; li < matchingFiszki2.length; li++) {
+                                        const fiszka = matchingFiszki2[li];
+                                        console.log('fiszka:', fiszka);
+                                        let sentencePart33 = fiszka.translateb;
+                                        console.log('sentencePart3:', sentencePart33);
+                                        if (aktualny) {
+                                            // Sprawdzenie, czy indeks bieżącej fiszki znajduje się w tablicy matchingIndexes
+                                            const spanElement = document.createElement('span');
+                                            spanElement.textContent = sentencePart33;
+                                            sentencePart33 = spanElement.outerHTML;
+
+                                        }
+                                        sentence1bb1b += sentencePart33 + " ";
+                                    }
+                                    for (let li = 0; li < matchingFiszki2.length; li++) {
+                                        const fiszka = matchingFiszki2[li];
+                                        console.log('fiszka:', fiszka);
+                                        let sentencePart333 = fiszka.translate;
+                                        console.log('sentencePart3:', sentencePart333);
+                                        if (aktualny) {
+                                            // Sprawdzenie, czy indeks bieżącej fiszki znajduje się w tablicy matchingIndexes
+                                            const spanElement = document.createElement('span');
+                                            spanElement.textContent = sentencePart333;
+                                            sentencePart333 = spanElement.outerHTML;
+
+                                        }
+                                        sentence1bba2 += sentencePart333 + " ";
+                                    }
+
+                                    console.log('hej20', sentence1bb1b);
+                                    $sentenceDiv.html(`
+    <button class="left-button first-button">+<br></button>
+    ${sentence10}${sentence12}${sentence11}<br>
+    <div class="sentence1bba">${sentence1bba}</div>
+    <div class="sentence1bba">${sentence1bbab}</div>
+    <button class="left-buttonb second-button">+<br></button>
+    ${sentence20}${sentence22}<br>
+    <div class="sentence1bb1b">${sentence1bb1b}</div>
+    <div class="sentence1bba2">${sentence1bba2}</div>
+    <button class="left-button first-button">+<br></button>
+    ${sentence30}${sentence33}<br>
+    <span class="sentence1bb3">${sentence1bb3}</span>
+    <div class="sentence1bb1c">${sentence1bb1c}</div>
+`);
+                                    $('.sentence1bb1b').html('');
+                                    $('.sentence1bba2').html('');
+                                    $sentenceDiv.on('click', '.left-buttonb', function () {
+                                        $('.sentence1bba').html('');
+                                        // Dodawanie zdania tylko jeśli sentence1bb2 jest puste
+                                        if (sentence1bb1b === "") {
+                                            let sentencePart33 = fiszka.translateb ? fiszka.translateb : "";
+                                            sentence1bb1b += sentencePart33 + " ";
+                                        }
+                                        if (sentence1bba2 === "") {
+                                            let sentencePart33 = fiszka.translate ? fiszka.translate : "";
+                                            sentence1bba2 += sentencePart33 + " ";
+                                        }
+                                        // Dodanie treści do diva wraz z przyciskiem
+                                        $sentenceDiv.html(`
+    <button class="left-button first-button">+<br></button>
+    ${sentence10}${sentence12}${sentence11}<br>
+    <div class="sentence1bba">${sentence1bba}</div>
+            <div class="sentence1bba">${sentence1bbab}</div>
+    <button class="left-buttonb second-button">+<br></button>
+    ${sentence20}${sentence22}<br>
+    <div class="sentence1bb1b">${sentence1bb1b}</div>
+    <div class="sentence1bba2">${sentence1bba2}</div>
+    <button class="left-button first-button">+<br></button>
+    ${sentence30}${sentence33}<br>
+    <span class="sentence1bb3">${sentence1bb3}</span>
+    <div class="sentence1bb1c">${sentence1bb1c}</div>
+`);
+                                        $('.sentence1bba').html('');
+                                        // Ustawienie stylu dla przycisków .left-button
+                                        $('.left-button').css('position', 'relative');
+                                        $('.left-buttonb').css('position', 'relative');
+                                        $('.left-buttonbb').css('position', 'relative');
+                                        let sentencePart33 = fiszka.translateb ? fiszka.translateb : ""; // Sprawdź, czy translate istnieje
+                                        // Obsługa kliknięcia przycisku
+                                        console.log('Kliknięto przycisk');
+                                        let $sentence1bb1b = $sentenceDiv.find('.sentence1bb1b');
+                                        if ($sentence1bb1b.css('display') === 'none') {
+                                            sentence1bVisible = false;
+                                            sentence1baVisible = true;
+                                            // Pokazujemy zdanie .sentence1b
+                                            $sentence1bb1b.css('display', 'block');
+                                            $sentence1bb1b.css({
+                                                'margin-top': '-25px',
+                                                'top': '24px',
+                                                'position': 'relative'
+                                            });
+                                        }
+                                        if ($sentence1bba2.css('display') === 'none') {
+                                            // Pokazujemy zdanie .sentence1b
+                                            $sentence1bba2.css('display', 'block');
+                                            $sentence1bba2.css({
+                                                'margin-top': '0px',
+                                                'top': '23px',
+                                                'position': 'relative'
+                                            });
+                                        }
+
+                                        $sentence1bb1a.html('');
+                                        $sentence1bb1a.empty();
+                                    });
+                                }, 0);
+                            });
+                        }
+
+                        let sentence30 = ""; // Deklaracja zmiennej sentence1 na poziomie lokalnym
+                        let sentence33 = "";
+                        let sentence1bb1c = "";
+                        function addBackgroundToText3(matchingFiszki3, matchingIndexes, currentIndexValue, aktualny, lesson3FirstPartLength, lesson3PartLength) {
+                            sentence30 = "";
+                            sentence33 = "";
+                            sentence1bb1c = "";
+                            // Iteracja przez matchingFiszki2 dla sentence1
+                            for (let l = 0; l < matchingFiszki3.length; l++) {
+                                const fiszka = matchingFiszki3[l];
+                                console.log('fiszka:', fiszka);
+                                if (!fiszka.sentence1 || fiszka.sentence1.length === 0) {
+                                    console.log('fiszka.sentence1 is undefined or empty');
+                                    continue; // Jeśli sentence1 nie istnieje lub jest puste, przejdź do następnej fiszki
+                                }
+                                // Iteracja przez elementy sentence1
+                                for (let lm = 0; lm < fiszka.sentence1.length; lm++) {
+                                    let sentencePart = fiszka.sentence1[lm];
+                                    console.log('sentencePart5:', sentencePart);
+                                    const indexToCheck = l + lesson3PartLength + 1;
+                                    console.log('indexToCheck55:', indexToCheck);
+                                    if (aktualny) {
+                                        if (matchingIndexes.includes(indexToCheck) && currentIndexValue == 1) {
+                                            const spanElement = document.createElement('span');
+                                            spanElement.textContent = sentencePart;
+                                            spanElement.classList.remove('highlighted-sentence');
+                                            spanElement.classList.add('yellow');
+                                            // Zaktualizuj sentencePart, aby zawierał utworzony element span
+                                            sentencePart = spanElement.outerHTML;
+                                        } else if (matchingIndexes.includes(indexToCheck) && currentIndexValue == 2) {
+                                            // Sprawdzenie, czy indeks bieżącej fiszki znajduje się w tablicy matchingIndexes
+                                            const spanElement = document.createElement('span');
+                                            spanElement.textContent = sentencePart;
+                                            if (!spanElement.classList.contains('yellow')) {
+                                                spanElement.classList.add('yellow');
+                                                spanElement.classList.add('highlighted-sentence');
+                                            }
+                                            // Zaktualizuj sentencePart, aby zawierał utworzony element span
+                                            // Zaktualizuj sentencePart, aby zawierał utworzony element span
+                                            sentencePart = spanElement.outerHTML;
+                                            let sentencePart1 = fiszka.translate ? fiszka.translate : "";
+                                            sentence1bb1c += sentencePart1 + " ";
+                                            console.log('hej45', sentencePart1);
+                                            // Dodaj element do DOM, jeśli jeszcze go nie ma
+                                            if ($sentenceDiv.find('.sentence1bb1c').length === 0) {
+                                                $sentenceDiv.append('<div class="sentence1bb1c"></div>');
+                                            }
+                                            let $sentence1bb1c = $sentenceDiv.find('.sentence1bb1c');
+                                            $sentence1bb1c.html(sentence1bb1c);
+                                            // Ustawienie widoczności i stylu dla .sentence1bb
+                                            // Spróbuj ustawić styl po pewnym czasie, aby upewnić się, że element jest w pełni renderowany
+                                            if (!sentence1bVisible) {
+                                                $sentence1bb1c.css({
+                                                    'display': 'block',
+                                                    'margin-bottom': '0px',
+                                                    'top': '20px',
+                                                    'position': 'relative'
+                                                });
+                                                console.log('sentence1bb style set to visible');
+                                            }
+
+
+                                        } else if (currentIndexValue == 2) {
+                                            const spanElement = document.createElement('span');
+                                            spanElement.textContent = sentencePart;
+                                            spanElement.classList.add('highlighted-sentence');
+                                            // Zaktualizuj sentencePart, aby zawierał utworzony element span
+                                            sentencePart = spanElement.outerHTML;
+                                        } else if (currentIndexValue == 0 && matchingIndexes.includes(indexToCheck)) {
+                                            const spanElement = document.createElement('span');
+                                            spanElement.textContent = sentencePart;
+                                            spanElement.classList.remove('highlighted-sentence');
+                                            spanElement.classList.add('yellow');
+                                            // Zaktualizuj sentencePart, aby zawierał utworzony element span
+                                            sentencePart = spanElement.outerHTML;
+                                        }
+                                    }
+
+                                    sentence30 += sentencePart + " ";
+                                }
+                            }
+                            // Iteracja przez matchingFiszki2 dla sentence2
+                            for (let lmm = 0; lmm < matchingFiszki3.length; lmm++) {
+                                const fiszka = matchingFiszki3[lmm];
+                                console.log('fiszka2:', fiszka);
+                                if (!fiszka.sentence2 || fiszka.sentence2.length === 0) {
+                                    console.log('fiszka.sentence2 is undefined or empty');
+                                    continue;
+                                }
+
+                                // Iteracja przez elementy sentence2
+                                for (let lmn = 0; lmn < fiszka.sentence2.length; lmn++) {
+                                    let sentencePart2 = fiszka.sentence2[lmn];
+                                    console.log('sentencePart2 przed przetworzeniem:', sentencePart2);
+                                    const indexToCheck = lmm + lesson3PartLength + 1;
+                                    console.log('indexToCheck3:', indexToCheck);
+                                    if (aktualny) {
+                                        if (matchingIndexes.includes(indexToCheck) && currentIndexValue == 1) {
+                                            const spanElement = document.createElement('span');
+                                            spanElement.textContent = sentencePart2;
+                                            spanElement.classList.remove('highlighted-sentence');
+                                            spanElement.classList.add('yellow');
+                                            // Zaktualizuj sentencePart, aby zawierał utworzony element span
+                                            sentencePart2 = spanElement.outerHTML;
+                                        } else if (matchingIndexes.includes(indexToCheck) && currentIndexValue == 2) {
+                                            // Sprawdzenie, czy indeks bieżącej fiszki znajduje się w tablicy matchingIndexes
+                                            const spanElement = document.createElement('span');
+                                            spanElement.textContent = sentencePart2;
+                                            if (!spanElement.classList.contains('yellow')) {
+                                                spanElement.classList.add('yellow');
+                                                spanElement.classList.add('highlighted-sentence');
+                                            }
+                                            // Zaktualizuj sentencePart, aby zawierał utworzony element span
+                                            sentencePart2 = spanElement.outerHTML;
+                                        } else if (currentIndexValue == 2) {
+                                            const spanElement = document.createElement('span');
+                                            spanElement.textContent = sentencePart2;
+                                            spanElement.classList.add('highlighted-sentence');
+                                            // Zaktualizuj sentencePart, aby zawierał utworzony element span
+                                            sentencePart2 = spanElement.outerHTML;
+                                        } else if (currentIndexValue == 0 && matchingIndexes.includes(indexToCheck)) {
+                                            const spanElement = document.createElement('span');
+                                            spanElement.textContent = sentencePart2;
+                                            spanElement.classList.remove('highlighted-sentence');
+                                            spanElement.classList.add('yellow');
+                                            // Zaktualizuj sentencePart, aby zawierał utworzony element span
+                                            sentencePart2 = spanElement.outerHTML;
+                                        }
+                                    }
+
+                                    sentence33 += sentencePart2 + " ";
+                                }
+                            }
+                            console.log('final sentence30:', sentence30);
+                            console.log('final sentence33:', sentence33);
+                            $sentenceDivB.html(`
+    ${sentence10}${sentence12}${sentence11}<br>
+    <div class="sentence1bba">${sentence1bba}</div>
+    ${sentence20}${sentence22}<br>
+    <div class="sentence1bb1b">${sentence1bb1b}</div>
+    <div class="sentence1bba2">${sentence1bba2}</div>
+    ${sentence30}${sentence33}<br>
+    <span class="sentence1bb3">${sentence1bb3}</span>
+    <div class="sentence1bb1c">${sentence1bb1c}</div>
+`);
+                        }
+
+
+                        let sentence3b = "";
+                        let sentence3b2 = "";
+                        let sentence1bb3 = "";
+                        function addBackgroundToText3b(matchingFiszki3, matchingIndexes, aktualny, lesson3PartLength) {
+                            $(document).ready(function () {
+
+                                sentence3b = "";
+                                sentence3b2 = "";
+                                sentence1bb3 = "";
+                                setTimeout(() => {
+                                    for (let l = 0; l < matchingFiszki3.length; l++) {
+                                        const fiszka = matchingFiszki3[l];
+                                        console.log('fiszka:', fiszka);
+                                        if (!fiszka.sentence1 || fiszka.sentence1.length === 0) {
+                                            console.log('fiszka.sentence11 is undefined or empty');
+                                            continue; // Jeśli sentence1 nie istnieje lub jest puste, przejdź do następnej fiszki
+                                        }
+                                        // Iteracja przez elementy sentence1
+                                        for (let lm = 0; lm < fiszka.sentence1.length; lm++) {
+                                            let sentencePart = fiszka.sentence1[lm];
+                                            console.log('sentencePart55:', sentencePart);
+                                            const indexToCheck = l + lesson3PartLength + 1;
+                                            console.log('indexToCheck55:', indexToCheck);
+                                            // Sprawdź, czy indeks jest równy 0
+                                            if (aktualny) {
+                                                if (matchingIndexes.includes(indexToCheck)) {
+                                                    // Sprawdzenie, czy indeks bieżącej fiszki znajduje się w tablicy matchingIndexes
+                                                    const spanElement = document.createElement('span');
+                                                    spanElement.textContent = sentencePart;
+                                                    spanElement.classList.add('yellow');
+                                                    // Zaktualizuj sentencePart, aby zawierał utworzony element span
+                                                    sentencePart = spanElement.outerHTML;
+                                                }
+                                            }
+
+                                            sentence30 += sentencePart + " ";
+                                            console.log('hej18', sentence3b);
+                                        }
+                                    }
+                                    for (let lmm = 0; lmm < matchingFiszki3.length; lmm++) {
+                                        const fiszka = matchingFiszki3[lmm];
+                                        console.log('fiszka2:', fiszka);
+                                        if (!fiszka.sentence2 || fiszka.sentence2.length === 0) {
+                                            console.log('fiszka.sentence22 is undefined or empty');
+                                            continue;
+                                        }
+                                        // Iteracja przez elementy sentence2
+                                        for (let lmn = 0; lmn < fiszka.sentence2.length; lmn++) {
+                                            let sentencePart2 = fiszka.sentence2[lmn];
+                                            const indexToCheck = lmm + lesson3PartLength + 1;
+                                            if (aktualny) {
+                                                if (matchingIndexes.includes(indexToCheck)) {
+                                                    // Sprawdzenie, czy indeks bieżącej fiszki znajduje się w tablicy matchingIndexes
+                                                    const spanElement = document.createElement('span');
+                                                    spanElement.textContent = sentencePart2;
+                                                    spanElement.classList.add('yellow');
+                                                    // Zaktualizuj sentencePart, aby zawierał utworzony element span
+                                                    sentencePart2 = spanElement.outerHTML;
+                                                }
+                                            }
+
+                                            sentence33 += sentencePart2 + " ";
+                                            console.log('hej18b', sentence3b2);
+                                        }
+                                    }
+                                    for (let li = 0; li < matchingFiszki3.length; li++) {
+                                        const fiszka = matchingFiszki3[li];
+                                        console.log('fiszka:', fiszka);
+                                        let sentencePart3 = fiszka.translateb;
+                                        console.log('sentencePart3:', sentencePart3);
+                                        if (aktualny) {
+                                            // Sprawdzenie, czy indeks bieżącej fiszki znajduje się w tablicy matchingIndexes
+                                            const spanElement = document.createElement('span');
+                                            spanElement.textContent = sentencePart3;
+                                            sentencePart3 = spanElement.outerHTML;
+
+                                        }
+                                        sentence1bb3 = sentencePart3 + " ";
+                                    }
+                                    $sentenceDiv.html(`
+    <button class="left-button first-button">+<br></button>
+    ${sentence10}${sentence12}${sentence11}<br>
+    <div class="sentence1bba">${sentence1bba}</div>
+    <button class="left-buttonb second-button">+<br></button>
+    ${sentence20}${sentence22}<br>
+    <div class="sentence1bb1b">${sentence1bb1b}</div>
+    <div class="sentence1bba2">${sentence1bba2}</div>
+    <button class="left-button first-button">+<br></button>
+    ${sentence30}${sentence33}<br>
+    <span class="sentence1bb3">${sentence1bb3}</span>
+    <div class="sentence1bb1c">${sentence1bb1c}</div>
+`);
+                                }, 0);
+                            });
+                        }
