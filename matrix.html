@@ -392,89 +392,12 @@
 
                     <div class="grid-container">
                         <div class="image-container">
-                            <a href="demo.html">
-                                <video id="player" width="640" height="360" controls muted id="mojeVideo">
-                                    <source src="voice/Project3.mp4" type="video/mp4">
-                                </video>
-                            </a>
-                            <span class="caption">Nauka/Emocje/Zwierzęta/Impreza</span>
-                        </div>
-                        <div class="image-container">
-                            <a href="demob.html">
-                                <video id="player" width="640" height="360" controls muted>
-                                    <source src="voice/Project4.mp4" type="video/mp4">
-                                </video>
-                            </a>
-                            <span class="caption">Świętowanie/Sport/Zawód/Czynności</span>
-                        </div>
-                        <div class="image-container">
-                            <video id="player" width="640" height="360" controls muted>
-                                <source src="voice/music.mp4" type="video/mp4">
-                            </video>
-                            <span class="caption">Muzyka</span>
-                        </div>
-                        <div class="image-container">
-                            <video id="player" width="640" height="360" controls muted>
-                                <source src="voice/bike.mp4" type="video/mp4">
-                            </video>
-                            <span class="caption">Transport</span>
-                        </div>
-                        <div class="image-container">
-                            <video id="player" width="640" height="360" controls autoplay muted>
-                                <source src="voice/bike.mp4" type="video/mp4">
-                            </video>
-                            <span class="caption">Transport</span>
-                        </div>
-                        <div>
-                            <img class="image" src="img/fiszki1/1f.jpg" alt="Obraz 6">
-                            <span class="caption">Podpis 1</span>
-                        </div>
-                        <div>
-                            <img class="image" src="img/fiszki1/2a.jpg" alt="Obraz 7">
-                            <span class="caption">Podpis 1</span>
-                        </div>
-                        <div>
-                            <img class="image" src="img/fiszki1/2b.jpg" alt="Obraz 8">
-                            <span class="caption">Podpis 1</span>
-                        </div>
-                        <div>
-                            <img class="image" src="img/fiszki1/2c.jpg" alt="Obraz 1">
-                            <span class="caption">Podpis 1</span>
-                        </div>
-                        <div>
-                            <img class="image" src="img/fiszki1/2d.jpg" alt="Obraz 2">
-                            <span class="caption">Podpis 1</span>
-                        </div>
-                        <div>
-                            <img class="image" src="img/fiszki1/2e.jpg" alt="Obraz 3">
-                            <span class="caption">Podpis 1</span>
-                        </div>
-                        <div>
-                            <img class="image" src="img/fiszki1/2f.jpg" alt="Obraz 4">
-                            <span class="caption">Podpis 1</span>
-                        </div>
-                        <div>
-                            <img class="image" src="img/fiszki1/3a.jpg" alt="Obraz 5">
-                            <span class="caption">Podpis 1</span>
-                        </div>
-                        <div>
-                            <img class="image" src="img/fiszki1/3b.jpg" alt="Obraz 6">
-                            <span class="caption">Podpis 1</span>
-                        </div>
-                        <div>
-                            <img class="image" src="img/fiszki1/3c.jpg" alt="Obraz 7">
-                            <span class="caption">Podpis 1</span>
-                        </div>
-                        <div>
-                            <img class="image" src="img/fiszki1/3d.jpg" alt="Obraz 8">
-                            <span class="caption">Podpis 1</span>
-                        </div>
                     </div>
                 </div>
             </div>
             <a id="linkDoStrony" href="demo5.html" onclick="wybierzRodzaj('osoby')">Osoby</a>
             <script>
-                let videosArray = []; // Tablica przechowująca filmy
+
 
 
                 // Funkcja odtwarzająca losowy film
@@ -488,10 +411,7 @@
                 }
 
                 // Funkcja obsługująca zdarzenie zakończenia odtwarzania filmu
-                function videoEndedHandler2() {
-                    currentVideoIndex = (currentVideoIndex + 1) % imageContainer3Array.length; // Przejście do następnego filmu
-                    playRandomImageContainer3(); // Odtwórz kolejny losowy film
-                }
+
 
                 // Funkcja wyświetlająca filmy z wybranego zestawu
                 function showVideos(set) {
@@ -539,24 +459,12 @@
                         videoElement.muted = true;
                         videoElement.controls = false;
 
-                        videoElement.innerHTML = `<source src="${videoData.videoSrc}" type="video/mp4">`;
-                        videoElement.addEventListener('ended', videoEndedHandler);
-
-                        videoLink.appendChild(videoElement); // Umieść film wewnątrz linku
-
-                        videoContainer.appendChild(videoLink); // Umieść link w kontenerze obrazu
-
-                        const captionSpan = document.createElement('span');
-                        captionSpan.classList.add('caption');
-                        captionSpan.textContent = videoData.caption;
-
-                        videoContainer.appendChild(captionSpan);
 
                         document.querySelector('.grid-container').appendChild(videoContainer);
                         videosArray.push(videoElement); // Dodaj filmy do tablicy
                     });
 
-                    playRandomVideo();
+
                 }
                 showVideos('set2');
 
@@ -624,15 +532,19 @@
 <button id="mix" onclick="wybierzCharakter('fiszki')" class="charakter-button">TYLKO PO ANGIELSKU</button>
 <button id="polski" onclick="wybierzCharakter('fiszki')" class="charakter-button">TYLKO PO POLSKU</button>
         </div>
-            <div>
+            <div id="konsola" style="width: 600px;">
             <div id="title">OPCJE ZDANIA</div>
-        <button class="czas">PODZIEL ZDANIA NA CZĘŚCI</button>
+        <button class="charakter-button">PODZIEL ZDANIA NA CZĘŚCI</button>
                 <button class="czas">WYSUŃ JEDNOCZEŚNIE W DANEJ LEKCJI</button>
 <br>
-                <h2>Charakter Zdania</h2>
+                <div id="title">CHARAKTER ZDANIA</div>
                 <button onclick="wybierzCharakter('krotkie')">Krótkie</button>
                 <button onclick="wybierzCharakter('dlugie')">Długie(złożone)</button>
                 <button id="dowolne" onclick="wybierzCharakter('dowolne')">Dowolne</button>
+                        <div id="title">PRIORYTETY LINGWISTYCZNE</div>
+                <button onclick="wybierzCharakter('krotkie')">Wymowa</button>
+                <button onclick="wybierzCharakter('dlugie')">Zrozumienie sensu zdania</button>
+                <button id="dowolne" onclick="wybierzCharakter('dowolne')">WSZYSTKIE</button>
             </div>
 
             <div>
@@ -1492,6 +1404,41 @@
                             console.log('Liczba dodanych divów:', numberOfContainers);
                         }
                     }
+// Funkcja do znajdowania grup fiszek spełniających warunki
+function znajdzGrupyFiszekZRosnacymiX(fiszki) {
+    // Obiekt do przechowywania grup fiszek pogrupowanych według y
+    const grupyFiszek = [];
+
+    // Obiekt do przechowywania sum x dla danego y
+    const sumyX = {};
+
+    // Grupowanie fiszek według y i obliczenie sumy x
+    fiszki.forEach(fiszka => {
+        const y = fiszka.id[1];
+        if (!sumyX[y]) {
+            sumyX[y] = 0;
+        }
+        sumyX[y] += fiszka.id[0];
+    });
+
+    // Iteracja po obliczonych sumach x
+    Object.keys(sumyX).forEach(y => {
+        const sumaX = sumyX[y];
+
+        // Warunek: suma x dla danego y musi być większa niż 6
+        if (sumaX > 6) {
+            // Znaleziono grupę fiszek spełniających warunki
+            const grupaFiszek = fiszki.filter(fiszka => fiszka.id[1] === parseInt(y));
+            grupyFiszek.push(grupaFiszek);
+        }
+    });
+
+    return grupyFiszek;
+}
+// Znalezienie fiszek gdzie x > 6 dla danej pary x,y
+const fiszkiSumaWiekszaNiz6 = znajdzGrupyFiszekZRosnacymiX(fiszki);
+console.log("Fiszki gdzie x > 6 dla danej pary x,y:", fiszkiSumaWiekszaNiz6);
+console.log(fiszkiSumaWiekszaNiz6);
 
                     // Ustaw wartość globalCategory
                     globalCategory = category;
@@ -2857,10 +2804,12 @@ function addBackgroundToText3b(matchingFiszki3, matchingIndexes, aktualny, lesso
                                     $videoElement.addClass('next-video');
                                 }
 // Utwórz element <source> dla wideo i ustaw atrybuty
+
                                 const $sourceElement = $('<source>').attr({
                                     'src': srcWords[index], // Poprawne użycie interpolacji
                                     'type': 'video/mp4'     // Typ pliku wideo
                                 });
+
 // Dodaj element source do elementu video
                                 $sourceElement.appendTo($videoElement);
 // Dodaj element video do diva dla wideo
@@ -2960,7 +2909,9 @@ function addBackgroundToText3b(matchingFiszki3, matchingIndexes, aktualny, lesso
                                 });
                                 $progressBar.appendTo($container);
                             }
+                            setTimeout(function() {
                             addVideo1(0);
+                                                            }, 200);
                         } else if (index50 === 0 && buttonindex) {
                             let funkcjaWywolana = false;
                             function addVideo2(index) {
@@ -3206,6 +3157,25 @@ function addBackgroundToText3b(matchingFiszki3, matchingIndexes, aktualny, lesso
                                 }
                                 if (button3) {
                                     przekazArgument3(category, index55, true);
+                                }
+                                if (button4) {
+                                    przekazArgument4(category, index55, true);
+                                    console.log('hej26');
+                                }
+                                if (button5) {
+                                    przekazArgument5(category, index55, true);
+                                }
+                                if (button6) {
+                                    przekazArgument6(category, index55, true);
+                                }
+                                if (button7) {
+                                    przekazArgument7(category, index55, true);
+                                }
+                                if (button8) {
+                                    przekazArgument8(category, index55, true);
+                                }
+                                if (button9) {
+                                    przekazArgument9(category, index55, true);
                                 }
                             }, 100);
                             // Usunięcie kontenera po wstawieniu nowego

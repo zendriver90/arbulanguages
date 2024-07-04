@@ -3522,6 +3522,7 @@ const fiszki = [
         translate: "My powinniśmy dbać o naszą przyszłość",
         translateb: "[Łi szud ker ebaut aur fjuczer]",
         srcWord: "http://localhost/arbulanguage.com/filmy/future.mp4",
+                        srcWordimage: "http://localhost/arbulanguage.com/filmy/future.png",
         story: "<b><u>Wi</b></u>ll Smith oznajmił, że <b><u>my</b></u> jako ludzkość mamy się dobrze",
         desc: "we[łi] - my",
                 sentence1: [
@@ -4936,6 +4937,7 @@ const fiszki = [
             30
         ],
         img: "http://localhost/arbulanguage.com/img/fiszki1/25j.jpg",
+                srcWord: "http://localhost/arbulanguage.com/filmy/child.mp4",
         story: "Ten <u><b>iz</u></b>otop <u><b>łatwo</u></b> się rozpuszcza",
         desc: "she[szi] - ona",
                 sentence1: [
