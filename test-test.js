@@ -3177,3 +3177,269 @@ przekazArgument0(null, 55, 1);
                                 }, 0);
                             });
                         }
+                        
+                        
+                                                if (czas === 'zdania' && czas !== 'fiszki') {
+                            // Wyświetl pojedyncze zdania dla znalezionych lekcji
+                            console.log('Warunek czas === "fiszki" jest spełniony');
+                            $('.grid-container .image-container3').remove();
+                            if (uniqueMatchingLessons.length > 1) {
+                                // Inicjuj flagę dla wystąpienia zera
+                                let zeroWylosowane = false;
+                                // Losowy indeks, w którym pojawi się zero
+
+                                let indexDiv = 0;
+                                // Zmienna do kumulowania długości zdań
+                                let previousCumulativeFirstPartLength3 = 0;  // Przechowywanie poprzedniej kumulacji dla lesson3
+                                let cumulativeFirstPartLength1 = 0;
+                                let cumulativeFirstPartLength2 = 0;
+                                let cumulativeFirstPartLength3 = 0;
+
+                                // Wyświetl fiszki dla każdej znalezionej pary lekcji
+                                let startIndex = 0; // Zainicjuj startIndex poza pętlą
+                                const lengthDividedByThree = uniqueMatchingLessons.length;
+
+    // Tworzenie tablicy indeksów od 1 do uniqueMatchingLessons.length / 3
+                                let indices = [];
+                                for (let i = 1; i <= lengthDividedByThree; i++) {
+                                    indices.push(i);
+                                }
+                                let indices2 = [];
+                                for (let i = 1; i <= lengthDividedByThree; i++) {
+                                    indices2.push(i);
+                                }
+                                console.log('hej12', indices2);
+    // Wylosowanie indeksu, który będzie miał wartość 0
+                                const zeroIndex = Math.floor(Math.random() * lengthDividedByThree);
+                                const zeroIndex2 = index55 - 1;
+    // Wstawienie 0 na wylosowane miejsce
+                                indices[zeroIndex] = 0;
+                                indices2[zeroIndex2] = 0;
+                                console.log('hej166');
+
+                                for (let i = 0; i < uniqueMatchingLessons.length; i += 1) {
+                                    indexDiv++;
+                                    const lessonId1 = uniqueMatchingLessons[i];
+                                    const newIndex = indices[Math.floor(i)];
+                                    const index50 = indices2[Math.floor(i)];
+                                    console.log('hej166', index50);
+
+
+    // Znajdź długości drugiej części zdania dla każdej lekcji
+                                    const lesson1PartLength = partLengths3.find(item => item.id === lessonId1)?.cumulativeCount || 0;
+
+                                    // Obliczanie skumulowanych długości
+                                    cumulativeFirstPartLength1 += lesson1PartLength;
+
+                                    const cumulativeTotalFirstPartLength1 = cumulativeFirstPartLength1;
+
+                                    // Aktualizacja poprzedniej wartości skumulowanej dla następnej iteracji
+                                    previousCumulativeFirstPartLength3 = cumulativeFirstPartLength3;
+
+
+                                    const lessonObjectA = {
+                                        lessonId1: lessonId1,
+                                        index50: index50,
+                                        newIndex: newIndex,
+                                        lesson1PartLength: lesson1PartLength,
+                                        indexDiv: indexDiv
+                                    };
+
+                                    // Dodawanie obiektu do tablicy lekcji
+                                    lessonsArrayA.push(lessonObjectA);
+                                    console.log('hej333', lessonObjectA);
+                                    if (newIndex === 0 && indexDiv >= 1 && indexDiv <= 4) {
+                                        const containerToRemove = $(`.image-container3[data-lesson="${indexDiv}"]`);
+                                        if (containerToRemove.length > 0) {
+                                            containerToRemove.remove();
+                                        }
+                                    }
+
+
+                                    // Zwiększ startIndex o 7 za każdym razem, gdy funkcja iteruje
+                                    console.log('hej558', lessonsArrayA);
+                                    console.log('hej40', newIndex); // Wyświetl wartość startIndex
+                                    console.log('hej79', tablica15);
+                                    console.log('wykonuje się 7');
+                                    console.log('hej155', buttonindex);
+                                    console.log('hej323', index55);
+
+                                    console.log('hej344');
+                                    if ((tablica15.length <= 30 || tablica15.length === 0)) {
+                                        console.log('wykonuje się 8');
+                                        console.log('hej32', newIndex);
+                                        console.log('hej188', tablica15);
+                                        showCombinedSentenceForLesson2(index50, lessonId1, fiszki, matchingIndexes, startIndex, newIndex, indexDiv, lessonsArrayA, lesson1PartLength);
+
+                                    }
+                                }
+                                            function showCombinedSentenceForLesson2(index50, lessonIdToShow1, lessonIdToShow2, lessonIdToShow3, fiszki, matchingIndexes, startIndex, newIndex, indexDiv, lessonsArray, lesson1PartLength, lesson2PartLength, lesson3PartLength, lesson1Sentences, lesson2Sentences, lesson3Sentences, lesson1FirstPartLength, lesson2FirstPartLength, lesson3FirstPartLength, lesson1SecondPartLength, lesson2SecondPartLength, lesson3SecondPartLength, cumulativeFirstPartLength1, cumulativeFirstPartLength2, cumulativeFirstPartLength3) {
+
+                        
+                        
+                                                    const $container = $('<div></div>'); // Tworzymy nowy element div za pomocą jQuery
+                            $container.addClass('image-container3'); // Dodajemy klasę do nowego diva
+                            $container.css('position', 'relative'); // Ustawiamy pozycję diva na relative
+
+                            // Możesz również dodać dodatkowe atrybuty, takie jak 'data-lesson'
+                            $container.attr('data-lesson', indexDiv);
+                            $('.grid-container').append($container);
+                            return countVisibleContainers();
+                            
+                                                            const lengthDividedByThree = uniqueMatchingLessons.length;
+    // Tworzenie tablicy indeksów od 1 do uniqueMatchingLessons.length / 3
+                                let indices = [];
+                                for (let i = 1; i <= lengthDividedByThree; i++) {
+                                    indices.push(i);
+                                }
+                                console.log('hej12', indices2);
+    // Wylosowanie indeksu, który będzie miał wartość 0
+                                const zeroIndex = Math.floor(Math.random() * lengthDividedByThree);
+    // Wstawienie 0 na wylosowane miejsce
+                                indices[zeroIndex] = 0;
+                                console.log('hej166');
+
+                                for (let i = 0; i < uniqueMatchingLessons.length; i += 1) {
+                                    indexDiv++;
+                                    const lessonId1 = uniqueMatchingLessons[i];
+                                    const newIndex = indices[Math.floor(i)];
+                                    
+                                    function wybierzRodzaj(category, czas, matchingIndexes, index55, buttonindex) {
+                        console.log('hej224', czas);
+                        category = category || globalCategory;
+                        czasv2 = czas;
+                        console.log("Wybrany rodzaj słownictwa: " + category);
+                        console.log('hej5', czas); // Wybierz 'fiszki' dla 10 minut
+                        console.log('hej755', matchingIndexes); // Dodano logowanie matchingIndexes
+
+                        const matchingLessons = new Set(); // Użyj obiektu Set do przechowywania unikalnych wartości
+                        // Iteracja przez fiszki
+                        for (const fiszka of fiszki) {
+                            // Sprawdzenie, czy istnieje fiszka w zadanej kategorii
+                            let matchingFiszka;
+                            // Sprawdzenie, czy wybrano wszystkie kategorie
+                            if (category === 'all' || !category) {
+                                matchingFiszka = true;
+                            } else {
+                                // Sprawdzenie, czy istnieje fiszka w zadanej kategorii
+                                matchingFiszka = fiszka.category2.includes(category);
+                            }
+                            console.log('hej28', category);
+                            // Jeśli znaleziono pasującą fiszkę, dodaj numer lekcji do zestawu matchingLessons
+                            if (matchingFiszka) {
+                                matchingLessons.add(fiszka.id[1]);
+                                console.log('hej8', matchingLessons);
+                            }
+                        }
+                        const uniqueMatchingLessons = Array.from(matchingLessons);
+                        console.log('hejxxxxxxxxxxxxxxxxx', uniqueMatchingLessons);
+
+                        if (czas === 'zdania' && czas !== 'fiszki') {
+                            // Wyświetl pojedyncze zdania dla znalezionych lekcji
+                            console.log('Warunek czas === "fiszki" jest spełniony');
+                            $('.grid-container .image-container3').remove();
+                            if (uniqueMatchingLessons.length > 1) {
+                                // Inicjuj flagę dla wystąpienia zera
+                                let zeroWylosowane = false;
+                                // Losowy indeks, w którym pojawi się zero
+
+                                let indexDiv = 0;
+                                // Zmienna do kumulowania długości zdań
+                                let previousCumulativeFirstPartLength3 = 0;  // Przechowywanie poprzedniej kumulacji dla lesson3
+                                let cumulativeFirstPartLength1 = 0;
+                                let cumulativeFirstPartLength2 = 0;
+                                let cumulativeFirstPartLength3 = 0;
+
+                                // Wyświetl fiszki dla każdej znalezionej pary lekcji
+                                let startIndex = 0; // Zainicjuj startIndex poza pętlą
+                                    const lengthDividedByThree = uniqueMatchingLessons.length;
+                                let indices2 = [];
+                                for (let i = 1; i <= lengthDividedByThree; i++) {
+                                    indices2.push(i);
+                                }
+    // Tworzenie tablicy indeksów od 1 do uniqueMatchingLessons.length / 3
+
+                                let indices = [];
+                                for (let i = 1; i <= lengthDividedByThree; i++) {
+                                    indices.push(i);
+                                }
+                                console.log('hej24', indices);
+
+// Tworzenie tablicy visibleIndexes jako klon indices
+let visibleIndexes = [];
+console.log('hej2222', visibleIndexes);
+console.log('visibleIndexes after copying indices:', visibleIndexes);
+
+// Wylosowanie indeksu, który będzie miał wartość 0 (z zakresu od 0 do visibleIndexes.length - 1)
+const zeroIndex = Math.floor(Math.random() * visibleIndexes.length);
+
+// Wstawienie 0 na wylosowane miejsce w visibleIndexes
+visibleIndexes.splice(zeroIndex, 0, 0);
+                                const zeroIndex2 = index55 - 1;
+    // Wstawienie 0 na wylosowane miejsce
+                                indices2[zeroIndex2] = 0;
+                                console.log('hej166');
+
+                                for (let i = 0; i < uniqueMatchingLessons.length; i += 1) {
+                                    indexDiv++;
+                                    const lessonId1 = uniqueMatchingLessons[i];
+                                    const newIndex = visibleIndexes[i];
+                                    const index50 = indices2[Math.floor(i)];
+                                    console.log('hej166', newIndex);
+
+
+    // Znajdź długości drugiej części zdania dla każdej lekcji
+                                    const lesson1PartLength = partLengths3.find(item => item.id === lessonId1)?.cumulativeCount || 0;
+
+                                    // Obliczanie skumulowanych długości
+                                    cumulativeFirstPartLength1 += lesson1PartLength;
+
+                                    const cumulativeTotalFirstPartLength1 = cumulativeFirstPartLength1;
+
+                                    // Aktualizacja poprzedniej wartości skumulowanej dla następnej iteracji
+                                    previousCumulativeFirstPartLength3 = cumulativeFirstPartLength3;
+
+
+                                    const lessonObjectA = {
+                                        lessonId1: lessonId1,
+                                        index50: index50,
+                                        newIndex: newIndex,
+                                        lesson1PartLength: lesson1PartLength,
+                                        indexDiv: indexDiv
+                                    };
+
+                                    // Dodawanie obiektu do tablicy lekcji
+                                    lessonsArrayA.push(lessonObjectA);
+                                    console.log('hej3334', lessonObjectA);
+                                    if (newIndex === 0 && indexDiv >= 1 && indexDiv <= 4) {
+                                        const containerToRemove = $(`.image-container3[data-lesson="${indexDiv}"]`);
+                                        if (containerToRemove.length > 0) {
+                                            containerToRemove.remove();
+                                        }
+                                    }
+
+
+                                    // Zwiększ startIndex o 7 za każdym razem, gdy funkcja iteruje
+                                    console.log('hej558', lessonsArrayA);
+                                    console.log('hej40', newIndex); // Wyświetl wartość startIndex
+                                    console.log('hej79', tablica15);
+                                    console.log('wykonuje się 7');
+                                    console.log('hej155', buttonindex);
+                                    console.log('hej323', index55);
+
+                                    console.log('hej344');
+                                    if ((tablica15.length <= 30 || tablica15.length === 0)) {
+                                        console.log('wykonuje się 8');
+                                        console.log('hej321', newIndex);
+                                        console.log('hej188', tablica15);
+                                        showCombinedSentenceForLesson2(index50, lessonId1, fiszki, matchingIndexes, startIndex, newIndex, indexDiv, lessonsArrayA, lesson1PartLength);
+                                    }
+                                }
+                                console.log('Aktualna zawartość tablicy lessonsArray:', lessonsArray);
+    // Sprawdź, czy dodano odpowiednią liczbę divów
+                                const numberOfContainers = $('.image-container3').length;
+                                console.log('Liczba dodanych divów:', numberOfContainers);
+                            }
+                        }
+                                // Dodaj log do sprawdzenia, czy widoczne indeksy są zbierane poprawnie
+        console.log('Visible indexes:', visibleIndexes);
