@@ -3443,3 +3443,308 @@ visibleIndexes.splice(zeroIndex, 0, 0);
                         }
                                 // Dodaj log do sprawdzenia, czy widoczne indeksy są zbierane poprawnie
         console.log('Visible indexes:', visibleIndexes);
+        
+        function countVisibleContainers() {
+    // Resetowanie globalnej tablicy przed dodaniem nowych wartości
+    let visibleIndexes = [];
+
+    // Pobierz wszystkie kontenery z klasą 'image-container4'
+    const $containers = $('.grid-container .image-container4');
+
+    // Iteruj przez kontenery
+    $containers.each(function(index) {
+        const containerRect = this.getBoundingClientRect();
+        const isVisible = (
+            containerRect.top >= 0 &&
+            containerRect.left >= 0 &&
+            containerRect.bottom <= (window.innerHeight || document.documentElement.clientHeight) &&
+            containerRect.right <= (window.innerWidth || document.documentElement.clientWidth)
+        );
+
+        // Dodaj tymczasowe logowanie, aby sprawdzić isVisible
+        console.log(`Kontener ${index} jest widoczny:`, isVisible);
+
+        // Jeśli kontener jest widoczny, dodaj jego indeks do globalnej tablicy
+        if (isVisible) {
+            visibleIndexes.push(index);
+            
+            // Jeśli dodano 4 nowe widoczne indeksy, wywołaj inną funkcję
+            if (visibleIndexes.length % 4 === 0) {
+                otherFunction(visibleIndexes);
+            }
+        }
+    });
+                    console.log('Visible indexes:', visibleIndexes);
+}
+
+
+// Funkcja otherFunction z przekazanymi indeksami
+function otherFunction(indexes) {
+    const czas = 'zdania';
+    console.log('Przekazane indeksy do otherFunction:', indexes);
+    przekazArgument0(category, undefined, true, czas);
+}
+                    function wybierzRodzaj(category, czas, matchingIndexes, index55, buttonindex) {
+
+if (czas === 'zdania' && czas !== 'fiszki') {
+                            // Wyświetl pojedyncze zdania dla znalezionych lekcji
+                            console.log('Warunek czas === "fiszki" jest spełniony');
+                            $('.grid-container .image-container3').remove();
+                            if (uniqueMatchingLessons.length > 1) {
+                                // Inicjuj flagę dla wystąpienia zera
+                                let zeroWylosowane = false;
+                                // Losowy indeks, w którym pojawi się zero
+
+                                let indexDiv = 0;
+                                // Zmienna do kumulowania długości zdań
+                                let previousCumulativeFirstPartLength3 = 0;  // Przechowywanie poprzedniej kumulacji dla lesson3
+                                let cumulativeFirstPartLength1 = 0;
+                                let cumulativeFirstPartLength2 = 0;
+                                let cumulativeFirstPartLength3 = 0;
+
+                                // Wyświetl fiszki dla każdej znalezionej pary lekcji
+                                let startIndex = 0; // Zainicjuj startIndex poza pętlą
+                                    const lengthDividedByThree = uniqueMatchingLessons.length;
+                                let indices2 = [];
+                                for (let i = 1; i <= lengthDividedByThree; i++) {
+                                    indices2.push(i);
+                                }
+
+                                let indices = [];
+                                for (let i = 1; i <= lengthDividedByThree; i++) {
+                                    indices.push(i);
+                                }
+                                // Funkcja countVisibleContainers zwraca tablicę widocznych indeksów
+
+                                    // Tworzenie tablicy indeksów od 1 do uniqueMatchingLessons.length / 3
+const zeroIndex = Math.floor(Math.random() * visibleIndexes.length);
+indices[zeroIndex] = 0;
+                                const zeroIndex2 = index55 - 1;
+    // Wstawienie 0 na wylosowane miejsce
+                                indices2[zeroIndex2] = 0;
+                                console.log('hej166');
+
+                                for (let i = 0; i < uniqueMatchingLessons.length; i += 1) {
+                                    indexDiv++;
+                                    const lessonId1 = uniqueMatchingLessons[i];
+                                    const newIndex = indices[Math.floor(i)];
+                                    const index50 = indices2[Math.floor(i)];
+                                    console.log('hej166', newIndex);
+
+
+    // Znajdź długości drugiej części zdania dla każdej lekcji
+                                    const lesson1PartLength = partLengths3.find(item => item.id === lessonId1)?.cumulativeCount || 0;
+
+                                    // Obliczanie skumulowanych długości
+                                    cumulativeFirstPartLength1 += lesson1PartLength;
+
+                                    const cumulativeTotalFirstPartLength1 = cumulativeFirstPartLength1;
+
+                                    // Aktualizacja poprzedniej wartości skumulowanej dla następnej iteracji
+                                    previousCumulativeFirstPartLength3 = cumulativeFirstPartLength3;
+
+
+                                    const lessonObjectA = {
+                                        lessonId1: lessonId1,
+                                        index50: index50,
+                                        newIndex: newIndex,
+                                        lesson1PartLength: lesson1PartLength,
+                                        indexDiv: indexDiv
+                                    };
+
+                                    // Dodawanie obiektu do tablicy lekcji
+                                    lessonsArrayA.push(lessonObjectA);
+                                    console.log('hej3334', lessonObjectA);
+                                    if (newIndex === 0 && indexDiv >= 1 && indexDiv <= 4) {
+                                        const containerToRemove = $(`.image-container3[data-lesson="${indexDiv}"]`);
+                                        if (containerToRemove.length > 0) {
+                                            containerToRemove.remove();
+                                        }
+                                    }
+
+
+                                    // Zwiększ startIndex o 7 za każdym razem, gdy funkcja iteruje
+                                    console.log('hej558', lessonsArrayA);
+                                    console.log('hej40', newIndex); // Wyświetl wartość startIndex
+                                    console.log('hej79', tablica15);
+                                    console.log('wykonuje się 7');
+                                    console.log('hej155', buttonindex);
+                                    console.log('hej323', index55);
+
+                                    console.log('hej344');
+                                    if ((tablica15.length <= 30 || tablica15.length === 0)) {
+                                        console.log('wykonuje się 8');
+                                        console.log('hej321', newIndex);
+                                        console.log('hej188', tablica15);
+                                        showCombinedSentenceForLesson2(index50, lessonId1, fiszki, matchingIndexes, startIndex, newIndex, indexDiv, lessonsArrayA, lesson1PartLength);
+                                    }
+                                }
+                                console.log('Aktualna zawartość tablicy lessonsArray:', lessonsArray);
+    // Sprawdź, czy dodano odpowiednią liczbę divów
+                                const numberOfContainers = $('.image-container3').length;
+                                console.log('Liczba dodanych divów:', numberOfContainers);
+                            }
+                        }
+                    }
+                    
+                                                    let indices2 = [];
+                                for (let i = 1; i <= lengthDividedByThree; i++) {
+                                    indices2.push(i);
+                                }
+                                                                const zeroIndex2 = index55 - 1;
+    // Wstawienie 0 na wylosowane miejsce
+                                indices2[zeroIndex2] = 0;
+                                console.log('hej166');
+                                
+function showCombinedSentenceForLesson2(index50, lessonIdToShow1, fiszki, matchingIndexes, startIndex, newIndex, indexDiv, lessonsArrayA, lesson1PartLength) {
+             
+             const $container = $('<div></div>'); // Tworzymy nowy element div za pomocą jQuery
+                            $container.addClass('image-container4'); // Dodajemy klasę do nowego diva
+                            $container.css('position', 'relative'); // Ustawiamy pozycję diva na relative
+
+                            // Możesz również dodać dodatkowe atrybuty, takie jak 'data-lesson'
+                            $container.attr('data-lesson', indexDiv);
+                            $('.grid-container').append($container);
+                            
+                            const srcWords = [srcWord1];
+                            console.log('hej2', srcWords);
+                            const srcWordimage = [srcWord10];
+                            // Zmienna globalna przechowująca łączny czas trwania wszystkich wideo
+                            console.log('hej2', srcWordimage);
+                            let videoDurations = [];
+                            let totalDuration = 0;
+                            for (let i = 0; i < srcWords.length; i++) {
+                                const video = document.createElement('video');
+                                video.src = srcWords[i];
+                                video.addEventListener('loadedmetadata', function () {
+                                    totalDuration += this.duration;
+                                    console.log('tablica8', totalDuration);
+                                    console.log('działa5');
+                                });
+                            }
+                            console.log('hej');
+                            console.log('tablica11', videoDurations);
+                            function removePreviousVideo() {
+                                const previousVideo = $container.find('video'); // Poprawne odwołanie do poprzedniego wideo
+                                if (previousVideo.length > 0) {
+                                    previousVideo.remove(); // Usunięcie poprzedniego wideo z kontenera
+                                }
+                            }
+
+                            if (newIndex === 0 && !buttonindex && newIndex !== undefined && newIndex !== null) {
+                                console.log('hej3331', newIndex);
+                                let funkcjaWywolana = false;
+                                function addVideo1(index) {
+                                    console.log('hej80', index);
+                                    // Sprawdź, czy jesteśmy poza zakresem tablicy
+                                    if (index >= srcWords.length && !funkcjaWywolana) {
+                                        console.log('hej123', button0);
+                                        if (button0) {
+                                            const czas = 'zdania';  // Możesz rozważyć zmianę nazwy zmiennej na bardziej opisową, np. const tryb = 'fiszki';
+                                            przekazArgument0(category, undefined, true, czas);  // Upewnij się, że category jest zdefiniowana
+                                            console.log('hej222', czas);  // Upewnij się, że console.log jest odpowiedni w kontekście twojego kodu
+                                        }
+                                        if (button) {
+                                            przekazArgument(category, undefined, true);
+                                        }
+                                        if (button2) {
+                                            przekazArgument2(category, undefined, true);
+                                        }
+                                        if (button3) {
+                                            przekazArgument3(category, undefined, true);
+                                        }
+                                        console.log("wykonuje się");
+                                        funkcjaWywolana = true;
+                                    }
+                                    // Usuń poprzednie wideo
+                                    removePreviousVideo();
+                                    console.log('hej78', index);
+                                    const $vidDiv = $('<div>').addClass('background-video');
+    // Utwórz element <video> i ustaw atrybuty
+                                    const $videoElement = $('<video>').attr({
+                                        'autoplay': true, // Automatyczne odtwarzanie wideo
+                                        'muted': true, // Wyciszenie dźwięku wideo
+                                        'loop': true // Zapętlenie wideo
+                                    });
+                                    // Dodaj klasę CSS zależnie od indeksu wideo
+                                    if (index === 0) {
+                                        $videoElement.addClass('scaled-video');
+                                    } else {
+                                        $videoElement.addClass('next-video');
+                                    }
+    // Utwórz element <source> dla wideo i ustaw atrybuty
+                                    const $sourceElement = $('<source>').attr({
+                                        'src': srcWords[index], // Poprawne użycie interpolacji
+                                        'type': 'video/mp4'     // Typ pliku wideo
+                                    });
+    // Dodaj element source do elementu video
+                                    $sourceElement.appendTo($videoElement);
+    // Dodaj element video do diva dla wideo
+                                    $videoElement.appendTo($vidDiv);
+                                    // Dodaj element <source> do elementu <video>
+
+                                    // Obsługa błędu ładowania wideo
+                                    $videoElement.onerror = function () {
+                                        console.error('Nie można załadować pliku wideo.');
+                                    };
+                                    let currentIndexValue = [];
+
+                                    // Funkcja obsługi zdarzenia loadedmetadata
+                                    $videoElement.on('loadedmetadata', function () {
+                                        const videoDuration = this.duration;
+                                        videoDurations[index] = videoDuration;
+                                        console.log('tablica77', totalDuration);
+                                        // Uruchomienie funkcji countVisibleContainers co 2 sekundy
+
+                                        $videoElement.on('timeupdate', function () {
+                                            let adjustedProgress = 0;
+                                            for (let i = 0; i < index; i++) {
+                                                adjustedProgress += (videoDurations[i] / totalDuration) * 100;
+                                            }
+                                            adjustedProgress += (this.currentTime / videoDuration) * (videoDurations[index] / totalDuration) * 100;
+                                            updateProgress(adjustedProgress);
+                                            console.log('hej786', index);
+                                            // Sprawdź, czy wartość index nie została jeszcze dodana do tablicy currentIndex
+                                            if (!currentIndexValue.includes(index)) {
+                                                // Dodaj index do tablicy currentIndex
+                                                currentIndexValue.push(index);
+                                                console.log('hej70', currentIndexValue);
+                                                // Wywołaj funkcję addBackgroundToText tylko raz
+                                                if (currentIndexValue[0] === 0) {
+                                                    addBackgroundToText(matchingFiszki1, matchingIndexes, currentIndexValue, true, lesson1PartLength);
+                                                }
+                                            }
+
+                                            // Sprawdź, czy wideo zostało zakończone
+                                            if ($videoElement[0].duration - $videoElement[0].currentTime < 1) {
+                                                console.log('Wideo zakończone, uruchamiam następne.');
+                                                // Odtwórz następne wideo po zakończeniu poprzedniego
+                                                addVideo1(index + 1);
+                                                updateProgress(0);
+                                            }
+                                        });
+                                    });
+                                    // Dodaj div z wideo do tła kontenera
+                                    $vidDiv.appendTo($container);
+                                    function updateProgress(progress) {
+                                        // Aktualizuj pasek postępu na dole kontenera
+                                        $('.progress-bar').css('width', progress + '%');
+                                    }
+
+    // Inicjalizacja paska postępu
+                                    const $progressBar = $('<div>').addClass('progress-bar');
+                                    $progressBar.css({
+                                        'position': 'absolute',
+                                        'z-index': '2',
+                                        'bottom': '0',
+                                        'left': '0',
+                                        'height': '5px', // Wysokość paska postępu
+                                        'background-color': '#007bff', // Kolor paska postępu
+                                        'width': '140%', // Delikatne powiększenie paska postępu o 2% w każdym kierunku
+                                        'margin-bottom': '-2%',
+                                        'margin-left': '-4%',
+                                        'margin-right': '-4%'// Zapewnienie równowagi dla powiększenia paska postępu
+                                    });
+                                }
+                                addVideo1(0);
+                            } else if

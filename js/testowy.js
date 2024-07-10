@@ -15,7 +15,7 @@ const fiszki = [
         ],
         translate: "Wszyscy mają ubaw na zabawie",
         translateb: "[Ewrybody hes fan at de party]",
-        srcWord: "http://localhost/arbulanguage.com/filmy/party.mp4",
+        srcWord: ["http://localhost/arbulanguage.com/filmy/party.mp4", 'The Matrix Reloaded'],
         srcWordimage: "http://localhost/arbulanguage.com/filmy/party.png",
         word: [
             "http://localhost/arbulanguage.com/voice/music.mp4"
@@ -775,7 +775,7 @@ const fiszki = [
         ],
         translate: "Ja jestem nieśmiały, ale czasami odważny",
         translateb: "[Aj em szaj bat samtajms der]",
-        srcWord: "http://localhost/arbulanguage.com/filmy/shy.mp4",
+        srcWord: ["http://localhost/arbulanguage.com/filmy/shy.mp4", 'The Matrix Reloaded'],
         srcWordimage: "http://localhost/arbulanguage.com/filmy/shy.png",
         word: [
             "http://localhost/arbulanguage.com/voice/music.mp4"

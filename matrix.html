@@ -90,6 +90,17 @@
                 margin-top: 10px;
                 order: -1; /* Kolejność odwrotna - spycha w dół */
             }
+.scene-description {
+    position: absolute;
+    font-size: 15px;
+    top: 10px; /* Odległość od górnej krawędzi kontenera */
+    right: -120px; /* Przesunięcie w lewo o 120 pikseli, aby wystawał poza prawą krawędź */
+    background-color: #000;
+    color: #fff;
+    padding: 5px 10px;
+    z-index: 1000;
+    white-space: nowrap; /* Zapobiega zawijaniu tekstu */
+}
 
             .overlay {
                 position: absolute;
@@ -633,9 +644,9 @@
                     let button8 = false;
                     let pulpitstartowy = false;
                     var czasv2;
+
     // Definicja zmiennej globalnej globalCategory
                     var przyciskKlikniety = false;
-
     // Definicja zmiennej matchingIndexes
                     let matchingIndexes = [];
                     let tablica7 = [];
@@ -865,13 +876,12 @@
                         // Wywołaj funkcję wybierzCharakter
                         wybierzCharakter(undefined, index55, buttonindex);
                     }
-                    function przekazArgument0(category, index55, buttonindex, czas, indexes) {
+                    function przekazArgument0(category, index55, buttonindex, czas) {
                         $('.grid-container .image-container3').remove();
                         $('.grid-container .image-container4').remove();
                         if (!category) {
                             category = 'all';
                         }
-                        console.log('hej444', indexes);
                         pulpitstartowy = true;
                         console.log('hej22', category);
                         przyciskKlikniety = true;
@@ -907,9 +917,9 @@
                         wybierzRodzaj(globalCategory, czas, matchingIndexes, index55, buttonindex);
                         // Wyświetl na konsoli zaktualizowane matchingIndexes
                         console.log("Zaktualizowane matchingIndexes:", matchingIndexes);
-                        console.log("wykonuje sie");
+                        console.log("wykonuje sie", indexes);
                         czasv2 = czas;
-                        console.log('hej5', czas);
+                        console.log('hej5', indexes);
                     }
 
     // Funkcja znajdująca indeksy dla pasujących "fiszek"
@@ -1096,10 +1106,8 @@
                         currentVideoIndex = (currentVideoIndex + 1) % imageContainer3Array.length; // Przejście do następnego filmu
                         playRandomImageContainer3(); // Odtwórz kolejny losowy film
                     }
-let visibleIndexes = [];
                     console.log("Matching indexes:", matchingIndexes);
-                    function wybierzRodzaj(category, czas, matchingIndexes, index55, buttonindex, indexes) {
-                        console.log('hej224', czas);
+                    function wybierzRodzaj(category, czas, matchingIndexes, index55, buttonindex) {
                         category = category || globalCategory;
                         czasv2 = czas;
                         console.log("Wybrany rodzaj słownictwa: " + category);
@@ -1125,16 +1133,8 @@ let visibleIndexes = [];
                                 console.log('hej8', matchingLessons);
                             }
                         }
-
-
                         const uniqueMatchingLessons = Array.from(matchingLessons);
                         console.log('hejxxxxxxxxxxxxxxxxx', uniqueMatchingLessons);
-
-
-                        // Usuń załadowane kontenery o klasie 'image-container3'
-
-                        console.log('hejxxxxxxxxxxxxxxxxx');
-
 
                         if (czas === 'fiszki' && czas !== "zdania") {
                             console.log('Warunek czas === "fiszki" jest spełniony');
@@ -1274,7 +1274,6 @@ let visibleIndexes = [];
                         if (czas === 'zdania' && czas !== 'fiszki') {
                             // Wyświetl pojedyncze zdania dla znalezionych lekcji
                             console.log('Warunek czas === "fiszki" jest spełniony');
-                            console.log('hej11', indexes);
                             $('.grid-container .image-container3').remove();
                             if (uniqueMatchingLessons.length > 1) {
                                 // Inicjuj flagę dla wystąpienia zera
@@ -1295,21 +1294,43 @@ let visibleIndexes = [];
                                 for (let i = 1; i <= lengthDividedByThree; i++) {
                                     indices2.push(i);
                                 }
-    // Tworzenie tablicy indeksów od 1 do uniqueMatchingLessons.length / 3
 
                                 let indices = [];
                                 for (let i = 1; i <= lengthDividedByThree; i++) {
                                     indices.push(i);
                                 }
-                                console.log('hej24', indices);
-console.log('hej2222', visibleIndexes);
-console.log('visibleIndexes after copying indices:', visibleIndexes);
+// Losowanie indeksu, który będzie miał wartość 0
+const zeroIndex = Math.floor(Math.random() * (indexes.length + 1)); // +1 aby uwzględnić dodanie zera na końcu
 
-// Wylosowanie indeksu, który będzie miał wartość 0 (z zakresu od 0 do visibleIndexes.length - 1)
-const zeroIndex = Math.floor(Math.random() * visibleIndexes.length);
+// Wstawienie 0 na wylosowane miejsce, jeśli tablica indexes nie jest pusta
+if (indexes.length > 0) {
+    indexes[zeroIndex] = 0;
+}
 
-// Wstawienie 0 na wylosowane miejsce w visibleIndexes
-visibleIndexes.splice(zeroIndex, 0, 0);
+// Sprawdź czy tablica indexes zawiera zero
+let shouldInsertNumbers = indexes.includes(0);
+
+// Jeśli tablica indexes zawiera zero, wstaw liczby od 1 do wartości przed pierwszymi dwiema liczbami w indexes
+if (shouldInsertNumbers) {
+    let firstValue = indexes.length > 0 ? indexes[0] : 1;
+    let secondValue = indexes.length > 1 ? indexes[1] : firstValue + 1;
+
+    // Utworzenie tablicy do wstawienia przed indexes
+    let numbersToInsert = [];
+    for (let i = 1; i < firstValue; i++) {
+        numbersToInsert.push(i);
+    }
+    for (let i = firstValue; i < secondValue; i++) {
+        numbersToInsert.push(i);
+    }
+
+    // Wstawienie numbersToInsert przed indexes
+    indexes = [...numbersToInsert, ...indexes];
+}
+
+// Wyświetlenie zaktualizowanej tablicy indexes
+console.log('Aktualizowane indeksy:', indexes);
+
                                 const zeroIndex2 = index55 - 1;
     // Wstawienie 0 na wylosowane miejsce
                                 indices2[zeroIndex2] = 0;
@@ -1318,7 +1339,7 @@ visibleIndexes.splice(zeroIndex, 0, 0);
                                 for (let i = 0; i < uniqueMatchingLessons.length; i += 1) {
                                     indexDiv++;
                                     const lessonId1 = uniqueMatchingLessons[i];
-                                    const newIndex = visibleIndexes[i];
+                                    const newIndex = indexes[Math.floor(i)];
                                     const index50 = indices2[Math.floor(i)];
                                     console.log('hej166', newIndex);
 
@@ -1444,13 +1465,18 @@ visibleIndexes.splice(zeroIndex, 0, 0);
                         console.log('hej444', newIndex);
                         if (matchingFiszki1.length > 0 && matchingFiszki2.length > 0 && matchingFiszki3.length > 0) {
                             const srcWord1 = pobierzSrcWordDlaLekcji(lessonIdToShow1, fiszki);
+                            const srcWord1b = pobierzSrcWordDlaLekcji3(lessonIdToShow1, fiszki);
                             const srcWord2 = pobierzSrcWordDlaLekcji(lessonIdToShow2, fiszki);
                             const srcWord3 = pobierzSrcWordDlaLekcji(lessonIdToShow3, fiszki);
                             const srcWord10 = pobierzSrcWordDlaLekcji2(lessonIdToShow1, fiszki);
                             function pobierzSrcWordDlaLekcji(lessonId, fiszki) {
                                 const matchingFiszka = fiszki.find(fiszka => fiszka.id[1] === lessonId);
-                                return matchingFiszka ? matchingFiszka.srcWord : null;
+                                return matchingFiszka ? matchingFiszka.srcWord[0] : null;
                             }
+                            function pobierzSrcWordDlaLekcji3(lessonId, fiszki) {
+    const matchingFiszka = fiszki.find(fiszka => fiszka.id[1] === lessonId);
+    return matchingFiszka ? matchingFiszka.srcWord[1] : null; // Zwracamy srcWord[1] zamiast srcWord
+}
                             function pobierzSrcWordDlaLekcji2(lessonId, fiszki) {
                                 const matchingFiszka = fiszki.find(fiszka => fiszka.id[1] === lessonId);
                                 return matchingFiszka ? matchingFiszka.srcWordimage : null;
@@ -2715,7 +2741,9 @@ visibleIndexes.splice(zeroIndex, 0, 0);
                             $('.grid-container').append($container);
 
                             const srcWords = [srcWord1, srcWord2, srcWord3];
+                            const srcWords2 = [srcWord1b];
                             const srcWordimage = [srcWord10];
+                            console.log('hej155', srcWord1b);
                             // Zmienna globalna przechowująca łączny czas trwania wszystkich wideo
                             let videoDurations = [];
                             let totalDuration = 0;
@@ -2881,10 +2909,16 @@ visibleIndexes.splice(zeroIndex, 0, 0);
                                         'margin-right': '-4%'// Zapewnienie równowagi dla powiększenia paska postępu
                                     });
                                     $progressBar.appendTo($container);
+                                    // Stwórz <div> zawierający tekst "Scena z filmu x"
+const $sceneDiv = $('<div>').text(`Scena z filmu ${srcWord1b}`);
+
+// Dodaj klasę dla stylizacji CSS
+$sceneDiv.addClass('scene-description');
+$sceneDiv.appendTo($container);
                                 }
                                 setTimeout(function () {
                                     addVideo1(0);
-                                }, 200);
+                                }, 800);
                             } else if (index50 === 0 && buttonindex) {
                                 let funkcjaWywolana = false;
                                 function addVideo2(index) {
@@ -3031,6 +3065,12 @@ visibleIndexes.splice(zeroIndex, 0, 0);
                                         'margin-right': '-4%'// Zapewnienie równowagi dla powiększenia paska postępu
                                     });
                                     $progressBar.appendTo($container);
+                                                                        // Stwórz <div> zawierający tekst "Scena z filmu x"
+const $sceneDiv = $('<div>').text(`Scena z filmu ${srcWord1b}`);
+
+// Dodaj klasę dla stylizacji CSS
+$sceneDiv.addClass('scene-description');
+$sceneDiv.appendTo($container);
                                 }
                                 addVideo2(0);
                             } else {
@@ -3522,7 +3562,7 @@ visibleIndexes.splice(zeroIndex, 0, 0);
                                         console.log('hej123', button0);
                                         if (button0) {
                                             const czas = 'zdania';  // Możesz rozważyć zmianę nazwy zmiennej na bardziej opisową, np. const tryb = 'fiszki';
-                                            przekazArgument0(category, undefined, true, czas, undefined);  // Upewnij się, że category jest zdefiniowana
+                                            przekazArgument0(category, undefined, true, czas);  // Upewnij się, że category jest zdefiniowana
                                             console.log('hej222', czas);  // Upewnij się, że console.log jest odpowiedni w kontekście twojego kodu
                                         }
                                         if (button) {
@@ -3626,9 +3666,11 @@ visibleIndexes.splice(zeroIndex, 0, 0);
                                         'margin-left': '-4%',
                                         'margin-right': '-4%'// Zapewnienie równowagi dla powiększenia paska postępu
                                     });
-setInterval(function() {
-    countVisibleContainers();
-}, 500); // Wywołanie co 2 sekundy
+                                        // Dodajemy tekst obok aktywnego newIndex
+    const $infoDiv = $('<div>').addClass('video-info');
+    $infoDiv.text(`Scena z filmu: ${srcWords[1]}`); // Tutaj srcWords[1] to tytuł filmu
+    $infoDiv.appendTo('.grid-container');
+
                                 }
                                 addVideo1(0);
                             } else if (index50 === 0 && buttonindex) {
@@ -3878,18 +3920,17 @@ setInterval(function() {
                         console.log("Wpływaj ulubione fiszki!");
                         // Dodaj logikę lub akcje związane z wpleceniem ulubionych fiszek.
                     }
-                    // Funkcja do zliczania widocznych kontenerów
-// Zadeklarowanie zmiennej globalnej
+                    // Dodaj nasłuchiwanie przewijania do okna
+                                                                        let visibleIndexes = [];
+let previousVisibleIndexes = [];
+let indexes = [];
+let timeoutId = null;
+let lastChangeTime = 0;
 
 function countVisibleContainers() {
-    // Resetowanie globalnej tablicy przed dodaniem nowych wartości
-    let visibleIndexes = [];
+    indexes = [];
 
-    // Pobierz wszystkie kontenery z klasą 'image-container4'
-    const $containers = $('.grid-container .image-container4');
-
-    // Iteruj przez kontenery
-    $containers.each(function(index) {
+    $('.grid-container .image-container4').each(function(index) {
         const containerRect = this.getBoundingClientRect();
         const isVisible = (
             containerRect.top >= 0 &&
@@ -3898,27 +3939,52 @@ function countVisibleContainers() {
             containerRect.right <= (window.innerWidth || document.documentElement.clientWidth)
         );
 
-        // Dodaj tymczasowe logowanie, aby sprawdzić isVisible
-        console.log(`Kontener ${index} jest widoczny:`, isVisible);
-
-        // Jeśli kontener jest widoczny, dodaj jego indeks do globalnej tablicy
         if (isVisible) {
-            visibleIndexes.push(index);
-            
-            // Jeśli dodano 4 nowe widoczne indeksy, wywołaj inną funkcję
-            if (visibleIndexes.length % 4 === 0) {
-                otherFunction(visibleIndexes);
-            }
+            indexes.push(index + 1); // Dodanie +1, aby indeksy zaczynały się od 1
         }
     });
-                    console.log('Visible indexes:', visibleIndexes);
+
+    // Obliczenie czasu od ostatniej zmiany
+    const currentTime = Date.now();
+    const elapsedTime = currentTime - lastChangeTime;
+
+    // Jeśli warunek jest spełniony i poprzedni timeout nie istnieje
+    if (indexes.length >= 4 && !timeoutId) {
+        // Sprawdź czy 4 kontenery są widoczne przez co najmniej 500ms z rzędu
+        if (elapsedTime >= 800) {
+            // Ustaw timeout na 300ms po spełnieniu warunku
+            timeoutId = setTimeout(() => {
+                previousVisibleIndexes = [...indexes]; // kopiowanie tablicy indexes do previousVisibleIndexes
+                console.log('Aktualne widoczne indeksy:', indexes);
+                otherFunction(indexes);
+                timeoutId = null; // Resetuj timeoutId po wykonaniu funkcji
+            }, 1000);
+        }
+    } else if (indexes.length < 4 && timeoutId) {
+        // Jeśli warunek nie jest spełniony, a timeout istnieje, wyczyść timeout
+        clearTimeout(timeoutId);
+        timeoutId = null;
+    }
+
+    // Aktualizacja czasu ostatniej zmiany
+    lastChangeTime = currentTime;
+
+    return indexes;
 }
 
+$(window).on('scroll', function() {
+    countVisibleContainers();
+});
 
-// Funkcja otherFunction z dodanym parametrem indexes
+$(document).ready(function() {
+    countVisibleContainers(); // Wywołanie przy ładowaniu strony
+});
+// Funkcja otherFunction z przekazanymi indeksami
 function otherFunction(indexes) {
-    console.log('Przekazane indeksy:', indexes); // Dodaj logowanie, aby sprawdzić, czy indeksy są przekazywane do otherFunction
-    przekazArgument0(category, undefined, undefined, undefined, indexes);
+    const czas = 'zdania';
+    console.log('wywołana');
+    console.log('Przekazane indeksy do otherFunction:', indexes);
+    przekazArgument0(category, undefined, true, czas);
 }
                 </script>
                 <script id="demoScript" data-category=""></script>
