@@ -3748,3 +3748,10 @@ function showCombinedSentenceForLesson2(index50, lessonIdToShow1, fiszki, matchi
                                 }
                                 addVideo1(0);
                             } else if
+                            
+                                                        const srcWord1b = pobierzSrcWordDlaLekcji3(lessonIdToShow1, fiszki);
+                                                        
+                                                                                    function pobierzSrcWordDlaLekcji3(lessonId, fiszki) {
+    const matchingFiszka = fiszki.find(fiszka => fiszka.id[1] === lessonId);
+    return matchingFiszka ? matchingFiszka.srcWord[1] : null; // Zwracamy srcWord[1] zamiast srcWord
+}

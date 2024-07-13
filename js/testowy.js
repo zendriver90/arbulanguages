@@ -272,7 +272,7 @@ const fiszki = [
         ],
         translate: "On jest posłuszny wobec naukowych procedur",
         translateb: "[Hi is obidient to sajens prosidżer]",
-        srcWord: "http://localhost/arbulanguage.com/filmy/procedure.mp4",
+        srcWord: ["http://localhost/arbulanguage.com/filmy/procedure.mp4", "Breaking Bad"],
         srcWordimage: "http://localhost/arbulanguage.com/filmy/procedure.png",
         word: [
             "http://localhost/arbulanguage.com/voice/bike.mp4"
@@ -525,7 +525,7 @@ const fiszki = [
         ],
         translate: "Bądź bardziej obecny wobec swoich emocji",
         translateb: "[Bi mor prezent wiz jour imołszyns]",
-        srcWord: "http://localhost/arbulanguage.com/filmy/emotions.mp4",
+        srcWord: ["http://localhost/arbulanguage.com/filmy/emotions.mp4", "The Dark Knight(2008)"],
         srcWordimage: "http://localhost/arbulanguage.com/filmy/emotions.png",
         word: [
             "http://localhost/arbulanguage.com/src/be.wav"
@@ -775,7 +775,7 @@ const fiszki = [
         ],
         translate: "Ja jestem nieśmiały, ale czasami odważny",
         translateb: "[Aj em szaj bat samtajms der]",
-        srcWord: ["http://localhost/arbulanguage.com/filmy/shy.mp4", 'The Matrix Reloaded'],
+        srcWord: ["http://localhost/arbulanguage.com/filmy/shy.mp4", 'The Matrix Reloaded (2003)'],
         srcWordimage: "http://localhost/arbulanguage.com/filmy/shy.png",
         word: [
             "http://localhost/arbulanguage.com/voice/music.mp4"
@@ -1010,7 +1010,7 @@ const fiszki = [
             "http://localhost/arbulanguage.com/img/fiszki1/3a4.jpg",
             "http://localhost/arbulanguage.com/img/fiszki1/3a5.jpg"
         ],
-        srcWord: "http://localhost/arbulanguage.com/filmy/cat.mp4",
+        srcWord: ["http://localhost/arbulanguage.com/filmy/cat.mp4", "Superman (1978)"],
         srcWordimage: "http://localhost/arbulanguage.com/filmy/cat.png",
         word: [
             "http://localhost/arbulanguage.com/voice/party.mp4"
@@ -1247,7 +1247,7 @@ const fiszki = [
         ],
         translate: "Nasza szkoła organizuje całkiem ciekawe wydarzenie",
         translateb: "[Aur skul organajz kłajt interesting iwents]",
-        srcWord: "http://localhost/arbulanguage.com/filmy/school.mp4",
+        srcWord: ["http://localhost/arbulanguage.com/filmy/school.mp4", "American Pie: The Wedding (2003)"],
         srcWordimage: "http://localhost/arbulanguage.com/filmy/school.png",
         word: "http://localhost/arbulanguage.com/voice/party.mp4",
         story: [
@@ -1394,7 +1394,7 @@ const fiszki = [
             7
         ],
         img: "http://localhost/arbulanguage.com/img/fiszki1/7a.jpg",
-        srcWord: "http://localhost/arbulanguage.com/filmy/company.mp4",
+        srcWord: ["http://localhost/arbulanguage.com/filmy/company.mp4", "Rampage (2018)"],
         srcWordimage: "http://localhost/arbulanguage.com/filmy/company.png",
         word: [
             "http://localhost/arbulanguage.com/voice/music.mp4"
@@ -1521,7 +1521,7 @@ const fiszki = [
             8
         ],
         img: "http://localhost/arbulanguage.com/img/fiszki1/8a.jpg",
-        srcWord: "http://localhost/arbulanguage.com/filmy/book.mp4",
+        srcWord: ["http://localhost/arbulanguage.com/filmy/book.mp4", "Inception (2010)"],
         srcWordimage: "http://localhost/arbulanguage.com/filmy/book.png",
         word: [
             "http://localhost/arbulanguage.com/voice/music.mp4"
@@ -1656,7 +1656,7 @@ const fiszki = [
         img: "http://localhost/arbulanguage.com/img/fiszki1/9a.jpg",
         translate: "Moi sąsiedzi sprzedali ich duży dom",
         translateb: "[Maj nejbours sel deir big hałs]",
-        srcWord: "http://localhost/arbulanguage.com/filmy/bighouse.mp4",
+        srcWord: ["http://localhost/arbulanguage.com/filmy/bighouse.mp4", "Mechanik: Konfrontacja (2013)"],
         srcWordimage: "http://localhost/arbulanguage.com/filmy/bighouse.png",
         story: [
             "W <b><u>maj</b></u>u kwitną <b><u>moje</b></u> ulubione kwiaty",
@@ -1785,7 +1785,7 @@ const fiszki = [
         img: "http://localhost/arbulanguage.com/img/fiszki1/10a.jpg",
         translate: "Mój pies jest dobrym przyjacielem",
         translateb: "[Maj dog is a gud frend]",
-        srcWord: "http://localhost/arbulanguage.com/filmy/dog.mp4",
+        srcWord: ["http://localhost/arbulanguage.com/filmy/dog.mp4", "Sztanga i cash (2013)"],
         srcWordimage: "http://localhost/arbulanguage.com/filmy/dog.png",
         word: [
             "http://localhost/arbulanguage.com/voice/music.mp4"
@@ -1927,7 +1927,7 @@ const fiszki = [
         img: "http://localhost/arbulanguage.com/img/fiszki1/11a.jpg",
         translate: "Nauczyciel stara się pomóc nam",
         translateb: "[De ticzer trajs tu help as]",
-        srcWord: "http://localhost/arbulanguage.com/filmy/teacher.mp4",
+        srcWord: ["http://localhost/arbulanguage.com/filmy/teacher.mp4", "Yes Man (2008)"],
         srcWordimage: "http://localhost/arbulanguage.com/filmy/teacher.png",
         word: [
             "http://localhost/arbulanguage.com/voice/music.mp4"
@@ -2063,7 +2063,7 @@ const fiszki = [
         img: "http://localhost/arbulanguage.com/img/fiszki1/5e.jpg",
         translate: "Twoi rodzice wydają się być przyjaźni",
         translateb: "[Jor parents sim tu bi frendli]",
-        srcWord: "http://localhost/arbulanguage.com/filmy/parents.mp4",
+        srcWord: ["http://localhost/arbulanguage.com/filmy/parents.mp4", "Serial: Rodzinka.pl"],
         srcWordimage: "http://localhost/arbulanguage.com/filmy/parents.png",
         word: [
             "http://localhost/arbulanguage.com/voice/music.mp4"
@@ -2210,7 +2210,7 @@ const fiszki = [
         img: "http://localhost/arbulanguage.com/img/fiszki1/13a.jpg",
         translate: "Psy mogą biec naprawdę szybko",
         translateb: "[De dog ken ran rili fast]",
-        srcWord: "http://localhost/arbulanguage.com/filmy/dogs.mp4",
+        srcWord: ["http://localhost/arbulanguage.com/filmy/dogs.mp4", "The Dark Knight(2008)"],
         srcWordimage: "http://localhost/arbulanguage.com/filmy/dogs.png",
         story: [
             "Czasami politycy stosują <u><b>de</u></b>magogię. Czyli co stosują? <u><b>Tę</u></b> <u><b>de</u></b>magogię",
@@ -2346,7 +2346,7 @@ const fiszki = [
         img: "http://localhost/arbulanguage.com/img/fiszki1/14a.jpg",
         translate: "Ta edycja traci ważność w tym tygodniu",
         translateb: "[Dis ediszyn ikspires dis łik]",
-        srcWord: "http://localhost/arbulanguage.com/filmy/counting.mp4",
+        srcWord: ["http://localhost/arbulanguage.com/filmy/counting.mp4", "The Dark Knight(2008)"],
         srcWordimage: "http://localhost/arbulanguage.com/filmy/counting.png",
         word: [
             "http://localhost/arbulanguage.com/voice/music.mp4"
@@ -2461,7 +2461,7 @@ const fiszki = [
         img: "http://localhost/arbulanguage.com/img/fiszki1/15a.jpg",
         translate: "On ma szeroki zasób słów",
         translateb: "[Hi hes łajd rendż of łords]",
-        srcWord: "http://localhost/arbulanguage.com/filmy/rangewords.mp4",
+        srcWord: ["http://localhost/arbulanguage.com/filmy/rangewords.mp4", "Jestem Bogiem(2011)"],
         srcWordimage: "http://localhost/arbulanguage.com/filmy/rangewords.png",
         story: [
             "<u><b>On</b></u> - <u><b>Hi</b></u>eronim odleciał balonem",
@@ -2590,7 +2590,7 @@ const fiszki = [
         img: "http://localhost/arbulanguage.com/img/fiszki1/16a.jpg",
         translate: "On odważył się podejść do niej",
         translateb: "[Hi dares tu mejk eprołcz tu her]",
-        srcWord: "http://localhost/arbulanguage.com/filmy/approach.mp4",
+        srcWord: ["http://localhost/arbulanguage.com/filmy/approach.mp4", "Matrix(1999)"],
         srcWordimage: "http://localhost/arbulanguage.com/filmy/approach.png",
         word: [
             "http://localhost/arbulanguage.com/voice/music.mp4"
@@ -2757,7 +2757,7 @@ const fiszki = [
         img: "http://localhost/arbulanguage.com/img/fiszki1/17a.jpg",
         translate: "Ona jest przywiązana do swojego łuku",
         translateb: "[Szi is ataczd to her boł]",
-        srcWord: "http://localhost/arbulanguage.com/filmy/bow.mp4",
+        srcWord: ["http://localhost/arbulanguage.com/filmy/bow.mp4", "Igrzyska śmierci: Kosogłos. Część 2(2015)"],
         srcWordimage: "http://localhost/arbulanguage.com/filmy/bow.png",
         story: "<u><b>Ona</u></b> - Patrycja ma ri<u><b>szi</u></b> to naturalny antyoksydant",
         desc: "she[szi] - ona",
@@ -2893,7 +2893,7 @@ const fiszki = [
         img: "http://localhost/arbulanguage.com/img/fiszki1/18a.jpg",
         translate: "On nie jest posłuszny swojemu trenerowi",
         translateb: "[Hi das not obej to his trajner]",
-        srcWord: "http://localhost/arbulanguage.com/filmy/training.mp4",
+        srcWord: ["http://localhost/arbulanguage.com/filmy/training.mp4", "Matrix(1999)", "Akcja"],
         srcWordimage: "http://localhost/arbulanguage.com/filmy/training.png",
         story: [
             "<u><b>On</b></u> - <u><b>Hi</b></u>eronim odleciał balonem",
@@ -3030,7 +3030,7 @@ const fiszki = [
         img: "http://localhost/arbulanguage.com/img/fiszki1/20a.jpg",
         translate: "To miasto jest pełne ludzi",
         translateb: "[Dis siti is ful of pipul]",
-        srcWord: "http://localhost/arbulanguage.com/filmy/city.mp4",
+        srcWord: ["http://localhost/arbulanguage.com/filmy/city.mp4", "Resident Evil: Afterlife(2010)", "Akcja"],
         srcWordimage: "http://localhost/arbulanguage.com/filmy/city.png",
         story1: [
             "<b><u>Quo vadis</b></u> <b><u>to</b></u> cytat bardzo znany",
@@ -3166,7 +3166,7 @@ const fiszki = [
         img: "http://localhost/arbulanguage.com/img/fiszki1/21a.jpg",
         translate: "Nasi studenci muszą uczyć się bardzo ciężko",
         translateb: "[Aur stjudents hew tu stady wery hard]",
-        srcWord: "http://localhost/arbulanguage.com/filmy/studyhard.mp4",
+        srcWord: ["http://localhost/arbulanguage.com/filmy/studyhard.mp4", "Marsjanin(2015)", "Akcja"],
         srcWordimage: "http://localhost/arbulanguage.com/filmy/studyhard.png",
         story: "Przypomnij",
         desc: "our[aur] - nasze/nasi",
@@ -3290,7 +3290,7 @@ const fiszki = [
         img: "http://localhost/arbulanguage.com/img/fiszki1/22a.jpg",
         translate: "Nie mam czasu na czytanie",
         translateb: "[Aj dont hew tajm tu rid]",
-        srcWord: "http://localhost/arbulanguage.com/filmy/read.mp4",
+        srcWord: ["http://localhost/arbulanguage.com/filmy/read.mp4", "Księgowy(2016)", "Akcja"],
         srcWordimage: "http://localhost/arbulanguage.com/filmy/read.png",
         story: "",
         desc: "I[i] - ja",
@@ -3419,7 +3419,7 @@ const fiszki = [
         img: "http://localhost/arbulanguage.com/img/fiszki1/23a.jpg",
         translate: "Ludzie myślą, że on ma racje",
         translateb: "[Pipul tinks dat hi is rajt]",
-        srcWord: "http://localhost/arbulanguage.com/filmy/right.mp4",
+        srcWord: ["http://localhost/arbulanguage.com/filmy/right.mp4", "Klub Dyskusyjny(2007)", "Biograficzny"],
         srcWordimage: "http://localhost/arbulanguage.com/filmy/right.png",
         story: "",
         desc: "people[pipul] - ludzie",
@@ -3521,7 +3521,7 @@ const fiszki = [
         img: "http://localhost/arbulanguage.com/img/fiszki1/24a.jpg",
         translate: "My powinniśmy dbać o naszą przyszłość",
         translateb: "[Łi szud ker ebaut aur fjuczer]",
-        srcWord: "http://localhost/arbulanguage.com/filmy/future.mp4",
+        srcWord: ["http://localhost/arbulanguage.com/filmy/future.mp4", "Titanic(1997)", "Romantyczny"],
         srcWordimage: "http://localhost/arbulanguage.com/filmy/future.png",
         story: "<b><u>Wi</b></u>ll Smith oznajmił, że <b><u>my</b></u> jako ludzkość mamy się dobrze",
         desc: "we[łi] - my",
@@ -3648,7 +3648,7 @@ const fiszki = [
         img: "http://localhost/arbulanguage.com/img/fiszki1/25a.jpg",
         translate: "Cena za złamanie zasad to moja człowiecza twarz",
         translateb: "[Pipul tinks dat hi is rajt]",
-        srcWord: "http://localhost/arbulanguage.com/filmy/humanface.mp4",
+        srcWord: ["http://localhost/arbulanguage.com/filmy/humanface.mp4", "Yes Man(2008)", "Komedia"],
         srcWordimage: "http://localhost/arbulanguage.com/filmy/humanface.png",
         story: "<u><b>Ten</u></b> <u><b>de</u></b>ptak jest bardzo przestronny",
         desc: "the[de] - ta",
@@ -3880,7 +3880,7 @@ const fiszki = [
         img: "http://localhost/arbulanguage.com/img/fiszki1/25j.jpg",
         translate: "On myśli że to jedyna droga, żeby uniknąć następnej wojny",
         translateb: "[Hi thinks dat its only łej to ewoid enoder łor]",
-        srcWord: "http://localhost/arbulanguage.com/filmy/war.mp4",
+        srcWord: ["http://localhost/arbulanguage.com/filmy/war.mp4", "Gladiator(2000)", "Akcja"],
         srcWordimage: "http://localhost/arbulanguage.com/filmy/war.png",
         story: [
             "<u><b>On</b></u> - <u><b>Hi</b></u>eronim odleciał balonem",
@@ -4089,7 +4089,7 @@ const fiszki = [
         translate: "Idea opuszczenia jego szkoły była także bardzo bolesna",
         translateb: "[De ajdia of liwing his skul łos olso wery pejnful]",
         story: "",
-        srcWord: "http://localhost/arbulanguage.com/filmy/leavingschool.mp4",
+        srcWord: ["http://localhost/arbulanguage.com/filmy/leavingschool.mp4", "Openhaymer(2023)", "Biograficzny"],
         srcWordimage: "http://localhost/arbulanguage.com/filmy/leavingschool.png",
         desc: "the[de] - to",
         sentence1: [
@@ -4312,7 +4312,7 @@ const fiszki = [
         img: "http://localhost/arbulanguage.com/img/fiszki1/25j.jpg",
         translate: "Wynalazek koła był wielkim krokiem naprzód",
         translateb: "[De inwenszyn of de łel łos a big step fołard]",
-        srcWord: "http://localhost/arbulanguage.com/filmy/weel.mp4",
+        srcWord: ["http://localhost/arbulanguage.com/filmy/weel.mp4", "Szybcy i Wściekli(2001)", "Akcja"],
         srcWordimage: "http://localhost/arbulanguage.com/filmy/weel.png",
         story: "",
         desc: "the[de] - bolesny/bolesne/bolesna",
@@ -4514,7 +4514,7 @@ const fiszki = [
         img: "http://localhost/arbulanguage.com/img/fiszki1/25j.jpg",
         translate: "Powiedz mi dlaczego ten most jest tak ważny dla ciebie",
         translateb: "[Tel mi łaj dis bridż is soł important tu ju]",
-        srcWord: "http://localhost/arbulanguage.com/filmy/bridge.mp4",
+        srcWord: ["http://localhost/arbulanguage.com/filmy/bridge.mp4", "Szybcy i Wściekli 5(2011)", "Akcja"],
         srcWordimage: "http://localhost/arbulanguage.com/filmy/bridge.png",
         story: "",
         desc: "tell[tel] - powiedz/powiedzieć",
@@ -4738,7 +4738,7 @@ const fiszki = [
         img: "http://localhost/arbulanguage.com/img/fiszki1/25j.jpg",
         translate: "Użytkownik może dodać lub usunąć to konto bardzo łatwo",
         translateb: "[E juzer mej ad or remuw dis akount łiz iz]",
-        srcWord: "http://localhost/arbulanguage.com/filmy/accounts.mp4",
+        srcWord: ["http://localhost/arbulanguage.com/filmy/accounts.mp4", "Matrix(1999)", "Akcja"],
         srcWordimage: "http://localhost/arbulanguage.com/filmy/accounts.png",
         story: "Już wielu <u><b>użytkowników</u></b> wykupi<u><b>ł</u></b> płatne subskrypcje, bo darmowa wersja jest m<u><b>iz</u></b>erna",
         desc: "user[juzer] - użytkownik",
@@ -4948,7 +4948,7 @@ const fiszki = [
         img: "http://localhost/arbulanguage.com/img/fiszki1/25j.jpg",
         translate: "Ona oferuje jakąś radę na temat jak pomóc twojemu dziecku",
         translateb: "[Szi ofers som adwajs ebout hał tu help jor chaild]",
-        srcWord: "http://localhost/arbulanguage.com/filmy/child.mp4",
+        srcWord: ["http://localhost/arbulanguage.com/filmy/child.mp4", "Matrix(1999)", "Akcja"],
         srcWordimage: "http://localhost/arbulanguage.com/filmy/child.png",
         story: "Ten <u><b>iz</u></b>otop <u><b>łatwo</u></b> się rozpuszcza",
         desc: "she[szi] - ona",
