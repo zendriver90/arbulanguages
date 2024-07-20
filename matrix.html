@@ -870,7 +870,7 @@ function waitForTrueThenWybierzCharakter() {
                         // Wywołaj funkcję wybierzCharakter
                             if (!globalIdTranslate) {
         wybierzCharakter(category, 'zdania', undefined, undefined, true);
-        console.log('hej454', czas);
+        console.log('hej454', category);
     } else if (globalIdTranslate) {
         wybierzCharakter(category, 'fiszki', undefined, undefined, false);
         console.log('hej454', czas);
@@ -879,9 +879,11 @@ function waitForTrueThenWybierzCharakter() {
                     function przekazArgument0(category, index55, buttonindex, czas, idpolski, idtranslate) {
                         $('.grid-container .image-container3').remove();
                         $('.grid-container .image-container4').remove();
-                        if (!category) {
-                            category = 'all';
-                        }
+    if (!category && globalCategory) {
+        category = globalCategory;  // Użyj globalOsoby, jeśli category nie jest podane
+    } else if (!category) {
+        category = 'all';
+    }
                         if (!czas) {
                             czas = 'fiszki';
                         }
@@ -3888,15 +3890,29 @@ function waitForTrueThenWybierzCharakter() {
                                     const $videoElement = $('<video>').attr({
                                         'muted': true, // Wyciszenie dźwięku wideo
                                         'loop': true, // Zapętlenie wideo
-                                        'style': 'z-index: 0',
+                                        'style': 'z-index: 1',
                                         'poster': srcWordimage[index] // Dodanie plakatu do wideo
                                     });
                                     // Utwórz element <div> dla nakładki
                                     const $overlay = $('<div>').addClass('overlay');
+                                        const $buttonb = $('<img>').attr({
+        'src': 'http://localhost/arbulanguage.com/img/startsystem.png', // Względna ścieżka do pliku PNG
+        'class': 'overlay-button' // Klasa dla stylów CSS
+    }).css({
+        'position': 'absolute',
+        'z-index': '0',
+        'bottom': '10px',
+        'right': '10px',
+        'width': '30px',
+        'height': '30px',
+        'cursor': 'pointer'
+    });
                                     // Dodaj element video do diva dla wideo
                                     $videoElement.appendTo($container);
                                     // Dodaj nakładkę do kontenera, po dodaniu wideo
                                     $overlay.appendTo($container);
+                                        // Dodaj przycisk do nakładki
+    $buttonb.appendTo($container);
                                     // Jeśli kontener nie został jeszcze wybrany, wybierz losowy kontener
                                     addBackgroundToText1b(matchingFiszki1, matchingIndexes, true, lesson1PartLength, polski);
                                 }
