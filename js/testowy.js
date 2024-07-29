@@ -51,7 +51,8 @@ const fiszki = [
             "czarny humor", "pasja",
             "związki", "wychowanie"
         ],
-        category2: ["osoby", "osoby+czas"]
+        category2: ["osoby"],
+        category3: ["PresentSimple"]
     },
     {
         id: [
@@ -92,7 +93,7 @@ const fiszki = [
             "czarny humor", "trendy",
             "związki", "muzyka"
         ],
-        category2: ["czaswoniki", "osoby+czas"]
+        category2: ["czasowniki", "osoby+czas"]
     },
     {
         id: [
@@ -302,7 +303,8 @@ const fiszki = [
             "czarny humor", "historia",
             "związki", "kulinaria"
         ],
-        category2: ["osoby", "osoby+czas"]
+        category2: ["osoby"],
+        category3: ["PresentSimple"]
     },
     {
         id: [
@@ -554,7 +556,8 @@ const fiszki = [
             "czarny humor", "zdrowie",
             "związki", "finanse"
         ],
-        category2: ["czasownik"]
+        category2: ["czasownik"],
+        category3: ["Imperative"]
     },
     {
         id: [
@@ -804,7 +807,8 @@ const fiszki = [
             "czarny humor", "",
             "związki", ""
         ],
-        category2: ["osoby", "osoby+czas"]
+        category2: ["osoby"],
+        category3: ["PresentSimple"]
     },
     {
         id: [
@@ -1041,7 +1045,8 @@ const fiszki = [
             "czarny humor", "kibic",
             "związki", "impreza"
         ],
-        category2: ["osoby", "osoby+czas"]
+        category2: ["osoby"],
+        category3: ["PresentSimple"]
     },
     {
         id: [
@@ -1274,7 +1279,8 @@ const fiszki = [
             "czarny humor", "filmy",
             "związki", "okazje"
         ],
-        category2: ["zaimkiosobowe", "podmiot+czas"]
+        category2: ["zaimkiosobowe"],
+        category2: ["Present Simple"]
     },
     {
         id: [
@@ -1413,7 +1419,8 @@ const fiszki = [
         ],
         key: "my",
         category1: "natura",
-        category2: ["zaimkiosobowe", "podmiot+czas"]
+        category2: ["zaimkiosobowe"],
+        category3: ["Present Continuous"]
     },
     {
         id: [
@@ -1540,7 +1547,8 @@ const fiszki = [
         ],
         key: "This",
         category1: "nauka",
-        category2: ["podmiot+czas"]
+        category2: [""],
+        category3: ["PresentSimple"]
     },
     {
         id: [
@@ -1676,7 +1684,8 @@ const fiszki = [
         category1: ["natura", "florystyka",
             "związki", "przyjaźń"
         ],
-        category2: ["podmiot+czas", "zaimkiosobowe"]
+        category2: ["zaimkiosobowe"],
+        category3: ["Present Continuous"]
     },
     {
         id: [
@@ -1833,7 +1842,8 @@ const fiszki = [
             "związki", "przyjaźń",
             "nauka", "pory roku"
         ],
-        category2: ["podmiot+czas", "zaimkiosobowe"]
+        category2: ["zaimkiosobowe"],
+        category3: ["PresentSimple"]
     },
     {
         id: [
@@ -1968,7 +1978,8 @@ const fiszki = [
         ],
         key: "the",
         category1: "związki",
-        category2: ["podmiot+czas", "osoby+czas"]
+        category2: [""],
+        category3: ["PresentSimple"]
     },
     {
         id: [
@@ -2110,7 +2121,8 @@ const fiszki = [
             "związki", "dzieciństwo",
             "natura", "zwierzęta domowe"
         ],
-        category2: ["zaimkiosobowe", "podmiot+czas"]
+        category2: ["zaimkiosobowe"],
+        category3: ["PresentSimple"]
     },
     {
         id: [
@@ -2254,7 +2266,8 @@ const fiszki = [
             "czarny humor", "polityka",
             "nauka", "demografia"
         ],
-        category2: ["podmiot+czas"]
+        category2: [""],
+        category3: ["Present Simple"]
     },
     {
         id: [
@@ -2280,7 +2293,7 @@ const fiszki = [
             "nauka", "tresura",
             "natura", "zwierzęta"
         ],
-        category2: ["podmiot+czas", "animals"]
+        category2: ["animals"]
     },
     {
         id: [
@@ -2390,7 +2403,8 @@ const fiszki = [
         ],
         key: "this",
         category1: "natura",
-        category2: ["podmiot+czas"]
+        category2: [""],
+        category3: ["Present Simple"]
     },
     {
         id: [
@@ -2501,7 +2515,8 @@ const fiszki = [
             "wide"
         ],
         key: "he",
-        category2: ["osoby", "podmiot+czas"]
+        category2: ["osoby"],
+        category3: ["Present Simple"]
     },
     {
         id: [
@@ -2633,7 +2648,8 @@ const fiszki = [
             "dares"
         ],
         key: "he",
-        category2: ["osoby"]
+        category2: ["osoby"],
+        category3: ["Present Simple"]
     },
     {
         id: [
@@ -2744,7 +2760,8 @@ const fiszki = [
         ],
         key: "he",
         category1: "nauka",
-        category2: ["osoby", "osoby+czas", "podmiot+czas"]
+        category2: ["osoby"],
+        category3: ["Present Simple"]
     },
     {
         id: [
@@ -2885,7 +2902,8 @@ const fiszki = [
         ],
         key: "he",
         category1: "nauka",
-        category2: ["osoby", "osoby+czas", "podmiot+czas"]
+        category2: ["osoby"],
+        category3: ["Present Simple"]
     },
     {
         id: [
@@ -3021,7 +3039,8 @@ const fiszki = [
         ],
         key: "this",
         category1: "nauka",
-        category2: ["podmiot+czas"]
+        category2: [""],
+        category3: ["Present Simple"]
     },
     {
         id: [
@@ -3153,7 +3172,8 @@ const fiszki = [
         ],
         key: "our",
         category1: "nauka",
-        category2: ["zaimkiosobowe", "osoby+czas", "podmiot+czas"]
+        category2: ["zaimkiosobowe"],
+        category3: ["Present Simple"]
     },
     {
         id: [
@@ -3277,7 +3297,8 @@ const fiszki = [
         ],
         key: "hard",
         category1: "nauka",
-        category2: ["osoby", "osoby+czas", "podmiot+czas"]
+        category2: ["osoby"],
+        category3: ["Present Simple"]
     },
     {
         id: [
@@ -3406,7 +3427,8 @@ const fiszki = [
         ],
         key: "people",
         category1: "nauka",
-        category2: ["podmiot+czas"]
+        category2: [""],
+        category3: ["Present Simple"]
     },
     {
         id: [
@@ -3508,7 +3530,8 @@ const fiszki = [
         ],
         key: "we",
         category1: "nauka",
-        category2: ["osoby", "podmiot+czas", "osoby+czas"]
+        category2: ["osoby"],
+        category3: ["Modal + Base Verb (Present Simple)"]
     },
     {
         id: [
@@ -3638,7 +3661,8 @@ const fiszki = [
         ],
         key: "the",
         category1: "nauka",
-        category2: ["podmiot+czas"]
+        category2: ["podmiot+czas"],
+        category3: ["Present Simple"]
     },
     {
         id: [
@@ -3828,7 +3852,8 @@ const fiszki = [
         ],
         key: "he",
         category1: "nauka",
-        category2: ["osoby", "podmiot+czas", "osoby+czas"]
+        category2: ["osoby"],
+        category3: ["Present Simple"]
     },
     {
         id: [
@@ -4032,7 +4057,8 @@ const fiszki = [
         ],
         key: "the",
         category1: "nauka",
-        category2: ["podmiot+czas"]
+        category2: [""],
+        category3: ["Past Simple"]
     },
     {
         id: [
@@ -4256,7 +4282,8 @@ const fiszki = [
         ],
         key: "the",
         category1: "nauka",
-        category2: "transport, "
+        category2: "transport",
+        category3: ["Past Simple"]
     },
     {
         id: [
@@ -4457,7 +4484,8 @@ const fiszki = [
         ],
         key: "tell",
         category1: "nauka",
-        category2: ["czasownik"]
+        category2: ["czasownik"],
+        category3: ["Imperative (Main clause), Present Simple (Subordinate clause)"]
     },
     {
         id: [
@@ -4683,7 +4711,8 @@ const fiszki = [
         ],
         key: "you",
         category1: "nauka",
-        category2: ["osoby", "osoby+czas"]
+        category2: ["osoby"],
+        category3: ["Modal + Base Verb (Present Simple)"]
     },
     {
         id: [
@@ -4891,7 +4920,8 @@ const fiszki = [
         ],
         key: "she",
         category1: "nauka",
-        category2: ["osoby", "osoby+czas"]
+        category2: ["osoby"],
+        category3: ["Present Simple"]
     },
     {
         id: [

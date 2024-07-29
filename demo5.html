@@ -75,10 +75,13 @@ function wybierzRodzaj(category) {
             matchingLessons.push(fiszka.id[1]);
         }
     }
-
+                    console.log('hej222', matchingLessons);
     if (matchingLessons.length > 0) {
+        const nextThreeLessons = matchingLessons.slice(3, 6);
         // Wyświetl fiszki dla każdej znalezionej lekcji
-        matchingLessons.forEach(lessonId => {
+        // Wyświetl fiszki dla kolejnych 3 lekcji
+        console.log('Wyświetlanie kolejnych trzech lekcji:');
+        nextThreeLessons.forEach(lessonId => {
             showFiszkiForLesson(lessonId, fiszki);
         });
     } else {

@@ -6102,3 +6102,8 @@ console.log('hej22', polski);
                                 console.log('Zawartość zmiennej sentence1:', sentence1b); // Wyświetlenie zawartości zmiennej sentence1                          
                             }
                     
+                    
+                                                } else if (category = 'PresentSimple') {
+            // Sprawdzenie, czy fiszka.category3 jest zdefiniowana oraz czy zawiera kategorię
+            matchingFiszka = fiszka.category3 && fiszka.category3.includes(category);
+        }

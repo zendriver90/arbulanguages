@@ -2,7 +2,7 @@
 <html>
     <head>
         <script src="js/storage.js"></script>
-        <script src="js/testowy.js"></script>
+        <script src="testowy10.js"></script>
         <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -154,21 +154,11 @@
             .image-container3:hover .run-button {
                 display: block; /* Wyświetlenie przycisku na hover */
             }
-                        .image-container3:hover .run-button3 {
-                display: block; /* Wyświetlenie przycisku na hover */
-            }
             .run-button2 {
                 position: absolute;
                 top: 50%;
                 left: 50%;
                 transform: translate(-50%, -50%);
-                display: none; /* Ukrycie przycisku */
-                z-index: 2; /* Wyższy z-index, aby przycisk był na wierzchu */
-            }
-                        .run-button3 {
-                position: absolute;
-                top: 50%;
-                left: 50%;
                 display: none; /* Ukrycie przycisku */
                 z-index: 2; /* Wyższy z-index, aby przycisk był na wierzchu */
             }
@@ -233,7 +223,7 @@
                 color: yellow;
             }
             .flashcard-container {
-                width: 1350px;
+                width: 1300px;
                 height: 250px;
                 background-color: #2ecc71; /* Zielony kolor, możesz dostosować według potrzeb */
                 display: flex;
@@ -245,7 +235,7 @@
                 position: absolute;
                 left: 50%;
                 transform: translateX(-50%);
-                left: 675px;
+                left: 650px;
                 margin-top: 470px;
             }
             #buttoncreate {
@@ -257,8 +247,7 @@
 
             .flashcard-container #konsola {
                 width: 500px;
-                margin-left: -10px;
-                margin-right: -10px;
+                padding: 10px;
             }
 
             #konsola button {
@@ -470,7 +459,7 @@
                 </div>
                 <div class="content-container">
                     <div class="grid-containera">
-                        <div class="image-container2">Standard<button onclick="showImages('set1')"> LOSUJ LEKCJE</button>
+                        <div class="image-container2">Standard<button onclick="showImages('set1')"> WŁĄCZONE</button>
                         </div>
                         <div class="image-container2" id="buttoncreate">Generowanie fiszki<button onclick="addFlashcardContainer()">OTWÓRZ KONSOLE</button>
                         </div>
@@ -542,31 +531,27 @@ function addFlashcardContainer() {
 
     // Dodaj buttony do diva
     $flashcardContainer.append(`
-        <div id="konsola" style="width: 700px;">
+        <div id="konsola" style="width: 850px;">
             <div id="title">RODZAJ SŁOWNICTWA</div>
             <button id="osoby" class="rodzaj-button" data-rodzaj="osoby" onclick="przekazArgument0('all', '', '', '', '', '')">Wszystkie</button>
             <button class="rodzaj-button" data-rodzaj="osoby" onclick="przekazArgument('osoby', '', '', '', '', '')">Osoby</button>
             <button class="rodzaj-button" data-rodzaj="zaimki osobowe" onclick="przekazArgument2('zaimkiosobowe')">Zaimki osobowe</button>
+            <button class="rodzaj-button" data-rodzaj="osoby" onclick="przekazArgument3('osoby+czas')">Osoby + czas</button>
+            <button class="rodzaj-button" data-rodzaj="osoby" onclick="przekazArgument4('podmiot+czas')">Czasy</button>
             <button class="rodzaj-button" data-rodzaj="kolory" onclick="przekazArgument5('emocje')">Emocje</button>
             <button class="rodzaj-button" data-rodzaj="zaimki" onclick="przekazArgument6('spojniki')">Spójniki</button>
             <button class="rodzaj-button" data-rodzaj="kolory" onclick="przekazArgument7('kolory')">Kolory</button>
             <button class="rodzaj-button" data-rodzaj="zwierzeta" onclick="przekazArgument8('zwierzeta')">Zwierzęta</button>
             <button class="rodzaj-button" data-rodzaj="czasownik" onclick="przekazArgument9('czasownik')">Czasowniki</button>
-            <br>TRYB LEKCJI<br>
-  <button class="czas" onclick="ustawTryb('zdania'); przekazArgument0(globalCategory, '', '', 'zdania', false, false)">5 MINUT (JEDNO ZDANIE)</button>
-<button id="english" class="czas" onclick="ustawTryb('fiszki'); przekazArgument0(globalCategory, '', '', 'fiszki', true, true)">10 MINUT (3 ZDANIA) - OPCJONALNIE</button>
-            <button class="czas">FRAZY</button>
-            <button class="czas">POJEDYŃCZE SŁOWA</button>
+            <br>---------------------------<br>
+            <button class="czas" onclick="przekazArgument0('', '', '', 'zdania', false, false)">5 MINUT(JEDNO ZDANIE)</button>
+            <button id="fiszki" class="czas" onclick="przekazArgument0('', '', '', 'fiszki', true, true)">10 MINUT(3 ZDANIA)-OPCJONALNIE</button>
             <br>---------------------------<br>
             <button id="english" class="charakter-button" onclick="wybierzCharakter()">TŁUMACZ NA ŻADANIE-OPCJONALNIE</button>
             <button id="mix" class="charakter-button" onclick="wybierzCharakter('fiszki')">TYLKO PO ANGIELSKU</button>
             <button id="polski" class="charakter-button" onclick="przekazArgument0('', '', '', 'zdania', true)">TYLKO PO POLSKU</button>
         </div>
         <div id="konsola" style="width: 600px;">
-                    <div id="title">CZASY</div>
-            <button class="charakter-button" onclick="przekazArgument3('PresentSimple', '', '', '', '', '')">PRESENT SIMPLE</button>
-            <button class="charakter-button">PAST SIMPLE</button>
-            <br>
             <div id="title">OPCJE ZDANIA</div>
             <button class="charakter-button">PODZIEL ZDANIA NA CZĘŚCI</button>
             <button class="czas">WYSUŃ JEDNOCZEŚNIE W DANEJ LEKCJI</button>
@@ -581,14 +566,12 @@ function addFlashcardContainer() {
             <button id="dowolne" onclick="wybierzCharakter('dowolne')">WSZYSTKIE</button>
         </div>
         <div>
-        <div id="konsola" style="width: 100px;">
-                    <div id="title">ULUBIONA TEMATYKA FISZEK</div>
+            <h2>Ulubiona Tematyka Fiszek</h2>
             <button onclick="wybierzTematyke('nauka')">Nauka</button>
             <button onclick="wybierzTematyke('podroze')">Podróże</button>
             <button onclick="wybierzTematyke('historia')">Historia</button>
             <button onclick="wybierzTematyke('sztuka')">Sztuka</button>
             <button onclick="wybierzTematyke('technologia')">Technologia</button>
-        </div>
         </div>
         <div>
             <h2>Ulubione Fiszki</h2>
@@ -689,7 +672,7 @@ function waitForTrueThenWybierzCharakter() {
                             pierwszyFilmURL = url;
                         }
                     }
-                    var globalCategory = '';
+                    let globalCategory = '';
                     // Funkcja przekazująca argument
                     console.log('hej33', tablica7);
                     function przekazArgument9(category, index55, buttonindex) {
@@ -812,19 +795,39 @@ function waitForTrueThenWybierzCharakter() {
                         wybierzCharakter(undefined, index55, buttonindex);
                         console.log('hej100', tablica10);
                     }
-                                                            var currentMode = 'fiszki'; // Domyślny tryb
-                        function przekazArgument3(category, index55, buttonindex, czas, idpolski, idtranslate) {
+                    function przekazArgument4(category, index55, buttonindex) {
                         $('.grid-container .image-container3').remove();
                         if (!category) {
-                            category = 'PresentSimple';
+                            category = 'podmiot+czas';
                         }
-                            console.log('hej321b', idtranslate);
-    console.log('hej453', buttonindex);
-                        pulpitstartowy = false;
-                        button2 = true;
+                        button4 = true;
                         button0 = false;
                         button = false;
+                        button2 = false;
                         button3 = false;
+                        button5 = false;
+                        button6 = false;
+                        button7 = false;
+                        button8 = false;
+                        button9 = false;
+                        // Przypisz wartość do zmiennej globalnej
+                        globalCategory = category;
+                        // Wywołaj funkcję wybierzCharakter
+                        tablica10.length = 0;
+                        tablica15.length = 0;
+                        console.log('wykonuje się5');
+                        wybierzCharakter(undefined, index55, buttonindex);
+                        console.log('hej100', tablica10);
+                    }
+                    function przekazArgument3(category, index55, buttonindex) {
+                        $('.grid-container .image-container3').remove();
+                        if (!category) {
+                            category = 'osoby+czas';
+                        }
+                        button3 = true;
+                        button0 = false;
+                        button = false;
+                        button2 = false;
                         button4 = false;
                         button5 = false;
                         button6 = false;
@@ -837,14 +840,7 @@ function waitForTrueThenWybierzCharakter() {
                         tablica10.length = 0;
                         tablica15.length = 0;
                         console.log('wykonuje się5');
-    // Wywołaj funkcję wybierzCharakter na podstawie trybu
-    if (currentMode === 'zdania') {
-        wybierzCharakter(category, 'zdania', index55, buttonindex, true);
-        console.log('Ładowanie zdań dla kategorii:', category);
-    } else if (currentMode === 'fiszki') {
-        wybierzCharakter(category, 'fiszki', index55, buttonindex, false);
-        console.log('Ładowanie fiszek dla kategorii:', category);
-    }
+                        wybierzCharakter(undefined, index55, buttonindex);
                         console.log('hej100', tablica10);
                     }
                     function przekazArgument2(category, index55, buttonindex) {
@@ -869,18 +865,10 @@ function waitForTrueThenWybierzCharakter() {
                         tablica10.length = 0;
                         tablica15.length = 0;
                         console.log('wykonuje się5');
-    // Wywołaj funkcję wybierzCharakter na podstawie trybu
-    if (currentMode === 'zdania') {
-        wybierzCharakter(category, 'zdania', index55, buttonindex, true);
-        console.log('Ładowanie zdań dla kategorii:', category);
-    } else if (currentMode === 'fiszki') {
-        wybierzCharakter(category, 'fiszki', index55, buttonindex, false);
-        console.log('Ładowanie fiszek dla kategorii:', category);
-    }
+                        wybierzCharakter(undefined, index55, buttonindex);
                         console.log('hej100', tablica10);
                     }
                     var globalIdTranslate = false;
-
                     function przekazArgument(category, index55, buttonindex, czas, idpolski, idtranslate) {
                         $('.grid-container .image-container3').remove();
                             category = 'osoby';
@@ -900,66 +888,62 @@ function waitForTrueThenWybierzCharakter() {
                         globalCategory = category;
                         tablica10.length = 0;
                         tablica15.length = 0;
-                        globalIdTranslate = idtranslate;
                         console.log('hej321bc', idtranslate);
                         // Wywołaj funkcję wybierzCharakter
-    // Wywołaj funkcję wybierzCharakter na podstawie trybu
-    if (currentMode === 'zdania') {
-        wybierzCharakter(category, 'zdania', index55, buttonindex, true);
-        console.log('Ładowanie zdań dla kategorii:', category);
-    } else if (currentMode === 'fiszki') {
-        wybierzCharakter(category, 'fiszki', index55, buttonindex, false);
-        console.log('Ładowanie fiszek dla kategorii:', category);
+                            if (!globalIdTranslate) {
+        wybierzCharakter(category, 'zdania', undefined, undefined, true);
+        console.log('hej454', category);
+    } else if (globalIdTranslate) {
+        wybierzCharakter(category, 'fiszki', undefined, undefined, false);
+        console.log('hej454', czas);
     }
                     }
-
-
-function przekazArgument0(category, index55, buttonindex, czas, idpolski, idtranslate) {
-    $('.grid-container .image-container3').remove();
-    $('.grid-container .image-container4').remove();
-
-
-    console.log('hej321b', idtranslate);
-    console.log('hej453', buttonindex);
-
-    pulpitstartowy = true;
-    przyciskKlikniety = true;
-    button0 = true;
-    button = false;
-    button2 = false;
-    button3 = false;
-    button4 = false;
-    button5 = false;
-    button6 = false;
-    button7 = false;
-    button8 = false;
-    button9 = false;
-
-    // Przypisz wartość do zmiennej globalnej
-    globalCategory = category;
-    tablica10.length = 0;
-    tablica15.length = 0;
-    globalIdTranslate = idtranslate;
-
-    // Wywołaj funkcję wybierzCharakter na podstawie trybu
-    if (currentMode === 'zdania') {
-        wybierzCharakter(category, 'zdania', index55, buttonindex, true);
-        console.log('Ładowanie zdań dla kategorii:', category);
-    } else if (currentMode === 'fiszki') {
-        wybierzCharakter(category, 'fiszki', index55, buttonindex, false);
-        console.log('Ładowanie fiszek dla kategorii:', category);
+                    function przekazArgument0(category, index55, buttonindex, czas, idpolski, idtranslate) {
+                        $('.grid-container .image-container3').remove();
+                        $('.grid-container .image-container4').remove();
+    if (!category && globalCategory) {
+        category = globalCategory;  // Użyj globalOsoby, jeśli category nie jest podane
+    } else if (!category) {
+        category = 'all';
     }
-}
-
-function ustawTryb(tryb) {
-    currentMode = tryb;
-}
+                        if (!czas) {
+                            czas = 'fiszki';
+                        }
+                        console.log('hej321b', idtranslate);
+                        console.log('hej453', buttonindex);
+                        pulpitstartowy = true;
+                        console.log('hej22', idpolski);
+                        przyciskKlikniety = true;
+                        button0 = true;
+                        button = false;
+                        button2 = false;
+                        button3 = false;
+                        button4 = false;
+                        button5 = false;
+                        button6 = false;
+                        button7 = false;
+                        button8 = false;
+                        button9 = false;
+                        // Przypisz wartość do zmiennej globalnej
+                        globalCategory = category;
+                        tablica10.length = 0;
+                        tablica15.length = 0;
+                        globalIdTranslate = idtranslate;
+                        // Wywołaj funkcję wybierzCharakter
+                            if (!globalIdTranslate) {
+        wybierzCharakter(category, 'zdania', index55, buttonindex, true);
+        console.log('hej454', category);
+    } else if (globalIdTranslate) {
+        wybierzCharakter(category, 'fiszki', index55, buttonindex, false);
+        console.log('hej454', czas);
+    }
+                    }
                     // Funkcja wybierająca charakter
                     function wybierzCharakter(category, czas, index55, buttonindex, idpolski) {
                         console.log('hej223', czas, category, idpolski);
                         
                         pulpitstartowy = false;
-                        console.log('hej555', czas);
+                        console.log('hej555', idpolski);
                         // Aktualizuj matchingIndexes na podstawie nowej kategorii
                         matchingIndexes = findXForMatchingFiszka(globalCategory, fiszki);
 
@@ -975,18 +959,14 @@ function ustawTryb(tryb) {
                     function findXForMatchingFiszka(category, fiszki) {
                         const matchingIndexes = [];
                         // Iteruj przez tablicę fiszki
-                        console.log('hej234', category);
-    for (let i = 0; i < fiszki.length; i++) {
-        // Upewnij się, że fiszki[i] oraz fiszki[i].category3 są zdefiniowane
+                        for (let i = 0; i < fiszki.length; i++) {
+                            // Sprawdzamy, czy category2 w fiszce zawiera podaną kategorię
                             if (fiszki[i].category2.includes(category)) {
                                 // Jeśli warunek jest spełniony, dodajemy indeks "fiszki" do tablicy
                                 matchingIndexes.push(i + 1);
                                 console.log('hej7', matchingIndexes);
-                            } else if (fiszki[i] && fiszki[i].category3 && fiszki[i].category3.includes(category)) {
-            matchingIndexes.push(i + 1);
-            console.log('hej7');
-        }
-    }
+                            }
+                        }
                         // Zwracamy tablicę indeksów pasujących "fiszek"
                         console.log('wykonuje się 6', matchingIndexes);
                         return matchingIndexes;
@@ -1135,7 +1115,14 @@ function ustawTryb(tryb) {
                     const partLengths3 = calculatePartLengths3(fiszki);
                     console.log('Cumulative counts:', partLengths3);
 
-
+                    // Przykładowe użycie:
+                    // Ustalanie kategorii na podstawie globalCategory
+                    const categoryToFind = (globalCategory === 'osoby') ? 'osoby+czas' : 'osoby';
+                    if (globalCategory === 'osoby+czas') {
+                        const categoryToFind = (globalCategory === 'osoby+czas') ? 'osoby' : 'osoby+czas';
+                    }
+                    // Wywołanie funkcji findXForMatchingFiszka() dla odpowiedniej kategorii
+                    matchingIndexes = findXForMatchingFiszka(categoryToFind, fiszki);
 
                     const lessonsArray = [];
                     const lessonsArrayA = [];
@@ -1170,13 +1157,10 @@ function ustawTryb(tryb) {
                             if (category === 'all' || !category) {
                                 matchingFiszka = true;
                                 console.log('hej877', matchingFiszka);
-                            } else if (category != 'PresentSimple') {
+                            } else {
                                 // Sprawdzenie, czy istnieje fiszka w zadanej kategorii
                                 matchingFiszka = fiszka.category2.includes(category);
-                            } else if (category = 'PresentSimple') {
-            // Sprawdzenie, czy fiszka.category3 jest zdefiniowana oraz czy zawiera kategorię
-            matchingFiszka = fiszka.category3 && fiszka.category3.includes(category);
-        }
+                            }
                             console.log('hej28', category);
                             // Jeśli znaleziono pasującą fiszkę, dodaj numer lekcji do zestawu matchingLessons
                             if (matchingFiszka) {
@@ -1450,6 +1434,41 @@ function ustawTryb(tryb) {
                                 }
                             }
                         }
+                        // Funkcja do znajdowania grup fiszek spełniających warunki
+                        function znajdzGrupyFiszekZRosnacymiX(fiszki) {
+                            // Obiekt do przechowywania grup fiszek pogrupowanych według y
+                            const grupyFiszek = [];
+
+                            // Obiekt do przechowywania sum x dla danego y
+                            const sumyX = {};
+
+                            // Grupowanie fiszek według y i obliczenie sumy x
+                            fiszki.forEach(fiszka => {
+                                const y = fiszka.id[1];
+                                if (!sumyX[y]) {
+                                    sumyX[y] = 0;
+                                }
+                                sumyX[y] += fiszka.id[0];
+                            });
+
+                            // Iteracja po obliczonych sumach x
+                            Object.keys(sumyX).forEach(y => {
+                                const sumaX = sumyX[y];
+
+                                // Warunek: suma x dla danego y musi być większa niż 6
+                                if (sumaX > 6) {
+                                    // Znaleziono grupę fiszek spełniających warunki
+                                    const grupaFiszek = fiszki.filter(fiszka => fiszka.id[1] === parseInt(y));
+                                    grupyFiszek.push(grupaFiszek);
+                                }
+                            });
+
+                            return grupyFiszek;
+                        }
+                        // Znalezienie fiszek gdzie x > 6 dla danej pary x,y
+                        const fiszkiSumaWiekszaNiz6 = znajdzGrupyFiszekZRosnacymiX(fiszki);
+                        console.log("Fiszki gdzie x > 6 dla danej pary x,y:", fiszkiSumaWiekszaNiz6);
+                        console.log(fiszkiSumaWiekszaNiz6);
 
                         // Ustaw wartość globalCategory
                         globalCategory = category;
@@ -3210,12 +3229,9 @@ function ustawTryb(tryb) {
                             const $button = $('<button></button>');
                             $button.addClass('run-button');
                             $button.text('Uruchom'); // Ustawiamy tekst przycisku na 'Uruchom'
-                            const $buttonb2 = $('<button></button>');
-                            $buttonb2.addClass('run-button3');
-                            $buttonb2.text('Otwórz lekcję w nowym oknie'); // Ustawiamy tekst przycisku na 'Uruchom'
+
                             // Dodajemy atrybut 'data-index' z wartością indexDiv do przycisku
                             $button.attr('data-index', indexDiv);
-                            $buttonb2.attr('data-index2', indexDiv);
                             $button.on('click', function () {
 
                                 const index5 = $button.attr('data-index');
@@ -3268,57 +3284,6 @@ function ustawTryb(tryb) {
                                 'z-index': '10' // Ustawienie z-index dla buttona większe niż dla sentenceDiv
                             });
                             $container.append($button);
-                            $buttonb2.on('click', function () {
-
-                                const index5b2 = $buttonb2.attr('data-index2');
-                                const index55b2 = parseInt(index5b2, 10); // Zamieniamy index55 na liczbę
-                                // Alternatywnie można użyć Number(index55)
-                                // const numericIndex = Number(index55);
-                                
-                                setTimeout(() => {
-                                    console.log('hej554', index55b2);
-    if (index55b2 === 1) { // Porównaj jako liczby
-        // Bezpośrednio przekierowujemy użytkownika do strony
-        window.location.href = 'demo5.html?category=' + encodeURIComponent(globalCategory);
-    }
-                                    if (button) {
-                                        przekazArgument(category, index55, true);
-                                    }
-                                    if (button2) {
-                                        przekazArgument2(category, index55, true);
-                                    }
-                                    if (button3) {
-                                        przekazArgument3(category, index55, true);
-                                    }
-                                    if (button4) {
-                                        przekazArgument4(category, index55, true);
-                                        console.log('hej26');
-                                    }
-                                    if (button5) {
-                                        przekazArgument5(category, index55, true);
-                                    }
-                                    if (button6) {
-                                        przekazArgument6(category, index55, true);
-                                    }
-                                    if (button7) {
-                                        przekazArgument7(category, index55, true);
-                                    }
-                                    if (button8) {
-                                        przekazArgument8(category, index55, true);
-                                    }
-                                    if (button9) {
-                                        przekazArgument9(category, index55, true);
-                                    }
-                                }, 100);
-                                // Usunięcie kontenera po wstawieniu nowego
-                            });
-                            $buttonb2.css({
-                                'position': 'absolute',
-                                'left': '70px', // Przykładowa wartość odstępu od lewej krawędzi
-                                'top': '27px',
-                                'z-index': '12' // Ustawienie z-index dla buttona większe niż dla sentenceDiv
-                            });
-                            $container.append($buttonb2);
                             // Dodanie diva z zdaniem do kontenera
                             $container.append($sentenceDiv);
                             $container.append($sentenceDivB);
