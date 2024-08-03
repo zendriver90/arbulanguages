@@ -6107,3 +6107,681 @@ console.log('hej22', polski);
             // Sprawdzenie, czy fiszka.category3 jest zdefiniowana oraz czy zawiera kategorię
             matchingFiszka = fiszka.category3 && fiszka.category3.includes(category);
         }
+        
+            // Dodaj buttony do diva
+    $flashcardContainer.append(`
+        <div id="konsola" style="width: 700px;">
+            <div id="title">RODZAJ SŁOWNICTWA</div>
+            <button id="osoby" class="rodzaj-button" data-rodzaj="osoby" onclick="przekazArgument0('all', '', '', '', '', '')">Wszystkie</button>
+            <button class="rodzaj-button" data-rodzaj="osoby" onclick="przekazArgument('osoby', '', '', '', '', '')">Osoby</button>
+            <br>TRYB LEKCJI<br>
+  <button class="czas" onclick="ustawTryb('zdania', undefined); przekazArgument0(globalCategory, '', '', 'zdania', false, false)">5 MINUT (JEDNO ZDANIE)</button>
+<button id="english" class="czas" onclick="ustawTryb('fiszki', undefined); przekazArgument0(globalCategory, '', '', 'fiszki', true, true)">10 MINUT (3 ZDANIA) - OPCJONALNIE</button>
+            <button class="czas">FRAZY</button>
+            <button class="czas">POJEDYŃCZE SŁOWA</button>
+        <div id="konsola" style="width: 600px;">
+            <div id="title">CHARAKTER ZDANIA</div>
+            <button onclick="wybierzCharakter('krotkie')">Krótkie</button>
+            <button onclick="ustawTryb(undefined, 'dlugie'); przekazArgument0(globalCategory, '', '', 'zdania', false, false)">Długie(złożone)</button>
+        </div>
+        <div>
+        
+        
+            // Dodaj buttony do diva
+    $flashcardContainer.append(`
+        <div id="konsola" style="width: 700px;">
+            <div id="title">RODZAJ SŁOWNICTWA</div>
+            <button id="osoby" class="rodzaj-button" data-rodzaj="osoby" onclick="przekazArgument0('all', '', '', '', '', '')">Wszystkie</button>
+            <button class="rodzaj-button" data-rodzaj="osoby" onclick="przekazArgument('osoby', '', '', '', '', '')">Osoby</button>
+            <button class="rodzaj-button" data-rodzaj="zaimki osobowe" onclick="przekazArgument2('zaimkiosobowe')">Zaimki osobowe</button>
+            <button class="rodzaj-button" data-rodzaj="kolory" onclick="przekazArgument5('emocje')">Emocje</button>
+            <button class="rodzaj-button" data-rodzaj="zaimki" onclick="przekazArgument6('spojniki')">Spójniki</button>
+            <button class="rodzaj-button" data-rodzaj="kolory" onclick="przekazArgument7('kolory')">Kolory</button>
+            <button class="rodzaj-button" data-rodzaj="zwierzeta" onclick="przekazArgument8('zwierzeta')">Zwierzęta</button>
+            <button class="rodzaj-button" data-rodzaj="czasownik" onclick="przekazArgument9('czasownik')">Czasowniki</button>
+            <br>TRYB LEKCJI<br>
+  <button class="czas" onclick="ustawTryb('zdania')"; onclick="przekazArgument0(globalCategory, '', '', 'zdania', false, false)">5 MINUT (JEDNO ZDANIE)</button>
+<button id="english" class="czas" onclick="ustawTryb('fiszki')"; onclick="przekazArgument0(globalCategory, '', '', 'fiszki', true, true)">10 MINUT (3 ZDANIA) - OPCJONALNIE</button>
+            <button class="czas">FRAZY</button>
+            <button class="czas">POJEDYŃCZE SŁOWA</button>
+            <br>---------------------------<br>
+            <button id="english" class="charakter-button" onclick="wybierzCharakter()">TŁUMACZ NA ŻADANIE-OPCJONALNIE</button>
+            <button id="mix" class="charakter-button" onclick="wybierzCharakter('fiszki')">TYLKO PO ANGIELSKU</button>
+            <button id="polski" class="charakter-button" onclick="przekazArgument0('', '', '', 'zdania', true)">TYLKO PO POLSKU</button>
+        </div>
+        <div id="konsola" style="width: 600px;">
+                    <div id="title">CZASY</div>
+            <button class="charakter-button" id="myButton33" onclick="przekazArgument3('PresentSimple', '', '', '', '', '')">PRESENT SIMPLE</button>
+            <button class="charakter-button">PAST SIMPLE</button>
+            <br>
+            <div id="title">OPCJE ZDANIA</div>
+            <button class="charakter-button">PODZIEL ZDANIA NA CZĘŚCI</button>
+            <button class="czas">WYSUŃ JEDNOCZEŚNIE W DANEJ LEKCJI</button>
+            <br>
+            <div id="title">CHARAKTER ZDANIA</div>
+            <button onclick="wybierzCharakter('krotkie')">Krótkie</button>
+            <button onclick="ustawTryb2('dlugie', id); ustawTryb(tablica3[0]); przekazArgument0(globalCategory, '', '', 'fiszki', false, false);">Długie(złożone)</button>
+            <button id="dowolne" onclick="wybierzCharakter('dowolne')">Dowolne</button>
+            <div id="title">PRIORYTETY LINGWISTYCZNE</div>
+            <button onclick="wybierzCharakter('krotkie')">Wymowa</button>
+            <button onclick="wybierzCharakter('dlugie')">Zrozumienie sensu zdania</button>
+            <button id="dowolne" onclick="wybierzCharakter('dowolne')">WSZYSTKIE</button>
+        </div>
+        <div>
+        <div id="konsola" style="width: 100px;">
+                    <div id="title">ULUBIONA TEMATYKA FISZEK</div>
+            <button onclick="wybierzTematyke('nauka')">Nauka</button>
+            <button onclick="wybierzTematyke('podroze')">Podróże</button>
+            <button onclick="wybierzTematyke('historia')">Historia</button>
+            <button onclick="wybierzTematyke('sztuka')">Sztuka</button>
+            <button onclick="wybierzTematyke('technologia')">Technologia</button>
+        </div>
+        </div>
+        <div>
+            <h2>Ulubione Fiszki</h2>
+            <button onclick="wplecUlubioneFiszki()">Ulubione Fiszki</button>
+        </div>
+        <div>
+            <h2>Generuj intuicyjnie z pokrewną tematyką</h2>
+            <button onclick="wybierzTematyke('nauka')">Podobne</button>
+            <button onclick="wybierzTematyke('podroze')">Eksporuj moją nową pasje</button>
+            <button onclick="wybierzTematyke('podroze')">Odkryj moją nową pasje</button>
+        </div>
+    `);
+
+
+let currentMode = '';   // Inicjalizuj zmienną currentMode
+        let currentMode2 = '';  // Inicjalizuj zmienną currentMode2
+                        function przekazArgument3(category, index55, buttonindex, czas, idpolski, idtranslate) {
+                        $('.grid-container .image-container3').remove();
+                        if (!category) {
+                            category = 'PresentSimple';
+                        }
+                            console.log('hej321b', idtranslate);
+    console.log('hej453', buttonindex);
+                        pulpitstartowy = false;
+                        button2 = true;
+                        button0 = false;
+                        button = false;
+                        button3 = false;
+                        button4 = false;
+                        button5 = false;
+                        button6 = false;
+                        button7 = false;
+                        button8 = false;
+                        button9 = false;
+                        // Przypisz wartość do zmiennej globalnej
+                        globalCategory = category;
+                        // Wywołaj funkcję wybierzCharakter
+                        tablica10.length = 0;
+                        tablica15.length = 0;
+                        console.log('wykonuje się5');
+    // Wywołaj funkcję wybierzCharakter na podstawie trybu
+    if (currentMode === 'zdania') {
+        wybierzCharakter(category, 'zdania', index55, buttonindex, true);
+        console.log('Ładowanie zdań dla kategorii:', category);
+    } else if (currentMode === 'fiszki') {
+        wybierzCharakter(category, 'fiszki', index55, buttonindex, false);
+        console.log('Ładowanie fiszek dla kategorii:', category);
+    }
+                        console.log('hej100', tablica10);
+                    }
+                    function przekazArgument2(category, index55, buttonindex) {
+                        $('.grid-container .image-container3').remove();
+                        if (!category) {
+                            category = 'zaimkiosobowe';
+                        }
+                        pulpitstartowy = false;
+                        button2 = true;
+                        button0 = false;
+                        button = false;
+                        button3 = false;
+                        button4 = false;
+                        button5 = false;
+                        button6 = false;
+                        button7 = false;
+                        button8 = false;
+                        button9 = false;
+                        // Przypisz wartość do zmiennej globalnej
+                        globalCategory = category;
+                        // Wywołaj funkcję wybierzCharakter
+                        tablica10.length = 0;
+                        tablica15.length = 0;
+                        console.log('wykonuje się5');
+    // Wywołaj funkcję wybierzCharakter na podstawie trybu
+    if (currentMode === 'zdania') {
+        wybierzCharakter(category, 'zdania', index55, buttonindex, true);
+        console.log('Ładowanie zdań dla kategorii:', category);
+    } else if (currentMode === 'fiszki') {
+        wybierzCharakter(category, 'fiszki', index55, buttonindex, false);
+        console.log('Ładowanie fiszek dla kategorii:', category);
+    }
+                        console.log('hej100', tablica10);
+                    }
+                    var globalIdTranslate = false;
+
+                    function przekazArgument(category, index55, buttonindex, czas, idpolski, idtranslate) {
+                        $('.grid-container .image-container3').remove();
+                            category = 'osoby';
+                        pulpitstartowy = false;
+                        przyciskKlikniety = true;
+                        button = true;
+                        button0 = false;
+                        button2 = false;
+                        button3 = false;
+                        button4 = false;
+                        button5 = false;
+                        button6 = false;
+                        button7 = false;
+                        button8 = false;
+                        button9 = false;
+                        // Przypisz wartość do zmiennej globalnej
+                        globalCategory = category;
+                        tablica10.length = 0;
+                        tablica15.length = 0;
+                        globalIdTranslate = idtranslate;
+                        console.log('hej321bc', idtranslate);
+                        // Wywołaj funkcję wybierzCharakter
+    // Wywołaj funkcję wybierzCharakter na podstawie trybu
+    if (currentMode === 'zdania') {
+        wybierzCharakter(category, 'zdania', index55, buttonindex, true);
+        console.log('Ładowanie zdań dla kategorii:', category);
+    } else if (currentMode === 'fiszki') {
+        wybierzCharakter(category, 'fiszki', index55, buttonindex, false);
+        console.log('Ładowanie fiszek dla kategorii:', category);
+    }
+                    }
+
+
+function przekazArgument0(category, index55, buttonindex, czas, idpolski, idtranslate) {
+    $('.grid-container .image-container3').remove();
+    $('.grid-container .image-container4').remove();
+
+
+    console.log('hej321b', idtranslate);
+    console.log('hej453', buttonindex);
+
+    pulpitstartowy = true;
+    przyciskKlikniety = true;
+    button0 = true;
+    button = false;
+    button2 = false;
+    button3 = false;
+    button4 = false;
+    button5 = false;
+    button6 = false;
+    button7 = false;
+    button8 = false;
+    button9 = false;
+
+    // Przypisz wartość do zmiennej globalnej
+    globalCategory = category;
+    tablica10.length = 0;
+    tablica15.length = 0;
+    globalIdTranslate = idtranslate;
+
+    // Wywołaj funkcję wybierzCharakter na podstawie trybu
+    if ((currentMode === 'zdania' || currentMode === undefined) && currentMode2 === 'dlugie') {
+        wybierzCharakter(category, 'zdania', index55, buttonindex, true, true);
+        console.log('Ładowanie zdań dla kategorii:', category);
+    } else if ((currentMode === 'fiszki' || currentMode === undefined) && currentMode2 === 'dlugie') {
+        wybierzCharakter(category, 'fiszki', index55, buttonindex, false, true);
+        console.log('Ładowanie fiszek dla kategorii:', category);
+    } else if (currentMode === 'zdania' && (currentMode2 === undefined || currentMode2 === '')) {
+        wybierzCharakter(category, 'zdania', index55, buttonindex, true, false);
+        console.log('Ładowanie zdań dla kategorii:', category);
+    } else if (currentMode === 'fiszki' && (currentMode2 === undefined || currentMode2 === '')) {
+        wybierzCharakter(category, 'fiszki', index55, buttonindex, false, false);
+        console.log('Ładowanie fiszek dla kategorii:', category);
+    }
+}
+let tablica3 = [];
+
+function ustawTryb(tryb) {
+    // Zaktualizuj pierwszą wartość w tablicy lub dodaj, jeśli jest pusta
+    tablica3[0] = tryb;
+    console.log('hej55b', tablica3);
+    console.log('hej244', tryb);
+
+    if (tablica3[0] === 'fiszki') {
+        ustawTryb2('dlugie', true);
+    } else if (tablica3[0] === 'zdania') {
+        ustawTryb2('dlugie', false);
+    }
+}
+function ustawTryb2(tryb2, id) {
+    currentMode2 = tryb2;
+    console.log('hej244b', id);
+    if (id && currentMode2 === 'dlugie') {
+        wybierzCharakter(category, 'fiszki', index55, buttonindex, true, true);
+    } else if (!id && currentMode2 !== 'dlugie') {
+        wybierzCharakter(category, 'zdania', index55, buttonindex, true, false);
+    }
+}
+
+function wybierzRodzaj(category, czas, matchingIndexes, index55, buttonindex, idpolski, dlugosc) {
+                        console.log('hej154', dlugosc);
+                        category = category || globalCategory;
+                        czasv2 = czas;
+                        console.log("Wybrany rodzaj słownictwa: " + czas);
+                        console.log('hej5b', index55); // Wybierz 'fiszki' dla 10 minut
+                        console.log('hej755', matchingIndexes); // Dodano logowanie matchingIndexes
+
+                        const matchingLessons = new Set(); // Użyj obiektu Set do przechowywania unikalnych wartości
+                        // Iteracja przez fiszki
+                        for (const fiszka of fiszki) {
+                            // Sprawdzenie, czy istnieje fiszka w zadanej kategorii
+                            let matchingFiszka;
+                            // Sprawdzenie, czy wybrano wszystkie kategorie
+                            if (category === 'all' || !category) {
+                                matchingFiszka = true;
+                                console.log('hej877', matchingFiszka);
+                            } else if (category != 'PresentSimple') {
+                                // Sprawdzenie, czy istnieje fiszka w zadanej kategorii
+                                matchingFiszka = fiszka.category2.includes(category);
+                            } else if (category = 'PresentSimple') {
+            // Sprawdzenie, czy fiszka.category3 jest zdefiniowana oraz czy zawiera kategorię
+            matchingFiszka = fiszka.category3 && fiszka.category3.includes(category);
+        }
+                            console.log('hej28', category);
+                            // Jeśli znaleziono pasującą fiszkę, dodaj numer lekcji do zestawu matchingLessons
+                            if (matchingFiszka) {
+                                matchingLessons.add(fiszka.id[1]);
+                                console.log('hej866', matchingLessons);
+                            }
+                        }
+                        let myVariable = Array.from(matchingLessons);
+                        console.log('hejxxxxxxxxxxxxxxxxx', myVariable);
+                                            if (dlugosc) {
+                console.log('Dane correlationsCount:', correlationsCount);
+
+                const validLessons = myVariable.filter(lessonId => {
+                    const lessonEntry = correlationsCount.find(item => item[0] === lessonId) || [lessonId, 0];
+                    console.log('Sprawdzanie lessonId:', lessonId, 'lessonEntry:', lessonEntry);
+                    const lessonSentences = lessonEntry[1];
+                    return lessonSentences > 6;
+                });
+
+                myVariable = validLessons;
+                                for (let i = 0; i < validLessons.length; i += 3) {
+                                    const lessonId1 = myVariable[i];
+                                    const lessonId2 = myVariable[i + 1];
+                                    const lessonId3 = myVariable[i + 2];
+                                    
+                                    const lessonObject5 = {
+                                        lessonId1: lessonId1,
+                                        lessonId2: lessonId2,
+                                        lessonId3: lessonId3
+                                    };
+                                console.log('Valid Lessons:', lessonObject5);
+            }
+        }
+            console.log('hej5555', myVariable);
+                        if (czas === 'fiszki' && czas !== "zdania") {
+                            console.log('Warunek czas === "fiszki" jest spełniony');
+                            $('.grid-container .image-container4').remove();
+                            if (myVariable.length > 1) {
+
+
+                                // Inicjuj flagę dla wystąpienia zera
+                                let zeroWylosowane = false;
+                                // Losowy indeks, w którym pojawi się zero
+
+                                let indexDiv = 0;
+                                // Zmienna do kumulowania długości zdań
+                                let previousCumulativeFirstPartLength3 = 0;  // Przechowywanie poprzedniej kumulacji dla lesson3
+                                let cumulativeFirstPartLength1 = 0;
+                                let cumulativeFirstPartLength2 = 0;
+                                let cumulativeFirstPartLength3 = 0;
+                               
+            
+                                // Wyświetl fiszki dla każdej znalezionej pary lekcji
+                                let startIndex = 0; // Zainicjuj startIndex poza pętlą
+                                const lengthDividedByThree = myVariable.length / 3;
+
+                                // Tworzenie tablicy indeksów od 1 do uniqueMatchingLessons.length / 3
+                                let indices = [];
+                                for (let i = 1; i <= lengthDividedByThree; i++) {
+                                    indices.push(i);
+                                }
+                                let indices2 = [];
+                                for (let i = 1; i <= lengthDividedByThree; i++) {
+                                    indices2.push(i);
+                                }
+                                console.log('hej12', indices2);
+                                // Wylosowanie indeksu, który będzie miał wartość 0
+                                const zeroIndex = Math.floor(Math.random() * lengthDividedByThree);
+                                const zeroIndex2 = index55 - 1;
+                                // Wstawienie 0 na wylosowane miejsce
+                                indices[zeroIndex] = 0;
+                                indices2[zeroIndex2] = 0;
+                                for (let i = 0; i < myVariable.length; i += 3) {
+                                    indexDiv++;
+                                    const lessonId1 = myVariable[i];
+                                    const lessonId2 = myVariable[i + 1];
+                                    const lessonId3 = myVariable[i + 2];
+                                    const newIndex = indices[Math.floor(i / 3)];
+                                    const index50 = indices2[Math.floor(i / 3)];
+                                    console.log('hej16', index50);
+
+                const lesson1Entry = correlationsCount.find(item => item[0] === lessonId1) || [lessonId1, 0];
+                const lesson2Entry = correlationsCount.find(item => item[0] === lessonId2) || [lessonId2, 0];
+                const lesson3Entry = correlationsCount.find(item => item[0] === lessonId3) || [lessonId3, 0];
+
+                const lesson1Sentences = lesson1Entry[1];
+                const lesson2Sentences = lesson2Entry[1];
+                const lesson3Sentences = lesson3Entry[1];
+
+
+
+                                    // Znajdź długości drugiej części zdania dla każdej lekcji
+                                    const lesson1SecondPartLength = partLengths2.find(item => item.id === lessonId1)?.count2 || 0;
+                                    const lesson2SecondPartLength = partLengths2.find(item => item.id === lessonId2)?.count2 || 0;
+                                    const lesson3SecondPartLength = partLengths2.find(item => item.id === lessonId3)?.count2 || 0;
+
+                                    // Znajdź długości drugiej części zdania dla każdej lekcji
+                                    const lesson1FirstPartLength = partLengths.find(item => item.id === lessonId1)?.totalLength || 0;
+                                    const lesson2FirstPartLength = partLengths.find(item => item.id === lessonId2)?.totalLength || 0;
+                                    const lesson3FirstPartLength = partLengths.find(item => item.id === lessonId3)?.totalLength || 0;
+
+                                    // Znajdź długości drugiej części zdania dla każdej lekcji
+                                    const lesson1PartLength = partLengths3.find(item => item.id === lessonId1)?.cumulativeCount || 0;
+                                    const lesson2PartLength = partLengths3.find(item => item.id === lessonId2)?.cumulativeCount || 0;
+                                    const lesson3PartLength = partLengths3.find(item => item.id === lessonId3)?.cumulativeCount || 0;
+
+                                    // Obliczanie skumulowanych długości
+                                    cumulativeFirstPartLength1 += lesson1PartLength;
+                                    cumulativeFirstPartLength2 += lesson2PartLength;
+                                    cumulativeFirstPartLength3 += lesson3PartLength;
+
+                                    const cumulativeTotalFirstPartLength1 = cumulativeFirstPartLength1;
+                                    const cumulativeTotalFirstPartLength2 = cumulativeFirstPartLength2;
+                                    const cumulativeTotalFirstPartLength3 = cumulativeFirstPartLength3;
+
+                                    // Aktualizacja poprzedniej wartości skumulowanej dla następnej iteracji
+                                    previousCumulativeFirstPartLength3 = cumulativeFirstPartLength3;
+
+                                    const lessonObject = {
+                                        lessonId1: lessonId1,
+                                        lessonId2: lessonId2,
+                                        lessonId3: lessonId3,
+                                        index50: index50,
+                                        newIndex: newIndex,
+                                        lesson1Sentences: lesson1Sentences,
+                                        lesson2Sentences: lesson2Sentences,
+                                        lesson3Sentences: lesson3Sentences,
+                                        lesson1PartLength: lesson1PartLength,
+                                        lesson2PartLength: lesson2PartLength,
+                                        lesson3PartLength: lesson3PartLength,
+                                        lesson1FirstPartLength: lesson1FirstPartLength,
+                                        lesson2FirstPartLength: lesson2FirstPartLength,
+                                        lesson3FirstPartLength: lesson3FirstPartLength,
+                                        lesson1SecondPartLength: lesson1SecondPartLength,
+                                        lesson2SecondPartLength: lesson2SecondPartLength,
+                                        lesson3SecondPartLength: lesson3SecondPartLength,
+                                        indexDiv: indexDiv
+                                    };
+
+                                    // Dodawanie obiektu do tablicy lekcji
+                                    lessonsArray.push(lessonObject);
+                                    console.log('hej34', lessonObject);
+                                    if (newIndex === 0 && indexDiv >= 1 && indexDiv <= 4) {
+                                        const containerToRemove = $(`.image-container3[data-lesson="${indexDiv}"]`);
+                                        if (containerToRemove.length > 0) {
+                                            containerToRemove.remove();
+                                        }
+                                    }
+                                    if ((tablica10.length <= 10 || tablica10.length === 0)) {
+                                        console.log('wykonuje się 8');
+                                        console.log('hej32', newIndex);
+                                        console.log('hej18', tablica10);
+                                        showCombinedSentenceForLesson(buttonindex, index50, lessonId1, lessonId2, lessonId3, fiszki, matchingIndexes, startIndex, newIndex, indexDiv, lessonsArray, lesson1PartLength, lesson2PartLength, lesson3PartLength, lesson1Sentences, lesson2Sentences, lesson3Sentences, lesson1FirstPartLength, lesson2FirstPartLength, lesson3FirstPartLength, lesson1SecondPartLength, lesson2SecondPartLength, lesson3SecondPartLength, cumulativeFirstPartLength1, cumulativeFirstPartLength2, cumulativeFirstPartLength3);
+                                    }
+                                }
+                                
+                                console.log('Aktualna zawartość tablicy lessonsArray:', lessonsArray);
+                                // Sprawdź, czy dodano odpowiednią liczbę divów
+                                const numberOfContainers = $('.image-container3').length;
+                                console.log('Liczba dodanych divów:', numberOfContainers);
+                            }
+                        
+                        }
+                        
+                            // Wywołaj funkcję wybierzCharakter na podstawie trybu
+    if (tablica3[0] === 'zdania' && tablica3[1] !== 'dlugie') {
+        wybierzCharakter(category, 'zdania', index55, buttonindex, true);
+        console.log('Ładowanie zdań dla kategorii:', category);
+    } else if (tablica3[0] === 'fiszki' && tablica3[1] !== 'dlugie') {
+        wybierzCharakter(category, 'fiszki', index55, buttonindex, false);
+        console.log('Ładowanie fiszek dla kategorii:', category);
+    } else if (tablica3[0] === 'zdania' && tablica3[1] === 'dlugie') {
+                console.log('Działa');
+        wybierzCharakter(category, 'fiszki', index55, buttonindex, false);
+}  else if (tablica3[0] === 'fiszki' && tablica3[1] === 'dlugie') {
+                    console.log('Działa');
+        wybierzCharakter(category, 'fiszki', index55, buttonindex, false);
+        console.log('Ładowanie fiszek dla kategorii:', category);
+}
+function przekazArgument9(category, index55, buttonindex) {
+                        $('.grid-container .image-container3').remove();
+                        if (!category) {
+                            category = 'czasownik';
+                        }
+                        button9 = true;
+                        button0 = false;
+                        button = false;
+                        button2 = false;
+                        button3 = false;
+                        button4 = false;
+                        button5 = false;
+                        button6 = false;
+                        button7 = false;
+                        button8 = false;
+                        // Przypisz wartość do zmiennej globalnej
+                        globalCategory = category;
+                        // Wywołaj funkcję wybierzCharakter
+                        tablica10.length = 0;
+                        tablica15.length = 0;
+                        console.log('wykonuje się5');
+                        wybierzCharakter(undefined, index55, buttonindex);
+                        console.log('hej100', tablica10);
+                    }
+                    function przekazArgument8(category, index55, buttonindex) {
+                        $('.grid-container .image-container3').remove();
+                        if (!category) {
+                            category = 'animals';
+                        }
+                        button8 = true;
+                        button0 = false;
+                        button = false;
+                        button2 = false;
+                        button3 = false;
+                        button4 = false;
+                        button5 = false;
+                        button6 = false;
+                        button7 = false;
+                        button9 = false;
+                        // Przypisz wartość do zmiennej globalnej
+                        globalCategory = category;
+                        // Wywołaj funkcję wybierzCharakter
+                        tablica10.length = 0;
+                        tablica15.length = 0;
+                        console.log('wykonuje się5');
+                        wybierzCharakter(undefined, index55, buttonindex);
+                        console.log('hej100', tablica10);
+                    }
+                    function przekazArgument7(category, index55, buttonindex) {
+                        $('.grid-container .image-container3').remove();
+                        if (!category) {
+                            category = 'kolory';
+                        }
+                        button7 = true;
+                        button0 = false;
+                        button = false;
+                        button2 = false;
+                        button3 = false;
+                        button4 = false;
+                        button5 = false;
+                        button6 = false;
+                        button8 = false;
+                        button9 = false;
+                        // Przypisz wartość do zmiennej globalnej
+                        globalCategory = category;
+                        // Wywołaj funkcję wybierzCharakter
+                        tablica10.length = 0;
+                        tablica15.length = 0;
+                        console.log('wykonuje się5');
+                        wybierzCharakter(undefined, index55, buttonindex);
+                        console.log('hej100', tablica10);
+                    }
+                    function przekazArgument6(category, index55, buttonindex) {
+                        $('.grid-container .image-container3').remove();
+                        if (!category) {
+                            category = 'spojniki';
+                        }
+                        button6 = true;
+                        button0 = false;
+                        button = false;
+                        button2 = false;
+                        button3 = false;
+                        button4 = false;
+                        button5 = false;
+                        button7 = false;
+                        button8 = false;
+                        button9 = false;
+                        // Przypisz wartość do zmiennej globalnej
+                        globalCategory = category;
+                        // Wywołaj funkcję wybierzCharakter
+                        tablica10.length = 0;
+                        tablica15.length = 0;
+                        console.log('wykonuje się5');
+                        wybierzCharakter(undefined, index55, buttonindex);
+                        console.log('hej100', tablica10);
+                    }
+                    function przekazArgument5(category, index55, buttonindex) {
+                        $('.grid-container .image-container3').remove();
+                        if (!category) {
+                            category = 'emocje';
+                        }
+                        button5 = true;
+                        button0 = false;
+                        button = false;
+                        button2 = false;
+                        button3 = false;
+                        button4 = false;
+                        button6 = false;
+                        button7 = false;
+                        button8 = false;
+                        button9 = false;
+                        // Przypisz wartość do zmiennej globalnej
+                        globalCategory = category;
+                        // Wywołaj funkcję wybierzCharakter
+                        tablica10.length = 0;
+                        tablica15.length = 0;
+                        console.log('wykonuje się5');
+                        wybierzCharakter(undefined, index55, buttonindex);
+                        console.log('hej100', tablica10);
+                    }
+                    
+
+                                                            var tablica3 = [];
+
+                        function przekazArgument3(category, index55, buttonindex, czas, idpolski, idtranslate) {
+                        $('.grid-container .image-container3').remove();
+                        if (!category) {
+                            category = 'PresentSimple';
+                        }
+                            console.log('hej321b', idtranslate);
+    console.log('hej453', buttonindex);
+                        pulpitstartowy = false;
+                        button2 = true;
+                        button0 = false;
+                        button = false;
+                        button3 = false;
+                        button4 = false;
+                        button5 = false;
+                        button6 = false;
+                        button7 = false;
+                        button8 = false;
+                        button9 = false;
+                        // Przypisz wartość do zmiennej globalnej
+                        globalCategory = category;
+                        // Wywołaj funkcję wybierzCharakter
+                        tablica10.length = 0;
+                        tablica15.length = 0;
+                        console.log('wykonuje się5');
+    // Wywołaj funkcję wybierzCharakter na podstawie trybu
+    if (currentMode === 'zdania') {
+        wybierzCharakter(category, 'zdania', index55, buttonindex, true);
+        console.log('Ładowanie zdań dla kategorii:', category);
+    } else if (currentMode === 'fiszki') {
+        wybierzCharakter(category, 'fiszki', index55, buttonindex, false);
+        console.log('Ładowanie fiszek dla kategorii:', category);
+    }
+                        console.log('hej100', tablica10);
+                    }
+                    function przekazArgument2(category, index55, buttonindex) {
+                        $('.grid-container .image-container3').remove();
+                        if (!category) {
+                            category = 'zaimkiosobowe';
+                        }
+                        pulpitstartowy = false;
+                        button2 = true;
+                        button0 = false;
+                        button = false;
+                        button3 = false;
+                        button4 = false;
+                        button5 = false;
+                        button6 = false;
+                        button7 = false;
+                        button8 = false;
+                        button9 = false;
+                        // Przypisz wartość do zmiennej globalnej
+                        globalCategory = category;
+                        // Wywołaj funkcję wybierzCharakter
+                        tablica10.length = 0;
+                        tablica15.length = 0;
+                        console.log('wykonuje się5');
+    // Wywołaj funkcję wybierzCharakter na podstawie trybu
+    if (currentMode === 'zdania') {
+        wybierzCharakter(category, 'zdania', index55, buttonindex, true);
+        console.log('Ładowanie zdań dla kategorii:', category);
+    } else if (currentMode === 'fiszki') {
+        wybierzCharakter(category, 'fiszki', index55, buttonindex, false);
+        console.log('Ładowanie fiszek dla kategorii:', category);
+    }
+                        console.log('hej100', tablica10);
+                    }
+                    var globalIdTranslate = false;
+
+                    function przekazArgument(category, index55, buttonindex, czas, idpolski, idtranslate) {
+                        $('.grid-container .image-container3').remove();
+                            category = 'osoby';
+                        pulpitstartowy = false;
+                        przyciskKlikniety = true;
+                        button = true;
+                        button0 = false;
+                        button2 = false;
+                        button3 = false;
+                        button4 = false;
+                        button5 = false;
+                        button6 = false;
+                        button7 = false;
+                        button8 = false;
+                        button9 = false;
+                        // Przypisz wartość do zmiennej globalnej
+                        globalCategory = category;
+                        tablica10.length = 0;
+                        tablica15.length = 0;
+                        globalIdTranslate = idtranslate;
+                        console.log('hej321bc', idtranslate);
+                        // Wywołaj funkcję wybierzCharakter
+    // Wywołaj funkcję wybierzCharakter na podstawie trybu
+    if (tablica3[0] === 'zdania') {
+        wybierzCharakter(category, 'zdania', index55, buttonindex, true);
+        console.log('Ładowanie zdań dla kategorii:', category);
+    } else if (tablica3[0] === 'fiszki') {
+        wybierzCharakter(category, 'fiszki', index55, buttonindex, false);
+        console.log('Ładowanie fiszek dla kategorii:', category);
+    }
+                    }
