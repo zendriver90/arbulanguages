@@ -3821,7 +3821,7 @@ const fiszki = [
         ],
         key: "my",
         category1: "nauka",
-        category2: ["zaimkiosobowe"]
+        category2: [""]
     },
     {
         id: [

@@ -234,7 +234,7 @@
             }
             .flashcard-container {
                 width: 1350px;
-                height: 250px;
+                height: 260px;
                 background-color: #2ecc71; /* Zielony kolor, możesz dostosować według potrzeb */
                 display: flex;
                 justify-content: space-around;
@@ -576,7 +576,7 @@ function addFlashcardContainer() {
             <button class="czas">WYSUŃ JEDNOCZEŚNIE W DANEJ LEKCJI</button>
             <br>
             <div id="title">CHARAKTER ZDANIA</div>
-            <button class="charakter-button" onclick="wybierzCharakter('krotkie')">Krótkie</button>
+            <button class="charakter-button" onclick="ustawTryb(tablica3[0]); przekazArgument0(globalCategory, '', '', 'fiszki', false, false, 'krotkie')">Krótkie</button>
             <button class="charakter-button" onclick="ustawTryb(tablica3[0]); przekazArgument0(globalCategory, '', '', 'fiszki', false, false, 'dlugie')">Długie(złożone)</button>
             <button id="english" class="charakter-button" onclick="wybierzCharakter('dowolne')">Dowolne</button>
             <div id="title">PRIORYTETY LINGWISTYCZNE</div>
@@ -671,13 +671,6 @@ function waitForTrueThenWybierzCharakter() {
 }
                     idpolski = false;
                     let indexes = [];
-                    let button0 = false;
-                    let button = false;
-                    let button2 = false;
-                    let button3 = false;
-                    let button4 = false;
-                    let button5 = false;
-                    let button8 = false;
                     let pulpitstartowy = false;
                     var czasv2;
 
@@ -982,6 +975,18 @@ function wybierzRodzaj(category, czas, matchingIndexes, index55, buttonindex, id
             console.log('Sprawdzanie lessonId:', lessonId, 'lessonEntry:', lessonEntry);
             const lessonSentences = lessonEntry[1];
             return lessonSentences > 6;
+        });
+
+        myVariable = validLessons;
+    }
+        if (idpolski === 'krotkie') {
+        console.log('Dane correlationsCount:', correlationsCount);
+
+        const validLessons = myVariable.filter(lessonId => {
+            const lessonEntry = correlationsCount.find(item => item[0] === lessonId) || [lessonId, 0];
+            console.log('Sprawdzanie lessonId:', lessonId, 'lessonEntry:', lessonEntry);
+            const lessonSentences = lessonEntry[1];
+            return lessonSentences < 6;
         });
 
         myVariable = validLessons;
@@ -2564,21 +2569,7 @@ function wybierzRodzaj(category, czas, matchingIndexes, index55, buttonindex, id
                                     console.log('hej80', index);
                                     // Sprawdź, czy jesteśmy poza zakresem tablicy
                                     if (index >= srcWords.length && !funkcjaWywolana) {
-                                        console.log('hej123', button0);
-                                        if (button0) {
-                                            let czas = "fiszki";
-                                            przekazArgument0(category, undefined, false, czas);
-                                            console.log('hej26');
-                                        }
-                                        if (button) {
-                                            przekazArgument(category, undefined, true);
-                                        }
-                                        if (button2) {
-                                            przekazArgument2(category, undefined, true);
-                                        }
-                                        if (button3) {
-                                            przekazArgument3(category, undefined, true);
-                                        }
+                                        przekazArgument0(tablica3[2], undefined, false, tablica3[0], true, true, tablica3[1]);
                                         console.log("wykonuje się");
                                         funkcjaWywolana = true;
                                     }
@@ -2659,31 +2650,6 @@ function wybierzRodzaj(category, czas, matchingIndexes, index55, buttonindex, id
                                     addScenes(index);
                                     // Dodaj div z wideo do tła kontenera
                                     $vidDiv.appendTo($container);
-                                    function setFirstFrame() {
-                                        // Tworzenie nowego wideo
-                                        const video = document.createElement('video');
-                                        video.src = srcWords[0]; // Ustawienie pierwszego filmu
-                                        video.muted = true;
-                                        video.preload = 'metadata'; // Wczytanie metadanych filmu, ale nie całego filmu
-
-                                        // Odczytanie pierwszej klatki wideo jako obraz
-                                        video.addEventListener('loadeddata', function () {
-                                            const canvas = document.createElement('canvas');
-                                            canvas.width = this.videoWidth;
-                                            canvas.height = this.videoHeight;
-                                            const ctx = canvas.getContext('2d');
-                                            ctx.drawImage(this, 0, 0, canvas.width, canvas.height);
-                                            // Ustawienie pierwszej klatki jako tło kontenera
-                                            $container.css({
-                                                'background-image': 'url(' + canvas.toDataURL() + ')',
-                                                'background-size': 'cover',
-                                                'background-position': 'center',
-                                                'background-repeat': 'no-repeat'
-                                            });
-                                        });
-                                        // Rozpoczęcie odtwarzania wideo, aby odczytać pierwszą klatkę
-                                        video.play();
-                                    }
                                     function updateProgress(progress) {
                                         // Aktualizuj pasek postępu na dole kontenera
                                         $('.progress-bar').css('width', progress + '%');
@@ -2745,21 +2711,7 @@ function wybierzRodzaj(category, czas, matchingIndexes, index55, buttonindex, id
                                         setTimeout(function () {
                                             $('.progress-bar').remove();
                                         }, 200); // Opóźnienie w milisekundach (tu: 1 sekunda)
-                                        if (button0) {
-                                            buttonindex = false;
-                                            let czas = "fiszki";
-                                            przekazArgument0(category, undefined, false, czas);
-                                            console.log('hej26');
-                                        }
-                                        if (button) {
-                                            przekazArgument(category, undefined, true);
-                                        }
-                                        if (button2) {
-                                            przekazArgument2(category, undefined, true);
-                                        }
-                                        if (button3) {
-                                            przekazArgument3(category, undefined, true);
-                                        }
+                                        przekazArgument0(tablica3[2], undefined, false, tablica3[0], true, true, tablica3[1]);
                                         console.log("wykonuje się");
                                         funkcjaWywolana = true;
                                     }
@@ -2839,31 +2791,6 @@ function wybierzRodzaj(category, czas, matchingIndexes, index55, buttonindex, id
                                     addScenes(index);
                                     // Dodaj div z wideo do tła kontenera
                                     $vidDiv.appendTo($container);
-                                    function setFirstFrame() {
-                                        // Tworzenie nowego wideo
-                                        const video = document.createElement('video');
-                                        video.src = srcWords[0]; // Ustawienie pierwszego filmu
-                                        video.muted = true;
-                                        video.preload = 'metadata'; // Wczytanie metadanych filmu, ale nie całego filmu
-
-                                        // Odczytanie pierwszej klatki wideo jako obraz
-                                        video.addEventListener('loadeddata', function () {
-                                            const canvas = document.createElement('canvas');
-                                            canvas.width = this.videoWidth;
-                                            canvas.height = this.videoHeight;
-                                            const ctx = canvas.getContext('2d');
-                                            ctx.drawImage(this, 0, 0, canvas.width, canvas.height);
-                                            // Ustawienie pierwszej klatki jako tło kontenera
-                                            $container.css({
-                                                'background-image': 'url(' + canvas.toDataURL() + ')',
-                                                'background-size': 'cover',
-                                                'background-position': 'center',
-                                                'background-repeat': 'no-repeat'
-                                            });
-                                        });
-                                        // Rozpoczęcie odtwarzania wideo, aby odczytać pierwszą klatkę
-                                        video.play();
-                                    }
                                     function updateProgress(progress) {
                                         // Aktualizuj pasek postępu na dole kontenera
                                         $('.progress-bar').css('width', progress + '%');
@@ -3001,39 +2928,7 @@ function wybierzRodzaj(category, czas, matchingIndexes, index55, buttonindex, id
                                 
                                 setTimeout(() => {
                                     console.log('Kliknięto przycisk o indeksie:', index55);
-                                    if (tablica3[2] === 'osoby') {
-                                        buttonindex = true;
-                                        przekazArgument0(tablica3[2], index55, buttonindex, 'fiszki', true, true);
-                                        console.log('hej26');
-                                    }
-                                    if (button) {
-                                        przekazArgument(category, index55, true);
-                                    }
-                                    if (button2) {
-                                        przekazArgument2(category, index55, true);
-                                    }
-                                    if (button3) {
-                                        przekazArgument3(category, index55, true);
-                                    }
-                                    if (button4) {
-                                        przekazArgument4(category, index55, true);
-                                        console.log('hej26');
-                                    }
-                                    if (button5) {
-                                        przekazArgument5(category, index55, true);
-                                    }
-                                    if (button6) {
-                                        przekazArgument6(category, index55, true);
-                                    }
-                                    if (button7) {
-                                        przekazArgument7(category, index55, true);
-                                    }
-                                    if (button8) {
-                                        przekazArgument8(category, index55, true);
-                                    }
-                                    if (button9) {
-                                        przekazArgument9(category, index55, true);
-                                    }
+                                    przekazArgument0(tablica3[2], index55, true, tablica3[0], true, true, tablica3[1]);
                                 }, 100);
                                 // Usunięcie kontenera po wstawieniu nowego
                             });
@@ -3472,21 +3367,8 @@ function wybierzRodzaj(category, czas, matchingIndexes, index55, buttonindex, id
                                     console.log('hej80', index);
                                     // Sprawdź, czy jesteśmy poza zakresem tablicy
                                     if (index >= srcWords.length && !funkcjaWywolana) {
-                                        console.log('hej123', button0);
-                                        if (button0) {
-                                            const czas = 'zdania';  // Możesz rozważyć zmianę nazwy zmiennej na bardziej opisową, np. const tryb = 'fiszki';
-                                            przekazArgument0(category, undefined, true, czas);  // Upewnij się, że category jest zdefiniowana
-                                            console.log('hej222', czas);  // Upewnij się, że console.log jest odpowiedni w kontekście twojego kodu
-                                        }
-                                        if (button) {
-                                            przekazArgument(category, undefined, true);
-                                        }
-                                        if (button2) {
-                                            przekazArgument2(category, undefined, true);
-                                        }
-                                        if (button3) {
-                                            przekazArgument3(category, undefined, true);
-                                        }
+                                    przekazArgument0(tablica3[2], undefined, false, tablica3[0], true, true, tablica3[1]);
+
                                         console.log("wykonuje się");
                                         funkcjaWywolana = true;
                                     }
@@ -3606,23 +3488,10 @@ function wybierzRodzaj(category, czas, matchingIndexes, index55, buttonindex, id
                                     console.log('hej123', button0);
                                     // Sprawdź, czy jesteśmy poza zakresem tablicy
                                     if (index >= srcWords.length && !funkcjaWywolana) {
-                                        console.log('hej123', button0);
                                         setTimeout(function () {
                                             $('.progress-bar').remove();
                                         }, 200); // Opóźnienie w milisekundach (tu: 1 sekunda)
-                                        if (button0) {
-                                            przekazArgument0(category, undefined, true);
-                                            console.log('hej26');
-                                        }
-                                        if (button) {
-                                            przekazArgument(category, undefined, true);
-                                        }
-                                        if (button2) {
-                                            przekazArgument2(category, undefined, true);
-                                        }
-                                        if (button3) {
-                                            przekazArgument3(category, undefined, true);
-                                        }
+                                        przekazArgument0(tablica3[2], undefined, false, tablica3[0], true, true, tablica3[1]);
                                         console.log("wykonuje się");
                                         funkcjaWywolana = true;
                                     }
@@ -3837,39 +3706,8 @@ function wybierzRodzaj(category, czas, matchingIndexes, index55, buttonindex, id
                                 buttonindex = true;
                                 setTimeout(() => {
                                     console.log('Kliknięto przycisk o indeksie:', index55);
-                                    if (button0) {
-                                        let czas = "zdania";
-                                        przekazArgument0(tablica3[2], index55, true, czas);
+                                        przekazArgument0(tablica3[2], index55, true, tablica3[0], true, true, tablica3[1]);
                                         console.log('hej26', czas);
-                                    }
-                                    if (button) {
-                                        przekazArgument(category, index55, true);
-                                    }
-                                    if (button2) {
-                                        przekazArgument2(category, index55, true);
-                                    }
-                                    if (button3) {
-                                        przekazArgument3(category, index55, true);
-                                    }
-                                    if (button4) {
-                                        przekazArgument4(category, index55, true);
-                                        console.log('hej26');
-                                    }
-                                    if (button5) {
-                                        przekazArgument5(category, index55, true);
-                                    }
-                                    if (button6) {
-                                        przekazArgument6(category, index55, true);
-                                    }
-                                    if (button7) {
-                                        przekazArgument7(category, index55, true);
-                                    }
-                                    if (button8) {
-                                        przekazArgument8(category, index55, true);
-                                    }
-                                    if (button9) {
-                                        przekazArgument9(category, index55, true);
-                                    }
                                 }, 100);
                                 // Usunięcie kontenera po wstawieniu nowego
                             });
@@ -3968,7 +3806,7 @@ function wybierzRodzaj(category, czas, matchingIndexes, index55, buttonindex, id
                         const czas = 'zdania';
                         console.log('wywołana');
                         console.log('Przekazane indeksy do otherFunction:', indexes);
-                        przekazArgument0(category, undefined, false, czas);
+                        przekazArgument0(tablica3[2], '', '', tablica3[0], true, true, tablica3[1]);
                     }
                     przekazArgument0(tablica3[2], '', '', 'fiszki', true, true, tablica3[1]);
                     ustawTryb('fiszki');
