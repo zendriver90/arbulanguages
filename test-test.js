@@ -6785,3 +6785,27 @@ function przekazArgument9(category, index55, buttonindex) {
         console.log('Ładowanie fiszek dla kategorii:', category);
     }
                     }
+
+                            if (newIndex === 0 && !buttonindex) {
+                                console.log('hej3331', newIndex);
+                                let funkcjaWywolana = false;
+                                function addVideo1(index) {
+                                    console.log('hej80', newIndex);
+                                    // Sprawdź, czy jesteśmy poza zakresem tablicy
+                                    if (index >= srcWords.length && !funkcjaWywolana) {
+                                        funkcjaWywolana = true;
+                                        countVisibleContainers();
+                                    przekazArgument0(tablica3[2], undefined, false, tablica3[0], true, true, tablica3[1]);
+                                        console.log("wykonuje się");
+                                    }
+function waitForTrueThenWybierzCharakter() {
+    console.log("Funkcja waitForTrueThenWybierzCharakter() została wywołana");
+    var isTrue = true; // Tutaj umieść rzeczywisty warunek do sprawdzenia
+
+    if (isTrue) {
+        console.log("Warunek został spełniony, wykonuję funkcję wybierzCharakter()");
+        wybierzCharakter('', 'zdania', undefined, undefined, true);
+    } else {
+        console.log("Warunek nie został spełniony, nic nie robię");
+    }
+}

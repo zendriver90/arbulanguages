@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+funkcjaWywolana<!DOCTYPE html>
 <html>
     <head>
         <script src="js/storage.js"></script>
@@ -550,10 +550,10 @@ function addFlashcardContainer() {
             <button id="osoby" class="rodzaj-button" data-rodzaj="osoby" onclick="przekazArgument0('all', '', '', '', '', '', tablica3[1])">Wszystkie</button>
             <button class="rodzaj-button" data-rodzaj="osoby" onclick="przekazArgument0('osoby', '', '', '', '', '', tablica3[1])">Osoby</button>
             <button class="rodzaj-button" data-rodzaj="zaimki osobowe" onclick="przekazArgument0('zaimkiosobowe', '', '', '', '', '', tablica3[1])">Zaimki osobowe</button>
-            <button class="rodzaj-button" data-rodzaj="kolory" onclick="przekazArgument0('emocje', '', '', '', '', '', tablica3[1])">Emocje</button>
+            <button id="dowolne" class="rodzaj-button" data-rodzaj="kolory" onclick="przekazArgument0('emocje', '', '', '', '', '', tablica3[1])">Emocje</button>
             <button class="rodzaj-button" data-rodzaj="zaimki" onclick="przekazArgument0('spojniki', '', '', '', '', '', tablica3[1])">Spójniki</button>
-            <button class="rodzaj-button" data-rodzaj="kolory" onclick="przekazArgument0('kolory', '', '', '', '', '', tablica3[1])">Kolory</button>
-            <button class="rodzaj-button" data-rodzaj="zwierzeta" onclick="przekazArgument0('zwierzeta', '', '', '', '', '', tablica3[1])">Zwierzęta</button>
+            <button id="inne" class="rodzaj-button" data-rodzaj="kolory" onclick="przekazArgument0('kolory', '', '', '', '', '', tablica3[1])">Kolory</button>
+            <button id="dowolne" class="rodzaj-button" data-rodzaj="zwierzeta" onclick="przekazArgument0('zwierzeta', '', '', '', '', '', tablica3[1])">Zwierzęta</button>
             <button class="rodzaj-button" data-rodzaj="czasownik" onclick="przekazArgument0('czasownik', '', '', '', '', '', tablica3[1])">Czasowniki</button>
             <br>TRYB LEKCJI<br>
   <button class="czas" onclick="ustawTryb('zdania'); przekazArgument0(globalCategory, '', '', 'zdania', false, false, tablica3[1])">5 MINUT (JEDNO ZDANIE)</button>
@@ -563,13 +563,13 @@ function addFlashcardContainer() {
                     <button class="czas">KOGNATY</button>
             <br>DOSTĘPNE WERSJE TŁUMACZENIA<br>
             <button id="english" class="charakter-button" onclick="wybierzCharakter()">NA ŻADANIE-OPCJONALNIE</button>
-            <button id="mix" class="charakter-button" onclick="wybierzCharakter('fiszki')">TYLKO PO ANGIELSKU</button>
-            <button id="polski" class="charakter-button" onclick="przekazArgument0('', '', '', 'zdania', true)">TYLKO PO POLSKU</button>
+            <button id="dowolne" class="charakter-button" onclick="wybierzCharakter('fiszki')">TYLKO PO ANGIELSKU</button>
+            <button id="dowolne" class="charakter-button" onclick="przekazArgument0('', '', '', 'zdania', true)">TYLKO PO POLSKU</button>
         </div>
         <div id="konsola" style="width: 600px;">
                     <div id="title">CZASY</div>
-            <button class="charakter-button" onclick="przekazArgument0('PresentSimple', '', '', '', '', '', tablica3[1]))">PRESENT SIMPLE</button>
-            <button class="charakter-button">PAST SIMPLE</button>
+            <button class="charakter-button" onclick="przekazArgument0('PresentSimple', '', '', '', '', '', tablica3[1])">PRESENT SIMPLE</button>
+            <button id="dowolne" class="charakter-button">PAST SIMPLE</button>
             <br>
             <div id="title">OPCJE ZDANIA</div>
             <button class="charakter-button">PODZIEL ZDANIA NA CZĘŚCI</button>
@@ -578,9 +578,11 @@ function addFlashcardContainer() {
             <div id="title">CHARAKTER ZDANIA</div>
             <button class="charakter-button" onclick="ustawTryb(tablica3[0]); przekazArgument0(globalCategory, '', '', 'fiszki', false, false, 'krotkie')">Krótkie</button>
             <button class="charakter-button" onclick="ustawTryb(tablica3[0]); przekazArgument0(globalCategory, '', '', 'fiszki', false, false, 'dlugie')">Długie(złożone)</button>
-            <button id="english" class="charakter-button" onclick="wybierzCharakter('dowolne')">Dowolne</button>
+            <button class="charakter-button" onclick="ustawTryb(tablica3[0]); przekazArgument0(globalCategory, '', '', 'fiszki', false, false, '')">Dowolne</button>
             <div id="title">PRIORYTETY LINGWISTYCZNE</div>
             <button onclick="wybierzCharakter('krotkie')">Wymowa</button>
+        <button onclick="wybierzCharakter('krotkie')">Pisownia</button>
+        <button onclick="wybierzCharakter('krotkie')">Sens zdania</button>
             <button id="dowolne" onclick="wybierzCharakter('dowolne')">WSZYSTKIE</button>
         </div>
         <div>
@@ -618,8 +620,8 @@ function addFlashcardContainer() {
     var flashcardContainerHeight = $flashcardContainer.height();
     $gridContainer.css('margin-top', flashcardContainerHeight + 110 + 'px');
 
-    $flashcardContainer.find('#osoby, #fiszki, #english, #dowolne').css('border', '2px solid blue');
-
+    $flashcardContainer.find('#osoby, #fiszki, #english').css('border', '2px solid blue');
+    $flashcardContainer.find('#dowolne', '#inne').css('background-color', 'gray');
     function addBlueBorder(button) {
         var category = $(button).attr('class').split(' ')[0]; // Pobierz klasę kategorii przycisku (rodzaj-button, charakter-button, czas)
 
@@ -644,18 +646,6 @@ function addFlashcardContainer() {
     function handleCzasButtonClick() {
         addBlueBorder(this);
     }
-
-function waitForTrueThenWybierzCharakter() {
-    console.log("Funkcja waitForTrueThenWybierzCharakter() została wywołana");
-    var isTrue = true; // Tutaj umieść rzeczywisty warunek do sprawdzenia
-
-    if (isTrue) {
-        console.log("Warunek został spełniony, wykonuję funkcję wybierzCharakter()");
-        wybierzCharakter('', 'zdania', undefined, undefined, true);
-    } else {
-        console.log("Warunek nie został spełniony, nic nie robię");
-    }
-}
 
     // Dodaj zdarzenia do przycisków rodzaj-button
     $flashcardContainer.find('.rodzaj-button').on('click', handleRodzajButtonClick);
@@ -703,39 +693,21 @@ tablica3[2] = category;
     console.log('hej453', buttonindex);
     console.log('hej453', czas);
     console.log('hej453', idpolski);
-
     pulpitstartowy = true;
     przyciskKlikniety = true;
-    button0 = true;
-    button = false;
-    button2 = false;
-    button3 = false;
-    button4 = false;
-    button5 = false;
-    button6 = false;
-    button7 = false;
-    button8 = false;
-    button9 = false;
-
     // Przypisz wartość do zmiennej globalnej
     globalCategory = category;
     tablica10.length = 0;
     tablica15.length = 0;
     globalIdTranslate = idtranslate;
     // Wywołaj funkcję wybierzCharakter na podstawie trybu
-
         wybierzCharakter(category, tablica3[0], index55, buttonindex, tablica3[1]);
 }
-
-
 
 function ustawTryb(tryb) {
     // Zaktualizuj pierwszą wartość w tablicy lub dodaj, jeśli jest pusta
     tablica3[0] = tryb;
-
-    console.log('hej244', tryb);
 }
-
                     // Funkcja wybierająca charakter
                     function wybierzCharakter(category, czas, index55, buttonindex, idpolski) {
                         console.log('hej223', czas, category, idpolski);
@@ -939,7 +911,7 @@ function ustawTryb(tryb) {
 function wybierzRodzaj(category, czas, matchingIndexes, index55, buttonindex, idpolski) {
     category = category || globalCategory;
     czasv2 = czas;
-    console.log("Wybrany rodzaj słownictwa: " + czas);
+    console.log("Wybrany rodzaj słownictwa: ", buttonindex);
     console.log('hej5b', index55);
     console.log('hej755', matchingIndexes);
 
@@ -994,7 +966,7 @@ function wybierzRodzaj(category, czas, matchingIndexes, index55, buttonindex, id
 
     if (czas === 'fiszki' && czas !== "zdania") {
         console.log('Warunek czas === "fiszki" jest spełniony');
-        $('.grid-container .image-container4').remove();
+                            $('.grid-container .image-container4').remove();
 
         if (myVariable.length > 1) {
             let zeroWylosowane = false;
@@ -1009,7 +981,10 @@ function wybierzRodzaj(category, czas, matchingIndexes, index55, buttonindex, id
             const lengthDividedByThree = myVariable.length / 3;
 
             let indices = Array.from({ length: lengthDividedByThree }, (_, i) => i + 1);
-            let indices2 = Array.from({ length: lengthDividedByThree }, (_, i) => i + 1);
+                                let indices2 = [];
+                                for (let i = 1; i <= lengthDividedByThree; i++) {
+                                    indices2.push(i);
+                                }
 
             console.log('hej12', indices2);
 
@@ -1025,7 +1000,7 @@ function wybierzRodzaj(category, czas, matchingIndexes, index55, buttonindex, id
                 const lessonId3 = myVariable[i + 2];
                 const newIndex = indices[Math.floor(i / 3)];
                 const index50 = indices2[Math.floor(i / 3)];
-                console.log('hej16', index50);
+                console.log('hej16', newIndex);
 
                 const lesson1Sentences = correlationsCount.find(item => item[0] === lessonId1) || [lessonId1, 0];
                 const lesson2Sentences = correlationsCount.find(item => item[0] === lessonId2) || [lessonId2, 0];
@@ -1077,13 +1052,6 @@ function wybierzRodzaj(category, czas, matchingIndexes, index55, buttonindex, id
                 lessonsArray.push(lessonObject);
                 console.log('hej34', lessonObject);
 
-                if (newIndex === 0 && indexDiv >= 1 && indexDiv <= 4) {
-                    const containerToRemove = $(`.image-container3[data-lesson="${indexDiv}"]`);
-                    if (containerToRemove.length > 0) {
-                        containerToRemove.remove();
-                    }
-                }
-
                 console.log('hej556', lessonsArray);
                 console.log('hej40', startIndex);
                 console.log('hej77', tablica10);
@@ -1106,7 +1074,6 @@ function wybierzRodzaj(category, czas, matchingIndexes, index55, buttonindex, id
 
                         if (czas === 'zdania' && czas !== 'fiszki') {
                             $('.grid-container .image-container3').remove();
-                            $('.grid-container .image-container4').remove();
                             // Wyświetl pojedyncze zdania dla znalezionych lekcji
                             console.log('Warunek czas === "fiszki" jest spełniony');
 
@@ -1128,25 +1095,21 @@ function wybierzRodzaj(category, czas, matchingIndexes, index55, buttonindex, id
                                 for (let i = 1; i <= lengthDividedByThree; i++) {
                                     indices2.push(i);
                                 }
-
                                 let indices = [];
                                 for (let i = 1; i <= lengthDividedByThree; i++) {
                                     indices.push(i);
                                 }
-
 // Losowanie indeksu, który będzie miał wartość 0
                                 const zeroIndex = Math.floor(Math.random() * (indexes.length)); // +1 aby uwzględnić dodanie zera na końcu
-
-
                                 indexes[zeroIndex] = 0;
-
-
+                                
 // Sprawdź czy tablica indexes zawiera zero
+
                                 let shouldInsertNumbers = indexes.includes(0);
 
                                 if (shouldInsertNumbers) {
                                     let firstValue = indexes.length > 0 ? indexes[0] : 0;
-                                    let secondValue = indexes.length > 1 ? indexes[1] : firstValue + 1;
+                                    let secondValue = indexes.length > 0 ? indexes[1] : firstValue + 1;
 
                                     // Utworzenie tablicy do wstawienia przed indexes, jeśli obie wartości nie są zerami
                                     if (firstValue !== 0 && secondValue !== 0) {
@@ -1162,6 +1125,7 @@ function wybierzRodzaj(category, czas, matchingIndexes, index55, buttonindex, id
                                         indexes = [...numbersToInsert, ...indexes];
                                     }
                                 }
+                            
 // Wyświetlenie zaktualizowanej tablicy indexes
                                 console.log('Aktualizowane indeksy:', indexes);
 
@@ -1186,7 +1150,7 @@ function wybierzRodzaj(category, czas, matchingIndexes, index55, buttonindex, id
                                     const polski = idpolski ? indices3[i % indices3.length] : false;
                                     console.log(`Iteration ${i}: polski =`, polski);
 
-                                    console.log('hej166', polski);
+                                    console.log('hej16', newIndex);
                                     // Dodanie wartości true dla każdego lessonId w polski
 
 
@@ -2699,15 +2663,14 @@ function wybierzRodzaj(category, czas, matchingIndexes, index55, buttonindex, id
                                 }
                                 setTimeout(function () {
                                     addVideo1(0);
-                                }, 800);
+                                }, 1000);
                             } else if (index50 === 0 && buttonindex) {
+                                console.log('hej3338', newIndex);
                                 let funkcjaWywolana = false;
                                 function addVideo2(index) {
-                                    console.log('hej80b', buttonindex);
-                                    console.log('hej123', button0);
+                                    console.log('hej80', index);
                                     // Sprawdź, czy jesteśmy poza zakresem tablicy
                                     if (index >= srcWords.length && !funkcjaWywolana) {
-                                        console.log('hej123', button0);
                                         setTimeout(function () {
                                             $('.progress-bar').remove();
                                         }, 200); // Opóźnienie w milisekundach (tu: 1 sekunda)
@@ -2746,7 +2709,6 @@ function wybierzRodzaj(category, czas, matchingIndexes, index55, buttonindex, id
                                     $videoElement.onerror = function () {
                                         console.error('Nie można załadować pliku wideo.');
                                     };
-
                                     let currentIndexValue = [];
                                     // Funkcja obsługi zdarzenia loadedmetadata
                                     $videoElement.on('loadedmetadata', function () {
@@ -2768,14 +2730,9 @@ function wybierzRodzaj(category, czas, matchingIndexes, index55, buttonindex, id
                                                 console.log('hej70', currentIndexValue);
                                                 // Wywołaj funkcję addBackgroundToText tylko raz
                                                 if (currentIndexValue[0] === 0) {
-                                                    addBackgroundToText(matchingFiszki1, matchingIndexes, currentIndexValue, true, lesson1FirstPartLength, lesson1PartLength);
-                                                }
-
-                                                if (currentIndexValue[0] === 1) {
-                                                    addBackgroundToText2(matchingFiszki2, matchingIndexes, currentIndexValue, true, lesson2FirstPartLength, lesson2PartLength);
-                                                }
-                                                if (currentIndexValue[0] === 2) {
-                                                    addBackgroundToText3(matchingFiszki3, matchingIndexes, currentIndexValue, true, lesson3FirstPartLength, lesson3PartLength);
+                                                    setTimeout(() => {
+                                                        addBackgroundToText(matchingFiszki1, matchingIndexes, currentIndexValue, true, lesson1PartLength, polski);
+                                                    }, 300);
                                                 }
                                             }
 
@@ -2788,7 +2745,6 @@ function wybierzRodzaj(category, czas, matchingIndexes, index55, buttonindex, id
                                             }
                                         });
                                     });
-                                    addScenes(index);
                                     // Dodaj div z wideo do tła kontenera
                                     $vidDiv.appendTo($container);
                                     function updateProgress(progress) {
@@ -2811,33 +2767,6 @@ function wybierzRodzaj(category, czas, matchingIndexes, index55, buttonindex, id
                                         'margin-right': '-4%'// Zapewnienie równowagi dla powiększenia paska postępu
                                     });
                                     $progressBar.appendTo($container);
-// Funkcja dodająca nowe elementy <div>
-                                    function addScenes(index) {
-                                        // Sprawdź, czy istnieje element <div> o klasie 'scene-description'
-                                        let $sceneDiv = $container.find('.scene-description');
-
-                                        if ($sceneDiv.length) {
-                                            // Jeśli istnieje, wyczyść jego zawartość
-                                            $sceneDiv.empty();
-                                        } else {
-                                            // Jeśli nie istnieje, stwórz nowy element <div>
-                                            $sceneDiv = $('<div>').addClass('scene-description').appendTo($container);
-                                        }
-
-                                        // Dodaj nowy tekst do <div>
-                                        $sceneDiv.text(`Scena z filmu ${srcWords2[index]}`);
-
-                                        // Dodatkowe style, jeśli indexDiv jest podzielny przez 4
-                                        if (indexDiv % 4 === 0) {
-                                            // Dodaj klasę 'scene-description2' do $sceneDiv
-                                            $sceneDiv.removeClass('scene-description');
-                                            $sceneDiv.addClass('scene-description2');
-                                        } else {
-                                            // Upewnij się, że klasa 'scene-description2' jest usunięta, jeśli nie jest podzielna przez 4
-                                            $sceneDiv.removeClass('scene-description2');
-                                        }
-                                    }
-
                                 }
                                 addVideo2(0);
                             } else {
@@ -2860,7 +2789,9 @@ function wybierzRodzaj(category, czas, matchingIndexes, index55, buttonindex, id
                                     addBackgroundToText2b(matchingFiszki2, matchingIndexes, true, lesson2PartLength);
                                     addBackgroundToText3b(matchingFiszki3, matchingIndexes, true, lesson3PartLength);
                                 }
-                                addVideo3(0);
+                                setTimeout(function () {
+                                    addVideo3(0);
+                                }, 1000);
                             }
                             // Stwórz przycisk za pomocą jQuery
                             // Tworzenie nowego elementu div za pomocą jQuery
@@ -2956,31 +2887,6 @@ function wybierzRodzaj(category, czas, matchingIndexes, index55, buttonindex, id
         // Bezpośrednio przekierowujemy użytkownika do strony
         window.location.href = 'demo2angielski.html?category=' + encodeURIComponent(globalCategory);
                                     }
-                                    if (button2) {
-                                        przekazArgument2(category, index55, true);
-                                    }
-                                    if (button3) {
-                                        przekazArgument3(category, index55, true);
-                                    }
-                                    if (button4) {
-                                        przekazArgument4(category, index55, true);
-                                        console.log('hej26');
-                                    }
-                                    if (button5) {
-                                        przekazArgument5(category, index55, true);
-                                    }
-                                    if (button6) {
-                                        przekazArgument6(category, index55, true);
-                                    }
-                                    if (button7) {
-                                        przekazArgument7(category, index55, true);
-                                    }
-                                    if (button8) {
-                                        przekazArgument8(category, index55, true);
-                                    }
-                                    if (button9) {
-                                        przekazArgument9(category, index55, true);
-                                    }
                                 }, 100);
                                 // Usunięcie kontenera po wstawieniu nowego
                             });
@@ -3003,7 +2909,6 @@ function wybierzRodzaj(category, czas, matchingIndexes, index55, buttonindex, id
                     }
 
                     function showCombinedSentenceForLesson2(polski, index50, lessonIdToShow1, newIndex, indexDiv, lesson1PartLength) {
-                        console.log('Argumenty funkcji:', polski, index50, lessonIdToShow1, matchingIndexes, newIndex, indexDiv, lesson1PartLength);
                         // Tutaj reszta kodu funkcji
                         const matchingFiszki1 = fiszki.filter(fiszka => fiszka.id[1] === lessonIdToShow1);
                         const matchingFiszki10 = fiszki.filter(fiszka => fiszka.id[1] === lessonIdToShow1);
@@ -3360,17 +3265,16 @@ function wybierzRodzaj(category, czas, matchingIndexes, index55, buttonindex, id
                                 }
                             }
 
-                            if (newIndex === 0 && !buttonindex && newIndex !== undefined && newIndex !== null) {
-                                console.log('hej3331', newIndex);
+                            if (newIndex === 0 && !buttonindex) {
+                                console.log('hej3331', buttonindex);
                                 let funkcjaWywolana = false;
                                 function addVideo1(index) {
-                                    console.log('hej80', index);
                                     // Sprawdź, czy jesteśmy poza zakresem tablicy
                                     if (index >= srcWords.length && !funkcjaWywolana) {
-                                    przekazArgument0(tablica3[2], undefined, false, tablica3[0], true, true, tablica3[1]);
-
-                                        console.log("wykonuje się");
                                         funkcjaWywolana = true;
+                                        countVisibleContainers();
+                                    przekazArgument0(tablica3[2], undefined, false, tablica3[0], true, true, tablica3[1]);
+                                        console.log("wykonuje się");
                                     }
                                     // Usuń poprzednie wideo
                                     removePreviousVideo();
@@ -3479,21 +3383,21 @@ function wybierzRodzaj(category, czas, matchingIndexes, index55, buttonindex, id
                                         $sceneDiv.text(`Scena z filmu ${srcWords2[index]}`);
                                     }
                                 }
-                                addVideo1(0);
+                                    addVideo1(0);
                             } else if (index50 === 0 && buttonindex) {
-                                console.log('hej3338', newIndex);
-                                let funkcjaWywolana = false;
+                                console.log('hej3331', buttonindex);
+                                let funkcjaWywolana2 = false;
                                 function addVideo2(index) {
                                     console.log('hej80', index);
-                                    console.log('hej123', button0);
                                     // Sprawdź, czy jesteśmy poza zakresem tablicy
-                                    if (index >= srcWords.length && !funkcjaWywolana) {
+                                    if (index >= srcWords.length && !funkcjaWywolana2) {
                                         setTimeout(function () {
                                             $('.progress-bar').remove();
                                         }, 200); // Opóźnienie w milisekundach (tu: 1 sekunda)
+                                        buttonindex = false;
                                         przekazArgument0(tablica3[2], undefined, false, tablica3[0], true, true, tablica3[1]);
                                         console.log("wykonuje się");
-                                        funkcjaWywolana = true;
+                                        funkcjaWywolana2 = true;
                                     }
                                     // Usuń poprzednie wideo
                                     removePreviousVideo();
@@ -3740,7 +3644,7 @@ function wybierzRodzaj(category, czas, matchingIndexes, index55, buttonindex, id
                     // Dodaj nasłuchiwanie przewijania do okna
                     let visibleIndexes = [];
                     let previousVisibleIndexes = [];
-
+                    let countVisibleContainersCalled = false;
                     let timeoutId = null;
                     let lastChangeTime = 0;
                     let isFirstCall = true;
@@ -3771,21 +3675,29 @@ function wybierzRodzaj(category, czas, matchingIndexes, index55, buttonindex, id
                         const elapsedTime = currentTime - lastChangeTime;
 
                         // Jeśli warunek jest spełniony i poprzedni timeout nie istnieje
-                        if (indexes.length >= 4 && !timeoutId) {
+                        if (indexes.length >= 8) {
                             // Sprawdź czy 4 kontenery są widoczne przez co najmniej 500ms z rzędu
                             if (elapsedTime >= 600) {
                                 // Ustaw timeout na 300ms po spełnieniu warunku
                                 timeoutId = setTimeout(() => {
                                     previousVisibleIndexes = [...indexes]; // kopiowanie tablicy indexes do previousVisibleIndexes
                                     console.log('Aktualne widoczne indeksy2:', indexes);
-                                    otherFunction(indexes);
                                     timeoutId = null; // Resetuj timeoutId po wykonaniu funkcji
-                                }, 1000);
-                            }
-                        } else if (indexes.length < 4 && timeoutId) {
+                                }, 300);
+                            otherFunction(indexes);
+                            } else if (elapsedTime >= 600 && funkcjaWywolana) {
+                                // Ustaw timeout na 300ms po spełnieniu warunku
+                                timeoutId = setTimeout(() => {
+                                    previousVisibleIndexes = [...indexes]; // kopiowanie tablicy indexes do previousVisibleIndexes
+                                    console.log('Aktualne widoczne indeksy2:', indexes);
+                                    timeoutId = null; // Resetuj timeoutId po wykonaniu funkcji
+                                }, 3000);
+                            } else if (indexes.length < 8 && timeoutId) {
                             // Jeśli warunek nie jest spełniony, a timeout istnieje, wyczyść timeout
                             clearTimeout(timeoutId);
+                            otherFunction(indexes);
                             timeoutId = null;
+                        }
                         }
 
                         // Aktualizacja czasu ostatniej zmiany
@@ -3798,17 +3710,14 @@ function wybierzRodzaj(category, czas, matchingIndexes, index55, buttonindex, id
                         countVisibleContainers();
                     });
 
-                    $(document).ready(function () {
-                        countVisibleContainers(); // Wywołanie przy ładowaniu strony
-                    });
 // Funkcja otherFunction z przekazanymi indeksami
                     function otherFunction(indexes) {
-                        const czas = 'zdania';
-                        console.log('wywołana');
+
                         console.log('Przekazane indeksy do otherFunction:', indexes);
-                        przekazArgument0(tablica3[2], '', '', tablica3[0], true, true, tablica3[1]);
+                                                console.log('wywołana');
+                        przekazArgument0(tablica3[2], undefined, false, 'zdania', false, false, tablica3[1]);
                     }
-                    przekazArgument0(tablica3[2], '', '', 'fiszki', true, true, tablica3[1]);
+                    przekazArgument0(tablica3[2], '', false, 'fiszki', true, true, tablica3[1]);
                     ustawTryb('fiszki');
                 </script>
                 <script id="demoScript" data-category=""></script>

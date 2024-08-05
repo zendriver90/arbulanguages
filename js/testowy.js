@@ -37,7 +37,7 @@ const fiszki = [
         sentence1: [
             "Everybody"
         ],
-        sentence: [
+        sentence1a: [
             "Everybody",
             "has",
             "fun"
@@ -80,7 +80,7 @@ const fiszki = [
         sentence1: [
             "has"
         ],
-        sentence: [
+        sentence1a: [
             "Everybody",
             "has",
             "fun"
@@ -121,7 +121,7 @@ const fiszki = [
         sentence1: [
             "fun"
         ],
-        sentence: [
+        sentence1a: [
             "Everybody",
             "has",
             "fun"
@@ -162,7 +162,7 @@ const fiszki = [
         sentence2: [
             "at"
         ],
-        sentence: [
+        sentence2a: [
             "at",
             "the",
             "party"
@@ -203,7 +203,7 @@ const fiszki = [
         sentence2: [
             "the"
         ],
-        sentence: [
+        sentence2a: [
             "at",
             "the",
             "party"
@@ -244,7 +244,7 @@ const fiszki = [
         sentence2: [
             "party"
         ],
-        sentence: [
+        sentence2a: [
             "at",
             "the",
             "party"
