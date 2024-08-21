@@ -579,8 +579,8 @@ function addFlashcardContainer() {
 <button class="czas" onclick="ustawTryb('zdania'); przekazArgument0(globalCategory, '', '', 'zdania', false, false, tablica3[1])">5 MINUT (JEDNO ZDANIE)</button>
     <button id="english" class="czas" onclick="ustawTryb('fiszki'); przekazArgument0(globalCategory, '', '', 'fiszki', true, true, tablica3[1])">10 MINUT (3 ZDANIA) - OPCJONALNIE</button>
     <br>TRYB LEKCJI<br>
-            <button id="osoby" class="charakter-button" onclick="ustawTryb('zdania'); przekazArgument0(globalCategory, '', '', 'zdania', false, false, tablica3[1])">ZDANIA</button>
-<button id="english" class="czas" onclick="ustawTryb('frazy'); przekazArgument0(globalCategory, '', '', 'frazy', true, true, tablica3[1])">FRAZY</button>
+<button id="osoby" class="charakter-button" onclick="ustawTryb(tablica3[0], ''); przekazArgument0(globalCategory, '', '', tablica3[0], false, false, tablica3[1])">ZDANIA</button>
+<button id="english" class="czas" onclick="ustawTryb(tablica3[0], 'frazy'); przekazArgument0(globalCategory, '', '', '', true, true, tablica3[1])">FRAZY</button>
             <button class="czas">POJEDYŃCZE SŁOWA</button>
             <br>DOSTĘPNE WERSJE TŁUMACZENIA<br>
             <button id="english" class="charakter-button" onclick="wybierzCharakter()">NA ŻADANIE-OPCJONALNIE</button>
@@ -724,16 +724,17 @@ tablica3[2] = category;
     tablica15.length = 0;
     globalIdTranslate = idtranslate;
     // Wywołaj funkcję wybierzCharakter na podstawie trybu
-        wybierzCharakter(category, tablica3[0], index55, buttonindex, tablica3[1]);
+        wybierzCharakter(category, tablica3[0], index55, buttonindex, tablica3[1], tablica3[3]);
 }
 
-function ustawTryb(tryb) {
+function ustawTryb(tryb, frazy) {
     // Zaktualizuj pierwszą wartość w tablicy lub dodaj, jeśli jest pusta
     tablica3[0] = tryb;
+    tablica3[3] = frazy;
 }
                                                                                 console.log('hej33bb', tablica3);
                     // Funkcja wybierająca charakter
-                    function wybierzCharakter(category, czas, index55, buttonindex, idpolski) {
+                    function wybierzCharakter(category, czas, index55, buttonindex, idpolski, frazyid) {
                         console.log('hej223', czas, category, idpolski);
                         
                         pulpitstartowy = false;
@@ -741,7 +742,7 @@ function ustawTryb(tryb) {
                         // Aktualizuj matchingIndexes na podstawie nowej kategorii
                         matchingIndexes = findXForMatchingFiszka(globalCategory, fiszki);
 
-                        wybierzRodzaj(globalCategory, czas, matchingIndexes, index55, buttonindex, idpolski);
+                        wybierzRodzaj(globalCategory, czas, matchingIndexes, index55, buttonindex, idpolski, frazyid);
                         // Wyświetl na konsoli zaktualizowane matchingIndexes
                         console.log("Zaktualizowane matchingIndexes:", matchingIndexes);
                         console.log("wykonuje sie", indexes);
@@ -967,7 +968,7 @@ function ustawTryb(tryb) {
                     }
                     console.log("Matching indexes:", matchingIndexes);
                     let polski = false;
-function wybierzRodzaj(category, czas, matchingIndexes, index55, buttonindex, idpolski) {
+function wybierzRodzaj(category, czas, matchingIndexes, index55, buttonindex, idpolski, frazyid) {
     category = category || globalCategory;
     czasv2 = czas;
     console.log("Wybrany rodzaj słownictwa: ", buttonindex);
@@ -991,7 +992,7 @@ for (const fiszka of fiszki) {
 
     // Dodanie fiszki do matchingLessons na podstawie warunków
     if (matchingFiszka) {
-        if (czas === 'frazy') {
+        if (frazyid === 'frazy') {
             matchingLessons2.add(fiszka.id[2]);
         } else {
             // Dodawanie id do matchingLessons, jeśli czas nie jest 'frazy'
@@ -1030,7 +1031,7 @@ for (const fiszka of fiszki) {
 
         myVariable = validLessons;
     }
-if (czas === 'frazy' && czas !== "zdania") {
+if (frazyid === 'frazy' && czas !== "zdania") {
         console.log('Warunek czas === "fiszki" jest spełniony');
                             $('.grid-container .image-container4').remove();
                             $('.grid-container .image-container3').remove();
@@ -4080,12 +4081,12 @@ useFirstPartLength = !useFirstPartLength;
                                         } else {
                                             console.log('hej465', polski);
                                             $sentence1bba.css({
-                                                'margin-bottom': '-200px',
+                                                'margin-bottom': '-20px',
                                                 'top': '0px',
                                                 'position': 'relative'
                                             });
                                             $sentence1bbab.css({
-                                                'margin-bottom': '-100px',
+                                                'margin-bottom': '-10px',
                                                 'top': '40px',
                                                 'position': 'relative'
                                             });
