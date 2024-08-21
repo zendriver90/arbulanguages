@@ -2,9 +2,9 @@ const fiszki = [
     {
         id: [
             1,
+            1,
             1
         ],
-
         // obrazek
         img: [
             "http://localhost/arbulanguage.com/img/fiszki1/2a.jpg",
@@ -16,6 +16,7 @@ const fiszki = [
         translate: "Wszyscy mają ubaw na zabawie",
         translateb: "[Ewrybody hes fan at de party]",
         srcWord: ["http://localhost/arbulanguage.com/filmy/party.mp4", 'The Matrix Reloaded'],
+        srcWord2: ["http://localhost/arbulanguage.com/filmy/procedure.mp4", "Breaking Bad"],
         srcWordimage: "http://localhost/arbulanguage.com/filmy/party.png",
         word: [
             "http://localhost/arbulanguage.com/voice/music.mp4"
@@ -37,7 +38,7 @@ const fiszki = [
         sentence1: [
             "Everybody"
         ],
-        sentence1a: [
+        sentence: [
             "Everybody",
             "has",
             "fun"
@@ -57,6 +58,7 @@ const fiszki = [
     {
         id: [
             2,
+            1,
             1
         ],
         img: [
@@ -80,7 +82,7 @@ const fiszki = [
         sentence1: [
             "has"
         ],
-        sentence1a: [
+        sentence: [
             "Everybody",
             "has",
             "fun"
@@ -98,6 +100,7 @@ const fiszki = [
     {
         id: [
             3,
+            1,
             1
         ],
         img: [
@@ -121,7 +124,7 @@ const fiszki = [
         sentence1: [
             "fun"
         ],
-        sentence1a: [
+        sentence: [
             "Everybody",
             "has",
             "fun"
@@ -139,7 +142,8 @@ const fiszki = [
     {
         id: [
             4,
-            1
+            1,
+            2
         ],
         img: [
             "http://localhost/arbulanguage.com/img/fiszki1/2d.jpg",
@@ -151,6 +155,7 @@ const fiszki = [
         word: [
             "http://localhost/arbulanguage.com/src/at.wav"
         ],
+        srcWord2: ["http://localhost/arbulanguage.com/filmy/procedure.mp4", "Breaking Bad"],
         story: [
             "<u><b>W tym</u></b> atelcie jest dużo siły",
             "Scott <u><b>At</u></b>kinson <u><b>w tym</u></b> lesie był na spacerze",
@@ -162,7 +167,7 @@ const fiszki = [
         sentence2: [
             "at"
         ],
-        sentence2a: [
+        sentence: [
             "at",
             "the",
             "party"
@@ -180,7 +185,8 @@ const fiszki = [
     {
         id: [
             5,
-            1
+            1,
+            2
         ],
         img: [
             "http://localhost/arbulanguage.com/img/fiszki1/2e.jpg",
@@ -203,7 +209,7 @@ const fiszki = [
         sentence2: [
             "the"
         ],
-        sentence2a: [
+        sentence: [
             "at",
             "the",
             "party"
@@ -221,7 +227,8 @@ const fiszki = [
     {
         id: [
             6,
-            1
+            1,
+            2
         ],
         img: [
             "http://localhost/arbulanguage.com/img/fiszki1/2f.jpg",
@@ -244,7 +251,7 @@ const fiszki = [
         sentence2: [
             "party"
         ],
-        sentence2a: [
+        sentence: [
             "at",
             "the",
             "party"
@@ -262,7 +269,8 @@ const fiszki = [
     {
         id: [
             7,
-            2
+            2,
+            3
         ],
         img: [
             "http://localhost/arbulanguage.com/img/fiszki1/1a.jpg",
@@ -274,6 +282,7 @@ const fiszki = [
         translate: "On jest posłuszny wobec naukowych procedur",
         translateb: "[Hi is obidient to sajens prosidżer]",
         srcWord: ["http://localhost/arbulanguage.com/filmy/procedure.mp4", "Breaking Bad"],
+        srcWord2: ["http://localhost/arbulanguage.com/filmy/procedure.mp4", "Breaking Bad"],
         srcWordimage: "http://localhost/arbulanguage.com/filmy/procedure.png",
         word: [
             "http://localhost/arbulanguage.com/voice/bike.mp4"
@@ -309,7 +318,8 @@ const fiszki = [
     {
         id: [
             8,
-            2
+            2,
+            3
         ],
         img: [
             "http://localhost/arbulanguage.com/img/fiszki1/1b.jpg",
@@ -352,7 +362,8 @@ const fiszki = [
     {
         id: [
             9,
-            2
+            2,
+            3
         ],
         img: [
             "http://localhost/arbulanguage.com/img/fiszki1/1c.jpg",
@@ -393,7 +404,8 @@ const fiszki = [
     {
         id: [
             10,
-            2
+            2,
+            4
         ],
         img: [
             "http://localhost/arbulanguage.com/img/fiszki1/1d.jpg",
@@ -405,6 +417,7 @@ const fiszki = [
         word: [
             "http://localhost/arbulanguage.com/src/to.wav"
         ],
+                srcWord2: ["http://localhost/arbulanguage.com/filmy/procedure.mp4", "Breaking Bad"],
         story: [
             "<u><b>Dla</u></b> spor<u><b>tu</b></u> przeszedłem się pieszo z domu do pracy",
             "Ratunku, <u><b>tu</u></b>taj są węże a ja nie mam <u><b>dla</u></b> nich jedzenia",
@@ -418,8 +431,8 @@ const fiszki = [
         ],
         sentence: [
             "to",
-            "science",
-            "procedure"
+            "scientific",
+            "procedures"
         ],
         key: "to",
         category1: [
@@ -434,7 +447,8 @@ const fiszki = [
     {
         id: [
             11,
-            2
+            2,
+            4
         ],
         img: [
             "http://localhost/arbulanguage.com/img/fiszki1/1e.jpg",
@@ -475,7 +489,8 @@ const fiszki = [
     {
         id: [
             12,
-            2
+            2,
+            4
         ],
         img: [
             "http://localhost/arbulanguage.com/img/fiszki1/1f.jpg",
@@ -516,7 +531,8 @@ const fiszki = [
     {
         id: [
             13,
-            3
+            3,
+            5
         ],
         img: [
             "http://localhost/arbulanguage.com/img/fiszki1/5a.jpg",
@@ -529,6 +545,7 @@ const fiszki = [
         translateb: "[Bi mor prezent wiz jour imołszyns]",
         srcWord: ["http://localhost/arbulanguage.com/filmy/emotions.mp4", "The Dark Knight(2008)"],
         srcWordimage: "http://localhost/arbulanguage.com/filmy/emotions.png",
+                srcWord2: ["http://localhost/arbulanguage.com/filmy/procedure.mp4", "Breaking Bad"],
         word: [
             "http://localhost/arbulanguage.com/src/be.wav"
         ],
@@ -562,7 +579,8 @@ const fiszki = [
     {
         id: [
             14,
-            3
+            3,
+            5
         ],
         img: [
             "http://localhost/arbulanguage.com/img/fiszki1/5b.jpg",
@@ -603,7 +621,8 @@ const fiszki = [
     {
         id: [
             15,
-            3
+            3,
+            5
         ],
         img: [
             "http://localhost/arbulanguage.com/img/fiszki1/5c.jpg",
@@ -644,7 +663,8 @@ const fiszki = [
     {
         id: [
             16,
-            3
+            3,
+            6
         ],
         img: [
             "http://localhost/arbulanguage.com/img/fiszki1/5d.jpg",
@@ -656,6 +676,7 @@ const fiszki = [
         word: [
             "http://localhost/arbulanguage.com/src/with.wav"
         ],
+                srcWord2: ["http://localhost/arbulanguage.com/filmy/procedure.mp4", "Breaking Bad"],
         story: [
             "<u><b>Z</u></b> <u><b>wiz</u></b>ualizacją wygranej sportowcy są bardziej przygotowani",
             "Wizja wiewiórek, które jedzą z wiadomo, którego wiaderka(mojego) jest słuszna",
@@ -685,7 +706,8 @@ const fiszki = [
     {
         id: [
             17,
-            3
+            3,
+            6
         ],
         img: [
             "http://localhost/arbulanguage.com/img/fiszki1/5e.jpg",
@@ -726,7 +748,8 @@ const fiszki = [
     {
         id: [
             18,
-            3
+            3,
+            6
         ],
         img: [
             "http://localhost/arbulanguage.com/img/fiszki1/5f.jpg",
@@ -767,7 +790,8 @@ const fiszki = [
     {
         id: [
             19,
-            4
+            4,
+            7
         ],
         img: [
             "http://localhost/arbulanguage.com/img/fiszki1/4a.jpg",
@@ -779,6 +803,7 @@ const fiszki = [
         translate: "Ja jestem nieśmiały, ale czasami odważny",
         translateb: "[Aj em szaj bat samtajms der]",
         srcWord: ["http://localhost/arbulanguage.com/filmy/shy.mp4", 'The Matrix Reloaded (2003)'],
+                srcWord2: ["http://localhost/arbulanguage.com/filmy/procedure.mp4", "Breaking Bad"],
         srcWordimage: "http://localhost/arbulanguage.com/filmy/shy.png",
         word: [
             "http://localhost/arbulanguage.com/voice/music.mp4"
@@ -813,7 +838,8 @@ const fiszki = [
     {
         id: [
             20,
-            4
+            4,
+            7
         ],
         img: [
             "http://localhost/arbulanguage.com/img/fiszki1/4b.jpg",
@@ -852,7 +878,8 @@ const fiszki = [
     {
         id: [
             21,
-            4
+            4,
+            7
         ],
         img: [
             "http://localhost/arbulanguage.com/img/fiszki1/4c.jpg",
@@ -891,7 +918,8 @@ const fiszki = [
     {
         id: [
             22,
-            4
+            4,
+            8
         ],
         img: [
             "http://localhost/arbulanguage.com/img/fiszki1/4d.jpg",
@@ -929,7 +957,8 @@ const fiszki = [
     {
         id: [
             23,
-            4
+            4,
+            8
         ],
         img: [
             "http://localhost/arbulanguage.com/img/fiszki1/4e.jpg",
@@ -967,7 +996,8 @@ const fiszki = [
     {
         id: [
             24,
-            4
+            4,
+            8
         ],
         img: [
             "http://localhost/arbulanguage.com/img/fiszki1/4f.jpg",
@@ -1005,7 +1035,8 @@ const fiszki = [
     {
         id: [
             25,
-            5
+            5,
+            9
         ],
         img: [
             "http://localhost/arbulanguage.com/img/fiszki1/3a.jpg",
@@ -1051,7 +1082,8 @@ const fiszki = [
     {
         id: [
             26,
-            5
+            5,
+            9
         ],
         img: [
             "http://localhost/arbulanguage.com/img/fiszki1/3b.jpg",
@@ -1089,7 +1121,8 @@ const fiszki = [
     {
         id: [
             27,
-            5
+            5,
+            9
         ],
         img: [
             "http://localhost/arbulanguage.com/img/fiszki1/3c.jpg",
@@ -1127,7 +1160,8 @@ const fiszki = [
     {
         id: [
             28,
-            5
+            5,
+            10
         ],
         img: [
             "http://localhost/arbulanguage.com/img/fiszki1/3d.jpg",
@@ -1165,7 +1199,8 @@ const fiszki = [
     {
         id: [
             29,
-            5
+            5,
+            10
         ],
         img: [
             "http://localhost/arbulanguage.com/img/fiszki1/3e.jpg",
@@ -1203,7 +1238,8 @@ const fiszki = [
     {
         id: [
             30,
-            5
+            5,
+            10
         ],
         img: [
             "http://localhost/arbulanguage.com/img/fiszki1/3f.jpg",
@@ -1241,7 +1277,8 @@ const fiszki = [
     {
         id: [
             31,
-            6
+            6,
+            11
         ],
         img: [
             "http://localhost/arbulanguage.com/img/fiszki1/6a.jpg",
@@ -1285,7 +1322,8 @@ const fiszki = [
     {
         id: [
             32,
-            6
+            6,
+            11
         ],
         img: [
             "http://localhost/arbulanguage.com/img/fiszki1/6b.jpg",
@@ -1317,7 +1355,8 @@ const fiszki = [
     {
         id: [
             33,
-            6
+            6,
+            11
         ],
         img: "http://localhost/arbulanguage.com/img/fiszki1/6c.jpg",
         story: "<b><u>Organ</b></u>izacja dobroczynna współpracuje z Filipem H<b><u>ajze</b></u>rem",
@@ -1337,7 +1376,8 @@ const fiszki = [
     {
         id: [
             34,
-            6
+            6,
+            12
         ],
         img: "http://localhost/arbulanguage.com/img/fiszki1/6d.jpg",
         story: "<b><u>Kła</b></u>dziemy <b><u>całkiem</b></u> duży nacisk na ilość b<b><u>ajt</b></u>ów w pliku",
@@ -1357,7 +1397,8 @@ const fiszki = [
     {
         id: [
             35,
-            6
+            6,
+            12
         ],
         img: "http://localhost/arbulanguage.com/img/fiszki1/6e.jpg",
         story: "<b><u>Interesujące</b></u> są te boksersie spar<b><u>ing</b></u>i",
@@ -1377,7 +1418,8 @@ const fiszki = [
     {
         id: [
             36,
-            6
+            6,
+            12
         ],
         img: "http://localhost/arbulanguage.com/img/fiszki1/6f.jpg",
         story: "Prezydent miasta trochę sepleni i patrzy w <b><u>inwent</b></u>a<b><u>ssss</b></u>, a tam same wydarzenia kulturowe",
@@ -1397,7 +1439,8 @@ const fiszki = [
     {
         id: [
             37,
-            7
+            7,
+            13
         ],
         img: "http://localhost/arbulanguage.com/img/fiszki1/7a.jpg",
         srcWord: ["http://localhost/arbulanguage.com/filmy/company.mp4", "Rampage (2018)"],
@@ -1425,7 +1468,8 @@ const fiszki = [
     {
         id: [
             38,
-            7
+            7,
+            13
         ],
         img: "http://localhost/arbulanguage.com/img/fiszki1/7b.jpg",
         story: "<b><u>Kamp</b></u>ing jest koloru <b><u>any</b></u>żowego, prowadzi go <b><u>firma</b></u> z Polski",
@@ -1445,7 +1489,8 @@ const fiszki = [
     {
         id: [
             39,
-            7
+            7,
+            13
         ],
         img: "http://localhost/arbulanguage.com/img/fiszki1/7c.jpg",
         story: "<b><u>Start</b></u>uje z udawaniem węża.. <b><u>ssssss</b></u>",
@@ -1465,7 +1510,8 @@ const fiszki = [
     {
         id: [
             40,
-            7
+            7,
+            14
         ],
         img: "http://localhost/arbulanguage.com/img/fiszki1/7d.jpg",
         story: "<b><u>Dewelop</b></u>er gra w p<b><u>ing</b></u>-ponga z właścicielem i <b><u>rozwija</b></u> narracje, aby coś ugrać",
@@ -1485,7 +1531,8 @@ const fiszki = [
     {
         id: [
             41,
-            7
+            7,
+            14
         ],
         img: "http://localhost/arbulanguage.com/img/fiszki1/7e.jpg",
         story: "<b><u>Soł</b></u>tys <b><u>tak bardzo</b></u> lubi tą wieś",
@@ -1505,7 +1552,8 @@ const fiszki = [
     {
         id: [
             42,
-            7
+            7,
+            14
         ],
         img: "http://localhost/arbulanguage.com/img/fiszki1/7f.jpg",
         story: "<b><u>Inten</b></u>cją zo<b><u>si</b></u> jest <b><u>wli</b></u>czenie jej zasług do intensywnej pracy społeczności",
@@ -1525,7 +1573,8 @@ const fiszki = [
     {
         id: [
             43,
-            8
+            8,
+            15
         ],
         img: "http://localhost/arbulanguage.com/img/fiszki1/8a.jpg",
         srcWord: ["http://localhost/arbulanguage.com/filmy/book.mp4", "Inception (2010)"],
@@ -1553,7 +1602,8 @@ const fiszki = [
     {
         id: [
             44,
-            8
+            8,
+            15
         ],
         img: "http://localhost/arbulanguage.com/img/fiszki1/8b.jpg",
         story: "Z drzewa <b><u>buk</b></u>owego jest najlepszy papier na <b><u>książki</b></u>",
@@ -1573,7 +1623,8 @@ const fiszki = [
     {
         id: [
             45,
-            8
+            8,
+            15
         ],
         img: "http://localhost/arbulanguage.com/img/fiszki1/8c.jpg",
         story: "<b><u>Bel</b></u>ki <b><u>przynależą</b></u> do stropu, w Mongoli tak robiono stropy",
@@ -1593,7 +1644,8 @@ const fiszki = [
     {
         id: [
             46,
-            8
+            8,
+            16
         ],
         img: "http://localhost/arbulanguage.com/img/fiszki1/8d.jpg",
         story1: [
@@ -1620,7 +1672,8 @@ const fiszki = [
     {
         id: [
             47,
-            8
+            8,
+            16
         ],
         img: "http://localhost/arbulanguage.com/img/fiszki1/8e.jpg",
         story: "<b><u>Jego</b></u> <b><u>his</b></u>toria jest bardzo atrakcyjna i bujna",
@@ -1640,7 +1693,8 @@ const fiszki = [
     {
         id: [
             48,
-            8
+            8,
+            16
         ],
         img: "http://localhost/arbulanguage.com/img/fiszki1/8f.jpg",
         story: "<b><u>Kłóciłem się z <b><u>dziadkeim</b></u> i była granda.. ta familia mnie już <b><u>de</b></u>ne<b><u>r</b></u>wuje",
@@ -1659,13 +1713,15 @@ const fiszki = [
     {
         id: [
             49,
-            9
+            9,
+            17
         ],
         img: "http://localhost/arbulanguage.com/img/fiszki1/9a.jpg",
         translate: "Moi sąsiedzi sprzedali ich duży dom",
         translateb: "[Maj nejbours sel deir big hałs]",
         srcWord: ["http://localhost/arbulanguage.com/filmy/bighouse.mp4", "Mechanik: Konfrontacja (2013)"],
         srcWordimage: "http://localhost/arbulanguage.com/filmy/bighouse.png",
+                srcWord2: ["http://localhost/arbulanguage.com/filmy/procedure.mp4", "Breaking Bad"],
         story: [
             "W <b><u>maj</b></u>u kwitną <b><u>moje</b></u> ulubione kwiaty",
             "Przetrzymaj mi na pare dni moje auto"
@@ -1690,7 +1746,8 @@ const fiszki = [
     {
         id: [
             50,
-            9
+            9,
+            17
         ],
         img: "http://localhost/arbulanguage.com/img/fiszki1/9b.jpg",
         story: "<b><u>Dla zdol<b><u>nej</b></u> ucznnicy <b><u>sąsiedzi<b><u> ułożyli wierszyk, <b><u>bo</b></u> <b><u>s</b></u>ą jej urodziny",
@@ -1711,7 +1768,8 @@ const fiszki = [
     {
         id: [
             51,
-            9
+            9,
+            17
         ],
         img: "http://localhost/arbulanguage.com/img/fiszki1/9c.jpg",
         story: "Ten <b><u>sel</b></u>er łatwo jest <b><u>sprzedać</b></u> na targu",
@@ -1732,7 +1790,8 @@ const fiszki = [
         {
         id: [
             52,
-            9
+            9,
+            17
         ],
         img: "http://localhost/arbulanguage.com/img/fiszki1/9c.jpg",
         story: "Ten <b><u>sel</b></u>er łatwo jest <b><u>sprzedać</b></u> na targu",
@@ -1753,9 +1812,11 @@ const fiszki = [
     {
         id: [
             53,
-            9
+            9,
+            18
         ],
         img: "http://localhost/arbulanguage.com/img/fiszki1/9d.jpg",
+                srcWord2: ["http://localhost/arbulanguage.com/filmy/procedure.mp4", "Breaking Bad"],
         story: "<b><u>W ten <b><u>de</b></u>seń jest <b><u>i</b></u>ch <b><u>r</b></u>obota",
         desc: "their[deir] - ich",
         sentence2: [
@@ -1773,7 +1834,8 @@ const fiszki = [
     {
         id: [
             54,
-            9
+            9,
+            18
         ],
         img: "http://localhost/arbulanguage.com/img/fiszki1/9e.jpg",
         story: "Bardzo <b><u>duży</b></u> samolot M<b><u>ig</b></u> właśnie przeleciał na niebie",
@@ -1793,7 +1855,8 @@ const fiszki = [
     {
         id: [
             55,
-            9
+            9,
+            18
         ],
         img: "http://localhost/arbulanguage.com/img/fiszki1/9f.jpg",
         story: "W <b><u>domu</b></u> mamy psa, który robi <b><u>hał</b></u>.. hał.. na sąsiadów i wabi się <b><u>S</b></u>ara",
@@ -1813,7 +1876,8 @@ const fiszki = [
     {
         id: [
             56,
-            10
+            10,
+            19
         ],
         img: "http://localhost/arbulanguage.com/img/fiszki1/10a.jpg",
         translate: "Mój pies jest dobrym przyjacielem",
@@ -1848,7 +1912,8 @@ const fiszki = [
     {
         id: [
             57,
-            10
+            10,
+            19
         ],
         img: "http://localhost/arbulanguage.com/img/fiszki1/10b.jpg",
         story: "Mój <b><u>pies</b></u> mnie słucha, <b><u>dog</b></u>aduje się z nim",
@@ -1868,7 +1933,8 @@ const fiszki = [
     {
         id: [
             58,
-            10
+            10,
+            19
         ],
         img: "http://localhost/arbulanguage.com/img/fiszki1/1b.jpg",
         story: [
@@ -1896,7 +1962,8 @@ const fiszki = [
     {
         id: [
             59,
-            10
+            10,
+            20
         ],
         img: "http://localhost/arbulanguage.com/img/fiszki1/10d.jpg",
         story: "Zobaczyłem wypłatę.. <b><u>eeeee</b></u> to jest dopiero wypłata",
@@ -1916,7 +1983,8 @@ const fiszki = [
     {
         id: [
             60,
-            10
+            10,
+            20
         ],
         img: "http://localhost/arbulanguage.com/img/fiszki1/10e.jpg",
         story: "Jest <b><u>dobrze</b></u> kiedy jest więcej wy<b><u>gód</b></u>",
@@ -1936,7 +2004,8 @@ const fiszki = [
     {
         id: [
             61,
-            10
+            10,
+            20
         ],
         img: "http://localhost/arbulanguage.com/img/fiszki1/10f.jpg",
         story: "<b><u>End</b></u>riu ma <b><u>fr</b></u>ak na zimę, każda pora roku to jego przyjaciel",
@@ -1956,7 +2025,8 @@ const fiszki = [
     {
         id: [
             62,
-            11
+            11,
+            21
         ],
         img: "http://localhost/arbulanguage.com/img/fiszki1/11a.jpg",
         translate: "Nauczyciel stara się pomóc nam",
@@ -1984,7 +2054,8 @@ const fiszki = [
     {
         id: [
             63,
-            11
+            11,
+            21
         ],
         img: "http://localhost/arbulanguage.com/img/fiszki1/11b.jpg",
         story: "W tym pa<b><u>ti</b></u>o siedzi nauczyciel w <b><u>czer</b></u>wonej koszuli",
@@ -2006,7 +2077,8 @@ const fiszki = [
     {
         id: [
             64,
-            11
+            11,
+            21
         ],
         img: "http://localhost/arbulanguage.com/img/fiszki1/11c.jpg",
         story: "Nasa <b><u>próbuje</b></u> zmienić <b><u>traj</b></u>ektorie lotu <b><u>s</b></u>atelity",
@@ -2026,7 +2098,8 @@ const fiszki = [
     {
         id: [
             65,
-            11
+            11,
+            22
         ],
         img: "http://localhost/arbulanguage.com/img/fiszki1/8d.jpg",
         story: [
@@ -2053,7 +2126,8 @@ const fiszki = [
     {
         id: [
             66,
-            11
+            11,
+            22
         ],
         img: "http://localhost/arbulanguage.com/img/fiszki1/11e.jpg",
         story: "Gaz - <b><u>hel</b></u>, <b><u>p</b></u>omaga zmieniać ton głosu",
@@ -2073,7 +2147,8 @@ const fiszki = [
     {
         id: [
             67,
-            11
+            11,
+            22
         ],
         img: "http://localhost/arbulanguage.com/img/fiszki1/11f.jpg",
         story: "<b><u>As</b></u>teroida pod mikroskopem wydaje się <b><u>nam</b></u> niezwykła",
@@ -2093,7 +2168,8 @@ const fiszki = [
     {
         id: [
             68,
-            12
+            12,
+            23
         ],
         img: "http://localhost/arbulanguage.com/img/fiszki1/5e.jpg",
         translate: "Twoi rodzice wydają się być przyjaźni",
@@ -2127,7 +2203,8 @@ const fiszki = [
     {
         id: [
             69,
-            12
+            12,
+            23
         ],
         img: "http://localhost/arbulanguage.com/img/fiszki1/12b.jpg",
         story: "<b><u>Pare</b></u> lat temu moi <b><u>rodzice</b></u> byli sentym<b><u>ent</b></u>alni i chyba <b><u>s</b></u>ą nadal",
@@ -2147,7 +2224,8 @@ const fiszki = [
     {
         id: [
             70,
-            12
+            12,
+            23
         ],
         img: "http://localhost/arbulanguage.com/img/fiszki1/12c.jpg",
         story: "Ta karta <b><u>sim</b></u> nie działa, <b><u>wydaje mi się</b></u>, że uszkodziłem ją wcześniej",
@@ -2167,7 +2245,8 @@ const fiszki = [
     {
         id: [
             71,
-            12
+            12,
+            24
         ],
         img: "http://localhost/arbulanguage.com/img/fiszki1/8d.jpg",
         story: [
@@ -2196,7 +2275,8 @@ const fiszki = [
     {
         id: [
             72,
-            12
+            12,
+            24
         ],
         img: "http://localhost/arbulanguage.com/img/fiszki1/5a.jpg",
         story: [
@@ -2221,7 +2301,8 @@ const fiszki = [
     {
         id: [
             73,
-            12
+            12,
+            24
         ],
         img: "http://localhost/arbulanguage.com/img/fiszki1/12f.jpg",
         story: "Mali <b><u>Fr</b></u>anek i <b><u>End</b></u>riu są <b><u>dl</b></u>a siebie <b><u>przyjacielscy</b></u>",
@@ -2241,7 +2322,8 @@ const fiszki = [
     {
         id: [
             74,
-            13
+            13,
+            25
         ],
         img: "http://localhost/arbulanguage.com/img/fiszki1/13a.jpg",
         translate: "Psy mogą biec naprawdę szybko",
@@ -2272,7 +2354,8 @@ const fiszki = [
     {
         id: [
             75,
-            13
+            13,
+            25
         ],
         img: "http://localhost/arbulanguage.com/img/fiszki1/13b.jpg",
         story: [
@@ -2298,7 +2381,8 @@ const fiszki = [
     {
         id: [
             76,
-            13
+            13,
+            25
         ],
         img: "http://localhost/arbulanguage.com/img/fiszki1/13c.jpg",
         story: "W <b><u>Ken</b></u>ii każdy <b><u>może</b></u> ubierać się na ciepłą pogodę",
@@ -2318,7 +2402,8 @@ const fiszki = [
     {
         id: [
             77,
-            13
+            13,
+            26
         ],
         img: "http://localhost/arbulanguage.com/img/fiszki1/13d.jpg",
         story: "<b><u>Ran</b></u>o zawsze <b><u>biegam</b></u>",
@@ -2338,7 +2423,8 @@ const fiszki = [
     {
         id: [
             78,
-            13
+            13,
+            26
         ],
         img: "http://localhost/arbulanguage.com/img/fiszki1/13e.jpg",
         story: "Na spotkaniu g<b><u>ril</b></u>owym naprawdę można się najeść saszł<b><u>y</b></u>ków",
@@ -2358,7 +2444,8 @@ const fiszki = [
     {
         id: [
             79,
-            13
+            13,
+            26
         ],
         img: "http://localhost/arbulanguage.com/img/fiszki1/13f.jpg",
         story: "Ten chw<b><u>ast</b></u> szybko rośnie, bo to <b><u>f</b></u>uriat wśród chwastów",
@@ -2378,7 +2465,8 @@ const fiszki = [
     {
         id: [
             80,
-            14
+            14,
+            27
         ],
         img: "http://localhost/arbulanguage.com/img/fiszki1/14a.jpg",
         translate: "Ta edycja traci ważność w tym tygodniu",
@@ -2409,7 +2497,8 @@ const fiszki = [
     {
         id: [
             81,
-            14
+            14,
+            27
         ],
         img: "http://localhost/arbulanguage.com/img/fiszki1/14b.jpg",
         story: "Kiedy <b><u>Edi</b></u>son robił przerwe w tworzeniu żarówki jadł bułkę z <b><u>szyn</b></u>ką",
@@ -2428,7 +2517,8 @@ const fiszki = [
     {
         id: [
             82,
-            14
+            14,
+            27
         ],
         img: "http://localhost/arbulanguage.com/img/fiszki1/14c.jpg",
         story: "Jedziemy do miejscowości X na wakacje pod palmy i statkiem w rejs.. musimy zapłacić X dnia, później okazja się przedawnia",
@@ -2448,7 +2538,8 @@ const fiszki = [
     {
         id: [
             83,
-            14
+            14,
+            28
         ],
         img: "http://localhost/arbulanguage.com/img/fiszki1/14d.jpg",
         story: [
@@ -2475,7 +2566,8 @@ const fiszki = [
     {
         id: [
             84,
-            14
+            14,
+            28
         ],
         img: "http://localhost/arbulanguage.com/img/fiszki1/14e.jpg",
         story: "Po francusku tak to <b><u>łi</b></u>, w tym <b><u>tygodniu</b></u> mam na studiach egazminy z francuskiego i za<b><u>k</b></u>uwam materiał",
@@ -2494,7 +2586,8 @@ const fiszki = [
     {
         id: [
             85,
-            15
+            15,
+            29
         ],
         img: "http://localhost/arbulanguage.com/img/fiszki1/15a.jpg",
         translate: "On ma szeroki zasób słów",
@@ -2521,7 +2614,8 @@ const fiszki = [
     {
         id: [
             86,
-            15
+            15,
+            29
         ],
         img: "http://localhost/arbulanguage.com/img/fiszki1/15b.jpg",
         story: [
@@ -2544,7 +2638,8 @@ const fiszki = [
     {
         id: [
             87,
-            15
+            15,
+            29
         ],
         img: "http://localhost/arbulanguage.com/img/fiszki1/15c.jpg",
         story: "Nasza <b><u>łaj</b></u>ba znajduje się na <b><u>szerokim</b></u> morzu, daleko ma <b><u>d</b></u>o lądu",
@@ -2564,7 +2659,8 @@ const fiszki = [
     {
         id: [
             88,
-            15
+            15,
+            30
         ],
         img: "http://localhost/arbulanguage.com/img/fiszki1/15d.jpg",
         story: "Amerykański żołnierz <b><u>Rang</b></u>ers ma szeroki <b><u>zakres</b></u> umiejętności",
@@ -2584,7 +2680,8 @@ const fiszki = [
     {
         id: [
             89,
-            15
+            15,
+            30
         ],
         img: "http://localhost/arbulanguage.com/img/fiszki1/15e.jpg",
         story: "Tą <b><u>of</b></u>ensywę podjął każdy żołnierz",
@@ -2604,7 +2701,8 @@ const fiszki = [
     {
         id: [
             90,
-            15
+            15,
+            30
         ],
         img: "http://localhost/arbulanguage.com/img/fiszki1/15f.jpg",
         story: "Ośrodek <b><u>WORD</b></u> to Wojewódzki Ośrodek Ruchu Drogowego - taka <b><u>s</b></u>zkoła",
@@ -2624,7 +2722,8 @@ const fiszki = [
     {
         id: [
             91,
-            16
+            16,
+            31
         ],
         img: "http://localhost/arbulanguage.com/img/fiszki1/16a.jpg",
         translate: "On odważył się podejść do niej",
@@ -2654,7 +2753,8 @@ const fiszki = [
     {
         id: [
             92,
-            16
+            16,
+            31
         ],
         img: "http://localhost/arbulanguage.com/img/fiszki1/16b.jpg",
         story: [
@@ -2676,7 +2776,8 @@ const fiszki = [
     {
         id: [
             93,
-            16
+            16,
+            32
         ],
         img: "http://localhost/arbulanguage.com/img/fiszki1/16c.jpg",
         story: [
@@ -2701,7 +2802,8 @@ const fiszki = [
     {
         id: [
             94,
-            16
+            16,
+            32
         ],
         img: "http://localhost/arbulanguage.com/img/fiszki1/16d.jpg",
         story: "Suczce <b><u>K</b></u>alina nie wolno sa<b><u>mej</b></u> ściągac jedzenia ze stołu, nie wolno jej tego <b><u>robić</b></u>",
@@ -2721,7 +2823,8 @@ const fiszki = [
     {
         id: [
             95,
-            16
+            16,
+            32
         ],
         img: "http://localhost/arbulanguage.com/img/fiszki1/16e.jpg",
         story: "<b><u>Ep</b></u>oka w której podchodzono do <b><u>ro</b></u>bienia ikon ołówkiem to stare <b><u>cz</b></u>asy",
@@ -2741,7 +2844,8 @@ const fiszki = [
     {
         id: [
             96,
-            17
+            17,
+            33
         ],
         img: "http://localhost/arbulanguage.com/img/fiszki1/17a.jpg",
         translate: "Ona jest przywiązana do swojego łuku",
@@ -2766,7 +2870,8 @@ const fiszki = [
     {
         id: [
             97,
-            17
+            17,
+            33
         ],
         img: "http://localhost/arbulanguage.com/img/fiszki1/17b.jpg",
         story1: [
@@ -2790,7 +2895,8 @@ const fiszki = [
     {
         id: [
             98,
-            17
+            17,
+            33
         ],
         img: "http://localhost/arbulanguage.com/img/fiszki1/17c.jpg",
         story: "Jestem przywiązany do z</b></u>apła<b><u>ty za moje usług, wypłatę wypłaca mi po</b></u>czt<b><u>a",
@@ -2810,7 +2916,8 @@ const fiszki = [
     {
         id: [
             99,
-            17
+            17,
+            34
         ],
         img: "http://localhost/arbulanguage.com/img/fiszki1/17d.jpg",
         story: [
@@ -2835,7 +2942,8 @@ const fiszki = [
     {
         id: [
             100,
-            17
+            17,
+            34
         ],
         img: "http://localhost/arbulanguage.com/img/fiszki1/17e.jpg",
         story: [
@@ -2858,7 +2966,8 @@ const fiszki = [
     {
         id: [
             101,
-            17
+            17,
+            34
         ],
         img: "http://localhost/arbulanguage.com/img/fiszki1/17f.jpg",
         story: "To jest <b><u>bo</b></u>ski <b><u>łuk</b></u>",
@@ -2878,7 +2987,8 @@ const fiszki = [
     {
         id: [
             102,
-            18
+            18,
+            35
         ],
         img: "http://localhost/arbulanguage.com/img/fiszki1/18a.jpg",
         translate: "On nie jest posłuszny swojemu trenerowi",
@@ -2908,7 +3018,8 @@ const fiszki = [
     {
         id: [
             103,
-            18
+            18,
+            35
         ],
         img: "http://localhost/arbulanguage.com/img/fiszki1/18b.jpg",
         story: "Leoni<b><u>das</b></u> król spartan odpala k<b><u>not</b></u> świeczki, bo <b><u>nie jest</b></u> odpalona",
@@ -2928,7 +3039,8 @@ const fiszki = [
     {
         id: [
             104,
-            18
+            18,
+            35
         ],
         img: "http://localhost/arbulanguage.com/img/fiszki1/18c.jpg",
         story: "Ta instalacja elektryczna ma <b><u>obej</b></u>ście i jest zrobiona według <b><u>posłuszeństwa</b></u> do norm",
@@ -2948,7 +3060,8 @@ const fiszki = [
     {
         id: [
             105,
-            18
+            18,
+            36
         ],
         img: "http://localhost/arbulanguage.com/img/fiszki1/18d.jpg",
         story: [
@@ -2973,7 +3086,8 @@ const fiszki = [
     {
         id: [
             106,
-            18
+            18,
+            36
         ],
         img: "http://localhost/arbulanguage.com/img/fiszki1/18e.jpg",
         story: [
@@ -2996,7 +3110,8 @@ const fiszki = [
     {
         id: [
             107,
-            18
+            18,
+            36
         ],
         img: "http://localhost/arbulanguage.com/img/fiszki1/18f.jpg",
         story: "<b><u>Tra</b></u>cę tkankę tłuszczową, bo ćwiczę i pije g<b><u>ajner</b></u> - tak jak polecił mi <b><u>trener</b></u>",
@@ -3016,7 +3131,8 @@ const fiszki = [
     {
         id: [
             108,
-            19
+            19,
+            37
         ],
         img: "http://localhost/arbulanguage.com/img/fiszki1/20a.jpg",
         translate: "To miasto jest pełne ludzi",
@@ -3045,7 +3161,8 @@ const fiszki = [
     {
         id: [
             109,
-            19
+            19,
+            37
         ],
         img: "http://localhost/arbulanguage.com/img/fiszki1/20b.jpg",
         story: "<b><u>Siti</b></u> Bank jest teraz bankiem na topie w każdym </b></u>mieście<b><u>",
@@ -3065,7 +3182,8 @@ const fiszki = [
     {
         id: [
             110,
-            19
+            19,
+            37
         ],
         img: "http://localhost/arbulanguage.com/img/fiszki1/20c.jpg",
         story1: [
@@ -3090,7 +3208,8 @@ const fiszki = [
     {
         id: [
             111,
-            19
+            19,
+            38
         ],
         img: "http://localhost/arbulanguage.com/img/fiszki1/20d.jpg",
         story: "Ktoś miał </b></u>fu<b><u>ksa i wylosował całą nagrodę w </b></u>l<b><u>oteri",
@@ -3110,7 +3229,8 @@ const fiszki = [
     {
         id: [
             112,
-            19
+            19,
+            38
         ],
         img: "http://localhost/arbulanguage.com/img/fiszki1/20e.jpg",
         story: [
@@ -3133,7 +3253,8 @@ const fiszki = [
     {
         id: [
             113,
-            19
+            19,
+            38
         ],
         img: "http://localhost/arbulanguage.com/img/fiszki1/20f.jpg",
         story: "Wszyscy </b></u>ludzie<b><u> muszą pić wodę tak jak <b><u>pel</b></u>ikany",
@@ -3153,7 +3274,8 @@ const fiszki = [
     {
         id: [
             114,
-            20
+            20,
+            39
         ],
         img: "http://localhost/arbulanguage.com/img/fiszki1/21a.jpg",
         translate: "Nasi studenci muszą uczyć się bardzo ciężko",
@@ -3178,7 +3300,8 @@ const fiszki = [
     {
         id: [
             115,
-            20
+            20,
+            39
         ],
         img: "http://localhost/arbulanguage.com/img/fiszki1/21b.jpg",
         story: "<b><u>St</b></u>aszek <b><u>ju</b></u>ż jest w <b><u>de</b></u>partamencie <b><u>studentów</b></u>",
@@ -3198,7 +3321,8 @@ const fiszki = [
     {
         id: [
             116,
-            20
+            20,
+            39
         ],
         img: "http://localhost/arbulanguage.com/img/fiszki1/21c.jpg",
         story: "Mar<b><u>chew</b></u> <b><u>musi</b></u> być zjedzona. Bo <b><u>tu</b></u> jest najlepsza marchew w mieście..",
@@ -3218,7 +3342,8 @@ const fiszki = [
     {
         id: [
             117,
-            20
+            20,
+            40
         ],
         img: "http://localhost/arbulanguage.com/img/fiszki1/21d.jpg",
         story: "Ekolog <b><u>studiuje</b></u> te <b><u>stad</b></u>o, które jest bardzo <b><u>dy</b></u>namiczne",
@@ -3238,7 +3363,8 @@ const fiszki = [
     {
         id: [
             118,
-            20
+            20,
+            40
         ],
         img: "http://localhost/arbulanguage.com/img/fiszki1/21e.jpg",
         story: "<b><u>Wery</b></u>fikacja przebiegła poprawnie dla tej osoby i ona jest <b><u>bardzo</b></u> zadowolona",
@@ -3258,7 +3384,8 @@ const fiszki = [
     {
         id: [
             119,
-            20
+            20,
+            40
         ],
         img: "http://localhost/arbulanguage.com/img/fiszki1/21f.jpg",
         story: "W <b><u>Har</b></u>wardzie każdy j<b><u>ard</b></u> ziemi jest obsadzony kwiatami",
@@ -3278,7 +3405,8 @@ const fiszki = [
     {
         id: [
             120,
-            21
+            21,
+            41
         ],
         img: "http://localhost/arbulanguage.com/img/fiszki1/22a.jpg",
         translate: "Nie mam czasu na czytanie",
@@ -3303,7 +3431,8 @@ const fiszki = [
     {
         id: [
             121,
-            21
+            21,
+            41
         ],
         img: "http://localhost/arbulanguage.com/img/fiszki1/22b.jpg",
         story: "<b><u>Nie</b></u> chcemy, żeby l<b><u>ont</b></u> został odpalony przedwcześnie. </\b><u>Do</b></u> odpalenia lontu potrzebne jest przygotowanie",
@@ -3323,7 +3452,8 @@ const fiszki = [
     {
         id: [
             122,
-            21
+            21,
+            41
         ],
         img: "http://localhost/arbulanguage.com/img/fiszki1/22c.jpg",
         story: "<b><u>Mam</b></u> fajne spodnie, ale puścił sz<b><u>ew</b></u>, <b><u>ch</b></u>yba go zaceruje",
@@ -3343,7 +3473,8 @@ const fiszki = [
     {
         id: [
             123,
-            21
+            21,
+            42
         ],
         img: "http://localhost/arbulanguage.com/img/fiszki1/22d.jpg",
         story: "Politycy mają dużo <b><u>czasu</b></u> - całą kadencje z<b><u>ajm</b></u>ować się stanowieniem prawa. A <b><u>ta</b></u>k im się spieszy",
@@ -3363,7 +3494,8 @@ const fiszki = [
     {
         id: [
             124,
-            21
+            21,
+            42
         ],
         img: "http://localhost/arbulanguage.com/img/fiszki1/22e.jpg",
         story: [
@@ -3388,7 +3520,8 @@ const fiszki = [
     {
         id: [
             125,
-            21
+            21,
+            42
         ],
         img: "http://localhost/arbulanguage.com/img/fiszki1/22f.jpg",
         story: "Floryda to stan w USA, który powinien być czytany Flo<b><u>rid</b></u>a",
@@ -3408,7 +3541,8 @@ const fiszki = [
     {
         id: [
             126,
-            22
+            22,
+            43
         ],
         img: "http://localhost/arbulanguage.com/img/fiszki1/23a.jpg",
         translate: "Ludzie myślą, że on ma racje",
@@ -3433,7 +3567,8 @@ const fiszki = [
     {
         id: [
             127,
-            22
+            22,
+            43
         ],
         img: "http://localhost/arbulanguage.com/img/fiszki1/23b.jpg",
         story: "<b><u>Fin</b></u>owie <b><u>myślą</b></u> bardzo pragmatycznie o kawie <b><u>ink</b></u>a",
@@ -3453,7 +3588,8 @@ const fiszki = [
     {
         id: [
             128,
-            22
+            22,
+            43
         ],
         img: "http://localhost/arbulanguage.com/img/fiszki1/23c.jpg",
         story: "<b><u>Dat</b></u>a tego przyszłego wydarzenia wskazuje, <b><u>że</b></u> niektórym się spieszy, aby się odbyło",
@@ -3473,7 +3609,8 @@ const fiszki = [
     {
         id: [
             129,
-            22
+            22,
+            44
         ],
         img: "http://localhost/arbulanguage.com/img/fiszki1/23d.jpg",
         story: "On jest już postacią <b><u>his</b></u>toryczną na ten moment",
@@ -3492,7 +3629,8 @@ const fiszki = [
     {
         id: [
             130,
-            22
+            22,
+            44
         ],
         img: "http://localhost/arbulanguage.com/img/fiszki1/23e.jpg",
         story: "<b><u>Dobrze</b></u> żyłeś. A <b><u>t</b></u>o jest <b><u>raj</b></u> dla ciebie",
@@ -3511,7 +3649,8 @@ const fiszki = [
     {
         id: [
             131,
-            23
+            23,
+            45
         ],
         img: "http://localhost/arbulanguage.com/img/fiszki1/24a.jpg",
         translate: "My powinniśmy dbać o naszą przyszłość",
@@ -3536,7 +3675,8 @@ const fiszki = [
     {
         id: [
             132,
-            23
+            23,
+            45
         ],
         img: "http://localhost/arbulanguage.com/img/fiszki1/24b.jpg",
         story: "<b><u>Szu</b></u>kam informacji jak <b><u>powinniśmy</b></u> teraz <b><u>d</b></u>orabiać",
@@ -3556,7 +3696,8 @@ const fiszki = [
     {
         id: [
             133,
-            23
+            23,
+            45
         ],
         img: "http://localhost/arbulanguage.com/img/fiszki1/24c.jpg",
         story: "<b><u>Ker</b></u>atynowe prostowanie włosów jest dostępne u fryzjera, tak możesz o siebie <b><u>zadbać</b></u>",
@@ -3576,7 +3717,8 @@ const fiszki = [
     {
         id: [
             134,
-            23
+            23,
+            46
         ],
         img: "http://localhost/arbulanguage.com/img/fiszki1/24d.jpg",
         story: "Trener daje dla tej drużyny <b><u>for</b></u>y",
@@ -3596,7 +3738,8 @@ const fiszki = [
     {
         id: [
             135,
-            23
+            23,
+            46
         ],
         img: "http://localhost/arbulanguage.com/img/fiszki1/24e.jpg",
         story1: [
@@ -3619,7 +3762,8 @@ const fiszki = [
     {
         id: [
             136,
-            23
+            23,
+            46
         ],
         img: "http://localhost/arbulanguage.com/img/fiszki1/24f.jpg",
         story: "<u><b>F</u></b>acebook jutro(<u><b>w przyszłości</u></b>) wprowadza zmiany na kolorystyke <u><b>czer</u></b>woną",
@@ -3639,7 +3783,8 @@ const fiszki = [
     {
         id: [
             137,
-            24
+            24,
+            47
         ],
         img: "http://localhost/arbulanguage.com/img/fiszki1/25a.jpg",
         translate: "Cena za złamanie zasad to moja człowiecza twarz",
@@ -3667,7 +3812,8 @@ const fiszki = [
     {
         id: [
             138,
-            24
+            24,
+            47
         ],
         img: "http://localhost/arbulanguage.com/img/fiszki1/25b.jpg",
         story: "<b><u>Cena</b></u> za moją <b><u>pra</b></u>ce nad drzeworytem jest wysoka. To da mi h<b><u>ajs</b></u>.",
@@ -3690,7 +3836,8 @@ const fiszki = [
     {
         id: [
             139,
-            24
+            24,
+            47
         ],
         img: "http://localhost/arbulanguage.com/img/fiszki1/25c.jpg",
         story: "<b><u>For</b></u>est Gump jest filmem <b><u>dla</b></u> każdego",
@@ -3713,7 +3860,8 @@ const fiszki = [
     {
         id: [
             140,
-            24
+            24,
+            47
         ],
         img: "http://localhost/arbulanguage.com/img/fiszki1/25d.jpg",
         story: "Król(<b><u>king</b></u>) <b><u>złamał</b></u> nogę i musi pić lekarstwo <b><u>brej</b></u>ę, żeby go uleczyło",
@@ -3736,7 +3884,8 @@ const fiszki = [
     {
         id: [
             141,
-            24
+            24,
+            47
         ],
         img: "http://localhost/arbulanguage.com/img/fiszki1/25e.jpg",
         story: "",
@@ -3759,7 +3908,8 @@ const fiszki = [
     {
         id: [
             142,
-            24
+            24,
+            47
         ],
         img: "http://localhost/arbulanguage.com/img/fiszki1/25f.jpg",
         story: "<b><u>Guru przepowiada <b><u>przyszłość</b></u>, w której mówi jaki ludzie będą mieć p<b><u>uls</b></u>",
@@ -3782,7 +3932,8 @@ const fiszki = [
     {
         id: [
             143,
-            24
+            24,
+            48
         ],
         img: "http://localhost/arbulanguage.com/img/fiszki1/25g.jpg",
         story: [
@@ -3807,7 +3958,8 @@ const fiszki = [
     {
         id: [
             144,
-            24
+            24,
+            48
         ],
         img: "http://localhost/arbulanguage.com/img/fiszki1/25h.jpg",
         story: "W <b><u>maj</b></u>u kwitną <b><u>moje</b></u> ulubione kwiaty",
@@ -3826,7 +3978,8 @@ const fiszki = [
     {
         id: [
             145,
-            25
+            25,
+            49
         ],
         img: "http://localhost/arbulanguage.com/img/fiszki1/25j.jpg",
         translate: "On myśli że to jedyna droga, żeby uniknąć następnej wojny",
@@ -3858,7 +4011,8 @@ const fiszki = [
     {
         id: [
             146,
-            25
+            25,
+            49
         ],
         img: "http://localhost/arbulanguage.com/img/fiszki1/25j.jpg",
         story: "",
@@ -3880,7 +4034,8 @@ const fiszki = [
     {
         id: [
             147,
-            25
+            25,
+            49
         ],
         img: "http://localhost/arbulanguage.com/img/fiszki1/25j.jpg",
         story: "",
@@ -3902,7 +4057,8 @@ const fiszki = [
     {
         id: [
             148,
-            25
+            25,
+            49
         ],
         img: "http://localhost/arbulanguage.com/img/fiszki1/25j.jpg",
         story: "",
@@ -3924,7 +4080,8 @@ const fiszki = [
     {
         id: [
             149,
-            25
+            25,
+            49
         ],
         img: "http://localhost/arbulanguage.com/img/fiszki1/25j.jpg",
         story: "",
@@ -3946,7 +4103,8 @@ const fiszki = [
     {
         id: [
             150,
-            25
+            25,
+            50
         ],
         img: "http://localhost/arbulanguage.com/img/fiszki1/25j.jpg",
         story: [
@@ -3972,7 +4130,8 @@ const fiszki = [
     {
         id: [
             151,
-            25
+            25,
+            50
         ],
         img: "http://localhost/arbulanguage.com/img/fiszki1/25j.jpg",
         story: "",
@@ -3993,7 +4152,8 @@ const fiszki = [
     {
         id: [
             152,
-            25
+            25,
+            50
         ],
         img: "http://localhost/arbulanguage.com/img/fiszki1/25j.jpg",
         story: "",
@@ -4014,7 +4174,8 @@ const fiszki = [
     {
         id: [
             153,
-            25
+            25,
+            50
         ],
         img: "http://localhost/arbulanguage.com/img/fiszki1/25j.jpg",
         story: "",
@@ -4035,7 +4196,8 @@ const fiszki = [
     {
         id: [
             154,
-            26
+            26,
+            51
         ],
         img: "http://localhost/arbulanguage.com/img/fiszki1/25j.jpg",
         translate: "Idea opuszczenia jego szkoły była także bardzo bolesna",
@@ -4063,7 +4225,8 @@ const fiszki = [
     {
         id: [
             155,
-            26
+            26,
+            51
         ],
         img: "http://localhost/arbulanguage.com/img/fiszki1/25j.jpg",
         story: "",
@@ -4086,7 +4249,8 @@ const fiszki = [
     {
         id: [
             156,
-            26
+            26,
+            51
         ],
         img: "http://localhost/arbulanguage.com/img/fiszki1/25j.jpg",
         story: "",
@@ -4109,7 +4273,8 @@ const fiszki = [
     {
         id: [
             157,
-            26
+            26,
+            51
         ],
         img: "http://localhost/arbulanguage.com/img/fiszki1/25j.jpg",
         story: "",
@@ -4132,7 +4297,8 @@ const fiszki = [
     {
         id: [
             158,
-            26
+            26,
+            51
         ],
         img: "http://localhost/arbulanguage.com/img/fiszki1/25j.jpg",
         story: "",
@@ -4153,7 +4319,8 @@ const fiszki = [
     {
         id: [
             159,
-            26
+            26,
+            51
         ],
         img: "http://localhost/arbulanguage.com/img/fiszki1/25j.jpg",
         story: "",
@@ -4176,7 +4343,8 @@ const fiszki = [
     {
         id: [
             160,
-            26
+            26,
+            52
         ],
         img: "http://localhost/arbulanguage.com/img/fiszki1/25j.jpg",
         story: "",
@@ -4197,7 +4365,8 @@ const fiszki = [
     {
         id: [
             161,
-            26
+            26,
+            52
         ],
         img: "http://localhost/arbulanguage.com/img/fiszki1/25j.jpg",
         story: "",
@@ -4218,7 +4387,8 @@ const fiszki = [
     {
         id: [
             162,
-            26
+            26,
+            52
         ],
         img: "http://localhost/arbulanguage.com/img/fiszki1/25j.jpg",
         story: "",
@@ -4239,7 +4409,8 @@ const fiszki = [
     {
         id: [
             163,
-            26
+            26,
+            52
         ],
         img: "http://localhost/arbulanguage.com/img/fiszki1/25j.jpg",
         story: "",
@@ -4260,7 +4431,8 @@ const fiszki = [
     {
         id: [
             164,
-            27
+            27,
+            53
         ],
         img: "http://localhost/arbulanguage.com/img/fiszki1/25j.jpg",
         translate: "Wynalazek koła był wielkim krokiem naprzód",
@@ -4288,7 +4460,8 @@ const fiszki = [
     {
         id: [
             165,
-            27
+            27,
+            53
         ],
         img: "http://localhost/arbulanguage.com/img/fiszki1/25j.jpg",
         story: "",
@@ -4311,7 +4484,8 @@ const fiszki = [
     {
         id: [
             166,
-            27
+            27,
+            53
         ],
         img: "http://localhost/arbulanguage.com/img/fiszki1/25j.jpg",
         story: "",
@@ -4334,7 +4508,8 @@ const fiszki = [
     {
         id: [
             167,
-            27
+            27,
+            53
         ],
         img: "http://localhost/arbulanguage.com/img/fiszki1/25j.jpg",
         story: "",
@@ -4357,7 +4532,8 @@ const fiszki = [
     {
         id: [
             168,
-            27
+            27,
+            53
         ],
         img: "http://localhost/arbulanguage.com/img/fiszki1/25j.jpg",
         story: "",
@@ -4380,7 +4556,8 @@ const fiszki = [
     {
         id: [
             169,
-            27
+            27,
+            53
         ],
         img: "http://localhost/arbulanguage.com/img/fiszki1/25j.jpg",
         story: "",
@@ -4403,7 +4580,8 @@ const fiszki = [
     {
         id: [
             170,
-            27
+            27,
+            54
         ],
         img: "http://localhost/arbulanguage.com/img/fiszki1/25j.jpg",
         story: "",
@@ -4423,7 +4601,8 @@ const fiszki = [
     {
         id: [
             171,
-            27
+            27,
+            54
         ],
         img: "http://localhost/arbulanguage.com/img/fiszki1/25j.jpg",
         story: "",
@@ -4443,7 +4622,8 @@ const fiszki = [
     {
         id: [
             172,
-            27
+            27,
+            54
         ],
         img: "http://localhost/arbulanguage.com/img/fiszki1/25j.jpg",
         story: "",
@@ -4463,7 +4643,8 @@ const fiszki = [
     {
         id: [
             173,
-            28
+            28,
+            55
         ],
         img: "http://localhost/arbulanguage.com/img/fiszki1/25j.jpg",
         translate: "Powiedz mi dlaczego ten most jest tak ważny dla ciebie",
@@ -4490,7 +4671,8 @@ const fiszki = [
     {
         id: [
             174,
-            28
+            28,
+            55
         ],
         img: "http://localhost/arbulanguage.com/img/fiszki1/25j.jpg",
         story: "",
@@ -4512,7 +4694,8 @@ const fiszki = [
     {
         id: [
             175,
-            28
+            28,
+            55
         ],
         img: "http://localhost/arbulanguage.com/img/fiszki1/25j.jpg",
         story: "",
@@ -4534,7 +4717,8 @@ const fiszki = [
     {
         id: [
             176,
-            28
+            28,
+            55
         ],
         img: "http://localhost/arbulanguage.com/img/fiszki1/25j.jpg",
         story: "",
@@ -4556,7 +4740,8 @@ const fiszki = [
     {
         id: [
             177,
-            28
+            28,
+            55
         ],
         img: "http://localhost/arbulanguage.com/img/fiszki1/25j.jpg",
         story: "",
@@ -4578,7 +4763,8 @@ const fiszki = [
     {
         id: [
             178,
-            28
+            28,
+            56
         ],
         img: "http://localhost/arbulanguage.com/img/fiszki1/25j.jpg",
         story: "",
@@ -4600,7 +4786,8 @@ const fiszki = [
     {
         id: [
             179,
-            28
+            28,
+            56
         ],
         img: "http://localhost/arbulanguage.com/img/fiszki1/25j.jpg",
         story: "<u><b>Soł</u></b>tys już taki jest",
@@ -4622,7 +4809,8 @@ const fiszki = [
     {
         id: [
             180,
-            28
+            28,
+            56
         ],
         img: "http://localhost/arbulanguage.com/img/fiszki1/25j.jpg",
         story: "<u><b>Import</u></b> antyków z zagranicy to <u><b>ważne</u></b> zadanie dla kolekcjonera",
@@ -4644,7 +4832,8 @@ const fiszki = [
     {
         id: [
             181,
-            28
+            28,
+            56
         ],
         img: "http://localhost/arbulanguage.com/img/fiszki1/25j.jpg",
         story: "",
@@ -4666,7 +4855,8 @@ const fiszki = [
     {
         id: [
             182,
-            28
+            28,
+            56
         ],
         img: "http://localhost/arbulanguage.com/img/fiszki1/25j.jpg",
         story: "<u><b>Ju</u></b>tro <u><b>ty</u></b> masz wolny dzień od pracy",
@@ -4688,7 +4878,8 @@ const fiszki = [
     {
         id: [
             183,
-            29
+            29,
+            57
         ],
         img: "http://localhost/arbulanguage.com/img/fiszki1/25j.jpg",
         translate: "Użytkownik może dodać lub usunąć to konto bardzo łatwo",
@@ -4717,7 +4908,8 @@ const fiszki = [
     {
         id: [
             184,
-            29
+            29,
+            57
         ],
         img: "http://localhost/arbulanguage.com/img/fiszki1/25j.jpg",
         story: "Iwonie sa<u><b>mej</u></b> <u><b>może</u>/<b> być trudno wykonać to zadanie",
@@ -4741,7 +4933,8 @@ const fiszki = [
     {
         id: [
             185,
-            29
+            29,
+            57
         ],
         img: "http://localhost/arbulanguage.com/img/fiszki1/25j.jpg",
         story: "Z<u><b>ad</u></b>anie dla uczniów to <u><b>dodać</u></b> do swojego wypracowanie wątki fantastyczne",
@@ -4765,7 +4958,8 @@ const fiszki = [
     {
         id: [
             186,
-            29
+            29,
+            57
         ],
         img: "http://localhost/arbulanguage.com/img/fiszki1/25j.jpg",
         story: "To jest już p<u><b>or</u></b>a na kolacje <u><b>lub</u></b> spanie",
@@ -4789,7 +4983,8 @@ const fiszki = [
     {
         id: [
             187,
-            29
+            29,
+            57
         ],
         img: "http://localhost/arbulanguage.com/img/fiszki1/25j.jpg",
         story: "Na <u><b>re</u></b>sztę towaru mam już za<u><b>mów</u></b>ienie, to co pozostanie wyrzucę/usunę z magazynu",
@@ -4813,7 +5008,8 @@ const fiszki = [
     {
         id: [
             188,
-            29
+            29,
+            57
         ],
         img: "http://localhost/arbulanguage.com/img/fiszki1/25j.jpg",
         story: "Koroporacja <u><b>uz</u></b>urpuje sobie prawo <u><b>do</u></b> tych danych",
@@ -4837,7 +5033,8 @@ const fiszki = [
     {
         id: [
             189,
-            29
+            29,
+            57
         ],
         img: "http://localhost/arbulanguage.com/img/fiszki1/25j.jpg",
         story: "",
@@ -4861,7 +5058,8 @@ const fiszki = [
     {
         id: [
             190,
-            29
+            29,
+            58
         ],
         img: "http://localhost/arbulanguage.com/img/fiszki1/25j.jpg",
         story: "Każdy żołnierz chodzi na polu walki z che<u><b>ł</u></b>mem i kam<u><b>iz</u></b>elką kuloodporną",
@@ -4880,7 +5078,8 @@ const fiszki = [
     {
         id: [
             191,
-            29
+            29,
+            58
         ],
         img: "http://localhost/arbulanguage.com/img/fiszki1/25j.jpg",
         story: "Ten <u><b>iz</u></b>otop <u><b>łatwo</u></b> się rozpuszcza",
@@ -4899,7 +5098,8 @@ const fiszki = [
     {
         id: [
             192,
-            30
+            30,
+            59
         ],
         img: "http://localhost/arbulanguage.com/img/fiszki1/25j.jpg",
         translate: "Ona oferuje jakąś radę na temat jak pomóc twojemu dziecku",
@@ -4926,7 +5126,8 @@ const fiszki = [
     {
         id: [
             193,
-            30
+            30,
+            59
         ],
         img: "http://localhost/arbulanguage.com/img/fiszki1/25j.jpg",
         story: "Ten <u><b>iz</u></b>otop <u><b>łatwo</u></b> się rozpuszcza",
@@ -4948,7 +5149,8 @@ const fiszki = [
     {
         id: [
             194,
-            30
+            30,
+            59
         ],
         img: "http://localhost/arbulanguage.com/img/fiszki1/25j.jpg",
         story: "Ten <u><b>iz</u></b>otop <u><b>łatwo</u></b> się rozpuszcza",
@@ -4970,7 +5172,8 @@ const fiszki = [
     {
         id: [
             195,
-            30
+            30,
+            59
         ],
         img: "http://localhost/arbulanguage.com/img/fiszki1/25j.jpg",
         story: "Ten <u><b>iz</u></b>otop <u><b>łatwo</u></b> się rozpuszcza",
@@ -4992,7 +5195,8 @@ const fiszki = [
     {
         id: [
             196,
-            30
+            30,
+            59
         ],
         img: "http://localhost/arbulanguage.com/img/fiszki1/25j.jpg",
         story: "Ten <u><b>iz</u></b>otop <u><b>łatwo</u></b> się rozpuszcza",
@@ -5014,7 +5218,8 @@ const fiszki = [
     {
         id: [
             197,
-            30
+            30,
+            60
         ],
         img: "http://localhost/arbulanguage.com/img/fiszki1/25j.jpg",
         story: "Ten <u><b>iz</u></b>otop <u><b>łatwo</u></b> się rozpuszcza",
@@ -5036,7 +5241,8 @@ const fiszki = [
     {
         id: [
             198,
-            30
+            30,
+            60
         ],
         img: "http://localhost/arbulanguage.com/img/fiszki1/25j.jpg",
         story: "Ten <u><b>iz</u></b>otop <u><b>łatwo</u></b> się rozpuszcza",
@@ -5058,7 +5264,8 @@ const fiszki = [
     {
         id: [
             199,
-            30
+            30,
+            60
         ],
         img: "http://localhost/arbulanguage.com/img/fiszki1/25j.jpg",
         story: "Ten <u><b>iz</u></b>otop <u><b>łatwo</u></b> się rozpuszcza",
@@ -5080,7 +5287,8 @@ const fiszki = [
     {
         id: [
             200,
-            30
+            30,
+            60
         ],
         img: "http://localhost/arbulanguage.com/img/fiszki1/25j.jpg",
         story: "Ten <u><b>iz</u></b>otop <u><b>łatwo</u></b> się rozpuszcza",
@@ -5102,7 +5310,8 @@ const fiszki = [
     {
         id: [
             201,
-            30
+            30,
+            60
         ],
         img: "http://localhost/arbulanguage.com/img/fiszki1/25j.jpg",
         story: "Ten <u><b>iz</u></b>otop <u><b>łatwo</u></b> się rozpuszcza",
@@ -5118,6 +5327,459 @@ const fiszki = [
             "child"
         ],
         key: "child",
+        category1: "nauka",
+        category2: ["osoby"]
+    },
+        {
+        id: [
+            202,
+            31,
+            61
+        ],
+        img: "http://localhost/arbulanguage.com/img/fiszki1/25j.jpg",
+        story: "Ten <u><b>iz</u></b>otop <u><b>łatwo</u></b> się rozpuszcza",
+        desc: "your[jour] - twoja",
+        sentence1: [
+            "Your"
+        ],
+        sentence: [
+            "Your",
+            "kind",
+            "words"
+        ],
+        key: "your",
+        category1: "nauka",
+        category2: ["osoby"]
+    },
+            {
+        id: [
+            203,
+            31,
+            61
+        ],
+        img: "http://localhost/arbulanguage.com/img/fiszki1/25j.jpg",
+        story: "Ten <u><b>iz</u></b>otop <u><b>łatwo</u></b> się rozpuszcza",
+        desc: "kind[kaind] - miłe",
+        sentence1: [
+            "kind"
+        ],
+        sentence: [
+            "Your",
+            "kind",
+            "words"
+        ],
+        key: "your",
+        category1: "nauka",
+        category2: ["osoby"]
+    },
+                {
+        id: [
+            204,
+            31,
+            61
+        ],
+        img: "http://localhost/arbulanguage.com/img/fiszki1/25j.jpg",
+        story: "Ten <u><b>iz</u></b>otop <u><b>łatwo</u></b> się rozpuszcza",
+        desc: "words[łords] - słowa(liczba mnoga od word)",
+        sentence1: [
+            "words"
+        ],
+        sentence: [
+            "Your",
+            "kind",
+            "words"
+        ],
+        key: "your",
+        category1: "nauka",
+        category2: ["osoby"]
+    },
+                    {
+        id: [
+            205,
+            31,
+            62
+        ],
+        img: "http://localhost/arbulanguage.com/img/fiszki1/25j.jpg",
+        story: "Ten <u><b>iz</u></b>otop <u><b>łatwo</u></b> się rozpuszcza",
+        desc: "made[mejd] - zrobiły/zrobił",
+        sentence2: [
+            "made"
+        ],
+        sentence: [
+            "made",
+            "my",
+            "day"
+        ],
+        key: "made",
+        category1: "nauka",
+        category2: ["osoby"]
+    },
+                        {
+        id: [
+            206,
+            31,
+            62
+        ],
+        img: "http://localhost/arbulanguage.com/img/fiszki1/25j.jpg",
+        story: "Ten <u><b>iz</u></b>otop <u><b>łatwo</u></b> się rozpuszcza",
+        desc: "made[mejd] - zrobiły/zrobił",
+        sentence2: [
+            "made"
+        ],
+        sentence: [
+            "made",
+            "my",
+            "day"
+        ],
+        key: "made",
+        category1: "nauka",
+        category2: ["osoby"]
+    },
+                            {
+        id: [
+            206,
+            31,
+            62
+        ],
+        img: "http://localhost/arbulanguage.com/img/fiszki1/25j.jpg",
+        story: "Ten <u><b>iz</u></b>otop <u><b>łatwo</u></b> się rozpuszcza",
+        desc: "my[maj] - mój/moje",
+        sentence2: [
+            "my"
+        ],
+        sentence: [
+            "made",
+            "my",
+            "day"
+        ],
+        key: "my",
+        category1: "nauka",
+        category2: ["zaimkiosobowe"]
+    },
+                            {
+        id: [
+            206,
+            31,
+            62
+        ],
+        img: "http://localhost/arbulanguage.com/img/fiszki1/25j.jpg",
+        story: "Ten <u><b>iz</u></b>otop <u><b>łatwo</u></b> się rozpuszcza",
+        desc: "day[dej] - dzień",
+        sentence2: [
+            "day"
+        ],
+        sentence: [
+            "made",
+            "my",
+            "day"
+        ],
+        key: "day",
+        category1: "nauka",
+        category2: ["osoby"]
+    },
+                                {
+        id: [
+            207,
+            32,
+            63
+        ],
+        img: "http://localhost/arbulanguage.com/img/fiszki1/25j.jpg",
+        story: "Ten <u><b>iz</u></b>otop <u><b>łatwo</u></b> się rozpuszcza",
+        desc: "i[aj] - ja",
+        sentence2: [
+            "I"
+        ],
+        sentence: [
+            "I",
+            "appreciate"
+        ],
+        key: "day",
+        category1: "nauka",
+        category2: ["osoby"]
+    },
+                                    {
+        id: [
+            208,
+            32,
+            63
+        ],
+        img: "http://localhost/arbulanguage.com/img/fiszki1/25j.jpg",
+        story: "Ten <u><b>iz</u></b>otop <u><b>łatwo</u></b> się rozpuszcza",
+        desc: "appreciate[apresjejt] - doceniać",
+        sentence2: [
+            "I"
+        ],
+        sentence: [
+            "I",
+            "appreciate"
+        ],
+        key: "day",
+        category1: "nauka",
+        category2: ["osoby"]
+    },
+                                        {
+        id: [
+            209,
+            32,
+            64
+        ],
+        img: "http://localhost/arbulanguage.com/img/fiszki1/25j.jpg",
+        story: "Ten <u><b>iz</u></b>otop <u><b>łatwo</u></b> się rozpuszcza",
+        desc: "your[apresjejt] - doceniać",
+        sentence2: [
+            "your"
+        ],
+        sentence: [
+            "your",
+            "assistance",
+            "today"
+        ],
+        key: "day",
+        category1: "nauka",
+        category2: ["osoby"]
+    },
+                                            {
+        id: [
+            210,
+            32,
+            64
+        ],
+        img: "http://localhost/arbulanguage.com/img/fiszki1/25j.jpg",
+        story: "Ten <u><b>iz</u></b>otop <u><b>łatwo</u></b> się rozpuszcza",
+        desc: "assistance[asistens] - asysta",
+        sentence2: [
+            "assistance"
+        ],
+        sentence: [
+            "your",
+            "assistance",
+            "today"
+        ],
+        key: "assistance",
+        category1: "nauka",
+        category2: ["osoby"]
+    },
+                                            {
+        id: [
+            211,
+            32,
+            64
+        ],
+        img: "http://localhost/arbulanguage.com/img/fiszki1/25j.jpg",
+        story: "Ten <u><b>iz</u></b>otop <u><b>łatwo</u></b> się rozpuszcza",
+        desc: "today[tudej] - dziś",
+        sentence2: [
+            "today"
+        ],
+        sentence: [
+            "your",
+            "assistance",
+            "today"
+        ],
+        key: "today",
+        category1: "nauka",
+        category2: ["osoby"]
+    },
+                                                {
+        id: [
+            212,
+            33,
+            65
+        ],
+        img: "http://localhost/arbulanguage.com/img/fiszki1/25j.jpg",
+        story: "Ten <u><b>iz</u></b>otop <u><b>łatwo</u></b> się rozpuszcza",
+        desc: "this[tudej] - dziś",
+        sentence1: [
+            "This"
+        ],
+        sentence: [
+            "This",
+            "flower",
+            "is",
+            "yellow"
+        ],
+        key: "today",
+        category1: "nauka",
+        category2: ["osoby"]
+    },
+                                                    {
+        id: [
+            213,
+            33,
+            65
+        ],
+        img: "http://localhost/arbulanguage.com/img/fiszki1/25j.jpg",
+        story: "Ten <u><b>iz</u></b>otop <u><b>łatwo</u></b> się rozpuszcza",
+        desc: "flower[flołer] - kwiatek",
+        sentence1: [
+            "This"
+        ],
+        sentence: [
+            "This",
+            "flower",
+            "is",
+            "yellow"
+        ],
+        key: "flower",
+        category1: "nauka",
+        category2: ["osoby"]
+    },
+                                                        {
+        id: [
+            214,
+            33,
+            65
+        ],
+        img: "http://localhost/arbulanguage.com/img/fiszki1/25j.jpg",
+        story: "Ten <u><b>iz</u></b>otop <u><b>łatwo</u></b> się rozpuszcza",
+        desc: "is[is] - jest",
+        sentence1: [
+            "is"
+        ],
+        sentence: [
+            "This",
+            "flower",
+            "is",
+            "yellow"
+        ],
+        key: "flower",
+        category1: "nauka",
+        category2: ["osoby"]
+    },
+                                                            {
+        id: [
+            215,
+            33,
+            65
+        ],
+        img: "http://localhost/arbulanguage.com/img/fiszki1/25j.jpg",
+        story: "Ten <u><b>iz</u></b>otop <u><b>łatwo</u></b> się rozpuszcza",
+        desc: "yellow[jeloł] - żółty",
+        sentence1: [
+            "is"
+        ],
+        sentence: [
+            "This",
+            "flower",
+            "is",
+            "yellow"
+        ],
+        key: "flower",
+        category1: "nauka",
+        category2: ["osoby"]
+    },
+                                                                {
+        id: [
+            216,
+            33,
+            66
+        ],
+        img: "http://localhost/arbulanguage.com/img/fiszki1/25j.jpg",
+        story: "Ten <u><b>iz</u></b>otop <u><b>łatwo</u></b> się rozpuszcza",
+        desc: "but[bat] - żółty",
+        sentence2: [
+            "but"
+        ],
+        sentence: [
+            "but",
+            "all",
+            "the others",
+            "are",
+            "blue"
+        ],
+        key: "but",
+        category1: "nauka",
+        category2: ["osoby"]
+    },
+                                                                    {
+        id: [
+            217,
+            33,
+            66
+        ],
+        img: "http://localhost/arbulanguage.com/img/fiszki1/25j.jpg",
+        story: "Ten <u><b>iz</u></b>otop <u><b>łatwo</u></b> się rozpuszcza",
+        desc: "all[ol] - wszystkie/wszyscy",
+        sentence2: [
+            "all"
+        ],
+        sentence: [
+            "but",
+            "all",
+            "the others",
+            "are",
+            "blue"
+        ],
+        key: "all",
+        category1: "nauka",
+        category2: ["osoby"]
+    },
+                                                                        {
+        id: [
+            218,
+            33,
+            66
+        ],
+        img: "http://localhost/arbulanguage.com/img/fiszki1/25j.jpg",
+        story: "Ten <u><b>iz</u></b>otop <u><b>łatwo</u></b> się rozpuszcza",
+        desc: "the others[de oders] - inny/inne",
+        sentence2: [
+            "the others"
+        ],
+        sentence: [
+            "but",
+            "all",
+            "the others",
+            "are",
+            "blue"
+        ],
+        key: "the others",
+        category1: "nauka",
+        category2: ["osoby"]
+    },
+                                                                            {
+        id: [
+            219,
+            33,
+            66
+        ],
+        img: "http://localhost/arbulanguage.com/img/fiszki1/25j.jpg",
+        story: "Ten <u><b>iz</u></b>otop <u><b>łatwo</u></b> się rozpuszcza",
+        desc: "are[ar] - są",
+        sentence2: [
+            "are"
+        ],
+        sentence: [
+            "but",
+            "all",
+            "the others",
+            "are",
+            "blue"
+        ],
+        key: "are",
+        category1: "nauka",
+        category2: ["osoby"]
+    },
+                                                                                {
+        id: [
+            220,
+            33,
+            66
+        ],
+        img: "http://localhost/arbulanguage.com/img/fiszki1/25j.jpg",
+        story: "Ten <u><b>iz</u></b>otop <u><b>łatwo</u></b> się rozpuszcza",
+        desc: "blue[blu] - niebieski/niebieskie",
+        sentence2: [
+            "blue"
+        ],
+        sentence: [
+            "but",
+            "all",
+            "the others",
+            "are",
+            "blue"
+        ],
+        key: "blue",
         category1: "nauka",
         category2: ["osoby"]
     }

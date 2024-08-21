@@ -6809,3 +6809,7 @@ function waitForTrueThenWybierzCharakter() {
         console.log("Warunek nie został spełniony, nic nie robię");
     }
 }
+
+                const lesson1FirstPartLength = partLengths.find(item => item.id === lessonId1)?.totalLength || 0;
+                const lesson2FirstPartLength = partLengths.find(item => item.id === lessonId2)?.totalLength || 0;
+                const lesson3FirstPartLength = partLengths.find(item => item.id === lessonId3)?.totalLength || 0;
