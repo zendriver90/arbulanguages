@@ -503,11 +503,11 @@ const fiszki = [
             "http://localhost/arbulanguage.com/src/procedure.wav"
         ],
         story: [
-            "Prestiż w dżungli to przetrwanie. Tu stosujemy procedury szamanów",
-            "Popre te <u><b>pro</b></u>cedury <u><b>siii</b></u> bo jestem na wyspie <u><b>Dżer</b></u>ba w Tunezji",
-            "Każdy naukowiec proszony jest o klarownośc badań i procedury. Nauka to nie bajka Sindbad, ani film z Dzeki Czan. Trudne to rrrrr",
-            "Prestiżowe pismo naukowe opisuje, że niektóre dżemy pomagają na raka",
-            "Nasz dżem wpływa zdrowotnie na samopoczucie. Jest wyrabiany zgodnie z procedurami w Singapurze  - głównie z rabarbaru"
+            "Prestiż w <b><u>dż</b></u>ungli to przetrwanie, aż <b><u>prosi</b></u> się o podstawową wiedzę. Dla każdego szamana <b><u>mersi</b></u>",
+            "Popre te <u><b>pro</b></u>cedury <u><b>siii</b></u> bo jestem na wy<b><u>s</b></u>pie <u><b>Dżer</b></u>ba w Tunezji",
+            "Każdy naukowiec <b><u>pro</b></u>szony jest o klarownośc badań i <b><u>procedury</b></u>. Nauka to nie bajka <b><u>Si</b></u>ndbad, ani film z <b><u>Dze</b></u>ki Czan. Fajne czasy w mo<b><u>rs</b></u>kim klimacie",
+            "<b><u>Pr</b></u>estiżowe pismo naukowe <b><u>o</b></u>pisuje, że niektóre we<b><u>rs</b></u>je <b><u>dże</b></u>mów pomagają na raka",
+            "Nasz <b><u>dże</b></u>m wpływa zdrowotnie na samopoczucie. Jest wyrabiany zgodnie z <b><u>pro</b></u>cedurami w <b><u>Si</b></u>ngapurze  - jem taki dżem w wagonie Wa<b><u>rs</b></u>"
         ],
         desc: "procedures[prosidzers] - procedury(liczba mnoga)",
         sentence2: [
@@ -682,7 +682,7 @@ const fiszki = [
             "Wizja wiewiórek, które jedzą z wiadomo, którego wiaderka(mojego) jest słuszna",
             "<u><b>Wiz</u></b>ytacja naukowców <u><b>z</u></b> Japonii jest znakomitą okazją do wymiany poglądów",
             "Bez <u><b>wiz</u></b>y Pan nie wjedzie, a <u><b>z</u></b> wizą to oczywiście",
-            "Z wizażem czyli makijażem - królowa robi jeszcze lepsze wrażenie w królestwie. Wraz z królową jest jej wizażysta i rozdaje wizytówki. Z wizytóką 10% taniej."
+            "Z <u><b>wiz</u></b>ażem czyli makijażem - królowa robi jeszcze lepsze wrażenie w królestwie. Wraz z królową jest jej <u><b>wiz</u></b>ażysta i rozdaje wizytówki. <u><b>Z</u></b> wizytóką 10% taniej."
         ],
         desc: "with[wiz] - z",
         sentence2: [
@@ -854,7 +854,7 @@ const fiszki = [
             "M<u><b>am</u></b> j<u><b>em</u></b>iołę i <u><b>jestem</u></b> zadowolony z jej zapachu",
             "Emanacją mojej pracy badawczej, którą prowadziłem s<u><b>am</u></b> - jest to, że teraz ja <u><b>jestem</u></b> w tym temacie specjalistą",
             "Amstaf <u><b>Em</u></b>il mnie goni, <u><b>jestem</u></b> w tarapatach",
-            "Mój idol <u><b>Em</u></b>inem powiedział, <u><b>ja jestem</u></b> najlepszym raperem i po tym stwierdzneiu teraz <u><b>ja jestem</u></b> w fajnych emocjach",
+            "Mój idol <u><b>Em</u></b>inem powiedział, <u><b>ja jestem</u></b> najlepszym raperem i po tym stwierdzneiu teraz <u><b>ja jestem</u></b> w fajnych emocjach"
         ],
         desc: "am[em] - jestem",
         sentence1: [
@@ -893,8 +893,8 @@ const fiszki = [
             "<u><b>Szaj</u></b>bus jest <u><b>nieśmiały</u></b>, ale jest najlepszym sportowcem w naszej ekipie",
             "Małpy <u><b>nieśmiało</u></b> wie<u><b>szaj</u></b>ą się po drzewach swoimi rękoma",
             "Moi koledzy na Uniwersytecie zawsze coś namie<u><b>szaj</u></b>ą zadając pytania i wtedy staję się <u><b>nieśmiały</u></b>",
-            "",
-            "W pewnej <u><b>szaj</u></b>ce złożonej z <u><b>szaj</u></b>busów jest nieśmiały Wojtek i wszyscy mówią do niego ogła<u><b>szaj</u></b> przemówienie",
+            "Ru<u><b>szaj</u></b> się w tańcu bardziej odważnie, a nie <u><b>nieśmiało</u></b>",
+            "W pewnej <u><b>szaj</u></b>ce złożonej z <u><b>szaj</u></b>busów jest nieśmiały Wojtek i wszyscy mówią do niego ogła<u><b>szaj</u></b> przemówienie"
         ],
         desc: "shy[szaj] - nieśmiały",
         sentence1: [
@@ -1172,10 +1172,10 @@ const fiszki = [
         ],
         story: [
             "<u><b>End</u></b>riu wydziela <u><b>end</u></b>orfiny i ćwiczy: to <u><b>i</u></b> to, <u><b>i</u></b> to, aby było więcej endorfin i wyczekuje <u><b>końca</u></b> treningu",
-            "Endriu w końcu skończył prace w ogrodzie. Zrobił to i to i to..",
+            "<u><b>End</u></b>riu w końcu skończył prace w ogrodzie i to <u><b>koniec</u></b>. Zrobił to i to i to..",
             "",
-            "Endriu jeździ motorem enduro i miał wypadek, to koniec jego karier. Pyta: i co dalej?",
-            "W końcu zapędy Endriu do pewnej dziewczyny skończyły się sukcesem i para jest szczęśliwa"
+            "<u><b>End</u></b>riu jeździ motorem enduro i miał wypadek, to <u><b>koniec</u></b> jego kariery. Pyta: i co dalej?",
+            "W <u><b>końcu</u></b> zapędy <u><b>End</u></b>riu do pewnej dziewczyny skończyły się sukcesem i para jest szczęśliwa"
         ],
         desc: "end[end] - i/koniec",
         sentence2: [
@@ -5343,10 +5343,6 @@ const fiszki = [
             61
         ],
         img: "http://localhost/arbulanguage.com/img/fiszki1/25j.jpg",
-        translate: "Twoje miłe słowa zrobiły mi dzień",
-        translateb: "[Jor kaind łords mejd maj day]",
-        srcWord: ["http://localhost/arbulanguage.com/filmy/words.mp4", "Matrix(1999)", "Akcja"],
-        srcWordimage: "http://localhost/arbulanguage.com/filmy/child.png",
         story: "Ten <u><b>iz</u></b>otop <u><b>łatwo</u></b> się rozpuszcza",
         desc: "your[jour] - twoja",
         sentence1: [
@@ -5424,6 +5420,27 @@ const fiszki = [
         category1: "nauka",
         category2: ["osoby"]
     },
+                        {
+        id: [
+            206,
+            31,
+            62
+        ],
+        img: "http://localhost/arbulanguage.com/img/fiszki1/25j.jpg",
+        story: "Ten <u><b>iz</u></b>otop <u><b>łatwo</u></b> się rozpuszcza",
+        desc: "made[mejd] - zrobiły/zrobił",
+        sentence2: [
+            "made"
+        ],
+        sentence: [
+            "made",
+            "my",
+            "day"
+        ],
+        key: "made",
+        category1: "nauka",
+        category2: ["osoby"]
+    },
                             {
         id: [
             206,
@@ -5447,7 +5464,7 @@ const fiszki = [
     },
                             {
         id: [
-            207,
+            206,
             31,
             62
         ],
@@ -5468,18 +5485,14 @@ const fiszki = [
     },
                                 {
         id: [
-            208,
+            207,
             32,
             63
         ],
         img: "http://localhost/arbulanguage.com/img/fiszki1/25j.jpg",
-        translate: "I appreciate your assistance today",
-        translateb: "[Aj apresziejt jor asistens tudej]",
-        srcWord: ["http://localhost/arbulanguage.com/filmy/assistance.mp4", "Avatar(2022)", "Sci-fi"],
-        srcWordimage: "http://localhost/arbulanguage.com/filmy/child.png",
         story: "Ten <u><b>iz</u></b>otop <u><b>łatwo</u></b> się rozpuszcza",
         desc: "i[aj] - ja",
-        sentence1: [
+        sentence2: [
             "I"
         ],
         sentence: [
@@ -5492,15 +5505,15 @@ const fiszki = [
     },
                                     {
         id: [
-            209,
+            208,
             32,
             63
         ],
         img: "http://localhost/arbulanguage.com/img/fiszki1/25j.jpg",
         story: "Ten <u><b>iz</u></b>otop <u><b>łatwo</u></b> się rozpuszcza",
         desc: "appreciate[apresjejt] - doceniać",
-        sentence1: [
-            "appreciate"
+        sentence2: [
+            "I"
         ],
         sentence: [
             "I",
@@ -5512,7 +5525,7 @@ const fiszki = [
     },
                                         {
         id: [
-            210,
+            209,
             32,
             64
         ],
@@ -5533,7 +5546,7 @@ const fiszki = [
     },
                                             {
         id: [
-            211,
+            210,
             32,
             64
         ],
@@ -5554,7 +5567,7 @@ const fiszki = [
     },
                                             {
         id: [
-            212,
+            211,
             32,
             64
         ],
@@ -5575,15 +5588,11 @@ const fiszki = [
     },
                                                 {
         id: [
-            213,
+            212,
             33,
             65
         ],
         img: "http://localhost/arbulanguage.com/img/fiszki1/25j.jpg",
-        translate: "This flower is yellow but all the others are blue",
-        translateb: "[Dis flałer is jelow bat ol de oders ar blu]",
-        srcWord: ["http://localhost/arbulanguage.com/filmy/kwiaty.mp4", "Klan", "Serial"],
-        srcWordimage: "http://localhost/arbulanguage.com/filmy/child.png",
         story: "Ten <u><b>iz</u></b>otop <u><b>łatwo</u></b> się rozpuszcza",
         desc: "this[tudej] - dziś",
         sentence1: [
@@ -5601,7 +5610,7 @@ const fiszki = [
     },
                                                     {
         id: [
-            214,
+            213,
             33,
             65
         ],
@@ -5609,7 +5618,7 @@ const fiszki = [
         story: "Ten <u><b>iz</u></b>otop <u><b>łatwo</u></b> się rozpuszcza",
         desc: "flower[flołer] - kwiatek",
         sentence1: [
-            "flower"
+            "This"
         ],
         sentence: [
             "This",
@@ -5623,7 +5632,7 @@ const fiszki = [
     },
                                                         {
         id: [
-            215,
+            214,
             33,
             65
         ],
@@ -5645,7 +5654,7 @@ const fiszki = [
     },
                                                             {
         id: [
-            216,
+            215,
             33,
             65
         ],
@@ -5653,7 +5662,7 @@ const fiszki = [
         story: "Ten <u><b>iz</u></b>otop <u><b>łatwo</u></b> się rozpuszcza",
         desc: "yellow[jeloł] - żółty",
         sentence1: [
-            "yellow"
+            "is"
         ],
         sentence: [
             "This",
@@ -5667,7 +5676,7 @@ const fiszki = [
     },
                                                                 {
         id: [
-            217,
+            216,
             33,
             66
         ],
@@ -5690,7 +5699,7 @@ const fiszki = [
     },
                                                                     {
         id: [
-            218,
+            217,
             33,
             66
         ],
@@ -5713,7 +5722,7 @@ const fiszki = [
     },
                                                                         {
         id: [
-            219,
+            218,
             33,
             66
         ],
@@ -5736,7 +5745,7 @@ const fiszki = [
     },
                                                                             {
         id: [
-            220,
+            219,
             33,
             66
         ],
@@ -5759,7 +5768,7 @@ const fiszki = [
     },
                                                                                 {
         id: [
-            221,
+            220,
             33,
             66
         ],
@@ -5819,17 +5828,12 @@ function activateFiszka(idFiszki, znam) {
         saveLearnedClass(className, 'active2');
         addToTrainingList(id);
         console.log(`Clicked - fiszka with ID ${id} added to training list.`);
-        console.log('Clicked', $(selector));
     }
 }
-
-
-
 // Funkcja do zapisywania klasy w Local Storage
 function saveLearnedClass(className, classToAdd) {
     let learnedClasses = getLearned2();
     const existingEntryIndex = learnedClasses.findIndex(entry => entry.className === className);
-
     if (existingEntryIndex !== -1) {
         // Jeśli już istnieje, zaktualizuj klasę
         learnedClasses[existingEntryIndex].classToAdd = classToAdd;
@@ -5837,16 +5841,13 @@ function saveLearnedClass(className, classToAdd) {
         // W przeciwnym razie dodaj nowy wpis
         learnedClasses.push({className, classToAdd});
     }
-
     localStorage.setItem('ColorClass', JSON.stringify(learnedClasses));
     console.log('ColorClass', learnedClasses);
 }
-
 // Funkcja do aktualizacji klasy 'active' w Local  Storage
 function updateLearnedClass(className, classToUpdate) {
     let learnedClasses = getLearned2();
     const existingEntryIndex = learnedClasses.findIndex(entry => entry.className === className);
-
     if (existingEntryIndex !== -1) {
         // Jeśli już istnieje, zaktualizuj klasę
         learnedClasses[existingEntryIndex].classToAdd = classToUpdate;
@@ -5854,13 +5855,11 @@ function updateLearnedClass(className, classToUpdate) {
         console.log('ColorClass', learnedClasses);
     }
 }
-
 // Funkcja do odzyskiwania klas z Local Storage
 function getLearned2() {
     const storedColorClass = localStorage.getItem('ColorClass');
     return storedColorClass ? JSON.parse(storedColorClass) : [];
 }
-
 // Wywołanie klas po odświeżeniu strony
 $(document).ready(function () {
     const learnedClasses = getLearned2();
@@ -5868,78 +5867,18 @@ $(document).ready(function () {
         $(`.${entry.className}`).addClass(entry.classToAdd);
     });
 });
-let lessons2b = {};
-
-    // Funkcja do zapisywania danych do localStorage
-    function saveToLocalStorage(data) {
-        localStorage.setItem('wylosowaneLekcje', JSON.stringify(data));
-    }
-
-    // Funkcja do wczytywania danych z localStorage
-    function loadFromLocalStorage() {
-        const storedData = localStorage.getItem('wylosowaneLekcje');
-        return storedData ? JSON.parse(storedData) : null;
-    }
-
-    const storedLessons = loadFromLocalStorage();
-
-    if (storedLessons) {
-        lessons2b = storedLessons;
-        console.log('Wczytane dane z localStorage:', lessons2b);
-        console.log('hejlekcje', lessons2b[2]);
-
-        // Wywołanie funkcji showFiszki2 po wczytaniu danych
-        setTimeout(() => {
-            console.log('Wywołanie showFiszki2 z wczytanymi danymi');
-            showFiszki2();  // Upewnij się, że ta funkcja jest zdefiniowana
-        }, 0);
-    } else {
-        // Jeśli nie ma zapisanych danych, losuj i zapisz
-        for (let i = 1; i <= 30; i++) {
-            lessons2b[i] = [];
-        }
-        
-        // Zapisz dane do localStorage
-        saveToLocalStorage(lessons2b);
-
-        // Wywołanie showFiszki2 po zapisaniu nowych danych
-        setTimeout(() => {
-            console.log('Wywołanie showFiszki2 z nowo wygenerowanymi danymi');
-            showFiszki2();  // Upewnij się, że ta funkcja jest zdefiniowana
-        }, 0);
-    }
-
-
-// Sprawdzanie zawartości lessons2b po załadowaniu danych
-function printLessons2b() {
-    console.log('hej555', lessons2b[2]);
-}
-
-// Wywołaj tę funkcję, gdy masz pewność, że dane zostały załadowane
-document.addEventListener('DOMContentLoaded', function() {
-    setTimeout(printLessons2b, 1000);  // Opóźnienie dla pewności
-});
 function generateFiszkaBlock(fiszka, lessonId2) {
-    console.log('hej555a', lessons2b[0]);
-        console.log('hej555b', lessons2b[1]);
-            console.log('hej555c', lessons2b[2]);
     var currentStoryButtonName = ''; // Zmienna lokalna
     console.log(`Generating fiszka block for ID: [${fiszka.id.join(', ')}]`);
-
     // Tworzenie kontenera fiszki
-
     $(document).ready(function () {
-
         function initAudio(fiszkaId) {
             var audioId = 'music' + fiszkaId;
             var pButtonId = 'pButton' + fiszkaId;
-
             var music = document.getElementById(audioId);
             var pButton = document.getElementById(pButtonId);
-
             console.log('Initialized audio element with ID:', audioId);
             console.log('Initialized play/pause button with ID:', pButtonId);
-
             // Play and Pause
             function playb() {
                 // start music
@@ -5956,53 +5895,39 @@ function generateFiszkaBlock(fiszka, lessonId2) {
                 }
                 console.log('Audio playback status:', music.paused ? 'Paused' : 'Playing');
             }
-
             // Gets audio file duration
             music.addEventListener("canplaythrough", function () {
                 var duration = music.duration;
                 console.log('Audio duration:', duration);
             }, false);
-
             // Dodajemy event listener do przycisku play/pause
             pButton.addEventListener('click', playb);
-
             console.log('Audio initialization completed.');
         }
-
 // TWORZENIE KONTENERA FISZKI
         const fiszkaContainer = $('<div>').addClass('fiszka fiszka-' + fiszka.id);
-
         // Pobierz istniejące wartości z localStorage (jeśli istnieją)
         const savedMarginTop = localStorage.getItem('marginTop');
         const savedMarginBottom = localStorage.getItem('marginBottom');
-
         console.log('Saved values from localStorage:', savedMarginTop, savedMarginBottom);
-
         // Ustaw domyślne wartości lub skorzystaj z zapisanych wartości z localStorage
         let marginTop = savedMarginTop !== null ? JSON.parse(savedMarginTop) : {};
         let marginBottom = savedMarginBottom !== null ? JSON.parse(savedMarginBottom) : {};
-
         console.log('Calculated values:', marginTop, marginBottom);
-
         // Utwórz lub pobierz unikalne wartości marginesów dla danej fiszki
         const fiszkaId = fiszka.id.join('-');
-
         // Ustaw margines na zero dla pierwszej fiszki
         marginTop[fiszkaId] = marginTop[fiszkaId] !== undefined ? marginTop[fiszkaId] : fiszkaId === '1' ? 0 : Math.floor(Math.random() * 160);
         marginBottom[fiszkaId] = marginBottom[fiszkaId] !== undefined ? marginBottom[fiszkaId] : fiszkaId === '1' ? 0 : Math.floor(Math.random() * 80);
-
         // Zapisz wartości marginesów do localStorage
         localStorage.setItem('marginTop', JSON.stringify(marginTop));
         localStorage.setItem('marginBottom', JSON.stringify(marginBottom));
-
         console.log('Values after saving to localStorage:', marginTop, marginBottom);
-
         // Ustaw marginesy w elemencie fiszkaContainer
         fiszkaContainer.css({
             'margin-top': `${fiszka.id[0] % 2 === 0 ? -marginTop[fiszkaId] + 170 : -marginTop[fiszkaId] + 40}px`,
             'margin-bottom': `${fiszka.id[0] % 2 !== 0 ? marginBottom[fiszkaId] + 70 : -marginBottom[fiszkaId] + 50}px`
         });
-
         // DODANIE OBRAZKA
         const imgContainer = $('<div>').addClass('fiszka_img_container');
         if (Array.isArray(fiszka.img) && fiszka.img.length > 0) {
@@ -6019,10 +5944,8 @@ function generateFiszkaBlock(fiszka, lessonId2) {
             imgContainer.append(imgElement);
         }
         fiszkaContainer.append(imgContainer); //DODANIE OBRAZKA
-
         const selectedLikes = [];
         console.log('hej10', selectedLikes);
-
 // Funkcja do obsługi kliknięcia na przycisk "likeButton"
         function handleLikeButtonClick(index) {
             const likeButton = $(this);
@@ -6035,25 +5958,20 @@ function generateFiszkaBlock(fiszka, lessonId2) {
         const likeText = $('<span>').text('Śmieszna historia');
         likeButton.append(likeText);
         fiszkaContainer.append(likeButton);
-
         // Tworzymy kontener opcji "like" i dodajemy opcje do kontenera
         const likeOptionsContainer = $('<div>').attr('id', 'likeOptionsContainer');
         const likeOption1 = createLikeOption('thumbsUp', '👍 Śmieszne');
         const likeOption2 = createLikeOption('heart', '❤️ Miłe');
         const likeOption3 = createLikeOption('star', '⭐ Pamiętliwe');
         likeOptionsContainer.append(likeOption1, likeOption2, likeOption3);
-
         // Dodajemy kontener opcji "like" do docelowego kontenera
         likeButton.append(likeOptionsContainer);
-
         // Ukrywamy kontener opcji "like"
         likeOptionsContainer.hide();
-
         // Obsługa zdarzenia hover na przycisku "like"
         likeButton.hover(function () {
             const buttonPosition = likeButton.offset();
             const buttonWidth = likeButton.outerWidth();
-
             // Pozycjonujemy kontener opcji "like" nad przyciskiem
             likeOptionsContainer.css({
                 top: buttonPosition.top - likeOptionsContainer.outerHeight() - 10,
@@ -6064,7 +5982,6 @@ function generateFiszkaBlock(fiszka, lessonId2) {
             // Ukrywamy kontener opcji "like" po zjechaniu z przycisku
             likeOptionsContainer.fadeOut('fast');
         });
-
 // Funkcja do umieszczania ikony obok przycisku "story_button" w odpowiedniej fiszce
         function addLikeIconToStoryButton(index, like) {
             const storyButton = fiszkaContainer.find('.story_button').eq(index);
@@ -6072,22 +5989,17 @@ function generateFiszkaBlock(fiszka, lessonId2) {
                 console.error('Nie znaleziono przycisku dla indeksu:', index);
                 return;
             }
-
             // Tworzymy kontener dla ikony i dodajemy ikonę
             const iconContainer = $('<div>').addClass('likeIconContainer');
             const likeIcon = getLikeIcon(like);
             iconContainer.append(likeIcon);
-
             // Usuwamy wcześniej dodaną ikonę, jeśli istnieje
             storyButton.find('.likeIconContainer').remove();
-
             // Dodajemy kontener z ikoną do przycisku "story_button"
             storyButton.append(iconContainer);
         }
-
 function createLikeOption(like, text) {
     const likeOption = $('<div>').addClass('likeOption').attr('data-like', like).text(text);
-
     // Dodajemy efekt zmiany koloru na lekko ciemniejszy szary po najechaniu myszką na pojedynczą opcję "like"
     likeOption.hover(
         function () {
@@ -6097,34 +6009,25 @@ function createLikeOption(like, text) {
             likeOption.css('background-color', ''); // Usuwamy styl, aby wrócić do domyślnego tła opcji "like"
         }
     );
-
     let likeCounter = 0; // Dodajemy licznik polubień dla każdej opcji "like"
-
     const counterDiv = $('<div>').addClass('likeCounterDiv'); // Nowy div na licznik
-
     // Dodajemy ikonę do licznika
     const likeIcon = getLikeIcon(like);
     const iconContainer = $('<span>').addClass('likeIconContainer').append(likeIcon);
     counterDiv.append(iconContainer);
-
     const likeCounterSpan = $('<span>').addClass('likeCounter').text(` ${likeCounter} `);
     counterDiv.append(likeCounterSpan); // Licznik jest dodany po ikonie
-
     imgContainer.append(counterDiv); // Dodajemy licznik na zewnątrz kontenera przycisków
-
     likeOption.click(function (event) {
         event.preventDefault(); // Zapobiegamy domyślnej akcji przycisku
-
         // Inkrementujemy licznik polubień za każdym razem, gdy opcja "like" zostanie wybrana
         likeCounter++;
         likeCounterSpan.text(` ${likeCounter} `);
-
         const selectedLike = $(this).data('like');
         const selectedIcon = getLikeIcon(selectedLike);
         likeText.text(text);
         likeButton.removeClass('liked');
         addLikeIconToStoryButton(lastClickedIndex, selectedLike); // Dodaj ikonę do story_button na podstawie wybranej opcji "like"
-
         // Sprawdź, czy index już istnieje w tablicy
         const existingIndex = selectedLikes.findIndex(item => item.index === lastClickedIndex);
         if (existingIndex !== -1) {
@@ -6134,14 +6037,11 @@ function createLikeOption(like, text) {
             // Jeśli index nie istnieje, dodaj nowy wpis
             selectedLikes.push({index: lastClickedIndex, like: text}); // Dodaj tylko nazwę "like"
         }
-
         likeOptionsContainer.fadeOut('fast');
         saveSelectedLike(selectedLike, text); // Przekazujemy nazwę "like" i tekst do funkcji saveSelectedLike
     });
-
     return likeOption;
 }
-
 // Funkcja do zapisywania wybranego "like"
         function saveSelectedLike(selectedLike, text) {
             // Tutaj możesz zapisać wybrany "like" w odpowiednim kontekście, np. wysłać go na serwer, zapisać w lokalnym magazynie itp.
@@ -6149,7 +6049,6 @@ function createLikeOption(like, text) {
             console.log('Tekst:', text);
             // Jeśli chcesz użyć go w innych miejscach, możesz przekazać go jako argument do innych funkcji lub zmiennych.
         }
-
         // Funkcja do pobierania ikony dla wybranego "like"
         function getLikeIcon(like) {
             let icon;
@@ -6168,58 +6067,39 @@ function createLikeOption(like, text) {
             }
             return icon;
         }
-
         const hashtagContainer = $('<a>').addClass('hashtag-container').attr('href', '#');
         fiszkaContainer.append(hashtagContainer);
-
-function showStory(index) {
-    const currentFiszka = fiszkaContainer;
-
-    // Ukrywamy wszystkie historie w tej konkretnej fiszce
-    currentFiszka.find('.fiszka_story').hide();
-    
-    // Obsługa mnemoniki
-    if (Array.isArray(fiszka.story)) {
-        if (index >= 0 && index < fiszka.story.length) {
-            currentFiszka.find('.story-' + index).show();
+        function showStory(index) {
+            // Uzyskajmy odniesienie do konkretnej fiszki, na którą kliknęliśmy
+            const currentFiszka = fiszkaContainer;
+            // Ukrywamy wszystkie historie w tej konkretnej fiszce
+            currentFiszka.find('.fiszka_story').hide();
+            // MNEMOTECHNIKA
+            if (fiszka.story && fiszka.story.length > 0) {
+                currentFiszka.find('.story-' + index).show();
+            }
+            // Ukrywamy wszystkie obrazy
+            currentFiszka.find('.fiszka_img').hide();
+            // WYBRANY OBRAZ
+            if (fiszka.img && fiszka.img.length > 0) {
+                imgIndex = Math.min(index, fiszka.img.length - 1); // Przypisz imgIndex
+                currentFiszka.find('.fiszka_img').eq(imgIndex).show();
+                specificLesson2Ref = fiszka.img[imgIndex];
+                // Wyświetl console log z indeksem obrazka
+                console.log("Index obrazka:", imgIndex);
+                lastClickedIndex = index;
+                // Wybierz odpowiedni "likeButton" dla danego indeksu
+                selectLikeButton(index);
+            }
+            // HASHTAG
+            const selectedCategoryIndex = index * 2;
+            const value = fiszka.category1[selectedCategoryIndex];
+            const hashtag = fiszka.category1[selectedCategoryIndex + 1];
+            hashtagContainer.empty(); // Wyczyść poprzednie hashtagi
+            hashtagContainer.text(`${value} #${hashtag}`);
+            console.log('Calculated imgIndex:', imgIndex);
+            return imgIndex; // Zwracamy indeks obrazka
         }
-    } else if (fiszka.story) {
-        currentFiszka.find('.story-0').show();
-    }
-
-    // Ukrywamy wszystkie obrazy
-    currentFiszka.find('.fiszka_img').hide();
-
-    // Obsługa obrazów
-    let imgIndex; // Zmienna do przechowywania indeksu obrazka
-
-    if (Array.isArray(fiszka.img)) {
-        imgIndex = Math.min(index, fiszka.img.length - 1);
-        currentFiszka.find('.fiszka_img').eq(imgIndex).show();
-        specificLesson2Ref = fiszka.img[imgIndex];
-        console.log("Index obrazka:", imgIndex);
-    } else {
-        imgIndex = 0; // Ustawienie imgIndex na 0, gdy fiszka.img nie jest tablicą
-        currentFiszka.find('.fiszka_img').eq(imgIndex).show();
-        specificLesson2Ref = fiszka.img;
-        console.log("Index obrazka:", imgIndex);
-    }
-
-    lastClickedIndex = index;
-
-    // Obsługa hashtagów
-    const selectedCategoryIndex = index * 2;
-    const value = fiszka.category1[selectedCategoryIndex];
-    const hashtag = fiszka.category1[selectedCategoryIndex + 1];
-    
-    hashtagContainer.empty(); 
-    hashtagContainer.text(`${value} #${hashtag}`);
-
-    console.log('Calculated imgIndex:', imgIndex);
-
-    return imgIndex;
-}
-
         function selectLikeButton(index) {
             console.log("Wybór likeButton dla indeksu:", index);
             const storyButton = $('.story_button').eq(index);
@@ -6227,11 +6107,9 @@ function showStory(index) {
                 console.error('Nie znaleziono przycisku dla indeksu:', index);
                 return;
             }
-
             const likeButton = storyButton.find('.like');
             likeText.find('span').remove();
             likeText.text('Śmieszna historia');
-
             // Sprawdź, czy index jest zawarty w tablicy selectedLikes
             const selectedLike = selectedLikes.find(item => item.index === index);
             if (selectedLike) {
@@ -6253,7 +6131,6 @@ function showStory(index) {
         });
         // Dodanie diva z przyciskami do kontenera fiszki
         fiszkaContainer.append(sentenceDiv);
-
         console.log('Przed utworzeniem wordDiv');
         const wordDiv = $('<div>').attr('id', 'word');
         const button = $('<button>').attr('id', 'storyone').html('<b>' + fiszka.desc + '</b>');
@@ -6261,14 +6138,13 @@ function showStory(index) {
             id: 'music' + fiszka.id,
             preload: 'true'
         });
-        const source = $('<source>').attr('src', fiszka.word);
+        const source = $('<source>').attr('src', fiszka.srcWord);
         audio.append(source);
         const audioplayerDiv = $('<div>').attr('id', 'audioplayer' + fiszka.id).addClass('audioplayer'); // Dodano klasę 'audioplayer'
         const pButton = $('<button>').attr('id', 'pButton' + fiszka.id).addClass('pButton play').click(function () {
             console.log('playb called for fiszka.id:', fiszka.id);
             window['playb' + fiszka.id]();
         });
-
         pButton.css({
             height: '60px',
             width: '60px',
@@ -6282,58 +6158,44 @@ function showStory(index) {
             justifyContent: 'center',
             overflow: 'hidden'
         });
-
         audioplayerDiv.append(pButton);
         wordDiv.append(button);
         wordDiv.append(audio);
         wordDiv.append(audioplayerDiv);
         fiszkaContainer.append(wordDiv);
         console.log('Po utworzeniu wordDiv');
-
-// DODANIE MNEMOTECHNIKI
-if (Array.isArray(fiszka.story)) {
-    // Jeśli story jest tablicą, iterujemy przez wszystkie jej elementy
-    fiszka.story.forEach((story, index) => {
-        const storyContainer = $('<div>').addClass('fiszka_story story-' + index).html(story);
-        fiszkaContainer.append(storyContainer);
-        console.log("Dodano story: ", story);  // Debugowanie
-    });
-} else if (fiszka.story) {
-    // Jeśli story jest pojedynczym stringiem, dodajemy go bezpośrednio
-    const storyContainer = $('<div>').addClass('fiszka_story story-0').html(fiszka.story);
-    fiszkaContainer.append(storyContainer);
-    console.log("Dodano story: ", fiszka.story);  // Debugowanie
-}
+        // DODANIE  MNEMOTECHNIKI
+        if (Array.isArray(fiszka.story) && fiszka.story.length > 0) {
+            fiszka.story.forEach((story, index) => {
+                const storyContainer = $('<div>').addClass('fiszka_story story-' + index).html(story).hide();
+                fiszkaContainer.append(storyContainer);
+            });
+        }
         console.log('Przed utworzeniem wordDiv');
-
 // Utworzenie reszty elementów zgodnie z istniejącym kodem
         const wordDiv2 = $('<div>').attr('id', 'word2');
         const audio2 = $('<audio>').attr({
             id: 'music2' + fiszka.id,
             preload: 'true'
         });
-        const source2 = $('<source>').attr('src', fiszka.word);
+        const source2 = $('<source>').attr('src', fiszka.srcWord);
         audio2.append(source2);
         const audioplayerDiv2 = $('<div>').attr('id', 'audioplayer2' + fiszka.id).addClass('audioplayer2'); // Dodano klasę 'audioplayer'
         const pButton2 = $('<button>').attr('id', 'pButton2' + fiszka.id).addClass('pButton play').click(function () {
             console.log('playb called for fiszka.id:', fiszka.id);
             window['playb' + fiszka.id]();
         });
-
 // Utworzenie elementów za pomocą jQuery
         const timelineDiv = $('<div>').attr('id', 'timeline' + fiszka.id);
         const playheadDiv = $('<div>').attr('id', 'playhead' + fiszka.id);
-
 // Dodanie playhead do timeline
         timelineDiv.append(playheadDiv);
-
 // Dodanie elementów do odpowiednich kontenerów
         audioplayerDiv.append(pButton2);
         wordDiv2.append(audio2);
         wordDiv2.append(audioplayerDiv2);
         wordDiv2.append(timelineDiv); // Dodano timeline do wordDiv
         fiszkaContainer.append(wordDiv2);
-
         console.log('Po utworzeniu wordDiv');
         // Zdefiniuj zmienną początkową na poziomie wyższym
         let initialSpecificLesson2Ref;
@@ -6342,39 +6204,31 @@ if (Array.isArray(fiszka.story)) {
         let lastApprovedIndex = null; // Zmienna do przechowywania ostatnio zatwierdzonego indeksu
         let approvedIndexes = []; // Tablica przechowująca zatwierdzone indeksy
         let approvedColors = [];
-
 // DODANIE PRZYCISKÓW
         if (Array.isArray(fiszka.category1)) {
             const storyButtonContainer = $('<div>'); // Kontener na przyciski
             const randomIndex = Math.floor(Math.random() * fiszka.category1.length / 2);
             let lastClickedButton; // Zmienna do przechowywania ostatnio klikniętego przycisku w danej fiszce
-
             fiszka.category1.slice(0, 5).forEach((category1, index) => {
                 const valueIndex = index * 2; // Indeks wartości w tablicy, zaczynając od 0
                 const hashtagIndex = valueIndex + 1; // Indeks hashtagu w tablicy
-
                 const value = fiszka.category1[valueIndex];
                 const hashtag = fiszka.category1[hashtagIndex];
-
                 const displayText = `${value} #${hashtag}`;
-
                 const storyButton = $('<button>')
                         .text(displayText)
                         .addClass('story_button')
                         .click(function () {
                             showStory(index);
                             lastClickedIndex = index;
-
                             // Usuwamy zieloną klasę tylko z poprzedniego przycisku w danej fiszce
                             if (lastClickedButton) {
                                 lastClickedButton.removeClass('green-button');
                             }
-
                             // Usuwamy klasę imgIndex z poprzedniego przycisku w danej fiszce
                             $('.story_button').removeClass((index, className) => (className.match(/imgIndex-\d+/g) || []).join(' '));
                             // Dodajemy klasę imgIndexNull do przycisków, które nie zostały jeszcze zatwierdzone
                             $('.fiszka').addClass('imgIndexNull').removeClass('imgIndex-0 imgIndex-1 imgIndex-2 imgIndex-3 imgIndex-4 ');
-
                             // Dodajemy zieloną klasę tylko dla aktualnie klikniętego przycisku w danej fiszce
                             $(this).addClass('green-button');
                             $('.story_button').removeClass('active-button');
@@ -6385,77 +6239,34 @@ if (Array.isArray(fiszka.story)) {
                                     $(this).addClass('orange-button');
                                 }
                             });
-
                             // Jeśli przycisk został wcześniej zatwierdzony, przywróć jego zatwierdzoną klasę
                             if (approvedIndexes.includes(lastClickedIndex)) {
                                 fiszkaContainer.addClass('imgIndex-' + lastClickedIndex);
                             }
-
                             // Zapisujemy ostatnio kliknięty przycisk w danej fiszce
                             lastClickedButton = $(this);
                             handleLikeButtonClick();
                         });
-
-        if (index === randomIndex) {
-            // Sprawdzamy, czy fiszka.img jest tablicą czy pojedynczą wartością
-            if (Array.isArray(fiszka.img)) {
-                newImgIndex = Math.min(index, fiszka.img.length - 1); // Aktualizacja zmiennej globalnej imgIndex
-                specificLesson2Ref = fiszka.img[newImgIndex];
-                console.log('hej432', specificLesson2Ref);
-            } else if (fiszka.img) {
-                newImgIndex = 0; // Przypisanie domyślnego indeksu dla pojedynczego obrazka
-                specificLesson2Ref = fiszka.img; // Przypisanie pojedynczej wartości do specificLesson2Ref
-                console.log('hej432', specificLesson2Ref);
-            }
-            initialSpecificLesson2Ref = specificLesson2Ref;
-            console.log('Hej7', specificLesson2Ref);
-            storyButton.addClass('green-button');
-            lastClickedButton = storyButton;
-            lastApprovedIndex = index; // Ustaw ostatnio zatwierdzony indeks na indeks losowego przycisku
-        }
-
+                if (index === randomIndex) {
+                    // Przypisanie specificLesson2Ref dla przycisku o losowym indeksie
+                    newImgIndex = Math.min(index, fiszka.img.length - 1); // Aktualizacja zmiennej globalnej imgIndex
+                    specificLesson2Ref = fiszka.img[newImgIndex];
+                    initialSpecificLesson2Ref = specificLesson2Ref;
+                    console.log('hej7', newImgIndex);
+                    storyButton.addClass('green-button');
+                    lastClickedButton = storyButton;
+                    lastApprovedIndex = index; // Ustaw ostatnio zatwierdzony indeks na indeks losowego przycisku
+                }
                 // Dodaj typ "like" dla tej fiszki do tablicy
                 storyButtonContainer.append(storyButton);
             });
-
             fiszkaContainer.append(storyButtonContainer);
-
             // WYWOŁANIE TABLICY
             showStory(randomIndex);
             console.log(randomIndex);
-
             // Użycie specificLesson2Ref po załadowaniu strony
             console.log("Początkowy specificLesson2Ref:", initialSpecificLesson2Ref);
-            
-        } else if (fiszka.category1) {
-    // Jeśli fiszka.category1 nie jest tablicą
-    newImgIndex = 0; // Przypisanie domyślnego indeksu dla pojedynczego obrazka
-    specificLesson2Ref = fiszka.img; // Przypisanie pojedynczej wartości do specificLesson2Ref
-    initialSpecificLesson2Ref = specificLesson2Ref;
-    console.log('Hej7', specificLesson2Ref);
-
-    // Stwórz pojedynczy przycisk dla pojedynczej wartości category1
-    const displayText = `${fiszka.category1} #${fiszka.category1}`;
-    const storyButton = $('<button>')
-        .text(displayText)
-        .addClass('story_button2 green-button') // Od razu przypisz zieloną klasę
-        .click(function () {
-            showStory(0); // Przekazujemy 0 jako indeks, ponieważ jest to pojedyncza wartość
-            lastClickedIndex = 0;
-
-            // Zapisujemy ostatnio kliknięty przycisk
-            lastClickedButton = $(this);
-            handleLikeButtonClick();
-        });
-
-    fiszkaContainer.append(storyButton);
-    lastClickedButton = storyButton;
-    lastApprovedIndex = 0; // Ustaw ostatnio zatwierdzony indeks na 0
-
-    // WYWOŁANIE POJEDYNCZEJ HISTORII
-    showStory(0);
-    console.log("Pojedyncza wartość dla category1, specificLesson2Ref:", specificLesson2Ref);
-}
+        }
         $('.fiszka_button_trening').click(function () {
             // Dodaj klasę pomarańczową tylko dla przycisku zatwierdzonego
             $('.story_button').each(function (index) {
@@ -6465,78 +6276,43 @@ if (Array.isArray(fiszka.story)) {
                 }
             });
         });
-            console.log('hej555ax', lessons2b[2]);
 // DODANIE PRZYCISKU TRENING
         fiszkaContainer.append($('<button>').text('TRENING').addClass('fiszka_button fiszka_button_trening').click(function () {
-            
             activateFiszka(fiszka.id, false);
-            
-    let id = fiszka.id;
-    let parametr = '';
-
-    // Sprawdzenie, czy idFiszki jest tablicą
-    if (Array.isArray(fiszka.id)) {
-        id = fiszka.id[0];         // Pierwszy element tablicy jako id
-        parametr = fiszka.id[1] || ''; // Drugi element tablicy jako parametr, jeśli istnieje
-    }
-
-    // Tworzenie selektora na podstawie id i parametru
-    const className = `fiszka-${id}\\,${parametr}`;
-    const selector = `.${className}`;
-    console.log('hej201', parametr);
-            let first = false;
-        // Jeśli parametr jest równy lessons2b[0], uruchom aktywujObrazek
-        if (parametr === lessons2b[0]) {
-            first = true;
-            console.log('hej200', first);
-            
-    }
-    let second = false;
-            // Jeśli parametr jest równy lessons2b[0], uruchom aktywujObrazek
-        if (parametr === lessons2b[1]) {
-            second = true;
-            console.log('hej200', second);
-            
-    }
-    let third = false;
-            // Jeśli parametr jest równy lessons2b[0], uruchom aktywujObrazek
-        if (parametr === lessons2b[2]) {
-            third = true;
-            console.log('hej200', third);
-            
-    }
-            
             console.log("Trening clicked on fiszka nr " + fiszka.id);
             console.log("lessonId2:", lessonId2);
-            console.log("nazwa", lessons2b[2]);
+            console.log("nr fiszki", lessons2[lessonId2]);
+            console.log("nazwa", fiszka.key);
             // Wyswietlenie danej wartości img dla danej fiszka.id
             const specificLesson2 = specificLesson2Ref || initialSpecificLesson2Ref;
             console.log("img dla fiszki o id", fiszka.id, ":", specificLesson2);
             specificLesson2Ref = fiszka.img;
             // Znajdź indeks dla danej fiszki w tablicy lessons2[lessonId2]
-            console.log('story55', specificLesson2Ref);
+            const index = lessons2[lessonId2].findIndex(item => item.id.join(', ') === fiszka.id.join(', '));
+            if (index !== -1) {
+                console.log("Nr fiszki:", index);
+            } else {
+                console.log("Fiszka nie została znaleziona w tablicy.");
+            }
+            console.log('Przed aktywujObrazek');
             // Używamy lastClickedIndex zamiast index
             imgIndex = showStory(lastClickedIndex); // Wywołanie funkcji showStory i zapisanie zwróconego indeksu obrazka
-            console.log('działa', specificLesson2Ref);
-            aktywujObrazek(first, second, third, specificLesson2, 'obrazek-container2b', true, fiszka, imgIndex); // Przekazanie imgIndex do funkcji aktywujObrazek
+            aktywujObrazek(lessonId2, specificLesson2, 'obrazek-container2b', true, fiszka, imgIndex); // Przekazanie imgIndex do funkcji aktywujObrazek
+            console.log('hej2', imgIndex);
             // Dodajemy zatwierdzony indeks do tablicy
             approvedIndexes.push(lastClickedIndex);
             console.log(approvedIndexes);
-
             // Dodanie zatwierdzonej klasy imgIndex do fiszkaContainer po kliknięciu przycisku "TRENING"
             fiszkaContainer.addClass('imgIndex-' + lastClickedIndex);
         }));
-
         fiszkaContainer.append($('<button>').text('ZNAM').addClass('fiszka_button fiszka_button_znam').click(function () {
             console.log("Znam clicked on fiszka nr " + fiszka.id);
             activateFiszka(fiszka.id, true);
         }));
-
         // WYWOŁANIE HASHTAGU
         function updateButtonName(buttonName, fiszkaContainer) {
             // Usuń poprzednią nazwę, jeśli istnieje
             fiszkaContainer.find('.fiszka_button_name').remove();
-
             // Ustaw nazwę w prawym dolnym rogu fiszki
             const fiszkaButtonNameContainer = $('<div>').addClass('fiszka_button_name').text(buttonName);
             fiszkaContainer.append(fiszkaButtonNameContainer);
@@ -6547,15 +6323,71 @@ if (Array.isArray(fiszka.story)) {
         initAudio(fiszka.id);
     });
 }
+function getRandomId(max, range, usedIds) {
+    const start = (range - 1) * max + 1;
+    const end = range * max;
+    // Filtruj dostępne identyfikatory, usuwając już użyte
+    const availableIds = Array.from({length: end - start + 1}, (_, index) => start + index)
+            .filter(id => !usedIds.includes(id));
+    if (availableIds.length === 0) {
+        // W przypadku, gdy wszystkie identyfikatory zostały już użyte, zwracamy null lub możemy obsłużyć to w inny sposób
+        return null;
+    }
+    // Losuj identyfikator z dostępnych
+    const randomIndex = Math.floor(Math.random() * availableIds.length);
+    const randomId = availableIds[randomIndex];
+    // Dodaj użyty identyfikator do listy
+    usedIds.push(randomId);
+    return randomId;
+}
 
+// Funkcja do wczytywania danych z localStorage
+function loadFromLocalStorage() {
+    const storedData = localStorage.getItem('wylosowaneLekcje');
+    return storedData ? JSON.parse(storedData) : null;
+}
+const maxRandom = 3;
+let lessons2;
 
+// Sprawdź, czy istnieją zapisane dane w localStorage
+const storedLessons = loadFromLocalStorage();
+if (storedLessons) {
+    // Jeśli dane są zapisane, wczytaj je
+    lessons2 = storedLessons;
+    console.log('Wczytane dane z localStorage:', lessons2);
+    console.log('hej124', lessons2);
+    // Opóźnij wywołanie funkcji do wyświetlania fiszek
+    setTimeout(showFiszki2, 0);
+}
+// Funkcja do wyświetlania fiszek w danej lekcji
+function showFiszki2() {
+    const lessons2 = loadFromLocalStorage();
+    console.log('Wczytane lekcje (powinny być tablicą):', lessons2);
 
+    if (Array.isArray(lessons2)) {
+        lessons2.forEach(lessonId2 => {
+            console.log(`Sprawdzanie lekcji ${lessonId2}`);
+            if (typeof lessonId2 === 'number') {
+                const matchingFiszki = fiszki.filter(fiszka => fiszka.id[1] === lessonId2);
+                if (matchingFiszki.length > 0) {
+                    matchingFiszki.forEach(fiszka => {
+                        generateFiszkaBlock(fiszka, lessonId2);
+                    });
+                } else {
+                    console.log(`Nie znaleziono fiszek dla lekcji ${lessonId2}.`);
+                }
+            } else {
+                console.log(`lessonId2 is not a valid number:`, lessonId2);
+            }
+        });
+    } else {
+        console.log('lessons2 nie jest tablicą lub jest pusta:', lessons2);
+    }
+}
 function getRandomFiszki(fiszkiArray, n) {
     const shuffledFiszki = fiszkiArray.sort(() => Math.random() - 0.5);
     return shuffledFiszki.slice(0, n);
 }
-
-
 function showFiszki() {
     const selectedFiszki = getRandomFiszki(fiszki, 18);
     // Wygeneruj bloki kodu dla wybranych fiszek
@@ -6568,5 +6400,4 @@ function showFiszki() {
 $('<style>.green-button { background-color: green; color: white; }</style>').appendTo('head');
 // Dodajemy styl dla aktywnego przycisku
 $('<style>.active-button { border: 2px solid red; }</style>').appendTo('head');
-
 window.fiszki = fiszki;

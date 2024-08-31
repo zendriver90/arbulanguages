@@ -148,21 +148,17 @@ function aktywujObrazek2(lessonIdParam, indexElementu, czyObrazek) {
     } 
 }
 
-function aktywujObrazek(lessonIdParam, indexElementu, listaId, czyObrazek, fiszka, img) {
-    console.log('hej:', indexElementu);
+function aktywujObrazek(lessonIdParam1, lessonIdParam2, lessonIdParam3, indexElementu, listaId, czyObrazek, fiszka, img) {
+    console.log('hej22', lessonIdParam1);
 
     let nazwaKontenera;
 
-    if (lessonIdParam == 1) {
+    if (lessonIdParam1) {
         nazwaKontenera = 'obrazek-container1';
-    } else if (lessonIdParam == 2) {
+    } else if (lessonIdParam2) {
         nazwaKontenera = 'obrazek-container2';
-    } else if (lessonIdParam == 3) {
+    } else if (lessonIdParam3) {
         nazwaKontenera = 'obrazek-container3';
-    } else {
-        // Obsługa innych przypadków, jeśli jest to konieczne
-        console.log('Nieznany lessonId2:', lessonIdParam);
-        return; // Zakończ funkcję w przypadku nieznanej wartości lessonIdParam
     }
     console.log('0 - funkcja odtwarza sie za dużo razy tylko do tego miejsca');
 
@@ -172,7 +168,7 @@ function aktywujObrazek(lessonIdParam, indexElementu, listaId, czyObrazek, fiszk
     console.log('indexElementu:', indexElementu);
     console.log('fiszka.img:', fiszka);
     console.log('fiszka:', img);
-const fiszkaImgElement = fiszka.img;
+    const fiszkaImgElement = fiszka.img;
     if (indexElementu) {
         console.log('skrypt dotarł tutaj - 1');
         // Sprawdzamy, czy istnieje jakiś element związany z tą fiszką w kontenerze

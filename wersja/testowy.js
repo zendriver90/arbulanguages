@@ -2,21 +2,20 @@ const fiszki = [
     {
         id: [
             1,
-            1,
             1
         ],
+
         // obrazek
         img: [
-            "http://localhost/arbulanguage.com/img/fiszki1/1a.jpeg",
-            "http://localhost/arbulanguage.com/img/fiszki1/1b.jpeg",
-            "http://localhost/arbulanguage.com/img/fiszki1/1c.jpeg",
-            "http://localhost/arbulanguage.com/img/fiszki1/1d.jpeg",
-            "http://localhost/arbulanguage.com/img/fiszki1/1e.jpeg"
+            "http://localhost/arbulanguage.com/img/fiszki1/2a.jpg",
+            "http://localhost/arbulanguage.com/img/fiszki1/2a2.jpg",
+            "http://localhost/arbulanguage.com/img/fiszki1/2a3.jpg",
+            "http://localhost/arbulanguage.com/img/fiszki1/2a4.jpg",
+            "http://localhost/arbulanguage.com/img/fiszki1/2a5.jpg"
         ],
         translate: "Wszyscy mają ubaw na zabawie",
         translateb: "[Ewrybody hes fan at de party]",
-        srcWord: ["http://localhost/arbulanguage.com/filmy/party.mp4", 'The Matrix Reloaded'],
-        srcWord2: ["http://localhost/arbulanguage.com/filmy/procedure.mp4", "Breaking Bad"],
+        srcWord: "http://localhost/arbulanguage.com/filmy/party.mp4",
         srcWordimage: "http://localhost/arbulanguage.com/filmy/party.png",
         word: [
             "http://localhost/arbulanguage.com/voice/music.mp4"
@@ -38,7 +37,7 @@ const fiszki = [
         sentence1: [
             "Everybody"
         ],
-        sentence: [
+                sentence: [
             "Everybody",
             "has",
             "fun"
@@ -52,13 +51,11 @@ const fiszki = [
             "czarny humor", "pasja",
             "związki", "wychowanie"
         ],
-        category2: ["osoby"],
-        category3: ["PresentSimple"]
+        category2: ["osoby", "osoby+czas"]
     },
     {
         id: [
             2,
-            1,
             1
         ],
         img: [
@@ -82,7 +79,7 @@ const fiszki = [
         sentence1: [
             "has"
         ],
-        sentence: [
+                sentence: [
             "Everybody",
             "has",
             "fun"
@@ -95,12 +92,11 @@ const fiszki = [
             "czarny humor", "trendy",
             "związki", "muzyka"
         ],
-        category2: ["czasowniki", "osoby+czas"]
+        category2: ["czaswoniki", "osoby+czas"]
     },
     {
         id: [
             3,
-            1,
             1
         ],
         img: [
@@ -124,7 +120,7 @@ const fiszki = [
         sentence1: [
             "fun"
         ],
-        sentence: [
+                sentence: [
             "Everybody",
             "has",
             "fun"
@@ -142,8 +138,7 @@ const fiszki = [
     {
         id: [
             4,
-            1,
-            2
+            1
         ],
         img: [
             "http://localhost/arbulanguage.com/img/fiszki1/2d.jpg",
@@ -155,7 +150,6 @@ const fiszki = [
         word: [
             "http://localhost/arbulanguage.com/src/at.wav"
         ],
-        srcWord2: ["http://localhost/arbulanguage.com/filmy/procedure.mp4", "Breaking Bad"],
         story: [
             "<u><b>W tym</u></b> atelcie jest dużo siły",
             "Scott <u><b>At</u></b>kinson <u><b>w tym</u></b> lesie był na spacerze",
@@ -167,7 +161,7 @@ const fiszki = [
         sentence2: [
             "at"
         ],
-        sentence: [
+                sentence: [
             "at",
             "the",
             "party"
@@ -185,8 +179,7 @@ const fiszki = [
     {
         id: [
             5,
-            1,
-            2
+            1
         ],
         img: [
             "http://localhost/arbulanguage.com/img/fiszki1/2e.jpg",
@@ -209,7 +202,7 @@ const fiszki = [
         sentence2: [
             "the"
         ],
-        sentence: [
+                sentence: [
             "at",
             "the",
             "party"
@@ -227,8 +220,7 @@ const fiszki = [
     {
         id: [
             6,
-            1,
-            2
+            1
         ],
         img: [
             "http://localhost/arbulanguage.com/img/fiszki1/2f.jpg",
@@ -251,7 +243,7 @@ const fiszki = [
         sentence2: [
             "party"
         ],
-        sentence: [
+                sentence: [
             "at",
             "the",
             "party"
@@ -269,8 +261,7 @@ const fiszki = [
     {
         id: [
             7,
-            2,
-            3
+            2
         ],
         img: [
             "http://localhost/arbulanguage.com/img/fiszki1/1a.jpg",
@@ -281,8 +272,7 @@ const fiszki = [
         ],
         translate: "On jest posłuszny wobec naukowych procedur",
         translateb: "[Hi is obidient to sajens prosidżer]",
-        srcWord: ["http://localhost/arbulanguage.com/filmy/procedure.mp4", "Breaking Bad"],
-        srcWord2: ["http://localhost/arbulanguage.com/filmy/procedure.mp4", "Breaking Bad"],
+        srcWord: "http://localhost/arbulanguage.com/filmy/procedure.mp4",
         srcWordimage: "http://localhost/arbulanguage.com/filmy/procedure.png",
         word: [
             "http://localhost/arbulanguage.com/voice/bike.mp4"
@@ -299,7 +289,7 @@ const fiszki = [
         sentence1: [
             "He"
         ],
-        sentence: [
+                sentence: [
             "He",
             "is",
             "obedient"
@@ -312,14 +302,12 @@ const fiszki = [
             "czarny humor", "historia",
             "związki", "kulinaria"
         ],
-        category2: ["osoby"],
-        category3: ["PresentSimple"]
+        category2: ["osoby", "osoby+czas"]
     },
     {
         id: [
             8,
-            2,
-            3
+            2
         ],
         img: [
             "http://localhost/arbulanguage.com/img/fiszki1/1b.jpg",
@@ -344,7 +332,7 @@ const fiszki = [
         sentence1: [
             "is"
         ],
-        sentence: [
+                sentence: [
             "He",
             "is",
             "obedient"
@@ -362,8 +350,7 @@ const fiszki = [
     {
         id: [
             9,
-            2,
-            3
+            2
         ],
         img: [
             "http://localhost/arbulanguage.com/img/fiszki1/1c.jpg",
@@ -386,7 +373,7 @@ const fiszki = [
         sentence1: [
             "obedient"
         ],
-        sentence: [
+                sentence: [
             "He",
             "is",
             "obedient"
@@ -404,8 +391,7 @@ const fiszki = [
     {
         id: [
             10,
-            2,
-            4
+            2
         ],
         img: [
             "http://localhost/arbulanguage.com/img/fiszki1/1d.jpg",
@@ -417,7 +403,6 @@ const fiszki = [
         word: [
             "http://localhost/arbulanguage.com/src/to.wav"
         ],
-                srcWord2: ["http://localhost/arbulanguage.com/filmy/procedure.mp4", "Breaking Bad"],
         story: [
             "<u><b>Dla</u></b> spor<u><b>tu</b></u> przeszedłem się pieszo z domu do pracy",
             "Ratunku, <u><b>tu</u></b>taj są węże a ja nie mam <u><b>dla</u></b> nich jedzenia",
@@ -429,10 +414,10 @@ const fiszki = [
         sentence2: [
             "to"
         ],
-        sentence: [
+                sentence: [
             "to",
-            "scientific",
-            "procedures"
+            "science",
+            "procedure"
         ],
         key: "to",
         category1: [
@@ -447,8 +432,7 @@ const fiszki = [
     {
         id: [
             11,
-            2,
-            4
+            2
         ],
         img: [
             "http://localhost/arbulanguage.com/img/fiszki1/1e.jpg",
@@ -467,14 +451,14 @@ const fiszki = [
             "<u><b>Saj</u></b>gon jest w pracy, ten dzień nie ma sensu, a jeszcze muszę się uczyć na zaoczne z tematu badań <u><b>naukowych</u></b>",
             "Najlepiej nie mieć <u><b>saj</u></b>gonu jako <u><b>naukowiec</u></b>, a także być s<u><b>ens</u></b>ualnym kochankiem"
         ],
-        desc: "scientific[sajentifik] - naukowy/naukowa)",
+        desc: "science[sajens] - nauka(dziedzina badawcza:nauka)",
         sentence2: [
-            "scientific"
+            "science"
         ],
-        sentence: [
+                sentence: [
             "to",
-            "scientific",
-            "procedures"
+            "science",
+            "procedure"
         ],
         key: "science",
         category1: [
@@ -489,8 +473,7 @@ const fiszki = [
     {
         id: [
             12,
-            2,
-            4
+            2
         ],
         img: [
             "http://localhost/arbulanguage.com/img/fiszki1/1f.jpg",
@@ -509,14 +492,14 @@ const fiszki = [
             "Prestiżowe pismo naukowe opisuje, że niektóre dżemy pomagają na raka",
             "Nasz dżem wpływa zdrowotnie na samopoczucie. Jest wyrabiany zgodnie z procedurami w Singapurze  - głównie z rabarbaru"
         ],
-        desc: "procedures[prosidzers] - procedury(liczba mnoga)",
+        desc: "procedure[prosidzer] - procedura",
         sentence2: [
-            "procedures"
+            "procedure"
         ],
-        sentence: [
+                sentence: [
             "to",
-            "scientific",
-            "procedures"
+            "science",
+            "procedure"
         ],
         key: "procedure",
         category1: [
@@ -531,8 +514,7 @@ const fiszki = [
     {
         id: [
             13,
-            3,
-            5
+            3
         ],
         img: [
             "http://localhost/arbulanguage.com/img/fiszki1/5a.jpg",
@@ -543,9 +525,8 @@ const fiszki = [
         ],
         translate: "Bądź bardziej obecny wobec swoich emocji",
         translateb: "[Bi mor prezent wiz jour imołszyns]",
-        srcWord: ["http://localhost/arbulanguage.com/filmy/emotions.mp4", "The Dark Knight(2008)"],
-        srcWordimage: "http://localhost/arbulanguage.com/filmy/emotions.png",
-                srcWord2: ["http://localhost/arbulanguage.com/filmy/procedure.mp4", "Breaking Bad"],
+        srcWord: "http://localhost/arbulanguage.com/filmy/emotions.mp4",
+                srcWordimage: "http://localhost/arbulanguage.com/filmy/emotions.png",
         word: [
             "http://localhost/arbulanguage.com/src/be.wav"
         ],
@@ -560,7 +541,7 @@ const fiszki = [
         sentence1: [
             "Be"
         ],
-        sentence: [
+                sentence: [
             "Be",
             "more",
             "present"
@@ -573,14 +554,12 @@ const fiszki = [
             "czarny humor", "zdrowie",
             "związki", "finanse"
         ],
-        category2: ["czasownik"],
-        category3: ["Imperative"]
+        category2: ["czasownik"]
     },
     {
         id: [
             14,
-            3,
-            5
+            3
         ],
         img: [
             "http://localhost/arbulanguage.com/img/fiszki1/5b.jpg",
@@ -603,7 +582,7 @@ const fiszki = [
         sentence1: [
             "more"
         ],
-        sentence: [
+                sentence: [
             "Be",
             "more",
             "present"
@@ -621,8 +600,7 @@ const fiszki = [
     {
         id: [
             15,
-            3,
-            5
+            3
         ],
         img: [
             "http://localhost/arbulanguage.com/img/fiszki1/5c.jpg",
@@ -645,7 +623,7 @@ const fiszki = [
         sentence1: [
             "present"
         ],
-        sentence: [
+                sentence: [
             "Be",
             "more",
             "present"
@@ -663,8 +641,7 @@ const fiszki = [
     {
         id: [
             16,
-            3,
-            6
+            3
         ],
         img: [
             "http://localhost/arbulanguage.com/img/fiszki1/5d.jpg",
@@ -676,7 +653,6 @@ const fiszki = [
         word: [
             "http://localhost/arbulanguage.com/src/with.wav"
         ],
-                srcWord2: ["http://localhost/arbulanguage.com/filmy/procedure.mp4", "Breaking Bad"],
         story: [
             "<u><b>Z</u></b> <u><b>wiz</u></b>ualizacją wygranej sportowcy są bardziej przygotowani",
             "Wizja wiewiórek, które jedzą z wiadomo, którego wiaderka(mojego) jest słuszna",
@@ -688,7 +664,7 @@ const fiszki = [
         sentence2: [
             "with"
         ],
-        sentence: [
+                sentence: [
             "with",
             "your",
             "emotions"
@@ -706,8 +682,7 @@ const fiszki = [
     {
         id: [
             17,
-            3,
-            6
+            3
         ],
         img: [
             "http://localhost/arbulanguage.com/img/fiszki1/5e.jpg",
@@ -730,7 +705,7 @@ const fiszki = [
         sentence2: [
             "your"
         ],
-        sentence: [
+                sentence: [
             "with",
             "your",
             "emotions"
@@ -748,8 +723,7 @@ const fiszki = [
     {
         id: [
             18,
-            3,
-            6
+            3
         ],
         img: [
             "http://localhost/arbulanguage.com/img/fiszki1/5f.jpg",
@@ -772,7 +746,7 @@ const fiszki = [
         sentence2: [
             "emotions"
         ],
-        sentence: [
+                sentence: [
             "with",
             "your",
             "emotions"
@@ -790,8 +764,7 @@ const fiszki = [
     {
         id: [
             19,
-            4,
-            7
+            4
         ],
         img: [
             "http://localhost/arbulanguage.com/img/fiszki1/4a.jpg",
@@ -802,14 +775,13 @@ const fiszki = [
         ],
         translate: "Ja jestem nieśmiały, ale czasami odważny",
         translateb: "[Aj em szaj bat samtajms der]",
-        srcWord: ["http://localhost/arbulanguage.com/filmy/shy.mp4", 'The Matrix Reloaded (2003)'],
-                srcWord2: ["http://localhost/arbulanguage.com/filmy/procedure.mp4", "Breaking Bad"],
-        srcWordimage: "http://localhost/arbulanguage.com/filmy/shy.png",
-        word: [
+        srcWord: "http://localhost/arbulanguage.com/filmy/shy.mp4",
+                srcWordimage: "http://localhost/arbulanguage.com/filmy/shy.png",
+                word: [
             "http://localhost/arbulanguage.com/voice/music.mp4"
         ],
         story: [
-            "<u><b>Ja</u></b> jestem Piotrek, mam okulary ochronne, gdy jechałem rowerem wleciała mi mucha do <u><b>oka</u></b>, krzyczałem <u><b>ajjj</u></b> - dlaczego to <u><b>mi</u></b> wleciała mucha do <u><b>oka</u></b>, <u><b>ajjj</u></b>",
+            "Ja jestem Piotrek, mam okulary ochronne, gdy jechałem rowerem wleciała mi mucha do oka, krzyczałem ajjj - dlaczego to mi wleciała mucha do oka, ajjj",
             "M<u><b>aj</u></b>a ma zezowate <u><b>oko</u></b> i mówi, no <u><b>JA</u></b> widzę ciebie podwójnie",
             "Nauka o mitach, takich jak królowa G</u></b>aj</u></b>a to ten temat, gdzie <u><b>ja</u></b> mam największą wiedze",
             "",
@@ -819,7 +791,7 @@ const fiszki = [
         sentence1: [
             "I"
         ],
-        sentence: [
+                sentence: [
             "I",
             "am",
             "shy"
@@ -832,14 +804,12 @@ const fiszki = [
             "czarny humor", "",
             "związki", ""
         ],
-        category2: ["osoby"],
-        category3: ["PresentSimple"]
+        category2: ["osoby", "osoby+czas"]
     },
     {
         id: [
             20,
-            4,
-            7
+            4
         ],
         img: [
             "http://localhost/arbulanguage.com/img/fiszki1/4b.jpg",
@@ -860,7 +830,7 @@ const fiszki = [
         sentence1: [
             "am"
         ],
-        sentence: [
+                sentence: [
             "I",
             "am",
             "shy"
@@ -878,8 +848,7 @@ const fiszki = [
     {
         id: [
             21,
-            4,
-            7
+            4
         ],
         img: [
             "http://localhost/arbulanguage.com/img/fiszki1/4c.jpg",
@@ -900,7 +869,7 @@ const fiszki = [
         sentence1: [
             "shy"
         ],
-        sentence: [
+                sentence: [
             "I",
             "am",
             "shy"
@@ -918,8 +887,7 @@ const fiszki = [
     {
         id: [
             22,
-            4,
-            8
+            4
         ],
         img: [
             "http://localhost/arbulanguage.com/img/fiszki1/4d.jpg",
@@ -939,10 +907,10 @@ const fiszki = [
         sentence2: [
             "but"
         ],
-        sentence: [
+                sentence: [
             "but",
             "sometimes",
-            "daring"
+            "dare"
         ],
         key: "but",
         category1: [
@@ -957,8 +925,7 @@ const fiszki = [
     {
         id: [
             23,
-            4,
-            8
+            4
         ],
         img: [
             "http://localhost/arbulanguage.com/img/fiszki1/4e.jpg",
@@ -978,10 +945,10 @@ const fiszki = [
         sentence2: [
             "sometimes"
         ],
-        sentence: [
+                sentence: [
             "but",
             "sometimes",
-            "daring"
+            "dare"
         ],
         key: "sometimes",
         category1: [
@@ -996,8 +963,7 @@ const fiszki = [
     {
         id: [
             24,
-            4,
-            8
+            4
         ],
         img: [
             "http://localhost/arbulanguage.com/img/fiszki1/4f.jpg",
@@ -1007,20 +973,20 @@ const fiszki = [
             "http://localhost/arbulanguage.com/img/fiszki1/4f.jpg"
         ],
         story: [
-            "<u><b>Der</u></b>ek <u><b>odważył się</u></b> zrobić salto",
+            "</u></b>Der<u><b>ek <u><b>odważył się </u></b> zrobić salto",
             "<u><b>Der</u></b>matolog przestrzega, aby nie zdobywać się na <u><b>odwagę</u></b> chodzić do dżungli",
             "Na</u></b>der<u><b> oczywiste jest, że <u><b>odwaga</u></b> w głoszeniu poglądów jest dla naukowca bardzo ważna",
             "</u></b>Der<u><b>by tych klubów spowodowały zadymy na meczu, każdy był <u><b>odważny</u></b>",
             "Pewien imprezowicz <u><b>odważył się</u></b> wejść na duże wia<u><b>der</u></b>ko i kręci bio<u><b>der</u></b>kami"
         ],
-        desc: "daring[dering] - odważył się",
+        desc: "dare[der] - odważył się",
         sentence2: [
-            "daring"
+            "dare"
         ],
-        sentence: [
+                sentence: [
             "but",
             "sometimes",
-            "daring"
+            "dare"
         ],
         key: "dare",
         category1: [
@@ -1035,8 +1001,7 @@ const fiszki = [
     {
         id: [
             25,
-            5,
-            9
+            5
         ],
         img: [
             "http://localhost/arbulanguage.com/img/fiszki1/3a.jpg",
@@ -1045,9 +1010,9 @@ const fiszki = [
             "http://localhost/arbulanguage.com/img/fiszki1/3a4.jpg",
             "http://localhost/arbulanguage.com/img/fiszki1/3a5.jpg"
         ],
-        srcWord: ["http://localhost/arbulanguage.com/filmy/cat.mp4", "Superman (1978)"],
+                srcWord: "http://localhost/arbulanguage.com/filmy/cat.mp4",
         srcWordimage: "http://localhost/arbulanguage.com/filmy/cat.png",
-        word: [
+                                word: [
             "http://localhost/arbulanguage.com/voice/party.mp4"
         ],
         translate: "Chłopak złapał kota i przytulił go",
@@ -1061,12 +1026,12 @@ const fiszki = [
         ],
         desc: "guy[gaj] - gościu",
         sentence1: [
-            "(The) guy"
+            "(A) guy"
         ],
-        sentence: [
-            "(The) guy",
-            "catches",
-            "(the) cat"
+                sentence: [
+            "(A) guy",
+            "catch",
+            "cat"
         ],
         key: "guy",
         category1: [
@@ -1076,14 +1041,12 @@ const fiszki = [
             "czarny humor", "kibic",
             "związki", "impreza"
         ],
-        category2: ["osoby"],
-        category3: ["PresentSimple"]
+        category2: ["osoby", "osoby+czas"]
     },
     {
         id: [
             26,
-            5,
-            9
+            5
         ],
         img: [
             "http://localhost/arbulanguage.com/img/fiszki1/3b.jpg",
@@ -1101,12 +1064,12 @@ const fiszki = [
         ],
         desc: "catch[kacz] - łapać",
         sentence1: [
-            "catches"
+            "catch"
         ],
-        sentence: [
-            "(The) guy",
-            "catches",
-            "(the) cat"
+                sentence: [
+            "(A) guy",
+            "catch",
+            "cat"
         ],
         key: "catch",
         category1: [
@@ -1121,8 +1084,7 @@ const fiszki = [
     {
         id: [
             27,
-            5,
-            9
+            5
         ],
         img: [
             "http://localhost/arbulanguage.com/img/fiszki1/3c.jpg",
@@ -1140,12 +1102,12 @@ const fiszki = [
         ],
         desc: "cat[kat] - kot",
         sentence1: [
-            "(the) cat"
+            "cat"
         ],
-        sentence: [
-            "(The) guy",
-            "catches",
-            "(the) cat"
+                sentence: [
+            "(A) guy",
+            "catch",
+            "cat"
         ],
         key: "cat",
         category1: [
@@ -1160,8 +1122,7 @@ const fiszki = [
     {
         id: [
             28,
-            5,
-            10
+            5
         ],
         img: [
             "http://localhost/arbulanguage.com/img/fiszki1/3d.jpg",
@@ -1181,10 +1142,10 @@ const fiszki = [
         sentence2: [
             "and"
         ],
-        sentence: [
+                sentence: [
             "and",
-            "hugs",
-            "it"
+            "hug",
+            "him"
         ],
         key: "and",
         category1: [
@@ -1199,8 +1160,7 @@ const fiszki = [
     {
         id: [
             29,
-            5,
-            10
+            5
         ],
         img: [
             "http://localhost/arbulanguage.com/img/fiszki1/3e.jpg",
@@ -1218,12 +1178,12 @@ const fiszki = [
         ],
         desc: "hug[hag] - przytulać",
         sentence2: [
-            "hugs"
+            "hug"
         ],
-        sentence: [
+                sentence: [
             "and",
-            "hugs",
-            "it"
+            "hug",
+            "him"
         ],
         key: "hug",
         category1: [
@@ -1238,8 +1198,7 @@ const fiszki = [
     {
         id: [
             30,
-            5,
-            10
+            5
         ],
         img: [
             "http://localhost/arbulanguage.com/img/fiszki1/3f.jpg",
@@ -1257,12 +1216,12 @@ const fiszki = [
         ],
         desc: "him[him] - jego",
         sentence2: [
-            "it"
+            "him"
         ],
-        sentence: [
+                sentence: [
             "and",
-            "hugs",
-            "it"
+            "hug",
+            "him"
         ],
         key: "him",
         category1: [
@@ -1277,8 +1236,7 @@ const fiszki = [
     {
         id: [
             31,
-            6,
-            11
+            6
         ],
         img: [
             "http://localhost/arbulanguage.com/img/fiszki1/6a.jpg",
@@ -1289,9 +1247,9 @@ const fiszki = [
         ],
         translate: "Nasza szkoła organizuje całkiem ciekawe wydarzenie",
         translateb: "[Aur skul organajz kłajt interesting iwents]",
-        srcWord: ["http://localhost/arbulanguage.com/filmy/school.mp4", "American Pie: The Wedding (2003)"],
-        srcWordimage: "http://localhost/arbulanguage.com/filmy/school.png",
-        word: "http://localhost/arbulanguage.com/voice/party.mp4",
+                        srcWord: "http://localhost/arbulanguage.com/filmy/school.mp4",
+                                srcWordimage: "http://localhost/arbulanguage.com/filmy/school.png",
+                word: "http://localhost/arbulanguage.com/voice/party.mp4",
         story: [
             "<u><b>Aur</u></b>a zawodnika z <u><b>naszego</u></b> zespołu jest niesamowita",
             "M<u><b>aur</u></b>ycy to jest <u><b>nasz</u></b> ogrodnik",
@@ -1303,7 +1261,7 @@ const fiszki = [
         sentence1: [
             "Our"
         ],
-        sentence: [
+                sentence: [
             "Our",
             "school",
             "organizes"
@@ -1316,14 +1274,12 @@ const fiszki = [
             "czarny humor", "filmy",
             "związki", "okazje"
         ],
-        category2: ["zaimkiosobowe"],
-        category3: ["Present Simple"]
+        category2: ["zaimkiosobowe", "podmiot+czas"]
     },
     {
         id: [
             32,
-            6,
-            11
+            6
         ],
         img: [
             "http://localhost/arbulanguage.com/img/fiszki1/6b.jpg",
@@ -1343,26 +1299,19 @@ const fiszki = [
         sentence1: [
             "school"
         ],
-        sentence: [
+                sentence: [
             "Our",
             "school",
             "organizes"
         ],
         key: "school",
-        category1: [
-            "sport", "",
-            "natura", "zawód",
-            "nauka", "energetyka",
-            "czarny humor", "filmy",
-            "związki", "okazje"
-        ],
+        category1: "nauka",
         category2: ["podmiot+czas"]
     },
     {
         id: [
             33,
-            6,
-            11
+            6
         ],
         img: "http://localhost/arbulanguage.com/img/fiszki1/6c.jpg",
         story: "<b><u>Organ</b></u>izacja dobroczynna współpracuje z Filipem H<b><u>ajze</b></u>rem",
@@ -1370,7 +1319,7 @@ const fiszki = [
         sentence1: [
             "organizes"
         ],
-        sentence: [
+                sentence: [
             "Our",
             "school",
             "organizes"
@@ -1382,8 +1331,7 @@ const fiszki = [
     {
         id: [
             34,
-            6,
-            12
+            6
         ],
         img: "http://localhost/arbulanguage.com/img/fiszki1/6d.jpg",
         story: "<b><u>Kła</b></u>dziemy <b><u>całkiem</b></u> duży nacisk na ilość b<b><u>ajt</b></u>ów w pliku",
@@ -1391,7 +1339,7 @@ const fiszki = [
         sentence2: [
             "quite"
         ],
-        sentence: [
+                sentence: [
             "quite",
             "interesting",
             "events"
@@ -1403,8 +1351,7 @@ const fiszki = [
     {
         id: [
             35,
-            6,
-            12
+            6
         ],
         img: "http://localhost/arbulanguage.com/img/fiszki1/6e.jpg",
         story: "<b><u>Interesujące</b></u> są te boksersie spar<b><u>ing</b></u>i",
@@ -1412,7 +1359,7 @@ const fiszki = [
         sentence2: [
             "interesting"
         ],
-        sentence: [
+                sentence: [
             "quite",
             "interesting",
             "events"
@@ -1424,8 +1371,7 @@ const fiszki = [
     {
         id: [
             36,
-            6,
-            12
+            6
         ],
         img: "http://localhost/arbulanguage.com/img/fiszki1/6f.jpg",
         story: "Prezydent miasta trochę sepleni i patrzy w <b><u>inwent</b></u>a<b><u>ssss</b></u>, a tam same wydarzenia kulturowe",
@@ -1433,7 +1379,7 @@ const fiszki = [
         sentence2: [
             "events"
         ],
-        sentence: [
+                sentence: [
             "quite",
             "interesting",
             "events"
@@ -1445,37 +1391,34 @@ const fiszki = [
     {
         id: [
             37,
-            7,
-            13
+            7
         ],
         img: "http://localhost/arbulanguage.com/img/fiszki1/7a.jpg",
-        srcWord: ["http://localhost/arbulanguage.com/filmy/company.mp4", "Rampage (2018)"],
-        srcWordimage: "http://localhost/arbulanguage.com/filmy/company.png",
-        word: [
+                srcWord: "http://localhost/arbulanguage.com/filmy/company.mp4",
+                        srcWordimage: "http://localhost/arbulanguage.com/filmy/company.png",
+                                word: [
             "http://localhost/arbulanguage.com/voice/music.mp4"
         ],
-        translate: "Moja firma zaczyna rozwijać się bardzo intensywnie",
+                translate: "Moja firma zaczyna rozwijać się bardzo intensywnie",
         translateb: "[Maj kampany starts deweloping soł intensiwili]",
         story: "W <b><u>maj</b></u>u kwitną <b><u>moje</b></u> ulubione kwiaty",
         desc: "my[maj] - moje",
         sentence1: [
             "My"
         ],
-        sentence: [
+                sentence: [
             "My",
             "company",
-            "is"
+            "starts"
         ],
         key: "my",
         category1: "natura",
-        category2: ["zaimkiosobowe"],
-        category3: ["Present Continuous"]
+        category2: ["zaimkiosobowe", "podmiot+czas"]
     },
     {
         id: [
             38,
-            7,
-            13
+            7
         ],
         img: "http://localhost/arbulanguage.com/img/fiszki1/7b.jpg",
         story: "<b><u>Kamp</b></u>ing jest koloru <b><u>any</b></u>żowego, prowadzi go <b><u>firma</b></u> z Polski",
@@ -1483,10 +1426,10 @@ const fiszki = [
         sentence1: [
             "company"
         ],
-        sentence: [
+                sentence: [
             "My",
             "company",
-            "is"
+            "starts"
         ],
         key: "company",
         category1: "związki",
@@ -1495,19 +1438,18 @@ const fiszki = [
     {
         id: [
             39,
-            7,
-            13
+            7
         ],
         img: "http://localhost/arbulanguage.com/img/fiszki1/7c.jpg",
         story: "<b><u>Start</b></u>uje z udawaniem węża.. <b><u>ssssss</b></u>",
         desc: "starts[starts] - zacząć",
         sentence1: [
-            "is"
+            "starts"
         ],
-        sentence: [
+                sentence: [
             "My",
             "company",
-            "is"
+            "starts"
         ],
         key: "starts",
         category1: "natura",
@@ -1516,8 +1458,7 @@ const fiszki = [
     {
         id: [
             40,
-            7,
-            14
+            7
         ],
         img: "http://localhost/arbulanguage.com/img/fiszki1/7d.jpg",
         story: "<b><u>Dewelop</b></u>er gra w p<b><u>ing</b></u>-ponga z właścicielem i <b><u>rozwija</b></u> narracje, aby coś ugrać",
@@ -1525,9 +1466,9 @@ const fiszki = [
         sentence2: [
             "developing"
         ],
-        sentence: [
+                sentence: [
             "developing",
-            "very",
+            "so",
             "intensively"
         ],
         key: "developing",
@@ -1537,18 +1478,17 @@ const fiszki = [
     {
         id: [
             41,
-            7,
-            14
+            7
         ],
         img: "http://localhost/arbulanguage.com/img/fiszki1/7e.jpg",
         story: "<b><u>Soł</b></u>tys <b><u>tak bardzo</b></u> lubi tą wieś",
         desc: "so[soł] - tak bardzo/więc",
         sentence2: [
-            "very"
+            "so"
         ],
-        sentence: [
+                sentence: [
             "developing",
-            "very",
+            "so",
             "intensively"
         ],
         key: "so",
@@ -1558,8 +1498,7 @@ const fiszki = [
     {
         id: [
             42,
-            7,
-            14
+            7
         ],
         img: "http://localhost/arbulanguage.com/img/fiszki1/7f.jpg",
         story: "<b><u>Inten</b></u>cją zo<b><u>si</b></u> jest <b><u>wli</b></u>czenie jej zasług do intensywnej pracy społeczności",
@@ -1567,9 +1506,9 @@ const fiszki = [
         sentence2: [
             "intensively"
         ],
-        sentence: [
+                sentence: [
             "developing",
-            "very",
+            "so",
             "intensively"
         ],
         key: "intensively",
@@ -1579,13 +1518,12 @@ const fiszki = [
     {
         id: [
             43,
-            8,
-            15
+            8
         ],
         img: "http://localhost/arbulanguage.com/img/fiszki1/8a.jpg",
-        srcWord: ["http://localhost/arbulanguage.com/filmy/book.mp4", "Inception (2010)"],
-        srcWordimage: "http://localhost/arbulanguage.com/filmy/book.png",
-        word: [
+                        srcWord: "http://localhost/arbulanguage.com/filmy/book.mp4",
+                                srcWordimage: "http://localhost/arbulanguage.com/filmy/book.png",
+                                word: [
             "http://localhost/arbulanguage.com/voice/music.mp4"
         ],
         translate: "Ta książka należy do jego dziadka",
@@ -1595,21 +1533,19 @@ const fiszki = [
         sentence1: [
             "This"
         ],
-        sentence: [
+                sentence: [
             "This",
             "book",
             "belongs"
         ],
         key: "This",
         category1: "nauka",
-        category2: [""],
-        category3: ["PresentSimple"]
+        category2: ["podmiot+czas"]
     },
     {
         id: [
             44,
-            8,
-            15
+            8
         ],
         img: "http://localhost/arbulanguage.com/img/fiszki1/8b.jpg",
         story: "Z drzewa <b><u>buk</b></u>owego jest najlepszy papier na <b><u>książki</b></u>",
@@ -1617,7 +1553,7 @@ const fiszki = [
         sentence1: [
             "book"
         ],
-        sentence: [
+                sentence: [
             "This",
             "book",
             "belongs"
@@ -1629,8 +1565,7 @@ const fiszki = [
     {
         id: [
             45,
-            8,
-            15
+            8
         ],
         img: "http://localhost/arbulanguage.com/img/fiszki1/8c.jpg",
         story: "<b><u>Bel</b></u>ki <b><u>przynależą</b></u> do stropu, w Mongoli tak robiono stropy",
@@ -1638,7 +1573,7 @@ const fiszki = [
         sentence1: [
             "belongs"
         ],
-        sentence: [
+                sentence: [
             "This",
             "book",
             "belongs"
@@ -1650,8 +1585,7 @@ const fiszki = [
     {
         id: [
             46,
-            8,
-            16
+            8
         ],
         img: "http://localhost/arbulanguage.com/img/fiszki1/8d.jpg",
         story1: [
@@ -1664,7 +1598,7 @@ const fiszki = [
         sentence2: [
             "to"
         ],
-        sentence: [
+                sentence: [
             "to",
             "his",
             "grandfather"
@@ -1678,8 +1612,7 @@ const fiszki = [
     {
         id: [
             47,
-            8,
-            16
+            8
         ],
         img: "http://localhost/arbulanguage.com/img/fiszki1/8e.jpg",
         story: "<b><u>Jego</b></u> <b><u>his</b></u>toria jest bardzo atrakcyjna i bujna",
@@ -1687,7 +1620,7 @@ const fiszki = [
         sentence2: [
             "his"
         ],
-        sentence: [
+                sentence: [
             "to",
             "his",
             "grandfather"
@@ -1699,8 +1632,7 @@ const fiszki = [
     {
         id: [
             48,
-            8,
-            16
+            8
         ],
         img: "http://localhost/arbulanguage.com/img/fiszki1/8f.jpg",
         story: "<b><u>Kłóciłem się z <b><u>dziadkeim</b></u> i była granda.. ta familia mnie już <b><u>de</b></u>ne<b><u>r</b></u>wuje",
@@ -1708,7 +1640,7 @@ const fiszki = [
         sentence2: [
             "grandfather"
         ],
-        sentence: [
+                sentence: [
             "to",
             "his",
             "grandfather"
@@ -1719,15 +1651,13 @@ const fiszki = [
     {
         id: [
             49,
-            9,
-            17
+            9
         ],
         img: "http://localhost/arbulanguage.com/img/fiszki1/9a.jpg",
-        translate: "Moi sąsiedzi sprzedali ich duży dom",
+                translate: "Moi sąsiedzi sprzedali ich duży dom",
         translateb: "[Maj nejbours sel deir big hałs]",
-        srcWord: ["http://localhost/arbulanguage.com/filmy/bighouse.mp4", "Mechanik: Konfrontacja (2013)"],
-        srcWordimage: "http://localhost/arbulanguage.com/filmy/bighouse.png",
-                srcWord2: ["http://localhost/arbulanguage.com/filmy/procedure.mp4", "Breaking Bad"],
+        srcWord: "http://localhost/arbulanguage.com/filmy/bighouse.mp4",
+                srcWordimage: "http://localhost/arbulanguage.com/filmy/bighouse.png",
         story: [
             "W <b><u>maj</b></u>u kwitną <b><u>moje</b></u> ulubione kwiaty",
             "Przetrzymaj mi na pare dni moje auto"
@@ -1736,24 +1666,21 @@ const fiszki = [
         sentence1: [
             "My"
         ],
-        sentence: [
+                sentence: [
             "My",
             "neighbours",
-            "are",
-            "selling"
+            "sell"
         ],
         key: "my",
-        category1: ["natura", "florystyka",
-            "związki", "przyjaźń"
+        category1: [ "natura", "florystyka",
+                    "związki", "przyjaźń"
         ],
-        category2: ["zaimkiosobowe"],
-        category3: ["Present Continuous"]
+        category2: ["podmiot+czas", "zaimkiosobowe"]
     },
     {
         id: [
             50,
-            9,
-            17
+            9
         ],
         img: "http://localhost/arbulanguage.com/img/fiszki1/9b.jpg",
         story: "<b><u>Dla zdol<b><u>nej</b></u> ucznnicy <b><u>sąsiedzi<b><u> ułożyli wierszyk, <b><u>bo</b></u> <b><u>s</b></u>ą jej urodziny",
@@ -1761,11 +1688,10 @@ const fiszki = [
         sentence1: [
             "neighbours"
         ],
-        sentence: [
+                sentence: [
             "My",
             "neighbours",
-            "are",
-            "selling"
+            "sell"
         ],
         key: "neighbours",
         category1: "związki",
@@ -1774,42 +1700,18 @@ const fiszki = [
     {
         id: [
             51,
-            9,
-            17
+            9
         ],
         img: "http://localhost/arbulanguage.com/img/fiszki1/9c.jpg",
         story: "Ten <b><u>sel</b></u>er łatwo jest <b><u>sprzedać</b></u> na targu",
         desc: "sell[sel] - sprzedać",
         sentence1: [
-            "are"
+            "sell"
         ],
-        sentence: [
+                sentence: [
             "My",
             "neighbours",
-            "are",
-            "selling"
-        ],
-        key: "sell",
-        category1: "związki",
-        category2: ["podmiot+czas", "czasownik"]
-    },
-        {
-        id: [
-            52,
-            9,
-            17
-        ],
-        img: "http://localhost/arbulanguage.com/img/fiszki1/9c.jpg",
-        story: "Ten <b><u>sel</b></u>er łatwo jest <b><u>sprzedać</b></u> na targu",
-        desc: "selling[seling] - sprzedają",
-        sentence1: [
-            "selling"
-        ],
-        sentence: [
-            "My",
-            "neighbours",
-            "are",
-            "selling"
+            "sell"
         ],
         key: "sell",
         category1: "związki",
@@ -1817,18 +1719,16 @@ const fiszki = [
     },
     {
         id: [
-            53,
-            9,
-            18
+            52,
+            9
         ],
         img: "http://localhost/arbulanguage.com/img/fiszki1/9d.jpg",
-                srcWord2: ["http://localhost/arbulanguage.com/filmy/procedure.mp4", "Breaking Bad"],
         story: "<b><u>W ten <b><u>de</b></u>seń jest <b><u>i</b></u>ch <b><u>r</b></u>obota",
         desc: "their[deir] - ich",
         sentence2: [
             "their"
         ],
-        sentence: [
+                sentence: [
             "their",
             "big",
             "house"
@@ -1839,9 +1739,8 @@ const fiszki = [
     },
     {
         id: [
-            54,
-            9,
-            18
+            53,
+            9
         ],
         img: "http://localhost/arbulanguage.com/img/fiszki1/9e.jpg",
         story: "Bardzo <b><u>duży</b></u> samolot M<b><u>ig</b></u> właśnie przeleciał na niebie",
@@ -1849,7 +1748,7 @@ const fiszki = [
         sentence2: [
             "big"
         ],
-        sentence: [
+                sentence: [
             "their",
             "big",
             "house"
@@ -1860,9 +1759,8 @@ const fiszki = [
     },
     {
         id: [
-            55,
-            9,
-            18
+            54,
+            9
         ],
         img: "http://localhost/arbulanguage.com/img/fiszki1/9f.jpg",
         story: "W <b><u>domu</b></u> mamy psa, który robi <b><u>hał</b></u>.. hał.. na sąsiadów i wabi się <b><u>S</b></u>ara",
@@ -1870,7 +1768,7 @@ const fiszki = [
         sentence2: [
             "house"
         ],
-        sentence: [
+                sentence: [
             "their",
             "big",
             "house"
@@ -1881,14 +1779,13 @@ const fiszki = [
     },
     {
         id: [
-            56,
-            10,
-            19
+            55,
+            10
         ],
         img: "http://localhost/arbulanguage.com/img/fiszki1/10a.jpg",
         translate: "Mój pies jest dobrym przyjacielem",
         translateb: "[Maj dog is a gud frend]",
-        srcWord: ["http://localhost/arbulanguage.com/filmy/dog.mp4", "Sztanga i cash (2013)"],
+        srcWord: "http://localhost/arbulanguage.com/filmy/dog.mp4",
         srcWordimage: "http://localhost/arbulanguage.com/filmy/dog.png",
         word: [
             "http://localhost/arbulanguage.com/voice/music.mp4"
@@ -1902,24 +1799,22 @@ const fiszki = [
         sentence1: [
             "My"
         ],
-        sentence: [
+                sentence: [
             "My",
             "dog",
             "is"
         ],
         key: "my",
-        category1: ["natura", "florystyka",
-            "związki", "przyjaźń",
-            "nauka", "pory roku"
+        category1: [ "natura", "florystyka",
+                    "związki", "przyjaźń",
+                    "nauka", "pory roku"
         ],
-        category2: ["zaimkiosobowe"],
-        category3: ["PresentSimple"]
+        category2: ["podmiot+czas", "zaimkiosobowe"]
     },
     {
         id: [
-            57,
-            10,
-            19
+            56,
+            10
         ],
         img: "http://localhost/arbulanguage.com/img/fiszki1/10b.jpg",
         story: "Mój <b><u>pies</b></u> mnie słucha, <b><u>dog</b></u>aduje się z nim",
@@ -1927,7 +1822,7 @@ const fiszki = [
         sentence1: [
             "dog"
         ],
-        sentence: [
+                sentence: [
             "My",
             "dog",
             "is"
@@ -1938,9 +1833,8 @@ const fiszki = [
     },
     {
         id: [
-            58,
-            10,
-            19
+            57,
+            10
         ],
         img: "http://localhost/arbulanguage.com/img/fiszki1/1b.jpg",
         story: [
@@ -1954,22 +1848,21 @@ const fiszki = [
         sentence1: [
             "is"
         ],
-        sentence: [
+                sentence: [
             "My",
             "dog",
             "is"
         ],
         key: "is",
-        category1: ["związki", "podryw",
-            "natura", "miasta"
+        category1: [ "związki", "podryw",
+                    "natura", "miasta"
         ],
         category2: ["podmiot+czas", "czasownik"]
     },
     {
         id: [
-            59,
-            10,
-            20
+            58,
+            10
         ],
         img: "http://localhost/arbulanguage.com/img/fiszki1/10d.jpg",
         story: "Zobaczyłem wypłatę.. <b><u>eeeee</b></u> to jest dopiero wypłata",
@@ -1977,7 +1870,7 @@ const fiszki = [
         sentence2: [
             "a"
         ],
-        sentence: [
+                sentence: [
             "a",
             "good",
             "friend"
@@ -1988,9 +1881,8 @@ const fiszki = [
     },
     {
         id: [
-            60,
-            10,
-            20
+            59,
+            10
         ],
         img: "http://localhost/arbulanguage.com/img/fiszki1/10e.jpg",
         story: "Jest <b><u>dobrze</b></u> kiedy jest więcej wy<b><u>gód</b></u>",
@@ -1998,7 +1890,7 @@ const fiszki = [
         sentence2: [
             "good"
         ],
-        sentence: [
+                sentence: [
             "a",
             "good",
             "friend"
@@ -2009,9 +1901,8 @@ const fiszki = [
     },
     {
         id: [
-            61,
-            10,
-            20
+            60,
+            10
         ],
         img: "http://localhost/arbulanguage.com/img/fiszki1/10f.jpg",
         story: "<b><u>End</b></u>riu ma <b><u>fr</b></u>ak na zimę, każda pora roku to jego przyjaciel",
@@ -2019,7 +1910,7 @@ const fiszki = [
         sentence2: [
             "friend"
         ],
-        sentence: [
+                sentence: [
             "a",
             "good",
             "friend"
@@ -2030,16 +1921,15 @@ const fiszki = [
     },
     {
         id: [
-            62,
-            11,
-            21
+            61,
+            11
         ],
         img: "http://localhost/arbulanguage.com/img/fiszki1/11a.jpg",
-        translate: "Nauczyciel stara się pomóc nam",
+                translate: "Nauczyciel stara się pomóc nam",
         translateb: "[De ticzer trajs tu help as]",
-        srcWord: ["http://localhost/arbulanguage.com/filmy/teacher.mp4", "Yes Man (2008)"],
-        srcWordimage: "http://localhost/arbulanguage.com/filmy/teacher.png",
-        word: [
+                        srcWord: "http://localhost/arbulanguage.com/filmy/teacher.mp4",
+                                srcWordimage: "http://localhost/arbulanguage.com/filmy/teacher.png",
+                                word: [
             "http://localhost/arbulanguage.com/voice/music.mp4"
         ],
         story: "<b><u>De</b></u>partament do Spraw Uchodźców <b><u>to</b></u> ważna instytucja",
@@ -2047,21 +1937,19 @@ const fiszki = [
         sentence1: [
             "The"
         ],
-        sentence: [
+                sentence: [
             "The",
             "teacher",
             "tries"
         ],
         key: "the",
         category1: "związki",
-        category2: [""],
-        category3: ["PresentSimple"]
+        category2: ["podmiot+czas", "osoby+czas"]
     },
     {
         id: [
-            63,
-            11,
-            21
+            62,
+            11
         ],
         img: "http://localhost/arbulanguage.com/img/fiszki1/11b.jpg",
         story: "W tym pa<b><u>ti</b></u>o siedzi nauczyciel w <b><u>czer</b></u>wonej koszuli",
@@ -2069,22 +1957,21 @@ const fiszki = [
         sentence1: [
             "teacher"
         ],
-        sentence: [
+                sentence: [
             "The",
             "teacher",
             "tries"
         ],
         key: "teacher",
         category1: [
-            "nauka", "szkoła"
-        ],
+                "nauka", "szkoła"
+                ],
         category2: ["podmiot+czas", "osoby", "osoby+czas"]
     },
     {
         id: [
-            64,
-            11,
-            21
+            63,
+            11
         ],
         img: "http://localhost/arbulanguage.com/img/fiszki1/11c.jpg",
         story: "Nasa <b><u>próbuje</b></u> zmienić <b><u>traj</b></u>ektorie lotu <b><u>s</b></u>atelity",
@@ -2092,7 +1979,7 @@ const fiszki = [
         sentence1: [
             "tries"
         ],
-        sentence: [
+                sentence: [
             "The",
             "teacher",
             "tries"
@@ -2103,9 +1990,8 @@ const fiszki = [
     },
     {
         id: [
-            65,
-            11,
-            22
+            64,
+            11
         ],
         img: "http://localhost/arbulanguage.com/img/fiszki1/8d.jpg",
         story: [
@@ -2118,7 +2004,7 @@ const fiszki = [
         sentence2: [
             "to"
         ],
-        sentence: [
+                sentence: [
             "to",
             "help",
             "us"
@@ -2131,9 +2017,8 @@ const fiszki = [
     },
     {
         id: [
-            66,
-            11,
-            22
+            65,
+            11
         ],
         img: "http://localhost/arbulanguage.com/img/fiszki1/11e.jpg",
         story: "Gaz - <b><u>hel</b></u>, <b><u>p</b></u>omaga zmieniać ton głosu",
@@ -2141,7 +2026,7 @@ const fiszki = [
         sentence2: [
             "help"
         ],
-        sentence: [
+                sentence: [
             "to",
             "help",
             "us"
@@ -2152,9 +2037,8 @@ const fiszki = [
     },
     {
         id: [
-            67,
-            11,
-            22
+            66,
+            11
         ],
         img: "http://localhost/arbulanguage.com/img/fiszki1/11f.jpg",
         story: "<b><u>As</b></u>teroida pod mikroskopem wydaje się <b><u>nam</b></u> niezwykła",
@@ -2162,7 +2046,7 @@ const fiszki = [
         sentence2: [
             "us"
         ],
-        sentence: [
+                sentence: [
             "to",
             "help",
             "us"
@@ -2173,16 +2057,15 @@ const fiszki = [
     },
     {
         id: [
-            68,
-            12,
-            23
+            67,
+            12
         ],
         img: "http://localhost/arbulanguage.com/img/fiszki1/5e.jpg",
         translate: "Twoi rodzice wydają się być przyjaźni",
         translateb: "[Jor parents sim tu bi frendli]",
-        srcWord: ["http://localhost/arbulanguage.com/filmy/parents.mp4", "Serial: Rodzinka.pl"],
-        srcWordimage: "http://localhost/arbulanguage.com/filmy/parents.png",
-        word: [
+                        srcWord: "http://localhost/arbulanguage.com/filmy/parents.mp4",
+                                srcWordimage: "http://localhost/arbulanguage.com/filmy/parents.png",
+                                word: [
             "http://localhost/arbulanguage.com/voice/music.mp4"
         ],
         story: [
@@ -2193,24 +2076,22 @@ const fiszki = [
         sentence1: [
             "Your"
         ],
-        sentence: [
+                sentence: [
             "Your",
             "parents",
             "seem"
         ],
         key: "your",
-        category1: [
-            "związki", "dzieciństwo",
-            "natura", "zwierzęta domowe"
+        category1: [ 
+                    "związki", "dzieciństwo",
+                    "natura", "zwierzęta domowe"
         ],
-        category2: ["zaimkiosobowe"],
-        category3: ["PresentSimple"]
+        category2: ["zaimkiosobowe", "podmiot+czas"]
     },
     {
         id: [
-            69,
-            12,
-            23
+            68,
+            12
         ],
         img: "http://localhost/arbulanguage.com/img/fiszki1/12b.jpg",
         story: "<b><u>Pare</b></u> lat temu moi <b><u>rodzice</b></u> byli sentym<b><u>ent</b></u>alni i chyba <b><u>s</b></u>ą nadal",
@@ -2218,7 +2099,7 @@ const fiszki = [
         sentence1: [
             "parents"
         ],
-        sentence: [
+                sentence: [
             "Your",
             "parents",
             "seem"
@@ -2229,9 +2110,8 @@ const fiszki = [
     },
     {
         id: [
-            70,
-            12,
-            23
+            69,
+            12
         ],
         img: "http://localhost/arbulanguage.com/img/fiszki1/12c.jpg",
         story: "Ta karta <b><u>sim</b></u> nie działa, <b><u>wydaje mi się</b></u>, że uszkodziłem ją wcześniej",
@@ -2239,7 +2119,7 @@ const fiszki = [
         sentence1: [
             "seem"
         ],
-        sentence: [
+                sentence: [
             "Your",
             "parents",
             "seem"
@@ -2250,9 +2130,8 @@ const fiszki = [
     },
     {
         id: [
-            71,
-            12,
-            24
+            70,
+            12
         ],
         img: "http://localhost/arbulanguage.com/img/fiszki1/8d.jpg",
         story: [
@@ -2265,7 +2144,7 @@ const fiszki = [
         sentence2: [
             "to"
         ],
-        sentence: [
+                sentence: [
             "to",
             "be",
             "friendly"
@@ -2280,9 +2159,8 @@ const fiszki = [
     },
     {
         id: [
-            72,
-            12,
-            24
+            71,
+            12
         ],
         img: "http://localhost/arbulanguage.com/img/fiszki1/5a.jpg",
         story: [
@@ -2293,7 +2171,7 @@ const fiszki = [
         sentence2: [
             "be"
         ],
-        sentence: [
+                sentence: [
             "to",
             "be",
             "friendly"
@@ -2306,9 +2184,8 @@ const fiszki = [
     },
     {
         id: [
-            73,
-            12,
-            24
+            72,
+            12
         ],
         img: "http://localhost/arbulanguage.com/img/fiszki1/12f.jpg",
         story: "Mali <b><u>Fr</b></u>anek i <b><u>End</b></u>riu są <b><u>dl</b></u>a siebie <b><u>przyjacielscy</b></u>",
@@ -2316,7 +2193,7 @@ const fiszki = [
         sentence2: [
             "friendly"
         ],
-        sentence: [
+                sentence: [
             "to",
             "be",
             "friendly"
@@ -2327,15 +2204,14 @@ const fiszki = [
     },
     {
         id: [
-            74,
-            13,
-            25
+            73,
+            13
         ],
         img: "http://localhost/arbulanguage.com/img/fiszki1/13a.jpg",
         translate: "Psy mogą biec naprawdę szybko",
         translateb: "[De dog ken ran rili fast]",
-        srcWord: ["http://localhost/arbulanguage.com/filmy/dogs.mp4", "The Dark Knight(2008)"],
-        srcWordimage: "http://localhost/arbulanguage.com/filmy/dogs.png",
+        srcWord: "http://localhost/arbulanguage.com/filmy/dogs.mp4",
+                srcWordimage: "http://localhost/arbulanguage.com/filmy/dogs.png",
         story: [
             "Czasami politycy stosują <u><b>de</u></b>magogię. Czyli co stosują? <u><b>Tę</u></b> <u><b>de</u></b>magogię",
             "<u><b>De</u></b>mografia społeczństwa to ważny czynnik ekonomiczny"
@@ -2344,24 +2220,22 @@ const fiszki = [
         sentence1: [
             "The"
         ],
-        sentence: [
+                sentence: [
             "The",
             "dogs",
             "can"
         ],
         key: "the",
         category1: [
-            "czarny humor", "polityka",
-            "nauka", "demografia"
+                    "czarny humor", "polityka",
+                    "nauka", "demografia"
         ],
-        category2: [""],
-        category3: ["Present Simple"]
+        category2: ["podmiot+czas"]
     },
     {
         id: [
-            75,
-            13,
-            25
+            74,
+            13
         ],
         img: "http://localhost/arbulanguage.com/img/fiszki1/13b.jpg",
         story: [
@@ -2372,23 +2246,22 @@ const fiszki = [
         sentence1: [
             "dogs"
         ],
-        sentence: [
+                sentence: [
             "The",
             "dogs",
             "can"
         ],
         key: "dogs",
-        category1: [
-            "nauka", "tresura",
-            "natura", "zwierzęta"
-        ],
-        category2: ["animals"]
+        category1: [ 
+                    "nauka", "tresura",
+                    "natura", "zwierzęta"
+                    ],
+        category2: ["podmiot+czas", "animals"]
     },
     {
         id: [
-            76,
-            13,
-            25
+            75,
+            13
         ],
         img: "http://localhost/arbulanguage.com/img/fiszki1/13c.jpg",
         story: "W <b><u>Ken</b></u>ii każdy <b><u>może</b></u> ubierać się na ciepłą pogodę",
@@ -2396,7 +2269,7 @@ const fiszki = [
         sentence1: [
             "can"
         ],
-        sentence: [
+                sentence: [
             "The",
             "dogs",
             "can"
@@ -2407,9 +2280,8 @@ const fiszki = [
     },
     {
         id: [
-            77,
-            13,
-            26
+            76,
+            13
         ],
         img: "http://localhost/arbulanguage.com/img/fiszki1/13d.jpg",
         story: "<b><u>Ran</b></u>o zawsze <b><u>biegam</b></u>",
@@ -2417,7 +2289,7 @@ const fiszki = [
         sentence2: [
             "run"
         ],
-        sentence: [
+                sentence: [
             "run",
             "really",
             "fast"
@@ -2428,9 +2300,8 @@ const fiszki = [
     },
     {
         id: [
-            78,
-            13,
-            26
+            77,
+            13
         ],
         img: "http://localhost/arbulanguage.com/img/fiszki1/13e.jpg",
         story: "Na spotkaniu g<b><u>ril</b></u>owym naprawdę można się najeść saszł<b><u>y</b></u>ków",
@@ -2438,7 +2309,7 @@ const fiszki = [
         sentence2: [
             "really"
         ],
-        sentence: [
+                sentence: [
             "run",
             "really",
             "fast"
@@ -2449,9 +2320,8 @@ const fiszki = [
     },
     {
         id: [
-            79,
-            13,
-            26
+            78,
+            13
         ],
         img: "http://localhost/arbulanguage.com/img/fiszki1/13f.jpg",
         story: "Ten chw<b><u>ast</b></u> szybko rośnie, bo to <b><u>f</b></u>uriat wśród chwastów",
@@ -2459,7 +2329,7 @@ const fiszki = [
         sentence2: [
             "fast"
         ],
-        sentence: [
+                sentence: [
             "run",
             "really",
             "fast"
@@ -2470,16 +2340,15 @@ const fiszki = [
     },
     {
         id: [
-            80,
-            14,
-            27
+            79,
+            14
         ],
         img: "http://localhost/arbulanguage.com/img/fiszki1/14a.jpg",
         translate: "Ta edycja traci ważność w tym tygodniu",
         translateb: "[Dis ediszyn ikspires dis łik]",
-        srcWord: ["http://localhost/arbulanguage.com/filmy/counting.mp4", "The Dark Knight(2008)"],
-        srcWordimage: "http://localhost/arbulanguage.com/filmy/counting.png",
-        word: [
+                        srcWord: "http://localhost/arbulanguage.com/filmy/counting.mp4",
+                                srcWordimage: "http://localhost/arbulanguage.com/filmy/counting.png",
+                                word: [
             "http://localhost/arbulanguage.com/voice/music.mp4"
         ],
         story: [
@@ -2490,21 +2359,19 @@ const fiszki = [
         sentence1: [
             "This"
         ],
-        sentence: [
+                sentence: [
             "This",
             "edition",
             "expires"
         ],
         key: "this",
         category1: "natura",
-        category2: [""],
-        category3: ["Present Simple"]
+        category2: ["podmiot+czas"]
     },
     {
         id: [
-            81,
-            14,
-            27
+            80,
+            14
         ],
         img: "http://localhost/arbulanguage.com/img/fiszki1/14b.jpg",
         story: "Kiedy <b><u>Edi</b></u>son robił przerwe w tworzeniu żarówki jadł bułkę z <b><u>szyn</b></u>ką",
@@ -2512,7 +2379,7 @@ const fiszki = [
         sentence1: [
             "edition"
         ],
-        sentence: [
+                sentence: [
             "This",
             "edition",
             "expires"
@@ -2522,9 +2389,8 @@ const fiszki = [
     },
     {
         id: [
-            82,
-            14,
-            27
+            81,
+            14
         ],
         img: "http://localhost/arbulanguage.com/img/fiszki1/14c.jpg",
         story: "Jedziemy do miejscowości X na wakacje pod palmy i statkiem w rejs.. musimy zapłacić X dnia, później okazja się przedawnia",
@@ -2532,7 +2398,7 @@ const fiszki = [
         sentence1: [
             "expires"
         ],
-        sentence: [
+                sentence: [
             "This",
             "edition",
             "expires"
@@ -2543,9 +2409,8 @@ const fiszki = [
     },
     {
         id: [
-            83,
-            14,
-            28
+            82,
+            14
         ],
         img: "http://localhost/arbulanguage.com/img/fiszki1/14d.jpg",
         story: [
@@ -2557,7 +2422,7 @@ const fiszki = [
         sentence2: [
             "this"
         ],
-        sentence: [
+                sentence: [
             "this",
             "week"
         ],
@@ -2571,9 +2436,8 @@ const fiszki = [
     },
     {
         id: [
-            84,
-            14,
-            28
+            83,
+            14
         ],
         img: "http://localhost/arbulanguage.com/img/fiszki1/14e.jpg",
         story: "Po francusku tak to <b><u>łi</b></u>, w tym <b><u>tygodniu</b></u> mam na studiach egazminy z francuskiego i za<b><u>k</b></u>uwam materiał",
@@ -2581,7 +2445,7 @@ const fiszki = [
         sentence2: [
             "week"
         ],
-        sentence: [
+                sentence: [
             "this",
             "week"
         ],
@@ -2591,15 +2455,14 @@ const fiszki = [
     },
     {
         id: [
-            85,
-            15,
-            29
+            84,
+            15
         ],
         img: "http://localhost/arbulanguage.com/img/fiszki1/15a.jpg",
-        translate: "On ma szeroki zasób słów",
+                translate: "On ma szeroki zasób słów",
         translateb: "[Hi hes łajd rendż of łords]",
-        srcWord: ["http://localhost/arbulanguage.com/filmy/rangewords.mp4", "Jestem Bogiem(2011)"],
-        srcWordimage: "http://localhost/arbulanguage.com/filmy/rangewords.png",
+        srcWord: "http://localhost/arbulanguage.com/filmy/rangewords.mp4",
+                srcWordimage: "http://localhost/arbulanguage.com/filmy/rangewords.png",
         story: [
             "<u><b>On</b></u> - <u><b>Hi</b></u>eronim odleciał balonem",
             "To właśnie on jest <b><u>hi</b></u>tem tego sezonu piłkarskiego"
@@ -2608,20 +2471,18 @@ const fiszki = [
         sentence1: [
             "He"
         ],
-        sentence: [
+                sentence: [
             "He",
             "has",
             "wide"
         ],
         key: "he",
-        category2: ["osoby"],
-        category3: ["Present Simple"]
+        category2: ["osoby", "podmiot+czas"]
     },
     {
         id: [
-            86,
-            15,
-            29
+            85,
+            15
         ],
         img: "http://localhost/arbulanguage.com/img/fiszki1/15b.jpg",
         story: [
@@ -2632,7 +2493,7 @@ const fiszki = [
         sentence1: [
             "has"
         ],
-        sentence: [
+                sentence: [
             "He",
             "has",
             "wide"
@@ -2643,9 +2504,8 @@ const fiszki = [
     },
     {
         id: [
-            87,
-            15,
-            29
+            86,
+            15
         ],
         img: "http://localhost/arbulanguage.com/img/fiszki1/15c.jpg",
         story: "Nasza <b><u>łaj</b></u>ba znajduje się na <b><u>szerokim</b></u> morzu, daleko ma <b><u>d</b></u>o lądu",
@@ -2653,7 +2513,7 @@ const fiszki = [
         sentence1: [
             "wide"
         ],
-        sentence: [
+                sentence: [
             "He",
             "has",
             "wide"
@@ -2664,9 +2524,8 @@ const fiszki = [
     },
     {
         id: [
-            88,
-            15,
-            30
+            87,
+            15
         ],
         img: "http://localhost/arbulanguage.com/img/fiszki1/15d.jpg",
         story: "Amerykański żołnierz <b><u>Rang</b></u>ers ma szeroki <b><u>zakres</b></u> umiejętności",
@@ -2674,10 +2533,10 @@ const fiszki = [
         sentence2: [
             "range"
         ],
-        sentence: [
+                sentence: [
             "range",
             "of",
-            "vocabulary"
+            "words"
         ],
         key: "range",
         category1: "sport",
@@ -2685,9 +2544,8 @@ const fiszki = [
     },
     {
         id: [
-            89,
-            15,
-            30
+            88,
+            15
         ],
         img: "http://localhost/arbulanguage.com/img/fiszki1/15e.jpg",
         story: "Tą <b><u>of</b></u>ensywę podjął każdy żołnierz",
@@ -2695,10 +2553,10 @@ const fiszki = [
         sentence2: [
             "of"
         ],
-        sentence: [
+                sentence: [
             "range",
             "of",
-            "vocabulary"
+            "words"
         ],
         key: "of",
         category1: "sport",
@@ -2706,20 +2564,19 @@ const fiszki = [
     },
     {
         id: [
-            90,
-            15,
-            30
+            89,
+            15
         ],
         img: "http://localhost/arbulanguage.com/img/fiszki1/15f.jpg",
         story: "Ośrodek <b><u>WORD</b></u> to Wojewódzki Ośrodek Ruchu Drogowego - taka <b><u>s</b></u>zkoła",
-        desc: "vocabulary[wokabulary] - słownictwo",
+        desc: "words[łords] - słowa/słów",
         sentence2: [
-            "vocabulary"
+            "words"
         ],
-        sentence: [
+                sentence: [
             "range",
             "of",
-            "vocabulary"
+            "words"
         ],
         key: "words",
         category1: "nauka",
@@ -2727,16 +2584,15 @@ const fiszki = [
     },
     {
         id: [
-            91,
-            16,
-            31
+            90,
+            16
         ],
         img: "http://localhost/arbulanguage.com/img/fiszki1/16a.jpg",
-        translate: "On odważył się podejść do niej",
+                        translate: "On odważył się podejść do niej",
         translateb: "[Hi dares tu mejk eprołcz tu her]",
-        srcWord: ["http://localhost/arbulanguage.com/filmy/approach.mp4", "Matrix(1999)"],
-        srcWordimage: "http://localhost/arbulanguage.com/filmy/approach.png",
-        word: [
+                        srcWord: "http://localhost/arbulanguage.com/filmy/approach.mp4",
+                                srcWordimage: "http://localhost/arbulanguage.com/filmy/approach.png",
+                                word: [
             "http://localhost/arbulanguage.com/voice/music.mp4"
         ],
         story: [
@@ -2748,19 +2604,18 @@ const fiszki = [
         sentence1: [
             "He"
         ],
-        sentence: [
+                sentence: [
             "He",
-            "dares"
+            "dares",
+            "to"
         ],
         key: "he",
-        category2: ["osoby"],
-        category3: ["Present Simple"]
+        category2: ["osoby"]
     },
     {
         id: [
-            92,
-            16,
-            31
+            91,
+            16
         ],
         img: "http://localhost/arbulanguage.com/img/fiszki1/16b.jpg",
         story: [
@@ -2771,9 +2626,10 @@ const fiszki = [
         sentence1: [
             "dares"
         ],
-        sentence: [
+                sentence: [
             "He",
-            "dares"
+            "dares",
+            "to"
         ],
         key: "dares",
         category1: "nauka",
@@ -2781,9 +2637,8 @@ const fiszki = [
     },
     {
         id: [
-            93,
-            16,
-            32
+            92,
+            16
         ],
         img: "http://localhost/arbulanguage.com/img/fiszki1/16c.jpg",
         story: [
@@ -2796,10 +2651,10 @@ const fiszki = [
         sentence1: [
             "to"
         ],
-        sentence: [
-            "to",
-            "approach",
-            "her"
+                sentence: [
+            "He",
+            "dares",
+            "to"
         ],
         key: "to",
         category1: "nauka",
@@ -2807,19 +2662,19 @@ const fiszki = [
     },
     {
         id: [
-            94,
-            16,
-            32
+            93,
+            16
         ],
         img: "http://localhost/arbulanguage.com/img/fiszki1/16d.jpg",
         story: "Suczce <b><u>K</b></u>alina nie wolno sa<b><u>mej</b></u> ściągac jedzenia ze stołu, nie wolno jej tego <b><u>robić</b></u>",
-        desc: "approach[eprołcz] - podejść/podejście",
+        desc: "make[mejk] - zrobić",
         sentence2: [
-            "approach"
+            "make"
         ],
-        sentence: [
-            "to",
+                sentence: [
+            "make",
             "approach",
+            "to",
             "her"
         ],
         key: "make",
@@ -2828,19 +2683,19 @@ const fiszki = [
     },
     {
         id: [
-            95,
-            16,
-            32
+            94,
+            16
         ],
         img: "http://localhost/arbulanguage.com/img/fiszki1/16e.jpg",
         story: "<b><u>Ep</b></u>oka w której podchodzono do <b><u>ro</b></u>bienia ikon ołówkiem to stare <b><u>cz</b></u>asy",
-        desc: "her[her] - jej",
+        desc: "approach[eprołcz] - podejść/podejście",
         sentence2: [
-            "her"
+            "approach"
         ],
-        sentence: [
-            "to",
+                sentence: [
+            "make",
             "approach",
+            "to",
             "her"
         ],
         key: "approach",
@@ -2849,35 +2704,79 @@ const fiszki = [
     },
     {
         id: [
+            95,
+            16
+        ],
+        img: "http://localhost/arbulanguage.com/img/fiszki1/16f.jpg",
+        story: [
+            "<u><b>Dla</u></b> spor<u><b>tu</b></u> przeszedłem się pieszo z domu do pracy",
+            "<b><u>Tu</b></u> na tym polu, Totalnie nie brakuje mi nic do mistrza",
+            "<b><u>Tu</b></u> w Egipcie Totem Faraona to pamiątka <u><b>dla</u></b> podróżników",
+            "Aaaa.. <b><u>tu</b></u> to jest, to dla mojego kolegi"
+        ],
+        desc: "to[tu] - do",
+        sentence2: [
+            "to"
+        ],
+                sentence: [
+            "make",
+            "approach",
+            "to",
+            "her"
+        ],
+        key: "to",
+        category1: "nauka",
+        category2: "transport, "
+    },
+    {
+        id: [
             96,
-            17,
-            33
+            16
+        ],
+        img: "http://localhost/arbulanguage.com/img/fiszki1/16g.jpg",
+        story: "<u><b>Jej</u></b> <u><b>her</u></b>batka jest bardzo słodka",
+        desc: "her[her] - jej/niej",
+        sentence2: [
+            "her"
+        ],
+                sentence: [
+            "make",
+            "approach",
+            "to",
+            "her"
+        ],
+        key: "her",
+        category1: "nauka",
+        category2: ["zaimkiosobowe"]
+    },
+    {
+        id: [
+            97,
+            17
         ],
         img: "http://localhost/arbulanguage.com/img/fiszki1/17a.jpg",
-        translate: "Ona jest przywiązana do swojego łuku",
-        translateb: "[Szi is ataczd to her boł]",
-        srcWord: ["http://localhost/arbulanguage.com/filmy/bow.mp4", "Igrzyska śmierci: Kosogłos. Część 2(2015)"],
-        srcWordimage: "http://localhost/arbulanguage.com/filmy/bow.png",
+                                translate: "Ona jest przywiązana do swojego łuku",
+        translateb: "[Szu is ataczd to her boł]",
+                srcWord: "http://localhost/arbulanguage.com/filmy/bow.mp4",
+                        srcWordimage: "http://localhost/arbulanguage.com/filmy/bow.png",
         story: "<u><b>Ona</u></b> - Patrycja ma ri<u><b>szi</u></b> to naturalny antyoksydant",
         desc: "she[szi] - ona",
         sentence1: [
             "She"
         ],
-        sentence: [
+                sentence: [
             "She",
             "is",
             "attached"
         ],
         key: "he",
         category1: "nauka",
-        category2: ["osoby"],
-        category3: ["Present Simple"]
+        category2: ["osoby", "osoby+czas", "podmiot+czas"]
     },
     {
         id: [
-            97,
-            17,
-            33
+            98,
+            17
         ],
         img: "http://localhost/arbulanguage.com/img/fiszki1/17b.jpg",
         story1: [
@@ -2889,7 +2788,7 @@ const fiszki = [
         sentence1: [
             "is"
         ],
-        sentence: [
+                sentence: [
             "She",
             "is",
             "attached"
@@ -2900,9 +2799,8 @@ const fiszki = [
     },
     {
         id: [
-            98,
-            17,
-            33
+            99,
+            17
         ],
         img: "http://localhost/arbulanguage.com/img/fiszki1/17c.jpg",
         story: "Jestem przywiązany do z</b></u>apła<b><u>ty za moje usług, wypłatę wypłaca mi po</b></u>czt<b><u>a",
@@ -2910,7 +2808,7 @@ const fiszki = [
         sentence1: [
             "attached"
         ],
-        sentence: [
+                sentence: [
             "She",
             "is",
             "attached"
@@ -2921,9 +2819,8 @@ const fiszki = [
     },
     {
         id: [
-            99,
-            17,
-            34
+            100,
+            17
         ],
         img: "http://localhost/arbulanguage.com/img/fiszki1/17d.jpg",
         story: [
@@ -2936,7 +2833,7 @@ const fiszki = [
         sentence2: [
             "to"
         ],
-        sentence: [
+                sentence: [
             "to",
             "her",
             "bow"
@@ -2947,9 +2844,8 @@ const fiszki = [
     },
     {
         id: [
-            100,
-            17,
-            34
+            101,
+            17
         ],
         img: "http://localhost/arbulanguage.com/img/fiszki1/17e.jpg",
         story: [
@@ -2960,7 +2856,7 @@ const fiszki = [
         sentence2: [
             "her"
         ],
-        sentence: [
+                sentence: [
             "to",
             "her",
             "bow"
@@ -2971,9 +2867,8 @@ const fiszki = [
     },
     {
         id: [
-            101,
-            17,
-            34
+            102,
+            17
         ],
         img: "http://localhost/arbulanguage.com/img/fiszki1/17f.jpg",
         story: "To jest <b><u>bo</b></u>ski <b><u>łuk</b></u>",
@@ -2981,7 +2876,7 @@ const fiszki = [
         sentence2: [
             "bow"
         ],
-        sentence: [
+                sentence: [
             "to",
             "his",
             "bow"
@@ -2992,15 +2887,14 @@ const fiszki = [
     },
     {
         id: [
-            102,
-            18,
-            35
+            103,
+            18
         ],
         img: "http://localhost/arbulanguage.com/img/fiszki1/18a.jpg",
         translate: "On nie jest posłuszny swojemu trenerowi",
         translateb: "[Hi das not obej to his trajner]",
-        srcWord: ["http://localhost/arbulanguage.com/filmy/training.mp4", "Matrix(1999)", "Akcja"],
-        srcWordimage: "http://localhost/arbulanguage.com/filmy/training.png",
+        srcWord: "http://localhost/arbulanguage.com/filmy/training.mp4",
+                srcWordimage: "http://localhost/arbulanguage.com/filmy/training.png",
         story: [
             "<u><b>On</b></u> - <u><b>Hi</b></u>eronim odleciał balonem",
             "To właśnie on jest <b><u>hi</b></u>tem tego sezonu piłkarskiego",
@@ -3011,21 +2905,19 @@ const fiszki = [
         sentence1: [
             "He"
         ],
-        sentence: [
+                sentence: [
             "He",
             "does not",
             "obey"
         ],
         key: "he",
         category1: "nauka",
-        category2: ["osoby"],
-        category3: ["Present Simple"]
+        category2: ["osoby", "osoby+czas", "podmiot+czas"]
     },
     {
         id: [
-            103,
-            18,
-            35
+            104,
+            18
         ],
         img: "http://localhost/arbulanguage.com/img/fiszki1/18b.jpg",
         story: "Leoni<b><u>das</b></u> król spartan odpala k<b><u>not</b></u> świeczki, bo <b><u>nie jest</b></u> odpalona",
@@ -3033,7 +2925,7 @@ const fiszki = [
         sentence1: [
             "does not"
         ],
-        sentence: [
+                sentence: [
             "He",
             "does not",
             "obey"
@@ -3044,9 +2936,8 @@ const fiszki = [
     },
     {
         id: [
-            104,
-            18,
-            35
+            105,
+            18
         ],
         img: "http://localhost/arbulanguage.com/img/fiszki1/18c.jpg",
         story: "Ta instalacja elektryczna ma <b><u>obej</b></u>ście i jest zrobiona według <b><u>posłuszeństwa</b></u> do norm",
@@ -3054,7 +2945,7 @@ const fiszki = [
         sentence1: [
             "obey"
         ],
-        sentence: [
+                sentence: [
             "He",
             "does not",
             "obey"
@@ -3065,9 +2956,8 @@ const fiszki = [
     },
     {
         id: [
-            105,
-            18,
-            36
+            106,
+            18
         ],
         img: "http://localhost/arbulanguage.com/img/fiszki1/18d.jpg",
         story: [
@@ -3080,7 +2970,7 @@ const fiszki = [
         sentence2: [
             "to"
         ],
-        sentence: [
+                sentence: [
             "to",
             "his",
             "trainer"
@@ -3091,9 +2981,8 @@ const fiszki = [
     },
     {
         id: [
-            106,
-            18,
-            36
+            107,
+            18
         ],
         img: "http://localhost/arbulanguage.com/img/fiszki1/18e.jpg",
         story: [
@@ -3104,7 +2993,7 @@ const fiszki = [
         sentence2: [
             "his"
         ],
-        sentence: [
+                sentence: [
             "to",
             "his",
             "trainer"
@@ -3115,9 +3004,8 @@ const fiszki = [
     },
     {
         id: [
-            107,
-            18,
-            36
+            108,
+            18
         ],
         img: "http://localhost/arbulanguage.com/img/fiszki1/18f.jpg",
         story: "<b><u>Tra</b></u>cę tkankę tłuszczową, bo ćwiczę i pije g<b><u>ajner</b></u> - tak jak polecił mi <b><u>trener</b></u>",
@@ -3125,7 +3013,7 @@ const fiszki = [
         sentence2: [
             "trainer"
         ],
-        sentence: [
+                sentence: [
             "to",
             "his",
             "trainer"
@@ -3136,15 +3024,14 @@ const fiszki = [
     },
     {
         id: [
-            108,
-            19,
-            37
+            109,
+            19
         ],
         img: "http://localhost/arbulanguage.com/img/fiszki1/20a.jpg",
         translate: "To miasto jest pełne ludzi",
         translateb: "[Dis siti is ful of pipul]",
-        srcWord: ["http://localhost/arbulanguage.com/filmy/city.mp4", "Resident Evil: Afterlife(2010)", "Akcja"],
-        srcWordimage: "http://localhost/arbulanguage.com/filmy/city.png",
+        srcWord: "http://localhost/arbulanguage.com/filmy/city.mp4",
+                srcWordimage: "http://localhost/arbulanguage.com/filmy/city.png",
         story1: [
             "<b><u>Quo vadis</b></u> <b><u>to</b></u> cytat bardzo znany",
             "To słówko <b><u>dis</b></u>tant - czytamy <b><u>dis</b></u>tant",
@@ -3154,21 +3041,19 @@ const fiszki = [
         sentence1: [
             "This"
         ],
-        sentence: [
+                sentence: [
             "This",
             "city",
             "is"
         ],
         key: "this",
         category1: "nauka",
-        category2: [""],
-        category3: ["Present Simple"]
+        category2: ["podmiot+czas"]
     },
     {
         id: [
-            109,
-            19,
-            37
+            110,
+            19
         ],
         img: "http://localhost/arbulanguage.com/img/fiszki1/20b.jpg",
         story: "<b><u>Siti</b></u> Bank jest teraz bankiem na topie w każdym </b></u>mieście<b><u>",
@@ -3176,7 +3061,7 @@ const fiszki = [
         sentence1: [
             "city"
         ],
-        sentence: [
+                sentence: [
             "This",
             "city",
             "is"
@@ -3187,9 +3072,8 @@ const fiszki = [
     },
     {
         id: [
-            110,
-            19,
-            37
+            111,
+            19
         ],
         img: "http://localhost/arbulanguage.com/img/fiszki1/20c.jpg",
         story1: [
@@ -3202,7 +3086,7 @@ const fiszki = [
         sentence1: [
             "is"
         ],
-        sentence: [
+                sentence: [
             "This",
             "city",
             "is"
@@ -3213,9 +3097,8 @@ const fiszki = [
     },
     {
         id: [
-            111,
-            19,
-            38
+            112,
+            19
         ],
         img: "http://localhost/arbulanguage.com/img/fiszki1/20d.jpg",
         story: "Ktoś miał </b></u>fu<b><u>ksa i wylosował całą nagrodę w </b></u>l<b><u>oteri",
@@ -3223,7 +3106,7 @@ const fiszki = [
         sentence2: [
             "full"
         ],
-        sentence: [
+                sentence: [
             "full",
             "of",
             "people"
@@ -3234,9 +3117,8 @@ const fiszki = [
     },
     {
         id: [
-            112,
-            19,
-            38
+            113,
+            19
         ],
         img: "http://localhost/arbulanguage.com/img/fiszki1/20e.jpg",
         story: [
@@ -3247,7 +3129,7 @@ const fiszki = [
         sentence2: [
             "of"
         ],
-        sentence: [
+                sentence: [
             "full",
             "of",
             "people"
@@ -3258,9 +3140,8 @@ const fiszki = [
     },
     {
         id: [
-            113,
-            19,
-            38
+            114,
+            19
         ],
         img: "http://localhost/arbulanguage.com/img/fiszki1/20f.jpg",
         story: "Wszyscy </b></u>ludzie<b><u> muszą pić wodę tak jak <b><u>pel</b></u>ikany",
@@ -3268,7 +3149,7 @@ const fiszki = [
         sentence2: [
             "people"
         ],
-        sentence: [
+                sentence: [
             "full",
             "of",
             "people"
@@ -3279,18 +3160,17 @@ const fiszki = [
     },
     {
         id: [
-            114,
-            20,
-            39
+            115,
+            20
         ],
         img: "http://localhost/arbulanguage.com/img/fiszki1/21a.jpg",
         translate: "Nasi studenci muszą uczyć się bardzo ciężko",
         translateb: "[Aur stjudents hew tu stady wery hard]",
-        srcWord: ["http://localhost/arbulanguage.com/filmy/studyhard.mp4", "Marsjanin(2015)", "Akcja"],
-        srcWordimage: "http://localhost/arbulanguage.com/filmy/studyhard.png",
+        srcWord: "http://localhost/arbulanguage.com/filmy/studyhard.mp4",
+                srcWordimage: "http://localhost/arbulanguage.com/filmy/studyhard.png",
         story: "Przypomnij",
         desc: "our[aur] - nasze/nasi",
-        sentence1: [
+                sentence1: [
             "Our"
         ],
         sentence: [
@@ -3300,19 +3180,17 @@ const fiszki = [
         ],
         key: "our",
         category1: "nauka",
-        category2: ["zaimkiosobowe"],
-        category3: ["Present Simple"]
+        category2: ["zaimkiosobowe", "osoby+czas", "podmiot+czas"]
     },
     {
         id: [
-            115,
-            20,
-            39
+            116,
+            20
         ],
         img: "http://localhost/arbulanguage.com/img/fiszki1/21b.jpg",
         story: "<b><u>St</b></u>aszek <b><u>ju</b></u>ż jest w <b><u>de</b></u>partamencie <b><u>studentów</b></u>",
         desc: "students[stjudents] - studenci",
-        sentence1: [
+                sentence1: [
             "students"
         ],
         sentence: [
@@ -3326,14 +3204,13 @@ const fiszki = [
     },
     {
         id: [
-            116,
-            20,
-            39
+            117,
+            20
         ],
         img: "http://localhost/arbulanguage.com/img/fiszki1/21c.jpg",
         story: "Mar<b><u>chew</b></u> <b><u>musi</b></u> być zjedzona. Bo <b><u>tu</b></u> jest najlepsza marchew w mieście..",
         desc: "have to[hew to] - musi/muszą",
-        sentence1: [
+                sentence1: [
             "have to"
         ],
         sentence: [
@@ -3347,14 +3224,13 @@ const fiszki = [
     },
     {
         id: [
-            117,
-            20,
-            40
+            118,
+            20
         ],
         img: "http://localhost/arbulanguage.com/img/fiszki1/21d.jpg",
         story: "Ekolog <b><u>studiuje</b></u> te <b><u>stad</b></u>o, które jest bardzo <b><u>dy</b></u>namiczne",
         desc: "study[stady] - studiować",
-        sentence2: [
+                sentence2: [
             "study"
         ],
         sentence: [
@@ -3368,14 +3244,13 @@ const fiszki = [
     },
     {
         id: [
-            118,
-            20,
-            40
+            119,
+            20
         ],
         img: "http://localhost/arbulanguage.com/img/fiszki1/21e.jpg",
         story: "<b><u>Wery</b></u>fikacja przebiegła poprawnie dla tej osoby i ona jest <b><u>bardzo</b></u> zadowolona",
         desc: "very[wery] - bardzo",
-        sentence2: [
+                sentence2: [
             "very"
         ],
         sentence: [
@@ -3389,14 +3264,13 @@ const fiszki = [
     },
     {
         id: [
-            119,
-            20,
-            40
+            120,
+            20
         ],
         img: "http://localhost/arbulanguage.com/img/fiszki1/21f.jpg",
         story: "W <b><u>Har</b></u>wardzie każdy j<b><u>ard</b></u> ziemi jest obsadzony kwiatami",
         desc: "hard[hard] - trudne/cieżkie/mocne",
-        sentence2: [
+                sentence2: [
             "hard"
         ],
         sentence: [
@@ -3410,18 +3284,17 @@ const fiszki = [
     },
     {
         id: [
-            120,
-            21,
-            41
+            121,
+            21
         ],
         img: "http://localhost/arbulanguage.com/img/fiszki1/22a.jpg",
-        translate: "Nie mam czasu na czytanie",
+                translate: "Nie mam czasu na czytanie",
         translateb: "[Aj dont hew tajm tu rid]",
-        srcWord: ["http://localhost/arbulanguage.com/filmy/read.mp4", "Księgowy(2016)", "Akcja"],
-        srcWordimage: "http://localhost/arbulanguage.com/filmy/read.png",
+        srcWord: "http://localhost/arbulanguage.com/filmy/read.mp4",
+                srcWordimage: "http://localhost/arbulanguage.com/filmy/read.png",
         story: "",
         desc: "I[i] - ja",
-        sentence1: [
+                sentence1: [
             "I"
         ],
         sentence: [
@@ -3431,19 +3304,17 @@ const fiszki = [
         ],
         key: "hard",
         category1: "nauka",
-        category2: ["osoby"],
-        category3: ["Present Simple"]
+        category2: ["osoby", "osoby+czas", "podmiot+czas"]
     },
     {
         id: [
-            121,
-            21,
-            41
+            122,
+            21
         ],
         img: "http://localhost/arbulanguage.com/img/fiszki1/22b.jpg",
         story: "<b><u>Nie</b></u> chcemy, żeby l<b><u>ont</b></u> został odpalony przedwcześnie. </\b><u>Do</b></u> odpalenia lontu potrzebne jest przygotowanie",
         desc: "don't[dont] - nie",
-        sentence1: [
+                sentence1: [
             "don't"
         ],
         sentence: [
@@ -3457,14 +3328,13 @@ const fiszki = [
     },
     {
         id: [
-            122,
-            21,
-            41
+            123,
+            21
         ],
         img: "http://localhost/arbulanguage.com/img/fiszki1/22c.jpg",
         story: "<b><u>Mam</b></u> fajne spodnie, ale puścił sz<b><u>ew</b></u>, <b><u>ch</b></u>yba go zaceruje",
         desc: "have[hew] - mam",
-        sentence1: [
+                sentence1: [
             "have"
         ],
         sentence: [
@@ -3478,14 +3348,13 @@ const fiszki = [
     },
     {
         id: [
-            123,
-            21,
-            42
+            124,
+            21
         ],
         img: "http://localhost/arbulanguage.com/img/fiszki1/22d.jpg",
         story: "Politycy mają dużo <b><u>czasu</b></u> - całą kadencje z<b><u>ajm</b></u>ować się stanowieniem prawa. A <b><u>ta</b></u>k im się spieszy",
         desc: "time[tajm] - czas",
-        sentence2: [
+                sentence2: [
             "time"
         ],
         sentence: [
@@ -3499,9 +3368,8 @@ const fiszki = [
     },
     {
         id: [
-            124,
-            21,
-            42
+            125,
+            21
         ],
         img: "http://localhost/arbulanguage.com/img/fiszki1/22e.jpg",
         story: [
@@ -3511,7 +3379,7 @@ const fiszki = [
             "Aaaa.. <b><u>tu</b></u> to jest, to dla mojego kolegi"
         ],
         desc: "to[tu] - do",
-        sentence2: [
+                sentence2: [
             "to"
         ],
         sentence: [
@@ -3525,14 +3393,13 @@ const fiszki = [
     },
     {
         id: [
-            125,
-            21,
-            42
+            126,
+            21
         ],
         img: "http://localhost/arbulanguage.com/img/fiszki1/22f.jpg",
         story: "Floryda to stan w USA, który powinien być czytany Flo<b><u>rid</b></u>a",
         desc: "read[rid] - czytać",
-        sentence2: [
+                sentence2: [
             "read"
         ],
         sentence: [
@@ -3546,18 +3413,17 @@ const fiszki = [
     },
     {
         id: [
-            126,
-            22,
-            43
+            127,
+            22
         ],
         img: "http://localhost/arbulanguage.com/img/fiszki1/23a.jpg",
         translate: "Ludzie myślą, że on ma racje",
         translateb: "[Pipul tinks dat hi is rajt]",
-        srcWord: ["http://localhost/arbulanguage.com/filmy/right.mp4", "Klub Dyskusyjny(2007)", "Biograficzny"],
-        srcWordimage: "http://localhost/arbulanguage.com/filmy/right.png",
+        srcWord: "http://localhost/arbulanguage.com/filmy/right.mp4",
+                srcWordimage: "http://localhost/arbulanguage.com/filmy/right.png",
         story: "",
         desc: "people[pipul] - ludzie",
-        sentence1: [
+                sentence1: [
             "People"
         ],
         sentence: [
@@ -3567,19 +3433,17 @@ const fiszki = [
         ],
         key: "people",
         category1: "nauka",
-        category2: [""],
-        category3: ["Present Simple"]
+        category2: ["podmiot+czas"]
     },
     {
         id: [
-            127,
-            22,
-            43
+            128,
+            22
         ],
         img: "http://localhost/arbulanguage.com/img/fiszki1/23b.jpg",
         story: "<b><u>Fin</b></u>owie <b><u>myślą</b></u> bardzo pragmatycznie o kawie <b><u>ink</b></u>a",
         desc: "think[tink] - myśleć",
-        sentence1: [
+                sentence1: [
             "think"
         ],
         sentence: [
@@ -3593,14 +3457,13 @@ const fiszki = [
     },
     {
         id: [
-            128,
-            22,
-            43
+            129,
+            22
         ],
         img: "http://localhost/arbulanguage.com/img/fiszki1/23c.jpg",
         story: "<b><u>Dat</b></u>a tego przyszłego wydarzenia wskazuje, <b><u>że</b></u> niektórym się spieszy, aby się odbyło",
         desc: "that[dat] - że",
-        sentence1: [
+                sentence1: [
             "that"
         ],
         sentence: [
@@ -3614,14 +3477,13 @@ const fiszki = [
     },
     {
         id: [
-            129,
-            22,
-            44
+            130,
+            22
         ],
         img: "http://localhost/arbulanguage.com/img/fiszki1/23d.jpg",
         story: "On jest już postacią <b><u>his</b></u>toryczną na ten moment",
         desc: "he's[his] - on jest",
-        sentence2: [
+                sentence2: [
             "he's"
         ],
         sentence: [
@@ -3634,14 +3496,13 @@ const fiszki = [
     },
     {
         id: [
-            130,
-            22,
-            44
+            131,
+            22
         ],
         img: "http://localhost/arbulanguage.com/img/fiszki1/23e.jpg",
         story: "<b><u>Dobrze</b></u> żyłeś. A <b><u>t</b></u>o jest <b><u>raj</b></u> dla ciebie",
         desc: "right[rajt] - dobrze/prawy",
-        sentence2: [
+                sentence2: [
             "right"
         ],
         sentence: [
@@ -3654,18 +3515,17 @@ const fiszki = [
     },
     {
         id: [
-            131,
-            23,
-            45
+            132,
+            23
         ],
         img: "http://localhost/arbulanguage.com/img/fiszki1/24a.jpg",
         translate: "My powinniśmy dbać o naszą przyszłość",
         translateb: "[Łi szud ker ebaut aur fjuczer]",
-        srcWord: ["http://localhost/arbulanguage.com/filmy/future.mp4", "Titanic(1997)", "Romantyczny"],
-        srcWordimage: "http://localhost/arbulanguage.com/filmy/future.png",
+        srcWord: "http://localhost/arbulanguage.com/filmy/future.mp4",
+                        srcWordimage: "http://localhost/arbulanguage.com/filmy/future.png",
         story: "<b><u>Wi</b></u>ll Smith oznajmił, że <b><u>my</b></u> jako ludzkość mamy się dobrze",
         desc: "we[łi] - my",
-        sentence1: [
+                sentence1: [
             "We"
         ],
         sentence: [
@@ -3675,19 +3535,17 @@ const fiszki = [
         ],
         key: "we",
         category1: "nauka",
-        category2: ["osoby"],
-        category3: ["Modal + Base Verb (Present Simple)"]
+        category2: ["osoby", "podmiot+czas", "osoby+czas"]
     },
     {
         id: [
-            132,
-            23,
-            45
+            133,
+            23
         ],
         img: "http://localhost/arbulanguage.com/img/fiszki1/24b.jpg",
         story: "<b><u>Szu</b></u>kam informacji jak <b><u>powinniśmy</b></u> teraz <b><u>d</b></u>orabiać",
         desc: "should[szud] - powinien/powinniśmy",
-        sentence1: [
+                sentence1: [
             "should"
         ],
         sentence: [
@@ -3701,14 +3559,13 @@ const fiszki = [
     },
     {
         id: [
-            133,
-            23,
-            45
+            134,
+            23
         ],
         img: "http://localhost/arbulanguage.com/img/fiszki1/24c.jpg",
         story: "<b><u>Ker</b></u>atynowe prostowanie włosów jest dostępne u fryzjera, tak możesz o siebie <b><u>zadbać</b></u>",
         desc: "care[ker] - dbać",
-        sentence1: [
+                sentence1: [
             "care"
         ],
         sentence: [
@@ -3722,18 +3579,17 @@ const fiszki = [
     },
     {
         id: [
-            134,
-            23,
-            46
+            135,
+            23
         ],
         img: "http://localhost/arbulanguage.com/img/fiszki1/24d.jpg",
         story: "Trener daje dla tej drużyny <b><u>for</b></u>y",
-        desc: "about[ebałt] - dla",
-        sentence2: [
-            "about"
+        desc: "for[for] - dla",
+                sentence2: [
+            "for"
         ],
         sentence: [
-            "about",
+            "for",
             "our",
             "future"
         ],
@@ -3743,9 +3599,8 @@ const fiszki = [
     },
     {
         id: [
-            135,
-            23,
-            46
+            136,
+            23
         ],
         img: "http://localhost/arbulanguage.com/img/fiszki1/24e.jpg",
         story1: [
@@ -3753,11 +3608,11 @@ const fiszki = [
             "<u><b>Nasi</u></b> spartanie krzyczą <u><b>AAAUUU!!!</u></b> wszyscy razem przed walką"
         ],
         desc: "our[aur] - nasz/nasze",
-        sentence2: [
+                sentence2: [
             "our"
         ],
         sentence: [
-            "about",
+            "for",
             "our",
             "future"
         ],
@@ -3767,18 +3622,17 @@ const fiszki = [
     },
     {
         id: [
-            136,
-            23,
-            46
+            137,
+            23
         ],
         img: "http://localhost/arbulanguage.com/img/fiszki1/24f.jpg",
         story: "<u><b>F</u></b>acebook jutro(<u><b>w przyszłości</u></b>) wprowadza zmiany na kolorystyke <u><b>czer</u></b>woną",
         desc: "future[fjuczer] - przyszłość",
-        sentence2: [
+                sentence2: [
             "future"
         ],
         sentence: [
-            "about",
+            "for",
             "our",
             "future"
         ],
@@ -3788,18 +3642,17 @@ const fiszki = [
     },
     {
         id: [
-            137,
-            24,
-            47
+            138,
+            24
         ],
         img: "http://localhost/arbulanguage.com/img/fiszki1/25a.jpg",
         translate: "Cena za złamanie zasad to moja człowiecza twarz",
         translateb: "[Pipul tinks dat hi is rajt]",
-        srcWord: ["http://localhost/arbulanguage.com/filmy/humanface.mp4", "Yes Man(2008)", "Komedia"],
-        srcWordimage: "http://localhost/arbulanguage.com/filmy/humanface.png",
+        srcWord: "http://localhost/arbulanguage.com/filmy/humanface.mp4",
+                srcWordimage: "http://localhost/arbulanguage.com/filmy/humanface.png",
         story: "<u><b>Ten</u></b> <u><b>de</u></b>ptak jest bardzo przestronny",
         desc: "the[de] - ta",
-        sentence1: [
+                sentence1: [
             "The"
         ],
         sentence: [
@@ -3812,19 +3665,17 @@ const fiszki = [
         ],
         key: "the",
         category1: "nauka",
-        category2: ["podmiot+czas"],
-        category3: ["Present Simple"]
+        category2: ["podmiot+czas"]
     },
     {
         id: [
-            138,
-            24,
-            47
+            139,
+            24
         ],
         img: "http://localhost/arbulanguage.com/img/fiszki1/25b.jpg",
         story: "<b><u>Cena</b></u> za moją <b><u>pra</b></u>ce nad drzeworytem jest wysoka. To da mi h<b><u>ajs</b></u>.",
         desc: "price[prajs] - cena",
-        sentence1: [
+                sentence1: [
             "price"
         ],
         sentence: [
@@ -3841,14 +3692,13 @@ const fiszki = [
     },
     {
         id: [
-            139,
-            24,
-            47
+            140,
+            24
         ],
         img: "http://localhost/arbulanguage.com/img/fiszki1/25c.jpg",
         story: "<b><u>For</b></u>est Gump jest filmem <b><u>dla</b></u> każdego",
         desc: "for[for] - dla",
-        sentence1: [
+                sentence1: [
             "for"
         ],
         sentence: [
@@ -3865,14 +3715,13 @@ const fiszki = [
     },
     {
         id: [
-            140,
-            24,
-            47
+            141,
+            24
         ],
         img: "http://localhost/arbulanguage.com/img/fiszki1/25d.jpg",
         story: "Król(<b><u>king</b></u>) <b><u>złamał</b></u> nogę i musi pić lekarstwo <b><u>brej</b></u>ę, żeby go uleczyło",
         desc: "breaking[brejking] - złamać",
-        sentence1: [
+                sentence1: [
             "breaking"
         ],
         sentence: [
@@ -3889,14 +3738,13 @@ const fiszki = [
     },
     {
         id: [
-            141,
-            24,
-            47
+            142,
+            24
         ],
         img: "http://localhost/arbulanguage.com/img/fiszki1/25e.jpg",
         story: "",
         desc: "the[de] - to",
-        sentence1: [
+                sentence1: [
             "the"
         ],
         sentence: [
@@ -3913,14 +3761,13 @@ const fiszki = [
     },
     {
         id: [
-            142,
-            24,
-            47
+            143,
+            24
         ],
         img: "http://localhost/arbulanguage.com/img/fiszki1/25f.jpg",
         story: "<b><u>Guru przepowiada <b><u>przyszłość</b></u>, w której mówi jaki ludzie będą mieć p<b><u>uls</b></u>",
         desc: "rules[ruls] - przyszłość",
-        sentence1: [
+                sentence1: [
             "rules"
         ],
         sentence: [
@@ -3937,9 +3784,8 @@ const fiszki = [
     },
     {
         id: [
-            143,
-            24,
-            48
+            144,
+            24
         ],
         img: "http://localhost/arbulanguage.com/img/fiszki1/25g.jpg",
         story: [
@@ -3950,12 +3796,14 @@ const fiszki = [
             "Lu<b><u>is</b></u> <b><u>jest</b></u> bardzo zadowolony ze swojej pracy"
         ],
         desc: "is[is] - jest",
-        sentence2: [
+                sentence2: [
             "is"
         ],
         sentence: [
             "is",
-            "high"
+            "my",
+            "human",
+            "face"
         ],
         key: "is",
         category1: "nauka",
@@ -3963,35 +3811,77 @@ const fiszki = [
     },
     {
         id: [
-            144,
-            24,
-            48
+            145,
+            24
         ],
         img: "http://localhost/arbulanguage.com/img/fiszki1/25h.jpg",
         story: "W <b><u>maj</b></u>u kwitną <b><u>moje</b></u> ulubione kwiaty",
-        desc: "high[haj] - dużo/wysoko",
-        sentence2: [
-            "high"
+        desc: "my[maj] - moja/moje",
+                sentence2: [
+            "my"
         ],
         sentence: [
             "is",
-            "high"
+            "my",
+            "human",
+            "face"
         ],
         key: "my",
         category1: "nauka",
-        category2: [""]
+        category2: ["zaimkiosobowe"]
     },
     {
         id: [
-            145,
-            25,
-            49
+            146,
+            24
+        ],
+        img: "http://localhost/arbulanguage.com/img/fiszki1/25i.jpg",
+        story: "<b><u>H</b></u>umanizm to cecha <b><u>człowieka</b></u>, który już nie myśli tylko o sobie. To taka <b><u>men</b></u>talność",
+        desc: "human[hjumen] - człowiek",
+                sentence2: [
+            "human"
+        ],
+        sentence: [
+            "is",
+            "my",
+            "human",
+            "face"
+        ],
+        key: "human",
+        category1: "nauka",
+        category2: "transport, "
+    },
+    {
+        id: [
+            147,
+            24
+        ],
+        img: "http://localhost/arbulanguage.com/img/fiszki1/25j.jpg",
+        story: "<b><u>Fejs</b></u>buk to inaczej książka <b><u>twarzy</b></u>",
+        desc: "face[fejs] - twarz",
+                sentence2: [
+            "face"
+        ],
+        sentence: [
+            "is",
+            "my",
+            "human",
+            "face"
+        ],
+        key: "face",
+        category1: "nauka",
+        category2: ["body"]
+    },
+    {
+        id: [
+            148,
+            25
         ],
         img: "http://localhost/arbulanguage.com/img/fiszki1/25j.jpg",
         translate: "On myśli że to jedyna droga, żeby uniknąć następnej wojny",
         translateb: "[Hi thinks dat its only łej to ewoid enoder łor]",
-        srcWord: ["http://localhost/arbulanguage.com/filmy/war.mp4", "Gladiator(2000)", "Akcja"],
-        srcWordimage: "http://localhost/arbulanguage.com/filmy/war.png",
+        srcWord: "http://localhost/arbulanguage.com/filmy/war.mp4",
+                srcWordimage: "http://localhost/arbulanguage.com/filmy/war.png",
         story: [
             "<u><b>On</b></u> - <u><b>Hi</b></u>eronim odleciał balonem",
             "To właśnie on jest <b><u>hi</b></u>tem tego sezonu piłkarskiego",
@@ -3999,7 +3889,7 @@ const fiszki = [
             "<u><b>On</u></b> je ciastka <u><b>hi</u></b>ty"
         ],
         desc: "he[hi] - on",
-        sentence1: [
+                sentence1: [
             "He"
         ],
         sentence: [
@@ -4011,19 +3901,17 @@ const fiszki = [
         ],
         key: "he",
         category1: "nauka",
-        category2: ["osoby"],
-        category3: ["Present Simple"]
+        category2: ["osoby", "podmiot+czas", "osoby+czas"]
     },
     {
         id: [
-            146,
-            25,
-            49
+            149,
+            25
         ],
         img: "http://localhost/arbulanguage.com/img/fiszki1/25j.jpg",
         story: "",
         desc: "think[think] - myśleć",
-        sentence1: [
+                sentence1: [
             "think"
         ],
         sentence: [
@@ -4039,14 +3927,13 @@ const fiszki = [
     },
     {
         id: [
-            147,
-            25,
-            49
+            150,
+            25
         ],
         img: "http://localhost/arbulanguage.com/img/fiszki1/25j.jpg",
         story: "",
         desc: "it's[its] - to jest",
-        sentence1: [
+                sentence1: [
             "it's"
         ],
         sentence: [
@@ -4062,14 +3949,13 @@ const fiszki = [
     },
     {
         id: [
-            148,
-            25,
-            49
+            151,
+            25
         ],
         img: "http://localhost/arbulanguage.com/img/fiszki1/25j.jpg",
         story: "",
         desc: "only[only] - jedyny/jedyna/jedyne",
-        sentence1: [
+                sentence1: [
             "only"
         ],
         sentence: [
@@ -4085,14 +3971,13 @@ const fiszki = [
     },
     {
         id: [
-            149,
-            25,
-            49
+            152,
+            25
         ],
         img: "http://localhost/arbulanguage.com/img/fiszki1/25j.jpg",
         story: "",
         desc: "way[łej] - droga",
-        sentence1: [
+                sentence1: [
             "way"
         ],
         sentence: [
@@ -4108,9 +3993,8 @@ const fiszki = [
     },
     {
         id: [
-            150,
-            25,
-            50
+            153,
+            25
         ],
         img: "http://localhost/arbulanguage.com/img/fiszki1/25j.jpg",
         story: [
@@ -4120,7 +4004,7 @@ const fiszki = [
             "Aaaa.. <b><u>tu</b></u> to jest, to dla mojego kolegi"
         ],
         desc: "to[tu] - do/dla",
-        sentence2: [
+                sentence2: [
             "to"
         ],
         sentence: [
@@ -4131,18 +4015,17 @@ const fiszki = [
         ],
         key: "to",
         category1: "nauka",
-        category2: ["osoby+czas"]
+        category2: "transport, "
     },
     {
         id: [
-            151,
-            25,
-            50
+            154,
+            25
         ],
         img: "http://localhost/arbulanguage.com/img/fiszki1/25j.jpg",
         story: "",
         desc: "avoid[ewoid] - unikać",
-        sentence2: [
+                sentence2: [
             "avoid"
         ],
         sentence: [
@@ -4153,18 +4036,17 @@ const fiszki = [
         ],
         key: "avoid",
         category1: "nauka",
-        category2: ["czasownik", "osoby+czas"]
+        category2: ["czasownik"]
     },
     {
         id: [
-            152,
-            25,
-            50
+            155,
+            25
         ],
         img: "http://localhost/arbulanguage.com/img/fiszki1/25j.jpg",
         story: "",
         desc: "another[enader] - kolejny/kolejna",
-        sentence2: [
+                sentence2: [
             "another"
         ],
         sentence: [
@@ -4179,14 +4061,13 @@ const fiszki = [
     },
     {
         id: [
-            153,
-            25,
-            50
+            156,
+            25
         ],
         img: "http://localhost/arbulanguage.com/img/fiszki1/25j.jpg",
         story: "",
         desc: "war[łor] - wojna",
-        sentence2: [
+                sentence2: [
             "war"
         ],
         sentence: [
@@ -4201,21 +4082,18 @@ const fiszki = [
     },
     {
         id: [
-            154,
-            26,
-            51
+            157,
+            26
         ],
         img: "http://localhost/arbulanguage.com/img/fiszki1/25j.jpg",
-        translate: "Idea opuszczenia jego szkoły była także bardzo bolesna",
-        translateb: "[De ajdia of liwing his skul łos olso wery pejnful]",
         story: "",
-        srcWord: ["http://localhost/arbulanguage.com/filmy/leavingschool.mp4", "Openhaymer(2023)", "Biograficzny"],
-        srcWordimage: "http://localhost/arbulanguage.com/filmy/leavingschool.png",
+        srcWord: "http://localhost/arbulanguage.com/filmy/leavingschool.mp4",
+                srcWordimage: "http://localhost/arbulanguage.com/filmy/leavingschool.png",
         desc: "the[de] - to",
         sentence1: [
             "The"
         ],
-        sentence: [
+                sentence: [
             "The",
             "idea",
             "of",
@@ -4225,19 +4103,17 @@ const fiszki = [
         ],
         key: "the",
         category1: "nauka",
-        category2: [""],
-        category3: ["Past Simple"]
+        category2: ["podmiot+czas"]
     },
     {
         id: [
-            155,
-            26,
-            51
+            158,
+            26
         ],
         img: "http://localhost/arbulanguage.com/img/fiszki1/25j.jpg",
         story: "",
         desc: "idea[ajdia] - idea",
-        sentence1: [
+                sentence1: [
             "idea"
         ],
         sentence: [
@@ -4254,14 +4130,13 @@ const fiszki = [
     },
     {
         id: [
-            156,
-            26,
-            51
+            158,
+            26
         ],
         img: "http://localhost/arbulanguage.com/img/fiszki1/25j.jpg",
         story: "",
         desc: "of[of] - tego/ten",
-        sentence1: [
+                sentence1: [
             "of"
         ],
         sentence: [
@@ -4278,14 +4153,13 @@ const fiszki = [
     },
     {
         id: [
-            157,
-            26,
-            51
+            159,
+            26
         ],
         img: "http://localhost/arbulanguage.com/img/fiszki1/25j.jpg",
         story: "",
         desc: "leaving[living] - opuścić",
-        sentence1: [
+                sentence1: [
             "leaving"
         ],
         sentence: [
@@ -4302,14 +4176,13 @@ const fiszki = [
     },
     {
         id: [
-            158,
-            26,
-            51
+            160,
+            26
         ],
         img: "http://localhost/arbulanguage.com/img/fiszki1/25j.jpg",
         story: "",
         desc: "his[his] - jego",
-        sentence1: [
+                sentence1: [
             "his"
         ],
         sentence: [
@@ -4324,14 +4197,13 @@ const fiszki = [
     },
     {
         id: [
-            159,
-            26,
-            51
+            161,
+            26
         ],
         img: "http://localhost/arbulanguage.com/img/fiszki1/25j.jpg",
         story: "",
         desc: "school[skul] - szkoła",
-        sentence1: [
+                sentence1: [
             "school"
         ],
         sentence: [
@@ -4348,14 +4220,13 @@ const fiszki = [
     },
     {
         id: [
-            160,
-            26,
-            52
+            162,
+            26
         ],
         img: "http://localhost/arbulanguage.com/img/fiszki1/25j.jpg",
         story: "",
         desc: "was[łos] - była/było",
-        sentence2: [
+                sentence2: [
             "was"
         ],
         sentence: [
@@ -4370,14 +4241,13 @@ const fiszki = [
     },
     {
         id: [
-            161,
-            26,
-            52
+            163,
+            26
         ],
         img: "http://localhost/arbulanguage.com/img/fiszki1/25j.jpg",
         story: "",
         desc: "also[olso] - także",
-        sentence2: [
+                sentence2: [
             "also"
         ],
         sentence: [
@@ -4392,14 +4262,13 @@ const fiszki = [
     },
     {
         id: [
-            162,
-            26,
-            52
+            164,
+            26
         ],
         img: "http://localhost/arbulanguage.com/img/fiszki1/25j.jpg",
         story: "",
         desc: "very[wery] - bardzo",
-        sentence2: [
+                sentence2: [
             "very"
         ],
         sentence: [
@@ -4414,14 +4283,13 @@ const fiszki = [
     },
     {
         id: [
-            163,
-            26,
-            52
+            165,
+            26
         ],
         img: "http://localhost/arbulanguage.com/img/fiszki1/25j.jpg",
         story: "",
         desc: "painful[peinful] - bolesny/bolesne/bolesna",
-        sentence2: [
+                sentence2: [
             "painful"
         ],
         sentence: [
@@ -4436,18 +4304,15 @@ const fiszki = [
     },
     {
         id: [
-            164,
-            27,
-            53
+            166,
+            27
         ],
         img: "http://localhost/arbulanguage.com/img/fiszki1/25j.jpg",
-        translate: "Wynalazek koła był wielkim krokiem naprzód",
-        translateb: "[De inwenszyn of de łel łos a big step fołard]",
-        srcWord: ["http://localhost/arbulanguage.com/filmy/weel.mp4", "Szybcy i Wściekli(2001)", "Akcja"],
-        srcWordimage: "http://localhost/arbulanguage.com/filmy/weel.png",
+        srcWord: "http://localhost/arbulanguage.com/filmy/weel.mp4",
+                srcWordimage: "http://localhost/arbulanguage.com/filmy/weel.png",
         story: "",
         desc: "the[de] - bolesny/bolesne/bolesna",
-        sentence1: [
+                sentence1: [
             "The"
         ],
         sentence: [
@@ -4460,19 +4325,17 @@ const fiszki = [
         ],
         key: "the",
         category1: "nauka",
-        category2: "transport",
-        category3: ["Past Simple"]
+        category2: "transport, "
     },
     {
         id: [
-            165,
-            27,
-            53
+            167,
+            27
         ],
         img: "http://localhost/arbulanguage.com/img/fiszki1/25j.jpg",
         story: "",
         desc: "invention[inwention] - wynalezienie/wynalazek",
-        sentence1: [
+                sentence1: [
             "invention"
         ],
         sentence: [
@@ -4489,14 +4352,13 @@ const fiszki = [
     },
     {
         id: [
-            166,
-            27,
-            53
+            168,
+            27
         ],
         img: "http://localhost/arbulanguage.com/img/fiszki1/25j.jpg",
         story: "",
         desc: "of[of] - bolesny/bolesne/bolesna",
-        sentence1: [
+                sentence1: [
             "of"
         ],
         sentence: [
@@ -4513,14 +4375,13 @@ const fiszki = [
     },
     {
         id: [
-            167,
-            27,
-            53
+            169,
+            27
         ],
         img: "http://localhost/arbulanguage.com/img/fiszki1/25j.jpg",
         story: "",
         desc: "the[de] - bolesny/bolesne/bolesna",
-        sentence1: [
+                sentence1: [
             "the"
         ],
         sentence: [
@@ -4537,14 +4398,13 @@ const fiszki = [
     },
     {
         id: [
-            168,
-            27,
-            53
+            170,
+            27
         ],
         img: "http://localhost/arbulanguage.com/img/fiszki1/25j.jpg",
         story: "",
         desc: "weel[łel] - koło",
-        sentence1: [
+                sentence1: [
             "weel"
         ],
         sentence: [
@@ -4561,14 +4421,13 @@ const fiszki = [
     },
     {
         id: [
-            169,
-            27,
-            53
+            171,
+            27
         ],
         img: "http://localhost/arbulanguage.com/img/fiszki1/25j.jpg",
         story: "",
         desc: "was[łos] - było",
-        sentence1: [
+                sentence1: [
             "was"
         ],
         sentence: [
@@ -4585,14 +4444,13 @@ const fiszki = [
     },
     {
         id: [
-            170,
-            27,
-            54
+            172,
+            27
         ],
         img: "http://localhost/arbulanguage.com/img/fiszki1/25j.jpg",
         story: "",
         desc: "big[big] - duży/duża/duże",
-        sentence2: [
+                sentence2: [
             "(a) big"
         ],
         sentence: [
@@ -4606,14 +4464,13 @@ const fiszki = [
     },
     {
         id: [
-            171,
-            27,
-            54
+            173,
+            27
         ],
         img: "http://localhost/arbulanguage.com/img/fiszki1/25j.jpg",
         story: "",
         desc: "step[step] - krok",
-        sentence2: [
+                sentence2: [
             "step"
         ],
         sentence: [
@@ -4627,14 +4484,13 @@ const fiszki = [
     },
     {
         id: [
-            172,
-            27,
-            54
+            174,
+            27
         ],
         img: "http://localhost/arbulanguage.com/img/fiszki1/25j.jpg",
         story: "",
         desc: "forward[fołard] - naprzód",
-        sentence2: [
+                sentence2: [
             "forward"
         ],
         sentence: [
@@ -4648,18 +4504,15 @@ const fiszki = [
     },
     {
         id: [
-            173,
-            28,
-            55
+            175,
+            28
         ],
         img: "http://localhost/arbulanguage.com/img/fiszki1/25j.jpg",
-        translate: "Powiedz mi dlaczego ten most jest tak ważny dla ciebie",
-        translateb: "[Tel mi łaj dis bridż is soł important tu ju]",
-        srcWord: ["http://localhost/arbulanguage.com/filmy/bridge.mp4", "Szybcy i Wściekli 5(2011)", "Akcja"],
+                srcWord: "http://localhost/arbulanguage.com/filmy/bridge.mp4",
         srcWordimage: "http://localhost/arbulanguage.com/filmy/bridge.png",
         story: "",
         desc: "tell[tel] - powiedz/powiedzieć",
-        sentence1: [
+                sentence1: [
             "Tell"
         ],
         sentence: [
@@ -4671,19 +4524,17 @@ const fiszki = [
         ],
         key: "tell",
         category1: "nauka",
-        category2: ["czasownik"],
-        category3: ["Imperative (Main clause), Present Simple (Subordinate clause)"]
+        category2: ["czasownik"]
     },
     {
         id: [
-            174,
-            28,
-            55
+            176,
+            28
         ],
         img: "http://localhost/arbulanguage.com/img/fiszki1/25j.jpg",
         story: "",
         desc: "me[mi] - ja/mnie",
-        sentence1: [
+                sentence1: [
             "me"
         ],
         sentence: [
@@ -4699,14 +4550,13 @@ const fiszki = [
     },
     {
         id: [
-            175,
-            28,
-            55
+            177,
+            28
         ],
         img: "http://localhost/arbulanguage.com/img/fiszki1/25j.jpg",
         story: "",
         desc: "why[łaj] - dlaczego",
-        sentence1: [
+                sentence1: [
             "why"
         ],
         sentence: [
@@ -4722,14 +4572,13 @@ const fiszki = [
     },
     {
         id: [
-            176,
-            28,
-            55
+            178,
+            28
         ],
         img: "http://localhost/arbulanguage.com/img/fiszki1/25j.jpg",
         story: "",
         desc: "this[dis] - ten",
-        sentence1: [
+                sentence1: [
             "this"
         ],
         sentence: [
@@ -4745,14 +4594,13 @@ const fiszki = [
     },
     {
         id: [
-            177,
-            28,
-            55
+            179,
+            28
         ],
         img: "http://localhost/arbulanguage.com/img/fiszki1/25j.jpg",
         story: "",
         desc: "bridge[bridź] - most",
-        sentence1: [
+                sentence1: [
             "bridge"
         ],
         sentence: [
@@ -4768,14 +4616,13 @@ const fiszki = [
     },
     {
         id: [
-            178,
-            28,
-            56
+            180,
+            28
         ],
         img: "http://localhost/arbulanguage.com/img/fiszki1/25j.jpg",
         story: "",
         desc: "is[is] - jest",
-        sentence2: [
+                sentence2: [
             "is"
         ],
         sentence: [
@@ -4791,14 +4638,13 @@ const fiszki = [
     },
     {
         id: [
-            179,
-            28,
-            56
+            181,
+            28
         ],
         img: "http://localhost/arbulanguage.com/img/fiszki1/25j.jpg",
         story: "<u><b>Soł</u></b>tys już taki jest",
         desc: "so[soł] - taki",
-        sentence2: [
+                sentence2: [
             "so"
         ],
         sentence: [
@@ -4814,14 +4660,13 @@ const fiszki = [
     },
     {
         id: [
-            180,
-            28,
-            56
+            182,
+            28
         ],
         img: "http://localhost/arbulanguage.com/img/fiszki1/25j.jpg",
         story: "<u><b>Import</u></b> antyków z zagranicy to <u><b>ważne</u></b> zadanie dla kolekcjonera",
         desc: "important[important] - ważne/ważny",
-        sentence2: [
+                sentence2: [
             "important"
         ],
         sentence: [
@@ -4837,14 +4682,13 @@ const fiszki = [
     },
     {
         id: [
-            181,
-            28,
-            56
+            183,
+            28
         ],
         img: "http://localhost/arbulanguage.com/img/fiszki1/25j.jpg",
         story: "",
         desc: "to[tu] - do/dla",
-        sentence2: [
+                sentence2: [
             "to"
         ],
         sentence: [
@@ -4860,14 +4704,13 @@ const fiszki = [
     },
     {
         id: [
-            182,
-            28,
-            56
+            184,
+            28
         ],
         img: "http://localhost/arbulanguage.com/img/fiszki1/25j.jpg",
         story: "<u><b>Ju</u></b>tro <u><b>ty</u></b> masz wolny dzień od pracy",
         desc: "you[ju] - ty",
-        sentence2: [
+                sentence2: [
             "you"
         ],
         sentence: [
@@ -4879,22 +4722,18 @@ const fiszki = [
         ],
         key: "you",
         category1: "nauka",
-        category2: ["osoby"]
+        category2: "transport, "
     },
-    {
+        {
         id: [
-            183,
-            29,
-            57
+            185,
+            29
         ],
         img: "http://localhost/arbulanguage.com/img/fiszki1/25j.jpg",
-        translate: "Użytkownik może dodać lub usunąć to konto bardzo łatwo",
-        translateb: "[E juzer mej ad or remuw dis akount łiz iz]",
-        srcWord: ["http://localhost/arbulanguage.com/filmy/accounts.mp4", "Matrix(1999)", "Akcja"],
-        srcWordimage: "http://localhost/arbulanguage.com/filmy/accounts.png",
+                srcWord: "http://localhost/arbulanguage.com/filmy/accounts.mp4",
         story: "Już wielu <u><b>użytkowników</u></b> wykupi<u><b>ł</u></b> płatne subskrypcje, bo darmowa wersja jest m<u><b>iz</u></b>erna",
         desc: "user[juzer] - użytkownik",
-        sentence1: [
+                sentence1: [
             "(A) user"
         ],
         sentence: [
@@ -4908,19 +4747,17 @@ const fiszki = [
         ],
         key: "you",
         category1: "nauka",
-        category2: ["osoby"],
-        category3: ["Modal + Base Verb (Present Simple)"]
+        category2: "transport, "
     },
-    {
+            {
         id: [
-            184,
-            29,
-            57
+            186,
+            29
         ],
         img: "http://localhost/arbulanguage.com/img/fiszki1/25j.jpg",
         story: "Iwonie sa<u><b>mej</u></b> <u><b>może</u>/<b> być trudno wykonać to zadanie",
         desc: "may[mej] - może",
-        sentence1: [
+                sentence1: [
             "may"
         ],
         sentence: [
@@ -4934,18 +4771,17 @@ const fiszki = [
         ],
         key: "you",
         category1: "nauka",
-        category2: ["czasownik", "osoby+czas"]
+        category2: ["czasownik"]
     },
-    {
+                {
         id: [
-            185,
-            29,
-            57
+            187,
+            29
         ],
         img: "http://localhost/arbulanguage.com/img/fiszki1/25j.jpg",
         story: "Z<u><b>ad</u></b>anie dla uczniów to <u><b>dodać</u></b> do swojego wypracowanie wątki fantastyczne",
         desc: "add[ad] - dodać",
-        sentence1: [
+                sentence1: [
             "add"
         ],
         sentence: [
@@ -4959,18 +4795,17 @@ const fiszki = [
         ],
         key: "you",
         category1: "nauka",
-        category2: ["czasownik", "osoby+czas"]
+        category2: ["czasownik"]
     },
-    {
+                    {
         id: [
-            186,
-            29,
-            57
+            188,
+            29
         ],
         img: "http://localhost/arbulanguage.com/img/fiszki1/25j.jpg",
         story: "To jest już p<u><b>or</u></b>a na kolacje <u><b>lub</u></b> spanie",
         desc: "or[or] - lub",
-        sentence1: [
+                sentence1: [
             "or"
         ],
         sentence: [
@@ -4986,16 +4821,15 @@ const fiszki = [
         category1: "nauka",
         category2: ["spojniki"]
     },
-    {
+                        {
         id: [
-            187,
-            29,
-            57
+            189,
+            29
         ],
         img: "http://localhost/arbulanguage.com/img/fiszki1/25j.jpg",
         story: "Na <u><b>re</u></b>sztę towaru mam już za<u><b>mów</u></b>ienie, to co pozostanie wyrzucę/usunę z magazynu",
         desc: "remove[remuw] - usunąć",
-        sentence1: [
+                sentence1: [
             "remove"
         ],
         sentence: [
@@ -5009,18 +4843,17 @@ const fiszki = [
         ],
         key: "you",
         category1: "nauka",
-        category2: ["czasownik", "osoby+czas"]
+        category2: ["czasownik"]
     },
-    {
+                            {
         id: [
-            188,
-            29,
-            57
+            190,
+            29
         ],
         img: "http://localhost/arbulanguage.com/img/fiszki1/25j.jpg",
         story: "Koroporacja <u><b>uz</u></b>urpuje sobie prawo <u><b>do</u></b> tych danych",
         desc: "those[douz] - te",
-        sentence1: [
+                sentence1: [
             "those"
         ],
         sentence: [
@@ -5034,18 +4867,17 @@ const fiszki = [
         ],
         key: "you",
         category1: "nauka",
-        category2: ["zaimkiosobowe"]
+        category2: ["zaimki osobowe"]
     },
-    {
+                                {
         id: [
-            189,
-            29,
-            57
+            191,
+            29
         ],
         img: "http://localhost/arbulanguage.com/img/fiszki1/25j.jpg",
         story: "",
         desc: "accounts[akounts] - konta",
-        sentence1: [
+                sentence1: [
             "accounts"
         ],
         sentence: [
@@ -5061,16 +4893,15 @@ const fiszki = [
         category1: "nauka",
         category2: [""]
     },
-    {
+                                    {
         id: [
-            190,
-            29,
-            58
+            192,
+            29
         ],
         img: "http://localhost/arbulanguage.com/img/fiszki1/25j.jpg",
         story: "Każdy żołnierz chodzi na polu walki z che<u><b>ł</u></b>mem i kam<u><b>iz</u></b>elką kuloodporną",
         desc: "with[łiz] - z",
-        sentence2: [
+                sentence2: [
             "with"
         ],
         sentence: [
@@ -5081,16 +4912,15 @@ const fiszki = [
         category1: "nauka",
         category2: ["spojniki"]
     },
-    {
+                                        {
         id: [
-            191,
-            29,
-            58
+            193,
+            29
         ],
         img: "http://localhost/arbulanguage.com/img/fiszki1/25j.jpg",
         story: "Ten <u><b>iz</u></b>otop <u><b>łatwo</u></b> się rozpuszcza",
         desc: "ease[izz] - łatwość/łatwością",
-        sentence2: [
+                sentence2: [
             "ease"
         ],
         sentence: [
@@ -5101,20 +4931,16 @@ const fiszki = [
         category1: "nauka",
         category2: ["spojniki"]
     },
-    {
+                                            {
         id: [
-            192,
-            30,
-            59
+            194,
+            30
         ],
         img: "http://localhost/arbulanguage.com/img/fiszki1/25j.jpg",
-        translate: "Ona oferuje jakąś radę na temat jak pomóc twojemu dziecku",
-        translateb: "[Szi ofers som adwajs ebout hał tu help jor chaild]",
-        srcWord: ["http://localhost/arbulanguage.com/filmy/child.mp4", "Matrix(1999)", "Akcja"],
-        srcWordimage: "http://localhost/arbulanguage.com/filmy/child.png",
+                srcWord: "http://localhost/arbulanguage.com/filmy/child.mp4",
         story: "Ten <u><b>iz</u></b>otop <u><b>łatwo</u></b> się rozpuszcza",
         desc: "she[szi] - ona",
-        sentence1: [
+                sentence1: [
             "She"
         ],
         sentence: [
@@ -5126,19 +4952,17 @@ const fiszki = [
         ],
         key: "she",
         category1: "nauka",
-        category2: ["osoby"],
-        category3: ["Present Simple"]
+        category2: ["spojniki"]
     },
-    {
+                                            {
         id: [
-            193,
-            30,
-            59
+            195,
+            30
         ],
         img: "http://localhost/arbulanguage.com/img/fiszki1/25j.jpg",
         story: "Ten <u><b>iz</u></b>otop <u><b>łatwo</u></b> się rozpuszcza",
         desc: "ease[izz] - łatwość/łatwością",
-        sentence1: [
+                sentence1: [
             "offers"
         ],
         sentence: [
@@ -5150,18 +4974,17 @@ const fiszki = [
         ],
         key: "offers",
         category1: "nauka",
-        category2: ["spojniki", "osoby+czas"]
-    },
+        category2: ["spojniki"]
+    },                                        
     {
         id: [
-            194,
-            30,
-            59
+            196,
+            30
         ],
         img: "http://localhost/arbulanguage.com/img/fiszki1/25j.jpg",
         story: "Ten <u><b>iz</u></b>otop <u><b>łatwo</u></b> się rozpuszcza",
         desc: "ease[izz] - łatwość/łatwością",
-        sentence1: [
+                sentence1: [
             "some"
         ],
         sentence: [
@@ -5175,16 +4998,15 @@ const fiszki = [
         category1: "nauka",
         category2: ["spojniki"]
     },
-    {
+        {
         id: [
-            195,
-            30,
-            59
+            197,
+            30
         ],
         img: "http://localhost/arbulanguage.com/img/fiszki1/25j.jpg",
         story: "Ten <u><b>iz</u></b>otop <u><b>łatwo</u></b> się rozpuszcza",
         desc: "ease[izz] - łatwość/łatwością",
-        sentence1: [
+                sentence1: [
             "advice"
         ],
         sentence: [
@@ -5198,16 +5020,15 @@ const fiszki = [
         category1: "nauka",
         category2: ["spojniki"]
     },
-    {
+        {
         id: [
-            196,
-            30,
-            59
+            198,
+            30
         ],
         img: "http://localhost/arbulanguage.com/img/fiszki1/25j.jpg",
         story: "Ten <u><b>iz</u></b>otop <u><b>łatwo</u></b> się rozpuszcza",
         desc: "ease[izz] - łatwość/łatwością",
-        sentence1: [
+                sentence1: [
             "about"
         ],
         sentence: [
@@ -5221,16 +5042,15 @@ const fiszki = [
         category1: "nauka",
         category2: ["spojniki"]
     },
-    {
+        {
         id: [
-            197,
-            30,
-            60
+            199,
+            30
         ],
         img: "http://localhost/arbulanguage.com/img/fiszki1/25j.jpg",
         story: "Ten <u><b>iz</u></b>otop <u><b>łatwo</u></b> się rozpuszcza",
-        desc: "how[hał] - jak",
-        sentence2: [
+        desc: "ease[izz] - łatwość/łatwością",
+                sentence2: [
             "how"
         ],
         sentence: [
@@ -5244,16 +5064,15 @@ const fiszki = [
         category1: "nauka",
         category2: ["spojniki"]
     },
-    {
+        {
         id: [
-            198,
-            30,
-            60
+            200,
+            30
         ],
         img: "http://localhost/arbulanguage.com/img/fiszki1/25j.jpg",
         story: "Ten <u><b>iz</u></b>otop <u><b>łatwo</u></b> się rozpuszcza",
         desc: "ease[izz] - łatwość/łatwością",
-        sentence2: [
+                sentence2: [
             "to"
         ],
         sentence: [
@@ -5267,16 +5086,15 @@ const fiszki = [
         category1: "nauka",
         category2: ["spojniki"]
     },
-    {
+            {
         id: [
-            199,
-            30,
-            60
+            201,
+            30
         ],
         img: "http://localhost/arbulanguage.com/img/fiszki1/25j.jpg",
         story: "Ten <u><b>iz</u></b>otop <u><b>łatwo</u></b> się rozpuszcza",
         desc: "ease[izz] - łatwość/łatwością",
-        sentence2: [
+                sentence2: [
             "help"
         ],
         sentence: [
@@ -5290,16 +5108,15 @@ const fiszki = [
         category1: "nauka",
         category2: ["spojniki"]
     },
-    {
+            {
         id: [
-            200,
-            30,
-            60
+            202,
+            30
         ],
         img: "http://localhost/arbulanguage.com/img/fiszki1/25j.jpg",
         story: "Ten <u><b>iz</u></b>otop <u><b>łatwo</u></b> się rozpuszcza",
         desc: "ease[izz] - łatwość/łatwością",
-        sentence2: [
+                sentence2: [
             "your"
         ],
         sentence: [
@@ -5313,16 +5130,15 @@ const fiszki = [
         category1: "nauka",
         category2: ["spojniki"]
     },
-    {
+                {
         id: [
-            201,
-            30,
-            60
+            202,
+            30
         ],
         img: "http://localhost/arbulanguage.com/img/fiszki1/25j.jpg",
         story: "Ten <u><b>iz</u></b>otop <u><b>łatwo</u></b> się rozpuszcza",
         desc: "child[czaild] - dziecko",
-        sentence2: [
+                sentence2: [
             "child"
         ],
         sentence: [
@@ -5334,451 +5150,7 @@ const fiszki = [
         ],
         key: "child",
         category1: "nauka",
-        category2: ["osoby"]
-    },
-        {
-        id: [
-            202,
-            31,
-            61
-        ],
-        img: "http://localhost/arbulanguage.com/img/fiszki1/25j.jpg",
-        translate: "Twoje miłe słowa zrobiły mi dzień",
-        translateb: "[Jor kaind łords mejd maj day]",
-        srcWord: ["http://localhost/arbulanguage.com/filmy/words.mp4", "Matrix(1999)", "Akcja"],
-        srcWordimage: "http://localhost/arbulanguage.com/filmy/child.png",
-        story: "Ten <u><b>iz</u></b>otop <u><b>łatwo</u></b> się rozpuszcza",
-        desc: "your[jour] - twoja",
-        sentence1: [
-            "Your"
-        ],
-        sentence: [
-            "Your",
-            "kind",
-            "words"
-        ],
-        key: "your",
-        category1: "nauka",
-        category2: ["osoby"]
-    },
-            {
-        id: [
-            203,
-            31,
-            61
-        ],
-        img: "http://localhost/arbulanguage.com/img/fiszki1/25j.jpg",
-        story: "Ten <u><b>iz</u></b>otop <u><b>łatwo</u></b> się rozpuszcza",
-        desc: "kind[kaind] - miłe",
-        sentence1: [
-            "kind"
-        ],
-        sentence: [
-            "Your",
-            "kind",
-            "words"
-        ],
-        key: "your",
-        category1: "nauka",
-        category2: ["osoby"]
-    },
-                {
-        id: [
-            204,
-            31,
-            61
-        ],
-        img: "http://localhost/arbulanguage.com/img/fiszki1/25j.jpg",
-        story: "Ten <u><b>iz</u></b>otop <u><b>łatwo</u></b> się rozpuszcza",
-        desc: "words[łords] - słowa(liczba mnoga od word)",
-        sentence1: [
-            "words"
-        ],
-        sentence: [
-            "Your",
-            "kind",
-            "words"
-        ],
-        key: "your",
-        category1: "nauka",
-        category2: ["osoby"]
-    },
-                    {
-        id: [
-            205,
-            31,
-            62
-        ],
-        img: "http://localhost/arbulanguage.com/img/fiszki1/25j.jpg",
-        story: "Ten <u><b>iz</u></b>otop <u><b>łatwo</u></b> się rozpuszcza",
-        desc: "made[mejd] - zrobiły/zrobił",
-        sentence2: [
-            "made"
-        ],
-        sentence: [
-            "made",
-            "my",
-            "day"
-        ],
-        key: "made",
-        category1: "nauka",
-        category2: ["osoby"]
-    },
-                            {
-        id: [
-            206,
-            31,
-            62
-        ],
-        img: "http://localhost/arbulanguage.com/img/fiszki1/25j.jpg",
-        story: "Ten <u><b>iz</u></b>otop <u><b>łatwo</u></b> się rozpuszcza",
-        desc: "my[maj] - mój/moje",
-        sentence2: [
-            "my"
-        ],
-        sentence: [
-            "made",
-            "my",
-            "day"
-        ],
-        key: "my",
-        category1: "nauka",
-        category2: ["zaimkiosobowe"]
-    },
-                            {
-        id: [
-            207,
-            31,
-            62
-        ],
-        img: "http://localhost/arbulanguage.com/img/fiszki1/25j.jpg",
-        story: "Ten <u><b>iz</u></b>otop <u><b>łatwo</u></b> się rozpuszcza",
-        desc: "day[dej] - dzień",
-        sentence2: [
-            "day"
-        ],
-        sentence: [
-            "made",
-            "my",
-            "day"
-        ],
-        key: "day",
-        category1: "nauka",
-        category2: ["osoby"]
-    },
-                                {
-        id: [
-            208,
-            32,
-            63
-        ],
-        img: "http://localhost/arbulanguage.com/img/fiszki1/25j.jpg",
-        translate: "I appreciate your assistance today",
-        translateb: "[Aj apresziejt jor asistens tudej]",
-        srcWord: ["http://localhost/arbulanguage.com/filmy/assistance.mp4", "Avatar(2022)", "Sci-fi"],
-        srcWordimage: "http://localhost/arbulanguage.com/filmy/child.png",
-        story: "Ten <u><b>iz</u></b>otop <u><b>łatwo</u></b> się rozpuszcza",
-        desc: "i[aj] - ja",
-        sentence1: [
-            "I"
-        ],
-        sentence: [
-            "I",
-            "appreciate"
-        ],
-        key: "day",
-        category1: "nauka",
-        category2: ["osoby"]
-    },
-                                    {
-        id: [
-            209,
-            32,
-            63
-        ],
-        img: "http://localhost/arbulanguage.com/img/fiszki1/25j.jpg",
-        story: "Ten <u><b>iz</u></b>otop <u><b>łatwo</u></b> się rozpuszcza",
-        desc: "appreciate[apresjejt] - doceniać",
-        sentence1: [
-            "appreciate"
-        ],
-        sentence: [
-            "I",
-            "appreciate"
-        ],
-        key: "day",
-        category1: "nauka",
-        category2: ["osoby"]
-    },
-                                        {
-        id: [
-            210,
-            32,
-            64
-        ],
-        img: "http://localhost/arbulanguage.com/img/fiszki1/25j.jpg",
-        story: "Ten <u><b>iz</u></b>otop <u><b>łatwo</u></b> się rozpuszcza",
-        desc: "your[apresjejt] - doceniać",
-        sentence2: [
-            "your"
-        ],
-        sentence: [
-            "your",
-            "assistance",
-            "today"
-        ],
-        key: "day",
-        category1: "nauka",
-        category2: ["osoby"]
-    },
-                                            {
-        id: [
-            211,
-            32,
-            64
-        ],
-        img: "http://localhost/arbulanguage.com/img/fiszki1/25j.jpg",
-        story: "Ten <u><b>iz</u></b>otop <u><b>łatwo</u></b> się rozpuszcza",
-        desc: "assistance[asistens] - asysta",
-        sentence2: [
-            "assistance"
-        ],
-        sentence: [
-            "your",
-            "assistance",
-            "today"
-        ],
-        key: "assistance",
-        category1: "nauka",
-        category2: ["osoby"]
-    },
-                                            {
-        id: [
-            212,
-            32,
-            64
-        ],
-        img: "http://localhost/arbulanguage.com/img/fiszki1/25j.jpg",
-        story: "Ten <u><b>iz</u></b>otop <u><b>łatwo</u></b> się rozpuszcza",
-        desc: "today[tudej] - dziś",
-        sentence2: [
-            "today"
-        ],
-        sentence: [
-            "your",
-            "assistance",
-            "today"
-        ],
-        key: "today",
-        category1: "nauka",
-        category2: ["osoby"]
-    },
-                                                {
-        id: [
-            213,
-            33,
-            65
-        ],
-        img: "http://localhost/arbulanguage.com/img/fiszki1/25j.jpg",
-        translate: "This flower is yellow but all the others are blue",
-        translateb: "[Dis flałer is jelow bat ol de oders ar blu]",
-        srcWord: ["http://localhost/arbulanguage.com/filmy/kwiaty.mp4", "Klan", "Serial"],
-        srcWordimage: "http://localhost/arbulanguage.com/filmy/child.png",
-        story: "Ten <u><b>iz</u></b>otop <u><b>łatwo</u></b> się rozpuszcza",
-        desc: "this[tudej] - dziś",
-        sentence1: [
-            "This"
-        ],
-        sentence: [
-            "This",
-            "flower",
-            "is",
-            "yellow"
-        ],
-        key: "today",
-        category1: "nauka",
-        category2: ["osoby"]
-    },
-                                                    {
-        id: [
-            214,
-            33,
-            65
-        ],
-        img: "http://localhost/arbulanguage.com/img/fiszki1/25j.jpg",
-        story: "Ten <u><b>iz</u></b>otop <u><b>łatwo</u></b> się rozpuszcza",
-        desc: "flower[flołer] - kwiatek",
-        sentence1: [
-            "flower"
-        ],
-        sentence: [
-            "This",
-            "flower",
-            "is",
-            "yellow"
-        ],
-        key: "flower",
-        category1: "nauka",
-        category2: ["osoby"]
-    },
-                                                        {
-        id: [
-            215,
-            33,
-            65
-        ],
-        img: "http://localhost/arbulanguage.com/img/fiszki1/25j.jpg",
-        story: "Ten <u><b>iz</u></b>otop <u><b>łatwo</u></b> się rozpuszcza",
-        desc: "is[is] - jest",
-        sentence1: [
-            "is"
-        ],
-        sentence: [
-            "This",
-            "flower",
-            "is",
-            "yellow"
-        ],
-        key: "flower",
-        category1: "nauka",
-        category2: ["osoby"]
-    },
-                                                            {
-        id: [
-            216,
-            33,
-            65
-        ],
-        img: "http://localhost/arbulanguage.com/img/fiszki1/25j.jpg",
-        story: "Ten <u><b>iz</u></b>otop <u><b>łatwo</u></b> się rozpuszcza",
-        desc: "yellow[jeloł] - żółty",
-        sentence1: [
-            "yellow"
-        ],
-        sentence: [
-            "This",
-            "flower",
-            "is",
-            "yellow"
-        ],
-        key: "flower",
-        category1: "nauka",
-        category2: ["osoby"]
-    },
-                                                                {
-        id: [
-            217,
-            33,
-            66
-        ],
-        img: "http://localhost/arbulanguage.com/img/fiszki1/25j.jpg",
-        story: "Ten <u><b>iz</u></b>otop <u><b>łatwo</u></b> się rozpuszcza",
-        desc: "but[bat] - żółty",
-        sentence2: [
-            "but"
-        ],
-        sentence: [
-            "but",
-            "all",
-            "the others",
-            "are",
-            "blue"
-        ],
-        key: "but",
-        category1: "nauka",
-        category2: ["osoby"]
-    },
-                                                                    {
-        id: [
-            218,
-            33,
-            66
-        ],
-        img: "http://localhost/arbulanguage.com/img/fiszki1/25j.jpg",
-        story: "Ten <u><b>iz</u></b>otop <u><b>łatwo</u></b> się rozpuszcza",
-        desc: "all[ol] - wszystkie/wszyscy",
-        sentence2: [
-            "all"
-        ],
-        sentence: [
-            "but",
-            "all",
-            "the others",
-            "are",
-            "blue"
-        ],
-        key: "all",
-        category1: "nauka",
-        category2: ["osoby"]
-    },
-                                                                        {
-        id: [
-            219,
-            33,
-            66
-        ],
-        img: "http://localhost/arbulanguage.com/img/fiszki1/25j.jpg",
-        story: "Ten <u><b>iz</u></b>otop <u><b>łatwo</u></b> się rozpuszcza",
-        desc: "the others[de oders] - inny/inne",
-        sentence2: [
-            "the others"
-        ],
-        sentence: [
-            "but",
-            "all",
-            "the others",
-            "are",
-            "blue"
-        ],
-        key: "the others",
-        category1: "nauka",
-        category2: ["osoby"]
-    },
-                                                                            {
-        id: [
-            220,
-            33,
-            66
-        ],
-        img: "http://localhost/arbulanguage.com/img/fiszki1/25j.jpg",
-        story: "Ten <u><b>iz</u></b>otop <u><b>łatwo</u></b> się rozpuszcza",
-        desc: "are[ar] - są",
-        sentence2: [
-            "are"
-        ],
-        sentence: [
-            "but",
-            "all",
-            "the others",
-            "are",
-            "blue"
-        ],
-        key: "are",
-        category1: "nauka",
-        category2: ["osoby"]
-    },
-                                                                                {
-        id: [
-            221,
-            33,
-            66
-        ],
-        img: "http://localhost/arbulanguage.com/img/fiszki1/25j.jpg",
-        story: "Ten <u><b>iz</u></b>otop <u><b>łatwo</u></b> się rozpuszcza",
-        desc: "blue[blu] - niebieski/niebieskie",
-        sentence2: [
-            "blue"
-        ],
-        sentence: [
-            "but",
-            "all",
-            "the others",
-            "are",
-            "blue"
-        ],
-        key: "blue",
-        category1: "nauka",
-        category2: ["osoby"]
+        category2: ["spojniki"]
     }
 ];
 
@@ -6546,6 +5918,49 @@ if (Array.isArray(fiszka.story)) {
         console.log(`Generated fiszka block for ID: [${fiszka.id.join(', ')}]`);
         initAudio(fiszka.id);
     });
+}
+
+
+function getRandomId(max, range, usedIds) {
+    const start = (range - 1) * max + 1;
+    const end = range * max;
+
+    // Filtruj dostępne identyfikatory, usuwając już użyte
+    const availableIds = Array.from({length: end - start + 1}, (_, index) => start + index)
+            .filter(id => !usedIds.includes(id));
+
+    if (availableIds.length === 0) {
+        // W przypadku, gdy wszystkie identyfikatory zostały już użyte, zwracamy null lub możemy obsłużyć to w inny sposób
+        return null;
+    }
+
+    // Losuj identyfikator z dostępnych
+    const randomIndex = Math.floor(Math.random() * availableIds.length);
+    const randomId = availableIds[randomIndex];
+
+    // Dodaj użyty identyfikator do listy
+    usedIds.push(randomId);
+
+    return randomId;
+}
+
+
+
+// Funkcja do wyświetlania fiszek w danej lekcji
+function showFiszki2() {
+    for (const lessonId2 in lessons2) {
+        console.log(`Lesson ${lessonId2}:`);
+        if (lessons2[lessonId2].length === 0) {
+            console.log("No data for this lesson and the randomly generated identifier.");
+        } else {
+            lessons2[lessonId2].forEach(fiszka => {
+                console.log(`Processing fiszka with ID: [${fiszka.id.join(', ')}]`);
+                generateFiszkaBlock(fiszka, lessonId2);
+                console.log(`Generated fiszka with ID: [${fiszka.id.join(', ')}]`);
+            });
+            console.log('lessons2 z wylosowanymi identyfikatorami dla pierwszej tablicy:', lessons2[1][0]);
+        }
+    }
 }
 
 

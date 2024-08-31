@@ -130,7 +130,12 @@ button.story_button {
     border-radius: 5px;
     height: 25px;
 }
-
+button.story_button2 {
+    border-radius: 5px;
+    height: 25px;
+        display: block;
+    margin: 0 auto;
+}
 button.fiszka_button_znam {}
 button.fiszka_button_trening {}
 

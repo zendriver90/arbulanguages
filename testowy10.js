@@ -17,10 +17,10 @@ id: [
         ],
         // historia
         story: [
-                "",
-                "",
-                "Ban<u><b>di</u></b> się <u><b>bu</u></b>dzi i jest za<u><b>har</u></b>towany, bo w domu jest zimno. Ciężko pracuje jako rysownik(rysować), żeby zarobić na dom)",
-                "",
+                "Malarz <u><b>Di</u></b>no z kreskówki <u><b>rysuje</u></b> piękne obrazy. Namalował piechura, który ma śmieszne <u><b>bu</u></b>ty. Piechur ma silny <u><b>har</u></b>t ducha",
+                "W kreskówce <u><b>Di</u></b>sneya czasie wiosny natura <u><b>bu</u></b>dzi się do życia.. jest prawie ciepło tak jak gdzie Sa<u><b>har</u></b>a",
+                "W <u><b>bu</u></b>dce festiwalowej można kupić watę cukrową. Ten produkt to inaczej sa<u><b>har</u></b>oza. Naukowiec Wal<u><b>di</u></b> lubi watę cukrową",
+                "Ban<u><b>di</u></b> się <u><b>bu</u></b>dzi i jest za<u><b>har</u></b>towany, bo w domu jest zimno. Ciężko pracuje jako rysownik(rysować), żeby zarobić na dom",
                 ""
         ],
         // opis
@@ -36,10 +36,10 @@ id: [
         //  slowo do nauki
         key: "everybody",
         category1: [
-                "sport", "gaming",
-                "natura", "kulinaria",
+                "sport", "wyobraźnia",
+                "natura", "klimat",
                 "nauka", "medycyna",
-                "czarny humor", "pasja",
+                "czarny humor", "życie zawodowe",
                 "związki", "wychowanie"
         ],
         category2: ["osoby", "osoby+czas"]
@@ -51,7 +51,11 @@ id: [
 ],
         // obrazek
         img: [
-                "http://localhost/arbulanguage.com/img/fiszkiespanol/2a.jpg"
+            "http://localhost/arbulanguage.com/img/fiszki1/6b.jpg",
+            "http://localhost/arbulanguage.com/img/fiszki1/6b2.jpg",
+            "http://localhost/arbulanguage.com/img/fiszki1/6b3.jpg",
+            "http://localhost/arbulanguage.com/img/fiszki1/6b4.jpg",
+            "http://localhost/arbulanguage.com/img/fiszki1/6b5.jpg"
         ],
         word: [
                 "http://localhost/arbulanguage.com/voice/music.mp4"
@@ -72,13 +76,6 @@ id: [
         ],
         //  slowo do nauki
         key: "everybody",
-        category1: [
-                "sport", "gaming",
-                "natura", "kulinaria",
-                "nauka", "medycyna",
-                "czarny humor", "pasja",
-                "związki", "wychowanie"
-        ],
         category2: ["osoby", "osoby+czas"]
 },
 {
@@ -240,14 +237,22 @@ id: [
 ],
         // obrazek
         img: [
-                "http://localhost/arbulanguage.com/img/fiszkiespanol/1c.jpg"
+                "",
+                "",
+                "http://localhost/arbulanguage.com/img/fiszkiespanol/1c.jpg",
+                "",
+                ""
         ],
         word: [
                 "http://localhost/arbulanguage.com/voice/music.mp4"
         ],
         // historia
         story: [
-                "<u><b>Dent</u></b>ysta <u><b>ro</u></b>bi dobrą <u><b>ro</u></b>botę, gdy wchodzę do środka gabinetu - nie boję się"
+                "",
+                "",
+                "<u><b>Dent</u></b>ysta <u><b>ro</u></b>bi dobrą <u><b>ro</u></b>botę, gdy wchodzę do środka gabinetu - nie boję się",
+                "",
+                ""
         ],
         // opis
         desc: "dentro de[dentro de] - w",
@@ -277,18 +282,22 @@ id: [
 ],
         // obrazek
         img: [
-                "http://localhost/arbulanguage.com/img/fiszki1/2a.jpg"
+                "",
+                "",
+                "",
+                "http://localhost/arbulanguage.com/img/fiszki1/2a.jpg",
+                ""
         ],
         word: [
                 "http://localhost/arbulanguage.com/voice/music.mp4"
         ],
         // historia
         story: [
-                "W <u><b>e</u></b>-sportowej grze silnik samochodu robi <u><b>wry</u></b>, wszyscy chcą takich rajdów, <u><b>bo</u></b> idzie <u><b>dy</u></b>m",
-                "<u><b>Ew</u></b>a robi <u><b>ry</u></b>by, bo będzie robiła zupę rybną, a na drugie placki z <u><b>dy</u></b>ni. <u><b>Każdemu</u></b> to smakowało",
-                "Kr<u><b>ew</u></b> każdego pacjenta jest dokładnie przebadana i organizm <u><b>wsystkich</u></b> pacjentów wraca na właściwe to<u><b>ry</u></b>, bo gdy ma dobrą opieke wraca do zdrowia",
-                "<u><b>E</u></b>dek robi <u><b>wry</u></b> swoim modelem samolotu, musi uważać bo jest silny wiatr. Z silnika samolotu się dymi i <u><b>wszyscy</u></b> się na to patrzą",
-                "Mój syn <u><b>E</u></b>dek b<u><b>ry</u></b>ka, <u><b>bo</u></b> tak robią <u><b>wszyscy</u></b> jego rówieśnicy"
+                "",
+                "",
+                "",
+                "P<u><b>la</u></b>ton miał piękny <u><b>dom</u></b>, bo była na to <u><b>kasa</u></b>",
+                ""
         ],
         // opis
         desc: "la casa[la kasa] - dom",
@@ -329,11 +338,7 @@ id: [
         ],
         // historia
         story: [
-                "W <u><b>e</u></b>-sportowej grze silnik samochodu robi <u><b>wry</u></b>, wszyscy chcą takich rajdów, <u><b>bo</u></b> idzie <u><b>dy</u></b>m",
-                "<u><b>Ew</u></b>a robi <u><b>ry</u></b>by, bo będzie robiła zupę rybną, a na drugie placki z <u><b>dy</u></b>ni. <u><b>Każdemu</u></b> to smakowało",
-                "Kr<u><b>ew</u></b> każdego pacjenta jest dokładnie przebadana i organizm <u><b>wsystkich</u></b> pacjentów wraca na właściwe to<u><b>ry</u></b>, bo gdy ma dobrą opieke wraca do zdrowia",
-                "<u><b>E</u></b>dek robi <u><b>wry</u></b> swoim modelem samolotu, musi uważać bo jest silny wiatr. Z silnika samolotu się dymi i <u><b>wszyscy</u></b> się na to patrzą",
-                "Mój syn <u><b>E</u></b>dek b<u><b>ry</u></b>ka, <u><b>bo</u></b> tak robią <u><b>wszyscy</u></b> jego rówieśnicy"
+                "P<u><b>abl</u></b>o Picasso k<u><b>lar</u></b>ownie <u><b>mówił</u></b> o malowaniu"
         ],
         // opis
         desc: "hablar[ablar] - rozmawiać",
@@ -4592,12 +4597,20 @@ function generateFiszkaBlock(fiszka, lessonId2) {
         console.log('Po utworzeniu wordDiv');
 
         // DODANIE  MNEMOTECHNIKI
-        if (Array.isArray(fiszka.story) && fiszka.story.length > 0) {
-            fiszka.story.forEach((story, index) => {
-                const storyContainer = $('<div>').addClass('fiszka_story story-' + index).html(story).hide();
-                fiszkaContainer.append(storyContainer);
-            });
-        }
+// DODANIE MNEMOTECHNIKI
+if (Array.isArray(fiszka.story)) {
+    // Jeśli story jest tablicą, iterujemy przez wszystkie jej elementy
+    fiszka.story.forEach((story, index) => {
+        const storyContainer = $('<div>').addClass('fiszka_story story-' + index).html(story);
+        fiszkaContainer.append(storyContainer);
+        console.log("Dodano story: ", story);  // Debugowanie
+    });
+} else if (fiszka.story) {
+    // Jeśli story jest pojedynczym stringiem, dodajemy go bezpośrednio
+    const storyContainer = $('<div>').addClass('fiszka_story story-0').html(fiszka.story);
+    fiszkaContainer.append(storyContainer);
+    console.log("Dodano story: ", fiszka.story);  // Debugowanie
+}
         console.log('Przed utworzeniem wordDiv');
 
 // Utworzenie reszty elementów zgodnie z istniejącym kodem

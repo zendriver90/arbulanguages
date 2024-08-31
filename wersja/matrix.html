@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+funkcjaWywolana<!DOCTYPE html>
 <html>
     <head>
         <script src="js/storage.js"></script>
@@ -468,7 +468,7 @@
             }
 
             @media (max-width: 999px) {
-                .grid-containera {
+                .grid-container {
                     display: grid;
                     grid-template-columns: repeat(2, 1fr);
                     gap: 10px;
@@ -1232,7 +1232,7 @@ useFirstPartLength = !useFirstPartLength;
                 console.log('hej155', buttonindex);
                 console.log('hej323', index55);
 
-                if (tablica10.length <= 11 || tablica10.length === 0) {
+                if (tablica10.length <= 10 || tablica10.length === 0) {
                     console.log('wykonuje się 8');
                     console.log('hej32', newIndex);
                     console.log('hej18', tablica10);
@@ -2840,31 +2840,6 @@ useFirstPartLength = !useFirstPartLength;
                                             });
                                         }
                                     }
-                                            // Tworzenie przycisku "Stop"
-const $stopButton = $('<img>')
-    .attr('src', 'http://localhost/arbulanguage.com/img/stopok2.png')
-            .css({
-                'display': 'none', // Ukryty na starcie
-                'width': '50px',  // Szerokość obrazka
-                'height': '50px', // Wysokość obrazka
-                'position': 'relative',
-                'z-index': '999999'
-            })
-            .on('click', function() {
-                // Akcja zatrzymania wideo po kliknięciu
-                $videoElement[0].pause();
-            });
-// Dodanie przycisku do kontenera
-        $stopButton.appendTo($container);
-
-        // Obsługa zdarzeń mouseover i mouseout
-        $container.on('mouseover', function() {
-            $stopButton.show(); // Pokaż przycisk najeżdżając myszą na kontener
-        });
-
-        $container.on('mouseout', function() {
-            $stopButton.hide(); // Ukryj przycisk opuszczając kontener
-        });
                                 }
                                 setTimeout(function () {
                                     addVideo1(0);
@@ -4603,9 +4578,9 @@ if (indexDiv < 13) {
                         const elapsedTime = currentTime - lastChangeTime;
 
                         // Jeśli warunek jest spełniony i poprzedni timeout nie istnieje
-                        if (indexes.length >= 8 && elapsedTime >= 600) {
+                        if (indexes.length >= 8) {
                             // Sprawdź czy 4 kontenery są widoczne przez co najmniej 500ms z rzędu
-                            if (elapsedTime >= 300) {
+                            if (elapsedTime >= 1500) {
                                 // Ustaw timeout na 300ms po spełnieniu warunku
                                 timeoutId = setTimeout(() => {
                                     previousVisibleIndexes = [...indexes]; // kopiowanie tablicy indexes do previousVisibleIndexes
@@ -4644,7 +4619,7 @@ $(window).on('scroll', function () {
     debounceTimer = setTimeout(function () {
         // Wywołanie funkcji po zakończeniu przewijania
         countVisibleContainers();
-    }, 400); // Czas w milisekundach, po którym funkcja zostanie wywołana
+    }, 200); // Czas w milisekundach, po którym funkcja zostanie wywołana
 });
 
 // Funkcja otherFunction z przekazanymi indeksami

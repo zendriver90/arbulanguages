@@ -107,6 +107,7 @@ if (fiszka.category !== 'all') {
         nextThreeLessons.forEach(lessonId => {
             showFiszkiForLesson(lessonId, fiszki);
         });
+        localStorage.setItem('wylosowaneLekcje', JSON.stringify(nextThreeLessons));
     } else {
         console.log(`Nie znaleziono fiszek z kategorią "${category}".`);
     }
