@@ -1317,7 +1317,7 @@ const fiszki = [
             "związki", "okazje"
         ],
         category2: ["zaimkiosobowe"],
-        category3: ["Present Simple"]
+        category3: ["PresentSimple"]
     },
     {
         id: [
@@ -1469,7 +1469,7 @@ const fiszki = [
         key: "my",
         category1: "natura",
         category2: ["zaimkiosobowe"],
-        category3: ["Present Continuous"]
+        category3: ["PresentContinuous"]
     },
     {
         id: [
@@ -1747,7 +1747,7 @@ const fiszki = [
             "związki", "przyjaźń"
         ],
         category2: ["zaimkiosobowe"],
-        category3: ["Present Continuous"]
+        category3: ["PresentContinuous"]
     },
     {
         id: [
@@ -2355,7 +2355,7 @@ const fiszki = [
             "nauka", "demografia"
         ],
         category2: [""],
-        category3: ["Present Simple"]
+        category3: ["PresentSimple"]
     },
     {
         id: [
@@ -2498,7 +2498,7 @@ const fiszki = [
         key: "this",
         category1: "natura",
         category2: [""],
-        category3: ["Present Simple"]
+        category3: ["PresentSimple"]
     },
     {
         id: [
@@ -2615,7 +2615,7 @@ const fiszki = [
         ],
         key: "he",
         category2: ["osoby"],
-        category3: ["Present Simple"]
+        category3: ["PresentSimple"]
     },
     {
         id: [
@@ -2754,7 +2754,7 @@ const fiszki = [
         ],
         key: "he",
         category2: ["osoby"],
-        category3: ["Present Simple"]
+        category3: ["PresentSimple"]
     },
     {
         id: [
@@ -2871,7 +2871,7 @@ const fiszki = [
         key: "he",
         category1: "nauka",
         category2: ["osoby"],
-        category3: ["Present Simple"]
+        category3: ["PresentSimple"]
     },
     {
         id: [
@@ -3019,7 +3019,7 @@ const fiszki = [
         key: "he",
         category1: "nauka",
         category2: ["osoby"],
-        category3: ["Present Simple"]
+        category3: ["PresentSimple"]
     },
     {
         id: [
@@ -3162,7 +3162,7 @@ const fiszki = [
         key: "this",
         category1: "nauka",
         category2: [""],
-        category3: ["Present Simple"]
+        category3: ["PresentSimple"]
     },
     {
         id: [
@@ -3301,7 +3301,7 @@ const fiszki = [
         key: "our",
         category1: "nauka",
         category2: ["zaimkiosobowe"],
-        category3: ["Present Simple"]
+        category3: ["PresentSimple"]
     },
     {
         id: [
@@ -3432,7 +3432,7 @@ const fiszki = [
         key: "hard",
         category1: "nauka",
         category2: ["osoby"],
-        category3: ["Present Simple"]
+        category3: ["PresentSimple"]
     },
     {
         id: [
@@ -3568,7 +3568,7 @@ const fiszki = [
         key: "people",
         category1: "nauka",
         category2: [""],
-        category3: ["Present Simple"]
+        category3: ["PresentSimple"]
     },
     {
         id: [
@@ -3813,7 +3813,7 @@ const fiszki = [
         key: "the",
         category1: "nauka",
         category2: ["podmiot+czas"],
-        category3: ["Present Simple"]
+        category3: ["PresentSimple"]
     },
     {
         id: [
@@ -4012,7 +4012,7 @@ const fiszki = [
         key: "he",
         category1: "nauka",
         category2: ["osoby"],
-        category3: ["Present Simple"]
+        category3: ["PresentSimple"]
     },
     {
         id: [
@@ -5127,7 +5127,7 @@ const fiszki = [
         key: "she",
         category1: "nauka",
         category2: ["osoby"],
-        category3: ["Present Simple"]
+        category3: ["PresentSimple"]
     },
     {
         id: [
@@ -5346,7 +5346,7 @@ const fiszki = [
         translate: "Twoje miłe słowa zrobiły mi dzień",
         translateb: "[Jor kaind łords mejd maj day]",
         srcWord: ["http://localhost/arbulanguage.com/filmy/words.mp4", "Matrix(1999)", "Akcja"],
-        srcWordimage: "http://localhost/arbulanguage.com/filmy/child.png",
+        srcWordimage: "http://localhost/arbulanguage.com/filmy/words.png",
         story: "Ten <u><b>iz</u></b>otop <u><b>łatwo</u></b> się rozpuszcza",
         desc: "your[jour] - twoja",
         sentence1: [
@@ -5476,7 +5476,7 @@ const fiszki = [
         translate: "I appreciate your assistance today",
         translateb: "[Aj apresziejt jor asistens tudej]",
         srcWord: ["http://localhost/arbulanguage.com/filmy/assistance.mp4", "Avatar(2022)", "Sci-fi"],
-        srcWordimage: "http://localhost/arbulanguage.com/filmy/child.png",
+        srcWordimage: "http://localhost/arbulanguage.com/filmy/assistance.png",
         story: "Ten <u><b>iz</u></b>otop <u><b>łatwo</u></b> się rozpuszcza",
         desc: "i[aj] - ja",
         sentence1: [
@@ -5583,7 +5583,7 @@ const fiszki = [
         translate: "This flower is yellow but all the others are blue",
         translateb: "[Dis flałer is jelow bat ol de oders ar blu]",
         srcWord: ["http://localhost/arbulanguage.com/filmy/kwiaty.mp4", "Klan", "Serial"],
-        srcWordimage: "http://localhost/arbulanguage.com/filmy/child.png",
+        srcWordimage: "http://localhost/arbulanguage.com/filmy/kwiaty.png",
         story: "Ten <u><b>iz</u></b>otop <u><b>łatwo</u></b> się rozpuszcza",
         desc: "this[tudej] - dziś",
         sentence1: [

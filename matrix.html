@@ -105,6 +105,7 @@
                 font-size: 20px;
                 margin-top: 10px;
                 order: -1; /* Kolejność odwrotna - spycha w dół */
+                z-index: 10; /* Tło kontenera, ustaw na większy z-index niż wideo */
             }
                         .image-container5 {
                 display: flex;
@@ -119,6 +120,7 @@
                 font-size: 20px;
                 margin-top: 10px;
                 order: -1; /* Kolejność odwrotna - spycha w dół */
+                z-index: 10; /* Tło kontenera, ustaw na większy z-index niż wideo */
             }
             .scene-description {
                 position: absolute;
@@ -128,7 +130,7 @@
                 background-color: #000;
                 color: #fff;
                 padding: 5px 10px;
-                z-index: 1000;
+                z-index: 99999999;
                 white-space: nowrap; /* Zapobiega zawijaniu tekstu */
             }
             .scene-description2 {
@@ -139,7 +141,7 @@
                 background-color: #000;
                 color: #fff;
                 padding: 5px 10px;
-                z-index: 1000;
+                z-index: 999999999;
                 white-space: nowrap; /* Zapobiega zawijaniu tekstu */
             }
         .overlay-button {
@@ -224,7 +226,9 @@
             .sentence1b,
             .sentence1b2,
             .sentence1b22,
-            .sentence1b2a {
+            .sentence1b2a,
+            .sentence1c22,
+            .sentence1c2a {
                 font-size: 16px;
                 margin-bottom: 0px;
                 z-index: 9999;
@@ -1361,7 +1365,7 @@ useFirstPartLength = !useFirstPartLength;
 
                                     console.log('hej344');
 
-                                    if ((tablica15.length <= 30 || tablica15.length === 0)) {
+                                    if ((tablica15.length <= 33 || tablica15.length === 0)) {
                                         console.log('wykonuje się 8');
 
                                         showCombinedSentenceForLesson2(polski, index50, lessonId1, newIndex, indexDiv, lesson1PartLength);
@@ -1802,6 +1806,8 @@ useFirstPartLength = !useFirstPartLength;
         <div class="sentence1b2a">${sentence1b2a}</div>
         <div class="sentence1b22">${sentence1b22}</div>
         ${sentence30}${sentence33}<br>
+        <div class="sentence1c2a">${sentence1c2a}</div>
+        <div class="sentence1c22">${sentence1c22}</div>
     `);
 
                                     if ($sentence1b.css('display') === 'none') {
@@ -2145,12 +2151,15 @@ useFirstPartLength = !useFirstPartLength;
         <div class="sentence1b2a">${sentence1b2a}</div>
         <div class="sentence1b22">${sentence1b22}</div>
         ${sentence30}${sentence33}<br>
+                        <div class="sentence1c2a">${sentence1c2a}</div>
+        <div class="sentence1c22">${sentence1c22}</div>
     `);
                                     $('.sentence1b').html('');
+                                    $('.sentence1b2').html('');
 
-                                    if ($sentence1b2.css('display') === 'none') {
-                                        $sentence1b2.css('display', 'block');
-                                        $sentence1b2.css({
+                                    if ($sentence1b2a.css('display') === 'none') {
+                                        $sentence1b2a.css('display', 'block');
+                                        $sentence1b2a.css({
                                             'margin-bottom': '-20px',
                                             'top': '0px',
                                             'position': 'relative'
@@ -2352,7 +2361,12 @@ useFirstPartLength = !useFirstPartLength;
 
                             let sentence30 = ""; // Deklaracja zmiennej sentence1 na poziomie lokalnym
                             let sentence33 = "";
+                            let sentence1c2a = "";
+                            let sentence1c22 = "";
                             function addBackgroundToText3(matchingFiszki3, matchingIndexes, currentIndexValue, aktualny, lesson3FirstPartLength, lesson3PartLength) {
+                                                                setTimeout(function () {
+                            sentence1c2a = "";
+                            sentence1c22 = "";
                                 sentence30 = "";
                                 sentence33 = "";
                                 // Iteracja przez matchingFiszki2 dla sentence1
@@ -2481,6 +2495,39 @@ useFirstPartLength = !useFirstPartLength;
                                         sentence33 += sentencePart2 + " ";
                                     }
                                 }
+                                                                    for (let li = 0; li < matchingFiszki2.length; li++) {
+                                        const fiszka = matchingFiszki2[li];
+                                        console.log('fiszka:', fiszka);
+                                        let sentencePart333 = fiszka.translateb;
+                                        console.log('sentencePart333:', sentencePart333);
+                                        if (aktualny) {
+                                            // Sprawdzenie, czy indeks bieżącej fiszki znajduje się w tablicy matchingIndexes
+                                            const spanElement = document.createElement('span');
+                                            spanElement.textContent = sentencePart333;
+                                            sentencePart333 = spanElement.outerHTML;
+                                        }
+                                        sentence1c2a += sentencePart333 + " ";
+                                    }
+                                    for (let li = 0; li < matchingFiszki2.length; li++) {
+                                        const fiszka = matchingFiszki2[li];
+                                        console.log('fiszka:', fiszka);
+                                        let sentencePart444 = fiszka.translate;
+                                        if (aktualny) {
+                                            // Sprawdzenie, czy indeks bieżącej fiszki znajduje się w tablicy matchingIndexes
+                                            const spanElement = document.createElement('span');
+                                            spanElement.textContent = sentencePart444;
+                                            sentencePart444 = spanElement.outerHTML;
+                                        }
+                                        sentence1c22 += sentencePart444 + " ";
+                                    }
+                                    if (sentence1c2a === "") {
+                                        let sentencePart333 = fiszka.translateb ? fiszka.translateb : "";
+                                        sentence1c2a += sentencePart333 + " ";
+                                    }
+                                    if (sentence1c22 === "") {
+                                        let sentencePart444 = fiszka.translate ? fiszka.translate : "";
+                                        sentence1c22 += sentencePart444 + " ";
+                                    }
                                 console.log('final sentence30:', sentence30);
                                 console.log('final sentence33:', sentence33);
                                 $sentenceDivB.html(`
@@ -2491,9 +2538,31 @@ useFirstPartLength = !useFirstPartLength;
         <div class="sentence1b2a">${sentence1b2a}</div>
         <div class="sentence1b22">${sentence1b22}</div>
         ${sentence30}${sentence33}<br>
+                <div class="sentence1c2a">${sentence1c2a}</div>
+        <div class="sentence1c22">${sentence1c22}</div>
     `);
-                                $('.sentence1b2').html('');
-                                $('.sentence1b22').html('');
+                                            $('.sentence1b').html('');
+                                    $('.sentence1b2').html('');
+                                            $('.sentence1b2a').html('');
+                                    $('.sentence1b22').html('');
+                                
+                                                                    if ($sentence1c2a.css('display') === 'none') {
+                                        $sentence1c2a.css('display', 'block');
+                                        $sentence1c2a.css({
+                                            'margin-bottom': '-20px',
+                                            'top': '0px',
+                                            'position': 'relative'
+                                        });
+                                    }
+                                    if ($sentence1c22.css('display') === 'none') {
+                                        $sentence1c22.css('display', 'block');
+                                        $sentence1c22.css({
+                                            'margin-bottom': '-20px',
+                                            'top': '0px',
+                                            'position': 'relative'
+                                        });
+                                    }
+                                }, 0);
                             }
 
 
@@ -2815,7 +2884,7 @@ useFirstPartLength = !useFirstPartLength;
                                     });
                                     $progressBar.appendTo($container);
 // Funkcja dodająca nowe elementy <div>
-                                    function addScenes(index) {
+                                                                        function addScenes(index) {
                                         // Sprawdź, czy istnieje element <div> o klasie 'scene-description'
                                         let $sceneDiv = $container.find('.scene-description');
 
@@ -2832,10 +2901,12 @@ useFirstPartLength = !useFirstPartLength;
 
                                         // Sprawdź, czy container jest podzielny przez 4
                                         if (indexDiv % 4 === 0) {
+                                            console.log('Warunek podzielności przez 4 spełniony2');
                                             // Zmień CSS paska napisu, aby wyświetlał się po lewej stronie kontenera
                                             $sceneDiv.css({
-                                                'position': 'absolute',
-                                                'left': '100',
+                                                'position': 'relative',
+                                                'margin-top': '-100px',
+                                                'margin-left': '-450px',
                                                 'text-align': 'left'
                                             });
                                         }
@@ -2950,6 +3021,7 @@ const $stopButton = $('<img>')
                                             }
                                         });
                                     });
+                                    addScenes(index);
                                     // Dodaj div z wideo do tła kontenera
                                     $vidDiv.appendTo($container);
                                     function updateProgress(progress) {
@@ -2972,6 +3044,34 @@ const $stopButton = $('<img>')
                                         'margin-right': '-4%'// Zapewnienie równowagi dla powiększenia paska postępu
                                     });
                                     $progressBar.appendTo($container);
+                                                                        function addScenes(index) {
+                                        // Sprawdź, czy istnieje element <div> o klasie 'scene-description'
+                                        let $sceneDiv = $container.find('.scene-description');
+
+                                        if ($sceneDiv.length) {
+                                            // Jeśli istnieje, wyczyść jego zawartość
+                                            $sceneDiv.empty();
+                                        } else {
+                                            // Jeśli nie istnieje, stwórz nowy element <div>
+                                            $sceneDiv = $('<div>').addClass('scene-description').appendTo($container);
+                                        }
+
+                                        // Dodaj nowy tekst do <div>
+                                        $sceneDiv.text(`Scena z filmu ${srcWords2[index]}`);
+
+                                        // Sprawdź, czy container jest podzielny przez 4
+                                        if (indexDiv % 4 === 0) {
+                                            console.log('Warunek podzielności przez 4 spełniony2');
+                                            // Zmień CSS paska napisu, aby wyświetlał się po lewej stronie kontenera
+                                            $sceneDiv.css({
+                                                'position': 'relative',
+                                                'index': '99999999999',
+                                                'margin-top': '-100px',
+                                                'margin-left': '-450px',
+                                                'text-align': 'left'
+                                            });
+                                        }
+                                    }
                                 }
                                 addVideo2(0);
                             } else {
@@ -3032,6 +3132,8 @@ if (indexDiv < 5) {
         <div class="sentence1b2a">${sentence1b2a}</div>
         <div class="sentence1b22">${sentence1b22}</div>
         ${sentence30}${sentence33}<br>
+                <div class="sentence1c2a">${sentence1c2a}</div>
+        <div class="sentence1c22">${sentence1c22}</div>
     `);
                                 $sentenceDivB.css({
                                     'position': 'absolute',
@@ -4603,7 +4705,7 @@ if (indexDiv < 13) {
                         const elapsedTime = currentTime - lastChangeTime;
 
                         // Jeśli warunek jest spełniony i poprzedni timeout nie istnieje
-                        if (indexes.length >= 8 && elapsedTime >= 600) {
+                        if (indexes.length >= 8 && elapsedTime >= 400) {
                             // Sprawdź czy 4 kontenery są widoczne przez co najmniej 500ms z rzędu
                             if (elapsedTime >= 300) {
                                 // Ustaw timeout na 300ms po spełnieniu warunku
@@ -4644,7 +4746,7 @@ $(window).on('scroll', function () {
     debounceTimer = setTimeout(function () {
         // Wywołanie funkcji po zakończeniu przewijania
         countVisibleContainers();
-    }, 400); // Czas w milisekundach, po którym funkcja zostanie wywołana
+    }, 200); // Czas w milisekundach, po którym funkcja zostanie wywołana
 });
 
 // Funkcja otherFunction z przekazanymi indeksami
