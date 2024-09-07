@@ -4,35 +4,45 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Language Selection</title>
-    <link rel="stylesheet" href="styles.css">
     <style>
 html, body {
-    height: 100%; /* Umożliwia pełne wyśrodkowanie */
+    height: 100%;
     margin: 0;
 }
 
 body {
     font-family: Arial, sans-serif;
     display: flex;
-    justify-content: center; /* Wyśrodkowuje zawartość w poziomie */
-    align-items: center; /* Wyśrodkowuje zawartość w pionie */
+    justify-content: center;
+    align-items: center;
     text-align: center;
 }
 
 .container {
     max-width: 400px;
-    width: 100%; /* Zapewnia, że kontener nie przekracza szerokości ekranu */
+    width: 100%;
 }
 
 label, select {
     display: block;
     margin: 0 auto;
-    font-size: 1.5rem; /* Duża czcionka */
-    margin-bottom: 20px; /* Odstęp między elementami */
+    font-size: 1.5rem;
+    margin-bottom: 20px;
 }
 
 #language-options {
     margin-top: 20px;
+}
+
+.hidden {
+    display: none;
+}
+
+button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    cursor: pointer;
 }
     </style>
 </head>
@@ -41,47 +51,94 @@ label, select {
     <div class="container">
         <label for="language-select">Wybierz język / Select language:</label>
         <select id="language-select">
+            <option value="">--Wybierz język--</option>
             <option value="pl">Polski</option>
             <option value="en">English</option>
         </select>
 
         <div id="language-options" class="hidden">
             <label for="learn-language-select">Język do nauki / Language to learn:</label>
-            <select id="learn-language-select"></select>
+            <select id="learn-language-select">
+                <option value="">--Wybierz język--</option>
+            </select>
+
+            <button id="start-btn" class="hidden">START</button>
         </div>
     </div>
 
-    <script src="script.js"></script>
     <script>
         document.getElementById('language-select').addEventListener('change', function() {
-    const selectedLanguage = this.value;
-    const learnLanguageSelect = document.getElementById('learn-language-select');
-    const languageOptionsDiv = document.getElementById('language-options');
+            const selectedLanguage = this.value;
+            const learnLanguageSelect = document.getElementById('learn-language-select');
+            const languageOptionsDiv = document.getElementById('language-options');
+            const startBtn = document.getElementById('start-btn');
 
-    let languageOptions = [];
+            let languageOptions = [];
 
-    if (selectedLanguage === 'pl') {
-        languageOptions = [
-            { value: 'en', text: 'Angielski' },
-            { value: 'de', text: 'Hiszpański' }
-        ];
-    } else if (selectedLanguage === 'en') {
-        languageOptions = [
-            { value: 'es', text: 'Spanish' }
-        ];
-    }
+            if (selectedLanguage === 'pl') {
+                languageOptions = [
+                    { value: 'en', text: 'Angielski' },
+                    { value: 'es', text: 'Hiszpański' }
+                ];
+            } else if (selectedLanguage === 'en') {
+                languageOptions = [
+                    { value: 'es', text: 'Spanish' }
+                ];
+            } else {
+                languageOptions = [];  // Gdy nie wybrano języka
+            }
 
-    learnLanguageSelect.innerHTML = '';
+            // Zresetowanie opcji do wyboru
+            learnLanguageSelect.innerHTML = '<option value="">--Wybierz język--</option>';
 
-    languageOptions.forEach(option => {
-        const newOption = document.createElement('option');
-        newOption.value = option.value;
-        newOption.textContent = option.text;
-        learnLanguageSelect.appendChild(newOption);
-    });
+            // Dodawanie nowych opcji
+            languageOptions.forEach(option => {
+                const newOption = document.createElement('option');
+                newOption.value = option.value;
+                newOption.textContent = option.text;
+                learnLanguageSelect.appendChild(newOption);
+            });
 
-    languageOptionsDiv.classList.remove('hidden');
-});
-        </script>
+            // Pokaż opcje nauki języka
+            if (selectedLanguage) {
+                languageOptionsDiv.classList.remove('hidden');
+            } else {
+                languageOptionsDiv.classList.add('hidden');
+            }
+
+            // Ukryj przycisk START, dopóki nie wybierze się języka do nauki
+            startBtn.classList.add('hidden');
+        });
+
+        document.getElementById('learn-language-select').addEventListener('change', function() {
+            const startBtn = document.getElementById('start-btn');
+
+            // Pokaż przycisk START tylko wtedy, gdy użytkownik wybierze język do nauki
+            if (this.value) {
+                startBtn.classList.remove('hidden');
+            } else {
+                startBtn.classList.add('hidden');
+            }
+        });
+
+        document.getElementById('start-btn').addEventListener('click', function() {
+            const selectedLanguage = document.getElementById('language-select').value;
+            const learnLanguage = document.getElementById('learn-language-select').value;
+
+            let link = '';
+
+            if (selectedLanguage === 'pl' && learnLanguage === 'en') {
+                link = 'matrix.html';
+            } else if (selectedLanguage === 'pl' && learnLanguage === 'es') {
+                link = 'matrix2.html';
+            } else if (selectedLanguage === 'en' && learnLanguage === 'es') {
+                link = 'matrixspanish.html';
+            }
+
+            if (link) {
+                window.location.href = link;
+            }
+        });
+    </script>
 </body>
 </html>

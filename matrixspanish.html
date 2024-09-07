@@ -2,7 +2,7 @@
 <html>
     <head>
         <script src="js/storage.js"></script>
-        <script src="js/testowy.js"></script>
+        <script src="testowy11.js"></script>
         <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -480,46 +480,13 @@
             }
 
             @media (max-width: 999px) {
-                            .container {
-                position: relative;
-                display: flex;
-                align-items: flex-start; /* Ustawienie wyrównania elementów wertykalnie */
-                justify-content: space-between;
-            }
-                                .grid-container {
+                .grid-containera {
                     display: grid;
-                    box-sizing: border-box;
-                    width: auto;
                     grid-template-columns: repeat(2, 1fr);
                     gap: 10px;
                     text-align: center;
                     position: relative; /* Ustawienie pozycji dla podpisów */
                 }
-                            .image-container2 {
-                display: grid;
-                grid-template-columns: repeat(2, 1fr);
-                flex-direction: column;
-                justify-content: center;
-                background-color: blue;
-                width: 100%;
-                position: relative;
-                height: 100px;
-                margin-bottom: 0px;
-                align-items: center;
-                font-size: 20px;
-            }
-                .image-container3 {
-                display: flex;
-                flex-direction: column;
-                justify-content: center;
-                    background-color: blue;
-                position: relative;
-                height: auto;
-                margin-bottom: 0px;
-                align-items: center;
-                font-size: 20px;
-                margin-top: 10px;
-            }
                 /* Styl dla menu pionowego */
                 .side-menu {
                     width: 0px;
@@ -529,7 +496,6 @@
                 .side-menu button {
                     display: none;
                 }
-            }
             </style>
         </head>
         <body>
@@ -540,6 +506,7 @@
             <div class="horizontal-bar" id="horizontalBar2">
             </div>
 
+            <div class="container">
                 <div class="side-menu">
                     <button onclick="showImages('set1')">PRZEBYTE LEKCJE</button>
                     <button onclick="showImages('set2')">LEKCJE STWORZONE INDYWIDUALNIE</button>
@@ -563,6 +530,7 @@
                     <div class="grid-container">
                     </div>
                 </div>
+                <a id="linkDoStrony" href="demo5.html" onclick="wybierzRodzaj('osoby')">Osoby</a>
                 <script>
 function blinkButton() {
     const button = document.getElementById('flashcardButton');
@@ -3015,7 +2983,7 @@ useFirstPartLength = !useFirstPartLength;
                                 }
                                 setTimeout(function () {
                                     addVideo1(0);
-                                }, 100);
+                                }, 1000);
                             } else if (index50 === 0 && buttonindex) {
                                 console.log('hej3338', newIndex);
                                 let funkcjaWywolana = false;
