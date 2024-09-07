@@ -15,6 +15,7 @@ const fiszki = [
         ],
         translate: "Wszyscy mają ubaw na zabawie",
         translateb: "[Ewrybody hes fan at de party]",
+        translateb2: "[Ewrybody hes fan]",
         srcWord: ["http://localhost/arbulanguage.com/filmy/party.mp4", 'The Matrix Reloaded'],
         srcWord2: ["http://localhost/arbulanguage.com/filmy/procedure.mp4", "Breaking Bad"],
         srcWordimage: "http://localhost/arbulanguage.com/filmy/party.png",
@@ -44,7 +45,7 @@ const fiszki = [
             "fun"
         ],
         //  slowo do nauki
-        key: "everybody",
+        key: "Everybody",
         category1: [
             "sport", "gaming",
             "natura", "kulinaria",
@@ -129,7 +130,7 @@ const fiszki = [
             "has",
             "fun"
         ],
-        key: "have",
+        key: "fun",
         category1: [
             "sport", "kibic",
             "natura", "czas wolny",
@@ -156,6 +157,7 @@ const fiszki = [
             "http://localhost/arbulanguage.com/src/at.wav"
         ],
         srcWord2: ["http://localhost/arbulanguage.com/filmy/procedure.mp4", "Breaking Bad"],
+        translateb2: "[at de party]",
         story: [
             "<u><b>W tym</u></b> atelcie jest dużo siły",
             "Scott <u><b>At</u></b>kinson <u><b>w tym</u></b> lesie był na spacerze",
@@ -281,6 +283,7 @@ const fiszki = [
         ],
         translate: "On jest posłuszny wobec naukowych procedur",
         translateb: "[Hi is obidient to sajens prosidżer]",
+        translateb2: "[Hi is obidient]",
         srcWord: ["http://localhost/arbulanguage.com/filmy/procedure.mp4", "Breaking Bad"],
         srcWord2: ["http://localhost/arbulanguage.com/filmy/procedure.mp4", "Breaking Bad"],
         srcWordimage: "http://localhost/arbulanguage.com/filmy/procedure.png",
@@ -417,7 +420,8 @@ const fiszki = [
         word: [
             "http://localhost/arbulanguage.com/src/to.wav"
         ],
-                srcWord2: ["http://localhost/arbulanguage.com/filmy/procedure.mp4", "Breaking Bad"],
+        srcWord2: ["http://localhost/arbulanguage.com/filmy/procedure.mp4", "Breaking Bad"],
+        translateb2: "[to sajentifik prosidżer]",
         story: [
             "<u><b>Dla</u></b> spor<u><b>tu</b></u> przeszedłem się pieszo z domu do pracy",
             "Ratunku, <u><b>tu</u></b>taj są węże a ja nie mam <u><b>dla</u></b> nich jedzenia",
@@ -543,9 +547,10 @@ const fiszki = [
         ],
         translate: "Bądź bardziej obecny wobec swoich emocji",
         translateb: "[Bi mor prezent wiz jour imołszyns]",
+        translateb2: "[Bi mor prezent]",
         srcWord: ["http://localhost/arbulanguage.com/filmy/emotions.mp4", "The Dark Knight(2008)"],
         srcWordimage: "http://localhost/arbulanguage.com/filmy/emotions.png",
-                srcWord2: ["http://localhost/arbulanguage.com/filmy/procedure.mp4", "Breaking Bad"],
+        srcWord2: ["http://localhost/arbulanguage.com/filmy/procedure.mp4", "Breaking Bad"],
         word: [
             "http://localhost/arbulanguage.com/src/be.wav"
         ],
@@ -677,6 +682,7 @@ const fiszki = [
             "http://localhost/arbulanguage.com/src/with.wav"
         ],
                 srcWord2: ["http://localhost/arbulanguage.com/filmy/procedure.mp4", "Breaking Bad"],
+                        translateb: "[wiz jour imołszyns]",
         story: [
             "<u><b>Z</u></b> <u><b>wiz</u></b>ualizacją wygranej sportowcy są bardziej przygotowani",
             "Wizja wiewiórek, które jedzą z wiadomo, którego wiaderka(mojego) jest słuszna",

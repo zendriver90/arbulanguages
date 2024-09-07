@@ -41,6 +41,15 @@
             .sentence3b2 {
                 z-index: 9999;
             }
+            @keyframes blinkBackground {
+    0% { background-color: yellow; }
+    50% { background-color: transparent; }
+    100% { background-color: yellow; }
+}
+
+.blinking {
+    animation: blinkBackground 1s infinite;
+}
             .image-container {
                 width: 330px;
                 position: relative;
@@ -75,7 +84,6 @@
                 font-size: 20px;
                 margin-top: 10px;
                 order: -1; /* Kolejność odwrotna - spycha w dół */
-                z-index: 10; /* Tło kontenera, ustaw na większy z-index niż wideo */
             }/* Tło */
 .background-overlay {
     position: absolute;
@@ -644,7 +652,7 @@ function addFlashcardContainer() {
             <button class="charakter-button" onclick="ustawTryb(tablica3[0]); przekazArgument0(globalCategory, '', '', 'fiszki', false, false, '')">Dowolne</button>
             <div id="title">PRIORYTETY LINGWISTYCZNE</div>
             <button id="inne" onclick="wybierzCharakter('krotkie')">Wymowa</button>
-        <button id="inne" onclick="wybierzCharakter('krotkie')">Pisownia</button>
+        <button class="charakter-button" onclick="wybierzCharakter('krotkie')">Pisownia</button>
         <button id="inne" onclick="wybierzCharakter('krotkie')">Sens zdania</button>
             <button id="dowolne" onclick="wybierzCharakter('dowolne')">WSZYSTKIE</button>
         </div>
@@ -1823,7 +1831,22 @@ useFirstPartLength = !useFirstPartLength;
                                 }, 0);
 
                             }
+    let isPlaying = false;
 
+    // Obsługa kliknięcia przycisku "Pisownia"
+    $('#spellingButton').on('click', function () {
+        if (!isPlaying) {
+            // Dodaj klasę 'blinking' do elementów sentence11 i sentence12
+            $('.sentence11').addClass('blinking');
+            $('.sentence12').addClass('blinking');
+
+            // Ustaw czas migania (np. 5 sekund)
+            setTimeout(() => {
+                $('.sentence11').removeClass('blinking');
+                $('.sentence12').removeClass('blinking');
+            }, 5000); // Miganie przez 5 sekund
+        }
+    });
                             let sentence1bba = "";
                             let sentence1bbab = "";
                             function addBackgroundToText1b(matchingFiszki1, matchingIndexes, aktualny, lesson1PartLength) {
@@ -2773,6 +2796,7 @@ useFirstPartLength = !useFirstPartLength;
                             if (newIndex === 0 && !buttonindex) {
                                 console.log('hej33b', buttonindex);
                                 let funkcjaWywolana = false;
+                                let stopButtonAdded = false;
                                 function addVideo1(index) {
                                     console.log('hej80', index);
                                     // Sprawdź, czy jesteśmy poza zakresem tablicy
@@ -2907,35 +2931,55 @@ useFirstPartLength = !useFirstPartLength;
                                                 'position': 'relative',
                                                 'margin-top': '-100px',
                                                 'margin-left': '-450px',
-                                                'text-align': 'left'
+                                                'text-align': 'left',
+                                                'z-index': '99999999999'
                                             });
                                         }
                                     }
                                             // Tworzenie przycisku "Stop"
-const $stopButton = $('<img>')
-    .attr('src', 'http://localhost/arbulanguage.com/img/stopok2.png')
-            .css({
-                'display': 'none', // Ukryty na starcie
-                'width': '50px',  // Szerokość obrazka
-                'height': '50px', // Wysokość obrazka
-                'position': 'relative',
-                'z-index': '999999'
-            })
-            .on('click', function() {
-                // Akcja zatrzymania wideo po kliknięciu
-                $videoElement[0].pause();
+        // Dodaj przycisk "Stop" tylko raz
+        if (!stopButtonAdded) {
+            const $stopButton = $('<img>')
+                .attr('src', 'http://localhost/arbulanguage.com/img/stopok2.png')
+                .css({
+                    'display': 'none',
+                    'bottom': '50px',
+                    'right': '140px',
+                    'width': '60px',
+                    'height': '60px',
+                    'position': 'relative',
+                    'z-index': '999999'
+                })
+                .on('click', function () {
+                    $videoElement[0].pause();
+                    // Zmień obrazek na "Play" (obrazek2)
+                    $stopButton.attr('src', 'http://localhost/arbulanguage.com/img/play.png');
+                });
+            $stopButton.appendTo($container);
+
+            // Funkcja kontynuująca odtwarzanie po kliknięciu obrazka "Play"
+            $stopButton.on('click', function () {
+                if ($videoElement[0].paused) {
+                    $videoElement[0].play();
+                    // Zmień obrazek z powrotem na "Stop"
+                    $stopButton.attr('src', 'http://localhost/arbulanguage.com/img/stopok2.png');
+                } else {
+                    $videoElement[0].pause();
+                    // Zmień obrazek na "Play"
+                    $stopButton.attr('src', 'http://localhost/arbulanguage.com/img/play.png');
+                }
             });
-// Dodanie przycisku do kontenera
-        $stopButton.appendTo($container);
 
-        // Obsługa zdarzeń mouseover i mouseout
-        $container.on('mouseover', function() {
-            $stopButton.show(); // Pokaż przycisk najeżdżając myszą na kontener
-        });
+            $container.on('mouseover', function () {
+                $stopButton.show();
+            });
 
-        $container.on('mouseout', function() {
-            $stopButton.hide(); // Ukryj przycisk opuszczając kontener
-        });
+            $container.on('mouseout', function () {
+                $stopButton.hide();
+            });
+
+            stopButtonAdded = true;  // Flaga ustawiona na true, gdy przycisk został dodany
+        }
                                 }
                                 setTimeout(function () {
                                     addVideo1(0);
@@ -4213,7 +4257,7 @@ if (indexDiv < 13) {
                                         for (let li = 0; li < matchingFiszki1.length; li++) {
                                             const fiszka = matchingFiszki1[li];
                                             console.log('fiszka:', fiszka);
-                                            let sentencePart3 = fiszka.translateb;
+                                            let sentencePart3 = fiszka.translateb2;
                                             console.log('sentencePart3:', sentencePart3);
                                             if (aktualny) {
                                                 // Sprawdzenie, czy indeks bieżącej fiszki znajduje się w tablicy matchingIndexes
