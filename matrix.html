@@ -24,7 +24,13 @@
                     width: 118px;
                     margin-right: 20px;
                 }
-
+                .left-buttonbb {
+                color: orange;
+                border-radius: 5px;
+                }
+                .white-text {
+                    color: white !important;
+                }
                 .side-menu button {
                     display: block;
                     margin-bottom: 10px;
@@ -214,22 +220,23 @@
                 }
                 .run-button3 {
                     position: absolute;
-                    top: 50%;
-                    left: 50%;
+                    bottom: 105px;
+                    right: 20px;
                     display: none; /* Ukrycie przycisku */
-                    z-index: 999999999; /* Wyższy z-index, aby przycisk był na wierzchu */
+                    z-index: 99999; /* Wyższy z-index, aby przycisk był na wierzchu */
                 }
                 .dynamic-div {
                     position: absolute;
-                    top: 10px; /* Ustawienie w dowolnym miejscu w kontenerze */
+                    bottom: 5px; /* Ustawienie w dowolnym miejscu w kontenerze */
                     left: 10px;
                     font-size: 15px;
-                    width: 100px; /* Szerokość dynamicznego div-a */
-                    height: 50px; /* Wysokość dynamicznego div-a */
+                    width: 150px; /* Szerokość dynamicznego div-a */
+                    height: 20px; /* Wysokość dynamicznego div-a */
                     background-color: rgba(255, 0, 0, 0.5); /* Przezroczyste tło */
                     color: white;
                     z-index: 1000; /* Wyższy z-index, aby był nad overlay */
                     display: none; /* Początkowo ukryty */
+                    font-size: 10px;
                 }
 
                 .image-container4:hover .run-button2 {
@@ -256,7 +263,7 @@
                 }
 
                 .sentence {
-                    margin-bottom: -60px;
+                    margin-bottom: -50px;
                     color: white;
                     z-index: 9999;
                 }
@@ -286,6 +293,10 @@
                 }
                 .highlighted-sentence {
                     background-color: rgba(255, 255, 0, 0.5); /* Kolor tła z opacity */
+                    color: white;
+                }
+                span {
+                    color: white;
                 }
                 .yellow {
                     color: yellow;
@@ -512,14 +523,6 @@
                     border: none;
                     cursor: pointer;
                 }
-                .sentence1b,
-                .sentence1b2,
-                .sentence2b,
-                .sentence2b2,
-                .sentence3b,
-                .sentence3b2 {
-                    z-index: 9999;
-                }
                 @keyframes blinkBackground {
                     0% {
                         background-color: yellow;
@@ -568,6 +571,7 @@
                     margin-bottom: 0px;
                     align-items: center;
                     font-size: 20px;
+                    z-index: 999;
                     order: -1; /* Kolejność odwrotna - spycha w dół */
                 }/* Tło */
                 .background-overlay {
@@ -584,7 +588,7 @@
                 .background-video {
                     position: absolute;
                     border: 7px solid orange;
-                    z-index: 100000000; /* Wideo, ustaw na niższy z-index */
+                    z-index: 1; /* Wideo, ustaw na niższy z-index */
                 }
                 .image-container4 {
                     display: flex;
@@ -599,7 +603,7 @@
                     align-items: center;
                     font-size: 15px;
                     margin-top: 10px;
-                    order: -1; /* Kolejność odwrotna - spycha w dół */
+                    z-index: 9999;
                 }/* Tło */
                 .image-container5 {
                     display: flex;
@@ -642,7 +646,7 @@
                     position: absolute;
                     z-index: 1000000;
                     bottom: 10px;
-                    right: 10px;
+                    right: -70px;
                     width: 30px;
                     height: 30px;
                     cursor: pointer;
@@ -724,13 +728,11 @@
                 .sentence1c22,
                 .sentence1c2a {
                     font-size: 10px;
-                    margin-bottom: 0px;
-                    z-index: 9999999;
+                    z-index: 99999999;
                 }
                 .sentence1bba,
                 .sentence1bbab {
                     font-size: 10px;
-                    margin-bottom: 0px;
                     z-index: 9999;
                 }
 
@@ -741,9 +743,21 @@
                     z-index: 9999;
                 }
 
-                .sentenceB {
+                .sentenceBA {
+                    font-size: 12px;
+                    margin-top: 150px;
+                    color: white;
+                    z-index: 9999;
+                }
+                .sentenceBB {
                     font-size: 10px;
-                    margin-top: 80px;
+                    margin-bottom: -25px;
+                    color: white;
+                    z-index: 9999;
+                }
+                                .sentenceBC {
+                    font-size: 12px;
+                    margin-bottom: 60px;
                     color: white;
                     z-index: 9999;
                 }
@@ -754,10 +768,10 @@
                 .sentence22,
                 .sentence30,
                 .sentence33 {
-                    margin-bottom: 20px;
-                    font-size: 14px;
+                    margin-top: 50px;
+                    font-size: 15px;
                     color: white;
-                    z-index: 9999;
+                    z-index: 1;
                 }
 
                 .button1,
@@ -1878,7 +1892,7 @@
                             if ((tablica15.length <= 33 || tablica15.length === 0)) {
                                 console.log('wykonuje się 8');
 
-                                showCombinedSentenceForLesson2(polski, index50, lessonId1, newIndex, indexDiv, lesson1PartLength);
+                                showCombinedSentenceForLesson2(polski, index50, matchingIndexes, lessonId1, newIndex, indexDiv, lesson1PartLength);
                                 console.log('hej321', polski);
                             }
                         }
@@ -2912,6 +2926,7 @@ ${sentence30}${sentence33}<br>
                                         if (matchingIndexes.includes(indexToCheck) && currentIndexValue == 1) {
                                             const spanElement = document.createElement('span');
                                             spanElement.textContent = sentencePart;
+                                            spanElement.classList.add('white-text'); // Dodaj klasę white-text
                                             spanElement.classList.remove('highlighted-sentence');
                                             spanElement.classList.add('yellow');
                                             // Zaktualizuj sentencePart, aby zawierał utworzony element span
@@ -3020,7 +3035,7 @@ ${sentence30}${sentence33}<br>
                                     sentence33 += sentencePart2 + " ";
                                 }
                             }
-                            for (let li = 0; li < matchingFiszki2.length; li++) {
+                            for (let li = 0; li < matchingFiszki3.length; li++) {
                                 const fiszka = matchingFiszki2[li];
                                 console.log('fiszka:', fiszka);
                                 let sentencePart333 = fiszka.translateb;
@@ -3033,7 +3048,7 @@ ${sentence30}${sentence33}<br>
                                 }
                                 sentence1c2a += sentencePart333 + " ";
                             }
-                            for (let li = 0; li < matchingFiszki2.length; li++) {
+                            for (let li = 0; li < matchingFiszki3.length; li++) {
                                 const fiszka = matchingFiszki2[li];
                                 console.log('fiszka:', fiszka);
                                 let sentencePart444 = fiszka.translate;
@@ -3434,57 +3449,58 @@ ${sentence30}${sentence33}<br>
                                     // Zmień CSS paska napisu, aby wyświetlał się po lewej stronie kontenera
                                     $sceneDiv.css({
                                         'position': 'relative',
-                                        'margin-top': '-100px',
+                                        'margin-top': '-40px',
                                         'margin-left': '-450px',
                                         'text-align': 'left',
                                         'z-index': '99999999999'
                                     });
                                 }
                             }
-                            // Tworzenie przycisku "Stop"
-                            // Dodaj przycisk "Stop" tylko raz
-                            if (!stopButtonAdded) {
-                                const $stopButton = $('<img>')
-                                        .attr('src', 'http://localhost/arbulanguage.com/img/stopok2.png')
-                                        .css({
-                                            'display': 'none',
-                                            'bottom': '50px',
-                                            'right': '140px',
-                                            'width': '60px',
-                                            'height': '60px',
-                                            'position': 'relative',
-                                            'z-index': '999999'
-                                        })
-                                        .on('click', function () {
-                                            $videoElement[0].pause();
-                                            // Zmień obrazek na "Play" (obrazek2)
-                                            $stopButton.attr('src', 'http://localhost/arbulanguage.com/img/play.png');
-                                        });
-                                $stopButton.appendTo($container);
+// Tworzenie przycisku "Stop"
+if (!stopButtonAdded) {
+    const $stopButton = $('<img>')
+        .attr('src', 'http://localhost/arbulanguage.com/img/stopok2.png')
+        .css({
+            'display': 'none', // Ukryty na starcie
+            'position': 'absolute', // Precyzyjne pozycjonowanie względem kontenera
+            'top': '-15px',
+            'left': '20px',
+            'width': '40px',
+            'height': '40px',
+            'z-index': '999999',
+            'cursor': 'pointer' // Ustawienie kursora jako wskaźnik
+        })
+        .on('click', function () {
+            // Pętla po wszystkich elementach wideo i zatrzymywanie każdego z nich
+            $('video').each(function () {
+                const video = this;
+                if (!video.paused) {
+                    video.pause();
+                    // Zmień obrazek na "Play"
+                    $stopButton.attr('src', 'http://localhost/arbulanguage.com/img/play.png');
+                } else {
+                    video.play();
+                    // Zmień obrazek z powrotem na "Stop"
+                    $stopButton.attr('src', 'http://localhost/arbulanguage.com/img/stopok2.png');
+                }
+            });
+        });
 
-                                // Funkcja kontynuująca odtwarzanie po kliknięciu obrazka "Play"
-                                $stopButton.on('click', function () {
-                                    if ($videoElement[0].paused) {
-                                        $videoElement[0].play();
-                                        // Zmień obrazek z powrotem na "Stop"
-                                        $stopButton.attr('src', 'http://localhost/arbulanguage.com/img/stopok2.png');
-                                    } else {
-                                        $videoElement[0].pause();
-                                        // Zmień obrazek na "Play"
-                                        $stopButton.attr('src', 'http://localhost/arbulanguage.com/img/play.png');
-                                    }
-                                });
+    // Dodanie przycisku do kontenera
+    $stopButton.appendTo($container);
 
-                                $container.on('mouseover', function () {
-                                    $stopButton.show();
-                                });
+    // Pokazywanie przycisku na hover kontenera
+    $container.on('mouseover', function () {
+        $stopButton.show();
+    });
 
-                                $container.on('mouseout', function () {
-                                    $stopButton.hide();
-                                });
+    // Ukrywanie przycisku, gdy mysz opuści kontener
+    $container.on('mouseout', function () {
+        $stopButton.hide();
+    });
 
-                                stopButtonAdded = true;  // Flaga ustawiona na true, gdy przycisk został dodany
-                            }
+    stopButtonAdded = true;  // Flaga ustawiona na true, gdy przycisk został dodany
+}
                         }
                         setTimeout(function () {
                             addVideo1(0);
@@ -3609,15 +3625,16 @@ ${sentence30}${sentence33}<br>
                                 $sceneDiv.text(`Scena z filmu ${srcWords2[index]}`);
 
                                 // Sprawdź, czy container jest podzielny przez 4
+                                // Sprawdź, czy container jest podzielny przez 4
                                 if (indexDiv % 4 === 0) {
                                     console.log('Warunek podzielności przez 4 spełniony2');
                                     // Zmień CSS paska napisu, aby wyświetlał się po lewej stronie kontenera
                                     $sceneDiv.css({
                                         'position': 'relative',
-                                        'index': '99999999999',
-                                        'margin-top': '-100px',
+                                        'margin-top': '-165px',
                                         'margin-left': '-450px',
-                                        'text-align': 'left'
+                                        'text-align': 'left',
+                                        'z-index': '99999999999'
                                     });
                                 }
                             }
@@ -3672,7 +3689,7 @@ ${sentence30}${sentence33}<br>
 
                     if ((index50 === 0 && buttonindex) || (newIndex === 0 && !buttonindex)) {
                         var $sentenceDivB = $('<div></div>');
-                        $sentenceDivB.addClass('sentenceB'); // Dodanie klasy 'sentence'
+                        $sentenceDivB.addClass('sentenceBA'); // Dodanie klasy 'sentence'
                         $sentenceDivB.html(`
 ${sentence10}${sentence11}<br>
 <div class="sentence1b">${sentence1b}</div>
@@ -3684,12 +3701,13 @@ ${sentence30}${sentence33}<br>
         <div class="sentence1c2a">${sentence1c2a}</div>
 <div class="sentence1c22">${sentence1c22}</div>
 `);
-                        $sentenceDivB.css({
-                            'position': 'absolute',
-                            'margin-top': '80px',
-                            'text-align': 'center',
-                            'z-index': '999'
-                        });
+$sentenceDivB.css({
+    'position': 'absolute',
+    'margin-top': '0px',
+    'text-align': 'center',
+    'z-index': '999',
+    'font-size': '15px'  // Dodanie właściwości font-size
+});
                     } else {
                         var $sentenceDiv = $('<div></div>');
                         $sentenceDiv.addClass('sentence'); // Dodanie klasy 'sentence'
@@ -3709,9 +3727,10 @@ ${sentence30}${sentence33}<br>
 `);
                         $sentenceDiv.css({
                             'position': 'absolute',
-                            'margin-top': '-10px',
+                            'margin-top': '-30px',
                             'text-align': 'center',
-                            'z-index': '5'
+                            'z-index': '5',
+                            'font-size': '15px'  // Dodanie właściwości font-size
                         });
                     }
                     const $button = $('<button></button>');
@@ -3733,9 +3752,11 @@ ${sentence30}${sentence33}<br>
                     });
                     $button.css({
                         'position': 'absolute',
-                        'left': '50%', // Przykładowa wartość odstępu od lewej krawędzi
-                        'top': '10px',
-                        'z-index': '10' // Ustawienie z-index dla buttona większe niż dla sentenceDiv
+                        'right': '-200px', // Przykładowa wartość odstępu od lewej krawędzi
+                        'top': '5px',
+                        'height': '30px',
+                        'width': '200px',
+                        'z-index': '12' // Ustawienie z-index dla buttona większe niż dla sentenceDiv
                     });
                     $container.append($button);
                     const $buttonb2 = $('<button></button>');
@@ -3802,9 +3823,10 @@ ${sentence30}${sentence33}<br>
                     });
                     $buttonb2.css({
                         'position': 'absolute',
-                        'left': '70px', // Przykładowa wartość odstępu od lewej krawędzi
-                        'top': '27px',
-                        'z-index': '12' // Ustawienie z-index dla buttona większe niż dla sentenceDiv
+                        'right': '10px', // Przykładowa wartość odstępu od lewej krawędzi
+                        'margin-bottom': '-100px',
+                        'height': '25px',
+                        'width': '200px'
                     });
                     $container.append($buttonb2);
                     // Dodanie diva z zdaniem do kontenera
@@ -3818,7 +3840,7 @@ ${sentence30}${sentence33}<br>
                 // Deklaracja tablicy, która będzie zawierać wszystkie tablice
             }
 
-            function showCombinedSentenceForLesson2(polski, index50, lessonIdToShow1, newIndex, indexDiv, lesson1PartLength) {
+            function showCombinedSentenceForLesson2(polski, index50, matchingIndexes, lessonIdToShow1, newIndex, indexDiv, lesson1PartLength) {
                 // Tutaj reszta kodu funkcji
                 const matchingFiszki1 = fiszki.filter(fiszka => fiszka.id[1] === lessonIdToShow1);
                 const matchingFiszki10 = fiszki.filter(fiszka => fiszka.id[1] === lessonIdToShow1);
@@ -3872,8 +3894,7 @@ ${sentence30}${sentence33}<br>
                                     const indexToCheck = i + lesson1PartLength + 1;
                                     console.log('indexToCheck5:', indexToCheck);
                                     if (aktualny) {
-                                        if (!matchingIndexes.includes(indexToCheck) && currentIndexValue == 0 && pulpitstartowy) {
-                                            console.log('hej67', pulpitstartowy);
+                                        if (!matchingIndexes.includes(indexToCheck) && currentIndexValue == 0) {
                                             const spanElement = document.createElement('span');
                                             spanElement.innerHTML = sentencePart; // Użyj innerHTML zamiast textContent
                                             sentencePart = spanElement.outerHTML;
@@ -3922,12 +3943,12 @@ ${sentence30}${sentence33}<br>
                                     const indexToCheck = ii + lesson1PartLength + 1;
                                     console.log('indexToCheck77:', indexToCheck);
                                     if (aktualny) {
-                                        if (!matchingIndexes.includes(indexToCheck) && currentIndexValue == 0 && pulpitstartowy) {
+                                        if (!matchingIndexes.includes(indexToCheck) && currentIndexValue == 0) {
                                             console.log('hej678', pulpitstartowy);
                                             const spanElement = document.createElement('span');
                                             spanElement.innerHTML = sentencePart2; // Użyj innerHTML zamiast textContent
                                             sentencePart2 = spanElement.outerHTML;
-                                        } else if (matchingIndexes.includes(indexToCheck) && currentIndexValue == 0 && !pulpitstartowy) {
+                                        } else if (matchingIndexes.includes(indexToCheck) && currentIndexValue == 0) {
                                             console.log('działa22', indexToCheck);
                                             const spanElement = document.createElement('span');
                                             spanElement.innerHTML = sentencePart2;
@@ -3978,19 +3999,19 @@ ${sentence30}${sentence33}<br>
                             for (let li = 0; li < matchingFiszki1.length; li++) {
                                 const fiszka = matchingFiszki1[li];
                                 console.log('fiszka:', fiszka);
-                                let sentencePart333 = fiszka.translate;
-                                console.log('sentencePart333:', sentencePart333);
+                                let sentencePart333B = fiszka.translate;
+                                console.log('sentencePart333:', sentencePart333B);
                                 if (aktualny) {
                                     // Sprawdzenie, czy indeks bieżącej fiszki znajduje się w tablicy matchingIndexes
                                     const spanElement = document.createElement('span');
-                                    spanElement.textContent = sentencePart333;
-                                    sentencePart333 = spanElement.outerHTML;
+                                    spanElement.textContent = sentencePart333B;
+                                    sentencePart333B = spanElement.outerHTML;
                                 }
-                                sentence1b2 += sentencePart333 + " ";
+                                sentence1b2 += sentencePart333B + " ";
                             }
                             if (sentence1b2 === "") {
-                                let sentencePart333 = fiszka.translate ? fiszka.translate : "";
-                                sentence1b2 += sentencePart333 + " ";
+                                let sentencePart333B = fiszka.translate ? fiszka.translate : "";
+                                sentence1b2 += sentencePart333B + " ";
                             }
                             // Dodanie treści do diva wraz z przyciskiem
 
@@ -4004,13 +4025,10 @@ ${sentence10}${sentence11}<br>
                                 // Pokazujemy zdanie .sentence1bb
                                 $sentence1b.css('display', 'block');
                                 $sentence1b.css({
-                                    'margin-bottom': '-20px',
-                                    'top': '0px',
-                                    'position': 'relative',
-                                    'z-index': '10000000000' // Ustaw z-index dla wideo na niższy
+                                    'position': 'relative'
                                 });
                             }
-                        }, 300);
+                        }, 0);
                     }
 
                     let sentence1bba = "";
@@ -4112,30 +4130,17 @@ ${sentence10}${sentence11}<br>
 <div class="sentence1bba">${sentence1bba}</div>
 <div class="sentence1bbab">${sentence1bbab}</div>
 `);
-                                if (!polski) {
-                                    $sentence1bba.css({
-                                        'margin-bottom': '-20px',
-                                        'top': '0px',
-                                        'position': 'relative'
-                                    });
-                                    $sentence1bbab.css({
-                                        'margin-bottom': '-20px',
-                                        'top': '0px',
-                                        'position': 'relative'
-                                    });
-                                } else {
+
                                     console.log('hej465', polski);
                                     $sentence1bba.css({
-                                        'margin-bottom': '-200px',
                                         'top': '0px',
                                         'position': 'relative'
                                     });
                                     $sentence1bbab.css({
-                                        'margin-bottom': '-100px',
                                         'top': '40px',
                                         'position': 'relative'
                                     });
-                                }
+                                
                             }, 300);
                         });
                         console.log('Zawartość zmiennej sentence1:', sentence1b); // Wyświetlenie zawartości zmiennej sentence1                          
@@ -4477,7 +4482,7 @@ ${sentence10}${sentence11}<br>
                     }
                     if ((index50 === 0) || (newIndex === 0)) {
                         var $sentenceDivB = $('<div></div>');
-                        $sentenceDivB.addClass('sentenceB'); // Dodanie klasy 'sentence'
+                        $sentenceDivB.addClass('sentenceBC'); // Dodanie klasy 'sentence'
                         $sentenceDivB.html(`
     ${sentence10}${sentence11}<br>
     <div class="sentence1b">${sentence1b}</div>
@@ -4492,7 +4497,7 @@ ${sentence10}${sentence11}<br>
                         });
                     } else {
                         var $sentenceDiv = $('<div></div>');
-                        $sentenceDiv.addClass('sentence'); // Dodanie klasy 'sentence'
+                        $sentenceDiv.addClass('sentenceBB'); // Dodanie klasy 'sentence'
                         $sentenceDiv.html(`
     ${sentence10}${sentence11}<br>
     <div class="sentence1bba">${sentence1bba}</div>

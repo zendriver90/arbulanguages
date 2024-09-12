@@ -6813,3 +6813,983 @@ function waitForTrueThenWybierzCharakter() {
                 const lesson1FirstPartLength = partLengths.find(item => item.id === lessonId1)?.totalLength || 0;
                 const lesson2FirstPartLength = partLengths.find(item => item.id === lessonId2)?.totalLength || 0;
                 const lesson3FirstPartLength = partLengths.find(item => item.id === lessonId3)?.totalLength || 0;
+                
+                
+                            @media (max-width: 999px) {
+                /* Styl dla głównego kontenera */
+                .container {
+                    position: relative;
+                    display: flex;
+                    align-items: flex-start; /* Ustawienie wyrównania elementów wertykalnie */
+                    justify-content: space-between;
+                }
+                .content-container {
+                    position: relative;
+                }
+                /* Styl dla menu pionowego */
+                .side-menu {
+                    width: 118px;
+                    margin-right: 20px;
+                }
+
+                .side-menu button {
+                    display: block;
+                    margin-bottom: 10px;
+                    width: 100%;
+                    padding: 8px 15px;
+                    font-size: 16px;
+                    border: none;
+                    cursor: pointer;
+                }
+                .sentence1b,
+                .sentence1b2,
+                .sentence2b,
+                .sentence2b2,
+                .sentence3b,
+                .sentence3b2 {
+                    z-index: 9999;
+                }
+                @keyframes blinkBackground {
+                    0% {
+                        background-color: yellow;
+                    }
+                    50% {
+                        background-color: transparent;
+                    }
+                    100% {
+                        background-color: yellow;
+                    }
+                }
+
+                .blinking {
+                    animation: blinkBackground 1s infinite;
+                }
+                .image-container {
+                    width: 330px;
+                    position: relative;
+                    height: auto;
+                    left: 0px;
+                    margin-right: 0px;
+                }
+
+                .image-container2 {
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    background-color: blue;
+                    max-width: 100%; /* Zapobiega przekroczeniu szerokości ekranu */
+                    position: relative;
+                    height: 100px;
+                    margin-bottom: 0px;
+                    align-items: center;
+                    font-size: 20px;
+                }
+
+                .image-container3 {
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    width: 330px;
+                    background-color: blue;
+                    position: relative;
+                    height: auto;
+                    margin-bottom: 0px;
+                    align-items: center;
+                    font-size: 20px;
+                    margin-top: 10px;
+                    order: -1; /* Kolejność odwrotna - spycha w dół */
+                }/* Tło */
+                .background-overlay {
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    width: 100%;
+                    height: 100%;
+                    background-color: yellow;
+                    opacity: 0.7;
+                    z-index: 1000; /* Wysoki z-index, aby było na wierzchu */
+                }
+
+                .background-video {
+                    position: absolute;
+                    z-index: 1; /* Wideo, ustaw na niższy z-index */
+                }
+                .image-container4 {
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    background-color: blue;
+                    width: 330px;
+                    position: relative;
+                    height: auto;
+                    margin-bottom: 0px;
+                    align-items: center;
+                    font-size: 20px;
+                    margin-top: 10px;
+                    order: -1; /* Kolejność odwrotna - spycha w dół */
+                    z-index: 10; /* Tło kontenera, ustaw na większy z-index niż wideo */
+                }
+                .image-container5 {
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    background-color: blue;
+                    width: 330px;
+                    position: relative;
+                    height: auto;
+                    margin-bottom: 0px;
+                    align-items: center;
+                    font-size: 20px;
+                    margin-top: 10px;
+                    order: -1; /* Kolejność odwrotna - spycha w dół */
+                    z-index: 10; /* Tło kontenera, ustaw na większy z-index niż wideo */
+                }
+                .scene-description {
+                    position: absolute;
+                    font-size: 10px;
+                    top: 10px; /* Odległość od górnej krawędzi kontenera */
+                    right: -120px; /* Przesunięcie w lewo o 120 pikseli, aby wystawał poza prawą krawędź */
+                    background-color: #000;
+                    color: #fff;
+                    padding: 5px 10px;
+                    z-index: 99999999;
+                    white-space: nowrap; /* Zapobiega zawijaniu tekstu */
+                }
+                .scene-description2 {
+                    position: absolute;
+                    font-size: 10px;
+                    top: 10px; /* Odległość od górnej krawędzi kontenera */
+                    left: -100px; /* Odległość od górnej krawędzi kontenera */
+                    background-color: #000;
+                    color: #fff;
+                    padding: 5px 10px;
+                    z-index: 999999999;
+                    white-space: nowrap; /* Zapobiega zawijaniu tekstu */
+                }
+                .overlay-button {
+                    position: absolute;
+                    z-index: 1000000;
+                    bottom: 10px;
+                    right: 10px;
+                    width: 30px;
+                    height: 30px;
+                    cursor: pointer;
+                    border-radius: 8px;
+                }
+                .slide-button {
+                    position: absolute; /* Position relative to the container */
+                    bottom: 10px;
+                    right: -40px; /* Start position off-screen */
+                    width: 30px;
+                    height: 30px;
+                    cursor: pointer;
+                    border-radius: 8px;
+                    background-color: blue;
+                    color: white;
+                    display: none; /* Hide initially */
+                    z-index: 1000001; /* Ensure it's above other elements */
+                }
+                .container:hover .overlay {
+                    transform: translateX(0); /* Przesuwanie div-a na swoje miejsce */
+                }
+                .image-container3:hover .overlay {
+                    opacity: 1; /* Nakładka widoczna przy najechaniu */
+                }
+
+                .run-button {
+                    position: absolute;
+                    top: 50%;
+                    left: 50%;
+                    transform: translate(-50%, -50%);
+                    display: none; /* Ukrycie przycisku */
+                    z-index: 2; /* Wyższy z-index, aby przycisk był na wierzchu */
+                }
+
+                .image-container3:hover .run-button {
+                    display: block; /* Wyświetlenie przycisku na hover */
+                }
+                .image-container3:hover .run-button3 {
+                    display: block; /* Wyświetlenie przycisku na hover */
+                }
+                .run-button2 {
+                    position: absolute;
+                    top: 50%;
+                    left: 50%;
+                    transform: translate(-50%, -50%);
+                    display: none; /* Ukrycie przycisku */
+                    z-index: 2; /* Wyższy z-index, aby przycisk był na wierzchu */
+                }
+.run-button3 {
+    display: none;
+    position: absolute;
+    top: 50%; /* Wyśrodkowanie pionowe */
+    left: 50%; /* Wyśrodkowanie poziome */
+    transform: translate(-50%, -50%); /* Przesunięcie na środek */
+}
+                .dynamic-div {
+                    position: absolute;
+                    top: 10px; /* Ustawienie w dowolnym miejscu w kontenerze */
+                    left: 10px;
+                    font-size: 13px;
+                    width: 100px; /* Szerokość dynamicznego div-a */
+                    height: 20px; /* Wysokość dynamicznego div-a */
+                    background-color: rgba(255, 0, 0, 0.5); /* Przezroczyste tło */
+                    color: white;
+                    z-index: 1000; /* Wyższy z-index, aby był nad overlay */
+                    display: none; /* Początkowo ukryty */
+                }
+
+                .image-container4:hover .run-button2 {
+                    display: block; /* Wyświetlenie przycisku na hover */
+                }
+                .image-container4:hover .run-button3 {
+                    display: block; /* Wyświetlenie przycisku na hover */
+                }
+                .sentence1b,
+                .sentence1b2,
+                .sentence1b22,
+                .sentence1b2a,
+                .sentence1c22,
+                .sentence1c2a {
+                    font-size: 16px;
+                    margin-bottom: 0px;
+                    z-index: 9999;
+                }
+                .sentence1bba,
+                .sentence1bbab {
+                    font-size: 16px;
+                    margin-bottom: 0px;
+                    z-index: 9999;
+                }
+
+                .sentence {
+                    margin-bottom: -60px;
+                    color: white;
+                    z-index: 9999;
+                }
+
+                .sentenceB {
+                    margin-top: 80px;
+                    color: white;
+                    z-index: 9999;
+                }
+
+                .sentence10,
+                .sentence11,
+                .sentence20,
+                .sentence22,
+                .sentence30,
+                .sentence33 {
+                    margin-bottom: 20px;
+                    font-size: 15px;
+                    color: white;
+                    z-index: 9999;
+                }
+
+                .button1,
+                .button2 {
+                    height: 0px;
+                    width: 0px;
+                }
+                .highlighted-sentence {
+                    background-color: rgba(255, 255, 0, 0.5); /* Kolor tła z opacity */
+                }
+                .yellow {
+                    color: yellow;
+                }
+                .flashcard-container {
+                    width: 390px;
+                    height: 470px;
+                    background-color: #2ecc71; /* Zielony kolor, możesz dostosować według potrzeb */
+                    display: flex;
+                    justify-content: space-around;
+                    align-items: center;
+                    padding: 10px;
+                    box-sizing: border-box;
+                    position: absolute;
+                    margin-top: 770px;
+                }
+                #buttoncreate {
+                    background-color: blue;
+                }
+                #buttoncreate.active {
+                    background-color: #2ecc71;
+                }
+
+                .flashcard-container #konsola {
+                    margin-left: -10px;
+                    margin-right: -10px;
+                }
+                .flashcard-container #konsola2 {
+                    display: none;
+                    margin-left: -10px;
+                    margin-right: -10px;
+                }
+                #konsola3 {
+                    display: none;
+                }
+                #konsola4 {
+                    display: none;
+                }
+                #konsola button {
+                    border-radius: 8px; /* Tutaj możesz dostosować wielkość zaokrąglenia */
+                    /* Dodatkowe style przycisków */
+                    border: 1px solid black;
+                    padding: 3px;
+                    margin: 3px;
+                    background-color: #2ecc71;
+                    color: white;
+                    cursor: pointer;
+                }
+                #konsola2 button {
+                    display: none;
+                    border-radius: 8px; /* Tutaj możesz dostosować wielkość zaokrąglenia */
+                    /* Dodatkowe style przycisków */
+                    border: 1px solid black;
+                    padding: 3px;
+                    margin: 3px;
+                    background-color: #2ecc71;
+                    color: white;
+                    cursor: pointer;
+                }
+                .grid-containera {
+                    display: grid;
+                    width: auto;
+                    box-sizing: border-box; /* Ustawienie box-sizing */
+                    grid-template-columns: repeat(2, 1fr);
+                    position: relative;
+                    gap: 10px;
+                    text-align: center;
+                    position: relative;
+                    align-items: center;
+                }
+
+                .grid-container {
+                    display: grid;
+                    box-sizing: border-box; /* Ustawienie box-sizing */
+                    width: 100%; /* Zapewnienie, że kontener zajmuje 100% szerokości */
+                    grid-template-columns: repeat(2, 1fr);
+                    gap: 3px; /* Można dostosować zgodnie z potrzebami */
+                    position: relative;
+                    margin-top: 20px; /* Ustawienie marginesów zgodnie z potrzebami */
+                    margin-right: 0; /* Ustawienie marginesów zgodnie z potrzebami */
+                    top: 20px; /* Ustawienie top zgodnie z potrzebami */
+                    overflow: hidden; /* Ukrywanie wszelkiego poziomego przewijania */
+                }
+
+                .spacer {
+                    height: 20px; /* Dostosuj wysokość przestrzeni spacerowej */
+                }
+
+                .image {
+                    position: relative;
+                    width: 100%;
+                    height: auto;
+                }
+
+                video {
+                    position: relative;
+                    width: 100%;
+                    height: auto;
+                }
+                @keyframes scaleAnimation {
+                    from {
+                        transform: scale(1);
+                    }
+                    to {
+                        transform: scale(1.1); /* Dostosuj poziom powiększenia według preferencji */
+                    }
+                }
+
+                .scaled-video {
+                    animation: scaleAnimation 2s ease-in-out forwards;
+                }
+                .next-video {
+                    transform: scale(1.1);
+                }
+                .progress-bar {
+                    position: absolute;
+                    bottom: 0;
+                    left: 0;
+                    height: 5px; /* Wysokość paska postępu */
+                    background-color: #007bff; /* Kolor paska postępu */
+                }
+                .progress-bar2 {
+                    position: absolute;
+                    bottom: 0;
+                    left: 0;
+                    height: 5px; /* Wysokość paska postępu */
+                    background-color: #007bff; /* Kolor paska postępu */
+                }
+
+                #mojeVideo::-webkit-media-controls {
+                    /* Ukryj kontrolki dla przeglądarek opartych na silniku Chromium (np. Chrome) */
+                    display: none !important;
+                }
+
+                #mojeVideo::-webkit-media-controls-enclosure {
+                    /* Ukryj kontrolki dla przeglądarek opartych na silniku Chromium (np. Chrome) */
+                    display: none !important;
+                }
+
+                #mojeVideo::-webkit-media-controls-panel {
+                    /* Ukryj kontrolki dla przeglądarek opartych na silniku Chromium (np. Chrome) */
+                    display: none !important;
+                }
+
+                #mojeVideo {
+                    /* Ukryj kontrolki dla innych przeglądarek */
+                    appearance: none;
+                    outline: none;
+                    width: 100%; /* Dostosuj szerokość wideo */
+                    height: auto; /* Dostosuj wysokość wideo */
+                }
+
+                .caption {
+                    position: absolute;
+                    bottom: 0;
+                    left: 0;
+                    font-size: 10px;
+                    color: white;
+                    width: 100%;
+                    text-align: left;
+                    box-sizing: border-box;
+                    z-index: 1;
+                }
+
+                .image:hover .caption {
+                    opacity: 1;
+                }
+
+                .image {
+                    width: 100%;
+                    height: auto;
+                }
+
+                .caption {
+                    position: absolute;
+                    bottom: 0;
+                    left: 0;
+                    padding-bottom: 8px;
+                    font-size: 15px; /* Rozmiar czcionki */
+                    font-family: Arial, sans-serif; /* Wybór czcionki */
+                    color: white; /* Ustawienie koloru tekstu na biały */
+                    -webkit-text-stroke: 1px blue; /* Obramowanie tekstu w przeglądarkach opartych na silniku WebKit */
+                    text-stroke: 1px white; /* Obramowanie tekstu */
+                    width: 100%;
+                    text-align: left;
+                    box-sizing: border-box;
+                    z-index: 1;
+                }
+
+                .image-container:hover .caption {
+                    opacity: 1;
+                }
+
+                /* Styl dla paska poziomego z tagami */
+                .horizontal-bar {
+                    display: flex;
+                    justify-content: center;
+                    width: 100%;
+                    margin-bottom: 10px;
+                }
+
+                .horizontal-bar button {
+                    padding: 8px 15px;
+                    font-size: 16px;
+                    border: none;
+                    cursor: pointer;
+                    border: solid;
+                    border-radius: 8px;
+                }
+                .green-button {
+                    background-color: green;
+                    color: white;
+                }
+                .zaznaczony-rodzaj {
+                    border: 3px solid green;
+                }
+
+                .zaznaczony-charakter {
+                    border: 3px solid blue;
+                }
+            }
+            
+                        @media (min-width: 999px) {
+                /* Styl dla głównego kontenera */
+                .container {
+                    position: relative;
+                    display: flex;
+                    align-items: flex-start; /* Ustawienie wyrównania elementów wertykalnie */
+                    justify-content: space-between;
+                }
+                .content-container {
+                    position: relative;
+                }
+                /* Styl dla menu pionowego */
+                .side-menu {
+                    width: 118px;
+                    margin-right: 20px;
+                }
+
+                .side-menu button {
+                    display: block;
+                    margin-bottom: 10px;
+                    width: 100%;
+                    padding: 8px 15px;
+                    font-size: 16px;
+                    border: none;
+                    cursor: pointer;
+                }
+                .sentence1b,
+                .sentence1b2,
+                .sentence2b,
+                .sentence2b2,
+                .sentence3b,
+                .sentence3b2 {
+                    z-index: 9999;
+                }
+                @keyframes blinkBackground {
+                    0% {
+                        background-color: yellow;
+                    }
+                    50% {
+                        background-color: transparent;
+                    }
+                    100% {
+                        background-color: yellow;
+                    }
+                }
+
+                .blinking {
+                    animation: blinkBackground 1s infinite;
+                }
+                .image-container {
+                    width: 330px;
+                    position: relative;
+                    height: auto;
+                    left: 0px;
+                    margin-right: 0px;
+                }
+
+                .image-container2 {
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    background-color: blue;
+                    width: 330px;
+                    position: relative;
+                    height: 100px;
+                    margin-bottom: 0px;
+                    align-items: center;
+                    font-size: 20px;
+                }
+
+                .image-container3 {
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    width: 330px;
+                    background-color: blue;
+                    position: relative;
+                    height: auto;
+                    margin-bottom: 0px;
+                    align-items: center;
+                    font-size: 20px;
+                    margin-top: 10px;
+                    order: -1; /* Kolejność odwrotna - spycha w dół */
+                }/* Tło */
+                .background-overlay {
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    width: 100%;
+                    height: 100%;
+                    background-color: yellow;
+                    opacity: 0.7;
+                    z-index: 1000; /* Wysoki z-index, aby było na wierzchu */
+                }
+
+                .background-video {
+                    position: absolute;
+                    z-index: 1; /* Wideo, ustaw na niższy z-index */
+                }
+                .image-container4 {
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    background-color: blue;
+                    width: 330px;
+                    position: relative;
+                    height: auto;
+                    margin-bottom: 0px;
+                    align-items: center;
+                    font-size: 20px;
+                    margin-top: 10px;
+                    order: -1; /* Kolejność odwrotna - spycha w dół */
+                    z-index: 10; /* Tło kontenera, ustaw na większy z-index niż wideo */
+                }
+                .image-container5 {
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    background-color: blue;
+                    width: 330px;
+                    position: relative;
+                    height: auto;
+                    margin-bottom: 0px;
+                    align-items: center;
+                    font-size: 20px;
+                    margin-top: 10px;
+                    order: -1; /* Kolejność odwrotna - spycha w dół */
+                    z-index: 10; /* Tło kontenera, ustaw na większy z-index niż wideo */
+                }
+                .scene-description {
+                    position: absolute;
+                    font-size: 15px;
+                    top: 10px; /* Odległość od górnej krawędzi kontenera */
+                    right: -120px; /* Przesunięcie w lewo o 120 pikseli, aby wystawał poza prawą krawędź */
+                    background-color: #000;
+                    color: #fff;
+                    padding: 5px 10px;
+                    z-index: 99999999;
+                    white-space: nowrap; /* Zapobiega zawijaniu tekstu */
+                }
+                .scene-description2 {
+                    position: absolute;
+                    font-size: 15px;
+                    top: 10px; /* Odległość od górnej krawędzi kontenera */
+                    left: -100px; /* Odległość od górnej krawędzi kontenera */
+                    background-color: #000;
+                    color: #fff;
+                    padding: 5px 10px;
+                    z-index: 999999999;
+                    white-space: nowrap; /* Zapobiega zawijaniu tekstu */
+                }
+                .overlay-button {
+                    position: absolute;
+                    z-index: 1000000;
+                    bottom: 10px;
+                    right: 10px;
+                    width: 30px;
+                    height: 30px;
+                    cursor: pointer;
+                    border-radius: 8px;
+                }
+                .slide-button {
+                    position: absolute; /* Position relative to the container */
+                    bottom: 10px;
+                    right: -40px; /* Start position off-screen */
+                    width: 30px;
+                    height: 30px;
+                    cursor: pointer;
+                    border-radius: 8px;
+                    background-color: blue;
+                    color: white;
+                    display: none; /* Hide initially */
+                    z-index: 1000001; /* Ensure it's above other elements */
+                }
+                .container:hover .overlay {
+                    transform: translateX(0); /* Przesuwanie div-a na swoje miejsce */
+                }
+                .image-container3:hover .overlay {
+                    opacity: 1; /* Nakładka widoczna przy najechaniu */
+                }
+
+                .run-button {
+                    position: absolute;
+                    top: 50%;
+                    left: 50%;
+                    transform: translate(-50%, -50%);
+                    display: none; /* Ukrycie przycisku */
+                    z-index: 2; /* Wyższy z-index, aby przycisk był na wierzchu */
+                }
+
+                .image-container3:hover .run-button {
+                    display: block; /* Wyświetlenie przycisku na hover */
+                }
+                .image-container3:hover .run-button3 {
+                    display: block; /* Wyświetlenie przycisku na hover */
+                }
+                .run-button2 {
+                    position: absolute;
+                    top: 50%;
+                    left: 50%;
+                    transform: translate(-50%, -50%);
+                    display: none; /* Ukrycie przycisku */
+                    z-index: 2; /* Wyższy z-index, aby przycisk był na wierzchu */
+                }
+                .run-button3 {
+                    position: absolute;
+                    top: 50%;
+                    left: 50%;
+                    display: none; /* Ukrycie przycisku */
+                    z-index: 999999999; /* Wyższy z-index, aby przycisk był na wierzchu */
+                }
+                .dynamic-div {
+                    position: absolute;
+                    top: 10px; /* Ustawienie w dowolnym miejscu w kontenerze */
+                    left: 10px;
+                    font-size: 15px;
+                    width: 100px; /* Szerokość dynamicznego div-a */
+                    height: 50px; /* Wysokość dynamicznego div-a */
+                    background-color: rgba(255, 0, 0, 0.5); /* Przezroczyste tło */
+                    color: white;
+                    z-index: 1000; /* Wyższy z-index, aby był nad overlay */
+                    display: none; /* Początkowo ukryty */
+                }
+
+                .image-container4:hover .run-button2 {
+                    display: block; /* Wyświetlenie przycisku na hover */
+                }
+                .image-container4:hover .run-button3 {
+                    display: block; /* Wyświetlenie przycisku na hover */
+                }
+                .sentence1b,
+                .sentence1b2,
+                .sentence1b22,
+                .sentence1b2a,
+                .sentence1c22,
+                .sentence1c2a {
+                    font-size: 16px;
+                    margin-bottom: 0px;
+                    z-index: 9999;
+                }
+                .sentence1bba,
+                .sentence1bbab {
+                    font-size: 16px;
+                    margin-bottom: 0px;
+                    z-index: 9999;
+                }
+
+                .sentence {
+                    margin-bottom: -60px;
+                    color: white;
+                    z-index: 9999;
+                }
+
+                .sentenceB {
+                    margin-top: 80px;
+                    color: white;
+                    z-index: 9999;
+                }
+
+                .sentence10,
+                .sentence11,
+                .sentence20,
+                .sentence22,
+                .sentence30,
+                .sentence33 {
+                    margin-bottom: 20px;
+                    font-size: 15px;
+                    color: white;
+                    z-index: 9999;
+                }
+
+                .button1,
+                .button2 {
+                    height: 0px;
+                    width: 0px;
+                }
+                .highlighted-sentence {
+                    background-color: rgba(255, 255, 0, 0.5); /* Kolor tła z opacity */
+                }
+                .yellow {
+                    color: yellow;
+                }
+                .flashcard-container {
+                    width: 1350px;
+                    height: 260px;
+                    background-color: #2ecc71; /* Zielony kolor, możesz dostosować według potrzeb */
+                    display: flex;
+                    justify-content: space-around;
+                    align-items: center;
+                    gap: 10px;
+                    padding: 10px;
+                    box-sizing: border-box;
+                    position: absolute;
+                    left: 50%;
+                    transform: translateX(-50%);
+                    left: 675px;
+                    margin-top: 470px;
+                }
+                #buttoncreate {
+                    background-color: blue;
+                }
+                #buttoncreate.active {
+                    background-color: #2ecc71;
+                }
+
+                .flashcard-container #konsola {
+                    width: 500px;
+                    margin-left: -10px;
+                    margin-right: -10px;
+                }
+
+                #konsola button {
+                    border-radius: 8px; /* Tutaj możesz dostosować wielkość zaokrąglenia */
+                    /* Dodatkowe style przycisków */
+                    border: 1px solid black;
+                    padding: 3px;
+                    margin: 3px;
+                    background-color: #2ecc71;
+                    color: white;
+                    cursor: pointer;
+                }
+                .grid-containera {
+                    width: 0px;
+                    height: 0px;
+                    display: grid;
+                    grid-template-columns: repeat(4, 1fr);
+                    gap: 10px;
+                    text-align: center;
+                    position: relative;
+                    align-items: center;
+                }
+
+                .grid-container {
+                    display: grid;
+                    grid-template-columns: repeat(4, 1fr);
+                    gap: 20px;
+                    position: relative;
+                    margin-top: 90px;
+                    margin-right: 0px;
+                    top: 20px;
+                }
+                .spacer {
+                    height: 20px; /* Dostosuj wysokość przestrzeni spacerowej */
+                }
+
+                .image {
+                    position: relative;
+                    width: 100%;
+                    height: auto;
+                }
+
+                video {
+                    position: relative;
+                    width: 100%;
+                    height: auto;
+                }
+                @keyframes scaleAnimation {
+                    from {
+                        transform: scale(1);
+                    }
+                    to {
+                        transform: scale(1.1); /* Dostosuj poziom powiększenia według preferencji */
+                    }
+                }
+
+                .scaled-video {
+                    animation: scaleAnimation 2s ease-in-out forwards;
+                }
+                .next-video {
+                    transform: scale(1.1);
+                }
+                .progress-bar {
+                    position: absolute;
+                    bottom: 0;
+                    left: 0;
+                    height: 5px; /* Wysokość paska postępu */
+                    background-color: #007bff; /* Kolor paska postępu */
+                }
+                .progress-bar2 {
+                    position: absolute;
+                    bottom: 0;
+                    left: 0;
+                    height: 5px; /* Wysokość paska postępu */
+                    background-color: #007bff; /* Kolor paska postępu */
+                }
+
+                #mojeVideo::-webkit-media-controls {
+                    /* Ukryj kontrolki dla przeglądarek opartych na silniku Chromium (np. Chrome) */
+                    display: none !important;
+                }
+
+                #mojeVideo::-webkit-media-controls-enclosure {
+                    /* Ukryj kontrolki dla przeglądarek opartych na silniku Chromium (np. Chrome) */
+                    display: none !important;
+                }
+
+                #mojeVideo::-webkit-media-controls-panel {
+                    /* Ukryj kontrolki dla przeglądarek opartych na silniku Chromium (np. Chrome) */
+                    display: none !important;
+                }
+
+                #mojeVideo {
+                    /* Ukryj kontrolki dla innych przeglądarek */
+                    appearance: none;
+                    outline: none;
+                    width: 100%; /* Dostosuj szerokość wideo */
+                    height: auto; /* Dostosuj wysokość wideo */
+                }
+
+                .caption {
+                    position: absolute;
+                    bottom: 0;
+                    left: 0;
+                    font-size: 10px;
+                    color: white;
+                    width: 100%;
+                    text-align: left;
+                    box-sizing: border-box;
+                    z-index: 1;
+                }
+
+                .image:hover .caption {
+                    opacity: 1;
+                }
+
+                .image {
+                    width: 100%;
+                    height: auto;
+                }
+
+                .caption {
+                    position: absolute;
+                    bottom: 0;
+                    left: 0;
+                    padding-bottom: 8px;
+                    font-size: 15px; /* Rozmiar czcionki */
+                    font-family: Arial, sans-serif; /* Wybór czcionki */
+                    color: white; /* Ustawienie koloru tekstu na biały */
+                    -webkit-text-stroke: 1px blue; /* Obramowanie tekstu w przeglądarkach opartych na silniku WebKit */
+                    text-stroke: 1px white; /* Obramowanie tekstu */
+                    width: 100%;
+                    text-align: left;
+                    box-sizing: border-box;
+                    z-index: 1;
+                }
+
+                .image-container:hover .caption {
+                    opacity: 1;
+                }
+
+                /* Styl dla paska poziomego z tagami */
+                .horizontal-bar {
+                    display: flex;
+                    justify-content: center;
+                    width: 100%;
+                    margin-bottom: 10px;
+                }
+
+                .horizontal-bar button {
+                    padding: 8px 15px;
+                    font-size: 16px;
+                    border: none;
+                    cursor: pointer;
+                    border: solid;
+                    border-radius: 8px;
+                }
+                .green-button {
+                    background-color: green;
+                    color: white;
+                }
+                .zaznaczony-rodzaj {
+                    border: 3px solid green;
+                }
+
+                .zaznaczony-charakter {
+                    border: 3px solid blue;
+                }
+            }
