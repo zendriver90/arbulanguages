@@ -7,11 +7,11 @@ const fiszki = [
         ],
         // obrazek
         img: [
-            "http://arbu-1dcc9.web.app/img/fiszki1/1a.jpeg",
-            "http://arbu-1dcc9.web.app/img/fiszki1/1b.jpeg",
-            "http://arbu-1dcc9.web.app/img/fiszki1/1c.jpeg",
-            "http://arbu-1dcc9.web.app/img/fiszki1/1d.jpeg",
-            "http://arbu-1dcc9.web.app/img/fiszki1/1e.jpeg"
+            "http://arbu-1dcc9.web.app/img/fiszki1/1a.jpg",
+            "http://arbu-1dcc9.web.app/img/fiszki1/1b.jpg",
+            "http://arbu-1dcc9.web.app/img/fiszki1/1c.jpg",
+            "http://arbu-1dcc9.web.app/img/fiszki1/1d.jpg",
+            "http://arbu-1dcc9.web.app/img/fiszki1/1e.jpg"
         ],
         translate: "Wszyscy mają ubaw na zabawie",
         translateb: "[Ewrybody hes fan at de party]",
@@ -63,11 +63,11 @@ const fiszki = [
             1
         ],
         img: [
+            "http://arbu-1dcc9.web.app/img/fiszki1/2a.jpg",
             "http://arbu-1dcc9.web.app/img/fiszki1/2b.jpg",
-            "http://arbu-1dcc9.web.app/img/fiszki1/2b2.jpg",
-            "http://arbu-1dcc9.web.app/img/fiszki1/2b3.jpg",
-            "http://arbu-1dcc9.web.app/img/fiszki1/2b4.jpg",
-            "http://arbu-1dcc9.web.app/img/fiszki1/2b5.jpg"
+            "http://arbu-1dcc9.web.app/img/fiszki1/2c.jpg",
+            "http://arbu-1dcc9.web.app/img/fiszki1/2d.jpg",
+            "http://arbu-1dcc9.web.app/img/fiszki1/2e.png"
         ],
         word: [
             "http://arbu-1dcc9.web.app/src/has.wav"
@@ -91,7 +91,7 @@ const fiszki = [
         key: "has",
         category1: [
             "sport", "kibic",
-            "natura", "zoologia",
+            "natura", "rozrywka",
             "nauka", "humor",
             "czarny humor", "trendy",
             "związki", "muzyka"
@@ -105,11 +105,11 @@ const fiszki = [
             1
         ],
         img: [
-            "http://arbu-1dcc9.web.app/img/fiszki1/2c.jpg",
-            "http://arbu-1dcc9.web.app/img/fiszki1/2c2.jpg",
-            "http://arbu-1dcc9.web.app/img/fiszki1/2c3.jpg",
-            "http://arbu-1dcc9.web.app/img/fiszki1/2c4.jpg",
-            "http://arbu-1dcc9.web.app/img/fiszki1/2c5.jpg"
+            "http://arbu-1dcc9.web.app/img/fiszki1/3a.jpg",
+            "http://arbu-1dcc9.web.app/img/fiszki1/3b.jpg",
+            "http://arbu-1dcc9.web.app/img/fiszki1/3c.jpg",
+            "http://arbu-1dcc9.web.app/img/fiszki1/3d.jpg",
+            "http://arbu-1dcc9.web.app/img/fiszki1/3e.jpg"
         ],
         word: [
             "http://arbu-1dcc9.web.app/src/fun.wav"
@@ -147,11 +147,11 @@ const fiszki = [
             2
         ],
         img: [
-            "http://arbu-1dcc9.web.app/img/fiszki1/2d.jpg",
-            "http://arbu-1dcc9.web.app/img/fiszki1/2d2.jpg",
-            "http://arbu-1dcc9.web.app/img/fiszki1/2d3.jpg",
-            "http://arbu-1dcc9.web.app/img/fiszki1/2d4.jpg",
-            "http://arbu-1dcc9.web.app/img/fiszki1/2d5.jpg"
+            "http://arbu-1dcc9.web.app/img/fiszki1/4a.jpg",
+            "http://arbu-1dcc9.web.app/img/fiszki1/4b.jpg",
+            "http://arbu-1dcc9.web.app/img/fiszki1/4c.jpg",
+            "http://arbu-1dcc9.web.app/img/fiszki1/4d.jpg",
+            "http://arbu-1dcc9.web.app/img/fiszki1/4e.jpg"
         ],
         word: [
             "http://arbu-1dcc9.web.app/src/at.wav"
@@ -191,11 +191,11 @@ const fiszki = [
             2
         ],
         img: [
-            "http://localhost/arbulanguage.com/img/fiszki1/2e.jpg",
-            "http://localhost/arbulanguage.com/img/fiszki1/2e2.jpg",
-            "http://localhost/arbulanguage.com/img/fiszki1/2e3.jpg",
-            "http://localhost/arbulanguage.com/img/fiszki1/2e4.jpg",
-            "http://localhost/arbulanguage.com/img/fiszki1/2e5.jpg"
+            "http://localhost/arbulanguage.com/img/fiszki1/5a.jpg",
+            "http://localhost/arbulanguage.com/img/fiszki1/5b.jpg",
+            "http://localhost/arbulanguage.com/img/fiszki1/5c.jpg",
+            "http://localhost/arbulanguage.com/img/fiszki1/5d.jpg",
+            "http://localhost/arbulanguage.com/img/fiszki1/5e.jpg"
         ],
         word: [
             "http://localhost/arbulanguage.com/src/the.wav"
@@ -233,11 +233,11 @@ const fiszki = [
             2
         ],
         img: [
-            "http://localhost/arbulanguage.com/img/fiszki1/2f.jpg",
-            "http://localhost/arbulanguage.com/img/fiszki1/2f2.jpg",
-            "http://localhost/arbulanguage.com/img/fiszki1/2f3.jpg",
-            "http://localhost/arbulanguage.com/img/fiszki1/2f4.jpg",
-            "http://localhost/arbulanguage.com/img/fiszki1/2f5.jpg"
+            "http://localhost/arbulanguage.com/img/fiszki1/6a.jpg",
+            "http://localhost/arbulanguage.com/img/fiszki1/6b.jpg",
+            "http://localhost/arbulanguage.com/img/fiszki1/6c.jpg",
+            "http://localhost/arbulanguage.com/img/fiszki1/6d.jpg",
+            "http://localhost/arbulanguage.com/img/fiszki1/6e.jpg"
         ],
         word: [
             "http://localhost/arbulanguage.com/src/party.wav"
@@ -275,11 +275,11 @@ const fiszki = [
             3
         ],
         img: [
-            "http://arbu-1dcc9.web.app/img/fiszki1/1a.jpg",
-            "http://arbu-1dcc9.web.app/img/fiszki1/1a2.jpg",
-            "http://arbu-1dcc9.web.app/img/fiszki1/1a3.jpg",
-            "http://arbu-1dcc9.web.app/img/fiszki1/1a4.jpg",
-            "http://arbu-1dcc9.web.app/img/fiszki1/1a5.jpg"
+            "http://arbu-1dcc9.web.app/img/fiszki1/7a.jpg",
+            "http://arbu-1dcc9.web.app/img/fiszki1/7b.jpg",
+            "http://arbu-1dcc9.web.app/img/fiszki1/7c.jpg",
+            "http://arbu-1dcc9.web.app/img/fiszki1/7d.jpg",
+            "http://arbu-1dcc9.web.app/img/fiszki1/7e.jpg"
         ],
         translate: "On jest posłuszny wobec naukowych procedur",
         translateb: "[Hi is obidient to sajens prosidżer]",
@@ -325,11 +325,11 @@ const fiszki = [
             3
         ],
         img: [
-            "http://localhost/arbulanguage.com/img/fiszki1/1b.jpg",
-            "http://localhost/arbulanguage.com/img/fiszki1/1b2.jpg",
-            "http://localhost/arbulanguage.com/img/fiszki1/1b3.jpg",
-            "http://localhost/arbulanguage.com/img/fiszki1/1b4.jpg",
-            "http://localhost/arbulanguage.com/img/fiszki1/1b5.jpg"
+            "http://localhost/arbulanguage.com/img/fiszki1/8a.jpg",
+            "http://localhost/arbulanguage.com/img/fiszki1/8b.jpg",
+            "http://localhost/arbulanguage.com/img/fiszki1/8c.jpg",
+            "http://localhost/arbulanguage.com/img/fiszki1/8d.jpg",
+            "http://localhost/arbulanguage.com/img/fiszki1/8e.jpg"
         ],
         word: [
             "http://localhost/arbulanguage.com/src/is.wav"
@@ -369,11 +369,11 @@ const fiszki = [
             3
         ],
         img: [
-            "http://localhost/arbulanguage.com/img/fiszki1/1c.jpg",
-            "http://localhost/arbulanguage.com/img/fiszki1/1c2.jpg",
-            "http://localhost/arbulanguage.com/img/fiszki1/1c3.jpg",
-            "http://localhost/arbulanguage.com/img/fiszki1/1c4.jpg",
-            "http://localhost/arbulanguage.com/img/fiszki1/1c5.jpg"
+            "http://localhost/arbulanguage.com/img/fiszki1/9a.jpg",
+            "http://localhost/arbulanguage.com/img/fiszki1/9b.jpg",
+            "http://localhost/arbulanguage.com/img/fiszki1/9c.jpg",
+            "http://localhost/arbulanguage.com/img/fiszki1/9d.jpg",
+            "http://localhost/arbulanguage.com/img/fiszki1/9e.jpg"
         ],
         word: [
             "http://localhost/arbulanguage.com/src/obedient.wav"
@@ -411,11 +411,11 @@ const fiszki = [
             4
         ],
         img: [
-            "http://localhost/arbulanguage.com/img/fiszki1/1d.jpg",
-            "http://localhost/arbulanguage.com/img/fiszki1/1d2.jpg",
-            "http://localhost/arbulanguage.com/img/fiszki1/1d3.jpg",
-            "http://localhost/arbulanguage.com/img/fiszki1/1d4.jpg",
-            "http://localhost/arbulanguage.com/img/fiszki1/1d5.jpg"
+            "http://localhost/arbulanguage.com/img/fiszki1/10a.jpg",
+            "http://localhost/arbulanguage.com/img/fiszki1/10b.jpg",
+            "http://localhost/arbulanguage.com/img/fiszki1/10c.jpg",
+            "http://localhost/arbulanguage.com/img/fiszki1/10d.jpg",
+            "http://localhost/arbulanguage.com/img/fiszki1/10e.jpg"
         ],
         word: [
             "http://localhost/arbulanguage.com/src/to.wav"
@@ -455,11 +455,11 @@ const fiszki = [
             4
         ],
         img: [
-            "http://localhost/arbulanguage.com/img/fiszki1/1e.jpg",
-            "http://localhost/arbulanguage.com/img/fiszki1/1e2.jpg",
-            "http://localhost/arbulanguage.com/img/fiszki1/1e3.jpg",
-            "http://localhost/arbulanguage.com/img/fiszki1/1e4.jpg",
-            "http://localhost/arbulanguage.com/img/fiszki1/1e5.jpg"
+            "http://localhost/arbulanguage.com/img/fiszki1/11a.jpg",
+            "http://localhost/arbulanguage.com/img/fiszki1/11b.jpg",
+            "http://localhost/arbulanguage.com/img/fiszki1/11c.jpg",
+            "http://localhost/arbulanguage.com/img/fiszki1/11d.jpg",
+            "http://localhost/arbulanguage.com/img/fiszki1/11e.jpg"
         ],
         word: [
             "http://localhost/arbulanguage.com/src/science.wav"
@@ -497,11 +497,11 @@ const fiszki = [
             4
         ],
         img: [
-            "http://localhost/arbulanguage.com/img/fiszki1/1f.jpg",
-            "http://localhost/arbulanguage.com/img/fiszki1/1f2.jpg",
-            "http://localhost/arbulanguage.com/img/fiszki1/1f3.jpg",
-            "http://localhost/arbulanguage.com/img/fiszki1/1f4.jpg",
-            "http://localhost/arbulanguage.com/img/fiszki1/1f5.jpg"
+            "http://localhost/arbulanguage.com/img/fiszki1/12a.jpg",
+            "http://localhost/arbulanguage.com/img/fiszki1/12b.jpg",
+            "http://localhost/arbulanguage.com/img/fiszki1/12c.jpg",
+            "http://localhost/arbulanguage.com/img/fiszki1/12d.jpg",
+            "http://localhost/arbulanguage.com/img/fiszki1/12e.jpg"
         ],
         word: [
             "http://localhost/arbulanguage.com/src/procedure.wav"
@@ -539,11 +539,11 @@ const fiszki = [
             5
         ],
         img: [
-            "http://localhost/arbulanguage.com/img/fiszki1/5a.jpg",
-            "http://localhost/arbulanguage.com/img/fiszki1/5a2.jpg",
-            "http://localhost/arbulanguage.com/img/fiszki1/5a3.jpg",
-            "http://localhost/arbulanguage.com/img/fiszki1/5a4.jpg",
-            "http://localhost/arbulanguage.com/img/fiszki1/5a5.jpg"
+            "http://localhost/arbulanguage.com/img/fiszki1/13a.jpg",
+            "http://localhost/arbulanguage.com/img/fiszki1/13b.jpg",
+            "http://localhost/arbulanguage.com/img/fiszki1/13c.jpg",
+            "http://localhost/arbulanguage.com/img/fiszki1/13d.jpg",
+            "http://localhost/arbulanguage.com/img/fiszki1/13e.jpg"
         ],
         translate: "Bądź bardziej obecny wobec swoich emocji",
         translateb: "[Bi mor prezent wiz jour imołszyns]",
