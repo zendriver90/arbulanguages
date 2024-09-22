@@ -42,7 +42,8 @@ id: [
                 "czarny humor", "życie zawodowe",
                 "związki", "wychowanie"
         ],
-        category2: ["osoby", "osoby+czas"]
+        category2: ["osoby", "osoby+czas"],
+        category3: ["Infinitive"]
 },
 {
 id: [
@@ -191,7 +192,8 @@ id: [
                 "czarny humor", "pasja",
                 "związki", "wychowanie"
         ],
-        category2: ["osoby", "osoby+czas"]
+        category2: ["osoby", "osoby+czas"],
+                category3: ["Infinitive"]
 },
 {
 id: [
@@ -360,7 +362,8 @@ id: [
                 "czarny humor", "pasja",
                 "związki", "wychowanie"
         ],
-        category2: ["osoby", "osoby+czas"]
+        category2: ["osoby", "osoby+czas"],
+                category3: ["Infinitive"]
 },
 {
 id: [
@@ -616,7 +619,8 @@ id: [
                 "czarny humor", "pasja",
                 "związki", "wychowanie"
         ],
-        category2: ["osoby", "osoby+czas"]
+        category2: ["osoby", "osoby+czas"],
+                category3: ["Infinitive"]
 },
 {
 id: [
@@ -827,7 +831,8 @@ id: [
                 "czarny humor", "pasja",
                 "związki", "wychowanie"
         ],
-        category2: ["osoby", "osoby+czas"]
+        category2: ["osoby", "osoby+czas"],
+                category3: ["Infinitive"]
 },
 {
 id: [
@@ -995,7 +1000,8 @@ id: [
                 "czarny humor", "pasja",
                 "związki", "wychowanie"
         ],
-        category2: ["osoby", "osoby+czas"]
+        category2: ["osoby", "osoby+czas"],
+                category3: ["Infinitive"]
 },
 {
 id: [
@@ -1208,7 +1214,8 @@ id: [
                 "czarny humor", "pasja",
                 "związki", "wychowanie"
         ],
-        category2: ["osoby", "osoby+czas"]
+        category2: ["osoby", "osoby+czas"],
+                category3: ["Infinitive"]
 },
 {
 id: [
@@ -1464,7 +1471,8 @@ id: [
                 "czarny humor", "pasja",
                 "związki", "wychowanie"
         ],
-        category2: ["osoby", "osoby+czas"]
+        category2: ["osoby", "osoby+czas"],
+                category3: ["Infinitive"]
 },
 {
 id: [
@@ -1675,7 +1683,8 @@ id: [
                 "czarny humor", "pasja",
                 "związki", "wychowanie"
         ],
-        category2: ["osoby", "osoby+czas"]
+        category2: ["osoby", "osoby+czas"],
+                category3: ["Infinitive"]
 },
 {
 id: [
@@ -1843,7 +1852,8 @@ id: [
                 "czarny humor", "pasja",
                 "związki", "wychowanie"
         ],
-        category2: ["osoby", "osoby+czas"]
+        category2: ["osoby", "osoby+czas"],
+                category3: ["Infinitive"]
 },
 {
 id: [
@@ -2012,7 +2022,8 @@ id: [
                 "czarny humor", "pasja",
                 "związki", "wychowanie"
         ],
-        category2: ["osoby", "osoby+czas"]
+        category2: ["osoby", "osoby+czas"],
+                category3: ["Infinitive"]
 },
 {
 id: [
@@ -2225,7 +2236,8 @@ id: [
                 "czarny humor", "pasja",
                 "związki", "wychowanie"
         ],
-        category2: ["osoby", "osoby+czas"]
+        category2: ["osoby", "osoby+czas"],
+                category3: ["Infinitive"]
 },
 {
 id: [
@@ -2399,7 +2411,8 @@ id: [
                 "czarny humor", "pasja",
                 "związki", "wychowanie"
         ],
-        category2: ["osoby", "osoby+czas"]
+        category2: ["osoby", "osoby+czas"],
+                category3: ["Infinitive"]
 },
 {
 id: [
@@ -2611,7 +2624,8 @@ id: [
                 "czarny humor", "pasja",
                 "związki", "wychowanie"
         ],
-        category2: ["osoby", "osoby+czas"]
+        category2: ["osoby", "osoby+czas"],
+                category3: ["Infinitive"]
 },
 {
 id: [
@@ -2871,7 +2885,8 @@ id: [
                 "czarny humor", "pasja",
                 "związki", "wychowanie"
         ],
-        category2: ["osoby", "osoby+czas"]
+        category2: ["osoby", "osoby+czas"],
+                category3: ["Infinitive"]
 },
 {
 id: [
@@ -3046,7 +3061,8 @@ id: [
                 "czarny humor", "pasja",
                 "związki", "wychowanie"
         ],
-        category2: ["osoby", "osoby+czas"]
+        category2: ["osoby", "osoby+czas"],
+                category3: ["Infinitive"]
 },
 {
 id: [
@@ -3302,7 +3318,8 @@ id: [
                 "czarny humor", "pasja",
                 "związki", "wychowanie"
         ],
-        category2: ["osoby", "osoby+czas"]
+        category2: ["osoby", "osoby+czas"],
+                category3: ["Infinitive"]
 },
 {
 id: [
@@ -3513,7 +3530,8 @@ id: [
                 "czarny humor", "pasja",
                 "związki", "wychowanie"
         ],
-        category2: ["osoby", "osoby+czas"]
+        category2: ["osoby", "osoby+czas"],
+                category3: ["Infinitive"]
 },
 {
 id: [
@@ -3726,7 +3744,8 @@ id: [
                 "czarny humor", "pasja",
                 "związki", "wychowanie"
         ],
-        category2: ["osoby", "osoby+czas"]
+        category2: ["osoby", "osoby+czas"],
+                category3: ["Infinitive"]
 },
 {
 id: [
@@ -3937,7 +3956,8 @@ id: [
                 "czarny humor", "pasja",
                 "związki", "wychowanie"
         ],
-        category2: ["osoby", "osoby+czas"]
+        category2: ["osoby", "osoby+czas"],
+                category3: ["Infinitive"]
 },
 {
 id: [
@@ -4151,7 +4171,8 @@ id: [
                 "czarny humor", "pasja",
                 "związki", "wychowanie"
         ],
-        category2: ["osoby", "osoby+czas"]
+        category2: ["osoby", "osoby+czas"],
+                category3: ["Infinitive"]
 }
 ];
 function addToTrainingList(idFiszki) {

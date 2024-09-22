@@ -7793,3 +7793,666 @@ function waitForTrueThenWybierzCharakter() {
                     border: 3px solid blue;
                 }
             }
+            
+                                                    if (window.matchMedia("(max-width: 999px)").matches) {
+                                            if (indexDiv % 2 === 0) {
+                            const $videoElement = $('<video>').attr({
+                                'autoplay': true,
+                                'muted': true,
+                                'loop': true
+                            }).css({
+                                'border': '20px solid orange', // Dodanie obramowania do wideo
+                                'z-index': '1' // Ustaw z-index dla wideo na niższy
+                            });
+                                            } else if (indexDiv % 1 === 0 || indexDiv % 3 === 0 || indexDiv % 5 === 0) {
+                                                console.log('hej33bb', indexDiv);
+                                 const $videoElement = $('<video>').attr({
+                                'autoplay': true,
+                                'muted': true,
+                                'loop': true
+                            }).css({
+                                'border': '20px solid blue', // Dodanie obramowania do wideo
+                                'z-index': '1' // Ustaw z-index dla wideo na niższy
+                            });
+                                            }
+                                        } else {
+                            const $videoElement = $('<video>').attr({
+                                'autoplay': true,
+                                'muted': true,
+                                'loop': true
+                            }).css({
+                                'border': '7px solid orange', // Dodanie obramowania do wideo
+                                'z-index': '1' // Ustaw z-index dla wideo na niższy
+                            });
+                                        }
+                                        
+                                        
+                                                            function addBackgroundToText3(matchingFiszki3, matchingIndexes, currentIndexValue, aktualny, lesson3FirstPartLength, lesson3PartLength) {
+                        setTimeout(function () {
+                            sentence1c2a = "";
+                            sentence1c22 = "";
+                            sentence30 = "";
+                            sentence33 = "";
+                            // Iteracja przez matchingFiszki2 dla sentence1
+                            for (let l = 0; l < matchingFiszki3.length; l++) {
+                                const fiszka = matchingFiszki3[l];
+                                console.log('fiszka:', fiszka);
+                                if (!fiszka.sentence1 || fiszka.sentence1.length === 0) {
+                                    console.log('fiszka.sentence1 is undefined or empty');
+                                    continue; // Jeśli sentence1 nie istnieje lub jest puste, przejdź do następnej fiszki
+                                }
+                                // Iteracja przez elementy sentence1
+                                for (let lm = 0; lm < fiszka.sentence1.length; lm++) {
+                                    let sentencePart = fiszka.sentence1[lm];
+                                    console.log('sentencePart5:', sentencePart);
+                                    const indexToCheck = l + lesson3PartLength + 1;
+                                    console.log('indexToCheck55:', indexToCheck);
+                                    if (aktualny) {
+                                        if (matchingIndexes.includes(indexToCheck) && currentIndexValue == 1) {
+                                            const spanElement = document.createElement('span');
+                                            spanElement.textContent = sentencePart;
+                                            spanElement.classList.add('white-text'); // Dodaj klasę white-text
+                                            spanElement.classList.remove('highlighted-sentence');
+                                            spanElement.classList.add('yellow');
+                                            // Zaktualizuj sentencePart, aby zawierał utworzony element span
+                                            sentencePart = spanElement.outerHTML;
+                                        } else if (matchingIndexes.includes(indexToCheck) && currentIndexValue == 2) {
+                                            // Sprawdzenie, czy indeks bieżącej fiszki znajduje się w tablicy matchingIndexes
+                                            const spanElement = document.createElement('span');
+                                            spanElement.textContent = sentencePart;
+                                            if (!spanElement.classList.contains('yellow')) {
+                                                spanElement.classList.add('yellow');
+                                                spanElement.classList.add('highlighted-sentence');
+                                            }
+                                            // Zaktualizuj sentencePart, aby zawierał utworzony element span
+                                            // Zaktualizuj sentencePart, aby zawierał utworzony element span
+                                            sentencePart = spanElement.outerHTML;
+                                            let sentencePart1 = fiszka.translate ? fiszka.translate : "";
+                                            sentence1bb1c += sentencePart1 + " ";
+                                            console.log('hej45', sentencePart1);
+                                            // Dodaj element do DOM, jeśli jeszcze go nie ma
+                                            if ($sentenceDiv.find('.sentence1bb1c').length === 0) {
+                                                $sentenceDiv.append('<div class="sentence1bb1c"></div>');
+                                            }
+                                            let $sentence1bb1c = $sentenceDiv.find('.sentence1bb1c');
+                                            $sentence1bb1c.html(sentence1bb1c);
+                                            // Ustawienie widoczności i stylu dla .sentence1bb
+                                            // Spróbuj ustawić styl po pewnym czasie, aby upewnić się, że element jest w pełni renderowany
+                                            if (!sentence1bVisible) {
+                                                $sentence1bb1c.css({
+                                                    'display': 'block',
+                                                    'margin-bottom': '0px',
+                                                    'top': '20px',
+                                                    'position': 'relative'
+                                                });
+                                                console.log('sentence1bb style set to visible');
+                                            }
+
+
+                                        } else if (currentIndexValue == 2) {
+                                            const spanElement = document.createElement('span');
+                                            spanElement.textContent = sentencePart;
+                                            spanElement.classList.add('highlighted-sentence');
+                                            // Zaktualizuj sentencePart, aby zawierał utworzony element span
+                                            sentencePart = spanElement.outerHTML;
+                                        } else if (currentIndexValue == 0 && matchingIndexes.includes(indexToCheck)) {
+                                            const spanElement = document.createElement('span');
+                                            spanElement.textContent = sentencePart;
+                                            spanElement.classList.remove('highlighted-sentence');
+                                            spanElement.classList.add('yellow');
+                                            // Zaktualizuj sentencePart, aby zawierał utworzony element span
+                                            sentencePart = spanElement.outerHTML;
+                                        }
+                                    }
+
+                                    sentence30 += sentencePart + " ";
+                                }
+                            }
+                            // Iteracja przez matchingFiszki2 dla sentence2
+                            for (let lmm = 0; lmm < matchingFiszki3.length; lmm++) {
+                                const fiszka = matchingFiszki3[lmm];
+                                console.log('fiszka2:', fiszka);
+                                if (!fiszka.sentence2 || fiszka.sentence2.length === 0) {
+                                    console.log('fiszka.sentence2 is undefined or empty');
+                                    continue;
+                                }
+
+                                // Iteracja przez elementy sentence2
+                                for (let lmn = 0; lmn < fiszka.sentence2.length; lmn++) {
+                                    let sentencePart2 = fiszka.sentence2[lmn];
+                                    console.log('sentencePart2 przed przetworzeniem:', sentencePart2);
+                                    const indexToCheck = lmm + lesson3PartLength + 1;
+                                    console.log('indexToCheck3:', indexToCheck);
+                                    if (aktualny) {
+                                        if (matchingIndexes.includes(indexToCheck) && currentIndexValue == 1) {
+                                            const spanElement = document.createElement('span');
+                                            spanElement.textContent = sentencePart2;
+                                            spanElement.classList.remove('highlighted-sentence');
+                                            spanElement.classList.add('yellow');
+                                            // Zaktualizuj sentencePart, aby zawierał utworzony element span
+                                            sentencePart2 = spanElement.outerHTML;
+                                        } else if (matchingIndexes.includes(indexToCheck) && currentIndexValue == 2) {
+                                            // Sprawdzenie, czy indeks bieżącej fiszki znajduje się w tablicy matchingIndexes
+                                            const spanElement = document.createElement('span');
+                                            spanElement.textContent = sentencePart2;
+                                            if (!spanElement.classList.contains('yellow')) {
+                                                spanElement.classList.add('yellow');
+                                                spanElement.classList.add('highlighted-sentence');
+                                            }
+                                            // Zaktualizuj sentencePart, aby zawierał utworzony element span
+                                            sentencePart2 = spanElement.outerHTML;
+                                        } else if (currentIndexValue == 2) {
+                                            const spanElement = document.createElement('span');
+                                            spanElement.textContent = sentencePart2;
+                                            spanElement.classList.add('highlighted-sentence');
+                                            // Zaktualizuj sentencePart, aby zawierał utworzony element span
+                                            sentencePart2 = spanElement.outerHTML;
+                                        } else if (currentIndexValue == 0 && matchingIndexes.includes(indexToCheck)) {
+                                            const spanElement = document.createElement('span');
+                                            spanElement.textContent = sentencePart2;
+                                            spanElement.classList.remove('highlighted-sentence');
+                                            spanElement.classList.add('yellow');
+                                            // Zaktualizuj sentencePart, aby zawierał utworzony element span
+                                            sentencePart2 = spanElement.outerHTML;
+                                        }
+                                    }
+
+                                    sentence33 += sentencePart2 + " ";
+                                }
+                            }
+                            for (let li = 0; li < matchingFiszki3.length; li++) {
+                                const fiszka = matchingFiszki3[li];
+                                console.log('fiszka:', fiszka);
+                                let sentencePart333 = fiszka.translateb;
+                                console.log('sentencePart333:', sentencePart333);
+                                if (aktualny) {
+                                    // Sprawdzenie, czy indeks bieżącej fiszki znajduje się w tablicy matchingIndexes
+                                    const spanElement = document.createElement('span');
+                                    spanElement.textContent = sentencePart333;
+                                    sentencePart333 = spanElement.outerHTML;
+                                }
+                                sentence1c2a += sentencePart333 + " ";
+                            }
+                            for (let li = 0; li < matchingFiszki3.length; li++) {
+                                const fiszka = matchingFiszki3[li];
+                                console.log('fiszka:', fiszka);
+                                let sentencePart444 = fiszka.translate;
+                                if (aktualny) {
+                                    // Sprawdzenie, czy indeks bieżącej fiszki znajduje się w tablicy matchingIndexes
+                                    const spanElement = document.createElement('span');
+                                    spanElement.textContent = sentencePart444;
+                                    sentencePart444 = spanElement.outerHTML;
+                                }
+                                sentence1c22 += sentencePart444 + " ";
+                            }
+                            if (sentence1c2a === "") {
+                                let sentencePart333 = fiszka.translateb ? fiszka.translateb : "";
+                                sentence1c2a += sentencePart333 + " ";
+                            }
+                            if (sentence1c22 === "") {
+                                let sentencePart444 = fiszka.translate ? fiszka.translate : "";
+                                sentence1c22 += sentencePart444 + " ";
+                            }
+                            console.log('final sentence30:', sentence30);
+                            console.log('final sentence33:', sentence33);
+                            $sentenceDivB.html(`
+${sentence10}${sentence11}<br>
+<div class="sentence1b">${sentence1b}</div>
+        <div class="sentence1b2">${sentence1b2}</div>
+${sentence20}${sentence22}<br>
+<div class="sentence1b2a">${sentence1b2a}</div>
+<div class="sentence1b22">${sentence1b22}</div>
+${sentence30}${sentence33}<br>
+        <div class="sentence1c2a">${sentence1c2a}</div>
+<div class="sentence1c22">${sentence1c22}</div>
+`);
+                            $('.sentence1b').html('');
+                            $('.sentence1b2').html('');
+                            $('.sentence1b2a').html('');
+                            $('.sentence1b22').html('');
+
+                            if ($sentence1c2a.css('display') === 'none') {
+                                $sentence1c2a.css('display', 'block');
+                                $sentence1c2a.css({
+                                    'margin-bottom': '-20px',
+                                    'top': '0px',
+                                    'position': 'relative',
+                                });
+                            }
+                            if ($sentence1c22.css('display') === 'none') {
+                                $sentence1c22.css('display', 'block');
+                                $sentence1c22.css({
+                                    'margin-bottom': '-20px',
+                                    'top': '0px',
+                                    'position': 'relative'
+                                });
+                            }
+                        }, 0);
+                    }
+                                        function addBackgroundToText2(matchingFiszki2, matchingIndexes, currentIndexValue, aktualny, lesson2FirstPartLength, lesson2PartLength) {
+
+                        setTimeout(function () {
+                            sentence20 = "";
+                            sentence22 = "";
+                            sentence1b2a = "";
+                            sentence1b22 = "";
+                            sentence1bb1b = "";
+                            // Iteracja przez matchingFiszki2 dla sentence1
+                            for (let j = 0; j < matchingFiszki2.length; j++) {
+                                const fiszka = matchingFiszki2[j];
+                                console.log('fiszka:', fiszka);
+                                if (!fiszka.sentence1 || fiszka.sentence1.length === 0) {
+                                    console.log('fiszka.sentence1 is undefined or empty');
+                                    continue; // Jeśli sentence1 nie istnieje lub jest puste, przejdź do następnej fiszki
+                                }
+
+                                // Iteracja przez elementy sentence1
+                                for (let k = 0; k < fiszka.sentence1.length; k++) {
+                                    let sentencePart = fiszka.sentence1[k];
+                                    console.log('sentencePart5:', sentencePart);
+                                    const indexToCheck = j + lesson2PartLength + 1;
+                                    console.log('indexToCheck5:', indexToCheck);
+                                    if (aktualny) {
+                                        if (matchingIndexes.includes(indexToCheck) && currentIndexValue == 0) {
+                                            spanElement.textContent = sentencePart2;
+                                            spanElement.classList.remove('highlighted-sentence');
+                                            spanElement.classList.add('yellow');
+                                            // Zaktualizuj sentencePart, aby zawierał utworzony element span
+                                            sentencePart2 = spanElement.outerHTML;
+                                            const spanElement = document.createElement('span');
+                                            spanElement.textContent = sentencePart;
+                                            spanElement.classList.remove('highlighted-sentence');
+                                            spanElement.classList.add('yellow');
+                                            // Zaktualizuj sentencePart, aby zawierał utworzony element span
+                                            sentencePart = spanElement.outerHTML;
+                                        } else if (matchingIndexes.includes(indexToCheck) && currentIndexValue == 1) {
+                                            // Sprawdzenie, czy indeks bieżącej fiszki znajduje się w tablicy matchingIndexes
+                                            const spanElement = document.createElement('span');
+                                            spanElement.textContent = sentencePart;
+                                        } else if (currentIndexValue == 1) {
+                                            const spanElement = document.createElement('span');
+                                            spanElement.textContent = sentencePart;
+                                            spanElement.classList.add('highlighted-sentence');
+                                            // Zaktualizuj sentencePart, aby zawierał utworzony element span
+                                            sentencePart = spanElement.outerHTML;
+                                        } else if (currentIndexValue == 2 && matchingIndexes.includes(indexToCheck)) {
+                                            const spanElement = document.createElement('span');
+                                            spanElement.textContent = sentencePart;
+                                            spanElement.classList.remove('highlighted-sentence');
+                                            spanElement.classList.add('yellow');
+                                            // Zaktualizuj sentencePart, aby zawierał utworzony element span
+                                            sentencePart = spanElement.outerHTML;
+                                        }
+                                    }
+
+                                    sentence20 += sentencePart + " ";
+                                }
+                            }
+
+                            // Iteracja przez matchingFiszki2 dla sentence2
+                            for (let jj = 0; jj < matchingFiszki2.length; jj++) {
+                                const fiszka = matchingFiszki2[jj];
+                                console.log('fiszka2:', fiszka);
+                                if (!fiszka.sentence2 || fiszka.sentence2.length === 0) {
+                                    console.log('fiszka.sentence2 is undefined or empty');
+                                    continue;
+                                }
+
+                                // Iteracja przez elementy sentence2
+                                for (let kk = 0; kk < fiszka.sentence2.length; kk++) {
+                                    let sentencePart2 = fiszka.sentence2[kk];
+                                    console.log('sentencePart2 przed przetworzeniem:', sentencePart2);
+                                    const indexToCheck = jj + lesson2PartLength + 1;
+                                    console.log('indexToCheck3:', indexToCheck);
+                                    if (aktualny) {
+                                        if (matchingIndexes.includes(indexToCheck) && currentIndexValue == 0) {
+                                            const spanElement = document.createElement('span');
+                                            spanElement.textContent = sentencePart2;
+                                            spanElement.classList.remove('highlighted-sentence');
+                                            spanElement.classList.add('yellow');
+                                            // Zaktualizuj sentencePart, aby zawierał utworzony element span
+                                            sentencePart2 = spanElement.outerHTML;
+                                        } else if (matchingIndexes.includes(indexToCheck) && currentIndexValue == 1) {
+                                            // Sprawdzenie, czy indeks bieżącej fiszki znajduje się w tablicy matchingIndexes
+                                            const spanElement = document.createElement('span');
+                                            spanElement.textContent = sentencePart2;
+                                            if (!spanElement.classList.contains('yellow')) {
+                                                spanElement.classList.add('yellow');
+                                                spanElement.classList.add('highlighted-sentence');
+                                            }
+                                            // Zaktualizuj sentencePart, aby zawierał utworzony element span
+                                            sentencePart2 = spanElement.outerHTML;
+                                        } else if (currentIndexValue == 1) {
+                                            const spanElement = document.createElement('span');
+                                            spanElement.textContent = sentencePart2;
+                                            spanElement.classList.add('highlighted-sentence');
+                                            // Zaktualizuj sentencePart, aby zawierał utworzony element span
+                                            sentencePart2 = spanElement.outerHTML;
+                                        } else if (currentIndexValue == 2 && matchingIndexes.includes(indexToCheck)) {
+                                            const spanElement = document.createElement('span');
+                                            spanElement.textContent = sentencePart2;
+                                            spanElement.classList.remove('highlighted-sentence');
+                                            spanElement.classList.add('yellow');
+                                            // Zaktualizuj sentencePart, aby zawierał utworzony element span
+                                            sentencePart2 = spanElement.outerHTML;
+                                        }
+                                    }
+
+                                    sentence22 += sentencePart2 + " ";
+                                }
+                            }
+                            for (let li = 0; li < matchingFiszki2.length; li++) {
+                                const fiszka = matchingFiszki2[li];
+                                console.log('fiszka:', fiszka);
+                                let sentencePart333 = fiszka.translateb;
+                                console.log('sentencePart333:', sentencePart333);
+                                if (aktualny) {
+                                    // Sprawdzenie, czy indeks bieżącej fiszki znajduje się w tablicy matchingIndexes
+                                    const spanElement = document.createElement('span');
+                                    spanElement.textContent = sentencePart333;
+                                    sentencePart333 = spanElement.outerHTML;
+                                }
+                                sentence1b2a += sentencePart333 + " ";
+                            }
+                            for (let li = 0; li < matchingFiszki2.length; li++) {
+                                const fiszka = matchingFiszki2[li];
+                                console.log('fiszka:', fiszka);
+                                let sentencePart444 = fiszka.translate;
+                                if (aktualny) {
+                                    // Sprawdzenie, czy indeks bieżącej fiszki znajduje się w tablicy matchingIndexes
+                                    const spanElement = document.createElement('span');
+                                    spanElement.textContent = sentencePart444;
+                                    sentencePart444 = spanElement.outerHTML;
+                                }
+                                sentence1b22 += sentencePart444 + " ";
+                            }
+                            if (sentence1b2a === "") {
+                                let sentencePart333 = fiszka.translateb ? fiszka.translateb : "";
+                                sentence1b2a += sentencePart333 + " ";
+                            }
+                            if (sentence1b22 === "") {
+                                let sentencePart444 = fiszka.translate ? fiszka.translate : "";
+                                sentence1b22 += sentencePart444 + " ";
+                            }
+
+                            // Dodanie treści do diva wraz z przyciskiem
+                            $sentenceDivB.html(`
+${sentence10}${sentence11}<br>
+<div class="sentence1b">${sentence1b}</div>
+        <div class="sentence1b2">${sentence1b2}</div>
+${sentence20}${sentence22}<br>
+<div class="sentence1b2a">${sentence1b2a}</div>
+<div class="sentence1b22">${sentence1b22}</div>
+${sentence30}${sentence33}<br>
+                <div class="sentence1c2a">${sentence1c2a}</div>
+<div class="sentence1c22">${sentence1c22}</div>
+`);
+                            $('.sentence1b').html('');
+                            $('.sentence1b2').html('');
+
+                            if ($sentence1b2a.css('display') === 'none') {
+                                $sentence1b2a.css('display', 'block');
+                                $sentence1b2a.css({
+                                    'margin-bottom': '-20px',
+                                    'top': '0px',
+                                    'position': 'relative'
+                                });
+                            }
+                            if ($sentence1b22.css('display') === 'none') {
+                                $sentence1b22.css('display', 'block');
+                                $sentence1b22.css({
+                                    'margin-bottom': '-20px',
+                                    'top': '0px',
+                                    'position': 'relative'
+                                });
+                            }
+                        }, 0);
+                    }
+                    
+                            function addScenes(index) {
+            // Sprawdź, czy istnieje element <div> o klasie 'scene-description'
+            let $sceneDiv = $container.find('.scene-description');
+
+            if ($sceneDiv.length) {
+                // Jeśli istnieje, wyczyść jego zawartość
+                $sceneDiv.empty();
+            } else {
+                // Jeśli nie istnieje, stwórz nowy element <div>
+                $sceneDiv = $('<div>').addClass('scene-description').appendTo($container);
+            }
+
+            // Dodaj nowy tekst do <div>
+            $sceneDiv.text(`Scena z filmu ${srcWords2[index]}`);
+
+            if (window.matchMedia("(max-width: 999px)").matches) {
+                if (indexDiv % 2 === 0) {
+                    console.log('Warunek podzielności przez 2 spełniony2');
+                    // Zmień CSS paska napisu, aby wyświetlał się po lewej stronie kontenera
+                    $sceneDiv.css({
+                        'position': 'relative',
+                        'margin-top': '-140px',
+                        'margin-left': '-450px',
+                        'text-align': 'left',
+                        'background-color': 'orange',
+                        'z-index': '9999999'
+                    });
+                } else if (indexDiv % 1 === 0 || indexDiv % 3 === 0 || indexDiv % 5 === 0) {
+                    console.log('Warunek podzielności przez 1 spełniony2');
+                    // Zmień CSS paska napisu, aby wyświetlał się po lewej stronie kontenera
+                    $sceneDiv.css({
+                        'position': 'relative',
+                        'margin-top': '-140px',
+                        'margin-right': '-20px',
+                        'text-align': 'left',
+                        'background-color': 'blue',
+                        'z-index': '99999999999'
+                    });
+                }
+            } else if (window.matchMedia("(min-width: 999px)").matches) {
+                                        // Dodatkowe style, jeśli indexDiv jest podzielny przez 4
+                                        if (indexDiv % 4 === 0) {
+                                            // Dodaj klasę 'scene-description2' do $sceneDiv
+                                            $sceneDiv.removeClass('scene-description');
+                                            $sceneDiv.addClass('scene-description2');
+                                        } else {
+                                            // Upewnij się, że klasa 'scene-description2' jest usunięta, jeśli nie jest podzielna przez 4
+                                            $sceneDiv.removeClass('scene-description2');
+                                        }
+            }
+        }
+        
+        <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Language Selection</title>
+    <style>
+        html, body {
+            height: 100%;
+            margin: 0;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+
+        .container {
+            max-width: 800px;
+            width: 100%;
+        }
+
+        .flag-container {
+            display: flex;
+            justify-content: space-around;
+            margin-bottom: 20px;
+        }
+
+        .flag-container div {
+            cursor: pointer;
+            border: 3px solid transparent;
+            padding: 10px;
+            transition: border-color 0.3s ease;
+        }
+
+        .flag-container div.selected {
+            border-color: #007BFF;
+        }
+
+        video {
+            width: 330px;
+            position: relative;
+            height: auto;
+        }
+
+        button {
+            margin-top: 20px;
+            padding: 10px 20px;
+            font-size: 1.2rem;
+            cursor: pointer;
+            display: none; /* Ukryty przycisk, pojawi się po wyborze języka */
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h2>Wybierz swój ojczysty język: / My language: </h2>
+
+        <!-- Pojemnik na flagi ojczystych języków -->
+        <div class="flag-container" id="native-language-container">
+            <div data-language="pl">
+                <video autoplay loop muted>
+                    <source src="start/Poland.mp4" type="video/mp4">
+                    Twój przeglądarka nie obsługuje elementu video.
+                </video>
+                <p>Polski</p>
+            </div>
+            <div data-language="en">
+                <video autoplay loop muted>
+                    <source src="start/USA.mp4" type="video/mp4">
+                    Twój przeglądarka nie obsługuje elementu video.
+                </video>
+                <p>English</p>
+            </div>
+        </div>
+
+        <div id="language-options" class="hidden">
+            <h2>Wybierz język do nauki: / Select a language to learn:/</h2>
+            <!-- Pojemnik na flagi języków do nauki -->
+            <div class="flag-container" id="learn-language-container">
+                <!-- Opcje języków do nauki zostaną załadowane dynamicznie -->
+            </div>
+        </div>
+
+        <button id="start-btn">START</button>
+    </div>
+
+    <script>
+        const nativeLanguageContainer = document.getElementById('native-language-container');
+        const learnLanguageContainer = document.getElementById('learn-language-container');
+        const languageOptionsDiv = document.getElementById('language-options');
+        const startBtn = document.getElementById('start-btn');
+        let selectedNativeLanguage = '';
+        let selectedLearnLanguage = '';
+
+        // Zdefiniowane języki i flagi
+        const flags = {
+            pl: 'start/Poland.mp4',
+            en: 'start/USA.mp4',
+            es: 'start/Spain.mp4'
+        };
+
+        // Kliknięcie na flagę ojczystego języka
+        nativeLanguageContainer.addEventListener('click', function(e) {
+            const clickedElement = e.target.closest('div[data-language]');
+            if (clickedElement) {
+                // Usuń zaznaczenie ze wszystkich
+                Array.from(nativeLanguageContainer.children).forEach(child => {
+                    child.classList.remove('selected');
+                });
+
+                // Zaznacz wybrany język
+                clickedElement.classList.add('selected');
+                selectedNativeLanguage = clickedElement.getAttribute('data-language');
+                
+                // Pokaż opcje nauki języka w zależności od wybranego ojczystego języka
+                loadLearningOptions(selectedNativeLanguage);
+                languageOptionsDiv.classList.remove('hidden');
+            }
+        });
+
+        // Kliknięcie na flagę języka do nauki
+        learnLanguageContainer.addEventListener('click', function(e) {
+            const clickedElement = e.target.closest('div[data-language]');
+            if (clickedElement) {
+                // Usuń zaznaczenie ze wszystkich
+                Array.from(learnLanguageContainer.children).forEach(child => {
+                    child.classList.remove('selected');
+                });
+
+                // Zaznacz wybrany język
+                clickedElement.classList.add('selected');
+                selectedLearnLanguage = clickedElement.getAttribute('data-language');
+
+                // Pokaż przycisk START
+                startBtn.style.display = 'block';
+            }
+        });
+
+        // Funkcja ładowania opcji języków do nauki
+        function loadLearningOptions(nativeLanguage) {
+            learnLanguageContainer.innerHTML = ''; // Resetowanie zawartości
+            let languageOptions = [];
+
+            if (nativeLanguage === 'pl') {
+                languageOptions = [
+                    { value: 'en', text: 'Angielski', video: flags['en'] },
+                    { value: 'es', text: 'Hiszpański', video: flags['es'] }
+                ];
+            } else if (nativeLanguage === 'en') {
+                languageOptions = [
+                    { value: 'es', text: 'Spanish', video: flags['es'] }
+                ];
+            }
+
+            // Tworzenie opcji wideo dla każdego języka
+            languageOptions.forEach(option => {
+                const div = document.createElement('div');
+                div.setAttribute('data-language', option.value);
+                div.innerHTML = `
+                    <video autoplay loop muted>
+                        <source src="${option.video}" type="video/mp4">
+                        Twój przeglądarka nie obsługuje elementu video.
+                    </video>
+                    <p>${option.text}</p>
+                `;
+                learnLanguageContainer.appendChild(div);
+            });
+        }
+
+        // Funkcja obsługi przycisku START
+        startBtn.addEventListener('click', function() {
+            let link = '';
+
+            if (selectedNativeLanguage === 'pl' && selectedLearnLanguage === 'en') {
+                link = 'matrix.html';
+            } else if (selectedNativeLanguage === 'pl' && selectedLearnLanguage === 'es') {
+                link = 'matrix2.html';
+            } else if (selectedNativeLanguage === 'en' && selectedLearnLanguage === 'es') {
+                link = 'matrixspanish.html';
+            }
+
+            if (link) {
+                window.location.href = link;
+            }
+        });
+    </script>
+</body>
+</html>
+
+            <button class="charakter-button" onclick="przekazArgument0('Infinitive', '', '', '', '', '', tablica3[1])">INFINITIVE</button>

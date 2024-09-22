@@ -1,3 +1,4 @@
+@media (min-width: 999px) {
 .fiszka {
     border: 1px solid #999;
     background: #eee;
@@ -202,3 +203,220 @@ story_button {
     bottom: 30px;
     background-color: #dcdcdc;
 }
+            }
+            @media (max-width: 999px) {
+
+                .fiszka {
+    border: 1px solid #999;
+    background: #eee;
+    border-radius: 5px;
+    text-align: center;
+    width: 100%;
+    height: auto;
+    margin-right: 200px; /* Ustaw margines prawy */
+    box-sizing: border-box; /* Wlicz marginesy w szerokość i wysokość */
+}
+
+.fiszka.active2 {
+    border: 1px solid #999;
+    background: green;
+    border-radius: 5px;
+    text-align: center;
+    width: 100%;
+    height: auto;
+}
+
+.fiszka.active {
+    border: 1px solid #999;
+    background: green;
+    border-radius: 5px;
+    text-align: center;
+    width: 100%;
+    height: auto;
+}
+
+.fiszka.imgIndexNull {
+    border: 1px solid #999;
+    background: #eee;
+    border-radius: 5px;
+    text-align: center;
+    width: 100%;
+    height: auto;
+}
+
+.fiszka.imgIndex-0 {
+    border: 1px solid #999;
+    background: orange;
+    border-radius: 5px;
+    text-align: center;
+    width: 100%;
+    height: auto;
+}
+
+.fiszka.imgIndex-1 {
+    border: 1px solid #999;
+    background: orange;
+    border-radius: 5px;
+    text-align: center;
+    width: 100%;
+    height: auto;
+}
+
+.fiszka.imgIndex-2 {
+    border: 1px solid #999;
+    background: orange;
+    border-radius: 5px;
+    text-align: center;
+    width: 100%;
+    height: auto;
+}
+
+.fiszka.imgIndex-3 {
+    border: 1px solid #999;
+    background: orange;
+    border-radius: 5px;
+    text-align: center;
+    width: 100%;
+    height: auto;
+}
+
+.fiszka.imgIndex-4 {
+    border: 1px solid #999;
+    background: orange;
+    border-radius: 5px;
+    text-align: center;
+    width: 100%;
+    height: auto;
+}
+
+.fiszka_story {
+    display: block;
+    margin-top: 65px;
+    font-size: 26px;
+}
+
+img.fiszka_img {
+    position: relative;
+    width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+    z-index: 100;
+}
+
+.hashtag-container {
+    display: block;
+    position: relative;
+    background-color: gray;
+    color: #fff;
+    border-radius: 3px;
+    width: 200px;
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+    transition: background 1s;
+    float: right;
+    z-index: 150;
+    font-size: 15px;
+}
+
+.fiszka_button.fiszka_button_trening {
+    border-radius: 20px;
+  width: 300px;  /* Dostosuj szerokość według własnych preferencji */
+  height: 80px;  /* Dostosuj wysokość według własnych preferencji */
+  font-size: 25px;
+  /* Dodaj inne właściwości CSS, jeśli są potrzebne */
+}
+.fiszka_button.fiszka_button_znam {
+        border-radius: 20px;
+  width: 300px;  /* Dostosuj szerokość według własnych preferencji */
+  height: 80px;  /* Dostosuj wysokość według własnych preferencji */
+    font-size: 25px;
+  /* Dodaj inne właściwości CSS, jeśli są potrzebne */
+}
+
+
+button.fiszka_button {
+    /* zestylowac */
+}
+
+button.story_button {
+    border-radius: 15px;
+    height: 50px;
+    width: 300px;
+    margin-top: 10px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+    font-size: 30px;
+}
+button.story_button2 {
+    border-radius: 5px;
+    height: 25px;
+        display: block;
+    margin: 0 auto;
+}
+button.fiszka_button_znam {}
+button.fiszka_button_trening {}
+
+button.fiszka_button_znam.fiszka.active { background: green }
+button.fiszka_button_trening.fiszka.active { background: orange }
+
+.like {
+        position: absolute;
+    background-color: white;
+    color:gray;
+    border-radius:3px;
+    width:150px;
+    height:40px;
+    line-height:40px;
+    vertical-align:middle;
+    text-align:center;
+    display:block;
+    text-decoration:none;
+    font-family: 'Open Sans', sans-serif;
+    transition: background 1s;
+    z-index: 200;
+}
+
+    .like:hover {
+        background-color: #aaa; /* Dowolny kolor tła dla efektu hover */
+    }
+.liked {
+    background-color: white;
+    color: orange;
+}
+
+.fiszka.button.story_button.active2 {
+    border: 1px solid #999;
+    background: orange;
+    border-radius: 5px;
+    text-align: center;
+    width: 100%;
+    height: auto;
+}
+
+story_button {
+    border-radius: 8px;
+}
+
+.likeIconContainer {
+    display: inline-block; /* Ustawia ikonę i tekst obok siebie */
+    vertical-align: middle; /* Wyśrodkuj ikonę względem tekstu */
+}
+
+.story_button {
+    white-space: nowrap; /* Zapobiega przewijaniu tekstu */
+}
+
+.orange-button {
+    background-color: orange;
+    /* Dodaj inne właściwości stylu, jeśli to konieczne */
+}
+
+.likeCounterDiv {
+        position: relative;
+        display: block;
+    float: left;
+    z-index: 999;
+    bottom: 30px;
+    background-color: #dcdcdc;
+}
+            }

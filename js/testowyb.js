@@ -7,10 +7,10 @@ const fiszki = [
         ],
         // obrazek
         img: [
-            "http://arbu-1dcc9.web.app/img/fiszki1/1a.jpg",
-            "http://arbu-1dcc9.web.app/img/fiszki1/1b.jpg",
-            "http://arbu-1dcc9.web.app/img/fiszki1/1c.jpg",
-            "http://arbu-1dcc9.web.app/img/fiszki1/1d.jpg",
+            "http://arbu-1dcc9.web.app/img/fiszki1/1a.jpeg",
+            "http://arbu-1dcc9.web.app/img/fiszki1/1b.jpeg",
+            "http://arbu-1dcc9.web.app/img/fiszki1/1c.jpeg",
+            "http://arbu-1dcc9.web.app/img/fiszki1/1d.jpeg",
             "http://arbu-1dcc9.web.app/img/fiszki1/1e.jpg"
         ],
         translate: "Wszyscy mają ubaw na zabawie",
@@ -20,16 +20,16 @@ const fiszki = [
         srcWord2: ["http://arbu-1dcc9.web.app/filmy/procedure.mp4", "Breaking Bad"],
         srcWordimage: "http://arbu-1dcc9.web.app/filmy/party.png",
         word: [
-            "http://localhost/arbulanguage.com/src/everybody.wav"
+            "http://arbu-1dcc9.web.app/src/everybody.wav"
         ],
 
         // historia
         story: [
             "W <u><b>e</u></b>-sportowej grze silnik samochodu robi <u><b>wry</u></b>, wszyscy chcą takich rajdów, <u><b>bo</u></b> idzie <u><b>dy</u></b>m",
-            "<u><b>Ew</u></b>a robi <u><b>ry</u></b>by, bo będzie robiła zupę rybną, a na drugie placki z <u><b>dy</u></b>ni. <u><b>Każdemu</u></b> to smakowało",
-            "Kr<u><b>ew</u></b> każdego pacjenta jest dokładnie przebadana i organizm <u><b>wsystkich</u></b> pacjentów wraca na właściwe to<u><b>ry</u></b>, bo gdy ma dobrą opieke wraca do zdrowia",
-            "<u><b>E</u></b>dek robi <u><b>wry</u></b> swoim modelem samolotu, musi uważać bo jest silny wiatr. Z silnika samolotu się dymi i <u><b>wszyscy</u></b> się na to patrzą",
-            "Mój syn <u><b>E</u></b>dek b<u><b>ry</u></b>ka, <u><b>bo</u></b> tak robią <u><b>wszyscy</u></b> jego rówieśnicy"
+            "<u><b>Ew</u></b>a robi <u><b>ry</u></b>by, <u><b>bo</u></b> będzie robiła zupę rybną, a na drugie placki z <u><b>dy</u></b>ni. <u><b>Każdemu</u></b> to smakowało",
+            "Kr<u><b>ew</u></b> każdego pacjenta jest dokładnie przebadana i organizm <u><b>wsystkich</u></b> pacjentów wraca na właściwe to<u><b>ry</u></b>, <u><b>bo</u></b> g<u><b>dy</u></b> ma dobrą opieke wraca do zdrowia",
+            "<u><b>E</u></b>dek robi <u><b>wry</u></b> swoim modelem samolotu, musi uważać, <u><b>bo</u></b> jest silny wiatr. Z silnika samolotu się <u><b>dy</u></b>mi i <u><b>wszyscy</u></b> się na to patrzą",
+            "Moja córka <u><b>Ew</u></b>a b<u><b>ry</u></b>ka, <u><b>bo</u></b> pojechała na zawo<u><b>dy</u></b> jak <u><b>wszyscy</u></b> jej rówieśnicy"
         ],
 
         // opis
@@ -67,7 +67,7 @@ const fiszki = [
             "http://arbu-1dcc9.web.app/img/fiszki1/2b.jpg",
             "http://arbu-1dcc9.web.app/img/fiszki1/2c.jpg",
             "http://arbu-1dcc9.web.app/img/fiszki1/2d.jpg",
-            "http://arbu-1dcc9.web.app/img/fiszki1/2e.png"
+            "http://arbu-1dcc9.web.app/img/fiszki1/2e.jpg"
         ],
         word: [
             "http://arbu-1dcc9.web.app/src/has.wav"
@@ -77,7 +77,7 @@ const fiszki = [
             "<u><b>H</u></b>ipopotam występuje w cyrku na <u><b>es</u></b>tradzie, <u><b>ma</u></b> duże umiejętności",
             "Naukowiec nagle się zapomniał i zapytał: <u><b>he</u></b>?, a wtedy jego kolega <u><b>ma</u></b> niezłą zabawę, <u><b>s</u></b>prawa oczywista..",
             "<u><b>He</u></b>gemonia konsumpcjonizmu doprowadziła do tego, że 'ON'-dyrektor ma problemy, bo nikt nie chce chodzić na <u><b>s</u></b>pektakle teatralne",
-            "Moja koleżanka <u><b>ma</u></b> nowy klarnet z drzewa <u><b>he</u></b>banowego. Super sprawa"
+            "Moja koleżanka <u><b>ma</u></b> nowy klarnet z drzewa <u><b>he</u></b>banowego. <u><b>S</u></b>....uper sprawa"
         ],
         desc: "has[hes]/have[hew] - mieć(on/ona/oni)/mieć(ja/ty)",
         sentence1: [
@@ -156,10 +156,10 @@ const fiszki = [
         word: [
             "http://arbu-1dcc9.web.app/src/at.wav"
         ],
-        srcWord2: ["http://localhost/arbulanguage.com/filmy/procedure.mp4", "Breaking Bad"],
+        srcWord2: ["http://arbu-1dcc9.web.app/filmy/procedure.mp4", "Breaking Bad"],
         translateb2: "[at de party]",
         story: [
-            "<u><b>W tym</u></b> atelcie jest dużo siły",
+            "<u><b>W tym</u></b> <u><b>at</u></b>elcie jest dużo siły",
             "Scott <u><b>At</u></b>kinson <u><b>w tym</u></b> lesie był na spacerze",
             "<u><b>W tym</u></b> piórze jest za mało <u><b>at</u></b>ramentu",
             "Be<u><b>at</u></b>a myślała, że zobaczyła Królową Angielską, a to tylko atrapa <u><b>w tym</u></b> muzeum figur woskowych",
@@ -191,18 +191,18 @@ const fiszki = [
             2
         ],
         img: [
-            "http://localhost/arbulanguage.com/img/fiszki1/5a.jpg",
-            "http://localhost/arbulanguage.com/img/fiszki1/5b.jpg",
-            "http://localhost/arbulanguage.com/img/fiszki1/5c.jpg",
-            "http://localhost/arbulanguage.com/img/fiszki1/5d.jpg",
-            "http://localhost/arbulanguage.com/img/fiszki1/5e.jpg"
+            "http://arbu-1dcc9.web.app/img/fiszki1/5a.jpg",
+            "http://arbu-1dcc9.web.app/img/fiszki1/5b.jpg",
+            "http://arbu-1dcc9.web.app/img/fiszki1/5c.jpg",
+            "http://arbu-1dcc9.web.app/img/fiszki1/5d.jpg",
+            "http://arbu-1dcc9.web.app/img/fiszki1/5e.jpg"
         ],
         word: [
-            "http://localhost/arbulanguage.com/src/the.wav"
+            "http://arbu-1dcc9.web.app/src/the.wav"
         ],
         story: [
             "Piłki do gry w kosza są twar<u><b>de</u></b>. Sam ten sport <u><b>to</u></b> twarda gra",
-            "Na tym deptaku jest sporo drzewek, <u><b>to</u></b> urocze miejsce",
+            "Na tym <u><b>de</u></b>ptaku jest sporo drzewek, <u><b>to</u></b> urocze miejsce",
             "<u><b>To</u></b> ten <u><b>De</u></b>partament Stanu prowadzi badania nad społecznym problemem",
             "Czasami politycy stosują <u><b>de</u></b>magogię. Czyli co stosują? <u><b>Tę</u></b> <u><b>de</u></b>magogię",
             "<u><b>To</u></b> co w naszej rodzinie istnieje to <u><b>de</u></b>mokracja"
@@ -233,17 +233,17 @@ const fiszki = [
             2
         ],
         img: [
-            "http://localhost/arbulanguage.com/img/fiszki1/6a.jpg",
-            "http://localhost/arbulanguage.com/img/fiszki1/6b.jpg",
-            "http://localhost/arbulanguage.com/img/fiszki1/6c.jpg",
-            "http://localhost/arbulanguage.com/img/fiszki1/6d.jpg",
-            "http://localhost/arbulanguage.com/img/fiszki1/6e.jpg"
+            "http://arbu-1dcc9.web.app/img/fiszki1/6a.jpg",
+            "http://arbu-1dcc9.web.app/img/fiszki1/6b.jpg",
+            "http://arbu-1dcc9.web.app/img/fiszki1/6c.jpg",
+            "http://arbu-1dcc9.web.app/img/fiszki1/6d.jpg",
+            "http://arbu-1dcc9.web.app/img/fiszki1/6e.jpg"
         ],
         word: [
-            "http://localhost/arbulanguage.com/src/party.wav"
+            "http://arbu-1dcc9.web.app/src/party.wav"
         ],
         story: [
-            "<u><b>Par</u></b>ada zawodnika pokazuje, że on ma świetną <u><b>ucztę</u></b> gry  i zresztą uprawia różne inne sporty",
+            "<u><b>Par</u></b>ada zawodnika pokazuje, że on ma świetną <u><b>ucztę</u></b> gry  i zresztą uprawia różne inne spor<u><b>ty</u></b>",
             "Z za<u><b>party</u></b>m tchem obserwuje jak lwiątka <u><b>ucztę</u></b> na sawannie",
             "W tym badaniu <u><b>party</u></b>cypowało bardzo dużo osób, gruopwa praca to świetna <u><b>zabawa</u></b>",
             "O<u><b>party</u></b> łokciami o stół gram w karty i <u><b>bawię się</u></b> doskonale",
@@ -291,8 +291,8 @@ const fiszki = [
             "http://arbu-1dcc9.web.app/voice/bike.mp4"
         ],
         story: [
-            "To właśnie on jest <b><u>hi</b></u>tem tego sezonu piłkarskiego",
-            "Samiec czyli on - <b><u>hi</b></u>popotam",
+            "To właśnie <u><b>on</u></b> jest <b><u>hi</b></u>tem tego sezonu piłkarskiego",
+            "Samiec czyli <u><b>on</u></b> - <b><u>hi</b></u>popotam",
             "<u><b>On</b></u> - <u><b>Hi</b></u>eronim odleciał balonem",
             "Ma<u><b>chi</u></b>nę do tortur wymyślił <u><b>on</u></b> - jest <u><b>Hi</u></b>ndusem",
             "<u><b>On</u></b> je ciastka <u><b>hi</u></b>ty",
@@ -325,14 +325,14 @@ const fiszki = [
             3
         ],
         img: [
-            "http://localhost/arbulanguage.com/img/fiszki1/8a.jpg",
-            "http://localhost/arbulanguage.com/img/fiszki1/8b.jpg",
-            "http://localhost/arbulanguage.com/img/fiszki1/8c.jpg",
-            "http://localhost/arbulanguage.com/img/fiszki1/8d.jpg",
-            "http://localhost/arbulanguage.com/img/fiszki1/8e.jpg"
+            "http://arbu-1dcc9.web.app/img/fiszki1/8a.jpg",
+            "http://arbu-1dcc9.web.appimg/fiszki1/8b.jpg",
+            "http://arbu-1dcc9.web.app/img/fiszki1/8c.jpg",
+            "http://arbu-1dcc9.web.app/img/fiszki1/8d.jpg",
+            "http://arbu-1dcc9.web.app/img/fiszki1/8e.jpg"
         ],
         word: [
-            "http://localhost/arbulanguage.com/src/is.wav"
+            "http://arbu-1dcc9.web.app/src/is.wav"
         ],
         story: [
             "Gdy ktoś szybko biega obok nas to <u><b>jest</u></b> w popłochu, słyszymy tylko św<u><b>is</u></b>t",
@@ -369,21 +369,21 @@ const fiszki = [
             3
         ],
         img: [
-            "http://localhost/arbulanguage.com/img/fiszki1/9a.jpg",
-            "http://localhost/arbulanguage.com/img/fiszki1/9b.jpg",
-            "http://localhost/arbulanguage.com/img/fiszki1/9c.jpg",
-            "http://localhost/arbulanguage.com/img/fiszki1/9d.jpg",
-            "http://localhost/arbulanguage.com/img/fiszki1/9e.jpg"
+            "http://arbu-1dcc9.web.app/img/fiszki1/9a.jpg",
+            "http://arbu-1dcc9.web.app/img/fiszki1/9b.jpg",
+            "http://arbu-1dcc9.web.app/img/fiszki1/9c.jpg",
+            "http://arbu-1dcc9.web.app/img/fiszki1/9d.jpg",
+            "http://arbu-1dcc9.web.app/img/fiszki1/9e.jpg"
         ],
         word: [
-            "http://localhost/arbulanguage.com/src/obedient.wav"
+            "http://arbu-1dcc9.web.app/src/obedient.wav"
         ],
         story: [
             "Ćwiczę s<b><u>obi</u></b>e i jestem <u><b>posłuszny</b></u> swojemu <u><b>die</b></u>tetykowi, powtarzam jak ma<u><b>nt</b></u>rę, że będę szczupły",
-            "<u><b>Di</u></b>nozaury były <u><b>posłuszne</u></b> swoim odczuciom z ciała i nie miały czegoś takiego jak zjem s<u><b>obie</u></b> co chce. Dziś widzimy je s<u><b>ent</u></b>ymentalnie na zdjęciu",
+            "<u><b>Di</u></b>nozaury były <u><b>posłuszne</u></b> swoim odczuciom z ciała i nie miały czegoś takiego jak zjem s<u><b>obi</u></b>e co chce. Dziś widzimy je s<u><b>ent</u></b>ymentalnie na zdjęciu",
             "L<u><b>idi</u></b>a <u><b>ob</u></b>iera wskazany kurs statkiem, <u><b>posłusznie</u></b> do wskazań kapitana statku. Kapitan ma silną m<u><b>ent</u></b>alność",
             "<u><b>Ob</u></b>ieram ziemniaki dla całego plutonu. <u><b>Die</u></b>ta jest opracowana przez profesjonalistów, którzy kierowali się <u><b>posłusznie</u></b> do wskazań zapotrzebowania na mikroelem<u><b>ent</u></b>y",
-            "<u><b>Ent</u></b>y raz powtarzam swojemu dziecku, które nie jest <u><b>posłuszne</u></b>. Idziemy w poniedziałek do d<u><b>ent</u></b>ysty i to nie jest diabeł tylko lekarz"
+            "<u><b>Ent</u></b>y raz powtarzam swojemu dziecku, które nie jest <u><b>posłuszne</u></b>. Idziemy w poniedziałek do d<u><b>ent</u></b>ysty, zr<u><b>obi</u></b> ci siódemkę i to nie jest <u><b>di</u></b>abeł tylko lekarz"
         ],
         desc: "obedient[obidient] - posłuszny",
         sentence1: [
@@ -411,23 +411,23 @@ const fiszki = [
             4
         ],
         img: [
-            "http://localhost/arbulanguage.com/img/fiszki1/10a.jpg",
-            "http://localhost/arbulanguage.com/img/fiszki1/10b.jpg",
-            "http://localhost/arbulanguage.com/img/fiszki1/10c.jpg",
-            "http://localhost/arbulanguage.com/img/fiszki1/10d.jpg",
-            "http://localhost/arbulanguage.com/img/fiszki1/10e.jpg"
+            "http://arbu-1dcc9.web.app/img/fiszki1/10a.jpg",
+            "http://arbu-1dcc9.web.app/img/fiszki1/10b.jpg",
+            "http://arbu-1dcc9.web.app/img/fiszki1/10c.jpg",
+            "http://arbu-1dcc9.web.app/img/fiszki1/10d.jpg",
+            "http://arbu-1dcc9.web.app/img/fiszki1/10e.jpg"
         ],
         word: [
-            "http://localhost/arbulanguage.com/src/to.wav"
+            "http://arbu-1dcc9.web.app/src/to.wav"
         ],
-        srcWord2: ["http://localhost/arbulanguage.com/filmy/procedure.mp4", "Breaking Bad"],
+        srcWord2: ["http://arbu-1dcc9.web.app/filmy/procedure.mp4", "Breaking Bad"],
         translateb2: "[to sajentifik prosidżer]",
         story: [
             "<u><b>Dla</u></b> spor<u><b>tu</b></u> przeszedłem się pieszo z domu do pracy",
             "Ratunku, <u><b>tu</u></b>taj są węże a ja nie mam <u><b>dla</u></b> nich jedzenia",
             "<b><u>Tu</b></u> w Egipcie Totem Faraona to pamiątka <u><b>dla</u></b> podróżników",
-            "<b><u>Tu</b></u> na tym polu, Totalnie nie brakuje mi nic do mistrza",
-            "Aaaa.. <b><u>tu</b></u> to jest, to dla mojego kolegi"
+            "<b><u>Tu</b></u> <u><b>dla</u></b> Ciebie jest bardzo dobra aktywność, <u><b>to</u></b>talnie nie brakuje mi nic do mistrza",
+            "Aaaa.. <b><u>tu</b></u> to jest, to <u><b>dla</u></b> mojego kolegi"
         ],
         desc: "to[tu] - dla",
         sentence2: [
@@ -455,14 +455,14 @@ const fiszki = [
             4
         ],
         img: [
-            "http://localhost/arbulanguage.com/img/fiszki1/11a.jpg",
-            "http://localhost/arbulanguage.com/img/fiszki1/11b.jpg",
-            "http://localhost/arbulanguage.com/img/fiszki1/11c.jpg",
-            "http://localhost/arbulanguage.com/img/fiszki1/11d.jpg",
-            "http://localhost/arbulanguage.com/img/fiszki1/11e.jpg"
+            "http://arbu-1dcc9.web.app/img/fiszki1/11a.jpg",
+            "http://arbu-1dcc9.web.app/img/fiszki1/11b.jpg",
+            "http://arbu-1dcc9.web.app/img/fiszki1/11c.jpg",
+            "http://arbu-1dcc9.web.app/img/fiszki1/11d.jpg",
+            "http://arbu-1dcc9.web.app/img/fiszki1/11e.jpg"
         ],
         word: [
-            "http://localhost/arbulanguage.com/src/science.wav"
+            "http://arbu-1dcc9.web.app/src/science.wav"
         ],
         story: [
             "Ma<u><b>sa</u></b>j wedle <u><b>nauk</u></b> - uczy w jaki sposób zwiększyć szanse sportowca i wpłynąć na jego s<u><b>ens</u></b>orykę",
@@ -497,18 +497,18 @@ const fiszki = [
             4
         ],
         img: [
-            "http://localhost/arbulanguage.com/img/fiszki1/12a.jpg",
-            "http://localhost/arbulanguage.com/img/fiszki1/12b.jpg",
-            "http://localhost/arbulanguage.com/img/fiszki1/12c.jpg",
-            "http://localhost/arbulanguage.com/img/fiszki1/12d.jpg",
-            "http://localhost/arbulanguage.com/img/fiszki1/12e.jpg"
+            "http://arbu-1dcc9.web.app/img/fiszki1/12a.jpg",
+            "http://arbu-1dcc9.web.app/img/fiszki1/12b.jpg",
+            "http://arbu-1dcc9.web.app/img/fiszki1/12c.jpg",
+            "http://arbu-1dcc9.web.app/img/fiszki1/12d.jpg",
+            "http://arbu-1dcc9.web.app/img/fiszki1/12e.jpg"
         ],
         word: [
-            "http://localhost/arbulanguage.com/src/procedure.wav"
+            "http://arbu-1dcc9.web.app/src/procedure.wav"
         ],
         story: [
-            "Prestiż w dżungli to przetrwanie. Tu stosujemy procedury szamanów",
-            "Popre te <u><b>pro</b></u>cedury <u><b>siii</b></u> bo jestem na wyspie <u><b>Dżer</b></u>ba w Tunezji",
+            "<u><b>Pr</u></b>estiż w dżungli to przetrwanie. Tu stosujemy <u><b>procedury</u></b> szamanów",
+            "Popre te <u><b>pro-cedury</u></b> <u><b>siii</b></u> bo jestem na wyspie <u><b>Dżer</b></u>ba w Tunezji i <u><b>s</u></b>toje w oceanie",
             "Każdy naukowiec proszony jest o klarownośc badań i procedury. Nauka to nie bajka Sindbad, ani film z Dzeki Czan. Trudne to rrrrr",
             "Prestiżowe pismo naukowe opisuje, że niektóre dżemy pomagają na raka",
             "Nasz dżem wpływa zdrowotnie na samopoczucie. Jest wyrabiany zgodnie z procedurami w Singapurze  - głównie z rabarbaru"
@@ -539,11 +539,11 @@ const fiszki = [
             5
         ],
         img: [
-            "http://localhost/arbulanguage.com/img/fiszki1/13a.jpg",
-            "http://localhost/arbulanguage.com/img/fiszki1/13b.jpg",
-            "http://localhost/arbulanguage.com/img/fiszki1/13c.jpg",
-            "http://localhost/arbulanguage.com/img/fiszki1/13d.jpg",
-            "http://localhost/arbulanguage.com/img/fiszki1/13e.jpg"
+            "http://arbu-1dcc9.web.app/img/fiszki1/13a.jpg",
+            "http://arbu-1dcc9.web.app/img/fiszki1/13b.jpg",
+            "http://arbu-1dcc9.web.app/img/fiszki1/13c.jpg",
+            "http://arbu-1dcc9.web.app/img/fiszki1/13d.jpg",
+            "http://arbu-1dcc9.web.app/img/fiszki1/13e.jpg"
         ],
         translate: "Bądź bardziej obecny wobec swoich emocji",
         translateb: "[Bi mor prezent wiz jour imołszyns]",
@@ -588,14 +588,14 @@ const fiszki = [
             5
         ],
         img: [
-            "http://localhost/arbulanguage.com/img/fiszki1/5b.jpg",
-            "http://localhost/arbulanguage.com/img/fiszki1/5b2.jpg",
-            "http://localhost/arbulanguage.com/img/fiszki1/5b3.png",
-            "http://localhost/arbulanguage.com/img/fiszki1/5b4.jpg",
-            "http://localhost/arbulanguage.com/img/fiszki1/5b5.jpg"
+            "http://arbu-1dcc9.web.app/img/fiszki1/14a.jpg",
+            "http://arbu-1dcc9.web.app/img/fiszki1/14b.jpg",
+            "http://arbu-1dcc9.web.app/img/fiszki1/14c.png",
+            "http://arbu-1dcc9.web.app/img/fiszki1/14d.jpg",
+            "http://arbu-1dcc9.web.app/img/fiszki1/14e.jpg"
         ],
         word: [
-            "http://localhost/arbulanguage.com/src/more.wav"
+            "http://arbu-1dcc9.web.app/src/more.wav"
         ],
         story: [
             "Bokser inspiruje się tym jak walczyli w <u><b>Mor</u></b>tal Kombat, ogląda tego <u><b>więcej</u></b> i wiecej",
@@ -630,14 +630,14 @@ const fiszki = [
             5
         ],
         img: [
-            "http://localhost/arbulanguage.com/img/fiszki1/5c.jpg",
-            "http://localhost/arbulanguage.com/img/fiszki1/5c2.jpg",
-            "http://localhost/arbulanguage.com/img/fiszki1/5c3.jpg",
-            "http://localhost/arbulanguage.com/img/fiszki1/5c4.jpg",
-            "http://localhost/arbulanguage.com/img/fiszki1/5c5.jpg"
+            "http://arbu-1dcc9.web.app/img/fiszki1/15a.jpg",
+            "http://arbu-1dcc9.web.app/img/fiszki1/15b.jpg",
+            "http://arbu-1dcc9.web.app/img/fiszki1/15c.jpg",
+            "http://arbu-1dcc9.web.app/img/fiszki1/15d.jpg",
+            "http://arbu-1dcc9.web.app/img/fiszki1/15e.jpg"
         ],
         word: [
-            "http://localhost/arbulanguage.com/src/present.wav"
+            "http://arbu-1dcc9.web.app/src/present.wav"
         ],
         story: [
             "<u><b>Prezent</u></b>em dla każdego sportowca jest <u><b>obecność</u></b> kibiców",
@@ -672,11 +672,11 @@ const fiszki = [
             6
         ],
         img: [
-            "http://localhost/arbulanguage.com/img/fiszki1/5d.jpg",
-            "http://localhost/arbulanguage.com/img/fiszki1/5d2.jpg",
-            "http://localhost/arbulanguage.com/img/fiszki1/5d3.jpg",
-            "http://localhost/arbulanguage.com/img/fiszki1/5d4.jpg",
-            "http://localhost/arbulanguage.com/img/fiszki1/5d5.jpg"
+            "http://arbu-1dcc9.web.app/img/fiszki1/16a.jpg",
+            "http://arbu-1dcc9.web.app/img/fiszki1/16b.jpg",
+            "http://arbu-1dcc9.web.app/img/fiszki1/16c.jpg",
+            "http://arbu-1dcc9.web.app/img/fiszki1/16d.jpg",
+            "http://arbu-1dcc9.web.app/img/fiszki1/16e.jpg"
         ],
         word: [
             "http://arbu-1dcc9.web.app/src/with.wav"
@@ -716,19 +716,19 @@ const fiszki = [
             6
         ],
         img: [
-            "http://localhost/arbulanguage.com/img/fiszki1/5e.jpg",
-            "http://localhost/arbulanguage.com/img/fiszki1/5e2.jpg",
-            "http://localhost/arbulanguage.com/img/fiszki1/5e3.jpg",
-            "http://localhost/arbulanguage.com/img/fiszki1/5e4.jpg",
-            "http://localhost/arbulanguage.com/img/fiszki1/5e5.jpg"
+            "http://arbu-1dcc9.web.app/img/fiszki1/17a.jpg",
+            "http://arbu-1dcc9.web.app/img/fiszki1/17b.jpg",
+            "http://arbu-1dcc9.web.app/img/fiszki1/17c.jpg",
+            "http://arbu-1dcc9.web.app/img/fiszki1/17d.jpg",
+            "http://arbu-1dcc9.web.app/img/fiszki1/17e.jpg"
         ],
         word: [
-            "http://localhost/arbulanguage.com/src/your.wav"
+            "http://arbu-1dcc9.web.app/src/your.wav"
         ],
         story: [
             "W wojsku ma<u><b>jor</u></b> to <u><b>twój</u></b> szef od musztry",
             "F<u><b>jor</u></b>d to zatoka, gdzie <u><b>twój</u></b> wypoczynek może być fajny",
-            "W <u><b>Jor</u></b>dani kobieta musi bieć burkę, ale to <u><b>twój</u></b> wybór",
+            "W <u><b>Jor</u></b>dani kobieta musi mieć burkę, ale to <u><b>twój</u></b> wybór",
             "<u><b>Twoje</u></b> dziecko ma fajne ba<u><b>jor</u></b>ko",
             "B<u><b>jor</u></b>n jest ma<u><b>jor</u></b>em i mieszka na Ma<u><b>jor</u></b>ce. Każdy mu mówi - <u><b>twój</u></b> piersek </u><b>York</u></b> jest śliczny"
         ],
@@ -758,19 +758,19 @@ const fiszki = [
             6
         ],
         img: [
-            "http://localhost/arbulanguage.com/img/fiszki1/5f.jpg",
-            "http://localhost/arbulanguage.com/img/fiszki1/5f2.jpg",
-            "http://localhost/arbulanguage.com/img/fiszki1/5f3.jpg",
-            "http://localhost/arbulanguage.com/img/fiszki1/5f4.jpg",
-            "http://localhost/arbulanguage.com/img/fiszki1/5f5.jpg"
+            "http://arbu-1dcc9.web.app/img/fiszki1/18a.jpg",
+            "http://arbu-1dcc9.web.app/img/fiszki1/18b.jpg",
+            "http://arbu-1dcc9.web.app/img/fiszki1/18c.jpg",
+            "http://arbu-1dcc9.web.app/img/fiszki1/18d.jpg",
+            "http://arbu-1dcc9.web.app/img/fiszki1/18e.jpg"
         ],
         word: [
-            "http://localhost/arbulanguage.com/src/emotions.wav"
+            "http://arbu-1dcc9.web.app/src/emotions.wav"
         ],
         story: [
             "M<u><b>imo</u></b> złej pogody <u><b>Ł</u></b>ukasz startuje z <u><b>szyn</u></b>y startowej, teraz <u><b>sss</u></b>tart.... (są emocje)",
             "M<u><b>imo</u></b> trudności wdrapaliśmy się pomału na górę, mamy kanapki z <u><b>szyn</u></b>ki na posiłek i zaraz <u><b>s</u></b>tartujemy do zejścia - ale <u><b>emocje</u></b>",
-            "<u><b>Im</u></b> trudniejszy temat tym bardzsiej chce go zgłębić, p<u><b>oł</u></b>owa pracy za nami, <u><b>szy</u></b>bko trzeba jeszcze zrobić ankiety. <u><b>Emocjonalnie</u></b> podchodze do badań, które dla mnie mają wielki se<u><b>ns</u></b>",
+            "<u><b>Im</u></b> trudniejszy temat tym bardziej chce go zgłębić, p<u><b>oł</u></b>owa pracy za nami, <u><b>szy</u></b>bko trzeba jeszcze zrobić ankiety. <u><b>Emocjonalnie</u></b> podchodze do badań, które dla mnie mają wielki se<u><b>ns</u></b>",
             "<u><b>I</u></b>gnacy mieszka w <u><b>Moł</u></b>dawi i karmi w Zoo <u><b>szy</u></b>mpanse <u><b>szyn</u></b>ką, obok wąż robi <u><b>sss</u></b>. Wszyscy, którzy to widzą są w <u><b>emocjach</u></b>",
             "Dzisiaj mam <u><b>im</u></b>ieniny, które są <u><b>emocjonalne</u></b> dziś. Ogarnow<u><b>szy</u></b> wszystkie obowiązki - teraz mam <u><b>s</u></b>pokój w pracy"
         ],
@@ -800,11 +800,11 @@ const fiszki = [
             7
         ],
         img: [
-            "http://localhost/arbulanguage.com/img/fiszki1/4a.jpg",
-            "http://localhost/arbulanguage.com/img/fiszki1/4a2.jpg",
-            "http://localhost/arbulanguage.com/img/fiszki1/4a3.jpg",
-            "http://localhost/arbulanguage.com/img/fiszki1/4a4.jpg",
-            "http://localhost/arbulanguage.com/img/fiszki1/4a5.jpg"
+            "http://arbu-1dcc9.web.app/img/fiszki1/19a.jpg",
+            "http://arbu-1dcc9.web.app/img/fiszki1/19b.jpg",
+            "http://arbu-1dcc9.web.app/img/fiszki1/19c.jpg",
+            "http://arbu-1dcc9.web.app/img/fiszki1/19d.jpg",
+            "http://arbu-1dcc9.web.app/img/fiszki1/19e.jpg"
         ],
         translate: "Ja jestem nieśmiały, ale czasami odważny",
         translateb: "[Aj em szaj bat samtajms der]",
@@ -848,15 +848,15 @@ const fiszki = [
             7
         ],
         img: [
-            "http://localhost/arbulanguage.com/img/fiszki1/4b.jpg",
-            "http://localhost/arbulanguage.com/img/fiszki1/4b2.jpg",
-            "http://localhost/arbulanguage.com/img/fiszki1/4b3.jpg",
-            "http://localhost/arbulanguage.com/img/fiszki1/4b4.jpg",
-            "http://localhost/arbulanguage.com/img/fiszki1/4b5.jpg"
+            "http://localhost/arbulanguage.com/img/fiszki1/20a.jpg",
+            "http://localhost/arbulanguage.com/img/fiszki1/20b.jpg",
+            "http://localhost/arbulanguage.com/img/fiszki1/20c.jpg",
+            "http://localhost/arbulanguage.com/img/fiszki1/20d.jpg",
+            "http://localhost/arbulanguage.com/img/fiszki1/20e.jpg"
 
         ],
         story: [
-            "Zawszse po treningu j<u><b>em</u></b>, dlatego <u><b>jestem</u></b> wysportowany i silny",
+            "Zawsze po treningu j<u><b>em</u></b>, dlatego <u><b>jestem</u></b> wysportowany i silny",
             "M<u><b>am</u></b> j<u><b>em</u></b>iołę i <u><b>jestem</u></b> zadowolony z jej zapachu",
             "Emanacją mojej pracy badawczej, którą prowadziłem s<u><b>am</u></b> - jest to, że teraz ja <u><b>jestem</u></b> w tym temacie specjalistą",
             "Amstaf <u><b>Em</u></b>il mnie goni, <u><b>jestem</u></b> w tarapatach",
@@ -888,11 +888,11 @@ const fiszki = [
             7
         ],
         img: [
-            "http://localhost/arbulanguage.com/img/fiszki1/4c.jpg",
-            "http://localhost/arbulanguage.com/img/fiszki1/4c2.jpg",
-            "http://localhost/arbulanguage.com/img/fiszki1/4c3.jpg",
-            "http://localhost/arbulanguage.com/img/fiszki1/4c4.jpg",
-            "http://localhost/arbulanguage.com/img/fiszki1/4c5.jpg"
+            "http://localhost/arbulanguage.com/img/fiszki1/21a.jpg",
+            "http://localhost/arbulanguage.com/img/fiszki1/21b.jpg",
+            "http://localhost/arbulanguage.com/img/fiszki1/21c.jpg",
+            "http://localhost/arbulanguage.com/img/fiszki1/21d.jpg",
+            "http://localhost/arbulanguage.com/img/fiszki1/21e.jpg"
 
         ],
         story: [
@@ -928,11 +928,11 @@ const fiszki = [
             8
         ],
         img: [
-            "http://localhost/arbulanguage.com/img/fiszki1/4d.jpg",
-            "http://localhost/arbulanguage.com/img/fiszki1/4d2.jpg",
-            "http://localhost/arbulanguage.com/img/fiszki1/4d3.jpg",
-            "http://localhost/arbulanguage.com/img/fiszki1/4d4.jpg",
-            "http://localhost/arbulanguage.com/img/fiszki1/4d5.jpg"
+            "http://localhost/arbulanguage.com/img/fiszki1/22a.jpg",
+            "http://localhost/arbulanguage.com/img/fiszki1/22bx.jpg",
+            "http://localhost/arbulanguage.com/img/fiszki1/22cx.jpg",
+            "http://localhost/arbulanguage.com/img/fiszki1/22dx.jpg",
+            "http://localhost/arbulanguage.com/img/fiszki1/22ex.jpg"
         ],
         story: [
             "Po spotkaniu z kolegą, na którego mówią <u><b>Bat</u></b>man mam naładowane baterie towarzyskieg, <u><b>ale</u></b> chcę więcej rozmów",
@@ -967,10 +967,10 @@ const fiszki = [
             8
         ],
         img: [
-            "http://localhost/arbulanguage.com/img/fiszki1/4e.jpg",
+            "http://localhost/arbulanguage.com/img/fiszki1/23a.jpg",
             "http://localhost/arbulanguage.com/img/fiszki1/4e2.jpg",
             "http://localhost/arbulanguage.com/img/fiszki1/4e3.jpg",
-            "http://localhost/arbulanguage.com/img/fiszki1/4e4.jpg",
+            "http://localhost/arbulanguage.com/img/fiszki1/22d.jpg",
             "http://localhost/arbulanguage.com/img/fiszki1/4e5.jpg"
         ],
         story: [
@@ -1006,7 +1006,7 @@ const fiszki = [
             8
         ],
         img: [
-            "http://localhost/arbulanguage.com/img/fiszki1/4f.jpg",
+            "http://localhost/arbulanguage.com/img/fiszki1/24a.jpg",
             "http://localhost/arbulanguage.com/img/fiszki1/4f.jpg",
             "http://localhost/arbulanguage.com/img/fiszki1/4f.jpg",
             "http://localhost/arbulanguage.com/img/fiszki1/4f.jpg",
@@ -1045,11 +1045,11 @@ const fiszki = [
             9
         ],
         img: [
-            "http://localhost/arbulanguage.com/img/fiszki1/3a.jpg",
-            "http://localhost/arbulanguage.com/img/fiszki1/3a2.jpg",
-            "http://localhost/arbulanguage.com/img/fiszki1/3a3.jpg",
-            "http://localhost/arbulanguage.com/img/fiszki1/3a4.jpg",
-            "http://localhost/arbulanguage.com/img/fiszki1/3a5.jpg"
+            "http://localhost/arbulanguage.com/img/fiszki1/25a.jpg",
+            "http://localhost/arbulanguage.com/img/fiszki1/25b.jpg",
+            "http://localhost/arbulanguage.com/img/fiszki1/25cx.jpg",
+            "http://localhost/arbulanguage.com/img/fiszki1/25d.jpg",
+            "http://localhost/arbulanguage.com/img/fiszki1/25ex.jpg"
         ],
         srcWord: ["http://arbu-1dcc9.web.app/filmy/cat.mp4", "Superman (1978)"],
         srcWordimage: "http://arbu-1dcc9.web.app/filmy/cat.png",
@@ -1092,20 +1092,20 @@ const fiszki = [
             9
         ],
         img: [
-            "http://localhost/arbulanguage.com/img/fiszki1/3b.jpg",
-            "http://localhost/arbulanguage.com/img/fiszki1/3b2.jpg",
+            "http://localhost/arbulanguage.com/img/fiszki1/26a.jpg",
+            "http://localhost/arbulanguage.com/img/fiszki1/26b.jpg",
             "http://localhost/arbulanguage.com/img/fiszki1/3b3.jpg",
             "http://localhost/arbulanguage.com/img/fiszki1/3b4.jpg",
             "http://localhost/arbulanguage.com/img/fiszki1/3b5.jpg"
         ],
         story: [
             "To są wyścigi. Mała kaczka <u><b>łapie</u></b> dużą <u><b>kacz</u></b>ek, ciekawe czy ja dogoni",
-            "<u><b>Kacz</u></b>ki <u><b>przeskakują</u></b> przez płotek",
+            "<u><b>Kacz</u></b>ki <u><b>przeskakują</u></b> przez płotek wcz<u><b>es</u></b>nym rankiem",
             "",
             "Kamil s<u><b>kacz</u></b>e, bo się czymś poparzył",
             "Para uczy sie tańczyć, chłopak mówi do dziewczyny: s<u><b>kacz</u></b>, a ja cię <u><b>złapię</u></b>"
         ],
-        desc: "catch[kacz] - łapać",
+        desc: "catches[kaczes] - łapać",
         sentence1: [
             "catches"
         ],
@@ -1131,9 +1131,9 @@ const fiszki = [
             9
         ],
         img: [
-            "http://localhost/arbulanguage.com/img/fiszki1/3c.jpg",
+            "http://localhost/arbulanguage.com/img/fiszki1/27a.jpg",
             "http://localhost/arbulanguage.com/img/fiszki1/3c2.jpg",
-            "http://localhost/arbulanguage.com/img/fiszki1/3c3.jpg",
+            "http://localhost/arbulanguage.com/img/fiszki1/27c.jpg",
             "http://localhost/arbulanguage.com/img/fiszki1/3c4.jpg",
             "http://localhost/arbulanguage.com/img/fiszki1/3c5.jpg"
         ],
@@ -1170,7 +1170,7 @@ const fiszki = [
             10
         ],
         img: [
-            "http://localhost/arbulanguage.com/img/fiszki1/3d.jpg",
+            "http://localhost/arbulanguage.com/img/fiszki1/28a.jpg",
             "http://localhost/arbulanguage.com/img/fiszki1/3d2.jpg",
             "http://localhost/arbulanguage.com/img/fiszki1/3d3.jpg",
             "http://localhost/arbulanguage.com/img/fiszki1/3d4.jpg",
@@ -1183,7 +1183,7 @@ const fiszki = [
             "Endriu jeździ motorem enduro i miał wypadek, to koniec jego karier. Pyta: i co dalej?",
             "W końcu zapędy Endriu do pewnej dziewczyny skończyły się sukcesem i para jest szczęśliwa"
         ],
-        desc: "end[end] - i/koniec",
+        desc: "and, end[end] - i(and)/koniec(end)",
         sentence2: [
             "and"
         ],
@@ -1209,11 +1209,11 @@ const fiszki = [
             10
         ],
         img: [
-            "http://localhost/arbulanguage.com/img/fiszki1/3e.jpg",
-            "http://localhost/arbulanguage.com/img/fiszki1/3e2.jpg",
-            "http://localhost/arbulanguage.com/img/fiszki1/3e3.jpg",
-            "http://localhost/arbulanguage.com/img/fiszki1/3e4.jpg",
-            "http://localhost/arbulanguage.com/img/fiszki1/3e5.jpg"
+            "http://localhost/arbulanguage.com/img/fiszki1/29a.jpg",
+            "http://localhost/arbulanguage.com/img/fiszki1/29bx.jpg",
+            "http://localhost/arbulanguage.com/img/fiszki1/29cx.jpg",
+            "http://localhost/arbulanguage.com/img/fiszki1/29d.jpg",
+            "http://localhost/arbulanguage.com/img/fiszki1/29e.jpg"
         ],
         story: [
             "<u><b>Ha</u></b>rry trenuje <u><b>g</u></b>roźne chwyty a potreningu <u><b>przytula się</u></b> do Haliny",
@@ -1222,7 +1222,7 @@ const fiszki = [
             "<u><b>Ha</u></b>milton <u><b>przytula się</u></b> z konkurentem <u><b>G</u></b>iorgio chociaż właśnie stracił pozycję lidera w klasyfikacji",
             "W mieście <u><b>Hag</u></b>a wszyscy się <u><b>przytulają"
         ],
-        desc: "hug[hag] - przytulać",
+        desc: "hug[hags] - przytulać",
         sentence2: [
             "hugs"
         ],
@@ -1248,11 +1248,11 @@ const fiszki = [
             10
         ],
         img: [
-            "http://localhost/arbulanguage.com/img/fiszki1/3f.jpg",
+            "http://localhost/arbulanguage.com/img/fiszki1/30a.jpg",
             "http://localhost/arbulanguage.com/img/fiszki1/3f2.jpg",
             "http://localhost/arbulanguage.com/img/fiszki1/3f3.jpg",
-            "http://localhost/arbulanguage.com/img/fiszki1/3f4.jpg",
-            "http://localhost/arbulanguage.com/img/fiszki1/3f5.jpg"
+            "http://localhost/arbulanguage.com/img/fiszki1/30d.jpg",
+            "http://localhost/arbulanguage.com/img/fiszki1/30e.jpg"
         ],
         story: [
             "",
@@ -1287,7 +1287,7 @@ const fiszki = [
             11
         ],
         img: [
-            "http://localhost/arbulanguage.com/img/fiszki1/6a.jpg",
+            "http://localhost/arbulanguage.com/img/fiszki1/31a.jpg",
             "http://localhost/arbulanguage.com/img/fiszki1/6a2.jpg",
             "http://localhost/arbulanguage.com/img/fiszki1/6a3.jpg",
             "http://localhost/arbulanguage.com/img/fiszki1/6a4.jpg",
@@ -1332,7 +1332,7 @@ const fiszki = [
             11
         ],
         img: [
-            "http://localhost/arbulanguage.com/img/fiszki1/6b.jpg",
+            "http://localhost/arbulanguage.com/img/fiszki1/32a.jpg",
             "http://localhost/arbulanguage.com/img/fiszki1/6b2.jpg",
             "http://localhost/arbulanguage.com/img/fiszki1/6b3.jpg",
             "http://localhost/arbulanguage.com/img/fiszki1/6b4.jpg",
@@ -1370,7 +1370,7 @@ const fiszki = [
             6,
             11
         ],
-        img: "http://localhost/arbulanguage.com/img/fiszki1/6c.jpg",
+        img: "http://localhost/arbulanguage.com/img/fiszki1/33a.jpg",
         story: "<b><u>Organ</b></u>izacja dobroczynna współpracuje z Filipem H<b><u>ajze</b></u>rem",
         desc: "organizes[organajz] - organizować",
         sentence1: [
@@ -1391,7 +1391,7 @@ const fiszki = [
             6,
             12
         ],
-        img: "http://localhost/arbulanguage.com/img/fiszki1/6d.jpg",
+        img: "http://localhost/arbulanguage.com/img/fiszki1/34a.jpg",
         story: "<b><u>Kła</b></u>dziemy <b><u>całkiem</b></u> duży nacisk na ilość b<b><u>ajt</b></u>ów w pliku",
         desc: "quite[kłajt] - całkiem",
         sentence2: [
@@ -1412,7 +1412,7 @@ const fiszki = [
             6,
             12
         ],
-        img: "http://localhost/arbulanguage.com/img/fiszki1/6e.jpg",
+        img: "http://localhost/arbulanguage.com/img/fiszki1/35a.jpg",
         story: "<b><u>Interesujące</b></u> są te boksersie spar<b><u>ing</b></u>i",
         desc: "interesting[interesting] - interesujące",
         sentence2: [
@@ -1433,7 +1433,7 @@ const fiszki = [
             6,
             12
         ],
-        img: "http://localhost/arbulanguage.com/img/fiszki1/6f.jpg",
+        img: "http://localhost/arbulanguage.com/img/fiszki1/36a.jpg",
         story: "Prezydent miasta trochę sepleni i patrzy w <b><u>inwent</b></u>a<b><u>ssss</b></u>, a tam same wydarzenia kulturowe",
         desc: "events[iwents] - wydarzenia",
         sentence2: [
@@ -1454,7 +1454,7 @@ const fiszki = [
             7,
             13
         ],
-        img: "http://arbu-1dcc9.web.app/img/fiszki1/7a.jpg",
+        img: "http://arbu-1dcc9.web.app/img/fiszki1/37a.jpg",
         srcWord: ["http://arbu-1dcc9.web.app/filmy/company.mp4", "Rampage (2018)"],
         srcWordimage: "http://arbu-1dcc9.web.app/filmy/company.png",
         word: [
@@ -1483,7 +1483,7 @@ const fiszki = [
             7,
             13
         ],
-        img: "http://localhost/arbulanguage.com/img/fiszki1/7b.jpg",
+        img: "http://localhost/arbulanguage.com/img/fiszki1/38a.jpg",
         story: "<b><u>Kamp</b></u>ing jest koloru <b><u>any</b></u>żowego, prowadzi go <b><u>firma</b></u> z Polski",
         desc: "company[kampany] - firma",
         sentence1: [
@@ -1504,7 +1504,7 @@ const fiszki = [
             7,
             13
         ],
-        img: "http://localhost/arbulanguage.com/img/fiszki1/7c.jpg",
+        img: "http://localhost/arbulanguage.com/img/fiszki1/39a.jpg",
         story: "<b><u>Start</b></u>uje z udawaniem węża.. <b><u>ssssss</b></u>",
         desc: "starts[starts] - zacząć",
         sentence1: [
@@ -1525,7 +1525,7 @@ const fiszki = [
             7,
             14
         ],
-        img: "http://localhost/arbulanguage.com/img/fiszki1/7d.jpg",
+        img: "http://localhost/arbulanguage.com/img/fiszki1/40a.jpg",
         story: "<b><u>Dewelop</b></u>er gra w p<b><u>ing</b></u>-ponga z właścicielem i <b><u>rozwija</b></u> narracje, aby coś ugrać",
         desc: "developing[deweloping] - rozwijać",
         sentence2: [
@@ -1546,7 +1546,7 @@ const fiszki = [
             7,
             14
         ],
-        img: "http://localhost/arbulanguage.com/img/fiszki1/7e.jpg",
+        img: "http://localhost/arbulanguage.com/img/fiszki1/41a.jpg",
         story: "<b><u>Soł</b></u>tys <b><u>tak bardzo</b></u> lubi tą wieś",
         desc: "so[soł] - tak bardzo/więc",
         sentence2: [
@@ -1567,7 +1567,7 @@ const fiszki = [
             7,
             14
         ],
-        img: "http://localhost/arbulanguage.com/img/fiszki1/7f.jpg",
+        img: "http://localhost/arbulanguage.com/img/fiszki1/42a.jpg",
         story: "<b><u>Inten</b></u>cją zo<b><u>si</b></u> jest <b><u>wli</b></u>czenie jej zasług do intensywnej pracy społeczności",
         desc: "intensively[intensiwli] - intensywnie",
         sentence2: [
@@ -1588,7 +1588,7 @@ const fiszki = [
             8,
             15
         ],
-        img: "http://arbu-1dcc9.web.app/img/fiszki1/8a.jpg",
+        img: "http://arbu-1dcc9.web.app/img/fiszki1/43a.jpg",
         srcWord: ["http://arbu-1dcc9.web.app/filmy/book.mp4", "Inception (2010)"],
         srcWordimage: "http://arbu-1dcc9.web.app/filmy/book.png",
         word: [
@@ -2981,7 +2981,7 @@ const fiszki = [
             17,
             34
         ],
-        img: "http://localhost/arbulanguage.com/img/fiszki1/17f.jpg",
+        img: "http://localhost/arbulanguage.com/img/fiszki1/101a.jpg",
         story: "To jest <b><u>bo</b></u>ski <b><u>łuk</b></u>",
         desc: "bow[boł] - łuk",
         sentence2: [
@@ -5942,7 +5942,24 @@ function generateFiszkaBlock(fiszka, lessonId2) {
 
             var music = document.getElementById(audioId);
             var pButton = document.getElementById(pButtonId);
-
+    // Dodajemy style bezpośrednio w kodzie JavaScript
+                if (window.matchMedia("(max-width: 999px)").matches) {
+    pButton.style.height = '100px';  // Zwiększenie wysokości
+    pButton.style.width = '100px';   // Zwiększenie szerokości
+                } else {
+                        pButton.style.height = '60px';  // Zwiększenie wysokości
+    pButton.style.width = '60px';   // Zwiększenie szerokości
+                }
+    pButton.style.border = 'none';   // Usunięcie ramki
+    pButton.style.backgroundSize = '80%';  // Rozmiar obrazka tła
+    pButton.style.backgroundRepeat = 'no-repeat';
+    pButton.style.backgroundPosition = 'center';
+    pButton.style.borderRadius = '8px';   // Zaokrąglenie rogów
+    pButton.style.outline = 'none';       // Usunięcie obramowania
+    pButton.style.display = 'flex';       // Wyśrodkowanie zawartości
+    pButton.style.alignItems = 'center';
+    pButton.style.justifyContent = 'center';
+    pButton.style.overflow = 'hidden';    // Ukrycie nadmiarowego kontentu
             console.log('Initialized audio element with ID:', audioId);
             console.log('Initialized play/pause button with ID:', pButtonId);
 
