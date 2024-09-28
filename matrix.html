@@ -329,11 +329,8 @@
                     background-color: rgba(255, 255, 0, 0.5); /* Kolor tła z opacity */
                     color: white;
                 }
-                span {
-                    color: white;
-                }
                 .yellow {
-                    color: blue;
+                    color: yellow;
                 }
                 .flashcard-container {
                     width: 1350px;
@@ -533,6 +530,43 @@
                 }
             }
             @media (max-width: 999px) {
+                /* Stylizacja modala */
+                #part {
+                    margin-bottom: 100px;
+                }
+.modal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    z-index: 1000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.modal-content {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+button123 {
+    padding: 10px 20px;
+    margin-top: 10px;
+    border: none;
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button123:hover {
+    background-color: #45a049;
+}
                 /* Styl dla głównego kontenera */
                 .container {
                     display: flex;
@@ -736,7 +770,13 @@
 
                 .image-container3:hover .run-button {
                     display: block; /* Wyświetlenie przycisku na hover */
+                    z-index: 99999; /* Wyższy z-index na hover */
                 }
+
+                button.left-button.first-button:hover {
+    z-index: 99999; /* Wyższy z-index na hover */
+    display: block; /* Wyświetlenie przycisku na hover */
+}
 .image-container3:hover {
     z-index: 99999; /* Wyższy z-index na hover */
 }
@@ -848,11 +888,8 @@
                     background-color: rgba(255, 255, 0, 0.5); /* Kolor tła z opacity */
                     color: white;
                 }
-                span {
-                    color: white;
-                }
                 .yellow {
-                    color: blue;
+                    color: yellow;
                 }
                 .flashcard-container {
                     width: 390px;
@@ -1074,6 +1111,68 @@
                 .zaznaczony-charakter {
                     border: 3px solid blue;
                 }
+.bottom-bar {
+    position: fixed;
+    bottom: -60px; /* Domyślnie schowany */
+    left: 0;
+    width: 100%;
+    height: 60px;
+    background-color: #333;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0 10px;
+    box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.3);
+    z-index: 1000;
+    transition: transform 0.3s ease;
+}
+
+.show {
+    transform: translateY(-60px); /* Pasek widoczny po załadowaniu */
+}
+.hidden {
+    transform: translateY(100%); /* Schowanie paska poza ekran */
+}
+.bottom-button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px;
+    font-size: 8px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.bottom-button:hover {
+    background-color: #45a049;
+}
+
+.lupka {
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}
+
+.toggle-button {
+    position: fixed;
+    bottom: 0;
+    right: 20px;
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+    z-index: 1001;
+    transition: bottom 0.3s ease;
+}
+
+#arrow {
+    font-size: 20px;
+}
+
+.show-toggle-button {
+    bottom: 60px; /* Strzałka przesuwa się do góry gdy pasek jest widoczny */
+}
             }
         </style>
     </head>
@@ -1109,6 +1208,17 @@
                 </div>
             </div>
         </div>
+<div class="bottom-bar" id="bottomBar">
+    <button class="bottom-button" onclick="ustawTryb('zdania', undefined); przekazArgument0(globalCategory, '', '', 'zdania', false, false, tablica3[1])">1 ZDANIE / LEKCJA</button>
+    <button class="bottom-button" onclick="ustawTryb('fiszki', undefined); przekazArgument0(globalCategory, '', '', 'fiszki', false, false, tablica3[1])">3 ZDANIA / LEKCJA</button>
+    <button class="bottom-button" onclick="ustawTryb(tablica3[0], 'frazy'); przekazArgument0(globalCategory, '', '', tablica3[0], true, true, tablica3[1])">FRAZY</button>
+    <button class="bottom-button">SŁOWA</button>
+    <img src="img/lupka3b.png" alt="Szukaj" class="lupka">
+</div>
+
+<div class="toggle-button" id="toggleButton">
+    <span id="arrow">&#9660;</span> <!-- Strzałka skierowana w dół -->
+</div>
         <script>
             // Funkcja do zmiany szerokości okna
             function simulateResize(width) {
@@ -1120,6 +1230,38 @@
             simulateResize(768);
         </script>
         <script>
+const bottomBar = document.getElementById('bottomBar');
+const toggleButton = document.getElementById('toggleButton');
+const arrow = document.getElementById('arrow');
+
+// Pokaż pasek i strzałkę nad nim po załadowaniu strony
+window.addEventListener('load', function() {
+    bottomBar.classList.add('show'); // Pasek widoczny
+    toggleButton.classList.add('show-toggle-button'); // Strzałka nad paskiem
+
+    // Automatyczne schowanie paska po 3 sekundach
+    setTimeout(function() {
+        bottomBar.classList.remove('show');
+        bottomBar.classList.add('hidden'); // Schowanie paska
+        arrow.innerHTML = '&#9650;'; // Zmiana strzałki na skierowaną w górę
+        toggleButton.classList.remove('show-toggle-button'); // Strzałka wraca na dół
+    }, 3000); // 3000 ms = 3 sekundy
+});
+
+// Strzałka do ręcznego rozwijania i chowania paska
+toggleButton.addEventListener('click', function() {
+    if (bottomBar.classList.contains('show')) {
+        bottomBar.classList.remove('show');
+        bottomBar.classList.add('hidden');
+        arrow.innerHTML = '&#9650;'; // Strzałka w górę (chowanie paska)
+        toggleButton.classList.remove('show-toggle-button'); // Strzałka wraca na dół
+    } else {
+        bottomBar.classList.remove('hidden');
+        bottomBar.classList.add('show');
+        arrow.innerHTML = '&#9660;'; // Strzałka w dół (rozwijanie paska)
+        toggleButton.classList.add('show-toggle-button'); // Strzałka nad paskiem
+    }
+});
             function blinkButton() {
                 const button = document.getElementById('flashcardButton');
                 let blinkCount = 0;
@@ -2070,7 +2212,7 @@
                                         if (matchingIndexes.includes(indexToCheck) && currentIndexValue == 0) {
                                             const spanElement = document.createElement('span');
                                             spanElement.textContent = sentencePart;
-                                            spanElement.classList.remove('highlighted-sentence1');
+                                            spanElement.classList.add('highlighted-sentence');
                                             spanElement.classList.add('yellow');
                                             // Zaktualizuj sentencePart, aby zawierał utworzony element span
                                             sentencePart = spanElement.outerHTML;
@@ -2091,13 +2233,13 @@
                             }
                                             const spanElement = document.createElement('span');
                                             spanElement.textContent = sentencePart;
-                                            spanElement.classList.add('highlighted-sentence1');
+                                            spanElement.classList.add('highlighted-sentence');
                                             // Zaktualizuj sentencePart, aby zawierał utworzony element span
                                             sentencePart = spanElement.outerHTML;
                                         } else if (currentIndexValue == 1 && matchingIndexes.includes(indexToCheck)) {
                                             const spanElement = document.createElement('span');
                                             spanElement.textContent = sentencePart;
-                                            spanElement.classList.remove('highlighted-sentence1');
+                                            spanElement.classList.remove('highlighted-sentence');
                                             spanElement.classList.add('yellow');
                                             // Zaktualizuj sentencePart, aby zawierał utworzony element span
                                             sentencePart = spanElement.outerHTML;
@@ -2129,7 +2271,7 @@
                                         if (matchingIndexes.includes(indexToCheck) && currentIndexValue == 0) {
                                             const spanElement = document.createElement('span');
                                             spanElement.textContent = sentencePart2;
-                                            spanElement.classList.remove('highlighted-sentence1');
+                                            spanElement.classList.remove('highlighted-sentence');
                                             spanElement.classList.add('yellow');
                                             // Zaktualizuj sentencePart, aby zawierał utworzony element span
                                             sentencePart2 = spanElement.outerHTML;
@@ -2140,13 +2282,13 @@
                                         } else if (currentIndexValue == 0) {
                                             const spanElement = document.createElement('span');
                                             spanElement.textContent = sentencePart2;
-                                            spanElement.classList.add('highlighted-sentence1');
+                                            spanElement.classList.add('highlighted-sentence');
                                             // Zaktualizuj sentencePart, aby zawierał utworzony element span
                                             sentencePart2 = spanElement.outerHTML;
                                         } else if (currentIndexValue == 1 && matchingIndexes.includes(indexToCheck)) {
                                             const spanElement = document.createElement('span');
                                             spanElement.textContent = sentencePart2;
-                                            spanElement.classList.remove('highlighted-sentence1');
+                                            spanElement.classList.remove('highlighted-sentence');
                                             spanElement.classList.add('yellow');
                                             // Zaktualizuj sentencePart, aby zawierał utworzony element span
                                             sentencePart2 = spanElement.outerHTML;
@@ -2290,7 +2432,6 @@
                                         if (matchingIndexes.includes(indexToCheck) && currentIndexValue == 1) {
                                             const spanElement = document.createElement('span');
                                             spanElement.textContent = sentencePart;
-                                            spanElement.classList.add('white-text'); // Dodaj klasę white-text
                                             spanElement.classList.remove('highlighted-sentence');
                                             spanElement.classList.add('yellow');
                                             // Zaktualizuj sentencePart, aby zawierał utworzony element span
@@ -2515,6 +2656,7 @@ ${sentence30}${sentence33}<br>
 `);
                                 $('.sentence1bba').html('');
                                 $sentenceDiv.on('click', '.left-button', function () {
+                                    
                                     // Dodawanie zdania tylko jeśli sentence1bb2 jest puste
                                     if (sentence1bba === "") {
                                         let sentencePart3 = fiszka.translateb ? fiszka.translateb : "";
@@ -2525,6 +2667,7 @@ ${sentence30}${sentence33}<br>
                                         sentence1bbab += sentencePart33 + " ";
                                     }
                                     console.log('hej20', sentence1bba);
+
                                     // Dodanie treści do diva wraz z przyciskiem
                                     $sentenceDiv.html(`
 <button class="left-button first-button">+<br></button>
@@ -2565,6 +2708,8 @@ ${sentence30}${sentence33}<br>
                                             'position': 'relative'
                                         });
                                     }
+                                    // Dodanie stylizacji na hover
+
                                     $sentence1bb1b.html('');
                                     $sentence1bb1b.empty();
                                 });
@@ -3131,7 +3276,7 @@ ${sentence30}${sentence33}<br>
 // Tworzenie przycisku "Stop"
 if (!stopButtonAdded) {
     const $stopButton = $('<img>')
-        .attr('src', 'http://localhost/arbulanguage.com/img/stopok2.png')
+        .attr('src', 'http://arbu-1dcc9.web.app/img/stopok2.png')
         .css({
             'display': 'none', // Ukryty na starcie
             'position': 'absolute', // Precyzyjne pozycjonowanie względem kontenera
@@ -3149,11 +3294,11 @@ if (!stopButtonAdded) {
                 if (!video.paused) {
                     video.pause();
                     // Zmień obrazek na "Play"
-                    $stopButton.attr('src', 'http://localhost/arbulanguage.com/img/play.png');
+                    $stopButton.attr('src', 'http://arbu-1dcc9.web.app/img/play.png');
                 } else {
                     video.play();
                     // Zmień obrazek z powrotem na "Stop"
-                    $stopButton.attr('src', 'http://localhost/arbulanguage.com/img/stopok2.png');
+                    $stopButton.attr('src', 'http://arbu-1dcc9.web.app/img/stopok2.png');
                 }
             });
         });
@@ -3333,7 +3478,7 @@ if (!stopButtonAdded) {
 // Tworzenie przycisku "Stop"
 if (!stopButtonAdded) {
     const $stopButton = $('<img>')
-        .attr('src', 'http://localhost/arbulanguage.com/img/stopok2.png')
+        .attr('src', 'http://arbu-1dcc9.web.app/img/stopok2.png')
         .css({
             'display': 'none', // Ukryty na starcie
             'position': 'absolute', // Precyzyjne pozycjonowanie względem kontenera
@@ -3351,11 +3496,11 @@ if (!stopButtonAdded) {
                 if (!video.paused) {
                     video.pause();
                     // Zmień obrazek na "Play"
-                    $stopButton.attr('src', 'http://localhost/arbulanguage.com/img/play.png');
+                    $stopButton.attr('src', 'http://arbu-1dcc9.web.app/img/play.png');
                 } else {
                     video.play();
                     // Zmień obrazek z powrotem na "Stop"
-                    $stopButton.attr('src', 'http://localhost/arbulanguage.com/img/stopok2.png');
+                    $stopButton.attr('src', 'http://arbu-1dcc9.web.app/img/stopok2.png');
                 }
             });
         });
@@ -3744,7 +3889,7 @@ if (indexDiv % 2 === 0) {
                             // Dodaj nakładkę do kontenera, po dodaniu wideo
                             $overlay.appendTo($container);
                             // Dodaj funkcję hover do kontenera
-                            if (indexDiv < 5) {
+                            if (indexDiv < 4) {
                                 // Jeśli indexDiv < 5, dodajemy hover z dynamicznym napisem
                                 $container.hover(function () {
                                     $('.overlay', this).css('transform', 'translateX(0)');
@@ -3847,6 +3992,7 @@ ${sentence30}${sentence33}<br>
                         'background-color': 'white',
                         'z-index': '12' // Ustawienie z-index dla buttona większe niż dla sentenceDiv
                     });
+                    
                     $container.append($button);
                     const $buttonb2 = $('<button></button>');
                     $buttonb2.addClass('run-button3');
@@ -3912,7 +4058,7 @@ ${sentence30}${sentence33}<br>
                     });
                     $buttonb2.css({
                         'position': 'absolute', // Przykładowa wartość odstępu od lewej krawędzi
-                        'margin-bottom': '-106px',
+                        'margin-bottom': '-108px',
                         'font-size': '10px',
                         'height': '25px',
                         'color': 'blue',
@@ -4510,7 +4656,7 @@ ${sentence10}${sentence11}<br>
                             // Utwórz element <div> dla nakładki
                             const $overlay = $('<div>').addClass('overlay');
                             const $buttonb = $('<img>').attr({
-                                'src': 'http://localhost/arbulanguage.com/img/startsystem.png', // Względna ścieżka do pliku PNG
+                                'src': 'http://arbu-1dcc9.web.app/img/startsystem.png', // Względna ścieżka do pliku PNG
                                 'class': 'overlay-button' // Klasa dla stylów CSS
                             }).css({
                                 'position': 'absolute',
@@ -5178,7 +5324,7 @@ ${sentence10}<br>
                             // Utwórz element <div> dla nakładki
                             const $overlay = $('<div>').addClass('overlay');
                             const $buttonb = $('<img>').attr({
-                                'src': 'http://localhost/arbulanguage.com/img/startsystem.png', // Względna ścieżka do pliku PNG
+                                'src': 'http://arbu-1dcc9.web.app/img/startsystem.png', // Względna ścieżka do pliku PNG
                                 'class': 'overlay-button' // Klasa dla stylów CSS
                             }).css({
                                 'position': 'absolute',
@@ -5402,8 +5548,37 @@ ${sentence10}<br>
                 console.log('wywołana');
                 przekazArgument0(tablica3[2], undefined, false, 'zdania', false, false, tablica3[1]);
             }
-            przekazArgument0(tablica3[2], '', false, 'fiszki', true, true, tablica3[1]);
-            ustawTryb('fiszki');
+            document.addEventListener("DOMContentLoaded", () => {
+    // Pobierz userAgent przeglądarki
+    const userAgent = navigator.userAgent || navigator.vendor || window.opera;
+
+    // Warunki sprawdzające czy aplikacja to Messenger lub Facebook
+    const isFacebookMessenger = /FBAN|FBAV|Messenger/i.test(userAgent);
+
+    // Jeśli wykryto, że strona jest otwierana z Messengera
+    if (isFacebookMessenger) {
+        alert("Wykryto, że przeglądasz stronę w Messengerze. Dla pełnej funkcjonalności zalecamy otwarcie strony w przeglądarce, np. Chrome.");
+
+        // Dodanie sugestii z przyciskiem do otwarcia strony w przeglądarce
+        const suggestion = document.createElement('div');
+        suggestion.innerHTML = `
+            <div style="position: fixed; top: 20px; left: 20px; right: 20px; background: rgba(255, 255, 255, 0.9); padding: 15px; border: 1px solid #ccc; z-index: 9999; border-radius: 5px;">
+                <p style="font-size: 16px; color: #333;">Aby w pełni korzystać ze strony, otwórz ją w przeglądarce Chrome.</p>
+                <button id="openInChrome" style="padding: 10px 20px; background-color: #4CAF50; color: white; border: none; border-radius: 5px; cursor: pointer;">Otwórz w Chrome</button>
+            </div>
+        `;
+        document.body.appendChild(suggestion);
+
+        // Obsługa kliknięcia przycisku
+        document.getElementById('openInChrome').addEventListener('click', () => {
+            // Otwórz stronę w zewnętrznej przeglądarce
+            window.open(window.location.href, '_blank');
+        });
+    }
+});
+
+        przekazArgument0(tablica3[2], '', false, 'fiszki', true, true, tablica3[1]);
+                    ustawTryb('fiszki');
         </script>
         <script id="demoScript" data-category=""></script>
     </body>

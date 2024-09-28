@@ -10,7 +10,7 @@ id: [
         ],
         translate: "I want to learn Spanish very quickly",
         translateb: "[yoh kee-eh-roh ah-pren-dehr es-pah-nyol moo-ee rah-pee-doh]",
-        srcWord: ["http://arbu-1dcc9.web.app/filmy/eng-esp/language2.mp4", 'Titanic'],
+        srcWord: ["http://arbu-1dcc9.web.app/filmy/eng-esp/language2.mp4", 'Crank 2'],
         srcWordimage: "http://arbu-1dcc9.web.app/filmy/eng-esp/language2.png",
         word: [
                 "http://localhost/arbulanguage.com/voice/music.mp4"
@@ -552,14 +552,15 @@ id: [
                 "sens<b><u>ei</b></u> can s<b><u>o</b></u>mehow afford to meet a beautiful girl"
         ],
         // opis
-        desc: "Ella[eh-yah] - wszyscy",
+        desc: "Ella[eh-yah] - they",
         //zdanie
         sentence1: [
                 "Ella"
         ],
         sentence: [
                 "Ella",
-                "lee",
+                "esta",
+                "leyendo",
                 "un libro",
                 "interesante",
                 "ahora"
@@ -592,17 +593,966 @@ id: [
                 "In moon<b><u>ly</b></u> saturday i <b><u>read</b></u> great book"
         ],
         // opis
-        desc: "lee[] - read",
+        desc: "está[es-tah] - is",
         //zdanie
         sentence1: [
-                "lee"
+                "está"
         ],
         sentence: [
                 "Ella",
-                "lee",
+                "esta",
+                "leyendo",
                 "un libro",
                 "interesante",
                 "ahora"
+        ],
+        //  slowo do nauki
+        key: "yo",
+        category1: [
+                "sport", "gaming",
+                "natura", "kulinaria",
+                "nauka", "medycyna",
+                "czarny humor", "pasja",
+                "związki", "wychowanie"
+        ],
+        category2: ["osoby", "osoby+czas"]
+},
+{
+id: [
+        16,
+        3
+],
+        // obrazek
+        img: [
+                "http://localhost/arbulanguage.com/img/fiszki1/2a.jpg"
+        ],
+        word: [
+                "http://localhost/arbulanguage.com/voice/lee.mp4"
+        ],
+        // historia
+        story: [
+                "In moon<b><u>ly</b></u> saturday i <b><u>read</b></u> great book"
+        ],
+        // opis
+        desc: "leyendo[leh-yen-doh] - read",
+        //zdanie
+        sentence1: [
+                "leyendo"
+        ],
+        sentence: [
+                "Ella",
+                "esta",
+                "leyendo",
+                "un libro",
+                "interesante",
+                "ahora"
+        ],
+        //  slowo do nauki
+        key: "yo",
+        category1: [
+                "sport", "gaming",
+                "natura", "kulinaria",
+                "nauka", "medycyna",
+                "czarny humor", "pasja",
+                "związki", "wychowanie"
+        ],
+        category2: ["osoby", "osoby+czas"]
+},
+{
+id: [
+        17,
+        3
+],
+        // obrazek
+        img: [
+                "http://localhost/arbulanguage.com/img/fiszki1/2a.jpg"
+        ],
+        word: [
+                "http://localhost/arbulanguage.com/voice/lee.mp4"
+        ],
+        // historia
+        story: [
+                "In moon<b><u>ly</b></u> saturday i <b><u>read</b></u> great book"
+        ],
+        // opis
+        desc: "un libro[oon lee-broh] - book",
+        //zdanie
+        sentence1: [
+                "un libro"
+        ],
+        sentence: [
+                "Ella",
+                "esta",
+                "leyendo",
+                "un libro",
+                "interesante",
+                "ahora"
+        ],
+        //  slowo do nauki
+        key: "yo",
+        category1: [
+                "sport", "gaming",
+                "natura", "kulinaria",
+                "nauka", "medycyna",
+                "czarny humor", "pasja",
+                "związki", "wychowanie"
+        ],
+        category2: ["osoby", "osoby+czas"]
+},
+{
+id: [
+        18,
+        3
+],
+        // obrazek
+        img: [
+                "http://localhost/arbulanguage.com/img/fiszki1/2a.jpg"
+        ],
+        word: [
+                "http://localhost/arbulanguage.com/voice/lee.mp4"
+        ],
+        // historia
+        story: [
+                "In moon<b><u>ly</b></u> saturday i <b><u>read</b></u> great book"
+        ],
+        // opis
+        desc: "interesante[in-teh-reh-sahn-teh] - interesting",
+        //zdanie
+        sentence1: [
+                "interesting"
+        ],
+        sentence: [
+                "Ella",
+                "esta",
+                "leyendo",
+                "un libro",
+                "interesante",
+                "ahora"
+        ],
+        //  slowo do nauki
+        key: "yo",
+        category1: [
+                "sport", "gaming",
+                "natura", "kulinaria",
+                "nauka", "medycyna",
+                "czarny humor", "pasja",
+                "związki", "wychowanie"
+        ],
+        category2: ["osoby", "osoby+czas"]
+},
+{
+id: [
+        19,
+        3
+],
+        // obrazek
+        img: [
+                "http://localhost/arbulanguage.com/img/fiszki1/2a.jpg"
+        ],
+        word: [
+                "http://localhost/arbulanguage.com/voice/lee.mp4"
+        ],
+        // historia
+        story: [
+                ""
+        ],
+        // opis
+        desc: "ahora[ah-oh-rah] - now",
+        //zdanie
+        sentence1: [
+                "ahora"
+        ],
+        sentence: [
+                "Ella",
+                "esta",
+                "leyendo",
+                "un libro",
+                "interesante",
+                "ahora"
+        ],
+        //  slowo do nauki
+        key: "yo",
+        category1: [
+                "sport", "gaming",
+                "natura", "kulinaria",
+                "nauka", "medycyna",
+                "czarny humor", "pasja",
+                "związki", "wychowanie"
+        ],
+        category2: ["osoby", "osoby+czas"]
+},
+{
+id: [
+        20,
+        4
+],
+        // obrazek
+        img: [
+                "http://localhost/arbulanguage.com/img/fiszki1/2a.jpg"
+        ],
+        translate: "My coffee is so lazy, it walks to the cup",
+        translateb: "[mee kah-feh es tahn peh-reh-soh, kah-mee-nah ah lah tah-sah]",
+        srcWord: ["http://arbu-1dcc9.web.app/filmy/eng-esp/coffe2.mp4", 'Serial: Dexter(2006-)'],
+        srcWordimage: "http://arbu-1dcc9.web.app/filmy/eng-esp/coffe2.png",
+        word: [
+                "http://localhost/arbulanguage.com/voice/music.mp4"
+        ],
+        // historia
+        story: [
+                "sens<b><u>ei</b></u> can s<b><u>o</b></u>mehow afford to meet a beautiful girl"
+        ],
+        // opis
+        desc: "Mi[eh-yah] - they",
+        //zdanie
+        sentence1: [
+                "Mi"
+        ],
+        sentence: [
+                "Mi",
+                "caffe",
+                "es",
+                "tan",
+                "perezoso"
+        ],
+        //  slowo do nauki
+        key: "yo",
+        category1: [
+                "sport", "gaming",
+                "natura", "kulinaria",
+                "nauka", "medycyna",
+                "czarny humor", "pasja",
+                "związki", "wychowanie"
+        ],
+        category2: ["osoby", "osoby+czas"]
+},
+{
+id: [
+        21,
+        4
+],
+        // obrazek
+        img: [
+                "http://localhost/arbulanguage.com/img/fiszki1/2a.jpg"
+        ],
+        word: [
+                "http://localhost/arbulanguage.com/voice/lee.mp4"
+        ],
+        // historia
+        story: [
+                ""
+        ],
+        // opis
+        desc: "cafe[ah-oh-rah] - now",
+        //zdanie
+        sentence1: [
+                "cafe"
+        ],
+        sentence: [
+                "Mi",
+                "cafe",
+                "es",
+                "tan",
+                "perezoso"
+        ],
+        //  slowo do nauki
+        key: "yo",
+        category1: [
+                "sport", "gaming",
+                "natura", "kulinaria",
+                "nauka", "medycyna",
+                "czarny humor", "pasja",
+                "związki", "wychowanie"
+        ],
+        category2: ["osoby", "osoby+czas"]
+},
+{
+id: [
+        22,
+        4
+],
+        // obrazek
+        img: [
+                "http://localhost/arbulanguage.com/img/fiszki1/2a.jpg"
+        ],
+        word: [
+                "http://localhost/arbulanguage.com/voice/lee.mp4"
+        ],
+        // historia
+        story: [
+                ""
+        ],
+        // opis
+        desc: "es[ah-oh-rah] - now",
+        //zdanie
+        sentence1: [
+                "es"
+        ],
+        sentence: [
+                "Mi",
+                "cafe",
+                "es",
+                "tan",
+                "perezoso"
+        ],
+        //  slowo do nauki
+        key: "yo",
+        category1: [
+                "sport", "gaming",
+                "natura", "kulinaria",
+                "nauka", "medycyna",
+                "czarny humor", "pasja",
+                "związki", "wychowanie"
+        ],
+        category2: ["osoby", "osoby+czas"]
+},
+{
+id: [
+        23,
+        4
+],
+        // obrazek
+        img: [
+                "http://localhost/arbulanguage.com/img/fiszki1/2a.jpg"
+        ],
+        word: [
+                "http://localhost/arbulanguage.com/voice/lee.mp4"
+        ],
+        // historia
+        story: [
+                ""
+        ],
+        // opis
+        desc: "tan[ah-oh-rah] - now",
+        //zdanie
+        sentence1: [
+                "tan"
+        ],
+        sentence: [
+                "Mi",
+                "cafe",
+                "es",
+                "tan",
+                "perezoso"
+        ],
+        //  slowo do nauki
+        key: "yo",
+        category1: [
+                "sport", "gaming",
+                "natura", "kulinaria",
+                "nauka", "medycyna",
+                "czarny humor", "pasja",
+                "związki", "wychowanie"
+        ],
+        category2: ["osoby", "osoby+czas"]
+},
+{
+id: [
+        24,
+        4
+],
+        // obrazek
+        img: [
+                "http://localhost/arbulanguage.com/img/fiszki1/2a.jpg"
+        ],
+        word: [
+                "http://localhost/arbulanguage.com/voice/lee.mp4"
+        ],
+        // historia
+        story: [
+                ""
+        ],
+        // opis
+        desc: "perezoso[ah-oh-rah] - now",
+        //zdanie
+        sentence1: [
+                "perezoso"
+        ],
+        sentence: [
+                "Mi",
+                "cafe",
+                "es",
+                "tan",
+                "perezoso"
+        ],
+        //  slowo do nauki
+        key: "yo",
+        category1: [
+                "sport", "gaming",
+                "natura", "kulinaria",
+                "nauka", "medycyna",
+                "czarny humor", "pasja",
+                "związki", "wychowanie"
+        ],
+        category2: ["osoby", "osoby+czas"]
+},
+{
+id: [
+        25,
+        4
+],
+        // obrazek
+        img: [
+                "http://localhost/arbulanguage.com/img/fiszki1/2a.jpg"
+        ],
+        word: [
+                "http://localhost/arbulanguage.com/voice/lee.mp4"
+        ],
+        // historia
+        story: [
+                ""
+        ],
+        // opis
+        desc: "camina[ah-oh-rah] - now",
+        //zdanie
+        sentence2: [
+                "camina"
+        ],
+        sentence: [
+                "camina",
+                "a",
+                "la taza"
+        ],
+        //  slowo do nauki
+        key: "yo",
+        category1: [
+                "sport", "gaming",
+                "natura", "kulinaria",
+                "nauka", "medycyna",
+                "czarny humor", "pasja",
+                "związki", "wychowanie"
+        ],
+        category2: ["osoby", "osoby+czas"]
+},
+{
+id: [
+        26,
+        4
+],
+        // obrazek
+        img: [
+                "http://localhost/arbulanguage.com/img/fiszki1/2a.jpg"
+        ],
+        word: [
+                "http://localhost/arbulanguage.com/voice/lee.mp4"
+        ],
+        // historia
+        story: [
+                ""
+        ],
+        // opis
+        desc: "a[ah-oh-rah] - now",
+        //zdanie
+        sentence2: [
+                "a"
+        ],
+        sentence: [
+                "camina",
+                "a",
+                "la taza"
+        ],
+        //  slowo do nauki
+        key: "yo",
+        category1: [
+                "sport", "gaming",
+                "natura", "kulinaria",
+                "nauka", "medycyna",
+                "czarny humor", "pasja",
+                "związki", "wychowanie"
+        ],
+        category2: ["osoby", "osoby+czas"]
+},
+{
+id: [
+        27,
+        4
+],
+        // obrazek
+        img: [
+                "http://localhost/arbulanguage.com/img/fiszki1/2a.jpg"
+        ],
+        word: [
+                "http://localhost/arbulanguage.com/voice/lee.mp4"
+        ],
+        // historia
+        story: [
+                ""
+        ],
+        // opis
+        desc: "la taza[ah-oh-rah] - now",
+        //zdanie
+        sentence2: [
+                "la taza"
+        ],
+        sentence: [
+                "camina",
+                "a",
+                "la taza"
+        ],
+        //  slowo do nauki
+        key: "yo",
+        category1: [
+                "sport", "gaming",
+                "natura", "kulinaria",
+                "nauka", "medycyna",
+                "czarny humor", "pasja",
+                "związki", "wychowanie"
+        ],
+        category2: ["osoby", "osoby+czas"]
+},
+{
+id: [
+        28,
+        5
+],
+        // obrazek
+        img: [
+                "http://localhost/arbulanguage.com/img/fiszki1/2a.jpg"
+        ],
+        translate: "The sun shines in the blue sky",
+        translateb: "[el sohl bree-yah en el see-eh-loh ah-sool]",
+        srcWord: ["http://arbu-1dcc9.web.app/filmy/eng-esp/sky.mp4", 'Matrix (1997)'],
+        srcWordimage: "http://arbu-1dcc9.web.app/filmy/eng-esp/sky.png",
+        word: [
+                "http://localhost/arbulanguage.com/voice/music.mp4"
+        ],
+        // historia
+        story: [
+                "sens<b><u>ei</b></u> can s<b><u>o</b></u>mehow afford to meet a beautiful girl"
+        ],
+        // opis
+        desc: "El sol[el sohl] - sun",
+        //zdanie
+        sentence1: [
+                "El sol"
+        ],
+        sentence: [
+                "El sol",
+                "brilla"
+        ],
+        //  slowo do nauki
+        key: "yo",
+        category1: [
+                "sport", "gaming",
+                "natura", "kulinaria",
+                "nauka", "medycyna",
+                "czarny humor", "pasja",
+                "związki", "wychowanie"
+        ],
+        category2: ["osoby", "osoby+czas"]
+},
+{
+id: [
+        29,
+        5
+],
+        // obrazek
+        img: [
+                "http://localhost/arbulanguage.com/img/fiszki1/2a.jpg"
+        ],
+        word: [
+                "http://localhost/arbulanguage.com/voice/lee.mp4"
+        ],
+        // historia
+        story: [
+                ""
+        ],
+        // opis
+        desc: "brilla[bree-yah] - shines",
+        //zdanie
+        sentence1: [
+                "brilla"
+        ],
+        sentence: [
+                "El sol",
+                "brilla"
+        ],
+        //  slowo do nauki
+        key: "yo",
+        category1: [
+                "sport", "gaming",
+                "natura", "kulinaria",
+                "nauka", "medycyna",
+                "czarny humor", "pasja",
+                "związki", "wychowanie"
+        ],
+        category2: ["osoby", "osoby+czas"]
+},
+{
+id: [
+        30,
+        5
+],
+        // obrazek
+        img: [
+                "http://localhost/arbulanguage.com/img/fiszki1/2a.jpg"
+        ],
+        word: [
+                "http://localhost/arbulanguage.com/voice/lee.mp4"
+        ],
+        // historia
+        story: [
+                ""
+        ],
+        // opis
+        desc: "en[bree-yah] - on/in",
+        //zdanie
+        sentence2: [
+                "en"
+        ],
+        sentence: [
+                "en",
+                "el cielo",
+                "azul"
+        ],
+        //  slowo do nauki
+        key: "yo",
+        category1: [
+                "sport", "gaming",
+                "natura", "kulinaria",
+                "nauka", "medycyna",
+                "czarny humor", "pasja",
+                "związki", "wychowanie"
+        ],
+        category2: ["osoby", "osoby+czas"]
+},
+{
+id: [
+        31,
+        5
+],
+        // obrazek
+        img: [
+                "http://localhost/arbulanguage.com/img/fiszki1/2a.jpg"
+        ],
+        word: [
+                "http://localhost/arbulanguage.com/voice/lee.mp4"
+        ],
+        // historia
+        story: [
+                ""
+        ],
+        // opis
+        desc: "el cielo[bree-yah] - sky",
+        //zdanie
+        sentence2: [
+                "el cielo"
+        ],
+        sentence: [
+                "en",
+                "el cielo",
+                "azul"
+        ],
+        //  slowo do nauki
+        key: "yo",
+        category1: [
+                "sport", "gaming",
+                "natura", "kulinaria",
+                "nauka", "medycyna",
+                "czarny humor", "pasja",
+                "związki", "wychowanie"
+        ],
+        category2: ["osoby", "osoby+czas"]
+},
+{
+id: [
+        32,
+        5
+],
+        // obrazek
+        img: [
+                "http://localhost/arbulanguage.com/img/fiszki1/2a.jpg"
+        ],
+        word: [
+                "http://localhost/arbulanguage.com/voice/lee.mp4"
+        ],
+        // historia
+        story: [
+                ""
+        ],
+        // opis
+        desc: "azul[bree-yah] - blue",
+        //zdanie
+        sentence2: [
+                "azul"
+        ],
+        sentence: [
+                "en",
+                "el cielo",
+                "azul"
+        ],
+        //  slowo do nauki
+        key: "yo",
+        category1: [
+                "sport", "gaming",
+                "natura", "kulinaria",
+                "nauka", "medycyna",
+                "czarny humor", "pasja",
+                "związki", "wychowanie"
+        ],
+        category2: ["osoby", "osoby+czas"]
+},
+{
+id: [
+        33,
+        6
+],
+        // obrazek
+        img: [
+                "http://localhost/arbulanguage.com/img/fiszki1/2a.jpg"
+        ],
+        translate: "The house is big, and it has a beautiful garden",
+        translateb: "[lah kah-sah es grahn-deh ee tee-eh-neh oon har-deen boh-nee-toh]",
+        srcWord: ["http://arbu-1dcc9.web.app/filmy/eng-esp/garden.mp4", 'Elylsium (2013)'],
+        srcWordimage: "http://arbu-1dcc9.web.app/filmy/eng-esp/garden.png",
+        word: [
+                "http://localhost/arbulanguage.com/voice/music.mp4"
+        ],
+        // historia
+        story: [
+                "sens<b><u>ei</b></u> can s<b><u>o</b></u>mehow afford to meet a beautiful girl"
+        ],
+        // opis
+        desc: "La casa[lah kah-sah] - house",
+        //zdanie
+        sentence1: [
+                "La casa"
+        ],
+        sentence: [
+                "La casa",
+                "es",
+                "grande"
+        ],
+        //  slowo do nauki
+        key: "yo",
+        category1: [
+                "sport", "gaming",
+                "natura", "kulinaria",
+                "nauka", "medycyna",
+                "czarny humor", "pasja",
+                "związki", "wychowanie"
+        ],
+        category2: ["osoby", "osoby+czas"]
+},
+{
+id: [
+        34,
+        6
+],
+        // obrazek
+        img: [
+                "http://localhost/arbulanguage.com/img/fiszki1/2a.jpg"
+        ],
+        word: [
+                "http://localhost/arbulanguage.com/voice/lee.mp4"
+        ],
+        // historia
+        story: [
+                ""
+        ],
+        // opis
+        desc: "es[bree-yah] - blue",
+        //zdanie
+        sentence1: [
+                "es"
+        ],
+        sentence: [
+                "La casa",
+                "es",
+                "grande"
+        ],
+        //  slowo do nauki
+        key: "yo",
+        category1: [
+                "sport", "gaming",
+                "natura", "kulinaria",
+                "nauka", "medycyna",
+                "czarny humor", "pasja",
+                "związki", "wychowanie"
+        ],
+        category2: ["osoby", "osoby+czas"]
+},
+{
+id: [
+        35,
+        6
+],
+        // obrazek
+        img: [
+                "http://localhost/arbulanguage.com/img/fiszki1/2a.jpg"
+        ],
+        word: [
+                "http://localhost/arbulanguage.com/voice/lee.mp4"
+        ],
+        // historia
+        story: [
+                ""
+        ],
+        // opis
+        desc: "grande[bree-yah] - big",
+        //zdanie
+        sentence1: [
+                "grande"
+        ],
+        sentence: [
+                "La casa",
+                "es",
+                "grande"
+        ],
+        //  slowo do nauki
+        key: "yo",
+        category1: [
+                "sport", "gaming",
+                "natura", "kulinaria",
+                "nauka", "medycyna",
+                "czarny humor", "pasja",
+                "związki", "wychowanie"
+        ],
+        category2: ["osoby", "osoby+czas"]
+},
+{
+id: [
+        36,
+        6
+],
+        // obrazek
+        img: [
+                "http://localhost/arbulanguage.com/img/fiszki1/2a.jpg"
+        ],
+        word: [
+                "http://localhost/arbulanguage.com/voice/lee.mp4"
+        ],
+        // historia
+        story: [
+                ""
+        ],
+        // opis
+        desc: "y[bree-yah] - and",
+        //zdanie
+        sentence2: [
+                "y"
+        ],
+        sentence: [
+                "y",
+                "tiene",
+                "un jardin",
+                "bonito"
+        ],
+        //  slowo do nauki
+        key: "yo",
+        category1: [
+                "sport", "gaming",
+                "natura", "kulinaria",
+                "nauka", "medycyna",
+                "czarny humor", "pasja",
+                "związki", "wychowanie"
+        ],
+        category2: ["osoby", "osoby+czas"]
+},
+{
+id: [
+        37,
+        6
+],
+        // obrazek
+        img: [
+                "http://localhost/arbulanguage.com/img/fiszki1/2a.jpg"
+        ],
+        word: [
+                "http://localhost/arbulanguage.com/voice/lee.mp4"
+        ],
+        // historia
+        story: [
+                ""
+        ],
+        // opis
+        desc: "tiene[bree-yah] - has",
+        //zdanie
+        sentence2: [
+                "tiene"
+        ],
+        sentence: [
+                "y",
+                "tiene",
+                "un jardin",
+                "bonito"
+        ],
+        //  slowo do nauki
+        key: "yo",
+        category1: [
+                "sport", "gaming",
+                "natura", "kulinaria",
+                "nauka", "medycyna",
+                "czarny humor", "pasja",
+                "związki", "wychowanie"
+        ],
+        category2: ["osoby", "osoby+czas"]
+},
+{
+id: [
+        38,
+        6
+],
+        // obrazek
+        img: [
+                "http://localhost/arbulanguage.com/img/fiszki1/2a.jpg"
+        ],
+        word: [
+                "http://localhost/arbulanguage.com/voice/lee.mp4"
+        ],
+        // historia
+        story: [
+                ""
+        ],
+        // opis
+        desc: "un jardin[bree-yah] - garden",
+        //zdanie
+        sentence2: [
+                "tiene"
+        ],
+        sentence: [
+                "y",
+                "tiene",
+                "un jardin",
+                "bonito"
+        ],
+        //  slowo do nauki
+        key: "yo",
+        category1: [
+                "sport", "gaming",
+                "natura", "kulinaria",
+                "nauka", "medycyna",
+                "czarny humor", "pasja",
+                "związki", "wychowanie"
+        ],
+        category2: ["osoby", "osoby+czas"]
+},
+{
+id: [
+        39,
+        6
+],
+        // obrazek
+        img: [
+                "http://localhost/arbulanguage.com/img/fiszki1/2a.jpg"
+        ],
+        word: [
+                "http://localhost/arbulanguage.com/voice/lee.mp4"
+        ],
+        // historia
+        story: [
+                ""
+        ],
+        // opis
+        desc: "bonito[bree-yah] - beautiful",
+        //zdanie
+        sentence2: [
+                "bonito"
+        ],
+        sentence: [
+                "y",
+                "tiene",
+                "un jardin",
+                "bonito"
         ],
         //  slowo do nauki
         key: "yo",

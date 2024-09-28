@@ -5,73 +5,164 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Language Selection</title>
     <style>
-        html, body {
-            height: 100%;
-            margin: 0;
-        }
-        #polski,
-        #angielski,
-        #british {
-            font-size: 10px;
-            position: absolute;
-            z-index: 9999;
-            color: white;
-        }
-        body {
-            font-family: Arial, sans-serif;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            text-align: center;
-        }
+                    @media (min-width: 999px) {
+html, body {
+    height: 100%;
+    margin: 0;
+}
 
-        .container {
-            max-width: 1200px;
-            width: 100%;
-        }
+#polski,
+#angielski,
+#british {
+    font-size: 10px;
+    position: absolute;
+    z-index: 9999;
+    color: white;
+}
+#jezyk {
+    font-size: 20px;
+    display: block;
+    margin: 20px 0; /* Odstęp od innych elementów */
+    font-weight: bold; /* Pogrubienie tekstu */
+    color: #333; /* Kolor tekstu */
+    text-align: center; /* Wyśrodkowanie tekstu */
+    background-color: rgba(255, 255, 255, 0.8); /* Lekki przezroczysty tło */
+    padding: 10px; /* Padding dla lepszego wyglądu */
+    border-radius: 5px; /* Zaokrąglone rogi */
+}
 
-        .flag-container {
-            display: flex;
-            margin-bottom: 20px;
-        }
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
 
-        .flag-container div {
-            cursor: pointer;
-            border: 3px solid transparent;
-            padding: 10px;
-            transition: border-color 0.3s ease;
-        }
+.container {
+    max-width: 1200px;
+    width: 100%;
+}
 
-        .flag-container div.selected {
-            border-color: #007BFF;
-        }
+.flag-container {
+    display: grid;
+    grid-template-columns: repeat(2, auto); /* Dwie kolumny o szerokości automatycznej */
+    justify-content: center; /* Wyśrodkowanie kolumn na ekranie */
+    gap: 0px; /* Brak odstępu między elementami */
+    margin-bottom: 0px;
+}
 
-        video {
-            width: auto;
-            position: relative;
-            height: 200px;
-        }
+.flag-container div {
+    cursor: pointer;
+    border: 3px solid transparent;
+    padding: 10px;
+    transition: border-color 0.3s ease;
+    position: relative;
+        width: 330px;
+    height: auto;
+}
 
-        button {
-            margin-top: 20px;
-            padding: 10px 20px;
-            font-size: 1.2rem;
-            cursor: pointer;
-            display: none; /* Ukryty przycisk, pojawi się po wyborze języka */
-        }
-        #start-btn {
-            justify-content: center;
-            align-items: center;
-            text-align: center;
-        }
+.flag-container div.selected {
+    border-color: #007BFF;
+    width: 330px;
+    height: auto;
+}
+
+video {
+    width: 330px; /* Wideo dostosuje się do szerokości rodzica */
+    height: auto; /* Wysokość będzie automatyczna */
+    max-height: 200px; /* Maksymalna wysokość wideo */
+}
+
+button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    display: none; /* Ukryty przycisk, pojawi się po wyborze języka */
+}
+
+#start-btn {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+                    }
+                                @media (max-width: 999px) {
+                                    html, body {
+    height: 100%;
+    margin: 0;
+}
+
+#polski,
+#angielski,
+#british {
+    font-size: 10px;
+    position: absolute;
+    z-index: 9999;
+    color: white;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.container {
+    max-width: 1200px;
+    display: block;
+}
+
+.flag-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Dwie kolumny o równym podziale */
+    gap: 10px; /* Odstęp między elementami */
+    margin-bottom: 20px;
+}
+
+.flag-container div {
+    cursor: pointer;
+    border: 3px solid transparent;
+    transition: border-color 0.3s ease;
+    position: relative;
+}
+
+.flag-container div.selected {
+    border-color: #007BFF;
+    margin: 0px;
+}
+
+video {
+    width: 100%; /* Wideo dostosuje się do szerokości rodzica */
+    height: auto; /* Wysokość będzie automatyczna */
+    max-height: 200px; /* Maksymalna wysokość wideo */
+}
+
+button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    display: none; /* Ukryty przycisk, pojawi się po wyborze języka */
+}
+
+#start-btn {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+                                }
     </style>
 </head>
-
 <body>
     <div class="container">
-        <h2>Wybierz swój ojczysty język: / My mother language: </h2>
+        <div id="jezyk">
+            <h2>Wybierz swój ojczysty język: / My mother language:</h2>
+        </div>
 
-        <!-- Pojemnik na flagi ojczystych języków -->
         <div class="flag-container" id="native-language-container">
             <div data-language="pl">
                 <div id="polski">Polski</div>
@@ -85,25 +176,20 @@
                 <video autoplay loop muted>
                     <source src="start/USA.mp4" type="video/mp4">
                     Twój przeglądarka nie obsługuje elementu video.
-
                 </video>
             </div>
-                        <div data-language="br">
+            <div data-language="br">
                 <div id="british">British English</div>
                 <video autoplay loop muted>
                     <source src="start/England.mp4" type="video/mp4">
                     Twój przeglądarka nie obsługuje elementu video.
-
                 </video>
             </div>
         </div>
 
         <div id="language-options" class="hidden">
-            <h2>Wybierz język do nauki: / Select a language to learn:/</h2>
-            <!-- Pojemnik na flagi języków do nauki -->
-            <div class="flag-container" id="learn-language-container">
-                <!-- Opcje języków do nauki zostaną załadowane dynamicznie -->
-            </div>
+            <h2>Wybierz język do nauki: / Select a language to learn:</h2>
+            <div class="flag-container" id="learn-language-container"></div>
         </div>
 
         <button id="start-btn">START</button>
@@ -117,7 +203,6 @@
         let selectedNativeLanguage = '';
         let selectedLearnLanguage = '';
 
-        // Zdefiniowane języki i flagi
         const flags = {
             pl: 'start/Poland.mp4',
             en: 'start/USA.mp4',
@@ -125,46 +210,33 @@
             es: 'start/Spain.mp4'
         };
 
-        // Kliknięcie na flagę ojczystego języka
         nativeLanguageContainer.addEventListener('click', function(e) {
             const clickedElement = e.target.closest('div[data-language]');
             if (clickedElement) {
-                // Usuń zaznaczenie ze wszystkich
                 Array.from(nativeLanguageContainer.children).forEach(child => {
                     child.classList.remove('selected');
                 });
-
-                // Zaznacz wybrany język
                 clickedElement.classList.add('selected');
                 selectedNativeLanguage = clickedElement.getAttribute('data-language');
-                
-                // Pokaż opcje nauki języka w zależności od wybranego ojczystego języka
                 loadLearningOptions(selectedNativeLanguage);
-                languageOptionsDiv.classList.remove('hidden');
+                languageOptionsDiv.classList.remove('hidden'); // Pokazuje sekcję z językami do nauki
             }
         });
 
-        // Kliknięcie na flagę języka do nauki
         learnLanguageContainer.addEventListener('click', function(e) {
             const clickedElement = e.target.closest('div[data-language]');
             if (clickedElement) {
-                // Usuń zaznaczenie ze wszystkich
                 Array.from(learnLanguageContainer.children).forEach(child => {
                     child.classList.remove('selected');
                 });
-
-                // Zaznacz wybrany język
                 clickedElement.classList.add('selected');
                 selectedLearnLanguage = clickedElement.getAttribute('data-language');
-
-                // Pokaż przycisk START
-                startBtn.style.display = 'block';
+                startBtn.style.display = 'block'; // Pokaż przycisk START
             }
         });
 
-        // Funkcja ładowania opcji języków do nauki
         function loadLearningOptions(nativeLanguage) {
-            learnLanguageContainer.innerHTML = ''; // Resetowanie zawartości
+            learnLanguageContainer.innerHTML = '';
             let languageOptions = [];
 
             if (nativeLanguage === 'pl') {
@@ -182,7 +254,6 @@
                 ];
             }
 
-            // Tworzenie opcji wideo dla każdego języka
             languageOptions.forEach(option => {
                 const div = document.createElement('div');
                 div.setAttribute('data-language', option.value);
@@ -197,10 +268,8 @@
             });
         }
 
-        // Funkcja obsługi przycisku START
         startBtn.addEventListener('click', function() {
             let link = '';
-
             if (selectedNativeLanguage === 'pl' && selectedLearnLanguage === 'en') {
                 link = 'matrix.html';
             } else if (selectedNativeLanguage === 'pl' && selectedLearnLanguage === 'es') {

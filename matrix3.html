@@ -1194,17 +1194,16 @@
     <button class="rodzaj-button" data-rodzaj="osoby">WYGENEROWANY JEDNORAZOWO</button>
             <div id="title">RODZAJ SŁOWNICTWA</div>
                     <button class="rodzaj-button" data-rodzaj="osoby">KOGNATY</button>
-    <button id="osoby" class="rodzaj-button" data-rodzaj="osoby" onclick="przekazArgument0('all', '', '', '', '', '', tablica3[1])">Wszystkie</button>
-    <button class="rodzaj-button" data-rodzaj="osoby" onclick="przekazArgument0('osoby', '', '', '', '', '', tablica3[1])">Osoby</button>
-    <button class="rodzaj-button" data-rodzaj="zaimki osobowe" onclick="przekazArgument0('zaimkiosobowe', '', '', '', '', '', tablica3[1])">Zaimki osobowe</button>
-    <button id="inne" onclick="przekazArgument0('emocje', '', '', '', '', '', tablica3[1])">Emocje</button>
-    <button class="rodzaj-button" data-rodzaj="zaimki" onclick="przekazArgument0('spojniki', '', '', '', '', '', tablica3[1])">Spójniki</button>
+    <button id="osoby" class="rodzaj-button" data-rodzaj="osoby" onclick="przekazArgument0('all', '', '', '', '', '', tablica3[1])">All</button>
+    <button class="rodzaj-button" data-rodzaj="zaimki osobowe" onclick="przekazArgument0('zaimkiosobowe', '', '', '', '', '', tablica3[1])">Personal pronouns</button>
+    <button id="inne" onclick="przekazArgument0('emocje', '', '', '', '', '', tablica3[1])">Emotions</button>
+    <button class="rodzaj-button" data-rodzaj="zaimki" onclick="przekazArgument0('spojniki', '', '', '', '', '', tablica3[1])">Conjunctions</button>
     <button id="inne" onclick="przekazArgument0('kolory', '', '', '', '', '', tablica3[1])">Kolory</button>
-    <button id="inne" class="rodzaj-button" data-rodzaj="zwierzeta" onclick="przekazArgument0('zwierzeta', '', '', '', '', '', tablica3[1])">Zwierzęta</button>
-    <button class="rodzaj-button" data-rodzaj="czasownik" onclick="przekazArgument0('czasownik', '', '', '', '', '', tablica3[1])">Czasowniki</button>
+    <button id="inne" class="rodzaj-button" data-rodzaj="zwierzeta" onclick="przekazArgument0('zwierzeta', '', '', '', '', '', tablica3[1])">Animals</button>
+    <button class="rodzaj-button" data-rodzaj="czasownik" onclick="przekazArgument0('czasownik', '', '', '', '', '', tablica3[1])">Verbs</button>
     <br>ILOŚĆ MATERIAŁU NA LEKCJE<br>
-<button class="czas" onclick="ustawTryb('zdania', undefined); przekazArgument0(globalCategory, '', '', 'zdania', false, false, tablica3[1])">5 MINUT (JEDNO ZDANIE)</button>
-<button id="english" class="czas" onclick="ustawTryb('fiszki', undefined); przekazArgument0(globalCategory, '', '', 'fiszki', true, true, tablica3[1])">10 MINUT (3 ZDANIA) - OPCJONALNIE</button>
+<button class="czas" onclick="ustawTryb('zdania', undefined); przekazArgument0(globalCategory, '', '', 'zdania', false, false, tablica3[1])">5 MINUTES (ONE SENTENCE)</button>
+<button id="english" class="czas" onclick="ustawTryb('fiszki', undefined); przekazArgument0(globalCategory, '', '', 'fiszki', true, true, tablica3[1])">10 MINUTES (3 SENTENCES) - OPCJONALNIE</button>
 <br>TRYB LEKCJI<br>
 <button id="english" class="czas" onclick="ustawTryb(tablica3[0], ''); przekazArgument0(globalCategory, '', '', tablica3[0], false, false, tablica3[1])">ZDANIA</button>
 <button class="czas" onclick="ustawTryb(tablica3[0], 'frazy'); przekazArgument0(globalCategory, '', '', tablica3[0], true, true, tablica3[1])">FRAZY</button>
@@ -1218,7 +1217,7 @@
             <div id="title">CZASY</div>
 <button class="charakter-button" onclick="przekazArgument0('PresentSimple', '', '', '', '', '', tablica3[1])">OZNACZ CZAS</button>
 <br>
-    <button class="charakter-button" onclick="przekazArgument0('PresentSimple', '', '', '', '', '', tablica3[1])">PRESENT SIMPLE</button>
+<button class="charakter-button" onclick="przekazArgument0('Infinitive', '', '', '', '', '', tablica3[1])">INFINITIVE</button>
     <button id="inne">PAST SIMPLE</button>
     <br>
     <div id="title">OPCJE ZDANIA</div>
@@ -3089,7 +3088,7 @@ ${sentence30}${sentence33}<br>
             }
 
             // Dodaj nowy tekst do <div>
-            $sceneDiv.text(`Scena z filmu ${srcWords2[index]}`);
+            $sceneDiv.text(`Scene from the movie: ${srcWords2[index]}`);
 
             if (window.matchMedia("(max-width: 999px)").matches) {
                 if (indexDiv % 2 === 0) {
@@ -3291,7 +3290,7 @@ if (!stopButtonAdded) {
             }
 
             // Dodaj nowy tekst do <div>
-            $sceneDiv.text(`Scena z filmu ${srcWords2[index]}`);
+            $sceneDiv.text(`Scene from the movie: ${srcWords2[index]}`);
 
             if (window.matchMedia("(max-width: 999px)").matches) {
                 if (indexDiv % 2 === 0) {
@@ -3741,7 +3740,7 @@ if (indexDiv % 2 === 0) {
                                     $('.overlay', this).css('transform', 'translateX(0)');
 
                                     // Twórz nowy dynamiczny div z napisem
-                                    const $dynamicDiv = $('<div>').addClass('dynamic-div').text('Lekcja dostępna - otwórz');
+                                    const $dynamicDiv = $('<div>').addClass('dynamic-div').text('Lesson available - open');
                                     // Dodaj dynamiczny div do kontenera
                                     $dynamicDiv.appendTo($(this)).fadeIn(300);
                                 }, function () {
@@ -3812,7 +3811,7 @@ ${sentence30}${sentence33}<br>
                     }
                     const $button = $('<button></button>');
                     $button.addClass('run-button');
-                    $button.text('Uruchom'); // Ustawiamy tekst przycisku na 'Uruchom'
+                    $button.text('Play'); // Ustawiamy tekst przycisku na 'Uruchom'
                     $button.attr('data-index', indexDiv);
                     $button.on('click', function () {
 
@@ -3838,7 +3837,7 @@ ${sentence30}${sentence33}<br>
                     $container.append($button);
                     const $buttonb2 = $('<button></button>');
                     $buttonb2.addClass('run-button3');
-                    $buttonb2.text('Otwórz lekcję w nowym oknie'); // Ustawiamy tekst przycisku na 'Uruchom'
+                    $buttonb2.text('Open lesson in new window'); // Ustawiamy tekst przycisku na 'Uruchom'
                     // Dodajemy atrybut 'data-index' z wartością indexDiv do przycisku
 
                     $buttonb2.attr('data-index2', indexDiv);
@@ -3881,11 +3880,11 @@ ${sentence30}${sentence33}<br>
                             console.log('hej554', index55b2);
                             if (index55b2 === 1) { // Porównaj jako liczby
                                 // Bezpośrednio przekierowujemy użytkownika do strony
-                                window.location.href = 'demo1angielski.html?category=' + encodeURIComponent(globalCategory);
+                                window.location.href = 'demo1eng-esp.html?category=' + encodeURIComponent(globalCategory);
                             }
                             if (index55b2 === 2) {
                                 // Bezpośrednio przekierowujemy użytkownika do strony
-                                window.location.href = 'demo2angielski.html?category=' + encodeURIComponent(globalCategory);
+                                window.location.href = 'demo2eng-esp.html?category=' + encodeURIComponent(globalCategory);
                             }
                             if (index55b2 === 3) {
                                 // Bezpośrednio przekierowujemy użytkownika do strony
@@ -4519,7 +4518,7 @@ ${sentence10}${sentence11}<br>
                                     $('.overlay', this).css('transform', 'translateX(0)');
 
                                     // Twórz nowy dynamiczny div z napisem
-                                    const $dynamicDiv = $('<div>').addClass('dynamic-div').text('Lekcja dostępna - otwórz');
+                                    const $dynamicDiv = $('<div>').addClass('dynamic-div').text('Lesson available - open');
                                     // Dodaj dynamiczny div do kontenera
                                     $dynamicDiv.appendTo($(this)).fadeIn(300);
                                 }, function () {
@@ -4590,7 +4589,7 @@ ${sentence10}${sentence11}<br>
 
                     const $button = $('<button></button>');
                     $button.addClass('run-button2');
-                    $button.text('Uruchom'); // Ustawiamy tekst przycisku na 'Uruchom'
+                    $button.text('Play'); // Ustawiamy tekst przycisku na 'Uruchom'
 
                     // Dodajemy atrybut 'data-index' z wartością indexDiv do przycisku
                     $button.attr('data-index', indexDiv);
@@ -4619,7 +4618,7 @@ ${sentence10}${sentence11}<br>
 
                     const $buttonb2 = $('<button></button>');
                     $buttonb2.addClass('run-button3');
-                    $buttonb2.text('Otwórz lekcję w nowym oknie'); // Ustawiamy tekst przycisku na 'Uruchom'
+                    $buttonb2.text('Open lesson in new window'); // Ustawiamy tekst przycisku na 'Uruchom'
                     // Dodajemy atrybut 'data-index' z wartością indexDiv do przycisku
                     $buttonb2.attr('data-index2', indexDiv);
                     $buttonb2.on('click', function () {
@@ -5256,7 +5255,7 @@ ${sentence10}<br>
 
                     const $button = $('<button></button>');
                     $button.addClass('run-button2');
-                    $button.text('Uruchom'); // Ustawiamy tekst przycisku na 'Uruchom'
+                    $button.text('Play'); // Ustawiamy tekst przycisku na 'Uruchom'
 
                     // Dodajemy atrybut 'data-index' z wartością indexDiv do przycisku
                     $button.attr('data-index', indexDiv);

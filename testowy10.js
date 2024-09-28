@@ -10,10 +10,10 @@ id: [
         ],
         translate: "Rysować kwiat w zeszycie",
         translateb: "[Dibuhar una flor en el kuaderno]",
-        srcWord: ["http://localhost/arbulanguage.com/filmy/esp/drawing.mp4", 'Titanic'],
-        srcWordimage: "http://localhost/arbulanguage.com/filmy/esp/drawing.png",
+        srcWord: ["http://arbu-1dcc9.web.app/filmy/esp/drawing.mp4", 'Titanic'],
+        srcWordimage: "http://arbu-1dcc9.web.app/filmy/esp/drawing.png",
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "http://arbu-1dcc9.web.app/voice/music.mp4"
         ],
         // historia
         story: [
@@ -164,10 +164,10 @@ id: [
         ],
         translate: "Czekać samemu w domu",
         translateb: "[Esperar solo dentro de la casa]",
-        srcWord: ["http://localhost/arbulanguage.com/filmy/esp/home.mp4", 'Mechanik. Konfrontacja'],
-        srcWordimage: "http://localhost/arbulanguage.com/filmy/esp/home.png",
+        srcWord: ["http://arbu-1dcc9.web.app/filmy/esp/home.mp4", 'Mechanik. Konfrontacja'],
+        srcWordimage: "http://arbu-1dcc9.web.app/filmy/esp/home.png",
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "http://arbu-1dcc9.web.app/voice/music.mp4"
         ],
         // historia
         story: [
@@ -333,10 +333,10 @@ id: [
         ],
         translate: "Rozmawiać bez napięcia, idąc razem",
         translateb: "[Ablar sin tensión mientras kaminamos huntos]",
-        srcWord: ["http://localhost/arbulanguage.com/filmy/esp/conversation.mp4", 'Incepcja'],
-        srcWordimage: "http://localhost/arbulanguage.com/filmy/esp/conversation.png",
+        srcWord: ["http://arbu-1dcc9.web.app/filmy/esp/conversation.mp4", 'Incepcja'],
+        srcWordimage: "http://arbu-1dcc9.web.app/filmy/esp/conversation.png",
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "http://arbu-1dcc9.web.app/voice/music.mp4"
         ],
         // historia
         story: [
@@ -586,10 +586,10 @@ id: [
         ],
         translate: "Przerywać ciszę pięknymi słowami",
         translateb: "[Romper el silensio kon palawras bonitas]",
-        srcWord: ["http://localhost/arbulanguage.com/filmy/esp/beautiful-words.mp4", '300'],
-        srcWordimage: "http://localhost/arbulanguage.com/filmy/esp/beautiful-words.png",
+        srcWord: ["http://arbu-1dcc9.web.app/filmy/esp/beautiful-words.mp4", '300'],
+        srcWordimage: "http://arbu-1dcc9.web.app/filmy/esp/beautiful-words.png",
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "http://arbu-1dcc9.web.app/voice/music.mp4"
         ],
         // historia
         story: [
@@ -799,10 +799,10 @@ id: [
         ],
         translate: "Zabezpieczać drzwi przed snem",
         translateb: "[Asegurar las puertas antes de dormir]",
-        srcWord: ["http://localhost/arbulanguage.com/filmy/esp/door.mp4", 'The Matrix Reloaded'],
-        srcWordimage: "http://localhost/arbulanguage.com/filmy/esp/door.png",
+        srcWord: ["http://arbu-1dcc9.web.app/filmy/esp/door.mp4", 'The Matrix Reloaded'],
+        srcWordimage: "http://arbu-1dcc9.web.app/filmy/esp/door.png",
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "http://arbu-1dcc9.web.app/voice/music.mp4"
         ],
         // historia
         story: [
@@ -968,10 +968,10 @@ id: [
         ],
         translate: "Zachować spokój i cieszyć się razem",
         translateb: "[Mantener la kalma i disfrutar huntos]",
-        srcWord: ["http://localhost/arbulanguage.com/filmy/esp/smiling.mp4", '300'],
-        srcWordimage: "http://localhost/arbulanguage.com/filmy/esp/smiling.png",
+        srcWord: ["http://arbu-1dcc9.web.app/filmy/esp/smiling.mp4", '300'],
+        srcWordimage: "http://arbu-1dcc9.web.app/filmy/esp/smiling.png",
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "http://arbu-1dcc9.web.app/voice/music.mp4"
         ],
         // historia
         story: [
@@ -1181,10 +1181,10 @@ id: [
         ],
         translate: "Osiągać marzenia przez wysiłek i poświęcenie",
         translateb: "[Lograr sueños con esfuerzo y dedicación]",
-        srcWord: ["http://localhost/arbulanguage.com/filmy/esp/dreams.mp4", 'Pain And Gain'],
-        srcWordimage: "http://localhost/arbulanguage.com/filmy/esp/dreams.png",
+        srcWord: ["http://arbu-1dcc9.web.app/filmy/esp/dreams.mp4", 'Pain And Gain'],
+        srcWordimage: "http://arbu-1dcc9.web.app/filmy/esp/dreams.png",
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "http://arbu-1dcc9.web.app/voice/music.mp4"
         ],
         // historia
         story: [
@@ -1438,10 +1438,10 @@ id: [
         ],
         translate: "Pamiętać szczęśliwe chwile z rodziną",
         translateb: "[Recordar momentos felices con la familia]",
-        srcWord: ["http://localhost/arbulanguage.com/filmy/esp/timewithfamily.mp4", 'Fast and Furious'],
-        srcWordimage: "http://localhost/arbulanguage.com/filmy/esp/timewithfamily.png",
+        srcWord: ["http://arbu-1dcc9.web.app/filmy/esp/timewithfamily.mp4", 'Fast and Furious'],
+        srcWordimage: "http://arbu-1dcc9.web.app/filmy/esp/timewithfamily.png",
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "http://arbu-1dcc9.web.app/voice/music.mp4"
         ],
         // historia
         story: [
@@ -1651,10 +1651,10 @@ id: [
         ],
         translate: "Cieszyć się makijażem przed wyjściem",
         translateb: "[Disfrutar del maquillaje antes de salir]",
-        srcWord: ["http://localhost/arbulanguage.com/filmy/esp/make-up.mp4", 'Piosenka: 10 minutes - Inna'],
-        srcWordimage: "http://localhost/arbulanguage.com/filmy/esp/make-up.png",
+        srcWord: ["http://arbu-1dcc9.web.app/filmy/esp/make-up.mp4", 'Piosenka: 10 minutes - Inna'],
+        srcWordimage: "http://arbu-1dcc9.web.app/filmy/esp/make-up.png",
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "http://arbu-1dcc9.web.app/voice/music.mp4"
         ],
         // historia
         story: [
@@ -1820,10 +1820,10 @@ id: [
         ],
         translate: "Zapomnieć o niepokoju, patrząc na gwiazdy",
         translateb: "[Olvidar la ansiedad mirando las estrellas]",
-        srcWord: ["http://localhost/arbulanguage.com/filmy/esp/gwiazdy.mp4", 'Pasażerowie (2016)'],
-        srcWordimage: "http://localhost/arbulanguage.com/filmy/esp/gwiazdy.png",
+        srcWord: ["http://arbu-1dcc9.web.app/filmy/esp/gwiazdy.mp4", 'Pasażerowie (2016)'],
+        srcWordimage: "http://arbu-1dcc9.web.app/filmy/esp/gwiazdy.png",
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "http://arbu-1dcc9.web.app/voice/music.mp4"
         ],
         // historia
         story: [
@@ -1989,10 +1989,10 @@ id: [
         ],
         translate: "Rozciągać ramiona ku błękitnemu niebu",
         translateb: "[Extender los brazos al cielo azul]",
-        srcWord: ["http://localhost/arbulanguage.com/filmy/esp/niebo.mp4", 'Skazani na Shawshank (1994)'],
-        srcWordimage: "http://localhost/arbulanguage.com/filmy/esp/niebo.png",
+        srcWord: ["http://arbu-1dcc9.web.app/filmy/esp/niebo.mp4", 'Skazani na Shawshank (1994)'],
+        srcWordimage: "http://arbu-1dcc9.web.app/filmy/esp/niebo.png",
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "http://arbu-1dcc9.web.app/voice/music.mp4"
         ],
         // historia
         story: [
@@ -2202,10 +2202,10 @@ id: [
         ],
         translate: "Pokryć samochód przed deszczem",
         translateb: "[Kubrir el coche antes de la lluvia]",
-        srcWord: ["http://localhost/arbulanguage.com/filmy/esp/showingcar.mp4", 'W pogodni za zemstą (2010)'],
-        srcWordimage: "http://localhost/arbulanguage.com/filmy/esp/showingcar.png",
+        srcWord: ["http://arbu-1dcc9.web.app/filmy/esp/showingcar.mp4", 'W pogodni za zemstą (2010)'],
+        srcWordimage: "http://arbu-1dcc9.web.app/filmy/esp/showingcar.png",
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "http://arbu-1dcc9.web.app/voice/music.mp4"
         ],
         // historia
         story: [
@@ -2379,10 +2379,10 @@ id: [
         ],
         translate: "Zmieniać umysł nowymi pomysłami",
         translateb: "[Cambiar la mente con nuevas ideas]",
-        srcWord: ["http://localhost/arbulanguage.com/filmy/party.mp4", 'The Matrix Reloaded'],
-        srcWordimage: "http://localhost/arbulanguage.com/filmy/party.png",
+        srcWord: ["http://arbu-1dcc9.web.app/filmy/party.mp4", 'The Matrix Reloaded'],
+        srcWordimage: "http://arbu-1dcc9.web.app/filmy/party.png",
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "http://arbu-1dcc9.web.app/voice/music.mp4"
         ],
         // historia
         story: [
@@ -2592,10 +2592,10 @@ id: [
         ],
         translate: "Przewidywać problemy i być zawsze przygotowanym",
         translateb: "[Prever problemas y estar preparado siempre]",
-        srcWord: ["http://localhost/arbulanguage.com/filmy/party.mp4", 'The Matrix Reloaded'],
-        srcWordimage: "http://localhost/arbulanguage.com/filmy/party.png",
+        srcWord: ["http://arbu-1dcc9.web.app/filmy/party.mp4", 'The Matrix Reloaded'],
+        srcWordimage: "http://arbu-1dcc9.web.app/filmy/party.png",
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "http://arbu-1dcc9.web.app/voice/music.mp4"
         ],
         // historia
         story: [
@@ -2851,10 +2851,10 @@ id: [
         ],
         translate: "Chronić prawa wszystkich zawsze",
         translateb: "[Proteher los derechos de todos siempre]",
-        srcWord: ["http://localhost/arbulanguage.com/filmy/party.mp4", 'The Matrix Reloaded'],
-        srcWordimage: "http://localhost/arbulanguage.com/filmy/party.png",
+        srcWord: ["http://arbu-1dcc9.web.app/filmy/party.mp4", 'The Matrix Reloaded'],
+        srcWordimage: "http://arbu-1dcc9.web.app/filmy/party.png",
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "http://arbu-1dcc9.web.app/voice/music.mp4"
         ],
         // historia
         story: [

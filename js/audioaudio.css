@@ -52,7 +52,7 @@
     text-align: center;
     justify-content: center;
     align-items: center;
-    grid-template-columns: auto auto auto;
+    grid-template-columns: auto auto auto auto;
     grid-template-rows: auto;
     width: 100%; /* Rozciągnięcie na całą szerokość */
     grid-column: span 3; /* Zajęcie dwóch kolumn */

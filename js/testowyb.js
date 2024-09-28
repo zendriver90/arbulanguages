@@ -7,10 +7,10 @@ const fiszki = [
         ],
         // obrazek
         img: [
-            "http://arbu-1dcc9.web.app/img/fiszki1/1a.jpeg",
-            "http://arbu-1dcc9.web.app/img/fiszki1/1b.jpeg",
-            "http://arbu-1dcc9.web.app/img/fiszki1/1c.jpeg",
-            "http://arbu-1dcc9.web.app/img/fiszki1/1d.jpeg",
+            "http://arbu-1dcc9.web.app/img/fiszki1/1a.jpg",
+            "http://arbu-1dcc9.web.app/img/fiszki1/1b.jpg",
+            "http://arbu-1dcc9.web.app/img/fiszki1/1c.jpg",
+            "http://arbu-1dcc9.web.app/img/fiszki1/1d.jpg",
             "http://arbu-1dcc9.web.app/img/fiszki1/1e.jpg"
         ],
         translate: "Wszyscy mają ubaw na zabawie",
@@ -25,15 +25,15 @@ const fiszki = [
 
         // historia
         story: [
-            "W <u><b>e</u></b>-sportowej grze silnik samochodu robi <u><b>wry</u></b>, wszyscy chcą takich rajdów, <u><b>bo</u></b> idzie <u><b>dy</u></b>m",
+            'W <span class="adannotation" data-annotation="1"><u><b>e</u></b></span>-sportowej grze silnik samochodu robi <span class="adannotation" data-annotation="2"><u><b>wry</u></b></span>, wszyscy chcą takich rajdów, <span class="adannotation" data-annotation="3"><u><b>bo</u></b></span> idzie <span class="adannotation" data-annotation="4"><u><b>dy</u></b></span>m',
             "<u><b>Ew</u></b>a robi <u><b>ry</u></b>by, <u><b>bo</u></b> będzie robiła zupę rybną, a na drugie placki z <u><b>dy</u></b>ni. <u><b>Każdemu</u></b> to smakowało",
-            "Kr<u><b>ew</u></b> każdego pacjenta jest dokładnie przebadana i organizm <u><b>wsystkich</u></b> pacjentów wraca na właściwe to<u><b>ry</u></b>, <u><b>bo</u></b> g<u><b>dy</u></b> ma dobrą opieke wraca do zdrowia",
+            "Kr<u><b>ew</u></b> każdego pacjenta jest dokładnie przebadana i organizm <u><b>wszystkich</u></b> pacjentów wraca na właściwe to<u><b>ry</u></b>, <u><b>bo</u></b> g<u><b>dy</u></b> ma dobrą opieke wraca do zdrowia",
             "<u><b>E</u></b>dek robi <u><b>wry</u></b> swoim modelem samolotu, musi uważać, <u><b>bo</u></b> jest silny wiatr. Z silnika samolotu się <u><b>dy</u></b>mi i <u><b>wszyscy</u></b> się na to patrzą",
             "Moja córka <u><b>Ew</u></b>a b<u><b>ry</u></b>ka, <u><b>bo</u></b> pojechała na zawo<u><b>dy</u></b> jak <u><b>wszyscy</u></b> jej rówieśnicy"
         ],
 
         // opis
-        desc: "everybody[ewrybody] - wszyscy",
+        desc: "everybody[e-wry-bo-dy] - wszyscy",
 
         //zdanie
         sentence1: [
@@ -295,8 +295,7 @@ const fiszki = [
             "Samiec czyli <u><b>on</u></b> - <b><u>hi</b></u>popotam",
             "<u><b>On</b></u> - <u><b>Hi</b></u>eronim odleciał balonem",
             "Ma<u><b>chi</u></b>nę do tortur wymyślił <u><b>on</u></b> - jest <u><b>Hi</u></b>ndusem",
-            "<u><b>On</u></b> je ciastka <u><b>hi</u></b>ty",
-            "<u><b>On</u></b> odleciał balonem, a ona go żegna. Ten związek ma długą historię"
+            "<u><b>On</u></b> je ciastka <u><b>hi</u></b>ty"
         ],
         desc: "he[hi] - on",
         sentence1: [
@@ -358,7 +357,9 @@ const fiszki = [
             "natura", "zawód",
             "nauka", "definicje",
             "czarny humor", "zoologia",
-            "związki", "kreskówki"
+            "związki", "kreskówki",
+            "lifestyle", "sukces",
+            "geografia", "miasta"
         ],
         category2: ["osoby+czas"]
     },
@@ -379,7 +380,7 @@ const fiszki = [
             "http://arbu-1dcc9.web.app/src/obedient.wav"
         ],
         story: [
-            "Ćwiczę s<b><u>obi</u></b>e i jestem <u><b>posłuszny</b></u> swojemu <u><b>die</b></u>tetykowi, powtarzam jak ma<u><b>nt</b></u>rę, że będę szczupły",
+            "Ćwiczę s<b><u>obi</u></b>e i jestem <u><b>posłuszny</b></u> swojemu <u><b>die</b></u>tetykowi, powtarzam jak ma<u><b>nt</b></u>rę, że będę szczupła",
             "<u><b>Di</u></b>nozaury były <u><b>posłuszne</u></b> swoim odczuciom z ciała i nie miały czegoś takiego jak zjem s<u><b>obi</u></b>e co chce. Dziś widzimy je s<u><b>ent</u></b>ymentalnie na zdjęciu",
             "L<u><b>idi</u></b>a <u><b>ob</u></b>iera wskazany kurs statkiem, <u><b>posłusznie</u></b> do wskazań kapitana statku. Kapitan ma silną m<u><b>ent</u></b>alność",
             "<u><b>Ob</u></b>ieram ziemniaki dla całego plutonu. <u><b>Die</u></b>ta jest opracowana przez profesjonalistów, którzy kierowali się <u><b>posłusznie</u></b> do wskazań zapotrzebowania na mikroelem<u><b>ent</u></b>y",
@@ -468,8 +469,8 @@ const fiszki = [
             "Ma<u><b>sa</u></b>j wedle <u><b>nauk</u></b> - uczy w jaki sposób zwiększyć szanse sportowca i wpłynąć na jego s<u><b>ens</u></b>orykę",
             "<u><b>Sa</u></b>m idę przez las i przygotowuję się do obrony doktoratu. Dla potrzeb <u><b>nauki</u></b> <u><b>j</u></b>eszcze muszę w<u><b>ensz</u></b>yć za odpowiednimi zdjęciami",
             "Badacz <u><b>naukowy</u></b> nie ma <u><b>saj</b></u>gonu w dziedzinie nauki i ma s<u><b>ens</b></u> tego co robi",
-            "<u><b>Saj</u></b>gon jest w pracy, ten dzień nie ma sensu, a jeszcze muszę się uczyć na zaoczne z tematu badań <u><b>naukowych</u></b>",
-            "Najlepiej nie mieć <u><b>saj</u></b>gonu jako <u><b>naukowiec</u></b>, a także być s<u><b>ens</u></b>ualnym kochankiem"
+            "Ma<u><b>ti</u></b> ma <u><b>Saj</u></b>gon w pracy, ten dzień nie ma s<b><u>en</b></u>sud, a jeszcze muszę się uczyć na <u><b>fi</u></b>zykę z ta<u><b>k</u></b>iego tematu badań <u><b>naukowych</u></b>",
+            "Najlepiej nie mieć <u><b>saj</u></b>gonu jako <u><b>naukowiec</u></b>, a także być s<u><b>en</u></b>sualnym kochankiem, który podziwia kobietę w <u><b>ti</u></b>ulowej wyra<u><b>fi</u></b>nowanej su<u><b>k</u></b>ni"
         ],
         desc: "scientific[sajentifik] - naukowy/naukowa)",
         sentence2: [
@@ -509,9 +510,9 @@ const fiszki = [
         story: [
             "<u><b>Pr</u></b>estiż w dżungli to przetrwanie. Tu stosujemy <u><b>procedury</u></b> szamanów",
             "Popre te <u><b>pro-cedury</u></b> <u><b>siii</b></u> bo jestem na wyspie <u><b>Dżer</b></u>ba w Tunezji i <u><b>s</u></b>toje w oceanie",
-            "Każdy naukowiec proszony jest o klarownośc badań i procedury. Nauka to nie bajka Sindbad, ani film z Dzeki Czan. Trudne to rrrrr",
-            "Prestiżowe pismo naukowe opisuje, że niektóre dżemy pomagają na raka",
-            "Nasz dżem wpływa zdrowotnie na samopoczucie. Jest wyrabiany zgodnie z procedurami w Singapurze  - głównie z rabarbaru"
+            "Każdy naukowiec proszony jest o klarownośc badań i </b></u>procedury</b></u>. Nauka to nie bajka </b></u>Si</b></u>ndbad, ani film z <b><u>Dze</b></u>ki Czan. Trudne to <b><u>rrrrr</b></u>",
+            "<u><b>Pr</u></b>estiżowe pism<u><b>o</u></b> naukowe wno<u><b>si</u></b>, że niektóre <u><b>dże</u></b>my pomagają na <u><b>r</u></b>aka <u><b>s</u></b>kóry",
+            "Nasz <u><b>dże</u></b>m wpływa zdrowotnie na samopoczucie. Jest wyrabiany zgodnie z <u><b>procedurami</u></b> w <u><b>Si</u></b>ngapurze  - głównie z rabarbaru"
         ],
         desc: "procedures[prosidzers] - procedury(liczba mnoga)",
         sentence2: [
@@ -546,7 +547,7 @@ const fiszki = [
             "http://arbu-1dcc9.web.app/img/fiszki1/13e.jpg"
         ],
         translate: "Bądź bardziej obecny wobec swoich emocji",
-        translateb: "[Bi mor prezent wiz jour imołszyns]",
+        translateb: "[Bi mor prezent łiz jor imołszyns]",
         translateb2: "[Bi mor prezent]",
         srcWord: ["http://arbu-1dcc9.web.app/filmy/emotions.mp4", "The Dark Knight(2008)"],
         srcWordimage: "http://arbu-1dcc9.web.app/filmy/emotions.png",
@@ -682,15 +683,15 @@ const fiszki = [
             "http://arbu-1dcc9.web.app/src/with.wav"
         ],
                 srcWord2: ["http://arbu-1dcc9.web.app/filmy/procedure.mp4", "Breaking Bad"],
-                        translateb: "[wiz jour imołszyns]",
+                        translateb2: "[łiz jour imołszyns]",
         story: [
-            "<u><b>Z</u></b> <u><b>wiz</u></b>ualizacją wygranej sportowcy są bardziej przygotowani",
-            "Wizja wiewiórek, które jedzą z wiadomo, którego wiaderka(mojego) jest słuszna",
-            "<u><b>Wiz</u></b>ytacja naukowców <u><b>z</u></b> Japonii jest znakomitą okazją do wymiany poglądów",
-            "Bez <u><b>wiz</u></b>y Pan nie wjedzie, a <u><b>z</u></b> wizą to oczywiście",
-            "Z wizażem czyli makijażem - królowa robi jeszcze lepsze wrażenie w królestwie. Wraz z królową jest jej wizażysta i rozdaje wizytówki. Z wizytóką 10% taniej."
+            "<u><b>Z</u></b> w<u><b>iz</u></b>ualizacją wygranej sportowcy są dok<u><b>ł</u></b>adnie przygotowani",
+            "W<u><b>iz</u></b>ja <u><b>ł</u></b>otrów - wiewiórek, które jedzą <u><b>z</u></b> wiadomo, którego wiaderka(mojego) jest słuszna",
+            "W<u><b>iz</u></b>ytacja naukowców <u><b>z</u></b> Japonii jest znakomitą okazją do rewizji popełnionych b<u><b>ł</u></b>ędów",
+            "Cz<u><b>ł</u></b>owiek bez w<u><b>iz</u></b>y nie wjedzie, a <u><b>z</u></b> wizą to oczywiście",
+            "Z w<u><b>iz</u></b>ażem czyli makijażem - królowa robi jeszcze lepsze wrażenie w królestwie. Wraz <u><b>z</u></b> królową jest jej wizażysta i rozdaje wizytówki. <u><b>Z</u></b> wizytóką cena ma<u><b>ł</u></b>a"
         ],
-        desc: "with[wiz] - z",
+        desc: "with[łiz] - z",
         sentence2: [
             "with"
         ],
@@ -807,7 +808,8 @@ const fiszki = [
             "http://arbu-1dcc9.web.app/img/fiszki1/19e.jpg"
         ],
         translate: "Ja jestem nieśmiały, ale czasami odważny",
-        translateb: "[Aj em szaj bat samtajms der]",
+        translateb: "[Aj em szaj bat samtajms dering]",
+        translateb2: "[Aj em szaj]",
         srcWord: ["http://arbu-1dcc9.web.app/filmy/shy.mp4", 'The Matrix Reloaded (2003)'],
                 srcWord2: ["http://arbu-1dcc9.web.app/filmy/procedure.mp4", "Breaking Bad"],
         srcWordimage: "http://arbu-1dcc9.web.app/filmy/shy.png",
@@ -818,8 +820,8 @@ const fiszki = [
             "<u><b>Ja</u></b> jestem Piotrek, mam okulary ochronne, gdy jechałem rowerem wleciała mi mucha do <u><b>oka</u></b>, krzyczałem <u><b>ajjj</u></b> - dlaczego to <u><b>mi</u></b> wleciała mucha do <u><b>oka</u></b>, <u><b>ajjj</u></b>",
             "M<u><b>aj</u></b>a ma zezowate <u><b>oko</u></b> i mówi, no <u><b>JA</u></b> widzę ciebie podwójnie",
             "Nauka o mitach, takich jak królowa G</u></b>aj</u></b>a to ten temat, gdzie <u><b>ja</u></b> mam największą wiedze",
-            "",
-            ""
+            "Teraz <u><b>ja</u></b> występuję na weselu jako wodzirej i śpiewam <u><b>Aj</u></b>-ja-jaj tak słodko jest tu z wami być..",
+            "Mo<u><b>ja</u></b> babcia idzie do kurnika po jaja, a <u><b>ja</u></b> będę za chwilę jadł jajecznice"
         ],
         desc: "I[aj] - ja",
         sentence1: [
@@ -834,9 +836,9 @@ const fiszki = [
         category1: [
             "sport", "rowery",
             "natura", "zdrowie",
-            "nauka", "",
-            "czarny humor", "",
-            "związki", ""
+            "nauka", "mitologia",
+            "czarny humor", "muzyka",
+            "związki", "rodzina"
         ],
         category2: ["osoby"],
         category3: ["PresentSimple"]
@@ -860,7 +862,7 @@ const fiszki = [
             "M<u><b>am</u></b> j<u><b>em</u></b>iołę i <u><b>jestem</u></b> zadowolony z jej zapachu",
             "Emanacją mojej pracy badawczej, którą prowadziłem s<u><b>am</u></b> - jest to, że teraz ja <u><b>jestem</u></b> w tym temacie specjalistą",
             "Amstaf <u><b>Em</u></b>il mnie goni, <u><b>jestem</u></b> w tarapatach",
-            "Mój idol <u><b>Em</u></b>inem powiedział, <u><b>ja jestem</u></b> najlepszym raperem i po tym stwierdzneiu teraz <u><b>ja jestem</u></b> w fajnych emocjach",
+            "Mój idol <u><b>Em</u></b>inem powiedział, <u><b>ja jestem</u></b> najlepszym raperem i po tym stwierdzneiu teraz <u><b>ja jestem</u></b> w fajnych emocjach"
         ],
         desc: "am[em] - jestem",
         sentence1: [
@@ -899,8 +901,8 @@ const fiszki = [
             "<u><b>Szaj</u></b>bus jest <u><b>nieśmiały</u></b>, ale jest najlepszym sportowcem w naszej ekipie",
             "Małpy <u><b>nieśmiało</u></b> wie<u><b>szaj</u></b>ą się po drzewach swoimi rękoma",
             "Moi koledzy na Uniwersytecie zawsze coś namie<u><b>szaj</u></b>ą zadając pytania i wtedy staję się <u><b>nieśmiały</u></b>",
-            "",
-            "W pewnej <u><b>szaj</u></b>ce złożonej z <u><b>szaj</u></b>busów jest nieśmiały Wojtek i wszyscy mówią do niego ogła<u><b>szaj</u></b> przemówienie",
+            "Nie mie<u><b>szaj</u></b> za dużo z tymi opcjami telewizora, bo nie pooglądamy finału Ligi Mistrzów - dodaje mój <u><b>nieśmiały</u></b> brat",
+            "W pewnej <u><b>szaj</u></b>ce złożonej z <u><b>szaj</u></b>busów jest nieśmiały Wojtek i wszyscy mówią do niego ogła<u><b>szaj</u></b> przemówienie"
         ],
         desc: "shy[szaj] - nieśmiały",
         sentence1: [
@@ -929,16 +931,18 @@ const fiszki = [
         ],
         img: [
             "http://localhost/arbulanguage.com/img/fiszki1/22a.jpg",
-            "http://localhost/arbulanguage.com/img/fiszki1/22bx.jpg",
-            "http://localhost/arbulanguage.com/img/fiszki1/22cx.jpg",
-            "http://localhost/arbulanguage.com/img/fiszki1/22dx.jpg",
-            "http://localhost/arbulanguage.com/img/fiszki1/22ex.jpg"
+            "http://localhost/arbulanguage.com/img/fiszki1/22b.jpg",
+            "http://localhost/arbulanguage.com/img/fiszki1/22c.jpg",
+            "http://localhost/arbulanguage.com/img/fiszki1/22d.jpg",
+            "http://localhost/arbulanguage.com/img/fiszki1/22e.jpg"
         ],
+                        srcWord2: ["http://arbu-1dcc9.web.app/filmy/procedure.mp4", "Breaking Bad"],
+        translateb2: "[bat samtajms dering]",
         story: [
-            "Po spotkaniu z kolegą, na którego mówią <u><b>Bat</u></b>man mam naładowane baterie towarzyskieg, <u><b>ale</u></b> chcę więcej rozmów",
-            "",
-            "",
-            "",
+            "Po spotkaniu z kolegą, na którego mówią <u><b>Bat</u></b>man mam naładowane baterie towarzyskie, <u><b>ale</u></b> chcę więcej rozmów",
+            "Nurek jest zaopatrzony w <u><b>bat</u></b>yskał, <u><b>ale</u></b> jest niebezpieczeństwo kiedy będzie odkrywał nowe gatunki ryb na dnie morza",
+            "<u><b>Bat</u></b>eria ma dużą pojemność, <u><b>ale</u></b> urządzenie ma też duży pobór prądu",
+            "Ziemniak <u><b>bat</u></b>at jest całkiem fajny w smaku, <u><b>ale</u></b> ciężko go kupić",
             ""
         ],
         desc: "but[bat] - ale",
@@ -953,10 +957,10 @@ const fiszki = [
         key: "but",
         category1: [
             "sport", "umiejętności",
-            "natura", "zwierzęta",
-            "nauka", "",
+            "natura", "odkrycia",
+            "nauka", "gadżety",
             "czarny humor", "",
-            "związki", "wystąpienia publiczne"
+            "związki", ""
         ],
         category2: ["spojniki"]
     },
@@ -968,10 +972,10 @@ const fiszki = [
         ],
         img: [
             "http://localhost/arbulanguage.com/img/fiszki1/23a.jpg",
-            "http://localhost/arbulanguage.com/img/fiszki1/4e2.jpg",
-            "http://localhost/arbulanguage.com/img/fiszki1/4e3.jpg",
-            "http://localhost/arbulanguage.com/img/fiszki1/22d.jpg",
-            "http://localhost/arbulanguage.com/img/fiszki1/4e5.jpg"
+            "http://localhost/arbulanguage.com/img/fiszki1/23b.jpg",
+            "http://localhost/arbulanguage.com/img/fiszki1/23c.jpg",
+            "http://localhost/arbulanguage.com/img/fiszki1/23d.jpg",
+            "http://localhost/arbulanguage.com/img/fiszki1/23e.jpg"
         ],
         story: [
             "<u><b>Sam</u></b> jeden <u><b>Tai</u></b> robi pomstę przeciwnikom, ale tylko <u><b>czasami</u></b>",
@@ -1007,17 +1011,17 @@ const fiszki = [
         ],
         img: [
             "http://localhost/arbulanguage.com/img/fiszki1/24a.jpg",
-            "http://localhost/arbulanguage.com/img/fiszki1/4f.jpg",
-            "http://localhost/arbulanguage.com/img/fiszki1/4f.jpg",
-            "http://localhost/arbulanguage.com/img/fiszki1/4f.jpg",
-            "http://localhost/arbulanguage.com/img/fiszki1/4f.jpg"
+            "http://localhost/arbulanguage.com/img/fiszki1/24b.jpg",
+            "http://localhost/arbulanguage.com/img/fiszki1/24c.jpg",
+            "http://localhost/arbulanguage.com/img/fiszki1/24d.jpg",
+            "http://localhost/arbulanguage.com/img/fiszki1/24e.jpg"
         ],
         story: [
-            "<u><b>Der</u></b>ek <u><b>odważył się</u></b> zrobić salto",
-            "<u><b>Der</u></b>matolog przestrzega, aby nie zdobywać się na <u><b>odwagę</u></b> chodzić do dżungli",
-            "Na</u></b>der<u><b> oczywiste jest, że <u><b>odwaga</u></b> w głoszeniu poglądów jest dla naukowca bardzo ważna",
-            "</u></b>Der<u><b>by tych klubów spowodowały zadymy na meczu, każdy był <u><b>odważny</u></b>",
-            "Pewien imprezowicz <u><b>odważył się</u></b> wejść na duże wia<u><b>der</u></b>ko i kręci bio<u><b>der</u></b>kami"
+            "<u><b>Der</u></b>ek <u><b>odważył się</u></b> zrobić salto, a później tańczy taniec Sw<u><b>ing</u></b>",
+            "<u><b>Der</u></b>matolog przestrzega, aby nie zdobywać się na <u><b>odwagę</u></b> chodzić do dżungli.. Dlaczego, bo jest niebezpieczna.. b<u><b>ing</u></b>o!!",
+            "Na</u></b>der<u><b> oczywiste jest, że <u><b>odwaga</u></b> w głoszeniu poglądów jest dla naukowca bardzo ważna+++",
+            "</u></b>Der<u><b>by tych klubów spowodowały zadymy na meczu, każdy był <u><b>odważny</u></b>+++",
+            "Pewien imprezowicz <u><b>odważył się</u></b> wejść na duże wia<u><b>der</u></b>ko i kręci bio<u><b>der</u></b>kami++++"
         ],
         desc: "daring[dering] - odważył się",
         sentence2: [
@@ -1047,21 +1051,23 @@ const fiszki = [
         img: [
             "http://localhost/arbulanguage.com/img/fiszki1/25a.jpg",
             "http://localhost/arbulanguage.com/img/fiszki1/25b.jpg",
-            "http://localhost/arbulanguage.com/img/fiszki1/25cx.jpg",
+            "http://localhost/arbulanguage.com/img/fiszki1/25c.jpg",
             "http://localhost/arbulanguage.com/img/fiszki1/25d.jpg",
-            "http://localhost/arbulanguage.com/img/fiszki1/25ex.jpg"
+            "http://localhost/arbulanguage.com/img/fiszki1/25e.jpg"
         ],
         srcWord: ["http://arbu-1dcc9.web.app/filmy/cat.mp4", "Superman (1978)"],
+                        srcWord2: ["http://arbu-1dcc9.web.app/filmy/procedure.mp4", "Breaking Bad"],
         srcWordimage: "http://arbu-1dcc9.web.app/filmy/cat.png",
         word: [
             "http://arbu-1dcc9.web.app/voice/party.mp4"
         ],
         translate: "Chłopak złapał kota i przytulił go",
-        translateb: "[E gaj kacz kat end hag him]",
+        translateb: "[E gaj kaczes kat end hags him]",
+        translateb2: "[E gaj kaczes kat]",
         story: [
             "Ten <b><u>chłopak</b></u> nie jest mazgajem, jest wysportowany i pije przed treningiem <b><u>gaj</b></u>ner",
             "W leśnym <u><b>gaj</b></u>u jest <u><b>gaj</u></b>owy, który jest fajnym <u><b>gościem</u></b>",
-            "",
+            "Fajny <b><u>gościu</b></u> prowadzi wywiad i mówi do żony: nie mru<b><u>gaj</b></u> do mnie ciągle zalotnie",
             "Inni motywują <b><u>chłopaka</b></u>, zapowiadającego się dobrze sportowca: bie<b><u>gaj</b></u>, biegaj",
             "Pewien <b><u>chłopak</b></u> studiuje mitologię i czyta o Bogini <b><u>Gaj</b></u>i, aby jego związek był lepszy"
         ],
@@ -1078,7 +1084,7 @@ const fiszki = [
         category1: [
             "sport", "gimnastyka",
             "natura", "medycyna",
-            "nauka", "cechy charakteru",
+            "nauka", "poczucie humoru",
             "czarny humor", "kibic",
             "związki", "impreza"
         ],
@@ -1094,14 +1100,14 @@ const fiszki = [
         img: [
             "http://localhost/arbulanguage.com/img/fiszki1/26a.jpg",
             "http://localhost/arbulanguage.com/img/fiszki1/26b.jpg",
-            "http://localhost/arbulanguage.com/img/fiszki1/3b3.jpg",
-            "http://localhost/arbulanguage.com/img/fiszki1/3b4.jpg",
-            "http://localhost/arbulanguage.com/img/fiszki1/3b5.jpg"
+            "http://localhost/arbulanguage.com/img/fiszki1/26c.jpg",
+            "http://localhost/arbulanguage.com/img/fiszki1/26d.jpg",
+            "http://localhost/arbulanguage.com/img/fiszki1/26e.jpg"
         ],
         story: [
             "To są wyścigi. Mała kaczka <u><b>łapie</u></b> dużą <u><b>kacz</u></b>ek, ciekawe czy ja dogoni",
             "<u><b>Kacz</u></b>ki <u><b>przeskakują</u></b> przez płotek wcz<u><b>es</u></b>nym rankiem",
-            "",
+            "Małp<u><b>ka</u></b> zmałpowała w zoo od <u><b>Czes</u></b>ia jego fryzurę. Wszyscy w zdziwienia, małpka teraz <u><b>łapie</u></b> banany od gapiów w nagrodę",
             "Kamil s<u><b>kacz</u></b>e, bo się czymś poparzył",
             "Para uczy sie tańczyć, chłopak mówi do dziewczyny: s<u><b>kacz</u></b>, a ja cię <u><b>złapię</u></b>"
         ],
@@ -1118,7 +1124,7 @@ const fiszki = [
         category1: [
             "sport", "zabawa",
             "natura", "zwierzęta",
-            "nauka", "",
+            "nauka", "behawioryzm",
             "czarny humor", "zdrowie",
             "związki", "taniec"
         ],
@@ -1132,14 +1138,14 @@ const fiszki = [
         ],
         img: [
             "http://localhost/arbulanguage.com/img/fiszki1/27a.jpg",
-            "http://localhost/arbulanguage.com/img/fiszki1/3c2.jpg",
+            "http://localhost/arbulanguage.com/img/fiszki1/27b.jpg",
             "http://localhost/arbulanguage.com/img/fiszki1/27c.jpg",
-            "http://localhost/arbulanguage.com/img/fiszki1/3c4.jpg",
-            "http://localhost/arbulanguage.com/img/fiszki1/3c5.jpg"
+            "http://localhost/arbulanguage.com/img/fiszki1/27d.jpg",
+            "http://localhost/arbulanguage.com/img/fiszki1/27e.jpg"
         ],
         story: [
-            "",
-            "",
+            "Na mojej łodzi <u><b>kat</u></b>amaran <u><b>kot</u></b> pomaga mi wiosłować",
+            "<u><b>Kat</u></b>arzyna idzie na spacer z <u><b>kotem</u></b>",
             "W państwie <u><b>Kat</u></b>ar, <u><b>kot</u></b> ma szczególne uznanie wśród ludzi",
             "Ten <u><b>kot</u></b> to <u><b>kat</u></b>astrofa",
             "W <u><b>kat</u></b>egori zwierząt moja dziewczyna lubi najbardziej <u><b>koty</u></b>"
@@ -1155,7 +1161,7 @@ const fiszki = [
         ],
         key: "cat",
         category1: [
-            "sport", "",
+            "sport", "humor",
             "natura", "",
             "nauka", "miasta",
             "czarny humor", "zwierzęta",
@@ -1171,17 +1177,19 @@ const fiszki = [
         ],
         img: [
             "http://localhost/arbulanguage.com/img/fiszki1/28a.jpg",
-            "http://localhost/arbulanguage.com/img/fiszki1/3d2.jpg",
-            "http://localhost/arbulanguage.com/img/fiszki1/3d3.jpg",
-            "http://localhost/arbulanguage.com/img/fiszki1/3d4.jpg",
-            "http://localhost/arbulanguage.com/img/fiszki1/3d5.jpg"
+            "http://localhost/arbulanguage.com/img/fiszki1/28b.jpg",
+            "http://localhost/arbulanguage.com/img/fiszki1/28d.jpg",
+            "http://localhost/arbulanguage.com/img/fiszki1/28c.jpg",
+            "http://localhost/arbulanguage.com/img/fiszki1/28e.jpg"
         ],
+                                srcWord2: ["http://arbu-1dcc9.web.app/filmy/procedure.mp4", "Breaking Bad"],
+                translateb2: "[end hags him]",
         story: [
             "<u><b>End</u></b>riu wydziela <u><b>end</u></b>orfiny i ćwiczy: to <u><b>i</u></b> to, <u><b>i</u></b> to, aby było więcej endorfin i wyczekuje <u><b>końca</u></b> treningu",
-            "Endriu w końcu skończył prace w ogrodzie. Zrobił to i to i to..",
-            "",
-            "Endriu jeździ motorem enduro i miał wypadek, to koniec jego karier. Pyta: i co dalej?",
-            "W końcu zapędy Endriu do pewnej dziewczyny skończyły się sukcesem i para jest szczęśliwa"
+            "<u><b>End</u></b>riu w końcu jest na <u><b>końcu</u></b> prac w ogrodzie. Zrobił to <u><b>i</u></b> to <u><b>i</u></b> to..",
+            "Muzyka tego bandu(b<u><b>end</u></b>u) wprowadza mózg w specyficzne fale mózgowe, muzyka nie ma <u><b>końca</u></b> <u><b>i</u></b> jeszcze refren, a na koniec werble",
+            "<u><b>End</u></b>riu jeździ motorem enduro i miał wypadek, to <u><b>koniec</u></b> jego kariery. Pyta: <u><b>i</u></b> co dalej?",
+            "W końcu zapędy <u><b>End</u></b>riu do pewnej dziewczyny na <u><b>koniec</u></b> stały się sukcesem <u><b>i</u></b> para jest szczęśliwa"
         ],
         desc: "and, end[end] - i(and)/koniec(end)",
         sentence2: [
@@ -1210,15 +1218,15 @@ const fiszki = [
         ],
         img: [
             "http://localhost/arbulanguage.com/img/fiszki1/29a.jpg",
-            "http://localhost/arbulanguage.com/img/fiszki1/29bx.jpg",
-            "http://localhost/arbulanguage.com/img/fiszki1/29cx.jpg",
+            "http://localhost/arbulanguage.com/img/fiszki1/29b.jpg",
+            "http://localhost/arbulanguage.com/img/fiszki1/29c.jpg",
             "http://localhost/arbulanguage.com/img/fiszki1/29d.jpg",
             "http://localhost/arbulanguage.com/img/fiszki1/29e.jpg"
         ],
         story: [
-            "<u><b>Ha</u></b>rry trenuje <u><b>g</u></b>roźne chwyty a potreningu <u><b>przytula się</u></b> do Haliny",
+            "<u><b>Ha</u></b>rry trenuje <u><b>g</u></b>roźne chwyty, które są super a po treningu <u><b>przytula się</u></b> do Haliny",
             "W mieście <u><b>Hag</u></b>a jest ogród, w którym ludzie <u><b>przytulają się</u></b> do siebie",
-            "",
+            "<u><b>Hag</u></b>akure to książka o mistrzostwie <u><b>s</u></b>amurajów, uwielbiali się przytulać",
             "<u><b>Ha</u></b>milton <u><b>przytula się</u></b> z konkurentem <u><b>G</u></b>iorgio chociaż właśnie stracił pozycję lidera w klasyfikacji",
             "W mieście <u><b>Hag</u></b>a wszyscy się <u><b>przytulają"
         ],
@@ -1235,7 +1243,7 @@ const fiszki = [
         category1: [
             "sport", "trening",
             "natura", "ogród",
-            "nauka", "",
+            "nauka", "historia",
             "czarny humor", "sport",
             "związki", "bliskość"
         ],
@@ -1249,21 +1257,21 @@ const fiszki = [
         ],
         img: [
             "http://localhost/arbulanguage.com/img/fiszki1/30a.jpg",
-            "http://localhost/arbulanguage.com/img/fiszki1/3f2.jpg",
-            "http://localhost/arbulanguage.com/img/fiszki1/3f3.jpg",
+            "http://localhost/arbulanguage.com/img/fiszki1/30b.jpg",
+            "http://localhost/arbulanguage.com/img/fiszki1/30c.jpg",
             "http://localhost/arbulanguage.com/img/fiszki1/30d.jpg",
             "http://localhost/arbulanguage.com/img/fiszki1/30e.jpg"
         ],
         story: [
-            "",
+            "Joa<u><b>him</u></b> czeka na ocene jego tańca sportowego. Juror bardzo dobrze ocenił <u><b>jego</u></b> taniec i idzie z <u><b>nim</u></b> na wódkę",
             "Ludzie powiedzieli, że jeżeli pewien gociu wspiął się na szczyt to <u><b>Him</u></b>alaje są <u><b>jego</u></b>",
-            "",
+            "Histria polskiego rapu to między innymi zespół Paktofonika i jego frontmeni w tym Ra<u><b>him</u></b>",
             "Henek wybiera się w <u><b>Him</u></b>alaje a wszyscy wiedzą, że <u><b>jego</u></b> doświadczenie pomoże mu przeżyć",
             "Koleżanka Joa<u><b>him</u></b>a wspiera <u><b>jego</u></b> projekt"
         ],
         desc: "him[him] - jego",
         sentence2: [
-            "it"
+            "him"
         ],
         sentence: [
             "and",
@@ -1272,7 +1280,7 @@ const fiszki = [
         ],
         key: "him",
         category1: [
-            "sport", "",
+            "sport", "taniec",
             "natura", "osiągnięcia",
             "nauka", "",
             "czarny humor", "wspinaczka",
@@ -1288,13 +1296,14 @@ const fiszki = [
         ],
         img: [
             "http://localhost/arbulanguage.com/img/fiszki1/31a.jpg",
-            "http://localhost/arbulanguage.com/img/fiszki1/6a2.jpg",
-            "http://localhost/arbulanguage.com/img/fiszki1/6a3.jpg",
-            "http://localhost/arbulanguage.com/img/fiszki1/6a4.jpg",
-            "http://localhost/arbulanguage.com/img/fiszki1/6a5.jpg"
+            "http://localhost/arbulanguage.com/img/fiszki1/31b.jpg",
+            "http://localhost/arbulanguage.com/img/fiszki1/31c.jpg",
+            "http://localhost/arbulanguage.com/img/fiszki1/31d.jpg",
+            "http://localhost/arbulanguage.com/img/fiszki1/31e.jpg"
         ],
         translate: "Nasza szkoła organizuje całkiem ciekawe wydarzenie",
         translateb: "[Aur skul organajz kłajt interesting iwents]",
+                translateb2: "[Aur skul organajz]",
         srcWord: ["http://arbu-1dcc9.web.app/filmy/school.mp4", "American Pie: The Wedding (2003)"],
         srcWordimage: "http://arbu-1dcc9.web.app/filmy/school.png",
         word: "http://arbu-1dcc9.web.app/voice/party.mp4",
@@ -1339,11 +1348,11 @@ const fiszki = [
             "http://localhost/arbulanguage.com/img/fiszki1/6b5.jpg"
         ],
         story: [
+            "Na pa<b><u>sku</b></u> ekranu jest wynik drużyny z naszej <b><u>szkoły</b></u>, mam swojego <b><u>ul</b></u>ubionego zawodnika",
+            "Obok naszej <b><u>szkoły</b></u> jest staw, gdzie łabędź <b><u>sku</b></u>bie sobie piórka, obserwowanie go to nasza <b><u>ul</b></u>ubiona zabawa",
             "W <b><u>szkole</b></u> <b><u>sku</b></u>wają tynki, kurzy się na <b><u>ul</b></u>icę",
-            "",
-            "",
             "Jasio jest <b><u>skul</b></u>ony w <b><u>szkole</b></u>, bo dostał palicą od nauczyciela",
-            ""
+            "Na pia<b><u>sku</b></u> stawiam zamek, a obok <b><u>szkoła</b></u>, a dalej <b><u>ul</b></u>e"
         ],
         desc: "school[skul] - szkoła",
         sentence1: [
@@ -1358,9 +1367,9 @@ const fiszki = [
         category1: [
             "sport", "",
             "natura", "zawód",
-            "nauka", "energetyka",
+            "nauka", "budownictwo",
             "czarny humor", "filmy",
-            "związki", "okazje"
+            "związki", "zabawa"
         ],
         category2: ["podmiot+czas"]
     },
@@ -1392,6 +1401,7 @@ const fiszki = [
             12
         ],
         img: "http://localhost/arbulanguage.com/img/fiszki1/34a.jpg",
+                translateb2: "[kłajt interesting iwents]",
         story: "<b><u>Kła</b></u>dziemy <b><u>całkiem</b></u> duży nacisk na ilość b<b><u>ajt</b></u>ów w pliku",
         desc: "quite[kłajt] - całkiem",
         sentence2: [
@@ -1461,7 +1471,8 @@ const fiszki = [
             "http://arbu-1dcc9.web.app/voice/music.mp4"
         ],
         translate: "Moja firma zaczyna rozwijać się bardzo intensywnie",
-        translateb: "[Maj kampany starts deweloping soł intensiwili]",
+        translateb: "[Maj kampany is deweloping wery intensiwli]",
+        translateb2: "[Maj kampany is]",
         story: "W <b><u>maj</b></u>u kwitną <b><u>moje</b></u> ulubione kwiaty",
         desc: "my[maj] - moje",
         sentence1: [
@@ -1506,7 +1517,7 @@ const fiszki = [
         ],
         img: "http://localhost/arbulanguage.com/img/fiszki1/39a.jpg",
         story: "<b><u>Start</b></u>uje z udawaniem węża.. <b><u>ssssss</b></u>",
-        desc: "starts[starts] - zacząć",
+        desc: "is[is] - jest",
         sentence1: [
             "is"
         ],
@@ -1526,6 +1537,7 @@ const fiszki = [
             14
         ],
         img: "http://localhost/arbulanguage.com/img/fiszki1/40a.jpg",
+                translateb2: "[deweloping wery intensiwli]",
         story: "<b><u>Dewelop</b></u>er gra w p<b><u>ing</b></u>-ponga z właścicielem i <b><u>rozwija</b></u> narracje, aby coś ugrać",
         desc: "developing[deweloping] - rozwijać",
         sentence2: [
@@ -1548,7 +1560,7 @@ const fiszki = [
         ],
         img: "http://localhost/arbulanguage.com/img/fiszki1/41a.jpg",
         story: "<b><u>Soł</b></u>tys <b><u>tak bardzo</b></u> lubi tą wieś",
-        desc: "so[soł] - tak bardzo/więc",
+        desc: "very[wery] - bardzo",
         sentence2: [
             "very"
         ],
@@ -1596,6 +1608,7 @@ const fiszki = [
         ],
         translate: "Ta książka należy do jego dziadka",
         translateb: "[Dis buk belongs tu his grandfader]",
+        translateb2: "[Dis buk belongs]",
         story: "<b><u>Quo vadis</b></u> <b><u>to</b></u> cytat bardzo znany",
         desc: "this[dis] - ta rzecz/osoba",
         sentence1: [
@@ -1617,7 +1630,7 @@ const fiszki = [
             8,
             15
         ],
-        img: "http://localhost/arbulanguage.com/img/fiszki1/8b.jpg",
+        img: "http://localhost/arbulanguage.com/img/fiszki1/44a.jpg",
         story: "Z drzewa <b><u>buk</b></u>owego jest najlepszy papier na <b><u>książki</b></u>",
         desc: "book[buk] - książka",
         sentence1: [
@@ -1638,7 +1651,7 @@ const fiszki = [
             8,
             15
         ],
-        img: "http://localhost/arbulanguage.com/img/fiszki1/8c.jpg",
+        img: "http://localhost/arbulanguage.com/img/fiszki1/45a.jpg",
         story: "<b><u>Bel</b></u>ki <b><u>przynależą</b></u> do stropu, w Mongoli tak robiono stropy",
         desc: "belongs[belongs] - przynależy",
         sentence1: [
@@ -1659,8 +1672,9 @@ const fiszki = [
             8,
             16
         ],
-        img: "http://localhost/arbulanguage.com/img/fiszki1/8d.jpg",
-        story1: [
+        img: "http://localhost/arbulanguage.com/img/fiszki1/46a.jpg",
+        translateb2: "[tu his grandfader]",
+        story: [
             "<u><b>Dla</u></b> spor<u><b>tu</b></u> przeszedłem się pieszo z domu do pracy",
             "<b><u>Tu</b></u> na tym polu, Totalnie nie brakuje mi nic do mistrza",
             "<b><u>Tu</b></u> w Egipcie Totem Faraona to pamiątka <u><b>dla</u></b> podróżników",
@@ -1687,7 +1701,7 @@ const fiszki = [
             8,
             16
         ],
-        img: "http://localhost/arbulanguage.com/img/fiszki1/8e.jpg",
+        img: "http://localhost/arbulanguage.com/img/fiszki1/47a.jpg",
         story: "<b><u>Jego</b></u> <b><u>his</b></u>toria jest bardzo atrakcyjna i bujna",
         desc: "his[his] -jego",
         sentence2: [
@@ -1708,7 +1722,7 @@ const fiszki = [
             8,
             16
         ],
-        img: "http://localhost/arbulanguage.com/img/fiszki1/8f.jpg",
+        img: "http://localhost/arbulanguage.com/img/fiszki1/48a.jpg",
         story: "<b><u>Kłóciłem się z <b><u>dziadkeim</b></u> i była granda.. ta familia mnie już <b><u>de</b></u>ne<b><u>r</b></u>wuje",
         desc: "grandfather[grandfader] - dziadek",
         sentence2: [
@@ -1728,9 +1742,10 @@ const fiszki = [
             9,
             17
         ],
-        img: "http://arbu-1dcc9.web.app/img/fiszki1/9a.jpg",
+        img: "http://arbu-1dcc9.web.app/img/fiszki1/49a.jpg",
         translate: "Moi sąsiedzi sprzedali ich duży dom",
-        translateb: "[Maj nejbours sel deir big hałs]",
+        translateb: "[Maj nejbours ar seling deir big hałs]",
+        translateb2: "[Maj nejbours ar seling]",
         srcWord: ["http://arbu-1dcc9.web.app/filmy/bighouse.mp4", "Mechanik: Konfrontacja (2013)"],
         srcWordimage: "http://arbu-1dcc9.web.app/filmy/bighouse.png",
                 srcWord2: ["http://arbu-1dcc9.web.app/filmy/procedure.mp4", "Breaking Bad"],
@@ -1761,7 +1776,7 @@ const fiszki = [
             9,
             17
         ],
-        img: "http://localhost/arbulanguage.com/img/fiszki1/9b.jpg",
+        img: "http://localhost/arbulanguage.com/img/fiszki1/50a.jpg",
         story: "<b><u>Dla zdol<b><u>nej</b></u> ucznnicy <b><u>sąsiedzi<b><u> ułożyli wierszyk, <b><u>bo</b></u> <b><u>s</b></u>ą jej urodziny",
         desc: "neighbours[nejbours] - sąsiedzi",
         sentence1: [
@@ -1783,9 +1798,9 @@ const fiszki = [
             9,
             17
         ],
-        img: "http://localhost/arbulanguage.com/img/fiszki1/9c.jpg",
+        img: "http://localhost/arbulanguage.com/img/fiszki1/51a.jpg",
         story: "Ten <b><u>sel</b></u>er łatwo jest <b><u>sprzedać</b></u> na targu",
-        desc: "sell[sel] - sprzedać",
+        desc: "are[ar] - jest/są - gramatyka",
         sentence1: [
             "are"
         ],
@@ -1805,7 +1820,7 @@ const fiszki = [
             9,
             17
         ],
-        img: "http://localhost/arbulanguage.com/img/fiszki1/9c.jpg",
+        img: "http://localhost/arbulanguage.com/img/fiszki1/52a.jpg",
         story: "Ten <b><u>sel</b></u>er łatwo jest <b><u>sprzedać</b></u> na targu",
         desc: "selling[seling] - sprzedają",
         sentence1: [
@@ -1827,7 +1842,8 @@ const fiszki = [
             9,
             18
         ],
-        img: "http://arbu-1dcc9.web.app/img/fiszki1/9d.jpg",
+        img: "http://arbu-1dcc9.web.app/img/fiszki1/53a.jpg",
+                translateb2: "[deir big hałs]",
                 srcWord2: ["http://arbu-1dcc9.web.app/filmy/procedure.mp4", "Breaking Bad"],
         story: "<b><u>W ten <b><u>de</b></u>seń jest <b><u>i</b></u>ch <b><u>r</b></u>obota",
         desc: "their[deir] - ich",
@@ -1849,7 +1865,7 @@ const fiszki = [
             9,
             18
         ],
-        img: "http://localhost/arbulanguage.com/img/fiszki1/9e.jpg",
+        img: "http://localhost/arbulanguage.com/img/fiszki1/54a.jpg",
         story: "Bardzo <b><u>duży</b></u> samolot M<b><u>ig</b></u> właśnie przeleciał na niebie",
         desc: "big[big] - duży, duża",
         sentence2: [
@@ -1870,7 +1886,7 @@ const fiszki = [
             9,
             18
         ],
-        img: "http://localhost/arbulanguage.com/img/fiszki1/9f.jpg",
+        img: "http://localhost/arbulanguage.com/img/fiszki1/55a.jpg",
         story: "W <b><u>domu</b></u> mamy psa, który robi <b><u>hał</b></u>.. hał.. na sąsiadów i wabi się <b><u>S</b></u>ara",
         desc: "house[hałs] - dom",
         sentence2: [
@@ -1891,9 +1907,10 @@ const fiszki = [
             10,
             19
         ],
-        img: "http://arbu-1dcc9.web.app/img/fiszki1/10a.jpg",
+        img: "http://arbu-1dcc9.web.app/img/fiszki1/56a.jpg",
         translate: "Mój pies jest dobrym przyjacielem",
         translateb: "[Maj dog is a gud frend]",
+        translateb2: "[Maj dog is]",
         srcWord: ["http://arbu-1dcc9.web.app/filmy/dog.mp4", "Sztanga i cash (2013)"],
         srcWordimage: "http://arbu-1dcc9.web.app/filmy/dog.png",
         word: [
@@ -1927,7 +1944,7 @@ const fiszki = [
             10,
             19
         ],
-        img: "http://localhost/arbulanguage.com/img/fiszki1/10b.jpg",
+        img: "http://localhost/arbulanguage.com/img/fiszki1/57a.jpg",
         story: "Mój <b><u>pies</b></u> mnie słucha, <b><u>dog</b></u>aduje się z nim",
         desc: "dog[dog] - pies",
         sentence1: [
@@ -1948,7 +1965,7 @@ const fiszki = [
             10,
             19
         ],
-        img: "http://localhost/arbulanguage.com/img/fiszki1/1b.jpg",
+        img: "http://localhost/arbulanguage.com/img/fiszki1/58a.jpg",
         story: [
             "Johny Bravo <u><b>jest</b></u> m<u><b>is</b></u>trzem relacji damsko-męskich",
             "<b><u>Is</b></u>tambuł <b><u>jest</b></u> fajnym miastem",
@@ -1977,7 +1994,8 @@ const fiszki = [
             10,
             20
         ],
-        img: "http://localhost/arbulanguage.com/img/fiszki1/10d.jpg",
+        img: "http://localhost/arbulanguage.com/img/fiszki1/59a.jpg",
+        translateb2: "[Maj dog is a gud frend]",
         story: "Zobaczyłem wypłatę.. <b><u>eeeee</b></u> to jest dopiero wypłata",
         desc: "a[e] - coś",
         sentence2: [
@@ -1998,7 +2016,7 @@ const fiszki = [
             10,
             20
         ],
-        img: "http://localhost/arbulanguage.com/img/fiszki1/10e.jpg",
+        img: "http://localhost/arbulanguage.com/img/fiszki1/60a.jpg",
         story: "Jest <b><u>dobrze</b></u> kiedy jest więcej wy<b><u>gód</b></u>",
         desc: "good[gud] - dobre",
         sentence2: [
@@ -2019,7 +2037,7 @@ const fiszki = [
             10,
             20
         ],
-        img: "http://localhost/arbulanguage.com/img/fiszki1/10f.jpg",
+        img: "http://localhost/arbulanguage.com/img/fiszki1/61a.jpg",
         story: "<b><u>End</b></u>riu ma <b><u>fr</b></u>ak na zimę, każda pora roku to jego przyjaciel",
         desc: "friend[frend] - przyjaciel",
         sentence2: [
@@ -2040,9 +2058,10 @@ const fiszki = [
             11,
             21
         ],
-        img: "http://arbu-1dcc9.web.app/img/fiszki1/11a.jpg",
+        img: "http://arbu-1dcc9.web.app/img/fiszki1/62a.jpg",
         translate: "Nauczyciel stara się pomóc nam",
         translateb: "[De ticzer trajs tu help as]",
+        translateb2: "[De ticzer trajs]",
         srcWord: ["http://arbu-1dcc9.web.app/filmy/teacher.mp4", "Yes Man (2008)"],
         srcWordimage: "http://arbu-1dcc9.web.app/filmy/teacher.png",
         word: [
@@ -2069,7 +2088,7 @@ const fiszki = [
             11,
             21
         ],
-        img: "http://localhost/arbulanguage.com/img/fiszki1/11b.jpg",
+        img: "http://localhost/arbulanguage.com/img/fiszki1/63a.jpg",
         story: "W tym pa<b><u>ti</b></u>o siedzi nauczyciel w <b><u>czer</b></u>wonej koszuli",
         desc: "teacher[ticzer] - nauczyciel",
         sentence1: [
@@ -2092,7 +2111,7 @@ const fiszki = [
             11,
             21
         ],
-        img: "http://localhost/arbulanguage.com/img/fiszki1/11c.jpg",
+        img: "http://localhost/arbulanguage.com/img/fiszki1/64a.jpg",
         story: "Nasa <b><u>próbuje</b></u> zmienić <b><u>traj</b></u>ektorie lotu <b><u>s</b></u>atelity",
         desc: "tries[trajs] - próbuje",
         sentence1: [
@@ -2113,7 +2132,8 @@ const fiszki = [
             11,
             22
         ],
-        img: "http://localhost/arbulanguage.com/img/fiszki1/8d.jpg",
+        img: "http://localhost/arbulanguage.com/img/fiszki1/65a.jpg",
+        translateb2: "[tu help as]",
         story: [
             "<u><b>Dla</u></b> spor<u><b>tu</b></u> przeszedłem się pieszo z domu do pracy",
             "<b><u>Tu</b></u> na tym polu, Totalnie nie brakuje mi nic do mistrza",
@@ -2141,7 +2161,7 @@ const fiszki = [
             11,
             22
         ],
-        img: "http://localhost/arbulanguage.com/img/fiszki1/11e.jpg",
+        img: "http://localhost/arbulanguage.com/img/fiszki1/66a.jpg",
         story: "Gaz - <b><u>hel</b></u>, <b><u>p</b></u>omaga zmieniać ton głosu",
         desc: "help[help] - pomagać",
         sentence2: [
@@ -2162,7 +2182,7 @@ const fiszki = [
             11,
             22
         ],
-        img: "http://localhost/arbulanguage.com/img/fiszki1/11f.jpg",
+        img: "http://localhost/arbulanguage.com/img/fiszki1/67a.jpg",
         story: "<b><u>As</b></u>teroida pod mikroskopem wydaje się <b><u>nam</b></u> niezwykła",
         desc: "us[as] - my, nam",
         sentence2: [
@@ -2183,9 +2203,10 @@ const fiszki = [
             12,
             23
         ],
-        img: "http://arbu-1dcc9.web.app/img/fiszki1/5e.jpg",
+        img: "http://arbu-1dcc9.web.app/img/fiszki1/68a.jpg",
         translate: "Twoi rodzice wydają się być przyjaźni",
         translateb: "[Jor parents sim tu bi frendli]",
+        translateb2: "[Jor parents sim]",
         srcWord: ["http://arbu-1dcc9.web.app/filmy/parents.mp4", "Serial: Rodzinka.pl"],
         srcWordimage: "http://arbu-1dcc9.web.app/filmy/parents.png",
         word: [
@@ -2218,7 +2239,7 @@ const fiszki = [
             12,
             23
         ],
-        img: "http://localhost/arbulanguage.com/img/fiszki1/12b.jpg",
+        img: "http://localhost/arbulanguage.com/img/fiszki1/69a.jpg",
         story: "<b><u>Pare</b></u> lat temu moi <b><u>rodzice</b></u> byli sentym<b><u>ent</b></u>alni i chyba <b><u>s</b></u>ą nadal",
         desc: "parents[parents] - rodzice",
         sentence1: [
@@ -2239,7 +2260,7 @@ const fiszki = [
             12,
             23
         ],
-        img: "http://localhost/arbulanguage.com/img/fiszki1/12c.jpg",
+        img: "http://localhost/arbulanguage.com/img/fiszki1/70a.jpg",
         story: "Ta karta <b><u>sim</b></u> nie działa, <b><u>wydaje mi się</b></u>, że uszkodziłem ją wcześniej",
         desc: "seem[sim] - wydaje się",
         sentence1: [
@@ -2260,7 +2281,8 @@ const fiszki = [
             12,
             24
         ],
-        img: "http://localhost/arbulanguage.com/img/fiszki1/8d.jpg",
+        img: "http://localhost/arbulanguage.com/img/fiszki1/71a.jpg",
+        translateb2: "[tu bi frendli]",
         story: [
             "<u><b>Dla</u></b> spor<u><b>tu</b></u> przeszedłem się pieszo z domu do pracy",
             "<b><u>Tu</b></u> na tym polu, Totalnie nie brakuje mi nic do mistrza",
@@ -2290,7 +2312,7 @@ const fiszki = [
             12,
             24
         ],
-        img: "http://localhost/arbulanguage.com/img/fiszki1/5a.jpg",
+        img: "http://localhost/arbulanguage.com/img/fiszki1/72a.jpg",
         story: [
             "<u><b>Bi</u></b>egnę w zawodach i chcę <u><b>być</u></b> najlepszy, ale natrafiłem na słupa i wybiłem jedynkę",
             "<u><b>Bi</u></b>lion dollarów musi <u><b>być</u></b> dużą kwotą"
@@ -2316,7 +2338,7 @@ const fiszki = [
             12,
             24
         ],
-        img: "http://localhost/arbulanguage.com/img/fiszki1/12f.jpg",
+        img: "http://localhost/arbulanguage.com/img/fiszki1/73a.jpg",
         story: "Mali <b><u>Fr</b></u>anek i <b><u>End</b></u>riu są <b><u>dl</b></u>a siebie <b><u>przyjacielscy</b></u>",
         desc: "friendly[frendli] - przyjacielski",
         sentence2: [
@@ -2337,9 +2359,10 @@ const fiszki = [
             13,
             25
         ],
-        img: "http://arbu-1dcc9.web.app/img/fiszki1/13a.jpg",
+        img: "http://arbu-1dcc9.web.app/img/fiszki1/74a.jpg",
         translate: "Psy mogą biec naprawdę szybko",
         translateb: "[De dog ken ran rili fast]",
+        translateb2: "[De dog ken]",
         srcWord: ["http://arbu-1dcc9.web.app/filmy/dogs.mp4", "The Dark Knight(2008)"],
         srcWordimage: "http://arbu-1dcc9.web.app/filmy/dogs.png",
         story: [
@@ -2369,7 +2392,7 @@ const fiszki = [
             13,
             25
         ],
-        img: "http://localhost/arbulanguage.com/img/fiszki1/13b.jpg",
+        img: "http://localhost/arbulanguage.com/img/fiszki1/75a.jpg",
         story: [
             "Mój <b><u>pies</b></u> mnie słucha, <b><u>dog</b></u>aduje się z nim",
             "<b><u>Psom</b></u> łatwo <b><u>dog</b></u>odzić <b><u>s</b></u>maczną karmą"
@@ -2396,7 +2419,7 @@ const fiszki = [
             13,
             25
         ],
-        img: "http://localhost/arbulanguage.com/img/fiszki1/13c.jpg",
+        img: "http://localhost/arbulanguage.com/img/fiszki1/76a.jpg",
         story: "W <b><u>Ken</b></u>ii każdy <b><u>może</b></u> ubierać się na ciepłą pogodę",
         desc: "can[ken] - może",
         sentence1: [
@@ -2417,7 +2440,8 @@ const fiszki = [
             13,
             26
         ],
-        img: "http://localhost/arbulanguage.com/img/fiszki1/13d.jpg",
+        img: "http://localhost/arbulanguage.com/img/fiszki1/77a.jpg",
+        translateb2: "[ran rili fast]",
         story: "<b><u>Ran</b></u>o zawsze <b><u>biegam</b></u>",
         desc: "run[ran] - biegać",
         sentence2: [
@@ -2438,7 +2462,7 @@ const fiszki = [
             13,
             26
         ],
-        img: "http://localhost/arbulanguage.com/img/fiszki1/13e.jpg",
+        img: "http://localhost/arbulanguage.com/img/fiszki1/78a.jpg",
         story: "Na spotkaniu g<b><u>ril</b></u>owym naprawdę można się najeść saszł<b><u>y</b></u>ków",
         desc: "really[rily] - naprawdę",
         sentence2: [
@@ -2459,7 +2483,7 @@ const fiszki = [
             13,
             26
         ],
-        img: "http://localhost/arbulanguage.com/img/fiszki1/13f.jpg",
+        img: "http://localhost/arbulanguage.com/img/fiszki1/79a.jpg",
         story: "Ten chw<b><u>ast</b></u> szybko rośnie, bo to <b><u>f</b></u>uriat wśród chwastów",
         desc: "fast[fast] - szybko",
         sentence2: [
@@ -2480,9 +2504,10 @@ const fiszki = [
             14,
             27
         ],
-        img: "http://arbu-1dcc9.web.app/img/fiszki1/14a.jpg",
+        img: "http://arbu-1dcc9.web.app/img/fiszki1/80a.jpg",
         translate: "Ta edycja traci ważność w tym tygodniu",
         translateb: "[Dis ediszyn ikspires dis łik]",
+        translateb2: "[Dis ediszyn ikspires]",
         srcWord: ["http://arbu-1dcc9.web.app/filmy/counting.mp4", "The Dark Knight(2008)"],
         srcWordimage: "http://arbu-1dcc9.web.app/filmy/counting.png",
         word: [
@@ -2512,7 +2537,7 @@ const fiszki = [
             14,
             27
         ],
-        img: "http://localhost/arbulanguage.com/img/fiszki1/14b.jpg",
+        img: "http://localhost/arbulanguage.com/img/fiszki1/81a.jpg",
         story: "Kiedy <b><u>Edi</b></u>son robił przerwe w tworzeniu żarówki jadł bułkę z <b><u>szyn</b></u>ką",
         desc: "edition[ediszyn] - edycja",
         sentence1: [
@@ -2532,7 +2557,7 @@ const fiszki = [
             14,
             27
         ],
-        img: "http://localhost/arbulanguage.com/img/fiszki1/14c.jpg",
+        img: "http://localhost/arbulanguage.com/img/fiszki1/82a.jpg",
         story: "Jedziemy do miejscowości X na wakacje pod palmy i statkiem w rejs.. musimy zapłacić X dnia, później okazja się przedawnia",
         desc: "expires[ikspires] - przedawnia się/wagasa",
         sentence1: [
@@ -2553,7 +2578,8 @@ const fiszki = [
             14,
             28
         ],
-        img: "http://localhost/arbulanguage.com/img/fiszki1/14d.jpg",
+        img: "http://localhost/arbulanguage.com/img/fiszki1/83a.jpg",
+        translateb2: "[dis łik]",
         story: [
             "<b><u>Quo vadis</b></u> <b><u>to</b></u> cytat bardzo znany",
             "To słówko distant - czytamy <b><u>dis</b></u>tant",
