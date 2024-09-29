@@ -8456,3 +8456,13 @@ ${sentence30}${sentence33}<br>
 </html>
 
             <button class="charakter-button" onclick="przekazArgument0('Infinitive', '', '', '', '', '', tablica3[1])">INFINITIVE</button>
+
+
+            "Johny Bravo <u><b>jest</b></u> m<u><b>is</b></u>trzem relacji damsko-męskich",
+            "<b><u>Is</b></u>tambuł <b><u>jest</b></u> fajnym miastem",
+            "<b><u>Is</b></u>tota tego przekazu <b><u>jest</b></u> bardzo ważna",
+            "L<b><u>is</b></u> jest bardzo przebiegły, ale <b><u>jes0t</b></u> też wilk, który go zje",
+            "Lu<b><u>is</b></u> <b><u>jest</b></u> bardzo zadowolony ze swojej pracy"
+            
+                        "Każde dziecko miało kiedyś <u><b>swoje</u></b> ba<u><b>jor</u></b>ko",
+            "Sąsiad pyta mnie.. to <b><u>twój</b></u> pies <b><u>Yor</b></u>k?"

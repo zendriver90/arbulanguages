@@ -18,6 +18,47 @@
         <title>ARBULANGUAGES.COM<br>DOSTĘPNYCH 150 SŁÓW</title>
         <style>
             @media (min-width: 999px) {
+                .bottom-bar {
+    display: none;
+}
+
+.show {
+    transform: translateY(-60px); /* Pasek widoczny po załadowaniu */
+}
+.hidden {
+    transform: translateY(100%); /* Schowanie paska poza ekran */
+}
+.bottom-button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px;
+    font-size: 8px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.bottom-button:hover {
+    background-color: #45a049;
+}
+
+.lupka {
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}
+
+.toggle-button {
+    display: none;
+}
+
+#arrow {
+    font-size: 20px;
+}
+
+.show-toggle-button {
+    bottom: 60px; /* Strzałka przesuwa się do góry gdy pasek jest widoczny */
+}
                 /* Styl dla głównego kontenera */
                 .container {
                     position: relative;
@@ -256,16 +297,7 @@
                 .image-container4:hover .run-button3 {
                     display: block; /* Wyświetlenie przycisku na hover */
                 }
-                .sentence1b,
-                .sentence1b2,
-                .sentence1b22,
-                .sentence1b2a,
-                .sentence1c22,
-                .sentence1c2a {
-                    font-size: 16px;
-                    margin-bottom: 0px;
-                    z-index: 9999;
-                }
+
                 .sentence1bba,
                 .sentence1bbab,
                 sentence1bb1b,
@@ -275,6 +307,7 @@
                     font-size: 16px;
                     margin-bottom: 0px;
                     z-index: 9999;
+                    color: white;
                 }
                 .sentence1b,
                 .sentence1b2,
@@ -303,6 +336,16 @@
                     color: white;
                     z-index: 9999;
                     color: blue;
+                }
+                                .sentenceBB {
+                    margin-top: 80px;
+                    color: white;
+                    z-index: 9999;
+                }
+                .sentenceBC {
+                    margin-top: 80px;
+                    z-index: 9999;
+                    color: white;
                 }
                 .sentence10,
                 .sentence11,
@@ -1282,10 +1325,10 @@ toggleButton.addEventListener('click', function() {
                 blinkButton();
             };
             document.getElementById('myButton').addEventListener('click', function () {
-                window.location.href = 'http://localhost/arbulanguage.com/matrix.html';
+                window.location.href = 'https://arbu-1dcc9.web.app/matrix.html';
             });
             document.getElementById('myButton2').addEventListener('click', function () {
-                window.location.href = 'http://localhost/arbulanguage.com/matrix2.html';
+                window.location.href = 'https://arbu-1dcc9.web.app/matrix2.html';
             });
 
             function showVideos(set) {
@@ -3889,7 +3932,7 @@ if (indexDiv % 2 === 0) {
                             // Dodaj nakładkę do kontenera, po dodaniu wideo
                             $overlay.appendTo($container);
                             // Dodaj funkcję hover do kontenera
-                            if (indexDiv < 4) {
+                            if (indexDiv < 6) {
                                 // Jeśli indexDiv < 5, dodajemy hover z dynamicznym napisem
                                 $container.hover(function () {
                                     $('.overlay', this).css('transform', 'translateX(0)');
@@ -4052,6 +4095,10 @@ ${sentence30}${sentence33}<br>
                             if (index55b2 === 4) {
                                 // Bezpośrednio przekierowujemy użytkownika do strony
                                 window.location.href = 'demo4angielski.html?category=' + encodeURIComponent(globalCategory);
+                            }
+                            if (index55b2 === 5) {
+                                // Bezpośrednio przekierowujemy użytkownika do strony
+                                window.location.href = 'demo5angielski.html?category=' + encodeURIComponent(globalCategory);
                             }
                         }, 1500);
                         // Usunięcie kontenera po wstawieniu nowego
@@ -4675,7 +4722,7 @@ ${sentence10}${sentence11}<br>
                             // Dodaj przycisk do nakładki
                             $buttonb.appendTo($container);
 
-                            if (indexDiv < 13) {
+                            if (indexDiv < 14) {
                                 // Jeśli indexDiv < 5, dodajemy hover z dynamicznym napisem
                                 $container.hover(function () {
                                     $('.overlay', this).css('transform', 'translateX(0)');
@@ -4773,9 +4820,14 @@ ${sentence10}${sentence11}<br>
                     });
                     $button.css({
                         'position': 'absolute',
-                        'left': '50%', // Przykładowa wartość odstępu od lewej krawędzi
-                        'top': '10px',
-                        'z-index': '10' // Ustawienie z-index dla buttona większe niż dla sentenceDiv
+                        'right': '-200px', // Przykładowa wartość odstępu od lewej krawędzi
+                        'top': '5px',
+                        'font-size': '10px',
+                        'height': '30px',
+                        'width': '170px',
+                        'color': 'blue',
+                        'background-color': 'white',
+                        'z-index': '12' // Ustawienie z-index dla buttona większe niż dla sentenceDiv
                     });
                     $container.append($button);
 
@@ -4805,15 +4857,54 @@ ${sentence10}${sentence11}<br>
                                 // Bezpośrednio przekierowujemy użytkownika do strony
                                 window.location.href = 'demo3angielskib.html?category=' + encodeURIComponent(globalCategory);
                             }
-                        }, 1500);
+                            if (index55b2 === 4) { // Porównaj jako liczby
+                                // Bezpośrednio przekierowujemy użytkownika do strony
+                                window.location.href = 'demo4angielskib.html?category=' + encodeURIComponent(globalCategory);
+                            }
+                            if (index55b2 === 5) {
+                                // Bezpośrednio przekierowujemy użytkownika do strony
+                                window.location.href = 'demo5angielskib.html?category=' + encodeURIComponent(globalCategory);
+                            }
+                            if (index55b2 === 6) {
+                                // Bezpośrednio przekierowujemy użytkownika do strony
+                                window.location.href = 'demo6angielskib.html?category=' + encodeURIComponent(globalCategory);
+                            }
+                            if (index55b2 === 7) { // Porównaj jako liczby
+                                // Bezpośrednio przekierowujemy użytkownika do strony
+                                window.location.href = 'demo7angielskib.html?category=' + encodeURIComponent(globalCategory);
+                            }
+                            if (index55b2 === 8) {
+                                // Bezpośrednio przekierowujemy użytkownika do strony
+                                window.location.href = 'demo8angielskib.html?category=' + encodeURIComponent(globalCategory);
+                            }
+                            if (index55b2 === 9) {
+                                // Bezpośrednio przekierowujemy użytkownika do strony
+                                window.location.href = 'demo9angielskib.html?category=' + encodeURIComponent(globalCategory);
+                            }
+                            if (index55b2 === 10) { // Porównaj jako liczby
+                                // Bezpośrednio przekierowujemy użytkownika do strony
+                                window.location.href = 'demo10angielskib.html?category=' + encodeURIComponent(globalCategory);
+                            }
+                            if (index55b2 === 11) {
+                                // Bezpośrednio przekierowujemy użytkownika do strony
+                                window.location.href = 'demo11angielskib.html?category=' + encodeURIComponent(globalCategory);
+                            }
+                            if (index55b2 === 12) {
+                                // Bezpośrednio przekierowujemy użytkownika do strony
+                                window.location.href = 'demo12angielskib.html?category=' + encodeURIComponent(globalCategory);
+                            }
+                        }, 1000);
                         // Usunięcie kontenera po wstawieniu nowego
                     });
                     $buttonb2.css({
-                        'position': 'absolute',
-                        'left': '70px', // Przykładowa wartość odstępu od lewej krawędzi
-                        'top': '170px',
-                        'height': '20px',
-                        'z-index': '99999999' // Ustawienie z-index dla buttona większe niż dla sentenceDiv
+                        'position': 'absolute', // Przykładowa wartość odstępu od lewej krawędzi
+                        'margin-bottom': '-108px',
+                        'font-size': '10px',
+                        'height': '25px',
+                        'color': 'blue',
+                        'background-color': 'white',
+                        'width': '170px',
+                        'z-index': '9999999'
                     });
                     $container.append($buttonb2);
                     // Dodanie diva z zdaniem do kontenera

@@ -6,7 +6,7 @@ id: [
 ],
         // obrazek
         img: [
-                "http://localhost/arbulanguage.com/img/fiszki1/2a.jpg"
+                "http://arbu-1dcc9.web.app/img/fiszki1en-esp/1a.jpg"
         ],
         translate: "I want to learn Spanish very quickly",
         translateb: "[yoh kee-eh-roh ah-pren-dehr es-pah-nyol moo-ee rah-pee-doh]",
@@ -17,10 +17,10 @@ id: [
         ],
         // historia
         story: [
-                "I am from New <u><b>Yo</u></b>rk, so wherever <u><b>I</u></b> am, <u><b>I</u></b> represent New <u><b>Yo</u></b>rk."
+                "I am from New <u><b>Yo</u></b>rk, so wherever <u><b>I</u></b> am, <u><b>I</u></b> represent New <u><b>Yo</u></b>rk"
         ],
         // opis
-        desc: "yo[yoh] - wszyscy",
+        desc: "yo[yoh] - i",
         //zdanie
         sentence1: [
                 "Yo"
@@ -34,11 +34,7 @@ id: [
         //  slowo do nauki
         key: "yo",
         category1: [
-                "sport", "gaming",
-                "natura", "kulinaria",
-                "nauka", "medycyna",
-                "czarny humor", "pasja",
-                "związki", "wychowanie"
+                "sport", "gaming"
         ],
         category2: ["osoby", "osoby+czas"]
 },
@@ -49,14 +45,14 @@ id: [
 ],
         // obrazek
         img: [
-                "http://localhost/arbulanguage.com/img/fiszki1/2a.jpg"
+                "http://arbu-1dcc9.web.app/img/fiszki1en-esp/2a.jpg"
         ],
         word: [
                 "http://localhost/arbulanguage.com/voice/music.mp4"
         ],
         // historia
         story: [
-                "I <u><b>want</u></b> to bake cookies and find a <u><b>key</u></b> which is recipe, but the oven has an <u><b>er</u></b>ror, so I need to buy a oven <u><b>ro</u></b>bot."
+                "I <u><b>want</u></b> to bake cookies and find a <u><b>key</u></b>, which is the recipe, but the oven has an <u><b>er</u></b>ror, so I need to buy an oven <u><b>ro</u></b>bot"
         ],
         // opis
         desc: "quiero[kee-eh-roh] - want",
@@ -73,11 +69,7 @@ id: [
         //  slowo do nauki
         key: "quiero",
         category1: [
-                "sport", "gaming",
-                "natura", "kulinaria",
-                "nauka", "medycyna",
-                "czarny humor", "pasja",
-                "związki", "wychowanie"
+                "sport", "gaming"
         ],
         category2: ["osoby", "osoby+czas"]
 },
@@ -88,14 +80,14 @@ id: [
 ],
         // obrazek
         img: [
-                "http://localhost/arbulanguage.com/img/fiszki1/2a.jpg"
+                "http://arbu-1dcc9.web.app/img/fiszki1en-esp/3a.jpg"
         ],
         word: [
                 "http://localhost/arbulanguage.com/voice/music.mp4"
         ],
         // historia
         story: [
-                "I bought an application to rent a house and I am learning how to use it. I'm old, but I’m not afraid to use new technologies."
+                "I bought an <u><b>app</u></b>lication to <u><b>ren</u></b>t a house, and I am <u><b>learning</u></b> how to use it. I'm old, but I still <u><b>dare</u></b> to use new technologies"
         ],
         // opis
         desc: "aprender[ah-pren-dehr] - learn",
@@ -112,11 +104,7 @@ id: [
         //  slowo do nauki
         key: "everybody",
         category1: [
-                "sport", "gaming",
-                "natura", "kulinaria",
-                "nauka", "medycyna",
-                "czarny humor", "pasja",
-                "związki", "wychowanie"
+                "sport", "gaming"
         ],
         category2: ["osoby", "osoby+czas"]
 },
@@ -127,14 +115,14 @@ id: [
 ],
         // obrazek
         img: [
-                "http://localhost/arbulanguage.com/img/fiszki1/2a.jpg"
+                "http://arbu-1dcc9.web.app/img/fiszki1en-esp/4a.jpg"
         ],
         word: [
                 "http://localhost/arbulanguage.com/voice/music.mp4"
         ],
         // historia
         story: [
-                "I have a <u><b>Spanish</u></b> girlfriend, her presence is <u><b>ess</u></b>ential and a <u><b>pa</u></b>rt of my life. I like her compa<u><b>ni</u></b>on, and everything <u><b>all</u></b> makes me happy."
+                "I have a <u><b>Spanish</u></b> girlfriend, her presence is <u><b>ess</u></b>ential and a part of my life. I like her as a compa<u><b>nio</u></b>n, and <u><b>all</u></b> of it makes me happy"
         ],
         // opis
         desc: "espanol[es-pah-nyol] - spanish",
@@ -151,11 +139,7 @@ id: [
         //  slowo do nauki
         key: "everybody",
         category1: [
-                "sport", "gaming",
-                "natura", "kulinaria",
-                "nauka", "medycyna",
-                "czarny humor", "pasja",
-                "związki", "wychowanie"
+                "sport", "gaming"
         ],
         category2: ["osoby", "osoby+czas"]
 },
@@ -166,14 +150,14 @@ id: [
 ],
         // obrazek
         img: [
-                "http://localhost/arbulanguage.com/img/fiszki1/2a.jpg"
+                "http://arbu-1dcc9.web.app/img/fiszki1en-esp/5a.jpg"
         ],
         word: [
                 "http://localhost/arbulanguage.com/voice/music.mp4"
         ],
         // historia
         story: [
-                "The cow ate a lot of chocolate and made a lot of <b><u>'moo'</b></u> sounds in bu<b><u>i</b></u>lding"
+                "The cow ate a lot of <u><b>very</u></b> good chocolate and made a lot of <u><b>'moo'</u></b> sounds in the b<u><b>ui</u></b>lding"
         ],
         // opis
         desc: "muy[moo-ee] - very",
@@ -188,11 +172,7 @@ id: [
         //  slowo do nauki
         key: "everybody",
         category1: [
-                "sport", "gaming",
-                "natura", "kulinaria",
-                "nauka", "medycyna",
-                "czarny humor", "pasja",
-                "związki", "wychowanie"
+                "sport", "gaming"
         ],
         category2: ["osoby", "osoby+czas"]
 },
@@ -203,14 +183,14 @@ id: [
 ],
         // obrazek
         img: [
-                "http://localhost/arbulanguage.com/img/fiszki1/2a.jpg"
+                "http://arbu-1dcc9.web.app/img/fiszki1en-esp/6a.jpg"
         ],
         word: [
                 "http://localhost/arbulanguage.com/voice/music.mp4"
         ],
         // historia
         story: [
-                "<u><b>Ra</u></b>mzes in the <u><b>pi</u></b>cture is quickly going through the bathroom <u><b>doo</u></b>r because he needs to pee"
+                "<u><b>Ra</u></b>mses in the <u><b>pi</u></b>cture is going through the bathroom <u><b>doo</u></b>r very <u><b>fast</u></b> because he needs to pee"
         ],
         // opis
         desc: "rapido[rah-pee-doh] - fast",
@@ -225,11 +205,7 @@ id: [
         //  slowo do nauki
         key: "everybody",
         category1: [
-                "sport", "gaming",
-                "natura", "kulinaria",
-                "nauka", "medycyna",
-                "czarny humor", "pasja",
-                "związki", "wychowanie"
+                "sport", "gaming"
         ],
         category2: ["osoby", "osoby+czas"]
 },
@@ -240,7 +216,7 @@ id: [
 ],
         // obrazek
         img: [
-                "http://localhost/arbulanguage.com/img/fiszki1/2a.jpg"
+                "http://arbu-1dcc9.web.app/img/fiszki1en-esp/7a.jpg"
         ],
         translate: "A plan is a method or way of doing something",
         translateb: "[oon plahn es oon meh-toh-doh oh mah-neh-rah deh ah-ser ahl-goh]",
@@ -251,7 +227,7 @@ id: [
         ],
         // historia
         story: [
-                "Gro<b><u>un</b></u>d is <b><u>plan</b></u>"
+                "The gr<u><b>ou</u></b>nd is a good <u><b>plan</u></b>"
         ],
         // opis
         desc: "un plan[oon plahn] - plan",
@@ -271,11 +247,7 @@ id: [
         //  slowo do nauki
         key: "yo",
         category1: [
-                "sport", "gaming",
-                "natura", "kulinaria",
-                "nauka", "medycyna",
-                "czarny humor", "pasja",
-                "związki", "wychowanie"
+                "sport", "gaming"
         ],
         category2: ["osoby", "osoby+czas"]
 },
@@ -286,14 +258,14 @@ id: [
 ],
         // obrazek
         img: [
-                "http://localhost/arbulanguage.com/img/fiszki1/2a.jpg"
+                "http://arbu-1dcc9.web.app/img/fiszki1en-esp/8a.jpg"
         ],
         word: [
                 "http://localhost/arbulanguage.com/voice/music.mp4"
         ],
         // historia
         story: [
-                "Different styl<b><u>es</b></u> of dr<b><u>ess</b></u>ing are a way of expr<b><u>ess</b></u>ing personality."
+                "Style of dr<b><u>ess</b></u>ing is a way of expr<b><u>ess</b></u>ing personality"
         ],
         // opis
         desc: "es[es] - is",
@@ -313,11 +285,7 @@ id: [
         //  slowo do nauki
         key: "everybody",
         category1: [
-                "sport", "gaming",
-                "natura", "kulinaria",
-                "nauka", "medycyna",
-                "czarny humor", "pasja",
-                "związki", "wychowanie"
+                "sport", "gaming"
         ],
         category2: ["osoby", "osoby+czas"]
 },
@@ -328,14 +296,14 @@ id: [
 ],
         // obrazek
         img: [
-                "http://localhost/arbulanguage.com/img/fiszki1/2a.jpg"
+                "http://arbu-1dcc9.web.app/img/fiszki1en-esp/9a.jpg"
         ],
         word: [
                 "http://localhost/arbulanguage.com/voice/music.mp4"
         ],
         // historia
         story: [
-                "Listening to so<b><u>un</b></u>ds is a <b><u>method</b></u> of staying calm so.. dont w<b><u>o</b></u>rry"
+                "Listening to so<b><u>un</b></u>ds is a <b><u>method</b></u> of staying calm, so dont w<b><u>o</b></u>rry"
         ],
         // opis
         desc: "un metodo[oon meh-toh-doh] - method",
@@ -355,11 +323,7 @@ id: [
         //  slowo do nauki
         key: "everybody",
         category1: [
-                "sport", "gaming",
-                "natura", "kulinaria",
-                "nauka", "medycyna",
-                "czarny humor", "pasja",
-                "związki", "wychowanie"
+                "sport", "gaming"
         ],
         category2: ["osoby", "osoby+czas"]
 },
@@ -370,14 +334,14 @@ id: [
 ],
         // obrazek
         img: [
-                "http://localhost/arbulanguage.com/img/fiszki1/2a.jpg"
+                "http://arbu-1dcc9.web.app/img/fiszki1en-esp/10a.jpg"
         ],
         word: [
                 "http://localhost/arbulanguage.com/voice/music.mp4"
         ],
         // historia
         story: [
-                "A <b><u>way</b></u> to <b><u>man</b></u>ifest skills is to work hard without being int<b><u>err</b></u>upted, or just sit on the sof<b><u>a</b></u>"
+                "A <b><u>way</b></u> to <b><u>man</b></u>ifest skills is to work hard without being int<b><u>err</b></u>upted, or to just sit on the sof<b><u>a</b></u>"
         ],
         // opis
         desc: "o manera[oh mah-neh-rah] - way",
@@ -397,11 +361,7 @@ id: [
         //  slowo do nauki
         key: "everybody",
         category1: [
-                "sport", "gaming",
-                "natura", "kulinaria",
-                "nauka", "medycyna",
-                "czarny humor", "pasja",
-                "związki", "wychowanie"
+                "sport", "gaming"
         ],
         category2: ["osoby", "osoby+czas"]
 },
@@ -412,14 +372,14 @@ id: [
 ],
         // obrazek
         img: [
-                "http://localhost/arbulanguage.com/img/fiszki1/2a.jpg"
+                "http://arbu-1dcc9.web.app/img/fiszki1en-esp/11a.jpg"
         ],
         word: [
                 "http://localhost/arbulanguage.com/voice/music.mp4"
         ],
         // historia
         story: [
-                "<b><u>The</b></u> act of doing is a way <b><u>of</b></u> meditation"
+                "<b><u>The</b></u> act of doing is a form <b><u>of</b></u> meditation"
         ],
         // opis
         desc: "de[deh] - of",
@@ -439,11 +399,7 @@ id: [
         //  slowo do nauki
         key: "everybody",
         category1: [
-                "sport", "gaming",
-                "natura", "kulinaria",
-                "nauka", "medycyna",
-                "czarny humor", "pasja",
-                "związki", "wychowanie"
+                "sport", "gaming"
         ],
         category2: ["osoby", "osoby+czas"]
 },
@@ -454,14 +410,14 @@ id: [
 ],
         // obrazek
         img: [
-                "http://localhost/arbulanguage.com/img/fiszki1/2a.jpg"
+                "http://arbu-1dcc9.web.app/img/fiszki1en-esp/12a.jpg"
         ],
         word: [
                 "http://localhost/arbulanguage.com/voice/music.mp4"
         ],
         // historia
         story: [
-                "As I learned from <b><u>Sir</b></u> Robert."
+                "<b><u>As</b></u> I learned from <b><u>Sir</b></u> Robert, I <b><u>make</b></u> the same effort"
         ],
         // opis
         desc: "hacer[ah-ser] - do/make",
@@ -481,11 +437,7 @@ id: [
         //  slowo do nauki
         key: "everybody",
         category1: [
-                "sport", "gaming",
-                "natura", "kulinaria",
-                "nauka", "medycyna",
-                "czarny humor", "pasja",
-                "związki", "wychowanie"
+                "sport", "gaming"
         ],
         category2: ["osoby", "osoby+czas"]
 },
@@ -496,14 +448,14 @@ id: [
 ],
         // obrazek
         img: [
-                "http://localhost/arbulanguage.com/img/fiszki1/2a.jpg"
+                "http://arbu-1dcc9.web.app/img/fiszki1en-esp/13a.jpg"
         ],
         word: [
                 "http://localhost/arbulanguage.com/voice/music.mp4"
         ],
         // historia
         story: [
-                "<b><u>A</b></u>nn uses <b><u>something</b></u> like the element <b><u>g</b></u>allium to prepare for g<b><u>o</b></u>ing to space"
+                "<b><u>A</b></u>nn uses <b><u>something</b></u> like the element g<b><u>all</b></u>ium to prepare for <b><u>go</b></u>ing to space"
         ],
         // opis
         desc: "algo[ahl-goh] - something",
@@ -523,11 +475,7 @@ id: [
         //  slowo do nauki
         key: "everybody",
         category1: [
-                "sport", "gaming",
-                "natura", "kulinaria",
-                "nauka", "medycyna",
-                "czarny humor", "pasja",
-                "związki", "wychowanie"
+                "sport", "gaming"
         ],
         category2: ["osoby", "osoby+czas"]
 },
@@ -568,11 +516,7 @@ id: [
         //  slowo do nauki
         key: "yo",
         category1: [
-                "sport", "gaming",
-                "natura", "kulinaria",
-                "nauka", "medycyna",
-                "czarny humor", "pasja",
-                "związki", "wychowanie"
+                "sport", "gaming"
         ],
         category2: ["osoby", "osoby+czas"]
 },
@@ -609,11 +553,7 @@ id: [
         //  slowo do nauki
         key: "yo",
         category1: [
-                "sport", "gaming",
-                "natura", "kulinaria",
-                "nauka", "medycyna",
-                "czarny humor", "pasja",
-                "związki", "wychowanie"
+                "sport", "gaming"
         ],
         category2: ["osoby", "osoby+czas"]
 },
@@ -650,11 +590,7 @@ id: [
         //  slowo do nauki
         key: "yo",
         category1: [
-                "sport", "gaming",
-                "natura", "kulinaria",
-                "nauka", "medycyna",
-                "czarny humor", "pasja",
-                "związki", "wychowanie"
+                "sport", "gaming"
         ],
         category2: ["osoby", "osoby+czas"]
 },
@@ -691,11 +627,7 @@ id: [
         //  slowo do nauki
         key: "yo",
         category1: [
-                "sport", "gaming",
-                "natura", "kulinaria",
-                "nauka", "medycyna",
-                "czarny humor", "pasja",
-                "związki", "wychowanie"
+                "sport", "gaming"
         ],
         category2: ["osoby", "osoby+czas"]
 },
@@ -732,11 +664,7 @@ id: [
         //  slowo do nauki
         key: "yo",
         category1: [
-                "sport", "gaming",
-                "natura", "kulinaria",
-                "nauka", "medycyna",
-                "czarny humor", "pasja",
-                "związki", "wychowanie"
+                "sport", "gaming"
         ],
         category2: ["osoby", "osoby+czas"]
 },
@@ -773,11 +701,7 @@ id: [
         //  slowo do nauki
         key: "yo",
         category1: [
-                "sport", "gaming",
-                "natura", "kulinaria",
-                "nauka", "medycyna",
-                "czarny humor", "pasja",
-                "związki", "wychowanie"
+                "sport", "gaming"
         ],
         category2: ["osoby", "osoby+czas"]
 },
@@ -817,11 +741,7 @@ id: [
         //  slowo do nauki
         key: "yo",
         category1: [
-                "sport", "gaming",
-                "natura", "kulinaria",
-                "nauka", "medycyna",
-                "czarny humor", "pasja",
-                "związki", "wychowanie"
+                "sport", "gaming"
         ],
         category2: ["osoby", "osoby+czas"]
 },
@@ -857,11 +777,7 @@ id: [
         //  slowo do nauki
         key: "yo",
         category1: [
-                "sport", "gaming",
-                "natura", "kulinaria",
-                "nauka", "medycyna",
-                "czarny humor", "pasja",
-                "związki", "wychowanie"
+                "sport", "gaming"
         ],
         category2: ["osoby", "osoby+czas"]
 },
@@ -897,11 +813,7 @@ id: [
         //  slowo do nauki
         key: "yo",
         category1: [
-                "sport", "gaming",
-                "natura", "kulinaria",
-                "nauka", "medycyna",
-                "czarny humor", "pasja",
-                "związki", "wychowanie"
+                "sport", "gaming"
         ],
         category2: ["osoby", "osoby+czas"]
 },
@@ -937,11 +849,7 @@ id: [
         //  slowo do nauki
         key: "yo",
         category1: [
-                "sport", "gaming",
-                "natura", "kulinaria",
-                "nauka", "medycyna",
-                "czarny humor", "pasja",
-                "związki", "wychowanie"
+                "sport", "gaming"
         ],
         category2: ["osoby", "osoby+czas"]
 },
@@ -977,11 +885,7 @@ id: [
         //  slowo do nauki
         key: "yo",
         category1: [
-                "sport", "gaming",
-                "natura", "kulinaria",
-                "nauka", "medycyna",
-                "czarny humor", "pasja",
-                "związki", "wychowanie"
+                "sport", "gaming"
         ],
         category2: ["osoby", "osoby+czas"]
 },
@@ -1015,11 +919,7 @@ id: [
         //  slowo do nauki
         key: "yo",
         category1: [
-                "sport", "gaming",
-                "natura", "kulinaria",
-                "nauka", "medycyna",
-                "czarny humor", "pasja",
-                "związki", "wychowanie"
+                "sport", "gaming"
         ],
         category2: ["osoby", "osoby+czas"]
 },
@@ -1053,11 +953,7 @@ id: [
         //  slowo do nauki
         key: "yo",
         category1: [
-                "sport", "gaming",
-                "natura", "kulinaria",
-                "nauka", "medycyna",
-                "czarny humor", "pasja",
-                "związki", "wychowanie"
+                "sport", "gaming"
         ],
         category2: ["osoby", "osoby+czas"]
 },
@@ -1091,11 +987,7 @@ id: [
         //  slowo do nauki
         key: "yo",
         category1: [
-                "sport", "gaming",
-                "natura", "kulinaria",
-                "nauka", "medycyna",
-                "czarny humor", "pasja",
-                "związki", "wychowanie"
+                "sport", "gaming"
         ],
         category2: ["osoby", "osoby+czas"]
 },
@@ -1132,11 +1024,7 @@ id: [
         //  slowo do nauki
         key: "yo",
         category1: [
-                "sport", "gaming",
-                "natura", "kulinaria",
-                "nauka", "medycyna",
-                "czarny humor", "pasja",
-                "związki", "wychowanie"
+                "sport", "gaming"
         ],
         category2: ["osoby", "osoby+czas"]
 },
@@ -1169,11 +1057,7 @@ id: [
         //  slowo do nauki
         key: "yo",
         category1: [
-                "sport", "gaming",
-                "natura", "kulinaria",
-                "nauka", "medycyna",
-                "czarny humor", "pasja",
-                "związki", "wychowanie"
+                "sport", "gaming"
         ],
         category2: ["osoby", "osoby+czas"]
 },
@@ -1207,11 +1091,7 @@ id: [
         //  slowo do nauki
         key: "yo",
         category1: [
-                "sport", "gaming",
-                "natura", "kulinaria",
-                "nauka", "medycyna",
-                "czarny humor", "pasja",
-                "związki", "wychowanie"
+                "sport", "gaming"
         ],
         category2: ["osoby", "osoby+czas"]
 },
@@ -1245,11 +1125,7 @@ id: [
         //  slowo do nauki
         key: "yo",
         category1: [
-                "sport", "gaming",
-                "natura", "kulinaria",
-                "nauka", "medycyna",
-                "czarny humor", "pasja",
-                "związki", "wychowanie"
+                "sport", "gaming"
         ],
         category2: ["osoby", "osoby+czas"]
 },
@@ -1283,11 +1159,7 @@ id: [
         //  slowo do nauki
         key: "yo",
         category1: [
-                "sport", "gaming",
-                "natura", "kulinaria",
-                "nauka", "medycyna",
-                "czarny humor", "pasja",
-                "związki", "wychowanie"
+                "sport", "gaming"
         ],
         category2: ["osoby", "osoby+czas"]
 },
@@ -1326,10 +1198,6 @@ id: [
         key: "yo",
         category1: [
                 "sport", "gaming",
-                "natura", "kulinaria",
-                "nauka", "medycyna",
-                "czarny humor", "pasja",
-                "związki", "wychowanie"
         ],
         category2: ["osoby", "osoby+czas"]
 },
@@ -1363,11 +1231,7 @@ id: [
         //  slowo do nauki
         key: "yo",
         category1: [
-                "sport", "gaming",
-                "natura", "kulinaria",
-                "nauka", "medycyna",
-                "czarny humor", "pasja",
-                "związki", "wychowanie"
+                "sport", "gaming"
         ],
         category2: ["osoby", "osoby+czas"]
 },
@@ -1401,11 +1265,7 @@ id: [
         //  slowo do nauki
         key: "yo",
         category1: [
-                "sport", "gaming",
-                "natura", "kulinaria",
-                "nauka", "medycyna",
-                "czarny humor", "pasja",
-                "związki", "wychowanie"
+                "sport", "gaming"
         ],
         category2: ["osoby", "osoby+czas"]
 },
@@ -1440,11 +1300,7 @@ id: [
         //  slowo do nauki
         key: "yo",
         category1: [
-                "sport", "gaming",
-                "natura", "kulinaria",
-                "nauka", "medycyna",
-                "czarny humor", "pasja",
-                "związki", "wychowanie"
+                "sport", "gaming"
         ],
         category2: ["osoby", "osoby+czas"]
 },
@@ -1479,11 +1335,7 @@ id: [
         //  slowo do nauki
         key: "yo",
         category1: [
-                "sport", "gaming",
-                "natura", "kulinaria",
-                "nauka", "medycyna",
-                "czarny humor", "pasja",
-                "związki", "wychowanie"
+                "sport", "gaming"
         ],
         category2: ["osoby", "osoby+czas"]
 },
@@ -1518,11 +1370,7 @@ id: [
         //  slowo do nauki
         key: "yo",
         category1: [
-                "sport", "gaming",
-                "natura", "kulinaria",
-                "nauka", "medycyna",
-                "czarny humor", "pasja",
-                "związki", "wychowanie"
+                "sport", "gaming"
         ],
         category2: ["osoby", "osoby+czas"]
 },
@@ -1557,11 +1405,7 @@ id: [
         //  slowo do nauki
         key: "yo",
         category1: [
-                "sport", "gaming",
-                "natura", "kulinaria",
-                "nauka", "medycyna",
-                "czarny humor", "pasja",
-                "związki", "wychowanie"
+                "sport", "gaming"
         ],
         category2: ["osoby", "osoby+czas"]
 }
@@ -1575,12 +1419,15 @@ function activateFiszka(idFiszki, znam) {
     let parametr = '';
 
     if (Array.isArray(idFiszki)) {
-        id = idFiszki[0];
-        parametr = idFiszki[1] || '';
+        // Połącz wartości z tablicy id w jeden ciąg znaków oddzielony przecinkami
+        id = idFiszki.slice(0, 3).join(',');
+        // Obsługa ewentualnego dodatkowego parametru (np. czwartego elementu w tablicy)
+        parametr = idFiszki.length > 3 ? idFiszki[3] : '';
     }
 
-    const className = `fiszka-${id}\\,${parametr}`;
-    const selector = `.${className}`;
+    // Tworzenie klasy CSS z odpowiednim formatowaniem (poprawione usunięcie przecinków w CSS)
+    const className = `fiszka-${id}${parametr ? '\\,' + parametr : ''}`;
+    const selector = `.${className.replace(/,/g, '\\,')}`;
     console.log(selector);
 
     if (znam) {
@@ -1600,8 +1447,11 @@ function activateFiszka(idFiszki, znam) {
         saveLearnedClass(className, 'active2');
         addToTrainingList(id);
         console.log(`Clicked - fiszka with ID ${id} added to training list.`);
+        console.log('Clicked', $(selector));
     }
 }
+
+
 
 // Funkcja do zapisywania klasy w Local Storage
 function saveLearnedClass(className, classToAdd) {
@@ -1646,8 +1496,61 @@ $(document).ready(function () {
         $(`.${entry.className}`).addClass(entry.classToAdd);
     });
 });
+let lessons2b = {};
 
+    // Funkcja do zapisywania danych do localStorage
+    function saveToLocalStorage(data) {
+        localStorage.setItem('wylosowaneLekcje', JSON.stringify(data));
+    }
+
+    // Funkcja do wczytywania danych z localStorage
+    function loadFromLocalStorage() {
+        const storedData = localStorage.getItem('wylosowaneLekcje');
+        return storedData ? JSON.parse(storedData) : null;
+    }
+
+    const storedLessons = loadFromLocalStorage();
+
+    if (storedLessons) {
+        lessons2b = storedLessons;
+        console.log('Wczytane dane z localStorage:', lessons2b);
+        console.log('hejlekcje', lessons2b[2]);
+
+        // Wywołanie funkcji showFiszki2 po wczytaniu danych
+        setTimeout(() => {
+            console.log('Wywołanie showFiszki2 z wczytanymi danymi');
+            showFiszki2();  // Upewnij się, że ta funkcja jest zdefiniowana
+        }, 0);
+    } else {
+        // Jeśli nie ma zapisanych danych, losuj i zapisz
+        for (let i = 1; i <= 30; i++) {
+            lessons2b[i] = [];
+        }
+        
+        // Zapisz dane do localStorage
+        saveToLocalStorage(lessons2b);
+
+        // Wywołanie showFiszki2 po zapisaniu nowych danych
+        setTimeout(() => {
+            console.log('Wywołanie showFiszki2 z nowo wygenerowanymi danymi');
+            showFiszki2();  // Upewnij się, że ta funkcja jest zdefiniowana
+        }, 0);
+    }
+
+
+// Sprawdzanie zawartości lessons2b po załadowaniu danych
+function printLessons2b() {
+    console.log('hej555', lessons2b[2]);
+}
+
+// Wywołaj tę funkcję, gdy masz pewność, że dane zostały załadowane
+document.addEventListener('DOMContentLoaded', function() {
+    setTimeout(printLessons2b, 1000);  // Opóźnienie dla pewności
+});
 function generateFiszkaBlock(fiszka, lessonId2) {
+    console.log('hej555a', lessons2b[0]);
+        console.log('hej555b', lessons2b[1]);
+            console.log('hej555c', lessons2b[2]);
     var currentStoryButtonName = ''; // Zmienna lokalna
     console.log(`Generating fiszka block for ID: [${fiszka.id.join(', ')}]`);
 
@@ -1661,7 +1564,24 @@ function generateFiszkaBlock(fiszka, lessonId2) {
 
             var music = document.getElementById(audioId);
             var pButton = document.getElementById(pButtonId);
-
+    // Dodajemy style bezpośrednio w kodzie JavaScript
+                if (window.matchMedia("(max-width: 999px)").matches) {
+    pButton.style.height = '100px';  // Zwiększenie wysokości
+    pButton.style.width = '100px';   // Zwiększenie szerokości
+                } else {
+                        pButton.style.height = '60px';  // Zwiększenie wysokości
+    pButton.style.width = '60px';   // Zwiększenie szerokości
+                }
+    pButton.style.border = 'none';   // Usunięcie ramki
+    pButton.style.backgroundSize = '80%';  // Rozmiar obrazka tła
+    pButton.style.backgroundRepeat = 'no-repeat';
+    pButton.style.backgroundPosition = 'center';
+    pButton.style.borderRadius = '8px';   // Zaokrąglenie rogów
+    pButton.style.outline = 'none';       // Usunięcie obramowania
+    pButton.style.display = 'flex';       // Wyśrodkowanie zawartości
+    pButton.style.alignItems = 'center';
+    pButton.style.justifyContent = 'center';
+    pButton.style.overflow = 'hidden';    // Ukrycie nadmiarowego kontentu
             console.log('Initialized audio element with ID:', audioId);
             console.log('Initialized play/pause button with ID:', pButtonId);
 
@@ -1810,62 +1730,62 @@ function generateFiszkaBlock(fiszka, lessonId2) {
             storyButton.append(iconContainer);
         }
 
-        function createLikeOption(like, text) {
-            const likeOption = $('<div>').addClass('likeOption').attr('data-like', like).text(text);
+function createLikeOption(like, text) {
+    const likeOption = $('<div>').addClass('likeOption').attr('data-like', like).text(text);
 
-            // Dodajemy efekt zmiany koloru na lekko ciemniejszy szary po najechaniu myszką na pojedynczą opcję "like"
-            likeOption.hover(
-                    function () {
-                        likeOption.css('background-color', '#dcdcdc'); // Lekko ciemniejszy szary kolor tła dla opcji "like"
-                    },
-                    function () {
-                        likeOption.css('background-color', ''); // Usuwamy styl, aby wrócić do domyślnego tła opcji "like"
-                    }
-            );
-
-            let likeCounter = 0; // Dodajemy licznik polubień dla każdej opcji "like"
-
-            const counterDiv = $('<div>').addClass('likeCounterDiv'); // Nowy div na licznik
-
-            // Dodajemy ikonę do licznika
-            const likeIcon = getLikeIcon(like);
-            const iconContainer = $('<span>').addClass('likeIconContainer').append(likeIcon);
-            counterDiv.append(iconContainer);
-
-            const likeCounterSpan = $('<span>').addClass('likeCounter').text(` ${likeCounter} `);
-            counterDiv.append(likeCounterSpan); // Licznik jest dodany po ikonie
-
-            imgContainer.append(counterDiv); // Dodajemy licznik na zewnątrz kontenera przycisków
-
-            likeOption.click(function (event) {
-                event.preventDefault(); // Zapobiegamy domyślnej akcji przycisku
-
-                // Inkrementujemy licznik polubień za każdym razem, gdy opcja "like" zostanie wybrana
-                likeCounter++;
-                likeCounterSpan.text(` ${likeCounter} `);
-
-                const selectedLike = $(this).data('like');
-                const selectedIcon = getLikeIcon(selectedLike);
-                likeText.text(text);
-                likeButton.removeClass('liked');
-                addLikeIconToStoryButton(lastClickedIndex, selectedLike); // Dodaj ikonę do story_button na podstawie wybranej opcji "like"
-
-                // Sprawdź, czy index już istnieje w tablicy
-                const existingIndex = selectedLikes.findIndex(item => item.index === lastClickedIndex);
-                if (existingIndex !== -1) {
-                    // Jeśli index istnieje, zaktualizuj wartość
-                    selectedLikes[existingIndex].like = selectedLike;
-                } else {
-                    // Jeśli index nie istnieje, dodaj nowy wpis
-                    selectedLikes.push({index: lastClickedIndex, like: text}); // Dodaj tylko nazwę "like"
-                }
-
-                likeOptionsContainer.fadeOut('fast');
-                saveSelectedLike(selectedLike, text); // Przekazujemy nazwę "like" i tekst do funkcji saveSelectedLike
-            });
-
-            return likeOption;
+    // Dodajemy efekt zmiany koloru na lekko ciemniejszy szary po najechaniu myszką na pojedynczą opcję "like"
+    likeOption.hover(
+        function () {
+            likeOption.css('background-color', '#dcdcdc'); // Lekko ciemniejszy szary kolor tła dla opcji "like"
+        },
+        function () {
+            likeOption.css('background-color', ''); // Usuwamy styl, aby wrócić do domyślnego tła opcji "like"
         }
+    );
+
+    let likeCounter = 0; // Dodajemy licznik polubień dla każdej opcji "like"
+
+    const counterDiv = $('<div>').addClass('likeCounterDiv'); // Nowy div na licznik
+
+    // Dodajemy ikonę do licznika
+    const likeIcon = getLikeIcon(like);
+    const iconContainer = $('<span>').addClass('likeIconContainer').append(likeIcon);
+    counterDiv.append(iconContainer);
+
+    const likeCounterSpan = $('<span>').addClass('likeCounter').text(` ${likeCounter} `);
+    counterDiv.append(likeCounterSpan); // Licznik jest dodany po ikonie
+
+    imgContainer.append(counterDiv); // Dodajemy licznik na zewnątrz kontenera przycisków
+
+    likeOption.click(function (event) {
+        event.preventDefault(); // Zapobiegamy domyślnej akcji przycisku
+
+        // Inkrementujemy licznik polubień za każdym razem, gdy opcja "like" zostanie wybrana
+        likeCounter++;
+        likeCounterSpan.text(` ${likeCounter} `);
+
+        const selectedLike = $(this).data('like');
+        const selectedIcon = getLikeIcon(selectedLike);
+        likeText.text(text);
+        likeButton.removeClass('liked');
+        addLikeIconToStoryButton(lastClickedIndex, selectedLike); // Dodaj ikonę do story_button na podstawie wybranej opcji "like"
+
+        // Sprawdź, czy index już istnieje w tablicy
+        const existingIndex = selectedLikes.findIndex(item => item.index === lastClickedIndex);
+        if (existingIndex !== -1) {
+            // Jeśli index istnieje, zaktualizuj wartość
+            selectedLikes[existingIndex].like = selectedLike;
+        } else {
+            // Jeśli index nie istnieje, dodaj nowy wpis
+            selectedLikes.push({index: lastClickedIndex, like: text}); // Dodaj tylko nazwę "like"
+        }
+
+        likeOptionsContainer.fadeOut('fast');
+        saveSelectedLike(selectedLike, text); // Przekazujemy nazwę "like" i tekst do funkcji saveSelectedLike
+    });
+
+    return likeOption;
+}
 
 // Funkcja do zapisywania wybranego "like"
         function saveSelectedLike(selectedLike, text) {
@@ -1897,46 +1817,53 @@ function generateFiszkaBlock(fiszka, lessonId2) {
         const hashtagContainer = $('<a>').addClass('hashtag-container').attr('href', '#');
         fiszkaContainer.append(hashtagContainer);
 
-        function showStory(index) {
-            // Uzyskajmy odniesienie do konkretnej fiszki, na którą kliknęliśmy
-            const currentFiszka = fiszkaContainer;
+function showStory(index) {
+    const currentFiszka = fiszkaContainer;
 
-            // Ukrywamy wszystkie historie w tej konkretnej fiszce
-            currentFiszka.find('.fiszka_story').hide();
-
-            // MNEMOTECHNIKA
-            if (fiszka.story && fiszka.story.length > 0) {
-                currentFiszka.find('.story-' + index).show();
-            }
-            // Ukrywamy wszystkie obrazy
-            currentFiszka.find('.fiszka_img').hide();
-
-            // WYBRANY OBRAZ
-            if (fiszka.img && fiszka.img.length > 0) {
-                imgIndex = Math.min(index, fiszka.img.length - 1); // Przypisz imgIndex
-                currentFiszka.find('.fiszka_img').eq(imgIndex).show();
-
-                specificLesson2Ref = fiszka.img[imgIndex];
-
-                // Wyświetl console log z indeksem obrazka
-                console.log("Index obrazka:", imgIndex);
-                lastClickedIndex = index;
-
-                // Wybierz odpowiedni "likeButton" dla danego indeksu
-                selectLikeButton(index);
-            }
-            // HASHTAG
-            const selectedCategoryIndex = index * 2;
-            const value = fiszka.category1[selectedCategoryIndex];
-            const hashtag = fiszka.category1[selectedCategoryIndex + 1];
-
-            hashtagContainer.empty(); // Wyczyść poprzednie hashtagi
-            hashtagContainer.text(`${value} #${hashtag}`);
-
-            console.log('Calculated imgIndex:', imgIndex);
-
-            return imgIndex; // Zwracamy indeks obrazka
+    // Ukrywamy wszystkie historie w tej konkretnej fiszce
+    currentFiszka.find('.fiszka_story').hide();
+    
+    // Obsługa mnemoniki
+    if (Array.isArray(fiszka.story)) {
+        if (index >= 0 && index < fiszka.story.length) {
+            currentFiszka.find('.story-' + index).show();
         }
+    } else if (fiszka.story) {
+        currentFiszka.find('.story-0').show();
+    }
+
+    // Ukrywamy wszystkie obrazy
+    currentFiszka.find('.fiszka_img').hide();
+
+    // Obsługa obrazów
+    let imgIndex; // Zmienna do przechowywania indeksu obrazka
+
+    if (Array.isArray(fiszka.img)) {
+        imgIndex = Math.min(index, fiszka.img.length - 1);
+        currentFiszka.find('.fiszka_img').eq(imgIndex).show();
+        specificLesson2Ref = fiszka.img[imgIndex];
+        console.log("Index obrazka:", imgIndex);
+    } else {
+        imgIndex = 0; // Ustawienie imgIndex na 0, gdy fiszka.img nie jest tablicą
+        currentFiszka.find('.fiszka_img').eq(imgIndex).show();
+        specificLesson2Ref = fiszka.img;
+        console.log("Index obrazka:", imgIndex);
+    }
+
+    lastClickedIndex = index;
+
+    // Obsługa hashtagów
+    const selectedCategoryIndex = index * 2;
+    const value = fiszka.category1[selectedCategoryIndex];
+    const hashtag = fiszka.category1[selectedCategoryIndex + 1];
+    
+    hashtagContainer.empty(); 
+    hashtagContainer.text(`${value} #${hashtag}`);
+
+    console.log('Calculated imgIndex:', imgIndex);
+
+    return imgIndex;
+}
 
         function selectLikeButton(index) {
             console.log("Wybór likeButton dla indeksu:", index);
@@ -2008,13 +1935,20 @@ function generateFiszkaBlock(fiszka, lessonId2) {
         fiszkaContainer.append(wordDiv);
         console.log('Po utworzeniu wordDiv');
 
-        // DODANIE  MNEMOTECHNIKI
-        if (Array.isArray(fiszka.story) && fiszka.story.length > 0) {
-            fiszka.story.forEach((story, index) => {
-                const storyContainer = $('<div>').addClass('fiszka_story story-' + index).html(story).hide();
-                fiszkaContainer.append(storyContainer);
-            });
-        }
+// DODANIE MNEMOTECHNIKI
+if (Array.isArray(fiszka.story)) {
+    // Jeśli story jest tablicą, iterujemy przez wszystkie jej elementy
+    fiszka.story.forEach((story, index) => {
+        const storyContainer = $('<div>').addClass('fiszka_story story-' + index).html(story);
+        fiszkaContainer.append(storyContainer);
+        console.log("Dodano story: ", story);  // Debugowanie
+    });
+} else if (fiszka.story) {
+    // Jeśli story jest pojedynczym stringiem, dodajemy go bezpośrednio
+    const storyContainer = $('<div>').addClass('fiszka_story story-0').html(fiszka.story);
+    fiszkaContainer.append(storyContainer);
+    console.log("Dodano story: ", fiszka.story);  // Debugowanie
+}
         console.log('Przed utworzeniem wordDiv');
 
 // Utworzenie reszty elementów zgodnie z istniejącym kodem
@@ -2107,16 +2041,23 @@ function generateFiszkaBlock(fiszka, lessonId2) {
                             handleLikeButtonClick();
                         });
 
-                if (index === randomIndex) {
-                    // Przypisanie specificLesson2Ref dla przycisku o losowym indeksie
-                    newImgIndex = Math.min(index, fiszka.img.length - 1); // Aktualizacja zmiennej globalnej imgIndex
-                    specificLesson2Ref = fiszka.img[newImgIndex];
-                    initialSpecificLesson2Ref = specificLesson2Ref;
-                    console.log('hej7', newImgIndex);
-                    storyButton.addClass('green-button');
-                    lastClickedButton = storyButton;
-                    lastApprovedIndex = index; // Ustaw ostatnio zatwierdzony indeks na indeks losowego przycisku
-                }
+        if (index === randomIndex) {
+            // Sprawdzamy, czy fiszka.img jest tablicą czy pojedynczą wartością
+            if (Array.isArray(fiszka.img)) {
+                newImgIndex = Math.min(index, fiszka.img.length - 1); // Aktualizacja zmiennej globalnej imgIndex
+                specificLesson2Ref = fiszka.img[newImgIndex];
+                console.log('hej432', specificLesson2Ref);
+            } else if (fiszka.img) {
+                newImgIndex = 0; // Przypisanie domyślnego indeksu dla pojedynczego obrazka
+                specificLesson2Ref = fiszka.img; // Przypisanie pojedynczej wartości do specificLesson2Ref
+                console.log('hej432', specificLesson2Ref);
+            }
+            initialSpecificLesson2Ref = specificLesson2Ref;
+            console.log('Hej7', specificLesson2Ref);
+            storyButton.addClass('green-button');
+            lastClickedButton = storyButton;
+            lastApprovedIndex = index; // Ustaw ostatnio zatwierdzony indeks na indeks losowego przycisku
+        }
 
                 // Dodaj typ "like" dla tej fiszki do tablicy
                 storyButtonContainer.append(storyButton);
@@ -2130,7 +2071,36 @@ function generateFiszkaBlock(fiszka, lessonId2) {
 
             // Użycie specificLesson2Ref po załadowaniu strony
             console.log("Początkowy specificLesson2Ref:", initialSpecificLesson2Ref);
-        }
+            
+        } else if (fiszka.category1) {
+    // Jeśli fiszka.category1 nie jest tablicą
+    newImgIndex = 0; // Przypisanie domyślnego indeksu dla pojedynczego obrazka
+    specificLesson2Ref = fiszka.img; // Przypisanie pojedynczej wartości do specificLesson2Ref
+    initialSpecificLesson2Ref = specificLesson2Ref;
+    console.log('Hej7', specificLesson2Ref);
+
+    // Stwórz pojedynczy przycisk dla pojedynczej wartości category1
+    const displayText = `${fiszka.category1} #${fiszka.category1}`;
+    const storyButton = $('<button>')
+        .text(displayText)
+        .addClass('story_button2 green-button') // Od razu przypisz zieloną klasę
+        .click(function () {
+            showStory(0); // Przekazujemy 0 jako indeks, ponieważ jest to pojedyncza wartość
+            lastClickedIndex = 0;
+
+            // Zapisujemy ostatnio kliknięty przycisk
+            lastClickedButton = $(this);
+            handleLikeButtonClick();
+        });
+
+    fiszkaContainer.append(storyButton);
+    lastClickedButton = storyButton;
+    lastApprovedIndex = 0; // Ustaw ostatnio zatwierdzony indeks na 0
+
+    // WYWOŁANIE POJEDYNCZEJ HISTORII
+    showStory(0);
+    console.log("Pojedyncza wartość dla category1, specificLesson2Ref:", specificLesson2Ref);
+}
         $('.fiszka_button_trening').click(function () {
             // Dodaj klasę pomarańczową tylko dla przycisku zatwierdzonego
             $('.story_button').each(function (index) {
@@ -2140,31 +2110,60 @@ function generateFiszkaBlock(fiszka, lessonId2) {
                 }
             });
         });
+            console.log('hej555ax', lessons2b[2]);
 // DODANIE PRZYCISKU TRENING
         fiszkaContainer.append($('<button>').text('TRENING').addClass('fiszka_button fiszka_button_trening').click(function () {
+            
             activateFiszka(fiszka.id, false);
+            
+    let id = fiszka.id;
+    let parametr = '';
+
+    // Sprawdzenie, czy idFiszki jest tablicą
+    if (Array.isArray(fiszka.id)) {
+        id = fiszka.id[0];         // Pierwszy element tablicy jako id
+        parametr = fiszka.id[1] || ''; // Drugi element tablicy jako parametr, jeśli istnieje
+    }
+
+    // Tworzenie selektora na podstawie id i parametru
+    const className = `fiszka-${id}\\,${parametr}`;
+    const selector = `.${className}`;
+    console.log('hej201', parametr);
+            let first = false;
+        // Jeśli parametr jest równy lessons2b[0], uruchom aktywujObrazek
+        if (parametr === lessons2b[0]) {
+            first = true;
+            console.log('hej200', first);
+            
+    }
+    let second = false;
+            // Jeśli parametr jest równy lessons2b[0], uruchom aktywujObrazek
+        if (parametr === lessons2b[1]) {
+            second = true;
+            console.log('hej200', second);
+            
+    }
+    let third = false;
+            // Jeśli parametr jest równy lessons2b[0], uruchom aktywujObrazek
+        if (parametr === lessons2b[2]) {
+            third = true;
+            console.log('hej200', third);
+            
+    }
+            
             console.log("Trening clicked on fiszka nr " + fiszka.id);
             console.log("lessonId2:", lessonId2);
-            console.log("nr fiszki", lessons2[lessonId2]);
-            console.log("nazwa", fiszka.key);
+            console.log("nazwa", lessons2b[2]);
             // Wyswietlenie danej wartości img dla danej fiszka.id
             const specificLesson2 = specificLesson2Ref || initialSpecificLesson2Ref;
             console.log("img dla fiszki o id", fiszka.id, ":", specificLesson2);
             specificLesson2Ref = fiszka.img;
             // Znajdź indeks dla danej fiszki w tablicy lessons2[lessonId2]
-            const index = lessons2[lessonId2].findIndex(item => item.id.join(', ') === fiszka.id.join(', '));
-            if (index !== -1) {
-                console.log("Nr fiszki:", index);
-            } else {
-                console.log("Fiszka nie została znaleziona w tablicy.");
-            }
-            console.log('Przed aktywujObrazek');
+            console.log('story55', specificLesson2Ref);
             // Używamy lastClickedIndex zamiast index
             imgIndex = showStory(lastClickedIndex); // Wywołanie funkcji showStory i zapisanie zwróconego indeksu obrazka
-            aktywujObrazek(lessonId2, specificLesson2, 'obrazek-container2b', true, fiszka, imgIndex); // Przekazanie imgIndex do funkcji aktywujObrazek
-            console.log('hej2', imgIndex);
-
-
+            console.log('działa', specificLesson2Ref);
+            aktywujObrazek(first, second, third, specificLesson2, 'obrazek-container2b', true, fiszka, imgIndex); // Przekazanie imgIndex do funkcji aktywujObrazek
             // Dodajemy zatwierdzony indeks do tablicy
             approvedIndexes.push(lastClickedIndex);
             console.log(approvedIndexes);
@@ -2192,121 +2191,6 @@ function generateFiszkaBlock(fiszka, lessonId2) {
         console.log(`Generated fiszka block for ID: [${fiszka.id.join(', ')}]`);
         initAudio(fiszka.id);
     });
-}
-
-
-function getRandomId(max, range, usedIds) {
-    const start = (range - 1) * max + 1;
-    const end = range * max;
-
-    // Filtruj dostępne identyfikatory, usuwając już użyte
-    const availableIds = Array.from({length: end - start + 1}, (_, index) => start + index)
-            .filter(id => !usedIds.includes(id));
-
-    if (availableIds.length === 0) {
-        // W przypadku, gdy wszystkie identyfikatory zostały już użyte, zwracamy null lub możemy obsłużyć to w inny sposób
-        return null;
-    }
-
-    // Losuj identyfikator z dostępnych
-    const randomIndex = Math.floor(Math.random() * availableIds.length);
-    const randomId = availableIds[randomIndex];
-
-    // Dodaj użyty identyfikator do listy
-    usedIds.push(randomId);
-
-    return randomId;
-}
-
-// Funkcja do zapisywania danych do localStorage
-function saveToLocalStorage(data) {
-    localStorage.setItem('wylosowaneLekcje', JSON.stringify(data));
-}
-
-// Funkcja do wczytywania danych z localStorage
-function loadFromLocalStorage() {
-    const storedData = localStorage.getItem('wylosowaneLekcje');
-    return storedData ? JSON.parse(storedData) : null;
-}
-
-const maxRandom = 3;
-
-let lessons2;
-
-// Sprawdź, czy istnieją zapisane dane w localStorage
-const storedLessons = loadFromLocalStorage();
-
-if (storedLessons) {
-    // Jeśli dane są zapisane, wczytaj je
-    lessons2 = storedLessons;
-    console.log('Wczytane dane z localStorage:', lessons2);
-
-    // Opóźnij wywołanie funkcji do wyświetlania fiszek
-    setTimeout(showFiszki2, 0);
-} else {
-    // Jeśli nie ma zapisanych danych, losuj i zapisz
-    lessons2 = {
-        1: [],
-        2: [],
-        3: []
-    };
-
-    // Funkcja do losowania i zapisywania danych
-    function losowanie(szablon) {
-        // Lista użytych identyfikatorów
-        let usedIds = [];
-
-        // Przypisanie przypadkowych id[1] dla każdej lekcji
-        for (const lessonId2 in lessons2) {
-            const randomId1 = getRandomId(maxRandom, szablon, usedIds);
-
-            if (randomId1 === null) {
-                console.log('Wszystkie dostępne identyfikatory zostały już użyte.');
-                return;
-            }
-
-            console.log(`Lekcja ${lessonId2}: Losowe ID[1]: ${randomId1}`);
-            lessons2[lessonId2] = fiszki.filter(f => f.id[1] === randomId1);
-            console.log(`Lekcja ${lessonId2} przefiltrowane dane:`, lessons2[lessonId2]);
-        }
-
-        // Zapisz wylosowane dane do  localStorage
-        saveToLocalStorage(lessons2);
-
-        // Opóźnij wywołanie funkcji do wyświetlania fiszek
-        setTimeout(showFiszki2, 0);
-    }
-
-    // Posortowanie fiszek w danej lekcji względem id[1] i id[0]
-    for (const lessonId2 in lessons2) {
-        lessons2[lessonId2].sort((a, b) => {
-            if (a.id[1] !== b.id[1]) {
-                return a.id[1] - b.id[1];
-            }
-            return a.id[0] - b.id[0];
-        });
-        console.log(`Sorted data for Lesson ${lessonId2}:`, lessons2[lessonId2]);
-    }
-
-    // Wywołaj funkcję losowania
-    losowanie(/* dodaj tutaj odpowiednią wartość dla szablonu */);
-}
-
-// Funkcja do wyświetlania fiszek w danej lekcji
-function showFiszki2() {
-    for (const lessonId2 in lessons2) {
-        console.log(`Lesson ${lessonId2}:`);
-        if (lessons2[lessonId2].length === 0) {
-            console.log("No data for this lesson and the randomly generated identifier.");
-        } else {
-            lessons2[lessonId2].forEach(fiszka => {
-                console.log(`Processing fiszka with ID: [${fiszka.id.join(', ')}]`);
-                generateFiszkaBlock(fiszka, lessonId2);
-                console.log(`Generated fiszka with ID: [${fiszka.id.join(', ')}]`);
-            });
-            console.log('lessons2 z wylosowanymi identyfikatorami dla pierwszej tablicy:', lessons2[1][0]);
-        }
-    }
 }
 
 
