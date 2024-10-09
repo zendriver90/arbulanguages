@@ -23,11 +23,11 @@
 }
 
 .play {
-    background: url('http://localhost/arbulanguage.com/img/play.png');
+    background: url('http://arbu-1dcc9.web.app/img/play.png');
 }
 
 .pause {
-    background: url('http://localhost/arbulanguage.com/img/stop.jpg');
+    background: url('http://arbu-1dcc9.web.app/img/stop.jpg');
 }
 
 #word {
@@ -46,24 +46,64 @@
 }
 #part {
     position: relative;
-    height: 50px;
+    height: auto;
     font-size: 40px;
-    display: grid;
-    text-align: center;
-    justify-content: center;
-    align-items: center;
-    grid-template-columns: auto auto auto auto;
-    grid-template-rows: auto;
-    width: 100%; /* Rozciągnięcie na całą szerokość */
-    grid-column: span 3; /* Zajęcie dwóch kolumn */
-    z-index: 10; /* Ustawienie z-index */
+    display: flex;
+    flex-wrap: wrap; /* Umożliwia przejście przycisków do kolejnego wiersza */
+    justify-content: center; /* Wyśrodkowanie przycisków w poziomie */
+    gap: 10px; /* Odstępy między przyciskami */
+    margin-top: 40px;
+    width: 100%;
+    z-index: 10;
 }
 
 #part button {
-    margin: 0 5px; /* Dodatkowy margines między przyciskami */
+    flex: 0 0 auto; /* Przyciski zachowują swoją szerokość */
+    margin: 0px; /* Marginesy między przyciskami */
 }
 #storyone {
     font-size: 16px;
+            margin-top: 50px;
+}
+                /* Stylizacja dla adnotacji/potęgi */
+.adannotation {
+  display: inline-block;
+  position: relative;
+}
+
+/* Stylizacja potęgi */
+.adannotation::after {
+  content: attr(data-annotation); /* Wyświetla adnotację na podstawie atrybutu */
+  font-size: 0.7em; /* Zmniejszony rozmiar tekstu dla potęgi */
+  position: absolute;
+  top: -0.5em; /* Ustawienie nad tekstem */
+  right: -0.3em; /* Przesunięcie w prawo */
+  color: #555; /* Domyślny kolor potęgi */
+}
+
+/* Kolory dla tekstu i potęg */
+.adannotation[data-annotation="1"] {
+  color: blue; /* Kolor niebieski dla tekstu i potęgi */
+}
+
+.adannotation[data-annotation="1"]::after {
+  color: blue; /* Kolor niebieski dla potęgi */
+}
+
+.adannotation[data-annotation="2"] {
+  color: orange; /* Kolor pomarańczowy dla tekstu i potęgi */
+}
+
+.adannotation[data-annotation="2"]::after {
+  color: orange; /* Kolor pomarańczowy dla potęgi */
+}
+
+.adannotation[data-annotation="3"] {
+  color: green; /* Kolor zielony dla tekstu i potęgi */
+}
+
+.adannotation[data-annotation="3"]::after {
+  color: green; /* Kolor zielony dla potęgi */
 }
                             }
                             @media (max-width: 999px) {
@@ -91,11 +131,11 @@
 }
 
 .play {
-    background: url('http://localhost/arbulanguage.com/img/play.png');
+    background: url('http://arbu-1dcc9.web.app/img/play.png');
 }
 
 .pause {
-    background: url('http://localhost/arbulanguage.com/img/stop.jpg');
+    background: url('http://arbu-1dcc9.web.app/img/stop.jpg');
 }
 
 #word {
@@ -115,20 +155,20 @@
 }
 #part {
     position: relative;
-    height: 50px;
+    height: auto;
     font-size: 40px;
-    display: grid;
-    text-align: center;
-    justify-content: center;
-    align-items: center;
-    grid-template-columns: auto auto auto auto;
-    grid-template-rows: auto;
-    width: 100%; /* Rozciągnięcie na całą szerokość */
-    grid-column: span 3; /* Zajęcie dwóch kolumn */
-    z-index: 10; /* Ustawienie z-index */
+    display: flex;
+    flex-wrap: wrap; /* Umożliwia przejście przycisków do kolejnego wiersza */
+    justify-content: center; /* Wyśrodkowanie przycisków w poziomie */
+    gap: 10px; /* Odstępy między przyciskami */
+    margin-top: 40px;
+    width: 100%;
+    z-index: 10;
 }
-                                #part button {
-    margin: 0 5px; /* Dodatkowy margines między przyciskami */
+
+#part button {
+    flex: 0 0 auto; /* Przyciski zachowują swoją szerokość */
+    margin: 0px; /* Marginesy między przyciskami */
     font-size: 40px;
 }
 
@@ -138,4 +178,53 @@
                     height: 120px;
                     font-size: 40px;
                 }
+                /* Stylizacja dla adnotacji/potęgi */
+.adannotation {
+  position: relative;
+  font-size: 26px; /* Bazowy rozmiar czcionki */
+}
+
+/* Stylizacja potęgi */
+.adannotation::after {
+  content: attr(data-annotation); /* Wyświetla adnotację na podstawie atrybutu */
+  position: absolute;
+  font-size: 30px; /* Jeszcze większy rozmiar dla potęgi */
+  top: -1.2em; /* Umieszczenie wyżej nad tekstem */
+  right: -0.3em; /* Przesunięcie w prawo */
+  color: #555; /* Kolor potęgi */
+}
+
+
+
+/* Kolory dla tekstu i potęg */
+.adannotation[data-annotation="1"] {
+  color: blue; /* Kolor niebieski dla tekstu i potęgi */
+}
+
+.adannotation[data-annotation="1"]::after {
+  color: blue; /* Kolor niebieski dla potęgi */
+}
+
+.adannotation[data-annotation="2"] {
+  color: orange; /* Kolor pomarańczowy dla tekstu i potęgi */
+}
+
+.adannotation[data-annotation="2"]::after {
+  color: orange; /* Kolor pomarańczowy dla potęgi */
+}
+
+.adannotation[data-annotation="3"] {
+  color: green; /* Kolor zielony dla tekstu i potęgi */
+}
+
+.adannotation[data-annotation="3"]::after {
+  color: green; /* Kolor zielony dla potęgi */
+}
+.adannotation[data-annotation="4"] {
+  color: gray; /* Kolor zielony dla tekstu i potęgi */
+}
+
+.adannotation[data-annotation="4"]::after {
+  color: gray; /* Kolor zielony dla potęgi */
+}
                             }

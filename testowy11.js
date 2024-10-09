@@ -341,10 +341,10 @@ id: [
         ],
         // historia
         story: [
-                "A <b><u>way</b></u> to <b><u>man</b></u>ifest skills is to work hard without being int<b><u>err</b></u>upted, or to just sit on the sof<b><u>a</b></u>"
+                "A <b><u>way</b></u> to <b><u>man</b></u>ifest skills is to work hard without being int<b><u>err</b></u>upted, <b><u>or</b></u> to just sit on the sof<b><u>a</b></u>"
         ],
         // opis
-        desc: "o manera[oh mah-neh-rah] - way",
+        desc: "o manera[oh mah-neh-rah] - or way",
         //zdanie
         sentence1: [
                 "o manera"
@@ -1359,7 +1359,7 @@ id: [
         desc: "un jardin[bree-yah] - garden",
         //zdanie
         sentence2: [
-                "tiene"
+                "un jardin"
         ],
         sentence: [
                 "y",

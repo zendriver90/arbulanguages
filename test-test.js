@@ -8466,3 +8466,49 @@ ${sentence30}${sentence33}<br>
             
                         "Każde dziecko miało kiedyś <u><b>swoje</u></b> ba<u><b>jor</u></b>ko",
             "Sąsiad pyta mnie.. to <b><u>twój</b></u> pies <b><u>Yor</b></u>k?"
+            
+                    story: [
+            "<u><b>Fan</b></u>tastyczne jest to by się dobrze <u><b>bawić</b></u>. A jeżli chodzi o <u><b>zabawę</b></u> zawsze jestem jej <u><b>fan</b></u>em<",
+            "Polski <u><b>he</u></b>tman ma piuropusz do <u><b>s</u></b>amej szyi"
+        ],
+        
+                story: "Suczce <b><u>K</b></u>alina nie wolno sa<b><u>mej</b></u> ściągac jedzenia ze stołu, nie wolno jej tego <b><u>robić</b></u>",
+                
+                            "<b><u>Jego</b></u> <b><u>his</b></u>toria jest bardzo atrakcyjna i bujna",
+            "Jeśli masoc<b><u>his</b></u>ta nie pójdzie do terapeuty jest sam ze swoimi problemami"
+            
+                        "<b><u>Quo vadis</b></u> <b><u>to</b></u> cytat bardzo znany",
+            "To słówko <b><u>dis</b></u>tant - czytamy <b><u>dis</b></u>tant",
+            "<b><u>Di</b></u>va operowa jest <b><u>s</b></u>ławna"
+            
+            Trener daje dla tej drużyny <b><u>for</b></u>y
+            
+                        "<u><b>Nasz</u></b> dostawca prądu to <u><b>Taur</u></b>on",
+            "<u><b>Nasi</u></b> spartanie krzyczą <u><b>AAAUUU!!!</u></b> wszyscy razem przed walką"
+            
+                            .image-container3 {
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    background-color: blue;
+                    position: relative;
+                    height: 220px;
+                    width: 330px;
+                    box-sizing: border-box;
+                    align-items: center;
+                    font-size: 20px;
+                    z-index: 999;
+    order: 0; /* Domyślna kolejność */
+    z-index: 10;
+                }/* Tło */
+                
+                        story: "Osrodek <u><b>Łel</u></b>nes(Wellness) oferuje zabieg, który wykorzystuje karbowane <u><b>koło</u></b> do masażu mieśni",
+        desc: "weel[łel] - koło",
+        
+                story: [
+            "Joa<u><b>him</u></b> czeka na ocene jego tańca sportowego. Juror bardzo dobrze ocenił <u><b>jego</u></b> taniec i idzie z <u><b>nim</u></b> na wódkę",
+            "Ludzie powiedzieli, że jeżeli pewien gociu wspiął się na szczyt to <u><b>Him</u></b>alaje są <u><b>jego</u></b>",
+            "Histria polskiego rapu to między innymi zespół Paktofonika i jego frontmeni w tym Ra<u><b>him</u></b>",
+            "Henek wybiera się w <u><b>Him</u></b>alaje a wszyscy wiedzą, że <u><b>jego</u></b> doświadczenie pomoże mu przeżyć",
+            "Koleżanka Joa<u><b>him</u></b>a wspiera <u><b>jego</u></b> projekt"
+        ],

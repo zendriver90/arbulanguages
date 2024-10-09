@@ -18,6 +18,47 @@
         <title>ARBULANGUAGES.COM<br>DOSTĘPNYCH 150 SŁÓW</title>
         <style>
             @media (min-width: 999px) {
+                .bottom-bar {
+    display: none;
+}
+
+.show {
+    transform: translateY(-60px); /* Pasek widoczny po załadowaniu */
+}
+.hidden {
+    transform: translateY(100%); /* Schowanie paska poza ekran */
+}
+.bottom-button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px;
+    font-size: 8px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.bottom-button:hover {
+    background-color: #45a049;
+}
+
+.lupka {
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}
+
+.toggle-button {
+    display: none;
+}
+
+#arrow {
+    font-size: 20px;
+}
+
+.show-toggle-button {
+    bottom: 60px; /* Strzałka przesuwa się do góry gdy pasek jest widoczny */
+}
                 /* Styl dla głównego kontenera */
                 .container {
                     position: relative;
@@ -256,16 +297,7 @@
                 .image-container4:hover .run-button3 {
                     display: block; /* Wyświetlenie przycisku na hover */
                 }
-                .sentence1b,
-                .sentence1b2,
-                .sentence1b22,
-                .sentence1b2a,
-                .sentence1c22,
-                .sentence1c2a {
-                    font-size: 16px;
-                    margin-bottom: 0px;
-                    z-index: 9999;
-                }
+
                 .sentence1bba,
                 .sentence1bbab,
                 sentence1bb1b,
@@ -275,6 +307,7 @@
                     font-size: 16px;
                     margin-bottom: 0px;
                     z-index: 9999;
+                    color: white;
                 }
                 .sentence1b,
                 .sentence1b2,
@@ -303,6 +336,16 @@
                     color: white;
                     z-index: 9999;
                     color: blue;
+                }
+                                .sentenceBB {
+                    margin-top: 80px;
+                    color: white;
+                    z-index: 9999;
+                }
+                .sentenceBC {
+                    margin-top: 80px;
+                    z-index: 9999;
+                    color: white;
                 }
                 .sentence10,
                 .sentence11,
@@ -967,7 +1010,6 @@ button123:hover {
                     gap: 3px; /* Można dostosować zgodnie z potrzebami */
                     position: relative;
                     padding-top: 30px; /* Ustawienie marginesów zgodnie z potrzebami */
-                    padding-bottom: 30px; /* Ustawienie marginesów zgodnie z potrzebami */
                     margin-right: 0; /* Ustawienie marginesów zgodnie z potrzebami */
                     overflow: hidden; /* Ukrywanie wszelkiego poziomego przewijania */
                     z-index: 1;
@@ -1744,6 +1786,10 @@ toggleButton.addEventListener('click', function() {
             }
             console.log("Matching indexes:", matchingIndexes);
             let polski = false;
+            let losowaniaCounter = 0; // Zmienna licznika losowań
+let losowaniaCounter2 = 0; // Zmienna licznika losowań
+            let tablica33 = [];
+            let tablica33b = [];
             function wybierzRodzaj(category, czas, matchingIndexes, index55, buttonindex, idpolski, frazyid) {
                 category = category || globalCategory;
                 czasv2 = czas;
@@ -1875,6 +1921,7 @@ toggleButton.addEventListener('click', function() {
                         console.log('Liczba dodanych divów:', numberOfContainers);
                     }
                 }
+                let powiadomienieCounter = 0; // Licznik wyświetleń powiadomień
                 if (czas === 'fiszki' && czas !== "zdania") {
                     console.log('Warunek czas === "fiszki" jest spełniony');
                     $('.grid-container .image-container4').remove();
@@ -1904,7 +1951,9 @@ toggleButton.addEventListener('click', function() {
                         const zeroIndex2 = index55 - 1;
                         indices[zeroIndex] = 0;
                         indices2[zeroIndex2] = 0;
-
+    losowaniaCounter++; // Inkrementuj licznik przy każdym wywołaniu
+    tablica33.push(losowaniaCounter); // Dodaj zaktualizowany licznik do tablicy
+    console.log('hej1113', tablica33); // Wyświetl zawartość tablicy
                         for (let i = 0; i < myVariable.length; i += 3) {
                             indexDiv++;
                             const lessonId1 = myVariable[i];
@@ -1963,7 +2012,22 @@ toggleButton.addEventListener('click', function() {
 
                             lessonsArray.push(lessonObject);
                             console.log('hej34', lessonObject);
+            // Zwiększenie licznika losowań
+            console.log('Liczba losowań:', losowaniaCounter); // Dodano log licznika losowań
 
+            // Sprawdzenie, czy osiągnięto limit losowań
+            if (losowaniaCounter >= 7 && powiadomienieCounter < 2) {
+                console.log('Osiągnięto 7 losowań, wyświetlam powiadomienie');
+                powiadomienieCounter++; // Zwiększenie licznika powiadomień
+
+                if (confirm('Osiągnięto 7 losowań. Czy chcesz kontynuować losowania?')) {
+                    console.log('Użytkownik potwierdził dalsze losowania');
+                    losowaniaCounter = 0; // Zresetowanie licznika losowań
+                } else {
+                    console.log('Użytkownik przerwał dalsze losowania');
+                    break; // Przerwanie pętli, jeśli użytkownik nie chce kontynuować
+                }
+            }
                             console.log('hej556', lessonsArray);
                             console.log('hej40', startIndex);
                             console.log('hej77', tablica10);
@@ -2099,7 +2163,19 @@ toggleButton.addEventListener('click', function() {
                             console.log('hej323', index55);
 
                             console.log('hej344');
+            // Sprawdzenie, czy osiągnięto limit losowań
+            if (losowaniaCounter >= 7 && powiadomienieCounter < 2) {
+                console.log('Osiągnięto 7 losowania, wyświetlam powiadomienie');
+                powiadomienieCounter++; // Zwiększenie licznika powiadomień
 
+                if (confirm('Osiągnięto 7 losowań. Czy chcesz kontynuować losowania?')) {
+                    console.log('Użytkownik potwierdził dalsze losowania');
+                    losowaniaCounter = 0; // Zresetowanie licznika losowań
+                } else {
+                    console.log('Użytkownik przerwał dalsze losowania');
+                    break; // Przerwanie pętli, jeśli użytkownik nie chce kontynuować
+                }
+            }
                             if ((tablica15.length <= 33 || tablica15.length === 0)) {
                                 console.log('wykonuje się 8');
 
@@ -3272,7 +3348,7 @@ ${sentence30}${sentence33}<br>
 // Tworzenie przycisku "Stop"
 if (!stopButtonAdded) {
     const $stopButton = $('<img>')
-        .attr('src', 'http://localhost/arbulanguage.com/img/stopok2.png')
+        .attr('src', 'http://arbu-1dcc9.web.app/img/stopok2.png')
         .css({
             'display': 'none', // Ukryty na starcie
             'position': 'absolute', // Precyzyjne pozycjonowanie względem kontenera
@@ -3290,11 +3366,11 @@ if (!stopButtonAdded) {
                 if (!video.paused) {
                     video.pause();
                     // Zmień obrazek na "Play"
-                    $stopButton.attr('src', 'http://localhost/arbulanguage.com/img/play.png');
+                    $stopButton.attr('src', 'http://arbu-1dcc9.web.app/img/play.png');
                 } else {
                     video.play();
                     // Zmień obrazek z powrotem na "Stop"
-                    $stopButton.attr('src', 'http://localhost/arbulanguage.com/img/stopok2.png');
+                    $stopButton.attr('src', 'http://arbu-1dcc9.web.app/img/stopok2.png');
                 }
             });
         });
@@ -3474,7 +3550,7 @@ if (!stopButtonAdded) {
 // Tworzenie przycisku "Stop"
 if (!stopButtonAdded) {
     const $stopButton = $('<img>')
-        .attr('src', 'http://localhost/arbulanguage.com/img/stopok2.png')
+        .attr('src', 'http://arbu-1dcc9.web.app/img/stopok2.png')
         .css({
             'display': 'none', // Ukryty na starcie
             'position': 'absolute', // Precyzyjne pozycjonowanie względem kontenera
@@ -3492,11 +3568,11 @@ if (!stopButtonAdded) {
                 if (!video.paused) {
                     video.pause();
                     // Zmień obrazek na "Play"
-                    $stopButton.attr('src', 'http://localhost/arbulanguage.com/img/play.png');
+                    $stopButton.attr('src', 'http://arbu-1dcc9.web.app/img/play.png');
                 } else {
                     video.play();
                     // Zmień obrazek z powrotem na "Stop"
-                    $stopButton.attr('src', 'http://localhost/arbulanguage.com/img/stopok2.png');
+                    $stopButton.attr('src', 'http://arbu-1dcc9.web.app/img/stopok2.png');
                 }
             });
         });
@@ -4643,7 +4719,7 @@ ${sentence10}${sentence11}<br>
                             // Utwórz element <div> dla nakładki
                             const $overlay = $('<div>').addClass('overlay');
                             const $buttonb = $('<img>').attr({
-                                'src': 'http://localhost/arbulanguage.com/img/startsystem.png', // Względna ścieżka do pliku PNG
+                                'src': 'http://arbu-1dcc9.web.app/img/startsystem.png', // Względna ścieżka do pliku PNG
                                 'class': 'overlay-button' // Klasa dla stylów CSS
                             }).css({
                                 'position': 'absolute',
@@ -5315,7 +5391,7 @@ ${sentence10}<br>
                             // Utwórz element <div> dla nakładki
                             const $overlay = $('<div>').addClass('overlay');
                             const $buttonb = $('<img>').attr({
-                                'src': 'http://localhost/arbulanguage.com/img/startsystem.png', // Względna ścieżka do pliku PNG
+                                'src': 'http://arbu-1dcc9.web.app/img/startsystem.png', // Względna ścieżka do pliku PNG
                                 'class': 'overlay-button' // Klasa dla stylów CSS
                             }).css({
                                 'position': 'absolute',

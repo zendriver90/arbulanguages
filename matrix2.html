@@ -1594,6 +1594,10 @@
             }
             console.log("Matching indexes:", matchingIndexes);
             let polski = false;
+                        let losowaniaCounter = 0; // Zmienna licznika losowań
+let losowaniaCounter2 = 0; // Zmienna licznika losowań
+            let tablica33 = [];
+            let tablica33b = [];
             function wybierzRodzaj(category, czas, matchingIndexes, index55, buttonindex, idpolski, frazyid) {
                 category = category || globalCategory;
                 czasv2 = czas;
@@ -1754,7 +1758,9 @@
                         const zeroIndex2 = index55 - 1;
                         indices[zeroIndex] = 0;
                         indices2[zeroIndex2] = 0;
-
+    losowaniaCounter++; // Inkrementuj licznik przy każdym wywołaniu
+    tablica33.push(losowaniaCounter); // Dodaj zaktualizowany licznik do tablicy
+    console.log('hej1113', tablica33); // Wyświetl zawartość tablicy
                         for (let i = 0; i < myVariable.length; i += 3) {
                             indexDiv++;
                             const lessonId1 = myVariable[i];
@@ -1820,7 +1826,19 @@
                             console.log('wykonuje się 7');
                             console.log('hej155', buttonindex);
                             console.log('hej323', index55);
+            // Sprawdzenie, czy osiągnięto limit losowań
+            if (losowaniaCounter >= 7 && powiadomienieCounter < 2) {
+                console.log('Osiągnięto kilka losowań, wyświetlam powiadomienie');
+                powiadomienieCounter++; // Zwiększenie licznika powiadomień
 
+                if (confirm('Osiągnięto 7 losowań. Czy chcesz kontynuować losowania?')) {
+                    console.log('Użytkownik potwierdził dalsze losowania');
+                    losowaniaCounter = 0; // Zresetowanie licznika losowań
+                } else {
+                    console.log('Użytkownik przerwał dalsze losowania');
+                    break; // Przerwanie pętli, jeśli użytkownik nie chce kontynuować
+                }
+            }
                             if (tablica10.length <= 11 || tablica10.length === 0) {
                                 console.log('wykonuje się 8');
                                 console.log('hej32', newIndex);
@@ -1949,7 +1967,19 @@
                             console.log('hej323', index55);
 
                             console.log('hej344');
+           // Sprawdzenie, czy osiągnięto limit losowań
+            if (losowaniaCounter >= 7 && powiadomienieCounter < 2) {
+                console.log('Osiągnięto 2 losowania, wyświetlam powiadomienie');
+                powiadomienieCounter++; // Zwiększenie licznika powiadomień
 
+                if (confirm('Osiągnięto 7 losowań. Czy chcesz kontynuować losowania?')) {
+                    console.log('Użytkownik potwierdził dalsze losowania');
+                    losowaniaCounter = 0; // Zresetowanie licznika losowań
+                } else {
+                    console.log('Użytkownik przerwał dalsze losowania');
+                    break; // Przerwanie pętli, jeśli użytkownik nie chce kontynuować
+                }
+            }
                             if ((tablica15.length <= 33 || tablica15.length === 0)) {
                                 console.log('wykonuje się 8');
 
@@ -3883,6 +3913,10 @@ ${sentence30}${sentence33}<br>
         // Bezpośrednio przekierowujemy użytkownika do strony
         window.location.href = 'demo1esp.html?category=' + encodeURIComponent(globalCategory);
     }
+    if (index55b2 === 2) { // Porównaj jako liczby
+        // Bezpośrednio przekierowujemy użytkownika do strony
+        window.location.href = 'demo2esp.html?category=' + encodeURIComponent(globalCategory);
+    }
                                 }, 100);
                                 // Usunięcie kontenera po wstawieniu nowego
                             });
@@ -4621,17 +4655,21 @@ ${sentence10}${sentence11}<br>
                             console.log('hej554', index55b2);
                             if (index55b2 === 1) { // Porównaj jako liczby
                                 // Bezpośrednio przekierowujemy użytkownika do strony
-                                window.location.href = 'demo1angielskib.html?category=' + encodeURIComponent(globalCategory);
+                                window.location.href = 'demo1espb.html?category=' + encodeURIComponent(globalCategory);
                             }
                             if (index55b2 === 2) {
                                 // Bezpośrednio przekierowujemy użytkownika do strony
-                                window.location.href = 'demo2angielskib.html?category=' + encodeURIComponent(globalCategory);
+                                window.location.href = 'demo2espb.html?category=' + encodeURIComponent(globalCategory);
                             }
                             if (index55b2 === 3) {
                                 // Bezpośrednio przekierowujemy użytkownika do strony
-                                window.location.href = 'demo3angielskib.html?category=' + encodeURIComponent(globalCategory);
+                                window.location.href = 'demo3espb.html?category=' + encodeURIComponent(globalCategory);
                             }
-                        }, 1500);
+                            if (index55b2 === 4) {
+                                // Bezpośrednio przekierowujemy użytkownika do strony
+                                window.location.href = 'demo4espb.html?category=' + encodeURIComponent(globalCategory);
+                            }
+                        }, 1000);
                         // Usunięcie kontenera po wstawieniu nowego
                     });
                     $buttonb2.css({

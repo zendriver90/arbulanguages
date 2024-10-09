@@ -6,7 +6,10 @@ id: [
 ],
         // obrazek
         img: [
-                "http://localhost/arbulanguage.com/img/fiszkiespanol/1a.png"
+                "http://arbu-1dcc9.web.app/img/fiszkiespanol/1a.jpg",
+                "http://arbu-1dcc9.web.app/img/fiszkiespanol/1b.jpg",
+                "http://arbu-1dcc9.web.app/img/fiszkiespanol/1c.jpg",
+                "http://arbu-1dcc9.web.app/img/fiszkiespanol/1d.jpg"
         ],
         translate: "Rysować kwiat w zeszycie",
         translateb: "[Dibuhar una flor en el kuaderno]",
@@ -52,18 +55,14 @@ id: [
 ],
         // obrazek
         img: [
-            "http://localhost/arbulanguage.com/img/fiszki1/6b.jpg",
-            "http://localhost/arbulanguage.com/img/fiszki1/6b2.jpg",
-            "http://localhost/arbulanguage.com/img/fiszki1/6b3.jpg",
-            "http://localhost/arbulanguage.com/img/fiszki1/6b4.jpg",
-            "http://localhost/arbulanguage.com/img/fiszki1/6b5.jpg"
+            "http://arbu-1dcc9.web.app/img/fiszkiespanol/2a.jpg"
         ],
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "http://arbu-1dcc9.web.app/voice/music.mp4"
         ],
         // historia
         story: [
-                "Szczególnie <u><b>la</u></b>tem <u><b>Flor</u></b>ian dba o kwiaty"
+                "Nad ranem pojawiła się ł<u><b>una</u></b> deszczu, <u><b>Flor</u></b>ian ogrodnik zadowolony, bo jego ulubiony <u><b>kwiat</u></b> dostanie wodę"
         ],
         // opis
         desc: "una flor[una flor] - kwiat",
@@ -86,7 +85,7 @@ id: [
 ],
         // obrazek
         img: [
-                "http://localhost/arbulanguage.com/img/fiszkiespanol/3a.jpg"
+                "http://arbu-1dcc9.web.app/img/fiszkiespanol/3a.jpg"
         ],
         word: [
                 "http://localhost/arbulanguage.com/voice/music.mp4"
@@ -108,11 +107,7 @@ id: [
         //  slowo do nauki
         key: "everybody",
         category1: [
-                "sport", "gaming",
-                "natura", "kulinaria",
-                "nauka", "medycyna",
-                "czarny humor", "pasja",
-                "związki", "wychowanie"
+                "sport", "gaming"
         ],
         category2: ["osoby", "osoby+czas"]
 },
@@ -123,7 +118,7 @@ id: [
 ],
         // obrazek
         img: [
-                "http://localhost/arbulanguage.com/img/fiszkiespanol/4a.jpg"
+                "http://arbu-1dcc9.web.app/img/fiszkiespanol/4a.jpg"
         ],
         word: [
                 "http://localhost/arbulanguage.com/voice/music.mp4"
@@ -145,11 +140,7 @@ id: [
         //  slowo do nauki
         key: "everybody",
         category1: [
-                "sport", "gaming",
-                "natura", "kulinaria",
-                "nauka", "medycyna",
-                "czarny humor", "pasja",
-                "związki", "wychowanie"
+                "sport", "gaming"
         ],
         category2: ["osoby", "osoby+czas"]
 },
@@ -160,7 +151,7 @@ id: [
 ],
         // obrazek
         img: [
-                "http://localhost/arbulanguage.com/img/fiszkiespanol/1b.jpg"
+                "http://arbu-1dcc9.web.app/img/fiszkiespanol/5a.jpg"
         ],
         translate: "Czekać samemu w domu",
         translateb: "[Esperar solo dentro de la casa]",
@@ -186,11 +177,7 @@ id: [
         //  slowo do nauki
         key: "everybody",
         category1: [
-                "sport", "gaming",
-                "natura", "kulinaria",
-                "nauka", "medycyna",
-                "czarny humor", "pasja",
-                "związki", "wychowanie"
+                "sport", "gaming"
         ],
         category2: ["osoby", "osoby+czas"],
                 category3: ["Infinitive"]
@@ -202,10 +189,10 @@ id: [
 ],
         // obrazek
         img: [
-                "http://localhost/arbulanguage.com/img/fiszkiespanol/2b.jpg"
+                "http://arbu-1dcc9.web.app/img/fiszkiespanol/6a.jpg"
         ],
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "http://arbu-1dcc9.web.app/voice/music.mp4"
         ],
         // historia
         story: [
@@ -224,11 +211,7 @@ id: [
         //  slowo do nauki
         key: "everybody",
         category1: [
-                "sport", "gaming",
-                "natura", "kulinaria",
-                "nauka", "medycyna",
-                "czarny humor", "pasja",
-                "związki", "wychowanie"
+                "sport", "gaming"
         ],
         category2: ["osoby", "osoby+czas"]
 },
@@ -241,20 +224,16 @@ id: [
         img: [
                 "",
                 "",
-                "http://localhost/arbulanguage.com/img/fiszkiespanol/1c.jpg",
+                "http://arbu-1dcc9.web.app/img/fiszkiespanol/7a.jpg",
                 "",
                 ""
         ],
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "http://arbu-1dcc9.web.app/voice/music.mp4"
         ],
         // historia
         story: [
-                "",
-                "",
-                "<u><b>Dent</u></b>ysta <u><b>ro</u></b>bi dobrą <u><b>ro</u></b>botę, gdy wchodzę do środka gabinetu - nie boję się",
-                "",
-                ""
+                "<u><b>Dent</u></b>ysta <u><b>ro</u></b>bi dobrą <u><b>ro</u></b>botę, gdy wchodzę do środka gabinetu - nie boję się"
         ],
         // opis
         desc: "dentro de[dentro de] - w",
@@ -269,11 +248,7 @@ id: [
         //  slowo do nauki
         key: "everybody",
         category1: [
-                "sport", "gaming",
-                "natura", "kulinaria",
-                "nauka", "medycyna",
-                "czarny humor", "pasja",
-                "związki", "wychowanie"
+                "sport", "gaming"
         ],
         category2: ["osoby", "osoby+czas"]
 },
@@ -284,22 +259,14 @@ id: [
 ],
         // obrazek
         img: [
-                "",
-                "",
-                "",
-                "http://localhost/arbulanguage.com/img/fiszki1/2a.jpg",
-                ""
+                "http://arbu-1dcc9.web.app/fiszkiespanol/8a.jpg"
         ],
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "http://arbu-1dcc9.web.app/voice/music.mp4"
         ],
         // historia
         story: [
-                "",
-                "",
-                "",
-                "P<u><b>la</u></b>ton miał piękny <u><b>dom</u></b>, bo była na to <u><b>kasa</u></b>",
-                ""
+                "P<u><b>la</u></b>ton miał piękny <u><b>dom</u></b>, bo była na to <u><b>kasa</u></b>"
         ],
         // opis
         desc: "la casa[la kasa] - dom",
@@ -314,11 +281,7 @@ id: [
         //  slowo do nauki
         key: "everybody",
         category1: [
-                "sport", "gaming",
-                "natura", "kulinaria",
-                "nauka", "medycyna",
-                "czarny humor", "pasja",
-                "związki", "wychowanie"
+                "sport", "gaming"
         ],
         category2: ["osoby", "osoby+czas"]
 },
@@ -329,7 +292,7 @@ id: [
 ],
         // obrazek
         img: [
-                "http://localhost/arbulanguage.com/img/fiszki1/2a.jpg"
+                "http://arbu-1dcc9.web.app/img/fiszkiespanol/9a.jpg"
         ],
         translate: "Rozmawiać bez napięcia, idąc razem",
         translateb: "[Ablar sin tensión mientras kaminamos huntos]",
@@ -356,11 +319,7 @@ id: [
         //  slowo do nauki
         key: "everybody",
         category1: [
-                "sport", "gaming",
-                "natura", "kulinaria",
-                "nauka", "medycyna",
-                "czarny humor", "pasja",
-                "związki", "wychowanie"
+                "sport", "gaming"
         ],
         category2: ["osoby", "osoby+czas"],
                 category3: ["Infinitive"]
@@ -372,18 +331,14 @@ id: [
 ],
         // obrazek
         img: [
-                "http://localhost/arbulanguage.com/img/fiszki1/2a.jpg"
+                "http://arbu-1dcc9.web.app/img/fiszkiespanol/10a.jpg"
         ],
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "http://arbu-1dcc9.web.app/voice/music.mp4"
         ],
         // historia
         story: [
-                "W <u><b>e</u></b>-sportowej grze silnik samochodu robi <u><b>wry</u></b>, wszyscy chcą takich rajdów, <u><b>bo</u></b> idzie <u><b>dy</u></b>m",
-                "<u><b>Ew</u></b>a robi <u><b>ry</u></b>by, bo będzie robiła zupę rybną, a na drugie placki z <u><b>dy</u></b>ni. <u><b>Każdemu</u></b> to smakowało",
-                "Kr<u><b>ew</u></b> każdego pacjenta jest dokładnie przebadana i organizm <u><b>wsystkich</u></b> pacjentów wraca na właściwe to<u><b>ry</u></b>, bo gdy ma dobrą opieke wraca do zdrowia",
-                "<u><b>E</u></b>dek robi <u><b>wry</u></b> swoim modelem samolotu, musi uważać bo jest silny wiatr. Z silnika samolotu się dymi i <u><b>wszyscy</u></b> się na to patrzą",
-                "Mój syn <u><b>E</u></b>dek b<u><b>ry</u></b>ka, <u><b>bo</u></b> tak robią <u><b>wszyscy</u></b> jego rówieśnicy"
+                "W raju nie obyło się <u><b>bez</u></b> grzechu(angielskie: <u><b>sin</u></b>)"
         ],
         // opis
         desc: "sin[sin] - bez",
@@ -399,11 +354,7 @@ id: [
         //  slowo do nauki
         key: "everybody",
         category1: [
-                "sport", "gaming",
-                "natura", "kulinaria",
-                "nauka", "medycyna",
-                "czarny humor", "pasja",
-                "związki", "wychowanie"
+                "sport", "gaming"
         ],
         category2: ["osoby", "osoby+czas"]
 },
@@ -414,18 +365,14 @@ id: [
 ],
         // obrazek
         img: [
-                "http://localhost/arbulanguage.com/img/fiszki1/2a.jpg"
+                "http://arbu-1dcc9.web.app/img/fiszkiespanol/11a.jpg"
         ],
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "http://arbu-1dcc9.web.app/voice/music.mp4"
         ],
         // historia
         story: [
-                "W <u><b>e</u></b>-sportowej grze silnik samochodu robi <u><b>wry</u></b>, wszyscy chcą takich rajdów, <u><b>bo</u></b> idzie <u><b>dy</u></b>m",
-                "<u><b>Ew</u></b>a robi <u><b>ry</u></b>by, bo będzie robiła zupę rybną, a na drugie placki z <u><b>dy</u></b>ni. <u><b>Każdemu</u></b> to smakowało",
-                "Kr<u><b>ew</u></b> każdego pacjenta jest dokładnie przebadana i organizm <u><b>wsystkich</u></b> pacjentów wraca na właściwe to<u><b>ry</u></b>, bo gdy ma dobrą opieke wraca do zdrowia",
-                "<u><b>E</u></b>dek robi <u><b>wry</u></b> swoim modelem samolotu, musi uważać bo jest silny wiatr. Z silnika samolotu się dymi i <u><b>wszyscy</u></b> się na to patrzą",
-                "Mój syn <u><b>E</u></b>dek b<u><b>ry</u></b>ka, <u><b>bo</u></b> tak robią <u><b>wszyscy</u></b> jego rówieśnicy"
+                "Znalazłam pewien pa<u><b>ten</u></b>t na napięcie, mój partner ma<u><b>ssss</u></b>uje mi ram<u><b>ion</u></b>a"
         ],
         // opis
         desc: "tension[tension] - napięcie",
@@ -441,11 +388,7 @@ id: [
         //  slowo do nauki
         key: "everybody",
         category1: [
-                "sport", "gaming",
-                "natura", "kulinaria",
-                "nauka", "medycyna",
-                "czarny humor", "pasja",
-                "związki", "wychowanie"
+                "sport", "gaming"
         ],
         category2: ["osoby", "osoby+czas"]
 },
@@ -456,18 +399,14 @@ id: [
 ],
         // obrazek
         img: [
-                "http://localhost/arbulanguage.com/img/fiszki1/2a.jpg"
+                "http://arbu-1dcc9.web.app/img/fiszkiespanol/12a.jpg"
         ],
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "http://arbu-1dcc9.web.app/voice/music.mp4"
         ],
         // historia
         story: [
-                "W <u><b>e</u></b>-sportowej grze silnik samochodu robi <u><b>wry</u></b>, wszyscy chcą takich rajdów, <u><b>bo</u></b> idzie <u><b>dy</u></b>m",
-                "<u><b>Ew</u></b>a robi <u><b>ry</u></b>by, bo będzie robiła zupę rybną, a na drugie placki z <u><b>dy</u></b>ni. <u><b>Każdemu</u></b> to smakowało",
-                "Kr<u><b>ew</u></b> każdego pacjenta jest dokładnie przebadana i organizm <u><b>wsystkich</u></b> pacjentów wraca na właściwe to<u><b>ry</u></b>, bo gdy ma dobrą opieke wraca do zdrowia",
-                "<u><b>E</u></b>dek robi <u><b>wry</u></b> swoim modelem samolotu, musi uważać bo jest silny wiatr. Z silnika samolotu się dymi i <u><b>wszyscy</u></b> się na to patrzą",
-                "Mój syn <u><b>E</u></b>dek b<u><b>ry</u></b>ka, <u><b>bo</u></b> tak robią <u><b>wszyscy</u></b> jego rówieśnicy"
+                "Nie zabieramy całego <u><b>mien</u></b>ia <u><b>kiedy</u></b> jedziemy w </u></b>tras<u><b>ę"
         ],
         // opis
         desc: "mientras[mientras] - gdy/podczas gdy",
@@ -483,11 +422,7 @@ id: [
         //  slowo do nauki
         key: "everybody",
         category1: [
-                "sport", "gaming",
-                "natura", "kulinaria",
-                "nauka", "medycyna",
-                "czarny humor", "pasja",
-                "związki", "wychowanie"
+                "sport", "gaming"
         ],
         category2: ["osoby", "osoby+czas"]
 },
@@ -498,18 +433,14 @@ id: [
 ],
         // obrazek
         img: [
-                "http://localhost/arbulanguage.com/img/fiszki1/2a.jpg"
+                "http://arbu-1dcc9.web.app/img/fiszkiespanol/13a.jpg"
         ],
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "http://arbu-1dcc9.web.app/voice/music.mp4"
         ],
         // historia
         story: [
-                "W <u><b>e</u></b>-sportowej grze silnik samochodu robi <u><b>wry</u></b>, wszyscy chcą takich rajdów, <u><b>bo</u></b> idzie <u><b>dy</u></b>m",
-                "<u><b>Ew</u></b>a robi <u><b>ry</u></b>by, bo będzie robiła zupę rybną, a na drugie placki z <u><b>dy</u></b>ni. <u><b>Każdemu</u></b> to smakowało",
-                "Kr<u><b>ew</u></b> każdego pacjenta jest dokładnie przebadana i organizm <u><b>wsystkich</u></b> pacjentów wraca na właściwe to<u><b>ry</u></b>, bo gdy ma dobrą opieke wraca do zdrowia",
-                "<u><b>E</u></b>dek robi <u><b>wry</u></b> swoim modelem samolotu, musi uważać bo jest silny wiatr. Z silnika samolotu się dymi i <u><b>wszyscy</u></b> się na to patrzą",
-                "Mój syn <u><b>E</u></b>dek b<u><b>ry</u></b>ka, <u><b>bo</u></b> tak robią <u><b>wszyscy</u></b> jego rówieśnicy"
+                "Idą przez drogę z kolegami potknąłem się o <u><b>kami</u></b>eń. Po <u><b>namo</u></b>wie kolegów następnym razem zmienimy tra<u><b>s</u></b>ę"
         ],
         // opis
         desc: "caminamos[kaminamos] - idąc",
@@ -525,11 +456,7 @@ id: [
         //  slowo do nauki
         key: "everybody",
         category1: [
-                "sport", "gaming",
-                "natura", "kulinaria",
-                "nauka", "medycyna",
-                "czarny humor", "pasja",
-                "związki", "wychowanie"
+                "sport", "gaming"
         ],
         category2: ["osoby", "osoby+czas"]
 },
@@ -540,18 +467,14 @@ id: [
 ],
         // obrazek
         img: [
-                "http://localhost/arbulanguage.com/img/fiszki1/2a.jpg"
+                "http://arbu-1dcc9.web.app/img/fiszkiespanol/14a.jpg"
         ],
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "http://arbu-1dcc9.web.app/voice/music.mp4"
         ],
         // historia
         story: [
-                "W <u><b>e</u></b>-sportowej grze silnik samochodu robi <u><b>wry</u></b>, wszyscy chcą takich rajdów, <u><b>bo</u></b> idzie <u><b>dy</u></b>m",
-                "<u><b>Ew</u></b>a robi <u><b>ry</u></b>by, bo będzie robiła zupę rybną, a na drugie placki z <u><b>dy</u></b>ni. <u><b>Każdemu</u></b> to smakowało",
-                "Kr<u><b>ew</u></b> każdego pacjenta jest dokładnie przebadana i organizm <u><b>wsystkich</u></b> pacjentów wraca na właściwe to<u><b>ry</u></b>, bo gdy ma dobrą opieke wraca do zdrowia",
-                "<u><b>E</u></b>dek robi <u><b>wry</u></b> swoim modelem samolotu, musi uważać bo jest silny wiatr. Z silnika samolotu się dymi i <u><b>wszyscy</u></b> się na to patrzą",
-                "Mój syn <u><b>E</u></b>dek b<u><b>ry</u></b>ka, <u><b>bo</u></b> tak robią <u><b>wszyscy</u></b> jego rówieśnicy"
+                "<u><b>Hu</u></b>ra jesteśmy w <u><b>Un</u></b>ii, <u><b>razem</u></b> z innymi krajami i jest sz<u><b>tos</u></b>"
         ],
         // opis
         desc: "juntos[hunots] - razem",
@@ -567,11 +490,7 @@ id: [
         //  slowo do nauki
         key: "everybody",
         category1: [
-                "sport", "gaming",
-                "natura", "kulinaria",
-                "nauka", "medycyna",
-                "czarny humor", "pasja",
-                "związki", "wychowanie"
+                "sport", "gaming"
         ],
         category2: ["osoby", "osoby+czas"]
 },
@@ -582,7 +501,7 @@ id: [
 ],
         // obrazek
         img: [
-                "http://localhost/arbulanguage.com/img/fiszki1/2a.jpg"
+                "http://arbu-1dcc9.web.app/img/fiszkiespanol/15a.jpg"
         ],
         translate: "Przerywać ciszę pięknymi słowami",
         translateb: "[Romper el silensio kon palawras bonitas]",
@@ -593,11 +512,7 @@ id: [
         ],
         // historia
         story: [
-                "W <u><b>e</u></b>-sportowej grze silnik samochodu robi <u><b>wry</u></b>, wszyscy chcą takich rajdów, <u><b>bo</u></b> idzie <u><b>dy</u></b>m",
-                "<u><b>Ew</u></b>a robi <u><b>ry</u></b>by, bo będzie robiła zupę rybną, a na drugie placki z <u><b>dy</u></b>ni. <u><b>Każdemu</u></b> to smakowało",
-                "Kr<u><b>ew</u></b> każdego pacjenta jest dokładnie przebadana i organizm <u><b>wsystkich</u></b> pacjentów wraca na właściwe to<u><b>ry</u></b>, bo gdy ma dobrą opieke wraca do zdrowia",
-                "<u><b>E</u></b>dek robi <u><b>wry</u></b> swoim modelem samolotu, musi uważać bo jest silny wiatr. Z silnika samolotu się dymi i <u><b>wszyscy</u></b> się na to patrzą",
-                "Mój syn <u><b>E</u></b>dek b<u><b>ry</u></b>ka, <u><b>bo</u></b> tak robią <u><b>wszyscy</u></b> jego rówieśnicy"
+                "<u><b>Rom</u></b>an jest sa<u><b>per</u></b>em, ale jest na urlopie, bo <u><b>złamał</u></b> nogę"
         ],
         // opis
         desc: "romper[romper] - przełamać",
@@ -613,11 +528,7 @@ id: [
         //  slowo do nauki
         key: "everybody",
         category1: [
-                "sport", "gaming",
-                "natura", "kulinaria",
-                "nauka", "medycyna",
-                "czarny humor", "pasja",
-                "związki", "wychowanie"
+                "sport", "gaming"
         ],
         category2: ["osoby", "osoby+czas"],
                 category3: ["Infinitive"]
@@ -629,18 +540,14 @@ id: [
 ],
         // obrazek
         img: [
-                "http://localhost/arbulanguage.com/img/fiszki1/2a.jpg"
+                "http://arbu-1dcc9.web.app/img/fiszkiespanol/16a.jpg"
         ],
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "http://arbu-1dcc9.web.app/voice/music.mp4"
         ],
         // historia
         story: [
-                "W <u><b>e</u></b>-sportowej grze silnik samochodu robi <u><b>wry</u></b>, wszyscy chcą takich rajdów, <u><b>bo</u></b> idzie <u><b>dy</u></b>m",
-                "<u><b>Ew</u></b>a robi <u><b>ry</u></b>by, bo będzie robiła zupę rybną, a na drugie placki z <u><b>dy</u></b>ni. <u><b>Każdemu</u></b> to smakowało",
-                "Kr<u><b>ew</u></b> każdego pacjenta jest dokładnie przebadana i organizm <u><b>wsystkich</u></b> pacjentów wraca na właściwe to<u><b>ry</u></b>, bo gdy ma dobrą opieke wraca do zdrowia",
-                "<u><b>E</u></b>dek robi <u><b>wry</u></b> swoim modelem samolotu, musi uważać bo jest silny wiatr. Z silnika samolotu się dymi i <u><b>wszyscy</u></b> się na to patrzą",
-                "Mój syn <u><b>E</u></b>dek b<u><b>ry</u></b>ka, <u><b>bo</u></b> tak robią <u><b>wszyscy</u></b> jego rówieśnicy"
+                "W nocy lubię <u><b>el</u></b>ementarną <u><b>ciszę</u></b>, <u><b>sssii</u></b> to dobre dla snu, piję też <u><b>len</u></b> i sprawdzam godzinę na zegarku ca<u><b>sio</u></b> przed snem"
         ],
         // opis
         desc: "el silencio[el silensio] - cisza",
@@ -656,11 +563,7 @@ id: [
         //  slowo do nauki
         key: "everybody",
         category1: [
-                "sport", "gaming",
-                "natura", "kulinaria",
-                "nauka", "medycyna",
-                "czarny humor", "pasja",
-                "związki", "wychowanie"
+                "sport", "gaming"
         ],
         category2: ["osoby", "osoby+czas"]
 },
@@ -671,18 +574,14 @@ id: [
 ],
         // obrazek
         img: [
-                "http://localhost/arbulanguage.com/img/fiszki1/2a.jpg"
+                "http://arbu-1dcc9.web.app/img/fiszkiespanol/17a.jpg"
         ],
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "http://arbu-1dcc9.web.app/voice/music.mp4"
         ],
         // historia
         story: [
-                "W <u><b>e</u></b>-sportowej grze silnik samochodu robi <u><b>wry</u></b>, wszyscy chcą takich rajdów, <u><b>bo</u></b> idzie <u><b>dy</u></b>m",
-                "<u><b>Ew</u></b>a robi <u><b>ry</u></b>by, bo będzie robiła zupę rybną, a na drugie placki z <u><b>dy</u></b>ni. <u><b>Każdemu</u></b> to smakowało",
-                "Kr<u><b>ew</u></b> każdego pacjenta jest dokładnie przebadana i organizm <u><b>wsystkich</u></b> pacjentów wraca na właściwe to<u><b>ry</u></b>, bo gdy ma dobrą opieke wraca do zdrowia",
-                "<u><b>E</u></b>dek robi <u><b>wry</u></b> swoim modelem samolotu, musi uważać bo jest silny wiatr. Z silnika samolotu się dymi i <u><b>wszyscy</u></b> się na to patrzą",
-                "Mój syn <u><b>E</u></b>dek b<u><b>ry</u></b>ka, <u><b>bo</u></b> tak robią <u><b>wszyscy</u></b> jego rówieśnicy"
+                "<u><b>Z</u></b> <u><b>kon</u></b>opiami jest niezły ubaw"
         ],
         // opis
         desc: "con[kon] - z",
@@ -698,11 +597,7 @@ id: [
         //  slowo do nauki
         key: "everybody",
         category1: [
-                "sport", "gaming",
-                "natura", "kulinaria",
-                "nauka", "medycyna",
-                "czarny humor", "pasja",
-                "związki", "wychowanie"
+                "sport", "gaming"
         ],
         category2: ["osoby", "osoby+czas"]
 },
@@ -713,18 +608,14 @@ id: [
 ],
         // obrazek
         img: [
-                "http://localhost/arbulanguage.com/img/fiszki1/2a.jpg"
+                "http://arbu-1dcc9.web.app/img/fiszkiespanol/18a.jpg"
         ],
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "http://arbu-1dcc9.web.app/voice/music.mp4"
         ],
         // historia
         story: [
-                "W <u><b>e</u></b>-sportowej grze silnik samochodu robi <u><b>wry</u></b>, wszyscy chcą takich rajdów, <u><b>bo</u></b> idzie <u><b>dy</u></b>m",
-                "<u><b>Ew</u></b>a robi <u><b>ry</u></b>by, bo będzie robiła zupę rybną, a na drugie placki z <u><b>dy</u></b>ni. <u><b>Każdemu</u></b> to smakowało",
-                "Kr<u><b>ew</u></b> każdego pacjenta jest dokładnie przebadana i organizm <u><b>wsystkich</u></b> pacjentów wraca na właściwe to<u><b>ry</u></b>, bo gdy ma dobrą opieke wraca do zdrowia",
-                "<u><b>E</u></b>dek robi <u><b>wry</u></b> swoim modelem samolotu, musi uważać bo jest silny wiatr. Z silnika samolotu się dymi i <u><b>wszyscy</u></b> się na to patrzą",
-                "Mój syn <u><b>E</u></b>dek b<u><b>ry</u></b>ka, <u><b>bo</u></b> tak robią <u><b>wszyscy</u></b> jego rówieśnicy"
+                "Za<u><b>pala</u></b> mi się lampka kiedy słyszę takie proste <u><b>słowa</u></b>, <u><b>wra</u></b>cam do w<u><b>s</u></b>pomnień kiedy było miło"
         ],
         // opis
         desc: "palabras[palawras] - słowa(liczba mnoga)",
@@ -739,11 +630,7 @@ id: [
         //  slowo do nauki
         key: "everybody",
         category1: [
-                "sport", "gaming",
-                "natura", "kulinaria",
-                "nauka", "medycyna",
-                "czarny humor", "pasja",
-                "związki", "wychowanie"
+                "sport", "gaming"
         ],
         category2: ["osoby", "osoby+czas"]
 },
@@ -754,18 +641,14 @@ id: [
 ],
         // obrazek
         img: [
-                "http://localhost/arbulanguage.com/img/fiszki1/2a.jpg"
+                "http://localhost/arbulanguage.com/img/fiszkiespanol/19a.jpg"
         ],
         word: [
                 "http://localhost/arbulanguage.com/voice/music.mp4"
         ],
         // historia
         story: [
-                "W <u><b>e</u></b>-sportowej grze silnik samochodu robi <u><b>wry</u></b>, wszyscy chcą takich rajdów, <u><b>bo</u></b> idzie <u><b>dy</u></b>m",
-                "<u><b>Ew</u></b>a robi <u><b>ry</u></b>by, bo będzie robiła zupę rybną, a na drugie placki z <u><b>dy</u></b>ni. <u><b>Każdemu</u></b> to smakowało",
-                "Kr<u><b>ew</u></b> każdego pacjenta jest dokładnie przebadana i organizm <u><b>wsystkich</u></b> pacjentów wraca na właściwe to<u><b>ry</u></b>, bo gdy ma dobrą opieke wraca do zdrowia",
-                "<u><b>E</u></b>dek robi <u><b>wry</u></b> swoim modelem samolotu, musi uważać bo jest silny wiatr. Z silnika samolotu się dymi i <u><b>wszyscy</u></b> się na to patrzą",
-                "Mój syn <u><b>E</u></b>dek b<u><b>ry</u></b>ka, <u><b>bo</u></b> tak robią <u><b>wszyscy</u></b> jego rówieśnicy"
+                "<u><b>Piękne</u></b> kiedyś Zbigniew <u><b>Boni</u></b>ek strzelał bramki w reprezentacji Polski. <u><b>Tas</u></b>ował on zagraniami jak gwiazda"
         ],
         // opis
         desc: "bonitas[bonitas] - piękne(liczba mnoga)",
@@ -780,11 +663,7 @@ id: [
         //  slowo do nauki
         key: "everybody",
         category1: [
-                "sport", "gaming",
-                "natura", "kulinaria",
-                "nauka", "medycyna",
-                "czarny humor", "pasja",
-                "związki", "wychowanie"
+                "sport", "gaming"
         ],
         category2: ["osoby", "osoby+czas"]
 },
@@ -795,7 +674,7 @@ id: [
 ],
         // obrazek
         img: [
-                "http://localhost/arbulanguage.com/img/fiszki1/2a.jpg"
+                "http://localhost/arbulanguage.com/img/fiszkiespanol/20a.jpg"
         ],
         translate: "Zabezpieczać drzwi przed snem",
         translateb: "[Asegurar las puertas antes de dormir]",
@@ -806,11 +685,7 @@ id: [
         ],
         // historia
         story: [
-                "W <u><b>e</u></b>-sportowej grze silnik samochodu robi <u><b>wry</u></b>, wszyscy chcą takich rajdów, <u><b>bo</u></b> idzie <u><b>dy</u></b>m",
-                "<u><b>Ew</u></b>a robi <u><b>ry</u></b>by, bo będzie robiła zupę rybną, a na drugie placki z <u><b>dy</u></b>ni. <u><b>Każdemu</u></b> to smakowało",
-                "Kr<u><b>ew</u></b> każdego pacjenta jest dokładnie przebadana i organizm <u><b>wsystkich</u></b> pacjentów wraca na właściwe to<u><b>ry</u></b>, bo gdy ma dobrą opieke wraca do zdrowia",
-                "<u><b>E</u></b>dek robi <u><b>wry</u></b> swoim modelem samolotu, musi uważać bo jest silny wiatr. Z silnika samolotu się dymi i <u><b>wszyscy</u></b> się na to patrzą",
-                "Mój syn <u><b>E</u></b>dek b<u><b>ry</u></b>ka, <u><b>bo</u></b> tak robią <u><b>wszyscy</u></b> jego rówieśnicy"
+                "<u><b>Zabezpieczyłem</u></b> się przed możliwymi kłopotami wejścią na tą <u><b>gór</u></b>ę. Kupiłem dobrą kl<u><b>ase</u></b> butów - bardzo d<u><b>r</u></b>ogich"
         ],
         // opis
         desc: "asegurar[asegurar] - zabezpieczać",
@@ -825,11 +700,7 @@ id: [
         //  slowo do nauki
         key: "everybody",
         category1: [
-                "sport", "gaming",
-                "natura", "kulinaria",
-                "nauka", "medycyna",
-                "czarny humor", "pasja",
-                "związki", "wychowanie"
+                "sport", "gaming"
         ],
         category2: ["osoby", "osoby+czas"],
                 category3: ["Infinitive"]
@@ -841,21 +712,17 @@ id: [
 ],
         // obrazek
         img: [
-                "http://localhost/arbulanguage.com/img/fiszki1/2a.jpg"
+                "http://arbu-1dcc9.web.app/img/fiszkiespanol/21a.jpg"
         ],
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "http://arbu-1dcc9.web.app/voice/music.mp4"
         ],
         // historia
         story: [
-                "W <u><b>e</u></b>-sportowej grze silnik samochodu robi <u><b>wry</u></b>, wszyscy chcą takich rajdów, <u><b>bo</u></b> idzie <u><b>dy</u></b>m",
-                "<u><b>Ew</u></b>a robi <u><b>ry</u></b>by, bo będzie robiła zupę rybną, a na drugie placki z <u><b>dy</u></b>ni. <u><b>Każdemu</u></b> to smakowało",
-                "Kr<u><b>ew</u></b> każdego pacjenta jest dokładnie przebadana i organizm <u><b>wsystkich</u></b> pacjentów wraca na właściwe to<u><b>ry</u></b>, bo gdy ma dobrą opieke wraca do zdrowia",
-                "<u><b>E</u></b>dek robi <u><b>wry</u></b> swoim modelem samolotu, musi uważać bo jest silny wiatr. Z silnika samolotu się dymi i <u><b>wszyscy</u></b> się na to patrzą",
-                "Mój syn <u><b>E</u></b>dek b<u><b>ry</u></b>ka, <u><b>bo</u></b> tak robią <u><b>wszyscy</u></b> jego rówieśnicy"
+                "Wchodzę do k<u><b>las</u></b>y, po tym jak s<u><b>pó</u></b>źiłem się na lekcję, otwieram <u><b>drzwi</u></b>, a na biórku nauczyciela st<u><b>erta</u></b> książek"
         ],
         // opis
-        desc: "las puertas[las płertas] - drzwi",
+        desc: "la puerta[las puerta] - drzwi",
         //zdanie
         sentence1: [
                 "las puertas"
@@ -867,11 +734,7 @@ id: [
         //  slowo do nauki
         key: "everybody",
         category1: [
-                "sport", "gaming",
-                "natura", "kulinaria",
-                "nauka", "medycyna",
-                "czarny humor", "pasja",
-                "związki", "wychowanie"
+                "sport", "gaming"
         ],
         category2: ["osoby", "osoby+czas"]
 },
@@ -882,18 +745,14 @@ id: [
 ],
         // obrazek
         img: [
-                "http://localhost/arbulanguage.com/img/fiszki1/2a.jpg"
+                "http://arbu-1dcc9.web.app/img/fiszkiespanol/22a.jpg"
         ],
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "http://arbu-1dcc9.web.app/voice/music.mp4"
         ],
         // historia
         story: [
-                "W <u><b>e</u></b>-sportowej grze silnik samochodu robi <u><b>wry</u></b>, wszyscy chcą takich rajdów, <u><b>bo</u></b> idzie <u><b>dy</u></b>m",
-                "<u><b>Ew</u></b>a robi <u><b>ry</u></b>by, bo będzie robiła zupę rybną, a na drugie placki z <u><b>dy</u></b>ni. <u><b>Każdemu</u></b> to smakowało",
-                "Kr<u><b>ew</u></b> każdego pacjenta jest dokładnie przebadana i organizm <u><b>wsystkich</u></b> pacjentów wraca na właściwe to<u><b>ry</u></b>, bo gdy ma dobrą opieke wraca do zdrowia",
-                "<u><b>E</u></b>dek robi <u><b>wry</u></b> swoim modelem samolotu, musi uważać bo jest silny wiatr. Z silnika samolotu się dymi i <u><b>wszyscy</u></b> się na to patrzą",
-                "Mój syn <u><b>E</u></b>dek b<u><b>ry</u></b>ka, <u><b>bo</u></b> tak robią <u><b>wszyscy</u></b> jego rówieśnicy"
+                "Przed moim domem jest <u><b>ante</u></b>na <u><b>s</u></b>atelitarna i czasami mnie <u><b>de</u></b>nerwuje, że nie odbiera sygnału"
         ],
         // opis
         desc: "antes de[antes de] - przed",
@@ -908,11 +767,7 @@ id: [
         //  slowo do nauki
         key: "everybody",
         category1: [
-                "sport", "gaming",
-                "natura", "kulinaria",
-                "nauka", "medycyna",
-                "czarny humor", "pasja",
-                "związki", "wychowanie"
+                "sport", "gaming"
         ],
         category2: ["osoby", "osoby+czas"]
 },
@@ -923,18 +778,14 @@ id: [
 ],
         // obrazek
         img: [
-                "http://localhost/arbulanguage.com/img/fiszki1/2a.jpg"
+                "http://arbu-1dcc9.web.app/img/fiszkiespanol/23a.jpg"
         ],
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "http://arbu-1dcc9.web.app/voice/music.mp4"
         ],
         // historia
         story: [
-                "W <u><b>e</u></b>-sportowej grze silnik samochodu robi <u><b>wry</u></b>, wszyscy chcą takich rajdów, <u><b>bo</u></b> idzie <u><b>dy</u></b>m",
-                "<u><b>Ew</u></b>a robi <u><b>ry</u></b>by, bo będzie robiła zupę rybną, a na drugie placki z <u><b>dy</u></b>ni. <u><b>Każdemu</u></b> to smakowało",
-                "Kr<u><b>ew</u></b> każdego pacjenta jest dokładnie przebadana i organizm <u><b>wsystkich</u></b> pacjentów wraca na właściwe to<u><b>ry</u></b>, bo gdy ma dobrą opieke wraca do zdrowia",
-                "<u><b>E</u></b>dek robi <u><b>wry</u></b> swoim modelem samolotu, musi uważać bo jest silny wiatr. Z silnika samolotu się dymi i <u><b>wszyscy</u></b> się na to patrzą",
-                "Mój syn <u><b>E</u></b>dek b<u><b>ry</u></b>ka, <u><b>bo</u></b> tak robią <u><b>wszyscy</u></b> jego rówieśnicy"
+                "Bracia <u><b>Dor</u></b>ian i <u><b>Mir</u></b>ek idą <u><b>spać</u></b> w lato, gdy zajdzie słońce"
         ],
         // opis
         desc: "dormir[dormir] - sypiać",
@@ -949,11 +800,7 @@ id: [
         //  slowo do nauki
         key: "everybody",
         category1: [
-                "sport", "gaming",
-                "natura", "kulinaria",
-                "nauka", "medycyna",
-                "czarny humor", "pasja",
-                "związki", "wychowanie"
+                "sport", "gaming"
         ],
         category2: ["osoby", "osoby+czas"]
 },
@@ -964,7 +811,7 @@ id: [
 ],
         // obrazek
         img: [
-                "http://localhost/arbulanguage.com/img/fiszki1/2a.jpg"
+                "http://arbu-1dcc9.web.app/img/fiszkiespanol/24a.jpg"
         ],
         translate: "Zachować spokój i cieszyć się razem",
         translateb: "[Mantener la kalma i disfrutar huntos]",
@@ -975,11 +822,7 @@ id: [
         ],
         // historia
         story: [
-                "W <u><b>e</u></b>-sportowej grze silnik samochodu robi <u><b>wry</u></b>, wszyscy chcą takich rajdów, <u><b>bo</u></b> idzie <u><b>dy</u></b>m",
-                "<u><b>Ew</u></b>a robi <u><b>ry</u></b>by, bo będzie robiła zupę rybną, a na drugie placki z <u><b>dy</u></b>ni. <u><b>Każdemu</u></b> to smakowało",
-                "Kr<u><b>ew</u></b> każdego pacjenta jest dokładnie przebadana i organizm <u><b>wsystkich</u></b> pacjentów wraca na właściwe to<u><b>ry</u></b>, bo gdy ma dobrą opieke wraca do zdrowia",
-                "<u><b>E</u></b>dek robi <u><b>wry</u></b> swoim modelem samolotu, musi uważać bo jest silny wiatr. Z silnika samolotu się dymi i <u><b>wszyscy</u></b> się na to patrzą",
-                "Mój syn <u><b>E</u></b>dek b<u><b>ry</u></b>ka, <u><b>bo</u></b> tak robią <u><b>wszyscy</u></b> jego rówieśnicy"
+                ""
         ],
         // opis
         desc: "mantener[mantener] - zachować/utrzymać",
@@ -994,11 +837,7 @@ id: [
         //  slowo do nauki
         key: "everybody",
         category1: [
-                "sport", "gaming",
-                "natura", "kulinaria",
-                "nauka", "medycyna",
-                "czarny humor", "pasja",
-                "związki", "wychowanie"
+                "sport", "gaming"
         ],
         category2: ["osoby", "osoby+czas"],
                 category3: ["Infinitive"]
@@ -1010,18 +849,14 @@ id: [
 ],
         // obrazek
         img: [
-                "http://localhost/arbulanguage.com/img/fiszki1/2a.jpg"
+                "http://arbu-1dcc9.web.app/img/fiszkiespanol/25a.jpg"
         ],
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "http://arbu-1dcc9.web.app/voice/music.mp4"
         ],
         // historia
         story: [
-                "W <u><b>e</u></b>-sportowej grze silnik samochodu robi <u><b>wry</u></b>, wszyscy chcą takich rajdów, <u><b>bo</u></b> idzie <u><b>dy</u></b>m",
-                "<u><b>Ew</u></b>a robi <u><b>ry</u></b>by, bo będzie robiła zupę rybną, a na drugie placki z <u><b>dy</u></b>ni. <u><b>Każdemu</u></b> to smakowało",
-                "Kr<u><b>ew</u></b> każdego pacjenta jest dokładnie przebadana i organizm <u><b>wsystkich</u></b> pacjentów wraca na właściwe to<u><b>ry</u></b>, bo gdy ma dobrą opieke wraca do zdrowia",
-                "<u><b>E</u></b>dek robi <u><b>wry</u></b> swoim modelem samolotu, musi uważać bo jest silny wiatr. Z silnika samolotu się dymi i <u><b>wszyscy</u></b> się na to patrzą",
-                "Mój syn <u><b>E</u></b>dek b<u><b>ry</u></b>ka, <u><b>bo</u></b> tak robią <u><b>wszyscy</u></b> jego rówieśnicy"
+                "Placek, który upiekła <u><b>ma</u></b>ma powoduje w domu atmosferę relaksu i <u><b>spokoju</u></b>. Nigdy nie ma za<u><b>kal</u></b>ca"
         ],
         // opis
         desc: "la calma[la kalma] - spokój",
@@ -1036,11 +871,7 @@ id: [
         //  slowo do nauki
         key: "everybody",
         category1: [
-                "sport", "gaming",
-                "natura", "kulinaria",
-                "nauka", "medycyna",
-                "czarny humor", "pasja",
-                "związki", "wychowanie"
+                "sport", "gaming"
         ],
         category2: ["osoby", "osoby+czas"]
 },
@@ -1051,18 +882,14 @@ id: [
 ],
         // obrazek
         img: [
-                "http://localhost/arbulanguage.com/img/fiszki1/2a.jpg"
+                "http://arbu-1dcc9.web.app/img/fiszkiespanol/26a.jpg"
         ],
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "http://arbu-1dcc9.web.app/voice/music.mp4"
         ],
         // historia
         story: [
-                "W <u><b>e</u></b>-sportowej grze silnik samochodu robi <u><b>wry</u></b>, wszyscy chcą takich rajdów, <u><b>bo</u></b> idzie <u><b>dy</u></b>m",
-                "<u><b>Ew</u></b>a robi <u><b>ry</u></b>by, bo będzie robiła zupę rybną, a na drugie placki z <u><b>dy</u></b>ni. <u><b>Każdemu</u></b> to smakowało",
-                "Kr<u><b>ew</u></b> każdego pacjenta jest dokładnie przebadana i organizm <u><b>wsystkich</u></b> pacjentów wraca na właściwe to<u><b>ry</u></b>, bo gdy ma dobrą opieke wraca do zdrowia",
-                "<u><b>E</u></b>dek robi <u><b>wry</u></b> swoim modelem samolotu, musi uważać bo jest silny wiatr. Z silnika samolotu się dymi i <u><b>wszyscy</u></b> się na to patrzą",
-                "Mój syn <u><b>E</u></b>dek b<u><b>ry</u></b>ka, <u><b>bo</u></b> tak robią <u><b>wszyscy</u></b> jego rówieśnicy"
+                ""
         ],
         // opis
         desc: "y[i] - i",
@@ -1078,11 +905,7 @@ id: [
         //  slowo do nauki
         key: "everybody",
         category1: [
-                "sport", "gaming",
-                "natura", "kulinaria",
-                "nauka", "medycyna",
-                "czarny humor", "pasja",
-                "związki", "wychowanie"
+                "sport", "gaming"
         ],
         category2: ["osoby", "osoby+czas"]
 },
@@ -1093,18 +916,14 @@ id: [
 ],
         // obrazek
         img: [
-                "http://localhost/arbulanguage.com/img/fiszki1/2a.jpg"
+                "http://arbu-1dcc9.web.app/img/fiszkiespanol/27a.jpg"
         ],
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "http://arbu-1dcc9.web.app/voice/music.mp4"
         ],
         // historia
         story: [
-                "W <u><b>e</u></b>-sportowej grze silnik samochodu robi <u><b>wry</u></b>, wszyscy chcą takich rajdów, <u><b>bo</u></b> idzie <u><b>dy</u></b>m",
-                "<u><b>Ew</u></b>a robi <u><b>ry</u></b>by, bo będzie robiła zupę rybną, a na drugie placki z <u><b>dy</u></b>ni. <u><b>Każdemu</u></b> to smakowało",
-                "Kr<u><b>ew</u></b> każdego pacjenta jest dokładnie przebadana i organizm <u><b>wsystkich</u></b> pacjentów wraca na właściwe to<u><b>ry</u></b>, bo gdy ma dobrą opieke wraca do zdrowia",
-                "<u><b>E</u></b>dek robi <u><b>wry</u></b> swoim modelem samolotu, musi uważać bo jest silny wiatr. Z silnika samolotu się dymi i <u><b>wszyscy</u></b> się na to patrzą",
-                "Mój syn <u><b>E</u></b>dek b<u><b>ry</u></b>ka, <u><b>bo</u></b> tak robią <u><b>wszyscy</u></b> jego rówieśnicy"
+                ""
         ],
         // opis
         desc: "disfrutar[disfrutar] - cieszyć się",
@@ -1120,11 +939,7 @@ id: [
         //  slowo do nauki
         key: "everybody",
         category1: [
-                "sport", "gaming",
-                "natura", "kulinaria",
-                "nauka", "medycyna",
-                "czarny humor", "pasja",
-                "związki", "wychowanie"
+                "sport", "gaming"
         ],
         category2: ["osoby", "osoby+czas"]
 },
@@ -1135,18 +950,14 @@ id: [
 ],
         // obrazek
         img: [
-                "http://localhost/arbulanguage.com/img/fiszki1/2a.jpg"
+                "http://arbu-1dcc9.web.app/img/fiszkiespanol/28a.jpg"
         ],
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "http://arbu-1dcc9.web.app/voice/music.mp4"
         ],
         // historia
         story: [
-                "W <u><b>e</u></b>-sportowej grze silnik samochodu robi <u><b>wry</u></b>, wszyscy chcą takich rajdów, <u><b>bo</u></b> idzie <u><b>dy</u></b>m",
-                "<u><b>Ew</u></b>a robi <u><b>ry</u></b>by, bo będzie robiła zupę rybną, a na drugie placki z <u><b>dy</u></b>ni. <u><b>Każdemu</u></b> to smakowało",
-                "Kr<u><b>ew</u></b> każdego pacjenta jest dokładnie przebadana i organizm <u><b>wsystkich</u></b> pacjentów wraca na właściwe to<u><b>ry</u></b>, bo gdy ma dobrą opieke wraca do zdrowia",
-                "<u><b>E</u></b>dek robi <u><b>wry</u></b> swoim modelem samolotu, musi uważać bo jest silny wiatr. Z silnika samolotu się dymi i <u><b>wszyscy</u></b> się na to patrzą",
-                "Mój syn <u><b>E</u></b>dek b<u><b>ry</u></b>ka, <u><b>bo</u></b> tak robią <u><b>wszyscy</u></b> jego rówieśnicy"
+                ""
         ],
         // opis
         desc: "juntos[hunots] - razem",
@@ -1162,11 +973,7 @@ id: [
         //  slowo do nauki
         key: "everybody",
         category1: [
-                "sport", "gaming",
-                "natura", "kulinaria",
-                "nauka", "medycyna",
-                "czarny humor", "pasja",
-                "związki", "wychowanie"
+                "sport", "gaming"
         ],
         category2: ["osoby", "osoby+czas"]
 },
@@ -1177,7 +984,7 @@ id: [
 ],
         // obrazek
         img: [
-                "http://localhost/arbulanguage.com/img/fiszki1/2a.jpg"
+                "http://arbu-1dcc9.web.app/img/fiszkiespanol/29a.jpg"
         ],
         translate: "Osiągać marzenia przez wysiłek i poświęcenie",
         translateb: "[Lograr sueños con esfuerzo y dedicación]",
@@ -1188,11 +995,7 @@ id: [
         ],
         // historia
         story: [
-                "W <u><b>e</u></b>-sportowej grze silnik samochodu robi <u><b>wry</u></b>, wszyscy chcą takich rajdów, <u><b>bo</u></b> idzie <u><b>dy</u></b>m",
-                "<u><b>Ew</u></b>a robi <u><b>ry</u></b>by, bo będzie robiła zupę rybną, a na drugie placki z <u><b>dy</u></b>ni. <u><b>Każdemu</u></b> to smakowało",
-                "Kr<u><b>ew</u></b> każdego pacjenta jest dokładnie przebadana i organizm <u><b>wsystkich</u></b> pacjentów wraca na właściwe to<u><b>ry</u></b>, bo gdy ma dobrą opieke wraca do zdrowia",
-                "<u><b>E</u></b>dek robi <u><b>wry</u></b> swoim modelem samolotu, musi uważać bo jest silny wiatr. Z silnika samolotu się dymi i <u><b>wszyscy</u></b> się na to patrzą",
-                "Mój syn <u><b>E</u></b>dek b<u><b>ry</u></b>ka, <u><b>bo</u></b> tak robią <u><b>wszyscy</u></b> jego rówieśnicy"
+                "W <u><b>e</u></b>-sportowej grze silnik samochodu robi <u><b>wry</u></b>, wszyscy chcą takich rajdów, <u><b>bo</u></b> idzie <u><b>dy</u></b>m"
         ],
         // opis
         desc: "lograr[lograr] - osiągać",
@@ -1208,11 +1011,7 @@ id: [
         //  slowo do nauki
         key: "everybody",
         category1: [
-                "sport", "gaming",
-                "natura", "kulinaria",
-                "nauka", "medycyna",
-                "czarny humor", "pasja",
-                "związki", "wychowanie"
+                "sport", "gaming"
         ],
         category2: ["osoby", "osoby+czas"],
                 category3: ["Infinitive"]
@@ -1224,18 +1023,14 @@ id: [
 ],
         // obrazek
         img: [
-                "http://localhost/arbulanguage.com/img/fiszki1/2a.jpg"
+                "http://arbu-1dcc9.web.app/img/fiszkiespanol/30a.jpg"
         ],
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "http://arbu-1dcc9.web.app/voice/music.mp4"
         ],
         // historia
         story: [
-                "W <u><b>e</u></b>-sportowej grze silnik samochodu robi <u><b>wry</u></b>, wszyscy chcą takich rajdów, <u><b>bo</u></b> idzie <u><b>dy</u></b>m",
-                "<u><b>Ew</u></b>a robi <u><b>ry</u></b>by, bo będzie robiła zupę rybną, a na drugie placki z <u><b>dy</u></b>ni. <u><b>Każdemu</u></b> to smakowało",
-                "Kr<u><b>ew</u></b> każdego pacjenta jest dokładnie przebadana i organizm <u><b>wsystkich</u></b> pacjentów wraca na właściwe to<u><b>ry</u></b>, bo gdy ma dobrą opieke wraca do zdrowia",
-                "<u><b>E</u></b>dek robi <u><b>wry</u></b> swoim modelem samolotu, musi uważać bo jest silny wiatr. Z silnika samolotu się dymi i <u><b>wszyscy</u></b> się na to patrzą",
-                "Mój syn <u><b>E</u></b>dek b<u><b>ry</u></b>ka, <u><b>bo</u></b> tak robią <u><b>wszyscy</u></b> jego rówieśnicy"
+                "W <u><b>e</u></b>-sportowej grze silnik samochodu robi <u><b>wry</u></b>, wszyscy chcą takich rajdów, <u><b>bo</u></b> idzie <u><b>dy</u></b>m"
         ],
         // opis
         desc: "sueños[słenios] - marzenia",
@@ -1251,11 +1046,7 @@ id: [
         //  slowo do nauki
         key: "everybody",
         category1: [
-                "sport", "gaming",
-                "natura", "kulinaria",
-                "nauka", "medycyna",
-                "czarny humor", "pasja",
-                "związki", "wychowanie"
+                "sport", "gaming"
         ],
         category2: ["osoby", "osoby+czas"]
 },
@@ -1266,18 +1057,14 @@ id: [
 ],
         // obrazek
         img: [
-                "http://localhost/arbulanguage.com/img/fiszki1/2a.jpg"
+                "http://arbu-1dcc9.web.app/img/fiszkiespanol/31a.jpg"
         ],
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "http://arbu-1dcc9.web.app/voice/music.mp4"
         ],
         // historia
         story: [
-                "W <u><b>e</u></b>-sportowej grze silnik samochodu robi <u><b>wry</u></b>, wszyscy chcą takich rajdów, <u><b>bo</u></b> idzie <u><b>dy</u></b>m",
-                "<u><b>Ew</u></b>a robi <u><b>ry</u></b>by, bo będzie robiła zupę rybną, a na drugie placki z <u><b>dy</u></b>ni. <u><b>Każdemu</u></b> to smakowało",
-                "Kr<u><b>ew</u></b> każdego pacjenta jest dokładnie przebadana i organizm <u><b>wsystkich</u></b> pacjentów wraca na właściwe to<u><b>ry</u></b>, bo gdy ma dobrą opieke wraca do zdrowia",
-                "<u><b>E</u></b>dek robi <u><b>wry</u></b> swoim modelem samolotu, musi uważać bo jest silny wiatr. Z silnika samolotu się dymi i <u><b>wszyscy</u></b> się na to patrzą",
-                "Mój syn <u><b>E</u></b>dek b<u><b>ry</u></b>ka, <u><b>bo</u></b> tak robią <u><b>wszyscy</u></b> jego rówieśnicy"
+                "W <u><b>e</u></b>-sportowej grze silnik samochodu robi <u><b>wry</u></b>, wszyscy chcą takich rajdów, <u><b>bo</u></b> idzie <u><b>dy</u></b>m"
         ],
         // opis
         desc: "con[kon] - z/przez",
@@ -1293,11 +1080,7 @@ id: [
         //  slowo do nauki
         key: "everybody",
         category1: [
-                "sport", "gaming",
-                "natura", "kulinaria",
-                "nauka", "medycyna",
-                "czarny humor", "pasja",
-                "związki", "wychowanie"
+                "sport", "gaming"
         ],
         category2: ["osoby", "osoby+czas"]
 },
@@ -1308,18 +1091,14 @@ id: [
 ],
         // obrazek
         img: [
-                "http://localhost/arbulanguage.com/img/fiszki1/2a.jpg"
+                "http://arbu-1dcc9.web.app/img/fiszkiespanol/32a.jpg"
         ],
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "http://arbu-1dcc9.web.app/voice/music.mp4"
         ],
         // historia
         story: [
-                "W <u><b>e</u></b>-sportowej grze silnik samochodu robi <u><b>wry</u></b>, wszyscy chcą takich rajdów, <u><b>bo</u></b> idzie <u><b>dy</u></b>m",
-                "<u><b>Ew</u></b>a robi <u><b>ry</u></b>by, bo będzie robiła zupę rybną, a na drugie placki z <u><b>dy</u></b>ni. <u><b>Każdemu</u></b> to smakowało",
-                "Kr<u><b>ew</u></b> każdego pacjenta jest dokładnie przebadana i organizm <u><b>wsystkich</u></b> pacjentów wraca na właściwe to<u><b>ry</u></b>, bo gdy ma dobrą opieke wraca do zdrowia",
-                "<u><b>E</u></b>dek robi <u><b>wry</u></b> swoim modelem samolotu, musi uważać bo jest silny wiatr. Z silnika samolotu się dymi i <u><b>wszyscy</u></b> się na to patrzą",
-                "Mój syn <u><b>E</u></b>dek b<u><b>ry</u></b>ka, <u><b>bo</u></b> tak robią <u><b>wszyscy</u></b> jego rówieśnicy"
+                "W <u><b>e</u></b>-sportowej grze silnik samochodu robi <u><b>wry</u></b>, wszyscy chcą takich rajdów, <u><b>bo</u></b> idzie <u><b>dy</u></b>m"
         ],
         // opis
         desc: "esfuerzo[esfłerto] - wysiłek",
@@ -1335,11 +1114,7 @@ id: [
         //  slowo do nauki
         key: "everybody",
         category1: [
-                "sport", "gaming",
-                "natura", "kulinaria",
-                "nauka", "medycyna",
-                "czarny humor", "pasja",
-                "związki", "wychowanie"
+                "sport", "gaming"
         ],
         category2: ["osoby", "osoby+czas"]
 },
@@ -1350,18 +1125,14 @@ id: [
 ],
         // obrazek
         img: [
-                "http://localhost/arbulanguage.com/img/fiszki1/2a.jpg"
+                "http://arbu-1dcc9.web.app/img/fiszkiespanol/33a.jpg"
         ],
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "http://arbu-1dcc9.web.app/voice/music.mp4"
         ],
         // historia
         story: [
-                "W <u><b>e</u></b>-sportowej grze silnik samochodu robi <u><b>wry</u></b>, wszyscy chcą takich rajdów, <u><b>bo</u></b> idzie <u><b>dy</u></b>m",
-                "<u><b>Ew</u></b>a robi <u><b>ry</u></b>by, bo będzie robiła zupę rybną, a na drugie placki z <u><b>dy</u></b>ni. <u><b>Każdemu</u></b> to smakowało",
-                "Kr<u><b>ew</u></b> każdego pacjenta jest dokładnie przebadana i organizm <u><b>wsystkich</u></b> pacjentów wraca na właściwe to<u><b>ry</u></b>, bo gdy ma dobrą opieke wraca do zdrowia",
-                "<u><b>E</u></b>dek robi <u><b>wry</u></b> swoim modelem samolotu, musi uważać bo jest silny wiatr. Z silnika samolotu się dymi i <u><b>wszyscy</u></b> się na to patrzą",
-                "Mój syn <u><b>E</u></b>dek b<u><b>ry</u></b>ka, <u><b>bo</u></b> tak robią <u><b>wszyscy</u></b> jego rówieśnicy"
+                "W <u><b>e</u></b>-sportowej grze silnik samochodu robi <u><b>wry</u></b>, wszyscy chcą takich rajdów, <u><b>bo</u></b> idzie <u><b>dy</u></b>m"
         ],
         // opis
         desc: "y[i] - i",
@@ -1377,11 +1148,7 @@ id: [
         //  slowo do nauki
         key: "everybody",
         category1: [
-                "sport", "gaming",
-                "natura", "kulinaria",
-                "nauka", "medycyna",
-                "czarny humor", "pasja",
-                "związki", "wychowanie"
+                "sport", "gaming"
         ],
         category2: ["osoby", "osoby+czas"]
 },
@@ -1392,18 +1159,14 @@ id: [
 ],
         // obrazek
         img: [
-                "http://localhost/arbulanguage.com/img/fiszki1/2a.jpg"
+                "http://arbu-1dcc9.web.app/img/fiszkiespanol/34a.jpg"
         ],
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "http://arbu-1dcc9.web.app/voice/music.mp4"
         ],
         // historia
         story: [
-                "W <u><b>e</u></b>-sportowej grze silnik samochodu robi <u><b>wry</u></b>, wszyscy chcą takich rajdów, <u><b>bo</u></b> idzie <u><b>dy</u></b>m",
-                "<u><b>Ew</u></b>a robi <u><b>ry</u></b>by, bo będzie robiła zupę rybną, a na drugie placki z <u><b>dy</u></b>ni. <u><b>Każdemu</u></b> to smakowało",
-                "Kr<u><b>ew</u></b> każdego pacjenta jest dokładnie przebadana i organizm <u><b>wsystkich</u></b> pacjentów wraca na właściwe to<u><b>ry</u></b>, bo gdy ma dobrą opieke wraca do zdrowia",
-                "<u><b>E</u></b>dek robi <u><b>wry</u></b> swoim modelem samolotu, musi uważać bo jest silny wiatr. Z silnika samolotu się dymi i <u><b>wszyscy</u></b> się na to patrzą",
-                "Mój syn <u><b>E</u></b>dek b<u><b>ry</u></b>ka, <u><b>bo</u></b> tak robią <u><b>wszyscy</u></b> jego rówieśnicy"
+                "W <u><b>e</u></b>-sportowej grze silnik samochodu robi <u><b>wry</u></b>, wszyscy chcą takich rajdów, <u><b>bo</u></b> idzie <u><b>dy</u></b>m"
         ],
         // opis
         desc: "dedication[dedikasion] - poświęcenie",
@@ -1419,11 +1182,7 @@ id: [
         //  slowo do nauki
         key: "everybody",
         category1: [
-                "sport", "gaming",
-                "natura", "kulinaria",
-                "nauka", "medycyna",
-                "czarny humor", "pasja",
-                "związki", "wychowanie"
+                "sport", "gaming"
         ],
         category2: ["osoby", "osoby+czas"]
 },
@@ -1434,7 +1193,7 @@ id: [
 ],
         // obrazek
         img: [
-                "http://localhost/arbulanguage.com/img/fiszki1/2a.jpg"
+                "http://arbu-1dcc9.web.app/img/fiszki1/35a.jpg"
         ],
         translate: "Pamiętać szczęśliwe chwile z rodziną",
         translateb: "[Recordar momentos felices con la familia]",
@@ -1481,10 +1240,10 @@ id: [
 ],
         // obrazek
         img: [
-                "http://localhost/arbulanguage.com/img/fiszki1/2a.jpg"
+                "http://arbu-1dcc9.web.app/img/fiszki1/36a.jpg"
         ],
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "http://arbu-1dcc9.web.app/voice/music.mp4"
         ],
         // historia
         story: [
@@ -1523,10 +1282,10 @@ id: [
 ],
         // obrazek
         img: [
-                "http://localhost/arbulanguage.com/img/fiszki1/2a.jpg"
+                "http://arbu-1dcc9.web.app/img/fiszki1/37a.jpg"
         ],
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "http://arbu-1dcc9.web.app/voice/music.mp4"
         ],
         // historia
         story: [
@@ -1565,10 +1324,10 @@ id: [
 ],
         // obrazek
         img: [
-                "http://localhost/arbulanguage.com/img/fiszki1/2a.jpg"
+                "http://arbu-1dcc9.web.app/img/fiszki1/38a.jpg"
         ],
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "http://arbu-1dcc9.web.app/voice/music.mp4"
         ],
         // historia
         story: [
@@ -1606,10 +1365,10 @@ id: [
 ],
         // obrazek
         img: [
-                "http://localhost/arbulanguage.com/img/fiszki1/2a.jpg"
+                "http://arbu-1dcc9.web.app/img/fiszki1/2a.jpg"
         ],
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "http://arbu-1dcc9.web.app/voice/music.mp4"
         ],
         // historia
         story: [
@@ -1647,7 +1406,7 @@ id: [
 ],
         // obrazek
         img: [
-                "http://localhost/arbulanguage.com/img/fiszki1/2a.jpg"
+                "http://arbu-1dcc9.web.app/img/fiszki1/2a.jpg"
         ],
         translate: "Cieszyć się makijażem przed wyjściem",
         translateb: "[Disfrutar del maquillaje antes de salir]",
@@ -1693,10 +1452,10 @@ id: [
 ],
         // obrazek
         img: [
-                "http://localhost/arbulanguage.com/img/fiszki1/2a.jpg"
+                "http://arbu-1dcc9.web.app/img/fiszki1/2a.jpg"
         ],
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "http://arbu-1dcc9.web.app/voice/music.mp4"
         ],
         // historia
         story: [
@@ -1734,10 +1493,10 @@ id: [
 ],
         // obrazek
         img: [
-                "http://localhost/arbulanguage.com/img/fiszki1/2a.jpg"
+                "http://arbu-1dcc9.web.app/img/fiszki1/2a.jpg"
         ],
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "http://arbu-1dcc9.web.app/voice/music.mp4"
         ],
         // historia
         story: [
@@ -1775,10 +1534,10 @@ id: [
 ],
         // obrazek
         img: [
-                "http://localhost/arbulanguage.com/img/fiszki1/2a.jpg"
+                "http://arbu-1dcc9.web.app/img/fiszki1/2a.jpg"
         ],
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "http://arbu-1dcc9.web.app/voice/music.mp4"
         ],
         // historia
         story: [
@@ -1816,7 +1575,7 @@ id: [
 ],
         // obrazek
         img: [
-                "http://localhost/arbulanguage.com/img/fiszki1/2a.jpg"
+                "http://arbu-1dcc9.web.app/img/fiszki1/2a.jpg"
         ],
         translate: "Zapomnieć o niepokoju, patrząc na gwiazdy",
         translateb: "[Olvidar la ansiedad mirando las estrellas]",
@@ -1862,10 +1621,10 @@ id: [
 ],
         // obrazek
         img: [
-                "http://localhost/arbulanguage.com/img/fiszki1/2a.jpg"
+                "http://arbu-1dcc9.web.app/img/fiszki1/2a.jpg"
         ],
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "http://arbu-1dcc9.web.app/voice/music.mp4"
         ],
         // historia
         story: [
@@ -1903,10 +1662,10 @@ id: [
 ],
         // obrazek
         img: [
-                "http://localhost/arbulanguage.com/img/fiszki1/2a.jpg"
+                "http://arbu-1dcc9.web.app/img/fiszki1/2a.jpg"
         ],
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "http://arbu-1dcc9.web.app/voice/music.mp4"
         ],
         // historia
         story: [
@@ -1944,10 +1703,10 @@ id: [
 ],
         // obrazek
         img: [
-                "http://localhost/arbulanguage.com/img/fiszki1/2a.jpg"
+                "http://arbu-1dcc9.web.app/img/fiszki1/2a.jpg"
         ],
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "http://arbu-1dcc9.web.app/voice/music.mp4"
         ],
         // historia
         story: [
@@ -1985,7 +1744,7 @@ id: [
 ],
         // obrazek
         img: [
-                "http://localhost/arbulanguage.com/img/fiszki1/2a.jpg"
+                "http://arbu-1dcc9.web.app/img/fiszki1/2a.jpg"
         ],
         translate: "Rozciągać ramiona ku błękitnemu niebu",
         translateb: "[Extender los brazos al cielo azul]",
@@ -2032,10 +1791,10 @@ id: [
 ],
         // obrazek
         img: [
-                "http://localhost/arbulanguage.com/img/fiszki1/2a.jpg"
+                "http://arbu-1dcc9.web.app/img/fiszki1/2a.jpg"
         ],
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "http://arbu-1dcc9.web.app/voice/music.mp4"
         ],
         // historia
         story: [
@@ -2074,10 +1833,10 @@ id: [
 ],
         // obrazek
         img: [
-                "http://localhost/arbulanguage.com/img/fiszki1/2a.jpg"
+                "http://arbu-1dcc9.web.app/img/fiszki1/2a.jpg"
         ],
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "http://arbu-1dcc9.web.app/voice/music.mp4"
         ],
         // historia
         story: [
@@ -2116,10 +1875,10 @@ id: [
 ],
         // obrazek
         img: [
-                "http://localhost/arbulanguage.com/img/fiszki1/2a.jpg"
+                "http://arbu-1dcc9.web.app/img/fiszki1/2a.jpg"
         ],
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "http://arbu-1dcc9.web.app/voice/music.mp4"
         ],
         // historia
         story: [
@@ -2157,10 +1916,10 @@ id: [
 ],
         // obrazek
         img: [
-                "http://localhost/arbulanguage.com/img/fiszki1/2a.jpg"
+                "http://arbu-1dcc9.web.app/img/fiszki1/2a.jpg"
         ],
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "http://arbu-1dcc9.web.app/voice/music.mp4"
         ],
         // historia
         story: [
@@ -2198,7 +1957,7 @@ id: [
 ],
         // obrazek
         img: [
-                "http://localhost/arbulanguage.com/img/fiszki1/2a.jpg"
+                "http://arbu-1dcc9.web.app/img/fiszki1/53a.jpg"
         ],
         translate: "Pokryć samochód przed deszczem",
         translateb: "[Kubrir el coche antes de la lluvia]",
@@ -2246,10 +2005,10 @@ id: [
 ],
         // obrazek
         img: [
-                "http://localhost/arbulanguage.com/img/fiszki1/2a.jpg"
+                "http://arbu-1dcc9.web.app/img/fiszki1/54a.jpg"
         ],
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "http://arbu-1dcc9.web.app/voice/music.mp4"
         ],
         // historia
         story: [
@@ -2289,10 +2048,10 @@ id: [
 ],
         // obrazek
         img: [
-                "http://localhost/arbulanguage.com/img/fiszki1/2a.jpg"
+                "http://arbu-1dcc9.web.app/img/fiszki1/55a.jpg"
         ],
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "http://arbu-1dcc9.web.app/voice/music.mp4"
         ],
         // historia
         story: [
@@ -2332,10 +2091,10 @@ id: [
 ],
         // obrazek
         img: [
-                "http://localhost/arbulanguage.com/img/fiszki1/2a.jpg"
+                "http://arbu-1dcc9.web.app/img/fiszki1/56a.jpg"
         ],
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "http://arbu-1dcc9.web.app/voice/music.mp4"
         ],
         // historia
         story: [
@@ -2375,12 +2134,12 @@ id: [
 ],
         // obrazek
         img: [
-                "http://localhost/arbulanguage.com/img/fiszki1/2a.jpg"
+                "http://arbu-1dcc9.web.app/img/fiszki1/57a.jpg"
         ],
         translate: "Zmieniać umysł nowymi pomysłami",
         translateb: "[Cambiar la mente con nuevas ideas]",
-        srcWord: ["http://arbu-1dcc9.web.app/filmy/party.mp4", 'The Matrix Reloaded'],
-        srcWordimage: "http://arbu-1dcc9.web.app/filmy/party.png",
+        srcWord: ["http://arbu-1dcc9.web.app/filmy/esp/planning.mp4", 'Piękny Umysł (2001)'],
+        srcWordimage: "http://arbu-1dcc9.web.app/filmy/esp/planning.png",
         word: [
                 "http://arbu-1dcc9.web.app/voice/music.mp4"
         ],
@@ -2592,8 +2351,8 @@ id: [
         ],
         translate: "Przewidywać problemy i być zawsze przygotowanym",
         translateb: "[Prever problemas y estar preparado siempre]",
-        srcWord: ["http://arbu-1dcc9.web.app/filmy/party.mp4", 'The Matrix Reloaded'],
-        srcWordimage: "http://arbu-1dcc9.web.app/filmy/party.png",
+        srcWord: ["http://arbu-1dcc9.web.app/filmy/esp/predict.mp4", 'Resident Evil: The Final Chapter (2016)'],
+        srcWordimage: "http://arbu-1dcc9.web.app/filmy/esp/predict.png",
         word: [
                 "http://arbu-1dcc9.web.app/voice/music.mp4"
         ],
@@ -2851,8 +2610,8 @@ id: [
         ],
         translate: "Chronić prawa wszystkich zawsze",
         translateb: "[Proteher los derechos de todos siempre]",
-        srcWord: ["http://arbu-1dcc9.web.app/filmy/party.mp4", 'The Matrix Reloaded'],
-        srcWordimage: "http://arbu-1dcc9.web.app/filmy/party.png",
+        srcWord: ["http://arbu-1dcc9.web.app/filmy/esp/protect.mp4", 'Constantine (2005)'],
+        srcWordimage: "http://arbu-1dcc9.web.app/filmy/esp/protect.png",
         word: [
                 "http://arbu-1dcc9.web.app/voice/music.mp4"
         ],
@@ -3028,8 +2787,8 @@ id: [
         ],
         translate: "Opowiadać zabawne historie z dobrymi przyjaciółmi",
         translateb: "[Contar historias divertidas con buenos amigos]",
-        srcWord: ["http://localhost/arbulanguage.com/filmy/party.mp4", 'The Matrix Reloaded'],
-        srcWordimage: "http://localhost/arbulanguage.com/filmy/party.png",
+        srcWord: ["", ''],
+        srcWordimage: "",
         word: [
                 "http://localhost/arbulanguage.com/voice/music.mp4"
         ],
@@ -3285,8 +3044,8 @@ id: [
         ],
         translate: "Słuchać wesołej muzyki w samochodzie",
         translateb: "[Escuchar música alegre en el coche]",
-        srcWord: ["http://localhost/arbulanguage.com/filmy/party.mp4", 'The Matrix Reloaded'],
-        srcWordimage: "http://localhost/arbulanguage.com/filmy/party.png",
+        srcWord: ["", ''],
+        srcWordimage: "",
         word: [
                 "http://localhost/arbulanguage.com/voice/music.mp4"
         ],
@@ -3498,8 +3257,8 @@ id: [
         ],
         translate: "Przybywać wcześnie i cieszyć się porankiem",
         translateb: "[Llegar temprano y disfrutar la mañana]",
-        srcWord: ["http://localhost/arbulanguage.com/filmy/party.mp4", 'The Matrix Reloaded'],
-        srcWordimage: "http://localhost/arbulanguage.com/filmy/party.png",
+        srcWord: ["", ''],
+        srcWordimage: "",
         word: [
                 "http://localhost/arbulanguage.com/voice/music.mp4"
         ],
@@ -3711,8 +3470,8 @@ id: [
         ],
         translate: "Odrzucać oferty, które ci się nie podobają",
         translateb: "[Rehusar ofertas que no te gusten]",
-        srcWord: ["http://localhost/arbulanguage.com/filmy/party.mp4", 'The Matrix Reloaded'],
-        srcWordimage: "http://localhost/arbulanguage.com/filmy/party.png",
+        srcWord: ["", ''],
+        srcWordimage: "",
         word: [
                 "http://localhost/arbulanguage.com/voice/music.mp4"
         ],
@@ -3924,8 +3683,8 @@ id: [
         ],
         translate: "Trenować mocno, aby czuć się lepiej",
         translateb: "[Entrenar fuerte para sentirte mejor]",
-        srcWord: ["http://localhost/arbulanguage.com/filmy/party.mp4", 'The Matrix Reloaded'],
-        srcWordimage: "http://localhost/arbulanguage.com/filmy/party.png",
+        srcWord: ["", ''],
+        srcWordimage: "",
         word: [
                 "http://localhost/arbulanguage.com/voice/music.mp4"
         ],
@@ -4137,8 +3896,8 @@ id: [
         ],
         translate: "Wyjaśniać jasne odpowiedzi dzieciom",
         translateb: "[Explicar respuestas claras a los niños]",
-        srcWord: ["http://localhost/arbulanguage.com/filmy/party.mp4", 'The Matrix Reloaded'],
-        srcWordimage: "http://localhost/arbulanguage.com/filmy/party.png",
+        srcWord: ["", ''],
+        srcWordimage: "",
         word: [
                 "http://localhost/arbulanguage.com/voice/music.mp4"
         ],
