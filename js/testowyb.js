@@ -54,7 +54,7 @@ const fiszki = [
             "związki", "wychowanie"
         ],
         category2: ["osoby"],
-        category3: ["PresentSimple"]
+        category3: ["PresentSimple", "PresentSimplePodmiot"]
     },
     {
         id: [
@@ -96,7 +96,8 @@ const fiszki = [
             "czarny humor", "trendy",
             "związki", "muzyka"
         ],
-        category2: ["czasowniki", "osoby+czas"]
+        category2: ["czasownik"],
+                category3: ["PresentSimple", "PresentSimpleCzasownik"]
     },
     {
         id: [
@@ -201,7 +202,7 @@ const fiszki = [
             "http://arbu-1dcc9.web.app/src/the.wav"
         ],
         story: [
-            'Piłki do gry w kosza są <span class="adannotation" data-annotation="1">twar<u><b>de</u></b></span>. Sam ten sport <u><b>to</u></b> twarda gra',
+            'Piłki do gry w kosza są twar<span class="adannotation" data-annotation="1"><u><b>de</u></b></span>. Sam ten sport <u><b>to</u></b> twarda gra',
             'Na tym <span class="adannotation" data-annotation="1"><u><b>de</u></b></span>ptaku jest sporo drzewek, <u><b>to</u></b> urocze miejsce',
             '<u><b>To</u></b> ten <span class="adannotation" data-annotation="1"><u><b>De</u></b></span>partament Stanu prowadzi badania nad społecznym problemem',
             'Czasami politycy stosują <span class="adannotation" data-annotation="1"><u><b>de</u></b></span>magogię. Czyli co stosują? <u><b>Tę</u></b> <span class="adannotation" data-annotation="1"><u><b>de</u></b></span>magogię',
@@ -315,7 +316,7 @@ const fiszki = [
             "związki", "kulinaria"
         ],
         category2: ["osoby"],
-        category3: ["PresentSimple"]
+        category3: ["PresentSimple", "PresentSimplePodmiot"]
     },
     {
         id: [
@@ -361,7 +362,8 @@ const fiszki = [
             "lifestyle", "sukces",
             "geografia", "miasta"
         ],
-        category2: ["osoby+czas"]
+        category2: ["czasownik"],
+                category3: ["PresentSimple", "PresentSimpleCzasownik"]
     },
     {
         id: [
@@ -750,7 +752,7 @@ const fiszki = [
             "czarny humor", "dzieciństwo",
             "związki", "otoczenie"
         ],
-        category2: ["zaimkiosobowe"]
+        category2: ["zaimkiosobowe", "PresentSimplePodmiot"]
     },
     {
         id: [
@@ -841,7 +843,7 @@ const fiszki = [
             "związki", "rodzina"
         ],
         category2: ["osoby"],
-        category3: ["PresentSimple"]
+        category3: ["PresentSimple", "PresentSimplePodmiot"]
     },
     {
         id: [
@@ -1042,9 +1044,59 @@ const fiszki = [
         ],
         category2: ""
     },
+        {
+            id: [
+            25,
+            5,
+            9
+        ],
+        img: [
+            "http://arbu-1dcc9.web.app/img/fiszki1/5a.jpg",
+            "http://arbu-1dcc9.web.app/img/fiszki1/5b.jpg",
+            "http://arbu-1dcc9.web.app/img/fiszki1/5c.jpg",
+            "http://arbu-1dcc9.web.app/img/fiszki1/5d.jpg",
+            "http://arbu-1dcc9.web.app/img/fiszki1/5e.jpg"
+        ],
+        srcWord: ["http://arbu-1dcc9.web.app/filmy/cat.mp4", "Superman (1978)"],
+                        srcWord2: ["http://arbu-1dcc9.web.app/filmy/procedure.mp4", "Breaking Bad"],
+        srcWordimage: "http://arbu-1dcc9.web.app/filmy/cat.png",
+        word: [
+            "http://arbu-1dcc9.web.app/voice/party.mp4"
+        ],
+        translate: "Chłopak złapał kota i przytulił go",
+        translateb: "[De gaj kaczes (de) kat end hags it]",
+        translateb2: "[De gaj kaczes (de) kat]",
+                story: [
+            "Piłki do gry w kosza są twar<u><b>de</u></b>. Sam ten sport <u><b>to</u></b> twarda gra",
+            "Na tym <u><b>de</u></b>ptaku jest sporo drzewek, <u><b>to</u></b> urocze miejsce",
+            "<u><b>To</u></b> ten <u><b>De</u></b>partament Stanu prowadzi badania nad społecznym problemem",
+            "Czasami politycy stosują <u><b>de</u></b>magogię. Czyli co stosują? <u><b>Tę</u></b> <u><b>de</u></b>magogię",
+            "<u><b>To</u></b> co w naszej rodzinie istnieje to <u><b>de</u></b>mokracja"
+        ],
+        desc: "the[de] - to",
+        sentence1: [
+            "The"
+        ],
+        sentence: [
+            "The",
+            "guy",
+            "catches",
+            "the cat"
+        ],
+        key: "the",
+        category1: [
+            "sport", "koszykówka",
+            "natura", "czas wolny",
+            "nauka", "rząd",
+            "czarny humor", "polityka",
+            "związki", "rodzina"
+        ],
+        category2: [""],
+        category3: ["PresentSimple", "PresentSimplePodmiot"]
+    },
     {
         id: [
-            25,
+            26,
             5,
             9
         ],
@@ -1055,15 +1107,6 @@ const fiszki = [
             "http://arbu-1dcc9.web.app/img/fiszki1/25d.jpg",
             "http://arbu-1dcc9.web.app/img/fiszki1/25e.jpg"
         ],
-        srcWord: ["http://arbu-1dcc9.web.app/filmy/cat.mp4", "Superman (1978)"],
-                        srcWord2: ["http://arbu-1dcc9.web.app/filmy/procedure.mp4", "Breaking Bad"],
-        srcWordimage: "http://arbu-1dcc9.web.app/filmy/cat.png",
-        word: [
-            "http://arbu-1dcc9.web.app/voice/party.mp4"
-        ],
-        translate: "Chłopak złapał kota i przytulił go",
-        translateb: "[(De) gaj kaczes (de) kat end hags it]",
-        translateb2: "[(De) gaj kaczes (de) kat]",
         story: [
             "Ten <b><u>chłopak</b></u> nie jest mazgajem, jest wysportowany i pije przed treningiem <b><u>gaj</b></u>ner",
             "W leśnym <u><b>gaj</b></u>u jest <u><b>gaj</u></b>owy, który jest fajnym <u><b>gościem</u></b>",
@@ -1073,12 +1116,13 @@ const fiszki = [
         ],
         desc: "guy[gaj] - gościu",
         sentence1: [
-            "(The) guy"
+            "guy"
         ],
         sentence: [
-            "(The) guy",
+            "The",
+            "guy",
             "catches",
-            "(the) cat"
+            "the cat"
         ],
         key: "guy",
         category1: [
@@ -1089,11 +1133,11 @@ const fiszki = [
             "związki", "impreza"
         ],
         category2: ["osoby"],
-        category3: ["PresentSimple"]
+        category3: ["PresentSimple", "PresentSimplePodmiot"]
     },
     {
         id: [
-            26,
+            27,
             5,
             9
         ],
@@ -1128,11 +1172,13 @@ const fiszki = [
             "czarny humor", "zdrowie",
             "związki", "taniec"
         ],
-        category2: ["osoby+czas", "czasownik"]
+        category2: ["osoby+czas", "czasownik"],
+                category3: ["PresentSimple", "PresentSimpleCzasownik"]
+
     },
     {
         id: [
-            27,
+            28,
             5,
             9
         ],
@@ -1171,7 +1217,7 @@ const fiszki = [
     },
     {
         id: [
-            28,
+            29,
             5,
             10
         ],
@@ -1212,7 +1258,7 @@ const fiszki = [
     },
     {
         id: [
-            29,
+            30,
             5,
             10
         ],
@@ -1251,7 +1297,7 @@ const fiszki = [
     },
     {
         id: [
-            30,
+            31,
             5,
             10
         ],
@@ -1282,7 +1328,7 @@ const fiszki = [
     },
     {
         id: [
-            31,
+            32,
             6,
             11
         ],
@@ -1329,7 +1375,7 @@ const fiszki = [
     },
     {
         id: [
-            32,
+            33,
             6,
             11
         ],
@@ -1368,7 +1414,7 @@ const fiszki = [
     },
     {
         id: [
-            33,
+            34,
             6,
             11
         ],
@@ -1389,7 +1435,7 @@ const fiszki = [
     },
     {
         id: [
-            34,
+            35,
             6,
             12
         ],
@@ -1411,7 +1457,7 @@ const fiszki = [
     },
     {
         id: [
-            35,
+            36,
             6,
             12
         ],
@@ -1432,7 +1478,7 @@ const fiszki = [
     },
     {
         id: [
-            36,
+            37,
             6,
             12
         ],
@@ -1453,7 +1499,7 @@ const fiszki = [
     },
     {
         id: [
-            37,
+            38,
             7,
             13
         ],
@@ -1490,11 +1536,11 @@ const fiszki = [
             "nauka", "pory roku"
         ],
         category2: ["zaimkiosobowe"],
-        category3: ["PresentContinuous"]
+        category3: ["PresentContinous"]
     },
     {
         id: [
-            38,
+            39,
             7,
             13
         ],
@@ -1515,7 +1561,7 @@ const fiszki = [
     },
     {
         id: [
-            39,
+            40,
             7,
             13
         ],
@@ -1536,7 +1582,7 @@ const fiszki = [
     },
     {
         id: [
-            40,
+            41,
             7,
             14
         ],
@@ -1558,7 +1604,7 @@ const fiszki = [
     },
     {
         id: [
-            41,
+            42,
             7,
             14
         ],
@@ -1579,7 +1625,7 @@ const fiszki = [
     },
     {
         id: [
-            42,
+            43,
             7,
             14
         ],
@@ -1600,7 +1646,7 @@ const fiszki = [
     },
     {
         id: [
-            43,
+            44,
             8,
             15
         ],
@@ -1645,7 +1691,7 @@ const fiszki = [
     },
     {
         id: [
-            44,
+            45,
             8,
             15
         ],
@@ -1666,7 +1712,7 @@ const fiszki = [
     },
     {
         id: [
-            45,
+            46,
             8,
             15
         ],
@@ -1687,7 +1733,7 @@ const fiszki = [
     },
     {
         id: [
-            46,
+            47,
             8,
             16
         ],
@@ -1727,13 +1773,13 @@ const fiszki = [
     },
     {
         id: [
-            47,
+            48,
             8,
             16
         ],
         img: [
-            "http://localhost/arbulanguage.com/img/fiszki1/47a.jpg",
-            "http://localhost/arbulanguage.com/img/fiszki1/106b.jpg"
+            "http://arbu-1dcc9.web.app/img/fiszki1/47a.jpg",
+            "http://arbu-1dcc9.web.app/img/fiszki1/106b.jpg"
         ],
         story: [
             "<b><u>Jego</b></u> <b><u>his</b></u>toria jest bardzo atrakcyjna i bujna",
@@ -1756,7 +1802,7 @@ const fiszki = [
     },
     {
         id: [
-            48,
+            49,
             8,
             16
         ],
@@ -1776,7 +1822,7 @@ const fiszki = [
     },
     {
         id: [
-            49,
+            50,
             9,
             17
         ],
@@ -1812,11 +1858,11 @@ const fiszki = [
             "nauka", "pory roku"
         ],
         category2: ["zaimkiosobowe"],
-        category3: ["PresentContinuous"]
+        category3: ["PresentContinous"]
     },
     {
         id: [
-            50,
+            51,
             9,
             17
         ],
@@ -1838,12 +1884,18 @@ const fiszki = [
     },
     {
         id: [
-            51,
+            52,
             9,
             17
         ],
-        img: "http://arbu-1dcc9.web.app/img/fiszki1/51a.jpg",
-        story: "<b><u>Twoje</b></u> <b><u>ar</b></u>gumenty są bardzo przemawiające",
+        img: [
+                    "http://arbu-1dcc9.web.app/img/fiszki1/51a.jpg",
+                    "http://arbu-1dcc9.web.app/img/fiszki1/220a.jpg"
+],
+        story: [
+            "<b><u>Twoje</b></u> <b><u>ar</b></u>gumenty są bardzo przemawiające",
+            "Papuga <u><b>ar</u></b>a i skowronek <u><b>są</u></b> zaprzyjaźnieni. Mam nadzieję, że ty <u><b>jesteś</u></b> z tego powodu w dobrym nastroju",
+        ],
         desc: "are[ar] - jest/są - gramatyka",
         sentence1: [
             "are"
@@ -1860,7 +1912,7 @@ const fiszki = [
     },
         {
         id: [
-            52,
+            53,
             9,
             17
         ],
@@ -1882,7 +1934,7 @@ const fiszki = [
     },
     {
         id: [
-            53,
+            54,
             9,
             18
         ],
@@ -1905,12 +1957,18 @@ const fiszki = [
     },
     {
         id: [
-            54,
+            55,
             9,
             18
         ],
-        img: "http://arbu-1dcc9.web.app/img/fiszki1/54a.jpg",
-        story: "Bardzo <b><u>duży</b></u> samolot M<b><u>ig</b></u> właśnie przeleciał na niebie",
+        img: [
+            "http://arbu-1dcc9.web.app/img/fiszki1/54a.jpg",
+            "http://arbu-1dcc9.web.app/img/fiszki1/170a.jpg"
+        ],
+        story: [
+            "<b><u>B</b></u>ardzo <b><u>duży</b></u> samolot M<b><u>ig</b></u> właśnie przeleciał na niebie",
+             "<b><u>Big</b></u>amista ma <b><u>duży</b></u> popęd seksualny" 
+        ],
         desc: "big[big] - duży, duża",
         sentence2: [
             "big"
@@ -1926,7 +1984,7 @@ const fiszki = [
     },
     {
         id: [
-            55,
+            56,
             9,
             18
         ],
@@ -1947,7 +2005,7 @@ const fiszki = [
     },
     {
         id: [
-            56,
+            57,
             10,
             19
         ],
@@ -1984,11 +2042,11 @@ const fiszki = [
             "nauka", "pory roku"
         ],
         category2: ["zaimkiosobowe"],
-        category3: ["PresentSimple"]
+        category3: ["PresentSimple", "PresentSimplePodmiot"]
     },
     {
         id: [
-            57,
+            58,
             10,
             19
         ],
@@ -2005,11 +2063,12 @@ const fiszki = [
         ],
         key: "dog",
         category1: "natura",
-        category2: ["podmiot+czas", "animals"]
+        category2: ["podmiot+czas", "animals"],
+        category3: ["PresentSimple", "PresentSimplePodmiot"]
     },
     {
         id: [
-            58,
+            59,
             10,
             19
         ],
@@ -2048,11 +2107,12 @@ const fiszki = [
             "lifestyle", "sukces",
             "geografia", "miasta"
         ],
-        category2: ["podmiot+czas", "czasownik"]
+        category2: ["podmiot+czas", "czasownik"],
+                        category3: ["PresentSimple", "PresentSimpleCzasownik"]
     },
     {
         id: [
-            59,
+            60,
             10,
             20
         ],
@@ -2074,7 +2134,7 @@ const fiszki = [
     },
     {
         id: [
-            60,
+            61,
             10,
             20
         ],
@@ -2095,7 +2155,7 @@ const fiszki = [
     },
     {
         id: [
-            61,
+            62,
             10,
             20
         ],
@@ -2116,7 +2176,7 @@ const fiszki = [
     },
     {
         id: [
-            62,
+            63,
             11,
             21
         ],
@@ -2164,7 +2224,7 @@ const fiszki = [
     },
     {
         id: [
-            63,
+            64,
             11,
             21
         ],
@@ -2187,7 +2247,7 @@ const fiszki = [
     },
     {
         id: [
-            64,
+            65,
             11,
             21
         ],
@@ -2208,7 +2268,7 @@ const fiszki = [
     },
     {
         id: [
-            65,
+            66,
             11,
             22
         ],
@@ -2250,7 +2310,7 @@ const fiszki = [
     },
     {
         id: [
-            66,
+            67,
             11,
             22
         ],
@@ -2271,7 +2331,7 @@ const fiszki = [
     },
     {
         id: [
-            67,
+            68,
             11,
             22
         ],
@@ -2292,7 +2352,7 @@ const fiszki = [
     },
     {
         id: [
-            68,
+            69,
             12,
             23
         ],
@@ -2340,7 +2400,7 @@ const fiszki = [
     },
     {
         id: [
-            69,
+            70,
             12,
             23
         ],
@@ -2361,7 +2421,7 @@ const fiszki = [
     },
     {
         id: [
-            70,
+            71,
             12,
             23
         ],
@@ -2382,7 +2442,7 @@ const fiszki = [
     },
     {
         id: [
-            71,
+            72,
             12,
             24
         ],
@@ -2391,7 +2451,12 @@ const fiszki = [
             "http://arbu-1dcc9.web.app/img/fiszki1/10b.jpg",
             "http://arbu-1dcc9.web.app/img/fiszki1/10c.jpg",
             "http://arbu-1dcc9.web.app/img/fiszki1/10d.jpg",
-            "http://arbu-1dcc9.web.app/img/fiszki1/10e.jpg"
+            "http://arbu-1dcc9.web.app/img/fiszki1/10e.jpg",
+            "http://arbu-1dcc9.web.app/img/fiszki1/13a.jpg",
+            "http://arbu-1dcc9.web.app/img/fiszki1/13b.jpg",
+            "http://arbu-1dcc9.web.app/img/fiszki1/13c.jpg",
+            "http://arbu-1dcc9.web.app/img/fiszki1/13d.jpg",
+            "http://arbu-1dcc9.web.app/img/fiszki1/13e.jpg"
         ],
         translateb2: "[tu bi frendli]",
         story: [
@@ -2399,15 +2464,20 @@ const fiszki = [
             'Ra<span class="adannotation" data-annotation="1"><u><b>tu</u></b></span>nku, ta droga poprowadziła nas <u><b>ku</u></b> wężom',
             '<span class="adannotation" data-annotation="1"><b><u>Tu</b></u></span> w Egipcie Totem Faraona to pamiątka <u><b>ku</u></b> jego czci',
             '<span class="adannotation" data-annotation="1"><b><u>Tu</b></u></span> <u><b>dla</u></b> Ciebie jest bardzo dobra aktywność, <u><b>to</u></b>talnie nie brakuje mi nic w drodze <u><b>ku</u></b>t mistrza',
-            'Aaaa.. <span class="adannotation" data-annotation="1"><b><u>tu</b></u></span> to jest, <b><u>ku</b></u> szczęściu znalazłem to..'
+            'Aaaa.. <span class="adannotation" data-annotation="1"><b><u>tu</b></u></span> to jest, <b><u>ku</b></u> szczęściu znalazłem to..',
+            "<u><b>Bi</u></b>egam dobrze i podczas biegania odczuwam całkowicie inny stan <u><b>bycia</u></b>",
+            "Jestestwo lisa <u><b>Bi</u></b>ll i łabędzia <u><b>Bi</u></b>anka polega na jedzeniu bigosu. Lisek mówi do Bianki: ja lubie <u><b>być</u></b> smakoszem bigosu",
+            "<u><b>Bi</u></b>ologia jest taką dziedziną, w której warto jako badacz <u><b>być</u></b> zaangażowanym",
+            "<u><b>Bi</u></b>egnę w zawodach i chcę <u><b>być</u></b> najlepszy, ale natrafiłem na słupa i wybiłem jedynkę",
+            "<u><b>Być</u></b> <u><b>bi</u></b>ednym to nie to samo co być początkującym milionerem",
+            "<u><b>Bi</u></b>lion dollarów musi <u><b>być</u></b> dużą kwotą"
         ],
         desc: "to[tu] - do, ku",
         sentence2: [
-            "to"
+            "to be"
         ],
         sentence: [
-            "to",
-            "be",
+            "to be",
             "friendly"
         ],
         key: "to",
@@ -2416,46 +2486,7 @@ const fiszki = [
             "natura", "zoologia",
             "nauka", "historia",
             "czarny humor", "sport",
-            "związki", "czas wolny"
-        ],
-        category2: "czas wolny",
-        category1b: "związki",
-        category2b: "czas wolny, podróże",
-        category1c: "czarny humor",
-        category2c: "rozrywka"
-    },
-    {
-        id: [
-            72,
-            12,
-            24
-        ],
-        img: [
-            "http://arbu-1dcc9.web.app/img/fiszki1/13a.jpg",
-            "http://arbu-1dcc9.web.app/img/fiszki1/13b.jpg",
-            "http://arbu-1dcc9.web.app/img/fiszki1/13c.jpg",
-            "http://arbu-1dcc9.web.app/img/fiszki1/13d.jpg",
-            "http://arbu-1dcc9.web.app/img/fiszki1/13e.jpg"
-        ],
-                story: [
-            "<u><b>Bi</u></b>egam dobrze i podczas biegania odczuwam całkowicie inny stan <u><b>bycia</u></b>",
-            "Jestestwo lisa <u><b>Bi</u></b>ll i łabędzia <u><b>Bi</u></b>anka polega na jedzeniu bigosu. Lisek mówi do Bianki: ja lubie <u><b>być</u></b> smakoszem bigosu",
-            "<u><b>Bi</u></b>ologia jest taką dziedziną, w której warto jako badacz <u><b>być</u></b> zaangażowanym",
-            "<u><b>Bi</u></b>egnę w zawodach i chcę <u><b>być</u></b> najlepszy, ale natrafiłem na słupa i wybiłem jedynkę",
-            "<u><b>Być</u></b> <u><b>bi</u></b>ednym to nie to samo co być początkującym milionerem",
-            "<u><b>Bi</u></b>lion dollarów musi <u><b>być</u></b> dużą kwotą"
-        ],
-        desc: "be[bi] - być",
-        sentence2: [
-            "be"
-        ],
-        sentence: [
-            "to",
-            "be",
-            "friendly"
-        ],
-        key: "be",
-        category1: [
+            "związki", "czas wolny",
             "sport", "film",
             "natura", "morze",
             "nauka", "zdrowie",
@@ -2465,7 +2496,9 @@ const fiszki = [
         ],
         category2: "czas wolny",
         category1b: "związki",
-        category2b: "finanse"
+        category2b: "czas wolny, podróże",
+        category1c: "czarny humor",
+        category2c: "rozrywka"
     },
     {
         id: [
@@ -2533,7 +2566,7 @@ const fiszki = [
             "socjologia", "statystyki"
         ],
         category2: [""],
-        category3: ["PresentSimple"]
+        category3: ["PresentSimple", "PresentSimplePodmiot"]
     },
     {
         id: [
@@ -2560,7 +2593,8 @@ const fiszki = [
             "nauka", "tresura",
             "natura", "zwierzęta"
         ],
-        category2: ["animals"]
+        category2: ["animals"],
+        category3: ["PresentSimple", "PresentSimplePodmiot"]
     },
     {
         id: [
@@ -2581,7 +2615,8 @@ const fiszki = [
         ],
         key: "can",
         category1: "natura",
-        category2: ["czasownik"]
+        category2: ["czasownik"],
+                                category3: ["PresentSimple", "PresentSimpleCzasownik"]
     },
     {
         id: [
@@ -3002,7 +3037,7 @@ const fiszki = [
         ],
         sentence: [
             "He",
-            "dares"
+            "dares to"
         ],
         key: "he",
                 category1: [
@@ -3013,7 +3048,7 @@ const fiszki = [
             "związki", "kulinaria"
         ],
         category2: ["osoby"],
-        category3: ["PresentSimple"]
+        category3: ["PresentSimple", "PresentSimplePodmiot"]
     },
     {
         id: [
@@ -3031,7 +3066,7 @@ const fiszki = [
         ],
         desc: "dares[ders] - odważyć się",
         sentence1: [
-            "dares"
+            "dares to"
         ],
         sentence: [
             "He",
@@ -3042,50 +3077,12 @@ const fiszki = [
             "rozrywka", "impreza",
             "sport", "warunki sportowe"
         ],
-        category2: ["czasownik"]
+        category2: ["czasownik"],
+                category3: ["PresentSimple", "PresentSimpleCzasownik"]
     },
     {
         id: [
             93,
-            16,
-            32
-        ],
-        img: [
-            "http://arbu-1dcc9.web.app/img/fiszki1/10a.jpg",
-            "http://arbu-1dcc9.web.app/img/fiszki1/10b.jpg",
-            "http://arbu-1dcc9.web.app/img/fiszki1/10c.jpg",
-            "http://arbu-1dcc9.web.app/img/fiszki1/10d.jpg",
-            "http://arbu-1dcc9.web.app/img/fiszki1/10e.jpg"
-        ],
-        story: [
-            '<u><b>Dla</u></b> spor<span class="adannotation" data-annotation="1"><u><b>tu</b></u></span> przeszedłem się pieszo <u><b>ku</u></b> parku',
-            'Ra<span class="adannotation" data-annotation="1"><u><b>tu</u></b></span>nku, ta droga poprowadziła nas <u><b>ku</u></b> wężom',
-            '<span class="adannotation" data-annotation="1"><b><u>Tu</b></u></span> w Egipcie Totem Faraona to pamiątka <u><b>ku</u></b> jego czci',
-            '<span class="adannotation" data-annotation="1"><b><u>Tu</b></u></span> <u><b>dla</u></b> Ciebie jest bardzo dobra aktywność, <u><b>to</u></b>talnie nie brakuje mi nic w drodze <u><b>ku</u></b>t mistrza',
-            'Aaaa.. <span class="adannotation" data-annotation="1"><b><u>tu</b></u></span> to jest, <b><u>ku</b></u> szczęściu znalazłem to..'
-        ],
-        desc: "to[tu] - do, ku",
-        sentence1: [
-            "to"
-        ],
-        sentence: [
-            "to",
-            "approach",
-            "her"
-        ],
-        key: "to",
-        category1: [
-            "sport", "czas wolny",
-            "natura", "zoologia",
-            "nauka", "historia",
-            "czarny humor", "sport",
-            "związki", "czas wolny"
-        ],
-        category2: "transport, "
-    },
-    {
-        id: [
-            94,
             16,
             32
         ],
@@ -3106,7 +3103,7 @@ const fiszki = [
     },
     {
         id: [
-            95,
+            94,
             16,
             32
         ],
@@ -3127,7 +3124,7 @@ const fiszki = [
     },
     {
         id: [
-            96,
+            95,
             17,
             33
         ],
@@ -3153,7 +3150,7 @@ const fiszki = [
     },
     {
         id: [
-            97,
+            96,
             17,
             33
         ],
@@ -3196,7 +3193,7 @@ const fiszki = [
     },
     {
         id: [
-            98,
+            97,
             17,
             33
         ],
@@ -3217,7 +3214,7 @@ const fiszki = [
     },
     {
         id: [
-            99,
+            98,
             17,
             34
         ],
@@ -3256,7 +3253,7 @@ const fiszki = [
     },
     {
         id: [
-            100,
+            99,
             17,
             34
         ],
@@ -3279,7 +3276,7 @@ const fiszki = [
     },
     {
         id: [
-            101,
+            100,
             17,
             34
         ],
@@ -3300,7 +3297,7 @@ const fiszki = [
     },
     {
         id: [
-            102,
+            101,
             18,
             35
         ],
@@ -3328,7 +3325,8 @@ const fiszki = [
         ],
         sentence: [
             "He",
-            "does not",
+            "does",
+            "not",
             "obey"
         ],
         key: "he",
@@ -3344,19 +3342,42 @@ const fiszki = [
     },
     {
         id: [
+            102,
+            18,
+            35
+        ],
+        img: "http://arbu-1dcc9.web.app/img/fiszki1/103a.jpg",
+        story: "Leoni<b><u>das</b></u> król spartan odpala k<b><u>not</b></u> świeczki, bo <b><u>nie jest</b></u> odpalona",
+        desc: "does[das] - nie jest",
+        sentence1: [
+            "does"
+        ],
+        sentence: [
+            "He",
+            "does",
+            "not",
+            "obey"
+        ],
+        key: "does not",
+        category1: "nauka",
+        category2: ["osoby+czas", "podmiot+czas"]
+    },
+        {
+        id: [
             103,
             18,
             35
         ],
         img: "http://arbu-1dcc9.web.app/img/fiszki1/103a.jpg",
         story: "Leoni<b><u>das</b></u> król spartan odpala k<b><u>not</b></u> świeczki, bo <b><u>nie jest</b></u> odpalona",
-        desc: "does not[das not] - nie jest",
+        desc: "not[not] - nie",
         sentence1: [
-            "does not"
+            "does"
         ],
         sentence: [
             "He",
-            "does not",
+            "does",
+            "not",
             "obey"
         ],
         key: "does not",
@@ -3377,7 +3398,8 @@ const fiszki = [
         ],
         sentence: [
             "He",
-            "does not",
+            "does",
+            "not",
             "obey"
         ],
         key: "obey",
@@ -3512,7 +3534,7 @@ const fiszki = [
             "pasje", "muzyka klasyczna"
         ],
         category2: [""],
-        category3: ["PresentSimple"]
+        category3: [""]
     },
     {
         id: [
@@ -3533,7 +3555,7 @@ const fiszki = [
         ],
         key: "city",
         category1: "nauka",
-        category2: ["podmiot+czas"]
+        category2: ["PresentSimple"]
     },
     {
         id: [
@@ -3692,7 +3714,7 @@ const fiszki = [
             "związki", "okazje"
         ],
         category2: ["zaimkiosobowe"],
-        category3: ["PresentSimple"]
+        category3: ["PresentSimple", "PresentSimplePodmiot"]
     },
     {
         id: [
@@ -3713,7 +3735,8 @@ const fiszki = [
         ],
         key: "students",
         category1: "nauka",
-        category2: ["osoby+czas", "podmiot+czas"]
+        category2: ["osoby+czas", "podmiot+czas"],
+        category3: ["PresentSimple", "PresentSimplePodmiot"]
     },
     {
         id: [
@@ -3734,7 +3757,8 @@ const fiszki = [
         ],
         key: "have to",
         category1: "nauka",
-        category2: ["czasownik", "podmiot+czas"]
+        category2: ["czasownik", "podmiot+czas"],
+                category3: ["PresentSimple", "PresentSimpleCzasownik"]
     },
     {
         id: [
@@ -4238,8 +4262,8 @@ const fiszki = [
             "http://arbu-1dcc9.web.app/img/fiszki1/5d.jpg",
             "http://arbu-1dcc9.web.app/img/fiszki1/5e.jpg"
         ],
-        translate: "Cena za złamanie zasad to moja człowiecza twarz",
-        translateb: "[Pipul tinks dat hi is rajt]",
+        translate: "Cena za złamanie zasad jest wysoka",
+        translateb: "[De prajs for brejkin de ruls is haj]",
         srcWord: ["http://arbu-1dcc9.web.app/filmy/humanface.mp4", "Yes Man(2008)", "Komedia"],
         srcWordimage: "http://arbu-1dcc9.web.app/filmy/humanface.png",
                 story: [
@@ -4270,7 +4294,7 @@ const fiszki = [
             "związki", "rodzina"
         ],
         category2: ["podmiot+czas"],
-        category3: ["PresentSimple"]
+        category3: ["PresentSimple", "PresentSimplePodmiot"]
     },
     {
         id: [
@@ -4294,7 +4318,8 @@ const fiszki = [
         ],
         key: "price",
         category1: "nauka",
-        category2: "transport, "
+        category2: "transport",
+                category3: ["PresentSimple", "PresentSimplePodmiot"]
     },
     {
         id: [
@@ -4453,7 +4478,8 @@ const fiszki = [
             "lifestyle", "sukces",
             "geografia", "miasta"
         ],
-        category2: ["podmiot+czas", "czasownik"]
+        category2: ["podmiot+czas", "czasownik"],
+        category3: ["PresentSimple", "PresentSimpleCzasownik"]
     },
     {
         id: [
@@ -4473,7 +4499,8 @@ const fiszki = [
         ],
         key: "my",
         category1: "nauka",
-        category2: [""]
+        category2: [""],
+                category3: ["PresentSimple"]
     },
     {
         id: [
@@ -4764,7 +4791,7 @@ const fiszki = [
             "związki", "rodzina"
         ],
         category2: [""],
-        category3: ["Past Simple"]
+        category3: ["PastSimple"]
     },
     {
         id: [
@@ -5053,7 +5080,7 @@ const fiszki = [
             "związki", "rodzina"
         ],
         category2: "transport",
-        category3: ["Past Simple"]
+        category3: ["PastSimple"]
     },
     {
         id: [
@@ -5208,8 +5235,14 @@ const fiszki = [
             27,
             54
         ],
-        img: "http://arbu-1dcc9.web.app/img/fiszki1/170a.jpg",
-        story: "<b><u>Big</b></u>amista ma <b><u>duży</b></u> popęd seksualny",
+        img: [
+            "http://arbu-1dcc9.web.app/img/fiszki1/54a.jpg",
+            "http://arbu-1dcc9.web.app/img/fiszki1/170a.jpg"
+        ],
+        story: [
+            "Bardzo <b><u>duży</b></u> samolot M<b><u>ig</b></u> właśnie przeleciał na niebie",
+             "<b><u>Big</b></u>amista ma <b><u>duży</b></u> popęd seksualny" 
+        ],
         desc: "big[big] - duży/duża/duże",
         sentence2: [
             "(a) big"
@@ -5776,7 +5809,7 @@ const fiszki = [
         ],
         key: "you",
         category1: "nauka",
-        category2: ["spojniki"]
+        category2: [""]
     },
     {
         id: [
@@ -5827,7 +5860,7 @@ const fiszki = [
         ],
         key: "offers",
         category1: "nauka",
-        category2: ["spojniki", "osoby+czas"]
+        category2: ["", "osoby+czas"]
     },
     {
         id: [
@@ -5850,7 +5883,7 @@ const fiszki = [
         ],
         key: "some",
         category1: "nauka",
-        category2: ["spojniki"]
+        category2: [""]
     },
     {
         id: [
@@ -5873,7 +5906,7 @@ const fiszki = [
         ],
         key: "you",
         category1: "nauka",
-        category2: ["spojniki"]
+        category2: [""]
     },
     {
         id: [
@@ -5896,7 +5929,7 @@ const fiszki = [
         ],
         key: "about",
         category1: ["rozrywka", "imprezy"],
-        category2: ["spojniki"]
+        category2: [""]
     },
     {
         id: [
@@ -5919,7 +5952,7 @@ const fiszki = [
         ],
         key: "how",
         category1: "nauka",
-        category2: ["spojniki"]
+        category2: [""]
     },
     {
         id: [
@@ -5983,7 +6016,7 @@ const fiszki = [
         ],
         key: "help",
         category1: "nauka",
-        category2: ["spojniki"]
+        category2: [""]
     },
     {
         id: [
@@ -6024,7 +6057,7 @@ const fiszki = [
             "czarny humor", "dzieciństwo",
             "związki", "otoczenie"
         ],
-        category2: ["spojniki"]
+        category2: ["osoby"]
     },
     {
         id: [
@@ -6090,7 +6123,8 @@ const fiszki = [
             "czarny humor", "dzieciństwo",
             "związki", "otoczenie"
         ],
-        category2: ["osoby"]
+        category2: ["osoby"],
+        category3: ["PastSimple"]
     },
             {
         id: [
@@ -6111,7 +6145,7 @@ const fiszki = [
         ],
         key: "your",
         category1: "nauka",
-        category2: ["osoby"]
+        category2: [""]
     },
                 {
         id: [
@@ -6132,7 +6166,7 @@ const fiszki = [
         ],
         key: "your",
         category1: "nauka",
-        category2: ["osoby"]
+        category2: [""]
     },
                     {
         id: [
@@ -6153,7 +6187,7 @@ const fiszki = [
         ],
         key: "made",
         category1: "nauka",
-        category2: ["osoby"]
+        category2: [""]
     },
                             {
         id: [
@@ -6206,7 +6240,7 @@ const fiszki = [
         ],
         key: "day",
         category1: "nauka",
-        category2: ["osoby"]
+        category2: [""]
     },
                                 {
         id: [
@@ -6248,7 +6282,8 @@ const fiszki = [
             "czarny humor", "muzyka",
             "związki", "rodzina"
         ],
-        category2: ["osoby"]
+        category2: ["osoby"],
+        category3: ["PresentSimple"]
     },
                                     {
         id: [
@@ -6268,7 +6303,7 @@ const fiszki = [
         ],
         key: "day",
         category1: "nauka",
-        category2: ["osoby"]
+        category2: [""]
     },
                                         {
         id: [
@@ -6328,7 +6363,7 @@ const fiszki = [
         ],
         key: "assistance",
         category1: "nauka",
-        category2: ["osoby"]
+        category2: [""]
     },
                                             {
         id: [
@@ -6349,7 +6384,7 @@ const fiszki = [
         ],
         key: "today",
         category1: "nauka",
-        category2: ["osoby"]
+        category2: [""]
     },
                                                 {
         id: [
@@ -6390,7 +6425,8 @@ const fiszki = [
             "nauka", "geniusze",
             "pasje", "muzyka klasyczna"
         ],
-        category2: ["osoby"]
+        category2: [""],
+        category3: ["PresentSimple"]
     },
                                                     {
         id: [
@@ -6412,7 +6448,7 @@ const fiszki = [
         ],
         key: "flower",
         category1: "nauka",
-        category2: ["osoby"]
+        category2: [""]
     },
                                                         {
         id: [
@@ -6456,7 +6492,7 @@ const fiszki = [
             "lifestyle", "sukces",
             "geografia", "miasta"
         ],
-        category2: ["osoby"]
+        category2: ["o"]
     },
                                                             {
         id: [
@@ -6478,7 +6514,7 @@ const fiszki = [
         ],
         key: "flower",
         category1: "nauka",
-        category2: ["osoby"]
+        category2: [""]
     },
                                                                 {
         id: [
@@ -6501,7 +6537,7 @@ const fiszki = [
         ],
         key: "but",
         category1: "nauka",
-        category2: ["osoby"]
+        category2: [""]
     },
                                                                     {
         id: [
@@ -6524,7 +6560,7 @@ const fiszki = [
         ],
         key: "all",
         category1: "nauka",
-        category2: ["osoby"]
+        category2: [""]
     },
                                                                         {
         id: [
@@ -6555,9 +6591,15 @@ const fiszki = [
             33,
             66
         ],
-        img: "http://arbu-1dcc9.web.app/img/fiszki1/220a.jpg",
-        story: "Papuga <u><b>ar</u></b>a i skowronek <u><b>są</u></b> zaprzyjaźnieni. Mam nadzieję, że ty <u><b>jesteś</u></b> z tego powodu w dobrym nastroju",
-        desc: "are[ar] - są",
+        img: [
+                    "http://arbu-1dcc9.web.app/img/fiszki1/51a.jpg",
+                    "http://arbu-1dcc9.web.app/img/fiszki1/220a.jpg"
+],
+        story: [
+            "<b><u>Twoje</b></u> <b><u>ar</b></u>gumenty są bardzo przemawiające",
+            "Papuga <u><b>ar</u></b>a i skowronek <u><b>są</u></b> zaprzyjaźnieni. Mam nadzieję, że ty <u><b>jesteś</u></b> z tego powodu w dobrym nastroju",
+        ],
+        desc: "are[ar] - jest/są - gramatyka",
         sentence2: [
             "are"
         ],
@@ -6570,9 +6612,9 @@ const fiszki = [
         ],
         key: "are",
         category1: "nauka",
-        category2: ["osoby"]
+        category2: [""]
     },
-                                                                                {
+{
         id: [
             221,
             33,
@@ -6590,6 +6632,1225 @@ const fiszki = [
             "the others",
             "are",
             "blue"
+        ],
+        key: "blue",
+        category1: "nauka",
+        category2: [""]
+    },
+    {
+        id: [
+            222,
+            34,
+            67
+        ],
+        img: "http://arbu-1dcc9.web.app/img/fiszki1/96a.jpg",
+                translate: "Ona teraz czyta nową książkę",
+        translateb: "[Szi is riding e nju buk nał]",
+                translateb2: "[Ewrybody hes fan]",
+        srcWord: ["http://arbu-1dcc9.web.app/filmy/shebook.mp4", "Harry Potter i Komnata Tajemnic (2002)"],
+        srcWordimage: "http://arbu-1dcc9.web.app/filmy/shebook.png",
+        story: "<u><b>Ona</u></b> - Patrycja ma ri<u><b>szi</u></b> to naturalny antyoksydant",
+        desc: "she[szi] - niebieski/niebieskie",
+        sentence1: [
+            "She"
+        ],
+        sentence: [
+            "She",
+            "is",
+            "reading"
+        ],
+        key: "blue",
+        category1: "nauka",
+        category2: ["osoby"],
+                category3: ["PresentContinous"]
+    },
+        {
+        id: [
+            223,
+            34,
+            67
+        ],
+        img: [
+            "http://arbu-1dcc9.web.app/img/fiszki1/8a.jpg",
+            "http://arbu-1dcc9.web.appimg/fiszki1/8b.jpg",
+            "http://arbu-1dcc9.web.app/img/fiszki1/8c.jpg",
+            "http://arbu-1dcc9.web.app/img/fiszki1/8d.jpg",
+            "http://arbu-1dcc9.web.app/img/fiszki1/8e.jpg"
+        ],
+        word: [
+            "http://arbu-1dcc9.web.app/src/is.wav"
+        ],
+        story: [
+            'Gdy ktoś szybko biega obok nas to <u><b>jest</u></b> w popłochu, słyszymy tylko św<span class="adannotation" data-annotation="1"><u><b>is</u></b></span>t',
+            'L<span class="adannotation" data-annotation="1"><u><b>is</u></b></span> <u><b>jest</u></b> dzisiaj listonoszem',
+            '<span class="adannotation" data-annotation="1"><b><u>Is</b></u></span>tota tego przekazu <b><u>jest</b></u> bardzo ważna',
+            'L<span class="adannotation" data-annotation="1"><b><u>is</b></u></span> jest bardzo przebiegły, ale <b><u>jest</b></u> też wilk, który go zje',
+            'Johny Bravo <u><b>jest</b></u> m<span class="adannotation" data-annotation="1"><u><b>is</b></u></span>trzem relacji damsko-męskich',
+            'Lu<span class="adannotation" data-annotation="1"><b><u>is</b></u></span> <b><u>jest</b></u> bardzo zadowolony ze swojej pracy',
+            '<span class="adannotation" data-annotation="1"><b><u>Is</b></u></span>tambuł <b><u>jest</b></u> fajnym miastem'
+        ],
+        desc: "is[is] - niebieski/niebieskie",
+        sentence1: [
+            "is"
+        ],
+        sentence: [
+            "She",
+            "is",
+            "reading"
+        ],
+        key: "blue",
+        category1: "nauka",
+        category2: [""]
+    },
+        {
+        id: [
+            224,
+            34,
+            67
+        ],
+        img: "http://arbu-1dcc9.web.app/img/fiszki1/224a.jpg",
+        story: "Franek czyta o stanie Flo<b><u>rid</b></u>a i cieszy sie nauką. Do Florydy czasami wyjeżdza na wakacje Ewa M<u><b>ing</u></b>e",
+        desc: "reading[riding] - niebieski/niebieskie",
+        sentence1: [
+            "reading"
+        ],
+        sentence: [
+            "She",
+            "is",
+            "reading"
+        ],
+        key: "blue",
+        category1: "nauka",
+        category2: [""]
+    },
+            {
+        id: [
+            225,
+            34,
+            68
+        ],
+        img: "",
+        story: "",
+        desc: "a[e] - niebieski/niebieskie",
+        sentence2: [
+            "a"
+        ],
+        sentence: [
+            "a",
+            "new",
+            "book",
+            "now"
+        ],
+        key: "blue",
+        category1: "nauka",
+        category2: [""]
+    },
+                {
+        id: [
+            226,
+            34,
+            68
+        ],
+        img: "http://arbu-1dcc9.web.app/img/fiszki1/226a.jpg",
+        story: "He<u><b>nju</u></b> ma <u><b>nowy</u></b> telefon",
+        desc: "new[nju] - nowy/nowa/nowe",
+        sentence2: [
+            "new"
+        ],
+        sentence: [
+            "a",
+            "new",
+            "book",
+            "now"
+        ],
+        key: "blue",
+        category1: "nauka",
+        category2: [""]
+    },
+                {
+        id: [
+            227,
+            34,
+            68
+        ],
+        img: "http://arbu-1dcc9.web.app/img/fiszki1/227a.jpg",
+        story: "Z drzewa <b><u>buk</b></u>owego jest najlepszy papier na <b><u>książki</b></u>",
+        desc: "book[buk] - książka",
+        sentence2: [
+            "book"
+        ],
+        sentence: [
+            "a",
+            "new",
+            "book",
+            "now"
+        ],
+        key: "blue",
+        category1: "nauka",
+        category2: [""]
+    },
+                {
+        id: [
+            228,
+            34,
+            68
+        ],
+        img: "http://arbu-1dcc9.web.app/img/fiszki1/228a.jpg",
+        story: "<u><b>Teraz</u></b> moja ulubiona woda - to <u><b>Nał</u></b>ęczowska",
+        desc: "now[nał] - teraz",
+        sentence2: [
+            "now"
+        ],
+        sentence: [
+            "a",
+            "new",
+            "book",
+            "now"
+        ],
+        key: "blue",
+        category1: "nauka",
+        category2: [""]
+    },
+        {
+        id: [
+            229,
+            35,
+            69
+        ],
+        img: "http://arbu-1dcc9.web.app/img/fiszki1/221a.jpg",
+                translate: "Oni grają w piłkę nożną w tym momencie",
+        translateb: "[Dej ar pleing futbol at de moment]",
+                translateb2: "[Ewrybody hes fan]",
+        srcWord: ["http://arbu-1dcc9.web.app/filmy/football.mp4", "Pelé. Narodziny legendy (2016)"],
+        srcWordimage: "http://arbu-1dcc9.web.app/filmy/football.png",
+        story: "<u><b>Oni</u></b> z<u><b>dej</u></b>mują jabłka z jabłoni",
+        desc: "they[dej] - oni",
+        sentence1: [
+            "They"
+        ],
+        sentence: [
+            "They",
+            "are",
+            "playing",
+            "football"
+        ],
+        key: "blue",
+        category1: "nauka",
+        category2: ["osoby"],
+        category3: ["PresentContinous"]
+    },
+                    {
+        id: [
+            230,
+            35,
+            69
+        ],
+        img: [
+                    "http://arbu-1dcc9.web.app/img/fiszki1/51a.jpg",
+                    "http://arbu-1dcc9.web.app/img/fiszki1/220a.jpg",
+],
+        story: [
+            "<b><u>Twoje</b></u> <b><u>ar</b></u>gumenty są bardzo przemawiające",
+            "Papuga <u><b>ar</u></b>a i skowronek <u><b>są</u></b> zaprzyjaźnieni. Mam nadzieję, że ty <u><b>jesteś</u></b> z tego powodu w dobrym nastroju",
+        ],
+        desc: "are[ar] - jest/są - gramatyka",
+        sentence1: [
+            "are"
+        ],
+        sentence: [
+            "They",
+            "are",
+            "playing",
+            "football"
+        ],
+        key: "blue",
+        category1: "nauka",
+        category2: [""]
+    },
+                        {
+        id: [
+            231,
+            35,
+            69
+        ],
+        img: "http://arbu-1dcc9.web.app/img/fiszki1/231a.jpg",
+        story: "<u><b>Gram</u></b> w piłke tak szybko jakbym był Bo<u><b>ing</u></b>iem i odebrałem piłkę nawet <u><b>ple</u></b>cami",
+        desc: "playing[pleing] - grać",
+        sentence1: [
+            "playing"
+        ],
+        sentence: [
+            "They",
+            "are",
+            "playing",
+            "football"
+        ],
+        key: "blue",
+        category1: "nauka",
+        category2: [""]
+    },
+                            {
+        id: [
+            232,
+            35,
+            69
+        ],
+        img: "http://arbu-1dcc9.web.app/img/fiszki1/232a.jpg",
+        story: "Kiedy gram w <u><b>piłę nożną</u></b> to nawet na mrozie. Później grzeje się <u><b>fut</u></b>erkiem gdy mam kontuzje i mnie <u><b>bol</u></b>i",
+        desc: "football[futbol] - piłka nożna",
+        sentence1: [
+            "football"
+        ],
+        sentence: [
+            "They",
+            "are",
+            "playing",
+            "football"
+        ],
+        key: "blue",
+        category1: "nauka",
+        category2: [""]
+    },
+                            {
+        id: [
+            233,
+            35,
+            70
+        ],
+        img: [
+            "http://arbu-1dcc9.web.app/img/fiszki1/4a.jpg",
+            "http://arbu-1dcc9.web.app/img/fiszki1/4b.jpg",
+            "http://arbu-1dcc9.web.app/img/fiszki1/4c.jpg",
+            "http://arbu-1dcc9.web.app/img/fiszki1/4d.jpg",
+            "http://arbu-1dcc9.web.app/img/fiszki1/4e.jpg"
+        ],
+        word: [
+            "http://arbu-1dcc9.web.app/src/at.wav"
+        ],
+        srcWord2: ["http://arbu-1dcc9.web.app/filmy/procedure.mp4", "Breaking Bad"],
+        translateb2: "[at de party]",
+        story: [
+            '<u><b>W tym</u></b> <span class="adannotation" data-annotation="1"><u><b>at</u></b></span>elcie jest dużo siły',
+            'Scott <span class="adannotation" data-annotation="1"><u><b>At</u></b></span>kinson <u><b>w tym</u></b> lesie był na spacerze',
+            '<u><b>W tym</u></b> piórze jest za mało <span class="adannotation" data-annotation="1"><u><b>at</u></b></span>ramentu',
+            'Be<span class="adannotation" data-annotation="1"><u><b>at</u></b></span>a myślała, że zobaczyła Królową Angielską, a to tylko atrapa <u><b>w tym</u></b> muzeum figur woskowych',
+            '<span class="adannotation" data-annotation="1"><u><b>At</u></b></span>rapa jest dobra na złodzieja, <u><b>w tym</u></b> jest sens'
+        ],
+        desc: "at[at] - w tym",
+        sentence2: [
+            "at"
+        ],
+        sentence: [
+            "at",
+            "the",
+            "moment"
+        ],
+        key: "blue",
+        category1: "nauka",
+        category2: [""]
+    },
+                                {
+        id: [
+            234,
+            35,
+            70
+        ],
+        img: [
+            "http://arbu-1dcc9.web.app/img/fiszki1/5a.jpg",
+            "http://arbu-1dcc9.web.app/img/fiszki1/5b.jpg",
+            "http://arbu-1dcc9.web.app/img/fiszki1/5c.jpg",
+            "http://arbu-1dcc9.web.app/img/fiszki1/5d.jpg",
+            "http://arbu-1dcc9.web.app/img/fiszki1/5e.jpg"
+        ],
+        word: [
+            "http://arbu-1dcc9.web.app/src/the.wav"
+        ],
+        story: [
+            'Piłki do gry w kosza są twar<span class="adannotation" data-annotation="1"><u><b>de</u></b></span>. Sam ten sport <u><b>to</u></b> twarda gra',
+            'Na tym <span class="adannotation" data-annotation="1"><u><b>de</u></b></span>ptaku jest sporo drzewek, <u><b>to</u></b> urocze miejsce',
+            '<u><b>To</u></b> ten <span class="adannotation" data-annotation="1"><u><b>De</u></b></span>partament Stanu prowadzi badania nad społecznym problemem',
+            'Czasami politycy stosują <span class="adannotation" data-annotation="1"><u><b>de</u></b></span>magogię. Czyli co stosują? <u><b>Tę</u></b> <span class="adannotation" data-annotation="1"><u><b>de</u></b></span>magogię',
+            '<u><b>To</u></b> co w naszej rodzinie istnieje to <span class="adannotation" data-annotation="1"><u><b>de</u></b></span>mokracja'
+        ],
+        desc: "the[de] - to",
+        sentence2: [
+            "the"
+        ],
+        sentence: [
+            "at",
+            "the",
+            "moment"
+        ],
+        key: "blue",
+        category1: "nauka",
+        category2: [""]
+    },
+                                {
+        id: [
+            235,
+            35,
+            70
+        ],
+        img: "http://arbu-1dcc9.web.app/img/fiszki1/235a.jpg",
+        story: "Teraz jestem w piekle i pracuje ze s<u><b>moł</u></b>ą <u><b>ment</u></b>alnie",
+        desc: "moment[mołment] - teraz",
+        sentence2: [
+            "moment"
+        ],
+        sentence: [
+            "at",
+            "the",
+            "moment"
+        ],
+        key: "blue",
+        category1: "nauka",
+        category2: [""]
+    },
+            {
+        id: [
+            236,
+            36,
+            71
+        ],
+        img: [
+            "http://arbu-1dcc9.web.app/img/fiszki1/7a.jpg",
+            "http://arbu-1dcc9.web.app/img/fiszki1/7b.jpg",
+            "http://arbu-1dcc9.web.app/img/fiszki1/7c.jpg",
+            "http://arbu-1dcc9.web.app/img/fiszki1/7d.jpg",
+            "http://arbu-1dcc9.web.app/img/fiszki1/7e.jpg"
+        ],
+        translate: "On gotuje kolację dla nas dzisiaj wieczorem",
+        translateb: "[Hi is kuking diner at de mołment]",
+                translateb2: "[Ewrybody hes fan]",
+        srcWord: ["http://arbu-1dcc9.web.app/filmy/dinner.mp4", "Rodzinka.pl"],
+        srcWordimage: "http://arbu-1dcc9.web.app/filmy/dinner.png",
+        word: [
+            "http://arbu-1dcc9.web.app/voice/music.mp4"
+        ],
+        story: [
+            "To właśnie <u><b>on</u></b> jest <b><u>hi</b></u>tem tego sezonu piłkarskiego",
+            "Samiec czyli <u><b>on</u></b> - <b><u>hi</b></u>popotam",
+            "<u><b>On</b></u> - <u><b>Hi</b></u>eronim odleciał balonem",
+            "Ma<u><b>chi</u></b>nę do tortur wymyślił <u><b>on</u></b> - jest <u><b>Hi</u></b>ndusem",
+            "<u><b>On</u></b> je ciastka <u><b>hi</u></b>ty"
+        ],
+        desc: "he[hi] - on",
+        sentence1: [
+            "He"
+        ],
+        sentence: [
+            "He",
+            "is",
+            "cooking",
+            "dinner"
+        ],
+        key: "blue",
+        category1: "nauka",
+        category2: ["osoby"],
+        category3: ["PresentContinous"]
+    },
+                                    {
+        id: [
+            237,
+            36,
+            71
+        ],
+        img: [
+            "http://arbu-1dcc9.web.app/img/fiszki1/8a.jpg",
+            "http://arbu-1dcc9.web.appimg/fiszki1/8b.jpg",
+            "http://arbu-1dcc9.web.app/img/fiszki1/8c.jpg",
+            "http://arbu-1dcc9.web.app/img/fiszki1/8d.jpg",
+            "http://arbu-1dcc9.web.app/img/fiszki1/8e.jpg"
+        ],
+        word: [
+            "http://arbu-1dcc9.web.app/src/is.wav"
+        ],
+        story: [
+            'Gdy ktoś szybko biega obok nas to <u><b>jest</u></b> w popłochu, słyszymy tylko św<span class="adannotation" data-annotation="1"><u><b>is</u></b></span>t',
+            'L<span class="adannotation" data-annotation="1"><u><b>is</u></b></span> <u><b>jest</u></b> dzisiaj listonoszem',
+            '<span class="adannotation" data-annotation="1"><b><u>Is</b></u></span>tota tego przekazu <b><u>jest</b></u> bardzo ważna',
+            'L<span class="adannotation" data-annotation="1"><b><u>is</b></u></span> jest bardzo przebiegły, ale <b><u>jest</b></u> też wilk, który go zje',
+            'Johny Bravo <u><b>jest</b></u> m<span class="adannotation" data-annotation="1"><u><b>is</b></u></span>trzem relacji damsko-męskich',
+            'Lu<span class="adannotation" data-annotation="1"><b><u>is</b></u></span> <b><u>jest</b></u> bardzo zadowolony ze swojej pracy',
+            '<span class="adannotation" data-annotation="1"><b><u>Is</b></u></span>tambuł <b><u>jest</b></u> fajnym miastem'
+        ],
+        desc: "is[is] - jest",
+        sentence1: [
+            "is"
+        ],
+        sentence: [
+            "He",
+            "is",
+            "cooking",
+            "dinner"
+        ],
+        key: "blue",
+        category1: "nauka",
+        category2: [""]
+    },
+                                    {
+        id: [
+            238,
+            36,
+            71
+        ],
+        img: "http://arbu-1dcc9.web.app/img/fiszki1/238a.jpg",
+        story: "<u><b>Ku</u></b>charz ze mnie jest <u><b>king</u></b>, gotuję fajne potrawy",
+        desc: "cooking[kuking] - teraz",
+        sentence1: [
+            "cooking"
+        ],
+        sentence: [
+            "He",
+            "is",
+            "cooking",
+            "dinner"
+        ],
+        key: "blue",
+        category1: "nauka",
+        category2: [""]
+    },
+                                        {
+        id: [
+            239,
+            36,
+            71
+        ],
+        img: "http://arbu-1dcc9.web.app/img/fiszki1/239a.jpg",
+        story: "Wal<u><b>di</u></b> je <u><b>kolacje</u></b>, która pomaga mu uzdrowić <u><b>ner</u></b>kę",
+        desc: "dinner[diner] - kolacja",
+        sentence1: [
+            "dinner"
+        ],
+        sentence: [
+            "He",
+            "is",
+            "cooking",
+            "dinner"
+        ],
+        key: "blue",
+        category1: "nauka",
+        category2: [""]
+    },
+                                            {
+        id: [
+            240,
+            36,
+            72
+        ],
+        img: "http://arbu-1dcc9.web.app/img/fiszki1/240a.jpg",
+        story: "<b><u>For</b></u>est Gump jest filmem <b><u>dla</b></u> każdego",
+        desc: "for[for] - dla",
+        sentence2: [
+            "for"
+        ],
+        sentence: [
+            "for",
+            "us",
+            "tonight"
+        ],
+        key: "blue",
+        category1: "nauka",
+        category2: [""]
+    },
+                                                {
+        id: [
+            241,
+            36,
+            72
+        ],
+        img: "http://arbu-1dcc9.web.app/img/fiszki1/241a.jpg",
+        story: "<b><u>As</b></u>teroida, którą wykryliśmy prognozuje <b><u>nam</b></u> pewne trendy psychologi <b><u>as</b></u>trologicznej",
+        desc: "us[as] - nas, nam",
+        sentence2: [
+            "us"
+        ],
+        sentence: [
+            "for",
+            "us",
+            "tonight"
+        ],
+        key: "blue",
+        category1: "nauka",
+        category2: ["osoby"]
+    },
+                                                {
+        id: [
+            242,
+            36,
+            72
+        ],
+        img: "http://arbu-1dcc9.web.app/img/fiszki1/242a.jpg",
+        story: "F<b><u>ajt</b></u>łapa ogląda wieczorem zwias<b><u>tun</b></u> najnowszego filmu",
+        desc: "tonight[tunajt] - wieczór",
+        sentence2: [
+            "tonight"
+        ],
+        sentence: [
+            "for",
+            "us",
+            "tonight"
+        ],
+        key: "blue",
+        category1: "nauka",
+        category2: [""]
+    },
+                {
+        id: [
+            243,
+            37,
+            73
+        ],
+        img: [
+            "http://arbu-1dcc9.web.app/img/fiszki1/19a.jpg",
+            "http://arbu-1dcc9.web.app/img/fiszki1/19b.jpg",
+            "http://arbu-1dcc9.web.app/img/fiszki1/19c.jpg",
+            "http://arbu-1dcc9.web.app/img/fiszki1/19d.jpg",
+            "http://arbu-1dcc9.web.app/img/fiszki1/19e.jpg"
+        ],
+        translate: "Pracuję dziś nad dużym projektem",
+        translateb: "[Aj em łorking on e big prodźekt tudej]",
+        srcWord: ["http://arbu-1dcc9.web.app/filmy/project.mp4", "Matrix(1999)"],
+        srcWordimage: "http://arbu-1dcc9.web.app/filmy/project.png",
+        word: [
+            "http://arbu-1dcc9.web.app/voice/music.mp4"
+        ],
+        story: [
+            "<u><b>Ja</u></b> jestem Piotrek, mam okulary ochronne, gdy jechałem rowerem wleciała mi mucha do <u><b>oka</u></b>, krzyczałem <u><b>ajjj</u></b> - dlaczego to <u><b>mi</u></b> wleciała mucha do <u><b>oka</u></b>, <u><b>ajjj</u></b>",
+            "M<u><b>aj</u></b>a ma zezowate <u><b>oko</u></b> i mówi, no <u><b>JA</u></b> widzę ciebie podwójnie",
+            "Nauka o mitach, takich jak królowa G</u></b>aj</u></b>a to ten temat, gdzie <u><b>ja</u></b> mam największą wiedze",
+            "Teraz <u><b>ja</u></b> występuję na weselu jako wodzirej i śpiewam <u><b>Aj</u></b>-ja-jaj tak słodko jest tu z wami być..",
+            "Mo<u><b>ja</u></b> babcia idzie do kurnika po jaja, a <u><b>ja</u></b> będę za chwilę jadł jajecznice"
+        ],
+        desc: "i[aj] - ja",
+        sentence1: [
+            "I"
+        ],
+        sentence: [
+            "I",
+            "am",
+            "working"
+        ],
+        key: "blue",
+        category1: "nauka",
+        category2: ["osoby"],
+        category3: ["PresentContinous"]
+    },
+                                                    {
+        id: [
+            244,
+            37,
+            73
+        ],
+        img: [
+            "http://arbu-1dcc9.web.app/img/fiszki1/20a.jpg",
+            "http://arbu-1dcc9.web.app/img/fiszki1/20b.jpg",
+            "http://arbu-1dcc9.web.app/img/fiszki1/20c.jpg",
+            "http://arbu-1dcc9.web.app/img/fiszki1/20d.jpg",
+            "http://arbu-1dcc9.web.app/img/fiszki1/20e.jpg"
+
+        ],
+        story: [
+            "Zawsze po treningu j<u><b>em</u></b>, dlatego <u><b>jestem</u></b> wysportowany i silny",
+            "M<u><b>am</u></b> j<u><b>em</u></b>iołę i <u><b>jestem</u></b> zadowolony z jej zapachu",
+            "Emanacją mojej pracy badawczej, którą prowadziłem s<u><b>am</u></b> - jest to, że teraz ja <u><b>jestem</u></b> w tym temacie specjalistą",
+            "Amstaf <u><b>Em</u></b>il mnie goni, <u><b>jestem</u></b> w tarapatach",
+            "Mój idol <u><b>Em</u></b>inem powiedział, <u><b>ja jestem</u></b> najlepszym raperem i po tym stwierdzneiu teraz <u><b>ja jestem</u></b> w fajnych emocjach"
+        ],
+        desc: "am[em] - jestem",
+        sentence1: [
+            "am"
+        ],
+        sentence: [
+            "I",
+            "am",
+            "working"
+        ],
+        key: "blue",
+        category1: "nauka",
+        category2: [""]
+    },
+                                                        {
+        id: [
+            245,
+            37,
+            73
+        ],
+        img: "http://arbu-1dcc9.web.app/img/fiszki1/245a.jpg",
+        story: "Kiedy <u><b>pracuje</u></b> mam taki swoisty pa<u><b>łer</u></b>(power) i czuje się jak <u><b>king</u></b>(król)",
+        desc: "working[łerking] - pracować",
+        sentence1: [
+            "working"
+        ],
+        sentence: [
+            "I",
+            "am",
+            "working"
+        ],
+        key: "blue",
+        category1: "nauka",
+        category2: [""]
+    },
+                                                            {
+        id: [
+            246,
+            37,
+            74
+        ],
+        img: "http://arbu-1dcc9.web.app/img/fiszki1/246a.jpg",
+        story: "<u><b>On</u></b> jest <u><b>na</u></b> wakacjach. Nie odbiera telefonu",
+        desc: "on[on] - na",
+        sentence2: [
+            "on"
+        ],
+        sentence: [
+            "on",
+            "a",
+            "big",
+            "project",
+            "today"
+        ],
+        key: "blue",
+        category1: "nauka",
+        category2: [""]
+    },
+                                                                {
+        id: [
+            247,
+            37,
+            74
+        ],
+        img: "http://arbu-1dcc9.web.app/img/fiszki1/221a.jpg",
+        story: "",
+        desc: "a[e] - ",
+        sentence2: [
+            "a"
+        ],
+        sentence: [
+            "on",
+            "a",
+            "big",
+            "project",
+            "today"
+        ],
+        key: "blue",
+        category1: "nauka",
+        category2: [""]
+    },
+                                                                {
+        id: [
+            248,
+            37,
+            74
+        ],
+        img: [
+            "http://arbu-1dcc9.web.app/img/fiszki1/54a.jpg",
+            "http://arbu-1dcc9.web.app/img/fiszki1/170a.jpg"
+        ],
+        story: [
+            "Bardzo <b><u>duży</b></u> samolot M<b><u>ig</b></u> właśnie przeleciał na niebie",
+             "<b><u>Big</b></u>amista ma <b><u>duży</b></u> popęd seksualny" 
+        ],
+        desc: "big[big] - duży/duża/duże",
+        sentence2: [
+            "big"
+        ],
+        sentence: [
+            "on",
+            "a",
+            "big",
+            "project",
+            "today"
+        ],
+        key: "blue",
+        category1: "nauka",
+        category2: [""]
+    },
+                                                                {
+        id: [
+            249,
+            37,
+            74
+        ],
+        img: "http://arbu-1dcc9.web.app/img/fiszki1/249a.jpg",
+        story: "<b><u>Pro</b></u>fesjonalny projekt nowej marki samochodu robi An<b><u>dźe</b></u>j i wymyślił go jak ni<b><u>kt</b></u> inny",
+        desc: "project[prodźekt] - projekt",
+        sentence2: [
+            "project"
+        ],
+        sentence: [
+            "on",
+            "a",
+            "big",
+            "project",
+            "today"
+        ],
+        key: "blue",
+        category1: "nauka",
+        category2: [""]
+    },
+                                                                {
+        id: [
+            250,
+            37,
+            74
+        ],
+        img: "http://arbu-1dcc9.web.app/img/fiszki1/212a.jpg",
+        story: "<b><u>Dziś</b></u> muszę zbierać na piwo, stoje <b><u>tu</b></u> pod sklepem i mówię <b><u>dej</b></u>",
+        desc: "today[tudej] - dziś",
+        sentence2: [
+            "today"
+        ],
+        sentence: [
+            "on",
+            "a",
+            "big",
+            "project",
+            "today"
+        ],
+        key: "blue",
+        category1: "nauka",
+        category2: [""]
+    },
+                    {
+        id: [
+            251,
+            38,
+            75
+        ],
+        img: [
+            "http://arbu-1dcc9.web.app/img/fiszki1/251a.jpg"
+        ],
+        translate: "Dorośli pływają w basenie",
+        translateb: "[De tinejdźers ar słiming]",
+        srcWord: ["http://arbu-1dcc9.web.app/filmy/swimmingpool.mp4", "The Middle(amerykański serial)"],
+        srcWordimage: "http://arbu-1dcc9.web.app/filmy/swimmingpool.png",
+        word: [
+            "http://arbu-1dcc9.web.app/voice/music.mp4"
+        ],
+        story: [
+            "<b><u>Tin</b></u>a Turner jako nastolatka mówi do innych <b><u>nastolatków</b></u>: <b><u>ej</b></u>, Jackie(<b><u>Dźe</b></u>ki) i Cy<b><u>r</b><u>u<b></u>s</b></u>, chodźcie się kąpać w basenie"
+        ],
+        desc: "the teenagers[de tinejdźers] - nastolatkowie",
+        sentence1: [
+            "The teenagers"
+        ],
+        sentence: [
+            "The teenagers",
+            "are",
+            "swimming"
+        ],
+        key: "the adults",
+        category1: "nauka",
+        category2: ["osoby"],
+        category3: ["PresentContinous"]
+    },
+                                                                    {
+        id: [
+            252,
+            38,
+            75
+        ],
+        img: [
+                    "http://arbu-1dcc9.web.app/img/fiszki1/51a.jpg",
+                    "http://arbu-1dcc9.web.app/img/fiszki1/220a.jpg"
+],
+        story: [
+            "<b><u>Twoje</b></u> <b><u>ar</b></u>gumenty są bardzo przemawiające",
+            "Papuga <u><b>ar</u></b>a i skowronek <u><b>są</u></b> zaprzyjaźnieni. Mam nadzieję, że ty <u><b>jesteś</u></b> z tego powodu w dobrym nastroju",
+        ],
+        desc: "are[ar] - jest/są - gramatyka",
+        sentence1: [
+            "are"
+        ],
+        sentence: [
+            "The teenagers",
+            "are",
+            "swimming"
+        ],
+        key: "blue",
+        category1: "nauka",
+        category2: [""]
+    },
+                                                                        {
+        id: [
+            253,
+            38,
+            75
+        ],
+        img: "http://arbu-1dcc9.web.app/img/fiszki1/253a.jpg",
+        story: "Na słowo <b><u>s</b></u>tart wszyscy do basenu - p<b><u>ły</b></u>wać zapowiada trener. Trening wychodzi <b><u>mi</b></u> na dobre i czasami jestem najlepszy, więc b<b><u>ing</b></u>o!",
+        desc: "swimming[słyming] - pływać",
+        sentence1: [
+            "swimming"
+        ],
+        sentence: [
+            "The teenagers",
+            "are",
+            "swimming"
+        ],
+        key: "blue",
+        category1: "nauka",
+        category2: [""]
+    },
+                                                                            {
+        id: [
+            254,
+            38,
+            76
+        ],
+        img: "http://arbu-1dcc9.web.app/img/fiszki1/254a.jpg",
+        story: "<u><b>In</u></b>trowertyk lubi przesiadywać <u><b>w</u></b> swoim umyśle",
+        desc: "in[in] - w",
+        sentence2: [
+            "in"
+        ],
+        sentence: [
+            "in",
+            "the pool"
+        ],
+        key: "blue",
+        category1: "nauka",
+        category2: [""]
+    },
+                                                                                {
+        id: [
+            255,
+            38,
+            76
+        ],
+        img: "http://arbu-1dcc9.web.app/img/fiszki1/225a.jpg",
+        story: "<u><b>Pul</u></b>a zgromadzonych osób przy <u><b>basenie</u></b> jest wysoka",
+        desc: "the pool[de pul] - basen",
+        sentence2: [
+            "the pool"
+        ],
+        sentence: [
+            "in",
+            "the pool"
+        ],
+        key: "blue",
+        category1: "nauka",
+        category2: [""]
+    },
+                        {
+        id: [
+            256,
+            39,
+            77
+        ],
+        img: "http://arbu-1dcc9.web.app/img/fiszki1/131a.jpg",
+        translate: " Oglądamy teraz film",
+        translateb: "[Łi ar łoczing e muwi rajt nał]",
+        srcWord: ["http://arbu-1dcc9.web.app/filmy/television.mp4", "Pan życia i śmierci(2005)"],
+        srcWordimage: "http://arbu-1dcc9.web.app/filmy/television.png",
+        word: [
+            "http://arbu-1dcc9.web.app/voice/music.mp4"
+        ],
+        story: "<b><u>Wi</b></u>ll Smith oznajmił, że <b><u>my</b></u> jako ludzkość mamy się dobrze",
+        desc: "we[łi] - my",
+        sentence1: [
+            "We"
+        ],
+        sentence: [
+            "We",
+            "are",
+            "watching",
+            "a movie",
+            "right",
+            "now"
+        ],
+        key: "we",
+        category1: "nauka",
+        category2: ["osoby"],
+        category3: ["PresentContinous"]
+    },
+                                                                                    {
+        id: [
+            257,
+            39,
+            77
+        ],
+        img: [
+                    "http://arbu-1dcc9.web.app/img/fiszki1/51a.jpg",
+                    "http://arbu-1dcc9.web.app/img/fiszki1/220a.jpg"
+],
+        story: [
+            "<b><u>Twoje</b></u> <b><u>ar</b></u>gumenty są bardzo przemawiające",
+            "Papuga <u><b>ar</u></b>a i skowronek <u><b>są</u></b> zaprzyjaźnieni. Mam nadzieję, że ty <u><b>jesteś</u></b> z tego powodu w dobrym nastroju",
+        ],
+        desc: "are[ar] - jest/są - gramatyka",
+        sentence1: [
+            "are"
+        ],
+        sentence: [
+            "We",
+            "are",
+            "watching",
+            "a movie",
+            "right",
+            "now"
+        ],
+        key: "blue",
+        category1: "nauka",
+        category2: [""]
+    },
+                                                                                        {
+        id: [
+            258,
+            39,
+            77
+        ],
+        img: "http://arbu-1dcc9.web.app/img/fiszki1/258a.jpg",
+        story: "Ostatnio ma<u><b>ło</u></b> <u><b>oglądam</u></b> seriali, najczęściej o chińskiej dynastii <u><b>Ching</u></b>",
+        desc: "watching[łoczing] - oglądać",
+        sentence1: [
+            "watching"
+        ],
+        sentence: [
+            "We",
+            "are",
+            "watching",
+            "a movie",
+            "right",
+            "now"
+        ],
+        key: "blue",
+        category1: "nauka",
+        category2: [""]
+    },
+                                                                                            {
+        id: [
+            259,
+            39,
+            77
+        ],
+        img: "http://arbu-1dcc9.web.app/img/fiszki1/259a.jpg",
+        story: "Ten <u><b>film</u></b> <u><b>mówi</u></b> o bardzo ciekawych rzeczach",
+        desc: "a movie[a muwi] - film",
+        sentence1: [
+            "a movie"
+        ],
+        sentence: [
+            "We",
+            "are",
+            "watching",
+            "a movie",
+            "right",
+            "now"
+        ],
+        key: "blue",
+        category1: "nauka",
+        category2: [""]
+    },
+                                                                                                {
+        id: [
+            260,
+            39,
+            77
+        ],
+        img: "http://arbu-1dcc9.web.app/img/fiszki1/221a.jpg",
+        story: "Swoje <u><b>rajt</u></b>uzy na zimę zawsze zaczynam od <u><b>prawej</u></b> strony, <u><b>teraz</u></b> kiedy jest zimno muszę je ubrać",
+        desc: "right[] - right(prawo, right now(teraz)",
+        sentence1: [
+            "right"
+        ],
+        sentence: [
+            "We",
+            "are",
+            "watching",
+            "a movie",
+            "right",
+            "now"
+        ],
+        key: "blue",
+        category1: "nauka",
+        category2: [""]
+    },
+                                                                                                    {
+        id: [
+            261,
+            39,
+            77
+        ],
+        img: "http://arbu-1dcc9.web.app/img/fiszki1/228a.jpg",
+        story: "<u><b>Teraz</u></b> moja ulubiona woda - to <u><b>Nał</u></b>ęczowska",
+        desc: "now[nał] - teraz",
+        sentence1: [
+            "now"
+        ],
+        sentence: [
+            "We",
+            "are",
+            "watching",
+            "a movie",
+            "right",
+            "now"
+        ],
+        key: "blue",
+        category1: "nauka",
+        category2: [""]
+    },
+                            {
+        id: [
+            262,
+            40,
+            78
+        ],
+        img: [
+            "http://arbu-1dcc9.web.app/img/fiszki1/7a.jpg",
+            "http://arbu-1dcc9.web.app/img/fiszki1/7b.jpg",
+            "http://arbu-1dcc9.web.app/img/fiszki1/7c.jpg",
+            "http://arbu-1dcc9.web.app/img/fiszki1/7d.jpg",
+            "http://arbu-1dcc9.web.app/img/fiszki1/7e.jpg"
+        ],
+        translate: "On biega dziś w parku",
+        translateb: "[Hi is raning in de park tudej]",
+        translateb2: "[Hi is raning]",
+        srcWord: ["http://arbu-1dcc9.web.app/filmy/running.mp4", "Forrest Gump (1994)"],
+        srcWord2: ["http://arbu-1dcc9.web.app/filmy/procedure.mp4", "Breaking Bad"],
+        srcWordimage: "http://arbu-1dcc9.web.app/filmy/running.png",
+        word: [
+            "http://arbu-1dcc9.web.app/voice/bike.mp4"
+        ],
+        story: [
+            'To właśnie <u><b>on</u></b> jest <span class="adannotation" data-annotation="1"><b><u>hi</b></u></span>tem tego sezonu piłkarskiego',
+            'Samiec czyli <u><b>on</u></b> - <span class="adannotation" data-annotation="1"><b><u>hi</b></u></span>popotam',
+            '<u><b>On</b></u> - <span class="adannotation" data-annotation="1"><u><b>Hi</b></u></span>eronim odleciał balonem',
+            'Ma<span class="adannotation" data-annotation="1"><u><b>chi</u></b></span>nę do tortur wymyślił <u><b>on</u></b> - jest <span class="adannotation" data-annotation="1"><u><b>Hi</u></b></span>ndusem',
+            '<u><b>On</u></b> je ciastka <span class="adannotation" data-annotation="1"><u><b>hi</u></b></span>ty'
+        ],
+        desc: "he[hi] - on",
+        sentence1: [
+            "He"
+        ],
+        sentence: [
+            "He",
+            "is ",
+            "running"
+        ],
+        key: "the adults",
+        category1: "nauka",
+        category2: ["osoby"],
+        category3: ["PresentContinous"]
+    },
+                                                                                                        {
+        id: [
+            263,
+            40,
+            78
+        ],
+        img: [
+            "http://arbu-1dcc9.web.app/img/fiszki1/8a.jpg",
+            "http://arbu-1dcc9.web.appimg/fiszki1/8b.jpg",
+            "http://arbu-1dcc9.web.app/img/fiszki1/8c.jpg",
+            "http://arbu-1dcc9.web.app/img/fiszki1/8d.jpg",
+            "http://arbu-1dcc9.web.app/img/fiszki1/8e.jpg"
+        ],
+        word: [
+            "http://arbu-1dcc9.web.app/src/is.wav"
+        ],
+        story: [
+            'Gdy ktoś szybko biega obok nas to <u><b>jest</u></b> w popłochu, słyszymy tylko św<span class="adannotation" data-annotation="1"><u><b>is</u></b></span>t',
+            'L<span class="adannotation" data-annotation="1"><u><b>is</u></b></span> <u><b>jest</u></b> dzisiaj listonoszem',
+            '<span class="adannotation" data-annotation="1"><b><u>Is</b></u></span>tota tego przekazu <b><u>jest</b></u> bardzo ważna',
+            'L<span class="adannotation" data-annotation="1"><b><u>is</b></u></span> jest bardzo przebiegły, ale <b><u>jest</b></u> też wilk, który go zje',
+            'Johny Bravo <u><b>jest</b></u> m<span class="adannotation" data-annotation="1"><u><b>is</b></u></span>trzem relacji damsko-męskich',
+            'Lu<span class="adannotation" data-annotation="1"><b><u>is</b></u></span> <b><u>jest</b></u> bardzo zadowolony ze swojej pracy',
+            '<span class="adannotation" data-annotation="1"><b><u>Is</b></u></span>tambuł <b><u>jest</b></u> fajnym miastem'
+        ],
+        desc: "is[is] - jest",
+        sentence1: [
+            "is"
+        ],
+        sentence: [
+            "He",
+            "is ",
+            "running"
+        ],
+        key: "blue",
+        category1: "nauka",
+        category2: ["osoby"]
+    },
+                                                                                                            {
+        id: [
+            264,
+            40,
+            78
+        ],
+        img: "http://arbu-1dcc9.web.app/img/fiszki1/221a.jpg",
+        story: "W grze komputerowej, podczas tej bitwy obniosłem wiele <u><b>ran</u></b>, nie mogę <u><b>biegać</u></b>, tylko strzelam z okopu i mam dobry tajm<u><b>ing</u></b>",
+        desc: "running[raning] - biegać",
+        sentence1: [
+            "running"
+        ],
+        sentence: [
+            "He",
+            "is ",
+            "running"
+        ],
+        key: "blue",
+        category1: "nauka",
+        category2: ["osoby"]
+    },
+                                                                                                                {
+        id: [
+            265,
+            40,
+            79
+        ],
+        img: "http://arbu-1dcc9.web.app/img/fiszki1/221a.jpg",
+        story: "<u><b>In</u></b>trowertyk lubi przesiadywać <u><b>w</u></b> swoim umyśle",
+        desc: "in[in] - w",
+        sentence2: [
+            "in"
+        ],
+        sentence: [
+            "in",
+            "the park",
+            "today"
+        ],
+        key: "blue",
+        category1: "nauka",
+        category2: ["osoby"]
+    },
+                                                                                                                    {
+        id: [
+            266,
+            40,
+            79
+        ],
+        img: "http://arbu-1dcc9.web.app/img/fiszki1/221a.jpg",
+        story: "Kurde, jak tutaj teraz za<b><u>park</b></u>ować koło <b><u>tego parku</b></u>",
+        desc: "the park[de park] - park",
+        sentence2: [
+            "the park"
+        ],
+        sentence: [
+            "in",
+            "the park",
+            "today"
+        ],
+        key: "blue",
+        category1: "nauka",
+        category2: ["osoby"]
+    },
+                                                                                                                    {
+        id: [
+            267,
+            40,
+            79
+        ],
+        img: "http://arbu-1dcc9.web.app/img/fiszki1/212a.jpg",
+        story: "<b><u>Dziś</b></u> muszę zbierać na piwo, stoje <b><u>tu</b></u> pod sklepem i mówię <b><u>dej</b></u>",
+        desc: "today[tudej] - dziś",
+        sentence2: [
+            "today"
+        ],
+        sentence: [
+            "in",
+            "the park",
+            "today"
         ],
         key: "blue",
         category1: "nauka",

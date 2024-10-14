@@ -140,3 +140,181 @@ gdzie poszczególne słowa występują w dwóch częściach, czyli sentence10 to
                         }, 100);
                     }
   Chcę, aby po wybraniu przycisku załaduj, pierwsze słowo mrugało na zielono, a obok mojego zdania na początku i na końcu były przyciski - na początku ze znakiem ten <, a na końcu ze znakiem ten > i gdy klikne na znak ten: > to mrugające zielone podświetlenie ma przesuwać się do drugiego słowa. Podziel zadanie na części, pomyśl i podaj rozwiązanie
+  
+  
+  
+  
+                              if (index55b2 === 1) { // Porównaj jako liczby
+                                // Bezpośrednio przekierowujemy użytkownika do strony
+                                window.location.href = 'demo1espb.html?category=' + encodeURIComponent(globalCategory);
+                            }
+                            if (index55b2 === 2) {
+                                // Bezpośrednio przekierowujemy użytkownika do strony
+                                window.location.href = 'demo2espb.html?category=' + encodeURIComponent(globalCategory);
+                            }
+                            if (index55b2 === 3) {
+                                // Bezpośrednio przekierowujemy użytkownika do strony
+                                window.location.href = 'demo3espb.html?category=' + encodeURIComponent(globalCategory);
+                            }
+                            if (index55b2 === 4) {
+                                // Bezpośrednio przekierowujemy użytkownika do strony
+                                window.location.href = 'demo4espb.html?category=' + encodeURIComponent(globalCategory);
+                            }
+                            if (index55b2 === 5) {
+                                // Bezpośrednio przekierowujemy użytkownika do strony
+                                window.location.href = 'demo5espb.html?category=' + encodeURIComponent(globalCategory);
+                            }
+                            if (index55b2 === 6) {
+                                // Bezpośrednio przekierowujemy użytkownika do strony
+                                window.location.href = 'demo6espb.html?category=' + encodeURIComponent(globalCategory);
+                            }
+                            if (index55b2 === 7) {
+                                // Bezpośrednio przekierowujemy użytkownika do strony
+                                window.location.href = 'demo7espb.html?category=' + encodeURIComponent(globalCategory);
+                            }
+                            if (index55b2 === 8) {
+                                // Bezpośrednio przekierowujemy użytkownika do strony
+                                window.location.href = 'demo8espb.html?category=' + encodeURIComponent(globalCategory);
+                            }
+                            if (index55b2 === 9) {
+                                // Bezpośrednio przekierowujemy użytkownika do strony
+                                window.location.href = 'demo9espb.html?category=' + encodeURIComponent(globalCategory);
+                            }
+                            
+                            
+                            
+                                                    setTimeout(() => {
+                            console.log('hej554', index55b2);
+                                                          if (index55b2 === 1) { // Porównaj jako liczby
+                                // Bezpośrednio przekierowujemy użytkownika do strony
+                                window.location.href = 'demo1espb.html?category=' + encodeURIComponent(globalCategory);
+                            }
+                            if (index55b2 === 2) {
+                                // Bezpośrednio przekierowujemy użytkownika do strony
+                                window.location.href = 'demo2espb.html?category=' + encodeURIComponent(globalCategory);
+                            }
+                            if (index55b2 === 3) {
+                                // Bezpośrednio przekierowujemy użytkownika do strony
+                                window.location.href = 'demo3espb.html?category=' + encodeURIComponent(globalCategory);
+                            }
+                            if (index55b2 === 4) {
+                                // Bezpośrednio przekierowujemy użytkownika do strony
+                                window.location.href = 'demo4espb.html?category=' + encodeURIComponent(globalCategory);
+                            }
+                            if (index55b2 === 5) {
+                                // Bezpośrednio przekierowujemy użytkownika do strony
+                                window.location.href = 'demo5espb.html?category=' + encodeURIComponent(globalCategory);
+                            }
+                            if (index55b2 === 6) {
+                                // Bezpośrednio przekierowujemy użytkownika do strony
+                                window.location.href = 'demo6espb.html?category=' + encodeURIComponent(globalCategory);
+                            }
+                            if (index55b2 === 7) {
+                                // Bezpośrednio przekierowujemy użytkownika do strony
+                                window.location.href = 'demo7espb.html?category=' + encodeURIComponent(globalCategory);
+                            }
+                            if (index55b2 === 8) {
+                                // Bezpośrednio przekierowujemy użytkownika do strony
+                                window.location.href = 'demo8espb.html?category=' + encodeURIComponent(globalCategory);
+                            }
+                            if (index55b2 === 9) {
+                                // Bezpośrednio przekierowujemy użytkownika do strony
+                                window.location.href = 'demo9espb.html?category=' + encodeURIComponent(globalCategory);
+                            }
+                        }, 1000);
+                        
+                                                        setTimeout(() => {
+                                    console.log('hej554', index55b2);
+    if (index55b2 === 1) { // Porównaj jako liczby
+        // Bezpośrednio przekierowujemy użytkownika do strony
+        window.location.href = 'demo1esp.html?category=' + encodeURIComponent(globalCategory);
+    }
+    if (index55b2 === 2) { // Porównaj jako liczby
+        // Bezpośrednio przekierowujemy użytkownika do strony
+        window.location.href = 'demo2esp.html?category=' + encodeURIComponent(globalCategory);
+    }
+    if (index55b2 === 3) { // Porównaj jako liczby
+        // Bezpośrednio przekierowujemy użytkownika do strony
+        window.location.href = 'demo3esp.html?category=' + encodeURIComponent(globalCategory);
+    }
+                                }, 100);
+                                
+                                $flashcardContainer.append(`
+<div id="konsola">
+    <div id="title">WIDOK</div>
+<button class="rodzaj-button" data-rodzaj="osoby">SPOŁECZNOŚCIOWY</button>        
+    <button class="rodzaj-button" data-rodzaj="osoby">WYGENEROWANY JEDNORAZOWO</button>
+            <div id="title">RODZAJ SŁOWNICTWA</div>
+                    <button class="rodzaj-button" data-rodzaj="osoby">KOGNATY</button>
+    <button id="osoby" class="rodzaj-button" data-rodzaj="osoby" onclick="przekazArgument0('all', '', '', '', '', '', tablica3[1])">Wszystkie</button>
+    <button class="rodzaj-button" data-rodzaj="osoby" onclick="przekazArgument0('osoby', '', '', '', '', '', tablica3[1])">Osoby</button>
+    <button class="rodzaj-button" data-rodzaj="zaimki osobowe" onclick="przekazArgument0('zaimkiosobowe', '', '', '', '', '', tablica3[1])">Zaimki osobowe</button>
+    <button id="inne" onclick="przekazArgument0('emocje', '', '', '', '', '', tablica3[1])">Emocje</button>
+    <button class="rodzaj-button" data-rodzaj="zaimki" onclick="przekazArgument0('spojniki', '', '', '', '', '', tablica3[1])">Spójniki</button>
+    <button id="inne" onclick="przekazArgument0('kolory', '', '', '', '', '', tablica3[1])">Kolory</button>
+    <button id="inne" class="rodzaj-button" data-rodzaj="zwierzeta" onclick="przekazArgument0('zwierzeta', '', '', '', '', '', tablica3[1])">Zwierzęta</button>
+    <button class="rodzaj-button" data-rodzaj="czasownik" onclick="przekazArgument0('czasownik', '', '', '', '', '', tablica3[1])">Czasowniki</button>
+    <br>ILOŚĆ MATERIAŁU NA LEKCJE<br>
+<button class="czas" onclick="ustawTryb('zdania', undefined); przekazArgument0(globalCategory, '', '', 'zdania', false, false, tablica3[1])">5 MINUT (JEDNO ZDANIE)</button>
+<button id="english" class="czas" onclick="ustawTryb('fiszki', undefined); przekazArgument0(globalCategory, '', '', 'fiszki', true, true, tablica3[1])">10 MINUT (3 ZDANIA) - OPCJONALNIE</button>
+<br>TRYB LEKCJI<br>
+<button id="english" class="czas" onclick="ustawTryb(tablica3[0], ''); przekazArgument0(globalCategory, '', '', tablica3[0], false, false, tablica3[1])">ZDANIA</button>
+<button class="czas" onclick="ustawTryb(tablica3[0], 'frazy'); przekazArgument0(globalCategory, '', '', tablica3[0], true, true, tablica3[1])">FRAZY</button>
+    <button id="inne" class="czas">POJEDYŃCZE SŁOWA</button>
+    <br>DOSTĘPNE WERSJE TŁUMACZENIA<br>
+    <button id="english" class="charakter-button" onclick="wybierzCharakter()">NA ŻADANIE-OPCJONALNIE</button>
+    <button id="inne" class="charakter-button" onclick="wybierzCharakter('fiszki')">TYLKO PO ANGIELSKU</button>
+    <button id="inne" class="charakter-button" onclick="przekazArgument0('', '', '', 'zdania', true)">TYLKO PO POLSKU</button>
+</div>
+<div id="konsola">
+            <div id="title">CZASY</div>
+<button class="charakter-button" onclick="przekazArgument0('PresentSimple', '', '', '', '', '', tablica3[1])">OZNACZ CZAS</button>
+<br>
+    <button class="charakter-button" onclick="przekazArgument0('PresentSimple', '', '', '', '', '', tablica3[1])">PRESENT SIMPLE</button>
+    <button id="inne">PAST SIMPLE</button>
+    <br>
+    <div id="title">OPCJE ZDANIA</div>
+    <button id="inne" class="charakter-button">PODZIEL ZDANIA NA CZĘŚCI</button>
+    <button id="inne" class="czas">WYSUŃ JEDNOCZEŚNIE W DANEJ LEKCJI</button>
+    <br>
+    <div id="title">CHARAKTER ZDANIA</div>
+    <button class="charakter-button" onclick="ustawTryb(tablica3[0]); przekazArgument0(globalCategory, '', '', 'fiszki', false, false, 'krotkie')">Krótkie</button>
+    <button class="charakter-button" onclick="ustawTryb(tablica3[0]); przekazArgument0(globalCategory, '', '', 'fiszki', false, false, 'dlugie')">Długie(złożone)</button>
+    <button class="charakter-button" onclick="ustawTryb(tablica3[0]); przekazArgument0(globalCategory, '', '', 'fiszki', false, false, '')">Dowolne</button>
+    <div id="title">PRIORYTETY LINGWISTYCZNE</div>
+    <button id="inne" onclick="wybierzCharakter('krotkie')">Wymowa</button>
+<button class="charakter-button" onclick="wybierzCharakter('krotkie')">Pisownia</button>
+<button id="inne" onclick="wybierzCharakter('krotkie')">Sens zdania</button>
+    <button id="dowolne" onclick="wybierzCharakter('dowolne')">WSZYSTKIE</button>
+</div>
+<div id="konsola2">
+            <div id="title">ULUBIONA TEMATYKA FISZEK</div>
+    <button onclick="wybierzTematyke('nauka')">Nauka</button>
+    <button onclick="wybierzTematyke('podroze')">Podróże</button>
+    <button onclick="wybierzTematyke('historia')">Historia</button>
+    <button onclick="wybierzTematyke('sztuka')">Sztuka</button>
+    <button onclick="wybierzTematyke('technologia')">Technologia</button>
+</div>
+<div id="konsola3">
+    <h2>Ulubione Fiszki</h2>
+    <button onclick="wplecUlubioneFiszki()">Ulubione Fiszki</button>
+</div>
+<div id="konsola4">
+    <h2>Generuj intuicyjnie z pokrewną tematyką</h2>
+    <button onclick="wybierzTematyke('nauka')">Podobne</button>
+    <button onclick="wybierzTematyke('podroze')">Eksporuj moją nową pasje</button>
+    <button onclick="wybierzTematyke('podroze')">Odkryj moją nową pasje</button>
+</div>
+</div>
+`);
+    
+                "Ada jest nastolatką i denerwuje się na dorosłych. Odreagowuje sportem, potrafi robić jak dorośli salto"
+                
+                                story: [
+            "<u><b>Bi</u></b>egam dobrze i podczas biegania odczuwam całkowicie inny stan <u><b>bycia</u></b>",
+            "Jestestwo lisa <u><b>Bi</u></b>ll i łabędzia <u><b>Bi</u></b>anka polega na jedzeniu bigosu. Lisek mówi do Bianki: ja lubie <u><b>być</u></b> smakoszem bigosu",
+            "<u><b>Bi</u></b>ologia jest taką dziedziną, w której warto jako badacz <u><b>być</u></b> zaangażowanym",
+            "<u><b>Bi</u></b>egnę w zawodach i chcę <u><b>być</u></b> najlepszy, ale natrafiłem na słupa i wybiłem jedynkę",
+            "<u><b>Być</u></b> <u><b>bi</u></b>ednym to nie to samo co być początkującym milionerem",
+            "<u><b>Bi</u></b>lion dollarów musi <u><b>być</u></b> dużą kwotą"
+        ],
