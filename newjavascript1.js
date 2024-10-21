@@ -318,3 +318,13 @@ gdzie poszczególne słowa występują w dwóch częściach, czyli sentence10 to
             "<u><b>Być</u></b> <u><b>bi</u></b>ednym to nie to samo co być początkującym milionerem",
             "<u><b>Bi</u></b>lion dollarów musi <u><b>być</u></b> dużą kwotą"
         ],
+                
+                    $('.grid-container .image-container4').each(function (index) {
+        const containerRect = this.getBoundingClientRect();
+        const isVisible = (
+            containerRect.top >= 0 &&
+            containerRect.left >= 0 &&
+            containerRect.bottom <= (window.innerHeight || document.documentElement.clientHeight) &&
+            containerRect.right <= (window.innerWidth || document.documentElement.clientWidth)
+        );
+    });

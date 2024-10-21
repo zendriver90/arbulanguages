@@ -208,7 +208,7 @@ const fiszki = [
             'Czasami politycy stosują <span class="adannotation" data-annotation="1"><u><b>de</u></b></span>magogię. Czyli co stosują? <u><b>Tę</u></b> <span class="adannotation" data-annotation="1"><u><b>de</u></b></span>magogię',
             '<u><b>To</u></b> co w naszej rodzinie istnieje to <span class="adannotation" data-annotation="1"><u><b>de</u></b></span>mokracja'
         ],
-        desc: "the[de] - to",
+        desc: "TRUDNOŚĆ JĘZYKOWA: the[de]-33%, [ze]-33%, [dze]-33% - ta",
         sentence2: [
             "the"
         ],
@@ -1073,7 +1073,7 @@ const fiszki = [
             "Czasami politycy stosują <u><b>de</u></b>magogię. Czyli co stosują? <u><b>Tę</u></b> <u><b>de</u></b>magogię",
             "<u><b>To</u></b> co w naszej rodzinie istnieje to <u><b>de</u></b>mokracja"
         ],
-        desc: "the[de] - to",
+        desc: "TRUDNOŚĆ JĘZYKOWA: the[de]-33%, [ze]-33%, [dze]-33% - ta",
         sentence1: [
             "The"
         ],
@@ -2202,7 +2202,7 @@ const fiszki = [
             "Czasami politycy stosują <u><b>de</u></b>magogię. Czyli co stosują? <u><b>Tę</u></b> <u><b>de</u></b>magogię",
             "<u><b>To</u></b> co w naszej rodzinie istnieje to <u><b>de</u></b>mokracja"
         ],
-        desc: "the[de] - to",
+        desc: "TRUDNOŚĆ JĘZYKOWA: the[de]-33%, [ze]-33%, [dze]-33% - ta",
         sentence1: [
             "The"
         ],
@@ -2547,7 +2547,7 @@ const fiszki = [
             "<u><b>To</u></b> co w naszej rodzinie istnieje to <u><b>de</u></b>mokracja",
             "<u><b>De</u></b>mografia społeczństwa to ważny czynnik ekonomiczny"
         ],
-        desc: "the[de] - to",
+        desc: "TRUDNOŚĆ JĘZYKOWA: the[de]-33%, [ze]-33%, [dze]-33% - ta",
         sentence1: [
             "The"
         ],
@@ -4273,7 +4273,7 @@ const fiszki = [
             "Czasami politycy stosują <u><b>de</u></b>magogię. Czyli co stosują? <u><b>Tę</u></b> <u><b>de</u></b>magogię",
             "<u><b>To</u></b> co w naszej rodzinie istnieje to <u><b>de</u></b>mokracja"
         ],
-        desc: "the[de] - ta",
+        desc: "TRUDNOŚĆ JĘZYKOWA: the[de]-33%, [ze]-33%, [dze]-33% - ta",
         sentence1: [
             "The"
         ],
@@ -4389,7 +4389,7 @@ const fiszki = [
             "Czasami politycy stosują <u><b>de</u></b>magogię. Czyli co stosują? <u><b>Tę</u></b> <u><b>de</u></b>magogię",
             "<u><b>To</u></b> co w naszej rodzinie istnieje to <u><b>de</u></b>mokracja"
         ],
-        desc: "the[de] - to",
+        desc: "TRUDNOŚĆ JĘZYKOWA: the[de]-33%, [ze]-33%, [dze]-33% - ta",
         sentence1: [
             "the"
         ],
@@ -4770,7 +4770,7 @@ const fiszki = [
         ],
         srcWord: ["http://arbu-1dcc9.web.app/filmy/leavingschool.mp4", "Openhaymer(2023)", "Biograficzny"],
         srcWordimage: "http://arbu-1dcc9.web.app/filmy/leavingschool.png",
-        desc: "the[de] - to",
+        desc: "TRUDNOŚĆ JĘZYKOWA: the[de]-33%, [ze]-33%, [dze]-33% - ta",
         sentence1: [
             "The"
         ],
@@ -5059,7 +5059,7 @@ const fiszki = [
             "Czasami politycy stosują <u><b>de</u></b>magogię. Czyli co stosują? <u><b>Tę</u></b> <u><b>de</u></b>magogię",
             "<u><b>To</u></b> co w naszej rodzinie istnieje to <u><b>de</u></b>mokracja"
         ],
-        desc: "the[de] - bolesny/bolesne/bolesna",
+        desc: "TRUDNOŚĆ JĘZYKOWA: the[de]-33%, [ze]-33%, [dze]-33% - ta",
         sentence1: [
             "The"
         ],
@@ -5159,7 +5159,7 @@ const fiszki = [
             "Czasami politycy stosują <u><b>de</u></b>magogię. Czyli co stosują? <u><b>Tę</u></b> <u><b>de</u></b>magogię",
             "<u><b>To</u></b> co w naszej rodzinie istnieje to <u><b>de</u></b>mokracja"
         ],
-        desc: "the[de] - bolesny/bolesne/bolesna",
+        desc: "TRUDNOŚĆ JĘZYKOWA: the[de]-33%, [ze]-33%, [dze]-33% - ta",
         sentence1: [
             "the"
         ],
@@ -6227,9 +6227,14 @@ const fiszki = [
             31,
             62
         ],
-        img: "http://arbu-1dcc9.web.app/img/fiszki1/207a.jpg",
-        story: "Taki <u><b>dzień</u></b>, że muszę mówić - '<u><b>dej</u></b> na piwo'",
-        desc: "day[dej] - dzień",
+        img: "http://arbu-1dcc9.web.app/img/fiszki1/221a.jpg",
+                translate: "Oni grają w piłkę nożną w tym momencie",
+        translateb: "[Dej ar pleing futbol at de moment]",
+                translateb2: "[Ewrybody hes fan]",
+        srcWord: ["http://arbu-1dcc9.web.app/filmy/football.mp4", "Pelé. Narodziny legendy (2016)"],
+        srcWordimage: "http://arbu-1dcc9.web.app/filmy/football.png",
+        story: "<u><b>Oni</u></b> z<u><b>dej</u></b>mują jabłka z jabłoni",
+        desc: "they[dej] - oni",
         sentence2: [
             "day"
         ],
@@ -6972,7 +6977,7 @@ const fiszki = [
             'Czasami politycy stosują <span class="adannotation" data-annotation="1"><u><b>de</u></b></span>magogię. Czyli co stosują? <u><b>Tę</u></b> <span class="adannotation" data-annotation="1"><u><b>de</u></b></span>magogię',
             '<u><b>To</u></b> co w naszej rodzinie istnieje to <span class="adannotation" data-annotation="1"><u><b>de</u></b></span>mokracja'
         ],
-        desc: "the[de] - to",
+        desc: "TRUDNOŚĆ JĘZYKOWA: the[de]-33%, [ze]-33%, [dze]-33% - ta",
         sentence2: [
             "the"
         ],
@@ -7851,6 +7856,149 @@ const fiszki = [
             "in",
             "the park",
             "today"
+        ],
+        key: "blue",
+        category1: "nauka",
+        category2: ["osoby"]
+    },
+                                                                                                            {
+        id: [
+            268,
+            41,
+            80
+        ],
+        img: [
+            "http://arbu-1dcc9.web.app/img/fiszki1/8a.jpg",
+            "http://arbu-1dcc9.web.appimg/fiszki1/8b.jpg",
+            "http://arbu-1dcc9.web.app/img/fiszki1/8c.jpg",
+            "http://arbu-1dcc9.web.app/img/fiszki1/8d.jpg",
+            "http://arbu-1dcc9.web.app/img/fiszki1/8e.jpg"
+        ],
+        word: [
+            "http://arbu-1dcc9.web.app/src/is.wav"
+        ],
+        story: [
+            'Gdy ktoś szybko biega obok nas to <u><b>jest</u></b> w popłochu, słyszymy tylko św<span class="adannotation" data-annotation="1"><u><b>is</u></b></span>t',
+            'L<span class="adannotation" data-annotation="1"><u><b>is</u></b></span> <u><b>jest</u></b> dzisiaj listonoszem',
+            '<span class="adannotation" data-annotation="1"><b><u>Is</b></u></span>tota tego przekazu <b><u>jest</b></u> bardzo ważna',
+            'L<span class="adannotation" data-annotation="1"><b><u>is</b></u></span> jest bardzo przebiegły, ale <b><u>jest</b></u> też wilk, który go zje',
+            'Johny Bravo <u><b>jest</b></u> m<span class="adannotation" data-annotation="1"><u><b>is</b></u></span>trzem relacji damsko-męskich',
+            'Lu<span class="adannotation" data-annotation="1"><b><u>is</b></u></span> <b><u>jest</b></u> bardzo zadowolony ze swojej pracy',
+            '<span class="adannotation" data-annotation="1"><b><u>Is</b></u></span>tambuł <b><u>jest</b></u> fajnym miastem'
+        ],
+        desc: "is[is] - jest",
+        sentence1: [
+            "They"
+        ],
+        sentence: [
+            "They",
+            "are ",
+            "having",
+            "dinner",
+            "together",
+            "now"
+        ],
+        key: "blue",
+        category1: "nauka",
+        category2: ["osoby"]
+    },
+                                                                                                                        {
+        id: [
+            269,
+            41,
+            80
+        ],
+        img: [
+                    "http://arbu-1dcc9.web.app/img/fiszki1/51a.jpg",
+                    "http://arbu-1dcc9.web.app/img/fiszki1/220a.jpg"
+],
+        story: [
+            "<b><u>Twoje</b></u> <b><u>ar</b></u>gumenty są bardzo przemawiające",
+            "Papuga <u><b>ar</u></b>a i skowronek <u><b>są</u></b> zaprzyjaźnieni. Mam nadzieję, że ty <u><b>jesteś</u></b> z tego powodu w dobrym nastroju",
+        ],
+        desc: "are[ar] - jest/są - gramatyka",
+        sentence2: [
+            "are"
+        ],
+        sentence: [
+            "They",
+            "are ",
+            "having",
+            "dinner",
+            "together",
+            "now"
+        ],
+        key: "blue",
+        category1: "nauka",
+        category2: ["osoby"]
+    },
+                                                                                                                            {
+        id: [
+            270,
+            41,
+            80
+        ],
+        img: "http://arbu-1dcc9.web.app/img/fiszki1/212a.jpg",
+        story: "<b><u>Dziś</b></u> muszę zbierać na piwo, stoje <b><u>tu</b></u> pod sklepem i mówię <b><u>dej</b></u>",
+        desc: "having[hewing] - mają",
+        sentence2: [
+            "having"
+        ],
+        sentence: [
+            "They",
+            "are ",
+            "having",
+            "dinner",
+            "together",
+            "now"
+        ],
+        key: "blue",
+        category1: "nauka",
+        category2: ["osoby"]
+    },
+                                                                                                                                {
+        id: [
+            271,
+            41,
+            80
+        ],
+        img: "http://arbu-1dcc9.web.app/img/fiszki1/239a.jpg",
+        story: "Wal<u><b>di</u></b> je <u><b>kolacje</u></b>, która pomaga mu uzdrowić <u><b>ner</u></b>kę",
+        desc: "dinner[diner] - kolacja",
+        sentence2: [
+            "dinner"
+        ],
+        sentence: [
+            "They",
+            "are ",
+            "having",
+            "dinner",
+            "together",
+            "now"
+        ],
+        key: "blue",
+        category1: "nauka",
+        category2: ["osoby"]
+    },
+                                                                                                                                    {
+        id: [
+            272,
+            41,
+            80
+        ],
+        img: "http://arbu-1dcc9.web.app/img/fiszki1/239a.jpg",
+        story: "<u><b>Tu</u></b> razem pracujemy przy, żniwach.. Jest <u><b>ge</u></b>nialnie... Kombajnista ustwia h<u><b>eder</u></b> do koszenia zboża",
+        desc: "together[tugeder] - razem",
+        sentence2: [
+            "dinner"
+        ],
+        sentence: [
+            "They",
+            "are ",
+            "having",
+            "dinner",
+            "together",
+            "now"
         ],
         key: "blue",
         category1: "nauka",

@@ -983,7 +983,7 @@ button123:hover {
                 }
                                 .sentenceBC {
                     font-size: 12px;
-                    margin-top: 60px;
+                    margin-bottom: 60px;
                     color: white;
                     z-index: 9999;
                 }
@@ -1451,11 +1451,11 @@ toggleButton.addEventListener('click', function() {
                     button.style.visibility = (button.style.visibility === 'hidden') ? 'visible' : 'hidden';
                     blinkCount++;
 
-                    if (blinkCount === 6) { // 6 przełączeń widoczności (3 mignięcia)
+                    if (blinkCount === 4) { // 6 przełączeń widoczności (3 mignięcia)
                         clearInterval(interval);
                         button.style.visibility = 'visible'; // Upewnij się, że przycisk jest widoczny na końcu
                     }
-                }, 300); // 300 ms przerwy pomiędzy mignięciami
+                }, 200); // 300 ms przerwy pomiędzy mignięciami
             }
 
 // Uruchomienie mignięcia po załadowaniu strony
@@ -1548,7 +1548,7 @@ toggleButton.addEventListener('click', function() {
 </div>
 <div id="konsola">
             <div id="title">CZASY</div>
-<button class="charakter-button" onclick="przekazArgument0(null, '', '', '', '', '', tablica3[1], 'play')">OZNACZ CZAS</button>
+<button class="charakter-button" onclick="przekazArgument0(globalCategory, '', '', '', '', '', tablica3[1], 'play')">OZNACZ CZAS</button>
 <br>
     <button class="charakter-button" onclick="przekazArgument0('PresentSimple', '', '', '', '', '', tablica3[1], 'play')">PRESENT SIMPLE</button>
             <button class="charakter-button" onclick="przekazArgument0('PresentContinous', '', '', '', '', '', tablica3[1], 'other')">PRESENT CONTINOUS</button>
@@ -2254,15 +2254,11 @@ if (czas === 'fiszki' && czas !== "zdania") {
 
                         if (shouldInsertNumbers) {
                             let firstValue = indexes.length > 0 ? indexes[0] : 0;
-                            let secondValue = indexes.length > 0 ? indexes[1] : firstValue + 1;
 
                             // Utworzenie tablicy do wstawienia przed indexes, jeśli obie wartości nie są zerami
-                            if (firstValue !== 0 && secondValue !== 0) {
+                            if (firstValue !== 0) {
                                 let numbersToInsert = [];
                                 for (let i = 1; i < firstValue; i++) {
-                                    numbersToInsert.push(i);
-                                }
-                                for (let i = firstValue; i < secondValue; i++) {
                                     numbersToInsert.push(i);
                                 }
 
@@ -3518,7 +3514,7 @@ ${sentence30}${sentence33}<br>
                             console.log('hej80', index);
                             // Sprawdź, czy jesteśmy poza zakresem tablicy
                             if (index >= srcWords.length && !funkcjaWywolana) {
-                                przekazArgument0(tablica3[2], undefined, false, tablica3[0], true, true, tablica3[1]);
+                                przekazArgument0(tablica3[2], undefined, false, tablica3[0], true, true, tablica3[1], tablica3[4]);
                                 console.log("wykonuje się");
                                 funkcjaWywolana = true;
                             }
@@ -3732,7 +3728,7 @@ if (!stopButtonAdded) {
                             console.log('hej80', index);
                             // Sprawdź, czy jesteśmy poza zakresem tablicy
                             if (index >= srcWords.length && !funkcjaWywolana) {
-                                przekazArgument0(tablica3[2], undefined, false, tablica3[0], true, true, tablica3[1]);
+                                przekazArgument0(tablica3[2], undefined, false, tablica3[0], true, true, tablica3[1], tablica3[4]);
                                 console.log("wykonuje się");
                                 funkcjaWywolana = true;
                             }
@@ -3955,7 +3951,7 @@ if (indexDiv % 2 === 0) {
             setTimeout(function () {
                 $('.progress-bar').remove();
             }, 200); // Opóźnienie w milisekundach (tu: 200 ms)
-            przekazArgument0(tablica3[2], undefined, false, tablica3[0], true, true, tablica3[1]);
+            przekazArgument0(tablica3[2], undefined, false, tablica3[0], true, true, tablica3[1], tablica3[4]);
             console.log("wykonuje się");
             funkcjaWywolana = true;
         }
@@ -4183,7 +4179,7 @@ if (!stopButtonAdded) {
             setTimeout(function () {
                 $('.progress-bar').remove();
             }, 200); // Opóźnienie w milisekundach (tu: 200 ms)
-            przekazArgument0(tablica3[2], undefined, false, tablica3[0], true, true, tablica3[1]);
+            przekazArgument0(tablica3[2], undefined, false, tablica3[0], true, true, tablica3[1], tablica3[4]);
             console.log("wykonuje się");
             funkcjaWywolana = true;
         }
@@ -4507,7 +4503,7 @@ ${sentence30}${sentence33}<br>
 
                         setTimeout(() => {
                             console.log('Kliknięto przycisk o indeksie:', index55);
-                            przekazArgument0(tablica3[2], index55, true, tablica3[0], true, true, tablica3[1]);
+                            przekazArgument0(tablica3[2], index55, true, tablica3[0], true, true, tablica3[1], tablica3[4]);
                         }, 100);
                         // Usunięcie kontenera po wstawieniu nowego
                     });
@@ -4643,7 +4639,7 @@ ${sentence30}${sentence33}<br>
 
                 // Deklaracja tablicy, która będzie zawierać wszystkie tablice
             }
-
+let isVideoPlaying = false;
             function showCombinedSentenceForLesson2(polski, index50, matchingIndexes, lessonIdToShow1, newIndex, indexDiv, lesson1PartLength) {
                 // Tutaj reszta kodu funkcji
                 const matchingFiszki1 = fiszki.filter(fiszka => fiszka.id[1] === lessonIdToShow1);
@@ -4986,16 +4982,29 @@ ${sentence10}${sentence11}<br>
                         }
                     }
 
+let currentVideoElement = null;
                     if (newIndex === 0 && !buttonindex) {
+                        isVideoPlaying = true;
                         console.log('hej3331', buttonindex);
                         let stopButtonAdded = false;
                         let funkcjaWywolana = false;
+                            // Definiowanie funkcji do sprawdzania widoczności wideo
+    function isVideoVisible(videoElement) {
+        const containerRect = videoElement.getBoundingClientRect();
+        return (
+            containerRect.top >= 0 &&
+            containerRect.left >= 0 &&
+            containerRect.bottom <= (window.innerHeight || document.documentElement.clientHeight) &&
+            containerRect.right <= (window.innerWidth || document.documentElement.clientWidth)
+        );
+    }
                         function addVideo1(index) {
                             // Sprawdź, czy jesteśmy poza zakresem tablicy
                             if (index >= srcWords.length && !funkcjaWywolana) {
-                                funkcjaWywolana = true;
+                                isVideoPlaying = false;
                                 countVisibleContainers();
-                                przekazArgument0(tablica3[2], undefined, false, tablica3[0], true, true, tablica3[1]);
+                                funkcjaWywolana = true;
+                                przekazArgument0(tablica3[2], undefined, false, tablica3[0], true, true, tablica3[1], tablica3[4]);
                                 console.log("wykonuje się");
                             }
                             // Usuń poprzednie wideo
@@ -5008,6 +5017,7 @@ ${sentence10}${sentence11}<br>
                                 'muted': true, // Wyciszenie dźwięku wideo
                                 'loop': true // Zapętlenie wideo
                             });
+                            currentVideoElement = $videoElement[0]; // Zapisz element wideo
                             // Dodaj klasę CSS zależnie od indeksu wideo
                             if (index === 0) {
                                 $videoElement.addClass('scaled-video');
@@ -5019,6 +5029,7 @@ ${sentence10}${sentence11}<br>
                                 'src': srcWords[index], // Poprawne użycie interpolacji
                                 'type': 'video/mp4'     // Typ pliku wideo
                             });
+
                             // Dodaj element source do elementu video
                             $sourceElement.appendTo($videoElement);
                             // Dodaj element video do diva dla wideo
@@ -5033,12 +5044,14 @@ ${sentence10}${sentence11}<br>
 
                             // Funkcja obsługi zdarzenia loadedmetadata
                             $videoElement.on('loadedmetadata', function () {
+                                
                                 const videoDuration = this.duration;
                                 videoDurations[index] = videoDuration;
                                 console.log('tablica77', totalDuration);
                                 // Uruchomienie funkcji countVisibleContainers co 2 sekundy
 
                                 $videoElement.on('timeupdate', function () {
+
                                     let adjustedProgress = 0;
                                     for (let i = 0; i < index; i++) {
                                         adjustedProgress += (videoDurations[i] / totalDuration) * 100;
@@ -5056,6 +5069,7 @@ ${sentence10}${sentence11}<br>
                                             addBackgroundToText(matchingFiszki1, matchingIndexes, currentIndexValue, true, lesson1PartLength, polski);
                                         }
                                     }
+                                    
 
                                     // Sprawdź, czy wideo zostało zakończone
                                     if ($videoElement[0].duration - $videoElement[0].currentTime < 1) {
@@ -5063,7 +5077,7 @@ ${sentence10}${sentence11}<br>
                                         // Odtwórz następne wideo po zakończeniu poprzedniego
                                         addVideo1(index + 1);
                                         updateProgress(0);
-                                    }
+                                      }
                                 });
                             });
                             addScenes(index);
@@ -5150,7 +5164,9 @@ if (!stopButtonAdded) {
     stopButtonAdded = true;  // Flaga ustawiona na true, gdy przycisk został dodany
 }
                         }
-                        addVideo1(0);
+                                setTimeout(function () {
+                                    addVideo1(0);
+                                }, 0);
                     } else if (index50 === 0 && buttonindex) {
                         let stopButtonAdded = false;
                         console.log('hej3331', buttonindex);
@@ -5163,7 +5179,7 @@ if (!stopButtonAdded) {
                                     $('.progress-bar').remove();
                                 }, 200); // Opóźnienie w milisekundach (tu: 1 sekunda)
                                 buttonindex = false;
-                                przekazArgument0(tablica3[2], undefined, false, tablica3[0], true, true, tablica3[1]);
+                                przekazArgument0(tablica3[2], undefined, false, tablica3[0], true, true, tablica3[1], tablica3[4]);
                                 console.log("wykonuje się");
                                 funkcjaWywolana2 = true;
                             }
@@ -5302,7 +5318,9 @@ if (!stopButtonAdded) {
     stopButtonAdded = true;  // Flaga ustawiona na true, gdy przycisk został dodany
 }
                         }
-                        addVideo2(0);
+                                setTimeout(function () {
+                                    addVideo2(0);
+                                }, 0);
                     } else {
                         function addVideo3(index) {
                             // Utwórz element <video> i ustaw atrybuty
@@ -5358,7 +5376,7 @@ const quickLessonWidth = 95; // Szerokość przycisku "Szybka lekcja"
 
 // Obsługa kliknięcia przycisku overlay
 $buttonb.on('click', function () {
-            highlightFirstWord(indexDiv);
+
     console.log('Button clicked');
 
     // Utwórz nowy przycisk "Szybka lekcja"
@@ -5390,7 +5408,7 @@ $buttonb.on('click', function () {
         }
     });
     // Utwórz nowy przycisk "Szybka lekcja"
-            const $newButton = $('<button>').text('Wybierz i załaduj').addClass('slide-button');
+            const $newButton = $('<button>').text('Wybierz słowo').addClass('slide-button');
             $newButton.css({
                 'position': 'absolute',
                 'bottom': '10px',
@@ -5405,29 +5423,30 @@ $buttonb.on('click', function () {
                 'z-index': '1000000' // Bardzo wysoki z-index, aby był nad innymi elementami
             });
             $newButton.appendTo($container);
-
-            // Sprawdź, czy kontener ma odpowiedni z-index i position
-            $container.css({
-                'position': 'relative', // Ustawienie position na relative, aby z-index działał
-                'z-index': '1000003'
-            });
-
-            console.log('New button added');
-
+            
             // Animacja: chowanie przycisku "Szybka lekcja" w lewo
             $newButton.animate({
                 right: '-110px'
             }, 500, function () {
                 console.log('Szybka lekcja button hidden');
             });
+                        // Sprawdź, czy kontener ma odpowiedni z-index i position
+            $container.css({
+                'position': 'relative', // Ustawienie position na relative, aby z-index działał
+                'z-index': '1000003'
+            });
+                        highlightFirstWord();
+
+displayWords(currentWordIndex);
 });
-function highlightFirstWord(indexDiv) {
-    console.log('indexDiv', indexDiv);
+
+function highlightFirstWord() {
+
     // Wybierz kontener na podstawie indexDiv
     const $container = $(`.image-container4[data-lesson="${indexDiv}"]`);
 
     // Sprawdź, czy kontener istnieje
-    if ($container.length > 0) {
+    if (matchingFiszki1.length > 0) {
         // Zlokalizuj elementy z tekstem (np. div z klasą sentenceBB)
         const $sentence10 = $container.find('.sentenceBB');
         const $sentence11 = $container.find('.sentence11');
@@ -5457,10 +5476,12 @@ function highlightFirstWord(indexDiv) {
                 let highlightedSpan2 = `<span class="highlighted" style="display:none;">${secondWord}</span>`;
                 let highlightedSpan3 = `<span class="highlighted" style="display:none;">${thirdWord}</span>`;
                 let highlightedSpan4 = `<span class="highlighted" style="display:none;">${forthWord}</span>`;
+                let highlightedSpan5 = `<span class="highlighted" style="display:none;">${fifthWord}</span>`;
+                let highlightedSpan6 = `<span class="highlighted" style="display:none;">${sixthWord}</span>`;
                 
                 // Tworzymy przyciski z klasą CSS
                 let button1 = `<button class="nav-button" id="prev-button">&lt;</button>`;
-                let button2 = `<button class="nav-button" id="next-button">&gt;</button>`;
+                let button2 = `<button class="nextbutton" id="nextbutton">&gt;</button>`;
 
                 // Użyj html(), aby zachować znaczniki i odstępy
                 $sentence10.html(`
@@ -5471,49 +5492,43 @@ function highlightFirstWord(indexDiv) {
                     <div class="sentence1b">${sentence1bba}</div>
                     <div class="sentence1b2">${sentence1bbab}</div>
                 `); // Dodaj przyciski w odpowiednich miejscach
-                $sentence11.html(`
-                    ${button1} 
-                    ${firstWord} ${secondWord} ${thirdWord} ${highlightedSpan4} ${fifthWord} ${sixthWord}
-                    ${button2}
-                    <br>
-                    <div class="sentence1b">${sentence1bba}</div>
-                    <div class="sentence1b2">${sentence1bbab}</div>
-                `); // Dodaj przyciski w odpowiednich miejscach
+
                 let currentHighlightIndex = 0; // Zmienna do przechowywania aktualnego indeksu podświetlenia
-                let currentHighlightIndex2 = 0; // dla $sentence11
+                const currentWordIndex = 0; // Indeks aktualnej fiszki
                 // Dodaj zdarzenie kliknięcia do button2
-                $sentence10.find('#next-button').on('click', function() {
-                    // Ukryj bieżące podświetlenie i przełącz na następne
-                    if (currentHighlightIndex === 0) {
-                        // Zastąp highlightedSpan przez firstWord i aktywuj highlightedSpan2
-                        $sentence10.html(`
-                            ${button1} 
-                            ${firstWord} ${highlightedSpan2} ${thirdWord} ${forthWord} ${fifthWord} ${sixthWord}
-                            ${button2}
-                            <br>
-                            <div class="sentence1b">${sentence1bba}</div>
-                            <div class="sentence1b2">${sentence1bbab}</div>
-                        `);
-                        $sentence10.find('.highlighted').first().hide(); // Ukryj highlightedSpan
-                        $sentence10.find('.highlighted').last().show(); // Pokaż highlightedSpan2
-                        currentHighlightIndex = 1; // Przejdź do następnego indeksu
-                    } else if (currentHighlightIndex === 1) {
-                        // Zastąp highlightedSpan2 przez secondWord i aktywuj highlightedSpan3
-                        $sentence10.html(`
-                            ${button1} 
-                            ${firstWord} ${secondWord} ${highlightedSpan3} ${forthWord} ${fifthWord} ${sixthWord}
-                            ${button2}
-                            <br>
-                            <div class="sentence1b">${sentence1bba}</div>
-                            <div class="sentence1b2">${sentence1bbab}</div>
-                        `);
-                        $sentence10.find('.highlighted').eq(1).hide(); // Ukryj highlightedSpan2
-                        $sentence10.find('.highlighted').last().show(); // Pokaż highlightedSpan3
-                        currentHighlightIndex = 2; // Przejdź do następnego indeksu
-                    } else if (currentHighlightIndex === 2) {
-        console.log('Zmieniam podświetlenie z pierwszego na czwarte słowo.');
-        
+// Definicja funkcji, która obsługuje logikę podświetlenia
+$(document).on('click', '.nextbutton', function() {
+    // Ukryj bieżące podświetlenie i przełącz na następne
+    if (currentHighlightIndex === 0) {
+        // Zastąp highlightedSpan przez firstWord i aktywuj highlightedSpan2
+        $sentence10.html(`
+            ${button1} 
+            ${firstWord} ${highlightedSpan2} ${thirdWord} ${forthWord} ${fifthWord} ${sixthWord}
+            ${button2}
+            <br>
+            <div class="sentence1b">${sentence1bba}</div>
+            <div class="sentence1b2">${sentence1bbab}</div>
+        `);
+        $sentence10.find('.highlighted').first().hide(); // Ukryj highlightedSpan
+        $sentence10.find('.highlighted').last().show(); // Pokaż highlightedSpan2
+        currentHighlightIndex = 1; // Przejdź do następnego indeksu
+displayWords(1);
+    } else if (currentHighlightIndex === 1) {
         // Zastąp highlightedSpan2 przez secondWord i aktywuj highlightedSpan3
+        $sentence10.html(`
+            ${button1} 
+            ${firstWord} ${secondWord} ${highlightedSpan3} ${forthWord} ${fifthWord} ${sixthWord}
+            ${button2}
+            <br>
+            <div class="sentence1b">${sentence1bba}</div>
+            <div class="sentence1b2">${sentence1bbab}</div>
+        `);
+        $sentence10.find('.highlighted').eq(1).hide(); // Ukryj highlightedSpan2
+        $sentence10.find('.highlighted').last().show(); // Pokaż highlightedSpan3
+        currentHighlightIndex = 2; // Przejdź do następnego indeksu
+displayWords(2);
+    } else if (currentHighlightIndex === 2) {
+        console.log('Zmieniam podświetlenie z pierwszego na czwarte słowo.');
         $sentence10.html(`
             ${button1} 
             ${firstWord} ${secondWord} ${thirdWord} ${highlightedSpan4} ${fifthWord} ${sixthWord}
@@ -5522,16 +5537,178 @@ function highlightFirstWord(indexDiv) {
             <div class="sentence1b">${sentence1bba}</div>
             <div class="sentence1b2">${sentence1bbab}</div>
         `);
-        $sentence10.find('.highlighted').eq(1).hide(); // Ukryj highlightedSpan2
-        $sentence10.find('.highlighted').last().show(); // Pokaż highlightedSpan3
-        currentHighlightIndex = 3; // Przejdź do następnego indeksu
-        console.log('Podświetlenie zaktualizowane. Aktualny indeks:', currentHighlightIndex);
+                    $sentence10.find('.highlighted').first().hide(); // Ukryj highlightedSpan
+        $sentence10.find('.highlighted').last().show(); // Pokaż highlightedSpan2
+        currentHighlightIndex = 3;
+displayWords(3);
+    } else if (currentHighlightIndex === 3) {
+        console.log('Zmieniam podświetlenie z pierwszego na piąte słowo.');
+        $sentence10.html(`
+            ${button1} 
+            ${firstWord} ${secondWord} ${thirdWord} ${forthWord} ${highlightedSpan5} ${sixthWord}
+            ${button2}
+            <br>
+            <div class="sentence1b">${sentence1bba}</div>
+            <div class="sentence1b2">${sentence1bbab}</div>
+        `);
+                    $sentence10.find('.highlighted').first().hide(); // Ukryj highlightedSpan
+        $sentence10.find('.highlighted').last().show(); // Pokaż highlightedSpan2
+        currentHighlightIndex = 4;
+    } else if (currentHighlightIndex === 4) {
+        console.log('Zmieniam podświetlenie z pierwszego na szóste słowo.');
+        $sentence10.html(`
+            ${button1} 
+            ${firstWord} ${secondWord} ${thirdWord} ${forthWord} ${fifthWord} ${highlightedSpan6}
+            ${button2}
+            <br>
+            <div class="sentence1b">${sentence1bba}</div>
+            <div class="sentence1b2">${sentence1bbab}</div>
+        `);
+                    $sentence10.find('.highlighted').first().hide(); // Ukryj highlightedSpan
+        $sentence10.find('.highlighted').last().show(); // Pokaż highlightedSpan2
+        currentHighlightIndex = 5;
     }
+        // Obsługa kliknięcia na "next" - przechodzenie do kolejnych słów
 
-    // Dodaj zdarzenie kliknięcia do button2 ponownie, aby zachować funkcjonalność
-    $sentence10.find('#next-button').on('click', arguments.callee);
 });
+// Obsługa kliknięcia przycisku overlay
+                $buttonb.on('click', function() {
+                    console.log('Button clicked');
+
+                    const $loadButton = $('<button>').text('Szybka lekcja').addClass('slide-button');
+                    $loadButton.css({
+                        'position': 'absolute',
+                        'bottom': '10px',
+                        'right': '30px',
+                        'width': '120px',
+                        'height': '30px',
+                        'cursor': 'pointer',
+                        'border-radius': '8px',
+                        'background-color': 'green',
+                        'color': 'white',
+                        'display': 'block',
+                        'z-index': '1000001',
+                        'text-align': 'left',
+                        'overflow': 'hidden'
+                    }).appendTo($container);
+
+                    // Animacja: zwijanie przycisku "Szybka lekcja" w lewo
+                    $loadButton.animate({
+                        width: '0px',
+                        right: '10px'
+                    }, {
+                        duration: 1500,
+                        complete: function() {
+                            $(this).remove();
+                        }
+                    });
+
+                    const $newButton = $('<button>').text('Wybierz słowo').addClass('slide-button');
+                    $newButton.css({
+                        'position': 'absolute',
+                        'bottom': '10px',
+                        'right': '30px',
+                        'width': '120px',
+                        'height': '30px',
+                        'cursor': 'pointer',
+                        'border-radius': '8px',
+                        'background-color': 'blue',
+                        'color': 'white',
+                        'display': 'block',
+                        'z-index': '1000000'
+                    }).appendTo($container);
+
+                    $newButton.animate({
+                        right: '-110px'
+                    }, 500, function() {
+                        console.log('Szybka lekcja button hidden');
+                    });
+
+                    $container.css({
+                        'position': 'relative',
+                        'z-index': '1000003'
+                    });
+
+                    highlightFirstWord(); // Można przenieść wywołanie do innego miejsca, jeśli to konieczne
+                });
+
+                // Funkcja displayWords przyjmuje teraz currentWordIndex
+                function displayWords(nowy) {
+                    console.log('hej4433', currentWordIndex);
+                    if (matchingFiszki1.length > 0) {
+                        const $wordContainer = $('<div>').attr('id', 'wordDisplay').css({
+                            'position': 'absolute',
+                            'bottom': '50px',
+                            'font-size': '30px',
+                            'right': '30px',
+                            'width': '200px',
+                            'height': '30px',
+                            'text-align': 'center',
+                            'line-height': '30px',
+                            'color': 'black',
+                            'background-color': 'lightgray',
+                            'border-radius': '8px',
+                            'z-index': '1000000'
+                        }).appendTo($container);
+
+                        const $currentWordDisplay = $('<span>').appendTo($wordContainer);
+
+                        let currentFiszkaIndex = nowy;
+
+                        const $prevButton = $('<button>').text('<').css({
+                            'position': 'absolute',
+                            'left': '-20px',
+                            'width': '30px',
+                            'height': '30px',
+                            'cursor': 'pointer',
+                            'z-index': '1000001'
+                        }).appendTo($wordContainer);
+
+                        const $nextButton = $('<button>')
+                            .text('>')
+                            .attr('id', 'next-button') 
+                            .addClass('next-button')
+                            .css({
+                                'position': 'absolute',
+                                'right': '-20px',
+                                'width': '30px',
+                                'height': '30px',
+                                'cursor': 'pointer',
+                                'z-index': '1000001'
+                            }).appendTo($wordContainer);
+
+                        $prevButton.on('click', function() {
+                            if (currentFiszkaIndex > 0) {
+                                currentFiszkaIndex--;
+                                console.log('Moving to previous fiszka, currentFiszkaIndex:', currentFiszkaIndex);
+                                updateWordDisplay(currentWordIndex); 
+                            }
+                        });
+
+                        $nextButton.on('click', function() {
+                            if (currentFiszkaIndex < matchingFiszki1.length - 1) {
+                                currentFiszkaIndex++;
+                                currentWordIndex = nowy; 
+                                console.log('Moving to next fiszka:', currentFiszkaIndex);
+                                updateWordDisplay(currentWordIndex); 
+                            }
+                        });
+
+                        function updateWordDisplay(currentWordIndex) {
+                            const fiszka = matchingFiszki1[currentFiszkaIndex];
+                            if (fiszka) {
+                                const currentWord = fiszka.sentence1[currentWordIndex] || fiszka.sentence2[currentWordIndex] || "";
+                                $currentWordDisplay.text(currentWord); 
+                                console.log(`Displaying: ${currentWord}`); 
+                            }
+                        }
+
+                        updateWordDisplay(currentWordIndex);
+                    }
+                }
+                displayWords(currentWordIndex); // Wywołanie z indeksem
                 // Dostosuj rozmiar czcionki
+                updateWordDisplay(currentWordIndex);
                 adjustFontSize($sentence10);
             } else {
                 console.log('Nie znaleziono słów w sentence10.');
@@ -5543,8 +5720,7 @@ function highlightFirstWord(indexDiv) {
         console.log('Nie znaleziono kontenera o data-lesson = ' + indexDiv);
     }
 }
-
-
+highlightFirstWord();
 
 // Funkcja dostosowująca rozmiar czcionki
 function adjustFontSize($sentence10) {
@@ -5590,6 +5766,21 @@ function adjustFontSize($sentence10) {
                         }
                         addVideo3(0);
                     }
+                    let videoNotVisibleFlag = false;
+                    // Funkcja do sprawdzania widoczności co określony czas
+// Ustawienie interwału
+const checkVideoVisibility = setInterval(() => {
+    if (currentVideoElement && isVideoPlaying) {
+        if (!isVideoVisible(currentVideoElement)) {
+            if (!videoNotVisibleFlag) { // Sprawdź, czy funkcja już była wywołana
+                console.log("Wideo jest niewidoczne, losowanie nowej tablicy...");
+                isVideoPlaying = false;
+                countVisibleContainers(); // Wywołaj funkcję losującą nowe tablice
+                videoNotVisibleFlag = true; // Ustaw flagę, aby uniknąć kolejnych wywołań
+            }
+        }
+    }
+}, 1200); // Sprawdzaj co 1 sekundę
 
 if ((index50 === 0) || (newIndex === 0)) {
                         var $sentenceDivB = $('<div></div>');
@@ -5639,7 +5830,7 @@ if ((index50 === 0) || (newIndex === 0)) {
                         buttonindex = true;
                         setTimeout(() => {
                             console.log('Kliknięto przycisk o indeksie:', index55);
-                            przekazArgument0(tablica3[2], index55, true, tablica3[0], true, true, tablica3[1]);
+                            przekazArgument0(tablica3[2], index55, true, tablica3[0], true, true, tablica3[1], tablica3[4]);
                             console.log('hej26', czas);
                         }, 100);
                         // Usunięcie kontenera po wstawieniu nowego
@@ -6096,7 +6287,7 @@ ${sentence10}<br>
                             if (index >= srcWords.length && !funkcjaWywolana) {
                                 funkcjaWywolana = true;
                                 countVisibleContainers();
-                                przekazArgument0(tablica3[2], undefined, false, tablica3[0], true, true, tablica3[1]);
+                                przekazArgument0(tablica3[2], undefined, false, tablica3[0], true, true, tablica3[1], tablica3[4]);
                                 console.log("wykonuje się");
                             }
                             // Usuń poprzednie wideo
@@ -6218,7 +6409,7 @@ ${sentence10}<br>
                                     $('.progress-bar').remove();
                                 }, 200); // Opóźnienie w milisekundach (tu: 1 sekunda)
                                 buttonindex = false;
-                                przekazArgument0(tablica3[2], undefined, false, tablica3[0], true, true, tablica3[1]);
+                                przekazArgument0(tablica3[2], undefined, false, tablica3[0], true, true, tablica3[1], tablica3[4]);
                                 console.log("wykonuje się");
                                 funkcjaWywolana2 = true;
                             }
@@ -6433,7 +6624,7 @@ ${sentence10}<br>
                         buttonindex = true;
                         setTimeout(() => {
                             console.log('Kliknięto przycisk o indeksie:', index55);
-                            przekazArgument0(tablica3[2], index55, true, tablica3[0], true, true, tablica3[1]);
+                            przekazArgument0(tablica3[2], index55, true, tablica3[0], true, true, tablica3[1], tablica3[4]);
                             console.log('hej26', czas);
                         }, 100);
                         // Usunięcie kontenera po wstawieniu nowego
@@ -6474,9 +6665,15 @@ let isFirstCall = true;
 
 
 function countVisibleContainers() {
+    console.log('hej124', isVideoPlaying);
+        // Sprawdź, czy wideo jest odtwarzane i widoczne
+    if (isVideoPlaying && currentVideoElement && isVideoVisible(currentVideoElement)) {
+        return; // Nie wykonuj nic, jeśli wideo jest odtwarzane i widoczne
+    }
     indexes = [];
 
     $('.grid-container .image-container4').each(function (index) {
+        
         const containerRect = this.getBoundingClientRect();
         const isVisible = (
             containerRect.top >= 0 &&
@@ -6518,7 +6715,7 @@ if (indexes.length >= 8 && !hasPreviousIndexesBeenSet) {
             console.log('Aktualne widoczne indeksy:', indexes);
             otherFunction(indexes);
             timeoutId = null; // Resetuj timeoutId po wykonaniu funkcji
-        }, 0); // Czekaj 2 sekundy od ostatniego scrollowania
+        }, 200); // Czekaj 2 sekundy od ostatniego scrollowania
     }
 
     // Aktualizacja czasu ostatniej zmiany
@@ -6535,7 +6732,7 @@ hasPreviousIndexesBeenSet = false;
                 debounceTimer = setTimeout(function () {
                                                             console.log('hej5432');
                     // Wywołanie funkcji po zakończeniu przewijania
-                    countVisibleContainers();
+
                 }, 1000); // Czas w milisekundach, po którym funkcja zostanie wywołana
             });
 
@@ -6544,7 +6741,7 @@ hasPreviousIndexesBeenSet = false;
 
                 console.log('Przekazane indeksy do otherFunction:', indexes);
                 console.log('wywołana');
-                przekazArgument0(tablica3[2], undefined, false, 'zdania', false, false, tablica3[1]);
+                przekazArgument0(tablica3[2], undefined, false, 'zdania', false, false, tablica3[1], tablica3[4]);
             }
             document.addEventListener("DOMContentLoaded", () => {
     // Pobierz userAgent przeglądarki
@@ -6575,7 +6772,7 @@ hasPreviousIndexesBeenSet = false;
     }
 });
 
-        przekazArgument0(tablica3[2], '', false, 'fiszki', true, true, tablica3[1]);
+        przekazArgument0(tablica3[2], '', false, 'fiszki', true, true, tablica3[1], tablica3[4]);
                     ustawTryb('fiszki');
 
         </script>
