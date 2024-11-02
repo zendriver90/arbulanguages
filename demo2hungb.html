@@ -54,7 +54,7 @@
         <script src="js/lista.js"></script>
     <div class="grid-container">
     </div>
-    <script src="js/testowyb.js"></script>
+    <script src="hung.js"></script>
 <script>
 // Wywołaj funkcję z otrzymaną wartością
 function wybierzRodzaj(category) {
@@ -73,6 +73,7 @@ function wybierzRodzaj(category) {
                 if (!matchingLessons.includes(fiszka.id[1])) {
                     matchingLessons.push(fiszka.id[1]);
                 }
+                console.log('hej134b', matchingLessons);
             }
         }
     } else {
@@ -100,7 +101,7 @@ if (fiszka.category !== 'all') {
     
                     console.log('hej222', matchingLessons);
     if (matchingLessons.length > 0) {
-        const nextThreeLessons = matchingLessons.slice(0, 1);
+        const nextThreeLessons = matchingLessons.slice(1, 2);
         // Wyświetl fiszki dla każdej znalezionej lekcji
         // Wyświetl fiszki dla kolejnych 3 lekcji
         console.log('Wyświetlanie kolejnych trzech lekcji:');

@@ -87,7 +87,11 @@
     margin-bottom: 10px;
     font-size: 26px;
 }
-
+.fiszka_story2 {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 10px;
+}
 
 img.fiszka_img {
     position: relative;
@@ -208,14 +212,19 @@ story_button {
             }
             @media (max-width: 999px) {
                 .fiszka {
-    border: 1px solid #999;
-    background: #eee;
-    border-radius: 5px;
-    text-align: center;
-    width: 100%;
-    height: auto;
-    margin-right: 200px; /* Ustaw margines prawy */
-    box-sizing: border-box; /* Wlicz marginesy w szerokość i wysokość */
+    position: absolute;
+    padding: 10px;
+    bottom: 100px;
+    right: 50px;
+    margin: 5px;
+    background-color: white;
+    border: 1px solid #dddddd;
+    border-radius: 8px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    z-index: 1000005;
+    font-family: Arial, sans-serif;
+    color: #333;
+    max-width: 300px;
 }
 
 .fiszka_story {
@@ -322,15 +331,15 @@ img.fiszka_img {
 
 .fiszka_button.fiszka_button_trening {
     border-radius: 20px;
-  width: 300px;  /* Dostosuj szerokość według własnych preferencji */
-  height: 80px;  /* Dostosuj wysokość według własnych preferencji */
+  width: 30px;  /* Dostosuj szerokość według własnych preferencji */
+  height: 20px;  /* Dostosuj wysokość według własnych preferencji */
   font-size: 25px;
   /* Dodaj inne właściwości CSS, jeśli są potrzebne */
 }
 .fiszka_button.fiszka_button_znam {
         border-radius: 20px;
-  width: 300px;  /* Dostosuj szerokość według własnych preferencji */
-  height: 80px;  /* Dostosuj wysokość według własnych preferencji */
+  width: 30px;  /* Dostosuj szerokość według własnych preferencji */
+  height: 20px;  /* Dostosuj wysokość według własnych preferencji */
     font-size: 25px;
   /* Dodaj inne właściwości CSS, jeśli są potrzebne */
 }
@@ -343,7 +352,7 @@ button.fiszka_button {
 button.story_button {
         border-radius: 15px;
         padding: 10px 20px; /* odstępy wewnętrzne */
-        font-size: 30px;
+        font-size: 5px;
         width: auto;
         max-width: 100%;
         box-sizing: border-box;

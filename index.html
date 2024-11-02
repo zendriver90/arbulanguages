@@ -13,7 +13,8 @@ html, body {
 
 #polski,
 #angielski,
-#british {
+#british,
+#hungarian {
     font-size: 10px;
     position: absolute;
     z-index: 9999;
@@ -96,7 +97,8 @@ button {
 
 #polski,
 #angielski,
-#british {
+#british,
+#hungarian {
     font-size: 10px;
     position: absolute;
     z-index: 9999;
@@ -185,6 +187,13 @@ button {
                     Twój przeglądarka nie obsługuje elementu video.
                 </video>
             </div>
+                        <div data-language="hu">
+                <div id="hungarian">Hungarian</div>
+                <video autoplay loop muted>
+                    <source src="start/Hungary.mp4" type="video/mp4">
+                    Twój przeglądarka nie obsługuje elementu video.
+                </video>
+            </div>
         </div>
         <button id="start-btn">START</button>
         <div id="language-options" class="hidden">
@@ -207,7 +216,8 @@ button {
             pl: 'start/Poland.mp4',
             en: 'start/USA.mp4',
             br: 'start/England.mp4',
-            es: 'start/Spain.mp4'
+            es: 'start/Spain.mp4',
+            hu: 'start/Hungary.mp4'
         };
 
         nativeLanguageContainer.addEventListener('click', function(e) {
@@ -252,6 +262,10 @@ button {
                 languageOptions = [
                     { value: 'es', text: 'Spanish', video: flags['es'] }
                 ];
+            } else if (nativeLanguage === 'hu') {
+                languageOptions = [
+                    { value: 'en', text: 'Angielski', video: flags['en'] }
+                ];
             }
 
             languageOptions.forEach(option => {
@@ -278,6 +292,8 @@ button {
                 link = 'matrix3.html';
             } else if (selectedNativeLanguage === 'br' && selectedLearnLanguage === 'es') {
                 link = 'matrix3.html';
+            } else if (selectedNativeLanguage === 'hu' && selectedLearnLanguage === 'en') {
+                link = 'hung.html';
             }
 
             if (link) {

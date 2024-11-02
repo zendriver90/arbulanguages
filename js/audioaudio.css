@@ -108,8 +108,8 @@
                             }
                             @media (max-width: 999px) {
                                 .audioplayer{
-    width: 100px;
-    height: 100px;
+    width: 30px;
+    height: 30px;
     border: solid;
     border-radius: 8px;
 }
@@ -169,14 +169,14 @@
 #part button {
     flex: 0 0 auto; /* Przyciski zachowują swoją szerokość */
     margin: 0px; /* Marginesy między przyciskami */
-    font-size: 40px;
+    font-size: 10px;
 }
 
                 #storyone {
                     border-radius: 20px;
-                    width: 800px;
-                    height: 120px;
-                    font-size: 40px;
+                    width: 80px;
+                    height: 30px;
+                    font-size: 10px;
                 }
                 /* Stylizacja dla adnotacji/potęgi */
 .adannotation {

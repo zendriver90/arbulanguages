@@ -208,7 +208,7 @@ const fiszki = [
             'Czasami politycy stosują <span class="adannotation" data-annotation="1"><u><b>de</u></b></span>magogię. Czyli co stosują? <u><b>Tę</u></b> <span class="adannotation" data-annotation="1"><u><b>de</u></b></span>magogię',
             '<u><b>To</u></b> co w naszej rodzinie istnieje to <span class="adannotation" data-annotation="1"><u><b>de</u></b></span>mokracja'
         ],
-        desc: "TRUDNOŚĆ JĘZYKOWA: the[de]-33%, [ze]-33%, [dze]-33% - ta",
+        desc: "TRUDNOŚĆ JĘZYKOWA: the[de]-33%, [ze]-33%, [d-ze]-33% - ta",
         sentence2: [
             "the"
         ],
@@ -363,7 +363,7 @@ const fiszki = [
             "geografia", "miasta"
         ],
         category2: ["czasownik"],
-                category3: ["PresentSimple", "PresentSimpleCzasownik"]
+        category3: ["PresentSimple", "PresentSimpleCzasownik"]
     },
     {
         id: [
@@ -1073,7 +1073,7 @@ const fiszki = [
             "Czasami politycy stosują <u><b>de</u></b>magogię. Czyli co stosują? <u><b>Tę</u></b> <u><b>de</u></b>magogię",
             "<u><b>To</u></b> co w naszej rodzinie istnieje to <u><b>de</u></b>mokracja"
         ],
-        desc: "TRUDNOŚĆ JĘZYKOWA: the[de]-33%, [ze]-33%, [dze]-33% - ta",
+        desc: "TRUDNOŚĆ JĘZYKOWA: the[de]-33%, [ze]-33%, [d-ze]-33% - ta",
         sentence1: [
             "The"
         ],
@@ -2202,7 +2202,7 @@ const fiszki = [
             "Czasami politycy stosują <u><b>de</u></b>magogię. Czyli co stosują? <u><b>Tę</u></b> <u><b>de</u></b>magogię",
             "<u><b>To</u></b> co w naszej rodzinie istnieje to <u><b>de</u></b>mokracja"
         ],
-        desc: "TRUDNOŚĆ JĘZYKOWA: the[de]-33%, [ze]-33%, [dze]-33% - ta",
+        desc: "TRUDNOŚĆ JĘZYKOWA: the[de]-33%, [ze]-33%, [d-ze]-33% - ta",
         sentence1: [
             "The"
         ],
@@ -2547,7 +2547,7 @@ const fiszki = [
             "<u><b>To</u></b> co w naszej rodzinie istnieje to <u><b>de</u></b>mokracja",
             "<u><b>De</u></b>mografia społeczństwa to ważny czynnik ekonomiczny"
         ],
-        desc: "TRUDNOŚĆ JĘZYKOWA: the[de]-33%, [ze]-33%, [dze]-33% - ta",
+        desc: "TRUDNOŚĆ JĘZYKOWA: the[de]-33%, [ze]-33%, [d-ze]-33% - ta",
         sentence1: [
             "The"
         ],
@@ -4273,7 +4273,7 @@ const fiszki = [
             "Czasami politycy stosują <u><b>de</u></b>magogię. Czyli co stosują? <u><b>Tę</u></b> <u><b>de</u></b>magogię",
             "<u><b>To</u></b> co w naszej rodzinie istnieje to <u><b>de</u></b>mokracja"
         ],
-        desc: "TRUDNOŚĆ JĘZYKOWA: the[de]-33%, [ze]-33%, [dze]-33% - ta",
+        desc: "TRUDNOŚĆ JĘZYKOWA: the[de]-33%, [ze]-33%, [d-ze]-33% - ta",
         sentence1: [
             "The"
         ],
@@ -4389,7 +4389,7 @@ const fiszki = [
             "Czasami politycy stosują <u><b>de</u></b>magogię. Czyli co stosują? <u><b>Tę</u></b> <u><b>de</u></b>magogię",
             "<u><b>To</u></b> co w naszej rodzinie istnieje to <u><b>de</u></b>mokracja"
         ],
-        desc: "TRUDNOŚĆ JĘZYKOWA: the[de]-33%, [ze]-33%, [dze]-33% - ta",
+        desc: "TRUDNOŚĆ JĘZYKOWA: the[de]-33%, [ze]-33%, [d-ze]-33% - ta",
         sentence1: [
             "the"
         ],
@@ -4770,7 +4770,7 @@ const fiszki = [
         ],
         srcWord: ["http://arbu-1dcc9.web.app/filmy/leavingschool.mp4", "Openhaymer(2023)", "Biograficzny"],
         srcWordimage: "http://arbu-1dcc9.web.app/filmy/leavingschool.png",
-        desc: "TRUDNOŚĆ JĘZYKOWA: the[de]-33%, [ze]-33%, [dze]-33% - ta",
+        desc: "TRUDNOŚĆ JĘZYKOWA: the[de]-33%, [ze]-33%, [d-ze]-33% - ta",
         sentence1: [
             "The"
         ],
@@ -5059,7 +5059,7 @@ const fiszki = [
             "Czasami politycy stosują <u><b>de</u></b>magogię. Czyli co stosują? <u><b>Tę</u></b> <u><b>de</u></b>magogię",
             "<u><b>To</u></b> co w naszej rodzinie istnieje to <u><b>de</u></b>mokracja"
         ],
-        desc: "TRUDNOŚĆ JĘZYKOWA: the[de]-33%, [ze]-33%, [dze]-33% - ta",
+        desc: "TRUDNOŚĆ JĘZYKOWA: the[de]-33%, [ze]-33%, [d-ze]-33% - ta",
         sentence1: [
             "The"
         ],
@@ -5159,7 +5159,7 @@ const fiszki = [
             "Czasami politycy stosują <u><b>de</u></b>magogię. Czyli co stosują? <u><b>Tę</u></b> <u><b>de</u></b>magogię",
             "<u><b>To</u></b> co w naszej rodzinie istnieje to <u><b>de</u></b>mokracja"
         ],
-        desc: "TRUDNOŚĆ JĘZYKOWA: the[de]-33%, [ze]-33%, [dze]-33% - ta",
+        desc: "TRUDNOŚĆ JĘZYKOWA: the[de]-33%, [ze]-33%, [d-ze]-33% - ta",
         sentence1: [
             "the"
         ],
@@ -6155,7 +6155,7 @@ const fiszki = [
         ],
         img: "http://arbu-1dcc9.web.app/img/fiszki1/204a.jpg",
         story: "Mi<b><u>łe</b></u> słowa, jestem za nie wdzięczny. Na weekend jade <b><u>s</b></u>am na jezioro Śnia<b><u>rd</b></u>wy",
-        desc: "words[łerds] - słowa(liczba mnoga od word)",
+        desc: "words[łerds-50%, łords-50%] - słowa(liczba mnoga od word)",
         sentence1: [
             "words"
         ],
@@ -6977,7 +6977,7 @@ const fiszki = [
             'Czasami politycy stosują <span class="adannotation" data-annotation="1"><u><b>de</u></b></span>magogię. Czyli co stosują? <u><b>Tę</u></b> <span class="adannotation" data-annotation="1"><u><b>de</u></b></span>magogię',
             '<u><b>To</u></b> co w naszej rodzinie istnieje to <span class="adannotation" data-annotation="1"><u><b>de</u></b></span>mokracja'
         ],
-        desc: "TRUDNOŚĆ JĘZYKOWA: the[de]-33%, [ze]-33%, [dze]-33% - ta",
+        desc: "TRUDNOŚĆ JĘZYKOWA: the[de]-33%, [ze]-33%, [d-ze]-33% - ta",
         sentence2: [
             "the"
         ],
@@ -8003,8 +8003,185 @@ const fiszki = [
         key: "blue",
         category1: "nauka",
         category2: ["osoby"]
+    },
+                                {
+        id: [
+            273,
+            42,
+            81
+        ],
+        img: [
+            "http://arbu-1dcc9.web.app/img/fiszki1/19a.jpg",
+            "http://arbu-1dcc9.web.app/img/fiszki1/19b.jpg",
+            "http://arbu-1dcc9.web.app/img/fiszki1/19c.jpg",
+            "http://arbu-1dcc9.web.app/img/fiszki1/19d.jpg",
+            "http://arbu-1dcc9.web.app/img/fiszki1/19e.jpg"
+        ],
+        translate: "On biega dziś w parku",
+        translateb: "[Hi is raning in de park tudej]",
+        translateb2: "[Hi is raning]",
+        srcWord: ["http://arbu-1dcc9.web.app/filmy/running.mp4", "Forrest Gump (1994)"],
+        srcWord2: ["http://arbu-1dcc9.web.app/filmy/procedure.mp4", "Breaking Bad"],
+        srcWordimage: "http://arbu-1dcc9.web.app/filmy/running.png",
+        word: [
+            "http://arbu-1dcc9.web.app/voice/bike.mp4"
+        ],
+        story: [
+            "<u><b>Ja</u></b> jestem Piotrek, mam okulary ochronne, gdy jechałem rowerem wleciała mi mucha do <u><b>oka</u></b>, krzyczałem <u><b>ajjj</u></b> - dlaczego to <u><b>mi</u></b> wleciała mucha do <u><b>oka</u></b>, <u><b>ajjj</u></b>",
+            "M<u><b>aj</u></b>a ma zezowate <u><b>oko</u></b> i mówi, no <u><b>JA</u></b> widzę ciebie podwójnie",
+            "Nauka o mitach, takich jak królowa G</u></b>aj</u></b>a to ten temat, gdzie <u><b>ja</u></b> mam największą wiedze",
+            "Teraz <u><b>ja</u></b> występuję na weselu jako wodzirej i śpiewam <u><b>Aj</u></b>-ja-jaj tak słodko jest tu z wami być..",
+            "Mo<u><b>ja</u></b> babcia idzie do kurnika po jaja, a <u><b>ja</u></b> będę za chwilę jadł jajecznice"
+        ],
+        desc: "I[aj] - ja",
+        sentence1: [
+            "I"
+        ],
+        sentence: [
+            "I",
+            "am",
+            "learning",
+            "English"
+        ],
+        key: "the adults",
+        category1: "nauka",
+        category2: ["osoby"],
+        category3: ["PresentContinous"]
+    },
+                                                                                                                                        {
+        id: [
+            274,
+            42,
+            81
+        ],
+        img: [
+            "http://arbu-1dcc9.web.app/img/fiszki1/20a.jpg",
+            "http://arbu-1dcc9.web.app/img/fiszki1/20b.jpg",
+            "http://arbu-1dcc9.web.app/img/fiszki1/20c.jpg",
+            "http://arbu-1dcc9.web.app/img/fiszki1/20d.jpg",
+            "http://arbu-1dcc9.web.app/img/fiszki1/20e.jpg"
+
+        ],
+        story: [
+            "Zawsze po treningu j<u><b>em</u></b>, dlatego <u><b>jestem</u></b> wysportowany i silny",
+            "M<u><b>am</u></b> j<u><b>em</u></b>iołę i <u><b>jestem</u></b> zadowolony z jej zapachu",
+            "Emanacją mojej pracy badawczej, którą prowadziłem s<u><b>am</u></b> - jest to, że teraz ja <u><b>jestem</u></b> w tym temacie specjalistą",
+            "Amstaf <u><b>Em</u></b>il mnie goni, <u><b>jestem</u></b> w tarapatach",
+            "Mój idol <u><b>Em</u></b>inem powiedział, <u><b>ja jestem</u></b> najlepszym raperem i po tym stwierdzneiu teraz <u><b>ja jestem</u></b> w fajnych emocjach"
+        ],
+        desc: "am[em] - jestem",
+        sentence1: [
+            "am"
+        ],
+        sentence: [
+            "I",
+            "am",
+            "learning",
+            "English"
+        ],
+        key: "blue",
+        category1: "nauka",
+        category2: ["osoby"]
+    },
+                                                                                                                                            {
+        id: [
+            275,
+            42,
+            81
+        ],
+        img: "http://arbu-1dcc9.web.app/img/fiszki1/239a.jpg",
+        story: "K<u><b>ler</u></b> kościelny uczy się grać w <u><b>Nin</u></b>tendo i grę <u><b>G</u></b>o",
+        desc: "learning[lerning] - uczę się",
+        sentence2: [
+            "am"
+        ],
+        sentence: [
+            "I",
+            "am",
+            "learning",
+            "English"
+        ],
+        key: "blue",
+        category1: "nauka",
+        category2: ["osoby"]
+    },
+                                                                                                                                                {
+        id: [
+            276,
+            42,
+            81
+        ],
+        img: "http://arbu-1dcc9.web.app/img/fiszki1/239a.jpg",
+        story: "<u><b>In</u></b>nowacyjna metoda nauki językow, to jak lepienie <u><b>gli</u></b>ny - bardzo łatwe i <u><b>sz</u></b>ybkie",
+        desc: "english[TRUDNOŚĆ JĘZYKOWA - inglisz(30%), ynglish(30%), english(30%)] - uczę się",
+        sentence2: [
+            "English"
+        ],
+        sentence: [
+            "I",
+            "am",
+            "learning",
+            "English"
+        ],
+        key: "blue",
+        category1: "nauka",
+        category2: ["osoby"]
+    },
+                                                                                                                                                    {
+        id: [
+            277,
+            42,
+            81
+        ],
+        img: [
+            "http://arbu-1dcc9.web.app/img/fiszki1/43a.jpg",
+            "http://arbu-1dcc9.web.app/img/fiszki1/80b.jpg",
+            "http://arbu-1dcc9.web.app/img/fiszki1/83c.jpg",
+            "http://arbu-1dcc9.web.app/img/fiszki1/108d.jpg"
+        ],
+        word: [
+            "http://arbu-1dcc9.web.app/voice/music.mp4"
+        ],
+        story: [
+            "Quo va<b><u>dis</b></u> <b><u>to</b></u> cytat bardzo znany",
+            "To słówko distant - czytamy <b><u>dis</b></u>tant",
+            "E<b><u>dis</b></u>on to geniusz",
+            "<b><u>Di</b></u>va operowa jest <b><u>s</b></u>ławna"
+        ],
+        desc: "this[dis] - to",
+        sentence2: [
+            "this"
+        ],
+        sentence: [
+            "this",
+            "year"
+        ],
+        key: "blue",
+        category1: "nauka",
+        category2: ["osoby"]
+    },
+                                                                                                                                                    {
+        id: [
+            276,
+            42,
+            81
+        ],
+        img: "http://arbu-1dcc9.web.app/img/fiszki1/239a.jpg",
+        story: "<u><b>In</u></b>nowacyjna metoda nauki językow, to jak lepienie <u><b>gli</u></b>ny - bardzo łatwe i <u><b>sz</u></b>ybkie",
+        desc: "year[jer] - rok",
+        sentence2: [
+            "year"
+        ],
+        sentence: [
+            "this",
+            "year"
+        ],
+        key: "blue",
+        category1: "nauka",
+        category2: ["osoby"]
     }
 ];
+
 
 function addToTrainingList(idFiszki) {
     // dodaj do local storage do treningu
@@ -8273,15 +8450,15 @@ function generateFiszkaBlock(fiszka, lessonId2) {
             console.log('Aktualne wartości selectedLikes:', selectedLikes);
         }
         const likeButton = $('<a>').addClass('like').attr('href', '#');
-        const likeText = $('<span>').text('Śmieszna historia');
+        const likeText = $('<span>').text('Vicces történet');
         likeButton.append(likeText);
         fiszkaContainer.append(likeButton);
 
         // Tworzymy kontener opcji "like" i dodajemy opcje do kontenera
         const likeOptionsContainer = $('<div>').attr('id', 'likeOptionsContainer');
-        const likeOption1 = createLikeOption('thumbsUp', '👍 Śmieszne');
-        const likeOption2 = createLikeOption('heart', '❤️ Miłe');
-        const likeOption3 = createLikeOption('star', '⭐ Pamiętliwe');
+        const likeOption1 = createLikeOption('thumbsUp', '👍 Vicces');
+        const likeOption2 = createLikeOption('heart', '❤️ Kellemes');
+        const likeOption3 = createLikeOption('star', '⭐ Emlékezetes');
         likeOptionsContainer.append(likeOption1, likeOption2, likeOption3);
 
         // Dodajemy kontener opcji "like" do docelowego kontenera
@@ -8708,7 +8885,7 @@ if (Array.isArray(fiszka.story)) {
         });
             console.log('hej555ax', lessons2b[2]);
 // DODANIE PRZYCISKU TRENING
-        fiszkaContainer.append($('<button>').text('TRENING').addClass('fiszka_button fiszka_button_trening').click(function () {
+        fiszkaContainer.append($('<button>').text('TANULÁS').addClass('fiszka_button fiszka_button_trening').click(function () {
             
             activateFiszka(fiszka.id, false);
             
@@ -8768,7 +8945,7 @@ if (Array.isArray(fiszka.story)) {
             fiszkaContainer.addClass('imgIndex-' + lastClickedIndex);
         }));
 
-        fiszkaContainer.append($('<button>').text('ZNAM').addClass('fiszka_button fiszka_button_znam').click(function () {
+        fiszkaContainer.append($('<button>').text('TUDOM').addClass('fiszka_button fiszka_button_znam').click(function () {
             console.log("Znam clicked on fiszka nr " + fiszka.id);
             activateFiszka(fiszka.id, true);
         }));
@@ -8783,7 +8960,7 @@ if (Array.isArray(fiszka.story)) {
             fiszkaContainer.append(fiszkaButtonNameContainer);
         }
         // Dodanie kontenera fiszki do body
-        $('.grid-container').append(fiszkaContainer);
+        $(`.image-container4[data-lesson="${lessonId2}"]`).append(fiszkaContainer);
         console.log(`Generated fiszka block for ID: [${fiszka.id.join(', ')}]`);
         initAudio(fiszka.id);
     });
