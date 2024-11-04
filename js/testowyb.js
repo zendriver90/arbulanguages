@@ -8388,7 +8388,7 @@ function generateFiszkaBlock(fiszka, lessonId2) {
         }
 
 // TWORZENIE KONTENERA FISZKI
-        const fiszkaContainer = $('<div>').addClass('fiszka fiszka-' + fiszka.id);
+        let fiszkaContainer = $('<div>').addClass('fiszka fiszka-' + fiszka.id);
 
         // Pobierz istniejące wartości z localStorage (jeśli istnieją)
         const savedMarginTop = localStorage.getItem('marginTop');
@@ -8961,6 +8961,8 @@ if (Array.isArray(fiszka.story)) {
         }
         // Dodanie kontenera fiszki do body
         $(`.image-container4[data-lesson="${lessonId2}"]`).append(fiszkaContainer);
+
+
         console.log(`Generated fiszka block for ID: [${fiszka.id.join(', ')}]`);
         initAudio(fiszka.id);
     });
