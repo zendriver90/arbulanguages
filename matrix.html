@@ -5905,43 +5905,51 @@ function wybierzRodzaj2(category, currentFiszkaIndex, matchingFiszki1) {
     }
 }
 wybierzRodzaj2('all', currentFiszkaIndex, matchingFiszki1);
+
 function showFiszkiForLesson5(indexDiv, fiszki, currentFiszkaIndex, matchingFiszki1) {
     console.log('Ładuje się');
     console.log('Obecny indeks fiszki:', currentFiszkaIndex);
 
+
+
     if (currentFiszkaIndex >= 0 && currentFiszkaIndex < matchingFiszki1.length) {
         if (matchingFiszki1.length > 0) {
-            const lastFiszka = matchingFiszki1[matchingFiszki1.length - 1]; // Pobierz ostatnią fiszkę
-            console.log('Ostatnia fiszka:', lastFiszka); // Logowanie ostatniej fiszki
+            let id = matchingFiszki1[currentFiszkaIndex - 1].id;
+            console.log('hej2', id);
+            let parametr = '';
 
-            // Sprawdź, czy lastFiszka.id jest stringiem
-            if (typeof lastFiszka.id === 'string') {
-                // Rozdziel identyfikatory oddzielone przecinkami na tablicę
-                const ids = lastFiszka.id.split(','); // Zmień na ['9', '2', '3']
-                
-                // Iteruj przez każdy id w tablicy ids
-                ids.forEach(function(id) {
-                    // Logowanie usuwania klasy
-                    console.log(`Usuwanie klasy: fiszka fiszka-${id.trim()}`); // Dodaj trim, aby usunąć ewentualne spacje
-                    // Usuń klasę z elementów o klasie `fiszka fiszka-${id}`
-                    $(`.fiszka.fiszka-${id.trim()}`).removeClass(`fiszka fiszka-${id.trim()}`);
-                });
-            } else {
-                console.log(`Usuwanie klasy: fiszka fiszka-${lastFiszka.id}`);
-                // Jeśli lastFiszka.id nie jest tablicą, usuń dla pojedynczego id
-                $(`.fiszka.fiszka-${lastFiszka.id}`).removeClass(`fiszka fiszka-${lastFiszka.id}`);
+            // Sprawdź, czy id jest tablicą
+            if (Array.isArray(id)) {
+                // Połącz wartości z tablicy id w jeden ciąg znaków oddzielony przecinkami
+                id = id.slice(0, 3).join(',');
+
+                // Obsługa ewentualnego dodatkowego parametru (np. czwartego elementu w tablicy)
+                if (id.length > 3) {
+                    parametr = matchingFiszki1[currentFiszkaIndex].id[3]; // Pobierz czwarty element z tablicy
+                }
             }
 
-            // Pobierz jedną fiszkę na podstawie currentFiszkaIndex
-            const fiszka = matchingFiszki1[currentFiszkaIndex];
-            console.log('Ładowana fiszka:', fiszka); // Logowanie ładowanej fiszki
-            const fiszkaBlock = generateFiszkaBlock(fiszka, indexDiv);
-            return fiszkaBlock;
-        }
-    }
-    return null; // Zwróć null, jeśli nie można załadować fiszki
+// Tworzenie klasy CSS
+const className = `fiszka-${id}${parametr ? '\\,' + parametr : ''}`;
+const selector = `.${className.replace(/,/g, '\\,')}`;
+
+// Znalezienie i usunięcie diva z klasą `className`
+let $divToRemove = $(selector);
+if ($divToRemove.length) {  // Sprawdza, czy element istnieje
+    $divToRemove.remove();   // Usuwa cały div z DOM
 }
+                // Pobierz jedną fiszkę na podstawie currentFiszkaIndex
+            const fiszka = matchingFiszki1[currentFiszkaIndex];
+            console.log('Ładowana fiszka:', fiszka);
+            const fiszkaBlock = generateFiszkaBlock(fiszka, indexDiv);
+
+            return fiszkaBlock;
+}
+        console.log('hej44', $container);
                 }
+            }
+        }
+        
                 displayWords(currentWordIndex, indexDiv); // Wywołanie z indeksem
                 
                 // Dostosuj rozmiar czcionki

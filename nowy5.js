@@ -478,3 +478,48 @@ if (currentFiszkaIndex >= 0 && currentFiszkaIndex < matchingFiszki1.length) {
 
 
     const $container = $(`.image-container4[data-lesson="${indexDiv}"]`);
+    
+    
+    
+    function showFiszkiForLesson5(indexDiv, fiszki, currentFiszkaIndex, matchingFiszki1) {
+    console.log('Ładuje się');
+    console.log('Obecny indeks fiszki:', currentFiszkaIndex);
+    if (currentFiszkaIndex >= 0 && currentFiszkaIndex < matchingFiszki1.length) {
+        if (matchingFiszki1.length > 0) {
+            let id = matchingFiszki1[currentFiszkaIndex].id;
+            console.log('hej2', id);
+            let parametr = '';
+
+            // Sprawdź, czy id jest tablicą
+            if (Array.isArray(id)) {
+                // Połącz wartości z tablicy id w jeden ciąg znaków oddzielony przecinkami
+                id = id.slice(0, 3).join(',');
+
+                // Obsługa ewentualnego dodatkowego parametru (np. czwartego elementu w tablicy)
+                // Sprawdzamy, czy id ma więcej niż 3 elementy, nie bazujemy już na długości ciągu znaków
+                if (id.length > 3) {
+                    parametr = matchingFiszki1[currentFiszkaIndex].id[3]; // Pobierz czwarty element z tablicy
+                }
+            }
+
+            // Tworzenie klasy CSS z odpowiednim formatowaniem (poprawione usunięcie przecinków w CSS)
+            const className = `fiszka-${id}${parametr ? '\\,' + parametr : ''}`;
+            const selector = `.${className.replace(/,/g, '\\,')}`;
+            console.log('hejhej2', parametr);
+            console.log('hej1h', className);
+                    // Zapisz klasę 'active' lub zmień z 'active2' na 'active'
+
+                    // Zapisz klasę 'active' lub zmień z 'active2' na 'active'
+        }
+                    // Pobierz jedną fiszkę na podstawie currentFiszkaIndex
+            const fiszka = matchingFiszki1[currentFiszkaIndex];
+            const fiszka2 = matchingFiszki1[currentFiszkaIndex - 1];
+            console.log('Ładowana fiszka:', fiszka2);
+            const fiszkaBlock = generateFiszkaBlock(fiszka, indexDiv);
+            removeFiszka(fiszka2);
+            return fiszkaBlock;
+    }
+
+    console.log("Brak fiszek w matchingFiszki1 lub indeks poza zakresem.");
+    return null; // lub jakąś inną odpowiednią wartość
+}

@@ -8162,7 +8162,7 @@ const fiszki = [
     },
                                                                                                                                                     {
         id: [
-            276,
+            278,
             42,
             81
         ],
@@ -8175,6 +8175,152 @@ const fiszki = [
         sentence: [
             "this",
             "year"
+        ],
+        key: "blue",
+        category1: "nauka",
+        category2: ["osoby"]
+    },
+                                    {
+        id: [
+            279,
+            43,
+            82
+        ],
+        img: [
+            "http://arbu-1dcc9.web.app/img/fiszki1/96a.jpg"
+        ],
+        story: "<u><b>Ona</u></b> - Patrycja ma ri<u><b>szi</u></b> to naturalny antyoksydant",
+        desc: "she[szi] - ona",
+        sentence1: [
+            "She"
+        ],
+        sentence: [
+            "She",
+            "has",
+            "visited",
+            "Paris"
+        ],
+        key: "the adults",
+        category1: "nauka",
+        category2: ["osoby"],
+        category3: ["PresentContinous"]
+    },
+                                                                                                                                                        {
+        id: [
+            280,
+            43,
+            82
+        ],
+        img: [
+            "http://arbu-1dcc9.web.app/img/fiszki1/2a.jpg",
+            "http://arbu-1dcc9.web.app/img/fiszki1/2b.jpg",
+            "http://arbu-1dcc9.web.app/img/fiszki1/2c.jpg",
+            "http://arbu-1dcc9.web.app/img/fiszki1/2d.jpg",
+            "http://arbu-1dcc9.web.app/img/fiszki1/2e.jpg"
+        ],
+        word: [
+            "http://arbu-1dcc9.web.app/src/has.wav"
+        ],
+        story: [
+            'W niemieckim mieście <span class="adannotation" data-annotation="1"><u><b>Hess</u></b></span>en Jurek <u><b>ma</u></b> bilet na mecze jego drużyny',
+            '<span class="adannotation" data-annotation="1"><u><b>H</u></b></span>ipopotam występuje w cyrku na <span class="adannotation" data-annotation="2"><u><b>es</u></b></span>tradzie, <u><b>ma</u></b> duże umiejętności',
+            'Naukowiec nagle się zapomniał i zapytał: <span class="adannotation" data-annotation="1"><u><b>he</u></b></span>?, a wtedy jego kolega <u><b>ma</u></b> niezłą zabawę, <span class="adannotation" data-annotation="2"><u><b>s</u></b></span>prawa oczywista..',
+            '<span class="adannotation" data-annotation="1"><u><b>He</u></b></span>gemonia konsumpcjonizmu doprowadziła do tego, że "ON"-dyrektor ma problemy, bo nikt nie chce chodzić na <span class="adannotation" data-annotation="2"><u><b>s</u></b></span>pektakle teatralne',
+            'Moja koleżanka <u><b>ma</u></b> nowy klarnet z drzewa <span class="adannotation" data-annotation="1"><u><b>he</u></b></span>banowego. <span class="adannotation" data-annotation="2"><u><b>S</u></b></span>....uper sprawa'
+        ],
+        desc: "has[hes]/have[hew] - mieć(on/ona/oni)/mieć(ja/ty)",
+        sentence1: [
+            "has"
+        ],
+        sentence: [
+            "She",
+            "has",
+            "visited",
+            "Paris"
+        ],
+        key: "blue",
+        category1: "nauka",
+        category2: ["osoby"]
+    },
+                                                                                                                                                            {
+        id: [
+            281,
+            43,
+            82
+        ],
+        img: "http://arbu-1dcc9.web.app/img/fiszki1/239a.jpg",
+        story: "Prodecent odwiedził naukowców z proszkiem <u><b>wizi</u></b>r, aby go przetestowali. Jeden naukowiec ma <u><b>ti</u></b>ki i myli się przy badaniach. <u><b>Id</u></b>zie mu słabo",
+        desc: "visited[wizitid] - odwiedził/odwiedziła",
+        sentence2: [
+            "visited"
+        ],
+        sentence: [
+            "She",
+            "has",
+            "visited",
+            "Paris"
+        ],
+        key: "blue",
+        category1: "nauka",
+        category2: ["osoby"]
+    },
+                                                                                                                                                                {
+        id: [
+            282,
+            43,
+            82
+        ],
+        img: "http://arbu-1dcc9.web.app/img/fiszki1/239a.jpg",
+        story: "<u><b>Pa</u></b>weł śpiewa na koncercie w <u><b>Paryżu</u></b> dużo <u><b>arii</u></b>, <u><b>s</u></b>uper mu to idzie",
+        desc: "Paris[Paris] - Paryż",
+        sentence2: [
+            "Paris"
+        ],
+        sentence: [
+            "She",
+            "has",
+            "visited",
+            "Paris"
+        ],
+        key: "blue",
+        category1: "nauka",
+        category2: ["osoby"]
+    },
+                                                                                                                                                                    {
+        id: [
+            283,
+            43,
+            83
+        ],
+        img: "http://arbu-1dcc9.web.app/img/fiszki1/239a.jpg",
+        story: "W tym <u><b>meni</u></b> jest <u><b>wiele</u></b> potraw",
+        desc: "many[meni] - wiele",
+        sentence2: [
+            "many"
+        ],
+        sentence: [
+            "many",
+            "times"
+        ],
+        key: "blue",
+        category1: "nauka",
+        category2: ["osoby"]
+    },
+                                                                                                                                                                        {
+        id: [
+            284,
+            43,
+            83
+        ],
+        img: "http://arbu-1dcc9.web.app/img/fiszki1/239a.jpg",
+        story: "Nju Jork <u><b>Tajms</u></b> ma mało <u><b>czasu</u></b> na przygotowanie raportu",
+        desc: "times[tajms] - czas",
+        sentence2: [
+            "many"
+        ],
+        sentence: [
+            "many",
+            "times"
         ],
         key: "blue",
         category1: "nauka",
@@ -8320,9 +8466,17 @@ function printLessons2b() {
 document.addEventListener('DOMContentLoaded', function() {
     setTimeout(printLessons2b, 1000);  // Opóźnienie dla pewności
 });
+function removeFiszka(fiszkaId, lessonId2) {
+    // Wyszukaj element fiszki według klasy
+        const $container = $(`.image-container4[data-lesson="${lessonId2}"]`);
+
+    // Znajdź fiszkę do usunięcia wewnątrz kontenera
+    const $fiszkaToRemove = $container.find(`.fiszka.fiszka-${fiszkaId}`);
+        $fiszkaToRemove.remove();
+        console.log(`Fiszka o id2: ${fiszkaId} została usunięta.`);
+    
+}
 function generateFiszkaBlock(fiszka, lessonId2) {
-    console.log('hej555a', lessons2b[0]);
-        console.log('hej555b', lessons2b[1]);
             console.log('hej555c', lessons2b[2]);
     var currentStoryButtonName = ''; // Zmienna lokalna
     console.log(`Generating fiszka block for ID: [${fiszka.id.join(', ')}]`);

@@ -490,7 +490,8 @@ function activateFiszka(idFiszki, znam) {
     // Tworzenie klasy CSS z odpowiednim formatowaniem (poprawione usunięcie przecinków w CSS)
     const className = `fiszka-${id}${parametr ? '\\,' + parametr : ''}`;
     const selector = `.${className.replace(/,/g, '\\,')}`;
-    console.log(selector);
+    console.log('hejhej2', selector);
+    console.log('hej1', className);
 
     if (znam) {
         // Zapisz klasę 'active' lub zmień z 'active2' na 'active'
