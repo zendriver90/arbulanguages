@@ -5668,8 +5668,15 @@ function handleWordClick(clickedIndex, indexDiv, matchingFiszki1) {
     $('.word-span').removeClass('highlighted');
     $('.word-span').eq(clickedIndex).addClass('highlighted'); // Podświetlenie według clickedIndex
 
-    // Wywołanie funkcji showFiszkiForLesson5 z clickedIndex
+    // Zaktualizuj currentHighlightIndex na clickedIndex
+    currentHighlightIndex = clickedIndex;
+    console.log("Aktualny indeks podświetlenia:", currentHighlightIndex);
+
+    // Wywołaj funkcję wyświetlania fiszek
     showFiszkiForLesson5(indexDiv, fiszki, clickedIndex, matchingFiszki1);
+    
+    // Wywołaj updateHighlight, aby upewnić się, że przyciski są odpowiednio widoczne
+    updateHighlight($sentence10, currentHighlightIndex, firstWord, secondWord, thirdWord, forthWord, fifthWord, sixthWord);
 }
 
 // Dodanie zdarzenia click
@@ -5750,8 +5757,12 @@ $(document).on('click', '.next-button', function() {
 // Funkcja aktualizująca podświetlenie słów
 function updateHighlight($sentence10, index, firstWord, secondWord, thirdWord, forthWord, fifthWord, sixthWord) {
     const words = [firstWord, secondWord, thirdWord, forthWord, fifthWord, sixthWord];
+    
+    // Generowanie HTML z przypisanymi funkcjami kliknięcia
     let highlightedWords = words.map((word, i) => {
-        return i === index ? `<span class="highlighted">${word}</span>` : `<span class="word-span">${word}</span>`;
+        return i === index 
+            ? `<span class="highlighted word-span" data-index="${i}" style="cursor: pointer;">${word}</span>`
+            : `<span class="word-span" data-index="${i}" style="cursor: pointer;">${word}</span>`;
     });
 
     // Uaktualnij HTML dla $sentence10
@@ -5760,6 +5771,12 @@ function updateHighlight($sentence10, index, firstWord, secondWord, thirdWord, f
         ${highlightedWords.join(' ')}
         <button class="next-button" id="nextbutton">&gt;</button>
     `);
+
+    // Dodanie zdarzenia click dla każdego słowa
+    $sentence10.find('.word-span').on('click', function() {
+        const clickedIndex = $(this).data('index'); // Pobieranie indeksu klikniętego słowa
+        handleWordClick(clickedIndex, indexDiv, matchingFiszki1); // Wywołanie funkcji obsługi kliknięcia
+    });
 }
 
                 // Funkcja displayWords przyjmuje teraz currentWordIndex
@@ -5910,44 +5927,16 @@ function showFiszkiForLesson5(indexDiv, fiszki, currentFiszkaIndex, matchingFisz
     console.log('Ładuje się');
     console.log('Obecny indeks fiszki:', currentFiszkaIndex);
 
+if (currentFiszkaIndex >= 0 && currentFiszkaIndex < matchingFiszki1.length) {
 
+        // Pobierz jedną fiszkę na podstawie currentFiszkaIndex
+        const fiszka = matchingFiszki1[currentFiszkaIndex];
+            const fiszkaBlock = generateFiszkaBlock(fiszka, indexDiv, 'fiszkaContainer1');
+        
 
-    if (currentFiszkaIndex >= 0 && currentFiszkaIndex < matchingFiszki1.length) {
-        if (matchingFiszki1.length > 0) {
-            let id = matchingFiszki1[currentFiszkaIndex - 1].id;
-            console.log('hej2', id);
-            let parametr = '';
-
-            // Sprawdź, czy id jest tablicą
-            if (Array.isArray(id)) {
-                // Połącz wartości z tablicy id w jeden ciąg znaków oddzielony przecinkami
-                id = id.slice(0, 3).join(',');
-
-                // Obsługa ewentualnego dodatkowego parametru (np. czwartego elementu w tablicy)
-                if (id.length > 3) {
-                    parametr = matchingFiszki1[currentFiszkaIndex].id[3]; // Pobierz czwarty element z tablicy
-                }
-            }
-
-// Tworzenie klasy CSS
-const className = `fiszka-${id}${parametr ? '\\,' + parametr : ''}`;
-const selector = `.${className.replace(/,/g, '\\,')}`;
-
-// Znalezienie i usunięcie diva z klasą `className`
-let $divToRemove = $(selector);
-if ($divToRemove.length) {  // Sprawdza, czy element istnieje
-    $divToRemove.remove();   // Usuwa cały div z DOM
+    }
+    return fiszkaBlock;
 }
-                // Pobierz jedną fiszkę na podstawie currentFiszkaIndex
-            const fiszka = matchingFiszki1[currentFiszkaIndex];
-            console.log('Ładowana fiszka:', fiszka);
-            const fiszkaBlock = generateFiszkaBlock(fiszka, indexDiv);
-
-            return fiszkaBlock;
-}
-        console.log('hej44', $container);
-                }
-            }
         }
         
                 displayWords(currentWordIndex, indexDiv); // Wywołanie z indeksem

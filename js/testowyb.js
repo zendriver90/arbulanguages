@@ -7867,26 +7867,23 @@ const fiszki = [
             41,
             80
         ],
-        img: [
+                img: [
             "http://arbu-1dcc9.web.app/img/fiszki1/8a.jpg",
             "http://arbu-1dcc9.web.appimg/fiszki1/8b.jpg",
             "http://arbu-1dcc9.web.app/img/fiszki1/8c.jpg",
             "http://arbu-1dcc9.web.app/img/fiszki1/8d.jpg",
             "http://arbu-1dcc9.web.app/img/fiszki1/8e.jpg"
         ],
+                translate: "On biega dziś w parku",
+        translateb: "[Dej ar hewing diner tugeder nał]",
+        translateb2: "[Dej ar hewing diner tugeder nał]",
+        srcWord: ["http://arbu-1dcc9.web.app/filmy/morning.mp4", "Fast and Furious"],
+        srcWordimage: "http://arbu-1dcc9.web.app/filmy/morning.png",
         word: [
             "http://arbu-1dcc9.web.app/src/is.wav"
         ],
-        story: [
-            'Gdy ktoś szybko biega obok nas to <u><b>jest</u></b> w popłochu, słyszymy tylko św<span class="adannotation" data-annotation="1"><u><b>is</u></b></span>t',
-            'L<span class="adannotation" data-annotation="1"><u><b>is</u></b></span> <u><b>jest</u></b> dzisiaj listonoszem',
-            '<span class="adannotation" data-annotation="1"><b><u>Is</b></u></span>tota tego przekazu <b><u>jest</b></u> bardzo ważna',
-            'L<span class="adannotation" data-annotation="1"><b><u>is</b></u></span> jest bardzo przebiegły, ale <b><u>jest</b></u> też wilk, który go zje',
-            'Johny Bravo <u><b>jest</b></u> m<span class="adannotation" data-annotation="1"><u><b>is</b></u></span>trzem relacji damsko-męskich',
-            'Lu<span class="adannotation" data-annotation="1"><b><u>is</b></u></span> <b><u>jest</b></u> bardzo zadowolony ze swojej pracy',
-            '<span class="adannotation" data-annotation="1"><b><u>Is</b></u></span>tambuł <b><u>jest</b></u> fajnym miastem'
-        ],
-        desc: "is[is] - jest",
+        story: "<u><b>Oni</u></b> z<u><b>dej</u></b>mują jabłka z jabłoni",
+        desc: "they[dej] - oni",
         sentence1: [
             "They"
         ],
@@ -8017,10 +8014,10 @@ const fiszki = [
             "http://arbu-1dcc9.web.app/img/fiszki1/19d.jpg",
             "http://arbu-1dcc9.web.app/img/fiszki1/19e.jpg"
         ],
-        translate: "On biega dziś w parku",
-        translateb: "[Hi is raning in de park tudej]",
+        translate: "",
+        translateb: "[Aj em lerning Inglisz dis jer]",
         translateb2: "[Hi is raning]",
-        srcWord: ["http://arbu-1dcc9.web.app/filmy/running.mp4", "Forrest Gump (1994)"],
+        srcWord: ["http://arbu-1dcc9.web.app/filmy/running.mp4", ""],
         srcWord2: ["http://arbu-1dcc9.web.app/filmy/procedure.mp4", "Breaking Bad"],
         srcWordimage: "http://arbu-1dcc9.web.app/filmy/running.png",
         word: [
@@ -8188,6 +8185,15 @@ const fiszki = [
         ],
         img: [
             "http://arbu-1dcc9.web.app/img/fiszki1/96a.jpg"
+        ],
+                translate: "",
+        translateb: "[Shi hes wizitid Paris meny tajms]",
+        translateb2: "[Shi hes wizitid Paris]",
+        srcWord: ["http://arbu-1dcc9.web.app/filmy/running.mp4", ""],
+        srcWord2: ["http://arbu-1dcc9.web.app/filmy/procedure.mp4", "Breaking Bad"],
+        srcWordimage: "http://arbu-1dcc9.web.app/filmy/running.png",
+        word: [
+            "http://arbu-1dcc9.web.app/voice/bike.mp4"
         ],
         story: "<u><b>Ona</u></b> - Patrycja ma ri<u><b>szi</u></b> to naturalny antyoksydant",
         desc: "she[szi] - ona",
@@ -8544,36 +8550,7 @@ function generateFiszkaBlock(fiszka, lessonId2) {
 // TWORZENIE KONTENERA FISZKI
         let fiszkaContainer = $('<div>').addClass('fiszka fiszka-' + fiszka.id);
 
-        // Pobierz istniejące wartości z localStorage (jeśli istnieją)
-        const savedMarginTop = localStorage.getItem('marginTop');
-        const savedMarginBottom = localStorage.getItem('marginBottom');
 
-        console.log('Saved values from localStorage:', savedMarginTop, savedMarginBottom);
-
-        // Ustaw domyślne wartości lub skorzystaj z zapisanych wartości z localStorage
-        let marginTop = savedMarginTop !== null ? JSON.parse(savedMarginTop) : {};
-        let marginBottom = savedMarginBottom !== null ? JSON.parse(savedMarginBottom) : {};
-
-        console.log('Calculated values:', marginTop, marginBottom);
-
-        // Utwórz lub pobierz unikalne wartości marginesów dla danej fiszki
-        const fiszkaId = fiszka.id.join('-');
-
-        // Ustaw margines na zero dla pierwszej fiszki
-        marginTop[fiszkaId] = marginTop[fiszkaId] !== undefined ? marginTop[fiszkaId] : fiszkaId === '1' ? 0 : Math.floor(Math.random() * 160);
-        marginBottom[fiszkaId] = marginBottom[fiszkaId] !== undefined ? marginBottom[fiszkaId] : fiszkaId === '1' ? 0 : Math.floor(Math.random() * 80);
-
-        // Zapisz wartości marginesów do localStorage
-        localStorage.setItem('marginTop', JSON.stringify(marginTop));
-        localStorage.setItem('marginBottom', JSON.stringify(marginBottom));
-
-        console.log('Values after saving to localStorage:', marginTop, marginBottom);
-
-        // Ustaw marginesy w elemencie fiszkaContainer
-        fiszkaContainer.css({
-            'margin-top': `${fiszka.id[0] % 2 === 0 ? -marginTop[fiszkaId] + 170 : -marginTop[fiszkaId] + 40}px`,
-            'margin-bottom': `${fiszka.id[0] % 2 !== 0 ? marginBottom[fiszkaId] + 70 : -marginBottom[fiszkaId] + 50}px`
-        });
 
         // DODANIE OBRAZKA
         const imgContainer = $('<div>').addClass('fiszka_img_container');
@@ -8604,15 +8581,15 @@ function generateFiszkaBlock(fiszka, lessonId2) {
             console.log('Aktualne wartości selectedLikes:', selectedLikes);
         }
         const likeButton = $('<a>').addClass('like').attr('href', '#');
-        const likeText = $('<span>').text('Vicces történet');
+        const likeText = $('<span>').text('Śmieszna historia');
         likeButton.append(likeText);
         fiszkaContainer.append(likeButton);
 
         // Tworzymy kontener opcji "like" i dodajemy opcje do kontenera
         const likeOptionsContainer = $('<div>').attr('id', 'likeOptionsContainer');
-        const likeOption1 = createLikeOption('thumbsUp', '👍 Vicces');
-        const likeOption2 = createLikeOption('heart', '❤️ Kellemes');
-        const likeOption3 = createLikeOption('star', '⭐ Emlékezetes');
+        const likeOption1 = createLikeOption('thumbsUp', '👍 Śmieszne');
+        const likeOption2 = createLikeOption('heart', '❤️ Miłe');
+        const likeOption3 = createLikeOption('star', '⭐ Pamiętliwe');
         likeOptionsContainer.append(likeOption1, likeOption2, likeOption3);
 
         // Dodajemy kontener opcji "like" do docelowego kontenera
@@ -9039,7 +9016,7 @@ if (Array.isArray(fiszka.story)) {
         });
             console.log('hej555ax', lessons2b[2]);
 // DODANIE PRZYCISKU TRENING
-        fiszkaContainer.append($('<button>').text('TANULÁS').addClass('fiszka_button fiszka_button_trening').click(function () {
+        fiszkaContainer.append($('<button>').text('TRENING').addClass('fiszka_button fiszka_button_trening').click(function () {
             
             activateFiszka(fiszka.id, false);
             
@@ -9099,7 +9076,7 @@ if (Array.isArray(fiszka.story)) {
             fiszkaContainer.addClass('imgIndex-' + lastClickedIndex);
         }));
 
-        fiszkaContainer.append($('<button>').text('TUDOM').addClass('fiszka_button fiszka_button_znam').click(function () {
+        fiszkaContainer.append($('<button>').text('ZNAM').addClass('fiszka_button fiszka_button_znam').click(function () {
             console.log("Znam clicked on fiszka nr " + fiszka.id);
             activateFiszka(fiszka.id, true);
         }));
