@@ -97,7 +97,7 @@ const fiszki = [
             "związki", "muzyka"
         ],
         category2: ["czasownik"],
-                category3: ["PresentSimple", "PresentSimpleCzasownik"]
+        category3: ["PresentSimple", "PresentSimpleCzasownik"]
     },
     {
         id: [
@@ -684,8 +684,8 @@ const fiszki = [
         word: [
             "http://arbu-1dcc9.web.app/src/with.wav"
         ],
-                srcWord2: ["http://arbu-1dcc9.web.app/filmy/procedure.mp4", "Breaking Bad"],
-                        translateb2: "[łiz jour imołszyns]",
+        srcWord2: ["http://arbu-1dcc9.web.app/filmy/procedure.mp4", "Breaking Bad"],
+        translateb2: "[łiz jour imołszyns]",
         story: [
             "<u><b>Z</u></b> w<u><b>iz</u></b>ualizacją wygranej sportowcy są dok<u><b>ł</u></b>adnie przygotowani",
             "W<u><b>iz</u></b>ja <u><b>ł</u></b>otrów - wiewiórek, które jedzą <u><b>z</u></b> wiadomo, którego wiaderka(mojego) jest słuszna",
@@ -813,7 +813,7 @@ const fiszki = [
         translateb: "[Aj em szaj bat samtajms dering]",
         translateb2: "[Aj em szaj]",
         srcWord: ["http://arbu-1dcc9.web.app/filmy/shy.mp4", 'The Matrix Reloaded (2003)'],
-                srcWord2: ["http://arbu-1dcc9.web.app/filmy/procedure.mp4", "Breaking Bad"],
+        srcWord2: ["http://arbu-1dcc9.web.app/filmy/procedure.mp4", "Breaking Bad"],
         srcWordimage: "http://arbu-1dcc9.web.app/filmy/shy.png",
         word: [
             "http://arbu-1dcc9.web.app/voice/music.mp4"
@@ -938,7 +938,7 @@ const fiszki = [
             "http://arbu-1dcc9.web.app/img/fiszki1/22d.jpg",
             "http://arbu-1dcc9.web.app/img/fiszki1/22e.jpg"
         ],
-                        srcWord2: ["http://arbu-1dcc9.web.app/filmy/procedure.mp4", "Breaking Bad"],
+        srcWord2: ["http://arbu-1dcc9.web.app/filmy/procedure.mp4", "Breaking Bad"],
         translateb2: "[bat samtajms dering]",
         story: [
             "Po spotkaniu z kolegą, na którego mówią <u><b>Bat</u></b>man mam naładowane baterie towarzyskie, <u><b>ale</u></b> chcę więcej rozmów",
@@ -1044,8 +1044,8 @@ const fiszki = [
         ],
         category2: ""
     },
-        {
-            id: [
+    {
+        id: [
             25,
             5,
             9
@@ -1058,7 +1058,7 @@ const fiszki = [
             "http://arbu-1dcc9.web.app/img/fiszki1/5e.jpg"
         ],
         srcWord: ["http://arbu-1dcc9.web.app/filmy/cat.mp4", "Superman (1978)"],
-                        srcWord2: ["http://arbu-1dcc9.web.app/filmy/procedure.mp4", "Breaking Bad"],
+        srcWord2: ["http://arbu-1dcc9.web.app/filmy/procedure.mp4", "Breaking Bad"],
         srcWordimage: "http://arbu-1dcc9.web.app/filmy/cat.png",
         word: [
             "http://arbu-1dcc9.web.app/voice/party.mp4"
@@ -1066,7 +1066,7 @@ const fiszki = [
         translate: "Chłopak złapał kota i przytulił go",
         translateb: "[De gaj kaczes (de) kat end hags it]",
         translateb2: "[De gaj kaczes (de) kat]",
-                story: [
+        story: [
             "Piłki do gry w kosza są twar<u><b>de</u></b>. Sam ten sport <u><b>to</u></b> twarda gra",
             "Na tym <u><b>de</u></b>ptaku jest sporo drzewek, <u><b>to</u></b> urocze miejsce",
             "<u><b>To</u></b> ten <u><b>De</u></b>partament Stanu prowadzi badania nad społecznym problemem",
@@ -1173,7 +1173,7 @@ const fiszki = [
             "związki", "taniec"
         ],
         category2: ["osoby+czas", "czasownik"],
-                category3: ["PresentSimple", "PresentSimpleCzasownik"]
+        category3: ["PresentSimple", "PresentSimpleCzasownik"]
 
     },
     {
@@ -1228,8 +1228,8 @@ const fiszki = [
             "http://arbu-1dcc9.web.app/img/fiszki1/28c.jpg",
             "http://arbu-1dcc9.web.app/img/fiszki1/28e.jpg"
         ],
-                                srcWord2: ["http://arbu-1dcc9.web.app/filmy/procedure.mp4", "Breaking Bad"],
-                translateb2: "[end hags it]",
+        srcWord2: ["http://arbu-1dcc9.web.app/filmy/procedure.mp4", "Breaking Bad"],
+        translateb2: "[end hags it]",
         story: [
             "<u><b>End</u></b>riu wydziela <u><b>end</u></b>orfiny i ćwiczy: to <u><b>i</u></b> to, <u><b>i</u></b> to, aby było więcej endorfin i wyczekuje <u><b>końca</u></b> treningu",
             "<u><b>End</u></b>riu w końcu jest na <u><b>końcu</u></b> prac w ogrodzie. Zrobił to <u><b>i</u></b> to <u><b>i</u></b> to..",
@@ -1341,7 +1341,7 @@ const fiszki = [
         ],
         translate: "Nasza szkoła organizuje całkiem ciekawe wydarzenia",
         translateb: "[Aur skul organajz kłajt interesting iwents]",
-                translateb2: "[Aur skul organajz]",
+        translateb2: "[Aur skul organajz]",
         srcWord: ["http://arbu-1dcc9.web.app/filmy/school.mp4", "American Pie: The Wedding (2003)"],
         srcWordimage: "http://arbu-1dcc9.web.app/filmy/school.png",
         word: "http://arbu-1dcc9.web.app/voice/party.mp4",
@@ -1440,7 +1440,7 @@ const fiszki = [
             12
         ],
         img: "http://arbu-1dcc9.web.app/img/fiszki1/34a.jpg",
-                translateb2: "[kłajt interesting iwents]",
+        translateb2: "[kłajt interesting iwents]",
         story: "<b><u>Kła</b></u>dziemy <b><u>całkiem</b></u> duży nacisk na ilość b<b><u>ajt</b></u>ów w pliku",
         desc: "quite[kłajt] - całkiem",
         sentence2: [
@@ -1587,7 +1587,7 @@ const fiszki = [
             14
         ],
         img: "http://arbu-1dcc9.web.app/img/fiszki1/40a.jpg",
-                translateb2: "[deweloping wery intensiwli]",
+        translateb2: "[deweloping wery intensiwli]",
         story: "<b><u>Dewelop</b></u>er gra w p<b><u>ing</b></u>-ponga z właścicielem i <b><u>rozwija</b></u> narracje, aby coś ugrać",
         desc: "developing[deweloping] - rozwijać",
         sentence2: [
@@ -1795,8 +1795,8 @@ const fiszki = [
             "grandfather"
         ],
         key: "his",
-        category1: [ "związki", "autoprezentacja",
-                    "praca", "technologia"
+        category1: ["związki", "autoprezentacja",
+            "praca", "technologia"
         ],
         category2: ["zaimkiosobowe"]
     },
@@ -1836,7 +1836,7 @@ const fiszki = [
         translateb2: "[Maj nejburs ar seling]",
         srcWord: ["http://arbu-1dcc9.web.app/filmy/bighouse.mp4", "Mechanik: Konfrontacja (2013)"],
         srcWordimage: "http://arbu-1dcc9.web.app/filmy/bighouse.png",
-                srcWord2: ["http://arbu-1dcc9.web.app/filmy/procedure.mp4", "Breaking Bad"],
+        srcWord2: ["http://arbu-1dcc9.web.app/filmy/procedure.mp4", "Breaking Bad"],
         story: [
             "W <b><u>maj</b></u>u kwitną <b><u>moje</b></u> ulubione kwiaty",
             "Przetrzy<b><u>maj</b></u> mi na pare dni <b><u>moje</b></u> auto na placu",
@@ -1889,9 +1889,9 @@ const fiszki = [
             17
         ],
         img: [
-                    "http://arbu-1dcc9.web.app/img/fiszki1/51a.jpg",
-                    "http://arbu-1dcc9.web.app/img/fiszki1/220a.jpg"
-],
+            "http://arbu-1dcc9.web.app/img/fiszki1/51a.jpg",
+            "http://arbu-1dcc9.web.app/img/fiszki1/220a.jpg"
+        ],
         story: [
             "<b><u>Twoje</b></u> <b><u>ar</b></u>gumenty są bardzo przemawiające",
             "Papuga <u><b>ar</u></b>a i skowronek <u><b>są</u></b> zaprzyjaźnieni. Mam nadzieję, że ty <u><b>jesteś</u></b> z tego powodu w dobrym nastroju",
@@ -1910,7 +1910,7 @@ const fiszki = [
         category1: "związki",
         category2: ["podmiot+czas", "czasownik"]
     },
-        {
+    {
         id: [
             53,
             9,
@@ -1939,8 +1939,8 @@ const fiszki = [
             18
         ],
         img: "http://arbu-1dcc9.web.app/img/fiszki1/53a.jpg",
-                translateb2: "[deir big hałs]",
-                srcWord2: ["http://arbu-1dcc9.web.app/filmy/procedure.mp4", "Breaking Bad"],
+        translateb2: "[deir big hałs]",
+        srcWord2: ["http://arbu-1dcc9.web.app/filmy/procedure.mp4", "Breaking Bad"],
         story: "<b><u>W</b></u> ten <b><u>de</b></u>seń jest <b><u>i</b></u>ch <b><u>r</b></u>obota",
         desc: "their[deir] - ich",
         sentence2: [
@@ -1967,7 +1967,7 @@ const fiszki = [
         ],
         story: [
             "<b><u>B</b></u>ardzo <b><u>duży</b></u> samolot M<b><u>ig</b></u> właśnie przeleciał na niebie",
-             "<b><u>Big</b></u>amista ma <b><u>duży</b></u> popęd seksualny" 
+            "<b><u>Big</b></u>amista ma <b><u>duży</b></u> popęd seksualny"
         ],
         desc: "big[big] - duży, duża",
         sentence2: [
@@ -2108,7 +2108,7 @@ const fiszki = [
             "geografia", "miasta"
         ],
         category2: ["podmiot+czas", "czasownik"],
-                        category3: ["PresentSimple", "PresentSimpleCzasownik"]
+        category3: ["PresentSimple", "PresentSimpleCzasownik"]
     },
     {
         id: [
@@ -2195,7 +2195,7 @@ const fiszki = [
         word: [
             "http://arbu-1dcc9.web.app/voice/music.mp4"
         ],
-                story: [
+        story: [
             "Piłki do gry w kosza są twar<u><b>de</u></b>. Sam ten sport <u><b>to</u></b> twarda gra",
             "Na tym <u><b>de</u></b>ptaku jest sporo drzewek, <u><b>to</u></b> urocze miejsce",
             "<u><b>To</u></b> ten <u><b>De</u></b>partament Stanu prowadzi badania nad społecznym problemem",
@@ -2539,7 +2539,7 @@ const fiszki = [
         translateb2: "[De dogs ken]",
         srcWord: ["http://arbu-1dcc9.web.app/filmy/dogs.mp4", "The Dark Knight(2008)"],
         srcWordimage: "http://arbu-1dcc9.web.app/filmy/dogs.png",
-                story: [
+        story: [
             "Piłki do gry w kosza są twar<u><b>de</u></b>. Sam ten sport <u><b>to</u></b> twarda gra",
             "Na tym <u><b>de</u></b>ptaku jest sporo drzewek, <u><b>to</u></b> urocze miejsce",
             "<u><b>To</u></b> ten <u><b>De</u></b>partament Stanu prowadzi badania nad społecznym problemem",
@@ -2616,7 +2616,7 @@ const fiszki = [
         key: "can",
         category1: "natura",
         category2: ["czasownik"],
-                                category3: ["PresentSimple", "PresentSimpleCzasownik"]
+        category3: ["PresentSimple", "PresentSimpleCzasownik"]
     },
     {
         id: [
@@ -2862,7 +2862,7 @@ const fiszki = [
             "wide"
         ],
         key: "he",
-                category1: [
+        category1: [
             "sport", "piłka nożna",
             "natura", "zoologia",
             "nauka", "czas wolny",
@@ -2959,7 +2959,7 @@ const fiszki = [
             15,
             30
         ],
-        img: [ 
+        img: [
             "http://arbu-1dcc9.web.app/img/fiszki1/89a.jpg",
             "http://arbu-1dcc9.web.app/img/fiszki1/112b.jpg"
         ],
@@ -3040,7 +3040,7 @@ const fiszki = [
             "dares to"
         ],
         key: "he",
-                category1: [
+        category1: [
             "sport", "piłka nożna",
             "natura", "zoologia",
             "nauka", "czas wolny",
@@ -3073,12 +3073,12 @@ const fiszki = [
             "dares"
         ],
         key: "dares",
-                category1: [
+        category1: [
             "rozrywka", "impreza",
             "sport", "warunki sportowe"
         ],
         category2: ["czasownik"],
-                category3: ["PresentSimple", "PresentSimpleCzasownik"]
+        category3: ["PresentSimple", "PresentSimpleCzasownik"]
     },
     {
         id: [
@@ -3362,7 +3362,7 @@ const fiszki = [
         category1: "nauka",
         category2: ["osoby+czas", "podmiot+czas"]
     },
-        {
+    {
         id: [
             103,
             18,
@@ -3469,8 +3469,8 @@ const fiszki = [
             "trainer"
         ],
         key: "his",
-        category1: [ "związki", "autoprezentacja",
-                    "praca", "technologia"
+        category1: ["związki", "autoprezentacja",
+            "praca", "technologia"
         ],
         category2: ["zaimkiosobowe"]
     },
@@ -3758,7 +3758,7 @@ const fiszki = [
         key: "have to",
         category1: "nauka",
         category2: ["czasownik", "podmiot+czas"],
-                category3: ["PresentSimple", "PresentSimpleCzasownik"]
+        category3: ["PresentSimple", "PresentSimpleCzasownik"]
     },
     {
         id: [
@@ -4266,7 +4266,7 @@ const fiszki = [
         translateb: "[De prajs for brejkin de ruls is haj]",
         srcWord: ["http://arbu-1dcc9.web.app/filmy/humanface.mp4", "Yes Man(2008)", "Komedia"],
         srcWordimage: "http://arbu-1dcc9.web.app/filmy/humanface.png",
-                story: [
+        story: [
             "Piłki do gry w kosza są twar<u><b>de</u></b>. Sam ten sport <u><b>to</u></b> twarda gra",
             "Na tym <u><b>de</u></b>ptaku jest sporo drzewek, <u><b>to</u></b> urocze miejsce",
             "<u><b>To</u></b> ten <u><b>De</u></b>partament Stanu prowadzi badania nad społecznym problemem",
@@ -4319,7 +4319,7 @@ const fiszki = [
         key: "price",
         category1: "nauka",
         category2: "transport",
-                category3: ["PresentSimple", "PresentSimplePodmiot"]
+        category3: ["PresentSimple", "PresentSimplePodmiot"]
     },
     {
         id: [
@@ -4500,7 +4500,7 @@ const fiszki = [
         key: "my",
         category1: "nauka",
         category2: [""],
-                category3: ["PresentSimple"]
+        category3: ["PresentSimple"]
     },
     {
         id: [
@@ -4823,7 +4823,7 @@ const fiszki = [
             26,
             51
         ],
-        img: [ 
+        img: [
             "http://arbu-1dcc9.web.app/img/fiszki1/89a.jpg",
             "http://arbu-1dcc9.web.app/img/fiszki1/112b.jpg"
         ],
@@ -4900,8 +4900,8 @@ const fiszki = [
             "his",
             "school"
         ],
-                category1: [ "związki", "autoprezentacja",
-                    "praca", "technologia"
+        category1: ["związki", "autoprezentacja",
+            "praca", "technologia"
         ],
         category2: ["zaimkiosobowe"]
     },
@@ -5241,7 +5241,7 @@ const fiszki = [
         ],
         story: [
             "Bardzo <b><u>duży</b></u> samolot M<b><u>ig</b></u> właśnie przeleciał na niebie",
-             "<b><u>Big</b></u>amista ma <b><u>duży</b></u> popęd seksualny" 
+            "<b><u>Big</b></u>amista ma <b><u>duży</b></u> popęd seksualny"
         ],
         desc: "big[big] - duży/duża/duże",
         sentence2: [
@@ -6082,7 +6082,7 @@ const fiszki = [
         category1: "nauka",
         category2: ["osoby"]
     },
-        {
+    {
         id: [
             202,
             31,
@@ -6126,7 +6126,7 @@ const fiszki = [
         category2: ["osoby"],
         category3: ["PastSimple"]
     },
-            {
+    {
         id: [
             203,
             31,
@@ -6147,7 +6147,7 @@ const fiszki = [
         category1: "nauka",
         category2: [""]
     },
-                {
+    {
         id: [
             204,
             31,
@@ -6168,7 +6168,7 @@ const fiszki = [
         category1: "nauka",
         category2: [""]
     },
-                    {
+    {
         id: [
             205,
             31,
@@ -6189,7 +6189,7 @@ const fiszki = [
         category1: "nauka",
         category2: [""]
     },
-                            {
+    {
         id: [
             206,
             31,
@@ -6221,16 +6221,16 @@ const fiszki = [
         ],
         category2: ["zaimkiosobowe"]
     },
-                            {
+    {
         id: [
             207,
             31,
             62
         ],
         img: "http://arbu-1dcc9.web.app/img/fiszki1/221a.jpg",
-                translate: "Oni grają w piłkę nożną w tym momencie",
+        translate: "Oni grają w piłkę nożną w tym momencie",
         translateb: "[Dej ar pleing futbol at de moment]",
-                translateb2: "[Ewrybody hes fan]",
+        translateb2: "[Ewrybody hes fan]",
         srcWord: ["http://arbu-1dcc9.web.app/filmy/football.mp4", "Pelé. Narodziny legendy (2016)"],
         srcWordimage: "http://arbu-1dcc9.web.app/filmy/football.png",
         story: "<u><b>Oni</u></b> z<u><b>dej</u></b>mują jabłka z jabłoni",
@@ -6247,7 +6247,7 @@ const fiszki = [
         category1: "nauka",
         category2: [""]
     },
-                                {
+    {
         id: [
             208,
             32,
@@ -6290,7 +6290,7 @@ const fiszki = [
         category2: ["osoby"],
         category3: ["PresentSimple"]
     },
-                                    {
+    {
         id: [
             209,
             32,
@@ -6310,7 +6310,7 @@ const fiszki = [
         category1: "nauka",
         category2: [""]
     },
-                                        {
+    {
         id: [
             210,
             32,
@@ -6349,7 +6349,7 @@ const fiszki = [
         ],
         category2: ["osoby", "zaimkiosobowe"]
     },
-                                            {
+    {
         id: [
             211,
             32,
@@ -6370,7 +6370,7 @@ const fiszki = [
         category1: "nauka",
         category2: [""]
     },
-                                            {
+    {
         id: [
             212,
             32,
@@ -6391,7 +6391,7 @@ const fiszki = [
         category1: "nauka",
         category2: [""]
     },
-                                                {
+    {
         id: [
             213,
             33,
@@ -6433,7 +6433,7 @@ const fiszki = [
         category2: [""],
         category3: ["PresentSimple"]
     },
-                                                    {
+    {
         id: [
             214,
             33,
@@ -6455,7 +6455,7 @@ const fiszki = [
         category1: "nauka",
         category2: [""]
     },
-                                                        {
+    {
         id: [
             215,
             33,
@@ -6499,7 +6499,7 @@ const fiszki = [
         ],
         category2: ["o"]
     },
-                                                            {
+    {
         id: [
             216,
             33,
@@ -6521,7 +6521,7 @@ const fiszki = [
         category1: "nauka",
         category2: [""]
     },
-                                                                {
+    {
         id: [
             217,
             33,
@@ -6544,7 +6544,7 @@ const fiszki = [
         category1: "nauka",
         category2: [""]
     },
-                                                                    {
+    {
         id: [
             218,
             33,
@@ -6567,7 +6567,7 @@ const fiszki = [
         category1: "nauka",
         category2: [""]
     },
-                                                                        {
+    {
         id: [
             219,
             33,
@@ -6590,16 +6590,16 @@ const fiszki = [
         category1: "nauka",
         category2: ["osoby"]
     },
-                                                                            {
+    {
         id: [
             220,
             33,
             66
         ],
         img: [
-                    "http://arbu-1dcc9.web.app/img/fiszki1/51a.jpg",
-                    "http://arbu-1dcc9.web.app/img/fiszki1/220a.jpg"
-],
+            "http://arbu-1dcc9.web.app/img/fiszki1/51a.jpg",
+            "http://arbu-1dcc9.web.app/img/fiszki1/220a.jpg"
+        ],
         story: [
             "<b><u>Twoje</b></u> <b><u>ar</b></u>gumenty są bardzo przemawiające",
             "Papuga <u><b>ar</u></b>a i skowronek <u><b>są</u></b> zaprzyjaźnieni. Mam nadzieję, że ty <u><b>jesteś</u></b> z tego powodu w dobrym nastroju",
@@ -6619,7 +6619,7 @@ const fiszki = [
         category1: "nauka",
         category2: [""]
     },
-{
+    {
         id: [
             221,
             33,
@@ -6649,9 +6649,9 @@ const fiszki = [
             67
         ],
         img: "http://arbu-1dcc9.web.app/img/fiszki1/96a.jpg",
-                translate: "Ona teraz czyta nową książkę",
+        translate: "Ona teraz czyta nową książkę",
         translateb: "[Szi is riding e nju buk nał]",
-                translateb2: "[Ewrybody hes fan]",
+        translateb2: "[Ewrybody hes fan]",
         srcWord: ["http://arbu-1dcc9.web.app/filmy/shebook.mp4", "Harry Potter i Komnata Tajemnic (2002)"],
         srcWordimage: "http://arbu-1dcc9.web.app/filmy/shebook.png",
         story: "<u><b>Ona</u></b> - Patrycja ma ri<u><b>szi</u></b> to naturalny antyoksydant",
@@ -6667,9 +6667,9 @@ const fiszki = [
         key: "blue",
         category1: "nauka",
         category2: ["osoby"],
-                category3: ["PresentContinous"]
+        category3: ["PresentContinous"]
     },
-        {
+    {
         id: [
             223,
             34,
@@ -6707,7 +6707,7 @@ const fiszki = [
         category1: "nauka",
         category2: [""]
     },
-        {
+    {
         id: [
             224,
             34,
@@ -6728,7 +6728,7 @@ const fiszki = [
         category1: "nauka",
         category2: [""]
     },
-            {
+    {
         id: [
             225,
             34,
@@ -6750,7 +6750,7 @@ const fiszki = [
         category1: "nauka",
         category2: [""]
     },
-                {
+    {
         id: [
             226,
             34,
@@ -6772,7 +6772,7 @@ const fiszki = [
         category1: "nauka",
         category2: [""]
     },
-                {
+    {
         id: [
             227,
             34,
@@ -6794,7 +6794,7 @@ const fiszki = [
         category1: "nauka",
         category2: [""]
     },
-                {
+    {
         id: [
             228,
             34,
@@ -6816,16 +6816,16 @@ const fiszki = [
         category1: "nauka",
         category2: [""]
     },
-        {
+    {
         id: [
             229,
             35,
             69
         ],
         img: "http://arbu-1dcc9.web.app/img/fiszki1/221a.jpg",
-                translate: "Oni grają w piłkę nożną w tym momencie",
+        translate: "Oni grają w piłkę nożną w tym momencie",
         translateb: "[Dej ar pleing futbol at de moment]",
-                translateb2: "[Ewrybody hes fan]",
+        translateb2: "[Ewrybody hes fan]",
         srcWord: ["http://arbu-1dcc9.web.app/filmy/football.mp4", "Pelé. Narodziny legendy (2016)"],
         srcWordimage: "http://arbu-1dcc9.web.app/filmy/football.png",
         story: "<u><b>Oni</u></b> z<u><b>dej</u></b>mują jabłka z jabłoni",
@@ -6844,16 +6844,16 @@ const fiszki = [
         category2: ["osoby"],
         category3: ["PresentContinous"]
     },
-                    {
+    {
         id: [
             230,
             35,
             69
         ],
         img: [
-                    "http://arbu-1dcc9.web.app/img/fiszki1/51a.jpg",
-                    "http://arbu-1dcc9.web.app/img/fiszki1/220a.jpg",
-],
+            "http://arbu-1dcc9.web.app/img/fiszki1/51a.jpg",
+            "http://arbu-1dcc9.web.app/img/fiszki1/220a.jpg",
+        ],
         story: [
             "<b><u>Twoje</b></u> <b><u>ar</b></u>gumenty są bardzo przemawiające",
             "Papuga <u><b>ar</u></b>a i skowronek <u><b>są</u></b> zaprzyjaźnieni. Mam nadzieję, że ty <u><b>jesteś</u></b> z tego powodu w dobrym nastroju",
@@ -6872,7 +6872,7 @@ const fiszki = [
         category1: "nauka",
         category2: [""]
     },
-                        {
+    {
         id: [
             231,
             35,
@@ -6894,7 +6894,7 @@ const fiszki = [
         category1: "nauka",
         category2: [""]
     },
-                            {
+    {
         id: [
             232,
             35,
@@ -6916,7 +6916,7 @@ const fiszki = [
         category1: "nauka",
         category2: [""]
     },
-                            {
+    {
         id: [
             233,
             35,
@@ -6954,7 +6954,7 @@ const fiszki = [
         category1: "nauka",
         category2: [""]
     },
-                                {
+    {
         id: [
             234,
             35,
@@ -6990,7 +6990,7 @@ const fiszki = [
         category1: "nauka",
         category2: [""]
     },
-                                {
+    {
         id: [
             235,
             35,
@@ -7011,7 +7011,7 @@ const fiszki = [
         category1: "nauka",
         category2: [""]
     },
-            {
+    {
         id: [
             236,
             36,
@@ -7026,7 +7026,7 @@ const fiszki = [
         ],
         translate: "On gotuje kolację dla nas dzisiaj wieczorem",
         translateb: "[Hi is kuking diner at de mołment]",
-                translateb2: "[Ewrybody hes fan]",
+        translateb2: "[Ewrybody hes fan]",
         srcWord: ["http://arbu-1dcc9.web.app/filmy/dinner.mp4", "Rodzinka.pl"],
         srcWordimage: "http://arbu-1dcc9.web.app/filmy/dinner.png",
         word: [
@@ -7054,7 +7054,7 @@ const fiszki = [
         category2: ["osoby"],
         category3: ["PresentContinous"]
     },
-                                    {
+    {
         id: [
             237,
             36,
@@ -7093,7 +7093,7 @@ const fiszki = [
         category1: "nauka",
         category2: [""]
     },
-                                    {
+    {
         id: [
             238,
             36,
@@ -7115,7 +7115,7 @@ const fiszki = [
         category1: "nauka",
         category2: [""]
     },
-                                        {
+    {
         id: [
             239,
             36,
@@ -7137,7 +7137,7 @@ const fiszki = [
         category1: "nauka",
         category2: [""]
     },
-                                            {
+    {
         id: [
             240,
             36,
@@ -7158,7 +7158,7 @@ const fiszki = [
         category1: "nauka",
         category2: [""]
     },
-                                                {
+    {
         id: [
             241,
             36,
@@ -7179,7 +7179,7 @@ const fiszki = [
         category1: "nauka",
         category2: ["osoby"]
     },
-                                                {
+    {
         id: [
             242,
             36,
@@ -7200,7 +7200,7 @@ const fiszki = [
         category1: "nauka",
         category2: [""]
     },
-                {
+    {
         id: [
             243,
             37,
@@ -7241,7 +7241,7 @@ const fiszki = [
         category2: ["osoby"],
         category3: ["PresentContinous"]
     },
-                                                    {
+    {
         id: [
             244,
             37,
@@ -7275,7 +7275,7 @@ const fiszki = [
         category1: "nauka",
         category2: [""]
     },
-                                                        {
+    {
         id: [
             245,
             37,
@@ -7296,7 +7296,7 @@ const fiszki = [
         category1: "nauka",
         category2: [""]
     },
-                                                            {
+    {
         id: [
             246,
             37,
@@ -7319,7 +7319,7 @@ const fiszki = [
         category1: "nauka",
         category2: [""]
     },
-                                                                {
+    {
         id: [
             247,
             37,
@@ -7342,7 +7342,7 @@ const fiszki = [
         category1: "nauka",
         category2: [""]
     },
-                                                                {
+    {
         id: [
             248,
             37,
@@ -7354,7 +7354,7 @@ const fiszki = [
         ],
         story: [
             "Bardzo <b><u>duży</b></u> samolot M<b><u>ig</b></u> właśnie przeleciał na niebie",
-             "<b><u>Big</b></u>amista ma <b><u>duży</b></u> popęd seksualny" 
+            "<b><u>Big</b></u>amista ma <b><u>duży</b></u> popęd seksualny"
         ],
         desc: "big[big] - duży/duża/duże",
         sentence2: [
@@ -7371,7 +7371,7 @@ const fiszki = [
         category1: "nauka",
         category2: [""]
     },
-                                                                {
+    {
         id: [
             249,
             37,
@@ -7394,7 +7394,7 @@ const fiszki = [
         category1: "nauka",
         category2: [""]
     },
-                                                                {
+    {
         id: [
             250,
             37,
@@ -7417,7 +7417,7 @@ const fiszki = [
         category1: "nauka",
         category2: [""]
     },
-                    {
+    {
         id: [
             251,
             38,
@@ -7450,16 +7450,16 @@ const fiszki = [
         category2: ["osoby"],
         category3: ["PresentContinous"]
     },
-                                                                    {
+    {
         id: [
             252,
             38,
             75
         ],
         img: [
-                    "http://arbu-1dcc9.web.app/img/fiszki1/51a.jpg",
-                    "http://arbu-1dcc9.web.app/img/fiszki1/220a.jpg"
-],
+            "http://arbu-1dcc9.web.app/img/fiszki1/51a.jpg",
+            "http://arbu-1dcc9.web.app/img/fiszki1/220a.jpg"
+        ],
         story: [
             "<b><u>Twoje</b></u> <b><u>ar</b></u>gumenty są bardzo przemawiające",
             "Papuga <u><b>ar</u></b>a i skowronek <u><b>są</u></b> zaprzyjaźnieni. Mam nadzieję, że ty <u><b>jesteś</u></b> z tego powodu w dobrym nastroju",
@@ -7477,7 +7477,7 @@ const fiszki = [
         category1: "nauka",
         category2: [""]
     },
-                                                                        {
+    {
         id: [
             253,
             38,
@@ -7498,7 +7498,7 @@ const fiszki = [
         category1: "nauka",
         category2: [""]
     },
-                                                                            {
+    {
         id: [
             254,
             38,
@@ -7518,7 +7518,7 @@ const fiszki = [
         category1: "nauka",
         category2: [""]
     },
-                                                                                {
+    {
         id: [
             255,
             38,
@@ -7538,7 +7538,7 @@ const fiszki = [
         category1: "nauka",
         category2: [""]
     },
-                        {
+    {
         id: [
             256,
             39,
@@ -7570,16 +7570,16 @@ const fiszki = [
         category2: ["osoby"],
         category3: ["PresentContinous"]
     },
-                                                                                    {
+    {
         id: [
             257,
             39,
             77
         ],
         img: [
-                    "http://arbu-1dcc9.web.app/img/fiszki1/51a.jpg",
-                    "http://arbu-1dcc9.web.app/img/fiszki1/220a.jpg"
-],
+            "http://arbu-1dcc9.web.app/img/fiszki1/51a.jpg",
+            "http://arbu-1dcc9.web.app/img/fiszki1/220a.jpg"
+        ],
         story: [
             "<b><u>Twoje</b></u> <b><u>ar</b></u>gumenty są bardzo przemawiające",
             "Papuga <u><b>ar</u></b>a i skowronek <u><b>są</u></b> zaprzyjaźnieni. Mam nadzieję, że ty <u><b>jesteś</u></b> z tego powodu w dobrym nastroju",
@@ -7600,7 +7600,7 @@ const fiszki = [
         category1: "nauka",
         category2: [""]
     },
-                                                                                        {
+    {
         id: [
             258,
             39,
@@ -7624,7 +7624,7 @@ const fiszki = [
         category1: "nauka",
         category2: [""]
     },
-                                                                                            {
+    {
         id: [
             259,
             39,
@@ -7648,7 +7648,7 @@ const fiszki = [
         category1: "nauka",
         category2: [""]
     },
-                                                                                                {
+    {
         id: [
             260,
             39,
@@ -7672,7 +7672,7 @@ const fiszki = [
         category1: "nauka",
         category2: [""]
     },
-                                                                                                    {
+    {
         id: [
             261,
             39,
@@ -7696,7 +7696,7 @@ const fiszki = [
         category1: "nauka",
         category2: [""]
     },
-                            {
+    {
         id: [
             262,
             40,
@@ -7712,9 +7712,9 @@ const fiszki = [
         translate: "On biega dziś w parku",
         translateb: "[Hi is raning in de park tudej]",
         translateb2: "[Hi is raning]",
-        srcWord: ["http://arbu-1dcc9.web.app/filmy/running.mp4", "Forrest Gump (1994)"],
+        srcWord: ["http://localhost/arbulanguage.com/filmy/running.mp4", "Forrest Gump (1994)"],
         srcWord2: ["http://arbu-1dcc9.web.app/filmy/procedure.mp4", "Breaking Bad"],
-        srcWordimage: "http://arbu-1dcc9.web.app/filmy/running.png",
+        srcWordimage: "http://localhost/arbulanguage.com/filmy/running.png",
         word: [
             "http://arbu-1dcc9.web.app/voice/bike.mp4"
         ],
@@ -7739,7 +7739,7 @@ const fiszki = [
         category2: ["osoby"],
         category3: ["PresentContinous"]
     },
-                                                                                                        {
+    {
         id: [
             263,
             40,
@@ -7777,7 +7777,7 @@ const fiszki = [
         category1: "nauka",
         category2: ["osoby"]
     },
-                                                                                                            {
+    {
         id: [
             264,
             40,
@@ -7798,7 +7798,7 @@ const fiszki = [
         category1: "nauka",
         category2: ["osoby"]
     },
-                                                                                                                {
+    {
         id: [
             265,
             40,
@@ -7819,7 +7819,7 @@ const fiszki = [
         category1: "nauka",
         category2: ["osoby"]
     },
-                                                                                                                    {
+    {
         id: [
             266,
             40,
@@ -7840,7 +7840,7 @@ const fiszki = [
         category1: "nauka",
         category2: ["osoby"]
     },
-                                                                                                                    {
+    {
         id: [
             267,
             40,
@@ -7861,24 +7861,25 @@ const fiszki = [
         category1: "nauka",
         category2: ["osoby"]
     },
-                                                                                                            {
+    {
         id: [
             268,
             41,
             80
         ],
-                img: [
+        img: [
             "http://arbu-1dcc9.web.app/img/fiszki1/8a.jpg",
             "http://arbu-1dcc9.web.appimg/fiszki1/8b.jpg",
             "http://arbu-1dcc9.web.app/img/fiszki1/8c.jpg",
             "http://arbu-1dcc9.web.app/img/fiszki1/8d.jpg",
             "http://arbu-1dcc9.web.app/img/fiszki1/8e.jpg"
         ],
-                translate: "On biega dziś w parku",
+        translate: "",
         translateb: "[Dej ar hewing diner tugeder nał]",
         translateb2: "[Dej ar hewing diner tugeder nał]",
-        srcWord: ["http://arbu-1dcc9.web.app/filmy/morning.mp4", "Fast and Furious"],
-        srcWordimage: "http://arbu-1dcc9.web.app/filmy/morning.png",
+        srcWord: ["http://localhost/arbulanguage.com/filmy/morning.mp4", "Fast and Furious: Hobbs and Shaw(2019)"],
+                srcWord2: ["http://arbu-1dcc9.web.app/filmy/procedure.mp4", "Breaking Bad"],
+        srcWordimage: "http://localhost/arbulanguage.com/filmy/morning.png",
         word: [
             "http://arbu-1dcc9.web.app/src/is.wav"
         ],
@@ -7899,22 +7900,22 @@ const fiszki = [
         category1: "nauka",
         category2: ["osoby"]
     },
-                                                                                                                        {
+    {
         id: [
             269,
             41,
             80
         ],
         img: [
-                    "http://arbu-1dcc9.web.app/img/fiszki1/51a.jpg",
-                    "http://arbu-1dcc9.web.app/img/fiszki1/220a.jpg"
-],
+            "http://arbu-1dcc9.web.app/img/fiszki1/51a.jpg",
+            "http://arbu-1dcc9.web.app/img/fiszki1/220a.jpg"
+        ],
         story: [
             "<b><u>Twoje</b></u> <b><u>ar</b></u>gumenty są bardzo przemawiające",
             "Papuga <u><b>ar</u></b>a i skowronek <u><b>są</u></b> zaprzyjaźnieni. Mam nadzieję, że ty <u><b>jesteś</u></b> z tego powodu w dobrym nastroju",
         ],
         desc: "are[ar] - jest/są - gramatyka",
-        sentence2: [
+        sentence1: [
             "are"
         ],
         sentence: [
@@ -7929,7 +7930,7 @@ const fiszki = [
         category1: "nauka",
         category2: ["osoby"]
     },
-                                                                                                                            {
+    {
         id: [
             270,
             41,
@@ -7938,7 +7939,7 @@ const fiszki = [
         img: "http://arbu-1dcc9.web.app/img/fiszki1/212a.jpg",
         story: "<b><u>Dziś</b></u> muszę zbierać na piwo, stoje <b><u>tu</b></u> pod sklepem i mówię <b><u>dej</b></u>",
         desc: "having[hewing] - mają",
-        sentence2: [
+        sentence1: [
             "having"
         ],
         sentence: [
@@ -7953,7 +7954,7 @@ const fiszki = [
         category1: "nauka",
         category2: ["osoby"]
     },
-                                                                                                                                {
+    {
         id: [
             271,
             41,
@@ -7962,7 +7963,7 @@ const fiszki = [
         img: "http://arbu-1dcc9.web.app/img/fiszki1/239a.jpg",
         story: "Wal<u><b>di</u></b> je <u><b>kolacje</u></b>, która pomaga mu uzdrowić <u><b>ner</u></b>kę",
         desc: "dinner[diner] - kolacja",
-        sentence2: [
+        sentence1: [
             "dinner"
         ],
         sentence: [
@@ -7977,7 +7978,7 @@ const fiszki = [
         category1: "nauka",
         category2: ["osoby"]
     },
-                                                                                                                                    {
+    {
         id: [
             272,
             41,
@@ -7986,8 +7987,8 @@ const fiszki = [
         img: "http://arbu-1dcc9.web.app/img/fiszki1/239a.jpg",
         story: "<u><b>Tu</u></b> razem pracujemy przy, żniwach.. Jest <u><b>ge</u></b>nialnie... Kombajnista ustwia h<u><b>eder</u></b> do koszenia zboża",
         desc: "together[tugeder] - razem",
-        sentence2: [
-            "dinner"
+        sentence1: [
+            "together"
         ],
         sentence: [
             "They",
@@ -8001,9 +8002,33 @@ const fiszki = [
         category1: "nauka",
         category2: ["osoby"]
     },
-                                {
+    {
         id: [
             273,
+            41,
+            80
+        ],
+        img: "http://arbu-1dcc9.web.app/img/fiszki1/239a.jpg",
+        story: "<u><b>Tu</u></b> razem pracujemy przy, żniwach.. Jest <u><b>ge</u></b>nialnie... Kombajnista ustwia h<u><b>eder</u></b> do koszenia zboża",
+        desc: "now[nał] - teraz",
+        sentence1: [
+            "now"
+        ],
+        sentence: [
+            "They",
+            "are ",
+            "having",
+            "dinner",
+            "together",
+            "now"
+        ],
+        key: "blue",
+        category1: "nauka",
+        category2: ["osoby"]
+    },
+    {
+        id: [
+            274,
             42,
             81
         ],
@@ -8017,9 +8042,9 @@ const fiszki = [
         translate: "",
         translateb: "[Aj em lerning Inglisz dis jer]",
         translateb2: "[Hi is raning]",
-        srcWord: ["http://arbu-1dcc9.web.app/filmy/running.mp4", ""],
+        srcWord: ["http://localhost/arbulanguage.com/filmy/learning-english.mp4", "Klik: I robisz, co chcesz (2006)"],
         srcWord2: ["http://arbu-1dcc9.web.app/filmy/procedure.mp4", "Breaking Bad"],
-        srcWordimage: "http://arbu-1dcc9.web.app/filmy/running.png",
+        srcWordimage: "http://localhost/arbulanguage.com/filmy/learning-english.png",
         word: [
             "http://arbu-1dcc9.web.app/voice/bike.mp4"
         ],
@@ -8045,9 +8070,9 @@ const fiszki = [
         category2: ["osoby"],
         category3: ["PresentContinous"]
     },
-                                                                                                                                        {
+    {
         id: [
-            274,
+            275,
             42,
             81
         ],
@@ -8080,38 +8105,38 @@ const fiszki = [
         category1: "nauka",
         category2: ["osoby"]
     },
-                                                                                                                                            {
-        id: [
-            275,
-            42,
-            81
-        ],
-        img: "http://arbu-1dcc9.web.app/img/fiszki1/239a.jpg",
-        story: "K<u><b>ler</u></b> kościelny uczy się grać w <u><b>Nin</u></b>tendo i grę <u><b>G</u></b>o",
-        desc: "learning[lerning] - uczę się",
-        sentence2: [
-            "am"
-        ],
-        sentence: [
-            "I",
-            "am",
-            "learning",
-            "English"
-        ],
-        key: "blue",
-        category1: "nauka",
-        category2: ["osoby"]
-    },
-                                                                                                                                                {
+    {
         id: [
             276,
             42,
             81
         ],
         img: "http://arbu-1dcc9.web.app/img/fiszki1/239a.jpg",
+        story: "K<u><b>ler</u></b> kościelny uczy się grać w <u><b>Nin</u></b>tendo i grę <u><b>G</u></b>o",
+        desc: "learning[lerning] - uczę się",
+        sentence1: [
+            "learning"
+        ],
+        sentence: [
+            "I",
+            "am",
+            "learning",
+            "English"
+        ],
+        key: "blue",
+        category1: "nauka",
+        category2: ["osoby"]
+    },
+    {
+        id: [
+            277,
+            42,
+            81
+        ],
+        img: "http://arbu-1dcc9.web.app/img/fiszki1/239a.jpg",
         story: "<u><b>In</u></b>nowacyjna metoda nauki językow, to jak lepienie <u><b>gli</u></b>ny - bardzo łatwe i <u><b>sz</u></b>ybkie",
         desc: "english[TRUDNOŚĆ JĘZYKOWA - inglisz(30%), ynglish(30%), english(30%)] - uczę się",
-        sentence2: [
+        sentence1: [
             "English"
         ],
         sentence: [
@@ -8124,9 +8149,9 @@ const fiszki = [
         category1: "nauka",
         category2: ["osoby"]
     },
-                                                                                                                                                    {
+    {
         id: [
-            277,
+            278,
             42,
             81
         ],
@@ -8157,9 +8182,9 @@ const fiszki = [
         category1: "nauka",
         category2: ["osoby"]
     },
-                                                                                                                                                    {
+    {
         id: [
-            278,
+            279,
             42,
             81
         ],
@@ -8177,21 +8202,21 @@ const fiszki = [
         category1: "nauka",
         category2: ["osoby"]
     },
-                                    {
+    {
         id: [
-            279,
+            280,
             43,
             82
         ],
         img: [
             "http://arbu-1dcc9.web.app/img/fiszki1/96a.jpg"
         ],
-                translate: "",
+        translate: "",
         translateb: "[Shi hes wizitid Paris meny tajms]",
         translateb2: "[Shi hes wizitid Paris]",
-        srcWord: ["http://arbu-1dcc9.web.app/filmy/running.mp4", ""],
-        srcWord2: ["http://arbu-1dcc9.web.app/filmy/procedure.mp4", "Breaking Bad"],
-        srcWordimage: "http://arbu-1dcc9.web.app/filmy/running.png",
+        srcWord: ["http://arbu-1dcc9.web.app/filmy/Paris.mp4", ""],
+        srcWord2: ["http://arbu-1dcc9.web.app/filmy/procedure.mp4", "Północ w Paryżu"],
+        srcWordimage: "http://arbu-1dcc9.web.app/filmy/Paris.png",
         word: [
             "http://arbu-1dcc9.web.app/voice/bike.mp4"
         ],
@@ -8211,9 +8236,9 @@ const fiszki = [
         category2: ["osoby"],
         category3: ["PresentContinous"]
     },
-                                                                                                                                                        {
+    {
         id: [
-            280,
+            281,
             43,
             82
         ],
@@ -8248,16 +8273,16 @@ const fiszki = [
         category1: "nauka",
         category2: ["osoby"]
     },
-                                                                                                                                                            {
+    {
         id: [
-            281,
+            282,
             43,
             82
         ],
         img: "http://arbu-1dcc9.web.app/img/fiszki1/239a.jpg",
         story: "Prodecent odwiedził naukowców z proszkiem <u><b>wizi</u></b>r, aby go przetestowali. Jeden naukowiec ma <u><b>ti</u></b>ki i myli się przy badaniach. <u><b>Id</u></b>zie mu słabo",
         desc: "visited[wizitid] - odwiedził/odwiedziła",
-        sentence2: [
+        sentence1: [
             "visited"
         ],
         sentence: [
@@ -8270,16 +8295,16 @@ const fiszki = [
         category1: "nauka",
         category2: ["osoby"]
     },
-                                                                                                                                                                {
+    {
         id: [
-            282,
+            283,
             43,
             82
         ],
         img: "http://arbu-1dcc9.web.app/img/fiszki1/239a.jpg",
         story: "<u><b>Pa</u></b>weł śpiewa na koncercie w <u><b>Paryżu</u></b> dużo <u><b>arii</u></b>, <u><b>s</u></b>uper mu to idzie",
         desc: "Paris[Paris] - Paryż",
-        sentence2: [
+        sentence1: [
             "Paris"
         ],
         sentence: [
@@ -8292,9 +8317,9 @@ const fiszki = [
         category1: "nauka",
         category2: ["osoby"]
     },
-                                                                                                                                                                    {
+    {
         id: [
-            283,
+            284,
             43,
             83
         ],
@@ -8312,9 +8337,9 @@ const fiszki = [
         category1: "nauka",
         category2: ["osoby"]
     },
-                                                                                                                                                                        {
+    {
         id: [
-            284,
+            285,
             43,
             83
         ],
@@ -8327,6 +8352,151 @@ const fiszki = [
         sentence: [
             "many",
             "times"
+        ],
+        key: "blue",
+        category1: "nauka",
+        category2: ["osoby"]
+    },
+    {
+        id: [
+            286,
+            44,
+            84
+        ],
+        img: [
+            "http://arbu-1dcc9.web.app/img/fiszki1/19a.jpg",
+            "http://arbu-1dcc9.web.app/img/fiszki1/19b.jpg",
+            "http://arbu-1dcc9.web.app/img/fiszki1/19c.jpg",
+            "http://arbu-1dcc9.web.app/img/fiszki1/19d.jpg",
+            "http://arbu-1dcc9.web.app/img/fiszki1/19e.jpg"
+        ],
+        translate: "",
+        translateb: "[Aj hew finiszt maj hołmłork]",
+        translateb2: "[Aj hew finiszt maj hołmłork]",
+        srcWord: ["http://arbu-1dcc9.web.app/filmy/homework.mp4", ""],
+        srcWord2: ["http://arbu-1dcc9.web.app/filmy/procedure.mp4", ""],
+        srcWordimage: "http://arbu-1dcc9.web.app/filmy/homework.png",
+        word: [
+            "http://arbu-1dcc9.web.app/voice/bike.mp4"
+        ],
+        story: [
+            "<u><b>Ja</u></b> jestem Piotrek, mam okulary ochronne, gdy jechałem rowerem wleciała mi mucha do <u><b>oka</u></b>, krzyczałem <u><b>ajjj</u></b> - dlaczego to <u><b>mi</u></b> wleciała mucha do <u><b>oka</u></b>, <u><b>ajjj</u></b>",
+            "M<u><b>aj</u></b>a ma zezowate <u><b>oko</u></b> i mówi, no <u><b>JA</u></b> widzę ciebie podwójnie",
+            "Nauka o mitach, takich jak królowa G</u></b>aj</u></b>a to ten temat, gdzie <u><b>ja</u></b> mam największą wiedze",
+            "Teraz <u><b>ja</u></b> występuję na weselu jako wodzirej i śpiewam <u><b>Aj</u></b>-ja-jaj tak słodko jest tu z wami być..",
+            "Mo<u><b>ja</u></b> babcia idzie do kurnika po jaja, a <u><b>ja</u></b> będę za chwilę jadł jajecznice"
+        ],
+        desc: "I[aj] - ja",
+        sentence1: [
+            "I"
+        ],
+        sentence: [
+            "I",
+            "have",
+            "finished",
+            "my",
+            "homework"
+        ],
+        key: "the adults",
+        category1: "nauka",
+        category2: ["osoby"],
+        category3: ["PresentContinous"]
+    },
+    {
+        id: [
+            287,
+            44,
+            84
+        ],
+        img: "http://arbu-1dcc9.web.app/img/fiszki1/122a.jpg",
+        story: "<b><u>Mam</b></u> fajne spodnie, ale puścił sz<b><u>ew</b></u>, <b><u>ch</b></u>yba go zaceruje",
+        desc: "have[hew] - mam",
+        sentence1: [
+            "have"
+        ],
+        sentence: [
+            "I",
+            "have",
+            "finished",
+            "my",
+            "homework"
+        ],
+        key: "blue",
+        category1: "nauka",
+        category2: ["osoby"]
+    },
+    {
+        id: [
+            288,
+            44,
+            84
+        ],
+        img: "http://arbu-1dcc9.web.app/img/fiszki1/239a.jpg",
+        story: "<b><u>Fin</b></u> zdaje magisterke i jest na końcu drogi kształcenia się czyli <b><u>finiszuje</b></u>. Zdał <b><u>i</b></u> jest <b><u>szt</b></u>os",
+        desc: "finished[finiszt] - ukończyć",
+        sentence1: [
+            "finished"
+        ],
+        sentence: [
+            "I",
+            "have",
+            "finished",
+            "my",
+            "homework"
+        ],
+        key: "blue",
+        category1: "nauka",
+        category2: ["osoby"]
+    },
+    {
+        id: [
+            289,
+            44,
+            84
+        ],
+        img: [
+            "http://arbu-1dcc9.web.app/img/fiszki1/49a.jpg",
+            "http://arbu-1dcc9.web.app/img/fiszki1/49b.jpg",
+            "http://arbu-1dcc9.web.app/img/fiszki1/49c.jpg"
+        ],
+        story: [
+            "W <b><u>maj</b></u>u kwitną <b><u>moje</b></u> ulubione kwiaty",
+            "Przetrzy<b><u>maj</b></u> mi na pare dni <b><u>moje</b></u> auto na placu",
+            "W <b><u>maj</b></u>u na <b><u>moje</b></u> rośliny w ogrodzie pada deszcz"
+        ],
+        desc: "my[maj] - moje",
+        sentence1: [
+            "my"
+        ],
+        sentence: [
+            "I",
+            "have",
+            "finished",
+            "my",
+            "homework"
+        ],
+        key: "blue",
+        category1: "nauka",
+        category2: ["osoby"]
+    },
+    {
+        id: [
+            290,
+            44,
+            84
+        ],
+        img: "http://arbu-1dcc9.web.app/img/fiszki1/239a.jpg",
+        story: "Mikołaj woła hoł hoł, ten list do Mikołaja jest jak praca domowa ze szkoły. Młody dobrze ją napisał. Sorki dziecko, ale Mikołaj nie ma dużo pieniędzy",
+        desc: "homework[hołmłork] - praca domowa",
+        sentence1: [
+            "homework"
+        ],
+        sentence: [
+            "I",
+            "have",
+            "finished",
+            "my",
+            "homework"
         ],
         key: "blue",
         category1: "nauka",
@@ -8423,44 +8593,44 @@ $(document).ready(function () {
 });
 let lessons2b = {};
 
-    // Funkcja do zapisywania danych do localStorage
-    function saveToLocalStorage(data) {
-        localStorage.setItem('wylosowaneLekcje', JSON.stringify(data));
+// Funkcja do zapisywania danych do localStorage
+function saveToLocalStorage(data) {
+    localStorage.setItem('wylosowaneLekcje', JSON.stringify(data));
+}
+
+// Funkcja do wczytywania danych z localStorage
+function loadFromLocalStorage() {
+    const storedData = localStorage.getItem('wylosowaneLekcje');
+    return storedData ? JSON.parse(storedData) : null;
+}
+
+const storedLessons = loadFromLocalStorage();
+
+if (storedLessons) {
+    lessons2b = storedLessons;
+    console.log('Wczytane dane z localStorage:', lessons2b);
+    console.log('hejlekcje', lessons2b[2]);
+
+    // Wywołanie funkcji showFiszki2 po wczytaniu danych
+    setTimeout(() => {
+        console.log('Wywołanie showFiszki2 z wczytanymi danymi');
+        showFiszki2();  // Upewnij się, że ta funkcja jest zdefiniowana
+    }, 0);
+} else {
+    // Jeśli nie ma zapisanych danych, losuj i zapisz
+    for (let i = 1; i <= 30; i++) {
+        lessons2b[i] = [];
     }
 
-    // Funkcja do wczytywania danych z localStorage
-    function loadFromLocalStorage() {
-        const storedData = localStorage.getItem('wylosowaneLekcje');
-        return storedData ? JSON.parse(storedData) : null;
-    }
+    // Zapisz dane do localStorage
+    saveToLocalStorage(lessons2b);
 
-    const storedLessons = loadFromLocalStorage();
-
-    if (storedLessons) {
-        lessons2b = storedLessons;
-        console.log('Wczytane dane z localStorage:', lessons2b);
-        console.log('hejlekcje', lessons2b[2]);
-
-        // Wywołanie funkcji showFiszki2 po wczytaniu danych
-        setTimeout(() => {
-            console.log('Wywołanie showFiszki2 z wczytanymi danymi');
-            showFiszki2();  // Upewnij się, że ta funkcja jest zdefiniowana
-        }, 0);
-    } else {
-        // Jeśli nie ma zapisanych danych, losuj i zapisz
-        for (let i = 1; i <= 30; i++) {
-            lessons2b[i] = [];
-        }
-        
-        // Zapisz dane do localStorage
-        saveToLocalStorage(lessons2b);
-
-        // Wywołanie showFiszki2 po zapisaniu nowych danych
-        setTimeout(() => {
-            console.log('Wywołanie showFiszki2 z nowo wygenerowanymi danymi');
-            showFiszki2();  // Upewnij się, że ta funkcja jest zdefiniowana
-        }, 0);
-    }
+    // Wywołanie showFiszki2 po zapisaniu nowych danych
+    setTimeout(() => {
+        console.log('Wywołanie showFiszki2 z nowo wygenerowanymi danymi');
+        showFiszki2();  // Upewnij się, że ta funkcja jest zdefiniowana
+    }, 0);
+}
 
 
 // Sprawdzanie zawartości lessons2b po załadowaniu danych
@@ -8469,21 +8639,21 @@ function printLessons2b() {
 }
 
 // Wywołaj tę funkcję, gdy masz pewność, że dane zostały załadowane
-document.addEventListener('DOMContentLoaded', function() {
+document.addEventListener('DOMContentLoaded', function () {
     setTimeout(printLessons2b, 1000);  // Opóźnienie dla pewności
 });
 function removeFiszka(fiszkaId, lessonId2) {
     // Wyszukaj element fiszki według klasy
-        const $container = $(`.image-container4[data-lesson="${lessonId2}"]`);
+    const $container = $(`.image-container4[data-lesson="${lessonId2}"]`);
 
     // Znajdź fiszkę do usunięcia wewnątrz kontenera
     const $fiszkaToRemove = $container.find(`.fiszka.fiszka-${fiszkaId}`);
-        $fiszkaToRemove.remove();
-        console.log(`Fiszka o id2: ${fiszkaId} została usunięta.`);
-    
+    $fiszkaToRemove.remove();
+    console.log(`Fiszka o id2: ${fiszkaId} została usunięta.`);
+
 }
 function generateFiszkaBlock(fiszka, lessonId2) {
-            console.log('hej555c', lessons2b[2]);
+    console.log('hej555c', lessons2b[2]);
     var currentStoryButtonName = ''; // Zmienna lokalna
     console.log(`Generating fiszka block for ID: [${fiszka.id.join(', ')}]`);
 
@@ -8497,24 +8667,24 @@ function generateFiszkaBlock(fiszka, lessonId2) {
 
             var music = document.getElementById(audioId);
             var pButton = document.getElementById(pButtonId);
-    // Dodajemy style bezpośrednio w kodzie JavaScript
-                if (window.matchMedia("(max-width: 999px)").matches) {
-    pButton.style.height = '100px';  // Zwiększenie wysokości
-    pButton.style.width = '100px';   // Zwiększenie szerokości
-                } else {
-                        pButton.style.height = '60px';  // Zwiększenie wysokości
-    pButton.style.width = '60px';   // Zwiększenie szerokości
-                }
-    pButton.style.border = 'none';   // Usunięcie ramki
-    pButton.style.backgroundSize = '80%';  // Rozmiar obrazka tła
-    pButton.style.backgroundRepeat = 'no-repeat';
-    pButton.style.backgroundPosition = 'center';
-    pButton.style.borderRadius = '8px';   // Zaokrąglenie rogów
-    pButton.style.outline = 'none';       // Usunięcie obramowania
-    pButton.style.display = 'flex';       // Wyśrodkowanie zawartości
-    pButton.style.alignItems = 'center';
-    pButton.style.justifyContent = 'center';
-    pButton.style.overflow = 'hidden';    // Ukrycie nadmiarowego kontentu
+            // Dodajemy style bezpośrednio w kodzie JavaScript
+            if (window.matchMedia("(max-width: 999px)").matches) {
+                pButton.style.height = '100px';  // Zwiększenie wysokości
+                pButton.style.width = '100px';   // Zwiększenie szerokości
+            } else {
+                pButton.style.height = '60px';  // Zwiększenie wysokości
+                pButton.style.width = '60px';   // Zwiększenie szerokości
+            }
+            pButton.style.border = 'none';   // Usunięcie ramki
+            pButton.style.backgroundSize = '80%';  // Rozmiar obrazka tła
+            pButton.style.backgroundRepeat = 'no-repeat';
+            pButton.style.backgroundPosition = 'center';
+            pButton.style.borderRadius = '8px';   // Zaokrąglenie rogów
+            pButton.style.outline = 'none';       // Usunięcie obramowania
+            pButton.style.display = 'flex';       // Wyśrodkowanie zawartości
+            pButton.style.alignItems = 'center';
+            pButton.style.justifyContent = 'center';
+            pButton.style.overflow = 'hidden';    // Ukrycie nadmiarowego kontentu
             console.log('Initialized audio element with ID:', audioId);
             console.log('Initialized play/pause button with ID:', pButtonId);
 
@@ -8634,62 +8804,62 @@ function generateFiszkaBlock(fiszka, lessonId2) {
             storyButton.append(iconContainer);
         }
 
-function createLikeOption(like, text) {
-    const likeOption = $('<div>').addClass('likeOption').attr('data-like', like).text(text);
+        function createLikeOption(like, text) {
+            const likeOption = $('<div>').addClass('likeOption').attr('data-like', like).text(text);
 
-    // Dodajemy efekt zmiany koloru na lekko ciemniejszy szary po najechaniu myszką na pojedynczą opcję "like"
-    likeOption.hover(
-        function () {
-            likeOption.css('background-color', '#dcdcdc'); // Lekko ciemniejszy szary kolor tła dla opcji "like"
-        },
-        function () {
-            likeOption.css('background-color', ''); // Usuwamy styl, aby wrócić do domyślnego tła opcji "like"
+            // Dodajemy efekt zmiany koloru na lekko ciemniejszy szary po najechaniu myszką na pojedynczą opcję "like"
+            likeOption.hover(
+                    function () {
+                        likeOption.css('background-color', '#dcdcdc'); // Lekko ciemniejszy szary kolor tła dla opcji "like"
+                    },
+                    function () {
+                        likeOption.css('background-color', ''); // Usuwamy styl, aby wrócić do domyślnego tła opcji "like"
+                    }
+            );
+
+            let likeCounter = 0; // Dodajemy licznik polubień dla każdej opcji "like"
+
+            const counterDiv = $('<div>').addClass('likeCounterDiv'); // Nowy div na licznik
+
+            // Dodajemy ikonę do licznika
+            const likeIcon = getLikeIcon(like);
+            const iconContainer = $('<span>').addClass('likeIconContainer').append(likeIcon);
+            counterDiv.append(iconContainer);
+
+            const likeCounterSpan = $('<span>').addClass('likeCounter').text(` ${likeCounter} `);
+            counterDiv.append(likeCounterSpan); // Licznik jest dodany po ikonie
+
+            imgContainer.append(counterDiv); // Dodajemy licznik na zewnątrz kontenera przycisków
+
+            likeOption.click(function (event) {
+                event.preventDefault(); // Zapobiegamy domyślnej akcji przycisku
+
+                // Inkrementujemy licznik polubień za każdym razem, gdy opcja "like" zostanie wybrana
+                likeCounter++;
+                likeCounterSpan.text(` ${likeCounter} `);
+
+                const selectedLike = $(this).data('like');
+                const selectedIcon = getLikeIcon(selectedLike);
+                likeText.text(text);
+                likeButton.removeClass('liked');
+                addLikeIconToStoryButton(lastClickedIndex, selectedLike); // Dodaj ikonę do story_button na podstawie wybranej opcji "like"
+
+                // Sprawdź, czy index już istnieje w tablicy
+                const existingIndex = selectedLikes.findIndex(item => item.index === lastClickedIndex);
+                if (existingIndex !== -1) {
+                    // Jeśli index istnieje, zaktualizuj wartość
+                    selectedLikes[existingIndex].like = selectedLike;
+                } else {
+                    // Jeśli index nie istnieje, dodaj nowy wpis
+                    selectedLikes.push({index: lastClickedIndex, like: text}); // Dodaj tylko nazwę "like"
+                }
+
+                likeOptionsContainer.fadeOut('fast');
+                saveSelectedLike(selectedLike, text); // Przekazujemy nazwę "like" i tekst do funkcji saveSelectedLike
+            });
+
+            return likeOption;
         }
-    );
-
-    let likeCounter = 0; // Dodajemy licznik polubień dla każdej opcji "like"
-
-    const counterDiv = $('<div>').addClass('likeCounterDiv'); // Nowy div na licznik
-
-    // Dodajemy ikonę do licznika
-    const likeIcon = getLikeIcon(like);
-    const iconContainer = $('<span>').addClass('likeIconContainer').append(likeIcon);
-    counterDiv.append(iconContainer);
-
-    const likeCounterSpan = $('<span>').addClass('likeCounter').text(` ${likeCounter} `);
-    counterDiv.append(likeCounterSpan); // Licznik jest dodany po ikonie
-
-    imgContainer.append(counterDiv); // Dodajemy licznik na zewnątrz kontenera przycisków
-
-    likeOption.click(function (event) {
-        event.preventDefault(); // Zapobiegamy domyślnej akcji przycisku
-
-        // Inkrementujemy licznik polubień za każdym razem, gdy opcja "like" zostanie wybrana
-        likeCounter++;
-        likeCounterSpan.text(` ${likeCounter} `);
-
-        const selectedLike = $(this).data('like');
-        const selectedIcon = getLikeIcon(selectedLike);
-        likeText.text(text);
-        likeButton.removeClass('liked');
-        addLikeIconToStoryButton(lastClickedIndex, selectedLike); // Dodaj ikonę do story_button na podstawie wybranej opcji "like"
-
-        // Sprawdź, czy index już istnieje w tablicy
-        const existingIndex = selectedLikes.findIndex(item => item.index === lastClickedIndex);
-        if (existingIndex !== -1) {
-            // Jeśli index istnieje, zaktualizuj wartość
-            selectedLikes[existingIndex].like = selectedLike;
-        } else {
-            // Jeśli index nie istnieje, dodaj nowy wpis
-            selectedLikes.push({index: lastClickedIndex, like: text}); // Dodaj tylko nazwę "like"
-        }
-
-        likeOptionsContainer.fadeOut('fast');
-        saveSelectedLike(selectedLike, text); // Przekazujemy nazwę "like" i tekst do funkcji saveSelectedLike
-    });
-
-    return likeOption;
-}
 
 // Funkcja do zapisywania wybranego "like"
         function saveSelectedLike(selectedLike, text) {
@@ -8721,53 +8891,53 @@ function createLikeOption(like, text) {
         const hashtagContainer = $('<a>').addClass('hashtag-container').attr('href', '#');
         fiszkaContainer.append(hashtagContainer);
 
-function showStory(index) {
-    const currentFiszka = fiszkaContainer;
+        function showStory(index) {
+            const currentFiszka = fiszkaContainer;
 
-    // Ukrywamy wszystkie historie w tej konkretnej fiszce
-    currentFiszka.find('.fiszka_story').hide();
-    
-    // Obsługa mnemoniki
-    if (Array.isArray(fiszka.story)) {
-        if (index >= 0 && index < fiszka.story.length) {
-            currentFiszka.find('.story-' + index).show();
+            // Ukrywamy wszystkie historie w tej konkretnej fiszce
+            currentFiszka.find('.fiszka_story').hide();
+
+            // Obsługa mnemoniki
+            if (Array.isArray(fiszka.story)) {
+                if (index >= 0 && index < fiszka.story.length) {
+                    currentFiszka.find('.story-' + index).show();
+                }
+            } else if (fiszka.story) {
+                currentFiszka.find('.story-0').show();
+            }
+
+            // Ukrywamy wszystkie obrazy
+            currentFiszka.find('.fiszka_img').hide();
+
+            // Obsługa obrazów
+            let imgIndex; // Zmienna do przechowywania indeksu obrazka
+
+            if (Array.isArray(fiszka.img)) {
+                imgIndex = Math.min(index, fiszka.img.length - 1);
+                currentFiszka.find('.fiszka_img').eq(imgIndex).show();
+                specificLesson2Ref = fiszka.img[imgIndex];
+                console.log("Index obrazka:", imgIndex);
+            } else {
+                imgIndex = 0; // Ustawienie imgIndex na 0, gdy fiszka.img nie jest tablicą
+                currentFiszka.find('.fiszka_img').eq(imgIndex).show();
+                specificLesson2Ref = fiszka.img;
+                console.log("Index obrazka:", imgIndex);
+            }
+
+            lastClickedIndex = index;
+
+            // Obsługa hashtagów
+            const selectedCategoryIndex = index * 2;
+            const value = fiszka.category1[selectedCategoryIndex];
+            const hashtag = fiszka.category1[selectedCategoryIndex + 1];
+
+            hashtagContainer.empty();
+            hashtagContainer.text(`${value} #${hashtag}`);
+
+            console.log('Calculated imgIndex:', imgIndex);
+
+            return imgIndex;
         }
-    } else if (fiszka.story) {
-        currentFiszka.find('.story-0').show();
-    }
-
-    // Ukrywamy wszystkie obrazy
-    currentFiszka.find('.fiszka_img').hide();
-
-    // Obsługa obrazów
-    let imgIndex; // Zmienna do przechowywania indeksu obrazka
-
-    if (Array.isArray(fiszka.img)) {
-        imgIndex = Math.min(index, fiszka.img.length - 1);
-        currentFiszka.find('.fiszka_img').eq(imgIndex).show();
-        specificLesson2Ref = fiszka.img[imgIndex];
-        console.log("Index obrazka:", imgIndex);
-    } else {
-        imgIndex = 0; // Ustawienie imgIndex na 0, gdy fiszka.img nie jest tablicą
-        currentFiszka.find('.fiszka_img').eq(imgIndex).show();
-        specificLesson2Ref = fiszka.img;
-        console.log("Index obrazka:", imgIndex);
-    }
-
-    lastClickedIndex = index;
-
-    // Obsługa hashtagów
-    const selectedCategoryIndex = index * 2;
-    const value = fiszka.category1[selectedCategoryIndex];
-    const hashtag = fiszka.category1[selectedCategoryIndex + 1];
-    
-    hashtagContainer.empty(); 
-    hashtagContainer.text(`${value} #${hashtag}`);
-
-    console.log('Calculated imgIndex:', imgIndex);
-
-    return imgIndex;
-}
 
         function selectLikeButton(index) {
             console.log("Wybór likeButton dla indeksu:", index);
@@ -8840,19 +9010,19 @@ function showStory(index) {
         console.log('Po utworzeniu wordDiv');
 
 // DODANIE MNEMOTECHNIKI
-if (Array.isArray(fiszka.story)) {
-    // Jeśli story jest tablicą, iterujemy przez wszystkie jej elementy
-    fiszka.story.forEach((story, index) => {
-        const storyContainer = $('<div>').addClass('fiszka_story story-' + index).html(story);
-        fiszkaContainer.append(storyContainer);
-        console.log("Dodano story: ", story);  // Debugowanie
-    });
-} else if (fiszka.story) {
-    // Jeśli story jest pojedynczym stringiem, dodajemy go bezpośrednio
-    const storyContainer = $('<div>').addClass('fiszka_story story-0').html(fiszka.story);
-    fiszkaContainer.append(storyContainer);
-    console.log("Dodano story: ", fiszka.story);  // Debugowanie
-}
+        if (Array.isArray(fiszka.story)) {
+            // Jeśli story jest tablicą, iterujemy przez wszystkie jej elementy
+            fiszka.story.forEach((story, index) => {
+                const storyContainer = $('<div>').addClass('fiszka_story story-' + index).html(story);
+                fiszkaContainer.append(storyContainer);
+                console.log("Dodano story: ", story);  // Debugowanie
+            });
+        } else if (fiszka.story) {
+            // Jeśli story jest pojedynczym stringiem, dodajemy go bezpośrednio
+            const storyContainer = $('<div>').addClass('fiszka_story story-0').html(fiszka.story);
+            fiszkaContainer.append(storyContainer);
+            console.log("Dodano story: ", fiszka.story);  // Debugowanie
+        }
         console.log('Przed utworzeniem wordDiv');
 
 // Utworzenie reszty elementów zgodnie z istniejącym kodem
@@ -8945,23 +9115,23 @@ if (Array.isArray(fiszka.story)) {
                             handleLikeButtonClick();
                         });
 
-        if (index === randomIndex) {
-            // Sprawdzamy, czy fiszka.img jest tablicą czy pojedynczą wartością
-            if (Array.isArray(fiszka.img)) {
-                newImgIndex = Math.min(index, fiszka.img.length - 1); // Aktualizacja zmiennej globalnej imgIndex
-                specificLesson2Ref = fiszka.img[newImgIndex];
-                console.log('hej432', specificLesson2Ref);
-            } else if (fiszka.img) {
-                newImgIndex = 0; // Przypisanie domyślnego indeksu dla pojedynczego obrazka
-                specificLesson2Ref = fiszka.img; // Przypisanie pojedynczej wartości do specificLesson2Ref
-                console.log('hej432', specificLesson2Ref);
-            }
-            initialSpecificLesson2Ref = specificLesson2Ref;
-            console.log('Hej7', specificLesson2Ref);
-            storyButton.addClass('green-button');
-            lastClickedButton = storyButton;
-            lastApprovedIndex = index; // Ustaw ostatnio zatwierdzony indeks na indeks losowego przycisku
-        }
+                if (index === randomIndex) {
+                    // Sprawdzamy, czy fiszka.img jest tablicą czy pojedynczą wartością
+                    if (Array.isArray(fiszka.img)) {
+                        newImgIndex = Math.min(index, fiszka.img.length - 1); // Aktualizacja zmiennej globalnej imgIndex
+                        specificLesson2Ref = fiszka.img[newImgIndex];
+                        console.log('hej432', specificLesson2Ref);
+                    } else if (fiszka.img) {
+                        newImgIndex = 0; // Przypisanie domyślnego indeksu dla pojedynczego obrazka
+                        specificLesson2Ref = fiszka.img; // Przypisanie pojedynczej wartości do specificLesson2Ref
+                        console.log('hej432', specificLesson2Ref);
+                    }
+                    initialSpecificLesson2Ref = specificLesson2Ref;
+                    console.log('Hej7', specificLesson2Ref);
+                    storyButton.addClass('green-button');
+                    lastClickedButton = storyButton;
+                    lastApprovedIndex = index; // Ustaw ostatnio zatwierdzony indeks na indeks losowego przycisku
+                }
 
                 // Dodaj typ "like" dla tej fiszki do tablicy
                 storyButtonContainer.append(storyButton);
@@ -8975,36 +9145,36 @@ if (Array.isArray(fiszka.story)) {
 
             // Użycie specificLesson2Ref po załadowaniu strony
             console.log("Początkowy specificLesson2Ref:", initialSpecificLesson2Ref);
-            
+
         } else if (fiszka.category1) {
-    // Jeśli fiszka.category1 nie jest tablicą
-    newImgIndex = 0; // Przypisanie domyślnego indeksu dla pojedynczego obrazka
-    specificLesson2Ref = fiszka.img; // Przypisanie pojedynczej wartości do specificLesson2Ref
-    initialSpecificLesson2Ref = specificLesson2Ref;
-    console.log('Hej7', specificLesson2Ref);
+            // Jeśli fiszka.category1 nie jest tablicą
+            newImgIndex = 0; // Przypisanie domyślnego indeksu dla pojedynczego obrazka
+            specificLesson2Ref = fiszka.img; // Przypisanie pojedynczej wartości do specificLesson2Ref
+            initialSpecificLesson2Ref = specificLesson2Ref;
+            console.log('Hej7', specificLesson2Ref);
 
-    // Stwórz pojedynczy przycisk dla pojedynczej wartości category1
-    const displayText = `${fiszka.category1} #${fiszka.category1}`;
-    const storyButton = $('<button>')
-        .text(displayText)
-        .addClass('story_button2 green-button') // Od razu przypisz zieloną klasę
-        .click(function () {
-            showStory(0); // Przekazujemy 0 jako indeks, ponieważ jest to pojedyncza wartość
-            lastClickedIndex = 0;
+            // Stwórz pojedynczy przycisk dla pojedynczej wartości category1
+            const displayText = `${fiszka.category1} #${fiszka.category1}`;
+            const storyButton = $('<button>')
+                    .text(displayText)
+                    .addClass('story_button2 green-button') // Od razu przypisz zieloną klasę
+                    .click(function () {
+                        showStory(0); // Przekazujemy 0 jako indeks, ponieważ jest to pojedyncza wartość
+                        lastClickedIndex = 0;
 
-            // Zapisujemy ostatnio kliknięty przycisk
-            lastClickedButton = $(this);
-            handleLikeButtonClick();
-        });
+                        // Zapisujemy ostatnio kliknięty przycisk
+                        lastClickedButton = $(this);
+                        handleLikeButtonClick();
+                    });
 
-    fiszkaContainer.append(storyButton);
-    lastClickedButton = storyButton;
-    lastApprovedIndex = 0; // Ustaw ostatnio zatwierdzony indeks na 0
+            fiszkaContainer.append(storyButton);
+            lastClickedButton = storyButton;
+            lastApprovedIndex = 0; // Ustaw ostatnio zatwierdzony indeks na 0
 
-    // WYWOŁANIE POJEDYNCZEJ HISTORII
-    showStory(0);
-    console.log("Pojedyncza wartość dla category1, specificLesson2Ref:", specificLesson2Ref);
-}
+            // WYWOŁANIE POJEDYNCZEJ HISTORII
+            showStory(0);
+            console.log("Pojedyncza wartość dla category1, specificLesson2Ref:", specificLesson2Ref);
+        }
         $('.fiszka_button_trening').click(function () {
             // Dodaj klasę pomarańczową tylko dla przycisku zatwierdzonego
             $('.story_button').each(function (index) {
@@ -9014,47 +9184,47 @@ if (Array.isArray(fiszka.story)) {
                 }
             });
         });
-            console.log('hej555ax', lessons2b[2]);
+        console.log('hej555ax', lessons2b[2]);
 // DODANIE PRZYCISKU TRENING
         fiszkaContainer.append($('<button>').text('TRENING').addClass('fiszka_button fiszka_button_trening').click(function () {
-            
+
             activateFiszka(fiszka.id, false);
-            
-    let id = fiszka.id;
-    let parametr = '';
 
-    // Sprawdzenie, czy idFiszki jest tablicą
-    if (Array.isArray(fiszka.id)) {
-        id = fiszka.id[0];         // Pierwszy element tablicy jako id
-        parametr = fiszka.id[1] || ''; // Drugi element tablicy jako parametr, jeśli istnieje
-    }
+            let id = fiszka.id;
+            let parametr = '';
 
-    // Tworzenie selektora na podstawie id i parametru
-    const className = `fiszka-${id}\\,${parametr}`;
-    const selector = `.${className}`;
-    console.log('hej201', parametr);
+            // Sprawdzenie, czy idFiszki jest tablicą
+            if (Array.isArray(fiszka.id)) {
+                id = fiszka.id[0];         // Pierwszy element tablicy jako id
+                parametr = fiszka.id[1] || ''; // Drugi element tablicy jako parametr, jeśli istnieje
+            }
+
+            // Tworzenie selektora na podstawie id i parametru
+            const className = `fiszka-${id}\\,${parametr}`;
+            const selector = `.${className}`;
+            console.log('hej201', parametr);
             let first = false;
-        // Jeśli parametr jest równy lessons2b[0], uruchom aktywujObrazek
-        if (parametr === lessons2b[0]) {
-            first = true;
-            console.log('hej200', first);
-            
-    }
-    let second = false;
             // Jeśli parametr jest równy lessons2b[0], uruchom aktywujObrazek
-        if (parametr === lessons2b[1]) {
-            second = true;
-            console.log('hej200', second);
-            
-    }
-    let third = false;
+            if (parametr === lessons2b[0]) {
+                first = true;
+                console.log('hej200', first);
+
+            }
+            let second = false;
             // Jeśli parametr jest równy lessons2b[0], uruchom aktywujObrazek
-        if (parametr === lessons2b[2]) {
-            third = true;
-            console.log('hej200', third);
-            
-    }
-            
+            if (parametr === lessons2b[1]) {
+                second = true;
+                console.log('hej200', second);
+
+            }
+            let third = false;
+            // Jeśli parametr jest równy lessons2b[0], uruchom aktywujObrazek
+            if (parametr === lessons2b[2]) {
+                third = true;
+                console.log('hej200', third);
+
+            }
+
             console.log("Trening clicked on fiszka nr " + fiszka.id);
             console.log("lessonId2:", lessonId2);
             console.log("nazwa", lessons2b[2]);

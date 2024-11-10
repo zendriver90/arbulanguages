@@ -2378,7 +2378,7 @@ if (czas === 'fiszki' && czas !== "zdania") {
                     break; // Przerwanie pętli, jeśli użytkownik nie chce kontynuować
                 }
             }
-                            if ((tablica15.length <= 39 || tablica15.length === 0)) {
+                            if ((tablica15.length <= 44 || tablica15.length === 0)) {
                                 console.log('wykonuje się 8');
 
                                 showCombinedSentenceForLesson2(polski, index50, matchingIndexes, lessonId1, newIndex, indexDiv, lesson1PartLength);
@@ -5659,7 +5659,8 @@ function highlightFirstWord(indexDiv) {
                     <div class="sentence1bba">${sentenceText2}</div>
                 `);
 
-
+                        let currentFiszkaIndex = 0;
+                        let currentWordIndex = 0; // Indeks słowa, które ma być wyświetlane
 // Funkcja obsługująca kliknięcia na słowa, przyjmująca clickedIndex
 function handleWordClick(clickedIndex, indexDiv, matchingFiszki1) {
     console.log("Przekazano clickedIndex:", clickedIndex);
@@ -5674,22 +5675,50 @@ function handleWordClick(clickedIndex, indexDiv, matchingFiszki1) {
 
     // Wywołaj funkcję wyświetlania fiszek
     showFiszkiForLesson5(indexDiv, fiszki, clickedIndex, matchingFiszki1);
-    
-    // Wywołaj updateHighlight, aby upewnić się, że przyciski są odpowiednio widoczne
-    updateHighlight($sentence10, currentHighlightIndex, firstWord, secondWord, thirdWord, forthWord, fifthWord, sixthWord);
+
 }
+                        const $wordContainer = $('<div>').attr('id', 'wordDisplay').css({
+                            'position': 'absolute',
+                            'bottom': '-20px',
+                            'font-size': '22px',
+                            'right': '-140px',
+                            'width': '130px',
+                            'height': '30px',
+                            'text-align': 'center',
+                            'line-height': '30px',
+                            'color': 'black',
+                            'background-color': 'lightgray',
+    'border-radius': '8px',
+    'border': '2px solid black',  // Dodaj obramowanie
+                            'z-index': '1000000'
+                        }).appendTo($container);
+                        const $currentWordDisplay = $('<span>').appendTo($wordContainer);
+    function updateWordDisplay2(currentWordIndex) {
+        let fiszka = matchingFiszki1[currentFiszkaIndex];
+        console.log('hej11', fiszka);
+        if (fiszka && fiszka.sentence1) {
+            const currentWord = fiszka.sentence1[currentWordIndex] || "";
+            $currentWordDisplay.text(currentWord); // Aktualizujemy tylko tekst w osobnym elemencie
+        } else if (fiszka && fiszka.sentence2) {
+            const currentWord = fiszka.sentence2[currentWordIndex] || "";
+            $currentWordDisplay.text(currentWord); // Aktualizujemy tylko tekst w osobnym elemencie
+        }
+    }
+// Deklaracja clickedIndex jako zmiennej globalnej
+let clickedIndex;
 
 // Dodanie zdarzenia click
-$('.word-span').on('click', function() {
+$(document).on('click', '.word-span', function() {
     const clickedWord = $(this).text();
     console.log("Kliknięto:", clickedWord);
 
     // Ustalanie clickedIndex dla klikniętego słowa
-    const clickedIndex = words.indexOf(clickedWord);
+    clickedIndex = words.indexOf(clickedWord);
     console.log('hej341', clickedIndex);
-
+    updateHighlight($sentence10, clickedIndex, firstWord, secondWord, thirdWord, forthWord, fifthWord, sixthWord);
     // Wywołanie handleWordClick z clickedIndex
     handleWordClick(clickedIndex, indexDiv, matchingFiszki1);
+
 });
 function showFiszkiForLesson5(indexDiv, fiszki, currentFiszkaIndex, matchingFiszki1) {
     console.log('Ładuje się');
@@ -5705,8 +5734,9 @@ if (currentFiszkaIndex >= 0 && currentFiszkaIndex < matchingFiszki1.length) {
     }
     return fiszkaBlock;
 }
+
 let currentHighlightIndex = 0; // Indeks podświetlenia
-const currentWordIndex = 0; // Indeks słowa, które ma być wyświetlane
+
 let displayWordsIndex = 0; // Indeks do wyświetlania słów (można dostosować w zależności od wymagań)
 
 // Obsługa kliknięcia na "next"
@@ -5730,7 +5760,6 @@ $(document).on('click', '.next-button', function() {
         if (currentHighlightIndex === 5) {
             $('#next-button').hide(); // Ukryj przycisk next na końcu
         }
-    
 });
 
                 // Obsługa kliknięcia na "prev"
@@ -5756,8 +5785,9 @@ $(document).on('click', '.next-button', function() {
 
 // Funkcja aktualizująca podświetlenie słów
 function updateHighlight($sentence10, index, firstWord, secondWord, thirdWord, forthWord, fifthWord, sixthWord) {
+
     const words = [firstWord, secondWord, thirdWord, forthWord, fifthWord, sixthWord];
-    
+ 
     // Generowanie HTML z przypisanymi funkcjami kliknięcia
     let highlightedWords = words.map((word, i) => {
         return i === index 
@@ -5777,30 +5807,17 @@ function updateHighlight($sentence10, index, firstWord, secondWord, thirdWord, f
         const clickedIndex = $(this).data('index'); // Pobieranie indeksu klikniętego słowa
         handleWordClick(clickedIndex, indexDiv, matchingFiszki1); // Wywołanie funkcji obsługi kliknięcia
     });
+                        console.log('hej12a', displayWordsIndex);
+        displayWords(index, indexDiv); // Wywołaj funkcję do wyświetlenia słów z nowym indeksem
 }
 
                 // Funkcja displayWords przyjmuje teraz currentWordIndex
                 function displayWords(nowy, indexDiv) {
                                 console.log('index66', indexDiv);
                     console.log('hej4433', currentWordIndex);
-                        const $wordContainer = $('<div>').attr('id', 'wordDisplay').css({
-                            'position': 'absolute',
-                            'bottom': '-20px',
-                            'font-size': '22px',
-                            'right': '-140px',
-                            'width': '130px',
-                            'height': '30px',
-                            'text-align': 'center',
-                            'line-height': '30px',
-                            'color': 'black',
-                            'background-color': 'lightgray',
-    'border-radius': '8px',
-    'border': '2px solid black',  // Dodaj obramowanie
-                            'z-index': '1000000'
-                        }).appendTo($container);
-                        const $currentWordDisplay = $('<span>').appendTo($wordContainer);
 
-                        let currentFiszkaIndex = nowy;
+
+currentFiszkaIndex = nowy;
 
                         const $prevButton = $('<button>')
                             .text('>')
@@ -5856,8 +5873,9 @@ $nextButton.on('click', function() {
     }
 });
 
-    function updateWordDisplay() {
+    function updateWordDisplay(currentWordIndex) {
         const fiszka = matchingFiszki1[currentFiszkaIndex];
+        console.log('hej11d', fiszka);
         if (fiszka && fiszka.sentence1) {
             const currentWord = fiszka.sentence1[currentWordIndex] || "";
             $currentWordDisplay.text(currentWord); // Aktualizujemy tylko tekst w osobnym elemencie
