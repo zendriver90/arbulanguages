@@ -7868,11 +7868,7 @@ const fiszki = [
             80
         ],
         img: [
-            "http://arbu-1dcc9.web.app/img/fiszki1/8a.jpg",
-            "http://arbu-1dcc9.web.appimg/fiszki1/8b.jpg",
-            "http://arbu-1dcc9.web.app/img/fiszki1/8c.jpg",
-            "http://arbu-1dcc9.web.app/img/fiszki1/8d.jpg",
-            "http://arbu-1dcc9.web.app/img/fiszki1/8e.jpg"
+            "http://arbu-1dcc9.web.app/img/fiszki1/8a.jpg"
         ],
         translate: "",
         translateb: "[Dej ar hewing diner tugeder nał]",
@@ -8486,7 +8482,7 @@ const fiszki = [
             84
         ],
         img: "http://arbu-1dcc9.web.app/img/fiszki1/239a.jpg",
-        story: "Mikołaj woła hoł hoł, ten list do Mikołaja jest jak praca domowa ze szkoły. Młody dobrze ją napisał. Sorki dziecko, ale Mikołaj nie ma dużo pieniędzy",
+        story: "Mikołaj woła <b><u>hoł</b></u> hoł, ten list do Mikołaja jest jak praca domowa ze szkoły. <b><u>Mło</b></u>dy dobrze ją napisał. S<b><u>ork</b></u>i dziecko, ale Mikołaj nie ma dużo pieniędzy",
         desc: "homework[hołmłork] - praca domowa",
         sentence1: [
             "homework"
@@ -8497,6 +8493,534 @@ const fiszki = [
             "finished",
             "my",
             "homework"
+        ],
+        key: "blue",
+        category1: "nauka",
+        category2: ["osoby"]
+    },
+        {
+        id: [
+            291,
+            45,
+            85
+        ],
+        img: [
+            "http://arbu-1dcc9.web.app/img/fiszki1/19a.jpg"
+        ],
+        translate: "",
+        translateb: "[Dej hew liwd in dis hałs for jers]",
+        translateb2: "[Dej hew liwd in dis hałs]",
+        srcWord: ["http://arbu-1dcc9.web.app/filmy/homework.mp4", ""],
+        srcWord2: ["http://arbu-1dcc9.web.app/filmy/procedure.mp4", ""],
+        srcWordimage: "http://arbu-1dcc9.web.app/filmy/homework.png",
+        word: [
+            "http://arbu-1dcc9.web.app/voice/bike.mp4"
+        ],
+        story: "<u><b>Oni</u></b> z<u><b>dej</u></b>mują jabłka z jabłoni",
+        desc: "they[dej] - oni",
+        sentence1: [
+            "They"
+        ],
+        sentence: [
+            "They",
+            "have",
+            "lived",
+            "in",
+            "this",
+            "house"
+        ],
+        key: "the adults",
+        category1: "nauka",
+        category2: ["osoby"],
+        category3: ["PresentPerfect"]
+    },
+        {
+        id: [
+            292,
+            45,
+            85
+        ],
+        img: "http://arbu-1dcc9.web.app/img/fiszki1/122a.jpg",
+        story: "<b><u>Mam</b></u> fajne spodnie, ale puścił sz<b><u>ew</b></u>, <b><u>ch</b></u>yba go zaceruje",
+        desc: "have[hew] - mam",
+        sentence1: [
+            "have"
+        ],
+        sentence: [
+            "They",
+            "have",
+            "lived",
+            "in",
+            "this",
+            "house"
+        ],
+        key: "blue",
+        category1: "nauka",
+        category2: ["osoby"]
+    },
+            {
+        id: [
+            293,
+            45,
+            85
+        ],
+        img: "http://arbu-1dcc9.web.app/img/fiszki1/239a.jpg",
+        story: "O<u><b>liw</u></b>ka i <u><b>D</u></b>amian żyją ze sobą szczęśliwie",
+        desc: "lived[liwd] - żyją",
+        sentence1: [
+            "lived"
+        ],
+        sentence: [
+            "They",
+            "have",
+            "lived",
+            "in",
+            "this",
+            "house"
+        ],
+        key: "blue",
+        category1: "nauka",
+        category2: ["osoby"]
+    },
+                {
+        id: [
+            294,
+            45,
+            85
+        ],
+        img: "http://arbu-1dcc9.web.app/img/fiszki1/254a.jpg",
+        story: "<u><b>In</u></b>trowertyk lubi przesiadywać <u><b>w</u></b> swoim umyśle",
+        desc: "in[in] - w",
+        sentence1: [
+            "in"
+        ],
+        sentence: [
+            "They",
+            "have",
+            "lived",
+            "in",
+            "this",
+            "house"
+        ],
+        key: "blue",
+        category1: "nauka",
+        category2: ["osoby"]
+    },
+                    {
+        id: [
+            295,
+            45,
+            85
+        ],
+        img: [
+            "http://arbu-1dcc9.web.app/img/fiszki1/43a.jpg",
+            "http://arbu-1dcc9.web.app/img/fiszki1/80b.jpg",
+            "http://arbu-1dcc9.web.app/img/fiszki1/83c.jpg",
+            "http://arbu-1dcc9.web.app/img/fiszki1/108d.jpg"
+        ],
+        story: [
+            "Quo va<b><u>dis</b></u> <b><u>to</b></u> cytat bardzo znany",
+            "To słówko distant - czytamy <b><u>dis</b></u>tant",
+            "E<b><u>dis</b></u>on to geniusz",
+            "<b><u>Di</b></u>va operowa jest <b><u>s</b></u>ławna"
+        ],
+        desc: "this[dis] - ta rzecz/osoba",
+        sentence1: [
+            "this"
+        ],
+        sentence: [
+            "They",
+            "have",
+            "lived",
+            "in",
+            "this",
+            "house"
+        ],
+        key: "blue",
+        category1: "nauka",
+        category2: ["osoby"]
+    },
+                    {
+        id: [
+            296,
+            45,
+            85
+        ],
+        img: "http://arbu-1dcc9.web.app/img/fiszki1/239a.jpg",
+        story: "Spotkałem kolegę... je<b><u>chał</b></u> pro<b><u>s</b></u>to do domu",
+        desc: "house[hałs] - dom",
+        sentence1: [
+            "house"
+        ],
+        sentence: [
+            "They",
+            "have",
+            "lived",
+            "in",
+            "this",
+            "house"
+        ],
+        key: "blue",
+        category1: "nauka",
+        category2: ["osoby"]
+    },
+                        {
+        id: [
+            297,
+            45,
+            86
+        ],
+        img: "http://arbu-1dcc9.web.app/img/fiszki1/139a.jpg",
+        story: "<b><u>For</b></u>est Gump jest filmem <b><u>dla</b></u> każdego",
+        desc: "for[for] - dla",
+        sentence1: [
+            "for"
+        ],
+        sentence: [
+            "for",
+            "years"
+        ],
+        key: "blue",
+        category1: "nauka",
+        category2: ["osoby"]
+    },
+                            {
+        id: [
+            298,
+            45,
+            86
+        ],
+        img: "http://arbu-1dcc9.web.app/img/fiszki1/239a.jpg",
+        story: "",
+        desc: "years[jers] - lata",
+        sentence1: [
+            "years"
+        ],
+        sentence: [
+            "for",
+            "years"
+        ],
+        key: "blue",
+        category1: "nauka",
+        category2: ["osoby"]
+    },
+            {
+        id: [
+            299,
+            46,
+            87
+        ],
+        img: [
+            "http://arbu-1dcc9.web.app/img/fiszki1/5a.jpg",
+            "http://arbu-1dcc9.web.app/img/fiszki1/5b.jpg",
+            "http://arbu-1dcc9.web.app/img/fiszki1/5c.jpg",
+            "http://arbu-1dcc9.web.app/img/fiszki1/5d.jpg",
+            "http://arbu-1dcc9.web.app/img/fiszki1/5e.jpg"
+        ],
+        translate: "",
+        translateb: "[De mówi hes dzast started]",
+        translateb2: "[De mówi hes]",
+        srcWord: ["http://arbu-1dcc9.web.app/filmy/homework.mp4", ""],
+        srcWord2: ["http://arbu-1dcc9.web.app/filmy/procedure.mp4", ""],
+        srcWordimage: "http://arbu-1dcc9.web.app/filmy/homework.png",
+        word: [
+            "http://arbu-1dcc9.web.app/voice/bike.mp4"
+        ],
+        story: [
+            'Piłki do gry w kosza są twar<span class="adannotation" data-annotation="1"><u><b>de</u></b></span>. Sam ten sport <u><b>to</u></b> twarda gra',
+            'Na tym <span class="adannotation" data-annotation="1"><u><b>de</u></b></span>ptaku jest sporo drzewek, <u><b>to</u></b> urocze miejsce',
+            '<u><b>To</u></b> ten <span class="adannotation" data-annotation="1"><u><b>De</u></b></span>partament Stanu prowadzi badania nad społecznym problemem',
+            'Czasami politycy stosują <span class="adannotation" data-annotation="1"><u><b>de</u></b></span>magogię. Czyli co stosują? <u><b>Tę</u></b> <span class="adannotation" data-annotation="1"><u><b>de</u></b></span>magogię',
+            '<u><b>To</u></b> co w naszej rodzinie istnieje to <span class="adannotation" data-annotation="1"><u><b>de</u></b></span>mokracja'
+        ],
+        desc: "TRUDNOŚĆ JĘZYKOWA: the[de]-33%, [ze]-33%, [d-ze]-33% - ta",
+        sentence1: [
+            "The"
+        ],
+        sentence: [
+            "The",
+            "movie",
+            "has"
+        ],
+        key: "the adults",
+        category1: "nauka",
+        category2: ["osoby"],
+        category3: ["PresentPerfect"]
+    },
+                                {
+        id: [
+            300,
+            46,
+            87
+        ],
+        img: "http://arbu-1dcc9.web.app/img/fiszki1/239a.jpg",
+        story: "Ten <u><b>film</u></b> <u><b>mówi</u></b> o perypetiach losu",
+        desc: "movie[mówi] - film",
+        sentence1: [
+            "movie"
+        ],
+        sentence: [
+            "The",
+            "movie",
+            "has"
+        ],
+        key: "blue",
+        category1: "nauka",
+        category2: ["osoby"]
+    },
+                                {
+        id: [
+            301,
+            46,
+            87
+        ],
+        img: [
+            "http://arbu-1dcc9.web.app/img/fiszki1/2a.jpg",
+            "http://arbu-1dcc9.web.app/img/fiszki1/2b.jpg",
+            "http://arbu-1dcc9.web.app/img/fiszki1/2c.jpg",
+            "http://arbu-1dcc9.web.app/img/fiszki1/2d.jpg",
+            "http://arbu-1dcc9.web.app/img/fiszki1/2e.jpg"
+        ],
+        word: [
+            "http://arbu-1dcc9.web.app/src/has.wav"
+        ],
+        story: [
+            'W niemieckim mieście <span class="adannotation" data-annotation="1"><u><b>Hess</u></b></span>en Jurek <u><b>ma</u></b> bilet na mecze jego drużyny',
+            '<span class="adannotation" data-annotation="1"><u><b>H</u></b></span>ipopotam występuje w cyrku na <span class="adannotation" data-annotation="2"><u><b>es</u></b></span>tradzie, <u><b>ma</u></b> duże umiejętności',
+            'Naukowiec nagle się zapomniał i zapytał: <span class="adannotation" data-annotation="1"><u><b>he</u></b></span>?, a wtedy jego kolega <u><b>ma</u></b> niezłą zabawę, <span class="adannotation" data-annotation="2"><u><b>s</u></b></span>prawa oczywista..',
+            '<span class="adannotation" data-annotation="1"><u><b>He</u></b></span>gemonia konsumpcjonizmu doprowadziła do tego, że "ON"-dyrektor ma problemy, bo nikt nie chce chodzić na <span class="adannotation" data-annotation="2"><u><b>s</u></b></span>pektakle teatralne',
+            'Moja koleżanka <u><b>ma</u></b> nowy klarnet z drzewa <span class="adannotation" data-annotation="1"><u><b>he</u></b></span>banowego. <span class="adannotation" data-annotation="2"><u><b>S</u></b></span>....uper sprawa'
+        ],
+        desc: "has[hes]/have[hew] - mieć(on/ona/oni)/mieć(ja/ty)",
+        sentence1: [
+            "has"
+        ],
+        sentence: [
+            "The",
+            "movie",
+            "has"
+        ],
+        key: "blue",
+        category1: "nauka",
+        category2: ["osoby"]
+    },
+                                    {
+        id: [
+            302,
+            46,
+            87
+        ],
+        img: "http://arbu-1dcc9.web.app/img/fiszki1/239a.jpg",
+        story: "<u><b>Dzast</u></b>in Bieber <u><b>poprostu</u></b> jest najlepszy",
+        desc: "just[dzast] - poprostu",
+        sentence1: [
+            "just"
+        ],
+        sentence: [
+            "just",
+            "started"
+        ],
+        key: "blue",
+        category1: "nauka",
+        category2: ["osoby"]
+    },
+                                        {
+        id: [
+            303,
+            46,
+            87
+        ],
+        img: "http://arbu-1dcc9.web.app/img/fiszki1/239a.jpg",
+        story: "Samochód dostawczy <u><b>Star</u></b> właśnie wystartował, j<u><b>ed</u></b>zie dozwoloną prędkością",
+        desc: "started[started] - wystartowało",
+        sentence1: [
+            "started"
+        ],
+        sentence: [
+            "just",
+            "started"
+        ],
+        key: "blue",
+        category1: "nauka",
+        category2: ["osoby"]
+    },
+                {
+        id: [
+            304,
+            47,
+            88
+        ],
+        img: "http://arbu-1dcc9.web.app/img/fiszki1/96a.jpg",
+        translate: "",
+        translateb: "[She hes rid dis buk tłajs]",
+        translateb2: "[De mówi hes]",
+        srcWord: ["http://arbu-1dcc9.web.app/filmy/homework.mp4", ""],
+        srcWord2: ["http://arbu-1dcc9.web.app/filmy/procedure.mp4", ""],
+        srcWordimage: "http://arbu-1dcc9.web.app/filmy/homework.png",
+        word: [
+            "http://arbu-1dcc9.web.app/voice/bike.mp4"
+        ],
+        story: "<u><b>Ona</u></b> - Patrycja ma ri<u><b>szi</u></b> to naturalny antyoksydant",
+        desc: "she[szi] - niebieski/niebieskie",
+        sentence1: [
+            "She"
+        ],
+        sentence: [
+            "She",
+            "has",
+            "read",
+            "this",
+            "book",
+            "twice"
+        ],
+        key: "the adults",
+        category1: "nauka",
+        category2: ["osoby"],
+        category3: ["PresentPerfect"]
+    },
+                                            {
+        id: [
+            305,
+            47,
+            88
+        ],
+        img: [
+            "http://arbu-1dcc9.web.app/img/fiszki1/2a.jpg",
+            "http://arbu-1dcc9.web.app/img/fiszki1/2b.jpg",
+            "http://arbu-1dcc9.web.app/img/fiszki1/2c.jpg",
+            "http://arbu-1dcc9.web.app/img/fiszki1/2d.jpg",
+            "http://arbu-1dcc9.web.app/img/fiszki1/2e.jpg"
+        ],
+        word: [
+            "http://arbu-1dcc9.web.app/src/has.wav"
+        ],
+        story: [
+            'W niemieckim mieście <span class="adannotation" data-annotation="1"><u><b>Hess</u></b></span>en Jurek <u><b>ma</u></b> bilet na mecze jego drużyny',
+            '<span class="adannotation" data-annotation="1"><u><b>H</u></b></span>ipopotam występuje w cyrku na <span class="adannotation" data-annotation="2"><u><b>es</u></b></span>tradzie, <u><b>ma</u></b> duże umiejętności',
+            'Naukowiec nagle się zapomniał i zapytał: <span class="adannotation" data-annotation="1"><u><b>he</u></b></span>?, a wtedy jego kolega <u><b>ma</u></b> niezłą zabawę, <span class="adannotation" data-annotation="2"><u><b>s</u></b></span>prawa oczywista..',
+            '<span class="adannotation" data-annotation="1"><u><b>He</u></b></span>gemonia konsumpcjonizmu doprowadziła do tego, że "ON"-dyrektor ma problemy, bo nikt nie chce chodzić na <span class="adannotation" data-annotation="2"><u><b>s</u></b></span>pektakle teatralne',
+            'Moja koleżanka <u><b>ma</u></b> nowy klarnet z drzewa <span class="adannotation" data-annotation="1"><u><b>he</u></b></span>banowego. <span class="adannotation" data-annotation="2"><u><b>S</u></b></span>....uper sprawa'
+        ],
+        desc: "has[hes]/have[hew] - mieć(on/ona/oni)/mieć(ja/ty)",
+        sentence1: [
+            "has"
+        ],
+        sentence: [
+            "She",
+            "has",
+            "read",
+            "this",
+            "book",
+            "twice"
+        ],
+        key: "blue",
+        category1: "nauka",
+        category2: ["osoby"]
+    },
+                                                {
+        id: [
+            306,
+            47,
+            88
+        ],
+        img: "http://arbu-1dcc9.web.app/img/fiszki1/125a.jpg",
+        story: "Floryda to stan w USA, który powinien być czytany Flo<b><u>rid</b></u>a",
+        desc: "read[rid] - czytać",
+        sentence1: [
+            "read"
+        ],
+        sentence: [
+            "She",
+            "has",
+            "read",
+            "this",
+            "book",
+            "twice"
+        ],
+        key: "blue",
+        category1: "nauka",
+        category2: ["osoby"]
+    },
+                                                {
+        id: [
+            307,
+            47,
+            88
+        ],
+        img: [
+            "http://arbu-1dcc9.web.app/img/fiszki1/43a.jpg",
+            "http://arbu-1dcc9.web.app/img/fiszki1/80b.jpg",
+            "http://arbu-1dcc9.web.app/img/fiszki1/83c.jpg",
+            "http://arbu-1dcc9.web.app/img/fiszki1/108d.jpg"
+        ],
+        story: [
+            "Quo va<b><u>dis</b></u> <b><u>to</b></u> cytat bardzo znany",
+            "To słówko distant - czytamy <b><u>dis</b></u>tant",
+            "E<b><u>dis</b></u>on to geniusz",
+            "<b><u>Di</b></u>va operowa jest <b><u>s</b></u>ławna"
+        ],
+        desc: "this[dis] - ta rzecz/osoba",
+        sentence1: [
+            "This"
+        ],
+        sentence1: [
+            "this"
+        ],
+        sentence: [
+            "The",
+            "has",
+            "read",
+            "this",
+            "book",
+            "twice"
+        ],
+        key: "blue",
+        category1: "nauka",
+        category2: ["osoby"]
+    },
+                                                    {
+        id: [
+            308,
+            47,
+            88
+        ],
+        img: "http://arbu-1dcc9.web.app/img/fiszki1/239a.jpg",
+        story: "Z tego drzewa <u><b>buk</u></b>owego zrobimy papier na <u><b>książkę</u></b>",
+        desc: "book[buk] - to/ta",
+        sentence1: [
+            "book"
+        ],
+        sentence: [
+            "The",
+            "has",
+            "read",
+            "this",
+            "book",
+            "twice"
+        ],
+        key: "blue",
+        category1: "nauka",
+        category2: ["osoby"]
+    },
+                                                    {
+        id: [
+            309,
+            47,
+            88
+        ],
+        img: "http://arbu-1dcc9.web.app/img/fiszki1/239a.jpg",
+        story: "Te obrazy są podobne, ale mają inne <u><b>tła</u></b> i farby za inny ha<u><b>js</u></b>",
+        desc: "twice[tłajs] - podwójny/podwójna/dwukrotnie",
+        sentence1: [
+            "twice"
+        ],
+        sentence: [
+            "The",
+            "has",
+            "read",
+            "this",
+            "book",
+            "twice"
         ],
         key: "blue",
         category1: "nauka",

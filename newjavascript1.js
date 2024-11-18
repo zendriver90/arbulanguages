@@ -7481,3 +7481,41 @@ button123:hover {
             'margin-top': `${fiszka.id[0] % 2 === 0 ? -marginTop[fiszkaId] + 170 : -marginTop[fiszkaId] + 40}px`,
             'margin-bottom': `${fiszka.id[0] % 2 !== 0 ? marginBottom[fiszkaId] + 70 : -marginBottom[fiszkaId] + 50}px`
         });
+        
+        
+        function showFiszkiForLesson6(indexDiv, fiszki, currentFiszkaIndex, matchingFiszki1) {
+    const $container = $(`.image-container4[data-lesson="${indexDiv}"]`);
+tablica11b.push(indexDiv);
+console.log('hej64', tablica11b);
+    if (matchingFiszki1.length > 0) {
+                console.log('hej64xx', matchingFiszki1);
+    if (currentFiszkaIndex >= 0 && currentFiszkaIndex < matchingFiszki1.length) {
+
+            let id = matchingFiszki1[currentFiszkaIndex - 1].id;
+            console.log('hej2', id);
+            let parametr = '';
+
+            // Sprawdź, czy id jest tablicą
+            if (Array.isArray(id)) {
+                // Połącz wartości z tablicy id w jeden ciąg znaków oddzielony przecinkami
+                id = id.slice(0, 3).join(',');
+
+                // Obsługa ewentualnego dodatkowego parametru (np. czwartego elementu w tablicy)
+                if (id.length > 3) {
+                    parametr = matchingFiszki1[currentFiszkaIndex].id[3]; // Pobierz czwarty element z tablicy
+                }
+            }
+
+// Tworzenie klasy CSS
+const className = `fiszka-${id}${parametr ? '\\,' + parametr : ''}`;
+const selector = `.${className.replace(/,/g, '\\,')}`;
+
+// Znalezienie i usunięcie diva z klasą `className`
+let $divToRemove = $(selector);
+if ($divToRemove.length) {  // Sprawdza, czy element istnieje
+    $divToRemove.remove();   // Usuwa cały div z DOM
+}
+}
+        console.log('hej44', $container);
+                }
+            }

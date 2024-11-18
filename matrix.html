@@ -4790,6 +4790,8 @@ ${sentence30}${sentence33}<br>
                 // Deklaracja tablicy, która będzie zawierać wszystkie tablice
             }
 let isVideoPlaying = false;
+let tablica11b = [];
+                    let tablica12b = [];
             function showCombinedSentenceForLesson2(polski, index50, matchingIndexes, lessonIdToShow1, newIndex, indexDiv, lesson1PartLength) {
                 // Tutaj reszta kodu funkcji
                 const matchingFiszki1 = fiszki.filter(fiszka => fiszka.id[1] === lessonIdToShow1);
@@ -5106,6 +5108,9 @@ ${sentence10}${sentence11}<br>
                     // Możesz również dodać dodatkowe atrybuty, takie jak 'data-lesson'
                     $container.attr('data-lesson', indexDiv);
                     $('.grid-container').append($container);
+
+
+let tablica11c = [];
                     const srcWords = [srcWord1];
                     console.log('hej2', srcWords);
                     const srcWords2 = [srcWord1b];
@@ -5134,6 +5139,7 @@ ${sentence10}${sentence11}<br>
 
 let currentVideoElement = null;
 const activeVideos = [];
+let initialFiszkaContainer = null; // Zmienna przechowująca kontener fiszki
                     if (newIndex === 0 && !buttonindex) {
                         isVideoPlaying = true;
                         console.log('hej3331', buttonindex);
@@ -5523,8 +5529,7 @@ const startSystemWidth = 30; // Szerokość startsystem
 const quickLessonWidth = 95; // Szerokość przycisku "Szybka lekcja"
 
 // Obsługa kliknięcia przycisku overlay
-$buttonb.on('click', function () {
-
+$buttonb.on('click', function () {     
     $('video').each(function () {
         const video = this;
         if (!video.paused) {
@@ -5607,11 +5612,18 @@ const $loadButton = $('<button>')
                 'position': 'relative', // Ustawienie position na relative, aby z-index działał
                 'z-index': '1000003'
             });
-
-
+    // Dodaj kopię wartości indexDiv do tablicy
+    tablica11b.push(indexDiv);
+let ostatniElement2 = tablica11b[tablica11b.length - 2];
+console.log('hej55h', ostatniElement2);
+                    setTimeout(() => {
+                        showFiszkiForLesson6(ostatniElement2);
+                        }, 2100);
                         highlightFirstWord(indexDiv);
 
 });
+
+
 
 function highlightFirstWord(indexDiv) {
     const $container = $(`.image-container4[data-lesson="${indexDiv}"]`);
@@ -5620,7 +5632,12 @@ function highlightFirstWord(indexDiv) {
         const $sentence10 = $container.find('.sentenceBB');
         const $sentence11 = $container.find('.sentence11');
         const $sentence1bba = $container.find('.sentence1bba');
-
+                                let currentFiszkaIndex = 0;
+        // Użycie wartości z tablica12b zamiast currentFiszkaIndex
+let indeksb = tablica12b[2];  // Tutaj pobieramy pierwszy element z tablica12b
+                console.log('hej64x', matchingFiszki1);
+        tablica11c.push(matchingFiszki1[indeksb]);
+        console.log('hej64c', tablica11c);
         if ($sentence10.length > 0 || $sentence11.length > 0 || $sentence1bba.length > 0) {
             let sentenceText = $sentence10.html();
             let sentenceText2 = $sentence1bba.html();
@@ -5658,8 +5675,11 @@ function highlightFirstWord(indexDiv) {
                     <br>
                     <div class="sentence1bba">${sentenceText2}</div>
                 `);
+$("<style>")
+  .prop("type", "text/css")
+  .html(".word-span:hover { background-color: #2ecc71; }")
+  .appendTo("head");
 
-                        let currentFiszkaIndex = 0;
                         let currentWordIndex = 0; // Indeks słowa, które ma być wyświetlane
 // Funkcja obsługująca kliknięcia na słowa, przyjmująca clickedIndex
 function handleWordClick(clickedIndex, indexDiv, matchingFiszki1) {
@@ -5718,7 +5738,6 @@ $(document).on('click', '.word-span', function() {
     updateHighlight($sentence10, clickedIndex, firstWord, secondWord, thirdWord, forthWord, fifthWord, sixthWord);
     // Wywołanie handleWordClick z clickedIndex
     handleWordClick(clickedIndex, indexDiv, matchingFiszki1);
-
 });
 function showFiszkiForLesson5(indexDiv, fiszki, currentFiszkaIndex, matchingFiszki1) {
     console.log('Ładuje się');
@@ -5810,7 +5829,7 @@ function updateHighlight($sentence10, index, firstWord, secondWord, thirdWord, f
                         console.log('hej12a', displayWordsIndex);
         displayWords(index, indexDiv); // Wywołaj funkcję do wyświetlenia słów z nowym indeksem
 }
-
+tablica12b[0] = 0;
                 // Funkcja displayWords przyjmuje teraz currentWordIndex
                 function displayWords(nowy, indexDiv) {
                                 console.log('index66', indexDiv);
@@ -5862,12 +5881,17 @@ currentFiszkaIndex = nowy;
 $nextButton.on('click', function() {
     console.log('Aktualny index fiszki:', currentFiszkaIndex);
     console.log('Dostępne fiszki:', matchingFiszki1.length);
-        
     if (currentFiszkaIndex < matchingFiszki1.length - 1) {
         currentFiszkaIndex++; // Zwiększ indeks fiszki
-        console.log('hej68c', currentFiszkaIndex);
+        tablica12b.push(currentFiszkaIndex);
+        console.log('hej68cx', tablica12b);
         // Wywołaj funkcję, przekazując zaktualizowany indeks
-        wybierzRodzaj2(indexDiv, currentFiszkaIndex, matchingFiszki1); // Podaj nazwę kategorii, którą chcesz wybrać
+        wybierzRodzaj2(indexDiv, currentFiszkaIndex, matchingFiszki1);
+            // Dodaj kopię wartości indexDiv do tablicy
+    tablica11b.push(indexDiv);
+console.log('hej64', tablica11b);
+const ostatniElement2 = tablica11b[tablica11b.length - 2];
+console.log('hej55h', ostatniElement2);
     } else {
         console.log('Koniec fiszek!'); // Informacja o końcu fiszek
     }
@@ -5888,6 +5912,7 @@ $nextButton.on('click', function() {
                         updateWordDisplay(currentWordIndex);
 // Wywołaj funkcję z podaną kategorią
 function wybierzRodzaj2(category, currentFiszkaIndex, matchingFiszki1) {
+
     console.log("Wybrany rodzaj słownictwa: " + category);
 
     const matchingLessons = [];
@@ -5973,8 +5998,6 @@ if (currentFiszkaIndex >= 0 && currentFiszkaIndex < matchingFiszki1.length) {
     }
 }
 
-
-
 // Funkcja dostosowująca rozmiar czcionki
 function adjustFontSize($sentence10) {
     const $sentenceContainer = $sentence10.closest('.image-container4');
@@ -6011,7 +6034,6 @@ function adjustFontSize($sentence10) {
         console.log('Osiągnięto minimalny rozmiar czcionki.');
     }
 }
-
 
 
                             // Jeśli kontener nie został jeszcze wybrany, wybierz losowy kontener
@@ -6066,7 +6088,71 @@ if ((index50 === 0) || (newIndex === 0)) {
                             'z-index': '5'
                         });
                     }
+function showFiszkiForLesson6(ostatniElement2) {
+    console.log('hej11z', ostatniElement2);
+    if (!Array.isArray(tablica12b)) {
+        tablica12b = []; // Inicjalizuj tablicę, jeśli nie istnieje
+    }
 
+    // Jeżeli tablica jest pusta, dodaj 0 jako pierwszy element
+    if (tablica12b.length === 0) {
+        tablica12b.push(0);
+    } else {
+        // Jeśli tablica ma już elementy, przypisz 0 do pierwszego elementu
+        tablica12b[0] = 0;
+        // Niepotrzebne jest wywoływanie push bez argumentu, więc usuwamy tę linię
+    }
+setTimeout(() => {
+    const $container = $(`.image-container4[data-lesson="${ostatniElement2}"]`);
+    console.log('Found container:', $container.length > 0 ? 'Yes' : 'No');
+    console.log('Container content:', $container.html());
+        console.log('ostatniElement2:', ostatniElement2);
+}, 2000); // Opóźnienie na wypadek dynamicznego ładowania
+
+    console.log('hej22x', tablica12b);
+    const ostatniElement3 = tablica12b[tablica12b.length - 1];
+    if (matchingFiszki1.length > 0) {
+                console.log('hej64xx', matchingFiszki1);
+    if (ostatniElement3 >= 0 && ostatniElement3 < matchingFiszki1.length) {
+
+            let id = matchingFiszki1[(ostatniElement3 - 1) + 1].id;
+            console.log('hej2dd', id);
+            let parametr = '';
+
+            // Sprawdź, czy id jest tablicą
+            if (Array.isArray(id)) {
+                // Połącz wartości z tablicy id w jeden ciąg znaków oddzielony przecinkami
+                id = id.slice(0, 3).join(',');
+
+                // Obsługa ewentualnego dodatkowego parametru (np. czwartego elementu w tablicy)
+                if (id.length > 3) {
+                    parametr = matchingFiszki1[ostatniElement3].id[3]; // Pobierz czwarty element z tablicy
+                }
+            }
+console.log('hej44', $container);
+
+        const className = `fiszka-${id}${parametr ? ',' + parametr : ''}`;
+        const selector = `.${className.replace(/,/g, '\\,')}`;
+        console.log('Generated selector:', selector);
+setTimeout(() => {
+        // Znajdź element wewnątrz kontenera
+        const $divToRemove = $container.find(selector);
+        console.log('Element to remove:', $divToRemove);
+
+        if ($divToRemove.length) {
+            $divToRemove.remove(); // Usunięcie elementu
+            console.log('Removed:', $divToRemove);
+        } else {
+            console.log('Element not found within container:', selector);
+        }
+}, 2100); // Opóźnienie
+
+}
+        console.log('hej44d', $container);
+                }
+                console.log('Container found:', $container.length > 0 ? 'Yes' : 'No');
+console.log('Container content:', $container.html());
+            }
                     const $button = $('<button></button>');
                     $button.addClass('run-button2');
                     $button.text('Uruchom'); // Ustawiamy tekst przycisku na 'Uruchom'

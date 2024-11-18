@@ -567,3 +567,12 @@ if ($divToRemove.length) {  // Sprawdza, czy element istnieje
         console.log('hej44', $container);
                 }
             }
+            
+                    // Użycie wartości z tablica12b zamiast currentFiszkaIndex
+let indeksb = tablica12b[0];  // Tutaj pobieramy pierwszy element z tablica12b
+                console.log('hej64x', matchingFiszki1);
+        tablica11c.push(matchingFiszki1[indeksb]);
+        console.log('hej64c', tablica11c);
+        
+        tablica11b.push(indexDiv);
+console.log('hej64', tablica11b);
