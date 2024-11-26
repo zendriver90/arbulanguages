@@ -10,8 +10,8 @@
 
   gtag('config', 'G-Z12KVYCV43');
 </script>
+
     <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
-    <script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
     <link rel="stylesheet" type="text/css" href="css/alert.css">
     <link rel="stylesheet" type="text/css" href="css/lista.css">
     <link rel="stylesheet" type="text/css" href="js/fiszki.css">
@@ -2418,10 +2418,13 @@ if (czas === 'fiszki' && czas !== "zdania") {
                 if (matchingFiszki1.length > 0 && matchingFiszki2.length > 0 && matchingFiszki3.length > 0) {
                     const srcWord1 = pobierzSrcWordDlaLekcji(lessonIdToShow1, fiszki);
                     const srcWord1b = pobierzSrcWordDlaLekcji3(lessonIdToShow1, fiszki);
+                    const srcWord1d = pobierzSrcWordDlaLekcji4(lessonIdToShow1, fiszki);
                     const srcWord2 = pobierzSrcWordDlaLekcji(lessonIdToShow2, fiszki);
                     const srcWord2b = pobierzSrcWordDlaLekcji3(lessonIdToShow2, fiszki);
+                    const srcWord2d = pobierzSrcWordDlaLekcji4(lessonIdToShow2, fiszki);
                     const srcWord3 = pobierzSrcWordDlaLekcji(lessonIdToShow3, fiszki);
                     const srcWord3b = pobierzSrcWordDlaLekcji3(lessonIdToShow3, fiszki);
+                    const srcWord3d = pobierzSrcWordDlaLekcji4(lessonIdToShow3, fiszki);
                     const srcWord10 = pobierzSrcWordDlaLekcji2(lessonIdToShow1, fiszki);
                     function pobierzSrcWordDlaLekcji(lessonId, fiszki) {
                         const matchingFiszka = fiszki.find(fiszka => fiszka.id[1] === lessonId);
@@ -2432,6 +2435,10 @@ if (czas === 'fiszki' && czas !== "zdania") {
                         return matchingFiszka ? matchingFiszka.srcWord[1] : null; // Zwracamy srcWord[1] zamiast srcWord
                     }
                     function pobierzSrcWordDlaLekcji2(lessonId, fiszki) {
+                        const matchingFiszka = fiszki.find(fiszka => fiszka.id[1] === lessonId);
+                        return matchingFiszka ? matchingFiszka.srcWordimage : null;
+                    }
+                                        function pobierzSrcWordDlaLekcji4(lessonId, fiszki) {
                         const matchingFiszka = fiszki.find(fiszka => fiszka.id[1] === lessonId);
                         return matchingFiszka ? matchingFiszka.srcWordimage : null;
                     }
@@ -3633,9 +3640,12 @@ ${sentence30}${sentence33}<br>
                     $('.grid-container').append($container);
 
                     const srcWords = [srcWord1, srcWord2, srcWord3];
+                    const srcWordsb = [srcWord1d, srcWord2d, srcWord3d];
                     const srcWords2 = [srcWord1b, srcWord2b, srcWord3b];
                     const srcWordimage = [srcWord10];
-                    console.log('hej155', srcWords2);
+                    // Tworzymy kontenery dynamicznie
+
+                    console.log('hej155', srcWordsb);
                     // Zmienna globalna przechowująca łączny czas trwania wszystkich wideo
                     let videoDurations = [];
                     let totalDuration = 0;
@@ -4547,24 +4557,367 @@ if (!stopButtonAdded) {
     stopButtonAdded = true;  // Flaga ustawiona na true, gdy przycisk został dodany
 }
     }
-
     addVideo2b(0);
     }
 } else {
-                        function addVideo3(index) {
-                            // Utwórz element <video> i ustaw atrybuty
-                            const $videoElement = $('<video>').attr({
-                                'muted': true, // Wyciszenie dźwięku wideo
-                                'loop': true, // Zapętlenie wideo
-                                'style': 'z-index: 0',
-                                'poster': srcWordimage[index] // Dodanie plakatu do wideo
-                            });
-                            // Utwórz element <div> dla nakładki
-                            const $overlay = $('<div>').addClass('overlay');
-                            // Dodaj element video do diva dla wideo
-                            $videoElement.appendTo($container);
-                            // Dodaj nakładkę do kontenera, po dodaniu wideo
-                            $overlay.appendTo($container);
+function addVideo3(index) {
+    console.log('index44b', indexDiv);
+
+    // Tworzymy element <video> z atrybutami
+    const $videoElement = $('<video>').attr({
+        'muted': true,
+        'loop': true,
+        'style': 'z-index: 1',
+        'poster': srcWordimage[index] // Dodanie plakatu do wideo
+    });
+
+// Tworzymy kontener dla miniatur
+const $thumbnailContainer = $('<div>').addClass('thumbnail-container').css({
+    display: 'flex',
+    justifyContent: 'space-between',
+    position: 'absolute',
+    top: '10px',
+    left: '10px',
+    width: '90%', // Kontener zajmuje 90% szerokości wideo
+    zIndex: '2',
+    pointerEvents: 'auto' // Reaguje na zdarzenia
+});
+
+// Generujemy miniatury z tablicy srcWordsb
+srcWordsb.forEach((src, idx) => {
+    // Miniatura
+    const $thumbnail = $('<img>').attr({
+        src: src,
+        class: `thumbnail-${idx + 1}` // Klasa z idx+1
+    }).css({
+        width: '100%', // Miniatura zajmuje całą szerokość wrappera
+        cursor: 'pointer',
+        border: '2px solid white',
+        borderRadius: '5px',
+        boxShadow: '0px 2px 4px rgba(0, 0, 0, 0.3)',
+    });
+
+    // Overlay z ikonami
+    const $icons = $('<div></div>').addClass('overlay-icons').css({
+        position: 'absolute',
+        top: '50%',
+        left: '50%',
+        transform: 'translate(-50%, -50%)',
+        display: 'none', // Ukryte na początku
+        flexDirection: 'column',
+        alignItems: 'center',
+        gap: '10px',
+        zIndex: 2
+    });
+
+    // Ikony
+    const $speakerIcon = $('<img>').attr({
+        src: 'speaker-icon.png', // Ikona głośnika
+        alt: 'Głośnik'
+    }).css({
+        width: '40px',
+        height: '40px',
+        cursor: 'pointer'
+    });
+
+    const $playIcon = $('<img>').attr({
+        src: 'play-icon.png', // Ikona play
+        alt: 'Play'
+    }).css({
+        width: '40px',
+        height: '40px',
+        cursor: 'pointer'
+    }).on('click', function () {
+        // Odtwarzanie wideo po kliknięciu
+        addVideo3(idx); // Przekazanie idx zamiast indexDiv
+    });
+
+    // Dodaj ikony do kontenera ikon
+    $icons.append($speakerIcon, $playIcon);
+
+    // Dodaj miniaturę i ikony do kontenera miniatury
+    const $thumbnailWrapper = $('<div></div>').css({
+        position: 'relative', // Pozycjonowanie względne dla poprawnego overlay
+        width: '30%', // Każdy wrapper zajmuje 1/3 szerokości
+        overflow: 'hidden' // Zapewnia, że overlay nie wychodzi poza miniaturę
+    }).append($thumbnail, $icons);
+
+    // Obsługa hover
+    $thumbnailWrapper.hover(
+        function () {
+            $icons.css('display', 'flex'); // Pokaż ikony
+        },
+        function () {
+            $icons.css('display', 'none'); // Ukryj ikony
+        }
+    );
+    let tablica6 = [0];
+            // Dodajemy zdarzenie kliknięcia na miniaturę, które zmienia wideo
+            $thumbnail.on('click', function () {
+                $videoElement.attr('poster', src); // Zmiana plakatu wideo na klikniętą miniaturę
+                $videoElement[0].load(); // Przeładowanie wideo
+                                console.log('hej16', idx);
+                                setTimeout(function () {
+                addVideo2bd(idx);
+}, 200); // Opóźnienie w milisekundach (tu: 200 ms)
+            });
+    // Dodaj wrapper do głównego kontenera
+    $thumbnailContainer.append($thumbnailWrapper);
+
+    function addVideo2bd(idx) {
+            let initialProgress = 0;
+        console.log('hej80d', idx);
+                    let tablica12ab = [];
+            console.log('hej10a', tablica12ab);
+        // Sprawdź, czy jesteśmy poza zakresem tablicy
+        if (idx >= srcWords.length && !funkcjaWywolana) {
+            setTimeout(function () {
+                $('.progress-bar').remove();
+            }, 200); // Opóźnienie w milisekundach (tu: 200 ms)
+            przekazArgument0(tablica3[2], undefined, false, tablica3[0], true, true, tablica3[1], tablica3[4]);
+            console.log("wykonuje się");
+            funkcjaWywolana = true;
+        }
+
+        // Usuń poprzednie wideo
+        removePreviousVideo();
+        console.log('hej78', idx);
+
+        // Dodaj div z wideo do tła kontenera
+        const $vidDiv = $('<div>').addClass('background-video22');
+        
+        // Utwórz element <video> i ustaw atrybuty
+        const $videoElement = $('<video>').attr({
+            'autoplay': true, // Automatyczne odtwarzanie wideo
+            'muted': true, // Wyciszenie dźwięku wideo
+            'loop': true // Zapętlenie wideo
+        });
+        // Utwórz element <source> dla wideo i ustaw atrybuty
+        const $sourceElement = $('<source>').attr({
+            'src': srcWords[idx], // Poprawne użycie interpolacji
+            'type': 'video/mp4'     // Typ pliku wideo
+        });
+
+        // Dodaj element source do elementu video
+        $sourceElement.appendTo($videoElement);
+
+        // Dodaj element video do diva dla wideo
+        $videoElement.appendTo($vidDiv);
+
+        // Dodaj element <source> do elementu <video>
+        // Obsługa błędu ładowania wideo
+        $videoElement.onerror = function () {
+            console.error('Nie można załadować pliku wideo.');
+        };
+
+        let currentIndexValue = [];
+
+
+
+$videoElement.on('loadedmetadata', function () {
+    console.log('hej18', idx);
+    const videoDuration = this.duration;
+    if (idx === 0) {
+        videoDurations[idx] = 0; // Dla indeksu 0 zawsze ustawiamy 0
+    } else {
+        videoDurations[idx] = videoDuration; // Dla pozostałych indeksów ustawiamy rzeczywisty czas trwania
+    }
+        tablica6.push(videoDurations[idx]);
+    // Obliczanie sumy poprzednich czasów trwania i dodanie do tablica6
+    const sumPreviousDurations = tablica6[tablica6.length - 1];
+
+    console.log('hej17', tablica6);
+
+console.log('hej15m', sumPreviousDurations);
+    // Obsługa postępu w trakcie odtwarzania wideo
+    $videoElement.on('timeupdate', function () {
+        
+        // Oblicz procent postępu dla obecnego wideo, uwzględniając wcześniejsze
+        const currentProgress = ((sumPreviousDurations + this.currentTime) / totalDuration) * 100;
+        setTimeout(function () {
+        updateProgress2(currentProgress); // Zaktualizuj pasek postępu
+}, 200); // Opóźnienie w milisekundach (tu: 200 ms)
+                // Sprawdź, czy wartość index nie została jeszcze dodana do tablicy currentIndex
+                if (!currentIndexValue.includes(idx)) {
+                    // Dodaj index do tablicy currentIndex
+                    currentIndexValue.push(idx);
+                    console.log('hej70', currentIndexValue);
+
+                    // Wywołaj funkcję addBackgroundToText tylko raz
+                    if (currentIndexValue[0] === 0 || currentIndexValue[0] === 1 || currentIndexValue[0] === 2) {
+                        addBackgroundToText(matchingFiszki1, matchingIndexes, currentIndexValue, true, lesson1FirstPartLength, lesson1PartLength);
+                    }
+                }
+
+                // Sprawdź, czy wideo zostało zakończone
+                if ($videoElement[0].duration - $videoElement[0].currentTime < 1) {
+                    console.log('Wideo zakończone, uruchamiam następne.');
+                    // Odtwórz następne wideo po zakończeniu poprzedniego
+                    addVideo2bd(idx + 1);
+                    updateProgress2(0);
+                }
+            });
+        });
+
+        addScenes(index);
+        // Dodaj wideo do kontenera
+        $vidDiv.appendTo($container);
+
+        function updateProgress2(progress) {
+            // Aktualizuj pasek postępu na dole kontenera
+            $('.progress-bar2').css('width', progress + '%');
+        }
+
+        // Inicjalizacja paska postępu
+        const $progressBar2 = $('<div>').addClass('progress-bar2');
+                                        if (window.matchMedia("(min-width: 999px)").matches) {
+        $progressBar2.css({
+            'position': 'absolute',
+            'z-index': '2',
+            'bottom': '0',
+            'left': '0',
+            'height': '7px', // Wysokość paska postępu
+            'background-color': 'green', // Kolor paska postępu
+            'width': '140%', // Delikatne powiększenie paska postępu o 2% w każdym kierunku
+            'margin-bottom': '-2%',
+            'margin-left': '-4%',
+            'margin-right': '-4%' // Zapewnienie równowagi dla powiększenia paska postępu
+        });
+                                        } else {
+                                                    $progressBar2.css({
+            'position': 'absolute',
+            'z-index': '2',
+            'bottom': '0px',
+            'left': '0px',
+            'height': '7px', // Wysokość paska postępu
+            'background-color': 'green', // Kolor paska postępu
+            'width': '100%' // Delikatne powiększenie paska postępu o 2% w każdym kierunku
+        });
+                                        }
+        $progressBar2.appendTo($container);
+
+        function addScenes(index) {
+            // Sprawdź, czy istnieje element <div> o klasie 'scene-description'
+            let $sceneDiv = $container.find('.scene-description');
+
+            if ($sceneDiv.length) {
+                // Jeśli istnieje, wyczyść jego zawartość
+                $sceneDiv.empty();
+            } else {
+                // Jeśli nie istnieje, stwórz nowy element <div>
+                $sceneDiv = $('<div>').addClass('scene-description').appendTo($container);
+            }
+
+            // Dodaj nowy tekst do <div>
+            $sceneDiv.text(`Scena z filmu ${srcWords2[index]}`);
+
+            if (window.matchMedia("(max-width: 999px)").matches) {
+                if (indexDiv % 2 === 0) {
+                    console.log('Warunek podzielności przez 2 spełniony2');
+                    // Zmień CSS paska napisu, aby wyświetlał się po lewej stronie kontenera
+                    $sceneDiv.css({
+                        'position': 'relative',
+                        'margin-top': '-140px',
+                        'margin-left': '-450px',
+                        'text-align': 'left',
+                        'background-color': 'orange',
+                        'z-index': '9999999'
+                    });
+                } else if (indexDiv % 1 === 0 || indexDiv % 3 === 0 || indexDiv % 5 === 0) {
+                    console.log('Warunek podzielności przez 1 spełniony2');
+                    // Zmień CSS paska napisu, aby wyświetlał się po lewej stronie kontenera
+                    $sceneDiv.css({
+                        'position': 'relative',
+                        'margin-top': '-140px',
+                        'margin-right': '-20px',
+                        'text-align': 'left',
+                        'background-color': 'blue',
+                        'z-index': '99999999999'
+                    });
+                }
+            } else if (window.matchMedia("(min-width: 999px)").matches) {
+                                        // Dodatkowe style, jeśli indexDiv jest podzielny przez 4
+                                        if (indexDiv % 4 === 1) {
+                                            // Dodaj klasę 'scene-description2' do $sceneDiv
+                                            $sceneDiv.removeClass('scene-description');
+                                            $sceneDiv.addClass('scene-description2');
+                                        } else {
+                                            // Upewnij się, że klasa 'scene-description2' jest usunięta, jeśli nie jest podzielna przez 4
+                                            $sceneDiv.removeClass('scene-description2');
+                                        }
+            }
+        }
+// Tworzenie przycisku "Stop"
+if (!stopButtonAdded) {
+    const $stopButton = $('<img>')
+        .attr('src', 'http://arbu-1dcc9.web.app/img/stopok2.png')
+        .css({
+            'display': 'none', // Ukryty na starcie
+            'position': 'absolute', // Precyzyjne pozycjonowanie względem kontenera
+            'top': '-15px',
+            'left': '20px',
+            'width': '40px',
+            'height': '40px',
+            'z-index': '999999',
+            'cursor': 'pointer' // Ustawienie kursora jako wskaźnik
+        })
+        .on('click', function () {
+            // Pętla po wszystkich elementach wideo i zatrzymywanie każdego z nich
+            $('video').each(function () {
+                const video = this;
+                if (!video.paused) {
+                    video.pause();
+                    // Zmień obrazek na "Play"
+                    $stopButton.attr('src', 'http://arbu-1dcc9.web.app/img/play.png');
+                } else {
+                    video.play();
+                    // Zmień obrazek z powrotem na "Stop"
+                    $stopButton.attr('src', 'http://arbu-1dcc9.web.app/img/stopok2.png');
+                }
+            });
+        });
+
+    // Dodanie przycisku do kontenera
+    $stopButton.appendTo($container);
+
+    // Pokazywanie przycisku na hover kontenera
+    $container.on('mouseover', function () {
+        $stopButton.show();
+    });
+
+    // Ukrywanie przycisku, gdy mysz opuści kontener
+    $container.on('mouseout', function () {
+        $stopButton.hide();
+    });
+
+    stopButtonAdded = true;  // Flaga ustawiona na true, gdy przycisk został dodany
+}
+    }
+});
+
+    // Tworzymy element <div> dla nakładki
+    const $overlay = $('<div>').addClass('overlay');
+
+    // Tworzymy przycisk w overlay
+    const $buttonb = $('<img>').attr({
+        'src': 'http://arbu-1dcc9.web.app/img/startsystem.png',
+        'class': 'overlay-button'
+    }).css({
+        'position': 'absolute',
+        'z-index': '1000002',
+        'bottom': '10px',
+        'right': '10px',
+        'width': '30px',
+        'height': '30px',
+        'cursor': 'pointer',
+        'border-radius': '8px'
+    });
+
+    // Dodajemy elementy do kontenera
+    $container.append($thumbnailContainer); // Miniatury
+    $container.append($videoElement); // Wideo
+    $container.append($overlay); // Nakładka
+    $container.append($buttonb); // Przycisk w nakładce
                             // Dodaj funkcję hover do kontenera
                             if (indexDiv < 14) {
                                 // Jeśli indexDiv < 5, dodajemy hover z dynamicznym napisem
@@ -4593,6 +4946,7 @@ if (!stopButtonAdded) {
                             addVideo3(0);
                         }, 100);
                     }
+
                     // Stwórz przycisk za pomocą jQuery
                     // Tworzenie nowego elementu div za pomocą jQuery
 
@@ -4713,10 +5067,10 @@ ${sentence30}${sentence33}<br>
                         // const numericIndex = Number(index55);
 
                         setTimeout(() => {
-                            console.log('hej554', index55b2);
-    if (index55b2 === 1) {
-        wybierzRodzaj2(category2); // Wywołanie funkcji bez przekierowania
-    }
+                            if (index55b2 === 1) {
+                                // Bezpośrednio przekierowujemy użytkownika do strony
+                                window.location.href = 'demo1angielski.html?category=' + encodeURIComponent(globalCategory);
+                            }
                             if (index55b2 === 2) {
                                 // Bezpośrednio przekierowujemy użytkownika do strony
                                 window.location.href = 'demo2angielski.html?category=' + encodeURIComponent(globalCategory);
@@ -4790,7 +5144,7 @@ ${sentence30}${sentence33}<br>
                 // Deklaracja tablicy, która będzie zawierać wszystkie tablice
             }
 let isVideoPlaying = false;
-let tablica11b = [];
+const tablica11b = [];
                     let tablica12b = [];
             function showCombinedSentenceForLesson2(polski, index50, matchingIndexes, lessonIdToShow1, newIndex, indexDiv, lesson1PartLength) {
                 // Tutaj reszta kodu funkcji
@@ -5529,7 +5883,25 @@ const startSystemWidth = 30; // Szerokość startsystem
 const quickLessonWidth = 95; // Szerokość przycisku "Szybka lekcja"
 
 // Obsługa kliknięcia przycisku overlay
-$buttonb.on('click', function () {     
+$buttonb.on('click', function () {
+        // Dodaj kopię wartości indexDiv do tablicy
+    // Przykład nowej wartości indexDiv
+    let nowaWartosc = indexDiv;
+
+    // Sprawdź, czy wartość już nie istnieje w tablicy (opcjonalnie)
+    if (!tablica11b.includes(nowaWartosc)) {
+        tablica11b.push(nowaWartosc); // Dodaj nową wartość na końcu tablicy
+        console.log('Dodano wartość:', nowaWartosc);
+        console.log('Dodano wartość:', tablica11b);
+    } else {
+        console.log('Wartość już istnieje w tablicy:', nowaWartosc);
+    }
+
+let ostatniElement2 = tablica11b[tablica11b.length - 2];
+console.log('hej55h', ostatniElement2);
+                        setTimeout(() => {
+                        showFiszkiForLesson6(ostatniElement2);
+                        }, 1000);
     $('video').each(function () {
         const video = this;
         if (!video.paused) {
@@ -5612,13 +5984,6 @@ const $loadButton = $('<button>')
                 'position': 'relative', // Ustawienie position na relative, aby z-index działał
                 'z-index': '1000003'
             });
-    // Dodaj kopię wartości indexDiv do tablicy
-    tablica11b.push(indexDiv);
-let ostatniElement2 = tablica11b[tablica11b.length - 2];
-console.log('hej55h', ostatniElement2);
-                    setTimeout(() => {
-                        showFiszkiForLesson6(ostatniElement2);
-                        }, 2100);
                         highlightFirstWord(indexDiv);
 
 });
@@ -5887,11 +6252,6 @@ $nextButton.on('click', function() {
         console.log('hej68cx', tablica12b);
         // Wywołaj funkcję, przekazując zaktualizowany indeks
         wybierzRodzaj2(indexDiv, currentFiszkaIndex, matchingFiszki1);
-            // Dodaj kopię wartości indexDiv do tablicy
-    tablica11b.push(indexDiv);
-console.log('hej64', tablica11b);
-const ostatniElement2 = tablica11b[tablica11b.length - 2];
-console.log('hej55h', ostatniElement2);
     } else {
         console.log('Koniec fiszek!'); // Informacja o końcu fiszek
     }
@@ -6107,7 +6467,7 @@ setTimeout(() => {
     console.log('Found container:', $container.length > 0 ? 'Yes' : 'No');
     console.log('Container content:', $container.html());
         console.log('ostatniElement2:', ostatniElement2);
-}, 2000); // Opóźnienie na wypadek dynamicznego ładowania
+}, 500); // Opóźnienie na wypadek dynamicznego ładowania
 
     console.log('hej22x', tablica12b);
     const ostatniElement3 = tablica12b[tablica12b.length - 1];
@@ -6145,7 +6505,7 @@ setTimeout(() => {
         } else {
             console.log('Element not found within container:', selector);
         }
-}, 2100); // Opóźnienie
+}, 500); // Opóźnienie
 
 }
         console.log('hej44d', $container);

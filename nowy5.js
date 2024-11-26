@@ -576,3 +576,235 @@ let indeksb = tablica12b[0];  // Tutaj pobieramy pierwszy element z tablica12b
         
         tablica11b.push(indexDiv);
 console.log('hej64', tablica11b);
+
+
+    function addVideo2bd(idx) {
+        console.log('hej80d', idx);
+
+        // Sprawdź, czy jesteśmy poza zakresem tablicy
+        if (idx >= srcWords.length && !funkcjaWywolana) {
+            setTimeout(function () {
+                $('.progress-bar').remove();
+            }, 200); // Opóźnienie w milisekundach (tu: 200 ms)
+            przekazArgument0(tablica3[2], undefined, false, tablica3[0], true, true, tablica3[1], tablica3[4]);
+            console.log("wykonuje się");
+            funkcjaWywolana = true;
+        }
+
+        // Usuń poprzednie wideo
+        removePreviousVideo();
+        console.log('hej78', idx);
+
+        // Dodaj div z wideo do tła kontenera
+        const $vidDiv = $('<div>').addClass('background-video22');
+        
+        // Utwórz element <video> i ustaw atrybuty
+        const $videoElement = $('<video>').attr({
+            'autoplay': true, // Automatyczne odtwarzanie wideo
+            'muted': true, // Wyciszenie dźwięku wideo
+            'loop': true // Zapętlenie wideo
+        });
+        // Utwórz element <source> dla wideo i ustaw atrybuty
+        const $sourceElement = $('<source>').attr({
+            'src': srcWords[idx], // Poprawne użycie interpolacji
+            'type': 'video/mp4'     // Typ pliku wideo
+        });
+
+        // Dodaj element source do elementu video
+        $sourceElement.appendTo($videoElement);
+
+        // Dodaj element video do diva dla wideo
+        $videoElement.appendTo($vidDiv);
+
+        // Dodaj element <source> do elementu <video>
+        // Obsługa błędu ładowania wideo
+        $videoElement.onerror = function () {
+            console.error('Nie można załadować pliku wideo.');
+        };
+
+        let currentIndexValue = [];
+        
+    // Oblicz początkowy postęp na podstawie wszystkich wcześniejszych wideo
+    let tablica12 = [];
+        let initialProgress = tablica12[0];
+                const videoDuration = this.duration;
+        videoDurations[idx] = videoDuration;
+
+        // Aktualizacja totalDuration, jeśli jeszcze nie obliczone
+        if (!totalDuration) {
+            totalDuration = videoDurations.reduce((sum, duration) => sum + (duration || 0), 0);
+        }
+        // Sprawdzenie danych wejściowych przed obliczeniami
+console.log('videoDurations:', videoDurations);
+console.log('totalDuration:', totalDuration);
+    // Liczymy postęp z wszystkich wideo, które były wcześniej kliknięte (niekoniecznie odtworzone)
+    for (let i = 0; i < idx; i++) {
+        if (videoDurations[i]) {
+            // Postęp dla wideo, które zostało wcześniej kliknięte, ale nie odtworzone
+            initialProgress += (videoDurations[i] / totalDuration) * 100;
+            tablica12.push(initialProgress);
+
+        }
+                    console.log('hej12a', tablica12);
+    }
+
+    // Ustaw początkowy punkt paska postępu
+    updateProgress2(initialProgress);
+    console.log('Początkowy postęp dla indeksu:', idx, 'to:', initialProgress);
+    
+    
+        // Obsługa załadowania metadanych wideo
+    $videoElement.on('loadedmetadata', function () {
+        const videoDuration = this.duration;
+        videoDurations[idx] = videoDuration;
+
+        // Aktualizacja totalDuration, jeśli jeszcze nie obliczone
+        if (!totalDuration) {
+            totalDuration = videoDurations.reduce((sum, duration) => sum + (duration || 0), 0);
+        }
+
+        // Obsługa postępu w trakcie odtwarzania wideo
+        $videoElement.on('timeupdate', function () {
+            const currentProgress = (this.currentTime / videoDuration) * (videoDurations[idx] / totalDuration) * 100;
+            updateProgress2(initialProgress + currentProgress);
+            
+                    if (idx === 1) {
+            function addVideo2bd0(idx) {
+        console.log('hej80dB', idx);
+
+        // Usuń poprzednie wideo
+        removePreviousVideo();
+        console.log('hej78', idx);
+
+        // Dodaj div z wideo do tła kontenera
+        const $vidDiv = $('<div>').addClass('background-video22');
+        
+        // Utwórz element <video> i ustaw atrybuty
+        const $videoElement = $('<video>').attr({
+            'autoplay': true, // Automatyczne odtwarzanie wideo
+            'muted': true, // Wyciszenie dźwięku wideo
+            'loop': true // Zapętlenie wideo
+        });
+        // Utwórz element <source> dla wideo i ustaw atrybuty
+        const $sourceElement = $('<source>').attr({
+            'src': srcWords[idx], // Poprawne użycie interpolacji
+            'type': 'video/mp4'     // Typ pliku wideo
+        });
+
+        // Dodaj element source do elementu video
+        $sourceElement.appendTo($videoElement);
+
+        // Dodaj element video do diva dla wideo
+        $videoElement.appendTo($vidDiv);
+
+        // Dodaj element <source> do elementu <video>
+        // Obsługa błędu ładowania wideo
+        $videoElement.onerror = function () {
+            console.error('Nie można załadować pliku wideo.');
+        };
+
+        let currentIndexValue = [];
+    // Oblicz początkowy postęp na podstawie wszystkich wcześniejszych wideo
+
+    // Ustaw początkowy punkt paska postępu
+    updateProgress2(initialProgress);
+    console.log('Początkowy postęp dla indeksu:', idx, 'to:', initialProgress);
+
+    // Obsługa załadowania metadanych wideo
+    $videoElement.on('loadedmetadata', function () {
+        const videoDuration = this.duration;
+        videoDurations[idx] = videoDuration;
+
+        // Aktualizacja totalDuration, jeśli jeszcze nie obliczone
+        if (!totalDuration) {
+            totalDuration = videoDurations.reduce((sum, duration) => sum + (duration || 0), 0);
+        }
+        console.log('hej15', videoDuration);
+                tablica12ab.push(videoDuration);
+        // Obsługa postępu w trakcie odtwarzania wideo
+        $videoElement.on('timeupdate', function () {
+            const currentProgress = (this.currentTime / videoDuration) * (videoDurations[idx] / totalDuration) * 100;
+            updateProgress2(initialProgress + currentProgress);
+
+                // Sprawdź, czy wideo zostało zakończone
+                if ($videoElement[0].duration - $videoElement[0].currentTime < 1) {
+                    console.log('Wideo zakończone, uruchamiam następne.');
+                    // Odtwórz następne wideo po zakończeniu poprzedniego
+                    addVideo2bd0(idx + 1);
+                    updateProgress2(0);
+                }
+            });
+        });
+        }
+        addVideo2bd0(idx);
+    }
+            if (idx === 2) {
+            function addVideo2bd0(idx) {
+        console.log('hej80dB', idx);
+
+        // Usuń poprzednie wideo
+        removePreviousVideo();
+        console.log('hej78', idx);
+
+        // Dodaj div z wideo do tła kontenera
+        const $vidDiv = $('<div>').addClass('background-video22');
+        
+        // Utwórz element <video> i ustaw atrybuty
+        const $videoElement = $('<video>').attr({
+            'autoplay': true, // Automatyczne odtwarzanie wideo
+            'muted': true, // Wyciszenie dźwięku wideo
+            'loop': true // Zapętlenie wideo
+        });
+        // Utwórz element <source> dla wideo i ustaw atrybuty
+        const $sourceElement = $('<source>').attr({
+            'src': srcWords[idx], // Poprawne użycie interpolacji
+            'type': 'video/mp4'     // Typ pliku wideo
+        });
+
+        // Dodaj element source do elementu video
+        $sourceElement.appendTo($videoElement);
+
+        // Dodaj element video do diva dla wideo
+        $videoElement.appendTo($vidDiv);
+
+        // Dodaj element <source> do elementu <video>
+        // Obsługa błędu ładowania wideo
+        $videoElement.onerror = function () {
+            console.error('Nie można załadować pliku wideo.');
+        };
+
+        let currentIndexValue = [];
+    // Oblicz początkowy postęp na podstawie wszystkich wcześniejszych wideo
+
+    // Ustaw początkowy punkt paska postępu
+    updateProgress2(initialProgress);
+    console.log('Początkowy postęp dla indeksu:', idx, 'to:', initialProgress);
+
+    // Obsługa załadowania metadanych wideo
+    $videoElement.on('loadedmetadata', function () {
+        const videoDuration = this.duration;
+        videoDurations[idx] = videoDuration;
+
+        // Aktualizacja totalDuration, jeśli jeszcze nie obliczone
+        if (!totalDuration) {
+            totalDuration = videoDurations.reduce((sum, duration) => sum + (duration || 0), 0);
+        }
+        console.log('hej15', videoDuration);
+        tablica12ab.push(videoDuration);
+        // Obsługa postępu w trakcie odtwarzania wideo
+        $videoElement.on('timeupdate', function () {
+            const currentProgress = (this.currentTime / videoDuration) * (videoDurations[idx] / totalDuration) * 100;
+            updateProgress2(initialProgress + currentProgress);
+
+                // Sprawdź, czy wideo zostało zakończone
+                if ($videoElement[0].duration - $videoElement[0].currentTime < 1) {
+                    console.log('Wideo zakończone, uruchamiam następne.');
+                    // Odtwórz następne wideo po zakończeniu poprzedniego
+                    addVideo2bd0(idx + 1);
+                    updateProgress2(0);
+                }
+            });
+        });
+        }
+        addVideo2bd0(idx);
+    }

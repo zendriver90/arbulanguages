@@ -8208,10 +8208,10 @@ const fiszki = [
             "http://arbu-1dcc9.web.app/img/fiszki1/96a.jpg"
         ],
         translate: "",
-        translateb: "[Shi hes wizitid Paris meny tajms]",
-        translateb2: "[Shi hes wizitid Paris]",
-        srcWord: ["http://arbu-1dcc9.web.app/filmy/Paris.mp4", ""],
-        srcWord2: ["http://arbu-1dcc9.web.app/filmy/procedure.mp4", "Północ w Paryżu"],
+        translateb: "[Szi hes wizitid Paris meny tajms]",
+        translateb2: "[Szi hes wizitid Paris]",
+        srcWord: ["http://arbu-1dcc9.web.app/filmy/Paris.mp4", "Północ w Paryżu"],
+        srcWord2: ["http://arbu-1dcc9.web.app/filmy/procedure.mp4", ""],
         srcWordimage: "http://arbu-1dcc9.web.app/filmy/Paris.png",
         word: [
             "http://arbu-1dcc9.web.app/voice/bike.mp4"
@@ -8343,7 +8343,7 @@ const fiszki = [
         story: "Nju Jork <u><b>Tajms</u></b> ma mało <u><b>czasu</u></b> na przygotowanie raportu",
         desc: "times[tajms] - czas",
         sentence2: [
-            "many"
+            "times"
         ],
         sentence: [
             "many",
@@ -8369,7 +8369,7 @@ const fiszki = [
         translate: "",
         translateb: "[Aj hew finiszt maj hołmłork]",
         translateb2: "[Aj hew finiszt maj hołmłork]",
-        srcWord: ["http://arbu-1dcc9.web.app/filmy/homework.mp4", ""],
+        srcWord: ["http://arbu-1dcc9.web.app/filmy/homework.mp4", "Prison Break"],
         srcWord2: ["http://arbu-1dcc9.web.app/filmy/procedure.mp4", ""],
         srcWordimage: "http://arbu-1dcc9.web.app/filmy/homework.png",
         word: [
@@ -8510,9 +8510,9 @@ const fiszki = [
         translate: "",
         translateb: "[Dej hew liwd in dis hałs for jers]",
         translateb2: "[Dej hew liwd in dis hałs]",
-        srcWord: ["http://arbu-1dcc9.web.app/filmy/homework.mp4", ""],
+        srcWord: ["http://arbu-1dcc9.web.app/filmy/house.mp4", "Breaking Bad"],
         srcWord2: ["http://arbu-1dcc9.web.app/filmy/procedure.mp4", ""],
-        srcWordimage: "http://arbu-1dcc9.web.app/filmy/homework.png",
+        srcWordimage: "http://arbu-1dcc9.web.app/filmy/house.png",
         word: [
             "http://arbu-1dcc9.web.app/voice/bike.mp4"
         ],
@@ -8854,9 +8854,9 @@ const fiszki = [
         translate: "",
         translateb: "[She hes rid dis buk tłajs]",
         translateb2: "[De mówi hes]",
-        srcWord: ["http://arbu-1dcc9.web.app/filmy/homework.mp4", ""],
+        srcWord: ["http://arbu-1dcc9.web.app/filmy/twice.mp4", ""],
         srcWord2: ["http://arbu-1dcc9.web.app/filmy/procedure.mp4", ""],
-        srcWordimage: "http://arbu-1dcc9.web.app/filmy/homework.png",
+        srcWordimage: "http://arbu-1dcc9.web.app/filmy/twice.png",
         word: [
             "http://arbu-1dcc9.web.app/voice/bike.mp4"
         ],
@@ -9786,8 +9786,6 @@ function generateFiszkaBlock(fiszka, lessonId2) {
         }
         // Dodanie kontenera fiszki do body
         $(`.image-container4[data-lesson="${lessonId2}"]`).append(fiszkaContainer);
-
-
         console.log(`Generated fiszka block for ID: [${fiszka.id.join(', ')}]`);
         initAudio(fiszka.id);
     });
