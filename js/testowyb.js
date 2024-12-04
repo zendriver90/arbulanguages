@@ -9025,6 +9025,123 @@ const fiszki = [
         key: "blue",
         category1: "nauka",
         category2: ["osoby"]
+    },
+                    {
+        id: [
+            310,
+            48,
+            89
+        ],
+        img: "http://arbu-1dcc9.web.app/img/fiszki1/96a.jpg",
+        translate: "",
+        translateb: "[Łi hew wisitid London meni tajms]",
+        translateb2: "[De mówi hes]",
+        srcWord: ["http://arbu-1dcc9.web.app/filmy/twice.mp4", ""],
+        srcWord2: ["http://arbu-1dcc9.web.app/filmy/procedure.mp4", ""],
+        srcWordimage: "http://arbu-1dcc9.web.app/filmy/twice.png",
+        word: [
+            "http://arbu-1dcc9.web.app/voice/bike.mp4"
+        ],
+        story: "<u><b>Ona</u></b> - Patrycja ma ri<u><b>szi</u></b> to naturalny antyoksydant",
+        desc: "she[szi] - niebieski/niebieskie",
+        sentence1: [
+            "We"
+        ],
+        sentence: [
+            "We",
+            "have",
+            "visited",
+            "London"
+        ],
+        key: "the adults",
+        category1: "nauka",
+        category2: ["osoby"],
+        category3: ["PresentPerfect"]
+    },
+                                                        {
+        id: [
+            311,
+            48,
+            89
+        ],
+        img: "http://arbu-1dcc9.web.app/img/fiszki1/239a.jpg",
+        story: "Te obrazy są podobne, ale mają inne <u><b>tła</u></b> i farby za inny ha<u><b>js</u></b>",
+        desc: "have[hew] - mieć",
+        sentence1: [
+            "have"
+        ],
+        sentence: [
+            "We",
+            "have",
+            "visited",
+            "London"
+        ],
+        key: "blue",
+        category1: "nauka",
+        category2: ["osoby"]
+    },
+                                                            {
+        id: [
+            312,
+            48,
+            89
+        ],
+        img: "http://arbu-1dcc9.web.app/img/fiszki1/239a.jpg",
+        story: "Te obrazy są podobne, ale mają inne <u><b>tła</u></b> i farby za inny ha<u><b>js</u></b>",
+        desc: "visited[wisitid] - odwiedzać",
+        sentence1: [
+            "visited"
+        ],
+        sentence: [
+            "We",
+            "have",
+            "visited",
+            "London"
+        ],
+        key: "blue",
+        category1: "nauka",
+        category2: ["osoby"]
+    },
+                                                                {
+        id: [
+            313,
+            48,
+            89
+        ],
+        img: "http://arbu-1dcc9.web.app/img/fiszki1/239a.jpg",
+        story: "Te obrazy są podobne, ale mają inne <u><b>tła</u></b> i farby za inny ha<u><b>js</u></b>",
+        desc: "London[London] - Londyn",
+        sentence1: [
+            "London"
+        ],
+        sentence: [
+            "We",
+            "have",
+            "visited",
+            "London"
+        ],
+        key: "blue",
+        category1: "nauka",
+        category2: ["osoby"]
+    },
+                                                                    {
+        id: [
+            314,
+            48,
+            90
+        ],
+        img: "http://arbu-1dcc9.web.app/img/fiszki1/239a.jpg",
+        story: "Te obrazy są podobne, ale mają inne <u><b>tła</u></b> i farby za inny ha<u><b>js</u></b>",
+        desc: "many times[meni tajms] - wiele razy",
+        sentence2: [
+            "many"
+        ],
+        sentence: [
+            "many times"
+        ],
+        key: "blue",
+        category1: "nauka",
+        category2: ["osoby"]
     }
 ];
 

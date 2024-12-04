@@ -808,3 +808,65 @@ console.log('totalDuration:', totalDuration);
         }
         addVideo2bd0(idx);
     }
+    
+    console.log('hej15m', sumPreviousDurations);
+    // Obsługa postępu w trakcie odtwarzania
+    $videoElement.on('timeupdate', function () {
+        const currentTime = this.currentTime; // Obecny czas odtwarzania wideo
+
+        // Obliczamy procentowy postęp wideo
+        const currentProgress = (currentTime / videoDuration) * 100;
+
+        console.log(`Procentowy postęp wideo ${idx}: ${currentProgress}%`);
+
+        // Obliczamy, od jakiej pozycji na pasku zaczyna się postęp tego wideo
+        const startPosition = (sumPreviousDurations / totalDuration) * 100; // Procentowe położenie początkowe dla tego wideo
+
+        console.log(`Startowa pozycja dla wideo ${idx}: ${startPosition}%`);
+
+        // Aktualizujemy pasek postępu dla tego wideo, zaczynając od `startPosition`
+        updateProgress2(startPosition, currentProgress);
+        
+        function updateProgress2(startPosition, progress) {
+    // Zaktualizuj pasek postępu: szerokość będzie zależna od startowej pozycji oraz postępu
+    $('.progress-bar2').css('left', startPosition + '%'); // Ustawienie lewej krawędzi paska postępu
+    $('.progress-bar2').css('width', progress + '%'); // Ustawienie szerokości paska postępu
+}
+    
+    
+    let idx2 = idx + 1;
+const index2 = index + 2;
+console.log('hej8a', idx2);
+$videoElement.on('loadedmetadata', function () {
+    console.log('hej18', idx);
+    const videoDuration = this.duration;
+    videoDurations[idx] = videoDuration;
+    
+        tablica6.push(videoDurations[idx]);
+    // Obliczanie sumy poprzednich czasów trwania i dodanie do tablica6
+    const sumPreviousDurations = tablica6[tablica6.length - 1];
+
+    console.log('hej17', tablica6);
+
+console.log('hej15m', sumPreviousDurations);
+    // Obsługa postępu w trakcie odtwarzania wideo
+    $videoElement.on('timeupdate', function () {
+                                            let adjustedProgress = 0;
+                                    for (let i = 0; i < index; i++) {
+                                        adjustedProgress += (videoDurations[i] / totalDuration) * 100;
+                                    }
+        // Oblicz procent postępu dla obecnego wideo, uwzględniając wcześniejsze
+        const currentProgress = ((sumPreviousDurations + this.currentTime) / totalDuration) * 100;
+        setTimeout(function () {
+        updateProgress2(currentProgress); // Zaktualizuj pasek postępu
+}, 200); // Opóźnienie w milisekundach (tu: 200 ms)
+
+if (idx === 0 && index === 0) {
+    updateProgress2(adjustedProgress);
+}
+if (idx === 1 && index === 1) {
+    updateProgress2(adjustedProgress);
+}
+if (idx === 2 && index === 2) {
+    updateProgress2(adjustedProgress);
+}
