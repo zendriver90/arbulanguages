@@ -870,3 +870,195 @@ if (idx === 1 && index === 1) {
 if (idx === 2 && index === 2) {
     updateProgress2(adjustedProgress);
 }
+
+        // Użycie wartości z tablica12b zamiast currentFiszkaIndex
+let indeksb = tablica12b[2];  // Tutaj pobieramy pierwszy element z tablica12b
+                console.log('hej64x', matchingFiszki1);
+        tablica11c.push(matchingFiszki1[indeksb]);
+        console.log('hej64c', tablica11c);
+        
+        
+        // Obsługa kliknięcia przycisku overlay
+$buttonb.on('click', function () {
+        // Dodaj kopię wartości indexDiv do tablicy
+    // Przykład nowej wartości indexDiv
+    let nowaWartosc = indexDiv;
+
+    // Sprawdź, czy wartość już nie istnieje w tablicy (opcjonalnie)
+    if (!tablica11b.includes(nowaWartosc)) {
+        tablica11b.push(nowaWartosc); // Dodaj nową wartość na końcu tablicy
+        console.log('Dodano wartość:', nowaWartosc);
+        console.log('Dodano wartość:', tablica11b);
+    } else {
+        console.log('Wartość już istnieje w tablicy:', nowaWartosc);
+    }
+
+let ostatniElement2 = tablica11b[tablica11b.length - 2];
+console.log('hej55h', ostatniElement2);
+                        setTimeout(() => {
+                        showFiszkiForLesson6(ostatniElement2);
+                        }, 1000);
+                        
+                        function showFiszkiForLesson6(ostatniElement2) {
+
+    console.log('hej11z', ostatniElement2);
+    if (!Array.isArray(tablica12b)) {
+        tablica12b = []; // Inicjalizuj tablicę, jeśli nie istnieje
+    }
+
+    // Jeżeli tablica jest pusta, dodaj 0 jako pierwszy element
+    if (tablica12b.length === 0) {
+        tablica12b.push(0);
+    } else {
+        // Jeśli tablica ma już elementy, przypisz 0 do pierwszego elementu
+        tablica12b[0] = 0;
+        // Niepotrzebne jest wywoływanie push bez argumentu, więc usuwamy tę linię
+    }
+    const $container = $(`.image-container4[data-lesson="${ostatniElement2}"]`);
+
+        console.log('ostatniElement2:', ostatniElement2);
+
+    console.log('hej22x', tablica12b);
+    const ostatniElement3 = tablica12b[tablica12b.length - 1];
+    console.log('hej64xxh', ostatniElement3);
+    if (matchingFiszki1.length > 0) {
+                console.log('hej64xx', matchingFiszki1);
+    if (ostatniElement3 >= 0 && ostatniElement3 < matchingFiszki1.length) {
+
+            let id = matchingFiszki1[ostatniElement3].id;
+            console.log('hej2dd', id);
+            let parametr = '';
+
+            // Sprawdź, czy id jest tablicą
+            if (Array.isArray(id)) {
+                // Połącz wartości z tablicy id w jeden ciąg znaków oddzielony przecinkami
+                id = id.slice(0, 3).join(',');
+
+                // Obsługa ewentualnego dodatkowego parametru (np. czwartego elementu w tablicy)
+                if (id.length > 3) {
+                    parametr = matchingFiszki1[ostatniElement3].id[3]; // Pobierz czwarty element z tablicy
+                }
+            }
+console.log('hej44', $container);
+
+        const className = `fiszka-${id}${parametr ? ',' + parametr : ''}`;
+        const selector = `.${className.replace(/,/g, '\\,')}`;
+        tablica13a.push(selector);
+        console.log('Generated selector:', tablica13a);
+        let selector2 = tablica13a[tablica13a.length - 2];
+setTimeout(() => {
+        // Znajdź element wewnątrz kontenera
+        const $divToRemove = $container.find(selector2);
+        console.log('Element to remove:', $divToRemove);
+
+        if ($divToRemove.length) {
+            $divToRemove.remove(); // Usunięcie elementu
+            console.log('Removed:', $divToRemove);
+        } else {
+            console.log('Element not found within container:', selector);
+        }
+}, 500); // Opóźnienie
+
+}
+        console.log('hej44d', $container);
+                }
+                console.log('Container found:', $container.length > 0 ? 'Yes' : 'No');
+console.log('Container content:', $container.html());
+            }
+            
+            function showFiszkiForLesson6(ostatniElement2, ostatniElement3) {
+    console.log('hej64xxh', ostatniElement3);
+    console.log('hej11z', ostatniElement2);
+    if (!Array.isArray(tablica12b)) {
+        tablica12b = []; // Inicjalizuj tablicę, jeśli nie istnieje
+    }
+
+    // Jeżeli tablica jest pusta, dodaj 0 jako pierwszy element
+    if (tablica12b.length === 0) {
+        tablica12b.push(0);
+    } else {
+        // Jeśli tablica ma już elementy, przypisz 0 do pierwszego elementu
+        tablica12b[0] = 0;
+        // Niepotrzebne jest wywoływanie push bez argumentu, więc usuwamy tę linię
+    }
+    const $container = $(`.image-container4[data-lesson="${ostatniElement2}"]`);
+
+        console.log('ostatniElement2:', ostatniElement2);
+
+    console.log('hej22x', tablica12b);
+
+    if (matchingFiszki1.length > 0) {
+                console.log('hej64xx', matchingFiszki1);
+    if (ostatniElement3 >= 0 && ostatniElement3 < matchingFiszki1.length) {
+
+            let id = matchingFiszki1[ostatniElement3].id;
+            console.log('hej2dd', id);
+            let parametr = '';
+
+            // Sprawdź, czy id jest tablicą
+            if (Array.isArray(id)) {
+                // Połącz wartości z tablicy id w jeden ciąg znaków oddzielony przecinkami
+                id = id.slice(0, 3).join(',');
+
+                // Obsługa ewentualnego dodatkowego parametru (np. czwartego elementu w tablicy)
+                if (id.length > 3) {
+                    parametr = matchingFiszki1[ostatniElement3].id[3]; // Pobierz czwarty element z tablicy
+                }
+            }
+console.log('hej44', $container);
+
+        const className = `fiszka-${id}${parametr ? ',' + parametr : ''}`;
+        const selector = `.${className.replace(/,/g, '\\,')}`;
+        tablica13a.push(selector);
+        console.log('Generated selector:', tablica13a);
+        let selector2 = tablica13a[tablica13a.length - 2];
+setTimeout(() => {
+        // Znajdź element wewnątrz kontenera
+        const $divToRemove = $container.find(selector2);
+        console.log('Element to remove:', $divToRemove);
+
+        if ($divToRemove.length) {
+            $divToRemove.remove(); // Usunięcie elementu
+            console.log('Removed:', $divToRemove);
+        } else {
+            console.log('Element not found within container:', selector);
+        }
+}, 500); // Opóźnienie
+
+}
+        console.log('hej44d', $container);
+                }
+                console.log('Container found:', $container.length > 0 ? 'Yes' : 'No');
+console.log('Container content:', $container.html());
+            }
+            
+            // Obsługa kliknięcia przycisku overlay
+$buttonb.on('click', function () {
+        // Dodaj kopię wartości indexDiv do tablicy
+    // Przykład nowej wartości indexDiv
+    let nowaWartosc = indexDiv;
+
+    // Sprawdź, czy wartość już nie istnieje w tablicy (opcjonalnie)
+    if (!tablica11b.includes(nowaWartosc)) {
+        tablica11b.push(nowaWartosc); // Dodaj nową wartość na końcu tablicy
+        console.log('Dodano wartość:', nowaWartosc);
+        console.log('Dodano wartość:', tablica11b);
+    } else {
+        console.log('Wartość już istnieje w tablicy:', nowaWartosc);
+    }
+
+let ostatniElement2 = tablica11b[tablica11b.length - 2];
+let ostatniElement3 = tablica12b[tablica12b.length - 1];
+console.log('hej55h', ostatniElement2);
+                        setTimeout(() => {
+                        showFiszkiForLesson6(ostatniElement2, ostatniElement3);
+                        }, 1000);
+                        
+                        ostatniElement2 - to numer kontenera;
+                        ostatniElement3 - to numer danej fiszki w kontenerze
+                        
+                                
+let currentFiszkaIndex = tablica24.length > 0 
+    ? tablica24[tablica24.length - 1] // Ostatni element tablica20
+    : 0; // Wartość domyślna, gdy tablica24 jest pusta
+console.log('hej303x', currentFiszkaIndex);

@@ -199,3 +199,70 @@ if (newIndex === 0 && !buttonindex) {
         ],
         srcWordimage: "http://arbu-1dcc9.web.app/filmy/shy.png",
     }
+    
+                                                $(document).on('click', '.word-span', function () {
+                                                const clickedWord = $(this).text();
+                                                console.log("Kliknięto:", clickedWord);
+
+                                                // Ustalanie clickedIndex dla klikniętego słowa
+                                                clickedIndex = words.indexOf(clickedWord);
+                                                console.log('hej341', clickedIndex);
+                                                                                                                                                        // Sprawdź, czy `indexDiv` już istnieje w `fiszkaobject.data`
+                                                    const existingIndex = fiszkaobject.data.findIndex(
+                                                            (entry) => entry[0] === indexDiv
+                                                    );
+
+                                                    if (existingIndex !== -1) {
+                                                        // Jeśli istnieje, zastąp wartość
+                                                        fiszkaobject.data[existingIndex] = [indexDiv, clickedIndex];
+                                                    } else {
+                                                        // Jeśli nie istnieje, dodaj nową tablicę
+                                                        fiszkaobject.data.push([indexDiv, clickedIndex]);
+                                                    }
+                                                    // Sprawdź, czy `indexDiv` już istnieje w `fiszkaobject.data`
+                                                    const existingIndex2 = fiszkaobject.data.findIndex(
+                                                            (entry) => entry[0] === indexDiv
+                                                    );
+
+                                                    if (existingIndex2 !== -1) {
+                                                        // Jeśli istnieje, zaktualizuj `currentFiszkaIndex`
+                                                        fiszkaobject.data[existingIndex2][1] = clickedIndex;
+                                                        console.log('hej303bb', clickedIndex);
+
+                                                        console.log('hej303bbx', indexDiv);
+                                                    } else {
+                                                        // Jeśli nie istnieje, dodaj nową tablicę
+                                                        fiszkaobject.data.push([indexDiv, clickedIndex]);
+                                                    }
+console.log('hej556', fiszkaobject);
+                                                updateHighlight($sentence10, clickedIndex, firstWord, secondWord, thirdWord, forthWord, fifthWord, sixthWord);
+
+                                            });
+                                                function updateHighlight($sentence10, index, firstWord, secondWord, thirdWord, forthWord, fifthWord, sixthWord) {
+
+                                                const words = [firstWord, secondWord, thirdWord, forthWord, fifthWord, sixthWord];
+
+                                                // Generowanie HTML z przypisanymi funkcjami kliknięcia
+                                                let highlightedWords = words.map((word, i) => {
+                                                    return i === index
+                                                            ? `<span class="highlighted word-span" data-index="${i}" style="cursor: pointer;">${word}</span>`
+                                                            : `<span class="word-span" data-index="${i}" style="cursor: pointer;">${word}</span>`;
+                                                });
+
+                                                // Uaktualnij HTML dla $sentence10
+                                                $sentence10.html(`
+        <button class="nav-button" id="prev-button">&lt;</button>
+        ${highlightedWords.join(' ')}
+        <button class="next-button" id="nextbutton">&gt;</button>
+    `);
+
+                                                // Dodanie zdarzenia click dla każdego słowa
+                                                $sentence10.find('.word-span').on('click', function () {
+                                                    const clickedIndex = $(this).data('index'); // Pobieranie indeksu klikniętego słowa
+                                                    console.log('hej223', clickedIndex);
+                                                    handleWordClick(clickedIndex, indexDiv, matchingFiszki1); // Wywołanie funkcji obsługi kliknięcia
+
+                                                });
+                                                console.log('hej12a', displayWordsIndex);
+                                                displayWords(index, indexDiv); // Wywołaj funkcję do wyświetlenia słów z nowym indeksem
+                                            }

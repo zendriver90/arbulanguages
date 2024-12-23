@@ -7712,9 +7712,9 @@ const fiszki = [
         translate: "On biega dziś w parku",
         translateb: "[Hi is raning in de park tudej]",
         translateb2: "[Hi is raning]",
-        srcWord: ["http://localhost/arbulanguage.com/filmy/running.mp4", "Forrest Gump (1994)"],
+        srcWord: ["http://arbu-1dcc9.web.app/filmy/running.mp4", "Forrest Gump (1994)"],
         srcWord2: ["http://arbu-1dcc9.web.app/filmy/procedure.mp4", "Breaking Bad"],
-        srcWordimage: "http://localhost/arbulanguage.com/filmy/running.png",
+        srcWordimage: "http://arbu-1dcc9.web.app/filmy/running.png",
         word: [
             "http://arbu-1dcc9.web.app/voice/bike.mp4"
         ],
@@ -7873,9 +7873,9 @@ const fiszki = [
         translate: "",
         translateb: "[Dej ar hewing diner tugeder nał]",
         translateb2: "[Dej ar hewing diner tugeder nał]",
-        srcWord: ["http://localhost/arbulanguage.com/filmy/morning.mp4", "Fast and Furious: Hobbs and Shaw(2019)"],
+        srcWord: ["http://arbu-1dcc9.web.app/filmy/morning.mp4", "Fast and Furious: Hobbs and Shaw(2019)"],
                 srcWord2: ["http://arbu-1dcc9.web.app/filmy/procedure.mp4", "Breaking Bad"],
-        srcWordimage: "http://localhost/arbulanguage.com/filmy/morning.png",
+        srcWordimage: "http://arbu-1dcc9.web.app/filmy/morning.png",
         word: [
             "http://arbu-1dcc9.web.app/src/is.wav"
         ],
@@ -8038,9 +8038,9 @@ const fiszki = [
         translate: "",
         translateb: "[Aj em lerning Inglisz dis jer]",
         translateb2: "[Hi is raning]",
-        srcWord: ["http://localhost/arbulanguage.com/filmy/learning-english.mp4", "Klik: I robisz, co chcesz (2006)"],
+        srcWord: ["http://arbu-1dcc9.web.app/filmy/learning-english.mp4", "Klik: I robisz, co chcesz (2006)"],
         srcWord2: ["http://arbu-1dcc9.web.app/filmy/procedure.mp4", "Breaking Bad"],
-        srcWordimage: "http://localhost/arbulanguage.com/filmy/learning-english.png",
+        srcWordimage: "http://arbu-1dcc9.web.app/filmy/learning-english.png",
         word: [
             "http://arbu-1dcc9.web.app/voice/bike.mp4"
         ],
@@ -8720,9 +8720,9 @@ const fiszki = [
         translate: "",
         translateb: "[De mówi hes dzast started]",
         translateb2: "[De mówi hes]",
-        srcWord: ["http://arbu-1dcc9.web.app/filmy/homework.mp4", ""],
+        srcWord: ["http://arbu-1dcc9.web.app/filmy/movie.mp4", "Matrix (1999)"],
         srcWord2: ["http://arbu-1dcc9.web.app/filmy/procedure.mp4", ""],
-        srcWordimage: "http://arbu-1dcc9.web.app/filmy/homework.png",
+        srcWordimage: "http://arbu-1dcc9.web.app/filmy/movie.png",
         word: [
             "http://arbu-1dcc9.web.app/voice/bike.mp4"
         ],
@@ -8854,9 +8854,9 @@ const fiszki = [
         translate: "",
         translateb: "[She hes rid dis buk tłajs]",
         translateb2: "[De mówi hes]",
-        srcWord: ["http://arbu-1dcc9.web.app/filmy/twice.mp4", ""],
+        srcWord: ["http://arbu-1dcc9.web.app/filmy/booktwice.mp4", "Poradnik pozytywnego myślenia (2012)"],
         srcWord2: ["http://arbu-1dcc9.web.app/filmy/procedure.mp4", ""],
-        srcWordimage: "http://arbu-1dcc9.web.app/filmy/twice.png",
+        srcWordimage: "http://arbu-1dcc9.web.app/filmy/booktwice.png",
         word: [
             "http://arbu-1dcc9.web.app/voice/bike.mp4"
         ],
@@ -8961,9 +8961,6 @@ const fiszki = [
         ],
         desc: "this[dis] - ta rzecz/osoba",
         sentence1: [
-            "This"
-        ],
-        sentence1: [
             "this"
         ],
         sentence: [
@@ -9036,14 +9033,14 @@ const fiszki = [
         translate: "",
         translateb: "[Łi hew wisitid London meni tajms]",
         translateb2: "[De mówi hes]",
-        srcWord: ["http://arbu-1dcc9.web.app/filmy/twice.mp4", ""],
+        srcWord: ["http://arbu-1dcc9.web.app/filmy/London.mp4", "Sherlock Holmes (2009)"],
         srcWord2: ["http://arbu-1dcc9.web.app/filmy/procedure.mp4", ""],
-        srcWordimage: "http://arbu-1dcc9.web.app/filmy/twice.png",
+        srcWordimage: "http://arbu-1dcc9.web.app/filmy/London.png",
         word: [
             "http://arbu-1dcc9.web.app/voice/bike.mp4"
         ],
-        story: "<u><b>Ona</u></b> - Patrycja ma ri<u><b>szi</u></b> to naturalny antyoksydant",
-        desc: "she[szi] - niebieski/niebieskie",
+        story: "<b><u>Wi</b></u>ll Smith oznajmił, że <b><u>my</b></u> jako ludzkość mamy się dobrze",
+        desc: "we[łi] - my",
         sentence1: [
             "We"
         ],
@@ -9064,9 +9061,9 @@ const fiszki = [
             48,
             89
         ],
-        img: "http://arbu-1dcc9.web.app/img/fiszki1/239a.jpg",
-        story: "Te obrazy są podobne, ale mają inne <u><b>tła</u></b> i farby za inny ha<u><b>js</u></b>",
-        desc: "have[hew] - mieć",
+        img: "http://arbu-1dcc9.web.app/img/fiszki1/122a.jpg",
+        story: "<b><u>Mam</b></u> fajne spodnie, ale puścił sz<b><u>ew</b></u>, <b><u>ch</b></u>yba go zaceruje",
+        desc: "have[hew] - mam",
         sentence1: [
             "have"
         ],
@@ -9087,8 +9084,8 @@ const fiszki = [
             89
         ],
         img: "http://arbu-1dcc9.web.app/img/fiszki1/239a.jpg",
-        story: "Te obrazy są podobne, ale mają inne <u><b>tła</u></b> i farby za inny ha<u><b>js</u></b>",
-        desc: "visited[wisitid] - odwiedzać",
+        story: "Proszek <u><b>Wiz</u></b>ir w dużych opakowaniach jest <u><b>id</u></b>ealny. Sprawił <u><b>t</u></b>o, że rzadziej w tym miesiącu <u><b>odwiedzałem</u></b> sklep",
+        desc: "visited[wizitid] - odwiedzałem/odwiedzałam",
         sentence1: [
             "visited"
         ],
@@ -9109,7 +9106,7 @@ const fiszki = [
             89
         ],
         img: "http://arbu-1dcc9.web.app/img/fiszki1/239a.jpg",
-        story: "Te obrazy są podobne, ale mają inne <u><b>tła</u></b> i farby za inny ha<u><b>js</u></b>",
+        story: "W <u><b>Londynie</u></b> mamy lot ba<u><b>lon</u></b>em z Panem <u><b>Don</u></b>em z Hiszpani",
         desc: "London[London] - Londyn",
         sentence1: [
             "London"
@@ -9131,10 +9128,10 @@ const fiszki = [
             90
         ],
         img: "http://arbu-1dcc9.web.app/img/fiszki1/239a.jpg",
-        story: "Te obrazy są podobne, ale mają inne <u><b>tła</u></b> i farby za inny ha<u><b>js</u></b>",
+        story: "Sa<u><b>me</u></b> <u><b>ni</u></b>tki odstają w tych <u><b>s</u></b>podniach. <u><b>Wiele razy</u></b> kupiłem <u><b>ta</u></b>kie spodnie. Za<u><b>jm</u></b>ują mi całą szafę",
         desc: "many times[meni tajms] - wiele razy",
         sentence2: [
-            "many"
+            "many times"
         ],
         sentence: [
             "many times"

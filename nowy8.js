@@ -2,25 +2,23 @@
 <html>
     <head>
         <!-- Google tag (gtag.js) -->
-        <script async src="https://www.googletagmanager.com/gtag/js?id=G-Z12KVYCV43"></script>
-        <script>
-            window.dataLayer = window.dataLayer || [];
-            function gtag() {
-                dataLayer.push(arguments);
-            }
-            gtag('js', new Date());
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-Z12KVYCV43"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
 
-            gtag('config', 'G-Z12KVYCV43');
-        </script>
+  gtag('config', 'G-Z12KVYCV43');
+</script>
 
-        <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
-        <link rel="stylesheet" type="text/css" href="css/alert.css">
-        <link rel="stylesheet" type="text/css" href="css/lista.css">
-        <link rel="stylesheet" type="text/css" href="js/fiszki.css">
-        <link rel="stylesheet" type="text/css" href="css/styl7.css">
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/alert.css">
+    <link rel="stylesheet" type="text/css" href="css/lista.css">
+    <link rel="stylesheet" type="text/css" href="js/fiszki.css">
+    <link rel="stylesheet" type="text/css" href="css/styl7.css">
         <link rel="stylesheet" type="text/css" href="js/audioaudio.css">
-        <link rel="stylesheet" type="text/css" href="css/1nowe-pc.css">
-        <script src="js/story.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/1nowe-pc.css">
+            <script src="js/story.js"></script>
         <script src="js/storage.js"></script>
         <script src="js/testowyb.js"></script>
         <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
@@ -30,71 +28,71 @@
         <style>
             @media (min-width: 999px) {
                 .sentence-container {
-                    display: flex; /* Użyj flexboxa dla wyrównania w linii */
-                    align-items: center; /* Wyrównaj pionowo do środka */
-                }
+    display: flex; /* Użyj flexboxa dla wyrównania w linii */
+    align-items: center; /* Wyrównaj pionowo do środka */
+}
 
-                .nav-button {
-                    font-size: 0.8em; /* Dostosuj rozmiar czcionki przycisków */
-                    margin: 0 5px; /* Marginesy między przyciskami a tekstem */
-                }
+.nav-button {
+    font-size: 0.8em; /* Dostosuj rozmiar czcionki przycisków */
+    margin: 0 5px; /* Marginesy między przyciskami a tekstem */
+}
 
-                .highlighted {
-                    color: green; /* Kolor dla wyróżnionego słowa */
-                    font-weight: bold; /* Opcjonalnie: pogrubienie dla wyróżnionego słowa */
-                }
+.highlighted {
+    color: green; /* Kolor dla wyróżnionego słowa */
+    font-weight: bold; /* Opcjonalnie: pogrubienie dla wyróżnionego słowa */
+}
 
-                .blink {
-                    animation: blink-animation 1s steps(5, start) infinite; /* Przykład animacji mrugania */
-                }
+.blink {
+    animation: blink-animation 1s steps(5, start) infinite; /* Przykład animacji mrugania */
+}
 
-                @keyframes blink-animation {
-                    to {
-                        visibility: hidden;
-                    }
-                }
+@keyframes blink-animation {
+    to {
+        visibility: hidden;
+    }
+}
                 .bottom-bar {
-                    display: none;
-                }
+    display: none;
+}
 
-                .show {
-                    transform: translateY(-60px); /* Pasek widoczny po załadowaniu */
-                }
-                .hidden {
-                    transform: translateY(100%); /* Schowanie paska poza ekran */
-                }
-                .bottom-button {
-                    background-color: #4CAF50;
-                    color: white;
-                    border: none;
-                    padding: 10px;
-                    font-size: 8px;
-                    border-radius: 5px;
-                    cursor: pointer;
-                }
+.show {
+    transform: translateY(-60px); /* Pasek widoczny po załadowaniu */
+}
+.hidden {
+    transform: translateY(100%); /* Schowanie paska poza ekran */
+}
+.bottom-button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px;
+    font-size: 8px;
+    border-radius: 5px;
+    cursor: pointer;
+}
 
-                .bottom-button:hover {
-                    background-color: #45a049;
-                }
+.bottom-button:hover {
+    background-color: #45a049;
+}
 
-                .lupka {
-                    position: absolute;
-                    width: auto;
-                    height: 30px;
-                    cursor: pointer;
-                }
+.lupka {
+    position: absolute;
+    width: auto;
+    height: 30px;
+    cursor: pointer;
+}
 
-                .toggle-button {
-                    display: none;
-                }
+.toggle-button {
+    display: none;
+}
 
-                #arrow {
-                    font-size: 20px;
-                }
+#arrow {
+    font-size: 20px;
+}
 
-                .show-toggle-button {
-                    bottom: 60px; /* Strzałka przesuwa się do góry gdy pasek jest widoczny */
-                }
+.show-toggle-button {
+    bottom: 60px; /* Strzałka przesuwa się do góry gdy pasek jest widoczny */
+}
                 /* Styl dla głównego kontenera */
                 .container {
                     position: relative;
@@ -114,8 +112,8 @@
                 .left-button,
                 .left-buttonb,
                 .left-buttonbb{
-                    color: orange;
-                    border-radius: 5px;
+                color: orange;
+                border-radius: 5px;
                 }
                 .white-text {
                     color: white !important;
@@ -129,7 +127,7 @@
                     border: none;
                     cursor: pointer;
                 }
-
+                
                 @keyframes blinkBackground {
                     0% {
                         background-color: yellow;
@@ -166,21 +164,21 @@
                     font-size: 20px;
                 }
 
-                .image-container3 {
-                    display: flex;
-                    flex-direction: column;
-                    justify-content: center;
-                    background-color: blue;
-                    width: 330px;
-                    position: relative;
-                    min-height: 100px;
-                    height: auto;
-                    margin-bottom: 0px;
-                    align-items: center;
-                    font-size: 20px;
-                    margin-top: 10px;
-                    order: -1; /* Kolejność odwrotna - spycha w dół */
-                }
+            .image-container3 {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                background-color: blue;
+                width: 330px;
+                position: relative;
+                min-height: 100px;
+                height: auto;
+                margin-bottom: 0px;
+                align-items: center;
+                font-size: 20px;
+                margin-top: 10px;
+                order: -1; /* Kolejność odwrotna - spycha w dół */
+            }
                 .background-overlay {
                     position: absolute;
                     top: 0;
@@ -198,7 +196,7 @@
                 }
                 .image-container4 {
                     display: flex;
-                    white-space: nowrap; /* Wymusza jedną linię */
+                        white-space: nowrap; /* Wymusza jedną linię */
                     flex-direction: column;
                     justify-content: center;
                     background-color: blue;
@@ -229,32 +227,32 @@
                     order: -1; /* Kolejność odwrotna - spycha w dół */
                     z-index: 10; /* Tło kontenera, ustaw na większy z-index niż wideo */
                 }
-                .scene-description {
-                    position: absolute;
-                    font-size: 15px;
-                    top: 10px; /* Odległość od górnej krawędzi kontenera */
-                    right: -120px; /* Przesunięcie w lewo o 120 pikseli, aby wystawał poza prawą krawędź */
-                    background-color: #000;
-                    color: #fff;
-                    padding: 5px 10px;
-                    z-index: 1000;
-                    white-space: nowrap; /* Zapobiega zawijaniu tekstu */
-                }
-                .scene-description2 {
-                    position: absolute;
-                    font-size: 15px;
-                    top: 10px; /* Odległość od górnej krawędzi kontenera */
-                    left: -100px; /* Odległość od górnej krawędzi kontenera */
-                    background-color: #000;
-                    color: #fff;
-                    padding: 5px 10px;
-                    z-index: 1000;
-                    white-space: nowrap; /* Zapobiega zawijaniu tekstu */
-                }
+            .scene-description {
+                position: absolute;
+                font-size: 15px;
+                top: 10px; /* Odległość od górnej krawędzi kontenera */
+                right: -120px; /* Przesunięcie w lewo o 120 pikseli, aby wystawał poza prawą krawędź */
+                background-color: #000;
+                color: #fff;
+                padding: 5px 10px;
+                z-index: 1000;
+                white-space: nowrap; /* Zapobiega zawijaniu tekstu */
+            }
+            .scene-description2 {
+                position: absolute;
+                font-size: 15px;
+                top: 10px; /* Odległość od górnej krawędzi kontenera */
+                left: -100px; /* Odległość od górnej krawędzi kontenera */
+                background-color: #000;
+                color: #fff;
+                padding: 5px 10px;
+                z-index: 1000;
+                white-space: nowrap; /* Zapobiega zawijaniu tekstu */
+            }
                 .overlay-button {
                     position: relative;
                     z-index: 1000;
-                    white-space: nowrap; /* Zapobiega zawijaniu tekstu */
+                white-space: nowrap; /* Zapobiega zawijaniu tekstu */
                     bottom: 10px;
                     right: 10px;
                     width: 30px;
@@ -274,7 +272,7 @@
                     color: white;
                     display: none; /* Hide initially */
                     z-index: 1000;
-                    white-space: nowrap; /* Zapobiega zawijaniu tekstu */
+                white-space: nowrap; /* Zapobiega zawijaniu tekstu */
                 }
                 .container:hover .overlay {
                     transform: translateX(0); /* Przesuwanie div-a na swoje miejsce */
@@ -321,19 +319,6 @@
                     width: 150px; /* Szerokość dynamicznego div-a */
                     height: 20px; /* Wysokość dynamicznego div-a */
                     background-color: rgba(255, 0, 0, 0.5); /* Przezroczyste tło */
-                    color: white;
-                    z-index: 1000; /* Wyższy z-index, aby był nad overlay */
-                    display: none; /* Początkowo ukryty */
-                    font-size: 10px;
-                }
-                                                .dynamic-div2 {
-                    position: absolute;
-                    bottom: 5px; /* Ustawienie w dowolnym miejscu w kontenerze */
-                    left: 10px;
-                    font-size: 15px;
-                    width: 150px; /* Szerokość dynamicznego div-a */
-                    height: 20px; /* Wysokość dynamicznego div-a */
-                    background-color: rgba(0, 0, 255, 0.5); /* Przezroczyste niebieskie tło */
                     color: white;
                     z-index: 1000; /* Wyższy z-index, aby był nad overlay */
                     display: none; /* Początkowo ukryty */
@@ -386,7 +371,7 @@
                     z-index: 9999;
                     color: blue;
                 }
-                .sentenceBB {
+                                .sentenceBB {
                     margin-top: 80px;
                     color: white;
                     z-index: 9999;
@@ -417,22 +402,22 @@
                     background-color: rgba(255, 255, 0, 0.5); /* Kolor tła z opacity */
                     color: white;
                 }
-                .highlighted-sentence1 {
+                                .highlighted-sentence1 {
                     background-color: rgba(255, 255, 0, 0.5); /* Kolor tła z opacity */
                     color: white;
                 }
                 .highlighted {
-                    background-color: #2ecc71;
-                    color: red; /* Lub dowolny styl */
-                }
+    background-color: #2ecc71;
+    color: red; /* Lub dowolny styl */
+}
                 .yellow {
                     color: yellow;
                 }
-                .green {
-                    background-color: rgba(0, 255, 0, 0.5);
+                                .green {
+    background-color: rgba(0, 255, 0, 0.5);
                 }
-                .blue {
-                    background-color: rgba(0, 0, 255, 0.5);
+                                                .blue {
+    background-color: rgba(0, 0, 255, 0.5);
                 }
                 .flashcard-container {
                     width: 1350px;
@@ -636,39 +621,39 @@
                     margin-bottom: 100px;
                     text-align: center;
                 }
-                .modal {
-                    display: flex;
-                    justify-content: center;
-                    align-items: center;
-                    position: fixed;
-                    z-index: 1000;
-                    left: 0;
-                    top: 0;
-                    width: 100%;
-                    height: 100%;
-                    background-color: rgba(0, 0, 0, 0.7);
-                }
+.modal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    z-index: 1000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+}
 
-                .modal-content {
-                    background-color: white;
-                    padding: 20px;
-                    border-radius: 8px;
-                    text-align: center;
-                }
+.modal-content {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+}
 
-                button123 {
-                    padding: 10px 20px;
-                    margin-top: 10px;
-                    border: none;
-                    background-color: #4CAF50;
-                    color: white;
-                    cursor: pointer;
-                    border-radius: 5px;
-                }
+button123 {
+    padding: 10px 20px;
+    margin-top: 10px;
+    border: none;
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+}
 
-                button123:hover {
-                    background-color: #45a049;
-                }
+button123:hover {
+    background-color: #45a049;
+}
                 /* Styl dla głównego kontenera */
                 .container {
                     display: flex;
@@ -694,14 +679,14 @@
                     border: none;
                     cursor: pointer;
                 }
-                .left-button,
+                                .left-button,
                 .left-buttonb,
                 .left-buttonbb {
                     font-size: 7px;
                     width: 20px;
                     height: 20px;
-                    color: orange;
-                    border-radius: 5px;
+                color: orange;
+                border-radius: 5px;
                 }
                 @keyframes blinkBackground {
                     0% {
@@ -764,8 +749,8 @@
                     align-items: center;
                     font-size: 20px;
                     z-index: 999;
-                    order: 0; /* Domyślna kolejność */
-                    z-index: 1;
+    order: 0; /* Domyślna kolejność */
+    z-index: 1;
                 }/* Tło */
                 .background-overlay {
                     position: absolute;
@@ -779,7 +764,7 @@
                 }
 
                 .background-video {
-                    height: 100%;
+                                        height: 100%;
                     min-height: 100px;
                     width: 100%;
                     position: absolute;
@@ -790,7 +775,7 @@
                     z-index: 1; /* Wideo, ustaw na niższy z-index */
                 }
                 .background-video22 {
-                    height: 100%;
+                                        height: 100%;
                     min-height: 100px;
                     width: 100%;
                     position: absolute;
@@ -897,39 +882,39 @@
                     display: block; /* Wyświetlenie przycisku na hover */
                     z-index: 99999; /* Wyższy z-index na hover */
                 }
-                .image-container3b:hover .run-button {
+                                .image-container3b:hover .run-button {
                     display: block; /* Wyświetlenie przycisku na hover */
                     z-index: 99999; /* Wyższy z-index na hover */
                 }
 
                 button.left-button.first-button:hover {
-                    z-index: 99999; /* Wyższy z-index na hover */
-                    display: block; /* Wyświetlenie przycisku na hover */
-                }
-                .image-container3:hover {
-                    z-index: 99999; /* Wyższy z-index na hover */
-                }
+    z-index: 99999; /* Wyższy z-index na hover */
+    display: block; /* Wyświetlenie przycisku na hover */
+}
+.image-container3:hover {
+    z-index: 99999; /* Wyższy z-index na hover */
+}
 
-                .image-container3 .run-button3 {
-                    display: none; /* Domyślnie ukryty przycisk */
-                }
+.image-container3 .run-button3 {
+    display: none; /* Domyślnie ukryty przycisk */
+}
 
-                .image-container3:hover .run-button3 {
-                    display: block; /* Pokazywanie przycisku na hover */
-                    z-index: 999999; /* Z-index wyższy niż inne elementy */
-                }
-                .image-container3b:hover {
-                    z-index: 99999; /* Wyższy z-index na hover */
-                }
+.image-container3:hover .run-button3 {
+    display: block; /* Pokazywanie przycisku na hover */
+    z-index: 999999; /* Z-index wyższy niż inne elementy */
+}
+.image-container3b:hover {
+    z-index: 99999; /* Wyższy z-index na hover */
+}
 
-                .image-container3b .run-button3 {
-                    display: none; /* Domyślnie ukryty przycisk */
-                }
+.image-container3b .run-button3 {
+    display: none; /* Domyślnie ukryty przycisk */
+}
 
-                .image-container3b:hover .run-button3 {
-                    display: block; /* Pokazywanie przycisku na hover */
-                    z-index: 999999; /* Z-index wyższy niż inne elementy */
-                }
+.image-container3b:hover .run-button3 {
+    display: block; /* Pokazywanie przycisku na hover */
+    z-index: 999999; /* Z-index wyższy niż inne elementy */
+}
                 .run-button2 {
                     position: absolute;
                     top: 50%;
@@ -938,12 +923,12 @@
                     display: none; /* Ukrycie przycisku */
                     z-index: 2; /* Wyższy z-index, aby przycisk był na wierzchu */
                 }
-                .run-button3 {
-                    display: none;
-                    position: absolute;
-                    margin-bottom: 100px;
-                    z-index: 9999999;
-                }
+.run-button3 {
+    display: none;
+    position: absolute;
+    margin-bottom: 100px;
+    z-index: 9999999;
+}
                 .dynamic-div {
                     position: absolute;
                     top: 10px; /* Ustawienie w dowolnym miejscu w kontenerze */
@@ -956,18 +941,6 @@
                     z-index: 1000; /* Wyższy z-index, aby był nad overlay */
                     display: none; /* Początkowo ukryty */
                 }
-                                .dynamic-div2 {
-                    position: absolute;
-                    top: 10px; /* Ustawienie w dowolnym miejscu w kontenerze */
-                    left: 10px;
-                    font-size: 10px;
-                    width: 70px; /* Szerokość dynamicznego div-a */
-                    height: 20px; /* Wysokość dynamicznego div-a */
-                    background-color: rgba(0, 0, 255, 0.5);
-                    color: white;
-                    z-index: 1000; /* Wyższy z-index, aby był nad overlay */
-                    display: none; /* Początkowo ukryty */
-                }
 
                 .image-container4:hover .run-button2 {
                     display: block; /* Wyświetlenie przycisku na hover */
@@ -975,7 +948,7 @@
                 .image-container4:hover .run-button3 {
                     display: block; /* Wyświetlenie przycisku na hover */
                 }
-                .image-container4b:hover .run-button2 {
+                                .image-container4b:hover .run-button2 {
                     display: block; /* Wyświetlenie przycisku na hover */
                 }
                 .image-container4b:hover .run-button3 {
@@ -1016,7 +989,7 @@
                     color: white;
                     z-index: 9999;
                 }
-                .sentenceBC {
+                                .sentenceBC {
                     font-size: 12px;
                     margin-bottom: 60px;
                     color: white;
@@ -1043,15 +1016,15 @@
                     background-color: rgba(255, 255, 0, 0.5); /* Kolor tła z opacity */
                     color: white;
                 }
-                .highlighted-sentence1 {
+                                .highlighted-sentence1 {
                     background-color: rgba(255, 255, 0, 0.5); /* Kolor tła z opacity */
                     color: white;
                 }
                 .yellow {
                     color: yellow;
                 }
-                .green {
-                    background-color: green;
+                                .green {
+    background-color: green;
                 }
                 .flashcard-container {
                     width: 390px;
@@ -1088,28 +1061,28 @@
                     display: none;
                 }
                 .word-span.current {
-                    background-color: yellow; /* lub inny kolor */
-                    font-weight: bold;
-                }
-                .word-span {
-                    cursor: pointer; /* Zmiana kursora na pointer */
-                    display: inline-block; /* Element działa jak przycisk */
-                    padding: 5px;
-                    margin: 3px;
-                    background-color: lightblue; /* Kolor tła dla widoczności */
-                    border-radius: 5px; /* Zaokrąglone rogi */
-                }
+    background-color: yellow; /* lub inny kolor */
+    font-weight: bold;
+}
+        .word-span {
+            cursor: pointer; /* Zmiana kursora na pointer */
+            display: inline-block; /* Element działa jak przycisk */
+            padding: 5px;
+            margin: 3px;
+            background-color: lightblue; /* Kolor tła dla widoczności */
+            border-radius: 5px; /* Zaokrąglone rogi */
+        }
 
-                .word-span:hover {
-                    cursor: pointer; /* Zmiana kursora na pointer */
-                    background-color: #007BFF; /* Zmiana koloru tła po najechaniu */
-                    color: white; /* Zmiana koloru tekstu po najechaniu */
-                }
-                /* Styl dla podświetlonego słowa */
-                .highlighted {
-                    cursor: pointer; /* Zmiana kursora na pointer */
-                    background-color: #0056b3; /* Kolor podświetlenia */
-                }
+        .word-span:hover {
+            cursor: pointer; /* Zmiana kursora na pointer */
+            background-color: #007BFF; /* Zmiana koloru tła po najechaniu */
+            color: white; /* Zmiana koloru tekstu po najechaniu */
+        }
+        /* Styl dla podświetlonego słowa */
+        .highlighted {
+            cursor: pointer; /* Zmiana kursora na pointer */
+            background-color: #0056b3; /* Kolor podświetlenia */
+        }
                 #konsola button {
                     border-radius: 8px; /* Tutaj możesz dostosować wielkość zaokrąglenia */
                     /* Dodatkowe style przycisków */
@@ -1153,7 +1126,7 @@
                     margin-bottom: 0; /* Ustawienie marginesów zgodnie z potrzebami */
                     z-index: 1;
                 }
-                .grid-containerb {
+                                .grid-containerb {
                     display: grid;
                     box-sizing: border-box; /* Ustawienie box-sizing */
                     width: 100%; /* Zapewnienie, że kontener zajmuje 100% szerokości */
@@ -1309,82 +1282,82 @@
                 .zaznaczony-charakter {
                     border: 3px solid blue;
                 }
-                .bottom-bar {
-                    position: fixed;
-                    bottom: -60px; /* Domyślnie schowany */
-                    left: 0;
-                    width: 100%;
-                    height: 60px;
-                    background-color: #333;
-                    display: flex;
-                    justify-content: space-around;
-                    align-items: center;
-                    padding: 0 10px;
-                    box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.3);
-                    z-index: 1000;
-                    transition: transform 0.3s ease;
-                }
+.bottom-bar {
+    position: fixed;
+    bottom: -60px; /* Domyślnie schowany */
+    left: 0;
+    width: 100%;
+    height: 60px;
+    background-color: #333;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0 10px;
+    box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.3);
+    z-index: 1000;
+    transition: transform 0.3s ease;
+}
 
-                .show {
-                    transform: translateY(-60px); /* Pasek widoczny po załadowaniu */
-                }
-                .hidden {
-                    transform: translateY(100%); /* Schowanie paska poza ekran */
-                }
-                .bottom-button {
-                    background-color: #4CAF50;
-                    color: white;
-                    border: none;
-                    padding: 10px;
-                    font-size: 8px;
-                    border-radius: 5px;
-                    cursor: pointer;
-                }
-                .bottom-button2 {
-                    width: 50px;                  /* Ustaw szerokość przycisku */
-                    height: 30px;                 /* Ustaw wysokość przycisku (opcjonalnie) */
-                    background-color: transparent; /* Tło przezroczyste */
-                    border: none;                 /* Usuwa obramowanie */
-                    cursor: pointer;              /* Ustawia kursor na wskaźnik */
-                    overflow: hidden;             /* Ukrywa wszelkie elementy wychodzące poza przycisk */
-                    padding: 0;                   /* Ustawia padding na 0 */
-                }
-                .bottom-button:hover {
-                    background-color: #45a049;
-                }
+.show {
+    transform: translateY(-60px); /* Pasek widoczny po załadowaniu */
+}
+.hidden {
+    transform: translateY(100%); /* Schowanie paska poza ekran */
+}
+.bottom-button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px;
+    font-size: 8px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.bottom-button2 {
+    width: 50px;                  /* Ustaw szerokość przycisku */
+    height: 30px;                 /* Ustaw wysokość przycisku (opcjonalnie) */
+    background-color: transparent; /* Tło przezroczyste */
+    border: none;                 /* Usuwa obramowanie */
+    cursor: pointer;              /* Ustawia kursor na wskaźnik */
+    overflow: hidden;             /* Ukrywa wszelkie elementy wychodzące poza przycisk */
+    padding: 0;                   /* Ustawia padding na 0 */
+}
+.bottom-button:hover {
+    background-color: #45a049;
+}
 
-                .lupka {
-                    position: absolute; /* Pozwala na pozycjonowanie w kontekście rodzica */
-                    width: 40px; /* Ustaw szerokość obrazka */
-                    height: 40px; /* Ustaw wysokość obrazka */
-                    cursor: pointer;
-                    background-color: green;
-                    border-radius: 8px;
-                    right: 10px; /* Dostosuj pozycjonowanie, aby był w prawym rogu */
-                    top: 10px; /* Ustaw odległość od dołu */
-                    right: 25px;
-                }
+.lupka {
+    position: absolute; /* Pozwala na pozycjonowanie w kontekście rodzica */
+    width: 40px; /* Ustaw szerokość obrazka */
+    height: 40px; /* Ustaw wysokość obrazka */
+    cursor: pointer;
+    background-color: green;
+    border-radius: 8px;
+    right: 10px; /* Dostosuj pozycjonowanie, aby był w prawym rogu */
+    top: 10px; /* Ustaw odległość od dołu */
+    right: 25px;
+}
 
-                .toggle-button {
-                    position: fixed;
-                    bottom: 0;
-                    right: 20px;
-                    background-color: #333;
-                    color: white;
-                    padding: 10px;
-                    border-radius: 50%;
-                    cursor: pointer;
-                    z-index: 1001;
-                    transition: bottom 0.3s ease;
-                }
+.toggle-button {
+    position: fixed;
+    bottom: 0;
+    right: 20px;
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+    z-index: 1001;
+    transition: bottom 0.3s ease;
+}
 
-                #arrow {
-                    font-size: 20px;
-                }
+#arrow {
+    font-size: 20px;
+}
 
-                .show-toggle-button {
-                    bottom: 60px; /* Strzałka przesuwa się do góry gdy pasek jest widoczny */
-                }
+.show-toggle-button {
+    bottom: 60px; /* Strzałka przesuwa się do góry gdy pasek jest widoczny */
+}
             }
         </style>
     </head>
@@ -1420,43 +1393,43 @@
                 </div>
             </div>
         </div>
-        <div class="bottom-bar" id="bottomBar">
-            <button class="bottom-button" onclick="ustawTryb('zdania', undefined); przekazArgument0(globalCategory, '', '', 'zdania', false, false, tablica3[1])">1 ZDANIE / LEKCJA</button>
-            <button class="bottom-button" onclick="ustawTryb('fiszki', undefined); przekazArgument0(globalCategory, '', '', 'fiszki', false, false, tablica3[1])">3 ZDANIA / LEKCJA</button>
-            <button class="bottom-button" onclick="ustawTryb(tablica3[0], 'frazy'); przekazArgument0(globalCategory, '', '', tablica3[0], true, true, tablica3[1])">FRAZY</button>
-            <button class="bottom-button">SŁOWA</button>
-            <button id="searchButton" class="bottom-button2" onclick="zmienLupke()">
-                <img src="img/lupki3fa.png" alt="Szukaj" class="lupka" id="lupkaImage">
-            </button>
-        </div>
+<div class="bottom-bar" id="bottomBar">
+    <button class="bottom-button" onclick="ustawTryb('zdania', undefined); przekazArgument0(globalCategory, '', '', 'zdania', false, false, tablica3[1])">1 ZDANIE / LEKCJA</button>
+    <button class="bottom-button" onclick="ustawTryb('fiszki', undefined); przekazArgument0(globalCategory, '', '', 'fiszki', false, false, tablica3[1])">3 ZDANIA / LEKCJA</button>
+    <button class="bottom-button" onclick="ustawTryb(tablica3[0], 'frazy'); przekazArgument0(globalCategory, '', '', tablica3[0], true, true, tablica3[1])">FRAZY</button>
+    <button class="bottom-button">SŁOWA</button>
+    <button id="searchButton" class="bottom-button2" onclick="zmienLupke()">
+        <img src="img/lupki3fa.png" alt="Szukaj" class="lupka" id="lupkaImage">
+    </button>
+</div>
 
-        <div class="toggle-button" id="toggleButton">
-            <span id="arrow">&#9660;</span> <!-- Strzałka skierowana w dół -->
-        </div>
+<div class="toggle-button" id="toggleButton">
+    <span id="arrow">&#9660;</span> <!-- Strzałka skierowana w dół -->
+</div>
         <script>
-            let aktualnyObraz = true; // Zmienna do śledzenia aktualnego stanu obrazu
+let aktualnyObraz = true; // Zmienna do śledzenia aktualnego stanu obrazu
 
-            function zmienLupke() {
-                const lupkaImage = document.getElementById('lupkaImage');
-                const obrazPierwszy = 'img/lupki3fa.png'; // Ścieżka do pierwszego obrazka
-                const obrazDrugi = 'img/lupki3g3.png'; // Ścieżka do drugiego obrazka
+function zmienLupke() {
+    const lupkaImage = document.getElementById('lupkaImage');
+    const obrazPierwszy = 'img/lupki3fa.png'; // Ścieżka do pierwszego obrazka
+    const obrazDrugi = 'img/lupki3g3.png'; // Ścieżka do drugiego obrazka
 
-                // Przełączanie obrazka
-                if (aktualnyObraz) {
-                    lupkaImage.src = obrazDrugi; // Zmień na drugi obraz
-                    // Zmień klasy na grid-containerb oraz image-container3b
-                    $('.grid-container').removeClass('grid-container').addClass('grid-containerb');
-                    $('.image-container3').removeClass('image-container3').addClass('image-container3b');
-                } else {
-                    lupkaImage.src = obrazPierwszy; // Zmień na pierwszy obraz
-                    // Zmień klasy z powrotem na grid-container oraz image-container3
-                    $('.grid-containerb').removeClass('grid-containerb').addClass('grid-container');
-                    $('.image-container3b').removeClass('image-container3b').addClass('image-container3');
-                }
+    // Przełączanie obrazka
+    if (aktualnyObraz) {
+        lupkaImage.src = obrazDrugi; // Zmień na drugi obraz
+        // Zmień klasy na grid-containerb oraz image-container3b
+        $('.grid-container').removeClass('grid-container').addClass('grid-containerb');
+        $('.image-container3').removeClass('image-container3').addClass('image-container3b');
+    } else {
+        lupkaImage.src = obrazPierwszy; // Zmień na pierwszy obraz
+        // Zmień klasy z powrotem na grid-container oraz image-container3
+        $('.grid-containerb').removeClass('grid-containerb').addClass('grid-container');
+        $('.image-container3b').removeClass('image-container3b').addClass('image-container3');
+    }
 
-                // Zmień stan na przeciwny
-                aktualnyObraz = !aktualnyObraz;
-            }
+    // Zmień stan na przeciwny
+    aktualnyObraz = !aktualnyObraz;
+}
             // Funkcja do zmiany szerokości okna
             function simulateResize(width) {
                 document.documentElement.style.setProperty('--viewport-width', width + 'px');
@@ -1467,39 +1440,39 @@
             simulateResize(768);
         </script>
         <script>
-
-            const bottomBar = document.getElementById('bottomBar');
-            const toggleButton = document.getElementById('toggleButton');
-            const arrow = document.getElementById('arrow');
+  
+const bottomBar = document.getElementById('bottomBar');
+const toggleButton = document.getElementById('toggleButton');
+const arrow = document.getElementById('arrow');
 
 // Pokaż pasek i strzałkę nad nim po załadowaniu strony
-            window.addEventListener('load', function () {
-                bottomBar.classList.add('show'); // Pasek widoczny
-                toggleButton.classList.add('show-toggle-button'); // Strzałka nad paskiem
+window.addEventListener('load', function() {
+    bottomBar.classList.add('show'); // Pasek widoczny
+    toggleButton.classList.add('show-toggle-button'); // Strzałka nad paskiem
 
-                // Automatyczne schowanie paska po 3 sekundach
-                setTimeout(function () {
-                    bottomBar.classList.remove('show');
-                    bottomBar.classList.add('hidden'); // Schowanie paska
-                    arrow.innerHTML = '&#9650;'; // Zmiana strzałki na skierowaną w górę
-                    toggleButton.classList.remove('show-toggle-button'); // Strzałka wraca na dół
-                }, 3000); // 3000 ms = 3 sekundy
-            });
+    // Automatyczne schowanie paska po 3 sekundach
+    setTimeout(function() {
+        bottomBar.classList.remove('show');
+        bottomBar.classList.add('hidden'); // Schowanie paska
+        arrow.innerHTML = '&#9650;'; // Zmiana strzałki na skierowaną w górę
+        toggleButton.classList.remove('show-toggle-button'); // Strzałka wraca na dół
+    }, 3000); // 3000 ms = 3 sekundy
+});
 
 // Strzałka do ręcznego rozwijania i chowania paska
-            toggleButton.addEventListener('click', function () {
-                if (bottomBar.classList.contains('show')) {
-                    bottomBar.classList.remove('show');
-                    bottomBar.classList.add('hidden');
-                    arrow.innerHTML = '&#9650;'; // Strzałka w górę (chowanie paska)
-                    toggleButton.classList.remove('show-toggle-button'); // Strzałka wraca na dół
-                } else {
-                    bottomBar.classList.remove('hidden');
-                    bottomBar.classList.add('show');
-                    arrow.innerHTML = '&#9660;'; // Strzałka w dół (rozwijanie paska)
-                    toggleButton.classList.add('show-toggle-button'); // Strzałka nad paskiem
-                }
-            });
+toggleButton.addEventListener('click', function() {
+    if (bottomBar.classList.contains('show')) {
+        bottomBar.classList.remove('show');
+        bottomBar.classList.add('hidden');
+        arrow.innerHTML = '&#9650;'; // Strzałka w górę (chowanie paska)
+        toggleButton.classList.remove('show-toggle-button'); // Strzałka wraca na dół
+    } else {
+        bottomBar.classList.remove('hidden');
+        bottomBar.classList.add('show');
+        arrow.innerHTML = '&#9660;'; // Strzałka w dół (rozwijanie paska)
+        toggleButton.classList.add('show-toggle-button'); // Strzałka nad paskiem
+    }
+});
             function blinkButton() {
                 const button = document.getElementById('flashcardButton');
                 let blinkCount = 0;
@@ -1789,14 +1762,14 @@
                 console.log('wykonuje się 6', matchingIndexes2);
                 return matchingIndexes;
             }
-            // Funkcja znajdująca indeksy dla pasujących "fiszek"
+                        // Funkcja znajdująca indeksy dla pasujących "fiszek"
             function findXForMatchingFiszka2(category, fiszki) {
                 const matchingIndexes2 = [];
                 // Iteruj przez tablicę fiszki
                 console.log('hej234', category);
                 for (let i = 0; i < fiszki.length; i++) {
                     // Upewnij się, że fiszki[i] oraz fiszki[i].category3 są zdefiniowane
-                    if (fiszki[i] && fiszki[i].category3 && fiszki[i].category3.includes("PresentSimplePodmiot")) {
+                        if (fiszki[i] && fiszki[i].category3 && fiszki[i].category3.includes("PresentSimplePodmiot")) {
                         matchingIndexes2.push(i + 1);
                         console.log('hej7xxv', matchingIndexes2);
                     }
@@ -1805,13 +1778,13 @@
                 console.log('wykonuje się 6bb', matchingIndexes2);
                 return matchingIndexes2;
             }
-            function findXForMatchingFiszka3(category, fiszki) {
+                        function findXForMatchingFiszka3(category, fiszki) {
                 const matchingIndexes3 = [];
                 // Iteruj przez tablicę fiszki
                 console.log('hej234', category);
                 for (let i = 0; i < fiszki.length; i++) {
                     // Upewnij się, że fiszki[i] oraz fiszki[i].category3 są zdefiniowane
-                    if (fiszki[i] && fiszki[i].category3 && fiszki[i].category3.includes("PresentSimpleCzasownik")) {
+                        if (fiszki[i] && fiszki[i].category3 && fiszki[i].category3.includes("PresentSimpleCzasownik")) {
                         matchingIndexes3.push(i + 1);
                         console.log('hej7xxv', matchingIndexes3);
                     }
@@ -2018,8 +1991,8 @@
             }
             console.log("Matching indexes:", matchingIndexes);
             let polski = false;
-            let losowaniaCounter = 0; // Zmienna licznika losowań
-            let losowaniaCounter2 = 0; // Zmienna licznika losowań
+let losowaniaCounter = 0; // Zmienna licznika losowań
+let losowaniaCounter2 = 0; // Zmienna licznika losowań
             let tablica33 = [];
             let tablica33b = [];
             function wybierzRodzaj(category, czas, matchingIndexes, index55, buttonindex, idpolski, frazyid, matchingIndexes2, rodzaj, matchingIndexes3) {
@@ -2154,124 +2127,124 @@
                     }
                 }
 
-                let powiadomienieCounter = 0; // Licznik wyświetleń powiadomień
+let powiadomienieCounter = 0; // Licznik wyświetleń powiadomień
 
-                if (czas === 'fiszki' && czas !== "zdania") {
-                    console.log('Warunek czas === "fiszki" jest spełniony');
-                    $('.grid-container .image-container4').remove();
-                    $('.grid-container .image-container5').remove();
+if (czas === 'fiszki' && czas !== "zdania") {
+    console.log('Warunek czas === "fiszki" jest spełniony');
+    $('.grid-container .image-container4').remove();
+    $('.grid-container .image-container5').remove();
 
-                    if (myVariable.length > 1) {
-                        let zeroWylosowane = false;
-                        let indexDiv = 0;
+    if (myVariable.length > 1) {
+        let zeroWylosowane = false;
+        let indexDiv = 0;
 
-                        let previousCumulativeFirstPartLength3 = 0;
-                        let cumulativeFirstPartLength1 = 0;
-                        let cumulativeFirstPartLength2 = 0;
-                        let cumulativeFirstPartLength3 = 0;
+        let previousCumulativeFirstPartLength3 = 0;
+        let cumulativeFirstPartLength1 = 0;
+        let cumulativeFirstPartLength2 = 0;
+        let cumulativeFirstPartLength3 = 0;
 
-                        let startIndex = 0;
-                        const lengthDividedByThree = myVariable.length / 3;
+        let startIndex = 0;
+        const lengthDividedByThree = myVariable.length / 3;
 
-                        let indices = Array.from({length: lengthDividedByThree}, (_, i) => i + 1);
-                        let indices2 = [];
-                        for (let i = 1; i <= lengthDividedByThree; i++) {
-                            indices2.push(i);
-                        }
+        let indices = Array.from({length: lengthDividedByThree}, (_, i) => i + 1);
+        let indices2 = [];
+        for (let i = 1; i <= lengthDividedByThree; i++) {
+            indices2.push(i);
+        }
 
-                        console.log('hej12', indices2);
+        console.log('hej12', indices2);
 
-                        const zeroIndex = Math.floor(Math.random() * lengthDividedByThree);
-                        const zeroIndex2 = index55 - 1;
-                        indices[zeroIndex] = 0;
-                        indices2[zeroIndex2] = 0;
-                        losowaniaCounter++; // Inkrementuj licznik przy każdym wywołaniu
-                        tablica33.push(losowaniaCounter); // Dodaj zaktualizowany licznik do tablicy
-                        console.log('hej1113', tablica33); // Wyświetl zawartość tablicy
-                        for (let i = 0; i < myVariable.length; i += 3) {
-                            indexDiv++;
-                            const lessonId1 = myVariable[i];
-                            const lessonId2 = myVariable[i + 1];
-                            const lessonId3 = myVariable[i + 2];
-                            const newIndex = indices[Math.floor(i / 3)];
-                            const index50 = indices2[Math.floor(i / 3)];
-                            console.log('hej16e', lessonId1);
+        const zeroIndex = Math.floor(Math.random() * lengthDividedByThree);
+        const zeroIndex2 = index55 - 1;
+        indices[zeroIndex] = 0;
+        indices2[zeroIndex2] = 0;
+    losowaniaCounter++; // Inkrementuj licznik przy każdym wywołaniu
+    tablica33.push(losowaniaCounter); // Dodaj zaktualizowany licznik do tablicy
+    console.log('hej1113', tablica33); // Wyświetl zawartość tablicy
+        for (let i = 0; i < myVariable.length; i += 3) {
+            indexDiv++;
+            const lessonId1 = myVariable[i];
+            const lessonId2 = myVariable[i + 1];
+            const lessonId3 = myVariable[i + 2];
+            const newIndex = indices[Math.floor(i / 3)];
+            const index50 = indices2[Math.floor(i / 3)];
+            console.log('hej16e', lessonId1);
 
-                            const lesson1Sentences = correlationsCount.find(item => item[0] === lessonId1) || [lessonId1, 0];
-                            const lesson2Sentences = correlationsCount.find(item => item[0] === lessonId2) || [lessonId2, 0];
-                            const lesson3Sentences = correlationsCount.find(item => item[0] === lessonId3) || [lessonId3, 0];
+            const lesson1Sentences = correlationsCount.find(item => item[0] === lessonId1) || [lessonId1, 0];
+            const lesson2Sentences = correlationsCount.find(item => item[0] === lessonId2) || [lessonId2, 0];
+            const lesson3Sentences = correlationsCount.find(item => item[0] === lessonId3) || [lessonId3, 0];
 
-                            const lesson1SecondPartLength = partLengths2.find(item => item.id === lessonId1)?.count2 || 0;
-                            const lesson2SecondPartLength = partLengths2.find(item => item.id === lessonId2)?.count2 || 0;
-                            const lesson3SecondPartLength = partLengths2.find(item => item.id === lessonId3)?.count2 || 0;
+            const lesson1SecondPartLength = partLengths2.find(item => item.id === lessonId1)?.count2 || 0;
+            const lesson2SecondPartLength = partLengths2.find(item => item.id === lessonId2)?.count2 || 0;
+            const lesson3SecondPartLength = partLengths2.find(item => item.id === lessonId3)?.count2 || 0;
 
-                            const lesson1FirstPartLength = partLengths1.find(item => item.id === lessonId1)?.count2 || 0;
-                            const lesson2FirstPartLength = partLengths1.find(item => item.id === lessonId2)?.count2 || 0;
-                            const lesson3FirstPartLength = partLengths1.find(item => item.id === lessonId3)?.count2 || 0;
+            const lesson1FirstPartLength = partLengths1.find(item => item.id === lessonId1)?.count2 || 0;
+            const lesson2FirstPartLength = partLengths1.find(item => item.id === lessonId2)?.count2 || 0;
+            const lesson3FirstPartLength = partLengths1.find(item => item.id === lessonId3)?.count2 || 0;
 
-                            const lesson1PartLength = partLengths3.find(item => item.id === lessonId1)?.cumulativeCount || 0;
-                            const lesson2PartLength = partLengths3.find(item => item.id === lessonId2)?.cumulativeCount || 0;
-                            const lesson3PartLength = partLengths3.find(item => item.id === lessonId3)?.cumulativeCount || 0;
+            const lesson1PartLength = partLengths3.find(item => item.id === lessonId1)?.cumulativeCount || 0;
+            const lesson2PartLength = partLengths3.find(item => item.id === lessonId2)?.cumulativeCount || 0;
+            const lesson3PartLength = partLengths3.find(item => item.id === lessonId3)?.cumulativeCount || 0;
 
-                            cumulativeFirstPartLength1 += lesson1PartLength;
-                            cumulativeFirstPartLength2 += lesson2PartLength;
-                            cumulativeFirstPartLength3 += lesson3PartLength;
+            cumulativeFirstPartLength1 += lesson1PartLength;
+            cumulativeFirstPartLength2 += lesson2PartLength;
+            cumulativeFirstPartLength3 += lesson3PartLength;
 
-                            const lessonObject = {
-                                lessonId1: lessonId1,
-                                lessonId2: lessonId2,
-                                lessonId3: lessonId3,
-                                index50: index50,
-                                newIndex: newIndex,
-                                lesson1Sentences: lesson1Sentences,
-                                lesson2Sentences: lesson2Sentences,
-                                lesson3Sentences: lesson3Sentences,
-                                lesson1PartLength: lesson1PartLength,
-                                lesson2PartLength: lesson2PartLength,
-                                lesson3PartLength: lesson3PartLength,
-                                lesson1FirstPartLength: lesson1FirstPartLength,
-                                lesson2FirstPartLength: lesson2FirstPartLength,
-                                lesson3FirstPartLength: lesson3FirstPartLength,
-                                lesson1SecondPartLength: lesson1SecondPartLength,
-                                lesson2SecondPartLength: lesson2SecondPartLength,
-                                lesson3SecondPartLength: lesson3SecondPartLength,
-                                indexDiv: indexDiv
-                            };
+            const lessonObject = {
+                lessonId1: lessonId1,
+                lessonId2: lessonId2,
+                lessonId3: lessonId3,
+                index50: index50,
+                newIndex: newIndex,
+                lesson1Sentences: lesson1Sentences,
+                lesson2Sentences: lesson2Sentences,
+                lesson3Sentences: lesson3Sentences,
+                lesson1PartLength: lesson1PartLength,
+                lesson2PartLength: lesson2PartLength,
+                lesson3PartLength: lesson3PartLength,
+                lesson1FirstPartLength: lesson1FirstPartLength,
+                lesson2FirstPartLength: lesson2FirstPartLength,
+                lesson3FirstPartLength: lesson3FirstPartLength,
+                lesson1SecondPartLength: lesson1SecondPartLength,
+                lesson2SecondPartLength: lesson2SecondPartLength,
+                lesson3SecondPartLength: lesson3SecondPartLength,
+                indexDiv: indexDiv
+            };
 
-                            lessonsArray.push(lessonObject);
-                            console.log('hej34', lessonObject);
+            lessonsArray.push(lessonObject);
+            console.log('hej34', lessonObject);
 
-                            // Zwiększenie licznika losowań
-                            console.log('Liczba losowań:', losowaniaCounter); // Dodano log licznika losowań
+            // Zwiększenie licznika losowań
+            console.log('Liczba losowań:', losowaniaCounter); // Dodano log licznika losowań
 
-                            // Sprawdzenie, czy osiągnięto limit losowań
-                            if (losowaniaCounter >= 7) {
-                                console.log('Osiągnięto 7 losowań, wyświetlam powiadomienie');
-                                powiadomienieCounter++; // Zwiększenie licznika powiadomień
+            // Sprawdzenie, czy osiągnięto limit losowań
+            if (losowaniaCounter >= 7) {
+                console.log('Osiągnięto 7 losowań, wyświetlam powiadomienie');
+                powiadomienieCounter++; // Zwiększenie licznika powiadomień
 
-                                if (confirm('Osiągnięto 7 losowań. Czy chcesz kontynuować losowania?')) {
-                                    console.log('Użytkownik potwierdził dalsze losowania');
-                                    losowaniaCounter = 0; // Zresetowanie licznika losowań
-                                } else {
-                                    console.log('Użytkownik przerwał dalsze losowania');
-                                    break; // Przerwanie pętli, jeśli użytkownik nie chce kontynuować
-                                }
-                            }
-
-                            if (tablica10.length <= 16 || tablica10.length === 0) {
-                                console.log('wykonuje się 8');
-                                console.log('hej32', newIndex);
-                                console.log('hej18', tablica10);
-                                showCombinedSentenceForLesson(matchingIndexes3, rodzaj, matchingIndexes2, buttonindex, index50, lessonId1, lessonId2, lessonId3, fiszki, matchingIndexes, startIndex, newIndex, indexDiv, lessonsArray, lesson1PartLength, lesson2PartLength, lesson3PartLength, lesson1Sentences, lesson2Sentences, lesson3Sentences, lesson1FirstPartLength, lesson2FirstPartLength, lesson3FirstPartLength, lesson1SecondPartLength, lesson2SecondPartLength, lesson3SecondPartLength, cumulativeFirstPartLength1, cumulativeFirstPartLength2, cumulativeFirstPartLength3);
-                            }
-
-                        }
-
-                        console.log('Aktualna zawartość tablicy lessonsArray:', lessonsArray);
-                        const numberOfContainers = $('.image-container3').length;
-                        console.log('Liczba dodanych divów:', numberOfContainers);
-                    }
+                if (confirm('Osiągnięto 7 losowań. Czy chcesz kontynuować losowania?')) {
+                    console.log('Użytkownik potwierdził dalsze losowania');
+                    losowaniaCounter = 0; // Zresetowanie licznika losowań
+                } else {
+                    console.log('Użytkownik przerwał dalsze losowania');
+                    break; // Przerwanie pętli, jeśli użytkownik nie chce kontynuować
                 }
+            }
+
+            if (tablica10.length <= 14 || tablica10.length === 0) {
+                console.log('wykonuje się 8');
+                console.log('hej32', newIndex);
+                console.log('hej18', tablica10);
+                showCombinedSentenceForLesson(matchingIndexes3, rodzaj, matchingIndexes2, buttonindex, index50, lessonId1, lessonId2, lessonId3, fiszki, matchingIndexes, startIndex, newIndex, indexDiv, lessonsArray, lesson1PartLength, lesson2PartLength, lesson3PartLength, lesson1Sentences, lesson2Sentences, lesson3Sentences, lesson1FirstPartLength, lesson2FirstPartLength, lesson3FirstPartLength, lesson1SecondPartLength, lesson2SecondPartLength, lesson3SecondPartLength, cumulativeFirstPartLength1, cumulativeFirstPartLength2, cumulativeFirstPartLength3);
+            }
+            
+        }
+
+        console.log('Aktualna zawartość tablicy lessonsArray:', lessonsArray);
+        const numberOfContainers = $('.image-container3').length;
+        console.log('Liczba dodanych divów:', numberOfContainers);
+    }
+}
 
                 if (czas === 'zdania' && czas !== 'fiszki') {
                     $('.grid-container .image-container3').remove();
@@ -2340,9 +2313,9 @@
                             }
                             console.log('indices3:', indices3);
                         }
-                        losowaniaCounter++; // Inkrementuj licznik przy każdym wywołaniu
-                        tablica33b.push(losowaniaCounter2); // Dodaj zaktualizowany licznik do tablicy
-                        console.log('hej1113', tablica33b); // Wyświetl zawartość tablicy
+                            losowaniaCounter++; // Inkrementuj licznik przy każdym wywołaniu
+    tablica33b.push(losowaniaCounter2); // Dodaj zaktualizowany licznik do tablicy
+    console.log('hej1113', tablica33b); // Wyświetl zawartość tablicy
                         for (let i = 0; i < myVariable.length; i += 1) {
                             indexDiv++;
                             const lessonId1 = myVariable[i];
@@ -2387,22 +2360,22 @@
                             console.log('hej323', index55);
 
                             console.log('hej344');
-                            // Zwiększenie licznika losowań
-                            console.log('Liczba losowań:', losowaniaCounter); // Dodano log licznika losowań
+            // Zwiększenie licznika losowań
+            console.log('Liczba losowań:', losowaniaCounter); // Dodano log licznika losowań
 
-                            // Sprawdzenie, czy osiągnięto limit losowań
-                            if (losowaniaCounter >= 7) {
-                                console.log('Osiągnięto 7 losowań, wyświetlam powiadomienie');
-                                powiadomienieCounter++; // Zwiększenie licznika powiadomień
+            // Sprawdzenie, czy osiągnięto limit losowań
+            if (losowaniaCounter >= 7) {
+                console.log('Osiągnięto 7 losowań, wyświetlam powiadomienie');
+                powiadomienieCounter++; // Zwiększenie licznika powiadomień
 
-                                if (confirm('Osiągnięto 7 losowań. Czy chcesz kontynuować losowania?')) {
-                                    console.log('Użytkownik potwierdził dalsze losowania');
-                                    losowaniaCounter = 0; // Zresetowanie licznika losowań
-                                } else {
-                                    console.log('Użytkownik przerwał dalsze losowania');
-                                    break; // Przerwanie pętli, jeśli użytkownik nie chce kontynuować
-                                }
-                            }
+                if (confirm('Osiągnięto 7 losowań. Czy chcesz kontynuować losowania?')) {
+                    console.log('Użytkownik potwierdził dalsze losowania');
+                    losowaniaCounter = 0; // Zresetowanie licznika losowań
+                } else {
+                    console.log('Użytkownik przerwał dalsze losowania');
+                    break; // Przerwanie pętli, jeśli użytkownik nie chce kontynuować
+                }
+            }
                             if ((tablica15.length <= 44 || tablica15.length === 0)) {
                                 console.log('wykonuje się 8');
 
@@ -2432,9 +2405,9 @@
             let sentence1baVisible = false;
             let sentence1b3aVisible = false;
             let buttonindex = false;
-            let tablica12ab = [];
-            let tablica12ad = [];
-            let tablica12abc = [];
+                    let tablica12ab = [];
+                    let tablica12ad = [];
+                    let tablica12abc = [];
             function showCombinedSentenceForLesson(matchingIndexes3, rodzaj, matchingIndexes2, buttonindex, index50, lessonIdToShow1, lessonIdToShow2, lessonIdToShow3, fiszki, matchingIndexes, startIndex, newIndex, indexDiv, lessonsArray, lesson1PartLength, lesson2PartLength, lesson3PartLength, lesson1Sentences, lesson2Sentences, lesson3Sentences, lesson1FirstPartLength, lesson2FirstPartLength, lesson3FirstPartLength, lesson1SecondPartLength, lesson2SecondPartLength, lesson3SecondPartLength, cumulativeFirstPartLength1, cumulativeFirstPartLength2, cumulativeFirstPartLength3) {
                 console.log('hej55bb', rodzaj);
                 const matchingFiszki1 = fiszki.filter(fiszka => fiszka.id[1] === lessonIdToShow1);
@@ -2465,7 +2438,7 @@
                         const matchingFiszka = fiszki.find(fiszka => fiszka.id[1] === lessonId);
                         return matchingFiszka ? matchingFiszka.srcWordimage : null;
                     }
-                    function pobierzSrcWordDlaLekcji4(lessonId, fiszki) {
+                                        function pobierzSrcWordDlaLekcji4(lessonId, fiszki) {
                         const matchingFiszka = fiszki.find(fiszka => fiszka.id[1] === lessonId);
                         return matchingFiszka ? matchingFiszka.srcWordimage : null;
                     }
@@ -2490,7 +2463,7 @@
                             sentence11 = "";
                             sentence20 = "";
                             sentence22 = "";
-                            sentence30 = "";
+                           sentence30 = "";
                             sentence33 = "";
                             sentence1b = "";
                             sentence1b2 = "";
@@ -2533,15 +2506,15 @@
                                             spanElement.textContent = sentencePart;
                                         } else if (currentIndexValue == 0) {
 
-                                            if (sentence1b === "") {
-                                                let sentencePart333 = fiszka.translateb ? fiszka.translateb : "";
-                                                sentence1b += sentencePart333 + " ";
-                                            }
+                            if (sentence1b === "") {
+                                let sentencePart333 = fiszka.translateb ? fiszka.translateb : "";
+                                sentence1b += sentencePart333 + " ";
+                            }
 
-                                            if (sentence1b2 === "") {
-                                                let sentencePart333 = fiszka.translate ? fiszka.translate : "";
-                                                sentence1b2 += sentencePart333 + " ";
-                                            }
+                            if (sentence1b2 === "") {
+                                let sentencePart333 = fiszka.translate ? fiszka.translate : "";
+                                sentence1b2 += sentencePart333 + " ";
+                            }
                                             const spanElement = document.createElement('span');
                                             spanElement.textContent = sentencePart;
                                             spanElement.classList.add('highlighted-sentence');
@@ -2644,16 +2617,16 @@
                                             spanElement.textContent = sentencePart;
                                         } else if (currentIndexValue == 1) {
 
-                                            if (sentence1b2a === "") {
-                                                let sentencePart333 = fiszka.translateb ? fiszka.translateb : "";
-                                                sentence1b2a += sentencePart333 + " ";
-                                            }
-                                            if (sentence1b22 === "") {
-                                                let sentencePart444 = fiszka.translate ? fiszka.translate : "";
-                                                sentence1b22 += sentencePart444 + " ";
-                                            }
-                                            $('.sentence1b').html('');
-                                            $('.sentence1b2').html('');
+                            if (sentence1b2a === "") {
+                                let sentencePart333 = fiszka.translateb ? fiszka.translateb : "";
+                                sentence1b2a += sentencePart333 + " ";
+                            }
+                            if (sentence1b22 === "") {
+                                let sentencePart444 = fiszka.translate ? fiszka.translate : "";
+                                sentence1b22 += sentencePart444 + " ";
+                            }
+                            $('.sentence1b').html('');
+                            $('.sentence1b2').html('');
                                             const spanElement = document.createElement('span');
                                             spanElement.textContent = sentencePart;
                                             spanElement.classList.add('highlighted-sentence');
@@ -2759,14 +2732,14 @@
                                             // Zaktualizuj sentencePart, aby zawierał utworzony element span
                                             sentencePart = spanElement.outerHTML;
                                         } else if (currentIndexValue == 2) {
-                                            if (sentence1c2a === "") {
-                                                let sentencePart333 = fiszka.translateb ? fiszka.translateb : "";
-                                                sentence1c2a += sentencePart333 + " ";
-                                            }
-                                            if (sentence1c22 === "") {
-                                                let sentencePart444 = fiszka.translate ? fiszka.translate : "";
-                                                sentence1c22 += sentencePart444 + " ";
-                                            }
+                                                                        if (sentence1c2a === "") {
+                                let sentencePart333 = fiszka.translateb ? fiszka.translateb : "";
+                                sentence1c2a += sentencePart333 + " ";
+                            }
+                            if (sentence1c22 === "") {
+                                let sentencePart444 = fiszka.translate ? fiszka.translate : "";
+                                sentence1c22 += sentencePart444 + " ";
+                            }
                                             const spanElement = document.createElement('span');
                                             spanElement.textContent = sentencePart;
                                             spanElement.classList.add('highlighted-sentence');
@@ -2854,13 +2827,13 @@ ${sentence30}${sentence33}<br>
                         }, 0);
 
                     }
-                    // Zmienna do liczenia wystąpień indexToCheck
+ // Zmienna do liczenia wystąpień indexToCheck
                     let sentence1bba = "";
                     let sentence1bbab = "";
                     function addBackgroundToText1b(matchingFiszki1, matchingIndexes, aktualny, lesson1PartLength, matchingIndexes2, rodzaj, matchingIndexes3) {
                         $(document).ready(function () {
 
-                            console.log('hejkh', matchingIndexes2);
+console.log('hejkh', matchingIndexes2);
                             sentence1bba = "";
                             sentence1bbab = "";
                             setTimeout(() => {
@@ -2876,9 +2849,9 @@ ${sentence30}${sentence33}<br>
                                     for (let ki = 0; ki < fiszka.sentence1.length; ki++) {
                                         let sentencePart = fiszka.sentence1[ki];
                                         console.log('sentencePart5bz:', i);
-                                        const indexToCheck = i + lesson1PartLength + 1;
-                                        const indexToCheck2 = i + lesson1PartLength + 1;
-                                        if (aktualny) {
+                    const indexToCheck = i + lesson1PartLength + 1;
+                    const indexToCheck2 = i + lesson1PartLength + 1;
+                                                            if (aktualny) {
                                             if (matchingIndexes.includes(indexToCheck)) {
                                                 // Sprawdzenie, czy indeks bieżącej fiszki znajduje się w tablicy matchingIndexes
                                                 const spanElement = document.createElement('span');
@@ -2888,127 +2861,127 @@ ${sentence30}${sentence33}<br>
                                                 sentencePart = spanElement.outerHTML;
                                             }
                                         }
-                                        function countCategoryInFiszki(matchingFiszki1, category) {
-                                            // Zmienna do przechowywania sumy wystąpień
-                                            let totalCount = 0;
+                                function countCategoryInFiszki(matchingFiszki1, category) {
+    // Zmienna do przechowywania sumy wystąpień
+    let totalCount = 0;
 
-                                            // Iteracja przez wszystkie fiszki
-                                            for (let i = 0; i < matchingFiszki1.length; i++) {
-                                                const fiszka = matchingFiszki1[i];
+    // Iteracja przez wszystkie fiszki
+    for (let i = 0; i < matchingFiszki1.length; i++) {
+        const fiszka = matchingFiszki1[i];
 
-                                                // Zlicz wystąpienia kategorii w category3
-                                                if (fiszka.category3 && Array.isArray(fiszka.category3)) {
-                                                    const count = fiszka.category3.filter(cat => cat === category).length;
-                                                    totalCount += count; // Dodaj do sumy
-                                                }
-                                            }
+        // Zlicz wystąpienia kategorii w category3
+        if (fiszka.category3 && Array.isArray(fiszka.category3)) {
+            const count = fiszka.category3.filter(cat => cat === category).length;
+            totalCount += count; // Dodaj do sumy
+        }
+    }
 
-                                            return [totalCount]; // Zwróć tablicę z jedną sumaryczną wartością
-                                        }
+    return [totalCount]; // Zwróć tablicę z jedną sumaryczną wartością
+}
 
 // Użycie funkcji
-                                        const categoryToCount = "PresentSimplePodmiot";
-                                        const categoryToCount2 = "PresentSimpleCzasownik";
-                                        const occurrences = countCategoryInFiszki(matchingFiszki1, categoryToCount);
-                                        const occurrences2 = countCategoryInFiszki(matchingFiszki1, categoryToCount2);
+const categoryToCount = "PresentSimplePodmiot";
+const categoryToCount2 = "PresentSimpleCzasownik";
+const occurrences = countCategoryInFiszki(matchingFiszki1, categoryToCount);
+const occurrences2 = countCategoryInFiszki(matchingFiszki1, categoryToCount2);
 // Wypisywanie wyników
-                                        console.log('Suma wystąpień:', occurrences2);
-                                        // Po zakończeniu iteracji przez fiszkę, sprawdź occurrences
-                                        // Po zakończeniu iteracji przez fiszkę, sprawdź occurrences
-                                        // Po zakończeniu iteracji przez fiszkę, sprawdź occurrences
-                                        // Flaga sprawdzająca, czy podmiot został już dodany
+console.log('Suma wystąpień:', occurrences2);
+    // Po zakończeniu iteracji przez fiszkę, sprawdź occurrences
+        // Po zakończeniu iteracji przez fiszkę, sprawdź occurrences
+        // Po zakończeniu iteracji przez fiszkę, sprawdź occurrences
+        // Flaga sprawdzająca, czy podmiot został już dodany
 
-                                        if (aktualny && rodzaj === "play" && matchingIndexes2.includes(indexToCheck2)) {
-                                            console.log('hej123', occurrences);
-                                            // Sprawdź, czy to jest pierwsze słowo
-                                            if (i === 0 && occurrences[0] === 2) {
-                                                console.log('Podświetlono pierwsze słowo:', fiszka.sentence1[ki]);
-                                                const firstWordElement = document.createElement('span');
-                                                firstWordElement.textContent = sentencePart;
-                                                firstWordElement.classList.add('green'); // Dodaj klasę, która podświetla słowo na zielono
-                                                sentencePart = firstWordElement.outerHTML; // Zamień pierwsze słowo na jego wersję z "span"
-                                            }
-                                            // Dodaj podmiot po drugim słowie, jeśli occurrences wynosi 2
-                                            if (i === 1 && occurrences[0] === 2) {
-                                                console.log('Dodano "podmiot" po drugim słowie:', fiszka.sentence1[ki]);
-                                                const podmiotElement = document.createElement('span');
-                                                podmiotElement.textContent = sentencePart;
-                                                podmiotElement.classList.add('green');
-                                                sentencePart = podmiotElement.outerHTML;
-                                                podmiotElement.textContent = "(podmiot)";
+if (aktualny && rodzaj === "play" && matchingIndexes2.includes(indexToCheck2)) {
+    console.log('hej123', occurrences);
+    // Sprawdź, czy to jest pierwsze słowo
+    if (i === 0 && occurrences[0] === 2) {
+        console.log('Podświetlono pierwsze słowo:', fiszka.sentence1[ki]);
+        const firstWordElement = document.createElement('span');
+        firstWordElement.textContent = sentencePart;
+        firstWordElement.classList.add('green'); // Dodaj klasę, która podświetla słowo na zielono
+        sentencePart = firstWordElement.outerHTML; // Zamień pierwsze słowo na jego wersję z "span"
+    }
+    // Dodaj podmiot po drugim słowie, jeśli occurrences wynosi 2
+    if (i === 1 && occurrences[0] === 2) {
+        console.log('Dodano "podmiot" po drugim słowie:', fiszka.sentence1[ki]);
+        const podmiotElement = document.createElement('span');
+        podmiotElement.textContent = sentencePart;
+    podmiotElement.classList.add('green');
+    sentencePart = podmiotElement.outerHTML;
+        podmiotElement.textContent = "(podmiot)";
 
-                                                // Rozdziel zdanie na słowa
-                                                let words = sentencePart.split(' ');
-                                                words.splice(2, 0, podmiotElement.outerHTML); // Dodaj podmiot po drugim słowie
-                                                sentencePart = words.join(' '); // Połącz z powrotem w jedno zdanie
+        // Rozdziel zdanie na słowa
+        let words = sentencePart.split(' ');
+        words.splice(2, 0, podmiotElement.outerHTML); // Dodaj podmiot po drugim słowie
+        sentencePart = words.join(' '); // Połącz z powrotem w jedno zdanie
 
-                                            } else if (i === 0 && occurrences[0] === 1) {
-                                                console.log('Dodano "podmiot" po pierwszym słowie:', fiszka.sentence1[ki]);
-                                                const podmiotElement = document.createElement('span');
-                                                podmiotElement.textContent = sentencePart;
-                                                podmiotElement.classList.add('green');
-                                                sentencePart = podmiotElement.outerHTML;
-                                                podmiotElement.textContent = "(podmiot)";
+    } else if (i === 0 && occurrences[0] === 1) {
+        console.log('Dodano "podmiot" po pierwszym słowie:', fiszka.sentence1[ki]);
+        const podmiotElement = document.createElement('span');
+                podmiotElement.textContent = sentencePart;
+    podmiotElement.classList.add('green');
+    sentencePart = podmiotElement.outerHTML;
+        podmiotElement.textContent = "(podmiot)";
 
-                                                // Rozdziel zdanie na słowa
-                                                let words = sentencePart.split(' ');
-                                                words.splice(3, 0, podmiotElement.outerHTML); // Dodaj podmiot po pierwszym słowie
-                                                sentencePart = words.join(' '); // Połącz z powrotem w jedno zdanie
+        // Rozdziel zdanie na słowa
+        let words = sentencePart.split(' ');
+        words.splice(3, 0, podmiotElement.outerHTML); // Dodaj podmiot po pierwszym słowie
+        sentencePart = words.join(' '); // Połącz z powrotem w jedno zdanie
 
-                                            }
-                                        }
-                                        if (aktualny && rodzaj === "play" && matchingIndexes3.includes(indexToCheck2)) {
-                                            console.log('hej123', occurrences);
-                                            // Sprawdź, czy to jest pierwsze słowo
-                                            // Dodaj podmiot po drugim słowie, jeśli occurrences wynosi 2
+    }
+}
+if (aktualny && rodzaj === "play" && matchingIndexes3.includes(indexToCheck2)) {
+    console.log('hej123', occurrences);
+    // Sprawdź, czy to jest pierwsze słowo
+    // Dodaj podmiot po drugim słowie, jeśli occurrences wynosi 2
+    
+       if (i === 2 && occurrences2[0] === 2) {
+        console.log('Dodano "podmiot" po drugim słowie:', fiszka.sentence1[ki]);
+        const podmiotElement = document.createElement('span');
+        podmiotElement.textContent = sentencePart;
+    podmiotElement.classList.add('blue');
+    sentencePart = podmiotElement.outerHTML;
+        podmiotElement.textContent = "(czasownik)";
 
-                                            if (i === 2 && occurrences2[0] === 2) {
-                                                console.log('Dodano "podmiot" po drugim słowie:', fiszka.sentence1[ki]);
-                                                const podmiotElement = document.createElement('span');
-                                                podmiotElement.textContent = sentencePart;
-                                                podmiotElement.classList.add('blue');
-                                                sentencePart = podmiotElement.outerHTML;
-                                                podmiotElement.textContent = "(czasownik)";
+        // Rozdziel zdanie na słowa
+        let words = sentencePart.split(' ');
+        words.splice(2, 1, podmiotElement.outerHTML); // Dodaj podmiot po drugim słowie
+        sentencePart = words.join(' '); // Połącz z powrotem w jedno zdanie
 
-                                                // Rozdziel zdanie na słowa
-                                                let words = sentencePart.split(' ');
-                                                words.splice(2, 1, podmiotElement.outerHTML); // Dodaj podmiot po drugim słowie
-                                                sentencePart = words.join(' '); // Połącz z powrotem w jedno zdanie
+    } else if (i === 2 && occurrences2[0] === 1) {
+        console.log('Dodano "podmiot" po drugim słowie:', fiszka.sentence1[ki]);
+        const podmiotElement = document.createElement('span');
+        podmiotElement.textContent = sentencePart;
+    podmiotElement.classList.add('blue');
+    sentencePart = podmiotElement.outerHTML;
+        podmiotElement.textContent = "(czasownik)";
 
-                                            } else if (i === 2 && occurrences2[0] === 1) {
-                                                console.log('Dodano "podmiot" po drugim słowie:', fiszka.sentence1[ki]);
-                                                const podmiotElement = document.createElement('span');
-                                                podmiotElement.textContent = sentencePart;
-                                                podmiotElement.classList.add('blue');
-                                                sentencePart = podmiotElement.outerHTML;
-                                                podmiotElement.textContent = "(czasownik)";
+        // Rozdziel zdanie na słowa
+        let words = sentencePart.split(' ');
+        words.splice(3, 0, podmiotElement.outerHTML); // Dodaj podmiot po drugim słowie
+        sentencePart = words.join(' '); // Połącz z powrotem w jedno zdanie
 
-                                                // Rozdziel zdanie na słowa
-                                                let words = sentencePart.split(' ');
-                                                words.splice(3, 0, podmiotElement.outerHTML); // Dodaj podmiot po drugim słowie
-                                                sentencePart = words.join(' '); // Połącz z powrotem w jedno zdanie
+    } else if (i === 1 && occurrences2[0] === 1) {
+        console.log('Dodano "podmiot" po pierwszym słowie:', fiszka.sentence1[ki]);
+        const podmiotElement = document.createElement('span');
+                podmiotElement.textContent = sentencePart;
+    podmiotElement.classList.add('blue');
+    sentencePart = podmiotElement.outerHTML;
+        podmiotElement.textContent = "(czasownik)";
 
-                                            } else if (i === 1 && occurrences2[0] === 1) {
-                                                console.log('Dodano "podmiot" po pierwszym słowie:', fiszka.sentence1[ki]);
-                                                const podmiotElement = document.createElement('span');
-                                                podmiotElement.textContent = sentencePart;
-                                                podmiotElement.classList.add('blue');
-                                                sentencePart = podmiotElement.outerHTML;
-                                                podmiotElement.textContent = "(czasownik)";
+        // Rozdziel zdanie na słowa
+        let words = sentencePart.split(' ');
+        words.splice(3, 0, podmiotElement.outerHTML); // Dodaj podmiot po pierwszym słowie
+        sentencePart = words.join(' '); // Połącz z powrotem w jedno zdanie
 
-                                                // Rozdziel zdanie na słowa
-                                                let words = sentencePart.split(' ');
-                                                words.splice(3, 0, podmiotElement.outerHTML); // Dodaj podmiot po pierwszym słowie
-                                                sentencePart = words.join(' '); // Połącz z powrotem w jedno zdanie
-
-                                            }
-                                        }
-                                        // Dodaj sentencePart do sentence10
-                                        sentence10 += sentencePart + " ";
-
+    }
+}
+        // Dodaj sentencePart do sentence10
+        sentence10 += sentencePart + " ";
+                                        
                                     }
-
-                                }
+                                
+                            }
                                 for (let ii = 0; ii < matchingFiszki1.length; ii++) {
                                     const fiszka = matchingFiszki1[ii];
                                     console.log('fiszka2:', fiszka);
@@ -3022,7 +2995,7 @@ ${sentence30}${sentence33}<br>
                                         let sentencePart2 = fiszka.sentence2[kii];
                                         console.log('sentencePart5:', ii);
                                         const indexToCheck = ii + lesson1PartLength + 1;
-                                        const indexToCheck2 = ii + lesson1PartLength + 1;
+                    const indexToCheck2 = ii + lesson1PartLength + 1;
                                         console.log('indexToCheck77:', indexToCheck);
                                         if (aktualny) {
                                             if (matchingIndexes.includes(indexToCheck)) {
@@ -3035,54 +3008,54 @@ ${sentence30}${sentence33}<br>
                                             }
                                         }
                                         function countCategoryInFiszki1b(matchingFiszki1, category) {
-                                            // Zmienna do przechowywania sumy wystąpień
-                                            let totalCount = 0;
+    // Zmienna do przechowywania sumy wystąpień
+    let totalCount = 0;
 
-                                            // Iteracja przez wszystkie fiszki
-                                            for (let ii = 0; ii < matchingFiszki1.length; ii++) {
-                                                const fiszka = matchingFiszki1[ii];
+    // Iteracja przez wszystkie fiszki
+    for (let ii = 0; ii < matchingFiszki1.length; ii++) {
+        const fiszka = matchingFiszki1[ii];
 
-                                                // Zlicz wystąpienia kategorii w category3
-                                                if (fiszka.category3 && Array.isArray(fiszka.category3)) {
-                                                    const count = fiszka.category3.filter(cat => cat === category).length;
-                                                    totalCount += count; // Dodaj do sumy
-                                                }
-                                            }
+        // Zlicz wystąpienia kategorii w category3
+        if (fiszka.category3 && Array.isArray(fiszka.category3)) {
+            const count = fiszka.category3.filter(cat => cat === category).length;
+            totalCount += count; // Dodaj do sumy
+        }
+    }
 
-                                            return [totalCount]; // Zwróć tablicę z jedną sumaryczną wartością
-                                        }
-                                        const categoryToCount2 = "PresentSimpleCzasownik";
-                                        const occurrences2 = countCategoryInFiszki1b(matchingFiszki1, categoryToCount2);
+    return [totalCount]; // Zwróć tablicę z jedną sumaryczną wartością
+}
+const categoryToCount2 = "PresentSimpleCzasownik";
+const occurrences2 = countCategoryInFiszki1b(matchingFiszki1, categoryToCount2);
 // Wypisywanie wyników
-                                        console.log('Suma wystąpień5:', occurrences2);
-                                        // Po zakończeniu iteracji przez fiszkę, sprawdź occurrences
-                                        // Po zakończeniu iteracji przez fiszkę, sprawdź occurrences
-                                        // Po zakończeniu iteracji przez fiszkę, sprawdź occurrences
-                                        // Flaga sprawdzająca, czy podmiot został już dodany
+console.log('Suma wystąpień5:', occurrences2);
+    // Po zakończeniu iteracji przez fiszkę, sprawdź occurrences
+        // Po zakończeniu iteracji przez fiszkę, sprawdź occurrences
+        // Po zakończeniu iteracji przez fiszkę, sprawdź occurrences
+        // Flaga sprawdzająca, czy podmiot został już dodany
 
-                                        if (aktualny && rodzaj === "play" && matchingIndexes3.includes(indexToCheck)) {
-                                            // Sprawdź, czy to jest pierwsze słowo
-                                            // Dodaj podmiot po drugim słowie, jeśli occurrences wynosi 2
+if (aktualny && rodzaj === "play" && matchingIndexes3.includes(indexToCheck)) {
+    // Sprawdź, czy to jest pierwsze słowo
+    // Dodaj podmiot po drugim słowie, jeśli occurrences wynosi 2
+    
+       if (ii === 6 && occurrences2[0] === 1) {
+        const podmiotElement = document.createElement('span');
+                podmiotElement.textContent = sentencePart2;
+    podmiotElement.classList.add('blue');
+    sentencePart2 = podmiotElement.outerHTML;
+        podmiotElement.textContent = "(czasownik)";
 
-                                            if (ii === 6 && occurrences2[0] === 1) {
-                                                const podmiotElement = document.createElement('span');
-                                                podmiotElement.textContent = sentencePart2;
-                                                podmiotElement.classList.add('blue');
-                                                sentencePart2 = podmiotElement.outerHTML;
-                                                podmiotElement.textContent = "(czasownik)";
+        // Rozdziel zdanie na słowa
+        let words = sentencePart2.split(' ');
+        words.splice(2, 0, podmiotElement.outerHTML); // Dodaj podmiot po pierwszym słowie
+        sentencePart2 = words.join(' '); // Połącz z powrotem w jedno zdanie
 
-                                                // Rozdziel zdanie na słowa
-                                                let words = sentencePart2.split(' ');
-                                                words.splice(2, 0, podmiotElement.outerHTML); // Dodaj podmiot po pierwszym słowie
-                                                sentencePart2 = words.join(' '); // Połącz z powrotem w jedno zdanie
-
-                                            }
-                                        }
-                                        // Dodaj sentencePart do sentence10
-                                        sentence11 += sentencePart2 + " ";
-
+    }
+}
+        // Dodaj sentencePart do sentence10
+        sentence11 += sentencePart2 + " ";
+                                        
                                     }
-                                }
+                            }
 
                                 for (let li = 0; li < matchingFiszki1.length; li++) {
                                     const fiszka = matchingFiszki1[li];
@@ -3130,7 +3103,7 @@ ${sentence30}${sentence33}<br>
 `);
                                 $('.sentence1bba').html('');
                                 $sentenceDiv.on('click', '.left-button', function () {
-
+                                    
                                     // Dodawanie zdania tylko jeśli sentence1bb2 jest puste
                                     if (sentence1bba === "") {
                                         let sentencePart3 = fiszka.translateb ? fiszka.translateb : "";
@@ -3231,127 +3204,127 @@ ${sentence30}${sentence33}<br>
                                                 sentencePart = spanElement.outerHTML;
                                             }
                                         }
-                                        function countCategoryInFiszki2(matchingFiszki2, category) {
-                                            // Zmienna do przechowywania sumy wystąpień
-                                            let totalCount = 0;
+function countCategoryInFiszki2(matchingFiszki2, category) {
+    // Zmienna do przechowywania sumy wystąpień
+    let totalCount = 0;
 
-                                            // Iteracja przez wszystkie fiszki
-                                            for (let j = 0; j < matchingFiszki2.length; j++) {
-                                                const fiszka = matchingFiszki2[j];
+    // Iteracja przez wszystkie fiszki
+    for (let j = 0; j < matchingFiszki2.length; j++) {
+        const fiszka = matchingFiszki2[j];
 
-                                                // Zlicz wystąpienia kategorii w category3
-                                                if (fiszka.category3 && Array.isArray(fiszka.category3)) {
-                                                    const count = fiszka.category3.filter(cat => cat === category).length;
-                                                    totalCount += count; // Dodaj do sumy
-                                                }
-                                            }
+        // Zlicz wystąpienia kategorii w category3
+        if (fiszka.category3 && Array.isArray(fiszka.category3)) {
+            const count = fiszka.category3.filter(cat => cat === category).length;
+            totalCount += count; // Dodaj do sumy
+        }
+    }
 
-                                            return [totalCount]; // Zwróć tablicę z jedną sumaryczną wartością
-                                        }
+    return [totalCount]; // Zwróć tablicę z jedną sumaryczną wartością
+}
 
 // Użycie funkcji
-                                        const categoryToCount = "PresentSimplePodmiot";
-                                        const categoryToCount2 = "PresentSimpleCzasownik";
-                                        const occurrences = countCategoryInFiszki2(matchingFiszki2, categoryToCount);
-                                        const occurrences2 = countCategoryInFiszki2(matchingFiszki2, categoryToCount2);
+const categoryToCount = "PresentSimplePodmiot";
+const categoryToCount2 = "PresentSimpleCzasownik";
+const occurrences = countCategoryInFiszki2(matchingFiszki2, categoryToCount);
+const occurrences2 = countCategoryInFiszki2(matchingFiszki2, categoryToCount2);
 // Wypisywanie wyników
-                                        console.log('Suma wystąpień:', occurrences2);
-                                        // Po zakończeniu iteracji przez fiszkę, sprawdź occurrences
-                                        // Po zakończeniu iteracji przez fiszkę, sprawdź occurrences
-                                        // Po zakończeniu iteracji przez fiszkę, sprawdź occurrences
-                                        // Flaga sprawdzająca, czy podmiot został już dodany
+console.log('Suma wystąpień:', occurrences2);
+    // Po zakończeniu iteracji przez fiszkę, sprawdź occurrences
+        // Po zakończeniu iteracji przez fiszkę, sprawdź occurrences
+        // Po zakończeniu iteracji przez fiszkę, sprawdź occurrences
+        // Flaga sprawdzająca, czy podmiot został już dodany
 
-                                        if (aktualny && rodzaj === "play" && matchingIndexes2.includes(indexToCheck2)) {
-                                            console.log('hej123', occurrences);
-                                            // Sprawdź, czy to jest pierwsze słowo
-                                            if (j === 0 && occurrences[0] === 2) {
-                                                console.log('Podświetlono pierwsze słowo:', fiszka.sentence1[j]);
-                                                const firstWordElement = document.createElement('span');
-                                                firstWordElement.textContent = sentencePart;
-                                                firstWordElement.classList.add('green'); // Dodaj klasę, która podświetla słowo na zielono
-                                                sentencePart = firstWordElement.outerHTML; // Zamień pierwsze słowo na jego wersję z "span"
-                                            }
-                                            // Dodaj podmiot po drugim słowie, jeśli occurrences wynosi 2
-                                            if (j === 1 && occurrences[0] === 2) {
-                                                console.log('Dodano "podmiot" po drugim słowie:', fiszka.sentence1[j]);
-                                                const podmiotElement = document.createElement('span');
-                                                podmiotElement.textContent = sentencePart;
-                                                podmiotElement.classList.add('green');
-                                                sentencePart = podmiotElement.outerHTML;
-                                                podmiotElement.textContent = "(podmiot)";
+if (aktualny && rodzaj === "play" && matchingIndexes2.includes(indexToCheck2)) {
+    console.log('hej123', occurrences);
+    // Sprawdź, czy to jest pierwsze słowo
+    if (j === 0 && occurrences[0] === 2) {
+        console.log('Podświetlono pierwsze słowo:', fiszka.sentence1[j]);
+        const firstWordElement = document.createElement('span');
+        firstWordElement.textContent = sentencePart;
+        firstWordElement.classList.add('green'); // Dodaj klasę, która podświetla słowo na zielono
+        sentencePart = firstWordElement.outerHTML; // Zamień pierwsze słowo na jego wersję z "span"
+    }
+    // Dodaj podmiot po drugim słowie, jeśli occurrences wynosi 2
+    if (j === 1 && occurrences[0] === 2) {
+        console.log('Dodano "podmiot" po drugim słowie:', fiszka.sentence1[j]);
+        const podmiotElement = document.createElement('span');
+        podmiotElement.textContent = sentencePart;
+    podmiotElement.classList.add('green');
+    sentencePart = podmiotElement.outerHTML;
+        podmiotElement.textContent = "(podmiot)";
 
-                                                // Rozdziel zdanie na słowa
-                                                let words = sentencePart.split(' ');
-                                                words.splice(2, 0, podmiotElement.outerHTML); // Dodaj podmiot po drugim słowie
-                                                sentencePart = words.join(' '); // Połącz z powrotem w jedno zdanie
+        // Rozdziel zdanie na słowa
+        let words = sentencePart.split(' ');
+        words.splice(2, 0, podmiotElement.outerHTML); // Dodaj podmiot po drugim słowie
+        sentencePart = words.join(' '); // Połącz z powrotem w jedno zdanie
 
-                                            } else if (j === 0 && occurrences[0] === 1) {
-                                                console.log('Dodano "podmiot" po pierwszym słowie:', fiszka.sentence1[j]);
-                                                const podmiotElement = document.createElement('span');
-                                                podmiotElement.textContent = sentencePart;
-                                                podmiotElement.classList.add('green');
-                                                sentencePart = podmiotElement.outerHTML;
-                                                podmiotElement.textContent = "(podmiot)";
+    } else if (j === 0 && occurrences[0] === 1) {
+        console.log('Dodano "podmiot" po pierwszym słowie:', fiszka.sentence1[j]);
+        const podmiotElement = document.createElement('span');
+                podmiotElement.textContent = sentencePart;
+    podmiotElement.classList.add('green');
+    sentencePart = podmiotElement.outerHTML;
+        podmiotElement.textContent = "(podmiot)";
 
-                                                // Rozdziel zdanie na słowa
-                                                let words = sentencePart.split(' ');
-                                                words.splice(3, 0, podmiotElement.outerHTML); // Dodaj podmiot po pierwszym słowie
-                                                sentencePart = words.join(' '); // Połącz z powrotem w jedno zdanie
+        // Rozdziel zdanie na słowa
+        let words = sentencePart.split(' ');
+        words.splice(3, 0, podmiotElement.outerHTML); // Dodaj podmiot po pierwszym słowie
+        sentencePart = words.join(' '); // Połącz z powrotem w jedno zdanie
 
-                                            }
-                                        }
-                                        if (aktualny && rodzaj === "play" && matchingIndexes3.includes(indexToCheck2)) {
-                                            console.log('hej123', occurrences);
-                                            // Sprawdź, czy to jest pierwsze słowo
-                                            // Dodaj podmiot po drugim słowie, jeśli occurrences wynosi 2
+    }
+}
+if (aktualny && rodzaj === "play" && matchingIndexes3.includes(indexToCheck2)) {
+    console.log('hej123', occurrences);
+    // Sprawdź, czy to jest pierwsze słowo
+    // Dodaj podmiot po drugim słowie, jeśli occurrences wynosi 2
+    
+       if (j === 2 && occurrences2[0] === 2) {
+        console.log('Dodano "podmiot" po drugim słowie:', fiszka.sentence1[j]);
+        const podmiotElement = document.createElement('span');
+        podmiotElement.textContent = sentencePart;
+    podmiotElement.classList.add('blue');
+    sentencePart = podmiotElement.outerHTML;
+        podmiotElement.textContent = "(czasownik)";
 
-                                            if (j === 2 && occurrences2[0] === 2) {
-                                                console.log('Dodano "podmiot" po drugim słowie:', fiszka.sentence1[j]);
-                                                const podmiotElement = document.createElement('span');
-                                                podmiotElement.textContent = sentencePart;
-                                                podmiotElement.classList.add('blue');
-                                                sentencePart = podmiotElement.outerHTML;
-                                                podmiotElement.textContent = "(czasownik)";
+        // Rozdziel zdanie na słowa
+        let words = sentencePart.split(' ');
+        words.splice(2, 1, podmiotElement.outerHTML); // Dodaj podmiot po drugim słowie
+        sentencePart = words.join(' '); // Połącz z powrotem w jedno zdanie
 
-                                                // Rozdziel zdanie na słowa
-                                                let words = sentencePart.split(' ');
-                                                words.splice(2, 1, podmiotElement.outerHTML); // Dodaj podmiot po drugim słowie
-                                                sentencePart = words.join(' '); // Połącz z powrotem w jedno zdanie
+    } else if (j === 2 && occurrences2[0] === 1) {
+        console.log('Dodano "podmiot" po drugim słowie:', fiszka.sentence1[j]);
+        const podmiotElement = document.createElement('span');
+        podmiotElement.textContent = sentencePart;
+    podmiotElement.classList.add('blue');
+    sentencePart = podmiotElement.outerHTML;
+        podmiotElement.textContent = "(czasownik)";
 
-                                            } else if (j === 2 && occurrences2[0] === 1) {
-                                                console.log('Dodano "podmiot" po drugim słowie:', fiszka.sentence1[j]);
-                                                const podmiotElement = document.createElement('span');
-                                                podmiotElement.textContent = sentencePart;
-                                                podmiotElement.classList.add('blue');
-                                                sentencePart = podmiotElement.outerHTML;
-                                                podmiotElement.textContent = "(czasownik)";
+        // Rozdziel zdanie na słowa
+        let words = sentencePart.split(' ');
+        words.splice(3, 0, podmiotElement.outerHTML); // Dodaj podmiot po drugim słowie
+        sentencePart = words.join(' '); // Połącz z powrotem w jedno zdanie
 
-                                                // Rozdziel zdanie na słowa
-                                                let words = sentencePart.split(' ');
-                                                words.splice(3, 0, podmiotElement.outerHTML); // Dodaj podmiot po drugim słowie
-                                                sentencePart = words.join(' '); // Połącz z powrotem w jedno zdanie
+    } else if (j === 1 && occurrences2[0] === 1) {
+        console.log('Dodano "podmiot" po pierwszym słowie:', fiszka.sentence1[j]);
+        const podmiotElement = document.createElement('span');
+                podmiotElement.textContent = sentencePart;
+    podmiotElement.classList.add('blue');
+    sentencePart = podmiotElement.outerHTML;
+        podmiotElement.textContent = "(czasownik)";
 
-                                            } else if (j === 1 && occurrences2[0] === 1) {
-                                                console.log('Dodano "podmiot" po pierwszym słowie:', fiszka.sentence1[j]);
-                                                const podmiotElement = document.createElement('span');
-                                                podmiotElement.textContent = sentencePart;
-                                                podmiotElement.classList.add('blue');
-                                                sentencePart = podmiotElement.outerHTML;
-                                                podmiotElement.textContent = "(czasownik)";
+        // Rozdziel zdanie na słowa
+        let words = sentencePart.split(' ');
+        words.splice(3, 0, podmiotElement.outerHTML); // Dodaj podmiot po pierwszym słowie
+        sentencePart = words.join(' '); // Połącz z powrotem w jedno zdanie
 
-                                                // Rozdziel zdanie na słowa
-                                                let words = sentencePart.split(' ');
-                                                words.splice(3, 0, podmiotElement.outerHTML); // Dodaj podmiot po pierwszym słowie
-                                                sentencePart = words.join(' '); // Połącz z powrotem w jedno zdanie
-
-                                            }
-                                        }
-                                        // Dodaj sentencePart do sentence10
-                                        sentence20 += sentencePart + " ";
-
+    }
+}
+        // Dodaj sentencePart do sentence10
+        sentence20 += sentencePart + " ";
+                                        
                                     }
-
-                                }
+                                
+                            }
                                 // Iteracja przez matchingFiszki2 dla sentence2
                                 for (let jj = 0; jj < matchingFiszki2.length; jj++) {
                                     const fiszka = matchingFiszki2[jj];
@@ -3698,607 +3671,607 @@ ${sentence30}${sentence33}<br>
                         let funkcjaWywolana = false;
                         let stopButtonAdded = false;
                         if (indexDiv % 2 === 0) {
-                            function addVideo1(index) {
-                                console.log('hej80', index);
-                                // Sprawdź, czy jesteśmy poza zakresem tablicy
-                                if (index >= srcWords.length && !funkcjaWywolana) {
-                                    przekazArgument0(tablica3[2], undefined, false, tablica3[0], true, true, tablica3[1], tablica3[4]);
-                                    console.log("wykonuje się");
-                                    funkcjaWywolana = true;
-                                }
-                                // Usuń poprzednie wideo
-                                removePreviousVideo();
+                        function addVideo1(index) {
+                            console.log('hej80', index);
+                            // Sprawdź, czy jesteśmy poza zakresem tablicy
+                            if (index >= srcWords.length && !funkcjaWywolana) {
+                                przekazArgument0(tablica3[2], undefined, false, tablica3[0], true, true, tablica3[1], tablica3[4]);
+                                console.log("wykonuje się");
+                                funkcjaWywolana = true;
+                            }
+                            // Usuń poprzednie wideo
+                            removePreviousVideo();
 
-                                console.log('hej78', index);
+                            console.log('hej78', index);
+                            
+                            // Dodaj div z wideo do tła kontenera
+                            const $vidDiv = $('<div>').addClass('background-video').css({
+                                'position': 'absolute',
+                                'z-index': '1' // Ustaw z-index dla wideo na niższy
+                            });
+                            
+                            const $videoElement = $('<video>').attr({
+                                'autoplay': true,
+                                'muted': true,
+                                'loop': true
+                            }).css({
+                                'z-index': '1' // Ustaw z-index dla wideo na niższy
+                            });
+            if (window.matchMedia("(min-width: 999px)").matches) {
+        // Dodaj klasę CSS zależnie od indeksu wideo
+        if (index === 0) {
+            $videoElement.addClass('scaled-video');
+        } else {
+            $videoElement.addClass('next-video');
+        }
+            }
+                            // Utwórz element <source> dla wideo i ustaw atrybuty
 
-                                // Dodaj div z wideo do tła kontenera
-                                const $vidDiv = $('<div>').addClass('background-video').css({
-                                    'position': 'absolute',
-                                    'z-index': '1' // Ustaw z-index dla wideo na niższy
-                                });
+                            const $sourceElement = $('<source>').attr({
+                                'src': srcWords[index], // Poprawne użycie interpolacji
+                                'type': 'video/mp4'     // Typ pliku wideo
+                            });
 
-                                const $videoElement = $('<video>').attr({
-                                    'autoplay': true,
-                                    'muted': true,
-                                    'loop': true
-                                }).css({
-                                    'z-index': '1' // Ustaw z-index dla wideo na niższy
-                                });
-                                if (window.matchMedia("(min-width: 999px)").matches) {
-                                    // Dodaj klasę CSS zależnie od indeksu wideo
-                                    if (index === 0) {
-                                        $videoElement.addClass('scaled-video');
-                                    } else {
-                                        $videoElement.addClass('next-video');
+                            // Dodaj element source do elementu video
+                            $sourceElement.appendTo($videoElement);
+                            // Dodaj element video do diva dla wideo
+                            $videoElement.appendTo($vidDiv);
+                            // Dodaj element <source> do elementu <video>
+
+                            // Obsługa błędu ładowania wideo
+                            $videoElement.onerror = function () {
+                                console.error('Nie można załadować pliku wideo.');
+                            };
+                            let currentIndexValue = [];
+                            // Funkcja obsługi zdarzenia loadedmetadata
+                            $videoElement.on('loadedmetadata', function () {
+                                const videoDuration = this.duration;
+                                videoDurations[index] = videoDuration;
+                                console.log('tablica77', totalDuration);
+                                $videoElement.on('timeupdate', function () {
+                                    let adjustedProgress = 0;
+                                    for (let i = 0; i < index; i++) {
+                                        adjustedProgress += (videoDurations[i] / totalDuration) * 100;
                                     }
-                                }
-                                // Utwórz element <source> dla wideo i ustaw atrybuty
+                                    adjustedProgress += (this.currentTime / videoDuration) * (videoDurations[index] / totalDuration) * 100;
+                                    updateProgress(adjustedProgress);
+                                    console.log('hej78', index);
+                                    // Sprawdź, czy wartość index nie została jeszcze dodana do tablicy currentIndex
+                                    if (!currentIndexValue.includes(index)) {
+                                        // Dodaj index do tablicy currentIndex
+                                        currentIndexValue.push(index);
+                                        console.log('hej70', currentIndexValue);
+                                        // Wywołaj funkcję addBackgroundToText tylko raz
+                                        if (currentIndexValue[0] === 0 || currentIndexValue[0] === 1 || currentIndexValue[0] === 2) {
+                                            addBackgroundToText(matchingFiszki1, matchingIndexes, currentIndexValue, true, lesson1FirstPartLength, lesson1PartLength);
+                                        }
+                                    }
 
-                                const $sourceElement = $('<source>').attr({
-                                    'src': srcWords[index], // Poprawne użycie interpolacji
-                                    'type': 'video/mp4'     // Typ pliku wideo
+                                    // Sprawdź, czy wideo zostało zakończone
+                                    if ($videoElement[0].duration - $videoElement[0].currentTime < 1) {
+                                        console.log('Wideo zakończone, uruchamiam następne.');
+                                        // Odtwórz następne wideo po zakończeniu poprzedniego
+                                        addVideo1(index + 1);
+                                        updateProgress(0);
+                                    }
                                 });
+                            });
+                            addScenes(index);
+                            // Dodaj div z wideo do tła kontenera
+                            $vidDiv.appendTo($container);
+                            function updateProgress(progress) {
+                                // Aktualizuj pasek postępu na dole kontenera
+                                $('.progress-bar').css('width', progress + '%');
+                            }
 
-                                // Dodaj element source do elementu video
-                                $sourceElement.appendTo($videoElement);
-                                // Dodaj element video do diva dla wideo
-                                $videoElement.appendTo($vidDiv);
-                                // Dodaj element <source> do elementu <video>
-
-                                // Obsługa błędu ładowania wideo
-                                $videoElement.onerror = function () {
-                                    console.error('Nie można załadować pliku wideo.');
-                                };
-                                let currentIndexValue = [];
-                                // Funkcja obsługi zdarzenia loadedmetadata
-                                $videoElement.on('loadedmetadata', function () {
-                                    const videoDuration = this.duration;
-                                    videoDurations[index] = videoDuration;
-                                    console.log('tablica77', totalDuration);
-                                    $videoElement.on('timeupdate', function () {
-                                        let adjustedProgress = 0;
-                                        for (let i = 0; i < index; i++) {
-                                            adjustedProgress += (videoDurations[i] / totalDuration) * 100;
+                            // Inicjalizacja paska postępu
+                            const $progressBar = $('<div>').addClass('progress-bar');
+                                        if (window.matchMedia("(min-width: 999px)").matches) {
+        $progressBar.css({
+            'position': 'absolute',
+            'z-index': '2',
+            'bottom': '0',
+            'left': '0',
+            'height': '7px', // Wysokość paska postępu
+            'background-color': 'green', // Kolor paska postępu
+            'width': '140%', // Delikatne powiększenie paska postępu o 2% w każdym kierunku
+            'margin-bottom': '-2%',
+            'margin-left': '-4%',
+            'margin-right': '-4%' // Zapewnienie równowagi dla powiększenia paska postępu
+        });
+                                        } else {
+                                                    $progressBar.css({
+            'position': 'absolute',
+            'z-index': '2',
+            'bottom': '0px',
+            'left': '0px',
+            'height': '7px', // Wysokość paska postępu
+            'background-color': 'green', // Kolor paska postępu
+            'width': '100%' // Delikatne powiększenie paska postępu o 2% w każdym kierunku
+        });
                                         }
-                                        adjustedProgress += (this.currentTime / videoDuration) * (videoDurations[index] / totalDuration) * 100;
-                                        updateProgress(adjustedProgress);
-                                        console.log('hej78', index);
-                                        // Sprawdź, czy wartość index nie została jeszcze dodana do tablicy currentIndex
-                                        if (!currentIndexValue.includes(index)) {
-                                            // Dodaj index do tablicy currentIndex
-                                            currentIndexValue.push(index);
-                                            console.log('hej70', currentIndexValue);
-                                            // Wywołaj funkcję addBackgroundToText tylko raz
-                                            if (currentIndexValue[0] === 0 || currentIndexValue[0] === 1 || currentIndexValue[0] === 2) {
-                                                addBackgroundToText(matchingFiszki1, matchingIndexes, currentIndexValue, true, lesson1FirstPartLength, lesson1PartLength);
-                                            }
-                                        }
-
-                                        // Sprawdź, czy wideo zostało zakończone
-                                        if ($videoElement[0].duration - $videoElement[0].currentTime < 1) {
-                                            console.log('Wideo zakończone, uruchamiam następne.');
-                                            // Odtwórz następne wideo po zakończeniu poprzedniego
-                                            addVideo1(index + 1);
-                                            updateProgress(0);
-                                        }
-                                    });
-                                });
-                                addScenes(index);
-                                // Dodaj div z wideo do tła kontenera
-                                $vidDiv.appendTo($container);
-                                function updateProgress(progress) {
-                                    // Aktualizuj pasek postępu na dole kontenera
-                                    $('.progress-bar').css('width', progress + '%');
-                                }
-
-                                // Inicjalizacja paska postępu
-                                const $progressBar = $('<div>').addClass('progress-bar');
-                                if (window.matchMedia("(min-width: 999px)").matches) {
-                                    $progressBar.css({
-                                        'position': 'absolute',
-                                        'z-index': '2',
-                                        'bottom': '0',
-                                        'left': '0',
-                                        'height': '7px', // Wysokość paska postępu
-                                        'background-color': 'green', // Kolor paska postępu
-                                        'width': '140%', // Delikatne powiększenie paska postępu o 2% w każdym kierunku
-                                        'margin-bottom': '-2%',
-                                        'margin-left': '-4%',
-                                        'margin-right': '-4%' // Zapewnienie równowagi dla powiększenia paska postępu
-                                    });
-                                } else {
-                                    $progressBar.css({
-                                        'position': 'absolute',
-                                        'z-index': '2',
-                                        'bottom': '0px',
-                                        'left': '0px',
-                                        'height': '7px', // Wysokość paska postępu
-                                        'background-color': 'green', // Kolor paska postępu
-                                        'width': '100%' // Delikatne powiększenie paska postępu o 2% w każdym kierunku
-                                    });
-                                }
-                                $progressBar.appendTo($container);
+                            $progressBar.appendTo($container);
 // Funkcja dodająca nowe elementy <div>
-                                function addScenes(index) {
-                                    // Sprawdź, czy istnieje element <div> o klasie 'scene-description'
-                                    let $sceneDiv = $container.find('.scene-description');
+        function addScenes(index) {
+            // Sprawdź, czy istnieje element <div> o klasie 'scene-description'
+            let $sceneDiv = $container.find('.scene-description');
 
-                                    if ($sceneDiv.length) {
-                                        // Jeśli istnieje, wyczyść jego zawartość
-                                        $sceneDiv.empty();
-                                    } else {
-                                        // Jeśli nie istnieje, stwórz nowy element <div>
-                                        $sceneDiv = $('<div>').addClass('scene-description').appendTo($container);
-                                    }
+            if ($sceneDiv.length) {
+                // Jeśli istnieje, wyczyść jego zawartość
+                $sceneDiv.empty();
+            } else {
+                // Jeśli nie istnieje, stwórz nowy element <div>
+                $sceneDiv = $('<div>').addClass('scene-description').appendTo($container);
+            }
 
-                                    // Dodaj nowy tekst do <div>
-                                    $sceneDiv.text(`Scena z filmu ${srcWords2[index]}`);
+            // Dodaj nowy tekst do <div>
+            $sceneDiv.text(`Scena z filmu ${srcWords2[index]}`);
 
-                                    if (window.matchMedia("(max-width: 999px)").matches) {
-                                        if (indexDiv % 2 === 0) {
-                                            console.log('Warunek podzielności przez 2 spełniony2');
-                                            // Zmień CSS paska napisu, aby wyświetlał się po lewej stronie kontenera
-                                            $sceneDiv.css({
-                                                'position': 'relative',
-                                                'margin-top': '-140px',
-                                                'margin-left': '-450px',
-                                                'text-align': 'left',
-                                                'background-color': 'orange',
-                                                'z-index': '9999999'
-                                            });
-                                        } else if (indexDiv % 1 === 0 || indexDiv % 3 === 0 || indexDiv % 5 === 0) {
-                                            console.log('Warunek podzielności przez 1 spełniony2');
-                                            // Zmień CSS paska napisu, aby wyświetlał się po lewej stronie kontenera
-                                            $sceneDiv.css({
-                                                'position': 'relative',
-                                                'margin-top': '-140px',
-                                                'margin-right': '-20px',
-                                                'text-align': 'left',
-                                                'background-color': 'blue',
-                                                'z-index': '99999999999'
-                                            });
-                                        }
-                                    }
-                                }
+            if (window.matchMedia("(max-width: 999px)").matches) {
+                if (indexDiv % 2 === 0) {
+                    console.log('Warunek podzielności przez 2 spełniony2');
+                    // Zmień CSS paska napisu, aby wyświetlał się po lewej stronie kontenera
+                    $sceneDiv.css({
+                        'position': 'relative',
+                        'margin-top': '-140px',
+                        'margin-left': '-450px',
+                        'text-align': 'left',
+                        'background-color': 'orange',
+                        'z-index': '9999999'
+                    });
+                } else if (indexDiv % 1 === 0 || indexDiv % 3 === 0 || indexDiv % 5 === 0) {
+                    console.log('Warunek podzielności przez 1 spełniony2');
+                    // Zmień CSS paska napisu, aby wyświetlał się po lewej stronie kontenera
+                    $sceneDiv.css({
+                        'position': 'relative',
+                        'margin-top': '-140px',
+                        'margin-right': '-20px',
+                        'text-align': 'left',
+                        'background-color': 'blue',
+                        'z-index': '99999999999'
+                    });
+                }
+            }
+        }
 
 
 // Tworzenie przycisku "Stop"
-                                if (!stopButtonAdded) {
-                                    const $stopButton = $('<img>')
-                                            .attr('src', 'http://arbu-1dcc9.web.app/img/stopok2.png')
-                                            .css({
-                                                'display': 'none', // Ukryty na starcie
-                                                'position': 'absolute', // Precyzyjne pozycjonowanie względem kontenera
-                                                'top': '-15px',
-                                                'left': '20px',
-                                                'width': '40px',
-                                                'height': '40px',
-                                                'z-index': '999999',
-                                                'cursor': 'pointer' // Ustawienie kursora jako wskaźnik
-                                            })
-                                            .on('click', function () {
-                                                // Pętla po wszystkich elementach wideo i zatrzymywanie każdego z nich
-                                                $('video').each(function () {
-                                                    const video = this;
-                                                    if (!video.paused) {
-                                                        video.pause();
-                                                        // Zmień obrazek na "Play"
-                                                        $stopButton.attr('src', 'http://arbu-1dcc9.web.app/img/play.png');
-                                                    } else {
-                                                        video.play();
-                                                        // Zmień obrazek z powrotem na "Stop"
-                                                        $stopButton.attr('src', 'http://arbu-1dcc9.web.app/img/stopok2.png');
-                                                    }
-                                                });
-                                            });
+if (!stopButtonAdded) {
+    const $stopButton = $('<img>')
+        .attr('src', 'http://arbu-1dcc9.web.app/img/stopok2.png')
+        .css({
+            'display': 'none', // Ukryty na starcie
+            'position': 'absolute', // Precyzyjne pozycjonowanie względem kontenera
+            'top': '-15px',
+            'left': '20px',
+            'width': '40px',
+            'height': '40px',
+            'z-index': '999999',
+            'cursor': 'pointer' // Ustawienie kursora jako wskaźnik
+        })
+        .on('click', function () {
+            // Pętla po wszystkich elementach wideo i zatrzymywanie każdego z nich
+            $('video').each(function () {
+                const video = this;
+                if (!video.paused) {
+                    video.pause();
+                    // Zmień obrazek na "Play"
+                    $stopButton.attr('src', 'http://arbu-1dcc9.web.app/img/play.png');
+                } else {
+                    video.play();
+                    // Zmień obrazek z powrotem na "Stop"
+                    $stopButton.attr('src', 'http://arbu-1dcc9.web.app/img/stopok2.png');
+                }
+            });
+        });
 
-                                    // Dodanie przycisku do kontenera
-                                    $stopButton.appendTo($container);
+    // Dodanie przycisku do kontenera
+    $stopButton.appendTo($container);
 
-                                    // Pokazywanie przycisku na hover kontenera
-                                    $container.on('mouseover', function () {
-                                        $stopButton.show();
-                                    });
+    // Pokazywanie przycisku na hover kontenera
+    $container.on('mouseover', function () {
+        $stopButton.show();
+    });
 
-                                    // Ukrywanie przycisku, gdy mysz opuści kontener
-                                    $container.on('mouseout', function () {
-                                        $stopButton.hide();
-                                    });
+    // Ukrywanie przycisku, gdy mysz opuści kontener
+    $container.on('mouseout', function () {
+        $stopButton.hide();
+    });
 
-                                    stopButtonAdded = true;  // Flaga ustawiona na true, gdy przycisk został dodany
-                                }
-                            }
-                            setTimeout(function () {
-                                addVideo1(0);
-                            }, 0);
-                        } else if (indexDiv === 1 || indexDiv === 11 || indexDiv === 13 || indexDiv === 17 || indexDiv === 19 || indexDiv === 23 || indexDiv === 29 || indexDiv === 31 || indexDiv === 37 || indexDiv === 41 || indexDiv === 43 || indexDiv % 3 === 0 || indexDiv % 5 === 0 || indexDiv % 7 === 0) {
-                            function addVideo1b(index) {
-                                console.log('hej80', index);
-                                // Sprawdź, czy jesteśmy poza zakresem tablicy
-                                if (index >= srcWords.length && !funkcjaWywolana) {
-                                    przekazArgument0(tablica3[2], undefined, false, tablica3[0], true, true, tablica3[1], tablica3[4]);
-                                    console.log("wykonuje się");
-                                    funkcjaWywolana = true;
-                                }
-                                // Usuń poprzednie wideo
-                                removePreviousVideo();
-
-                                console.log('hej78', index);
-
-                                // Dodaj div z wideo do tła kontenera
-                                const $vidDiv = $('<div>').addClass('background-video22').css({
-                                    'position': 'absolute',
-                                    'z-index': '1' // Ustaw z-index dla wideo na niższy
-                                });
-
-                                const $videoElement = $('<video>').attr({
-                                    'autoplay': true,
-                                    'muted': true,
-                                    'loop': true
-                                }).css({
-                                    'z-index': '1' // Ustaw z-index dla wideo na niższy
-                                });
-                                if (window.matchMedia("(min-width: 999px)").matches) {
-                                    // Dodaj klasę CSS zależnie od indeksu wideo
-                                    if (index === 0) {
-                                        $videoElement.addClass('scaled-video');
-                                    } else {
-                                        $videoElement.addClass('next-video');
-                                    }
-                                }
-                                // Utwórz element <source> dla wideo i ustaw atrybuty
-
-                                const $sourceElement = $('<source>').attr({
-                                    'src': srcWords[index], // Poprawne użycie interpolacji
-                                    'type': 'video/mp4'     // Typ pliku wideo
-                                });
-
-                                // Dodaj element source do elementu video
-                                $sourceElement.appendTo($videoElement);
-                                // Dodaj element video do diva dla wideo
-                                $videoElement.appendTo($vidDiv);
-                                // Dodaj element <source> do elementu <video>
-
-                                // Obsługa błędu ładowania wideo
-                                $videoElement.onerror = function () {
-                                    console.error('Nie można załadować pliku wideo.');
-                                };
-                                let currentIndexValue = [];
-                                // Funkcja obsługi zdarzenia loadedmetadata
-                                $videoElement.on('loadedmetadata', function () {
-                                    const videoDuration = this.duration;
-                                    videoDurations[index] = videoDuration;
-                                    console.log('tablica77', totalDuration);
-                                    $videoElement.on('timeupdate', function () {
-                                        let adjustedProgress = 0;
-                                        for (let i = 0; i < index; i++) {
-                                            adjustedProgress += (videoDurations[i] / totalDuration) * 100;
-                                        }
-                                        adjustedProgress += (this.currentTime / videoDuration) * (videoDurations[index] / totalDuration) * 100;
-                                        updateProgress(adjustedProgress);
-                                        console.log('hej78', index);
-                                        // Sprawdź, czy wartość index nie została jeszcze dodana do tablicy currentIndex
-                                        if (!currentIndexValue.includes(index)) {
-                                            // Dodaj index do tablicy currentIndex
-                                            currentIndexValue.push(index);
-                                            console.log('hej70', currentIndexValue);
-                                            // Wywołaj funkcję addBackgroundToText tylko raz
-                                            if (currentIndexValue[0] === 0 || currentIndexValue[0] === 1 || currentIndexValue[0] === 2) {
-                                                addBackgroundToText(matchingFiszki1, matchingIndexes, currentIndexValue, true, lesson1FirstPartLength, lesson1PartLength);
-                                            }
-                                        }
-
-                                        // Sprawdź, czy wideo zostało zakończone
-                                        if ($videoElement[0].duration - $videoElement[0].currentTime < 1) {
-                                            console.log('Wideo zakończone, uruchamiam następne.');
-                                            // Odtwórz następne wideo po zakończeniu poprzedniego
-                                            addVideo1b(index + 1);
-                                            updateProgress(0);
-                                        }
-                                    });
-                                });
-                                addScenes(index);
-                                // Dodaj div z wideo do tła kontenera
-                                $vidDiv.appendTo($container);
-                                function updateProgress(progress) {
-                                    // Aktualizuj pasek postępu na dole kontenera
-                                    $('.progress-bar').css('width', progress + '%');
-                                }
-
-                                // Inicjalizacja paska postępu
-                                const $progressBar = $('<div>').addClass('progress-bar');
-                                if (window.matchMedia("(min-width: 999px)").matches) {
-                                    $progressBar.css({
-                                        'position': 'absolute',
-                                        'z-index': '2',
-                                        'bottom': '0',
-                                        'left': '0',
-                                        'height': '7px', // Wysokość paska postępu
-                                        'background-color': 'green', // Kolor paska postępu
-                                        'width': '140%', // Delikatne powiększenie paska postępu o 2% w każdym kierunku
-                                        'margin-bottom': '-2%',
-                                        'margin-left': '-4%',
-                                        'margin-right': '-4%' // Zapewnienie równowagi dla powiększenia paska postępu
-                                    });
-                                } else {
-                                    $progressBar.css({
-                                        'position': 'absolute',
-                                        'z-index': '2',
-                                        'bottom': '0px',
-                                        'left': '0px',
-                                        'height': '7px', // Wysokość paska postępu
-                                        'background-color': 'green', // Kolor paska postępu
-                                        'width': '100%' // Delikatne powiększenie paska postępu o 2% w każdym kierunku
-                                    });
-                                }
-                                $progressBar.appendTo($container);
-// Funkcja dodająca nowe elementy <div>
-                                function addScenes(index) {
-                                    // Sprawdź, czy istnieje element <div> o klasie 'scene-description'
-                                    let $sceneDiv = $container.find('.scene-description');
-
-                                    if ($sceneDiv.length) {
-                                        // Jeśli istnieje, wyczyść jego zawartość
-                                        $sceneDiv.empty();
-                                    } else {
-                                        // Jeśli nie istnieje, stwórz nowy element <div>
-                                        $sceneDiv = $('<div>').addClass('scene-description').appendTo($container);
-                                    }
-
-                                    // Dodaj nowy tekst do <div>
-                                    $sceneDiv.text(`Scena z filmu ${srcWords2[index]}`);
-
-                                    if (window.matchMedia("(max-width: 999px)").matches) {
-                                        if (indexDiv % 2 === 0) {
-                                            console.log('Warunek podzielności przez 2 spełniony2');
-                                            // Zmień CSS paska napisu, aby wyświetlał się po lewej stronie kontenera
-                                            $sceneDiv.css({
-                                                'position': 'relative',
-                                                'margin-top': '-140px',
-                                                'margin-left': '-450px',
-                                                'text-align': 'left',
-                                                'background-color': 'orange',
-                                                'z-index': '9999999'
-                                            });
-                                        } else if (indexDiv % 1 === 0 || indexDiv % 3 === 0 || indexDiv % 5 === 0) {
-                                            console.log('Warunek podzielności przez 1 spełniony2');
-                                            // Zmień CSS paska napisu, aby wyświetlał się po lewej stronie kontenera
-                                            $sceneDiv.css({
-                                                'position': 'relative',
-                                                'margin-top': '-140px',
-                                                'margin-right': '-20px',
-                                                'text-align': 'left',
-                                                'background-color': 'blue',
-                                                'z-index': '99999999999'
-                                            });
-                                        }
-                                    }
-                                }
-
-
-// Tworzenie przycisku "Stop"
-                                if (!stopButtonAdded) {
-                                    const $stopButton = $('<img>')
-                                            .attr('src', 'http://arbu-1dcc9.web.app/img/stopok2.png')
-                                            .css({
-                                                'display': 'none', // Ukryty na starcie
-                                                'position': 'absolute', // Precyzyjne pozycjonowanie względem kontenera
-                                                'top': '-15px',
-                                                'left': '20px',
-                                                'width': '40px',
-                                                'height': '40px',
-                                                'z-index': '999999',
-                                                'cursor': 'pointer' // Ustawienie kursora jako wskaźnik
-                                            })
-                                            .on('click', function () {
-                                                // Pętla po wszystkich elementach wideo i zatrzymywanie każdego z nich
-                                                $('video').each(function () {
-                                                    const video = this;
-                                                    if (!video.paused) {
-                                                        video.pause();
-                                                        // Zmień obrazek na "Play"
-                                                        $stopButton.attr('src', 'http://arbu-1dcc9.web.app/img/play.png');
-                                                    } else {
-                                                        video.play();
-                                                        // Zmień obrazek z powrotem na "Stop"
-                                                        $stopButton.attr('src', 'http://arbu-1dcc9.web.app/img/stopok2.png');
-                                                    }
-                                                });
-                                            });
-
-                                    // Dodanie przycisku do kontenera
-                                    $stopButton.appendTo($container);
-
-                                    // Pokazywanie przycisku na hover kontenera
-                                    $container.on('mouseover', function () {
-                                        $stopButton.show();
-                                    });
-
-                                    // Ukrywanie przycisku, gdy mysz opuści kontener
-                                    $container.on('mouseout', function () {
-                                        $stopButton.hide();
-                                    });
-
-                                    stopButtonAdded = true;  // Flaga ustawiona na true, gdy przycisk został dodany
-                                }
-                            }
-                            setTimeout(function () {
-                                addVideo1b(0);
-                            }, 0);
+    stopButtonAdded = true;  // Flaga ustawiona na true, gdy przycisk został dodany
+}
                         }
+                                setTimeout(function () {
+                                    addVideo1(0);
+                                }, 0);
+    } else if (indexDiv === 1 || indexDiv === 11 || indexDiv === 13 || indexDiv === 17 || indexDiv === 19 || indexDiv === 23 || indexDiv === 29 || indexDiv === 31 || indexDiv === 37 || indexDiv === 41 || indexDiv === 43 || indexDiv % 3 === 0 || indexDiv % 5 === 0 || indexDiv % 7 === 0) {
+                                function addVideo1b(index) {
+                            console.log('hej80', index);
+                            // Sprawdź, czy jesteśmy poza zakresem tablicy
+                            if (index >= srcWords.length && !funkcjaWywolana) {
+                                przekazArgument0(tablica3[2], undefined, false, tablica3[0], true, true, tablica3[1], tablica3[4]);
+                                console.log("wykonuje się");
+                                funkcjaWywolana = true;
+                            }
+                            // Usuń poprzednie wideo
+                            removePreviousVideo();
+
+                            console.log('hej78', index);
+                            
+                            // Dodaj div z wideo do tła kontenera
+                            const $vidDiv = $('<div>').addClass('background-video22').css({
+                                'position': 'absolute',
+                                'z-index': '1' // Ustaw z-index dla wideo na niższy
+                            });
+                            
+                            const $videoElement = $('<video>').attr({
+                                'autoplay': true,
+                                'muted': true,
+                                'loop': true
+                            }).css({
+                                'z-index': '1' // Ustaw z-index dla wideo na niższy
+                            });
+            if (window.matchMedia("(min-width: 999px)").matches) {
+        // Dodaj klasę CSS zależnie od indeksu wideo
+        if (index === 0) {
+            $videoElement.addClass('scaled-video');
+        } else {
+            $videoElement.addClass('next-video');
+        }
+            }
+                            // Utwórz element <source> dla wideo i ustaw atrybuty
+
+                            const $sourceElement = $('<source>').attr({
+                                'src': srcWords[index], // Poprawne użycie interpolacji
+                                'type': 'video/mp4'     // Typ pliku wideo
+                            });
+
+                            // Dodaj element source do elementu video
+                            $sourceElement.appendTo($videoElement);
+                            // Dodaj element video do diva dla wideo
+                            $videoElement.appendTo($vidDiv);
+                            // Dodaj element <source> do elementu <video>
+
+                            // Obsługa błędu ładowania wideo
+                            $videoElement.onerror = function () {
+                                console.error('Nie można załadować pliku wideo.');
+                            };
+                            let currentIndexValue = [];
+                            // Funkcja obsługi zdarzenia loadedmetadata
+                            $videoElement.on('loadedmetadata', function () {
+                                const videoDuration = this.duration;
+                                videoDurations[index] = videoDuration;
+                                console.log('tablica77', totalDuration);
+                                $videoElement.on('timeupdate', function () {
+                                    let adjustedProgress = 0;
+                                    for (let i = 0; i < index; i++) {
+                                        adjustedProgress += (videoDurations[i] / totalDuration) * 100;
+                                    }
+                                    adjustedProgress += (this.currentTime / videoDuration) * (videoDurations[index] / totalDuration) * 100;
+                                    updateProgress(adjustedProgress);
+                                    console.log('hej78', index);
+                                    // Sprawdź, czy wartość index nie została jeszcze dodana do tablicy currentIndex
+                                    if (!currentIndexValue.includes(index)) {
+                                        // Dodaj index do tablicy currentIndex
+                                        currentIndexValue.push(index);
+                                        console.log('hej70', currentIndexValue);
+                                        // Wywołaj funkcję addBackgroundToText tylko raz
+                                        if (currentIndexValue[0] === 0 || currentIndexValue[0] === 1 || currentIndexValue[0] === 2) {
+                                            addBackgroundToText(matchingFiszki1, matchingIndexes, currentIndexValue, true, lesson1FirstPartLength, lesson1PartLength);
+                                        }
+                                    }
+
+                                    // Sprawdź, czy wideo zostało zakończone
+                                    if ($videoElement[0].duration - $videoElement[0].currentTime < 1) {
+                                        console.log('Wideo zakończone, uruchamiam następne.');
+                                        // Odtwórz następne wideo po zakończeniu poprzedniego
+                                        addVideo1b(index + 1);
+                                        updateProgress(0);
+                                    }
+                                });
+                            });
+                            addScenes(index);
+                            // Dodaj div z wideo do tła kontenera
+                            $vidDiv.appendTo($container);
+                            function updateProgress(progress) {
+                                // Aktualizuj pasek postępu na dole kontenera
+                                $('.progress-bar').css('width', progress + '%');
+                            }
+
+                            // Inicjalizacja paska postępu
+                            const $progressBar = $('<div>').addClass('progress-bar');
+if (window.matchMedia("(min-width: 999px)").matches) {
+        $progressBar.css({
+            'position': 'absolute',
+            'z-index': '2',
+            'bottom': '0',
+            'left': '0',
+            'height': '7px', // Wysokość paska postępu
+            'background-color': 'green', // Kolor paska postępu
+            'width': '140%', // Delikatne powiększenie paska postępu o 2% w każdym kierunku
+            'margin-bottom': '-2%',
+            'margin-left': '-4%',
+            'margin-right': '-4%' // Zapewnienie równowagi dla powiększenia paska postępu
+        });
+                                        } else {
+                                                    $progressBar.css({
+            'position': 'absolute',
+            'z-index': '2',
+            'bottom': '0px',
+            'left': '0px',
+            'height': '7px', // Wysokość paska postępu
+            'background-color': 'green', // Kolor paska postępu
+            'width': '100%' // Delikatne powiększenie paska postępu o 2% w każdym kierunku
+        });
+                                        }
+                            $progressBar.appendTo($container);
+// Funkcja dodająca nowe elementy <div>
+        function addScenes(index) {
+            // Sprawdź, czy istnieje element <div> o klasie 'scene-description'
+            let $sceneDiv = $container.find('.scene-description');
+
+            if ($sceneDiv.length) {
+                // Jeśli istnieje, wyczyść jego zawartość
+                $sceneDiv.empty();
+            } else {
+                // Jeśli nie istnieje, stwórz nowy element <div>
+                $sceneDiv = $('<div>').addClass('scene-description').appendTo($container);
+            }
+
+            // Dodaj nowy tekst do <div>
+            $sceneDiv.text(`Scena z filmu ${srcWords2[index]}`);
+
+            if (window.matchMedia("(max-width: 999px)").matches) {
+                if (indexDiv % 2 === 0) {
+                    console.log('Warunek podzielności przez 2 spełniony2');
+                    // Zmień CSS paska napisu, aby wyświetlał się po lewej stronie kontenera
+                    $sceneDiv.css({
+                        'position': 'relative',
+                        'margin-top': '-140px',
+                        'margin-left': '-450px',
+                        'text-align': 'left',
+                        'background-color': 'orange',
+                        'z-index': '9999999'
+                    });
+                } else if (indexDiv % 1 === 0 || indexDiv % 3 === 0 || indexDiv % 5 === 0) {
+                    console.log('Warunek podzielności przez 1 spełniony2');
+                    // Zmień CSS paska napisu, aby wyświetlał się po lewej stronie kontenera
+                    $sceneDiv.css({
+                        'position': 'relative',
+                        'margin-top': '-140px',
+                        'margin-right': '-20px',
+                        'text-align': 'left',
+                        'background-color': 'blue',
+                        'z-index': '99999999999'
+                    });
+                }
+            }
+        }
+
+
+// Tworzenie przycisku "Stop"
+if (!stopButtonAdded) {
+    const $stopButton = $('<img>')
+        .attr('src', 'http://arbu-1dcc9.web.app/img/stopok2.png')
+        .css({
+            'display': 'none', // Ukryty na starcie
+            'position': 'absolute', // Precyzyjne pozycjonowanie względem kontenera
+            'top': '-15px',
+            'left': '20px',
+            'width': '40px',
+            'height': '40px',
+            'z-index': '999999',
+            'cursor': 'pointer' // Ustawienie kursora jako wskaźnik
+        })
+        .on('click', function () {
+            // Pętla po wszystkich elementach wideo i zatrzymywanie każdego z nich
+            $('video').each(function () {
+                const video = this;
+                if (!video.paused) {
+                    video.pause();
+                    // Zmień obrazek na "Play"
+                    $stopButton.attr('src', 'http://arbu-1dcc9.web.app/img/play.png');
+                } else {
+                    video.play();
+                    // Zmień obrazek z powrotem na "Stop"
+                    $stopButton.attr('src', 'http://arbu-1dcc9.web.app/img/stopok2.png');
+                }
+            });
+        });
+
+    // Dodanie przycisku do kontenera
+    $stopButton.appendTo($container);
+
+    // Pokazywanie przycisku na hover kontenera
+    $container.on('mouseover', function () {
+        $stopButton.show();
+    });
+
+    // Ukrywanie przycisku, gdy mysz opuści kontener
+    $container.on('mouseout', function () {
+        $stopButton.hide();
+    });
+
+    stopButtonAdded = true;  // Flaga ustawiona na true, gdy przycisk został dodany
+}
+                        }
+                                setTimeout(function () {
+                                    addVideo1b(0);
+                                }, 0);
+    }
                     } else if (index50 === 0 && buttonindex) {
                         let stopButtonAdded = false;
-                        console.log('hej3338', newIndex);
-                        let funkcjaWywolana = false;
-                        if (indexDiv % 2 === 0) {
-                            function addVideo2(index) {
-                                console.log('hej80', index);
+    console.log('hej3338', newIndex);
+    let funkcjaWywolana = false;
+if (indexDiv % 2 === 0) {
+    function addVideo2(index) {
+        console.log('hej80', index);
 
-                                // Sprawdź, czy jesteśmy poza zakresem tablicy
-                                if (index >= srcWords.length && !funkcjaWywolana) {
-                                    setTimeout(function () {
-                                        $('.progress-bar').remove();
-                                    }, 200); // Opóźnienie w milisekundach (tu: 200 ms)
-                                    przekazArgument0(tablica3[2], undefined, false, tablica3[0], true, true, tablica3[1], tablica3[4]);
-                                    console.log("wykonuje się");
-                                    funkcjaWywolana = true;
-                                }
+        // Sprawdź, czy jesteśmy poza zakresem tablicy
+        if (index >= srcWords.length && !funkcjaWywolana) {
+            setTimeout(function () {
+                $('.progress-bar').remove();
+            }, 200); // Opóźnienie w milisekundach (tu: 200 ms)
+            przekazArgument0(tablica3[2], undefined, false, tablica3[0], true, true, tablica3[1], tablica3[4]);
+            console.log("wykonuje się");
+            funkcjaWywolana = true;
+        }
 
-                                // Usuń poprzednie wideo
-                                removePreviousVideo();
-                                console.log('hej78', index);
+        // Usuń poprzednie wideo
+        removePreviousVideo();
+        console.log('hej78', index);
 
-                                // Dodaj div z wideo do tła kontenera
-                                const $vidDiv = $('<div>').addClass('background-video');
+        // Dodaj div z wideo do tła kontenera
+        const $vidDiv = $('<div>').addClass('background-video');
+        
+        // Utwórz element <video> i ustaw atrybuty
+        const $videoElement = $('<video>').attr({
+            'autoplay': true, // Automatyczne odtwarzanie wideo
+            'muted': true, // Wyciszenie dźwięku wideo
+            'loop': true // Zapętlenie wideo
+        });
+            if (window.matchMedia("(min-width: 999px)").matches) {
+        // Dodaj klasę CSS zależnie od indeksu wideo
+        if (index === 0) {
+            $videoElement.addClass('scaled-video');
+        } else {
+            $videoElement.addClass('next-video');
+        }
+            }
+        // Utwórz element <source> dla wideo i ustaw atrybuty
+        const $sourceElement = $('<source>').attr({
+            'src': srcWords[index], // Poprawne użycie interpolacji
+            'type': 'video/mp4'     // Typ pliku wideo
+        });
 
-                                // Utwórz element <video> i ustaw atrybuty
-                                const $videoElement = $('<video>').attr({
-                                    'autoplay': true, // Automatyczne odtwarzanie wideo
-                                    'muted': true, // Wyciszenie dźwięku wideo
-                                    'loop': true // Zapętlenie wideo
-                                });
-                                if (window.matchMedia("(min-width: 999px)").matches) {
-                                    // Dodaj klasę CSS zależnie od indeksu wideo
-                                    if (index === 0) {
-                                        $videoElement.addClass('scaled-video');
-                                    } else {
-                                        $videoElement.addClass('next-video');
-                                    }
-                                }
-                                // Utwórz element <source> dla wideo i ustaw atrybuty
-                                const $sourceElement = $('<source>').attr({
-                                    'src': srcWords[index], // Poprawne użycie interpolacji
-                                    'type': 'video/mp4'     // Typ pliku wideo
-                                });
+        // Dodaj element source do elementu video
+        $sourceElement.appendTo($videoElement);
 
-                                // Dodaj element source do elementu video
-                                $sourceElement.appendTo($videoElement);
+        // Dodaj element video do diva dla wideo
+        $videoElement.appendTo($vidDiv);
 
-                                // Dodaj element video do diva dla wideo
-                                $videoElement.appendTo($vidDiv);
+        // Dodaj element <source> do elementu <video>
+        // Obsługa błędu ładowania wideo
+        $videoElement.onerror = function () {
+            console.error('Nie można załadować pliku wideo.');
+        };
 
-                                // Dodaj element <source> do elementu <video>
-                                // Obsługa błędu ładowania wideo
-                                $videoElement.onerror = function () {
-                                    console.error('Nie można załadować pliku wideo.');
-                                };
+        let currentIndexValue = [];
+        
+        // Funkcja obsługi zdarzenia loadedmetadata
+        $videoElement.on('loadedmetadata', function () {
+            const videoDuration = this.duration;
+            videoDurations[index] = videoDuration;
+            console.log('tablica77', totalDuration);
 
-                                let currentIndexValue = [];
+            $videoElement.on('timeupdate', function () {
+                let adjustedProgress = 0;
+                for (let i = 0; i < index; i++) {
+                    adjustedProgress += (videoDurations[i] / totalDuration) * 100;
+                }
+                adjustedProgress += (this.currentTime / videoDuration) * (videoDurations[index] / totalDuration) * 100;
+                updateProgress(adjustedProgress);
+                console.log('hej78', index);
 
-                                // Funkcja obsługi zdarzenia loadedmetadata
-                                $videoElement.on('loadedmetadata', function () {
-                                    const videoDuration = this.duration;
-                                    videoDurations[index] = videoDuration;
-                                    console.log('tablica77', totalDuration);
+                // Sprawdź, czy wartość index nie została jeszcze dodana do tablicy currentIndex
+                if (!currentIndexValue.includes(index)) {
+                    // Dodaj index do tablicy currentIndex
+                    currentIndexValue.push(index);
+                    console.log('hej70', currentIndexValue);
 
-                                    $videoElement.on('timeupdate', function () {
-                                        let adjustedProgress = 0;
-                                        for (let i = 0; i < index; i++) {
-                                            adjustedProgress += (videoDurations[i] / totalDuration) * 100;
+                    // Wywołaj funkcję addBackgroundToText tylko raz
+                    if (currentIndexValue[0] === 0 || currentIndexValue[0] === 1 || currentIndexValue[0] === 2) {
+                        addBackgroundToText(matchingFiszki1, matchingIndexes, currentIndexValue, true, lesson1FirstPartLength, lesson1PartLength);
+                    }
+                }
+
+                // Sprawdź, czy wideo zostało zakończone
+                if ($videoElement[0].duration - $videoElement[0].currentTime < 1) {
+                    console.log('Wideo zakończone, uruchamiam następne.');
+                    // Odtwórz następne wideo po zakończeniu poprzedniego
+                    addVideo2(index + 1);
+                    updateProgress(0);
+                }
+            });
+        });
+
+        addScenes(index);
+        // Dodaj wideo do kontenera
+        $vidDiv.appendTo($container);
+
+        function updateProgress(progress) {
+            // Aktualizuj pasek postępu na dole kontenera
+            $('.progress-bar').css('width', progress + '%');
+        }
+
+        // Inicjalizacja paska postępu
+        const $progressBar = $('<div>').addClass('progress-bar');
+                                        if (window.matchMedia("(min-width: 999px)").matches) {
+        $progressBar.css({
+            'position': 'absolute',
+            'z-index': '2',
+            'bottom': '0',
+            'left': '0',
+            'height': '7px', // Wysokość paska postępu
+            'background-color': 'green', // Kolor paska postępu
+            'width': '140%', // Delikatne powiększenie paska postępu o 2% w każdym kierunku
+            'margin-bottom': '-2%',
+            'margin-left': '-4%',
+            'margin-right': '-4%' // Zapewnienie równowagi dla powiększenia paska postępu
+        });
+                                        } else {
+                                                    $progressBar.css({
+            'position': 'absolute',
+            'z-index': '2',
+            'bottom': '0px',
+            'left': '0px',
+            'height': '7px', // Wysokość paska postępu
+            'background-color': 'green', // Kolor paska postępu
+            'width': '100%' // Delikatne powiększenie paska postępu o 2% w każdym kierunku
+        });
                                         }
-                                        adjustedProgress += (this.currentTime / videoDuration) * (videoDurations[index] / totalDuration) * 100;
-                                        updateProgress(adjustedProgress);
-                                        console.log('hej78', index);
+        $progressBar.appendTo($container);
 
-                                        // Sprawdź, czy wartość index nie została jeszcze dodana do tablicy currentIndex
-                                        if (!currentIndexValue.includes(index)) {
-                                            // Dodaj index do tablicy currentIndex
-                                            currentIndexValue.push(index);
-                                            console.log('hej70', currentIndexValue);
+        function addScenes(index) {
+            // Sprawdź, czy istnieje element <div> o klasie 'scene-description'
+            let $sceneDiv = $container.find('.scene-description');
 
-                                            // Wywołaj funkcję addBackgroundToText tylko raz
-                                            if (currentIndexValue[0] === 0 || currentIndexValue[0] === 1 || currentIndexValue[0] === 2) {
-                                                addBackgroundToText(matchingFiszki1, matchingIndexes, currentIndexValue, true, lesson1FirstPartLength, lesson1PartLength);
-                                            }
-                                        }
+            if ($sceneDiv.length) {
+                // Jeśli istnieje, wyczyść jego zawartość
+                $sceneDiv.empty();
+            } else {
+                // Jeśli nie istnieje, stwórz nowy element <div>
+                $sceneDiv = $('<div>').addClass('scene-description').appendTo($container);
+            }
 
-                                        // Sprawdź, czy wideo zostało zakończone
-                                        if ($videoElement[0].duration - $videoElement[0].currentTime < 1) {
-                                            console.log('Wideo zakończone, uruchamiam następne.');
-                                            // Odtwórz następne wideo po zakończeniu poprzedniego
-                                            addVideo2(index + 1);
-                                            updateProgress(0);
-                                        }
-                                    });
-                                });
+            // Dodaj nowy tekst do <div>
+            $sceneDiv.text(`Scena z filmu ${srcWords2[index]}`);
 
-                                addScenes(index);
-                                // Dodaj wideo do kontenera
-                                $vidDiv.appendTo($container);
-
-                                function updateProgress(progress) {
-                                    // Aktualizuj pasek postępu na dole kontenera
-                                    $('.progress-bar').css('width', progress + '%');
-                                }
-
-                                // Inicjalizacja paska postępu
-                                const $progressBar = $('<div>').addClass('progress-bar');
-                                if (window.matchMedia("(min-width: 999px)").matches) {
-                                    $progressBar.css({
-                                        'position': 'absolute',
-                                        'z-index': '2',
-                                        'bottom': '0',
-                                        'left': '0',
-                                        'height': '7px', // Wysokość paska postępu
-                                        'background-color': 'green', // Kolor paska postępu
-                                        'width': '140%', // Delikatne powiększenie paska postępu o 2% w każdym kierunku
-                                        'margin-bottom': '-2%',
-                                        'margin-left': '-4%',
-                                        'margin-right': '-4%' // Zapewnienie równowagi dla powiększenia paska postępu
-                                    });
-                                } else {
-                                    $progressBar.css({
-                                        'position': 'absolute',
-                                        'z-index': '2',
-                                        'bottom': '0px',
-                                        'left': '0px',
-                                        'height': '7px', // Wysokość paska postępu
-                                        'background-color': 'green', // Kolor paska postępu
-                                        'width': '100%' // Delikatne powiększenie paska postępu o 2% w każdym kierunku
-                                    });
-                                }
-                                $progressBar.appendTo($container);
-
-                                function addScenes(index) {
-                                    // Sprawdź, czy istnieje element <div> o klasie 'scene-description'
-                                    let $sceneDiv = $container.find('.scene-description');
-
-                                    if ($sceneDiv.length) {
-                                        // Jeśli istnieje, wyczyść jego zawartość
-                                        $sceneDiv.empty();
-                                    } else {
-                                        // Jeśli nie istnieje, stwórz nowy element <div>
-                                        $sceneDiv = $('<div>').addClass('scene-description').appendTo($container);
-                                    }
-
-                                    // Dodaj nowy tekst do <div>
-                                    $sceneDiv.text(`Scena z filmu ${srcWords2[index]}`);
-
-                                    if (window.matchMedia("(max-width: 999px)").matches) {
-                                        if (indexDiv % 2 === 0) {
-                                            console.log('Warunek podzielności przez 2 spełniony2');
-                                            // Zmień CSS paska napisu, aby wyświetlał się po lewej stronie kontenera
-                                            $sceneDiv.css({
-                                                'position': 'relative',
-                                                'margin-top': '-140px',
-                                                'margin-left': '-450px',
-                                                'text-align': 'left',
-                                                'background-color': 'orange',
-                                                'z-index': '9999999'
-                                            });
-                                        } else if (indexDiv % 1 === 0 || indexDiv % 3 === 0 || indexDiv % 5 === 0) {
-                                            console.log('Warunek podzielności przez 1 spełniony2');
-                                            // Zmień CSS paska napisu, aby wyświetlał się po lewej stronie kontenera
-                                            $sceneDiv.css({
-                                                'position': 'relative',
-                                                'margin-top': '-140px',
-                                                'margin-right': '-20px',
-                                                'text-align': 'left',
-                                                'background-color': 'blue',
-                                                'z-index': '99999999999'
-                                            });
-                                        }
-                                    } else if (window.matchMedia("(min-width: 999px)").matches) {
+            if (window.matchMedia("(max-width: 999px)").matches) {
+                if (indexDiv % 2 === 0) {
+                    console.log('Warunek podzielności przez 2 spełniony2');
+                    // Zmień CSS paska napisu, aby wyświetlał się po lewej stronie kontenera
+                    $sceneDiv.css({
+                        'position': 'relative',
+                        'margin-top': '-140px',
+                        'margin-left': '-450px',
+                        'text-align': 'left',
+                        'background-color': 'orange',
+                        'z-index': '9999999'
+                    });
+                } else if (indexDiv % 1 === 0 || indexDiv % 3 === 0 || indexDiv % 5 === 0) {
+                    console.log('Warunek podzielności przez 1 spełniony2');
+                    // Zmień CSS paska napisu, aby wyświetlał się po lewej stronie kontenera
+                    $sceneDiv.css({
+                        'position': 'relative',
+                        'margin-top': '-140px',
+                        'margin-right': '-20px',
+                        'text-align': 'left',
+                        'background-color': 'blue',
+                        'z-index': '99999999999'
+                    });
+                }
+            } else if (window.matchMedia("(min-width: 999px)").matches) {
                                         // Dodatkowe style, jeśli indexDiv jest podzielny przez 4
                                         if (indexDiv % 4 === 1) {
                                             // Dodaj klasę 'scene-description2' do $sceneDiv
@@ -4308,225 +4281,225 @@ ${sentence30}${sentence33}<br>
                                             // Upewnij się, że klasa 'scene-description2' jest usunięta, jeśli nie jest podzielna przez 4
                                             $sceneDiv.removeClass('scene-description2');
                                         }
-                                    }
-                                }
+            }
+        }
 // Tworzenie przycisku "Stop"
-                                if (!stopButtonAdded) {
-                                    const $stopButton = $('<img>')
-                                            .attr('src', 'http://arbu-1dcc9.web.app/img/stopok2.png')
-                                            .css({
-                                                'display': 'none', // Ukryty na starcie
-                                                'position': 'absolute', // Precyzyjne pozycjonowanie względem kontenera
-                                                'top': '-15px',
-                                                'left': '20px',
-                                                'width': '40px',
-                                                'height': '40px',
-                                                'z-index': '999999',
-                                                'cursor': 'pointer' // Ustawienie kursora jako wskaźnik
-                                            })
-                                            .on('click', function () {
-                                                // Pętla po wszystkich elementach wideo i zatrzymywanie każdego z nich
-                                                $('video').each(function () {
-                                                    const video = this;
-                                                    if (!video.paused) {
-                                                        video.pause();
-                                                        // Zmień obrazek na "Play"
-                                                        $stopButton.attr('src', 'http://arbu-1dcc9.web.app/img/play.png');
-                                                    } else {
-                                                        video.play();
-                                                        // Zmień obrazek z powrotem na "Stop"
-                                                        $stopButton.attr('src', 'http://arbu-1dcc9.web.app/img/stopok2.png');
-                                                    }
-                                                });
-                                            });
+if (!stopButtonAdded) {
+    const $stopButton = $('<img>')
+        .attr('src', 'http://arbu-1dcc9.web.app/img/stopok2.png')
+        .css({
+            'display': 'none', // Ukryty na starcie
+            'position': 'absolute', // Precyzyjne pozycjonowanie względem kontenera
+            'top': '-15px',
+            'left': '20px',
+            'width': '40px',
+            'height': '40px',
+            'z-index': '999999',
+            'cursor': 'pointer' // Ustawienie kursora jako wskaźnik
+        })
+        .on('click', function () {
+            // Pętla po wszystkich elementach wideo i zatrzymywanie każdego z nich
+            $('video').each(function () {
+                const video = this;
+                if (!video.paused) {
+                    video.pause();
+                    // Zmień obrazek na "Play"
+                    $stopButton.attr('src', 'http://arbu-1dcc9.web.app/img/play.png');
+                } else {
+                    video.play();
+                    // Zmień obrazek z powrotem na "Stop"
+                    $stopButton.attr('src', 'http://arbu-1dcc9.web.app/img/stopok2.png');
+                }
+            });
+        });
 
-                                    // Dodanie przycisku do kontenera
-                                    $stopButton.appendTo($container);
+    // Dodanie przycisku do kontenera
+    $stopButton.appendTo($container);
 
-                                    // Pokazywanie przycisku na hover kontenera
-                                    $container.on('mouseover', function () {
-                                        $stopButton.show();
-                                    });
+    // Pokazywanie przycisku na hover kontenera
+    $container.on('mouseover', function () {
+        $stopButton.show();
+    });
 
-                                    // Ukrywanie przycisku, gdy mysz opuści kontener
-                                    $container.on('mouseout', function () {
-                                        $stopButton.hide();
-                                    });
+    // Ukrywanie przycisku, gdy mysz opuści kontener
+    $container.on('mouseout', function () {
+        $stopButton.hide();
+    });
 
-                                    stopButtonAdded = true;  // Flaga ustawiona na true, gdy przycisk został dodany
-                                }
-                            }
+    stopButtonAdded = true;  // Flaga ustawiona na true, gdy przycisk został dodany
+}
+    }
 
-                            addVideo2(0);
-                        } else if (indexDiv === 1 || indexDiv === 11 || indexDiv === 13 || indexDiv === 17 || indexDiv === 19 || indexDiv === 23 || indexDiv === 29 || indexDiv === 31 || indexDiv === 37 || indexDiv === 41 || indexDiv === 43 || indexDiv % 3 === 0 || indexDiv % 5 === 0 || indexDiv % 7 === 0) {
-                            function addVideo2b(index) {
-                                console.log('hej80', index);
+    addVideo2(0);
+    } else if (indexDiv === 1 || indexDiv === 11 || indexDiv === 13 || indexDiv === 17 || indexDiv === 19 || indexDiv === 23 || indexDiv === 29 || indexDiv === 31 || indexDiv === 37 || indexDiv === 41 || indexDiv === 43 || indexDiv % 3 === 0 || indexDiv % 5 === 0 || indexDiv % 7 === 0) {
+            function addVideo2b(index) {
+        console.log('hej80', index);
 
-                                // Sprawdź, czy jesteśmy poza zakresem tablicy
-                                if (index >= srcWords.length && !funkcjaWywolana) {
-                                    setTimeout(function () {
-                                        $('.progress-bar').remove();
-                                    }, 200); // Opóźnienie w milisekundach (tu: 200 ms)
-                                    przekazArgument0(tablica3[2], undefined, false, tablica3[0], true, true, tablica3[1], tablica3[4]);
-                                    console.log("wykonuje się");
-                                    funkcjaWywolana = true;
-                                }
+        // Sprawdź, czy jesteśmy poza zakresem tablicy
+        if (index >= srcWords.length && !funkcjaWywolana) {
+            setTimeout(function () {
+                $('.progress-bar').remove();
+            }, 200); // Opóźnienie w milisekundach (tu: 200 ms)
+            przekazArgument0(tablica3[2], undefined, false, tablica3[0], true, true, tablica3[1], tablica3[4]);
+            console.log("wykonuje się");
+            funkcjaWywolana = true;
+        }
 
-                                // Usuń poprzednie wideo
-                                removePreviousVideo();
-                                console.log('hej78', index);
+        // Usuń poprzednie wideo
+        removePreviousVideo();
+        console.log('hej78', index);
 
-                                // Dodaj div z wideo do tła kontenera
-                                const $vidDiv = $('<div>').addClass('background-video22');
+        // Dodaj div z wideo do tła kontenera
+        const $vidDiv = $('<div>').addClass('background-video22');
+        
+        // Utwórz element <video> i ustaw atrybuty
+        const $videoElement = $('<video>').attr({
+            'autoplay': true, // Automatyczne odtwarzanie wideo
+            'muted': true, // Wyciszenie dźwięku wideo
+            'loop': true // Zapętlenie wideo
+        });
+            if (window.matchMedia("(min-width: 999px)").matches) {
+        // Dodaj klasę CSS zależnie od indeksu wideo
+        if (index === 0) {
+            $videoElement.addClass('scaled-video');
+        } else {
+            $videoElement.addClass('next-video');
+        }
+            }
+        // Utwórz element <source> dla wideo i ustaw atrybuty
+        const $sourceElement = $('<source>').attr({
+            'src': srcWords[index], // Poprawne użycie interpolacji
+            'type': 'video/mp4'     // Typ pliku wideo
+        });
 
-                                // Utwórz element <video> i ustaw atrybuty
-                                const $videoElement = $('<video>').attr({
-                                    'autoplay': true, // Automatyczne odtwarzanie wideo
-                                    'muted': true, // Wyciszenie dźwięku wideo
-                                    'loop': true // Zapętlenie wideo
-                                });
-                                if (window.matchMedia("(min-width: 999px)").matches) {
-                                    // Dodaj klasę CSS zależnie od indeksu wideo
-                                    if (index === 0) {
-                                        $videoElement.addClass('scaled-video');
-                                    } else {
-                                        $videoElement.addClass('next-video');
-                                    }
-                                }
-                                // Utwórz element <source> dla wideo i ustaw atrybuty
-                                const $sourceElement = $('<source>').attr({
-                                    'src': srcWords[index], // Poprawne użycie interpolacji
-                                    'type': 'video/mp4'     // Typ pliku wideo
-                                });
+        // Dodaj element source do elementu video
+        $sourceElement.appendTo($videoElement);
 
-                                // Dodaj element source do elementu video
-                                $sourceElement.appendTo($videoElement);
+        // Dodaj element video do diva dla wideo
+        $videoElement.appendTo($vidDiv);
 
-                                // Dodaj element video do diva dla wideo
-                                $videoElement.appendTo($vidDiv);
+        // Dodaj element <source> do elementu <video>
+        // Obsługa błędu ładowania wideo
+        $videoElement.onerror = function () {
+            console.error('Nie można załadować pliku wideo.');
+        };
 
-                                // Dodaj element <source> do elementu <video>
-                                // Obsługa błędu ładowania wideo
-                                $videoElement.onerror = function () {
-                                    console.error('Nie można załadować pliku wideo.');
-                                };
+        let currentIndexValue = [];
+        
+        // Funkcja obsługi zdarzenia loadedmetadata
+        $videoElement.on('loadedmetadata', function () {
+            const videoDuration = this.duration;
+            videoDurations[index] = videoDuration;
+            console.log('tablica77', totalDuration);
 
-                                let currentIndexValue = [];
+            $videoElement.on('timeupdate', function () {
+                let adjustedProgress = 0;
+                for (let i = 0; i < index; i++) {
+                    adjustedProgress += (videoDurations[i] / totalDuration) * 100;
+                }
+                adjustedProgress += (this.currentTime / videoDuration) * (videoDurations[index] / totalDuration) * 100;
+                updateProgress(adjustedProgress);
+                console.log('hej78', index);
 
-                                // Funkcja obsługi zdarzenia loadedmetadata
-                                $videoElement.on('loadedmetadata', function () {
-                                    const videoDuration = this.duration;
-                                    videoDurations[index] = videoDuration;
-                                    console.log('tablica77', totalDuration);
+                // Sprawdź, czy wartość index nie została jeszcze dodana do tablicy currentIndex
+                if (!currentIndexValue.includes(index)) {
+                    // Dodaj index do tablicy currentIndex
+                    currentIndexValue.push(index);
+                    console.log('hej70', currentIndexValue);
 
-                                    $videoElement.on('timeupdate', function () {
-                                        let adjustedProgress = 0;
-                                        for (let i = 0; i < index; i++) {
-                                            adjustedProgress += (videoDurations[i] / totalDuration) * 100;
+                    // Wywołaj funkcję addBackgroundToText tylko raz
+                    if (currentIndexValue[0] === 0 || currentIndexValue[0] === 1 || currentIndexValue[0] === 2) {
+                        addBackgroundToText(matchingFiszki1, matchingIndexes, currentIndexValue, true, lesson1FirstPartLength, lesson1PartLength);
+                    }
+                }
+
+                // Sprawdź, czy wideo zostało zakończone
+                if ($videoElement[0].duration - $videoElement[0].currentTime < 1) {
+                    console.log('Wideo zakończone, uruchamiam następne.');
+                    // Odtwórz następne wideo po zakończeniu poprzedniego
+                    addVideo2b(index + 1);
+                    updateProgress(0);
+                }
+            });
+        });
+
+        addScenes(index);
+        // Dodaj wideo do kontenera
+        $vidDiv.appendTo($container);
+
+        function updateProgress(progress) {
+            // Aktualizuj pasek postępu na dole kontenera
+            $('.progress-bar').css('width', progress + '%');
+        }
+
+        // Inicjalizacja paska postępu
+        const $progressBar = $('<div>').addClass('progress-bar');
+                                        if (window.matchMedia("(min-width: 999px)").matches) {
+        $progressBar.css({
+            'position': 'absolute',
+            'z-index': '2',
+            'bottom': '0',
+            'left': '0',
+            'height': '7px', // Wysokość paska postępu
+            'background-color': 'green', // Kolor paska postępu
+            'width': '140%', // Delikatne powiększenie paska postępu o 2% w każdym kierunku
+            'margin-bottom': '-2%',
+            'margin-left': '-4%',
+            'margin-right': '-4%' // Zapewnienie równowagi dla powiększenia paska postępu
+        });
+                                        } else {
+                                                    $progressBar.css({
+            'position': 'absolute',
+            'z-index': '2',
+            'bottom': '0px',
+            'left': '0px',
+            'height': '7px', // Wysokość paska postępu
+            'background-color': 'green', // Kolor paska postępu
+            'width': '100%' // Delikatne powiększenie paska postępu o 2% w każdym kierunku
+        });
                                         }
-                                        adjustedProgress += (this.currentTime / videoDuration) * (videoDurations[index] / totalDuration) * 100;
-                                        updateProgress(adjustedProgress);
-                                        console.log('hej78', index);
+        $progressBar.appendTo($container);
 
-                                        // Sprawdź, czy wartość index nie została jeszcze dodana do tablicy currentIndex
-                                        if (!currentIndexValue.includes(index)) {
-                                            // Dodaj index do tablicy currentIndex
-                                            currentIndexValue.push(index);
-                                            console.log('hej70', currentIndexValue);
+        function addScenes(index) {
+            // Sprawdź, czy istnieje element <div> o klasie 'scene-description'
+            let $sceneDiv = $container.find('.scene-description');
 
-                                            // Wywołaj funkcję addBackgroundToText tylko raz
-                                            if (currentIndexValue[0] === 0 || currentIndexValue[0] === 1 || currentIndexValue[0] === 2) {
-                                                addBackgroundToText(matchingFiszki1, matchingIndexes, currentIndexValue, true, lesson1FirstPartLength, lesson1PartLength);
-                                            }
-                                        }
+            if ($sceneDiv.length) {
+                // Jeśli istnieje, wyczyść jego zawartość
+                $sceneDiv.empty();
+            } else {
+                // Jeśli nie istnieje, stwórz nowy element <div>
+                $sceneDiv = $('<div>').addClass('scene-description').appendTo($container);
+            }
 
-                                        // Sprawdź, czy wideo zostało zakończone
-                                        if ($videoElement[0].duration - $videoElement[0].currentTime < 1) {
-                                            console.log('Wideo zakończone, uruchamiam następne.');
-                                            // Odtwórz następne wideo po zakończeniu poprzedniego
-                                            addVideo2b(index + 1);
-                                            updateProgress(0);
-                                        }
-                                    });
-                                });
+            // Dodaj nowy tekst do <div>
+            $sceneDiv.text(`Scena z filmu ${srcWords2[index]}`);
 
-                                addScenes(index);
-                                // Dodaj wideo do kontenera
-                                $vidDiv.appendTo($container);
-
-                                function updateProgress(progress) {
-                                    // Aktualizuj pasek postępu na dole kontenera
-                                    $('.progress-bar').css('width', progress + '%');
-                                }
-
-                                // Inicjalizacja paska postępu
-                                const $progressBar = $('<div>').addClass('progress-bar');
-                                if (window.matchMedia("(min-width: 999px)").matches) {
-                                    $progressBar.css({
-                                        'position': 'absolute',
-                                        'z-index': '2',
-                                        'bottom': '0',
-                                        'left': '0',
-                                        'height': '7px', // Wysokość paska postępu
-                                        'background-color': 'green', // Kolor paska postępu
-                                        'width': '140%', // Delikatne powiększenie paska postępu o 2% w każdym kierunku
-                                        'margin-bottom': '-2%',
-                                        'margin-left': '-4%',
-                                        'margin-right': '-4%' // Zapewnienie równowagi dla powiększenia paska postępu
-                                    });
-                                } else {
-                                    $progressBar.css({
-                                        'position': 'absolute',
-                                        'z-index': '2',
-                                        'bottom': '0px',
-                                        'left': '0px',
-                                        'height': '7px', // Wysokość paska postępu
-                                        'background-color': 'green', // Kolor paska postępu
-                                        'width': '100%' // Delikatne powiększenie paska postępu o 2% w każdym kierunku
-                                    });
-                                }
-                                $progressBar.appendTo($container);
-
-                                function addScenes(index) {
-                                    // Sprawdź, czy istnieje element <div> o klasie 'scene-description'
-                                    let $sceneDiv = $container.find('.scene-description');
-
-                                    if ($sceneDiv.length) {
-                                        // Jeśli istnieje, wyczyść jego zawartość
-                                        $sceneDiv.empty();
-                                    } else {
-                                        // Jeśli nie istnieje, stwórz nowy element <div>
-                                        $sceneDiv = $('<div>').addClass('scene-description').appendTo($container);
-                                    }
-
-                                    // Dodaj nowy tekst do <div>
-                                    $sceneDiv.text(`Scena z filmu ${srcWords2[index]}`);
-
-                                    if (window.matchMedia("(max-width: 999px)").matches) {
-                                        if (indexDiv % 2 === 0) {
-                                            console.log('Warunek podzielności przez 2 spełniony2');
-                                            // Zmień CSS paska napisu, aby wyświetlał się po lewej stronie kontenera
-                                            $sceneDiv.css({
-                                                'position': 'relative',
-                                                'margin-top': '-140px',
-                                                'margin-left': '-450px',
-                                                'text-align': 'left',
-                                                'background-color': 'orange',
-                                                'z-index': '9999999'
-                                            });
-                                        } else if (indexDiv % 1 === 0 || indexDiv % 3 === 0 || indexDiv % 5 === 0) {
-                                            console.log('Warunek podzielności przez 1 spełniony2');
-                                            // Zmień CSS paska napisu, aby wyświetlał się po lewej stronie kontenera
-                                            $sceneDiv.css({
-                                                'position': 'relative',
-                                                'margin-top': '-140px',
-                                                'margin-right': '-20px',
-                                                'text-align': 'left',
-                                                'background-color': 'blue',
-                                                'z-index': '99999999999'
-                                            });
-                                        }
-                                    } else if (window.matchMedia("(min-width: 999px)").matches) {
+            if (window.matchMedia("(max-width: 999px)").matches) {
+                if (indexDiv % 2 === 0) {
+                    console.log('Warunek podzielności przez 2 spełniony2');
+                    // Zmień CSS paska napisu, aby wyświetlał się po lewej stronie kontenera
+                    $sceneDiv.css({
+                        'position': 'relative',
+                        'margin-top': '-140px',
+                        'margin-left': '-450px',
+                        'text-align': 'left',
+                        'background-color': 'orange',
+                        'z-index': '9999999'
+                    });
+                } else if (indexDiv % 1 === 0 || indexDiv % 3 === 0 || indexDiv % 5 === 0) {
+                    console.log('Warunek podzielności przez 1 spełniony2');
+                    // Zmień CSS paska napisu, aby wyświetlał się po lewej stronie kontenera
+                    $sceneDiv.css({
+                        'position': 'relative',
+                        'margin-top': '-140px',
+                        'margin-right': '-20px',
+                        'text-align': 'left',
+                        'background-color': 'blue',
+                        'z-index': '99999999999'
+                    });
+                }
+            } else if (window.matchMedia("(min-width: 999px)").matches) {
                                         // Dodatkowe style, jeśli indexDiv jest podzielny przez 4
                                         if (indexDiv % 4 === 1) {
                                             // Dodaj klasę 'scene-description2' do $sceneDiv
@@ -4536,541 +4509,541 @@ ${sentence30}${sentence33}<br>
                                             // Upewnij się, że klasa 'scene-description2' jest usunięta, jeśli nie jest podzielna przez 4
                                             $sceneDiv.removeClass('scene-description2');
                                         }
-                                    }
-                                }
+            }
+        }
 // Tworzenie przycisku "Stop"
-                                if (!stopButtonAdded) {
-                                    const $stopButton = $('<img>')
-                                            .attr('src', 'http://arbu-1dcc9.web.app/img/stopok2.png')
-                                            .css({
-                                                'display': 'none', // Ukryty na starcie
-                                                'position': 'absolute', // Precyzyjne pozycjonowanie względem kontenera
-                                                'top': '-15px',
-                                                'left': '20px',
-                                                'width': '40px',
-                                                'height': '40px',
-                                                'z-index': '999999',
-                                                'cursor': 'pointer' // Ustawienie kursora jako wskaźnik
-                                            })
-                                            .on('click', function () {
-                                                // Pętla po wszystkich elementach wideo i zatrzymywanie każdego z nich
-                                                $('video').each(function () {
-                                                    const video = this;
-                                                    if (!video.paused) {
-                                                        video.pause();
-                                                        // Zmień obrazek na "Play"
-                                                        $stopButton.attr('src', 'http://arbu-1dcc9.web.app/img/play.png');
-                                                    } else {
-                                                        video.play();
-                                                        // Zmień obrazek z powrotem na "Stop"
-                                                        $stopButton.attr('src', 'http://arbu-1dcc9.web.app/img/stopok2.png');
-                                                    }
-                                                });
-                                            });
+if (!stopButtonAdded) {
+    const $stopButton = $('<img>')
+        .attr('src', 'http://arbu-1dcc9.web.app/img/stopok2.png')
+        .css({
+            'display': 'none', // Ukryty na starcie
+            'position': 'absolute', // Precyzyjne pozycjonowanie względem kontenera
+            'top': '-15px',
+            'left': '20px',
+            'width': '40px',
+            'height': '40px',
+            'z-index': '999999',
+            'cursor': 'pointer' // Ustawienie kursora jako wskaźnik
+        })
+        .on('click', function () {
+            // Pętla po wszystkich elementach wideo i zatrzymywanie każdego z nich
+            $('video').each(function () {
+                const video = this;
+                if (!video.paused) {
+                    video.pause();
+                    // Zmień obrazek na "Play"
+                    $stopButton.attr('src', 'http://arbu-1dcc9.web.app/img/play.png');
+                } else {
+                    video.play();
+                    // Zmień obrazek z powrotem na "Stop"
+                    $stopButton.attr('src', 'http://arbu-1dcc9.web.app/img/stopok2.png');
+                }
+            });
+        });
 
-                                    // Dodanie przycisku do kontenera
-                                    $stopButton.appendTo($container);
+    // Dodanie przycisku do kontenera
+    $stopButton.appendTo($container);
 
-                                    // Pokazywanie przycisku na hover kontenera
-                                    $container.on('mouseover', function () {
-                                        $stopButton.show();
-                                    });
+    // Pokazywanie przycisku na hover kontenera
+    $container.on('mouseover', function () {
+        $stopButton.show();
+    });
 
-                                    // Ukrywanie przycisku, gdy mysz opuści kontener
-                                    $container.on('mouseout', function () {
-                                        $stopButton.hide();
-                                    });
+    // Ukrywanie przycisku, gdy mysz opuści kontener
+    $container.on('mouseout', function () {
+        $stopButton.hide();
+    });
 
-                                    stopButtonAdded = true;  // Flaga ustawiona na true, gdy przycisk został dodany
-                                }
-                            }
-                            addVideo2b(0);
-                        }
-                    } else {
-                        function addVideo3(index) {
-                            console.log('index44b', indexDiv);
+    stopButtonAdded = true;  // Flaga ustawiona na true, gdy przycisk został dodany
+}
+    }
+    addVideo2b(0);
+    }
+} else {
+function addVideo3(index) {
+    console.log('index44b', indexDiv);
 
-                            // Tworzymy element <video> z atrybutami
-                            const $videoElement = $('<video>').attr({
-                                'muted': true,
-                                'loop': true,
-                                'style': 'z-index: 1',
-                                'poster': srcWordimage[index] // Dodanie plakatu do wideo
-                            });
+    // Tworzymy element <video> z atrybutami
+    const $videoElement = $('<video>').attr({
+        'muted': true,
+        'loop': true,
+        'style': 'z-index: 1',
+        'poster': srcWordimage[index] // Dodanie plakatu do wideo
+    });
 
 // Tworzymy kontener dla miniatur
-                            const $thumbnailContainer = $('<div>').addClass('thumbnail-container').css({
-                                display: 'flex',
-                                justifyContent: 'space-between',
-                                position: 'absolute',
-                                top: '10px',
-                                left: '10px',
-                                width: '90%', // Kontener zajmuje 90% szerokości wideo
-                                zIndex: '2',
-                                pointerEvents: 'auto' // Reaguje na zdarzenia
-                            });
+const $thumbnailContainer = $('<div>').addClass('thumbnail-container').css({
+    display: 'flex',
+    justifyContent: 'space-between',
+    position: 'absolute',
+    top: '10px',
+    left: '10px',
+    width: '90%', // Kontener zajmuje 90% szerokości wideo
+    zIndex: '2',
+    pointerEvents: 'auto' // Reaguje na zdarzenia
+});
 
 // Generujemy miniatury z tablicy srcWordsb
-                            srcWordsb.forEach((src, idx) => {
-                                // Miniatura
-                                const $thumbnail = $('<img>').attr({
-                                    src: src,
-                                    class: `thumbnail-${idx + 1}` // Klasa z idx+1
-                                }).css({
-                                    width: '100%', // Miniatura zajmuje całą szerokość wrappera
-                                    cursor: 'pointer',
-                                    border: '2px solid white',
-                                    borderRadius: '5px',
-                                    boxShadow: '0px 2px 4px rgba(0, 0, 0, 0.3)',
-                                });
+srcWordsb.forEach((src, idx) => {
+    // Miniatura
+    const $thumbnail = $('<img>').attr({
+        src: src,
+        class: `thumbnail-${idx + 1}` // Klasa z idx+1
+    }).css({
+        width: '100%', // Miniatura zajmuje całą szerokość wrappera
+        cursor: 'pointer',
+        border: '2px solid white',
+        borderRadius: '5px',
+        boxShadow: '0px 2px 4px rgba(0, 0, 0, 0.3)',
+    });
 
-                                // Overlay z ikonami
-                                const $icons = $('<div></div>').addClass('overlay-icons').css({
-                                    position: 'absolute',
-                                    top: '50%',
-                                    left: '50%',
-                                    transform: 'translate(-50%, -50%)',
-                                    display: 'none', // Ukryte na początku
-                                    flexDirection: 'column',
-                                    alignItems: 'center',
-                                    gap: '10px',
-                                    zIndex: 2
-                                });
+    // Overlay z ikonami
+    const $icons = $('<div></div>').addClass('overlay-icons').css({
+        position: 'absolute',
+        top: '50%',
+        left: '50%',
+        transform: 'translate(-50%, -50%)',
+        display: 'none', // Ukryte na początku
+        flexDirection: 'column',
+        alignItems: 'center',
+        gap: '10px',
+        zIndex: 2
+    });
 
-                                // Ikony
-                                const $speakerIcon = $('<img>').attr({
-                                    src: 'speaker-icon.png', // Ikona głośnika
-                                    alt: 'Głośnik'
-                                }).css({
-                                    width: '40px',
-                                    height: '40px',
-                                    cursor: 'pointer'
-                                });
+    // Ikony
+    const $speakerIcon = $('<img>').attr({
+        src: 'speaker-icon.png', // Ikona głośnika
+        alt: 'Głośnik'
+    }).css({
+        width: '40px',
+        height: '40px',
+        cursor: 'pointer'
+    });
 
-                                const $playIcon = $('<img>').attr({
-                                    src: 'play-icon.png', // Ikona play
-                                    alt: 'Play'
-                                }).css({
-                                    width: '40px',
-                                    height: '40px',
-                                    cursor: 'pointer'
-                                }).on('click', function () {
-                                    // Odtwarzanie wideo po kliknięciu
-                                    addVideo3(idx); // Przekazanie idx zamiast indexDiv
-                                });
+    const $playIcon = $('<img>').attr({
+        src: 'play-icon.png', // Ikona play
+        alt: 'Play'
+    }).css({
+        width: '40px',
+        height: '40px',
+        cursor: 'pointer'
+    }).on('click', function () {
+        // Odtwarzanie wideo po kliknięciu
+        addVideo3(idx); // Przekazanie idx zamiast indexDiv
+    });
 
-                                // Dodaj ikony do kontenera ikon
-                                $icons.append($speakerIcon, $playIcon);
+    // Dodaj ikony do kontenera ikon
+    $icons.append($speakerIcon, $playIcon);
 
-                                // Dodaj miniaturę i ikony do kontenera miniatury
-                                const $thumbnailWrapper = $('<div></div>').css({
-                                    position: 'relative', // Pozycjonowanie względne dla poprawnego overlay
-                                    width: '30%', // Każdy wrapper zajmuje 1/3 szerokości
-                                    overflow: 'hidden' // Zapewnia, że overlay nie wychodzi poza miniaturę
-                                }).append($thumbnail, $icons);
+    // Dodaj miniaturę i ikony do kontenera miniatury
+    const $thumbnailWrapper = $('<div></div>').css({
+        position: 'relative', // Pozycjonowanie względne dla poprawnego overlay
+        width: '30%', // Każdy wrapper zajmuje 1/3 szerokości
+        overflow: 'hidden' // Zapewnia, że overlay nie wychodzi poza miniaturę
+    }).append($thumbnail, $icons);
 
-                                // Obsługa hover
-                                $thumbnailWrapper.hover(
-                                        function () {
-                                            $icons.css('display', 'flex'); // Pokaż ikony
-                                        },
-                                        function () {
-                                            $icons.css('display', 'none'); // Ukryj ikony
-                                        }
-                                );
-                                let tablica6 = [0];
-                                // Dodajemy zdarzenie kliknięcia na miniaturę, które zmienia wideo
-                                $thumbnail.on('click', function () {
-                                    $videoElement.attr('poster', src); // Zmiana plakatu wideo na klikniętą miniaturę
-                                    $videoElement[0].load(); // Przeładowanie wideo
-                                    console.log('hej16', idx);
-                                    setTimeout(function () {
-                                        addVideo2bd(idx);
-                                    }, 200); // Opóźnienie w milisekundach (tu: 200 ms)
-                                });
-                                // Dodaj wrapper do głównego kontenera
-                                $thumbnailContainer.append($thumbnailWrapper);
+    // Obsługa hover
+    $thumbnailWrapper.hover(
+        function () {
+            $icons.css('display', 'flex'); // Pokaż ikony
+        },
+        function () {
+            $icons.css('display', 'none'); // Ukryj ikony
+        }
+    );
+    let tablica6 = [0];
+            // Dodajemy zdarzenie kliknięcia na miniaturę, które zmienia wideo
+            $thumbnail.on('click', function () {
+                $videoElement.attr('poster', src); // Zmiana plakatu wideo na klikniętą miniaturę
+                $videoElement[0].load(); // Przeładowanie wideo
+                                console.log('hej16', idx);
+                                setTimeout(function () {
+                addVideo2bd(idx);
+}, 200); // Opóźnienie w milisekundach (tu: 200 ms)
+            });
+    // Dodaj wrapper do głównego kontenera
+    $thumbnailContainer.append($thumbnailWrapper);
 
-                                function addVideo2bd(idx) {
-                                    let initialProgress = 0;
-                                    console.log('hej80d', idx);
+    function addVideo2bd(idx) {
+            let initialProgress = 0;
+        console.log('hej80d', idx);
 
-                                    console.log('hej10a', tablica12ab[0]);
-                                    // Sprawdź, czy jesteśmy poza zakresem tablicy
-                                    if (idx >= srcWords.length && !funkcjaWywolana) {
-                                        setTimeout(function () {
-                                            $('.progress-bar').remove();
-                                        }, 200); // Opóźnienie w milisekundach (tu: 200 ms)
-                                        przekazArgument0(tablica3[2], undefined, false, tablica3[0], true, true, tablica3[1], tablica3[4]);
-                                        console.log("wykonuje się");
-                                        funkcjaWywolana = true;
-                                    }
+            console.log('hej10a', tablica12ab[0]);
+        // Sprawdź, czy jesteśmy poza zakresem tablicy
+        if (idx >= srcWords.length && !funkcjaWywolana) {
+            setTimeout(function () {
+                $('.progress-bar').remove();
+            }, 200); // Opóźnienie w milisekundach (tu: 200 ms)
+            przekazArgument0(tablica3[2], undefined, false, tablica3[0], true, true, tablica3[1], tablica3[4]);
+            console.log("wykonuje się");
+            funkcjaWywolana = true;
+        }
 
-                                    // Usuń poprzednie wideo
-                                    removePreviousVideo();
-                                    console.log('hej78', idx);
+        // Usuń poprzednie wideo
+        removePreviousVideo();
+        console.log('hej78', idx);
 
-                                    // Dodaj div z wideo do tła kontenera
-                                    const $vidDiv = $('<div>').addClass('background-video22');
+        // Dodaj div z wideo do tła kontenera
+        const $vidDiv = $('<div>').addClass('background-video22');
+        
+        // Utwórz element <video> i ustaw atrybuty
+        const $videoElement = $('<video>').attr({
+            'autoplay': true, // Automatyczne odtwarzanie wideo
+            'muted': true, // Wyciszenie dźwięku wideo
+            'loop': true // Zapętlenie wideo
+        });
+        // Utwórz element <source> dla wideo i ustaw atrybuty
+        const $sourceElement = $('<source>').attr({
+            'src': srcWords[idx], // Poprawne użycie interpolacji
+            'type': 'video/mp4'     // Typ pliku wideo
+        });
 
-                                    // Utwórz element <video> i ustaw atrybuty
-                                    const $videoElement = $('<video>').attr({
-                                        'autoplay': true, // Automatyczne odtwarzanie wideo
-                                        'muted': true, // Wyciszenie dźwięku wideo
-                                        'loop': true // Zapętlenie wideo
-                                    });
-                                    // Utwórz element <source> dla wideo i ustaw atrybuty
-                                    const $sourceElement = $('<source>').attr({
-                                        'src': srcWords[idx], // Poprawne użycie interpolacji
-                                        'type': 'video/mp4'     // Typ pliku wideo
-                                    });
+        // Dodaj element source do elementu video
+        $sourceElement.appendTo($videoElement);
 
-                                    // Dodaj element source do elementu video
-                                    $sourceElement.appendTo($videoElement);
+        // Dodaj element video do diva dla wideo
+        $videoElement.appendTo($vidDiv);
 
-                                    // Dodaj element video do diva dla wideo
-                                    $videoElement.appendTo($vidDiv);
+        // Dodaj element <source> do elementu <video>
+        // Obsługa błędu ładowania wideo
+        $videoElement.onerror = function () {
+            console.error('Nie można załadować pliku wideo.');
+        };
+                    if (idx === 1 || idx === 2) {
+            function addVideo2bd0(index) {
+        console.log('hej80dB', idx);
 
-                                    // Dodaj element <source> do elementu <video>
-                                    // Obsługa błędu ładowania wideo
-                                    $videoElement.onerror = function () {
-                                        console.error('Nie można załadować pliku wideo.');
-                                    };
-                                    if (idx === 1 || idx === 2) {
-                                        function addVideo2bd0(index) {
-                                            console.log('hej80dB', idx);
+        // Usuń poprzednie wideo
+        removePreviousVideo();
+        console.log('hej78', idx);
 
-                                            // Usuń poprzednie wideo
-                                            removePreviousVideo();
-                                            console.log('hej78', idx);
+        // Dodaj div z wideo do tła kontenera
+        const $vidDiv = $('<div>').addClass('background-video22');
+        
+        // Utwórz element <video> i ustaw atrybuty
+        const $videoElement = $('<video>').attr({
+            'autoplay': true, // Automatyczne odtwarzanie wideo
+            'muted': true, // Wyciszenie dźwięku wideo
+            'loop': true // Zapętlenie wideo
+        });
+        // Utwórz element <source> dla wideo i ustaw atrybuty
+        const $sourceElement = $('<source>').attr({
+            'src': srcWords[index], // Poprawne użycie interpolacji
+            'type': 'video/mp4'     // Typ pliku wideo
+        });
 
-                                            // Dodaj div z wideo do tła kontenera
-                                            const $vidDiv = $('<div>').addClass('background-video22');
+        // Dodaj element source do elementu video
+        $sourceElement.appendTo($videoElement);
 
-                                            // Utwórz element <video> i ustaw atrybuty
-                                            const $videoElement = $('<video>').attr({
-                                                'autoplay': true, // Automatyczne odtwarzanie wideo
-                                                'muted': true, // Wyciszenie dźwięku wideo
-                                                'loop': true // Zapętlenie wideo
-                                            });
-                                            // Utwórz element <source> dla wideo i ustaw atrybuty
-                                            const $sourceElement = $('<source>').attr({
-                                                'src': srcWords[index], // Poprawne użycie interpolacji
-                                                'type': 'video/mp4'     // Typ pliku wideo
-                                            });
+        // Dodaj element video do diva dla wideo
+        $videoElement.appendTo($vidDiv);
 
-                                            // Dodaj element source do elementu video
-                                            $sourceElement.appendTo($videoElement);
+        // Dodaj element <source> do elementu <video>
+        // Obsługa błędu ładowania wideo
+        $videoElement.onerror = function () {
+            console.error('Nie można załadować pliku wideo.');
+        };
 
-                                            // Dodaj element video do diva dla wideo
-                                            $videoElement.appendTo($vidDiv);
-
-                                            // Dodaj element <source> do elementu <video>
-                                            // Obsługa błędu ładowania wideo
-                                            $videoElement.onerror = function () {
-                                                console.error('Nie można załadować pliku wideo.');
-                                            };
-
-                                            let currentIndexValue = [];
-                                            // Oblicz początkowy postęp na podstawie wszystkich wcześniejszych wideo
-
-
-                                            console.log('Początkowy postęp dla indeksu:', idx, 'to:', initialProgress);
-
-                                            // Obsługa załadowania metadanych wideo
-                                            $videoElement.on('loadedmetadata', function () {
-                                                const videoDuration = this.duration;
-                                                videoDurations[index] = videoDuration;
-
-                                                // Aktualizacja totalDuration, jeśli jeszcze nie obliczone
-                                                if (!totalDuration) {
-                                                    totalDuration = videoDurations.reduce((sum, duration) => sum + (duration || 0), 0);
-                                                }
-
-                                                tablica12ab.push(videoDuration);
-                                                console.log('hej15b', tablica12ab[0]);
-                                                // Obsługa postępu w trakcie odtwarzania wideo
-
-                                            });
-                                        }
-                                        addVideo2bd0(0);
-                                    }
-                                    setTimeout(function () {
-                                        console.log('hej24bc', tablica12ab[0]);
-                                    }, 300); // Opóźnienie w milisekundach (tu: 200 ms)
-                                    if (idx === 2) {
-                                        function addVideo2bd0(idx) {
-                                            console.log('hej80dB', idx);
-
-                                            // Usuń poprzednie wideo
-                                            removePreviousVideo();
-                                            console.log('hej78', idx);
-
-                                            // Dodaj div z wideo do tła kontenera
-                                            const $vidDiv = $('<div>').addClass('background-video22');
-
-                                            // Utwórz element <video> i ustaw atrybuty
-                                            const $videoElement = $('<video>').attr({
-                                                'autoplay': true, // Automatyczne odtwarzanie wideo
-                                                'muted': true, // Wyciszenie dźwięku wideo
-                                                'loop': true // Zapętlenie wideo
-                                            });
-                                            // Utwórz element <source> dla wideo i ustaw atrybuty
-                                            const $sourceElement = $('<source>').attr({
-                                                'src': srcWords[idx], // Poprawne użycie interpolacji
-                                                'type': 'video/mp4'     // Typ pliku wideo
-                                            });
-
-                                            // Dodaj element source do elementu video
-                                            $sourceElement.appendTo($videoElement);
-
-                                            // Dodaj element video do diva dla wideo
-                                            $videoElement.appendTo($vidDiv);
-
-                                            // Dodaj element <source> do elementu <video>
-                                            // Obsługa błędu ładowania wideo
-                                            $videoElement.onerror = function () {
-                                                console.error('Nie można załadować pliku wideo.');
-                                            };
-
-                                            let currentIndexValue = [];
-                                            // Oblicz początkowy postęp na podstawie wszystkich wcześniejszych wideo
-
-                                            console.log('Początkowy postęp dla indeksu:', idx, 'to:', initialProgress);
-
-                                            // Obsługa załadowania metadanych wideo
-                                            $videoElement.on('loadedmetadata', function () {
-                                                const videoDuration = this.duration;
-                                                videoDurations[idx] = videoDuration;
-
-                                                // Aktualizacja totalDuration, jeśli jeszcze nie obliczone
-                                                if (!totalDuration) {
-                                                    totalDuration = videoDurations.reduce((sum, duration) => sum + (duration || 0), 0);
-                                                }
-                                                console.log('hej15', videoDuration);
-                                                tablica12ad.push(videoDuration);
-                                                tablica12abc[0] = tablica12ab[0] + tablica12ad[0];
-                                                // Obsługa postępu w trakcie odtwarzania wideo
-
-                                            });
-                                        }
-                                        addVideo2bd0(1);
-                                    }
-
-                                    console.log('hej24bci', tablica12ad[0]);
-                                    console.log('hej24bcl', tablica12abc[0]);
-                                    let currentIndexValue = [];
+        let currentIndexValue = [];
+    // Oblicz początkowy postęp na podstawie wszystkich wcześniejszych wideo
 
 
-                                    $videoElement.on('loadedmetadata', function () {
-                                        const videoDuration = this.duration;
-                                        videoDurations[idx] = videoDuration;
-                                        console.log('tablica77', totalDuration);
-                                        $videoElement.on('timeupdate', function () {
+    console.log('Początkowy postęp dla indeksu:', idx, 'to:', initialProgress);
+
+    // Obsługa załadowania metadanych wideo
+    $videoElement.on('loadedmetadata', function () {
+        const videoDuration = this.duration;
+        videoDurations[index] = videoDuration;
+
+        // Aktualizacja totalDuration, jeśli jeszcze nie obliczone
+        if (!totalDuration) {
+            totalDuration = videoDurations.reduce((sum, duration) => sum + (duration || 0), 0);
+        }
+
+                tablica12ab.push(videoDuration);
+                        console.log('hej15b', tablica12ab[0]);
+        // Obsługa postępu w trakcie odtwarzania wideo
+
+        });
+        }
+        addVideo2bd0(0);
+    }
+    setTimeout(function () {
+                console.log('hej24bc', tablica12ab[0]);
+                }, 300); // Opóźnienie w milisekundach (tu: 200 ms)
+            if (idx === 2) {
+            function addVideo2bd0(idx) {
+        console.log('hej80dB', idx);
+
+        // Usuń poprzednie wideo
+        removePreviousVideo();
+        console.log('hej78', idx);
+
+        // Dodaj div z wideo do tła kontenera
+        const $vidDiv = $('<div>').addClass('background-video22');
+        
+        // Utwórz element <video> i ustaw atrybuty
+        const $videoElement = $('<video>').attr({
+            'autoplay': true, // Automatyczne odtwarzanie wideo
+            'muted': true, // Wyciszenie dźwięku wideo
+            'loop': true // Zapętlenie wideo
+        });
+        // Utwórz element <source> dla wideo i ustaw atrybuty
+        const $sourceElement = $('<source>').attr({
+            'src': srcWords[idx], // Poprawne użycie interpolacji
+            'type': 'video/mp4'     // Typ pliku wideo
+        });
+
+        // Dodaj element source do elementu video
+        $sourceElement.appendTo($videoElement);
+
+        // Dodaj element video do diva dla wideo
+        $videoElement.appendTo($vidDiv);
+
+        // Dodaj element <source> do elementu <video>
+        // Obsługa błędu ładowania wideo
+        $videoElement.onerror = function () {
+            console.error('Nie można załadować pliku wideo.');
+        };
+
+        let currentIndexValue = [];
+    // Oblicz początkowy postęp na podstawie wszystkich wcześniejszych wideo
+
+    console.log('Początkowy postęp dla indeksu:', idx, 'to:', initialProgress);
+
+    // Obsługa załadowania metadanych wideo
+    $videoElement.on('loadedmetadata', function () {
+        const videoDuration = this.duration;
+        videoDurations[idx] = videoDuration;
+
+        // Aktualizacja totalDuration, jeśli jeszcze nie obliczone
+        if (!totalDuration) {
+            totalDuration = videoDurations.reduce((sum, duration) => sum + (duration || 0), 0);
+        }
+        console.log('hej15', videoDuration);
+        tablica12ad.push(videoDuration);
+        tablica12abc[0] = tablica12ab[0] + tablica12ad[0];
+        // Obsługa postępu w trakcie odtwarzania wideo
+
+        });
+        }
+        addVideo2bd0(1);
+    }
+
+                        console.log('hej24bci', tablica12ad[0]);
+                        console.log('hej24bcl', tablica12abc[0]);
+        let currentIndexValue = [];
+
+
+                            $videoElement.on('loadedmetadata', function () {
+                                const videoDuration = this.duration;
+                                videoDurations[idx] = videoDuration;
+                                console.log('tablica77', totalDuration);
+                                $videoElement.on('timeupdate', function () {
                                             let adjustedProgress = 0;
 
-                                            adjustedProgress += (this.currentTime / videoDuration) * (videoDurations[idx] / totalDuration) * 100;
-                                            console.log('hej22cd', idx);
-                                            if (idx === 0) {
-                                                let startPosition = 0;  // Przykład: start na początku
-                                                let startPositionPercentage = (startPosition / totalDuration) * 100; // Przeliczenie na procent
-                                                console.log('hej24b1', startPositionPercentage);
-                                                updateProgress2(startPositionPercentage, adjustedProgress);
-                                            }
-                                            if (idx === 1) {
-                                                setTimeout(function () {
-                                                    let startPosition = tablica12ab[0];  // Przykład: start na określonej wartości
-                                                    let startPositionPercentage = (startPosition / totalDuration) * 100; // Przeliczenie na procent
-                                                    console.log('hej24b2', startPositionPercentage);
-                                                    updateProgress2(startPositionPercentage, adjustedProgress);
-                                                }, 800); // Opóźnienie w milisekundach
-                                            }
-                                            if (idx === 2) {
-                                                let startPosition = tablica12abc[0];  // Przykład: start na określonej wartości
-                                                let startPositionPercentage = (startPosition / totalDuration) * 100; // Przeliczenie na procent
-                                                console.log('hej24b3', startPositionPercentage);
-                                                updateProgress2(startPositionPercentage, adjustedProgress);
-                                            }
+                                    adjustedProgress += (this.currentTime / videoDuration) * (videoDurations[idx] / totalDuration) * 100;
+                                    console.log('hej22cd', idx);
+        if (idx === 0) {
+            let startPosition = 0;  // Przykład: start na początku
+            let startPositionPercentage = (startPosition / totalDuration) * 100; // Przeliczenie na procent
+            console.log('hej24b1', startPositionPercentage);
+            updateProgress2(startPositionPercentage, adjustedProgress);
+        }
+        if (idx === 1) {
+            setTimeout(function () {
+                let startPosition = tablica12ab[0];  // Przykład: start na określonej wartości
+                let startPositionPercentage = (startPosition / totalDuration) * 100; // Przeliczenie na procent
+                console.log('hej24b2', startPositionPercentage);
+                updateProgress2(startPositionPercentage, adjustedProgress);
+            }, 800); // Opóźnienie w milisekundach
+        }
+        if (idx === 2) {
+            let startPosition = tablica12abc[0];  // Przykład: start na określonej wartości
+            let startPositionPercentage = (startPosition / totalDuration) * 100; // Przeliczenie na procent
+            console.log('hej24b3', startPositionPercentage);
+            updateProgress2(startPositionPercentage, adjustedProgress);
+        }
+                                    
+                                                                        console.log('hej22cdi', startPosition);
+                // Sprawdź, czy wartość index nie została jeszcze dodana do tablicy currentIndex
+                if (!currentIndexValue.includes(idx)) {
+                    // Dodaj index do tablicy currentIndex
+                    currentIndexValue.push(idx);
+                    console.log('hej70', currentIndexValue);
 
-                                            console.log('hej22cdi', startPosition);
-                                            // Sprawdź, czy wartość index nie została jeszcze dodana do tablicy currentIndex
-                                            if (!currentIndexValue.includes(idx)) {
-                                                // Dodaj index do tablicy currentIndex
-                                                currentIndexValue.push(idx);
-                                                console.log('hej70', currentIndexValue);
+                    // Wywołaj funkcję addBackgroundToText tylko raz
+                    if (currentIndexValue[0] === 0 || currentIndexValue[0] === 1 || currentIndexValue[0] === 2) {
+                        addBackgroundToText(matchingFiszki1, matchingIndexes, currentIndexValue, true, lesson1FirstPartLength, lesson1PartLength);
+                    }
+                }
 
-                                                // Wywołaj funkcję addBackgroundToText tylko raz
-                                                if (currentIndexValue[0] === 0 || currentIndexValue[0] === 1 || currentIndexValue[0] === 2) {
-                                                    addBackgroundToText(matchingFiszki1, matchingIndexes, currentIndexValue, true, lesson1FirstPartLength, lesson1PartLength);
-                                                }
-                                            }
+                // Sprawdź, czy wideo zostało zakończone
+                if ($videoElement[0].duration - $videoElement[0].currentTime < 1) {
+                    console.log('Wideo zakończone, uruchamiam następne.');
+                    // Odtwórz następne wideo po zakończeniu poprzedniego
+                    addVideo2bd(idx + 1);
+                }
+            });
+        });
 
-                                            // Sprawdź, czy wideo zostało zakończone
-                                            if ($videoElement[0].duration - $videoElement[0].currentTime < 1) {
-                                                console.log('Wideo zakończone, uruchamiam następne.');
-                                                // Odtwórz następne wideo po zakończeniu poprzedniego
-                                                addVideo2bd(idx + 1);
-                                            }
-                                        });
-                                    });
-
-                                    addScenes(index);
-                                    // Dodaj wideo do kontenera
-                                    $vidDiv.appendTo($container);
+        addScenes(index);
+        // Dodaj wideo do kontenera
+        $vidDiv.appendTo($container);
 
 
 
-                                    // Inicjalizacja paska postępu
-                                    const $progressBar2 = $('<div>').addClass('progress-bar2');
-                                    if (window.matchMedia("(min-width: 999px)").matches) {
-                                        $progressBar2.css({
-                                            'position': 'absolute',
-                                            'z-index': '2',
-                                            'bottom': '0',
-                                            'height': '7px', // Wysokość paska postępu
-                                            'background-color': 'green', // Kolor paska postępu
-                                            'margin-bottom': '-2%',
-                                            'margin-right': '-4%' // Zapewnienie równowagi dla powiększenia paska postępu
-                                        });
-                                    } else {
-                                        $progressBar2.css({
-                                            'position': 'absolute',
-                                            'z-index': '2',
-                                            'bottom': '0px',
-                                            'height': '7px', // Wysokość paska postępu
-                                            'background-color': 'green'
-                                        });
-                                    }
-                                    function updateProgress2(startPosition, adjustedProgress) {
-                                        console.log('hej122', startPosition);
-                                        // Zaktualizuj pasek postępu: szerokość będzie zależna od startowej pozycji oraz postępu
-                                        $('.progress-bar2').css('left', startPosition + '%'); // Ustawienie lewej krawędzi paska postępu
-                                        $('.progress-bar2').css('width', adjustedProgress + '%'); // Ustawienie szerokości paska postępu
-                                    }
-                                    $progressBar2.appendTo($container);
-
-                                    function addScenes(index) {
-                                        // Sprawdź, czy istnieje element <div> o klasie 'scene-description'
-                                        let $sceneDiv = $container.find('.scene-description');
-
-                                        if ($sceneDiv.length) {
-                                            // Jeśli istnieje, wyczyść jego zawartość
-                                            $sceneDiv.empty();
+        // Inicjalizacja paska postępu
+        const $progressBar2 = $('<div>').addClass('progress-bar2');
+                                        if (window.matchMedia("(min-width: 999px)").matches) {
+        $progressBar2.css({
+            'position': 'absolute',
+            'z-index': '2',
+            'bottom': '0',
+            'height': '7px', // Wysokość paska postępu
+            'background-color': 'green', // Kolor paska postępu
+            'margin-bottom': '-2%',
+            'margin-right': '-4%' // Zapewnienie równowagi dla powiększenia paska postępu
+        });
                                         } else {
-                                            // Jeśli nie istnieje, stwórz nowy element <div>
-                                            $sceneDiv = $('<div>').addClass('scene-description').appendTo($container);
+                                                    $progressBar2.css({
+            'position': 'absolute',
+            'z-index': '2',
+            'bottom': '0px',
+            'height': '7px', // Wysokość paska postępu
+            'background-color': 'green'
+        });
                                         }
+                                                function updateProgress2(startPosition, adjustedProgress) {
+            console.log('hej122', startPosition);
+    // Zaktualizuj pasek postępu: szerokość będzie zależna od startowej pozycji oraz postępu
+    $('.progress-bar2').css('left', startPosition + '%'); // Ustawienie lewej krawędzi paska postępu
+    $('.progress-bar2').css('width', adjustedProgress + '%'); // Ustawienie szerokości paska postępu
+}
+        $progressBar2.appendTo($container);
 
-                                        // Dodaj nowy tekst do <div>
-                                        $sceneDiv.text(`Scena z filmu ${srcWords2[index]}`);
+        function addScenes(index) {
+            // Sprawdź, czy istnieje element <div> o klasie 'scene-description'
+            let $sceneDiv = $container.find('.scene-description');
 
-                                        if (window.matchMedia("(max-width: 999px)").matches) {
-                                            if (indexDiv % 2 === 0) {
-                                                console.log('Warunek podzielności przez 2 spełniony2');
-                                                // Zmień CSS paska napisu, aby wyświetlał się po lewej stronie kontenera
-                                                $sceneDiv.css({
-                                                    'position': 'relative',
-                                                    'margin-top': '-140px',
-                                                    'margin-left': '-450px',
-                                                    'text-align': 'left',
-                                                    'background-color': 'orange',
-                                                    'z-index': '9999999'
-                                                });
-                                            } else if (indexDiv % 1 === 0 || indexDiv % 3 === 0 || indexDiv % 5 === 0) {
-                                                console.log('Warunek podzielności przez 1 spełniony2');
-                                                // Zmień CSS paska napisu, aby wyświetlał się po lewej stronie kontenera
-                                                $sceneDiv.css({
-                                                    'position': 'relative',
-                                                    'margin-top': '-140px',
-                                                    'margin-right': '-20px',
-                                                    'text-align': 'left',
-                                                    'background-color': 'blue',
-                                                    'z-index': '99999999999'
-                                                });
-                                            }
-                                        } else if (window.matchMedia("(min-width: 999px)").matches) {
-                                            // Dodatkowe style, jeśli indexDiv jest podzielny przez 4
-                                            if (indexDiv % 4 === 1) {
-                                                // Dodaj klasę 'scene-description2' do $sceneDiv
-                                                $sceneDiv.removeClass('scene-description');
-                                                $sceneDiv.addClass('scene-description2');
-                                            } else {
-                                                // Upewnij się, że klasa 'scene-description2' jest usunięta, jeśli nie jest podzielna przez 4
-                                                $sceneDiv.removeClass('scene-description2');
-                                            }
+            if ($sceneDiv.length) {
+                // Jeśli istnieje, wyczyść jego zawartość
+                $sceneDiv.empty();
+            } else {
+                // Jeśli nie istnieje, stwórz nowy element <div>
+                $sceneDiv = $('<div>').addClass('scene-description').appendTo($container);
+            }
+
+            // Dodaj nowy tekst do <div>
+            $sceneDiv.text(`Scena z filmu ${srcWords2[index]}`);
+
+            if (window.matchMedia("(max-width: 999px)").matches) {
+                if (indexDiv % 2 === 0) {
+                    console.log('Warunek podzielności przez 2 spełniony2');
+                    // Zmień CSS paska napisu, aby wyświetlał się po lewej stronie kontenera
+                    $sceneDiv.css({
+                        'position': 'relative',
+                        'margin-top': '-140px',
+                        'margin-left': '-450px',
+                        'text-align': 'left',
+                        'background-color': 'orange',
+                        'z-index': '9999999'
+                    });
+                } else if (indexDiv % 1 === 0 || indexDiv % 3 === 0 || indexDiv % 5 === 0) {
+                    console.log('Warunek podzielności przez 1 spełniony2');
+                    // Zmień CSS paska napisu, aby wyświetlał się po lewej stronie kontenera
+                    $sceneDiv.css({
+                        'position': 'relative',
+                        'margin-top': '-140px',
+                        'margin-right': '-20px',
+                        'text-align': 'left',
+                        'background-color': 'blue',
+                        'z-index': '99999999999'
+                    });
+                }
+            } else if (window.matchMedia("(min-width: 999px)").matches) {
+                                        // Dodatkowe style, jeśli indexDiv jest podzielny przez 4
+                                        if (indexDiv % 4 === 1) {
+                                            // Dodaj klasę 'scene-description2' do $sceneDiv
+                                            $sceneDiv.removeClass('scene-description');
+                                            $sceneDiv.addClass('scene-description2');
+                                        } else {
+                                            // Upewnij się, że klasa 'scene-description2' jest usunięta, jeśli nie jest podzielna przez 4
+                                            $sceneDiv.removeClass('scene-description2');
                                         }
-                                    }
+            }
+        }
 // Tworzenie przycisku "Stop"
-                                    if (!stopButtonAdded) {
-                                        const $stopButton = $('<img>')
-                                                .attr('src', 'http://arbu-1dcc9.web.app/img/stopok2.png')
-                                                .css({
-                                                    'display': 'none', // Ukryty na starcie
-                                                    'position': 'absolute', // Precyzyjne pozycjonowanie względem kontenera
-                                                    'top': '-15px',
-                                                    'left': '20px',
-                                                    'width': '40px',
-                                                    'height': '40px',
-                                                    'z-index': '999999',
-                                                    'cursor': 'pointer' // Ustawienie kursora jako wskaźnik
-                                                })
-                                                .on('click', function () {
-                                                    // Pętla po wszystkich elementach wideo i zatrzymywanie każdego z nich
-                                                    $('video').each(function () {
-                                                        const video = this;
-                                                        if (!video.paused) {
-                                                            video.pause();
-                                                            // Zmień obrazek na "Play"
-                                                            $stopButton.attr('src', 'http://arbu-1dcc9.web.app/img/play.png');
-                                                        } else {
-                                                            video.play();
-                                                            // Zmień obrazek z powrotem na "Stop"
-                                                            $stopButton.attr('src', 'http://arbu-1dcc9.web.app/img/stopok2.png');
-                                                        }
-                                                    });
-                                                });
+if (!stopButtonAdded) {
+    const $stopButton = $('<img>')
+        .attr('src', 'http://arbu-1dcc9.web.app/img/stopok2.png')
+        .css({
+            'display': 'none', // Ukryty na starcie
+            'position': 'absolute', // Precyzyjne pozycjonowanie względem kontenera
+            'top': '-15px',
+            'left': '20px',
+            'width': '40px',
+            'height': '40px',
+            'z-index': '999999',
+            'cursor': 'pointer' // Ustawienie kursora jako wskaźnik
+        })
+        .on('click', function () {
+            // Pętla po wszystkich elementach wideo i zatrzymywanie każdego z nich
+            $('video').each(function () {
+                const video = this;
+                if (!video.paused) {
+                    video.pause();
+                    // Zmień obrazek na "Play"
+                    $stopButton.attr('src', 'http://arbu-1dcc9.web.app/img/play.png');
+                } else {
+                    video.play();
+                    // Zmień obrazek z powrotem na "Stop"
+                    $stopButton.attr('src', 'http://arbu-1dcc9.web.app/img/stopok2.png');
+                }
+            });
+        });
 
-                                        // Dodanie przycisku do kontenera
-                                        $stopButton.appendTo($container);
+    // Dodanie przycisku do kontenera
+    $stopButton.appendTo($container);
 
-                                        // Pokazywanie przycisku na hover kontenera
-                                        $container.on('mouseover', function () {
-                                            $stopButton.show();
-                                        });
+    // Pokazywanie przycisku na hover kontenera
+    $container.on('mouseover', function () {
+        $stopButton.show();
+    });
 
-                                        // Ukrywanie przycisku, gdy mysz opuści kontener
-                                        $container.on('mouseout', function () {
-                                            $stopButton.hide();
-                                        });
+    // Ukrywanie przycisku, gdy mysz opuści kontener
+    $container.on('mouseout', function () {
+        $stopButton.hide();
+    });
 
-                                        stopButtonAdded = true;  // Flaga ustawiona na true, gdy przycisk został dodany
-                                    }
-                                }
-                            });
+    stopButtonAdded = true;  // Flaga ustawiona na true, gdy przycisk został dodany
+}
+    }
+});
 
-                            // Tworzymy element <div> dla nakładki
-                            const $overlay = $('<div>').addClass('overlay');
+    // Tworzymy element <div> dla nakładki
+    const $overlay = $('<div>').addClass('overlay');
 
-                            // Tworzymy przycisk w overlay
-                            const $buttonb = $('<img>').attr({
-                                'src': 'http://arbu-1dcc9.web.app/img/startsystem.png',
-                                'class': 'overlay-button'
-                            }).css({
-                                'position': 'absolute',
-                                'z-index': '1000002',
-                                'bottom': '10px',
-                                'right': '10px',
-                                'width': '30px',
-                                'height': '30px',
-                                'cursor': 'pointer',
-                                'border-radius': '8px'
-                            });
+    // Tworzymy przycisk w overlay
+    const $buttonb = $('<img>').attr({
+        'src': 'http://arbu-1dcc9.web.app/img/startsystem.png',
+        'class': 'overlay-button'
+    }).css({
+        'position': 'absolute',
+        'z-index': '1000002',
+        'bottom': '10px',
+        'right': '10px',
+        'width': '30px',
+        'height': '30px',
+        'cursor': 'pointer',
+        'border-radius': '8px'
+    });
 
-                            // Dodajemy elementy do kontenera
-                            $container.append($thumbnailContainer); // Miniatury
-                            $container.append($videoElement); // Wideo
-                            $container.append($overlay); // Nakładka
-                            $container.append($buttonb); // Przycisk w nakładce
+    // Dodajemy elementy do kontenera
+    $container.append($thumbnailContainer); // Miniatury
+    $container.append($videoElement); // Wideo
+    $container.append($overlay); // Nakładka
+    $container.append($buttonb); // Przycisk w nakładce
                             // Dodaj funkcję hover do kontenera
                             if (indexDiv < 14) {
                                 // Jeśli indexDiv < 5, dodajemy hover z dynamicznym napisem
@@ -5086,24 +5059,6 @@ ${sentence30}${sentence33}<br>
 
                                     // Usuń dynamiczny div po zakończeniu hovera
                                     $('.dynamic-div', this).fadeOut(300, function () {
-                                        $(this).remove();
-                                    });
-                                });
-                            }
-                                                        if (indexDiv < 17 && indexDiv > 13) {
-                                // Jeśli indexDiv < 5, dodajemy hover z dynamicznym napisem
-                                $container.hover(function () {
-                                    $('.overlay', this).css('transform', 'translateX(0)');
-
-                                    // Twórz nowy dynamiczny div z napisem
-                                    const $dynamicDiv2 = $('<div>').addClass('dynamic-div2').text('Nowa lekcja - w przygotowaniu');
-                                    // Dodaj dynamiczny div do kontenera
-                                    $dynamicDiv2.appendTo($(this)).fadeIn(300);
-                                }, function () {
-                                    $('.overlay', this).css('transform', 'translateX(100%)');
-
-                                    // Usuń dynamiczny div po zakończeniu hovera
-                                    $('.dynamic-div2', this).fadeOut(300, function () {
                                         $(this).remove();
                                     });
                                 });
@@ -5136,12 +5091,12 @@ ${sentence30}${sentence33}<br>
         <div class="sentence1c2a">${sentence1c2a}</div>
 <div class="sentence1c22">${sentence1c22}</div>
 `);
-                        $sentenceDivB.css({
-                            'position': 'absolute',
-                            'margin-top': '40px',
-                            'text-align': 'center',
-                            'z-index': '100'
-                        });
+$sentenceDivB.css({
+    'position': 'absolute',
+    'margin-top': '40px',
+    'text-align': 'center',
+    'z-index': '100'
+});
                     } else {
                         var $sentenceDiv = $('<div></div>');
                         $sentenceDiv.addClass('sentence'); // Dodanie klasy 'sentence'
@@ -5194,7 +5149,7 @@ ${sentence30}${sentence33}<br>
                         'background-color': 'white',
                         'z-index': '999999' // Ustawienie z-index dla buttona większe niż dla sentenceDiv
                     });
-
+                    
                     $container.append($button);
                     const $buttonb2 = $('<button></button>');
                     $buttonb2.addClass('run-button3');
@@ -5290,18 +5245,6 @@ ${sentence30}${sentence33}<br>
                                 // Bezpośrednio przekierowujemy użytkownika do strony
                                 window.location.href = 'demo13angielski.html?category=' + encodeURIComponent(globalCategory);
                             }
-                                                        if (index55b2 === 14) {
-                                // Bezpośrednio przekierowujemy użytkownika do strony
-                                window.location.href = 'demo14angielski.html?category=' + encodeURIComponent(globalCategory);
-                            }
-                                                                                    if (index55b2 === 15) {
-                                // Bezpośrednio przekierowujemy użytkownika do strony
-                                window.location.href = 'demo15angielski.html?category=' + encodeURIComponent(globalCategory);
-                            }
-                                                                                                                if (index55b2 === 16) {
-                                // Bezpośrednio przekierowujemy użytkownika do strony
-                                window.location.href = 'demo16angielski.html?category=' + encodeURIComponent(globalCategory);
-                            }
                         }, 1000);
                         // Usunięcie kontenera po wstawieniu nowego
                     });
@@ -5326,16 +5269,12 @@ ${sentence30}${sentence33}<br>
 
                 // Deklaracja tablicy, która będzie zawierać wszystkie tablice
             }
-            let isVideoPlaying = false;
-            const tablica11b = [];
+let isVideoPlaying = false;
+const tablica11b = [];
 
-            let tablica13a = [];
-            let tablica12b = [];
-            let tablica15a = [];
-            const fiszkaobject = {
-                data: [] // Inicjalizacja tablicy wewnątrz obiektu
-            };
-            let tablica24 = [];
+                    let tablica13a = [];
+                                        let tablica12b = [];
+                                        let tablica15a = [];
             function showCombinedSentenceForLesson2(polski, index50, matchingIndexes, lessonIdToShow1, newIndex, indexDiv, lesson1PartLength) {
                 // Tutaj reszta kodu funkcji
                 const matchingFiszki1 = fiszki.filter(fiszka => fiszka.id[1] === lessonIdToShow1);
@@ -5628,16 +5567,16 @@ ${sentence10}${sentence11}<br>
 <div class="sentence1bbab">${sentence1bbab}</div>
 `);
 
-                                console.log('hej465', polski);
-                                $sentence1bba.css({
-                                    'top': '0px',
-                                    'position': 'relative'
-                                });
-                                $sentence1bbab.css({
-                                    'top': '40px',
-                                    'position': 'relative'
-                                });
-
+                                    console.log('hej465', polski);
+                                    $sentence1bba.css({
+                                        'top': '0px',
+                                        'position': 'relative'
+                                    });
+                                    $sentence1bbab.css({
+                                        'top': '40px',
+                                        'position': 'relative'
+                                    });
+                                
                             }, 300);
                         });
                         console.log('Zawartość zmiennej sentence1:', sentence1b); // Wyświetlenie zawartości zmiennej sentence1                          
@@ -5654,8 +5593,7 @@ ${sentence10}${sentence11}<br>
                     $('.grid-container').append($container);
 
 
-                    let tablica11c = [];
-
+let tablica11c = [];
                     const srcWords = [srcWord1];
                     console.log('hej2', srcWords);
                     const srcWords2 = [srcWord1b];
@@ -5682,24 +5620,24 @@ ${sentence10}${sentence11}<br>
                         }
                     }
 
-                    let currentVideoElement = null;
-                    const activeVideos = [];
-                    let initialFiszkaContainer = null; // Zmienna przechowująca kontener fiszki
+let currentVideoElement = null;
+const activeVideos = [];
+let initialFiszkaContainer = null; // Zmienna przechowująca kontener fiszki
                     if (newIndex === 0 && !buttonindex) {
                         isVideoPlaying = true;
                         console.log('hej3331', buttonindex);
                         let stopButtonAdded = false;
                         let funkcjaWywolana = false;
-                        // Definiowanie funkcji do sprawdzania widoczności wideo
-                        function isVideoVisible(videoElement) {
-                            const containerRect = videoElement.getBoundingClientRect();
-                            return (
-                                    containerRect.top >= 0 &&
-                                    containerRect.left >= 0 &&
-                                    containerRect.bottom <= (window.innerHeight || document.documentElement.clientHeight) &&
-                                    containerRect.right <= (window.innerWidth || document.documentElement.clientWidth)
-                                    );
-                        }
+                            // Definiowanie funkcji do sprawdzania widoczności wideo
+    function isVideoVisible(videoElement) {
+        const containerRect = videoElement.getBoundingClientRect();
+        return (
+            containerRect.top >= 0 &&
+            containerRect.left >= 0 &&
+            containerRect.bottom <= (window.innerHeight || document.documentElement.clientHeight) &&
+            containerRect.right <= (window.innerWidth || document.documentElement.clientWidth)
+        );
+    }
                         function addVideo1(index) {
                             // Sprawdź, czy jesteśmy poza zakresem tablicy
                             if (index >= srcWords.length && !funkcjaWywolana) {
@@ -5719,7 +5657,7 @@ ${sentence10}${sentence11}<br>
                                 'muted': true, // Wyciszenie dźwięku wideo
                                 'loop': true // Zapętlenie wideo
                             });
-                            activeVideos.push($videoElement[0]);
+                                                        activeVideos.push($videoElement[0]);
                             console.log('hej121', activeVideos);
 
                             // Utwórz element <source> dla wideo i ustaw atrybuty
@@ -5742,7 +5680,7 @@ ${sentence10}${sentence11}<br>
 
                             // Funkcja obsługi zdarzenia loadedmetadata
                             $videoElement.on('loadedmetadata', function () {
-
+                                
                                 const videoDuration = this.duration;
                                 videoDurations[index] = videoDuration;
                                 console.log('tablica77', totalDuration);
@@ -5767,7 +5705,7 @@ ${sentence10}${sentence11}<br>
                                             addBackgroundToText(matchingFiszki1, matchingIndexes, currentIndexValue, true, lesson1PartLength, polski);
                                         }
                                     }
-
+                                    
 
                                     // Sprawdź, czy wideo zostało zakończone
                                     if ($videoElement[0].duration - $videoElement[0].currentTime < 1) {
@@ -5775,7 +5713,7 @@ ${sentence10}${sentence11}<br>
                                         // Odtwórz następne wideo po zakończeniu poprzedniego
                                         addVideo1(index + 1);
                                         updateProgress(0);
-                                    }
+                                      }
                                 });
                             });
                             addScenes(index);
@@ -5817,54 +5755,54 @@ ${sentence10}${sentence11}<br>
                                 $sceneDiv.text(`Scena z filmu ${srcWords2[index]}`);
                             }
                             // Tworzenie przycisku "Stop"
-                            if (!stopButtonAdded) {
-                                const $stopButton = $('<img>')
-                                        .attr('src', 'http://arbu-1dcc9.web.app/img/stopok2.png')
-                                        .css({
-                                            'display': 'none', // Ukryty na starcie
-                                            'position': 'absolute', // Precyzyjne pozycjonowanie względem kontenera
-                                            'top': '-15px',
-                                            'left': '20px',
-                                            'width': '40px',
-                                            'height': '40px',
-                                            'z-index': '999999',
-                                            'cursor': 'pointer' // Ustawienie kursora jako wskaźnik
-                                        })
-                                        .on('click', function () {
-                                            // Pętla po wszystkich elementach wideo i zatrzymywanie każdego z nich
-                                            $('video').each(function () {
-                                                const video = this;
-                                                if (!video.paused) {
-                                                    video.pause();
-                                                    // Zmień obrazek na "Play"
-                                                    $stopButton.attr('src', 'http://arbu-1dcc9.web.app/img/play.png');
-                                                } else {
-                                                    video.play();
-                                                    // Zmień obrazek z powrotem na "Stop"
-                                                    $stopButton.attr('src', 'http://arbu-1dcc9.web.app/img/stopok2.png');
-                                                }
-                                            });
-                                        });
+if (!stopButtonAdded) {
+    const $stopButton = $('<img>')
+        .attr('src', 'http://arbu-1dcc9.web.app/img/stopok2.png')
+        .css({
+            'display': 'none', // Ukryty na starcie
+            'position': 'absolute', // Precyzyjne pozycjonowanie względem kontenera
+            'top': '-15px',
+            'left': '20px',
+            'width': '40px',
+            'height': '40px',
+            'z-index': '999999',
+            'cursor': 'pointer' // Ustawienie kursora jako wskaźnik
+        })
+        .on('click', function () {
+            // Pętla po wszystkich elementach wideo i zatrzymywanie każdego z nich
+            $('video').each(function () {
+                const video = this;
+                if (!video.paused) {
+                    video.pause();
+                    // Zmień obrazek na "Play"
+                    $stopButton.attr('src', 'http://arbu-1dcc9.web.app/img/play.png');
+                } else {
+                    video.play();
+                    // Zmień obrazek z powrotem na "Stop"
+                    $stopButton.attr('src', 'http://arbu-1dcc9.web.app/img/stopok2.png');
+                }
+            });
+        });
 
-                                // Dodanie przycisku do kontenera
-                                $stopButton.appendTo($container);
+    // Dodanie przycisku do kontenera
+    $stopButton.appendTo($container);
 
-                                // Pokazywanie przycisku na hover kontenera
-                                $container.on('mouseover', function () {
-                                    $stopButton.show();
-                                });
+    // Pokazywanie przycisku na hover kontenera
+    $container.on('mouseover', function () {
+        $stopButton.show();
+    });
 
-                                // Ukrywanie przycisku, gdy mysz opuści kontener
-                                $container.on('mouseout', function () {
-                                    $stopButton.hide();
-                                });
+    // Ukrywanie przycisku, gdy mysz opuści kontener
+    $container.on('mouseout', function () {
+        $stopButton.hide();
+    });
 
-                                stopButtonAdded = true;  // Flaga ustawiona na true, gdy przycisk został dodany
-                            }
+    stopButtonAdded = true;  // Flaga ustawiona na true, gdy przycisk został dodany
+}
                         }
-                        setTimeout(function () {
-                            addVideo1(0);
-                        }, 0);
+                                setTimeout(function () {
+                                    addVideo1(0);
+                                }, 0);
                     } else if (index50 === 0 && buttonindex) {
                         let stopButtonAdded = false;
                         console.log('hej3331', buttonindex);
@@ -5971,58 +5909,57 @@ ${sentence10}${sentence11}<br>
                             });
                             $progressBar.appendTo($container);
                             // Tworzenie przycisku "Stop"
-                            if (!stopButtonAdded) {
-                                const $stopButton = $('<img>')
-                                        .attr('src', 'http://arbu-1dcc9.web.app/img/stopok2.png')
-                                        .css({
-                                            'display': 'none', // Ukryty na starcie
-                                            'position': 'absolute', // Precyzyjne pozycjonowanie względem kontenera
-                                            'top': '-15px',
-                                            'left': '20px',
-                                            'width': '40px',
-                                            'height': '40px',
-                                            'z-index': '999999',
-                                            'cursor': 'pointer' // Ustawienie kursora jako wskaźnik
-                                        })
-                                        .on('click', function () {
-                                            // Pętla po wszystkich elementach wideo i zatrzymywanie każdego z nich
-                                            $('video').each(function () {
-                                                const video = this;
-                                                if (!video.paused) {
-                                                    video.pause();
-                                                    // Zmień obrazek na "Play"
-                                                    $stopButton.attr('src', 'http://arbu-1dcc9.web.app/img/play.png');
-                                                } else {
-                                                    video.play();
-                                                    // Zmień obrazek z powrotem na "Stop"
-                                                    $stopButton.attr('src', 'http://arbu-1dcc9.web.app/img/stopok2.png');
-                                                }
-                                            });
-                                        });
+if (!stopButtonAdded) {
+    const $stopButton = $('<img>')
+        .attr('src', 'http://arbu-1dcc9.web.app/img/stopok2.png')
+        .css({
+            'display': 'none', // Ukryty na starcie
+            'position': 'absolute', // Precyzyjne pozycjonowanie względem kontenera
+            'top': '-15px',
+            'left': '20px',
+            'width': '40px',
+            'height': '40px',
+            'z-index': '999999',
+            'cursor': 'pointer' // Ustawienie kursora jako wskaźnik
+        })
+        .on('click', function () {
+            // Pętla po wszystkich elementach wideo i zatrzymywanie każdego z nich
+            $('video').each(function () {
+                const video = this;
+                if (!video.paused) {
+                    video.pause();
+                    // Zmień obrazek na "Play"
+                    $stopButton.attr('src', 'http://arbu-1dcc9.web.app/img/play.png');
+                } else {
+                    video.play();
+                    // Zmień obrazek z powrotem na "Stop"
+                    $stopButton.attr('src', 'http://arbu-1dcc9.web.app/img/stopok2.png');
+                }
+            });
+        });
 
-                                // Dodanie przycisku do kontenera
-                                $stopButton.appendTo($container);
+    // Dodanie przycisku do kontenera
+    $stopButton.appendTo($container);
 
-                                // Pokazywanie przycisku na hover kontenera
-                                $container.on('mouseover', function () {
-                                    $stopButton.show();
-                                });
+    // Pokazywanie przycisku na hover kontenera
+    $container.on('mouseover', function () {
+        $stopButton.show();
+    });
 
-                                // Ukrywanie przycisku, gdy mysz opuści kontener
-                                $container.on('mouseout', function () {
-                                    $stopButton.hide();
-                                });
+    // Ukrywanie przycisku, gdy mysz opuści kontener
+    $container.on('mouseout', function () {
+        $stopButton.hide();
+    });
 
-                                stopButtonAdded = true;  // Flaga ustawiona na true, gdy przycisk został dodany
-                            }
+    stopButtonAdded = true;  // Flaga ustawiona na true, gdy przycisk został dodany
+}
                         }
-                        setTimeout(function () {
-                            addVideo2(0);
-                        }, 0);
+                                setTimeout(function () {
+                                    addVideo2(0);
+                                }, 0);
                     } else {
                         function addVideo3(index) {
-                            // Upewnij się, że istnieje tablica dla podanego indexDiv w obiekcie currentIndexFiszkaMap
-
+                            console.log('index44b', indexDiv);
                             // Utwórz element <video> i ustaw atrybuty
                             const $videoElement = $('<video>').attr({
                                 'muted': true, // Wyciszenie dźwięku wideo
@@ -6070,145 +6007,127 @@ ${sentence10}${sentence11}<br>
                                     });
                                 });
                             }
-                                                                                    if (indexDiv < 49 && indexDiv > 33) {
-                                // Jeśli indexDiv < 5, dodajemy hover z dynamicznym napisem
-                                $container.hover(function () {
-                                    $('.overlay', this).css('transform', 'translateX(0)');
-
-                                    // Twórz nowy dynamiczny div z napisem
-                                    const $dynamicDiv2 = $('<div>').addClass('dynamic-div2').text('Nowa lekcja - w przygotowaniu');
-                                    // Dodaj dynamiczny div do kontenera
-                                    $dynamicDiv2.appendTo($(this)).fadeIn(300);
-                                }, function () {
-                                    $('.overlay', this).css('transform', 'translateX(100%)');
-
-                                    // Usuń dynamiczny div po zakończeniu hovera
-                                    $('.dynamic-div2', this).fadeOut(300, function () {
-                                        $(this).remove();
-                                    });
-                                });
-                            }
 // Ustal szerokości przycisków
-                            const startSystemWidth = 30; // Szerokość startsystem
-                            const quickLessonWidth = 95; // Szerokość przycisku "Szybka lekcja"
+const startSystemWidth = 30; // Szerokość startsystem
+const quickLessonWidth = 95; // Szerokość przycisku "Szybka lekcja"
 
-                            // Obsługa kliknięcia przycisku overlay
-                            $buttonb.on('click', function () {
+        // Obsługa kliknięcia przycisku overlay
+$buttonb.on('click', function () {
+        // Dodaj kopię wartości indexDiv do tablicy
+    // Przykład nowej wartości indexDiv
+    let nowaWartosc = indexDiv;
 
-                                // Dodaj kopię wartości indexDiv do tablicy
-                                // Przykład nowej wartości indexDiv
-                                let nowaWartosc = indexDiv;
+    // Sprawdź, czy wartość już nie istnieje w tablicy (opcjonalnie)
+    if (!tablica11b.includes(nowaWartosc)) {
+        tablica11b.push(nowaWartosc); // Dodaj nową wartość na końcu tablicy
+        console.log('Dodano wartość:', nowaWartosc);
+        console.log('Dodano wartość:', tablica11b);
+    } else {
+        console.log('Wartość już istnieje w tablicy:', nowaWartosc);
+    }
 
-                                // Sprawdź, czy wartość już nie istnieje w tablicy (opcjonalnie)
-                                if (!tablica11b.includes(nowaWartosc)) {
-                                    tablica11b.push(nowaWartosc); // Dodaj nową wartość na końcu tablicy
-                                    console.log('Dodano wartość:', nowaWartosc);
-                                    console.log('Dodano wartość:', tablica11b);
-                                } else {
-                                    console.log('Wartość już istnieje w tablicy:', nowaWartosc);
-                                }
+let ostatniElement2 = tablica11b[tablica11b.length - 2];
+let ostatniElement3 = tablica12b[tablica12b.length - 1];
+console.log('hej55h', ostatniElement2);
+                        setTimeout(() => {
+                        showFiszkiForLesson6(ostatniElement2, ostatniElement3);
+                        }, 0);
+    $('video').each(function () {
+        const video = this;
+        if (!video.paused) {
+            video.pause();
+            // Zmień obrazek na "Play"
+        } else {
+            video.play();
+            // Zmień obrazek z powrotem na "Stop"
+        }
+    });
+                               console.log('index44bc', indexDiv); 
+    console.log('Button clicked');
 
-                                let ostatniElement2 = tablica11b[tablica11b.length - 2];
+    // Utwórz nowy przycisk "Szybka lekcja"
+const $loadButton = $('<button>')
+    .text('Szybka lekcja')
+    .addClass('slide-button')
+    .on('click', function () {
+        // Pętla po wszystkich elementach wideo i zatrzymywanie każdego z nich
+        $('video').each(function () {
+            const video = $(this).get(0); // Pobiera element wideo jako obiekt DOM
+            if (video && !video.paused) {
+                video.pause();
+            }
+        });
+    });
+    // Funkcja zatrzymująca wszystkie wideo w activeVideos
 
-                                let ostatniElement3 = tablica12b[tablica12b.length - 1];
-                                console.log('hej55h', ostatniElement3);
-                                console.log('hej55h+', ostatniElement2);
-                                setTimeout(() => {
-                                    showFiszkiForLesson6(ostatniElement2, ostatniElement3);
-                                }, 0);
-                                $('video').each(function () {
-                                    const video = this;
-                                    if (!video.paused) {
-                                        video.pause(); // Wstrzymaj wideo
-                                        console.log('Wideo zatrzymane:', video);
-                                    }
-                                });
-                                console.log('index44bc', indexDiv);
-                                console.log('Button clicked');
+    $loadButton.css({
+        'position': 'absolute',
+        'bottom': '10px',
+        'right': '30px', // Początkowa pozycja przycisku na prawo od kontenera
+        'width': '120px', // Szerokość przycisku
+        'height': '30px',
+        'cursor': 'pointer',
+        'border-radius': '8px',
+        'background-color': 'green', // Kolor przycisku
+        'color': 'white',
+        'display': 'block', // Pokazuje przycisk od razu
+        'z-index': '1000001', // Z-index większy niż startsystem
+        'text-align': 'left', // Wyrównanie tekstu do lewej (jeśli to potrzebne)
+        'overflow': 'hidden' // Ukrywa nadmiar tekstu
+    }).appendTo($container); // Dodaj do kontenera
 
-                                // Utwórz nowy przycisk "Szybka lekcja"
-                                const $loadButton = $('<button>')
-                                        .text('Szybka lekcja')
-                                        .addClass('slide-button')
-                                        .on('click', function () {
-                                            // Pętla po wszystkich elementach wideo i zatrzymywanie każdego z nich
-                                            $('video').each(function () {
-                                                const video = $(this).get(0); // Pobiera element wideo jako obiekt DOM
-                                                if (video && !video.paused) {
-                                                    video.pause();
-                                                }
-                                            });
-                                        });
-                                // Funkcja zatrzymująca wszystkie wideo w activeVideos
+    // Animacja: zwijanie przycisku "Szybka lekcja" w lewo
+    $loadButton.animate({
+        width: '0px', // Zmniejszenie szerokości do 0
+        right: '10px'
+    }, {
+        duration: 1500, // Czas trwania animacji
+        complete: function () {
+            $(this).remove(); // Opcjonalnie: usuń przycisk po zakończeniu animacji
+        }
+    });
+    // Utwórz nowy przycisk "Szybka lekcja"
+            const $newButton = $('<button>').text('Wybierz słowo').addClass('slide-button');
+            $newButton.css({
+                'position': 'absolute',
+                'bottom': '10px',
+                'right': '30px',
+                'width': '120px',
+                'height': '30px',
+                'cursor': 'pointer',
+                'border-radius': '8px',
+                'background-color': 'blue',
+                'color': 'white',
+                'display': 'block',
+                'z-index': '1000000' // Bardzo wysoki z-index, aby był nad innymi elementami
+            });
+            $newButton.appendTo($container);
+            
+            // Animacja: chowanie przycisku "Szybka lekcja" w lewo
+            $newButton.animate({
+                right: '-110px'
+            }, 500, function () {
+                console.log('Szybka lekcja button hidden');
+            });
+                        // Sprawdź, czy kontener ma odpowiedni z-index i position
+            $container.css({
+                'position': 'relative', // Ustawienie position na relative, aby z-index działał
+                'z-index': '1000003'
+            });
+                        highlightFirstWord(indexDiv);
 
-                                $loadButton.css({
-                                    'position': 'absolute',
-                                    'bottom': '10px',
-                                    'right': '30px', // Początkowa pozycja przycisku na prawo od kontenera
-                                    'width': '120px', // Szerokość przycisku
-                                    'height': '30px',
-                                    'cursor': 'pointer',
-                                    'border-radius': '8px',
-                                    'background-color': 'green', // Kolor przycisku
-                                    'color': 'white',
-                                    'display': 'block', // Pokazuje przycisk od razu
-                                    'z-index': '1000001', // Z-index większy niż startsystem
-                                    'text-align': 'left', // Wyrównanie tekstu do lewej (jeśli to potrzebne)
-                                    'overflow': 'hidden' // Ukrywa nadmiar tekstu
-                                }).appendTo($container); // Dodaj do kontenera
-
-                                // Animacja: zwijanie przycisku "Szybka lekcja" w lewo
-                                $loadButton.animate({
-                                    width: '0px', // Zmniejszenie szerokości do 0
-                                    right: '10px'
-                                }, {
-                                    duration: 1500, // Czas trwania animacji
-                                    complete: function () {
-                                        $(this).remove(); // Opcjonalnie: usuń przycisk po zakończeniu animacji
-                                    }
-                                });
-                                // Utwórz nowy przycisk "Szybka lekcja"
-                                const $newButton = $('<button>').text('Wybierz słowo').addClass('slide-button');
-                                $newButton.css({
-                                    'position': 'absolute',
-                                    'bottom': '10px',
-                                    'right': '30px',
-                                    'width': '120px',
-                                    'height': '30px',
-                                    'cursor': 'pointer',
-                                    'border-radius': '8px',
-                                    'background-color': 'blue',
-                                    'color': 'white',
-                                    'display': 'block',
-                                    'z-index': '1000000' // Bardzo wysoki z-index, aby był nad innymi elementami
-                                });
-                                $newButton.appendTo($container);
-
-                                // Animacja: chowanie przycisku "Szybka lekcja" w lewo
-                                $newButton.animate({
-                                    right: '-110px'
-                                }, 500, function () {
-                                    console.log('Szybka lekcja button hidden');
-                                });
-                                // Sprawdź, czy kontener ma odpowiedni z-index i position
-                                $container.css({
-                                    'position': 'relative', // Ustawienie position na relative, aby z-index działał
-                                    'z-index': '1000003'
-                                });
-
-                                highlightFirstWord(indexDiv);
-                                console.log('hej44f', tablica24[tablica24.length - 1]);
-                            });
+});
 
 
-                            function highlightFirstWord(indexDiv) {
+
+function highlightFirstWord(indexDiv) {
     const $container = $(`.image-container4[data-lesson="${indexDiv}"]`);
 
     if (matchingFiszki1.length > 0) {
         const $sentence10 = $container.find('.sentenceBB');
         const $sentence11 = $container.find('.sentence11');
         const $sentence1bba = $container.find('.sentence1bba');
-                                
+                                let currentFiszkaIndex = 0;
 
         if ($sentence10.length > 0 || $sentence11.length > 0 || $sentence1bba.length > 0) {
             let sentenceText = $sentence10.html();
@@ -6253,7 +6172,6 @@ $("<style>")
   .appendTo("head");
 
                         let currentWordIndex = 0; // Indeks słowa, które ma być wyświetlane
-
 // Funkcja obsługująca kliknięcia na słowa, przyjmująca clickedIndex
 function handleWordClick(clickedIndex, indexDiv, matchingFiszki1) {
     console.log("Przekazano clickedIndex:", clickedIndex);
@@ -6331,18 +6249,31 @@ let currentHighlightIndex = 0; // Indeks podświetlenia
 
 let displayWordsIndex = 0; // Indeks do wyświetlania słów (można dostosować w zależności od wymagań)
 
-
 // Obsługa kliknięcia na "next"
-function handleNextClick(indexDiv, $sentence10, currentFiszkaIndex, firstWord, secondWord, thirdWord, forthWord, fifthWord, sixthWord) {
+$(document).on('click', '.next-button', function() {
     // Sprawdź, czy możemy zwiększyć indeks podświetlenia
-        console.log('hej55d', currentFiszkaIndex);
-        updateHighlight(indexDiv, $sentence10, currentFiszkaIndex, firstWord, secondWord, thirdWord, forthWord, fifthWord, sixthWord);
-                currentFiszkaIndex++;
-
+    if (currentHighlightIndex < 5) {
+        currentHighlightIndex++;
+        console.log('hej55d', currentHighlightIndex);
+        updateHighlight($sentence10, currentHighlightIndex, firstWord, secondWord, thirdWord, forthWord, fifthWord, sixthWord);
+        
+        // Zwiększ indeks wyświetlanego słowa
+        displayWordsIndex++; // Zwiększamy indeks wyświetlanego słowa
+        displayWords(displayWordsIndex, indexDiv); // Wywołaj funkcję do wyświetlenia słów z nowym indeksem
+    }
+        // Pokazuj przycisk "prev" tylko, gdy jest cofnąć
+        if (currentHighlightIndex > 0) {
+            $('#prev-button').show();
         }
 
+        // Ukryj przycisk "next", gdy osiągniemy koniec
+        if (currentHighlightIndex === 5) {
+            $('#next-button').hide(); // Ukryj przycisk next na końcu
+        }
+});
+
                 // Obsługa kliknięcia na "prev"
-                $(document).on('click', '.prev-button', function() {
+                $(document).on('click', '#prev-button', function() {
                     if (currentHighlightIndex > 0) {
                         currentHighlightIndex--;
                         updateHighlight($sentence10, currentHighlightIndex, firstWord, secondWord, thirdWord, forthWord, fifthWord, sixthWord);
@@ -6360,40 +6291,34 @@ function handleNextClick(indexDiv, $sentence10, currentFiszkaIndex, firstWord, s
                     }
                 }
                 });
-       let currentFiszkaIndex = 0;
-function updateHighlight(indexDiv, $sentence10, index, firstWord, secondWord, thirdWord, forthWord, fifthWord, sixthWord) {
-    const words = [firstWord, secondWord, thirdWord, forthWord, fifthWord, sixthWord];
+       
 
-    // Generuj podświetlone słowa
-    const highlightedWords = words.map((word, i) => {
-        return i === index
+// Funkcja aktualizująca podświetlenie słów
+function updateHighlight($sentence10, index, firstWord, secondWord, thirdWord, forthWord, fifthWord, sixthWord) {
+
+    const words = [firstWord, secondWord, thirdWord, forthWord, fifthWord, sixthWord];
+ 
+    // Generowanie HTML z przypisanymi funkcjami kliknięcia
+    let highlightedWords = words.map((word, i) => {
+        return i === index 
             ? `<span class="highlighted word-span" data-index="${i}" style="cursor: pointer;">${word}</span>`
             : `<span class="word-span" data-index="${i}" style="cursor: pointer;">${word}</span>`;
     });
 
-    // Zaktualizuj HTML dla $sentence10
+    // Uaktualnij HTML dla $sentence10
     $sentence10.html(`
-        <button class="prev-button" id="prev-button">&lt;</button>
+        <button class="nav-button" id="prev-button">&lt;</button>
         ${highlightedWords.join(' ')}
-        <button class="next-button" id="next-button">&gt;</button>
+        <button class="next-button" id="nextbutton">&gt;</button>
     `);
 
-    // Obsługa zdarzeń kliknięcia słów
-    $sentence10.find('.word-span').off('click').on('click', function () {
-        const clickedIndex = $(this).data('index');
-
-        // Aktualizacja `currentFiszkaIndex` w strukturze danych
-        currentIndexEntry[1] = clickedIndex;
-
-        // Wywołanie funkcji obsługi kliknięcia
-        handleWordClick(clickedIndex, indexDiv, matchingFiszki1);
-
-        // Ponowne zaktualizowanie podświetlenia
-        updateHighlight($sentence10, index, firstWord, secondWord, thirdWord, forthWord, fifthWord, sixthWord);
+    // Dodanie zdarzenia click dla każdego słowa
+    $sentence10.find('.word-span').on('click', function() {
+        const clickedIndex = $(this).data('index'); // Pobieranie indeksu klikniętego słowa
+        handleWordClick(clickedIndex, indexDiv, matchingFiszki1); // Wywołanie funkcji obsługi kliknięcia
     });
-
-    // Wywołaj funkcję do wyświetlenia słów z nowym indeksem
-    displayWords(index, indexDiv);
+                        console.log('hej12a', displayWordsIndex);
+        displayWords(index, indexDiv); // Wywołaj funkcję do wyświetlenia słów z nowym indeksem
 }
                 // Funkcja displayWords przyjmuje teraz currentWordIndex
                 function displayWords(nowy, indexDiv) {
@@ -6444,53 +6369,19 @@ currentFiszkaIndex = nowy;
                         });
 tablica12b[0] = 0;
                     console.log('hej26', tablica12b);
-$nextButton.on('click', function () {
-                                                    console.log('Aktualny index fiszki:', indexDiv);
-                                                    console.log('Dostępne fiszki:', matchingFiszki1);
-                                                                                                            currentFiszkaIndex++; // Zwiększ indeks fiszki
-                                                    console.log('hej303b', fiszkaobject);
-                                                    if (currentFiszkaIndex < matchingFiszki1.length) {
-
-                                                                                                            // Sprawdź, czy `indexDiv` już istnieje w `fiszkaobject.data`
-                                                    const existingIndex = fiszkaobject.data.findIndex(
-                                                            (entry) => entry[0] === indexDiv
-                                                    );
-
-                                                    if (existingIndex !== -1) {
-                                                        // Jeśli istnieje, zastąp wartość
-                                                        fiszkaobject.data[existingIndex] = [indexDiv, currentFiszkaIndex];
-                                                    } else {
-                                                        // Jeśli nie istnieje, dodaj nową tablicę
-                                                        fiszkaobject.data.push([indexDiv, currentFiszkaIndex]);
-                                                    }
-
-                                                    // Sprawdź, czy `indexDiv` już istnieje w `fiszkaobject.data`
-                                                    const existingIndex2 = fiszkaobject.data.findIndex(
-                                                            (entry) => entry[0] === indexDiv
-                                                    );
-
-                                                    if (existingIndex2 !== -1) {
-                                                        // Jeśli istnieje, zaktualizuj `currentFiszkaIndex`
-                                                        fiszkaobject.data[existingIndex2][1] = currentFiszkaIndex;
-                                                        console.log('hej303bb', currentFiszkaIndex);
-
-                                                        console.log('hej303bbx', fiszkaobject.data[existingIndex2][1]);
-                                                    } else {
-                                                        // Jeśli nie istnieje, dodaj nową tablicę
-                                                        fiszkaobject.data.push([indexDiv, currentFiszkaIndex]);
-                                                    }
-
-                                                        tablica12b.push(currentFiszkaIndex);
-                                                        console.log('hej68cx', fiszkaobject);
-                                                        handleNextClick(indexDiv, $sentence10, currentFiszkaIndex, firstWord, secondWord, thirdWord, forthWord, fifthWord, sixthWord);
-                                                        wybierzRodzaj2('all', currentFiszkaIndex, matchingFiszki1, indexDiv);
-                                                        updateWordDisplay(currentWordIndex, indexDiv);
-                                                        // Wywołaj funkcję, przekazując zaktualizowany indeks
-                                                        console.log("indexDiv2", tablica12b);
-                                                    } else {
-                                                        console.log('Koniec fiszek!'); // Informacja o końcu fiszek
-                                                    }
-                                                });
+$nextButton.on('click', function() {
+    console.log('Aktualny index fiszki:', currentFiszkaIndex);
+    console.log('Dostępne fiszki:', matchingFiszki1.length);
+    if (currentFiszkaIndex < matchingFiszki1.length - 1) {
+        currentFiszkaIndex++; // Zwiększ indeks fiszki
+        tablica12b.push(currentFiszkaIndex);
+        console.log('hej68cx', tablica12b);
+        // Wywołaj funkcję, przekazując zaktualizowany indeks
+        wybierzRodzaj2(indexDiv, currentFiszkaIndex, matchingFiszki1);
+    } else {
+        console.log('Koniec fiszek!'); // Informacja o końcu fiszek
+    }
+});
 
     function updateWordDisplay(currentWordIndex) {
         const fiszka = matchingFiszki1[currentFiszkaIndex];
@@ -6506,9 +6397,9 @@ $nextButton.on('click', function () {
     
                         updateWordDisplay(currentWordIndex);
 // Wywołaj funkcję z podaną kategorią
-function wybierzRodzaj2(category, currentFiszkaIndex, matchingFiszki1, indexDiv) {
+function wybierzRodzaj2(category, currentFiszkaIndex, matchingFiszki1) {
 
-    console.log("Wybrany rodzaj słownictwa: ", currentFiszkaIndex);
+    console.log("Wybrany rodzaj słownictwa: " + category);
 
     const matchingLessons = [];
 
@@ -6559,10 +6450,8 @@ function wybierzRodzaj2(category, currentFiszkaIndex, matchingFiszki1, indexDiv)
         console.log(`Nie znaleziono fiszek z kategorią "${category}".`);
     }
 }
-                                                let ostatniElement2 = tablica11b[tablica11b.length - 1];
-                                                if (currentFiszkaIndex === 0) {
-                                                    wybierzRodzaj2('all', currentFiszkaIndex, matchingFiszki1, ostatniElement2);
-                                                }
+wybierzRodzaj2('all', currentFiszkaIndex, matchingFiszki1);
+
 function showFiszkiForLesson5(indexDiv, fiszki, currentFiszkaIndex, matchingFiszki1) {
     console.log('Ładuje się');
     console.log('Obecny indeks fiszki:', currentFiszkaIndex);
@@ -6607,7 +6496,7 @@ if ($divToRemove.length) {  // Sprawdza, czy element istnieje
 }
 }
         }
-
+        
                 displayWords(currentWordIndex, indexDiv); // Wywołanie z indeksem
                 
                 // Dostosuj rozmiar czcionki
@@ -6625,41 +6514,41 @@ if ($divToRemove.length) {  // Sprawdza, czy element istnieje
 }
 
 // Funkcja dostosowująca rozmiar czcionki
-                            function adjustFontSize($sentence10) {
-                                const $sentenceContainer = $sentence10.closest('.image-container4');
+function adjustFontSize($sentence10) {
+    const $sentenceContainer = $sentence10.closest('.image-container4');
 
-                                // Ustal początkowy rozmiar czcionki
-                                let fontSize = parseFloat($sentenceContainer.css('font-size'));
-                                console.log('Początkowy rozmiar czcionki:', fontSize);
+    // Ustal początkowy rozmiar czcionki
+    let fontSize = parseFloat($sentenceContainer.css('font-size'));
+    console.log('Początkowy rozmiar czcionki:', fontSize);
 
-                                // Sprawdzenie, czy fontSize nie jest NaN
-                                if (isNaN(fontSize)) {
-                                    console.error('Nie udało się pobrać rozmiaru czcionki.');
-                                    return; // Zakończ funkcję, jeśli fontSize jest NaN
-                                }
+    // Sprawdzenie, czy fontSize nie jest NaN
+    if (isNaN(fontSize)) {
+        console.error('Nie udało się pobrać rozmiaru czcionki.');
+        return; // Zakończ funkcję, jeśli fontSize jest NaN
+    }
 
-                                // Funkcja do obliczania, czy tekst mieści się w jednej linii
-                                const isTextOverflowing = () => {
-                                    const textWidth = $sentenceContainer[0].scrollWidth;
-                                    const containerWidth = $sentenceContainer[0].clientWidth;
-                                    const overflowing = textWidth > containerWidth;
-                                    console.log('Szerokość tekstu:', textWidth, 'Szerokość kontenera:', containerWidth);
-                                    console.log('Tekst przekracza szerokość jednej linii:', overflowing);
-                                    return overflowing; // Zwróć informację, czy tekst przekracza szerokość
-                                };
+    // Funkcja do obliczania, czy tekst mieści się w jednej linii
+    const isTextOverflowing = () => {
+        const textWidth = $sentenceContainer[0].scrollWidth; 
+        const containerWidth = $sentenceContainer[0].clientWidth; 
+        const overflowing = textWidth > containerWidth; 
+        console.log('Szerokość tekstu:', textWidth, 'Szerokość kontenera:', containerWidth);
+        console.log('Tekst przekracza szerokość jednej linii:', overflowing);
+        return overflowing; // Zwróć informację, czy tekst przekracza szerokość
+    };
 
-                                // Zmniejszaj rozmiar czcionki, aż tekst się zmieści w jednej linii
-                                while (isTextOverflowing() && fontSize > 8) { // Ustaw minimalny rozmiar czcionki
-                                    console.log('Zmniejszanie rozmiaru czcionki z:', fontSize);
-                                    fontSize -= 1; // Zmniejsz rozmiar czcionki
-                                    $sentenceContainer.css('font-size', `${fontSize}px`);
-                                    console.log('Nowy rozmiar czcionki:', fontSize);
-                                }
+    // Zmniejszaj rozmiar czcionki, aż tekst się zmieści w jednej linii
+    while (isTextOverflowing() && fontSize > 8) { // Ustaw minimalny rozmiar czcionki
+        console.log('Zmniejszanie rozmiaru czcionki z:', fontSize);
+        fontSize -= 1; // Zmniejsz rozmiar czcionki
+        $sentenceContainer.css('font-size', `${fontSize}px`);
+        console.log('Nowy rozmiar czcionki:', fontSize);
+    }
 
-                                if (fontSize <= 8) {
-                                    console.log('Osiągnięto minimalny rozmiar czcionki.');
-                                }
-                            }
+    if (fontSize <= 8) {
+        console.log('Osiągnięto minimalny rozmiar czcionki.');
+    }
+}
 
 
                             // Jeśli kontener nie został jeszcze wybrany, wybierz losowy kontener
@@ -6670,20 +6559,20 @@ if ($divToRemove.length) {  // Sprawdza, czy element istnieje
                     let videoNotVisibleFlag = false;
                     // Funkcja do sprawdzania widoczności co określony czas
 // Ustawienie interwału
-                    const checkVideoVisibility = setInterval(() => {
-                        if (currentVideoElement && isVideoPlaying) {
-                            if (!isVideoVisible(currentVideoElement)) {
-                                if (!videoNotVisibleFlag) { // Sprawdź, czy funkcja już była wywołana
-                                    console.log("Wideo jest niewidoczne, losowanie nowej tablicy...");
-                                    isVideoPlaying = false;
-                                    countVisibleContainers(); // Wywołaj funkcję losującą nowe tablice
-                                    videoNotVisibleFlag = true; // Ustaw flagę, aby uniknąć kolejnych wywołań
-                                }
-                            }
-                        }
-                    }, 1200); // Sprawdzaj co 1 sekundę
+const checkVideoVisibility = setInterval(() => {
+    if (currentVideoElement && isVideoPlaying) {
+        if (!isVideoVisible(currentVideoElement)) {
+            if (!videoNotVisibleFlag) { // Sprawdź, czy funkcja już była wywołana
+                console.log("Wideo jest niewidoczne, losowanie nowej tablicy...");
+                isVideoPlaying = false;
+                countVisibleContainers(); // Wywołaj funkcję losującą nowe tablice
+                videoNotVisibleFlag = true; // Ustaw flagę, aby uniknąć kolejnych wywołań
+            }
+        }
+    }
+}, 1200); // Sprawdzaj co 1 sekundę
 
-                    if ((index50 === 0) || (newIndex === 0)) {
+if ((index50 === 0) || (newIndex === 0)) {
                         var $sentenceDivB = $('<div></div>');
                         $sentenceDivB.addClass('sentenceBC'); // Dodanie klasy 'sentence'
                         $sentenceDivB.html(`
@@ -6714,67 +6603,67 @@ if ($divToRemove.length) {  // Sprawdza, czy element istnieje
                             'z-index': '5'
                         });
                     }
-                    function showFiszkiForLesson6(ostatniElement2, ostatniElement3) {
+                        function showFiszkiForLesson6(ostatniElement2, ostatniElement3) {
 
-                        console.log('hej11z', ostatniElement2);
-                        if (ostatniElement3 === undefined) {
-                            ostatniElement3 = 0;
-                        }
-                        const $container = $(`.image-container4[data-lesson="${ostatniElement2}"]`);
+    console.log('hej11z', ostatniElement2);
+    if (ostatniElement3 === undefined) {
+    ostatniElement3 = 0;
+    }
+    const $container = $(`.image-container4[data-lesson="${ostatniElement2}"]`);
 
-                        console.log('ostatniElement2:', ostatniElement2);
-                        console.log('ostatniElement3:', ostatniElement3);
+        console.log('ostatniElement2:', ostatniElement2);
+        console.log('ostatniElement3:', ostatniElement3);
 
-                        console.log('hej22x', tablica12b);
-                        console.log('hej64xxh', ostatniElement3);
-                        if (matchingFiszki1.length > 0) {
-                            tablica15a.push(matchingFiszki1);
+    console.log('hej22x', tablica12b);
+    console.log('hej64xxh', ostatniElement3);
+    if (matchingFiszki1.length > 0) {
+        tablica15a.push(matchingFiszki1);
+        
+                console.log('hej64xx', tablica15a);
+                let ostatniElement4 = tablica15a[tablica15a.length - 2];
+                console.log('hej64xx', ostatniElement4);
+    if (ostatniElement3 >= 0 && ostatniElement3 < ostatniElement4.length) {
 
-                            console.log('hej64xx', tablica15a);
-                            let ostatniElement4 = tablica15a[tablica15a.length - 2];
-                            console.log('hej64xx', ostatniElement4);
-                            if (ostatniElement3 >= 0 && ostatniElement3 < ostatniElement4.length) {
+            let id = ostatniElement4[ostatniElement3].id;
+            console.log('hej2dd', id);
+            let parametr = '';
 
-                                let id = ostatniElement4[ostatniElement3].id;
-                                console.log('hej2dd', id);
-                                let parametr = '';
+            // Sprawdź, czy id jest tablicą
+            if (Array.isArray(id)) {
+                // Połącz wartości z tablicy id w jeden ciąg znaków oddzielony przecinkami
+                id = id.slice(0, 3).join(',');
 
-                                // Sprawdź, czy id jest tablicą
-                                if (Array.isArray(id)) {
-                                    // Połącz wartości z tablicy id w jeden ciąg znaków oddzielony przecinkami
-                                    id = id.slice(0, 3).join(',');
+                // Obsługa ewentualnego dodatkowego parametru (np. czwartego elementu w tablicy)
+                if (id.length > 3) {
+                    parametr = matchingFiszki1[ostatniElement3].id[3]; // Pobierz czwarty element z tablicy
+                }
+            }
+console.log('hej44', $container);
 
-                                    // Obsługa ewentualnego dodatkowego parametru (np. czwartego elementu w tablicy)
-                                    if (id.length > 3) {
-                                        parametr = matchingFiszki1[ostatniElement3].id[3]; // Pobierz czwarty element z tablicy
-                                    }
-                                }
-                                console.log('hej44', $container);
+        const className = `fiszka-${id}${parametr ? ',' + parametr : ''}`;
+        const selector = `.${className.replace(/,/g, '\\,')}`;
+        tablica13a.push(selector);
+        console.log('Generated selector:', tablica13a);
+        let selector2 = tablica13a[tablica13a.length - 1];
+setTimeout(() => {
+        // Znajdź element wewnątrz kontenera
+        const $divToRemove = $container.find(selector2);
+        console.log('Element to remove:', $divToRemove);
 
-                                const className = `fiszka-${id}${parametr ? ',' + parametr : ''}`;
-                                const selector = `.${className.replace(/,/g, '\\,')}`;
-                                tablica13a.push(selector);
-                                console.log('Generated selector:', tablica13a);
-                                let selector2 = tablica13a[tablica13a.length - 1];
-                                setTimeout(() => {
-                                    // Znajdź element wewnątrz kontenera
-                                    const $divToRemove = $container.find(selector2);
-                                    console.log('Element to remove:', $divToRemove);
+        if ($divToRemove.length) {
+            $divToRemove.remove(); // Usunięcie elementu
+            console.log('Removed:', $divToRemove);
+        } else {
+            console.log('Element not found within container:', selector);
+        }
+}, 500); // Opóźnienie
 
-                                    if ($divToRemove.length) {
-                                        $divToRemove.remove(); // Usunięcie elementu
-                                        console.log('Removed:', $divToRemove);
-                                    } else {
-                                        console.log('Element not found within container:', selector);
-                                    }
-                                }, 500); // Opóźnienie
-
-                            }
-                            console.log('hej44d', $container);
-                        }
-                        console.log('Container found:', $container.length > 0 ? 'Yes' : 'No');
-                        console.log('Container content:', $container.html());
-                    }
+}
+        console.log('hej44d', $container);
+                }
+                console.log('Container found:', $container.length > 0 ? 'Yes' : 'No');
+console.log('Container content:', $container.html());
+            }
                     const $button = $('<button></button>');
                     $button.addClass('run-button2');
                     $button.text('Uruchom'); // Ustawiamy tekst przycisku na 'Uruchom'
@@ -6954,78 +6843,6 @@ if ($divToRemove.length) {  // Sprawdza, czy element istnieje
                             if (index55b2 === 33) {
                                 // Bezpośrednio przekierowujemy użytkownika do strony
                                 window.location.href = 'demo33angielskib.html?category=' + encodeURIComponent(globalCategory);
-                            }
-                                                        if (index55b2 === 34) {
-                                // Bezpośrednio przekierowujemy użytkownika do strony
-                                window.location.href = 'demo34angielskib.html?category=' + encodeURIComponent(globalCategory);
-                            }
-                            if (index55b2 === 35) {
-                                // Bezpośrednio przekierowujemy użytkownika do strony
-                                window.location.href = 'demo35angielskib.html?category=' + encodeURIComponent(globalCategory);
-                            }
-                            if (index55b2 === 36) {
-                                // Bezpośrednio przekierowujemy użytkownika do strony
-                                window.location.href = 'demo36angielskib.html?category=' + encodeURIComponent(globalCategory);
-                            }
-                                                        if (index55b2 === 37) {
-                                // Bezpośrednio przekierowujemy użytkownika do strony
-                                window.location.href = 'demo37angielskib.html?category=' + encodeURIComponent(globalCategory);
-                            }
-                            if (index55b2 === 38) {
-                                // Bezpośrednio przekierowujemy użytkownika do strony
-                                window.location.href = 'demo38angielskib.html?category=' + encodeURIComponent(globalCategory);
-                            }
-                            if (index55b2 === 39) {
-                                // Bezpośrednio przekierowujemy użytkownika do strony
-                                window.location.href = 'demo39angielskib.html?category=' + encodeURIComponent(globalCategory);
-                            }
-                                                                                    if (index55b2 === 37) {
-                                // Bezpośrednio przekierowujemy użytkownika do strony
-                                window.location.href = 'demo37angielskib.html?category=' + encodeURIComponent(globalCategory);
-                            }
-                            if (index55b2 === 38) {
-                                // Bezpośrednio przekierowujemy użytkownika do strony
-                                window.location.href = 'demo38angielskib.html?category=' + encodeURIComponent(globalCategory);
-                            }
-                            if (index55b2 === 39) {
-                                // Bezpośrednio przekierowujemy użytkownika do strony
-                                window.location.href = 'demo39angielskib.html?category=' + encodeURIComponent(globalCategory);
-                            }
-                                                                                    if (index55b2 === 40) {
-                                // Bezpośrednio przekierowujemy użytkownika do strony
-                                window.location.href = 'demo40angielskib.html?category=' + encodeURIComponent(globalCategory);
-                            }
-                            if (index55b2 === 41) {
-                                // Bezpośrednio przekierowujemy użytkownika do strony
-                                window.location.href = 'demo41angielskib.html?category=' + encodeURIComponent(globalCategory);
-                            }
-                            if (index55b2 === 42) {
-                                // Bezpośrednio przekierowujemy użytkownika do strony
-                                window.location.href = 'demo42angielskib.html?category=' + encodeURIComponent(globalCategory);
-                            }
-                                                                                    if (index55b2 === 43) {
-                                // Bezpośrednio przekierowujemy użytkownika do strony
-                                window.location.href = 'demo43angielskib.html?category=' + encodeURIComponent(globalCategory);
-                            }
-                            if (index55b2 === 44) {
-                                // Bezpośrednio przekierowujemy użytkownika do strony
-                                window.location.href = 'demo44angielskib.html?category=' + encodeURIComponent(globalCategory);
-                            }
-                            if (index55b2 === 45) {
-                                // Bezpośrednio przekierowujemy użytkownika do strony
-                                window.location.href = 'demo45angielskib.html?category=' + encodeURIComponent(globalCategory);
-                            }
-                                                                                    if (index55b2 === 46) {
-                                // Bezpośrednio przekierowujemy użytkownika do strony
-                                window.location.href = 'demo46angielskib.html?category=' + encodeURIComponent(globalCategory);
-                            }
-                            if (index55b2 === 47) {
-                                // Bezpośrednio przekierowujemy użytkownika do strony
-                                window.location.href = 'demo47angielskib.html?category=' + encodeURIComponent(globalCategory);
-                            }
-                            if (index55b2 === 48) {
-                                // Bezpośrednio przekierowujemy użytkownika do strony
-                                window.location.href = 'demo48angielskib.html?category=' + encodeURIComponent(globalCategory);
                             }
                         }, 1000);
                         // Usunięcie kontenera po wstawieniu nowego
@@ -7688,82 +7505,82 @@ ${sentence10}<br>
                 console.log("Wpływaj ulubione fiszki!");
                 // Dodaj logikę lub akcje związane z wpleceniem ulubionych fiszek.
             }
-            let visibleIndexes = [];
-            let previousVisibleIndexes = [];
-            let countVisibleContainersCalled = false;
-            let timeoutId = null;
-            let scrollTimeoutId = null;  // Nowy timeout dla scrollowania
-            let lastChangeTime = 0;
-            let isFirstCall = true;
+let visibleIndexes = [];
+let previousVisibleIndexes = [];
+let countVisibleContainersCalled = false;
+let timeoutId = null;
+let scrollTimeoutId = null;  // Nowy timeout dla scrollowania
+let lastChangeTime = 0;
+let isFirstCall = true;
 
 
-            function countVisibleContainers() {
-                console.log('hej124', isVideoPlaying);
-                // Sprawdź, czy wideo jest odtwarzane i widoczne
-                if (isVideoPlaying && currentVideoElement && isVideoVisible(currentVideoElement)) {
-                    return; // Nie wykonuj nic, jeśli wideo jest odtwarzane i widoczne
-                }
-                indexes = [];
+function countVisibleContainers() {
+    console.log('hej124', isVideoPlaying);
+        // Sprawdź, czy wideo jest odtwarzane i widoczne
+    if (isVideoPlaying && currentVideoElement && isVideoVisible(currentVideoElement)) {
+        return; // Nie wykonuj nic, jeśli wideo jest odtwarzane i widoczne
+    }
+    indexes = [];
 
-                $('.grid-container .image-container4').each(function (index) {
+    $('.grid-container .image-container4').each(function (index) {
+        
+        const containerRect = this.getBoundingClientRect();
+        const isVisible = (
+            containerRect.top >= 0 &&
+            containerRect.left >= 0 &&
+            containerRect.bottom <= (window.innerHeight || document.documentElement.clientHeight) &&
+            containerRect.right <= (window.innerWidth || document.documentElement.clientWidth)
+        );
 
-                    const containerRect = this.getBoundingClientRect();
-                    const isVisible = (
-                            containerRect.top >= 0 &&
-                            containerRect.left >= 0 &&
-                            containerRect.bottom <= (window.innerHeight || document.documentElement.clientHeight) &&
-                            containerRect.right <= (window.innerWidth || document.documentElement.clientWidth)
-                            );
+        if (isVisible) {
+            indexes.push(index + 1); // Dodanie +1, aby indeksy zaczynały się od 1
+        }
+    });
 
-                    if (isVisible) {
-                        indexes.push(index + 1); // Dodanie +1, aby indeksy zaczynały się od 1
-                    }
-                });
+    // Jeśli to pierwsze wywołanie, uruchom od razu
+    if (isFirstCall && indexes.length) {
+        isFirstCall = false;
+        console.log('Aktualne widoczne indeksy:', indexes);
+        otherFunction(indexes);
+    }
 
-                // Jeśli to pierwsze wywołanie, uruchom od razu
-                if (isFirstCall && indexes.length) {
-                    isFirstCall = false;
-                    console.log('Aktualne widoczne indeksy:', indexes);
-                    otherFunction(indexes);
-                }
+    // Obliczenie czasu od ostatniej zmiany
+    const currentTime = Date.now();
+    const elapsedTime = currentTime - lastChangeTime;
 
-                // Obliczenie czasu od ostatniej zmiany
-                const currentTime = Date.now();
-                const elapsedTime = currentTime - lastChangeTime;
+    // Zresetuj losowanie previousVisibleIndexes przy każdym scrollowaniu, ale losuj tylko raz
+    if (!scrollTimeoutId) {
+        previousVisibleIndexes = [...indexes]; // Losowanie once
+    }
 
-                // Zresetuj losowanie previousVisibleIndexes przy każdym scrollowaniu, ale losuj tylko raz
-                if (!scrollTimeoutId) {
-                    previousVisibleIndexes = [...indexes]; // Losowanie once
-                }
+    // Jeśli warunek jest spełniony i poprzedni timeout nie istnieje
+if (indexes.length >= 8 && !hasPreviousIndexesBeenSet) {
+        if (timeoutId) {
+            clearTimeout(timeoutId); // Wyczyść poprzedni timeout, jeśli istnieje
+        }
+        // Ustaw timeout na 2 sekundy po zatrzymaniu scrollowania
+        timeoutId = setTimeout(() => {
+            previousVisibleIndexes = [...indexes]; // Losowanie
+            hasPreviousIndexesBeenSet = true;
+            console.log('Aktualne widoczne indeksy:', indexes);
+            otherFunction(indexes);
+            timeoutId = null; // Resetuj timeoutId po wykonaniu funkcji
+        }, 200); // Czekaj 2 sekundy od ostatniego scrollowania
+    }
 
-                // Jeśli warunek jest spełniony i poprzedni timeout nie istnieje
-                if (indexes.length >= 8 && !hasPreviousIndexesBeenSet) {
-                    if (timeoutId) {
-                        clearTimeout(timeoutId); // Wyczyść poprzedni timeout, jeśli istnieje
-                    }
-                    // Ustaw timeout na 2 sekundy po zatrzymaniu scrollowania
-                    timeoutId = setTimeout(() => {
-                        previousVisibleIndexes = [...indexes]; // Losowanie
-                        hasPreviousIndexesBeenSet = true;
-                        console.log('Aktualne widoczne indeksy:', indexes);
-                        otherFunction(indexes);
-                        timeoutId = null; // Resetuj timeoutId po wykonaniu funkcji
-                    }, 200); // Czekaj 2 sekundy od ostatniego scrollowania
-                }
-
-                // Aktualizacja czasu ostatniej zmiany
-                lastChangeTime = currentTime;
-            }
+    // Aktualizacja czasu ostatniej zmiany
+    lastChangeTime = currentTime;
+}
 
             let debounceTimer;
 
             $(window).on('scroll', function () {
                 // Jeśli istnieje aktywny timer, anuluj go
                 clearTimeout(debounceTimer);
-                hasPreviousIndexesBeenSet = false;
+hasPreviousIndexesBeenSet = false;
                 // Ustaw nowy timer
                 debounceTimer = setTimeout(function () {
-                    console.log('hej5432');
+                                                            console.log('hej5432');
                     // Wywołanie funkcji po zakończeniu przewijania
 
                 }, 1000); // Czas w milisekundach, po którym funkcja zostanie wywołana
@@ -7777,36 +7594,36 @@ ${sentence10}<br>
                 przekazArgument0(tablica3[2], undefined, false, 'zdania', false, false, tablica3[1], tablica3[4]);
             }
             document.addEventListener("DOMContentLoaded", () => {
-                // Pobierz userAgent przeglądarki
-                const userAgent = navigator.userAgent || navigator.vendor || window.opera;
+    // Pobierz userAgent przeglądarki
+    const userAgent = navigator.userAgent || navigator.vendor || window.opera;
 
-                // Warunki sprawdzające czy aplikacja to Messenger lub Facebook
-                const isFacebookMessenger = /FBAN|FBAV|Messenger/i.test(userAgent);
+    // Warunki sprawdzające czy aplikacja to Messenger lub Facebook
+    const isFacebookMessenger = /FBAN|FBAV|Messenger/i.test(userAgent);
 
-                // Jeśli wykryto, że strona jest otwierana z Messengera
-                if (isFacebookMessenger) {
-                    alert("Wykryto, że przeglądasz stronę w Messengerze. Dla pełnej funkcjonalności zalecamy otwarcie strony w przeglądarce, np. Chrome.");
+    // Jeśli wykryto, że strona jest otwierana z Messengera
+    if (isFacebookMessenger) {
+        alert("Wykryto, że przeglądasz stronę w Messengerze. Dla pełnej funkcjonalności zalecamy otwarcie strony w przeglądarce, np. Chrome.");
 
-                    // Dodanie sugestii z przyciskiem do otwarcia strony w przeglądarce
-                    const suggestion = document.createElement('div');
-                    suggestion.innerHTML = `
+        // Dodanie sugestii z przyciskiem do otwarcia strony w przeglądarce
+        const suggestion = document.createElement('div');
+        suggestion.innerHTML = `
             <div style="position: fixed; top: 20px; left: 20px; right: 20px; background: rgba(255, 255, 255, 0.9); padding: 15px; border: 1px solid #ccc; z-index: 9999; border-radius: 5px;">
                 <p style="font-size: 16px; color: #333;">Aby w pełni korzystać ze strony, otwórz ją w przeglądarce Chrome.</p>
                 <button id="openInChrome" style="padding: 10px 20px; background-color: #4CAF50; color: white; border: none; border-radius: 5px; cursor: pointer;">Otwórz w Chrome</button>
             </div>
         `;
-                    document.body.appendChild(suggestion);
+        document.body.appendChild(suggestion);
 
-                    // Obsługa kliknięcia przycisku
-                    document.getElementById('openInChrome').addEventListener('click', () => {
-                        // Otwórz stronę w zewnętrznej przeglądarce
-                        window.open(window.location.href, '_blank');
-                    });
-                }
-            });
+        // Obsługa kliknięcia przycisku
+        document.getElementById('openInChrome').addEventListener('click', () => {
+            // Otwórz stronę w zewnętrznej przeglądarce
+            window.open(window.location.href, '_blank');
+        });
+    }
+});
 
-            przekazArgument0(tablica3[2], '', false, 'fiszki', true, true, tablica3[1], tablica3[4]);
-            ustawTryb('fiszki');
+        przekazArgument0(tablica3[2], '', false, 'fiszki', true, true, tablica3[1], tablica3[4]);
+                    ustawTryb('fiszki');
 // Wywołaj funkcję z kategorią, np. 'nauka' (lub inną nazwą kategorii)
 
         </script>
