@@ -217,10 +217,9 @@ story_button {
             }
             @media (max-width: 999px) {
                 .fiszka {
-    position: absolute;
+    position: relative;
     padding: 10px;
     bottom: 100px;
-    right: 50px;
     margin: 5px;
     background-color: white;
     border: 1px solid #dddddd;
@@ -229,7 +228,6 @@ story_button {
     z-index: 1000005;
     font-family: Arial, sans-serif;
     color: #333;
-    max-width: 300px;
 }
 
 .fiszka_story {

@@ -210,12 +210,11 @@ story_button {
 }
 
             }
-            @media (max-width: 999px) {
+                        @media (max-width: 999px) {
                 .fiszka {
-    position: absolute;
+    position: relative;
     padding: 10px;
     bottom: 100px;
-    right: 50px;
     margin: 5px;
     background-color: white;
     border: 1px solid #dddddd;
@@ -224,7 +223,6 @@ story_button {
     z-index: 1000005;
     font-family: Arial, sans-serif;
     color: #333;
-    max-width: 300px;
 }
 
 .fiszka_story {
@@ -331,17 +329,17 @@ img.fiszka_img {
 
 .fiszka_button.fiszka_button_trening {
     border-radius: 20px;
-  width: 30px;  /* Dostosuj szerokość według własnych preferencji */
-  height: 20px;  /* Dostosuj wysokość według własnych preferencji */
+  width: 30px;  /* Dostosuj szerokoĹÄ wedĹug wĹasnych preferencji */
+  height: 20px;  /* Dostosuj wysokoĹÄ wedĹug wĹasnych preferencji */
   font-size: 25px;
-  /* Dodaj inne właściwości CSS, jeśli są potrzebne */
+  /* Dodaj inne wĹaĹciwoĹci CSS, jeĹli sÄ potrzebne */
 }
 .fiszka_button.fiszka_button_znam {
         border-radius: 20px;
-  width: 30px;  /* Dostosuj szerokość według własnych preferencji */
-  height: 20px;  /* Dostosuj wysokość według własnych preferencji */
+  width: 30px;  /* Dostosuj szerokoĹÄ wedĹug wĹasnych preferencji */
+  height: 20px;  /* Dostosuj wysokoĹÄ wedĹug wĹasnych preferencji */
     font-size: 25px;
-  /* Dodaj inne właściwości CSS, jeśli są potrzebne */
+  /* Dodaj inne wĹaĹciwoĹci CSS, jeĹli sÄ potrzebne */
 }
 
 
@@ -351,13 +349,13 @@ button.fiszka_button {
 
 button.story_button {
         border-radius: 15px;
-        padding: 10px 20px; /* odstępy wewnętrzne */
+        padding: 10px 20px; /* odstÄpy wewnÄtrzne */
         font-size: 5px;
         width: auto;
         max-width: 100%;
         box-sizing: border-box;
-        height: auto; /* usuń ograniczenie wysokości */
-        white-space: normal; /* pozwala tekstowi się zawijać */
+        height: auto; /* usuĹ ograniczenie wysokoĹci */
+        white-space: normal; /* pozwala tekstowi siÄ zawijaÄ */
 }
 button.story_button2 {
     border-radius: 5px;
@@ -389,7 +387,7 @@ button.fiszka_button_trening.fiszka.active { background: orange }
 }
 
     .like:hover {
-        background-color: #aaa; /* Dowolny kolor tła dla efektu hover */
+        background-color: #aaa; /* Dowolny kolor tĹa dla efektu hover */
     }
 .liked {
     background-color: white;
@@ -412,8 +410,8 @@ story_button {
 .likeIconContainer {
         width:70px;
     height:40px;
-    display: inline-block; /* Ustawia ikonę i tekst obok siebie */
-    vertical-align: middle; /* Wyśrodkuj ikonę względem tekstu */
+    display: inline-block; /* Ustawia ikonÄ i tekst obok siebie */
+    vertical-align: middle; /* WyĹrodkuj ikonÄ wzglÄdem tekstu */
 }
 
 .story_button {
@@ -422,7 +420,7 @@ story_button {
 
 .orange-button {
     background-color: orange;
-    /* Dodaj inne właściwości stylu, jeśli to konieczne */
+    /* Dodaj inne wĹaĹciwoĹci stylu, jeĹli to konieczne */
 }
 
 .likeCounterDiv {
@@ -434,8 +432,8 @@ story_button {
     background-color: #dcdcdc;
 }
 .likeIconContainer {
-    font-size: 30px; /* Zmieniaj na pożądany rozmiar */
-    margin-right: 5px; /* Odstęp między ikoną a licznikiem */
+    font-size: 30px; /* Zmieniaj na poĹźÄdany rozmiar */
+    margin-right: 5px; /* OdstÄp miÄdzy ikonÄ a licznikiem */
 }
 
             }
