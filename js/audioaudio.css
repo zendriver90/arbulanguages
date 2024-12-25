@@ -132,30 +132,27 @@
 
 .play {
     background: url('http://arbu-1dcc9.web.app/img/play.png');
-    background-size: 50px 50px; /* Ustawia szerokość i wysokość obrazka */
-    background-position: center; /* Ustawia tło na środku kontenera */
-    width: 50px; /* Określa szerokość kontenera */
-    height: 50px; /* Określa wysokość kontenera */
-    display: inline-block; /* Zapewnia, że kontener nie jest obok innych elementów */
+        max-height: 30px;
+        max-width: 30px;
 }
 .pause {
     background: url('http://arbu-1dcc9.web.app/img/stop.jpg');
 }
 
 #word {
-    position: relative;
-    height: 50px;
-    font-size: 20px;
-    display: grid;
-    text-align: center;
-    justify-content: center;
-    align-items: center;
-    grid-template-columns: auto auto;
-    grid-template-rows: auto;
-    margin-bottom: 80px;
-    width: 100%; /* Rozciągnięcie na całą szerokość */
-    grid-column: span 2; /* Zajęcie dwóch kolumn */
-    z-index: 10; /* Ustawienie z-index */
+        position: relative;
+        height: 0px;
+        font-size: 20px;
+        display: grid;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        grid-template-columns: auto auto;
+        grid-template-rows: auto;
+        margin-bottom: 0px;
+        width: 100%;
+        grid-column: span 2;
+        z-index: 10;
 }
 #part {
     position: relative;
