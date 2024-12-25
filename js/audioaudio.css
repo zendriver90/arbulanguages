@@ -132,15 +132,19 @@
 
 .play {
     background: url('http://arbu-1dcc9.web.app/img/play.png');
+    background-size: 50px 50px; /* Ustawia szerokość i wysokość obrazka */
+    background-position: center; /* Ustawia tło na środku kontenera */
+    width: 50px; /* Określa szerokość kontenera */
+    height: 50px; /* Określa wysokość kontenera */
+    display: inline-block; /* Zapewnia, że kontener nie jest obok innych elementów */
 }
-
 .pause {
     background: url('http://arbu-1dcc9.web.app/img/stop.jpg');
 }
 
 #word {
     position: relative;
-    height: 80px;
+    height: 50px;
     font-size: 20px;
     display: grid;
     text-align: center;
