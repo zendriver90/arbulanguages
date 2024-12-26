@@ -38,6 +38,10 @@
                     font-size: 0.8em; /* Dostosuj rozmiar czcionki przycisków */
                     margin: 0 5px; /* Marginesy między przyciskami a tekstem */
                 }
+                                .next-button {
+                    font-size: 0.8em; /* Dostosuj rozmiar czcionki przycisków */
+                    margin: 0 5px; /* Marginesy między przyciskami a tekstem */
+                }
 
                 .highlighted {
                     color: green; /* Kolor dla wyróżnionego słowa */
@@ -6184,7 +6188,7 @@ ${sentence10}${sentence11}<br>
                                 const $newButton = $('<button>').text('Wybierz słowo').addClass('slide-button');
                                 $newButton.css({
                                     'position': 'absolute',
-                                    'bottom': '10px',
+                                    'bottom': '35px',
                                     'right': '30px',
                                     'width': '120px',
                                     'height': '30px',
@@ -6245,7 +6249,7 @@ ${sentence10}${sentence11}<br>
                 let highlightedSpan5 = `<span class="highlighted" style="display:none;">${fifthWord}</span>`;
                 let highlightedSpan6 = `<span class="highlighted" style="display:none;">${sixthWord}</span>`;
 
-                let button1 = `<button class="nav-button" id="prev-button" style="display:none;">&lt;</button>`;
+                let button1 = `<button class="prev-button" id="prev-button">&lt;</button>`;
                 let button2 = `<button class="next-button" id="next-button">&gt;</button>`;
 
                 $sentence10.html(`
@@ -6285,7 +6289,7 @@ function handleWordClick(clickedIndex, indexDiv, matchingFiszki1) {
 }
                         const $wordContainer = $('<div>').attr('id', 'wordDisplay').css({
                             'position': 'absolute',
-                            'bottom': '-20px',
+                            'bottom': '0px',
                             'font-size': '22px',
                             'right': '-140px',
                             'width': '130px',
@@ -6353,26 +6357,14 @@ function handleNextClick(indexDiv, $sentence10, currentFiszkaIndex, firstWord, s
                 currentFiszkaIndex++;
 
         }
+function handleNextClick2(indexDiv, $sentence10, currentFiszkaIndex, firstWord, secondWord, thirdWord, forthWord, fifthWord, sixthWord) {
+    // Sprawdź, czy możemy zwiększyć indeks podświetlenia
+        console.log('hej55d', currentFiszkaIndex);
+        updateHighlight(indexDiv, $sentence10, currentFiszkaIndex, firstWord, secondWord, thirdWord, forthWord, fifthWord, sixthWord);
+                currentFiszkaIndex--;
 
-                // Obsługa kliknięcia na "prev"
-                $(document).on('click', '.prev-button', function() {
-                    if (currentHighlightIndex > 0) {
-                        currentHighlightIndex--;
-                        updateHighlight($sentence10, currentHighlightIndex, firstWord, secondWord, thirdWord, forthWord, fifthWord, sixthWord);
-                    
-                            // Zwiększ indeks wyświetlanego słowa
-        displayWordsIndex--; // Zwiększamy indeks wyświetlanego słowa
-        displayWords(displayWordsIndex, indexDiv); // Wywołaj funkcję do wyświetlenia słów z nowym indeksem
-                    // Ukryj przycisk "prev" jeśli jesteśmy na początku
-                    if (currentHighlightIndex === 0) {
-                        $(this).hide();
-                    }
-                    // Pokaż przycisk "next" jeśli nie jesteśmy na końcu
-                    if (currentHighlightIndex < 5) {
-                        $('#next-button').show();
-                    }
-                }
-                });
+        }
+
        let currentFiszkaIndex = 0;
 function updateHighlight(indexDiv, $sentence10, index, firstWord, secondWord, thirdWord, forthWord, fifthWord, sixthWord) {
     const words = [firstWord, secondWord, thirdWord, forthWord, fifthWord, sixthWord];
@@ -6395,8 +6387,6 @@ function updateHighlight(indexDiv, $sentence10, index, firstWord, secondWord, th
     $sentence10.find('.word-span').off('click').on('click', function () {
         const clickedIndex = $(this).data('index');
 
-        // Aktualizacja `currentFiszkaIndex` w strukturze danych
-        currentIndexEntry[1] = clickedIndex;
 
         // Wywołanie funkcji obsługi kliknięcia
         handleWordClick(clickedIndex, indexDiv, matchingFiszki1);
@@ -6417,7 +6407,7 @@ function updateHighlight(indexDiv, $sentence10, index, firstWord, secondWord, th
 currentFiszkaIndex = nowy;
 
                         const $prevButton = $('<button>')
-                            .text('>')
+                            .text('<')
                             .attr('id', 'prev-button') 
                             .addClass('prev-button')
                             .css({
@@ -6445,12 +6435,46 @@ currentFiszkaIndex = nowy;
                         $prevButton.on('click', function() {
     console.log('Aktualny index fiszki:', currentFiszkaIndex);
     console.log('Dostępne fiszki:', matchingFiszki1.length);
-        
-    if (currentFiszkaIndex < matchingFiszki1.length - 1) {
         currentFiszkaIndex--; // Zwiększ indeks fiszki
+    if (currentFiszkaIndex <= matchingFiszki1.length - 1) {
+        
+                                                                                                            // Sprawdź, czy `indexDiv` już istnieje w `fiszkaobject.data`
+                                                    const existingIndex = fiszkaobject.data.findIndex(
+                                                            (entry) => entry[0] === indexDiv
+                                                    );
+
+                                                    if (existingIndex !== -1) {
+                                                        // Jeśli istnieje, zastąp wartość
+                                                        fiszkaobject.data[existingIndex] = [indexDiv, currentFiszkaIndex];
+                                                    } else {
+                                                        // Jeśli nie istnieje, dodaj nową tablicę
+                                                        fiszkaobject.data.push([indexDiv, currentFiszkaIndex]);
+                                                    }
+
+                                                    // Sprawdź, czy `indexDiv` już istnieje w `fiszkaobject.data`
+                                                    const existingIndex2 = fiszkaobject.data.findIndex(
+                                                            (entry) => entry[0] === indexDiv
+                                                    );
+
+                                                    if (existingIndex2 !== -1) {
+                                                        // Jeśli istnieje, zaktualizuj `currentFiszkaIndex`
+                                                        fiszkaobject.data[existingIndex2][1] = currentFiszkaIndex;
+                                                        console.log('hej303bb', currentFiszkaIndex);
+
+                                                        console.log('hej303bbx', fiszkaobject.data[existingIndex2][1]);
+                                                    } else {
+                                                        // Jeśli nie istnieje, dodaj nową tablicę
+                                                        fiszkaobject.data.push([indexDiv, currentFiszkaIndex]);
+                                                    }
+
+                                                        tablica12b.push(currentFiszkaIndex, indexDiv);
+                                                        console.log('hej68cx', fiszkaobject);
+                                                        handleNextClick2(indexDiv, $sentence10, currentFiszkaIndex, firstWord, secondWord, thirdWord, forthWord, fifthWord, sixthWord);
+                                                        wybierzRodzaj2('all', currentFiszkaIndex, matchingFiszki1, indexDiv);
+                                                        updateWordDisplay(currentWordIndex, indexDiv);
+                                                        
+console.log("indexDiv2", tablica12b);
         console.log('hej68c', currentFiszkaIndex);
-        // Wywołaj funkcję, przekazując zaktualizowany indeks
-        wybierzRodzaj2('all', currentFiszkaIndex, matchingFiszki1); // Podaj nazwę kategorii, którą chcesz wybrać
     } else {
         console.log('Koniec fiszek!'); // Informacja o końcu fiszek
     }
@@ -6462,7 +6486,7 @@ $nextButton.on('click', function () {
                                                     console.log('Dostępne fiszki:', matchingFiszki1);
                                                                                                             currentFiszkaIndex++; // Zwiększ indeks fiszki
                                                     console.log('hej303b', fiszkaobject);
-                                                    if (currentFiszkaIndex < matchingFiszki1.length) {
+                                                    if (currentFiszkaIndex <= matchingFiszki1.length - 1) {
 
                                                                                                             // Sprawdź, czy `indexDiv` już istnieje w `fiszkaobject.data`
                                                     const existingIndex = fiszkaobject.data.findIndex(
@@ -6493,7 +6517,7 @@ $nextButton.on('click', function () {
                                                         fiszkaobject.data.push([indexDiv, currentFiszkaIndex]);
                                                     }
 
-                                                        tablica12b.push(currentFiszkaIndex);
+                                                        tablica12b.push(currentFiszkaIndex, indexDiv);
                                                         console.log('hej68cx', fiszkaobject);
                                                         handleNextClick(indexDiv, $sentence10, currentFiszkaIndex, firstWord, secondWord, thirdWord, forthWord, fifthWord, sixthWord);
                                                         wybierzRodzaj2('all', currentFiszkaIndex, matchingFiszki1, indexDiv);
