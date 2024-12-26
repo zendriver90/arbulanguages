@@ -219,8 +219,8 @@ story_button {
                 .fiszka {
     position: absolute;
     padding: 10px;
-    left: 140px;
-    bottom: -500px;
+    left: 120px;
+    top: 115px;
     margin: 5px;
     background-color: white;
     border: 1px solid #dddddd;
@@ -382,7 +382,7 @@ button.fiszka_button_trening.fiszka.active { background: orange }
     color:gray;
     border-radius:3px;
     width:150px;
-    height:40px;
+    height:20px;
     line-height:40px;
     vertical-align:middle;
     text-align:center;
@@ -439,7 +439,9 @@ story_button {
     background-color: #dcdcdc;
 }
 .likeIconContainer {
-    font-size: 15px; /* Zmieniaj na poĹźÄdany rozmiar */
+    font-size: 17px; /* Zmieniaj na poĹźÄdany rozmiar */
+    height: 12px;
+    width: 10px;
     margin-right: 5px; /* OdstÄp miÄdzy ikonÄ a licznikiem */
 }
 

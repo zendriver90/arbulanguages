@@ -1053,16 +1053,17 @@
                     background-color: green;
                 }
                 .flashcard-container {
-                    width: 390px;
-                    height: 470px;
-                    background-color: #2ecc71; /* Zielony kolor, możesz dostosować według potrzeb */
-                    display: flex;
-                    justify-content: space-around;
-                    align-items: center;
-                    padding: 10px;
-                    box-sizing: border-box;
-                    position: absolute;
-                    margin-top: 770px;
+        width: 100%;
+        height: 470px;
+        background-color: #2ecc71;
+        display: flex
+;
+        justify-content: space-around;
+        align-items: center;
+        padding: 10px;
+        box-sizing: border-box;
+        position: absolute;
+        margin-top: 770px;
                 }
                 #buttoncreate {
                     background-color: blue;
@@ -1071,20 +1072,41 @@
                     background-color: #2ecc71;
                 }
 
-                .flashcard-container #konsola {
-                    margin-left: -10px;
-                    margin-right: -10px;
-                }
-                .flashcard-container #konsola2 {
+    .flashcard-container #konsola {
+        display: block;
+        width: 100%;
+        max-width: 100%; /* Zapobiega wychodzeniu poza ekran */
+        margin-left: auto;
+        margin-right: auto;
+        box-sizing: border-box;
+        overflow-x: hidden; /* Wymusza brak poziomego przesunięcia */
+    }
+    .flashcard-container #konsola2 {
+        display: block;
+        width: 100%;
+        max-width: 100%; /* Zapobiega wychodzeniu poza ekran */
+        margin-left: auto;
+        margin-right: auto;
+        box-sizing: border-box;
+        overflow-x: hidden; /* Wymusza brak poziomego przesunięcia */
+    }
+                .flashcard-container #konsola3 {
                     display: none;
-                    margin-left: -10px;
-                    margin-right: -10px;
+        width: 100%;
+        max-width: 100%; /* Zapobiega wychodzeniu poza ekran */
+        margin-left: auto;
+        margin-right: auto;
+        box-sizing: border-box;
+        overflow-x: hidden; /* Wymusza brak poziomego przesunięcia */
                 }
-                #konsola3 {
+                .flashcard-container #konsola4 {
                     display: none;
-                }
-                #konsola4 {
-                    display: none;
+        width: 100%;
+        max-width: 100%; /* Zapobiega wychodzeniu poza ekran */
+        margin-left: auto;
+        margin-right: auto;
+        box-sizing: border-box;
+        overflow-x: hidden; /* Wymusza brak poziomego przesunięcia */
                 }
                 .word-span.current {
                     background-color: yellow; /* lub inny kolor */
@@ -1624,14 +1646,6 @@
 <button class="charakter-button" onclick="wybierzCharakter('krotkie')">Pisownia</button>
 <button id="inne" onclick="wybierzCharakter('krotkie')">Sens zdania</button>
     <button id="dowolne" onclick="wybierzCharakter('dowolne')">WSZYSTKIE</button>
-</div>
-<div id="konsola2">
-            <div id="title">ULUBIONA TEMATYKA FISZEK</div>
-    <button onclick="wybierzTematyke('nauka')">Nauka</button>
-    <button onclick="wybierzTematyke('podroze')">Podróże</button>
-    <button onclick="wybierzTematyke('historia')">Historia</button>
-    <button onclick="wybierzTematyke('sztuka')">Sztuka</button>
-    <button onclick="wybierzTematyke('technologia')">Technologia</button>
 </div>
 <div id="konsola3">
     <h2>Ulubione Fiszki</h2>
