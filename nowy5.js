@@ -1062,3 +1062,26 @@ let currentFiszkaIndex = tablica24.length > 0
     ? tablica24[tablica24.length - 1] // Ostatni element tablica20
     : 0; // Wartość domyślna, gdy tablica24 jest pusta
 console.log('hej303x', currentFiszkaIndex);
+
+                                                        console.log('Dodano wartośćx:', tablica12b[currentFiszkaIndex][0]);
+                                                        let nowaWartosc = indexDiv;
+
+                                // Sprawdź, czy wartość już nie istnieje w tablicy (opcjonalnie)
+                                if (!tablica11b.includes(nowaWartosc)) {
+                                    tablica11b.push(nowaWartosc); // Dodaj nową wartość na końcu tablicy
+                                    console.log('Dodano wartość:', nowaWartosc);
+                                    
+                                } else {
+                                    console.log('Wartość już istnieje w tablicy:', nowaWartosc);
+                                }
+
+                                let ostatniElement2 = tablica11b[0];
+
+                                let ostatniElement3 = tablica12b[tablica12b.length - 1];
+                                console.log('hej55h', ostatniElement3);
+                                console.log('hej55h+', ostatniElement2);
+                                                                if (tablica12b[1] === tablica11b[tablica11b.length - 1]) {
+                                setTimeout(() => {
+                                    showFiszkiForLesson6(ostatniElement2, ostatniElement3);
+                                }, 0);
+                            }

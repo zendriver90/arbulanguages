@@ -266,3 +266,18 @@ console.log('hej556', fiszkaobject);
                                                 console.log('hej12a', displayWordsIndex);
                                                 displayWords(index, indexDiv); // Wywołaj funkcję do wyświetlenia słów z nowym indeksem
                                             }
+                                            
+                                            function znajdzPierwszyIndexDiv(fiszkaobject, nowaWartosc) {
+  for (let i = 0; i < fiszkaobject.data.length; i++) {
+    if (fiszkaobject.data[i][0] === nowaWartosc) {
+      return i; // Zwracamy indeks, jeśli znaleźliśmy dopasowanie
+    }
+  }
+  return -1; // Zwracamy -1, jeśli nie znaleźliśmy dopasowania
+}
+const pierwszyIndex = znajdzPierwszyIndexDiv(fiszkaobject, indexDiv);
+if (pierwszyIndex !== -1) {
+  console.log("Pierwszy element z indexDiv:", fiszkaobject.data[pierwszyIndex]);
+} else {
+  console.log("Nie znaleziono elementu z takim indexDiv");
+}
