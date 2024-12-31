@@ -6303,6 +6303,38 @@ function handleWordClick(clickedIndex, indexDiv, matchingFiszki1) {
     'border': '2px solid black',  // Dodaj obramowanie
                             'z-index': '1000000'
                         }).appendTo($container);
+                        let ostatniElement2 = tablica11b[tablica11b.length - 2];
+console.log('hej55', ostatniElement2);
+    // Sprawdź, czy element 'wordDisplay' już istnieje
+// Sprawdź, czy element 'wordDisplay' już istnieje w odpowiednim kontenerze
+if (ostatniElement2) {
+    // Znajdź kontener na podstawie data-lesson
+    const $container = $(`.image-container4[data-lesson="${ostatniElement2}"]`);
+    
+    // Szukamy 'wordDisplay' w tym kontenerze
+    const $wordContainer = $container.find('#wordDisplay');
+    
+    // Jeśli 'wordDisplay' istnieje, wykonaj coś z tym elementem
+    if ($wordContainer.length > 0) {
+        console.log('Znaleziono wordDisplay:', $wordContainer);
+        
+        // Tutaj możesz wykonać akcje na $wordContainer, np. przesunięcie
+        $wordContainer.css({
+            'right': '0px', // Przesuń w lewo
+            'transition': 'right 0.5s ease' // Animacja
+        });
+    } else {
+        console.log('wordDisplay nie znaleziono w kontenerze');
+    }
+} else {
+    console.log('Brak ostatniego elementu w tablica11b');
+}
+
+// Obsługa kliknięcia na indexDiv
+$('.indexDiv').on('click', function () {
+    const indexDiv = $(this).data('lesson'); // Pobierz atrybut data-lesson dla klikniętego indexDiv
+    handleIndexDivClick(indexDiv); // Wywołaj funkcję przesuwania 'wordDisplay'
+});
                         const $currentWordDisplay = $('<span>').appendTo($wordContainer);
     function updateWordDisplay2(currentWordIndex) {
         let fiszka = matchingFiszki1[currentFiszkaIndex];

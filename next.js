@@ -281,3 +281,33 @@ if (pierwszyIndex !== -1) {
 } else {
   console.log("Nie znaleziono elementu z takim indexDiv");
 }
+
+
+                            // Obsługa kliknięcia przycisku overlay
+                            $buttonb.on('click', function () {
+
+                                // Dodaj kopię wartości indexDiv do tablicy
+                                // Przykład nowej wartości indexDiv
+                                let nowaWartosc = indexDiv;
+
+                                // Sprawdź, czy wartość już nie istnieje w tablicy (opcjonalnie)
+                                if (!tablica11b.includes(nowaWartosc)) {
+                                    tablica11b.push(nowaWartosc); // Dodaj nową wartość na końcu tablicy
+                                    console.log('Dodano wartość:', nowaWartosc);
+                                    console.log('Dodano wartość:', tablica11b);
+                                } else {
+                                    console.log('Wartość już istnieje w tablicy:', nowaWartosc);
+                                }
+
+                                let ostatniElement2 = tablica11b[tablica11b.length - 2];
+
+                                let ostatniElement3 = tablica12b[tablica12b.length - 1];
+                                console.log('hej55h', ostatniElement3);
+                                console.log('hej55h+', ostatniElement2);
+                                setTimeout(() => {
+                                    showFiszkiForLesson6(ostatniElement2, ostatniElement3);
+                                }, 0);
+
+                                highlightFirstWord(indexDiv);
+                                console.log('hej44f', tablica24[tablica24.length - 1]);
+                            });
