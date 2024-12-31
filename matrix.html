@@ -6439,11 +6439,11 @@ currentFiszkaIndex = nowy;
 
     if (currentFiszkaIndex <= matchingFiszki1.length - 1) {
         currentFiszkaIndex--; // Zwiększ indeks fiszki
-                                                        tablica12bu.push(currentFiszkaIndex);
+                                                        tablica12b.push(currentFiszkaIndex);
                                                         console.log('hej68cx', fiszkaobject);
 let indeks5; // Zainicjalizuj zmienną przed warunkami
 if (currentFiszkaIndex < 4) {
-    indeks5 = tablica12bu[tablica12bu.length - 2];
+    indeks5 = tablica12b[tablica12b.length - 2];
 } else if (currentFiszkaIndex === 4) {
     indeks5 = 5;
 }
@@ -6496,7 +6496,7 @@ $nextButton.on('click', function () {
                                                         fiszkaobject.data.push([indexDiv, currentFiszkaIndex]);
                                                     }
 
-                                                        tablica12b.push(currentFiszkaIndex, indexDiv);
+                                                        tablica12b.push(currentFiszkaIndex);
                                                         console.log('hej68cx', fiszkaobject);
                                                         handleNextClick(indexDiv, $sentence10, currentFiszkaIndex, firstWord, secondWord, thirdWord, forthWord, fifthWord, sixthWord);
                                                         wybierzRodzaj2('all', currentFiszkaIndex, matchingFiszki1, indexDiv);
