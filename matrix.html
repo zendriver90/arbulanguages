@@ -215,8 +215,23 @@
                     font-size: 20px;
                     margin-top: 10px;
                     order: -1; /* Kolejność odwrotna - spycha w dół */
-                    z-index: 1; /* Tło kontenera, ustaw na większy z-index niż wideo */
+                    z-index: 100; /* Tło kontenera, ustaw na większy z-index niż wideo */
                 }
+                #wordDisplay {
+    position: absolute;
+    bottom: 0px;
+    font-size: 22px;
+    right: -140px;
+    width: 130px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    color: black;
+    z-index: 101;
+    background-color: lightgray;
+    border-radius: 8px;
+    border: 2px solid black;
+}
                 .image-container5 {
                     display: flex;
                     flex-direction: column;
@@ -6221,7 +6236,8 @@ $buttonb.remove();
 
                             function highlightFirstWord(indexDiv) {
     const $container = $(`.image-container4[data-lesson="${indexDiv}"]`);
-
+$(`.image-container4`).css('z-index', 100); // Reset z-index dla wszystkich
+$container.css('z-index', 102); // Podniesienie z-index tylko dla aktywnego
     if (matchingFiszki1.length > 0) {
         const $sentence10 = $container.find('.sentenceBB');
         const $sentence11 = $container.find('.sentence11');
@@ -6289,19 +6305,6 @@ function handleWordClick(clickedIndex, indexDiv, matchingFiszki1) {
 
 }
                         const $wordContainer = $('<div>').attr('id', 'wordDisplay').css({
-                            'position': 'absolute',
-                            'bottom': '0px',
-                            'font-size': '22px',
-                            'right': '-140px',
-                            'width': '130px',
-                            'height': '30px',
-                            'text-align': 'center',
-                            'line-height': '30px',
-                            'color': 'black',
-                            'background-color': 'lightgray',
-    'border-radius': '8px',
-    'border': '2px solid black',  // Dodaj obramowanie
-                            'z-index': '1000000'
                         }).appendTo($container);
                         let ostatniElement2 = tablica11b[tablica11b.length - 2];
 console.log('hej55', ostatniElement2);
