@@ -311,3 +311,63 @@ if (pierwszyIndex !== -1) {
                                 highlightFirstWord(indexDiv);
                                 console.log('hej44f', tablica24[tablica24.length - 1]);
                             });
+                            
+                            
+                            function wybierzRodzaj2(category, currentFiszkaIndex, matchingFiszki1, indexDiv) {
+
+    console.log("Wybrany rodzaj słownictwa: ", currentFiszkaIndex);
+
+    const matchingLessons = [];
+
+    // Sprawdzenie, czy kategoria to 'all'
+    if (category === 'all') {
+        // Dodaj wszystkie lekcje do matchingLessons
+        for (const fiszka of fiszki) {
+            console.log(`Przetwarzanie fiszki: ${JSON.stringify(fiszka)}`);
+            // Sprawdzanie, czy fiszka ma poprawne id
+            if (fiszka.id && fiszka.id[1]) {
+                // Sprawdzanie, czy id już jest w matchingLessons, aby uniknąć duplikatów
+                if (!matchingLessons.includes(fiszka.id[1])) {
+                    matchingLessons.push(fiszka.id[1]);
+                }
+                console.log('hej134b', matchingLessons);
+            }
+        }
+    } else {
+        // Iteracja przez fiszki
+        for (const fiszka of fiszki) {
+            console.log(`Przetwarzanie fiszki: ${JSON.stringify(fiszka)}`);
+            if (fiszka.category !== 'all') {
+                // Sprawdzenie, czy fiszka pasuje do zadanej kategorii
+                const isInCategory2 = fiszka.category2 && fiszka.category2.includes(category);
+                const isInCategory3 = fiszka.category3 && fiszka.category3.includes(category);
+
+                // Jeśli fiszka pasuje do zadanej kategorii, dodaj numer lekcji do tablicy matchingLessons
+                if (isInCategory2 || isInCategory3) {
+                    console.log(`Znaleziono fiszkę z kategorią "${category}" w lekcji ${JSON.stringify(fiszka)}`);
+                    if (fiszka.id && fiszka.id[1]) {
+                        matchingLessons.push(fiszka.id[1]);
+                    }
+                }
+            }
+        }
+    }
+    
+    console.log('hej222', matchingLessons);
+
+    if (matchingLessons.length > 0) {
+        const nextThreeLessons = matchingLessons.slice(0, 1);
+        console.log('Wyświetlanie kolejnych trzech lekcji:');
+        nextThreeLessons.forEach(lessonId => {
+            showFiszkiForLesson5(indexDiv, fiszki, currentFiszkaIndex, matchingFiszki1);
+            console.log('hej68ll', currentFiszkaIndex);
+        });
+    } else {
+        console.log(`Nie znaleziono fiszek z kategorią "${category}".`);
+    }
+}
+
+                                                let ostatniElement2 = tablica11b[tablica11b.length - 1];
+                                                if (currentFiszkaIndex === 0) {
+                                                    wybierzRodzaj2('all', currentFiszkaIndex, matchingFiszki1, ostatniElement2);
+                                                }
