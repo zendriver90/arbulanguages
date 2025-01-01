@@ -108,6 +108,7 @@
                     z-index: 99999999;
                 }
                 .content-container {
+                    max-width: 100%;
                     position: relative;
                 }
                 /* Styl dla menu pionowego */
@@ -694,6 +695,7 @@
                     box-sizing: border-box;
                 }
                 .content-container {
+                                        max-width: 100%;
                     position: relative;
                 }
                 /* Styl dla menu pionowego */
@@ -829,7 +831,7 @@
                     box-sizing: border-box;
                     margin-bottom: 0px;
                     align-items: center;
-                    font-size: 15px;
+                    font-size: 20px;
                     margin-top: 10px;
                     z-index: 9999;
                 }/* Tło */
@@ -1072,7 +1074,7 @@
                     background-color: green;
                 }
                 .flashcard-container {
-        width: 100%;
+        max-width: 100%;
         height: 470px;
         background-color: #2ecc71;
         display: flex
@@ -1132,11 +1134,13 @@
                     font-weight: bold;
                 }
                 .word-span {
+                    font-size: 8px;
+                    color: yellow;
                     cursor: pointer; /* Zmiana kursora na pointer */
                     display: inline-block; /* Element działa jak przycisk */
                     padding: 5px;
                     margin: 3px;
-                    background-color: lightblue; /* Kolor tła dla widoczności */
+                    background-color: blue; /* Kolor tła dla widoczności */
                     border-radius: 5px; /* Zaokrąglone rogi */
                 }
 
@@ -1148,7 +1152,7 @@
                 /* Styl dla podświetlonego słowa */
                 .highlighted {
                     cursor: pointer; /* Zmiana kursora na pointer */
-                    background-color: #0056b3; /* Kolor podświetlenia */
+                    background-color: green; /* Kolor podświetlenia */
                 }
                 #konsola button {
                     border-radius: 8px; /* Tutaj możesz dostosować wielkość zaokrąglenia */
@@ -1173,7 +1177,7 @@
                 }
                 .grid-containera {
                     display: grid;
-                    width: 100%;
+                    max-width: 100%;
                     grid-template-columns: repeat(2, 1fr);
                     position: relative;
                     gap: 0px;
@@ -1185,7 +1189,7 @@
                 .grid-container {
                     display: grid;
                     box-sizing: border-box; /* Ustawienie box-sizing */
-                    width: 100%; /* Zapewnienie, że kontener zajmuje 100% szerokości */
+                    max-width: 100%; /* Zapewnienie, że kontener zajmuje 100% szerokości */
                     grid-template-columns: repeat(2, 1fr);
                     gap: 3px; /* Można dostosować zgodnie z potrzebami */
                     position: relative;
@@ -1196,7 +1200,7 @@
                 .grid-containerb {
                     display: grid;
                     box-sizing: border-box; /* Ustawienie box-sizing */
-                    width: 100%; /* Zapewnienie, że kontener zajmuje 100% szerokości */
+                    max-width: 100%; /* Zapewnienie, że kontener zajmuje 100% szerokości */
                     grid-template-columns: repeat(1, 1fr);
                     gap: 3px; /* Można dostosować zgodnie z potrzebami */
                     position: relative;
@@ -1221,7 +1225,7 @@
 
                 video {
                     position: relative;
-                    width: 100%;
+                    max-width: 100%;
                     height: 100%;
                     top: 0px;
                     bottom: 0px;
@@ -1353,7 +1357,7 @@
                     position: fixed;
                     bottom: -60px; /* Domyślnie schowany */
                     left: 0;
-                    width: 100%;
+                    max-width: 100%;
                     height: 60px;
                     background-color: #333;
                     display: flex;
@@ -6127,6 +6131,7 @@ ${sentence10}${sentence11}<br>
 
                             // Obsługa kliknięcia przycisku overlay
                             $buttonb.on('click', function () {
+                                $('.run-button3').css('display', 'none'); // Ukryj przycisk
 $buttonb.remove();
                                 // Dodaj kopię wartości indexDiv do tablicy
                                 // Przykład nowej wartości indexDiv
@@ -6402,7 +6407,7 @@ function handleNextClick2(indexDiv, $sentence10, currentFiszkaIndex, firstWord, 
 
         }
 
-       let currentFiszkaIndex = 0;
+
 function updateHighlight(indexDiv, $sentence10, index, firstWord, secondWord, thirdWord, forthWord, fifthWord, sixthWord) {
     const words = [firstWord, secondWord, thirdWord, forthWord, fifthWord, sixthWord];
 
@@ -6442,7 +6447,7 @@ function updateHighlight(indexDiv, $sentence10, index, firstWord, secondWord, th
                 function displayWords(nowy, indexDiv) {
                                 console.log('index66', indexDiv);
                     console.log('hej4433', currentWordIndex);
-
+       let currentFiszkaIndex = 0;
 
 currentFiszkaIndex = nowy;
 
@@ -6532,7 +6537,7 @@ $nextButton.on('click', function () {
                                                     console.log('Dostępne fiszki:', matchingFiszki1);
                                                                                                             currentFiszkaIndex++; // Zwiększ indeks fiszki
                                                     console.log('hej303b', fiszkaobject);
-                                                    if (currentFiszkaIndex <= matchingFiszki1.length) {
+                                                    if (currentFiszkaIndex <= matchingFiszki1.length - 1) {
 $(`.image-container4`).css('z-index', 100); // Reset z-index dla wszystkich
 $container.css('z-index', 102); // Podniesienie z-index tylko dla aktywnego
                         let ostatniElement2 = tablica11b[tablica11b.length - 2];
@@ -6613,13 +6618,8 @@ if (ostatniElement2) {
             $currentWordDisplay.text(currentWord); // Aktualizujemy tylko tekst w osobnym elemencie
         }
     }
-                                                            tablica12b[0] = 0;
-                                                                                        if (tablica12b[0] === 0) {
-
-                                                                                                                            setTimeout(() => {
-                                                    wybierzRodzaj2('all', tablica12b[0], matchingFiszki1, indexDiv);
-                                }, 700);
-
+                                                                                        if (tablica12b[tablica12b.length - 1] === 0) {
+                                                    wybierzRodzaj2c('all', tablica12b[0], matchingFiszki1, indexDiv);
                                                 }
                         updateWordDisplay(currentWordIndex);
 
@@ -6732,6 +6732,59 @@ function wybierzRodzaj2b(category, indeks5, matchingFiszki1, indexDiv) {
         console.log(`Nie znaleziono fiszek z kategorią "${category}".`);
     }
 }
+function wybierzRodzaj2c(category, indeks5, matchingFiszki1, indexDiv) {
+
+    console.log("Wybrany rodzaj słownictwa: ", currentFiszkaIndex);
+
+    const matchingLessons = [];
+
+    // Sprawdzenie, czy kategoria to 'all'
+    if (category === 'all') {
+        // Dodaj wszystkie lekcje do matchingLessons
+        for (const fiszka of fiszki) {
+            console.log(`Przetwarzanie fiszki: ${JSON.stringify(fiszka)}`);
+            // Sprawdzanie, czy fiszka ma poprawne id
+            if (fiszka.id && fiszka.id[1]) {
+                // Sprawdzanie, czy id już jest w matchingLessons, aby uniknąć duplikatów
+                if (!matchingLessons.includes(fiszka.id[1])) {
+                    matchingLessons.push(fiszka.id[1]);
+                }
+                console.log('hej134b', matchingLessons);
+            }
+        }
+    } else {
+        // Iteracja przez fiszki
+        for (const fiszka of fiszki) {
+            console.log(`Przetwarzanie fiszki: ${JSON.stringify(fiszka)}`);
+            if (fiszka.category !== 'all') {
+                // Sprawdzenie, czy fiszka pasuje do zadanej kategorii
+                const isInCategory2 = fiszka.category2 && fiszka.category2.includes(category);
+                const isInCategory3 = fiszka.category3 && fiszka.category3.includes(category);
+
+                // Jeśli fiszka pasuje do zadanej kategorii, dodaj numer lekcji do tablicy matchingLessons
+                if (isInCategory2 || isInCategory3) {
+                    console.log(`Znaleziono fiszkę z kategorią "${category}" w lekcji ${JSON.stringify(fiszka)}`);
+                    if (fiszka.id && fiszka.id[1]) {
+                        matchingLessons.push(fiszka.id[1]);
+                    }
+                }
+            }
+        }
+    }
+    
+    console.log('hej222', matchingLessons);
+
+    if (matchingLessons.length > 0) {
+        const nextThreeLessons = matchingLessons.slice(0, 1);
+        console.log('Wyświetlanie kolejnych trzech lekcji:');
+        nextThreeLessons.forEach(lessonId => {
+            showFiszkiForLesson5c(indexDiv, fiszki, indeks5, matchingFiszki1);
+            console.log('hej68ll', currentFiszkaIndex);
+        });
+    } else {
+        console.log(`Nie znaleziono fiszek z kategorią "${category}".`);
+    }
+}
 
 function showFiszkiForLesson5(indexDiv, fiszki, currentFiszkaIndex, matchingFiszki1) {
     console.log('Ładuje się');
@@ -6739,7 +6792,7 @@ function showFiszkiForLesson5(indexDiv, fiszki, currentFiszkaIndex, matchingFisz
         
 
     if (currentFiszkaIndex > 0 && currentFiszkaIndex < matchingFiszki1.length) {
-        if (matchingFiszki1.length >= 0) {
+        if (matchingFiszki1.length > 0) {
             let id = matchingFiszki1[currentFiszkaIndex - 1].id;
             console.log('hej2', id);
             let parametr = '';
@@ -6753,9 +6806,9 @@ function showFiszkiForLesson5(indexDiv, fiszki, currentFiszkaIndex, matchingFisz
                 }
             }
 // Tworzenie klasy CSS
-const className = `fiszka-${id}${parametr ? '-' + parametr : ''}`;
+const className = `fiszka-${id}${parametr ? ',' + parametr : ''}`;
 const selector = `.${className.replace(/,/g, '\\,')}`;
-console.log('Usuwam fiszkę o klasie:', className);
+console.log('Usuwam fiszkę o klasie5:', className);
 // Znalezienie i usunięcie diva z klasą `className`
 let $divToRemove = $(selector);
 if ($divToRemove.length) {  // Sprawdza, czy element istnieje
@@ -6768,10 +6821,10 @@ if ($divToRemove.length) {  // Sprawdza, czy element istnieje
             return fiszkaBlock;
     }
 } else if (currentFiszkaIndex === 0) {
-    if ((matchingFiszki1.length - 1) >= 0) {
+    if (matchingFiszki1.length >= 0) {
                     // Pobierz jedną fiszkę na podstawie currentFiszkaIndex
             const fiszka = matchingFiszki1[currentFiszkaIndex];
-            console.log('Ładowana fiszka5:', fiszka);
+            console.log('Ładowana fiszka5:', currentFiszkaIndex);
             const fiszkaBlock = generateFiszkaBlock2(fiszka, indexDiv);
             return fiszkaBlock;
 }
@@ -6812,6 +6865,21 @@ if ($divToRemove.length) {  // Sprawdza, czy element istnieje
             const fiszkaBlock = generateFiszkaBlock2(fiszka, indexDiv);
             return fiszkaBlock;
     }
+}
+}
+function showFiszkiForLesson5c(indexDiv, fiszki, currentFiszkaIndex, matchingFiszki1) {
+    console.log('Ładuje się');
+    console.log('Obecny indeks fiszki:', currentFiszkaIndex);
+        
+
+if (currentFiszkaIndex === 0) {
+    if (matchingFiszki1.length >= 0) {
+                    // Pobierz jedną fiszkę na podstawie currentFiszkaIndex
+            const fiszka = matchingFiszki1[currentFiszkaIndex];
+            console.log('Ładowana fiszka5:', currentFiszkaIndex);
+            const fiszkaBlock = generateFiszkaBlock2(fiszka, indexDiv);
+            return fiszkaBlock;
+}
 }
 }
         }
