@@ -371,3 +371,71 @@ if (pierwszyIndex !== -1) {
                                                 if (currentFiszkaIndex === 0) {
                                                     wybierzRodzaj2('all', currentFiszkaIndex, matchingFiszki1, ostatniElement2);
                                                 }
+                                                
+                                                
+                                                 if (window.matchMedia("(max-width: 999px)").matches) {
+                                            if (indexDiv % 2 === 0) {
+                                                console.log('Warunek podzielności przez 2 spełniony2');
+                                                // Zmień CSS paska napisu, aby wyświetlał się po lewej stronie kontenera
+                                                $buttonb.css({
+                                'position': 'absolute',
+                                'z-index': '1000002',
+                                'bottom': '10px',
+                                'right': '140px',
+                                'width': '20px',
+                                'height': '20px',
+                                'cursor': 'pointer',
+                                'border-radius': '8px'
+                                                });
+                                            } else if (indexDiv % 2 !== 0) {
+                                                console.log('Warunek podzielności przez 1 spełniony2');
+                                                // Zmień CSS paska napisu, aby wyświetlał się po lewej stronie kontenera
+                                                $buttonb.css({
+                                'position': 'absolute',
+                                'z-index': '1000002',
+                                'bottom': '10px',
+                                'right': '10px',
+                                'width': '20px',
+                                'height': '20px',
+                                'cursor': 'pointer',
+                                'border-radius': '8px'
+                                                });
+                                            }
+                                        } else if (window.matchMedia("(min-width: 999px)").matches) {
+                                            // Dodatkowe style, jeśli indexDiv jest podzielny przez 4
+                                            if (indexDiv % 4 === 0) {
+                                                $buttonb.css({
+                                'position': 'absolute',
+                                'z-index': '1000002',
+                                'bottom': '10px',
+                                'right': '10px',
+                                'width': '20px',
+                                'height': '20px',
+                                'cursor': 'pointer',
+                                'border-radius': '8px'
+                                                });
+                                            }
+                                        }
+                                        
+                                        function generateFiszkaBlock2(fiszka, lessonId2) {
+
+// TWORZENIE KONTENERA FISZKI
+        let fiszkaContainer = $('<div>').addClass('fiszka fiszka-' + fiszka.id);
+
+    // Tworzenie ikony krzyżyka
+    let closeIcon = $('<span>')
+        .addClass('close-icon')
+        .html('&times;') // HTML kod krzyżyka
+        .css({
+            position: 'absolute',
+            top: '5px',
+            right: '5px',
+            cursor: 'pointer',
+            color: 'red',
+            fontSize: '20px',
+        });
+
+    // Zdarzenie kliknięcia na krzyżyk
+    closeIcon.on('click', function () {
+        removeFiszka(fiszka.id, lessonId2);
+    });

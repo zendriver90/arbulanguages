@@ -9280,16 +9280,7 @@ function printLessons2b() {
 document.addEventListener('DOMContentLoaded', function () {
     setTimeout(printLessons2b, 1000);  // Opóźnienie dla pewności
 });
-function removeFiszka(fiszkaId, lessonId2) {
-    // Wyszukaj element fiszki według klasy
-    const $container = $(`.image-container4[data-lesson="${lessonId2}"]`);
 
-    // Znajdź fiszkę do usunięcia wewnątrz kontenera
-    const $fiszkaToRemove = $container.find(`.fiszka.fiszka-${fiszkaId}`);
-    $fiszkaToRemove.remove();
-    console.log(`Fiszka o id2: ${fiszkaId} została usunięta.`);
-
-}
 function generateFiszkaBlock(fiszka, lessonId2) {
     console.log('hej555c', lessons2b[2]);
     var currentStoryButtonName = ''; // Zmienna lokalna
@@ -9972,7 +9963,35 @@ function generateFiszkaBlock2(fiszka, lessonId2) {
 // TWORZENIE KONTENERA FISZKI
         let fiszkaContainer = $('<div>').addClass('fiszka fiszka-' + fiszka.id);
 
+    // Tworzenie ikony krzyżyka
+    let closeIcon = $('<span>')
+        .addClass('close-icon')
+    .html('&times;') // HTML kod krzyżyka
+    .css({
+        position: 'absolute',
+        top: 'px', // Możesz dostosować pozycję
+        right: '5px',
+        width: '30px', // Szerokość kontenera
+        height: '30px', // Wysokość kontenera (równa szerokości)
+        cursor: 'pointer',
+        color: 'red',
+        fontSize: '40px', // Rozmiar fontu (zmniejszony dla lepszej czytelności)
+        background: 'grey',
+        border: '2px solid black',
+        textAlign: 'center', // Wyrównanie tekstu w poziomie
+        lineHeight: '30px', // Wyrównanie tekstu w pionie (równe wysokości kontenera)
+        zIndex: 1000000
+    });
 
+    // Zdarzenie kliknięcia na krzyżyk
+    closeIcon.on('click', function () {
+        setTimeout(function () {
+        removeFiszka(fiszka.id, lessonId2);
+        }, 1000); // Opóźnienie w milisekundach (tu: 1 sekunda)
+    });
+
+    // Dodanie krzyżyka do fiszki
+    fiszkaContainer.append(closeIcon);
 
         // DODANIE OBRAZKA
         const imgContainer = $('<div>').addClass('fiszka_img_container');
@@ -10534,6 +10553,29 @@ function showFiszki() {
         console.log(fiszka);
         generateFiszkaBlock(fiszka);
     });
+}
+function removeFiszka(idFiszki, lessonId2) {
+    let id = idFiszki;
+    let parametr = '';
+
+    if (Array.isArray(idFiszki)) {
+        // Połącz wartości z tablicy id w jeden ciąg znaków oddzielony przecinkami
+        id = idFiszki.slice(0, 3).join(',');
+        // Obsługa ewentualnego dodatkowego parametru (np. czwartego elementu w tablicy)
+        parametr = idFiszki.length > 3 ? idFiszki[3] : '';
+    }
+
+    // Tworzenie klasy CSS z odpowiednim formatowaniem (poprawione usunięcie przecinków w CSS)
+    const className = `fiszka-${id}${parametr ? '\\,' + parametr : ''}`;
+    const selector = `.${className.replace(/,/g, '\\,')}`;
+    console.log(selector);
+    const $fiszkaToRemove = $(selector);
+    if ($fiszkaToRemove.length) {
+        console.log('Element znaleziony po opóźnieniu, usuwam...');
+        $fiszkaToRemove.remove();
+    } else {
+        console.log('Element nadal nie znaleziony.');
+    }
 }
 // Dodajemy styl dla zielonego przycisku
 $('<style>.green-button { background-color: green; color: white; }</style>').appendTo('head');

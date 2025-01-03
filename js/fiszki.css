@@ -219,7 +219,7 @@ story_button {
                 .fiszka {
     position: absolute;
     padding: 10px;
-    left: 120px;
+    left: 110px;
     top: 125px;
     margin: 5px;
     background-color: white;
@@ -319,6 +319,7 @@ img.fiszka_img {
 }
 
 .hashtag-container {
+    margin-top: -40px;
     display: block;
     position: relative;
     background-color: gray;
@@ -388,6 +389,7 @@ button.fiszka_button_trening.fiszka.active { background: orange }
     text-align:center;
     display:block;
     text-decoration:none;
+    font-size: 10px;
     font-family: 'Open Sans', sans-serif;
     transition: background 1s;
     z-index: 200;
@@ -415,10 +417,16 @@ story_button {
 }
 
 .likeIconContainer {
+    margin-top: -20px;
         width:70px;
     height:40px;
     display: inline-block; /* Ustawia ikonÄ i tekst obok siebie */
     vertical-align: middle; /* WyĹrodkuj ikonÄ wzglÄdem tekstu */
+        top: -20px;
+    font-size: 17px; /* Zmieniaj na poĹźÄdany rozmiar */
+    height: 12px;
+    width: 10px;
+    margin-right: 5px; /* OdstÄp miÄdzy ikonÄ a licznikiem */
 }
 
 .story_button {
@@ -434,15 +442,10 @@ story_button {
         position: relative;
         display: block;
     float: left;
+        top: -25px;
     z-index: 999;
     bottom: 50px;
     background-color: #dcdcdc;
-}
-.likeIconContainer {
-    font-size: 17px; /* Zmieniaj na poĹźÄdany rozmiar */
-    height: 12px;
-    width: 10px;
-    margin-right: 5px; /* OdstÄp miÄdzy ikonÄ a licznikiem */
 }
 
             }

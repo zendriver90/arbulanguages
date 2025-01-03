@@ -272,7 +272,7 @@
                     white-space: nowrap; /* Zapobiega zawijaniu tekstu */
                 }
                 .overlay-button {
-                    position: relative;
+                    position: absolute;
                     z-index: 1000;
                     white-space: nowrap; /* Zapobiega zawijaniu tekstu */
                     bottom: 10px;
@@ -835,6 +835,21 @@
                     margin-top: 10px;
                     z-index: 9999;
                 }/* Tło */
+                                #wordDisplay {
+    position: absolute;
+    bottom: 0px;
+    font-size: 22px;
+    right: -140px;
+    width: 130px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    color: black;
+    z-index: 101;
+    background-color: lightgray;
+    border-radius: 8px;
+    border: 2px solid black;
+}
                 .image-container5 {
                     display: flex;
                     flex-direction: column;
@@ -1133,16 +1148,19 @@
                     background-color: yellow; /* lub inny kolor */
                     font-weight: bold;
                 }
-                .word-span {
-                    font-size: 8px;
-                    color: yellow;
-                    cursor: pointer; /* Zmiana kursora na pointer */
-                    display: inline-block; /* Element działa jak przycisk */
-                    padding: 5px;
-                    margin: 3px;
-                    background-color: blue; /* Kolor tła dla widoczności */
-                    border-radius: 5px; /* Zaokrąglone rogi */
-                }
+    .word-span {
+        font-size: 9px;
+        height: 9px; /* Ustaw stałą wysokość */
+        line-height: 9px; /* Dopasuj do wysokości */
+        text-align: center;
+        color: yellow;
+        cursor: pointer;
+        display: inline-block;
+        padding: 5px;
+        margin: 3px;
+        background-color: blue;
+        border-radius: 5px;
+    }
 
                 .word-span:hover {
                     cursor: pointer; /* Zmiana kursora na pointer */
@@ -5091,17 +5109,50 @@ ${sentence30}${sentence33}<br>
                             const $buttonb = $('<img>').attr({
                                 'src': 'http://arbu-1dcc9.web.app/img/startsystem.png',
                                 'class': 'overlay-button'
-                            }).css({
+                            });
+if (window.matchMedia("(max-width: 999px)").matches) {
+                                            if (indexDiv % 2 === 0) {
+                                                console.log('Warunek podzielności przez 2 spełniony2');
+                                                // Zmień CSS paska napisu, aby wyświetlał się po lewej stronie kontenera
+                                                $buttonb.css({
+                                'position': 'absolute',
+                                'z-index': '1000002',
+                                'bottom': '10px',
+                                'right': '140px',
+                                'width': '20px',
+                                'height': '20px',
+                                'cursor': 'pointer',
+                                'border-radius': '8px'
+                                                });
+                                            } else if (indexDiv % 2 !== 0) {
+                                                console.log('Warunek podzielności przez 1 spełniony2');
+                                                // Zmień CSS paska napisu, aby wyświetlał się po lewej stronie kontenera
+                                                $buttonb.css({
                                 'position': 'absolute',
                                 'z-index': '1000002',
                                 'bottom': '10px',
                                 'right': '10px',
-                                'width': '30px',
-                                'height': '30px',
+                                'width': '20px',
+                                'height': '20px',
                                 'cursor': 'pointer',
                                 'border-radius': '8px'
-                            });
-
+                                                });
+                                            }
+                                        } else if (window.matchMedia("(min-width: 999px)").matches) {
+                                            // Dodatkowe style, jeśli indexDiv jest podzielny przez 4
+                                            if (indexDiv % 4 === 0) {
+                                                $buttonb.css({
+                                'position': 'absolute',
+                                'z-index': '1000002',
+                                'bottom': '10px',
+                                'right': '10px',
+                                'width': '20px',
+                                'height': '20px',
+                                'cursor': 'pointer',
+                                'border-radius': '8px'
+                                                });
+                                            }
+                                        }
                             // Dodajemy elementy do kontenera
                             $container.append($thumbnailContainer); // Miniatury
                             $container.append($videoElement); // Wideo
@@ -6072,16 +6123,50 @@ ${sentence10}${sentence11}<br>
                             const $buttonb = $('<img>').attr({
                                 'src': 'http://arbu-1dcc9.web.app/img/startsystem.png', // Względna ścieżka do pliku PNG
                                 'class': 'overlay-button' // Klasa dla stylów CSS
-                            }).css({
+                            });
+                            if (window.matchMedia("(max-width: 999px)").matches) {
+                                            if (indexDiv % 2 === 0) {
+                                                console.log('Warunek podzielności przez 2 spełniony2');
+                                                // Zmień CSS paska napisu, aby wyświetlał się po lewej stronie kontenera
+                                                $buttonb.css({
+                                'position': 'absolute',
+                                'z-index': '1000002',
+                                'bottom': '10px',
+                                'right': '140px',
+                                'width': '20px',
+                                'height': '20px',
+                                'cursor': 'pointer',
+                                'border-radius': '8px'
+                                                });
+                                            } else if (indexDiv % 2 !== 0) {
+                                                console.log('Warunek podzielności przez 1 spełniony2');
+                                                // Zmień CSS paska napisu, aby wyświetlał się po lewej stronie kontenera
+                                                $buttonb.css({
                                 'position': 'absolute',
                                 'z-index': '1000002',
                                 'bottom': '10px',
                                 'right': '10px',
-                                'width': '30px',
-                                'height': '30px',
+                                'width': '20px',
+                                'height': '20px',
                                 'cursor': 'pointer',
                                 'border-radius': '8px'
-                            });
+                                                });
+                                            }
+                                        } else if (window.matchMedia("(min-width: 999px)").matches) {
+                                            // Dodatkowe style, jeśli indexDiv jest podzielny przez 4
+                                            if (indexDiv % 4 === 0) {
+                                                $buttonb.css({
+                                'position': 'absolute',
+                                'z-index': '1000002',
+                                'bottom': '10px',
+                                'right': '10px',
+                                'width': '20px',
+                                'height': '20px',
+                                'cursor': 'pointer',
+                                'border-radius': '8px'
+                                                });
+                                            }
+                                        }
                             // Dodaj element video do diva dla wideo
                             $videoElement.appendTo($container);
                             // Dodaj nakładkę do kontenera, po dodaniu wideo
@@ -6131,7 +6216,9 @@ ${sentence10}${sentence11}<br>
 
                             // Obsługa kliknięcia przycisku overlay
                             $buttonb.on('click', function () {
-                                $('.run-button3').css('display', 'none'); // Ukryj przycisk
+    $('.run-button3').css({
+        'margin-top': '40px'
+    });
 $buttonb.remove();
                                 // Dodaj kopię wartości indexDiv do tablicy
                                 // Przykład nowej wartości indexDiv
