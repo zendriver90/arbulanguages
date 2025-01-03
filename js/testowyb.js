@@ -9962,7 +9962,10 @@ function generateFiszkaBlock2(fiszka, lessonId2) {
 
 // TWORZENIE KONTENERA FISZKI
         let fiszkaContainer = $('<div>').addClass('fiszka fiszka-' + fiszka.id);
-
+    // Dodanie klasy parzysta, jeśli warunki są spełnione
+    if (window.matchMedia("(max-width: 999px)").matches && lessonId2 % 2 === 0) {
+        fiszkaContainer.addClass('parzysta');
+    }
     // Tworzenie ikony krzyżyka
     let closeIcon = $('<span>')
         .addClass('close-icon')
