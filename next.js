@@ -439,3 +439,51 @@ if (pierwszyIndex !== -1) {
     closeIcon.on('click', function () {
         removeFiszka(fiszka.id, lessonId2);
     });
+    
+    $nextButton.on('click', function () {
+                                                    console.log('Aktualny index fiszki:', indexDiv);
+                                                    console.log('Dostępne fiszki:', matchingFiszki1);
+                                                                                                            
+                                                    console.log('hej303b', fiszkaobject);
+                                                    if (currentFiszkaIndex <= matchingFiszki1.length - 1) {
+                                                        currentFiszkaIndex++; // Zwiększ indeks fiszki
+$(`.image-container4`).css('z-index', 100); // Reset z-index dla wszystkich
+$container.css('z-index', 102); // Podniesienie z-index tylko dla aktywnego
+                        let ostatniElement2 = tablica11b[tablica11b.length - 2];
+console.log('hej55', ostatniElement2);
+    // Sprawdź, czy element 'wordDisplay' już istnieje
+// Sprawdź, czy element 'wordDisplay' już istnieje w odpowiednim kontenerze
+if (ostatniElement2) {
+    // Znajdź kontener na podstawie data-lesson
+    const $container = $(`.image-container4[data-lesson="${ostatniElement2}"]`);
+    
+    // Szukamy 'wordDisplay' w tym kontenerze
+    const $wordContainer = $container.find('#wordDisplay');
+    
+    // Jeśli 'wordDisplay' istnieje, wykonaj coś z tym elementem
+    if ($wordContainer.length > 0) {
+        console.log('Znaleziono wordDisplay:', $wordContainer);
+        
+        // Tutaj możesz wykonać akcje na $wordContainer, np. przesunięcie
+        $wordContainer.css({
+            'right': '0px', // Przesuń w lewo
+            'transition': 'right 0.5s ease' // Animacja
+        });
+    } else {
+        console.log('wordDisplay nie znaleziono w kontenerze');
+    }
+} else {
+    console.log('Brak ostatniego elementu w tablica11b');
+}
+
+                                                        tablica12b.push(currentFiszkaIndex);
+                                                        console.log('hej68cx', fiszkaobject);
+                                                        handleNextClick(indexDiv, $sentence10, currentFiszkaIndex, firstWord, secondWord, thirdWord, forthWord, fifthWord, sixthWord);
+                                                        wybierzRodzaj2('all', currentFiszkaIndex, matchingFiszki1, indexDiv);
+                                                        updateWordDisplay(currentWordIndex, currentFiszkaIndex);
+                                                        // Wywołaj funkcję, przekazując zaktualizowany indeks
+                                                        console.log("indexDiv2", tablica12b);
+                                                    } else {
+                                                        console.log('Koniec fiszek!'); // Informacja o końcu fiszek
+                                                    }
+                                                });

@@ -6221,7 +6221,7 @@ ${sentence10}${sentence11}<br>
     $('.run-button3').css({
         'margin-top': '40px'
     });
-$buttonb.remove();
+
                                 // Dodaj kopię wartości indexDiv do tablicy
                                 // Przykład nowej wartości indexDiv
                                 let nowaWartosc = indexDiv;
@@ -6324,12 +6324,14 @@ $buttonb.remove();
                                 });
 
                                 highlightFirstWord(indexDiv);
-
+$buttonb.remove();
                                 console.log('hej44f', tablica24[tablica24.length - 1]);
                             });
 
 
                             function highlightFirstWord(indexDiv) {
+                                                                // Dodaj kopię wartości indexDiv do tablicy
+
     const $container = $(`.image-container4[data-lesson="${indexDiv}"]`);
 $(`.image-container4`).css('z-index', 100); // Reset z-index dla wszystkich
 $container.css('z-index', 102); // Podniesienie z-index tylko dla aktywnego
@@ -6525,6 +6527,9 @@ function updateHighlight(indexDiv, $sentence10, index, firstWord, secondWord, th
         // Ponowne zaktualizowanie podświetlenia
         updateHighlight($sentence10, index, firstWord, secondWord, thirdWord, forthWord, fifthWord, sixthWord);
     });
+
+    // Wywołaj funkcję do wyświetlenia słów z nowym indeksem
+    displayWords(index, indexDiv);
 }
 
 
@@ -6621,14 +6626,37 @@ tablica12b[0] = 0;
 $nextButton.on('click', function () {
                                                     console.log('Aktualny index fiszki:', indexDiv);
                                                     console.log('Dostępne fiszki:', matchingFiszki1);
-                                                                                                            
+                                                                                                            currentFiszkaIndex++; // Zwiększ indeks fiszki
                                                     console.log('hej303b', fiszkaobject);
                                                     if (currentFiszkaIndex <= matchingFiszki1.length - 1) {
-                                                        currentFiszkaIndex++; // Zwiększ indeks fiszki
 $(`.image-container4`).css('z-index', 100); // Reset z-index dla wszystkich
 $container.css('z-index', 102); // Podniesienie z-index tylko dla aktywnego
-
-                                    console.log('Dodano wartość33:', tablica11b);
+                        let ostatniElement2 = tablica11b[tablica11b.length - 2];
+console.log('hej55', ostatniElement2);
+    // Sprawdź, czy element 'wordDisplay' już istnieje
+// Sprawdź, czy element 'wordDisplay' już istnieje w odpowiednim kontenerze
+if (ostatniElement2) {
+    // Znajdź kontener na podstawie data-lesson
+    const $container = $(`.image-container4[data-lesson="${ostatniElement2}"]`);
+    
+    // Szukamy 'wordDisplay' w tym kontenerze
+    const $wordContainer = $container.find('#wordDisplay');
+    
+    // Jeśli 'wordDisplay' istnieje, wykonaj coś z tym elementem
+    if ($wordContainer.length > 0) {
+        console.log('Znaleziono wordDisplay:', $wordContainer);
+        
+        // Tutaj możesz wykonać akcje na $wordContainer, np. przesunięcie
+        $wordContainer.css({
+            'right': '0px', // Przesuń w lewo
+            'transition': 'right 0.5s ease' // Animacja
+        });
+    } else {
+        console.log('wordDisplay nie znaleziono w kontenerze');
+    }
+} else {
+    console.log('Brak ostatniego elementu w tablica11b');
+}
                                                                                                             // Sprawdź, czy `indexDiv` już istnieje w `fiszkaobject.data`
                                                     const existingIndex = fiszkaobject.data.findIndex(
                                                             (entry) => entry[0] === indexDiv
@@ -6657,15 +6685,18 @@ $container.css('z-index', 102); // Podniesienie z-index tylko dla aktywnego
                                                         // Jeśli nie istnieje, dodaj nową tablicę
                                                         fiszkaobject.data.push([indexDiv, currentFiszkaIndex]);
                                                     }
-                                                    
-                                setTimeout(() => {
-                                                        wybierzRodzaj2('all', currentFiszkaIndex, matchingFiszki1, indexDiv);
-                                }, 800);
 
-                                                                                                                console.log('hej68cx', currentFiszkaIndex);
+                                                        tablica12b.push(currentFiszkaIndex);
+                                                        console.log('hej68cx', currentFiszkaIndex);
+                                                        let indeks5; // Zainicjalizuj zmienną przed warunkami
+if (currentFiszkaIndex < 4) {
+    indeks5 = tablica12b[tablica12b.length - 2];
+} else if (currentFiszkaIndex === 4) {
+    indeks5 = 5;
+}
                                                         handleNextClick(indexDiv, $sentence10, currentFiszkaIndex, firstWord, secondWord, thirdWord, forthWord, fifthWord, sixthWord);
-
-                                                        updateWordDisplay(currentWordIndex, indexDiv);
+                                                        wybierzRodzaj2('all', currentFiszkaIndex, matchingFiszki1, indexDiv);
+                                                        updateWordDisplay(currentWordIndex);
                                                         // Wywołaj funkcję, przekazując zaktualizowany indeks
                                                         console.log("indexDiv2", tablica12b);
                                                     } else {
@@ -6685,31 +6716,42 @@ $container.css('z-index', 102); // Podniesienie z-index tylko dla aktywnego
         }
     }
                                                                                             console.log('hej444b', currentFiszkaIndex);
-                                                                                            setTimeout(() => {
-
                                                                                         if (currentFiszkaIndex === 0) {
-console.log("indexDiv2x", currentFiszkaIndex);
-                                                                                            let indeks55x; // Zainicjalizuj zmienną przed warunkami
-if (currentFiszkaIndex === 0) {
-    indeks55x = 0;
 
-                                                    wybierzRodzaj2c('all', indeks55x, matchingFiszki1, indexDiv);
+                                                                                            let indeks5; // Zainicjalizuj zmienną przed warunkami
+if (currentFiszkaIndex === 0) {
+    indeks5 = 0;
+}
+                                                    wybierzRodzaj2c('all', indeks5, matchingFiszki1, indexDiv);
                                                                             updateWordDisplay(currentWordIndex);
-                                                                            }
                                                 }
-                                                                                }, 300);
                                                     updateWordDisplay(currentWordIndex);
                                                 // Obsługa kliknięcia na `#wordDisplay`
 $wordContainer.on('click', function () {
-                const $container = $(`.image-container4[data-lesson="${indexDiv}"]`);
+                                    // Przykład nowej wartości indexDiv
+                                let nowaWartosc = indexDiv;
+                                    tablica11b.push(nowaWartosc); // Dodaj nową wartość na końcu tablicy
+                                    console.log('Dodano wartość5:', nowaWartosc);
+                                    console.log('Dodano wartość55:', tablica12b[tablica12b.length - 1]);
+    if (tablica12b[tablica12b.length - 1] === 0) {
+        wybierzRodzaj2c('all', tablica12b[0], matchingFiszki1, indexDiv);
+        updateWordDisplay(currentWordIndex); // Aktualizacja wyświetlanego słowa
+            const $container = $(`.image-container4[data-lesson="${indexDiv}"]`);
 $(`.image-container4`).css('z-index', 100); // Reset z-index dla wszystkich
-$container.css('z-index', 104); // Podniesienie z-index tylko dla aktywnego
-
-                            let ostatniElement2 = tablica11b[tablica11b.length - 1];
-console.log('hej55aa', ostatniElement2);
+$container.css('z-index', 102); // Podniesienie z-index tylko dla aktywnego
+    } else {
+                wybierzRodzaj2c('all', tablica12b[0], matchingFiszki1, indexDiv);
+        updateWordDisplay(currentWordIndex); // Aktualizacja wyświetlanego słowa
+            const $container = $(`.image-container4[data-lesson="${indexDiv}"]`);
+$(`.image-container4`).css('z-index', 100); // Reset z-index dla wszystkich
+$container.css('z-index', 102); // Podniesienie z-index tylko dla aktywnego
+console.log('Dodano wartość55:', tablica12b[tablica12b.length - 1]);
+    }
+                            let ostatniElement2 = tablica11b[tablica11b.length - 2];
+console.log('hej55', ostatniElement2);
     // Sprawdź, czy element 'wordDisplay' już istnieje
 // Sprawdź, czy element 'wordDisplay' już istnieje w odpowiednim kontenerze
-if (ostatniElement2 && indexDiv !== ostatniElement2) {
+if (ostatniElement2) {
     // Znajdź kontener na podstawie data-lesson
     const $container = $(`.image-container4[data-lesson="${ostatniElement2}"]`);
     
@@ -6728,6 +6770,8 @@ if (ostatniElement2 && indexDiv !== ostatniElement2) {
     } else {
         console.log('wordDisplay nie znaleziono w kontenerze');
     }
+} else {
+    console.log('Brak ostatniego elementu w tablica11b');
 }
 });
 
@@ -6903,7 +6947,7 @@ function showFiszkiForLesson5(indexDiv, fiszki, currentFiszkaIndex, matchingFisz
     if (currentFiszkaIndex > 0 && currentFiszkaIndex < matchingFiszki1.length) {
         if (matchingFiszki1.length > 0) {
             let id = matchingFiszki1[currentFiszkaIndex - 1].id;
-            console.log('hej2x', id);
+            console.log('hej2', id);
             let parametr = '';
             // Sprawdź, czy id jest tablicą
             if (Array.isArray(id)) {
@@ -6996,7 +7040,7 @@ if (currentFiszkaIndex === 0) {
                 displayWords(currentWordIndex, indexDiv); // Wywołanie z indeksem
                 
                 // Dostosuj rozmiar czcionki
-                updateWordDisplay(currentWordIndex);
+                
                 adjustFontSize($sentence10);
             } else {
                 console.log('Nie znaleziono słów w sentence10.');
