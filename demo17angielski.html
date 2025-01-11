@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<title>Smart Angielski</title>
+<meta charset="UTF-8">
+
+<head>
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/alert.css">
+    <link rel="stylesheet" type="text/css" href="css/lista.css">
+    <link rel="stylesheet" type="text/css" href="css/fiszki.css">
+    <link rel="stylesheet" type="text/css" href="css/styl7.css">
+        <link rel="stylesheet" type="text/css" href="js/audioaudio.css">
+    <link rel="stylesheet" type="text/css" href="css/1nowe-pc.css">
+            <script src="js/story.js"></script>
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2654094815555460"
+    crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="kontenery">
+        <div id='karta1'>
+            <p>Zdanie 1sze</p><img id="as" src="img/karty/as.jpg">
+        </div>
+        <div class="obrazek-container" id="obrazek-container1">
+        </div>
+        <div id='karta2'>
+            <p>Zdanie 2gie</p><img id="as" src="img/karty/krol.jpg">
+        </div>
+        <div class="obrazek-container" id="obrazek-container2">
+        </div>
+        <div id='karta3'>
+            <p>Zdanie 3cie</p><img id="as" src="img/karty/dama.jpg">
+        </div>
+        <div class="obrazek-container" id="obrazek-container3">
+        </div>
+    </div>
+    <div id="kontenery2">
+        <div class="obrazek-container" id="obrazek-container2b">
+        </div>
+        <div class="obrazek-container" id="obrazek-container2b">
+        </div>
+        <div class="obrazek-container" id="obrazek-container2b">
+        </div>
+        <div id='karta3b'>
+            <p>Zdanie 3cie</p><img id="as" src="img/karty/dama.jpg">
+        </div>
+    </div>
+    <button id="nauka">
+        <p>UCZE SIĘ: <span id="liczbaKlikniec2">0</span>
+    </button>
+    <div id="right-container"><button id="nauka2">NAUCZYŁEM SIĘ X</button></div>
+    <div id="bottom-container"><button id="nauka2">
+            <p>POSTĘP: <span id="liczbaKlikniec">0</span>- ZAZNAJOMIONYCH
+        </button></div>
+        <script src="js/lista.js"></script>
+    <div class="grid-container">
+    </div>
+    <script src="js/testowyb.js"></script>
+<script>
+function wybierzRodzaj(category) {
+    console.log("Wybrany rodzaj słownictwa: " + category);
+
+    const matchingLessons = [];
+
+    if (category === 'all') {
+        for (const fiszka of fiszki) {
+            console.log(`Przetwarzanie fiszki: ${JSON.stringify(fiszka)}`);
+            if (fiszka.id && fiszka.id[1]) {
+                console.log(`Dodawanie do matchingLessons: ${fiszka.id[1]}`);
+                if (!matchingLessons.includes(fiszka.id[1])) {
+                    matchingLessons.push(fiszka.id[1]);
+                }
+            }
+        }
+    } else {
+        for (const fiszka of fiszki) {
+            console.log(`Przetwarzanie fiszki: ${JSON.stringify(fiszka)}`);
+            if (fiszka.category !== 'all') {
+                const isInCategory2 = fiszka.category2 && fiszka.category2.includes(category);
+                const isInCategory3 = fiszka.category3 && fiszka.category3.includes(category);
+
+                if (isInCategory2 || isInCategory3) {
+                    console.log(`Znaleziono fiszkę z kategorią "${category}" w lekcji ${JSON.stringify(fiszka)}`);
+                    if (fiszka.id && fiszka.id[1]) {
+                        console.log(`Dodawanie do matchingLessons: ${fiszka.id[1]}`);
+                        if (!matchingLessons.includes(fiszka.id[1])) {
+                            matchingLessons.push(fiszka.id[1]);
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    console.log('Matching lessons before slicing:', matchingLessons);
+    const nextThreeLessons = matchingLessons.slice(36, 39);
+    console.log('Next three lessons:', nextThreeLessons);
+
+    if (nextThreeLessons.length > 0) {
+        console.log('Wyświetlanie kolejnych trzech lekcji:');
+        nextThreeLessons.forEach(lessonId => {
+            showFiszkiForLesson(lessonId, fiszki);
+        });
+    } else {
+        console.log(`Nie znaleziono fiszek z kategorią "${category}".`);
+    }
+}
+
+// Pobierz parametr z adresu URL
+const urlParams = new URLSearchParams(window.location.search);
+const category = urlParams.get('category');
+
+// Wywołaj funkcję z otrzymaną wartością
+wybierzRodzaj(category);
+
+function showFiszkiForLesson(lessonIdToShow, fiszki) {
+    console.log(`Wywołanie showFiszkiForLesson dla lekcji: ${lessonIdToShow}`);
+    const matchingFiszki = fiszki.filter(fiszka => {
+        console.log(`Porównanie ${fiszka.id[1]} z ${lessonIdToShow}`);
+        return fiszka.id[1] === lessonIdToShow;
+    });
+
+    if (matchingFiszki.length > 0) {
+        console.log(`Fiszki dla lekcji ${lessonIdToShow}:`, matchingFiszki);
+        matchingFiszki.forEach(fiszka => {
+            console.log(`Processing fiszka with ID: [${fiszka.id.join(', ')}]`);
+            generateFiszkaBlock(fiszka, lessonIdToShow);
+            console.log(`Generated fiszka with ID: [${fiszka.id.join(', ')}]`);
+        });
+    } else {
+        console.log(`No fiszki found for Lesson ${lessonIdToShow}.`);
+    }
+}
+</script>
+<script src="js/scroll.js"></script>
+<script src="js/scrollapp.js"></script>
+<script src="js/repeating.js"></script>
+<script src="js/storage.js"></script>
+</body>
+<div id="footer"></div>
+<div id="footer"></div>
+
+</html>
