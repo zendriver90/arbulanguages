@@ -1021,9 +1021,9 @@ const fiszki = [
         story: [
             "<u><b>Der</u></b>ek <u><b>odważył się</u></b> zrobić salto, a później tańczy taniec Sw<u><b>ing</u></b>",
             "<u><b>Der</u></b>matolog przestrzega, aby nie zdobywać się na <u><b>odwagę</u></b> chodzić do dżungli.. Dlaczego, bo jest niebezpieczna.. b<u><b>ing</u></b>o!!",
-            "Na</u></b>der<u><b> oczywiste jest, że <u><b>odwaga</u></b> w głoszeniu poglądów jest dla naukowca bardzo ważna+++",
+            "Na<u><b>der</u></b> oczywiste jest, że <u><b>odwaga</u></b> w głoszeniu poglądów jest dla naukowca bardzo ważna - <u><b>Bingo!!!</u></b>",
             "</u></b>Der<u><b>by tych klubów spowodowały zadymy na meczu, każdy był <u><b>odważny</u></b>+++",
-            "Pewien imprezowicz <u><b>odważył się</u></b> wejść na duże wia<u><b>der</u></b>ko i kręci bio<u><b>der</u></b>kami++++"
+            "Pewien imprezowicz <u><b>odważył się</u></b> wejść na duże wia<u><b>der</u></b>ko i kręci bio<u><b>der</u></b>kami w stylu <u><b>Swing</u></b>"
         ],
         desc: "daring[dering] - odważył się",
         sentence2: [
@@ -6227,14 +6227,14 @@ const fiszki = [
             31,
             62
         ],
-        img: "http://arbu-1dcc9.web.app/img/fiszki1/221a.jpg",
+        img: "http://arbu-1dcc9.web.app/img/fiszki1/207b.jpg",
         translate: "Oni grają w piłkę nożną w tym momencie",
         translateb: "[Dej ar pleing futbol at de moment]",
         translateb2: "[Ewrybody hes fan]",
         srcWord: ["http://arbu-1dcc9.web.app/filmy/football.mp4", "Pelé. Narodziny legendy (2016)"],
         srcWordimage: "http://arbu-1dcc9.web.app/filmy/football.png",
         story: "<u><b>Oni</u></b> z<u><b>dej</u></b>mują jabłka z jabłoni",
-        desc: "they[dej] - oni",
+        desc: "day[dej] - oni",
         sentence2: [
             "day"
         ],
@@ -6822,7 +6822,7 @@ const fiszki = [
             35,
             69
         ],
-        img: "http://arbu-1dcc9.web.app/img/fiszki1/221a.jpg",
+        img: "http://arbu-1dcc9.web.app/img/fiszki1/207b.jpg",
         translate: "Oni grają w piłkę nożną w tym momencie",
         translateb: "[Dej ar pleing futbol at de moment]",
         translateb2: "[Ewrybody hes fan]",
@@ -7783,7 +7783,7 @@ const fiszki = [
             40,
             78
         ],
-        img: "http://arbu-1dcc9.web.app/img/fiszki1/221a.jpg",
+        img: "http://arbu-1dcc9.web.app/img/fiszki1/264a.jpg",
         story: "W grze komputerowej, podczas tej bitwy obniosłem wiele <u><b>ran</u></b>, nie mogę <u><b>biegać</u></b>, tylko strzelam z okopu i mam dobry tajm<u><b>ing</u></b>",
         desc: "running[raning] - biegać",
         sentence1: [
@@ -7804,7 +7804,7 @@ const fiszki = [
             40,
             79
         ],
-        img: "http://arbu-1dcc9.web.app/img/fiszki1/221a.jpg",
+        img: "http://arbu-1dcc9.web.app/img/fiszki1/254a.jpg",
         story: "<u><b>In</u></b>trowertyk lubi przesiadywać <u><b>w</u></b> swoim umyśle",
         desc: "in[in] - w",
         sentence2: [
@@ -7825,8 +7825,8 @@ const fiszki = [
             40,
             79
         ],
-        img: "http://arbu-1dcc9.web.app/img/fiszki1/221a.jpg",
-        story: "Kurde, jak tutaj teraz za<b><u>park</b></u>ować koło <b><u>tego parku</b></u>",
+        img: "http://arbu-1dcc9.web.app/img/fiszki1/266a.jpg",
+        story: "Kur<b><u>de</b></u>, jak tutaj teraz za<b><u>park</b></u>ować koło <b><u>tego parku</b></u>",
         desc: "the park[de park] - park",
         sentence2: [
             "the park"
@@ -7868,7 +7868,7 @@ const fiszki = [
             80
         ],
         img: [
-            "http://arbu-1dcc9.web.app/img/fiszki1/8a.jpg"
+            "http://arbu-1dcc9.web.app/img/fiszki1/207b.jpg"
         ],
         translate: "",
         translateb: "[Dej ar hewing diner tugeder nał]",
@@ -7932,8 +7932,8 @@ const fiszki = [
             41,
             80
         ],
-        img: "http://arbu-1dcc9.web.app/img/fiszki1/212a.jpg",
-        story: "<b><u>Dziś</b></u> muszę zbierać na piwo, stoje <b><u>tu</b></u> pod sklepem i mówię <b><u>dej</b></u>",
+        img: "http://arbu-1dcc9.web.app/img/fiszki1/270a.jpg",
+        story: "Oni <b><u>mają</b></u> mar<b><u>chew</b></u> i to jest ich naturalny dop<b><u>ing</b></u> w sporcie",
         desc: "having[hewing] - mają",
         sentence1: [
             "having"
@@ -7980,7 +7980,7 @@ const fiszki = [
             41,
             80
         ],
-        img: "http://arbu-1dcc9.web.app/img/fiszki1/239a.jpg",
+        img: "http://arbu-1dcc9.web.app/img/fiszki1/272a.jpg",
         story: "<u><b>Tu</u></b> razem pracujemy przy, żniwach.. Jest <u><b>ge</u></b>nialnie... Kombajnista ustwia h<u><b>eder</u></b> do koszenia zboża",
         desc: "together[tugeder] - razem",
         sentence1: [
@@ -8037,7 +8037,7 @@ const fiszki = [
         ],
         translate: "",
         translateb: "[Aj em lerning Inglisz dis jer]",
-        translateb2: "[Hi is raning]",
+        translateb2: "[Aj em lerning Inglisz]",
         srcWord: ["http://arbu-1dcc9.web.app/filmy/learning-english.mp4", "Klik: I robisz, co chcesz (2006)"],
         srcWord2: ["http://arbu-1dcc9.web.app/filmy/procedure.mp4", "Breaking Bad"],
         srcWordimage: "http://arbu-1dcc9.web.app/filmy/learning-english.png",
@@ -8099,7 +8099,7 @@ const fiszki = [
         ],
         key: "blue",
         category1: "nauka",
-        category2: ["osoby"]
+        category2: [""]
     },
     {
         id: [
@@ -8107,7 +8107,7 @@ const fiszki = [
             42,
             81
         ],
-        img: "http://arbu-1dcc9.web.app/img/fiszki1/239a.jpg",
+        img: "http://arbu-1dcc9.web.app/img/fiszki1/276a.jpg",
         story: "K<u><b>ler</u></b> kościelny uczy się grać w <u><b>Nin</u></b>tendo i grę <u><b>G</u></b>o",
         desc: "learning[lerning] - uczę się",
         sentence1: [
@@ -8129,7 +8129,7 @@ const fiszki = [
             42,
             81
         ],
-        img: "http://arbu-1dcc9.web.app/img/fiszki1/239a.jpg",
+        img: "http://arbu-1dcc9.web.app/img/fiszki1/277a.jpg",
         story: "<u><b>In</u></b>nowacyjna metoda nauki językow, to jak lepienie <u><b>gli</u></b>ny - bardzo łatwe i <u><b>sz</u></b>ybkie",
         desc: "english[TRUDNOŚĆ JĘZYKOWA - inglisz(30%), ynglish(30%), english(30%)] - uczę się",
         sentence1: [
@@ -8143,7 +8143,7 @@ const fiszki = [
         ],
         key: "blue",
         category1: "nauka",
-        category2: ["osoby"]
+        category2: [""]
     },
     {
         id: [
@@ -8184,8 +8184,8 @@ const fiszki = [
             42,
             81
         ],
-        img: "http://arbu-1dcc9.web.app/img/fiszki1/239a.jpg",
-        story: "<u><b>In</u></b>nowacyjna metoda nauki językow, to jak lepienie <u><b>gli</u></b>ny - bardzo łatwe i <u><b>sz</u></b>ybkie",
+        img: "http://arbu-1dcc9.web.app/img/fiszki1/279a.jpg",
+        story: "Ten <b><u>rok</b></u> to rok ba<b><u>jer</b></u>u. W sylwestra były fajne fa<b><u>jer</b></u>werki",
         desc: "year[jer] - rok",
         sentence2: [
             "year"
@@ -8267,7 +8267,7 @@ const fiszki = [
         ],
         key: "blue",
         category1: "nauka",
-        category2: ["osoby"]
+        category2: [""]
     },
     {
         id: [
@@ -8275,7 +8275,7 @@ const fiszki = [
             43,
             82
         ],
-        img: "http://arbu-1dcc9.web.app/img/fiszki1/239a.jpg",
+        img: "http://arbu-1dcc9.web.app/img/fiszki1/282a.jpg",
         story: "Prodecent odwiedził naukowców z proszkiem <u><b>wizi</u></b>r, aby go przetestowali. Jeden naukowiec ma <u><b>ti</u></b>ki i myli się przy badaniach. <u><b>Id</u></b>zie mu słabo",
         desc: "visited[wizitid] - odwiedził/odwiedziła",
         sentence1: [
@@ -8289,7 +8289,7 @@ const fiszki = [
         ],
         key: "blue",
         category1: "nauka",
-        category2: ["osoby"]
+        category2: ["czasownik"]
     },
     {
         id: [
@@ -8297,7 +8297,7 @@ const fiszki = [
             43,
             82
         ],
-        img: "http://arbu-1dcc9.web.app/img/fiszki1/239a.jpg",
+        img: "http://arbu-1dcc9.web.app/img/fiszki1/283a.jpg",
         story: "<u><b>Pa</u></b>weł śpiewa na koncercie w <u><b>Paryżu</u></b> dużo <u><b>arii</u></b>, <u><b>s</u></b>uper mu to idzie",
         desc: "Paris[Paris] - Paryż",
         sentence1: [
@@ -8311,7 +8311,7 @@ const fiszki = [
         ],
         key: "blue",
         category1: "nauka",
-        category2: ["osoby"]
+        category2: ["miasta"]
     },
     {
         id: [
@@ -8319,8 +8319,8 @@ const fiszki = [
             43,
             83
         ],
-        img: "http://arbu-1dcc9.web.app/img/fiszki1/239a.jpg",
-        story: "W tym <u><b>meni</u></b> jest <u><b>wiele</u></b> potraw",
+        img: "http://arbu-1dcc9.web.app/img/fiszki1/284a.jpg",
+        story: "W tym <u><b>MENI(czyt. France)</u></b> jest <u><b>wiele</u></b> potraw",
         desc: "many[meni] - wiele",
         sentence2: [
             "many"
@@ -8339,7 +8339,7 @@ const fiszki = [
             43,
             83
         ],
-        img: "http://arbu-1dcc9.web.app/img/fiszki1/239a.jpg",
+        img: "http://arbu-1dcc9.web.app/img/fiszki1/285a.jpg",
         story: "Nju Jork <u><b>Tajms</u></b> ma mało <u><b>czasu</u></b> na przygotowanie raportu",
         desc: "times[tajms] - czas",
         sentence2: [
@@ -8540,7 +8540,7 @@ const fiszki = [
             45,
             85
         ],
-        img: "http://arbu-1dcc9.web.app/img/fiszki1/122a.jpg",
+        img: "http://arbu-1dcc9.web.app/img/fiszki1/292a.jpg",
         story: "<b><u>Mam</b></u> fajne spodnie, ale puścił sz<b><u>ew</b></u>, <b><u>ch</b></u>yba go zaceruje",
         desc: "have[hew] - mam",
         sentence1: [
@@ -8564,7 +8564,7 @@ const fiszki = [
             45,
             85
         ],
-        img: "http://arbu-1dcc9.web.app/img/fiszki1/239a.jpg",
+        img: "http://arbu-1dcc9.web.app/img/fiszki1/293a.jpg",
         story: "O<u><b>liw</u></b>ka i <u><b>D</u></b>amian żyją ze sobą szczęśliwie",
         desc: "lived[liwd] - żyją",
         sentence1: [
@@ -8646,7 +8646,7 @@ const fiszki = [
             45,
             85
         ],
-        img: "http://arbu-1dcc9.web.app/img/fiszki1/239a.jpg",
+        img: "http://arbu-1dcc9.web.app/img/fiszki1/296a.jpg",
         story: "Spotkałem kolegę... je<b><u>chał</b></u> pro<b><u>s</b></u>to do domu",
         desc: "house[hałs] - dom",
         sentence1: [
@@ -8690,8 +8690,8 @@ const fiszki = [
             45,
             86
         ],
-        img: "http://arbu-1dcc9.web.app/img/fiszki1/239a.jpg",
-        story: "",
+        img: "http://arbu-1dcc9.web.app/img/fiszki1/298a.jpg",
+        story: "<b><u>Je</b></u>stem kapitanem statku przez <b><u>lata</b></u> i obserwuję sobie sta<b><u>rs</b></u>(gwiazdy) w nocy",
         desc: "years[jers] - lata",
         sentence1: [
             "years"
@@ -8753,9 +8753,9 @@ const fiszki = [
             46,
             87
         ],
-        img: "http://arbu-1dcc9.web.app/img/fiszki1/239a.jpg",
+        img: "http://arbu-1dcc9.web.app/img/fiszki1/300a.jpg",
         story: "Ten <u><b>film</u></b> <u><b>mówi</u></b> o perypetiach losu",
-        desc: "movie[mówi] - film",
+        desc: "movie[muwi] - film",
         sentence1: [
             "movie"
         ],
@@ -8802,7 +8802,7 @@ const fiszki = [
         ],
         key: "blue",
         category1: "nauka",
-        category2: ["osoby"]
+        category2: ["czasowniki"]
     },
                                     {
         id: [
@@ -8822,7 +8822,7 @@ const fiszki = [
         ],
         key: "blue",
         category1: "nauka",
-        category2: ["osoby"]
+        category2: [""]
     },
                                         {
         id: [
@@ -8830,7 +8830,7 @@ const fiszki = [
             46,
             87
         ],
-        img: "http://arbu-1dcc9.web.app/img/fiszki1/239a.jpg",
+        img: "http://arbu-1dcc9.web.app/img/fiszki1/303a.jpg",
         story: "Samochód dostawczy <u><b>Star</u></b> właśnie wystartował, j<u><b>ed</u></b>zie dozwoloną prędkością",
         desc: "started[started] - wystartowało",
         sentence1: [
@@ -8981,9 +8981,9 @@ const fiszki = [
             47,
             88
         ],
-        img: "http://arbu-1dcc9.web.app/img/fiszki1/239a.jpg",
-        story: "Z tego drzewa <u><b>buk</u></b>owego zrobimy papier na <u><b>książkę</u></b>",
-        desc: "book[buk] - to/ta",
+        img: "http://arbu-1dcc9.web.app/img/fiszki1/44a.jpg",
+        story: "Z drzewa <b><u>buk</b></u>owego jest najlepszy papier na <b><u>książki</b></u>",
+        desc: "book[buk] - książka",
         sentence1: [
             "book"
         ],
@@ -9005,7 +9005,7 @@ const fiszki = [
             47,
             88
         ],
-        img: "http://arbu-1dcc9.web.app/img/fiszki1/239a.jpg",
+        img: "http://arbu-1dcc9.web.app/img/fiszki1/309a.jpg",
         story: "Te obrazy są podobne, ale mają inne <u><b>tła</u></b> i farby za inny ha<u><b>js</u></b>",
         desc: "twice[tłajs] - podwójny/podwójna/dwukrotnie",
         sentence1: [
@@ -9075,7 +9075,7 @@ const fiszki = [
         ],
         key: "blue",
         category1: "nauka",
-        category2: ["osoby"]
+        category2: ["czasowniki"]
     },
                                                             {
         id: [
@@ -9083,9 +9083,9 @@ const fiszki = [
             48,
             89
         ],
-        img: "http://arbu-1dcc9.web.app/img/fiszki1/239a.jpg",
-        story: "Proszek <u><b>Wiz</u></b>ir w dużych opakowaniach jest <u><b>id</u></b>ealny. Sprawił <u><b>t</u></b>o, że rzadziej w tym miesiącu <u><b>odwiedzałem</u></b> sklep",
-        desc: "visited[wizitid] - odwiedzałem/odwiedzałam",
+        img: "http://arbu-1dcc9.web.app/img/fiszki1/282a.jpg",
+        story: "Prodecent odwiedził naukowców z proszkiem <u><b>wizi</u></b>r, aby go przetestowali. Jeden naukowiec ma <u><b>ti</u></b>ki i myli się przy badaniach. <u><b>Id</u></b>zie mu słabo",
+        desc: "visited[wizitid] - odwiedził/odwiedziła",
         sentence1: [
             "visited"
         ],
@@ -9097,7 +9097,7 @@ const fiszki = [
         ],
         key: "blue",
         category1: "nauka",
-        category2: ["osoby"]
+        category2: ["czasowniki"]
     },
                                                                 {
         id: [
@@ -9105,7 +9105,7 @@ const fiszki = [
             48,
             89
         ],
-        img: "http://arbu-1dcc9.web.app/img/fiszki1/239a.jpg",
+        img: "http://arbu-1dcc9.web.app/img/fiszki1/313a.jpg",
         story: "W <u><b>Londynie</u></b> mamy lot ba<u><b>lon</u></b>em z Panem <u><b>Don</u></b>em z Hiszpani",
         desc: "London[London] - Londyn",
         sentence1: [
@@ -9119,7 +9119,7 @@ const fiszki = [
         ],
         key: "blue",
         category1: "nauka",
-        category2: ["osoby"]
+        category2: ["miasta"]
     },
                                                                     {
         id: [
@@ -9127,7 +9127,7 @@ const fiszki = [
             48,
             90
         ],
-        img: "http://arbu-1dcc9.web.app/img/fiszki1/239a.jpg",
+        img: "http://arbu-1dcc9.web.app/img/fiszki1/314a.jpg",
         story: "Sa<u><b>me</u></b> <u><b>ni</u></b>tki odstają w tych <u><b>s</u></b>podniach. <u><b>Wiele razy</u></b> kupiłem <u><b>ta</u></b>kie spodnie. Za<u><b>jm</u></b>ują mi całą szafę",
         desc: "many times[meni tajms] - wiele razy",
         sentence2: [
@@ -9138,7 +9138,7 @@ const fiszki = [
         ],
         key: "blue",
         category1: "nauka",
-        category2: ["osoby"]
+        category2: ["czas"]
     }
 ];
 

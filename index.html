@@ -20,6 +20,22 @@ html, body {
     z-index: 9999;
     color: white;
 }
+#polski2 {
+    font-size: 14px;
+    position: absolute;
+    z-index: 9999;
+    color: white;
+    margin-top: 140px
+}
+#polski3 {
+        display: none;
+        font-size: 14px;
+        position: absolute;
+        z-index: 9999;
+        color: white;
+        margin-left: 100px;
+        margin-top: -100px;
+}
 #jezyk {
     font-size: 20px;
     display: block;
@@ -41,8 +57,9 @@ body {
 }
 
 .container {
-    max-width: 1200px;
-    width: 100%;
+    display: flex;
+    flex-direction: column; /* Ustawia elementy (grid i button) w kolumnie */
+    align-items: center; /* Wyśrodkowanie w poziomie */
 }
 
 .flag-container {
@@ -68,7 +85,11 @@ body {
     width: 330px;
     height: auto;
 }
-
+.flag-container button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
 video {
     width: 330px; /* Wideo dostosuje się do szerokości rodzica */
     height: auto; /* Wysokość będzie automatyczna */
@@ -88,6 +109,13 @@ button {
     align-items: center;
     text-align: center;
 }
+#learn-language-container {
+            display: grid;
+        grid-template-columns: repeat(2, auto);
+        justify-content: center;
+        gap: 0px;
+        margin-bottom: 0px;
+}
                     }
                                 @media (max-width: 999px) {
                                     html, body {
@@ -104,7 +132,22 @@ button {
     z-index: 9999;
     color: white;
 }
-
+#polski2 {
+    font-size: 14px;
+    position: absolute;
+    z-index: 9999;
+    color: white;
+    margin-top: 70px;
+}
+#polski3 {
+        display: none;
+        font-size: 14px;
+        position: absolute;
+        z-index: 9999;
+        color: white;
+        margin-left: 290px;
+        margin-top: -100px;
+}
 body {
     font-family: Arial, sans-serif;
     display: flex;
@@ -152,9 +195,11 @@ button {
 }
 
 #start-btn {
-    justify-content: center;
-    align-items: center;
+    margin-left: 135px;
     text-align: center;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
 }
                                 }
     </style>
@@ -167,28 +212,28 @@ button {
 
         <div class="flag-container" id="native-language-container">
             <div data-language="pl">
-                <div id="polski">Polski</div>
+                <div id="polski">Polski</div><div id="polski2">(314 słówek.. + 53 słówka)</div>
                 <video autoplay loop muted>
                     <source src="start/Poland.mp4" type="video/mp4">
                     Twój przeglądarka nie obsługuje elementu video.
                 </video>
             </div>
             <div data-language="en">
-                <div id="angielski">American English</div>
+                <div id="angielski">American English</div><div id="polski2">(In progress...)</div>
                 <video autoplay loop muted>
                     <source src="start/USA.mp4" type="video/mp4">
                     Twój przeglądarka nie obsługuje elementu video.
                 </video>
             </div>
             <div data-language="br">
-                <div id="british">British English</div>
+                <div id="british">British English</div><div id="polski2">(In progress...)</div>
                 <video autoplay loop muted>
                     <source src="start/England.mp4" type="video/mp4">
                     Twój przeglądarka nie obsługuje elementu video.
                 </video>
             </div>
                         <div data-language="hu">
-                <div id="hungarian">Hungarian</div>
+                <div id="hungarian">Hungarian</div><div id="polski2">(Folyamatban va...)</div>
                 <video autoplay loop muted>
                     <source src="start/Hungary.mp4" type="video/mp4">
                     Twój przeglądarka nie obsługuje elementu video.
@@ -199,11 +244,15 @@ button {
         <div id="language-options" class="hidden">
             <h2>Wybierz język do nauki: / Select a language to learn:</h2>
             <div class="flag-container" id="learn-language-container"></div>
+            <div id="polski3">(314 słówek.. + 53 słówka)</div>
         </div>
-
-
+<div id="polski4">
+    (AKTUALIZACJA 11.01.25 - GODZINA 14:05: 
+    JĘZYK ANGIELSKI - LEKCJA 5 MINUTOWA, DOSTĘPNE TAGI FILMÓW NA SMARTFONA<br><br>
+    (AKTUALIZACJA 10.01.25 - GODZINA 17:40: 
+    JĘZYK ANGIELSKI - LEKCJA 5 MINUTOWA, DOSTĘPNE WĘDROWANIE POMIĘDZY FISZKAMI)
     </div>
-
+    </div>
     <script>
         const nativeLanguageContainer = document.getElementById('native-language-container');
         const learnLanguageContainer = document.getElementById('learn-language-container');
@@ -230,6 +279,13 @@ button {
                 selectedNativeLanguage = clickedElement.getAttribute('data-language');
                 loadLearningOptions(selectedNativeLanguage);
                 languageOptionsDiv.classList.remove('hidden'); // Pokazuje sekcję z językami do nauki
+                        // Wyświetlenie #polski3 na fladze angielskiej, jeśli wybrano język polski
+        const polski3Element = document.getElementById('polski3');
+        if (selectedNativeLanguage === 'pl') {
+            polski3Element.style.display = 'block';
+        } else {
+            polski3Element.style.display = 'none';
+        }
             }
         });
 

@@ -54,48 +54,55 @@
         <script src="js/lista.js"></script>
     <div class="grid-container">
     </div>
-    <script src="js/testowyb.js"></script>
+    <script src="js/testowy.js"></script>
 <script>
+// Wywołaj funkcję z otrzymaną wartością
 function wybierzRodzaj(category) {
     console.log("Wybrany rodzaj słownictwa: " + category);
 
     const matchingLessons = [];
 
+    // Sprawdzenie, czy kategoria to 'all'
     if (category === 'all') {
+        // Dodaj wszystkie lekcje do matchingLessons
         for (const fiszka of fiszki) {
             console.log(`Przetwarzanie fiszki: ${JSON.stringify(fiszka)}`);
+            // Sprawdzanie, czy fiszka ma poprawne id
             if (fiszka.id && fiszka.id[1]) {
-                console.log(`Dodawanie do matchingLessons: ${fiszka.id[1]}`);
+                // Sprawdzanie, czy id już jest w matchingLessons, aby uniknąć duplikatów
                 if (!matchingLessons.includes(fiszka.id[1])) {
                     matchingLessons.push(fiszka.id[1]);
                 }
             }
         }
     } else {
-        for (const fiszka of fiszki) {
-            console.log(`Przetwarzanie fiszki: ${JSON.stringify(fiszka)}`);
-            if (fiszka.category !== 'all') {
-                const isInCategory2 = fiszka.category2 && fiszka.category2.includes(category);
-                const isInCategory3 = fiszka.category3 && fiszka.category3.includes(category);
+    // Iteracja przez fiszki
+    for (const fiszka of fiszki) {
+        console.log(`Przetwarzanie fiszki: ${JSON.stringify(fiszka)}`);
+if (fiszka.category !== 'all') {
+        // Sprawdzenie, czy kategoria fiszki nie jest równa 'all'
+        if (fiszka.category !== 'all') {
+            // Sprawdzenie, czy fiszka pasuje do zadanej kategorii
+            const isInCategory2 = fiszka.category2 && fiszka.category2.includes(category);
+            const isInCategory3 = fiszka.category3 && fiszka.category3.includes(category);
 
-                if (isInCategory2 || isInCategory3) {
-                    console.log(`Znaleziono fiszkę z kategorią "${category}" w lekcji ${JSON.stringify(fiszka)}`);
-                    if (fiszka.id && fiszka.id[1]) {
-                        console.log(`Dodawanie do matchingLessons: ${fiszka.id[1]}`);
-                        if (!matchingLessons.includes(fiszka.id[1])) {
-                            matchingLessons.push(fiszka.id[1]);
-                        }
-                    }
+            // Jeśli fiszka pasuje do zadanej kategorii, dodaj numer lekcji do tablicy matchingLessons
+            if (isInCategory2 || isInCategory3) {
+                console.log(`Znaleziono fiszkę z kategorią "${category}" w lekcji ${JSON.stringify(fiszka)}`);
+                if (fiszka.id && fiszka.id[1]) {
+                    matchingLessons.push(fiszka.id[1]);
                 }
             }
         }
     }
-
-    console.log('Matching lessons before slicing:', matchingLessons);
-    const nextThreeLessons = matchingLessons.slice(39, 42);
-    console.log('Next three lessons:', nextThreeLessons);
-
-    if (nextThreeLessons.length > 0) {
+}
+    }
+    
+                    console.log('hej222', matchingLessons);
+    if (matchingLessons.length > 0) {
+        const nextThreeLessons = matchingLessons.slice(45, 46);
+        // Wyświetl fiszki dla każdej znalezionej lekcji
+        // Wyświetl fiszki dla kolejnych 3 lekcji
         console.log('Wyświetlanie kolejnych trzech lekcji:');
         nextThreeLessons.forEach(lessonId => {
             showFiszkiForLesson(lessonId, fiszki);
@@ -113,17 +120,13 @@ const category = urlParams.get('category');
 wybierzRodzaj(category);
 
 function showFiszkiForLesson(lessonIdToShow, fiszki) {
-    console.log(`Wywołanie showFiszkiForLesson dla lekcji: ${lessonIdToShow}`);
-    const matchingFiszki = fiszki.filter(fiszka => {
-        console.log(`Porównanie ${fiszka.id[1]} z ${lessonIdToShow}`);
-        return fiszka.id[1] === lessonIdToShow;
-    });
+    const matchingFiszki = fiszki.filter(fiszka => fiszka.id[1] === lessonIdToShow);
 
     if (matchingFiszki.length > 0) {
-        console.log(`Fiszki dla lekcji ${lessonIdToShow}:`, matchingFiszki);
+        console.log(`Fiszki dla lekcji ${lessonIdToShow}:`);
         matchingFiszki.forEach(fiszka => {
             console.log(`Processing fiszka with ID: [${fiszka.id.join(', ')}]`);
-            generateFiszkaBlock(fiszka, lessonIdToShow);
+            generateFiszkaBlock(fiszka, lessonIdToShow); // Upewnij się, że funkcja generateFiszkaBlock() jest zdefiniowana
             console.log(`Generated fiszka with ID: [${fiszka.id.join(', ')}]`);
         });
     } else {

@@ -201,22 +201,20 @@
                     position: absolute;
                     z-index: 1; /* Wideo, ustaw na niższy z-index */
                 }
-                .image-container4 {
+                                .image-container4 {
                     display: flex;
-                    white-space: nowrap; /* Wymusza jedną linię */
                     flex-direction: column;
                     justify-content: center;
                     background-color: blue;
                     width: 330px;
                     position: relative;
-                    height: auto;
                     min-height: 100px;
+                    height: auto;
                     margin-bottom: 0px;
                     align-items: center;
                     font-size: 20px;
                     margin-top: 10px;
                     order: -1; /* Kolejność odwrotna - spycha w dół */
-                    z-index: 100; /* Tło kontenera, ustaw na większy z-index niż wideo */
                 }
                 #wordDisplay {
     position: absolute;
@@ -821,7 +819,8 @@
                     border-bottom: 3px solid orange;
                     z-index: 1; /* Wideo, ustaw na niższy z-index */
                 }
-                .image-container4 {
+
+                                                .image-container4 {
                     display: flex;
                     flex-direction: column;
                     justify-content: center;
@@ -834,8 +833,8 @@
                     align-items: center;
                     font-size: 20px;
                     margin-top: 10px;
-                    z-index: 9999;
-                }/* Tło */
+                    order: -1; /* Kolejność odwrotna - spycha w dół */
+                }
                                 #wordDisplay {
     position: absolute;
     bottom: -20px;
@@ -876,7 +875,7 @@
                     background-color: #000;
                     color: #fff;
                     padding: 5px 10px;
-                    z-index: 99999999;
+                    z-index: 1000;
                     white-space: nowrap; /* Zapobiega zawijaniu tekstu */
                 }
                 .scene-description2 {
@@ -887,7 +886,7 @@
                     background-color: #000;
                     color: #fff;
                     padding: 5px 10px;
-                    z-index: 999999999;
+                    z-index: 1000;
                     white-space: nowrap; /* Zapobiega zawijaniu tekstu */
                 }
                 .overlay-button {
@@ -5185,7 +5184,7 @@ if (window.matchMedia("(max-width: 999px)").matches) {
                                     $('.overlay', this).css('transform', 'translateX(0)');
 
                                     // Twórz nowy dynamiczny div z napisem
-                                    const $dynamicDiv2 = $('<div>').addClass('dynamic-div2').text('Nowa lekcja - w przygotowaniu');
+                                    const $dynamicDiv2 = $('<div>').addClass('dynamic-div2').text('Nowa lekcja - już dostępna');
                                     // Dodaj dynamiczny div do kontenera
                                     $dynamicDiv2.appendTo($(this)).fadeIn(300);
                                 }, function () {
@@ -5891,21 +5890,47 @@ ${sentence10}${sentence11}<br>
                                 'margin-right': '-4%'// Zapewnienie równowagi dla powiększenia paska postępu
                             });
 // Funkcja dodająca nowe elementy <div>
-                            function addScenes(index) {
-                                // Sprawdź, czy istnieje element <div> o klasie 'scene-description'
-                                let $sceneDiv = $container.find('.scene-description');
+                                function addScenes(index) {
+                                    // Sprawdź, czy istnieje element <div> o klasie 'scene-description'
+                                    let $sceneDiv = $container.find('.scene-description');
 
-                                if ($sceneDiv.length) {
-                                    // Jeśli istnieje, wyczyść jego zawartość
-                                    $sceneDiv.empty();
-                                } else {
-                                    // Jeśli nie istnieje, stwórz nowy element <div>
-                                    $sceneDiv = $('<div>').addClass('scene-description').appendTo($container);
+                                    if ($sceneDiv.length) {
+                                        // Jeśli istnieje, wyczyść jego zawartość
+                                        $sceneDiv.empty();
+                                    } else {
+                                        // Jeśli nie istnieje, stwórz nowy element <div>
+                                        $sceneDiv = $('<div>').addClass('scene-description').appendTo($container);
+                                    }
+
+                                    // Dodaj nowy tekst do <div>
+                                    $sceneDiv.text(`Scena z filmu ${srcWords2[index]}`);
+
+                                    if (window.matchMedia("(max-width: 999px)").matches) {
+                                        if (indexDiv % 2 === 0) {
+                                            console.log('Warunek podzielności przez 2 spełniony2');
+                                            // Zmień CSS paska napisu, aby wyświetlał się po lewej stronie kontenera
+                                            $sceneDiv.css({
+                                                'position': 'relative',
+                                                'margin-top': '-140px',
+                                                'margin-left': '-450px',
+                                                'text-align': 'left',
+                                                'background-color': 'orange',
+                                                'z-index': '9999999'
+                                            });
+                                        } else if (indexDiv % 1 === 0 || indexDiv % 3 === 0 || indexDiv % 5 === 0) {
+                                            console.log('Warunek podzielności przez 1 spełniony2');
+                                            // Zmień CSS paska napisu, aby wyświetlał się po lewej stronie kontenera
+                                            $sceneDiv.css({
+                                                'position': 'relative',
+                                                'margin-top': '-140px',
+                                                'margin-right': '-20px',
+                                                'text-align': 'left',
+                                                'background-color': 'blue',
+                                                'z-index': '99999999999'
+                                            });
+                                        }
+                                    }
                                 }
-
-                                // Dodaj nowy tekst do <div>
-                                $sceneDiv.text(`Scena z filmu ${srcWords2[index]}`);
-                            }
                             // Tworzenie przycisku "Stop"
                             if (!stopButtonAdded) {
                                 const $stopButton = $('<img>')
@@ -6038,6 +6063,7 @@ ${sentence10}${sentence11}<br>
                                     }
                                 });
                             });
+                                                        addScenes(index);
                             // Dodaj div z wideo do tła kontenera
                             $vidDiv.appendTo($container);
                             function updateProgress(progress) {
@@ -6060,6 +6086,47 @@ ${sentence10}${sentence11}<br>
                                 'margin-right': '-4%'// Zapewnienie równowagi dla powiększenia paska postępu
                             });
                             $progressBar.appendTo($container);
+                                                            function addScenes(index) {
+                                    // Sprawdź, czy istnieje element <div> o klasie 'scene-description'
+                                    let $sceneDiv = $container.find('.scene-description');
+
+                                    if ($sceneDiv.length) {
+                                        // Jeśli istnieje, wyczyść jego zawartość
+                                        $sceneDiv.empty();
+                                    } else {
+                                        // Jeśli nie istnieje, stwórz nowy element <div>
+                                        $sceneDiv = $('<div>').addClass('scene-description').appendTo($container);
+                                    }
+
+                                    // Dodaj nowy tekst do <div>
+                                    $sceneDiv.text(`Scena z filmu ${srcWords2[index]}`);
+
+                                    if (window.matchMedia("(max-width: 999px)").matches) {
+                                        if (indexDiv % 2 === 0) {
+                                            console.log('Warunek podzielności przez 2 spełniony2');
+                                            // Zmień CSS paska napisu, aby wyświetlał się po lewej stronie kontenera
+                                            $sceneDiv.css({
+                                                'position': 'relative',
+                                                'margin-top': '-140px',
+                                                'margin-left': '-450px',
+                                                'text-align': 'left',
+                                                'background-color': 'orange',
+                                                'z-index': '9999999'
+                                            });
+                                        } else if (indexDiv % 1 === 0 || indexDiv % 3 === 0 || indexDiv % 5 === 0) {
+                                            console.log('Warunek podzielności przez 1 spełniony2');
+                                            // Zmień CSS paska napisu, aby wyświetlał się po lewej stronie kontenera
+                                            $sceneDiv.css({
+                                                'position': 'relative',
+                                                'margin-top': '-140px',
+                                                'margin-right': '-20px',
+                                                'text-align': 'left',
+                                                'background-color': 'blue',
+                                                'z-index': '99999999999'
+                                            });
+                                        }
+                                    }
+                                }
                             // Tworzenie przycisku "Stop"
                             if (!stopButtonAdded) {
                                 const $stopButton = $('<img>')
@@ -6200,7 +6267,7 @@ ${sentence10}${sentence11}<br>
                                     $('.overlay', this).css('transform', 'translateX(0)');
 
                                     // Twórz nowy dynamiczny div z napisem
-                                    const $dynamicDiv2 = $('<div>').addClass('dynamic-div2').text('Nowa lekcja - w przygotowaniu');
+                                    const $dynamicDiv2 = $('<div>').addClass('dynamic-div2').text('Nowa lekcja - już dostępna');
                                     // Dodaj dynamiczny div do kontenera
                                     $dynamicDiv2.appendTo($(this)).fadeIn(300);
                                 }, function () {
@@ -6616,7 +6683,10 @@ console.log("indexDiv2", tablica12b);
         console.log('Koniec fiszek!'); // Informacja o końcu fiszek
     }
                         });
-tablica12b[0] = 0;
+                        if (currentFiszkaIndex === 0) {
+                          tablica12b.push(0);  
+                        }
+
                     console.log('hej26', tablica12b);
 $nextButton.on('click', function () {
                                                     console.log('Aktualny index fiszki:', indexDiv);
@@ -6657,7 +6727,7 @@ $container.css('z-index', 102); // Podniesienie z-index tylko dla aktywnego
                                                         // Jeśli nie istnieje, dodaj nową tablicę
                                                         fiszkaobject.data.push([indexDiv, currentFiszkaIndex]);
                                                     }
-                                                    
+                                                    tablica12b.push(currentFiszkaIndex);
                                 setTimeout(() => {
                                                         wybierzRodzaj2('all', currentFiszkaIndex, matchingFiszki1, indexDiv);
                                 }, 800);
@@ -6690,8 +6760,8 @@ $container.css('z-index', 102); // Podniesienie z-index tylko dla aktywnego
                                                                                         if (currentFiszkaIndex === 0) {
 console.log("indexDiv2x", currentFiszkaIndex);
                                                                                             let indeks55x; // Zainicjalizuj zmienną przed warunkami
-if (currentFiszkaIndex === 0) {
-    indeks55x = 0;
+if (currentFiszkaIndex === 0 || currentFiszkaIndex > 0) {
+    indeks55x = currentFiszkaIndex;
 
                                                     wybierzRodzaj2c('all', indeks55x, matchingFiszki1, indexDiv);
                                                                             updateWordDisplay(currentWordIndex);
@@ -6704,9 +6774,9 @@ $wordContainer.on('click', function () {
                 const $container = $(`.image-container4[data-lesson="${indexDiv}"]`);
 $(`.image-container4`).css('z-index', 100); // Reset z-index dla wszystkich
 $container.css('z-index', 104); // Podniesienie z-index tylko dla aktywnego
-
                             let ostatniElement2 = tablica11b[tablica11b.length - 1];
 console.log('hej55aa', ostatniElement2);
+wybierzRodzaj2c('all', currentFiszkaIndex, matchingFiszki1, indexDiv);
     // Sprawdź, czy element 'wordDisplay' już istnieje
 // Sprawdź, czy element 'wordDisplay' już istnieje w odpowiednim kontenerze
 if (ostatniElement2 && indexDiv !== ostatniElement2) {
@@ -6962,7 +7032,7 @@ function showFiszkiForLesson5b(indexDiv, fiszki, indeks5, matchingFiszki1) {
 // Tworzenie klasy CSS
 const className = `fiszka-${id}${parametr ? '-' + parametr : ''}`;
 const selector = `.${className.replace(/,/g, '\\,')}`;
-console.log('Usuwam fiszkę o klasie:', className);
+console.log('Usuwam fiszkę o klasie5:', className);
 // Znalezienie i usunięcie diva z klasą `className`
 let $divToRemove = $(selector);
 if ($divToRemove.length) {  // Sprawdza, czy element istnieje
@@ -8120,7 +8190,7 @@ ${sentence10}<br>
                 if (!scrollTimeoutId) {
                     previousVisibleIndexes = [...indexes]; // Losowanie once
                 }
-
+if (window.matchMedia("(min-width: 999px)").matches) {
                 // Jeśli warunek jest spełniony i poprzedni timeout nie istnieje
                 if (indexes.length >= 8 && !hasPreviousIndexesBeenSet) {
                     if (timeoutId) {
@@ -8134,6 +8204,22 @@ ${sentence10}<br>
                         otherFunction(indexes);
                         timeoutId = null; // Resetuj timeoutId po wykonaniu funkcji
                     }, 200); // Czekaj 2 sekundy od ostatniego scrollowania
+                }
+                } else if (window.matchMedia("(max-width: 999px)").matches) {
+                                    // Jeśli warunek jest spełniony i poprzedni timeout nie istnieje
+                if (indexes.length >= 10 && !hasPreviousIndexesBeenSet) {
+                    if (timeoutId) {
+                        clearTimeout(timeoutId); // Wyczyść poprzedni timeout, jeśli istnieje
+                    }
+                    // Ustaw timeout na 2 sekundy po zatrzymaniu scrollowania
+                    timeoutId = setTimeout(() => {
+                        previousVisibleIndexes = [...indexes]; // Losowanie
+                        hasPreviousIndexesBeenSet = true;
+                        console.log('Aktualne widoczne indeksy:', indexes);
+                        otherFunction(indexes);
+                        timeoutId = null; // Resetuj timeoutId po wykonaniu funkcji
+                    }, 200); // Czekaj 2 sekundy od ostatniego scrollowania
+                }
                 }
 
                 // Aktualizacja czasu ostatniej zmiany
