@@ -26,7 +26,6 @@
         <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>ARBULANGUAGES.COM<br>DOSTĘPNYCH 150 SŁÓW</title>
         <style>
             @media (min-width: 999px) {
                 .sentence-container {
@@ -276,8 +275,8 @@
                     white-space: nowrap; /* Zapobiega zawijaniu tekstu */
                     bottom: 10px;
                     right: 10px;
-                    width: 30px;
-                    height: 30px;
+                    width: 18px;
+                    height: 18px;
                     cursor: pointer;
                     border-radius: 8px;
                 }
@@ -327,7 +326,7 @@
                 }
                 .run-button3 {
                     position: absolute;
-                    bottom: 140px;
+                    bottom: 100px;
                     right: 20px;
                     display: none; /* Ukrycie przycisku */
                     z-index: 99999; /* Wyższy z-index, aby przycisk był na wierzchu */
@@ -358,7 +357,19 @@
                     display: none; /* Początkowo ukryty */
                     font-size: 10px;
                 }
-
+                                               .dynamic-div3 {
+                    position: absolute;
+                    bottom: 5px; /* Ustawienie w dowolnym miejscu w kontenerze */
+                    left: 10px;
+                    font-size: 15px;
+                    width: 150px; /* Szerokość dynamicznego div-a */
+                    height: 20px; /* Wysokość dynamicznego div-a */
+                    background-color: orange; /* Przezroczyste niebieskie tło */
+                    color: white;
+                    z-index: 1000; /* Wyższy z-index, aby był nad overlay */
+                    display: none; /* Początkowo ukryty */
+                    font-size: 10px;
+                }
                 .image-container4:hover .run-button2 {
                     display: block; /* Wyświetlenie przycisku na hover */
                 }
@@ -835,6 +846,22 @@
                     margin-top: 10px;
                     order: -1; /* Kolejność odwrotna - spycha w dół */
                 }
+                                                                .image-container4:hover {
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    position: relative;
+                    height: auto;
+                    min-height: 100px;
+                    width: 100%;
+                    box-sizing: border-box;
+                    margin-bottom: 0px;
+                    align-items: center;
+                    font-size: 20px;
+                    margin-top: 10px;
+                    order: -1; /* Kolejność odwrotna - spycha w dół */
+                    z-index: 110;
+                }
                                 #wordDisplay {
     position: absolute;
     bottom: -20px;
@@ -894,8 +921,8 @@
                     z-index: 1000000;
                     bottom: 10px;
                     right: -70px;
-                    width: 30px;
-                    height: 30px;
+                    width: 18px;
+                    height: 18px;
                     cursor: pointer;
                     border-radius: 8px;
                 }
@@ -1004,7 +1031,23 @@
                     z-index: 1000; /* Wyższy z-index, aby był nad overlay */
                     display: none; /* Początkowo ukryty */
                 }
-
+                                               .dynamic-div3 {
+                    position: absolute;
+                    bottom: 5px; /* Ustawienie w dowolnym miejscu w kontenerze */
+                    left: 10px;
+                    font-size: 15px;
+                    width: 150px; /* Szerokość dynamicznego div-a */
+                    height: 20px; /* Wysokość dynamicznego div-a */
+                    background-color: orange; /* Przezroczyste niebieskie tło */
+                    color: white;
+                    z-index: 1000; /* Wyższy z-index, aby był nad overlay */
+                    display: none; /* Początkowo ukryty */
+                    font-size: 10px;
+                }
+                                .image-container4:hover .run-button {
+                                    z-index: 105;
+                    display: block; /* Wyświetlenie przycisku na hover */
+                }
                 .image-container4:hover .run-button2 {
                     display: block; /* Wyświetlenie przycisku na hover */
                 }
@@ -1643,17 +1686,18 @@
 <div id="konsola">
     <div id="title">WIDOK</div>
 <button class="rodzaj-button" data-rodzaj="osoby">SPOŁECZNOŚCIOWY</button>        
-    <button class="rodzaj-button" data-rodzaj="osoby">WYGENEROWANY JEDNORAZOWO</button>
+    <button id="inne" class="rodzaj-button" data-rodzaj="osoby">WYGENEROWANY JEDNORAZOWO</button>
             <div id="title">RODZAJ SŁOWNICTWA</div>
-                    <button class="rodzaj-button" data-rodzaj="osoby">KOGNATY</button>
+                    <button id="inne" class="rodzaj-button" data-rodzaj="osoby">KOGNATY</button>
     <button id="osoby" class="rodzaj-button" data-rodzaj="osoby" onclick="przekazArgument0('all', '', '', '', '', '', tablica3[1])">Wszystkie</button>
     <button class="rodzaj-button" data-rodzaj="osoby" onclick="przekazArgument0('osoby', '', '', '', '', '', tablica3[1], 'other')">Osoby</button>
     <button class="rodzaj-button" data-rodzaj="zaimki osobowe" onclick="przekazArgument0('zaimkiosobowe', '', '', '', '', '', tablica3[1], 'other')">Zaimki osobowe</button>
     <button id="inne" onclick="przekazArgument0('emocje', '', '', '', '', '', tablica3[1])">Emocje</button>
     <button class="rodzaj-button" data-rodzaj="zaimki" onclick="przekazArgument0('spojniki', '', '', '', '', '', tablica3[1])">Spójniki</button>
     <button id="inne" onclick="przekazArgument0('kolory', '', '', '', '', '', tablica3[1])">Kolory</button>
-    <button id="inne" class="rodzaj-button" data-rodzaj="zwierzeta" onclick="przekazArgument0('zwierzeta', '', '', '', '', '', tablica3[1])">Zwierzęta</button>
+    <button class="rodzaj-button" data-rodzaj="zwierzeta" onclick="przekazArgument0('zwierzeta', '', '', '', '', '', tablica3[1])">Zwierzęta</button>
     <button class="rodzaj-button" data-rodzaj="czasownik" onclick="przekazArgument0('czasownik', '', '', '', '', '', tablica3[1])">Czasowniki</button>
+            <button class="rodzaj-button" data-rodzaj="czasownik" onclick="przekazArgument0('czas', '', '', '', '', '', tablica3[1])">Czas</button>
     <br>ILOŚĆ MATERIAŁU NA LEKCJE<br>
 <button class="czas" onclick="ustawTryb('zdania', undefined); przekazArgument0(globalCategory, '', '', 'zdania', false, false, tablica3[1])">5 MINUT (JEDNO ZDANIE)</button>
 <button id="english" class="czas" onclick="ustawTryb('fiszki', undefined); przekazArgument0(globalCategory, '', '', 'fiszki', true, true, tablica3[1])">10 MINUT (3 ZDANIA) - OPCJONALNIE</button>
@@ -1685,9 +1729,9 @@
     <button class="charakter-button" onclick="ustawTryb(tablica3[0]); przekazArgument0(globalCategory, '', '', 'fiszki', false, false, '')">Dowolne</button>
     <div id="title">PRIORYTETY LINGWISTYCZNE</div>
     <button id="inne" onclick="wybierzCharakter('krotkie')">Wymowa</button>
-<button class="charakter-button" onclick="wybierzCharakter('krotkie')">Pisownia</button>
+<button id="inne" class="charakter-button" onclick="wybierzCharakter('krotkie')">Pisownia</button>
 <button id="inne" onclick="wybierzCharakter('krotkie')">Sens zdania</button>
-    <button id="dowolne" onclick="wybierzCharakter('dowolne')">WSZYSTKIE</button>
+    <button id="inne" id="dowolne" onclick="wybierzCharakter('dowolne')">WSZYSTKIE</button>
 </div>
 <div id="konsola3">
     <h2>Ulubione Fiszki</h2>
@@ -2313,7 +2357,7 @@
                                 }
                             }
 
-                            if (tablica10.length <= 16 || tablica10.length === 0) {
+                            if (tablica10.length <= 17 || tablica10.length === 0) {
                                 console.log('wykonuje się 8');
                                 console.log('hej32', newIndex);
                                 console.log('hej18', tablica10);
@@ -2458,7 +2502,7 @@
                                     break; // Przerwanie pętli, jeśli użytkownik nie chce kontynuować
                                 }
                             }
-                            if ((tablica15.length <= 44 || tablica15.length === 0)) {
+                            if ((tablica15.length <= 51 || tablica15.length === 0)) {
                                 console.log('wykonuje się 8');
 
                                 showCombinedSentenceForLesson2(polski, index50, matchingIndexes, lessonId1, newIndex, indexDiv, lesson1PartLength);
@@ -3180,8 +3224,8 @@ ${sentence20}${sentence22}<br>
 <div class="sentence1bba2">${sentence1bba2}</div>
 <button class="left-buttonbb third-button">+<br></button>
 ${sentence30}${sentence33}<br>
-        <div class="sentence1bb3" style="display: none;">${sentence1bb3}</div>
-        <div class="sentence1bb1c" style="display: none;">${sentence1bb1c}</div>
+        <div class="sentence1bb3">${sentence1bb3}</div>
+        <div class="sentence1bb1c">${sentence1bb1c}</div>
 `);
                                 $('.sentence1bba').html('');
                                 $sentenceDiv.on('click', '.left-button', function () {
@@ -3209,8 +3253,8 @@ ${sentence20}${sentence22}<br>
 <div class="sentence1bba2">${sentence1bba2}</div>
 <button class="left-buttonbb third-button">+<br></button>
 ${sentence30}${sentence33}<br>
-        <div class="sentence1bb3" style="display: none;">${sentence1bb3}</div>
-        <div class="sentence1bb1c" style="display: none;">${sentence1bb1c}</div>
+        <div class="sentence1bb3">${sentence1bb3}</div>
+        <div class="sentence1bb1c">${sentence1bb1c}</div>
 `);
                                     // Ustawienie stylu dla przycisków .left-button
                                     $('.sentence1bb1b').html('');
@@ -3476,8 +3520,8 @@ ${sentence20}${sentence22}<br>
 <div class="sentence1bba2">${sentence1bba2}</div>
 <button class="left-buttonbb third-button">+<br></button>
 ${sentence30}${sentence33}<br>
-        <div class="sentence1bb3" style="display: none;">${sentence1bb3}</div>
-        <div class="sentence1bb1c" style="display: none;">${sentence1bb1c}</div>
+        <div class="sentence1bb3">${sentence1bb3}</div>
+        <div class="sentence1bb1c">${sentence1bb1c}</div>
 `);
                                 $('.sentence1bb1b').html('');
                                 $('.sentence1bba2').html('');
@@ -3505,8 +3549,8 @@ ${sentence20}${sentence22}<br>
 <div class="sentence1bba2">${sentence1bba2}</div>
 <button class="left-buttonbb third-button">+<br></button>
 ${sentence30}${sentence33}<br>
-        <div class="sentence1bb3" style="display: none;">${sentence1bb3}</div>
-        <div class="sentence1bb1c" style="display: none;">${sentence1bb1c}</div>
+        <div class="sentence1bb3">${sentence1bb3}</div>
+        <div class="sentence1bb1c">${sentence1bb1c}</div>
 `);
                                     $('.sentence1bba').html('');
                                     // Ustawienie stylu dla przycisków .left-button
@@ -3558,7 +3602,7 @@ ${sentence30}${sentence33}<br>
 
                     function addBackgroundToText3b(matchingFiszki3, matchingIndexes, aktualny, lesson3PartLength) {
                         $(document).ready(function () {
-
+setTimeout(() => {
                             sentence1bb3 = "";
                             sentence1bb1c = "";
 
@@ -3571,16 +3615,174 @@ ${sentence30}${sentence33}<br>
                                 }
                                 for (let lm = 0; lm < fiszka.sentence1.length; lm++) {
                                     let sentencePart = fiszka.sentence1[lm];
-                                    console.log('sentencePart:', sentencePart);
-                                    const indexToCheck = l + lesson3PartLength + 1;
+                                        console.log('sentencePart5:', sentencePart);
+                                        const indexToCheck = l + lesson3PartLength + 1;
+                                        const indexToCheck2 = l + lesson3PartLength + 1;
                                     console.log('indexToCheck:', indexToCheck);
-                                    if (aktualny && matchingIndexes.includes(indexToCheck)) {
+                            if (aktualny) {
+                                            if (matchingIndexes.includes(indexToCheck)) {
                                         const spanElement = document.createElement('span');
                                         spanElement.textContent = sentencePart;
                                         spanElement.classList.add('yellow');
                                         sentencePart = spanElement.outerHTML;
                                     }
-                                    sentence30 += sentencePart + " ";
+                                }
+function countCategoryInFiszki2(matchingFiszki3, category) {
+                                            // Zmienna do przechowywania sumy wystąpień
+                                            let totalCount = 0;
+
+                                            // Iteracja przez wszystkie fiszki
+                                            for (let l = 0; l < matchingFiszki3.length; l++) {
+                                                const fiszka = matchingFiszki3[l];
+
+                                                // Zlicz wystąpienia kategorii w category3
+                                                if (fiszka.category3 && Array.isArray(fiszka.category3)) {
+                                                    const count = fiszka.category3.filter(cat => cat === category).length;
+                                                    totalCount += count; // Dodaj do sumy
+                                                }
+                                            }
+
+                                            return [totalCount]; // Zwróć tablicę z jedną sumaryczną wartością
+                                        }
+
+// Użycie funkcji
+                                        const categoryToCount = "PresentSimplePodmiot";
+                                        const categoryToCount2 = "PresentSimpleCzasownik";
+                                        const occurrences = countCategoryInFiszki2(matchingFiszki3, categoryToCount);
+                                        const occurrences2 = countCategoryInFiszki2(matchingFiszki3, categoryToCount2);
+// Wypisywanie wyników
+                                        console.log('Suma wystąpień:', occurrences2);
+                                        // Po zakończeniu iteracji przez fiszkę, sprawdź occurrences
+                                        // Po zakończeniu iteracji przez fiszkę, sprawdź occurrences
+                                        // Po zakończeniu iteracji przez fiszkę, sprawdź occurrences
+                                        // Flaga sprawdzająca, czy podmiot został już dodany
+
+                                        if (aktualny && rodzaj === "play" && matchingIndexes2.includes(indexToCheck2)) {
+                                            console.log('hej123', occurrences);
+                                            // Sprawdź, czy to jest pierwsze słowo
+                                            if (l === 0 && occurrences[0] === 2) {
+                                                console.log('Podświetlono pierwsze słowo:', fiszka.sentence1[l]);
+                                                const firstWordElement = document.createElement('span');
+                                                firstWordElement.textContent = sentencePart;
+                                                firstWordElement.classList.add('green'); // Dodaj klasę, która podświetla słowo na zielono
+                                                sentencePart = firstWordElement.outerHTML; // Zamień pierwsze słowo na jego wersję z "span"
+                                            }
+                                            // Dodaj podmiot po drugim słowie, jeśli occurrences wynosi 2
+                                            if (l === 1 && occurrences[0] === 2) {
+                                                console.log('Dodano "podmiot" po drugim słowie:', fiszka.sentence1[l]);
+                                                const podmiotElement = document.createElement('span');
+                                                podmiotElement.textContent = sentencePart;
+                                                podmiotElement.classList.add('green');
+                                                sentencePart = podmiotElement.outerHTML;
+                                                podmiotElement.textContent = "(podmiot)";
+
+                                                // Rozdziel zdanie na słowa
+                                                let words = sentencePart.split(' ');
+                                                words.splice(2, 0, podmiotElement.outerHTML); // Dodaj podmiot po drugim słowie
+                                                sentencePart = words.join(' '); // Połącz z powrotem w jedno zdanie
+
+                                            } else if (l === 0 && occurrences[0] === 1) {
+                                                console.log('Dodano "podmiot" po pierwszym słowie:', fiszka.sentence1[l]);
+                                                const podmiotElement = document.createElement('span');
+                                                podmiotElement.textContent = sentencePart;
+                                                podmiotElement.classList.add('green');
+                                                sentencePart = podmiotElement.outerHTML;
+                                                podmiotElement.textContent = "(podmiot)";
+
+                                                // Rozdziel zdanie na słowa
+                                                let words = sentencePart.split(' ');
+                                                words.splice(3, 0, podmiotElement.outerHTML); // Dodaj podmiot po pierwszym słowie
+                                                sentencePart = words.join(' '); // Połącz z powrotem w jedno zdanie
+
+                                            }
+                                        }
+                                        if (aktualny && rodzaj === "play" && matchingIndexes3.includes(indexToCheck2)) {
+                                            console.log('hej123', occurrences);
+                                            // Sprawdź, czy to jest pierwsze słowo
+                                            // Dodaj podmiot po drugim słowie, jeśli occurrences wynosi 2
+
+                                            if (l === 2 && occurrences2[0] === 2) {
+                                                console.log('Dodano "podmiot" po drugim słowie:', fiszka.sentence1[l]);
+                                                const podmiotElement = document.createElement('span');
+                                                podmiotElement.textContent = sentencePart;
+                                                podmiotElement.classList.add('blue');
+                                                sentencePart = podmiotElement.outerHTML;
+                                                podmiotElement.textContent = "(czasownik)";
+
+                                                // Rozdziel zdanie na słowa
+                                                let words = sentencePart.split(' ');
+                                                words.splice(2, 1, podmiotElement.outerHTML); // Dodaj podmiot po drugim słowie
+                                                sentencePart = words.join(' '); // Połącz z powrotem w jedno zdanie
+
+                                            } else if (l === 2 && occurrences2[0] === 1) {
+                                                console.log('Dodano "podmiot" po drugim słowie:', fiszka.sentence1[l]);
+                                                const podmiotElement = document.createElement('span');
+                                                podmiotElement.textContent = sentencePart;
+                                                podmiotElement.classList.add('blue');
+                                                sentencePart = podmiotElement.outerHTML;
+                                                podmiotElement.textContent = "(czasownik)";
+
+                                                // Rozdziel zdanie na słowa
+                                                let words = sentencePart.split(' ');
+                                                words.splice(3, 0, podmiotElement.outerHTML); // Dodaj podmiot po drugim słowie
+                                                sentencePart = words.join(' '); // Połącz z powrotem w jedno zdanie
+
+                                            } else if (l === 1 && occurrences2[0] === 1) {
+                                                console.log('Dodano "podmiot" po pierwszym słowie:', fiszka.sentence1[l]);
+                                                const podmiotElement = document.createElement('span');
+                                                podmiotElement.textContent = sentencePart;
+                                                podmiotElement.classList.add('blue');
+                                                sentencePart = podmiotElement.outerHTML;
+                                                podmiotElement.textContent = "(czasownik)";
+
+                                                // Rozdziel zdanie na słowa
+                                                let words = sentencePart.split(' ');
+                                                words.splice(3, 0, podmiotElement.outerHTML); // Dodaj podmiot po pierwszym słowie
+                                                sentencePart = words.join(' '); // Połącz z powrotem w jedno zdanie
+
+                                            } else if (l === 2 && occurrences2[0] === 2) {
+                                                console.log('Dodano "podmiot" po pierwszym słowie:', fiszka.sentence1[l]);
+                                                const podmiotElement = document.createElement('span');
+                                                podmiotElement.textContent = sentencePart;
+                                                podmiotElement.classList.add('blue');
+                                                sentencePart = podmiotElement.outerHTML;
+                                                podmiotElement.textContent = "(czasownik)";
+
+                                                // Rozdziel zdanie na słowa
+                                                let words = sentencePart.split(' ');
+                                                words.splice(3, 0, podmiotElement.outerHTML); // Dodaj podmiot po pierwszym słowie
+                                                sentencePart = words.join(' '); // Połącz z powrotem w jedno zdanie
+
+                                            } else if (l === 3 && occurrences2[0] === 2) {
+                                                console.log('Dodano "podmiot" po pierwszym słowie:', fiszka.sentence1[l]);
+                                                const podmiotElement = document.createElement('span');
+                                                podmiotElement.textContent = sentencePart;
+                                                podmiotElement.classList.add('blue');
+                                                sentencePart = podmiotElement.outerHTML;
+                                                podmiotElement.textContent = "(czasownik)";
+
+                                                // Rozdziel zdanie na słowa
+                                                let words = sentencePart.split(' ');
+                                                words.splice(3, 0, podmiotElement.outerHTML); // Dodaj podmiot po pierwszym słowie
+                                                sentencePart = words.join(' '); // Połącz z powrotem w jedno zdanie
+
+                                            } else if (l === 3 && occurrences2[0] === 3) {
+                                                console.log('Dodano "podmiot" po pierwszym słowie:', fiszka.sentence1[l]);
+                                                const podmiotElement = document.createElement('span');
+                                                podmiotElement.textContent = sentencePart;
+                                                podmiotElement.classList.add('blue');
+                                                sentencePart = podmiotElement.outerHTML;
+                                                podmiotElement.textContent = "(czasownik)";
+
+                                                // Rozdziel zdanie na słowa
+                                                let words = sentencePart.split(' ');
+                                                words.splice(3, 0, podmiotElement.outerHTML); // Dodaj podmiot po pierwszym słowie
+                                                sentencePart = words.join(' '); // Połącz z powrotem w jedno zdanie
+
+                                            }
+                                        }
+                                        // Dodaj sentencePart do sentence10
+                                        sentence30 += sentencePart + " ";
                                 }
                             }
 
@@ -3592,31 +3794,37 @@ ${sentence30}${sentence33}<br>
                                     continue;
                                 }
                                 for (let lmn = 0; lmn < fiszka.sentence2.length; lmn++) {
-                                    let sentencePart2 = fiszka.sentence2[lmn];
+                                    let sentencePart3 = fiszka.sentence2[lmn];
                                     const indexToCheck = lmm + lesson3PartLength + 1;
-                                    if (aktualny && matchingIndexes.includes(indexToCheck)) {
-                                        const spanElement = document.createElement('span');
-                                        spanElement.textContent = sentencePart2;
-                                        spanElement.classList.add('yellow');
-                                        sentencePart2 = spanElement.outerHTML;
-                                    }
-                                    sentence33 += sentencePart2 + " ";
+                                        if (aktualny) {
+                                            if (matchingIndexes.includes(indexToCheck)) {
+                                                // Sprawdzenie, czy indeks bieżącej fiszki znajduje się w tablicy matchingIndexes
+                                                const spanElement = document.createElement('span');
+                                                spanElement.textContent = sentencePart3;
+                                                spanElement.classList.add('yellow');
+                                                // Zaktualizuj sentencePart, aby zawierał utworzony element span
+                                                sentencePart3 = spanElement.outerHTML;
+                                            }
+                                        }
+                                    sentence33 += sentencePart3 + " ";
                                 }
                             }
-
                             for (let z = 0; z < matchingFiszki3.length; z++) {
                                 const fiszka = matchingFiszki3[z];
-                                let sentencePart444b = fiszka.translateb ? fiszka.translateb : "";
-                                const spanElement = document.createElement('span');
-                                spanElement.textContent = sentencePart444b;
-                                sentencePart444b = spanElement.outerHTML;
-                                sentence1bb3 += sentencePart444b + " ";
-                                console.log('hej59', sentencePart444b);
-                            }
+                                let sentencePart444b = fiszka.translateb;
+                                        if (aktualny) {
+                                        // Sprawdzenie, czy indeks bieżącej fiszki znajduje się w tablicy matchingIndexes
+                                        const spanElement = document.createElement('span');
+                                        spanElement.textContent = sentencePart444b;
+                                        sentencePart444b = spanElement.outerHTML;
+
+                                    }
+                                    sentence1bb3 += sentencePart444b + " ";
+                                }
 
                             for (let zi = 0; zi < matchingFiszki3.length; zi++) {
                                 const fiszka = matchingFiszki3[zi];
-                                let sentencePart444 = fiszka.translate ? fiszka.translate : "";
+                                let sentencePart444 = fiszka.translate;
                                 if (aktualny) {
                                     const spanElement = document.createElement('span');
                                     spanElement.textContent = sentencePart444;
@@ -3625,92 +3833,82 @@ ${sentence30}${sentence33}<br>
                                 sentence1bb1c += sentencePart444 + " ";
                             }
 
-                            $sentenceDiv.html(`
-        <button class="left-button first-button">+<br></button>
-        ${sentence10}${sentence12}${sentence11}<br>
-        <div class="sentence1bba">${sentence1bba}</div>
-        <div class="sentence1bbab">${sentence1bbab}</div>
-        <button class="left-buttonb second-button">+<br></button>
-        ${sentence20}${sentence22}<br>
-        <div class="sentence1bb1b">${sentence1bb1b}</div>
-        <div class="sentence1bba2">${sentence1bba2}</div>
-        <button class="left-buttonbb third-button">+<br></button>
-        ${sentence30}${sentence33}<br>
-        <div class="sentence1bb3" style="display: none;">${sentence1bb3}</div>
-        <div class="sentence1bb1c" style="display: none;">${sentence1bb1c}</div>
-    `);
-
-                            $('.sentence1bb3').html('');
-                            $('.sentence1bb1c').html('');
-
-                            $sentenceDiv.on('click', '.left-buttonbb', function () {
-                                console.log('hej55');
-
-                                $('.sentence1bba').html('');
-                                if (sentence1bb3 === "") {
-                                    let sentencePart444b = fiszka.translateb ? fiszka.translateb : "";
-                                    sentence1bb3 += sentencePart444b + " ";
-                                }
-                                if (sentence1bb1c === "") {
-                                    let sentencePart444 = fiszka.translate ? fiszka.translate : "";
-                                    sentence1bb1c += sentencePart444 + " ";
-                                }
-
                                 $sentenceDiv.html(`
-                <button class="left-button first-button">+<br></button>
-                ${sentence10}${sentence12}${sentence11}<br>
-                <div class="sentence1bba">${sentence1bba}</div>
-                <div class="sentence1bbab">${sentence1bbab}</div>
-                <button class="left-buttonb second-button">+<br></button>
-                ${sentence20}${sentence22}<br>
-                <div class="sentence1bb1b">${sentence1bb1b}</div>
-                <div class="sentence1bba2">${sentence1bba2}</div>
-                <button class="left-buttonbb third-button">+<br></button>
-                ${sentence30}${sentence33}<br>
-                <div class="sentence1bb3">${sentence1bb3}</div>
-                <div class="sentence1bb1c">${sentence1bb1c}</div>
-            `);
+<button class="left-button first-button">+<br></button>
+${sentence10}${sentence12}${sentence11}<br>
+<div class="sentence1bba">${sentence1bba}</div>
+<div class="sentence1bba">${sentence1bbab}</div>
+<button class="left-buttonb second-button">+<br></button>
+${sentence20}${sentence22}<br>
+<div class="sentence1bb1b">${sentence1bb1b}</div>
+<div class="sentence1bba2">${sentence1bba2}</div>
+<button class="left-buttonbb third-button">+<br></button>
+${sentence30}${sentence33}<br>
+        <div class="sentence1bb3">${sentence1bb3}</div>
+        <div class="sentence1bb1c">${sentence1bb1c}</div>
+`);
+                                $('.sentence1bb3').html('');
+                                $('.sentence1bb1c').html('');
+                                $sentenceDiv.on('click', '.left-buttonbb', function () {
+                                    $('.sentence1bb3').html('');
+                                    // Dodawanie zdania tylko jeśli sentence1bb2 jest puste
+                                    if (sentence1bb3 === "") {
+                                        let sentencePart444b = fiszka.translateb ? fiszka.translateb : "";
+                                        sentence1bb3 += sentencePart444b + " ";
+                                    }
+                                    if (sentence1bb1c === "") {
+                                        let sentencePart444 = fiszka.translate ? fiszka.translate : "";
+                                        sentence1bb1c += sentencePart444 + " ";
+                                    }
+                                    // Dodanie treści do diva wraz z przyciskiem
+                                    $sentenceDiv.html(`
+<button class="left-button first-button">+<br></button>
+${sentence10}${sentence12}${sentence11}<br>
+<div class="sentence1bba">${sentence1bba}</div>
+<div class="sentence1bba">${sentence1bbab}</div>
+<button class="left-buttonb second-button">+<br></button>
+${sentence20}${sentence22}<br>
+<div class="sentence1bb1b">${sentence1bb1b}</div>
+<div class="sentence1bba2">${sentence1bba2}</div>
+<button class="left-buttonbb third-button">+<br></button>
+${sentence30}${sentence33}<br>
+        <div class="sentence1bb3">${sentence1bb3}</div>
+        <div class="sentence1bb1c">${sentence1bb1c}</div>
+`);
+                                    // Ustawienie stylu dla przycisków .left-button
+                                    $('.left-button').css('position', 'relative');
+                                    $('.left-buttonb').css('position', 'relative');
+                                    $('.left-buttonbb').css('position', 'relative');
+                                    let sentencePart444 = fiszka.translateb ? fiszka.translateb : ""; // Sprawdź, czy translate istnieje
+                                    // Obsługa kliknięcia przycisku
+                                    console.log('Kliknięto przycisk');
+                                    let $sentence1bb3 = $sentenceDiv.find('.sentence1bb3');
+                                    if ($sentence1bb3.css('display') === 'none') {
+                                        sentence1bVisible = false;
+                                        sentence1baVisible = true;
+                                        // Pokazujemy zdanie .sentence1b
+                                        $sentence1bb3.css('display', 'block');
+                                        $sentence1bb3.css({
+                                            'margin-top': '-25px',
+                                            'top': '24px',
+                                            'position': 'relative'
+                                        });
+                                    }
+                                    if ($sentence1bb1c.css('display') === 'none') {
+                                        // Pokazujemy zdanie .sentence1b
+                                        $sentence1bb1c.css('display', 'block');
+                                        $sentence1bb1c.css({
+                                            'margin-top': '0px',
+                                            'top': '23px',
+                                            'position': 'relative'
+                                        });
+                                    }
 
-                                $('.sentence1bba').html('');
-                                $('.sentence1bbab').html('');
-                                $('.sentence1bb1b').html('');
-                                $('.sentence1bba2').html('');
-
-                                $('.left-button').css('position', 'relative');
-                                $('.left-buttonb').css('position', 'relative');
-                                $('.left-buttonbb').css('position', 'relative');
-
-                                console.log('Kliknięto przycisk');
-
-                                let $sentence1bb3 = $sentenceDiv.find('.sentence1bb3');
-                                if ($sentence1bb3.css('display') === 'none') {
-                                    $sentence1bb3.css('display', 'block');
-                                    $sentence1bb3.css({
-                                        'margin-top': '-25px',
-                                        'top': '24px',
-                                        'position': 'relative'
-                                    });
-                                }
-
-                                let $sentence1bb1c = $sentenceDiv.find('.sentence1bb1c');
-                                if ($sentence1bb1c.css('display') === 'none') {
-                                    $sentence1bb1c.css('display', 'block');
-                                    $sentence1bb1c.css({
-                                        'margin-top': '0px',
-                                        'top': '23px',
-                                        'position': 'relative'
-                                    });
-                                }
-
-                                $sentence1bb1b.html('');
-                                $sentence1bb1b.empty();
-
-                            });
-
-                            $sentence1bb1b.html('');
-                            $sentence1bb1b.empty();
+                                });
+                            }, 0);
                         });
                     }
+                    
 
 
                     const $container = $('<div></div>'); // Tworzymy nowy element div za pomocą jQuery
@@ -5196,6 +5394,24 @@ if (window.matchMedia("(max-width: 999px)").matches) {
                                     });
                                 });
                             }
+                                                                                    if (indexDiv < 18 && indexDiv >= 17) {
+                                // Jeśli indexDiv < 5, dodajemy hover z dynamicznym napisem
+                                $container.hover(function () {
+                                    $('.overlay', this).css('transform', 'translateX(0)');
+
+                                    // Twórz nowy dynamiczny div z napisem
+                                    const $dynamicDiv2 = $('<div>').addClass('dynamic-div3').text('Nowa lekcja - w przygotowaniu');
+                                    // Dodaj dynamiczny div do kontenera
+                                    $dynamicDiv2.appendTo($(this)).fadeIn(300);
+                                }, function () {
+                                    $('.overlay', this).css('transform', 'translateX(100%)');
+
+                                    // Usuń dynamiczny div po zakończeniu hovera
+                                    $('.dynamic-div3', this).fadeOut(300, function () {
+                                        $(this).remove();
+                                    });
+                                });
+                            }
                             // Jeśli kontener nie został jeszcze wybrany, wybierz losowy kontener
                             addBackgroundToText1b(matchingFiszki1, matchingIndexes, true, lesson1PartLength, matchingIndexes2, rodzaj, matchingIndexes3);
                             addBackgroundToText2b(matchingFiszki2, matchingIndexes, true, lesson2PartLength, matchingIndexes2, rodzaj, matchingIndexes3);
@@ -5244,8 +5460,8 @@ ${sentence20}${sentence22}<br>
 <div class="sentence1bba2">${sentence1bba2}</div>
 <button class="left-buttonbb third-button">+<br></button>
 ${sentence30}${sentence33}<br>
-        <div class="sentence1bb3" style="display: none;">${sentence1bb3}</div>
-        <div class="sentence1bb1c" style="display: none;">${sentence1bb1c}</div>
+        <div class="sentence1bb3">${sentence1bb3}</div>
+        <div class="sentence1bb1c">${sentence1bb1c}</div>
 `);
                         $sentenceDiv.css({
                             'position': 'absolute',
@@ -6261,7 +6477,7 @@ ${sentence10}${sentence11}<br>
                                     });
                                 });
                             }
-                                                                                    if (indexDiv < 49 && indexDiv > 33) {
+                                                                                    if (indexDiv < 51 && indexDiv > 48) {
                                 // Jeśli indexDiv < 5, dodajemy hover z dynamicznym napisem
                                 $container.hover(function () {
                                     $('.overlay', this).css('transform', 'translateX(0)');
@@ -7487,13 +7703,13 @@ if (currentFiszkaIndex === 0) {
                     });
                     $buttonb2.css({
                         'position': 'absolute', // Przykładowa wartość odstępu od lewej krawędzi
-                        'margin-bottom': '-108px',
+                        'margin-bottom': '-105px',
                         'font-size': '10px',
                         'height': '25px',
                         'color': 'blue',
                         'background-color': 'white',
                         'width': '170px',
-                        'z-index': '9999999'
+                        'z-index': '999999'
                     });
                     $container.append($buttonb2);
                     // Dodanie diva z zdaniem do kontenera
@@ -7501,6 +7717,13 @@ if (currentFiszkaIndex === 0) {
                     $container.append($sentenceDivB);
                     tablica15.push(srcWords);
                     console.log('hej6', tablica15);
+                    $('.image-container4').on('click', function () {
+    // Zresetuj z-index dla wszystkich kontenerów .image-container4
+    $('.image-container4').css('z-index', 1); 
+
+    // Podnieś z-index dla klikniętego kontenera
+    $(this).css('z-index', 1000); 
+});
                 }
             }
             function showCombinedSentenceForLesson5(index50, lessonIdToShow1, newIndex, indexDiv, buttonindex, lessonLength) {
