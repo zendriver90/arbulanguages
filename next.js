@@ -487,3 +487,24 @@ if (ostatniElement2) {
                                                         console.log('Koniec fiszek!'); // Informacja o końcu fiszek
                                                     }
                                                 });
+                                                
+                                                                if (czas === 'fiszki' && czas !== "zdania") {
+                    console.log('Warunek czas === "fiszki" jest spełniony');
+                    $('.grid-container .image-container4').remove();
+                    $('.grid-container .image-container5').remove();
+
+                    if (myVariable.length > 1) {
+                        let indexDiv = 0;
+                        for (let i = 0; i < myVariable.length; i += 3) {
+                            indexDiv++;
+                            const lessonId1 = myVariable[i];
+                            const lessonId2 = myVariable[i + 1];
+                            const lessonId3 = myVariable[i + 2];
+                                                            function showCombinedSentenceForLesson(matchingIndexes3, rodzaj, matchingIndexes2, buttonindex, index50, lessonIdToShow1, lessonIdToShow2, lessonIdToShow3, fiszki, matchingIndexes, startIndex, newIndex, indexDiv, lessonsArray) {
+                console.log('hej55bb', rodzaj);
+                const matchingFiszki1 = fiszki.filter(fiszka => fiszka.id[1] === lessonIdToShow1);
+                const matchingFiszki2 = fiszki.filter(fiszka => fiszka.id[1] === lessonIdToShow2);
+                const matchingFiszki3 = fiszki.filter(fiszka => fiszka.id[1] === lessonIdToShow3);
+                console.log('hej450b', matchingIndexes2);
+                console.log('hej444', newIndex);
+                if (matchingFiszki1.length > 0 && matchingFiszki2.length > 0 && matchingFiszki3.length > 0) {

@@ -1685,8 +1685,8 @@
                 $flashcardContainer.append(`
 <div id="konsola">
     <div id="title">WIDOK</div>
-<button class="rodzaj-button" data-rodzaj="osoby">SPOŁECZNOŚCIOWY</button>        
-    <button id="inne" class="rodzaj-button" data-rodzaj="osoby">WYGENEROWANY JEDNORAZOWO</button>
+<button id="inne" class="rodzaj-button" data-rodzaj="osoby">SPOŁECZNOŚCIOWY</button>        
+        <button class="charakter-button" onclick="ustawTryb(tablica3[0]); przekazArgument0(globalCategory, '', '', 'fiszki', false, false, 'losowyuklad')">WYGENEROWANY JEDNORAZOWO</button>
             <div id="title">RODZAJ SŁOWNICTWA</div>
                     <button id="inne" class="rodzaj-button" data-rodzaj="osoby">KOGNATY</button>
     <button id="osoby" class="rodzaj-button" data-rodzaj="osoby" onclick="przekazArgument0('all', '', '', '', '', '', tablica3[1])">Wszystkie</button>
@@ -2183,6 +2183,93 @@
 
                     myVariable = validLessons;
                 }
+                                if (idpolski === 'losowyuklad') {
+    console.log('Warunek czas === "fiszki" jest spełniony');
+    $('.grid-container .image-container4').remove();
+    $('.grid-container .image-container5').remove();
+
+    console.log('Zawartość myVariable:', myVariable);
+    if (myVariable.length > 1) {
+        let indexDiv = 0;
+        let lessonsGroups = []; // Tablica do przechowywania grup lessonId
+                        let startIndex = 0;
+        for (let i = 0; i < myVariable.length; i += 3) {
+            indexDiv++;
+            const lessonId1 = myVariable[i];
+            const lessonId2 = myVariable[i + 1];
+            const lessonId3 = myVariable[i + 2];
+
+            const lessonObject2 = {
+                lessonId1: lessonId1,
+                lessonId2: lessonId2,
+                lessonId3: lessonId3,
+                indexDiv: indexDiv
+            };
+
+            lessonsGroups.push(lessonObject2);
+        }
+
+        console.log('Utworzone grupy:', lessonsGroups);
+
+        function shuffleArray(array) {
+            for (let i = array.length - 1; i > 0; i--) {
+                const j = Math.floor(Math.random() * (i + 1));
+                [array[i], array[j]] = [array[j], array[i]];
+            }
+        }
+
+        shuffleArray(lessonsGroups);
+        console.log('Grupy po tasowaniu:', lessonsGroups);
+
+        lessonsGroups.forEach((group, index) => {
+            console.log(`Grupa ${index}:`, group);
+
+            const lesson1Sentences = correlationsCount.find(item => item[0] === group.lessonId1) || [group.lessonId1, 0];
+            const lesson2Sentences = correlationsCount.find(item => item[0] === group.lessonId2) || [group.lessonId2, 0];
+            const lesson3Sentences = correlationsCount.find(item => item[0] === group.lessonId3) || [group.lessonId3, 0];
+
+            const lesson1SecondPartLength = partLengths2.find(item => item.id === group.lessonId1)?.count2 || 0;
+            const lesson2SecondPartLength = partLengths2.find(item => item.id === group.lessonId2)?.count2 || 0;
+            const lesson3SecondPartLength = partLengths2.find(item => item.id === group.lessonId3)?.count2 || 0;
+
+            const lesson1FirstPartLength = partLengths1.find(item => item.id === group.lessonId1)?.count2 || 0;
+            const lesson2FirstPartLength = partLengths1.find(item => item.id === group.lessonId2)?.count2 || 0;
+            const lesson3FirstPartLength = partLengths1.find(item => item.id === group.lessonId3)?.count2 || 0;
+
+            const lesson1PartLength = partLengths3.find(item => item.id === group.lessonId1)?.cumulativeCount || 0;
+            const lesson2PartLength = partLengths3.find(item => item.id === group.lessonId2)?.cumulativeCount || 0;
+            const lesson3PartLength = partLengths3.find(item => item.id === group.lessonId3)?.cumulativeCount || 0;
+
+            console.log('Dane dla grupy:', {
+                lesson1PartLength,
+                lesson2PartLength,
+                lesson3PartLength,
+                lesson1Sentences,
+                lesson2Sentences,
+                lesson3Sentences
+            });
+
+    try {
+        showCombinedSentenceForLesson(
+            matchingIndexes3, rodzaj, matchingIndexes2, buttonindex, group.indexDiv,
+            group.lessonId1, group.lessonId2, group.lessonId3, fiszki, matchingIndexes,
+            startIndex, index, lessonsGroups, lesson1PartLength, lesson2PartLength, lesson3PartLength,
+            lesson1Sentences, lesson2Sentences, lesson3Sentences, lesson1FirstPartLength,
+            lesson2FirstPartLength, lesson3FirstPartLength, lesson1SecondPartLength,
+            lesson2SecondPartLength, lesson3SecondPartLength
+        );
+    } catch (error) {
+        console.error("Błąd w showCombinedSentenceForLesson dla grupy:", group, "Błąd:", error);
+    }
+        });
+
+        console.log('Zawartość lessonsGroups:', lessonsGroups);
+        const numberOfContainers = $('.image-container3').length;
+        console.log('Liczba dodanych divów:', numberOfContainers);
+    }
+}
+
+                
                 if (frazyid === 'frazy') {
                     console.log('Warunek czas === "fiszki" jest spełniony');
                     $('.grid-container .image-container4').remove();

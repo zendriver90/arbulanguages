@@ -9173,9 +9173,9 @@ const fiszki = [
         translate: "",
         translateb: "[Maj broder plejs futbol on łikedns]",
         translateb2: "[Maj broder plejs futbol]",
-        srcWord: ["http://localhost/arbulanguage.com/filmy/football2.mp4", "Miasto Boga (2002)"],
+        srcWord: ["http://arbu-1dcc9.web.app/filmy/football2.mp4", "Miasto Boga (2002)"],
         srcWord2: ["http://arbu-1dcc9.web.app/filmy/procedure.mp4", ""],
-        srcWordimage: "http://localhost/arbulanguage.com/filmy/football2.png",
+        srcWordimage: "http://arbu-1dcc9.web.app/filmy/football2.png",
         word: [
             "http://arbu-1dcc9.web.app/voice/bike.mp4"
         ],
@@ -9313,9 +9313,9 @@ const fiszki = [
         translate: "",
         translateb: "[Szi drinks kofi ewry singel dej]",
         translateb2: "[Maj broder plejs futbol]",
-        srcWord: ["http://localhost/arbulanguage.com/filmy/coffe2.mp4", "Serial - Dexter ()"],
+        srcWord: ["http://arbu-1dcc9.web.app/filmy/coffe2.mp4", "Serial - Dexter ()"],
         srcWord2: ["http://arbu-1dcc9.web.app/filmy/procedure.mp4", ""],
-        srcWordimage: "http://localhost/arbulanguage.com/filmy/coffe2.png",
+        srcWordimage: "http://arbu-1dcc9.web.app/filmy/coffe2.png",
         word: [
             "http://arbu-1dcc9.web.app/voice/bike.mp4"
         ],
@@ -9450,9 +9450,9 @@ const fiszki = [
         translate: "",
         translateb: "[Maj broder plejs futbol on łikedns]",
         translateb2: "[Maj broder plejs futbol]",
-        srcWord: ["http://localhost/arbulanguage.com/filmy/cat2.mp4", "Kot w butach: Ostatnie życzenie (2022)"],
+        srcWord: ["http://arbu-1dcc9.web.app/filmy/cat2.mp4", "Kot w butach: Ostatnie życzenie (2022)"],
         srcWord2: ["http://arbu-1dcc9.web.app/filmy/procedure.mp4", ""],
-        srcWordimage: "http://localhost/arbulanguage.com/filmy/cat2.png",
+        srcWordimage: "http://arbu-1dcc9.web.app/filmy/cat2.png",
         word: [
             "http://arbu-1dcc9.web.app/voice/bike.mp4"
         ],
@@ -9588,9 +9588,9 @@ const fiszki = [
         translate: "",
         translateb: "[Maj broder plejs futbol on łikedns]",
         translateb2: "[Maj broder plejs futbol]",
-        srcWord: ["http://localhost/arbulanguage.com/filmy/cat2.mp4", "Kot w butach: Ostatnie życzenie (2022)"],
+        srcWord: ["http://arbu-1dcc9.web.app/filmy/cat2.mp4", "Kot w butach: Ostatnie życzenie (2022)"],
         srcWord2: ["http://arbu-1dcc9.web.app/filmy/procedure.mp4", ""],
-        srcWordimage: "http://localhost/arbulanguage.com/filmy/cat2.png",
+        srcWordimage: "http://arbu-1dcc9.web.app/filmy/cat2.png",
         word: [
             "http://arbu-1dcc9.web.app/voice/bike.mp4"
         ],
