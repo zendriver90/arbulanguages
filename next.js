@@ -508,3 +508,161 @@ if (ostatniElement2) {
                 console.log('hej450b', matchingIndexes2);
                 console.log('hej444', newIndex);
                 if (matchingFiszki1.length > 0 && matchingFiszki2.length > 0 && matchingFiszki3.length > 0) {
+                    
+                
+                
+                // Zmienna do liczenia wystąpień indexToCheck
+                    let sentence1bba = "";
+                    let sentence1bbab = "";
+                    function addBackgroundToText1b(matchingFiszki1, matchingIndexes, aktualny, lesson1PartLength, matchingIndexes2, rodzaj, matchingIndexes3) {
+                        $(document).ready(function () {
+
+                            console.log('hejkh', matchingIndexes2);
+                            sentence1bba = "";
+                            sentence1bbab = "";
+                            setTimeout(() => {
+                                for (let i = 0; i < matchingFiszki1.length; i++) {
+                                    const fiszka = matchingFiszki1[i];
+                                    console.log('fiszka:', fiszka);
+                                    if (!fiszka.sentence1 || fiszka.sentence1.length === 0) {
+                                        console.log('fiszka.sentence2 is undefined or empty');
+                                        continue;
+                                    }
+
+                                    // Iteracja przez elementy sentence1
+                                    for (let ki = 0; ki < fiszka.sentence1.length; ki++) {
+                                        let sentencePart = fiszka.sentence1[ki];
+                                        console.log('sentencePart5bz:', i);
+                                        const indexToCheck = i + lesson1PartLength + 1;
+                                        const indexToCheck2 = i + lesson1PartLength + 1;
+                                        if (aktualny) {
+                                            if (matchingIndexes.includes(indexToCheck)) {
+                                                // Sprawdzenie, czy indeks bieżącej fiszki znajduje się w tablicy matchingIndexes
+                                                const spanElement = document.createElement('span');
+                                                spanElement.textContent = sentencePart;
+                                                spanElement.classList.add('yellow');
+                                                // Zaktualizuj sentencePart, aby zawierał utworzony element span
+                                                sentencePart = spanElement.outerHTML;
+                                            }
+                                        }
+                                        function countCategoryInFiszki(matchingFiszki1, category) {
+                                            // Zmienna do przechowywania sumy wystąpień
+                                            let totalCount = 0;
+
+                                            // Iteracja przez wszystkie fiszki
+                                            for (let i = 0; i < matchingFiszki1.length; i++) {
+                                                const fiszka = matchingFiszki1[i];
+
+                                                // Zlicz wystąpienia kategorii w category3
+                                                if (fiszka.category3 && Array.isArray(fiszka.category3)) {
+                                                    const count = fiszka.category3.filter(cat => cat === category).length;
+                                                    totalCount += count; // Dodaj do sumy
+                                                }
+                                            }
+
+                                            return [totalCount]; // Zwróć tablicę z jedną sumaryczną wartością
+                                        }
+
+// Użycie funkcji
+                                        const categoryToCount = "PresentSimplePodmiot";
+                                        const categoryToCount2 = "PresentSimpleCzasownik";
+                                        const occurrences = countCategoryInFiszki(matchingFiszki1, categoryToCount);
+                                        const occurrences2 = countCategoryInFiszki(matchingFiszki1, categoryToCount2);
+// Wypisywanie wyników
+                                        console.log('Suma wystąpień:', occurrences2);
+                                        // Po zakończeniu iteracji przez fiszkę, sprawdź occurrences
+                                        // Po zakończeniu iteracji przez fiszkę, sprawdź occurrences
+                                        // Po zakończeniu iteracji przez fiszkę, sprawdź occurrences
+                                        // Flaga sprawdzająca, czy podmiot został już dodany
+
+                                        if (aktualny && rodzaj === "play" && matchingIndexes2.includes(indexToCheck2)) {
+                                            console.log('hej123', occurrences);
+                                            // Sprawdź, czy to jest pierwsze słowo
+                                            if (i === 0 && occurrences[0] === 2) {
+                                                console.log('Podświetlono pierwsze słowo:', fiszka.sentence1[ki]);
+                                                const firstWordElement = document.createElement('span');
+                                                firstWordElement.textContent = sentencePart;
+                                                firstWordElement.classList.add('green'); // Dodaj klasę, która podświetla słowo na zielono
+                                                sentencePart = firstWordElement.outerHTML; // Zamień pierwsze słowo na jego wersję z "span"
+                                            }
+                                            // Dodaj podmiot po drugim słowie, jeśli occurrences wynosi 2
+                                            if (i === 1 && occurrences[0] === 2) {
+                                                console.log('Dodano "podmiot" po drugim słowie:', fiszka.sentence1[ki]);
+                                                const podmiotElement = document.createElement('span');
+                                                podmiotElement.textContent = sentencePart;
+                                                podmiotElement.classList.add('green');
+                                                sentencePart = podmiotElement.outerHTML;
+                                                podmiotElement.textContent = "(podmiot)";
+
+                                                // Rozdziel zdanie na słowa
+                                                let words = sentencePart.split(' ');
+                                                words.splice(2, 0, podmiotElement.outerHTML); // Dodaj podmiot po drugim słowie
+                                                sentencePart = words.join(' '); // Połącz z powrotem w jedno zdanie
+
+                                            } else if (i === 0 && occurrences[0] === 1) {
+                                                console.log('Dodano "podmiot" po pierwszym słowie:', fiszka.sentence1[ki]);
+                                                const podmiotElement = document.createElement('span');
+                                                podmiotElement.textContent = sentencePart;
+                                                podmiotElement.classList.add('green');
+                                                sentencePart = podmiotElement.outerHTML;
+                                                podmiotElement.textContent = "(podmiot)";
+
+                                                // Rozdziel zdanie na słowa
+                                                let words = sentencePart.split(' ');
+                                                words.splice(3, 0, podmiotElement.outerHTML); // Dodaj podmiot po pierwszym słowie
+                                                sentencePart = words.join(' '); // Połącz z powrotem w jedno zdanie
+
+                                            }
+                                        }
+                                        if (aktualny && rodzaj === "play" && matchingIndexes3.includes(indexToCheck2)) {
+                                            console.log('hej123', occurrences);
+                                            // Sprawdź, czy to jest pierwsze słowo
+                                            // Dodaj podmiot po drugim słowie, jeśli occurrences wynosi 2
+
+                                            if (i === 2 && occurrences2[0] === 2) {
+                                                console.log('Dodano "podmiot" po drugim słowie:', fiszka.sentence1[ki]);
+                                                const podmiotElement = document.createElement('span');
+                                                podmiotElement.textContent = sentencePart;
+                                                podmiotElement.classList.add('blue');
+                                                sentencePart = podmiotElement.outerHTML;
+                                                podmiotElement.textContent = "(czasownik)";
+
+                                                // Rozdziel zdanie na słowa
+                                                let words = sentencePart.split(' ');
+                                                words.splice(2, 1, podmiotElement.outerHTML); // Dodaj podmiot po drugim słowie
+                                                sentencePart = words.join(' '); // Połącz z powrotem w jedno zdanie
+
+                                            } else if (i === 2 && occurrences2[0] === 1) {
+                                                console.log('Dodano "podmiot" po drugim słowie:', fiszka.sentence1[ki]);
+                                                const podmiotElement = document.createElement('span');
+                                                podmiotElement.textContent = sentencePart;
+                                                podmiotElement.classList.add('blue');
+                                                sentencePart = podmiotElement.outerHTML;
+                                                podmiotElement.textContent = "(czasownik)";
+
+                                                // Rozdziel zdanie na słowa
+                                                let words = sentencePart.split(' ');
+                                                words.splice(3, 0, podmiotElement.outerHTML); // Dodaj podmiot po drugim słowie
+                                                sentencePart = words.join(' '); // Połącz z powrotem w jedno zdanie
+
+                                            } else if (i === 1 && occurrences2[0] === 1) {
+                                                console.log('Dodano "podmiot" po pierwszym słowie:', fiszka.sentence1[ki]);
+                                                const podmiotElement = document.createElement('span');
+                                                podmiotElement.textContent = sentencePart;
+                                                podmiotElement.classList.add('blue');
+                                                sentencePart = podmiotElement.outerHTML;
+                                                podmiotElement.textContent = "(czasownik)";
+
+                                                // Rozdziel zdanie na słowa
+                                                let words = sentencePart.split(' ');
+                                                words.splice(3, 0, podmiotElement.outerHTML); // Dodaj podmiot po pierwszym słowie
+                                                sentencePart = words.join(' '); // Połącz z powrotem w jedno zdanie
+
+                                            }
+                                        }
+                                        // Dodaj sentencePart do sentence10
+                                        sentence10 += sentencePart + " ";
+
+                                    }
+
+                                }

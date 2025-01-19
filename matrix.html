@@ -32,7 +32,28 @@
                     display: flex; /* Użyj flexboxa dla wyrównania w linii */
                     align-items: center; /* Wyrównaj pionowo do środka */
                 }
+.sentence-container {
+    display: inline-block; /* Pozwala zachować układ inline, ale z kontrolą nad pozycjonowaniem */
+    position: relative; /* Kontener, który pozwala na absolutne pozycjonowanie categoryHTML */
+}
 
+.category-container {
+    font-size: 10px;
+    position: absolute; /* Pozycjonowanie absolutne */
+    left: 200px;
+    top: 0px; /* Wyrównanie w pionie na środek */
+    margin-top: 0px;
+    left: -120px; /* Ustawienie na lewo od zdania, dostosuj wartość, aby pasowało */
+    transform: translateY(-50%); /* Centrowanie w pionie */
+    z-index: 10; /* Zapewnia, że categoryHTML będzie na wierzchu */
+}
+
+.left-button {
+    position: relative; /* Pozostaje w normalnym przepływie */
+}
+span.highlight {
+    margin-left: 200px;
+}
                 .nav-button {
                     font-size: 0.8em; /* Dostosuj rozmiar czcionki przycisków */
                     margin: 0 5px; /* Marginesy między przyciskami a tekstem */
@@ -3043,6 +3064,7 @@ ${sentence30}${sentence33}<br>
                     // Zmienna do liczenia wystąpień indexToCheck
                     let sentence1bba = "";
                     let sentence1bbab = "";
+                    let categoryHTML = ""; // Uzyskanie HTML elementu
                     function addBackgroundToText1b(matchingFiszki1, matchingIndexes, aktualny, lesson1PartLength, matchingIndexes2, rodzaj, matchingIndexes3) {
                         $(document).ready(function () {
 
@@ -3195,6 +3217,17 @@ ${sentence30}${sentence33}<br>
                                     }
 
                                 }
+                                
+if (rodzaj === "play" && matchingFiszki1.length > 0 && matchingFiszki1[0].category3.length > 0) {
+    const firstCategoryContent = matchingFiszki1[0].category3[0]; // Pierwszy element category3
+    const categorySpan = document.createElement('span');
+    categorySpan.textContent = firstCategoryContent;
+    categorySpan.classList.add('highlight'); // Dodaj opcjonalną klasę
+    categoryHTML = categorySpan.outerHTML; // Uzyskanie HTML elementu
+
+    // Dodaj categoryHTML przed przyciskiem i resztą sentence10
+    
+}
                                 for (let ii = 0; ii < matchingFiszki1.length; ii++) {
                                     const fiszka = matchingFiszki1[ii];
                                     console.log('fiszka2:', fiszka);
@@ -3301,8 +3334,11 @@ ${sentence30}${sentence33}<br>
 
                                 console.log('hej20', sentence1bba);
                                 $sentenceDiv.html(`
-<button class="left-button first-button">+<br></button>
-${sentence10}${sentence12}${sentence11}<br>
+        <div class="sentence-container">
+            <span class="category-container">${categoryHTML}</span> <!-- categoryHTML dodane obok -->
+            <button class="left-button first-button">+<br></button> <!-- Przycisk po categoryHTML -->
+            ${sentence10}${sentence12}${sentence11}<br>
+        </div>
 <div class="sentence1bba">${sentence1bba}</div>
 <div class="sentence1bba">${sentence1bbab}</div>
 <button class="left-buttonb second-button">+<br></button>
@@ -3330,8 +3366,11 @@ ${sentence30}${sentence33}<br>
 
                                     // Dodanie treści do diva wraz z przyciskiem
                                     $sentenceDiv.html(`
-<button class="left-button first-button">+<br></button>
-${sentence10}${sentence12}${sentence11}<br>
+        <div class="sentence-container">
+            <span class="category-container">${categoryHTML}</span> <!-- categoryHTML dodane obok -->
+            <button class="left-button first-button">+<br></button> <!-- Przycisk po categoryHTML -->
+            ${sentence10}${sentence12}${sentence11}<br>
+        </div>
 <div class="sentence1bba">${sentence1bba}</div>
         <div class="sentence1bba">${sentence1bbab}</div>
 <button class="left-buttonb second-button">+<br></button>
@@ -3597,8 +3636,11 @@ ${sentence30}${sentence33}<br>
 
                                 console.log('hej20', sentence1bb1b);
                                 $sentenceDiv.html(`
-<button class="left-button first-button">+<br></button>
-${sentence10}${sentence12}${sentence11}<br>
+        <div class="sentence-container">
+            <span class="category-container">${categoryHTML}</span> <!-- categoryHTML dodane obok -->
+            <button class="left-button first-button">+<br></button> <!-- Przycisk po categoryHTML -->
+            ${sentence10}${sentence12}${sentence11}<br>
+        </div>
 <div class="sentence1bba">${sentence1bba}</div>
 <div class="sentence1bba">${sentence1bbab}</div>
 <button class="left-buttonb second-button">+<br></button>
@@ -3626,8 +3668,11 @@ ${sentence30}${sentence33}<br>
                                     }
                                     // Dodanie treści do diva wraz z przyciskiem
                                     $sentenceDiv.html(`
-<button class="left-button first-button">+<br></button>
-${sentence10}${sentence12}${sentence11}<br>
+        <div class="sentence-container">
+            <span class="category-container">${categoryHTML}</span> <!-- categoryHTML dodane obok -->
+            <button class="left-button first-button">+<br></button> <!-- Przycisk po categoryHTML -->
+            ${sentence10}${sentence12}${sentence11}<br>
+        </div>
 <div class="sentence1bba">${sentence1bba}</div>
 <div class="sentence1bba">${sentence1bbab}</div>
 <button class="left-buttonb second-button">+<br></button>
@@ -3921,8 +3966,11 @@ function countCategoryInFiszki2(matchingFiszki3, category) {
                             }
 
                                 $sentenceDiv.html(`
-<button class="left-button first-button">+<br></button>
-${sentence10}${sentence12}${sentence11}<br>
+        <div class="sentence-container">
+            <span class="category-container">${categoryHTML}</span> <!-- categoryHTML dodane obok -->
+            <button class="left-button first-button">+<br></button> <!-- Przycisk po categoryHTML -->
+            ${sentence10}${sentence12}${sentence11}<br>
+        </div>
 <div class="sentence1bba">${sentence1bba}</div>
 <div class="sentence1bba">${sentence1bbab}</div>
 <button class="left-buttonb second-button">+<br></button>
@@ -3949,8 +3997,11 @@ ${sentence30}${sentence33}<br>
                                     }
                                     // Dodanie treści do diva wraz z przyciskiem
                                     $sentenceDiv.html(`
-<button class="left-button first-button">+<br></button>
-${sentence10}${sentence12}${sentence11}<br>
+        <div class="sentence-container">
+            <span class="category-container">${categoryHTML}</span> <!-- categoryHTML dodane obok -->
+            <button class="left-button first-button">+<br></button> <!-- Przycisk po categoryHTML -->
+            ${sentence10}${sentence12}${sentence11}<br>
+        </div>
 <div class="sentence1bba">${sentence1bba}</div>
 <div class="sentence1bba">${sentence1bbab}</div>
 <button class="left-buttonb second-button">+<br></button>
@@ -5537,8 +5588,11 @@ ${sentence30}${sentence33}<br>
                         var $sentenceDiv = $('<div></div>');
                         $sentenceDiv.addClass('sentence'); // Dodanie klasy 'sentence'
                         $sentenceDiv.html(`
-<button class="left-button first-button">+<br></button>
-${sentence10}${sentence12}${sentence11}<br>
+        <div class="sentence-container">
+            <span class="category-container">${categoryHTML}</span> <!-- categoryHTML dodane obok -->
+            <button class="left-button first-button">+<br></button> <!-- Przycisk po categoryHTML -->
+            ${sentence10}${sentence12}${sentence11}<br>
+        </div>
 <div class="sentence1bba">${sentence1bba}</div>
 <div class="sentence1bba">${sentence1bbab}</div>
 <button class="left-buttonb second-button">+<br></button>
