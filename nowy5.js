@@ -1085,3 +1085,65 @@ console.log('hej303x', currentFiszkaIndex);
                                     showFiszkiForLesson6(ostatniElement2, ostatniElement3);
                                 }, 0);
                             }
+
+
+
+
+                // Dodaj buttony do diva
+                $flashcardContainer.append(`
+<div id="konsola">
+            <div id="title">A SZÓKINCS TÍPUSA</div>
+    <button id="osoby" class="rodzaj-button" data-rodzaj="osoby" onclick="przekazArgument0('all', '', '', '', '', '', tablica3[1])">MIND</button>
+    <br>A TANANYAG MENNYISÉGE AZ ÓRÁKRA<br>
+<button class="czas" onclick="ustawTryb('zdania', undefined); przekazArgument0(globalCategory, '', '', 'zdania', false, false, tablica3[1])">5 PERC (EGY MONDAT)</button>
+<button id="english" class="czas" onclick="ustawTryb('fiszki', undefined); przekazArgument0(globalCategory, '', '', 'fiszki', true, true, tablica3[1])">10 PERC (3 MONDAT) - OPCIONÁLIS</button>
+<br>AZ ÓRA MÓDJA<br>
+<button id="english" class="czas" onclick="ustawTryb(tablica3[0], ''); przekazArgument0(globalCategory, '', '', tablica3[0], false, false, tablica3[1])">MONDATOK</button>
+<button class="czas" onclick="ustawTryb(tablica3[0], 'frazy'); przekazArgument0(globalCategory, '', '', tablica3[0], true, true, tablica3[1])">KIFEJEZÉSEK</button>
+</div>
+`);
+    
+            </style>
+    </head>
+    <body>
+        <div class="horizontal-bar" id="horizontalBar1">
+            <button id="myButton">ANGIELSKI</button>
+            <button id="myButton2">HISZPAŃSKI</button>
+        </div>
+        <div class="horizontal-bar" id="horizontalBar2">
+        </div>
+        <div class="container">
+            <div class="side-menu">
+                <button onclick="showImages('set1')">PRZEBYTE LEKCJE</button>
+                <button onclick="showImages('set2')">LEKCJE STWORZONE INDYWIDUALNIE</button>
+                <button onclick="showImages('set3')">SŁÓWKA KTÓRE ZNAM</button>
+                <button onclick="showImages('set4')">SŁÓWKA TRENING</button>
+                <button onclick="showImages('set2')">SŁÓWKA NAUCZONE</button>
+                <button onclick="showImages('set1')">POLUBIONE SŁOWKA</button>
+                <button onclick="showImages('set2')">SŁÓWKA TEMATYCZNE</button>
+            </div>
+            <div class="content-container">
+                <div class="grid-containera">
+                    <div class="image-container2" id="buttoncreate">KÁRTYA GENERÁLÁSA<button id="flashcardButton" onclick="addFlashcardContainer()">NYISD MEG A KONZOLT</button>
+                    </div>
+                </div>
+                <div class="grid-container">
+                </div>
+            </div>
+        </div>
+<div class="bottom-bar" id="bottomBar">
+    <button class="bottom-button" onclick="ustawTryb('zdania', undefined); przekazArgument0(globalCategory, '', '', 'zdania', false, false, tablica3[1])">1 MONDAT / lECKE</button>
+    <button class="bottom-button" onclick="ustawTryb('fiszki', undefined); przekazArgument0(globalCategory, '', '', 'fiszki', false, false, tablica3[1])">3 MONDAT / LEKCE</button>
+    <button class="bottom-button" onclick="ustawTryb(tablica3[0], 'frazy'); przekazArgument0(globalCategory, '', '', tablica3[0], true, true, tablica3[1])">KIFEJEZÉSEK</button>
+    <button class="bottom-button">SŁOWA</button>
+    <button id="searchButton" class="bottom-button2" onclick="zmienLupke()">
+        <img src="img/lupki3fa.png" alt="Szukaj" class="lupka" id="lupkaImage">
+    </button>
+</div>
+
+<div class="toggle-button" id="toggleButton">
+    <span id="arrow">&#9660;</span> <!-- Strzałka skierowana w dół -->
+</div>
+        <script>
+        
+        $sceneDiv.text(`Jelenet ${srcWords2[index]} filmből`);

@@ -1057,6 +1057,7 @@ id: [
 ],
         // obrazek
         img: [
+            "http://arbu-1dcc9.web.app/img/fiszkiespanol/17a.jpg",
                 "http://arbu-1dcc9.web.app/img/fiszkiespanol/31a.jpg"
         ],
         word: [
@@ -1064,6 +1065,7 @@ id: [
         ],
         // historia
         story: [
+                "<u><b>Z</u></b> <u><b>kon</u></b>opiami jest niezły ubaw",
                 "<u><b>Z</u></b> takimi <u><b>kon</u></b>taktami jakie mam, lepiej jest mi podołać obowiązkom"
         ],
         // opis
@@ -1300,6 +1302,7 @@ id: [
 ],
         // obrazek
         img: [
+            "http://arbu-1dcc9.web.app/img/fiszkiespanol/17a.jpg",
                 "http://arbu-1dcc9.web.app/img/fiszkiespanol/31a.jpg"
         ],
         word: [
@@ -1307,6 +1310,7 @@ id: [
         ],
         // historia
         story: [
+                "<u><b>Z</u></b> <u><b>kon</u></b>opiami jest niezły ubaw",
                 "<u><b>Z</u></b> takimi <u><b>kon</u></b>taktami jakie mam, lepiej jest mi podołać obowiązkom"
         ],
         // opis
@@ -1472,7 +1476,7 @@ id: [
 ],
         // obrazek
         img: [
-                "http://arbu-1dcc9.web.app/img/fiszki1/43a.jpg"
+                "http://arbu-1dcc9.web.app/img/fiszkiespanol/43a.jpg"
         ],
         word: [
                 "http://arbu-1dcc9.web.app/voice/music.mp4"
@@ -1505,7 +1509,7 @@ id: [
 ],
         // obrazek
         img: [
-                "http://arbu-1dcc9.web.app/img/fiszki1/2a.jpg"
+                "http://arbu-1dcc9.web.app/img/fiszkiespanol/44a.jpg"
         ],
         translate: "Zapomnieć o niepokoju, patrząc na gwiazdy",
         translateb: "[Olvidar la ansiedad mirando las estrellas]",
@@ -1516,7 +1520,7 @@ id: [
         ],
         // historia
         story: [
-                ""
+                "<u><b>Ol</u></b>a <u><b>wi</u></b>e, że dobrze jest być <u><b>dar</u></b>czyńcą. <u><b>Zapomnij</u></b> o obojętności"
         ],
         // opis
         desc: "olvidar[olwidar] - zapomnieć",
@@ -1547,18 +1551,14 @@ id: [
 ],
         // obrazek
         img: [
-                "http://arbu-1dcc9.web.app/img/fiszki1/2a.jpg"
+                "http://arbu-1dcc9.web.app/img/fiszkiespanol/45a.jpg"
         ],
         word: [
                 "http://arbu-1dcc9.web.app/voice/music.mp4"
         ],
         // historia
         story: [
-                "W <u><b>e</u></b>-sportowej grze silnik samochodu robi <u><b>wry</u></b>, wszyscy chcą takich rajdów, <u><b>bo</u></b> idzie <u><b>dy</u></b>m",
-                "<u><b>Ew</u></b>a robi <u><b>ry</u></b>by, bo będzie robiła zupę rybną, a na drugie placki z <u><b>dy</u></b>ni. <u><b>Każdemu</u></b> to smakowało",
-                "Kr<u><b>ew</u></b> każdego pacjenta jest dokładnie przebadana i organizm <u><b>wsystkich</u></b> pacjentów wraca na właściwe to<u><b>ry</u></b>, bo gdy ma dobrą opieke wraca do zdrowia",
-                "<u><b>E</u></b>dek robi <u><b>wry</u></b> swoim modelem samolotu, musi uważać bo jest silny wiatr. Z silnika samolotu się dymi i <u><b>wszyscy</u></b> się na to patrzą",
-                "Mój syn <u><b>E</u></b>dek b<u><b>ry</u></b>ka, <u><b>bo</u></b> tak robią <u><b>wszyscy</u></b> jego rówieśnicy"
+            "P<u><b>an</u></b> <u><b>Sie</u></b>rgiej czuje <u><b>niepokój</u></b>, gdy wspomina mu się o mieście Bag<u><b>dad</u></b> - gdzie był na misji wojennej. Teraz jego p<u><b>la</u></b>n to odpoczynek"
         ],
         // opis
         desc: "la ansiedad[la ansiedad] - niepokój",
@@ -1588,18 +1588,14 @@ id: [
 ],
         // obrazek
         img: [
-                "http://arbu-1dcc9.web.app/img/fiszki1/2a.jpg"
+                "http://arbu-1dcc9.web.app/img/fiszkiespanol/46a.jpg"
         ],
         word: [
                 "http://arbu-1dcc9.web.app/voice/music.mp4"
         ],
         // historia
         story: [
-                "W <u><b>e</u></b>-sportowej grze silnik samochodu robi <u><b>wry</u></b>, wszyscy chcą takich rajdów, <u><b>bo</u></b> idzie <u><b>dy</u></b>m",
-                "<u><b>Ew</u></b>a robi <u><b>ry</u></b>by, bo będzie robiła zupę rybną, a na drugie placki z <u><b>dy</u></b>ni. <u><b>Każdemu</u></b> to smakowało",
-                "Kr<u><b>ew</u></b> każdego pacjenta jest dokładnie przebadana i organizm <u><b>wsystkich</u></b> pacjentów wraca na właściwe to<u><b>ry</u></b>, bo gdy ma dobrą opieke wraca do zdrowia",
-                "<u><b>E</u></b>dek robi <u><b>wry</u></b> swoim modelem samolotu, musi uważać bo jest silny wiatr. Z silnika samolotu się dymi i <u><b>wszyscy</u></b> się na to patrzą",
-                "Mój syn <u><b>E</u></b>dek b<u><b>ry</u></b>ka, <u><b>bo</u></b> tak robią <u><b>wszyscy</u></b> jego rówieśnicy"
+            "Ukochana <u><b>patrzy</u></b> <u><b>mi</u></b> się prosto w oczy ub<u><b>ran</u></b>a w super sukienke, z którą <u><b>do</u></b> twarzy jej"
         ],
         // opis
         desc: "mirando[mirando] - patrzyć",
@@ -1629,28 +1625,24 @@ id: [
 ],
         // obrazek
         img: [
-                "http://arbu-1dcc9.web.app/img/fiszki1/2a.jpg"
+                "http://arbu-1dcc9.web.app/img/fiszkiespanol/47a.jpg"
         ],
         word: [
                 "http://arbu-1dcc9.web.app/voice/music.mp4"
         ],
         // historia
         story: [
-                "W <u><b>e</u></b>-sportowej grze silnik samochodu robi <u><b>wry</u></b>, wszyscy chcą takich rajdów, <u><b>bo</u></b> idzie <u><b>dy</u></b>m",
-                "<u><b>Ew</u></b>a robi <u><b>ry</u></b>by, bo będzie robiła zupę rybną, a na drugie placki z <u><b>dy</u></b>ni. <u><b>Każdemu</u></b> to smakowało",
-                "Kr<u><b>ew</u></b> każdego pacjenta jest dokładnie przebadana i organizm <u><b>wsystkich</u></b> pacjentów wraca na właściwe to<u><b>ry</u></b>, bo gdy ma dobrą opieke wraca do zdrowia",
-                "<u><b>E</u></b>dek robi <u><b>wry</u></b> swoim modelem samolotu, musi uważać bo jest silny wiatr. Z silnika samolotu się dymi i <u><b>wszyscy</u></b> się na to patrzą",
-                "Mój syn <u><b>E</u></b>dek b<u><b>ry</u></b>ka, <u><b>bo</u></b> tak robią <u><b>wszyscy</u></b> jego rówieśnicy"
+            "Idziemy obok <u><b>las</u></b>u i podziwiamy <u><b>gwiazdy</u></b>. Wyruszyliśmy o dob<u><b>rej</u></b> porze dnia i j<u><b>est</u></b> wyśmienicie. Mamy ubaw po p<u><b>as</u></b>"
         ],
         // opis
-        desc: "las estrellas[las estrellas] - gwiazdy",
+        desc: "las estrellas[las estrejas] - gwiazdy",
         //zdanie
         sentence2: [
                 "las estrellas"
         ],
         sentence: [
                 "mirando",
-                "las estrellas",
+                "las estrellas"
         ],
         //  slowo do nauki
         key: "everybody",
@@ -1670,7 +1662,7 @@ id: [
 ],
         // obrazek
         img: [
-                "http://arbu-1dcc9.web.app/img/fiszki1/2a.jpg"
+                "http://arbu-1dcc9.web.app/img/fiszkiespanol/48a.jpg"
         ],
         translate: "Rozciągać ramiona ku błękitnemu niebu",
         translateb: "[Extender los brazos al cielo azul]",
@@ -1681,11 +1673,7 @@ id: [
         ],
         // historia
         story: [
-                "W <u><b>e</u></b>-sportowej grze silnik samochodu robi <u><b>wry</u></b>, wszyscy chcą takich rajdów, <u><b>bo</u></b> idzie <u><b>dy</u></b>m",
-                "<u><b>Ew</u></b>a robi <u><b>ry</u></b>by, bo będzie robiła zupę rybną, a na drugie placki z <u><b>dy</u></b>ni. <u><b>Każdemu</u></b> to smakowało",
-                "Kr<u><b>ew</u></b> każdego pacjenta jest dokładnie przebadana i organizm <u><b>wsystkich</u></b> pacjentów wraca na właściwe to<u><b>ry</u></b>, bo gdy ma dobrą opieke wraca do zdrowia",
-                "<u><b>E</u></b>dek robi <u><b>wry</u></b> swoim modelem samolotu, musi uważać bo jest silny wiatr. Z silnika samolotu się dymi i <u><b>wszyscy</u></b> się na to patrzą",
-                "Mój syn <u><b>E</u></b>dek b<u><b>ry</u></b>ka, <u><b>bo</u></b> tak robią <u><b>wszyscy</u></b> jego rówieśnicy"
+            "Ten t<u><b>ekst</u></b> jest o <u><b>rozszerzaniu</u></b> świadomości, że <u><b>end</u></b>(koniec) jest zawsze początkiem nowej <u><b>Er</u></b>y"
         ],
         // opis
         desc: "extender[ekstender] - rozciągać",
@@ -1717,18 +1705,14 @@ id: [
 ],
         // obrazek
         img: [
-                "http://arbu-1dcc9.web.app/img/fiszki1/2a.jpg"
+                "http://arbu-1dcc9.web.app/img/fiszkiespanol/49a.jpg"
         ],
         word: [
                 "http://arbu-1dcc9.web.app/voice/music.mp4"
         ],
         // historia
         story: [
-                "W <u><b>e</u></b>-sportowej grze silnik samochodu robi <u><b>wry</u></b>, wszyscy chcą takich rajdów, <u><b>bo</u></b> idzie <u><b>dy</u></b>m",
-                "<u><b>Ew</u></b>a robi <u><b>ry</u></b>by, bo będzie robiła zupę rybną, a na drugie placki z <u><b>dy</u></b>ni. <u><b>Każdemu</u></b> to smakowało",
-                "Kr<u><b>ew</u></b> każdego pacjenta jest dokładnie przebadana i organizm <u><b>wsystkich</u></b> pacjentów wraca na właściwe to<u><b>ry</u></b>, bo gdy ma dobrą opieke wraca do zdrowia",
-                "<u><b>E</u></b>dek robi <u><b>wry</u></b> swoim modelem samolotu, musi uważać bo jest silny wiatr. Z silnika samolotu się dymi i <u><b>wszyscy</u></b> się na to patrzą",
-                "Mój syn <u><b>E</u></b>dek b<u><b>ry</u></b>ka, <u><b>bo</u></b> tak robią <u><b>wszyscy</u></b> jego rówieśnicy"
+            "O<u><b>brazo</u></b>burczy obraz Króla na <u><b>ramionach</u></b>, którego <u><b>s</u></b>iedzi papuga. Taki <u><b>los</u></b> papugii"
         ],
         // opis
         desc: "los brazos[los brazos] - ramiona",
@@ -1759,18 +1743,14 @@ id: [
 ],
         // obrazek
         img: [
-                "http://arbu-1dcc9.web.app/img/fiszki1/2a.jpg"
+                "http://arbu-1dcc9.web.app/img/fiszkiespanol/50a.jpg"
         ],
         word: [
                 "http://arbu-1dcc9.web.app/voice/music.mp4"
         ],
         // historia
         story: [
-                "W <u><b>e</u></b>-sportowej grze silnik samochodu robi <u><b>wry</u></b>, wszyscy chcą takich rajdów, <u><b>bo</u></b> idzie <u><b>dy</u></b>m",
-                "<u><b>Ew</u></b>a robi <u><b>ry</u></b>by, bo będzie robiła zupę rybną, a na drugie placki z <u><b>dy</u></b>ni. <u><b>Każdemu</u></b> to smakowało",
-                "Kr<u><b>ew</u></b> każdego pacjenta jest dokładnie przebadana i organizm <u><b>wsystkich</u></b> pacjentów wraca na właściwe to<u><b>ry</u></b>, bo gdy ma dobrą opieke wraca do zdrowia",
-                "<u><b>E</u></b>dek robi <u><b>wry</u></b> swoim modelem samolotu, musi uważać bo jest silny wiatr. Z silnika samolotu się dymi i <u><b>wszyscy</u></b> się na to patrzą",
-                "Mój syn <u><b>E</u></b>dek b<u><b>ry</u></b>ka, <u><b>bo</u></b> tak robią <u><b>wszyscy</u></b> jego rówieśnicy"
+            "<u><b>Al</u></b> Pacino to aktor, <u><b>ku</u></b> któremu wywsyłano wiele angaży"
         ],
         // opis
         desc: "al[al] - ku",
@@ -1801,18 +1781,14 @@ id: [
 ],
         // obrazek
         img: [
-                "http://arbu-1dcc9.web.app/img/fiszki1/2a.jpg"
+                "http://arbu-1dcc9.web.app/img/fiszkiespanol/51a.jpg"
         ],
         word: [
                 "http://arbu-1dcc9.web.app/voice/music.mp4"
         ],
         // historia
         story: [
-                "W <u><b>e</u></b>-sportowej grze silnik samochodu robi <u><b>wry</u></b>, wszyscy chcą takich rajdów, <u><b>bo</u></b> idzie <u><b>dy</u></b>m",
-                "<u><b>Ew</u></b>a robi <u><b>ry</u></b>by, bo będzie robiła zupę rybną, a na drugie placki z <u><b>dy</u></b>ni. <u><b>Każdemu</u></b> to smakowało",
-                "Kr<u><b>ew</u></b> każdego pacjenta jest dokładnie przebadana i organizm <u><b>wsystkich</u></b> pacjentów wraca na właściwe to<u><b>ry</u></b>, bo gdy ma dobrą opieke wraca do zdrowia",
-                "<u><b>E</u></b>dek robi <u><b>wry</u></b> swoim modelem samolotu, musi uważać bo jest silny wiatr. Z silnika samolotu się dymi i <u><b>wszyscy</u></b> się na to patrzą",
-                "Mój syn <u><b>E</u></b>dek b<u><b>ry</u></b>ka, <u><b>bo</u></b> tak robią <u><b>wszyscy</u></b> jego rówieśnicy"
+            "<u><b>Siii</u></b> to niebo w tym m<u><b>elo</u></b>dramacie jest strasznie <u><b>błękitne</u></b>"
         ],
         // opis
         desc: "cielo[sielo] - błękitne",
@@ -1842,18 +1818,14 @@ id: [
 ],
         // obrazek
         img: [
-                "http://arbu-1dcc9.web.app/img/fiszki1/2a.jpg"
+                "http://arbu-1dcc9.web.app/img/fiszkiespanol/52a.jpg"
         ],
         word: [
                 "http://arbu-1dcc9.web.app/voice/music.mp4"
         ],
         // historia
         story: [
-                "W <u><b>e</u></b>-sportowej grze silnik samochodu robi <u><b>wry</u></b>, wszyscy chcą takich rajdów, <u><b>bo</u></b> idzie <u><b>dy</u></b>m",
-                "<u><b>Ew</u></b>a robi <u><b>ry</u></b>by, bo będzie robiła zupę rybną, a na drugie placki z <u><b>dy</u></b>ni. <u><b>Każdemu</u></b> to smakowało",
-                "Kr<u><b>ew</u></b> każdego pacjenta jest dokładnie przebadana i organizm <u><b>wsystkich</u></b> pacjentów wraca na właściwe to<u><b>ry</u></b>, bo gdy ma dobrą opieke wraca do zdrowia",
-                "<u><b>E</u></b>dek robi <u><b>wry</u></b> swoim modelem samolotu, musi uważać bo jest silny wiatr. Z silnika samolotu się dymi i <u><b>wszyscy</u></b> się na to patrzą",
-                "Mój syn <u><b>E</u></b>dek b<u><b>ry</u></b>ka, <u><b>bo</u></b> tak robią <u><b>wszyscy</u></b> jego rówieśnicy"
+            "Ter<u><b>az</u></b> modny kolor na <u><b>ul</u></b>e dla pszczół to <u><b>niebieski</u></b>"
         ],
         // opis
         desc: "azul[azul] - niebo",
@@ -1883,7 +1855,7 @@ id: [
 ],
         // obrazek
         img: [
-                "http://arbu-1dcc9.web.app/img/fiszki1/53a.jpg"
+                "http://arbu-1dcc9.web.app/img/fiszkiespanol/53a.jpg"
         ],
         translate: "Pokryć samochód przed deszczem",
         translateb: "[Kubrir el coche antes de la lluvia]",
@@ -1894,11 +1866,7 @@ id: [
         ],
         // historia
         story: [
-                "W <u><b>e</u></b>-sportowej grze silnik samochodu robi <u><b>wry</u></b>, wszyscy chcą takich rajdów, <u><b>bo</u></b> idzie <u><b>dy</u></b>m",
-                "<u><b>Ew</u></b>a robi <u><b>ry</u></b>by, bo będzie robiła zupę rybną, a na drugie placki z <u><b>dy</u></b>ni. <u><b>Każdemu</u></b> to smakowało",
-                "Kr<u><b>ew</u></b> każdego pacjenta jest dokładnie przebadana i organizm <u><b>wsystkich</u></b> pacjentów wraca na właściwe to<u><b>ry</u></b>, bo gdy ma dobrą opieke wraca do zdrowia",
-                "<u><b>E</u></b>dek robi <u><b>wry</u></b> swoim modelem samolotu, musi uważać bo jest silny wiatr. Z silnika samolotu się dymi i <u><b>wszyscy</u></b> się na to patrzą",
-                "Mój syn <u><b>E</u></b>dek b<u><b>ry</u></b>ka, <u><b>bo</u></b> tak robią <u><b>wszyscy</u></b> jego rówieśnicy"
+            "<u><b>Kubr</u></b>ak <u><b>przykrywa</u></b> wysportowane ciało <u><b>Ir</u></b>ka"
         ],
         // opis
         desc: "cubrir[kubrir] - pokryć",
@@ -1931,18 +1899,14 @@ id: [
 ],
         // obrazek
         img: [
-                "http://arbu-1dcc9.web.app/img/fiszki1/54a.jpg"
+                "http://arbu-1dcc9.web.app/img/fiszkiespanol/54a.jpg"
         ],
         word: [
                 "http://arbu-1dcc9.web.app/voice/music.mp4"
         ],
         // historia
         story: [
-                "W <u><b>e</u></b>-sportowej grze silnik samochodu robi <u><b>wry</u></b>, wszyscy chcą takich rajdów, <u><b>bo</u></b> idzie <u><b>dy</u></b>m",
-                "<u><b>Ew</u></b>a robi <u><b>ry</u></b>by, bo będzie robiła zupę rybną, a na drugie placki z <u><b>dy</u></b>ni. <u><b>Każdemu</u></b> to smakowało",
-                "Kr<u><b>ew</u></b> każdego pacjenta jest dokładnie przebadana i organizm <u><b>wsystkich</u></b> pacjentów wraca na właściwe to<u><b>ry</u></b>, bo gdy ma dobrą opieke wraca do zdrowia",
-                "<u><b>E</u></b>dek robi <u><b>wry</u></b> swoim modelem samolotu, musi uważać bo jest silny wiatr. Z silnika samolotu się dymi i <u><b>wszyscy</u></b> się na to patrzą",
-                "Mój syn <u><b>E</u></b>dek b<u><b>ry</u></b>ka, <u><b>bo</u></b> tak robią <u><b>wszyscy</u></b> jego rówieśnicy"
+            "<u><b>El</u></b>iot czasami mówi: s<u><b>kocze</u></b> do sklepu (ma na myśli: pojechanie <u><b>autem</u></b>)"
         ],
         // opis
         desc: "el coche[kocze] - samochód",
@@ -1974,18 +1938,14 @@ id: [
 ],
         // obrazek
         img: [
-                "http://arbu-1dcc9.web.app/img/fiszki1/55a.jpg"
+                "http://arbu-1dcc9.web.app/img/fiszkiespanol/55a.jpg"
         ],
         word: [
                 "http://arbu-1dcc9.web.app/voice/music.mp4"
         ],
         // historia
         story: [
-                "W <u><b>e</u></b>-sportowej grze silnik samochodu robi <u><b>wry</u></b>, wszyscy chcą takich rajdów, <u><b>bo</u></b> idzie <u><b>dy</u></b>m",
-                "<u><b>Ew</u></b>a robi <u><b>ry</u></b>by, bo będzie robiła zupę rybną, a na drugie placki z <u><b>dy</u></b>ni. <u><b>Każdemu</u></b> to smakowało",
-                "Kr<u><b>ew</u></b> każdego pacjenta jest dokładnie przebadana i organizm <u><b>wsystkich</u></b> pacjentów wraca na właściwe to<u><b>ry</u></b>, bo gdy ma dobrą opieke wraca do zdrowia",
-                "<u><b>E</u></b>dek robi <u><b>wry</u></b> swoim modelem samolotu, musi uważać bo jest silny wiatr. Z silnika samolotu się dymi i <u><b>wszyscy</u></b> się na to patrzą",
-                "Mój syn <u><b>E</u></b>dek b<u><b>ry</u></b>ka, <u><b>bo</u></b> tak robią <u><b>wszyscy</u></b> jego rówieśnicy"
+            "<u><b>Ante</u></b>k <u><b>przed</u></b> <u><b>s</u></b>potkaniem sporo się przygotowywał i <u><b>de</u></b>likatni się wyperfumował"
         ],
         // opis
         desc: "antes de[antes de] - przed",
@@ -2017,21 +1977,17 @@ id: [
 ],
         // obrazek
         img: [
-                "http://arbu-1dcc9.web.app/img/fiszki1/56a.jpg"
+                "http://arbu-1dcc9.web.app/img/fiszkiespanol/56a.jpg"
         ],
         word: [
                 "http://arbu-1dcc9.web.app/voice/music.mp4"
         ],
         // historia
         story: [
-                "W <u><b>e</u></b>-sportowej grze silnik samochodu robi <u><b>wry</u></b>, wszyscy chcą takich rajdów, <u><b>bo</u></b> idzie <u><b>dy</u></b>m",
-                "<u><b>Ew</u></b>a robi <u><b>ry</u></b>by, bo będzie robiła zupę rybną, a na drugie placki z <u><b>dy</u></b>ni. <u><b>Każdemu</u></b> to smakowało",
-                "Kr<u><b>ew</u></b> każdego pacjenta jest dokładnie przebadana i organizm <u><b>wsystkich</u></b> pacjentów wraca na właściwe to<u><b>ry</u></b>, bo gdy ma dobrą opieke wraca do zdrowia",
-                "<u><b>E</u></b>dek robi <u><b>wry</u></b> swoim modelem samolotu, musi uważać bo jest silny wiatr. Z silnika samolotu się dymi i <u><b>wszyscy</u></b> się na to patrzą",
-                "Mój syn <u><b>E</u></b>dek b<u><b>ry</u></b>ka, <u><b>bo</u></b> tak robią <u><b>wszyscy</u></b> jego rówieśnicy"
+            "Na placu przed szkołą pada <u><b>deszcz</u></b>. Ptaki <u><b>dziubi</u></b>ą robaki z ziemi - na o<u><b>bia</u></b>d"
         ],
         // opis
-        desc: "la lluvia[] - deszcz",
+        desc: "la lluvia[la dziubia] - deszcz",
         //zdanie
         sentence1: [
                 "la lluvia"
@@ -2060,7 +2016,7 @@ id: [
 ],
         // obrazek
         img: [
-                "http://arbu-1dcc9.web.app/img/fiszki1/57a.jpg"
+                "http://arbu-1dcc9.web.app/img/fiszkiespanol/57a.jpg"
         ],
         translate: "Zmieniać umysł nowymi pomysłami",
         translateb: "[Cambiar la mente con nuevas ideas]",
@@ -2071,11 +2027,7 @@ id: [
         ],
         // historia
         story: [
-                "W <u><b>e</u></b>-sportowej grze silnik samochodu robi <u><b>wry</u></b>, wszyscy chcą takich rajdów, <u><b>bo</u></b> idzie <u><b>dy</u></b>m",
-                "<u><b>Ew</u></b>a robi <u><b>ry</u></b>by, bo będzie robiła zupę rybną, a na drugie placki z <u><b>dy</u></b>ni. <u><b>Każdemu</u></b> to smakowało",
-                "Kr<u><b>ew</u></b> każdego pacjenta jest dokładnie przebadana i organizm <u><b>wsystkich</u></b> pacjentów wraca na właściwe to<u><b>ry</u></b>, bo gdy ma dobrą opieke wraca do zdrowia",
-                "<u><b>E</u></b>dek robi <u><b>wry</u></b> swoim modelem samolotu, musi uważać bo jest silny wiatr. Z silnika samolotu się dymi i <u><b>wszyscy</u></b> się na to patrzą",
-                "Mój syn <u><b>E</u></b>dek b<u><b>ry</u></b>ka, <u><b>bo</u></b> tak robią <u><b>wszyscy</u></b> jego rówieśnicy"
+            "<u><b>Kamb</u></b>odźa ma nadm<u><b>iar</u></b> <u><b>zmian</u></b> klimatycznych"
         ],
         // opis
         desc: "cambiar[kambiar] - zmieniać",
@@ -2106,18 +2058,14 @@ id: [
 ],
         // obrazek
         img: [
-                "http://localhost/arbulanguage.com/img/fiszki1/2a.jpg"
+                "http://arbu-1dcc9.web.app/img/fiszkiespanol/58a.jpg"
         ],
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "http://arbu-1dcc9.web.app/voice/music.mp4"
         ],
         // historia
         story: [
-                "W <u><b>e</u></b>-sportowej grze silnik samochodu robi <u><b>wry</u></b>, wszyscy chcą takich rajdów, <u><b>bo</u></b> idzie <u><b>dy</u></b>m",
-                "<u><b>Ew</u></b>a robi <u><b>ry</u></b>by, bo będzie robiła zupę rybną, a na drugie placki z <u><b>dy</u></b>ni. <u><b>Każdemu</u></b> to smakowało",
-                "Kr<u><b>ew</u></b> każdego pacjenta jest dokładnie przebadana i organizm <u><b>wsystkich</u></b> pacjentów wraca na właściwe to<u><b>ry</u></b>, bo gdy ma dobrą opieke wraca do zdrowia",
-                "<u><b>E</u></b>dek robi <u><b>wry</u></b> swoim modelem samolotu, musi uważać bo jest silny wiatr. Z silnika samolotu się dymi i <u><b>wszyscy</u></b> się na to patrzą",
-                "Mój syn <u><b>E</u></b>dek b<u><b>ry</u></b>ka, <u><b>bo</u></b> tak robią <u><b>wszyscy</u></b> jego rówieśnicy"
+            "<u><b>M</u></b>orfeusz robi <u><b>ente</u></b>r i jego <u><b>umysł</u></b> wchodzi do Matrixa"
         ],
         // opis
         desc: "la mente[la mente] - umysł",
@@ -2147,18 +2095,18 @@ id: [
 ],
         // obrazek
         img: [
-                "http://localhost/arbulanguage.com/img/fiszki1/2a.jpg"
+            "http://arbu-1dcc9.web.app/img/fiszkiespanol/17a.jpg",
+                "http://arbu-1dcc9.web.app/img/fiszkiespanol/31a.jpg",
+                "http://arbu-1dcc9.web.app/img/fiszkiespanol/59a.jpg"
         ],
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "http://arbu-1dcc9.web.app/voice/music.mp4"
         ],
         // historia
         story: [
-                "W <u><b>e</u></b>-sportowej grze silnik samochodu robi <u><b>wry</u></b>, wszyscy chcą takich rajdów, <u><b>bo</u></b> idzie <u><b>dy</u></b>m",
-                "<u><b>Ew</u></b>a robi <u><b>ry</u></b>by, bo będzie robiła zupę rybną, a na drugie placki z <u><b>dy</u></b>ni. <u><b>Każdemu</u></b> to smakowało",
-                "Kr<u><b>ew</u></b> każdego pacjenta jest dokładnie przebadana i organizm <u><b>wsystkich</u></b> pacjentów wraca na właściwe to<u><b>ry</u></b>, bo gdy ma dobrą opieke wraca do zdrowia",
-                "<u><b>E</u></b>dek robi <u><b>wry</u></b> swoim modelem samolotu, musi uważać bo jest silny wiatr. Z silnika samolotu się dymi i <u><b>wszyscy</u></b> się na to patrzą",
-                "Mój syn <u><b>E</u></b>dek b<u><b>ry</u></b>ka, <u><b>bo</u></b> tak robią <u><b>wszyscy</u></b> jego rówieśnicy"
+                "<u><b>Z</u></b> <u><b>kon</u></b>opiami jest niezły ubaw",
+                "<u><b>Z</u></b> takimi <u><b>kon</u></b>taktami jakie mam, lepiej jest mi podołać obowiązkom",
+                "<u><b>Z</u></b> <u><b>kon</u></b>sernacją przyjąłem tę decyzję"
         ],
         // opis
         desc: "con[kon] - z",
@@ -2189,21 +2137,17 @@ id: [
 ],
         // obrazek
         img: [
-                "http://localhost/arbulanguage.com/img/fiszki1/2a.jpg"
+                "http://arbu-1dcc9.web.app/img/fiszkiespanol/60a.jpg"
         ],
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "http://arbu-1dcc9.web.app/voice/music.mp4"
         ],
         // historia
         story: [
-                "W <u><b>e</u></b>-sportowej grze silnik samochodu robi <u><b>wry</u></b>, wszyscy chcą takich rajdów, <u><b>bo</u></b> idzie <u><b>dy</u></b>m",
-                "<u><b>Ew</u></b>a robi <u><b>ry</u></b>by, bo będzie robiła zupę rybną, a na drugie placki z <u><b>dy</u></b>ni. <u><b>Każdemu</u></b> to smakowało",
-                "Kr<u><b>ew</u></b> każdego pacjenta jest dokładnie przebadana i organizm <u><b>wsystkich</u></b> pacjentów wraca na właściwe to<u><b>ry</u></b>, bo gdy ma dobrą opieke wraca do zdrowia",
-                "<u><b>E</u></b>dek robi <u><b>wry</u></b> swoim modelem samolotu, musi uważać bo jest silny wiatr. Z silnika samolotu się dymi i <u><b>wszyscy</u></b> się na to patrzą",
-                "Mój syn <u><b>E</u></b>dek b<u><b>ry</u></b>ka, <u><b>bo</u></b> tak robią <u><b>wszyscy</u></b> jego rówieśnicy"
+            "<u><b>Ewa</u></b> uważa, że kiedy jest <u><b>nu</u></b>ll do zrobienia wtedy jest relaks. Nauczyciel mówi, że to dla <u><b>was</u></b> dobrze, bo są <u><b>nowe</u></b> pomysły"
         ],
         // opis
-        desc: "nuevas[nłewas] - nowe",
+        desc: "nuevas[nuewas] - nowe",
         //zdanie
         sentence2: [
                 "nuevas"
@@ -2231,18 +2175,15 @@ id: [
 ],
         // obrazek
         img: [
-                "http://localhost/arbulanguage.com/img/fiszki1/2a.jpg"
+                "http://arbu-1dcc9.web.app/img/fiszkiespanol/61a.jpg"
         ],
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "http://arbu-1dcc9.web.app/voice/music.mp4"
         ],
         // historia
         story: [
-                "W <u><b>e</u></b>-sportowej grze silnik samochodu robi <u><b>wry</u></b>, wszyscy chcą takich rajdów, <u><b>bo</u></b> idzie <u><b>dy</u></b>m",
-                "<u><b>Ew</u></b>a robi <u><b>ry</u></b>by, bo będzie robiła zupę rybną, a na drugie placki z <u><b>dy</u></b>ni. <u><b>Każdemu</u></b> to smakowało",
-                "Kr<u><b>ew</u></b> każdego pacjenta jest dokładnie przebadana i organizm <u><b>wsystkich</u></b> pacjentów wraca na właściwe to<u><b>ry</u></b>, bo gdy ma dobrą opieke wraca do zdrowia",
-                "<u><b>E</u></b>dek robi <u><b>wry</u></b> swoim modelem samolotu, musi uważać bo jest silny wiatr. Z silnika samolotu się dymi i <u><b>wszyscy</u></b> się na to patrzą",
-                "Mój syn <u><b>E</u></b>dek b<u><b>ry</u></b>ka, <u><b>bo</u></b> tak robią <u><b>wszyscy</u></b> jego rówieśnicy"
+            "KOGNAT: idee - ideas",
+            "Moja <u><b>idea</u></b> to część różnych <u><b>ideii</u></b> wspólnych dla n<u><b>as</u></b> Polaków"
         ],
         // opis
         desc: "ideas[ideas] - pomysły(liczba mnoga)",
@@ -2273,7 +2214,7 @@ id: [
 ],
         // obrazek
         img: [
-                "http://localhost/arbulanguage.com/img/fiszki1/2a.jpg"
+                "http://arbu-1dcc9.web.app/img/fiszkiespanol/62a.jpg"
         ],
         translate: "Przewidywać problemy i być zawsze przygotowanym",
         translateb: "[Prever problemas y estar preparado siempre]",
@@ -2284,11 +2225,7 @@ id: [
         ],
         // historia
         story: [
-                "W <u><b>e</u></b>-sportowej grze silnik samochodu robi <u><b>wry</u></b>, wszyscy chcą takich rajdów, <u><b>bo</u></b> idzie <u><b>dy</u></b>m",
-                "<u><b>Ew</u></b>a robi <u><b>ry</u></b>by, bo będzie robiła zupę rybną, a na drugie placki z <u><b>dy</u></b>ni. <u><b>Każdemu</u></b> to smakowało",
-                "Kr<u><b>ew</u></b> każdego pacjenta jest dokładnie przebadana i organizm <u><b>wsystkich</u></b> pacjentów wraca na właściwe to<u><b>ry</u></b>, bo gdy ma dobrą opieke wraca do zdrowia",
-                "<u><b>E</u></b>dek robi <u><b>wry</u></b> swoim modelem samolotu, musi uważać bo jest silny wiatr. Z silnika samolotu się dymi i <u><b>wszyscy</u></b> się na to patrzą",
-                "Mój syn <u><b>E</u></b>dek b<u><b>ry</u></b>ka, <u><b>bo</u></b> tak robią <u><b>wszyscy</u></b> jego rówieśnicy"
+            "To nie było do <u><b>przewidzenia</u></b>, że świat będzie w o<u><b>pre</u></b>sji i trzeba będzie więcej czasu siedzieć na <u><b>wer</u></b>salce lub sofie, jednak zdarzały się już kryzysy"
         ],
         // opis
         desc: "prever[preber] - przewidywać",
@@ -2319,18 +2256,14 @@ id: [
 ],
         // obrazek
         img: [
-                "http://localhost/arbulanguage.com/img/fiszki1/2a.jpg"
+                "http://arbu-1dcc9.web.app/img/fiszkiespanol/63a.jpg"
         ],
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "http://arbu-1dcc9.web.app/voice/music.mp4"
         ],
         // historia
         story: [
-                "W <u><b>e</u></b>-sportowej grze silnik samochodu robi <u><b>wry</u></b>, wszyscy chcą takich rajdów, <u><b>bo</u></b> idzie <u><b>dy</u></b>m",
-                "<u><b>Ew</u></b>a robi <u><b>ry</u></b>by, bo będzie robiła zupę rybną, a na drugie placki z <u><b>dy</u></b>ni. <u><b>Każdemu</u></b> to smakowało",
-                "Kr<u><b>ew</u></b> każdego pacjenta jest dokładnie przebadana i organizm <u><b>wsystkich</u></b> pacjentów wraca na właściwe to<u><b>ry</u></b>, bo gdy ma dobrą opieke wraca do zdrowia",
-                "<u><b>E</u></b>dek robi <u><b>wry</u></b> swoim modelem samolotu, musi uważać bo jest silny wiatr. Z silnika samolotu się dymi i <u><b>wszyscy</u></b> się na to patrzą",
-                "Mój syn <u><b>E</u></b>dek b<u><b>ry</u></b>ka, <u><b>bo</u></b> tak robią <u><b>wszyscy</u></b> jego rówieśnicy"
+            "KOGNAT: problemy - problemas"
         ],
         // opis
         desc: "problemans[problemas] - problemy(liczba mnoga)",
@@ -2360,18 +2293,14 @@ id: [
 ],
         // obrazek
         img: [
-                "http://localhost/arbulanguage.com/img/fiszki1/2a.jpg"
+                "http://arbu-1dcc9.web.app/img/fiszkiespanol/64a.jpg"
         ],
         word: [
                 "http://localhost/arbulanguage.com/voice/music.mp4"
         ],
         // historia
         story: [
-                "W <u><b>e</u></b>-sportowej grze silnik samochodu robi <u><b>wry</u></b>, wszyscy chcą takich rajdów, <u><b>bo</u></b> idzie <u><b>dy</u></b>m",
-                "<u><b>Ew</u></b>a robi <u><b>ry</u></b>by, bo będzie robiła zupę rybną, a na drugie placki z <u><b>dy</u></b>ni. <u><b>Każdemu</u></b> to smakowało",
-                "Kr<u><b>ew</u></b> każdego pacjenta jest dokładnie przebadana i organizm <u><b>wsystkich</u></b> pacjentów wraca na właściwe to<u><b>ry</u></b>, bo gdy ma dobrą opieke wraca do zdrowia",
-                "<u><b>E</u></b>dek robi <u><b>wry</u></b> swoim modelem samolotu, musi uważać bo jest silny wiatr. Z silnika samolotu się dymi i <u><b>wszyscy</u></b> się na to patrzą",
-                "Mój syn <u><b>E</u></b>dek b<u><b>ry</u></b>ka, <u><b>bo</u></b> tak robią <u><b>wszyscy</u></b> jego rówieśnicy"
+            "<u><b>I</u></b>dealne <u><b>i</u></b> piękne"
         ],
         // opis
         desc: "y[i] - i",
@@ -2403,18 +2332,14 @@ id: [
 ],
         // obrazek
         img: [
-                "http://localhost/arbulanguage.com/img/fiszki1/2a.jpg"
+                "http://arbu-1dcc9.web.app/img/fiszkiespanol/65a.jpg"
         ],
         word: [
                 "http://localhost/arbulanguage.com/voice/music.mp4"
         ],
         // historia
         story: [
-                "W <u><b>e</u></b>-sportowej grze silnik samochodu robi <u><b>wry</u></b>, wszyscy chcą takich rajdów, <u><b>bo</u></b> idzie <u><b>dy</u></b>m",
-                "<u><b>Ew</u></b>a robi <u><b>ry</u></b>by, bo będzie robiła zupę rybną, a na drugie placki z <u><b>dy</u></b>ni. <u><b>Każdemu</u></b> to smakowało",
-                "Kr<u><b>ew</u></b> każdego pacjenta jest dokładnie przebadana i organizm <u><b>wsystkich</u></b> pacjentów wraca na właściwe to<u><b>ry</u></b>, bo gdy ma dobrą opieke wraca do zdrowia",
-                "<u><b>E</u></b>dek robi <u><b>wry</u></b> swoim modelem samolotu, musi uważać bo jest silny wiatr. Z silnika samolotu się dymi i <u><b>wszyscy</u></b> się na to patrzą",
-                "Mój syn <u><b>E</u></b>dek b<u><b>ry</u></b>ka, <u><b>bo</u></b> tak robią <u><b>wszyscy</u></b> jego rówieśnicy"
+            "Lubię <u><b>być</u></b> w Włoszech, bo tam jest Fi<u><b>esta</u></b>, która b<u><b>ar</u></b>dzo mi się podoba"
         ],
         // opis
         desc: "estar[estar] - być",
@@ -2446,18 +2371,14 @@ id: [
 ],
         // obrazek
         img: [
-                "http://localhost/arbulanguage.com/img/fiszki1/2a.jpg"
+                "http://arbu-1dcc9.web.app/img/fiszkiespanol/66a.jpg"
         ],
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "http://arbu-1dcc9.web.app/voice/music.mp4"
         ],
         // historia
         story: [
-                "W <u><b>e</u></b>-sportowej grze silnik samochodu robi <u><b>wry</u></b>, wszyscy chcą takich rajdów, <u><b>bo</u></b> idzie <u><b>dy</u></b>m",
-                "<u><b>Ew</u></b>a robi <u><b>ry</u></b>by, bo będzie robiła zupę rybną, a na drugie placki z <u><b>dy</u></b>ni. <u><b>Każdemu</u></b> to smakowało",
-                "Kr<u><b>ew</u></b> każdego pacjenta jest dokładnie przebadana i organizm <u><b>wsystkich</u></b> pacjentów wraca na właściwe to<u><b>ry</u></b>, bo gdy ma dobrą opieke wraca do zdrowia",
-                "<u><b>E</u></b>dek robi <u><b>wry</u></b> swoim modelem samolotu, musi uważać bo jest silny wiatr. Z silnika samolotu się dymi i <u><b>wszyscy</u></b> się na to patrzą",
-                "Mój syn <u><b>E</u></b>dek b<u><b>ry</u></b>ka, <u><b>bo</u></b> tak robią <u><b>wszyscy</u></b> jego rówieśnicy"
+            "S<u><b>prepar</u></b>owany czyli <u><b>przygootowany</u></b> do naprawy but - po naprawie przyniesie wiele r<u><b>ado</u></b>ści"
         ],
         // opis
         desc: "preparado[preparado] - przygotowany",
@@ -2489,18 +2410,14 @@ id: [
 ],
         // obrazek
         img: [
-                "http://localhost/arbulanguage.com/img/fiszki1/2a.jpg"
+                "http://arbu-1dcc9.web.app/img/fiszkiespanol/67a.jpg"
         ],
         word: [
                 "http://localhost/arbulanguage.com/voice/music.mp4"
         ],
         // historia
         story: [
-                "W <u><b>e</u></b>-sportowej grze silnik samochodu robi <u><b>wry</u></b>, wszyscy chcą takich rajdów, <u><b>bo</u></b> idzie <u><b>dy</u></b>m",
-                "<u><b>Ew</u></b>a robi <u><b>ry</u></b>by, bo będzie robiła zupę rybną, a na drugie placki z <u><b>dy</u></b>ni. <u><b>Każdemu</u></b> to smakowało",
-                "Kr<u><b>ew</u></b> każdego pacjenta jest dokładnie przebadana i organizm <u><b>wsystkich</u></b> pacjentów wraca na właściwe to<u><b>ry</u></b>, bo gdy ma dobrą opieke wraca do zdrowia",
-                "<u><b>E</u></b>dek robi <u><b>wry</u></b> swoim modelem samolotu, musi uważać bo jest silny wiatr. Z silnika samolotu się dymi i <u><b>wszyscy</u></b> się na to patrzą",
-                "Mój syn <u><b>E</u></b>dek b<u><b>ry</u></b>ka, <u><b>bo</u></b> tak robią <u><b>wszyscy</u></b> jego rówieśnicy"
+            "O<u><b>siem</u></b> dni to długo okres na obóz. Obóz robimy <u><b>zawsze</u></b> w <u><b>sie</u></b>rpniu. Obóz nazywa się - <u><b>Pre</u></b>dator"
         ],
         // opis
         desc: "siempre[siempre] - zawsze",
@@ -2532,7 +2449,7 @@ id: [
 ],
         // obrazek
         img: [
-                "http://localhost/arbulanguage.com/img/fiszki1/2a.jpg"
+                "http://arbu-1dcc9.web.app/img/fiszkiespanol/68a.jpg"
         ],
         translate: "Chronić prawa wszystkich zawsze",
         translateb: "[Proteher los derechos de todos siempre]",
@@ -2543,11 +2460,7 @@ id: [
         ],
         // historia
         story: [
-                "W <u><b>e</u></b>-sportowej grze silnik samochodu robi <u><b>wry</u></b>, wszyscy chcą takich rajdów, <u><b>bo</u></b> idzie <u><b>dy</u></b>m",
-                "<u><b>Ew</u></b>a robi <u><b>ry</u></b>by, bo będzie robiła zupę rybną, a na drugie placki z <u><b>dy</u></b>ni. <u><b>Każdemu</u></b> to smakowało",
-                "Kr<u><b>ew</u></b> każdego pacjenta jest dokładnie przebadana i organizm <u><b>wsystkich</u></b> pacjentów wraca na właściwe to<u><b>ry</u></b>, bo gdy ma dobrą opieke wraca do zdrowia",
-                "<u><b>E</u></b>dek robi <u><b>wry</u></b> swoim modelem samolotu, musi uważać bo jest silny wiatr. Z silnika samolotu się dymi i <u><b>wszyscy</u></b> się na to patrzą",
-                "Mój syn <u><b>E</u></b>dek b<u><b>ry</u></b>ka, <u><b>bo</u></b> tak robią <u><b>wszyscy</u></b> jego rówieśnicy"
+            "<u><b>Prote</u></b>iny tego <u><b>her</u></b>batnika <u><b>chronią</u></b> przed zawałem"
         ],
         // opis
         desc: "proteger[proteher] - chronić",
@@ -2580,18 +2493,14 @@ id: [
 ],
         // obrazek
         img: [
-                "http://localhost/arbulanguage.com/img/fiszki1/2a.jpg"
+                "http://arbu-1dcc9.web.app/img/fiszkiespanol/69a.jpg"
         ],
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "http://arbu-1dcc9.web.app/voice/music.mp4"
         ],
         // historia
         story: [
-                "W <u><b>e</u></b>-sportowej grze silnik samochodu robi <u><b>wry</u></b>, wszyscy chcą takich rajdów, <u><b>bo</u></b> idzie <u><b>dy</u></b>m",
-                "<u><b>Ew</u></b>a robi <u><b>ry</u></b>by, bo będzie robiła zupę rybną, a na drugie placki z <u><b>dy</u></b>ni. <u><b>Każdemu</u></b> to smakowało",
-                "Kr<u><b>ew</u></b> każdego pacjenta jest dokładnie przebadana i organizm <u><b>wsystkich</u></b> pacjentów wraca na właściwe to<u><b>ry</u></b>, bo gdy ma dobrą opieke wraca do zdrowia",
-                "<u><b>E</u></b>dek robi <u><b>wry</u></b> swoim modelem samolotu, musi uważać bo jest silny wiatr. Z silnika samolotu się dymi i <u><b>wszyscy</u></b> się na to patrzą",
-                "Mój syn <u><b>E</u></b>dek b<u><b>ry</u></b>ka, <u><b>bo</u></b> tak robią <u><b>wszyscy</u></b> jego rówieśnicy"
+            "<u><b>Los</u></b> wia<u><b>der</u></b>ka jest oczywisty, wi<u><b>ecz</u></b>nie sprawiedliwe nalewa pr<u><b>os</u></b>to do innego wiaderka, takie są <u><b>prawa</u></b> wiaderka"
         ],
         // opis
         desc: "los derechos[los dereczos] - prawa(liczba mnoga)",
@@ -2623,18 +2532,14 @@ id: [
 ],
         // obrazek
         img: [
-                "http://localhost/arbulanguage.com/img/fiszki1/2a.jpg"
+                "http://arbu-1dcc9.web.app/img/fiszkiespanol/70a.jpg"
         ],
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "http://arbu-1dcc9.web.app/voice/music.mp4"
         ],
         // historia
         story: [
-                "W <u><b>e</u></b>-sportowej grze silnik samochodu robi <u><b>wry</u></b>, wszyscy chcą takich rajdów, <u><b>bo</u></b> idzie <u><b>dy</u></b>m",
-                "<u><b>Ew</u></b>a robi <u><b>ry</u></b>by, bo będzie robiła zupę rybną, a na drugie placki z <u><b>dy</u></b>ni. <u><b>Każdemu</u></b> to smakowało",
-                "Kr<u><b>ew</u></b> każdego pacjenta jest dokładnie przebadana i organizm <u><b>wsystkich</u></b> pacjentów wraca na właściwe to<u><b>ry</u></b>, bo gdy ma dobrą opieke wraca do zdrowia",
-                "<u><b>E</u></b>dek robi <u><b>wry</u></b> swoim modelem samolotu, musi uważać bo jest silny wiatr. Z silnika samolotu się dymi i <u><b>wszyscy</u></b> się na to patrzą",
-                "Mój syn <u><b>E</u></b>dek b<u><b>ry</u></b>ka, <u><b>bo</u></b> tak robią <u><b>wszyscy</u></b> jego rówieśnicy"
+            "Twar<u><b>de</u></b> zasady dla <u><b>wszystkich</u></b> <u><b>to</u></b> <u><b>dos</u></b>łownie wojskowe warunki"
         ],
         // opis
         desc: "de todos[de todos] - wszystkich",
@@ -2666,18 +2571,14 @@ id: [
 ],
         // obrazek
         img: [
-                "http://localhost/arbulanguage.com/img/fiszki1/2a.jpg"
+                "http://arbu-1dcc9.web.app/img/fiszkiespanol/71a.jpg"
         ],
         word: [
                 "http://localhost/arbulanguage.com/voice/music.mp4"
         ],
         // historia
         story: [
-                "W <u><b>e</u></b>-sportowej grze silnik samochodu robi <u><b>wry</u></b>, wszyscy chcą takich rajdów, <u><b>bo</u></b> idzie <u><b>dy</u></b>m",
-                "<u><b>Ew</u></b>a robi <u><b>ry</u></b>by, bo będzie robiła zupę rybną, a na drugie placki z <u><b>dy</u></b>ni. <u><b>Każdemu</u></b> to smakowało",
-                "Kr<u><b>ew</u></b> każdego pacjenta jest dokładnie przebadana i organizm <u><b>wsystkich</u></b> pacjentów wraca na właściwe to<u><b>ry</u></b>, bo gdy ma dobrą opieke wraca do zdrowia",
-                "<u><b>E</u></b>dek robi <u><b>wry</u></b> swoim modelem samolotu, musi uważać bo jest silny wiatr. Z silnika samolotu się dymi i <u><b>wszyscy</u></b> się na to patrzą",
-                "Mój syn <u><b>E</u></b>dek b<u><b>ry</u></b>ka, <u><b>bo</u></b> tak robią <u><b>wszyscy</u></b> jego rówieśnicy"
+            "O<u><b>siem</u></b> dni to długo okres na obóz. Obóz robimy <u><b>zawsze</u></b> w <u><b>sie</u></b>rpniu. Obóz nazywa się - <u><b>Pre</u></b>dator"
         ],
         // opis
         desc: "siempre[siempre] - zawsze",
@@ -2709,7 +2610,7 @@ id: [
 ],
         // obrazek
         img: [
-                "http://localhost/arbulanguage.com/img/fiszki1/2a.jpg"
+                "http://arbu-1dcc9.web.app/img/fiszkiespanol/72a.jpg"
         ],
         translate: "Opowiadać zabawne historie z dobrymi przyjaciółmi",
         translateb: "[Contar historias divertidas con buenos amigos]",
@@ -2720,11 +2621,7 @@ id: [
         ],
         // historia
         story: [
-                "W <u><b>e</u></b>-sportowej grze silnik samochodu robi <u><b>wry</u></b>, wszyscy chcą takich rajdów, <u><b>bo</u></b> idzie <u><b>dy</u></b>m",
-                "<u><b>Ew</u></b>a robi <u><b>ry</u></b>by, bo będzie robiła zupę rybną, a na drugie placki z <u><b>dy</u></b>ni. <u><b>Każdemu</u></b> to smakowało",
-                "Kr<u><b>ew</u></b> każdego pacjenta jest dokładnie przebadana i organizm <u><b>wsystkich</u></b> pacjentów wraca na właściwe to<u><b>ry</u></b>, bo gdy ma dobrą opieke wraca do zdrowia",
-                "<u><b>E</u></b>dek robi <u><b>wry</u></b> swoim modelem samolotu, musi uważać bo jest silny wiatr. Z silnika samolotu się dymi i <u><b>wszyscy</u></b> się na to patrzą",
-                "Mój syn <u><b>E</u></b>dek b<u><b>ry</u></b>ka, <u><b>bo</u></b> tak robią <u><b>wszyscy</u></b> jego rówieśnicy"
+            "<u><b>Kon</u></b>iec s<u><b>tar</u></b>ego filmu to czas, żeby <u><b>opowiadać</u></b> sobie o naszych wrażeniach"
         ],
         // opis
         desc: "contar[kontar] - opowiadać",
@@ -2756,18 +2653,14 @@ id: [
 ],
         // obrazek
         img: [
-                "http://localhost/arbulanguage.com/img/fiszki1/2a.jpg"
+                "http://arbu-1dcc9.web.app/img/fiszkiespanol/73a.jpg"
         ],
         word: [
                 "http://localhost/arbulanguage.com/voice/music.mp4"
         ],
         // historia
         story: [
-                "W <u><b>e</u></b>-sportowej grze silnik samochodu robi <u><b>wry</u></b>, wszyscy chcą takich rajdów, <u><b>bo</u></b> idzie <u><b>dy</u></b>m",
-                "<u><b>Ew</u></b>a robi <u><b>ry</u></b>by, bo będzie robiła zupę rybną, a na drugie placki z <u><b>dy</u></b>ni. <u><b>Każdemu</u></b> to smakowało",
-                "Kr<u><b>ew</u></b> każdego pacjenta jest dokładnie przebadana i organizm <u><b>wsystkich</u></b> pacjentów wraca na właściwe to<u><b>ry</u></b>, bo gdy ma dobrą opieke wraca do zdrowia",
-                "<u><b>E</u></b>dek robi <u><b>wry</u></b> swoim modelem samolotu, musi uważać bo jest silny wiatr. Z silnika samolotu się dymi i <u><b>wszyscy</u></b> się na to patrzą",
-                "Mój syn <u><b>E</u></b>dek b<u><b>ry</u></b>ka, <u><b>bo</u></b> tak robią <u><b>wszyscy</u></b> jego rówieśnicy"
+            "KOGNATY: historie - (h)istorias"
         ],
         // opis
         desc: "historias[istorias] - historie",
@@ -2798,18 +2691,14 @@ id: [
 ],
         // obrazek
         img: [
-                "http://localhost/arbulanguage.com/img/fiszki1/2a.jpg"
+                "http://arbu-1dcc9.web.app/img/fiszkiespanol/74a.jpg"
         ],
         word: [
                 "http://localhost/arbulanguage.com/voice/music.mp4"
         ],
         // historia
         story: [
-                "W <u><b>e</u></b>-sportowej grze silnik samochodu robi <u><b>wry</u></b>, wszyscy chcą takich rajdów, <u><b>bo</u></b> idzie <u><b>dy</u></b>m",
-                "<u><b>Ew</u></b>a robi <u><b>ry</u></b>by, bo będzie robiła zupę rybną, a na drugie placki z <u><b>dy</u></b>ni. <u><b>Każdemu</u></b> to smakowało",
-                "Kr<u><b>ew</u></b> każdego pacjenta jest dokładnie przebadana i organizm <u><b>wsystkich</u></b> pacjentów wraca na właściwe to<u><b>ry</u></b>, bo gdy ma dobrą opieke wraca do zdrowia",
-                "<u><b>E</u></b>dek robi <u><b>wry</u></b> swoim modelem samolotu, musi uważać bo jest silny wiatr. Z silnika samolotu się dymi i <u><b>wszyscy</u></b> się na to patrzą",
-                "Mój syn <u><b>E</u></b>dek b<u><b>ry</u></b>ka, <u><b>bo</u></b> tak robią <u><b>wszyscy</u></b> jego rówieśnicy"
+            "Wal<u><b>di</u></b> i <u><b>Bert</u></b> mają buty ad<u><b>idas</u></b> - dokładnie takie same buty - i to jest <u><b>zabawne</u></b>"
         ],
         // opis
         desc: "divertidas[dibertidas] - zabawne",
@@ -2840,18 +2729,20 @@ id: [
 ],
         // obrazek
         img: [
-                "http://localhost/arbulanguage.com/img/fiszki1/2a.jpg"
+            "http://arbu-1dcc9.web.app/img/fiszkiespanol/17a.jpg",
+                "http://arbu-1dcc9.web.app/img/fiszkiespanol/31a.jpg",
+                "http://arbu-1dcc9.web.app/img/fiszkiespanol/59a.jpg",
+                "http://arbu-1dcc9.web.app/img/fiszkiespanol/75a.jpg"
         ],
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "http://arbu-1dcc9.web.app/voice/music.mp4"
         ],
         // historia
         story: [
-                "W <u><b>e</u></b>-sportowej grze silnik samochodu robi <u><b>wry</u></b>, wszyscy chcą takich rajdów, <u><b>bo</u></b> idzie <u><b>dy</u></b>m",
-                "<u><b>Ew</u></b>a robi <u><b>ry</u></b>by, bo będzie robiła zupę rybną, a na drugie placki z <u><b>dy</u></b>ni. <u><b>Każdemu</u></b> to smakowało",
-                "Kr<u><b>ew</u></b> każdego pacjenta jest dokładnie przebadana i organizm <u><b>wsystkich</u></b> pacjentów wraca na właściwe to<u><b>ry</u></b>, bo gdy ma dobrą opieke wraca do zdrowia",
-                "<u><b>E</u></b>dek robi <u><b>wry</u></b> swoim modelem samolotu, musi uważać bo jest silny wiatr. Z silnika samolotu się dymi i <u><b>wszyscy</u></b> się na to patrzą",
-                "Mój syn <u><b>E</u></b>dek b<u><b>ry</u></b>ka, <u><b>bo</u></b> tak robią <u><b>wszyscy</u></b> jego rówieśnicy"
+                "<u><b>Z</u></b> <u><b>kon</u></b>opiami jest niezły ubaw",
+                "<u><b>Z</u></b> takimi <u><b>kon</u></b>taktami jakie mam, lepiej jest mi podołać obowiązkom",
+                "<u><b>Z</u></b> <u><b>kon</u></b>sernacją przyjąłem tę decyzję",
+                "<u><b>Z</u></b> <u><b>kon</u></b>taktami w branży u mnie słabo..."
         ],
         // opis
         desc: "con[kon] - z",
@@ -2882,18 +2773,14 @@ id: [
 ],
         // obrazek
         img: [
-                "http://localhost/arbulanguage.com/img/fiszki1/2a.jpg"
+                "http://arbu-1dcc9.web.app/img/fiszkiespanol/76a.jpg"
         ],
         word: [
                 "http://localhost/arbulanguage.com/voice/music.mp4"
         ],
         // historia
         story: [
-                "W <u><b>e</u></b>-sportowej grze silnik samochodu robi <u><b>wry</u></b>, wszyscy chcą takich rajdów, <u><b>bo</u></b> idzie <u><b>dy</u></b>m",
-                "<u><b>Ew</u></b>a robi <u><b>ry</u></b>by, bo będzie robiła zupę rybną, a na drugie placki z <u><b>dy</u></b>ni. <u><b>Każdemu</u></b> to smakowało",
-                "Kr<u><b>ew</u></b> każdego pacjenta jest dokładnie przebadana i organizm <u><b>wsystkich</u></b> pacjentów wraca na właściwe to<u><b>ry</u></b>, bo gdy ma dobrą opieke wraca do zdrowia",
-                "<u><b>E</u></b>dek robi <u><b>wry</u></b> swoim modelem samolotu, musi uważać bo jest silny wiatr. Z silnika samolotu się dymi i <u><b>wszyscy</u></b> się na to patrzą",
-                "Mój syn <u><b>E</u></b>dek b<u><b>ry</u></b>ka, <u><b>bo</u></b> tak robią <u><b>wszyscy</u></b> jego rówieśnicy"
+            "<u><b>Dobrzy</u></b> sadownicy zbierają dużo ja<u><b>błe</u></b>k w <u><b>nos</u></b>tagiczną jesień"
         ],
         // opis
         desc: "bueons[błenos] - dobrzy",
@@ -2924,18 +2811,14 @@ id: [
 ],
         // obrazek
         img: [
-                "http://localhost/arbulanguage.com/img/fiszki1/2a.jpg"
+                "http://arbu-1dcc9.web.app/img/fiszkiespanol/77a.jpg"
         ],
         word: [
                 "http://localhost/arbulanguage.com/voice/music.mp4"
         ],
         // historia
         story: [
-                "W <u><b>e</u></b>-sportowej grze silnik samochodu robi <u><b>wry</u></b>, wszyscy chcą takich rajdów, <u><b>bo</u></b> idzie <u><b>dy</u></b>m",
-                "<u><b>Ew</u></b>a robi <u><b>ry</u></b>by, bo będzie robiła zupę rybną, a na drugie placki z <u><b>dy</u></b>ni. <u><b>Każdemu</u></b> to smakowało",
-                "Kr<u><b>ew</u></b> każdego pacjenta jest dokładnie przebadana i organizm <u><b>wsystkich</u></b> pacjentów wraca na właściwe to<u><b>ry</u></b>, bo gdy ma dobrą opieke wraca do zdrowia",
-                "<u><b>E</u></b>dek robi <u><b>wry</u></b> swoim modelem samolotu, musi uważać bo jest silny wiatr. Z silnika samolotu się dymi i <u><b>wszyscy</u></b> się na to patrzą",
-                "Mój syn <u><b>E</u></b>dek b<u><b>ry</u></b>ka, <u><b>bo</u></b> tak robią <u><b>wszyscy</u></b> jego rówieśnicy"
+            "Zupka z firmy K<u><b>ami</u></b>no i bi<u><b>gos</u></b> to są moi kulinarni <u><b>przyjaciele</u></b>"
         ],
         // opis
         desc: "amigos[amigos] - przyjaciele(liczba mnoga)",
@@ -2966,7 +2849,7 @@ id: [
 ],
         // obrazek
         img: [
-                "http://localhost/arbulanguage.com/img/fiszki1/2a.jpg"
+                "http://arbu-1dcc9.web.app/img/fiszkiespanol/78a.jpg"
         ],
         translate: "Słuchać wesołej muzyki w samochodzie",
         translateb: "[Escuchar música alegre en el coche]",
@@ -2977,11 +2860,7 @@ id: [
         ],
         // historia
         story: [
-                "W <u><b>e</u></b>-sportowej grze silnik samochodu robi <u><b>wry</u></b>, wszyscy chcą takich rajdów, <u><b>bo</u></b> idzie <u><b>dy</u></b>m",
-                "<u><b>Ew</u></b>a robi <u><b>ry</u></b>by, bo będzie robiła zupę rybną, a na drugie placki z <u><b>dy</u></b>ni. <u><b>Każdemu</u></b> to smakowało",
-                "Kr<u><b>ew</u></b> każdego pacjenta jest dokładnie przebadana i organizm <u><b>wsystkich</u></b> pacjentów wraca na właściwe to<u><b>ry</u></b>, bo gdy ma dobrą opieke wraca do zdrowia",
-                "<u><b>E</u></b>dek robi <u><b>wry</u></b> swoim modelem samolotu, musi uważać bo jest silny wiatr. Z silnika samolotu się dymi i <u><b>wszyscy</u></b> się na to patrzą",
-                "Mój syn <u><b>E</u></b>dek b<u><b>ry</u></b>ka, <u><b>bo</u></b> tak robią <u><b>wszyscy</u></b> jego rówieśnicy"
+            "<u><b>Es</u></b>kimos <u><b>słucha</u></b> wiatru na Grenlandii i <u><b>ku</u></b> zaskoczeniu Europejczyków mają <u><b>czar</u></b>odzieji"
         ],
         // opis
         desc: "escuchar[eskuczar] - słuchać",
@@ -3013,18 +2892,14 @@ id: [
 ],
         // obrazek
         img: [
-                "http://localhost/arbulanguage.com/img/fiszki1/2a.jpg"
+                "http://arbu-1dcc9.web.app/img/fiszkiespanol/79a.jpg"
         ],
         word: [
                 "http://localhost/arbulanguage.com/voice/music.mp4"
         ],
         // historia
         story: [
-                "W <u><b>e</u></b>-sportowej grze silnik samochodu robi <u><b>wry</u></b>, wszyscy chcą takich rajdów, <u><b>bo</u></b> idzie <u><b>dy</u></b>m",
-                "<u><b>Ew</u></b>a robi <u><b>ry</u></b>by, bo będzie robiła zupę rybną, a na drugie placki z <u><b>dy</u></b>ni. <u><b>Każdemu</u></b> to smakowało",
-                "Kr<u><b>ew</u></b> każdego pacjenta jest dokładnie przebadana i organizm <u><b>wsystkich</u></b> pacjentów wraca na właściwe to<u><b>ry</u></b>, bo gdy ma dobrą opieke wraca do zdrowia",
-                "<u><b>E</u></b>dek robi <u><b>wry</u></b> swoim modelem samolotu, musi uważać bo jest silny wiatr. Z silnika samolotu się dymi i <u><b>wszyscy</u></b> się na to patrzą",
-                "Mój syn <u><b>E</u></b>dek b<u><b>ry</u></b>ka, <u><b>bo</u></b> tak robią <u><b>wszyscy</u></b> jego rówieśnicy"
+            "KOGNATY: muzyka - música"
         ],
         // opis
         desc: "música[muzika] - muzyka",
@@ -3055,18 +2930,14 @@ id: [
 ],
         // obrazek
         img: [
-                "http://localhost/arbulanguage.com/img/fiszki1/2a.jpg"
+                "http://arbu-1dcc9.web.app/img/fiszkiespanol/80a.jpg"
         ],
         word: [
                 "http://localhost/arbulanguage.com/voice/music.mp4"
         ],
         // historia
         story: [
-                "W <u><b>e</u></b>-sportowej grze silnik samochodu robi <u><b>wry</u></b>, wszyscy chcą takich rajdów, <u><b>bo</u></b> idzie <u><b>dy</u></b>m",
-                "<u><b>Ew</u></b>a robi <u><b>ry</u></b>by, bo będzie robiła zupę rybną, a na drugie placki z <u><b>dy</u></b>ni. <u><b>Każdemu</u></b> to smakowało",
-                "Kr<u><b>ew</u></b> każdego pacjenta jest dokładnie przebadana i organizm <u><b>wsystkich</u></b> pacjentów wraca na właściwe to<u><b>ry</u></b>, bo gdy ma dobrą opieke wraca do zdrowia",
-                "<u><b>E</u></b>dek robi <u><b>wry</u></b> swoim modelem samolotu, musi uważać bo jest silny wiatr. Z silnika samolotu się dymi i <u><b>wszyscy</u></b> się na to patrzą",
-                "Mój syn <u><b>E</u></b>dek b<u><b>ry</u></b>ka, <u><b>bo</u></b> tak robią <u><b>wszyscy</u></b> jego rówieśnicy"
+            "Ktoś poprosił <u><b>Ale</u></b> o żart o <u><b>Gre</u></b>nlandii i każdy jest <u><b>wesoły</u></b>"
         ],
         // opis
         desc: "alegre[alegre] - wesoły/wesoła",
@@ -3097,18 +2968,14 @@ id: [
 ],
         // obrazek
         img: [
-                "http://localhost/arbulanguage.com/img/fiszki1/2a.jpg"
+                "http://arbu-1dcc9.web.app/img/fiszkiespanol/81a.jpg"
         ],
         word: [
                 "http://localhost/arbulanguage.com/voice/music.mp4"
         ],
         // historia
         story: [
-                "W <u><b>e</u></b>-sportowej grze silnik samochodu robi <u><b>wry</u></b>, wszyscy chcą takich rajdów, <u><b>bo</u></b> idzie <u><b>dy</u></b>m",
-                "<u><b>Ew</u></b>a robi <u><b>ry</u></b>by, bo będzie robiła zupę rybną, a na drugie placki z <u><b>dy</u></b>ni. <u><b>Każdemu</u></b> to smakowało",
-                "Kr<u><b>ew</u></b> każdego pacjenta jest dokładnie przebadana i organizm <u><b>wsystkich</u></b> pacjentów wraca na właściwe to<u><b>ry</u></b>, bo gdy ma dobrą opieke wraca do zdrowia",
-                "<u><b>E</u></b>dek robi <u><b>wry</u></b> swoim modelem samolotu, musi uważać bo jest silny wiatr. Z silnika samolotu się dymi i <u><b>wszyscy</u></b> się na to patrzą",
-                "Mój syn <u><b>E</u></b>dek b<u><b>ry</u></b>ka, <u><b>bo</u></b> tak robią <u><b>wszyscy</u></b> jego rówieśnicy"
+            "<u><b>W</u></b> <u><b>en</u></b>cyklopedi mamy wiedzę o świecie"
         ],
         // opis
         desc: "en[en] - w",
@@ -3138,18 +3005,14 @@ id: [
 ],
         // obrazek
         img: [
-                "http://localhost/arbulanguage.com/img/fiszki1/2a.jpg"
+                "http://arbu-1dcc9.web.app/img/fiszkiespanol/53a.jpg"
         ],
         word: [
                 "http://localhost/arbulanguage.com/voice/music.mp4"
         ],
         // historia
         story: [
-                "W <u><b>e</u></b>-sportowej grze silnik samochodu robi <u><b>wry</u></b>, wszyscy chcą takich rajdów, <u><b>bo</u></b> idzie <u><b>dy</u></b>m",
-                "<u><b>Ew</u></b>a robi <u><b>ry</u></b>by, bo będzie robiła zupę rybną, a na drugie placki z <u><b>dy</u></b>ni. <u><b>Każdemu</u></b> to smakowało",
-                "Kr<u><b>ew</u></b> każdego pacjenta jest dokładnie przebadana i organizm <u><b>wsystkich</u></b> pacjentów wraca na właściwe to<u><b>ry</u></b>, bo gdy ma dobrą opieke wraca do zdrowia",
-                "<u><b>E</u></b>dek robi <u><b>wry</u></b> swoim modelem samolotu, musi uważać bo jest silny wiatr. Z silnika samolotu się dymi i <u><b>wszyscy</u></b> się na to patrzą",
-                "Mój syn <u><b>E</u></b>dek b<u><b>ry</u></b>ka, <u><b>bo</u></b> tak robią <u><b>wszyscy</u></b> jego rówieśnicy"
+            "<u><b>El</u></b>iot czasami mówi: s<u><b>kocze</u></b> do sklepu (ma na myśli: pojechanie <u><b>autem</u></b>)"
         ],
         // opis
         desc: "el coche[el kocze] - samochód",
@@ -3179,7 +3042,7 @@ id: [
 ],
         // obrazek
         img: [
-                "http://arbu-1dcc9.web.app/img/fiszki1/2a.jpg"
+                "http://arbu-1dcc9.web.app/img/fiszkiespanol/83a.jpg"
         ],
         translate: "Przybywać wcześnie i cieszyć się porankiem",
         translateb: "[Llegar temprano y disfrutar la mañana]",
@@ -3190,11 +3053,7 @@ id: [
         ],
         // historia
         story: [
-                "W <u><b>e</u></b>-sportowej grze silnik samochodu robi <u><b>wry</u></b>, wszyscy chcą takich rajdów, <u><b>bo</u></b> idzie <u><b>dy</u></b>m",
-                "<u><b>Ew</u></b>a robi <u><b>ry</u></b>by, bo będzie robiła zupę rybną, a na drugie placki z <u><b>dy</u></b>ni. <u><b>Każdemu</u></b> to smakowało",
-                "Kr<u><b>ew</u></b> każdego pacjenta jest dokładnie przebadana i organizm <u><b>wsystkich</u></b> pacjentów wraca na właściwe to<u><b>ry</u></b>, bo gdy ma dobrą opieke wraca do zdrowia",
-                "<u><b>E</u></b>dek robi <u><b>wry</u></b> swoim modelem samolotu, musi uważać bo jest silny wiatr. Z silnika samolotu się dymi i <u><b>wszyscy</u></b> się na to patrzą",
-                "Mój syn <u><b>E</u></b>dek b<u><b>ry</u></b>ka, <u><b>bo</u></b> tak robią <u><b>wszyscy</u></b> jego rówieśnicy"
+            "<u><b>Je</u></b>ssica <u><b>przybyła</u></b> z <u><b>dże</u></b>mem i dają go do <u><b>gar</u></b>a, żeby zrobić mus"
         ],
         // opis
         desc: "llegar[dźegar] - przybywać",
@@ -3225,18 +3084,14 @@ id: [
 ],
         // obrazek
         img: [
-                "http://localhost/arbulanguage.com/img/fiszki1/2a.jpg"
+                "http://arbu-1dcc9.web.app/img/fiszkiespanol/84a.jpg"
         ],
         word: [
                 "http://localhost/arbulanguage.com/voice/music.mp4"
         ],
         // historia
         story: [
-                "W <u><b>e</u></b>-sportowej grze silnik samochodu robi <u><b>wry</u></b>, wszyscy chcą takich rajdów, <u><b>bo</u></b> idzie <u><b>dy</u></b>m",
-                "<u><b>Ew</u></b>a robi <u><b>ry</u></b>by, bo będzie robiła zupę rybną, a na drugie placki z <u><b>dy</u></b>ni. <u><b>Każdemu</u></b> to smakowało",
-                "Kr<u><b>ew</u></b> każdego pacjenta jest dokładnie przebadana i organizm <u><b>wsystkich</u></b> pacjentów wraca na właściwe to<u><b>ry</u></b>, bo gdy ma dobrą opieke wraca do zdrowia",
-                "<u><b>E</u></b>dek robi <u><b>wry</u></b> swoim modelem samolotu, musi uważać bo jest silny wiatr. Z silnika samolotu się dymi i <u><b>wszyscy</u></b> się na to patrzą",
-                "Mój syn <u><b>E</u></b>dek b<u><b>ry</u></b>ka, <u><b>bo</u></b> tak robią <u><b>wszyscy</u></b> jego rówieśnicy"
+            "<u><b>Temp</u></b>o naszych zbiorów truskawek jest szybkie, bo zaczynamy <u><b>wcześnie</u></b> <u><b>rano</u></b> <u><b>pra</u></b>cować"
         ],
         // opis
         desc: "temprano[temprano] - wcześnie",
@@ -3264,20 +3119,15 @@ id: [
         85,
         18
 ],
-        // obrazek
         img: [
-                "http://localhost/arbulanguage.com/img/fiszki1/2a.jpg"
+                "http://arbu-1dcc9.web.app/img/fiszkiespanol/64a.jpg"
         ],
         word: [
                 "http://localhost/arbulanguage.com/voice/music.mp4"
         ],
         // historia
         story: [
-                "W <u><b>e</u></b>-sportowej grze silnik samochodu robi <u><b>wry</u></b>, wszyscy chcą takich rajdów, <u><b>bo</u></b> idzie <u><b>dy</u></b>m",
-                "<u><b>Ew</u></b>a robi <u><b>ry</u></b>by, bo będzie robiła zupę rybną, a na drugie placki z <u><b>dy</u></b>ni. <u><b>Każdemu</u></b> to smakowało",
-                "Kr<u><b>ew</u></b> każdego pacjenta jest dokładnie przebadana i organizm <u><b>wsystkich</u></b> pacjentów wraca na właściwe to<u><b>ry</u></b>, bo gdy ma dobrą opieke wraca do zdrowia",
-                "<u><b>E</u></b>dek robi <u><b>wry</u></b> swoim modelem samolotu, musi uważać bo jest silny wiatr. Z silnika samolotu się dymi i <u><b>wszyscy</u></b> się na to patrzą",
-                "Mój syn <u><b>E</u></b>dek b<u><b>ry</u></b>ka, <u><b>bo</u></b> tak robią <u><b>wszyscy</u></b> jego rówieśnicy"
+            "<u><b>I</u></b>dealne <u><b>i</u></b> piękne"
         ],
         // opis
         desc: "y[i] - i",
@@ -3308,18 +3158,14 @@ id: [
 ],
         // obrazek
         img: [
-                "http://localhost/arbulanguage.com/img/fiszki1/2a.jpg"
+                "http://arbu-1dcc9.web.app/img/fiszkiespanol/86a.jpg"
         ],
         word: [
                 "http://localhost/arbulanguage.com/voice/music.mp4"
         ],
         // historia
         story: [
-                "W <u><b>e</u></b>-sportowej grze silnik samochodu robi <u><b>wry</u></b>, wszyscy chcą takich rajdów, <u><b>bo</u></b> idzie <u><b>dy</u></b>m",
-                "<u><b>Ew</u></b>a robi <u><b>ry</u></b>by, bo będzie robiła zupę rybną, a na drugie placki z <u><b>dy</u></b>ni. <u><b>Każdemu</u></b> to smakowało",
-                "Kr<u><b>ew</u></b> każdego pacjenta jest dokładnie przebadana i organizm <u><b>wsystkich</u></b> pacjentów wraca na właściwe to<u><b>ry</u></b>, bo gdy ma dobrą opieke wraca do zdrowia",
-                "<u><b>E</u></b>dek robi <u><b>wry</u></b> swoim modelem samolotu, musi uważać bo jest silny wiatr. Z silnika samolotu się dymi i <u><b>wszyscy</u></b> się na to patrzą",
-                "Mój syn <u><b>E</u></b>dek b<u><b>ry</u></b>ka, <u><b>bo</u></b> tak robią <u><b>wszyscy</u></b> jego rówieśnicy"
+            "Na tym <u><b>dis</u></b>co normalnie <u><b>fru</u></b>wam z radości. <u><b>Cieszę się</u></b> z muzyki, a na <u><b>tar</u></b>asie są piękne dziewczyny"
         ],
         // opis
         desc: "disfrutar[disfrutar] - cieszyć się",
@@ -3350,18 +3196,14 @@ id: [
 ],
         // obrazek
         img: [
-                "http://localhost/arbulanguage.com/img/fiszki1/2a.jpg"
+                "http://arbu-1dcc9.web.app/img/fiszkiespanol/87a.jpg"
         ],
         word: [
                 "http://localhost/arbulanguage.com/voice/music.mp4"
         ],
         // historia
         story: [
-                "W <u><b>e</u></b>-sportowej grze silnik samochodu robi <u><b>wry</u></b>, wszyscy chcą takich rajdów, <u><b>bo</u></b> idzie <u><b>dy</u></b>m",
-                "<u><b>Ew</u></b>a robi <u><b>ry</u></b>by, bo będzie robiła zupę rybną, a na drugie placki z <u><b>dy</u></b>ni. <u><b>Każdemu</u></b> to smakowało",
-                "Kr<u><b>ew</u></b> każdego pacjenta jest dokładnie przebadana i organizm <u><b>wsystkich</u></b> pacjentów wraca na właściwe to<u><b>ry</u></b>, bo gdy ma dobrą opieke wraca do zdrowia",
-                "<u><b>E</u></b>dek robi <u><b>wry</u></b> swoim modelem samolotu, musi uważać bo jest silny wiatr. Z silnika samolotu się dymi i <u><b>wszyscy</u></b> się na to patrzą",
-                "Mój syn <u><b>E</u></b>dek b<u><b>ry</u></b>ka, <u><b>bo</u></b> tak robią <u><b>wszyscy</u></b> jego rówieśnicy"
+            "Moja <u><b>mania</u></b> kiedy wstaję <u><b>rano</u></b> jest <u><b>na</u></b> wysokim poziomie"
         ],
         // opis
         desc: "la mañana[la maniana] - poranek",
@@ -3392,22 +3234,18 @@ id: [
 ],
         // obrazek
         img: [
-                "http://localhost/arbulanguage.com/img/fiszki1/2a.jpg"
+                "http://arbu-1dcc9.web.app/img/fiszkiespanol/88a.jpg"
         ],
         translate: "Odrzucać oferty, które ci się nie podobają",
         translateb: "[Rehusar ofertas que no te gusten]",
-        srcWord: ["", ''],
-        srcWordimage: "",
+        srcWord: ["http://localhost/arbulanguage.com/filmy/esp/offert.mp4", 'Yes Man'],
+        srcWordimage: "http://localhost/arbulanguage.com/filmy/esp/offert.png",
         word: [
                 "http://localhost/arbulanguage.com/voice/music.mp4"
         ],
         // historia
         story: [
-                "W <u><b>e</u></b>-sportowej grze silnik samochodu robi <u><b>wry</u></b>, wszyscy chcą takich rajdów, <u><b>bo</u></b> idzie <u><b>dy</u></b>m",
-                "<u><b>Ew</u></b>a robi <u><b>ry</u></b>by, bo będzie robiła zupę rybną, a na drugie placki z <u><b>dy</u></b>ni. <u><b>Każdemu</u></b> to smakowało",
-                "Kr<u><b>ew</u></b> każdego pacjenta jest dokładnie przebadana i organizm <u><b>wsystkich</u></b> pacjentów wraca na właściwe to<u><b>ry</u></b>, bo gdy ma dobrą opieke wraca do zdrowia",
-                "<u><b>E</u></b>dek robi <u><b>wry</u></b> swoim modelem samolotu, musi uważać bo jest silny wiatr. Z silnika samolotu się dymi i <u><b>wszyscy</u></b> się na to patrzą",
-                "Mój syn <u><b>E</u></b>dek b<u><b>ry</u></b>ka, <u><b>bo</u></b> tak robią <u><b>wszyscy</u></b> jego rówieśnicy"
+            "<u><b>Re</u></b>akcja na odmowę bywa bolesna, <u><b>Uuuu</u></b> nie będzie <u><b>zar</u></b>ęczyn"
         ],
         // opis
         desc: "rehusar[reusar] - odrzucać",
@@ -3439,18 +3277,14 @@ id: [
 ],
         // obrazek
         img: [
-                "http://localhost/arbulanguage.com/img/fiszki1/2a.jpg"
+                "http://arbu-1dcc9.web.app/img/fiszkiespanol/89a.jpg"
         ],
         word: [
                 "http://localhost/arbulanguage.com/voice/music.mp4"
         ],
         // historia
         story: [
-                "W <u><b>e</u></b>-sportowej grze silnik samochodu robi <u><b>wry</u></b>, wszyscy chcą takich rajdów, <u><b>bo</u></b> idzie <u><b>dy</u></b>m",
-                "<u><b>Ew</u></b>a robi <u><b>ry</u></b>by, bo będzie robiła zupę rybną, a na drugie placki z <u><b>dy</u></b>ni. <u><b>Każdemu</u></b> to smakowało",
-                "Kr<u><b>ew</u></b> każdego pacjenta jest dokładnie przebadana i organizm <u><b>wsystkich</u></b> pacjentów wraca na właściwe to<u><b>ry</u></b>, bo gdy ma dobrą opieke wraca do zdrowia",
-                "<u><b>E</u></b>dek robi <u><b>wry</u></b> swoim modelem samolotu, musi uważać bo jest silny wiatr. Z silnika samolotu się dymi i <u><b>wszyscy</u></b> się na to patrzą",
-                "Mój syn <u><b>E</u></b>dek b<u><b>ry</u></b>ka, <u><b>bo</u></b> tak robią <u><b>wszyscy</u></b> jego rówieśnicy"
+            "KOGNATY: oferty - ofertas"
         ],
         // opis
         desc: "ofertas[ofertas] - oferty(liczba mnoga)",
@@ -3481,18 +3315,14 @@ id: [
 ],
         // obrazek
         img: [
-                "http://localhost/arbulanguage.com/img/fiszki1/2a.jpg"
+                "http://arbu-1dcc9.web.app/img/fiszkiespanol/90a.jpg"
         ],
         word: [
                 "http://localhost/arbulanguage.com/voice/music.mp4"
         ],
         // historia
         story: [
-                "W <u><b>e</u></b>-sportowej grze silnik samochodu robi <u><b>wry</u></b>, wszyscy chcą takich rajdów, <u><b>bo</u></b> idzie <u><b>dy</u></b>m",
-                "<u><b>Ew</u></b>a robi <u><b>ry</u></b>by, bo będzie robiła zupę rybną, a na drugie placki z <u><b>dy</u></b>ni. <u><b>Każdemu</u></b> to smakowało",
-                "Kr<u><b>ew</u></b> każdego pacjenta jest dokładnie przebadana i organizm <u><b>wsystkich</u></b> pacjentów wraca na właściwe to<u><b>ry</u></b>, bo gdy ma dobrą opieke wraca do zdrowia",
-                "<u><b>E</u></b>dek robi <u><b>wry</u></b> swoim modelem samolotu, musi uważać bo jest silny wiatr. Z silnika samolotu się dymi i <u><b>wszyscy</u></b> się na to patrzą",
-                "Mój syn <u><b>E</u></b>dek b<u><b>ry</u></b>ka, <u><b>bo</u></b> tak robią <u><b>wszyscy</u></b> jego rówieśnicy"
+            "Na zrobienie pizzy trzeba, mą<u><b>ke</u></b>, <u><b>którą</u></b> później z innymi składnikami mieszamy"
         ],
         // opis
         desc: "que[ke] - które/która/który",
@@ -3523,18 +3353,14 @@ id: [
 ],
         // obrazek
         img: [
-                "http://localhost/arbulanguage.com/img/fiszki1/2a.jpg"
+                "http://arbu-1dcc9.web.app/img/fiszkiespanol/91a.jpg"
         ],
         word: [
                 "http://localhost/arbulanguage.com/voice/music.mp4"
         ],
         // historia
         story: [
-                "W <u><b>e</u></b>-sportowej grze silnik samochodu robi <u><b>wry</u></b>, wszyscy chcą takich rajdów, <u><b>bo</u></b> idzie <u><b>dy</u></b>m",
-                "<u><b>Ew</u></b>a robi <u><b>ry</u></b>by, bo będzie robiła zupę rybną, a na drugie placki z <u><b>dy</u></b>ni. <u><b>Każdemu</u></b> to smakowało",
-                "Kr<u><b>ew</u></b> każdego pacjenta jest dokładnie przebadana i organizm <u><b>wsystkich</u></b> pacjentów wraca na właściwe to<u><b>ry</u></b>, bo gdy ma dobrą opieke wraca do zdrowia",
-                "<u><b>E</u></b>dek robi <u><b>wry</u></b> swoim modelem samolotu, musi uważać bo jest silny wiatr. Z silnika samolotu się dymi i <u><b>wszyscy</u></b> się na to patrzą",
-                "Mój syn <u><b>E</u></b>dek b<u><b>ry</u></b>ka, <u><b>bo</u></b> tak robią <u><b>wszyscy</u></b> jego rówieśnicy"
+            "KOGNATY: nie - angielskie NO"
         ],
         // opis
         desc: "no[no] - nie",
@@ -3564,18 +3390,14 @@ id: [
 ],
         // obrazek
         img: [
-                "http://localhost/arbulanguage.com/img/fiszki1/2a.jpg"
+                "http://arbu-1dcc9.web.app/img/fiszkiespanol/92a.jpg"
         ],
         word: [
                 "http://localhost/arbulanguage.com/voice/music.mp4"
         ],
         // historia
         story: [
-                "W <u><b>e</u></b>-sportowej grze silnik samochodu robi <u><b>wry</u></b>, wszyscy chcą takich rajdów, <u><b>bo</u></b> idzie <u><b>dy</u></b>m",
-                "<u><b>Ew</u></b>a robi <u><b>ry</u></b>by, bo będzie robiła zupę rybną, a na drugie placki z <u><b>dy</u></b>ni. <u><b>Każdemu</u></b> to smakowało",
-                "Kr<u><b>ew</u></b> każdego pacjenta jest dokładnie przebadana i organizm <u><b>wsystkich</u></b> pacjentów wraca na właściwe to<u><b>ry</u></b>, bo gdy ma dobrą opieke wraca do zdrowia",
-                "<u><b>E</u></b>dek robi <u><b>wry</u></b> swoim modelem samolotu, musi uważać bo jest silny wiatr. Z silnika samolotu się dymi i <u><b>wszyscy</u></b> się na to patrzą",
-                "Mój syn <u><b>E</u></b>dek b<u><b>ry</u></b>ka, <u><b>bo</u></b> tak robią <u><b>wszyscy</u></b> jego rówieśnicy"
+            "W <u><b>te</u></b>macie modlitwy - <u><b>g</u></b>orliwy św.A<u><b>ugust</u></b>yn podobał się Bogu.. Am<u><b>en</u></b>"
         ],
         // opis
         desc: "te gusten[te gusten] - ci/ciebie.. podobać się",
@@ -3605,22 +3427,18 @@ id: [
 ],
         // obrazek
         img: [
-                "http://localhost/arbulanguage.com/img/fiszki1/2a.jpg"
+                "http://arbu-1dcc9.web.app/img/fiszkiespanol/93a.jpg"
         ],
         translate: "Trenować mocno, aby czuć się lepiej",
         translateb: "[Entrenar fuerte para sentirte mejor]",
-        srcWord: ["", ''],
-        srcWordimage: "",
+        srcWord: ["http://localhost/arbulanguage.com/filmy/esp/training2.mp4", 'Pain and Gain'],
+        srcWordimage: "http://localhost/arbulanguage.com/filmy/esp/training2.png",
         word: [
                 "http://localhost/arbulanguage.com/voice/music.mp4"
         ],
         // historia
         story: [
-                "W <u><b>e</u></b>-sportowej grze silnik samochodu robi <u><b>wry</u></b>, wszyscy chcą takich rajdów, <u><b>bo</u></b> idzie <u><b>dy</u></b>m",
-                "<u><b>Ew</u></b>a robi <u><b>ry</u></b>by, bo będzie robiła zupę rybną, a na drugie placki z <u><b>dy</u></b>ni. <u><b>Każdemu</u></b> to smakowało",
-                "Kr<u><b>ew</u></b> każdego pacjenta jest dokładnie przebadana i organizm <u><b>wsystkich</u></b> pacjentów wraca na właściwe to<u><b>ry</u></b>, bo gdy ma dobrą opieke wraca do zdrowia",
-                "<u><b>E</u></b>dek robi <u><b>wry</u></b> swoim modelem samolotu, musi uważać bo jest silny wiatr. Z silnika samolotu się dymi i <u><b>wszyscy</u></b> się na to patrzą",
-                "Mój syn <u><b>E</u></b>dek b<u><b>ry</u></b>ka, <u><b>bo</u></b> tak robią <u><b>wszyscy</u></b> jego rówieśnicy"
+            "Ej m<u><b>en</u></b>, <u><b>tre</u></b>nujemy dziś? <u><b>Nar</u></b>azie muszę odpisać na maile"
         ],
         // opis
         desc: "entrenar[entrenar] - trenować",
@@ -3651,18 +3469,14 @@ id: [
 ],
         // obrazek
         img: [
-                "http://localhost/arbulanguage.com/img/fiszki1/2a.jpg"
+                "http://arbu-1dcc9.web.app/img/fiszkiespanol/94a.jpg"
         ],
         word: [
                 "http://localhost/arbulanguage.com/voice/music.mp4"
         ],
         // historia
         story: [
-                "W <u><b>e</u></b>-sportowej grze silnik samochodu robi <u><b>wry</u></b>, wszyscy chcą takich rajdów, <u><b>bo</u></b> idzie <u><b>dy</u></b>m",
-                "<u><b>Ew</u></b>a robi <u><b>ry</u></b>by, bo będzie robiła zupę rybną, a na drugie placki z <u><b>dy</u></b>ni. <u><b>Każdemu</u></b> to smakowało",
-                "Kr<u><b>ew</u></b> każdego pacjenta jest dokładnie przebadana i organizm <u><b>wsystkich</u></b> pacjentów wraca na właściwe to<u><b>ry</u></b>, bo gdy ma dobrą opieke wraca do zdrowia",
-                "<u><b>E</u></b>dek robi <u><b>wry</u></b> swoim modelem samolotu, musi uważać bo jest silny wiatr. Z silnika samolotu się dymi i <u><b>wszyscy</u></b> się na to patrzą",
-                "Mój syn <u><b>E</u></b>dek b<u><b>ry</u></b>ka, <u><b>bo</u></b> tak robią <u><b>wszyscy</u></b> jego rówieśnicy"
+            "<u><b>F</u></b>ilip ma Pa<u><b>łer</u></b>(power) i <u><b>mocno</u></b> trenuje <u><b>te</u></b>kwondoo"
         ],
         // opis
         desc: "fuerte[fłerte] - mocno",
@@ -3692,18 +3506,14 @@ id: [
 ],
         // obrazek
         img: [
-                "http://localhost/arbulanguage.com/img/fiszki1/2a.jpg"
+                "http://arbu-1dcc9.web.app/img/fiszkiespanol/95a.jpg"
         ],
         word: [
                 "http://localhost/arbulanguage.com/voice/music.mp4"
         ],
         // historia
         story: [
-                "W <u><b>e</u></b>-sportowej grze silnik samochodu robi <u><b>wry</u></b>, wszyscy chcą takich rajdów, <u><b>bo</u></b> idzie <u><b>dy</u></b>m",
-                "<u><b>Ew</u></b>a robi <u><b>ry</u></b>by, bo będzie robiła zupę rybną, a na drugie placki z <u><b>dy</u></b>ni. <u><b>Każdemu</u></b> to smakowało",
-                "Kr<u><b>ew</u></b> każdego pacjenta jest dokładnie przebadana i organizm <u><b>wsystkich</u></b> pacjentów wraca na właściwe to<u><b>ry</u></b>, bo gdy ma dobrą opieke wraca do zdrowia",
-                "<u><b>E</u></b>dek robi <u><b>wry</u></b> swoim modelem samolotu, musi uważać bo jest silny wiatr. Z silnika samolotu się dymi i <u><b>wszyscy</u></b> się na to patrzą",
-                "Mój syn <u><b>E</u></b>dek b<u><b>ry</u></b>ka, <u><b>bo</u></b> tak robią <u><b>wszyscy</u></b> jego rówieśnicy"
+            "Wszsycy chcą bić brawo <u><b>dla</u></b> tej <u><b>para</u></b>dy cyrkowca"
         ],
         // opis
         desc: "para[para] - dla/żeby",
@@ -3734,18 +3544,14 @@ id: [
 ],
         // obrazek
         img: [
-                "http://localhost/arbulanguage.com/img/fiszki1/2a.jpg"
+                "http://arbu-1dcc9.web.app/img/fiszkiespanol/2a.jpg"
         ],
         word: [
                 "http://localhost/arbulanguage.com/voice/music.mp4"
         ],
         // historia
         story: [
-                "W <u><b>e</u></b>-sportowej grze silnik samochodu robi <u><b>wry</u></b>, wszyscy chcą takich rajdów, <u><b>bo</u></b> idzie <u><b>dy</u></b>m",
-                "<u><b>Ew</u></b>a robi <u><b>ry</u></b>by, bo będzie robiła zupę rybną, a na drugie placki z <u><b>dy</u></b>ni. <u><b>Każdemu</u></b> to smakowało",
-                "Kr<u><b>ew</u></b> każdego pacjenta jest dokładnie przebadana i organizm <u><b>wsystkich</u></b> pacjentów wraca na właściwe to<u><b>ry</u></b>, bo gdy ma dobrą opieke wraca do zdrowia",
-                "<u><b>E</u></b>dek robi <u><b>wry</u></b> swoim modelem samolotu, musi uważać bo jest silny wiatr. Z silnika samolotu się dymi i <u><b>wszyscy</u></b> się na to patrzą",
-                "Mój syn <u><b>E</u></b>dek b<u><b>ry</u></b>ka, <u><b>bo</u></b> tak robią <u><b>wszyscy</u></b> jego rówieśnicy"
+            ""
         ],
         // opis
         desc: "sentirte[sentirte] - czuć się",
@@ -3776,18 +3582,14 @@ id: [
 ],
         // obrazek
         img: [
-                "http://localhost/arbulanguage.com/img/fiszki1/2a.jpg"
+                "http://arbu-1dcc9.web.app/img/fiszkiespanol/98a.jpg"
         ],
         word: [
                 "http://localhost/arbulanguage.com/voice/music.mp4"
         ],
         // historia
         story: [
-                "W <u><b>e</u></b>-sportowej grze silnik samochodu robi <u><b>wry</u></b>, wszyscy chcą takich rajdów, <u><b>bo</u></b> idzie <u><b>dy</u></b>m",
-                "<u><b>Ew</u></b>a robi <u><b>ry</u></b>by, bo będzie robiła zupę rybną, a na drugie placki z <u><b>dy</u></b>ni. <u><b>Każdemu</u></b> to smakowało",
-                "Kr<u><b>ew</u></b> każdego pacjenta jest dokładnie przebadana i organizm <u><b>wsystkich</u></b> pacjentów wraca na właściwe to<u><b>ry</u></b>, bo gdy ma dobrą opieke wraca do zdrowia",
-                "<u><b>E</u></b>dek robi <u><b>wry</u></b> swoim modelem samolotu, musi uważać bo jest silny wiatr. Z silnika samolotu się dymi i <u><b>wszyscy</u></b> się na to patrzą",
-                "Mój syn <u><b>E</u></b>dek b<u><b>ry</u></b>ka, <u><b>bo</u></b> tak robią <u><b>wszyscy</u></b> jego rówieśnicy"
+            "<u><b>Mech</u></b> <u><b>lepiej</u></b> rośnie od strony północnej - tam gdzie k<u><b>or</u></b>a drzewa"
         ],
         // opis
         desc: "mejor[mehor] - lepiej",
@@ -3818,18 +3620,18 @@ id: [
 ],
         // obrazek
         img: [
-                "http://localhost/arbulanguage.com/img/fiszki1/2a.jpg"
+                "http://arbu-1dcc9.web.app/img/fiszkiespanol/99a.jpg"
         ],
         translate: "Wyjaśniać jasne odpowiedzi dzieciom",
         translateb: "[Explicar respuestas claras a los niños]",
-        srcWord: ["", ''],
-        srcWordimage: "",
+        srcWord: ["http://localhost/arbulanguage.com/filmy/esp/children.mp4", 'Ip Man'],
+        srcWordimage: "http://localhost/arbulanguage.com/filmy/esp/children.png",
         word: [
                 "http://localhost/arbulanguage.com/voice/music.mp4"
         ],
         // historia
         story: [
-                "W <u><b>e</u></b>-sportowej grze silnik samochodu robi <u><b>wry</u></b>, wszyscy chcą takich rajdów, <u><b>bo</u></b> idzie <u><b>dy</u></b>m"
+            "<u><b>Eksp</u></b>ort (<u><b>li</u></b>czny) auto<u><b>kar</u></b>ów powoduje prężność rozwoju spółki. To <u><b>wyjaśnia</u></b> potrzebę działania międzynarodowego"
         ],
         // opis
         desc: "explicar[eksplikar] - wyjaśniać",
@@ -3858,17 +3660,17 @@ id: [
 ],
         // obrazek
         img: [
-                "http://localhost/arbulanguage.com/img/fiszki1/2a.jpg"
+                "http://arbu-1dcc9.web.app/img/fiszkiespanol/100a.jpg"
         ],
         word: [
                 "http://localhost/arbulanguage.com/voice/music.mp4"
         ],
         // historia
         story: [
-                "W <u><b>e</u></b>-sportowej grze silnik samochodu robi <u><b>wry</u></b>, wszyscy chcą takich rajdów, <u><b>bo</u></b> idzie <u><b>dy</u></b>m"
+            "Stadion <u><b>Res</u></b>ovi jest super - jest <u><b>pó</u></b>źno i odbywa sie mecz. Są <u><b>odpowiedzi</u></b> publiczności i jest organizowana kw<u><b>esta</u></b>"
         ],
         // opis
-        desc: "explicar[eksplikar] - wyjaśniać",
+        desc: "respuestas[] - odpowiedzi",
         //zdanie
         sentence1: [
                 "respuestas"
@@ -3894,17 +3696,17 @@ id: [
 ],
         // obrazek
         img: [
-                "http://localhost/arbulanguage.com/img/fiszki1/2a.jpg"
+                "http://arbu-1dcc9.web.app/img/fiszkiespanol/101a.jpg"
         ],
         word: [
                 "http://localhost/arbulanguage.com/voice/music.mp4"
         ],
         // historia
         story: [
-                "W <u><b>e</u></b>-sportowej grze silnik samochodu robi <u><b>wry</u></b>, wszyscy chcą takich rajdów, <u><b>bo</u></b> idzie <u><b>dy</u></b>m"
+            "Jest j<u><b>as</u></b>ne i <u><b>klar</u></b>owne, że warto uczyć się języków"
         ],
         // opis
-        desc: "explicar[eksplikar] - wyjaśniać",
+        desc: "claras[klaras] - ",
         //zdanie
         sentence1: [
                 "claras"
@@ -3930,17 +3732,17 @@ id: [
 ],
         // obrazek
         img: [
-                "http://localhost/arbulanguage.com/img/fiszki1/2a.jpg"
+                "http://arbu-1dcc9.web.app/img/fiszkiespanol/102a.jpg"
         ],
         word: [
                 "http://localhost/arbulanguage.com/voice/music.mp4"
         ],
         // historia
         story: [
-                "W <u><b>e</u></b>-sportowej grze silnik samochodu robi <u><b>wry</u></b>, wszyscy chcą takich rajdów, <u><b>bo</u></b> idzie <u><b>dy</u></b>m"
+            ""
         ],
         // opis
-        desc: "explicar[eksplikar] - wyjaśniać",
+        desc: "a los niños[a los ninios] - ",
         //zdanie
         sentence1: [
                 "a los niños"
@@ -3950,6 +3752,651 @@ id: [
                 "respuestas",
                 "claras",
                 "a los niños"
+        ],
+        //  slowo do nauki
+        key: "everybody",
+        category1: [
+                "sport", "gaming"
+        ],
+        category2: ["osoby", "osoby+czas"],
+                category3: ["Infinitive"]
+},
+{
+id: [
+        103,
+        22
+],
+        // obrazek
+        img: [
+                "http://arbu-1dcc9.web.app/img/fiszkiespanol/103a.jpg"
+        ],
+        translate: "Próbować pysznego jedzenia w nowych miejscach",
+        translateb: "[Probar comida deliciosa en nuevos lugares]",
+        srcWord: ["http://localhost/arbulanguage.com/filmy/esp/restaurant.mp4", 'Matrix 1999'],
+        srcWordimage: "http://localhost/arbulanguage.com/filmy/esp/restaurant.png",
+        word: [
+                "http://localhost/arbulanguage.com/voice/music.mp4"
+        ],
+        // historia
+        story: [
+            "Przewodnik <u><b>prowa</u></b>dzi wycieczkę i <u><b>wyjaśnia</u></b> wszystko turystom, prześlinił sobie lekko <u><b>war</u></b>gę"
+        ],
+        // opis
+        desc: "probar[prowar] - wyjaśniać",
+        //zdanie
+        sentence1: [
+                "Probar"
+        ],
+        sentence: [
+                "Probar",
+                "comida",
+                "deliciosa"
+        ],
+        //  slowo do nauki
+        key: "everybody",
+        category1: [
+                "sport", "gaming"
+        ],
+        category2: ["osoby", "osoby+czas"],
+                category3: ["Infinitive"]
+},
+{
+id: [
+        104,
+        22
+],
+        // obrazek
+        img: [
+                "http://arbu-1dcc9.web.app/img/fiszkiespanol/104a.jpg"
+        ],
+        word: [
+                "http://localhost/arbulanguage.com/voice/music.mp4"
+        ],
+        // historia
+        story: [
+            "Jest zima, zjedliśmy <u><b>posiłek</u></b> i palimy w piecu, z <u><b>komi</u></b>na <u><b>da</u></b>je czarny dym"
+        ],
+        // opis
+        desc: "comida[komida] - posiłek",
+        //zdanie
+        sentence1: [
+                "comida"
+        ],
+        sentence: [
+                "Probar",
+                "comida",
+                "deliciosa"
+        ],
+        //  slowo do nauki
+        key: "everybody",
+        category1: [
+                "sport", "gaming"
+        ],
+        category2: ["osoby", "osoby+czas"],
+                category3: ["Infinitive"]
+},
+{
+id: [
+        105,
+        22
+],
+        // obrazek
+        img: [
+                "http://arbu-1dcc9.web.app/img/fiszkiespanol/2a.jpg"
+        ],
+        word: [
+                "http://localhost/arbulanguage.com/voice/music.mp4"
+        ],
+        // historia
+        story: [
+            "<u><b>Deli</u></b>cje są <u><b>pyszne</u></b>, tylko patrzeć na zegarek ca<u><b>sio</u></b> - kiedy będą zjedzone i to <u><b>sa</u></b>motnie"
+        ],
+        // opis
+        desc: "deliciosa[delisiosa] - pyszne",
+        //zdanie
+        sentence1: [
+                "deliciosa"
+        ],
+        sentence: [
+                "Probar",
+                "comida",
+                "deliciosa"
+        ],
+        //  slowo do nauki
+        key: "everybody",
+        category1: [
+                "sport", "gaming"
+        ],
+        category2: ["osoby", "osoby+czas"],
+                category3: ["Infinitive"]
+},
+{
+id: [
+        106,
+        22
+],
+        // obrazek
+        img: [
+                "http://arbu-1dcc9.web.app/img/fiszkiespanol/3a.jpg"
+        ],
+        word: [
+                "http://localhost/arbulanguage.com/voice/music.mp4"
+        ],
+        // historia
+        story: [
+                "W <u><b>en</u></b>cykopedi jest podstawowa wiedza"
+        ],
+        // opis
+        desc: "en[en] - w",
+        //zdanie
+        sentence2: [
+                "en"
+        ],
+        sentence: [
+                "en",
+                "nuevos",
+                "lugares"
+        ],
+        //  slowo do nauki
+        key: "everybody",
+        category1: [
+                "sport", "gaming"
+        ],
+        category2: ["osoby", "osoby+czas"],
+                category3: ["Infinitive"]
+},
+{
+id: [
+        107,
+        22
+],
+        // obrazek
+        img: [
+                "http://localhost/arbulanguage.com/img/fiszki1/2a.jpg"
+        ],
+        word: [
+                "http://localhost/arbulanguage.com/voice/music.mp4"
+        ],
+        // historia
+        story: [
+            "<u><b>Ewa</u></b> uważa, że kiedy jest <u><b>nu</u></b>ll do zrobienia wtedy jest relaks. Nauczyciel mówi, że to dla <u><b>was</u></b> dobrze, bo są <u><b>nowe</u></b> pomysły"
+        ],
+        // opis
+        desc: "nuevas[nuewas] - nowe",
+        //zdanie
+        sentence2: [
+                "nuevos"
+        ],
+        sentence: [
+                "en",
+                "nuevos",
+                "lugares"
+        ],
+        //  slowo do nauki
+        key: "everybody",
+        category1: [
+                "sport", "gaming"
+        ],
+        category2: ["osoby", "osoby+czas"],
+                category3: ["Infinitive"]
+},
+{
+id: [
+        108,
+        22
+],
+        // obrazek
+        img: [
+                "http://localhost/arbulanguage.com/img/fiszki1/2a.jpg"
+        ],
+        word: [
+                "http://localhost/arbulanguage.com/voice/music.mp4"
+        ],
+        // historia
+        story: [
+            "<u><b>Lu</u></b>bimy te miejsca, w których możemy za<u><b>gar</u></b>ażować swoje auto. Bo wtedy j<u><b>es</u></b>t bezpieczne"
+        ],
+        // opis
+        desc: "lugares[lugares] - miejsca",
+        //zdanie
+        sentence2: [
+                "lugares"
+        ],
+        sentence: [
+                "en",
+                "nuevos",
+                "lugares"
+        ],
+        //  slowo do nauki
+        key: "everybody",
+        category1: [
+                "sport", "gaming"
+        ],
+        category2: ["osoby", "osoby+czas"],
+                category3: ["Infinitive"]
+},
+{
+id: [
+        109,
+        23
+],
+        // obrazek
+        img: [
+                "http://arbu-1dcc9.web.app/img/fiszkiespanol/103a.jpg"
+        ],
+        translate: "Śmiać się razem, oglądając filmy komediowe",
+        translateb: "[Reír huntos mientras miramos pelíkulas komikas]",
+        srcWord: ["http://localhost/arbulanguage.com/filmy/esp/comicas.mp4", 'Matrix 1999'],
+        srcWordimage: "http://localhost/arbulanguage.com/filmy/esp/comicas.png",
+        word: [
+                "http://localhost/arbulanguage.com/voice/music.mp4"
+        ],
+        // historia
+        story: [
+            "Przewodnik <u><b>prowa</u></b>dzi wycieczkę i <u><b>wyjaśnia</u></b> wszystko turystom, prześlinił sobie lekko <u><b>war</u></b>gę"
+        ],
+        // opis
+        desc: "reir[reir] - śmiać się",
+        //zdanie
+        sentence1: [
+                "Reir"
+        ],
+        sentence: [
+                "Reir",
+                "juntos"
+        ],
+        //  slowo do nauki
+        key: "everybody",
+        category1: [
+                "sport", "gaming"
+        ],
+        category2: ["osoby", "osoby+czas"],
+                category3: ["Infinitive"]
+},
+{
+id: [
+        110,
+        23
+],
+        // obrazek
+        img: [
+                "http://localhost/arbulanguage.com/img/fiszki1/2a.jpg"
+        ],
+        word: [
+                "http://localhost/arbulanguage.com/voice/music.mp4"
+        ],
+        // historia
+        story: [
+            "<u><b>Lu</u></b>bimy te miejsca, w których możemy za<u><b>gar</u></b>ażować swoje auto. Bo wtedy j<u><b>es</u></b>t bezpieczne"
+        ],
+        // opis
+        desc: "juntos[huntos] - razem",
+        //zdanie
+        sentence1: [
+                "lugares"
+        ],
+        sentence: [
+                "en",
+                "nuevos",
+                "lugares"
+        ],
+        //  slowo do nauki
+        key: "everybody",
+        category1: [
+                "sport", "gaming"
+        ],
+        category2: ["osoby", "osoby+czas"],
+                category3: ["Infinitive"]
+},
+{
+id: [
+        111,
+        23
+],
+        // obrazek
+        img: [
+                "http://localhost/arbulanguage.com/img/fiszki1/2a.jpg"
+        ],
+        word: [
+                "http://localhost/arbulanguage.com/voice/music.mp4"
+        ],
+        // historia
+        story: [
+            "<u><b>Lu</u></b>bimy te miejsca, w których możemy za<u><b>gar</u></b>ażować swoje auto. Bo wtedy j<u><b>es</u></b>t bezpieczne"
+        ],
+        // opis
+        desc: "mientras[mientras] - podczas",
+        //zdanie
+        sentence2: [
+                "mientras"
+        ],
+        sentence: [
+                "mientras",
+                "miramos",
+                "películas",
+                "cómicas"
+        ],
+        //  slowo do nauki
+        key: "everybody",
+        category1: [
+                "sport", "gaming"
+        ],
+        category2: ["osoby", "osoby+czas"],
+                category3: ["Infinitive"]
+},
+{
+id: [
+        112,
+        23
+],
+        // obrazek
+        img: [
+                "http://localhost/arbulanguage.com/img/fiszki1/2a.jpg"
+        ],
+        word: [
+                "http://localhost/arbulanguage.com/voice/music.mp4"
+        ],
+        // historia
+        story: [
+            "<u><b>Lu</u></b>bimy te miejsca, w których możemy za<u><b>gar</u></b>ażować swoje auto. Bo wtedy j<u><b>es</u></b>t bezpieczne"
+        ],
+        // opis
+        desc: "miramos[miramos] - oglądać",
+        //zdanie
+        sentence2: [
+                "miramos"
+        ],
+        sentence: [
+                "mientras",
+                "miramos",
+                "películas",
+                "cómicas"
+        ],
+        //  slowo do nauki
+        key: "everybody",
+        category1: [
+                "sport", "gaming"
+        ],
+        category2: ["osoby", "osoby+czas"],
+                category3: ["Infinitive"]
+},
+{
+id: [
+        113,
+        23
+],
+        // obrazek
+        img: [
+                "http://localhost/arbulanguage.com/img/fiszki1/2a.jpg"
+        ],
+        word: [
+                "http://localhost/arbulanguage.com/voice/music.mp4"
+        ],
+        // historia
+        story: [
+            ""
+        ],
+        // opis
+        desc: "películas[pelikulas] - filmy",
+        //zdanie
+        sentence2: [
+                "películas"
+        ],
+        sentence: [
+                "mientras",
+                "miramos",
+                "películas",
+                "cómicas"
+        ],
+        //  slowo do nauki
+        key: "everybody",
+        category1: [
+                "sport", "gaming"
+        ],
+        category2: ["osoby", "osoby+czas"],
+                category3: ["Infinitive"]
+},
+{
+id: [
+        114,
+        23
+],
+        // obrazek
+        img: [
+                "http://localhost/arbulanguage.com/img/fiszki1/2a.jpg"
+        ],
+        word: [
+                "http://localhost/arbulanguage.com/voice/music.mp4"
+        ],
+        // historia
+        story: [
+            "<u><b>Lu</u></b>bimy te miejsca, w których możemy za<u><b>gar</u></b>ażować swoje auto. Bo wtedy j<u><b>es</u></b>t bezpieczne"
+        ],
+        // opis
+        desc: "cómicas[comicas] - komediowe",
+        //zdanie
+        sentence2: [
+                "cómicas"
+        ],
+        sentence: [
+                "mientras",
+                "miramos",
+                "películas",
+                "cómicas"
+        ],
+        //  slowo do nauki
+        key: "everybody",
+        category1: [
+                "sport", "gaming"
+        ],
+        category2: ["osoby", "osoby+czas"],
+                category3: ["Infinitive"]
+},
+{
+id: [
+        115,
+        24
+],
+        // obrazek
+        img: [
+                "http://arbu-1dcc9.web.app/img/fiszkiespanol/103a.jpg"
+        ],
+        translate: "Zaprzeczać kłamstwom i zawsze mówić prawdę",
+        translateb: "[Negar mentiras i desir siempre berdad]",
+        srcWord: ["http://localhost/arbulanguage.com/filmy/esp/truth.mp4", 'Matrix 1999'],
+        srcWordimage: "http://localhost/arbulanguage.com/filmy/esp/truth.png",
+        word: [
+                "http://localhost/arbulanguage.com/voice/music.mp4"
+        ],
+        // historia
+        story: [
+            "<u><b>Nega</u></b>tywnym rzeczom częściej się <u><b>zaprzecza</u></b>... Tak robi <u><b>Ar</u></b>tek"
+        ],
+        // opis
+        desc: "negar[negar] - zaprzeczać",
+        //zdanie
+        sentence1: [
+                "Negar"
+        ],
+        sentence: [
+                "Negar",
+                "mentiras"
+        ],
+        //  slowo do nauki
+        key: "everybody",
+        category1: [
+                "sport", "gaming"
+        ],
+        category2: ["osoby", "osoby+czas"],
+                category3: ["Infinitive"]
+},
+{
+id: [
+        116,
+        24
+],
+        // obrazek
+        img: [
+                "http://localhost/arbulanguage.com/img/fiszki1/2a.jpg"
+        ],
+        word: [
+                "http://localhost/arbulanguage.com/voice/music.mp4"
+        ],
+        // historia
+        story: [
+            "Prawda jest jak A<u><b>men</u></b> w pacierzu. Natomiast <u><b>kłamstwo0</u></b> szybko wychodzi. <u><b>Ti</u></b>na jest k<u><b>ras</u></b>nej urody i nie kłamie"
+        ],
+        // opis
+        desc: "mentiras[mentiras] - ",
+        //zdanie
+        sentence1: [
+                "mentiras"
+        ],
+        sentence: [
+                "Negar",
+                "mentiras"
+        ],
+        //  slowo do nauki
+        key: "everybody",
+        category1: [
+                "sport", "gaming"
+        ],
+        category2: ["osoby", "osoby+czas"],
+                category3: ["Infinitive"]
+},
+{
+id: [
+        117,
+        24
+],
+        img: [
+                "http://arbu-1dcc9.web.app/img/fiszkiespanol/64a.jpg"
+        ],
+        word: [
+                "http://localhost/arbulanguage.com/voice/music.mp4"
+        ],
+        // historia
+        story: [
+            "<u><b>I</u></b>dealne <u><b>i</u></b> piękne"
+        ],
+        // opis
+        desc: "y[i] - i",
+        //zdanie
+        sentence2: [
+                "y"
+        ],
+        sentence: [
+                "y",
+                "decir",
+                "siempre",
+                "verdad"
+        ],
+        //  slowo do nauki
+        key: "everybody",
+        category1: [
+                "sport", "gaming"
+        ],
+        category2: ["osoby", "osoby+czas"],
+                category3: ["Infinitive"]
+},
+{
+id: [
+        118,
+        24
+],
+        // obrazek
+        img: [
+                "http://localhost/arbulanguage.com/img/fiszki1/2a.jpg"
+        ],
+        word: [
+                "http://localhost/arbulanguage.com/voice/music.mp4"
+        ],
+        // historia
+        story: [
+            ""
+        ],
+        // opis
+        desc: "decir[desir] - mówić",
+        //zdanie
+        sentence2: [
+                "decir"
+        ],
+        sentence: [
+                "y",
+                "decir",
+                "siempre",
+                "verdad"
+        ],
+        //  slowo do nauki
+        key: "everybody",
+        category1: [
+                "sport", "gaming"
+        ],
+        category2: ["osoby", "osoby+czas"],
+                category3: ["Infinitive"]
+},
+{
+id: [
+        119,
+        24
+],
+        img: [
+                "http://arbu-1dcc9.web.app/img/fiszkiespanol/71a.jpg"
+        ],
+        word: [
+                "http://localhost/arbulanguage.com/voice/music.mp4"
+        ],
+        // historia
+        story: [
+            "O<u><b>siem</u></b> dni to długo okres na obóz. Obóz robimy <u><b>zawsze</u></b> w <u><b>sie</u></b>rpniu. Obóz nazywa się - <u><b>Pre</u></b>dator"
+        ],
+        // opis
+        desc: "siempre[siempre] - zawsze",
+        //zdanie
+        sentence2: [
+                "siempre"
+        ],
+        sentence: [
+                "y",
+                "decir",
+                "siempre",
+                "verdad"
+        ],
+        //  slowo do nauki
+        key: "everybody",
+        category1: [
+                "sport", "gaming"
+        ],
+        category2: ["osoby", "osoby+czas"],
+                category3: ["Infinitive"]
+},
+{
+id: [
+        120,
+        24
+],
+        // obrazek
+        img: [
+                "http://localhost/arbulanguage.com/img/fiszki1/2a.jpg"
+        ],
+        word: [
+                "http://localhost/arbulanguage.com/voice/music.mp4"
+        ],
+        // historia
+        story: [
+            "<u><b>Ber</u></b>t to znany naukowiec. <u><b>Prawda</u></b> dla niego to za<u><b>da</u></b>nie najważniejsze. Dla <u><b>Ad</u></b>y też."
+        ],
+        // opis
+        desc: "verdad[berdad] - prawda",
+        //zdanie
+        sentence2: [
+                "verdad"
+        ],
+        sentence: [
+                "y",
+                "decir",
+                "siempre",
+                "verdad"
         ],
         //  slowo do nauki
         key: "everybody",
@@ -4049,44 +4496,44 @@ $(document).ready(function () {
 });
 let lessons2b = {};
 
-    // Funkcja do zapisywania danych do localStorage
-    function saveToLocalStorage(data) {
-        localStorage.setItem('wylosowaneLekcje', JSON.stringify(data));
+// Funkcja do zapisywania danych do localStorage
+function saveToLocalStorage(data) {
+    localStorage.setItem('wylosowaneLekcje', JSON.stringify(data));
+}
+
+// Funkcja do wczytywania danych z localStorage
+function loadFromLocalStorage() {
+    const storedData = localStorage.getItem('wylosowaneLekcje');
+    return storedData ? JSON.parse(storedData) : null;
+}
+
+const storedLessons = loadFromLocalStorage();
+
+if (storedLessons) {
+    lessons2b = storedLessons;
+    console.log('Wczytane dane z localStorage:', lessons2b);
+    console.log('hejlekcje', lessons2b[2]);
+
+    // Wywołanie funkcji showFiszki2 po wczytaniu danych
+    setTimeout(() => {
+        console.log('Wywołanie showFiszki2 z wczytanymi danymi');
+        showFiszki2();  // Upewnij się, że ta funkcja jest zdefiniowana
+    }, 0);
+} else {
+    // Jeśli nie ma zapisanych danych, losuj i zapisz
+    for (let i = 1; i <= 30; i++) {
+        lessons2b[i] = [];
     }
 
-    // Funkcja do wczytywania danych z localStorage
-    function loadFromLocalStorage() {
-        const storedData = localStorage.getItem('wylosowaneLekcje');
-        return storedData ? JSON.parse(storedData) : null;
-    }
+    // Zapisz dane do localStorage
+    saveToLocalStorage(lessons2b);
 
-    const storedLessons = loadFromLocalStorage();
-
-    if (storedLessons) {
-        lessons2b = storedLessons;
-        console.log('Wczytane dane z localStorage:', lessons2b);
-        console.log('hejlekcje', lessons2b[2]);
-
-        // Wywołanie funkcji showFiszki2 po wczytaniu danych
-        setTimeout(() => {
-            console.log('Wywołanie showFiszki2 z wczytanymi danymi');
-            showFiszki2();  // Upewnij się, że ta funkcja jest zdefiniowana
-        }, 0);
-    } else {
-        // Jeśli nie ma zapisanych danych, losuj i zapisz
-        for (let i = 1; i <= 30; i++) {
-            lessons2b[i] = [];
-        }
-        
-        // Zapisz dane do localStorage
-        saveToLocalStorage(lessons2b);
-
-        // Wywołanie showFiszki2 po zapisaniu nowych danych
-        setTimeout(() => {
-            console.log('Wywołanie showFiszki2 z nowo wygenerowanymi danymi');
-            showFiszki2();  // Upewnij się, że ta funkcja jest zdefiniowana
-        }, 0);
-    }
+    // Wywołanie showFiszki2 po zapisaniu nowych danych
+    setTimeout(() => {
+        console.log('Wywołanie showFiszki2 z nowo wygenerowanymi danymi');
+        showFiszki2();  // Upewnij się, że ta funkcja jest zdefiniowana
+    }, 0);
+}
 
 
 // Sprawdzanie zawartości lessons2b po załadowaniu danych
@@ -4095,13 +4542,12 @@ function printLessons2b() {
 }
 
 // Wywołaj tę funkcję, gdy masz pewność, że dane zostały załadowane
-document.addEventListener('DOMContentLoaded', function() {
+document.addEventListener('DOMContentLoaded', function () {
     setTimeout(printLessons2b, 1000);  // Opóźnienie dla pewności
 });
+
 function generateFiszkaBlock(fiszka, lessonId2) {
-    console.log('hej555a', lessons2b[0]);
-        console.log('hej555b', lessons2b[1]);
-            console.log('hej555c', lessons2b[2]);
+    console.log('hej555c', lessons2b[2]);
     var currentStoryButtonName = ''; // Zmienna lokalna
     console.log(`Generating fiszka block for ID: [${fiszka.id.join(', ')}]`);
 
@@ -4115,24 +4561,24 @@ function generateFiszkaBlock(fiszka, lessonId2) {
 
             var music = document.getElementById(audioId);
             var pButton = document.getElementById(pButtonId);
-    // Dodajemy style bezpośrednio w kodzie JavaScript
-                if (window.matchMedia("(max-width: 999px)").matches) {
-    pButton.style.height = '100px';  // Zwiększenie wysokości
-    pButton.style.width = '100px';   // Zwiększenie szerokości
-                } else {
-                        pButton.style.height = '60px';  // Zwiększenie wysokości
-    pButton.style.width = '60px';   // Zwiększenie szerokości
-                }
-    pButton.style.border = 'none';   // Usunięcie ramki
-    pButton.style.backgroundSize = '80%';  // Rozmiar obrazka tła
-    pButton.style.backgroundRepeat = 'no-repeat';
-    pButton.style.backgroundPosition = 'center';
-    pButton.style.borderRadius = '8px';   // Zaokrąglenie rogów
-    pButton.style.outline = 'none';       // Usunięcie obramowania
-    pButton.style.display = 'flex';       // Wyśrodkowanie zawartości
-    pButton.style.alignItems = 'center';
-    pButton.style.justifyContent = 'center';
-    pButton.style.overflow = 'hidden';    // Ukrycie nadmiarowego kontentu
+            // Dodajemy style bezpośrednio w kodzie JavaScript
+            if (window.matchMedia("(max-width: 999px)").matches) {
+                pButton.style.height = '100px';  // Zwiększenie wysokości
+                pButton.style.width = '100px';   // Zwiększenie szerokości
+            } else {
+                pButton.style.height = '60px';  // Zwiększenie wysokości
+                pButton.style.width = '60px';   // Zwiększenie szerokości
+            }
+            pButton.style.border = 'none';   // Usunięcie ramki
+            pButton.style.backgroundSize = '80%';  // Rozmiar obrazka tła
+            pButton.style.backgroundRepeat = 'no-repeat';
+            pButton.style.backgroundPosition = 'center';
+            pButton.style.borderRadius = '8px';   // Zaokrąglenie rogów
+            pButton.style.outline = 'none';       // Usunięcie obramowania
+            pButton.style.display = 'flex';       // Wyśrodkowanie zawartości
+            pButton.style.alignItems = 'center';
+            pButton.style.justifyContent = 'center';
+            pButton.style.overflow = 'hidden';    // Ukrycie nadmiarowego kontentu
             console.log('Initialized audio element with ID:', audioId);
             console.log('Initialized play/pause button with ID:', pButtonId);
 
@@ -4166,38 +4612,9 @@ function generateFiszkaBlock(fiszka, lessonId2) {
         }
 
 // TWORZENIE KONTENERA FISZKI
-        const fiszkaContainer = $('<div>').addClass('fiszka fiszka-' + fiszka.id);
+        let fiszkaContainer = $('<div>').addClass('fiszka fiszka-' + fiszka.id);
 
-        // Pobierz istniejące wartości z localStorage (jeśli istnieją)
-        const savedMarginTop = localStorage.getItem('marginTop');
-        const savedMarginBottom = localStorage.getItem('marginBottom');
 
-        console.log('Saved values from localStorage:', savedMarginTop, savedMarginBottom);
-
-        // Ustaw domyślne wartości lub skorzystaj z zapisanych wartości z localStorage
-        let marginTop = savedMarginTop !== null ? JSON.parse(savedMarginTop) : {};
-        let marginBottom = savedMarginBottom !== null ? JSON.parse(savedMarginBottom) : {};
-
-        console.log('Calculated values:', marginTop, marginBottom);
-
-        // Utwórz lub pobierz unikalne wartości marginesów dla danej fiszki
-        const fiszkaId = fiszka.id.join('-');
-
-        // Ustaw margines na zero dla pierwszej fiszki
-        marginTop[fiszkaId] = marginTop[fiszkaId] !== undefined ? marginTop[fiszkaId] : fiszkaId === '1' ? 0 : Math.floor(Math.random() * 160);
-        marginBottom[fiszkaId] = marginBottom[fiszkaId] !== undefined ? marginBottom[fiszkaId] : fiszkaId === '1' ? 0 : Math.floor(Math.random() * 80);
-
-        // Zapisz wartości marginesów do localStorage
-        localStorage.setItem('marginTop', JSON.stringify(marginTop));
-        localStorage.setItem('marginBottom', JSON.stringify(marginBottom));
-
-        console.log('Values after saving to localStorage:', marginTop, marginBottom);
-
-        // Ustaw marginesy w elemencie fiszkaContainer
-        fiszkaContainer.css({
-            'margin-top': `${fiszka.id[0] % 2 === 0 ? -marginTop[fiszkaId] + 170 : -marginTop[fiszkaId] + 40}px`,
-            'margin-bottom': `${fiszka.id[0] % 2 !== 0 ? marginBottom[fiszkaId] + 70 : -marginBottom[fiszkaId] + 50}px`
-        });
 
         // DODANIE OBRAZKA
         const imgContainer = $('<div>').addClass('fiszka_img_container');
@@ -4281,62 +4698,62 @@ function generateFiszkaBlock(fiszka, lessonId2) {
             storyButton.append(iconContainer);
         }
 
-function createLikeOption(like, text) {
-    const likeOption = $('<div>').addClass('likeOption').attr('data-like', like).text(text);
+        function createLikeOption(like, text) {
+            const likeOption = $('<div>').addClass('likeOption').attr('data-like', like).text(text);
 
-    // Dodajemy efekt zmiany koloru na lekko ciemniejszy szary po najechaniu myszką na pojedynczą opcję "like"
-    likeOption.hover(
-        function () {
-            likeOption.css('background-color', '#dcdcdc'); // Lekko ciemniejszy szary kolor tła dla opcji "like"
-        },
-        function () {
-            likeOption.css('background-color', ''); // Usuwamy styl, aby wrócić do domyślnego tła opcji "like"
+            // Dodajemy efekt zmiany koloru na lekko ciemniejszy szary po najechaniu myszką na pojedynczą opcję "like"
+            likeOption.hover(
+                    function () {
+                        likeOption.css('background-color', '#dcdcdc'); // Lekko ciemniejszy szary kolor tła dla opcji "like"
+                    },
+                    function () {
+                        likeOption.css('background-color', ''); // Usuwamy styl, aby wrócić do domyślnego tła opcji "like"
+                    }
+            );
+
+            let likeCounter = 0; // Dodajemy licznik polubień dla każdej opcji "like"
+
+            const counterDiv = $('<div>').addClass('likeCounterDiv'); // Nowy div na licznik
+
+            // Dodajemy ikonę do licznika
+            const likeIcon = getLikeIcon(like);
+            const iconContainer = $('<span>').addClass('likeIconContainer').append(likeIcon);
+            counterDiv.append(iconContainer);
+
+            const likeCounterSpan = $('<span>').addClass('likeCounter').text(` ${likeCounter} `);
+            counterDiv.append(likeCounterSpan); // Licznik jest dodany po ikonie
+
+            imgContainer.append(counterDiv); // Dodajemy licznik na zewnątrz kontenera przycisków
+
+            likeOption.click(function (event) {
+                event.preventDefault(); // Zapobiegamy domyślnej akcji przycisku
+
+                // Inkrementujemy licznik polubień za każdym razem, gdy opcja "like" zostanie wybrana
+                likeCounter++;
+                likeCounterSpan.text(` ${likeCounter} `);
+
+                const selectedLike = $(this).data('like');
+                const selectedIcon = getLikeIcon(selectedLike);
+                likeText.text(text);
+                likeButton.removeClass('liked');
+                addLikeIconToStoryButton(lastClickedIndex, selectedLike); // Dodaj ikonę do story_button na podstawie wybranej opcji "like"
+
+                // Sprawdź, czy index już istnieje w tablicy
+                const existingIndex = selectedLikes.findIndex(item => item.index === lastClickedIndex);
+                if (existingIndex !== -1) {
+                    // Jeśli index istnieje, zaktualizuj wartość
+                    selectedLikes[existingIndex].like = selectedLike;
+                } else {
+                    // Jeśli index nie istnieje, dodaj nowy wpis
+                    selectedLikes.push({index: lastClickedIndex, like: text}); // Dodaj tylko nazwę "like"
+                }
+
+                likeOptionsContainer.fadeOut('fast');
+                saveSelectedLike(selectedLike, text); // Przekazujemy nazwę "like" i tekst do funkcji saveSelectedLike
+            });
+
+            return likeOption;
         }
-    );
-
-    let likeCounter = 0; // Dodajemy licznik polubień dla każdej opcji "like"
-
-    const counterDiv = $('<div>').addClass('likeCounterDiv'); // Nowy div na licznik
-
-    // Dodajemy ikonę do licznika
-    const likeIcon = getLikeIcon(like);
-    const iconContainer = $('<span>').addClass('likeIconContainer').append(likeIcon);
-    counterDiv.append(iconContainer);
-
-    const likeCounterSpan = $('<span>').addClass('likeCounter').text(` ${likeCounter} `);
-    counterDiv.append(likeCounterSpan); // Licznik jest dodany po ikonie
-
-    imgContainer.append(counterDiv); // Dodajemy licznik na zewnątrz kontenera przycisków
-
-    likeOption.click(function (event) {
-        event.preventDefault(); // Zapobiegamy domyślnej akcji przycisku
-
-        // Inkrementujemy licznik polubień za każdym razem, gdy opcja "like" zostanie wybrana
-        likeCounter++;
-        likeCounterSpan.text(` ${likeCounter} `);
-
-        const selectedLike = $(this).data('like');
-        const selectedIcon = getLikeIcon(selectedLike);
-        likeText.text(text);
-        likeButton.removeClass('liked');
-        addLikeIconToStoryButton(lastClickedIndex, selectedLike); // Dodaj ikonę do story_button na podstawie wybranej opcji "like"
-
-        // Sprawdź, czy index już istnieje w tablicy
-        const existingIndex = selectedLikes.findIndex(item => item.index === lastClickedIndex);
-        if (existingIndex !== -1) {
-            // Jeśli index istnieje, zaktualizuj wartość
-            selectedLikes[existingIndex].like = selectedLike;
-        } else {
-            // Jeśli index nie istnieje, dodaj nowy wpis
-            selectedLikes.push({index: lastClickedIndex, like: text}); // Dodaj tylko nazwę "like"
-        }
-
-        likeOptionsContainer.fadeOut('fast');
-        saveSelectedLike(selectedLike, text); // Przekazujemy nazwę "like" i tekst do funkcji saveSelectedLike
-    });
-
-    return likeOption;
-}
 
 // Funkcja do zapisywania wybranego "like"
         function saveSelectedLike(selectedLike, text) {
@@ -4368,53 +4785,53 @@ function createLikeOption(like, text) {
         const hashtagContainer = $('<a>').addClass('hashtag-container').attr('href', '#');
         fiszkaContainer.append(hashtagContainer);
 
-function showStory(index) {
-    const currentFiszka = fiszkaContainer;
+        function showStory(index) {
+            const currentFiszka = fiszkaContainer;
 
-    // Ukrywamy wszystkie historie w tej konkretnej fiszce
-    currentFiszka.find('.fiszka_story').hide();
-    
-    // Obsługa mnemoniki
-    if (Array.isArray(fiszka.story)) {
-        if (index >= 0 && index < fiszka.story.length) {
-            currentFiszka.find('.story-' + index).show();
+            // Ukrywamy wszystkie historie w tej konkretnej fiszce
+            currentFiszka.find('.fiszka_story').hide();
+
+            // Obsługa mnemoniki
+            if (Array.isArray(fiszka.story)) {
+                if (index >= 0 && index < fiszka.story.length) {
+                    currentFiszka.find('.story-' + index).show();
+                }
+            } else if (fiszka.story) {
+                currentFiszka.find('.story-0').show();
+            }
+
+            // Ukrywamy wszystkie obrazy
+            currentFiszka.find('.fiszka_img').hide();
+
+            // Obsługa obrazów
+            let imgIndex; // Zmienna do przechowywania indeksu obrazka
+
+            if (Array.isArray(fiszka.img)) {
+                imgIndex = Math.min(index, fiszka.img.length - 1);
+                currentFiszka.find('.fiszka_img').eq(imgIndex).show();
+                specificLesson2Ref = fiszka.img[imgIndex];
+                console.log("Index obrazka:", imgIndex);
+            } else {
+                imgIndex = 0; // Ustawienie imgIndex na 0, gdy fiszka.img nie jest tablicą
+                currentFiszka.find('.fiszka_img').eq(imgIndex).show();
+                specificLesson2Ref = fiszka.img;
+                console.log("Index obrazka:", imgIndex);
+            }
+
+            lastClickedIndex = index;
+
+            // Obsługa hashtagów
+            const selectedCategoryIndex = index * 2;
+            const value = fiszka.category1[selectedCategoryIndex];
+            const hashtag = fiszka.category1[selectedCategoryIndex + 1];
+
+            hashtagContainer.empty();
+            hashtagContainer.text(`${value} #${hashtag}`);
+
+            console.log('Calculated imgIndex:', imgIndex);
+
+            return imgIndex;
         }
-    } else if (fiszka.story) {
-        currentFiszka.find('.story-0').show();
-    }
-
-    // Ukrywamy wszystkie obrazy
-    currentFiszka.find('.fiszka_img').hide();
-
-    // Obsługa obrazów
-    let imgIndex; // Zmienna do przechowywania indeksu obrazka
-
-    if (Array.isArray(fiszka.img)) {
-        imgIndex = Math.min(index, fiszka.img.length - 1);
-        currentFiszka.find('.fiszka_img').eq(imgIndex).show();
-        specificLesson2Ref = fiszka.img[imgIndex];
-        console.log("Index obrazka:", imgIndex);
-    } else {
-        imgIndex = 0; // Ustawienie imgIndex na 0, gdy fiszka.img nie jest tablicą
-        currentFiszka.find('.fiszka_img').eq(imgIndex).show();
-        specificLesson2Ref = fiszka.img;
-        console.log("Index obrazka:", imgIndex);
-    }
-
-    lastClickedIndex = index;
-
-    // Obsługa hashtagów
-    const selectedCategoryIndex = index * 2;
-    const value = fiszka.category1[selectedCategoryIndex];
-    const hashtag = fiszka.category1[selectedCategoryIndex + 1];
-    
-    hashtagContainer.empty(); 
-    hashtagContainer.text(`${value} #${hashtag}`);
-
-    console.log('Calculated imgIndex:', imgIndex);
-
-    return imgIndex;
-}
 
         function selectLikeButton(index) {
             console.log("Wybór likeButton dla indeksu:", index);
@@ -4487,19 +4904,19 @@ function showStory(index) {
         console.log('Po utworzeniu wordDiv');
 
 // DODANIE MNEMOTECHNIKI
-if (Array.isArray(fiszka.story)) {
-    // Jeśli story jest tablicą, iterujemy przez wszystkie jej elementy
-    fiszka.story.forEach((story, index) => {
-        const storyContainer = $('<div>').addClass('fiszka_story story-' + index).html(story);
-        fiszkaContainer.append(storyContainer);
-        console.log("Dodano story: ", story);  // Debugowanie
-    });
-} else if (fiszka.story) {
-    // Jeśli story jest pojedynczym stringiem, dodajemy go bezpośrednio
-    const storyContainer = $('<div>').addClass('fiszka_story story-0').html(fiszka.story);
-    fiszkaContainer.append(storyContainer);
-    console.log("Dodano story: ", fiszka.story);  // Debugowanie
-}
+        if (Array.isArray(fiszka.story)) {
+            // Jeśli story jest tablicą, iterujemy przez wszystkie jej elementy
+            fiszka.story.forEach((story, index) => {
+                const storyContainer = $('<div>').addClass('fiszka_story story-' + index).html(story);
+                fiszkaContainer.append(storyContainer);
+                console.log("Dodano story: ", story);  // Debugowanie
+            });
+        } else if (fiszka.story) {
+            // Jeśli story jest pojedynczym stringiem, dodajemy go bezpośrednio
+            const storyContainer = $('<div>').addClass('fiszka_story story-0').html(fiszka.story);
+            fiszkaContainer.append(storyContainer);
+            console.log("Dodano story: ", fiszka.story);  // Debugowanie
+        }
         console.log('Przed utworzeniem wordDiv');
 
 // Utworzenie reszty elementów zgodnie z istniejącym kodem
@@ -4592,23 +5009,23 @@ if (Array.isArray(fiszka.story)) {
                             handleLikeButtonClick();
                         });
 
-        if (index === randomIndex) {
-            // Sprawdzamy, czy fiszka.img jest tablicą czy pojedynczą wartością
-            if (Array.isArray(fiszka.img)) {
-                newImgIndex = Math.min(index, fiszka.img.length - 1); // Aktualizacja zmiennej globalnej imgIndex
-                specificLesson2Ref = fiszka.img[newImgIndex];
-                console.log('hej432', specificLesson2Ref);
-            } else if (fiszka.img) {
-                newImgIndex = 0; // Przypisanie domyślnego indeksu dla pojedynczego obrazka
-                specificLesson2Ref = fiszka.img; // Przypisanie pojedynczej wartości do specificLesson2Ref
-                console.log('hej432', specificLesson2Ref);
-            }
-            initialSpecificLesson2Ref = specificLesson2Ref;
-            console.log('Hej7', specificLesson2Ref);
-            storyButton.addClass('green-button');
-            lastClickedButton = storyButton;
-            lastApprovedIndex = index; // Ustaw ostatnio zatwierdzony indeks na indeks losowego przycisku
-        }
+                if (index === randomIndex) {
+                    // Sprawdzamy, czy fiszka.img jest tablicą czy pojedynczą wartością
+                    if (Array.isArray(fiszka.img)) {
+                        newImgIndex = Math.min(index, fiszka.img.length - 1); // Aktualizacja zmiennej globalnej imgIndex
+                        specificLesson2Ref = fiszka.img[newImgIndex];
+                        console.log('hej432', specificLesson2Ref);
+                    } else if (fiszka.img) {
+                        newImgIndex = 0; // Przypisanie domyślnego indeksu dla pojedynczego obrazka
+                        specificLesson2Ref = fiszka.img; // Przypisanie pojedynczej wartości do specificLesson2Ref
+                        console.log('hej432', specificLesson2Ref);
+                    }
+                    initialSpecificLesson2Ref = specificLesson2Ref;
+                    console.log('Hej7', specificLesson2Ref);
+                    storyButton.addClass('green-button');
+                    lastClickedButton = storyButton;
+                    lastApprovedIndex = index; // Ustaw ostatnio zatwierdzony indeks na indeks losowego przycisku
+                }
 
                 // Dodaj typ "like" dla tej fiszki do tablicy
                 storyButtonContainer.append(storyButton);
@@ -4622,36 +5039,36 @@ if (Array.isArray(fiszka.story)) {
 
             // Użycie specificLesson2Ref po załadowaniu strony
             console.log("Początkowy specificLesson2Ref:", initialSpecificLesson2Ref);
-            
+
         } else if (fiszka.category1) {
-    // Jeśli fiszka.category1 nie jest tablicą
-    newImgIndex = 0; // Przypisanie domyślnego indeksu dla pojedynczego obrazka
-    specificLesson2Ref = fiszka.img; // Przypisanie pojedynczej wartości do specificLesson2Ref
-    initialSpecificLesson2Ref = specificLesson2Ref;
-    console.log('Hej7', specificLesson2Ref);
+            // Jeśli fiszka.category1 nie jest tablicą
+            newImgIndex = 0; // Przypisanie domyślnego indeksu dla pojedynczego obrazka
+            specificLesson2Ref = fiszka.img; // Przypisanie pojedynczej wartości do specificLesson2Ref
+            initialSpecificLesson2Ref = specificLesson2Ref;
+            console.log('Hej7', specificLesson2Ref);
 
-    // Stwórz pojedynczy przycisk dla pojedynczej wartości category1
-    const displayText = `${fiszka.category1} #${fiszka.category1}`;
-    const storyButton = $('<button>')
-        .text(displayText)
-        .addClass('story_button2 green-button') // Od razu przypisz zieloną klasę
-        .click(function () {
-            showStory(0); // Przekazujemy 0 jako indeks, ponieważ jest to pojedyncza wartość
-            lastClickedIndex = 0;
+            // Stwórz pojedynczy przycisk dla pojedynczej wartości category1
+            const displayText = `${fiszka.category1} #${fiszka.category1}`;
+            const storyButton = $('<button>')
+                    .text(displayText)
+                    .addClass('story_button2 green-button') // Od razu przypisz zieloną klasę
+                    .click(function () {
+                        showStory(0); // Przekazujemy 0 jako indeks, ponieważ jest to pojedyncza wartość
+                        lastClickedIndex = 0;
 
-            // Zapisujemy ostatnio kliknięty przycisk
-            lastClickedButton = $(this);
-            handleLikeButtonClick();
-        });
+                        // Zapisujemy ostatnio kliknięty przycisk
+                        lastClickedButton = $(this);
+                        handleLikeButtonClick();
+                    });
 
-    fiszkaContainer.append(storyButton);
-    lastClickedButton = storyButton;
-    lastApprovedIndex = 0; // Ustaw ostatnio zatwierdzony indeks na 0
+            fiszkaContainer.append(storyButton);
+            lastClickedButton = storyButton;
+            lastApprovedIndex = 0; // Ustaw ostatnio zatwierdzony indeks na 0
 
-    // WYWOŁANIE POJEDYNCZEJ HISTORII
-    showStory(0);
-    console.log("Pojedyncza wartość dla category1, specificLesson2Ref:", specificLesson2Ref);
-}
+            // WYWOŁANIE POJEDYNCZEJ HISTORII
+            showStory(0);
+            console.log("Pojedyncza wartość dla category1, specificLesson2Ref:", specificLesson2Ref);
+        }
         $('.fiszka_button_trening').click(function () {
             // Dodaj klasę pomarańczową tylko dla przycisku zatwierdzonego
             $('.story_button').each(function (index) {
@@ -4661,47 +5078,47 @@ if (Array.isArray(fiszka.story)) {
                 }
             });
         });
-            console.log('hej555ax', lessons2b[2]);
+        console.log('hej555ax', lessons2b[2]);
 // DODANIE PRZYCISKU TRENING
         fiszkaContainer.append($('<button>').text('TRENING').addClass('fiszka_button fiszka_button_trening').click(function () {
-            
+
             activateFiszka(fiszka.id, false);
-            
-    let id = fiszka.id;
-    let parametr = '';
 
-    // Sprawdzenie, czy idFiszki jest tablicą
-    if (Array.isArray(fiszka.id)) {
-        id = fiszka.id[0];         // Pierwszy element tablicy jako id
-        parametr = fiszka.id[1] || ''; // Drugi element tablicy jako parametr, jeśli istnieje
-    }
+            let id = fiszka.id;
+            let parametr = '';
 
-    // Tworzenie selektora na podstawie id i parametru
-    const className = `fiszka-${id}\\,${parametr}`;
-    const selector = `.${className}`;
-    console.log('hej201', parametr);
+            // Sprawdzenie, czy idFiszki jest tablicą
+            if (Array.isArray(fiszka.id)) {
+                id = fiszka.id[0];         // Pierwszy element tablicy jako id
+                parametr = fiszka.id[1] || ''; // Drugi element tablicy jako parametr, jeśli istnieje
+            }
+
+            // Tworzenie selektora na podstawie id i parametru
+            const className = `fiszka-${id}\\,${parametr}`;
+            const selector = `.${className}`;
+            console.log('hej201', parametr);
             let first = false;
-        // Jeśli parametr jest równy lessons2b[0], uruchom aktywujObrazek
-        if (parametr === lessons2b[0]) {
-            first = true;
-            console.log('hej200', first);
-            
-    }
-    let second = false;
             // Jeśli parametr jest równy lessons2b[0], uruchom aktywujObrazek
-        if (parametr === lessons2b[1]) {
-            second = true;
-            console.log('hej200', second);
-            
-    }
-    let third = false;
+            if (parametr === lessons2b[0]) {
+                first = true;
+                console.log('hej200', first);
+
+            }
+            let second = false;
             // Jeśli parametr jest równy lessons2b[0], uruchom aktywujObrazek
-        if (parametr === lessons2b[2]) {
-            third = true;
-            console.log('hej200', third);
-            
-    }
-            
+            if (parametr === lessons2b[1]) {
+                second = true;
+                console.log('hej200', second);
+
+            }
+            let third = false;
+            // Jeśli parametr jest równy lessons2b[0], uruchom aktywujObrazek
+            if (parametr === lessons2b[2]) {
+                third = true;
+                console.log('hej200', third);
+
+            }
+
             console.log("Trening clicked on fiszka nr " + fiszka.id);
             console.log("lessonId2:", lessonId2);
             console.log("nazwa", lessons2b[2]);
@@ -4743,6 +5160,651 @@ if (Array.isArray(fiszka.story)) {
         initAudio(fiszka.id);
     });
 }
+function generateFiszkaBlock2(fiszka, lessonId2) {
+    console.log('hej555c', lessons2b[2]);
+    var currentStoryButtonName = ''; // Zmienna lokalna
+    console.log(`Generating fiszka block for ID: [${fiszka.id.join(', ')}]`);
+
+    // Tworzenie kontenera fiszki
+
+    $(document).ready(function () {
+
+        function initAudio(fiszkaId) {
+            var audioId = 'music' + fiszkaId;
+            var pButtonId = 'pButton' + fiszkaId;
+
+            var music = document.getElementById(audioId);
+            var pButton = document.getElementById(pButtonId);
+            // Dodajemy style bezpośrednio w kodzie JavaScript
+            if (window.matchMedia("(max-width: 999px)").matches) {
+                pButton.style.height = '100px';  // Zwiększenie wysokości
+                pButton.style.width = '100px';   // Zwiększenie szerokości
+            } else {
+                pButton.style.height = '60px';  // Zwiększenie wysokości
+                pButton.style.width = '60px';   // Zwiększenie szerokości
+            }
+            pButton.style.border = 'none';   // Usunięcie ramki
+            pButton.style.backgroundSize = '80%';  // Rozmiar obrazka tła
+            pButton.style.backgroundRepeat = 'no-repeat';
+            pButton.style.backgroundPosition = 'center';
+            pButton.style.borderRadius = '8px';   // Zaokrąglenie rogów
+            pButton.style.outline = 'none';       // Usunięcie obramowania
+            pButton.style.display = 'flex';       // Wyśrodkowanie zawartości
+            pButton.style.alignItems = 'center';
+            pButton.style.justifyContent = 'center';
+            pButton.style.overflow = 'hidden';    // Ukrycie nadmiarowego kontentu
+            console.log('Initialized audio element with ID:', audioId);
+            console.log('Initialized play/pause button with ID:', pButtonId);
+
+            // Play and Pause
+            function playb() {
+                // start music
+                if (music.paused) {
+                    music.play();
+                    // remove play, add pause
+                    pButton.classList.remove("play");
+                    pButton.classList.add("pause");
+                } else { // pause music
+                    music.pause();
+                    // remove pause, add play
+                    pButton.classList.remove("pause");
+                    pButton.classList.add("play");
+                }
+                console.log('Audio playback status:', music.paused ? 'Paused' : 'Playing');
+            }
+
+            // Gets audio file duration
+            music.addEventListener("canplaythrough", function () {
+                var duration = music.duration;
+                console.log('Audio duration:', duration);
+            }, false);
+
+            // Dodajemy event listener do przycisku play/pause
+            pButton.addEventListener('click', playb);
+
+            console.log('Audio initialization completed.');
+        }
+
+// TWORZENIE KONTENERA FISZKI
+        let fiszkaContainer = $('<div>').addClass('fiszka fiszka-' + fiszka.id);
+    // Dodanie klasy parzysta, jeśli warunki są spełnione
+    if (window.matchMedia("(max-width: 999px)").matches && lessonId2 % 2 === 0) {
+        fiszkaContainer.addClass('parzysta');
+    }
+    // Tworzenie ikony krzyżyka
+    let closeIcon = $('<span>')
+        .addClass('close-icon')
+    .html('&times;') // HTML kod krzyżyka
+    .css({
+        position: 'absolute',
+        top: 'px', // Możesz dostosować pozycję
+        right: '5px',
+        width: '30px', // Szerokość kontenera
+        height: '30px', // Wysokość kontenera (równa szerokości)
+        cursor: 'pointer',
+        color: 'red',
+        fontSize: '40px', // Rozmiar fontu (zmniejszony dla lepszej czytelności)
+        background: 'grey',
+        border: '2px solid black',
+        textAlign: 'center', // Wyrównanie tekstu w poziomie
+        lineHeight: '30px', // Wyrównanie tekstu w pionie (równe wysokości kontenera)
+        zIndex: 1000000
+    });
+
+    // Zdarzenie kliknięcia na krzyżyk
+    closeIcon.on('click', function () {
+        setTimeout(function () {
+        removeFiszka(fiszka.id, lessonId2);
+        }, 1000); // Opóźnienie w milisekundach (tu: 1 sekunda)
+    });
+
+    // Dodanie krzyżyka do fiszki
+    fiszkaContainer.append(closeIcon);
+
+        // DODANIE OBRAZKA
+        const imgContainer = $('<div>').addClass('fiszka_img_container');
+        if (Array.isArray(fiszka.img) && fiszka.img.length > 0) {
+            fiszka.img.forEach((imgSrc, index) => {
+                const imgElement = $('<img class="fiszka_img">').attr('src', imgSrc);
+                imgContainer.append(imgElement);
+                if (index > 0) {
+                    imgElement.hide();
+                }
+            });
+        } else if (typeof fiszka.img === 'string') {
+            // Jeśli jest tylko jedno zdjęcie, dodajemy je do imgContainer dla każdej fiszki
+            const imgElement = $('<img class="fiszka_img">').attr('src', fiszka.img);
+            imgContainer.append(imgElement);
+        }
+        fiszkaContainer.append(imgContainer); //DODANIE OBRAZKA
+
+        const selectedLikes = [];
+        console.log('hej10', selectedLikes);
+
+// Funkcja do obsługi kliknięcia na przycisk "likeButton"
+        function handleLikeButtonClick(index) {
+            const likeButton = $(this);
+            const storyButton = fiszkaContainer.find('.story_button').eq(index);
+            const selectedLike = likeButton.text();
+            console.log('Zaktualizowano przycisk dla indeksu:', index);
+            console.log('Aktualne wartości selectedLikes:', selectedLikes);
+        }
+        const likeButton = $('<a>').addClass('like').attr('href', '#');
+        const likeText = $('<span>').text('Śmieszna historia');
+        likeButton.append(likeText);
+        fiszkaContainer.append(likeButton);
+
+        // Tworzymy kontener opcji "like" i dodajemy opcje do kontenera
+        const likeOptionsContainer = $('<div>').attr('id', 'likeOptionsContainer');
+        const likeOption1 = createLikeOption('thumbsUp', '👍 Śmieszne');
+        const likeOption2 = createLikeOption('heart', '❤️ Miłe');
+        const likeOption3 = createLikeOption('star', '⭐ Pamiętliwe');
+        likeOptionsContainer.append(likeOption1, likeOption2, likeOption3);
+
+        // Dodajemy kontener opcji "like" do docelowego kontenera
+        likeButton.append(likeOptionsContainer);
+
+        // Ukrywamy kontener opcji "like"
+        likeOptionsContainer.hide();
+
+        // Obsługa zdarzenia hover na przycisku "like"
+        likeButton.hover(function () {
+            const buttonPosition = likeButton.offset();
+            const buttonWidth = likeButton.outerWidth();
+
+            // Pozycjonujemy kontener opcji "like" nad przyciskiem
+            likeOptionsContainer.css({
+                top: buttonPosition.top - likeOptionsContainer.outerHeight() - 10,
+                left: buttonPosition.left + (buttonWidth / 2) - (likeOptionsContainer.outerWidth() / 2),
+                backgroundColor: '#f0f0f0', // Dodajemy szary kolor tła
+            }).fadeIn('fast');
+        }, function () {
+            // Ukrywamy kontener opcji "like" po zjechaniu z przycisku
+            likeOptionsContainer.fadeOut('fast');
+        });
+
+// Funkcja do umieszczania ikony obok przycisku "story_button" w odpowiedniej fiszce
+        function addLikeIconToStoryButton(index, like) {
+            const storyButton = fiszkaContainer.find('.story_button').eq(index);
+            if (storyButton.length === 0) {
+                console.error('Nie znaleziono przycisku dla indeksu:', index);
+                return;
+            }
+
+            // Tworzymy kontener dla ikony i dodajemy ikonę
+            const iconContainer = $('<div>').addClass('likeIconContainer');
+            const likeIcon = getLikeIcon(like);
+            iconContainer.append(likeIcon);
+
+            // Usuwamy wcześniej dodaną ikonę, jeśli istnieje
+            storyButton.find('.likeIconContainer').remove();
+
+            // Dodajemy kontener z ikoną do przycisku "story_button"
+            storyButton.append(iconContainer);
+        }
+
+        function createLikeOption(like, text) {
+            const likeOption = $('<div>').addClass('likeOption').attr('data-like', like).text(text);
+
+            // Dodajemy efekt zmiany koloru na lekko ciemniejszy szary po najechaniu myszką na pojedynczą opcję "like"
+            likeOption.hover(
+                    function () {
+                        likeOption.css('background-color', '#dcdcdc'); // Lekko ciemniejszy szary kolor tła dla opcji "like"
+                    },
+                    function () {
+                        likeOption.css('background-color', ''); // Usuwamy styl, aby wrócić do domyślnego tła opcji "like"
+                    }
+            );
+
+            let likeCounter = 0; // Dodajemy licznik polubień dla każdej opcji "like"
+
+            const counterDiv = $('<div>').addClass('likeCounterDiv'); // Nowy div na licznik
+
+            // Dodajemy ikonę do licznika
+            const likeIcon = getLikeIcon(like);
+            const iconContainer = $('<span>').addClass('likeIconContainer').append(likeIcon);
+            counterDiv.append(iconContainer);
+
+            const likeCounterSpan = $('<span>').addClass('likeCounter').text(` ${likeCounter} `);
+            counterDiv.append(likeCounterSpan); // Licznik jest dodany po ikonie
+
+            imgContainer.append(counterDiv); // Dodajemy licznik na zewnątrz kontenera przycisków
+
+            likeOption.click(function (event) {
+                event.preventDefault(); // Zapobiegamy domyślnej akcji przycisku
+
+                // Inkrementujemy licznik polubień za każdym razem, gdy opcja "like" zostanie wybrana
+                likeCounter++;
+                likeCounterSpan.text(` ${likeCounter} `);
+
+                const selectedLike = $(this).data('like');
+                const selectedIcon = getLikeIcon(selectedLike);
+                likeText.text(text);
+                likeButton.removeClass('liked');
+                addLikeIconToStoryButton(lastClickedIndex, selectedLike); // Dodaj ikonę do story_button na podstawie wybranej opcji "like"
+
+                // Sprawdź, czy index już istnieje w tablicy
+                const existingIndex = selectedLikes.findIndex(item => item.index === lastClickedIndex);
+                if (existingIndex !== -1) {
+                    // Jeśli index istnieje, zaktualizuj wartość
+                    selectedLikes[existingIndex].like = selectedLike;
+                } else {
+                    // Jeśli index nie istnieje, dodaj nowy wpis
+                    selectedLikes.push({index: lastClickedIndex, like: text}); // Dodaj tylko nazwę "like"
+                }
+
+                likeOptionsContainer.fadeOut('fast');
+                saveSelectedLike(selectedLike, text); // Przekazujemy nazwę "like" i tekst do funkcji saveSelectedLike
+            });
+
+            return likeOption;
+        }
+
+// Funkcja do zapisywania wybranego "like"
+        function saveSelectedLike(selectedLike, text) {
+            // Tutaj możesz zapisać wybrany "like" w odpowiednim kontekście, np. wysłać go na serwer, zapisać w lokalnym magazynie itp.
+            console.log('Wybrany like:', text);
+            console.log('Tekst:', text);
+            // Jeśli chcesz użyć go w innych miejscach, możesz przekazać go jako argument do innych funkcji lub zmiennych.
+        }
+
+        // Funkcja do pobierania ikony dla wybranego "like"
+        function getLikeIcon(like) {
+            let icon;
+            switch (like) {
+                case 'thumbsUp':
+                    icon = $('<span class="likeIcon">👍</span>');
+                    break;
+                case 'heart':
+                    icon = $('<span class="likeIcon">❤️</span>');
+                    break;
+                case 'star':
+                    icon = $('<span class="likeIcon">⭐</span>');
+                    break;
+                default:
+                    icon = $('<span class="likeIcon">👍</span>');
+            }
+            return icon;
+        }
+
+        const hashtagContainer = $('<a>').addClass('hashtag-container').attr('href', '#');
+        fiszkaContainer.append(hashtagContainer);
+
+        function showStory(index) {
+            const currentFiszka = fiszkaContainer;
+
+            // Ukrywamy wszystkie historie w tej konkretnej fiszce
+            currentFiszka.find('.fiszka_story').hide();
+
+            // Obsługa mnemoniki
+            if (Array.isArray(fiszka.story)) {
+                if (index >= 0 && index < fiszka.story.length) {
+                    currentFiszka.find('.story-' + index).show();
+                }
+            } else if (fiszka.story) {
+                currentFiszka.find('.story-0').show();
+            }
+
+            // Ukrywamy wszystkie obrazy
+            currentFiszka.find('.fiszka_img').hide();
+
+            // Obsługa obrazów
+            let imgIndex; // Zmienna do przechowywania indeksu obrazka
+
+            if (Array.isArray(fiszka.img)) {
+                imgIndex = Math.min(index, fiszka.img.length - 1);
+                currentFiszka.find('.fiszka_img').eq(imgIndex).show();
+                specificLesson2Ref = fiszka.img[imgIndex];
+                console.log("Index obrazka:", imgIndex);
+            } else {
+                imgIndex = 0; // Ustawienie imgIndex na 0, gdy fiszka.img nie jest tablicą
+                currentFiszka.find('.fiszka_img').eq(imgIndex).show();
+                specificLesson2Ref = fiszka.img;
+                console.log("Index obrazka:", imgIndex);
+            }
+
+            lastClickedIndex = index;
+
+            // Obsługa hashtagów
+            const selectedCategoryIndex = index * 2;
+            const value = fiszka.category1[selectedCategoryIndex];
+            const hashtag = fiszka.category1[selectedCategoryIndex + 1];
+
+            hashtagContainer.empty();
+            hashtagContainer.text(`${value} #${hashtag}`);
+
+            console.log('Calculated imgIndex:', imgIndex);
+
+            return imgIndex;
+        }
+
+        function selectLikeButton(index) {
+            console.log("Wybór likeButton dla indeksu:", index);
+            const storyButton = $('.story_button').eq(index);
+            if (!storyButton.length) {
+                console.error('Nie znaleziono przycisku dla indeksu:', index);
+                return;
+            }
+
+            const likeButton = storyButton.find('.like');
+            likeText.find('span').remove();
+            likeText.text('Śmieszna historia');
+
+            // Sprawdź, czy index jest zawarty w tablicy selectedLikes
+            const selectedLike = selectedLikes.find(item => item.index === index);
+            if (selectedLike) {
+                // Jeśli index istnieje w tablicy, ustaw ikonę przycisku na wartość z tablicy
+                console.log("Wybrano like dla indeksu:", index, "- Like:", selectedLike.like);
+                const selectedIcon = getLikeIcon(selectedLike.like); // Przekazujemy tylko nazwę ikony
+                console.log('hej5', selectedIcon);
+                likeText.html(selectedLike.like); // Ustawiamy ikonę
+            } else {
+                // Jeśli index nie istnieje, ustaw domyślny tekst
+                console.log("Brak wyboru like dla indeksu:", index, "- Ustawianie domyślnego tekstu");
+                likeButton.text('Śmieszna historia');
+            }
+        }
+        // NIEZNACZĄCE WYJAŚNIENIE SŁOWA
+        const sentenceDiv = $('<div>').attr('id', 'part');
+        fiszka.sentence.forEach(word => {
+            sentenceDiv.append($('<button>').text(word));
+        });
+        // Dodanie diva z przyciskami do kontenera fiszki
+        fiszkaContainer.append(sentenceDiv);
+
+        console.log('Przed utworzeniem wordDiv');
+        const wordDiv = $('<div>').attr('id', 'word');
+        const button = $('<button>').attr('id', 'storyone').html('<b>' + fiszka.desc + '</b>');
+        const audio = $('<audio>').attr({
+            id: 'music' + fiszka.id,
+            preload: 'true'
+        });
+        const source = $('<source>').attr('src', fiszka.word);
+        audio.append(source);
+        const audioplayerDiv = $('<div>').attr('id', 'audioplayer' + fiszka.id).addClass('audioplayer'); // Dodano klasę 'audioplayer'
+        const pButton = $('<button>').attr('id', 'pButton' + fiszka.id).addClass('pButton play').click(function () {
+            console.log('playb called for fiszka.id:', fiszka.id);
+            window['playb' + fiszka.id]();
+        });
+
+        pButton.css({
+            height: '60px',
+            width: '60px',
+            backgroundSize: 'cover',
+            backgroundRepeat: 'no-repeat',
+            backgroundPosition: 'center',
+            float: 'left',
+            outline: 'none',
+            display: 'flex',
+            alignItems: 'center',
+            justifyContent: 'center',
+            overflow: 'hidden'
+        });
+
+        audioplayerDiv.append(pButton);
+        wordDiv.append(button);
+        wordDiv.append(audio);
+        wordDiv.append(audioplayerDiv);
+        fiszkaContainer.append(wordDiv);
+        console.log('Po utworzeniu wordDiv');
+
+// DODANIE MNEMOTECHNIKI
+        if (Array.isArray(fiszka.story)) {
+            // Jeśli story jest tablicą, iterujemy przez wszystkie jej elementy
+            fiszka.story.forEach((story, index) => {
+                const storyContainer = $('<div>').addClass('fiszka_story story-' + index).html(story);
+                fiszkaContainer.append(storyContainer);
+                console.log("Dodano story: ", story);  // Debugowanie
+            });
+        } else if (fiszka.story) {
+            // Jeśli story jest pojedynczym stringiem, dodajemy go bezpośrednio
+            const storyContainer = $('<div>').addClass('fiszka_story story-0').html(fiszka.story);
+            fiszkaContainer.append(storyContainer);
+            console.log("Dodano story: ", fiszka.story);  // Debugowanie
+        }
+        console.log('Przed utworzeniem wordDiv');
+
+// Utworzenie reszty elementów zgodnie z istniejącym kodem
+        const wordDiv2 = $('<div>').attr('id', 'word2');
+        const audio2 = $('<audio>').attr({
+            id: 'music2' + fiszka.id,
+            preload: 'true'
+        });
+        const source2 = $('<source>').attr('src', fiszka.word);
+        audio2.append(source2);
+        const audioplayerDiv2 = $('<div>').attr('id', 'audioplayer2' + fiszka.id).addClass('audioplayer2'); // Dodano klasę 'audioplayer'
+        const pButton2 = $('<button>').attr('id', 'pButton2' + fiszka.id).addClass('pButton play').click(function () {
+            console.log('playb called for fiszka.id:', fiszka.id);
+            window['playb' + fiszka.id]();
+        });
+
+// Utworzenie elementów za pomocą jQuery
+        const timelineDiv = $('<div>').attr('id', 'timeline' + fiszka.id);
+        const playheadDiv = $('<div>').attr('id', 'playhead' + fiszka.id);
+
+// Dodanie playhead do timeline
+        timelineDiv.append(playheadDiv);
+
+// Dodanie elementów do odpowiednich kontenerów
+        audioplayerDiv.append(pButton2);
+        wordDiv2.append(audio2);
+        wordDiv2.append(audioplayerDiv2);
+        wordDiv2.append(timelineDiv); // Dodano timeline do wordDiv
+        fiszkaContainer.append(wordDiv2);
+
+        console.log('Po utworzeniu wordDiv');
+        // Zdefiniuj zmienną początkową na poziomie wyższym
+        let initialSpecificLesson2Ref;
+        let specificLesson2Ref;
+        let lastClickedIndex = null;
+        let lastApprovedIndex = null; // Zmienna do przechowywania ostatnio zatwierdzonego indeksu
+        let approvedIndexes = []; // Tablica przechowująca zatwierdzone indeksy
+        let approvedColors = [];
+
+// DODANIE PRZYCISKÓW
+        if (Array.isArray(fiszka.category1)) {
+            const storyButtonContainer = $('<div>'); // Kontener na przyciski
+            const randomIndex = Math.floor(Math.random() * fiszka.category1.length / 2);
+            let lastClickedButton; // Zmienna do przechowywania ostatnio klikniętego przycisku w danej fiszce
+
+            fiszka.category1.slice(0, 5).forEach((category1, index) => {
+                const valueIndex = index * 2; // Indeks wartości w tablicy, zaczynając od 0
+                const hashtagIndex = valueIndex + 1; // Indeks hashtagu w tablicy
+
+                const value = fiszka.category1[valueIndex];
+                const hashtag = fiszka.category1[hashtagIndex];
+
+                const displayText = `${value} #${hashtag}`;
+
+                const storyButton = $('<button>')
+                        .text(displayText)
+                        .addClass('story_button')
+                        .click(function () {
+                            showStory(index);
+                            lastClickedIndex = index;
+
+                            // Usuwamy zieloną klasę tylko z poprzedniego przycisku w danej fiszce
+                            if (lastClickedButton) {
+                                lastClickedButton.removeClass('green-button');
+                            }
+
+                            // Usuwamy klasę imgIndex z poprzedniego przycisku w danej fiszce
+                            $('.story_button').removeClass((index, className) => (className.match(/imgIndex-\d+/g) || []).join(' '));
+                            // Dodajemy klasę imgIndexNull do przycisków, które nie zostały jeszcze zatwierdzone
+                            $('.fiszka').addClass('imgIndexNull').removeClass('imgIndex-0 imgIndex-1 imgIndex-2 imgIndex-3 imgIndex-4 ');
+
+                            // Dodajemy zieloną klasę tylko dla aktualnie klikniętego przycisku w danej fiszce
+                            $(this).addClass('green-button');
+                            $('.story_button').removeClass('active-button');
+                            $(this).addClass('active-button');
+                            $('.story_button').each(function (index) {
+                                if ($(this).hasClass('orange-button')) {
+                                    $(this).removeClass('green-button');
+                                    $(this).addClass('orange-button');
+                                }
+                            });
+
+                            // Jeśli przycisk został wcześniej zatwierdzony, przywróć jego zatwierdzoną klasę
+                            if (approvedIndexes.includes(lastClickedIndex)) {
+                                fiszkaContainer.addClass('imgIndex-' + lastClickedIndex);
+                            }
+
+                            // Zapisujemy ostatnio kliknięty przycisk w danej fiszce
+                            lastClickedButton = $(this);
+                            handleLikeButtonClick();
+                        });
+
+                if (index === randomIndex) {
+                    // Sprawdzamy, czy fiszka.img jest tablicą czy pojedynczą wartością
+                    if (Array.isArray(fiszka.img)) {
+                        newImgIndex = Math.min(index, fiszka.img.length - 1); // Aktualizacja zmiennej globalnej imgIndex
+                        specificLesson2Ref = fiszka.img[newImgIndex];
+                        console.log('hej432', specificLesson2Ref);
+                    } else if (fiszka.img) {
+                        newImgIndex = 0; // Przypisanie domyślnego indeksu dla pojedynczego obrazka
+                        specificLesson2Ref = fiszka.img; // Przypisanie pojedynczej wartości do specificLesson2Ref
+                        console.log('hej432', specificLesson2Ref);
+                    }
+                    initialSpecificLesson2Ref = specificLesson2Ref;
+                    console.log('Hej7', specificLesson2Ref);
+                    storyButton.addClass('green-button');
+                    lastClickedButton = storyButton;
+                    lastApprovedIndex = index; // Ustaw ostatnio zatwierdzony indeks na indeks losowego przycisku
+                }
+
+                // Dodaj typ "like" dla tej fiszki do tablicy
+                storyButtonContainer.append(storyButton);
+            });
+
+            fiszkaContainer.append(storyButtonContainer);
+
+            // WYWOŁANIE TABLICY
+            showStory(randomIndex);
+            console.log(randomIndex);
+
+            // Użycie specificLesson2Ref po załadowaniu strony
+            console.log("Początkowy specificLesson2Ref:", initialSpecificLesson2Ref);
+
+        } else if (fiszka.category1) {
+            // Jeśli fiszka.category1 nie jest tablicą
+            newImgIndex = 0; // Przypisanie domyślnego indeksu dla pojedynczego obrazka
+            specificLesson2Ref = fiszka.img; // Przypisanie pojedynczej wartości do specificLesson2Ref
+            initialSpecificLesson2Ref = specificLesson2Ref;
+            console.log('Hej7', specificLesson2Ref);
+
+            // Stwórz pojedynczy przycisk dla pojedynczej wartości category1
+            const displayText = `${fiszka.category1} #${fiszka.category1}`;
+            const storyButton = $('<button>')
+                    .text(displayText)
+                    .addClass('story_button2 green-button') // Od razu przypisz zieloną klasę
+                    .click(function () {
+                        showStory(0); // Przekazujemy 0 jako indeks, ponieważ jest to pojedyncza wartość
+                        lastClickedIndex = 0;
+
+                        // Zapisujemy ostatnio kliknięty przycisk
+                        lastClickedButton = $(this);
+                        handleLikeButtonClick();
+                    });
+
+            fiszkaContainer.append(storyButton);
+            lastClickedButton = storyButton;
+            lastApprovedIndex = 0; // Ustaw ostatnio zatwierdzony indeks na 0
+
+            // WYWOŁANIE POJEDYNCZEJ HISTORII
+            showStory(0);
+            console.log("Pojedyncza wartość dla category1, specificLesson2Ref:", specificLesson2Ref);
+        }
+        $('.fiszka_button_trening').click(function () {
+            // Dodaj klasę pomarańczową tylko dla przycisku zatwierdzonego
+            $('.story_button').each(function (index) {
+                if ($(this).hasClass('green-button')) {
+                    $(this).removeClass('green-button');
+                    $(this).addClass('orange-button');
+                }
+            });
+        });
+        console.log('hej555ax', lessons2b[2]);
+// DODANIE PRZYCISKU TRENING
+        fiszkaContainer.append($('<button>').text('TRENING').addClass('fiszka_button fiszka_button_trening').click(function () {
+
+            activateFiszka(fiszka.id, false);
+
+            let id = fiszka.id;
+            let parametr = '';
+
+            // Sprawdzenie, czy idFiszki jest tablicą
+            if (Array.isArray(fiszka.id)) {
+                id = fiszka.id[0];         // Pierwszy element tablicy jako id
+                parametr = fiszka.id[1] || ''; // Drugi element tablicy jako parametr, jeśli istnieje
+            }
+
+            // Tworzenie selektora na podstawie id i parametru
+            const className = `fiszka-${id}\\,${parametr}`;
+            const selector = `.${className}`;
+            console.log('hej201', parametr);
+            let first = false;
+            // Jeśli parametr jest równy lessons2b[0], uruchom aktywujObrazek
+            if (parametr === lessons2b[0]) {
+                first = true;
+                console.log('hej200', first);
+
+            }
+            let second = false;
+            // Jeśli parametr jest równy lessons2b[0], uruchom aktywujObrazek
+            if (parametr === lessons2b[1]) {
+                second = true;
+                console.log('hej200', second);
+
+            }
+            let third = false;
+            // Jeśli parametr jest równy lessons2b[0], uruchom aktywujObrazek
+            if (parametr === lessons2b[2]) {
+                third = true;
+                console.log('hej200', third);
+
+            }
+
+            console.log("Trening clicked on fiszka nr " + fiszka.id);
+            console.log("lessonId2:", lessonId2);
+            console.log("nazwa", lessons2b[2]);
+            // Wyswietlenie danej wartości img dla danej fiszka.id
+            const specificLesson2 = specificLesson2Ref || initialSpecificLesson2Ref;
+            console.log("img dla fiszki o id", fiszka.id, ":", specificLesson2);
+            specificLesson2Ref = fiszka.img;
+            // Znajdź indeks dla danej fiszki w tablicy lessons2[lessonId2]
+            console.log('story55', specificLesson2Ref);
+            // Używamy lastClickedIndex zamiast index
+            imgIndex = showStory(lastClickedIndex); // Wywołanie funkcji showStory i zapisanie zwróconego indeksu obrazka
+            console.log('działa', specificLesson2Ref);
+            aktywujObrazek(first, second, third, specificLesson2, 'obrazek-container2b', true, fiszka, imgIndex); // Przekazanie imgIndex do funkcji aktywujObrazek
+            // Dodajemy zatwierdzony indeks do tablicy
+            approvedIndexes.push(lastClickedIndex);
+            console.log(approvedIndexes);
+
+            // Dodanie zatwierdzonej klasy imgIndex do fiszkaContainer po kliknięciu przycisku "TRENING"
+            fiszkaContainer.addClass('imgIndex-' + lastClickedIndex);
+        }));
+
+        fiszkaContainer.append($('<button>').text('ZNAM').addClass('fiszka_button fiszka_button_znam').click(function () {
+            console.log("Znam clicked on fiszka nr " + fiszka.id);
+            activateFiszka(fiszka.id, true);
+        }));
+
+        // WYWOŁANIE HASHTAGU
+        function updateButtonName(buttonName, fiszkaContainer) {
+            // Usuń poprzednią nazwę, jeśli istnieje
+            fiszkaContainer.find('.fiszka_button_name').remove();
+
+            // Ustaw nazwę w prawym dolnym rogu fiszki
+            const fiszkaButtonNameContainer = $('<div>').addClass('fiszka_button_name').text(buttonName);
+            fiszkaContainer.append(fiszkaButtonNameContainer);
+        }
+        // Dodanie kontenera fiszki do body
+        $(`.image-container4[data-lesson="${lessonId2}"]`).append(fiszkaContainer);
+        console.log(`Generated fiszka block for ID: [${fiszka.id.join(', ')}]`);
+        initAudio(fiszka.id);
+    });
+}
 
 
 
@@ -4759,6 +5821,29 @@ function showFiszki() {
         console.log(fiszka);
         generateFiszkaBlock(fiszka);
     });
+}
+function removeFiszka(idFiszki, lessonId2) {
+    let id = idFiszki;
+    let parametr = '';
+
+    if (Array.isArray(idFiszki)) {
+        // Połącz wartości z tablicy id w jeden ciąg znaków oddzielony przecinkami
+        id = idFiszki.slice(0, 3).join(',');
+        // Obsługa ewentualnego dodatkowego parametru (np. czwartego elementu w tablicy)
+        parametr = idFiszki.length > 3 ? idFiszki[3] : '';
+    }
+
+    // Tworzenie klasy CSS z odpowiednim formatowaniem (poprawione usunięcie przecinków w CSS)
+    const className = `fiszka-${id}${parametr ? '\\,' + parametr : ''}`;
+    const selector = `.${className.replace(/,/g, '\\,')}`;
+    console.log(selector);
+    const $fiszkaToRemove = $(selector);
+    if ($fiszkaToRemove.length) {
+        console.log('Element znaleziony po opóźnieniu, usuwam...');
+        $fiszkaToRemove.remove();
+    } else {
+        console.log('Element nadal nie znaleziony.');
+    }
 }
 // Dodajemy styl dla zielonego przycisku
 $('<style>.green-button { background-color: green; color: white; }</style>').appendTo('head');

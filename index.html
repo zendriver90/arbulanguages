@@ -36,6 +36,15 @@ html, body {
         margin-left: 100px;
         margin-top: -100px;
 }
+#polski5 {
+        display: none;
+        font-size: 14px;
+        position: absolute;
+        z-index: 9999;
+        color: white;
+        margin-left: 400px;
+        margin-top: -100px;
+}
 #jezyk {
     font-size: 20px;
     display: block;
@@ -133,6 +142,7 @@ button {
     color: white;
 }
 #polski2 {
+    top: -10px;
     font-size: 14px;
     position: absolute;
     z-index: 9999;
@@ -145,7 +155,16 @@ button {
         position: absolute;
         z-index: 9999;
         color: white;
-        margin-left: 290px;
+        margin-left: 5px;
+        margin-top: -100px;
+}
+#polski5 {
+        display: block;
+        font-size: 14px;
+        position: absolute;
+        z-index: 9999;
+        color: white;
+        margin-left: 200px;
         margin-top: -100px;
 }
 body {
@@ -212,7 +231,8 @@ button {
 
         <div class="flag-container" id="native-language-container">
             <div data-language="pl">
-                <div id="polski">Polski</div><div id="polski2">(314 słówek.. + 53 słówka)</div>
+                <div id="polski">Polski</div><div id="polski2">(314 słówek - angielski)<br>
+                (43 słówka - hiszpański)</div>
                 <video autoplay loop muted>
                     <source src="start/Poland.mp4" type="video/mp4">
                     Twój przeglądarka nie obsługuje elementu video.
@@ -244,14 +264,17 @@ button {
         <div id="language-options" class="hidden">
             <h2>Wybierz język do nauki: / Select a language to learn:</h2>
             <div class="flag-container" id="learn-language-container"></div>
-            <div id="polski3">(314 słówek.. + 53 słówka)</div>
+            <div id="polski3">(314 słówek... + 53 słówka)</div>
+            <div id="polski5">(102 słówka... + 59 słówek)</div>
         </div>
 <div id="polski4">
-        (AKTUALIZACJA 12.01.25 - GODZINA 16:50: 
+    (AKTUALIZACJA 24.01.25 - GODZINA 19:10
+    ZAKUTALIZOWANIE SZYBKIEJ LEKCJE (POPRAWIENIE PRZYCISKU) - (5 MINUT), DODANIE 59 SŁÓWEK DO JĘZYKA HISZPAŃSKIEGO...
+        (AKTUALIZACJA 12.01.25 - GODZINA 16:50 
     JĘZYK ANGIELSKI - NOWA LEKCJA W PRZYGOTOWANIU, POPRAWIONE TAGI KATEGORII SŁÓWEK(DODANIE NOWEEJ KATEGORII), POPRAWIENIE PRZYCISKU WŁĄCZANIA LEKCJI DLA PC i SMARFONA<br><br>
-    (AKTUALIZACJA 11.01.25 - GODZINA 14:05: 
+    (AKTUALIZACJA 11.01.25 - GODZINA 14:05
     JĘZYK ANGIELSKI - LEKCJA 5 MINUTOWA, DOSTĘPNE TAGI FILMÓW NA SMARTFONA<br><br>
-    (AKTUALIZACJA 10.01.25 - GODZINA 17:40: 
+    (AKTUALIZACJA 10.01.25 - GODZINA 17:40 
     JĘZYK ANGIELSKI - LEKCJA 5 MINUTOWA, DOSTĘPNE WĘDROWANIE POMIĘDZY FISZKAMI) - PC
     </div>
     </div>
@@ -287,6 +310,12 @@ button {
             polski3Element.style.display = 'block';
         } else {
             polski3Element.style.display = 'none';
+        }
+                const polski5Element = document.getElementById('polski5');
+        if (selectedNativeLanguage === 'pl') {
+            polski5Element.style.display = 'block';
+        } else {
+            polski5Element.style.display = 'none';
         }
             }
         });
