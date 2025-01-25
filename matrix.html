@@ -3217,17 +3217,6 @@ ${sentence30}${sentence33}<br>
                                     }
 
                                 }
-                                
-if (rodzaj === "play" && matchingFiszki1.length > 0 && matchingFiszki1[0].category3.length > 0) {
-    const firstCategoryContent = matchingFiszki1[0].category3[0]; // Pierwszy element category3
-    const categorySpan = document.createElement('span');
-    categorySpan.textContent = firstCategoryContent;
-    categorySpan.classList.add('highlight'); // Dodaj opcjonalną klasę
-    categoryHTML = categorySpan.outerHTML; // Uzyskanie HTML elementu
-
-    // Dodaj categoryHTML przed przyciskiem i resztą sentence10
-    
-}
                                 for (let ii = 0; ii < matchingFiszki1.length; ii++) {
                                     const fiszka = matchingFiszki1[ii];
                                     console.log('fiszka2:', fiszka);
@@ -3302,7 +3291,14 @@ if (rodzaj === "play" && matchingFiszki1.length > 0 && matchingFiszki1[0].catego
 
                                     }
                                 }
+if (rodzaj === "play" && matchingFiszki1.length > 0 && matchingFiszki1[0].category3.length > 0) {
+    const firstCategoryContent = matchingFiszki1[0].category3[0]; // Pierwszy element category3
+    const categorySpan = document.createElement('span');
+    categorySpan.textContent = firstCategoryContent;
+    categorySpan.classList.add('highlight'); // Dodaj opcjonalną klasę
+    categoryHTML = categorySpan.outerHTML; // Uzyskanie HTML elementu
 
+}
                                 for (let li = 0; li < matchingFiszki1.length; li++) {
                                     const fiszka = matchingFiszki1[li];
                                     console.log('fiszka:', fiszka);
@@ -3343,46 +3339,19 @@ if (rodzaj === "play" && matchingFiszki1.length > 0 && matchingFiszki1[0].catego
 <div class="sentence1bba">${sentence1bbab}</div>
         <div class="sentence-container">
             <span class="category-container">${categoryHTML2}</span> <!-- categoryHTML dodane obok -->
-            <button class="left-button first-buttonb">+<br></button> <!-- Przycisk po categoryHTML -->
+            <button class="left-buttonb second-button">+<br></button> <!-- Przycisk po categoryHTML -->
             ${sentence20}${sentence22}<br>
         </div>
 <div class="sentence1bb1b">${sentence1bb1b}</div>
 <div class="sentence1bba2">${sentence1bba2}</div>
-<button class="left-buttonbb third-button">+<br></button>
         <div class="sentence-container">
             <span class="category-container">${categoryHTML3}</span> <!-- categoryHTML dodane obok -->
-            <button class="left-button second-buttonb">+<br></button> <!-- Przycisk po categoryHTML -->
+            <button class="left-buttonbb third-button">+<br></button> <!-- Przycisk po categoryHTML -->
             ${sentence30}${sentence33}<br>
         </div>
         <div class="sentence1bb3">${sentence1bb3}</div>
         <div class="sentence1bb1c">${sentence1bb1c}</div>
 `);
-                                if (rodzaj === "play" && matchingFiszki1.length > 0 && matchingFiszki1[0].category3.length > 0) {
-                                                $sentenceDiv.html(`
-        <div class="sentence-container">
-            <span class="category-container">${categoryHTML}</span> <!-- categoryHTML dodane obok -->
-            <button class="left-button first-button">+<br></button> <!-- Przycisk po categoryHTML -->
-            ${sentence10}${sentence12}${sentence11}<br>
-        </div>
-<div class="sentence1bba">${sentence1bba}</div>
-<div class="sentence1bba">${sentence1bbab}</div>
-        <div class="sentence-container">
-            <span class="category-container">${categoryHTML2}</span> <!-- categoryHTML dodane obok -->
-            <button class="left-button second-buttonb">+<br></button> <!-- Przycisk po categoryHTML -->
-            ${sentence20}${sentence22}<br>
-        </div>
-<div class="sentence1bb1b">${sentence1bb1b}</div>
-<div class="sentence1bba2">${sentence1bba2}</div>
-<button class="left-buttonbb third-button">+<br></button>
-        <div class="sentence-container">
-            <span class="category-container">${categoryHTML3}</span> <!-- categoryHTML dodane obok -->
-            <button class="left-button second-buttonb">+<br></button> <!-- Przycisk po categoryHTML -->
-            ${sentence30}${sentence33}<br>
-        </div>
-        <div class="sentence1bb3">${sentence1bb3}</div>
-        <div class="sentence1bb1c">${sentence1bb1c}</div>
-`);
-            }
                                 $('.sentence1bba').html('');
                                 $sentenceDiv.on('click', '.left-button', function () {
 
@@ -3406,11 +3375,8 @@ if (rodzaj === "play" && matchingFiszki1.length > 0 && matchingFiszki1[0].catego
         </div>
 <div class="sentence1bba">${sentence1bba}</div>
         <div class="sentence1bba">${sentence1bbab}</div>
-        <div class="sentence-container">
-            <span class="category-container">${categoryHTML}</span> <!-- categoryHTML dodane obok -->
-            <button class="left-button first-buttonb">+<br></button> <!-- Przycisk po categoryHTML -->
-            ${sentence20}${sentence22}<br>
-        </div>
+<button class="left-buttonb second-button">+<br></button>
+${sentence20}${sentence22}<br>
 <div class="sentence1bb1b">${sentence1bb1b}</div>
 <div class="sentence1bba2">${sentence1bba2}</div>
 <button class="left-buttonbb third-button">+<br></button>
@@ -3418,7 +3384,6 @@ ${sentence30}${sentence33}<br>
         <div class="sentence1bb3">${sentence1bb3}</div>
         <div class="sentence1bb1c">${sentence1bb1c}</div>
 `);
-
                                     // Ustawienie stylu dla przycisków .left-button
                                     $('.sentence1bb1b').html('');
                                     $('.sentence1bba2').html('');
@@ -3459,6 +3424,7 @@ ${sentence30}${sentence33}<br>
 
                     let sentence1bb1b = "";
                     let sentence1bba2 = "";
+                    let categoryHTML2 = ""; // Uzyskanie HTML elementu
                     function addBackgroundToText2b(matchingFiszki2, matchingIndexes, aktualny, lesson2PartLength, matchingIndexes2, rodzaj, matchingIndexes3) {
 
                         $(document).ready(function () {
@@ -3614,13 +3580,6 @@ ${sentence30}${sentence33}<br>
                                     }
 
                                 }
-                                if (rodzaj === "play" && matchingFiszki2.length > 0 && matchingFiszki2[0].category3.length > 0) {
-    const firstCategoryContent2 = matchingFiszki2[0].category3[0]; // Pierwszy element category3
-    const categorySpan2 = document.createElement('span');
-    categorySpan2.textContent = firstCategoryContent2;
-    categorySpan2.classList.add('highlight'); // Dodaj opcjonalną klasę
-    categoryHTML2 = categorySpan2.outerHTML; // Uzyskanie HTML elementu
-}
                                 // Iteracja przez matchingFiszki2 dla sentence2
                                 for (let jj = 0; jj < matchingFiszki2.length; jj++) {
                                     const fiszka = matchingFiszki2[jj];
@@ -3649,6 +3608,14 @@ ${sentence30}${sentence33}<br>
                                         sentence22 += sentencePart2 + " ";
                                     }
                                 }
+                                if (rodzaj === "play" && matchingFiszki2.length > 0 && matchingFiszki2[0].category3.length > 0) {
+    const firstCategoryContent = matchingFiszki2[0].category3[0]; // Pierwszy element category3
+    const categorySpan = document.createElement('span');
+    categorySpan.textContent = firstCategoryContent;
+    categorySpan.classList.add('highlight'); // Dodaj opcjonalną klasę
+    categoryHTML2 = categorySpan.outerHTML; // Uzyskanie HTML elementu
+
+}
                                 for (let li = 0; li < matchingFiszki2.length; li++) {
                                     const fiszka = matchingFiszki2[li];
                                     console.log('fiszka:', fiszka);
@@ -3689,46 +3656,19 @@ ${sentence30}${sentence33}<br>
 <div class="sentence1bba">${sentence1bbab}</div>
         <div class="sentence-container">
             <span class="category-container">${categoryHTML2}</span> <!-- categoryHTML dodane obok -->
-            <button class="left-button first-buttonb">+<br></button> <!-- Przycisk po categoryHTML -->
+            <button class="left-buttonb second-button">+<br></button> <!-- Przycisk po categoryHTML -->
             ${sentence20}${sentence22}<br>
         </div>
 <div class="sentence1bb1b">${sentence1bb1b}</div>
 <div class="sentence1bba2">${sentence1bba2}</div>
-<button class="left-buttonbb third-button">+<br></button>
         <div class="sentence-container">
             <span class="category-container">${categoryHTML3}</span> <!-- categoryHTML dodane obok -->
-            <button class="left-button second-buttonb">+<br></button> <!-- Przycisk po categoryHTML -->
+            <button class="left-buttonbb third-button">+<br></button> <!-- Przycisk po categoryHTML -->
             ${sentence30}${sentence33}<br>
         </div>
         <div class="sentence1bb3">${sentence1bb3}</div>
         <div class="sentence1bb1c">${sentence1bb1c}</div>
 `);
-            if (rodzaj === "play" && matchingFiszki2.length > 0 && matchingFiszki2[0].category3.length > 0) {
-                                                $sentenceDiv.html(`
-        <div class="sentence-container">
-            <span class="category-container">${categoryHTML}</span> <!-- categoryHTML dodane obok -->
-            <button class="left-button first-button">+<br></button> <!-- Przycisk po categoryHTML -->
-            ${sentence10}${sentence12}${sentence11}<br>
-        </div>
-<div class="sentence1bba">${sentence1bba}</div>
-<div class="sentence1bba">${sentence1bbab}</div>
-        <div class="sentence-container">
-            <span class="category-container">${categoryHTML2}</span> <!-- categoryHTML dodane obok -->
-            <button class="left-button second-buttonb">+<br></button> <!-- Przycisk po categoryHTML -->
-            ${sentence20}${sentence22}<br>
-        </div>
-<div class="sentence1bb1b">${sentence1bb1b}</div>
-<div class="sentence1bba2">${sentence1bba2}</div>
-<button class="left-buttonbb third-button">+<br></button>
-        <div class="sentence-container">
-            <span class="category-container">${categoryHTML3}</span> <!-- categoryHTML dodane obok -->
-            <button class="left-button second-buttonb">+<br></button> <!-- Przycisk po categoryHTML -->
-            ${sentence30}${sentence33}<br>
-        </div>
-        <div class="sentence1bb3">${sentence1bb3}</div>
-        <div class="sentence1bb1c">${sentence1bb1c}</div>
-`);
-            }
                                 $('.sentence1bb1b').html('');
                                 $('.sentence1bba2').html('');
                                 $sentenceDiv.on('click', '.left-buttonb', function () {
@@ -3752,11 +3692,8 @@ ${sentence30}${sentence33}<br>
         </div>
 <div class="sentence1bba">${sentence1bba}</div>
 <div class="sentence1bba">${sentence1bbab}</div>
-        <div class="sentence-container">
-            <span class="category-container">${categoryHTML}</span> <!-- categoryHTML dodane obok -->
-            <button class="left-button first-buttonb">+<br></button> <!-- Przycisk po categoryHTML -->
-            ${sentence20}${sentence22}<br>
-        </div>
+<button class="left-buttonb second-button">+<br></button>
+${sentence20}${sentence22}<br>
 <div class="sentence1bb1b">${sentence1bb1b}</div>
 <div class="sentence1bba2">${sentence1bba2}</div>
 <button class="left-buttonbb third-button">+<br></button>
@@ -3811,7 +3748,7 @@ ${sentence30}${sentence33}<br>
 
                     let sentence1bb3 = "";
                     let sentence1bb1c = "";
-
+let categoryHTML3 = ""; // Uzyskanie HTML elementu
                     function addBackgroundToText3b(matchingFiszki3, matchingIndexes, aktualny, lesson3PartLength) {
                         $(document).ready(function () {
 setTimeout(() => {
@@ -3997,13 +3934,7 @@ function countCategoryInFiszki2(matchingFiszki3, category) {
                                         sentence30 += sentencePart + " ";
                                 }
                             }
-                                if (rodzaj === "play" && matchingFiszki3.length > 0 && matchingFiszki3[0].category3.length > 0) {
-    const firstCategoryContent3 = matchingFiszki3[0].category3[0]; // Pierwszy element category3
-    const categorySpan3 = document.createElement('span');
-    categorySpan3.textContent = firstCategoryContent3;
-    categorySpan3.classList.add('highlight'); // Dodaj opcjonalną klasę
-    categoryHTML3 = categorySpan3.outerHTML; // Uzyskanie HTML elementu
-}
+
                             for (let lmm = 0; lmm < matchingFiszki3.length; lmm++) {
                                 const fiszka = matchingFiszki3[lmm];
                                 console.log('fiszka2:', fiszka);
@@ -4027,6 +3958,14 @@ function countCategoryInFiszki2(matchingFiszki3, category) {
                                     sentence33 += sentencePart3 + " ";
                                 }
                             }
+                                                            if (rodzaj === "play" && matchingFiszki3.length > 0 && matchingFiszki3[0].category3.length > 0) {
+    const firstCategoryContent = matchingFiszki3[0].category3[0]; // Pierwszy element category3
+    const categorySpan = document.createElement('span');
+    categorySpan.textContent = firstCategoryContent;
+    categorySpan.classList.add('highlight'); // Dodaj opcjonalną klasę
+    categoryHTML3 = categorySpan.outerHTML; // Uzyskanie HTML elementu
+
+}
                             for (let z = 0; z < matchingFiszki3.length; z++) {
                                 const fiszka = matchingFiszki3[z];
                                 let sentencePart444b = fiszka.translateb;
@@ -4051,7 +3990,7 @@ function countCategoryInFiszki2(matchingFiszki3, category) {
                                 sentence1bb1c += sentencePart444 + " ";
                             }
 
-                                                $sentenceDiv.html(`
+                                 $sentenceDiv.html(`
         <div class="sentence-container">
             <span class="category-container">${categoryHTML}</span> <!-- categoryHTML dodane obok -->
             <button class="left-button first-button">+<br></button> <!-- Przycisk po categoryHTML -->
@@ -4061,46 +4000,19 @@ function countCategoryInFiszki2(matchingFiszki3, category) {
 <div class="sentence1bba">${sentence1bbab}</div>
         <div class="sentence-container">
             <span class="category-container">${categoryHTML2}</span> <!-- categoryHTML dodane obok -->
-            <button class="left-button second-buttonb">+<br></button> <!-- Przycisk po categoryHTML -->
+            <button class="left-buttonb second-button">+<br></button> <!-- Przycisk po categoryHTML -->
             ${sentence20}${sentence22}<br>
         </div>
 <div class="sentence1bb1b">${sentence1bb1b}</div>
 <div class="sentence1bba2">${sentence1bba2}</div>
-<button class="left-buttonbb third-button">+<br></button>
         <div class="sentence-container">
             <span class="category-container">${categoryHTML3}</span> <!-- categoryHTML dodane obok -->
-            <button class="left-button second-buttonb">+<br></button> <!-- Przycisk po categoryHTML -->
+            <button class="left-buttonbb third-button">+<br></button> <!-- Przycisk po categoryHTML -->
             ${sentence30}${sentence33}<br>
         </div>
         <div class="sentence1bb3">${sentence1bb3}</div>
         <div class="sentence1bb1c">${sentence1bb1c}</div>
 `);
-                        if (rodzaj === "play" && matchingFiszki3.length > 0 && matchingFiszki3[0].category3.length > 0) {
-                                                $sentenceDiv.html(`
-        <div class="sentence-container">
-            <span class="category-container">${categoryHTML}</span> <!-- categoryHTML dodane obok -->
-            <button class="left-button first-button">+<br></button> <!-- Przycisk po categoryHTML -->
-            ${sentence10}${sentence12}${sentence11}<br>
-        </div>
-<div class="sentence1bba">${sentence1bba}</div>
-<div class="sentence1bba">${sentence1bbab}</div>
-        <div class="sentence-container">
-            <span class="category-container">${categoryHTML2}</span> <!-- categoryHTML dodane obok -->
-            <button class="left-button second-buttonb">+<br></button> <!-- Przycisk po categoryHTML -->
-            ${sentence20}${sentence22}<br>
-        </div>
-<div class="sentence1bb1b">${sentence1bb1b}</div>
-<div class="sentence1bba2">${sentence1bba2}</div>
-<button class="left-buttonbb third-button">+<br></button>
-        <div class="sentence-container">
-            <span class="category-container">${categoryHTML3}</span> <!-- categoryHTML dodane obok -->
-            <button class="left-button second-buttonb">+<br></button> <!-- Przycisk po categoryHTML -->
-            ${sentence30}${sentence33}<br>
-        </div>
-        <div class="sentence1bb3">${sentence1bb3}</div>
-        <div class="sentence1bb1c">${sentence1bb1c}</div>
-`);
-            }
                                 $('.sentence1bb3').html('');
                                 $('.sentence1bb1c').html('');
                                 $sentenceDiv.on('click', '.left-buttonbb', function () {
@@ -5706,7 +5618,7 @@ ${sentence30}${sentence33}<br>
                     } else {
                         var $sentenceDiv = $('<div></div>');
                         $sentenceDiv.addClass('sentence'); // Dodanie klasy 'sentence'
-                        $sentenceDiv.html(`
+                                $sentenceDiv.html(`
         <div class="sentence-container">
             <span class="category-container">${categoryHTML}</span> <!-- categoryHTML dodane obok -->
             <button class="left-button first-button">+<br></button> <!-- Przycisk po categoryHTML -->
@@ -5714,18 +5626,16 @@ ${sentence30}${sentence33}<br>
         </div>
 <div class="sentence1bba">${sentence1bba}</div>
 <div class="sentence1bba">${sentence1bbab}</div>
-<button class="left-buttonb second-button">+<br></button>
         <div class="sentence-container">
-            <span class="category-container">${categoryHTML}</span> <!-- categoryHTML dodane obok -->
-            <button class="left-button first-button">+<br></button> <!-- Przycisk po categoryHTML -->
+            <span class="category-container">${categoryHTML2}</span> <!-- categoryHTML dodane obok -->
+            <button class="left-buttonb second-button">+<br></button> <!-- Przycisk po categoryHTML -->
             ${sentence20}${sentence22}<br>
         </div>
 <div class="sentence1bb1b">${sentence1bb1b}</div>
 <div class="sentence1bba2">${sentence1bba2}</div>
-<button class="left-buttonbb third-button">+<br></button>
         <div class="sentence-container">
-            <span class="category-container">${categoryHTML}</span> <!-- categoryHTML dodane obok -->
-            <button class="left-button first-button">+<br></button> <!-- Przycisk po categoryHTML -->
+            <span class="category-container">${categoryHTML3}</span> <!-- categoryHTML dodane obok -->
+            <button class="left-buttonbb third-button">+<br></button> <!-- Przycisk po categoryHTML -->
             ${sentence30}${sentence33}<br>
         </div>
         <div class="sentence1bb3">${sentence1bb3}</div>
@@ -6769,10 +6679,9 @@ ${sentence10}${sentence11}<br>
 
                             // Obsługa kliknięcia przycisku overlay
                             $buttonb.on('click', function () {
-$('.run-button3').css({
-    'margin-top': '70px',
-    'display': 'block'
-});
+    $('.run-button3').css({
+        'margin-top': '40px'
+    });
 $buttonb.remove();
                                 // Dodaj kopię wartości indexDiv do tablicy
                                 // Przykład nowej wartości indexDiv
