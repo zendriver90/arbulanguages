@@ -12,8 +12,8 @@
 
             gtag('config', 'G-Z12KVYCV43');
         </script>
-
         <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+                <meta charset="UTF-8">
         <link rel="stylesheet" type="text/css" href="css/alert.css">
         <link rel="stylesheet" type="text/css" href="css/lista.css">
                 <link rel="stylesheet" type="text/css" href="js/fiszki.css">
@@ -24,45 +24,9 @@
         <script src="js/storage.js"></script>
         <script src="js/testowyb.js"></script>
         <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
-        <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <style>
             @media (min-width: 999px) {
-                .search-wrapper {
-  display: flex;
-  flex-direction: column;
-  gap: .25rem;
-}
-
-input {
-  font-size: 1rem;
-}
-
-.user-cards {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
-  gap: .25rem;
-  margin-top: 1rem;
-}
-
-.card {
-  border: 1px solid black;
-  background-color: white;
-  padding: .5rem;
-}
-
-.card > .header {
-  margin-bottom: .25rem;
-}
-
-.card > .body {
-  font-size: .8rem;
-  color: #777;
-}
-
-.hide {
-  display: none;
-}
                 .sentence-container {
                     display: flex; /* Użyj flexboxa dla wyrównania w linii */
                     align-items: center; /* Wyrównaj pionowo do środka */
@@ -1591,80 +1555,11 @@ span.highlight {
                 <img src="img/lupki3fa.png" alt="Szukaj" class="lupka" id="lupkaImage">
             </button>
         </div>
-          <div class="search-wrapper">
-    <label for="search">Search Users</label>
-    <input type="search" id="search" data-search>
-  </div>
-  <div class="user-cards" data-user-cards-container></div>
-  <template data-user-template>
-    <div class="card">
-      <div class="header" data-header></div>
-      <div class="body" data-body></div>
-    </div>
-  </template>
+
         <div class="toggle-button" id="toggleButton">
             <span id="arrow">&#9660;</span> <!-- Strzałka skierowana w dół -->
         </div>
         <script>
-const searchInput = document.querySelector("[data-search]");
-console.log("Element input:", searchInput); // Sprawdzenie czy input istnieje
-
-let matchingKeys = []; // Globalna tablica pasujących słów
-
-function findMatchingKeys(fiszki, searchValue) {
-    console.log("Rozpoczynam filtrowanie fiszek dla frazy:", searchValue);
-    
-    matchingKeys = fiszki
-        .filter(fiszka => {
-            if (!fiszka.key) return false; // Jeśli brak key, pomijamy
-            return fiszka.key.toLowerCase().startsWith(searchValue);
-        })
-        .map(fiszka => fiszka.key);
-
-    console.log("Pasujące słowa:", matchingKeys);
-}
-
-function findLessonsForWords(fiszki) {
-    let lessonIds = new Set();
-
-    fiszki.forEach(fiszka => {
-        if (!fiszka.key || !fiszka.id) return; // Jeśli brak danych, pomijamy
-        if (matchingKeys.includes(fiszka.key)) {
-            lessonIds.add(fiszka.id[0]);
-        }
-    });
-
-    console.log("Lekcje zawierające szukane słowo:", Array.from(lessonIds));
-    return Array.from(lessonIds);
-}
-let isSearching = false;
-searchInput.addEventListener("input", (e) => {
-    const searchTerm = e.target.value.trim(); // Poprawiony event.target
-    const searchValue = searchTerm.toLowerCase();
-
-    if (searchTerm.length === 1) {
-        isSearching = true;
-        console.log("Rozpoczęto wyszukiwanie:", isSearching);
-    } else if (searchTerm.length === 0) {
-        isSearching = false; // Resetujemy flagę przy pustym input
-        console.log("Pusty input - przerywamy");
-        matchingKeys = []; // Resetujemy tablicę pasujących słów
-        return;
-    }
-
-    console.log("Wpisana fraza:", searchValue);
-    console.log("Tablica fiszek:", fiszki); // Sprawdzamy czy dane istnieją
-
-    findMatchingKeys(fiszki, searchValue);
-    const matchingLessons5 = findLessonsForWords(fiszki);
-
-    console.log("Rozpoczęto wyszukiwanie2:", isSearching);
-    console.log("Znalezione lekcje:", matchingLessons5);
-    console.log("Nowe dane:", tablica3[0]);
-    przekazArgument0(tablica3[2], '', false, tablica3[0], false, false, tablica3[1], null, true, matchingLessons5);
-
-});
-
             let aktualnyObraz = true; // Zmienna do śledzenia aktualnego stanu obrazu
 
             function zmienLupke() {
@@ -1948,7 +1843,7 @@ searchInput.addEventListener("input", (e) => {
             tablica3[1] = null; // Domyślny tryb
             tablica3[2] = 'all'; // Domyślny tryb
             tablica3[4] = null;
-            function przekazArgument0(category, index55, buttonindex, czas, idpolski, idtranslate, id, rodzaj, isSearching, matchingLessons5) {
+            function przekazArgument0(searchKey, category, index55, buttonindex, czas, idpolski, idtranslate, id, rodzaj) {
                 $('.grid-container .image-container3').remove();
                 $('.grid-container .image-container4').remove();
                 tablica3[1] = id;
@@ -1966,10 +1861,8 @@ searchInput.addEventListener("input", (e) => {
                 tablica10.length = 0;
                 tablica15.length = 0;
                 globalIdTranslate = idtranslate;
-                                console.log('nowy30', isSearching);
                 // Wywołaj funkcję wybierzCharakter na podstawie trybu
-                wybierzCharakter(category, tablica3[0], index55, buttonindex, tablica3[1], tablica3[3], rodzaj, isSearching, matchingLessons5);
-
+                wybierzCharakter(searchKey, category, tablica3[0], index55, buttonindex, tablica3[1], tablica3[3], rodzaj);
             }
 
             function ustawTryb(tryb, frazy) {
@@ -1979,7 +1872,7 @@ searchInput.addEventListener("input", (e) => {
             }
             console.log('hej33bb', tablica3);
             // Funkcja wybierająca charakter
-            function wybierzCharakter(category, czas, index55, buttonindex, idpolski, frazyid, rodzaj, isSearching, matchingLessons5) {
+            function wybierzCharakter(searchKey, category, czas, index55, buttonindex, idpolski, frazyid, rodzaj) {
                 console.log('hej223', czas, category, frazyid);
 
                 pulpitstartowy = false;
@@ -1988,8 +1881,9 @@ searchInput.addEventListener("input", (e) => {
                 matchingIndexes = findXForMatchingFiszka(globalCategory, fiszki);
                 matchingIndexes2 = findXForMatchingFiszka2(globalCategory, fiszki);
                 matchingIndexes3 = findXForMatchingFiszka3(globalCategory, fiszki);
+                matchingIndexes4 = findXForMatchingFiszka4(globalCategory, fiszki);
 
-                wybierzRodzaj(globalCategory, czas, matchingIndexes, index55, buttonindex, idpolski, frazyid, matchingIndexes2, rodzaj, matchingIndexes3, isSearching, matchingLessons5);
+                wybierzRodzaj(searchKey, globalCategory, czas, matchingIndexes, index55, buttonindex, idpolski, frazyid, matchingIndexes2, matchingIndexes4, rodzaj, matchingIndexes3);
                 // Wyświetl na konsoli zaktualizowane matchingIndexes
                 console.log("Zaktualizowane matchingIndexes:", matchingIndexes);
                 console.log("wykonuje sie hej", matchingIndexes2);
@@ -2045,6 +1939,21 @@ searchInput.addEventListener("input", (e) => {
                 // Zwracamy tablicę indeksów pasujących "fiszek"
                 console.log('wykonuje się 6bb', matchingIndexes3);
                 return matchingIndexes3;
+            }
+                        function findXForMatchingFiszka4(category, fiszki) {
+                const matchingIndexes4 = [];
+                // Iteruj przez tablicę fiszki
+                console.log('hej234', category);
+                for (let i = 0; i < fiszki.length; i++) {
+                    // Upewnij się, że fiszki[i] oraz fiszki[i].category3 są zdefiniowane
+                    if (fiszki[i] && fiszki[i].category3 && fiszki[i].category3.includes("PresentContinousPodmiot")) {
+                        matchingIndexes4.push(i + 1);
+                        console.log('hej7xxv', matchingIndexes4);
+                    }
+                }
+                // Zwracamy tablicę indeksów pasujących "fiszek"
+                console.log('wykonuje się 6bb', matchingIndexes4);
+                return matchingIndexes4;
             }
             function countCorrelationsForId0(fiszki) {
                 const correlationsCount = [];
@@ -2248,18 +2157,17 @@ searchInput.addEventListener("input", (e) => {
             let losowaniaCounter2 = 0; // Zmienna licznika losowań
             let tablica33 = [];
             let tablica33b = [];
-            function wybierzRodzaj(category, czas, matchingIndexes, index55, buttonindex, idpolski, frazyid, matchingIndexes2, rodzaj, matchingIndexes3, isSearching, matchingLessons5) {
-                category = category || globalCategory;
+            function wybierzRodzaj(searchKey, category, czas, matchingIndexes, index55, buttonindex, idpolski, frazyid, matchingIndexes2, matchingIndexes4, rodzaj, matchingIndexes3) {
+        console.log("Wyszukiwanie dla słowa kluczowego: ", searchKey);        
+        category = category || globalCategory;
                 czasv2 = czas;
                 console.log("Wybrany rodzaj słownictwa: ", buttonindex);
                 console.log('hej5b', index55);
                 console.log('hej755', matchingIndexes2);
 
                 const matchingLessons = new Set();
-                const matchingLessons1b = new Set(matchingLessons5);
                 const matchingLessons2 = new Set();
 // Iteracja przez fiszki
-console.log('hej755', matchingLessons1b);
                 for (const fiszka of fiszki) {
                     let matchingFiszka = false;
                     // Sprawdzenie warunków dla category
@@ -2284,132 +2192,10 @@ console.log('hej755', matchingLessons1b);
                 console.log('matchingLessons2:', matchingLessons2);
                 const uniqueMatchingLessons = Array.from(matchingLessons);
                 const uniqueMatchingLessons2 = Array.from(matchingLessons2);
-                const uniqueMatchingLessons2b = Array.from(matchingLessons1b);
-                    // Pobranie lekcji dla pasujących słów
-                console.log('Unikalne dopasowane lekcjenn:', uniqueMatchingLessons2b);
+                console.log('Unikalne dopasowane lekcje:', uniqueMatchingLessons);
 
-                let myVariable;
+                let myVariable = uniqueMatchingLessons;
 
-                if (!isSearching) {
-                    myVariable = uniqueMatchingLessons;
-                } else if (isSearching) {
-                    myVariable = uniqueMatchingLessons2b;
-                    console.log('myVariable8:', uniqueMatchingLessons2b);
-                }
-                                if (czas === 'fiszki' && czas !== "zdania" && isSearching) {
-                    console.log('Warunek czas === "fiszki" jest spełniony');
-                    $('.grid-container .image-container4').remove();
-                    $('.grid-container .image-container5').remove();
-
-                    if (myVariable.length > 1) {
-                        let zeroWylosowane = false;
-                        let indexDiv = 0;
-                        let cumulativeFirstPartLength1 = 0;
-                        let cumulativeFirstPartLength2 = 0;
-                        let cumulativeFirstPartLength3 = 0;
-
-                        let startIndex = 0;
-                        const lengthDividedByThree = myVariable.length / 3;
-
-                        let indices = Array.from({length: lengthDividedByThree}, (_, i) => i + 1);
-                        let indices2 = [];
-                        for (let i = 1; i <= lengthDividedByThree; i++) {
-                            indices2.push(i);
-                        }
-
-                        console.log('hej12', indices2);
-
-                        const zeroIndex = Math.floor(Math.random() * lengthDividedByThree);
-                        const zeroIndex2 = index55 - 1;
-                        indices[zeroIndex] = 0;
-                        indices2[zeroIndex2] = 0;
-                        losowaniaCounter++; // Inkrementuj licznik przy każdym wywołaniu
-                        tablica33.push(losowaniaCounter); // Dodaj zaktualizowany licznik do tablicy
-                        console.log('hej1113', tablica33); // Wyświetl zawartość tablicy
-                        for (let i = 0; i < myVariable.length; i += 3) {
-                            indexDiv++;
-                            const lessonId1 = myVariable[i];
-                            const lessonId2 = myVariable[i + 1];
-                            const lessonId3 = myVariable[i + 2];
-                            const newIndex = indices[Math.floor(i / 3)];
-                            const index50 = indices2[Math.floor(i / 3)];
-                            console.log('hej16e', indexDiv);
-
-                            const lesson1Sentences = correlationsCount.find(item => item[0] === lessonId1) || [lessonId1, 0];
-                            const lesson2Sentences = correlationsCount.find(item => item[0] === lessonId2) || [lessonId2, 0];
-                            const lesson3Sentences = correlationsCount.find(item => item[0] === lessonId3) || [lessonId3, 0];
-
-                            const lesson1SecondPartLength = partLengths2.find(item => item.id === lessonId1)?.count2 || 0;
-                            const lesson2SecondPartLength = partLengths2.find(item => item.id === lessonId2)?.count2 || 0;
-                            const lesson3SecondPartLength = partLengths2.find(item => item.id === lessonId3)?.count2 || 0;
-
-                            const lesson1FirstPartLength = partLengths1.find(item => item.id === lessonId1)?.count2 || 0;
-                            const lesson2FirstPartLength = partLengths1.find(item => item.id === lessonId2)?.count2 || 0;
-                            const lesson3FirstPartLength = partLengths1.find(item => item.id === lessonId3)?.count2 || 0;
-
-                            const lesson1PartLength = partLengths3.find(item => item.id === lessonId1)?.cumulativeCount || 0;
-                            const lesson2PartLength = partLengths3.find(item => item.id === lessonId2)?.cumulativeCount || 0;
-                            const lesson3PartLength = partLengths3.find(item => item.id === lessonId3)?.cumulativeCount || 0;
-
-                            cumulativeFirstPartLength1 += lesson1PartLength;
-                            cumulativeFirstPartLength2 += lesson2PartLength;
-                            cumulativeFirstPartLength3 += lesson3PartLength;
-
-                            const lessonObject = {
-                                lessonId1: lessonId1,
-                                lessonId2: lessonId2,
-                                lessonId3: lessonId3,
-                                index50: index50,
-                                newIndex: newIndex,
-                                lesson1Sentences: lesson1Sentences,
-                                lesson2Sentences: lesson2Sentences,
-                                lesson3Sentences: lesson3Sentences,
-                                lesson1PartLength: lesson1PartLength,
-                                lesson2PartLength: lesson2PartLength,
-                                lesson3PartLength: lesson3PartLength,
-                                lesson1FirstPartLength: lesson1FirstPartLength,
-                                lesson2FirstPartLength: lesson2FirstPartLength,
-                                lesson3FirstPartLength: lesson3FirstPartLength,
-                                lesson1SecondPartLength: lesson1SecondPartLength,
-                                lesson2SecondPartLength: lesson2SecondPartLength,
-                                lesson3SecondPartLength: lesson3SecondPartLength,
-                                indexDiv: indexDiv
-                            };
-
-                            lessonsArray.push(lessonObject);
-                            console.log('hej34', lessonObject);
-
-                            // Zwiększenie licznika losowań
-                            console.log('Liczba losowań:', losowaniaCounter); // Dodano log licznika losowań
-
-                            // Sprawdzenie, czy osiągnięto limit losowań
-                            if (losowaniaCounter >= 7) {
-                                console.log('Osiągnięto 7 losowań, wyświetlam powiadomienie');
-                                powiadomienieCounter++; // Zwiększenie licznika powiadomień
-
-                                if (confirm('Osiągnięto 7 losowań. Czy chcesz kontynuować losowania?')) {
-                                    console.log('Użytkownik potwierdził dalsze losowania');
-                                    losowaniaCounter = 0; // Zresetowanie licznika losowań
-                                } else {
-                                    console.log('Użytkownik przerwał dalsze losowania');
-                                    break; // Przerwanie pętli, jeśli użytkownik nie chce kontynuować
-                                }
-                            }
-
-                            if (tablica10.length <= 17 || tablica10.length === 0) {
-                                console.log('wykonuje się 8');
-                                console.log('hej32', newIndex);
-                                console.log('hej18', tablica10);
-                                showCombinedSentenceForLesson(matchingIndexes3, rodzaj, matchingIndexes2, buttonindex, index50, lessonId1, lessonId2, lessonId3, fiszki, matchingIndexes, startIndex, newIndex, indexDiv, lessonsArray, lesson1PartLength, lesson2PartLength, lesson3PartLength, lesson1Sentences, lesson2Sentences, lesson3Sentences, lesson1FirstPartLength, lesson2FirstPartLength, lesson3FirstPartLength, lesson1SecondPartLength, lesson2SecondPartLength, lesson3SecondPartLength, cumulativeFirstPartLength1, cumulativeFirstPartLength2, cumulativeFirstPartLength3);
-                            }
-
-                        }
-
-                        console.log('Aktualna zawartość tablicy lessonsArray:', lessonsArray);
-                        const numberOfContainers = $('.image-container3').length;
-                        console.log('Liczba dodanych divów:', numberOfContainers);
-                    }
-                }
                 if (idpolski === 'dlugie') {
                     console.log('Dane correlationsCount:', correlationsCount);
 
@@ -2436,8 +2222,8 @@ console.log('hej755', matchingLessons1b);
                 }
                                 if (idpolski === 'losowyuklad') {
     console.log('Warunek czas === "fiszki" jest spełniony');
-                    $('.grid-container .image-container4').remove();
-                    $('.grid-container .image-container5').remove();
+    $('.grid-container .image-container4').remove();
+    $('.grid-container .image-container5').remove();
 
     console.log('Zawartość myVariable:', myVariable);
     if (myVariable.length > 1) {
@@ -2502,7 +2288,7 @@ console.log('hej755', matchingLessons1b);
 
     try {
         showCombinedSentenceForLesson(
-            matchingIndexes3, rodzaj, matchingIndexes2, buttonindex, group.indexDiv,
+            matchingIndexes3, rodzaj, matchingIndexes2, matchingIndexes4, buttonindex, group.indexDiv,
             group.lessonId1, group.lessonId2, group.lessonId3, fiszki, matchingIndexes,
             startIndex, index, lessonsGroups, lesson1PartLength, lesson2PartLength, lesson3PartLength,
             lesson1Sentences, lesson2Sentences, lesson3Sentences, lesson1FirstPartLength,
@@ -2593,7 +2379,7 @@ console.log('hej755', matchingLessons1b);
 
                 let powiadomienieCounter = 0; // Licznik wyświetleń powiadomień
 
-                if (czas === 'fiszki' && czas !== "zdania" && !isSearching) {
+                if (czas === 'fiszki' && czas !== "zdania") {
                     console.log('Warunek czas === "fiszki" jest spełniony');
                     $('.grid-container .image-container4').remove();
                     $('.grid-container .image-container5').remove();
@@ -2699,7 +2485,7 @@ console.log('hej755', matchingLessons1b);
                                 console.log('wykonuje się 8');
                                 console.log('hej32', newIndex);
                                 console.log('hej18', tablica10);
-                                showCombinedSentenceForLesson(matchingIndexes3, rodzaj, matchingIndexes2, buttonindex, index50, lessonId1, lessonId2, lessonId3, fiszki, matchingIndexes, startIndex, newIndex, indexDiv, lessonsArray, lesson1PartLength, lesson2PartLength, lesson3PartLength, lesson1Sentences, lesson2Sentences, lesson3Sentences, lesson1FirstPartLength, lesson2FirstPartLength, lesson3FirstPartLength, lesson1SecondPartLength, lesson2SecondPartLength, lesson3SecondPartLength, cumulativeFirstPartLength1, cumulativeFirstPartLength2, cumulativeFirstPartLength3);
+                                showCombinedSentenceForLesson(matchingIndexes3, rodzaj, matchingIndexes2, matchingIndexes4, buttonindex, index50, lessonId1, lessonId2, lessonId3, fiszki, matchingIndexes, startIndex, newIndex, indexDiv, lessonsArray, lesson1PartLength, lesson2PartLength, lesson3PartLength, lesson1Sentences, lesson2Sentences, lesson3Sentences, lesson1FirstPartLength, lesson2FirstPartLength, lesson3FirstPartLength, lesson1SecondPartLength, lesson2SecondPartLength, lesson3SecondPartLength, cumulativeFirstPartLength1, cumulativeFirstPartLength2, cumulativeFirstPartLength3);
                             }
 
                         }
@@ -2710,7 +2496,7 @@ console.log('hej755', matchingLessons1b);
                     }
                 }
 
-                if (czas === 'zdania' && czas !== 'fiszki' && !isSearching) {
+                if (czas === 'zdania' && czas !== 'fiszki') {
                     $('.grid-container .image-container3').remove();
                     $('.grid-container .image-container5').remove();
                     // Wyświetl pojedyncze zdania dla znalezionych lekcji
@@ -2872,8 +2658,8 @@ console.log('hej755', matchingLessons1b);
             let tablica12ab = [];
             let tablica12ad = [];
             let tablica12abc = [];
-                            function showCombinedSentenceForLesson(matchingIndexes3, rodzaj, matchingIndexes2, buttonindex, index50, lessonIdToShow1, lessonIdToShow2, lessonIdToShow3, fiszki, matchingIndexes, startIndex, newIndex, indexDiv, lessonsArray, lesson1PartLength, lesson2PartLength, lesson3PartLength, lesson1Sentences, lesson2Sentences, lesson3Sentences, lesson1FirstPartLength, lesson2FirstPartLength, lesson3FirstPartLength, lesson1SecondPartLength, lesson2SecondPartLength, lesson3SecondPartLength, cumulativeFirstPartLength1, cumulativeFirstPartLength2, cumulativeFirstPartLength3) {
-                console.log('hej55bb', fiszki);
+            function showCombinedSentenceForLesson(matchingIndexes3, rodzaj, matchingIndexes2, matchingIndexes4, buttonindex, index50, lessonIdToShow1, lessonIdToShow2, lessonIdToShow3, fiszki, matchingIndexes, startIndex, newIndex, indexDiv, lessonsArray, lesson1PartLength, lesson2PartLength, lesson3PartLength, lesson1Sentences, lesson2Sentences, lesson3Sentences, lesson1FirstPartLength, lesson2FirstPartLength, lesson3FirstPartLength, lesson1SecondPartLength, lesson2SecondPartLength, lesson3SecondPartLength, cumulativeFirstPartLength1, cumulativeFirstPartLength2, cumulativeFirstPartLength3) {
+                console.log('hej55bb', rodzaj);
                 const matchingFiszki1 = fiszki.filter(fiszka => fiszka.id[1] === lessonIdToShow1);
                 const matchingFiszki2 = fiszki.filter(fiszka => fiszka.id[1] === lessonIdToShow2);
                 const matchingFiszki3 = fiszki.filter(fiszka => fiszka.id[1] === lessonIdToShow3);
@@ -3295,7 +3081,7 @@ ${sentence30}${sentence33}<br>
                     let sentence1bba = "";
                     let sentence1bbab = "";
                     let categoryHTML = ""; // Uzyskanie HTML elementu
-                    function addBackgroundToText1b(matchingFiszki1, matchingIndexes, aktualny, lesson1PartLength, matchingIndexes2, rodzaj, matchingIndexes3) {
+                    function addBackgroundToText1b(matchingFiszki1, matchingIndexes, aktualny, lesson1PartLength, matchingIndexes2, matchingIndexes4, rodzaj, matchingIndexes3) {
                         $(document).ready(function () {
 
                             console.log('hejkh', matchingIndexes2);
@@ -3347,8 +3133,14 @@ ${sentence30}${sentence33}<br>
 // Użycie funkcji
                                         const categoryToCount = "PresentSimplePodmiot";
                                         const categoryToCount2 = "PresentSimpleCzasownik";
+                                        const categoryToCount3 = "PresentContinousPodmiot";
+                                        const categoryToCount4 = "PresentContinousToBe";
+                                        const categoryToCount5 = "PresentContinousCzasownik";
                                         const occurrences = countCategoryInFiszki(matchingFiszki1, categoryToCount);
                                         const occurrences2 = countCategoryInFiszki(matchingFiszki1, categoryToCount2);
+                                        const occurrences3 = countCategoryInFiszki(matchingFiszki1, categoryToCount3);
+                                        const occurrences4 = countCategoryInFiszki(matchingFiszki1, categoryToCount4);
+                                        const occurrences5 = countCategoryInFiszki(matchingFiszki1, categoryToCount5);
 // Wypisywanie wyników
                                         console.log('Suma wystąpień:', occurrences2);
                                         // Po zakończeniu iteracji przez fiszkę, sprawdź occurrences
@@ -3357,7 +3149,7 @@ ${sentence30}${sentence33}<br>
                                         // Flaga sprawdzająca, czy podmiot został już dodany
 
                                         if (aktualny && rodzaj === "play" && matchingIndexes2.includes(indexToCheck2)) {
-                                            console.log('hej123', occurrences);
+                                            console.log('hej123v', occurrences);
                                             // Sprawdź, czy to jest pierwsze słowo
                                             if (i === 0 && occurrences[0] === 2) {
                                                 console.log('Podświetlono pierwsze słowo:', fiszka.sentence1[ki]);
@@ -3433,6 +3225,45 @@ ${sentence30}${sentence33}<br>
                                                 podmiotElement.classList.add('blue');
                                                 sentencePart = podmiotElement.outerHTML;
                                                 podmiotElement.textContent = "(czasownik)";
+
+                                                // Rozdziel zdanie na słowa
+                                                let words = sentencePart.split(' ');
+                                                words.splice(3, 0, podmiotElement.outerHTML); // Dodaj podmiot po pierwszym słowie
+                                                sentencePart = words.join(' '); // Połącz z powrotem w jedno zdanie
+
+                                            }
+                                        }
+                                        if (aktualny && rodzaj === "play" && matchingIndexes4.includes(indexToCheck2)) {
+                                            console.log('hej123v', occurrences);
+                                            // Sprawdź, czy to jest pierwsze słowo
+                                            if (i === 0 && occurrences3[0] === 2) {
+                                                console.log('Podświetlono pierwsze słowo:', fiszka.sentence1[ki]);
+                                                const firstWordElement = document.createElement('span');
+                                                firstWordElement.textContent = sentencePart;
+                                                firstWordElement.classList.add('green'); // Dodaj klasę, która podświetla słowo na zielono
+                                                sentencePart = firstWordElement.outerHTML; // Zamień pierwsze słowo na jego wersję z "span"
+                                            }
+                                            // Dodaj podmiot po drugim słowie, jeśli occurrences wynosi 2
+                                            if (i === 1 && occurrences3[0] === 2) {
+                                                console.log('Dodano "podmiot" po drugim słowie:', fiszka.sentence1[ki]);
+                                                const podmiotElement = document.createElement('span');
+                                                podmiotElement.textContent = sentencePart;
+                                                podmiotElement.classList.add('green');
+                                                sentencePart = podmiotElement.outerHTML;
+                                                podmiotElement.textContent = "(podmiot)";
+
+                                                // Rozdziel zdanie na słowa
+                                                let words = sentencePart.split(' ');
+                                                words.splice(2, 0, podmiotElement.outerHTML); // Dodaj podmiot po drugim słowie
+                                                sentencePart = words.join(' '); // Połącz z powrotem w jedno zdanie
+
+                                            } else if (i === 0 && occurrences3[0] === 1) {
+                                                console.log('Dodano "podmiot" po pierwszym słowie:', fiszka.sentence1[ki]);
+                                                const podmiotElement = document.createElement('span');
+                                                podmiotElement.textContent = sentencePart;
+                                                podmiotElement.classList.add('green');
+                                                sentencePart = podmiotElement.outerHTML;
+                                                podmiotElement.textContent = "(podmiot)";
 
                                                 // Rozdziel zdanie na słowa
                                                 let words = sentencePart.split(' ');
@@ -3563,7 +3394,7 @@ if (rodzaj === "play" && matchingFiszki1.length > 0 && matchingFiszki1[0].catego
         <div class="sentence-container">
             <span class="category-container">${categoryHTML}</span>
             <button class="left-button first-button">+<br></button>
-            ${sentence10}${sentence12}${sentence11}<br>
+            ${sentence10}${sentence11}<br>
         </div>
 <div class="sentence1bba">${sentence1bba}</div>
 <div class="sentence1bba">${sentence1bbab}</div>
@@ -3597,20 +3428,26 @@ if (rodzaj === "play" && matchingFiszki1.length > 0 && matchingFiszki1[0].catego
                                     console.log('hej20', sentence1bba);
 
                                     // Dodanie treści do diva wraz z przyciskiem
-                                    $sentenceDiv.html(`
+                                $sentenceDiv.html(`
         <div class="sentence-container">
             <span class="category-container">${categoryHTML}</span>
             <button class="left-button first-button">+<br></button>
-            ${sentence10}${sentence12}${sentence11}<br>
+            ${sentence10}${sentence11}<br>
         </div>
 <div class="sentence1bba">${sentence1bba}</div>
-        <div class="sentence1bba">${sentence1bbab}</div>
-<button class="left-buttonb second-button">+<br></button>
-${sentence20}${sentence22}<br>
+<div class="sentence1bba">${sentence1bbab}</div>
+        <div class="sentence-container">
+            <span class="category-container">${categoryHTML2}</span>
+            <button class="left-buttonb second-button">+<br></button>
+            ${sentence20}${sentence22}<br>
+        </div>
 <div class="sentence1bb1b">${sentence1bb1b}</div>
 <div class="sentence1bba2">${sentence1bba2}</div>
-<button class="left-buttonbb third-button">+<br></button>
-${sentence30}${sentence33}<br>
+        <div class="sentence-container">
+            <span class="category-container">${categoryHTML3}</span>
+            <button class="left-buttonbb third-button">+<br></button>
+            ${sentence30}${sentence33}<br>
+        </div>
         <div class="sentence1bb3">${sentence1bb3}</div>
         <div class="sentence1bb1c">${sentence1bb1c}</div>
 `);
@@ -3655,7 +3492,7 @@ ${sentence30}${sentence33}<br>
                     let sentence1bb1b = "";
                     let sentence1bba2 = "";
                     let categoryHTML2 = ""; // Uzyskanie HTML elementu
-                    function addBackgroundToText2b(matchingFiszki2, matchingIndexes, aktualny, lesson2PartLength, matchingIndexes2, rodzaj, matchingIndexes3) {
+                    function addBackgroundToText2b(matchingFiszki2, matchingIndexes, aktualny, lesson2PartLength, matchingIndexes2, matchingIndexes4, rodzaj, matchingIndexes3) {
 
                         $(document).ready(function () {
                             setTimeout(() => {
@@ -3710,8 +3547,11 @@ ${sentence30}${sentence33}<br>
 // Użycie funkcji
                                         const categoryToCount = "PresentSimplePodmiot";
                                         const categoryToCount2 = "PresentSimpleCzasownik";
+                                        const categoryToCount3 = "PresentContinousPodmiot";
                                         const occurrences = countCategoryInFiszki2(matchingFiszki2, categoryToCount);
                                         const occurrences2 = countCategoryInFiszki2(matchingFiszki2, categoryToCount2);
+                                        const occurrences3 = countCategoryInFiszki2(matchingFiszki2, categoryToCount3);
+                                        
 // Wypisywanie wyników
                                         console.log('Suma wystąpień:', occurrences2);
                                         // Po zakończeniu iteracji przez fiszkę, sprawdź occurrences
@@ -3804,6 +3644,45 @@ ${sentence30}${sentence33}<br>
 
                                             }
                                         }
+                                                                                if (aktualny && rodzaj === "play" && matchingIndexes4.includes(indexToCheck2)) {
+                                            console.log('hej123v', occurrences3);
+                                            // Sprawdź, czy to jest pierwsze słowo
+                                            if (i === 0 && occurrences3[0] === 1) {
+                                                console.log('Podświetlono pierwsze słowo:', fiszka.sentence1[ki]);
+                                                const firstWordElement = document.createElement('span');
+                                                firstWordElement.textContent = sentencePart;
+                                                firstWordElement.classList.add('green'); // Dodaj klasę, która podświetla słowo na zielono
+                                                sentencePart = firstWordElement.outerHTML; // Zamień pierwsze słowo na jego wersję z "span"
+                                            }
+                                            // Dodaj podmiot po drugim słowie, jeśli occurrences wynosi 2
+                                            if (i === 0 && occurrences3[0] === 1) {
+                                                console.log('Dodano "podmiot" po drugim słowie:', fiszka.sentence1[ki]);
+                                                const podmiotElement = document.createElement('span');
+                                                podmiotElement.textContent = sentencePart;
+                                                podmiotElement.classList.add('green');
+                                                sentencePart = podmiotElement.outerHTML;
+                                                podmiotElement.textContent = "(podmiot)";
+
+                                                // Rozdziel zdanie na słowa
+                                                let words = sentencePart.split(' ');
+                                                words.splice(1, 0, podmiotElement.outerHTML); // Dodaj podmiot po drugim słowie
+                                                sentencePart = words.join(' '); // Połącz z powrotem w jedno zdanie
+
+                                            } else if (i === 0 && occurrences3[0] === 2) {
+                                                console.log('Dodano "podmiot" po pierwszym słowie:', fiszka.sentence1[ki]);
+                                                const podmiotElement = document.createElement('span');
+                                                podmiotElement.textContent = sentencePart;
+                                                podmiotElement.classList.add('green');
+                                                sentencePart = podmiotElement.outerHTML;
+                                                podmiotElement.textContent = "(podmiot)";
+
+                                                // Rozdziel zdanie na słowa
+                                                let words = sentencePart.split(' ');
+                                                words.splice(2, 0, podmiotElement.outerHTML); // Dodaj podmiot po pierwszym słowie
+                                                sentencePart = words.join(' '); // Połącz z powrotem w jedno zdanie
+
+                                            }
+                                        }
                                         // Dodaj sentencePart do sentence10
                                         sentence20 += sentencePart + " ";
 
@@ -3880,7 +3759,7 @@ ${sentence30}${sentence33}<br>
         <div class="sentence-container">
             <span class="category-container">${categoryHTML}</span>
             <button class="left-button first-button">+<br></button>
-            ${sentence10}${sentence12}${sentence11}<br>
+            ${sentence10}${sentence11}<br>
         </div>
 <div class="sentence1bba">${sentence1bba}</div>
 <div class="sentence1bba">${sentence1bbab}</div>
@@ -3914,20 +3793,26 @@ ${sentence30}${sentence33}<br>
                                         sentence1bba2 += sentencePart33 + " ";
                                     }
                                     // Dodanie treści do diva wraz z przyciskiem
-                                    $sentenceDiv.html(`
+                                $sentenceDiv.html(`
         <div class="sentence-container">
             <span class="category-container">${categoryHTML}</span>
             <button class="left-button first-button">+<br></button>
-            ${sentence10}${sentence12}${sentence11}<br>
+            ${sentence10}${sentence11}<br>
         </div>
 <div class="sentence1bba">${sentence1bba}</div>
 <div class="sentence1bba">${sentence1bbab}</div>
-<button class="left-buttonb second-button">+<br></button>
-${sentence20}${sentence22}<br>
+        <div class="sentence-container">
+            <span class="category-container">${categoryHTML2}</span>
+            <button class="left-buttonb second-button">+<br></button>
+            ${sentence20}${sentence22}<br>
+        </div>
 <div class="sentence1bb1b">${sentence1bb1b}</div>
 <div class="sentence1bba2">${sentence1bba2}</div>
-<button class="left-buttonbb third-button">+<br></button>
-${sentence30}${sentence33}<br>
+        <div class="sentence-container">
+            <span class="category-container">${categoryHTML3}</span>
+            <button class="left-buttonbb third-button">+<br></button>
+            ${sentence30}${sentence33}<br>
+        </div>
         <div class="sentence1bb3">${sentence1bb3}</div>
         <div class="sentence1bb1c">${sentence1bb1c}</div>
 `);
@@ -3979,7 +3864,7 @@ ${sentence30}${sentence33}<br>
                     let sentence1bb3 = "";
                     let sentence1bb1c = "";
 let categoryHTML3 = ""; // Uzyskanie HTML elementu
-                    function addBackgroundToText3b(matchingFiszki3, matchingIndexes, aktualny, lesson3PartLength) {
+                    function addBackgroundToText3b(matchingFiszki3, matchingIndexes, aktualny, lesson3PartLength, matchingIndexes2, matchingIndexes4, rodzaj, matchingIndexes3) {
                         $(document).ready(function () {
 setTimeout(() => {
                             sentence1bb3 = "";
@@ -4006,7 +3891,7 @@ setTimeout(() => {
                                         sentencePart = spanElement.outerHTML;
                                     }
                                 }
-function countCategoryInFiszki2(matchingFiszki3, category) {
+function countCategoryInFiszki3(matchingFiszki3, category) {
                                             // Zmienna do przechowywania sumy wystąpień
                                             let totalCount = 0;
 
@@ -4027,8 +3912,8 @@ function countCategoryInFiszki2(matchingFiszki3, category) {
 // Użycie funkcji
                                         const categoryToCount = "PresentSimplePodmiot";
                                         const categoryToCount2 = "PresentSimpleCzasownik";
-                                        const occurrences = countCategoryInFiszki2(matchingFiszki3, categoryToCount);
-                                        const occurrences2 = countCategoryInFiszki2(matchingFiszki3, categoryToCount2);
+                                        const occurrences = countCategoryInFiszki3(matchingFiszki3, categoryToCount);
+                                        const occurrences2 = countCategoryInFiszki3(matchingFiszki3, categoryToCount2);
 // Wypisywanie wyników
                                         console.log('Suma wystąpień:', occurrences2);
                                         // Po zakończeniu iteracji przez fiszkę, sprawdź occurrences
@@ -4160,6 +4045,45 @@ function countCategoryInFiszki2(matchingFiszki3, category) {
 
                                             }
                                         }
+                                    if (aktualny && rodzaj === "play" && matchingIndexes4.includes(indexToCheck2)) {
+                                            console.log('hej123v', occurrences3);
+                                            // Sprawdź, czy to jest pierwsze słowo
+                                            if (i === 0 && occurrences3[0] === 1) {
+                                                console.log('Podświetlono pierwsze słowo:', fiszka.sentence1[ki]);
+                                                const firstWordElement = document.createElement('span');
+                                                firstWordElement.textContent = sentencePart;
+                                                firstWordElement.classList.add('green'); // Dodaj klasę, która podświetla słowo na zielono
+                                                sentencePart = firstWordElement.outerHTML; // Zamień pierwsze słowo na jego wersję z "span"
+                                            }
+                                            // Dodaj podmiot po drugim słowie, jeśli occurrences wynosi 2
+                                            if (i === 0 && occurrences3[0] === 1) {
+                                                console.log('Dodano "podmiot" po drugim słowie:', fiszka.sentence1[ki]);
+                                                const podmiotElement = document.createElement('span');
+                                                podmiotElement.textContent = sentencePart;
+                                                podmiotElement.classList.add('green');
+                                                sentencePart = podmiotElement.outerHTML;
+                                                podmiotElement.textContent = "(podmiot)";
+
+                                                // Rozdziel zdanie na słowa
+                                                let words = sentencePart.split(' ');
+                                                words.splice(1, 0, podmiotElement.outerHTML); // Dodaj podmiot po drugim słowie
+                                                sentencePart = words.join(' '); // Połącz z powrotem w jedno zdanie
+
+                                            } else if (i === 0 && occurrences3[0] === 2) {
+                                                console.log('Dodano "podmiot" po pierwszym słowie:', fiszka.sentence1[ki]);
+                                                const podmiotElement = document.createElement('span');
+                                                podmiotElement.textContent = sentencePart;
+                                                podmiotElement.classList.add('green');
+                                                sentencePart = podmiotElement.outerHTML;
+                                                podmiotElement.textContent = "(podmiot)";
+
+                                                // Rozdziel zdanie na słowa
+                                                let words = sentencePart.split(' ');
+                                                words.splice(2, 0, podmiotElement.outerHTML); // Dodaj podmiot po pierwszym słowie
+                                                sentencePart = words.join(' '); // Połącz z powrotem w jedno zdanie
+
+                                            }
+                                        }
                                         // Dodaj sentencePart do sentence10
                                         sentence30 += sentencePart + " ";
                                 }
@@ -4220,11 +4144,11 @@ function countCategoryInFiszki2(matchingFiszki3, category) {
                                 sentence1bb1c += sentencePart444 + " ";
                             }
 
-                                 $sentenceDiv.html(`
+                                $sentenceDiv.html(`
         <div class="sentence-container">
             <span class="category-container">${categoryHTML}</span>
             <button class="left-button first-button">+<br></button>
-            ${sentence10}${sentence12}${sentence11}<br>
+            ${sentence10}${sentence11}<br>
         </div>
 <div class="sentence1bba">${sentence1bba}</div>
 <div class="sentence1bba">${sentence1bbab}</div>
@@ -4257,20 +4181,26 @@ function countCategoryInFiszki2(matchingFiszki3, category) {
                                         sentence1bb1c += sentencePart444 + " ";
                                     }
                                     // Dodanie treści do diva wraz z przyciskiem
-                                    $sentenceDiv.html(`
+                                $sentenceDiv.html(`
         <div class="sentence-container">
             <span class="category-container">${categoryHTML}</span>
             <button class="left-button first-button">+<br></button>
-            ${sentence10}${sentence12}${sentence11}<br>
+            ${sentence10}${sentence11}<br>
         </div>
 <div class="sentence1bba">${sentence1bba}</div>
 <div class="sentence1bba">${sentence1bbab}</div>
-<button class="left-buttonb second-button">+<br></button>
-${sentence20}${sentence22}<br>
+        <div class="sentence-container">
+            <span class="category-container">${categoryHTML2}</span>
+            <button class="left-buttonb second-button">+<br></button>
+            ${sentence20}${sentence22}<br>
+        </div>
 <div class="sentence1bb1b">${sentence1bb1b}</div>
 <div class="sentence1bba2">${sentence1bba2}</div>
-<button class="left-buttonbb third-button">+<br></button>
-${sentence30}${sentence33}<br>
+        <div class="sentence-container">
+            <span class="category-container">${categoryHTML3}</span>
+            <button class="left-buttonbb third-button">+<br></button>
+            ${sentence30}${sentence33}<br>
+        </div>
         <div class="sentence1bb3">${sentence1bb3}</div>
         <div class="sentence1bb1c">${sentence1bb1c}</div>
 `);
@@ -4308,15 +4238,15 @@ ${sentence30}${sentence33}<br>
                         });
                     }
                     
-          
+
+
                     const $container = $('<div></div>'); // Tworzymy nowy element div za pomocą jQuery
                     $container.addClass('image-container3'); // Dodajemy klasę do nowego diva
                     $container.css('position', 'relative'); // Ustawiamy pozycję diva na relative
-                                        // Możesz również dodać dodatkowe atrybuty, takie jak 'data-lesson'
+
+                    // Możesz również dodać dodatkowe atrybuty, takie jak 'data-lesson'
                     $container.attr('data-lesson', indexDiv);
                     $('.grid-container').append($container);
-console.log('hej2222v', $container);
-
 
                     const srcWords = [srcWord1, srcWord2, srcWord3];
                     const srcWordsb = [srcWord1d, srcWord2d, srcWord3d];
@@ -4354,7 +4284,7 @@ console.log('hej2222v', $container);
                                 console.log('hej80', index);
                                 // Sprawdź, czy jesteśmy poza zakresem tablicy
                                 if (index >= srcWords.length && !funkcjaWywolana) {
-                                    przekazArgument0(tablica3[2], undefined, false, tablica3[0], true, true, tablica3[1], tablica3[4], true, '');
+                                    przekazArgument0(tablica3[2], undefined, false, tablica3[0], true, true, tablica3[1], tablica3[4]);
                                     console.log("wykonuje się");
                                     funkcjaWywolana = true;
                                 }
@@ -4568,7 +4498,7 @@ console.log('hej2222v', $container);
                                 console.log('hej80', index);
                                 // Sprawdź, czy jesteśmy poza zakresem tablicy
                                 if (index >= srcWords.length && !funkcjaWywolana) {
-                                    przekazArgument0(tablica3[2], undefined, false, tablica3[0], true, true, tablica3[1], tablica3[4], true, '');
+                                    przekazArgument0(tablica3[2], undefined, false, tablica3[0], true, true, tablica3[1], tablica3[4]);
                                     console.log("wykonuje się");
                                     funkcjaWywolana = true;
                                 }
@@ -5812,9 +5742,9 @@ if (window.matchMedia("(max-width: 999px)").matches) {
                                 });
                             }
                             // Jeśli kontener nie został jeszcze wybrany, wybierz losowy kontener
-                            addBackgroundToText1b(matchingFiszki1, matchingIndexes, true, lesson1PartLength, matchingIndexes2, rodzaj, matchingIndexes3);
-                            addBackgroundToText2b(matchingFiszki2, matchingIndexes, true, lesson2PartLength, matchingIndexes2, rodzaj, matchingIndexes3);
-                            addBackgroundToText3b(matchingFiszki3, matchingIndexes, true, lesson3PartLength);
+                            addBackgroundToText1b(matchingFiszki1, matchingIndexes, true, lesson1PartLength, matchingIndexes2, matchingIndexes4, rodzaj, matchingIndexes3);
+                            addBackgroundToText2b(matchingFiszki2, matchingIndexes, true, lesson2PartLength, matchingIndexes2, matchingIndexes4, rodzaj, matchingIndexes3);
+                            addBackgroundToText3b(matchingFiszki3, matchingIndexes, true, lesson3PartLength, matchingIndexes2, matchingIndexes4, rodzaj, matchingIndexes3);
                         }
                         setTimeout(function () {
                             addVideo3(0);
@@ -5852,7 +5782,7 @@ ${sentence30}${sentence33}<br>
         <div class="sentence-container">
             <span class="category-container">${categoryHTML}</span>
             <button class="left-button first-button">+<br></button>
-            ${sentence10}${sentence12}${sentence11}<br>
+            ${sentence10}${sentence11}<br>
         </div>
 <div class="sentence1bba">${sentence1bba}</div>
 <div class="sentence1bba">${sentence1bbab}</div>
@@ -8906,12 +8836,8 @@ if (window.matchMedia("(min-width: 999px)").matches) {
                     });
                 }
             });
-
-            przekazArgument0(tablica3[2], '', false, 'fiszki', true, true, tablica3[1], tablica3[4], false);
             ustawTryb('fiszki');
+            przekazArgument0(tablica3[2], '', false, 'fiszki', true, true, tablica3[1], tablica3[4]);
 
         </script>
-
-        <script id="demoScript" data-category=""></script>
-    </body>
 </html>

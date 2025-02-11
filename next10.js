@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html>
     <head>
         <!-- Google tag (gtag.js) -->
@@ -11,54 +10,13 @@
   gtag('config', 'G-Z12KVYCV43');
 </script>
         <script src="js/storage.js"></script>
-        <script src="testowy11.js"></script>
+        <script src="js/testowyb.js"></script>
         <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>ARBULANGUAGES.COM<br>DOSTĘPNYCH 150 SŁÓW</title>
         <style>
             @media (min-width: 999px) {
-                .bottom-bar {
-    display: none;
-}
-
-.show {
-    transform: translateY(-60px); /* Pasek widoczny po załadowaniu */
-}
-.hidden {
-    transform: translateY(100%); /* Schowanie paska poza ekran */
-}
-.bottom-button {
-    background-color: #4CAF50;
-    color: white;
-    border: none;
-    padding: 10px;
-    font-size: 8px;
-    border-radius: 5px;
-    cursor: pointer;
-}
-
-.bottom-button:hover {
-    background-color: #45a049;
-}
-
-.lupka {
-    width: 30px;
-    height: 30px;
-    cursor: pointer;
-}
-
-.toggle-button {
-    display: none;
-}
-
-#arrow {
-    font-size: 20px;
-}
-
-.show-toggle-button {
-    bottom: 60px; /* Strzałka przesuwa się do góry gdy pasek jest widoczny */
-}
                 /* Styl dla głównego kontenera */
                 .container {
                     position: relative;
@@ -297,7 +255,16 @@
                 .image-container4:hover .run-button3 {
                     display: block; /* Wyświetlenie przycisku na hover */
                 }
-
+                .sentence1b,
+                .sentence1b2,
+                .sentence1b22,
+                .sentence1b2a,
+                .sentence1c22,
+                .sentence1c2a {
+                    font-size: 16px;
+                    margin-bottom: 0px;
+                    z-index: 9999;
+                }
                 .sentence1bba,
                 .sentence1bbab,
                 sentence1bb1b,
@@ -307,7 +274,6 @@
                     font-size: 16px;
                     margin-bottom: 0px;
                     z-index: 9999;
-                    color: white;
                 }
                 .sentence1b,
                 .sentence1b2,
@@ -337,16 +303,6 @@
                     z-index: 9999;
                     color: blue;
                 }
-                                .sentenceBB {
-                    margin-top: 80px;
-                    color: white;
-                    z-index: 9999;
-                }
-                .sentenceBC {
-                    margin-top: 80px;
-                    z-index: 9999;
-                    color: white;
-                }
                 .sentence10,
                 .sentence11,
                 .sentence20,
@@ -372,8 +328,11 @@
                     background-color: rgba(255, 255, 0, 0.5); /* Kolor tła z opacity */
                     color: white;
                 }
+                span {
+                    color: white;
+                }
                 .yellow {
-                    color: yellow;
+                    color: blue;
                 }
                 .flashcard-container {
                     width: 1350px;
@@ -573,43 +532,6 @@
                 }
             }
             @media (max-width: 999px) {
-                /* Stylizacja modala */
-                #part {
-                    margin-bottom: 100px;
-                }
-.modal {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: fixed;
-    z-index: 1000;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.7);
-}
-
-.modal-content {
-    background-color: white;
-    padding: 20px;
-    border-radius: 8px;
-    text-align: center;
-}
-
-button123 {
-    padding: 10px 20px;
-    margin-top: 10px;
-    border: none;
-    background-color: #4CAF50;
-    color: white;
-    cursor: pointer;
-    border-radius: 5px;
-}
-
-button123:hover {
-    background-color: #45a049;
-}
                 /* Styl dla głównego kontenera */
                 .container {
                     display: flex;
@@ -813,13 +735,7 @@ button123:hover {
 
                 .image-container3:hover .run-button {
                     display: block; /* Wyświetlenie przycisku na hover */
-                    z-index: 99999; /* Wyższy z-index na hover */
                 }
-
-                button.left-button.first-button:hover {
-    z-index: 99999; /* Wyższy z-index na hover */
-    display: block; /* Wyświetlenie przycisku na hover */
-}
 .image-container3:hover {
     z-index: 99999; /* Wyższy z-index na hover */
 }
@@ -931,8 +847,11 @@ button123:hover {
                     background-color: rgba(255, 255, 0, 0.5); /* Kolor tła z opacity */
                     color: white;
                 }
+                span {
+                    color: white;
+                }
                 .yellow {
-                    color: yellow;
+                    color: blue;
                 }
                 .flashcard-container {
                     width: 390px;
@@ -1154,68 +1073,6 @@ button123:hover {
                 .zaznaczony-charakter {
                     border: 3px solid blue;
                 }
-.bottom-bar {
-    position: fixed;
-    bottom: -60px; /* Domyślnie schowany */
-    left: 0;
-    width: 100%;
-    height: 60px;
-    background-color: #333;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    padding: 0 10px;
-    box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.3);
-    z-index: 1000;
-    transition: transform 0.3s ease;
-}
-
-.show {
-    transform: translateY(-60px); /* Pasek widoczny po załadowaniu */
-}
-.hidden {
-    transform: translateY(100%); /* Schowanie paska poza ekran */
-}
-.bottom-button {
-    background-color: #4CAF50;
-    color: white;
-    border: none;
-    padding: 10px;
-    font-size: 8px;
-    border-radius: 5px;
-    cursor: pointer;
-}
-
-.bottom-button:hover {
-    background-color: #45a049;
-}
-
-.lupka {
-    width: 30px;
-    height: 30px;
-    cursor: pointer;
-}
-
-.toggle-button {
-    position: fixed;
-    bottom: 0;
-    right: 20px;
-    background-color: #333;
-    color: white;
-    padding: 10px;
-    border-radius: 50%;
-    cursor: pointer;
-    z-index: 1001;
-    transition: bottom 0.3s ease;
-}
-
-#arrow {
-    font-size: 20px;
-}
-
-.show-toggle-button {
-    bottom: 60px; /* Strzałka przesuwa się do góry gdy pasek jest widoczny */
-}
             }
         </style>
     </head>
@@ -1238,29 +1095,19 @@ button123:hover {
             </div>
             <div class="content-container">
                 <div class="grid-containera">
-                    <div class="image-container2">Standard<button onclick="showImages('set1')">DRAW LESSONS</button>
+                    <div class="image-container2">Standard<button onclick="showImages('set1')"> LOSUJ LEKCJE</button>
                     </div>
-                    <div class="image-container2" id="buttoncreate">Generating a flashcard<button id="flashcardButton" onclick="addFlashcardContainer()">OPEN CONSOLES</button>
+                    <div class="image-container2" id="buttoncreate">Generowanie fiszki<button id="flashcardButton" onclick="addFlashcardContainer()">OTWÓRZ KONSOLE</button>
                     </div>
-                    <div class="image-container2">EXAM<button onclick="showImages('set1')">START</button>
+                    <div class="image-container2">Kartkówka<button onclick="showImages('set1')">START</button>
                     </div>
-                    <div class="image-container2">TRANSLATE TEXT<button onclick="showImages('set1')">START</button>
+                    <div class="image-container2">Tłumacz tekst<button onclick="showImages('set1')">START</button>
                     </div>
                 </div>
                 <div class="grid-container">
                 </div>
             </div>
         </div>
-        <div class="bottom-bar" id="bottomBar">
-    <button class="bottom-button" onclick="ustawTryb('zdania', undefined); przekazArgument0(globalCategory, '', '', 'zdania', false, false, tablica3[1])">1 SENTENCE / LESSON</button>
-    <button class="bottom-button" onclick="ustawTryb('fiszki', undefined); przekazArgument0(globalCategory, '', '', 'fiszki', false, false, tablica3[1])">3 SENTENCE / LESSON</button>
-    <button class="bottom-button" onclick="ustawTryb(tablica3[0], 'frazy'); przekazArgument0(globalCategory, '', '', tablica3[0], true, true, tablica3[1])">FHRASES</button>
-    <button class="bottom-button">WORDS</button>
-    <img src="img/lupka3b.png" alt="Szukaj" class="lupka">
-</div>
-        <div class="toggle-button" id="toggleButton">
-    <span id="arrow">&#9660;</span> <!-- Strzałka skierowana w dół -->
-</div>
         <script>
             // Funkcja do zmiany szerokości okna
             function simulateResize(width) {
@@ -1272,38 +1119,6 @@ button123:hover {
             simulateResize(768);
         </script>
         <script>
-            const bottomBar = document.getElementById('bottomBar');
-const toggleButton = document.getElementById('toggleButton');
-const arrow = document.getElementById('arrow');
-
-// Pokaż pasek i strzałkę nad nim po załadowaniu strony
-window.addEventListener('load', function() {
-    bottomBar.classList.add('show'); // Pasek widoczny
-    toggleButton.classList.add('show-toggle-button'); // Strzałka nad paskiem
-
-    // Automatyczne schowanie paska po 3 sekundach
-    setTimeout(function() {
-        bottomBar.classList.remove('show');
-        bottomBar.classList.add('hidden'); // Schowanie paska
-        arrow.innerHTML = '&#9650;'; // Zmiana strzałki na skierowaną w górę
-        toggleButton.classList.remove('show-toggle-button'); // Strzałka wraca na dół
-    }, 3000); // 3000 ms = 3 sekundy
-});
-
-// Strzałka do ręcznego rozwijania i chowania paska
-toggleButton.addEventListener('click', function() {
-    if (bottomBar.classList.contains('show')) {
-        bottomBar.classList.remove('show');
-        bottomBar.classList.add('hidden');
-        arrow.innerHTML = '&#9650;'; // Strzałka w górę (chowanie paska)
-        toggleButton.classList.remove('show-toggle-button'); // Strzałka wraca na dół
-    } else {
-        bottomBar.classList.remove('hidden');
-        bottomBar.classList.add('show');
-        arrow.innerHTML = '&#9660;'; // Strzałka w dół (rozwijanie paska)
-        toggleButton.classList.add('show-toggle-button'); // Strzałka nad paskiem
-    }
-});
             function blinkButton() {
                 const button = document.getElementById('flashcardButton');
                 let blinkCount = 0;
@@ -1324,10 +1139,10 @@ toggleButton.addEventListener('click', function() {
                 blinkButton();
             };
             document.getElementById('myButton').addEventListener('click', function () {
-                window.location.href = 'https://arbu-1dcc9.web.app/matrix.html';
+                window.location.href = 'http://localhost/arbulanguage.com/matrix.html';
             });
             document.getElementById('myButton2').addEventListener('click', function () {
-                window.location.href = 'https://arbu-1dcc9.web.app/matrix2.html';
+                window.location.href = 'http://localhost/arbulanguage.com/matrix2.html';
             });
 
             function showVideos(set) {
@@ -1387,16 +1202,17 @@ toggleButton.addEventListener('click', function() {
     <button class="rodzaj-button" data-rodzaj="osoby">WYGENEROWANY JEDNORAZOWO</button>
             <div id="title">RODZAJ SŁOWNICTWA</div>
                     <button class="rodzaj-button" data-rodzaj="osoby">KOGNATY</button>
-    <button id="osoby" class="rodzaj-button" data-rodzaj="osoby" onclick="przekazArgument0('all', '', '', '', '', '', tablica3[1])">All</button>
-    <button class="rodzaj-button" data-rodzaj="zaimki osobowe" onclick="przekazArgument0('zaimkiosobowe', '', '', '', '', '', tablica3[1])">Personal pronouns</button>
-    <button id="inne" onclick="przekazArgument0('emocje', '', '', '', '', '', tablica3[1])">Emotions</button>
-    <button class="rodzaj-button" data-rodzaj="zaimki" onclick="przekazArgument0('spojniki', '', '', '', '', '', tablica3[1])">Conjunctions</button>
+    <button id="osoby" class="rodzaj-button" data-rodzaj="osoby" onclick="przekazArgument0('all', '', '', '', '', '', tablica3[1])">Wszystkie</button>
+    <button class="rodzaj-button" data-rodzaj="osoby" onclick="przekazArgument0('osoby', '', '', '', '', '', tablica3[1])">Osoby</button>
+    <button class="rodzaj-button" data-rodzaj="zaimki osobowe" onclick="przekazArgument0('zaimkiosobowe', '', '', '', '', '', tablica3[1])">Zaimki osobowe</button>
+    <button id="inne" onclick="przekazArgument0('emocje', '', '', '', '', '', tablica3[1])">Emocje</button>
+    <button class="rodzaj-button" data-rodzaj="zaimki" onclick="przekazArgument0('spojniki', '', '', '', '', '', tablica3[1])">Spójniki</button>
     <button id="inne" onclick="przekazArgument0('kolory', '', '', '', '', '', tablica3[1])">Kolory</button>
-    <button id="inne" class="rodzaj-button" data-rodzaj="zwierzeta" onclick="przekazArgument0('zwierzeta', '', '', '', '', '', tablica3[1])">Animals</button>
-    <button class="rodzaj-button" data-rodzaj="czasownik" onclick="przekazArgument0('czasownik', '', '', '', '', '', tablica3[1])">Verbs</button>
+    <button id="inne" class="rodzaj-button" data-rodzaj="zwierzeta" onclick="przekazArgument0('zwierzeta', '', '', '', '', '', tablica3[1])">Zwierzęta</button>
+    <button class="rodzaj-button" data-rodzaj="czasownik" onclick="przekazArgument0('czasownik', '', '', '', '', '', tablica3[1])">Czasowniki</button>
     <br>ILOŚĆ MATERIAŁU NA LEKCJE<br>
-<button class="czas" onclick="ustawTryb('zdania', undefined); przekazArgument0(globalCategory, '', '', 'zdania', false, false, tablica3[1])">5 MINUTES (ONE SENTENCE)</button>
-<button id="english" class="czas" onclick="ustawTryb('fiszki', undefined); przekazArgument0(globalCategory, '', '', 'fiszki', true, true, tablica3[1])">10 MINUTES (3 SENTENCES) - OPCJONALNIE</button>
+<button class="czas" onclick="ustawTryb('zdania', undefined); przekazArgument0(globalCategory, '', '', 'zdania', false, false, tablica3[1])">5 MINUT (JEDNO ZDANIE)</button>
+<button id="english" class="czas" onclick="ustawTryb('fiszki', undefined); przekazArgument0(globalCategory, '', '', 'fiszki', true, true, tablica3[1])">10 MINUT (3 ZDANIA) - OPCJONALNIE</button>
 <br>TRYB LEKCJI<br>
 <button id="english" class="czas" onclick="ustawTryb(tablica3[0], ''); przekazArgument0(globalCategory, '', '', tablica3[0], false, false, tablica3[1])">ZDANIA</button>
 <button class="czas" onclick="ustawTryb(tablica3[0], 'frazy'); przekazArgument0(globalCategory, '', '', tablica3[0], true, true, tablica3[1])">FRAZY</button>
@@ -1410,7 +1226,7 @@ toggleButton.addEventListener('click', function() {
             <div id="title">CZASY</div>
 <button class="charakter-button" onclick="przekazArgument0('PresentSimple', '', '', '', '', '', tablica3[1])">OZNACZ CZAS</button>
 <br>
-<button class="charakter-button" onclick="przekazArgument0('Infinitive', '', '', '', '', '', tablica3[1])">INFINITIVE</button>
+    <button class="charakter-button" onclick="przekazArgument0('PresentSimple', '', '', '', '', '', tablica3[1])">PRESENT SIMPLE</button>
     <button id="inne">PAST SIMPLE</button>
     <br>
     <div id="title">OPCJE ZDANIA</div>
@@ -1786,10 +1602,6 @@ toggleButton.addEventListener('click', function() {
             }
             console.log("Matching indexes:", matchingIndexes);
             let polski = false;
-            let losowaniaCounter = 0; // Zmienna licznika losowań
-let losowaniaCounter2 = 0; // Zmienna licznika losowań
-            let tablica33 = [];
-            let tablica33b = [];
             function wybierzRodzaj(category, czas, matchingIndexes, index55, buttonindex, idpolski, frazyid) {
                 category = category || globalCategory;
                 czasv2 = czas;
@@ -1921,7 +1733,6 @@ let losowaniaCounter2 = 0; // Zmienna licznika losowań
                         console.log('Liczba dodanych divów:', numberOfContainers);
                     }
                 }
-                let powiadomienieCounter = 0; // Licznik wyświetleń powiadomień
                 if (czas === 'fiszki' && czas !== "zdania") {
                     console.log('Warunek czas === "fiszki" jest spełniony');
                     $('.grid-container .image-container4').remove();
@@ -1951,9 +1762,7 @@ let losowaniaCounter2 = 0; // Zmienna licznika losowań
                         const zeroIndex2 = index55 - 1;
                         indices[zeroIndex] = 0;
                         indices2[zeroIndex2] = 0;
-    losowaniaCounter++; // Inkrementuj licznik przy każdym wywołaniu
-    tablica33.push(losowaniaCounter); // Dodaj zaktualizowany licznik do tablicy
-    console.log('hej1113', tablica33); // Wyświetl zawartość tablicy
+
                         for (let i = 0; i < myVariable.length; i += 3) {
                             indexDiv++;
                             const lessonId1 = myVariable[i];
@@ -2012,22 +1821,7 @@ let losowaniaCounter2 = 0; // Zmienna licznika losowań
 
                             lessonsArray.push(lessonObject);
                             console.log('hej34', lessonObject);
-            // Zwiększenie licznika losowań
-            console.log('Liczba losowań:', losowaniaCounter); // Dodano log licznika losowań
 
-            // Sprawdzenie, czy osiągnięto limit losowań
-            if (losowaniaCounter >= 7) {
-                console.log('Osiągnięto 7 losowań, wyświetlam powiadomienie');
-                powiadomienieCounter++; // Zwiększenie licznika powiadomień
-
-                if (confirm('Osiągnięto 7 losowań. Czy chcesz kontynuować losowania?')) {
-                    console.log('Użytkownik potwierdził dalsze losowania');
-                    losowaniaCounter = 0; // Zresetowanie licznika losowań
-                } else {
-                    console.log('Użytkownik przerwał dalsze losowania');
-                    break; // Przerwanie pętli, jeśli użytkownik nie chce kontynuować
-                }
-            }
                             console.log('hej556', lessonsArray);
                             console.log('hej40', startIndex);
                             console.log('hej77', tablica10);
@@ -2035,7 +1829,7 @@ let losowaniaCounter2 = 0; // Zmienna licznika losowań
                             console.log('hej155', buttonindex);
                             console.log('hej323', index55);
 
-                            if (tablica10.length <= 33 || tablica10.length === 0) {
+                            if (tablica10.length <= 11 || tablica10.length === 0) {
                                 console.log('wykonuje się 8');
                                 console.log('hej32', newIndex);
                                 console.log('hej18', tablica10);
@@ -2163,19 +1957,7 @@ let losowaniaCounter2 = 0; // Zmienna licznika losowań
                             console.log('hej323', index55);
 
                             console.log('hej344');
-            // Sprawdzenie, czy osiągnięto limit losowań
-            if (losowaniaCounter >= 7) {
-                console.log('Osiągnięto 7 losowania, wyświetlam powiadomienie');
-                powiadomienieCounter++; // Zwiększenie licznika powiadomień
 
-                if (confirm('Osiągnięto 7 losowań. Czy chcesz kontynuować losowania?')) {
-                    console.log('Użytkownik potwierdził dalsze losowania');
-                    losowaniaCounter = 0; // Zresetowanie licznika losowań
-                } else {
-                    console.log('Użytkownik przerwał dalsze losowania');
-                    break; // Przerwanie pętli, jeśli użytkownik nie chce kontynuować
-                }
-            }
                             if ((tablica15.length <= 33 || tablica15.length === 0)) {
                                 console.log('wykonuje się 8');
 
@@ -3315,7 +3097,7 @@ ${sentence30}${sentence33}<br>
             }
 
             // Dodaj nowy tekst do <div>
-            $sceneDiv.text(`Scene from the movie: ${srcWords2[index]}`);
+            $sceneDiv.text(`Scena z filmu ${srcWords2[index]}`);
 
             if (window.matchMedia("(max-width: 999px)").matches) {
                 if (indexDiv % 2 === 0) {
@@ -3348,7 +3130,7 @@ ${sentence30}${sentence33}<br>
 // Tworzenie przycisku "Stop"
 if (!stopButtonAdded) {
     const $stopButton = $('<img>')
-        .attr('src', 'http://arbu-1dcc9.web.app/img/stopok2.png')
+        .attr('src', 'http://localhost/arbulanguage.com/img/stopok2.png')
         .css({
             'display': 'none', // Ukryty na starcie
             'position': 'absolute', // Precyzyjne pozycjonowanie względem kontenera
@@ -3366,11 +3148,11 @@ if (!stopButtonAdded) {
                 if (!video.paused) {
                     video.pause();
                     // Zmień obrazek na "Play"
-                    $stopButton.attr('src', 'http://arbu-1dcc9.web.app/img/play.png');
+                    $stopButton.attr('src', 'http://localhost/arbulanguage.com/img/play.png');
                 } else {
                     video.play();
                     // Zmień obrazek z powrotem na "Stop"
-                    $stopButton.attr('src', 'http://arbu-1dcc9.web.app/img/stopok2.png');
+                    $stopButton.attr('src', 'http://localhost/arbulanguage.com/img/stopok2.png');
                 }
             });
         });
@@ -3517,7 +3299,7 @@ if (!stopButtonAdded) {
             }
 
             // Dodaj nowy tekst do <div>
-            $sceneDiv.text(`Scene from the movie: ${srcWords2[index]}`);
+            $sceneDiv.text(`Scena z filmu ${srcWords2[index]}`);
 
             if (window.matchMedia("(max-width: 999px)").matches) {
                 if (indexDiv % 2 === 0) {
@@ -3550,7 +3332,7 @@ if (!stopButtonAdded) {
 // Tworzenie przycisku "Stop"
 if (!stopButtonAdded) {
     const $stopButton = $('<img>')
-        .attr('src', 'http://arbu-1dcc9.web.app/img/stopok2.png')
+        .attr('src', 'http://localhost/arbulanguage.com/img/stopok2.png')
         .css({
             'display': 'none', // Ukryty na starcie
             'position': 'absolute', // Precyzyjne pozycjonowanie względem kontenera
@@ -3568,11 +3350,11 @@ if (!stopButtonAdded) {
                 if (!video.paused) {
                     video.pause();
                     // Zmień obrazek na "Play"
-                    $stopButton.attr('src', 'http://arbu-1dcc9.web.app/img/play.png');
+                    $stopButton.attr('src', 'http://localhost/arbulanguage.com/img/play.png');
                 } else {
                     video.play();
                     // Zmień obrazek z powrotem na "Stop"
-                    $stopButton.attr('src', 'http://arbu-1dcc9.web.app/img/stopok2.png');
+                    $stopButton.attr('src', 'http://localhost/arbulanguage.com/img/stopok2.png');
                 }
             });
         });
@@ -3598,7 +3380,6 @@ if (!stopButtonAdded) {
                                 }, 0);
     }
                     } else if (index50 === 0 && buttonindex) {
-                        let stopButtonAdded = false;
     console.log('hej3338', newIndex);
     let funkcjaWywolana = false;
 if (indexDiv % 2 === 0) {
@@ -3769,51 +3550,7 @@ if (indexDiv % 2 === 0) {
                                         }
             }
         }
-// Tworzenie przycisku "Stop"
-if (!stopButtonAdded) {
-    const $stopButton = $('<img>')
-        .attr('src', 'http://arbu-1dcc9.web.app/img/stopok2.png')
-        .css({
-            'display': 'none', // Ukryty na starcie
-            'position': 'absolute', // Precyzyjne pozycjonowanie względem kontenera
-            'top': '-15px',
-            'left': '20px',
-            'width': '40px',
-            'height': '40px',
-            'z-index': '999999',
-            'cursor': 'pointer' // Ustawienie kursora jako wskaźnik
-        })
-        .on('click', function () {
-            // Pętla po wszystkich elementach wideo i zatrzymywanie każdego z nich
-            $('video').each(function () {
-                const video = this;
-                if (!video.paused) {
-                    video.pause();
-                    // Zmień obrazek na "Play"
-                    $stopButton.attr('src', 'http://arbu-1dcc9.web.app/img/play.png');
-                } else {
-                    video.play();
-                    // Zmień obrazek z powrotem na "Stop"
-                    $stopButton.attr('src', 'http://arbu-1dcc9.web.app/img/stopok2.png');
-                }
-            });
-        });
 
-    // Dodanie przycisku do kontenera
-    $stopButton.appendTo($container);
-
-    // Pokazywanie przycisku na hover kontenera
-    $container.on('mouseover', function () {
-        $stopButton.show();
-    });
-
-    // Ukrywanie przycisku, gdy mysz opuści kontener
-    $container.on('mouseout', function () {
-        $stopButton.hide();
-    });
-
-    stopButtonAdded = true;  // Flaga ustawiona na true, gdy przycisk został dodany
-}
     }
 
     addVideo2(0);
@@ -3985,51 +3722,7 @@ if (!stopButtonAdded) {
                                         }
             }
         }
-// Tworzenie przycisku "Stop"
-if (!stopButtonAdded) {
-    const $stopButton = $('<img>')
-        .attr('src', 'http://arbu-1dcc9.web.app/img/stopok2.png')
-        .css({
-            'display': 'none', // Ukryty na starcie
-            'position': 'absolute', // Precyzyjne pozycjonowanie względem kontenera
-            'top': '-15px',
-            'left': '20px',
-            'width': '40px',
-            'height': '40px',
-            'z-index': '999999',
-            'cursor': 'pointer' // Ustawienie kursora jako wskaźnik
-        })
-        .on('click', function () {
-            // Pętla po wszystkich elementach wideo i zatrzymywanie każdego z nich
-            $('video').each(function () {
-                const video = this;
-                if (!video.paused) {
-                    video.pause();
-                    // Zmień obrazek na "Play"
-                    $stopButton.attr('src', 'http://arbu-1dcc9.web.app/img/play.png');
-                } else {
-                    video.play();
-                    // Zmień obrazek z powrotem na "Stop"
-                    $stopButton.attr('src', 'http://arbu-1dcc9.web.app/img/stopok2.png');
-                }
-            });
-        });
 
-    // Dodanie przycisku do kontenera
-    $stopButton.appendTo($container);
-
-    // Pokazywanie przycisku na hover kontenera
-    $container.on('mouseover', function () {
-        $stopButton.show();
-    });
-
-    // Ukrywanie przycisku, gdy mysz opuści kontener
-    $container.on('mouseout', function () {
-        $stopButton.hide();
-    });
-
-    stopButtonAdded = true;  // Flaga ustawiona na true, gdy przycisk został dodany
-}
     }
 
     addVideo2b(0);
@@ -4056,7 +3749,7 @@ if (!stopButtonAdded) {
                                     $('.overlay', this).css('transform', 'translateX(0)');
 
                                     // Twórz nowy dynamiczny div z napisem
-                                    const $dynamicDiv = $('<div>').addClass('dynamic-div').text('Lesson available - open');
+                                    const $dynamicDiv = $('<div>').addClass('dynamic-div').text('Lekcja dostępna - otwórz');
                                     // Dodaj dynamiczny div do kontenera
                                     $dynamicDiv.appendTo($(this)).fadeIn(300);
                                 }, function () {
@@ -4120,14 +3813,14 @@ ${sentence30}${sentence33}<br>
 `);
                         $sentenceDiv.css({
                             'position': 'absolute',
-                            'margin-top': '-30px',
+                            'margin-top': '-50px',
                             'text-align': 'center',
                             'z-index': '5'
                         });
                     }
                     const $button = $('<button></button>');
                     $button.addClass('run-button');
-                    $button.text('Play'); // Ustawiamy tekst przycisku na 'Uruchom'
+                    $button.text('Uruchom'); // Ustawiamy tekst przycisku na 'Uruchom'
                     $button.attr('data-index', indexDiv);
                     $button.on('click', function () {
 
@@ -4156,7 +3849,7 @@ ${sentence30}${sentence33}<br>
                     $container.append($button);
                     const $buttonb2 = $('<button></button>');
                     $buttonb2.addClass('run-button3');
-                    $buttonb2.text('Open lesson in new window'); // Ustawiamy tekst przycisku na 'Uruchom'
+                    $buttonb2.text('Otwórz lekcję w nowym oknie'); // Ustawiamy tekst przycisku na 'Uruchom'
                     // Dodajemy atrybut 'data-index' z wartością indexDiv do przycisku
 
                     $buttonb2.attr('data-index2', indexDiv);
@@ -4199,18 +3892,26 @@ ${sentence30}${sentence33}<br>
                             console.log('hej554', index55b2);
                             if (index55b2 === 1) { // Porównaj jako liczby
                                 // Bezpośrednio przekierowujemy użytkownika do strony
-                                window.location.href = 'demo1eng-esp.html?category=' + encodeURIComponent(globalCategory);
+                                window.location.href = 'demo1angielski.html?category=' + encodeURIComponent(globalCategory);
                             }
                             if (index55b2 === 2) {
                                 // Bezpośrednio przekierowujemy użytkownika do strony
-                                window.location.href = 'demo2eng-esp.html?category=' + encodeURIComponent(globalCategory);
+                                window.location.href = 'demo2angielski.html?category=' + encodeURIComponent(globalCategory);
                             }
-                        }, 1000);
+                            if (index55b2 === 3) {
+                                // Bezpośrednio przekierowujemy użytkownika do strony
+                                window.location.href = 'demo3angielski.html?category=' + encodeURIComponent(globalCategory);
+                            }
+                            if (index55b2 === 4) {
+                                // Bezpośrednio przekierowujemy użytkownika do strony
+                                window.location.href = 'demo4angielski.html?category=' + encodeURIComponent(globalCategory);
+                            }
+                        }, 1500);
                         // Usunięcie kontenera po wstawieniu nowego
                     });
                     $buttonb2.css({
                         'position': 'absolute', // Przykładowa wartość odstępu od lewej krawędzi
-                        'margin-bottom': '-108px',
+                        'margin-bottom': '-106px',
                         'font-size': '10px',
                         'height': '25px',
                         'color': 'blue',
@@ -4572,7 +4273,6 @@ ${sentence10}${sentence11}<br>
                     }
 
                     if (newIndex === 0 && !buttonindex) {
-                        let stopButtonAdded = false;
                         console.log('hej3331', buttonindex);
                         let funkcjaWywolana = false;
                         function addVideo1(index) {
@@ -4689,55 +4389,9 @@ ${sentence10}${sentence11}<br>
                                 // Dodaj nowy tekst do <div>
                                 $sceneDiv.text(`Scena z filmu ${srcWords2[index]}`);
                             }
-                            // Tworzenie przycisku "Stop"
-if (!stopButtonAdded) {
-    const $stopButton = $('<img>')
-        .attr('src', 'http://arbu-1dcc9.web.app/img/stopok2.png')
-        .css({
-            'display': 'none', // Ukryty na starcie
-            'position': 'absolute', // Precyzyjne pozycjonowanie względem kontenera
-            'top': '-15px',
-            'left': '20px',
-            'width': '40px',
-            'height': '40px',
-            'z-index': '999999',
-            'cursor': 'pointer' // Ustawienie kursora jako wskaźnik
-        })
-        .on('click', function () {
-            // Pętla po wszystkich elementach wideo i zatrzymywanie każdego z nich
-            $('video').each(function () {
-                const video = this;
-                if (!video.paused) {
-                    video.pause();
-                    // Zmień obrazek na "Play"
-                    $stopButton.attr('src', 'http://arbu-1dcc9.web.app/img/play.png');
-                } else {
-                    video.play();
-                    // Zmień obrazek z powrotem na "Stop"
-                    $stopButton.attr('src', 'http://arbu-1dcc9.web.app/img/stopok2.png');
-                }
-            });
-        });
-
-    // Dodanie przycisku do kontenera
-    $stopButton.appendTo($container);
-
-    // Pokazywanie przycisku na hover kontenera
-    $container.on('mouseover', function () {
-        $stopButton.show();
-    });
-
-    // Ukrywanie przycisku, gdy mysz opuści kontener
-    $container.on('mouseout', function () {
-        $stopButton.hide();
-    });
-
-    stopButtonAdded = true;  // Flaga ustawiona na true, gdy przycisk został dodany
-}
                         }
                         addVideo1(0);
                     } else if (index50 === 0 && buttonindex) {
-                        let stopButtonAdded = false;
                         console.log('hej3331', buttonindex);
                         let funkcjaWywolana2 = false;
                         function addVideo2(index) {
@@ -4841,51 +4495,6 @@ if (!stopButtonAdded) {
                                 'margin-right': '-4%'// Zapewnienie równowagi dla powiększenia paska postępu
                             });
                             $progressBar.appendTo($container);
-                            // Tworzenie przycisku "Stop"
-if (!stopButtonAdded) {
-    const $stopButton = $('<img>')
-        .attr('src', 'http://arbu-1dcc9.web.app/img/stopok2.png')
-        .css({
-            'display': 'none', // Ukryty na starcie
-            'position': 'absolute', // Precyzyjne pozycjonowanie względem kontenera
-            'top': '-15px',
-            'left': '20px',
-            'width': '40px',
-            'height': '40px',
-            'z-index': '999999',
-            'cursor': 'pointer' // Ustawienie kursora jako wskaźnik
-        })
-        .on('click', function () {
-            // Pętla po wszystkich elementach wideo i zatrzymywanie każdego z nich
-            $('video').each(function () {
-                const video = this;
-                if (!video.paused) {
-                    video.pause();
-                    // Zmień obrazek na "Play"
-                    $stopButton.attr('src', 'http://arbu-1dcc9.web.app/img/play.png');
-                } else {
-                    video.play();
-                    // Zmień obrazek z powrotem na "Stop"
-                    $stopButton.attr('src', 'http://arbu-1dcc9.web.app/img/stopok2.png');
-                }
-            });
-        });
-
-    // Dodanie przycisku do kontenera
-    $stopButton.appendTo($container);
-
-    // Pokazywanie przycisku na hover kontenera
-    $container.on('mouseover', function () {
-        $stopButton.show();
-    });
-
-    // Ukrywanie przycisku, gdy mysz opuści kontener
-    $container.on('mouseout', function () {
-        $stopButton.hide();
-    });
-
-    stopButtonAdded = true;  // Flaga ustawiona na true, gdy przycisk został dodany
-}
                         }
                         addVideo2(0);
                     } else {
@@ -4900,7 +4509,7 @@ if (!stopButtonAdded) {
                             // Utwórz element <div> dla nakładki
                             const $overlay = $('<div>').addClass('overlay');
                             const $buttonb = $('<img>').attr({
-                                'src': 'http://arbu-1dcc9.web.app/img/startsystem.png', // Względna ścieżka do pliku PNG
+                                'src': 'http://localhost/arbulanguage.com/img/startsystem.png', // Względna ścieżka do pliku PNG
                                 'class': 'overlay-button' // Klasa dla stylów CSS
                             }).css({
                                 'position': 'absolute',
@@ -4925,7 +4534,7 @@ if (!stopButtonAdded) {
                                     $('.overlay', this).css('transform', 'translateX(0)');
 
                                     // Twórz nowy dynamiczny div z napisem
-                                    const $dynamicDiv = $('<div>').addClass('dynamic-div').text('Lesson available - open');
+                                    const $dynamicDiv = $('<div>').addClass('dynamic-div').text('Lekcja dostępna - otwórz');
                                     // Dodaj dynamiczny div do kontenera
                                     $dynamicDiv.appendTo($(this)).fadeIn(300);
                                 }, function () {
@@ -4996,7 +4605,7 @@ if (!stopButtonAdded) {
 
                     const $button = $('<button></button>');
                     $button.addClass('run-button2');
-                    $button.text('Play'); // Ustawiamy tekst przycisku na 'Uruchom'
+                    $button.text('Uruchom'); // Ustawiamy tekst przycisku na 'Uruchom'
 
                     // Dodajemy atrybut 'data-index' z wartością indexDiv do przycisku
                     $button.attr('data-index', indexDiv);
@@ -5025,7 +4634,7 @@ if (!stopButtonAdded) {
 
                     const $buttonb2 = $('<button></button>');
                     $buttonb2.addClass('run-button3');
-                    $buttonb2.text('Open lesson in new window'); // Ustawiamy tekst przycisku na 'Uruchom'
+                    $buttonb2.text('Otwórz lekcję w nowym oknie'); // Ustawiamy tekst przycisku na 'Uruchom'
                     // Dodajemy atrybut 'data-index' z wartością indexDiv do przycisku
                     $buttonb2.attr('data-index2', indexDiv);
                     $buttonb2.on('click', function () {
@@ -5039,21 +4648,17 @@ if (!stopButtonAdded) {
                             console.log('hej554', index55b2);
                             if (index55b2 === 1) { // Porównaj jako liczby
                                 // Bezpośrednio przekierowujemy użytkownika do strony
-                                window.location.href = 'demo1eng-espb.html?category=' + encodeURIComponent(globalCategory);
+                                window.location.href = 'demo1angielskib.html?category=' + encodeURIComponent(globalCategory);
                             }
                             if (index55b2 === 2) {
                                 // Bezpośrednio przekierowujemy użytkownika do strony
-                                window.location.href = 'demo2eng-espb.html?category=' + encodeURIComponent(globalCategory);
+                                window.location.href = 'demo2angielskib.html?category=' + encodeURIComponent(globalCategory);
                             }
                             if (index55b2 === 3) {
                                 // Bezpośrednio przekierowujemy użytkownika do strony
-                                window.location.href = 'demo3eng-espb.html?category=' + encodeURIComponent(globalCategory);
+                                window.location.href = 'demo3angielskib.html?category=' + encodeURIComponent(globalCategory);
                             }
-                            if (index55b2 === 4) {
-                                // Bezpośrednio przekierowujemy użytkownika do strony
-                                window.location.href = 'demo4eng-espb.html?category=' + encodeURIComponent(globalCategory);
-                            }
-                        }, 1000);
+                        }, 1500);
                         // Usunięcie kontenera po wstawieniu nowego
                     });
                     $buttonb2.css({
@@ -5572,7 +5177,7 @@ ${sentence10}<br>
                             // Utwórz element <div> dla nakładki
                             const $overlay = $('<div>').addClass('overlay');
                             const $buttonb = $('<img>').attr({
-                                'src': 'http://arbu-1dcc9.web.app/img/startsystem.png', // Względna ścieżka do pliku PNG
+                                'src': 'http://localhost/arbulanguage.com/img/startsystem.png', // Względna ścieżka do pliku PNG
                                 'class': 'overlay-button' // Klasa dla stylów CSS
                             }).css({
                                 'position': 'absolute',
@@ -5666,7 +5271,7 @@ ${sentence10}<br>
 
                     const $button = $('<button></button>');
                     $button.addClass('run-button2');
-                    $button.text('Play'); // Ustawiamy tekst przycisku na 'Uruchom'
+                    $button.text('Uruchom'); // Ustawiamy tekst przycisku na 'Uruchom'
 
                     // Dodajemy atrybut 'data-index' z wartością indexDiv do przycisku
                     $button.attr('data-index', indexDiv);

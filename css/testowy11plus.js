@@ -1197,7 +1197,7 @@ id: [
         //  slowo do nauki
         key: "yo",
         category1: [
-                "sport", "gaming"
+                "sport", "gaming",
         ],
         category2: ["osoby", "osoby+czas"]
 },
@@ -1421,8 +1421,8 @@ id: [
                 "http://arbu-1dcc9.web.app/img/fiszkiespanol/1c.jpg",
                 "http://arbu-1dcc9.web.app/img/fiszkiespanol/1d.jpg"
         ],
-        translate: "To draw a flower in the notebook.",
-        translateb: "[dee-boo-har oo-nah flor ehn el kwah-dehr-noh]",
+        translate: "Rysować kwiat w zeszycie",
+        translateb: "[Dibuhar una flor en el kuaderno]",
         srcWord: ["http://arbu-1dcc9.web.app/filmy/esp/drawing.mp4", 'Titanic'],
         srcWordimage: "http://arbu-1dcc9.web.app/filmy/esp/drawing.png",
         word: [
@@ -1430,10 +1430,14 @@ id: [
         ],
         // historia
         story: [
-            "Ban<b><u>di</b></u> <b><u>bu</b></u>ild a house and that was very <b><u>har</b></u>d work. He <b><u>draw</b></u> in plans everything before"
+                "Malarz <u><b>Di</u></b>no z kreskówki <u><b>rysuje</u></b> piękne obrazy. Namalował piechura, który ma śmieszne <u><b>bu</u></b>ty. Piechur ma silny <u><b>har</u></b>t ducha",
+                "W kreskówce <u><b>Di</u></b>sneya czasie wiosny natura <u><b>bu</u></b>dzi się do życia.. jest prawie ciepło tak jak gdzie Sa<u><b>har</u></b>a",
+                "W <u><b>bu</u></b>dce festiwalowej można kupić watę cukrową. Ten produkt to inaczej sa<u><b>har</u></b>oza. Naukowiec Wal<u><b>di</u></b> lubi watę cukrową",
+                "Ban<u><b>di</u></b> się <u><b>bu</u></b>dzi i jest za<u><b>har</u></b>towany, bo w domu jest zimno. Ciężko pracuje jako rysownik(rysować), żeby zarobić na dom",
+                ""
         ],
         // opis
-        desc: "dibujar[dee-boo-har] - draw",
+        desc: "dibujar[dibuhar] - rysować",
         //zdanie
         sentence1: [
                 "Dibujar"
@@ -1468,10 +1472,10 @@ id: [
         ],
         // historia
         story: [
-                "L<b><u>una</b></u> has a beautifull <b><u>flower</b></u> on the <b><u>floor</b></u> from her husband"
+                "Nad ranem pojawiła się ł<u><b>una</u></b> deszczu, <u><b>Flor</u></b>ian ogrodnik zadowolony, bo jego ulubiony <u><b>kwiat</u></b> dostanie wodę"
         ],
         // opis
-        desc: "una flor[oo-nah flor] - flor",
+        desc: "una flor[una flor] - kwiat",
         //zdanie
         sentence1: [
                 "una flor"
@@ -1498,10 +1502,10 @@ id: [
         ],
         // historia
         story: [
-                "M<b><u>en</b></u> has everything <b><u>in</b></u> his head"
+                "W <u><b>en</u></b>cykopedi jest podstawowa wiedza"
         ],
         // opis
-        desc: "en[ehn] - w",
+        desc: "en[en] - w",
         //zdanie
         sentence2: [
                 "en"
@@ -1531,10 +1535,10 @@ id: [
         ],
         // historia
         story: [
-                "Scott h<b><u>as</b></u> a d<b><u>ua</b></u>l drive in his car and <b><u>Derr</b></u>eck has <b><u>no</b></u> dual drive but Derreck count gasoline consumption in his <b><u>notebook</b></u>"
+                "<u><b>Kłade</u></b> zeszyt na biurko i zaczynam się uczyć o mo<u><b>der</u></b>nistycznych budowlach... <u><b>No</u></b> ciekawa wiedza"
         ],
         // opis
-        desc: "el cuaderno[el kwah-dehr-noh] - notebook",
+        desc: "el cuaderno[en cuaderno] - zeszyt",
         //zdanie
         sentence2: [
                 "el cuaderno"
@@ -1559,8 +1563,8 @@ id: [
         img: [
                 "http://arbu-1dcc9.web.app/img/fiszkiespanol/5a.jpg"
         ],
-        translate: "To wait alone inside the house",
-        translateb: "[es-peh-rahr soh-loh den-troh deh lah kah-sah]",
+        translate: "Czekać samemu w domu",
+        translateb: "[Esperar solo dentro de la casa]",
         srcWord: ["http://arbu-1dcc9.web.app/filmy/esp/home.mp4", 'Mechanik. Konfrontacja'],
         srcWordimage: "http://arbu-1dcc9.web.app/filmy/esp/home.png",
         word: [
@@ -1568,10 +1572,10 @@ id: [
         ],
         // historia
         story: [
-                "He h<b><u>as</b></u> <b><u>waited</b></u> for his loading <b><u>per</b></u>iscope, which is very r<b><u>ar</b></u>e"
+                "D<u><b>esper</u></b>o i <u><b>Ar</u></b>tek czekają na pociąg"
         ],
         // opis
-        desc: "esperar[es-peh-rahr] - czekać",
+        desc: "esperar[esperar] - czekać",
         //zdanie
         sentence1: [
                 "Esperar"
@@ -1602,10 +1606,10 @@ id: [
         ],
         // historia
         story: [
-                "Kogants: solo - solo"
+                "<u><b>Solo</u></b>wy album jest <u><b>po prostu</u></b> najlepszą promocja dla artysty"
         ],
         // opis
-        desc: "solo[soh-loh] - samemu",
+        desc: "solo[solo] - samemu",
         //zdanie
         sentence1: [
                 "solo"
@@ -1639,10 +1643,10 @@ id: [
         ],
         // historia
         story: [
-                "My <b><u>dent</b></u>ist found <b><u>in</b></u> my teeth a hole and i have <b><u>tr</b></u>ouble, <b><u>o</b></u>hhhhhh"
+                "<u><b>Dent</u></b>ysta <u><b>ro</u></b>bi dobrą <u><b>ro</u></b>botę, gdy wchodzę do środka gabinetu - nie boję się"
         ],
         // opis
-        desc: "dentro de[den-troh deh] - w",
+        desc: "dentro de[dentro de] - w",
         //zdanie
         sentence2: [
                 "dentro de"
@@ -1672,10 +1676,10 @@ id: [
         ],
         // historia
         story: [
-                "My c<b><u>la</b></u>ssmate has big <b><u>house</b></u> and live there with wife <b><u>Cassa</b></u>ndra"
+                "P<u><b>la</u></b>ton miał piękny <u><b>dom</u></b>, bo była na to <u><b>kasa</u></b>"
         ],
         // opis
-        desc: "la casa[lah kah-sah] - dom",
+        desc: "la casa[la kasa] - dom",
         //zdanie
         sentence2: [
                 "la casa"
@@ -1700,8 +1704,8 @@ id: [
         img: [
                 "http://arbu-1dcc9.web.app/img/fiszkiespanol/9a.jpg"
         ],
-        translate: "To talk without tension while we walk together",
-        translateb: "[ah-blar seen ten-syohn myen-trahs kah-mee-nah-mos hoon-tos]",
+        translate: "Rozmawiać bez napięcia, idąc razem",
+        translateb: "[Ablar sin tensión mientras kaminamos huntos]",
         srcWord: ["http://arbu-1dcc9.web.app/filmy/esp/conversation.mp4", 'Incepcja'],
         srcWordimage: "http://arbu-1dcc9.web.app/filmy/esp/conversation.png",
         word: [
@@ -1709,10 +1713,10 @@ id: [
         ],
         // historia
         story: [
-                "<b><u>Ab</b></u>igail <b><u>talks</b></u> with <b><u>La</b></u>na and they are h<b><u>ar</b></u>d excited"
+                "P<u><b>abl</u></b>o Picasso k<u><b>lar</u></b>ownie <u><b>mówił</u></b> o malowaniu"
         ],
         // opis
-        desc: "hablar[ah-blar] - rozmawiać",
+        desc: "hablar[ablar] - rozmawiać",
         //zdanie
         sentence1: [
                 "Hablar"
@@ -1744,10 +1748,10 @@ id: [
         ],
         // historia
         story: [
-                "They are <b><u>sin</b></u>king, though they are <b><u>without</b></u> a lifeboa"
+                "W raju nie obyło się <u><b>bez</u></b> grzechu(angielskie: <u><b>sin</u></b>)"
         ],
         // opis
-        desc: "sin[seen] - bez",
+        desc: "sin[sin] - bez",
         //zdanie
         sentence1: [
                 "sin"
@@ -1778,10 +1782,10 @@ id: [
         ],
         // historia
         story: [
-                "Kognats: tension - tension"
+                "Znalazłam pewien pa<u><b>ten</u></b>t na napięcie, mój partner ma<u><b>ssss</u></b>uje mi ram<u><b>ion</u></b>a"
         ],
         // opis
-        desc: "tension[ten-syohn] - napięcie",
+        desc: "tension[tension] - napięcie",
         //zdanie
         sentence1: [
                 "tension"
@@ -1812,10 +1816,10 @@ id: [
         ],
         // historia
         story: [
-                ""
+                "Nie zabieramy całego <u><b>mien</u></b>ia <u><b>kiedy</u></b> jedziemy w </u></b>tras<u><b>ę"
         ],
         // opis
-        desc: "mientras[myen-trahs] - gdy/podczas gdy",
+        desc: "mientras[mientras] - gdy/podczas gdy",
         //zdanie
         sentence2: [
                 "mientras"
@@ -1846,10 +1850,10 @@ id: [
         ],
         // historia
         story: [
-                ""
+                "Idą przez drogę z kolegami potknąłem się o <u><b>kami</u></b>eń. Po <u><b>namo</u></b>wie kolegów następnym razem zmienimy tra<u><b>s</u></b>ę"
         ],
         // opis
-        desc: "caminamos[kah-mee-nah-mos] - idąc",
+        desc: "caminamos[kaminamos] - idąc",
         //zdanie
         sentence2: [
                 "caminamos"
@@ -1880,10 +1884,10 @@ id: [
         ],
         // historia
         story: [
-                "They <b><u>hun</b></u>t <b><u>t</b></u><b>.<u>ogether</b></u> like a b<b><u>oss</b></u>"
+                "<u><b>Hu</u></b>ra jesteśmy w <u><b>Un</u></b>ii, <u><b>razem</u></b> z innymi krajami i jest sz<u><b>tos</u></b>"
         ],
         // opis
-        desc: "juntos[hoon-tos] - razem",
+        desc: "juntos[hunots] - razem",
         //zdanie
         sentence2: [
                 "juntos"
@@ -1909,8 +1913,8 @@ id: [
         img: [
                 "http://arbu-1dcc9.web.app/img/fiszkiespanol/15a.jpg"
         ],
-        translate: "Romper el silencio con palabras bonitas",
-        translateb: "[rom-pehr el see-len-syoh kohn pah-lah-brahs boh-nee-tahs]",
+        translate: "Przerywać ciszę pięknymi słowami",
+        translateb: "[Romper el silensio kon palawras bonitas]",
         srcWord: ["http://arbu-1dcc9.web.app/filmy/esp/beautiful-words.mp4", '300'],
         srcWordimage: "http://arbu-1dcc9.web.app/filmy/esp/beautiful-words.png",
         word: [
@@ -1918,10 +1922,10 @@ id: [
         ],
         // historia
         story: [
-                "My b<b><u>ro</b></u> put his dirty cd to cd-<b><u>rom</b></u>, and he <b><u>brokes</b></u> the rule to not do this. <b><u>Per</b></u> hour he couldn't open a cd"
+                "<u><b>Rom</u></b>an jest sa<u><b>per</u></b>em, ale jest na urlopie, bo <u><b>złamał</u></b> nogę"
         ],
         // opis
-        desc: "romper[rom-pehr] - przełamać",
+        desc: "romper[romper] - przełamać",
         //zdanie
         sentence1: [
                 "Romper"
@@ -1953,11 +1957,10 @@ id: [
         ],
         // historia
         story: [
-                "KOGNATS: silence - el silencio",
-                "We are in Africa and seeing a <b><u>el</b></u>efant. There is a big <b><u>silence</b></u> and <b><u>siiiii</b></u> there is a p<b><u>len</b></u>ty other elephants there.. so everybody say <b><u>Ooooo</b></u>"
+                "W nocy lubię <u><b>el</u></b>ementarną <u><b>ciszę</u></b>, <u><b>sssii</u></b> to dobre dla snu, piję też <u><b>len</u></b> i sprawdzam godzinę na zegarku ca<u><b>sio</u></b> przed snem"
         ],
         // opis
-        desc: "el silencio[el see-len-syoh] - cisza",
+        desc: "el silencio[el silensio] - cisza",
         //zdanie
         sentence1: [
                 "el silencio"
@@ -1988,10 +1991,10 @@ id: [
         ],
         // historia
         story: [
-                "With that button we have <b><u>con</b></u>trol <b><u>with</b></u> everything"
+                "<u><b>Z</u></b> <u><b>kon</u></b>opiami jest niezły ubaw"
         ],
         // opis
-        desc: "con[kohn] - z",
+        desc: "con[kon] - z",
         //zdanie
         sentence1: [
                 "con"
@@ -2022,10 +2025,10 @@ id: [
         ],
         // historia
         story: [
-                "My <b><u>po</b></u>wer is in choosing <b><u>words</b></u> to my speech... i train my mouth before speech by <b><u>la la la</b></u> and <b><u>wra wra wra</b></u>, and my speech is always <b><u>s</b></u>uper"
+                "Za<u><b>pala</u></b> mi się lampka kiedy słyszę takie proste <u><b>słowa</u></b>, <u><b>wra</u></b>cam do w<u><b>s</u></b>pomnień kiedy było miło"
         ],
         // opis
-        desc: "palabras[pah-lah-brahs] - słowa(liczba mnoga)",
+        desc: "palabras[palawras] - słowa(liczba mnoga)",
         //zdanie
         sentence2: [
                 "palabras"
@@ -2055,10 +2058,10 @@ id: [
         ],
         // historia
         story: [
-                "New James <b><u>Bon</b></u>d seduce <b><u>beautiful</b></u> womans. <b><u>It</b></u> is his mission <b><u>as</b></u> always"
+                "<u><b>Piękne</u></b> kiedyś Zbigniew <u><b>Boni</u></b>ek strzelał bramki w reprezentacji Polski. <u><b>Tas</u></b>ował on zagraniami jak gwiazda"
         ],
         // opis
-        desc: "bonitas[boh-nee-tahs] - piękne(liczba mnoga)",
+        desc: "bonitas[bonitas] - piękne(liczba mnoga)",
         //zdanie
         sentence2: [
                 "bonitas"
@@ -2083,8 +2086,8 @@ id: [
         img: [
                 "http://arbu-1dcc9.web.app/img/fiszkiespanol/20a.jpg"
         ],
-        translate: "Asegurar las puertas antes de dormir",
-        translateb: "[ah-seh-goo-rahr lahs pwer-tahs ahn-tes de dor-meer]",
+        translate: "Zabezpieczać drzwi przed snem",
+        translateb: "[Asegurar las puertas antes de dormir]",
         srcWord: ["http://arbu-1dcc9.web.app/filmy/esp/door.mp4", 'The Matrix Reloaded'],
         srcWordimage: "http://arbu-1dcc9.web.app/filmy/esp/door.png",
         word: [
@@ -2092,10 +2095,10 @@ id: [
         ],
         // historia
         story: [
-                "<b><u>As</b></u> always i <b><u>protect</b></u> my computer with a firewall, its a <b><u>goo</b></u>d practise and it should be not so <b><u>rar</b></u>ely"
+                "<u><b>Zabezpieczyłem</u></b> się przed możliwymi kłopotami wejścią na tą <u><b>gór</u></b>ę. Kupiłem dobrą kl<u><b>ase</u></b> butów - bardzo d<u><b>r</u></b>ogich"
         ],
         // opis
-        desc: "asegurar[ah-seh-goo-rahr] - zabezpieczać",
+        desc: "asegurar[asegurar] - zabezpieczać",
         //zdanie
         sentence1: [
                 "Asegurar"
@@ -2126,10 +2129,10 @@ id: [
         ],
         // historia
         story: [
-                "I enter the c<b><u>la</b></u>ss by the <b><u>door</b></u>. I <b><u>pu</b></u>rchase new pencils for notes, v<b><u>er</b></u>y expensive and i wanna do the <b><u>tas</b></u>k from the teacher"
+                "Wchodzę do k<u><b>las</u></b>y, po tym jak s<u><b>pó</u></b>źiłem się na lekcję, otwieram <u><b>drzwi</u></b>, a na biórku nauczyciela st<u><b>erta</u></b> książek"
         ],
         // opis
-        desc: "la puerta[pwer-tahs] - door",
+        desc: "la puerta[las puerta] - drzwi",
         //zdanie
         sentence1: [
                 "las puertas"
@@ -2159,10 +2162,10 @@ id: [
         ],
         // historia
         story: [
-                "P<b><u>ante</b></u>on was greece building which hase very artistic style <b><u>es</b></u>pecially when it comes about decorations. Pantheon was invented <b><u>before</b></u> Jesus time"
+                "Przed moim domem jest <u><b>ante</u></b>na <u><b>s</u></b>atelitarna i czasami mnie <u><b>de</u></b>nerwuje, że nie odbiera sygnału"
         ],
         // opis
-        desc: "antes de[ahn-tes de] - przed",
+        desc: "antes de[antes de] - przed",
         //zdanie
         sentence2: [
                 "antes de"
@@ -2192,7 +2195,7 @@ id: [
         ],
         // historia
         story: [
-                "I enter my housed <b><u>door</b></u> ang go to <b><u>sleep</b></u> every night, my dreams are ofthen <b><u>mir</b></u>acles"
+                "Bracia <u><b>Dor</u></b>ian i <u><b>Mir</u></b>ek idą <u><b>spać</u></b> w lato, gdy zajdzie słońce"
         ],
         // opis
         desc: "dormir[dormir] - sypiać",
@@ -2229,7 +2232,7 @@ id: [
         ],
         // historia
         story: [
-                "This <b><u>com</b></u>mand <b><u>keep</b></u> whole group in check... <b><u>Ten</b></u>sion is big, p<b><u>er</b></u> hour everybody gym with train<b><u>er</b></u>"
+                ""
         ],
         // opis
         desc: "mantener[mantener] - zachować/utrzymać",
@@ -2263,10 +2266,10 @@ id: [
         ],
         // historia
         story: [
-                "In this c<b><u>la</b></u>ss there is a <b><u>calm<b><u>. Some person made a <b><u>ca</b></u>ll to his <b><u>ma</b></u>ther"
+                "Placek, który upiekła <u><b>ma</u></b>ma powoduje w domu atmosferę relaksu i <u><b>spokoju</u></b>. Nigdy nie ma za<u><b>kal</u></b>ca"
         ],
         // opis
-        desc: "la calma[la kalma] - calm",
+        desc: "la calma[la kalma] - spokój",
         //zdanie
         sentence1: [
                 "la calma"
@@ -2296,7 +2299,7 @@ id: [
         ],
         // historia
         story: [
-                "<b><u>And</b></u> this is <b><u>i</b></u>t"
+                "<u><b>I</u></b> tak dalej.."
         ],
         // opis
         desc: "y[i] - i",
@@ -2330,7 +2333,7 @@ id: [
         ],
         // historia
         story: [
-                "Ma<b><u>dis</b></u>on <b><u>enjoy</b></u> the show but she is <b><u>fru</b></u>strated becouse she can't find his <b><u>tar</b></u>get"
+                "Na tym <u><b>dis</u></b>co, normalnie <u><b>fru</u></b>wam z radości... Cieszę się z muzyki, a na <u><b>tar</u></b>asie są piękne dziewczyny"
         ],
         // opis
         desc: "disfrutar[disfrutar] - cieszyć się",
@@ -2364,10 +2367,10 @@ id: [
         ],
         // historia
         story: [
-                "<b><u>H</b></u>enry play the game <b><u>together</b></u> with friend <b><u>unt</b></u>il they win... They <b><u>toss</b></u>ing the ball in basketball"
+                "<u><b>Hu</u></b>ra jesteśmy w <u><b>Un</u></b>ii, <u><b>razem</u></b> z innymi krajami i jest sz<u><b>tos</u></b>"
         ],
         // opis
-        desc: "juntos[huntos] - razem",
+        desc: "juntos[hunots] - razem",
         //zdanie
         sentence2: [
                 "juntos"
@@ -2402,7 +2405,7 @@ id: [
         ],
         // historia
         story: [
-                "In the game im <b><u>logg</b></u>ed in and i <b><u>achive</b></u> very <b><u>rar</b></u>ity skills"
+                "Mój <u><b>log</u></b>in do <u><b>gr</u></b>y to Sp<u><b>ar</u></b>tan. W grze osiągam dobre rezultaty"
         ],
         // opis
         desc: "lograr[lograr] - osiągać",
@@ -2437,7 +2440,7 @@ id: [
         ],
         // historia
         story: [
-                "My <b><u>dreams</b></u> are <b><u>sw</b></u>eet but im on me <b><u>knee</b></u>s. In the futur i will be like a b<b><u>oss</b></u>"
+                "Motywuje się do swoich <u><b>marzeń</u></b> pewnym ha<u><b>słe</u></b>m, które czasami za<u><b>nios</u></b>e do moich znajomych"
         ],
         // opis
         desc: "sueños[słenios] - marzenia",
@@ -2472,10 +2475,11 @@ id: [
         ],
         // historia
         story: [
-                "With that button we have <b><u>con</b></u>trol <b><u>with</b></u> everything"
+                "<u><b>Z</u></b> <u><b>kon</u></b>opiami jest niezły ubaw",
+                "<u><b>Z</u></b> takimi <u><b>kon</u></b>taktami jakie mam, lepiej jest mi podołać obowiązkom"
         ],
         // opis
-        desc: "con[kohn] - z",
+        desc: "con[kon] - z/przez",
         //zdanie
         sentence1: [
                 "con"
@@ -2506,7 +2510,7 @@ id: [
         ],
         // historia
         story: [
-                ""
+                "<u><b>Es</u></b>tera ogląda wysiłki <u><b>Ph. W.</u></b> (Pharrella Williamsa - Farel Łiliams), daje mu kop<u><b>ert</u></b>e, żeby lepiej śpiewał, a on robi <u><b>Ooooo</u></b>"
         ],
         // opis
         desc: "esfuerzo[esfłerto] - wysiłek",

@@ -1541,7 +1541,7 @@ const fiszki = [
             "nauka", "pory roku"
         ],
         category2: ["zaimkiosobowe"],
-        category3: ["PresentContinous"]
+        category3: ["PresentContinous", "PresentContinousPodmiot"]
     },
     {
         id: [
@@ -1562,7 +1562,8 @@ const fiszki = [
         ],
         key: "company",
         category1: "związki",
-        category2: ["podmiot+czas"]
+        category2: ["podmiot+czas"],
+        category3: ["PresentContinous", "PresentContinousPodmiot"]
     },
     {
         id: [
@@ -1583,7 +1584,8 @@ const fiszki = [
         ],
         key: "starts",
         category1: "natura",
-        category2: ["podmiot+czas", "czasownik"]
+        category2: ["podmiot+czas", "czasownik"],
+        category3: ["PresentContinous", "PresentContinousToBe"]
     },
     {
         id: [
@@ -1605,7 +1607,8 @@ const fiszki = [
         ],
         key: "developing",
         category1: "związki",
-        category2: ["podmiot+czas", "czasownik"]
+        category2: ["podmiot+czas", "czasownik"],
+        category3: ["PresentContinous", "PresentContinousCzasownik"]
     },
     {
         id: [
@@ -1865,7 +1868,7 @@ const fiszki = [
             "nauka", "pory roku"
         ],
         category2: ["zaimkiosobowe"],
-        category3: ["PresentContinous"]
+        category3: ["PresentContinous", "PresentContinousPodmiot"]
     },
     {
         id: [
@@ -1913,7 +1916,7 @@ const fiszki = [
             "are",
             "selling"
         ],
-        key: "sell",
+        key: "are",
         category1: "związki",
         category2: ["podmiot+czas", "czasownik"]
     },
@@ -3549,7 +3552,7 @@ const fiszki = [
             "pasje", "muzyka klasyczna"
         ],
         category2: [""],
-        category3: [""]
+        category3: ["PresentSimple", "PresentSimplePodmiot"]
     },
     {
         id: [
@@ -3570,7 +3573,8 @@ const fiszki = [
         ],
         key: "city",
         category1: "nauka",
-        category2: ["PresentSimple"]
+        category2: ["PresentSimple"],
+                category3: ["PresentSimple", "PresentSimplePodmiot"]
     },
     {
         id: [
@@ -3613,7 +3617,8 @@ const fiszki = [
             "lifestyle", "sukces",
             "geografia", "miasta"
         ],
-        category2: ["czasownik"]
+        category2: ["czasownik"],
+                        category3: ["PresentSimple", "PresentSimpleCzasownik"]
     },
     {
         id: [
@@ -6690,7 +6695,7 @@ const fiszki = [
         key: "blue",
         category1: "nauka",
         category2: ["osoby"],
-        category3: ["PresentContinous"]
+        category3: ["PresentContinous", "PresentContinousPodmiot"]
     },
     {
         id: [
@@ -6865,7 +6870,7 @@ const fiszki = [
         key: "blue",
         category1: "nauka",
         category2: ["osoby"],
-        category3: ["PresentContinous"]
+        category3: ["PresentContinous", "PresentContinousPodmiot"]
     },
     {
         id: [
@@ -6891,7 +6896,7 @@ const fiszki = [
             "playing",
             "football"
         ],
-        key: "blue",
+        key: "are",
         category1: "nauka",
         category2: [""]
     },
@@ -7075,7 +7080,7 @@ const fiszki = [
         key: "blue",
         category1: "nauka",
         category2: ["osoby"],
-        category3: ["PresentContinous"]
+        category3: ["PresentContinous", "PresentContinousPodmiot"]
     },
     {
         id: [
@@ -7262,7 +7267,7 @@ const fiszki = [
         key: "blue",
         category1: "nauka",
         category2: ["osoby"],
-        category3: ["PresentContinous"]
+        category3: ["PresentContinous", "PresentContinousPodmiot"]
     },
     {
         id: [
@@ -7471,7 +7476,7 @@ const fiszki = [
         key: "the adults",
         category1: "nauka",
         category2: ["osoby"],
-        category3: ["PresentContinous"]
+        category3: ["PresentContinous", "PresentContinousPodmiot"]
     },
     {
         id: [
@@ -7496,7 +7501,7 @@ const fiszki = [
             "are",
             "swimming"
         ],
-        key: "blue",
+        key: "are",
         category1: "nauka",
         category2: [""]
     },
@@ -7591,7 +7596,7 @@ const fiszki = [
         key: "we",
         category1: "nauka",
         category2: ["osoby"],
-        category3: ["PresentContinous"]
+        category3: ["PresentContinous", "PresentContinousPodmiot"]
     },
     {
         id: [
@@ -7760,7 +7765,7 @@ const fiszki = [
         key: "the adults",
         category1: "nauka",
         category2: ["osoby"],
-        category3: ["PresentContinous"]
+        category3: ["PresentContinous", "PresentContinousPodmiot"]
     },
     {
         id: [
@@ -7917,7 +7922,8 @@ const fiszki = [
         ],
         key: "blue",
         category1: "nauka",
-        category2: ["osoby"]
+        category2: ["osoby"],
+        category3: ["PresentContinous", "PresentContinousPodmiot"]
     },
     {
         id: [
@@ -7945,9 +7951,10 @@ const fiszki = [
             "together",
             "now"
         ],
-        key: "blue",
+        key: "are",
         category1: "nauka",
-        category2: ["czasownik"]
+        category2: ["czasownik"],
+        category3: ["PresentContinous", "PresentContinousToBe"]
     },
     {
         id: [
@@ -7971,7 +7978,8 @@ const fiszki = [
         ],
         key: "blue",
         category1: "nauka",
-        category2: ["czasownik"]
+        category2: ["czasownik"],
+        category3: ["PresentContinous", "PresentContinousCzasownik"]
     },
     {
         id: [
@@ -8087,7 +8095,7 @@ const fiszki = [
         key: "the adults",
         category1: "nauka",
         category2: ["osoby"],
-        category3: ["PresentContinous"]
+        category3: ["PresentContinous", "PresentContinousPodmiot"]
     },
     {
         id: [
@@ -8253,7 +8261,7 @@ const fiszki = [
         key: "the adults",
         category1: "nauka",
         category2: ["osoby"],
-        category3: ["PresentContinous"]
+        category3: ["PresentContinous", "PresentContinousPodmiot"]
     },
     {
         id: [
@@ -8419,7 +8427,7 @@ const fiszki = [
         key: "the adults",
         category1: "nauka",
         category2: ["osoby"],
-        category3: ["PresentContinous"]
+        category3: ["PresentContinous", "PresentContinousPodmiot"]
     },
     {
         id: [
@@ -9448,8 +9456,8 @@ const fiszki = [
         ],
         img: "http://arbu-1dcc9.web.app/img/fiszki1/96a.jpg",
         translate: "",
-        translateb: "[Maj broder plejs futbol on łikedns]",
-        translateb2: "[Maj broder plejs futbol]",
+        translateb: "[De kat rans fast ewry morning]",
+        translateb2: "[De kat rans fast]",
         srcWord: ["http://arbu-1dcc9.web.app/filmy/cat2.mp4", "Kot w butach: Ostatnie życzenie (2022)"],
         srcWord2: ["http://arbu-1dcc9.web.app/filmy/procedure.mp4", ""],
         srcWordimage: "http://arbu-1dcc9.web.app/filmy/cat2.png",
@@ -9478,9 +9486,21 @@ const fiszki = [
             51,
             95
         ],
-        img: "http://arbu-1dcc9.web.app/img/fiszki1/314a.jpg",
-        story: "Sa<u><b>me</u></b> <u><b>ni</u></b>tki odstają w tych <u><b>s</u></b>podniach. <u><b>Wiele razy</u></b> kupiłem <u><b>ta</u></b>kie spodnie. Za<u><b>jm</u></b>ują mi całą szafę",
-        desc: "cat[kat] - kot",
+        img: [
+            "http://arbu-1dcc9.web.app/img/fiszki1/27a.jpg",
+            "http://arbu-1dcc9.web.app/img/fiszki1/27b.jpg",
+            "http://arbu-1dcc9.web.app/img/fiszki1/27c.jpg",
+            "http://arbu-1dcc9.web.app/img/fiszki1/27d.jpg",
+            "http://arbu-1dcc9.web.app/img/fiszki1/27e.jpg"
+        ],
+        story: [
+            "Na mojej łodzi <u><b>kat</u></b>amaran <u><b>kot</u></b> pomaga mi wiosłować",
+            "<u><b>Kat</u></b>arzyna idzie na spacer z <u><b>kotem</u></b>",
+            "W państwie <u><b>Kat</u></b>ar, <u><b>kot</u></b> ma szczególne uznanie wśród ludzi",
+            "Ten <u><b>kot</u></b> to <u><b>kat</u></b>astrofa",
+            "W <u><b>kat</u></b>egori zwierząt moja dziewczyna lubi najbardziej <u><b>koty</u></b>"
+        ],
+        desc: "{the) cat[kat] - kot",
         sentence2: [
             "cat"
         ],
@@ -9501,7 +9521,7 @@ const fiszki = [
             95
         ],
         img: "http://arbu-1dcc9.web.app/img/fiszki1/314a.jpg",
-        story: "Sa<u><b>me</u></b> <u><b>ni</u></b>tki odstają w tych <u><b>s</u></b>podniach. <u><b>Wiele razy</u></b> kupiłem <u><b>ta</u></b>kie spodnie. Za<u><b>jm</u></b>ują mi całą szafę",
+        story: "Kiedy <u><b>biegałem</u></b> zrobiła mi się <u><b>ran</u></b>a na stopie. <u><b>S</u></b>uper to nie wygląda",
         desc: "runs[rans] - biegać",
         sentence2: [
             "runs"
@@ -9522,8 +9542,8 @@ const fiszki = [
             51,
             95
         ],
-        img: "http://arbu-1dcc9.web.app/img/fiszki1/314a.jpg",
-        story: "Sa<u><b>me</u></b> <u><b>ni</u></b>tki odstają w tych <u><b>s</u></b>podniach. <u><b>Wiele razy</u></b> kupiłem <u><b>ta</u></b>kie spodnie. Za<u><b>jm</u></b>ują mi całą szafę",
+        img: "http://arbu-1dcc9.web.app/img/fiszki1/79a.jpg",
+        story: "Ten chw<b><u>ast</b></u> szybko rośnie, bo to <b><u>f</b></u>uriat wśród chwastów",
         desc: "fast[fast] - szybko",
         sentence2: [
             "fast"
@@ -9546,7 +9566,7 @@ const fiszki = [
         ],
         img: "http://arbu-1dcc9.web.app/img/fiszki1/314a.jpg",
         story: "Sa<u><b>me</u></b> <u><b>ni</u></b>tki odstają w tych <u><b>s</u></b>podniach. <u><b>Wiele razy</u></b> kupiłem <u><b>ta</u></b>kie spodnie. Za<u><b>jm</u></b>ują mi całą szafę",
-        desc: "every[dej] - każdy/każdego",
+        desc: "every[ewry] - każdy",
         sentence2: [
             "every"
         ],
@@ -9565,7 +9585,7 @@ const fiszki = [
             96
         ],
         img: "http://arbu-1dcc9.web.app/img/fiszki1/314a.jpg",
-        story: "Sa<u><b>me</u></b> <u><b>ni</u></b>tki odstają w tych <u><b>s</u></b>podniach. <u><b>Wiele razy</u></b> kupiłem <u><b>ta</u></b>kie spodnie. Za<u><b>jm</u></b>ują mi całą szafę",
+        story: "Mój brat, ta z<u><b>mor</u></b>a wstaje najwcześniej <u><b>rano</u></b>. <u><b>Ni</u></b>kogo nie budzi i tańczy swi<u><b>ng</u></b>",
         desc: "morning[morning] - rano",
         sentence2: [
             "morning"
@@ -9584,18 +9604,30 @@ const fiszki = [
             52,
             97
         ],
-        img: "http://arbu-1dcc9.web.app/img/fiszki1/96a.jpg",
-        translate: "",
-        translateb: "[Maj broder plejs futbol on łikedns]",
-        translateb2: "[Maj broder plejs futbol]",
-        srcWord: ["http://arbu-1dcc9.web.app/filmy/cat2.mp4", "Kot w butach: Ostatnie życzenie (2022)"],
-        srcWord2: ["http://arbu-1dcc9.web.app/filmy/procedure.mp4", ""],
-        srcWordimage: "http://arbu-1dcc9.web.app/filmy/cat2.png",
-        word: [
-            "http://arbu-1dcc9.web.app/voice/bike.mp4"
+        img: [
+            "http://arbu-1dcc9.web.app/img/fiszki1/19a.jpg",
+            "http://arbu-1dcc9.web.app/img/fiszki1/19b.jpg",
+            "http://arbu-1dcc9.web.app/img/fiszki1/19c.jpg",
+            "http://arbu-1dcc9.web.app/img/fiszki1/19d.jpg",
+            "http://arbu-1dcc9.web.app/img/fiszki1/19e.jpg"
         ],
-        story: "<b><u>Wi</b></u>ll Smith oznajmił, że <b><u>my</b></u> jako ludzkość mamy się dobrze",
-        desc: "my[maj] - mój",
+        translate: "",
+        translateb: "[Aj nid e nju per of szu]",
+        translateb2: "[Aj em szaj]",
+        srcWord: ["http://arbu-1dcc9.web.app/filmy/shy.mp4", 'The Matrix Reloaded (2003)'],
+        srcWord2: ["http://arbu-1dcc9.web.app/filmy/procedure.mp4", "Breaking Bad"],
+        srcWordimage: "http://arbu-1dcc9.web.app/filmy/shy.png",
+        word: [
+            "http://arbu-1dcc9.web.app/voice/music.mp4"
+        ],
+        story: [
+            "<u><b>Ja</u></b> jestem Piotrek, mam okulary ochronne, gdy jechałem rowerem wleciała mi mucha do <u><b>oka</u></b>, krzyczałem <u><b>ajjj</u></b> - dlaczego to <u><b>mi</u></b> wleciała mucha do <u><b>oka</u></b>, <u><b>ajjj</u></b>",
+            "M<u><b>aj</u></b>a ma zezowate <u><b>oko</u></b> i mówi, no <u><b>JA</u></b> widzę ciebie podwójnie",
+            "Nauka o mitach, takich jak królowa G</u></b>aj</u></b>a to ten temat, gdzie <u><b>ja</u></b> mam największą wiedze",
+            "Teraz <u><b>ja</u></b> występuję na weselu jako wodzirej i śpiewam <u><b>Aj</u></b>-ja-jaj tak słodko jest tu z wami być..",
+            "Mo<u><b>ja</u></b> babcia idzie do kurnika po jaja, a <u><b>ja</u></b> będę za chwilę jadł jajecznice"
+        ],
+        desc: "I[aj] - ja",
         sentence1: [
             "I"
         ],
@@ -9615,7 +9647,7 @@ const fiszki = [
             97
         ],
         img: "http://arbu-1dcc9.web.app/img/fiszki1/314a.jpg",
-        story: "Sa<u><b>me</u></b> <u><b>ni</u></b>tki odstają w tych <u><b>s</u></b>podniach. <u><b>Wiele razy</u></b> kupiłem <u><b>ta</u></b>kie spodnie. Za<u><b>jm</u></b>ują mi całą szafę",
+        story: "Mój brat - g<u><b>nid</u></b>a ciągle coś ode mnie <u><b>potrzebuje</u></b>",
         desc: "need[nid] - potrzebuję",
         sentence2: [
             "need"
@@ -9636,7 +9668,7 @@ const fiszki = [
             98
         ],
         img: "http://arbu-1dcc9.web.app/img/fiszki1/314a.jpg",
-        story: "Sa<u><b>me</u></b> <u><b>ni</u></b>tki odstają w tych <u><b>s</u></b>podniach. <u><b>Wiele razy</u></b> kupiłem <u><b>ta</u></b>kie spodnie. Za<u><b>jm</u></b>ują mi całą szafę",
+        story: "He<u><b>nju</u></b> ma now<u><b>e</u></b> buty",
         desc: "a new[e nju] - nowe/nowy",
         sentence2: [
             "a new"
@@ -9657,8 +9689,8 @@ const fiszki = [
             98
         ],
         img: "http://arbu-1dcc9.web.app/img/fiszki1/314a.jpg",
-        story: "Sa<u><b>me</u></b> <u><b>ni</u></b>tki odstają w tych <u><b>s</u></b>podniach. <u><b>Wiele razy</u></b> kupiłem <u><b>ta</u></b>kie spodnie. Za<u><b>jm</u></b>ują mi całą szafę",
-        desc: "pair[] - rano",
+        story: "Nowa <u><b>para</u></b> <u><b>per</u></b>yskopów w łodzi podwodnej działa znakomicie",
+        desc: "pair[per] - para",
         sentence2: [
             "pair"
         ],
@@ -9678,7 +9710,7 @@ const fiszki = [
             98
         ],
         img: "http://arbu-1dcc9.web.app/img/fiszki1/314a.jpg",
-        story: "Sa<u><b>me</u></b> <u><b>ni</u></b>tki odstają w tych <u><b>s</u></b>podniach. <u><b>Wiele razy</u></b> kupiłem <u><b>ta</u></b>kie spodnie. Za<u><b>jm</u></b>ują mi całą szafę",
+        story: "",
         desc: "of shoes[of szu] - butów",
         sentence2: [
             "of shoes"
@@ -9691,6 +9723,48 @@ const fiszki = [
         key: "blue",
         category1: "nauka",
         category2: ["rzeczy"]
+    },
+                                        {
+        id: [
+            338,
+            53,
+            99
+        ],
+        img: [
+            "http://arbu-1dcc9.web.app/img/fiszki1/19a.jpg",
+            "http://arbu-1dcc9.web.app/img/fiszki1/19b.jpg",
+            "http://arbu-1dcc9.web.app/img/fiszki1/19c.jpg",
+            "http://arbu-1dcc9.web.app/img/fiszki1/19d.jpg",
+            "http://arbu-1dcc9.web.app/img/fiszki1/19e.jpg"
+        ],
+        translate: "",
+        translateb: "[]",
+        translateb2: "[]",
+        srcWord: ["http://arbu-1dcc9.web.app/filmy/shy.mp4", 'The Matrix Reloaded (2003)'],
+        srcWord2: ["http://arbu-1dcc9.web.app/filmy/procedure.mp4", "Breaking Bad"],
+        srcWordimage: "http://arbu-1dcc9.web.app/filmy/shy.png",
+        word: [
+            "http://arbu-1dcc9.web.app/voice/music.mp4"
+        ],
+        story: [
+            "<u><b>Ja</u></b> jestem Piotrek, mam okulary ochronne, gdy jechałem rowerem wleciała mi mucha do <u><b>oka</u></b>, krzyczałem <u><b>ajjj</u></b> - dlaczego to <u><b>mi</u></b> wleciała mucha do <u><b>oka</u></b>, <u><b>ajjj</u></b>",
+            "M<u><b>aj</u></b>a ma zezowate <u><b>oko</u></b> i mówi, no <u><b>JA</u></b> widzę ciebie podwójnie",
+            "Nauka o mitach, takich jak królowa G</u></b>aj</u></b>a to ten temat, gdzie <u><b>ja</u></b> mam największą wiedze",
+            "Teraz <u><b>ja</u></b> występuję na weselu jako wodzirej i śpiewam <u><b>Aj</u></b>-ja-jaj tak słodko jest tu z wami być..",
+            "Mo<u><b>ja</u></b> babcia idzie do kurnika po jaja, a <u><b>ja</u></b> będę za chwilę jadł jajecznice"
+        ],
+        desc: "I[aj] - ja",
+        sentence1: [
+            "I"
+        ],
+        sentence: [
+            "I",
+            "need"
+        ],
+        key: "the adults",
+        category1: "nauka",
+        category2: ["osoby"],
+        category3: ["PresentSimple", "PresentSimplePodmiot"]
     }
 ];
 
