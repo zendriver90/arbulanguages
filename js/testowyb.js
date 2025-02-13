@@ -483,7 +483,7 @@ const fiszki = [
             "scientific",
             "procedures"
         ],
-        key: "science",
+        key: "scientific",
         category1: [
             "sport", "sztuki walki",
             "natura", "",
@@ -7624,7 +7624,7 @@ const fiszki = [
             "right",
             "now"
         ],
-        key: "blue",
+        key: "are",
         category1: "nauka",
         category2: [""]
     },
@@ -9156,7 +9156,7 @@ const fiszki = [
         id: [
             314,
             48,
-            90
+            89
         ],
         img: "http://arbu-1dcc9.web.app/img/fiszki1/314a.jpg",
         story: "Sa<u><b>me</u></b> <u><b>ni</u></b>tki odstają w tych <u><b>s</u></b>podniach. <u><b>Wiele razy</u></b> kupiłem <u><b>ta</u></b>kie spodnie. Za<u><b>jm</u></b>ują mi całą szafę",
@@ -9175,7 +9175,7 @@ const fiszki = [
         id: [
             315,
             49,
-            91
+            90
         ],
         img: "http://arbu-1dcc9.web.app/img/fiszki1/96a.jpg",
         translate: "",
@@ -9207,7 +9207,7 @@ const fiszki = [
         id: [
             316,
             49,
-            91
+            90
         ],
         img: "http://arbu-1dcc9.web.app/img/fiszki1/314a.jpg",
         story: "Sa<u><b>me</u></b> <u><b>ni</u></b>tki odstają w tych <u><b>s</u></b>podniach. <u><b>Wiele razy</u></b> kupiłem <u><b>ta</u></b>kie spodnie. Za<u><b>jm</u></b>ują mi całą szafę",
@@ -9230,7 +9230,7 @@ const fiszki = [
         id: [
             317,
             49,
-            91
+            90
         ],
         img: "http://arbu-1dcc9.web.app/img/fiszki1/314a.jpg",
         story: "Sa<u><b>me</u></b> <u><b>ni</u></b>tki odstają w tych <u><b>s</u></b>podniach. <u><b>Wiele razy</u></b> kupiłem <u><b>ta</u></b>kie spodnie. Za<u><b>jm</u></b>ują mi całą szafę",
@@ -9253,7 +9253,7 @@ const fiszki = [
         id: [
             318,
             49,
-            91
+            90
         ],
         img: "http://arbu-1dcc9.web.app/img/fiszki1/314a.jpg",
         story: "Sa<u><b>me</u></b> <u><b>ni</u></b>tki odstają w tych <u><b>s</u></b>podniach. <u><b>Wiele razy</u></b> kupiłem <u><b>ta</u></b>kie spodnie. Za<u><b>jm</u></b>ują mi całą szafę",
@@ -9275,7 +9275,7 @@ const fiszki = [
         id: [
             319,
             49,
-            92
+            91
         ],
         img: "http://arbu-1dcc9.web.app/img/fiszki1/314a.jpg",
         story: "Sa<u><b>me</u></b> <u><b>ni</u></b>tki odstają w tych <u><b>s</u></b>podniach. <u><b>Wiele razy</u></b> kupiłem <u><b>ta</u></b>kie spodnie. Za<u><b>jm</u></b>ują mi całą szafę",
@@ -9295,7 +9295,7 @@ const fiszki = [
         id: [
             320,
             49,
-            92
+            91
         ],
         img: "http://arbu-1dcc9.web.app/img/fiszki1/314a.jpg",
         story: "Sa<u><b>me</u></b> <u><b>ni</u></b>tki odstają w tych <u><b>s</u></b>podniach. <u><b>Wiele razy</u></b> kupiłem <u><b>ta</u></b>kie spodnie. Za<u><b>jm</u></b>ują mi całą szafę",
@@ -9315,7 +9315,7 @@ const fiszki = [
         id: [
             321,
             50,
-            93
+            92
         ],
         img: "http://arbu-1dcc9.web.app/img/fiszki1/96a.jpg",
         translate: "",
@@ -9346,7 +9346,7 @@ const fiszki = [
         id: [
             322,
             50,
-            93
+            92
         ],
         img: "http://arbu-1dcc9.web.app/img/fiszki1/314a.jpg",
         story: "Sa<u><b>me</u></b> <u><b>ni</u></b>tki odstają w tych <u><b>s</u></b>podniach. <u><b>Wiele razy</u></b> kupiłem <u><b>ta</u></b>kie spodnie. Za<u><b>jm</u></b>ują mi całą szafę",
@@ -9368,7 +9368,7 @@ const fiszki = [
         id: [
             323,
             50,
-            93
+            92
         ],
         img: "http://arbu-1dcc9.web.app/img/fiszki1/314a.jpg",
         story: "Sa<u><b>me</u></b> <u><b>ni</u></b>tki odstają w tych <u><b>s</u></b>podniach. <u><b>Wiele razy</u></b> kupiłem <u><b>ta</u></b>kie spodnie. Za<u><b>jm</u></b>ują mi całą szafę",
@@ -9389,7 +9389,7 @@ const fiszki = [
         id: [
             324,
             50,
-            94
+            93
         ],
         img: "http://arbu-1dcc9.web.app/img/fiszki1/314a.jpg",
         story: "Sa<u><b>me</u></b> <u><b>ni</u></b>tki odstają w tych <u><b>s</u></b>podniach. <u><b>Wiele razy</u></b> kupiłem <u><b>ta</u></b>kie spodnie. Za<u><b>jm</u></b>ują mi całą szafę",
@@ -9410,7 +9410,7 @@ const fiszki = [
         id: [
             325,
             50,
-            94
+            93
         ],
         img: "http://arbu-1dcc9.web.app/img/fiszki1/314a.jpg",
         story: "Sa<u><b>me</u></b> <u><b>ni</u></b>tki odstają w tych <u><b>s</u></b>podniach. <u><b>Wiele razy</u></b> kupiłem <u><b>ta</u></b>kie spodnie. Za<u><b>jm</u></b>ują mi całą szafę",
@@ -9431,7 +9431,7 @@ const fiszki = [
         id: [
             326,
             50,
-            94
+            93
         ],
         img: "http://arbu-1dcc9.web.app/img/fiszki1/314a.jpg",
         story: "Sa<u><b>me</u></b> <u><b>ni</u></b>tki odstają w tych <u><b>s</u></b>podniach. <u><b>Wiele razy</u></b> kupiłem <u><b>ta</u></b>kie spodnie. Za<u><b>jm</u></b>ują mi całą szafę",
@@ -9452,7 +9452,7 @@ const fiszki = [
         id: [
             327,
             51,
-            95
+            94
         ],
         img: "http://arbu-1dcc9.web.app/img/fiszki1/96a.jpg",
         translate: "",
@@ -9484,7 +9484,7 @@ const fiszki = [
         id: [
             328,
             51,
-            95
+            94
         ],
         img: [
             "http://arbu-1dcc9.web.app/img/fiszki1/27a.jpg",
@@ -9518,7 +9518,7 @@ const fiszki = [
         id: [
             329,
             51,
-            95
+            94
         ],
         img: "http://arbu-1dcc9.web.app/img/fiszki1/314a.jpg",
         story: "Kiedy <u><b>biegałem</u></b> zrobiła mi się <u><b>ran</u></b>a na stopie. <u><b>S</u></b>uper to nie wygląda",
@@ -9540,7 +9540,7 @@ const fiszki = [
         id: [
             330,
             51,
-            95
+            94
         ],
         img: "http://arbu-1dcc9.web.app/img/fiszki1/79a.jpg",
         story: "Ten chw<b><u>ast</b></u> szybko rośnie, bo to <b><u>f</b></u>uriat wśród chwastów",
@@ -9562,7 +9562,7 @@ const fiszki = [
         id: [
             331,
             51,
-            96
+            95
         ],
         img: "http://arbu-1dcc9.web.app/img/fiszki1/314a.jpg",
         story: "Sa<u><b>me</u></b> <u><b>ni</u></b>tki odstają w tych <u><b>s</u></b>podniach. <u><b>Wiele razy</u></b> kupiłem <u><b>ta</u></b>kie spodnie. Za<u><b>jm</u></b>ują mi całą szafę",
@@ -9582,7 +9582,7 @@ const fiszki = [
         id: [
             332,
             51,
-            96
+            95
         ],
         img: "http://arbu-1dcc9.web.app/img/fiszki1/314a.jpg",
         story: "Mój brat, ta z<u><b>mor</u></b>a wstaje najwcześniej <u><b>rano</u></b>. <u><b>Ni</u></b>kogo nie budzi i tańczy swi<u><b>ng</u></b>",
@@ -9602,7 +9602,7 @@ const fiszki = [
         id: [
             333,
             52,
-            97
+            96
         ],
         img: [
             "http://arbu-1dcc9.web.app/img/fiszki1/19a.jpg",
@@ -9635,7 +9635,7 @@ const fiszki = [
             "I",
             "need"
         ],
-        key: "the adults",
+        key: "i",
         category1: "nauka",
         category2: ["osoby"],
         category3: ["PresentSimple", "PresentSimplePodmiot"]
@@ -9644,7 +9644,7 @@ const fiszki = [
         id: [
             334,
             52,
-            97
+            96
         ],
         img: "http://arbu-1dcc9.web.app/img/fiszki1/314a.jpg",
         story: "Mój brat - g<u><b>nid</u></b>a ciągle coś ode mnie <u><b>potrzebuje</u></b>",
@@ -9656,7 +9656,7 @@ const fiszki = [
             "I",
             "need"
         ],
-        key: "blue",
+        key: "need",
         category1: "nauka",
         category2: ["czasownik"],
                 category3: ["PresentSimple", "PresentSimpleCzasownik"]
@@ -9665,7 +9665,7 @@ const fiszki = [
         id: [
             335,
             52,
-            98
+            97
         ],
         img: "http://arbu-1dcc9.web.app/img/fiszki1/314a.jpg",
         story: "He<u><b>nju</u></b> ma now<u><b>e</u></b> buty",
@@ -9678,7 +9678,7 @@ const fiszki = [
             "pair",
             "of shoes"
         ],
-        key: "blue",
+        key: "a new",
         category1: "nauka",
         category2: ["czas"]
     },
@@ -9686,7 +9686,7 @@ const fiszki = [
         id: [
             336,
             52,
-            98
+            97
         ],
         img: "http://arbu-1dcc9.web.app/img/fiszki1/314a.jpg",
         story: "Nowa <u><b>para</u></b> <u><b>per</u></b>yskopów w łodzi podwodnej działa znakomicie",
@@ -9699,7 +9699,7 @@ const fiszki = [
             "pair",
             "of shoes"
         ],
-        key: "blue",
+        key: "pair",
         category1: "nauka",
         category2: ["ilość"]
     },
@@ -9707,7 +9707,7 @@ const fiszki = [
         id: [
             337,
             52,
-            98
+            97
         ],
         img: "http://arbu-1dcc9.web.app/img/fiszki1/314a.jpg",
         story: "",
@@ -9720,51 +9720,9 @@ const fiszki = [
             "pair",
             "of shoes"
         ],
-        key: "blue",
+        key: "of shoes",
         category1: "nauka",
         category2: ["rzeczy"]
-    },
-                                        {
-        id: [
-            338,
-            53,
-            99
-        ],
-        img: [
-            "http://arbu-1dcc9.web.app/img/fiszki1/19a.jpg",
-            "http://arbu-1dcc9.web.app/img/fiszki1/19b.jpg",
-            "http://arbu-1dcc9.web.app/img/fiszki1/19c.jpg",
-            "http://arbu-1dcc9.web.app/img/fiszki1/19d.jpg",
-            "http://arbu-1dcc9.web.app/img/fiszki1/19e.jpg"
-        ],
-        translate: "",
-        translateb: "[]",
-        translateb2: "[]",
-        srcWord: ["http://arbu-1dcc9.web.app/filmy/shy.mp4", 'The Matrix Reloaded (2003)'],
-        srcWord2: ["http://arbu-1dcc9.web.app/filmy/procedure.mp4", "Breaking Bad"],
-        srcWordimage: "http://arbu-1dcc9.web.app/filmy/shy.png",
-        word: [
-            "http://arbu-1dcc9.web.app/voice/music.mp4"
-        ],
-        story: [
-            "<u><b>Ja</u></b> jestem Piotrek, mam okulary ochronne, gdy jechałem rowerem wleciała mi mucha do <u><b>oka</u></b>, krzyczałem <u><b>ajjj</u></b> - dlaczego to <u><b>mi</u></b> wleciała mucha do <u><b>oka</u></b>, <u><b>ajjj</u></b>",
-            "M<u><b>aj</u></b>a ma zezowate <u><b>oko</u></b> i mówi, no <u><b>JA</u></b> widzę ciebie podwójnie",
-            "Nauka o mitach, takich jak królowa G</u></b>aj</u></b>a to ten temat, gdzie <u><b>ja</u></b> mam największą wiedze",
-            "Teraz <u><b>ja</u></b> występuję na weselu jako wodzirej i śpiewam <u><b>Aj</u></b>-ja-jaj tak słodko jest tu z wami być..",
-            "Mo<u><b>ja</u></b> babcia idzie do kurnika po jaja, a <u><b>ja</u></b> będę za chwilę jadł jajecznice"
-        ],
-        desc: "I[aj] - ja",
-        sentence1: [
-            "I"
-        ],
-        sentence: [
-            "I",
-            "need"
-        ],
-        key: "the adults",
-        category1: "nauka",
-        category2: ["osoby"],
-        category3: ["PresentSimple", "PresentSimplePodmiot"]
     }
 ];
 

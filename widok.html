@@ -8841,3 +8841,552 @@ if (window.matchMedia("(min-width: 999px)").matches) {
 
         </script>
 </html>
+<scrpit>
+const searchInput = document.querySelector("[data-search]");
+console.log("Element input:", searchInput); // Sprawdzenie czy input istnieje
+
+let matchingKeys = []; // Globalna tablica pasujących słów
+
+function findMatchingKeys(fiszki, searchValue) {
+    console.log("Rozpoczynam filtrowanie fiszek dla frazy:", searchValue);
+    
+    matchingKeys = fiszki
+        .filter(fiszka => {
+            if (!fiszka.key) return false; // Jeśli brak key, pomijamy
+            return fiszka.key.toLowerCase().startsWith(searchValue);
+        })
+        .map(fiszka => fiszka.key);
+
+    console.log("Pasujące słowa:", matchingKeys);
+}
+
+function findLessonsForWords(fiszki) {
+    let lessonIds = new Set();
+
+    fiszki.forEach(fiszka => {
+        if (!fiszka.key || !fiszka.id) return; // Jeśli brak danych, pomijamy
+        if (matchingKeys.includes(fiszka.key)) {
+            lessonIds.add(fiszka.id[0]);
+        }
+    });
+
+    console.log("Lekcje zawierające szukane słowo:", Array.from(lessonIds));
+    return Array.from(lessonIds);
+}
+let isSearching = false;
+searchInput.addEventListener("input", (e) => {
+    const searchTerm = e.target.value.trim(); // Poprawiony event.target
+    const searchValue = searchTerm.toLowerCase();
+
+    if (searchTerm.length === 1) {
+        isSearching = true;
+        console.log("Rozpoczęto wyszukiwanie:", isSearching);
+    } else if (searchTerm.length === 0) {
+        isSearching = false; // Resetujemy flagę przy pustym input
+        console.log("Pusty input - przerywamy");
+        matchingKeys = []; // Resetujemy tablicę pasujących słów
+        return;
+    }
+
+    console.log("Wpisana fraza:", searchValue);
+    console.log("Tablica fiszek:", fiszki); // Sprawdzamy czy dane istnieją
+
+    findMatchingKeys(fiszki, searchValue);
+    const matchingLessons5 = findLessonsForWords(fiszki);
+
+    console.log("Rozpoczęto wyszukiwanie2:", isSearching);
+    console.log("Znalezione lekcje:", matchingLessons5);
+    console.log("Nowe dane:", tablica3[0]);
+    przekazArgument0(tablica3[2], '', false, tablica3[0], false, false, tablica3[1], null, true, matchingLessons5);
+
+});
+
+idpolski = false;
+            let indexes = [];
+            let pulpitstartowy = false;
+            var czasv2;
+
+            // Definicja zmiennej globalnej globalCategory
+            var przyciskKlikniety = false;
+            // Definicja zmiennej matchingIndexes
+            let matchingIndexes = [];
+            let tablica7 = [];
+            let pierwszyFilmURL = '';
+            function zapiszPierwszyFilmURL(url) {
+                if (pierwszyFilmURL === '') {
+                    pierwszyFilmURL = url;
+                }
+            }
+            var globalCategory = '';
+            // Funkcja przekazująca argument
+
+
+            var tablica3 = [];
+            tablica3[0] = 'fiszki'; // Domyślny tryb
+            tablica3[1] = null; // Domyślny tryb
+            tablica3[2] = 'all'; // Domyślny tryb
+            tablica3[4] = null;
+            function przekazArgument0(category, index55, buttonindex, czas, idpolski, idtranslate, id, rodzaj, isSearching, matchingLessons5) {
+                $('.grid-container .image-container3').remove();
+                $('.grid-container .image-container4').remove();
+                tablica3[1] = id;
+                tablica3[2] = category;
+                tablica3[4] = rodzaj;
+                console.log('hej55b', rodzaj);
+                console.log('hej321b', idtranslate);
+                console.log('hej453', buttonindex);
+                console.log('hej453', czas);
+                console.log('hej453', idpolski);
+                pulpitstartowy = true;
+                przyciskKlikniety = true;
+                // Przypisz wartość do zmiennej globalnej
+                globalCategory = category;
+                tablica10.length = 0;
+                tablica15.length = 0;
+                globalIdTranslate = idtranslate;
+                                console.log('nowy30', isSearching);
+                // Wywołaj funkcję wybierzCharakter na podstawie trybu
+                wybierzCharakter(category, tablica3[0], index55, buttonindex, tablica3[1], tablica3[3], rodzaj, isSearching, matchingLessons5);
+
+            }
+
+            function ustawTryb(tryb, frazy) {
+                // Zaktualizuj pierwszą wartość w tablicy lub dodaj, jeśli jest pusta
+                tablica3[0] = tryb;
+                tablica3[3] = frazy;
+            }
+            console.log('hej33bb', tablica3);
+            // Funkcja wybierająca charakter
+            function wybierzCharakter(category, czas, index55, buttonindex, idpolski, frazyid, rodzaj, isSearching, matchingLessons5) {
+                console.log('hej223', czas, category, frazyid);
+
+                pulpitstartowy = false;
+                console.log('hej555', czas);
+                // Aktualizuj matchingIndexes na podstawie nowej kategorii
+                matchingIndexes = findXForMatchingFiszka(globalCategory, fiszki);
+                matchingIndexes2 = findXForMatchingFiszka2(globalCategory, fiszki);
+                matchingIndexes3 = findXForMatchingFiszka3(globalCategory, fiszki);
+
+                wybierzRodzaj(globalCategory, czas, matchingIndexes, index55, buttonindex, idpolski, frazyid, matchingIndexes2, rodzaj, matchingIndexes3, isSearching, matchingLessons5);
+                // Wyświetl na konsoli zaktualizowane matchingIndexes
+                console.log("Zaktualizowane matchingIndexes:", matchingIndexes);
+                console.log("wykonuje sie hej", matchingIndexes2);
+                czasv2 = czas;
+                console.log('hej5', dlugosc);
+            }
+
+
+
+            const lessonsArray = [];
+            const lessonsArrayA = [];
+            const lessonsArrayB = [];
+            console.log('hej45', lessonsArray);
+            // Wyświetlenie wyniku
+            // Funkcja odtwarzająca losowy kontener image-container3
+            // Funkcja odtwarzająca losowy kontener image-container3
+            let imageContainer3Array = [];
+            console.log('hej44', imageContainer3Array);
+            let currentVideoIndex = 0; // Indeks bieżącego filmu do odtworzenia
+
+            // Funkcja obsługująca zdarzenie zakończenia odtwarzania filmu
+            function videoEndedHandler() {
+                currentVideoIndex = (currentVideoIndex + 1) % imageContainer3Array.length; // Przejście do następnego filmu
+                playRandomImageContainer3(); // Odtwórz kolejny losowy film
+            }
+            console.log("Matching indexes:", matchingIndexes);
+            let polski = false;
+            let losowaniaCounter = 0; // Zmienna licznika losowań
+            let losowaniaCounter2 = 0; // Zmienna licznika losowań
+            let tablica33 = [];
+            let tablica33b = [];
+            function wybierzRodzaj(category, czas, matchingIndexes, index55, buttonindex, idpolski, frazyid, matchingIndexes2, rodzaj, matchingIndexes3, isSearching, matchingLessons5) {
+                category = category || globalCategory;
+                czasv2 = czas;
+                console.log("Wybrany rodzaj słownictwa: ", buttonindex);
+                console.log('hej5b', index55);
+                console.log('hej755', matchingIndexes2);
+
+                const matchingLessons = new Set();
+                const matchingLessons1b = new Set(matchingLessons5);
+                const matchingLessons2 = new Set();
+// Iteracja przez fiszki
+console.log('hej755', matchingLessons1b);
+                for (const fiszka of fiszki) {
+                    let matchingFiszka = false;
+                    // Sprawdzenie warunków dla category
+                    if (category === 'all' || !category) {
+                        matchingFiszka = true;
+                    } else if (category !== 'PresentSimple' && category !== 'PresentContinous' && category !== 'PastSimple') {
+                        matchingFiszka = fiszka.category2.includes(category);
+                    } else {
+                        matchingFiszka = fiszka.category3 && fiszka.category3.includes(category);
+                    }
+
+                    // Dodanie fiszki do matchingLessons na podstawie warunków
+                    if (matchingFiszka) {
+                        if (frazyid === 'frazy') {
+                            matchingLessons2.add(fiszka.id[2]);
+                        } else {
+                            // Dodawanie id do matchingLessons, jeśli czas nie jest 'frazy'
+                            matchingLessons.add(fiszka.id[1]);
+                        }
+                    }
+                }
+                console.log('matchingLessons2:', matchingLessons2);
+                const uniqueMatchingLessons = Array.from(matchingLessons);
+                const uniqueMatchingLessons2 = Array.from(matchingLessons2);
+                const uniqueMatchingLessons2b = Array.from(matchingLessons1b);
+                    // Pobranie lekcji dla pasujących słów
+                console.log('Unikalne dopasowane lekcjenn:', uniqueMatchingLessons2b);
+
+                let myVariable;
+
+                if (!isSearching) {
+                    myVariable = uniqueMatchingLessons;
+                } else if (isSearching) {
+                    myVariable = uniqueMatchingLessons2b;
+                    console.log('myVariable8:', uniqueMatchingLessons2b);
+                }
+                                if (czas === 'fiszki' && czas !== "zdania" && isSearching) {
+                    console.log('Warunek czas === "fiszki" jest spełniony');
+                    $('.grid-container .image-container4').remove();
+                    $('.grid-container .image-container5').remove();
+
+                    if (myVariable.length > 1) {
+                        let zeroWylosowane = false;
+                        let indexDiv = 0;
+                        let cumulativeFirstPartLength1 = 0;
+                        let cumulativeFirstPartLength2 = 0;
+                        let cumulativeFirstPartLength3 = 0;
+
+                        let startIndex = 0;
+                        const lengthDividedByThree = myVariable.length / 3;
+
+                        let indices = Array.from({length: lengthDividedByThree}, (_, i) => i + 1);
+                        let indices2 = [];
+                        for (let i = 1; i <= lengthDividedByThree; i++) {
+                            indices2.push(i);
+                        }
+
+                        console.log('hej12', indices2);
+
+                        const zeroIndex = Math.floor(Math.random() * lengthDividedByThree);
+                        const zeroIndex2 = index55 - 1;
+                        indices[zeroIndex] = 0;
+                        indices2[zeroIndex2] = 0;
+                        losowaniaCounter++; // Inkrementuj licznik przy każdym wywołaniu
+                        tablica33.push(losowaniaCounter); // Dodaj zaktualizowany licznik do tablicy
+                        console.log('hej1113', tablica33); // Wyświetl zawartość tablicy
+                        for (let i = 0; i < myVariable.length; i += 3) {
+                            indexDiv++;
+                            const lessonId1 = myVariable[i];
+                            const lessonId2 = myVariable[i + 1];
+                            const lessonId3 = myVariable[i + 2];
+                            const newIndex = indices[Math.floor(i / 3)];
+                            const index50 = indices2[Math.floor(i / 3)];
+                            console.log('hej16e', indexDiv);
+
+                            const lesson1Sentences = correlationsCount.find(item => item[0] === lessonId1) || [lessonId1, 0];
+                            const lesson2Sentences = correlationsCount.find(item => item[0] === lessonId2) || [lessonId2, 0];
+                            const lesson3Sentences = correlationsCount.find(item => item[0] === lessonId3) || [lessonId3, 0];
+
+                            const lesson1SecondPartLength = partLengths2.find(item => item.id === lessonId1)?.count2 || 0;
+                            const lesson2SecondPartLength = partLengths2.find(item => item.id === lessonId2)?.count2 || 0;
+                            const lesson3SecondPartLength = partLengths2.find(item => item.id === lessonId3)?.count2 || 0;
+
+                            const lesson1FirstPartLength = partLengths1.find(item => item.id === lessonId1)?.count2 || 0;
+                            const lesson2FirstPartLength = partLengths1.find(item => item.id === lessonId2)?.count2 || 0;
+                            const lesson3FirstPartLength = partLengths1.find(item => item.id === lessonId3)?.count2 || 0;
+
+                            const lesson1PartLength = partLengths3.find(item => item.id === lessonId1)?.cumulativeCount || 0;
+                            const lesson2PartLength = partLengths3.find(item => item.id === lessonId2)?.cumulativeCount || 0;
+                            const lesson3PartLength = partLengths3.find(item => item.id === lessonId3)?.cumulativeCount || 0;
+
+                            cumulativeFirstPartLength1 += lesson1PartLength;
+                            cumulativeFirstPartLength2 += lesson2PartLength;
+                            cumulativeFirstPartLength3 += lesson3PartLength;
+
+                            const lessonObject = {
+                                lessonId1: lessonId1,
+                                lessonId2: lessonId2,
+                                lessonId3: lessonId3,
+                                index50: index50,
+                                newIndex: newIndex,
+                                lesson1Sentences: lesson1Sentences,
+                                lesson2Sentences: lesson2Sentences,
+                                lesson3Sentences: lesson3Sentences,
+                                lesson1PartLength: lesson1PartLength,
+                                lesson2PartLength: lesson2PartLength,
+                                lesson3PartLength: lesson3PartLength,
+                                lesson1FirstPartLength: lesson1FirstPartLength,
+                                lesson2FirstPartLength: lesson2FirstPartLength,
+                                lesson3FirstPartLength: lesson3FirstPartLength,
+                                lesson1SecondPartLength: lesson1SecondPartLength,
+                                lesson2SecondPartLength: lesson2SecondPartLength,
+                                lesson3SecondPartLength: lesson3SecondPartLength,
+                                indexDiv: indexDiv
+                            };
+
+                            lessonsArray.push(lessonObject);
+                            console.log('hej34', lessonObject);
+
+                            // Zwiększenie licznika losowań
+                            console.log('Liczba losowań:', losowaniaCounter); // Dodano log licznika losowań
+
+                            // Sprawdzenie, czy osiągnięto limit losowań
+                            if (losowaniaCounter >= 7) {
+                                console.log('Osiągnięto 7 losowań, wyświetlam powiadomienie');
+                                powiadomienieCounter++; // Zwiększenie licznika powiadomień
+
+                                if (confirm('Osiągnięto 7 losowań. Czy chcesz kontynuować losowania?')) {
+                                    console.log('Użytkownik potwierdził dalsze losowania');
+                                    losowaniaCounter = 0; // Zresetowanie licznika losowań
+                                } else {
+                                    console.log('Użytkownik przerwał dalsze losowania');
+                                    break; // Przerwanie pętli, jeśli użytkownik nie chce kontynuować
+                                }
+                            }
+
+                            if (tablica10.length <= 17 || tablica10.length === 0) {
+                                console.log('wykonuje się 8');
+                                console.log('hej32', newIndex);
+                                console.log('hej18', tablica10);
+                                showCombinedSentenceForLesson(matchingIndexes3, rodzaj, matchingIndexes2, buttonindex, index50, lessonId1, lessonId2, lessonId3, fiszki, matchingIndexes, startIndex, newIndex, indexDiv, lessonsArray, lesson1PartLength, lesson2PartLength, lesson3PartLength, lesson1Sentences, lesson2Sentences, lesson3Sentences, lesson1FirstPartLength, lesson2FirstPartLength, lesson3FirstPartLength, lesson1SecondPartLength, lesson2SecondPartLength, lesson3SecondPartLength, cumulativeFirstPartLength1, cumulativeFirstPartLength2, cumulativeFirstPartLength3);
+                            }
+
+                        }
+
+                        console.log('Aktualna zawartość tablicy lessonsArray:', lessonsArray);
+                        const numberOfContainers = $('.image-container3').length;
+                        console.log('Liczba dodanych divów:', numberOfContainers);
+                    }
+                }
+                
+                function showCombinedSentenceForLesson(matchingIndexes3, rodzaj, matchingIndexes2, buttonindex, index50, lessonIdToShow1, lessonIdToShow2, lessonIdToShow3, fiszki, matchingIndexes, startIndex, newIndex, indexDiv, lessonsArray, lesson1PartLength, lesson2PartLength, lesson3PartLength, lesson1Sentences, lesson2Sentences, lesson3Sentences, lesson1FirstPartLength, lesson2FirstPartLength, lesson3FirstPartLength, lesson1SecondPartLength, lesson2SecondPartLength, lesson3SecondPartLength, cumulativeFirstPartLength1, cumulativeFirstPartLength2, cumulativeFirstPartLength3) {
+                console.log('hej55bb', rodzaj);
+                const matchingFiszki1 = fiszki.filter(fiszka => fiszka.id[1] === lessonIdToShow1);
+                const matchingFiszki2 = fiszki.filter(fiszka => fiszka.id[1] === lessonIdToShow2);
+                const matchingFiszki3 = fiszki.filter(fiszka => fiszka.id[1] === lessonIdToShow3);
+                console.log('hej450b', matchingIndexes2);
+                console.log('hej444', newIndex);
+                if (matchingFiszki1.length > 0 && matchingFiszki2.length > 0 && matchingFiszki3.length > 0) {
+                    const srcWord1 = pobierzSrcWordDlaLekcji(lessonIdToShow1, fiszki);
+                    const srcWord2 = pobierzSrcWordDlaLekcji(lessonIdToShow2, fiszki);
+                    const srcWord3 = pobierzSrcWordDlaLekcji(lessonIdToShow3, fiszki);
+                    const srcWord10 = pobierzSrcWordDlaLekcji2(lessonIdToShow1, fiszki);
+                    function pobierzSrcWordDlaLekcji(lessonId, fiszki) {
+                        const matchingFiszka = fiszki.find(fiszka => fiszka.id[1] === lessonId);
+                        return matchingFiszka ? matchingFiszka.srcWord[0] : null;
+                    }
+                    function pobierzSrcWordDlaLekcji3(lessonId, fiszki) {
+                        const matchingFiszka = fiszki.find(fiszka => fiszka.id[1] === lessonId);
+                        return matchingFiszka ? matchingFiszka.srcWord[1] : null; // Zwracamy srcWord[1] zamiast srcWord
+                    }
+                    function pobierzSrcWordDlaLekcji2(lessonId, fiszki) {
+                        const matchingFiszka = fiszki.find(fiszka => fiszka.id[1] === lessonId);
+                        return matchingFiszka ? matchingFiszka.srcWordimage : null;
+                    }
+                    function pobierzSrcWordDlaLekcji4(lessonId, fiszki) {
+                        const matchingFiszka = fiszki.find(fiszka => fiszka.id[1] === lessonId);
+                        return matchingFiszka ? matchingFiszka.srcWordimage : null;
+                    }
+                    console.log(`Fiszki dla lekcji ${lessonIdToShow1}, ${lessonIdToShow2} i ${lessonIdToShow3}:`);
+
+                    let sentence10 = ""; // Deklaracja zmiennej sentence1 na poziomie lokalnym
+                    let sentence11 = "";
+                    let sentence20 = ""; // Deklaracja zmiennej sentence1 na poziomie lokalnym
+                    let sentence22 = "";
+                    let sentence30 = ""; // Deklaracja zmiennej sentence1 na poziomie lokalnym
+                    let sentence33 = "";
+                    function addBackgroundToText(matchingFiszki1, matchingIndexes, currentIndexValue, aktualny, lesson1FirstPartLength, lesson1PartLength) {
+                        setTimeout(function () {
+                            sentence10 = "";
+                            sentence11 = "";
+                            sentence20 = "";
+                            sentence22 = "";
+                            sentence30 = "";
+                            sentence33 = "";
+
+                            console.log('Rozpoczęcie funkcji addBackgroundToText');
+                            console.log('matchingFiszki1:', matchingFiszki1);
+                            console.log('lessonIdToShow1:', lessonIdToShow1);
+                            console.log('matchingIndexes:', matchingIndexes);
+                            console.log('currentIndexValue:', currentIndexValue);
+                            console.log('aktualny:', aktualny);
+                            for (let i = 0; i < matchingFiszki1.length; i++) {
+                                const fiszka = matchingFiszki1[i];
+                                console.log('fiszka:', fiszka);
+                                if (!fiszka.sentence1 || fiszka.sentence1.length === 0) {
+                                    console.log('fiszka.sentence1 is undefined or empty');
+                                    continue; // Jeśli sentence1 nie istnieje lub jest puste, przejdź do następnej fiszki
+                                }
+
+                                // Iteracja przez elementy sentence1
+                                for (let ki = 0; ki < fiszka.sentence1.length; ki++) {
+                                    let sentencePart = fiszka.sentence1[ki];
+                                    console.log('sentencePart5:', sentencePart);
+                                    const indexToCheck = i + lesson1PartLength + 1;
+                                    console.log('indexToCheck5:', indexToCheck);
+
+                                    console.log('sentencePart po przetworzeniu:', sentencePart); // Dodaj log po przetworzeniu
+                                    sentence10 += sentencePart + " ";
+                                }
+                            }
+                            console.log('final sentence10:', sentence10); // Dodaj log dla ostatecznego wyniku
+
+
+                            for (let ii = 0; ii < matchingFiszki1.length; ii++) {
+                                const fiszka = matchingFiszki1[ii];
+                                console.log('fiszka2:', fiszka);
+                                if (!fiszka.sentence2 || fiszka.sentence2.length === 0) {
+                                    console.log('fiszka.sentence2 is undefined or empty');
+                                    continue;
+                                }
+
+                                // Iteracja przez elementy sentence1
+                                for (let kii = 0; kii < fiszka.sentence2.length; kii++) {
+                                    let sentencePart2 = fiszka.sentence2[kii];
+                                    console.log('sentencePart5:', sentencePart2);
+                                    const indexToCheck = ii + lesson1PartLength + 1;
+                                    console.log('indexToCheck77:', indexToCheck);
+
+                                    console.log('sentencePart2 po przetworzeniu:', sentencePart2);
+                                    sentence11 += sentencePart2 + " ";
+                                }
+                            }
+                            // Iteracja przez matchingFiszki2 dla sentence1
+                            for (let j = 0; j < matchingFiszki2.length; j++) {
+                                const fiszka = matchingFiszki2[j];
+                                console.log('fiszka:', fiszka);
+                                if (!fiszka.sentence1 || fiszka.sentence1.length === 0) {
+                                    console.log('fiszka.sentence1 is undefined or empty');
+                                    continue; // Jeśli sentence1 nie istnieje lub jest puste, przejdź do następnej fiszki
+                                }
+
+                                // Iteracja przez elementy sentence1
+                                for (let k = 0; k < fiszka.sentence1.length; k++) {
+                                    let sentencePart = fiszka.sentence1[k];
+                                    console.log('sentencePart5:', sentencePart);
+                                    const indexToCheck = j + lesson2PartLength + 1;
+                                    console.log('indexToCheck5:', indexToCheck);
+
+
+                                    sentence20 += sentencePart + " ";
+                                }
+                            }
+
+                            // Iteracja przez matchingFiszki2 dla sentence2
+                            for (let jj = 0; jj < matchingFiszki2.length; jj++) {
+                                const fiszka = matchingFiszki2[jj];
+                                console.log('fiszka2:', fiszka);
+                                if (!fiszka.sentence2 || fiszka.sentence2.length === 0) {
+                                    console.log('fiszka.sentence2 is undefined or empty');
+                                    continue;
+                                }
+
+                                // Iteracja przez elementy sentence2
+                                for (let kk = 0; kk < fiszka.sentence2.length; kk++) {
+                                    let sentencePart2 = fiszka.sentence2[kk];
+                                    console.log('sentencePart2 przed przetworzeniem:', sentencePart2);
+                                    const indexToCheck = jj + lesson2PartLength + 1;
+                                    console.log('indexToCheck3:', indexToCheck);
+
+
+                                    sentence22 += sentencePart2 + " ";
+                                }
+                            }
+
+                            for (let l = 0; l < matchingFiszki3.length; l++) {
+                                const fiszka = matchingFiszki3[l];
+                                console.log('fiszka:', fiszka);
+                                if (!fiszka.sentence1 || fiszka.sentence1.length === 0) {
+                                    console.log('fiszka.sentence1 is undefined or empty');
+                                    continue; // Jeśli sentence1 nie istnieje lub jest puste, przejdź do następnej fiszki
+                                }
+                                // Iteracja przez elementy sentence1
+                                for (let lm = 0; lm < fiszka.sentence1.length; lm++) {
+                                    let sentencePart = fiszka.sentence1[lm];
+                                    console.log('sentencePart5:', sentencePart);
+                                    const indexToCheck = l + lesson3PartLength + 1;
+
+
+                                    sentence30 += sentencePart + " ";
+                                }
+                            }
+                            // Iteracja przez matchingFiszki2 dla sentence2
+                            for (let lmm = 0; lmm < matchingFiszki3.length; lmm++) {
+                                const fiszka = matchingFiszki3[lmm];
+                                console.log('fiszka2:', fiszka);
+                                if (!fiszka.sentence2 || fiszka.sentence2.length === 0) {
+                                    console.log('fiszka.sentence2 is undefined or empty');
+                                    continue;
+                                }
+
+                                // Iteracja przez elementy sentence2
+                                for (let lmn = 0; lmn < fiszka.sentence2.length; lmn++) {
+                                    let sentencePart2 = fiszka.sentence2[lmn];
+                                    console.log('sentencePart2 przed przetworzeniem:', sentencePart2);
+                                    const indexToCheck = lmm + lesson3PartLength + 1;
+                                    console.log('indexToCheck3:', indexToCheck);
+
+
+                                    sentence33 += sentencePart2 + " ";
+                                }
+                            }
+
+                            // Dodanie treści do diva wraz z przyciskiem
+                            $sentenceDivB.html(`
+mój kod
+`);
+
+                        }, 0);
+
+                    }
+                    
+                                        const $container = $('<div></div>'); // Tworzymy nowy element div za pomocą jQuery
+                    $container.addClass('image-container3'); // Dodajemy klasę do nowego diva
+                    $container.css('position', 'relative'); // Ustawiamy pozycję diva na relative
+
+                    // Możesz również dodać dodatkowe atrybuty, takie jak 'data-lesson'
+                    $container.attr('data-lesson', indexDiv);
+                    $('.grid-container').append($container);
+                    
+                                        // Stwórz przycisk za pomocą jQuery
+                    // Tworzenie nowego elementu div za pomocą jQuery
+
+
+                    if ((index50 === 0 && buttonindex) || (newIndex === 0 && !buttonindex)) {
+                        var $sentenceDivB = $('<div></div>');
+                        $sentenceDivB.addClass('sentenceBA'); // Dodanie klasy 'sentence'
+                        $sentenceDivB.html(`
+mój kod
+`);
+                        $sentenceDivB.css({
+                            'position': 'absolute',
+                            'margin-top': '40px',
+                            'text-align': 'center',
+                            'z-index': '100'
+                        });
+                    } else {
+                        var $sentenceDiv = $('<div></div>');
+                        $sentenceDiv.addClass('sentence'); // Dodanie klasy 'sentence'
+                        $sentenceDiv.html(`
+mój kod
+`);
+                        $sentenceDiv.css({
+                            'position': 'absolute',
+                            'margin-top': '-50px',
+                            'text-align': 'center',
+                            'z-index': '5'
+                        });
+                    }
+                    
+                    $container.append($sentenceDiv);
+                    $container.append($sentenceDivB);
+                    tablica10.push(srcWords);
+                    console.log('hej6', tablica10);
+
+                }
+
+                // Deklaracja tablicy, która będzie zawierać wszystkie tablice
+            }

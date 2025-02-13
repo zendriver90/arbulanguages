@@ -349,14 +349,14 @@ img.fiszka_img {
 
 .fiszka_button.fiszka_button_trening {
     border-radius: 20px;
-  width: 60px;  /* Dostosuj szerokoĹÄ wedĹug wĹasnych preferencji */
-  height: 20px;  /* Dostosuj wysokoĹÄ wedĹug wĹasnych preferencji */
+  width: 130px;  /* Dostosuj szerokoĹÄ wedĹug wĹasnych preferencji */
+  height: 40px;  /* Dostosuj wysokoĹÄ wedĹug wĹasnych preferencji */
   font-size: 8px;
   /* Dodaj inne wĹaĹciwoĹci CSS, jeĹli sÄ potrzebne */
 }
 .fiszka_button.fiszka_button_znam {
         border-radius: 20px;
-  width: 60px;  /* Dostosuj szerokoĹÄ wedĹug wĹasnych preferencji */
+  width: 100px;  /* Dostosuj szerokoĹÄ wedĹug wĹasnych preferencji */
   height: 20px;  /* Dostosuj wysokoĹÄ wedĹug wĹasnych preferencji */
     font-size: 8px;
   /* Dodaj inne wĹaĹciwoĹci CSS, jeĹli sÄ potrzebne */

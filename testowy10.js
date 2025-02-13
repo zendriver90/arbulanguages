@@ -3238,8 +3238,8 @@ id: [
         ],
         translate: "Odrzucać oferty, które ci się nie podobają",
         translateb: "[Rehusar ofertas que no te gusten]",
-        srcWord: ["http://localhost/arbulanguage.com/filmy/esp/offert.mp4", 'Yes Man'],
-        srcWordimage: "http://localhost/arbulanguage.com/filmy/esp/offert.png",
+        srcWord: ["http://arbu-1dcc9.web.app/filmy/esp/offert.mp4", 'Yes Man'],
+        srcWordimage: "http://arbu-1dcc9.web.app/filmy/esp/offert.png",
         word: [
                 "http://localhost/arbulanguage.com/voice/music.mp4"
         ],
@@ -3431,8 +3431,8 @@ id: [
         ],
         translate: "Trenować mocno, aby czuć się lepiej",
         translateb: "[Entrenar fuerte para sentirte mejor]",
-        srcWord: ["http://localhost/arbulanguage.com/filmy/esp/training2.mp4", 'Pain and Gain'],
-        srcWordimage: "http://localhost/arbulanguage.com/filmy/esp/training2.png",
+        srcWord: ["http://arbu-1dcc9.web.app/filmy/esp/training2.mp4", 'Pain and Gain'],
+        srcWordimage: "http://arbu-1dcc9.web.app/filmy/esp/training2.png",
         word: [
                 "http://localhost/arbulanguage.com/voice/music.mp4"
         ],
@@ -3624,8 +3624,8 @@ id: [
         ],
         translate: "Wyjaśniać jasne odpowiedzi dzieciom",
         translateb: "[Explicar respuestas claras a los niños]",
-        srcWord: ["http://localhost/arbulanguage.com/filmy/esp/children.mp4", 'Ip Man'],
-        srcWordimage: "http://localhost/arbulanguage.com/filmy/esp/children.png",
+        srcWord: ["http://arbu-1dcc9.web.app/filmy/esp/children.mp4", 'Ip Man'],
+        srcWordimage: "http://arbu-1dcc9.web.app/filmy/esp/children.png",
         word: [
                 "http://localhost/arbulanguage.com/voice/music.mp4"
         ],
@@ -3772,8 +3772,8 @@ id: [
         ],
         translate: "Próbować pysznego jedzenia w nowych miejscach",
         translateb: "[Probar comida deliciosa en nuevos lugares]",
-        srcWord: ["http://localhost/arbulanguage.com/filmy/esp/restaurant.mp4", 'Matrix 1999'],
-        srcWordimage: "http://localhost/arbulanguage.com/filmy/esp/restaurant.png",
+        srcWord: ["http://arbu-1dcc9.web.app/filmy/esp/restaurant.mp4", 'Matrix 1999'],
+        srcWordimage: "http://arbu-1dcc9.web.app/filmy/esp/restaurant.png",
         word: [
                 "http://localhost/arbulanguage.com/voice/music.mp4"
         ],
@@ -3912,7 +3912,7 @@ id: [
 ],
         // obrazek
         img: [
-                "http://localhost/arbulanguage.com/img/fiszki1/2a.jpg"
+                "http://arbu-1dcc9.web.app/img/fiszki1/2a.jpg"
         ],
         word: [
                 "http://localhost/arbulanguage.com/voice/music.mp4"
@@ -3947,7 +3947,7 @@ id: [
 ],
         // obrazek
         img: [
-                "http://localhost/arbulanguage.com/img/fiszki1/2a.jpg"
+                "http://arbu-1dcc9.web.app/img/fiszki1/2a.jpg"
         ],
         word: [
                 "http://localhost/arbulanguage.com/voice/music.mp4"
@@ -3986,8 +3986,8 @@ id: [
         ],
         translate: "Śmiać się razem, oglądając filmy komediowe",
         translateb: "[Reír huntos mientras miramos pelíkulas komikas]",
-        srcWord: ["http://localhost/arbulanguage.com/filmy/esp/comicas.mp4", 'Matrix 1999'],
-        srcWordimage: "http://localhost/arbulanguage.com/filmy/esp/comicas.png",
+        srcWord: ["http://arbu-1dcc9.web.app/filmy/esp/comicas.mp4", 'Matrix 1999'],
+        srcWordimage: "http://arbu-1dcc9.web.app/filmy/esp/comicas.png",
         word: [
                 "http://localhost/arbulanguage.com/voice/music.mp4"
         ],
@@ -4020,7 +4020,7 @@ id: [
 ],
         // obrazek
         img: [
-                "http://localhost/arbulanguage.com/img/fiszki1/2a.jpg"
+                "http://arbu-1dcc9.web.app/img/fiszki1/2a.jpg"
         ],
         word: [
                 "http://localhost/arbulanguage.com/voice/music.mp4"
@@ -4055,7 +4055,7 @@ id: [
 ],
         // obrazek
         img: [
-                "http://localhost/arbulanguage.com/img/fiszki1/2a.jpg"
+                "http://arbu-1dcc9.web.app/img/fiszki1/2a.jpg"
         ],
         word: [
                 "http://localhost/arbulanguage.com/voice/music.mp4"
@@ -4091,7 +4091,7 @@ id: [
 ],
         // obrazek
         img: [
-                "http://localhost/arbulanguage.com/img/fiszki1/2a.jpg"
+                "http://arbu-1dcc9.web.app/img/fiszki1/2a.jpg"
         ],
         word: [
                 "http://localhost/arbulanguage.com/voice/music.mp4"
@@ -4127,7 +4127,7 @@ id: [
 ],
         // obrazek
         img: [
-                "http://localhost/arbulanguage.com/img/fiszki1/2a.jpg"
+                "http://arbu-1dcc9.web.app/img/fiszki1/2a.jpg"
         ],
         word: [
                 "http://localhost/arbulanguage.com/voice/music.mp4"
@@ -4163,7 +4163,7 @@ id: [
 ],
         // obrazek
         img: [
-                "http://localhost/arbulanguage.com/img/fiszki1/2a.jpg"
+                "http://arbu-1dcc9.web.app/img/fiszki1/2a.jpg"
         ],
         word: [
                 "http://localhost/arbulanguage.com/voice/music.mp4"
@@ -4203,8 +4203,8 @@ id: [
         ],
         translate: "Zaprzeczać kłamstwom i zawsze mówić prawdę",
         translateb: "[Negar mentiras i desir siempre berdad]",
-        srcWord: ["http://localhost/arbulanguage.com/filmy/esp/truth.mp4", 'Matrix 1999'],
-        srcWordimage: "http://localhost/arbulanguage.com/filmy/esp/truth.png",
+        srcWord: ["http://arbu-1dcc9.web.app/filmy/esp/truth.mp4", 'Matrix 1999'],
+        srcWordimage: "http://arbu-1dcc9.web.app/filmy/esp/truth.png",
         word: [
                 "http://localhost/arbulanguage.com/voice/music.mp4"
         ],
@@ -4237,7 +4237,7 @@ id: [
 ],
         // obrazek
         img: [
-                "http://localhost/arbulanguage.com/img/fiszki1/2a.jpg"
+                "http://arbu-1dcc9.web.app/img/fiszki1/2a.jpg"
         ],
         word: [
                 "http://localhost/arbulanguage.com/voice/music.mp4"
@@ -4306,7 +4306,7 @@ id: [
 ],
         // obrazek
         img: [
-                "http://localhost/arbulanguage.com/img/fiszki1/2a.jpg"
+                "http://arbu-1dcc9.web.app/img/fiszki1/2a.jpg"
         ],
         word: [
                 "http://localhost/arbulanguage.com/voice/music.mp4"
@@ -4377,7 +4377,7 @@ id: [
 ],
         // obrazek
         img: [
-                "http://localhost/arbulanguage.com/img/fiszki1/2a.jpg"
+                "http://arbu-1dcc9.web.app/img/fiszki1/2a.jpg"
         ],
         word: [
                 "http://localhost/arbulanguage.com/voice/music.mp4"
