@@ -11127,7 +11127,7 @@ function generateFiszkaBlock2(fiszka, lessonId2) {
 }
 function generateFiszkaBlock3(fiszka, lessonId2) {
     console.log('hej555x', fiszka.id);
-
+$('.grid-container .image-container3').remove();
     console.log(`Generating: [${fiszka}]`);
 
     // Tworzenie kontenera fiszki
@@ -11190,7 +11190,7 @@ function generateFiszkaBlock3(fiszka, lessonId2) {
             console.log('Audio initialization completed.');
         }
 // TWORZENIE KONTENERA FISZKI
-        let fiszkaContainer = $('<div>').addClass('fiszka fiszka-' + fiszka.id);
+        let fiszkaContainer = $('<div>').addClass('fiszka5 fiszka-' + fiszka.id);
 
 
 console.log('Hej4442', fiszkaContainer);

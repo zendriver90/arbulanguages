@@ -1790,6 +1790,65 @@ document.getElementById("singleSentenceBtn").addEventListener("click", () => {
     });
         // Dodanie zdarzenia kliknięcia do przycisku
 document.getElementById("threeSentencesBtn").addEventListener("click", () => {
+
+function showFiszkiForLesson5dd(tablica40, tablica41, fiszki) {
+    console.log("Wybrany rodzaj: ", tablica40);
+
+    setTimeout(() => {
+        let idFiszki = [];
+
+        // Pobieranie id pasujących do tablica40
+        tablica40.forEach(t40 => {
+            fiszki.forEach(fiszka => {
+                if (fiszka.id[0] === t40) {
+                    idFiszki.push(fiszka.id); // Zapisujemy cały obiekt
+                }
+            });
+        });
+
+        console.log("Wyświetlam4:", idFiszki);
+
+        // Podział na mniejsze grupy po 3 elementy
+        let chunkedIdFiszki = [];
+        for (let i = 0; i < idFiszki.length; i += 3) {
+            chunkedIdFiszki.push(idFiszki.slice(i, i + 3));
+        }
+
+        console.log("Podzielone grupy ID:", chunkedIdFiszki);
+
+        // Usuwanie każdej grupy osobno
+        chunkedIdFiszki.forEach(group => {
+            removeFiszka(group);
+        });
+
+    }, 0);
+}
+
+function removeFiszka(idFiszkiGroup) {
+    idFiszkiGroup.forEach(singleId => {
+        // Jeśli singleId jest tablicą, łączymy jej elementy separatorem ','
+        let idString = Array.isArray(singleId) ? singleId.join(',') : singleId;
+        const className = `fiszka5 fiszka-${idString}`;
+        
+        // Escape'owanie przecinków w selektorze CSS
+        const selector = `.${className.replace(/,/g, '\\,').replace(/\s+/g, '.')}`; 
+
+        console.log("Wyświetlam4b:", selector);
+    
+        const $fiszkaToRemove = $('.grid-container').find(selector);
+        if ($fiszkaToRemove.length) {
+            console.log('Element znaleziony po opóźnieniu, usuwam...');
+            $fiszkaToRemove.remove();
+        } else {
+            console.log('Element nadal nie znaleziony.');
+        }
+    });
+}
+
+        setTimeout(() => {
+        showFiszkiForLesson5dd(tablica40, tablica41, fiszki);
+    }, 0);
+
         tablica3[0] = 'fiszki';
     przekazArgument0(tablica3[2], '', false, 'fiszki', true, true, tablica3[1], tablica3[4], false, '', '');
     });
