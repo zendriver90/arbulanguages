@@ -7630,3 +7630,34 @@ hasPreviousIndexesBeenSet = false;
         <script id="demoScript" data-category=""></script>
     </body>
 </html>
+
+function generateFiszkaBlock3(fiszka, lessonId2) {
+    console.log('hej555c', lessons2b[2]);
+    var currentStoryButtonName = ''; // Zmienna lokalna
+    console.log(`Generating fiszka block for ID: [${fiszka.id.join(', ')}]`);
+
+    // Tworzenie kontenera fiszki
+
+    $(document).ready(function () {
+
+// TWORZENIE KONTENERA FISZKI
+        let fiszkaContainer = $('<div>').addClass('fiszka fiszka-' + fiszka.id);
+
+
+
+        // DODANIE OBRAZKA
+        const imgContainer = $('<div>').addClass('fiszka_img_container');
+        if (Array.isArray(fiszka.img) && fiszka.img.length > 0) {
+            fiszka.img.forEach((imgSrc, index) => {
+                const imgElement = $('<img class="fiszka_img">').attr('src', imgSrc);
+                imgContainer.append(imgElement);
+                if (index > 0) {
+                    imgElement.hide();
+                }
+            });
+        } else if (typeof fiszka.img === 'string') {
+            // Jeśli jest tylko jedno zdjęcie, dodajemy je do imgContainer dla każdej fiszki
+            const imgElement = $('<img class="fiszka_img">').attr('src', fiszka.img);
+            imgContainer.append(imgElement);
+        }
+        fiszkaContainer.append(imgContainer); //DODANIE OBRAZKA
