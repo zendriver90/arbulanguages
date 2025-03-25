@@ -1,0 +1,813 @@
+const searchInput = document.querySelector("[data-search]");
+console.log("Element input:", searchInput); // Sprawdzenie czy input istnieje
+
+let matchingKeys = []; // Globalna tablica pasujących słów
+let matchingKeysB = [];
+document.getElementById("polski").addEventListener("click", function () {
+    const searchValue = document.getElementById("search").value.toLowerCase();
+    findMatchingKeys(fiszki, searchValue, "key2");
+});
+
+document.getElementById("angielski").addEventListener("click", function () {
+    const searchValue = document.getElementById("search").value.toLowerCase();
+    findMatchingKeys(fiszki, searchValue, "key");
+});
+
+function findMatchingKeys(fiszki, searchValue, searchKey) {
+    console.log("Rozpoczynam filtrowanie fiszek dla frazy:", searchValue);
+    
+    matchingKeys = fiszki
+        .filter(fiszka => {
+            if (!fiszka[searchKey]) return false; // Jeśli brak klucza, pomijamy
+            return fiszka[searchKey].toLowerCase().startsWith(searchValue);
+        })
+        .map(fiszka => fiszka[searchKey]);
+
+    console.log("Pasujące słowa:", matchingKeys);
+
+        matchingKeysB = fiszki
+        .filter(fiszka => {
+            if (!fiszka[searchKey]) return false; // Jeśli brak klucza, pomijamy
+            return fiszka[searchKey].toLowerCase().startsWith(searchValue);
+        })
+        .map(fiszka => fiszka[searchKey]);
+
+    console.log("Pasujące słowa2:", matchingKeysB);
+}
+function findMatchingKeys(fiszki, searchValue) {
+    console.log("Rozpoczynam filtrowanie fiszek dla frazy:", searchValue);
+    
+    matchingKeys = fiszki
+        .filter(fiszka => {
+            if (!fiszka.key) return false; // Jeśli brak key, pomijamy
+            return fiszka.key.toLowerCase().startsWith(searchValue);
+        })
+        .map(fiszka => fiszka.key);
+
+    console.log("Pasujące słowa:", matchingKeys);
+        matchingKeysB = fiszki
+        .filter(fiszka => {
+            if (!fiszka.key) return false; // Jeśli brak key, pomijamy
+            return fiszka.key.toLowerCase().startsWith(searchValue);
+        })
+        .map(fiszka => fiszka.key);
+
+    console.log("Pasujące słowa:", matchingKeysB);
+}
+function findLessonsForWords(fiszki) {
+    let lessonIds = new Set();
+
+    fiszki.forEach(fiszka => {
+        if (!fiszka.key || !fiszka.id) return; // Jeśli brak danych, pomijamy
+        if (matchingKeys.includes(fiszka.key)) {
+            lessonIds.add(fiszka.id[1]);
+        }
+    });
+
+    console.log("Lekcje zawierające szukane słowo:", Array.from(lessonIds));
+    return Array.from(lessonIds);
+    
+}
+
+function findLessonsForWordsB(fiszki) {
+    let lessonIdsB = new Set();
+
+    fiszki.forEach(fiszka => {
+        if (!fiszka.key || !fiszka.id) return; // Jeśli brak danych, pomijamy
+        if (matchingKeysB.includes(fiszka.key)) {
+            lessonIdsB.add(fiszka.id[0]);
+        }
+    });
+
+        console.log("Ustawienia fiszek5", Array.from(lessonIdsB));
+    return Array.from(lessonIdsB);
+
+}
+
+let isSearching = false;
+let isSearching2 = false;
+let tablica40 = []; // Aktualna tablica
+let tablica41 = [];
+let staraTablica40 = null; // Przechowuje wersję sprzed zmiany
+
+searchInput.addEventListener("input", (e) => {
+    const searchTerm = e.target.value.trim();
+    const searchValue = searchTerm.toLowerCase();
+
+    findMatchingKeys(fiszki, searchValue);
+
+    const matchingLessons5 = findLessonsForWords(fiszki);
+    const matchingLessons5b = findLessonsForWordsB(fiszki);
+
+    let nowaTablica40 = Array.isArray(matchingLessons5b) ? matchingLessons5b.flat() : [];
+
+    // ✅ ZAPISUJEMY STARĄ TABLICĘ TYLKO JEŚLI ISTNIEJE I NIE JEST PUSTA
+    if (tablica40.length > 0) {
+        staraTablica40 = [...tablica40]; // KOPIUJEMY STARĄ TABLICĘ PRZED JEJ ZMIANĄ
+        console.log('Stara tablica (zanim zmienimy):', staraTablica40);
+    }
+
+    // 🔄 AKTUALIZUJEMY `tablica40` DOPIERO PO ZAPISANIU STAREJ
+    tablica40 = [...nowaTablica40];
+
+    // 🔍 SZUKAMY POMINIĘTYCH NUMERÓW
+    let pominiete = (staraTablica40 || []).filter(num => !nowaTablica40.includes(num));
+    console.log('Pominięte numery:', staraTablica40);
+
+    if (searchTerm.length === 1) {
+        isSearching = true;
+        console.log("Rozpoczęto wyszukiwanie:", isSearching);
+    } 
+    
+    if (searchTerm.length === 0) {
+        isSearching = false;
+        if (isSearching2) {
+        przekazArgument0(tablica3[2], '', false, '', true, true, tablica3[1], tablica3[4], false, null, null, false, staraTablica40);
+        }
+        console.log("Pusty input - przerywamy");
+        matchingKeys = [];
+        tablica40 = []; // Resetujemy tablicę
+        przekazArgument0(tablica3[2], '', false, 'fiszki', true, true, tablica3[1], tablica3[4], false, '', '');
+        return;
+    }
+
+    document.getElementById("singleSentenceBtn").addEventListener("click", () => {
+        tablica3[0] = 'zdania';
+        przekazArgument0(tablica3[2], '', false, 'zdania', false, false, tablica3[1], tablica3[4], true, matchingLessons5, matchingLessons5b, false);
+    });
+
+    document.getElementById("threeSentencesBtn").addEventListener("click", () => {
+        tablica3[0] = 'fiszki';
+        przekazArgument0(tablica3[2], '', false, 'fiszki', false, false, tablica3[1], tablica3[4], true, matchingLessons5, matchingLessons5b, false);
+    });
+
+    przekazArgument0(tablica3[2], '', false, tablica3[0], false, false, tablica3[1], tablica3[4], true, matchingLessons5, matchingLessons5b, isSearching2, staraTablica40);
+
+});
+
+document.getElementById("singleWordBtn").addEventListener("click", function() {
+    console.log("Kliknięto singleWordBtn");
+isSearching2 = true;
+    console.log("Wyświetlam zawartość tablica40 (tylko raz):", tablica40);
+
+    function showFiszkiForLesson5dd(tablica40, tablica41, fiszki) {
+        console.log("Wybrany rodzaj: ", tablica40);
+
+        setTimeout(() => {
+            let matchingFiszki122 = [];
+
+            tablica40.forEach(t40 => {
+                fiszki.forEach(fiszka => {
+                    if (fiszka.id[0] === t40) {
+                        matchingFiszki122.push(fiszka); // Zapisujemy cały obiekt, nie tylko fiszka.id
+                    }
+                });
+            });
+
+            console.log("Wyświetlam:", matchingFiszki122);
+
+            // Przykładowe użycie funkcji generateFiszkaBlock3
+            matchingFiszki122.forEach(fiszka => {
+                generateFiszkaBlock3(fiszka, "lessonId2"); // Przekazujemy cały obiekt fiszka
+            });
+
+        }, 1000);
+    }
+
+    setTimeout(() => {
+        showFiszkiForLesson5dd(tablica40, tablica41, fiszki);
+    }, 1000);
+});
+
+
+
+    // Dodanie zdarzenia kliknięcia do przycisku
+document.getElementById("singleSentenceBtn").addEventListener("click", () => {
+    function showFiszkiForLesson5ddb(tablica40, tablica41, fiszki) {
+    console.log("Wybrany rodzaj: ", tablica40);
+
+    setTimeout(() => {
+        let idFiszki = [];
+
+        // Pobieranie id pasujących do tablica40
+        tablica40.forEach(t40 => {
+            fiszki.forEach(fiszka => {
+                if (fiszka.id[0] === t40) {
+                    idFiszki.push(fiszka.id); // Zapisujemy cały obiekt
+                }
+            });
+        });
+
+        console.log("Wyświetlam4:", idFiszki);
+
+        // Podział na mniejsze grupy po 3 elementy
+        let chunkedIdFiszki = [];
+        for (let i = 0; i < idFiszki.length; i += 3) {
+            chunkedIdFiszki.push(idFiszki.slice(i, i + 3));
+        }
+
+        console.log("Podzielone grupy ID:", chunkedIdFiszki);
+
+        // Usuwanie każdej grupy osobno
+        chunkedIdFiszki.forEach(group => {
+            removeFiszka(group);
+        });
+
+    }, 0);
+}
+
+function removeFiszka(idFiszkiGroup) {
+    idFiszkiGroup.forEach(singleId => {
+        // Jeśli singleId jest tablicą, łączymy jej elementy separatorem ','
+        let idString = Array.isArray(singleId) ? singleId.join(',') : singleId;
+        const className = `fiszka5 fiszka-${idString}`;
+        
+        // Escape'owanie przecinków w selektorze CSS
+        const selector = `.${className.replace(/,/g, '\\,').replace(/\s+/g, '.')}`; 
+
+        console.log("Wyświetlam4b:", selector);
+    
+        const $fiszkaToRemove = $('.grid-container').find(selector);
+        if ($fiszkaToRemove.length) {
+            console.log('Element znaleziony po opóźnieniu, usuwam...');
+            $fiszkaToRemove.remove();
+        } else {
+            console.log('Element nadal nie znaleziony.');
+        }
+    });
+}
+
+        setTimeout(() => {
+        showFiszkiForLesson5ddb(tablica40, tablica41, fiszki);
+    }, 0);
+        tablica3[0] = 'zdania';
+        przekazArgument0(tablica3[2], '', false, 'zdania', true, true, tablica3[1], tablica3[4], false, '', '');
+    });
+        // Dodanie zdarzenia kliknięcia do przycisku
+document.getElementById("threeSentencesBtn").addEventListener("click", () => {
+
+function showFiszkiForLesson5ddb(tablica40, tablica41, fiszki) {
+    console.log("Wybrany rodzaj: ", tablica40);
+
+    setTimeout(() => {
+        let idFiszki = [];
+
+        // Pobieranie id pasujących do tablica40
+        tablica40.forEach(t40 => {
+            fiszki.forEach(fiszka => {
+                if (fiszka.id[0] === t40) {
+                    idFiszki.push(fiszka.id); // Zapisujemy cały obiekt
+                }
+            });
+        });
+
+        console.log("Wyświetlam4:", idFiszki);
+
+        // Podział na mniejsze grupy po 3 elementy
+        let chunkedIdFiszki = [];
+        for (let i = 0; i < idFiszki.length; i += 3) {
+            chunkedIdFiszki.push(idFiszki.slice(i, i + 3));
+        }
+
+        console.log("Podzielone grupy ID:", chunkedIdFiszki);
+
+        // Usuwanie każdej grupy osobno
+        chunkedIdFiszki.forEach(group => {
+            removeFiszka(group);
+        });
+
+    }, 0);
+}
+
+function removeFiszka(idFiszkiGroup) {
+    idFiszkiGroup.forEach(singleId => {
+        // Jeśli singleId jest tablicą, łączymy jej elementy separatorem ','
+        let idString = Array.isArray(singleId) ? singleId.join(',') : singleId;
+        const className = `fiszka5 fiszka-${idString}`;
+        
+        // Escape'owanie przecinków w selektorze CSS
+        const selector = `.${className.replace(/,/g, '\\,').replace(/\s+/g, '.')}`; 
+
+        console.log("Wyświetlam4b:", selector);
+    
+        const $fiszkaToRemove = $('.grid-container').find(selector);
+        if ($fiszkaToRemove.length) {
+            console.log('Element znaleziony po opóźnieniu, usuwam...');
+            $fiszkaToRemove.remove();
+        } else {
+            console.log('Element nadal nie znaleziony.');
+        }
+    });
+}
+
+        setTimeout(() => {
+        showFiszkiForLesson5ddb(tablica40, tablica41, fiszki);
+    }, 0);
+
+        tablica3[0] = 'fiszki';
+    przekazArgument0(tablica3[2], '', false, 'fiszki', true, true, tablica3[1], tablica3[4], false, '', '');
+    });
+    
+
+        document.addEventListener('DOMContentLoaded', () => {
+    document.querySelectorAll('.czas40').forEach(btn => btn.style.border = '1px solid black');
+
+    // Pobierz pierwszy przycisk z klasą 'czas40' i zaznacz go domyślnie
+    const firstButton = document.querySelector('#threeSentencesBtn');
+    if (firstButton) {
+        firstButton.style.border = '2px solid blue';
+    }
+        document.querySelectorAll('.rodzaj-button').forEach(button => {
+            button.addEventListener('click', function() {
+                document.querySelectorAll('.rodzaj-button').forEach(btn => btn.style.border = '1px solid black');
+                this.style.border = '2px solid blue';
+            });
+        });
+    });
+    
+function showFiszkiForLesson5d(matchingFiszki1v, tablica41) {
+    if (tablica41.length > 0) {
+    matchingFiszki1v.forEach((fiszka, index) => {
+        let id = fiszka; // Pobranie id z matchingFiszki
+        let parametr = tablica41[index] || ''; // Pobranie odpowiadającej wartości z tablica41
+
+        if (Array.isArray(fiszka)) {
+            // Połącz wartości z tablicy id w jeden ciąg znaków oddzielony przecinkami
+            id = fiszka.slice(0, 3).join(',');
+            // Obsługa dodatkowego parametru (np. czwartego elementu w tablicy)
+            parametr = fiszka.length > 3 ? fiszka[3] : parametr;
+        }
+
+        // Tworzenie klasy CSS dla fiszki
+        const className = `fiszka-${id}${parametr ? '\\,' + parametr : ''}`;
+        console.log(`Tworzę fiszkę z klasą: ${className}`);
+
+        generateFiszkaBlock3(id, parametr);
+    });
+}
+}
+
+let sentence1bba = "";
+                    let sentence1bbab = "";
+                    function addBackgroundToText1b(matchingFiszki1, matchingIndexes, aktualny, lesson1PartLength, polski) {
+                        console.log('hejkk10', indexDiv);
+                        $(document).ready(function () {
+                            sentence1bba = "";
+                            sentence1bbab = "";
+                            setTimeout(() => {
+                                for (let i = 0; i < matchingFiszki1.length; i++) {
+                                    const fiszka = matchingFiszki1[i];
+                                    console.log('fiszka:', fiszka);
+                                    if (!fiszka.sentence1 || fiszka.sentence1.length === 0) {
+                                        console.log('fiszka.sentence1 is undefined or empty');
+                                        continue; // Jeśli sentence1 nie istnieje lub jest puste, przejdź do następnej fiszki
+                                    }
+
+                                    // Iteracja przez elementy sentence1
+                                    for (let ki = 0; ki < fiszka.sentence1.length; ki++) {
+                                        let sentencePart = fiszka.sentence1[ki];
+                                        console.log('sentencePart5:', sentencePart);
+                                        const indexToCheck = i + lesson1PartLength + 1;
+                                        console.log('indexToCheck5:', indexToCheck);
+                                        // Sprawdź, czy indeks jest równy 0
+                                        if (aktualny) {
+                                            if (matchingIndexes.includes(indexToCheck)) {
+                                                // Sprawdzenie, czy indeks bieżącej fiszki znajduje się w tablicy matchingIndexes
+                                                const spanElement = document.createElement('span');
+                                                spanElement.textContent = sentencePart;
+                                                spanElement.classList.add('yellow');
+                                                // Zaktualizuj sentencePart, aby zawierał utworzony element span
+                                                sentencePart = spanElement.outerHTML;
+                                            }
+                                        }
+
+                                        sentence10 += sentencePart + " ";
+                                    }
+                                }
+                                for (let ii = 0; ii < matchingFiszki1.length; ii++) {
+                                    const fiszka = matchingFiszki1[ii];
+                                    console.log('fiszka2:', fiszka);
+                                    if (!fiszka.sentence2 || fiszka.sentence2.length === 0) {
+                                        console.log('fiszka.sentence2 is undefined or empty');
+                                        continue;
+                                    }
+
+                                    // Iteracja przez elementy sentence1
+                                    for (let kii = 0; kii < fiszka.sentence2.length; kii++) {
+                                        let sentencePart2 = fiszka.sentence2[kii];
+                                        console.log('sentencePart5:', sentencePart2);
+                                        const indexToCheck = ii + lesson1PartLength + 1;
+                                        console.log('indexToCheck77:', indexToCheck);
+                                        if (aktualny) {
+                                            if (matchingIndexes.includes(indexToCheck)) {
+                                                // Sprawdzenie, czy indeks bieżącej fiszki znajduje się w tablicy matchingIndexes
+                                                const spanElement = document.createElement('span');
+                                                spanElement.textContent = sentencePart2;
+                                                spanElement.classList.add('yellow');
+                                                // Zaktualizuj sentencePart, aby zawierał utworzony element span
+                                                sentencePart2 = spanElement.outerHTML;
+                                            }
+                                        }
+                                        sentence11 += sentencePart2 + " ";
+                                    }
+                                }
+                                for (let li = 0; li < matchingFiszki1.length; li++) {
+                                    const fiszka = matchingFiszki1[li];
+                                    console.log('fiszka:', fiszka);
+                                    let sentencePart3 = fiszka.translateb;
+                                    console.log('sentencePart3:', sentencePart3);
+                                    if (aktualny) {
+                                        // Sprawdzenie, czy indeks bieżącej fiszki znajduje się w tablicy matchingIndexes
+                                        const spanElement = document.createElement('span');
+                                        spanElement.textContent = sentencePart3;
+                                        sentencePart3 = spanElement.outerHTML;
+
+                                    }
+                                    sentence1bba += sentencePart3 + " ";
+                                }
+                                for (let li = 0; li < matchingFiszki1.length; li++) {
+                                    const fiszka = matchingFiszki1[li];
+                                    console.log('fiszka:', fiszka);
+                                    let sentencePart3 = fiszka.translate;
+                                    console.log('sentencePart3:', sentencePart3);
+                                    if (aktualny) {
+                                        // Sprawdzenie, czy indeks bieżącej fiszki znajduje się w tablicy matchingIndexes
+                                        const spanElement = document.createElement('span');
+                                        spanElement.textContent = sentencePart3;
+                                        sentencePart3 = spanElement.outerHTML;
+
+                                    }
+                                    sentence1bbab += sentencePart3 + " ";
+                                }
+
+                                console.log('hej20', sentence1bba);
+
+                                $sentenceDiv.html(`
+${sentence10}${sentence11}<br>
+<div class="sentence1bba">${sentence1bba}</div>
+<div class="sentence1bbab">${sentence1bbab}</div>
+`);
+
+                                console.log('hej465', polski);
+                                $sentence1bba.css({
+                                    'top': '0px',
+                                    'position': 'relative'
+                                });
+                                $sentence1bbab.css({
+                                    'top': '40px',
+                                    'position': 'relative'
+                                });
+
+                            }, 300);
+                        });
+                        console.log('Zawartość zmiennej sentence1:', sentence1b); // Wyświetlenie zawartości zmiennej sentence1                          
+                    }
+
+                    
+                    /////
+                    let sentence1bba = "";
+                    let sentence1bbab = "";
+                    function addBackgroundToText1b(matchingFiszki1, matchingIndexes, aktualny, lesson1PartLength, matchingIndexes2, rodzaj, matchingIndexes3, matchingLessons5b) {
+                        $(document).ready(function () {
+
+                            console.log('hejkh', lesson1PartLength);
+                            sentence1bba = "";
+                            sentence1bbab = "";
+                            setTimeout(() => {
+                                for (let i = 0; i < matchingFiszki1.length; i++) {
+                                    const fiszka = matchingFiszki1[i];
+                                    console.log('fiszka:', fiszka);
+                                    if (!fiszka.sentence1 || fiszka.sentence1.length === 0) {
+                                        console.log('fiszka.sentence2 is undefined or empty');
+                                        continue;
+                                    }
+
+                                    // Iteracja przez elementy sentence1
+                                    for (let ki = 0; ki < fiszka.sentence1.length; ki++) {
+                                        let sentencePart = fiszka.sentence1[ki];
+                                        console.log('matchingIndexes1000:', matchingLessons5b);
+                                        const indexToCheck = i + lesson1PartLength + 1;
+                                        const indexToCheck2 = i + lesson1PartLength + 1;
+                                            if (matchingIndexes.includes(indexToCheck) && matchingLessons5b === null) {
+                                                // Sprawdzenie, czy indeks bieżącej fiszki znajduje się w tablicy matchingIndexes
+                                                const spanElement = document.createElement('span');
+                                                spanElement.textContent = sentencePart;
+                                                spanElement.classList.add('yellow');
+                                                // Zaktualizuj sentencePart, aby zawierał utworzony element span
+                                                sentencePart = spanElement.outerHTML;
+                                            }
+                                            if (matchingLessons5b.includes(indexToCheck2) && matchingLessons5b !== null) {
+                                                // Sprawdzenie, czy indeks bieżącej fiszki znajduje się w tablicy matchingIndexes
+                                                const spanElement = document.createElement('span');
+                                                spanElement.textContent = sentencePart;
+                                                spanElement.classList.add('yellow');
+                                                // Zaktualizuj sentencePart, aby zawierał utworzony element span
+                                                sentencePart = spanElement.outerHTML;
+                                            }
+                                        
+                                        function countCategoryInFiszki(matchingFiszki1, category) {
+                                            // Zmienna do przechowywania sumy wystąpień
+                                            let totalCount = 0;
+
+                                            // Iteracja przez wszystkie fiszki
+                                            for (let i = 0; i < matchingFiszki1.length; i++) {
+                                                const fiszka = matchingFiszki1[i];
+
+                                                // Zlicz wystąpienia kategorii w category3
+                                                if (fiszka.category3 && Array.isArray(fiszka.category3)) {
+                                                    const count = fiszka.category3.filter(cat => cat === category).length;
+                                                    totalCount += count; // Dodaj do sumy
+                                                }
+                                            }
+
+                                            return [totalCount]; // Zwróć tablicę z jedną sumaryczną wartością
+                                        }
+
+// Użycie funkcji
+                                        const categoryToCount = "PresentSimplePodmiot";
+                                        const categoryToCount2 = "PresentSimpleCzasownik";
+                                        const occurrences = countCategoryInFiszki(matchingFiszki1, categoryToCount);
+                                        const occurrences2 = countCategoryInFiszki(matchingFiszki1, categoryToCount2);
+// Wypisywanie wyników
+                                        console.log('Suma wystąpień:', occurrences2);
+                                        // Po zakończeniu iteracji przez fiszkę, sprawdź occurrences
+                                        // Po zakończeniu iteracji przez fiszkę, sprawdź occurrences
+                                        // Po zakończeniu iteracji przez fiszkę, sprawdź occurrences
+                                        // Flaga sprawdzająca, czy podmiot został już dodany
+
+                                        if (aktualny && rodzaj === "play" && matchingIndexes2.includes(indexToCheck2)) {
+                                            console.log('hej123', occurrences);
+                                            // Sprawdź, czy to jest pierwsze słowo
+                                            if (i === 0 && occurrences[0] === 2) {
+                                                console.log('Podświetlono pierwsze słowo:', fiszka.sentence1[ki]);
+                                                const firstWordElement = document.createElement('span');
+                                                firstWordElement.textContent = sentencePart;
+                                                firstWordElement.classList.add('green'); // Dodaj klasę, która podświetla słowo na zielono
+                                                sentencePart = firstWordElement.outerHTML; // Zamień pierwsze słowo na jego wersję z "span"
+                                            }
+                                            // Dodaj podmiot po drugim słowie, jeśli occurrences wynosi 2
+                                            if (i === 1 && occurrences[0] === 2) {
+                                                console.log('Dodano "podmiot" po drugim słowie:', fiszka.sentence1[ki]);
+                                                const podmiotElement = document.createElement('span');
+                                                podmiotElement.textContent = sentencePart;
+                                                podmiotElement.classList.add('green');
+                                                sentencePart = podmiotElement.outerHTML;
+                                                podmiotElement.textContent = "(podmiot)";
+
+                                                // Rozdziel zdanie na słowa
+                                                let words = sentencePart.split(' ');
+                                                words.splice(2, 0, podmiotElement.outerHTML); // Dodaj podmiot po drugim słowie
+                                                sentencePart = words.join(' '); // Połącz z powrotem w jedno zdanie
+
+                                            } else if (i === 0 && occurrences[0] === 1) {
+                                                console.log('Dodano "podmiot" po pierwszym słowie:', fiszka.sentence1[ki]);
+                                                const podmiotElement = document.createElement('span');
+                                                podmiotElement.textContent = sentencePart;
+                                                podmiotElement.classList.add('green');
+                                                sentencePart = podmiotElement.outerHTML;
+                                                podmiotElement.textContent = "(podmiot)";
+
+                                                // Rozdziel zdanie na słowa
+                                                let words = sentencePart.split(' ');
+                                                words.splice(3, 0, podmiotElement.outerHTML); // Dodaj podmiot po pierwszym słowie
+                                                sentencePart = words.join(' '); // Połącz z powrotem w jedno zdanie
+
+                                            }
+                                        }
+                                        if (aktualny && rodzaj === "play" && matchingIndexes3.includes(indexToCheck2)) {
+                                            console.log('hej123', occurrences);
+                                            // Sprawdź, czy to jest pierwsze słowo
+                                            // Dodaj podmiot po drugim słowie, jeśli occurrences wynosi 2
+
+                                            if (i === 2 && occurrences2[0] === 2) {
+                                                console.log('Dodano "podmiot" po drugim słowie:', fiszka.sentence1[ki]);
+                                                const podmiotElement = document.createElement('span');
+                                                podmiotElement.textContent = sentencePart;
+                                                podmiotElement.classList.add('blue');
+                                                sentencePart = podmiotElement.outerHTML;
+                                                podmiotElement.textContent = "(czasownik)";
+
+                                                // Rozdziel zdanie na słowa
+                                                let words = sentencePart.split(' ');
+                                                words.splice(2, 1, podmiotElement.outerHTML); // Dodaj podmiot po drugim słowie
+                                                sentencePart = words.join(' '); // Połącz z powrotem w jedno zdanie
+
+                                            } else if (i === 2 && occurrences2[0] === 1) {
+                                                console.log('Dodano "podmiot" po drugim słowie:', fiszka.sentence1[ki]);
+                                                const podmiotElement = document.createElement('span');
+                                                podmiotElement.textContent = sentencePart;
+                                                podmiotElement.classList.add('blue');
+                                                sentencePart = podmiotElement.outerHTML;
+                                                podmiotElement.textContent = "(czasownik)";
+
+                                                // Rozdziel zdanie na słowa
+                                                let words = sentencePart.split(' ');
+                                                words.splice(3, 0, podmiotElement.outerHTML); // Dodaj podmiot po drugim słowie
+                                                sentencePart = words.join(' '); // Połącz z powrotem w jedno zdanie
+
+                                            } else if (i === 1 && occurrences2[0] === 1) {
+                                                console.log('Dodano "podmiot" po pierwszym słowie:', fiszka.sentence1[ki]);
+                                                const podmiotElement = document.createElement('span');
+                                                podmiotElement.textContent = sentencePart;
+                                                podmiotElement.classList.add('blue');
+                                                sentencePart = podmiotElement.outerHTML;
+                                                podmiotElement.textContent = "(czasownik)";
+
+                                                // Rozdziel zdanie na słowa
+                                                let words = sentencePart.split(' ');
+                                                words.splice(3, 0, podmiotElement.outerHTML); // Dodaj podmiot po pierwszym słowie
+                                                sentencePart = words.join(' '); // Połącz z powrotem w jedno zdanie
+
+                                            }
+                                        }
+                                        // Dodaj sentencePart do sentence10
+                                        sentence10 += sentencePart + " ";
+
+                                    }
+
+                                }
+                                for (let ii = 0; ii < matchingFiszki1.length; ii++) {
+                                    const fiszka = matchingFiszki1[ii];
+                                    console.log('fiszka2:', fiszka);
+                                    if (!fiszka.sentence2 || fiszka.sentence2.length === 0) {
+                                        console.log('fiszka.sentence2 is undefined or empty');
+                                        continue;
+                                    }
+
+                                    // Iteracja przez elementy sentence1
+                                    for (let kii = 0; kii < fiszka.sentence2.length; kii++) {
+                                        let sentencePart2 = fiszka.sentence2[kii];
+                                        console.log('sentencePart5:', ii);
+                                        const indexToCheck = ii + lesson1PartLength + 1;
+                                        const indexToCheck2 = ii + lesson1PartLength + 1;
+                                        console.log('indexToCheck77:', indexToCheck);
+                                        if (aktualny) {
+                                            if (matchingIndexes.includes(indexToCheck)) {
+                                                // Sprawdzenie, czy indeks bieżącej fiszki znajduje się w tablicy matchingIndexes
+                                                const spanElement = document.createElement('span');
+                                                spanElement.textContent = sentencePart2;
+                                                spanElement.classList.add('yellow');
+                                                // Zaktualizuj sentencePart, aby zawierał utworzony element span
+                                                sentencePart2 = spanElement.outerHTML;
+                                            }
+                                        }
+                                        
+                                        function countCategoryInFiszki1b(matchingFiszki1, category) {
+                                            // Zmienna do przechowywania sumy wystąpień
+                                            let totalCount = 0;
+
+                                            // Iteracja przez wszystkie fiszki
+                                            for (let ii = 0; ii < matchingFiszki1.length; ii++) {
+                                                const fiszka = matchingFiszki1[ii];
+
+                                                // Zlicz wystąpienia kategorii w category3
+                                                if (fiszka.category3 && Array.isArray(fiszka.category3)) {
+                                                    const count = fiszka.category3.filter(cat => cat === category).length;
+                                                    totalCount += count; // Dodaj do sumy
+                                                }
+                                            }
+
+                                            return [totalCount]; // Zwróć tablicę z jedną sumaryczną wartością
+                                        }
+                                        const categoryToCount2 = "PresentSimpleCzasownik";
+                                        const occurrences2 = countCategoryInFiszki1b(matchingFiszki1, categoryToCount2);
+// Wypisywanie wyników
+                                        console.log('Suma wystąpień5:', occurrences2);
+                                        // Po zakończeniu iteracji przez fiszkę, sprawdź occurrences
+                                        // Po zakończeniu iteracji przez fiszkę, sprawdź occurrences
+                                        // Po zakończeniu iteracji przez fiszkę, sprawdź occurrences
+                                        // Flaga sprawdzająca, czy podmiot został już dodany
+
+                                        if (aktualny && rodzaj === "play" && matchingIndexes3.includes(indexToCheck)) {
+                                            // Sprawdź, czy to jest pierwsze słowo
+                                            // Dodaj podmiot po drugim słowie, jeśli occurrences wynosi 2
+
+                                            if (ii === 6 && occurrences2[0] === 1) {
+                                                const podmiotElement = document.createElement('span');
+                                                podmiotElement.textContent = sentencePart2;
+                                                podmiotElement.classList.add('blue');
+                                                sentencePart2 = podmiotElement.outerHTML;
+                                                podmiotElement.textContent = "(czasownik)";
+
+                                                // Rozdziel zdanie na słowa
+                                                let words = sentencePart2.split(' ');
+                                                words.splice(2, 0, podmiotElement.outerHTML); // Dodaj podmiot po pierwszym słowie
+                                                sentencePart2 = words.join(' '); // Połącz z powrotem w jedno zdanie
+
+                                            }
+                                        }
+                                        // Dodaj sentencePart do sentence10
+                                        sentence11 += sentencePart2 + " ";
+
+                                    }
+                                }
+
+                                for (let li = 0; li < matchingFiszki1.length; li++) {
+                                    const fiszka = matchingFiszki1[li];
+                                    console.log('fiszka:', fiszka);
+                                    let sentencePart3 = fiszka.translateb;
+                                    console.log('sentencePart3:', sentencePart3);
+                                    if (aktualny) {
+                                        // Sprawdzenie, czy indeks bieżącej fiszki znajduje się w tablicy matchingIndexes
+                                        const spanElement = document.createElement('span');
+                                        spanElement.textContent = sentencePart3;
+                                        sentencePart3 = spanElement.outerHTML;
+
+                                    }
+                                    sentence1bba += sentencePart3 + " ";
+                                }
+                                for (let li = 0; li < matchingFiszki1.length; li++) {
+                                    const fiszka = matchingFiszki1[li];
+                                    console.log('fiszka:', fiszka);
+                                    let sentencePart3 = fiszka.translate;
+                                    console.log('sentencePart3:', sentencePart3);
+                                    if (aktualny) {
+                                        // Sprawdzenie, czy indeks bieżącej fiszki znajduje się w tablicy matchingIndexes
+                                        const spanElement = document.createElement('span');
+                                        spanElement.textContent = sentencePart3;
+                                        sentencePart3 = spanElement.outerHTML;
+
+                                    }
+                                    sentence1bbab += sentencePart3 + " ";
+                                }
+
+                                console.log('hej20', sentence1bba);
+                                $sentenceDiv.html(`
+<button class="left-button first-button">+<br></button>
+${sentence10}${sentence11}<br>
+<div class="sentence1bba">${sentence1bba}</div>
+<div class="sentence1bba">${sentence1bbab}</div>
+<button class="left-buttonb second-button">+<br></button>
+${sentence20}${sentence22}<br>
+<div class="sentence1bb1b">${sentence1bb1b}</div>
+<div class="sentence1bba2">${sentence1bba2}</div>
+<button class="left-buttonbb third-button">+<br></button>
+${sentence30}${sentence33}<br>
+        <div class="sentence1bb3">${sentence1bb3}</div>
+        <div class="sentence1bb1c">${sentence1bb1c}</div>
+`);
+                                $('.sentence1bba').html('');
+                                $sentenceDiv.on('click', '.left-button', function () {
+
+                                    // Dodawanie zdania tylko jeśli sentence1bb2 jest puste
+                                    if (sentence1bba === "") {
+                                        let sentencePart3 = fiszka.translateb ? fiszka.translateb : "";
+                                        sentence1bba += sentencePart3 + " ";
+                                    }
+                                    if (sentence1bbab === "") {
+                                        let sentencePart33 = fiszka.translate ? fiszka.translate : "";
+                                        sentence1bbab += sentencePart33 + " ";
+                                    }
+                                    console.log('hej20', sentence1bba);
+
+                                    // Dodanie treści do diva wraz z przyciskiem
+                                    $sentenceDiv.html(`
+<button class="left-button first-button">+<br></button>
+${sentence10}${sentence11}<br>
+<div class="sentence1bba">${sentence1bba}</div>
+        <div class="sentence1bba">${sentence1bbab}</div>
+<button class="left-buttonb second-button">+<br></button>
+${sentence20}${sentence22}<br>
+<div class="sentence1bb1b">${sentence1bb1b}</div>
+<div class="sentence1bba2">${sentence1bba2}</div>
+<button class="left-buttonbb third-button">+<br></button>
+${sentence30}${sentence33}<br>
+        <div class="sentence1bb3">${sentence1bb3}</div>
+        <div class="sentence1bb1c">${sentence1bb1c}</div>
+`);
+                                    // Ustawienie stylu dla przycisków .left-button
+                                    $('.sentence1bb1b').html('');
+                                    $('.sentence1bba2').html('');
+                                    $('.left-button').css('position', 'relative');
+                                    $('.left-buttonb').css('position', 'relative');
+                                    $('.left-buttonbb').css('position', 'relative');
+                                    let sentencePart1 = fiszka.translate ? fiszka.translate : ""; // Sprawdź, czy translate istnieje
+                                    let sentencePart3 = fiszka.translateb ? fiszka.translateb : ""; // Sprawdź, czy translate istnieje
+                                    console.log('Kliknięto przycisk');
+                                    if ($sentence1bba.css('display') === 'none' || sentence1bVisible) {
+                                        $sentence1bba.css('display', 'block');
+                                        $sentence1bba.css({
+                                            'margin-bottom': '-20px',
+                                            'top': '0px',
+                                            'position': 'relative'
+                                        });
+                                    }
+                                    if ($sentence1bbab.css('display') === 'none' || sentence1bVisible) {
+                                        $sentence1bbab.css('display', 'block');
+                                        $sentence1bbab.css({
+                                            'margin-bottom': '-20px',
+                                            'top': '0px',
+                                            'position': 'relative'
+                                        });
+                                    }
+                                    // Dodanie stylizacji na hover
+
+                                    $sentence1bb1b.html('');
+                                    $sentence1bb1b.empty();
+                                });
+                                $sentence1bb1b.html('');
+                                $sentence1bb1b.empty();
+                            }, 0);
+                        });
+                        console.log('Zawartość zmiennej sentence1:', sentence1b); // Wyświetlenie zawartości zmiennej sentence1                          
+                    }

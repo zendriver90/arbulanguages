@@ -7,14 +7,14 @@ id: [
 ],
         // obrazek
         img: [
-                "http://arbu-1dcc9.web.app/img/fiszkihung/1a.jpg"
+                "https://www.arbulang.com/img/fiszkihung/1a.jpg"
         ],
         translate: "Minden, amit tehetünk, az a választás",
         translateb: "[Ol wat wi kan du is csiuz]",
         srcWord: ["http://localhost/arbulanguage.com/filmy/hung/choice.mp4", 'Matrix (1999)'],
         srcWordimage: "http://localhost/arbulanguage.com/filmy/hung/choice.png",
         word: [
-                "http://arbu-1dcc9.web.app/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // historia
         story: [
@@ -47,10 +47,10 @@ id: [
 ],
         // obrazek
         img: [
-            "http://arbu-1dcc9.web.app/img/fiszkihung/2a.jpg"
+            "https://www.arbulang.com/img/fiszkihung/2a.jpg"
         ],
         word: [
-                "http://arbu-1dcc9.web.app/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // historia
         story: [
@@ -80,7 +80,7 @@ id: [
 ],
         // obrazek
         img: [
-                "http://arbu-1dcc9.web.app/img/fiszkihung/3a.jpg"
+                "https://www.arbulang.com/img/fiszkihung/3a.jpg"
         ],
         word: [
                 "http://localhost/arbulanguage.com/voice/music.mp4"
@@ -116,10 +116,10 @@ id: [
 ],
         // obrazek
         img: [
-                "http://arbu-1dcc9.web.app/img/fiszkihung/4a.jpg"
+                "https://www.arbulang.com/img/fiszkihung/4a.jpg"
         ],
         word: [
-                "http://arbu-1dcc9.web.app/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // historia
         story: [
@@ -150,10 +150,10 @@ id: [
 ],
         // obrazek
         img: [
-                "http://arbu-1dcc9.web.app/img/fiszkiespanol/5a.jpg"
+                "https://www.arbulang.com/img/fiszkiespanol/5a.jpg"
         ],
         word: [
-                "http://arbu-1dcc9.web.app/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // historia
         story: [
@@ -183,14 +183,14 @@ id: [
 ],
         // obrazek
         img: [
-                "http://arbu-1dcc9.web.app/img/fiszkiespanol/6a.jpg"
+                "https://www.arbulang.com/img/fiszkiespanol/6a.jpg"
         ],
                 translate: "A hajó többnyire halászatra van",
         translateb: "[De b-auto is mo-ulsz-tle for fising]",
         srcWord: ["http://localhost/arbulanguage.com/filmy/hung/boat.mp4", 'Titanic (1997)'],
         srcWordimage: "http://localhost/arbulanguage.com/filmy/hung/boat.png",
         word: [
-                "http://arbu-1dcc9.web.app/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // historia
         story: [
@@ -221,10 +221,10 @@ id: [
 ],
         // obrazek
         img: [
-                "http://arbu-1dcc9.web.app/fiszkiespanol/4a.jpg"
+                "https://www.arbulang.com/fiszkiespanol/4a.jpg"
         ],
         word: [
-                "http://arbu-1dcc9.web.app/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // historia
         story: [
@@ -255,10 +255,10 @@ id: [
 ],
         // obrazek
         img: [
-                "http://arbu-1dcc9.web.app/fiszkiespanol/8a.jpg"
+                "https://www.arbulang.com/fiszkiespanol/8a.jpg"
         ],
         word: [
-                "http://arbu-1dcc9.web.app/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // historia
         story: [
@@ -289,10 +289,10 @@ id: [
 ],
         // obrazek
         img: [
-                "http://arbu-1dcc9.web.app/img/fiszkiespanol/9a.jpg"
+                "https://www.arbulang.com/img/fiszkiespanol/9a.jpg"
         ],
         word: [
-                "http://arbu-1dcc9.web.app/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // historia
         story: [
@@ -323,10 +323,10 @@ id: [
 ],
         // obrazek
         img: [
-                "http://arbu-1dcc9.web.app/img/fiszkiespanol/10a.jpg"
+                "https://www.arbulang.com/img/fiszkiespanol/10a.jpg"
         ],
         word: [
-                "http://arbu-1dcc9.web.app/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // historia
         story: [
@@ -356,14 +356,14 @@ id: [
 ],
         // obrazek
         img: [
-                "http://arbu-1dcc9.web.app/img/fiszkiespanol/11a.jpg"
+                "https://www.arbulang.com/img/fiszkiespanol/11a.jpg"
         ],
                         translate: "Ellenőrizd a tojást, mielőtt megfőzöd",
         translateb: "[Csek de egg bifur kuk it]",
         srcWord: ["http://localhost/arbulanguage.com/filmy/hung/morning.mp4", 'Fast and Furious: Hobbs and Shaw (2019)'],
         srcWordimage: "http://localhost/arbulanguage.com/filmy/hung/morning.png",
         word: [
-                "http://arbu-1dcc9.web.app/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // historia
         story: [
@@ -393,10 +393,10 @@ id: [
 ],
         // obrazek
         img: [
-                "http://arbu-1dcc9.web.app/img/fiszkiespanol/12a.jpg"
+                "https://www.arbulang.com/img/fiszkiespanol/12a.jpg"
         ],
         word: [
-                "http://arbu-1dcc9.web.app/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // historia
         story: [
@@ -426,10 +426,10 @@ id: [
 ],
         // obrazek
         img: [
-                "http://arbu-1dcc9.web.app/img/fiszkiespanol/13a.jpg"
+                "https://www.arbulang.com/img/fiszkiespanol/13a.jpg"
         ],
         word: [
-                "http://arbu-1dcc9.web.app/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // historia
         story: [
@@ -459,10 +459,10 @@ id: [
 ],
         // obrazek
         img: [
-                "http://arbu-1dcc9.web.app/img/fiszkiespanol/14a.jpg"
+                "https://www.arbulang.com/img/fiszkiespanol/14a.jpg"
         ],
         word: [
-                "http://arbu-1dcc9.web.app/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // historia
         story: [
@@ -1233,7 +1233,7 @@ function generateFiszkaBlock(fiszka, lessonId2) {
             fiszkaContainer.append(fiszkaButtonNameContainer);
         }
         // Dodanie kontenera fiszki do body
-        $('.grid-container').append(fiszkaContainer);
+        $('.grid-containerb').append(fiszkaContainer);
         console.log(`Generated fiszka block for ID: [${fiszka.id.join(', ')}]`);
         initAudio(fiszka.id);
     });

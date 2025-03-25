@@ -15,7 +15,7 @@
         <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>ARBULANGUAGES.COM<br>DOSTĘPNYCH 150 SŁÓW</title>
+        <title>ARBULANG.COM</title>
         <style>
             @media (min-width: 999px) {
                 .bottom-bar {
@@ -290,7 +290,19 @@
                     display: none; /* Początkowo ukryty */
                     font-size: 10px;
                 }
-
+                                               .dynamic-div3 {
+                    position: absolute;
+                    bottom: 5px; /* Ustawienie w dowolnym miejscu w kontenerze */
+                    left: 10px;
+                    font-size: 15px;
+                    width: 150px; /* Szerokość dynamicznego div-a */
+                    height: 20px; /* Wysokość dynamicznego div-a */
+                    background-color: orange; /* Przezroczyste niebieskie tło */
+                    color: white;
+                    z-index: 1000; /* Wyższy z-index, aby był nad overlay */
+                    display: none; /* Początkowo ukryty */
+                    font-size: 10px;
+                }
                 .image-container4:hover .run-button2 {
                     display: block; /* Wyświetlenie przycisku na hover */
                 }
@@ -858,7 +870,19 @@ button123:hover {
                     z-index: 1000; /* Wyższy z-index, aby był nad overlay */
                     display: none; /* Początkowo ukryty */
                 }
-
+                                               .dynamic-div3 {
+                    position: absolute;
+                    bottom: 5px; /* Ustawienie w dowolnym miejscu w kontenerze */
+                    left: 10px;
+                    font-size: 15px;
+                    width: 150px; /* Szerokość dynamicznego div-a */
+                    height: 20px; /* Wysokość dynamicznego div-a */
+                    background-color: orange; /* Przezroczyste niebieskie tło */
+                    color: white;
+                    z-index: 1000; /* Wyższy z-index, aby był nad overlay */
+                    display: none; /* Początkowo ukryty */
+                    font-size: 10px;
+                }
                 .image-container4:hover .run-button2 {
                     display: block; /* Wyświetlenie przycisku na hover */
                 }
@@ -1324,10 +1348,10 @@ toggleButton.addEventListener('click', function() {
                 blinkButton();
             };
             document.getElementById('myButton').addEventListener('click', function () {
-                window.location.href = 'https://arbu-1dcc9.web.app/matrix.html';
+                window.location.href = 'https://www.arbulang.com/matrix.html';
             });
             document.getElementById('myButton2').addEventListener('click', function () {
-                window.location.href = 'https://arbu-1dcc9.web.app/matrix2.html';
+                window.location.href = 'https://www.arbulang.com/matrix2.html';
             });
 
             function showVideos(set) {
@@ -1386,7 +1410,7 @@ toggleButton.addEventListener('click', function() {
 <button class="rodzaj-button" data-rodzaj="osoby">SPOŁECZNOŚCIOWY</button>        
     <button class="rodzaj-button" data-rodzaj="osoby">WYGENEROWANY JEDNORAZOWO</button>
             <div id="title">RODZAJ SŁOWNICTWA</div>
-                    <button class="rodzaj-button" data-rodzaj="osoby">KOGNATY</button>
+                    <button class="rodzaj-button" data-rodzaj="osoby">COGNATES</button>
     <button id="osoby" class="rodzaj-button" data-rodzaj="osoby" onclick="przekazArgument0('all', '', '', '', '', '', tablica3[1])">All</button>
     <button class="rodzaj-button" data-rodzaj="zaimki osobowe" onclick="przekazArgument0('zaimkiosobowe', '', '', '', '', '', tablica3[1])">Personal pronouns</button>
     <button id="inne" onclick="przekazArgument0('emocje', '', '', '', '', '', tablica3[1])">Emotions</button>
@@ -3348,7 +3372,7 @@ ${sentence30}${sentence33}<br>
 // Tworzenie przycisku "Stop"
 if (!stopButtonAdded) {
     const $stopButton = $('<img>')
-        .attr('src', 'http://arbu-1dcc9.web.app/img/stopok2.png')
+        .attr('src', 'https://www.arbulang.com/img/stopok2.png')
         .css({
             'display': 'none', // Ukryty na starcie
             'position': 'absolute', // Precyzyjne pozycjonowanie względem kontenera
@@ -3366,11 +3390,11 @@ if (!stopButtonAdded) {
                 if (!video.paused) {
                     video.pause();
                     // Zmień obrazek na "Play"
-                    $stopButton.attr('src', 'http://arbu-1dcc9.web.app/img/play.png');
+                    $stopButton.attr('src', 'https://www.arbulang.com/img/play.png');
                 } else {
                     video.play();
                     // Zmień obrazek z powrotem na "Stop"
-                    $stopButton.attr('src', 'http://arbu-1dcc9.web.app/img/stopok2.png');
+                    $stopButton.attr('src', 'https://www.arbulang.com/img/stopok2.png');
                 }
             });
         });
@@ -3550,7 +3574,7 @@ if (!stopButtonAdded) {
 // Tworzenie przycisku "Stop"
 if (!stopButtonAdded) {
     const $stopButton = $('<img>')
-        .attr('src', 'http://arbu-1dcc9.web.app/img/stopok2.png')
+        .attr('src', 'https://www.arbulang.com/img/stopok2.png')
         .css({
             'display': 'none', // Ukryty na starcie
             'position': 'absolute', // Precyzyjne pozycjonowanie względem kontenera
@@ -3568,11 +3592,11 @@ if (!stopButtonAdded) {
                 if (!video.paused) {
                     video.pause();
                     // Zmień obrazek na "Play"
-                    $stopButton.attr('src', 'http://arbu-1dcc9.web.app/img/play.png');
+                    $stopButton.attr('src', 'https://www.arbulang.com/img/play.png');
                 } else {
                     video.play();
                     // Zmień obrazek z powrotem na "Stop"
-                    $stopButton.attr('src', 'http://arbu-1dcc9.web.app/img/stopok2.png');
+                    $stopButton.attr('src', 'https://www.arbulang.com/img/stopok2.png');
                 }
             });
         });
@@ -3772,7 +3796,7 @@ if (indexDiv % 2 === 0) {
 // Tworzenie przycisku "Stop"
 if (!stopButtonAdded) {
     const $stopButton = $('<img>')
-        .attr('src', 'http://arbu-1dcc9.web.app/img/stopok2.png')
+        .attr('src', 'https://www.arbulang.com/img/stopok2.png')
         .css({
             'display': 'none', // Ukryty na starcie
             'position': 'absolute', // Precyzyjne pozycjonowanie względem kontenera
@@ -3790,11 +3814,11 @@ if (!stopButtonAdded) {
                 if (!video.paused) {
                     video.pause();
                     // Zmień obrazek na "Play"
-                    $stopButton.attr('src', 'http://arbu-1dcc9.web.app/img/play.png');
+                    $stopButton.attr('src', 'https://www.arbulang.com/img/play.png');
                 } else {
                     video.play();
                     // Zmień obrazek z powrotem na "Stop"
-                    $stopButton.attr('src', 'http://arbu-1dcc9.web.app/img/stopok2.png');
+                    $stopButton.attr('src', 'https://www.arbulang.com/img/stopok2.png');
                 }
             });
         });
@@ -3988,7 +4012,7 @@ if (!stopButtonAdded) {
 // Tworzenie przycisku "Stop"
 if (!stopButtonAdded) {
     const $stopButton = $('<img>')
-        .attr('src', 'http://arbu-1dcc9.web.app/img/stopok2.png')
+        .attr('src', 'https://www.arbulang.com/img/stopok2.png')
         .css({
             'display': 'none', // Ukryty na starcie
             'position': 'absolute', // Precyzyjne pozycjonowanie względem kontenera
@@ -4006,11 +4030,11 @@ if (!stopButtonAdded) {
                 if (!video.paused) {
                     video.pause();
                     // Zmień obrazek na "Play"
-                    $stopButton.attr('src', 'http://arbu-1dcc9.web.app/img/play.png');
+                    $stopButton.attr('src', 'https://www.arbulang.com/img/play.png');
                 } else {
                     video.play();
                     // Zmień obrazek z powrotem na "Stop"
-                    $stopButton.attr('src', 'http://arbu-1dcc9.web.app/img/stopok2.png');
+                    $stopButton.attr('src', 'https://www.arbulang.com/img/stopok2.png');
                 }
             });
         });
@@ -4050,7 +4074,7 @@ if (!stopButtonAdded) {
                             // Dodaj nakładkę do kontenera, po dodaniu wideo
                             $overlay.appendTo($container);
                             // Dodaj funkcję hover do kontenera
-                            if (indexDiv < 5) {
+                            if (indexDiv < 4) {
                                 // Jeśli indexDiv < 5, dodajemy hover z dynamicznym napisem
                                 $container.hover(function () {
                                     $('.overlay', this).css('transform', 'translateX(0)');
@@ -4064,6 +4088,24 @@ if (!stopButtonAdded) {
 
                                     // Usuń dynamiczny div po zakończeniu hovera
                                     $('.dynamic-div', this).fadeOut(300, function () {
+                                        $(this).remove();
+                                    });
+                                });
+                            }
+                                                                                                                if (indexDiv < 11 && indexDiv >= 4) {
+                                // Jeśli indexDiv < 5, dodajemy hover z dynamicznym napisem
+                                $container.hover(function () {
+                                    $('.overlay', this).css('transform', 'translateX(0)');
+
+                                    // Twórz nowy dynamiczny div z napisem
+                                    const $dynamicDiv2 = $('<div>').addClass('dynamic-div3').text('The lesson is in preparation');
+                                    // Dodaj dynamiczny div do kontenera
+                                    $dynamicDiv2.appendTo($(this)).fadeIn(300);
+                                }, function () {
+                                    $('.overlay', this).css('transform', 'translateX(100%)');
+
+                                    // Usuń dynamiczny div po zakończeniu hovera
+                                    $('.dynamic-div3', this).fadeOut(300, function () {
                                         $(this).remove();
                                     });
                                 });
@@ -4201,11 +4243,19 @@ ${sentence30}${sentence33}<br>
                                 // Bezpośrednio przekierowujemy użytkownika do strony
                                 window.location.href = 'demo1eng-esp.html?category=' + encodeURIComponent(globalCategory);
                             }
-                            if (index55b2 === 2) {
-                                // Bezpośrednio przekierowujemy użytkownika do strony
+                                                        if (index55b2 === 2) { // Porównaj jako liczby
+                                // Bezpośrednio przekierowujemy użtykownika do strony
                                 window.location.href = 'demo2eng-esp.html?category=' + encodeURIComponent(globalCategory);
                             }
-                        }, 1000);
+                                                                                    if (index55b2 === 3) { // Porównaj jako liczby
+                                // Bezpośrednio przekierowujemy użtykownika do strony
+                                window.location.href = 'demo3eng-esp.html?category=' + encodeURIComponent(globalCategory);
+                            }
+                                                                                                                if (index55b2 === 4) { // Porównaj jako liczby
+                                // Bezpośrednio przekierowujemy użtykownika do strony
+                                window.location.href = 'demo4eng-esp.html?category=' + encodeURIComponent(globalCategory);
+                            }
+                        }, 500);
                         // Usunięcie kontenera po wstawieniu nowego
                     });
                     $buttonb2.css({
@@ -4692,7 +4742,7 @@ ${sentence10}${sentence11}<br>
                             // Tworzenie przycisku "Stop"
 if (!stopButtonAdded) {
     const $stopButton = $('<img>')
-        .attr('src', 'http://arbu-1dcc9.web.app/img/stopok2.png')
+        .attr('src', 'https://www.arbulang.com/img/stopok2.png')
         .css({
             'display': 'none', // Ukryty na starcie
             'position': 'absolute', // Precyzyjne pozycjonowanie względem kontenera
@@ -4710,11 +4760,11 @@ if (!stopButtonAdded) {
                 if (!video.paused) {
                     video.pause();
                     // Zmień obrazek na "Play"
-                    $stopButton.attr('src', 'http://arbu-1dcc9.web.app/img/play.png');
+                    $stopButton.attr('src', 'https://www.arbulang.com/img/play.png');
                 } else {
                     video.play();
                     // Zmień obrazek z powrotem na "Stop"
-                    $stopButton.attr('src', 'http://arbu-1dcc9.web.app/img/stopok2.png');
+                    $stopButton.attr('src', 'https://www.arbulang.com/img/stopok2.png');
                 }
             });
         });
@@ -4844,7 +4894,7 @@ if (!stopButtonAdded) {
                             // Tworzenie przycisku "Stop"
 if (!stopButtonAdded) {
     const $stopButton = $('<img>')
-        .attr('src', 'http://arbu-1dcc9.web.app/img/stopok2.png')
+        .attr('src', 'https://www.arbulang.com/img/stopok2.png')
         .css({
             'display': 'none', // Ukryty na starcie
             'position': 'absolute', // Precyzyjne pozycjonowanie względem kontenera
@@ -4862,11 +4912,11 @@ if (!stopButtonAdded) {
                 if (!video.paused) {
                     video.pause();
                     // Zmień obrazek na "Play"
-                    $stopButton.attr('src', 'http://arbu-1dcc9.web.app/img/play.png');
+                    $stopButton.attr('src', 'https://www.arbulang.com/img/play.png');
                 } else {
                     video.play();
                     // Zmień obrazek z powrotem na "Stop"
-                    $stopButton.attr('src', 'http://arbu-1dcc9.web.app/img/stopok2.png');
+                    $stopButton.attr('src', 'https://www.arbulang.com/img/stopok2.png');
                 }
             });
         });
@@ -4900,7 +4950,7 @@ if (!stopButtonAdded) {
                             // Utwórz element <div> dla nakładki
                             const $overlay = $('<div>').addClass('overlay');
                             const $buttonb = $('<img>').attr({
-                                'src': 'http://arbu-1dcc9.web.app/img/startsystem.png', // Względna ścieżka do pliku PNG
+                                'src': 'https://www.arbulang.com/img/startsystem.png', // Względna ścieżka do pliku PNG
                                 'class': 'overlay-button' // Klasa dla stylów CSS
                             }).css({
                                 'position': 'absolute',
@@ -4919,7 +4969,7 @@ if (!stopButtonAdded) {
                             // Dodaj przycisk do nakładki
                             $buttonb.appendTo($container);
 
-                            if (indexDiv < 13) {
+                            if (indexDiv < 10) {
                                 // Jeśli indexDiv < 5, dodajemy hover z dynamicznym napisem
                                 $container.hover(function () {
                                     $('.overlay', this).css('transform', 'translateX(0)');
@@ -5049,11 +5099,31 @@ if (!stopButtonAdded) {
                                 // Bezpośrednio przekierowujemy użytkownika do strony
                                 window.location.href = 'demo3eng-espb.html?category=' + encodeURIComponent(globalCategory);
                             }
-                            if (index55b2 === 4) {
+                                                        if (index55b2 === 4) { // Porównaj jako liczby
                                 // Bezpośrednio przekierowujemy użytkownika do strony
                                 window.location.href = 'demo4eng-espb.html?category=' + encodeURIComponent(globalCategory);
                             }
-                        }, 1000);
+                            if (index55b2 === 5) {
+                                // Bezpośrednio przekierowujemy użytkownika do strony
+                                window.location.href = 'demo5eng-espb.html?category=' + encodeURIComponent(globalCategory);
+                            }
+                            if (index55b2 === 6) {
+                                // Bezpośrednio przekierowujemy użytkownika do strony
+                                window.location.href = 'demo6eng-espb.html?category=' + encodeURIComponent(globalCategory);
+                            }
+                                                                                    if (index55b2 === 7) { // Porównaj jako liczby
+                                // Bezpośrednio przekierowujemy użytkownika do strony
+                                window.location.href = 'demo7eng-espb.html?category=' + encodeURIComponent(globalCategory);
+                            }
+                            if (index55b2 === 8) {
+                                // Bezpośrednio przekierowujemy użytkownika do strony
+                                window.location.href = 'demo8eng-espb.html?category=' + encodeURIComponent(globalCategory);
+                            }
+                            if (index55b2 === 9) {
+                                // Bezpośrednio przekierowujemy użytkownika do strony
+                                window.location.href = 'demo9eng-espb.html?category=' + encodeURIComponent(globalCategory);
+                            }
+                        }, 500);
                         // Usunięcie kontenera po wstawieniu nowego
                     });
                     $buttonb2.css({
@@ -5572,7 +5642,7 @@ ${sentence10}<br>
                             // Utwórz element <div> dla nakładki
                             const $overlay = $('<div>').addClass('overlay');
                             const $buttonb = $('<img>').attr({
-                                'src': 'http://arbu-1dcc9.web.app/img/startsystem.png', // Względna ścieżka do pliku PNG
+                                'src': 'https://www.arbulang.com/img/startsystem.png', // Względna ścieżka do pliku PNG
                                 'class': 'overlay-button' // Klasa dla stylów CSS
                             }).css({
                                 'position': 'absolute',

@@ -27,11 +27,22 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <style>
             @media (min-width: 999px) {
+                .search-container {
+    display: flex;
+    align-items: center;
+    gap: 0px; /* Odstęp między elementami */
+}
                 .search-wrapper {
   display: flex;
   width: 300px;
   flex-direction: column;
   gap: 20px;
+}
+
+.button-container {
+    position: relative;
+    gap: 0px;
+    top: 96px;
 }
 
 input {
@@ -85,6 +96,13 @@ input {
 
 .left-button {
     position: relative; /* Pozostaje w normalnym przepływie */
+}
+.left-button2 {
+    position: relative; /* Pozostaje w normalnym przepływie */
+    height: 25px;
+    width: 25px;
+    background-color: blue;
+    border-radius: 8px;
 }
 span.highlight {
     margin-left: 200px;
@@ -220,7 +238,7 @@ span.highlight {
                     background-color: blue;
                     width: 330px;
                     position: relative;
-                    height: 100px;
+                    height: 80px;
                     margin-bottom: 0px;
                     align-items: center;
                     font-size: 20px;
@@ -264,6 +282,7 @@ span.highlight {
                     width: 100%;
                     position: relative;
                     min-height: 100px;
+                    min-width: 330px;
                     height: auto;
                     margin-bottom: 0px;
                     align-items: center;
@@ -577,9 +596,8 @@ span.highlight {
                     margin-bottom: 20px;
                     gap: 20px;
                     position: relative;
-                    margin-top: -80px;
                     margin-right: 0px;
-                    top: 100px;
+                    top: 0px;
                 }
                 .spacer {
                     height: 20px; /* Dostosuj wysokość przestrzeni spacerowej */
@@ -1615,17 +1633,22 @@ input {
                     <div class="image-container2">Tłumacz tekst<button onclick="showImages('set1')">START</button>
                     </div>
                 </div>
-<div class="search-wrapper">
-    <label for="search">Search Word</label>
-    <input type="search" id="search" data-search>
+<div class="search-container">
+    <div class="search-wrapper">
+        <label for="search">Search Word</label>
+        <input type="search" id="search" data-search>
+    </div>
+    <div class="button-container">
+        <button id="polski" class="rodzaj-button2">Polski</button>
+        <button id="angielski" class="rodzaj-button2">Angielski</button>
+    </div>
 </div>
-
-<div class="button-container">
+                <div>
     <button id="singleSentenceBtn" class="rodzaj-button">Jedno zdanie</button>
     <button id="threeSentencesBtn" class="rodzaj-button">Trzy zdania</button>
-    <button id="singleWordBtn" class="rodzaj-button">Pojedyncze słowo(w przygotowaniu)</button>
-</div>
-
+    <button id="singleWordBtn" class="rodzaj-button">Pojedyncze słowo</button>
+                </div><br>
+                <button class="left-button2">+<br></button>TE LEKCJE MAJĄ DOSTĘPNE SKOJARZENIA W WIĘKSZYM ZAKRESIE TEMATÓW
 <div class="user-cards" data-user-cards-container></div>
 
 <template data-user-template>
@@ -1653,102 +1676,174 @@ input {
             <span id="arrow">&#9660;</span> <!-- Strzałka skierowana w dół -->
         </div>
         <script>
+
 const searchInput = document.querySelector("[data-search]");
-console.log("Element input:", searchInput); // Sprawdzenie czy input istnieje
+console.log("Element input:", searchInput); // Sprawdzenie, czy input istnieje
 
-let matchingKeys = []; // Globalna tablica pasujących słów
+let matchingKeys = [];
 let matchingKeysB = [];
-function findMatchingKeys(fiszki, searchValue) {
-    console.log("Rozpoczynam filtrowanie fiszek dla frazy:", searchValue);
-    
-    matchingKeys = fiszki
-        .filter(fiszka => {
-            if (!fiszka.key) return false; // Jeśli brak key, pomijamy
-            return fiszka.key.toLowerCase().startsWith(searchValue);
-        })
-        .map(fiszka => fiszka.key);
+let searchKey = "key"; // Domyślnie angielski
+let searching1 = false;
+let searching2 = false;
+let polskiButton = document.getElementById("polski");
+let angielskiButton = document.getElementById("angielski");
 
-    console.log("Pasujące słowa:", matchingKeys);
-        matchingKeysB = fiszki
-        .filter(fiszka => {
-            if (!fiszka.key) return false; // Jeśli brak key, pomijamy
-            return fiszka.key.toLowerCase().startsWith(searchValue);
-        })
-        .map(fiszka => fiszka.key);
+polskiButton.addEventListener("click", function () {
+    searchKey = "key2"; // Przełączamy na polski
+    console.log("Przełączono na polski, używam klucza:", searchKey);
+    isSearching = true;
 
-    console.log("Pasujące słowa:", matchingKeysB);
+    findMatchingKeys(fiszki, document.getElementById("search")?.value.toLowerCase().trim(), searchKey);
+    matchingLessons5 = findLessonsForWords(fiszki, searchKey);
+    matchingLessons5b = findLessonsForWordsB(fiszki, searchKey);
+
+    przekazArgument0(tablica3[2], '', false, 'fiszki', false, false, tablica3[1], tablica3[4], true, matchingLessons5, matchingLessons5b, false);
+});
+
+angielskiButton.addEventListener("click", function () {
+    searchKey = "key"; // Przełączamy na polski
+    console.log("Przełączono na polski, używam klucza:", searchKey);
+    isSearching = true;
+
+    findMatchingKeys(fiszki, document.getElementById("search")?.value.toLowerCase().trim(), searchKey);
+    matchingLessons5 = findLessonsForWords(fiszki, searchKey);
+    matchingLessons5b = findLessonsForWordsB(fiszki, searchKey);
+
+    przekazArgument0(tablica3[2], '', false, 'fiszki', false, false, tablica3[1], tablica3[4], true, matchingLessons5, matchingLessons5b, false);
+});
+
+function updateSearch() {
+    const searchValue = document.getElementById("search")?.value.toLowerCase().trim();
+    if (!searchValue) {
+        console.log("Pole wyszukiwania jest puste.");
+        return;
+    }
+    findMatchingKeys(fiszki, searchValue, searchKey);
 }
 
-function findLessonsForWords(fiszki) {
+function findMatchingKeys(fiszki, searchValue, searchKey) {
+    console.log("Rozpoczynam filtrowanie fiszek dla frazy:", searchValue, "przy użyciu klucza:", searchKey);
+
+    matchingKeys = fiszki
+        .filter(fiszka => {
+            let keyValue = fiszka[searchKey];
+
+            if (Array.isArray(keyValue)) {
+                // Sprawdzamy, czy którykolwiek element tablicy zaczyna się od searchValue
+                return keyValue.some(value => value.toLowerCase().startsWith(searchValue));
+            } else if (typeof keyValue === "string") {
+                // Normalne sprawdzenie dla stringów
+                return keyValue.toLowerCase().startsWith(searchValue);
+            }
+            return false;
+        })
+        .map(fiszka => fiszka[searchKey]);
+
+    matchingKeysB = [...matchingKeys];
+
+    console.log("Pasujące słowa:", matchingKeys);
+    console.log("Pasujące słowa2:", matchingKeysB);
+}
+
+function findLessonsForWords(fiszki, searchKey) {
     let lessonIds = new Set();
 
     fiszki.forEach(fiszka => {
-        if (!fiszka.key || !fiszka.id) return; // Jeśli brak danych, pomijamy
-        if (matchingKeys.includes(fiszka.key)) {
+        if (!fiszka[searchKey] || !fiszka.id) return;
+        if (matchingKeys.includes(fiszka[searchKey])) {
             lessonIds.add(fiszka.id[1]);
         }
     });
 
     console.log("Lekcje zawierające szukane słowo:", Array.from(lessonIds));
     return Array.from(lessonIds);
-    
 }
 
-function findLessonsForWordsB(fiszki) {
+function findLessonsForWordsB(fiszki, searchKey) {
     let lessonIdsB = new Set();
 
     fiszki.forEach(fiszka => {
-        if (!fiszka.key || !fiszka.id) return; // Jeśli brak danych, pomijamy
-        if (matchingKeysB.includes(fiszka.key)) {
+        if (!fiszka[searchKey] || !fiszka.id) return;
+        if (matchingKeysB.includes(fiszka[searchKey])) {
             lessonIdsB.add(fiszka.id[0]);
         }
     });
 
-        console.log("Ustawienia fiszek5", Array.from(lessonIdsB));
+    console.log("Ustawienia fiszek5:", Array.from(lessonIdsB));
     return Array.from(lessonIdsB);
-
 }
 
 let isSearching = false;
-let tablica40 = []; // Definiujemy globalnie, aby nie resetować jej w każdym input
+let isSearching2 = false;
+let tablica40 = [];
 let tablica41 = [];
-searchInput.addEventListener("input", (e) => {
-    console.clear(); // Czyści konsolę, żeby nie gromadziły się logi
+let staraTablica40 = null;
 
-    const searchTerm = e.target.value.trim();
-    const searchValue = searchTerm.toLowerCase();
+polskiButton.addEventListener("click", function () {
+    searchInput.placeholder = "przykład"; 
+});
 
-    findMatchingKeys(fiszki, searchValue);
+angielskiButton.addEventListener("click", function () {
+    searchInput.placeholder = "example"; 
+});
+searchInput.placeholder = "example"; 
+searchInput?.addEventListener("input", (e) => {
+    const searchTerm = e.target.value.trim().toLowerCase();
+    if (!searchTerm) {
+        console.log("Pusty input - przerywamy");
+        matchingKeys = [];
+        tablica40 = [];
+        return;
+    }
 
-    // Pobieramy pasujące lekcje
-    const matchingLessons5 = findLessonsForWords(fiszki);
-    const matchingLessons5b = findLessonsForWordsB(fiszki);
+    findMatchingKeys(fiszki, searchTerm, searchKey);
+    matchingLessons5 = findLessonsForWords(fiszki, searchKey);
+    matchingLessons5b = findLessonsForWordsB(fiszki, searchKey);
 
-    // Upewniamy się, że `tablica40` zawiera tylko jedną aktualną tablicę
-    tablica40 = Array.isArray(matchingLessons5b) ? matchingLessons5b.flat() : [];
-    tablica41 = Array.isArray(matchingLessons5) ? matchingLessons5.flat() : [];
+    let nowaTablica40 = Array.isArray(matchingLessons5b) ? matchingLessons5b.flat() : [];
+
+    if (tablica40.length > 0) {
+        staraTablica40 = [...tablica40];
+        console.log('Stara tablica (zanim zmienimy):', staraTablica40);
+    }
+
+    tablica40 = [...nowaTablica40];
+    let pominiete = (staraTablica40 || []).filter(num => !nowaTablica40.includes(num));
+    console.log('Pominięte numery:', pominiete);
 
     if (searchTerm.length === 1) {
         isSearching = true;
         console.log("Rozpoczęto wyszukiwanie:", isSearching);
-    } 
-    
+    }
     if (searchTerm.length === 0) {
         isSearching = false;
+        if (isSearching2) {
+        przekazArgument0(tablica3[2], '', false, '', true, true, tablica3[1], tablica3[4], false, null, null, false, staraTablica40);
+        }
         console.log("Pusty input - przerywamy");
         matchingKeys = [];
         tablica40 = []; // Resetujemy tablicę
         przekazArgument0(tablica3[2], '', false, 'fiszki', true, true, tablica3[1], tablica3[4], false, '', '');
         return;
     }
+    document.getElementById("singleSentenceBtn")?.addEventListener("click", () => {
+        tablica3[0] = 'zdania';
+        przekazArgument0(tablica3[2], '', false, 'zdania', false, false, tablica3[1], tablica3[4], true, matchingLessons5, matchingLessons5b, false);
+    });
 
-    console.log("Zaktualizowana tablica40:", tablica40);
-
-    przekazArgument0(tablica3[2], '', false, tablica3[0], false, false, tablica3[1], tablica3[4], true, matchingLessons5, matchingLessons5b);
+    document.getElementById("threeSentencesBtn")?.addEventListener("click", () => {
+        tablica3[0] = 'fiszki';
+        przekazArgument0(tablica3[2], '', false, 'fiszki', false, false, tablica3[1], tablica3[4], true, matchingLessons5, matchingLessons5b, false);
+    });
+polskiButton.addEventListener("click", function () {
+przekazArgument0(tablica3[2], '', false, 'fiszki', false, false, tablica3[1], tablica3[4], true, matchingLessons5, matchingLessons5b, false);
+});
+    przekazArgument0(tablica3[2], '', false, tablica3[0], false, false, tablica3[1], tablica3[4], true, matchingLessons5, matchingLessons5b, isSearching2, staraTablica40);
 });
 
 document.getElementById("singleWordBtn").addEventListener("click", function() {
     console.log("Kliknięto singleWordBtn");
+isSearching2 = true;
 
     console.log("Wyświetlam zawartość tablica40 (tylko raz):", tablica40);
 
@@ -1785,13 +1880,8 @@ document.getElementById("singleWordBtn").addEventListener("click", function() {
 
     // Dodanie zdarzenia kliknięcia do przycisku
 document.getElementById("singleSentenceBtn").addEventListener("click", () => {
-        tablica3[0] = 'zdania';
-        przekazArgument0(tablica3[2], '', false, 'fiszki', true, true, tablica3[1], tablica3[4], false, '', '');
-    });
-        // Dodanie zdarzenia kliknięcia do przycisku
-document.getElementById("threeSentencesBtn").addEventListener("click", () => {
-
-function showFiszkiForLesson5dd(tablica40, tablica41, fiszki) {
+    searching1 = true;
+    function showFiszkiForLesson5ddb(tablica40, tablica41, fiszki) {
     console.log("Wybrany rodzaj: ", tablica40);
 
     setTimeout(() => {
@@ -1846,23 +1936,95 @@ function removeFiszka(idFiszkiGroup) {
 }
 
         setTimeout(() => {
-        showFiszkiForLesson5dd(tablica40, tablica41, fiszki);
+        showFiszkiForLesson5ddb(tablica40, tablica41, fiszki);
+    }, 0);
+        tablica3[0] = 'zdania';
+        przekazArgument0(tablica3[2], '', false, 'zdania', true, true, tablica3[1], tablica3[4], false, '', '');
+    });
+        // Dodanie zdarzenia kliknięcia do przycisku
+document.getElementById("threeSentencesBtn").addEventListener("click", () => {
+searching2 = true;
+function showFiszkiForLesson5ddb(tablica40, tablica41, fiszki) {
+    console.log("Wybrany rodzaj: ", tablica40);
+
+    setTimeout(() => {
+        let idFiszki = [];
+
+        // Pobieranie id pasujących do tablica40
+        tablica40.forEach(t40 => {
+            fiszki.forEach(fiszka => {
+                if (fiszka.id[0] === t40) {
+                    idFiszki.push(fiszka.id); // Zapisujemy cały obiekt
+                }
+            });
+        });
+        console.log("Wyświetlam4:", idFiszki);
+
+        // Podział na mniejsze grupy po 3 elementy
+        let chunkedIdFiszki = [];
+        for (let i = 0; i < idFiszki.length; i += 3) {
+            chunkedIdFiszki.push(idFiszki.slice(i, i + 3));
+        }
+
+        console.log("Podzielone grupy ID:", chunkedIdFiszki);
+
+        // Usuwanie każdej grupy osobno
+        chunkedIdFiszki.forEach(group => {
+            removeFiszka(group);
+        });
+
+    }, 0);
+}
+
+function removeFiszka(idFiszkiGroup) {
+    idFiszkiGroup.forEach(singleId => {
+        // Jeśli singleId jest tablicą, łączymy jej elementy separatorem ','
+        let idString = Array.isArray(singleId) ? singleId.join(',') : singleId;
+        const className = `fiszka5 fiszka-${idString}`;
+        
+        // Escape'owanie przecinków w selektorze CSS
+        const selector = `.${className.replace(/,/g, '\\,').replace(/\s+/g, '.')}`; 
+
+        console.log("Wyświetlam4b:", selector);
+    
+        const $fiszkaToRemove = $('.grid-container').find(selector);
+        if ($fiszkaToRemove.length) {
+            console.log('Element znaleziony po opóźnieniu, usuwam...');
+            $fiszkaToRemove.remove();
+        } else {
+            console.log('Element nadal nie znaleziony.');
+        }
+    });
+}
+
+        setTimeout(() => {
+        showFiszkiForLesson5ddb(tablica40, tablica41, fiszki);
     }, 0);
 
         tablica3[0] = 'fiszki';
     przekazArgument0(tablica3[2], '', false, 'fiszki', true, true, tablica3[1], tablica3[4], false, '', '');
     });
+    
+
         document.addEventListener('DOMContentLoaded', () => {
     document.querySelectorAll('.czas40').forEach(btn => btn.style.border = '1px solid black');
 
     // Pobierz pierwszy przycisk z klasą 'czas40' i zaznacz go domyślnie
     const firstButton = document.querySelector('#threeSentencesBtn');
-    if (firstButton) {
+    const secondButton = document.querySelector('#angielski');
+    if (firstButton || secondButton) {
         firstButton.style.border = '2px solid blue';
+        secondButton.style.border = '2px solid blue';
     }
         document.querySelectorAll('.rodzaj-button').forEach(button => {
             button.addEventListener('click', function() {
                 document.querySelectorAll('.rodzaj-button').forEach(btn => btn.style.border = '1px solid black');
+                this.style.border = '2px solid blue';
+            });
+        });
+                document.querySelectorAll('.rodzaj-button2').forEach(button => {
+            button.addEventListener('click', function() {
+                document.querySelectorAll('.rodzaj-button2').forEach(btn => btn.style.border = '1px solid black');
                 this.style.border = '2px solid blue';
             });
         });
@@ -1978,34 +2140,13 @@ function showFiszkiForLesson5d(matchingFiszki1v, tablica41) {
                 blinkButton();
             };
             document.getElementById('myButton').addEventListener('click', function () {
-                window.location.href = 'https://arbu-1dcc9.web.app/matrix.html';
+                window.location.href = 'https://www.arbulang.com/matrix.html';
             });
             document.getElementById('myButton2').addEventListener('click', function () {
-                window.location.href = 'https://arbu-1dcc9.web.app/matrix2.html';
+                window.location.href = 'https://www.arbulang.com/matrix2.html';
             });
 
-            function showVideos(set) {
-                const videoContainer = document.querySelector('.grid-container');
-                switch (set) {
-                    case 'set2':
-                        selectedVideos = [
-                            {
-                            }
-                            // Dodaj kolejne filmy dla set1
-                        ];
-                        break;
-                        // Dodaj pozostałe przypadki dla innych zestawów
-                    default:
-                        break;
-                }
-                // Wyświetl filmy dla wybranego zestawu
-                selectedVideos.forEach(function (videoData) {
-                    const videoContainer = document.createElement('div');
-                    videoContainer.classList.add('image-container3');
-                    document.querySelector('.grid-container').appendChild(videoContainer);
-                });
-            }
-            showVideos('set2');
+
 
 
             function highlightButton(buttonId, horizontalBarId) {
@@ -2041,11 +2182,11 @@ function showFiszkiForLesson5d(matchingFiszki1v, tablica41) {
         <button class="charakter-button" onclick="ustawTryb(tablica3[0]); przekazArgument0(globalCategory, '', '', 'fiszki', false, false, 'losowyuklad')">WYGENEROWANY JEDNORAZOWO</button>
             <div id="title">RODZAJ SŁOWNICTWA</div>
                     <button id="inne" class="rodzaj-button" data-rodzaj="osoby">KOGNATY</button>
-    <button id="osoby" class="rodzaj-button" data-rodzaj="osoby" onclick="przekazArgument0('all', '', '', '', '', '', tablica3[1], '', '')">Wszystkie</button>
+    <button id="osoby" class="rodzaj-button" data-rodzaj="osoby" onclick="przekazArgument0('all', '', '', '', '', '', tablica3[1], 'other', false, '', '')">Wszystkie</button>
     <button class="rodzaj-button" data-rodzaj="osoby" onclick="przekazArgument0('osoby', '', '', '', '', '', tablica3[1], 'other', false, '', '')">Osoby</button>
-    <button class="rodzaj-button" data-rodzaj="zaimki osobowe" onclick="przekazArgument0('zaimkiosobowe', '', '', '', '', '', tablica3[1], 'other')">Zaimki osobowe</button>
+    <button class="rodzaj-button" data-rodzaj="zaimki osobowe" onclick="przekazArgument0('zaimkiosobowe', '', '', '', '', '', tablica3[1], 'other', false, '', '')">Zaimki osobowe</button>
     <button id="inne" onclick="przekazArgument0('emocje', '', '', '', '', '', tablica3[1])">Emocje</button>
-    <button class="rodzaj-button" data-rodzaj="zaimki" onclick="przekazArgument0('spojniki', '', '', '', '', '', tablica3[1])">Spójniki</button>
+    <button class="rodzaj-button" data-rodzaj="zaimki" onclick="przekazArgument0('spojniki', '', '', '', '', '', tablica3[1], '', false, '', '')">Spójniki</button>
     <button id="inne" onclick="przekazArgument0('kolory', '', '', '', '', '', tablica3[1])">Kolory</button>
     <button class="rodzaj-button" data-rodzaj="zwierzeta" onclick="przekazArgument0('zwierzeta', '', '', '', '', '', tablica3[1])">Zwierzęta</button>
     <button class="rodzaj-button" data-rodzaj="czasownik" onclick="przekazArgument0('czasownik', '', '', '', '', '', tablica3[1])">Czasowniki</button>
@@ -2109,9 +2250,13 @@ function showFiszkiForLesson5d(matchingFiszki1v, tablica41) {
                 $targetContainer.append($flashcardContainer);
 
                 var $gridContainer = $('.grid-container');
+                var $gridContainer2 = $('.search-container');
+                                                            $gridContainer.css({
+                                                'top': '-350px'
+                                            });
                 var flashcardContainerHeight = $flashcardContainer.height();
                 $gridContainer.css('margin-top', flashcardContainerHeight + 110 + 'px');
-
+$gridContainer2.css('margin-top', flashcardContainerHeight + 100 + 'px');
 
                 function addBlueBorder(button) {
                     var category = $(button).attr('class').split(' ')[0]; // Pobierz klasę kategorii przycisku (rodzaj-button, charakter-button, czas)
@@ -2173,7 +2318,7 @@ function showFiszkiForLesson5d(matchingFiszki1v, tablica41) {
             tablica3[1] = null; // Domyślny tryb
             tablica3[2] = 'all'; // Domyślny tryb
             tablica3[4] = null;
-            function przekazArgument0(category, index55, buttonindex, czas, idpolski, idtranslate, id, rodzaj, isSearching, matchingLessons5, matchingLessons5b) {
+            function przekazArgument0(category, index55, buttonindex, czas, idpolski, idtranslate, id, rodzaj, isSearching, matchingLessons5, matchingLessons5b, isSearching2, staraTablica40) {
                 $('.grid-container .image-container3').remove();
                 $('.grid-container .image-container4').remove();
                 tablica3[1] = id;
@@ -2191,9 +2336,9 @@ function showFiszkiForLesson5d(matchingFiszki1v, tablica41) {
                 tablica10.length = 0;
                 tablica15.length = 0;
                 globalIdTranslate = idtranslate;
-                                console.log('nowy30', isSearching);
+                                console.log('nowy30', rodzaj);
                 // Wywołaj funkcję wybierzCharakter na podstawie trybu
-                wybierzCharakter(category, tablica3[0], index55, buttonindex, tablica3[1], tablica3[3], rodzaj, isSearching, matchingLessons5, matchingLessons5b);
+                wybierzCharakter(category, tablica3[0], index55, buttonindex, tablica3[1], tablica3[3], rodzaj, isSearching, matchingLessons5, matchingLessons5b, isSearching2, staraTablica40);
 
             }
 
@@ -2204,7 +2349,7 @@ function showFiszkiForLesson5d(matchingFiszki1v, tablica41) {
             }
             console.log('hej33bb', tablica3);
             // Funkcja wybierająca charakter
-            function wybierzCharakter(category, czas, index55, buttonindex, idpolski, frazyid, rodzaj, isSearching, matchingLessons5, matchingLessons5b) {
+            function wybierzCharakter(category, czas, index55, buttonindex, idpolski, frazyid, rodzaj, isSearching, matchingLessons5, matchingLessons5b, isSearching2, staraTablica40) {
                 console.log('hej223', czas, category, frazyid);
 
                 pulpitstartowy = false;
@@ -2214,7 +2359,7 @@ function showFiszkiForLesson5d(matchingFiszki1v, tablica41) {
                 matchingIndexes2 = findXForMatchingFiszka2(globalCategory, fiszki);
                 matchingIndexes3 = findXForMatchingFiszka3(globalCategory, fiszki);
 
-                wybierzRodzaj(globalCategory, czas, matchingIndexes, index55, buttonindex, idpolski, frazyid, matchingIndexes2, rodzaj, matchingIndexes3, isSearching, matchingLessons5, matchingLessons5b);
+                wybierzRodzaj(globalCategory, czas, matchingIndexes, index55, buttonindex, idpolski, frazyid, matchingIndexes2, rodzaj, matchingIndexes3, isSearching, matchingLessons5, matchingLessons5b, isSearching2, staraTablica40);
                 // Wyświetl na konsoli zaktualizowane matchingIndexes
                 console.log("Zaktualizowane matchingIndexes:", matchingIndexes);
                 console.log("wykonuje sie hej", matchingIndexes2);
@@ -2472,7 +2617,7 @@ function showFiszkiForLesson5d(matchingFiszki1v, tablica41) {
             let losowaniaCounter2 = 0; // Zmienna licznika losowań
             let tablica33 = [];
             let tablica33b = [];
-            function wybierzRodzaj(category, czas, matchingIndexes, index55, buttonindex, idpolski, frazyid, matchingIndexes2, rodzaj, matchingIndexes3, isSearching, matchingLessons5, matchingLessons5b) {
+            function wybierzRodzaj(category, czas, matchingIndexes, index55, buttonindex, idpolski, frazyid, matchingIndexes2, rodzaj, matchingIndexes3, isSearching, matchingLessons5, matchingLessons5b, isSearching2, staraTablica40) {
                 category = category || globalCategory;
                 czasv2 = czas;
                 console.log("Wybrany rodzaj słownictwa: ", fiszki);
@@ -2520,6 +2665,157 @@ console.log('hej755', matchingLessons1b);
                     myVariable = uniqueMatchingLessons2b;
                     console.log('myVariable8:', uniqueMatchingLessons2b);
                 }
+                if (isSearching2) {
+    console.log("Kliknięto singleWordBtn", staraTablica40);
+
+    console.log("Wyświetlam zawartość tablica40 (tylko raz):", tablica40);
+
+    function showFiszkiForLesson5dd(tablica40, tablica41, fiszki) {
+        console.log("Wybrany rodzaj: ", tablica40);
+
+        setTimeout(() => {
+            let matchingFiszki122 = [];
+
+            tablica40.forEach(t40 => {
+                fiszki.forEach(fiszka => {
+                    if (fiszka.id[0] === t40) {
+                        matchingFiszki122.push(fiszka); // Zapisujemy cały obiekt, nie tylko fiszka.id
+                    }
+                });
+            });
+
+            console.log("Wyświetlam:", matchingFiszki122);
+
+            // Przykładowe użycie funkcji generateFiszkaBlock3
+            matchingFiszki122.forEach(fiszka => {
+                generateFiszkaBlock3(fiszka, "lessonId2"); // Przekazujemy cały obiekt fiszka
+            });
+
+        }, 1000);
+    }
+
+    setTimeout(() => {
+        showFiszkiForLesson5dd(tablica40, tablica41, fiszki);
+    }, 100);
+    function showFiszkiForLesson5ddb(staraTablica40, tablica41, fiszki) {
+    console.log("Wybrany rodzaj4vv: ", staraTablica40);
+
+    setTimeout(() => {
+        let idFiszki = [];
+
+        // Pobieranie id pasujących do tablica40
+        staraTablica40.forEach(t40 => {
+            fiszki.forEach(fiszka => {
+                if (fiszka.id[0] === t40) {
+                    idFiszki.push(fiszka.id); // Zapisujemy cały obiekt
+                }
+            });
+        });
+
+        console.log("Wyświetlam4vv:", idFiszki);
+
+        // Podział na mniejsze grupy po 3 elementy
+        let chunkedIdFiszki = [];
+        for (let i = 0; i < idFiszki.length; i += 3) {
+            chunkedIdFiszki.push(idFiszki.slice(i, i + 3));
+        }
+
+        console.log("Podzielone grupy ID:", chunkedIdFiszki);
+
+        // Usuwanie każdej grupy osobno
+        chunkedIdFiszki.forEach(group => {
+            removeFiszka(group);
+        });
+
+    }, 600);
+}
+
+function removeFiszka(idFiszkiGroup) {
+    idFiszkiGroup.forEach(singleId => {
+        // Jeśli singleId jest tablicą, łączymy jej elementy separatorem ','
+        let idString = Array.isArray(singleId) ? singleId.join(',') : singleId;
+        const className = `fiszka5 fiszka-${idString}`;
+        
+        // Escape'owanie przecinków w selektorze CSS
+        const selector = `.${className.replace(/,/g, '\\,').replace(/\s+/g, '.')}`; 
+
+        console.log("Wyświetlam4b:", selector);
+    
+        const $fiszkaToRemove = $('.grid-container').find(selector);
+        if ($fiszkaToRemove.length) {
+            console.log('Element znaleziony po opóźnieniu, usuwam...');
+            $fiszkaToRemove.remove();
+        } else {
+            console.log('Element nadal nie znaleziony.');
+        }
+    });
+}
+
+        setTimeout(() => {
+        showFiszkiForLesson5ddb(staraTablica40, tablica41, fiszki);
+    }, 0);
+}
+if (!isSearching2) {
+    console.log('hej350');
+    $('.grid-container .image-container3').remove();
+        function showFiszkiForLesson5ddb(tablica40, tablica41, fiszki) {
+    console.log("Wybrany rodzaj4vv: ", staraTablica40);
+
+    setTimeout(() => {
+        let idFiszki = [];
+
+        // Pobieranie id pasujących do tablica40
+        tablica40.forEach(t40 => {
+            fiszki.forEach(fiszka => {
+                if (fiszka.id[0] === t40) {
+                    idFiszki.push(fiszka.id); // Zapisujemy cały obiekt
+                }
+            });
+        });
+
+        console.log("Wyświetlam4vv:", idFiszki);
+
+        // Podział na mniejsze grupy po 3 elementy
+        let chunkedIdFiszki = [];
+        for (let i = 0; i < idFiszki.length; i += 3) {
+            chunkedIdFiszki.push(idFiszki.slice(i, i + 3));
+        }
+
+        console.log("Podzielone grupy ID:", chunkedIdFiszki);
+
+        // Usuwanie każdej grupy osobno
+        chunkedIdFiszki.forEach(group => {
+            removeFiszka(group);
+        });
+
+    }, 600);
+}
+
+function removeFiszka(idFiszkiGroup) {
+    idFiszkiGroup.forEach(singleId => {
+        // Jeśli singleId jest tablicą, łączymy jej elementy separatorem ','
+        let idString = Array.isArray(singleId) ? singleId.join(',') : singleId;
+        const className = `fiszka5 fiszka-${idString}`;
+        
+        // Escape'owanie przecinków w selektorze CSS
+        const selector = `.${className.replace(/,/g, '\\,').replace(/\s+/g, '.')}`; 
+
+        console.log("Wyświetlam4b:", selector);
+    
+        const $fiszkaToRemove = $('.grid-container').find(selector);
+        if ($fiszkaToRemove.length) {
+            console.log('Element znaleziony po opóźnieniu, usuwam...');
+            $fiszkaToRemove.remove();
+        } else {
+            console.log('Element nadal nie znaleziony.');
+        }
+    });
+}
+
+        setTimeout(() => {
+        showFiszkiForLesson5ddb(tablica40, tablica41, fiszki);
+    }, 0);
+}
                 let powiadomienieCounter = 0; // Licznik wyświetleń powiadomień
                                 if (czas === 'fiszki' && czas !== "zdania" && isSearching) {
                     console.log('Warunek czas === "fiszki" jest spełniony');
@@ -3213,14 +3509,17 @@ if (myVariable.length > 0) {
             let tablica12ab = [];
             let tablica12ad = [];
             let tablica12abc = [];
+
                             function showCombinedSentenceForLesson(matchingIndexes3, rodzaj, matchingIndexes2, buttonindex, index50, lessonIdToShow1, lessonIdToShow2, lessonIdToShow3, fiszki, matchingIndexes, startIndex, newIndex, indexDiv, lessonsArray, lesson1PartLength, lesson2PartLength, lesson3PartLength, lesson1Sentences, lesson2Sentences, lesson3Sentences, lesson1FirstPartLength, lesson2FirstPartLength, lesson3FirstPartLength, lesson1SecondPartLength, lesson2SecondPartLength, lesson3SecondPartLength, cumulativeFirstPartLength1, cumulativeFirstPartLength2, cumulativeFirstPartLength3, lessonsArrayZ, matchingLessons5, matchingLessons5b, isSearching) {
-                console.log('hej55bb', rodzaj);
+                console.log('hej55bb', matchingIndexes);
                 const matchingFiszki1 = fiszki.filter(fiszka => fiszka.id[1] === lessonIdToShow1);
                 const matchingFiszki2 = fiszki.filter(fiszka => fiszka.id[1] === lessonIdToShow2);
                 const matchingFiszki3 = fiszki.filter(fiszka => fiszka.id[1] === lessonIdToShow3);
                 console.log('hej450b', matchingFiszki1);
                 console.log('hej444', newIndex);
-                if (matchingFiszki1.length > 0 && matchingFiszki2.length > 0 && matchingFiszki3.length > 0) {
+
+                if (matchingFiszki1.length > 0 || matchingFiszki2.length > 0 || matchingFiszki3.length > 0) {
+
                     const srcWord1 = pobierzSrcWordDlaLekcji(lessonIdToShow1, fiszki);
                     const srcWord1b = pobierzSrcWordDlaLekcji3(lessonIdToShow1, fiszki);
                     const srcWord1d = pobierzSrcWordDlaLekcji4(lessonIdToShow1, fiszki);
@@ -3249,8 +3548,7 @@ if (myVariable.length > 0) {
                     }
                     console.log(`Fiszki dla lekcji ${lessonIdToShow1}, ${lessonIdToShow2} i ${lessonIdToShow3}:`);
 
-                    let sentence10 = ""; // Deklaracja zmiennej sentence1 na poziomie lokalnym
-                    let sentence11 = "";
+
                     let sentence20 = ""; // Deklaracja zmiennej sentence1 na poziomie lokalnym
                     let sentence22 = "";
                     let sentence30 = ""; // Deklaracja zmiennej sentence1 na poziomie lokalnym
@@ -3633,12 +3931,14 @@ ${sentence30}${sentence33}<br>
 
                     }
                     // Zmienna do liczenia wystąpień indexToCheck
+                                        let sentence10 = ""; // Deklaracja zmiennej sentence1 na poziomie lokalnym
+                    let sentence11 = "";
                     let sentence1bba = "";
                     let sentence1bbab = "";
                     function addBackgroundToText1b(matchingFiszki1, matchingIndexes, aktualny, lesson1PartLength, matchingIndexes2, rodzaj, matchingIndexes3, matchingLessons5b) {
                         $(document).ready(function () {
 
-                            console.log('hejkh', matchingIndexes2);
+                            console.log('hejkh', lesson1PartLength);
                             sentence1bba = "";
                             sentence1bbab = "";
                             setTimeout(() => {
@@ -3653,10 +3953,10 @@ ${sentence30}${sentence33}<br>
                                     // Iteracja przez elementy sentence1
                                     for (let ki = 0; ki < fiszka.sentence1.length; ki++) {
                                         let sentencePart = fiszka.sentence1[ki];
-                                        console.log('matchingIndexes1000:', matchingLessons5b);
+                                        console.log('matchingIndexes1000:', matchingIndexes);
                                         const indexToCheck = i + lesson1PartLength + 1;
                                         const indexToCheck2 = i + lesson1PartLength + 1;
-                                            if (matchingIndexes.includes(indexToCheck) && matchingLessons5b === null) {
+                                            if (matchingIndexes.includes(indexToCheck) && matchingIndexes !== null) {
                                                 // Sprawdzenie, czy indeks bieżącej fiszki znajduje się w tablicy matchingIndexes
                                                 const spanElement = document.createElement('span');
                                                 spanElement.textContent = sentencePart;
@@ -3664,7 +3964,7 @@ ${sentence30}${sentence33}<br>
                                                 // Zaktualizuj sentencePart, aby zawierał utworzony element span
                                                 sentencePart = spanElement.outerHTML;
                                             }
-                                            if (matchingLessons5b.includes(indexToCheck2) && matchingLessons5b !== null) {
+                                            if (matchingLessons5b.includes(indexToCheck2) && matchingIndexes.length === 0) {
                                                 // Sprawdzenie, czy indeks bieżącej fiszki znajduje się w tablicy matchingIndexes
                                                 const spanElement = document.createElement('span');
                                                 spanElement.textContent = sentencePart;
@@ -3809,8 +4109,7 @@ ${sentence30}${sentence33}<br>
                                         const indexToCheck = ii + lesson1PartLength + 1;
                                         const indexToCheck2 = ii + lesson1PartLength + 1;
                                         console.log('indexToCheck77:', indexToCheck);
-                                        if (aktualny) {
-                                            if (matchingIndexes.includes(indexToCheck)) {
+                                            if (matchingIndexes.includes(indexToCheck) && matchingIndexes !== null) {
                                                 // Sprawdzenie, czy indeks bieżącej fiszki znajduje się w tablicy matchingIndexes
                                                 const spanElement = document.createElement('span');
                                                 spanElement.textContent = sentencePart2;
@@ -3818,7 +4117,14 @@ ${sentence30}${sentence33}<br>
                                                 // Zaktualizuj sentencePart, aby zawierał utworzony element span
                                                 sentencePart2 = spanElement.outerHTML;
                                             }
-                                        }
+                                            if (matchingLessons5b.includes(indexToCheck2) && matchingIndexes.length === 0) {
+                                                // Sprawdzenie, czy indeks bieżącej fiszki znajduje się w tablicy matchingIndexes
+                                                const spanElement = document.createElement('span');
+                                                spanElement.textContent = sentencePart2;
+                                                spanElement.classList.add('yellow');
+                                                // Zaktualizuj sentencePart, aby zawierał utworzony element span
+                                                sentencePart2 = spanElement.outerHTML;
+                                            }
                                         
                                         function countCategoryInFiszki1b(matchingFiszki1, category) {
                                             // Zmienna do przechowywania sumy wystąpień
@@ -3902,7 +4208,7 @@ ${sentence30}${sentence33}<br>
                                 console.log('hej20', sentence1bba);
                                 $sentenceDiv.html(`
 <button class="left-button first-button">+<br></button>
-${sentence10}${sentence12}${sentence11}<br>
+${sentence10}${sentence11}<br>
 <div class="sentence1bba">${sentence1bba}</div>
 <div class="sentence1bba">${sentence1bbab}</div>
 <button class="left-buttonb second-button">+<br></button>
@@ -3931,7 +4237,7 @@ ${sentence30}${sentence33}<br>
                                     // Dodanie treści do diva wraz z przyciskiem
                                     $sentenceDiv.html(`
 <button class="left-button first-button">+<br></button>
-${sentence10}${sentence12}${sentence11}<br>
+${sentence10}${sentence11}<br>
 <div class="sentence1bba">${sentence1bba}</div>
         <div class="sentence1bba">${sentence1bbab}</div>
 <button class="left-buttonb second-button">+<br></button>
@@ -3975,7 +4281,7 @@ ${sentence30}${sentence33}<br>
                                 });
                                 $sentence1bb1b.html('');
                                 $sentence1bb1b.empty();
-                            }, 300);
+                            }, 0);
                         });
                         console.log('Zawartość zmiennej sentence1:', sentence1b); // Wyświetlenie zawartości zmiennej sentence1                          
                     }
@@ -4008,7 +4314,7 @@ ${sentence30}${sentence33}<br>
                                         console.log('hej31', sentencePart);
                                         // Sprawdź, czy indeks jest równy 0
                                         if (aktualny) {
-                                            if (matchingIndexes.includes(indexToCheck) && matchingLessons5b === null) {
+                                            if (matchingIndexes.includes(indexToCheck)) {
                                                 // Sprawdzenie, czy indeks bieżącej fiszki znajduje się w tablicy matchingIndexes
                                                 const spanElement = document.createElement('span');
                                                 spanElement.textContent = sentencePart;
@@ -4215,7 +4521,7 @@ ${sentence30}${sentence33}<br>
                                 console.log('hej20', sentence1bb1b);
                                 $sentenceDiv.html(`
 <button class="left-button first-button">+<br></button>
-${sentence10}${sentence12}${sentence11}<br>
+${sentence10}${sentence11}<br>
 <div class="sentence1bba">${sentence1bba}</div>
 <div class="sentence1bba">${sentence1bbab}</div>
 <button class="left-buttonb second-button">+<br></button>
@@ -4244,7 +4550,7 @@ ${sentence30}${sentence33}<br>
                                     // Dodanie treści do diva wraz z przyciskiem
                                     $sentenceDiv.html(`
 <button class="left-button first-button">+<br></button>
-${sentence10}${sentence12}${sentence11}<br>
+${sentence10}${sentence11}<br>
 <div class="sentence1bba">${sentence1bba}</div>
 <div class="sentence1bba">${sentence1bbab}</div>
 <button class="left-buttonb second-button">+<br></button>
@@ -4291,7 +4597,7 @@ ${sentence30}${sentence33}<br>
                                 });
                                 $sentence1bb1a.html('');
                                 $sentence1bb1a.empty();
-                            }, 300);
+                            }, 0);
                         });
                     }
 
@@ -4324,7 +4630,7 @@ setTimeout(() => {
                                         const indexToCheck2 = l + lesson3PartLength + 1;
                                     console.log('indexToCheck:', indexToCheck);
                                         if (aktualny) {
-                                            if (matchingIndexes.includes(indexToCheck) && matchingLessons5b === null) {
+                                            if (matchingIndexes.includes(indexToCheck)) {
                                                 // Sprawdzenie, czy indeks bieżącej fiszki znajduje się w tablicy matchingIndexes
                                                 const spanElement = document.createElement('span');
                                                 spanElement.textContent = sentencePart;
@@ -4558,7 +4864,7 @@ function countCategoryInFiszki2(matchingFiszki3, category) {
 
                                 $sentenceDiv.html(`
 <button class="left-button first-button">+<br></button>
-${sentence10}${sentence12}${sentence11}<br>
+${sentence10}${sentence11}<br>
 <div class="sentence1bba">${sentence1bba}</div>
 <div class="sentence1bba">${sentence1bbab}</div>
 <button class="left-buttonb second-button">+<br></button>
@@ -4586,7 +4892,7 @@ ${sentence30}${sentence33}<br>
                                     // Dodanie treści do diva wraz z przyciskiem
                                     $sentenceDiv.html(`
 <button class="left-button first-button">+<br></button>
-${sentence10}${sentence12}${sentence11}<br>
+${sentence10}${sentence11}<br>
 <div class="sentence1bba">${sentence1bba}</div>
 <div class="sentence1bba">${sentence1bbab}</div>
 <button class="left-buttonb second-button">+<br></button>
@@ -4640,6 +4946,7 @@ ${sentence30}${sentence33}<br>
 
                     // Możesz również dodać dodatkowe atrybuty, takie jak 'data-lesson'
                     $container.attr('data-lesson', indexDiv);
+                    
                     $('.grid-container').append($container);
 
                     const srcWords = [srcWord1, srcWord2, srcWord3];
@@ -4678,7 +4985,7 @@ ${sentence30}${sentence33}<br>
                                 console.log('hej80', index);
                                 // Sprawdź, czy jesteśmy poza zakresem tablicy
                                 if (index >= srcWords.length && !funkcjaWywolana) {
-                                    przekazArgument0(tablica3[2], undefined, false, tablica3[0], true, true, tablica3[1], tablica3[4]);
+                                    przekazArgument0(tablica3[2], undefined, false, tablica3[0], true, true, tablica3[1], tablica3[4], false, '', '', '', '');
                                     console.log("wykonuje się");
                                     funkcjaWywolana = true;
                                 }
@@ -4841,7 +5148,7 @@ ${sentence30}${sentence33}<br>
 // Tworzenie przycisku "Stop"
                                 if (!stopButtonAdded) {
                                     const $stopButton = $('<img>')
-                                            .attr('src', 'http://arbu-1dcc9.web.app/img/stopok2.png')
+                                            .attr('src', 'https://www.arbulang.com/img/stopok2.png')
                                             .css({
                                                 'display': 'none', // Ukryty na starcie
                                                 'position': 'absolute', // Precyzyjne pozycjonowanie względem kontenera
@@ -4859,11 +5166,11 @@ ${sentence30}${sentence33}<br>
                                                     if (!video.paused) {
                                                         video.pause();
                                                         // Zmień obrazek na "Play"
-                                                        $stopButton.attr('src', 'http://arbu-1dcc9.web.app/img/play.png');
+                                                        $stopButton.attr('src', 'https://www.arbulang.com/img/play.png');
                                                     } else {
                                                         video.play();
                                                         // Zmień obrazek z powrotem na "Stop"
-                                                        $stopButton.attr('src', 'http://arbu-1dcc9.web.app/img/stopok2.png');
+                                                        $stopButton.attr('src', 'https://www.arbulang.com/img/stopok2.png');
                                                     }
                                                 });
                                             });
@@ -4886,13 +5193,13 @@ ${sentence30}${sentence33}<br>
                             }
                             setTimeout(function () {
                                 addVideo1(0);
-                            }, 0);
+                            }, 200);
                         } else if (indexDiv === 1 || indexDiv === 11 || indexDiv === 13 || indexDiv === 17 || indexDiv === 19 || indexDiv === 23 || indexDiv === 29 || indexDiv === 31 || indexDiv === 37 || indexDiv === 41 || indexDiv === 43 || indexDiv % 3 === 0 || indexDiv % 5 === 0 || indexDiv % 7 === 0) {
                             function addVideo1b(index) {
                                 console.log('hej80', index);
                                 // Sprawdź, czy jesteśmy poza zakresem tablicy
                                 if (index >= srcWords.length && !funkcjaWywolana) {
-                                    przekazArgument0(tablica3[2], undefined, false, tablica3[0], true, true, tablica3[1], tablica3[4]);
+                                    przekazArgument0(tablica3[2], undefined, false, tablica3[0], true, true, tablica3[1], tablica3[4], false, '', '', '', '');
                                     console.log("wykonuje się");
                                     funkcjaWywolana = true;
                                 }
@@ -5055,7 +5362,7 @@ ${sentence30}${sentence33}<br>
 // Tworzenie przycisku "Stop"
                                 if (!stopButtonAdded) {
                                     const $stopButton = $('<img>')
-                                            .attr('src', 'http://arbu-1dcc9.web.app/img/stopok2.png')
+                                            .attr('src', 'https://www.arbulang.com/img/stopok2.png')
                                             .css({
                                                 'display': 'none', // Ukryty na starcie
                                                 'position': 'absolute', // Precyzyjne pozycjonowanie względem kontenera
@@ -5073,11 +5380,11 @@ ${sentence30}${sentence33}<br>
                                                     if (!video.paused) {
                                                         video.pause();
                                                         // Zmień obrazek na "Play"
-                                                        $stopButton.attr('src', 'http://arbu-1dcc9.web.app/img/play.png');
+                                                        $stopButton.attr('src', 'https://www.arbulang.com/img/play.png');
                                                     } else {
                                                         video.play();
                                                         // Zmień obrazek z powrotem na "Stop"
-                                                        $stopButton.attr('src', 'http://arbu-1dcc9.web.app/img/stopok2.png');
+                                                        $stopButton.attr('src', 'https://www.arbulang.com/img/stopok2.png');
                                                     }
                                                 });
                                             });
@@ -5100,9 +5407,9 @@ ${sentence30}${sentence33}<br>
                             }
                             setTimeout(function () {
                                 addVideo1b(0);
-                            }, 0);
+                            }, 200);
                         }
-                    } else if (index50 === 0 && buttonindex) {
+                    } else if (index50 === 0 && buttonindex && !isSearching) {
                         let stopButtonAdded = false;
                         console.log('hej3338', newIndex);
                         let funkcjaWywolana = false;
@@ -5115,7 +5422,7 @@ ${sentence30}${sentence33}<br>
                                     setTimeout(function () {
                                         $('.progress-bar').remove();
                                     }, 200); // Opóźnienie w milisekundach (tu: 200 ms)
-                                    przekazArgument0(tablica3[2], undefined, false, tablica3[0], true, true, tablica3[1], tablica3[4]);
+                                    przekazArgument0(tablica3[2], undefined, false, tablica3[0], true, true, tablica3[1], tablica3[4], false, '', '', '', '');
                                     console.log("wykonuje się");
                                     funkcjaWywolana = true;
                                 }
@@ -5289,7 +5596,7 @@ ${sentence30}${sentence33}<br>
 // Tworzenie przycisku "Stop"
                                 if (!stopButtonAdded) {
                                     const $stopButton = $('<img>')
-                                            .attr('src', 'http://arbu-1dcc9.web.app/img/stopok2.png')
+                                            .attr('src', 'https://www.arbulang.com/img/stopok2.png')
                                             .css({
                                                 'display': 'none', // Ukryty na starcie
                                                 'position': 'absolute', // Precyzyjne pozycjonowanie względem kontenera
@@ -5307,11 +5614,11 @@ ${sentence30}${sentence33}<br>
                                                     if (!video.paused) {
                                                         video.pause();
                                                         // Zmień obrazek na "Play"
-                                                        $stopButton.attr('src', 'http://arbu-1dcc9.web.app/img/play.png');
+                                                        $stopButton.attr('src', 'https://www.arbulang.com/img/play.png');
                                                     } else {
                                                         video.play();
                                                         // Zmień obrazek z powrotem na "Stop"
-                                                        $stopButton.attr('src', 'http://arbu-1dcc9.web.app/img/stopok2.png');
+                                                        $stopButton.attr('src', 'https://www.arbulang.com/img/stopok2.png');
                                                     }
                                                 });
                                             });
@@ -5332,8 +5639,9 @@ ${sentence30}${sentence33}<br>
                                     stopButtonAdded = true;  // Flaga ustawiona na true, gdy przycisk został dodany
                                 }
                             }
-
-                            addVideo2(0);
+                            setTimeout(function () {
+                                addVideo2(0);
+                            }, 700);
                         } else if (indexDiv === 1 || indexDiv === 11 || indexDiv === 13 || indexDiv === 17 || indexDiv === 19 || indexDiv === 23 || indexDiv === 29 || indexDiv === 31 || indexDiv === 37 || indexDiv === 41 || indexDiv === 43 || indexDiv % 3 === 0 || indexDiv % 5 === 0 || indexDiv % 7 === 0) {
                             function addVideo2b(index) {
                                 console.log('hej80', index);
@@ -5343,7 +5651,7 @@ ${sentence30}${sentence33}<br>
                                     setTimeout(function () {
                                         $('.progress-bar').remove();
                                     }, 200); // Opóźnienie w milisekundach (tu: 200 ms)
-                                    przekazArgument0(tablica3[2], undefined, false, tablica3[0], true, true, tablica3[1], tablica3[4]);
+                                    przekazArgument0(tablica3[2], undefined, false, tablica3[0], true, true, tablica3[1], tablica3[4], false, '', '', '', '');
                                     console.log("wykonuje się");
                                     funkcjaWywolana = true;
                                 }
@@ -5517,7 +5825,7 @@ ${sentence30}${sentence33}<br>
 // Tworzenie przycisku "Stop"
                                 if (!stopButtonAdded) {
                                     const $stopButton = $('<img>')
-                                            .attr('src', 'http://arbu-1dcc9.web.app/img/stopok2.png')
+                                            .attr('src', 'https://www.arbulang.com/img/stopok2.png')
                                             .css({
                                                 'display': 'none', // Ukryty na starcie
                                                 'position': 'absolute', // Precyzyjne pozycjonowanie względem kontenera
@@ -5535,11 +5843,11 @@ ${sentence30}${sentence33}<br>
                                                     if (!video.paused) {
                                                         video.pause();
                                                         // Zmień obrazek na "Play"
-                                                        $stopButton.attr('src', 'http://arbu-1dcc9.web.app/img/play.png');
+                                                        $stopButton.attr('src', 'https://www.arbulang.com/img/play.png');
                                                     } else {
                                                         video.play();
                                                         // Zmień obrazek z powrotem na "Stop"
-                                                        $stopButton.attr('src', 'http://arbu-1dcc9.web.app/img/stopok2.png');
+                                                        $stopButton.attr('src', 'https://www.arbulang.com/img/stopok2.png');
                                                     }
                                                 });
                                             });
@@ -5560,7 +5868,9 @@ ${sentence30}${sentence33}<br>
                                     stopButtonAdded = true;  // Flaga ustawiona na true, gdy przycisk został dodany
                                 }
                             }
-                            addVideo2b(0);
+                            setTimeout(function () {
+                                addVideo2b(0);
+                            }, 700);
                         }
                     } else {
                         function addVideo3(index) {
@@ -5589,69 +5899,79 @@ ${sentence30}${sentence33}<br>
                             
 srcWordsb.forEach((src, idx) => {
     // Miniatura
-    const $thumbnail = $('<img>').attr({
-        src: src,
-        class: `thumbnail-${idx + 1}` // Klasa z idx+1
-    }).css({
-        width: '100%', // Miniatura zajmuje całą szerokość wrappera
-        cursor: 'pointer',
-        border: '2px solid white',
-        borderRadius: '5px',
-        boxShadow: '0px 2px 4px rgba(0, 0, 0, 0.3)',
-    });
+const $thumbnail = $('<img>').attr({
+    src: src,
+    class: `thumbnail-${idx + 1}`
+}).css({
+    width: 'calc(100% - 4px)', // Odejmujemy szerokość ramki (2px z każdej strony)
+    cursor: 'pointer',
+    border: '2px solid white',
+    borderRadius: '5px',
+    boxShadow: '0px 2px 4px rgba(0, 0, 0, 0.3)',
+    display: 'block' // Zapobiega pustym marginesom obrazka
+});
     
 
-    const $icons = $('<div></div>').addClass('overlay-icons').css({
-        position: 'absolute',
-        top: '50%',
-        left: '50%',
-        transform: 'translate(-50%, -50%)',
-        display: 'flex', // Upewnij się, że flex działa
-        flexDirection: 'row', // Zmiana z 'column' na 'row'
-        alignItems: 'center',
-        gap: '10px',
-        zIndex: 2,
-        display: 'none' // domyślnie ukryte
-    });
-
+const $icons = $('<div></div>').addClass('overlay-icons').css({
+    position: 'absolute',
+    top: '50%',
+    left: '50%',
+    transform: 'translate(-50%, -50%)',
+    display: 'flex', // Flexbox dla ułożenia ikon w linii
+    flexDirection: 'row', // Ułożenie ikon w poziomie
+    alignItems: 'center', // Centrowanie ikon w pionie
+    gap: '10px', // Odstęp między ikonami
+    zIndex: 2,  // Zwiększamy zIndex, aby ikony były nad miniaturą, ale nie zasłaniały obramowania
+    pointerEvents: 'auto' // Zmiana na auto, aby ikony były klikalne, jeśli potrzebujesz
+});
     // Ikony
     // Ikona speaker
-    const $speakerIcon = $('<img>')
-      .attr({
-        src: 'http://arbu-1dcc9.web.app/img/play.png',
-        alt: 'Głośnik'
-      })
-      .css({
-        width: '20px',
-        height: '20px',
-        cursor: 'pointer'
-      })
-      .on('click', function(e) {
-        e.stopPropagation(); // Nie wywołujemy kliknięcia wrappera
-        $videoElement.attr('poster', src);
-        $videoElement[0].load();
-        console.log('Kliknięto speakerIcon dla idx:', idx);
-        setTimeout(function () {
-          addVideo2bd(idx);
-        }, 200);
-      });
-      $speakerIcon.on('click', function(e) {
+const $speakerIcon = $('<img>')
+  .attr({
+    src: 'https://www.arbulang.com/img/play.png',
+    alt: 'Głośnik'
+  })
+  .css({
+    width: '18px',
+    height: '18px',
+    cursor: 'pointer'
+  })
+  .on('click', function(e) {
     e.stopPropagation(); // Zapobiegamy propagacji kliknięcia
+    
+    // Ustawienie plakatu dla wideo
     $videoElement.attr('poster', src);
     $videoElement[0].load();
+    
     console.log('Kliknięto speakerIcon dla idx:', idx);
 
-    // Usuwamy wszystkie miniatury, które NIE mają klasy odpowiadającej klikniętemu indeksowi
-    $thumbnailContainer.find('img').filter(function() {
-        return !$(this).hasClass(`thumbnail-${idx + 1}`);
-    }).remove();
+    // Usuwamy wszystkie miniatury, które NIE są klikniętą miniaturą
+    $thumbnailContainer.find('img').not(`.thumbnail-${idx + 1}`).remove();
+
+    // Znalezienie klikniętej miniatury i usunięcie samego obrazka
+    const $clickedThumbnail = $thumbnailContainer.find(`.thumbnail-${idx + 1}`);
+    
+    // Tworzymy pusty div zamiast obrazka, aby ramka pozostała
+    const $emptyFrame = $('<div></div>')
+      .css({
+        width: $clickedThumbnail.width(),  // Szerokość taka sama jak miniatura
+        height: $clickedThumbnail.height(), // Wysokość taka sama jak miniatura
+        border: '2px solid white', // Ramka taka sama jak wcześniej
+        borderRadius: '5px',
+        boxShadow: '0px 2px 4px rgba(0, 0, 0, 0.3)',
+        backgroundColor: 'transparent', // Upewniamy się, że tło jest przezroczyste
+        display: 'block' // Zapobiega pustym marginesom obrazka
+      });
+
+    // Zamieniamy obrazek na pusty div
+    $clickedThumbnail.replaceWith($emptyFrame);
 
     setTimeout(function () {
       addVideo2bd(idx);
     }, 200);
 });
     const $playIcon = $('<img>').attr({
-        src: 'http://localhost/arbulanguage.com/img/music2.png', // Ikona play
+        src: 'https://www.arbulang.com/img/music2.png', // Ikona play
         alt: 'Play'
     }).css({
         width: '20px',
@@ -6000,7 +6320,7 @@ srcWordsb.forEach((src, idx) => {
 // Tworzenie przycisku "Stop"
                                     if (!stopButtonAdded) {
                                         const $stopButton = $('<img>')
-                                                .attr('src', 'http://arbu-1dcc9.web.app/img/stopok2.png')
+                                                .attr('src', 'https://www.arbulang.com/img/stopok2.png')
                                                 .css({
                                                     'display': 'none', // Ukryty na starcie
                                                     'position': 'absolute', // Precyzyjne pozycjonowanie względem kontenera
@@ -6018,11 +6338,11 @@ srcWordsb.forEach((src, idx) => {
                                                         if (!video.paused) {
                                                             video.pause();
                                                             // Zmień obrazek na "Play"
-                                                            $stopButton.attr('src', 'http://arbu-1dcc9.web.app/img/play.png');
+                                                            $stopButton.attr('src', 'https://www.arbulang.com/img/play.png');
                                                         } else {
                                                             video.play();
                                                             // Zmień obrazek z powrotem na "Stop"
-                                                            $stopButton.attr('src', 'http://arbu-1dcc9.web.app/img/stopok2.png');
+                                                            $stopButton.attr('src', 'https://www.arbulang.com/img/stopok2.png');
                                                         }
                                                     });
                                                 });
@@ -6050,7 +6370,7 @@ srcWordsb.forEach((src, idx) => {
 
                             // Tworzymy przycisk w overlay
                             const $buttonb = $('<img>').attr({
-                                'src': 'http://arbu-1dcc9.web.app/img/startsystem.png',
+                                'src': 'https://www.arbulang.com/img/startsystem.png',
                                 'class': 'overlay-button'
                             });
 if (window.matchMedia("(max-width: 999px)").matches) {
@@ -6163,7 +6483,7 @@ if (window.matchMedia("(max-width: 999px)").matches) {
                         }
                         setTimeout(function () {
                             addVideo3(0);
-                        }, 300);
+                        }, 1000);
                     }
 
                     // Stwórz przycisk za pomocą jQuery
@@ -6195,7 +6515,7 @@ ${sentence30}${sentence33}<br>
                         $sentenceDiv.addClass('sentence'); // Dodanie klasy 'sentence'
                         $sentenceDiv.html(`
 <button class="left-button first-button">+<br></button>
-${sentence10}${sentence12}${sentence11}<br>
+${sentence10}${sentence11}<br>
 <div class="sentence1bba">${sentence1bba}</div>
 <div class="sentence1bba">${sentence1bbab}</div>
 <button class="left-buttonb second-button">+<br></button>
@@ -6227,7 +6547,7 @@ ${sentence30}${sentence33}<br>
 
                         setTimeout(() => {
                             console.log('Kliknięto przycisk o indeksie:', index55);
-                            przekazArgument0(tablica3[2], index55, true, tablica3[0], true, true, tablica3[1], tablica3[4]);
+                            przekazArgument0(tablica3[2], undefined, false, tablica3[0], true, true, tablica3[1], tablica3[4], false, '', '', '', '');
                         }, 100);
                         // Usunięcie kontenera po wstawieniu nowego
                     });
@@ -6350,9 +6670,18 @@ ${sentence30}${sentence33}<br>
                                 // Bezpośrednio przekierowujemy użytkownika do strony
                                 window.location.href = 'demo16angielski.html?category=' + encodeURIComponent(globalCategory);
                             }
+                                                                                                                                            if (index55b2 === 17) {
+                                // Bezpośrednio przekierowujemy użytkownika do strony
+                                window.location.href = 'demo17angielski.html?category=' + encodeURIComponent(globalCategory);
+                            }
+                                                if (index55b2 === 18) {
+                                // Bezpośrednio przekierowujemy użytkownika do strony
+                                window.location.href = 'demo18angielski.html?category=' + encodeURIComponent(globalCategory);
+                            }
                         }, 1000);
                         // Usunięcie kontenera po wstawieniu nowego
                     });
+
                     $container.append($buttonb2);
                     // Dodanie diva z zdaniem do kontenera
                     $container.append($sentenceDiv);
@@ -6884,7 +7213,7 @@ ${sentence10}${sentence11}<br>
                             // Tworzenie przycisku "Stop"
                             if (!stopButtonAdded) {
                                 const $stopButton = $('<img>')
-                                        .attr('src', 'http://arbu-1dcc9.web.app/img/stopok2.png')
+                                        .attr('src', 'https://www.arbulang.com/img/stopok2.png')
                                         .css({
                                             'display': 'none', // Ukryty na starcie
                                             'position': 'absolute', // Precyzyjne pozycjonowanie względem kontenera
@@ -6902,11 +7231,11 @@ ${sentence10}${sentence11}<br>
                                                 if (!video.paused) {
                                                     video.pause();
                                                     // Zmień obrazek na "Play"
-                                                    $stopButton.attr('src', 'http://arbu-1dcc9.web.app/img/play.png');
+                                                    $stopButton.attr('src', 'https://www.arbulang.com/img/play.png');
                                                 } else {
                                                     video.play();
                                                     // Zmień obrazek z powrotem na "Stop"
-                                                    $stopButton.attr('src', 'http://arbu-1dcc9.web.app/img/stopok2.png');
+                                                    $stopButton.attr('src', 'https://www.arbulang.com/img/stopok2.png');
                                                 }
                                             });
                                         });
@@ -7080,7 +7409,7 @@ ${sentence10}${sentence11}<br>
                             // Tworzenie przycisku "Stop"
                             if (!stopButtonAdded) {
                                 const $stopButton = $('<img>')
-                                        .attr('src', 'http://arbu-1dcc9.web.app/img/stopok2.png')
+                                        .attr('src', 'https://www.arbulang.com/img/stopok2.png')
                                         .css({
                                             'display': 'none', // Ukryty na starcie
                                             'position': 'absolute', // Precyzyjne pozycjonowanie względem kontenera
@@ -7098,11 +7427,11 @@ ${sentence10}${sentence11}<br>
                                                 if (!video.paused) {
                                                     video.pause();
                                                     // Zmień obrazek na "Play"
-                                                    $stopButton.attr('src', 'http://arbu-1dcc9.web.app/img/play.png');
+                                                    $stopButton.attr('src', 'https://www.arbulang.com/img/play.png');
                                                 } else {
                                                     video.play();
                                                     // Zmień obrazek z powrotem na "Stop"
-                                                    $stopButton.attr('src', 'http://arbu-1dcc9.web.app/img/stopok2.png');
+                                                    $stopButton.attr('src', 'https://www.arbulang.com/img/stopok2.png');
                                                 }
                                             });
                                         });
@@ -7140,7 +7469,7 @@ ${sentence10}${sentence11}<br>
                             // Utwórz element <div> dla nakładki
                             const $overlay = $('<div>').addClass('overlay');
                             const $buttonb = $('<img>').attr({
-                                'src': 'http://arbu-1dcc9.web.app/img/startsystem.png', // Względna ścieżka do pliku PNG
+                                'src': 'https://www.arbulang.com/img/startsystem.png', // Względna ścieżka do pliku PNG
                                 'class': 'overlay-button' // Klasa dla stylów CSS
                             });
                             if (window.matchMedia("(max-width: 999px)").matches) {
@@ -8431,6 +8760,22 @@ if (currentFiszkaIndex === 0) {
                                 // Bezpośrednio przekierowujemy użytkownika do strony
                                 window.location.href = 'demo48angielskib.html?category=' + encodeURIComponent(globalCategory);
                             }
+                                                                                                                if (index55b2 === 49) {
+                                // Bezpośrednio przekierowujemy użytkownika do strony
+                                window.location.href = 'demo49angielskib.html?category=' + encodeURIComponent(globalCategory);
+                            }
+                            if (index55b2 === 50) {
+                                // Bezpośrednio przekierowujemy użytkownika do strony
+                                window.location.href = 'demo50angielskib.html?category=' + encodeURIComponent(globalCategory);
+                            }
+                            if (index55b2 === 51) {
+                                // Bezpośrednio przekierowujemy użytkownika do strony
+                                window.location.href = 'demo51angielskib.html?category=' + encodeURIComponent(globalCategory);
+                            }
+                                                        if (index55b2 === 52) {
+                                // Bezpośrednio przekierowujemy użytkownika do strony
+                                window.location.href = 'demo52angielskib.html?category=' + encodeURIComponent(globalCategory);
+                            }
                         }, 1000);
                         // Usunięcie kontenera po wstawieniu nowego
                     });
@@ -8960,7 +9305,7 @@ ${sentence10}<br>
                             // Utwórz element <div> dla nakładki
                             const $overlay = $('<div>').addClass('overlay');
                             const $buttonb = $('<img>').attr({
-                                'src': 'http://arbu-1dcc9.web.app/img/startsystem.png', // Względna ścieżka do pliku PNG
+                                'src': 'https://www.arbulang.com/img/startsystem.png', // Względna ścieżka do pliku PNG
                                 'class': 'overlay-button' // Klasa dla stylów CSS
                             }).css({
                                 'position': 'absolute',

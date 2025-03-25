@@ -6,17 +6,17 @@ id: [
 ],
         // obrazek
         img: [
-                "http://arbu-1dcc9.web.app/img/fiszkiespanol/1a.jpg",
-                "http://arbu-1dcc9.web.app/img/fiszkiespanol/1b.jpg",
-                "http://arbu-1dcc9.web.app/img/fiszkiespanol/1c.jpg",
-                "http://arbu-1dcc9.web.app/img/fiszkiespanol/1d.jpg"
+                "https://www.arbulang.com/img/fiszkiespanol/1a.jpg",
+                "https://www.arbulang.com/img/fiszkiespanol/1b.jpg",
+                "https://www.arbulang.com/img/fiszkiespanol/1c.jpg",
+                "https://www.arbulang.com/img/fiszkiespanol/1d.jpg"
         ],
         translate: "Rysować kwiat w zeszycie",
         translateb: "[Dibuhar una flor en el kuaderno]",
-        srcWord: ["http://arbu-1dcc9.web.app/filmy/esp/drawing.mp4", 'Titanic'],
-        srcWordimage: "http://arbu-1dcc9.web.app/filmy/esp/drawing.png",
+        srcWord: ["https://www.arbulang.com/filmy/esp/drawing.mp4", 'Titanic'],
+        srcWordimage: "https://www.arbulang.com/filmy/esp/drawing.png",
         word: [
-                "http://arbu-1dcc9.web.app/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // historia
         story: [
@@ -55,10 +55,10 @@ id: [
 ],
         // obrazek
         img: [
-            "http://arbu-1dcc9.web.app/img/fiszkiespanol/2a.jpg"
+            "https://www.arbulang.com/img/fiszkiespanol/2a.jpg"
         ],
         word: [
-                "http://arbu-1dcc9.web.app/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // historia
         story: [
@@ -85,10 +85,10 @@ id: [
 ],
         // obrazek
         img: [
-                "http://arbu-1dcc9.web.app/img/fiszkiespanol/3a.jpg"
+                "https://www.arbulang.com/img/fiszkiespanol/3a.jpg"
         ],
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/arbulanguage.com/voice/music.mp4"
         ],
         // historia
         story: [
@@ -118,10 +118,10 @@ id: [
 ],
         // obrazek
         img: [
-                "http://arbu-1dcc9.web.app/img/fiszkiespanol/4a.jpg"
+                "https://www.arbulang.com/img/fiszkiespanol/4a.jpg"
         ],
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // historia
         story: [
@@ -151,14 +151,14 @@ id: [
 ],
         // obrazek
         img: [
-                "http://arbu-1dcc9.web.app/img/fiszkiespanol/5a.jpg"
+                "https://www.arbulang.com/img/fiszkiespanol/5a.jpg"
         ],
         translate: "Czekać samemu w domu",
-        translateb: "[Esperar solo dentro de la casa]",
-        srcWord: ["http://arbu-1dcc9.web.app/filmy/esp/home.mp4", 'Mechanik. Konfrontacja'],
-        srcWordimage: "http://arbu-1dcc9.web.app/filmy/esp/home.png",
+        translateb: "[Esperar solo dentro de la kasa]",
+        srcWord: ["https://www.arbulang.com/filmy/esp/home.mp4", 'Mechanik. Konfrontacja'],
+        srcWordimage: "https://www.arbulang.com/filmy/esp/home.png",
         word: [
-                "http://arbu-1dcc9.web.app/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // historia
         story: [
@@ -189,10 +189,10 @@ id: [
 ],
         // obrazek
         img: [
-                "http://arbu-1dcc9.web.app/img/fiszkiespanol/6a.jpg"
+                "https://www.arbulang.com/img/fiszkiespanol/6a.jpg"
         ],
         word: [
-                "http://arbu-1dcc9.web.app/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // historia
         story: [
@@ -224,12 +224,12 @@ id: [
         img: [
                 "",
                 "",
-                "http://arbu-1dcc9.web.app/img/fiszkiespanol/7a.jpg",
+                "https://www.arbulang.com/img/fiszkiespanol/7a.jpg",
                 "",
                 ""
         ],
         word: [
-                "http://arbu-1dcc9.web.app/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // historia
         story: [
@@ -259,10 +259,10 @@ id: [
 ],
         // obrazek
         img: [
-                "http://arbu-1dcc9.web.app/fiszkiespanol/8a.jpg"
+                "https://www.arbulang.com/fiszkiespanol/8a.jpg"
         ],
         word: [
-                "http://arbu-1dcc9.web.app/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // historia
         story: [
@@ -292,14 +292,14 @@ id: [
 ],
         // obrazek
         img: [
-                "http://arbu-1dcc9.web.app/img/fiszkiespanol/9a.jpg"
+                "https://www.arbulang.com/img/fiszkiespanol/9a.jpg"
         ],
         translate: "Rozmawiać bez napięcia, idąc razem",
         translateb: "[Ablar sin tensión mientras kaminamos huntos]",
-        srcWord: ["http://arbu-1dcc9.web.app/filmy/esp/conversation.mp4", 'Incepcja'],
-        srcWordimage: "http://arbu-1dcc9.web.app/filmy/esp/conversation.png",
+        srcWord: ["https://www.arbulang.com/filmy/esp/conversation.mp4", 'Incepcja'],
+        srcWordimage: "https://www.arbulang.com/filmy/esp/conversation.png",
         word: [
-                "http://arbu-1dcc9.web.app/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // historia
         story: [
@@ -331,10 +331,10 @@ id: [
 ],
         // obrazek
         img: [
-                "http://arbu-1dcc9.web.app/img/fiszkiespanol/10a.jpg"
+                "https://www.arbulang.com/img/fiszkiespanol/10a.jpg"
         ],
         word: [
-                "http://arbu-1dcc9.web.app/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // historia
         story: [
@@ -365,10 +365,10 @@ id: [
 ],
         // obrazek
         img: [
-                "http://arbu-1dcc9.web.app/img/fiszkiespanol/11a.jpg"
+                "https://www.arbulang.com/img/fiszkiespanol/11a.jpg"
         ],
         word: [
-                "http://arbu-1dcc9.web.app/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // historia
         story: [
@@ -399,10 +399,10 @@ id: [
 ],
         // obrazek
         img: [
-                "http://arbu-1dcc9.web.app/img/fiszkiespanol/12a.jpg"
+                "https://www.arbulang.com/img/fiszkiespanol/12a.jpg"
         ],
         word: [
-                "http://arbu-1dcc9.web.app/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // historia
         story: [
@@ -433,10 +433,10 @@ id: [
 ],
         // obrazek
         img: [
-                "http://arbu-1dcc9.web.app/img/fiszkiespanol/13a.jpg"
+                "https://www.arbulang.com/img/fiszkiespanol/13a.jpg"
         ],
         word: [
-                "http://arbu-1dcc9.web.app/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // historia
         story: [
@@ -467,10 +467,10 @@ id: [
 ],
         // obrazek
         img: [
-                "http://arbu-1dcc9.web.app/img/fiszkiespanol/14a.jpg"
+                "https://www.arbulang.com/img/fiszkiespanol/14a.jpg"
         ],
         word: [
-                "http://arbu-1dcc9.web.app/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // historia
         story: [
@@ -501,14 +501,14 @@ id: [
 ],
         // obrazek
         img: [
-                "http://arbu-1dcc9.web.app/img/fiszkiespanol/15a.jpg"
+                "https://www.arbulang.com/img/fiszkiespanol/15a.jpg"
         ],
         translate: "Przerywać ciszę pięknymi słowami",
         translateb: "[Romper el silensio kon palawras bonitas]",
-        srcWord: ["http://arbu-1dcc9.web.app/filmy/esp/beautiful-words.mp4", '300'],
-        srcWordimage: "http://arbu-1dcc9.web.app/filmy/esp/beautiful-words.png",
+        srcWord: ["https://www.arbulang.com/filmy/esp/beautiful-words.mp4", '300'],
+        srcWordimage: "https://www.arbulang.com/filmy/esp/beautiful-words.png",
         word: [
-                "http://arbu-1dcc9.web.app/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // historia
         story: [
@@ -540,10 +540,10 @@ id: [
 ],
         // obrazek
         img: [
-                "http://arbu-1dcc9.web.app/img/fiszkiespanol/16a.jpg"
+                "https://www.arbulang.com/img/fiszkiespanol/16a.jpg"
         ],
         word: [
-                "http://arbu-1dcc9.web.app/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // historia
         story: [
@@ -574,10 +574,10 @@ id: [
 ],
         // obrazek
         img: [
-                "http://arbu-1dcc9.web.app/img/fiszkiespanol/17a.jpg"
+                "https://www.arbulang.com/img/fiszkiespanol/17a.jpg"
         ],
         word: [
-                "http://arbu-1dcc9.web.app/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // historia
         story: [
@@ -608,10 +608,10 @@ id: [
 ],
         // obrazek
         img: [
-                "http://arbu-1dcc9.web.app/img/fiszkiespanol/18a.jpg"
+                "https://www.arbulang.com/img/fiszkiespanol/18a.jpg"
         ],
         word: [
-                "http://arbu-1dcc9.web.app/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // historia
         story: [
@@ -641,10 +641,10 @@ id: [
 ],
         // obrazek
         img: [
-                "http://arbu-1dcc9.web.app/img/fiszkiespanol/19a.jpg"
+                "https://www.arbulang.com/img/fiszkiespanol/19a.jpg"
         ],
         word: [
-                "http://arbu-1dcc9.web.app/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // historia
         story: [
@@ -674,14 +674,14 @@ id: [
 ],
         // obrazek
         img: [
-                "http://arbu-1dcc9.web.app/img/fiszkiespanol/20a.jpg"
+                "https://www.arbulang.com/img/fiszkiespanol/20a.jpg"
         ],
         translate: "Zabezpieczać drzwi przed snem",
         translateb: "[Asegurar las puertas antes de dormir]",
-        srcWord: ["http://arbu-1dcc9.web.app/filmy/esp/door.mp4", 'The Matrix Reloaded'],
-        srcWordimage: "http://arbu-1dcc9.web.app/filmy/esp/door.png",
+        srcWord: ["https://www.arbulang.com/filmy/esp/door.mp4", 'The Matrix Reloaded'],
+        srcWordimage: "https://www.arbulang.com/filmy/esp/door.png",
         word: [
-                "http://arbu-1dcc9.web.app/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // historia
         story: [
@@ -712,10 +712,10 @@ id: [
 ],
         // obrazek
         img: [
-                "http://arbu-1dcc9.web.app/img/fiszkiespanol/21a.jpg"
+                "https://www.arbulang.com/img/fiszkiespanol/21a.jpg"
         ],
         word: [
-                "http://arbu-1dcc9.web.app/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // historia
         story: [
@@ -745,10 +745,10 @@ id: [
 ],
         // obrazek
         img: [
-                "http://arbu-1dcc9.web.app/img/fiszkiespanol/22a.jpg"
+                "https://www.arbulang.com/img/fiszkiespanol/22a.jpg"
         ],
         word: [
-                "http://arbu-1dcc9.web.app/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // historia
         story: [
@@ -778,10 +778,10 @@ id: [
 ],
         // obrazek
         img: [
-                "http://arbu-1dcc9.web.app/img/fiszkiespanol/23a.jpg"
+                "https://www.arbulang.com/img/fiszkiespanol/23a.jpg"
         ],
         word: [
-                "http://arbu-1dcc9.web.app/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // historia
         story: [
@@ -811,14 +811,14 @@ id: [
 ],
         // obrazek
         img: [
-                "http://arbu-1dcc9.web.app/img/fiszkiespanol/24a.jpg"
+                "https://www.arbulang.com/img/fiszkiespanol/24a.jpg"
         ],
         translate: "Zachować spokój i cieszyć się razem",
         translateb: "[Mantener la kalma i disfrutar huntos]",
-        srcWord: ["http://arbu-1dcc9.web.app/filmy/esp/smiling.mp4", '300'],
-        srcWordimage: "http://arbu-1dcc9.web.app/filmy/esp/smiling.png",
+        srcWord: ["https://www.arbulang.com/filmy/esp/smiling.mp4", '300'],
+        srcWordimage: "https://www.arbulang.com/filmy/esp/smiling.png",
         word: [
-                "http://arbu-1dcc9.web.app/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // historia
         story: [
@@ -849,10 +849,10 @@ id: [
 ],
         // obrazek
         img: [
-                "http://arbu-1dcc9.web.app/img/fiszkiespanol/25a.jpg"
+                "https://www.arbulang.com/img/fiszkiespanol/25a.jpg"
         ],
         word: [
-                "http://arbu-1dcc9.web.app/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // historia
         story: [
@@ -882,10 +882,10 @@ id: [
 ],
         // obrazek
         img: [
-                "http://arbu-1dcc9.web.app/img/fiszkiespanol/26a.jpg"
+                "https://www.arbulang.com/img/fiszkiespanol/26a.jpg"
         ],
         word: [
-                "http://arbu-1dcc9.web.app/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // historia
         story: [
@@ -916,10 +916,10 @@ id: [
 ],
         // obrazek
         img: [
-                "http://arbu-1dcc9.web.app/img/fiszkiespanol/27a.jpg"
+                "https://www.arbulang.com/img/fiszkiespanol/27a.jpg"
         ],
         word: [
-                "http://arbu-1dcc9.web.app/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // historia
         story: [
@@ -950,10 +950,10 @@ id: [
 ],
         // obrazek
         img: [
-                "http://arbu-1dcc9.web.app/img/fiszkiespanol/14a.jpg"
+                "https://www.arbulang.com/img/fiszkiespanol/14a.jpg"
         ],
         word: [
-                "http://arbu-1dcc9.web.app/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // historia
         story: [
@@ -984,14 +984,14 @@ id: [
 ],
         // obrazek
         img: [
-                "http://arbu-1dcc9.web.app/img/fiszkiespanol/29a.jpg"
+                "https://www.arbulang.com/img/fiszkiespanol/29a.jpg"
         ],
         translate: "Osiągać marzenia przez wysiłek i poświęcenie",
         translateb: "[Lograr sueños con esfuerzo y dedicación]",
-        srcWord: ["http://arbu-1dcc9.web.app/filmy/esp/dreams.mp4", 'Pain And Gain'],
-        srcWordimage: "http://arbu-1dcc9.web.app/filmy/esp/dreams.png",
+        srcWord: ["https://www.arbulang.com/filmy/esp/dreams.mp4", 'Pain And Gain'],
+        srcWordimage: "https://www.arbulang.com/filmy/esp/dreams.png",
         word: [
-                "http://arbu-1dcc9.web.app/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // historia
         story: [
@@ -1023,10 +1023,10 @@ id: [
 ],
         // obrazek
         img: [
-                "http://arbu-1dcc9.web.app/img/fiszkiespanol/30a.jpg"
+                "https://www.arbulang.com/img/fiszkiespanol/30a.jpg"
         ],
         word: [
-                "http://arbu-1dcc9.web.app/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // historia
         story: [
@@ -1057,11 +1057,11 @@ id: [
 ],
         // obrazek
         img: [
-            "http://arbu-1dcc9.web.app/img/fiszkiespanol/17a.jpg",
-                "http://arbu-1dcc9.web.app/img/fiszkiespanol/31a.jpg"
+            "https://www.arbulang.com/img/fiszkiespanol/17a.jpg",
+                "https://www.arbulang.com/img/fiszkiespanol/31a.jpg"
         ],
         word: [
-                "http://arbu-1dcc9.web.app/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // historia
         story: [
@@ -1093,10 +1093,10 @@ id: [
 ],
         // obrazek
         img: [
-                "http://arbu-1dcc9.web.app/img/fiszkiespanol/32a.jpg"
+                "https://www.arbulang.com/img/fiszkiespanol/32a.jpg"
         ],
         word: [
-                "http://arbu-1dcc9.web.app/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // historia
         story: [
@@ -1127,10 +1127,10 @@ id: [
 ],
         // obrazek
         img: [
-                "http://arbu-1dcc9.web.app/img/fiszkiespanol/26a.jpg"
+                "https://www.arbulang.com/img/fiszkiespanol/26a.jpg"
         ],
         word: [
-                "http://arbu-1dcc9.web.app/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // historia
         story: [
@@ -1161,10 +1161,10 @@ id: [
 ],
         // obrazek
         img: [
-                "http://arbu-1dcc9.web.app/img/fiszkiespanol/34a.jpg"
+                "https://www.arbulang.com/img/fiszkiespanol/34a.jpg"
         ],
         word: [
-                "http://arbu-1dcc9.web.app/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // historia
         story: [
@@ -1195,14 +1195,14 @@ id: [
 ],
         // obrazek
         img: [
-                "http://arbu-1dcc9.web.app/img/fiszki1/35a.jpg"
+                "https://www.arbulang.com/img/fiszki1/35a.jpg"
         ],
         translate: "Pamiętać szczęśliwe chwile z rodziną",
         translateb: "[Recordar momentos felices con la familia]",
-        srcWord: ["http://arbu-1dcc9.web.app/filmy/esp/timewithfamily.mp4", 'Fast and Furious'],
-        srcWordimage: "http://arbu-1dcc9.web.app/filmy/esp/timewithfamily.png",
+        srcWord: ["https://www.arbulang.com/filmy/esp/timewithfamily.mp4", 'Fast and Furious'],
+        srcWordimage: "https://www.arbulang.com/filmy/esp/timewithfamily.png",
         word: [
-                "http://arbu-1dcc9.web.app/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // historia
         story: [
@@ -1234,10 +1234,10 @@ id: [
 ],
         // obrazek
         img: [
-                "http://arbu-1dcc9.web.app/img/fiszki1/36a.jpg"
+                "https://www.arbulang.com/img/fiszki1/36a.jpg"
         ],
         word: [
-                "http://arbu-1dcc9.web.app/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // historia
         story: [
@@ -1268,10 +1268,10 @@ id: [
 ],
         // obrazek
         img: [
-                "http://arbu-1dcc9.web.app/img/fiszki1/37a.jpg"
+                "https://www.arbulang.com/img/fiszki1/37a.jpg"
         ],
         word: [
-                "http://arbu-1dcc9.web.app/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // historia
         story: [
@@ -1302,11 +1302,11 @@ id: [
 ],
         // obrazek
         img: [
-            "http://arbu-1dcc9.web.app/img/fiszkiespanol/17a.jpg",
-                "http://arbu-1dcc9.web.app/img/fiszkiespanol/31a.jpg"
+            "https://www.arbulang.com/img/fiszkiespanol/17a.jpg",
+                "https://www.arbulang.com/img/fiszkiespanol/31a.jpg"
         ],
         word: [
-                "http://arbu-1dcc9.web.app/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // historia
         story: [
@@ -1337,10 +1337,10 @@ id: [
 ],
         // obrazek
         img: [
-                "http://arbu-1dcc9.web.app/img/fiszki1/39a.jpg"
+                "https://www.arbulang.com/img/fiszki1/39a.jpg"
         ],
         word: [
-                "http://arbu-1dcc9.web.app/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // historia
         story: [
@@ -1370,14 +1370,14 @@ id: [
 ],
         // obrazek
         img: [
-                "http://arbu-1dcc9.web.app/img/fiszkiespanol/27a.jpg"
+                "https://www.arbulang.com/img/fiszkiespanol/27a.jpg"
         ],
         translate: "Cieszyć się makijażem przed wyjściem",
         translateb: "[Disfrutar del maquillaje antes de salir]",
-        srcWord: ["http://arbu-1dcc9.web.app/filmy/esp/make-up.mp4", 'Piosenka: 10 minutes - Inna'],
-        srcWordimage: "http://arbu-1dcc9.web.app/filmy/esp/make-up.png",
+        srcWord: ["https://www.arbulang.com/filmy/esp/make-up.mp4", 'Piosenka: 10 minutes - Inna'],
+        srcWordimage: "https://www.arbulang.com/filmy/esp/make-up.png",
         word: [
-                "http://arbu-1dcc9.web.app/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // historia
         story: [
@@ -1409,10 +1409,10 @@ id: [
 ],
         // obrazek
         img: [
-                "http://arbu-1dcc9.web.app/img/fiszki1/41a.jpg"
+                "https://www.arbulang.com/img/fiszki1/41a.jpg"
         ],
         word: [
-                "http://arbu-1dcc9.web.app/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // historia
         story: [
@@ -1442,10 +1442,10 @@ id: [
 ],
         // obrazek
         img: [
-                "http://arbu-1dcc9.web.app/img/fiszkiespanol/22a.jpg"
+                "https://www.arbulang.com/img/fiszkiespanol/22a.jpg"
         ],
         word: [
-                "http://arbu-1dcc9.web.app/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // historia
         story: [
@@ -1476,10 +1476,10 @@ id: [
 ],
         // obrazek
         img: [
-                "http://arbu-1dcc9.web.app/img/fiszkiespanol/43a.jpg"
+                "https://www.arbulang.com/img/fiszkiespanol/43a.jpg"
         ],
         word: [
-                "http://arbu-1dcc9.web.app/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // historia
         story: [
@@ -1509,14 +1509,14 @@ id: [
 ],
         // obrazek
         img: [
-                "http://arbu-1dcc9.web.app/img/fiszkiespanol/44a.jpg"
+                "https://www.arbulang.com/img/fiszkiespanol/44a.jpg"
         ],
         translate: "Zapomnieć o niepokoju, patrząc na gwiazdy",
         translateb: "[Olvidar la ansiedad mirando las estrellas]",
-        srcWord: ["http://arbu-1dcc9.web.app/filmy/esp/gwiazdy.mp4", 'Pasażerowie (2016)'],
-        srcWordimage: "http://arbu-1dcc9.web.app/filmy/esp/gwiazdy.png",
+        srcWord: ["https://www.arbulang.com/filmy/esp/gwiazdy.mp4", 'Pasażerowie (2016)'],
+        srcWordimage: "https://www.arbulang.com/filmy/esp/gwiazdy.png",
         word: [
-                "http://arbu-1dcc9.web.app/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // historia
         story: [
@@ -1551,10 +1551,10 @@ id: [
 ],
         // obrazek
         img: [
-                "http://arbu-1dcc9.web.app/img/fiszkiespanol/45a.jpg"
+                "https://www.arbulang.com/img/fiszkiespanol/45a.jpg"
         ],
         word: [
-                "http://arbu-1dcc9.web.app/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // historia
         story: [
@@ -1588,10 +1588,10 @@ id: [
 ],
         // obrazek
         img: [
-                "http://arbu-1dcc9.web.app/img/fiszkiespanol/46a.jpg"
+                "https://www.arbulang.com/img/fiszkiespanol/46a.jpg"
         ],
         word: [
-                "http://arbu-1dcc9.web.app/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // historia
         story: [
@@ -1625,10 +1625,10 @@ id: [
 ],
         // obrazek
         img: [
-                "http://arbu-1dcc9.web.app/img/fiszkiespanol/47a.jpg"
+                "https://www.arbulang.com/img/fiszkiespanol/47a.jpg"
         ],
         word: [
-                "http://arbu-1dcc9.web.app/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // historia
         story: [
@@ -1662,14 +1662,14 @@ id: [
 ],
         // obrazek
         img: [
-                "http://arbu-1dcc9.web.app/img/fiszkiespanol/48a.jpg"
+                "https://www.arbulang.com/img/fiszkiespanol/48a.jpg"
         ],
         translate: "Rozciągać ramiona ku błękitnemu niebu",
         translateb: "[Extender los brazos al cielo azul]",
-        srcWord: ["http://arbu-1dcc9.web.app/filmy/esp/niebo.mp4", 'Skazani na Shawshank (1994)'],
-        srcWordimage: "http://arbu-1dcc9.web.app/filmy/esp/niebo.png",
+        srcWord: ["https://www.arbulang.com/filmy/esp/niebo.mp4", 'Skazani na Shawshank (1994)'],
+        srcWordimage: "https://www.arbulang.com/filmy/esp/niebo.png",
         word: [
-                "http://arbu-1dcc9.web.app/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // historia
         story: [
@@ -1705,10 +1705,10 @@ id: [
 ],
         // obrazek
         img: [
-                "http://arbu-1dcc9.web.app/img/fiszkiespanol/49a.jpg"
+                "https://www.arbulang.com/img/fiszkiespanol/49a.jpg"
         ],
         word: [
-                "http://arbu-1dcc9.web.app/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // historia
         story: [
@@ -1743,10 +1743,10 @@ id: [
 ],
         // obrazek
         img: [
-                "http://arbu-1dcc9.web.app/img/fiszkiespanol/50a.jpg"
+                "https://www.arbulang.com/img/fiszkiespanol/50a.jpg"
         ],
         word: [
-                "http://arbu-1dcc9.web.app/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // historia
         story: [
@@ -1781,10 +1781,10 @@ id: [
 ],
         // obrazek
         img: [
-                "http://arbu-1dcc9.web.app/img/fiszkiespanol/51a.jpg"
+                "https://www.arbulang.com/img/fiszkiespanol/51a.jpg"
         ],
         word: [
-                "http://arbu-1dcc9.web.app/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // historia
         story: [
@@ -1818,10 +1818,10 @@ id: [
 ],
         // obrazek
         img: [
-                "http://arbu-1dcc9.web.app/img/fiszkiespanol/52a.jpg"
+                "https://www.arbulang.com/img/fiszkiespanol/52a.jpg"
         ],
         word: [
-                "http://arbu-1dcc9.web.app/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // historia
         story: [
@@ -1855,14 +1855,14 @@ id: [
 ],
         // obrazek
         img: [
-                "http://arbu-1dcc9.web.app/img/fiszkiespanol/53a.jpg"
+                "https://www.arbulang.com/img/fiszkiespanol/53a.jpg"
         ],
         translate: "Pokryć samochód przed deszczem",
         translateb: "[Kubrir el coche antes de la lluvia]",
-        srcWord: ["http://arbu-1dcc9.web.app/filmy/esp/showingcar.mp4", 'W pogodni za zemstą (2010)'],
-        srcWordimage: "http://arbu-1dcc9.web.app/filmy/esp/showingcar.png",
+        srcWord: ["https://www.arbulang.com/filmy/esp/showingcar.mp4", 'W pogodni za zemstą (2010)'],
+        srcWordimage: "https://www.arbulang.com/filmy/esp/showingcar.png",
         word: [
-                "http://arbu-1dcc9.web.app/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // historia
         story: [
@@ -1899,10 +1899,10 @@ id: [
 ],
         // obrazek
         img: [
-                "http://arbu-1dcc9.web.app/img/fiszkiespanol/54a.jpg"
+                "https://www.arbulang.com/img/fiszkiespanol/54a.jpg"
         ],
         word: [
-                "http://arbu-1dcc9.web.app/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // historia
         story: [
@@ -1938,10 +1938,10 @@ id: [
 ],
         // obrazek
         img: [
-                "http://arbu-1dcc9.web.app/img/fiszkiespanol/55a.jpg"
+                "https://www.arbulang.com/img/fiszkiespanol/55a.jpg"
         ],
         word: [
-                "http://arbu-1dcc9.web.app/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // historia
         story: [
@@ -1977,10 +1977,10 @@ id: [
 ],
         // obrazek
         img: [
-                "http://arbu-1dcc9.web.app/img/fiszkiespanol/56a.jpg"
+                "https://www.arbulang.com/img/fiszkiespanol/56a.jpg"
         ],
         word: [
-                "http://arbu-1dcc9.web.app/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // historia
         story: [
@@ -2016,14 +2016,14 @@ id: [
 ],
         // obrazek
         img: [
-                "http://arbu-1dcc9.web.app/img/fiszkiespanol/57a.jpg"
+                "https://www.arbulang.com/img/fiszkiespanol/57a.jpg"
         ],
         translate: "Zmieniać umysł nowymi pomysłami",
         translateb: "[Cambiar la mente con nuevas ideas]",
-        srcWord: ["http://arbu-1dcc9.web.app/filmy/esp/planning.mp4", 'Piękny Umysł (2001)'],
-        srcWordimage: "http://arbu-1dcc9.web.app/filmy/esp/planning.png",
+        srcWord: ["https://www.arbulang.com/filmy/esp/planning.mp4", 'Piękny Umysł (2001)'],
+        srcWordimage: "https://www.arbulang.com/filmy/esp/planning.png",
         word: [
-                "http://arbu-1dcc9.web.app/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // historia
         story: [
@@ -2058,10 +2058,10 @@ id: [
 ],
         // obrazek
         img: [
-                "http://arbu-1dcc9.web.app/img/fiszkiespanol/58a.jpg"
+                "https://www.arbulang.com/img/fiszkiespanol/58a.jpg"
         ],
         word: [
-                "http://arbu-1dcc9.web.app/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // historia
         story: [
@@ -2095,12 +2095,12 @@ id: [
 ],
         // obrazek
         img: [
-            "http://arbu-1dcc9.web.app/img/fiszkiespanol/17a.jpg",
-                "http://arbu-1dcc9.web.app/img/fiszkiespanol/31a.jpg",
-                "http://arbu-1dcc9.web.app/img/fiszkiespanol/59a.jpg"
+            "https://www.arbulang.com/img/fiszkiespanol/17a.jpg",
+                "https://www.arbulang.com/img/fiszkiespanol/31a.jpg",
+                "https://www.arbulang.com/img/fiszkiespanol/59a.jpg"
         ],
         word: [
-                "http://arbu-1dcc9.web.app/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // historia
         story: [
@@ -2137,10 +2137,10 @@ id: [
 ],
         // obrazek
         img: [
-                "http://arbu-1dcc9.web.app/img/fiszkiespanol/60a.jpg"
+                "https://www.arbulang.com/img/fiszkiespanol/60a.jpg"
         ],
         word: [
-                "http://arbu-1dcc9.web.app/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // historia
         story: [
@@ -2175,10 +2175,10 @@ id: [
 ],
         // obrazek
         img: [
-                "http://arbu-1dcc9.web.app/img/fiszkiespanol/61a.jpg"
+                "https://www.arbulang.com/img/fiszkiespanol/61a.jpg"
         ],
         word: [
-                "http://arbu-1dcc9.web.app/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // historia
         story: [
@@ -2214,14 +2214,14 @@ id: [
 ],
         // obrazek
         img: [
-                "http://arbu-1dcc9.web.app/img/fiszkiespanol/62a.jpg"
+                "https://www.arbulang.com/img/fiszkiespanol/62a.jpg"
         ],
         translate: "Przewidywać problemy i być zawsze przygotowanym",
         translateb: "[Prever problemas y estar preparado siempre]",
-        srcWord: ["http://arbu-1dcc9.web.app/filmy/esp/predict.mp4", 'Resident Evil: The Final Chapter (2016)'],
-        srcWordimage: "http://arbu-1dcc9.web.app/filmy/esp/predict.png",
+        srcWord: ["https://www.arbulang.com/filmy/esp/predict.mp4", 'Resident Evil: The Final Chapter (2016)'],
+        srcWordimage: "https://www.arbulang.com/filmy/esp/predict.png",
         word: [
-                "http://arbu-1dcc9.web.app/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // historia
         story: [
@@ -2256,10 +2256,10 @@ id: [
 ],
         // obrazek
         img: [
-                "http://arbu-1dcc9.web.app/img/fiszkiespanol/63a.jpg"
+                "https://www.arbulang.com/img/fiszkiespanol/63a.jpg"
         ],
         word: [
-                "http://arbu-1dcc9.web.app/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // historia
         story: [
@@ -2293,10 +2293,10 @@ id: [
 ],
         // obrazek
         img: [
-                "http://arbu-1dcc9.web.app/img/fiszkiespanol/64a.jpg"
+                "https://www.arbulang.com/img/fiszkiespanol/64a.jpg"
         ],
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // historia
         story: [
@@ -2332,10 +2332,10 @@ id: [
 ],
         // obrazek
         img: [
-                "http://arbu-1dcc9.web.app/img/fiszkiespanol/65a.jpg"
+                "https://www.arbulang.com/img/fiszkiespanol/65a.jpg"
         ],
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // historia
         story: [
@@ -2371,10 +2371,10 @@ id: [
 ],
         // obrazek
         img: [
-                "http://arbu-1dcc9.web.app/img/fiszkiespanol/66a.jpg"
+                "https://www.arbulang.com/img/fiszkiespanol/66a.jpg"
         ],
         word: [
-                "http://arbu-1dcc9.web.app/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // historia
         story: [
@@ -2410,10 +2410,10 @@ id: [
 ],
         // obrazek
         img: [
-                "http://arbu-1dcc9.web.app/img/fiszkiespanol/67a.jpg"
+                "https://www.arbulang.com/img/fiszkiespanol/67a.jpg"
         ],
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // historia
         story: [
@@ -2449,14 +2449,14 @@ id: [
 ],
         // obrazek
         img: [
-                "http://arbu-1dcc9.web.app/img/fiszkiespanol/68a.jpg"
+                "https://www.arbulang.com/img/fiszkiespanol/68a.jpg"
         ],
         translate: "Chronić prawa wszystkich zawsze",
         translateb: "[Proteher los derechos de todos siempre]",
-        srcWord: ["http://arbu-1dcc9.web.app/filmy/esp/protect.mp4", 'Constantine (2005)'],
-        srcWordimage: "http://arbu-1dcc9.web.app/filmy/esp/protect.png",
+        srcWord: ["https://www.arbulang.com/filmy/esp/protect.mp4", 'Constantine (2005)'],
+        srcWordimage: "https://www.arbulang.com/filmy/esp/protect.png",
         word: [
-                "http://arbu-1dcc9.web.app/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // historia
         story: [
@@ -2493,10 +2493,10 @@ id: [
 ],
         // obrazek
         img: [
-                "http://arbu-1dcc9.web.app/img/fiszkiespanol/69a.jpg"
+                "https://www.arbulang.com/img/fiszkiespanol/69a.jpg"
         ],
         word: [
-                "http://arbu-1dcc9.web.app/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // historia
         story: [
@@ -2532,10 +2532,10 @@ id: [
 ],
         // obrazek
         img: [
-                "http://arbu-1dcc9.web.app/img/fiszkiespanol/70a.jpg"
+                "https://www.arbulang.com/img/fiszkiespanol/70a.jpg"
         ],
         word: [
-                "http://arbu-1dcc9.web.app/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // historia
         story: [
@@ -2571,10 +2571,10 @@ id: [
 ],
         // obrazek
         img: [
-                "http://arbu-1dcc9.web.app/img/fiszkiespanol/71a.jpg"
+                "https://www.arbulang.com/img/fiszkiespanol/71a.jpg"
         ],
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // historia
         story: [
@@ -2610,14 +2610,14 @@ id: [
 ],
         // obrazek
         img: [
-                "http://arbu-1dcc9.web.app/img/fiszkiespanol/72a.jpg"
+                "https://www.arbulang.com/img/fiszkiespanol/72a.jpg"
         ],
         translate: "Opowiadać zabawne historie z dobrymi przyjaciółmi",
         translateb: "[Contar historias divertidas con buenos amigos]",
-        srcWord: ["http://arbu-1dcc9.web.app/filmy/esp/stories.mp4", 'Jestem na tak (2008)'],
-        srcWordimage: "http://arbu-1dcc9.web.app/filmy/esp/stories.png",
+        srcWord: ["https://www.arbulang.com/filmy/esp/stories.mp4", 'Jestem na tak (2008)'],
+        srcWordimage: "https://www.arbulang.com/filmy/esp/stories.png",
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // historia
         story: [
@@ -2653,10 +2653,10 @@ id: [
 ],
         // obrazek
         img: [
-                "http://arbu-1dcc9.web.app/img/fiszkiespanol/73a.jpg"
+                "https://www.arbulang.com/img/fiszkiespanol/73a.jpg"
         ],
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // historia
         story: [
@@ -2691,10 +2691,10 @@ id: [
 ],
         // obrazek
         img: [
-                "http://arbu-1dcc9.web.app/img/fiszkiespanol/74a.jpg"
+                "https://www.arbulang.com/img/fiszkiespanol/74a.jpg"
         ],
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // historia
         story: [
@@ -2729,13 +2729,13 @@ id: [
 ],
         // obrazek
         img: [
-            "http://arbu-1dcc9.web.app/img/fiszkiespanol/17a.jpg",
-                "http://arbu-1dcc9.web.app/img/fiszkiespanol/31a.jpg",
-                "http://arbu-1dcc9.web.app/img/fiszkiespanol/59a.jpg",
-                "http://arbu-1dcc9.web.app/img/fiszkiespanol/75a.jpg"
+            "https://www.arbulang.com/img/fiszkiespanol/17a.jpg",
+                "https://www.arbulang.com/img/fiszkiespanol/31a.jpg",
+                "https://www.arbulang.com/img/fiszkiespanol/59a.jpg",
+                "https://www.arbulang.com/img/fiszkiespanol/75a.jpg"
         ],
         word: [
-                "http://arbu-1dcc9.web.app/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // historia
         story: [
@@ -2773,10 +2773,10 @@ id: [
 ],
         // obrazek
         img: [
-                "http://arbu-1dcc9.web.app/img/fiszkiespanol/76a.jpg"
+                "https://www.arbulang.com/img/fiszkiespanol/76a.jpg"
         ],
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // historia
         story: [
@@ -2811,10 +2811,10 @@ id: [
 ],
         // obrazek
         img: [
-                "http://arbu-1dcc9.web.app/img/fiszkiespanol/77a.jpg"
+                "https://www.arbulang.com/img/fiszkiespanol/77a.jpg"
         ],
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // historia
         story: [
@@ -2849,14 +2849,14 @@ id: [
 ],
         // obrazek
         img: [
-                "http://arbu-1dcc9.web.app/img/fiszkiespanol/78a.jpg"
+                "https://www.arbulang.com/img/fiszkiespanol/78a.jpg"
         ],
         translate: "Słuchać wesołej muzyki w samochodzie",
         translateb: "[Escuchar música alegre en el coche]",
-        srcWord: ["http://arbu-1dcc9.web.app/filmy/esp/carmusic.mp4", 'Czas surferów (2005)'],
-        srcWordimage: "http://arbu-1dcc9.web.app/filmy/esp/carmusic.png",
+        srcWord: ["https://www.arbulang.com/filmy/esp/carmusic.mp4", 'Czas surferów (2005)'],
+        srcWordimage: "https://www.arbulang.com/filmy/esp/carmusic.png",
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // historia
         story: [
@@ -2892,10 +2892,10 @@ id: [
 ],
         // obrazek
         img: [
-                "http://arbu-1dcc9.web.app/img/fiszkiespanol/79a.jpg"
+                "https://www.arbulang.com/img/fiszkiespanol/79a.jpg"
         ],
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // historia
         story: [
@@ -2930,10 +2930,10 @@ id: [
 ],
         // obrazek
         img: [
-                "http://arbu-1dcc9.web.app/img/fiszkiespanol/80a.jpg"
+                "https://www.arbulang.com/img/fiszkiespanol/80a.jpg"
         ],
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // historia
         story: [
@@ -2968,10 +2968,10 @@ id: [
 ],
         // obrazek
         img: [
-                "http://arbu-1dcc9.web.app/img/fiszkiespanol/81a.jpg"
+                "https://www.arbulang.com/img/fiszkiespanol/81a.jpg"
         ],
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // historia
         story: [
@@ -3005,10 +3005,10 @@ id: [
 ],
         // obrazek
         img: [
-                "http://arbu-1dcc9.web.app/img/fiszkiespanol/53a.jpg"
+                "https://www.arbulang.com/img/fiszkiespanol/53a.jpg"
         ],
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // historia
         story: [
@@ -3042,14 +3042,14 @@ id: [
 ],
         // obrazek
         img: [
-                "http://arbu-1dcc9.web.app/img/fiszkiespanol/83a.jpg"
+                "https://www.arbulang.com/img/fiszkiespanol/83a.jpg"
         ],
         translate: "Przybywać wcześnie i cieszyć się porankiem",
         translateb: "[Llegar temprano y disfrutar la mañana]",
-        srcWord: ["http://arbu-1dcc9.web.app/filmy/esp/morning.mp4", 'Szybcy i wściekli: Hobbs i Shaw (2019)'],
-        srcWordimage: "http://arbu-1dcc9.web.app/filmy/esp/morning.png",
+        srcWord: ["https://www.arbulang.com/filmy/esp/morning.mp4", 'Szybcy i wściekli: Hobbs i Shaw (2019)'],
+        srcWordimage: "https://www.arbulang.com/filmy/esp/morning.png",
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // historia
         story: [
@@ -3084,10 +3084,10 @@ id: [
 ],
         // obrazek
         img: [
-                "http://arbu-1dcc9.web.app/img/fiszkiespanol/84a.jpg"
+                "https://www.arbulang.com/img/fiszkiespanol/84a.jpg"
         ],
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // historia
         story: [
@@ -3120,10 +3120,10 @@ id: [
         18
 ],
         img: [
-                "http://arbu-1dcc9.web.app/img/fiszkiespanol/64a.jpg"
+                "https://www.arbulang.com/img/fiszkiespanol/64a.jpg"
         ],
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // historia
         story: [
@@ -3158,10 +3158,10 @@ id: [
 ],
         // obrazek
         img: [
-                "http://arbu-1dcc9.web.app/img/fiszkiespanol/86a.jpg"
+                "https://www.arbulang.com/img/fiszkiespanol/86a.jpg"
         ],
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // historia
         story: [
@@ -3196,10 +3196,10 @@ id: [
 ],
         // obrazek
         img: [
-                "http://arbu-1dcc9.web.app/img/fiszkiespanol/87a.jpg"
+                "https://www.arbulang.com/img/fiszkiespanol/87a.jpg"
         ],
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // historia
         story: [
@@ -3234,14 +3234,14 @@ id: [
 ],
         // obrazek
         img: [
-                "http://arbu-1dcc9.web.app/img/fiszkiespanol/88a.jpg"
+                "https://www.arbulang.com/img/fiszkiespanol/88a.jpg"
         ],
         translate: "Odrzucać oferty, które ci się nie podobają",
         translateb: "[Rehusar ofertas que no te gusten]",
-        srcWord: ["http://arbu-1dcc9.web.app/filmy/esp/offert.mp4", 'Yes Man'],
-        srcWordimage: "http://arbu-1dcc9.web.app/filmy/esp/offert.png",
+        srcWord: ["https://www.arbulang.com/filmy/esp/offert.mp4", 'Yes Man'],
+        srcWordimage: "https://www.arbulang.com/filmy/esp/offert.png",
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // historia
         story: [
@@ -3277,10 +3277,10 @@ id: [
 ],
         // obrazek
         img: [
-                "http://arbu-1dcc9.web.app/img/fiszkiespanol/89a.jpg"
+                "https://www.arbulang.com/img/fiszkiespanol/89a.jpg"
         ],
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // historia
         story: [
@@ -3315,10 +3315,10 @@ id: [
 ],
         // obrazek
         img: [
-                "http://arbu-1dcc9.web.app/img/fiszkiespanol/90a.jpg"
+                "https://www.arbulang.com/img/fiszkiespanol/90a.jpg"
         ],
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // historia
         story: [
@@ -3353,10 +3353,10 @@ id: [
 ],
         // obrazek
         img: [
-                "http://arbu-1dcc9.web.app/img/fiszkiespanol/91a.jpg"
+                "https://www.arbulang.com/img/fiszkiespanol/91a.jpg"
         ],
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // historia
         story: [
@@ -3390,10 +3390,10 @@ id: [
 ],
         // obrazek
         img: [
-                "http://arbu-1dcc9.web.app/img/fiszkiespanol/92a.jpg"
+                "https://www.arbulang.com/img/fiszkiespanol/92a.jpg"
         ],
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // historia
         story: [
@@ -3427,14 +3427,14 @@ id: [
 ],
         // obrazek
         img: [
-                "http://arbu-1dcc9.web.app/img/fiszkiespanol/93a.jpg"
+                "https://www.arbulang.com/img/fiszkiespanol/93a.jpg"
         ],
         translate: "Trenować mocno, aby czuć się lepiej",
         translateb: "[Entrenar fuerte para sentirte mejor]",
-        srcWord: ["http://arbu-1dcc9.web.app/filmy/esp/training2.mp4", 'Pain and Gain'],
-        srcWordimage: "http://arbu-1dcc9.web.app/filmy/esp/training2.png",
+        srcWord: ["https://www.arbulang.com/filmy/esp/training2.mp4", 'Pain and Gain'],
+        srcWordimage: "https://www.arbulang.com/filmy/esp/training2.png",
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // historia
         story: [
@@ -3469,10 +3469,10 @@ id: [
 ],
         // obrazek
         img: [
-                "http://arbu-1dcc9.web.app/img/fiszkiespanol/94a.jpg"
+                "https://www.arbulang.com/img/fiszkiespanol/94a.jpg"
         ],
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // historia
         story: [
@@ -3506,10 +3506,10 @@ id: [
 ],
         // obrazek
         img: [
-                "http://arbu-1dcc9.web.app/img/fiszkiespanol/95a.jpg"
+                "https://www.arbulang.com/img/fiszkiespanol/95a.jpg"
         ],
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // historia
         story: [
@@ -3544,10 +3544,10 @@ id: [
 ],
         // obrazek
         img: [
-                "http://arbu-1dcc9.web.app/img/fiszkiespanol/2a.jpg"
+                "https://www.arbulang.com/img/fiszkiespanol/2a.jpg"
         ],
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // historia
         story: [
@@ -3582,10 +3582,10 @@ id: [
 ],
         // obrazek
         img: [
-                "http://arbu-1dcc9.web.app/img/fiszkiespanol/98a.jpg"
+                "https://www.arbulang.com/img/fiszkiespanol/98a.jpg"
         ],
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // historia
         story: [
@@ -3620,14 +3620,14 @@ id: [
 ],
         // obrazek
         img: [
-                "http://arbu-1dcc9.web.app/img/fiszkiespanol/99a.jpg"
+                "https://www.arbulang.com/img/fiszkiespanol/99a.jpg"
         ],
         translate: "Wyjaśniać jasne odpowiedzi dzieciom",
         translateb: "[Explicar respuestas claras a los niños]",
-        srcWord: ["http://arbu-1dcc9.web.app/filmy/esp/children.mp4", 'Ip Man'],
-        srcWordimage: "http://arbu-1dcc9.web.app/filmy/esp/children.png",
+        srcWord: ["https://www.arbulang.com/filmy/esp/children.mp4", 'Ip Man'],
+        srcWordimage: "https://www.arbulang.com/filmy/esp/children.png",
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // historia
         story: [
@@ -3660,10 +3660,10 @@ id: [
 ],
         // obrazek
         img: [
-                "http://arbu-1dcc9.web.app/img/fiszkiespanol/100a.jpg"
+                "https://www.arbulang.com/img/fiszkiespanol/100a.jpg"
         ],
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // historia
         story: [
@@ -3696,10 +3696,10 @@ id: [
 ],
         // obrazek
         img: [
-                "http://arbu-1dcc9.web.app/img/fiszkiespanol/101a.jpg"
+                "https://www.arbulang.com/img/fiszkiespanol/101a.jpg"
         ],
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // historia
         story: [
@@ -3732,10 +3732,10 @@ id: [
 ],
         // obrazek
         img: [
-                "http://arbu-1dcc9.web.app/img/fiszkiespanol/102a.jpg"
+                "https://www.arbulang.com/img/fiszkiespanol/102a.jpg"
         ],
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // historia
         story: [
@@ -3768,14 +3768,14 @@ id: [
 ],
         // obrazek
         img: [
-                "http://arbu-1dcc9.web.app/img/fiszkiespanol/103a.jpg"
+                "https://www.arbulang.com/img/fiszkiespanol/103a.jpg"
         ],
         translate: "Próbować pysznego jedzenia w nowych miejscach",
         translateb: "[Probar comida deliciosa en nuevos lugares]",
-        srcWord: ["http://arbu-1dcc9.web.app/filmy/esp/restaurant.mp4", 'Matrix 1999'],
-        srcWordimage: "http://arbu-1dcc9.web.app/filmy/esp/restaurant.png",
+        srcWord: ["https://www.arbulang.com/filmy/esp/restaurant.mp4", 'Matrix 1999'],
+        srcWordimage: "https://www.arbulang.com/filmy/esp/restaurant.png",
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // historia
         story: [
@@ -3807,10 +3807,10 @@ id: [
 ],
         // obrazek
         img: [
-                "http://arbu-1dcc9.web.app/img/fiszkiespanol/104a.jpg"
+                "https://www.arbulang.com/img/fiszkiespanol/104a.jpg"
         ],
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // historia
         story: [
@@ -3842,10 +3842,10 @@ id: [
 ],
         // obrazek
         img: [
-                "http://arbu-1dcc9.web.app/img/fiszkiespanol/2a.jpg"
+                "https://www.arbulang.com/img/fiszkiespanol/105a.jpg"
         ],
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // historia
         story: [
@@ -3877,10 +3877,10 @@ id: [
 ],
         // obrazek
         img: [
-                "http://arbu-1dcc9.web.app/img/fiszkiespanol/3a.jpg"
+                "https://www.arbulang.com/img/fiszkiespanol/3a.jpg"
         ],
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // historia
         story: [
@@ -3912,10 +3912,10 @@ id: [
 ],
         // obrazek
         img: [
-                "http://arbu-1dcc9.web.app/img/fiszki1/2a.jpg"
+                "https://www.arbulang.com/img/fiszkiespanol/107a.jpg"
         ],
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // historia
         story: [
@@ -3947,10 +3947,10 @@ id: [
 ],
         // obrazek
         img: [
-                "http://arbu-1dcc9.web.app/img/fiszki1/2a.jpg"
+                "https://www.arbulang.com/img/fiszkiespanol/108a.jpg"
         ],
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // historia
         story: [
@@ -3982,18 +3982,18 @@ id: [
 ],
         // obrazek
         img: [
-                "http://arbu-1dcc9.web.app/img/fiszkiespanol/103a.jpg"
+                "https://www.arbulang.com/img/fiszkiespanol/103a.jpg"
         ],
         translate: "Śmiać się razem, oglądając filmy komediowe",
         translateb: "[Reír huntos mientras miramos pelíkulas komikas]",
-        srcWord: ["http://arbu-1dcc9.web.app/filmy/esp/comicas.mp4", 'Matrix 1999'],
-        srcWordimage: "http://arbu-1dcc9.web.app/filmy/esp/comicas.png",
+        srcWord: ["https://www.arbulang.com/filmy/esp/comicas.mp4", 'Matrix 1999'],
+        srcWordimage: "https://www.arbulang.com/filmy/esp/comicas.png",
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // historia
         story: [
-            "Przewodnik <u><b>prowa</u></b>dzi wycieczkę i <u><b>wyjaśnia</u></b> wszystko turystom, prześlinił sobie lekko <u><b>war</u></b>gę"
+            ""
         ],
         // opis
         desc: "reir[reir] - śmiać się",
@@ -4020,14 +4020,14 @@ id: [
 ],
         // obrazek
         img: [
-                "http://arbu-1dcc9.web.app/img/fiszki1/2a.jpg"
+                "https://www.arbulang.com/img/fiszki1/2a.jpg"
         ],
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // historia
         story: [
-            "<u><b>Lu</u></b>bimy te miejsca, w których możemy za<u><b>gar</u></b>ażować swoje auto. Bo wtedy j<u><b>es</u></b>t bezpieczne"
+            ""
         ],
         // opis
         desc: "juntos[huntos] - razem",
@@ -4055,10 +4055,10 @@ id: [
 ],
         // obrazek
         img: [
-                "http://arbu-1dcc9.web.app/img/fiszki1/2a.jpg"
+                "https://www.arbulang.com/img/fiszki1/2a.jpg"
         ],
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // historia
         story: [
@@ -4091,10 +4091,10 @@ id: [
 ],
         // obrazek
         img: [
-                "http://arbu-1dcc9.web.app/img/fiszki1/2a.jpg"
+                "https://www.arbulang.com/img/fiszki1/2a.jpg"
         ],
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // historia
         story: [
@@ -4127,10 +4127,10 @@ id: [
 ],
         // obrazek
         img: [
-                "http://arbu-1dcc9.web.app/img/fiszki1/2a.jpg"
+                "https://www.arbulang.com/img/fiszki1/2a.jpg"
         ],
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // historia
         story: [
@@ -4163,10 +4163,10 @@ id: [
 ],
         // obrazek
         img: [
-                "http://arbu-1dcc9.web.app/img/fiszki1/2a.jpg"
+                "https://www.arbulang.com/img/fiszki1/2a.jpg"
         ],
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // historia
         story: [
@@ -4199,14 +4199,14 @@ id: [
 ],
         // obrazek
         img: [
-                "http://arbu-1dcc9.web.app/img/fiszkiespanol/103a.jpg"
+                "https://www.arbulang.com/img/fiszkiespanol/103a.jpg"
         ],
         translate: "Zaprzeczać kłamstwom i zawsze mówić prawdę",
         translateb: "[Negar mentiras i desir siempre berdad]",
-        srcWord: ["http://arbu-1dcc9.web.app/filmy/esp/truth.mp4", 'Matrix 1999'],
-        srcWordimage: "http://arbu-1dcc9.web.app/filmy/esp/truth.png",
+        srcWord: ["https://www.arbulang.com/filmy/esp/truth.mp4", 'Matrix 1999'],
+        srcWordimage: "https://www.arbulang.com/filmy/esp/truth.png",
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // historia
         story: [
@@ -4237,10 +4237,10 @@ id: [
 ],
         // obrazek
         img: [
-                "http://arbu-1dcc9.web.app/img/fiszki1/2a.jpg"
+                "https://www.arbulang.com/img/fiszki1/2a.jpg"
         ],
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // historia
         story: [
@@ -4270,10 +4270,10 @@ id: [
         24
 ],
         img: [
-                "http://arbu-1dcc9.web.app/img/fiszkiespanol/64a.jpg"
+                "https://www.arbulang.com/img/fiszkiespanol/64a.jpg"
         ],
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // historia
         story: [
@@ -4306,10 +4306,10 @@ id: [
 ],
         // obrazek
         img: [
-                "http://arbu-1dcc9.web.app/img/fiszki1/2a.jpg"
+                "https://www.arbulang.com/img/fiszki1/2a.jpg"
         ],
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // historia
         story: [
@@ -4341,10 +4341,10 @@ id: [
         24
 ],
         img: [
-                "http://arbu-1dcc9.web.app/img/fiszkiespanol/71a.jpg"
+                "https://www.arbulang.com/img/fiszkiespanol/71a.jpg"
         ],
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // historia
         story: [
@@ -4377,10 +4377,10 @@ id: [
 ],
         // obrazek
         img: [
-                "http://arbu-1dcc9.web.app/img/fiszki1/2a.jpg"
+                "https://www.arbulang.com/img/fiszki1/2a.jpg"
         ],
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // historia
         story: [
@@ -5155,7 +5155,7 @@ function generateFiszkaBlock(fiszka, lessonId2) {
             fiszkaContainer.append(fiszkaButtonNameContainer);
         }
         // Dodanie kontenera fiszki do body
-        $('.grid-container').append(fiszkaContainer);
+        $('.grid-containerb').append(fiszkaContainer);
         console.log(`Generated fiszka block for ID: [${fiszka.id.join(', ')}]`);
         initAudio(fiszka.id);
     });

@@ -1,15 +1,17 @@
 <!DOCTYPE html>
 <html>
     <head>
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-N1YHS2Y62J"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+        <!-- Google tag (gtag.js) -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-Z12KVYCV43"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag() {
+                dataLayer.push(arguments);
+            }
+            gtag('js', new Date());
 
-  gtag('config', 'G-N1YHS2Y62J');
-</script>
+            gtag('config', 'G-Z12KVYCV43');
+        </script>
 
         <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
         <link rel="stylesheet" type="text/css" href="css/alert.css">
@@ -20,7 +22,7 @@
         <link rel="stylesheet" type="text/css" href="css/1nowe-pc.css">
         <script src="js/story.js"></script>
         <script src="js/storage.js"></script>
-        <script src="testowy10.js"></script>
+        <script src="js/testowyb.js"></script>
         <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -1645,10 +1647,10 @@ span.highlight {
                 blinkButton();
             };
             document.getElementById('myButton').addEventListener('click', function () {
-                window.location.href = 'https://www.arbulang.com//matrix.html';
+                window.location.href = 'https://arbu-1dcc9.web.app/matrix.html';
             });
             document.getElementById('myButton2').addEventListener('click', function () {
-                window.location.href = 'https://www.arbulang.com//matrix2.html';
+                window.location.href = 'https://arbu-1dcc9.web.app/matrix2.html';
             });
 
             function showVideos(set) {
@@ -3215,17 +3217,6 @@ ${sentence30}${sentence33}<br>
                                     }
 
                                 }
-                                
-if (rodzaj === "play" && matchingFiszki1.length > 0 && matchingFiszki1[0].category3.length > 0) {
-    const firstCategoryContent = matchingFiszki1[0].category3[0]; // Pierwszy element category3
-    const categorySpan = document.createElement('span');
-    categorySpan.textContent = firstCategoryContent;
-    categorySpan.classList.add('highlight'); // Dodaj opcjonalną klasę
-    categoryHTML = categorySpan.outerHTML; // Uzyskanie HTML elementu
-
-    // Dodaj categoryHTML przed przyciskiem i resztą sentence10
-    
-}
                                 for (let ii = 0; ii < matchingFiszki1.length; ii++) {
                                     const fiszka = matchingFiszki1[ii];
                                     console.log('fiszka2:', fiszka);
@@ -3300,7 +3291,14 @@ if (rodzaj === "play" && matchingFiszki1.length > 0 && matchingFiszki1[0].catego
 
                                     }
                                 }
+if (rodzaj === "play" && matchingFiszki1.length > 0 && matchingFiszki1[0].category3.length > 0) {
+    const firstCategoryContent = matchingFiszki1[0].category3[0]; // Pierwszy element category3
+    const categorySpan = document.createElement('span');
+    categorySpan.textContent = firstCategoryContent;
+    categorySpan.classList.add('highlight'); // Dodaj opcjonalną klasę
+    categoryHTML = categorySpan.outerHTML; // Uzyskanie HTML elementu
 
+}
                                 for (let li = 0; li < matchingFiszki1.length; li++) {
                                     const fiszka = matchingFiszki1[li];
                                     console.log('fiszka:', fiszka);
@@ -3340,14 +3338,17 @@ if (rodzaj === "play" && matchingFiszki1.length > 0 && matchingFiszki1[0].catego
 <div class="sentence1bba">${sentence1bba}</div>
 <div class="sentence1bba">${sentence1bbab}</div>
         <div class="sentence-container">
-            <span class="category-container">${categoryHTML}</span> <!-- categoryHTML dodane obok -->
-            <button class="left-button first-buttonb">+<br></button> <!-- Przycisk po categoryHTML -->
+            <span class="category-container">${categoryHTML2}</span> <!-- categoryHTML dodane obok -->
+            <button class="left-buttonb second-button">+<br></button> <!-- Przycisk po categoryHTML -->
             ${sentence20}${sentence22}<br>
         </div>
 <div class="sentence1bb1b">${sentence1bb1b}</div>
 <div class="sentence1bba2">${sentence1bba2}</div>
-<button class="left-buttonbb third-button">+<br></button>
-${sentence30}${sentence33}<br>
+        <div class="sentence-container">
+            <span class="category-container">${categoryHTML3}</span> <!-- categoryHTML dodane obok -->
+            <button class="left-buttonbb third-button">+<br></button> <!-- Przycisk po categoryHTML -->
+            ${sentence30}${sentence33}<br>
+        </div>
         <div class="sentence1bb3">${sentence1bb3}</div>
         <div class="sentence1bb1c">${sentence1bb1c}</div>
 `);
@@ -3374,11 +3375,8 @@ ${sentence30}${sentence33}<br>
         </div>
 <div class="sentence1bba">${sentence1bba}</div>
         <div class="sentence1bba">${sentence1bbab}</div>
-        <div class="sentence-container">
-            <span class="category-container">${categoryHTML}</span> <!-- categoryHTML dodane obok -->
-            <button class="left-button first-buttonb">+<br></button> <!-- Przycisk po categoryHTML -->
-            ${sentence20}${sentence22}<br>
-        </div>
+<button class="left-buttonb second-button">+<br></button>
+${sentence20}${sentence22}<br>
 <div class="sentence1bb1b">${sentence1bb1b}</div>
 <div class="sentence1bba2">${sentence1bba2}</div>
 <button class="left-buttonbb third-button">+<br></button>
@@ -3386,28 +3384,6 @@ ${sentence30}${sentence33}<br>
         <div class="sentence1bb3">${sentence1bb3}</div>
         <div class="sentence1bb1c">${sentence1bb1c}</div>
 `);
-                    if (rodzaj === "play" && matchingFiszki2.length > 0 && matchingFiszki2[0].category3.length > 0) {
-                                                $sentenceDiv.html(`
-        <div class="sentence-container">
-            <span class="category-container">${categoryHTML}</span> <!-- categoryHTML dodane obok -->
-            <button class="left-button first-button">+<br></button> <!-- Przycisk po categoryHTML -->
-            ${sentence10}${sentence12}${sentence11}<br>
-        </div>
-<div class="sentence1bba">${sentence1bba}</div>
-<div class="sentence1bba">${sentence1bbab}</div>
-        <div class="sentence-container">
-            <span class="category-container">${categoryHTML}</span> <!-- categoryHTML dodane obok -->
-            <button class="left-button second-buttonb">+<br></button> <!-- Przycisk po categoryHTML -->
-            ${sentence20}${sentence22}<br>
-        </div>
-<div class="sentence1bb1b">${sentence1bb1b}</div>
-<div class="sentence1bba2">${sentence1bba2}</div>
-<button class="left-buttonbb third-button">+<br></button>
-${sentence30}${sentence33}<br>
-        <div class="sentence1bb3">${sentence1bb3}</div>
-        <div class="sentence1bb1c">${sentence1bb1c}</div>
-`);
-            }
                                     // Ustawienie stylu dla przycisków .left-button
                                     $('.sentence1bb1b').html('');
                                     $('.sentence1bba2').html('');
@@ -3448,6 +3424,7 @@ ${sentence30}${sentence33}<br>
 
                     let sentence1bb1b = "";
                     let sentence1bba2 = "";
+                    let categoryHTML2 = ""; // Uzyskanie HTML elementu
                     function addBackgroundToText2b(matchingFiszki2, matchingIndexes, aktualny, lesson2PartLength, matchingIndexes2, rodzaj, matchingIndexes3) {
 
                         $(document).ready(function () {
@@ -3603,13 +3580,6 @@ ${sentence30}${sentence33}<br>
                                     }
 
                                 }
-                                if (rodzaj === "play" && matchingFiszki2.length > 0 && matchingFiszki2[0].category3.length > 0) {
-    const firstCategoryContent = matchingFiszki2[0].category3[0]; // Pierwszy element category3
-    const categorySpan2 = document.createElement('span');
-    categorySpan2.textContent = firstCategoryContent;
-    categorySpan2.classList.add('highlight'); // Dodaj opcjonalną klasę
-    categoryHTML = categorySpan2.outerHTML; // Uzyskanie HTML elementu
-}
                                 // Iteracja przez matchingFiszki2 dla sentence2
                                 for (let jj = 0; jj < matchingFiszki2.length; jj++) {
                                     const fiszka = matchingFiszki2[jj];
@@ -3638,6 +3608,14 @@ ${sentence30}${sentence33}<br>
                                         sentence22 += sentencePart2 + " ";
                                     }
                                 }
+                                if (rodzaj === "play" && matchingFiszki2.length > 0 && matchingFiszki2[0].category3.length > 0) {
+    const firstCategoryContent = matchingFiszki2[0].category3[0]; // Pierwszy element category3
+    const categorySpan = document.createElement('span');
+    categorySpan.textContent = firstCategoryContent;
+    categorySpan.classList.add('highlight'); // Dodaj opcjonalną klasę
+    categoryHTML2 = categorySpan.outerHTML; // Uzyskanie HTML elementu
+
+}
                                 for (let li = 0; li < matchingFiszki2.length; li++) {
                                     const fiszka = matchingFiszki2[li];
                                     console.log('fiszka:', fiszka);
@@ -3677,39 +3655,20 @@ ${sentence30}${sentence33}<br>
 <div class="sentence1bba">${sentence1bba}</div>
 <div class="sentence1bba">${sentence1bbab}</div>
         <div class="sentence-container">
-            <span class="category-container">${categoryHTML}</span> <!-- categoryHTML dodane obok -->
-            <button class="left-button first-buttonb">+<br></button> <!-- Przycisk po categoryHTML -->
+            <span class="category-container">${categoryHTML2}</span> <!-- categoryHTML dodane obok -->
+            <button class="left-buttonb second-button">+<br></button> <!-- Przycisk po categoryHTML -->
             ${sentence20}${sentence22}<br>
         </div>
 <div class="sentence1bb1b">${sentence1bb1b}</div>
 <div class="sentence1bba2">${sentence1bba2}</div>
-<button class="left-buttonbb third-button">+<br></button>
-${sentence30}${sentence33}<br>
+        <div class="sentence-container">
+            <span class="category-container">${categoryHTML3}</span> <!-- categoryHTML dodane obok -->
+            <button class="left-buttonbb third-button">+<br></button> <!-- Przycisk po categoryHTML -->
+            ${sentence30}${sentence33}<br>
+        </div>
         <div class="sentence1bb3">${sentence1bb3}</div>
         <div class="sentence1bb1c">${sentence1bb1c}</div>
 `);
-            if (rodzaj === "play" && matchingFiszki2.length > 0 && matchingFiszki2[0].category3.length > 0) {
-                                                $sentenceDiv.html(`
-        <div class="sentence-container">
-            <span class="category-container">${categoryHTML}</span> <!-- categoryHTML dodane obok -->
-            <button class="left-button first-button">+<br></button> <!-- Przycisk po categoryHTML -->
-            ${sentence10}${sentence12}${sentence11}<br>
-        </div>
-<div class="sentence1bba">${sentence1bba}</div>
-<div class="sentence1bba">${sentence1bbab}</div>
-        <div class="sentence-container">
-            <span class="category-container">${categoryHTML}</span> <!-- categoryHTML dodane obok -->
-            <button class="left-button second-buttonb">+<br></button> <!-- Przycisk po categoryHTML -->
-            ${sentence20}${sentence22}<br>
-        </div>
-<div class="sentence1bb1b">${sentence1bb1b}</div>
-<div class="sentence1bba2">${sentence1bba2}</div>
-<button class="left-buttonbb third-button">+<br></button>
-${sentence30}${sentence33}<br>
-        <div class="sentence1bb3">${sentence1bb3}</div>
-        <div class="sentence1bb1c">${sentence1bb1c}</div>
-`);
-            }
                                 $('.sentence1bb1b').html('');
                                 $('.sentence1bba2').html('');
                                 $sentenceDiv.on('click', '.left-buttonb', function () {
@@ -3733,11 +3692,8 @@ ${sentence30}${sentence33}<br>
         </div>
 <div class="sentence1bba">${sentence1bba}</div>
 <div class="sentence1bba">${sentence1bbab}</div>
-        <div class="sentence-container">
-            <span class="category-container">${categoryHTML}</span> <!-- categoryHTML dodane obok -->
-            <button class="left-button first-buttonb">+<br></button> <!-- Przycisk po categoryHTML -->
-            ${sentence20}${sentence22}<br>
-        </div>
+<button class="left-buttonb second-button">+<br></button>
+${sentence20}${sentence22}<br>
 <div class="sentence1bb1b">${sentence1bb1b}</div>
 <div class="sentence1bba2">${sentence1bba2}</div>
 <button class="left-buttonbb third-button">+<br></button>
@@ -3792,7 +3748,7 @@ ${sentence30}${sentence33}<br>
 
                     let sentence1bb3 = "";
                     let sentence1bb1c = "";
-
+let categoryHTML3 = ""; // Uzyskanie HTML elementu
                     function addBackgroundToText3b(matchingFiszki3, matchingIndexes, aktualny, lesson3PartLength) {
                         $(document).ready(function () {
 setTimeout(() => {
@@ -4002,6 +3958,14 @@ function countCategoryInFiszki2(matchingFiszki3, category) {
                                     sentence33 += sentencePart3 + " ";
                                 }
                             }
+                                                            if (rodzaj === "play" && matchingFiszki3.length > 0 && matchingFiszki3[0].category3.length > 0) {
+    const firstCategoryContent = matchingFiszki3[0].category3[0]; // Pierwszy element category3
+    const categorySpan = document.createElement('span');
+    categorySpan.textContent = firstCategoryContent;
+    categorySpan.classList.add('highlight'); // Dodaj opcjonalną klasę
+    categoryHTML3 = categorySpan.outerHTML; // Uzyskanie HTML elementu
+
+}
                             for (let z = 0; z < matchingFiszki3.length; z++) {
                                 const fiszka = matchingFiszki3[z];
                                 let sentencePart444b = fiszka.translateb;
@@ -4026,25 +3990,7 @@ function countCategoryInFiszki2(matchingFiszki3, category) {
                                 sentence1bb1c += sentencePart444 + " ";
                             }
 
-                                $sentenceDiv.html(`
-        <div class="sentence-container">
-            <span class="category-container">${categoryHTML}</span> <!-- categoryHTML dodane obok -->
-            <button class="left-button first-button">+<br></button> <!-- Przycisk po categoryHTML -->
-            ${sentence10}${sentence12}${sentence11}<br>
-        </div>
-<div class="sentence1bba">${sentence1bba}</div>
-<div class="sentence1bba">${sentence1bbab}</div>
-<button class="left-buttonb second-button">+<br></button>
-${sentence20}${sentence22}<br>
-<div class="sentence1bb1b">${sentence1bb1b}</div>
-<div class="sentence1bba2">${sentence1bba2}</div>
-<button class="left-buttonbb third-button">+<br></button>
-${sentence30}${sentence33}<br>
-        <div class="sentence1bb3">${sentence1bb3}</div>
-        <div class="sentence1bb1c">${sentence1bb1c}</div>
-`);
-                        if (rodzaj === "play" && matchingFiszki2.length > 0 && matchingFiszki2[0].category3.length > 0) {
-                                                $sentenceDiv.html(`
+                                 $sentenceDiv.html(`
         <div class="sentence-container">
             <span class="category-container">${categoryHTML}</span> <!-- categoryHTML dodane obok -->
             <button class="left-button first-button">+<br></button> <!-- Przycisk po categoryHTML -->
@@ -4053,18 +3999,20 @@ ${sentence30}${sentence33}<br>
 <div class="sentence1bba">${sentence1bba}</div>
 <div class="sentence1bba">${sentence1bbab}</div>
         <div class="sentence-container">
-            <span class="category-container">${categoryHTML}</span> <!-- categoryHTML dodane obok -->
-            <button class="left-button second-buttonb">+<br></button> <!-- Przycisk po categoryHTML -->
+            <span class="category-container">${categoryHTML2}</span> <!-- categoryHTML dodane obok -->
+            <button class="left-buttonb second-button">+<br></button> <!-- Przycisk po categoryHTML -->
             ${sentence20}${sentence22}<br>
         </div>
 <div class="sentence1bb1b">${sentence1bb1b}</div>
 <div class="sentence1bba2">${sentence1bba2}</div>
-<button class="left-buttonbb third-button">+<br></button>
-${sentence30}${sentence33}<br>
+        <div class="sentence-container">
+            <span class="category-container">${categoryHTML3}</span> <!-- categoryHTML dodane obok -->
+            <button class="left-buttonbb third-button">+<br></button> <!-- Przycisk po categoryHTML -->
+            ${sentence30}${sentence33}<br>
+        </div>
         <div class="sentence1bb3">${sentence1bb3}</div>
         <div class="sentence1bb1c">${sentence1bb1c}</div>
 `);
-            }
                                 $('.sentence1bb3').html('');
                                 $('.sentence1bb1c').html('');
                                 $sentenceDiv.on('click', '.left-buttonbb', function () {
@@ -4339,7 +4287,7 @@ ${sentence30}${sentence33}<br>
 // Tworzenie przycisku "Stop"
                                 if (!stopButtonAdded) {
                                     const $stopButton = $('<img>')
-                                            .attr('src', 'https://www.arbulang.com/img/stopok2.png')
+                                            .attr('src', 'http://arbu-1dcc9.web.app/img/stopok2.png')
                                             .css({
                                                 'display': 'none', // Ukryty na starcie
                                                 'position': 'absolute', // Precyzyjne pozycjonowanie względem kontenera
@@ -4357,11 +4305,11 @@ ${sentence30}${sentence33}<br>
                                                     if (!video.paused) {
                                                         video.pause();
                                                         // Zmień obrazek na "Play"
-                                                        $stopButton.attr('src', 'https://www.arbulang.com/img/play.png');
+                                                        $stopButton.attr('src', 'http://arbu-1dcc9.web.app/img/play.png');
                                                     } else {
                                                         video.play();
                                                         // Zmień obrazek z powrotem na "Stop"
-                                                        $stopButton.attr('src', 'https://www.arbulang.com/img/stopok2.png');
+                                                        $stopButton.attr('src', 'http://arbu-1dcc9.web.app/img/stopok2.png');
                                                     }
                                                 });
                                             });
@@ -4553,7 +4501,7 @@ ${sentence30}${sentence33}<br>
 // Tworzenie przycisku "Stop"
                                 if (!stopButtonAdded) {
                                     const $stopButton = $('<img>')
-                                            .attr('src', 'https://www.arbulang.com/img/stopok2.png')
+                                            .attr('src', 'http://arbu-1dcc9.web.app/img/stopok2.png')
                                             .css({
                                                 'display': 'none', // Ukryty na starcie
                                                 'position': 'absolute', // Precyzyjne pozycjonowanie względem kontenera
@@ -4571,11 +4519,11 @@ ${sentence30}${sentence33}<br>
                                                     if (!video.paused) {
                                                         video.pause();
                                                         // Zmień obrazek na "Play"
-                                                        $stopButton.attr('src', 'https://www.arbulang.com/img/play.png');
+                                                        $stopButton.attr('src', 'http://arbu-1dcc9.web.app/img/play.png');
                                                     } else {
                                                         video.play();
                                                         // Zmień obrazek z powrotem na "Stop"
-                                                        $stopButton.attr('src', 'https://www.arbulang.com/img/stopok2.png');
+                                                        $stopButton.attr('src', 'http://arbu-1dcc9.web.app/img/stopok2.png');
                                                     }
                                                 });
                                             });
@@ -4787,7 +4735,7 @@ ${sentence30}${sentence33}<br>
 // Tworzenie przycisku "Stop"
                                 if (!stopButtonAdded) {
                                     const $stopButton = $('<img>')
-                                            .attr('src', 'https://www.arbulang.com/img/stopok2.png')
+                                            .attr('src', 'http://arbu-1dcc9.web.app/img/stopok2.png')
                                             .css({
                                                 'display': 'none', // Ukryty na starcie
                                                 'position': 'absolute', // Precyzyjne pozycjonowanie względem kontenera
@@ -4805,11 +4753,11 @@ ${sentence30}${sentence33}<br>
                                                     if (!video.paused) {
                                                         video.pause();
                                                         // Zmień obrazek na "Play"
-                                                        $stopButton.attr('src', 'https://www.arbulang.com/img/play.png');
+                                                        $stopButton.attr('src', 'http://arbu-1dcc9.web.app/img/play.png');
                                                     } else {
                                                         video.play();
                                                         // Zmień obrazek z powrotem na "Stop"
-                                                        $stopButton.attr('src', 'https://www.arbulang.com/img/stopok2.png');
+                                                        $stopButton.attr('src', 'http://arbu-1dcc9.web.app/img/stopok2.png');
                                                     }
                                                 });
                                             });
@@ -5015,7 +4963,7 @@ ${sentence30}${sentence33}<br>
 // Tworzenie przycisku "Stop"
                                 if (!stopButtonAdded) {
                                     const $stopButton = $('<img>')
-                                            .attr('src', 'https://www.arbulang.com/img/stopok2.png')
+                                            .attr('src', 'http://arbu-1dcc9.web.app/img/stopok2.png')
                                             .css({
                                                 'display': 'none', // Ukryty na starcie
                                                 'position': 'absolute', // Precyzyjne pozycjonowanie względem kontenera
@@ -5033,11 +4981,11 @@ ${sentence30}${sentence33}<br>
                                                     if (!video.paused) {
                                                         video.pause();
                                                         // Zmień obrazek na "Play"
-                                                        $stopButton.attr('src', 'https://www.arbulang.com/img/play.png');
+                                                        $stopButton.attr('src', 'http://arbu-1dcc9.web.app/img/play.png');
                                                     } else {
                                                         video.play();
                                                         // Zmień obrazek z powrotem na "Stop"
-                                                        $stopButton.attr('src', 'https://www.arbulang.com/img/stopok2.png');
+                                                        $stopButton.attr('src', 'http://arbu-1dcc9.web.app/img/stopok2.png');
                                                     }
                                                 });
                                             });
@@ -5477,7 +5425,7 @@ ${sentence30}${sentence33}<br>
 // Tworzenie przycisku "Stop"
                                     if (!stopButtonAdded) {
                                         const $stopButton = $('<img>')
-                                                .attr('src', 'https://www.arbulang.com/img/stopok2.png')
+                                                .attr('src', 'http://arbu-1dcc9.web.app/img/stopok2.png')
                                                 .css({
                                                     'display': 'none', // Ukryty na starcie
                                                     'position': 'absolute', // Precyzyjne pozycjonowanie względem kontenera
@@ -5495,11 +5443,11 @@ ${sentence30}${sentence33}<br>
                                                         if (!video.paused) {
                                                             video.pause();
                                                             // Zmień obrazek na "Play"
-                                                            $stopButton.attr('src', 'https://www.arbulang.com/img/play.png');
+                                                            $stopButton.attr('src', 'http://arbu-1dcc9.web.app/img/play.png');
                                                         } else {
                                                             video.play();
                                                             // Zmień obrazek z powrotem na "Stop"
-                                                            $stopButton.attr('src', 'https://www.arbulang.com/img/stopok2.png');
+                                                            $stopButton.attr('src', 'http://arbu-1dcc9.web.app/img/stopok2.png');
                                                         }
                                                     });
                                                 });
@@ -5527,7 +5475,7 @@ ${sentence30}${sentence33}<br>
 
                             // Tworzymy przycisk w overlay
                             const $buttonb = $('<img>').attr({
-                                'src': 'https://www.arbulang.com/img/startsystem.png',
+                                'src': 'http://arbu-1dcc9.web.app/img/startsystem.png',
                                 'class': 'overlay-button'
                             });
 if (window.matchMedia("(max-width: 999px)").matches) {
@@ -5579,7 +5527,7 @@ if (window.matchMedia("(max-width: 999px)").matches) {
                             $container.append($overlay); // Nakładka
                             $container.append($buttonb); // Przycisk w nakładce
                             // Dodaj funkcję hover do kontenera
-                            if (indexDiv < 4) {
+                            if (indexDiv < 14) {
                                 // Jeśli indexDiv < 5, dodajemy hover z dynamicznym napisem
                                 $container.hover(function () {
                                     $('.overlay', this).css('transform', 'translateX(0)');
@@ -5597,7 +5545,7 @@ if (window.matchMedia("(max-width: 999px)").matches) {
                                     });
                                 });
                             }
-                                                        if (indexDiv < 9 && indexDiv > 7) {
+                                                        if (indexDiv < 17 && indexDiv > 13) {
                                 // Jeśli indexDiv < 5, dodajemy hover z dynamicznym napisem
                                 $container.hover(function () {
                                     $('.overlay', this).css('transform', 'translateX(0)');
@@ -5611,6 +5559,24 @@ if (window.matchMedia("(max-width: 999px)").matches) {
 
                                     // Usuń dynamiczny div po zakończeniu hovera
                                     $('.dynamic-div2', this).fadeOut(300, function () {
+                                        $(this).remove();
+                                    });
+                                });
+                            }
+                                                                                    if (indexDiv < 18 && indexDiv >= 17) {
+                                // Jeśli indexDiv < 5, dodajemy hover z dynamicznym napisem
+                                $container.hover(function () {
+                                    $('.overlay', this).css('transform', 'translateX(0)');
+
+                                    // Twórz nowy dynamiczny div z napisem
+                                    const $dynamicDiv2 = $('<div>').addClass('dynamic-div3').text('Nowa lekcja - w przygotowaniu');
+                                    // Dodaj dynamiczny div do kontenera
+                                    $dynamicDiv2.appendTo($(this)).fadeIn(300);
+                                }, function () {
+                                    $('.overlay', this).css('transform', 'translateX(100%)');
+
+                                    // Usuń dynamiczny div po zakończeniu hovera
+                                    $('.dynamic-div3', this).fadeOut(300, function () {
                                         $(this).remove();
                                     });
                                 });
@@ -5652,7 +5618,7 @@ ${sentence30}${sentence33}<br>
                     } else {
                         var $sentenceDiv = $('<div></div>');
                         $sentenceDiv.addClass('sentence'); // Dodanie klasy 'sentence'
-                        $sentenceDiv.html(`
+                                $sentenceDiv.html(`
         <div class="sentence-container">
             <span class="category-container">${categoryHTML}</span> <!-- categoryHTML dodane obok -->
             <button class="left-button first-button">+<br></button> <!-- Przycisk po categoryHTML -->
@@ -5660,12 +5626,18 @@ ${sentence30}${sentence33}<br>
         </div>
 <div class="sentence1bba">${sentence1bba}</div>
 <div class="sentence1bba">${sentence1bbab}</div>
-<button class="left-buttonb second-button">+<br></button>
-${sentence20}${sentence22}<br>
+        <div class="sentence-container">
+            <span class="category-container">${categoryHTML2}</span> <!-- categoryHTML dodane obok -->
+            <button class="left-buttonb second-button">+<br></button> <!-- Przycisk po categoryHTML -->
+            ${sentence20}${sentence22}<br>
+        </div>
 <div class="sentence1bb1b">${sentence1bb1b}</div>
 <div class="sentence1bba2">${sentence1bba2}</div>
-<button class="left-buttonbb third-button">+<br></button>
-${sentence30}${sentence33}<br>
+        <div class="sentence-container">
+            <span class="category-container">${categoryHTML3}</span> <!-- categoryHTML dodane obok -->
+            <button class="left-buttonbb third-button">+<br></button> <!-- Przycisk po categoryHTML -->
+            ${sentence30}${sentence33}<br>
+        </div>
         <div class="sentence1bb3">${sentence1bb3}</div>
         <div class="sentence1bb1c">${sentence1bb1c}</div>
 `);
@@ -5747,40 +5719,71 @@ ${sentence30}${sentence33}<br>
                         // Alternatywnie można użyć Number(index55)
                         // const numericIndex = Number(index55);
 
-                                                        setTimeout(() => {
-                                    console.log('hej554', index55b2);
-    if (index55b2 === 1) { // Porównaj jako liczby
-        // Bezpośrednio przekierowujemy użytkownika do strony
-        window.location.href = 'demo1esp.html?category=' + encodeURIComponent(globalCategory);
-    }
-    if (index55b2 === 2) { // Porównaj jako liczby
-        // Bezpośrednio przekierowujemy użytkownika do strony
-        window.location.href = 'demo2esp.html?category=' + encodeURIComponent(globalCategory);
-    }
-    if (index55b2 === 3) { // Porównaj jako liczby
-        // Bezpośrednio przekierowujemy użytkownika do strony
-        window.location.href = 'demo3esp.html?category=' + encodeURIComponent(globalCategory);
-    }
-        if (index55b2 === 4) { // Porównaj jako liczby
-        // Bezpośrednio przekierowujemy użytkownika do strony
-        window.location.href = 'demo4esp.html?category=' + encodeURIComponent(globalCategory);
-    }
-        if (index55b2 === 5) { // Porównaj jako liczby
-        // Bezpośrednio przekierowujemy użytkownika do strony
-        window.location.href = 'demo5esp.html?category=' + encodeURIComponent(globalCategory);
-    }
-        if (index55b2 === 6) { // Porównaj jako liczby
-        // Bezpośrednio przekierowujemy użytkownika do strony
-        window.location.href = 'demo6esp.html?category=' + encodeURIComponent(globalCategory);
-    }
-            if (index55b2 === 7) { // Porównaj jako liczby
-        // Bezpośrednio przekierowujemy użytkownika do strony
-        window.location.href = 'demo7esp.html?category=' + encodeURIComponent(globalCategory);
-    }
-        if (index55b2 === 8) { // Porównaj jako liczby
-        // Bezpośrednio przekierowujemy użytkownika do strony
-        window.location.href = 'demo8esp.html?category=' + encodeURIComponent(globalCategory);
-    }
+                        setTimeout(() => {
+                            if (index55b2 === 1) {
+                                // Bezpośrednio przekierowujemy użytkownika do strony
+                                window.location.href = 'demo1angielski.html?category=' + encodeURIComponent(globalCategory);
+                            }
+                            if (index55b2 === 2) {
+                                // Bezpośrednio przekierowujemy użytkownika do strony
+                                window.location.href = 'demo2angielski.html?category=' + encodeURIComponent(globalCategory);
+                            }
+                            if (index55b2 === 3) {
+                                // Bezpośrednio przekierowujemy użytkownika do strony
+                                window.location.href = 'demo3angielski.html?category=' + encodeURIComponent(globalCategory);
+                            }
+                            if (index55b2 === 4) {
+                                // Bezpośrednio przekierowujemy użytkownika do strony
+                                window.location.href = 'demo4angielski.html?category=' + encodeURIComponent(globalCategory);
+                            }
+                            if (index55b2 === 5) {
+                                // Bezpośrednio przekierowujemy użytkownika do strony
+                                window.location.href = 'demo5angielski.html?category=' + encodeURIComponent(globalCategory);
+                            }
+                            if (index55b2 === 6) {
+                                // Bezpośrednio przekierowujemy użytkownika do strony
+                                window.location.href = 'demo6angielski.html?category=' + encodeURIComponent(globalCategory);
+                            }
+                            if (index55b2 === 7) {
+                                // Bezpośrednio przekierowujemy użytkownika do strony
+                                window.location.href = 'demo7angielski.html?category=' + encodeURIComponent(globalCategory);
+                            }
+                            if (index55b2 === 8) {
+                                // Bezpośrednio przekierowujemy użytkownika do strony
+                                window.location.href = 'demo8angielski.html?category=' + encodeURIComponent(globalCategory);
+                            }
+                            if (index55b2 === 9) {
+                                // Bezpośrednio przekierowujemy użytkownika do strony
+                                window.location.href = 'demo9angielski.html?category=' + encodeURIComponent(globalCategory);
+                            }
+                            if (index55b2 === 10) {
+                                // Bezpośrednio przekierowujemy użytkownika do strony
+                                window.location.href = 'demo10angielski.html?category=' + encodeURIComponent(globalCategory);
+                            }
+                            if (index55b2 === 11) {
+                                // Bezpośrednio przekierowujemy użytkownika do strony
+                                window.location.href = 'demo11angielski.html?category=' + encodeURIComponent(globalCategory);
+                            }
+                            if (index55b2 === 12) {
+                                // Bezpośrednio przekierowujemy użytkownika do strony
+                                window.location.href = 'demo12angielski.html?category=' + encodeURIComponent(globalCategory);
+                            }
+                            if (index55b2 === 13) {
+                                // Bezpośrednio przekierowujemy użytkownika do strony
+                                window.location.href = 'demo13angielski.html?category=' + encodeURIComponent(globalCategory);
+                            }
+                                                        if (index55b2 === 14) {
+                                // Bezpośrednio przekierowujemy użytkownika do strony
+                                window.location.href = 'demo14angielski.html?category=' + encodeURIComponent(globalCategory);
+                            }
+                                                                                    if (index55b2 === 15) {
+                                // Bezpośrednio przekierowujemy użytkownika do strony
+                                window.location.href = 'demo15angielski.html?category=' + encodeURIComponent(globalCategory);
+                            }
+                                                                                                                if (index55b2 === 16) {
+                                // Bezpośrednio przekierowujemy użytkownika do strony
+                                window.location.href = 'demo16angielski.html?category=' + encodeURIComponent(globalCategory);
+                            }
                         }, 1000);
                         // Usunięcie kontenera po wstawieniu nowego
                     });
@@ -6325,7 +6328,7 @@ ${sentence10}${sentence11}<br>
                             // Tworzenie przycisku "Stop"
                             if (!stopButtonAdded) {
                                 const $stopButton = $('<img>')
-                                        .attr('src', 'https://www.arbulang.com/img/stopok2.png')
+                                        .attr('src', 'http://arbu-1dcc9.web.app/img/stopok2.png')
                                         .css({
                                             'display': 'none', // Ukryty na starcie
                                             'position': 'absolute', // Precyzyjne pozycjonowanie względem kontenera
@@ -6343,11 +6346,11 @@ ${sentence10}${sentence11}<br>
                                                 if (!video.paused) {
                                                     video.pause();
                                                     // Zmień obrazek na "Play"
-                                                    $stopButton.attr('src', 'https://www.arbulang.com/img/play.png');
+                                                    $stopButton.attr('src', 'http://arbu-1dcc9.web.app/img/play.png');
                                                 } else {
                                                     video.play();
                                                     // Zmień obrazek z powrotem na "Stop"
-                                                    $stopButton.attr('src', 'https://www.arbulang.com/img/stopok2.png');
+                                                    $stopButton.attr('src', 'http://arbu-1dcc9.web.app/img/stopok2.png');
                                                 }
                                             });
                                         });
@@ -6521,7 +6524,7 @@ ${sentence10}${sentence11}<br>
                             // Tworzenie przycisku "Stop"
                             if (!stopButtonAdded) {
                                 const $stopButton = $('<img>')
-                                        .attr('src', 'https://www.arbulang.com/img/stopok2.png')
+                                        .attr('src', 'http://arbu-1dcc9.web.app/img/stopok2.png')
                                         .css({
                                             'display': 'none', // Ukryty na starcie
                                             'position': 'absolute', // Precyzyjne pozycjonowanie względem kontenera
@@ -6539,11 +6542,11 @@ ${sentence10}${sentence11}<br>
                                                 if (!video.paused) {
                                                     video.pause();
                                                     // Zmień obrazek na "Play"
-                                                    $stopButton.attr('src', 'https://www.arbulang.com/img/play.png');
+                                                    $stopButton.attr('src', 'http://arbu-1dcc9.web.app/img/play.png');
                                                 } else {
                                                     video.play();
                                                     // Zmień obrazek z powrotem na "Stop"
-                                                    $stopButton.attr('src', 'https://www.arbulang.com/img/stopok2.png');
+                                                    $stopButton.attr('src', 'http://arbu-1dcc9.web.app/img/stopok2.png');
                                                 }
                                             });
                                         });
@@ -6581,7 +6584,7 @@ ${sentence10}${sentence11}<br>
                             // Utwórz element <div> dla nakładki
                             const $overlay = $('<div>').addClass('overlay');
                             const $buttonb = $('<img>').attr({
-                                'src': 'https://www.arbulang.com/img/startsystem.png', // Względna ścieżka do pliku PNG
+                                'src': 'http://arbu-1dcc9.web.app/img/startsystem.png', // Względna ścieżka do pliku PNG
                                 'class': 'overlay-button' // Klasa dla stylów CSS
                             });
                             if (window.matchMedia("(max-width: 999px)").matches) {
@@ -6634,7 +6637,7 @@ ${sentence10}${sentence11}<br>
                             // Dodaj przycisk do nakładki
                             $buttonb.appendTo($container);
 
-                            if (indexDiv < 22) {
+                            if (indexDiv < 34) {
                                 // Jeśli indexDiv < 5, dodajemy hover z dynamicznym napisem
                                 $container.hover(function () {
                                     $('.overlay', this).css('transform', 'translateX(0)');
@@ -6652,7 +6655,7 @@ ${sentence10}${sentence11}<br>
                                     });
                                 });
                             }
-                                                                                    if (indexDiv < 23 && indexDiv > 21) {
+                                                                                    if (indexDiv < 51 && indexDiv > 48) {
                                 // Jeśli indexDiv < 5, dodajemy hover z dynamicznym napisem
                                 $container.hover(function () {
                                     $('.overlay', this).css('transform', 'translateX(0)');
@@ -6670,34 +6673,15 @@ ${sentence10}${sentence11}<br>
                                     });
                                 });
                             }
-                                                                                                                if (indexDiv < 25 && indexDiv >= 23) {
-                                // Jeśli indexDiv < 5, dodajemy hover z dynamicznym napisem
-                                $container.hover(function () {
-                                    $('.overlay', this).css('transform', 'translateX(0)');
-
-                                    // Twórz nowy dynamiczny div z napisem
-                                    const $dynamicDiv2 = $('<div>').addClass('dynamic-div3').text('Nowa lekcja - w przygotowaniu');
-                                    // Dodaj dynamiczny div do kontenera
-                                    $dynamicDiv2.appendTo($(this)).fadeIn(300);
-                                }, function () {
-                                    $('.overlay', this).css('transform', 'translateX(100%)');
-
-                                    // Usuń dynamiczny div po zakończeniu hovera
-                                    $('.dynamic-div3', this).fadeOut(300, function () {
-                                        $(this).remove();
-                                    });
-                                });
-                            }
 // Ustal szerokości przycisków
                             const startSystemWidth = 30; // Szerokość startsystem
                             const quickLessonWidth = 95; // Szerokość przycisku "Szybka lekcja"
 
                             // Obsługa kliknięcia przycisku overlay
                             $buttonb.on('click', function () {
-$('.run-button3').css({
-    'margin-top': '70px',
-    'display': 'block'
-});
+    $('.run-button3').css({
+        'margin-top': '40px'
+    });
 $buttonb.remove();
                                 // Dodaj kopię wartości indexDiv do tablicy
                                 // Przykład nowej wartości indexDiv
@@ -7690,99 +7674,207 @@ if (currentFiszkaIndex === 0) {
                             console.log('hej554', index55b2);
                             if (index55b2 === 1) { // Porównaj jako liczby
                                 // Bezpośrednio przekierowujemy użytkownika do strony
-                                window.location.href = 'demo1espb.html?category=' + encodeURIComponent(globalCategory);
+                                window.location.href = 'demo1angielskib.html?category=' + encodeURIComponent(globalCategory);
                             }
                             if (index55b2 === 2) {
                                 // Bezpośrednio przekierowujemy użytkownika do strony
-                                window.location.href = 'demo2espb.html?category=' + encodeURIComponent(globalCategory);
+                                window.location.href = 'demo2angielskib.html?category=' + encodeURIComponent(globalCategory);
                             }
                             if (index55b2 === 3) {
                                 // Bezpośrednio przekierowujemy użytkownika do strony
-                                window.location.href = 'demo3espb.html?category=' + encodeURIComponent(globalCategory);
+                                window.location.href = 'demo3angielskib.html?category=' + encodeURIComponent(globalCategory);
                             }
                             if (index55b2 === 4) { // Porównaj jako liczby
                                 // Bezpośrednio przekierowujemy użytkownika do strony
-                                window.location.href = 'demo4espb.html?category=' + encodeURIComponent(globalCategory);
+                                window.location.href = 'demo4angielskib.html?category=' + encodeURIComponent(globalCategory);
                             }
                             if (index55b2 === 5) {
                                 // Bezpośrednio przekierowujemy użytkownika do strony
-                                window.location.href = 'demo5espb.html?category=' + encodeURIComponent(globalCategory);
+                                window.location.href = 'demo5angielskib.html?category=' + encodeURIComponent(globalCategory);
                             }
                             if (index55b2 === 6) {
                                 // Bezpośrednio przekierowujemy użytkownika do strony
-                                window.location.href = 'demo6espb.html?category=' + encodeURIComponent(globalCategory);
+                                window.location.href = 'demo6angielskib.html?category=' + encodeURIComponent(globalCategory);
                             }
                             if (index55b2 === 7) { // Porównaj jako liczby
                                 // Bezpośrednio przekierowujemy użytkownika do strony
-                                window.location.href = 'demo7espb.html?category=' + encodeURIComponent(globalCategory);
+                                window.location.href = 'demo7angielskib.html?category=' + encodeURIComponent(globalCategory);
                             }
                             if (index55b2 === 8) {
                                 // Bezpośrednio przekierowujemy użytkownika do strony
-                                window.location.href = 'demo8espb.html?category=' + encodeURIComponent(globalCategory);
+                                window.location.href = 'demo8angielskib.html?category=' + encodeURIComponent(globalCategory);
                             }
                             if (index55b2 === 9) {
                                 // Bezpośrednio przekierowujemy użytkownika do strony
-                                window.location.href = 'demo9espb.html?category=' + encodeURIComponent(globalCategory);
+                                window.location.href = 'demo9angielskib.html?category=' + encodeURIComponent(globalCategory);
                             }
                             if (index55b2 === 10) { // Porównaj jako liczby
                                 // Bezpośrednio przekierowujemy użytkownika do strony
-                                window.location.href = 'demo10espb.html?category=' + encodeURIComponent(globalCategory);
+                                window.location.href = 'demo10angielskib.html?category=' + encodeURIComponent(globalCategory);
                             }
                             if (index55b2 === 11) {
                                 // Bezpośrednio przekierowujemy użytkownika do strony
-                                window.location.href = 'demo11espb.html?category=' + encodeURIComponent(globalCategory);
+                                window.location.href = 'demo11angielskib.html?category=' + encodeURIComponent(globalCategory);
                             }
                             if (index55b2 === 12) {
                                 // Bezpośrednio przekierowujemy użytkownika do strony
-                                window.location.href = 'demo12espb.html?category=' + encodeURIComponent(globalCategory);
+                                window.location.href = 'demo12angielskib.html?category=' + encodeURIComponent(globalCategory);
                             }
                             if (index55b2 === 13) {
                                 // Bezpośrednio przekierowujemy użytkownika do strony
-                                window.location.href = 'demo13espb.html?category=' + encodeURIComponent(globalCategory);
+                                window.location.href = 'demo13angielskib.html?category=' + encodeURIComponent(globalCategory);
                             }
                             if (index55b2 === 14) {
                                 // Bezpośrednio przekierowujemy użytkownika do strony
-                                window.location.href = 'demo14espb.html?category=' + encodeURIComponent(globalCategory);
+                                window.location.href = 'demo14angielskib.html?category=' + encodeURIComponent(globalCategory);
                             }
                             if (index55b2 === 15) {
                                 // Bezpośrednio przekierowujemy użytkownika do strony
-                                window.location.href = 'demo15espb.html?category=' + encodeURIComponent(globalCategory);
+                                window.location.href = 'demo15angielskib.html?category=' + encodeURIComponent(globalCategory);
                             }
                             if (index55b2 === 16) {
                                 // Bezpośrednio przekierowujemy użytkownika do strony
-                                window.location.href = 'demo16espb.html?category=' + encodeURIComponent(globalCategory);
+                                window.location.href = 'demo16angielskib.html?category=' + encodeURIComponent(globalCategory);
                             }
                             if (index55b2 === 17) {
                                 // Bezpośrednio przekierowujemy użytkownika do strony
-                                window.location.href = 'demo17espb.html?category=' + encodeURIComponent(globalCategory);
+                                window.location.href = 'demo17angielskib.html?category=' + encodeURIComponent(globalCategory);
                             }
                             if (index55b2 === 18) {
                                 // Bezpośrednio przekierowujemy użytkownika do strony
-                                window.location.href = 'demo18espb.html?category=' + encodeURIComponent(globalCategory);
+                                window.location.href = 'demo18angielskib.html?category=' + encodeURIComponent(globalCategory);
                             }
                             if (index55b2 === 19) {
                                 // Bezpośrednio przekierowujemy użytkownika do strony
-                                window.location.href = 'demo19espb.html?category=' + encodeURIComponent(globalCategory);
+                                window.location.href = 'demo19angielskib.html?category=' + encodeURIComponent(globalCategory);
                             }
                             if (index55b2 === 20) {
                                 // Bezpośrednio przekierowujemy użytkownika do strony
-                                window.location.href = 'demo20espb.html?category=' + encodeURIComponent(globalCategory);
+                                window.location.href = 'demo20angielskib.html?category=' + encodeURIComponent(globalCategory);
                             }
                             if (index55b2 === 21) {
                                 // Bezpośrednio przekierowujemy użytkownika do strony
-                                window.location.href = 'demo21espb.html?category=' + encodeURIComponent(globalCategory);
+                                window.location.href = 'demo21angielskib.html?category=' + encodeURIComponent(globalCategory);
                             }
                             if (index55b2 === 22) {
                                 // Bezpośrednio przekierowujemy użytkownika do strony
-                                window.location.href = 'demo22espb.html?category=' + encodeURIComponent(globalCategory);
+                                window.location.href = 'demo22angielskib.html?category=' + encodeURIComponent(globalCategory);
                             }
                             if (index55b2 === 23) {
                                 // Bezpośrednio przekierowujemy użytkownika do strony
-                                window.location.href = 'demo23espb.html?category=' + encodeURIComponent(globalCategory);
+                                window.location.href = 'demo23angielskib.html?category=' + encodeURIComponent(globalCategory);
                             }
                             if (index55b2 === 24) {
                                 // Bezpośrednio przekierowujemy użytkownika do strony
-                                window.location.href = 'demo24espb.html?category=' + encodeURIComponent(globalCategory);
+                                window.location.href = 'demo24angielskib.html?category=' + encodeURIComponent(globalCategory);
+                            }
+                            if (index55b2 === 25) {
+                                // Bezpośrednio przekierowujemy użytkownika do strony
+                                window.location.href = 'demo25angielskib.html?category=' + encodeURIComponent(globalCategory);
+                            }
+                            if (index55b2 === 26) {
+                                // Bezpośrednio przekierowujemy użytkownika do strony
+                                window.location.href = 'demo26angielskib.html?category=' + encodeURIComponent(globalCategory);
+                            }
+                            if (index55b2 === 27) {
+                                // Bezpośrednio przekierowujemy użytkownika do strony
+                                window.location.href = 'demo27angielskib.html?category=' + encodeURIComponent(globalCategory);
+                            }
+                            if (index55b2 === 28) {
+                                // Bezpośrednio przekierowujemy użytkownika do strony
+                                window.location.href = 'demo28angielskib.html?category=' + encodeURIComponent(globalCategory);
+                            }
+                            if (index55b2 === 29) {
+                                // Bezpośrednio przekierowujemy użytkownika do strony
+                                window.location.href = 'demo29angielskib.html?category=' + encodeURIComponent(globalCategory);
+                            }
+                            if (index55b2 === 30) {
+                                // Bezpośrednio przekierowujemy użytkownika do strony
+                                window.location.href = 'demo30angielskib.html?category=' + encodeURIComponent(globalCategory);
+                            }
+                            if (index55b2 === 31) {
+                                // Bezpośrednio przekierowujemy użytkownika do strony
+                                window.location.href = 'demo31angielskib.html?category=' + encodeURIComponent(globalCategory);
+                            }
+                            if (index55b2 === 32) {
+                                // Bezpośrednio przekierowujemy użytkownika do strony
+                                window.location.href = 'demo32angielskib.html?category=' + encodeURIComponent(globalCategory);
+                            }
+                            if (index55b2 === 33) {
+                                // Bezpośrednio przekierowujemy użytkownika do strony
+                                window.location.href = 'demo33angielskib.html?category=' + encodeURIComponent(globalCategory);
+                            }
+                                                        if (index55b2 === 34) {
+                                // Bezpośrednio przekierowujemy użytkownika do strony
+                                window.location.href = 'demo34angielskib.html?category=' + encodeURIComponent(globalCategory);
+                            }
+                            if (index55b2 === 35) {
+                                // Bezpośrednio przekierowujemy użytkownika do strony
+                                window.location.href = 'demo35angielskib.html?category=' + encodeURIComponent(globalCategory);
+                            }
+                            if (index55b2 === 36) {
+                                // Bezpośrednio przekierowujemy użytkownika do strony
+                                window.location.href = 'demo36angielskib.html?category=' + encodeURIComponent(globalCategory);
+                            }
+                                                        if (index55b2 === 37) {
+                                // Bezpośrednio przekierowujemy użytkownika do strony
+                                window.location.href = 'demo37angielskib.html?category=' + encodeURIComponent(globalCategory);
+                            }
+                            if (index55b2 === 38) {
+                                // Bezpośrednio przekierowujemy użytkownika do strony
+                                window.location.href = 'demo38angielskib.html?category=' + encodeURIComponent(globalCategory);
+                            }
+                            if (index55b2 === 39) {
+                                // Bezpośrednio przekierowujemy użytkownika do strony
+                                window.location.href = 'demo39angielskib.html?category=' + encodeURIComponent(globalCategory);
+                            }
+                                                                                    if (index55b2 === 37) {
+                                // Bezpośrednio przekierowujemy użytkownika do strony
+                                window.location.href = 'demo37angielskib.html?category=' + encodeURIComponent(globalCategory);
+                            }
+                            if (index55b2 === 38) {
+                                // Bezpośrednio przekierowujemy użytkownika do strony
+                                window.location.href = 'demo38angielskib.html?category=' + encodeURIComponent(globalCategory);
+                            }
+                            if (index55b2 === 39) {
+                                // Bezpośrednio przekierowujemy użytkownika do strony
+                                window.location.href = 'demo39angielskib.html?category=' + encodeURIComponent(globalCategory);
+                            }
+                                                                                    if (index55b2 === 40) {
+                                // Bezpośrednio przekierowujemy użytkownika do strony
+                                window.location.href = 'demo40angielskib.html?category=' + encodeURIComponent(globalCategory);
+                            }
+                            if (index55b2 === 41) {
+                                // Bezpośrednio przekierowujemy użytkownika do strony
+                                window.location.href = 'demo41angielskib.html?category=' + encodeURIComponent(globalCategory);
+                            }
+                            if (index55b2 === 42) {
+                                // Bezpośrednio przekierowujemy użytkownika do strony
+                                window.location.href = 'demo42angielskib.html?category=' + encodeURIComponent(globalCategory);
+                            }
+                                                                                    if (index55b2 === 43) {
+                                // Bezpośrednio przekierowujemy użytkownika do strony
+                                window.location.href = 'demo43angielskib.html?category=' + encodeURIComponent(globalCategory);
+                            }
+                            if (index55b2 === 44) {
+                                // Bezpośrednio przekierowujemy użytkownika do strony
+                                window.location.href = 'demo44angielskib.html?category=' + encodeURIComponent(globalCategory);
+                            }
+                            if (index55b2 === 45) {
+                                // Bezpośrednio przekierowujemy użytkownika do strony
+                                window.location.href = 'demo45angielskib.html?category=' + encodeURIComponent(globalCategory);
+                            }
+                                                                                    if (index55b2 === 46) {
+                                // Bezpośrednio przekierowujemy użytkownika do strony
+                                window.location.href = 'demo46angielskib.html?category=' + encodeURIComponent(globalCategory);
+                            }
+                            if (index55b2 === 47) {
+                                // Bezpośrednio przekierowujemy użytkownika do strony
+                                window.location.href = 'demo47angielskib.html?category=' + encodeURIComponent(globalCategory);
+                            }
+                            if (index55b2 === 48) {
+                                // Bezpośrednio przekierowujemy użytkownika do strony
+                                window.location.href = 'demo48angielskib.html?category=' + encodeURIComponent(globalCategory);
                             }
                         }, 1000);
                         // Usunięcie kontenera po wstawieniu nowego
@@ -8313,7 +8405,7 @@ ${sentence10}<br>
                             // Utwórz element <div> dla nakładki
                             const $overlay = $('<div>').addClass('overlay');
                             const $buttonb = $('<img>').attr({
-                                'src': 'https://www.arbulang.com/img/startsystem.png', // Względna ścieżka do pliku PNG
+                                'src': 'http://arbu-1dcc9.web.app/img/startsystem.png', // Względna ścieżka do pliku PNG
                                 'class': 'overlay-button' // Klasa dla stylów CSS
                             }).css({
                                 'position': 'absolute',
