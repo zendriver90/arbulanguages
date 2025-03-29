@@ -1282,13 +1282,15 @@ id: [
 ],
         // obrazek
         img: [
-                "https://www.arbulang.com/img/fiszki1en-esp/36a.jpg"
+                "https://www.arbulang.com/img/fiszki1en-esp/65a.jpg",
+                 "https://www.arbulang.com/img/fiszki1en-esp/36a.jpg"
         ],
         word: [
-                "https://www.arbulang.com/voice/lee.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // historia
         story: [
+                "<b><u>And</b></u> this is <b><u>i</b></u>t",
                 "<b><u>I</b></u>nternet <b><u>and</b></u> computer were great inventions"
         ],
         // opis
@@ -2151,17 +2153,17 @@ id: [
 ],
         // obrazek
         img: [
-                ""
+                "https://www.arbulang.com/img/fiszki1en-esp/61a.jpg"
         ],
         word: [
                 "https://www.arbulang.com/voice/music.mp4"
         ],
         // historia
         story: [
-                "P<b><u>ante</b></u>on was greece building which hase very artistic style <b><u>es</b></u>pecially when it comes about decorations. Pantheon was invented <b><u>before</b></u> Jesus time"
+                "The P<b><u>anthe</b></u>on was a Greek building a very artistic style <b><u>es</b></u>pecially when it terms of decorations. It was build <b><u>before</b></u> tjhe time of Jesus"
         ],
         // opis
-        desc: "antes de[ahn-tes de] - przed",
+        desc: "antes de[ahn-tes de] - before",
         //zdanie
         sentence2: [
                 "antes de"
@@ -2184,17 +2186,17 @@ id: [
 ],
         // obrazek
         img: [
-                ""
+                "https://www.arbulang.com/img/fiszki1en-esp/62a.jpg"
         ],
         word: [
                 "https://www.arbulang.com/voice/music.mp4"
         ],
         // historia
         story: [
-                "I enter my housed <b><u>door</b></u> ang go to <b><u>sleep</b></u> every night, my dreams are ofthen <b><u>mir</b></u>acles"
+                "I enter my house <b><u>door</b></u> ang go to <b><u>sleep</b></u> every night, my dreams are often <b><u>mir</b></u>acles"
         ],
         // opis
-        desc: "dormir[dormir] - sypiać",
+        desc: "dormir[dormir] - sleep",
         //zdanie
         sentence2: [
                 "dormir"
@@ -2217,7 +2219,7 @@ id: [
 ],
         // obrazek
         img: [
-                ""
+                "https://www.arbulang.com/img/fiszki1en-esp/63a.jpg"
         ],
         translate: "To stay calm and enjoy together",
         translateb: "[Mantener la kalma i disfrutar huntos]",
@@ -2228,10 +2230,10 @@ id: [
         ],
         // historia
         story: [
-                "This <b><u>com</b></u>mand <b><u>keep</b></u> whole group in check... <b><u>Ten</b></u>sion is big, p<b><u>er</b></u> hour everybody gym with train<b><u>er</b></u>"
+                "This <b><u>comm</b></u>and <b><u>keeps</b></u> the whole group in check... <b><u>Ten</b></u>sion is high, p<b><u>er</b></u> hour everybody trains at the gym with a train<b><u>er</b></u>"
         ],
         // opis
-        desc: "mantener[mantener] - zachować/utrzymać",
+        desc: "mantener[mantener] - keep",
         //zdanie
         sentence1: [
                 "Mantener"
@@ -2255,14 +2257,14 @@ id: [
 ],
         // obrazek
         img: [
-                ""
+                "https://www.arbulang.com/img/fiszki1en-esp/64a.jpg"
         ],
         word: [
                 "https://www.arbulang.com/voice/music.mp4"
         ],
         // historia
         story: [
-                "In this c<b><u>la</b></u>ss there is a <b><u>calm<b><u>. Some person made a <b><u>ca</b></u>ll to his <b><u>ma</b></u>ther"
+                "There is <b><u>calm</b></u>ness in this c<b><u>la</b></u>ss. Someone made a <b><u>ca</b></u>ll to his <b><u>mo</b></u>ther"
         ],
         // opis
         desc: "la calma[la kalma] - calm",
@@ -2288,17 +2290,19 @@ id: [
 ],
         // obrazek
         img: [
-                ""
+                "https://www.arbulang.com/img/fiszki1en-esp/65a.jpg",
+                 "https://www.arbulang.com/img/fiszki1en-esp/36a.jpg"
         ],
         word: [
                 "https://www.arbulang.com/voice/music.mp4"
         ],
         // historia
         story: [
-                "<b><u>And</b></u> this is <b><u>i</b></u>t"
+                "<b><u>And</b></u> this is <b><u>i</b></u>t",
+                "<b><u>I</b></u>nternet <b><u>and</b></u> computer were great inventions"
         ],
         // opis
-        desc: "y[i] - i",
+        desc: "y[ee] - and",
         //zdanie
         sentence2: [
                 "y"
@@ -2322,17 +2326,17 @@ id: [
 ],
         // obrazek
         img: [
-                ""
+                "https://www.arbulang.com/img/fiszki1en-esp/66a.jpg"
         ],
         word: [
                 "https://www.arbulang.com/voice/music.mp4"
         ],
         // historia
         story: [
-                "Ma<b><u>dis</b></u>on <b><u>enjoy</b></u> the show but she is <b><u>fru</b></u>strated becouse she can't find his <b><u>tar</b></u>get"
+                "Ma<b><u>dis</b></u>on <b><u>enjoys</b></u> the show but she is <b><u>fru</b></u>strated becouse she can't find her <b><u>tar</b></u>get"
         ],
         // opis
-        desc: "disfrutar[disfrutar] - cieszyć się",
+        desc: "disfrutar[disfrutar] - enjoy",
         //zdanie
         sentence2: [
                 "disfrutar"
@@ -2356,14 +2360,14 @@ id: [
 ],
         // obrazek
         img: [
-                ""
+                "https://www.arbulang.com/img/fiszki1en-esp/67a.jpg"
         ],
         word: [
                 "https://www.arbulang.com/voice/music.mp4"
         ],
         // historia
         story: [
-                "<b><u>H</b></u>enry play the game <b><u>together</b></u> with friend <b><u>unt</b></u>il they win... They <b><u>toss</b></u>ing the ball in basketball"
+                "<b><u>H</b></u>enry plays the game <b><u>together</b></u> with friend <b><u>unt</b></u>il they win... They are <b><u>toss</b></u>ing the ball in basketball"
         ],
         // opis
         desc: "juntos[huntos] - razem",
@@ -2390,7 +2394,7 @@ id: [
 ],
         // obrazek
         img: [
-                "https://www.arbulang.com/img/fiszkiespanol/29a.jpg"
+                "https://www.arbulang.com/img/fiszki1en-esp/68a.jpg"
         ],
         translate: "To achieve dreams through effort and dedication",
         translateb: "[Lograr sueños con esfuerzo y dedicación]",
@@ -2401,7 +2405,7 @@ id: [
         ],
         // historia
         story: [
-                "In the game im <b><u>logg</b></u>ed in and i <b><u>achive</b></u> very <b><u>rar</b></u>ity skills"
+                "In the game im <b><u>logg</b></u>ed in and i <b><u>achive</b></u> very <b><u>rar</b></u>e skills"
         ],
         // opis
         desc: "lograr[lograr] - osiągać",
@@ -2429,7 +2433,7 @@ id: [
 ],
         // obrazek
         img: [
-                "https://www.arbulang.com/img/fiszkiespanol/30a.jpg"
+                "https://www.arbulang.com/img/fiszki1en-esp/69a.jpg"
         ],
         word: [
                 "https://www.arbulang.com/voice/music.mp4"
@@ -2463,8 +2467,7 @@ id: [
 ],
         // obrazek
         img: [
-            "https://www.arbulang.com/img/fiszkiespanol/17a.jpg",
-                "https://www.arbulang.com/img/fiszkiespanol/31a.jpg"
+            "https://www.arbulang.com/img/fiszki1en-esp/56a.jpg"
         ],
         word: [
                 "https://www.arbulang.com/voice/music.mp4"
@@ -2498,14 +2501,14 @@ id: [
 ],
         // obrazek
         img: [
-                "https://www.arbulang.com/img/fiszkiespanol/32a.jpg"
+                "https://www.arbulang.com/img/fiszkiespanol/71a.jpg"
         ],
         word: [
                 "https://www.arbulang.com/voice/music.mp4"
         ],
         // historia
         story: [
-                ""
+                "The l<b><u>ess</b></u> <b><u>ef</b></u>ort the less you gain in <b><u>fu</b></u>rther. Sometimes you meet <b><u>er</b></u>ror but not give up <b><u>to</b></u> gain success"
         ],
         // opis
         desc: "esfuerzo[esfłerto] - wysiłek",
@@ -2532,17 +2535,19 @@ id: [
 ],
         // obrazek
         img: [
-                "https://www.arbulang.com/img/fiszkiespanol/26a.jpg"
+                "https://www.arbulang.com/img/fiszki1en-esp/65a.jpg",
+                 "https://www.arbulang.com/img/fiszki1en-esp/36a.jpg"
         ],
         word: [
                 "https://www.arbulang.com/voice/music.mp4"
         ],
         // historia
         story: [
-                "<u><b>I</u></b> tak dalej.."
+                "<b><u>And</b></u> this is <b><u>i</b></u>t",
+                "<b><u>I</b></u>nternet <b><u>and</b></u> computer were great inventions"
         ],
         // opis
-        desc: "y[i] - i",
+        desc: "y[ee] - and",
         //zdanie
         sentence2: [
                 "y"
@@ -2573,7 +2578,7 @@ id: [
         ],
         // historia
         story: [
-                "<u><b>D</u></b>rugi z braci <u><b>Edi</u></b>, <u><b>ka</u></b>rmi cały dzień konie i gę<u><b>sio</u></b>ry z <u><b>poświęceniem</u></b> <u><b>n</u></b>a gospodarstwie"
+                ""
         ],
         // opis
         desc: "dedication[dedikasion] - poświęcenie",

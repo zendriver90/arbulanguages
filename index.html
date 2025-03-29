@@ -54,6 +54,9 @@ html, body {
         margin-left: 400px;
         margin-top: -100px;
 }
+#polski6 {
+        color: blue;
+}
 #jezyk {
     font-size: 20px;
     display: block;
@@ -78,6 +81,7 @@ body {
     display: flex;
     flex-direction: column; /* Ustawia elementy (grid i button) w kolumnie */
     align-items: center; /* Wyśrodkowanie w poziomie */
+    margin-top: 440px;
 }
 
 .flag-container {
@@ -138,15 +142,16 @@ button {
                                 @media (max-width: 999px) {
                                     html, body {
     height: 100%;
-    margin: 0;
+    margin-top: 0px;
 }
 
 #polski,
 #angielski,
 #british,
 #hungarian {
-    font-size: 10px;
+    font-size: 14px;
     position: absolute;
+    color: orange;
     z-index: 9999;
     color: white;
 }
@@ -156,10 +161,20 @@ button {
     position: absolute;
     z-index: 9999;
     color: white;
-    margin-top: 70px;
+    margin-top: 30px;
+}
+#polski4 {
+        display: block;
+        margin-top: 0px;
+}
+#polski4b {
+        display: block;
+        color: blue;
+        margin-top: 100px;
 }
 #polski3 {
         display: none;
+        width: 160px;
         font-size: 14px;
         position: absolute;
         z-index: 9999;
@@ -168,7 +183,8 @@ button {
         margin-top: -100px;
 }
 #polski5 {
-        display: block;
+        display: none;
+                width: 160px;
         font-size: 14px;
         position: absolute;
         z-index: 9999;
@@ -176,11 +192,11 @@ button {
         margin-left: 200px;
         margin-top: -100px;
 }
+#nowy {
+    margin-top: 40px;
+}
 body {
     font-family: Arial, sans-serif;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     text-align: center;
 }
 
@@ -193,7 +209,7 @@ body {
     display: grid;
     grid-template-columns: repeat(2, 1fr); /* Dwie kolumny o równym podziale */
     gap: 10px; /* Odstęp między elementami */
-    margin-bottom: 20px;
+    margin-bottom: -100px;
 }
 
 .flag-container div {
@@ -207,7 +223,9 @@ body {
     border-color: #007BFF;
     margin: 0px;
 }
-
+#language-options {
+    margin-top: 100px;
+}
 video {
     width: 100%; /* Wideo dostosuje się do szerokości rodzica */
     height: auto; /* Wysokość będzie automatyczna */
@@ -215,7 +233,7 @@ video {
 }
 
 button {
-    margin-top: 20px;
+    margin-top: 120px;
     padding: 10px 20px;
     font-size: 1.2rem;
     cursor: pointer;
@@ -223,7 +241,9 @@ button {
 }
 
 #start-btn {
-    margin-left: 135px;
+      width: 50%; /* lub dowolna inna szerokość */
+  margin-left: auto;
+  margin-right: auto;
     text-align: center;
     padding: 10px 20px;
     font-size: 16px;
@@ -241,21 +261,21 @@ button {
         <div class="flag-container" id="native-language-container">
             <div data-language="pl">
                 <div id="polski">Polski</div><div id="polski2">337 słówek - angielski (+ 23 słówka)<br>
-                108 słówek - hiszpański (+ 6 słówek) TERAZ DZIAŁA</div>
+                108 słówek - hiszpański - TERAZ DZIAŁA</div>
                 <video autoplay loop muted>
                     <source src="start/Poland.mp4" type="video/mp4">
                     Twój przeglądarka nie obsługuje elementu video.
                 </video>
             </div>
             <div data-language="en">
-                <div id="angielski">American English</div><div id="polski2">(spanish - 60 words)</div>
+                <div id="angielski">American English</div><div id="polski2">(spanish - 68 words)</div>
                 <video autoplay loop muted>
                     <source src="start/USA.mp4" type="video/mp4">
                     Twój przeglądarka nie obsługuje elementu video.
                 </video>
             </div>
             <div data-language="br">
-                <div id="british">British English</div><div id="polski2">(spanish - 60 words)</div>
+                <div id="british">British English</div><div id="polski2">(spanish - 68 words)</div>
                 <video autoplay loop muted>
                     <source src="start/England.mp4" type="video/mp4">
                     Twój przeglądarka nie obsługuje elementu video.
@@ -271,12 +291,23 @@ button {
         </div>
         <button id="start-btn">START</button>
         <div id="language-options" class="hidden">
-            <h2>Wybierz język do nauki: / Select a language to learn:</h2>
+            <div id="nowy"><h2>Wybierz język do nauki: / Select a language to learn:</h2></div>
             <div class="flag-container" id="learn-language-container"></div>
-            <div id="polski3">(314 słówek... + 53 słówka)</div>
-            <div id="polski5">(102 słówka... + 59 słówek)</div>
+            <div id="polski3">(337 słówek... + 23 słówka)</div>
+            <div id="polski5">(108 słówek... + 6 słówek)</div>
         </div>
-<div id="polski4">
+<div id="polski4b">
+                PROJEKT NON-PROFIT, KTÓRY BĘDZIE SIĘ UTRZYMYWAŁ Z REKLAM GOOGLE.<br>
+    WKRÓTCE ZOSTANIE ZROBIONY PANEL UŻYTKOWNIKA Z LOGOWANIEM<br>
+    LICZBA ODWIEDZAJĄCYCH UŻYTKOWNIKÓW PRZEKROCZYŁA 100 OSÓB<br>
+    WAŻNOŚĆ WITRYNY - DO 27 STYCZEŃ 2026<br><br>
+    NON-PROFIT PROJECT THAT WILL BE FUNDED BY GOOGLE ADS.<br>
+    A USER PANEL WITH LOGIN FUNCTIONALITY WILL BE AVAILABLE SOON.<br>
+    THE NUMBER OF VISITING USERS HAS EXCEEDED 100 PEOPLE.<br>
+    WEBSITE VALIDITY - UNTIL JANUARY 27, 2026<br><br><br></div>
+    <div id="polski4">
+            (AKTUALIZACJA 25.03.25 - GODZINA 18:30
+    DODANIE SŁÓWEK DLA ANGIELSKI I HISZPAŃSKI, DODANIE WYSZUKIWARKI DLA ANGIELSKIEGO, USPRAWNIENIE RODZAJU SŁOWNICTWA<br><br>
         (AKTUALIZACJA 13.02.25 - GODZINA 18:30
     OSTATECZNE DOPRACOWANIE SZYBKIEJ LEKCJI (DLA JEDNEGO ZDANIA), WYSZUKIWARKA...<br><br>
     (AKTUALIZACJA 29.01.25 - GODZINA 19:10
@@ -287,8 +318,8 @@ button {
     JĘZYK ANGIELSKI - LEKCJA 5 MINUTOWA, DOSTĘPNE TAGI FILMÓW NA SMARTFONA<br><br>
     (AKTUALIZACJA 10.01.25 - GODZINA 17:40 
     JĘZYK ANGIELSKI - LEKCJA 5 MINUTOWA, DOSTĘPNE WĘDROWANIE POMIĘDZY FISZKAMI) - PC
-    </div>
-    </div>
+
+    <br></div>
     <script>
         const nativeLanguageContainer = document.getElementById('native-language-container');
         const learnLanguageContainer = document.getElementById('learn-language-container');

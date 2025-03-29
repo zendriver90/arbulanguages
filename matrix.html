@@ -27,6 +27,11 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <style>
             @media (min-width: 999px) {
+                .hidden-link {
+    position: absolute;
+    left: -9999px;
+    visibility: hidden;
+}
                 .search-container {
     display: flex;
     align-items: center;
@@ -884,15 +889,17 @@ input {
                     display: flex;
                     flex-direction: column;
                     justify-content: center;
-                    position: relative;
-                    height: 100%;
-                    min-height: 100px;
+                    background-color: blue;
                     width: 100%;
-                    box-sizing: border-box;
+                    position: relative;
+                    min-height: 100px;
+                    height: auto;
+                    margin-bottom: 0px;
                     align-items: center;
                     font-size: 20px;
-                    z-index: 999;
-                }/* Tło */
+                    margin-top: 10px;
+                    order: -1; /* Kolejność odwrotna - spycha w dół */
+                }
                 .image-container3b {
                     display: flex;
                     flex-direction: column;
@@ -920,9 +927,8 @@ input {
                 }
 
                 .background-video {
-                    height: 100%;
                     min-height: 100px;
-                    width: 100%;
+                    min-width: 100%;
                     position: absolute;
                     border-left: 3px solid orange;
                     border-top: 3px solid orange;
@@ -931,9 +937,8 @@ input {
                     z-index: 1; /* Wideo, ustaw na niższy z-index */
                 }
                 .background-video22 {
-                    height: 100%;
                     min-height: 100px;
-                    width: 100%;
+                    min-width: 100%;
                     position: absolute;
                     border-left: 3px solid orange;
                     border-top: 3px solid orange;
@@ -1115,7 +1120,7 @@ input {
                 .run-button3 {
                     display: none;
                     position: absolute;
-                    margin-bottom: 130px;
+                    margin-bottom: -140px;
                     z-index: 9999999;
                 }
                 .dynamic-div {
@@ -1362,7 +1367,6 @@ input {
                 .grid-container {
                     display: grid;
                     box-sizing: border-box; /* Ustawienie box-sizing */
-                    max-width: 100%; /* Zapewnienie, że kontener zajmuje 100% szerokości */
                     grid-template-columns: repeat(2, 1fr);
                     gap: 3px; /* Można dostosować zgodnie z potrzebami */
                     position: relative;
@@ -1606,6 +1610,8 @@ input {
         </style>
     </head>
     <body>
+        <a href="demo1angielski.html?category=all" class="hidden-link lesson-link-1" target="_blank" rel="noopener noreferrer">Przejdź do lekcji 1</a>
+<a href="demo2angielski.html?category=all" class="hidden-link lesson-link-2" target="_blank" rel="noopener noreferrer">Przejdź do lekcji 2</a>
         <div class="horizontal-bar" id="horizontalBar1">
             <button id="myButton">ANGIELSKI</button>
             <button id="myButton2">HISZPAŃSKI</button>
@@ -2186,11 +2192,11 @@ function showFiszkiForLesson5d(matchingFiszki1v, tablica41) {
     <button class="rodzaj-button" data-rodzaj="osoby" onclick="przekazArgument0('osoby', '', '', '', '', '', tablica3[1], 'other', false, '', '')">Osoby</button>
     <button class="rodzaj-button" data-rodzaj="zaimki osobowe" onclick="przekazArgument0('zaimkiosobowe', '', '', '', '', '', tablica3[1], 'other', false, '', '')">Zaimki osobowe</button>
     <button id="inne" onclick="przekazArgument0('emocje', '', '', '', '', '', tablica3[1])">Emocje</button>
-    <button class="rodzaj-button" data-rodzaj="zaimki" onclick="przekazArgument0('spojniki', '', '', '', '', '', tablica3[1], '', false, '', '')">Spójniki</button>
+    <button class="rodzaj-button" data-rodzaj="zaimki" onclick="przekazArgument0('spojniki', '', '', '', '', '', tablica3[1], 'OTHER', false, '', '')">Spójniki</button>
     <button id="inne" onclick="przekazArgument0('kolory', '', '', '', '', '', tablica3[1])">Kolory</button>
-    <button class="rodzaj-button" data-rodzaj="zwierzeta" onclick="przekazArgument0('zwierzeta', '', '', '', '', '', tablica3[1])">Zwierzęta</button>
-    <button class="rodzaj-button" data-rodzaj="czasownik" onclick="przekazArgument0('czasownik', '', '', '', '', '', tablica3[1])">Czasowniki</button>
-            <button class="rodzaj-button" data-rodzaj="czasownik" onclick="przekazArgument0('czas', '', '', '', '', '', tablica3[1])">Czas</button>
+    <button class="rodzaj-button" data-rodzaj="zwierzeta" onclick="przekazArgument0('zwierzeta', '', '', '', '', '', tablica3[1], false, '', '')">Zwierzęta</button>
+    <button class="rodzaj-button" data-rodzaj="czasownik" onclick="przekazArgument0('czasownik', '', '', '', '', '', tablica3[1], false, '', '')">Czasowniki</button>
+            <button class="rodzaj-button" data-rodzaj="czasownik" onclick="przekazArgument0('czas', '', '', '', '', '', tablica3[1], false, '', '')">Czas</button>
     <br>ILOŚĆ MATERIAŁU NA LEKCJE<br>
 <button class="czas" onclick="ustawTryb('zdania', undefined); przekazArgument0(globalCategory, '', '', 'zdania', false, false, tablica3[1])">5 MINUT (JEDNO ZDANIE)</button>
 <button id="english" class="czas" onclick="ustawTryb('fiszki', undefined); przekazArgument0(globalCategory, '', '', 'fiszki', true, true, tablica3[1])">10 MINUT (3 ZDANIA) - OPCJONALNIE</button>
@@ -4996,7 +5002,6 @@ ${sentence30}${sentence33}<br>
 
                                 // Dodaj div z wideo do tła kontenera
                                 const $vidDiv = $('<div>').addClass('background-video').css({
-                                    'position': 'absolute',
                                     'z-index': '1' // Ustaw z-index dla wideo na niższy
                                 });
 
@@ -5034,38 +5039,39 @@ ${sentence30}${sentence33}<br>
                                 };
                                 let currentIndexValue = [];
                                 // Funkcja obsługi zdarzenia loadedmetadata
-                                $videoElement.on('loadedmetadata', function () {
-                                    const videoDuration = this.duration;
-                                    videoDurations[index] = videoDuration;
-                                    console.log('tablica77', totalDuration);
-                                    $videoElement.on('timeupdate', function () {
-                                        let adjustedProgress = 0;
-                                        for (let i = 0; i < index; i++) {
-                                            adjustedProgress += (videoDurations[i] / totalDuration) * 100;
-                                        }
-                                        adjustedProgress += (this.currentTime / videoDuration) * (videoDurations[index] / totalDuration) * 100;
-                                        updateProgress(adjustedProgress);
-                                        console.log('hej78', index);
-                                        // Sprawdź, czy wartość index nie została jeszcze dodana do tablicy currentIndex
-                                        if (!currentIndexValue.includes(index)) {
-                                            // Dodaj index do tablicy currentIndex
-                                            currentIndexValue.push(index);
-                                            console.log('hej70', currentIndexValue);
-                                            // Wywołaj funkcję addBackgroundToText tylko raz
-                                            if (currentIndexValue[0] === 0 || currentIndexValue[0] === 1 || currentIndexValue[0] === 2) {
-                                                addBackgroundToText(matchingFiszki1, matchingIndexes, currentIndexValue, true, lesson1FirstPartLength, lesson1PartLength, matchingLessons5b);
-                                            }
-                                        }
+$videoElement.hide(); // Ukrycie wideo przed załadowaniem
 
-                                        // Sprawdź, czy wideo zostało zakończone
-                                        if ($videoElement[0].duration - $videoElement[0].currentTime < 1) {
-                                            console.log('Wideo zakończone, uruchamiam następne.');
-                                            // Odtwórz następne wideo po zakończeniu poprzedniego
-                                            addVideo1(index + 1);
-                                            updateProgress(0);
-                                        }
-                                    });
-                                });
+$videoElement.on('loadedmetadata', function () {
+    $videoElement.show(); // Pokaż wideo po załadowaniu metadanych
+
+    const videoDuration = this.duration;
+    videoDurations[index] = videoDuration;
+    console.log('tablica77', totalDuration);
+
+    $videoElement.on('timeupdate', function () {
+        let adjustedProgress = 0;
+        for (let i = 0; i < index; i++) {
+            adjustedProgress += (videoDurations[i] / totalDuration) * 100;
+        }
+        adjustedProgress += (this.currentTime / videoDuration) * (videoDurations[index] / totalDuration) * 100;
+        updateProgress(adjustedProgress);
+        console.log('hej78', index);
+
+        if (!currentIndexValue.includes(index)) {
+            currentIndexValue.push(index);
+            console.log('hej70', currentIndexValue);
+            if (currentIndexValue[0] === 0 || currentIndexValue[0] === 1 || currentIndexValue[0] === 2) {
+                addBackgroundToText(matchingFiszki1, matchingIndexes, currentIndexValue, true, lesson1FirstPartLength, lesson1PartLength, matchingLessons5b);
+            }
+        }
+
+        if ($videoElement[0].duration - $videoElement[0].currentTime < 1) {
+            console.log('Wideo zakończone, uruchamiam następne.');
+            addVideo1(index + 1);
+            updateProgress(0);
+        }
+    });
+});
                                 addScenes(index);
                                 // Dodaj div z wideo do tła kontenera
                                 $vidDiv.appendTo($container);
@@ -5210,7 +5216,6 @@ ${sentence30}${sentence33}<br>
 
                                 // Dodaj div z wideo do tła kontenera
                                 const $vidDiv = $('<div>').addClass('background-video22').css({
-                                    'position': 'absolute',
                                     'z-index': '1' // Ustaw z-index dla wideo na niższy
                                 });
 
@@ -6534,153 +6539,56 @@ ${sentence30}${sentence33}<br>
                             'z-index': '5'
                         });
                     }
-                    const $button = $('<button></button>');
-                    $button.addClass('run-button');
-                    $button.text('Uruchom'); // Ustawiamy tekst przycisku na 'Uruchom'
-                    $button.attr('data-index', indexDiv);
-                    $button.on('click', function () {
+const $buttonb2 = $('<button></button>');
+$buttonb2.addClass('run-button3');
+$buttonb2.text('Otwórz lekcję w nowym oknie');
 
-                        const index5 = $button.attr('data-index');
-                        const index55 = parseInt(index5, 10); // Zamieniamy index55 na liczbę
-                        // Alternatywnie można użyć Number(index55)
-                        // const numericIndex = Number(index55);
+// Dodajemy atrybut 'data-index2' z wartością indexDiv do przycisku
+$buttonb2.attr('data-index2', indexDiv);
+$buttonb2.on('click', function () {
+    const $clickedContainer = $container; // Przypisz kliknięty kontener do zmiennej
 
-                        setTimeout(() => {
-                            console.log('Kliknięto przycisk o indeksie:', index55);
-                            przekazArgument0(tablica3[2], undefined, false, tablica3[0], true, true, tablica3[1], tablica3[4], false, '', '', '', '');
-                        }, 100);
-                        // Usunięcie kontenera po wstawieniu nowego
-                    });
-                    $button.css({
-                        'position': 'absolute',
-                        'right': '-200px', // Przykładowa wartość odstępu od lewej krawędzi
-                        'top': '5px',
-                        'font-size': '10px',
-                        'height': '30px',
-                        'width': '170px',
-                        'color': 'blue',
-                        'background-color': 'white',
-                        'z-index': '999999' // Ustawienie z-index dla buttona większe niż dla sentenceDiv
-                    });
+    // Dodaj tło do nieklikniętych kontenerów
+    $('.image-container3').not($clickedContainer).each(function () {
+        const $container = $(this);
+        if ($container.find('.background-overlay').length === 0) {
+            $('<div>')
+                .addClass('background-overlay')
+                .css({
+                    'position': 'absolute',
+                    'top': '0',
+                    'left': '0',
+                    'width': '100%',
+                    'height': '100%',
+                    'background-color': 'blue',
+                    'opacity': '0.35',
+                    'z-index': '1000'
+                })
+                .appendTo($container);
+        }
+    });
 
-                    $container.append($button);
-                    const $buttonb2 = $('<button></button>');
-                    $buttonb2.addClass('run-button3');
-                    $buttonb2.text('Otwórz lekcję w nowym oknie'); // Ustawiamy tekst przycisku na 'Uruchom'
-                    // Dodajemy atrybut 'data-index' z wartością indexDiv do przycisku
+    // Usuń klasę .background-overlay po powrocie na stronę
+    $(window).on('pageshow', function () {
+        $('.background-overlay').remove();
+    });
 
-                    $buttonb2.attr('data-index2', indexDiv);
-                    $buttonb2.on('click', function () {
-                        const $clickedContainer = $container; // Przypisz kliknięty kontener do zmiennej
+    const index5b2 = $buttonb2.attr('data-index2');
+    const index55b2 = parseInt(index5b2, 10);
 
-// Dodaj tło do nieklikniętych kontenerów
-                        $('.image-container3').not($clickedContainer).each(function () {
-                            const $container = $(this);
+    // Znajdź ukryty link i kliknij go
+    let lessonLink = null;
+    if (index55b2 === 1) {
+        lessonLink = document.querySelector('.lesson-link-1');
+    }
+    if (index55b2 === 2) {
+        lessonLink = document.querySelector('.lesson-link-2');
+    }
 
-                            // Dodaj tło, jeśli jeszcze nie istnieje
-                            if ($container.find('.background-overlay').length === 0) {
-                                $('<div>')
-                                        .addClass('background-overlay')
-                                        .css({
-                                            'position': 'absolute',
-                                            'top': '0',
-                                            'left': '0',
-                                            'width': '100%',
-                                            'height': '100%',
-                                            'background-color': 'blue',
-                                            'opacity': '0.35',
-                                            'z-index': '1000' // Wyższy z-index dla tła, aby było na wierzchu
-                                        })
-                                        .appendTo($container);
-                            }
-                        });
-                        // Usuń klasę .background-overlay po powrocie na stronę
-                        $(window).on('pageshow', function () {
-                            $('.background-overlay').remove();  // Usuwa wszystkie elementy z klasą .background-overlay
-                            $clickedContainer = null; // Zresetuj kliknięty kontener
-                        });
-
-                        const index5b2 = $buttonb2.attr('data-index2');
-                        const index55b2 = parseInt(index5b2, 10); // Zamieniamy index55 na liczbę
-                        // Alternatywnie można użyć Number(index55)
-                        // const numericIndex = Number(index55);
-
-                        setTimeout(() => {
-                            if (index55b2 === 1) {
-                                // Bezpośrednio przekierowujemy użytkownika do strony
-                                window.location.href = 'demo1angielski.html?category=' + encodeURIComponent(globalCategory);
-                            }
-                            if (index55b2 === 2) {
-                                // Bezpośrednio przekierowujemy użytkownika do strony
-                                window.location.href = 'demo2angielski.html?category=' + encodeURIComponent(globalCategory);
-                            }
-                            if (index55b2 === 3) {
-                                // Bezpośrednio przekierowujemy użytkownika do strony
-                                window.location.href = 'demo3angielski.html?category=' + encodeURIComponent(globalCategory);
-                            }
-                            if (index55b2 === 4) {
-                                // Bezpośrednio przekierowujemy użytkownika do strony
-                                window.location.href = 'demo4angielski.html?category=' + encodeURIComponent(globalCategory);
-                            }
-                            if (index55b2 === 5) {
-                                // Bezpośrednio przekierowujemy użytkownika do strony
-                                window.location.href = 'demo5angielski.html?category=' + encodeURIComponent(globalCategory);
-                            }
-                            if (index55b2 === 6) {
-                                // Bezpośrednio przekierowujemy użytkownika do strony
-                                window.location.href = 'demo6angielski.html?category=' + encodeURIComponent(globalCategory);
-                            }
-                            if (index55b2 === 7) {
-                                // Bezpośrednio przekierowujemy użytkownika do strony
-                                window.location.href = 'demo7angielski.html?category=' + encodeURIComponent(globalCategory);
-                            }
-                            if (index55b2 === 8) {
-                                // Bezpośrednio przekierowujemy użytkownika do strony
-                                window.location.href = 'demo8angielski.html?category=' + encodeURIComponent(globalCategory);
-                            }
-                            if (index55b2 === 9) {
-                                // Bezpośrednio przekierowujemy użytkownika do strony
-                                window.location.href = 'demo9angielski.html?category=' + encodeURIComponent(globalCategory);
-                            }
-                            if (index55b2 === 10) {
-                                // Bezpośrednio przekierowujemy użytkownika do strony
-                                window.location.href = 'demo10angielski.html?category=' + encodeURIComponent(globalCategory);
-                            }
-                            if (index55b2 === 11) {
-                                // Bezpośrednio przekierowujemy użytkownika do strony
-                                window.location.href = 'demo11angielski.html?category=' + encodeURIComponent(globalCategory);
-                            }
-                            if (index55b2 === 12) {
-                                // Bezpośrednio przekierowujemy użytkownika do strony
-                                window.location.href = 'demo12angielski.html?category=' + encodeURIComponent(globalCategory);
-                            }
-                            if (index55b2 === 13) {
-                                // Bezpośrednio przekierowujemy użytkownika do strony
-                                window.location.href = 'demo13angielski.html?category=' + encodeURIComponent(globalCategory);
-                            }
-                                                        if (index55b2 === 14) {
-                                // Bezpośrednio przekierowujemy użytkownika do strony
-                                window.location.href = 'demo14angielski.html?category=' + encodeURIComponent(globalCategory);
-                            }
-                                                                                    if (index55b2 === 15) {
-                                // Bezpośrednio przekierowujemy użytkownika do strony
-                                window.location.href = 'demo15angielski.html?category=' + encodeURIComponent(globalCategory);
-                            }
-                                                                                                                if (index55b2 === 16) {
-                                // Bezpośrednio przekierowujemy użytkownika do strony
-                                window.location.href = 'demo16angielski.html?category=' + encodeURIComponent(globalCategory);
-                            }
-                                                                                                                                            if (index55b2 === 17) {
-                                // Bezpośrednio przekierowujemy użytkownika do strony
-                                window.location.href = 'demo17angielski.html?category=' + encodeURIComponent(globalCategory);
-                            }
-                                                if (index55b2 === 18) {
-                                // Bezpośrednio przekierowujemy użytkownika do strony
-                                window.location.href = 'demo18angielski.html?category=' + encodeURIComponent(globalCategory);
-                            }
-                        }, 1000);
-                        // Usunięcie kontenera po wstawieniu nowego
-                    });
+    if (lessonLink) {
+        lessonLink.click(); // Automatyczne kliknięcie ukrytego linka
+    }
+});
 
                     $container.append($buttonb2);
                     // Dodanie diva z zdaniem do kontenera
@@ -8524,7 +8432,7 @@ if (currentFiszkaIndex === 0) {
                         buttonindex = true;
                         setTimeout(() => {
                             console.log('Kliknięto przycisk o indeksie:', index55);
-                            przekazArgument0(tablica3[2], index55, true, tablica3[0], true, true, tablica3[1], tablica3[4]);
+                            przekazArgument0(tablica3[2], index55, true, tablica3[0], true, true, tablica3[1], tablica3[4], false, '', '', '', '');
                             console.log('hej26', czas);
                         }, 100);
                         // Usunięcie kontenera po wstawieniu nowego
@@ -9413,7 +9321,7 @@ ${sentence10}<br>
                         buttonindex = true;
                         setTimeout(() => {
                             console.log('Kliknięto przycisk o indeksie:', index55);
-                            przekazArgument0(tablica3[2], index55, true, tablica3[0], true, true, tablica3[1], tablica3[4]);
+                            przekazArgument0(tablica3[2], index55, true, tablica3[0], true, true, tablica3[1], tablica3[4], false, '', '', '', '');
                             console.log('hej26', czas);
                         }, 100);
                         // Usunięcie kontenera po wstawieniu nowego

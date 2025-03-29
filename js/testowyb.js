@@ -6,12 +6,63 @@ const fiszki = [
             1
         ],
         // obrazek
-        img: [
-            "https://www.arbulang.com/img/fiszki1/1a.jpg",
-            "https://www.arbulang.com//img/fiszki1/1b.jpg",
-            "https://www.arbulang.com//img/fiszki1/1c.jpg",
-            "https://www.arbulang.com//img/fiszki1/1d.jpg",
-            "https://www.arbulang.com//img/fiszki1/1e.jpg"
+        // Obrazki z przypisanym alternate text
+    entries: [
+        {
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/1a.jpg",
+                alt: "Zdjęcie przedstawiające e-sportową grę"
+            },
+            story: {
+                text: 'W <span class="adannotation" data-annotation="1"><u><b>e</u></b></span>-sportowej grze silnik samochodu robi <span class="adannotation" data-annotation="2"><u><b>wry</u></b></span>, <u><b>wszyscy</u></b> chcą takich rajdów, <span class="adannotation" data-annotation="3"><u><b>bo</u></b></span> idzie <span class="adannotation" data-annotation="4"><u><b>dy</u></b></span>m',
+                alt: "Emocje dotyczące e-sportowej gry"
+            },
+            category: ["sport", "gaming"]
+        },
+        {
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/1b.jpg",
+                alt: "Zdjęcie przedstawiające gotowanie"
+            },
+            story: {
+                text: '<span class="adannotation" data-annotation="1"><u><b>Ew</u></b></span>a robi <span class="adannotation" data-annotation="2"><u><b>ry</u></b></span>by, <span class="adannotation" data-annotation="3"><u><b>bo</u></b></span> będzie robiła zupę rybną, a na drugie placki z <span class="adannotation" data-annotation="4"><u><b>dy</u></b></span>ni. <u><b>Każdemu</u></b> to smakowało',
+                alt: "Ewa robi obiad"
+            },
+            category: ["natura", "kulinaria"]
+        },
+        {
+                    img: {
+                src: "https://www.arbulang.com/img/fiszki1/1c.jpg",
+                alt: "Zdjęcie przedstawiające badanie pacjenta"
+            },
+            story: {
+                text: 'Kr<span class="adannotation" data-annotation="1"><u><b>ew</u></b></span> każdego pacjenta jest dokładnie przebadana i organizm <u><b>wszystkich</u></b> pacjentów wraca na właściwe to<span class="adannotation" data-annotation="2"><u><b>ry</u></b></span>, <span class="adannotation" data-annotation="3"><u><b>bo</u></b></span> g<span class="adannotation" data-annotation="4"><u><b>dy</u></b></span> ma dobrą opieke wraca do zdrowia',
+                alt: "Badanie pacjenta"
+            },
+            category: ["nauka", "medycyna"]
+        },
+        {
+                            img: {
+                src: "https://www.arbulang.com/img/fiszki1/1d.jpg",
+                alt: "Zdjęcie przedstawiające modelarstwo"
+            },
+            story: {
+                text: '<span class="adannotation" data-annotation="1"><u><b>E</u></b></span>dek robi <span class="adannotation" data-annotation="2"><u><b>wry</u></b></span> swoim modelem samolotu, musi uważać, <span class="adannotation" data-annotation="3"><u><b>bo</u></b></span> jest silny wiatr. Z silnika samolotu się <span class="adannotation" data-annotation="4"><u><b>dy</u></b></span>mi i <u><b>wszyscy</u></b> się na to patrzą',
+                alt: "Oddawanie się pasji modelarstwa"
+            },
+            category: ["czarny humor", "pasja"]
+        },
+        {
+                                    img: {
+                src: "https://www.arbulang.com/img/fiszki1/1e.jpg",
+                alt: "Zdjęcie przedstawiające wychowanie dziecka"
+            },
+            story: {
+                text: 'Moja córka <span class="adannotation" data-annotation="1"><u><b>Ew</u></b></span>a b<span class="adannotation" data-annotation="2"><u><b>ry</u></b></span>ka, <span class="adannotation" data-annotation="3"><u><b>bo</u></b></span> pojechała na zawo<span class="adannotation" data-annotation="4"><u><b>dy</u></b></span> jak <u><b>wszyscy</u></b> jej rówieśnicy',
+                alt: "Wychowanie dzieci"
+            },
+            category: ["związki", "wychowanie"]
+        }
         ],
         translate: "Wszyscy mają ubaw na zabawie",
         translateb: "[Ewrybody hes fan at de party]",
@@ -46,14 +97,8 @@ const fiszki = [
         ],
         //  slowo do nauki
         key: "Everybody",
-        key2: ["wszyscy", "każdy"],
-        category1: [
-            "sport", "gaming",
-            "natura", "kulinaria",
-            "nauka", "medycyna",
-            "czarny humor", "pasja",
-            "związki", "wychowanie"
-        ],
+        key2: ["wszyscy"],
+        key3: ["każdy"],
         category2: ["osoby"],
         category3: ["PresentSimple", "PresentSimplePodmiot"]
     },
@@ -64,11 +109,26 @@ const fiszki = [
             1
         ],
         img: [
-            "https://www.arbulang.com/img/fiszki1/2a.jpg",
-            "https://www.arbulang.com/img/fiszki1/2b.jpg",
-            "https://www.arbulang.com/img/fiszki1/2c.jpg",
-            "https://www.arbulang.com/img/fiszki1/2d.jpg",
-            "https://www.arbulang.com/img/fiszki1/2e.jpg"
+    { src: "https://www.arbulang.com/img/fiszki1/2a.jpg", 
+        story: 'W niemieckim mieście <span class="adannotation" data-annotation="1"><u><b>Hess</u></b></span>en Jurek <u><b>ma</u></b> bilet na mecze jego drużyny',
+                category: ["sport", "kibic"],
+                alt: "Przygotowanie do widowiska sportowego" },
+    { src: "https://www.arbulang.com/img/fiszki1/2b.jpg",
+        story: '<span class="adannotation" data-annotation="1"><u><b>H</u></b></span>ipopotam występuje w cyrku na <span class="adannotation" data-annotation="2"><u><b>es</u></b></span>tradzie, <u><b>ma</u></b> duże umiejętności',
+                category: ["natura", "rozrywka"],
+                alt: "Pokazy cyrkowe. Żart o cyrku" },
+    { src: "https://www.arbulang.com/img/fiszki1/2c.jpg",
+        story: 'Naukowiec nagle się zapomniał i zapytał: <span class="adannotation" data-annotation="1"><u><b>he</u></b></span>?, a wtedy jego kolega <u><b>ma</u></b> niezłą zabawę, <span class="adannotation" data-annotation="2"><u><b>s</u></b></span>prawa oczywista..',
+                category: ["nauka", "humor"],
+                alt: "Obyczaje naukowca. Żart o naukowcu" },
+    { src: "https://www.arbulang.com/img/fiszki1/2d.jpg",
+        story: '<span class="adannotation" data-annotation="1"><u><b>He</u></b></span>gemonia konsumpcjonizmu doprowadziła do tego, że "ON"-dyrektor ma problemy, bo nikt nie chce chodzić na <span class="adannotation" data-annotation="2"><u><b>s</u></b></span>pektakle teatralne',
+                category: ["czarny humor", "trendy"],
+                alt: "Życie współczesne i kultura. Żart o teatrze" },
+    { src: "https://www.arbulang.com/img/fiszki1/2e.jpg",
+        story: 'Moja koleżanka <u><b>ma</u></b> nowy klarnet z drzewa <span class="adannotation" data-annotation="1"><u><b>he</u></b></span>banowego. <span class="adannotation" data-annotation="2"><u><b>S</u></b></span>....uper sprawa',
+                category: ["związki", "muzyka"],
+                alt: "Wiesza o instrumentach muzycznych" }
         ],
         word: [
             "https://www.arbulang.com/src/has.wav"
@@ -91,13 +151,6 @@ const fiszki = [
         ],
         key: "has",
         key2: ["ma"],
-        category1: [
-            "sport", "kibic",
-            "natura", "rozrywka",
-            "nauka", "humor",
-            "czarny humor", "trendy",
-            "związki", "muzyka"
-        ],
         category2: ["czasownik"],
         category3: ["PresentSimple", "PresentSimpleCzasownik"]
     },
@@ -108,11 +161,26 @@ const fiszki = [
             1
         ],
         img: [
-            "https://www.arbulang.com/img/fiszki1/3a.jpg",
-            "https://www.arbulang.com/img/fiszki1/3b.jpg",
-            "https://www.arbulang.com/img/fiszki1/3c.jpg",
-            "https://www.arbulang.com/img/fiszki1/3d.jpg",
-            "https://www.arbulang.com/img/fiszki1/3e.jpg"
+    { src: "https://www.arbulang.com/img/fiszki1/3a.jpg", 
+        story: '<span class="adannotation" data-annotation="1"><u><b>Fan</u></b></span>tastycznie jest być fanem jakiejś drużyny, to doskonała <u><b>zabawa</u></b>',
+        category: ["sport", "kibic"],
+                alt: "Widowisko sportowe i kibicowanie" },
+    { src: "https://www.arbulang.com/img/fiszki1/3b.jpg",
+        story: 'Na łonie natury jest <span class="adannotation" data-annotation="1"><u><b>fan</u></b></span>tastyczna <u><b>zabawa</u></b> do rozmyślań i fanaberie stają się pięknymi myślami',
+        category: ["natura", "czas wolny"],
+                alt: "Obcowanie z łonem przyrody" },
+    { src: "https://www.arbulang.com/img/fiszki1/3c.jpg",
+        story: 'Futurologia to nauka o przyszłości z dozą <span class="adannotation" data-annotation="1"><u><b>fan</u></b></span>tazji. Futurolodzy mają z tego <u><b>zabawę</u></b>',
+        category: ["nauka", "fantastyka"],
+                alt: "Przewidywanie przyszłości - futurologia" },
+    { src: "https://www.arbulang.com/img/fiszki1/3d.jpg",
+        story: 'Zarobiłem w złotówkach, a wydam w funtach. Mam z tego <span class="adannotation" data-annotation="1"><u><b>fan</u></b></span>tastyczną <u><b>zabawę</u></b>',
+        category: ["czarny humor", "giełda"],
+                alt: "Biznes i wydawanie pieniędzy" },
+    { src: "https://www.arbulang.com/img/fiszki1/3e.jpg",
+        story: '<span class="adannotation" data-annotation="1"><u><b>Fan</b></u></span>tastyczne jest to by się dobrze <u><b>bawić</b></u>. A jeżli chodzi o <u><b>zabawę</b></u> zawsze jestem jej <u><b>fan</b></u>em',
+        category: ["związki", "czas wolny"],
+                alt: "Spędzanie czasu wolnego" }
         ],
         word: [
             "https://www.arbulang.com/src/fun.wav"
@@ -134,14 +202,8 @@ const fiszki = [
             "fun"
         ],
         key: "fun",
-       key2: ["zabawa", "ubaw", "uciecha", "heca"],
-        category1: [
-            "sport", "kibic",
-            "natura", "czas wolny",
-            "nauka", "fantastyka",
-            "czarny humor", "giełda",
-            "związki", "czas wolny"
-        ],
+       key2: ["zabawa"],
+       key3: ["ubaw", "uciecha", "heca"],
         category2: ["nawa czynności"]
     },
     {
@@ -151,11 +213,26 @@ const fiszki = [
             2
         ],
         img: [
-            "https://www.arbulang.com/img/fiszki1/4a.jpg",
-            "https://www.arbulang.com/img/fiszki1/4b.jpg",
-            "https://www.arbulang.com/img/fiszki1/4c.jpg",
-            "https://www.arbulang.com/img/fiszki1/4d.jpg",
-            "https://www.arbulang.com/img/fiszki1/4e.jpg"
+    { src: "https://www.arbulang.com/img/fiszki1/4a.jpg", 
+        story: '<u><b>W tym</u></b> <span class="adannotation" data-annotation="1"><u><b>at</u></b></span>elcie jest dużo siły',
+        category: ["sport", "ateltyka"],
+                alt: "Życie sportowe. Czy sport daje siłę?" },
+    { src: "https://www.arbulang.com/img/fiszki1/4b.jpg",
+        story: 'Scott <span class="adannotation" data-annotation="1"><u><b>At</u></b></span>kinson <u><b>w tym</u></b> lesie był na spacerze',
+        category: ["natura", "show-biznes"],
+                alt: "Sławni na co dzień. Jak aktorzy spędzają czas?" },
+    { src: "https://www.arbulang.com/img/fiszki1/4c.jpg",
+        story: '<u><b>W tym</u></b> piórze jest za mało <span class="adannotation" data-annotation="1"><u><b>at</u></b></span>ramentu',
+        category: ["nauka", "szkoła"],
+                alt: "Przybory biurowe. Czy pióro jest lepsze od długopisa?" },
+    { src: "https://www.arbulang.com/img/fiszki1/4d.jpg",
+        story: 'Be<span class="adannotation" data-annotation="1"><u><b>at</u></b></span>a myślała, że zobaczyła Królową Angielską, a to tylko atrapa <u><b>w tym</u></b> muzeum figur woskowych',
+        category: ["czarny humor", "czas wolny"],
+                alt: "Kultura i muzea. Czy Królowa Angielska ma swoją figurę woskową" },
+    { src: "https://www.arbulang.com/img/fiszki1/4e.jpg",
+        story: '<span class="adannotation" data-annotation="1"><u><b>At</u></b></span>rapa jest dobra na złodzieja, <u><b>w tym</u></b> jest sens',
+        category: ["związki", "bezpieczeństwo"],
+                alt: "Prawo i prewencja. Czy złodziej może się nabrać?" }
         ],
         word: [
             "https://www.arbulang.com/src/at.wav"
@@ -179,14 +256,8 @@ const fiszki = [
             "party"
         ],
         key: "at",
-                key2: ["na", "w", "na", "z", "przy", "o", "do", "u", "po", "za", "ze", "we", "w stanie"],
-        category1: [
-            "sport", "ateltyka",
-            "natura", "show-biznes",
-            "nauka", "szkoła",
-            "czarny humor", "czas wolny",
-            "związki", "bezpieczeństwo"
-        ],
+                key2: ["na"],
+                key3: ["w", "na", "z", "przy", "o", "do", "u", "po", "za", "ze", "we", "w stanie"],
         category2: ""
     },
     {
@@ -196,11 +267,26 @@ const fiszki = [
             2
         ],
         img: [
-            "https://www.arbulang.com/img/fiszki1/5a.jpg",
-            "https://www.arbulang.com/img/fiszki1/5b.jpg",
-            "https://www.arbulang.com/img/fiszki1/5c.jpg",
-            "https://www.arbulang.com/img/fiszki1/5d.jpg",
-            "https://www.arbulang.com/img/fiszki1/5e.jpg"
+    { src: "https://www.arbulang.com/img/fiszki1/5a.jpg", 
+        story: 'Piłki do gry w kosza są twar<span class="adannotation" data-annotation="1"><u><b>de</u></b></span>. Sam ten sport <u><b>to</u></b> twarda gra',
+               category: ["sport", "koszykówka"],
+                alt: "Sport i przedmioty do sportu. Czy piłka do koszykówki jest twarda?" },
+    { src: "https://www.arbulang.com/img/fiszki1/5b.jpg",
+        story: 'Na tym <span class="adannotation" data-annotation="1"><u><b>de</u></b></span>ptaku jest sporo drzewek, <u><b>to</u></b> urocze miejsce',
+                category: ["natura", "czas wolny"],
+                alt: "Miejsce do spacerowania. Czy na deptaku zazwyczaj rosną drzewka?" },
+    { src: "https://www.arbulang.com/img/fiszki1/5c.jpg",
+        story: '<u><b>To</u></b> ten <span class="adannotation" data-annotation="1"><u><b>De</u></b></span>partament Stanu prowadzi badania nad społecznym problemem',
+                category: ["nauka", "rząd"],
+                alt: "Insytucje rządowe w służbie ludziom. Czy państwo pomaga w rozwiązywaniu problemów społecznych?" },
+    { src: "https://www.arbulang.com/img/fiszki1/5d.jpg",
+        story: 'Czasami politycy stosują <span class="adannotation" data-annotation="1"><u><b>de</u></b></span>magogię. Czyli co stosują? <u><b>Tę</u></b> <span class="adannotation" data-annotation="1"><u><b>de</u></b></span>magogię',
+                category: ["czarny humor", "polityka"],
+                alt: "Polityka i sztuka rozmawiania. Czy politycy przekonują etycznie?" },
+    { src: "https://www.arbulang.com/img/fiszki1/5e.jpg",
+        story: '<u><b>To</u></b> co w naszej rodzinie istnieje to <span class="adannotation" data-annotation="1"><u><b>de</u></b></span>mokracja',
+               category: ["związki", "rodzina"],
+                alt: "Życie rodzinne i więź rodzinna. Czy w rodzinie może istnieć demokracja?" }
         ],
         word: [
             "https://www.arbulang.com/src/the.wav"
@@ -223,13 +309,6 @@ const fiszki = [
         ],
         key: "the",
         key2: ["ten"],
-        category1: [
-            "sport", "koszykówka",
-            "natura", "czas wolny",
-            "nauka", "rząd",
-            "czarny humor", "polityka",
-            "związki", "rodzina"
-        ],
         category2: ["przedimek"]
     },
     {
@@ -239,11 +318,26 @@ const fiszki = [
             2
         ],
         img: [
-            "https://www.arbulang.com/img/fiszki1/6a.jpg",
-            "https://www.arbulang.com/img/fiszki1/6b.jpg",
-            "https://www.arbulang.com/img/fiszki1/6c.jpg",
-            "https://www.arbulang.com/img/fiszki1/6d.jpg",
-            "https://www.arbulang.com/img/fiszki1/6e.jpg"
+    { src: "https://www.arbulang.com/img/fiszki1/6a.jpg", 
+        story: '<span class="adannotation" data-annotation="1"><u><b>Par</u></b></span>ada zawodnika pokazuje, że on ma świetną <u><b>ucztę</u></b> gry i zresztą uprawia różne inne spor<span class="adannotation" data-annotation="2"><u><b>ty</u></b></span>',
+                      category: ["sport", "piłka nożna"],
+                alt: "Pokaz widowiskowy w sporcie. Czy sportowcy mogą trenować różne dyscypliny sportowe?" },
+    { src: "https://www.arbulang.com/img/fiszki1/6b.jpg",
+        story: 'Z za<span class="adannotation" data-annotation="1"><u><b>party</u></b></span>m tchem obserwuje jak lwiątka <u><b>ucztę</u></b> na sawannie',
+                       category: ["natura", "zoologia"],
+                alt: "Życie zwierząt na sawannie. Czy na sawannie żyją lwy?" },
+    { src: "https://www.arbulang.com/img/fiszki1/6c.jpg",
+        story: 'W tym badaniu <span class="adannotation" data-annotation="1"><u><b>party</u></b></span>cypowało bardzo dużo osób, gruopwa praca to świetna <u><b>zabawa</u></b>',
+                       category: ["nauka", "team work"],
+                alt: "Prowadzenie prac badawczych i sondażowych. Ile jest potrzebnych osób do zrobienia sondażu?" },
+    { src: "https://www.arbulang.com/img/fiszki1/6d.jpg",
+        story: 'O<span class="adannotation" data-annotation="1"><u><b>party</u></b></span> łokciami o stół gram w karty i <u><b>bawię się</u></b> doskonale',
+                       category: ["czarny humor", "hazard"],
+                alt: "Spędzanie czasu wolnego. Czy grający w karty się stresuje?" },
+    { src: "https://www.arbulang.com/img/fiszki1/6e.jpg",
+        story: 'Jesteśmy na <u><b>zabawie</u></b> gdzie a<span class="adannotation" data-annotation="1"><u><b>par</u></b></span>atem robimy zdjęcia. Zdjęcia mają pewien <span class="adannotation" data-annotation="2"><u><b>arty</u></b></span>zm, bo to doświadczony fotograf i on ciągle opowiada ż<u><b>arty</u></b>',
+                      category: ["związki", "czas wolny"],
+                alt: "Impreza towarzyska. Czy każdy fotograf - dobrze fotografuje?" }
         ],
         word: [
             "https://www.arbulang.com/src/party.wav"
@@ -265,14 +359,8 @@ const fiszki = [
             "party"
         ],
         key: "party",
-        key2: ["impreza", "strona", "przyjęcie", "partia", "grupa", "partyjny", "drużyna", "stronnictwo", "wieczór", "oddział", "ekipa", "wyprawa", "wieczorek", "brygada"],
-        category1: [
-            "sport", "piłka nożna",
-            "natura", "zoologia",
-            "nauka", "team work",
-            "czarny humor", "hazard",
-            "związki", "czas wolny"
-        ],
+        key2: ["impreza"],
+        key3: ["strona", "przyjęcie", "partia", "grupa", "partyjny", "drużyna", "stronnictwo", "wieczór", "oddział", "ekipa", "wyprawa", "wieczorek", "brygada"],
         category2: ""
     },
     {
@@ -282,11 +370,26 @@ const fiszki = [
             3
         ],
         img: [
-            "https://www.arbulang.com/img/fiszki1/7a.jpg",
-            "https://www.arbulang.com/img/fiszki1/7b.jpg",
-            "https://www.arbulang.com/img/fiszki1/7c.jpg",
-            "https://www.arbulang.com/img/fiszki1/7d.jpg",
-            "https://www.arbulang.com/img/fiszki1/7e.jpg"
+    { src: "https://www.arbulang.com/img/fiszki1/7a.jpg", 
+        story: 'To właśnie <u><b>on</u></b> jest <span class="adannotation" data-annotation="1"><b><u>hi</b></u></span>tem tego sezonu piłkarskiego',
+                             category: ["sport", "piłka nożna"],
+                alt: "Niesamowite wydarzenie w SuperLidze. Jak się plasuje nasza drużyna w tabeli?" },
+    { src: "https://www.arbulang.com/img/fiszki1/7b.jpg",
+        story: 'Samiec czyli <u><b>on</u></b> - <span class="adannotation" data-annotation="1"><b><u>hi</b></u></span>popotam',
+                              category: ["natura", "zoologia"],
+                alt: "Życie hipopotamów. Czy samiec hipopotama jest groźniejszy czy samica?" },
+    { src: "https://www.arbulang.com/img/fiszki1/7c.jpg",
+        story: '<u><b>On</b></u> - <span class="adannotation" data-annotation="1"><u><b>Hi</b></u></span>eronim odleciał balonem',
+                              category: ["nauka", "czas wolny"],
+                alt: "Loty balonowe. Jak daleko można podróżować balonem?" },
+    { src: "https://www.arbulang.com/img/fiszki1/7d.jpg",
+        story: 'Ma<span class="adannotation" data-annotation="1"><u><b>chi</u></b></span>nę do tortur wymyślił <u><b>on</u></b> - jest <span class="adannotation" data-annotation="1"><u><b>Hi</u></b></span>ndusem',
+                              category: ["czarny humor", "historia"],
+                alt: "Starodawne metody przesłuchań. Gdzie wymyślono tortury?" },
+    { src: "https://www.arbulang.com/img/fiszki1/7e.jpg",
+        story: '<u><b>On</u></b> je ciastka <span class="adannotation" data-annotation="1"><u><b>hi</u></b></span>ty',
+                             category: ["związki", "kulinaria"],
+                alt: "Kulinaria i przysmaki. Jakie są najlepsze ciastka?" }
         ],
         translate: "On jest posłuszny wobec naukowych procedur",
         translateb: "[Hi is obidient to sajens prosidżer]",
@@ -315,13 +418,7 @@ const fiszki = [
         ],
         key: "he",
         key2: ["on"],
-        category1: [
-            "sport", "piłka nożna",
-            "natura", "zoologia",
-            "nauka", "czas wolny",
-            "czarny humor", "historia",
-            "związki", "kulinaria"
-        ],
+                key3: ["ów"],
         category2: ["osoby"],
         category3: ["PresentSimple", "PresentSimplePodmiot"]
     },
@@ -332,11 +429,34 @@ const fiszki = [
             3
         ],
         img: [
-            "https://www.arbulang.com/img/fiszki1/8a.jpg",
-            "https://www.arbulang.com/img/fiszki1/8b.jpg",
-            "https://www.arbulang.com/img/fiszki1/8c.jpg",
-            "https://www.arbulang.com/img/fiszki1/8d.jpg",
-            "https://www.arbulang.com/img/fiszki1/8e.jpg"
+    { src: "https://www.arbulang.com/img/fiszki1/8a.jpg", 
+        story: 'Gdy ktoś szybko biega obok nas to <u><b>jest</u></b> w popłochu, słyszymy tylko św<span class="adannotation" data-annotation="1"><u><b>is</u></b></span>t',
+                                    category: ["sport", "bieganie"],
+                alt: "Styl życia. Czy życie w popłochu może męczyć?" },
+    { src: "https://www.arbulang.com/img/fiszki1/8b.jpg",
+        story: 'L<span class="adannotation" data-annotation="1"><u><b>is</u></b></span> <u><b>jest</u></b> dzisiaj listonoszem',
+                                     category: ["natura", "zawód"],
+                alt: "Zawód życiowy a charakter. Jak wygląda praca listonosza?" },
+    { src: "https://www.arbulang.com/img/fiszki1/8c.jpg",
+        story: '<span class="adannotation" data-annotation="1"><b><u>Is</b></u></span>tota tego przekazu <b><u>jest</b></u> bardzo ważna',
+                                     category: ["nauka", "definicje"],
+                alt: "Wiedza i wykłady w szkole jak i na studiach. Czy zawsze prezentacja zawiera puentę?" },
+    { src: "https://www.arbulang.com/img/fiszki1/8d.jpg",
+        story: 'L<span class="adannotation" data-annotation="1"><b><u>is</b></u></span> jest bardzo przebiegły, ale <b><u>jest</b></u> też wilk, który go zje',
+                                     category: ["czarny humor", "zoologia"],
+                alt: "Łańcuch pokarmowy u zwierząt. Kto może zjeść lisa?" },
+    { src: "https://www.arbulang.com/img/fiszki1/8e.jpg",
+        story: 'Johny Bravo <u><b>jest</b></u> m<span class="adannotation" data-annotation="1"><u><b>is</b></u></span>trzem relacji damsko-męskich',
+                                    category: ["związki", "kreskówki"],
+                alt: "Bohater kreskówki a wiedza na temat związków. Czy można uczyć się o związkach od Johny Brawo?" },
+    { src: "https://www.arbulang.com/img/fiszki1/8f.jpg",
+        story: 'Lu<span class="adannotation" data-annotation="1"><b><u>is</b></u></span> <b><u>jest</b></u> bardzo zadowolony ze swojej pracy',
+                                    category: ["lifestyle", "sukces"],
+                alt: "Satysfakcja z życia zawodowego. Jak wybrać odpowiednią pracę?" },
+    { src: "https://www.arbulang.com/img/fiszki1/8g.jpg",
+        story: '<span class="adannotation" data-annotation="1"><b><u>Is</b></u></span>tambuł <b><u>jest</b></u> fajnym miastem',
+                                    category: ["geografia", "miasta"],
+                alt: "Podróże i turystyka. Jakie miasto lubisz najbardziej?" }
         ],
         word: [
             "https://www.arbulang.com/src/is.wav"
@@ -361,15 +481,6 @@ const fiszki = [
         ],
         key: "is",
         key2: ["jest"],
-        category1: [
-            "sport", "bieganie",
-            "natura", "zawód",
-            "nauka", "definicje",
-            "czarny humor", "zoologia",
-            "związki", "kreskówki",
-            "lifestyle", "sukces",
-            "geografia", "miasta"
-        ],
         category2: ["czasownik"],
         category3: ["PresentSimple", "PresentSimpleCzasownik"]
     },
@@ -380,11 +491,26 @@ const fiszki = [
             3
         ],
         img: [
-            "https://www.arbulang.com/img/fiszki1/9a.jpg",
-            "https://www.arbulang.com/img/fiszki1/9b.jpg",
-            "https://www.arbulang.com/img/fiszki1/9c.jpg",
-            "https://www.arbulang.com/img/fiszki1/9d.jpg",
-            "https://www.arbulang.com/img/fiszki1/9e.jpg"
+    { src: "https://www.arbulang.com/img/fiszki1/9a.jpg", 
+        story: 'Ćwiczę s<span class="adannotation" data-annotation="1"><b><u>obi</u></b></span>e i jestem <u><b>posłuszny</b></u> swojemu <span class="adannotation" data-annotation="2"><u><b>die</b></u></span>tetykowi, powtarzam jak ma<span class="adannotation" data-annotation="3"><u><b>nt</b></u></span>rę, że będę szczupła',
+                                           category: ["sport", "dietetyka"],
+                alt: "Kreowanie zbilansowanej diety. Czy odchudzanie jest trudne? Żart o diecie" },
+    { src: "https://www.arbulang.com/img/fiszki1/9b.jpg",
+        story: '<span class="adannotation" data-annotation="2"><u><b>Di</u></b></span>nozaury były <u><b>posłuszne</u></b> swoim odczuciom z ciała i nie miały czegoś takiego jak zjem s<span class="adannotation" data-annotation="1"><u><b>obi</u></b></span>e co chce. Dziś widzimy je s<span class="adannotation" data-annotation="3"><u><b>ent</u></b></span>ymentalnie na zdjęciu',
+                                            category: ["natura", "historia"],
+                alt: "Prehistoria. Dlaczego wygineły dinozaury? Żart o dinozaurach" },
+    { src: "https://www.arbulang.com/img/fiszki1/9c.jpg",
+        story: 'L<span class="adannotation" data-annotation="2"><u><b>idi</u></b></span>a <span class="adannotation" data-annotation="1"><u><b>ob</u></b></span>iera wskazany kurs statkiem, <u><b>posłusznie</u></b> do wskazań kapitana statku. Kapitan ma silną m<span class="adannotation" data-annotation="3"><u><b>ent</u></b></span>alność',
+                                            category: ["nauka", "zawód"],
+                alt: "Rejs statkiem. Czy pływanie statkiem jest trudne?" },
+    { src: "https://www.arbulang.com/img/fiszki1/9d.jpg",
+        story: '<span class="adannotation" data-annotation="1"><u><b>Obi</u></b></span>eram ziemniaki dla całego plutonu. <span class="adannotation" data-annotation="2"><u><b>Die</u></b></span>ta jest opracowana przez profesjonalistów, którzy kierowali się <u><b>posłusznie</u></b> do wskazań zapotrzebowania na mikroelem<span class="adannotation" data-annotation="3"><u><b>ent</u></b></span>y',
+                                            category: ["czarny humor", "wojsko"],
+                alt: "Życie na co dzień w wojsku. Kto powinien obieraż ziemniaki w wojsku? Żart o wojsku" },
+    { src: "https://www.arbulang.com/img/fiszki1/9e.jpg",
+        story: '<span class="adannotation" data-annotation="3"><u><b>Ent</u></b></span>y raz powtarzam swojemu dziecku, które nie jest <u><b>posłuszne</u></b>. Idziemy w poniedziałek do d<u><b>ent</u></b>ysty, zr<span class="adannotation" data-annotation="1"><u><b>obi</u></b></span> ci siódemkę i to nie jest <span class="adannotation" data-annotation="2"><u><b>di</u></b></span>abeł tylko lekarz',
+                                           category: ["związki", "wychowanie"],
+                alt: "Opiekowanie sie dzieciem. Czy dentysta jest drogi? Żart o dentyście" }
         ],
         word: [
             "https://www.arbulang.com/src/obedient.wav"
@@ -407,13 +533,7 @@ const fiszki = [
         ],
         key: "obedient",
         key2: ["posłuszny"],
-        category1: [
-            "sport", "dietetyka",
-            "natura", "historia",
-            "nauka", "zawód",
-            "czarny humor", "wojsko",
-            "związki", "wychowanie"
-        ],
+                key3: ["docile", "submissive", "amenable", "biddable", "manageable"],
         category2: ["przymiotniki"]
     },
     {
@@ -423,11 +543,26 @@ const fiszki = [
             4
         ],
         img: [
-            "https://www.arbulang.com/img/fiszki1/10a.jpg",
-            "https://www.arbulang.com/img/fiszki1/10b.jpg",
-            "https://www.arbulang.com/img/fiszki1/10c.jpg",
-            "https://www.arbulang.com/img/fiszki1/10d.jpg",
-            "https://www.arbulang.com/img/fiszki1/10e.jpg"
+    { src: "https://www.arbulang.com/img/fiszki1/10a.jpg", 
+        story: '<u><b>Dla</u></b> spor<span class="adannotation" data-annotation="1"><u><b>tu</b></u></span> przeszedłem się pieszo <u><b>ku</u></b> parku',
+                             category: ["sport", "czas wolny"],
+                alt: "Droga do pracy. Ile trzeba mieć do pracy, żeby móc pójść na nogach?" },
+    { src: "https://www.arbulang.com/img/fiszki1/10b.jpg",
+        story: 'Ra<span class="adannotation" data-annotation="1"><u><b>tu</u></b></span>nku, ta droga poprowadziła nas <u><b>ku</u></b> wężom',
+                              category: ["natura", "zoologia"],
+                alt: "Rzeczywistość dżungli. Czy węże są niebezpieczne?" },
+    { src: "https://www.arbulang.com/img/fiszki1/10c.jpg",
+        story: '<span class="adannotation" data-annotation="1"><b><u>Tu</b></u></span> w Egipcie Totem Faraona to pamiątka <u><b>ku</u></b> jego czci',
+                              category: ["nauka", "historia"],
+                alt: "Historia i turystyka. Czy pamiątka Totemu Faraona jest ciekawą zdobyczą?" },
+    { src: "https://www.arbulang.com/img/fiszki1/10d.jpg",
+        story: '<span class="adannotation" data-annotation="1"><b><u>Tu</b></u></span> <u><b>dla</u></b> Ciebie jest bardzo dobra aktywność, <u><b>to</u></b>talnie nie brakuje mi nic w drodze <u><b>ku</u></b>t mistrza',
+                              category: ["czarny humor", "sport"],
+                alt: "Sport i dyscyplina. Czy uczeń może prześcignąć mistrza?" },
+    { src: "https://www.arbulang.com/img/fiszki1/10e.jpg",
+        story: 'Aaaa.. <span class="adannotation" data-annotation="1"><b><u>tu</b></u></span> to jest, <b><u>ku</b></u> szczęściu znalazłem to..',
+                             category: ["związki", "czas wolny"],
+                alt: "Umiejętności praktyczne. Czy trudno jest znaleźć coś gdy się spieszymy?" }
         ],
         word: [
             "https://www.arbulang.com/src/to.wav"
@@ -451,14 +586,8 @@ const fiszki = [
             "procedures"
         ],
         key: "to",
-        key2: ["do", "na", "aby", "dla", "wobec", "przy", "za", "ku", "ażeby"],
-        category1: [
-            "sport", "czas wolny",
-            "natura", "zoologia",
-            "nauka", "historia",
-            "czarny humor", "sport",
-            "związki", "czas wolny"
-        ],
+        key2: ["do"],
+        key3: ["na", "aby", "dla", "wobec", "przy", "za", "ku", "ażeby"],
         category2: ["spojniki"]
     },
     {
@@ -468,11 +597,26 @@ const fiszki = [
             4
         ],
         img: [
-            "https://www.arbulang.com/img/fiszki1/11a.jpg",
-            "https://www.arbulang.com/img/fiszki1/11b.jpg",
-            "https://www.arbulang.com/img/fiszki1/11c.jpg",
-            "https://www.arbulang.com/img/fiszki1/11d.jpg",
-            "https://www.arbulang.com/img/fiszki1/11e.jpg"
+    { src: "https://www.arbulang.com/img/fiszki1/11a.jpg", 
+        story: 'Ma<span class="adannotation" data-annotation="1"><u><b>sa</u></b></span>j wedle <u><b>nauk</u></b> - uczy w jaki sposób zwiększyć szanse sportowca i wpłynąć na jego s<span class="adannotation" data-annotation="1"><u><b>en</u></b></span>sorykę',
+                             category: ["sport", "sztuki walki"],
+                alt: "Kultura masajów. Czy poszerzanie zdolności zmysłów ma wpływ na wyniki sportowe?" },
+    { src: "https://www.arbulang.com/img/fiszki1/11b.jpg",
+        story: '<u><b>Sa</u></b>m idę przez las i przygotowuję się do obrony doktoratu. Dla potrzeb <u><b>nauki</u></b> <u><b>j</u></b>eszcze muszę w<u><b>ensz</u></b>yć za odpowiednimi zdjęciami',
+                             category: ["natura", "przygody"],
+                alt: "Naukowiec w lesie. Czy naukowiec boi się iść przez las?" },
+    { src: "https://www.arbulang.com/img/fiszki1/11c.jpg",
+        story: 'Badacz <u><b>naukowy</u></b> nie ma <u><b>saj</b></u>gonu w dziedzinie nauki i ma s<u><b>ens</b></u> tego co robi',
+                             category: ["nauka", "samodyscyplina"],
+                alt: "Praca naukowca. Czy naukowiec ma dużą trudność do przygotoania się do awansu?" },
+    { src: "https://www.arbulang.com/img/fiszki1/11d.jpg",
+        story: 'Ma<u><b>ti</u></b> ma <u><b>saj</u></b>gon w pracy, ten dzień nie ma s<b><u>en</b></u>su, a jeszcze muszę się uczyć na <u><b>fi</u></b>zykę z ta<u><b>k</u></b>iego tematu badań <u><b>naukowych</u></b>',
+                             category: ["czarny humor", "planowanie"],
+                alt: "Sens nauki w szkole i na studiach. Czy wiedza potrafi zwiększyć skuteczność?" },
+    { src: "https://www.arbulang.com/img/fiszki1/11e.jpg",
+        story: 'Najlepiej nie mieć <u><b>saj</u></b>gonu jako <u><b>naukowiec</u></b>, a także być s<u><b>en</u></b>sualnym kochankiem, który podziwia kobietę w <u><b>ti</u></b>ulowej wyra<u><b>fi</u></b>nowanej su<u><b>k</u></b>ni',
+                             category: ["związki", "planowanie"],
+                alt: "Styl ubierania się. Czy garderoba ma znaczenie?" }
         ],
         word: [
             "https://www.arbulang.com/src/science.wav"
@@ -494,14 +638,8 @@ const fiszki = [
             "procedures"
         ],
         key: "scientific",
-        key2: ["naukowy", "przyrodniczy", "naukowe"],
-        category1: [
-            "sport", "sztuki walki",
-            "natura", "",
-            "nauka", "samodyscyplina",
-            "czarny humor", "planowanie",
-            "związki", "planowanie"
-        ],
+        key2: ["naukowy"],
+        key3: ["przyrodniczy", "naukowe"],
         category2: ["dziedziny"]
     },
     {
@@ -511,11 +649,26 @@ const fiszki = [
             4
         ],
         img: [
-            "https://www.arbulang.com/img/fiszki1/12a.jpg",
-            "https://www.arbulang.com/img/fiszki1/12b.jpg",
-            "https://www.arbulang.com/img/fiszki1/12c.jpg",
-            "https://www.arbulang.com/img/fiszki1/12d.jpg",
-            "https://www.arbulang.com/img/fiszki1/12e.jpg"
+    { src: "https://www.arbulang.com/img/fiszki1/12a.jpg", 
+        story: "<u><b>Pr</u></b>estiż w dżungli to przetrwanie. Tu stosujemy <u><b>procedury</u></b> szamanów",
+                             category: ["sport", "surwiwal"],
+                alt: "Przetrwanie w dżungli. Jak przetrwać w dżungli?" },
+    { src: "https://www.arbulang.com/img/fiszki1/12b.jpg",
+        story: "Popre te <u><b>pro-cedury</u></b> <u><b>siii</b></u> bo jestem na wyspie <u><b>Dżer</b></u>ba w Tunezji i <u><b>s</u></b>toje w oceanie",
+                             category: ["natura", "wycieczki"],
+                alt: "Urlop i wycieczki. Czy w Tunezji są jakieś fajne wyspy?" },
+    { src: "https://www.arbulang.com/img/fiszki1/12c.jpg",
+        story: "Każdy naukowiec proszony jest o klarownośc badań i </b></u>procedury</b></u>. Nauka to nie bajka </b></u>Si</b></u>ndbad, ani film z <b><u>Dze</b></u>ki Czan. Trudne to <b><u>rrrrr</b></u>",
+                category: ["nauka", "procedury"],
+                alt: "Rzetelność badań naukowych. Czy badania naukowe są widowiskowe?" },
+    { src: "https://www.arbulang.com/img/fiszki1/12d.jpg",
+        story: "<u><b>Pr</u></b>estiżowe pism<u><b>o</u></b> naukowe wno<u><b>si</u></b>, że niektóre <u><b>dże</u></b>my pomagają na <u><b>r</u></b>aka <u><b>s</u></b>kóry",
+                             category: ["czarny humor", "zdrowie"],
+                alt: "Profilaktyka chorób. Czy dżem pomaga na choroby?" },
+    { src: "https://www.arbulang.com/img/fiszki1/12e.jpg",
+                             category: ["związki", "zdrowie"],
+                story: "Nasz <u><b>dże</u></b>m wpływa zdrowotnie na samopoczucie. Jest wyrabiany zgodnie z <u><b>procedurami</u></b> w <u><b>Si</u></b>ngapurze - głównie z <u><b>r</u></b>abarbaru",
+       alt: "Dżem z rabarbaru. Z czego jest najlepszy dżem?" }
         ],
         word: [
             "https://www.arbulang.com/src/procedure.wav"
@@ -538,13 +691,6 @@ const fiszki = [
         ],
         key: "procedures",
         key2: ["procedury"],
-        category1: [
-            "sport", "surwiwal",
-            "natura", "wycieczki",
-            "nauka", "procedury",
-            "czarny humor", "zdrowie",
-            "związki", "zdrowie"
-        ],
         category2: ""
     },
     {
@@ -554,11 +700,26 @@ const fiszki = [
             5
         ],
         img: [
-            "https://www.arbulang.com/img/fiszki1/13a.jpg",
-            "https://www.arbulang.com/img/fiszki1/13b.jpg",
-            "https://www.arbulang.com/img/fiszki1/13c.jpg",
-            "https://www.arbulang.com/img/fiszki1/13d.jpg",
-            "https://www.arbulang.com/img/fiszki1/13e.jpg"
+    { src: "https://www.arbulang.com/img/fiszki1/13a.jpg", 
+        story: "<u><b>Bi</u></b>egam dobrze i podczas biegania odczuwam całkowicie inny stan <u><b>bycia</u></b>",
+                             category: ["sport", "trening"],
+                alt: "Zdrowie a bieganie. Jak bieganie wpływa na samopoczucie i zdrowie?" },
+    { src: "https://www.arbulang.com/img/fiszki1/13b.jpg",
+        story: "Jestestwo lisa <u><b>Bi</u></b>ll i łabędzia <u><b>Bi</u></b>anka polega na jedzeniu bigosu. Lisek mówi do Bianki: ja lubie <u><b>być</u></b> smakoszem bigosu",
+                             category: ["natura", "zwierzęta"],
+                alt: "Kulinaria. Jakie są ulubione polskie potrawy dla obcokrajowców?" },
+    { src: "https://www.arbulang.com/img/fiszki1/13c.jpg",
+        story: "<u><b>Bi</u></b>ologia jest taką dziedziną, w której warto jako badacz <u><b>być</u></b> zaangażowanym",
+                category: ["nauka", "biologia"],
+                alt: "Odkrycia naukowe w biologii. Czy odkrycia biologii mogą fascynować?" },
+    { src: "https://www.arbulang.com/img/fiszki1/13d.jpg",
+        story: "<u><b>Bi</u></b>egnę w zawodach i chcę <u><b>być</u></b> najlepszy, ale natrafiłem na słupa i wybiłem jedynkę",
+                             category: ["czarny humor", "zdrowie"],
+                alt: "Przygotowanie do zawodów sportowych. Czy bieganie jest kontuzyjne?" },
+    { src: "https://www.arbulang.com/img/fiszki1/13e.jpg",
+                story: "<u><b>Być</u></b> <u><b>bi</u></b>ednym to nie to samo co być początkującym milionerem",
+                                    category: ["związki", "finanse"],
+                alt: "Trening mentalny w biznesie. Czy przygotowanie mentalne pomaga osiągać cele?" }
         ],
         translate: "Bądź bardziej obecny wobec swoich emocji",
         translateb: "[Bi mor prezent łiz jor imołszyns]",
@@ -586,14 +747,8 @@ const fiszki = [
             "present"
         ],
         key: "be",
-        key2: ["być", "mieć", "stać", "istnieć", "pozostawać", "leżeć", "trwać", "być do", "czuć się", "odbyć się", "kosztować", "wypadać"],
-        category1: [
-            "sport", "trening",
-            "natura", "zwierzęta",
-            "nauka", "biologia",
-            "czarny humor", "zdrowie",
-            "związki", "finanse"
-        ],
+        key2: ["być"],
+        key3: ["mieć", "stać", "istnieć", "pozostawać", "leżeć", "trwać", "być do", "czuć się", "odbyć się", "kosztować", "wypadać"],
         category2: ["czasownik"],
         category3: ["Imperative"]
     },
@@ -604,11 +759,26 @@ const fiszki = [
             5
         ],
         img: [
-            "https://www.arbulang.com/img/fiszki1/14a.jpg",
-            "https://www.arbulang.com/img/fiszki1/14b.jpg",
-            "https://www.arbulang.com/img/fiszki1/14c.png",
-            "https://www.arbulang.com/img/fiszki1/14d.jpg",
-            "https://www.arbulang.com/img/fiszki1/14e.jpg"
+    { src: "https://www.arbulang.com/img/fiszki1/14a.jpg", 
+        story: "Bokser inspiruje się tym jak walczyli w <u><b>Mor</u></b>tal Kombat, ogląda tego <u><b>więcej</u></b> i wiecej",
+                             category: ["sport", "film"],
+                alt: "Podziwianie bohaterów filmów. Czy motywację do sportu można nabyć z filmu?" },
+    { src: "https://www.arbulang.com/img/fiszki1/14b.jpg",
+        story: "<u><b>Mor</u></b>ska zmora <u><b>mor</u></b>suje w morzu - <u><b>więcej</u></b> i więcej",
+                             category: ["natura", "morze"],
+                alt: "Życie organizmów w wodzie. Jak wygląda życie organizmów w wodzie?" },
+    { src: "https://www.arbulang.com/img/fiszki1/14c.jpg",
+        story: "<u><b>Mor</u></b>fina jest podawana na silny ból. Nie można dać <u><b>więcej</u></b> niż określoną dawkę",
+                category: ["nauka", "zdrowie"],
+                alt: "Stosowanie leków. Jakie leki pomagają na silny ból?" },
+    { src: "https://www.arbulang.com/img/fiszki1/14d.jpg",
+        story: "Spodnie <u><b>mor</u></b>o dają plus 10 punktów <u><b>więcej</u></b> do ataku",
+                             category: ["czarny humor", "wojsko"],
+                alt: "Odzież dla żołnierzy. Jakie są najlepsze ubrania do maskowania?" },
+    { src: "https://www.arbulang.com/img/fiszki1/14e.jpg",
+                story: "Mój chłopak wie, że smakuje mi <u><b>mor</u></b>tadela i mogę wtedy <u><b>więcej</u></b> jeść",
+                                    category: ["związki", "jedzenie"],
+                alt: "Żywienie a potrzeby organizmu. Czy powinniśmy się dzielić upodobaniami kulinarnymi z innymi?" }
         ],
         word: [
             "https://www.arbulang.com/src/more.wav"
@@ -630,14 +800,8 @@ const fiszki = [
             "present"
         ],
         key: "more",
-        key2: ["więcej", "bardziej", "jeszcze", "raczej", "dalszy"],
-        category1: [
-            "sport", "film",
-            "natura", "morze",
-            "nauka", "zdrowie",
-            "czarny humor", "wojsko",
-            "związki", "jedzenie"
-        ],
+        key2: ["więcej"],
+        key3: ["bardziej", "jeszcze", "raczej", "dalszy"],
         category2: ""
     },
     {
@@ -647,11 +811,26 @@ const fiszki = [
             5
         ],
         img: [
-            "https://www.arbulang.com/img/fiszki1/15a.jpg",
-            "https://www.arbulang.com/img/fiszki1/15b.jpg",
-            "https://www.arbulang.com/img/fiszki1/15c.jpg",
-            "https://www.arbulang.com/img/fiszki1/15d.jpg",
-            "https://www.arbulang.com/img/fiszki1/15e.jpg"
+    { src: "https://www.arbulang.com/img/fiszki1/14a.jpg", 
+        story: "<u><b>Prezent</u></b>em dla każdego sportowca jest <u><b>obecność</u></b> kibiców",
+                             category: ["sport", "widowisko"],
+                alt: "Życie sportowe poza boiskiem. Czy doping kibiców jest dla sportowca ważny?" },
+    { src: "https://www.arbulang.com/img/fiszki1/14b.jpg",
+        story: "Na <u><b>pre</u></b>riach Sawanny podczas <u><b>zen</u></b>itu <u><b>obecne</u></b> są Antylopy",
+                             category: ["natura", "pustynia"],
+                alt: "" },
+    { src: "https://www.arbulang.com/img/fiszki1/14c.jpg",
+        story: "<u><b>Pre</u></b>dykcja czyli przewidywanie jest <u><b>obecne</u></b> w procedurach <u><b>ze</u></b> względu na prawdopodobieństwo r<u><b>ent</u></b>owności badań",
+                category: ["nauka", "statystyka"],
+                alt: "" },
+    { src: "https://www.arbulang.com/img/fiszki1/14d.jpg",
+        story: "Byłem <u><b>obecny</u></b> na losowaniu, gdzie każdy wygrywał <u><b>prezent</u></b>, los kosztował 30zł, a nagroda wynosiła też 30zł",
+                             category: ["czarny humor", "loteria"],
+                alt: "" },
+    { src: "https://www.arbulang.com/img/fiszki1/14e.jpg",
+                story: "Ten <u><b>prezent</u></b> na imieniny czyli spektakl jest fajny. Fajnie, że wszyscy przyjaciele się pojawili (byli <u><b>obecni</u></b>)",
+                                    category: ["związki", "imprezy"],
+                alt: "" }
         ],
         word: [
             "https://www.arbulang.com/src/present.wav"
@@ -673,15 +852,9 @@ const fiszki = [
             "present"
         ],
         key: "present",
-        key2: ["obecny", "prezent", "zaprezentować", "teraźniejszość", "niniejszy", "prezentować", "przedstawiać", "teraźniejszy", "dar", "współczesny", "upominek", "podarunek",
+        key2: ["obecny"],
+        key3: ["prezent", "zaprezentować", "teraźniejszość", "niniejszy", "prezentować", "przedstawiać", "teraźniejszy", "dar", "współczesny", "upominek", "podarunek",
         "podarek", "czas teraźniejszy", "charakter", "podarować", "darować", "ofiarować", "przedkładać", "sprezentować", "wnieść", "wręczać", "nastręczać", "gościniec"],
-        category1: [
-            "sport", "widowisko",
-            "natura", "pustynia",
-            "nauka", "statystyka",
-            "czarny humor", "loteria",
-            "związki", "jedzenie"
-        ],
         category2: ""
     },
     {
@@ -719,7 +892,8 @@ const fiszki = [
             "emotions"
         ],
         key: "with",
-        key2: ["z", "ze", "przy", "do", "u", "mimo"],
+        key2: ["z"],
+        key3: ["ze", "przy", "do", "u", "mimo"],
         category1: [
             "sport", "trening mentalny",
             "natura", "zwierzęta",
@@ -762,6 +936,8 @@ const fiszki = [
             "emotions"
         ],
         key: "your",
+        key2: ["twój"],
+        key3: ["swój", "pani", "pański"],
         category1: [
             "sport", "wojsko",
             "natura", "miejsca",
@@ -804,6 +980,7 @@ const fiszki = [
             "emotions"
         ],
         key: "emotions",
+        key2: ["emocje"],
         category1: [
             "sport", "bieganie",
             "natura", "wspianczka",
@@ -852,6 +1029,7 @@ const fiszki = [
             "shy"
         ],
         key: "I",
+        key2: ["ja"],
         category1: [
             "sport", "rowery",
             "natura", "zdrowie",
@@ -893,6 +1071,7 @@ const fiszki = [
             "shy"
         ],
         key: "am",
+        key2: ["jestem"],
         category1: [
             "sport", "trening",
             "natura", "zapach",
@@ -934,6 +1113,9 @@ const fiszki = [
             "shy"
         ],
         key: "shy",
+        key2: ["nieśmiały"],
+        key3: ["wstydliwy", "trwożliwy", "płochliwy", "bojaźliwy", "poszkodowany", "płochy", "pierzchliwy", "trwożny", "zastrachany", 
+            "dziki", "rzut", "docinek", "próba", "spłoszyć się", "lękać się"],
         category1: [
             "sport", "umiejętności",
             "natura", "zwierzęta",
@@ -975,6 +1157,8 @@ const fiszki = [
             "daring"
         ],
         key: "but",
+        key2: ["ale"],
+        key3: ["jednak", "lecz", "tylko", "oprócz", "aliści", "żeby nie", "poza czymś", "zaledwie"],
         category1: [
             "sport", "umiejętności",
             "natura", "odkrycia",
@@ -1014,6 +1198,8 @@ const fiszki = [
             "daring"
         ],
         key: "sometimes",
+        key2: ["czasami"],
+        key3: ["niekiedy", "nieraz"],
         category1: [
             "sport", "sztuki walki",
             "natura", "miejsca",
@@ -1053,6 +1239,8 @@ const fiszki = [
             "daring"
         ],
         key: "daring",
+        key2: ["śmiały"],
+        key3: ["odważny", "śmiałość", "brawurowy", "odwaga", "bojowy", "bitny", "bitność", "brawura"],
         category1: [
             "sport", "gimnastyka",
             "natura", "medycyna",
@@ -1325,7 +1513,11 @@ const fiszki = [
             "https://www.arbulang.com/img/fiszki1/3x.jpg"
         ],
         story: [
-            "Od momentu, gdy <u><b>to</u></b> wynaleziono(smartfona), stało się <u><b>to</u></b> m<u><b>it</u></b>ycznie użyteczne"
+            "<u><b>To</u></b> trening skoro św<u><b>it</u></b> jest najlepszy dla sportowca",
+            "Od momentu, gdy <u><b>to</u></b> wynaleziono(smartfona), stało się <u><b>to</u></b> m<u><b>it</u></b>ycznie użyteczne",
+            "Co <u><b>to</u></b> jest za system operacyjny dla pc? To 64 b<u><b>it</u></b>",
+            "Nie dawno powstał taki m<u><b>it</u></b>, że trzeba skrollować rolki na mediach społecznościowych. <u><b>To</u></b> szalenstwo!",
+            "Fajnie jest przyjść do firmy <u><b>IT</u></b>(Aj-Ti) i pracować z ludźmi, których ludzi. <u><b>To</u></b> prawdziwa przyjemność!"
         ],
         desc: "it[it] - to",
         sentence2: [
@@ -1338,11 +1530,11 @@ const fiszki = [
         ],
         key: "it",
         category1: [
-            "sport", "taniec",
+            "sport", "dyscyplina",
             "natura", "osiągnięcia",
-            "nauka", "",
-            "czarny humor", "wspinaczka",
-            "związki", "wsparcie"
+            "nauka", "komputer",
+            "czarny humor", "media społecznościowe",
+            "związki"
         ],
         category2: ["zaimkiosobowe"]
     },
@@ -1440,7 +1632,13 @@ const fiszki = [
             11
         ],
         img: "https://www.arbulang.com/img/fiszki1/33a.jpg",
-        story: "<b><u>Organ</b></u>izacja dobroczynna współpracuje z Filipem H<b><u>ajze</b></u>rem",
+        story: [ 
+            "N<b><u>ajz</b></u>abawniejsze w pracy sportowaca j<b><u>es</b></u>t to, że musi <b><u>zorganizować</b></u> swoje zaplecze sportowe sam",
+            "Najzabawniejsze w wycieczce do Zoo jest to, że organizowanie biletów musi się odbyć dużo wcześniej przed przyjazdem grupy",
+            "Dawniej <b><u>organizowano</b></u> składniki na chleb i k<b><u>ajz</b></u>erki. Gdy się jadło nie było str<b><u>es</b></u>u",
+            "Gram na keyboard(kibordzie) czyli <b><u>organ</b></u>ach, a później <b><u>zorganizuje</b></u> ten b<b><u>ajz</b></u>el - tak, żeby był porządek",
+            "<b><u>Organ</b></u>izacja dobroczynna organizuje z Filipem H<b><u>ajze</b></u>rem kwestę. J<b><u>es</b></u>t super"
+        ],
         desc: "organizes[organajz] - organizować",
         sentence1: [
             "organizes"
@@ -1451,7 +1649,13 @@ const fiszki = [
             "organizes"
         ],
         key: "organizes",
-        category1: "związki",
+        category1: [
+            "sport", "przygotowania",
+            "natura", "zoo",
+            "nauka", "kulinaria",
+            "czarny humor", "tworznie muzyki",
+            "związki", "organizacje charytatywne"
+        ],
         category2: ["podmiot+czas", "czasownik"],
         category3: ["PresentSimple", "PresentSimpleCzasownik"]
     },
@@ -6672,7 +6876,10 @@ const fiszki = [
             66
         ],
         img: "https://www.arbulang.com/img/fiszki1/221a.jpg",
-        story: "Ten <u><b>blu</u></b>szcz jest taki piękny na tle niebieskiego nieba",
+                story: [
+            "Ten <u><b>blu</u></b>szcz jest taki piękny na tle niebieskiego nieba",
+            'Jak się załatwia potrzebę w <u><b>niebieskim</u></b> ki<u><b>blu</u></b>? Zarządca, który wymyślił niebieski kibel powiedział do BHP-owca: "Szkoda, żeś ich nie nauczył jak się spuszcza gówno w ki<u><b>blu</u></b>'
+        ],
         desc: "blue[blu] - niebieski/niebieskie",
         sentence2: [
             "blue"
@@ -10012,24 +10219,37 @@ function generateFiszkaBlock(fiszka, lessonId2) {
         let fiszkaContainer = $('<div>').addClass('fiszka fiszka-' + fiszka.id);
 console.log('Hej4442', fiszkaContainer);
 
+const imgContainer = $('<div>').addClass('fiszka_img_container');
+        fiszka.entries.forEach(entry => {
+            // Tworzymy kontener dla zdjęć
 
-        // DODANIE OBRAZKA
-        const imgContainer = $('<div>').addClass('fiszka_img_container');
-        if (Array.isArray(fiszka.img) && fiszka.img.length > 0) {
-            fiszka.img.forEach((imgSrc, index) => {
-                const imgElement = $('<img class="fiszka_img">').attr('src', imgSrc);
+            // Sprawdzamy, czy img to tablica (może być więcej niż jedno zdjęcie)
+            if (Array.isArray(entry.img)) {
+                entry.img.forEach((imgObj, index) => {
+                    const imgElement = $('<img class="fiszka_img">')
+                        .attr('src', imgObj.src)  // Dodanie URL obrazka
+                        .attr('alt', imgObj.alt); // Dodanie ALT
+                    imgContainer.append(imgElement);
+                    if (index > 0) {
+                        imgElement.hide(); // Ukrywanie dodatkowych zdjęć
+                    }
+                });
+            } else if (typeof entry.img === 'object' && entry.img !== null) {
+                // Jeśli img to pojedynczy obiekt
+                const imgElement = $('<img class="fiszka_img">')
+                    .attr('src', entry.img.src)
+                    .attr('alt', entry.img.alt);
                 imgContainer.append(imgElement);
-                if (index > 0) {
-                    imgElement.hide();
-                }
-            });
-        } else if (typeof fiszka.img === 'string') {
-            // Jeśli jest tylko jedno zdjęcie, dodajemy je do imgContainer dla każdej fiszki
-            const imgElement = $('<img class="fiszka_img">').attr('src', fiszka.img);
-            imgContainer.append(imgElement);
-        }
-        fiszkaContainer.append(imgContainer); //DODANIE OBRAZKA
+            }
 
+            // Tworzymy kontener dla historii
+            const storyContainer = $('<div>').addClass('story').html(entry.story.text);
+
+            // Dodajemy kontener obrazków i historii do kontenera fiszki
+            const fiszkaContainer = $('<div>').addClass('fiszka');
+
+        });
+            fiszkaContainer.append(imgContainer);
         const selectedLikes = [];
         console.log('hej10', selectedLikes);
 
@@ -10182,53 +10402,46 @@ console.log('Hej4442', fiszkaContainer);
         const hashtagContainer = $('<a>').addClass('hashtag-container').attr('href', '#');
         fiszkaContainer.append(hashtagContainer);
 
-        function showStory(index) {
-            const currentFiszka = fiszkaContainer;
+function showStory(index) {
+    const currentFiszka = $('.fiszka').eq(index); // Znajdujemy odpowiednią fiszkę na podstawie indeksu
 
-            // Ukrywamy wszystkie historie w tej konkretnej fiszce
-            currentFiszka.find('.fiszka_story').hide();
+    // Ukrywamy wszystkie historie i obrazy w tej konkretnej fiszce
+    currentFiszka.find('.story').hide();
+    currentFiszka.find('.fiszka_img').hide();
 
-            // Obsługa mnemoniki
-            if (Array.isArray(fiszka.story)) {
-                if (index >= 0 && index < fiszka.story.length) {
-                    currentFiszka.find('.story-' + index).show();
-                }
-            } else if (fiszka.story) {
-                currentFiszka.find('.story-0').show();
-            }
+    let imgIndex; // Zmienna do przechowywania indeksu obrazka
 
-            // Ukrywamy wszystkie obrazy
-            currentFiszka.find('.fiszka_img').hide();
+    // Sprawdzamy, czy fiszka zawiera tablicę obrazków
+    const entryIndex = currentFiszka.data('entry-index'); // Pobieramy indeks dla tej fiszki
+    const entry = fiszka.entries[entryIndex]; // Pobieramy odpowiednią fiszkę z tablicy fiszka.entries
 
-            // Obsługa obrazów
-            let imgIndex; // Zmienna do przechowywania indeksu obrazka
+    if (Array.isArray(entry.img)) {
+        imgIndex = Math.min(index, entry.img.length - 1);
+        currentFiszka.find('.fiszka_img').eq(imgIndex).show();
+        console.log("Index obrazka:", imgIndex);
+    } else {
+        imgIndex = 0; // Ustawienie imgIndex na 0, gdy fiszka.img nie jest tablicą
+        currentFiszka.find('.fiszka_img').eq(imgIndex).show();
+        console.log("Index obrazka:", imgIndex);
+    }
 
-            if (Array.isArray(fiszka.img)) {
-                imgIndex = Math.min(index, fiszka.img.length - 1);
-                currentFiszka.find('.fiszka_img').eq(imgIndex).show();
-                specificLesson2Ref = fiszka.img[imgIndex];
-                console.log("Index obrazka:", imgIndex);
-            } else {
-                imgIndex = 0; // Ustawienie imgIndex na 0, gdy fiszka.img nie jest tablicą
-                currentFiszka.find('.fiszka_img').eq(imgIndex).show();
-                specificLesson2Ref = fiszka.img;
-                console.log("Index obrazka:", imgIndex);
-            }
+    // Obsługa `story` - jeśli istnieje w danym obrazku
+    const storyText = entry.story.text;
+    const storyElement = currentFiszka.find('.story');
+    
+    // Usunięcie starych historii i dodanie nowej
+    storyElement.html(storyText);
+    storyElement.show();
 
-            lastClickedIndex = index;
+    // Opcjonalnie obsługa hashtagów
+    const selectedCategoryIndex = index * 2;
+    const value = entry.category[selectedCategoryIndex];
+    const hashtag = entry.category[selectedCategoryIndex + 1];
 
-            // Obsługa hashtagów
-            const selectedCategoryIndex = index * 2;
-            const value = fiszka.category1[selectedCategoryIndex];
-            const hashtag = fiszka.category1[selectedCategoryIndex + 1];
+    $('#hashtagContainer').empty().text(`${value} #${hashtag}`); // Zakładając, że masz element o id hashtagContainer
 
-            hashtagContainer.empty();
-            hashtagContainer.text(`${value} #${hashtag}`);
-
-            console.log('Calculated imgIndex:', imgIndex);
-
-            return imgIndex;
-        }
+    return imgIndex;
+}
 
         function selectLikeButton(index) {
             console.log("Wybór likeButton dla indeksu:", index);
@@ -10345,127 +10558,95 @@ console.log('Hej4442', fiszkaContainer);
         fiszkaContainer.append(wordDiv2);
 
         console.log('Po utworzeniu wordDiv');
-        // Zdefiniuj zmienną początkową na poziomie wyższym
-        let initialSpecificLesson2Ref;
-        let specificLesson2Ref;
-        let lastClickedIndex = null;
-        let lastApprovedIndex = null; // Zmienna do przechowywania ostatnio zatwierdzonego indeksu
-        let approvedIndexes = []; // Tablica przechowująca zatwierdzone indeksy
-        let approvedColors = [];
+let initialSpecificLesson2Ref;
+let specificLesson2Ref;
+let lastClickedIndex = null;
+let lastApprovedIndex = null; // Zmienna do przechowywania ostatnio zatwierdzonego indeksu
+let approvedIndexes = [];      // Tablica przechowująca zatwierdzone indeksy
+let approvedColors = [];
 
-// DODANIE PRZYCISKÓW
-        if (Array.isArray(fiszka.category1)) {
-            const storyButtonContainer = $('<div>'); // Kontener na przyciski
-            const randomIndex = Math.floor(Math.random() * fiszka.category1.length / 2);
-            let lastClickedButton; // Zmienna do przechowywania ostatnio klikniętego przycisku w danej fiszce
+// Zakładamy, że istnieje kontener dla fiszki: fiszkaContainer
 
-            fiszka.category1.slice(0, 5).forEach((category1, index) => {
-                const valueIndex = index * 2; // Indeks wartości w tablicy, zaczynając od 0
-                const hashtagIndex = valueIndex + 1; // Indeks hashtagu w tablicy
-
-                const value = fiszka.category1[valueIndex];
-                const hashtag = fiszka.category1[hashtagIndex];
-
-                const displayText = `${value} #${hashtag}`;
-
-                const storyButton = $('<button>')
-                        .text(displayText)
-                        .addClass('story_button')
-                        .click(function () {
-                            showStory(index);
-                            lastClickedIndex = index;
-
-                            // Usuwamy zieloną klasę tylko z poprzedniego przycisku w danej fiszce
-                            if (lastClickedButton) {
-                                lastClickedButton.removeClass('green-button');
-                            }
-
-                            // Usuwamy klasę imgIndex z poprzedniego przycisku w danej fiszce
-                            $('.story_button').removeClass((index, className) => (className.match(/imgIndex-\d+/g) || []).join(' '));
-                            // Dodajemy klasę imgIndexNull do przycisków, które nie zostały jeszcze zatwierdzone
-                            $('.fiszka').addClass('imgIndexNull').removeClass('imgIndex-0 imgIndex-1 imgIndex-2 imgIndex-3 imgIndex-4 ');
-
-                            // Dodajemy zieloną klasę tylko dla aktualnie klikniętego przycisku w danej fiszce
-                            $(this).addClass('green-button');
-                            $('.story_button').removeClass('active-button');
-                            $(this).addClass('active-button');
-                            $('.story_button').each(function (index) {
-                                if ($(this).hasClass('orange-button')) {
-                                    $(this).removeClass('green-button');
-                                    $(this).addClass('orange-button');
-                                }
-                            });
-
-                            // Jeśli przycisk został wcześniej zatwierdzony, przywróć jego zatwierdzoną klasę
-                            if (approvedIndexes.includes(lastClickedIndex)) {
-                                fiszkaContainer.addClass('imgIndex-' + lastClickedIndex);
-                            }
-
-                            // Zapisujemy ostatnio kliknięty przycisk w danej fiszce
-                            lastClickedButton = $(this);
-                            handleLikeButtonClick();
-                        });
-
-                if (index === randomIndex) {
-                    // Sprawdzamy, czy fiszka.img jest tablicą czy pojedynczą wartością
-                    if (Array.isArray(fiszka.img)) {
-                        newImgIndex = Math.min(index, fiszka.img.length - 1); // Aktualizacja zmiennej globalnej imgIndex
-                        specificLesson2Ref = fiszka.img[newImgIndex];
-                        console.log('hej432', specificLesson2Ref);
-                    } else if (fiszka.img) {
-                        newImgIndex = 0; // Przypisanie domyślnego indeksu dla pojedynczego obrazka
-                        specificLesson2Ref = fiszka.img; // Przypisanie pojedynczej wartości do specificLesson2Ref
-                        console.log('hej432', specificLesson2Ref);
-                    }
-                    initialSpecificLesson2Ref = specificLesson2Ref;
-                    console.log('Hej7', specificLesson2Ref);
-                    storyButton.addClass('green-button');
-                    lastClickedButton = storyButton;
-                    lastApprovedIndex = index; // Ustaw ostatnio zatwierdzony indeks na indeks losowego przycisku
-                }
-
-                // Dodaj typ "like" dla tej fiszki do tablicy
-                storyButtonContainer.append(storyButton);
-            });
-
-            fiszkaContainer.append(storyButtonContainer);
-
-            // WYWOŁANIE TABLICY
-            showStory(randomIndex);
-            console.log(randomIndex);
-
-            // Użycie specificLesson2Ref po załadowaniu strony
-            console.log("Początkowy specificLesson2Ref:", initialSpecificLesson2Ref);
-
-        } else if (fiszka.category1) {
-            // Jeśli fiszka.category1 nie jest tablicą
-            newImgIndex = 0; // Przypisanie domyślnego indeksu dla pojedynczego obrazka
-            specificLesson2Ref = fiszka.img; // Przypisanie pojedynczej wartości do specificLesson2Ref
-            initialSpecificLesson2Ref = specificLesson2Ref;
-            console.log('Hej7', specificLesson2Ref);
-
-            // Stwórz pojedynczy przycisk dla pojedynczej wartości category1
-            const displayText = `${fiszka.category1} #${fiszka.category1}`;
-            const storyButton = $('<button>')
-                    .text(displayText)
-                    .addClass('story_button2 green-button') // Od razu przypisz zieloną klasę
-                    .click(function () {
-                        showStory(0); // Przekazujemy 0 jako indeks, ponieważ jest to pojedyncza wartość
-                        lastClickedIndex = 0;
-
-                        // Zapisujemy ostatnio kliknięty przycisk
-                        lastClickedButton = $(this);
-                        handleLikeButtonClick();
-                    });
-
-            fiszkaContainer.append(storyButton);
-            lastClickedButton = storyButton;
-            lastApprovedIndex = 0; // Ustaw ostatnio zatwierdzony indeks na 0
-
-            // WYWOŁANIE POJEDYNCZEJ HISTORII
-            showStory(0);
-            console.log("Pojedyncza wartość dla category1, specificLesson2Ref:", specificLesson2Ref);
+// Jeśli fiszka.entries jest tablicą
+if (Array.isArray(fiszka.entries) && fiszka.entries.length > 0) {
+    const storyButtonContainer = $('<div>'); // Kontener na przyciski
+    let lastClickedButton; // Przechowuje ostatnio kliknięty przycisk
+    
+    // Losujemy indeks przycisku, który ma być aktywny przy ładowaniu
+    const randomButtonIndex = Math.floor(Math.random() * fiszka.entries.length);
+    
+    // Iterujemy przez wszystkie elementy w tablicy entries
+    fiszka.entries.forEach((entry, index) => {
+        let displayText = "";
+        
+        if (Array.isArray(entry.category) && entry.category.length >= 2) {
+            // Łączymy pierwsze dwie wartości kategorii
+            displayText = `${entry.category[0]} #${entry.category[1]}`;
+        } else if (entry.category) {
+            // Jeśli kategoria nie jest tablicą lub ma mniej niż 2 wartości
+            displayText = Array.isArray(entry.category)
+                ? entry.category.join(" ")
+                : entry.category;
         }
+        
+        const storyButton = $('<button>')  // Przygotowujemy przycisk
+            .text(displayText)
+            .addClass('story_button')
+            .click(function () {
+                showStory(index);  // Wywołujemy funkcję showStory z indeksem fiszki
+                lastClickedIndex = index;
+                
+                // Usuwamy zieloną klasę z poprzednio aktywnego przycisku
+                if (lastClickedButton) {
+                    lastClickedButton.removeClass('green-button');
+                }
+                
+                // Usuwamy klasy imgIndex z przycisków oraz resetujemy klasy kontenera
+                $('.story_button').removeClass((i, className) => 
+                    (className.match(/imgIndex-\\d+/g) || []).join(' ')
+                );
+                $('.fiszka').addClass('imgIndexNull')
+                    .removeClass('imgIndex-0 imgIndex-1 imgIndex-2 imgIndex-3 imgIndex-4');
+    
+                // Ustawiamy aktywność klikniętego przycisku
+                $(this).addClass('green-button active-button');
+                $('.story_button').removeClass('active-button');
+                $(this).addClass('active-button');
+                $('.story_button').each(function () {
+                    if ($(this).hasClass('orange-button')) {
+                        $(this).removeClass('green-button').addClass('orange-button');
+                    }
+                });
+    
+                if (approvedIndexes.includes(lastClickedIndex)) {
+                    fiszkaContainer.addClass('imgIndex-' + lastClickedIndex);
+                }
+    
+                lastClickedButton = $(this);
+                // Ustawiamy referencję obrazu na aktualnie wybrany
+                specificLesson2Ref = entry.img;
+                initialSpecificLesson2Ref = specificLesson2Ref;
+                handleLikeButtonClick();
+            });
+            
+        // Jeśli to przycisk o wylosowanym indeksie, ustawiamy go jako aktywny
+        if (index === randomButtonIndex) {
+            storyButton.addClass('green-button');
+            lastClickedButton = storyButton;
+            lastApprovedIndex = index;
+            specificLesson2Ref = entry.img;
+            initialSpecificLesson2Ref = specificLesson2Ref;
+        }
+        
+        storyButtonContainer.append(storyButton);
+    });
+    
+    fiszkaContainer.append(storyButtonContainer);
+    
+    // Wywołujemy showStory dla wylosowanego przycisku
+    showStory(randomButtonIndex);
+    console.log("Początkowy specificLesson2Ref:", initialSpecificLesson2Ref);
+}
         $('.fiszka_button_trening').click(function () {
             // Dodaj klasę pomarańczową tylko dla przycisku zatwierdzonego
             $('.story_button').each(function (index) {
