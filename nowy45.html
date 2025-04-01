@@ -10445,3 +10445,41 @@ if (window.matchMedia("(min-width: 999px)").matches) {
 </html>
 
                 <button class="left-button2">+<br></button>TE LEKCJE MAJĄ DOSTĘPNE SKOJARZENIA W WIĘKSZYM ZAKRESIE TEMATÓW
+                
+                        function showStory(index) {
+            const currentFiszka = fiszkaContainer;
+
+            // Ukrywamy wszystkie historie w tej konkretnej fiszce
+            currentFiszka.find('.fiszka_story').hide();
+
+            // Obsługa mnemoniki
+            if (Array.isArray(fiszka.story)) {
+                if (index >= 0 && index < fiszka.story.length) {
+                    currentFiszka.find('.story-' + index).show();
+                }
+            } else if (fiszka.story) {
+                currentFiszka.find('.story-0').show();
+            }
+
+            // Ukrywamy wszystkie obrazy
+            currentFiszka.find('.fiszka_img').hide();
+
+            // Obsługa obrazów
+            let imgIndex; // Zmienna do przechowywania indeksu obrazka
+
+            if (Array.isArray(fiszka.img)) {
+                imgIndex = Math.min(index, fiszka.img.length - 1);
+                currentFiszka.find('.fiszka_img').eq(imgIndex).show();
+                specificLesson2Ref = fiszka.img[imgIndex];
+                console.log("Index obrazka:", imgIndex);
+            } else {
+                imgIndex = 0; // Ustawienie imgIndex na 0, gdy fiszka.img nie jest tablicą
+                currentFiszka.find('.fiszka_img').eq(imgIndex).show();
+                specificLesson2Ref = fiszka.img;
+                console.log("Index obrazka:", imgIndex);
+            }
+
+            lastClickedIndex = index;
+
+            return imgIndex;
+        }
