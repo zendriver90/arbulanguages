@@ -73,15 +73,6 @@ const fiszki = [
             "https://www.arbulang.com/src/everybody.wav"
         ],
 
-        // historia
-        story: [
-            'W <span class="adannotation" data-annotation="1"><u><b>e</u></b></span>-sportowej grze silnik samochodu robi <span class="adannotation" data-annotation="2"><u><b>wry</u></b></span>, <u><b>wszyscy</u></b> chcą takich rajdów, <span class="adannotation" data-annotation="3"><u><b>bo</u></b></span> idzie <span class="adannotation" data-annotation="4"><u><b>dy</u></b></span>m',
-            '<span class="adannotation" data-annotation="1"><u><b>Ew</u></b></span>a robi <span class="adannotation" data-annotation="2"><u><b>ry</u></b></span>by, <span class="adannotation" data-annotation="3"><u><b>bo</u></b></span> będzie robiła zupę rybną, a na drugie placki z <span class="adannotation" data-annotation="4"><u><b>dy</u></b></span>ni. <u><b>Każdemu</u></b> to smakowało',
-            'Kr<span class="adannotation" data-annotation="1"><u><b>ew</u></b></span> każdego pacjenta jest dokładnie przebadana i organizm <u><b>wszystkich</u></b> pacjentów wraca na właściwe to<span class="adannotation" data-annotation="2"><u><b>ry</u></b></span>, <span class="adannotation" data-annotation="3"><u><b>bo</u></b></span> g<span class="adannotation" data-annotation="4"><u><b>dy</u></b></span> ma dobrą opieke wraca do zdrowia',
-            '<span class="adannotation" data-annotation="1"><u><b>E</u></b></span>dek robi <span class="adannotation" data-annotation="2"><u><b>wry</u></b></span> swoim modelem samolotu, musi uważać, <span class="adannotation" data-annotation="3"><u><b>bo</u></b></span> jest silny wiatr. Z silnika samolotu się <span class="adannotation" data-annotation="4"><u><b>dy</u></b></span>mi i <u><b>wszyscy</u></b> się na to patrzą',
-            'Moja córka <span class="adannotation" data-annotation="1"><u><b>Ew</u></b></span>a b<span class="adannotation" data-annotation="2"><u><b>ry</u></b></span>ka, <span class="adannotation" data-annotation="3"><u><b>bo</u></b></span> pojechała na zawo<span class="adannotation" data-annotation="4"><u><b>dy</u></b></span> jak <u><b>wszyscy</u></b> jej rówieśnicy'
-        ],
-
         // opis
         desc: "everybody[e-wry-bo-dy] - wszyscy",
 
@@ -107,73 +98,66 @@ const fiszki = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/1a.jpg",
-                alt: "Zdjęcie przedstawiające e-sportową grę"
+                src: "https://www.arbulang.com/img/fiszki1/2a.jpg",
+                alt: "Kupowanie biletu"
             },
             story: {
-                text: 'W <span class="adannotation" data-annotation="1"><u><b>e</u></b></span>-sportowej grze silnik samochodu robi <span class="adannotation" data-annotation="2"><u><b>wry</u></b></span>, <u><b>wszyscy</u></b> chcą takich rajdów, <span class="adannotation" data-annotation="3"><u><b>bo</u></b></span> idzie <span class="adannotation" data-annotation="4"><u><b>dy</u></b></span>m',
-                alt: "Emocje dotyczące e-sportowej gry"
+                text: 'W niemieckim mieście <span class="adannotation" data-annotation="1"><u><b>Hess</u></b></span>en Jurek <u><b>ma</u></b> bilet na mecze jego drużyny',
+                alt: "Przygotowanie do widowiska sportowego"
             },
-            category: ["sport", "gaming"]
+            category: ["sport", "kibic"]
         },
         {
             id: 2,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/1b.jpg",
-                alt: "Zdjęcie przedstawiające gotowanie"
+                src: "https://www.arbulang.com/img/fiszki1/2b.jpg",
+                alt: "Zdjęcie cyrku"
             },
             story: {
-                text: '<span class="adannotation" data-annotation="1"><u><b>Ew</u></b></span>a robi <span class="adannotation" data-annotation="2"><u><b>ry</u></b></span>by, <span class="adannotation" data-annotation="3"><u><b>bo</u></b></span> będzie robiła zupę rybną, a na drugie placki z <span class="adannotation" data-annotation="4"><u><b>dy</u></b></span>ni. <u><b>Każdemu</u></b> to smakowało',
-                alt: "Ewa robi obiad"
+                text: '<span class="adannotation" data-annotation="1"><u><b>H</u></b></span>ipopotam występuje w cyrku na <span class="adannotation" data-annotation="2"><u><b>es</u></b></span>tradzie, <u><b>ma</u></b> duże umiejętności',
+                alt: "Pokazy cyrkowe. Żart o cyrku"
             },
-            category: ["natura", "kulinaria"]
+            category: ["natura", "rozrywka"]
         },
         {
             id: 3,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/1c.jpg",
-                alt: "Zdjęcie przedstawiające badanie pacjenta"
+                src: "https://www.arbulang.com/img/fiszki1/2c.jpg",
+                alt: "Proces badania krwi. AI generated"
             },
             story: {
-                text: 'Kr<span class="adannotation" data-annotation="1"><u><b>ew</u></b></span> każdego pacjenta jest dokładnie przebadana i organizm <u><b>wszystkich</u></b> pacjentów wraca na właściwe to<span class="adannotation" data-annotation="2"><u><b>ry</u></b></span>, <span class="adannotation" data-annotation="3"><u><b>bo</u></b></span> g<span class="adannotation" data-annotation="4"><u><b>dy</u></b></span> ma dobrą opiekę wraca do zdrowia',
-                alt: "Badanie pacjenta"
+                text: 'Naukowiec nagle się zapomniał i zapytał: <span class="adannotation" data-annotation="1"><u><b>he</u></b></span>?, a wtedy jego kolega <u><b>ma</u></b> niezłą zabawę, <span class="adannotation" data-annotation="2"><u><b>s</u></b></span>prawa oczywista..',
+                alt: "Obyczaje naukowca. Żart o naukowcu"
             },
-            category: ["nauka", "medycyna"]
+            category: ["nauka", "humor"]
         },
         {
             id: 4,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/1d.jpg",
+                src: "https://www.arbulang.com/img/fiszki1/2d.jpg",
                 alt: "Zdjęcie przedstawiające modelarstwo"
             },
             story: {
-                text: '<span class="adannotation" data-annotation="1"><u><b>E</u></b></span>dek robi <span class="adannotation" data-annotation="2"><u><b>wry</u></b></span> swoim modelem samolotu, musi uważać, <span class="adannotation" data-annotation="3"><u><b>bo</u></b></span> jest silny wiatr. Z silnika samolotu się <span class="adannotation" data-annotation="4"><u><b>dy</u></b></span>mi i <u><b>wszyscy</u></b> się na to patrzą',
-                alt: "Oddawanie się pasji modelarstwa"
+                text: '<span class="adannotation" data-annotation="1"><u><b>He</u></b></span>gemonia konsumpcjonizmu doprowadziła do tego, że "ON"-dyrektor ma problemy, bo nikt nie chce chodzić na <span class="adannotation" data-annotation="2"><u><b>s</u></b></span>pektakle teatralne',
+                alt: "Życie współczesne i kultura. Żart o teatrze"
             },
-            category: ["czarny humor", "pasja"]
+            category: ["czarny humor", "trendy"]
         },
         {
             id: 5,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/1e.jpg",
+                src: "https://www.arbulang.com/img/fiszki1/2e.jpg",
                 alt: "Zdjęcie przedstawiające wychowanie dziecka"
             },
             story: {
-                text: 'Moja córka <span class="adannotation" data-annotation="1"><u><b>Ew</u></b></span>a b<span class="adannotation" data-annotation="2"><u><b>ry</u></b></span>ka, <span class="adannotation" data-annotation="3"><u><b>bo</u></b></span> pojechała na zawo<span class="adannotation" data-annotation="4"><u><b>dy</u></b></span> jak <u><b>wszyscy</u></b> jej rówieśnicy',
+                text: 'Moja koleżanka <u><b>ma</u></b> nowy klarnet z drzewa <span class="adannotation" data-annotation="1"><u><b>he</u></b></span>banowego. <span class="adannotation" data-annotation="2"><u><b>S</u></b></span>....uper sprawa',
                 alt: "Wychowanie dzieci"
             },
-            category: ["związki", "wychowanie"]
+            category: ["związki", "muzyka"]
         }
     ],
         word: [
             "https://www.arbulang.com/src/has.wav"
-        ],
-        story: [
-            'W niemieckim mieście <span class="adannotation" data-annotation="1"><u><b>Hess</u></b></span>en Jurek <u><b>ma</u></b> bilet na mecze jego drużyny',
-            '<span class="adannotation" data-annotation="1"><u><b>H</u></b></span>ipopotam występuje w cyrku na <span class="adannotation" data-annotation="2"><u><b>es</u></b></span>tradzie, <u><b>ma</u></b> duże umiejętności',
-            'Naukowiec nagle się zapomniał i zapytał: <span class="adannotation" data-annotation="1"><u><b>he</u></b></span>?, a wtedy jego kolega <u><b>ma</u></b> niezłą zabawę, <span class="adannotation" data-annotation="2"><u><b>s</u></b></span>prawa oczywista..',
-            '<span class="adannotation" data-annotation="1"><u><b>He</u></b></span>gemonia konsumpcjonizmu doprowadziła do tego, że "ON"-dyrektor ma problemy, bo nikt nie chce chodzić na <span class="adannotation" data-annotation="2"><u><b>s</u></b></span>pektakle teatralne',
-            'Moja koleżanka <u><b>ma</u></b> nowy klarnet z drzewa <span class="adannotation" data-annotation="1"><u><b>he</u></b></span>banowego. <span class="adannotation" data-annotation="2"><u><b>S</u></b></span>....uper sprawa'
         ],
         desc: "has[hes]/have[hew] - mieć(on/ona/oni)/mieć(ja/ty)",
         sentence1: [
@@ -190,42 +174,71 @@ const fiszki = [
         category3: ["PresentSimple", "PresentSimpleCzasownik"]
     },
     {
-        id: [
-            3,
-            1,
-            1
-        ],
-        img: [
-    { src: "https://www.arbulang.com/img/fiszki1/3a.jpg", 
-        story: '<span class="adannotation" data-annotation="1"><u><b>Fan</u></b></span>tastycznie jest być fanem jakiejś drużyny, to doskonała <u><b>zabawa</u></b>',
-        category: ["sport", "kibic"],
-                alt: "Widowisko sportowe i kibicowanie" },
-    { src: "https://www.arbulang.com/img/fiszki1/3b.jpg",
-        story: 'Na łonie natury jest <span class="adannotation" data-annotation="1"><u><b>fan</u></b></span>tastyczna <u><b>zabawa</u></b> do rozmyślań i fanaberie stają się pięknymi myślami',
-        category: ["natura", "czas wolny"],
-                alt: "Obcowanie z łonem przyrody" },
-    { src: "https://www.arbulang.com/img/fiszki1/3c.jpg",
-        story: 'Futurologia to nauka o przyszłości z dozą <span class="adannotation" data-annotation="1"><u><b>fan</u></b></span>tazji. Futurolodzy mają z tego <u><b>zabawę</u></b>',
-        category: ["nauka", "fantastyka"],
-                alt: "Przewidywanie przyszłości - futurologia" },
-    { src: "https://www.arbulang.com/img/fiszki1/3d.jpg",
-        story: 'Zarobiłem w złotówkach, a wydam w funtach. Mam z tego <span class="adannotation" data-annotation="1"><u><b>fan</u></b></span>tastyczną <u><b>zabawę</u></b>',
-        category: ["czarny humor", "giełda"],
-                alt: "Biznes i wydawanie pieniędzy" },
-    { src: "https://www.arbulang.com/img/fiszki1/3e.jpg",
-        story: '<span class="adannotation" data-annotation="1"><u><b>Fan</b></u></span>tastyczne jest to by się dobrze <u><b>bawić</b></u>. A jeżli chodzi o <u><b>zabawę</b></u> zawsze jestem jej <u><b>fan</b></u>em',
-        category: ["związki", "czas wolny"],
-                alt: "Spędzanie czasu wolnego" }
-        ],
+    id: [3, 1, 1],
+    entries: [
+        {
+            id: 1,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/3a.jpg",
+                alt: "Kibice na meczu. AI generated"
+            },
+            story: {
+                text: '<span class="adannotation" data-annotation="1"><u><b>Fan</u></b></span>tastycznie jest być fanem jakiejś drużyny, to doskonała <u><b>zabawa</u></b>',
+                alt: "Widowisko sportowe i kibicowanie"
+            },
+            category: ["sport", "kibic"]
+        },
+        {
+            id: 2,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/3b.jpg",
+                alt: "Zdjęcie cyrku"
+            },
+            story: {
+                text: 'Na łonie natury jest <span class="adannotation" data-annotation="1"><u><b>fan</u></b></span>tastyczna <u><b>zabawa</u></b> do rozmyślań i fanaberie stają się pięknymi myślami',
+                alt: "Obcowanie z łonem przyrody"
+            },
+             category: ["natura", "czas wolny"]
+        },
+        {
+            id: 3,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/3c.jpg",
+                alt: "Niesamowite budowle. AI generated"
+            },
+            story: {
+                text: 'Futurologia to nauka o przyszłości z dozą <span class="adannotation" data-annotation="1"><u><b>fan</u></b></span>tazji. Futurolodzy mają z tego <u><b>zabawę</u></b>',
+                alt: "Przewidywanie przyszłości - futurologia"
+            },
+            category: ["nauka", "fantastyka"]
+        },
+        {
+            id: 4,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/3d.jpg",
+                alt: "Arystokracja"
+            },
+            story: {
+                text: 'Zarobiłem w złotówkach, a wydam w funtach. Mam z tego <span class="adannotation" data-annotation="1"><u><b>fan</u></b></span>tastyczną <u><b>zabawę</u></b>',
+                alt: "Biznes i wydawanie pieniędzy"
+            },
+            category: ["czarny humor", "giełda"]
+        },
+        {
+            id: 5,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/3e.jpg",
+                alt: "Zdjęcie na koncercie"
+            },
+            story: {
+                text: '<span class="adannotation" data-annotation="1"><u><b>Fan</b></u></span>tastyczne jest to by się dobrze <u><b>bawić</b></u>. A jeżli chodzi o <u><b>zabawę</b></u> zawsze jestem jej <u><b>fan</b></u>em',
+                alt: "Spędzanie czasu wolnego. Jak spędzać czas wolny?"
+            },
+            category: ["związki", "muzyka"]
+        }
+    ],
         word: [
-            "https://www.arbulang.com/src/fun.wav"
-        ],
-        story: [
-            '<span class="adannotation" data-annotation="1"><u><b>Fan</u></b></span>tastycznie jest być fanem jakiejś drużyny, to doskonała <u><b>zabawa</u></b>',
-            'Na łonie natury jest <span class="adannotation" data-annotation="1"><u><b>fan</u></b></span>tastyczna <u><b>zabawa</u></b> do rozmyślań i fanaberie stają się pięknymi myślami',
-            'Futurologia to nauka o przyszłości z dozą <span class="adannotation" data-annotation="1"><u><b>fan</u></b></span>tazji. Futurolodzy mają z tego <u><b>zabawę</u></b>',
-            'Zarobiłem w złotówkach, a wydam w funtach. Mam z tego <span class="adannotation" data-annotation="1"><u><b>fan</u></b></span>tastyczną <u><b>zabawę</u></b>',
-            '<span class="adannotation" data-annotation="1"><u><b>Fan</b></u></span>tastyczne jest to by się dobrze <u><b>bawić</b></u>. A jeżli chodzi o <u><b>zabawę</b></u> zawsze jestem jej <u><b>fan</b></u>em'
+            "https://www.arbulang.com/src/has.wav"
         ],
         desc: "fun[fan] - zabawa",
         sentence1: [
@@ -240,6 +253,87 @@ const fiszki = [
        key2: ["zabawa"],
        key3: ["ubaw", "uciecha", "heca"],
         category2: ["nawa czynności"]
+    },
+        {
+    id: [4, 1, 2],
+    entries: [
+        {
+            id: 1,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/4a.jpg",
+                alt: "Kibice na meczu. AI generated"
+            },
+            story: {
+                text: '<span class="adannotation" data-annotation="1"><u><b>Fan</u></b></span>tastycznie jest być fanem jakiejś drużyny, to doskonała <u><b>zabawa</u></b>',
+                alt: "Widowisko sportowe i kibicowanie"
+            },
+            category: ["sport", "kibic"]
+        },
+        {
+            id: 2,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/4b.jpg",
+                alt: "Zdjęcie cyrku"
+            },
+            story: {
+                text: 'Na łonie natury jest <span class="adannotation" data-annotation="1"><u><b>fan</u></b></span>tastyczna <u><b>zabawa</u></b> do rozmyślań i fanaberie stają się pięknymi myślami',
+                alt: "Obcowanie z łonem przyrody"
+            },
+             category: ["natura", "czas wolny"]
+        },
+        {
+            id: 3,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/4c.jpg",
+                alt: "Niesamowite budowle. AI generated"
+            },
+            story: {
+                text: 'Futurologia to nauka o przyszłości z dozą <span class="adannotation" data-annotation="1"><u><b>fan</u></b></span>tazji. Futurolodzy mają z tego <u><b>zabawę</u></b>',
+                alt: "Przewidywanie przyszłości - futurologia"
+            },
+            category: ["nauka", "fantastyka"]
+        },
+        {
+            id: 4,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/4d.jpg",
+                alt: "Arystokracja"
+            },
+            story: {
+                text: 'Zarobiłem w złotówkach, a wydam w funtach. Mam z tego <span class="adannotation" data-annotation="1"><u><b>fan</u></b></span>tastyczną <u><b>zabawę</u></b>',
+                alt: "Biznes i wydawanie pieniędzy"
+            },
+            category: ["czarny humor", "giełda"]
+        },
+        {
+            id: 5,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/4e.jpg",
+                alt: "Zdjęcie na koncercie"
+            },
+            story: {
+                text: '<span class="adannotation" data-annotation="1"><u><b>Fan</b></u></span>tastyczne jest to by się dobrze <u><b>bawić</b></u>. A jeżli chodzi o <u><b>zabawę</b></u> zawsze jestem jej <u><b>fan</b></u>em',
+                alt: "Spędzanie czasu wolnego. Jak spędzać czas wolny?"
+            },
+            category: ["związki", "muzyka"]
+        }
+    ],
+        word: [
+            "https://www.arbulang.com/src/has.wav"
+        ],
+        desc: "at[at] - w tym",
+        sentence2: [
+            "at"
+        ],
+        sentence: [
+            "at",
+            "the",
+            "party"
+        ],
+        key: "at",
+                key2: ["na"],
+                key3: ["w", "na", "z", "przy", "o", "do", "u", "po", "za", "ze", "we", "w stanie"],
+        category2: ""
     }
 ];
 
@@ -345,31 +439,6 @@ function loadFromLocalStorage() {
 
 const storedLessons = loadFromLocalStorage();
 
-if (storedLessons) {
-    lessons2b = storedLessons;
-    console.log('Wczytane dane z localStorage:', lessons2b);
-    console.log('hejlekcje', lessons2b[2]);
-
-    // Wywołanie funkcji showFiszki2 po wczytaniu danych
-    setTimeout(() => {
-        console.log('Wywołanie showFiszki2 z wczytanymi danymi');
-        showFiszki2();  // Upewnij się, że ta funkcja jest zdefiniowana
-    }, 0);
-} else {
-    // Jeśli nie ma zapisanych danych, losuj i zapisz
-    for (let i = 1; i <= 30; i++) {
-        lessons2b[i] = [];
-    }
-
-    // Zapisz dane do localStorage
-    saveToLocalStorage(lessons2b);
-
-    // Wywołanie showFiszki2 po zapisaniu nowych danych
-    setTimeout(() => {
-        console.log('Wywołanie showFiszki2 z nowo wygenerowanymi danymi');
-        showFiszki2();  // Upewnij się, że ta funkcja jest zdefiniowana
-    }, 0);
-}
 
 
 // Sprawdzanie zawartości lessons2b po załadowaniu danych
@@ -634,19 +703,21 @@ const imgContainer = $('<div>').addClass('fiszka_img_container');
         const hashtagContainer = $('<a>').addClass('hashtag-container').attr('href', '#');
         fiszkaContainer.append(hashtagContainer);
 
-function showStory(index) {
-    console.log('hej122', index);
+// Funkcja showStory z obsługą id.fiszki
+function showStory(idFiszki) {
+    console.log('Wywołano showStory:', idFiszki);
+
     const currentFiszka = fiszkaContainer;
-    console.log('hejAB', fiszkaContainer);
+    console.log('Aktualny kontener:', currentFiszka);
 
     // Ukrywamy wszystkie historie i obrazy w tej konkretnej fiszce
     currentFiszka.find('.fiszka_img').hide();
 
-    // Pobranie właściwej fiszki z tablicy
-    const currentEntry = fiszki[0].entries[index]; // Pobieramy obiekt `entries` z tablicy `fiszki`
+    // Pobieramy odpowiednią fiszkę z tablicy fiszki na podstawie idFiszki
+    const currentEntry = fiszka.entries[idFiszki];
     
     if (!currentEntry) {
-        console.error("Nie znaleziono fiszki dla indexu:", index);
+        console.error("Nie znaleziono fiszki dla id:", idFiszki);
         return;
     }
 
@@ -654,9 +725,9 @@ function showStory(index) {
 
     let imgIndex = 0; // Domyślny indeks, jeśli coś pójdzie nie tak
 
-    if (Array.isArray(fiszki[0].entries) && fiszki[0].entries.length > 0) {
+    if (Array.isArray(fiszka.entries) && fiszka.entries.length > 0) {
         // Wybór losowego indeksu dla obrazka
-        imgIndex = Math.floor(Math.random() * fiszki[0].entries.length);
+        imgIndex = Math.floor(Math.random() * fiszka.entries.length);
         console.log("Wylosowany indeks obrazka:", imgIndex);
     }
 
@@ -693,7 +764,7 @@ function showStory(index) {
         storyElement.show();
     }
 
-    lastClickedIndex = index;
+    lastClickedIndex = idFiszki;
 
     return imgIndex;
 }
@@ -816,7 +887,7 @@ let approvedIndexes = [];      // Tablica przechowująca zatwierdzone indeksy
 let approvedColors = [];
 
 // Zakładamy, że istnieje kontener dla fiszki: fiszkaContainer
-
+let index10 = [];
 if (Array.isArray(fiszka.entries) && fiszka.entries.length > 0) {
     console.log("Znaleziono fiszki, liczba wpisów:", fiszka.entries.length);
     
@@ -826,59 +897,63 @@ if (Array.isArray(fiszka.entries) && fiszka.entries.length > 0) {
     // Losujemy indeks przycisku, który ma być aktywny przy ładowaniu
     const randomButtonIndex = Math.floor(Math.random() * fiszka.entries.length);
     console.log("Wylosowany indeks przycisku:", randomButtonIndex);
-
+index10.push(randomButtonIndex);
     fiszka.entries.forEach((entry, index) => {
         console.log(`Przetwarzanie fiszki nr ${index}:`, entry);
-const displayText = entry.category.join(", ");
+        const displayText = entry.category.join(", ");
         console.log(`Przetwarzanie fiszki nr ${index}:`, entry.category.join(", "));
+        
         const storyButton = $('<button>') // Tworzymy przycisk
             .text(displayText)
             .addClass('story_button')
             .click(function () {
                 console.log("Kliknięto przycisk dla fiszki nr:", index);
 
-                            showStory(index);
-                            lastClickedIndex = index;
+                // Dodajemy id.fiszki
+                const idFiszki = entry.id || index;  // Przypisujemy id.fiszki, zakładając, że entry.id istnieje, w przeciwnym razie używamy index
 
-                            // Usuwamy zieloną klasę tylko z poprzedniego przycisku w danej fiszce
-                            if (lastClickedButton) {
-                                lastClickedButton.removeClass('green-button');
-                            }
+                showStory(index, idFiszki);
+                lastClickedIndex = index;
 
-                            // Usuwamy klasę imgIndex z poprzedniego przycisku w danej fiszce
-                            $('.story_button').removeClass((index, className) => (className.match(/imgIndex-\d+/g) || []).join(' '));
-                            // Dodajemy klasę imgIndexNull do przycisków, które nie zostały jeszcze zatwierdzone
-                            $('.fiszka').addClass('imgIndexNull').removeClass('imgIndex-0 imgIndex-1 imgIndex-2 imgIndex-3 imgIndex-4 ');
+                // Usuwamy zieloną klasę tylko z poprzedniego przycisku w danej fiszce
+                if (lastClickedButton) {
+                    lastClickedButton.removeClass('green-button');
+                }
 
-                            // Dodajemy zieloną klasę tylko dla aktualnie klikniętego przycisku w danej fiszce
-                            $(this).addClass('green-button');
-                            $('.story_button').removeClass('active-button');
-                            $(this).addClass('active-button');
-                            $('.story_button').each(function (index) {
-                                if ($(this).hasClass('orange-button')) {
-                                    $(this).removeClass('green-button');
-                                    $(this).addClass('orange-button');
-                                }
-                            });
+                // Usuwamy klasę imgIndex z poprzedniego przycisku w danej fiszce
+                $('.story_button').removeClass((index, className) => (className.match(/imgIndex-\d+/g) || []).join(' '));
+                // Dodajemy klasę imgIndexNull do przycisków, które nie zostały jeszcze zatwierdzone
+                $('.fiszka').addClass('imgIndexNull').removeClass('imgIndex-0 imgIndex-1 imgIndex-2 imgIndex-3 imgIndex-4 ');
 
-                            // Jeśli przycisk został wcześniej zatwierdzony, przywróć jego zatwierdzoną klasę
-                            if (approvedIndexes.includes(lastClickedIndex)) {
-                                fiszkaContainer.addClass('imgIndex-' + lastClickedIndex);
-                            }
+                // Dodajemy zieloną klasę tylko dla aktualnie klikniętego przycisku w danej fiszce
+                $(this).addClass('green-button');
+                $('.story_button').removeClass('active-button');
+                $(this).addClass('active-button');
+                $('.story_button').each(function (index) {
+                    if ($(this).hasClass('orange-button')) {
+                        $(this).removeClass('green-button');
+                        $(this).addClass('orange-button');
+                    }
+                });
 
-                            // Zapisujemy ostatnio kliknięty przycisk w danej fiszce
-                            lastClickedButton = $(this);
-                            handleLikeButtonClick();
+                // Jeśli przycisk został wcześniej zatwierdzony, przywróć jego zatwierdzoną klasę
+                if (approvedIndexes.includes(lastClickedIndex)) {
+                    fiszkaContainer.addClass('imgIndex-' + lastClickedIndex);
+                }
+
+                // Zapisujemy ostatnio kliknięty przycisk w danej fiszce
+                lastClickedButton = $(this);
+                handleLikeButtonClick();
             });
 
-if (index === randomButtonIndex) {
-    // Używamy indeksu przycisku, aby wybrać odpowiednią fiszkę
-    specificLesson2Ref = entry.img[index];  // Obiekt img zawierający src i alt
-    console.log('Zaktualizowano specificLesson2Ref:', specificLesson2Ref);
-    storyButton.addClass('green-button');  // Nadajemy przyciskowi zieloną klasę
-    lastClickedButton = storyButton;  // Przechowujemy referencję do ostatnio klikniętego przycisku
-    lastApprovedIndex = index;  // Ustawiamy ostatnio zatwierdzony indeks
-}
+        if (index === randomButtonIndex) {
+            // Używamy indeksu przycisku, aby wybrać odpowiednią fiszkę
+            specificLesson2Ref = entry.img[index];  // Obiekt img zawierający src i alt
+            console.log('Zaktualizowano specificLesson2Ref:', specificLesson2Ref);
+            storyButton.addClass('green-button');  // Nadajemy przyciskowi zieloną klasę
+            lastClickedButton = storyButton;  // Przechowujemy referencję do ostatnio klikniętego przycisku
+            lastApprovedIndex = index;  // Ustawiamy ostatnio zatwierdzony indeks
+        }
 
         storyButtonContainer.append(storyButton);
         console.log(`Dodano przycisk do kontenera dla fiszki nr ${index}`);
@@ -888,8 +963,9 @@ if (index === randomButtonIndex) {
     console.log("Przyciski zostały dodane do kontenera");
 
     // Wywołujemy showStory dla wylosowanego przycisku
-    showStory(randomButtonIndex);
-    console.log(`Wywołano showStory dla wylosowanego przycisku: ${randomButtonIndex}`);
+    const idFiszki = fiszka.entries[randomButtonIndex].id || randomButtonIndex;  // Przypisujemy id fiszki
+    showStory(index10, idFiszki);
+    console.log(`Wywołano showStory dla wylosowanego przycisku: ${randomButtonIndex} z id.fiszki: ${idFiszki}`);
 }
         $('.fiszka_button_trening').click(function () {
             // Dodaj klasę pomarańczową tylko dla przycisku zatwierdzonego

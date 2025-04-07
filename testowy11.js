@@ -287,6 +287,7 @@ id: [
         //  slowo do nauki
         key: "everybody",
         category1: [
+                "places", "feelings",
                 "fashion", "style"
         ],
         category2: ["osoby", "osoby+czas"]
@@ -703,7 +704,7 @@ id: [
         //  slowo do nauki
         key: "yo",
         category1: [
-                "sport", "gaming"
+                "nature", "garden"
         ],
         category2: ["osoby", "osoby+czas"]
 },
@@ -743,7 +744,7 @@ id: [
         //  slowo do nauki
         key: "yo",
         category1: [
-                "sport", "gaming"
+                "lifestyle", "cars"
         ],
         category2: ["osoby", "osoby+czas"]
 },
@@ -779,7 +780,7 @@ id: [
         //  slowo do nauki
         key: "yo",
         category1: [
-                "sport", "gaming"
+                "life", "entertainment"
         ],
         category2: ["osoby", "osoby+czas"]
 },
@@ -817,7 +818,8 @@ id: [
         //  slowo do nauki
         key: "yo",
         category1: [
-                "sport", "gaming"
+                "places", "feelings",
+                "fashion", "style"
         ],
         category2: ["osoby", "osoby+czas"]
 },
@@ -853,7 +855,7 @@ id: [
         //  slowo do nauki
         key: "yo",
         category1: [
-                "sport", "gaming"
+                "life", "wisdom"
         ],
         category2: ["osoby", "osoby+czas"]
 },
@@ -889,7 +891,7 @@ id: [
         //  slowo do nauki
         key: "yo",
         category1: [
-                "life", "work"
+                "life", "effectiveness"
         ],
         category2: ["osoby", "osoby+czas"]
 },
@@ -957,7 +959,7 @@ id: [
         //  slowo do nauki
         key: "yo",
         category1: [
-                "sport", "gaming"
+                "life", "cars"
         ],
         category2: ["osoby", "osoby+czas"]
 },
@@ -991,7 +993,7 @@ id: [
         //  slowo do nauki
         key: "yo",
         category1: [
-                "sport", "gaming"
+                "life", "duties"
         ],
         category2: ["osoby", "osoby+czas"]
 },
@@ -1028,7 +1030,7 @@ id: [
         //  slowo do nauki
         key: "yo",
         category1: [
-                "sport", "gaming"
+                "life", "free time"
         ],
         category2: ["osoby", "osoby+czas"]
 },
@@ -1061,7 +1063,7 @@ id: [
         //  slowo do nauki
         key: "yo",
         category1: [
-                "sport", "gaming"
+                "life", "free time"
         ],
         category2: ["osoby", "osoby+czas"]
 },
@@ -1095,7 +1097,7 @@ id: [
         //  slowo do nauki
         key: "yo",
         category1: [
-                "sport", "gaming"
+                "life", "travells"
         ],
         category2: ["osoby", "osoby+czas"]
 },
@@ -1129,7 +1131,7 @@ id: [
         //  slowo do nauki
         key: "yo",
         category1: [
-                "sport", "gaming"
+                "work", "selling"
         ],
         category2: ["osoby", "osoby+czas"]
 },
@@ -1163,7 +1165,7 @@ id: [
         //  slowo do nauki
         key: "yo",
         category1: [
-                "sport", "gaming"
+                "art", "color"
         ],
         category2: ["osoby", "osoby+czas"]
 },
@@ -1201,7 +1203,7 @@ id: [
         //  slowo do nauki
         key: "yo",
         category1: [
-                "sport", "gaming"
+                "life", "party"
         ],
         category2: ["osoby", "osoby+czas"]
 },
@@ -1237,7 +1239,8 @@ id: [
         //  slowo do nauki
         key: "yo",
         category1: [
-                "sport", "gaming"
+                "places", "feelings",
+                "fashion", "style"
         ],
         category2: ["osoby", "osoby+czas"]
 },
@@ -1271,7 +1274,7 @@ id: [
         //  slowo do nauki
         key: "yo",
         category1: [
-                "sport", "gaming"
+                "life", "mountains"
         ],
         category2: ["osoby", "osoby+czas"]
 },
@@ -1308,7 +1311,8 @@ id: [
         //  slowo do nauki
         key: "yo",
         category1: [
-                "sport", "gaming"
+                "life", "happines",
+                "life", "technology"
         ],
         category2: ["osoby", "osoby+czas"]
 },
@@ -1343,7 +1347,7 @@ id: [
         //  slowo do nauki
         key: "yo",
         category1: [
-                "sport", "gaming"
+                "life", "philosophy"
         ],
         category2: ["osoby", "osoby+czas"]
 },
@@ -1378,7 +1382,7 @@ id: [
         //  slowo do nauki
         key: "yo",
         category1: [
-                "sport", "gaming"
+                "life", "dinner"
         ],
         category2: ["osoby", "osoby+czas"]
 },
@@ -1413,7 +1417,7 @@ id: [
         //  slowo do nauki
         key: "yo",
         category1: [
-                "sport", "gaming"
+                "techonology", "robots"
         ],
         category2: ["osoby", "osoby+czas"]
 },
@@ -1450,11 +1454,7 @@ id: [
         //  slowo do nauki
         key: "everybody",
         category1: [
-                "sport", "wyobraźnia",
-                "natura", "klimat",
-                "nauka", "medycyna",
-                "czarny humor", "życie zawodowe",
-                "związki", "wychowanie"
+                "life", "work"
         ],
         category2: ["osoby", "osoby+czas"],
         category3: ["Infinitive"]
@@ -1487,6 +1487,9 @@ id: [
         ],
         //  slowo do nauki
         key: "everybody",
+        category1: [
+                "life", "gifts"
+        ],
         category2: ["osoby", "osoby+czas"]
 },
 {
@@ -1518,7 +1521,7 @@ id: [
         //  slowo do nauki
         key: "everybody",
         category1: [
-                "sport", "gaming"
+                "life", "courage"
         ],
         category2: ["osoby", "osoby+czas"]
 },
@@ -1551,7 +1554,7 @@ id: [
         //  slowo do nauki
         key: "everybody",
         category1: [
-                "sport", "gaming"
+                "cars", "planning"
         ],
         category2: ["osoby", "osoby+czas"]
 },
@@ -1588,7 +1591,7 @@ id: [
         //  slowo do nauki
         key: "everybody",
         category1: [
-                "sport", "gaming"
+                "work", "devices"
         ],
         category2: ["osoby", "osoby+czas"],
                 category3: ["Infinitive"]
@@ -1622,7 +1625,7 @@ id: [
         //  slowo do nauki
         key: "everybody",
         category1: [
-                "sport", "gaming"
+                "quantity", "how many"
         ],
         category2: ["osoby", "osoby+czas"]
 },
@@ -1655,7 +1658,7 @@ id: [
         //  slowo do nauki
         key: "everybody",
         category1: [
-                "sport", "gaming"
+                "health", "dentist"
         ],
         category2: ["osoby", "osoby+czas"]
 },
@@ -1688,7 +1691,7 @@ id: [
         //  slowo do nauki
         key: "everybody",
         category1: [
-                "sport", "gaming"
+                "life", "family"
         ],
         category2: ["osoby", "osoby+czas"]
 },
@@ -1726,7 +1729,7 @@ id: [
         //  slowo do nauki
         key: "everybody",
         category1: [
-                "sport", "gaming"
+                "life", "emotions"
         ],
         category2: ["osoby", "osoby+czas"],
                 category3: ["Infinitive"]
@@ -1761,7 +1764,7 @@ id: [
         //  slowo do nauki
         key: "everybody",
         category1: [
-                "sport", "gaming"
+                "work", "boats"
         ],
         category2: ["osoby", "osoby+czas"]
 },
@@ -1795,7 +1798,7 @@ id: [
         //  slowo do nauki
         key: "everybody",
         category1: [
-                "sport", "gaming"
+                "life", "emotions"
         ],
         category2: ["osoby", "osoby+czas"]
 },
@@ -1829,7 +1832,7 @@ id: [
         //  slowo do nauki
         key: "everybody",
         category1: [
-                "sport", "gaming"
+                "", ""
         ],
         category2: ["osoby", "osoby+czas"]
 },
@@ -1863,7 +1866,7 @@ id: [
         //  slowo do nauki
         key: "everybody",
         category1: [
-                "sport", "gaming"
+                "", ""
         ],
         category2: ["osoby", "osoby+czas"]
 },
@@ -1897,7 +1900,7 @@ id: [
         //  slowo do nauki
         key: "everybody",
         category1: [
-                "sport", "gaming"
+                "life", "hobbies"
         ],
         category2: ["osoby", "osoby+czas"]
 },
@@ -1935,7 +1938,7 @@ id: [
         //  slowo do nauki
         key: "everybody",
         category1: [
-                "sport", "gaming"
+                "technology", "computer"
         ],
         category2: ["osoby", "osoby+czas"],
                 category3: ["Infinitive"]
@@ -1971,7 +1974,8 @@ id: [
         //  slowo do nauki
         key: "everybody",
         category1: [
-                "sport", "gaming"
+                "sounds", "silence",
+                "continents", "Africa"
         ],
         category2: ["osoby", "osoby+czas"]
 },
@@ -2005,7 +2009,7 @@ id: [
         //  slowo do nauki
         key: "everybody",
         category1: [
-                "sport", "gaming"
+                "technology", "control"
         ],
         category2: ["osoby", "osoby+czas"]
 },
@@ -2038,7 +2042,7 @@ id: [
         //  slowo do nauki
         key: "everybody",
         category1: [
-                "sport", "gaming"
+                "speech", "preparations"
         ],
         category2: ["osoby", "osoby+czas"]
 },
@@ -2071,7 +2075,7 @@ id: [
         //  slowo do nauki
         key: "everybody",
         category1: [
-                "sport", "gaming"
+                "work", "missions"
         ],
         category2: ["osoby", "osoby+czas"]
 },
@@ -2108,7 +2112,7 @@ id: [
         //  slowo do nauki
         key: "everybody",
         category1: [
-                "sport", "gaming"
+                "technology", "computer"
         ],
         category2: ["osoby", "osoby+czas"],
                 category3: ["Infinitive"]
@@ -2142,7 +2146,7 @@ id: [
         //  slowo do nauki
         key: "everybody",
         category1: [
-                "sport", "gaming"
+                "school", "art"
         ],
         category2: ["osoby", "osoby+czas"]
 },
@@ -2175,7 +2179,7 @@ id: [
         //  slowo do nauki
         key: "everybody",
         category1: [
-                "sport", "gaming"
+                "buildings", "ancient art"
         ],
         category2: ["osoby", "osoby+czas"]
 },
@@ -2208,7 +2212,7 @@ id: [
         //  slowo do nauki
         key: "everybody",
         category1: [
-                "sport", "gaming"
+                "life", "behaviours"
         ],
         category2: ["osoby", "osoby+czas"]
 },
@@ -2222,7 +2226,7 @@ id: [
                 "https://www.arbulang.com/img/fiszki1en-esp/63a.jpg"
         ],
         translate: "To stay calm and enjoy together",
-        translateb: "[Mantener la kalma i disfrutar huntos]",
+        translateb: "[mahn-teh-nehr lah kahl-mah ee dees-froo-tahr hoon-tohs]",
         srcWord: ["https://www.arbulang.com/filmy/esp/smiling.mp4", '300'],
         srcWordimage: "https://www.arbulang.com/filmy/esp/smiling.png",
         word: [
@@ -2233,7 +2237,7 @@ id: [
                 "This <b><u>comm</b></u>and <b><u>keeps</b></u> the whole group in check... <b><u>Ten</b></u>sion is high, p<b><u>er</b></u> hour everybody trains at the gym with a train<b><u>er</b></u>"
         ],
         // opis
-        desc: "mantener[mantener] - keep",
+        desc: "mantener[mahn-teh-nehr] - keep",
         //zdanie
         sentence1: [
                 "Mantener"
@@ -2245,7 +2249,7 @@ id: [
         //  slowo do nauki
         key: "everybody",
         category1: [
-                "sport", "gaming"
+                "sport", "discipline"
         ],
         category2: ["osoby", "osoby+czas"],
                 category3: ["Infinitive"]
@@ -2267,7 +2271,7 @@ id: [
                 "There is <b><u>calm</b></u>ness in this c<b><u>la</b></u>ss. Someone made a <b><u>ca</b></u>ll to his <b><u>mo</b></u>ther"
         ],
         // opis
-        desc: "la calma[la kalma] - calm",
+        desc: "la calma[lah kahl-mah] - calm",
         //zdanie
         sentence1: [
                 "la calma"
@@ -2279,7 +2283,7 @@ id: [
         //  slowo do nauki
         key: "everybody",
         category1: [
-                "sport", "gaming"
+                "school", "class"
         ],
         category2: ["osoby", "osoby+czas"]
 },
@@ -2315,7 +2319,8 @@ id: [
         //  slowo do nauki
         key: "everybody",
         category1: [
-                "sport", "gaming"
+                "life", "happines",
+                "life", "technology"
         ],
         category2: ["osoby", "osoby+czas"]
 },
@@ -2336,7 +2341,7 @@ id: [
                 "Ma<b><u>dis</b></u>on <b><u>enjoys</b></u> the show but she is <b><u>fru</b></u>strated becouse she can't find her <b><u>tar</b></u>get"
         ],
         // opis
-        desc: "disfrutar[disfrutar] - enjoy",
+        desc: "disfrutar[dees-froo-tahr] - enjoy",
         //zdanie
         sentence2: [
                 "disfrutar"
@@ -2349,7 +2354,7 @@ id: [
         //  slowo do nauki
         key: "everybody",
         category1: [
-                "sport", "gaming"
+                "life", "show"
         ],
         category2: ["osoby", "osoby+czas"]
 },
@@ -2370,7 +2375,7 @@ id: [
                 "<b><u>H</b></u>enry plays the game <b><u>together</b></u> with friend <b><u>unt</b></u>il they win... They are <b><u>toss</b></u>ing the ball in basketball"
         ],
         // opis
-        desc: "juntos[huntos] - razem",
+        desc: "juntos[hoon-tohs] - razem",
         //zdanie
         sentence2: [
                 "juntos"
@@ -2383,7 +2388,7 @@ id: [
         //  slowo do nauki
         key: "everybody",
         category1: [
-                "sport", "gaming"
+                "sport", "basketball"
         ],
         category2: ["osoby", "osoby+czas"]
 },
@@ -2397,7 +2402,7 @@ id: [
                 "https://www.arbulang.com/img/fiszki1en-esp/68a.jpg"
         ],
         translate: "To achieve dreams through effort and dedication",
-        translateb: "[Lograr sueños con esfuerzo y dedicación]",
+        translateb: "[loh-grahr sweh-nyos kohn ehs-fwehr-soh ee deh-dee-kah-syohn]",
         srcWord: ["https://www.arbulang.com/filmy/esp/dreams.mp4", 'Pain And Gain'],
         srcWordimage: "https://www.arbulang.com/filmy/esp/dreams.png",
         word: [
@@ -2408,7 +2413,7 @@ id: [
                 "In the game im <b><u>logg</b></u>ed in and i <b><u>achive</b></u> very <b><u>rar</b></u>e skills"
         ],
         // opis
-        desc: "lograr[lograr] - osiągać",
+        desc: "lograr[loh-grahr] - to achieve",
         //zdanie
         sentence1: [
                 "Lograr"
@@ -2421,7 +2426,7 @@ id: [
         //  slowo do nauki
         key: "everybody",
         category1: [
-                "sport", "gaming"
+                "games", "skills"
         ],
         category2: ["osoby", "osoby+czas"],
                 category3: ["Infinitive"]
@@ -2440,10 +2445,10 @@ id: [
         ],
         // historia
         story: [
-                "My <b><u>dreams</b></u> are <b><u>sw</b></u>eet but im on me <b><u>knee</b></u>s. In the futur i will be like a b<b><u>oss</b></u>"
+                "He <b><u>swa</b></u>yed on his legs and dropped to his <b><u>knee</b></u> bec<b><u>ause</b></u> of trouble. He had seen this in his <b><u>dreams</b></u> before"
         ],
         // opis
-        desc: "sueños[słenios] - marzenia",
+        desc: "sueños[sweh-nyos] - dreams",
         //zdanie
         sentence1: [
                 "sueños"
@@ -2456,7 +2461,7 @@ id: [
         //  slowo do nauki
         key: "everybody",
         category1: [
-                "sport", "gaming"
+                "life", "trouble"
         ],
         category2: ["osoby", "osoby+czas"]
 },
@@ -2477,7 +2482,7 @@ id: [
                 "With that button we have <b><u>con</b></u>trol <b><u>with</b></u> everything"
         ],
         // opis
-        desc: "con[kohn] - z",
+        desc: "con[kohn] - with, through",
         //zdanie
         sentence1: [
                 "con"
@@ -2490,7 +2495,7 @@ id: [
         //  slowo do nauki
         key: "everybody",
         category1: [
-                "sport", "gaming"
+                "technology", "control"
         ],
         category2: ["osoby", "osoby+czas"]
 },
@@ -2501,17 +2506,17 @@ id: [
 ],
         // obrazek
         img: [
-                "https://www.arbulang.com/img/fiszkiespanol/71a.jpg"
+                "https://www.arbulang.com/img/fiszki1en-esp/71a.jpg"
         ],
         word: [
                 "https://www.arbulang.com/voice/music.mp4"
         ],
         // historia
         story: [
-                "The l<b><u>ess</b></u> <b><u>ef</b></u>ort the less you gain in <b><u>fu</b></u>rther. Sometimes you meet <b><u>er</b></u>ror but not give up <b><u>to</b></u> gain success"
+              "The l<b><u>ess</b></u> <b><u>eff</b></u>ort you put in, the less you gain <b><u>fu</b></u>rther. Sometimes you encounter <b><u>err</b></u>ors, but don’t give and focus <b><u>to</b></u> progress",
         ],
         // opis
-        desc: "esfuerzo[esfłerto] - wysiłek",
+        desc: "esfuerzo[ehs-fwehr-soh] - effort",
         //zdanie
         sentence2: [
                 "esfuerzo"
@@ -2524,7 +2529,7 @@ id: [
         //  slowo do nauki
         key: "everybody",
         category1: [
-                "sport", "gaming"
+                "life", "efforts"
         ],
         category2: ["osoby", "osoby+czas"]
 },
@@ -2560,7 +2565,8 @@ id: [
         //  slowo do nauki
         key: "everybody",
         category1: [
-                "sport", "gaming"
+                "life", "happines",
+                "life", "technology"
         ],
         category2: ["osoby", "osoby+czas"]
 },
@@ -2571,17 +2577,17 @@ id: [
 ],
         // obrazek
         img: [
-                "https://www.arbulang.com/img/fiszkiespanol/34a.jpg"
+                "https://www.arbulang.com/img/fiszki1en-esp/73a.jpg"
         ],
         word: [
                 "https://www.arbulang.com/voice/music.mp4"
         ],
         // historia
         story: [
-                ""
+                "COGNATS - dedication - deh-dee-kah-syohn"
         ],
         // opis
-        desc: "dedication[dedikasion] - poświęcenie",
+        desc: "dedication[deh-dee-kah-syohn] - dedication",
         //zdanie
         sentence2: [
                 "dedication"
@@ -2594,7 +2600,7 @@ id: [
         //  slowo do nauki
         key: "everybody",
         category1: [
-                "sport", "gaming"
+                "", ""
         ],
         category2: ["osoby", "osoby+czas"]
 },
@@ -2605,10 +2611,10 @@ id: [
 ],
         // obrazek
         img: [
-                "https://www.arbulang.com/img/fiszki1/35a.jpg"
+                "https://www.arbulang.com/img/fiszki1en-esp/74a.jpg"
         ],
         translate: "To remember happy moments with family",
-        translateb: "[Recordar momentos felices con la familia]",
+        translateb: "[reh-kor-dahr mo-men-tohs feh-lee-sehs kohn lah fah-mee-lyah]",
         srcWord: ["https://www.arbulang.com/filmy/esp/timewithfamily.mp4", 'Fast and Furious'],
         srcWordimage: "https://www.arbulang.com/filmy/esp/timewithfamily.png",
         word: [
@@ -2616,10 +2622,10 @@ id: [
         ],
         // historia
         story: [
-                "Padł pamiętny <u><b>rekord</u></b>, potrafię żonglować czterema man<u><b>dar</u></b>ynkami"
+                "He <b><u>remembers</b></u> everything but also <b><u>record</b></u>s every speech. He has a good sal<b><u>ar</b></u>y"
         ],
         // opis
-        desc: "recordar[rekordar] - pamiętać",
+        desc: "recordar[reh-kor-dahr] - to remember",
         //zdanie
         sentence1: [
                 "Recordar"
@@ -2632,7 +2638,7 @@ id: [
         //  slowo do nauki
         key: "everybody",
         category1: [
-                "sport", "gaming"
+                "work", "speech"
         ],
         category2: ["osoby", "osoby+czas"],
                 category3: ["Infinitive"]
@@ -2644,17 +2650,17 @@ id: [
 ],
         // obrazek
         img: [
-                "https://www.arbulang.com/img/fiszki1/36a.jpg"
+                "https://www.arbulang.com/img/fiszki1en-esp/75a.jpg"
         ],
         word: [
                 "https://www.arbulang.com/voice/music.mp4"
         ],
         // historia
         story: [
-                "Te chwile, te <u><b>momenty</u></b>.. <u><b>os</u></b>tatnie, przed końcem urlopu są najlepsze"
+                "COGNATS - momentos - mo-men-tohs"
         ],
         // opis
-        desc: "momentos[momentos] - momenty/chwile",
+        desc: "momentos[mo-men-tohs] - moments",
         //zdanie
         sentence1: [
                 "momentos"
@@ -2667,7 +2673,7 @@ id: [
         //  slowo do nauki
         key: "everybody",
         category1: [
-                "sport", "gaming"
+                "", ""
         ],
         category2: ["osoby", "osoby+czas"]
 },
@@ -2678,17 +2684,17 @@ id: [
 ],
         // obrazek
         img: [
-                "https://www.arbulang.com/img/fiszki1/37a.jpg"
+                "https://www.arbulang.com/img/fiszki1en-esp/76a.jpg"
         ],
         word: [
                 "https://www.arbulang.com/voice/music.mp4"
         ],
         // historia
         story: [
-                "<u><b>F</u></b>ajne p<u><b>eli</u></b>kany spotkałem na wakacjach, są szczęśliwe. A ja wracam i uczę się na <u><b>ses</u></b>ję akademicką"
+                "He <b><u>fel</b></u>t <b><u>happy</b></u> couse of Kserk<b><u>ses</b></u>"
         ],
         // opis
-        desc: "felices[felises] - szczęsliwe",
+        desc: "felices[felises] - happy",
         //zdanie
         sentence1: [
                 "felices"
@@ -2701,7 +2707,7 @@ id: [
         //  slowo do nauki
         key: "everybody",
         category1: [
-                "sport", "gaming"
+                "history", "fights"
         ],
         category2: ["osoby", "osoby+czas"]
 },
@@ -2712,19 +2718,17 @@ id: [
 ],
         // obrazek
         img: [
-            "http://https://www.arbulang.com/img/fiszkiespanol/17a.jpg",
-                "https://www.arbulang.com/img/fiszkiespanol/31a.jpg"
+                "https://www.arbulang.com/img/fiszki1en-esp/56a.jpg"
         ],
         word: [
                 "https://www.arbulang.com/voice/music.mp4"
         ],
         // historia
         story: [
-                "<u><b>Z</u></b> <u><b>kon</u></b>opiami jest niezły ubaw",
-                "<u><b>Z</u></b> takimi <u><b>kon</u></b>taktami jakie mam, lepiej jest mi podołać obowiązkom"
+                "<b><u>With</b></u> that button, we <b><u>con</b></u>trol everything"
         ],
         // opis
-        desc: "con[kon] - z/przez",
+        desc: "con[kohn] - with",
         //zdanie
         sentence2: [
                 "con"
@@ -2736,7 +2740,7 @@ id: [
         //  slowo do nauki
         key: "everybody",
         category1: [
-                "sport", "gaming"
+                "technology", "control"
         ],
         category2: ["osoby", "osoby+czas"]
 },
@@ -2747,17 +2751,17 @@ id: [
 ],
         // obrazek
         img: [
-                "https://www.arbulang.com/img/fiszki1/39a.jpg"
+                "https://www.arbulang.com/img/fiszki1en-esp/78a.jpg"
         ],
         word: [
                 "https://www.arbulang.com/voice/music.mp4"
         ],
         // historia
         story: [
-                "Wczoraj ob<u><b>la</u></b>łem sukces razem z moją <u><b>familią</u></b>"
+                "COGNATS - LA FAMILIA - FAMILY"
         ],
         // opis
-        desc: "la familia[la familia] - rodzina",
+        desc: "la familia[la familia] - family",
         //zdanie
         sentence2: [
                 "la familia"
@@ -2769,7 +2773,7 @@ id: [
         //  slowo do nauki
         key: "everybody",
         category1: [
-                "sport", "gaming"
+                "", ""
         ],
         category2: ["osoby", "osoby+czas"]
 },
@@ -2780,21 +2784,21 @@ id: [
 ],
         // obrazek
         img: [
-                "https://www.arbulang.com/img/fiszkiespanol/27a.jpg"
+                "https://www.arbulang.com/img/fiszki1en-esp/79a.jpg"
         ],
         translate: "To enjoy makeup before going out",
-        translateb: "[Disfrutar del maquillaje antes de salir]",
-        srcWord: ["https://www.arbulang.com/filmy/esp/make-up.mp4", 'Piosenka: 10 minutes - Inna'],
+        translateb: "[dees-froo-TAHR del mah-kee-YAH-heh AHN-tehs deh sah-LEER]",
+        srcWord: ["https://www.arbulang.com/filmy/esp/make-up.mp4", 'Song: 10 minutes - Inna'],
         srcWordimage: "https://www.arbulang.com/filmy/esp/make-up.png",
         word: [
                 "https://www.arbulang.com/voice/music.mp4"
         ],
         // historia
         story: [
-                "Na tym <u><b>dis</u></b>co, normalnie <u><b>fru</u></b>wam z radości... Cieszę się z muzyki, a na <u><b>tar</u></b>asie są piękne dziewczyny"
+              "This <b><u>dis</b></u>trict is <b><u>to enjoy</b></u> every <b><u>fru</b></u>it and we have every fruit as a <b><u>tar</b></u>get"
         ],
         // opis
-        desc: "disfrutar[disfrutar] - cieszyć się",
+        desc: "disfrutar[deh-seh-froo-TAHR] - to enjoy",
         //zdanie
         //zdanie
         sentence1: [
@@ -2807,7 +2811,7 @@ id: [
         //  slowo do nauki
         key: "everybody",
         category1: [
-                "sport", "gaming"
+                "life", "funny moments"
         ],
         category2: ["osoby", "osoby+czas"],
                 category3: ["Infinitive"]
@@ -2819,17 +2823,17 @@ id: [
 ],
         // obrazek
         img: [
-                "https://www.arbulang.com/img/fiszki1/41a.jpg"
+                "https://www.arbulang.com/img/fiszki1en-esp/80a.jpg"
         ],
         word: [
                 "https://www.arbulang.com/voice/music.mp4"
         ],
         // historia
         story: [
-                "<u><b>Mak</u></b>s kocha swoją dziewczynę. Nie ważne czy ma <u><b>mak-ija-ż</u></b> czy nie. Ona - <u><b>He</u></b>lena jest bardzo szczęśliwa"
+                "<b><u>Maci</b></u>ntosh is good system and i play a game where every <b><u>ja</b></u>rd of gruppies <b><u>ha</b></u>s a <b><u>make up</b></u>"
         ],
         // opis
-        desc: "maquillaje[makijahe] - makijaż",
+        desc: "maquillaje[del mah-kee-YAH-heh] - make up",
         //zdanie
         sentence1: [
                 "del maquillaje"
@@ -2841,7 +2845,7 @@ id: [
         //  slowo do nauki
         key: "everybody",
         category1: [
-                "sport", "gaming"
+                "technology", "computer"
         ],
         category2: ["osoby", "osoby+czas"]
 },
@@ -2852,17 +2856,17 @@ id: [
 ],
         // obrazek
         img: [
-                "https://www.arbulang.com/img/fiszkiespanol/22a.jpg"
+                "https://www.arbulang.com/img/fiszki1en-esp/81a.jpg"
         ],
         word: [
                 "https://www.arbulang.com/voice/music.mp4"
         ],
         // historia
         story: [
-                "Przed moim domem jest <u><b>ante</u></b>na <u><b>s</u></b>atelitarna i czasami mnie <u><b>de</u></b>nerwuje, że nie odbiera sygnału"
+                "<b><u>An</b></u>atoli read a book <b><u>before</b></u> breakfast and <b><u>tes</b></u>ted <b><u>the</b></u> possibilities to earn."
         ],
         // opis
-        desc: "antes de[antes de] - przed",
+        desc: "antes de[AHN-tehs deh] - before",
         //zdanie
         //zdanie
         sentence2: [
@@ -2875,7 +2879,7 @@ id: [
         //  slowo do nauki
         key: "everybody",
         category1: [
-                "sport", "gaming"
+                "life", "mindset"
         ],
         category2: ["osoby", "osoby+czas"]
 },
@@ -2886,17 +2890,17 @@ id: [
 ],
         // obrazek
         img: [
-                "https://www.arbulang.com/img/fiszkiespanol/43a.jpg"
+                "https://www.arbulang.com/img/fiszki1en-esp/82a.jpg"
         ],
         word: [
                 "https://www.arbulang.com/voice/music.mp4"
         ],
         // historia
         story: [
-                "Już różni dziennikarze pi<u><b>sali</u></b> o <u><b>wyjściu</u></b> Polski z Unii Eu<u><b>r</u></b>opejskiej"
+                "I need a <b><u>sal</b></u>ary to <b><u>go out</b></u> and drink b<b><u>eer</b></u>"
         ],
         // opis
-        desc: "salir[salir] - wyjście",
+        desc: "salir[sah-LEER] - go out",
         //zdanie
         sentence2: [
                 "salir"
@@ -2908,7 +2912,7 @@ id: [
         //  slowo do nauki
         key: "everybody",
         category1: [
-                "sport", "gaming"
+                "work", "free time"
         ],
         category2: ["osoby", "osoby+czas"]
 },
@@ -2919,10 +2923,10 @@ id: [
 ],
         // obrazek
         img: [
-                "https://www.arbulang.com/img/fiszkiespanol/44a.jpg"
+                "https://www.arbulang.com/img/fiszki1en-esp/83a.jpg"
         ],
         translate: "To forget anxiety by looking at the stars",
-        translateb: "[Olvidar la ansiedad mirando las estrellas]",
+        translateb: "[ohl-vee-DAR lah ahn-syeh-DAHD mee-RAHN-doh lahs es-TRAY-yahs]",
         srcWord: ["https://www.arbulang.com/filmy/esp/gwiazdy.mp4", 'Pasażerowie (2016)'],
         srcWordimage: "https://www.arbulang.com/filmy/esp/gwiazdy.png",
         word: [
@@ -2930,10 +2934,10 @@ id: [
         ],
         // historia
         story: [
-                "<u><b>Ol</u></b>a <u><b>wi</u></b>e, że dobrze jest być <u><b>dar</u></b>czyńcą. <u><b>Zapomnij</u></b> o obojętności"
+                "<b><u>All</u></b> I do for my mar<b><u>ve</u></b>llous company is <b><u>forget</u></b> everything — and that makes me start again"
         ],
         // opis
-        desc: "olvidar[olwidar] - zapomnieć",
+        desc: "olvidar[ohl-vee-DAR] - zapomnieć",
         //zdanie
         sentence1: [
                 "Olvidar"
@@ -2945,11 +2949,7 @@ id: [
         //  slowo do nauki
         key: "everybody",
         category1: [
-                "sport", "gaming",
-                "natura", "kulinaria",
-                "nauka", "medycyna",
-                "czarny humor", "pasja",
-                "związki", "wychowanie"
+                "sport", "gaming"
         ],
         category2: ["osoby", "osoby+czas"],
                 category3: ["Infinitive"]
@@ -2961,17 +2961,17 @@ id: [
 ],
         // obrazek
         img: [
-                "https://www.arbulang.com/img/fiszkiespanol/45a.jpg"
+                "https://www.arbulang.com/img/fiszki1en-esp/84a.jpg"
         ],
         word: [
                 "https://www.arbulang.com/voice/music.mp4"
         ],
         // historia
         story: [
-            "P<u><b>an</u></b> <u><b>Sie</u></b>rgiej czuje <u><b>niepokój</u></b>, gdy wspomina mu się o mieście Bag<u><b>dad</u></b> - gdzie był na misji wojennej. Teraz jego p<u><b>la</u></b>n to odpoczynek"
+            "The plan for a rom<b><u>anc</u></b>e with <b><u>Pietro</u></b> caused a little <b><u>anxiety</u></b> in me, and my dad was nervous"
         ],
         // opis
-        desc: "la ansiedad[la ansiedad] - niepokój",
+        desc: "la ansiedad[lah ahn-syeh-DAHD] - anxiety",
         //zdanie
         sentence1: [
                 "la ansiedad"
@@ -2983,11 +2983,7 @@ id: [
         //  slowo do nauki
         key: "everybody",
         category1: [
-                "sport", "gaming",
-                "natura", "kulinaria",
-                "nauka", "medycyna",
-                "czarny humor", "pasja",
-                "związki", "wychowanie"
+                "sport", "gaming"
         ],
         category2: ["osoby", "osoby+czas"]
 },
@@ -2998,17 +2994,17 @@ id: [
 ],
         // obrazek
         img: [
-                "https://www.arbulang.com/img/fiszkiespanol/46a.jpg"
+                "https://www.arbulang.com/img/fiszki1en-esp/85a.jpg"
         ],
         word: [
                 "https://www.arbulang.com/voice/music.mp4"
         ],
         // historia
         story: [
-            "Ukochana <u><b>patrzy</u></b> <u><b>mi</u></b> się prosto w oczy ub<u><b>ran</u></b>a w super sukienke, z którą <u><b>do</u></b> twarzy jej"
+            "Im <b><u>looking</b></u> for a <b><u>mirr</b></u>acle. I'm r<b><u>unn</b></u>ing aroung the whole room, praying for pure energy to work, when i pass the door i need to get to work"
         ],
         // opis
-        desc: "mirando[mirando] - patrzyć",
+        desc: "mirando[mee-RAHN-doh] - looking",
         //zdanie
         sentence2: [
                 "mirando"
@@ -3020,11 +3016,7 @@ id: [
         //  slowo do nauki
         key: "everybody",
         category1: [
-                "sport", "gaming",
-                "natura", "kulinaria",
-                "nauka", "medycyna",
-                "czarny humor", "pasja",
-                "związki", "wychowanie"
+                "sport", "gaming"
         ],
         category2: ["osoby", "osoby+czas"]
 },
@@ -3035,17 +3027,17 @@ id: [
 ],
         // obrazek
         img: [
-                "https://www.arbulang.com/img/fiszkiespanol/47a.jpg"
+                "https://www.arbulang.com/img/fiszki1en-esp/86a.jpg"
         ],
         word: [
                 "https://www.arbulang.com/voice/music.mp4"
         ],
         // historia
         story: [
-            "Idziemy obok <u><b>las</u></b>u i podziwiamy <u><b>gwiazdy</u></b>. Wyruszyliśmy o dob<u><b>rej</u></b> porze dnia i j<u><b>est</u></b> wyśmienicie. Mamy ubaw po p<u><b>as</u></b>"
+            "In art c<b><u>lass</b></u>, I draw the night sky and <b><u>stars</b></u>. Y<b><u>es</b></u>, it's my <b><u>tra</b></u>ining. In every <b><u>ya</b></u>rd, the ground connects with the sky"
         ],
         // opis
-        desc: "las estrellas[las estrejas] - gwiazdy",
+        desc: "las estrellas[lahs es-TRAY-yahs] - stars",
         //zdanie
         sentence2: [
                 "las estrellas"
@@ -3057,11 +3049,7 @@ id: [
         //  slowo do nauki
         key: "everybody",
         category1: [
-                "sport", "gaming",
-                "natura", "kulinaria",
-                "nauka", "medycyna",
-                "czarny humor", "pasja",
-                "związki", "wychowanie"
+                "sport", "gaming"
         ],
         category2: ["osoby", "osoby+czas"]
 },
@@ -3072,10 +3060,10 @@ id: [
 ],
         // obrazek
         img: [
-                "https://www.arbulang.com/img/fiszkiespanol/48a.jpg"
+                "https://www.arbulang.com/img/fiszki1en-esp/87a.jpg"
         ],
         translate: "To stretch arms toward the blue sky",
-        translateb: "[Extender los brazos al cielo azul]",
+        translateb: "[ehks-tehn-DAIR lohs BRAH-sohs ahl SYEH-loh ah-SOOL]",
         srcWord: ["https://www.arbulang.com/filmy/esp/niebo.mp4", 'Skazani na Shawshank (1994)'],
         srcWordimage: "https://www.arbulang.com/filmy/esp/niebo.png",
         word: [
@@ -3083,10 +3071,10 @@ id: [
         ],
         // historia
         story: [
-            "Ten t<u><b>ekst</u></b> jest o <u><b>rozszerzaniu</u></b> świadomości, że <u><b>end</u></b>(koniec) jest zawsze początkiem nowej <u><b>Er</u></b>y"
+            "My <b><u>ex</u></b> used to sing 'Love Me <b><u>Tender</u></b>', so my memory <b><u>extends</u></b> to that song"
         ],
         // opis
-        desc: "extender[ekstender] - rozciągać",
+        desc: "extender[ehks-tehn-DAIR] - extend",
         //zdanie
         sentence1: [
                 "Extender"
@@ -3099,11 +3087,7 @@ id: [
         //  slowo do nauki
         key: "everybody",
         category1: [
-                "sport", "gaming",
-                "natura", "kulinaria",
-                "nauka", "medycyna",
-                "czarny humor", "pasja",
-                "związki", "wychowanie"
+                "sport", "gaming"
         ],
         category2: ["osoby", "osoby+czas"],
                 category3: ["Infinitive"]
@@ -3122,10 +3106,10 @@ id: [
         ],
         // historia
         story: [
-            "O<u><b>brazo</u></b>burczy obraz Króla na <u><b>ramionach</u></b>, którego <u><b>s</u></b>iedzi papuga. Taki <u><b>los</u></b> papugii"
+            "I lost my mind when i saw Brazilian girl, she looked like a Kate Moss"
         ],
         // opis
-        desc: "los brazos[los brazos] - ramiona",
+        desc: "los brazos[lohs BRAH-sohs] - the arms",
         //zdanie
         sentence1: [
                 "los brazos"
@@ -3138,11 +3122,7 @@ id: [
         //  slowo do nauki
         key: "everybody",
         category1: [
-                "sport", "gaming",
-                "natura", "kulinaria",
-                "nauka", "medycyna",
-                "czarny humor", "pasja",
-                "związki", "wychowanie"
+                "sport", "gaming"
         ],
         category2: ["osoby", "osoby+czas"]
 },
@@ -3160,10 +3140,10 @@ id: [
         ],
         // historia
         story: [
-            "<u><b>Al</u></b> Pacino to aktor, <u><b>ku</u></b> któremu wywsyłano wiele angaży"
+            "We all going to the heaven or hell, after death"
         ],
         // opis
-        desc: "al[al] - ku",
+        desc: "al[ahl] - ku",
         //zdanie
         sentence1: [
                 "al"
@@ -3176,11 +3156,7 @@ id: [
         //  slowo do nauki
         key: "everybody",
         category1: [
-                "sport", "gaming",
-                "natura", "kulinaria",
-                "nauka", "medycyna",
-                "czarny humor", "pasja",
-                "związki", "wychowanie"
+                "sport", "gaming"
         ],
         category2: ["osoby", "osoby+czas"]
 },
@@ -3198,10 +3174,10 @@ id: [
         ],
         // historia
         story: [
-            "<u><b>Siii</u></b> to niebo w tym m<u><b>elo</u></b>dramacie jest strasznie <u><b>błękitne</u></b>"
+            "Siii we have all sky for us, and sky play us beautiful melody"
         ],
         // opis
-        desc: "cielo[sielo] - błękitne",
+        desc: "cielo[SYEH-loh] - sky",
         //zdanie
         sentence2: [
                 "cielo"
@@ -3213,11 +3189,7 @@ id: [
         //  slowo do nauki
         key: "everybody",
         category1: [
-                "sport", "gaming",
-                "natura", "kulinaria",
-                "nauka", "medycyna",
-                "czarny humor", "pasja",
-                "związki", "wychowanie"
+                "sport", "gaming"
         ],
         category2: ["osoby", "osoby+czas"]
 },
@@ -3235,10 +3207,10 @@ id: [
         ],
         // historia
         story: [
-            "Ter<u><b>az</u></b> modny kolor na <u><b>ul</u></b>e dla pszczół to <u><b>niebieski</u></b>"
+            "We have here bluse color as a sky is, and I pull the brush across the canvas"
         ],
         // opis
-        desc: "azul[azul] - niebo",
+        desc: "azul[ah-SOOL] - blue",
         //zdanie
         sentence2: [
                 "azul"
@@ -3250,11 +3222,7 @@ id: [
         //  slowo do nauki
         key: "everybody",
         category1: [
-                "sport", "gaming",
-                "natura", "kulinaria",
-                "nauka", "medycyna",
-                "czarny humor", "pasja",
-                "związki", "wychowanie"
+                "sport", "gaming"
         ],
         category2: ["osoby", "osoby+czas"]
 },
@@ -3276,7 +3244,7 @@ id: [
         ],
         // historia
         story: [
-            "<u><b>Kubr</u></b>ak <u><b>przykrywa</u></b> wysportowane ciało <u><b>Ir</u></b>ka"
+            ""
         ],
         // opis
         desc: "cubrir[kubrir] - pokryć",
@@ -4263,8 +4231,8 @@ id: [
         ],
         translate: "To listen to cheerful music in the car",
         translateb: "[Escuchar música alegre en el coche]",
-        srcWord: ["https://www.arbulang.com/filmy/esp/carmusic.mp4", 'Czas surferów (2005)'],
-        srcWordimage: "https://www.arbulang.com/filmy/esp/carmusic.png",
+        srcWord: ["https://www.arbulang.com/filmy/eng-esp/musicincar2.mp4", 'Baby Driver (2005)'],
+        srcWordimage: "https://www.arbulang.com/filmy/eng-esp/musicincar2.png",
         word: [
                 "https://www.arbulang.com/voice/music.mp4"
         ],
@@ -4456,8 +4424,8 @@ id: [
         ],
         translate: "To arrive early and enjoy the morning",
         translateb: "[Llegar temprano y disfrutar la mañana]",
-        srcWord: ["https://www.arbulang.com/filmy/esp/morning.mp4", 'Szybcy i wściekli: Hobbs i Shaw (2019)'],
-        srcWordimage: "https://www.arbulang.com/filmy/esp/morning.png",
+        srcWord: ["https://www.arbulang.com/filmy/eng-esp/morning4.mp4", 'Hobbs and Shaw (2019)'],
+        srcWordimage: "https://www.arbulang.com/filmy/eng-esp/morning4.png",
         word: [
                 "https://www.arbulang.com/voice/music.mp4"
         ],

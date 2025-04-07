@@ -20,7 +20,7 @@
         <link rel="stylesheet" type="text/css" href="css/1nowe-pc.css">
         <script src="js/story.js"></script>
         <script src="js/storage.js"></script>
-        <script src="start\testowyb.js"></script>
+        <script src="js/testowyb.js"></script>
                 <script src="js/lista.js"></script>
         <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
         <meta charset="UTF-8">
@@ -3493,6 +3493,12 @@ if (myVariable.length > 0) {
                         }
                     }
                 }
+                // Ustaw wartość globalCategory
+                globalCategory = category;
+
+                // Aktualizuj atrybut href linku z użyciem JavaScript
+                var link = document.getElementById('linkDoStrony');
+                link.href = 'demo5.html?category=' + encodeURIComponent(globalCategory);
 
             }
             const urlParams = new URLSearchParams(window.location.search);
@@ -6577,12 +6583,6 @@ $buttonb2.on('click', function () {
     }
     if (index55b2 === 2) {
         lessonLink = document.querySelector('.lesson-link-2');
-    }
-        if (index55b2 === 3) {
-        lessonLink = document.querySelector('.lesson-link-3');
-    }
-    if (index55b2 === 4) {
-        lessonLink = document.querySelector('.lesson-link-4');
     }
 
     if (lessonLink) {

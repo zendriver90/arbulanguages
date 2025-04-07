@@ -858,7 +858,7 @@ button123:hover {
 .run-button3 {
     display: none;
     position: absolute;
-    margin-bottom: 100px;
+    margin-bottom: 120px;
     z-index: 9999999;
 }
                 .dynamic-div {
@@ -1247,10 +1247,6 @@ button123:hover {
         </style>
     </head>
     <body>
-        <div class="horizontal-bar" id="horizontalBar1">
-            <button id="myButton">ANGIELSKI</button>
-            <button id="myButton2">HISZPAŃSKI</button>
-        </div>
         <div class="horizontal-bar" id="horizontalBar2">
         </div>
         <div class="container">
@@ -1346,16 +1342,6 @@ toggleButton.addEventListener('click', function() {
                 }, 300); // 300 ms przerwy pomiędzy mignięciami
             }
 
-// Uruchomienie mignięcia po załadowaniu strony
-            window.onload = function () {
-                blinkButton();
-            };
-            document.getElementById('myButton').addEventListener('click', function () {
-                window.location.href = 'https://www.arbulang.com/matrix.html';
-            });
-            document.getElementById('myButton2').addEventListener('click', function () {
-                window.location.href = 'https://www.arbulang.com/matrix2.html';
-            });
 
             function showVideos(set) {
                 const videoContainer = document.querySelector('.grid-container');
@@ -1391,16 +1377,6 @@ toggleButton.addEventListener('click', function() {
                 document.getElementById(buttonId).classList.add('green-button');
             }
 
-            // Add event listeners to buttons in the first horizontal bar
-            document.getElementById('myButton').addEventListener('click', function () {
-                showVideos('set2');
-                highlightButton('myButton', 'horizontalBar1');
-            });
-
-            document.getElementById('myButton2').addEventListener('click', function () {
-                showVideos('set3');
-                highlightButton('myButton2', 'horizontalBar1');
-            });
 
             function addFlashcardContainer() {
                 var $flashcardContainer = $('<div>', {class: 'flashcard-container'});
@@ -2062,7 +2038,7 @@ let losowaniaCounter2 = 0; // Zmienna licznika losowań
                             console.log('hej155', buttonindex);
                             console.log('hej323', index55);
 
-                            if (tablica10.length <= 33 || tablica10.length === 0) {
+                            if (tablica10.length <= 7 || tablica10.length === 0) {
                                 console.log('wykonuje się 8');
                                 console.log('hej32', newIndex);
                                 console.log('hej18', tablica10);
@@ -3756,7 +3732,7 @@ if (indexDiv % 2 === 0) {
             }
 
             // Dodaj nowy tekst do <div>
-            $sceneDiv.text(`Scena z filmu ${srcWords2[index]}`);
+            $sceneDiv.text(`Scene from the movie: ${srcWords2[index]}`);
 
             if (window.matchMedia("(max-width: 999px)").matches) {
                 if (indexDiv % 2 === 0) {
@@ -3972,7 +3948,7 @@ if (!stopButtonAdded) {
             }
 
             // Dodaj nowy tekst do <div>
-            $sceneDiv.text(`Scena z filmu ${srcWords2[index]}`);
+            $sceneDiv.text(`Scene from the movie: ${srcWords2[index]}`);
 
             if (window.matchMedia("(max-width: 999px)").matches) {
                 if (indexDiv % 2 === 0) {
@@ -4075,7 +4051,7 @@ if (!stopButtonAdded) {
                             // Dodaj nakładkę do kontenera, po dodaniu wideo
                             $overlay.appendTo($container);
                             // Dodaj funkcję hover do kontenera
-                            if (indexDiv < 5) {
+                            if (indexDiv < 6) {
                                 // Jeśli indexDiv < 5, dodajemy hover z dynamicznym napisem
                                 $container.hover(function () {
                                     $('.overlay', this).css('transform', 'translateX(0)');
@@ -4093,7 +4069,7 @@ if (!stopButtonAdded) {
                                     });
                                 });
                             }
-                                                                                                                if (indexDiv < 11 && indexDiv >= 5) {
+                                                                                                                if (indexDiv < 11 && indexDiv >= 6) {
                                 // Jeśli indexDiv < 5, dodajemy hover z dynamicznym napisem
                                 $container.hover(function () {
                                     $('.overlay', this).css('transform', 'translateX(0)');
@@ -4256,12 +4232,16 @@ ${sentence30}${sentence33}<br>
                                 // Bezpośrednio przekierowujemy użtykownika do strony
                                 window.location.href = 'demo4eng-esp.html?category=' + encodeURIComponent(globalCategory);
                             }
+                                                                                                                                            if (index55b2 === 5) { // Porównaj jako liczby
+                                // Bezpośrednio przekierowujemy użtykownika do strony
+                                window.location.href = 'demo5eng-esp.html?category=' + encodeURIComponent(globalCategory);
+                            }
                         }, 500);
                         // Usunięcie kontenera po wstawieniu nowego
                     });
                     $buttonb2.css({
                         'position': 'absolute', // Przykładowa wartość odstępu od lewej krawędzi
-                        'margin-bottom': '-108px',
+                        'margin-bottom': '-128px',
                         'font-size': '10px',
                         'height': '25px',
                         'color': 'blue',
@@ -4738,7 +4718,7 @@ ${sentence10}${sentence11}<br>
                                 }
 
                                 // Dodaj nowy tekst do <div>
-                                $sceneDiv.text(`Scena z filmu ${srcWords2[index]}`);
+                                $sceneDiv.text(`Scene from the movie: ${srcWords2[index]}`);
                             }
                             // Tworzenie przycisku "Stop"
 if (!stopButtonAdded) {
@@ -5123,6 +5103,18 @@ if (!stopButtonAdded) {
                             if (index55b2 === 9) {
                                 // Bezpośrednio przekierowujemy użytkownika do strony
                                 window.location.href = 'demo9eng-espb.html?category=' + encodeURIComponent(globalCategory);
+                            }
+                                                                                                                if (index55b2 === 10) { // Porównaj jako liczby
+                                // Bezpośrednio przekierowujemy użytkownika do strony
+                                window.location.href = 'demo10eng-espb.html?category=' + encodeURIComponent(globalCategory);
+                            }
+                            if (index55b2 === 11) {
+                                // Bezpośrednio przekierowujemy użytkownika do strony
+                                window.location.href = 'demo11eng-espb.html?category=' + encodeURIComponent(globalCategory);
+                            }
+                            if (index55b2 === 12) {
+                                // Bezpośrednio przekierowujemy użytkownika do strony
+                                window.location.href = 'demo12eng-espb.html?category=' + encodeURIComponent(globalCategory);
                             }
                         }, 500);
                         // Usunięcie kontenera po wstawieniu nowego
@@ -5521,7 +5513,7 @@ ${sentence10}<br>
                                 }
 
                                 // Dodaj nowy tekst do <div>
-                                $sceneDiv.text(`Scena z filmu ${srcWords2[index]}`);
+                                $sceneDiv.text(`Scene from the movie: ${srcWords2[index]}`);
                             }
                         }
                         addVideo1(0);

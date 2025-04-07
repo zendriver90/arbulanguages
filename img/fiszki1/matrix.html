@@ -20,18 +20,13 @@
         <link rel="stylesheet" type="text/css" href="css/1nowe-pc.css">
         <script src="js/story.js"></script>
         <script src="js/storage.js"></script>
-        <script src="start\testowyb.js"></script>
+        <script src="js/testowyb.js"></script>
                 <script src="js/lista.js"></script>
         <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <style>
             @media (min-width: 999px) {
-                .hidden-link {
-    position: absolute;
-    left: -9999px;
-    visibility: hidden;
-}
                 .search-container {
     display: flex;
     align-items: center;
@@ -1610,8 +1605,6 @@ input {
         </style>
     </head>
     <body>
-        <a href="demo1angielski.html?category=all" class="hidden-link lesson-link-1" target="_blank" rel="noopener noreferrer">Przejdź do lekcji 1</a>
-<a href="demo2angielski.html?category=all" class="hidden-link lesson-link-2" target="_blank" rel="noopener noreferrer">Przejdź do lekcji 2</a>
         <div class="horizontal-bar" id="horizontalBar1">
             <button id="myButton">ANGIELSKI</button>
             <button id="myButton2">HISZPAŃSKI</button>
@@ -3493,6 +3486,12 @@ if (myVariable.length > 0) {
                         }
                     }
                 }
+                // Ustaw wartość globalCategory
+                globalCategory = category;
+
+                // Aktualizuj atrybut href linku z użyciem JavaScript
+                var link = document.getElementById('linkDoStrony');
+                link.href = 'demo5.html?category=' + encodeURIComponent(globalCategory);
 
             }
             const urlParams = new URLSearchParams(window.location.search);
@@ -6439,7 +6438,7 @@ if (window.matchMedia("(max-width: 999px)").matches) {
                                     });
                                 });
                             }
-                                                        if (indexDiv < 17 && indexDiv > 13) {
+                                                        if (indexDiv < 19 && indexDiv > 13) {
                                 // Jeśli indexDiv < 5, dodajemy hover z dynamicznym napisem
                                 $container.hover(function () {
                                     $('.overlay', this).css('transform', 'translateX(0)');
@@ -6453,24 +6452,6 @@ if (window.matchMedia("(max-width: 999px)").matches) {
 
                                     // Usuń dynamiczny div po zakończeniu hovera
                                     $('.dynamic-div2', this).fadeOut(300, function () {
-                                        $(this).remove();
-                                    });
-                                });
-                            }
-                                                                                    if (indexDiv < 18 && indexDiv >= 17) {
-                                // Jeśli indexDiv < 5, dodajemy hover z dynamicznym napisem
-                                $container.hover(function () {
-                                    $('.overlay', this).css('transform', 'translateX(0)');
-
-                                    // Twórz nowy dynamiczny div z napisem
-                                    const $dynamicDiv2 = $('<div>').addClass('dynamic-div3').text('Nowa lekcja - w przygotowaniu');
-                                    // Dodaj dynamiczny div do kontenera
-                                    $dynamicDiv2.appendTo($(this)).fadeIn(300);
-                                }, function () {
-                                    $('.overlay', this).css('transform', 'translateX(100%)');
-
-                                    // Usuń dynamiczny div po zakończeniu hovera
-                                    $('.dynamic-div3', this).fadeOut(300, function () {
                                         $(this).remove();
                                     });
                                 });
@@ -6533,62 +6514,153 @@ ${sentence30}${sentence33}<br>
                             'z-index': '5'
                         });
                     }
-const $buttonb2 = $('<button></button>');
-$buttonb2.addClass('run-button3');
-$buttonb2.text('Otwórz lekcję w nowym oknie');
+                    const $button = $('<button></button>');
+                    $button.addClass('run-button');
+                    $button.text('Uruchom'); // Ustawiamy tekst przycisku na 'Uruchom'
+                    $button.attr('data-index', indexDiv);
+                    $button.on('click', function () {
 
-// Dodajemy atrybut 'data-index2' z wartością indexDiv do przycisku
-$buttonb2.attr('data-index2', indexDiv);
-$buttonb2.on('click', function () {
-    const $clickedContainer = $container; // Przypisz kliknięty kontener do zmiennej
+                        const index5 = $button.attr('data-index');
+                        const index55 = parseInt(index5, 10); // Zamieniamy index55 na liczbę
+                        // Alternatywnie można użyć Number(index55)
+                        // const numericIndex = Number(index55);
 
-    // Dodaj tło do nieklikniętych kontenerów
-    $('.image-container3').not($clickedContainer).each(function () {
-        const $container = $(this);
-        if ($container.find('.background-overlay').length === 0) {
-            $('<div>')
-                .addClass('background-overlay')
-                .css({
-                    'position': 'absolute',
-                    'top': '0',
-                    'left': '0',
-                    'width': '100%',
-                    'height': '100%',
-                    'background-color': 'blue',
-                    'opacity': '0.35',
-                    'z-index': '1000'
-                })
-                .appendTo($container);
-        }
-    });
+                        setTimeout(() => {
+                            console.log('Kliknięto przycisk o indeksie:', index55);
+                            przekazArgument0(tablica3[2], index55, true, tablica3[0], true, true, tablica3[1], tablica3[4], false, '', '', '', '');
+                        }, 100);
+                        // Usunięcie kontenera po wstawieniu nowego
+                    });
+                    $button.css({
+                        'position': 'absolute',
+                        'right': '-200px', // Przykładowa wartość odstępu od lewej krawędzi
+                        'top': '-10px',
+                        'font-size': '10px',
+                        'height': '30px',
+                        'width': '170px',
+                        'color': 'blue',
+                        'background-color': 'white',
+                        'z-index': '999999' // Ustawienie z-index dla buttona większe niż dla sentenceDiv
+                    });
 
-    // Usuń klasę .background-overlay po powrocie na stronę
-    $(window).on('pageshow', function () {
-        $('.background-overlay').remove();
-    });
+                    $container.append($button);
+                    const $buttonb2 = $('<button></button>');
+                    $buttonb2.addClass('run-button3');
+                    $buttonb2.text('Otwórz lekcję w nowym oknie'); // Ustawiamy tekst przycisku na 'Uruchom'
+                    // Dodajemy atrybut 'data-index' z wartością indexDiv do przycisku
 
-    const index5b2 = $buttonb2.attr('data-index2');
-    const index55b2 = parseInt(index5b2, 10);
+                    $buttonb2.attr('data-index2', indexDiv);
+                    $buttonb2.on('click', function () {
+                        const $clickedContainer = $container; // Przypisz kliknięty kontener do zmiennej
 
-    // Znajdź ukryty link i kliknij go
-    let lessonLink = null;
-    if (index55b2 === 1) {
-        lessonLink = document.querySelector('.lesson-link-1');
-    }
-    if (index55b2 === 2) {
-        lessonLink = document.querySelector('.lesson-link-2');
-    }
-        if (index55b2 === 3) {
-        lessonLink = document.querySelector('.lesson-link-3');
-    }
-    if (index55b2 === 4) {
-        lessonLink = document.querySelector('.lesson-link-4');
-    }
+// Dodaj tło do nieklikniętych kontenerów
+                        $('.image-container3').not($clickedContainer).each(function () {
+                            const $container = $(this);
 
-    if (lessonLink) {
-        lessonLink.click(); // Automatyczne kliknięcie ukrytego linka
-    }
-});
+                            // Dodaj tło, jeśli jeszcze nie istnieje
+                            if ($container.find('.background-overlay').length === 0) {
+                                $('<div>')
+                                        .addClass('background-overlay')
+                                        .css({
+                                            'position': 'absolute',
+                                            'top': '0',
+                                            'left': '0',
+                                            'width': '100%',
+                                            'height': '100%',
+                                            'background-color': 'blue',
+                                            'opacity': '0.35',
+                                            'z-index': '1000' // Wyższy z-index dla tła, aby było na wierzchu
+                                        })
+                                        .appendTo($container);
+                            }
+                        });
+                        // Usuń klasę .background-overlay po powrocie na stronę
+                        $(window).on('pageshow', function () {
+                            $('.background-overlay').remove();  // Usuwa wszystkie elementy z klasą .background-overlay
+                            $clickedContainer = null; // Zresetuj kliknięty kontener
+                        });
+
+                        const index5b2 = $buttonb2.attr('data-index2');
+                        const index55b2 = parseInt(index5b2, 10); // Zamieniamy index55 na liczbę
+                        // Alternatywnie można użyć Number(index55)
+                        // const numericIndex = Number(index55);
+
+                        setTimeout(() => {
+                            if (index55b2 === 1) {
+                                // Bezpośrednio przekierowujemy użytkownika do strony
+                                window.location.href = 'demo1angielski.html?category=' + encodeURIComponent(globalCategory);
+                            }
+                            if (index55b2 === 2) {
+                                // Bezpośrednio przekierowujemy użytkownika do strony
+                                window.location.href = 'demo2angielski.html?category=' + encodeURIComponent(globalCategory);
+                            }
+                            if (index55b2 === 3) {
+                                // Bezpośrednio przekierowujemy użytkownika do strony
+                                window.location.href = 'demo3angielski.html?category=' + encodeURIComponent(globalCategory);
+                            }
+                            if (index55b2 === 4) {
+                                // Bezpośrednio przekierowujemy użytkownika do strony
+                                window.location.href = 'demo4angielski.html?category=' + encodeURIComponent(globalCategory);
+                            }
+                            if (index55b2 === 5) {
+                                // Bezpośrednio przekierowujemy użytkownika do strony
+                                window.location.href = 'demo5angielski.html?category=' + encodeURIComponent(globalCategory);
+                            }
+                            if (index55b2 === 6) {
+                                // Bezpośrednio przekierowujemy użytkownika do strony
+                                window.location.href = 'demo6angielski.html?category=' + encodeURIComponent(globalCategory);
+                            }
+                            if (index55b2 === 7) {
+                                // Bezpośrednio przekierowujemy użytkownika do strony
+                                window.location.href = 'demo7angielski.html?category=' + encodeURIComponent(globalCategory);
+                            }
+                            if (index55b2 === 8) {
+                                // Bezpośrednio przekierowujemy użytkownika do strony
+                                window.location.href = 'demo8angielski.html?category=' + encodeURIComponent(globalCategory);
+                            }
+                            if (index55b2 === 9) {
+                                // Bezpośrednio przekierowujemy użytkownika do strony
+                                window.location.href = 'demo9angielski.html?category=' + encodeURIComponent(globalCategory);
+                            }
+                            if (index55b2 === 10) {
+                                // Bezpośrednio przekierowujemy użytkownika do strony
+                                window.location.href = 'demo10angielski.html?category=' + encodeURIComponent(globalCategory);
+                            }
+                            if (index55b2 === 11) {
+                                // Bezpośrednio przekierowujemy użytkownika do strony
+                                window.location.href = 'demo11angielski.html?category=' + encodeURIComponent(globalCategory);
+                            }
+                            if (index55b2 === 12) {
+                                // Bezpośrednio przekierowujemy użytkownika do strony
+                                window.location.href = 'demo12angielski.html?category=' + encodeURIComponent(globalCategory);
+                            }
+                            if (index55b2 === 13) {
+                                // Bezpośrednio przekierowujemy użytkownika do strony
+                                window.location.href = 'demo13angielski.html?category=' + encodeURIComponent(globalCategory);
+                            }
+                                                        if (index55b2 === 14) {
+                                // Bezpośrednio przekierowujemy użytkownika do strony
+                                window.location.href = 'demo14angielski.html?category=' + encodeURIComponent(globalCategory);
+                            }
+                                                                                    if (index55b2 === 15) {
+                                // Bezpośrednio przekierowujemy użytkownika do strony
+                                window.location.href = 'demo15angielski.html?category=' + encodeURIComponent(globalCategory);
+                            }
+                                                                                                                if (index55b2 === 16) {
+                                // Bezpośrednio przekierowujemy użytkownika do strony
+                                window.location.href = 'demo16angielski.html?category=' + encodeURIComponent(globalCategory);
+                            }
+                                                                                                                                            if (index55b2 === 17) {
+                                // Bezpośrednio przekierowujemy użytkownika do strony
+                                window.location.href = 'demo17angielski.html?category=' + encodeURIComponent(globalCategory);
+                            }
+                                                if (index55b2 === 18) {
+                                // Bezpośrednio przekierowujemy użytkownika do strony
+                                window.location.href = 'demo18angielski.html?category=' + encodeURIComponent(globalCategory);
+                            }
+                        }, 1000);
+                        // Usunięcie kontenera po wstawieniu nowego
+                    });
 
                     $container.append($buttonb2);
                     // Dodanie diva z zdaniem do kontenera

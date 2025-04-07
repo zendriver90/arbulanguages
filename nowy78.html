@@ -74,3 +74,50 @@ display: grid
         padding-top: 30px;
         margin-bottom: 0;
         z-index: 1;
+        
+        
+        let initialSpecificLesson2Ref;
+let specificLesson2Ref;
+let lastClickedIndex = null;
+let lastApprovedIndex = null; // Zmienna do przechowywania ostatnio zatwierdzonego indeksu
+let approvedIndexes = [];      // Tablica przechowująca zatwierdzone indeksy
+let approvedColors = [];
+
+// Zakładamy, że istnieje kontener dla fiszki: fiszkaContainer
+
+if (Array.isArray(fiszka.entries) && fiszka.entries.length > 0) {
+    console.log("Znaleziono fiszki, liczba wpisów:", fiszka.entries.length);
+    
+    const storyButtonContainer = $('<div>'); // Kontener na przyciski
+    let lastClickedButton; // Przechowuje ostatnio kliknięty przycisk
+    
+    // Losujemy indeks przycisku, który ma być aktywny przy ładowaniu
+    const randomButtonIndex = Math.floor(Math.random() * fiszka.entries.length);
+    console.log("Wylosowany indeks przycisku:", randomButtonIndex);
+
+    fiszka.entries.forEach((entry, index) => {
+        console.log(`Przetwarzanie fiszki nr ${index}:`, entry);
+const displayText = entry.category.join(", ");
+        console.log(`Przetwarzanie fiszki nr ${index}:`, entry.category.join(", "));
+        
+
+if (index === randomButtonIndex) {
+    // Używamy indeksu przycisku, aby wybrać odpowiednią fiszkę
+    specificLesson2Ref = entry.img[index];  // Obiekt img zawierający src i alt
+    console.log('Zaktualizowano specificLesson2Ref:', specificLesson2Ref);
+    storyButton.addClass('green-button');  // Nadajemy przyciskowi zieloną klasę
+    lastClickedButton = storyButton;  // Przechowujemy referencję do ostatnio klikniętego przycisku
+    lastApprovedIndex = index;  // Ustawiamy ostatnio zatwierdzony indeks
+}
+
+        storyButtonContainer.append(storyButton);
+        console.log(`Dodano przycisk do kontenera dla fiszki nr ${index}`);
+    });
+    
+    fiszkaContainer.append(storyButtonContainer);
+    console.log("Przyciski zostały dodane do kontenera");
+
+    // Wywołujemy showStory dla wylosowanego przycisku
+    showStory(randomButtonIndex);
+    console.log(`Wywołano showStory dla wylosowanego przycisku: ${randomButtonIndex}`);
+}
