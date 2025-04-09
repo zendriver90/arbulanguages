@@ -7307,7 +7307,7 @@ const fiszki = [
                 text: "Floryda to stan w USA, który powinien być czytany Flo<b><u>rid</b></u>a",
                 alt: ""
             },
-            category: ["życie", "ubiór"]
+            category: ["państwa", "USA"]
         }
             ],
         desc: "read[rid] - czytać",
@@ -7474,6 +7474,18 @@ const fiszki = [
                 alt: ""
             },
             category: ["życie", "wiara"]
+        },
+                {
+            id: 1,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/130a.jpg",
+                alt: "Wygenerowane przez AI."
+            },
+            story: {
+                text: "Swoje <u><b>rajt</u></b>uzy na zimę zawsze zaczynam od <u><b>prawej</u></b> strony, <u><b>teraz</u></b> kiedy jest zimno muszę je ubrać",
+                alt: ""
+            },
+            category: ["zima", "ubiór"]
         }
             ],
         desc: "right[rajt] - dobrze/prawy",
@@ -12146,13 +12158,25 @@ const fiszki = [
             35,
             69
         ],
-        img: "https://www.arbulang.com/img/fiszki1/207b.jpg",
+            entries: [
+        {
+            id: 1,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/207b.jpg",
+                alt: "Wygenerowane przez AI."
+            },
+            story: {
+                text: "<u><b>Oni</u></b> z<u><b>dej</u></b>mują jabłka z jabłoni",
+                alt: ""
+            },
+            category: ["sezon", "prace ogrodowe"]
+        }
+            ],
         translate: "Oni grają w piłkę nożną w tym momencie",
         translateb: "[Dej ar pleing futbol at de moment]",
         translateb2: "[Ewrybody hes fan]",
         srcWord: ["https://www.arbulang.com/filmy/football.mp4", "Pelé. Narodziny legendy (2016)"],
         srcWordimage: "https://www.arbulang.com/filmy/football.png",
-        story: "<u><b>Oni</u></b> z<u><b>dej</u></b>mują jabłka z jabłoni",
         desc: "they[dej] - oni",
         sentence1: [
             "They"
@@ -12219,8 +12243,20 @@ const fiszki = [
             35,
             69
         ],
-        img: "https://www.arbulang.com/img/fiszki1/231a.jpg",
-        story: "<u><b>Gram</u></b> w piłke tak szybko jakbym był Bo<u><b>ing</u></b>iem i odebrałem piłkę nawet <u><b>ple</u></b>cami",
+            entries: [
+        {
+            id: 1,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/231a.jpg",
+                alt: "Wygenerowane przez AI."
+            },
+            story: {
+                text: "<u><b>Gram</u></b> w piłke tak szybko jakbym był Bo<u><b>ing</u></b>iem i odebrałem piłkę nawet <u><b>ple</u></b>cami",
+                alt: ""
+            },
+            category: ["sport", "piłka nożna"]
+        }
+            ],
         desc: "playing[pleing] - grać",
         sentence1: [
             "playing"
@@ -12241,8 +12277,20 @@ const fiszki = [
             35,
             69
         ],
-        img: "https://www.arbulang.com/img/fiszki1/232a.jpg",
-        story: "Kiedy gram w <u><b>piłę nożną</u></b> to nawet na mrozie. Później grzeje się <u><b>fut</u></b>erkiem gdy mam kontuzje i mnie <u><b>bol</u></b>i",
+            entries: [
+        {
+            id: 1,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/232a.jpg",
+                alt: "Wygenerowane przez AI."
+            },
+            story: {
+                text: "Kiedy gram w <u><b>piłę nożną</u></b> to nawet na mrozie. Później grzeje się <u><b>fut</u></b>erkiem gdy mam kontuzje i mnie <u><b>bol</u></b>i",
+                alt: ""
+            },
+            category: ["sport", "piłka nożna"]
+        }
+            ],
         desc: "football[futbol] - piłka nożna",
         sentence1: [
             "football"
@@ -12254,9 +12302,6 @@ const fiszki = [
             "football"
         ],
         key: "football",
-        category1: [
-            "sport", "piłka nożna"
-        ],
         category2: [""]
     },
     {
@@ -12265,25 +12310,73 @@ const fiszki = [
             35,
             70
         ],
-        img: [
-            "https://www.arbulang.com/img/fiszki1/4a.jpg",
-            "https://www.arbulang.com/img/fiszki1/4b.jpg",
-            "https://www.arbulang.com/img/fiszki1/4c.jpg",
-            "https://www.arbulang.com/img/fiszki1/4d.jpg",
-            "https://www.arbulang.com/img/fiszki1/4e.jpg"
-        ],
+    entries: [
+        {
+            id: 1,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/4a.jpg",
+                alt: "Wysportowana sylwetka. Wygenerowane przez AI."
+            },
+            story: {
+                text: '<u><b>W tym</u></b> <span class="adannotation" data-annotation="1"><u><b>at</u></b></span>elcie jest dużo siły',
+                alt: "Życie sportowe. Czy sport daje siłę?"
+            },
+            category: ["sport", "ateltyka"]
+        },
+        {
+            id: 2,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/4b.jpg",
+                alt: "Aktor w lesie. Wygenerowane przez AI."
+            },
+            story: {
+                text: 'Scott <span class="adannotation" data-annotation="1"><u><b>At</u></b></span>kinson <u><b>w tym</u></b> lesie był na spacerze',
+                alt: "Sławni na co dzień. Jak aktorzy spędzają czas?"
+            },
+             category: ["natura", "show-biznes"]
+        },
+        {
+            id: 3,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/4c.jpg",
+                alt: "Pióro na biurku. Wygenerowane przez AI."
+            },
+            story: {
+                text: '<u><b>W tym</u></b> piórze jest za mało <span class="adannotation" data-annotation="1"><u><b>at</u></b></span>ramentu',
+                alt: "Przybory biurowe. Czy pióro jest lepsze od długopisa?"
+            },
+           category: ["nauka", "szkoła"]
+        },
+        {
+            id: 4,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/4d.jpg",
+                alt: "Atrapa Królowej. Wygenerowane przez AI."
+            },
+            story: {
+                text: 'Be<span class="adannotation" data-annotation="1"><u><b>at</u></b></span>a myślała, że zobaczyła Królową Angielską, a to tylko atrapa <u><b>w tym</u></b> muzeum figur woskowych',
+                alt: "Kultura i muzea. Czy Królowa Angielska ma swoją figurę woskową"
+            },
+            category: ["czarny humor", "czas wolny"]
+        },
+        {
+            id: 5,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/4e.jpg",
+                alt: "Złodziej podczas rabunku. Wygenerowane przez AI."
+            },
+            story: {
+                text: '<span class="adannotation" data-annotation="1"><u><b>At</u></b></span>rapa jest dobra na złodzieja, <u><b>w tym</u></b> jest sens',
+                alt: "Prawo i prewencja. Czy złodziej może się nabrać?"
+            },
+            category: ["związki", "bezpieczeństwo"]
+        }
+    ],
         word: [
             "https://www.arbulang.com/src/at.wav"
         ],
         srcWord2: ["https://www.arbulang.com/filmy/procedure.mp4", "Breaking Bad"],
         translateb2: "[at de party]",
-        story: [
-            '<u><b>W tym</u></b> <span class="adannotation" data-annotation="1"><u><b>at</u></b></span>elcie jest dużo siły',
-            'Scott <span class="adannotation" data-annotation="1"><u><b>At</u></b></span>kinson <u><b>w tym</u></b> lesie był na spacerze',
-            '<u><b>W tym</u></b> piórze jest za mało <span class="adannotation" data-annotation="1"><u><b>at</u></b></span>ramentu',
-            'Be<span class="adannotation" data-annotation="1"><u><b>at</u></b></span>a myślała, że zobaczyła Królową Angielską, a to tylko atrapa <u><b>w tym</u></b> muzeum figur woskowych',
-            '<span class="adannotation" data-annotation="1"><u><b>At</u></b></span>rapa jest dobra na złodzieja, <u><b>w tym</u></b> jest sens'
-        ],
         desc: "at[at] - w tym",
         sentence2: [
             "at"
@@ -12386,8 +12479,20 @@ const fiszki = [
             35,
             70
         ],
-        img: "https://www.arbulang.com/img/fiszki1/235a.jpg",
-        story: "Teraz jestem w piekle i pracuje ze s<u><b>moł</u></b>ą <u><b>ment</u></b>alnie",
+            entries: [
+        {
+            id: 1,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/235a.jpg",
+                alt: "Wygenerowane przez AI."
+            },
+            story: {
+                text: "Teraz jestem w piekle i pracuje ze s<u><b>moł</u></b>ą <u><b>ment</u></b>alnie",
+                alt: ""
+            },
+            category: ["wymiary rzeczywistości", "piekło"]
+        }
+            ],
         desc: "moment[mołment] - teraz",
         sentence2: [
             "moment"
@@ -12605,8 +12710,20 @@ const fiszki = [
             36,
             71
         ],
-        img: "https://www.arbulang.com/img/fiszki1/238a.jpg",
-        story: "<u><b>Ku</u></b>charz ze mnie jest <u><b>king</u></b>, gotuję fajne potrawy",
+            entries: [
+        {
+            id: 1,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/238a.jpg",
+                alt: "Wygenerowane przez AI."
+            },
+            story: {
+                text: "<u><b>Ku</u></b>charz ze mnie jest <u><b>king</u></b>, gotuję fajne potrawy",
+                alt: ""
+            },
+            category: ["zawody", "kucharz"]
+        }
+            ],
         desc: "cooking[kuking] - teraz",
         sentence1: [
             "cooking"
@@ -12627,8 +12744,20 @@ const fiszki = [
             36,
             71
         ],
-        img: "https://www.arbulang.com/img/fiszki1/239a.jpg",
-        story: "Wal<u><b>di</u></b> je <u><b>kolacje</u></b>, która pomaga mu uzdrowić <u><b>ner</u></b>kę",
+            entries: [
+        {
+            id: 1,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/239a.jpg",
+                alt: "Wygenerowane przez AI."
+            },
+            story: {
+                text: "Wal<u><b>di</u></b> je <u><b>kolacje</u></b>, która pomaga mu uzdrowić <u><b>ner</u></b>kę",
+                alt: ""
+            },
+            category: ["odżywianie", "dieta"]
+        }
+            ],
         desc: "dinner[diner] - kolacja",
         sentence1: [
             "dinner"
@@ -12649,8 +12778,20 @@ const fiszki = [
             36,
             72
         ],
-        img: "https://www.arbulang.com/img/fiszki1/240a.jpg",
-        story: "<b><u>For</b></u>est Gump jest filmem <b><u>dla</b></u> każdego",
+            entries: [
+        {
+            id: 1,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/139a.jpg",
+                alt: "Wygenerowane przez AI."
+            },
+            story: {
+                text: "<b><u>For</b></u>est Gump jest filmem <b><u>dla</b></u> każdego",
+                alt: ""
+            },
+            category: ["sztuka", "film"]
+        }
+            ],
         desc: "for[for] - dla",
         sentence2: [
             "for"
@@ -12661,7 +12802,6 @@ const fiszki = [
             "tonight"
         ],
         key: "for",
-        category1: "nauka",
         category2: [""]
     },
     {
@@ -12670,8 +12810,20 @@ const fiszki = [
             36,
             72
         ],
-        img: "https://www.arbulang.com/img/fiszki1/241a.jpg",
-        story: "<b><u>As</b></u>teroida, którą wykryliśmy prognozuje <b><u>nam</b></u> pewne trendy psychologi <b><u>as</b></u>trologicznej",
+            entries: [
+        {
+            id: 1,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/68aa.jpg",
+                alt: "Układ planetarny. Wygenerowane przez AI."
+            },
+            story: {
+                text: "<b><u>As</b></u>teroida pod mikroskopem wydaje się <b><u>nam</b></u> niezwykła",
+                alt: ""
+            },
+            category: ["nauka", "astronomia"]
+        }
+            ],
         desc: "us[as] - nas, nam",
         sentence2: [
             "us"
@@ -12691,8 +12843,20 @@ const fiszki = [
             36,
             72
         ],
-        img: "https://www.arbulang.com/img/fiszki1/242a.jpg",
-        story: "F<b><u>ajt</b></u>łapa ogląda wieczorem zwias<b><u>tun</b></u> najnowszego filmu",
+            entries: [
+        {
+            id: 1,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/242a.jpg",
+                alt: "Układ planetarny. Wygenerowane przez AI."
+            },
+            story: {
+                text: "F<b><u>ajt</b></u>łapa ogląda wieczorem zwias<b><u>tun</b></u> najnowszego filmu",
+                alt: ""
+            },
+            category: ["film", "premiera"]
+        }
+            ],
         desc: "tonight[tunajt] - wieczór",
         sentence2: [
             "tonight"
@@ -12703,7 +12867,6 @@ const fiszki = [
             "tonight"
         ],
         key: "tonight",
-        category1: "nauka",
         category2: [""]
     },
     {
@@ -12880,8 +13043,20 @@ const fiszki = [
             37,
             73
         ],
-        img: "https://www.arbulang.com/img/fiszki1/245a.jpg",
-        story: "Kiedy <u><b>pracuje</u></b> mam taki swoisty pa<u><b>łer</u></b>(power) i czuje się jak <u><b>king</u></b>(król)",
+            entries: [
+        {
+            id: 1,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/245a.jpg",
+                alt: "Układ planetarny. Wygenerowane przez AI."
+            },
+            story: {
+                text: "Kiedy <u><b>pracuje</u></b> mam taki swoisty pa<u><b>łer</u></b>(power) i czuje się jak <u><b>king</u></b>(król)",
+                alt: ""
+            },
+            category: ["praca", "wysiłek"]
+        }
+            ],
         desc: "working[łerking] - pracować",
         sentence1: [
             "working"
@@ -12901,8 +13076,20 @@ const fiszki = [
             37,
             74
         ],
-        img: "https://www.arbulang.com/img/fiszki1/246a.jpg",
-        story: "<u><b>On</u></b> jest <u><b>na</u></b> wakacjach. Nie odbiera telefonu",
+            entries: [
+        {
+            id: 1,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/246a.jpg",
+                alt: "Układ planetarny. Wygenerowane przez AI."
+            },
+            story: {
+                text: "<u><b>On</u></b> jest <u><b>na</u></b> wakacjach. Nie odbiera telefonu",
+                alt: ""
+            },
+            category: ["wakacje", "odpoczynek"]
+        }
+            ],
         desc: "on[on] - na",
         sentence2: [
             "on"
@@ -12947,14 +13134,32 @@ const fiszki = [
             37,
             74
         ],
-        img: [
-            "https://www.arbulang.com/img/fiszki1/54a.jpg",
-            "https://www.arbulang.com/img/fiszki1/170a.jpg"
-        ],
-        story: [
-            "Bardzo <b><u>duży</b></u> samolot M<b><u>ig</b></u> właśnie przeleciał na niebie",
-            "<b><u>Big</b></u>amista ma <b><u>duży</b></u> popęd seksualny"
-        ],
+            entries: [
+        {
+            id: 1,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/55aa.jpg",
+                alt: "Samolot Mig. Wygenerowane przez AI."
+            },
+            story: {
+                text: "<b><u>B</b></u>ardzo <b><u>duży</b></u> samolot M<b><u>ig</b></u> właśnie przeleciał na niebie",
+                alt: ""
+            },
+            category: ["życie", "samolot"]
+        },
+                {
+            id: 2,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/170a.jpg",
+                alt: "Ładna dziewczyna. Wygenerowane przez AI."
+            },
+            story: {
+                text: "<b><u>Big</b></u>amista ma <b><u>duży</b></u> popęd seksualny",
+                alt: ""
+            },
+            category: ["życie", "seksualność"]
+        }
+            ],
         desc: "big[big] - duży/duża/duże",
         sentence2: [
             "big"
@@ -12967,7 +13172,6 @@ const fiszki = [
             "today"
         ],
         key: "big",
-        category1: "nauka",
         category2: [""]
     },
     {
@@ -12976,8 +13180,20 @@ const fiszki = [
             37,
             74
         ],
-        img: "https://www.arbulang.com/img/fiszki1/249a.jpg",
-        story: "<b><u>Pro</b></u>fesjonalny projekt nowej marki samochodu robi An<b><u>dźe</b></u>j i wymyślił go jak ni<b><u>kt</b></u> inny",
+            entries: [
+        {
+            id: 1,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/249a.jpg",
+                alt: "Układ planetarny. Wygenerowane przez AI."
+            },
+            story: {
+                text: "<b><u>Pro</b></u>fesjonalny projekt nowej marki samochodu robi An<b><u>dźe</b></u>j i wymyślił go jak ni<b><u>kt</b></u> inny",
+                alt: ""
+            },
+            category: ["inżynier", "projektowanie"]
+        }
+            ],
         desc: "project[prodźekt] - projekt",
         sentence2: [
             "project"
@@ -12990,7 +13206,6 @@ const fiszki = [
             "today"
         ],
         key: "project",
-        category1: "nauka",
         category2: [""]
     },
     {
@@ -12999,8 +13214,20 @@ const fiszki = [
             37,
             74
         ],
-        img: "https://www.arbulang.com/img/fiszki1/212a.jpg",
-        story: "<b><u>Dziś</b></u> muszę zbierać na piwo, stoje <b><u>tu</b></u> pod sklepem i mówię <b><u>dej</b></u>",
+            entries: [
+        {
+            id: 1,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/212a.jpg",
+                alt: "Wygenerowane przez AI."
+            },
+            story: {
+                text: "<b><u>Dziś</b></u> muszę zbierać na piwo, stoje <b><u>tu</b></u> pod sklepem i mówię <b><u>dej</b></u>",
+                alt: ""
+            },
+            category: ["życie", "utrzymanie"]
+        }
+            ],
         desc: "today[tudej] - dziś",
         sentence2: [
             "today"
@@ -13013,7 +13240,6 @@ const fiszki = [
             "today"
         ],
         key: "today",
-        category1: "nauka",
         category2: [""]
     },
     {
@@ -13022,18 +13248,26 @@ const fiszki = [
             38,
             75
         ],
-        img: [
-            "https://www.arbulang.com/img/fiszki1/251a.jpg"
-        ],
+            entries: [
+        {
+            id: 1,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/212a.jpg",
+                alt: "Wygenerowane przez AI."
+            },
+            story: {
+                text: "<b><u>Tin</b></u>a Turner jako nastolatka mówi do innych <b><u>nastolatków</b></u>: <b><u>ej</b></u>, Jackie(<b><u>Dźe</b></u>ki) i Cy<b><u>r</b><u>u<b></u>s</b></u>, chodźcie się kąpać w basenie",
+                alt: ""
+            },
+            category: ["życie", "młodzież"]
+        }
+            ],
         translate: "Dorośli pływają w basenie",
         translateb: "[De tinejdźers ar słiming]",
         srcWord: ["https://www.arbulang.com/filmy/swimmingpool.mp4", "The Middle(amerykański serial)"],
         srcWordimage: "https://www.arbulang.com/filmy/swimmingpool.png",
         word: [
             "https://www.arbulang.com/voice/music.mp4"
-        ],
-        story: [
-            "<b><u>Tin</b></u>a Turner jako nastolatka mówi do innych <b><u>nastolatków</b></u>: <b><u>ej</b></u>, Jackie(<b><u>Dźe</b></u>ki) i Cy<b><u>r</b><u>u<b></u>s</b></u>, chodźcie się kąpać w basenie"
         ],
         desc: "the teenagers[de tinejdźers] - nastolatkowie",
         sentence1: [
@@ -13045,7 +13279,6 @@ const fiszki = [
             "swimming"
         ],
         key: "teenagers",
-        category1: "nauka",
         category2: ["osoby"],
         category3: ["PresentContinous", "PresentContinousPodmiot"]
     },
@@ -13100,8 +13333,20 @@ const fiszki = [
             38,
             75
         ],
-        img: "https://www.arbulang.com/img/fiszki1/253a.jpg",
-        story: "Na słowo <b><u>s</b></u>tart wszyscy do basenu - p<b><u>ły</b></u>wać zapowiada trener. Trening wychodzi <b><u>mi</b></u> na dobre i czasami jestem najlepszy, więc b<b><u>ing</b></u>o!",
+            entries: [
+        {
+            id: 1,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/253a.jpg",
+                alt: "Wygenerowane przez AI."
+            },
+            story: {
+                text: "Na słowo <b><u>s</b></u>tart wszyscy do basenu - p<b><u>ły</b></u>wać zapowiada trener. Trening wychodzi <b><u>mi</b></u> na dobre i czasami jestem najlepszy, więc b<b><u>ing</b></u>o!",
+                alt: ""
+            },
+            category: ["sport", "pływanie"]
+        }
+            ],
         desc: "swimming[słyming] - pływać",
         sentence1: [
             "swimming"
@@ -13112,7 +13357,6 @@ const fiszki = [
             "swimming"
         ],
         key: "swimming",
-        category1: "nauka",
         category2: [""]
     },
     {
@@ -13121,8 +13365,20 @@ const fiszki = [
             38,
             76
         ],
-        img: "https://www.arbulang.com/img/fiszki1/254a.jpg",
-        story: "<u><b>In</u></b>trowertyk lubi przesiadywać <u><b>w</u></b> swoim umyśle",
+            entries: [
+        {
+            id: 1,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/254a.jpg",
+                alt: "Wygenerowane przez AI."
+            },
+            story: {
+                text: "<u><b>In</u></b>trowertyk lubi przesiadywać <u><b>w</u></b> swoim umyśle",
+                alt: ""
+            },
+            category: ["umysł", "myślenie"]
+        }
+            ],
         desc: "in[in] - w",
         sentence2: [
             "in"
@@ -13141,8 +13397,20 @@ const fiszki = [
             38,
             76
         ],
-        img: "https://www.arbulang.com/img/fiszki1/225a.jpg",
-        story: "<u><b>Pul</u></b>a zgromadzonych osób przy <u><b>basenie</u></b> jest wysoka",
+            entries: [
+        {
+            id: 1,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/254a.jpg",
+                alt: "Wygenerowane przez AI."
+            },
+            story: {
+                text: "<u><b>Pul</u></b>a zgromadzonych osób przy <u><b>basenie</u></b> jest wysoka",
+                alt: ""
+            },
+            category: ["rozrywka", "basen"]
+        }
+            ],
         desc: "the pool[de pul] - basen",
         sentence2: [
             "the pool"
@@ -13161,7 +13429,20 @@ const fiszki = [
             39,
             77
         ],
-        img: "https://www.arbulang.com/img/fiszki1/131a.jpg",
+            entries: [
+        {
+            id: 1,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/130a.jpg",
+                alt: "Wygenerowane przez AI."
+            },
+            story: {
+                text: "<b><u>Wi</b></u>ll Smith oznajmił, że <b><u>my</b></u> jako ludzkość mamy się dobrze",
+                alt: ""
+            },
+            category: ["show-biznes", "aktor"]
+        }
+            ],
         translate: " Oglądamy teraz film",
         translateb: "[Łi ar łoczing e muwi rajt nał]",
         srcWord: ["https://www.arbulang.com/filmy/television.mp4", "Pan życia i śmierci(2005)"],
@@ -13169,7 +13450,6 @@ const fiszki = [
         word: [
             "https://www.arbulang.com/voice/music.mp4"
         ],
-        story: "<b><u>Wi</b></u>ll Smith oznajmił, że <b><u>my</b></u> jako ludzkość mamy się dobrze",
         desc: "we[łi] - my",
         sentence1: [
             "We"
@@ -13241,8 +13521,20 @@ const fiszki = [
             39,
             77
         ],
-        img: "https://www.arbulang.com/img/fiszki1/258a.jpg",
-        story: "Ostatnio ma<u><b>ło</u></b> <u><b>oglądam</u></b> seriali, najczęściej o chińskiej dynastii <u><b>Ching</u></b>",
+            entries: [
+        {
+            id: 1,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/258a.jpg",
+                alt: "Wygenerowane przez AI."
+            },
+            story: {
+                text: "Ostatnio ma<u><b>ło</u></b> <u><b>oglądam</u></b> seriali, najczęściej o chińskiej dynastii <u><b>Ching</u></b>",
+                alt: ""
+            },
+            category: ["historia", "Chiny"]
+        }
+            ],
         desc: "watching[łoczing] - oglądać",
         sentence1: [
             "watching"
@@ -13265,8 +13557,20 @@ const fiszki = [
             39,
             77
         ],
-        img: "https://www.arbulang.com/img/fiszki1/259a.jpg",
-        story: "Ten <u><b>film</u></b> <u><b>mówi</u></b> o bardzo ciekawych rzeczach",
+            entries: [
+        {
+            id: 1,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/259a.jpg",
+                alt: "Wygenerowane przez AI."
+            },
+            story: {
+                text: "Ten <u><b>film</u></b> <u><b>mówi</u></b> o bardzo ciekawych rzeczach",
+                alt: ""
+            },
+            category: ["opowieść", "film"]
+        }
+            ],
         desc: "a movie[a muwi] - film",
         sentence1: [
             "a movie"
@@ -13289,9 +13593,33 @@ const fiszki = [
             39,
             77
         ],
-        img: "https://www.arbulang.com/img/fiszki1/221a.jpg",
-        story: "Swoje <u><b>rajt</u></b>uzy na zimę zawsze zaczynam od <u><b>prawej</u></b> strony, <u><b>teraz</u></b> kiedy jest zimno muszę je ubrać",
-        desc: "right[] - right(prawo, right now(teraz)",
+            entries: [
+        {
+            id: 1,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/130a.jpg",
+                alt: "Wygenerowane przez AI."
+            },
+            story: {
+                text: "<b><u>Dobrze</b></u> żyłeś. A <b><u>t</b></u>o jest <b><u>raj</b></u> dla ciebie",
+                alt: ""
+            },
+            category: ["życie", "wiara"]
+        },
+                {
+            id: 1,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/130a.jpg",
+                alt: "Wygenerowane przez AI."
+            },
+            story: {
+                text: "Swoje <u><b>rajt</u></b>uzy na zimę zawsze zaczynam od <u><b>prawej</u></b> strony, <u><b>teraz</u></b> kiedy jest zimno muszę je ubrać",
+                alt: ""
+            },
+            category: ["zima", "ubiór"]
+        }
+            ],
+        desc: "right[rajt] - right(prawo, right now(teraz)",
         sentence1: [
             "right"
         ],
@@ -13304,7 +13632,6 @@ const fiszki = [
             "now"
         ],
         key: "right",
-        category1: "nauka",
         category2: [""]
     },
     {
@@ -13313,8 +13640,20 @@ const fiszki = [
             39,
             77
         ],
-        img: "https://www.arbulang.com/img/fiszki1/228a.jpg",
-        story: "<u><b>Teraz</u></b> moja ulubiona woda - to <u><b>Nał</u></b>ęczowska",
+            entries: [
+        {
+            id: 1,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/228a.jpg",
+                alt: "Wygenerowane przez AI."
+            },
+            story: {
+                text: "<u><b>Teraz</u></b> moja ulubiona woda - to <u><b>Nał</u></b>ęczowska",
+                alt: ""
+            },
+            category: ["produkty", "woda do picia"]
+        }
+            ],
         desc: "now[nał] - teraz",
         sentence1: [
             "now"
@@ -13534,8 +13873,20 @@ const fiszki = [
             40,
             78
         ],
-        img: "https://www.arbulang.com/img/fiszki1/264a.jpg",
-        story: "W grze komputerowej, podczas tej bitwy obniosłem wiele <u><b>ran</u></b>, nie mogę <u><b>biegać</u></b>, tylko strzelam z okopu i mam dobry tajm<u><b>ing</u></b>",
+            entries: [
+        {
+            id: 1,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/264a.jpg",
+                alt: "Wygenerowane przez AI."
+            },
+            story: {
+                text: "W grze komputerowej, podczas tej bitwy obniosłem wiele <u><b>ran</u></b>, nie mogę <u><b>biegać</u></b>, tylko strzelam z okopu i mam dobry tajm<u><b>ing</u></b>",
+                alt: ""
+            },
+            category: ["gry", "bitwy"]
+        }
+            ],
         desc: "running[raning] - biegać",
         sentence1: [
             "running"
@@ -13555,8 +13906,20 @@ const fiszki = [
             40,
             79
         ],
-        img: "https://www.arbulang.com/img/fiszki1/254a.jpg",
-        story: "<u><b>In</u></b>trowertyk lubi przesiadywać <u><b>w</u></b> swoim umyśle",
+            entries: [
+        {
+            id: 1,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/254a.jpg",
+                alt: "Wygenerowane przez AI."
+            },
+            story: {
+                text: "<u><b>In</u></b>trowertyk lubi przesiadywać <u><b>w</u></b> swoim umyśle",
+                alt: ""
+            },
+            category: ["umysł", "myślenie"]
+        }
+            ],
         desc: "in[in] - w",
         sentence2: [
             "in"
@@ -13576,8 +13939,20 @@ const fiszki = [
             40,
             79
         ],
-        img: "https://www.arbulang.com/img/fiszki1/266a.jpg",
-        story: "Kur<b><u>de</b></u>, jak tutaj teraz za<b><u>park</b></u>ować koło <b><u>tego parku</b></u>",
+            entries: [
+        {
+            id: 1,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/266a.jpg",
+                alt: "Wygenerowane przez AI."
+            },
+            story: {
+                text: "Kur<b><u>de</b></u>, jak tutaj teraz za<b><u>park</b></u>ować koło <b><u>tego parku</b></u>",
+                alt: ""
+            },
+            category: ["auto", "parkowanie"]
+        }
+            ],
         desc: "the park[de park] - park",
         sentence2: [
             "the park"
@@ -13597,8 +13972,20 @@ const fiszki = [
             40,
             79
         ],
-        img: "https://www.arbulang.com/img/fiszki1/212a.jpg",
-        story: "<b><u>Dziś</b></u> muszę zbierać na piwo, stoje <b><u>tu</b></u> pod sklepem i mówię <b><u>dej</b></u>",
+            entries: [
+        {
+            id: 1,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/212a.jpg",
+                alt: "Wygenerowane przez AI."
+            },
+            story: {
+                text: "<b><u>Dziś</b></u> muszę zbierać na piwo, stoje <b><u>tu</b></u> pod sklepem i mówię <b><u>dej</b></u>",
+                alt: ""
+            },
+            category: ["życie", "utrzymanie"]
+        }
+            ],
         desc: "today[tudej] - dziś",
         sentence2: [
             "today"
@@ -13618,9 +14005,20 @@ const fiszki = [
             41,
             80
         ],
-        img: [
-            "https://www.arbulang.com/img/fiszki1/207b.jpg"
-        ],
+            entries: [
+        {
+            id: 1,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/207b.jpg",
+                alt: "Wygenerowane przez AI."
+            },
+            story: {
+                text: "<u><b>Oni</u></b> z<u><b>dej</u></b>mują jabłka z jabłoni",
+                alt: ""
+            },
+            category: ["sezon", "prace ogrodowe"]
+        }
+            ],
         translate: "",
         translateb: "[Dej ar hewing diner tugeder nał]",
         translateb2: "[Dej ar hewing diner tugeder nał]",
@@ -13630,7 +14028,6 @@ const fiszki = [
         word: [
             "https://www.arbulang.com/src/is.wav"
         ],
-        story: "<u><b>Oni</u></b> z<u><b>dej</u></b>mują jabłka z jabłoni",
         desc: "they[dej] - oni",
         sentence1: [
             "They"
@@ -13644,7 +14041,6 @@ const fiszki = [
             "now"
         ],
         key: "they",
-        category1: "nauka",
         category2: ["osoby"],
         category3: ["PresentContinous", "PresentContinousPodmiot"]
     },
@@ -13703,8 +14099,20 @@ const fiszki = [
             41,
             80
         ],
-        img: "https://www.arbulang.com/img/fiszki1/270a.jpg",
-        story: "Oni <b><u>mają</b></u> mar<b><u>chew</b></u> i to jest ich naturalny dop<b><u>ing</b></u> w sporcie",
+            entries: [
+        {
+            id: 1,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/270a.jpg",
+                alt: "Wygenerowane przez AI."
+            },
+            story: {
+                text: "Oni <b><u>mają</b></u> mar<b><u>chew</b></u> i to jest ich naturalny dop<b><u>ing</b></u> w sporcie",
+                alt: ""
+            },
+            category: ["odżywianie", "dieta"]
+        }
+            ],
         desc: "having[hewing] - mają",
         sentence1: [
             "having"
@@ -13728,8 +14136,20 @@ const fiszki = [
             41,
             80
         ],
-        img: "https://www.arbulang.com/img/fiszki1/239a.jpg",
-        story: "Wal<u><b>di</u></b> je <u><b>kolacje</u></b>, która pomaga mu uzdrowić <u><b>ner</u></b>kę",
+            entries: [
+        {
+            id: 1,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/239a.jpg",
+                alt: "Wygenerowane przez AI."
+            },
+            story: {
+                text: "Wal<u><b>di</u></b> je <u><b>kolacje</u></b>, która pomaga mu uzdrowić <u><b>ner</u></b>kę",
+                alt: ""
+            },
+            category: ["odżywianie", "dieta"]
+        }
+            ],
         desc: "dinner[diner] - kolacja",
         sentence1: [
             "dinner"
@@ -13752,8 +14172,20 @@ const fiszki = [
             41,
             80
         ],
-        img: "https://www.arbulang.com/img/fiszki1/272a.jpg",
-        story: "<u><b>Tu</u></b> razem pracujemy przy, żniwach.. Jest <u><b>ge</u></b>nialnie... Kombajnista ustwia h<u><b>eder</u></b> do koszenia zboża",
+            entries: [
+        {
+            id: 1,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/272a.jpg",
+                alt: "Wygenerowane przez AI."
+            },
+            story: {
+                text: "<u><b>Tu</u></b> razem pracujemy przy, żniwach.. Jest <u><b>ge</u></b>nialnie... Kombajnista ustwia h<u><b>eder</u></b> do koszenia zboża",
+                alt: ""
+            },
+            category: ["gospodarstwo", "żniwa"]
+        }
+            ],
         desc: "together[tugeder] - razem",
         sentence1: [
             "together"
@@ -13767,7 +14199,6 @@ const fiszki = [
             "now"
         ],
         key: "together",
-        category1: "nauka",
         category2: ["osoby", "zaimkiosobowe"]
     },
     {
@@ -13776,8 +14207,20 @@ const fiszki = [
             41,
             80
         ],
-        img: "https://www.arbulang.com/img/fiszki1/239a.jpg",
-        story: "<u><b>Tu</u></b> razem pracujemy przy, żniwach.. Jest <u><b>ge</u></b>nialnie... Kombajnista ustwia h<u><b>eder</u></b> do koszenia zboża",
+            entries: [
+        {
+            id: 1,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/228a.jpg",
+                alt: "Wygenerowane przez AI."
+            },
+            story: {
+                text: "<u><b>Teraz</u></b> moja ulubiona woda - to <u><b>Nał</u></b>ęczowska",
+                alt: ""
+            },
+            category: ["produkty", "woda do picia"]
+        }
+            ],
         desc: "now[nał] - teraz",
         sentence1: [
             "now"
@@ -13891,21 +14334,68 @@ const fiszki = [
             42,
             81
         ],
-        img: [
-            "https://www.arbulang.com/img/fiszki1/20a.jpg",
-            "https://www.arbulang.com/img/fiszki1/20b.jpg",
-            "https://www.arbulang.com/img/fiszki1/20c.jpg",
-            "https://www.arbulang.com/img/fiszki1/20d.jpg",
-            "https://www.arbulang.com/img/fiszki1/20e.jpg"
-
-        ],
-        story: [
-            "Zawsze po treningu j<u><b>em</u></b>, dlatego <u><b>jestem</u></b> wysportowany i silny",
-            "M<u><b>am</u></b> j<u><b>em</u></b>iołę i <u><b>jestem</u></b> zadowolony z jej zapachu",
-            "Emanacją mojej pracy badawczej, którą prowadziłem s<u><b>am</u></b> - jest to, że teraz ja <u><b>jestem</u></b> w tym temacie specjalistą",
-            "Amstaf <u><b>Em</u></b>il mnie goni, <u><b>jestem</u></b> w tarapatach",
-            "Mój idol <u><b>Em</u></b>inem powiedział, <u><b>ja jestem</u></b> najlepszym raperem i po tym stwierdzneiu teraz <u><b>ja jestem</u></b> w fajnych emocjach"
-        ],
+    entries: [
+        {
+            id: 1,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/20a.jpg",
+                alt: "Wysportowany mężczyzna. Wygenerowane przez AI."
+            },
+            story: {
+                text: "Zawsze po treningu j<u><b>em</u></b>, dlatego <u><b>jestem</u></b> wysportowany i silny",
+                alt: "Odżywianie przy intensywnym treningu. Jak dbać o odżywianie przy intensywnym treningu?"
+            },
+            category: ["sport", "trening"]
+        },
+        {
+            id: 2,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/20b.jpg",
+                alt: "Jemioła. Wygenerowane przez AI."
+            },
+            story: {
+                text: "M<u><b>am</u></b> j<u><b>em</u></b>iołę i <u><b>jestem</u></b> zadowolony z jej zapachu",
+               alt: "Świąteczne przygotowania. Czy jemioła jest elementem świątecznego wystroju?"
+            },
+            category: ["natura", "zapach"]
+        },
+        {
+            id: 3,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/20c.jpg",
+                alt: "Kobieta w pracy biurowej. Wygenerowane przez AI."
+            },
+            story: {
+                text: "Emanacją mojej pracy badawczej, którą prowadziłem s<u><b>am</u></b> - jest to, że teraz ja <u><b>jestem</u></b> w tym temacie specjalistą",
+                alt: "Doświadczenie naukowca. Jak wiedza naukowca się kumuluje podczas jego kariery?"
+            },
+           category: ["nauka", "autorytet"]
+        },
+        {
+            id: 4,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/20d.jpg",
+                alt: "Biegnące psy. Wygenerowane przez AI."
+            },
+            story: {
+                text: "Amstaf <u><b>Em</u></b>il mnie goni, <u><b>jestem</u></b> w tarapatach",
+                alt: "Zachowania psa. Czy pies może zagrażać naszemu zdrowiu?"
+            },
+            category: ["czarny humor", "bezpieczeństwo"]
+        },
+        {
+            id: 5,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/20e.jpg",
+                alt: "Znany raper. Wygenerowane przez AI."
+            },
+            story: {
+                text: "Mój idol <u><b>Em</u></b>inem powiedział, <u><b>ja jestem</u></b> najlepszym raperem i po tym stwierdzneiu teraz <u><b>ja jestem</u></b> w fajnych emocjach",
+               alt: "Życie gwiazd. Czy Eminem jest najlepszym raperem?"
+            },
+            category: ["związki", "muzyka"]
+        }
+    ],
         desc: "am[em] - jestem",
         sentence1: [
             "am"
@@ -13926,8 +14416,20 @@ const fiszki = [
             42,
             81
         ],
-        img: "https://www.arbulang.com/img/fiszki1/276a.jpg",
-        story: "K<u><b>ler</u></b> kościelny uczy się grać w <u><b>Nin</u></b>tendo i grę <u><b>G</u></b>o",
+            entries: [
+        {
+            id: 1,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/276a.jpg",
+                alt: "Wygenerowane przez AI."
+            },
+            story: {
+                text: "K<u><b>ler</u></b> kościelny uczy się grać w <u><b>Nin</u></b>tendo i grę <u><b>G</u></b>o",
+                alt: ""
+            },
+            category: ["gry", "Nintendo"]
+        }
+            ],
         desc: "learning[lerning] - uczę się",
         sentence1: [
             "learning"
@@ -13948,8 +14450,20 @@ const fiszki = [
             42,
             81
         ],
-        img: "https://www.arbulang.com/img/fiszki1/277a.jpg",
-        story: "<u><b>In</u></b>nowacyjna metoda nauki językow, to jak lepienie <u><b>gli</u></b>ny - bardzo łatwe i <u><b>sz</u></b>ybkie",
+            entries: [
+        {
+            id: 1,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/277a.jpg",
+                alt: "Wygenerowane przez AI."
+            },
+            story: {
+                text: "<u><b>In</u></b>nowacyjna metoda nauki języków, to jak lepienie <u><b>gli</u></b>ny - bardzo łatwe i <u><b>sz</u></b>ybkie",
+                alt: ""
+            },
+            category: ["nauka", "techniki nauki"]
+        }
+            ],
         desc: "english[TRUDNOŚĆ JĘZYKOWA - inglisz(30%), ynglish(30%), english(30%)] - uczę się",
         sentence1: [
             "English"
@@ -14052,8 +14566,20 @@ const fiszki = [
             42,
             81
         ],
-        img: "https://www.arbulang.com/img/fiszki1/279a.jpg",
-        story: "Ten <b><u>rok</b></u> to rok ba<b><u>jer</b></u>u. W sylwestra były fajne fa<b><u>jer</b></u>werki",
+            entries: [
+        {
+            id: 1,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/279a.jpg",
+                alt: "Wygenerowane przez AI."
+            },
+            story: {
+                text: "Ten <b><u>rok</b></u> to rok ba<b><u>jer</b></u>u. W sylwestra były fajne fa<b><u>jer</b></u>werki",
+                alt: ""
+            },
+            category: ["imprezy", "postanowienia noworoczne"]
+        }
+            ],
         desc: "year[jer] - rok",
         sentence2: [
             "year"
@@ -14198,8 +14724,20 @@ const fiszki = [
             43,
             82
         ],
-        img: "https://www.arbulang.com/img/fiszki1/282a.jpg",
-        story: "Prodecent odwiedził naukowców z proszkiem <u><b>wizi</u></b>r, aby go przetestowali. Jeden naukowiec ma <u><b>ti</u></b>ki i myli się przy badaniach. <u><b>Id</u></b>zie mu słabo",
+            entries: [
+        {
+            id: 1,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/282a.jpg",
+                alt: "Wygenerowane przez AI."
+            },
+            story: {
+                text: "Prodecent odwiedził naukowców z proszkiem <u><b>wizi</u></b>r, aby go przetestowali. Jeden naukowiec ma <u><b>ti</u></b>ki i myli się przy badaniach. <u><b>Id</u></b>zie mu słabo",
+                alt: ""
+            },
+            category: ["firmy", "testowanie produktu"]
+        }
+            ],
         desc: "visited[wizitid] - odwiedził/odwiedziła",
         sentence1: [
             "visited"
@@ -14220,8 +14758,20 @@ const fiszki = [
             43,
             82
         ],
-        img: "https://www.arbulang.com/img/fiszki1/283a.jpg",
-        story: "<u><b>Pa</u></b>weł śpiewa na koncercie w <u><b>Paryżu</u></b> dużo <u><b>arii</u></b>, <u><b>s</u></b>uper mu to idzie",
+            entries: [
+        {
+            id: 1,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/283a.jpg",
+                alt: "Wygenerowane przez AI."
+            },
+            story: {
+                text: "<u><b>Pa</u></b>weł śpiewa na koncercie w <u><b>Paryżu</u></b> dużo <u><b>arii</u></b>, <u><b>s</u></b>uper mu to idzie",
+                alt: ""
+            },
+            category: ["koncert", "aria"]
+        }
+            ],
         desc: "Paris[Paris] - Paryż",
         sentence1: [
             "Paris"
@@ -14242,8 +14792,20 @@ const fiszki = [
             43,
             83
         ],
-        img: "https://www.arbulang.com/img/fiszki1/284a.jpg",
-        story: "W tym <u><b>MENI(czyt. France)</u></b> jest <u><b>wiele</u></b> potraw",
+            entries: [
+        {
+            id: 1,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/284a.jpg",
+                alt: "Wygenerowane przez AI."
+            },
+            story: {
+                text: "W tym <u><b>MENI(czyt. France)</u></b> jest <u><b>wiele</u></b> potraw",
+                alt: ""
+            },
+            category: ["resturacja", "menu"]
+        }
+            ],
         desc: "many[meni] - wiele",
         sentence2: [
             "many"
@@ -14253,7 +14815,6 @@ const fiszki = [
             "times"
         ],
         key: "many",
-        category1: "nauka",
         category2: ["czas", "ilość"]
     },
     {
@@ -14262,8 +14823,20 @@ const fiszki = [
             43,
             83
         ],
-        img: "https://www.arbulang.com/img/fiszki1/285a.jpg",
-        story: "Nju Jork <u><b>Tajms</u></b> ma mało <u><b>czasu</u></b> na przygotowanie raportu",
+            entries: [
+        {
+            id: 1,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/285a.jpg",
+                alt: "Wygenerowane przez AI."
+            },
+            story: {
+                text: "Nju Jork <u><b>Tajms</u></b> ma mało <u><b>czasu</u></b> na przygotowanie raportu",
+                alt: ""
+            },
+            category: ["gazety", "światowe czasopisma"]
+        }
+            ],
         desc: "times[tajms] - czas",
         sentence2: [
             "times"
@@ -14273,7 +14846,6 @@ const fiszki = [
             "times"
         ],
         key: "times",
-        category1: "nauka",
         category2: ["czas"]
     },
     {
@@ -14375,8 +14947,20 @@ const fiszki = [
             44,
             84
         ],
-        img: "https://www.arbulang.com/img/fiszki1/122a.jpg",
-        story: "<b><u>Mam</b></u> fajne spodnie, ale puścił sz<b><u>ew</b></u>, <b><u>ch</b></u>yba go zaceruje",
+            entries: [
+        {
+            id: 1,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/122a.jpg",
+                alt: "Wygenerowane przez AI."
+            },
+            story: {
+                text: "<b><u>Mam</b></u> fajne spodnie, ale puścił sz<b><u>ew</b></u>, <b><u>ch</b></u>yba go zaceruje",
+                alt: ""
+            },
+            category: ["życie", "ubiór"]
+        }
+            ],
         desc: "have[hew] - mam",
         sentence1: [
             "have"
@@ -14389,7 +14973,6 @@ const fiszki = [
             "homework"
         ],
         key: "have",
-        category1: "nauka",
         category2: ["czasownik"]
     },
     {
@@ -14398,8 +14981,20 @@ const fiszki = [
             44,
             84
         ],
-        img: "https://www.arbulang.com/img/fiszki1/239a.jpg",
-        story: "<b><u>Fin</b></u> zdaje magisterke i jest na końcu drogi kształcenia się czyli <b><u>finiszuje</b></u>. Zdał <b><u>i</b></u> jest <b><u>szt</b></u>os",
+            entries: [
+        {
+            id: 1,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/288a.jpg",
+                alt: "Wygenerowane przez AI."
+            },
+            story: {
+                text: "<b><u>Fin</b></u> zdaje magisterke i jest na końcu drogi kształcenia się czyli <b><u>finiszuje</b></u>. Zdał <b><u>i</b></u> jest <b><u>szt</b></u>os",
+                alt: ""
+            },
+            category: ["szkoła", "egzamin"]
+        }
+            ],
         desc: "finished[finiszt] - ukończyć",
         sentence1: [
             "finished"
@@ -14483,8 +15078,20 @@ const fiszki = [
             44,
             84
         ],
-        img: "https://www.arbulang.com/img/fiszki1/239a.jpg",
-        story: "Mikołaj woła <b><u>hoł</b></u> hoł, ten list do Mikołaja jest jak praca domowa ze szkoły. <b><u>Mło</b></u>dy dobrze ją napisał. S<b><u>ork</b></u>i dziecko, ale Mikołaj nie ma dużo pieniędzy",
+            entries: [
+        {
+            id: 1,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/290a.jpg",
+                alt: "Wygenerowane przez AI."
+            },
+            story: {
+                text: "Mikołaj woła <b><u>hoł</b></u> hoł, ten list do Mikołaja jest jak praca domowa ze szkoły. <b><u>Mło</b></u>dy dobrze ją napisał. S<b><u>ork</b></u>i dziecko, ale Mikołaj nie ma dużo pieniędzy",
+                alt: ""
+            },
+            category: ["święta", "prezenty"]
+        }
+            ],
         desc: "homework[hołmłork] - praca domowa",
         sentence1: [
             "homework"
@@ -14542,8 +15149,20 @@ const fiszki = [
             45,
             85
         ],
-        img: "https://www.arbulang.com/img/fiszki1/292a.jpg",
-        story: "<b><u>Mam</b></u> fajne spodnie, ale puścił sz<b><u>ew</b></u>, <b><u>ch</b></u>yba go zaceruje",
+            entries: [
+        {
+            id: 1,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/122a.jpg",
+                alt: "Wygenerowane przez AI."
+            },
+            story: {
+                text: "<b><u>Mam</b></u> fajne spodnie, ale puścił sz<b><u>ew</b></u>, <b><u>ch</b></u>yba go zaceruje",
+                alt: ""
+            },
+            category: ["życie", "ubiór"]
+        }
+            ],
         desc: "have[hew] - mam",
         sentence1: [
             "have"
@@ -14566,8 +15185,20 @@ const fiszki = [
             45,
             85
         ],
-        img: "https://www.arbulang.com/img/fiszki1/293a.jpg",
-        story: "O<u><b>liw</u></b>ka i <u><b>D</u></b>amian żyją ze sobą szczęśliwie",
+            entries: [
+        {
+            id: 1,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/293a.jpg",
+                alt: "Wygenerowane przez AI."
+            },
+            story: {
+                text: "O<u><b>liw</u></b>ka i <u><b>D</u></b>amian żyją ze sobą szczęśliwie",
+                alt: ""
+            },
+            category: ["życie", "związek"]
+        }
+            ],
         desc: "lived[liwd] - żyją",
         sentence1: [
             "lived"
@@ -14590,8 +15221,20 @@ const fiszki = [
             45,
             85
         ],
-        img: "https://www.arbulang.com/img/fiszki1/254a.jpg",
-        story: "<u><b>In</u></b>trowertyk lubi przesiadywać <u><b>w</u></b> swoim umyśle",
+            entries: [
+        {
+            id: 1,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/254a.jpg",
+                alt: "Wygenerowane przez AI."
+            },
+            story: {
+                text: "<u><b>In</u></b>trowertyk lubi przesiadywać <u><b>w</u></b> swoim umyśle",
+                alt: ""
+            },
+            category: ["umysł", "myślenie"]
+        }
+            ],
         desc: "in[in] - w",
         sentence1: [
             "in"
@@ -14698,7 +15341,20 @@ const fiszki = [
             45,
             85
         ],
-        img: "https://www.arbulang.com/img/fiszki1/296a.jpg",
+            entries: [
+        {
+            id: 1,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/296a.jpg",
+                alt: "Wygenerowane przez AI."
+            },
+            story: {
+                text: "Spotkałem kolegę... je<b><u>chał</b></u> pro<b><u>s</b></u>to do domu",
+                alt: ""
+            },
+            category: ["życie", "trasa"]
+        }
+            ],
         story: "Spotkałem kolegę... je<b><u>chał</b></u> pro<b><u>s</b></u>to do domu",
         desc: "house[hałs] - dom",
         sentence1: [
@@ -14722,8 +15378,20 @@ const fiszki = [
             45,
             86
         ],
-        img: "https://www.arbulang.com/img/fiszki1/139a.jpg",
-        story: "<b><u>For</b></u>est Gump jest filmem <b><u>dla</b></u> każdego",
+            entries: [
+        {
+            id: 1,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/139a.jpg",
+                alt: "Wygenerowane przez AI."
+            },
+            story: {
+                text: "<b><u>For</b></u>est Gump jest filmem <b><u>dla</b></u> każdego",
+                alt: ""
+            },
+            category: ["sztuka", "film"]
+        }
+            ],
         desc: "for[for] - dla",
         sentence1: [
             "for"
@@ -14742,8 +15410,20 @@ const fiszki = [
             45,
             86
         ],
-        img: "https://www.arbulang.com/img/fiszki1/298a.jpg",
-        story: "<b><u>Je</b></u>stem kapitanem statku przez <b><u>lata</b></u> i obserwuję sobie sta<b><u>rs</b></u>(gwiazdy) w nocy",
+            entries: [
+        {
+            id: 1,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/298a.jpg",
+                alt: "Wygenerowane przez AI."
+            },
+            story: {
+                text: "<b><u>Je</b></u>stem kapitanem statku przez <b><u>lata</b></u> i obserwuję sobie sta<b><u>rs</b></u>(gwiazdy) w nocy",
+                alt: ""
+            },
+            category: ["żegluga", "kapitan"]
+        }
+            ],
         desc: "years[jers] - lata",
         sentence1: [
             "years"
@@ -14852,8 +15532,20 @@ const fiszki = [
             46,
             87
         ],
-        img: "https://www.arbulang.com/img/fiszki1/300a.jpg",
-        story: "Ten <u><b>film</u></b> <u><b>mówi</u></b> o perypetiach losu",
+            entries: [
+        {
+            id: 1,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/300a.jpg",
+                alt: "Wygenerowane przez AI."
+            },
+            story: {
+                text: "Ten <u><b>film</u></b> <u><b>mówi</u></b> o perypetiach losu",
+                alt: ""
+            },
+            category: ["film", "fabuła"]
+        }
+            ],
         desc: "movie[muwi] - film",
         sentence1: [
             "movie"
@@ -14954,8 +15646,20 @@ const fiszki = [
             46,
             87
         ],
-        img: "https://www.arbulang.com/img/fiszki1/239a.jpg",
-        story: "<u><b>Dzast</u></b>in Bieber <u><b>poprostu</u></b> jest najlepszy",
+            entries: [
+        {
+            id: 1,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/302a.jpg",
+                alt: "Wygenerowane przez AI."
+            },
+            story: {
+                text: "<u><b>Dzast</u></b>in Bieber <u><b>poprostu</u></b> jest najlepszy",
+                alt: ""
+            },
+            category: ["muzyka", "gwiazda"]
+        }
+            ],
         desc: "just[dzast] - poprostu",
         sentence1: [
             "just"
@@ -14974,8 +15678,20 @@ const fiszki = [
             46,
             87
         ],
-        img: "https://www.arbulang.com/img/fiszki1/303a.jpg",
-        story: "Samochód dostawczy <u><b>Star</u></b> właśnie wystartował, j<u><b>ed</u></b>zie dozwoloną prędkością",
+            entries: [
+        {
+            id: 1,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/3a.jpg",
+                alt: "Wygenerowane przez AI."
+            },
+            story: {
+                text: "Samochód dostawczy <u><b>Star</u></b> właśnie wystartował, j<u><b>ed</u></b>zie dozwoloną prędkością",
+                alt: ""
+            },
+            category: ["auto", "trasa"]
+        }
+            ],
         desc: "started[started] - wystartowało",
         sentence1: [
             "started"
@@ -15124,8 +15840,20 @@ const fiszki = [
             47,
             88
         ],
-        img: "https://www.arbulang.com/img/fiszki1/125a.jpg",
-        story: "Floryda to stan w USA, który powinien być czytany Flo<b><u>rid</b></u>a",
+            entries: [
+        {
+            id: 1,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/125a.jpg",
+                alt: "Wygenerowane przez AI."
+            },
+            story: {
+                text: "Floryda to stan w USA, który powinien być czytany Flo<b><u>rid</b></u>a",
+                alt: ""
+            },
+            category: ["państwa", "USA"]
+        }
+            ],
         desc: "read[rid] - czytać",
         sentence1: [
             "read"
@@ -15232,8 +15960,20 @@ const fiszki = [
             47,
             88
         ],
-        img: "https://www.arbulang.com/img/fiszki1/44a.jpg",
-        story: "Z drzewa <b><u>buk</b></u>owego jest najlepszy papier na <b><u>książki</b></u>",
+            entries: [
+        {
+            id: 1,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/45aa.jpg",
+                alt: "Książka. Wygenerowane przez AI."
+            },
+            story: {
+                text: "Z drzewa <b><u>buk</b></u>owego jest najlepszy papier na <b><u>książki</b></u>",
+                alt: "Papier na książki. Z czego robiony jest papier na książki?"
+            },
+            category: ["nauka", "produkcja"]
+        }
+            ],
         desc: "book[buk] - książka",
         sentence1: [
             "book"
@@ -15256,8 +15996,20 @@ const fiszki = [
             47,
             88
         ],
-        img: "https://www.arbulang.com/img/fiszki1/309a.jpg",
-        story: "Te obrazy są podobne, ale mają inne <u><b>tła</u></b> i farby za inny ha<u><b>js</u></b>",
+            entries: [
+        {
+            id: 1,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/309a.jpg",
+                alt: "Wygenerowane przez AI."
+            },
+            story: {
+                text: "Te obrazy są podobne, ale mają inne <u><b>tła</u></b> i farby za inny ha<u><b>js</u></b>",
+                alt: ""
+            },
+            category: ["sztuka", "malowanie"]
+        }
+            ],
         desc: "twice[tłajs] - podwójny/podwójna/dwukrotnie",
         sentence1: [
             "twice"
@@ -15280,7 +16032,20 @@ const fiszki = [
             48,
             89
         ],
-        img: "https://www.arbulang.com/img/fiszki1/96a.jpg",
+            entries: [
+        {
+            id: 1,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/130a.jpg",
+                alt: "Wygenerowane przez AI."
+            },
+            story: {
+                text: "<b><u>Wi</b></u>ll Smith oznajmił, że <b><u>my</b></u> jako ludzkość mamy się dobrze",
+                alt: ""
+            },
+            category: ["show-biznes", "aktor"]
+        }
+            ],
         translate: "",
         translateb: "[Łi hew wisitid London meni tajms]",
         translateb2: "[De mówi hes]",
@@ -15290,7 +16055,6 @@ const fiszki = [
         word: [
             "https://www.arbulang.com/voice/bike.mp4"
         ],
-        story: "<b><u>Wi</b></u>ll Smith oznajmił, że <b><u>my</b></u> jako ludzkość mamy się dobrze",
         desc: "we[łi] - my",
         sentence1: [
             "We"
@@ -15312,8 +16076,20 @@ const fiszki = [
             48,
             89
         ],
-        img: "https://www.arbulang.com/img/fiszki1/122a.jpg",
-        story: "<b><u>Mam</b></u> fajne spodnie, ale puścił sz<b><u>ew</b></u>, <b><u>ch</b></u>yba go zaceruje",
+            entries: [
+        {
+            id: 1,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/122a.jpg",
+                alt: "Wygenerowane przez AI."
+            },
+            story: {
+                text: "<b><u>Mam</b></u> fajne spodnie, ale puścił sz<b><u>ew</b></u>, <b><u>ch</b></u>yba go zaceruje",
+                alt: ""
+            },
+            category: ["życie", "ubiór"]
+        }
+            ],
         desc: "have[hew] - mam",
         sentence1: [
             "have"
@@ -15334,8 +16110,20 @@ const fiszki = [
             48,
             89
         ],
-        img: "https://www.arbulang.com/img/fiszki1/282a.jpg",
-        story: "Prodecent odwiedził naukowców z proszkiem <u><b>wizi</u></b>r, aby go przetestowali. Jeden naukowiec ma <u><b>ti</u></b>ki i myli się przy badaniach. <u><b>Id</u></b>zie mu słabo",
+            entries: [
+        {
+            id: 1,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/282a.jpg",
+                alt: "Wygenerowane przez AI."
+            },
+            story: {
+                text: "Prodecent odwiedził naukowców z proszkiem <u><b>wizi</u></b>r, aby go przetestowali. Jeden naukowiec ma <u><b>ti</u></b>ki i myli się przy badaniach. <u><b>Id</u></b>zie mu słabo",
+                alt: ""
+            },
+            category: ["firmy", "testowanie produktu"]
+        }
+            ],
         desc: "visited[wizitid] - odwiedził/odwiedziła",
         sentence1: [
             "visited"
@@ -15356,8 +16144,20 @@ const fiszki = [
             48,
             89
         ],
-        img: "https://www.arbulang.com/img/fiszki1/313a.jpg",
-        story: "W <u><b>Londynie</u></b> mamy lot ba<u><b>lon</u></b>em z Panem <u><b>Don</u></b>em z Hiszpani",
+            entries: [
+        {
+            id: 1,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/313a.jpg",
+                alt: "Wygenerowane przez AI."
+            },
+            story: {
+                text: "W <u><b>Londynie</u></b> mamy lot ba<u><b>lon</u></b>em z Panem <u><b>Don</u></b>em z Hiszpani",
+                alt: ""
+            },
+            category: ["rozrywka", "loty balonowe"]
+        }
+            ],
         desc: "London[London] - Londyn",
         sentence1: [
             "London"
