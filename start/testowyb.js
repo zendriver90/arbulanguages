@@ -2571,13 +2571,13 @@ const fiszki = [
             id: 1,
             img: {
                 src: "https://www.arbulang.com/img/fiszki1/31a.jpg",
-                alt: "Wygenerowane przez AI."
+                alt: "Telefon w ręce. Wygenerowane przez AI."
             },
             story: {
                 text: "Od momentu, gdy <u><b>to</u></b> wynaleziono(smartfona), stało się <u><b>to</u></b> m<u><b>it</u></b>ycznie użyteczne",
-                alt: ""
+                alt: "Przeglądanie mediów społecznościowych. Czy scrollowaniei uzależnia?"
             },
-            category: ["sport", "trening"]
+            category: ["życie", "media społecznościowe"]
         }
             ],
         desc: "it[it] - to",
@@ -2605,26 +2605,74 @@ const fiszki = [
             6,
             11
         ],
-        img: [
-            "https://www.arbulang.com/img/fiszki1/32aa.jpg",
-            "https://www.arbulang.com/img/fiszki1/32bb.jpg",
-            "https://www.arbulang.com/img/fiszki1/32cc.jpg",
-            "https://www.arbulang.com/img/fiszki1/32dd.jpg",
-            "https://www.arbulang.com/img/fiszki1/32ee.jpg"
-        ],
+    entries: [
+        {
+            id: 1,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/32aa.jpg",
+                alt: "Zawodnik na meczu. Wygenerowane przez AI."
+            },
+            story: {
+                text: "<u><b>Aur</u></b>a zawodnika z <u><b>naszego</u></b> zespołu jest niesamowita",
+                alt: "Wizerunek sportowca. Czy sportowiec może mieć niesamwitą aurę?"
+            },
+            category: ["sport", "mindeset"]
+        },
+        {
+            id: 2,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/32bb.jpg",
+                alt: "Ogrodnik w ogrodzie. Wygenerowane przez AI."
+            },
+            story: {
+                text: "M<u><b>aur</u></b>ycy to jest <u><b>nasz</u></b> ogrodnik",
+                alt: "Zawody. Czy ogrodnictwo może być fajnym zawodem?"
+            },
+             category: ["natura", "zawód"]
+        },
+        {
+            id: 3,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/32cc.jpg",
+                alt: "Sieć wysokiego napięcia. Wygenerowane przez AI."
+            },
+            story: {
+                text: "<u><b>Nasz</u></b> dostawca prądu to <u><b>Taur</u></b>on",
+                alt: "Płacenie rachunków. Czy zapłacenie rachunku na czas daje satysfakcję?"
+            },
+           category: ["nauka", "energetyka"]
+        },
+        {
+            id: 4,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/32dd.jpg",
+                alt: "Oko Saurona. Wygenerowane przez AI."
+            },
+            story: {
+                text: "Władcy pierścieni.. najniebezpieczniejsze dla <u><b>naszego</u></b> bezpieczeństwa było oko S<u><b>aur</u></b>ona",
+                alt: "Powieść fantastyczna. Co było najgroźniejsze dla Drużyny Pierścienia?"
+            },
+            category: ["czarny humor", "filmy"]
+        },
+        {
+            id: 5,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/32ee.jpg",
+                alt: "Laurka dla mamy. Wygenerowane przez AI."
+            },
+            story: {
+                text: "<u><b>Nasza</u></b> mama dostała l<u><b>aur</u></b>kę na dzień mamy",
+                alt: "Imprezy okolicznościowe. Jaki prezent jest najlepszy na dzień mamy?"
+            },
+            category: ["związki", "okazje"]
+        }
+    ],
         translate: "Nasza szkoła organizuje całkiem ciekawe wydarzenia",
         translateb: "[Aur skul organajz kłajt interesting iwents]",
         translateb2: "[Aur skul organajz]",
         srcWord: ["https://www.arbulang.com/filmy/school.mp4", "American Pie: The Wedding (2003)"],
         srcWordimage: "https://www.arbulang.com/filmy/school.png",
         word: "https://www.arbulang.com/voice/party.mp4",
-        story: [
-            "<u><b>Aur</u></b>a zawodnika z <u><b>naszego</u></b> zespołu jest niesamowita",
-            "M<u><b>aur</u></b>ycy to jest <u><b>nasz</u></b> ogrodnik",
-            "<u><b>Nasz</u></b> dostawca prądu to <u><b>Taur</u></b>on",
-            "Władcy pierścieni.. najniebezpieczniejsze dla <u><b>naszego</u></b> bezpieczeństwa było oko S<u><b>aur</u></b>ona",
-            "<u><b>Nasza</u></b> mama dostała l<u><b>aur</u></b>kę na dzień mamy"
-        ],
         desc: "our[aur] - nasz",
         sentence1: [
             "Our"
@@ -2635,14 +2683,6 @@ const fiszki = [
             "organizes"
         ],
         key: "Our",
-        category1: [
-            "sport", "mindset",
-            "natura", "zawód",
-            "nauka", "energetyka",
-            "czarny humor", "filmy",
-            "związki", "okazje",
-            "historia", "imperium"
-        ],
         category2: ["zaimkiosobowe"],
         category3: ["PresentSimple", "PresentSimplePodmiot"]
     },
@@ -2652,20 +2692,68 @@ const fiszki = [
             6,
             11
         ],
-        img: [
-            "https://www.arbulang.com/img/fiszki1/33aa.jpg",
-            "https://www.arbulang.com/img/fiszki1/33bb.jpg",
-            "https://www.arbulang.com/img/fiszki1/33cc.jpg",
-            "https://www.arbulang.com/img/fiszki1/33dd.jpg",
-            "https://www.arbulang.com/img/fiszki1/33ee.jpg"
-        ],
-        story: [
-            "Na pa<b><u>sku</b></u> ekranu jest wynik drużyny z naszej <b><u>szkoły</b></u>, mam swojego <b><u>ul</b></u>ubionego zawodnika",
-            "Obok naszej <b><u>szkoły</b></u> jest staw, gdzie łabędź <b><u>sku</b></u>bie sobie piórka, obserwowanie go to nasza <b><u>ul</b></u>ubiona zabawa",
-            "W <b><u>szkole</b></u> <b><u>sku</b></u>wają tynki, kurzy się na <b><u>ul</b></u>icę",
-            "Jasio jest <b><u>skul</b></u>ony w <b><u>szkole</b></u>, bo dostał palicą od nauczyciela",
-            "Na pia<b><u>sku</b></u> stawiam zamek, a obok <b><u>szkoła</b></u>, a dalej <b><u>ul</b></u>e"
-        ],
+    entries: [
+        {
+            id: 1,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/33aa.jpg",
+                alt: "Oglądanie meczu w telewizji. Wygenerowane przez AI."
+            },
+            story: {
+                text: "Na pa<b><u>sku</b></u> ekranu jest wynik drużyny z naszej <b><u>szkoły</b></u>, mam swojego <b><u>ul</b></u>ubionego zawodnika",
+                alt: "Mecz. Czy tablica informacyjna na meczu może być fajnym udogodnieniem?"
+            },
+            category: ["sport", "wyniki"]
+        },
+        {
+            id: 2,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/33bb.jpg",
+                alt: "Łabądź w stawie. Wygenerowane przez AI."
+            },
+            story: {
+                text: "Obok naszej <b><u>szkoły</b></u> jest staw, gdzie łabędź <b><u>sku</b></u>bie sobie piórka, obserwowanie go to nasza <b><u>ul</b></u>ubiona zabawa",
+                alt: "Dzikie zwierzęta. Czy staw może być fajną atrakcją?"
+            },
+             category: ["natura", "staw"]
+        },
+        {
+            id: 3,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/33cc.jpg",
+                alt: "Remont szkoły. Wygenerowane przez AI."
+            },
+            story: {
+                text: "W <b><u>szkole</b></u> <b><u>sku</b></u>wają tynki, kurzy się na <b><u>ul</b></u>icę",
+                alt: "Remonty. Czy remont szkoły powinien trwać możliwie krótko?"
+            },
+           category: ["nauka", "remonty"]
+        },
+        {
+            id: 4,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/33dd.jpg",
+                alt: "Uczeń w szkole. Wygenerowane przez AI."
+            },
+            story: {
+                text: "Jasio jest <b><u>skul</b></u>ony w <b><u>szkole</b></u>, bo dostał palicą od nauczyciela",
+                alt: "Nauczanie w szkole. Jak nauczuczać w szkole?"
+            },
+            category: ["czarny humor", "szkoła"]
+        },
+        {
+            id: 5,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/33ee.jpg",
+                alt: "Zamek na piasku. Wygenerowane przez AI."
+            },
+            story: {
+                text: "Na pia<b><u>sku</b></u> stawiam zamek, a obok <b><u>szkoła</b></u>, a dalej <b><u>ul</b></u>e",
+                alt: "Lokalizacja szkoły. Jakie atrakcje może zapewnić szkoła?"
+            },
+            category: ["związki", "hobby"]
+        }
+    ],
         desc: "school[skul] - szkoła",
         sentence1: [
             "school"
@@ -2676,13 +2764,6 @@ const fiszki = [
             "organizes"
         ],
         key: "school",
-        category1: [
-            "sport", "",
-            "natura", "zawód",
-            "nauka", "budownictwo",
-            "czarny humor", "filmy",
-            "związki", "zabawa"
-        ],
         category2: ["podmiot+czas"],
         category3: ["PresentSimple", "PresentSimplePodmiot"]
     },
@@ -2770,7 +2851,7 @@ const fiszki = [
                 text: "<b><u>Interesujące</b></u> są te boksersie spar<b><u>ing</b></u>i",
                 alt: "Trening boksu. Jak dużo trzeba trenować, aby osiągać mistrzostwo w boksie?"
             },
-            category: ["nauka", "komputer"]
+            category: ["sport", "sparing"]
         }
             ],
         desc: "interesting[interesting] - interesujące",
@@ -2851,7 +2932,7 @@ const fiszki = [
             category: ["związki", "przyjaźń"]
         },
         {
-                            id: 2,
+                            id: 3,
             img: {
                 src: "https://www.arbulang.com/img/fiszki1/50cc.jpg",
                 alt: "Zroszona przez deszcz - roślina. Wygenerowane przez AI."
@@ -3034,11 +3115,11 @@ const fiszki = [
             id: 1,
             img: {
                 src: "https://www.arbulang.com/img/fiszki1/41aa.jpg",
-                alt: "Wygenerowane przez AI."
+                alt: "Granie w ping-ponga. Wygenerowane przez AI."
             },
             story: {
                 text: "<b><u>Dewelop</b></u>er gra w p<b><u>ing</b></u>-ponga z właścicielem i <b><u>rozwija</b></u> narracje, aby coś ugrać",
-                alt: ""
+                alt: "Prowadzenie biznesu. Czy w biznesie relacje mają znaczenie?"
             },
             category: ["biznes", "relacje"]
         }
@@ -3063,8 +3144,20 @@ const fiszki = [
             7,
             14
         ],
-        img: "https://www.arbulang.com/img/fiszki1/42aa.jpg",
-        story: "<b><u>Wery</b></u>fikacja przebiegła poprawnie dla tej osoby i ona jest <b><u>bardzo</b></u> zadowolona",
+            entries: [
+        {
+            id: 1,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/42aa.jpg",
+                alt: "Zadowolony petent. Wygenerowane przez AI."
+            },
+            story: {
+                text: "<b><u>Wery</b></u>fikacja przebiegła poprawnie dla tej osoby i ona jest <b><u>bardzo</b></u> zadowolona",
+                alt: "Kwalifikacja na listę. Jak zakwalifikować się na listę?"
+            },
+            category: ["urzędy", "weryfikacja"]
+        }
+            ],
         desc: "very[wery] - bardzo",
         sentence2: [
             "very"
@@ -3084,8 +3177,20 @@ const fiszki = [
             7,
             14
         ],
-        img: "https://www.arbulang.com/img/fiszki1/43aa.jpg",
-        story: "<b><u>Inten</b></u>cją zo<b><u>si</b></u> jest <b><u>wli</b></u>czenie jej zasług do intensywnej pracy społeczności",
+            entries: [
+        {
+            id: 1,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/43aa.jpg",
+                alt: "Para z dyplomem. Wygenerowane przez AI."
+            },
+            story: {
+                text: "<b><u>Inten</b></u>cją Zo<b><u>si</b></u> jest <b><u>wli</b></u>czenie jej zasług do intensywnej pracy społeczności",
+                alt: "Życie w społeczności. Jak można awansować w społeczności"
+            },
+            category: ["społeczność", "relacje"]
+        }
+            ],
         desc: "intensively[intensiwli] - intensywnie",
         sentence2: [
             "intensively"
@@ -3105,12 +3210,68 @@ const fiszki = [
             8,
             15
         ],
-        img: [
-            "https://www.arbulang.com/img/fiszki1/44aa.jpg",
-            "https://www.arbulang.com/img/fiszki1/80b.jpg",
-            "https://www.arbulang.com/img/fiszki1/83c.jpg",
-            "https://www.arbulang.com/img/fiszki1/108d.jpg"
-        ],
+            entries: [
+                        {
+            id: 1,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/44b.jpg",
+                alt: "Kraina w starożytności. Wygenerowane przez AI."
+            },
+            story: {
+                text: "Ma<b><u>dis</b></u>on jest świetnym sportowcem a to jej trener",
+                alt: "Opowieść Quo vadis. Czy warto czytać Quo Vadis?"
+            },
+            category: ["sport", "trener"]
+        },
+        {
+            id: 2,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/44a.jpg",
+                alt: "Kraina w starożytności. Wygenerowane przez AI."
+            },
+            story: {
+                text: "Quo va<b><u>dis</b></u> <b><u>to</b></u> cytat bardzo znany i kojarzy się ze starożytnym Rzymem",
+                alt: "Opowieść Quo vadis. Czy warto czytać Quo Vadis?"
+            },
+            category: ["natura", "dawna kraina"]
+        },
+        {
+                            id: 3,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/83c.jpg",
+                alt: "Dawny geniusz. Wygenerowane przez AI."
+            },
+            story: {
+                text: "E<b><u>dis</b></u>on to geniusz",
+                alt: "Dawny geniusz. Kto wymyślił żarówkę?"
+            },
+            category: ["nauka", "geniusze"]
+        },
+                {
+                    id: 4,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/80b.jpg",
+                alt: "Układanka słowna. Wygenerowane przez AI."
+            },
+            story: {
+                text: "To słówko distant - czytamy <b><u>dis</b></u>tant",
+                alt: "Układanka słowna. Czy scrabble jest ciekawe?"
+            },
+            category: ["czarny humor", "języki"]
+        },
+                {
+                            id: 5,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/108d.jpg",
+                alt: "Diva operowa. Wygenerowane przez AI."
+            },
+            story: {
+                text: "<b><u>Di</b></u>va operowa jest <b><u>s</b></u>ławna",
+                alt: "Śpiew operowy. Czy w operze można się dobrze bawić?"
+            },
+            category: ["związki", "muzyka klasyczna"]
+        }
+            ],
         srcWord: ["https://www.arbulang.com/filmy/book.mp4", "Inception (2010)"],
         srcWordimage: "https://www.arbulang.com/filmy/book.png",
         word: [
@@ -3119,12 +3280,6 @@ const fiszki = [
         translate: "Ta książka należy do jego dziadka",
         translateb: "[Dis buk belongs tu his grandfader]",
         translateb2: "[Dis buk belongs]",
-        story: [
-            "Quo va<b><u>dis</b></u> <b><u>to</b></u> cytat bardzo znany",
-            "To słówko distant - czytamy <b><u>dis</b></u>tant",
-            "E<b><u>dis</b></u>on to geniusz",
-            "<b><u>Di</b></u>va operowa jest <b><u>s</b></u>ławna"
-        ],
         desc: "this[dis] - ta rzecz/osoba",
         sentence1: [
             "This"
@@ -3135,12 +3290,6 @@ const fiszki = [
             "belongs"
         ],
         key: "This",
-        category1: [
-            "historia", "filozofia",
-            "nauka", "języki",
-            "nauka", "geniusze",
-            "pasje", "muzyka klasyczna"
-        ],
         category2: [""],
         category3: ["PresentSimple", "PresentSimplePodmiot"]
     },
@@ -3150,8 +3299,20 @@ const fiszki = [
             8,
             15
         ],
-        img: "https://www.arbulang.com/img/fiszki1/45aa.jpg",
-        story: "Z drzewa <b><u>buk</b></u>owego jest najlepszy papier na <b><u>książki</b></u>",
+            entries: [
+        {
+            id: 1,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/45aa.jpg",
+                alt: "Książka. Wygenerowane przez AI."
+            },
+            story: {
+                text: "Z drzewa <b><u>buk</b></u>owego jest najlepszy papier na <b><u>książki</b></u>",
+                alt: "Papier na książki. Z czego robiony jest papier na książki?"
+            },
+            category: ["nauka", "produkcja"]
+        }
+            ],
         desc: "book[buk] - książka",
         sentence1: [
             "book"
@@ -3162,7 +3323,6 @@ const fiszki = [
             "belongs"
         ],
         key: "book",
-        category1: "nauka",
         category2: ["podmiot+czas"],
         category3: ["PresentSimple", "PresentSimplePodmiot"]
     },
@@ -3172,7 +3332,20 @@ const fiszki = [
             8,
             15
         ],
-        img: "https://www.arbulang.com/img/fiszki1/46aa.jpg",
+            entries: [
+        {
+            id: 1,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/46aa.jpg",
+                alt: "Historia architektury. Wygenerowane przez AI."
+            },
+            story: {
+                text: "<b><u>Bel</b></u>ki <b><u>przynależą</b></u> do stropu, w Mongoli tak robiono stropy",
+                alt: "Konstrukcja stropu. Jak zrobić strop?"
+            },
+            category: ["budownictwo", "konstrukcje"]
+        }
+            ],
         story: "<b><u>Bel</b></u>ki <b><u>przynależą</b></u> do stropu, w Mongoli tak robiono stropy",
         desc: "belongs[belongs] - przynależy",
         sentence1: [
@@ -3283,10 +3456,32 @@ const fiszki = [
             8,
             16
         ],
-        img: [
-            "https://www.arbulang.com/img/fiszki1/48aa.jpg",
-            "https://www.arbulang.com/img/fiszki1/106b.jpg"
-        ],
+            entries: [
+        {
+            id: 1,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/48aa.jpg",
+                alt: "Historia człowieka w muzeum. Wygenerowane przez AI."
+            },
+            story: {
+                text: "<b><u>Jego</b></u> <b><u>his</b></u>toria jest bardzo atrakcyjna i bujna",
+                alt: "Opowieść o dawnych czasach. Jak opowiadać historię?"
+            },
+            category: ["związki", "autoprezentacja"]
+        },
+                {
+            id: 2,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/106b.jpg",
+                alt: "Wynalazek nowoczesności. Wygenerowane przez AI."
+            },
+            story: {
+                text: "Jego ma<b><u>chi</b></u>na jest bardzo <b><u>s</b></u>prawna",
+                alt: "Projektowanie urządzenia. Jak projektuje się maszyny?"
+            },
+            category: ["praca", "technologia"]
+        }
+            ],
         story: [
             "<b><u>Jego</b></u> <b><u>his</b></u>toria jest bardzo atrakcyjna i bujna",
             "Jego ma<b><u>chi</b></u>na jest bardzo <b><u>s</b></u>prawna"
@@ -3312,8 +3507,20 @@ const fiszki = [
             8,
             16
         ],
-        img: "https://www.arbulang.com/img/fiszki1/49aa.jpg",
-        story: "Kłóciłem się z <b><u>dziadkeim</b></u> i była <b><u>grand</b></u>a.. ta <b><u>fa</b></u>milia mnie już <b><u>de</b></u>ne<b><u>r</b></u>wuje",
+            entries: [
+        {
+            id: 1,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/49aa.jpg",
+                alt: "Córka i dziadek. Wygenerowane przez AI."
+            },
+            story: {
+                text: "Kłóciłem się z <b><u>dziadkeim</b></u> i była <b><u>grand</b></u>a.. ta <b><u>fa</b></u>milia mnie już <b><u>de</b></u>ne<b><u>r</b></u>wuje",
+                alt: "Wpływ członków rodziny na siebie. Jak rodzina wpływa na siebie nawzajem?"
+            },
+            category: ["społeczność", "rodzina"]
+        }
+            ],
         desc: "grandfather[grandfader] - dziadek",
         sentence2: [
             "grandfather"
@@ -3332,22 +3539,50 @@ const fiszki = [
             9,
             17
         ],
-        img: [
-            "https://www.arbulang.com/img/fiszki1/50aa.jpg",
-            "https://www.arbulang.com/img/fiszki1/50bb.jpg",
-            "https://www.arbulang.com/img/fiszki1/50cc.jpg"
-        ],
+            entries: [
+        {
+            id: 1,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/50aa.jpg",
+                alt: "Ogród kwiatowy. Wygenerowane przez AI."
+            },
+            story: {
+                text: "W <b><u>maj</b></u>u kwitną <b><u>moje</b></u> ulubione kwiaty",
+                alt: "Wiosna i jej piękno. Czy wiosna powoduje radosny klimat?"
+            },
+            category: ["natura", "florystyka"]
+        },
+        {
+                    id: 2,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/50bb.jpg",
+                alt: "Auto na parkingu. Wygenerowane przez AI."
+            },
+            story: {
+                text: "Przetrzy<b><u>maj</b></u> mi na pare dni <b><u>moje</b></u> auto na placu",
+                alt: "Zaufanie a przyjaźń. Czy trudno jest zbudować zaufanie?"
+            },
+            category: ["związki", "przyjaźń"]
+        },
+        {
+                            id: 3,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/50cc.jpg",
+                alt: "Zroszona przez deszcz - roślina. Wygenerowane przez AI."
+            },
+            story: {
+                text: "W <b><u>maj</b></u>u na <b><u>moje</b></u> rośliny w ogrodzie pada deszcz",
+                alt: "Pory roku, wiosna i jej uroki. Czy majowy deszcz jest przyjemny?"
+            },
+            category: ["nauka", "pory roku"]
+        }
+            ],
         translate: "Moi sąsiedzi sprzedali ich duży dom",
         translateb: "[Maj nejburs ar seling deir big hałs]",
         translateb2: "[Maj nejburs ar seling]",
         srcWord: ["https://www.arbulang.com/filmy/bighouse.mp4", "Mechanik: Konfrontacja (2013)"],
         srcWordimage: "https://www.arbulang.com/filmy/bighouse.png",
         srcWord2: ["https://www.arbulang.com/filmy/procedure.mp4", "Breaking Bad"],
-        story: [
-            "W <b><u>maj</b></u>u kwitną <b><u>moje</b></u> ulubione kwiaty",
-            "Przetrzy<b><u>maj</b></u> mi na pare dni <b><u>moje</b></u> auto na placu",
-            "W <b><u>maj</b></u>u na <b><u>moje</b></u> rośliny w ogrodzie pada deszcz"
-        ],
         desc: "My[maj] - moje",
         sentence1: [
             "My"
@@ -3359,10 +3594,6 @@ const fiszki = [
             "selling"
         ],
         key: "my",
-        category1: ["natura", "florystyka",
-            "związki", "przyjaźń",
-            "nauka", "pory roku"
-        ],
         category2: ["zaimkiosobowe"],
         category3: ["PresentContinous", "PresentContinousPodmiot"]
     },
@@ -3372,8 +3603,20 @@ const fiszki = [
             9,
             17
         ],
-        img: "https://www.arbulang.com/img/fiszki1/51aa.jpg",
-        story: "Dla zdol<b><u>nej</b></u> uczennicy <b><u>sąsiedzi</b></u> ułożyli wierszyk, <b><u>bo</b></u> <b><u>s</b></u>ą jej urodziny",
+            entries: [
+        {
+            id: 1,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/51aa.jpg",
+                alt: "Wierszyk na urodziny. Wygenerowane przez AI."
+            },
+            story: {
+                text: "Dla zdol<b><u>nej</b></u> uczennicy <b><u>sąsiedzi</b></u> ułożyli wierszyk, <b><u>bo</b></u> <b><u>s</b></u>ą jej urodziny",
+                alt: "Imprezy okolicznościowe. Co jest najlepsze na urodziny?"
+            },
+            category: ["społeczność", "relacje"]
+        }
+            ],
         desc: "neighbours[nejbours] - sąsiedzi",
         sentence1: [
             "neighbours"
@@ -3394,14 +3637,32 @@ const fiszki = [
             9,
             17
         ],
-        img: [
-            "https://www.arbulang.com/img/fiszki1/52aa.jpg",
-            "https://www.arbulang.com/img/fiszki1/220a.jpg"
-        ],
-        story: [
-            "<b><u>Twoje</b></u> <b><u>ar</b></u>gumenty są bardzo przemawiające",
-            "Papuga <u><b>ar</u></b>a i skowronek <u><b>są</u></b> zaprzyjaźnieni. Mam nadzieję, że ty <u><b>jesteś</u></b> z tego powodu w dobrym nastroju",
-        ],
+            entries: [
+        {
+            id: 1,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/52aa.jpg",
+                alt: "Burzliwa rozmowa. Wygenerowane przez AI."
+            },
+            story: {
+                text: "<b><u>Twoje</b></u> <b><u>ar</b></u>gumenty są bardzo przemawiające",
+                alt: "Dyspóty. Jak argumentować swoje zdanie?"
+            },
+            category: ["przemawianie", "argumenty"]
+        },
+        {
+                    id: 2,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/220a.jpg",
+                alt: "Papuga w klatce. Wygenerowane przez AI."
+            },
+            story: {
+                text: "Papuga <u><b>ar</u></b>a i skowronek <u><b>są</u></b> zaprzyjaźnieni. Mam nadzieję, że ty <u><b>jesteś</u></b> z tego powodu w dobrym nastroju",
+                alt: "Życie zwierząt. Czy poszczególne gatunki zwierząt ze sobą rozmawiają?"
+            },
+            category: ["zwierzęta", "przyjaźń"]
+        }
+            ],
         desc: "are[ar] - jest/są - gramatyka",
         sentence1: [
             "are"
@@ -3413,7 +3674,6 @@ const fiszki = [
             "selling"
         ],
         key: "are",
-        category1: "związki",
         category2: ["podmiot+czas", "czasownik"]
     },
     {
@@ -3422,8 +3682,20 @@ const fiszki = [
             9,
             17
         ],
-        img: "https://www.arbulang.com/img/fiszki1/53aa.jpg",
-        story: "Ten <b><u>sel</b></u>er łatwo jest <b><u>sprzedać</b></u> na targu, a kupujący robią <b><u>g</b></u>roźne m<b><u>in</b></u>y",
+            entries: [
+        {
+            id: 1,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/53aa.jpg",
+                alt: "Seler na straganie. Wygenerowane przez AI."
+            },
+            story: {
+                text: "Ten <b><u>sel</b></u>er łatwo jest <b><u>sprzedać</b></u> na targu, a kupujący robią <b><u>g</b></u>roźne m<b><u>in</b></u>y",
+                alt: "Sprzedawca straganowy. Czy handel na stoisku jest trudny?"
+            },
+            category: ["praca", "sprzedaż"]
+        }
+            ],
         desc: "selling[seling] - sprzedają",
         sentence1: [
             "selling"
@@ -3435,7 +3707,6 @@ const fiszki = [
             "selling"
         ],
         key: "selling",
-        category1: "związki",
         category2: ["podmiot+czas", "czasownik"]
     },
     {
@@ -3444,10 +3715,22 @@ const fiszki = [
             9,
             18
         ],
-        img: "https://www.arbulang.com/img/fiszki1/54aa.jpg",
+            entries: [
+        {
+            id: 1,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/54aa.jpg",
+                alt: "Heblarka automatyczna. Wygenerowane przez AI."
+            },
+            story: {
+                text: "<b><u>W</b></u> ten <b><u>de</b></u>seń jest <b><u>i</b></u>ch <b><u>r</b></u>obota",
+                alt: "Postęp prac. Czy praca wykonana szybko jest tak samo efektywna jak wolno?"
+            },
+            category: ["praca", "wysiłek"]
+        }
+            ],
         translateb2: "[deir big hałs]",
         srcWord2: ["https://www.arbulang.com/filmy/procedure.mp4", "Breaking Bad"],
-        story: "<b><u>W</b></u> ten <b><u>de</b></u>seń jest <b><u>i</b></u>ch <b><u>r</b></u>obota",
         desc: "their[deir] - ich",
         sentence2: [
             "their"
@@ -3458,7 +3741,6 @@ const fiszki = [
             "house"
         ],
         key: "their",
-        category1: "związki",
         category2: ["zaimkiosobowe"]
     },
     {
@@ -3467,14 +3749,32 @@ const fiszki = [
             9,
             18
         ],
-        img: [
-            "https://www.arbulang.com/img/fiszki1/55aa.jpg",
-            "https://www.arbulang.com/img/fiszki1/170a.jpg"
-        ],
-        story: [
-            "<b><u>B</b></u>ardzo <b><u>duży</b></u> samolot M<b><u>ig</b></u> właśnie przeleciał na niebie",
-            "<b><u>Big</b></u>amista ma <b><u>duży</b></u> popęd seksualny"
-        ],
+            entries: [
+        {
+            id: 1,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/55aa.jpg",
+                alt: "Samolot Mig. Wygenerowane przez AI."
+            },
+            story: {
+                text: "<b><u>B</b></u>ardzo <b><u>duży</b></u> samolot M<b><u>ig</b></u> właśnie przeleciał na niebie",
+                alt: ""
+            },
+            category: ["życie", "samolot"]
+        },
+                {
+            id: 2,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/170a.jpg",
+                alt: "Ładna dziewczyna. Wygenerowane przez AI."
+            },
+            story: {
+                text: "<b><u>Big</b></u>amista ma <b><u>duży</b></u> popęd seksualny",
+                alt: ""
+            },
+            category: ["życie", "seksualność"]
+        }
+            ],
         desc: "big[big] - duży, duża",
         sentence2: [
             "big"
@@ -3485,7 +3785,6 @@ const fiszki = [
             "house"
         ],
         key: "big",
-        category1: "nauka",
         category2: ["przymiotnik"]
     },
     {
@@ -3494,8 +3793,20 @@ const fiszki = [
             9,
             18
         ],
-        img: "https://www.arbulang.com/img/fiszki1/56aa.jpg",
-        story: "W <b><u>domu</b></u> mamy psa, który robi <b><u>hał</b></u>.. hał.. na sąsiadów i wabi się <b><u>S</b></u>ara",
+            entries: [
+        {
+            id: 1,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/56aa.jpg",
+                alt: "Pies w gospodarstwie. Wygenerowane przez AI."
+            },
+            story: {
+                text: "W <b><u>domu</b></u> mamy psa, który robi <b><u>hał</b></u>.. hał.. na sąsiadów i wabi się <b><u>S</b></u>ara",
+                alt: ""
+            },
+            category: ["ycie", "zwierzęta domowe"]
+        }
+            ],
         desc: "house[hałs] - dom",
         sentence2: [
             "house"
@@ -3515,11 +3826,44 @@ const fiszki = [
             10,
             19
         ],
-        img: [
-            "https://www.arbulang.com/img/fiszki1/49a.jpg",
-            "https://www.arbulang.com/img/fiszki1/49b.jpg",
-            "https://www.arbulang.com/img/fiszki1/49c.jpg"
-        ],
+            entries: [
+        {
+            id: 1,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/50aa.jpg",
+                alt: "Ogród kwiatowy. Wygenerowane przez AI."
+            },
+            story: {
+                text: "W <b><u>maj</b></u>u kwitną <b><u>moje</b></u> ulubione kwiaty",
+                alt: "Wiosna i jej piękno. Czy wiosna powoduje radosny klimat?"
+            },
+            category: ["natura", "florystyka"]
+        },
+        {
+                    id: 2,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/50bb.jpg",
+                alt: "Auto na parkingu. Wygenerowane przez AI."
+            },
+            story: {
+                text: "Przetrzy<b><u>maj</b></u> mi na pare dni <b><u>moje</b></u> auto na placu",
+                alt: "Zaufanie a przyjaźń. Czy trudno jest zbudować zaufanie?"
+            },
+            category: ["związki", "przyjaźń"]
+        },
+        {
+                            id: 3,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/50cc.jpg",
+                alt: "Zroszona przez deszcz - roślina. Wygenerowane przez AI."
+            },
+            story: {
+                text: "W <b><u>maj</b></u>u na <b><u>moje</b></u> rośliny w ogrodzie pada deszcz",
+                alt: "Pory roku, wiosna i jej uroki. Czy majowy deszcz jest przyjemny?"
+            },
+            category: ["nauka", "pory roku"]
+        }
+            ],
         translate: "Mój pies jest dobrym przyjacielem",
         translateb: "[Maj dog is a gud frend]",
         translateb2: "[Maj dog is]",
@@ -3527,11 +3871,6 @@ const fiszki = [
         srcWordimage: "https://www.arbulang.com/filmy/dog.png",
         word: [
             "https://www.arbulang.com/voice/music.mp4"
-        ],
-        story: [
-            "W <b><u>maj</b></u>u kwitną <b><u>moje</b></u> ulubione kwiaty",
-            "Przetrzy<b><u>maj</b></u> mi na pare dni <b><u>moje</b></u> auto",
-            "W <b><u>maj</b></u>u na <b><u>moje</b></u> rośliny w ogrodzie pada deszcz"
         ],
         desc: "my[maj] - moje",
         sentence1: [
@@ -3543,10 +3882,6 @@ const fiszki = [
             "is"
         ],
         key: "my",
-        category1: ["natura", "florystyka",
-            "związki", "przyjaźń",
-            "nauka", "pory roku"
-        ],
         category2: ["zaimkiosobowe"],
         category3: ["PresentSimple", "PresentSimplePodmiot"]
     },
@@ -3556,8 +3891,20 @@ const fiszki = [
             10,
             19
         ],
-        img: "https://www.arbulang.com/img/fiszki1/58aa.jpg",
-        story: "Mój <b><u>pies</b></u> mnie słucha, <b><u>dog</b></u>aduje się z nim",
+            entries: [
+        {
+            id: 1,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/58aa.jpg",
+                alt: "Mały piesek. Wygenerowane przez AI."
+            },
+            story: {
+                text: "Mój <b><u>pies</b></u> mnie słucha, <b><u>dog</b></u>aduje się z nim",
+                alt: ""
+            },
+            category: ["życie", "pupil"]
+        }
+            ],
         desc: "dog[dog] - pies",
         sentence1: [
             "dog"
@@ -3568,7 +3915,6 @@ const fiszki = [
             "is"
         ],
         key: "dog",
-        category1: "natura",
         category2: ["zwierzeta"],
         category3: ["PresentSimple", "PresentSimplePodmiot"]
     },
@@ -3674,15 +4020,6 @@ const fiszki = [
             "is"
         ],
         key: "is",
-        category1: [
-            "sport", "bieganie",
-            "natura", "zawód",
-            "nauka", "definicje",
-            "czarny humor", "zoologia",
-            "związki", "kreskówki",
-            "lifestyle", "sukces",
-            "geografia", "miasta"
-        ],
         category2: ["podmiot+czas", "czasownik"],
         category3: ["PresentSimple", "PresentSimpleCzasownik"]
     },
@@ -3692,9 +4029,21 @@ const fiszki = [
             10,
             20
         ],
-        img: "https://www.arbulang.com/img/fiszki1/60aa.jpg",
+            entries: [
+        {
+            id: 1,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/60aa.jpg",
+                alt: "Moja wypłata. Wygenerowane przez AI."
+            },
+            story: {
+                text: "Zobaczyłem wypłatę.. <b><u>eeeee</b></u> to jest dopiero wypłata",
+                alt: ""
+            },
+            category: ["praca", "płaca"]
+        }
+            ],
         translateb2: "[Maj dog is a gud frend]",
-        story: "Zobaczyłem wypłatę.. <b><u>eeeee</b></u> to jest dopiero wypłata",
         desc: "a[e] - coś",
         sentence2: [
             "a"
@@ -3714,8 +4063,20 @@ const fiszki = [
             10,
             20
         ],
-        img: "https://www.arbulang.com/img/fiszki1/61aa.jpg",
-        story: "Jest <b><u>dobrze</b></u> kiedy jest więcej wy<b><u>gód</b></u>",
+            entries: [
+        {
+            id: 1,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/61aa.jpg",
+                alt: "Wygodne siedzenie na kanapie. Wygenerowane przez AI."
+            },
+            story: {
+                text: "Jest <b><u>dobrze</b></u> kiedy jest więcej wy<b><u>gód</b></u>",
+                alt: ""
+            },
+            category: ["życie", "wygody"]
+        }
+            ],
         desc: "good[gud] - dobre",
         sentence2: [
             "good"
@@ -3726,7 +4087,6 @@ const fiszki = [
             "friend"
         ],
         key: "good",
-        category1: "związki",
         category2: ["przymiotnik"]
     },
     {
@@ -3735,8 +4095,20 @@ const fiszki = [
             10,
             20
         ],
-        img: "https://www.arbulang.com/img/fiszki1/62aa.jpg",
-        story: "<b><u>End</b></u>riu ma <b><u>fr</b></u>ak na zimę, każda pora roku to jego przyjaciel",
+            entries: [
+        {
+            id: 1,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/62aa.jpg",
+                alt: "Mężczyzna we fraku. Wygenerowane przez AI."
+            },
+            story: {
+                text: "<b><u>End</b></u>riu ma <b><u>fr</b></u>ak na zimę, każda pora roku to jego przyjaciel",
+                alt: ""
+            },
+            category: ["życie", "pory roku"]
+        }
+            ],
         desc: "friend[frend] - przyjaciel",
         sentence2: [
             "friend"
@@ -3747,7 +4119,6 @@ const fiszki = [
             "friend"
         ],
         key: "friend",
-        category1: "natura",
         category2: ["osoby"]
     },
     {
@@ -3836,13 +4207,6 @@ const fiszki = [
             "tries"
         ],
         key: "the",
-        category1: [
-            "sport", "koszykówka",
-            "natura", "czas wolny",
-            "nauka", "rząd",
-            "czarny humor", "polityka",
-            "związki", "rodzina"
-        ],
         category2: [""],
         category3: ["PresentSimple", "PresentSimplePodmiot"]
     },
@@ -3852,8 +4216,20 @@ const fiszki = [
             11,
             21
         ],
-        img: "https://www.arbulang.com/img/fiszki1/64aa.jpg",
-        story: "W tym pa<b><u>ti</b></u>o siedzi nauczyciel w <b><u>czer</b></u>wonej koszuli",
+            entries: [
+        {
+            id: 1,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/64aa.jpg",
+                alt: "Nauczyciel w czerwonej koszuli. Wygenerowane przez AI."
+            },
+            story: {
+                text: "W tym pa<b><u>ti</b></u>o siedzi nauczyciel w <b><u>czer</b></u>wonej koszuli",
+                alt: ""
+            },
+            category: ["nauka", "szkoła"]
+        }
+            ],
         desc: "teacher[ticzer] - nauczyciel",
         sentence1: [
             "teacher"
@@ -3864,9 +4240,6 @@ const fiszki = [
             "tries"
         ],
         key: "teacher",
-        category1: [
-            "nauka", "szkoła"
-        ],
         category2: ["podmiot+czas", "osoby", "osoby+czas"],
         category3: ["PresentSimple", "PresentSimplePodmiot"]
     },
@@ -3876,8 +4249,20 @@ const fiszki = [
             11,
             21
         ],
-        img: "https://www.arbulang.com/img/fiszki1/65aa.jpg",
-        story: "Nasa <b><u>próbuje</b></u> zmienić <b><u>traj</b></u>ektorie lotu <b><u>s</b></u>atelity",
+            entries: [
+        {
+            id: 1,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/65aa.jpg",
+                alt: "Satelita. Wygenerowane przez AI."
+            },
+            story: {
+                text: "Nasa <b><u>próbuje</b></u> zmienić <b><u>traj</b></u>ektorie lotu <b><u>s</b></u>atelity",
+                alt: ""
+            },
+            category: ["nauka", "astronomia"]
+        }
+            ],
         desc: "tries[trajs] - próbuje",
         sentence1: [
             "tries"
@@ -3888,7 +4273,6 @@ const fiszki = [
             "tries"
         ],
         key: "tries",
-        category1: "nauka",
         category2: ["czasownik"],
         category3: ["PresentSimple", "PresentSimpleCzasownik"]
     },
@@ -3971,13 +4355,6 @@ const fiszki = [
             "us"
         ],
         key: "to",
-        category1: [
-            "sport", "czas wolny",
-            "natura", "zoologia",
-            "nauka", "historia",
-            "czarny humor", "sport",
-            "związki", "czas wolny"
-        ],
         category2: ["określeniaMiejsca"]
     },
     {
@@ -3986,8 +4363,20 @@ const fiszki = [
             11,
             22
         ],
-        img: "https://www.arbulang.com/img/fiszki1/67aa.jpg",
-        story: "Gaz - <b><u>hel</b></u>, <b><u>p</b></u>omaga zmieniać ton głosu",
+            entries: [
+        {
+            id: 1,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/67aa.jpg",
+                alt: "Mówienie pod wpływem gazu - helu. Wygenerowane przez AI."
+            },
+            story: {
+                text: "Gaz - <b><u>hel</b></u>, <b><u>p</b></u>omaga zmieniać ton głosu",
+                alt: ""
+            },
+            category: ["nauka", "eksperymenty"]
+        }
+            ],
         desc: "help[help] - pomagać",
         sentence2: [
             "help"
@@ -3998,7 +4387,6 @@ const fiszki = [
             "us"
         ],
         key: "help",
-        category1: "czarny humor",
         category2: ["czasownik"]
     },
     {
@@ -4007,8 +4395,20 @@ const fiszki = [
             11,
             22
         ],
-        img: "https://www.arbulang.com/img/fiszki1/68aa.jpg",
-        story: "<b><u>As</b></u>teroida pod mikroskopem wydaje się <b><u>nam</b></u> niezwykła",
+            entries: [
+        {
+            id: 1,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/68aa.jpg",
+                alt: "Układ planetarny. Wygenerowane przez AI."
+            },
+            story: {
+                text: "<b><u>As</b></u>teroida pod mikroskopem wydaje się <b><u>nam</b></u> niezwykła",
+                alt: ""
+            },
+            category: ["nauka", "astronomia"]
+        }
+            ],
         desc: "us[as] - my, nam",
         sentence2: [
             "us"
@@ -4019,7 +4419,6 @@ const fiszki = [
             "us"
         ],
         key: "us",
-        category1: "nauka",
         category2: ["zaimkiosobowe"]
     },
     {
@@ -4117,8 +4516,20 @@ const fiszki = [
             12,
             23
         ],
-        img: "https://www.arbulang.com/img/fiszki1/70aa.jpg",
-        story: "<b><u>Pare</b></u> lat temu moi <b><u>rodzice</b></u> byli sentym<b><u>ent</b></u>alni i chyba <b><u>s</b></u>ą nadal",
+            entries: [
+        {
+            id: 1,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/70aa.jpg",
+                alt: "Wygenerowane przez AI."
+            },
+            story: {
+                text: "<b><u>Pare</b></u> lat temu moi <b><u>rodzice</b></u> byli sentym<b><u>ent</b></u>alni i chyba <b><u>s</b></u>ą nadal",
+                alt: ""
+            },
+            category: ["życie", "emocje"]
+        }
+            ],
         desc: "parents[parents] - rodzice",
         sentence1: [
             "parents"
@@ -4129,7 +4540,6 @@ const fiszki = [
             "seem"
         ],
         key: "parents",
-        category1: "związki",
         category2: ["osoby", "podmiot+czas", "osoby+czas"],
         category3: ["PresentSimple", "PresentSimplePodmiot"]
     },
@@ -4139,7 +4549,20 @@ const fiszki = [
             12,
             23
         ],
-        img: "https://www.arbulang.com/img/fiszki1/70a.jpg",
+            entries: [
+        {
+            id: 1,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/71aa.jpg",
+                alt: "Sentymentalne zdjęcie rodziny. Wygenerowane przez AI."
+            },
+            story: {
+                text: "<b><u>Pare</b></u> lat temu moi <b><u>rodzice</b></u> byli sentym<b><u>ent</b></u>alni i chyba <b><u>s</b></u>ą nadal",
+                alt: ""
+            },
+            category: ["życie", "emocje"]
+        }
+            ],
         story: "Ta karta <b><u>sim</b></u> nie działa, <b><u>wydaje mi się</b></u>, że uszkodziłem ją wcześniej",
         desc: "seem[sim] - wydaje się",
         sentence1: [
@@ -4151,7 +4574,6 @@ const fiszki = [
             "seem"
         ],
         key: "seem",
-        category1: "nauka",
         category2: ["podmiot+czas", "osoby+czas", "czasownik"],
         category3: ["PresentSimple", "PresentSimpleCzasownik"]
     },
@@ -4161,32 +4583,69 @@ const fiszki = [
             12,
             24
         ],
-        img: [
-            "https://www.arbulang.com/img/fiszki1/10a.jpg",
-            "https://www.arbulang.com/img/fiszki1/10b.jpg",
-            "https://www.arbulang.com/img/fiszki1/10c.jpg",
-            "https://www.arbulang.com/img/fiszki1/10d.jpg",
-            "https://www.arbulang.com/img/fiszki1/10e.jpg",
-            "https://www.arbulang.com/img/fiszki1/13a.jpg",
-            "https://www.arbulang.com/img/fiszki1/13b.jpg",
-            "https://www.arbulang.com/img/fiszki1/13c.jpg",
-            "https://www.arbulang.com/img/fiszki1/13d.jpg",
-            "https://www.arbulang.com/img/fiszki1/13e.jpg"
-        ],
+    entries: [
+        {
+            id: 1,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/10a.jpg",
+                alt: "Spacer po mieście. Wygenerowane przez AI."
+            },
+            story: {
+                text: '<u><b>Dla</u></b> spor<span class="adannotation" data-annotation="1"><u><b>tu</b></u></span> przeszedłem się pieszo <u><b>ku</u></b> parku',
+                alt: "Droga do pracy. Ile trzeba mieć do pracy, żeby móc pójść na nogach?"
+            },
+            category: ["sport", "czas wolny"]
+        },
+        {
+            id: 2,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/10b.jpg",
+                alt: "Wąż. Wygenerowane przez AI."
+            },
+            story: {
+                text: 'Ra<span class="adannotation" data-annotation="1"><u><b>tu</u></b></span>nku, ta droga poprowadziła nas <u><b>ku</u></b> wężom',
+               alt: "Rzeczywistość dżungli. Czy węże są niebezpieczne?"
+            },
+             category: ["natura", "zoologia"]
+        },
+        {
+            id: 3,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/10c.jpg",
+                alt: "Totem Faraona. Wygenerowane przez AI."
+            },
+            story: {
+                text: '<span class="adannotation" data-annotation="1"><b><u>Tu</b></u></span> w Egipcie Totem Faraona to pamiątka <u><b>ku</u></b> jego czci',
+                alt: "Historia i turystyka. Czy pamiątka Totemu Faraona jest ciekawą zdobyczą?"
+            },
+           category: ["nauka", "historia"]
+        },
+        {
+            id: 4,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/10d.jpg",
+                alt: "Trzymanie kciuków za wyniki sportowe. Wygenerowane przez AI."
+            },
+            story: {
+                text: '<span class="adannotation" data-annotation="1"><b><u>Tu</b></u></span> <u><b>dla</u></b> Ciebie jest bardzo dobra aktywność, <u><b>to</u></b>talnie nie brakuje mi nic w drodze <u><b>ku</u></b>t mistrza',
+                alt: "Sport i dyscyplina. Czy uczeń może prześcignąć mistrza?"
+            },
+            category: ["czarny humor", "sport"]
+        },
+        {
+            id: 5,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/10e.jpg",
+                alt: "Prezent okolicznościowy. Wygenerowane przez AI."
+            },
+            story: {
+                text: 'Aaaa.. <span class="adannotation" data-annotation="1"><b><u>tu</b></u></span> to jest, <b><u>ku</b></u> szczęściu znalazłem to..',
+               alt: "Umiejętności praktyczne. Czy trudno jest znaleźć coś gdy się spieszymy?"
+            },
+            category: ["związki", "czas wolny"]
+        }
+    ],
         translateb2: "[tu bi frendli]",
-        story: [
-            '<u><b>Dla</u></b> spor<span class="adannotation" data-annotation="1"><u><b>tu</b></u></span> przeszedłem się pieszo <u><b>ku</u></b> parku',
-            'Ra<span class="adannotation" data-annotation="1"><u><b>tu</u></b></span>nku, ta droga poprowadziła nas <u><b>ku</u></b> wężom',
-            '<span class="adannotation" data-annotation="1"><b><u>Tu</b></u></span> w Egipcie Totem Faraona to pamiątka <u><b>ku</u></b> jego czci',
-            '<span class="adannotation" data-annotation="1"><b><u>Tu</b></u></span> <u><b>dla</u></b> Ciebie jest bardzo dobra aktywność, <u><b>to</u></b>talnie nie brakuje mi nic w drodze <u><b>ku</u></b>t mistrza',
-            'Aaaa.. <span class="adannotation" data-annotation="1"><b><u>tu</b></u></span> to jest, <b><u>ku</b></u> szczęściu znalazłem to..',
-            "<u><b>Bi</u></b>egam dobrze i podczas biegania odczuwam całkowicie inny stan <u><b>bycia</u></b>",
-            "Jestestwo lisa <u><b>Bi</u></b>ll i łabędzia <u><b>Bi</u></b>anka polega na jedzeniu bigosu. Lisek mówi do Bianki: ja lubie <u><b>być</u></b> smakoszem bigosu",
-            "<u><b>Bi</u></b>ologia jest taką dziedziną, w której warto jako badacz <u><b>być</u></b> zaangażowanym",
-            "<u><b>Bi</u></b>egnę w zawodach i chcę <u><b>być</u></b> najlepszy, ale natrafiłem na słupa i wybiłem jedynkę",
-            "<u><b>Być</u></b> <u><b>bi</u></b>ednym to nie to samo co być początkującym milionerem",
-            "<u><b>Bi</u></b>lion dollarów musi <u><b>być</u></b> dużą kwotą"
-        ],
         desc: "to[tu] - do, ku",
         sentence2: [
             "to be"
@@ -4217,8 +4676,20 @@ const fiszki = [
             12,
             24
         ],
-        img: "https://www.arbulang.com/img/fiszki1/73a.jpg",
-        story: "Mali <b><u>Fr</b></u>anek i <b><u>End</b></u>riu są <b><u>dl</b></u>a siebie <b><u>przyjacielscy</b></u>",
+            entries: [
+        {
+            id: 1,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/73a.jpg",
+                alt: "Bohaterzy bajki. Wygenerowane przez AI."
+            },
+            story: {
+                text: "Mali <b><u>Fr</b></u>anek i <b><u>End</b></u>riu są <b><u>dl</b></u>a siebie <b><u>przyjacielscy</b></u>",
+                alt: ""
+            },
+            category: ["telewizja", "bajki"]
+        }
+            ],
         desc: "friendly[frendli] - przyjacielski",
         sentence2: [
             "friendly"
@@ -4324,14 +4795,32 @@ const fiszki = [
             13,
             25
         ],
-        img: [
-            "https://www.arbulang.com/img/fiszki1/75a.jpg",
-            "https://www.arbulang.com/img/fiszki1/75b.jpg"
-        ],
-        story: [
-            "Móje <b><u>psy</b></u> mnie <b><u>s</b></u>łuchają, <b><u>dog</b></u>aduje się z nimi",
-            "<b><u>Psom</b></u> łatwo <b><u>dog</b></u>odzić <b><u>s</b></u>maczną karmą"
-        ],
+            entries: [
+        {
+            id: 1,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/75a.jpg",
+                alt: "Wygenerowane przez AI."
+            },
+            story: {
+                text: "Móje <b><u>psy</b></u> mnie <b><u>s</b></u>łuchają, <b><u>dog</b></u>aduje się z nimi",
+                alt: ""
+            },
+            category: ["pupile", "komunikacja"]
+        },
+                {
+            id: 1,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/75b.jpg",
+                alt: "Wygenerowane przez AI."
+            },
+            story: {
+                text: "<b><u>Psom</b></u> łatwo <b><u>dog</b></u>odzić <b><u>s</b></u>maczną karmą",
+                alt: ""
+            },
+            category: ["zwierzęta domowe", "karmienie"]
+        }
+            ],
         desc: "dogs[dogs] - psy",
         sentence1: [
             "dogs"
@@ -4355,8 +4844,20 @@ const fiszki = [
             13,
             25
         ],
-        img: "https://www.arbulang.com/img/fiszki1/76a.jpg",
-        story: "W <b><u>Ken</b></u>ii każdy <b><u>może</b></u> ubierać się na ciepłą pogodę",
+            entries: [
+        {
+            id: 1,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/76a.jpg",
+                alt: "Wygenerowane przez AI."
+            },
+            story: {
+                text: "W <b><u>Ken</b></u>ii każdy <b><u>może</b></u> ubierać się na ciepłą pogodę",
+                alt: ""
+            },
+            category: ["kraje", "klimat"]
+        }
+            ],
         desc: "can[ken] - może",
         sentence1: [
             "can"
@@ -4377,9 +4878,21 @@ const fiszki = [
             13,
             26
         ],
-        img: "https://www.arbulang.com/img/fiszki1/77a.jpg",
+            entries: [
+        {
+            id: 1,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/77a.jpg",
+                alt: "Wygenerowane przez AI."
+            },
+            story: {
+                text: "<b><u>Ran</b></u>o zawsze <b><u>biegam</b></u>",
+                alt: ""
+            },
+            category: ["kraje", "klimat"]
+        }
+            ],
         translateb2: "[ran rili fast]",
-        story: "<b><u>Ran</b></u>o zawsze <b><u>biegam</b></u>",
         desc: "run[ran] - biegać",
         sentence2: [
             "run"
@@ -4399,8 +4912,20 @@ const fiszki = [
             13,
             26
         ],
-        img: "https://www.arbulang.com/img/fiszki1/78a.jpg",
-        story: "Na spotkaniu g<b><u>ril</b></u>owym naprawdę można się najeść saszł<b><u>y</b></u>ków",
+            entries: [
+        {
+            id: 1,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/78a.jpg",
+                alt: "Wygenerowane przez AI."
+            },
+            story: {
+                text: "Na spotkaniu g<b><u>ril</b></u>owym naprawdę można się najeść saszł<b><u>y</b></u>ków",
+                alt: ""
+            },
+            category: ["kraje", "klimat"]
+        }
+            ],
         desc: "really[rily] - naprawdę",
         sentence2: [
             "really"
@@ -4420,8 +4945,20 @@ const fiszki = [
             13,
             26
         ],
-        img: "https://www.arbulang.com/img/fiszki1/79a.jpg",
-        story: "Ten chw<b><u>ast</b></u> szybko rośnie, bo to <b><u>f</b></u>uriat wśród chwastów",
+            entries: [
+        {
+            id: 1,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/79a.jpg",
+                alt: "Wygenerowane przez AI."
+            },
+            story: {
+                text: "Ten chw<b><u>ast</b></u> szybko rośnie, bo to <b><u>f</b></u>uriat wśród chwastów",
+                alt: ""
+            },
+            category: ["kraje", "klimat"]
+        }
+            ],
         desc: "fast[fast] - szybko",
         sentence2: [
             "fast"
@@ -4441,12 +4978,68 @@ const fiszki = [
             14,
             27
         ],
-        img: [
-            "https://www.arbulang.com/img/fiszki1/43a.jpg",
-            "https://www.arbulang.com/img/fiszki1/80b.jpg",
-            "https://www.arbulang.com/img/fiszki1/83c.jpg",
-            "https://www.arbulang.com/img/fiszki1/108d.jpg"
-        ],
+            entries: [
+                        {
+            id: 1,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/44b.jpg",
+                alt: "Kraina w starożytności. Wygenerowane przez AI."
+            },
+            story: {
+                text: "Ma<b><u>dis</b></u>on jest świetnym sportowcem a to jej trener",
+                alt: "Opowieść Quo vadis. Czy warto czytać Quo Vadis?"
+            },
+            category: ["sport", "trener"]
+        },
+        {
+            id: 2,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/44a.jpg",
+                alt: "Kraina w starożytności. Wygenerowane przez AI."
+            },
+            story: {
+                text: "Quo va<b><u>dis</b></u> <b><u>to</b></u> cytat bardzo znany i kojarzy się ze starożytnym Rzymem",
+                alt: "Opowieść Quo vadis. Czy warto czytać Quo Vadis?"
+            },
+            category: ["natura", "dawna kraina"]
+        },
+        {
+                            id: 3,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/83c.jpg",
+                alt: "Dawny geniusz. Wygenerowane przez AI."
+            },
+            story: {
+                text: "E<b><u>dis</b></u>on to geniusz",
+                alt: "Dawny geniusz. Kto wymyślił żarówkę?"
+            },
+            category: ["nauka", "geniusze"]
+        },
+                {
+                    id: 4,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/80b.jpg",
+                alt: "Układanka słowna. Wygenerowane przez AI."
+            },
+            story: {
+                text: "To słówko distant - czytamy <b><u>dis</b></u>tant",
+                alt: "Układanka słowna. Czy scrabble jest ciekawe?"
+            },
+            category: ["czarny humor", "języki"]
+        },
+                {
+                            id: 5,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/108d.jpg",
+                alt: "Diva operowa. Wygenerowane przez AI."
+            },
+            story: {
+                text: "<b><u>Di</b></u>va operowa jest <b><u>s</b></u>ławna",
+                alt: "Śpiew operowy. Czy w operze można się dobrze bawić?"
+            },
+            category: ["związki", "muzyka klasyczna"]
+        }
+            ],
         translate: "Ta edycja traci ważność w tym tygodniu",
         translateb: "[Dis ediszyn ikspajers dis łik]",
         translateb2: "[Dis ediszyn ikspajers]",
@@ -4454,12 +5047,6 @@ const fiszki = [
         srcWordimage: "https://www.arbulang.com/filmy/counting.png",
         word: [
             "https://www.arbulang.com/voice/music.mp4"
-        ],
-        story: [
-            "Quo va<b><u>dis</b></u> <b><u>to</b></u> cytat bardzo znany",
-            "To słówko distant - czytamy <b><u>dis</b></u>tant",
-            "E<b><u>dis</b></u>on to geniusz",
-            "<b><u>Di</b></u>va operowa jest <b><u>s</b></u>ławna"
         ],
         desc: "this[dis] - to",
         sentence1: [
@@ -4486,8 +5073,20 @@ const fiszki = [
             14,
             27
         ],
-        img: "https://www.arbulang.com/img/fiszki1/81a.jpg",
-        story: "Kiedy <b><u>Edi</b></u>son robił przerwe w tworzeniu żarówki jadł bułkę z <b><u>szyn</b></u>ką",
+            entries: [
+        {
+            id: 1,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/81a.jpg",
+                alt: "Wygenerowane przez AI."
+            },
+            story: {
+                text: "Kiedy <b><u>Edi</b></u>son robił przerwe w tworzeniu żarówki jadł bułkę z <b><u>szyn</b></u>ką",
+                alt: ""
+            },
+            category: ["kraje", "klimat"]
+        }
+            ],
         desc: "edition[ediszyn] - edycja",
         sentence1: [
             "edition"
@@ -4508,8 +5107,20 @@ const fiszki = [
             14,
             27
         ],
-        img: "https://www.arbulang.com/img/fiszki1/82a.jpg",
-        story: "Jedziemy do miejscowości <b><u>X</b></u> na wakacje pod <b><u>pa</b></u>lmy i ze statku <b><u>pa</b></u>trzymy na morze..(pijemy <b><u>s</b></u>obie <b><u>jer</b></u>ba matę) musimy zapłacić X dnia, później okazja się <b><u>przedawnia</b></u>",
+            entries: [
+        {
+            id: 1,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/82a.jpg",
+                alt: "Wygenerowane przez AI."
+            },
+            story: {
+                text: "Jedziemy do miejscowości <b><u>X</b></u> na wakacje pod <b><u>pa</b></u>lmy i ze statku <b><u>pa</b></u>trzymy na morze..(pijemy <b><u>s</b></u>obie <b><u>jer</b></u>ba matę) musimy zapłacić X dnia, później okazja się <b><u>przedawnia</b></u>",
+                alt: ""
+            },
+            category: ["kraje", "wypoczynek"]
+        }
+            ],
         desc: "expires[ikspajers] - przedawnia się/wagasa",
         sentence1: [
             "expires"
@@ -4520,7 +5131,6 @@ const fiszki = [
             "expires"
         ],
         key: "expires",
-        category1: "czarny humor",
         category2: ["czasownik"],
         category3: ["PresentSimple", "PresentSimpleCzasownik"]
     },
@@ -4530,19 +5140,69 @@ const fiszki = [
             14,
             28
         ],
-        img: [
-            "https://www.arbulang.com/img/fiszki1/43a.jpg",
-            "https://www.arbulang.com/img/fiszki1/80b.jpg",
-            "https://www.arbulang.com/img/fiszki1/83c.jpg",
-            "https://www.arbulang.com/img/fiszki1/108d.jpg"
-        ],
+            entries: [
+                        {
+            id: 1,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/44b.jpg",
+                alt: "Kraina w starożytności. Wygenerowane przez AI."
+            },
+            story: {
+                text: "Ma<b><u>dis</b></u>on jest świetnym sportowcem a to jej trener",
+                alt: "Opowieść Quo vadis. Czy warto czytać Quo Vadis?"
+            },
+            category: ["sport", "trener"]
+        },
+        {
+            id: 2,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/44a.jpg",
+                alt: "Kraina w starożytności. Wygenerowane przez AI."
+            },
+            story: {
+                text: "Quo va<b><u>dis</b></u> <b><u>to</b></u> cytat bardzo znany i kojarzy się ze starożytnym Rzymem",
+                alt: "Opowieść Quo vadis. Czy warto czytać Quo Vadis?"
+            },
+            category: ["natura", "dawna kraina"]
+        },
+        {
+                            id: 3,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/83c.jpg",
+                alt: "Dawny geniusz. Wygenerowane przez AI."
+            },
+            story: {
+                text: "E<b><u>dis</b></u>on to geniusz",
+                alt: "Dawny geniusz. Kto wymyślił żarówkę?"
+            },
+            category: ["nauka", "geniusze"]
+        },
+                {
+                    id: 4,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/80b.jpg",
+                alt: "Układanka słowna. Wygenerowane przez AI."
+            },
+            story: {
+                text: "To słówko distant - czytamy <b><u>dis</b></u>tant",
+                alt: "Układanka słowna. Czy scrabble jest ciekawe?"
+            },
+            category: ["czarny humor", "języki"]
+        },
+                {
+                            id: 5,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/108d.jpg",
+                alt: "Diva operowa. Wygenerowane przez AI."
+            },
+            story: {
+                text: "<b><u>Di</b></u>va operowa jest <b><u>s</b></u>ławna",
+                alt: "Śpiew operowy. Czy w operze można się dobrze bawić?"
+            },
+            category: ["związki", "muzyka klasyczna"]
+        }
+            ],
         translateb2: "[dis łik]",
-        story: [
-            "Quo va<b><u>dis</b></u> <b><u>to</b></u> cytat bardzo znany",
-            "To słówko distant - czytamy <b><u>dis</b></u>tant",
-            "E<b><u>dis</b></u>on to geniusz",
-            "<b><u>Di</b></u>va operowa jest <b><u>s</b></u>ławna"
-        ],
         desc: "this[dis] - ten/tego",
         sentence2: [
             "this"
@@ -4552,12 +5212,6 @@ const fiszki = [
             "week"
         ],
         key: "this",
-        category1: [
-            "historia", "filozofia",
-            "nauka", "języki",
-            "nauka", "geniusze",
-            "pasje", "muzyka klasyczna"
-        ],
         category2: "ogrodnictwo, florystyka",
         category1b: "związki",
         category2b: "języki obce",
@@ -4570,8 +5224,20 @@ const fiszki = [
             14,
             28
         ],
-        img: "https://www.arbulang.com/img/fiszki1/84a.jpg",
-        story: "Po francusku tak to <b><u>łi</b></u>, w tym <b><u>tygodniu</b></u> mam na studiach egazminy z francuskiego i za<b><u>k</b></u>uwam materiał",
+            entries: [
+        {
+            id: 1,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/84a.jpg",
+                alt: "Wygenerowane przez AI."
+            },
+            story: {
+                text: "Po francusku tak to <b><u>łi</b></u>, w tym <b><u>tygodniu</b></u> mam na studiach egazminy z francuskiego i za<b><u>k</b></u>uwam materiał",
+                alt: ""
+            },
+            category: ["nauka", "egzamin"]
+        }
+            ],
         desc: "week[łik] - tydzień",
         sentence2: [
             "week"
@@ -4675,20 +5341,68 @@ const fiszki = [
             15,
             29
         ],
-        img: [
-            "https://www.arbulang.com/img/fiszki1/2a.jpg",
-            "https://www.arbulang.com/img/fiszki1/2b.jpg",
-            "https://www.arbulang.com/img/fiszki1/2c.jpg",
-            "https://www.arbulang.com/img/fiszki1/2d.jpg",
-            "https://www.arbulang.com/img/fiszki1/2e.jpg"
-        ],
-        story: [
-            "W niemieckim mieście <u><b>Hess</u></b>en Jurek <u><b>ma</u></b> bilet na mecze jego drużyny",
-            "<u><b>H</u></b>ipopotam występuje w cyrku na <u><b>es</u></b>tradzie, <u><b>ma</u></b> duże umiejętności",
-            "Naukowiec nagle się zapomniał i zapytał: <u><b>he</u></b>?, a wtedy jego kolega <u><b>ma</u></b> niezłą zabawę, <u><b>s</u></b>prawa oczywista..",
-            "<u><b>He</u></b>gemonia konsumpcjonizmu doprowadziła do tego, że 'ON'-dyrektor ma problemy, bo nikt nie chce chodzić na <u><b>s</u></b>pektakle teatralne",
-            "Moja koleżanka <u><b>ma</u></b> nowy klarnet z drzewa <u><b>he</u></b>banowego. <u><b>S</u></b>....uper sprawa"
-        ],
+    entries: [
+        {
+            id: 1,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/2a.jpg",
+                alt: "Kupowanie biletu, zdjęcie z biletem. Wygenerowane przez AI."
+            },
+            story: {
+                text: 'W niemieckim mieście <span class="adannotation" data-annotation="1"><u><b>Hess</u></b></span>en Jurek <u><b>ma</u></b> bilet na mecze jego drużyny',
+                alt: "Przygotowanie do widowiska sportowego"
+            },
+            category: ["sport", "kibic"]
+        },
+        {
+            id: 2,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/2b.jpg",
+                alt: "Hipopotam podczas przedstawienia cyrkowego. Wygenerowane przez AI."
+            },
+            story: {
+                text: '<span class="adannotation" data-annotation="1"><u><b>H</u></b></span>ipopotam występuje w cyrku na <span class="adannotation" data-annotation="2"><u><b>es</u></b></span>tradzie, <u><b>ma</u></b> duże umiejętności',
+                alt: "Pokazy cyrkowe. Żart o cyrku"
+            },
+            category: ["natura", "rozrywka"]
+        },
+        {
+            id: 3,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/2c.jpg",
+                alt: "Naukowcy podczas pracy. Wygenerowane przez AI."
+            },
+            story: {
+                text: 'Naukowiec nagle się zapomniał i zapytał: <span class="adannotation" data-annotation="1"><u><b>he</u></b></span>?, a wtedy jego kolega <u><b>ma</u></b> niezłą zabawę, <span class="adannotation" data-annotation="2"><u><b>s</u></b></span>prawa oczywista..',
+                alt: "Obyczaje naukowca. Żart o naukowcu"
+            },
+            category: ["nauka", "humor"]
+        },
+        {
+            id: 4,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/2d.jpg",
+                alt: "Życie jako polityk. Scena. Wygenerowane przez AI."
+            },
+            story: {
+                text: '<span class="adannotation" data-annotation="1"><u><b>He</u></b></span>gemonia konsumpcjonizmu doprowadziła do tego, że "ON"-dyrektor ma problemy, bo nikt nie chce chodzić na <span class="adannotation" data-annotation="2"><u><b>s</u></b></span>pektakle teatralne',
+                alt: "Życie współczesne i kultura. Żart o teatrze"
+            },
+            category: ["czarny humor", "trendy"]
+        },
+        {
+            id: 5,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/2e.jpg",
+                alt: "Muzycy z klarnetami. Wygenerowane przez AI."
+            },
+            story: {
+                text: 'Moja koleżanka <u><b>ma</u></b> nowy klarnet z drzewa <span class="adannotation" data-annotation="1"><u><b>he</u></b></span>banowego. <span class="adannotation" data-annotation="2"><u><b>S</u></b></span>....uper sprawa',
+                alt: "Wychowanie dzieci"
+            },
+            category: ["związki", "muzyka"]
+        }
+    ],
         desc: "has[hes] - ma/mają",
         sentence1: [
             "has"
@@ -4715,8 +5429,20 @@ const fiszki = [
             15,
             29
         ],
-        img: "https://www.arbulang.com/img/fiszki1/87a.jpg",
-        story: "Nasza <b><u>łaj</b></u>ba znajduje się na <b><u>szerokim</b></u> morzu, daleko ma <b><u>d</b></u>o lądu",
+            entries: [
+        {
+            id: 1,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/87a.jpg",
+                alt: "Wygenerowane przez AI."
+            },
+            story: {
+                text: "Nasza <b><u>łaj</b></u>ba znajduje się na <b><u>szerokim</b></u> morzu, daleko ma <b><u>d</b></u>o lądu",
+                alt: ""
+            },
+            category: ["wakacje", "rejs"]
+        }
+            ],
         desc: "wide[łajd] - szeroki/szeroki/szeroko",
         sentence1: [
             "wide"
@@ -4736,8 +5462,20 @@ const fiszki = [
             15,
             30
         ],
-        img: "https://www.arbulang.com/img/fiszki1/88a.jpg",
-        story: "Amerykański żołnierz <b><u>Rang</b></u>ers ma szeroki <b><u>zakres</b></u> umiejętności",
+            entries: [
+        {
+            id: 1,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/88a.jpg",
+                alt: "Wygenerowane przez AI."
+            },
+            story: {
+                text: "Amerykański żołnierz <b><u>Rang</b></u>ers ma szeroki <b><u>zakres</b></u> umiejętności",
+                alt: ""
+            },
+            category: ["wojsko", "przygotowanie bojowe"]
+        }
+            ],
         desc: "range[reindź] - zakres",
         sentence2: [
             "range"
@@ -4757,15 +5495,33 @@ const fiszki = [
             15,
             30
         ],
-        img: [
-            "https://www.arbulang.com/img/fiszki1/89a.jpg",
-            "https://www.arbulang.com/img/fiszki1/112b.jpg"
-        ],
-        story: [
-            "Tą <b><u>of</b></u>ensywę podjął każdy żołnierz z <b><u>tego</b></u> plutonu",
-            "Dezedorant <b><u>off</b></u> jest na <b><u>te</b></u> komary"
-        ],
-        desc: "of[of] - to",
+            entries: [
+        {
+            id: 1,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/89a.jpg",
+                alt: "Żołnierze w walce. Wygenerowane przez AI."
+            },
+            story: {
+                text: "Tą <b><u>of</b></u>ensywę podjął każdy żołnierz z <b><u>tego</b></u> plutonu",
+                alt: "Wojsko a trening umiejętności bojowych. Jak wyszkolić żołnierza?"
+            },
+            category: ["wojsko", "gotowość"]
+        },
+                {
+            id: 1,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/112b.jpg",
+                alt: "Dezedorant na komary. Wygenerowane przez AI."
+            },
+            story: {
+                text: "Dezedorant <b><u>off</b></u> jest na <b><u>te</b></u> komary",
+                alt: "Odstraszanie komarów. Czy istnieją skuteczne sposoby na odstaraszenie komarów?"
+            },
+            category: ["lato", "komary"]
+        }
+            ],
+        desc: "of[of] - te/tego/tej",
         sentence2: [
             "of"
         ],
@@ -4775,10 +5531,6 @@ const fiszki = [
             "vocabulary"
         ],
         key: "of",
-        category1: [
-            "wojsko", "gotowość",
-            "medycyna", "preparaty"
-        ],
         category2: "zawody"
     },
     {
@@ -4787,8 +5539,20 @@ const fiszki = [
             15,
             30
         ],
-        img: "https://www.arbulang.com/img/fiszki1/90a.jpg",
-        story: "Bra<b><u>wo</b></u>, szerokie <b><u>słownictwo</b></u>, <b><u>ka</b></u>żdy szczegół wystąpienia dopracowany na temat <b><u>ból</b></u>ów kręgosłupa, brawo dla tej p<b><u>ary</b></u>",
+            entries: [
+        {
+            id: 1,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/90a.jpg",
+                alt: "Wygenerowane przez AI."
+            },
+            story: {
+                text: "Bra<b><u>wo</b></u>, szerokie <b><u>słownictwo</b></u>, <b><u>ka</b></u>żdy szczegół wystąpienia dopracowany na temat <b><u>ból</b></u>ów kręgosłupa, brawo dla tej p<b><u>ary</b></u>",
+                alt: ""
+            },
+            category: ["studia", "wystąpienie"]
+        }
+            ],
         desc: "vocabulary[wokabulary] - słownictwo",
         sentence2: [
             "vocabulary"
@@ -4799,7 +5563,6 @@ const fiszki = [
             "vocabulary"
         ],
         key: "vocabulary",
-        category1: "nauka",
         category2: "transport, "
     },
     {
@@ -4895,14 +5658,32 @@ const fiszki = [
             16,
             31
         ],
-        img: [
-            "https://www.arbulang.com/img/fiszki1/92a.jpg",
-            "https://www.arbulang.com/img/fiszki1/92b.jpg"
-        ],
-        story: [
-            "Pewien imprezowicz <u><b>odważył się</u></b> wejść na duże wia<u><b>der</u></b>ko i kręci bio<u><b>der</u></b>kami w rytm <u><b>s</u></b>uper muzyki",
-            "Piłka z <u><b>der</u></b>my może jeszcze odważniej lecieć od tej ze <u><b>s</u></b>kóry"
-        ],
+    entries: [
+        {
+            id: 1,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/92a.jpg",
+                alt: "Wygenerowane przez AI."
+            },
+            story: {
+                text: 'Pewien imprezowicz <u><b>odważył się</u></b> wejść na duże wia<u><b>der</u></b>ko i kręci bio<u><b>der</u></b>kami w rytm <u><b>s</u></b>uper muzyki',
+                alt: ""
+            },
+            category: ["rozrywka", "impreza"]
+        },
+        {
+            id: 2,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/92b.jpg",
+                alt: "Wygenerowane przez AI."
+            },
+            story: {
+                text: 'Piłka z <u><b>der</u></b>my może jeszcze odważniej lecieć od tej ze <u><b>s</u></b>kóry',
+               alt: ""
+            },
+             category: ["sport", "warunki sportowe"]
+        }
+    ],
         desc: "dares[ders] - odważyć się",
         sentence1: [
             "dares to"
@@ -4912,10 +5693,6 @@ const fiszki = [
             "dares"
         ],
         key: "dares to",
-        category1: [
-            "rozrywka", "impreza",
-            "sport", "warunki sportowe"
-        ],
         category2: ["czasownik"],
         category3: ["PresentSimple", "PresentSimpleCzasownik"]
     },
@@ -4925,19 +5702,29 @@ const fiszki = [
             16,
             32
         ],
-        img: "https://www.arbulang.com/img/fiszki1/93aa.jpg",
-        story: "<b><u>Ep</b></u>oka w której podchodzono do <b><u>ro</b></u>bienia ikon ołówkiem to stare <b><u>cz</b></u>asy",
+            entries: [
+        {
+            id: 1,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/93aa.jpg",
+                alt: "Wygenerowane przez AI."
+            },
+            story: {
+                text: "<b><u>Ep</b></u>oka w której podchodzono do <b><u>ro</b></u>bienia ikon ołówkiem to stare <b><u>cz</b></u>asy",
+                alt: ""
+            },
+            category: ["sztuka", "rysowanie"]
+        }
+            ],
         desc: "approach[eprołcz] - podejść/podejście",
         sentence2: [
             "approach"
         ],
         sentence: [
-            "to",
             "approach",
             "her"
         ],
         key: "approach",
-        category1: "nauka",
         category2: ["czasownik"]
     },
     {
@@ -4946,14 +5733,25 @@ const fiszki = [
             16,
             32
         ],
-        img: "https://www.arbulang.com/img/fiszki1/94aa.jpg",
-        story: "<b><u>Jej</b></u> <b><u>her</b></u>bata jest słodka",
+            entries: [
+        {
+            id: 1,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/94aa.jpg",
+                alt: "Picie herbaty. Wygenerowane przez AI."
+            },
+            story: {
+                text: "<b><u>Jej</b></u> <b><u>her</b></u>bata jest słodka",
+                alt: "Smakowanie herbaty. Czy parzenie herbaty może być rytuałem?"
+            },
+            category: ["zachowania", "picie herbaty"]
+        }
+            ],
         desc: "her[her] - jej",
         sentence2: [
             "her"
         ],
         sentence: [
-            "to",
             "approach",
             "her"
         ],
@@ -4967,12 +5765,24 @@ const fiszki = [
             17,
             33
         ],
-        img: "https://www.arbulang.com/img/fiszki1/95aa.jpg",
+            entries: [
+        {
+            id: 1,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/95aa.jpg",
+                alt: "Opakowanie suplementów grzyba riszi. Wygenerowane przez AI."
+            },
+            story: {
+                text: "<u><b>Ona</u></b> - Patrycja ma ri<u><b>szi</u></b> to naturalny antyoksydant",
+                alt: "Suplementacja grzybami. Jakie parametry zdrowotne poprawiają grzyby riszi?"
+            },
+            category: ["suplementy", "riszi"]
+        }
+            ],
         translate: "Ona jest przywiązana do swojego łuku",
         translateb: "[Szi is etaczd to her boł]",
         srcWord: ["https://www.arbulang.com/filmy/bow.mp4", "Igrzyska śmierci: Kosogłos. Część 2(2015)"],
         srcWordimage: "https://www.arbulang.com/filmy/bow.png",
-        story: "<u><b>Ona</u></b> - Patrycja ma ri<u><b>szi</u></b> to naturalny antyoksydant",
         desc: "she[szi] - ona",
         sentence1: [
             "She"
@@ -5098,8 +5908,20 @@ const fiszki = [
             17,
             33
         ],
-        img: "https://www.arbulang.com/img/fiszki1/97a.jpg",
-        story: "Jestem przywiązany do mojego fiata, jadę nim na po</b></u>czt<b><u>ę",
+            entries: [
+        {
+            id: 1,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/97a.jpg",
+                alt: "Wygenerowane przez AI."
+            },
+            story: {
+                text: "Jestem przywiązany do mojego fi<b><u>ata</b></u>, jadę nim na po<b><u>czt</b></u>ę",
+                alt: ""
+            },
+            category: ["motoryzacja", "auta"]
+        }
+            ],
         desc: "attached[ataczt] - przywiązany",
         sentence1: [
             "attached"
@@ -5120,20 +5942,68 @@ const fiszki = [
             17,
             34
         ],
-        img: [
-            "https://www.arbulang.com/img/fiszki1/10a.jpg",
-            "https://www.arbulang.com/img/fiszki1/10b.jpg",
-            "https://www.arbulang.com/img/fiszki1/10c.jpg",
-            "https://www.arbulang.com/img/fiszki1/10d.jpg",
-            "https://www.arbulang.com/img/fiszki1/10e.jpg"
-        ],
-        story: [
-            '<u><b>Dla</u></b> spor<span class="adannotation" data-annotation="1"><u><b>tu</b></u></span> przeszedłem się pieszo <u><b>ku</u></b> parku',
-            'Ra<span class="adannotation" data-annotation="1"><u><b>tu</u></b></span>nku, ta droga poprowadziła nas <u><b>ku</u></b> wężom',
-            '<span class="adannotation" data-annotation="1"><b><u>Tu</b></u></span> w Egipcie Totem Faraona to pamiątka <u><b>ku</u></b> jego czci',
-            '<span class="adannotation" data-annotation="1"><b><u>Tu</b></u></span> <u><b>dla</u></b> Ciebie jest bardzo dobra aktywność, <u><b>to</u></b>talnie nie brakuje mi nic w drodze <u><b>ku</u></b>t mistrza',
-            'Aaaa.. <span class="adannotation" data-annotation="1"><b><u>tu</b></u></span> to jest, <b><u>ku</b></u> szczęściu znalazłem to..'
-        ],
+    entries: [
+        {
+            id: 1,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/10a.jpg",
+                alt: "Spacer po mieście. Wygenerowane przez AI."
+            },
+            story: {
+                text: '<u><b>Dla</u></b> spor<span class="adannotation" data-annotation="1"><u><b>tu</b></u></span> przeszedłem się pieszo <u><b>ku</u></b> parku',
+                alt: "Droga do pracy. Ile trzeba mieć do pracy, żeby móc pójść na nogach?"
+            },
+            category: ["sport", "czas wolny"]
+        },
+        {
+            id: 2,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/10b.jpg",
+                alt: "Wąż. Wygenerowane przez AI."
+            },
+            story: {
+                text: 'Ra<span class="adannotation" data-annotation="1"><u><b>tu</u></b></span>nku, ta droga poprowadziła nas <u><b>ku</u></b> wężom',
+               alt: "Rzeczywistość dżungli. Czy węże są niebezpieczne?"
+            },
+             category: ["natura", "zoologia"]
+        },
+        {
+            id: 3,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/10c.jpg",
+                alt: "Totem Faraona. Wygenerowane przez AI."
+            },
+            story: {
+                text: '<span class="adannotation" data-annotation="1"><b><u>Tu</b></u></span> w Egipcie Totem Faraona to pamiątka <u><b>ku</u></b> jego czci',
+                alt: "Historia i turystyka. Czy pamiątka Totemu Faraona jest ciekawą zdobyczą?"
+            },
+           category: ["nauka", "historia"]
+        },
+        {
+            id: 4,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/10d.jpg",
+                alt: "Trzymanie kciuków za wyniki sportowe. Wygenerowane przez AI."
+            },
+            story: {
+                text: '<span class="adannotation" data-annotation="1"><b><u>Tu</b></u></span> <u><b>dla</u></b> Ciebie jest bardzo dobra aktywność, <u><b>to</u></b>talnie nie brakuje mi nic w drodze <u><b>ku</u></b>t mistrza',
+                alt: "Sport i dyscyplina. Czy uczeń może prześcignąć mistrza?"
+            },
+            category: ["czarny humor", "sport"]
+        },
+        {
+            id: 5,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/10e.jpg",
+                alt: "Prezent okolicznościowy. Wygenerowane przez AI."
+            },
+            story: {
+                text: 'Aaaa.. <span class="adannotation" data-annotation="1"><b><u>tu</b></u></span> to jest, <b><u>ku</b></u> szczęściu znalazłem to..',
+               alt: "Umiejętności praktyczne. Czy trudno jest znaleźć coś gdy się spieszymy?"
+            },
+            category: ["związki", "czas wolny"]
+        }
+    ],
         desc: "to[tu] - do, ku",
         sentence2: [
             "to"
@@ -5159,10 +6029,20 @@ const fiszki = [
             17,
             34
         ],
-        img: "https://www.arbulang.com/img/fiszki1/95a.jpg",
-        story: [
-            "<b><u>Jej</b></u> <b><u>her</b></u>bata jest słodka"
-        ],
+            entries: [
+        {
+            id: 1,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/94aa.jpg",
+                alt: "Picie herbaty. Wygenerowane przez AI."
+            },
+            story: {
+                text: "<b><u>Jej</b></u> <b><u>her</b></u>bata jest słodka",
+                alt: "Smakowanie herbaty. Czy parzenie herbaty może być rytuałem?"
+            },
+            category: ["zachowania", "picie herbaty"]
+        }
+            ],
         desc: "her[her] - swojego",
         sentence2: [
             "her"
@@ -5173,7 +6053,6 @@ const fiszki = [
             "bow"
         ],
         key: "her",
-        category1: "nauka",
         category2: ["zaimkiosobowe"]
     },
     {
@@ -5182,8 +6061,20 @@ const fiszki = [
             17,
             34
         ],
-        img: "https://www.arbulang.com/img/fiszki1/100a.jpg",
-        story: "To jest <b><u>bo</b></u>ski <b><u>łuk</b></u>",
+            entries: [
+        {
+            id: 1,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/100a.jpg",
+                alt: "Wygenerowane przez AI."
+            },
+            story: {
+                text: "To jest <b><u>ł</b></u>adny <b><u>bo</b></u>ski <b><u>łuk</b></u>",
+                alt: ""
+            },
+            category: ["rzeczy", "łuk"]
+        }
+            ],
         desc: "bow[boł] - łuk",
         sentence2: [
             "bow"
@@ -5194,7 +6085,6 @@ const fiszki = [
             "bow"
         ],
         key: "bow",
-        category1: "nauka",
         category2: ["przedmioty"]
     },
     {
@@ -5289,8 +6179,20 @@ const fiszki = [
             18,
             35
         ],
-        img: "https://www.arbulang.com/img/fiszki1/103a.jpg",
-        story: "Leoni<b><u>das</b></u> król spartan odpala k<b><u>not</b></u> świeczki, bo <b><u>nie jest</b></u> odpalona",
+            entries: [
+        {
+            id: 1,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/103a.jpg",
+                alt: "Wygenerowane przez AI."
+            },
+            story: {
+                text: "Leoni<b><u>das</b></u> król Spartan odpala k<b><u>not</b></u> świeczki, bo <b><u>nie jest</b></u> odpalona",
+                alt: ""
+            },
+            category: ["historia", "Spartanie"]
+        }
+            ],
         desc: "does[das] - nie jest",
         sentence1: [
             "does"
@@ -5302,7 +6204,6 @@ const fiszki = [
             "obey"
         ],
         key: "does",
-        category1: "nauka",
         category2: ["osoby+czas", "podmiot+czas"],
         category3: ["PresentSimple", "PresentSimpleCzasownik"]
     },
@@ -5312,7 +6213,20 @@ const fiszki = [
             18,
             35
         ],
-        img: "https://www.arbulang.com/img/fiszki1/103a.jpg",
+            entries: [
+        {
+            id: 1,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/103a.jpg",
+                alt: "Wygenerowane przez AI."
+            },
+            story: {
+                text: "Leoni<b><u>das</b></u> król Spartan odpala k<b><u>not</b></u> świeczki, bo <b><u>nie jest</b></u> odpalona",
+                alt: ""
+            },
+            category: ["historia", "Spartanie"]
+        }
+            ],
         story: "Leoni<b><u>das</b></u> król spartan odpala k<b><u>not</b></u> świeczki, bo <b><u>nie jest</b></u> odpalona",
         desc: "not[not] - nie",
         sentence1: [
@@ -5325,7 +6239,6 @@ const fiszki = [
             "obey"
         ],
         key: "not",
-        category1: "nauka",
         category2: ["osoby+czas", "podmiot+czas"],
         category3: ["PresentSimple", "PresentSimpleCzasownik"]
         
@@ -5336,8 +6249,20 @@ const fiszki = [
             18,
             35
         ],
-        img: "https://www.arbulang.com/img/fiszki1/104a.jpg",
-        story: "Ta instalacja elektryczna ma <b><u>obej</b></u>ście i jest zrobiona według <b><u>posłuszeństwa</b></u> do norm",
+            entries: [
+        {
+            id: 1,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/104a.jpg",
+                alt: "Wygenerowane przez AI."
+            },
+            story: {
+                text: "Ta instalacja elektryczna ma <b><u>obej</b></u>ście i jest zrobiona według <b><u>posłuszeństwa</b></u> do norm",
+                alt: ""
+            },
+            category: ["nauka", "elektryka"]
+        }
+            ],
         desc: "obey[obej] - posłuszny",
         sentence1: [
             "obey"
@@ -5349,7 +6274,6 @@ const fiszki = [
             "obey"
         ],
         key: "obey",
-        category1: "nauka",
         category2: ["czasownik"],
         category3: ["PresentSimple", "PresentSimpleCzasownik"]
     },
@@ -5359,20 +6283,68 @@ const fiszki = [
             18,
             36
         ],
-        img: [
-            "https://www.arbulang.com/img/fiszki1/10a.jpg",
-            "https://www.arbulang.com/img/fiszki1/10b.jpg",
-            "https://www.arbulang.com/img/fiszki1/10c.jpg",
-            "https://www.arbulang.com/img/fiszki1/10d.jpg",
-            "https://www.arbulang.com/img/fiszki1/10e.jpg"
-        ],
-        story: [
-            '<u><b>Dla</u></b> spor<span class="adannotation" data-annotation="1"><u><b>tu</b></u></span> przeszedłem się pieszo <u><b>ku</u></b> parku',
-            'Ra<span class="adannotation" data-annotation="1"><u><b>tu</u></b></span>nku, ta droga poprowadziła nas <u><b>ku</u></b> wężom',
-            '<span class="adannotation" data-annotation="1"><b><u>Tu</b></u></span> w Egipcie Totem Faraona to pamiątka <u><b>ku</u></b> jego czci',
-            '<span class="adannotation" data-annotation="1"><b><u>Tu</b></u></span> <u><b>dla</u></b> Ciebie jest bardzo dobra aktywność, <u><b>to</u></b>talnie nie brakuje mi nic w drodze <u><b>ku</u></b>t mistrza',
-            'Aaaa.. <span class="adannotation" data-annotation="1"><b><u>tu</b></u></span> to jest, <b><u>ku</b></u> szczęściu znalazłem to..'
-        ],
+    entries: [
+        {
+            id: 1,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/10a.jpg",
+                alt: "Spacer po mieście. Wygenerowane przez AI."
+            },
+            story: {
+                text: '<u><b>Dla</u></b> spor<span class="adannotation" data-annotation="1"><u><b>tu</b></u></span> przeszedłem się pieszo <u><b>ku</u></b> parku',
+                alt: "Droga do pracy. Ile trzeba mieć do pracy, żeby móc pójść na nogach?"
+            },
+            category: ["sport", "czas wolny"]
+        },
+        {
+            id: 2,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/10b.jpg",
+                alt: "Wąż. Wygenerowane przez AI."
+            },
+            story: {
+                text: 'Ra<span class="adannotation" data-annotation="1"><u><b>tu</u></b></span>nku, ta droga poprowadziła nas <u><b>ku</u></b> wężom',
+               alt: "Rzeczywistość dżungli. Czy węże są niebezpieczne?"
+            },
+             category: ["natura", "zoologia"]
+        },
+        {
+            id: 3,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/10c.jpg",
+                alt: "Totem Faraona. Wygenerowane przez AI."
+            },
+            story: {
+                text: '<span class="adannotation" data-annotation="1"><b><u>Tu</b></u></span> w Egipcie Totem Faraona to pamiątka <u><b>ku</u></b> jego czci',
+                alt: "Historia i turystyka. Czy pamiątka Totemu Faraona jest ciekawą zdobyczą?"
+            },
+           category: ["nauka", "historia"]
+        },
+        {
+            id: 4,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/10d.jpg",
+                alt: "Trzymanie kciuków za wyniki sportowe. Wygenerowane przez AI."
+            },
+            story: {
+                text: '<span class="adannotation" data-annotation="1"><b><u>Tu</b></u></span> <u><b>dla</u></b> Ciebie jest bardzo dobra aktywność, <u><b>to</u></b>talnie nie brakuje mi nic w drodze <u><b>ku</u></b>t mistrza',
+                alt: "Sport i dyscyplina. Czy uczeń może prześcignąć mistrza?"
+            },
+            category: ["czarny humor", "sport"]
+        },
+        {
+            id: 5,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/10e.jpg",
+                alt: "Prezent okolicznościowy. Wygenerowane przez AI."
+            },
+            story: {
+                text: 'Aaaa.. <span class="adannotation" data-annotation="1"><b><u>tu</b></u></span> to jest, <b><u>ku</b></u> szczęściu znalazłem to..',
+               alt: "Umiejętności praktyczne. Czy trudno jest znaleźć coś gdy się spieszymy?"
+            },
+            category: ["związki", "czas wolny"]
+        }
+    ],
         desc: "to[tu] - do, ku",
         sentence2: [
             "to"
@@ -5383,13 +6355,6 @@ const fiszki = [
             "trainer"
         ],
         key: "to",
-        category1: [
-            "sport", "czas wolny",
-            "natura", "zoologia",
-            "nauka", "historia",
-            "czarny humor", "sport",
-            "związki", "czas wolny"
-        ],
         category2: "transport, "
     },
     {
@@ -5398,14 +6363,32 @@ const fiszki = [
             18,
             36
         ],
-        img: [
-            "https://www.arbulang.com/img/fiszki1/47a.jpg",
-            "https://www.arbulang.com/img/fiszki1/106b.jpg"
-        ],
-        story: [
-            "<b><u>Jego</b></u> <b><u>his</b></u>toria jest bardzo atrakcyjna i bujna",
-            "Jego ma<b><u>chi</b></u>na jest bardzo <b><u>s</b></u>prawna"
-        ],
+            entries: [
+        {
+            id: 1,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/48aa.jpg",
+                alt: "Historia człowieka w muzeum. Wygenerowane przez AI."
+            },
+            story: {
+                text: "<b><u>Jego</b></u> <b><u>his</b></u>toria jest bardzo atrakcyjna i bujna",
+                alt: "Opowieść o dawnych czasach. Jak opowiadać historię?"
+            },
+            category: ["związki", "autoprezentacja"]
+        },
+                {
+            id: 2,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/106b.jpg",
+                alt: "Wynalazek nowoczesności. Wygenerowane przez AI."
+            },
+            story: {
+                text: "Jego ma<b><u>chi</b></u>na jest bardzo <b><u>s</b></u>prawna",
+                alt: "Projektowanie urządzenia. Jak projektuje się maszyny?"
+            },
+            category: ["praca", "technologia"]
+        }
+            ],
         desc: "his[his] - jego",
         sentence2: [
             "his"
@@ -5416,9 +6399,6 @@ const fiszki = [
             "trainer"
         ],
         key: "his",
-        category1: ["związki", "autoprezentacja",
-            "praca", "technologia"
-        ],
         category2: ["zaimkiosobowe"]
     },
     {
@@ -5427,8 +6407,20 @@ const fiszki = [
             18,
             36
         ],
-        img: "https://www.arbulang.com/img/fiszki1/107a.jpg",
-        story: "<b><u>Tr</b></u>cę na orbi<b><u>tre</b></u>ku tkankę tłuszczową, bo ćwiczę i pije g<b><u>ajner</b></u> - tak jak polecił mi <b><u>trener</b></u>",
+            entries: [
+        {
+            id: 1,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/107a.jpg",
+                alt: "Wygenerowane przez AI."
+            },
+            story: {
+                text: "<b><u>Tr</b></u>cę na orbi<b><u>tre</b></u>ku tkankę tłuszczową, bo ćwiczę i pije g<b><u>ajner</b></u> - tak jak polecił mi <b><u>trener</b></u>",
+                alt: ""
+            },
+            category: ["sport", "ćwiczenia"]
+        }
+            ],
         desc: "trainer[trejner] - trener",
         sentence2: [
             "trainer"
@@ -5439,7 +6431,6 @@ const fiszki = [
             "trainer"
         ],
         key: "trainer",
-        category1: "nauka",
         category2: ["osoby"]
     },
     {
@@ -5448,22 +6439,72 @@ const fiszki = [
             19,
             37
         ],
-        img: [
-            "https://www.arbulang.com/img/fiszki1/43a.jpg",
-            "https://www.arbulang.com/img/fiszki1/80b.jpg",
-            "https://www.arbulang.com/img/fiszki1/83c.jpg",
-            "https://www.arbulang.com/img/fiszki1/108d.jpg"
-        ],
+            entries: [
+                        {
+            id: 1,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/44b.jpg",
+                alt: "Kraina w starożytności. Wygenerowane przez AI."
+            },
+            story: {
+                text: "Ma<b><u>dis</b></u>on jest świetnym sportowcem a to jej trener",
+                alt: "Opowieść Quo vadis. Czy warto czytać Quo Vadis?"
+            },
+            category: ["sport", "trener"]
+        },
+        {
+            id: 2,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/44a.jpg",
+                alt: "Kraina w starożytności. Wygenerowane przez AI."
+            },
+            story: {
+                text: "Quo va<b><u>dis</b></u> <b><u>to</b></u> cytat bardzo znany i kojarzy się ze starożytnym Rzymem",
+                alt: "Opowieść Quo vadis. Czy warto czytać Quo Vadis?"
+            },
+            category: ["natura", "dawna kraina"]
+        },
+        {
+                            id: 3,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/83c.jpg",
+                alt: "Dawny geniusz. Wygenerowane przez AI."
+            },
+            story: {
+                text: "E<b><u>dis</b></u>on to geniusz",
+                alt: "Dawny geniusz. Kto wymyślił żarówkę?"
+            },
+            category: ["nauka", "geniusze"]
+        },
+                {
+                    id: 4,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/80b.jpg",
+                alt: "Układanka słowna. Wygenerowane przez AI."
+            },
+            story: {
+                text: "To słówko distant - czytamy <b><u>dis</b></u>tant",
+                alt: "Układanka słowna. Czy scrabble jest ciekawe?"
+            },
+            category: ["czarny humor", "języki"]
+        },
+                {
+                            id: 5,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/108d.jpg",
+                alt: "Diva operowa. Wygenerowane przez AI."
+            },
+            story: {
+                text: "<b><u>Di</b></u>va operowa jest <b><u>s</b></u>ławna",
+                alt: "Śpiew operowy. Czy w operze można się dobrze bawić?"
+            },
+            category: ["związki", "muzyka klasyczna"]
+        }
+            ],
         translate: "To miasto jest pełne ludzi",
         translateb: "[Dis siti is ful of pipul]",
         srcWord: ["https://www.arbulang.com/filmy/city.mp4", "Resident Evil: Afterlife(2010)", "Akcja"],
         srcWordimage: "https://www.arbulang.com/filmy/city.png",
-        story: [
-            "Quo va<b><u>dis</b></u> <b><u>to</b></u> cytat bardzo znany",
-            "To słówko distant - czytamy <b><u>dis</b></u>tant",
-            "E<b><u>dis</b></u>on to geniusz",
-            "<b><u>Di</b></u>va operowa jest <b><u>s</b></u>ławna"
-        ],
         desc: "this[dis] - to",
         sentence1: [
             "This"
@@ -5474,12 +6515,6 @@ const fiszki = [
             "is"
         ],
         key: "this",
-        category1: [
-            "historia", "filozofia",
-            "nauka", "języki",
-            "nauka", "geniusze",
-            "pasje", "muzyka klasyczna"
-        ],
         category2: [""],
         category3: ["PresentSimple", "PresentSimplePodmiot"]
     },
@@ -5489,8 +6524,20 @@ const fiszki = [
             19,
             37
         ],
-        img: "https://www.arbulang.com/img/fiszki1/109a.jpg",
-        story: "<b><u>Siti</b></u> Bank jest teraz bankiem na topie w każdym <b><u>mieście<b><u>",
+            entries: [
+        {
+            id: 1,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/109a.jpg",
+                alt: "Wygenerowane przez AI."
+            },
+            story: {
+                text: "<b><u>Siti</b></u> Bank jest teraz bankiem na topie w każdym <b><u>mieście<b><u>",
+                alt: ""
+            },
+            category: ["finanse", "bank"]
+        }
+            ],
         desc: "city[siti] - miasto",
         sentence1: [
             "city"
@@ -5625,8 +6672,20 @@ const fiszki = [
             19,
             38
         ],
-        img: "https://www.arbulang.com/img/fiszki1/111a.jpg",
-        story: "Ktoś miał <b><u>fu</b></u>ksa i wylosował całą nagrodę w <b><u>l</b></u>oteri",
+            entries: [
+        {
+            id: 1,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/111a.jpg",
+                alt: "Wygenerowane przez AI."
+            },
+            story: {
+                text: "Ktoś miał <b><u>fu</b></u>ksa i wylosował całą nagrodę w <b><u>l</b></u>oteri",
+                alt: ""
+            },
+            category: ["loteria", "szczęście"]
+        }
+            ],
         desc: "full[ful] - wszystko/całe",
         sentence2: [
             "full"
@@ -5646,14 +6705,32 @@ const fiszki = [
             19,
             38
         ],
-        img: [
-            "https://www.arbulang.com/img/fiszki1/89a.jpg",
-            "https://www.arbulang.com/img/fiszki1/112b.jpg"
-        ],
-        story: [
-            "Tą <b><u>of</b></u>ensywę podjął każdy żołnierz z <b><u>tego</b></u> plutonu",
-            "Dezedorant <b><u>off</b></u> jest na <b><u>te</b></u> komary"
-        ],
+            entries: [
+        {
+            id: 1,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/89a.jpg",
+                alt: "Żołnierze w walce. Wygenerowane przez AI."
+            },
+            story: {
+                text: "Tą <b><u>of</b></u>ensywę podjął każdy żołnierz z <b><u>tego</b></u> plutonu",
+                alt: "Wojsko a trening umiejętności bojowych. Jak wyszkolić żołnierza?"
+            },
+            category: ["wojsko", "walka"]
+        },
+                {
+            id: 1,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/112b.jpg",
+                alt: "Dezedorant na komary. Wygenerowane przez AI."
+            },
+            story: {
+                text: "Dezedorant <b><u>off</b></u> jest na <b><u>te</b></u> komary",
+                alt: "Odstraszanie komarów. Czy istnieją skuteczne sposoby na odstaraszenie komarów?"
+            },
+            category: ["lato", "komary"]
+        }
+            ],
         desc: "of[of] - te/tego/tej",
         sentence2: [
             "of"
@@ -5676,8 +6753,20 @@ const fiszki = [
             19,
             38
         ],
-        img: "https://www.arbulang.com/img/fiszki1/113a.jpg",
-        story: "Wszyscy <b><u>ludzie</b></u> muszą <b><u>pi</b></u>ć wodę, a w lato <b><u>pul</b></u>a pitej wody powinna się zwiekszać",
+            entries: [
+        {
+            id: 1,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/113a.jpg",
+                alt: "Wygenerowane przez AI."
+            },
+            story: {
+                text: "Wszyscy <b><u>ludzie</b></u> muszą <b><u>pi</b></u>ć wodę, a w lato <b><u>pul</b></u>a pitej wody powinna się zwiekszać",
+                alt: ""
+            },
+            category: ["zdrowie", "nawadnianie"]
+        }
+            ],
         desc: "people[pipul] - ludzie",
         sentence2: [
             "people"
@@ -5697,24 +6786,72 @@ const fiszki = [
             20,
             39
         ],
-        img: [
-            "https://www.arbulang.com/img/fiszki1/31a.jpg",
-            "https://www.arbulang.com/img/fiszki1/31b.jpg",
-            "https://www.arbulang.com/img/fiszki1/31c.jpg",
-            "https://www.arbulang.com/img/fiszki1/31d.jpg",
-            "https://www.arbulang.com/img/fiszki1/31e.jpg"
-        ],
+    entries: [
+        {
+            id: 1,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/32aa.jpg",
+                alt: "Zawodnik na meczu. Wygenerowane przez AI."
+            },
+            story: {
+                text: "<u><b>Aur</u></b>a zawodnika z <u><b>naszego</u></b> zespołu jest niesamowita",
+                alt: "Wizerunek sportowca. Czy sportowiec może mieć niesamwitą aurę?"
+            },
+            category: ["sport", "mindeset"]
+        },
+        {
+            id: 2,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/32bb.jpg",
+                alt: "Ogrodnik w ogrodzie. Wygenerowane przez AI."
+            },
+            story: {
+                text: "M<u><b>aur</u></b>ycy to jest <u><b>nasz</u></b> ogrodnik",
+                alt: "Zawody. Czy ogrodnictwo może być fajnym zawodem?"
+            },
+             category: ["natura", "zawód"]
+        },
+        {
+            id: 3,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/32cc.jpg",
+                alt: "Sieć wysokiego napięcia. Wygenerowane przez AI."
+            },
+            story: {
+                text: "<u><b>Nasz</u></b> dostawca prądu to <u><b>Taur</u></b>on",
+                alt: "Płacenie rachunków. Czy zapłacenie rachunku na czas daje satysfakcję?"
+            },
+           category: ["nauka", "energetyka"]
+        },
+        {
+            id: 4,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/32dd.jpg",
+                alt: "Oko Saurona. Wygenerowane przez AI."
+            },
+            story: {
+                text: "Władcy pierścieni.. najniebezpieczniejsze dla <u><b>naszego</u></b> bezpieczeństwa było oko S<u><b>aur</u></b>ona",
+                alt: "Powieść fantastyczna. Co było najgroźniejsze dla Drużyny Pierścienia?"
+            },
+            category: ["czarny humor", "filmy"]
+        },
+        {
+            id: 5,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/32ee.jpg",
+                alt: "Laurka dla mamy. Wygenerowane przez AI."
+            },
+            story: {
+                text: "<u><b>Nasza</u></b> mama dostała l<u><b>aur</u></b>kę na dzień mamy",
+                alt: "Imprezy okolicznościowe. Jaki prezent jest najlepszy na dzień mamy?"
+            },
+            category: ["związki", "okazje"]
+        }
+    ],
         translate: "Nasi studenci muszą uczyć się bardzo ciężko",
         translateb: "[Aur stjudents hew tu stadi weri hard]",
         srcWord: ["https://www.arbulang.com/filmy/studyhard.mp4", "Marsjanin(2015)", "Akcja"],
         srcWordimage: "https://www.arbulang.com/filmy/studyhard.png",
-        story: [
-            "<u><b>Aur</u></b>a zawodnika z <u><b>naszego</u></b> zespołu jest niesamowita",
-            "M<u><b>aur</u></b>ycy to jest <u><b>nasz</u></b> ogrodnik",
-            "<u><b>Nasz</u></b> dostawca prądu to <u><b>Taur</u></b>on",
-            "Władcy pierścieni.. najniebezpieczniejsze dla <u><b>naszego</u></b> bezpieczeństwa było oko S<u><b>aur</u></b>ona",
-            "<u><b>Nasza</u></b> mama dostała l<u><b>aur</u></b>kę na dzień mamy"
-        ],
         desc: "our[aur] - nasze/nasi",
         sentence1: [
             "Our"
@@ -5725,13 +6862,6 @@ const fiszki = [
             "have to"
         ],
         key: "our",
-        category1: [
-            "sport", "",
-            "natura", "zawód",
-            "nauka", "energetyka",
-            "czarny humor", "filmy",
-            "związki", "okazje"
-        ],
         category2: ["zaimkiosobowe"],
         category3: ["PresentSimple", "PresentSimplePodmiot"]
     },
@@ -5741,8 +6871,20 @@ const fiszki = [
             20,
             39
         ],
-        img: "https://www.arbulang.com/img/fiszki1/115a.jpg",
-        story: "<b><u>St</b></u>aszek <b><u>ju</b></u>ż jest w <b><u>de</b></u>partamencie <b><u>studentów</b></u>",
+            entries: [
+        {
+            id: 1,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/115a.jpg",
+                alt: "Wygenerowane przez AI."
+            },
+            story: {
+                text: "<b><u>St</b></u>aszek <b><u>ju</b></u>ż jest w <b><u>de</b></u>partamencie <b><u>studentów</b></u>",
+                alt: ""
+            },
+            category: ["nauka", "student"]
+        }
+            ],
         desc: "students[stjudents] - studenci",
         sentence1: [
             "students"
@@ -5753,7 +6895,6 @@ const fiszki = [
             "have to"
         ],
         key: "students",
-        category1: "nauka",
         category2: ["osoby+czas", "podmiot+czas"],
         category3: ["PresentSimple", "PresentSimplePodmiot"]
     },
@@ -5763,8 +6904,20 @@ const fiszki = [
             20,
             39
         ],
-        img: "https://www.arbulang.com/img/fiszki1/116a.jpg",
-        story: "Mar<b><u>chew</b></u> <b><u>musi</b></u> być zjedzona. Bo <b><u>tu</b></u> jest najlepsza marchew w mieście..",
+            entries: [
+        {
+            id: 1,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/116a.jpg",
+                alt: "Wygenerowane przez AI."
+            },
+            story: {
+                text: "Mar<b><u>chew</b></u> <b><u>musi</b></u> być zjedzona. Bo <b><u>tu</b></u> jest najlepsza marchew w mieście..",
+                alt: ""
+            },
+            category: ["zdrowie", "odżywianie"]
+        }
+            ],
         desc: "have to[hew to] - musi/muszą",
         sentence1: [
             "have to"
@@ -5775,7 +6928,6 @@ const fiszki = [
             "have to"
         ],
         key: "have to",
-        category1: "nauka",
         category2: ["czasownik", "podmiot+czas"],
         category3: ["PresentSimple", "PresentSimpleCzasownik"]
     },
@@ -5785,8 +6937,20 @@ const fiszki = [
             20,
             40
         ],
-        img: "https://www.arbulang.com/img/fiszki1/117a.jpg",
-        story: "Ekolog o imieniu <b><u>Adi</b></u> <b><u>studiuje</b></u> te <b><u>stad</b></u>o",
+            entries: [
+        {
+            id: 1,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/117a.jpg",
+                alt: "Wygenerowane przez AI."
+            },
+            story: {
+                text: "Ekolog o imieniu <b><u>Adi</b></u> <b><u>studiuje</b></u> te <b><u>stad</b></u>o",
+                alt: ""
+            },
+            category: ["zdrowie", "odżywianie"]
+        }
+            ],
         desc: "study[stadi] - studiować",
         sentence2: [
             "study"
@@ -5797,7 +6961,6 @@ const fiszki = [
             "hard"
         ],
         key: "study",
-        category1: "nauka",
         category2: ["czasownik"]
     },
     {
@@ -5806,8 +6969,20 @@ const fiszki = [
             20,
             40
         ],
-        img: "https://www.arbulang.com/img/fiszki1/118a.jpg",
-        story: "Chcąc jechać <b><u>ri</b></u>kszą, kierowca zawsze bardzo <b><u>wer</b></u>yfikuje czy osoba nie jest za gruba, żeby jechać z nim",
+            entries: [
+        {
+            id: 1,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/118a.jpg",
+                alt: "Wygenerowane przez AI."
+            },
+            story: {
+                text: "Chcąc jechać <b><u>ri</b></u>kszą, kierowca zawsze bardzo <b><u>wer</b></u>yfikuje czy osoba nie jest za gruba, żeby jechać z nim",
+                alt: ""
+            },
+            category: ["zdrowie", "odżywianie"]
+        }
+            ],
         desc: "very[weri] - bardzo",
         sentence2: [
             "very"
@@ -5818,7 +6993,6 @@ const fiszki = [
             "hard"
         ],
         key: "very",
-        category1: "nauka",
         category2: ["przymiotnik"]
     },
     {
@@ -5827,8 +7001,20 @@ const fiszki = [
             20,
             40
         ],
-        img: "https://www.arbulang.com/img/fiszki1/119a.jpg",
-        story: "W <b><u>Har</b></u>wardzie każdy j<b><u>ard</b></u> ziemi jest obsadzony kwiatami",
+            entries: [
+        {
+            id: 1,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/119a.jpg",
+                alt: "Wygenerowane przez AI."
+            },
+            story: {
+                text: "W <b><u>Har</b></u>wardzie każdy j<b><u>ard</b></u> ziemi jest obsadzony kwiatami",
+                alt: ""
+            },
+            category: ["ogród", "kwiaty"]
+        }
+            ],
         desc: "hard[hard] - trudne/cieżkie/mocne",
         sentence2: [
             "hard"
@@ -5839,7 +7025,6 @@ const fiszki = [
             "hard"
         ],
         key: "hard",
-        category1: "nauka",
         category2: ["przymiotnik"]
     },
     {
@@ -5848,25 +7033,73 @@ const fiszki = [
             21,
             41
         ],
-        img: [
-            "https://www.arbulang.com/img/fiszki1/19a.jpg",
-            "https://www.arbulang.com/img/fiszki1/19b.jpg",
-            "https://www.arbulang.com/img/fiszki1/19c.jpg",
-            "https://www.arbulang.com/img/fiszki1/19d.jpg",
-            "https://www.arbulang.com/img/fiszki1/19e.jpg"
-        ],
+    entries: [
+        {
+            id: 1,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/19a.jpg",
+                alt: "Odzież ochronna dla jazdy rowerem. Wygenerowane przez AI."
+            },
+            story: {
+                text: "<u><b>Ja</u></b> jestem Piotrek, mam okulary ochronne, gdy jechałem rowerem wleciała mi mucha do <u><b>oka</u></b>, krzyczałem <u><b>ajjj</u></b> - dlaczego to <u><b>mi</u></b> wleciała mucha do <u><b>oka</u></b>, <u><b>ajjj</u></b>",
+                alt: "Bezpieczna jazda rowerem. Czy do jazdy rowerem potrzebne jest przygotowanie?"
+            },
+            category: ["sport", "rowery"]
+        },
+        {
+            id: 2,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/19b.jpg",
+                alt: "Portret kobiety. Wygenerowane przez AI."
+            },
+            story: {
+                text: "M<u><b>aj</u></b>a ma zezowate <u><b>oko</u></b> i mówi, no <u><b>JA</u></b> widzę ciebie podwójnie",
+               alt: "Świadomość wady wzroku. Czy wadę wzroku można wyleczyć?"
+            },
+            category: ["natura", "zdrowie"]
+        },
+        {
+            id: 3,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/19c.jpg",
+                alt: "Boginii Gaja. Wygenerowane przez AI."
+            },
+            story: {
+                text: "Nauka o mitach, takich jak królowa G</u></b>aj</u></b>a to ten temat, gdzie <u><b>ja</u></b> mam największą wiedze",
+                alt: "Mitologia Boginii Gai. Kto to jest Boginii Gaja?"
+            },
+           category: ["nauka", "mitologia"]
+        },
+        {
+            id: 4,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/19d.jpg",
+                alt: "Wesele pary młodej. Wygenerowane przez AI."
+            },
+            story: {
+                text: "Teraz <u><b>ja</u></b> występuję na weselu jako wodzirej i śpiewam <u><b>Aj</u></b>-ja-jaj tak słodko jest tu z wami być..",
+                alt: "Przyjecie weselne. Kto może zostać wodzirejem?"
+            },
+            category: ["czarny humor", "muzyka"]
+        },
+        {
+            id: 5,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/19e.jpg",
+                alt: "Zajmowanie się kurami. Wygenerowane przez AI."
+            },
+            story: {
+                text: "Mo<u><b>ja</u></b> babcia idzie do kurnika po jaja, a <u><b>ja</u></b> będę za chwilę jadł jajecznice",
+               alt: "Gospodarstwo domowe ze zwierzętami. Czy hodowla zwierząt jest trudna?"
+            },
+            category: ["związki", "rodzina"]
+        }
+    ],
         translate: "Nie mam czasu na czytanie",
         translateb: "[Aj dont hew tajm tu rid]",
         srcWord: ["https://www.arbulang.com/filmy/read.mp4", "Księgowy(2016)", "Akcja"],
         srcWordimage: "https://www.arbulang.com/filmy/read.png",
-        story: [
-            "<u><b>Ja</u></b> jestem Piotrek, mam okulary ochronne, gdy jechałem rowerem wleciała mi mucha do <u><b>oka</u></b>, krzyczałem <u><b>ajjj</u></b> - dlaczego to <u><b>mi</u></b> wleciała mucha do <u><b>oka</u></b>, <u><b>ajjj</u></b>",
-            "M<u><b>aj</u></b>a ma zezowate <u><b>oko</u></b> i mówi, no <u><b>JA</u></b> widzę ciebie podwójnie",
-            "Nauka o mitach, takich jak królowa G</u></b>aj</u></b>a to ten temat, gdzie <u><b>ja</u></b> mam największą wiedze",
-            "Teraz <u><b>ja</u></b> występuję na weselu jako wodzirej i śpiewam <u><b>Aj</u></b>-ja-jaj tak słodko jest tu z wami być..",
-            "Mo<u><b>ja</u></b> babcia idzie do kurnika po jaja, a <u><b>ja</u></b> będę za chwilę jadł jajecznice"
-        ],
-        desc: "I[i] - ja",
+        desc: "I[aj] - ja",
         sentence1: [
             "I"
         ],
@@ -5876,13 +7109,6 @@ const fiszki = [
             "have"
         ],
         key: "i",
-        category1: [
-            "sport", "rowery",
-            "natura", "zdrowie",
-            "nauka", "mitologia",
-            "czarny humor", "muzyka",
-            "związki", "rodzina"
-        ],
         category2: ["osoby"],
         category3: ["PresentSimple", "PresentSimplePodmiot"]
     },
@@ -5892,8 +7118,20 @@ const fiszki = [
             21,
             41
         ],
-        img: "https://www.arbulang.com/img/fiszki1/121a.jpg",
-        story: "<b><u>Nie</b></u> chcemy, żeby l<b><u>ont</b></u> został odpalony przedwcześnie. </\b><u>Do</b></u> odpalenia lontu potrzebne jest przygotowanie",
+            entries: [
+        {
+            id: 1,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/121a.jpg",
+                alt: "Wygenerowane przez AI."
+            },
+            story: {
+                text: "<b><u>Nie</b></u> chcemy, żeby l<b><u>ont</b></u> został odpalony przedwcześnie. <b><u>Do</b></u> odpalenia lontu potrzebne jest przygotowanie",
+                alt: ""
+            },
+            category: ["praca", "wiedza"]
+        }
+            ],
         desc: "don't[dont] - nie",
         sentence1: [
             "don't"
@@ -5904,7 +7142,6 @@ const fiszki = [
             "have"
         ],
         key: "dont",
-        category1: "nauka",
         category2: ["osoby+czas", "podmiot+czas"],
         category3: ["PresentSimple", "PresentSimplePrzeczenie"]
     },
@@ -5914,8 +7151,20 @@ const fiszki = [
             21,
             41
         ],
-        img: "https://www.arbulang.com/img/fiszki1/122a.jpg",
-        story: "<b><u>Mam</b></u> fajne spodnie, ale puścił sz<b><u>ew</b></u>, <b><u>ch</b></u>yba go zaceruje",
+            entries: [
+        {
+            id: 1,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/122a.jpg",
+                alt: "Wygenerowane przez AI."
+            },
+            story: {
+                text: "<b><u>Mam</b></u> fajne spodnie, ale puścił sz<b><u>ew</b></u>, <b><u>ch</b></u>yba go zaceruje",
+                alt: ""
+            },
+            category: ["życie", "ubiór"]
+        }
+            ],
         desc: "have[hew] - mam",
         sentence1: [
             "have"
@@ -5926,7 +7175,6 @@ const fiszki = [
             "have"
         ],
         key: "have",
-        category1: "nauka",
         category2: ["osoby+czas", "podmiot+czas"],
         category3: ["PresentSimple", "PresentSimpleCzasownik"]
     },
@@ -5936,8 +7184,20 @@ const fiszki = [
             21,
             42
         ],
-        img: "https://www.arbulang.com/img/fiszki1/123a.jpg",
-        story: "Politycy mają dużo <b><u>czasu</b></u> - całą kadencje z<b><u>ajm</b></u>ować się stanowieniem prawa. A <b><u>ta</b></u>k im się spieszy",
+            entries: [
+        {
+            id: 1,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/123a.jpg",
+                alt: "Wygenerowane przez AI."
+            },
+            story: {
+                text: "Politycy mają dużo <b><u>czasu</b></u> - całą kadencje z<b><u>ajm</b></u>ować się stanowieniem prawa. A <b><u>ta</b></u>k im się spieszy",
+                alt: ""
+            },
+            category: ["życie", "ubiór"]
+        }
+            ],
         desc: "time[tajm] - czas",
         sentence2: [
             "time"
@@ -5948,7 +7208,6 @@ const fiszki = [
             "read"
         ],
         key: "time",
-        category1: "nauka",
         category2: "transport, "
     },
     {
@@ -5957,20 +7216,68 @@ const fiszki = [
             21,
             42
         ],
-        img: [
-            "https://www.arbulang.com/img/fiszki1/10a.jpg",
-            "https://www.arbulang.com/img/fiszki1/10b.jpg",
-            "https://www.arbulang.com/img/fiszki1/10c.jpg",
-            "https://www.arbulang.com/img/fiszki1/10d.jpg",
-            "https://www.arbulang.com/img/fiszki1/10e.jpg"
-        ],
-        story: [
-            '<u><b>Dla</u></b> spor<span class="adannotation" data-annotation="1"><u><b>tu</b></u></span> przeszedłem się pieszo <u><b>ku</u></b> parku',
-            'Ra<span class="adannotation" data-annotation="1"><u><b>tu</u></b></span>nku, ta droga poprowadziła nas <u><b>ku</u></b> wężom',
-            '<span class="adannotation" data-annotation="1"><b><u>Tu</b></u></span> w Egipcie Totem Faraona to pamiątka <u><b>ku</u></b> jego czci',
-            '<span class="adannotation" data-annotation="1"><b><u>Tu</b></u></span> <u><b>dla</u></b> Ciebie jest bardzo dobra aktywność, <u><b>to</u></b>talnie nie brakuje mi nic w drodze <u><b>ku</u></b>t mistrza',
-            'Aaaa.. <span class="adannotation" data-annotation="1"><b><u>tu</b></u></span> to jest, <b><u>ku</b></u> szczęściu znalazłem to..'
-        ],
+    entries: [
+        {
+            id: 1,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/10a.jpg",
+                alt: "Spacer po mieście. Wygenerowane przez AI."
+            },
+            story: {
+                text: '<u><b>Dla</u></b> spor<span class="adannotation" data-annotation="1"><u><b>tu</b></u></span> przeszedłem się pieszo <u><b>ku</u></b> parku',
+                alt: "Droga do pracy. Ile trzeba mieć do pracy, żeby móc pójść na nogach?"
+            },
+            category: ["sport", "czas wolny"]
+        },
+        {
+            id: 2,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/10b.jpg",
+                alt: "Wąż. Wygenerowane przez AI."
+            },
+            story: {
+                text: 'Ra<span class="adannotation" data-annotation="1"><u><b>tu</u></b></span>nku, ta droga poprowadziła nas <u><b>ku</u></b> wężom',
+               alt: "Rzeczywistość dżungli. Czy węże są niebezpieczne?"
+            },
+             category: ["natura", "zoologia"]
+        },
+        {
+            id: 3,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/10c.jpg",
+                alt: "Totem Faraona. Wygenerowane przez AI."
+            },
+            story: {
+                text: '<span class="adannotation" data-annotation="1"><b><u>Tu</b></u></span> w Egipcie Totem Faraona to pamiątka <u><b>ku</u></b> jego czci',
+                alt: "Historia i turystyka. Czy pamiątka Totemu Faraona jest ciekawą zdobyczą?"
+            },
+           category: ["nauka", "historia"]
+        },
+        {
+            id: 4,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/10d.jpg",
+                alt: "Trzymanie kciuków za wyniki sportowe. Wygenerowane przez AI."
+            },
+            story: {
+                text: '<span class="adannotation" data-annotation="1"><b><u>Tu</b></u></span> <u><b>dla</u></b> Ciebie jest bardzo dobra aktywność, <u><b>to</u></b>talnie nie brakuje mi nic w drodze <u><b>ku</u></b>t mistrza',
+                alt: "Sport i dyscyplina. Czy uczeń może prześcignąć mistrza?"
+            },
+            category: ["czarny humor", "sport"]
+        },
+        {
+            id: 5,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/10e.jpg",
+                alt: "Prezent okolicznościowy. Wygenerowane przez AI."
+            },
+            story: {
+                text: 'Aaaa.. <span class="adannotation" data-annotation="1"><b><u>tu</b></u></span> to jest, <b><u>ku</b></u> szczęściu znalazłem to..',
+               alt: "Umiejętności praktyczne. Czy trudno jest znaleźć coś gdy się spieszymy?"
+            },
+            category: ["związki", "czas wolny"]
+        }
+    ],
         desc: "to[tu] - do, ku",
         sentence2: [
             "to"
@@ -5981,13 +7288,6 @@ const fiszki = [
             "read"
         ],
         key: "to",
-        category1: [
-            "sport", "czas wolny",
-            "natura", "zoologia",
-            "nauka", "historia",
-            "czarny humor", "sport",
-            "związki", "czas wolny"
-        ],
         category2: "transport, "
     },
     {
@@ -5996,8 +7296,20 @@ const fiszki = [
             21,
             42
         ],
-        img: "https://www.arbulang.com/img/fiszki1/125a.jpg",
-        story: "Floryda to stan w USA, który powinien być czytany Flo<b><u>rid</b></u>a",
+            entries: [
+        {
+            id: 1,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/125a.jpg",
+                alt: "Wygenerowane przez AI."
+            },
+            story: {
+                text: "Floryda to stan w USA, który powinien być czytany Flo<b><u>rid</b></u>a",
+                alt: ""
+            },
+            category: ["życie", "ubiór"]
+        }
+            ],
         desc: "read[rid] - czytać",
         sentence2: [
             "read"
@@ -6008,7 +7320,6 @@ const fiszki = [
             "read"
         ],
         key: "read",
-        category1: "nauka",
         category2: ["czasownik"]
     },
     {
@@ -6017,12 +7328,24 @@ const fiszki = [
             22,
             43
         ],
-        img: "https://www.arbulang.com/img/fiszki1/113a.jpg",
+            entries: [
+        {
+            id: 1,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/113a.jpg",
+                alt: "Wygenerowane przez AI."
+            },
+            story: {
+                text: "Wszyscy <b><u>ludzie</b></u> muszą <b><u>pi</b></u>ć wodę, a w lato <b><u>pul</b></u>a pitej wody powinna się zwiekszać",
+                alt: ""
+            },
+            category: ["zdrowie", "nawadnianie"]
+        }
+            ],
         translate: "Ludzie myślą, że on ma racje",
         translateb: "[Pipul fink dat hi is rajt]",
         srcWord: ["https://www.arbulang.com/filmy/right.mp4", "Klub Dyskusyjny(2007)", "Biograficzny"],
         srcWordimage: "https://www.arbulang.com/filmy/right.png",
-        story: "Wszyscy <b><u>ludzie</b></u> muszą <b><u>pi</b></u>ć wodę, a w lato <b><u>pul</b></u>a pitej wody powinna się zwiekszać",
         desc: "people[pipul] - ludzie",
         sentence1: [
             "People"
@@ -6033,7 +7356,6 @@ const fiszki = [
             "that"
         ],
         key: "people",
-        category1: ["zdrowie", "medycyna"],
         category2: ["osoby"],
         category3: ["PresentSimple", "PresentSimplePodmiot"]
     },
@@ -6043,8 +7365,20 @@ const fiszki = [
             22,
             43
         ],
-        img: "https://www.arbulang.com/img/fiszki1/127a.jpg",
-        story: "<b><u>Fin</b></u>owie <b><u>myślą</b></u> bardzo pragmatycznie o kawie <b><u>ink</b></u>a",
+            entries: [
+        {
+            id: 1,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/113a.jpg",
+                alt: "Wygenerowane przez AI."
+            },
+            story: {
+                text: "<b><u>Fin</b></u>owie <b><u>myślą</b></u> bardzo pragmatycznie o kawie <b><u>ink</b></u>a",
+                alt: ""
+            },
+            category: ["zdrowie", "przyjemność"]
+        }
+            ],
         desc: "think[fink] - myśleć",
         sentence1: [
             "think"
@@ -6055,7 +7389,6 @@ const fiszki = [
             "that"
         ],
         key: "think",
-        category1: "nauka",
         category2: ["podmiot+czas"],
         category3: ["PresentSimple", "PresentSimpleCzasownik"]
     },
@@ -6065,8 +7398,20 @@ const fiszki = [
             22,
             43
         ],
-        img: "https://www.arbulang.com/img/fiszki1/128a.jpg",
-        story: "<b><u>Dat</b></u>a tego przyszłego wydarzenia wskazuje, <b><u>że</b></u> niektórym się spieszy, aby się odbyło",
+            entries: [
+        {
+            id: 1,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/113a.jpg",
+                alt: "Wygenerowane przez AI."
+            },
+            story: {
+                text: "<b><u>Dat</b></u>a tego przyszłego wydarzenia wskazuje, <b><u>że</b></u> niektórym się spieszy, aby się odbyło",
+                alt: ""
+            },
+            category: ["wydarzenia", "realizacja"]
+        }
+            ],
         desc: "that[dat] - że",
         sentence1: [
             "that"
@@ -6077,7 +7422,6 @@ const fiszki = [
             "that"
         ],
         key: "that",
-        category1: "nauka",
         category2: ["spojniki"]
     },
     {
@@ -6086,8 +7430,20 @@ const fiszki = [
             22,
             44
         ],
-        img: "https://www.arbulang.com/img/fiszki1/129a.jpg",
-        story: "On jest już postacią <b><u>his</b></u>toryczną na ten moment",
+            entries: [
+        {
+            id: 1,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/129a.jpg",
+                alt: "Wygenerowane przez AI."
+            },
+            story: {
+                text: "On jest już postacią <b><u>his</b></u>toryczną na ten moment",
+                alt: ""
+            },
+            category: ["wydarzenia", "realizacja"]
+        }
+            ],
         desc: "he's[his] - on jest(skrót gramatyczny)",
         sentence2: [
             "he's"
@@ -6106,8 +7462,20 @@ const fiszki = [
             22,
             44
         ],
-        img: "https://www.arbulang.com/img/fiszki1/130a.jpg",
-        story: "<b><u>Dobrze</b></u> żyłeś. A <b><u>t</b></u>o jest <b><u>raj</b></u> dla ciebie",
+            entries: [
+        {
+            id: 1,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/130a.jpg",
+                alt: "Wygenerowane przez AI."
+            },
+            story: {
+                text: "<b><u>Dobrze</b></u> żyłeś. A <b><u>t</b></u>o jest <b><u>raj</b></u> dla ciebie",
+                alt: ""
+            },
+            category: ["życie", "wiara"]
+        }
+            ],
         desc: "right[rajt] - dobrze/prawy",
         sentence2: [
             "right"
@@ -6117,7 +7485,6 @@ const fiszki = [
             "right"
         ],
         key: "right",
-        category1: "nauka",
         category2: ""
     },
     {
@@ -6126,12 +7493,24 @@ const fiszki = [
             23,
             45
         ],
-        img: "https://www.arbulang.com/img/fiszki1/131a.jpg",
+            entries: [
+        {
+            id: 1,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/130a.jpg",
+                alt: "Wygenerowane przez AI."
+            },
+            story: {
+                text: "<b><u>Wi</b></u>ll Smith oznajmił, że <b><u>my</b></u> jako ludzkość mamy się dobrze",
+                alt: ""
+            },
+            category: ["show-biznes", "aktor"]
+        }
+            ],
         translate: "My powinniśmy dbać o naszą przyszłość",
         translateb: "[Łi szud ker ebaut aur fjuczer]",
         srcWord: ["https://www.arbulang.com/filmy/future.mp4", "Titanic(1997)", "Romantyczny"],
         srcWordimage: "https://www.arbulang.com/filmy/future.png",
-        story: "<b><u>Wi</b></u>ll Smith oznajmił, że <b><u>my</b></u> jako ludzkość mamy się dobrze",
         desc: "we[łi] - my",
         sentence1: [
             "We"
@@ -6142,7 +7521,6 @@ const fiszki = [
             "care"
         ],
         key: "we",
-        category1: "nauka",
         category2: ["osoby"],
         category3: ["Modal + Base Verb (Present Simple)"]
     },
@@ -6152,8 +7530,20 @@ const fiszki = [
             23,
             45
         ],
-        img: "https://www.arbulang.com/img/fiszki1/132a.jpg",
-        story: "Suplementy grzybów riszi powinny poprawić Ci zrowie. Udanej suplementacji..",
+            entries: [
+        {
+            id: 1,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/132a.jpg",
+                alt: "Wygenerowane przez AI."
+            },
+            story: {
+                text: "Suplementy grzybów ri<b><u>szi</b></u> powinny poprawić Ci zrowie. <b><u>Ud</b></u>anej suplementacji...",
+                alt: ""
+            },
+            category: ["zdrowie", "suplementy"]
+        }
+            ],
         desc: "should[sziud] - powinien/powinniśmy",
         sentence1: [
             "should"
@@ -6164,7 +7554,6 @@ const fiszki = [
             "care"
         ],
         key: "should",
-        category1: "nauka",
         category2: ["podmiot+czas", "osoby+czas"]
     },
     {
@@ -6173,8 +7562,20 @@ const fiszki = [
             23,
             45
         ],
-        img: "https://www.arbulang.com/img/fiszki1/133a.jpg",
-        story: "<b><u>Ker</b></u>atynowe prostowanie włosów jest dostępne u fryzjera, tak możesz o siebie <b><u>zadbać</b></u>",
+            entries: [
+        {
+            id: 1,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/133a.jpg",
+                alt: "Wygenerowane przez AI."
+            },
+            story: {
+                text: "<b><u>Ker</b></u>atynowe prostowanie włosów jest dostępne u fryzjera, tak możesz o siebie <b><u>zadbać</b></u>",
+                alt: ""
+            },
+            category: ["uroda", "fryzjer"]
+        }
+            ],
         desc: "care[ker] - dbać",
         sentence1: [
             "care"
@@ -6194,8 +7595,20 @@ const fiszki = [
             23,
             46
         ],
-        img: "https://www.arbulang.com/img/fiszki1/134a.jpg",
-        story: "S<b><u>eba</b></u> występuje dla weselników.. Dawno nie było takiej ha<b><u>łt</b></u>ury",
+            entries: [
+        {
+            id: 1,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/134a.jpg",
+                alt: "Wygenerowane przez AI."
+            },
+            story: {
+                text: "S<b><u>eba</b></u> występuje dla weselników.. Dawno nie było takiej ha<b><u>łt</b></u>ury",
+                alt: ""
+            },
+            category: ["rozrywka", "imprezy"]
+        }
+            ],
         desc: "about[ebałt] - o tym/o czymś",
         sentence2: [
             "about"
@@ -6206,7 +7619,6 @@ const fiszki = [
             "future"
         ],
         key: "about",
-        category1: ["rozrywka", "imprezy"],
         category2: ["spojniki"]
     },
     {
@@ -6215,21 +7627,68 @@ const fiszki = [
             23,
             46
         ],
-        img: [
-            "https://www.arbulang.com/img/fiszki1/31a.jpg",
-            "https://www.arbulang.com/img/fiszki1/31b.jpg",
-            "https://www.arbulang.com/img/fiszki1/31c.jpg",
-            "https://www.arbulang.com/img/fiszki1/31d.jpg",
-            "https://www.arbulang.com/img/fiszki1/31e.jpg"
-        ],
-        story: [
-            "<u><b>Aur</u></b>a zawodnika z <u><b>naszego</u></b> zespołu jest niesamowita",
-            "M<u><b>aur</u></b>ycy to jest <u><b>nasz</u></b> ogrodnik",
-            "<u><b>Nasz</u></b> dostawca prądu to <u><b>Taur</u></b>on",
-            "Władcy pierścieni.. najniebezpieczniejsze dla <u><b>naszego</u></b> bezpieczeństwa było oko S<u><b>aur</u></b>ona",
-            "<u><b>Nasza</u></b> mama dostała l<u><b>aur</u></b>kę na dzień mamy",
-            "<u><b>Nasi</u></b> spartanie krzyczą <u><b>AAAUUU!!!</u></b> wszyscy razem przed walką"
-        ],
+    entries: [
+        {
+            id: 1,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/32aa.jpg",
+                alt: "Zawodnik na meczu. Wygenerowane przez AI."
+            },
+            story: {
+                text: "<u><b>Aur</u></b>a zawodnika z <u><b>naszego</u></b> zespołu jest niesamowita",
+                alt: "Wizerunek sportowca. Czy sportowiec może mieć niesamwitą aurę?"
+            },
+            category: ["sport", "mindeset"]
+        },
+        {
+            id: 2,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/32bb.jpg",
+                alt: "Ogrodnik w ogrodzie. Wygenerowane przez AI."
+            },
+            story: {
+                text: "M<u><b>aur</u></b>ycy to jest <u><b>nasz</u></b> ogrodnik",
+                alt: "Zawody. Czy ogrodnictwo może być fajnym zawodem?"
+            },
+             category: ["natura", "zawód"]
+        },
+        {
+            id: 3,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/32cc.jpg",
+                alt: "Sieć wysokiego napięcia. Wygenerowane przez AI."
+            },
+            story: {
+                text: "<u><b>Nasz</u></b> dostawca prądu to <u><b>Taur</u></b>on",
+                alt: "Płacenie rachunków. Czy zapłacenie rachunku na czas daje satysfakcję?"
+            },
+           category: ["nauka", "energetyka"]
+        },
+        {
+            id: 4,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/32dd.jpg",
+                alt: "Oko Saurona. Wygenerowane przez AI."
+            },
+            story: {
+                text: "Władcy pierścieni.. najniebezpieczniejsze dla <u><b>naszego</u></b> bezpieczeństwa było oko S<u><b>aur</u></b>ona",
+                alt: "Powieść fantastyczna. Co było najgroźniejsze dla Drużyny Pierścienia?"
+            },
+            category: ["czarny humor", "filmy"]
+        },
+        {
+            id: 5,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/32ee.jpg",
+                alt: "Laurka dla mamy. Wygenerowane przez AI."
+            },
+            story: {
+                text: "<u><b>Nasza</u></b> mama dostała l<u><b>aur</u></b>kę na dzień mamy",
+                alt: "Imprezy okolicznościowe. Jaki prezent jest najlepszy na dzień mamy?"
+            },
+            category: ["związki", "okazje"]
+        }
+    ],
         desc: "our[aur] - nasz/nasze",
         sentence2: [
             "our"
@@ -6240,14 +7699,6 @@ const fiszki = [
             "future"
         ],
         key: "our",
-        category1: [
-            "sport", "mindset",
-            "natura", "zawód",
-            "nauka", "energetyka",
-            "czarny humor", "filmy",
-            "związki", "okazje",
-            "historia", "imperium"
-        ],
         category2: ["zaimkiosobowe"]
     },
     {
@@ -6256,8 +7707,20 @@ const fiszki = [
             23,
             46
         ],
-        img: "https://www.arbulang.com/img/fiszki1/136a.jpg",
-        story: "<u><b>F</u></b>acebook <u><b>ju</u></b>tro(<u><b>w przyszłości</u></b>) wprowadza zmiany na kolorystyke <u><b>czer</u></b>woną",
+            entries: [
+        {
+            id: 1,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/136a.jpg",
+                alt: "Wygenerowane przez AI."
+            },
+            story: {
+                text: "<u><b>F</u></b>acebook <u><b>ju</u></b>tro(<u><b>w przyszłości</u></b>) wprowadza zmiany na kolorystyke <u><b>czer</u></b>woną",
+                alt: ""
+            },
+            category: ["media", "facebook"]
+        }
+            ],
         desc: "future[fjuczer] - przyszłość",
         sentence2: [
             "future"
@@ -6268,7 +7731,6 @@ const fiszki = [
             "future"
         ],
         key: "future",
-        category1: "nauka",
         category2: "zdarzeniaczasu"
     },
     {
@@ -6365,8 +7827,20 @@ const fiszki = [
             24,
             47
         ],
-        img: "https://www.arbulang.com/img/fiszki1/138a.jpg",
-        story: "<b><u>Cena</b></u> za moją <b><u>pra</b></u>ce(rysunek) nad drzeworytem jest wysoka. To da mi h<b><u>ajs</b></u>",
+            entries: [
+        {
+            id: 1,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/138a.jpg",
+                alt: "Wygenerowane przez AI."
+            },
+            story: {
+                text: "<b><u>Cena</b></u> za moją <b><u>pra</b></u>ce(rysunek) nad drzeworytem jest wysoka. To da mi h<b><u>ajs</b></u>",
+                alt: ""
+            },
+            category: ["praca", "zawód"]
+        }
+            ],
         desc: "price[prajs] - cena",
         sentence1: [
             "price"
@@ -6380,7 +7854,6 @@ const fiszki = [
             "rules"
         ],
         key: "price",
-        category1: "nauka",
         category2: "transport",
         category3: ["PresentSimple", "PresentSimplePodmiot"]
     },
@@ -6390,8 +7863,20 @@ const fiszki = [
             24,
             47
         ],
-        img: "https://www.arbulang.com/img/fiszki1/139a.jpg",
-        story: "<b><u>For</b></u>est Gump jest filmem <b><u>dla</b></u> każdego",
+            entries: [
+        {
+            id: 1,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/139a.jpg",
+                alt: "Wygenerowane przez AI."
+            },
+            story: {
+                text: "<b><u>For</b></u>est Gump jest filmem <b><u>dla</b></u> każdego",
+                alt: ""
+            },
+            category: ["sztuka", "film"]
+        }
+            ],
         desc: "for[for] - dla",
         sentence1: [
             "for"
@@ -6414,8 +7899,20 @@ const fiszki = [
             24,
             47
         ],
-        img: "https://www.arbulang.com/img/fiszki1/140a.jpg",
-        story: "Król <b><u>kin</b></u>a akcji <b><u>złamał</b></u> nogę i musi pić lekarstwo <b><u>brej</b></u>ę, żeby go uleczyło",
+            entries: [
+        {
+            id: 1,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/140a.jpg",
+                alt: "Wygenerowane przez AI."
+            },
+            story: {
+                text: "Król <b><u>kin</b></u>a akcji <b><u>złamał</b></u> nogę i musi pić lekarstwo <b><u>brej</b></u>ę, żeby go uleczyło",
+                alt: ""
+            },
+            category: ["sztuka", "film"]
+        }
+            ],
         desc: "breaking[brejkin] - złamać",
         sentence1: [
             "breaking"
@@ -6521,8 +8018,20 @@ const fiszki = [
             24,
             47
         ],
-        img: "https://www.arbulang.com/img/fiszki1/142a.jpg",
-        story: "<b><u>Guru przepowiada <b><u>przyszłość</b></u>, w której mówi jaki ludzie będą mieć p<b><u>uls</b></u>",
+            entries: [
+        {
+            id: 1,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/142a.jpg",
+                alt: "Wygenerowane przez AI."
+            },
+            story: {
+                text: "Gu<b><u>ru</b></u> przepowiada <b><u>przyszłość</b></u>, w której mówi jaki ludzie będą mieć p<b><u>uls</b></u>",
+                alt: ""
+            },
+            category: ["filozofia", "zdrowie"]
+        }
+            ],
         desc: "rules[ruls] - przyszłość",
         sentence1: [
             "rules"
@@ -6536,7 +8045,6 @@ const fiszki = [
             "rules"
         ],
         key: "rules",
-        category1: "nauka",
         category2: "transport, "
     },
     {
@@ -6643,15 +8151,6 @@ const fiszki = [
             "high"
         ],
         key: "is",
-        category1: [
-            "sport", "bieganie",
-            "natura", "zawód",
-            "nauka", "definicje",
-            "czarny humor", "zoologia",
-            "związki", "kreskówki",
-            "lifestyle", "sukces",
-            "geografia", "miasta"
-        ],
         category2: ["podmiot+czas", "czasownik"],
         category3: ["PresentSimple", "PresentSimpleCzasownik"]
     },
@@ -6661,8 +8160,20 @@ const fiszki = [
             24,
             48
         ],
-        img: "https://www.arbulang.com/img/fiszki1/144a.jpg",
-        story: "Lider i jego żona ma<b><u>chaj</b></u>ą <b><u>wysoko</b></u> rękoma i wszystkich pozdrawiają. Są w telewizji więc ilość osób go oglądająca jest <b><u>duża</b></u>",
+            entries: [
+        {
+            id: 1,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/144a.jpg",
+                alt: "Wygenerowane przez AI."
+            },
+            story: {
+                text: "Lider i jego żona ma<b><u>chaj</b></u>ą <b><u>wysoko</b></u> rękoma i wszystkich pozdrawiają. Są w telewizji więc ilość osób go oglądająca jest <b><u>duża</b></u>",
+                alt: ""
+            },
+            category: ["wystąpienia", "publiczność"]
+        }
+            ],
         desc: "high[haj] - dużo/wysoko",
         sentence2: [
             "high"
@@ -6672,7 +8183,6 @@ const fiszki = [
             "high"
         ],
         key: "high",
-        category1: "nauka",
         category2: [""],
         category3: ["PresentSimple"]
     },
@@ -6769,8 +8279,20 @@ const fiszki = [
             25,
             49
         ],
-        img: "https://www.arbulang.com/img/fiszki1/127a.jpg",
-        story: "<b><u>Fin</b></u>owie <b><u>myślą</b></u> bardzo pragmatycznie o kawie <b><u>ink</b></u>a",
+            entries: [
+        {
+            id: 1,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/127a.jpg",
+                alt: "Wygenerowane przez AI."
+            },
+            story: {
+                text: "<b><u>Fin</b></u>owie <b><u>myślą</b></u> bardzo pragmatycznie o kawie <b><u>ink</b></u>a - <b><u>s</b></u>uper",
+                alt: ""
+            },
+            category: ["zdrowie", "przyjemność"]
+        }
+            ],
         desc: "thinks[finks] - myśleć",
         sentence1: [
             "thinks"
@@ -6783,7 +8305,6 @@ const fiszki = [
             "way"
         ],
         key: "thinks",
-        category1: "nauka",
         category2: ["czasownik", "podmiot+czas", "osoby+czas"],
         category3: ["PresentSimple", "PresentSimpleCzasownik"]
     },
@@ -6793,8 +8314,20 @@ const fiszki = [
             25,
             49
         ],
-        img: "https://www.arbulang.com/img/fiszki1/147a.jpg",
-        story: "M<b><u>its</b></u>ubishi Lancer <b><u>to jest</b></u> dopiero auto",
+            entries: [
+        {
+            id: 1,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/147a.jpg",
+                alt: "Wygenerowane przez AI."
+            },
+            story: {
+                text: "M<b><u>its</b></u>ubishi Lancer <b><u>to jest</b></u> dopiero auto",
+                alt: ""
+            },
+            category: ["motoryzacja", "auto"]
+        }
+            ],
         desc: "it's[its] - to jest",
         sentence1: [
             "it's"
@@ -6807,7 +8340,6 @@ const fiszki = [
             "way"
         ],
         key: "it's",
-        category1: "nauka",
         category2: ["podmiot+czas", "osoby+czas"]
     },
     {
@@ -6816,8 +8348,20 @@ const fiszki = [
             25,
             49
         ],
-        img: "https://www.arbulang.com/img/fiszki1/148a.jpg",
-        story: "<b><u>On</b></u> - Bruce <b><u>Lee(Li)</b></u> to <b><u>jedyna</b></u> postać, która osiągnełą w sztukach walki tak duże zrozumienie",
+            entries: [
+        {
+            id: 1,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/148a.jpg",
+                alt: "Wygenerowane przez AI."
+            },
+            story: {
+                text: "<b><u>On</b></u> - Bruce <b><u>Lee(Li)</b></u> to <b><u>jedyna</b></u> postać, która osiągnełą w sztukach walki tak duże zrozumienie",
+                alt: ""
+            },
+            category: ["sport", "sztuki walki"]
+        }
+            ],
         desc: "only[onli] - jedyny/jedyna/jedyne",
         sentence1: [
             "only"
@@ -6830,7 +8374,6 @@ const fiszki = [
             "way"
         ],
         key: "only",
-        category1: "nauka",
         category2: "transport, "
     },
     {
@@ -6839,8 +8382,20 @@ const fiszki = [
             25,
             49
         ],
-        img: "https://www.arbulang.com/img/fiszki1/149a.jpg",
-        story: "Ta <b><u>droga</b></u> jest o ma<b><u>łej</b></u> częstotliwości ruchu",
+            entries: [
+        {
+            id: 1,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/149a.jpg",
+                alt: "Wygenerowane przez AI."
+            },
+            story: {
+                text: "Ta <b><u>droga</b></u> jest o ma<b><u>łej</b></u> częstotliwości ruchu",
+                alt: ""
+            },
+            category: ["transport", "drogi"]
+        }
+            ],
         desc: "way[łej] - droga",
         sentence1: [
             "way"
@@ -6862,20 +8417,68 @@ const fiszki = [
             25,
             50
         ],
-        img: [
-            "https://www.arbulang.com/img/fiszki1/10a.jpg",
-            "https://www.arbulang.com/img/fiszki1/10b.jpg",
-            "https://www.arbulang.com/img/fiszki1/10c.jpg",
-            "https://www.arbulang.com/img/fiszki1/10d.jpg",
-            "https://www.arbulang.com/img/fiszki1/10e.jpg"
-        ],
-        story: [
-            '<u><b>Dla</u></b> spor<span class="adannotation" data-annotation="1"><u><b>tu</b></u></span> przeszedłem się pieszo <u><b>ku</u></b> parku',
-            'Ra<span class="adannotation" data-annotation="1"><u><b>tu</u></b></span>nku, ta droga poprowadziła nas <u><b>ku</u></b> wężom',
-            '<span class="adannotation" data-annotation="1"><b><u>Tu</b></u></span> w Egipcie Totem Faraona to pamiątka <u><b>ku</u></b> jego czci',
-            '<span class="adannotation" data-annotation="1"><b><u>Tu</b></u></span> <u><b>dla</u></b> Ciebie jest bardzo dobra aktywność, <u><b>to</u></b>talnie nie brakuje mi nic w drodze <u><b>ku</u></b>t mistrza',
-            'Aaaa.. <span class="adannotation" data-annotation="1"><b><u>tu</b></u></span> to jest, <b><u>ku</b></u> szczęściu znalazłem to..'
-        ],
+    entries: [
+        {
+            id: 1,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/10a.jpg",
+                alt: "Spacer po mieście. Wygenerowane przez AI."
+            },
+            story: {
+                text: '<u><b>Dla</u></b> spor<span class="adannotation" data-annotation="1"><u><b>tu</b></u></span> przeszedłem się pieszo <u><b>ku</u></b> parku',
+                alt: "Droga do pracy. Ile trzeba mieć do pracy, żeby móc pójść na nogach?"
+            },
+            category: ["sport", "czas wolny"]
+        },
+        {
+            id: 2,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/10b.jpg",
+                alt: "Wąż. Wygenerowane przez AI."
+            },
+            story: {
+                text: 'Ra<span class="adannotation" data-annotation="1"><u><b>tu</u></b></span>nku, ta droga poprowadziła nas <u><b>ku</u></b> wężom',
+               alt: "Rzeczywistość dżungli. Czy węże są niebezpieczne?"
+            },
+             category: ["natura", "zoologia"]
+        },
+        {
+            id: 3,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/10c.jpg",
+                alt: "Totem Faraona. Wygenerowane przez AI."
+            },
+            story: {
+                text: '<span class="adannotation" data-annotation="1"><b><u>Tu</b></u></span> w Egipcie Totem Faraona to pamiątka <u><b>ku</u></b> jego czci',
+                alt: "Historia i turystyka. Czy pamiątka Totemu Faraona jest ciekawą zdobyczą?"
+            },
+           category: ["nauka", "historia"]
+        },
+        {
+            id: 4,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/10d.jpg",
+                alt: "Trzymanie kciuków za wyniki sportowe. Wygenerowane przez AI."
+            },
+            story: {
+                text: '<span class="adannotation" data-annotation="1"><b><u>Tu</b></u></span> <u><b>dla</u></b> Ciebie jest bardzo dobra aktywność, <u><b>to</u></b>talnie nie brakuje mi nic w drodze <u><b>ku</u></b>t mistrza',
+                alt: "Sport i dyscyplina. Czy uczeń może prześcignąć mistrza?"
+            },
+            category: ["czarny humor", "sport"]
+        },
+        {
+            id: 5,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/10e.jpg",
+                alt: "Prezent okolicznościowy. Wygenerowane przez AI."
+            },
+            story: {
+                text: 'Aaaa.. <span class="adannotation" data-annotation="1"><b><u>tu</b></u></span> to jest, <b><u>ku</b></u> szczęściu znalazłem to..',
+               alt: "Umiejętności praktyczne. Czy trudno jest znaleźć coś gdy się spieszymy?"
+            },
+            category: ["związki", "czas wolny"]
+        }
+    ],
         desc: "to[tu] - do, ku",
         sentence2: [
             "to"
@@ -6887,13 +8490,6 @@ const fiszki = [
             "war"
         ],
         key: "to",
-        category1: [
-            "sport", "czas wolny",
-            "natura", "zoologia",
-            "nauka", "historia",
-            "czarny humor", "sport",
-            "związki", "czas wolny"
-        ],
         category2: ["osoby+czas"]
     },
     {
@@ -6902,8 +8498,20 @@ const fiszki = [
             25,
             50
         ],
-        img: "https://www.arbulang.com/img/fiszki1/151a.jpg",
-        story: "Lekarz mówi do pacjenta: <u><b>Ewo</u></b> <u><b>unikaj</u></b> jeszenia słodyczy, a ta <u><b>id</u></b>ąc za jego radą - postanawia tak",
+            entries: [
+        {
+            id: 1,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/151a.jpg",
+                alt: "Wygenerowane przez AI."
+            },
+            story: {
+                text: "Lekarz mówi do pacjenta: <u><b>Ewo</u></b> <u><b>unikaj</u></b> jeszenia słodyczy, a ta <u><b>id</u></b>ąc za jego radą - postanawia tak",
+                alt: ""
+            },
+            category: ["zdrowie", "dieta"]
+        }
+            ],
         desc: "avoid[ewoid] - unikać",
         sentence2: [
             "avoid"
@@ -6915,7 +8523,6 @@ const fiszki = [
             "war"
         ],
         key: "avoid",
-        category1: "nauka",
         category2: ["czasownik", "osoby+czas"]
     },
     {
@@ -6924,8 +8531,20 @@ const fiszki = [
             25,
             50
         ],
-        img: "https://www.arbulang.com/img/fiszki1/152a.jpg",
-        story: "<u><b>E</u></b>mil zdał <u><b>kolejny</u></b> na<u><b>der</u></b> trudny test",
+            entries: [
+        {
+            id: 1,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/152a.jpg",
+                alt: "Wygenerowane przez AI."
+            },
+            story: {
+                text: "<u><b>E</u></b>mil zdał <u><b>kolejny</u></b> na<u><b>der</u></b> trudny test",
+                alt: ""
+            },
+            category: ["nauka", "test"]
+        }
+            ],
         desc: "another[enader] - kolejny/kolejna",
         sentence2: [
             "another"
@@ -6937,7 +8556,6 @@ const fiszki = [
             "war"
         ],
         key: "another",
-        category1: "nauka",
         category2: "transport, "
     },
     {
@@ -6946,8 +8564,20 @@ const fiszki = [
             25,
             50
         ],
-        img: "https://www.arbulang.com/img/fiszki1/153a.jpg",
-        story: "Podczas wojny za p<u><b>ło</u></b>tem u sąsiada <u><b>R</u></b>omana spadła bomba",
+            entries: [
+        {
+            id: 1,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/153a.jpg",
+                alt: "Wygenerowane przez AI."
+            },
+            story: {
+                text: "Podczas wojny za p<u><b>ło</u></b>tem u sąsiada <u><b>R</u></b>omana spadła bomba",
+                alt: ""
+            },
+            category: ["wojna", "dramat"]
+        }
+            ],
         desc: "war[łor] - wojna",
         sentence2: [
             "war"
@@ -6959,7 +8589,6 @@ const fiszki = [
             "war"
         ],
         key: "war",
-        category1: "nauka",
         category2: "transport, "
     },
     {
@@ -7047,13 +8676,6 @@ const fiszki = [
             "school"
         ],
         key: "the",
-        category1: [
-            "sport", "koszykówka",
-            "natura", "czas wolny",
-            "nauka", "rząd",
-            "czarny humor", "polityka",
-            "związki", "rodzina"
-        ],
         category2: [""],
         category3: ["PastSimple"]
     },
@@ -7063,8 +8685,20 @@ const fiszki = [
             26,
             51
         ],
-        img: "https://www.arbulang.com/img/fiszki1/155a.jpg",
-        story: "Sociolog K<u><b>aj</u></b>tek ma świetne pomysły, jednym z nich jest obliczenie me<u><b>dia</u></b>ny wieku bezrobotnych",
+            entries: [
+        {
+            id: 1,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/155a.jpg",
+                alt: "Wygenerowane przez AI."
+            },
+            story: {
+                text: "Sociolog K<u><b>aj</u></b>tek ma świetne pomysły, jednym z nich jest obliczenie me<u><b>dia</u></b>ny wieku bezrobotnych",
+                alt: ""
+            },
+            category: ["socjologia", "badania"]
+        }
+            ],
         desc: "idea[ajdia] - idea",
         sentence1: [
             "idea"
@@ -7078,7 +8712,6 @@ const fiszki = [
             "school"
         ],
         key: "idea",
-        category1: "nauka",
         category2: ["podmiot+czas"]
     },
     {
@@ -7087,15 +8720,33 @@ const fiszki = [
             26,
             51
         ],
-        img: [
-            "https://www.arbulang.com/img/fiszki1/89a.jpg",
-            "https://www.arbulang.com/img/fiszki1/112b.jpg"
-        ],
-        story: [
-            "Tą <b><u>of</b></u>ensywę podjął każdy żołnierz z <b><u>tego</b></u> plutonu",
-            "Dezedorant <b><u>off</b></u> jest na <b><u>te</b></u> komary"
-        ],
-        desc: "of[of] - tego/ten",
+            entries: [
+        {
+            id: 1,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/89a.jpg",
+                alt: "Żołnierze w walce. Wygenerowane przez AI."
+            },
+            story: {
+                text: "Tą <b><u>of</b></u>ensywę podjął każdy żołnierz z <b><u>tego</b></u> plutonu",
+                alt: "Wojsko a trening umiejętności bojowych. Jak wyszkolić żołnierza?"
+            },
+            category: ["wojsko", "walka"]
+        },
+                {
+            id: 1,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/112b.jpg",
+                alt: "Dezedorant na komary. Wygenerowane przez AI."
+            },
+            story: {
+                text: "Dezedorant <b><u>off</b></u> jest na <b><u>te</b></u> komary",
+                alt: "Odstraszanie komarów. Czy istnieją skuteczne sposoby na odstaraszenie komarów?"
+            },
+            category: ["lato", "komary"]
+        }
+            ],
+        desc: "of[of] - te/tego/tej",
         sentence1: [
             "of"
         ],
@@ -7108,10 +8759,6 @@ const fiszki = [
             "school"
         ],
         key: "of",
-        category1: [
-            "wojsko", "gotowość",
-            "medycyna", "preparaty"
-        ],
         category2: "transport, "
     },
     {
@@ -7120,8 +8767,20 @@ const fiszki = [
             26,
             51
         ],
-        img: "https://www.arbulang.com/img/fiszki1/157a.jpg",
-        story: "Szkod<b><u>liwi</b></u> nauczyciele nie chcą <b><u>opuścić</b></u> naszej szkoły w Mo<b><u>ng</b></u>olii",
+            entries: [
+        {
+            id: 1,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/157a.jpg",
+                alt: "Wygenerowane przez AI."
+            },
+            story: {
+                text: "Szkod<b><u>liwi</b></u> nauczyciele nie chcą <b><u>opuścić</b></u> naszej szkoły w Mo<b><u>ng</b></u>olii",
+                alt: ""
+            },
+            category: ["nauka", "szkoła"]
+        }
+            ],
         desc: "leaving[living] - opuścić",
         sentence1: [
             "leaving"
@@ -7144,14 +8803,32 @@ const fiszki = [
             26,
             51
         ],
-        img: [
-            "https://www.arbulang.com/img/fiszki1/47a.jpg",
-            "https://www.arbulang.com/img/fiszki1/106b.jpg"
-        ],
-        story: [
-            "<b><u>Jego</b></u> <b><u>his</b></u>toria jest bardzo atrakcyjna i bujna",
-            "Jego ma<b><u>chi</b></u>na jest bardzo <b><u>s</b></u>prawna"
-        ],
+            entries: [
+        {
+            id: 1,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/48aa.jpg",
+                alt: "Historia człowieka w muzeum. Wygenerowane przez AI."
+            },
+            story: {
+                text: "<b><u>Jego</b></u> <b><u>his</b></u>toria jest bardzo atrakcyjna i bujna",
+                alt: "Opowieść o dawnych czasach. Jak opowiadać historię?"
+            },
+            category: ["związki", "autoprezentacja"]
+        },
+                {
+            id: 2,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/106b.jpg",
+                alt: "Wynalazek nowoczesności. Wygenerowane przez AI."
+            },
+            story: {
+                text: "Jego ma<b><u>chi</b></u>na jest bardzo <b><u>s</b></u>prawna",
+                alt: "Projektowanie urządzenia. Jak projektuje się maszyny?"
+            },
+            category: ["praca", "technologia"]
+        }
+            ],
         desc: "his[his] - jego",
         sentence1: [
             "his"
@@ -7165,9 +8842,6 @@ const fiszki = [
             "school"
         ],
                 key: "his",
-        category1: ["związki", "autoprezentacja",
-            "praca", "technologia"
-        ],
         category2: ["zaimkiosobowe"]
     },
     {
@@ -7176,20 +8850,68 @@ const fiszki = [
             26,
             51
         ],
-        img: [
-            "https://www.arbulang.com/img/fiszki1/32a.jpg",
-            "https://www.arbulang.com/img/fiszki1/32b.jpg",
-            "https://www.arbulang.com/img/fiszki1/32c.jpg",
-            "https://www.arbulang.com/img/fiszki1/33d.jpg",
-            "https://www.arbulang.com/img/fiszki1/33e.jpg"
-        ],
-        story: [
-            "Na pa<b><u>sku</b></u> ekranu jest wynik drużyny z naszej <b><u>szkoły</b></u>, mam swojego <b><u>ul</b></u>ubionego zawodnika",
-            "Obok naszej <b><u>szkoły</b></u> jest staw, gdzie łabędź <b><u>sku</b></u>bie sobie piórka, obserwowanie go to nasza <b><u>ul</b></u>ubiona zabawa",
-            "W <b><u>szkole</b></u> <b><u>sku</b></u>wają tynki, kurzy się na <b><u>ul</b></u>icę",
-            "Jasio jest <b><u>skul</b></u>ony w <b><u>szkole</b></u>, bo dostał palicą od nauczyciela",
-            "Na pia<b><u>sku</b></u> stawiam zamek, a obok <b><u>szkoła</b></u>, a dalej <b><u>ul</b></u>e"
-        ],
+    entries: [
+        {
+            id: 1,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/33aa.jpg",
+                alt: "Oglądanie meczu w telewizji. Wygenerowane przez AI."
+            },
+            story: {
+                text: "Na pa<b><u>sku</b></u> ekranu jest wynik drużyny z naszej <b><u>szkoły</b></u>, mam swojego <b><u>ul</b></u>ubionego zawodnika",
+                alt: "Mecz. Czy tablica informacyjna na meczu może być fajnym udogodnieniem?"
+            },
+            category: ["sport", "wyniki"]
+        },
+        {
+            id: 2,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/33bb.jpg",
+                alt: "Łabądź w stawie. Wygenerowane przez AI."
+            },
+            story: {
+                text: "Obok naszej <b><u>szkoły</b></u> jest staw, gdzie łabędź <b><u>sku</b></u>bie sobie piórka, obserwowanie go to nasza <b><u>ul</b></u>ubiona zabawa",
+                alt: "Dzikie zwierzęta. Czy staw może być fajną atrakcją?"
+            },
+             category: ["natura", "staw"]
+        },
+        {
+            id: 3,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/33cc.jpg",
+                alt: "Remont szkoły. Wygenerowane przez AI."
+            },
+            story: {
+                text: "W <b><u>szkole</b></u> <b><u>sku</b></u>wają tynki, kurzy się na <b><u>ul</b></u>icę",
+                alt: "Remonty. Czy remont szkoły powinien trwać możliwie krótko?"
+            },
+           category: ["nauka", "remonty"]
+        },
+        {
+            id: 4,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/33dd.jpg",
+                alt: "Uczeń w szkole. Wygenerowane przez AI."
+            },
+            story: {
+                text: "Jasio jest <b><u>skul</b></u>ony w <b><u>szkole</b></u>, bo dostał palicą od nauczyciela",
+                alt: "Nauczanie w szkole. Jak nauczuczać w szkole?"
+            },
+            category: ["czarny humor", "szkoła"]
+        },
+        {
+            id: 5,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/33ee.jpg",
+                alt: "Zamek na piasku. Wygenerowane przez AI."
+            },
+            story: {
+                text: "Na pia<b><u>sku</b></u> stawiam zamek, a obok <b><u>szkoła</b></u>, a dalej <b><u>ul</b></u>e",
+                alt: "Lokalizacja szkoły. Jakie atrakcje może zapewnić szkoła?"
+            },
+            category: ["związki", "hobby"]
+        }
+    ],
         desc: "school[skul] - szkoła",
         sentence1: [
             "school"
@@ -7203,13 +8925,6 @@ const fiszki = [
             "school"
         ],
         key: "school",
-        category1: [
-            "sport", "",
-            "natura", "zawód",
-            "nauka", "budownictwo",
-            "czarny humor", "filmy",
-            "związki", "zabawa"
-        ],
         category2: "transport, "
     },
     {
@@ -7218,8 +8933,20 @@ const fiszki = [
             26,
             52
         ],
-        img: "https://www.arbulang.com/img/fiszki1/160a.jpg",
-        story: "Ten w<b><u>łos</b></u> w jedzeniu <b><u>był</b></u> bardzo obrzydliwy",
+            entries: [
+        {
+            id: 1,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/160a.jpg",
+                alt: "Wygenerowane przez AI."
+            },
+            story: {
+                text: "Ten w<b><u>łos</b></u> w jedzeniu <b><u>był</b></u> bardzo obrzydliwy",
+                alt: ""
+            },
+            category: ["jedzenie", "higiena"]
+        }
+            ],
         desc: "was[łos] - była/było",
         sentence2: [
             "was"
@@ -7231,7 +8958,6 @@ const fiszki = [
             "painful"
         ],
         key: "was",
-        category1: "nauka",
         category2: ["podmiot+czas"]
     },
     {
@@ -7240,8 +8966,20 @@ const fiszki = [
             26,
             52
         ],
-        img: "https://www.arbulang.com/img/fiszki1/161a.jpg",
-        story: "M<b><u>ol</b></u> książkowy jest także o<b><u>so</b></u>bą, która lubi myśleć",
+            entries: [
+        {
+            id: 1,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/161a.jpg",
+                alt: "Wygenerowane przez AI."
+            },
+            story: {
+                text: "M<b><u>ol</b></u> książkowy jest także o<b><u>so</b></u>bą, która lubi myśleć",
+                alt: ""
+            },
+            category: ["nauka", "czytanie"]
+        }
+            ],
         desc: "also[olso] - także",
         sentence2: [
             "also"
@@ -7253,7 +8991,6 @@ const fiszki = [
             "painful"
         ],
         key: "also",
-        category1: "nauka",
         category2: "transport, "
     },
     {
@@ -7262,8 +8999,20 @@ const fiszki = [
             26,
             52
         ],
-        img: "https://www.arbulang.com/img/fiszki1/41a.jpg",
-        story: "<b><u>Wery</b></u>fikacja przebiegła poprawnie dla tej osoby i ona jest <b><u>bardzo</b></u> zadowolona",
+            entries: [
+        {
+            id: 1,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/42aa.jpg",
+                alt: "Zadowolony petent. Wygenerowane przez AI."
+            },
+            story: {
+                text: "<b><u>Wery</b></u>fikacja przebiegła poprawnie dla tej osoby i ona jest <b><u>bardzo</b></u> zadowolona",
+                alt: "Kwalifikacja na listę. Jak zakwalifikować się na listę?"
+            },
+            category: ["urzędy", "weryfikacja"]
+        }
+            ],
         desc: "very[wery] - bardzo",
         sentence2: [
             "very"
@@ -7284,8 +9033,20 @@ const fiszki = [
             26,
             52
         ],
-        img: "https://www.arbulang.com/img/fiszki1/163a.jpg",
-        story: "Miałem chra<b><u>pe</b></u> na wygrane zawody jednak było <b><u>in</b></u>aczej, mam bolesną kontuzje i na <b><u>ful</b></u>a przegrałem mecz",
+            entries: [
+        {
+            id: 1,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/163a.jpg",
+                alt: "Wygenerowane przez AI."
+            },
+            story: {
+                text: "Miałem chra<b><u>pe</b></u> na wygrane zawody jednak było <b><u>in</b></u>aczej, mam bolesną kontuzje i na <b><u>ful</b></u>a przegrałem mecz",
+                alt: ""
+            },
+            category: ["urzędy", "weryfikacja"]
+        }
+            ],
         desc: "painful[peinful] - bolesny/bolesne/bolesna",
         sentence2: [
             "painful"
@@ -7401,8 +9162,20 @@ const fiszki = [
             27,
             53
         ],
-        img: "https://www.arbulang.com/img/fiszki1/165a.jpg",
-        story: "Kawa <b><u>in</b></u>ka bez kofeiny to fajny <b><u>wynalazek</b></u>, mam po niej <b><u>wen</b></u>ę i bardzo dobrze obsługuje ma<b><u>szyn</b></u>y",
+            entries: [
+        {
+            id: 1,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/165a.jpg",
+                alt: "Wygenerowane przez AI."
+            },
+            story: {
+                text: "Kawa <b><u>in</b></u>ka bez kofeiny to fajny <b><u>wynalazek</b></u>, mam po niej <b><u>wen</b></u>ę i bardzo dobrze obsługuje ma<b><u>szyn</b></u>y",
+                alt: ""
+            },
+            category: ["praca", "wysiłek"]
+        }
+            ],
         desc: "invention[inwenszyn] - wynalezienie/wynalazek",
         sentence1: [
             "invention"
@@ -7425,15 +9198,33 @@ const fiszki = [
             27,
             53
         ],
-        img: [
-            "https://www.arbulang.com/img/fiszki1/89a.jpg",
-            "https://www.arbulang.com/img/fiszki1/112b.jpg"
-        ],
-        story: [
-            "Tą <b><u>of</b></u>ensywę podjął każdy żołnierz z <b><u>tego</b></u> plutonu",
-            "Dezedorant <b><u>off</b></u> jest na <b><u>te</b></u> komary"
-        ],
-        desc: "of[of] - bolesny/bolesne/bolesna",
+            entries: [
+        {
+            id: 1,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/89a.jpg",
+                alt: "Żołnierze w walce. Wygenerowane przez AI."
+            },
+            story: {
+                text: "Tą <b><u>of</b></u>ensywę podjął każdy żołnierz z <b><u>tego</b></u> plutonu",
+                alt: "Wojsko a trening umiejętności bojowych. Jak wyszkolić żołnierza?"
+            },
+            category: ["wojsko", "walka"]
+        },
+                {
+            id: 1,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/112b.jpg",
+                alt: "Dezedorant na komary. Wygenerowane przez AI."
+            },
+            story: {
+                text: "Dezedorant <b><u>off</b></u> jest na <b><u>te</b></u> komary",
+                alt: "Odstraszanie komarów. Czy istnieją skuteczne sposoby na odstaraszenie komarów?"
+            },
+            category: ["lato", "komary"]
+        }
+            ],
+        desc: "of[of] - te/tego/tej",
         sentence1: [
             "of"
         ],
@@ -7548,8 +9339,20 @@ const fiszki = [
             27,
             53
         ],
-        img: "https://www.arbulang.com/img/fiszki1/168a.jpg",
-        story: "Wiliam(Łiliam) właśnie złapał gumę i zakłada nowe koło",
+            entries: [
+        {
+            id: 1,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/168a.jpg",
+                alt: "Wygenerowane przez AI."
+            },
+            story: {
+                text: "Wiliam(<u><b>Łil</u></b>iam) właśnie złapał gumę i zakłada nowe koło",
+                alt: ""
+            },
+            category: ["praca", "wysiłek"]
+        }
+            ],
         desc: "wheel[łil] - koło",
         sentence1: [
             "wheel"
@@ -7572,8 +9375,20 @@ const fiszki = [
             27,
             53
         ],
-        img: "https://www.arbulang.com/img/fiszki1/160a.jpg",
-        story: "Ten w<b><u>łos</b></u> w jedzeniu <b><u>był</b></u> bardzo obrzydliwy",
+            entries: [
+        {
+            id: 1,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/160a.jpg",
+                alt: "Wygenerowane przez AI."
+            },
+            story: {
+                text: "Ten w<b><u>łos</b></u> w jedzeniu <b><u>był</b></u> bardzo obrzydliwy",
+                alt: ""
+            },
+            category: ["jedzenie", "higiena"]
+        }
+            ],
         desc: "was[łos] - było",
         sentence1: [
             "was"
@@ -7596,14 +9411,32 @@ const fiszki = [
             27,
             54
         ],
-        img: [
-            "https://www.arbulang.com/img/fiszki1/54a.jpg",
-            "https://www.arbulang.com/img/fiszki1/170a.jpg"
-        ],
-        story: [
-            "Bardzo <b><u>duży</b></u> samolot M<b><u>ig</b></u> właśnie przeleciał na niebie",
-            "<b><u>Big</b></u>amista ma <b><u>duży</b></u> popęd seksualny"
-        ],
+            entries: [
+        {
+            id: 1,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/55aa.jpg",
+                alt: "Samolot Mig. Wygenerowane przez AI."
+            },
+            story: {
+                text: "<b><u>B</b></u>ardzo <b><u>duży</b></u> samolot M<b><u>ig</b></u> właśnie przeleciał na niebie",
+                alt: ""
+            },
+            category: ["życie", "samolot"]
+        },
+                {
+            id: 2,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/170a.jpg",
+                alt: "Ładna dziewczyna. Wygenerowane przez AI."
+            },
+            story: {
+                text: "<b><u>Big</b></u>amista ma <b><u>duży</b></u> popęd seksualny",
+                alt: ""
+            },
+            category: ["życie", "seksualność"]
+        }
+            ],
         desc: "big[big] - duży/duża/duże",
         sentence2: [
             "(a) big"
@@ -7623,8 +9456,20 @@ const fiszki = [
             27,
             54
         ],
-        img: "https://www.arbulang.com/img/fiszki1/171a.jpg",
-        story: "<b><u>Step</b></u> to taki teren zielony gdzie fajnie odpoczywać. Każdy <b><u>krok</b></u> na spaczerze jest pełen relaksu",
+            entries: [
+        {
+            id: 1,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/171a.jpg",
+                alt: "Wygenerowane przez AI."
+            },
+            story: {
+                text: "<b><u>Step</b></u> to taki teren zielony gdzie fajnie odpoczywać. Każdy <b><u>krok</b></u> na spaczerze jest pełen relaksu",
+                alt: ""
+            },
+            category: ["natura", "stepy"]
+        }
+            ],
         desc: "step[step] - krok",
         sentence2: [
             "step"
@@ -7635,7 +9480,6 @@ const fiszki = [
             "forward"
         ],
         key: "step",
-        category1: "nauka",
         category2: ["body"]
     },
     {
@@ -7644,8 +9488,20 @@ const fiszki = [
             27,
             54
         ],
-        img: "https://www.arbulang.com/img/fiszki1/172a.jpg",
-        story: "Moje kung <b><u>fu</b></u> pozwala mi z radością iść <b><u>naprzód</b></u> a mój g<b><u>ł</b></u>odny pies idzie i m<b><u>erd</b></u>a ogonem",
+            entries: [
+        {
+            id: 1,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/172a.jpg",
+                alt: "Wygenerowane przez AI."
+            },
+            story: {
+                text: "Moje kung <b><u>fu</b></u> pozwala mi z radością iść <b><u>naprzód</b></u> a mój g<b><u>ł</b></u>odny pies idzie i m<b><u>erd</b></u>a ogonem",
+                alt: ""
+            },
+            category: ["zwierzę domowe", "towarzysz"]
+        }
+            ],
         desc: "forward[fułerd] - naprzód",
         sentence2: [
             "forward"
@@ -7656,7 +9512,6 @@ const fiszki = [
             "forward"
         ],
         key: "forward",
-        category1: "nauka",
         category2: ["zdarzeniaczasu"]
     },
     {
@@ -7665,12 +9520,24 @@ const fiszki = [
             28,
             55
         ],
-        img: "https://www.arbulang.com/img/fiszki1/173a.jpg",
+            entries: [
+        {
+            id: 1,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/173a.jpg",
+                alt: "Wygenerowane przez AI."
+            },
+            story: {
+                text: "<b><u>Tel</b></u>efonowanie w tych czasach to można <b><u>powiedzieć</b></u> - łatwa sprawa",
+                alt: ""
+            },
+            category: ["media", "telefon"]
+        }
+            ],
         translate: "Powiedz mi dlaczego ten most jest tak ważny dla ciebie",
         translateb: "[Tel mi łaj dis bridż is soł important tu ju]",
         srcWord: ["https://www.arbulang.com/filmy/bridge.mp4", "Szybcy i Wściekli 5(2011)", "Akcja"],
         srcWordimage: "https://www.arbulang.com/filmy/bridge.png",
-        story: "<b><u>Tel</b></u>efonowanie w tych czasach to można <b><u>powiedzieć</b></u> - łatwa sprawa",
         desc: "tell[tel] - powiedz/powiedzieć",
         sentence1: [
             "Tell"
@@ -7693,8 +9560,20 @@ const fiszki = [
             28,
             55
         ],
-        img: "https://www.arbulang.com/img/fiszki1/174a.jpg",
-        story: "<b><u>Mi</b></u>zianie po stopach jest dla <b><u>mnie</b></u> przyjemne",
+            entries: [
+        {
+            id: 1,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/174a.jpg",
+                alt: "Wygenerowane przez AI."
+            },
+            story: {
+                text: "<b><u>Mi</b></u>zianie po stopach jest dla <b><u>mnie</b></u> przyjemne",
+                alt: ""
+            },
+            category: ["relaks", "masaż"]
+        }
+            ],
         desc: "me[mi] - ja/mnie",
         sentence1: [
             "me"
@@ -7716,8 +9595,20 @@ const fiszki = [
             28,
             55
         ],
-        img: "https://www.arbulang.com/img/fiszki1/175a.jpg",
-        story: "<b><u>Dlaczego</b></u> on jest takim <b><u>łaj</b></u>dakiem?",
+            entries: [
+        {
+            id: 1,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/175a.jpg",
+                alt: "Wygenerowane przez AI."
+            },
+            story: {
+                text: "<b><u>Dlaczego</b></u> on jest takim <b><u>łaj</b></u>dakiem?",
+                alt: ""
+            },
+            category: ["relaks", "masaż"]
+        }
+            ],
         desc: "why[łaj] - dlaczego",
         sentence1: [
             "why"
@@ -7730,7 +9621,6 @@ const fiszki = [
             "bridge"
         ],
         key: "why",
-        category1: "nauka",
         category2: ""
     },
     {
@@ -7739,18 +9629,68 @@ const fiszki = [
             28,
             55
         ],
-        img: [
-            "https://www.arbulang.com/img/fiszki1/43a.jpg",
-            "https://www.arbulang.com/img/fiszki1/80b.jpg",
-            "https://www.arbulang.com/img/fiszki1/83c.jpg",
-            "https://www.arbulang.com/img/fiszki1/108d.jpg"
-        ],
-        story: [
-            "Quo va<b><u>dis</b></u> <b><u>to</b></u> cytat bardzo znany",
-            "To słówko distant - czytamy <b><u>dis</b></u>tant",
-            "E<b><u>dis</b></u>on to geniusz",
-            "<b><u>Di</b></u>va operowa jest <b><u>s</b></u>ławna"
-        ],
+            entries: [
+                        {
+            id: 1,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/44b.jpg",
+                alt: "Kraina w starożytności. Wygenerowane przez AI."
+            },
+            story: {
+                text: "Ma<b><u>dis</b></u>on jest świetnym sportowcem a to jej trener",
+                alt: "Opowieść Quo vadis. Czy warto czytać Quo Vadis?"
+            },
+            category: ["sport", "trener"]
+        },
+        {
+            id: 2,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/44a.jpg",
+                alt: "Kraina w starożytności. Wygenerowane przez AI."
+            },
+            story: {
+                text: "Quo va<b><u>dis</b></u> <b><u>to</b></u> cytat bardzo znany i kojarzy się ze starożytnym Rzymem",
+                alt: "Opowieść Quo vadis. Czy warto czytać Quo Vadis?"
+            },
+            category: ["natura", "dawna kraina"]
+        },
+        {
+                            id: 3,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/83c.jpg",
+                alt: "Dawny geniusz. Wygenerowane przez AI."
+            },
+            story: {
+                text: "E<b><u>dis</b></u>on to geniusz",
+                alt: "Dawny geniusz. Kto wymyślił żarówkę?"
+            },
+            category: ["nauka", "geniusze"]
+        },
+                {
+                    id: 4,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/80b.jpg",
+                alt: "Układanka słowna. Wygenerowane przez AI."
+            },
+            story: {
+                text: "To słówko distant - czytamy <b><u>dis</b></u>tant",
+                alt: "Układanka słowna. Czy scrabble jest ciekawe?"
+            },
+            category: ["czarny humor", "języki"]
+        },
+                {
+                            id: 5,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/108d.jpg",
+                alt: "Diva operowa. Wygenerowane przez AI."
+            },
+            story: {
+                text: "<b><u>Di</b></u>va operowa jest <b><u>s</b></u>ławna",
+                alt: "Śpiew operowy. Czy w operze można się dobrze bawić?"
+            },
+            category: ["związki", "muzyka klasyczna"]
+        }
+            ],
         desc: "this[dis] - ten",
         sentence1: [
             "this"
@@ -7763,12 +9703,6 @@ const fiszki = [
             "bridge"
         ],
         key: "this",
-        category1: [
-            "historia", "filozofia",
-            "nauka", "języki",
-            "nauka", "geniusze",
-            "pasje", "muzyka klasyczna"
-        ],
         category2: ["zaimki"]
     },
     {
@@ -7777,8 +9711,20 @@ const fiszki = [
             28,
             55
         ],
-        img: "https://www.arbulang.com/img/fiszki1/177a.jpg",
-        story: "Granie w <b><u>brydż</b></u>a to uczucie tak fajne jak podziwianie monumentalnych mostów",
+            entries: [
+        {
+            id: 1,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/177a.jpg",
+                alt: "Wygenerowane przez AI."
+            },
+            story: {
+                text: "Granie w <b><u>brydż</b></u>a to uczucie tak fajne jak podziwianie monumentalnych mostów",
+                alt: ""
+            },
+            category: ["rozrywka", "karty"]
+        }
+            ],
         desc: "bridge[brydź] - most",
         sentence1: [
             "bridge"
@@ -7901,15 +9847,6 @@ const fiszki = [
             "you"
         ],
         key: "is",
-        category1: [
-            "sport", "bieganie",
-            "natura", "zawód",
-            "nauka", "definicje",
-            "czarny humor", "zoologia",
-            "związki", "kreskówki",
-            "lifestyle", "sukces",
-            "geografia", "miasta"
-        ],
         category2: ["czasownik"]
     },
     {
@@ -7918,7 +9855,20 @@ const fiszki = [
             28,
             56
         ],
-        img: "https://www.arbulang.com/img/fiszki1/179a.jpg",
+            entries: [
+        {
+            id: 1,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/179a.jpg",
+                alt: "Wygenerowane przez AI."
+            },
+            story: {
+                text: "<u><b>Soł</u></b>tys już <u><b>taki</u></b> jest",
+                alt: ""
+            },
+            category: ["wieś", "sołtys"]
+        }
+            ],
         story: "<u><b>Soł</u></b>tys już taki jest",
         desc: "so[soł] - taki",
         sentence2: [
@@ -7932,7 +9882,6 @@ const fiszki = [
             "you"
         ],
         key: "so",
-        category1: "nauka",
         category2: "transport, "
     },
     {
@@ -7941,8 +9890,20 @@ const fiszki = [
             28,
             56
         ],
-        img: "https://www.arbulang.com/img/fiszki1/180a.jpg",
-        story: "<u><b>Import</u></b> antyków z zagranicy to <u><b>ważne</u></b> zadanie dla kolekcjonera",
+            entries: [
+        {
+            id: 1,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/180a.jpg",
+                alt: "Wygenerowane przez AI."
+            },
+            story: {
+                text: "<u><b>Import</u></b> antyków z zagranicy to <u><b>ważne</u></b> zadanie dla kolekcjonera",
+                alt: ""
+            },
+            category: ["hobby", "kolekcjonerstwo"]
+        }
+            ],
         desc: "important[important] - ważne/ważny",
         sentence2: [
             "important"
@@ -7964,20 +9925,68 @@ const fiszki = [
             28,
             56
         ],
-        img: [
-            "https://www.arbulang.com/img/fiszki1/10a.jpg",
-            "https://www.arbulang.com/img/fiszki1/10b.jpg",
-            "https://www.arbulang.com/img/fiszki1/10c.jpg",
-            "https://www.arbulang.com/img/fiszki1/10d.jpg",
-            "https://www.arbulang.com/img/fiszki1/10e.jpg"
-        ],
-        story: [
-            '<u><b>Dla</u></b> spor<span class="adannotation" data-annotation="1"><u><b>tu</b></u></span> przeszedłem się pieszo <u><b>ku</u></b> parku',
-            'Ra<span class="adannotation" data-annotation="1"><u><b>tu</u></b></span>nku, ta droga poprowadziła nas <u><b>ku</u></b> wężom',
-            '<span class="adannotation" data-annotation="1"><b><u>Tu</b></u></span> w Egipcie Totem Faraona to pamiątka <u><b>ku</u></b> jego czci',
-            '<span class="adannotation" data-annotation="1"><b><u>Tu</b></u></span> <u><b>dla</u></b> Ciebie jest bardzo dobra aktywność, <u><b>to</u></b>talnie nie brakuje mi nic w drodze <u><b>ku</u></b>t mistrza',
-            'Aaaa.. <span class="adannotation" data-annotation="1"><b><u>tu</b></u></span> to jest, <b><u>ku</b></u> szczęściu znalazłem to..'
-        ],
+    entries: [
+        {
+            id: 1,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/10a.jpg",
+                alt: "Spacer po mieście. Wygenerowane przez AI."
+            },
+            story: {
+                text: '<u><b>Dla</u></b> spor<span class="adannotation" data-annotation="1"><u><b>tu</b></u></span> przeszedłem się pieszo <u><b>ku</u></b> parku',
+                alt: "Droga do pracy. Ile trzeba mieć do pracy, żeby móc pójść na nogach?"
+            },
+            category: ["sport", "czas wolny"]
+        },
+        {
+            id: 2,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/10b.jpg",
+                alt: "Wąż. Wygenerowane przez AI."
+            },
+            story: {
+                text: 'Ra<span class="adannotation" data-annotation="1"><u><b>tu</u></b></span>nku, ta droga poprowadziła nas <u><b>ku</u></b> wężom',
+               alt: "Rzeczywistość dżungli. Czy węże są niebezpieczne?"
+            },
+             category: ["natura", "zoologia"]
+        },
+        {
+            id: 3,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/10c.jpg",
+                alt: "Totem Faraona. Wygenerowane przez AI."
+            },
+            story: {
+                text: '<span class="adannotation" data-annotation="1"><b><u>Tu</b></u></span> w Egipcie Totem Faraona to pamiątka <u><b>ku</u></b> jego czci',
+                alt: "Historia i turystyka. Czy pamiątka Totemu Faraona jest ciekawą zdobyczą?"
+            },
+           category: ["nauka", "historia"]
+        },
+        {
+            id: 4,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/10d.jpg",
+                alt: "Trzymanie kciuków za wyniki sportowe. Wygenerowane przez AI."
+            },
+            story: {
+                text: '<span class="adannotation" data-annotation="1"><b><u>Tu</b></u></span> <u><b>dla</u></b> Ciebie jest bardzo dobra aktywność, <u><b>to</u></b>talnie nie brakuje mi nic w drodze <u><b>ku</u></b>t mistrza',
+                alt: "Sport i dyscyplina. Czy uczeń może prześcignąć mistrza?"
+            },
+            category: ["czarny humor", "sport"]
+        },
+        {
+            id: 5,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/10e.jpg",
+                alt: "Prezent okolicznościowy. Wygenerowane przez AI."
+            },
+            story: {
+                text: 'Aaaa.. <span class="adannotation" data-annotation="1"><b><u>tu</b></u></span> to jest, <b><u>ku</b></u> szczęściu znalazłem to..',
+               alt: "Umiejętności praktyczne. Czy trudno jest znaleźć coś gdy się spieszymy?"
+            },
+            category: ["związki", "czas wolny"]
+        }
+    ],
         desc: "to[tu] - do, ku",
         sentence2: [
             "to"
@@ -7990,13 +9999,6 @@ const fiszki = [
             "you"
         ],
         key: "to",
-        category1: [
-            "sport", "czas wolny",
-            "natura", "zoologia",
-            "nauka", "historia",
-            "czarny humor", "sport",
-            "związki", "czas wolny"
-        ],
         category2: "transport, "
     },
     {
@@ -8005,8 +10007,20 @@ const fiszki = [
             28,
             56
         ],
-        img: "https://www.arbulang.com/img/fiszki1/25j.jpg",
-        story: "<u><b>Ju</u></b>tro <u><b>ty</u></b> masz wolny dzień od pracy",
+            entries: [
+        {
+            id: 1,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/182a.jpg",
+                alt: "Wygenerowane przez AI."
+            },
+            story: {
+                text: "<u><b>Ju</u></b>tro <u><b>ty</u></b> masz wolny dzień od pracy",
+                alt: ""
+            },
+            category: ["hobby", "kolekcjonerstwo"]
+        }
+            ],
         desc: "you[ju] - ty",
         sentence2: [
             "you"
@@ -8028,12 +10042,24 @@ const fiszki = [
             29,
             57
         ],
-        img: "https://www.arbulang.com/img/fiszki1/183a.jpg",
+            entries: [
+        {
+            id: 1,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/183a.jpg",
+                alt: "Wygenerowane przez AI."
+            },
+            story: {
+                text: "<u><b>Ju</u></b>ż wielu <u><b>użytkowników</u></b> wykupiło płatne subskrypcje, bo darmowa wersja jest mi<u><b>zer</u></b>na",
+                alt: ""
+            },
+            category: ["internet", "subskrypcja"]
+        }
+            ],
         translate: "Użytkownik może dodać lub usunąć te konta bardzo łatwo",
         translateb: "[E juzer mej ad or remuw dis ekaunts łiz iz]",
         srcWord: ["https://www.arbulang.com/filmy/accounts.mp4", "Matrix(1999)", "Akcja"],
         srcWordimage: "https://www.arbulang.com/filmy/accounts.png",
-        story: "<u><b>Ju</u></b>ż wielu <u><b>użytkowników</u></b> wykupiło płatne subskrypcje, bo darmowa wersja jest mi<u><b>zer</u></b>na",
         desc: "user[juzer] - użytkownik",
         sentence1: [
             "(A) user"
@@ -8058,8 +10084,20 @@ const fiszki = [
             29,
             57
         ],
-        img: "https://www.arbulang.com/img/fiszki1/184a.jpg",
-        story: "Iwonie sa<u><b>mej</u></b> <u><b>może</u>/<b> być trudno wykonać to zadanie",
+            entries: [
+        {
+            id: 1,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/184a.jpg",
+                alt: "Wygenerowane przez AI."
+            },
+            story: {
+                text: "Iwonie sa<u><b>mej</u></b> <u><b>może</u>/<b> być trudno wykonać to zadanie",
+                alt: ""
+            },
+            category: ["praca", "wysiłek"]
+        }
+            ],
         desc: "may[mej] - może",
         sentence1: [
             "may"
@@ -8074,7 +10112,6 @@ const fiszki = [
             "account"
         ],
         key: "may",
-        category1: "nauka",
         category2: ["czasownik", "osoby+czas"]
     },
     {
@@ -8083,8 +10120,20 @@ const fiszki = [
             29,
             57
         ],
-        img: "https://www.arbulang.com/img/fiszki1/185a.jpg",
-        story: "Z<u><b>ad</u></b>anie dla uczniów to <u><b>dodać</u></b> do swojego wypracowanie wątki fantastyczne",
+            entries: [
+        {
+            id: 1,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/185a.jpg",
+                alt: "Wygenerowane przez AI."
+            },
+            story: {
+                text: "Z<u><b>ad</u></b>anie dla uczniów to <u><b>dodać</u></b> do swojego wypracowania wątki fantastyczne",
+                alt: ""
+            },
+            category: ["szkoła", "praca domowa"]
+        }
+            ],
         desc: "add[ad] - dodać",
         sentence1: [
             "add"
@@ -8108,8 +10157,20 @@ const fiszki = [
             29,
             57
         ],
-        img: "https://www.arbulang.com/img/fiszki1/186a.jpg",
-        story: "To jest już p<u><b>or</u></b>a na kolacje <u><b>lub</u></b> spanie",
+            entries: [
+        {
+            id: 1,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/186a.jpg",
+                alt: "Wygenerowane przez AI."
+            },
+            story: {
+                text: "To jest już p<u><b>or</u></b>a na kolacje <u><b>lub</u></b> spanie",
+                alt: ""
+            },
+            category: ["życie", "wieczór"]
+        }
+            ],
         desc: "or[or] - lub",
         sentence1: [
             "or"
@@ -8124,7 +10185,6 @@ const fiszki = [
             "account"
         ],
         key: "or",
-        category1: "nauka",
         category2: ["spojniki"]
     },
     {
@@ -8133,8 +10193,20 @@ const fiszki = [
             29,
             57
         ],
-        img: "https://www.arbulang.com/img/fiszki1/187a.jpg",
-        story: "Na <u><b>re</u></b>sztę towaru mam już za<u><b>mów</u></b>ienie, to co pozostanie wyrzucę/usunę z magazynu",
+            entries: [
+        {
+            id: 1,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/187a.jpg",
+                alt: "Wygenerowane przez AI."
+            },
+            story: {
+                text: "Na <u><b>re</u></b>sztę towaru mam już za<u><b>mów</u></b>ienie, to co pozostanie wyrzucę/<u><b>usunę</u></b> z magazynu",
+                alt: ""
+            },
+            category: ["praca", "magazyn"]
+        }
+            ],
         desc: "remove[remuw] - usunąć",
         sentence1: [
             "remove"
@@ -8158,8 +10230,20 @@ const fiszki = [
             29,
             57
         ],
-        img: "https://www.arbulang.com/img/fiszki1/188a.jpg",
-        story: "Koroporacja <u><b>uz</u></b>urpuje sobie prawo <u><b>do</u></b> tych danych",
+            entries: [
+        {
+            id: 1,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/188a.jpg",
+                alt: "Wygenerowane przez AI."
+            },
+            story: {
+                text: "Koroporacja <u><b>uz</u></b>urpuje sobie prawo <u><b>do</u></b> tych danych",
+                alt: ""
+            },
+            category: ["media", "korporacja"]
+        }
+            ],
         desc: "those[douz] - te",
         sentence1: [
             "those"
@@ -8183,8 +10267,20 @@ const fiszki = [
             29,
             57
         ],
-        img: "https://www.arbulang.com/img/fiszki1/189a.jpg",
-        story: "Cz<u><b>eka</u></b> mnie obliczanie wydatków na moich <u><b>kontach</u></b> bankowych. Muszę zobaczyć po ile jest f<u><b>unt</u></b>. Mam zamiar <u><b>s</u></b>przedać funty a kupić dolary",
+            entries: [
+        {
+            id: 1,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/189a.jpg",
+                alt: "Wygenerowane przez AI."
+            },
+            story: {
+                text: "Cz<u><b>eka</u></b> mnie obliczanie wydatków na moich <u><b>kontach</u></b> bankowych. Muszę zobaczyć po ile jest f<u><b>unt</u></b>. Mam zamiar <u><b>s</u></b>przedać funty a kupić dolary",
+                alt: ""
+            },
+            category: ["wydatki", "budżet"]
+        }
+            ],
         desc: "accounts[ekaunts] - konta",
         sentence1: [
             "accounts"
@@ -8208,8 +10304,20 @@ const fiszki = [
             29,
             58
         ],
-        img: "https://www.arbulang.com/img/fiszki1/190a.jpg",
-        story: "Każdy żołnierz chodzi na polu walki z che<u><b>ł</u></b>mem i kam<u><b>iz</u></b>elką kuloodporną",
+            entries: [
+        {
+            id: 1,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/190a.jpg",
+                alt: "Wygenerowane przez AI."
+            },
+            story: {
+                text: "Każdy żołnierz chodzi na polu walki z che<u><b>ł</u></b>mem i kam<u><b>iz</u></b>elką kuloodporną",
+                alt: ""
+            },
+            category: ["wojsko", "pole walki"]
+        }
+            ],
         desc: "with[łiz] - z",
         sentence2: [
             "with"
@@ -8219,7 +10327,6 @@ const fiszki = [
             "ease"
         ],
         key: "with",
-        category1: "nauka",
         category2: ["spojniki"]
     },
     {
@@ -8228,8 +10335,20 @@ const fiszki = [
             29,
             58
         ],
-        img: "https://www.arbulang.com/img/fiszki1/191a.jpg",
-        story: "Ten <u><b>iz</u></b>otop <u><b>łatwo</u></b> się rozpuszcza",
+            entries: [
+        {
+            id: 1,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/191a.jpg",
+                alt: "Wygenerowane przez AI."
+            },
+            story: {
+                text: "Ten <u><b>iz</u></b>otop <u><b>łatwo</u></b> się rozpuszcza",
+                alt: ""
+            },
+            category: ["chemia", "izotop"]
+        }
+            ],
         desc: "ease[izz] - łatwość/łatwością",
         sentence2: [
             "ease"
@@ -8248,12 +10367,24 @@ const fiszki = [
             30,
             59
         ],
-        img: "https://www.arbulang.com/img/fiszki1/96a.jpg",
+            entries: [
+        {
+            id: 1,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/95aa.jpg",
+                alt: "Opakowanie suplementów grzyba riszi. Wygenerowane przez AI."
+            },
+            story: {
+                text: "<u><b>Ona</u></b> - Patrycja ma ri<u><b>szi</u></b> to naturalny antyoksydant",
+                alt: "Suplementacja grzybami. Jakie parametry zdrowotne poprawiają grzyby riszi?"
+            },
+            category: ["suplementy", "riszi"]
+        }
+            ],
         translate: "Ona oferuje jakąś radę na temat jak pomóc twojemu dziecku",
         translateb: "[Szi ofers sam edwajs ebaut hał tu help jor czaild]",
         srcWord: ["https://www.arbulang.com/filmy/child.mp4", "Matrix(1999)", "Akcja"],
         srcWordimage: "https://www.arbulang.com/filmy/child.png",
-        story: "<u><b>Ona</u></b> - Patrycja ma ri<u><b>szi</u></b> to naturalny antyoksydant",
         desc: "she[szi] - ona",
         sentence1: [
             "She"
@@ -8276,8 +10407,20 @@ const fiszki = [
             30,
             59
         ],
-        img: "https://www.arbulang.com/img/fiszki1/193a.jpg",
-        story: "W jednym państwie podczas budowy wieżowca zanotowano katastr<u><b>ofe</u></b>. <u><b>F</u></b>i<u><b>r</u></b>ma <u><b>oferuje</u></b> odszkodowania",
+            entries: [
+        {
+            id: 1,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/193a.jpg",
+                alt: "Wygenerowane przez AI."
+            },
+            story: {
+                text: "W jednym państwie podczas budowy wieżowca zanotowano katastr<u><b>ofe</u></b>. <u><b>F</u></b>i<u><b>r</u></b>ma <u><b>oferuje</u></b> odszkodowania",
+                alt: ""
+            },
+            category: ["praca", "odszkodowania"]
+        }
+            ],
         desc: "offers[ofers] - oferuje",
         sentence1: [
             "offers"
@@ -8290,7 +10433,6 @@ const fiszki = [
             "about"
         ],
         key: "offers",
-        category1: "nauka",
         category2: ["", "osoby+czas"],
         category3: ["PresentSimple", "PresentSimpleCzasownik"]
     },
@@ -8300,8 +10442,20 @@ const fiszki = [
             30,
             59
         ],
-        img: "https://www.arbulang.com/img/fiszki1/194a.jpg",
-        story: "<u><b>Sam</u></b>otnie szukam <u><b>jakichś</u></b> grzybów. Na grzybach się znam",
+            entries: [
+        {
+            id: 1,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/194a.jpg",
+                alt: "Wygenerowane przez AI."
+            },
+            story: {
+                text: "<u><b>Sam</u></b>otnie szukam <u><b>jakichś</u></b> grzybów. Na grzybach się znam",
+                alt: ""
+            },
+            category: ["hobby", "zbieranie grzybów"]
+        }
+            ],
         desc: "some[sam] - jakiś/jakąś",
         sentence1: [
             "some"
@@ -8323,8 +10477,20 @@ const fiszki = [
             30,
             59
         ],
-        img: "https://www.arbulang.com/img/fiszki1/195a.jpg",
-        story: "<u><b>Ed</u></b>ek dał mi dobrą <u><b>porade</u></b> odnośnie pływania. Pły<u><b>waj</u></b> na plecach wtedy się tak nie męczysz. <u><b>S</u></b>próbowałem i rzeczywiście",
+            entries: [
+        {
+            id: 1,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/195a.jpg",
+                alt: "Wygenerowane przez AI."
+            },
+            story: {
+                text: "<u><b>Ed</u></b>ek dał mi dobrą <u><b>porade</u></b> odnośnie pływania. Pły<u><b>waj</u></b> na plecach wtedy się tak nie męczysz. <u><b>S</u></b>próbowałem i rzeczywiście",
+                alt: ""
+            },
+            category: ["sport", "pływanie"]
+        }
+            ],
         desc: "advice[edwajs] - rada/porada",
         sentence1: [
             "advice"
@@ -8346,7 +10512,20 @@ const fiszki = [
             30,
             59
         ],
-        img: "https://www.arbulang.com/img/fiszki1/134a.jpg",
+            entries: [
+        {
+            id: 1,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/196a.jpg",
+                alt: "Wygenerowane przez AI."
+            },
+            story: {
+                text: "<u><b>Ed</u></b>ek dał mi dobrą <u><b>porade</u></b> odnośnie pływania. Pły<u><b>waj</u></b> na plecach wtedy się tak nie męczysz. <u><b>S</u></b>próbowałem i rzeczywiście",
+                alt: ""
+            },
+            category: ["sport", "pływanie"]
+        }
+            ],
         story: "S<b><u>eba</b></u> występuje dla weselników.. Dawno nie było takiej ha<b><u>łt</b></u>ury",
         desc: "about[ebałt] - o tym/o czymś",
         sentence1: [
@@ -8360,7 +10539,6 @@ const fiszki = [
             "about"
         ],
         key: "about",
-        category1: ["rozrywka", "imprezy"],
         category2: [""]
     },
     {
@@ -8369,8 +10547,20 @@ const fiszki = [
             30,
             60
         ],
-        img: "https://www.arbulang.com/img/fiszki1/25j.jpg",
-        story: "Pies poma<u><b>chał</u></b> mi na do widzenia. <u><b>Jak</u></b> to zrobił? nie wiem",
+            entries: [
+        {
+            id: 1,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/197a.jpg",
+                alt: "Wygenerowane przez AI."
+            },
+            story: {
+                text: "Pies poma<u><b>chał</u></b> mi na do widzenia. <u><b>Jak</u></b> to zrobił? nie wiem",
+                alt: ""
+            },
+            category: ["towarzysz", "pies"]
+        }
+            ],
         desc: "how[hał] - jak",
         sentence2: [
             "how"
@@ -8383,7 +10573,6 @@ const fiszki = [
             "child"
         ],
         key: "how",
-        category1: "nauka",
         category2: [""]
     },
     {
@@ -8392,20 +10581,68 @@ const fiszki = [
             30,
             60
         ],
-        img: [
-            "https://www.arbulang.com/img/fiszki1/10a.jpg",
-            "https://www.arbulang.com/img/fiszki1/10b.jpg",
-            "https://www.arbulang.com/img/fiszki1/10c.jpg",
-            "https://www.arbulang.com/img/fiszki1/10d.jpg",
-            "https://www.arbulang.com/img/fiszki1/10e.jpg"
-        ],
-        story: [
-            '<u><b>Dla</u></b> spor<span class="adannotation" data-annotation="1"><u><b>tu</b></u></span> przeszedłem się pieszo <u><b>ku</u></b> parku',
-            'Ra<span class="adannotation" data-annotation="1"><u><b>tu</u></b></span>nku, ta droga poprowadziła nas <u><b>ku</u></b> wężom',
-            '<span class="adannotation" data-annotation="1"><b><u>Tu</b></u></span> w Egipcie Totem Faraona to pamiątka <u><b>ku</u></b> jego czci',
-            '<span class="adannotation" data-annotation="1"><b><u>Tu</b></u></span> <u><b>dla</u></b> Ciebie jest bardzo dobra aktywność, <u><b>to</u></b>talnie nie brakuje mi nic w drodze <u><b>ku</u></b>t mistrza',
-            'Aaaa.. <span class="adannotation" data-annotation="1"><b><u>tu</b></u></span> to jest, <b><u>ku</b></u> szczęściu znalazłem to..'
-        ],
+    entries: [
+        {
+            id: 1,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/10a.jpg",
+                alt: "Spacer po mieście. Wygenerowane przez AI."
+            },
+            story: {
+                text: '<u><b>Dla</u></b> spor<span class="adannotation" data-annotation="1"><u><b>tu</b></u></span> przeszedłem się pieszo <u><b>ku</u></b> parku',
+                alt: "Droga do pracy. Ile trzeba mieć do pracy, żeby móc pójść na nogach?"
+            },
+            category: ["sport", "czas wolny"]
+        },
+        {
+            id: 2,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/10b.jpg",
+                alt: "Wąż. Wygenerowane przez AI."
+            },
+            story: {
+                text: 'Ra<span class="adannotation" data-annotation="1"><u><b>tu</u></b></span>nku, ta droga poprowadziła nas <u><b>ku</u></b> wężom',
+               alt: "Rzeczywistość dżungli. Czy węże są niebezpieczne?"
+            },
+             category: ["natura", "zoologia"]
+        },
+        {
+            id: 3,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/10c.jpg",
+                alt: "Totem Faraona. Wygenerowane przez AI."
+            },
+            story: {
+                text: '<span class="adannotation" data-annotation="1"><b><u>Tu</b></u></span> w Egipcie Totem Faraona to pamiątka <u><b>ku</u></b> jego czci',
+                alt: "Historia i turystyka. Czy pamiątka Totemu Faraona jest ciekawą zdobyczą?"
+            },
+           category: ["nauka", "historia"]
+        },
+        {
+            id: 4,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/10d.jpg",
+                alt: "Trzymanie kciuków za wyniki sportowe. Wygenerowane przez AI."
+            },
+            story: {
+                text: '<span class="adannotation" data-annotation="1"><b><u>Tu</b></u></span> <u><b>dla</u></b> Ciebie jest bardzo dobra aktywność, <u><b>to</u></b>talnie nie brakuje mi nic w drodze <u><b>ku</u></b>t mistrza',
+                alt: "Sport i dyscyplina. Czy uczeń może prześcignąć mistrza?"
+            },
+            category: ["czarny humor", "sport"]
+        },
+        {
+            id: 5,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/10e.jpg",
+                alt: "Prezent okolicznościowy. Wygenerowane przez AI."
+            },
+            story: {
+                text: 'Aaaa.. <span class="adannotation" data-annotation="1"><b><u>tu</b></u></span> to jest, <b><u>ku</b></u> szczęściu znalazłem to..',
+               alt: "Umiejętności praktyczne. Czy trudno jest znaleźć coś gdy się spieszymy?"
+            },
+            category: ["związki", "czas wolny"]
+        }
+    ],
         desc: "to[tu] - do, ku",
         sentence2: [
             "to"
@@ -8418,13 +10655,6 @@ const fiszki = [
             "child"
         ],
         key: "to",
-        category1: [
-            "sport", "czas wolny",
-            "natura", "zoologia",
-            "nauka", "historia",
-            "czarny humor", "sport",
-            "związki", "czas wolny"
-        ],
         category2: ["spojniki"]
     },
     {
@@ -8433,8 +10663,20 @@ const fiszki = [
             30,
             60
         ],
-        img: "https://www.arbulang.com/img/fiszki1/199a.jpg",
-        story: "<u><b>Hel</u></b> to taki gaz w <u><b>p</u></b>owieetrzu, który <u><b>pomaga</u></b> zmienić barwę głosu",
+            entries: [
+        {
+            id: 1,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/199a.jpg",
+                alt: "Wygenerowane przez AI."
+            },
+            story: {
+                text: "<u><b>Hel</u></b> to taki gaz w <u><b>p</u></b>owietrzu, który <u><b>pomaga</u></b> zmienić barwę głosu",
+                alt: ""
+            },
+            category: ["chemia", "zabawa"]
+        }
+            ],
         desc: "help[help] - pomagać",
         sentence2: [
             "help"
@@ -8447,7 +10689,6 @@ const fiszki = [
             "child"
         ],
         key: "help",
-        category1: "nauka",
         category2: [""]
     },
     {
@@ -8538,8 +10779,20 @@ const fiszki = [
             30,
             60
         ],
-        img: "https://www.arbulang.com/img/fiszki1/201a.jpg",
-        story: "Bawimy się w chowanego, kolega <u><b>czai</u></b> się za murkiem. Jedno <u><b>dziecko</u></b> Wa<u><b>ld</u></b>iego - zawołała mama",
+            entries: [
+        {
+            id: 1,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/201a.jpg",
+                alt: "Wygenerowane przez AI."
+            },
+            story: {
+                text: "Bawimy się w chowanego, kolega <u><b>czai</u></b> się za murkiem. Jedno <u><b>dziecko</u></b> Wa<u><b>ld</u></b>iego - zawołała mama",
+                alt: ""
+            },
+            category: ["chemia", "zabawa"]
+        }
+            ],
         desc: "child[czaild] - dziecko",
         sentence2: [
             "child"
@@ -8552,7 +10805,6 @@ const fiszki = [
             "child"
         ],
         key: "child",
-        category1: "nauka",
         category2: ["osoby"]
     },
     {
@@ -8637,13 +10889,6 @@ const fiszki = [
             "words"
         ],
         key: "your",
-        category1: [
-            "sport", "wojsko",
-            "natura", "miejsca",
-            "nauka", "socjologia",
-            "czarny humor", "dzieciństwo",
-            "związki", "otoczenie"
-        ],
         category2: ["osoby"],
         category3: ["PastSimple"]
     },
@@ -8653,8 +10898,20 @@ const fiszki = [
             31,
             61
         ],
-        img: "https://www.arbulang.com/img/fiszki1/203a.jpg",
-        story: "Na moim gospodarstwie stoi chat<u><b>ka</u></b> a obok chatki (gdzie trzymam narzędzia), są <u><b>ind</u></b>yki, które są <u><b>miłe</u></b> jeśli nie widzą czerwonego",
+            entries: [
+        {
+            id: 1,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/203a.jpg",
+                alt: "Wygenerowane przez AI."
+            },
+            story: {
+                text: "Na moim gospodarstwie stoi chat<u><b>ka</u></b> a obok chatki (gdzie trzymam narzędzia), są <u><b>ind</u></b>yki, które są <u><b>miłe</u></b> jeśli nie widzą czerwonego",
+                alt: ""
+            },
+            category: ["gospodarstwo", "indyki"]
+        }
+            ],
         desc: "kind[kaind] - miłe",
         sentence1: [
             "kind"
@@ -8674,8 +10931,20 @@ const fiszki = [
             31,
             61
         ],
-        img: "https://www.arbulang.com/img/fiszki1/204a.jpg",
-        story: "Mi<b><u>łe</b></u> słowa, jestem za nie wdzięczny. Na weekend jade <b><u>s</b></u>am na jezioro Śnia<b><u>rd</b></u>wy",
+            entries: [
+        {
+            id: 1,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/204a.jpg",
+                alt: "Wygenerowane przez AI."
+            },
+            story: {
+                text: "Mi<b><u>łe</b></u> słowa, jestem za nie wdzięczny. Na weekend jade <b><u>s</b></u>am na jezioro Śnia<b><u>rd</b></u>wy",
+                alt: ""
+            },
+            category: ["życzliwość", "docenienie"]
+        }
+            ],
         desc: "words[łerds-50%, łords-50%] - słowa(liczba mnoga od word)",
         sentence1: [
             "words"
@@ -8695,8 +10964,20 @@ const fiszki = [
             31,
             62
         ],
-        img: "https://www.arbulang.com/img/fiszki1/205a.jpg",
-        story: "Koś mi <b><u>zrobił</b></u> żart. O<b><u>d</b></u> razu trzy<b><u>mej</b></u> bo nie wytrzymia",
+            entries: [
+        {
+            id: 1,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/205a.jpg",
+                alt: "Wygenerowane przez AI."
+            },
+            story: {
+                text: "Koś mi <b><u>zrobił</b></u> żart. O<b><u>d</b></u> razu trzy<b><u>mej</b></u> bo nie wytrzymia",
+                alt: ""
+            },
+            category: ["życie", "żartowanie"]
+        }
+            ],
         desc: "made[mejd] - zrobiły/zrobił/zrobiła",
         sentence2: [
             "made"
@@ -8716,16 +10997,44 @@ const fiszki = [
             31,
             62
         ],
-        img: [
-            "https://www.arbulang.com/img/fiszki1/49a.jpg",
-            "https://www.arbulang.com/img/fiszki1/49b.jpg",
-            "https://www.arbulang.com/img/fiszki1/49c.jpg"
-        ],
-        story: [
-            "W <b><u>maj</b></u>u kwitną <b><u>moje</b></u> ulubione kwiaty",
-            "Przetrzy<b><u>maj</b></u> mi na pare dni <b><u>moje</b></u> auto",
-            "W <b><u>maj</b></u>u na <b><u>moje</b></u> rośliny w ogrodzie pada deszcz"
-        ],
+            entries: [
+        {
+            id: 1,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/50aa.jpg",
+                alt: "Ogród kwiatowy. Wygenerowane przez AI."
+            },
+            story: {
+                text: "W <b><u>maj</b></u>u kwitną <b><u>moje</b></u> ulubione kwiaty",
+                alt: "Wiosna i jej piękno. Czy wiosna powoduje radosny klimat?"
+            },
+            category: ["natura", "florystyka"]
+        },
+        {
+                    id: 2,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/50bb.jpg",
+                alt: "Auto na parkingu. Wygenerowane przez AI."
+            },
+            story: {
+                text: "Przetrzy<b><u>maj</b></u> mi na pare dni <b><u>moje</b></u> auto na placu",
+                alt: "Zaufanie a przyjaźń. Czy trudno jest zbudować zaufanie?"
+            },
+            category: ["związki", "przyjaźń"]
+        },
+        {
+                            id: 3,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/50cc.jpg",
+                alt: "Zroszona przez deszcz - roślina. Wygenerowane przez AI."
+            },
+            story: {
+                text: "W <b><u>maj</b></u>u na <b><u>moje</b></u> rośliny w ogrodzie pada deszcz",
+                alt: "Pory roku, wiosna i jej uroki. Czy majowy deszcz jest przyjemny?"
+            },
+            category: ["nauka", "pory roku"]
+        }
+            ],
         desc: "my[maj] - mój/moje",
         sentence2: [
             "my"
@@ -8736,10 +11045,6 @@ const fiszki = [
             "day"
         ],
         key: "my",
-        category1: ["natura", "florystyka",
-            "związki", "przyjaźń",
-            "nauka", "pory roku"
-        ],
         category2: ["zaimkiosobowe"]
     },
     {
@@ -8748,13 +11053,20 @@ const fiszki = [
             31,
             62
         ],
-        img: "https://www.arbulang.com/img/fiszki1/207b.jpg",
-        translate: "Oni grają w piłkę nożną w tym momencie",
-        translateb: "[Dej ar pleing futbol at de moment]",
-        translateb2: "[Ewrybody hes fan]",
-        srcWord: ["https://www.arbulang.com/filmy/football.mp4", "Pelé. Narodziny legendy (2016)"],
-        srcWordimage: "https://www.arbulang.com/filmy/football.png",
-        story: "<u><b>Oni</u></b> z<u><b>dej</u></b>mują jabłka z jabłoni",
+            entries: [
+        {
+            id: 1,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/207b.jpg",
+                alt: "Wygenerowane przez AI."
+            },
+            story: {
+                text: "<u><b>Oni</u></b> z<u><b>dej</u></b>mują jabłka z jabłoni",
+                alt: ""
+            },
+            category: ["życie", "praca"]
+        }
+            ],
         desc: "day[dej] - dzień",
         sentence2: [
             "day"
@@ -8858,8 +11170,20 @@ const fiszki = [
             32,
             63
         ],
-        img: "https://www.arbulang.com/img/fiszki1/209a.jpg",
-        story: "Jestem na południowych st<u><b>ep</u></b>ach Azji, słucham sobie ulubionych a<u><b>rii</u></b>, mam na sobie t<u><b>szi</u></b>rt. Doceniam tą chwilę i nie obchodzi mnie w sieci h<u><b>ejt</u></b>",
+            entries: [
+        {
+            id: 1,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/209a.jpg",
+                alt: "Wygenerowane przez AI."
+            },
+            story: {
+                text: "Jestem na południowych st<u><b>ep</u></b>ach Azji, słucham sobie ulubionych a<u><b>rii</u></b>, mam na sobie t<u><b>szi</u></b>rt. Doceniam tą chwilę i nie obchodzi mnie w sieci h<u><b>ejt</u></b>",
+                alt: ""
+            },
+            category: ["położenie geograficzne", "Azja"]
+        }
+            ],
         desc: "appreciate[eprisziejt] - doceniać",
         sentence1: [
             "appreciate"
@@ -8951,13 +11275,6 @@ const fiszki = [
             "today"
         ],
         key: "your",
-        category1: [
-            "sport", "wojsko",
-            "natura", "miejsca",
-            "nauka", "socjologia",
-            "czarny humor", "dzieciństwo",
-            "związki", "otoczenie"
-        ],
         category2: ["osoby", "zaimkiosobowe"]
     },
     {
@@ -8966,8 +11283,20 @@ const fiszki = [
             32,
             64
         ],
-        img: "https://www.arbulang.com/img/fiszki1/211a.jpg",
-        story: "M<b><u>esi</b></u> <b><u>ste</b></u>ruje piłką, ma już na koncie asy<b><u>ste</b></u> przy golu. Jego gra ma s<b><u>ens</b></u>",
+            entries: [
+        {
+            id: 1,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/211a.jpg",
+                alt: "Wygenerowane przez AI."
+            },
+            story: {
+                text: "M<b><u>esi</b></u> <b><u>ste</b></u>ruje piłką, ma już na koncie asy<b><u>ste</b></u> przy golu. Jego gra ma s<b><u>ens</b></u>",
+                alt: ""
+            },
+            category: ["piłka nożna", "drybling"]
+        }
+            ],
         desc: "assistance[esistens] - asysta",
         sentence2: [
             "assistance"
@@ -8987,8 +11316,20 @@ const fiszki = [
             32,
             64
         ],
-        img: "https://www.arbulang.com/img/fiszki1/212a.jpg",
-        story: "<b><u>Dziś</b></u> muszę zbierać na piwo, stoje <b><u>tu</b></u> pod sklepem i mówię <b><u>dej</b></u>",
+            entries: [
+        {
+            id: 1,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/212a.jpg",
+                alt: "Wygenerowane przez AI."
+            },
+            story: {
+                text: "<b><u>Dziś</b></u> muszę zbierać na piwo, stoje <b><u>tu</b></u> pod sklepem i mówię <b><u>dej</b></u>",
+                alt: ""
+            },
+            category: ["życie", "utrzymanie"]
+        }
+            ],
         desc: "today[tudej] - dziś",
         sentence2: [
             "today"
@@ -9008,22 +11349,72 @@ const fiszki = [
             33,
             65
         ],
-        img: [
-            "https://www.arbulang.com/img/fiszki1/43a.jpg",
-            "https://www.arbulang.com/img/fiszki1/80b.jpg",
-            "https://www.arbulang.com/img/fiszki1/83c.jpg",
-            "https://www.arbulang.com/img/fiszki1/108d.jpg"
-        ],
+            entries: [
+                        {
+            id: 1,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/44b.jpg",
+                alt: "Kraina w starożytności. Wygenerowane przez AI."
+            },
+            story: {
+                text: "Ma<b><u>dis</b></u>on jest świetnym sportowcem a to jej trener",
+                alt: "Opowieść Quo vadis. Czy warto czytać Quo Vadis?"
+            },
+            category: ["sport", "trener"]
+        },
+        {
+            id: 2,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/44a.jpg",
+                alt: "Kraina w starożytności. Wygenerowane przez AI."
+            },
+            story: {
+                text: "Quo va<b><u>dis</b></u> <b><u>to</b></u> cytat bardzo znany i kojarzy się ze starożytnym Rzymem",
+                alt: "Opowieść Quo vadis. Czy warto czytać Quo Vadis?"
+            },
+            category: ["natura", "dawna kraina"]
+        },
+        {
+                            id: 3,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/83c.jpg",
+                alt: "Dawny geniusz. Wygenerowane przez AI."
+            },
+            story: {
+                text: "E<b><u>dis</b></u>on to geniusz",
+                alt: "Dawny geniusz. Kto wymyślił żarówkę?"
+            },
+            category: ["nauka", "geniusze"]
+        },
+                {
+                    id: 4,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/80b.jpg",
+                alt: "Układanka słowna. Wygenerowane przez AI."
+            },
+            story: {
+                text: "To słówko distant - czytamy <b><u>dis</b></u>tant",
+                alt: "Układanka słowna. Czy scrabble jest ciekawe?"
+            },
+            category: ["czarny humor", "języki"]
+        },
+                {
+                            id: 5,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/108d.jpg",
+                alt: "Diva operowa. Wygenerowane przez AI."
+            },
+            story: {
+                text: "<b><u>Di</b></u>va operowa jest <b><u>s</b></u>ławna",
+                alt: "Śpiew operowy. Czy w operze można się dobrze bawić?"
+            },
+            category: ["związki", "muzyka klasyczna"]
+        }
+            ],
         translate: "Ten kwiat jest żółty, ale wszystkie pozostałe są niebieskie",
         translateb: "[Dis flałer is jelow bat ol de aders ar blu]",
         srcWord: ["https://www.arbulang.com/filmy/kwiaty.mp4", "Klan", "Serial"],
         srcWordimage: "https://www.arbulang.com/filmy/kwiaty.png",
-        story: [
-            "Quo va<b><u>dis</b></u> <b><u>to</b></u> cytat bardzo znany",
-            "To słówko distant - czytamy <b><u>dis</b></u>tant",
-            "E<b><u>dis</b></u>on to geniusz",
-            "<b><u>Di</b></u>va operowa jest <b><u>s</b></u>ławna"
-        ],
         desc: "this[dis] - to",
         sentence1: [
             "This"
@@ -9035,12 +11426,6 @@ const fiszki = [
             "yellow"
         ],
         key: "this",
-        category1: [
-            "historia", "filozofia",
-            "nauka", "języki",
-            "nauka", "geniusze",
-            "pasje", "muzyka klasyczna"
-        ],
         category2: [""],
         category3: ["PresentSimple", "PresentSimplePodmiot"]
     },
@@ -9050,8 +11435,20 @@ const fiszki = [
             33,
             65
         ],
-        img: "https://www.arbulang.com/img/fiszki1/214a.jpg",
-        story: "Moim <u><b>fla</u></b>mastrem potrafie narysować fajnego <u><b>kwiatka</u></b> i wtedy mam pa<u><b>łer</u></b>a(power)",
+            entries: [
+        {
+            id: 1,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/214a.jpg",
+                alt: "Wygenerowane przez AI."
+            },
+            story: {
+                text: "Moim <u><b>fla</u></b>mastrem potrafie narysować fajnego <u><b>kwiatka</u></b> i wtedy mam pa<u><b>łer</u></b>a(power)",
+                alt: ""
+            },
+            category: ["sztuka", "artyzm"]
+        }
+            ],
         desc: "flower[flałer] - kwiatek",
         sentence1: [
             "flower"
@@ -9179,8 +11576,20 @@ const fiszki = [
             33,
             65
         ],
-        img: "https://www.arbulang.com/img/fiszki1/216a.jpg",
-        story: "<u><b>Zółty</u></b> ptaszek dziubie słonine, obok przchodzi <u><b>jelo</u></b>nek z <u><b>ł</u></b>adnym porożem",
+            entries: [
+        {
+            id: 1,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/216a.jpg",
+                alt: "Wygenerowane przez AI."
+            },
+            story: {
+                text: "<u><b>Zółty</u></b> ptaszek dziubie słonine, obok przchodzi <u><b>jelo</u></b>nek z <u><b>ł</u></b>adnym porożem",
+                alt: ""
+            },
+            category: ["natura", "dzikie zwierzęta"]
+        }
+            ],
         desc: "yellow[jeloł] - żółty",
         sentence1: [
             "yellow"
@@ -9283,8 +11692,20 @@ const fiszki = [
             33,
             66
         ],
-        img: "https://www.arbulang.com/img/fiszki1/218a.jpg",
-        story: "<u><b>Wszyscy</u></b> H<u><b>ol</u></b>endrzy lubią marihuane",
+            entries: [
+        {
+            id: 1,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/218a.jpg",
+                alt: "Wygenerowane przez AI."
+            },
+            story: {
+                text: "<u><b>Wszyscy</u></b> H<u><b>ol</u></b>endrzy lubią marihuane",
+                alt: ""
+            },
+            category: ["używki", "marihuana"]
+        }
+            ],
         desc: "all[ol] - wszystkie/wszyscy",
         sentence2: [
             "all"
@@ -9306,8 +11727,20 @@ const fiszki = [
             33,
             66
         ],
-        img: "https://www.arbulang.com/img/fiszki1/219a.jpg",
-        story: "<u><b>Inni</u></b> n<u><b>a-de-r</u></b> rzadko mnie denerwują więc czuję się w<u><b>s</u></b>paniale",
+            entries: [
+        {
+            id: 1,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/219a.jpg",
+                alt: "Wygenerowane przez AI."
+            },
+            story: {
+                text: "<u><b>Inni</u></b> n<u><b>a-de-r</u></b> rzadko mnie denerwują więc czuję się w<u><b>s</u></b>paniale",
+                alt: ""
+            },
+            category: ["inteligencja emocjonalna", "emocje"]
+        }
+            ],
         desc: "the others[de aders] - inny/inne",
         sentence2: [
             "the others"
@@ -9329,14 +11762,32 @@ const fiszki = [
             33,
             66
         ],
-        img: [
-            "https://www.arbulang.com/img/fiszki1/51a.jpg",
-            "https://www.arbulang.com/img/fiszki1/220a.jpg"
-        ],
-        story: [
-            "<b><u>Twoje</b></u> <b><u>ar</b></u>gumenty są bardzo przemawiające",
-            "Papuga <u><b>ar</u></b>a i skowronek <u><b>są</u></b> zaprzyjaźnieni. Mam nadzieję, że ty <u><b>jesteś</u></b> z tego powodu w dobrym nastroju",
-        ],
+            entries: [
+        {
+            id: 1,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/52aa.jpg",
+                alt: "Burzliwa rozmowa. Wygenerowane przez AI."
+            },
+            story: {
+                text: "<b><u>Twoje</b></u> <b><u>ar</b></u>gumenty są bardzo przemawiające",
+                alt: "Dyspóty. Jak argumentować swoje zdanie?"
+            },
+            category: ["przemawianie", "argumenty"]
+        },
+        {
+                    id: 2,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/220a.jpg",
+                alt: "Papuga w klatce. Wygenerowane przez AI."
+            },
+            story: {
+                text: "Papuga <u><b>ar</u></b>a i skowronek <u><b>są</u></b> zaprzyjaźnieni. Mam nadzieję, że ty <u><b>jesteś</u></b> z tego powodu w dobrym nastroju",
+                alt: "Życie zwierząt. Czy poszczególne gatunki zwierząt ze sobą rozmawiają?"
+            },
+            category: ["zwierzęta", "przyjaźń"]
+        }
+            ],
         desc: "are[ar] - jest/są - gramatyka",
         sentence2: [
             "are"
@@ -9358,8 +11809,20 @@ const fiszki = [
             33,
             66
         ],
-        img: "https://www.arbulang.com/img/fiszki1/221a.jpg",
-        story: "Ten <u><b>blu</u></b>szcz jest taki piękny na tle niebieskiego nieba",
+            entries: [
+        {
+            id: 1,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/221a.jpg",
+                alt: "Wygenerowane przez AI."
+            },
+            story: {
+                text: "Ten <u><b>blu</u></b>szcz jest taki piękny na tle niebieskiego nieba",
+                alt: ""
+            },
+            category: ["natura", "rośliny"]
+        }
+            ],
         desc: "blue[blu] - niebieski/niebieskie",
         sentence2: [
             "blue"
@@ -9381,13 +11844,25 @@ const fiszki = [
             34,
             67
         ],
-        img: "https://www.arbulang.com/img/fiszki1/96a.jpg",
+            entries: [
+        {
+            id: 1,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/95aa.jpg",
+                alt: "Opakowanie suplementów grzyba riszi. Wygenerowane przez AI."
+            },
+            story: {
+                text: "<u><b>Ona</u></b> - Patrycja ma ri<u><b>szi</u></b> to naturalny antyoksydant",
+                alt: "Suplementacja grzybami. Jakie parametry zdrowotne poprawiają grzyby riszi?"
+            },
+            category: ["suplementy", "riszi"]
+        }
+            ],
         translate: "Ona teraz czyta nową książkę",
         translateb: "[Szi is riding e nju buk nał]",
         translateb2: "[Ewrybody hes fan]",
         srcWord: ["https://www.arbulang.com/filmy/shebook.mp4", "Harry Potter i Komnata Tajemnic (2002)"],
         srcWordimage: "https://www.arbulang.com/filmy/shebook.png",
-        story: "<u><b>Ona</u></b> - Patrycja ma ri<u><b>szi</u></b> to naturalny antyoksydant",
         desc: "she[szi] - niebieski/niebieskie",
         sentence1: [
             "She"
@@ -9515,8 +11990,20 @@ const fiszki = [
             34,
             67
         ],
-        img: "https://www.arbulang.com/img/fiszki1/224a.jpg",
-        story: "Franek czyta o stanie Flo<b><u>rid</b></u>a i cieszy sie nauką. Do Florydy czasami wyjeżdza na wakacje Ewa M<u><b>ing</u></b>e",
+            entries: [
+        {
+            id: 1,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/224a.jpg",
+                alt: "Wygenerowane przez AI."
+            },
+            story: {
+                text: "Franek czyta o stanie Flo<b><u>rid</b></u>a i cieszy sie nauką. Do Florydy czasami wyjeżdza na wakacje Ewa M<u><b>ing</u></b>e",
+                alt: ""
+            },
+            category: ["szkoła", "czytanie"]
+        }
+            ],
         desc: "reading[riding] - niebieski/niebieskie",
         sentence1: [
             "reading"
@@ -9558,8 +12045,20 @@ const fiszki = [
             34,
             68
         ],
-        img: "https://www.arbulang.com/img/fiszki1/226a.jpg",
-        story: "He<u><b>nju</u></b> ma <u><b>nowy</u></b> telefon",
+            entries: [
+        {
+            id: 1,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/226a.jpg",
+                alt: "Wygenerowane przez AI."
+            },
+            story: {
+                text: "He<u><b>nju</u></b> ma <u><b>nowy</u></b> telefon",
+                alt: ""
+            },
+            category: ["media", "telefon"]
+        }
+            ],
         desc: "new[nju] - nowy/nowa/nowe",
         sentence2: [
             "new"
@@ -9571,7 +12070,6 @@ const fiszki = [
             "now"
         ],
         key: "new",
-        category1: "nauka",
         category2: [""]
     },
     {
@@ -9580,8 +12078,20 @@ const fiszki = [
             34,
             68
         ],
-        img: "https://www.arbulang.com/img/fiszki1/227a.jpg",
-        story: "Z drzewa <b><u>buk</b></u>owego jest najlepszy papier na <b><u>książki</b></u>",
+            entries: [
+        {
+            id: 1,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/227a.jpg",
+                alt: "Wygenerowane przez AI."
+            },
+            story: {
+                text: "Z drzewa <b><u>buk</b></u>owego jest najlepszy papier na <b><u>książki</b></u>",
+                alt: ""
+            },
+            category: ["produkcja", "papier"]
+        }
+            ],
         desc: "book[buk] - książka",
         sentence2: [
             "book"
@@ -9602,8 +12112,20 @@ const fiszki = [
             34,
             68
         ],
-        img: "https://www.arbulang.com/img/fiszki1/228a.jpg",
-        story: "<u><b>Teraz</u></b> moja ulubiona woda - to <u><b>Nał</u></b>ęczowska",
+            entries: [
+        {
+            id: 1,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/228a.jpg",
+                alt: "Wygenerowane przez AI."
+            },
+            story: {
+                text: "<u><b>Teraz</u></b> moja ulubiona woda - to <u><b>Nał</u></b>ęczowska",
+                alt: ""
+            },
+            category: ["produkty", "woda do picia"]
+        }
+            ],
         desc: "now[nał] - teraz",
         sentence2: [
             "now"
@@ -9652,14 +12174,32 @@ const fiszki = [
             35,
             69
         ],
-        img: [
-            "https://www.arbulang.com/img/fiszki1/51a.jpg",
-            "https://www.arbulang.com/img/fiszki1/220a.jpg",
-        ],
-        story: [
-            "<b><u>Twoje</b></u> <b><u>ar</b></u>gumenty są bardzo przemawiające",
-            "Papuga <u><b>ar</u></b>a i skowronek <u><b>są</u></b> zaprzyjaźnieni. Mam nadzieję, że ty <u><b>jesteś</u></b> z tego powodu w dobrym nastroju",
-        ],
+            entries: [
+        {
+            id: 1,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/52aa.jpg",
+                alt: "Burzliwa rozmowa. Wygenerowane przez AI."
+            },
+            story: {
+                text: "<b><u>Twoje</b></u> <b><u>ar</b></u>gumenty są bardzo przemawiające",
+                alt: "Dyspóty. Jak argumentować swoje zdanie?"
+            },
+            category: ["przemawianie", "argumenty"]
+        },
+        {
+                    id: 2,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/220a.jpg",
+                alt: "Papuga w klatce. Wygenerowane przez AI."
+            },
+            story: {
+                text: "Papuga <u><b>ar</u></b>a i skowronek <u><b>są</u></b> zaprzyjaźnieni. Mam nadzieję, że ty <u><b>jesteś</u></b> z tego powodu w dobrym nastroju",
+                alt: "Życie zwierząt. Czy poszczególne gatunki zwierząt ze sobą rozmawiają?"
+            },
+            category: ["zwierzęta", "przyjaźń"]
+        }
+            ],
         desc: "are[ar] - jest/są - gramatyka",
         sentence1: [
             "are"
@@ -9671,7 +12211,6 @@ const fiszki = [
             "football"
         ],
         key: "are",
-        category1: "nauka",
         category2: [""]
     },
     {
@@ -10516,14 +13055,32 @@ const fiszki = [
             38,
             75
         ],
-        img: [
-            "https://www.arbulang.com/img/fiszki1/51a.jpg",
-            "https://www.arbulang.com/img/fiszki1/220a.jpg"
-        ],
-        story: [
-            "<b><u>Twoje</b></u> <b><u>ar</b></u>gumenty są bardzo przemawiające",
-            "Papuga <u><b>ar</u></b>a i skowronek <u><b>są</u></b> zaprzyjaźnieni. Mam nadzieję, że ty <u><b>jesteś</u></b> z tego powodu w dobrym nastroju",
-        ],
+            entries: [
+        {
+            id: 1,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/52aa.jpg",
+                alt: "Burzliwa rozmowa. Wygenerowane przez AI."
+            },
+            story: {
+                text: "<b><u>Twoje</b></u> <b><u>ar</b></u>gumenty są bardzo przemawiające",
+                alt: "Dyspóty. Jak argumentować swoje zdanie?"
+            },
+            category: ["przemawianie", "argumenty"]
+        },
+        {
+                    id: 2,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/220a.jpg",
+                alt: "Papuga w klatce. Wygenerowane przez AI."
+            },
+            story: {
+                text: "Papuga <u><b>ar</u></b>a i skowronek <u><b>są</u></b> zaprzyjaźnieni. Mam nadzieję, że ty <u><b>jesteś</u></b> z tego powodu w dobrym nastroju",
+                alt: "Życie zwierząt. Czy poszczególne gatunki zwierząt ze sobą rozmawiają?"
+            },
+            category: ["zwierzęta", "przyjaźń"]
+        }
+            ],
         desc: "are[ar] - jest/są - gramatyka",
         sentence1: [
             "are"
@@ -10636,14 +13193,32 @@ const fiszki = [
             39,
             77
         ],
-        img: [
-            "https://www.arbulang.com/img/fiszki1/51a.jpg",
-            "https://www.arbulang.com/img/fiszki1/220a.jpg"
-        ],
-        story: [
-            "<b><u>Twoje</b></u> <b><u>ar</b></u>gumenty są bardzo przemawiające",
-            "Papuga <u><b>ar</u></b>a i skowronek <u><b>są</u></b> zaprzyjaźnieni. Mam nadzieję, że ty <u><b>jesteś</u></b> z tego powodu w dobrym nastroju",
-        ],
+            entries: [
+        {
+            id: 1,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/52aa.jpg",
+                alt: "Burzliwa rozmowa. Wygenerowane przez AI."
+            },
+            story: {
+                text: "<b><u>Twoje</b></u> <b><u>ar</b></u>gumenty są bardzo przemawiające",
+                alt: "Dyspóty. Jak argumentować swoje zdanie?"
+            },
+            category: ["przemawianie", "argumenty"]
+        },
+        {
+                    id: 2,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/220a.jpg",
+                alt: "Papuga w klatce. Wygenerowane przez AI."
+            },
+            story: {
+                text: "Papuga <u><b>ar</u></b>a i skowronek <u><b>są</u></b> zaprzyjaźnieni. Mam nadzieję, że ty <u><b>jesteś</u></b> z tego powodu w dobrym nastroju",
+                alt: "Życie zwierząt. Czy poszczególne gatunki zwierząt ze sobą rozmawiają?"
+            },
+            category: ["zwierzęta", "przyjaźń"]
+        }
+            ],
         desc: "are[ar] - jest/są - gramatyka",
         sentence1: [
             "are"
@@ -11079,14 +13654,32 @@ const fiszki = [
             41,
             80
         ],
-        img: [
-            "https://www.arbulang.com/img/fiszki1/51a.jpg",
-            "https://www.arbulang.com/img/fiszki1/220a.jpg"
-        ],
-        story: [
-            "<b><u>Twoje</b></u> <b><u>ar</b></u>gumenty są bardzo przemawiające",
-            "Papuga <u><b>ar</u></b>a i skowronek <u><b>są</u></b> zaprzyjaźnieni. Mam nadzieję, że ty <u><b>jesteś</u></b> z tego powodu w dobrym nastroju",
-        ],
+            entries: [
+        {
+            id: 1,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/52aa.jpg",
+                alt: "Burzliwa rozmowa. Wygenerowane przez AI."
+            },
+            story: {
+                text: "<b><u>Twoje</b></u> <b><u>ar</b></u>gumenty są bardzo przemawiające",
+                alt: "Dyspóty. Jak argumentować swoje zdanie?"
+            },
+            category: ["przemawianie", "argumenty"]
+        },
+        {
+                    id: 2,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/220a.jpg",
+                alt: "Papuga w klatce. Wygenerowane przez AI."
+            },
+            story: {
+                text: "Papuga <u><b>ar</u></b>a i skowronek <u><b>są</u></b> zaprzyjaźnieni. Mam nadzieję, że ty <u><b>jesteś</u></b> z tego powodu w dobrym nastroju",
+                alt: "Życie zwierząt. Czy poszczególne gatunki zwierząt ze sobą rozmawiają?"
+            },
+            category: ["zwierzęta", "przyjaźń"]
+        }
+            ],
         desc: "are[ar] - jest/są - gramatyka",
         sentence1: [
             "are"
@@ -11377,20 +13970,70 @@ const fiszki = [
             42,
             81
         ],
-        img: [
-            "https://www.arbulang.com/img/fiszki1/43a.jpg",
-            "https://www.arbulang.com/img/fiszki1/80b.jpg",
-            "https://www.arbulang.com/img/fiszki1/83c.jpg",
-            "https://www.arbulang.com/img/fiszki1/108d.jpg"
-        ],
+            entries: [
+                        {
+            id: 1,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/44b.jpg",
+                alt: "Zawodniczka i trener. Wygenerowane przez AI."
+            },
+            story: {
+                text: "Ma<b><u>dis</b></u>on jest świetnym sportowcem a to jej trener",
+                alt: "Opowieść Quo vadis. Czy warto czytać Quo Vadis?"
+            },
+            category: ["sport", "trener"]
+        },
+        {
+            id: 2,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/44a.jpg",
+                alt: "Kraina w starożytności. Wygenerowane przez AI."
+            },
+            story: {
+                text: "Quo va<b><u>dis</b></u> <b><u>to</b></u> cytat bardzo znany i kojarzy się ze starożytnym Rzymem",
+                alt: "Opowieść Quo vadis. Czy warto czytać Quo Vadis?"
+            },
+            category: ["natura", "dawna kraina"]
+        },
+        {
+                            id: 3,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/83c.jpg",
+                alt: "Dawny geniusz. Wygenerowane przez AI."
+            },
+            story: {
+                text: "E<b><u>dis</b></u>on to geniusz",
+                alt: "Dawny geniusz. Kto wymyślił żarówkę?"
+            },
+            category: ["nauka", "geniusze"]
+        },
+                {
+                    id: 4,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/80b.jpg",
+                alt: "Układanka słowna. Wygenerowane przez AI."
+            },
+            story: {
+                text: "To słówko distant - czytamy <b><u>dis</b></u>tant",
+                alt: "Układanka słowna. Czy scrabble jest ciekawe?"
+            },
+            category: ["czarny humor", "języki"]
+        },
+                {
+                            id: 5,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/108d.jpg",
+                alt: "Diva operowa. Wygenerowane przez AI."
+            },
+            story: {
+                text: "<b><u>Di</b></u>va operowa jest <b><u>s</b></u>ławna",
+                alt: "Śpiew operowy. Czy w operze można się dobrze bawić?"
+            },
+            category: ["związki", "muzyka klasyczna"]
+        }
+            ],
         word: [
             "https://www.arbulang.com/voice/music.mp4"
-        ],
-        story: [
-            "Quo va<b><u>dis</b></u> <b><u>to</b></u> cytat bardzo znany",
-            "To słówko distant - czytamy <b><u>dis</b></u>tant",
-            "E<b><u>dis</b></u>on to geniusz",
-            "<b><u>Di</b></u>va operowa jest <b><u>s</b></u>ławna"
         ],
         desc: "this[dis] - to",
         sentence2: [
@@ -11401,7 +14044,6 @@ const fiszki = [
             "year"
         ],
         key: "this",
-        category1: "nauka",
         category2: ["zaimki"]
     },
     {
@@ -11430,9 +14072,20 @@ const fiszki = [
             43,
             82
         ],
-        img: [
-            "https://www.arbulang.com/img/fiszki1/96a.jpg"
-        ],
+            entries: [
+        {
+            id: 1,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/95aa.jpg",
+                alt: "Opakowanie suplementów grzyba riszi. Wygenerowane przez AI."
+            },
+            story: {
+                text: "<u><b>Ona</u></b> - Patrycja ma ri<u><b>szi</u></b> to naturalny antyoksydant",
+                alt: "Suplementacja grzybami. Jakie parametry zdrowotne poprawiają grzyby riszi?"
+            },
+            category: ["suplementy", "riszi"]
+        }
+            ],
         translate: "",
         translateb: "[Szi hes wizitid Paris meny tajms]",
         translateb2: "[Szi hes wizitid Paris]",
@@ -11442,7 +14095,6 @@ const fiszki = [
         word: [
             "https://www.arbulang.com/voice/bike.mp4"
         ],
-        story: "<u><b>Ona</u></b> - Patrycja ma ri<u><b>szi</u></b> to naturalny antyoksydant",
         desc: "she[szi] - ona",
         sentence1: [
             "She"
@@ -11464,23 +14116,68 @@ const fiszki = [
             43,
             82
         ],
-        img: [
-            "https://www.arbulang.com/img/fiszki1/2a.jpg",
-            "https://www.arbulang.com/img/fiszki1/2b.jpg",
-            "https://www.arbulang.com/img/fiszki1/2c.jpg",
-            "https://www.arbulang.com/img/fiszki1/2d.jpg",
-            "https://www.arbulang.com/img/fiszki1/2e.jpg"
-        ],
-        word: [
-            "https://www.arbulang.com/src/has.wav"
-        ],
-        story: [
-            'W niemieckim mieście <span class="adannotation" data-annotation="1"><u><b>Hess</u></b></span>en Jurek <u><b>ma</u></b> bilet na mecze jego drużyny',
-            '<span class="adannotation" data-annotation="1"><u><b>H</u></b></span>ipopotam występuje w cyrku na <span class="adannotation" data-annotation="2"><u><b>es</u></b></span>tradzie, <u><b>ma</u></b> duże umiejętności',
-            'Naukowiec nagle się zapomniał i zapytał: <span class="adannotation" data-annotation="1"><u><b>he</u></b></span>?, a wtedy jego kolega <u><b>ma</u></b> niezłą zabawę, <span class="adannotation" data-annotation="2"><u><b>s</u></b></span>prawa oczywista..',
-            '<span class="adannotation" data-annotation="1"><u><b>He</u></b></span>gemonia konsumpcjonizmu doprowadziła do tego, że "ON"-dyrektor ma problemy, bo nikt nie chce chodzić na <span class="adannotation" data-annotation="2"><u><b>s</u></b></span>pektakle teatralne',
-            'Moja koleżanka <u><b>ma</u></b> nowy klarnet z drzewa <span class="adannotation" data-annotation="1"><u><b>he</u></b></span>banowego. <span class="adannotation" data-annotation="2"><u><b>S</u></b></span>....uper sprawa'
-        ],
+    entries: [
+        {
+            id: 1,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/2a.jpg",
+                alt: "Kupowanie biletu, zdjęcie z biletem. Wygenerowane przez AI."
+            },
+            story: {
+                text: 'W niemieckim mieście <span class="adannotation" data-annotation="1"><u><b>Hess</u></b></span>en Jurek <u><b>ma</u></b> bilet na mecze jego drużyny',
+                alt: "Przygotowanie do widowiska sportowego"
+            },
+            category: ["sport", "kibic"]
+        },
+        {
+            id: 2,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/2b.jpg",
+                alt: "Hipopotam podczas przedstawienia cyrkowego. Wygenerowane przez AI."
+            },
+            story: {
+                text: '<span class="adannotation" data-annotation="1"><u><b>H</u></b></span>ipopotam występuje w cyrku na <span class="adannotation" data-annotation="2"><u><b>es</u></b></span>tradzie, <u><b>ma</u></b> duże umiejętności',
+                alt: "Pokazy cyrkowe. Żart o cyrku"
+            },
+            category: ["natura", "rozrywka"]
+        },
+        {
+            id: 3,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/2c.jpg",
+                alt: "Naukowcy podczas pracy. Wygenerowane przez AI."
+            },
+            story: {
+                text: 'Naukowiec nagle się zapomniał i zapytał: <span class="adannotation" data-annotation="1"><u><b>he</u></b></span>?, a wtedy jego kolega <u><b>ma</u></b> niezłą zabawę, <span class="adannotation" data-annotation="2"><u><b>s</u></b></span>prawa oczywista..',
+                alt: "Obyczaje naukowca. Żart o naukowcu"
+            },
+            category: ["nauka", "humor"]
+        },
+        {
+            id: 4,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/2d.jpg",
+                alt: "Życie jako polityk. Scena. Wygenerowane przez AI."
+            },
+            story: {
+                text: '<span class="adannotation" data-annotation="1"><u><b>He</u></b></span>gemonia konsumpcjonizmu doprowadziła do tego, że "ON"-dyrektor ma problemy, bo nikt nie chce chodzić na <span class="adannotation" data-annotation="2"><u><b>s</u></b></span>pektakle teatralne',
+                alt: "Życie współczesne i kultura. Żart o teatrze"
+            },
+            category: ["czarny humor", "trendy"]
+        },
+        {
+            id: 5,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/2e.jpg",
+                alt: "Muzycy z klarnetami. Wygenerowane przez AI."
+            },
+            story: {
+                text: 'Moja koleżanka <u><b>ma</u></b> nowy klarnet z drzewa <span class="adannotation" data-annotation="1"><u><b>he</u></b></span>banowego. <span class="adannotation" data-annotation="2"><u><b>S</u></b></span>....uper sprawa',
+                alt: "Wychowanie dzieci"
+            },
+            category: ["związki", "muzyka"]
+        }
+    ],
         desc: "has[hes]/have[hew] - mieć(on/ona/oni)/mieć(ja/ty)",
         sentence1: [
             "has"
@@ -11917,18 +14614,68 @@ const fiszki = [
             45,
             85
         ],
-        img: [
-            "https://www.arbulang.com/img/fiszki1/43a.jpg",
-            "https://www.arbulang.com/img/fiszki1/80b.jpg",
-            "https://www.arbulang.com/img/fiszki1/83c.jpg",
-            "https://www.arbulang.com/img/fiszki1/108d.jpg"
-        ],
-        story: [
-            "Quo va<b><u>dis</b></u> <b><u>to</b></u> cytat bardzo znany",
-            "To słówko distant - czytamy <b><u>dis</b></u>tant",
-            "E<b><u>dis</b></u>on to geniusz",
-            "<b><u>Di</b></u>va operowa jest <b><u>s</b></u>ławna"
-        ],
+            entries: [
+                        {
+            id: 1,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/44b.jpg",
+                alt: "Kraina w starożytności. Wygenerowane przez AI."
+            },
+            story: {
+                text: "Ma<b><u>dis</b></u>on jest świetnym sportowcem a to jej trener",
+                alt: "Opowieść Quo vadis. Czy warto czytać Quo Vadis?"
+            },
+            category: ["sport", "trener"]
+        },
+        {
+            id: 2,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/44a.jpg",
+                alt: "Kraina w starożytności. Wygenerowane przez AI."
+            },
+            story: {
+                text: "Quo va<b><u>dis</b></u> <b><u>to</b></u> cytat bardzo znany i kojarzy się ze starożytnym Rzymem",
+                alt: "Opowieść Quo vadis. Czy warto czytać Quo Vadis?"
+            },
+            category: ["natura", "dawna kraina"]
+        },
+        {
+                            id: 3,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/83c.jpg",
+                alt: "Dawny geniusz. Wygenerowane przez AI."
+            },
+            story: {
+                text: "E<b><u>dis</b></u>on to geniusz",
+                alt: "Dawny geniusz. Kto wymyślił żarówkę?"
+            },
+            category: ["nauka", "geniusze"]
+        },
+                {
+                    id: 4,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/80b.jpg",
+                alt: "Układanka słowna. Wygenerowane przez AI."
+            },
+            story: {
+                text: "To słówko distant - czytamy <b><u>dis</b></u>tant",
+                alt: "Układanka słowna. Czy scrabble jest ciekawe?"
+            },
+            category: ["czarny humor", "języki"]
+        },
+                {
+                            id: 5,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/108d.jpg",
+                alt: "Diva operowa. Wygenerowane przez AI."
+            },
+            story: {
+                text: "<b><u>Di</b></u>va operowa jest <b><u>s</b></u>ławna",
+                alt: "Śpiew operowy. Czy w operze można się dobrze bawić?"
+            },
+            category: ["związki", "muzyka klasyczna"]
+        }
+            ],
         desc: "this[dis] - ta rzecz/osoba",
         sentence1: [
             "this"
@@ -12126,23 +14873,68 @@ const fiszki = [
             46,
             87
         ],
-        img: [
-            "https://www.arbulang.com/img/fiszki1/2a.jpg",
-            "https://www.arbulang.com/img/fiszki1/2b.jpg",
-            "https://www.arbulang.com/img/fiszki1/2c.jpg",
-            "https://www.arbulang.com/img/fiszki1/2d.jpg",
-            "https://www.arbulang.com/img/fiszki1/2e.jpg"
-        ],
-        word: [
-            "https://www.arbulang.com/src/has.wav"
-        ],
-        story: [
-            'W niemieckim mieście <span class="adannotation" data-annotation="1"><u><b>Hess</u></b></span>en Jurek <u><b>ma</u></b> bilet na mecze jego drużyny',
-            '<span class="adannotation" data-annotation="1"><u><b>H</u></b></span>ipopotam występuje w cyrku na <span class="adannotation" data-annotation="2"><u><b>es</u></b></span>tradzie, <u><b>ma</u></b> duże umiejętności',
-            'Naukowiec nagle się zapomniał i zapytał: <span class="adannotation" data-annotation="1"><u><b>he</u></b></span>?, a wtedy jego kolega <u><b>ma</u></b> niezłą zabawę, <span class="adannotation" data-annotation="2"><u><b>s</u></b></span>prawa oczywista..',
-            '<span class="adannotation" data-annotation="1"><u><b>He</u></b></span>gemonia konsumpcjonizmu doprowadziła do tego, że "ON"-dyrektor ma problemy, bo nikt nie chce chodzić na <span class="adannotation" data-annotation="2"><u><b>s</u></b></span>pektakle teatralne',
-            'Moja koleżanka <u><b>ma</u></b> nowy klarnet z drzewa <span class="adannotation" data-annotation="1"><u><b>he</u></b></span>banowego. <span class="adannotation" data-annotation="2"><u><b>S</u></b></span>....uper sprawa'
-        ],
+    entries: [
+        {
+            id: 1,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/2a.jpg",
+                alt: "Kupowanie biletu, zdjęcie z biletem. Wygenerowane przez AI."
+            },
+            story: {
+                text: 'W niemieckim mieście <span class="adannotation" data-annotation="1"><u><b>Hess</u></b></span>en Jurek <u><b>ma</u></b> bilet na mecze jego drużyny',
+                alt: "Przygotowanie do widowiska sportowego"
+            },
+            category: ["sport", "kibic"]
+        },
+        {
+            id: 2,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/2b.jpg",
+                alt: "Hipopotam podczas przedstawienia cyrkowego. Wygenerowane przez AI."
+            },
+            story: {
+                text: '<span class="adannotation" data-annotation="1"><u><b>H</u></b></span>ipopotam występuje w cyrku na <span class="adannotation" data-annotation="2"><u><b>es</u></b></span>tradzie, <u><b>ma</u></b> duże umiejętności',
+                alt: "Pokazy cyrkowe. Żart o cyrku"
+            },
+            category: ["natura", "rozrywka"]
+        },
+        {
+            id: 3,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/2c.jpg",
+                alt: "Naukowcy podczas pracy. Wygenerowane przez AI."
+            },
+            story: {
+                text: 'Naukowiec nagle się zapomniał i zapytał: <span class="adannotation" data-annotation="1"><u><b>he</u></b></span>?, a wtedy jego kolega <u><b>ma</u></b> niezłą zabawę, <span class="adannotation" data-annotation="2"><u><b>s</u></b></span>prawa oczywista..',
+                alt: "Obyczaje naukowca. Żart o naukowcu"
+            },
+            category: ["nauka", "humor"]
+        },
+        {
+            id: 4,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/2d.jpg",
+                alt: "Życie jako polityk. Scena. Wygenerowane przez AI."
+            },
+            story: {
+                text: '<span class="adannotation" data-annotation="1"><u><b>He</u></b></span>gemonia konsumpcjonizmu doprowadziła do tego, że "ON"-dyrektor ma problemy, bo nikt nie chce chodzić na <span class="adannotation" data-annotation="2"><u><b>s</u></b></span>pektakle teatralne',
+                alt: "Życie współczesne i kultura. Żart o teatrze"
+            },
+            category: ["czarny humor", "trendy"]
+        },
+        {
+            id: 5,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/2e.jpg",
+                alt: "Muzycy z klarnetami. Wygenerowane przez AI."
+            },
+            story: {
+                text: 'Moja koleżanka <u><b>ma</u></b> nowy klarnet z drzewa <span class="adannotation" data-annotation="1"><u><b>he</u></b></span>banowego. <span class="adannotation" data-annotation="2"><u><b>S</u></b></span>....uper sprawa',
+                alt: "Wychowanie dzieci"
+            },
+            category: ["związki", "muzyka"]
+        }
+    ],
         desc: "has[hes]/have[hew] - mieć(on/ona/oni)/mieć(ja/ty)",
         sentence1: [
             "has"
@@ -12202,7 +14994,20 @@ const fiszki = [
             47,
             88
         ],
-        img: "https://www.arbulang.com/img/fiszki1/96a.jpg",
+            entries: [
+        {
+            id: 1,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/95aa.jpg",
+                alt: "Opakowanie suplementów grzyba riszi. Wygenerowane przez AI."
+            },
+            story: {
+                text: "<u><b>Ona</u></b> - Patrycja ma ri<u><b>szi</u></b> to naturalny antyoksydant",
+                alt: "Suplementacja grzybami. Jakie parametry zdrowotne poprawiają grzyby riszi?"
+            },
+            category: ["suplementy", "riszi"]
+        }
+            ],
         translate: "",
         translateb: "[She hes rid dis buk tłajs]",
         translateb2: "[De mówi hes]",
@@ -12212,7 +15017,6 @@ const fiszki = [
         word: [
             "https://www.arbulang.com/voice/bike.mp4"
         ],
-        story: "<u><b>Ona</u></b> - Patrycja ma ri<u><b>szi</u></b> to naturalny antyoksydant",
         desc: "she[szi] - niebieski/niebieskie",
         sentence1: [
             "She"
@@ -12236,23 +15040,68 @@ const fiszki = [
             47,
             88
         ],
-        img: [
-            "https://www.arbulang.com/img/fiszki1/2a.jpg",
-            "https://www.arbulang.com/img/fiszki1/2b.jpg",
-            "https://www.arbulang.com/img/fiszki1/2c.jpg",
-            "https://www.arbulang.com/img/fiszki1/2d.jpg",
-            "https://www.arbulang.com/img/fiszki1/2e.jpg"
-        ],
-        word: [
-            "https://www.arbulang.com/src/has.wav"
-        ],
-        story: [
-            'W niemieckim mieście <span class="adannotation" data-annotation="1"><u><b>Hess</u></b></span>en Jurek <u><b>ma</u></b> bilet na mecze jego drużyny',
-            '<span class="adannotation" data-annotation="1"><u><b>H</u></b></span>ipopotam występuje w cyrku na <span class="adannotation" data-annotation="2"><u><b>es</u></b></span>tradzie, <u><b>ma</u></b> duże umiejętności',
-            'Naukowiec nagle się zapomniał i zapytał: <span class="adannotation" data-annotation="1"><u><b>he</u></b></span>?, a wtedy jego kolega <u><b>ma</u></b> niezłą zabawę, <span class="adannotation" data-annotation="2"><u><b>s</u></b></span>prawa oczywista..',
-            '<span class="adannotation" data-annotation="1"><u><b>He</u></b></span>gemonia konsumpcjonizmu doprowadziła do tego, że "ON"-dyrektor ma problemy, bo nikt nie chce chodzić na <span class="adannotation" data-annotation="2"><u><b>s</u></b></span>pektakle teatralne',
-            'Moja koleżanka <u><b>ma</u></b> nowy klarnet z drzewa <span class="adannotation" data-annotation="1"><u><b>he</u></b></span>banowego. <span class="adannotation" data-annotation="2"><u><b>S</u></b></span>....uper sprawa'
-        ],
+    entries: [
+        {
+            id: 1,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/2a.jpg",
+                alt: "Kupowanie biletu, zdjęcie z biletem. Wygenerowane przez AI."
+            },
+            story: {
+                text: 'W niemieckim mieście <span class="adannotation" data-annotation="1"><u><b>Hess</u></b></span>en Jurek <u><b>ma</u></b> bilet na mecze jego drużyny',
+                alt: "Przygotowanie do widowiska sportowego"
+            },
+            category: ["sport", "kibic"]
+        },
+        {
+            id: 2,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/2b.jpg",
+                alt: "Hipopotam podczas przedstawienia cyrkowego. Wygenerowane przez AI."
+            },
+            story: {
+                text: '<span class="adannotation" data-annotation="1"><u><b>H</u></b></span>ipopotam występuje w cyrku na <span class="adannotation" data-annotation="2"><u><b>es</u></b></span>tradzie, <u><b>ma</u></b> duże umiejętności',
+                alt: "Pokazy cyrkowe. Żart o cyrku"
+            },
+            category: ["natura", "rozrywka"]
+        },
+        {
+            id: 3,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/2c.jpg",
+                alt: "Naukowcy podczas pracy. Wygenerowane przez AI."
+            },
+            story: {
+                text: 'Naukowiec nagle się zapomniał i zapytał: <span class="adannotation" data-annotation="1"><u><b>he</u></b></span>?, a wtedy jego kolega <u><b>ma</u></b> niezłą zabawę, <span class="adannotation" data-annotation="2"><u><b>s</u></b></span>prawa oczywista..',
+                alt: "Obyczaje naukowca. Żart o naukowcu"
+            },
+            category: ["nauka", "humor"]
+        },
+        {
+            id: 4,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/2d.jpg",
+                alt: "Życie jako polityk. Scena. Wygenerowane przez AI."
+            },
+            story: {
+                text: '<span class="adannotation" data-annotation="1"><u><b>He</u></b></span>gemonia konsumpcjonizmu doprowadziła do tego, że "ON"-dyrektor ma problemy, bo nikt nie chce chodzić na <span class="adannotation" data-annotation="2"><u><b>s</u></b></span>pektakle teatralne',
+                alt: "Życie współczesne i kultura. Żart o teatrze"
+            },
+            category: ["czarny humor", "trendy"]
+        },
+        {
+            id: 5,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/2e.jpg",
+                alt: "Muzycy z klarnetami. Wygenerowane przez AI."
+            },
+            story: {
+                text: 'Moja koleżanka <u><b>ma</u></b> nowy klarnet z drzewa <span class="adannotation" data-annotation="1"><u><b>he</u></b></span>banowego. <span class="adannotation" data-annotation="2"><u><b>S</u></b></span>....uper sprawa',
+                alt: "Wychowanie dzieci"
+            },
+            category: ["związki", "muzyka"]
+        }
+    ],
         desc: "has[hes]/have[hew] - mieć(on/ona/oni)/mieć(ja/ty)",
         sentence1: [
             "has"
@@ -12299,18 +15148,68 @@ const fiszki = [
             47,
             88
         ],
-        img: [
-            "https://www.arbulang.com/img/fiszki1/43a.jpg",
-            "https://www.arbulang.com/img/fiszki1/80b.jpg",
-            "https://www.arbulang.com/img/fiszki1/83c.jpg",
-            "https://www.arbulang.com/img/fiszki1/108d.jpg"
-        ],
-        story: [
-            "Quo va<b><u>dis</b></u> <b><u>to</b></u> cytat bardzo znany",
-            "To słówko distant - czytamy <b><u>dis</b></u>tant",
-            "E<b><u>dis</b></u>on to geniusz",
-            "<b><u>Di</b></u>va operowa jest <b><u>s</b></u>ławna"
-        ],
+            entries: [
+                        {
+            id: 1,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/44b.jpg",
+                alt: "Kraina w starożytności. Wygenerowane przez AI."
+            },
+            story: {
+                text: "Ma<b><u>dis</b></u>on jest świetnym sportowcem a to jej trener",
+                alt: "Opowieść Quo vadis. Czy warto czytać Quo Vadis?"
+            },
+            category: ["sport", "trener"]
+        },
+        {
+            id: 2,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/44a.jpg",
+                alt: "Kraina w starożytności. Wygenerowane przez AI."
+            },
+            story: {
+                text: "Quo va<b><u>dis</b></u> <b><u>to</b></u> cytat bardzo znany i kojarzy się ze starożytnym Rzymem",
+                alt: "Opowieść Quo vadis. Czy warto czytać Quo Vadis?"
+            },
+            category: ["natura", "dawna kraina"]
+        },
+        {
+                            id: 3,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/83c.jpg",
+                alt: "Dawny geniusz. Wygenerowane przez AI."
+            },
+            story: {
+                text: "E<b><u>dis</b></u>on to geniusz",
+                alt: "Dawny geniusz. Kto wymyślił żarówkę?"
+            },
+            category: ["nauka", "geniusze"]
+        },
+                {
+                    id: 4,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/80b.jpg",
+                alt: "Układanka słowna. Wygenerowane przez AI."
+            },
+            story: {
+                text: "To słówko distant - czytamy <b><u>dis</b></u>tant",
+                alt: "Układanka słowna. Czy scrabble jest ciekawe?"
+            },
+            category: ["czarny humor", "języki"]
+        },
+                {
+                            id: 5,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/108d.jpg",
+                alt: "Diva operowa. Wygenerowane przez AI."
+            },
+            story: {
+                text: "<b><u>Di</b></u>va operowa jest <b><u>s</b></u>ławna",
+                alt: "Śpiew operowy. Czy w operze można się dobrze bawić?"
+            },
+            category: ["związki", "muzyka klasyczna"]
+        }
+            ],
         desc: "this[dis] - ta rzecz/osoba",
         sentence1: [
             "this"
@@ -12679,7 +15578,20 @@ const fiszki = [
             50,
             92
         ],
-        img: "https://www.arbulang.com/img/fiszki1/96a.jpg",
+            entries: [
+        {
+            id: 1,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/95aa.jpg",
+                alt: "Opakowanie suplementów grzyba riszi. Wygenerowane przez AI."
+            },
+            story: {
+                text: "<u><b>Ona</u></b> - Patrycja ma ri<u><b>szi</u></b> to naturalny antyoksydant",
+                alt: "Suplementacja grzybami. Jakie parametry zdrowotne poprawiają grzyby riszi?"
+            },
+            category: ["suplementy", "riszi"]
+        }
+            ],
         translate: "",
         translateb: "[Szi drinks kofi ewry singel dej]",
         translateb2: "[Maj broder plejs futbol]",
@@ -12689,7 +15601,6 @@ const fiszki = [
         word: [
             "https://www.arbulang.com/voice/bike.mp4"
         ],
-        story: "<u><b>Ona</u></b> - Patrycja ma ri<u><b>szi</u></b> to naturalny antyoksydant",
         desc: "she[szi] - ona",
         sentence1: [
             "She"

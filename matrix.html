@@ -1612,6 +1612,20 @@ input {
     <body>
         <a href="demo1angielski.html?category=all" class="hidden-link lesson-link-1" target="_blank" rel="noopener noreferrer">Przejdź do lekcji 1</a>
 <a href="demo2angielski.html?category=all" class="hidden-link lesson-link-2" target="_blank" rel="noopener noreferrer">Przejdź do lekcji 2</a>
+<a href="demo3angielski.html?category=all" class="hidden-link lesson-link-3" target="_blank" rel="noopener noreferrer">Przejdź do lekcji 3</a>
+<a href="demo4angielski.html?category=all" class="hidden-link lesson-link-4" target="_blank" rel="noopener noreferrer">Przejdź do lekcji 3</a>
+        <a href="demo1angielskib.html?category=all" class="hidden-link lesson-link-1b" target="_blank" rel="noopener noreferrer">Przejdź do lekcji 1</a>
+<a href="demo2angielskib.html?category=all" class="hidden-link lesson-link-2b" target="_blank" rel="noopener noreferrer">Przejdź do lekcji 2</a>
+<a href="demo3angielskib.html?category=all" class="hidden-link lesson-link-3b" target="_blank" rel="noopener noreferrer">Przejdź do lekcji 3</a>
+<a href="demo7angielskib.html?category=all" class="hidden-link lesson-link-4b" target="_blank" rel="noopener noreferrer">Przejdź do lekcji 3</a>
+<a href="demo7angielskib.html?category=all" class="hidden-link lesson-link-5b" target="_blank" rel="noopener noreferrer">Przejdź do lekcji 3</a>
+<a href="demo7angielskib.html?category=all" class="hidden-link lesson-link-6b" target="_blank" rel="noopener noreferrer">Przejdź do lekcji 3</a>
+<a href="demo7angielskib.html?category=all" class="hidden-link lesson-link-7b" target="_blank" rel="noopener noreferrer">Przejdź do lekcji 3</a>
+<a href="demo7angielskib.html?category=all" class="hidden-link lesson-link-8b" target="_blank" rel="noopener noreferrer">Przejdź do lekcji 3</a>
+<a href="demo7angielskib.html?category=all" class="hidden-link lesson-link-9b" target="_blank" rel="noopener noreferrer">Przejdź do lekcji 3</a>
+<a href="demo7angielskib.html?category=all" class="hidden-link lesson-link-10b" target="_blank" rel="noopener noreferrer">Przejdź do lekcji 3</a>
+<a href="demo7angielskib.html?category=all" class="hidden-link lesson-link-11b" target="_blank" rel="noopener noreferrer">Przejdź do lekcji 3</a>
+<a href="demo7angielskib.html?category=all" class="hidden-link lesson-link-12b" target="_blank" rel="noopener noreferrer">Przejdź do lekcji 3</a>
         <div class="horizontal-bar" id="horizontalBar1">
             <button id="myButton">ANGIELSKI</button>
             <button id="myButton2">HISZPAŃSKI</button>
@@ -8451,242 +8465,84 @@ if (currentFiszkaIndex === 0) {
                     $container.append($button);
 
                     const $buttonb2 = $('<button></button>');
-                    $buttonb2.addClass('run-button3');
-                    $buttonb2.text('Otwórz lekcję w nowym oknie'); // Ustawiamy tekst przycisku na 'Uruchom'
-                    // Dodajemy atrybut 'data-index' z wartością indexDiv do przycisku
-                    $buttonb2.attr('data-index2', indexDiv);
-                    $buttonb2.on('click', function () {
+$buttonb2.addClass('run-button3');
+$buttonb2.text('Otwórz lekcję w nowym oknie');
 
-                        const index5b2 = $buttonb2.attr('data-index2');
-                        const index55b2 = parseInt(index5b2, 10); // Zamieniamy index55 na liczbę
-                        // Alternatywnie można użyć Number(index55)
-                        // const numericIndex = Number(index55);
+// Dodajemy atrybut 'data-index2' z wartością indexDiv do przycisku
+$buttonb2.attr('data-index2', indexDiv);
+$buttonb2.on('click', function () {
+    const $clickedContainer = $container; // Przypisz kliknięty kontener do zmiennej
 
-                        setTimeout(() => {
-                            console.log('hej554', index55b2);
-                            if (index55b2 === 1) { // Porównaj jako liczby
-                                // Bezpośrednio przekierowujemy użytkownika do strony
-                                window.location.href = 'demo1angielskib.html?category=' + encodeURIComponent(globalCategory);
-                            }
-                            if (index55b2 === 2) {
-                                // Bezpośrednio przekierowujemy użytkownika do strony
-                                window.location.href = 'demo2angielskib.html?category=' + encodeURIComponent(globalCategory);
-                            }
-                            if (index55b2 === 3) {
-                                // Bezpośrednio przekierowujemy użytkownika do strony
-                                window.location.href = 'demo3angielskib.html?category=' + encodeURIComponent(globalCategory);
-                            }
-                            if (index55b2 === 4) { // Porównaj jako liczby
-                                // Bezpośrednio przekierowujemy użytkownika do strony
-                                window.location.href = 'demo4angielskib.html?category=' + encodeURIComponent(globalCategory);
-                            }
-                            if (index55b2 === 5) {
-                                // Bezpośrednio przekierowujemy użytkownika do strony
-                                window.location.href = 'demo5angielskib.html?category=' + encodeURIComponent(globalCategory);
-                            }
-                            if (index55b2 === 6) {
-                                // Bezpośrednio przekierowujemy użytkownika do strony
-                                window.location.href = 'demo6angielskib.html?category=' + encodeURIComponent(globalCategory);
-                            }
-                            if (index55b2 === 7) { // Porównaj jako liczby
-                                // Bezpośrednio przekierowujemy użytkownika do strony
-                                window.location.href = 'demo7angielskib.html?category=' + encodeURIComponent(globalCategory);
-                            }
-                            if (index55b2 === 8) {
-                                // Bezpośrednio przekierowujemy użytkownika do strony
-                                window.location.href = 'demo8angielskib.html?category=' + encodeURIComponent(globalCategory);
-                            }
-                            if (index55b2 === 9) {
-                                // Bezpośrednio przekierowujemy użytkownika do strony
-                                window.location.href = 'demo9angielskib.html?category=' + encodeURIComponent(globalCategory);
-                            }
-                            if (index55b2 === 10) { // Porównaj jako liczby
-                                // Bezpośrednio przekierowujemy użytkownika do strony
-                                window.location.href = 'demo10angielskib.html?category=' + encodeURIComponent(globalCategory);
-                            }
-                            if (index55b2 === 11) {
-                                // Bezpośrednio przekierowujemy użytkownika do strony
-                                window.location.href = 'demo11angielskib.html?category=' + encodeURIComponent(globalCategory);
-                            }
-                            if (index55b2 === 12) {
-                                // Bezpośrednio przekierowujemy użytkownika do strony
-                                window.location.href = 'demo12angielskib.html?category=' + encodeURIComponent(globalCategory);
-                            }
-                            if (index55b2 === 13) {
-                                // Bezpośrednio przekierowujemy użytkownika do strony
-                                window.location.href = 'demo13angielskib.html?category=' + encodeURIComponent(globalCategory);
-                            }
-                            if (index55b2 === 14) {
-                                // Bezpośrednio przekierowujemy użytkownika do strony
-                                window.location.href = 'demo14angielskib.html?category=' + encodeURIComponent(globalCategory);
-                            }
-                            if (index55b2 === 15) {
-                                // Bezpośrednio przekierowujemy użytkownika do strony
-                                window.location.href = 'demo15angielskib.html?category=' + encodeURIComponent(globalCategory);
-                            }
-                            if (index55b2 === 16) {
-                                // Bezpośrednio przekierowujemy użytkownika do strony
-                                window.location.href = 'demo16angielskib.html?category=' + encodeURIComponent(globalCategory);
-                            }
-                            if (index55b2 === 17) {
-                                // Bezpośrednio przekierowujemy użytkownika do strony
-                                window.location.href = 'demo17angielskib.html?category=' + encodeURIComponent(globalCategory);
-                            }
-                            if (index55b2 === 18) {
-                                // Bezpośrednio przekierowujemy użytkownika do strony
-                                window.location.href = 'demo18angielskib.html?category=' + encodeURIComponent(globalCategory);
-                            }
-                            if (index55b2 === 19) {
-                                // Bezpośrednio przekierowujemy użytkownika do strony
-                                window.location.href = 'demo19angielskib.html?category=' + encodeURIComponent(globalCategory);
-                            }
-                            if (index55b2 === 20) {
-                                // Bezpośrednio przekierowujemy użytkownika do strony
-                                window.location.href = 'demo20angielskib.html?category=' + encodeURIComponent(globalCategory);
-                            }
-                            if (index55b2 === 21) {
-                                // Bezpośrednio przekierowujemy użytkownika do strony
-                                window.location.href = 'demo21angielskib.html?category=' + encodeURIComponent(globalCategory);
-                            }
-                            if (index55b2 === 22) {
-                                // Bezpośrednio przekierowujemy użytkownika do strony
-                                window.location.href = 'demo22angielskib.html?category=' + encodeURIComponent(globalCategory);
-                            }
-                            if (index55b2 === 23) {
-                                // Bezpośrednio przekierowujemy użytkownika do strony
-                                window.location.href = 'demo23angielskib.html?category=' + encodeURIComponent(globalCategory);
-                            }
-                            if (index55b2 === 24) {
-                                // Bezpośrednio przekierowujemy użytkownika do strony
-                                window.location.href = 'demo24angielskib.html?category=' + encodeURIComponent(globalCategory);
-                            }
-                            if (index55b2 === 25) {
-                                // Bezpośrednio przekierowujemy użytkownika do strony
-                                window.location.href = 'demo25angielskib.html?category=' + encodeURIComponent(globalCategory);
-                            }
-                            if (index55b2 === 26) {
-                                // Bezpośrednio przekierowujemy użytkownika do strony
-                                window.location.href = 'demo26angielskib.html?category=' + encodeURIComponent(globalCategory);
-                            }
-                            if (index55b2 === 27) {
-                                // Bezpośrednio przekierowujemy użytkownika do strony
-                                window.location.href = 'demo27angielskib.html?category=' + encodeURIComponent(globalCategory);
-                            }
-                            if (index55b2 === 28) {
-                                // Bezpośrednio przekierowujemy użytkownika do strony
-                                window.location.href = 'demo28angielskib.html?category=' + encodeURIComponent(globalCategory);
-                            }
-                            if (index55b2 === 29) {
-                                // Bezpośrednio przekierowujemy użytkownika do strony
-                                window.location.href = 'demo29angielskib.html?category=' + encodeURIComponent(globalCategory);
-                            }
-                            if (index55b2 === 30) {
-                                // Bezpośrednio przekierowujemy użytkownika do strony
-                                window.location.href = 'demo30angielskib.html?category=' + encodeURIComponent(globalCategory);
-                            }
-                            if (index55b2 === 31) {
-                                // Bezpośrednio przekierowujemy użytkownika do strony
-                                window.location.href = 'demo31angielskib.html?category=' + encodeURIComponent(globalCategory);
-                            }
-                            if (index55b2 === 32) {
-                                // Bezpośrednio przekierowujemy użytkownika do strony
-                                window.location.href = 'demo32angielskib.html?category=' + encodeURIComponent(globalCategory);
-                            }
-                            if (index55b2 === 33) {
-                                // Bezpośrednio przekierowujemy użytkownika do strony
-                                window.location.href = 'demo33angielskib.html?category=' + encodeURIComponent(globalCategory);
-                            }
-                                                        if (index55b2 === 34) {
-                                // Bezpośrednio przekierowujemy użytkownika do strony
-                                window.location.href = 'demo34angielskib.html?category=' + encodeURIComponent(globalCategory);
-                            }
-                            if (index55b2 === 35) {
-                                // Bezpośrednio przekierowujemy użytkownika do strony
-                                window.location.href = 'demo35angielskib.html?category=' + encodeURIComponent(globalCategory);
-                            }
-                            if (index55b2 === 36) {
-                                // Bezpośrednio przekierowujemy użytkownika do strony
-                                window.location.href = 'demo36angielskib.html?category=' + encodeURIComponent(globalCategory);
-                            }
-                                                        if (index55b2 === 37) {
-                                // Bezpośrednio przekierowujemy użytkownika do strony
-                                window.location.href = 'demo37angielskib.html?category=' + encodeURIComponent(globalCategory);
-                            }
-                            if (index55b2 === 38) {
-                                // Bezpośrednio przekierowujemy użytkownika do strony
-                                window.location.href = 'demo38angielskib.html?category=' + encodeURIComponent(globalCategory);
-                            }
-                            if (index55b2 === 39) {
-                                // Bezpośrednio przekierowujemy użytkownika do strony
-                                window.location.href = 'demo39angielskib.html?category=' + encodeURIComponent(globalCategory);
-                            }
-                                                                                    if (index55b2 === 37) {
-                                // Bezpośrednio przekierowujemy użytkownika do strony
-                                window.location.href = 'demo37angielskib.html?category=' + encodeURIComponent(globalCategory);
-                            }
-                            if (index55b2 === 38) {
-                                // Bezpośrednio przekierowujemy użytkownika do strony
-                                window.location.href = 'demo38angielskib.html?category=' + encodeURIComponent(globalCategory);
-                            }
-                            if (index55b2 === 39) {
-                                // Bezpośrednio przekierowujemy użytkownika do strony
-                                window.location.href = 'demo39angielskib.html?category=' + encodeURIComponent(globalCategory);
-                            }
-                                                                                    if (index55b2 === 40) {
-                                // Bezpośrednio przekierowujemy użytkownika do strony
-                                window.location.href = 'demo40angielskib.html?category=' + encodeURIComponent(globalCategory);
-                            }
-                            if (index55b2 === 41) {
-                                // Bezpośrednio przekierowujemy użytkownika do strony
-                                window.location.href = 'demo41angielskib.html?category=' + encodeURIComponent(globalCategory);
-                            }
-                            if (index55b2 === 42) {
-                                // Bezpośrednio przekierowujemy użytkownika do strony
-                                window.location.href = 'demo42angielskib.html?category=' + encodeURIComponent(globalCategory);
-                            }
-                                                                                    if (index55b2 === 43) {
-                                // Bezpośrednio przekierowujemy użytkownika do strony
-                                window.location.href = 'demo43angielskib.html?category=' + encodeURIComponent(globalCategory);
-                            }
-                            if (index55b2 === 44) {
-                                // Bezpośrednio przekierowujemy użytkownika do strony
-                                window.location.href = 'demo44angielskib.html?category=' + encodeURIComponent(globalCategory);
-                            }
-                            if (index55b2 === 45) {
-                                // Bezpośrednio przekierowujemy użytkownika do strony
-                                window.location.href = 'demo45angielskib.html?category=' + encodeURIComponent(globalCategory);
-                            }
-                                                                                    if (index55b2 === 46) {
-                                // Bezpośrednio przekierowujemy użytkownika do strony
-                                window.location.href = 'demo46angielskib.html?category=' + encodeURIComponent(globalCategory);
-                            }
-                            if (index55b2 === 47) {
-                                // Bezpośrednio przekierowujemy użytkownika do strony
-                                window.location.href = 'demo47angielskib.html?category=' + encodeURIComponent(globalCategory);
-                            }
-                            if (index55b2 === 48) {
-                                // Bezpośrednio przekierowujemy użytkownika do strony
-                                window.location.href = 'demo48angielskib.html?category=' + encodeURIComponent(globalCategory);
-                            }
-                                                                                                                if (index55b2 === 49) {
-                                // Bezpośrednio przekierowujemy użytkownika do strony
-                                window.location.href = 'demo49angielskib.html?category=' + encodeURIComponent(globalCategory);
-                            }
-                            if (index55b2 === 50) {
-                                // Bezpośrednio przekierowujemy użytkownika do strony
-                                window.location.href = 'demo50angielskib.html?category=' + encodeURIComponent(globalCategory);
-                            }
-                            if (index55b2 === 51) {
-                                // Bezpośrednio przekierowujemy użytkownika do strony
-                                window.location.href = 'demo51angielskib.html?category=' + encodeURIComponent(globalCategory);
-                            }
-                                                        if (index55b2 === 52) {
-                                // Bezpośrednio przekierowujemy użytkownika do strony
-                                window.location.href = 'demo52angielskib.html?category=' + encodeURIComponent(globalCategory);
-                            }
-                        }, 1000);
-                        // Usunięcie kontenera po wstawieniu nowego
-                    });
+    // Dodaj tło do nieklikniętych kontenerów
+    $('.image-container3').not($clickedContainer).each(function () {
+        const $container = $(this);
+        if ($container.find('.background-overlay').length === 0) {
+            $('<div>')
+                .addClass('background-overlay')
+                .css({
+                    'position': 'absolute',
+                    'top': '0',
+                    'left': '0',
+                    'width': '100%',
+                    'height': '100%',
+                    'background-color': 'blue',
+                    'opacity': '0.35',
+                    'z-index': '1000'
+                })
+                .appendTo($container);
+        }
+    });
+
+    // Usuń klasę .background-overlay po powrocie na stronę
+    $(window).on('pageshow', function () {
+        $('.background-overlay').remove();
+    });
+
+    const index5b2 = $buttonb2.attr('data-index2');
+    const index55b2 = parseInt(index5b2, 10);
+
+    // Znajdź ukryty link i kliknij go
+    let lessonLink = null;
+    if (index55b2 === 1) {
+        lessonLink = document.querySelector('.lesson-link-1b');
+    }
+    if (index55b2 === 2) {
+        lessonLink = document.querySelector('.lesson-link-2b');
+    }
+        if (index55b2 === 3) {
+        lessonLink = document.querySelector('.lesson-link-3b');
+    }
+        if (index55b2 === 4) {
+        lessonLink = document.querySelector('.lesson-link-4b');
+    }
+    if (index55b2 === 5) {
+        lessonLink = document.querySelector('.lesson-link-5b');
+    }
+        if (index55b2 === 6) {
+        lessonLink = document.querySelector('.lesson-link-6b');
+    }
+        if (index55b2 === 7) {
+        lessonLink = document.querySelector('.lesson-link-7b');
+    }
+        if (index55b2 === 8) {
+        lessonLink = document.querySelector('.lesson-link-8b');
+    }
+        if (index55b2 === 9) {
+        lessonLink = document.querySelector('.lesson-link-9b');
+    }
+        if (index55b2 === 10) {
+        lessonLink = document.querySelector('.lesson-link-10b');
+    }
+            if (index55b2 === 11) {
+        lessonLink = document.querySelector('.lesson-link-11b');
+    }
+        if (index55b2 === 12) {
+        lessonLink = document.querySelector('.lesson-link-12b');
+    }
+    if (lessonLink) {
+        lessonLink.click(); // Automatyczne kliknięcie ukrytego linka
+    }
+});
                     $buttonb2.css({
                         'position': 'absolute', // Przykładowa wartość odstępu od lewej krawędzi
                         'margin-bottom': '-105px',
