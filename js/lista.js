@@ -282,3 +282,63 @@ window.addEventListener('load', function () {
         aktywujObrazek2(lessonIdParam, indexElementu, true);
     });
 });
+
+
+const fiszki10 = [
+    {
+        id: [
+            1,
+            1,
+            1
+        ],
+        //zdanie
+        sentence1: [
+            "Everybody"
+        ],
+        sentence: [
+            "Everybody",
+            "has",
+            "fun"
+        ],
+        //  slowo do nauki
+        key: "Everybody",
+        key2: ["wszyscy"],
+        key3: ["każdy"],
+        },
+            {
+        id: [
+            2,
+            1,
+            1
+        ],
+                desc: "has[hes]/have[hew] - mieć(on/ona/oni)/mieć(ja/ty)",
+        sentence1: [
+            "has"
+        ],
+        sentence: [
+            "Everybody",
+            "has",
+            "fun"
+        ],
+        key: "has",
+        key2: ["ma"]
+            },
+                        {
+        id: [
+            3,
+            1,
+            1
+        ],
+                desc: "fun[fan] - zabawa",
+        sentence1: [
+            "fun"
+        ],
+        sentence: [
+            "Everybody",
+            "has",
+            "fun"
+        ],
+        key: "fun",
+       key2: ["zabawa"],
+       key3: ["ubaw", "uciecha", "heca"]
+       },

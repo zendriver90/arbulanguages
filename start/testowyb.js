@@ -1,4 +1,4 @@
-const fiszki = [
+const fiszki10 = [
     {
         id: [
             1,
@@ -91,7 +91,8 @@ const fiszki = [
         ],
         //  slowo do nauki
         key: "Everybody",
-        key2: ["wszyscy", "każdy"],
+        key2: ["wszyscy"],
+        key3: ["każdy"],
         category2: ["osoby"],
         category3: ["PresentSimple", "PresentSimplePodmiot"]
     },
@@ -13081,7 +13082,7 @@ const fiszki = [
             id: 1,
             img: {
                 src: "https://www.arbulang.com/img/fiszki1/246a.jpg",
-                alt: "Układ planetarny. Wygenerowane przez AI."
+                alt: "Wygenerowane przez AI."
             },
             story: {
                 text: "<u><b>On</u></b> jest <u><b>na</u></b> wakacjach. Nie odbiera telefonu",
@@ -16178,8 +16179,20 @@ const fiszki = [
             48,
             89
         ],
-        img: "https://www.arbulang.com/img/fiszki1/314a.jpg",
-        story: "Sa<u><b>me</u></b> <u><b>ni</u></b>tki odstają w tych <u><b>s</u></b>podniach. <u><b>Wiele razy</u></b> kupiłem <u><b>ta</u></b>kie spodnie. Za<u><b>jm</u></b>ują mi całą szafę",
+            entries: [
+        {
+            id: 1,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/313a.jpg",
+                alt: "Wygenerowane przez AI."
+            },
+            story: {
+                text: "Sa<u><b>me</u></b> <u><b>ni</u></b>tki odstają w tych <u><b>s</u></b>podniach. <u><b>Wiele razy</u></b> kupiłem <u><b>ta</u></b>kie spodnie. Za<u><b>jm</u></b>ują mi całą szafę",
+                alt: ""
+            },
+            category: ["wizerunek", "ubiór"]
+        }
+            ],
         desc: "many times[meni tajms] - wiele razy",
         sentence2: [
             "many times"
@@ -16268,8 +16281,20 @@ const fiszki = [
             49,
             90
         ],
-        img: "https://www.arbulang.com/img/fiszki1/316a.jpg",
-        story: "Mój <b><u>brat</b></u> goli <b><u>bro</b></u>dę przede mną, na<b><u>der</b></u> szybko",
+            entries: [
+        {
+            id: 1,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/316a.jpg",
+                alt: "Wygenerowane przez AI."
+            },
+            story: {
+                text: "Mój <b><u>brat</b></u> goli <b><u>bro</b></u>dę przede mną, na<b><u>der</b></u> szybko",
+                alt: ""
+            },
+            category: ["wizerunek", "higiena"]
+        }
+            ],
         desc: "brother[broder] - brat",
         sentence1: [
             "brother"
@@ -16281,7 +16306,6 @@ const fiszki = [
             "football"
         ],
         key: "brother",
-        category1: "nauka",
         category2: ["osoby"],
         category3: ["PresentSimple", "PresentSimplePodmiot"]
     },
@@ -16291,8 +16315,20 @@ const fiszki = [
             49,
             90
         ],
-        img: "https://www.arbulang.com/img/fiszki1/317a.jpg",
-        story: "Mój kuzyn <b><u>gra</b></u> na moim <b><u>plays</b></u>tation",
+            entries: [
+        {
+            id: 1,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/317a.jpg",
+                alt: "Wygenerowane przez AI."
+            },
+            story: {
+                text: "Mój kuzyn <b><u>gra</b></u> na moim <b><u>plays</b></u>tation",
+                alt: ""
+            },
+            category: ["gry", "playstation"]
+        }
+            ],
         desc: "plays[plejs] - grać/gra",
         sentence1: [
             "plays"
@@ -16314,8 +16350,20 @@ const fiszki = [
             49,
             90
         ],
-        img: "https://www.arbulang.com/img/fiszki1/232a.jpg",
-        story: "Kiedy gram w <u><b>piłę nożną</u></b> to nawet na mrozie. Później grzeje się <u><b>fut</u></b>erkiem gdy mam kontuzje i mnie <u><b>bol</u></b>i",
+            entries: [
+        {
+            id: 1,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/232a.jpg",
+                alt: "Wygenerowane przez AI."
+            },
+            story: {
+                text: "Kiedy gram w <u><b>piłę nożną</u></b> to nawet na mrozie. Później grzeje się <u><b>fut</u></b>erkiem gdy mam kontuzje i mnie <u><b>bol</u></b>i",
+                alt: ""
+            },
+            category: ["sport", "piłka nożna"]
+        }
+            ],
         desc: "football[futbol] - piłka nożna",
         sentence1: [
             "football"
@@ -16338,8 +16386,20 @@ const fiszki = [
             49,
             91
         ],
-        img: "https://www.arbulang.com/img/fiszki1/246a.jpg",
-        story: "<u><b>On</u></b> jest <u><b>na</u></b> wakacjach. Nie odbiera telefonu",
+            entries: [
+        {
+            id: 1,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/246a.jpg",
+                alt: "Wygenerowane przez AI."
+            },
+            story: {
+                text: "<u><b>On</u></b> jest <u><b>na</u></b> wakacjach. Nie odbiera telefonu",
+                alt: ""
+            },
+            category: ["wakacje", "odpoczynek"]
+        }
+            ],
         desc: "on[on] - na",
         sentence2: [
             "on"
@@ -16411,7 +16471,6 @@ const fiszki = [
             "coffe"
         ],
         key: "she",
-        category1: "nauka",
         category2: ["osoby"],
         category3: ["PresentSimple", "PresentSimplePodmiot"]
     },
@@ -16433,7 +16492,6 @@ const fiszki = [
             "coffe"
         ],
         key: "drinks",
-        category1: "nauka",
         category2: ["czasownik"],
         category3: ["PresentSimple", "PresentSimpleCzasownik"]
     },
@@ -16464,8 +16522,20 @@ const fiszki = [
             50,
             93
         ],
-        img: "https://www.arbulang.com/img/fiszki1/324a.jpg",
-        story: "Prawie <u><b>każdy</u></b> robi błąd na tym zagraniu. <u><b>Ew</u></b>identnie trudny element gry w piłkę. Dobrze potrafi to zrobić tylko dob<u><b>ry</u></b> zawodnik",
+            entries: [
+        {
+            id: 1,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/324a.jpg",
+                alt: "Wygenerowane przez AI."
+            },
+            story: {
+                text: "Prawie <u><b>każdy</u></b> robi błąd na tym zagraniu. <u><b>Ew</u></b>identnie trudny element gry w piłkę. Dobrze potrafi to zrobić tylko dob<u><b>ry</u></b> zawodnik",
+                alt: ""
+            },
+            category: ["piłka nożna", "technika"]
+        }
+            ],
         desc: "every[ewry] - każdy",
         sentence2: [
             "every"
@@ -16506,8 +16576,20 @@ const fiszki = [
             50,
             93
         ],
-        img: "https://www.arbulang.com/img/fiszki1/207b.jpg",
-        story: "<u><b>Oni</u></b> z<u><b>dej</u></b>mują jabłka z jabłoni",
+            entries: [
+        {
+            id: 1,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/207b.jpg",
+                alt: "Wygenerowane przez AI."
+            },
+            story: {
+                text: "<u><b>Oni</u></b> z<u><b>dej</u></b>mują jabłka z jabłoni",
+                alt: ""
+            },
+            category: ["życie", "praca"]
+        }
+            ],
         desc: "day[dej] - dzień",
         sentence2: [
             "day"
@@ -16518,7 +16600,6 @@ const fiszki = [
             "day"
         ],
         key: "day",
-        category1: "nauka",
         category2: ["czas"]
     },
                                 {
@@ -16706,8 +16787,20 @@ const fiszki = [
             51,
             94
         ],
-        img: "https://www.arbulang.com/img/fiszki1/329a.jpg",
-        story: "<u><b>Ran</u></b>a na kolanie po <u><b>bieganiu</u></b> jest <u><b>s</u></b>prawą bolesną",
+            entries: [
+        {
+            id: 1,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/329a.jpg",
+                alt: "Wygenerowane przez AI."
+            },
+            story: {
+                text: "<u><b>Ran</u></b>a na kolanie po <u><b>bieganiu</u></b> jest <u><b>s</u></b>prawą bolesną",
+                alt: ""
+            },
+            category: ["sport", "kontuzja"]
+        }
+            ],
         desc: "runs[rans] - biegać",
         sentence2: [
             "runs"
@@ -16719,7 +16812,6 @@ const fiszki = [
             "fast"
         ],
         key: "runs",
-        category1: "nauka",
         category2: ["czasownik"]
     },
                                     {
@@ -16728,8 +16820,20 @@ const fiszki = [
             51,
             94
         ],
-        img: "https://www.arbulang.com/img/fiszki1/79a.jpg",
-        story: "Ten chw<b><u>ast</b></u> szybko rośnie, bo to <b><u>f</b></u>uriat wśród chwastów",
+            entries: [
+        {
+            id: 1,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/79a.jpg",
+                alt: "Wygenerowane przez AI."
+            },
+            story: {
+                text: "Ten chw<b><u>ast</b></u> szybko rośnie, bo to <b><u>f</b></u>uriat wśród chwastów",
+                alt: ""
+            },
+            category: ["kraje", "klimat"]
+        }
+            ],
         desc: "fast[fast] - szybko",
         sentence2: [
             "fast"
@@ -16750,8 +16854,20 @@ const fiszki = [
             51,
             95
         ],
-        img: "https://www.arbulang.com/img/fiszki1/324a.jpg",
-        story: "Prawie <u><b>każdy</u></b> robi błąd na tym zagraniu. <u><b>Ew</u></b>identnie trudny element gry w piłkę. Dobrze potrafi to zrobić tylko dob<u><b>ry</u></b> zawodnik",
+            entries: [
+        {
+            id: 1,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/324a.jpg",
+                alt: "Wygenerowane przez AI."
+            },
+            story: {
+                text: "Prawie <u><b>każdy</u></b> robi błąd na tym zagraniu. <u><b>Ew</u></b>identnie trudny element gry w piłkę. Dobrze potrafi to zrobić tylko dob<u><b>ry</u></b> zawodnik",
+                alt: ""
+            },
+            category: ["piłka nożna", "technika"]
+        }
+            ],
         desc: "every[ewry] - każdy",
         sentence2: [
             "every"
@@ -16770,8 +16886,20 @@ const fiszki = [
             51,
             95
         ],
-        img: "https://www.arbulang.com/img/fiszki1/332a.jpg",
-        story: "Mój brat, ta z<u><b>mor</u></b>a wstaje najwcześniej <u><b>rano</u></b>. <u><b>Ni</u></b>kogo nie budzi i tańczy swi<u><b>ng</u></b>",
+            entries: [
+        {
+            id: 1,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/332a.jpg",
+                alt: "Wygenerowane przez AI."
+            },
+            story: {
+                text: "Mój brat, ta z<u><b>mor</u></b>a wstaje najwcześniej <u><b>rano</u></b>. <u><b>Ni</u></b>kogo nie budzi i tańczy swi<u><b>ng</u></b>",
+                alt: ""
+            },
+            category: ["poranek", "rutyna"]
+        }
+            ],
         desc: "morning[morning] - rano",
         sentence2: [
             "morning"
@@ -16870,13 +16998,6 @@ const fiszki = [
             "need"
         ],
         key: "i",
-        category1: [
-            "sport", "rowery",
-            "natura", "zdrowie",
-            "nauka", "mitologia",
-            "czarny humor", "muzyka",
-            "związki", "rodzina"
-        ],
         category2: ["osoby"],
         category3: ["PresentSimple", "PresentSimplePodmiot"]
     },
@@ -16886,8 +17007,20 @@ const fiszki = [
             52,
             96
         ],
-        img: "https://www.arbulang.com/img/fiszki1/334a.jpg",
-        story: "Ta g<u><b>nid</u></b>a nie daje mi spokoju, ciągle coś <u><b>potrzebuje</u></b>",
+            entries: [
+        {
+            id: 1,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/334a.jpg",
+                alt: "Wygenerowane przez AI."
+            },
+            story: {
+                text: "Ta g<u><b>nid</u></b>a nie daje mi spokoju, ciągle coś <u><b>potrzebuje</u></b>",
+                alt: ""
+            },
+            category: ["wychowanie", "praca"]
+        }
+            ],
         desc: "need[nid] - potrzebuję",
         sentence2: [
             "need"
@@ -16907,8 +17040,20 @@ const fiszki = [
             52,
             97
         ],
-        img: "https://www.arbulang.com/img/fiszki1/226a.jpg",
-        story: "He<u><b>nju</u></b> ma <u><b>nowy</u></b> telefon",
+            entries: [
+        {
+            id: 1,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/226a.jpg",
+                alt: "Wygenerowane przez AI."
+            },
+            story: {
+                text: "He<u><b>nju</u></b> ma <u><b>nowy</u></b> telefon",
+                alt: ""
+            },
+            category: ["media", "telefon"]
+        }
+            ],
         desc: "a new[nju] - nowy/nowa/nowe",
         sentence2: [
             "a new"
@@ -16928,8 +17073,20 @@ const fiszki = [
             52,
             97
         ],
-        img: "https://www.arbulang.com/img/fiszki1/336a.jpg",
-        story: "Idę do warzywnika w nowej <u><b>parze</u></b> butów, żeby kupić ko<u><b>per</u></b>",
+            entries: [
+        {
+            id: 1,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/336a.jpg",
+                alt: "Wygenerowane przez AI."
+            },
+            story: {
+                text: "Idę do warzywnika w nowej <u><b>parze</u></b> butów, żeby kupić ko<u><b>per</u></b>",
+                alt: ""
+            },
+            category: ["zakupy", "codzienność"]
+        }
+            ],
         desc: "pair[per] - para",
         sentence2: [
             "pair"
@@ -16949,8 +17106,20 @@ const fiszki = [
             52,
             97
         ],
-        img: "https://www.arbulang.com/img/fiszki1/337a.jpg",
-        story: "Wielki <u><b>szu</u></b> pilnuje swoich <u><b>butów</u></b>",
+            entries: [
+        {
+            id: 1,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/337a.jpg",
+                alt: "Wygenerowane przez AI."
+            },
+            story: {
+                text: "Wielki <u><b>szu</u></b> pilnuje swoich <u><b>butów</u></b>",
+                alt: ""
+            },
+            category: ["wódz", "mindset"]
+        }
+            ],
         desc: "of shoes[of szu] - butów",
         sentence2: [
             "of shoes"
@@ -16961,7 +17130,6 @@ const fiszki = [
             "of shoes"
         ],
         key: "shoes",
-        category1: "nauka",
         category2: ["rzeczy"]
     }
 ];
@@ -19010,4 +19178,4 @@ $('<style>.green-button { background-color: green; color: white; }</style>').app
 // Dodajemy styl dla aktywnego przycisku
 $('<style>.active-button { border: 2px solid red; }</style>').appendTo('head');
 
-window.fiszki = fiszki;
+window.fiszki = fiszki10;
