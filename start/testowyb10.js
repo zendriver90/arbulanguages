@@ -47,7 +47,7 @@ const fiszki10 = [
         //  slowo do nauki
         key: "Everybody",
         key2: ["wszyscy"],
-        key3: ["każdy"],
+        key3: ["każdy-every"],
         category1: [
             "sport", "gaming",
             "natura", "kulinaria",
@@ -181,7 +181,8 @@ const fiszki10 = [
             "party"
         ],
         key: "at",
-                key2: ["na", "w", "na", "z", "przy", "o", "do", "u", "po", "za", "ze", "we", "w stanie"],
+        key2: ["na"],
+        key3: ["w", "na", "z", "przy", "o", "do", "u", "po", "za", "ze", "we", "w stanie"],
         category1: [
             "sport", "ateltyka",
             "natura", "show-biznes",
@@ -267,7 +268,8 @@ const fiszki10 = [
             "party"
         ],
         key: "party",
-        key2: ["impreza", "strona", "przyjęcie", "partia", "grupa", "partyjny", "drużyna", "stronnictwo", "wieczór", "oddział", "ekipa", "wyprawa", "wieczorek", "brygada"],
+        key2: ["impreza"],
+        key3: ["strona", "przyjęcie", "partia", "grupa", "partyjny", "drużyna", "stronnictwo", "wieczór", "oddział", "ekipa", "wyprawa", "wieczorek", "brygada"],
         category1: [
             "sport", "piłka nożna",
             "natura", "zoologia",
@@ -317,6 +319,7 @@ const fiszki10 = [
         ],
         key: "he",
         key2: ["on"],
+        key3: ["ów"],
         category1: [
             "sport", "piłka nożna",
             "natura", "zoologia",
@@ -453,7 +456,8 @@ const fiszki10 = [
             "procedures"
         ],
         key: "to",
-        key2: ["do", "na", "aby", "dla", "wobec", "przy", "za", "ku", "ażeby"],
+        key2: ["do"],
+        key3: ["na", "aby", "dla", "wobec", "przy", "za", "ku", "ażeby"],
         category1: [
             "sport", "czas wolny",
             "natura", "zoologia",
@@ -496,7 +500,8 @@ const fiszki10 = [
             "procedures"
         ],
         key: "scientific",
-        key2: ["naukowy", "przyrodniczy", "naukowe"],
+        key2: ["naukowy"],
+                key3: ["przyrodniczy", "naukowe"],
         category1: [
             "sport", "sztuki walki",
             "natura", "",
@@ -588,7 +593,8 @@ const fiszki10 = [
             "present"
         ],
         key: "be",
-        key2: ["być", "mieć", "stać", "istnieć", "pozostawać", "leżeć", "trwać", "być do", "czuć się", "odbyć się", "kosztować", "wypadać"],
+        key2: ["być"],
+                key3: ["mieć", "stać", "istnieć", "pozostawać", "leżeć", "trwać", "być do", "czuć się", "odbyć się", "kosztować", "wypadać"],
         category1: [
             "sport", "trening",
             "natura", "zwierzęta",
@@ -632,7 +638,8 @@ const fiszki10 = [
             "present"
         ],
         key: "more",
-        key2: ["więcej", "bardziej", "jeszcze", "raczej", "dalszy"],
+        key2: ["więcej"],
+                key3: ["bardziej", "jeszcze", "raczej", "dalszy"],
         category1: [
             "sport", "film",
             "natura", "morze",
@@ -675,7 +682,8 @@ const fiszki10 = [
             "present"
         ],
         key: "present",
-        key2: ["obecny", "prezent", "zaprezentować", "teraźniejszość", "niniejszy", "prezentować", "przedstawiać", "teraźniejszy", "dar", "współczesny", "upominek", "podarunek",
+        key2: ["obecny"],
+                key3: ["prezent", "zaprezentować", "teraźniejszość", "niniejszy", "prezentować", "przedstawiać", "teraźniejszy", "dar", "współczesny", "upominek", "podarunek",
         "podarek", "czas teraźniejszy", "charakter", "podarować", "darować", "ofiarować", "przedkładać", "sprezentować", "wnieść", "wręczać", "nastręczać", "gościniec"],
         category1: [
             "sport", "widowisko",
@@ -721,7 +729,8 @@ const fiszki10 = [
             "emotions"
         ],
         key: "with",
-        key2: ["z", "ze", "przy", "do", "u", "mimo"],
+        key2: ["z"],
+                key3: ["ze", "przy", "do", "u", "mimo"],
         category1: [
             "sport", "trening mentalny",
             "natura", "zwierzęta",
@@ -764,6 +773,8 @@ const fiszki10 = [
             "emotions"
         ],
         key: "your",
+                key2: ["twój"],
+        key3: ["swój", "pani", "pański"],
         category1: [
             "sport", "wojsko",
             "natura", "miejsca",
@@ -806,6 +817,7 @@ const fiszki10 = [
             "emotions"
         ],
         key: "emotions",
+                key2: ["emocje"],
         category1: [
             "sport", "bieganie",
             "natura", "wspianczka",
@@ -854,6 +866,7 @@ const fiszki10 = [
             "shy"
         ],
         key: "I",
+                key2: ["ja"],
         category1: [
             "sport", "rowery",
             "natura", "zdrowie",
@@ -895,6 +908,7 @@ const fiszki10 = [
             "shy"
         ],
         key: "am",
+                key2: ["jestem"],
         category1: [
             "sport", "trening",
             "natura", "zapach",
@@ -936,6 +950,9 @@ const fiszki10 = [
             "shy"
         ],
         key: "shy",
+                key2: ["nieśmiały"],
+        key3: ["wstydliwy", "trwożliwy", "płochliwy", "bojaźliwy", "poszkodowany", "płochy", "pierzchliwy", "trwożny", "zastrachany", 
+            "dziki", "rzut", "docinek", "próba", "spłoszyć się", "lękać się"],
         category1: [
             "sport", "umiejętności",
             "natura", "zwierzęta",
@@ -977,6 +994,8 @@ const fiszki10 = [
             "daring"
         ],
         key: "but",
+                key2: ["ale"],
+        key3: ["jednak", "lecz", "tylko", "oprócz", "aliści", "żeby nie", "poza czymś", "zaledwie"],
         category1: [
             "sport", "umiejętności",
             "natura", "odkrycia",
@@ -1016,6 +1035,8 @@ const fiszki10 = [
             "daring"
         ],
         key: "sometimes",
+                key2: ["czasami"],
+        key3: ["niekiedy", "nieraz"],
         category1: [
             "sport", "sztuki walki",
             "natura", "miejsca",
@@ -1055,6 +1076,8 @@ const fiszki10 = [
             "daring"
         ],
         key: "daring",
+                key2: ["śmiały"],
+        key3: ["odważny", "śmiałość", "brawurowy", "odwaga", "bojowy", "bitny", "bitność", "brawura"],
         category1: [
             "sport", "gimnastyka",
             "natura", "medycyna",
@@ -9453,6 +9476,7 @@ const fiszki10 = [
             "day"
         ],
         key: "every",
+                key3: ["coś"],
         category1: "nauka",
         category2: ["czas", "ilość"]
     },

@@ -29,6 +29,7 @@
             @media (min-width: 999px) {
                 .matching-button {
     padding: 6px 12px;
+    display: block;
     background-color: #d1e7dd;
     border: 1px solid #bcd0c7;
     border-radius: 8px;
@@ -1828,7 +1829,6 @@ function findMatchingKeys(fiszki, searchValue, searchKey) {
         })
         .map(fiszka => fiszka[searchKey]);
 showMatchingButtons();
-displayKey3ForMatchingLessons();
     matchingKeysB = [...matchingKeys];
 
     console.log("Pasujące słowa:", matchingKeys);
@@ -1930,6 +1930,31 @@ przekazArgument0(tablica3[2], '', false, 'fiszki', false, false, tablica3[1], ta
 });
     przekazArgument0(tablica3[2], '', false, tablica3[0], false, false, tablica3[1], tablica3[4], true, matchingLessons5, matchingLessons5b, isSearching2, staraTablica40);
 });
+// Funkcja, która dla danego słowa wyświetla przyciski z elementami key3
+function displayKey3ForKey(key, container) {
+    // Szukamy fiszki, której property 'key' odpowiada danemu kluczowi
+    const foundFiszka = fiszki10.find(fiszka => fiszka.key === key);
+
+    if (foundFiszka && Array.isArray(foundFiszka.key3)) {
+        foundFiszka.key3.forEach(item => {
+            const btn = document.createElement("button");
+            btn.textContent = item;
+            btn.className = "matching-button";
+            btn.style.margin = "5px";
+            btn.addEventListener("click", () => {
+                console.log("Kliknięto key3:", item);
+            });
+            container.appendChild(btn);
+        });
+    } else {
+        const span = document.createElement("span");
+        span.textContent = "Brak dodatkowych słów";
+        container.appendChild(span);
+    }
+}
+
+
+// Funkcja wyświetlająca przyciski dla matchingKeys
 function showMatchingButtons() {
     const container = document.getElementById("matchingButtonsContainer");
     if (!container) {
@@ -1939,43 +1964,37 @@ function showMatchingButtons() {
 
     container.innerHTML = "";
 
-    matchingKeys.forEach(word => {
-        const btn = document.createElement("button");
-        btn.textContent = word;
-        btn.className = "matching-button";
-        btn.style.margin = "5px";
-        btn.addEventListener("click", () => {
-            console.log("Kliknięto słowo:", word);
+    // Dla każdego elementu z matchingKeys tworzymy przycisk główny i pod nim kontener dla key3
+    for (let i = 0; i < matchingKeys.length; i++) {
+        const key = matchingKeys[i];
+
+        // Utworzenie przycisku dla klucza
+        const keyBtn = document.createElement("button");
+        keyBtn.textContent = key;
+        keyBtn.className = "matching-button";
+        keyBtn.style.margin = "5px";
+        keyBtn.style.display = "block";  // Każdy przycisk w nowej linii
+        keyBtn.addEventListener("click", () => {
+            console.log("Kliknięto key:", key);
         });
-        container.appendChild(btn);
-    });
+        container.appendChild(keyBtn);
+
+        // Utworzenie kontenera, w którym wyświetlimy dodatkowe elementy key3
+        const key3Container = document.createElement("div");
+        key3Container.style.marginLeft = "20px"; // Wcięcie, aby odróżnić wizualnie od głównego przycisku
+        container.appendChild(key3Container);
+
+        // Wyświetlamy dodatkowe elementy key3 dla danego klucza
+        displayKey3ForKey(key, key3Container);
+    }
 
     if (matchingKeys.length === 0) {
         container.innerHTML = "<p>Brak wyników</p>";
     }
-    matchingLessons5b = findLessonsForWordsB(fiszki, searchKey);
-    console.log("Wybrany rodzaj5555: ", matchingLessons5b);
 }
 
+// Przykładowe wywołanie funkcji
 showMatchingButtons();
-function displayKey3ForMatchingLessons() {
-    matchingLessons5b.forEach(lessonId => {
-        // Znajdź fiszkę o id odpowiadającym lessonId
-        const foundFiszka = fiszki10.find(fiszka => fiszka.id[0] === lessonId);
-
-        if (foundFiszka) {
-            console.log("Fiszka o id", lessonId, "ma key3:", foundFiszka.key3);
-            // Możesz również wyświetlić to w HTML:
-            const result = document.getElementById("key3Result");
-            if (result) {
-                result.textContent = "key3 dla fiszki o id " + lessonId + ": " + foundFiszka.key3.join(", ");
-            }
-        } else {
-            console.log("Nie znaleziono fiszki dla id:", lessonId);
-        }
-    });
-}
-
 // Przykładowe wywołanie
 displayKey3ForMatchingLessons();
 document.getElementById("singleWordBtn").addEventListener("click", function() {
