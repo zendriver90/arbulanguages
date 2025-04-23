@@ -15,6 +15,156 @@
     <title>Language Selection</title>
     <style>
                     @media (min-width: 999px) {
+    .media-row {
+      display: flex;
+      justify-content: center;
+      align-items: flex-start;
+      gap: 50px;
+      font-family: Arial, sans-serif;
+      margin: 30px;
+      flex-wrap: nowrap; /* ważne: nie pozwala łamać się do nowego wiersza */
+    }
+
+    .media-column {
+      width: 300px; /* stała szerokość, żeby zawsze były obok siebie */
+    }
+
+    .media-column h2 {
+      margin-bottom: 10px;
+      color: #333;
+    }
+
+    .media-link {
+      display: flex;
+      align-items: center;
+      text-decoration: none;
+      font-weight: bold;
+      font-size: 18px;
+    }
+
+    .media-link img {
+      width: 30px;
+      height: 30px;
+      margin-right: 10px;
+    }
+
+    .facebook-link {
+      color: #1877f2;
+    }
+
+    .youtube-link {
+      color: #FF0000;
+    }
+  /* Container and title */
+  .tablica-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 1rem;
+    background: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    font-family: Arial, sans-serif;
+  }
+  .tab-title {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    text-align: center;
+    font-weight: bold;
+  }
+
+  /* Post styling */
+  .post {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    margin-bottom: 1rem;
+    overflow: hidden;
+    transition: box-shadow 0.2s ease;
+  }
+  .post:hover {
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  }
+  .post-video {
+  display: block;
+  width: 100%;       /* cały dostępny kontener */
+  max-width: 900px;  /* ograniczenie do 900px */
+  height: auto;      /* zachowanie proporcji */
+  margin: 10px auto; /* wyśrodkowanie z marginesami */
+}
+  .short-text, .full-text {
+    padding: 0.75rem;
+    line-height: 1.4;
+  }
+  .full-text {
+    display: none;
+    border-top: 1px solid #eee;
+  }
+
+  /* Buttons */
+  #lang-toggle {
+    display: inline-block;
+    margin-bottom: 1rem;
+    padding: 0.5rem 1rem;
+    background: #007acc;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background 0.2s ease;
+  }
+  #lang-toggle:hover {
+    background: #005fa3;
+  }
+  .toggle-btn {
+    display: block;
+    width: 100%;
+    padding: 0.5rem;
+    background: #e7f3ff;
+    color: #007acc;
+    border: none;
+    border-top: 1px solid #ddd;
+    cursor: pointer;
+    font-size: 0.95rem;
+    transition: background 0.2s ease;
+  }
+  .toggle-btn:hover {
+    background: #d0e7ff;
+  }
+  .comment-box {
+  padding: 0.75rem;
+  border-top: 1px solid #eee;
+  background: #f1f1f1;
+  font-size: 0.95rem;
+}
+  .comment-box2 {
+  padding: 0.75rem;
+  border-top: 1px solid #eee;
+  background: #f1f1f1;
+  font-size: 0.95rem;
+}
+  .comment-box3 {
+  padding: 0.75rem;
+  border-top: 1px solid #eee;
+  background: #f1f1f1;
+  font-size: 0.95rem;
+}
+  .comment-box4 {
+  padding: 0.75rem;
+  border-top: 1px solid #eee;
+  background: #f1f1f1;
+  font-size: 0.95rem;
+}
+.comment-author {
+  font-weight: bold;
+  margin-bottom: 0.25rem;
+  color: #333;
+}
+
+.comment-content {
+  color: #444;
+  line-height: 1.4;
+}
 html, body {
     height: 100%;
     margin: 0;
@@ -57,6 +207,15 @@ html, body {
 #polski6 {
         color: blue;
 }
+#polski4b {
+    width: 900px;
+        display: block;
+        color: blue;
+        text-align: center;
+        margin-top: 0px;
+        margin: 0 auto;
+        font-size: 22px;
+}
 #jezyk {
     font-size: 20px;
     display: block;
@@ -69,19 +228,11 @@ html, body {
     border-radius: 5px; /* Zaokrąglone rogi */
 }
 
-body {
-    font-family: Arial, sans-serif;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-}
 
 .container {
     display: flex;
     flex-direction: column; /* Ustawia elementy (grid i button) w kolumnie */
     align-items: center; /* Wyśrodkowanie w poziomie */
-    margin-top: 440px;
 }
 
 .flag-container {
@@ -138,13 +289,140 @@ button {
         gap: 0px;
         margin-bottom: 0px;
 }
+    .fb-link {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: 20px 0;
+    }
+
+    .fb-link img {
+      width: 50px;
+      height: 50px;
+      margin-right: 15px;
+    }
+
+    .fb-link span {
+      font-size: 26px;
+      color: #1877F2;
+      font-weight: bold;
+    }
+
+    .tablica-container {
+      max-width: 700px;
+      margin: 0 auto;
+    }
+
+    .tab-title {
+      text-align: center;
+      font-size: 30px;
+      margin-bottom: 20px;
+      color: #333;
+    }
+
+    .post {
+        width: 600px;
+      background-color: #f0f2f5;
+      border-radius: 10px;
+      padding: 20px;
+      margin-bottom: 15px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+      font-size: 18px;
+      line-height: 1.5;
+    }
+
+    .full-text {
+      display: none;
+    }
+
+    .toggle-btn {
+      background: none;
+      border: none;
+      color: #1877F2;
+      font-weight: bold;
+      cursor: pointer;
+      padding: 0;
+      margin-top: 10px;
+      display: inline-block;
+    }
                     }
                                 @media (max-width: 999px) {
+                                      /* Container and title */
+  .tablica-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 1rem;
+    background: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    font-family: Arial, sans-serif;
+  }
+  .tab-title {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    text-align: center;
+    font-weight: bold;
+  }
+
+  /* Post styling */
+  .post {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    margin-bottom: 1rem;
+    overflow: hidden;
+    transition: box-shadow 0.2s ease;
+  }
+  .post:hover {
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  }
+  .short-text, .full-text {
+    padding: 0.75rem;
+    line-height: 1.4;
+  }
+  .full-text {
+    display: none;
+    border-top: 1px solid #eee;
+  }
+
+  /* Buttons */
+  #lang-toggle {
+    display: inline-block;
+    margin-bottom: 1rem;
+    padding: 0.5rem 1rem;
+    background: #007acc;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background 0.2s ease;
+  }
+  #lang-toggle:hover {
+    background: #005fa3;
+  }
+  .toggle-btn {
+    display: block;
+    width: 100%;
+    padding: 0.5rem;
+    background: #e7f3ff;
+    color: #007acc;
+    border: none;
+    border-top: 1px solid #ddd;
+    cursor: pointer;
+    font-size: 0.95rem;
+    transition: background 0.2s ease;
+  }
+  .toggle-btn:hover {
+    background: #d0e7ff;
+  }
                                     html, body {
     height: 100%;
     margin-top: 0px;
 }
-
+#autor {
+    margin-top: 200px;
+}
 #polski,
 #angielski,
 #british,
@@ -170,7 +448,7 @@ button {
 #polski4b {
         display: block;
         color: blue;
-        margin-top: 100px;
+        margin-top: 0px;
 }
 #polski3 {
         display: none;
@@ -249,6 +527,61 @@ button {
     font-size: 16px;
     cursor: pointer;
 }
+    .fb-link {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: 20px 0;
+    }
+
+    .fb-link img {
+      width: 50px;
+      height: 50px;
+      margin-right: 15px;
+    }
+
+    .fb-link span {
+      font-size: 26px;
+      color: #1877F2;
+      font-weight: bold;
+    }
+
+    .tablica-container {
+      max-width: 700px;
+      margin: 0 auto;
+    }
+
+    .tab-title {
+      text-align: center;
+      font-size: 30px;
+      margin-bottom: 20px;
+      color: #333;
+    }
+
+    .post {
+      background-color: #f0f2f5;
+      border-radius: 10px;
+      padding: 20px;
+      margin-bottom: 15px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+      font-size: 18px;
+      line-height: 1.5;
+    }
+
+    .full-text {
+      display: none;
+    }
+
+    .toggle-btn {
+      background: none;
+      border: none;
+      color: #1877F2;
+      font-weight: bold;
+      cursor: pointer;
+      padding: 0;
+      margin-top: 10px;
+      display: inline-block;
+    }
                                 }
     </style>
 </head>
@@ -260,7 +593,7 @@ button {
 
         <div class="flag-container" id="native-language-container">
             <div data-language="pl">
-                <div id="polski">Polski</div><div id="polski2">337 słówek - angielski (+ 23 słówka)<br>
+                <div id="polski">Polski</div><div id="polski2">367 słówek - angielski (+ 30 słówek)<br>
                 108 słówek - hiszpański - TERAZ DZIAŁA</div>
                 <video autoplay loop muted>
                     <source src="start/Poland.mp4" type="video/mp4">
@@ -268,14 +601,14 @@ button {
                 </video>
             </div>
             <div data-language="en">
-                <div id="angielski">American English</div><div id="polski2">(spanish - 87 words)</div>
+                <div id="angielski">American English</div><div id="polski2">(spanish - 91 words)</div>
                 <video autoplay loop muted>
                     <source src="start/USA.mp4" type="video/mp4">
                     Twój przeglądarka nie obsługuje elementu video.
                 </video>
             </div>
             <div data-language="br">
-                <div id="british">British English</div><div id="polski2">(spanish - 87 words)</div>
+                <div id="british">British English</div><div id="polski2">(spanish - 91 words)</div>
                 <video autoplay loop muted>
                     <source src="start/England.mp4" type="video/mp4">
                     Twój przeglądarka nie obsługuje elementu video.
@@ -293,34 +626,397 @@ button {
         <div id="language-options" class="hidden">
             <div id="nowy"><h2>Wybierz język do nauki: / Select a language to learn:</h2></div>
             <div class="flag-container" id="learn-language-container"></div>
-            <div id="polski3">(337 słówek... + 23 słówka)</div>
+            <div id="polski3">(367 słówek... + 30 słówka)</div>
             <div id="polski5">(108 słówek... + 6 słówek)</div>
         </div>
+        <div id="autor">AUTOR FISZEK: PAWEŁ BABIK</div><br>
+        <div id="autor">FLASHCARDS AUTHOR: PAWEŁ BABIK - The blog will soon be available in English as well</div>
+  <!-- Link do profilu -->
+  <div class="media-row">
+    <!-- Facebook -->
+    <div class="media-column">
+      <h2>Mój profil na Facebook</h2>
+      <a class="media-link facebook-link" href="https://www.facebook.com/uczenzycia/" target="_blank">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/5/51/Facebook_f_logo_%282019%29.svg" alt="Facebook">
+        <span>Paweł Babik</span>
+      </a>
+    </div>
+
+    <!-- YouTube -->
+    <div class="media-column">
+      <h2>Mój kanał na YouTube</h2>
+      <a class="media-link youtube-link" href="https://www.youtube.com/@pawebabik9393" target="_blank">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/b/b8/YouTube_Logo_2017.svg" alt="YouTube">
+        <span>Paweł Babik</span>
+      </a>
+    </div>
+  </div>
+
+<!-- Meta language toggle -->
+<button id="lang-toggle" style="margin-bottom: 1rem;">English</button>
+
+<!-- Sekcja wpisów -->
+<div class="tablica-container">
+  <div class="tab-title">📝 Moje wpisy na FB</div>
+  <!-- Wpis 1 -->
+    <div class="post"
+       data-short-pl="📌 20 kwietnia 2025"
+       data-short-en="📌 April 20, 2025"
+       data-full-pl="Istnieje taki sposób komunikacji z 'otoczeniem', który testuje już kilka lat i jest jakby prościej. Na razie nie opiszę go w pełni bo muszę mieć więcej informacji a dookoła mnie dzieją się rzeczy szalone. Muszę więc oddzielić 10 czy 20 procesów - przeanalizować jak na siebie wpływają - co zależy od czego itp. Jestem trochę jak taki niewidomy, który trenuje słuch. A technika jest następująca - większość zdarzeń to my generujemy - bo chcemy ich doświadczyć - przy czym zrozumienie tego powoduje, że jesteśmy sami i szukamy połączenia aby sen był przyjemniejszy tzn. ktoś przy nas ożył itp. Wymaga to oczywiście sprawczości której 99.9% ludzi nie ma. Przez to wpis wyda się trochę śmieszny i błahy ale tylko dlatego - właśnie, że patrzysz z ego a tu nie ma dla niego pokarmu. Uważaj na ego.">
+        <p><strong>Paweł Babik napisał:</strong></p>
+  <!-- Krótka zapowiedź -->
+  <div class="short-text">📌 20 kwietnia 2025</div>
+  
+  <!-- Pełna treść (z data-full-pl), ukryta na start -->
+  <div class="full-text" style="display: none; margin-top: 10px;"></div>
+  
+  <!-- Komentarz – ukryty na start -->
+  <div class="comment-box" style="display: none; margin-top: 10px;">
+    <div class="comment-author">👤 Komentarz (mój)</div>
+    <div class="comment-content">
+      Najlepiej stosować tą technikę do niedalekiej przeszłości. Rozpatrywanie na początku tego w daleką przeszłość nie ma sensu. Najtrafniej oddaje to angielski czas Present Perfect czyli:
+a) czynność właśnie się zakończyła
+b) ma związek z teraźniejszością
+c) nie podajemy dokładnego momentu, ale ważny jest efekt
+Przykłady: She has already left (Ona już wyszła), They have finished the project (Oni skończyli projekt).    </div>
+  </div>
+    <div class="comment-box2" style="display: none; margin-top: 10px;">
+    <div class="comment-author">👤 Komentarz (mój)</div>
+    <div class="comment-content">
+Wtedy akceptuje się też chcenie innych, Boga, kosmitów, raczej dobrych ludzi, którzy dobrze nas znają. Można oczywiście dostrzegać omylność ich feedbacku i negocjować z nim.    </div>
+  </div>
+    <div class="comment-box3" style="display: none; margin-top: 10px;">
+    <div class="comment-author">👤 Komentarz (mój)</div>
+    <div class="comment-content">
+A obraz jaki się wytwarza przy praktykowaniu takiego myślenia - samym podejściu... powoduje, że albo go nie stosujemy (przez to nie wiemy) albo jest ono zbyt trudne dla naszego systemu przekonań - i rzeczywiście - niektórzy nie chcą być sprawczy. A argumenty o złym świecie - świecie przemocy - mówią o nas samych (często) - tego jakie praktyki stosujemy czy jak wyobrażamy sobie świat - świat w którym musimy się chronić i grać na jego zasadach - nie wiedząc przy tym, że to my go kreujemy - więc nie robiąc nic - jest to niewolnicza zgoda.  </div>
+  </div>
+      <div class="comment-box4" style="display: none; margin-top: 10px;">
+    <div class="comment-author">👤 Komentarz (mój)</div>
+    <div class="comment-content">
+Miernikiem jaki możemy tutaj zastosować jest - ile możemy stracić - zachowując przy tym szczęście.
+    I nie mówię tutaj o traceniu wibracji duszy - oszukując, tylko o zasobach materialnych... Świat materialny jest tak jakby satanistyczny.</div>
+  </div>
+  <!-- Przycisk do rozwijania/zwijania NA DOLE -->
+  <button class="toggle-btn" style="margin: 10px 0;">Zobacz wpis</button>
+  </div>
+<div class="post"
+     data-short-pl="📌 19 kwietnia 2025"
+     data-full-pl="Można się też pomodlić aby 'świat' pod postacią spotykanych ludzi 'mówił' do nas jak nasza ukochana, nasz ukochany... Pytanie tylko czy znalazłeś miłość czy związek. Tyczy się to też występowania 'głosów' które można, zmieniać, modyfikować, dostrajać, generować - zajmuje się tym zresztą NLP - ale różnica pomiędzy tą 'wiedzą' a wykształceniem statystycznego osobnika powoduje, że przyjmuje on pozycję hejterską do takich wynalazków. Sąd zresztą musi 'podbić', że miał głosy niezależnie od tego kto mu je wgrał - czy rodzice, partner, grupa na fb, czy szkoła. Kościół musi utrzymywać narrację opętania jako usprawiedliwienia czynu, który gdy już 'zlokalizowany' musi przejść przez tunele moralne a stąd już tylko krok aby inwigilować człowieka wiarą pełną bądź niepełną.">
+  
+  <p><strong>Paweł Babik napisał:</strong></p>
+  
+  <!-- Krótka zapowiedź -->
+  <div class="short-text">📌 19 kwietnia 2025</div>
+  
+  <!-- Pełna treść (z data-full-pl), ukryta na start -->
+  <div class="full-text" style="display: none; margin-top: 10px;"></div>
+  
+  <!-- Film, ukryty do momentu rozwinięcia -->
+  <video class="post-video" controls width="100%" style="display: none; margin-top: 10px;">
+    <source src="filmy/wpisy/wanted.mp4" type="video/mp4">
+    Twoja przeglądarka nie obsługuje odtwarzacza wideo.
+  </video>
+  
+  <!-- Komentarz – ukryty na start -->
+  <div class="comment-box" style="display: none; margin-top: 10px;">
+    <div class="comment-author">👤 Komentarz (mój)</div>
+    <div class="comment-content">
+      Czasami jest to (głos) generowany przez uczucie jakiego osoba doświadcza w "środowisku" - jednak jest ona poprostu bardziej świadoma w zakresie doświadczania tego "sygnału". To znaczy, że jej świadomość ma większe szanse przy pewnym oddziaływaniu na zrozumieniem w jakiej jest sytuacji "komunikacyjnej". Przy czym często wynika to z niechęci do "mówienia" w ten sposób - inaczej przepuściła by to przez swoje "filtry" mentalne jak również czakry (doświadczając w ten sposób emocji, które by zanihilowały ten "sposób komunikacji"). Często też osoba umieszczona w pasach bezpieczeństwa "wymyśla sobie" co krzyczeć przez to zataja przed personelem szpitala co rzeczywiście chce wykrzyczeć - jeżeli jest to mężczyzna i krzyczałby "zerżnijcie mnie" to prawdopodobnie ten głos oznaczałby dla kogoś innego "że jest gejem" przy czym byłby to sygnał, że społeczeństwo czy świat traktuje go przedmiotowo. Komunikat "chcę umrzeć" mógłby oznaczać, że chce wykrzyczeć - potrzebuje być sam - więc byłby też reakcją na warunki szpitalne. Często personel "wie", że ludzie w zabezpieczeniu mechanicznym "kłamią" przez co ich praca wydaje się bardziej emocjonująca. W istocie kłamanie do upadłego jest gloryfikowanie przez naszą cywilizację - niestety często dlatego, że wydaje nam się, że robimy to "dla kogoś" i ten ktoś zrozumiałby powody dla których - nawet w takiej sytuacji kłamiemy.
+    </div>
+  </div>
+
+  <!-- Przycisk do rozwijania/zwijania NA DOLE -->
+  <button class="toggle-btn" style="margin: 10px 0;">Zobacz wpis</button>
+</div>
+  <div class="post"
+       data-short-pl="📌 19 kwietnia 2025"
+       data-short-en="📌 April 19, 2025"
+       data-full-pl="Dopóki masz co jeść, pić - nie jest tak źle. Nie jesteś pośród tego szaleństwa. Jeśli Twoje życie nie jest zagrożone przez wojnę. Tam - gdzie indziej - jest dużo gorzej a mój stopień zniewolenia, tożsamości, wizerunku wiąże się z wartościami z hierarchii krajów przodujących w rozwoju. Dlatego - pewnie będę narzekał na Sądy czy jakość relacji. Im większa możliwość wygranej - tym większa presja - nieuczciwe zagrania czy niesprawiedliwość. Stan zdrowia też zależy od szerokości geograficznej więc moje cierpienie można by umieścić w globalnej skali. Te wewnętrzne nie da się opisać dopóki nie byłbym na froncie czy polował dzikie zwierzęta w dżungli, pił przegotowaną wodę z rzeki - o ile miałbym czajnik czy dostęp do ujęcia. Musiałbym przejechać pół świata, aby zobaczyć jak ludzie żyją. Dlatego globalizm wprowadził relatywizm cierpienia tzn. że można je wywołać tak jakby wirtualnie a im mniej cierpienia tym większy stres, że się przydarzy - przy czym stres wirtualny a poziom ochrony jak na wojnie. Tak się czuję cały świat - proszę Państwa a skalę dobrobytu i tak nie mierzy się w pewności - czy jej nie stracimy - bo stracimy - tyle, że - dalej wirtualnie bo musielibyśmy to mierzyć lękiem przed śmiercią a ten jest wyznaczany każdorazowo przez rezygnację z planów na przyszłość. Dlatego poziomu zdrowia nie można zmierzyć uzależnieniami a stresu w sposób medyczny (bowiem gdy cierpi nasza dusza to nawet możemy być szczęśliwi). Nie chciałbym aby doradzał mi człowiek, który ma problem ze stresem czy podwyższony lęk przed śmiercią bowiem te pierwsze by anihilował przez kontakt ze mną a te drugie - łapał się relacji jak deski ratunku.">  <p><strong>Paweł Babik napisał:</strong></p>
+  
+  <!-- Krótka zapowiedź -->
+  <div class="short-text">📌 19 kwietnia 2025</div>
+  
+  <!-- Pełna treść (z data-full-pl), ukryta na start -->
+  <div class="full-text" style="display: none; margin-top: 10px;"></div>
+  
+  <!-- Komentarz – ukryty na start -->
+  <div class="comment-box" style="display: none; margin-top: 10px;">
+    <div class="comment-author">👤 Komentarz (mój)</div>
+    <div class="comment-content">
+      Czasami jest to (głos) generowany przez uczucie jakiego osoba doświadcza w "środowisku" - jednak jest ona poprostu bardziej świadoma w zakresie doświadczania tego "sygnału". To znaczy, że jej świadomość ma większe szanse przy pewnym oddziaływaniu na zrozumieniem w jakiej jest sytuacji "komunikacyjnej". Przy czym często wynika to z niechęci do "mówienia" w ten sposób - inaczej przepuściła by to przez swoje "filtry" mentalne jak również czakry (doświadczając w ten sposób emocji, które by zanihilowały ten "sposób komunikacji"). Często też osoba umieszczona w pasach bezpieczeństwa "wymyśla sobie" co krzyczeć przez to zataja przed personelem szpitala co rzeczywiście chce wykrzyczeć - jeżeli jest to mężczyzna i krzyczałby "zerżnijcie mnie" to prawdopodobnie ten głos oznaczałby dla kogoś innego "że jest gejem" przy czym byłby to sygnał, że społeczeństwo czy świat traktuje go przedmiotowo. Komunikat "chcę umrzeć" mógłby oznaczać, że chce wykrzyczeć - potrzebuje być sam - więc byłby też reakcją na warunki szpitalne. Często personel "wie", że ludzie w zabezpieczeniu mechanicznym "kłamią" przez co ich praca wydaje się bardziej emocjonująca. W istocie kłamanie do upadłego jest gloryfikowanie przez naszą cywilizację - niestety często dlatego, że wydaje nam się, że robimy to "dla kogoś" i ten ktoś zrozumiałby powody dla których - nawet w takiej sytuacji kłamiemy.
+    </div>
+  </div>
+
+  <!-- Przycisk do rozwijania/zwijania NA DOLE -->
+  <button class="toggle-btn" style="margin: 10px 0;">Zobacz wpis</button>
+  </div>
+  <!-- Wpis 1 -->
+  <div class="post"
+       data-short-pl="📌 18 kwietnia 2025"
+       data-short-en="📌 April 18, 2025"
+       data-full-pl="Chciałbym być Polakiem nadal gdy zrobiłem coś wartościowego. Nie Żydem, który jest z Polski. Tak jak auto niemieckie jest niemieckie a nie Żydowską precyzją. Szwajcarską. Czy Francuską finezją. Chciałbym aby to przez nasze bogactwo mój produkt wywodził się z 'doliny' a nie z cierpienia które wyzwoliło niewolniczą pomysłowość. Aby kunszt nie pochodził od 'latynoskiego stylu' tylko był znamieniem - moim, polaków. Aby rządzący ocenili 'wartość rynkową' z Warszawy - nie z Brukseli. Aby akcent był zabawny a nie hamski. Abym na wakacje pojechał nie zaś uchodził za takiego co nie jeździ. Serdecznością się dzielił - nie zaś ją udawał. W dni pracujące - pracował, w sile wieku - produkował, w udręce - pomagał, a w kryzysie - finansował (na przykład moją witrynę: www.arbulang.com). Każdy tyle samo."
+       data-full-en="I would like to be a Polish man even when I do something great. Not a Jew who is from Poland. Just like a German car is German — not with Jewish precision. Nor Swiss. Or French finesse. I would like my product to come from a “Valley” because of our wealth — not from suffering that inspired slave-like ingenuity. Let the craft come not from 'Latin style', but be a mark — mine, of the Polish people. Let the market value be judged from Warsaw — not from Brussels. Let my accent sound funny, not dumb. Let me go on vacation — not be the kind who pretends not to need it. To share warmth — not fake it. To work on working days, to produce in the prime of age, to help in hardship, and to fund in crisis (for example, my site: www.arbulang.com). Everyone gives the same."
+  >
+        <p><strong>Paweł Babik napisał:</strong></p>
+    <div class="short-text"></div>
+    <div class="full-text" style="display: none;"></div>
+    <button class="toggle-btn">Zobacz wpis</button>
+  </div>
+
+
+  <!-- Wpis 2 -->
+  <div class="post"
+       data-short-pl="📌 17 kwietnia 2025"
+       data-short-en="📌 April 17, 2025"
+       data-full-pl="Modlenie się do wewnętrznego mistrzostwa danej osoby wiąże się z wiedzą (indywidualną), że ktoś zachowuje się mistrzowsko (często bywa, że nam je okazał). Często też wiąże się z aktem pokory jakim jest nasza zgoda, że rzeczy dzieją się należycie. Dlatego jest to takie koło ratunkowe, że zgadzamy się na każdy wyrok (tak jak z moimi hospitalizacja mi) chociaż mogą one w pewnych kontekstach mieć uchybienia. To tak jakby wysłać komuś 100zł na konto - jeśli wyda prawidłowo to znaczy, że wysyłanie ma sens - ale jest także sygnałem od kogo jesteśmy zależni - czyli komu chcemy wysłać pieniądze. A gdzie Twój drugi kapeć?"
+>
+            <p><strong>Paweł Babik napisał:</strong></p>
+    <div class="short-text"></div>
+    <div class="full-text" style="display: none;"></div>
+    <button class="toggle-btn">Zobacz wpis</button>
+  </div>
+
+  <!-- Wpis 3 -->
+  <div class="post"
+       data-short-pl="📌 17 kwietnia 2025"
+       data-short-en="📌 April 17, 2025"
+       data-full-pl="Jedną z zalet hipnozy jest to, że hipnotyzujemy siebie... Dzieje się to przez lustra i zdjęcia. Gdyby ich nie było (bardziej chodzi o zdjęcia) to ciężko by było uwierzyć, że na zdjęciu to ja... Tym bardziej, że na jednej imprezie było kilka zdjęć i trudno jest uwierzyć, że na reszcie zdjęć to również ja. Dlatego patrzymy w lustro tak, że hipnotyzuje my siebie 'tym idealnym obrazem' - który jest perfekcyjnie nieidealny. Więc narcyzm ma pozytywny potencjał (w kontekście spojrzenia w lustro) jakim jest uwierzenie - za każdym razem - że to ja - przy czym nie ocenianie 'tego kogoś', że nie jest tym którego chce się zobaczyć - tego kogoś kogo zapamiętaliśmy - czy nawet tego kogoś kto 'poprawia nam humor'. Ktoś Cię woła."         >
+          <p><strong>Paweł Babik napisał:</strong></p>
+      <div class="short-text"></div>
+    <div class="full-text" style="display: none;"></div>
+    <button class="toggle-btn">Zobacz wpis</button>
+  </div>
+
+  <!-- Wpis 4 -->
+  <div class="post"
+       data-short-pl="📌 17 kwietnia 2025"
+       data-short-en="📌 April 17, 2025"
+       data-full-pl="Zdarzenia kryminalne mają to do siebie, że są pragnieniem, które nie zostało legalnie zrealizowane. Jest połączeniem karmicznym, w którym rodzina czy ofiarą przestępcy wybacza mu - a sam kontakt w trakcie przestępstwa często doprowadza do wewnętrznej przemiany sprawcy. Jest to tak zwane oplucie 'Buddy', które oświeca (tego kto pluł) dzięki przyciąganiu bohatera które wyzwala nienaturalne reakcje (często jest to reakcja na brak słów więc możemy tylko opluć lub pobić). Niekoniecznie musi to być związane z brakiem wykształcenia, kultury czy wychowania. Ciężar jaki musi zapłacić sprawca - więzienie - sprawia, że kauzualność - pamięci - wydłuża się. Przy czym wciągani do tego są współwięźniowie, świadkowie, Służba Więzienna. Dlatego pójście do Szpitala Psychiatrycznego jest tak jakby tęsknotą świadków zachowań pacjenta przed szpitalem, aby te czyny zachowały się w pamięci. To tak jakby napisać na kartce zakupy (ale na całe życie) czy namalować na murze wyznanie miłości. Kawa już była.">
+          <p><strong>Paweł Babik napisał:</strong></p>
+      <div class="short-text"></div>
+    <div class="full-text" style="display: none;"></div>
+    <button class="toggle-btn">Zobacz wpis</button>
+  </div>
+
+  <!-- Wpis 5 -->
+  <div class="post"
+       data-short-pl="📌 17 kwietnia 2025"
+       data-short-en="📌 April 17, 2025"
+       data-full-pl="Skojarzenia z wiatrem jak najbardziej prawidłowe. Kobieta jest jak wiatr - tzn. statystycznie nie potrafi kierować swoją energią seksualną. Te najbardziej doświadczone są same (bo nie chcą cierpieć) - stąd palenie czarownic. Kiedy ma się jakiś zasób np: radość, pogodność - to nie chce się go tracić na wchodzenie w światy, w których logika jest iluzyjna - tzn. trzeba pchnąć kogoś by doświadczył i nauczyć go wyciągać wnioski - a wszystko w świecie - który moglibyśmy nazwać piekłem.
+Mężczyzna nie ma się jak nauczyć tej energii - a on jest kierowany przez kobietę. Dlatego kobieta w mrugnięciu oka może oszaleć a to wywołuje w mężczyźnie napięcie i życie jak na wojnie. Nie może pomóc kobiecie rozwinąć energii seksualnej - bo to domena kobiety w rezultacie zostaje 'kapciem' a jego męska energia nie jest w istocie męską. Stąd już tylko krok do niesprawiedliwych wyroków Sądów, które reagują na rzeczywistość a ta jest zarządzana przez jednostki jakie nie znają powodów swojego istnienia."         >
+          <p><strong>Paweł Babik napisał:</strong></p>
+      <div class="short-text"></div>
+    <div class="full-text" style="display: none;"></div>
+    <button class="toggle-btn">Zobacz wpis</button>
+  </div>
+
+  <!-- Wpis 6 -->
+  <div class="post"
+       data-short-pl="📌 16 kwietnia 2025"
+       data-short-en="📌 April 16, 2025"
+       data-full-pl="Blokowanie energii seksualnej wiąże się z konsekwencjami a prawie zawsze blokowana jest przez rodziców u dzieci. Nie jest to naturalne a konsekwencją jest np. zgarbienie lub gburowata aperencja. Psychiatrzy im młodsi tym lepsi bo niby gdy zablokujemy energię seksualną to stan się polepsza (tak twierdzą starsi koledzy w fachu). Rzeczywiście blokowanie energii seksualnej ma sens jednak umiejętności w tym zakresie psychiatrów, rodziców, kapłanów, prawa czy wreszcie egregoru społecznego (w Polsce bardziej USA niż nasza nacja) jest znikoma. Jest to cofnięcie miednicy - w konsekwencji oddalamy się - ale wtedy prostujemy i mamy poczucie winy wydobyciem energii seksualnej. Gdy już upatrzyły sobie kogoś - komu możemy ją zabierać - bo ona jest najczęściej zabierana to wynika to stąd, że nie potrafimy nią kierować - tam - gdzie rzeczywiście jest potrzebna. Więc jest to wynik braku konfrontacji przy czym kobieta gdy się konfrontuje to 'traci' - wtedy bardziej jest za to odpowiedzialne bardziej społeczeństwo niż ona sama. Wypowiedzi 'guru' na temat energii seksualnej są 'nietrafione' i mają najczęściej za zadanie wspierać ich 'profesurę' - tak się robi kariery. Psychiatra czy psychoterapeuta błądzi gdzieś pomiędzy analizą sytuacji a poziomem energii żywotnej tak jakby chciał ją wzmocnić, ale nie może bo jest ona 'wysysana' przez egregory a gromadzenie jej jest niekorzystne. Zaraz będzie narada.">
+          <p><strong>Paweł Babik napisał:</strong></p>
+      <div class="short-text"></div>
+    <div class="full-text" style="display: none;"></div>
+    <button class="toggle-btn">Zobacz wpis</button>
+  </div>
+  <!-- Wpis 7 -->
+  <div class="post"
+       data-short-pl="📌 15 kwietnia 2025"
+       data-short-en="📌 April 15, 2025"
+       data-full-pl="Rzecz w tym, że nasze obawy na 'innej Ziemii' się stały a na lepszej Ziemii (równoległej) nawet nie mamy obaw - tzn. nie wiemy, że nie wiemy (ale tylko dlatego, że z tego wyrośliśmy. Dlatego pewnie przejechało mnie auto na Horyńcu, dziadek dodał kozę do herbaty, ciotka wpakowała leki do czajnika i szydziła z 'produktu' jaki pije wyśmiewając to rozmową (przez telefon) o przepisie takim czy takim (przy czym jej celem był eksperyment - czy pójde zwymiotować czy nabiorę obrzydzenia lub czy zachowanie jakie chciała osiągnąć przez podanie leku jest przeze mnie wyegzekwowane). Dlatego istnieje przeżycie, ale równolegle do tego istnieje lęk o prawdziwość przeżycia jak i samo powtórzenie... Podam to na przykładzie: na najgorszej Ziemii ojciec mnie molestował w dzieciństwie i teraz mam obawy, że to prawda i że się powtórzy ale za to na lepszej ziemi mam tylko obawy co jest celem rodziny, świata - na lepszej Ziemi nie byłem molestowany i nie mam obaw - natomiast jeśli chodzi o powszechność tego zjawiska to 'może mi się to przytrafić', na jeszcze lepszej Ziemii są bardzo małe szanse, że mi się to przytrafi. Natomiast na jeszcze lepszej Ziemii traktowałbym to jak taką 'motywację' - jako wpierdol, który mnie orzeźwia - natomiast wspominam to raczej z ekscytacją. To są te ule.">
+            <p><strong>Paweł Babik napisał:</strong></p> 
+      <div class="short-text"></div>
+    <div class="full-text" style="display: none;"></div>
+    <button class="toggle-btn">Zobacz wpis</button>
+  </div>
+    <!-- Wpis 8 -->
+  <div class="post"
+       data-short-pl="📌 15 kwietnia 2025"
+       data-short-en="📌 April 15, 2025"
+       data-full-pl="Łajdak czyli why?(łaj) - dlaczego to zrobił i łotr what(łot) - czyli ten, który ma cel jak i ten, który udaje, że nie słyszy - pyta wtedy co? aby oponent zrozumiał, że to co mówisz jest dla niego zbyt mało istotne jak i dawał sobie czas na odpowiedź, również jako obelga na wcześniej zaprezentowane intencje zapytanego co? która jest konsekwencją naszego domniemanego braku szacunku wcześniej okazanego. Dlatego posługujący się co? chce jakby zwolnić czas i przeanalizować - bo nie chce kota w worku. Łaj? Łot?">
+            <p><strong>Paweł Babik napisał:</strong></p> 
+      <div class="short-text"></div>
+    <div class="full-text" style="display: none;"></div>
+    <button class="toggle-btn">Zobacz wpis</button>
+  </div>
+        <!-- Wpis 9 -->
+  <div class="post"
+       data-short-pl="📌 15 kwietnia 2025"
+       data-short-en="📌 April 15, 2025"
+       data-full-pl="Miałem taki moment, że miałem do wyboru czy chcę być oświecony - podczas medytacji. Moment, w którym skumulowały się moje wysiłki. Jednak 'oświecony' ja - przeżyłbym może tydzień czy dwa tygodnie. Dlatego nawet zrezygnowałem z medytacji - kiedy ją stosuje tak jakby zaczyna wyć syrena strażacka - ktoś się obudził a inni chcą 'spać'. Podjąłem drogę na której dopiero śmierć będzie oświeceniem i doświadczam oporu przed działaniem tak często, że to jest moją medytacją. Skoro 'zachód' by mnie zabił za 'oświecenie' to wyobraźcie sobie jaka jest kondycja zachodu i jak bardzo mają przewalone osoby, które 'chcą żyć', które chcą się wydostać ze 'snu'.">
+            <p><strong>Paweł Babik napisał:</strong></p> 
+      <div class="short-text"></div>
+    <div class="full-text" style="display: none;"></div>
+    <button class="toggle-btn">Zobacz wpis</button>
+  </div>
+</div>
+
+<script>
+const langToggle = document.getElementById('lang-toggle');
+let currentLang = 'pl';
+
+function updatePosts() {
+  const posts = document.querySelectorAll('.post');
+  
+  console.log('Updating posts for language:', currentLang); // Logujemy bieżący język
+
+  posts.forEach(post => {
+    const shortText = post.querySelector('.short-text');
+    const fullText = post.querySelector('.full-text');
+    const toggleBtn = post.querySelector('.toggle-btn');
+    const comment = post.querySelector('.comment-box');
+    const comment2 = post.querySelector('.comment-box2');
+    const comment3 = post.querySelector('.comment-box3');
+    const comment4 = post.querySelector('.comment-box4');
+
+    // Wybór krótkiego tekstu
+    const short = post.dataset[`short${currentLang === 'pl' ? 'Pl' : 'En'}`];
+    
+    // Wybór pełnego tekstu
+    const full = post.dataset[`full${currentLang === 'pl' ? 'Pl' : 'En'}`] || '';
+    const fullEn = post.dataset['fullEn'] || ''; // Dodajemy pełny tekst w języku angielskim
+
+    shortText.textContent = short || '';
+    fullText.textContent = full || '';
+    fullText.style.display = 'none';
+
+    if (full || fullEn) {
+      toggleBtn.style.display = 'inline-block';
+      toggleBtn.textContent = currentLang === 'pl' ? 'Zobacz wpis' : 'See full article';
+    } else {
+      toggleBtn.style.display = 'none';
+    }
+
+    // Jeśli język to angielski, ukrywamy komentarze
+    if (currentLang === 'en') {
+      if (comment) comment.style.display = 'none';
+      if (comment2) comment2.style.display = 'none';
+      if (comment3) comment3.style.display = 'none';
+      if (comment4) comment4.style.display = 'none';
+    }
+
+    // Logowanie pełnego tekstu i przycisku
+    console.log('Post full text:', full);
+    console.log('Post fullEn text:', fullEn);
+    console.log('Toggle button text:', toggleBtn.textContent);
+  });
+}
+
+langToggle.addEventListener('click', () => {
+  currentLang = currentLang === 'pl' ? 'en' : 'pl';
+  langToggle.textContent = currentLang === 'pl' ? 'English' : 'Polski';
+  
+  // Logowanie zmiany języka
+  console.log('Language changed to:', currentLang);
+
+  updatePosts();
+});
+
+// Inicjalizacja
+updatePosts();
+
+// Obsługa przycisku "See full article"
+document.querySelectorAll('.toggle-btn').forEach(btn => {
+  btn.addEventListener('click', () => {
+    const post = btn.closest('.post');
+    const fullText = post.querySelector('.full-text');
+    const video = post.querySelector('.post-video');
+    const comment = post.querySelector('.comment-box');
+    const comment2 = post.querySelector('.comment-box2');
+    const comment3 = post.querySelector('.comment-box3');
+    const comment4 = post.querySelector('.comment-box4');
+    const hidden = fullText.style.display === 'none';
+
+    console.log('toggle click – hidden?', hidden);
+    console.log('video element:', video);
+
+    if (hidden) {
+      // Jeśli język to angielski, wyświetlamy pełny tekst z data-full-en
+      if (currentLang === 'en') {
+        fullText.textContent = post.dataset['fullEn'] || ''; 
+      } else {
+        fullText.textContent = post.dataset[`fullPl`] || '';
+      }
+
+      fullText.style.display = 'block';
+
+      // Pokazujemy komentarze w wersji polskiej tylko
+      if (currentLang === 'pl') {
+        if (comment) comment.style.display = 'block';
+        if (comment2) comment2.style.display = 'block';
+        if (comment3) comment3.style.display = 'block';
+        if (comment4) comment4.style.display = 'block';
+      }
+
+      if (video) {
+        video.style.display = 'block';
+        // video.play(); // odkomentuj jeśli chcesz auto-odtwarzanie
+      }
+
+      btn.textContent = currentLang === 'pl' ? 'Ukryj wpis' : 'Hide article';
+    } else {
+      fullText.style.display = 'none';
+
+      if (comment) comment.style.display = 'none';
+      if (comment2) comment2.style.display = 'none';
+      if (comment3) comment3.style.display = 'none';
+      if (comment4) comment4.style.display = 'none';
+
+      if (video) {
+        video.pause();
+        video.style.display = 'none';
+      }
+
+      btn.textContent = currentLang === 'pl' ? 'Zobacz wpis' : 'See full article';
+    }
+  });
+});
+
+</script>
+            <br>
+            <br>
+</div>
 <div id="polski4b">
-                PROJEKT NON-PROFIT, KTÓRY BĘDZIE SIĘ UTRZYMYWAŁ Z REKLAM GOOGLE.<br>
+                <p><span style="color: green;">PROJEKT NON-PROFIT</span></p><br>
+                BĘDZIE SIĘ ON UTRZYMYWAŁ Z REKLAM GOOGLE.<br>
     WKRÓTCE ZOSTANIE ZROBIONY PANEL UŻYTKOWNIKA Z LOGOWANIEM<br>
     LICZBA ODWIEDZAJĄCYCH UŻYTKOWNIKÓW PRZEKROCZYŁA 100 OSÓB<br>
     WAŻNOŚĆ WITRYNY - DO 27 STYCZEŃ 2026<br><br>
-    NON-PROFIT PROJECT THAT WILL BE FUNDED BY GOOGLE ADS.<br>
+                    <p><span style="color: green;">NON-PROFIT PROJECT</span></p><br>
+    THAT WILL BE FUNDED BY GOOGLE ADS.<br>
     A USER PANEL WITH LOGIN FUNCTIONALITY WILL BE AVAILABLE SOON.<br>
     THE NUMBER OF VISITING USERS HAS EXCEEDED 100 PEOPLE.<br>
     WEBSITE VALIDITY - UNTIL JANUARY 27, 2026<br><br><br></div>
-    <div id="polski4">
-            (AKTUALIZACJA 25.03.25 - GODZINA 18:30
+    <div id="polski4b">
+            📌(AKTUALIZACJA 25.03.25 - GODZINA 18:30
     DODANIE SŁÓWEK DLA ANGIELSKI I HISZPAŃSKI, DODANIE WYSZUKIWARKI DLA ANGIELSKIEGO, USPRAWNIENIE RODZAJU SŁOWNICTWA<br><br>
-        (AKTUALIZACJA 13.02.25 - GODZINA 18:30
+        📌(AKTUALIZACJA 13.02.25 - GODZINA 18:30
     OSTATECZNE DOPRACOWANIE SZYBKIEJ LEKCJI (DLA JEDNEGO ZDANIA), WYSZUKIWARKA...<br><br>
-    (AKTUALIZACJA 29.01.25 - GODZINA 19:10
+    📌(AKTUALIZACJA 29.01.25 - GODZINA 19:10
     ZAKUTALIZOWANIE SZYBKIEJ LEKCJE (POPRAWIENIE PRZYCISKU) - (5 MINUT), DODANIE 59 SŁÓWEK DO JĘZYKA HISZPAŃSKIEGO...<br><br>
-        (AKTUALIZACJA 12.01.25 - GODZINA 16:50 
+        📌(AKTUALIZACJA 12.01.25 - GODZINA 16:50 
     JĘZYK ANGIELSKI - NOWA LEKCJA W PRZYGOTOWANIU, POPRAWIONE TAGI KATEGORII SŁÓWEK(DODANIE NOWEEJ KATEGORII), POPRAWIENIE PRZYCISKU WŁĄCZANIA LEKCJI DLA PC i SMARFONA<br><br>
-    (AKTUALIZACJA 11.01.25 - GODZINA 14:05
+    📌(AKTUALIZACJA 11.01.25 - GODZINA 14:05
     JĘZYK ANGIELSKI - LEKCJA 5 MINUTOWA, DOSTĘPNE TAGI FILMÓW NA SMARTFONA<br><br>
-    (AKTUALIZACJA 10.01.25 - GODZINA 17:40 
+    📌(AKTUALIZACJA 10.01.25 - GODZINA 17:40 
     JĘZYK ANGIELSKI - LEKCJA 5 MINUTOWA, DOSTĘPNE WĘDROWANIE POMIĘDZY FISZKAMI) - PC
 
     <br></div>
     <script>
+            function dodajWpis() {
+      const tekst = document.getElementById("newPostText").value.trim();
+      if (tekst === "") return;
+
+      const post = document.createElement("div");
+      post.className = "post";
+      post.innerText = tekst;
+
+      const container = document.getElementById("postyContainer");
+      container.prepend(post); // dodaj u góry
+
+      document.getElementById("newPostText").value = "";
+    }
         const nativeLanguageContainer = document.getElementById('native-language-container');
         const learnLanguageContainer = document.getElementById('learn-language-container');
         const languageOptionsDiv = document.getElementById('language-options');

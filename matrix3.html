@@ -4051,7 +4051,7 @@ if (!stopButtonAdded) {
                             // Dodaj nakładkę do kontenera, po dodaniu wideo
                             $overlay.appendTo($container);
                             // Dodaj funkcję hover do kontenera
-                            if (indexDiv < 6) {
+                            if (indexDiv < 7) {
                                 // Jeśli indexDiv < 5, dodajemy hover z dynamicznym napisem
                                 $container.hover(function () {
                                     $('.overlay', this).css('transform', 'translateX(0)');
@@ -4069,7 +4069,7 @@ if (!stopButtonAdded) {
                                     });
                                 });
                             }
-                                                                                                                if (indexDiv < 11 && indexDiv >= 6) {
+                                                                                                                if (indexDiv < 11 && indexDiv >= 7) {
                                 // Jeśli indexDiv < 5, dodajemy hover z dynamicznym napisem
                                 $container.hover(function () {
                                     $('.overlay', this).css('transform', 'translateX(0)');
@@ -4235,6 +4235,10 @@ ${sentence30}${sentence33}<br>
                                                                                                                                             if (index55b2 === 5) { // Porównaj jako liczby
                                 // Bezpośrednio przekierowujemy użtykownika do strony
                                 window.location.href = 'demo5eng-esp.html?category=' + encodeURIComponent(globalCategory);
+                            }
+                            if (index55b2 === 6) { // Porównaj jako liczby
+                                // Bezpośrednio przekierowujemy użtykownika do strony
+                                window.location.href = 'demo6eng-esp.html?category=' + encodeURIComponent(globalCategory);
                             }
                         }, 500);
                         // Usunięcie kontenera po wstawieniu nowego

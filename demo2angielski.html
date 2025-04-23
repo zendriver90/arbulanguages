@@ -54,7 +54,7 @@
         <script src="js/lista.js"></script>
     <div class="grid-containerb">
     </div>
-    <script src="start\testowyb.js"></script>
+        <script src="start\testowyb.js"></script>
 <script>
 // Wywołaj funkcję z otrzymaną wartością
 function wybierzRodzaj(category) {
@@ -64,6 +64,30 @@ function wybierzRodzaj(category) {
 
     // Sprawdzenie, czy kategoria to 'all'
     if (category === 'all') {
+        // Dodaj wszystkie lekcje do matchingLessons
+        for (const fiszka of fiszki) {
+            console.log(`Przetwarzanie fiszki: ${JSON.stringify(fiszka)}`);
+            // Sprawdzanie, czy fiszka ma poprawne id
+            if (fiszka.id && fiszka.id[1]) {
+                // Sprawdzanie, czy id już jest w matchingLessons, aby uniknąć duplikatów
+                if (!matchingLessons.includes(fiszka.id[1])) {
+                    matchingLessons.push(fiszka.id[1]);
+                }
+            }
+        }
+    } else if (category === 'sport') {
+        // Dodaj wszystkie lekcje do matchingLessons
+        for (const fiszka of fiszki) {
+            console.log(`Przetwarzanie fiszki: ${JSON.stringify(fiszka)}`);
+            // Sprawdzanie, czy fiszka ma poprawne id
+            if (fiszka.id && fiszka.id[1]) {
+                // Sprawdzanie, czy id już jest w matchingLessons, aby uniknąć duplikatów
+                if (!matchingLessons.includes(fiszka.id[1])) {
+                    matchingLessons.push(fiszka.id[1]);
+                }
+            }
+        }
+    } else if (category === 'natura') {
         // Dodaj wszystkie lekcje do matchingLessons
         for (const fiszka of fiszki) {
             console.log(`Przetwarzanie fiszki: ${JSON.stringify(fiszka)}`);
@@ -97,15 +121,14 @@ if (fiszka.category !== 'all') {
     }
 }
     }
-    
-                    console.log('hej222', matchingLessons);
+
     if (matchingLessons.length > 0) {
         const nextThreeLessons = matchingLessons.slice(3, 6);
         // Wyświetl fiszki dla każdej znalezionej lekcji
         // Wyświetl fiszki dla kolejnych 3 lekcji
         console.log('Wyświetlanie kolejnych trzech lekcji:');
         nextThreeLessons.forEach(lessonId => {
-            showFiszkiForLesson(lessonId, fiszki);
+            showFiszkiForLesson(lessonId, fiszki, category);
         });
         localStorage.setItem('wylosowaneLekcje', JSON.stringify(nextThreeLessons));
     } else {
@@ -120,14 +143,14 @@ const category = urlParams.get('category');
 // Wywołaj funkcję z otrzymaną wartością
 wybierzRodzaj(category);
 
-function showFiszkiForLesson(lessonIdToShow, fiszki) {
+function showFiszkiForLesson(lessonIdToShow, fiszki, category) {
     const matchingFiszki = fiszki.filter(fiszka => fiszka.id[1] === lessonIdToShow);
 
     if (matchingFiszki.length > 0) {
         console.log(`Fiszki dla lekcji ${lessonIdToShow}:`);
         matchingFiszki.forEach(fiszka => {
             console.log(`Processing fiszka with ID: [${fiszka.id.join(', ')}]`);
-            generateFiszkaBlock(fiszka, lessonIdToShow); // Upewnij się, że funkcja generateFiszkaBlock() jest zdefiniowana
+            generateFiszkaBlock(fiszka, lessonIdToShow, category); // Upewnij się, że funkcja generateFiszkaBlock() jest zdefiniowana
             console.log(`Generated fiszka with ID: [${fiszka.id.join(', ')}]`);
         });
     } else {

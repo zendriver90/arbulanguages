@@ -2949,7 +2949,7 @@ id: [
         //  slowo do nauki
         key: "everybody",
         category1: [
-                "sport", "gaming"
+                "business", "start"
         ],
         category2: ["osoby", "osoby+czas"],
                 category3: ["Infinitive"]
@@ -2983,7 +2983,7 @@ id: [
         //  slowo do nauki
         key: "everybody",
         category1: [
-                "sport", "gaming"
+                "love", "family"
         ],
         category2: ["osoby", "osoby+czas"]
 },
@@ -3016,7 +3016,7 @@ id: [
         //  slowo do nauki
         key: "everybody",
         category1: [
-                "sport", "gaming"
+                "work", "energy"
         ],
         category2: ["osoby", "osoby+czas"]
 },
@@ -3049,7 +3049,7 @@ id: [
         //  slowo do nauki
         key: "everybody",
         category1: [
-                "sport", "gaming"
+                "art", "training"
         ],
         category2: ["osoby", "osoby+czas"]
 },
@@ -3087,7 +3087,7 @@ id: [
         //  slowo do nauki
         key: "everybody",
         category1: [
-                "sport", "gaming"
+                "relationship", "memory"
         ],
         category2: ["osoby", "osoby+czas"],
                 category3: ["Infinitive"]
@@ -3099,14 +3099,14 @@ id: [
 ],
         // obrazek
         img: [
-                "https://www.arbulang.com/img/fiszkiespanol/49a.jpg"
+                "https://www.arbulang.com/img/fiszki1en-esp/88a.jpg"
         ],
         word: [
                 "https://www.arbulang.com/voice/music.mp4"
         ],
         // historia
         story: [
-            "I lost my mind when i saw Brazilian girl, she looked like a Kate Moss"
+            "I <b><u>los</b></u>t my mind when i saw <b><u>Braz</b></u>ilian girl, she looked like a Kate M<b><u>oss</b></u>. Her <b><u>arms</b></u> were so delicious"
         ],
         // opis
         desc: "los brazos[lohs BRAH-sohs] - the arms",
@@ -3122,7 +3122,7 @@ id: [
         //  slowo do nauki
         key: "everybody",
         category1: [
-                "sport", "gaming"
+                "seducing", "girl"
         ],
         category2: ["osoby", "osoby+czas"]
 },
@@ -3133,17 +3133,17 @@ id: [
 ],
         // obrazek
         img: [
-                "https://www.arbulang.com/img/fiszkiespanol/50a.jpg"
+                "https://www.arbulang.com/img/fiszki1en-esp/89a.jpg"
         ],
         word: [
                 "https://www.arbulang.com/voice/music.mp4"
         ],
         // historia
         story: [
-            "We all going to the heaven or hell, after death"
+            "We're <b><u>all</b></u> going <b><u>to</b></u> the heaven or hell, after death"
         ],
         // opis
-        desc: "al[ahl] - ku",
+        desc: "al[ahl] - to the",
         //zdanie
         sentence1: [
                 "al"
@@ -3156,7 +3156,7 @@ id: [
         //  slowo do nauki
         key: "everybody",
         category1: [
-                "sport", "gaming"
+                "religion", "heaven"
         ],
         category2: ["osoby", "osoby+czas"]
 },
@@ -3167,14 +3167,14 @@ id: [
 ],
         // obrazek
         img: [
-                "https://www.arbulang.com/img/fiszkiespanol/51a.jpg"
+                "https://www.arbulang.com/img/fiszki1en-esp/90a.jpg"
         ],
         word: [
                 "https://www.arbulang.com/voice/music.mp4"
         ],
         // historia
         story: [
-            "Siii we have all sky for us, and sky play us beautiful melody"
+            "<b><u>Siii</b></u> we have whole sky for us, and sky pl<b><u>ay</b></u>s a beautiful me<b><u>lo</b></u>dy for us"
         ],
         // opis
         desc: "cielo[SYEH-loh] - sky",
@@ -3189,7 +3189,7 @@ id: [
         //  slowo do nauki
         key: "everybody",
         category1: [
-                "sport", "gaming"
+                "nature", "fellings"
         ],
         category2: ["osoby", "osoby+czas"]
 },
@@ -3200,14 +3200,14 @@ id: [
 ],
         // obrazek
         img: [
-                "https://www.arbulang.com/img/fiszkiespanol/52a.jpg"
+                "https://www.arbulang.com/img/fiszki1en-esp/91a.jpg"
         ],
         word: [
                 "https://www.arbulang.com/voice/music.mp4"
         ],
         // historia
         story: [
-            "We have here bluse color as a sky is, and I pull the brush across the canvas"
+            "Here we have <b><u>blue</b></u> color, just like the sky, and I p<b><u>ull</b></u> the brush across the canv<b><u>as</b></u>"
         ],
         // opis
         desc: "azul[ah-SOOL] - blue",
@@ -3222,7 +3222,7 @@ id: [
         //  slowo do nauki
         key: "everybody",
         category1: [
-                "sport", "gaming"
+                "art", "peace"
         ],
         category2: ["osoby", "osoby+czas"]
 },
@@ -3233,7 +3233,7 @@ id: [
 ],
         // obrazek
         img: [
-                "https://www.arbulang.com/img/fiszkiespanol/53a.jpg"
+                ""
         ],
         translate: "To cover the car before the rain",
         translateb: "[Kubrir el coche antes de la lluvia]",
@@ -3261,11 +3261,6 @@ id: [
         //  slowo do nauki
         key: "everybody",
         category1: [
-                "sport", "gaming",
-                "natura", "kulinaria",
-                "nauka", "medycyna",
-                "czarny humor", "pasja",
-                "związki", "wychowanie"
         ],
         category2: ["osoby", "osoby+czas"],
                 category3: ["Infinitive"]
@@ -3277,7 +3272,7 @@ id: [
 ],
         // obrazek
         img: [
-                "https://www.arbulang.com/img/fiszkiespanol/54a.jpg"
+                ""
         ],
         word: [
                 "https://www.arbulang.com/voice/music.mp4"
@@ -3301,11 +3296,6 @@ id: [
         //  slowo do nauki
         key: "everybody",
         category1: [
-                "sport", "gaming",
-                "natura", "kulinaria",
-                "nauka", "medycyna",
-                "czarny humor", "pasja",
-                "związki", "wychowanie"
         ],
         category2: ["osoby", "osoby+czas"]
 },
@@ -3316,7 +3306,7 @@ id: [
 ],
         // obrazek
         img: [
-                "https://www.arbulang.com/img/fiszkiespanol/55a.jpg"
+                ""
         ],
         word: [
                 "https://www.arbulang.com/voice/music.mp4"
@@ -3340,11 +3330,6 @@ id: [
         //  slowo do nauki
         key: "everybody",
         category1: [
-                "sport", "gaming",
-                "natura", "kulinaria",
-                "nauka", "medycyna",
-                "czarny humor", "pasja",
-                "związki", "wychowanie"
         ],
         category2: ["osoby", "osoby+czas"]
 },
@@ -3355,7 +3340,7 @@ id: [
 ],
         // obrazek
         img: [
-                "https://www.arbulang.com/img/fiszkiespanol/56a.jpg"
+                ""
         ],
         word: [
                 "https://www.arbulang.com/voice/music.mp4"
@@ -3379,11 +3364,6 @@ id: [
         //  slowo do nauki
         key: "everybody",
         category1: [
-                "sport", "gaming",
-                "natura", "kulinaria",
-                "nauka", "medycyna",
-                "czarny humor", "pasja",
-                "związki", "wychowanie"
         ],
         category2: ["osoby", "osoby+czas"]
 },
@@ -6457,7 +6437,7 @@ function generateFiszkaBlock(fiszka, lessonId2) {
         });
         console.log('hej555ax', lessons2b[2]);
 // DODANIE PRZYCISKU TRENING
-        fiszkaContainer.append($('<button>').text('TRENING').addClass('fiszka_button fiszka_button_trening').click(function () {
+        fiszkaContainer.append($('<button>').text('TRAINING').addClass('fiszka_button fiszka_button_trening').click(function () {
 
             activateFiszka(fiszka.id, false);
 
@@ -6517,7 +6497,7 @@ function generateFiszkaBlock(fiszka, lessonId2) {
             fiszkaContainer.addClass('imgIndex-' + lastClickedIndex);
         }));
 
-        fiszkaContainer.append($('<button>').text('ZNAM').addClass('fiszka_button fiszka_button_znam').click(function () {
+        fiszkaContainer.append($('<button>').text('ACQUAINTED').addClass('fiszka_button fiszka_button_znam').click(function () {
             console.log("Znam clicked on fiszka nr " + fiszka.id);
             activateFiszka(fiszka.id, true);
         }));
