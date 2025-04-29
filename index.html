@@ -347,6 +347,46 @@ button {
     }
                     }
                                 @media (max-width: 999px) {
+                                        .media-row {
+      display: flex;
+      justify-content: center;
+      align-items: flex-start;
+      gap: 50px;
+      font-family: Arial, sans-serif;
+      margin: 30px;
+      flex-wrap: nowrap; /* ważne: nie pozwala łamać się do nowego wiersza */
+    }
+
+    .media-column {
+      width: 300px; /* stała szerokość, żeby zawsze były obok siebie */
+    }
+
+    .media-column h2 {
+      margin-bottom: 10px;
+      color: #333;
+    }
+
+    .media-link {
+      display: flex;
+      align-items: center;
+      text-decoration: none;
+      font-weight: bold;
+      font-size: 18px;
+    }
+
+    .media-link img {
+      width: 60px;
+      height: 30px;
+      margin-right: 10px;
+    }
+
+    .facebook-link {
+      color: #1877f2;
+    }
+
+    .youtube-link {
+      color: #FF0000;
+    }
                                       /* Container and title */
   .tablica-container {
     max-width: 800px;
@@ -593,7 +633,7 @@ button {
 
         <div class="flag-container" id="native-language-container">
             <div data-language="pl">
-                <div id="polski">Polski</div><div id="polski2">367 słówek - angielski (+ 30 słówek)<br>
+                <div id="polski">Polski</div><div id="polski2">ANGIELSKI - Liczba unikalnych słów (228)<br>
                 108 słówek - hiszpański - TERAZ DZIAŁA</div>
                 <video autoplay loop muted>
                     <source src="start/Poland.mp4" type="video/mp4">

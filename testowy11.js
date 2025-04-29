@@ -102,7 +102,7 @@ id: [
                 "espanol"
         ],
         //  slowo do nauki
-        key: "everybody",
+        key: "aprender",
         category1: [
                 "media", "phone"
         ],
@@ -137,7 +137,7 @@ id: [
                 "espanol"
         ],
         //  slowo do nauki
-        key: "everybody",
+        key: "espanol",
         category1: [
                 "learning", "relationships"
         ],
@@ -170,7 +170,7 @@ id: [
                 "rapido"
         ],
         //  slowo do nauki
-        key: "everybody",
+        key: "muy",
         category1: [
                 "farm", "animals"
         ],
@@ -203,7 +203,7 @@ id: [
                 "rapido"
         ],
         //  slowo do nauki
-        key: "everybody",
+        key: "rapido",
         category1: [
                 "history", "sense of humor"
         ],
@@ -245,7 +245,7 @@ id: [
                 "algo"
         ],
         //  slowo do nauki
-        key: "yo",
+        key: "plan",
         category1: [
                 "mindset", "planing"
         ],
@@ -285,7 +285,7 @@ id: [
                 "algo"
         ],
         //  slowo do nauki
-        key: "everybody",
+        key: "es",
         category1: [
                 "places", "feelings",
                 "fashion", "style"
@@ -324,7 +324,7 @@ id: [
                 "algo"
         ],
         //  slowo do nauki
-        key: "everybody",
+        key: "metodo",
         category1: [
                 "awerness", "sounds"
         ],
@@ -362,7 +362,7 @@ id: [
                 "algo"
         ],
         //  slowo do nauki
-        key: "everybody",
+        key: "manera",
         category1: [
                 "work", "skills"
         ],
@@ -400,7 +400,7 @@ id: [
                 "algo"
         ],
         //  slowo do nauki
-        key: "everybody",
+        key: "de",
         category1: [
                 "life", "awerness"
         ],
@@ -438,7 +438,7 @@ id: [
                 "algo"
         ],
         //  slowo do nauki
-        key: "everybody",
+        key: "hacer",
         category1: [
                 "life", "work"
         ],
@@ -476,7 +476,7 @@ id: [
                 "algo"
         ],
         //  slowo do nauki
-        key: "everybody",
+        key: "algo",
         category1: [
                 "industries", "astronauts"
         ],
@@ -517,7 +517,7 @@ id: [
                 "ahora"
         ],
         //  slowo do nauki
-        key: "yo",
+        key: "ella",
         category1: [
                 "life", "relations"
         ],
@@ -554,7 +554,7 @@ id: [
                 "ahora"
         ],
         //  slowo do nauki
-        key: "yo",
+        key: "esta",
         category1: [
                 "politic", "mindset"
         ],
@@ -591,7 +591,7 @@ id: [
                 "ahora"
         ],
         //  slowo do nauki
-        key: "yo",
+        key: "leyendo",
         category1: [
                 "entertainment", "gaming"
         ],
@@ -628,7 +628,7 @@ id: [
                 "ahora"
         ],
         //  slowo do nauki
-        key: "yo",
+        key: "libro",
         category1: [
                 "passion", "reading"
         ],
@@ -665,7 +665,7 @@ id: [
                 "ahora"
         ],
         //  slowo do nauki
-        key: "yo",
+        key: "interesante",
         category1: [
                 "life", "emotions"
         ],
@@ -702,7 +702,7 @@ id: [
                 "ahora"
         ],
         //  slowo do nauki
-        key: "yo",
+        key: "ahora",
         category1: [
                 "nature", "garden"
         ],
@@ -742,7 +742,7 @@ id: [
                 "perezoso"
         ],
         //  slowo do nauki
-        key: "yo",
+        key: "mi",
         category1: [
                 "lifestyle", "cars"
         ],
@@ -778,7 +778,7 @@ id: [
                 "perezoso"
         ],
         //  slowo do nauki
-        key: "yo",
+        key: "café",
         category1: [
                 "life", "entertainment"
         ],
@@ -816,7 +816,7 @@ id: [
                 "perezoso"
         ],
         //  slowo do nauki
-        key: "yo",
+        key: "es",
         category1: [
                 "places", "feelings",
                 "fashion", "style"
@@ -853,7 +853,7 @@ id: [
                 "perezoso"
         ],
         //  slowo do nauki
-        key: "yo",
+        key: "tan",
         category1: [
                 "life", "wisdom"
         ],
@@ -889,7 +889,7 @@ id: [
                 "perezoso"
         ],
         //  slowo do nauki
-        key: "yo",
+        key: "perezoso",
         category1: [
                 "life", "effectiveness"
         ],
@@ -923,7 +923,7 @@ id: [
                 "la taza"
         ],
         //  slowo do nauki
-        key: "yo",
+        key: "camina",
         category1: [
                 "life", "free time"
         ],
@@ -957,7 +957,7 @@ id: [
                 "la taza"
         ],
         //  slowo do nauki
-        key: "yo",
+        key: "a",
         category1: [
                 "life", "cars"
         ],
@@ -991,7 +991,7 @@ id: [
                 "la taza"
         ],
         //  slowo do nauki
-        key: "yo",
+        key: "taza",
         category1: [
                 "life", "duties"
         ],
@@ -1028,7 +1028,7 @@ id: [
                 "brilla"
         ],
         //  slowo do nauki
-        key: "yo",
+        key: "sol",
         category1: [
                 "life", "free time"
         ],
@@ -1061,7 +1061,7 @@ id: [
                 "brilla"
         ],
         //  slowo do nauki
-        key: "yo",
+        key: "brilla",
         category1: [
                 "life", "free time"
         ],
@@ -1095,7 +1095,7 @@ id: [
                 "azul"
         ],
         //  slowo do nauki
-        key: "yo",
+        key: "en",
         category1: [
                 "life", "travells"
         ],
@@ -1129,7 +1129,7 @@ id: [
                 "azul"
         ],
         //  slowo do nauki
-        key: "yo",
+        key: "cielo",
         category1: [
                 "work", "selling"
         ],
@@ -1163,7 +1163,7 @@ id: [
                 "azul"
         ],
         //  slowo do nauki
-        key: "yo",
+        key: "azul",
         category1: [
                 "art", "color"
         ],
@@ -1201,7 +1201,7 @@ id: [
                 "grande"
         ],
         //  slowo do nauki
-        key: "yo",
+        key: "casa",
         category1: [
                 "life", "party"
         ],
@@ -1237,7 +1237,7 @@ id: [
                 "grande"
         ],
         //  slowo do nauki
-        key: "yo",
+        key: "es",
         category1: [
                 "places", "feelings",
                 "fashion", "style"
@@ -1272,7 +1272,7 @@ id: [
                 "grande"
         ],
         //  slowo do nauki
-        key: "yo",
+        key: "grande",
         category1: [
                 "life", "mountains"
         ],
@@ -1309,7 +1309,7 @@ id: [
                 "bonito"
         ],
         //  slowo do nauki
-        key: "yo",
+        key: "y",
         category1: [
                 "life", "happines",
                 "life", "technology"
@@ -1345,7 +1345,7 @@ id: [
                 "bonito"
         ],
         //  slowo do nauki
-        key: "yo",
+        key: "tiene",
         category1: [
                 "life", "philosophy"
         ],
@@ -1380,7 +1380,7 @@ id: [
                 "bonito"
         ],
         //  slowo do nauki
-        key: "yo",
+        key: "jardin",
         category1: [
                 "life", "dinner"
         ],
@@ -1415,7 +1415,7 @@ id: [
                 "bonito"
         ],
         //  slowo do nauki
-        key: "yo",
+        key: "bonito",
         category1: [
                 "techonology", "robots"
         ],
@@ -1452,7 +1452,7 @@ id: [
                 "una flor"
         ],
         //  slowo do nauki
-        key: "everybody",
+        key: "dibujar",
         category1: [
                 "life", "work"
         ],
@@ -1486,7 +1486,7 @@ id: [
                 "una flor"
         ],
         //  slowo do nauki
-        key: "everybody",
+        key: "flor",
         category1: [
                 "life", "gifts"
         ],
@@ -1519,7 +1519,7 @@ id: [
                 "el cuaderno"
         ],
         //  slowo do nauki
-        key: "everybody",
+        key: "en",
         category1: [
                 "life", "courage"
         ],
@@ -1552,7 +1552,7 @@ id: [
                 "el cuaderno"
         ],
         //  slowo do nauki
-        key: "everybody",
+        key: "cuaderno",
         category1: [
                 "cars", "planning"
         ],
@@ -1589,7 +1589,7 @@ id: [
                 "solo"
         ],
         //  slowo do nauki
-        key: "everybody",
+        key: "esperar",
         category1: [
                 "work", "devices"
         ],
@@ -1623,7 +1623,7 @@ id: [
                 "solo"
         ],
         //  slowo do nauki
-        key: "everybody",
+        key: "solo",
         category1: [
                 "quantity", "how many"
         ],
@@ -1656,7 +1656,7 @@ id: [
                 "la casa"
         ],
         //  slowo do nauki
-        key: "everybody",
+        key: "dentro de",
         category1: [
                 "health", "dentist"
         ],
@@ -1689,7 +1689,7 @@ id: [
                 "la casa"
         ],
         //  slowo do nauki
-        key: "everybody",
+        key: "casa",
         category1: [
                 "life", "family"
         ],
@@ -1727,7 +1727,7 @@ id: [
                 "tension"
         ],
         //  slowo do nauki
-        key: "everybody",
+        key: "hablar",
         category1: [
                 "life", "emotions"
         ],
@@ -1762,7 +1762,7 @@ id: [
                 "tension"
         ],
         //  slowo do nauki
-        key: "everybody",
+        key: "sin",
         category1: [
                 "work", "boats"
         ],
@@ -1796,7 +1796,7 @@ id: [
                 "tension"
         ],
         //  slowo do nauki
-        key: "everybody",
+        key: "tension",
         category1: [
                 "life", "emotions"
         ],
@@ -1816,7 +1816,7 @@ id: [
         ],
         // historia
         story: [
-                ""
+                "<b><u>While</b></u> we have some rumor in market, <b><u>m</b></u>y <b><u>Yen</b></u> is in <b><u>trou</b></u>ble, the game isnt <b><u>s</b></u>uper easy"
         ],
         // opis
         desc: "mientras[myen-trahs] - while",
@@ -1830,7 +1830,7 @@ id: [
                 "juntos"
         ],
         //  slowo do nauki
-        key: "everybody",
+        key: "mientras",
         category1: [
                 "", ""
         ],
@@ -1850,7 +1850,7 @@ id: [
         ],
         // historia
         story: [
-                ""
+                "My <b><u>ca</b></u>t and i, <b><u>we walked</b></u> through the <b><u>mi</b></u>nt. We singing word of the song 'me <b><u>amo</b></u>' and thats the <b><u>s</b></u>tory"
         ],
         // opis
         desc: "caminamos[kah-mee-nah-mos] - we walked",
@@ -1864,7 +1864,7 @@ id: [
                 "juntos"
         ],
         //  slowo do nauki
-        key: "everybody",
+        key: "caminamos",
         category1: [
                 "", ""
         ],
@@ -1898,7 +1898,7 @@ id: [
                 "juntos"
         ],
         //  slowo do nauki
-        key: "everybody",
+        key: "juntos",
         category1: [
                 "life", "hobbies"
         ],
@@ -1936,7 +1936,7 @@ id: [
                 "con"
         ],
         //  slowo do nauki
-        key: "everybody",
+        key: "romper",
         category1: [
                 "technology", "computer"
         ],
@@ -1972,7 +1972,7 @@ id: [
                 "con"
         ],
         //  slowo do nauki
-        key: "everybody",
+        key: "silencio",
         category1: [
                 "sounds", "silence",
                 "continents", "Africa"
@@ -2007,7 +2007,7 @@ id: [
                 "con"
         ],
         //  slowo do nauki
-        key: "everybody",
+        key: "con",
         category1: [
                 "technology", "control"
         ],
@@ -2040,7 +2040,7 @@ id: [
                 "bonitas"
         ],
         //  slowo do nauki
-        key: "everybody",
+        key: "palabras",
         category1: [
                 "speech", "preparations"
         ],
@@ -2073,7 +2073,7 @@ id: [
                 "bonitas"
         ],
         //  slowo do nauki
-        key: "everybody",
+        key: "bonitas",
         category1: [
                 "work", "missions"
         ],
@@ -2110,7 +2110,7 @@ id: [
                 "las puertas"
         ],
         //  slowo do nauki
-        key: "everybody",
+        key: "asegurar",
         category1: [
                 "technology", "computer"
         ],
@@ -2144,7 +2144,7 @@ id: [
                 "las puertas"
         ],
         //  slowo do nauki
-        key: "everybody",
+        key: "puertas",
         category1: [
                 "school", "art"
         ],
@@ -2177,7 +2177,7 @@ id: [
                 "dormir"
         ],
         //  slowo do nauki
-        key: "everybody",
+        key: "antes de",
         category1: [
                 "buildings", "ancient art"
         ],
@@ -2210,7 +2210,7 @@ id: [
                 "dormir"
         ],
         //  slowo do nauki
-        key: "everybody",
+        key: "dormir",
         category1: [
                 "life", "behaviours"
         ],
@@ -2247,7 +2247,7 @@ id: [
                 "la calma"
         ],
         //  slowo do nauki
-        key: "everybody",
+        key: "mantener",
         category1: [
                 "sport", "discipline"
         ],
@@ -2281,7 +2281,7 @@ id: [
                 "la calma"
         ],
         //  slowo do nauki
-        key: "everybody",
+        key: "calma",
         category1: [
                 "school", "class"
         ],
@@ -2317,7 +2317,7 @@ id: [
                 "juntos"
         ],
         //  slowo do nauki
-        key: "everybody",
+        key: "y",
         category1: [
                 "life", "happines",
                 "life", "technology"
@@ -2352,7 +2352,7 @@ id: [
                 "juntos"
         ],
         //  slowo do nauki
-        key: "everybody",
+        key: "disfrutar",
         category1: [
                 "life", "show"
         ],
@@ -2386,7 +2386,7 @@ id: [
                 "juntos"
         ],
         //  slowo do nauki
-        key: "everybody",
+        key: "juntos",
         category1: [
                 "sport", "basketball"
         ],
@@ -2424,7 +2424,7 @@ id: [
                 "con"
         ],
         //  slowo do nauki
-        key: "everybody",
+        key: "lograr",
         category1: [
                 "games", "skills"
         ],
@@ -2459,7 +2459,7 @@ id: [
                 "con"
         ],
         //  slowo do nauki
-        key: "everybody",
+        key: "sueños",
         category1: [
                 "life", "trouble"
         ],
@@ -2493,7 +2493,7 @@ id: [
                 "con"
         ],
         //  slowo do nauki
-        key: "everybody",
+        key: "con",
         category1: [
                 "technology", "control"
         ],
@@ -2527,7 +2527,7 @@ id: [
                 "dedication"
         ],
         //  slowo do nauki
-        key: "everybody",
+        key: "esfuerzo",
         category1: [
                 "life", "efforts"
         ],
@@ -2563,7 +2563,7 @@ id: [
                 "dedication"
         ],
         //  slowo do nauki
-        key: "everybody",
+        key: "y",
         category1: [
                 "life", "happines",
                 "life", "technology"
@@ -2598,7 +2598,7 @@ id: [
                 "dedication"
         ],
         //  slowo do nauki
-        key: "everybody",
+        key: "dedication",
         category1: [
                 "", ""
         ],
@@ -2636,7 +2636,7 @@ id: [
                 "felices"
         ],
         //  slowo do nauki
-        key: "everybody",
+        key: "recordar",
         category1: [
                 "work", "speech"
         ],
@@ -2671,7 +2671,7 @@ id: [
                 "felices"
         ],
         //  slowo do nauki
-        key: "everybody",
+        key: "momentos",
         category1: [
                 "", ""
         ],
@@ -2705,7 +2705,7 @@ id: [
                 "felices"
         ],
         //  slowo do nauki
-        key: "everybody",
+        key: "felices",
         category1: [
                 "history", "fights"
         ],
@@ -2738,7 +2738,7 @@ id: [
                 "la familia"
         ],
         //  slowo do nauki
-        key: "everybody",
+        key: "con",
         category1: [
                 "technology", "control"
         ],
@@ -2771,7 +2771,7 @@ id: [
                 "la familia"
         ],
         //  slowo do nauki
-        key: "everybody",
+        key: "familia",
         category1: [
                 "", ""
         ],
@@ -2809,7 +2809,7 @@ id: [
                 "del maquillaje"
         ],
         //  slowo do nauki
-        key: "everybody",
+        key: "disfrutar",
         category1: [
                 "life", "funny moments"
         ],
@@ -2843,7 +2843,7 @@ id: [
                 "del maquillaje"
         ],
         //  slowo do nauki
-        key: "everybody",
+        key: "maquillaje",
         category1: [
                 "technology", "computer"
         ],
@@ -2877,7 +2877,7 @@ id: [
                 "salir"
         ],
         //  slowo do nauki
-        key: "everybody",
+        key: "antes de",
         category1: [
                 "life", "mindset"
         ],
@@ -2910,7 +2910,7 @@ id: [
                 "salir"
         ],
         //  slowo do nauki
-        key: "everybody",
+        key: "salir",
         category1: [
                 "work", "free time"
         ],
@@ -2944,10 +2944,10 @@ id: [
         ],
         sentence: [
                 "Olvidar",
-                "la ansieded"
+                "la ansiedad"
         ],
         //  slowo do nauki
-        key: "everybody",
+        key: "olvidar",
         category1: [
                 "business", "start"
         ],
@@ -2978,10 +2978,10 @@ id: [
         ],
         sentence: [
                 "Olvidar",
-                "la ansieded"
+                "la ansiedad"
         ],
         //  slowo do nauki
-        key: "everybody",
+        key: "asiedad",
         category1: [
                 "love", "family"
         ],
@@ -3014,7 +3014,7 @@ id: [
                 "las estrellas"
         ],
         //  slowo do nauki
-        key: "everybody",
+        key: "mirando",
         category1: [
                 "work", "energy"
         ],
@@ -3047,7 +3047,7 @@ id: [
                 "las estrellas"
         ],
         //  slowo do nauki
-        key: "everybody",
+        key: "estrellas",
         category1: [
                 "art", "training"
         ],
@@ -3085,7 +3085,7 @@ id: [
                 "al"
         ],
         //  slowo do nauki
-        key: "everybody",
+        key: "extender",
         category1: [
                 "relationship", "memory"
         ],
@@ -3120,7 +3120,7 @@ id: [
                 "al"
         ],
         //  slowo do nauki
-        key: "everybody",
+        key: "brazos",
         category1: [
                 "seducing", "girl"
         ],
@@ -3154,7 +3154,7 @@ id: [
                 "al"
         ],
         //  slowo do nauki
-        key: "everybody",
+        key: "al",
         category1: [
                 "religion", "heaven"
         ],
@@ -3187,7 +3187,7 @@ id: [
                 "azul"
         ],
         //  slowo do nauki
-        key: "everybody",
+        key: "cielo",
         category1: [
                 "nature", "fellings"
         ],
@@ -3220,7 +3220,7 @@ id: [
                 "azul"
         ],
         //  slowo do nauki
-        key: "everybody",
+        key: "azul",
         category1: [
                 "art", "peace"
         ],
@@ -3236,7 +3236,7 @@ id: [
                 ""
         ],
         translate: "To cover the car before the rain",
-        translateb: "[Kubrir el coche antes de la lluvia]",
+        translateb: "[koo-BREER el KO-cheh AHN-tehs deh lah YOO-byah]",
         srcWord: ["https://www.arbulang.com/filmy/esp/showingcar.mp4", 'W pogodni za zemstą (2010)'],
         srcWordimage: "https://www.arbulang.com/filmy/esp/showingcar.png",
         word: [
@@ -3244,10 +3244,10 @@ id: [
         ],
         // historia
         story: [
-            ""
+            "My new car has <b><u>coo</b></u>l <b><u>cover</b></u>, my sales man S<b><u>ir</b></u> <b><u>Br</b></u>ayan <b><u>bri</b></u>ng me it in the offer"
         ],
         // opis
-        desc: "cubrir[kubrir] - pokryć",
+        desc: "cubrir[koo-BREER] - cover",
         //zdanie
         sentence1: [
                 "Cubrir"
@@ -3259,7 +3259,7 @@ id: [
                 "la lluvia"
         ],
         //  slowo do nauki
-        key: "everybody",
+        key: "cubrir",
         category1: [
         ],
         category2: ["osoby", "osoby+czas"],
@@ -3279,10 +3279,10 @@ id: [
         ],
         // historia
         story: [
-            "<u><b>El</u></b>iot czasami mówi: s<u><b>kocze</u></b> do sklepu (ma na myśli: pojechanie <u><b>autem</u></b>)"
+            "<b><u>El</b></u>iot <b><u>co</b></u>py his keys to <b><u>car</b></u> and check if they really works"
         ],
         // opis
-        desc: "el coche[kocze] - samochód",
+        desc: "el coche[el KO-cheh] - car",
         //zdanie
         sentence1: [
                 "el coche"
@@ -3294,7 +3294,7 @@ id: [
                 "la lluvia"
         ],
         //  slowo do nauki
-        key: "everybody",
+        key: "coche",
         category1: [
         ],
         category2: ["osoby", "osoby+czas"]
@@ -3306,17 +3306,17 @@ id: [
 ],
         // obrazek
         img: [
-                ""
+                "https://www.arbulang.com/img/fiszki1en-esp/81a.jpg"
         ],
         word: [
                 "https://www.arbulang.com/voice/music.mp4"
         ],
         // historia
         story: [
-            "<u><b>Ante</u></b>k <u><b>przed</u></b> <u><b>s</u></b>potkaniem sporo się przygotowywał i <u><b>de</u></b>likatni się wyperfumował"
+                "<b><u>An</b></u>atoli read a book <b><u>before</b></u> breakfast and <b><u>tes</b></u>ted <b><u>the</b></u> possibilities to earn."
         ],
         // opis
-        desc: "antes de[antes de] - przed",
+        desc: "antes de[AHN-tehs deh] - before",
         //zdanie
         sentence1: [
                 "antes de"
@@ -3328,7 +3328,7 @@ id: [
                 "la lluvia"
         ],
         //  slowo do nauki
-        key: "everybody",
+        key: "ates de",
         category1: [
         ],
         category2: ["osoby", "osoby+czas"]
@@ -3347,10 +3347,10 @@ id: [
         ],
         // historia
         story: [
-            "Na placu przed szkołą pada <u><b>deszcz</u></b>. Ptaki <u><b>dziubi</u></b>ą robaki z ziemi - na o<u><b>bia</u></b>d"
+            "It <b><u>rained</b></u> the <b><u>la</b></u>st day when i go to <b><u>ju</b></u>do with my <b><u>juv</b></u>enile son with g<b><u>ia</b></u>nt hope"
         ],
         // opis
-        desc: "la lluvia[la dziubia] - deszcz",
+        desc: "la lluvia[lah YOO-byah] - the rain",
         //zdanie
         sentence1: [
                 "la lluvia"
@@ -3362,7 +3362,7 @@ id: [
                 "la lluvia"
         ],
         //  slowo do nauki
-        key: "everybody",
+        key: "lluvia",
         category1: [
         ],
         category2: ["osoby", "osoby+czas"]
@@ -3377,7 +3377,7 @@ id: [
                 "https://www.arbulang.com/img/fiszkiespanol/57a.jpg"
         ],
         translate: "To change the mind with new ideas",
-        translateb: "[Cambiar la mente con nuevas ideas]",
+        translateb: "[kahm-BYAR lah MEN-teh kon NWAY-bahs ee-DEH-ahs]",
         srcWord: ["https://www.arbulang.com/filmy/esp/planning.mp4", 'Piękny Umysł (2001)'],
         srcWordimage: "https://www.arbulang.com/filmy/esp/planning.png",
         word: [
@@ -3385,10 +3385,10 @@ id: [
         ],
         // historia
         story: [
-            "<u><b>Kamb</u></b>odźa ma nadm<u><b>iar</u></b> <u><b>zmian</u></b> klimatycznych"
+            "I need to <b><u>change</b></u> setting in my Face<b><u>b</b></u>ook <b><u>cam</b></u>pain about cleaning a grave in grave<b><u>yar</b></u>d"
         ],
         // opis
-        desc: "cambiar[kambiar] - zmieniać",
+        desc: "cambiar[kahm-BYAR] - change",
         //zdanie
         sentence1: [
                 "Cambiar"
@@ -3398,13 +3398,8 @@ id: [
                 "la mente"
         ],
         //  slowo do nauki
-        key: "everybody",
+        key: "camibiar",
         category1: [
-                "sport", "gaming",
-                "natura", "kulinaria",
-                "nauka", "medycyna",
-                "czarny humor", "pasja",
-                "związki", "wychowanie"
         ],
         category2: ["osoby", "osoby+czas"],
                 category3: ["Infinitive"]
@@ -3423,10 +3418,10 @@ id: [
         ],
         // historia
         story: [
-            "<u><b>M</u></b>orfeusz robi <u><b>ente</u></b>r i jego <u><b>umysł</u></b> wchodzi do Matrixa"
+            "G<b><u>la</b></u>mour his <b><u>mind</b></u> depends on his <b><u>ment</b></u>ality and his <b><u>te</b></u>chnic and analytic skills"
         ],
         // opis
-        desc: "la mente[la mente] - umysł",
+        desc: "la mente[lah MEN-teh] - mind",
         //zdanie
         sentence1: [
                 "la mente"
@@ -3436,13 +3431,8 @@ id: [
                 "la mente"
         ],
         //  slowo do nauki
-        key: "everybody",
+        key: "mente",
         category1: [
-                "sport", "gaming",
-                "natura", "kulinaria",
-                "nauka", "medycyna",
-                "czarny humor", "pasja",
-                "związki", "wychowanie"
         ],
         category2: ["osoby", "osoby+czas"]
 },
@@ -3453,21 +3443,17 @@ id: [
 ],
         // obrazek
         img: [
-            "https://www.arbulang.com/img/fiszkiespanol/17a.jpg",
-                "https://www.arbulang.com/img/fiszkiespanol/31a.jpg",
-                "https://www.arbulang.com/img/fiszkiespanol/59a.jpg"
+                "https://www.arbulang.com/img/fiszki1en-esp/56a.jpg"
         ],
         word: [
                 "https://www.arbulang.com/voice/music.mp4"
         ],
         // historia
         story: [
-                "<u><b>Z</u></b> <u><b>kon</u></b>opiami jest niezły ubaw",
-                "<u><b>Z</u></b> takimi <u><b>kon</u></b>taktami jakie mam, lepiej jest mi podołać obowiązkom",
-                "<u><b>Z</u></b> <u><b>kon</u></b>sernacją przyjąłem tę decyzję"
+                "<b><u>With</b></u> that button, we <b><u>con</b></u>trol everything"
         ],
         // opis
-        desc: "con[kon] - z",
+        desc: "con[kohn] - with",
         //zdanie
         sentence2: [
                 "con"
@@ -3478,13 +3464,8 @@ id: [
                 "ideas"
         ],
         //  slowo do nauki
-        key: "everybody",
+        key: "con",
         category1: [
-                "sport", "gaming",
-                "natura", "kulinaria",
-                "nauka", "medycyna",
-                "czarny humor", "pasja",
-                "związki", "wychowanie"
         ],
         category2: ["osoby", "osoby+czas"]
 },
@@ -3502,10 +3483,10 @@ id: [
         ],
         // historia
         story: [
-            "<u><b>Ewa</u></b> uważa, że kiedy jest <u><b>nu</u></b>ll do zrobienia wtedy jest relaks. Nauczyciel mówi, że to dla <u><b>was</u></b> dobrze, bo są <u><b>nowe</u></b> pomysły"
+            "<b><u>New</b></u> <b><u>nu</b></u>trition in sportman life gives him energy, <b><u>ev</b></u>entually he p<b><u>ass</b></u> his personal record"
         ],
         // opis
-        desc: "nuevas[nuewas] - nowe",
+        desc: "nuevas[NWAY-bahs] - nowe",
         //zdanie
         sentence2: [
                 "nuevas"
@@ -3516,13 +3497,8 @@ id: [
                 "ideas"
         ],
         //  slowo do nauki
-        key: "everybody",
+        key: "nuevas",
         category1: [
-                "sport", "gaming",
-                "natura", "kulinaria",
-                "nauka", "medycyna",
-                "czarny humor", "pasja",
-                "związki", "wychowanie"
         ],
         category2: ["osoby", "osoby+czas"]
 },
@@ -3540,11 +3516,10 @@ id: [
         ],
         // historia
         story: [
-            "cOGNATS: idee - ideas",
-            "Moja <u><b>idea</u></b> to część różnych <u><b>ideii</u></b> wspólnych dla n<u><b>as</u></b> Polaków"
+            "COGNATS: ideas - ideas"
         ],
         // opis
-        desc: "ideas[ideas] - pomysły(liczba mnoga)",
+        desc: "ideas[ideas] - ideas",
         //zdanie
         sentence2: [
                 "ideas"
@@ -3555,13 +3530,8 @@ id: [
                 "ideas"
         ],
         //  slowo do nauki
-        key: "everybody",
+        key: "ideas",
         category1: [
-                "sport", "gaming",
-                "natura", "kulinaria",
-                "nauka", "medycyna",
-                "czarny humor", "pasja",
-                "związki", "wychowanie"
         ],
         category2: ["osoby", "osoby+czas"]
 },
@@ -3575,7 +3545,7 @@ id: [
                 "https://www.arbulang.com/img/fiszkiespanol/62a.jpg"
         ],
         translate: "To foresee problems and always be prepared",
-        translateb: "[Prever problemas y estar preparado siempre]",
+        translateb: "[preh-veh-EHR proh-BLEH-mahs ee ehs-TAR preh-pah-RAH-doh SYEM-preh]",
         srcWord: ["https://www.arbulang.com/filmy/esp/predict.mp4", 'Resident Evil: The Final Chapter (2016)'],
         srcWordimage: "https://www.arbulang.com/filmy/esp/predict.png",
         word: [
@@ -3583,10 +3553,10 @@ id: [
         ],
         // historia
         story: [
-            "To nie było do <u><b>przewidzenia</u></b>, że świat będzie w o<u><b>pre</u></b>sji i trzeba będzie więcej czasu siedzieć na <u><b>wer</u></b>salce lub sofie, jednak zdarzały się już kryzysy"
+            ""
         ],
         // opis
-        desc: "prever[preber] - przewidywać",
+        desc: "prever[preh-veh-EHR] - foresee",
         //zdanie
         sentence1: [
                 "Prever"
@@ -3596,13 +3566,8 @@ id: [
                 "problemas"
         ],
         //  slowo do nauki
-        key: "everybody",
+        key: "prever",
         category1: [
-                "sport", "gaming",
-                "natura", "kulinaria",
-                "nauka", "medycyna",
-                "czarny humor", "pasja",
-                "związki", "wychowanie"
         ],
         category2: ["osoby", "osoby+czas"],
                 category3: ["Infinitive"]
@@ -3621,10 +3586,10 @@ id: [
         ],
         // historia
         story: [
-            "KOGNAT: problemy - problemas"
+            "COGNAT: problems - problemas"
         ],
         // opis
-        desc: "problemans[problemas] - problemy(liczba mnoga)",
+        desc: "problemans[proh-BLEH-mahs] - problems",
         //zdanie
         sentence1: [
                 "problemas"
@@ -3634,13 +3599,8 @@ id: [
                 "problemas"
         ],
         //  slowo do nauki
-        key: "everybody",
+        key: "problemas",
         category1: [
-                "sport", "gaming",
-                "natura", "kulinaria",
-                "nauka", "medycyna",
-                "czarny humor", "pasja",
-                "związki", "wychowanie"
         ],
         category2: ["osoby", "osoby+czas"]
 },
@@ -3651,17 +3611,19 @@ id: [
 ],
         // obrazek
         img: [
-                "https://www.arbulang.com/img/fiszkiespanol/64a.jpg"
+                "https://www.arbulang.com/img/fiszki1en-esp/65a.jpg",
+                 "https://www.arbulang.com/img/fiszki1en-esp/36a.jpg"
         ],
         word: [
                 "https://www.arbulang.com/voice/music.mp4"
         ],
         // historia
         story: [
-            "<u><b>I</u></b>dealne <u><b>i</u></b> piękne"
+                "<b><u>And</b></u> this is <b><u>i</b></u>t",
+                "<b><u>I</b></u>nternet <b><u>and</b></u> computer were great inventions"
         ],
         // opis
-        desc: "y[i] - i",
+        desc: "y[ee] - and",
         //zdanie
         sentence2: [
                 "y"
@@ -3673,13 +3635,8 @@ id: [
                 "siempre"
         ],
         //  slowo do nauki
-        key: "everybody",
+        key: "y",
         category1: [
-                "sport", "gaming",
-                "natura", "kulinaria",
-                "nauka", "medycyna",
-                "czarny humor", "pasja",
-                "związki", "wychowanie"
         ],
         category2: ["osoby", "osoby+czas"]
 },
@@ -3697,10 +3654,10 @@ id: [
         ],
         // historia
         story: [
-            "Lubię <u><b>być</u></b> w Włoszech, bo tam jest Fi<u><b>esta</u></b>, która b<u><b>ar</u></b>dzo mi się podoba"
+            ""
         ],
         // opis
-        desc: "estar[estar] - być",
+        desc: "estar[ehs-TAR] - be",
         //zdanie
         sentence2: [
                 "estar"
@@ -3712,13 +3669,8 @@ id: [
                 "siempre"
         ],
         //  slowo do nauki
-        key: "everybody",
+        key: "estar",
         category1: [
-                "sport", "gaming",
-                "natura", "kulinaria",
-                "nauka", "medycyna",
-                "czarny humor", "pasja",
-                "związki", "wychowanie"
         ],
         category2: ["osoby", "osoby+czas"]
 },
@@ -3736,7 +3688,7 @@ id: [
         ],
         // historia
         story: [
-            "S<u><b>prepar</u></b>owany czyli <u><b>przygootowany</u></b> do naprawy but - po naprawie przyniesie wiele r<u><b>ado</u></b>ści"
+            ""
         ],
         // opis
         desc: "preparado[preparado] - przygotowany",
@@ -3751,13 +3703,8 @@ id: [
                 "siempre"
         ],
         //  slowo do nauki
-        key: "everybody",
+        key: "preparado",
         category1: [
-                "sport", "gaming",
-                "natura", "kulinaria",
-                "nauka", "medycyna",
-                "czarny humor", "pasja",
-                "związki", "wychowanie"
         ],
         category2: ["osoby", "osoby+czas"]
 },
@@ -3790,13 +3737,8 @@ id: [
                 "siempre"
         ],
         //  slowo do nauki
-        key: "everybody",
+        key: "siempre",
         category1: [
-                "sport", "gaming",
-                "natura", "kulinaria",
-                "nauka", "medycyna",
-                "czarny humor", "pasja",
-                "związki", "wychowanie"
         ],
         category2: ["osoby", "osoby+czas"]
 },
@@ -3833,13 +3775,8 @@ id: [
                 "siempre"
         ],
         //  slowo do nauki
-        key: "everybody",
+        key: "proteger",
         category1: [
-                "sport", "gaming",
-                "natura", "kulinaria",
-                "nauka", "medycyna",
-                "czarny humor", "pasja",
-                "związki", "wychowanie"
         ],
         category2: ["osoby", "osoby+czas"],
                 category3: ["Infinitive"]
@@ -3873,13 +3810,8 @@ id: [
                 "siempre"
         ],
         //  slowo do nauki
-        key: "everybody",
+        key: "derechos",
         category1: [
-                "sport", "gaming",
-                "natura", "kulinaria",
-                "nauka", "medycyna",
-                "czarny humor", "pasja",
-                "związki", "wychowanie"
         ],
         category2: ["osoby", "osoby+czas"]
 },
@@ -3912,13 +3844,8 @@ id: [
                 "siempre"
         ],
         //  slowo do nauki
-        key: "everybody",
+        key: "todos",
         category1: [
-                "sport", "gaming",
-                "natura", "kulinaria",
-                "nauka", "medycyna",
-                "czarny humor", "pasja",
-                "związki", "wychowanie"
         ],
         category2: ["osoby", "osoby+czas"]
 },
@@ -3951,13 +3878,8 @@ id: [
                 "siempre"
         ],
         //  slowo do nauki
-        key: "everybody",
+        key: "siempre",
         category1: [
-                "sport", "gaming",
-                "natura", "kulinaria",
-                "nauka", "medycyna",
-                "czarny humor", "pasja",
-                "związki", "wychowanie"
         ],
         category2: ["osoby", "osoby+czas"]
 },
@@ -3993,13 +3915,8 @@ id: [
                 "divertidas"
         ],
         //  slowo do nauki
-        key: "everybody",
+        key: "contar",
         category1: [
-                "sport", "gaming",
-                "natura", "kulinaria",
-                "nauka", "medycyna",
-                "czarny humor", "pasja",
-                "związki", "wychowanie"
         ],
         category2: ["osoby", "osoby+czas"],
                 category3: ["Infinitive"]
@@ -4032,13 +3949,8 @@ id: [
                 "divertidas"
         ],
         //  slowo do nauki
-        key: "everybody",
+        key: "historias",
         category1: [
-                "sport", "gaming",
-                "natura", "kulinaria",
-                "nauka", "medycyna",
-                "czarny humor", "pasja",
-                "związki", "wychowanie"
         ],
         category2: ["osoby", "osoby+czas"]
 },
@@ -4070,13 +3982,8 @@ id: [
                 "divertidas"
         ],
         //  slowo do nauki
-        key: "everybody",
+        key: "divertidas",
         category1: [
-                "sport", "gaming",
-                "natura", "kulinaria",
-                "nauka", "medycyna",
-                "czarny humor", "pasja",
-                "związki", "wychowanie"
         ],
         category2: ["osoby", "osoby+czas"]
 },
@@ -4114,13 +4021,8 @@ id: [
                 "amigos"
         ],
         //  slowo do nauki
-        key: "everybody",
+        key: "con",
         category1: [
-                "sport", "gaming",
-                "natura", "kulinaria",
-                "nauka", "medycyna",
-                "czarny humor", "pasja",
-                "związki", "wychowanie"
         ],
         category2: ["osoby", "osoby+czas"]
 },
@@ -4152,13 +4054,8 @@ id: [
                 "amigos"
         ],
         //  slowo do nauki
-        key: "everybody",
+        key: "buenos",
         category1: [
-                "sport", "gaming",
-                "natura", "kulinaria",
-                "nauka", "medycyna",
-                "czarny humor", "pasja",
-                "związki", "wychowanie"
         ],
         category2: ["osoby", "osoby+czas"]
 },
@@ -4190,13 +4087,8 @@ id: [
                 "amigos"
         ],
         //  slowo do nauki
-        key: "everybody",
+        key: "amigos",
         category1: [
-                "sport", "gaming",
-                "natura", "kulinaria",
-                "nauka", "medycyna",
-                "czarny humor", "pasja",
-                "związki", "wychowanie"
         ],
         category2: ["osoby", "osoby+czas"]
 },
@@ -4232,13 +4124,8 @@ id: [
                 "alegre"
         ],
         //  slowo do nauki
-        key: "everybody",
+        key: "escuchar",
         category1: [
-                "sport", "gaming",
-                "natura", "kulinaria",
-                "nauka", "medycyna",
-                "czarny humor", "pasja",
-                "związki", "wychowanie"
         ],
         category2: ["osoby", "osoby+czas"],
                 category3: ["Infinitive"]
@@ -4271,13 +4158,8 @@ id: [
                 "alegre"
         ],
         //  slowo do nauki
-        key: "everybody",
+        key: "musica",
         category1: [
-                "sport", "gaming",
-                "natura", "kulinaria",
-                "nauka", "medycyna",
-                "czarny humor", "pasja",
-                "związki", "wychowanie"
         ],
         category2: ["osoby", "osoby+czas"]
 },
@@ -4309,13 +4191,8 @@ id: [
                 "alegre"
         ],
         //  slowo do nauki
-        key: "everybody",
+        key: "alegre",
         category1: [
-                "sport", "gaming",
-                "natura", "kulinaria",
-                "nauka", "medycyna",
-                "czarny humor", "pasja",
-                "związki", "wychowanie"
         ],
         category2: ["osoby", "osoby+czas"]
 },
@@ -4346,13 +4223,8 @@ id: [
                 "el coche"
         ],
         //  slowo do nauki
-        key: "everybody",
+        key: "en",
         category1: [
-                "sport", "gaming",
-                "natura", "kulinaria",
-                "nauka", "medycyna",
-                "czarny humor", "pasja",
-                "związki", "wychowanie"
         ],
         category2: ["osoby", "osoby+czas"]
 },
@@ -4383,13 +4255,8 @@ id: [
                 "el coche"
         ],
         //  slowo do nauki
-        key: "everybody",
+        key: "coche",
         category1: [
-                "sport", "gaming",
-                "natura", "kulinaria",
-                "nauka", "medycyna",
-                "czarny humor", "pasja",
-                "związki", "wychowanie"
         ],
         category2: ["osoby", "osoby+czas"]
 },
@@ -4424,13 +4291,8 @@ id: [
                 "temprano"
         ],
         //  slowo do nauki
-        key: "everybody",
+        key: "llegar",
         category1: [
-                "sport", "gaming",
-                "natura", "kulinaria",
-                "nauka", "medycyna",
-                "czarny humor", "pasja",
-                "związki", "wychowanie"
         ],
         category2: ["osoby", "osoby+czas"],
                 category3: ["Infinitive"]
@@ -4462,13 +4324,8 @@ id: [
                 "temprano"
         ],
         //  slowo do nauki
-        key: "everybody",
+        key: "temprano",
         category1: [
-                "sport", "gaming",
-                "natura", "kulinaria",
-                "nauka", "medycyna",
-                "czarny humor", "pasja",
-                "związki", "wychowanie"
         ],
         category2: ["osoby", "osoby+czas"]
 },
@@ -4499,13 +4356,8 @@ id: [
                 "la mañana"
         ],
         //  slowo do nauki
-        key: "everybody",
+        key: "y",
         category1: [
-                "sport", "gaming",
-                "natura", "kulinaria",
-                "nauka", "medycyna",
-                "czarny humor", "pasja",
-                "związki", "wychowanie"
         ],
         category2: ["osoby", "osoby+czas"]
 },
@@ -4537,13 +4389,8 @@ id: [
                 "la mañana"
         ],
         //  slowo do nauki
-        key: "everybody",
+        key: "disfrutar",
         category1: [
-                "sport", "gaming",
-                "natura", "kulinaria",
-                "nauka", "medycyna",
-                "czarny humor", "pasja",
-                "związki", "wychowanie"
         ],
         category2: ["osoby", "osoby+czas"]
 },
@@ -4575,12 +4422,8 @@ id: [
                 "la mañana"
         ],
         //  slowo do nauki
-        key: "everybody",
+        key: "manana",
         category1: [
-                "sport", "gaming",
-                "natura", "kulinaria",
-                "nauka", "medycyna",
-                "czarny humor", "pasja",
                 "związki", "wychowanie"
         ],
         category2: ["osoby", "osoby+czas"]
@@ -4617,13 +4460,8 @@ id: [
                 "que"
         ],
         //  slowo do nauki
-        key: "everybody",
+        key: "rehusar",
         category1: [
-                "sport", "gaming",
-                "natura", "kulinaria",
-                "nauka", "medycyna",
-                "czarny humor", "pasja",
-                "związki", "wychowanie"
         ],
         category2: ["osoby", "osoby+czas"],
                 category3: ["Infinitive"]
@@ -4656,13 +4494,8 @@ id: [
                 "que"
         ],
         //  slowo do nauki
-        key: "everybody",
+        key: "ofertas",
         category1: [
-                "sport", "gaming",
-                "natura", "kulinaria",
-                "nauka", "medycyna",
-                "czarny humor", "pasja",
-                "związki", "wychowanie"
         ],
         category2: ["osoby", "osoby+czas"]
 },
@@ -4694,13 +4527,8 @@ id: [
                 "que"
         ],
         //  slowo do nauki
-        key: "everybody",
+        key: "que",
         category1: [
-                "sport", "gaming",
-                "natura", "kulinaria",
-                "nauka", "medycyna",
-                "czarny humor", "pasja",
-                "związki", "wychowanie"
         ],
         category2: ["osoby", "osoby+czas"]
 },
@@ -4731,13 +4559,8 @@ id: [
                 "te gusten"
         ],
         //  slowo do nauki
-        key: "everybody",
+        key: "no",
         category1: [
-                "sport", "gaming",
-                "natura", "kulinaria",
-                "nauka", "medycyna",
-                "czarny humor", "pasja",
-                "związki", "wychowanie"
         ],
         category2: ["osoby", "osoby+czas"]
 },
@@ -4768,13 +4591,8 @@ id: [
                 "te gusten"
         ],
         //  slowo do nauki
-        key: "everybody",
+        key: "te gusten",
         category1: [
-                "sport", "gaming",
-                "natura", "kulinaria",
-                "nauka", "medycyna",
-                "czarny humor", "pasja",
-                "związki", "wychowanie"
         ],
         category2: ["osoby", "osoby+czas"]
 },
@@ -4809,13 +4627,8 @@ id: [
                 "fuerte"
         ],
         //  slowo do nauki
-        key: "everybody",
+        key: "entrenar",
         category1: [
-                "sport", "gaming",
-                "natura", "kulinaria",
-                "nauka", "medycyna",
-                "czarny humor", "pasja",
-                "związki", "wychowanie"
         ],
         category2: ["osoby", "osoby+czas"],
                 category3: ["Infinitive"]
@@ -4847,13 +4660,8 @@ id: [
                 "fuerte"
         ],
         //  slowo do nauki
-        key: "everybody",
+        key: "fuerte",
         category1: [
-                "sport", "gaming",
-                "natura", "kulinaria",
-                "nauka", "medycyna",
-                "czarny humor", "pasja",
-                "związki", "wychowanie"
         ],
         category2: ["osoby", "osoby+czas"]
 },
@@ -4885,13 +4693,8 @@ id: [
                 "mejor"
         ],
         //  slowo do nauki
-        key: "everybody",
+        key: "para",
         category1: [
-                "sport", "gaming",
-                "natura", "kulinaria",
-                "nauka", "medycyna",
-                "czarny humor", "pasja",
-                "związki", "wychowanie"
         ],
         category2: ["osoby", "osoby+czas"]
 },
@@ -4923,13 +4726,8 @@ id: [
                 "mejor"
         ],
         //  slowo do nauki
-        key: "everybody",
+        key: "sentirte",
         category1: [
-                "sport", "gaming",
-                "natura", "kulinaria",
-                "nauka", "medycyna",
-                "czarny humor", "pasja",
-                "związki", "wychowanie"
         ],
         category2: ["osoby", "osoby+czas"]
 },
@@ -4961,13 +4759,8 @@ id: [
                 "mejor"
         ],
         //  slowo do nauki
-        key: "everybody",
+        key: "mejor",
         category1: [
-                "sport", "gaming",
-                "natura", "kulinaria",
-                "nauka", "medycyna",
-                "czarny humor", "pasja",
-                "związki", "wychowanie"
         ],
         category2: ["osoby", "osoby+czas"]
 },
@@ -5004,7 +4797,7 @@ id: [
                 "a los niños"
         ],
         //  slowo do nauki
-        key: "everybody",
+        key: "explicar",
         category1: [
                 "sport", "gaming"
         ],
@@ -5040,7 +4833,7 @@ id: [
                 "a los niños"
         ],
         //  slowo do nauki
-        key: "everybody",
+        key: "respuestas",
         category1: [
                 "sport", "gaming"
         ],
@@ -5076,7 +4869,7 @@ id: [
                 "a los niños"
         ],
         //  slowo do nauki
-        key: "everybody",
+        key: "claras",
         category1: [
                 "sport", "gaming"
         ],
@@ -5112,7 +4905,7 @@ id: [
                 "a los niños"
         ],
         //  slowo do nauki
-        key: "everybody",
+        key: "ninos",
         category1: [
                 "sport", "gaming"
         ],
@@ -5151,7 +4944,7 @@ id: [
                 "deliciosa"
         ],
         //  slowo do nauki
-        key: "everybody",
+        key: "probar",
         category1: [
                 "sport", "gaming"
         ],
@@ -5186,7 +4979,7 @@ id: [
                 "deliciosa"
         ],
         //  slowo do nauki
-        key: "everybody",
+        key: "comida",
         category1: [
                 "sport", "gaming"
         ],
@@ -5221,7 +5014,7 @@ id: [
                 "deliciosa"
         ],
         //  slowo do nauki
-        key: "everybody",
+        key: "deliciosa",
         category1: [
                 "sport", "gaming"
         ],
@@ -5256,7 +5049,7 @@ id: [
                 "lugares"
         ],
         //  slowo do nauki
-        key: "everybody",
+        key: "en",
         category1: [
                 "sport", "gaming"
         ],
@@ -5277,7 +5070,7 @@ id: [
         ],
         // historia
         story: [
-            "<u><b>Ewa</u></b> uważa, że kiedy jest <u><b>nu</u></b>ll do zrobienia wtedy jest relaks. Nauczyciel mówi, że to dla <u><b>was</u></b> dobrze, bo są <u><b>nowe</u></b> pomysły"
+            ""
         ],
         // opis
         desc: "nuevas[nuewas] - nowe",
@@ -5291,7 +5084,7 @@ id: [
                 "lugares"
         ],
         //  slowo do nauki
-        key: "everybody",
+        key: "nuevos",
         category1: [
                 "sport", "gaming"
         ],
@@ -5326,7 +5119,7 @@ id: [
                 "lugares"
         ],
         //  slowo do nauki
-        key: "everybody",
+        key: "lugares",
         category1: [
                 "sport", "gaming"
         ],
@@ -5351,7 +5144,7 @@ id: [
         ],
         // historia
         story: [
-            "Przewodnik <u><b>prowa</u></b>dzi wycieczkę i <u><b>wyjaśnia</u></b> wszystko turystom, prześlinił sobie lekko <u><b>war</u></b>gę"
+            "I am <u><b>laughing</u></b> at my friend <u><b>irr</u></b>ational <u><b>re</u></b>sponse"
         ],
         // opis
         desc: "reir[reir] - śmiać się",
@@ -5364,7 +5157,7 @@ id: [
                 "juntos"
         ],
         //  slowo do nauki
-        key: "everybody",
+        key: "reir",
         category1: [
                 "sport", "gaming"
         ],
@@ -5385,21 +5178,20 @@ id: [
         ],
         // historia
         story: [
-            "<u><b>Lu</u></b>bimy te miejsca, w których możemy za<u><b>gar</u></b>ażować swoje auto. Bo wtedy j<u><b>es</u></b>t bezpieczne"
+            ""
         ],
         // opis
         desc: "juntos[huntos] - razem",
         //zdanie
         sentence1: [
-                "lugares"
+                "juntos"
         ],
         sentence: [
-                "en",
-                "nuevos",
-                "lugares"
+                "Reir",
+                "juntos"
         ],
         //  slowo do nauki
-        key: "everybody",
+        key: "juntos",
         category1: [
                 "sport", "gaming"
         ],
@@ -5420,7 +5212,7 @@ id: [
         ],
         // historia
         story: [
-            "<u><b>Lu</u></b>bimy te miejsca, w których możemy za<u><b>gar</u></b>ażować swoje auto. Bo wtedy j<u><b>es</u></b>t bezpieczne"
+            ""
         ],
         // opis
         desc: "mientras[mientras] - podczas",
@@ -5435,7 +5227,7 @@ id: [
                 "cómicas"
         ],
         //  slowo do nauki
-        key: "everybody",
+        key: "mientras",
         category1: [
                 "sport", "gaming"
         ],
@@ -5456,7 +5248,7 @@ id: [
         ],
         // historia
         story: [
-            "<u><b>Lu</u></b>bimy te miejsca, w których możemy za<u><b>gar</u></b>ażować swoje auto. Bo wtedy j<u><b>es</u></b>t bezpieczne"
+            ""
         ],
         // opis
         desc: "miramos[miramos] - oglądać",
@@ -5471,7 +5263,7 @@ id: [
                 "cómicas"
         ],
         //  slowo do nauki
-        key: "everybody",
+        key: "miramos",
         category1: [
                 "sport", "gaming"
         ],
@@ -5507,7 +5299,7 @@ id: [
                 "cómicas"
         ],
         //  slowo do nauki
-        key: "everybody",
+        key: "peliculas",
         category1: [
                 "sport", "gaming"
         ],
@@ -5528,7 +5320,7 @@ id: [
         ],
         // historia
         story: [
-            "<u><b>Lu</u></b>bimy te miejsca, w których możemy za<u><b>gar</u></b>ażować swoje auto. Bo wtedy j<u><b>es</u></b>t bezpieczne"
+            ""
         ],
         // opis
         desc: "cómicas[comicas] - komediowe",
@@ -5543,7 +5335,7 @@ id: [
                 "cómicas"
         ],
         //  slowo do nauki
-        key: "everybody",
+        key: "comicas",
         category1: [
                 "sport", "gaming"
         ],
@@ -5581,7 +5373,7 @@ id: [
                 "mentiras"
         ],
         //  slowo do nauki
-        key: "everybody",
+        key: "negar",
         category1: [
                 "sport", "gaming"
         ],
@@ -5615,7 +5407,7 @@ id: [
                 "mentiras"
         ],
         //  slowo do nauki
-        key: "everybody",
+        key: "mentiras",
         category1: [
                 "sport", "gaming"
         ],
@@ -5650,7 +5442,7 @@ id: [
                 "verdad"
         ],
         //  slowo do nauki
-        key: "everybody",
+        key: "y",
         category1: [
                 "sport", "gaming"
         ],
@@ -5686,7 +5478,7 @@ id: [
                 "verdad"
         ],
         //  slowo do nauki
-        key: "everybody",
+        key: "decir",
         category1: [
                 "sport", "gaming"
         ],
@@ -5721,7 +5513,7 @@ id: [
                 "verdad"
         ],
         //  slowo do nauki
-        key: "everybody",
+        key: "simepre",
         category1: [
                 "sport", "gaming"
         ],
@@ -5757,7 +5549,7 @@ id: [
                 "verdad"
         ],
         //  slowo do nauki
-        key: "everybody",
+        key: "verdad",
         category1: [
                 "sport", "gaming"
         ],

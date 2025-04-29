@@ -146,3 +146,24 @@ if (fiszka.category !== 'all') {
         console.log(`Nie znaleziono fiszek z kategorią "${category}".`);
     }
 }
+
+                                                                                    if (indexDiv < 18 && indexDiv >= 17) {
+                                // Jeśli indexDiv < 5, dodajemy hover z dynamicznym napisem
+                                $container.hover(function () {
+                                    $('.overlay', this).css('transform', 'translateX(0)');
+
+                                    // Twórz nowy dynamiczny div z napisem
+                                    const $dynamicDiv2 = $('<div>').addClass('dynamic-div3').text('Nowa lekcja - w przygotowaniu');
+                                    // Dodaj dynamiczny div do kontenera
+                                    $dynamicDiv2.appendTo($(this)).fadeIn(300);
+                                }, function () {
+                                    $('.overlay', this).css('transform', 'translateX(100%)');
+
+                                    // Usuń dynamiczny div po zakończeniu hovera
+                                    $('.dynamic-div3', this).fadeOut(300, function () {
+                                        $(this).remove();
+                                    });
+                                });
+                            }
+                            
+                            console.log("hej1001", $sentenceBlock);

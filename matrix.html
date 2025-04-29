@@ -12,7 +12,6 @@
 </script>
 
         <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
-        <link rel="stylesheet" type="text/css" href="css/alert.css">
         <link rel="stylesheet" type="text/css" href="css/lista.css">
                 <link rel="stylesheet" type="text/css" href="js/fiszki.css">
         <link rel="stylesheet" type="text/css" href="css/styl7.css">
@@ -30,10 +29,51 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <style>
             @media (min-width: 999px) {
-                .category-btn.active-category {
-  border: 2px solid orange;
-  border-radius: 6px;
-}
+        h1 {
+            font-size: 50px;
+            text-align: left;
+            margin-left: 30px;
+	font: bold 1.5em verdana;
+        }
+        h2 {
+            font-size: 30px;
+            text-align: left;
+            margin-left: 30px;
+	font: bold 1.5em verdana;
+        }
+
+  .category-btn {
+    background-color: #800080; /* Filetowy kolor dla wszystkich przycisków */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+  }
+
+  .category-btn[data-category="sport"] {
+    background-color: #28a745; /* Zielony kolor dla sportu */
+  }
+
+  .category-btn[data-category="natura"] {
+    background-color: #007bff; /* Niebieski kolor dla natury */
+  }
+  .category-btn[data-category="nauka"] {
+    background-color: #dc3545; /* Czerwony kolor dla nauki */
+  }
+  .category-btn[data-category="czarnyhumor"] {
+    background-color: #ffc107; /* Żółty kolor dla czarnego humoru */
+  }
+
+  .category-btn[data-category="zwiazki"] {
+    background-color: #fd7e14; /* Pomarańczowy kolor dla związków */
+  }
+    .active-category {
+    border: 6px solid black; /* Czarna ramka dla aktywnej kategorii */
+    box-sizing: border-box; /* Ważne, aby uwzględnić ramkę w układzie */
+  }
                 .highlighted-range {
   background-color: green;
 }
@@ -167,7 +207,7 @@ input {
     position: relative; /* Pozostaje w normalnym przepływie */
     height: 25px;
     width: 25px;
-    background-color: blue;
+    background-color: #800080;
     border-radius: 8px;
 }
 span.highlight {
@@ -1729,6 +1769,8 @@ input {
 <a href="demo50angielskib.html?category=all" class="hidden-link lesson-link-50b" target="_blank" rel="noopener noreferrer">Przejdź do lekcji 50</a>
 <a href="demo51angielskib.html?category=all" class="hidden-link lesson-link-51b" target="_blank" rel="noopener noreferrer">Przejdź do lekcji 51</a>
 <a href="demo52angielskib.html?category=all" class="hidden-link lesson-link-52b" target="_blank" rel="noopener noreferrer">Przejdź do lekcji 52</a>
+    <h1>arbulang.com</h1>
+    <h2>ARBU ŚWIAT</h2>
         <div class="horizontal-bar" id="horizontalBar1">
             <button id="myButton">ANGIELSKI</button>
             <button id="myButton2">HISZPAŃSKI</button>
@@ -1811,28 +1853,42 @@ input {
             <span id="arrow">&#9660;</span> <!-- Strzałka skierowana w dół -->
         </div>
         <script>
+        function countUniqueFiszki(fiszkiArray) {
+            const seenKeys = new Set();
+            fiszkiArray.forEach(fiszka => {
+                if (fiszka.key) {
+                    seenKeys.add(fiszka.key);
+                }
+            });
+            return seenKeys.size;
+        }
+
+        const uniqueCount = countUniqueFiszki(fiszki10);
+        console.log("Liczba unikalnych fiszek:", uniqueCount);
             const tablica20 = [];
             let buttonindex = false;
-let selectedCategory = ''; // Domyślnie pusta
-const tablica45xx = []; // Tablica kategorii
+              // Zaznacz przycisk "Losowo" na początku
 
+let selectedCategory = 'all'; // Domyślnie losowo
+const tablica45xx = []; // Tablica kategorii
+let indexDivRange = 19;
 $('#category-buttons .category-btn').on('click', function () {
     $('#category-buttons .category-btn').removeClass('active-category');
     $(this).addClass('active-category');
-
+indexDivRange = '1'; // Zakres od 1 do 3
     const selectedCategoryText = $(this).text(); // np. "Sport"
     console.log("Wybrano kategorię:", selectedCategoryText);
     tablica7[0] = $(this).data('category'); // <-- poprawione
     console.log('Wybrana kategoria:', tablica7[0]);
-    przekazArgument0(tablica7[0], 'all', '', '', '', '', '', tablica3[1], 'other', false, '', '');
-    // 🔄 Zaktualizuj tekst wszystkich przycisków .run-button3
+    przekazArgument0(tablica7[0], 'all', '', '', '', '', '', tablica3[1], 'other', false, '', '', '', '', indexDivRange);
+
     $('.run-button3').each(function () {
         $(this).text('Otwórz lekcję w nowym oknie - ' + selectedCategoryText);
     });
-
-    // ewentualnie: loadCategory(...)
 });
-
+  $(document).ready(function() {
+    $('#category-buttons .category-btn[data-category="all"]').addClass('active-category');
+  });
 const searchInput = document.querySelector("[data-search]");
 console.log("Element input:", searchInput); // Sprawdzenie, czy input istnieje
 
@@ -1853,7 +1909,7 @@ polskiButton.addEventListener("click", function () {
     matchingLessons5 = findLessonsForWords(fiszki, searchKey);
     matchingLessons5b = findLessonsForWordsB(fiszki, searchKey);
 
-    przekazArgument0(tablica3[2], '', false, 'fiszki', false, false, tablica3[1], tablica3[4], true, matchingLessons5, matchingLessons5b, false);
+    przekazArgument0(tablica7[0], tablica3[2], '', false, 'fiszki', false, false, tablica3[1], tablica3[4], true, matchingLessons5, matchingLessons5b, false);
 });
 
 angielskiButton.addEventListener("click", function () {
@@ -1865,7 +1921,7 @@ angielskiButton.addEventListener("click", function () {
     matchingLessons5 = findLessonsForWords(fiszki, searchKey);
     matchingLessons5b = findLessonsForWordsB(fiszki, searchKey);
 
-    przekazArgument0(tablica3[2], '', false, 'fiszki', false, false, tablica3[1], tablica3[4], true, matchingLessons5, matchingLessons5b, false);
+    przekazArgument0(tablica7[0], tablica3[2], '', false, 'fiszki', false, false, tablica3[1], tablica3[4], true, matchingLessons5, matchingLessons5b, false);
 });
 
 function updateSearch() {
@@ -1984,17 +2040,17 @@ searchInput?.addEventListener("input", (e) => {
     }
     document.getElementById("singleSentenceBtn")?.addEventListener("click", () => {
         tablica3[0] = 'zdania';
-        przekazArgument0(tablica3[2], '', false, 'zdania', false, false, tablica3[1], tablica3[4], true, matchingLessons5, matchingLessons5b, false);
+        przekazArgument0(tablica7[0], tablica3[2], '', false, 'zdania', false, false, tablica3[1], tablica3[4], true, matchingLessons5, matchingLessons5b, false);
     });
 
     document.getElementById("threeSentencesBtn")?.addEventListener("click", () => {
         tablica3[0] = 'fiszki';
-        przekazArgument0(tablica3[2], '', false, 'fiszki', false, false, tablica3[1], tablica3[4], true, matchingLessons5, matchingLessons5b, false);
+        przekazArgument0(tablica7[0], tablica3[2], '', false, 'fiszki', false, false, tablica3[1], tablica3[4], true, matchingLessons5, matchingLessons5b, false);
     });
 polskiButton.addEventListener("click", function () {
 przekazArgument0(tablica3[2], '', false, 'fiszki', false, false, tablica3[1], tablica3[4], true, matchingLessons5, matchingLessons5b, false);
 });
-    przekazArgument0(tablica3[2], '', false, tablica3[0], false, false, tablica3[1], tablica3[4], true, matchingLessons5, matchingLessons5b, isSearching2, staraTablica40);
+    przekazArgument0(tablica7[0], tablica3[2], '', false, tablica3[0], false, false, tablica3[1], tablica3[4], true, matchingLessons5, matchingLessons5b, isSearching2, staraTablica40);
 });
 function displayKey3ForKey(word, container) {
     // Szukamy fiszki, której właściwość 'key' lub 'key2' odpowiada podanemu słowu.
@@ -2238,7 +2294,7 @@ function removeFiszka(idFiszkiGroup) {
         showFiszkiForLesson5ddb(tablica40, tablica41, fiszki);
     }, 0);
         tablica3[0] = 'zdania';
-        przekazArgument0(tablica3[2], '', false, 'zdania', true, true, tablica3[1], tablica3[4], false, '', '');
+        przekazArgument0(tablica7[0], tablica3[2], '', false, 'zdania', true, true, tablica3[1], tablica3[4], false, '', '');
     });
         // Dodanie zdarzenia kliknięcia do przycisku
 document.getElementById("threeSentencesBtn").addEventListener("click", () => {
@@ -2301,7 +2357,7 @@ function removeFiszka(idFiszkiGroup) {
     }, 0);
 
         tablica3[0] = 'fiszki';
-    przekazArgument0(tablica3[2], '', false, 'fiszki', true, true, tablica3[1], tablica3[4], false, '', '');
+    przekazArgument0(tablica7[0], tablica3[2], '', false, 'fiszki', true, true, tablica3[1], tablica3[4], false, '', '');
     });
     
 
@@ -2617,10 +2673,11 @@ $gridContainer2.css('margin-top', flashcardContainerHeight + 100 + 'px');
             tablica3[1] = null; // Domyślny tryb
             tablica3[2] = 'all'; // Domyślny tryb
             tablica3[4] = null;
-            function przekazArgument0(selectedCategory, category, index55, buttonindex, czas, idpolski, idtranslate, id, rodzaj, isSearching, matchingLessons5, matchingLessons5b, isSearching2, staraTablica40) {
+            function przekazArgument0(selectedCategory, category, index55, buttonindex, czas, idpolski, idtranslate, id, rodzaj, isSearching, matchingLessons5, matchingLessons5b, isSearching2, staraTablica40, indexDivRange) {
                 $('.grid-container .image-container3').remove();
                 $('.grid-container .image-container4').remove();
                                 console.log(":vv ", selectedCategory);
+                                console.log('xxx:', indexDivRange); // Dodano log licznika losowań
                 tablica3[1] = id;
                 tablica3[2] = category;
                 tablica3[4] = rodzaj;
@@ -2638,7 +2695,7 @@ $gridContainer2.css('margin-top', flashcardContainerHeight + 100 + 'px');
                 globalIdTranslate = idtranslate;
                                 console.log('nowy30', rodzaj);
                 // Wywołaj funkcję wybierzCharakter na podstawie trybu
-                wybierzCharakter(selectedCategory, category, tablica3[0], index55, buttonindex, tablica3[1], tablica3[3], rodzaj, isSearching, matchingLessons5, matchingLessons5b, isSearching2, staraTablica40);
+                wybierzCharakter(selectedCategory, category, tablica3[0], index55, buttonindex, tablica3[1], tablica3[3], rodzaj, isSearching, matchingLessons5, matchingLessons5b, isSearching2, staraTablica40, indexDivRange);
 
             }
 
@@ -2649,7 +2706,7 @@ $gridContainer2.css('margin-top', flashcardContainerHeight + 100 + 'px');
             }
             console.log('hej33bb', tablica3);
             // Funkcja wybierająca charakter
-            function wybierzCharakter(selectedCategory, category, czas, index55, buttonindex, idpolski, frazyid, rodzaj, isSearching, matchingLessons5, matchingLessons5b, isSearching2, staraTablica40) {
+            function wybierzCharakter(selectedCategory, category, czas, index55, buttonindex, idpolski, frazyid, rodzaj, isSearching, matchingLessons5, matchingLessons5b, isSearching2, staraTablica40, indexDivRange) {
                 console.log('hej223', czas, category, frazyid);
 
                 pulpitstartowy = false;
@@ -2659,7 +2716,7 @@ $gridContainer2.css('margin-top', flashcardContainerHeight + 100 + 'px');
                 matchingIndexes2 = findXForMatchingFiszka2(globalCategory, fiszki);
                 matchingIndexes3 = findXForMatchingFiszka3(globalCategory, fiszki);
 
-                wybierzRodzaj(selectedCategory, globalCategory, czas, matchingIndexes, index55, buttonindex, idpolski, frazyid, matchingIndexes2, rodzaj, matchingIndexes3, isSearching, matchingLessons5, matchingLessons5b, isSearching2, staraTablica40);
+                wybierzRodzaj(selectedCategory, globalCategory, czas, matchingIndexes, index55, buttonindex, idpolski, frazyid, matchingIndexes2, rodzaj, matchingIndexes3, isSearching, matchingLessons5, matchingLessons5b, isSearching2, staraTablica40, indexDivRange);
                 // Wyświetl na konsoli zaktualizowane matchingIndexes
                 console.log("Zaktualizowane matchingIndexes:", matchingIndexes);
                 console.log("wykonuje sie hej", matchingIndexes2);
@@ -2917,7 +2974,7 @@ $gridContainer2.css('margin-top', flashcardContainerHeight + 100 + 'px');
             let losowaniaCounter2 = 0; // Zmienna licznika losowań
             let tablica33 = [];
             let tablica33b = [];
-            function wybierzRodzaj(selectedCategory, category, czas, matchingIndexes, index55, buttonindex, idpolski, frazyid, matchingIndexes2, rodzaj, matchingIndexes3, isSearching, matchingLessons5, matchingLessons5b, isSearching2, staraTablica40) {
+            function wybierzRodzaj(selectedCategory, category, czas, matchingIndexes, index55, buttonindex, idpolski, frazyid, matchingIndexes2, rodzaj, matchingIndexes3, isSearching, matchingLessons5, matchingLessons5b, isSearching2, staraTablica40, indexDivRange) {
                 category = category || globalCategory;
                 czasv2 = czas;
                 console.log("Wybrany rodzaj słownictwa:vv ", selectedCategory);
@@ -3212,8 +3269,9 @@ if (myVariable.length > 0) {
                                 console.log('wykonuje się 8');
                                 console.log('hej32', newIndex);
                                 console.log('hej18vv', matchingLessons5b);
-                                showCombinedSentenceForLesson(matchingIndexes3, rodzaj, matchingIndexes2, buttonindex, index50, lessonId1, lessonId2, lessonId3, fiszki, matchingIndexes, startIndex, newIndex, indexDiv, lessonsArray, lesson1PartLength, lesson2PartLength, lesson3PartLength, lesson1Sentences, lesson2Sentences, lesson3Sentences, lesson1FirstPartLength, lesson2FirstPartLength, lesson3FirstPartLength, lesson1SecondPartLength, lesson2SecondPartLength, lesson3SecondPartLength, cumulativeFirstPartLength1, cumulativeFirstPartLength2, cumulativeFirstPartLength3, lessonsArrayZ, matchingLessons5, matchingLessons5b, isSearching);
-                            }
+                                showCombinedSentenceForLesson(selectedCategory, matchingIndexes3, rodzaj, matchingIndexes2, buttonindex, index50, lessonId1, lessonId2, lessonId3, fiszki, matchingIndexes, startIndex, newIndex, indexDiv, lessonsArray, lesson1PartLength, lesson2PartLength, lesson3PartLength, lesson1Sentences, lesson2Sentences, lesson3Sentences, lesson1FirstPartLength, lesson2FirstPartLength, lesson3FirstPartLength, lesson1SecondPartLength, lesson2SecondPartLength, lesson3SecondPartLength, cumulativeFirstPartLength1, cumulativeFirstPartLength2, cumulativeFirstPartLength3, lessonsArrayZ, matchingLessons5, matchingLessons5b, isSearching);
+            console.log('hej18vvv', selectedCategory);                
+            }
 
                         }
 
@@ -3342,7 +3400,7 @@ if (myVariable.length > 0) {
                             if ((tablica15.length <= 51 || tablica15.length === 0)) {
                                 console.log('wykonuje się 8');
 
-                                showCombinedSentenceForLesson2(polski, index50, matchingIndexes, lessonId1, newIndex, indexDiv, lesson1PartLength);
+                                showCombinedSentenceForLesson2(selectedCategory, polski, index50, matchingIndexes, lessonId1, newIndex, indexDiv, lesson1PartLength);
                                 console.log('hej321', polski);
                             }
                         }
@@ -3632,8 +3690,8 @@ if (myVariable.length > 0) {
                                     break; // Przerwanie pętli, jeśli użytkownik nie chce kontynuować
                                 }
                             }
-
-                            if (tablica10.length <= 18 || tablica10.length === 0) {
+console.log('xxx:', indexDivRange); // Dodano log licznika losowań
+                            if (tablica10.length <= indexDivRange || tablica10.length === 0) {
                                 console.log('wykonuje się 8');
                                 console.log('hej32', newIndex);
                                 console.log('hej18', tablica10);
@@ -3778,10 +3836,10 @@ if (myVariable.length > 0) {
                                     break; // Przerwanie pętli, jeśli użytkownik nie chce kontynuować
                                 }
                             }
-                            if ((tablica15.length <= 52 || tablica15.length === 0)) {
+                            if ((tablica15.length <= 57 || tablica15.length === 0)) {
                                 console.log('wykonuje się 8');
 
-                                showCombinedSentenceForLesson2(polski, index50, matchingIndexes, lessonId1, newIndex, indexDiv, lesson1PartLength);
+                                showCombinedSentenceForLesson2(selectedCategory, polski, index50, matchingIndexes, lessonId1, newIndex, indexDiv, lesson1PartLength);
                                 console.log('hej321', polski);
                             }
                         }
@@ -4407,7 +4465,7 @@ ${sentence10}<br>
                         buttonindex = true;
                         setTimeout(() => {
                             console.log('Kliknięto przycisk o indeksie:', index55);
-                            przekazArgument0(tablica3[2], index55, true, tablica3[0], true, true, tablica3[1], tablica3[4], false, '', '', '', '');
+                            przekazArgument0(tablica7[0], tablica3[2], index55, true, tablica3[0], true, true, tablica3[1], tablica3[4], false, '', '', '', '');
                             console.log('hej26', czas);
                         }, 100);
                         // Usunięcie kontenera po wstawieniu nowego
@@ -4571,7 +4629,7 @@ if (window.matchMedia("(min-width: 999px)").matches) {
                 }
             });
             ustawTryb('fiszki');
-            przekazArgument0(tablica7[0], tablica3[2], '', false, 'fiszki', true, true, tablica3[1], tablica3[4], false, '', '');
+            przekazArgument0(tablica7[0], tablica3[2], '', false, 'fiszki', true, true, tablica3[1], tablica3[4], false, '', '', '', '', indexDivRange);
 
 
         </script>

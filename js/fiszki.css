@@ -12,6 +12,7 @@
     margin-right: 200px; /* Ustaw margines prawy */
     box-sizing: border-box; /* Wlicz marginesy w szerokoĹÄ i wysokoĹÄ */
     z-index: 10000000;
+    margin-top: 20px;
 }
 .fiszka5 {
                         display: flex;

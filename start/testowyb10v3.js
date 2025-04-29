@@ -177,9 +177,9 @@ fiszki10.push(
             62
         ],
         img: [
-            "https://www.arbulang.com/img/fiszki1/49a.jpg",
-            "https://www.arbulang.com/img/fiszki1/49b.jpg",
-            "https://www.arbulang.com/img/fiszki1/49c.jpg"
+            "https://www.arbulang.com/img/fiszki1/50aa.jpg",
+            "https://www.arbulang.com/img/fiszki1/50bb.jpg",
+            "https://www.arbulang.com/img/fiszki1/50cc.jpg"
         ],
         story: [
             "W <b><u>maj</b></u>u kwitną <b><u>moje</b></u> ulubione kwiaty",
@@ -380,9 +380,10 @@ fiszki10.push(
             65
         ],
         img: [
-            "https://www.arbulang.com/img/fiszki1/43a.jpg",
-            "https://www.arbulang.com/img/fiszki1/80b.jpg",
+            "https://www.arbulang.com/img/fiszki1/44b.jpg",
+            "https://www.arbulang.com/img/fiszki1/44a.jpg",
             "https://www.arbulang.com/img/fiszki1/83c.jpg",
+            "https://www.arbulang.com/img/fiszki1/83b.jpg",
             "https://www.arbulang.com/img/fiszki1/108d.jpg"
         ],
         translate: "Ten kwiat jest żółty, ale wszystkie pozostałe są niebieskie",
@@ -390,9 +391,10 @@ fiszki10.push(
         srcWord: ["https://www.arbulang.com/filmy/kwiaty.mp4", "Klan", "Serial"],
         srcWordimage: "https://www.arbulang.com/filmy/kwiaty.png",
         story: [
+            "Ma<b><u>dis</b></u>on jest świetnym sportowcem a to jej trener",
             "Quo va<b><u>dis</b></u> <b><u>to</b></u> cytat bardzo znany",
-            "To słówko distant - czytamy <b><u>dis</b></u>tant",
             "E<b><u>dis</b></u>on to geniusz",
+            "To słówko distant - czytamy <b><u>dis</b></u>tant",
             "<b><u>Di</b></u>va operowa jest <b><u>s</b></u>ławna"
         ],
         desc: "this[dis] - to",
@@ -449,7 +451,9 @@ fiszki10.push(
             "https://www.arbulang.com/img/fiszki1/8b.jpg",
             "https://www.arbulang.com/img/fiszki1/8c.jpg",
             "https://www.arbulang.com/img/fiszki1/8d.jpg",
-            "https://www.arbulang.com/img/fiszki1/8e.jpg"
+            "https://www.arbulang.com/img/fiszki1/8e.jpg",
+            "https://www.arbulang.com/img/fiszki1/8f.jpg",
+            "https://www.arbulang.com/img/fiszki1/8g.jpg"
         ],
         story: [
             'Gdy ktoś szybko biega obok nas to <u><b>jest</u></b> w popłochu, słyszymy tylko św<span class="adannotation" data-annotation="1"><u><b>is</u></b></span>t',
@@ -511,9 +515,21 @@ fiszki10.push(
             33,
             66
         ],
-        img: "https://www.arbulang.com/img/fiszki1/217a.jpg",
-        story: "<u><b>Bat</u></b>uta to taki artefakt dyrygenta orkiestry, <u><b>ale</u></b> dyrygent musi mieć słuch muzyczny",
-        desc: "but[bat] - żółty",
+        img: [
+            "https://www.arbulang.com/img/fiszki1/22a.jpg",
+            "https://www.arbulang.com/img/fiszki1/22b.jpg",
+            "https://www.arbulang.com/img/fiszki1/22c.jpg",
+            "https://www.arbulang.com/img/fiszki1/22d.jpg",
+            "https://www.arbulang.com/img/fiszki1/22e.jpg"
+        ],
+        story: [
+            "Po spotkaniu z kolegą, na którego mówią <u><b>Bat</u></b>man mam naładowane baterie towarzyskie, <u><b>ale</u></b> chcę więcej rozmów",
+            "Nurek jest zaopatrzony w <u><b>bat</u></b>yskał, <u><b>ale</u></b> jest niebezpieczeństwo kiedy będzie odkrywał nowe gatunki ryb na dnie morza",
+            "<u><b>Bat</u></b>eria ma dużą pojemność, <u><b>ale</u></b> urządzenie ma też duży pobór prądu",
+            "Ziemniak <u><b>bat</u></b>at jest całkiem fajny w smaku, <u><b>ale</u></b> ciężko go kupić",
+            ""
+        ],
+        desc: "but[bat] - ale",
         sentence2: [
             "but"
         ],
@@ -581,7 +597,7 @@ fiszki10.push(
             66
         ],
         img: [
-            "https://www.arbulang.com/img/fiszki1/51a.jpg",
+            "https://www.arbulang.com/img/fiszki1/52aa.jpg",
             "https://www.arbulang.com/img/fiszki1/220a.jpg"
         ],
         story: [
@@ -632,7 +648,7 @@ fiszki10.push(
             34,
             67
         ],
-        img: "https://www.arbulang.com/img/fiszki1/96a.jpg",
+        img: "https://www.arbulang.com/img/fiszki1/95aa.jpg",
         translate: "Ona teraz czyta nową książkę",
         translateb: "[Szi is riding e nju buk nał]",
         translateb2: "[Ewrybody hes fan]",
@@ -664,7 +680,9 @@ fiszki10.push(
             "https://www.arbulang.com/img/fiszki1/8b.jpg",
             "https://www.arbulang.com/img/fiszki1/8c.jpg",
             "https://www.arbulang.com/img/fiszki1/8d.jpg",
-            "https://www.arbulang.com/img/fiszki1/8e.jpg"
+            "https://www.arbulang.com/img/fiszki1/8e.jpg",
+            "https://www.arbulang.com/img/fiszki1/8f.jpg",
+            "https://www.arbulang.com/img/fiszki1/8g.jpg"
         ],
         word: [
             "https://www.arbulang.com/src/is.wav"
@@ -720,7 +738,7 @@ fiszki10.push(
         ],
         img: "",
         story: "",
-        desc: "a[e] - niebieski/niebieskie",
+        desc: "a[e] - ten/tego",
         sentence2: [
             "a"
         ],
@@ -835,7 +853,7 @@ fiszki10.push(
             69
         ],
         img: [
-            "https://www.arbulang.com/img/fiszki1/51a.jpg",
+            "https://www.arbulang.com/img/fiszki1/52aa.jpg",
             "https://www.arbulang.com/img/fiszki1/220a.jpg",
         ],
         story: [

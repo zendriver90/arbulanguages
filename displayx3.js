@@ -12,7 +12,7 @@ function showCombinedSentenceForLesson(selectedCategory, matchingIndexes3, rodza
                 const matchingFiszki1 = fiszki.filter(fiszka => fiszka.id[1] === lessonIdToShow1);
                 const matchingFiszki2 = fiszki.filter(fiszka => fiszka.id[1] === lessonIdToShow2);
                 const matchingFiszki3 = fiszki.filter(fiszka => fiszka.id[1] === lessonIdToShow3);
-                console.log('hej450b', matchingFiszki1);
+                console.log('hej450b', tablica60);
                 console.log('hej444', newIndex);
     const id1 = matchingFiszki1[0]?.id[1] || 'unknown1';
     const id2 = matchingFiszki2[0]?.id[1] || 'unknown2';
@@ -735,44 +735,56 @@ function showCombinedSentenceForLesson(selectedCategory, matchingIndexes3, rodza
     <div class="sentence1bb1c">${sentence1bb1c}</div>
 </div>
 `);
-                                // 🔽 WSTAW TUTAJ TWÓJ KOD:
-const startRange = 53;
-const endRange = 57;
 
-document.querySelectorAll('.sentence-block').forEach(block => {
-  const dataName = parseInt(block.getAttribute('data-name'), 10);
+// Kolory przypisane do kategorii
+const colorMapping = {
+    'sport': '#28a745',        // Zielony
+    'natura': '#007bff',       // Niebieski
+    'nauka': '#dc3545',        // Czerwony
+    'czarnyhumor': '#ffc107',  // Żółty
+    'zwiazki': '#fd7e14',      // Pomarańczowy
+    'all': '#800080'           // Fioletowy
+};
 
-  if (dataName >= startRange && dataName <= endRange) {
-    for (let node of block.childNodes) {
-      if (node.nodeType === Node.TEXT_NODE && node.textContent.trim() !== '') {
-        const text = node.textContent;
-        const span = document.createElement('span');
-        span.innerHTML = `<span style="background-color: green">${text}</span>`;
-        block.replaceChild(span, node);
-        break;
-      }
-    }
-  }
-});
-console.log('hej46', tablica45xx);
+// Zakres pokolorowanych przycisków
 const startRange2 = 1;
 const endRange2 = 6;
+
+document.addEventListener('DOMContentLoaded', () => {
+    // Kliknięcie w kategorię
+    document.querySelectorAll('.category-btn').forEach(button => {
+        button.addEventListener('click', (event) => {
+            event.preventDefault(); // zapobiega przeładowaniu
+            selectedCategory = button.getAttribute('data-category');
+            updateButtonColors();
+        });
+    });
+});
 let previousTrojkiJSON = '';
+const tablica60 = [];
 function updateButtonColors() {
     tablica60.length = 0;
-    document.querySelectorAll('.sentence-block').forEach(block => {
-        const dataName = parseInt(block.getAttribute('data-name'), 10);
-        tablica60.push(dataName);
+
+        const color = colorMapping[selectedCategory] || '#800080';
+
+        document.querySelectorAll('.sentence-block, .sentence-blockB').forEach(block => {
+            const dataName = parseInt(block.getAttribute('data-name'), 10);
+            tablica60.push(dataName);
         if (dataName >= startRange2 && dataName <= endRange2) {
             const button = block.querySelector('button.left-button, button.left-buttonb, button.left-buttonbb');
             if (button) {
-                button.style.backgroundColor = 'blue';
-                button.style.color = 'white';
+                if (dataName >= startRange2 && dataName <= endRange2) {
+                    button.style.backgroundColor = color;
+                    button.style.color = 'white';
+                } else {
+                    button.style.backgroundColor = '';
+                    button.style.color = '';
+                }
             }
         }
-    });
-
-    // Podział na trójki
+        });
+    
+    // PodziaĹ na trĂłjki
     const trojki = [];
     for (let i = 0; i < tablica60.length; i += 3) {
         trojki.push(tablica60.slice(i, i + 3));
@@ -782,31 +794,82 @@ function updateButtonColors() {
     if (currentTrojkiJSON !== previousTrojkiJSON) {
         previousTrojkiJSON = currentTrojkiJSON;
 
-        console.log('Nowe trójki:', trojki);
+        console.log('Nowe trĂłjki:', trojki);
 
-        // Usuń stare linki
+        // UsuĹ stare linki
         $('.hidden-link').remove();
-        console.log('Usunięto stare linki');
+        console.log('UsuniÄto stare linki');
 
-        // Wygeneruj nowe linki (dla pierwszych dwóch trójek, jeśli istnieją)
+        // Wygeneruj nowe linki (dla pierwszych dwĂłch trĂłjek, jeĹli istniejÄ)
         const firstTrojka = trojki[0] || [];
         const secondTrojka = trojki[1] || [];
-
+        const thirdTrojka = trojki[2] || [];
+        const cztery = trojki[3] || [];
+        const piec = trojki[4] || [];
+        const szesc = trojki[5] || [];
+        const siedem = trojki[6] || [];
+        const osiem = trojki[7] || [];
+        const dziewiec = trojki[8] || [];
+        const dziesiec = trojki[9] || [];
+        const jedenascie = trojki[10] || [];
+        const dwanascie = trojki[11] || [];
+        const trzynascie = trojki[12] || [];
+        const czternascie = trojki[13] || [];
+        const pietnascie = trojki[14] || [];
+        const szstnascie = trojki[15] || [];
+        const siedemnascie = trojki[16] || [];
+        const osiemnascie = trojki[17] || [];
+                const dziewietnascie = trojki[18] || [];
         const link1 = `demo1angielski.html?category=${selectedCategory}&data=${firstTrojka.join(',')}`;
-        const link2 = `demo2angielski.html?category=${selectedCategory}&data=${secondTrojka.join(',')}`;
+        const link2 = `demo1angielski.html?category=${selectedCategory}&data=${secondTrojka.join(',')}`;
+        const link3 = `demo1angielski.html?category=${selectedCategory}&data=${thirdTrojka.join(',')}`;
+        const link4 = `demo1angielski.html?category=${selectedCategory}&data=${cztery.join(',')}`;
+        const link5 = `demo1angielski.html?category=${selectedCategory}&data=${piec.join(',')}`;
+        const link6 = `demo1angielski.html?category=${selectedCategory}&data=${szesc.join(',')}`;
+        const link7 = `demo1angielski.html?category=${selectedCategory}&data=${siedem.join(',')}`;
+        const link8 = `demo1angielski.html?category=${selectedCategory}&data=${osiem.join(',')}`;
+        const link9 = `demo1angielski.html?category=${selectedCategory}&data=${dziewiec.join(',')}`;
+        const link10 = `demo1angielski.html?category=${selectedCategory}&data=${dziesiec.join(',')}`;
+        const link11 = `demo1angielski.html?category=${selectedCategory}&data=${jedenascie.join(',')}`;
+        const link12 = `demo1angielski.html?category=${selectedCategory}&data=${dwanascie.join(',')}`;
+        const link13 = `demo1angielski.html?category=${selectedCategory}&data=${trzynascie.join(',')}`;
+        const link14 = `demo1angielski.html?category=${selectedCategory}&data=${czternascie.join(',')}`;
+        const link15 = `demo1angielski.html?category=${selectedCategory}&data=${pietnascie.join(',')}`;
+        const link16 = `demo1angielski.html?category=${selectedCategory}&data=${szstnascie.join(',')}`;
+        const link17 = `demo1angielski.html?category=${selectedCategory}&data=${siedemnascie.join(',')}`;
+        const link18 = `demo1angielski.html?category=${selectedCategory}&data=${osiemnascie.join(',')}`;
+        const link19 = `demo1angielski.html?category=${selectedCategory}&data=${dziewietnascie.join(',')}`;
 
         const linksHTML = `
-            <a href="${link1}" class="hidden-link lesson-link-1" target="_blank" rel="noopener noreferrer">Przejdź do lekcji 1</a>
-            <a href="${link2}" class="hidden-link lesson-link-2" target="_blank" rel="noopener noreferrer">Przejdź do lekcji 2</a>
+            <a href="${link1}" class="hidden-link lesson-link-1" target="_blank" rel="noopener noreferrer">PrzejdĹş do lekcji 1</a>
+            <a href="${link2}" class="hidden-link lesson-link-2" target="_blank" rel="noopener noreferrer">PrzejdĹş do lekcji 2</a>
+        <a href="${link3}" class="hidden-link lesson-link-3" target="_blank" rel="noopener noreferrer">PrzejdĹş do lekcji 3</a>
+                    <a href="${link4}" class="hidden-link lesson-link-4" target="_blank" rel="noopener noreferrer">PrzejdĹş do lekcji 1</a>
+            <a href="${link5}" class="hidden-link lesson-link-5" target="_blank" rel="noopener noreferrer">PrzejdĹş do lekcji 2</a>
+        <a href="${link6}" class="hidden-link lesson-link-6" target="_blank" rel="noopener noreferrer">PrzejdĹş do lekcji 3</a>
+                    <a href="${link7}" class="hidden-link lesson-link-7" target="_blank" rel="noopener noreferrer">PrzejdĹş do lekcji 1</a>
+            <a href="${link8}" class="hidden-link lesson-link-8" target="_blank" rel="noopener noreferrer">PrzejdĹş do lekcji 2</a>
+        <a href="${link9}" class="hidden-link lesson-link-9" target="_blank" rel="noopener noreferrer">PrzejdĹş do lekcji 3</a>
+                    <a href="${link10}" class="hidden-link lesson-link-10" target="_blank" rel="noopener noreferrer">PrzejdĹş do lekcji 1</a>
+            <a href="${link11}" class="hidden-link lesson-link-11" target="_blank" rel="noopener noreferrer">PrzejdĹş do lekcji 2</a>
+        <a href="${link12}" class="hidden-link lesson-link-12" target="_blank" rel="noopener noreferrer">PrzejdĹş do lekcji 3</a>
+                    <a href="${link13}" class="hidden-link lesson-link-13" target="_blank" rel="noopener noreferrer">PrzejdĹş do lekcji 1</a>
+            <a href="${link14}" class="hidden-link lesson-link-14" target="_blank" rel="noopener noreferrer">PrzejdĹş do lekcji 2</a>
+        <a href="${link15}" class="hidden-link lesson-link-15" target="_blank" rel="noopener noreferrer">PrzejdĹş do lekcji 3</a>
+                    <a href="${link16}" class="hidden-link lesson-link-16" target="_blank" rel="noopener noreferrer">PrzejdĹş do lekcji 1</a>
+            <a href="${link17}" class="hidden-link lesson-link-17" target="_blank" rel="noopener noreferrer">PrzejdĹş do lekcji 2</a>
+        <a href="${link18}" class="hidden-link lesson-link-18" target="_blank" rel="noopener noreferrer">PrzejdĹş do lekcji 3</a>
+                <a href="${link19}" class="hidden-link lesson-link-19" target="_blank" rel="noopener noreferrer">PrzejdĹş do lekcji 3</a>
         `;
 
         $('body').append(linksHTML);
         console.log('Dodano linki:', link1, link2);
     }
 }
-
-// Uruchom na początku
+    setTimeout(() => {
+// Uruchom na poczÄtku
 updateButtonColors();
+}, 0); // opóźnienie np. 100ms
 
                                 $('.sentence1bba').html('');
                                 $sentenceDiv.on('click', '.left-button', function () {
@@ -1115,6 +1178,53 @@ updateButtonColors();
                                 }
 
                                 console.log('hej20', sentence1bb1b);
+                                // Kliknięcie w kategorię
+// Kolory przypisane do kategorii
+const colorMapping = {
+    'sport': '#28a745',        // Zielony
+    'natura': '#007bff',       // Niebieski
+    'nauka': '#dc3545',        // Czerwony
+    'czarnyhumor': '#ffc107',  // Żółty
+    'zwiazki': '#fd7e14',      // Pomarańczowy
+    'all': '#800080'           // Fioletowy
+};
+
+// Zakres pokolorowanych przycisków
+const startRange2 = 1;
+const endRange2 = 6;
+
+document.addEventListener('DOMContentLoaded', () => {
+    // Kliknięcie w kategorię
+    document.querySelectorAll('.category-btn').forEach(button => {
+        button.addEventListener('click', (event) => {
+            event.preventDefault(); // zapobiega przeładowaniu
+            selectedCategory = button.getAttribute('data-category');
+            updateButtonColors();
+        });
+    });
+});
+// Główna funkcja kolorująca
+function updateButtonColors() {
+    const color = colorMapping[selectedCategory] || '#800080';
+    
+    document.querySelectorAll('.sentence-block, .sentence-blockB').forEach(block => {
+        const dataName = parseInt(block.getAttribute('data-name'), 10);
+
+        const button = block.querySelector('button.left-button, button.left-buttonb, button.left-buttonbb');
+
+        if (button) {
+            if (dataName >= startRange2 && dataName <= endRange2) {
+                button.style.backgroundColor = color;
+                button.style.color = 'white';
+            } else {
+                // Czyścimy kolory poza zakresem
+                button.style.backgroundColor = '';
+                button.style.color = '';
+            }
+        }
+    });
+    }
+    updateButtonColors();
     $sentenceDiv.html(`
 <div class="sentence-block" data-name="${id1}">
     <button class="left-button first-button">+<br></button>
@@ -1473,7 +1583,53 @@ function countCategoryInFiszki2(matchingFiszki3, category) {
                                 }
                                 sentence1bb1c += sentencePart444 + " ";
                             }
+// Kolory przypisane do kategorii
+const colorMapping = {
+    'sport': '#28a745',        // Zielony
+    'natura': '#007bff',       // Niebieski
+    'nauka': '#dc3545',        // Czerwony
+    'czarnyhumor': '#ffc107',  // Żółty
+    'zwiazki': '#fd7e14',      // Pomarańczowy
+    'all': '#800080'           // Fioletowy
+};
 
+// Zakres pokolorowanych przycisków
+const startRange2 = 1;
+const endRange2 = 6;
+
+document.addEventListener('DOMContentLoaded', () => {
+    // Kliknięcie w kategorię
+    document.querySelectorAll('.category-btn').forEach(button => {
+        button.addEventListener('click', (event) => {
+            event.preventDefault(); // zapobiega przeładowaniu
+            selectedCategory = button.getAttribute('data-category');
+            updateButtonColors();
+        });
+    });
+});
+
+// Główna funkcja kolorująca
+function updateButtonColors() {
+    const color = colorMapping[selectedCategory] || '#800080';
+    
+    document.querySelectorAll('.sentence-block, .sentence-blockB').forEach(block => {
+        const dataName = parseInt(block.getAttribute('data-name'), 10);
+
+        const button = block.querySelector('button.left-button, button.left-buttonb, button.left-buttonbb');
+
+        if (button) {
+            if (dataName >= startRange2 && dataName <= endRange2) {
+                button.style.backgroundColor = color;
+                button.style.color = 'white';
+            } else {
+                // Czyścimy kolory poza zakresem
+                button.style.backgroundColor = '';
+                button.style.color = '';
+            }
+        }
+    });
+    }
+    updateButtonColors();
     $sentenceDiv.html(`
 <div class="sentence-block" data-name="${id1}">
     <button class="left-button first-button">+<br></button>
@@ -1532,6 +1688,7 @@ function countCategoryInFiszki2(matchingFiszki3, category) {
     <div class="sentence1bb1c">${sentence1bb1c}</div>
 </div>
 `);
+
                                     // Ustawienie stylu dla przycisków .left-button
                                     $('.left-button').css('position', 'relative');
                                     $('.left-buttonb').css('position', 'relative');
@@ -3049,7 +3206,7 @@ if (window.matchMedia("(max-width: 999px)").matches) {
                             $container.append($overlay); // Nakładka
                             $container.append($buttonb); // Przycisk w nakładce
                             // Dodaj funkcję hover do kontenera
-                            if (indexDiv < 14) {
+                            if (indexDiv < 18) {
                                 // Jeśli indexDiv < 5, dodajemy hover z dynamicznym napisem
                                 $container.hover(function () {
                                     $('.overlay', this).css('transform', 'translateX(0)');
@@ -3067,7 +3224,7 @@ if (window.matchMedia("(max-width: 999px)").matches) {
                                     });
                                 });
                             }
-                                                        if (indexDiv < 17 && indexDiv > 13) {
+                                                        if (indexDiv < 20 && indexDiv > 17) {
                                 // Jeśli indexDiv < 5, dodajemy hover z dynamicznym napisem
                                 $container.hover(function () {
                                     $('.overlay', this).css('transform', 'translateX(0)');
@@ -3085,24 +3242,7 @@ if (window.matchMedia("(max-width: 999px)").matches) {
                                     });
                                 });
                             }
-                                                                                    if (indexDiv < 18 && indexDiv >= 17) {
-                                // Jeśli indexDiv < 5, dodajemy hover z dynamicznym napisem
-                                $container.hover(function () {
-                                    $('.overlay', this).css('transform', 'translateX(0)');
 
-                                    // Twórz nowy dynamiczny div z napisem
-                                    const $dynamicDiv2 = $('<div>').addClass('dynamic-div3').text('Nowa lekcja - w przygotowaniu');
-                                    // Dodaj dynamiczny div do kontenera
-                                    $dynamicDiv2.appendTo($(this)).fadeIn(300);
-                                }, function () {
-                                    $('.overlay', this).css('transform', 'translateX(100%)');
-
-                                    // Usuń dynamiczny div po zakończeniu hovera
-                                    $('.dynamic-div3', this).fadeOut(300, function () {
-                                        $(this).remove();
-                                    });
-                                });
-                            }
                             // Jeśli kontener nie został jeszcze wybrany, wybierz losowy kontener
                             addBackgroundToText1b(matchingFiszki1, matchingIndexes, true, lesson1PartLength, matchingIndexes2, rodzaj, matchingIndexes3, matchingLessons5b);
                             addBackgroundToText2b(matchingFiszki2, matchingIndexes, true, lesson2PartLength, matchingIndexes2, rodzaj, matchingIndexes3, matchingLessons5b);
@@ -3202,7 +3342,7 @@ const $button = $('<button></button>');
 
                         setTimeout(() => {
                             console.log('Kliknięto przycisk o indeksie:', index55);
-                            przekazArgument0(tablica3[2], index55, true, tablica3[0], true, true, tablica3[1], tablica3[4], false, '', '', '', '');
+                            przekazArgument0(tablica7[0], tablica3[2], index55, true, tablica3[0], true, true, tablica3[1], tablica3[4], false, '', '', '', '');
                         }, 100);
                         // Usunięcie kontenera po wstawieniu nowego
                     });
@@ -3265,70 +3405,55 @@ $buttonb2.on('click', function () {
         lessonLink = document.querySelector('.lesson-link-2');
     }
         if (index55b2 === 3) {
-        lessonLink = document.querySelector('.lesson-link-3b');
+        lessonLink = document.querySelector('.lesson-link-3');
     }
         if (index55b2 === 4) {
-        lessonLink = document.querySelector('.lesson-link-4b');
+        lessonLink = document.querySelector('.lesson-link-4');
     }
     if (index55b2 === 5) {
-        lessonLink = document.querySelector('.lesson-link-5b');
+        lessonLink = document.querySelector('.lesson-link-5');
     }
         if (index55b2 === 6) {
-        lessonLink = document.querySelector('.lesson-link-6b');
+        lessonLink = document.querySelector('.lesson-link-6');
     }
         if (index55b2 === 7) {
-        lessonLink = document.querySelector('.lesson-link-7b');
+        lessonLink = document.querySelector('.lesson-link-7');
     }
         if (index55b2 === 8) {
-        lessonLink = document.querySelector('.lesson-link-8b');
+        lessonLink = document.querySelector('.lesson-link-8');
     }
         if (index55b2 === 9) {
-        lessonLink = document.querySelector('.lesson-link-9b');
+        lessonLink = document.querySelector('.lesson-link-9');
     }
         if (index55b2 === 10) {
-        lessonLink = document.querySelector('.lesson-link-10b');
+        lessonLink = document.querySelector('.lesson-link-10');
     }
             if (index55b2 === 11) {
-        lessonLink = document.querySelector('.lesson-link-11b');
+        lessonLink = document.querySelector('.lesson-link-11');
     }
         if (index55b2 === 12) {
-        lessonLink = document.querySelector('.lesson-link-12b');
+        lessonLink = document.querySelector('.lesson-link-12');
     }
         if (index55b2 === 13) {
-        lessonLink = document.querySelector('.lesson-link-13b');
+        lessonLink = document.querySelector('.lesson-link-13');
     }
     if (index55b2 === 14) {
-        lessonLink = document.querySelector('.lesson-link-14b');
+        lessonLink = document.querySelector('.lesson-link-14');
     }
         if (index55b2 === 15) {
-        lessonLink = document.querySelector('.lesson-link-15b');
+        lessonLink = document.querySelector('.lesson-link-15');
     }
         if (index55b2 === 16) {
-        lessonLink = document.querySelector('.lesson-link-16b');
+        lessonLink = document.querySelector('.lesson-link-16');
     }
     if (index55b2 === 17) {
-        lessonLink = document.querySelector('.lesson-link-17b');
+        lessonLink = document.querySelector('.lesson-link-17');
     }
         if (index55b2 === 18) {
-        lessonLink = document.querySelector('.lesson-link-18b');
+        lessonLink = document.querySelector('.lesson-link-18');
     }
         if (index55b2 === 19) {
-        lessonLink = document.querySelector('.lesson-link-19b');
-    }
-        if (index55b2 === 20) {
-        lessonLink = document.querySelector('.lesson-link-20b');
-    }
-        if (index55b2 === 21) {
-        lessonLink = document.querySelector('.lesson-link-21');
-    }
-        if (index55b2 === 22) {
-        lessonLink = document.querySelector('.lesson-link-22b');
-    }
-            if (index55b2 === 23) {
-        lessonLink = document.querySelector('.lesson-link-23b');
-    }
-        if (index55b2 === 24) {
-        lessonLink = document.querySelector('.lesson-link-24b');
+        lessonLink = document.querySelector('.lesson-link-19');
     }
     if (lessonLink) {
         lessonLink.click(); // Automatyczne kliknięcie ukrytego linka

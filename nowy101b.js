@@ -3,21 +3,18 @@
             const tablica11b = [];
             let tablica13a = [];
             let tablica12b = [];
-            let clickedIndex5 = [];
             let tablica12bu = [];
             let tablica15a = [];
             const fiszkaobject = {
                 data: [] // Inicjalizacja tablicy wewnątrz obiektu
             };
             let tablica24 = [];
-            function showCombinedSentenceForLesson2(selectedCategory, polski, index50, matchingIndexes, lessonIdToShow1, newIndex, indexDiv, lesson1PartLength) {
-                                console.log('hej55bbv', selectedCategory);
-                                                            let tablica61 = [];
+            function showCombinedSentenceForLesson2(polski, index50, matchingIndexes, lessonIdToShow1, newIndex, indexDiv, lesson1PartLength) {
                 // Tutaj reszta kodu funkcji
                 const matchingFiszki1 = fiszki.filter(fiszka => fiszka.id[1] === lessonIdToShow1);
                 const matchingFiszki10 = fiszki.filter(fiszka => fiszka.id[1] === lessonIdToShow1);
                 console.log('hej10', matchingFiszki10);
-    const id1 = matchingFiszki1[0]?.id[1] || 'unknown1';
+
                 if (matchingFiszki10.length > 0) {
                     const srcWord1 = pobierzSrcWordDlaLekcji(lessonIdToShow1, fiszki);
                     const srcWord10 = pobierzSrcWordDlaLekcji2(lessonIdToShow1, fiszki);
@@ -298,116 +295,11 @@ ${sentence10}${sentence11}<br>
 
                                 console.log('hej20', sentence1bba);
 
-$sentenceDiv.html(`
-<div class="sentence-block" data-name="${id1}">
-    <button class="left-button first-button">+<br></button>
-    ${sentence10}${sentence11}<br>
-    <div class="sentence1bba">${sentence1bba}</div>
-    <div class="sentence1bbab">${sentence1bbab}</div>
-</div>
+                                $sentenceDiv.html(`
+${sentence10}${sentence11}<br>
+<div class="sentence1bba">${sentence1bba}</div>
+<div class="sentence1bbab">${sentence1bbab}</div>
 `);
-                                const startRange2 = 1;
-const endRange2 = 6;
-let previousTrojkiJSON = '';
-function updateButtonColors() {
-    tablica61.length = 0;
-    document.querySelectorAll('.sentence-block, .sentence-blockB').forEach(block => {
-        const dataName = parseInt(block.getAttribute('data-name'), 10);
-        tablica61.push(dataName);
-        if (dataName >= startRange2 && dataName <= endRange2) {
-            const button = block.querySelector('button.left-button, button.left-buttonb, button.left-buttonbb');
-            if (button) {
-                button.style.backgroundColor = 'blue';
-                button.style.color = 'white';
-            }
-        }
-    });
-
-    // Podział na trójki
-    const trojki = [];
-    for (let i = 0; i < tablica61.length; i += 1) {
-        trojki.push(tablica61.slice(i, i + 1));
-    }
-
-    const currentTrojkiJSON = JSON.stringify(trojki);
-    if (currentTrojkiJSON !== previousTrojkiJSON) {
-        previousTrojkiJSON = currentTrojkiJSON;
-
-        console.log('Nowe trójki:', trojki);
-
-        // Usuń stare linki
-        $('.hidden-link').remove();
-        console.log('Usunięto stare linki');
-
-        // Wygeneruj nowe linki (dla pierwszych dwóch trójek, jeśli istnieją)
-        const firstTrojka = trojki[0] || [];
-        const secondTrojka = trojki[1] || [];
-        const thirdTrojka = trojki[2] || [];
-        const cztery = trojki[3] || [];
-        const piec = trojki[4] || [];
-        const szesc = trojki[5] || [];
-        const siedem = trojki[6] || [];
-        const osiem = trojki[7] || [];
-        const dziewiec = trojki[8] || [];
-        const dziesiec = trojki[9] || [];
-        const jedenascie = trojki[10] || [];
-        const dwanascie = trojki[11] || [];
-        const trzynascie = trojki[12] || [];
-        const czternascie = trojki[13] || [];
-        const pietnascie = trojki[14] || [];
-        const szstnascie = trojki[15] || [];
-        const siedemnascie = trojki[16] || [];
-        const osiemnascie = trojki[17] || [];
-                const dziewietnascie = trojki[18] || [];
-        const link1 = `demo1angielski.html?category=${selectedCategory}&data=${firstTrojka.join(',')}`;
-        const link2 = `demo1angielski.html?category=${selectedCategory}&data=${secondTrojka.join(',')}`;
-        const link3 = `demo1angielski.html?category=${selectedCategory}&data=${thirdTrojka.join(',')}`;
-        const link4 = `demo1angielski.html?category=${selectedCategory}&data=${cztery.join(',')}`;
-        const link5 = `demo1angielski.html?category=${selectedCategory}&data=${piec.join(',')}`;
-        const link6 = `demo1angielski.html?category=${selectedCategory}&data=${szesc.join(',')}`;
-        const link7 = `demo1angielski.html?category=${selectedCategory}&data=${siedem.join(',')}`;
-        const link8 = `demo1angielski.html?category=${selectedCategory}&data=${osiem.join(',')}`;
-        const link9 = `demo1angielski.html?category=${selectedCategory}&data=${dziewiec.join(',')}`;
-        const link10 = `demo1angielski.html?category=${selectedCategory}&data=${dziesiec.join(',')}`;
-        const link11 = `demo1angielski.html?category=${selectedCategory}&data=${jedenascie.join(',')}`;
-        const link12 = `demo1angielski.html?category=${selectedCategory}&data=${dwanascie.join(',')}`;
-        const link13 = `demo1angielski.html?category=${selectedCategory}&data=${trzynascie.join(',')}`;
-        const link14 = `demo1angielski.html?category=${selectedCategory}&data=${czternascie.join(',')}`;
-        const link15 = `demo1angielski.html?category=${selectedCategory}&data=${pietnascie.join(',')}`;
-        const link16 = `demo1angielski.html?category=${selectedCategory}&data=${szstnascie.join(',')}`;
-        const link17 = `demo1angielski.html?category=${selectedCategory}&data=${siedemnascie.join(',')}`;
-        const link18 = `demo1angielski.html?category=${selectedCategory}&data=${osiemnascie.join(',')}`;
-        const link19 = `demo1angielski.html?category=${selectedCategory}&data=${dziewietnascie.join(',')}`;
-
-        const linksHTML = `
-            <a href="${link1}" class="hidden-link lesson-link-1b" target="_blank" rel="noopener noreferrer">Przejdź do lekcji 1</a>
-            <a href="${link2}" class="hidden-link lesson-link-2b" target="_blank" rel="noopener noreferrer">Przejdź do lekcji 2</a>
-        <a href="${link3}" class="hidden-link lesson-link-3b" target="_blank" rel="noopener noreferrer">Przejdź do lekcji 3</a>
-                    <a href="${link4}" class="hidden-link lesson-link-4b" target="_blank" rel="noopener noreferrer">Przejdź do lekcji 1</a>
-            <a href="${link5}" class="hidden-link lesson-link-5" target="_blank" rel="noopener noreferrer">Przejdź do lekcji 2</a>
-        <a href="${link6}" class="hidden-link lesson-link-6" target="_blank" rel="noopener noreferrer">Przejdź do lekcji 3</a>
-                    <a href="${link7}" class="hidden-link lesson-link-7" target="_blank" rel="noopener noreferrer">Przejdź do lekcji 1</a>
-            <a href="${link8}" class="hidden-link lesson-link-8" target="_blank" rel="noopener noreferrer">Przejdź do lekcji 2</a>
-        <a href="${link9}" class="hidden-link lesson-link-9" target="_blank" rel="noopener noreferrer">Przejdź do lekcji 3</a>
-                    <a href="${link10}" class="hidden-link lesson-link-10" target="_blank" rel="noopener noreferrer">Przejdź do lekcji 1</a>
-            <a href="${link11}" class="hidden-link lesson-link-11" target="_blank" rel="noopener noreferrer">Przejdź do lekcji 2</a>
-        <a href="${link12}" class="hidden-link lesson-link-12" target="_blank" rel="noopener noreferrer">Przejdź do lekcji 3</a>
-                    <a href="${link13}" class="hidden-link lesson-link-13" target="_blank" rel="noopener noreferrer">Przejdź do lekcji 1</a>
-            <a href="${link14}" class="hidden-link lesson-link-14" target="_blank" rel="noopener noreferrer">Przejdź do lekcji 2</a>
-        <a href="${link15}" class="hidden-link lesson-link-15" target="_blank" rel="noopener noreferrer">Przejdź do lekcji 3</a>
-                    <a href="${link16}" class="hidden-link lesson-link-16" target="_blank" rel="noopener noreferrer">Przejdź do lekcji 1</a>
-            <a href="${link17}" class="hidden-link lesson-link-17" target="_blank" rel="noopener noreferrer">Przejdź do lekcji 2</a>
-        <a href="${link18}" class="hidden-link lesson-link-18" target="_blank" rel="noopener noreferrer">Przejdź do lekcji 3</a>
-                <a href="${link19}" class="hidden-link lesson-link-19" target="_blank" rel="noopener noreferrer">Przejdź do lekcji 3</a>
-        `;
-
-        $('body').append(linksHTML);
-        console.log('Dodano linki:', link1, link2);
-    }
-}
-
-// Uruchom na początku
-updateButtonColors();
 
                                 console.log('hej465', polski);
                                 $sentence1bba.css({
@@ -1087,11 +979,10 @@ updateButtonColors();
                             });
 
 
-function highlightFirstWord(indexDiv) {
+                            function highlightFirstWord(indexDiv) {
     const $container = $(`.image-container4[data-lesson="${indexDiv}"]`);
-    $(`.image-container4`).css('z-index', 100); // Reset z-index dla wszystkich
-    $container.css('z-index', 102); // Podniesienie z-index tylko dla aktywnego
-
+$(`.image-container4`).css('z-index', 100); // Reset z-index dla wszystkich
+$container.css('z-index', 102); // Podniesienie z-index tylko dla aktywnego
     if (matchingFiszki1.length > 0) {
         const $sentence10 = $container.find('.sentenceBB');
         const $sentence11 = $container.find('.sentence11');
@@ -1099,15 +990,11 @@ function highlightFirstWord(indexDiv) {
                                 
 
         if ($sentence10.length > 0 || $sentence11.length > 0 || $sentence1bba.length > 0) {
-            let sentenceHtml = $sentence10.html();
+            let sentenceText = $sentence10.html();
+            let sentenceText2 = $sentence1bba.html();
             let tempDiv = document.createElement('div');
-            tempDiv.innerHTML = sentenceHtml;
-            // Usuń przycisk z tekstu
-            $(tempDiv).find('button').remove();
-            $(tempDiv).find('.sentence1bba').remove(); // usuń dolną część zdania
-
-            let pureText = tempDiv.innerText.trim();
-            let words = pureText.split(' ');
+            tempDiv.innerHTML = sentenceText;
+            let words = tempDiv.innerText.split(' ');
 
             if (words.length > 0) {
                 let firstWord = words[0];
@@ -1127,19 +1014,17 @@ function highlightFirstWord(indexDiv) {
                 let button1 = `<button class="prev-button" id="prev-button">&lt;</button>`;
                 let button2 = `<button class="next-button" id="next-button">&gt;</button>`;
 
-                // Wstaw wszystko z powrotem
                 $sentence10.html(`
-                    <button class="left-button first-button">+<br></button>
-                    ${button1}
-                    <span class="word-span" style="cursor: pointer;">${highlightedSpan}</span>
-                    <span class="word-span" style="cursor: pointer;">${secondWord}</span>
-                    <span class="word-span" style="cursor: pointer;">${thirdWord}</span>
-                    <span class="word-span" style="cursor: pointer;">${forthWord}</span>
-                    <span class="word-span" style="cursor: pointer;">${fifthWord}</span>
+                    ${button1} 
+                    <span class="word-span" style="cursor: pointer;">${highlightedSpan}</span> 
+                    <span class="word-span" style="cursor: pointer;">${secondWord}</span> 
+                    <span class="word-span" style="cursor: pointer;">${thirdWord}</span> 
+                    <span class="word-span" style="cursor: pointer;">${forthWord}</span> 
+                    <span class="word-span" style="cursor: pointer;">${fifthWord}</span> 
                     <span class="word-span" style="cursor: pointer;">${sixthWord}</span>
                     ${button2}
                     <br>
-                    <div class="sentence1bba">${$sentence1bba.html()}</div>
+                    <div class="sentence1bba">${sentenceText2}</div>
                 `);
 $("<style>")
   .prop("type", "text/css")
@@ -1199,6 +1084,17 @@ $('.indexDiv').on('click', function () {
     handleIndexDivClick(indexDiv); // Wywołaj funkcję przesuwania 'wordDisplay'
 });
                         const $currentWordDisplay = $('<span>').appendTo($wordContainer);
+    function updateWordDisplay2(currentWordIndex) {
+        let fiszka = matchingFiszki1[currentFiszkaIndex];
+        console.log('hej11', fiszka);
+        if (fiszka && fiszka.sentence1) {
+            const currentWord = fiszka.sentence1[currentWordIndex] || "";
+            $currentWordDisplay.text(currentWord); // Aktualizujemy tylko tekst w osobnym elemencie
+        } else if (fiszka && fiszka.sentence2) {
+            const currentWord = fiszka.sentence2[currentWordIndex] || "";
+            $currentWordDisplay.text(currentWord); // Aktualizujemy tylko tekst w osobnym elemencie
+        }
+    }
 // Deklaracja clickedIndex jako zmiennej globalnej
 let clickedIndex;
 
@@ -1251,24 +1147,17 @@ function handleNextClick2(indexDiv, $sentence10, currentFiszkaIndex, firstWord, 
         }
 
 
-function updateHighlight(indexDiv, $sentence10, index5b, firstWord, secondWord, thirdWord, forthWord, fifthWord, sixthWord) {
-    console.log('updateHighlight - start');
-    console.log('Aktualne wartości:', { indexDiv, index, firstWord, secondWord, thirdWord, forthWord, fifthWord, sixthWord });
-
+function updateHighlight(indexDiv, $sentence10, index, firstWord, secondWord, thirdWord, forthWord, fifthWord, sixthWord) {
     const words = [firstWord, secondWord, thirdWord, forthWord, fifthWord, sixthWord];
-    console.log('Tablica words:', words);
 
     // Generuj podświetlone słowa
     const highlightedWords = words.map((word, i) => {
-        const isHighlighted = i === index5b;
-        console.log(`Generuję słowo: "${word}", indeks: ${i}, podświetlone: ${isHighlighted}`);
-        return isHighlighted
+        return i === index
             ? `<span class="highlighted word-span" data-index="${i}" style="cursor: pointer;">${word}</span>`
             : `<span class="word-span" data-index="${i}" style="cursor: pointer;">${word}</span>`;
     });
 
     // Zaktualizuj HTML dla $sentence10
-    console.log('Aktualizuję HTML $sentence10');
     $sentence10.html(`
         <button class="prev-button" id="prev-button">&lt;</button>
         ${highlightedWords.join(' ')}
@@ -1276,19 +1165,16 @@ function updateHighlight(indexDiv, $sentence10, index5b, firstWord, secondWord, 
     `);
 
     // Obsługa zdarzeń kliknięcia słów
-    console.log('Dodaję event listener do słów (word-span)');
     $sentence10.find('.word-span').off('click').on('click', function () {
         const clickedIndex = $(this).data('index');
-        console.log('Kliknięto słowo:', { clickedIndex });
-clickedIndex5.push(clickedIndex);
+
+
         // Wywołanie funkcji obsługi kliknięcia
         handleWordClick(clickedIndex, indexDiv, matchingFiszki1);
-        // Ponowne zaktualizowanie podświetlenia
-        console.log('Ponowne wywołanie updateHighlight po kliknięciu');
-        updateHighlight(indexDiv, $sentence10, clickedIndex, firstWord, secondWord, thirdWord, forthWord, fifthWord, sixthWord);
-    });
 
-    console.log('updateHighlight - koniec');
+        // Ponowne zaktualizowanie podświetlenia
+        updateHighlight($sentence10, index, firstWord, secondWord, thirdWord, forthWord, fifthWord, sixthWord);
+    });
 }
 
 
@@ -1424,24 +1310,13 @@ $container.css('z-index', 102); // Podniesienie z-index tylko dla aktywnego
                                                         // Jeśli nie istnieje, dodaj nową tablicę
                                                         fiszkaobject.data.push([indexDiv, currentFiszkaIndex]);
                                                     }
-                                                    
-if (clickedIndex5.length > 0 && clickedIndex5[clickedIndex5.length - 1] !== null) {
-    // Zwiększanie clickedIndex5 o 1 i dodanie do tablicy
-    clickedIndex5.push(clickedIndex5[clickedIndex5.length - 1] + 1);
-
-    // Pobranie ostatniego elementu z clickedIndex5
-    let indeks5b = clickedIndex5[clickedIndex5.length - 1];
-    handleNextClick(indexDiv, $sentence10, indeks5b, firstWord, secondWord, thirdWord, forthWord, fifthWord, sixthWord);
-} else {
-    tablica12b.push(currentFiszkaIndex);
-    handleNextClick(indexDiv, $sentence10, currentFiszkaIndex, firstWord, secondWord, thirdWord, forthWord, fifthWord, sixthWord);
-}
+                                                    tablica12b.push(currentFiszkaIndex);
                                 setTimeout(() => {
                                                         wybierzRodzaj2('all', currentFiszkaIndex, matchingFiszki1, indexDiv);
                                 }, 800);
 
                                                                                                                 console.log('hej68cx', currentFiszkaIndex);
-                                                        
+                                                        handleNextClick(indexDiv, $sentence10, currentFiszkaIndex, firstWord, secondWord, thirdWord, forthWord, fifthWord, sixthWord);
 
                                                         updateWordDisplay(currentWordIndex, indexDiv);
                                                         // Wywołaj funkcję, przekazując zaktualizowany indeks
@@ -1849,14 +1724,10 @@ if (currentFiszkaIndex === 0) {
                     if ((index50 === 0) || (newIndex === 0)) {
                         var $sentenceDivB = $('<div></div>');
                         $sentenceDivB.addClass('sentenceBC'); // Dodanie klasy 'sentence'
-                            const id1 = matchingFiszki1[0]?.id[1] || 'unknown1';
-$sentenceDivB.html(`
-<div class="sentence-block" data-name="${id1}">
-    <button class="left-button first-button">+<br></button>
+                        $sentenceDivB.html(`
     ${sentence10}${sentence11}<br>
-    <div class="sentence1bba">${sentence1bba}</div>
-    <div class="sentence1bbab">${sentence1bbab}</div>
-</div>
+    <div class="sentence1b">${sentence1b}</div>
+    <div class="sentence1b2">${sentence1b2}</div>
 `);
                         $sentenceDivB.css({
                             'position': 'absolute',
@@ -1868,15 +1739,10 @@ $sentenceDivB.html(`
                     } else {
                         var $sentenceDiv = $('<div></div>');
                         $sentenceDiv.addClass('sentenceBB'); // Dodanie klasy 'sentence'
-                            // Pobieramy nazwy (id[1]) do atrybutów
-    const id1 = matchingFiszki1[0]?.id[1] || 'unknown1';
-$sentenceDiv.html(`
-<div class="sentence-block" data-name="${id1}">
-    <button class="left-button first-button">+<br></button>
+                        $sentenceDiv.html(`
     ${sentence10}${sentence11}<br>
     <div class="sentence1bba">${sentence1bba}</div>
     <div class="sentence1bbab">${sentence1bbab}</div>
-</div>
 `);
                         $sentenceDiv.css({
                             'position': 'absolute',

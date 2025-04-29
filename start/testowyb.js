@@ -4782,6 +4782,18 @@ const fiszki10 = [
                 alt: "Życie rodzinne i więź rodzinna. Czy w rodzinie może istnieć demokracja?"
             },
             category: ["związki", "rodzina"]
+        },
+        {
+            id: 6,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/5f.jpg",
+                alt: "Przekrój społeczeństwa. Wygenerowane przez AI."
+            },
+            story: {
+                text: '<u><b>De</u></b>mografia społeczństwa to ważny czynnik ekonomiczny',
+                alt: "Życie w społeczeństwie. Jaka jesty dynamika życia w społeczeństwie?"
+            },
+            category: ["związki", "rodzina"]
         }
     ],
         translate: "Psy mogą biec naprawdę szybko",
@@ -7382,7 +7394,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/113a.jpg",
+                src: "https://www.arbulang.com/img/fiszki1/127a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -7415,7 +7427,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/113a.jpg",
+                src: "https://www.arbulang.com/img/fiszki1/128a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -7491,7 +7503,7 @@ const fiszki10 = [
                 {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/130a.jpg",
+                src: "https://www.arbulang.com/img/fiszki1/130b.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -7522,7 +7534,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/130a.jpg",
+                src: "https://www.arbulang.com/img/fiszki1/131a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -7710,6 +7722,18 @@ const fiszki10 = [
             story: {
                 text: "<u><b>Nasza</u></b> mama dostała l<u><b>aur</u></b>kę na dzień mamy",
                 alt: "Imprezy okolicznościowe. Jaki prezent jest najlepszy na dzień mamy?"
+            },
+            category: ["związki", "okazje"]
+        },
+        {
+            id: 6,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/32ff.jpg",
+                alt: "Spartanie. Wygenerowane przez AI."
+            },
+            story: {
+                text: "<u><b>Nasi</u></b> spartanie krzyczą <u><b>AAAUUU!!!</u></b> wszyscy razem przed walką",
+                alt: ""
             },
             category: ["związki", "okazje"]
         }
@@ -10609,6 +10633,18 @@ const fiszki10 = [
                 alt: ""
             },
             category: ["sport", "pływanie"]
+        },
+                {
+            id: 1,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/196b.jpg",
+                alt: "Wesele. Wygenerowane przez AI."
+            },
+            story: {
+                text: "S<b><u>eba</b></u> występuje dla weselników.. Dawno nie było takiej ha<b><u>łt</b></u>ury",
+                alt: ""
+            },
+            category: ["sport", "pływanie"]
         }
             ],
         story: "S<b><u>eba</b></u> występuje dla weselników.. Dawno nie było takiej ha<b><u>łt</b></u>ury",
@@ -12110,7 +12146,7 @@ const fiszki10 = [
         ],
         img: "",
         story: "",
-        desc: "a[e] - niebieski/niebieskie",
+        desc: "a[e] - ten/tego",
         sentence2: [
             "a"
         ],

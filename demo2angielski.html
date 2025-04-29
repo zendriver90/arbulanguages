@@ -57,7 +57,9 @@
         <script src="start\testowyb.js"></script>
 <script>
 // Wywołaj funkcję z otrzymaną wartością
-function wybierzRodzaj(category) {
+function wybierzRodzaj(category, one, two, three) {
+        console.log("Wybrany rodzaj słownictwa: " + category);
+    console.log("Parametry data -> one:", one, "two:", two, "three:", three);
     console.log("Wybrany rodzaj słownictwa: " + category);
 
     const matchingLessons = [];
@@ -122,26 +124,47 @@ if (fiszka.category !== 'all') {
 }
     }
 
-    if (matchingLessons.length > 0) {
-        const nextThreeLessons = matchingLessons.slice(3, 6);
-        // Wyświetl fiszki dla każdej znalezionej lekcji
-        // Wyświetl fiszki dla kolejnych 3 lekcji
-        console.log('Wyświetlanie kolejnych trzech lekcji:');
-        nextThreeLessons.forEach(lessonId => {
-            showFiszkiForLesson(lessonId, fiszki, category);
-        });
-        localStorage.setItem('wylosowaneLekcje', JSON.stringify(nextThreeLessons));
-    } else {
-        console.log(`Nie znaleziono fiszek z kategorią "${category}".`);
+    // Dodaj one, two, three jeśli istnieją i nie są już dodane
+    [one, two, three].forEach(val => {
+        if (val && !matchingLessons.includes(val)) {
+            matchingLessons.push(val);
+            console.log(`➕ Dodano lekcję z parametru data: ${val}`);
+        }
+    });
+
+    // Wyświetl fiszki tylko dla lessonId: one, two, three
+    if (one) {
+        console.log("📘 Wyświetlam lekcję dla one:", one);
+        showFiszkiForLesson(one, fiszki, category);
+    }
+    if (two) {
+        console.log("📗 Wyświetlam lekcję dla two:", two);
+        showFiszkiForLesson(two, fiszki, category);
+    }
+    if (three) {
+        console.log("📙 Wyświetlam lekcję dla three:", three);
+        showFiszkiForLesson(three, fiszki, category);
     }
 }
 
-// Pobierz parametr z adresu URL
 const urlParams = new URLSearchParams(window.location.search);
 const category = urlParams.get('category');
+const dataParam = urlParams.get('data');
 
-// Wywołaj funkcję z otrzymaną wartością
-wybierzRodzaj(category);
+// Zamień wartość 'data' na tablicę liczb
+let selectedData = [];
+if (dataParam) {
+    selectedData = dataParam.split(',').map(num => parseInt(num, 10));
+    console.log("Wybrane dane (data):", selectedData);
+}
+
+// Przypisz odpowiednio
+const one = selectedData[0];
+const two = selectedData[1];
+const three = selectedData[2];
+
+// Wywołaj funkcję z dodatkowymi parametrami
+wybierzRodzaj(category, one, two, three);
 
 function showFiszkiForLesson(lessonIdToShow, fiszki, category) {
     const matchingFiszki = fiszki.filter(fiszka => fiszka.id[1] === lessonIdToShow);

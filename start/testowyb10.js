@@ -347,7 +347,9 @@ const fiszki10 = [
             "https://www.arbulang.com/img/fiszki1/8b.jpg",
             "https://www.arbulang.com/img/fiszki1/8c.jpg",
             "https://www.arbulang.com/img/fiszki1/8d.jpg",
-            "https://www.arbulang.com/img/fiszki1/8e.jpg"
+            "https://www.arbulang.com/img/fiszki1/8e.jpg",
+            "https://www.arbulang.com/img/fiszki1/8f.jpg",
+            "https://www.arbulang.com/img/fiszki1/8g.jpg"
         ],
         word: [
             "https://www.arbulang.com/src/is.wav"
@@ -708,7 +710,8 @@ const fiszki10 = [
             "https://www.arbulang.com/img/fiszki1/16b.jpg",
             "https://www.arbulang.com/img/fiszki1/16c.jpg",
             "https://www.arbulang.com/img/fiszki1/16d.jpg",
-            "https://www.arbulang.com/img/fiszki1/16e.jpg"
+            "https://www.arbulang.com/img/fiszki1/16e.jpg",
+            "https://www.arbulang.com/img/fiszki1/190a.jpg"
         ],
         word: [
             "https://www.arbulang.com/src/with.wav"
@@ -720,7 +723,8 @@ const fiszki10 = [
             "W<u><b>iz</u></b>ja <u><b>ł</u></b>otrów - wiewiórek, które jedzą <u><b>z</u></b> wiadomo, którego wiaderka(mojego) jest słuszna",
             "W<u><b>iz</u></b>ytacja naukowców <u><b>z</u></b> Japonii jest znakomitą okazją do rewizji popełnionych b<u><b>ł</u></b>ędów",
             "Cz<u><b>ł</u></b>owiek bez w<u><b>iz</u></b>y nie wjedzie, a <u><b>z</u></b> wizą to oczywiście",
-            "Z w<u><b>iz</u></b>ażem czyli makijażem - królowa robi jeszcze lepsze wrażenie w królestwie. Wraz <u><b>z</u></b> królową jest jej wizażysta i rozdaje wizytówki. <u><b>Z</u></b> wizytóką cena ma<u><b>ł</u></b>a"
+            "Z w<u><b>iz</u></b>ażem czyli makijażem - królowa robi jeszcze lepsze wrażenie w królestwie. Wraz <u><b>z</u></b> królową jest jej wizażysta i rozdaje wizytówki. <u><b>Z</u></b> wizytóką cena ma<u><b>ł</u></b>a",
+            "Każdy żołnierz chodzi na polu walki z che<u><b>ł</u></b>mem i kam<u><b>iz</u></b>elką kuloodporną"
         ],
         desc: "with[łiz] - z",
         sentence2: [
@@ -1159,11 +1163,11 @@ const fiszki10 = [
             9
         ],
         img: [
-            "https://www.arbulang.com/img/fiszki1/25a.jpg",
-            "https://www.arbulang.com/img/fiszki1/25b.jpg",
-            "https://www.arbulang.com/img/fiszki1/25c.jpg",
-            "https://www.arbulang.com/img/fiszki1/25d.jpg",
-            "https://www.arbulang.com/img/fiszki1/25e.jpg"
+            "https://www.arbulang.com/img/fiszki1/26aa.jpg",
+            "https://www.arbulang.com/img/fiszki1/26bb.jpg",
+            "https://www.arbulang.com/img/fiszki1/26cc.jpg",
+            "https://www.arbulang.com/img/fiszki1/26dd.jpg",
+            "https://www.arbulang.com/img/fiszki1/26ee.jpg"
         ],
         story: [
             "Ten <b><u>chłopak</b></u> nie jest mazgajem, jest wysportowany i pije przed treningiem <b><u>gaj</b></u>ner",
@@ -1203,11 +1207,11 @@ const fiszki10 = [
             9
         ],
         img: [
-            "https://www.arbulang.com/img/fiszki1/26a.jpg",
-            "https://www.arbulang.com/img/fiszki1/26b.jpg",
-            "https://www.arbulang.com/img/fiszki1/26c.jpg",
-            "https://www.arbulang.com/img/fiszki1/26d.jpg",
-            "https://www.arbulang.com/img/fiszki1/26e.jpg"
+            "https://www.arbulang.com/img/fiszki1/27aa.jpg",
+            "https://www.arbulang.com/img/fiszki1/27bb.jpg",
+            "https://www.arbulang.com/img/fiszki1/27cc.jpg",
+            "https://www.arbulang.com/img/fiszki1/27dd.jpg",
+            "https://www.arbulang.com/img/fiszki1/27ee.jpg"
         ],
         story: [
             "To są wyścigi. Mała kaczka <u><b>łapie</u></b> dużą <u><b>kacz</u></b>ek, ciekawe czy ja dogoni",
@@ -1248,11 +1252,11 @@ const fiszki10 = [
             9
         ],
         img: [
-            "https://www.arbulang.com/img/fiszki1/27a.jpg",
-            "https://www.arbulang.com/img/fiszki1/27b.jpg",
-            "https://www.arbulang.com/img/fiszki1/27c.jpg",
-            "https://www.arbulang.com/img/fiszki1/27d.jpg",
-            "https://www.arbulang.com/img/fiszki1/27e.jpg"
+            "https://www.arbulang.com/img/fiszki1/28aa.jpg",
+            "https://www.arbulang.com/img/fiszki1/28bb.jpg",
+            "https://www.arbulang.com/img/fiszki1/28cc.jpg",
+            "https://www.arbulang.com/img/fiszki1/28dd.jpg",
+            "https://www.arbulang.com/img/fiszki1/28ee.jpg"
         ],
         story: [
             "Na mojej łodzi <u><b>kat</u></b>amaran <u><b>kot</u></b> pomaga mi wiosłować",
@@ -1263,7 +1267,7 @@ const fiszki10 = [
         ],
         desc: "{the) cat[kat] - kot",
         sentence1: [
-            "(the) cat"
+            "(the)cat"
         ],
         sentence: [
             "The",
@@ -1291,11 +1295,11 @@ const fiszki10 = [
             10
         ],
         img: [
-            "https://www.arbulang.com/img/fiszki1/28a.jpg",
-            "https://www.arbulang.com/img/fiszki1/28b.jpg",
-            "https://www.arbulang.com/img/fiszki1/28d.jpg",
-            "https://www.arbulang.com/img/fiszki1/28c.jpg",
-            "https://www.arbulang.com/img/fiszki1/28e.jpg"
+            "https://www.arbulang.com/img/fiszki1/29aa.jpg",
+            "https://www.arbulang.com/img/fiszki1/29bb.jpg",
+            "https://www.arbulang.com/img/fiszki1/29cc.jpg",
+            "https://www.arbulang.com/img/fiszki1/29dd.jpg",
+            "https://www.arbulang.com/img/fiszki1/29ee.jpg"
         ],
         srcWord2: ["https://www.arbulang.com/filmy/procedure.mp4", "Breaking Bad"],
         translateb2: "[end hags it]",
@@ -1335,11 +1339,11 @@ const fiszki10 = [
             10
         ],
         img: [
-            "https://www.arbulang.com/img/fiszki1/29a.jpg",
-            "https://www.arbulang.com/img/fiszki1/29b.jpg",
-            "https://www.arbulang.com/img/fiszki1/29c.jpg",
-            "https://www.arbulang.com/img/fiszki1/29d.jpg",
-            "https://www.arbulang.com/img/fiszki1/29e.jpg"
+            "https://www.arbulang.com/img/fiszki1/30aa.jpg",
+            "https://www.arbulang.com/img/fiszki1/30bb.jpg",
+            "https://www.arbulang.com/img/fiszki1/30cc.jpg",
+            "https://www.arbulang.com/img/fiszki1/30dd.jpg",
+            "https://www.arbulang.com/img/fiszki1/30ee.jpg"
         ],
         story: [
             "<u><b>Ha</u></b>rry trenuje <u><b>g</u></b>roźne chwyty, które są super a po treningu <u><b>przytula się</u></b> do Haliny",
@@ -1377,7 +1381,7 @@ const fiszki10 = [
             10
         ],
         img: [
-            "https://www.arbulang.com/img/fiszki1/3x.jpg"
+            "https://www.arbulang.com/img/fiszki1/31a.jpg"
         ],
         story: [
             "Od momentu, gdy <u><b>to</u></b> wynaleziono(smartfona), stało się <u><b>to</u></b> m<u><b>it</u></b>ycznie użyteczne"
@@ -1411,11 +1415,11 @@ const fiszki10 = [
             11
         ],
         img: [
-            "https://www.arbulang.com/img/fiszki1/31a.jpg",
-            "https://www.arbulang.com/img/fiszki1/31b.jpg",
-            "https://www.arbulang.com/img/fiszki1/31c.jpg",
-            "https://www.arbulang.com/img/fiszki1/31d.jpg",
-            "https://www.arbulang.com/img/fiszki1/31e.jpg"
+            "https://www.arbulang.com/img/fiszki1/32aa.jpg",
+            "https://www.arbulang.com/img/fiszki1/32bb.jpg",
+            "https://www.arbulang.com/img/fiszki1/32cc.jpg",
+            "https://www.arbulang.com/img/fiszki1/32dd.jpg",
+            "https://www.arbulang.com/img/fiszki1/32ee.jpg"
         ],
         translate: "Nasza szkoła organizuje całkiem ciekawe wydarzenia",
         translateb: "[Aur skul organajz kłajt interesting iwents]",
@@ -1461,11 +1465,11 @@ const fiszki10 = [
             11
         ],
         img: [
-            "https://www.arbulang.com/img/fiszki1/32a.jpg",
-            "https://www.arbulang.com/img/fiszki1/32b.jpg",
-            "https://www.arbulang.com/img/fiszki1/32c.jpg",
-            "https://www.arbulang.com/img/fiszki1/33d.jpg",
-            "https://www.arbulang.com/img/fiszki1/33e.jpg"
+            "https://www.arbulang.com/img/fiszki1/33aa.jpg",
+            "https://www.arbulang.com/img/fiszki1/33bb.jpg",
+            "https://www.arbulang.com/img/fiszki1/33cc.jpg",
+            "https://www.arbulang.com/img/fiszki1/33dd.jpg",
+            "https://www.arbulang.com/img/fiszki1/33ee.jpg"
         ],
         story: [
             "Na pa<b><u>sku</b></u> ekranu jest wynik drużyny z naszej <b><u>szkoły</b></u>, mam swojego <b><u>ul</b></u>ubionego zawodnika",
@@ -1485,8 +1489,7 @@ const fiszki10 = [
         ],
         key: "school",                                key2: "szkoła",
                 key3: ["a-and", "z-and", "coraz-and", "taj-and also"],
-        key4: [""],
-        
+        key4: [""],    
         category1: [
             "sport", "",
             "natura", "zawód",
@@ -1503,8 +1506,11 @@ const fiszki10 = [
             6,
             11
         ],
-        img: "https://www.arbulang.com/img/fiszki1/33a.jpg",
-        story: "<b><u>Organ</b></u>izacja dobroczynna współpracuje z Filipem H<b><u>ajze</b></u>rem",
+        img: "https://www.arbulang.com/img/fiszki1/34aa.jpg",
+        story: [
+            "KOGNATY - organizować - organizes",
+            "<b><u>Organ</b></u>izacja dobroczynna współpracuje z Filipem H<b><u>ajze</b></u>rem"
+        ],
         desc: "organizes[organajz] - organizować",
         sentence1: [
             "organizes"
@@ -1525,9 +1531,15 @@ const fiszki10 = [
             6,
             12
         ],
-        img: "https://www.arbulang.com/img/fiszki1/34a.jpg",
+        img: "https://www.arbulang.com/img/fiszki1/35aa.jpg",
         translateb2: "[kłajt interesting iwents]",
-        story: "<b><u>Kła</b></u>dziemy <b><u>całkiem</b></u> duży nacisk na ilość b<b><u>ajt</b></u>ów w pliku",
+        story: [
+            "K<b><u>ajt</b></u>ek ćwiczy <b><u>kła</b></u>dzenie przeciwnika na macie. Zrobił <b><u>całkiem</b></u> duży postęp",
+            "N<b><u>ajt</b></u>ęższy z drapieżników to lew. Kiedy <b><u>kła</b></u>dzie się w cieniu wtedy <b><u>całkiem</b></u> dobrze odpoczywa",
+            "<b><u>Kła</b></u>dziemy <b><u>całkiem</b></u> duży nacisk na ilość b<b><u>ajt</b></u>ów w pliku",
+            "Agent <b><u>kła</b></u>dzie pendrive z 5 Gigab<b><u>ajt</b></u>ami danych. <b><u>Całkiem</b></u> sporo informacji",
+            "Jej <b><u>rajt</b></u>uzy są za cienkie i zrobiła się <b><u>całkiem</b></u> duża dziurka. Odda do zcerowania do za<b><u>kła</b></u>du"
+        ],
         desc: "quite[kłajt] - całkiem",
         sentence2: [
             "quite"
@@ -1538,7 +1550,13 @@ const fiszki10 = [
             "events"
         ],
         key: "quite",
-        category1: "nauka",
+        category1: [
+            "sport", "",
+            "natura", "zawód",
+            "nauka", "budownictwo",
+            "czarny humor", "filmy",
+            "związki", "zabawa"
+        ],
         category2: "technologia"
     },
     {
@@ -1547,8 +1565,11 @@ const fiszki10 = [
             6,
             12
         ],
-        img: "https://www.arbulang.com/img/fiszki1/35a.jpg",
-        story: "<b><u>Interesujące</b></u> są te boksersie spar<b><u>ing</b></u>i",
+        img: "https://www.arbulang.com/img/fiszki1/36aa.jpg",
+        story: [
+            "KOGANTY - interesujący - interesting",
+            "<b><u>Interesujące</b></u> są te boksersie spar<b><u>ing</b></u>i"
+        ],
         desc: "interesting[interesting] - interesujące",
         sentence2: [
             "interesting"
@@ -1568,8 +1589,12 @@ const fiszki10 = [
             6,
             12
         ],
-        img: "https://www.arbulang.com/img/fiszki1/36a.jpg",
-        story: "Prezydent miasta trochę sepleni i patrzy w <b><u>inwent</b></u>a<b><u>ssss</b></u>, a tam same wydarzenia kulturowe",
+        img: "https://www.arbulang.com/img/fiszki1/37aa.jpg",
+        story: [
+            "Leniwce to len<b><u>iwe</b></u> zwierzątka. Nie przybyły na wydarzenie <b><u>ent</b></u>y raz. To nie jest <b><u>s</b></u>uper",
+            "Prezydent miasta trochę sepleni i patrzy w <b><u>inwent</b></u>a<b><u>ssss</b></u>, a tam same wydarzenia kulturowe",
+            "Te kobiety są już s<b><u>iwe</b></u>. Studiują w uniwersytecie Trzeciego Wieku i idą na <b><u>wydarzenie</b></u> <b><u>ent</b></u>y raz. <b><u>S</b></u>uper"
+        ],
         desc: "events[iwents] - wydarzenia",
         sentence2: [
             "events"
@@ -1590,9 +1615,9 @@ const fiszki10 = [
             13
         ],
         img: [
-            "https://www.arbulang.com/img/fiszki1/49a.jpg",
-            "https://www.arbulang.com/img/fiszki1/49b.jpg",
-            "https://www.arbulang.com/img/fiszki1/49c.jpg"
+            "https://www.arbulang.com/img/fiszki1/50aa.jpg",
+            "https://www.arbulang.com/img/fiszki1/50bb.jpg",
+            "https://www.arbulang.com/img/fiszki1/50cc.jpg"
         ],
         srcWord: ["https://www.arbulang.com/filmy/company.mp4", "Rampage (2018)"],
         srcWordimage: "https://www.arbulang.com/filmy/company.png",
@@ -1630,7 +1655,7 @@ const fiszki10 = [
             7,
             13
         ],
-        img: "https://www.arbulang.com/img/fiszki1/38a.jpg",
+        img: "https://www.arbulang.com/img/fiszki1/39aa.jpg",
         story: "<b><u>Kamp</b></u>ing jest koloru <b><u>any</b></u>żowego, prowadzi go <b><u>firma</b></u> z Polski",
         desc: "company[kampany] - firma",
         sentence1: [
@@ -1652,8 +1677,27 @@ const fiszki10 = [
             7,
             13
         ],
-        img: "https://www.arbulang.com/img/fiszki1/39a.jpg",
-        story: "<b><u>Start</b></u>uje z udawaniem węża.. <b><u>ssssss</b></u>",
+        img: [
+            "https://www.arbulang.com/img/fiszki1/8a.jpg",
+            "https://www.arbulang.com/img/fiszki1/8b.jpg",
+            "https://www.arbulang.com/img/fiszki1/8c.jpg",
+            "https://www.arbulang.com/img/fiszki1/8d.jpg",
+            "https://www.arbulang.com/img/fiszki1/8e.jpg",
+            "https://www.arbulang.com/img/fiszki1/8f.jpg",
+            "https://www.arbulang.com/img/fiszki1/8g.jpg"
+        ],
+        word: [
+            "https://www.arbulang.com/src/is.wav"
+        ],
+        story: [
+            'Gdy ktoś szybko biega obok nas to <u><b>jest</u></b> w popłochu, słyszymy tylko św<span class="adannotation" data-annotation="1"><u><b>is</u></b></span>t',
+            'L<span class="adannotation" data-annotation="1"><u><b>is</u></b></span> <u><b>jest</u></b> dzisiaj listonoszem',
+            '<span class="adannotation" data-annotation="1"><b><u>Is</b></u></span>tota tego przekazu <b><u>jest</b></u> bardzo ważna',
+            'L<span class="adannotation" data-annotation="1"><b><u>is</b></u></span> jest bardzo przebiegły, ale <b><u>jest</b></u> też wilk, który go zje',
+            'Johny Bravo <u><b>jest</b></u> m<span class="adannotation" data-annotation="1"><u><b>is</b></u></span>trzem relacji damsko-męskich',
+            'Lu<span class="adannotation" data-annotation="1"><b><u>is</b></u></span> <b><u>jest</b></u> bardzo zadowolony ze swojej pracy',
+            '<span class="adannotation" data-annotation="1"><b><u>Is</b></u></span>tambuł <b><u>jest</b></u> fajnym miastem'
+        ],
         desc: "is[is] - jest",
         sentence1: [
             "is"
@@ -1674,7 +1718,7 @@ const fiszki10 = [
             7,
             14
         ],
-        img: "https://www.arbulang.com/img/fiszki1/40a.jpg",
+        img: "https://www.arbulang.com/img/fiszki1/41aa.jpg",
         translateb2: "[deweloping wery intensiwli]",
         story: "<b><u>Dewelop</b></u>er gra w p<b><u>ing</b></u>-ponga z właścicielem i <b><u>rozwija</b></u> narracje, aby coś ugrać",
         desc: "developing[deweloping] - rozwijać",
@@ -1697,8 +1741,11 @@ const fiszki10 = [
             7,
             14
         ],
-        img: "https://www.arbulang.com/img/fiszki1/41a.jpg",
-        story: "<b><u>Wery</b></u>fikacja przebiegła poprawnie dla tej osoby i ona jest <b><u>bardzo</b></u> zadowolona",
+        img: "https://www.arbulang.com/img/fiszki1/42aa.jpg",
+        story: [
+            "<b><u>Wer</b></u>salka jest bardzo w<b><u>y</b></u>godna. Bardzo bardzo",
+            "<b><u>Wery</b></u>fikacja przebiegła poprawnie dla tej osoby i ona jest <b><u>bardzo</b></u> zadowolona"
+        ],
         desc: "very[wery] - bardzo",
         sentence2: [
             "very"
@@ -1718,8 +1765,11 @@ const fiszki10 = [
             7,
             14
         ],
-        img: "https://www.arbulang.com/img/fiszki1/42a.jpg",
-        story: "<b><u>Inten</b></u>cją zo<b><u>si</b></u> jest <b><u>wli</b></u>czenie jej zasług do intensywnej pracy społeczności",
+        img: "https://www.arbulang.com/img/fiszki1/43aa.jpg",
+        story: [
+            "KOGNATY - INTENSYWNIE - INTENSIVELY",
+            "<b><u>Inten</b></u>cją zo<b><u>si</b></u> jest <b><u>wli</b></u>czenie jej zasług do intensywnej pracy społeczności"
+        ],
         desc: "intensively[intensiwli] - intensywnie",
         sentence2: [
             "intensively"
@@ -1740,9 +1790,10 @@ const fiszki10 = [
             15
         ],
         img: [
-            "https://www.arbulang.com/img/fiszki1/43a.jpg",
-            "https://www.arbulang.com/img/fiszki1/80b.jpg",
+            "https://www.arbulang.com/img/fiszki1/44b.jpg",
+            "https://www.arbulang.com/img/fiszki1/44a.jpg",
             "https://www.arbulang.com/img/fiszki1/83c.jpg",
+            "https://www.arbulang.com/img/fiszki1/80b.jpg",
             "https://www.arbulang.com/img/fiszki1/108d.jpg"
         ],
         srcWord: ["https://www.arbulang.com/filmy/book.mp4", "Inception (2010)"],
@@ -1754,9 +1805,10 @@ const fiszki10 = [
         translateb: "[Dis buk belongs tu his grandfader]",
         translateb2: "[Dis buk belongs]",
         story: [
-            "Quo va<b><u>dis</b></u> <b><u>to</b></u> cytat bardzo znany",
-            "To słówko distant - czytamy <b><u>dis</b></u>tant",
+            "Ma<b><u>dis</b></u>on jest świetnym sportowcem a to jej trener",
+            "Quo va<b><u>dis</b></u> <b><u>to</b></u> cytat bardzo znany i kojarzy się ze starożytnym Rzymem",
             "E<b><u>dis</b></u>on to geniusz",
+            "To słówko distant - czytamy <b><u>dis</b></u>tant",
             "<b><u>Di</b></u>va operowa jest <b><u>s</b></u>ławna"
         ],
         desc: "this[dis] - ta rzecz/osoba",
@@ -1784,7 +1836,7 @@ const fiszki10 = [
             8,
             15
         ],
-        img: "https://www.arbulang.com/img/fiszki1/44a.jpg",
+        img: "https://www.arbulang.com/img/fiszki1/45aa.jpg",
         story: "Z drzewa <b><u>buk</b></u>owego jest najlepszy papier na <b><u>książki</b></u>",
         desc: "book[buk] - książka",
         sentence1: [
@@ -1806,7 +1858,7 @@ const fiszki10 = [
             8,
             15
         ],
-        img: "https://www.arbulang.com/img/fiszki1/45a.jpg",
+        img: "https://www.arbulang.com/img/fiszki1/46aa.jpg",
         story: "<b><u>Bel</b></u>ki <b><u>przynależą</b></u> do stropu, w Mongoli tak robiono stropy",
         desc: "belongs[belongs] - przynależy",
         sentence1: [
@@ -1829,10 +1881,11 @@ const fiszki10 = [
             16
         ],
         img: [
-            "https://www.arbulang.com/img/fiszki1/46a.jpg",
-            "https://www.arbulang.com/img/fiszki1/46b.jpg",
-            "https://www.arbulang.com/img/fiszki1/46c.jpg",
-            "https://www.arbulang.com/img/fiszki1/46d.jpg"
+            "https://www.arbulang.com/img/fiszki1/10a.jpg",
+            "https://www.arbulang.com/img/fiszki1/10b.jpg",
+            "https://www.arbulang.com/img/fiszki1/10c.jpg",
+            "https://www.arbulang.com/img/fiszki1/10d.jpg",
+            "https://www.arbulang.com/img/fiszki1/10e.jpg"
         ],
         translateb2: "[tu his grandfader]",
         story: [
@@ -1869,7 +1922,7 @@ const fiszki10 = [
             16
         ],
         img: [
-            "https://www.arbulang.com/img/fiszki1/47a.jpg",
+            "https://www.arbulang.com/img/fiszki1/48aa.jpg",
             "https://www.arbulang.com/img/fiszki1/106b.jpg"
         ],
         story: [
@@ -1897,7 +1950,7 @@ const fiszki10 = [
             8,
             16
         ],
-        img: "https://www.arbulang.com/img/fiszki1/48a.jpg",
+        img: "https://www.arbulang.com/img/fiszki1/49aa.jpg",
         story: "Kłóciłem się z <b><u>dziadkeim</b></u> i była <b><u>grand</b></u>a.. ta <b><u>fa</b></u>milia mnie już <b><u>de</b></u>ne<b><u>r</b></u>wuje",
         desc: "grandfather[grandfader] - dziadek",
         sentence2: [
@@ -1918,9 +1971,9 @@ const fiszki10 = [
             17
         ],
         img: [
-            "https://www.arbulang.com/img/fiszki1/49a.jpg",
-            "https://www.arbulang.com/img/fiszki1/49b.jpg",
-            "https://www.arbulang.com/img/fiszki1/49c.jpg"
+            "https://www.arbulang.com/img/fiszki1/50aa.jpg",
+            "https://www.arbulang.com/img/fiszki1/50bb.jpg",
+            "https://www.arbulang.com/img/fiszki1/50cc.jpg"
         ],
         translate: "Moi sąsiedzi sprzedali ich duży dom",
         translateb: "[Maj nejburs ar seling deir big hałs]",
@@ -1957,7 +2010,7 @@ const fiszki10 = [
             9,
             17
         ],
-        img: "https://www.arbulang.com/img/fiszki1/50a.jpg",
+        img: "https://www.arbulang.com/img/fiszki1/51aa.jpg",
         story: "Dla zdol<b><u>nej</b></u> uczennicy <b><u>sąsiedzi</b></u> ułożyli wierszyk, <b><u>bo</b></u> <b><u>s</b></u>ą jej urodziny",
         desc: "neighbours[nejbours] - sąsiedzi",
         sentence1: [
@@ -1980,7 +2033,7 @@ const fiszki10 = [
             17
         ],
         img: [
-            "https://www.arbulang.com/img/fiszki1/51a.jpg",
+            "https://www.arbulang.com/img/fiszki1/52aa.jpg",
             "https://www.arbulang.com/img/fiszki1/220a.jpg"
         ],
         story: [
@@ -2007,7 +2060,7 @@ const fiszki10 = [
             9,
             17
         ],
-        img: "https://www.arbulang.com/img/fiszki1/52a.jpg",
+        img: "https://www.arbulang.com/img/fiszki1/53aa.jpg",
         story: "Ten <b><u>sel</b></u>er łatwo jest <b><u>sprzedać</b></u> na targu, a kupujący robią <b><u>g</b></u>roźne m<b><u>in</b></u>y",
         desc: "selling[seling] - sprzedają",
         sentence1: [
@@ -2029,7 +2082,7 @@ const fiszki10 = [
             9,
             18
         ],
-        img: "https://www.arbulang.com/img/fiszki1/53a.jpg",
+        img: "https://www.arbulang.com/img/fiszki1/54aa.jpg",
         translateb2: "[deir big hałs]",
         srcWord2: ["https://www.arbulang.com/filmy/procedure.mp4", "Breaking Bad"],
         story: "<b><u>W</b></u> ten <b><u>de</b></u>seń jest <b><u>i</b></u>ch <b><u>r</b></u>obota",
@@ -2053,7 +2106,7 @@ const fiszki10 = [
             18
         ],
         img: [
-            "https://www.arbulang.com/img/fiszki1/54a.jpg",
+            "https://www.arbulang.com/img/fiszki1/55aa.jpg",
             "https://www.arbulang.com/img/fiszki1/170a.jpg"
         ],
         story: [
@@ -2079,7 +2132,7 @@ const fiszki10 = [
             9,
             18
         ],
-        img: "https://www.arbulang.com/img/fiszki1/55a.jpg",
+        img: "https://www.arbulang.com/img/fiszki1/55aa.jpg",
         story: "W <b><u>domu</b></u> mamy psa, który robi <b><u>hał</b></u>.. hał.. na sąsiadów i wabi się <b><u>S</b></u>ara",
         desc: "house[hałs] - dom",
         sentence2: [
@@ -2101,9 +2154,9 @@ const fiszki10 = [
             19
         ],
         img: [
-            "https://www.arbulang.com/img/fiszki1/49a.jpg",
-            "https://www.arbulang.com/img/fiszki1/49b.jpg",
-            "https://www.arbulang.com/img/fiszki1/49c.jpg"
+            "https://www.arbulang.com/img/fiszki1/50aa.jpg",
+            "https://www.arbulang.com/img/fiszki1/50bb.jpg",
+            "https://www.arbulang.com/img/fiszki1/50cc.jpg"
         ],
         translate: "Mój pies jest dobrym przyjacielem",
         translateb: "[Maj dog is a gud frend]",
@@ -2141,7 +2194,7 @@ const fiszki10 = [
             10,
             19
         ],
-        img: "https://www.arbulang.com/img/fiszki1/57a.jpg",
+        img: "https://www.arbulang.com/img/fiszki1/58aa.jpg",
         story: "Mój <b><u>pies</b></u> mnie słucha, <b><u>dog</b></u>aduje się z nim",
         desc: "dog[dog] - pies",
         sentence1: [
@@ -2168,7 +2221,9 @@ const fiszki10 = [
             "https://www.arbulang.com/img/fiszki1/8b.jpg",
             "https://www.arbulang.com/img/fiszki1/8c.jpg",
             "https://www.arbulang.com/img/fiszki1/8d.jpg",
-            "https://www.arbulang.com/img/fiszki1/8e.jpg"
+            "https://www.arbulang.com/img/fiszki1/8e.jpg",
+            "https://www.arbulang.com/img/fiszki1/8f.jpg",
+            "https://www.arbulang.com/img/fiszki1/8g.jpg"
         ],
         story: [
             "Gdy ktoś szybko biega obok nas to <u><b>jest</u></b> w popłochu, słyszymy tylko św<u><b>is</u></b>t",
@@ -2207,7 +2262,7 @@ const fiszki10 = [
             10,
             20
         ],
-        img: "https://www.arbulang.com/img/fiszki1/59a.jpg",
+        img: "https://www.arbulang.com/img/fiszki1/60aa.jpg",
         translateb2: "[Maj dog is a gud frend]",
         story: "Zobaczyłem wypłatę.. <b><u>eeeee</b></u> to jest dopiero wypłata",
         desc: "a[e] - coś",
@@ -2229,7 +2284,7 @@ const fiszki10 = [
             10,
             20
         ],
-        img: "https://www.arbulang.com/img/fiszki1/60a.jpg",
+        img: "https://www.arbulang.com/img/fiszki1/61aa.jpg",
         story: "Jest <b><u>dobrze</b></u> kiedy jest więcej wy<b><u>gód</b></u>",
         desc: "good[gud] - dobre",
         sentence2: [
@@ -2250,7 +2305,7 @@ const fiszki10 = [
             10,
             20
         ],
-        img: "https://www.arbulang.com/img/fiszki1/61a.jpg",
+        img: "https://www.arbulang.com/img/fiszki1/62aa.jpg",
         story: "<b><u>End</b></u>riu ma <b><u>fr</b></u>ak na zimę, każda pora roku to jego przyjaciel",
         desc: "friend[frend] - przyjaciel",
         sentence2: [
@@ -2319,7 +2374,7 @@ const fiszki10 = [
             11,
             21
         ],
-        img: "https://www.arbulang.com/img/fiszki1/63a.jpg",
+        img: "https://www.arbulang.com/img/fiszki1/64aa.jpg",
         story: "W tym pa<b><u>ti</b></u>o siedzi nauczyciel w <b><u>czer</b></u>wonej koszuli",
         desc: "teacher[ticzer] - nauczyciel",
         sentence1: [
@@ -2343,7 +2398,7 @@ const fiszki10 = [
             11,
             21
         ],
-        img: "https://www.arbulang.com/img/fiszki1/64a.jpg",
+        img: "https://www.arbulang.com/img/fiszki1/65aa.jpg",
         story: "Nasa <b><u>próbuje</b></u> zmienić <b><u>traj</b></u>ektorie lotu <b><u>s</b></u>atelity",
         desc: "tries[trajs] - próbuje",
         sentence1: [
@@ -2405,7 +2460,7 @@ const fiszki10 = [
             11,
             22
         ],
-        img: "https://www.arbulang.com/img/fiszki1/66a.jpg",
+        img: "https://www.arbulang.com/img/fiszki1/67aa.jpg",
         story: "Gaz - <b><u>hel</b></u>, <b><u>p</b></u>omaga zmieniać ton głosu",
         desc: "help[help] - pomagać",
         sentence2: [
@@ -2426,7 +2481,7 @@ const fiszki10 = [
             11,
             22
         ],
-        img: "https://www.arbulang.com/img/fiszki1/67a.jpg",
+        img: "https://www.arbulang.com/img/fiszki1/68aa.jpg",
         story: "<b><u>As</b></u>teroida pod mikroskopem wydaje się <b><u>nam</b></u> niezwykła",
         desc: "us[as] - my, nam",
         sentence2: [
@@ -2495,7 +2550,7 @@ const fiszki10 = [
             12,
             23
         ],
-        img: "https://www.arbulang.com/img/fiszki1/69a.jpg",
+        img: "https://www.arbulang.com/img/fiszki1/70aa.jpg",
         story: "<b><u>Pare</b></u> lat temu moi <b><u>rodzice</b></u> byli sentym<b><u>ent</b></u>alni i chyba <b><u>s</b></u>ą nadal",
         desc: "parents[parents] - rodzice",
         sentence1: [
@@ -2517,7 +2572,7 @@ const fiszki10 = [
             12,
             23
         ],
-        img: "https://www.arbulang.com/img/fiszki1/70a.jpg",
+        img: "https://www.arbulang.com/img/fiszki1/71aa.jpg",
         story: "Ta karta <b><u>sim</b></u> nie działa, <b><u>wydaje mi się</b></u>, że uszkodziłem ją wcześniej",
         desc: "seem[sim] - wydaje się",
         sentence1: [
@@ -2617,11 +2672,12 @@ const fiszki10 = [
             25
         ],
         img: [
-            "https://www.arbulang.com/img/fiszki1/6a.jpg",
-            "https://www.arbulang.com/img/fiszki1/6b.jpg",
-            "https://www.arbulang.com/img/fiszki1/6c.jpg",
-            "https://www.arbulang.com/img/fiszki1/6d.jpg",
-            "https://www.arbulang.com/img/fiszki1/6e.jpg"
+            "https://www.arbulang.com/img/fiszki1/5a.jpg",
+            "https://www.arbulang.com/img/fiszki1/5b.jpg",
+            "https://www.arbulang.com/img/fiszki1/5c.jpg",
+            "https://www.arbulang.com/img/fiszki1/5d.jpg",
+            "https://www.arbulang.com/img/fiszki1/5e.jpg",
+            "https://www.arbulang.com/img/fiszki1/5f.jpg"
         ],
         translate: "Psy mogą biec naprawdę szybko",
         translateb: "[De dogs ken ran rili fast]",
@@ -2663,7 +2719,10 @@ const fiszki10 = [
             13,
             25
         ],
-        img: "https://www.arbulang.com/img/fiszki1/75a.jpg",
+        img: [
+        "https://www.arbulang.com/img/fiszki1/75a.jpg",
+        "https://www.arbulang.com/img/fiszki1/75b.jpg"
+        ],
         story: [
             "Móje <b><u>psy</b></u> mnie <b><u>s</b></u>łuchają, <b><u>dog</b></u>aduje się z nimi",
             "<b><u>Psom</b></u> łatwo <b><u>dog</b></u>odzić <b><u>s</b></u>maczną karmą"
@@ -2778,9 +2837,10 @@ const fiszki10 = [
             27
         ],
         img: [
-            "https://www.arbulang.com/img/fiszki1/43a.jpg",
-            "https://www.arbulang.com/img/fiszki1/80b.jpg",
+            "https://www.arbulang.com/img/fiszki1/44b.jpg",
+            "https://www.arbulang.com/img/fiszki1/44a.jpg",
             "https://www.arbulang.com/img/fiszki1/83c.jpg",
+            "https://www.arbulang.com/img/fiszki1/83b.jpg",
             "https://www.arbulang.com/img/fiszki1/108d.jpg"
         ],
         translate: "Ta edycja traci ważność w tym tygodniu",
@@ -2792,9 +2852,10 @@ const fiszki10 = [
             "https://www.arbulang.com/voice/music.mp4"
         ],
         story: [
+            "Ma<b><u>dis</b></u>on jest świetnym sportowcem a to jej trener",
             "Quo va<b><u>dis</b></u> <b><u>to</b></u> cytat bardzo znany",
-            "To słówko distant - czytamy <b><u>dis</b></u>tant",
             "E<b><u>dis</b></u>on to geniusz",
+            "To słówko distant - czytamy <b><u>dis</b></u>tant",
             "<b><u>Di</b></u>va operowa jest <b><u>s</b></u>ławna"
         ],
         desc: "this[dis] - to",
@@ -2867,19 +2928,20 @@ const fiszki10 = [
             28
         ],
         img: [
-            "https://www.arbulang.com/img/fiszki1/43a.jpg",
-            "https://www.arbulang.com/img/fiszki1/80b.jpg",
+            "https://www.arbulang.com/img/fiszki1/44b.jpg",
+            "https://www.arbulang.com/img/fiszki1/44a.jpg",
             "https://www.arbulang.com/img/fiszki1/83c.jpg",
+            "https://www.arbulang.com/img/fiszki1/83b.jpg",
             "https://www.arbulang.com/img/fiszki1/108d.jpg"
         ],
-        translateb2: "[dis łik]",
         story: [
+            "Ma<b><u>dis</b></u>on jest świetnym sportowcem a to jej trener",
             "Quo va<b><u>dis</b></u> <b><u>to</b></u> cytat bardzo znany",
-            "To słówko distant - czytamy <b><u>dis</b></u>tant",
             "E<b><u>dis</b></u>on to geniusz",
+            "To słówko distant - czytamy <b><u>dis</b></u>tant",
             "<b><u>Di</b></u>va operowa jest <b><u>s</b></u>ławna"
         ],
-        desc: "this[dis] - ten/tego",
+        desc: "this[dis] - to",
         sentence2: [
             "this"
         ],
@@ -3179,7 +3241,7 @@ const fiszki10 = [
             16,
             32
         ],
-        img: "https://www.arbulang.com/img/fiszki1/94a.jpg",
+        img: "https://www.arbulang.com/img/fiszki1/93aa.jpg",
         story: "<b><u>Ep</b></u>oka w której podchodzono do <b><u>ro</b></u>bienia ikon ołówkiem to stare <b><u>cz</b></u>asy",
         desc: "approach[eprołcz] - podejść/podejście",
         sentence2: [
@@ -3200,7 +3262,7 @@ const fiszki10 = [
             16,
             32
         ],
-        img: "https://www.arbulang.com/img/fiszki1/95a.jpg",
+        img: "https://www.arbulang.com/img/fiszki1/94aa.jpg",
         story: "<b><u>Jej</b></u> <b><u>her</b></u>bata jest słodka",
         desc: "her[her] - jej",
         sentence2: [
@@ -3221,7 +3283,7 @@ const fiszki10 = [
             17,
             33
         ],
-        img: "https://www.arbulang.com/img/fiszki1/96a.jpg",
+        img: "https://www.arbulang.com/img/fiszki1/95aa.jpg",
         translate: "Ona jest przywiązana do swojego łuku",
         translateb: "[Szi is etaczd to her boł]",
         srcWord: ["https://www.arbulang.com/filmy/bow.mp4", "Igrzyska śmierci: Kosogłos. Część 2(2015)"],
@@ -3252,7 +3314,9 @@ const fiszki10 = [
             "https://www.arbulang.com/img/fiszki1/8b.jpg",
             "https://www.arbulang.com/img/fiszki1/8c.jpg",
             "https://www.arbulang.com/img/fiszki1/8d.jpg",
-            "https://www.arbulang.com/img/fiszki1/8e.jpg"
+            "https://www.arbulang.com/img/fiszki1/8e.jpg",
+            "https://www.arbulang.com/img/fiszki1/8f.jpg",
+            "https://www.arbulang.com/img/fiszki1/8g.jpg"
         ],
         story: [
             "Gdy ktoś szybko biega obok nas to <u><b>jest</u></b> w popłochu, słyszymy tylko św<u><b>is</u></b>t",
@@ -3291,7 +3355,7 @@ const fiszki10 = [
             17,
             33
         ],
-        img: "https://www.arbulang.com/img/fiszki1/98a.jpg",
+        img: "https://www.arbulang.com/img/fiszki1/97a.jpg",
         story: "Jestem przywiązany do mojego fiata, jadę nim na po</b></u>czt<b><u>ę",
         desc: "attached[ataczt] - przywiązany",
         sentence1: [
@@ -3352,7 +3416,7 @@ const fiszki10 = [
             17,
             34
         ],
-        img: "https://www.arbulang.com/img/fiszki1/95a.jpg",
+        img: "https://www.arbulang.com/img/fiszki1/94aa.jpg",
         story: [
             "<b><u>Jej</b></u> <b><u>her</b></u>bata jest słodka"
         ],

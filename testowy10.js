@@ -2120,13 +2120,8 @@ id: [
                 "ideas"
         ],
         //  slowo do nauki
-        key: "everybody",
+        key: "con",
         category1: [
-                "sport", "gaming",
-                "natura", "kulinaria",
-                "nauka", "medycyna",
-                "czarny humor", "pasja",
-                "związki", "wychowanie"
         ],
         category2: ["osoby", "osoby+czas"]
 },
@@ -2158,13 +2153,8 @@ id: [
                 "ideas"
         ],
         //  slowo do nauki
-        key: "everybody",
+        key: "nuevas",
         category1: [
-                "sport", "gaming",
-                "natura", "kulinaria",
-                "nauka", "medycyna",
-                "czarny humor", "pasja",
-                "związki", "wychowanie"
         ],
         category2: ["osoby", "osoby+czas"]
 },
@@ -2197,13 +2187,8 @@ id: [
                 "ideas"
         ],
         //  slowo do nauki
-        key: "everybody",
+        key: "ideas",
         category1: [
-                "sport", "gaming",
-                "natura", "kulinaria",
-                "nauka", "medycyna",
-                "czarny humor", "pasja",
-                "związki", "wychowanie"
         ],
         category2: ["osoby", "osoby+czas"]
 },
@@ -2238,13 +2223,8 @@ id: [
                 "problemas"
         ],
         //  slowo do nauki
-        key: "everybody",
+        key: "prever",
         category1: [
-                "sport", "gaming",
-                "natura", "kulinaria",
-                "nauka", "medycyna",
-                "czarny humor", "pasja",
-                "związki", "wychowanie"
         ],
         category2: ["osoby", "osoby+czas"],
                 category3: ["Infinitive"]
@@ -2276,13 +2256,8 @@ id: [
                 "problemas"
         ],
         //  slowo do nauki
-        key: "everybody",
+        key: "problemas",
         category1: [
-                "sport", "gaming",
-                "natura", "kulinaria",
-                "nauka", "medycyna",
-                "czarny humor", "pasja",
-                "związki", "wychowanie"
         ],
         category2: ["osoby", "osoby+czas"]
 },
@@ -2315,13 +2290,8 @@ id: [
                 "siempre"
         ],
         //  slowo do nauki
-        key: "everybody",
+        key: "y",
         category1: [
-                "sport", "gaming",
-                "natura", "kulinaria",
-                "nauka", "medycyna",
-                "czarny humor", "pasja",
-                "związki", "wychowanie"
         ],
         category2: ["osoby", "osoby+czas"]
 },
@@ -2354,13 +2324,8 @@ id: [
                 "siempre"
         ],
         //  slowo do nauki
-        key: "everybody",
+        key: "estar",
         category1: [
-                "sport", "gaming",
-                "natura", "kulinaria",
-                "nauka", "medycyna",
-                "czarny humor", "pasja",
-                "związki", "wychowanie"
         ],
         category2: ["osoby", "osoby+czas"]
 },
@@ -2393,13 +2358,8 @@ id: [
                 "siempre"
         ],
         //  slowo do nauki
-        key: "everybody",
+        key: "preparado",
         category1: [
-                "sport", "gaming",
-                "natura", "kulinaria",
-                "nauka", "medycyna",
-                "czarny humor", "pasja",
-                "związki", "wychowanie"
         ],
         category2: ["osoby", "osoby+czas"]
 },
@@ -2432,13 +2392,8 @@ id: [
                 "siempre"
         ],
         //  slowo do nauki
-        key: "everybody",
+        key: "siempre",
         category1: [
-                "sport", "gaming",
-                "natura", "kulinaria",
-                "nauka", "medycyna",
-                "czarny humor", "pasja",
-                "związki", "wychowanie"
         ],
         category2: ["osoby", "osoby+czas"]
 },
@@ -2475,13 +2430,8 @@ id: [
                 "siempre"
         ],
         //  slowo do nauki
-        key: "everybody",
+        key: "proteger",
         category1: [
-                "sport", "gaming",
-                "natura", "kulinaria",
-                "nauka", "medycyna",
-                "czarny humor", "pasja",
-                "związki", "wychowanie"
         ],
         category2: ["osoby", "osoby+czas"],
                 category3: ["Infinitive"]
@@ -2515,13 +2465,8 @@ id: [
                 "siempre"
         ],
         //  slowo do nauki
-        key: "everybody",
+        key: "derechos",
         category1: [
-                "sport", "gaming",
-                "natura", "kulinaria",
-                "nauka", "medycyna",
-                "czarny humor", "pasja",
-                "związki", "wychowanie"
         ],
         category2: ["osoby", "osoby+czas"]
 },
@@ -2554,13 +2499,8 @@ id: [
                 "siempre"
         ],
         //  slowo do nauki
-        key: "everybody",
+        key: "todos",
         category1: [
-                "sport", "gaming",
-                "natura", "kulinaria",
-                "nauka", "medycyna",
-                "czarny humor", "pasja",
-                "związki", "wychowanie"
         ],
         category2: ["osoby", "osoby+czas"]
 },
@@ -2593,13 +2533,8 @@ id: [
                 "siempre"
         ],
         //  slowo do nauki
-        key: "everybody",
+        key: "siempre",
         category1: [
-                "sport", "gaming",
-                "natura", "kulinaria",
-                "nauka", "medycyna",
-                "czarny humor", "pasja",
-                "związki", "wychowanie"
         ],
         category2: ["osoby", "osoby+czas"]
 },
@@ -2635,13 +2570,8 @@ id: [
                 "divertidas"
         ],
         //  slowo do nauki
-        key: "everybody",
+        key: "contar",
         category1: [
-                "sport", "gaming",
-                "natura", "kulinaria",
-                "nauka", "medycyna",
-                "czarny humor", "pasja",
-                "związki", "wychowanie"
         ],
         category2: ["osoby", "osoby+czas"],
                 category3: ["Infinitive"]
@@ -2674,13 +2604,8 @@ id: [
                 "divertidas"
         ],
         //  slowo do nauki
-        key: "everybody",
+        key: "historias",
         category1: [
-                "sport", "gaming",
-                "natura", "kulinaria",
-                "nauka", "medycyna",
-                "czarny humor", "pasja",
-                "związki", "wychowanie"
         ],
         category2: ["osoby", "osoby+czas"]
 },
@@ -2712,13 +2637,8 @@ id: [
                 "divertidas"
         ],
         //  slowo do nauki
-        key: "everybody",
+        key: "divertidas",
         category1: [
-                "sport", "gaming",
-                "natura", "kulinaria",
-                "nauka", "medycyna",
-                "czarny humor", "pasja",
-                "związki", "wychowanie"
         ],
         category2: ["osoby", "osoby+czas"]
 },
@@ -2756,13 +2676,8 @@ id: [
                 "amigos"
         ],
         //  slowo do nauki
-        key: "everybody",
+        key: "con",
         category1: [
-                "sport", "gaming",
-                "natura", "kulinaria",
-                "nauka", "medycyna",
-                "czarny humor", "pasja",
-                "związki", "wychowanie"
         ],
         category2: ["osoby", "osoby+czas"]
 },
@@ -2794,13 +2709,8 @@ id: [
                 "amigos"
         ],
         //  slowo do nauki
-        key: "everybody",
+        key: "buenos",
         category1: [
-                "sport", "gaming",
-                "natura", "kulinaria",
-                "nauka", "medycyna",
-                "czarny humor", "pasja",
-                "związki", "wychowanie"
         ],
         category2: ["osoby", "osoby+czas"]
 },
@@ -2832,13 +2742,8 @@ id: [
                 "amigos"
         ],
         //  slowo do nauki
-        key: "everybody",
+        key: "amigos",
         category1: [
-                "sport", "gaming",
-                "natura", "kulinaria",
-                "nauka", "medycyna",
-                "czarny humor", "pasja",
-                "związki", "wychowanie"
         ],
         category2: ["osoby", "osoby+czas"]
 },
@@ -2874,13 +2779,8 @@ id: [
                 "alegre"
         ],
         //  slowo do nauki
-        key: "everybody",
+        key: "escuchar",
         category1: [
-                "sport", "gaming",
-                "natura", "kulinaria",
-                "nauka", "medycyna",
-                "czarny humor", "pasja",
-                "związki", "wychowanie"
         ],
         category2: ["osoby", "osoby+czas"],
                 category3: ["Infinitive"]
@@ -2913,13 +2813,8 @@ id: [
                 "alegre"
         ],
         //  slowo do nauki
-        key: "everybody",
+        key: "musica",
         category1: [
-                "sport", "gaming",
-                "natura", "kulinaria",
-                "nauka", "medycyna",
-                "czarny humor", "pasja",
-                "związki", "wychowanie"
         ],
         category2: ["osoby", "osoby+czas"]
 },
@@ -2951,13 +2846,8 @@ id: [
                 "alegre"
         ],
         //  slowo do nauki
-        key: "everybody",
+        key: "alegre",
         category1: [
-                "sport", "gaming",
-                "natura", "kulinaria",
-                "nauka", "medycyna",
-                "czarny humor", "pasja",
-                "związki", "wychowanie"
         ],
         category2: ["osoby", "osoby+czas"]
 },
@@ -2988,13 +2878,8 @@ id: [
                 "el coche"
         ],
         //  slowo do nauki
-        key: "everybody",
+        key: "en",
         category1: [
-                "sport", "gaming",
-                "natura", "kulinaria",
-                "nauka", "medycyna",
-                "czarny humor", "pasja",
-                "związki", "wychowanie"
         ],
         category2: ["osoby", "osoby+czas"]
 },
@@ -3025,13 +2910,8 @@ id: [
                 "el coche"
         ],
         //  slowo do nauki
-        key: "everybody",
+        key: "coche",
         category1: [
-                "sport", "gaming",
-                "natura", "kulinaria",
-                "nauka", "medycyna",
-                "czarny humor", "pasja",
-                "związki", "wychowanie"
         ],
         category2: ["osoby", "osoby+czas"]
 },
@@ -3066,13 +2946,8 @@ id: [
                 "temprano"
         ],
         //  slowo do nauki
-        key: "everybody",
+        key: "llegar",
         category1: [
-                "sport", "gaming",
-                "natura", "kulinaria",
-                "nauka", "medycyna",
-                "czarny humor", "pasja",
-                "związki", "wychowanie"
         ],
         category2: ["osoby", "osoby+czas"],
                 category3: ["Infinitive"]
@@ -3104,13 +2979,8 @@ id: [
                 "temprano"
         ],
         //  slowo do nauki
-        key: "everybody",
+        key: "temprano",
         category1: [
-                "sport", "gaming",
-                "natura", "kulinaria",
-                "nauka", "medycyna",
-                "czarny humor", "pasja",
-                "związki", "wychowanie"
         ],
         category2: ["osoby", "osoby+czas"]
 },
@@ -3141,13 +3011,8 @@ id: [
                 "la mañana"
         ],
         //  slowo do nauki
-        key: "everybody",
+        key: "la manana",
         category1: [
-                "sport", "gaming",
-                "natura", "kulinaria",
-                "nauka", "medycyna",
-                "czarny humor", "pasja",
-                "związki", "wychowanie"
         ],
         category2: ["osoby", "osoby+czas"]
 },
@@ -3179,13 +3044,8 @@ id: [
                 "la mañana"
         ],
         //  slowo do nauki
-        key: "everybody",
+        key: "disfrutar",
         category1: [
-                "sport", "gaming",
-                "natura", "kulinaria",
-                "nauka", "medycyna",
-                "czarny humor", "pasja",
-                "związki", "wychowanie"
         ],
         category2: ["osoby", "osoby+czas"]
 },
@@ -3217,13 +3077,8 @@ id: [
                 "la mañana"
         ],
         //  slowo do nauki
-        key: "everybody",
+        key: "manana",
         category1: [
-                "sport", "gaming",
-                "natura", "kulinaria",
-                "nauka", "medycyna",
-                "czarny humor", "pasja",
-                "związki", "wychowanie"
         ],
         category2: ["osoby", "osoby+czas"]
 },
@@ -3259,13 +3114,8 @@ id: [
                 "que"
         ],
         //  slowo do nauki
-        key: "everybody",
+        key: "rehusar",
         category1: [
-                "sport", "gaming",
-                "natura", "kulinaria",
-                "nauka", "medycyna",
-                "czarny humor", "pasja",
-                "związki", "wychowanie"
         ],
         category2: ["osoby", "osoby+czas"],
                 category3: ["Infinitive"]
@@ -3298,7 +3148,7 @@ id: [
                 "que"
         ],
         //  slowo do nauki
-        key: "everybody",
+        key: "ofertas",
         category1: [
                 "sport", "gaming",
                 "natura", "kulinaria",
@@ -3336,13 +3186,8 @@ id: [
                 "que"
         ],
         //  slowo do nauki
-        key: "everybody",
+        key: "que",
         category1: [
-                "sport", "gaming",
-                "natura", "kulinaria",
-                "nauka", "medycyna",
-                "czarny humor", "pasja",
-                "związki", "wychowanie"
         ],
         category2: ["osoby", "osoby+czas"]
 },
@@ -3373,13 +3218,8 @@ id: [
                 "te gusten"
         ],
         //  slowo do nauki
-        key: "everybody",
+        key: "no",
         category1: [
-                "sport", "gaming",
-                "natura", "kulinaria",
-                "nauka", "medycyna",
-                "czarny humor", "pasja",
-                "związki", "wychowanie"
         ],
         category2: ["osoby", "osoby+czas"]
 },
@@ -3410,13 +3250,8 @@ id: [
                 "te gusten"
         ],
         //  slowo do nauki
-        key: "everybody",
+        key: "te gusten",
         category1: [
-                "sport", "gaming",
-                "natura", "kulinaria",
-                "nauka", "medycyna",
-                "czarny humor", "pasja",
-                "związki", "wychowanie"
         ],
         category2: ["osoby", "osoby+czas"]
 },
@@ -3451,13 +3286,8 @@ id: [
                 "fuerte"
         ],
         //  slowo do nauki
-        key: "everybody",
+        key: "entrenar",
         category1: [
-                "sport", "gaming",
-                "natura", "kulinaria",
-                "nauka", "medycyna",
-                "czarny humor", "pasja",
-                "związki", "wychowanie"
         ],
         category2: ["osoby", "osoby+czas"],
                 category3: ["Infinitive"]
@@ -3489,13 +3319,8 @@ id: [
                 "fuerte"
         ],
         //  slowo do nauki
-        key: "everybody",
+        key: "fuerte",
         category1: [
-                "sport", "gaming",
-                "natura", "kulinaria",
-                "nauka", "medycyna",
-                "czarny humor", "pasja",
-                "związki", "wychowanie"
         ],
         category2: ["osoby", "osoby+czas"]
 },
@@ -3527,13 +3352,8 @@ id: [
                 "mejor"
         ],
         //  slowo do nauki
-        key: "everybody",
+        key: "para",
         category1: [
-                "sport", "gaming",
-                "natura", "kulinaria",
-                "nauka", "medycyna",
-                "czarny humor", "pasja",
-                "związki", "wychowanie"
         ],
         category2: ["osoby", "osoby+czas"]
 },
@@ -3565,13 +3385,8 @@ id: [
                 "mejor"
         ],
         //  slowo do nauki
-        key: "everybody",
+        key: "sentirte",
         category1: [
-                "sport", "gaming",
-                "natura", "kulinaria",
-                "nauka", "medycyna",
-                "czarny humor", "pasja",
-                "związki", "wychowanie"
         ],
         category2: ["osoby", "osoby+czas"]
 },
@@ -3603,13 +3418,8 @@ id: [
                 "mejor"
         ],
         //  slowo do nauki
-        key: "everybody",
+        key: "mejor",
         category1: [
-                "sport", "gaming",
-                "natura", "kulinaria",
-                "nauka", "medycyna",
-                "czarny humor", "pasja",
-                "związki", "wychowanie"
         ],
         category2: ["osoby", "osoby+czas"]
 },
@@ -3646,7 +3456,7 @@ id: [
                 "a los niños"
         ],
         //  slowo do nauki
-        key: "everybody",
+        key: "explicar",
         category1: [
                 "sport", "gaming"
         ],
@@ -3682,7 +3492,7 @@ id: [
                 "a los niños"
         ],
         //  slowo do nauki
-        key: "everybody",
+        key: "respuestas",
         category1: [
                 "sport", "gaming"
         ],
@@ -3718,7 +3528,7 @@ id: [
                 "a los niños"
         ],
         //  slowo do nauki
-        key: "everybody",
+        key: "claras",
         category1: [
                 "sport", "gaming"
         ],
@@ -3754,7 +3564,7 @@ id: [
                 "a los niños"
         ],
         //  slowo do nauki
-        key: "everybody",
+        key: "ninos",
         category1: [
                 "sport", "gaming"
         ],
@@ -3793,7 +3603,7 @@ id: [
                 "deliciosa"
         ],
         //  slowo do nauki
-        key: "everybody",
+        key: "probar",
         category1: [
                 "sport", "gaming"
         ],
@@ -3828,7 +3638,7 @@ id: [
                 "deliciosa"
         ],
         //  slowo do nauki
-        key: "everybody",
+        key: "comida",
         category1: [
                 "sport", "gaming"
         ],
@@ -3863,7 +3673,7 @@ id: [
                 "deliciosa"
         ],
         //  slowo do nauki
-        key: "everybody",
+        key: "deliciosa",
         category1: [
                 "sport", "gaming"
         ],
@@ -3898,7 +3708,7 @@ id: [
                 "lugares"
         ],
         //  slowo do nauki
-        key: "everybody",
+        key: "en",
         category1: [
                 "sport", "gaming"
         ],
@@ -3933,7 +3743,7 @@ id: [
                 "lugares"
         ],
         //  slowo do nauki
-        key: "everybody",
+        key: "nuevos",
         category1: [
                 "sport", "gaming"
         ],
@@ -3968,7 +3778,7 @@ id: [
                 "lugares"
         ],
         //  slowo do nauki
-        key: "everybody",
+        key: "lugares",
         category1: [
                 "sport", "gaming"
         ],
@@ -4006,7 +3816,7 @@ id: [
                 "juntos"
         ],
         //  slowo do nauki
-        key: "everybody",
+        key: "reir",
         category1: [
                 "sport", "gaming"
         ],
@@ -4041,7 +3851,7 @@ id: [
                 "lugares"
         ],
         //  slowo do nauki
-        key: "everybody",
+        key: "juntos",
         category1: [
                 "sport", "gaming"
         ],
@@ -4062,7 +3872,7 @@ id: [
         ],
         // historia
         story: [
-            "<u><b>Lu</u></b>bimy te miejsca, w których możemy za<u><b>gar</u></b>ażować swoje auto. Bo wtedy j<u><b>es</u></b>t bezpieczne"
+            ""
         ],
         // opis
         desc: "mientras[mientras] - podczas",
@@ -4077,7 +3887,7 @@ id: [
                 "cómicas"
         ],
         //  slowo do nauki
-        key: "everybody",
+        key: "mientras",
         category1: [
                 "sport", "gaming"
         ],
@@ -4098,7 +3908,7 @@ id: [
         ],
         // historia
         story: [
-            "<u><b>Lu</u></b>bimy te miejsca, w których możemy za<u><b>gar</u></b>ażować swoje auto. Bo wtedy j<u><b>es</u></b>t bezpieczne"
+            ""
         ],
         // opis
         desc: "miramos[miramos] - oglądać",
@@ -4113,7 +3923,7 @@ id: [
                 "cómicas"
         ],
         //  slowo do nauki
-        key: "everybody",
+        key: "miramos",
         category1: [
                 "sport", "gaming"
         ],
@@ -4149,7 +3959,7 @@ id: [
                 "cómicas"
         ],
         //  slowo do nauki
-        key: "everybody",
+        key: "peliculas",
         category1: [
                 "sport", "gaming"
         ],
@@ -4170,7 +3980,7 @@ id: [
         ],
         // historia
         story: [
-            "<u><b>Lu</u></b>bimy te miejsca, w których możemy za<u><b>gar</u></b>ażować swoje auto. Bo wtedy j<u><b>es</u></b>t bezpieczne"
+            ""
         ],
         // opis
         desc: "cómicas[comicas] - komediowe",
@@ -4185,7 +3995,7 @@ id: [
                 "cómicas"
         ],
         //  slowo do nauki
-        key: "everybody",
+        key: "comicas",
         category1: [
                 "sport", "gaming"
         ],
@@ -4223,7 +4033,7 @@ id: [
                 "mentiras"
         ],
         //  slowo do nauki
-        key: "everybody",
+        key: "negar",
         category1: [
                 "sport", "gaming"
         ],
@@ -4257,7 +4067,7 @@ id: [
                 "mentiras"
         ],
         //  slowo do nauki
-        key: "everybody",
+        key: "mentiras",
         category1: [
                 "sport", "gaming"
         ],
@@ -4292,7 +4102,7 @@ id: [
                 "verdad"
         ],
         //  slowo do nauki
-        key: "everybody",
+        key: "y",
         category1: [
                 "sport", "gaming"
         ],
@@ -4328,7 +4138,7 @@ id: [
                 "verdad"
         ],
         //  slowo do nauki
-        key: "everybody",
+        key: "decir",
         category1: [
                 "sport", "gaming"
         ],
@@ -4363,7 +4173,7 @@ id: [
                 "verdad"
         ],
         //  slowo do nauki
-        key: "everybody",
+        key: "siempre",
         category1: [
                 "sport", "gaming"
         ],
@@ -4399,7 +4209,7 @@ id: [
                 "verdad"
         ],
         //  slowo do nauki
-        key: "everybody",
+        key: "verdad",
         category1: [
                 "sport", "gaming"
         ],

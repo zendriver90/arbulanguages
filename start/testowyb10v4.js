@@ -615,7 +615,7 @@ fiszki10.push(
             "single",
             "day"
         ],
-        key: "every-każdy",
+        key: "every",
         key2: ["każdy"],
                 key3: ["wszelki-any", "każdorazowy-each"],
         key4: ["every-każdy"],
@@ -980,7 +980,7 @@ fiszki10.push(
         translate: "Oni poszli dzisiaj do sklepu",
         translateb: "[Dej łent tu de stor tudej]",
         translateb2: "[]",
-        srcWord: ["https://www.arbulang.com/filmy/store2.mp4", 'The Matrix Reloaded (2003)'],
+        srcWord: ["https://www.arbulang.com/filmy/store2.mp4", 'Sztanga i Cash (2013)'],
         srcWord2: ["https://www.arbulang.com/filmy/procedure.mp4", "Breaking Bad"],
         srcWordimage: "https://www.arbulang.com/filmy/store2.png",
         word: [
@@ -1076,7 +1076,7 @@ fiszki10.push(
         translate: "Nasz nauczyciel pomaga nam z pracą domową",
         translateb: "[Aur ticzer helps as wiz hołmłork]",
         translateb2: "[]",
-        srcWord: ["https://www.arbulang.com/filmy/teacher2.mp4", 'The Matrix Reloaded (2003)'],
+        srcWord: ["https://www.arbulang.com/filmy/teacher2.mp4", 'Dom z papieru (2017-2021)'],
         srcWord2: ["https://www.arbulang.com/filmy/procedure.mp4", "Breaking Bad"],
         srcWordimage: "https://www.arbulang.com/filmy/teacher2.png",
         word: [
@@ -1238,9 +1238,9 @@ fiszki10.push(
         translate: "Pies śpi pod dużym drzewem",
         translateb: "[De dog slips ander de big tri]",
         translateb2: "[]",
-        srcWord: ["https://www.arbulang.com/filmy/dogtree.mp4", 'The Matrix Reloaded (2003)'],
+        srcWord: ["https://www.arbulang.com/filmy/dogtree.mp4", 'Komisarz Alex (2011)'],
         srcWord2: ["https://www.arbulang.com/filmy/procedure.mp4", "Breaking Bad"],
-        srcWordimage: "https://www.arbulang.com/filmy/dogree.png",
+        srcWordimage: "https://www.arbulang.com/filmy/dogtree.png",
         word: [
             "https://www.arbulang.com/voice/music.mp4"
         ],
@@ -1439,9 +1439,9 @@ fiszki10.push(
         translate: "Pies śpi pod dużym drzewem",
         translateb: "[De dog slips ander de big tri]",
         translateb2: "[]",
-        srcWord: ["https://www.arbulang.com/filmy/.mp4", 'The Matrix Reloaded (2003)'],
+        srcWord: ["https://www.arbulang.com/filmy/drivefast.mp4", 'Fast and Furious'],
         srcWord2: ["https://www.arbulang.com/filmy/procedure.mp4", "Breaking Bad"],
-        srcWordimage: "https://www.arbulang.com/filmy/.png",
+        srcWordimage: "https://www.arbulang.com/filmy/drivefast.png",
         word: [
             "https://www.arbulang.com/voice/music.mp4"
         ],
@@ -1482,7 +1482,7 @@ fiszki10.push(
             "man",
             "drives"
         ],
-        key: "dog",
+        key: "man",
         category1: "nauka",
         category2: ["osoby"],
                 category3: ["PresentSimple", "PresentSimpleCzasownik"]
@@ -1504,7 +1504,7 @@ fiszki10.push(
             "man",
             "drives"
         ],
-        key: "sleeps",
+        key: "drives",
         category1: "nauka",
         category2: ["czasownik"]
     },
@@ -1531,7 +1531,7 @@ fiszki10.push(
             "car",
             "fast"
         ],
-        key: "the",
+        key: "his",
         category1: "nauka",
         category2: ["zaimkiosobowe", "osoby"]
     },
@@ -1556,7 +1556,7 @@ fiszki10.push(
             "car",
             "fast"
         ],
-        key: "big",
+        key: "car",
         category1: "nauka",
         category2: ["rzeczy"]
     },
@@ -1577,7 +1577,7 @@ fiszki10.push(
             "car",
             "fast"
         ],
-        key: "tree",
+        key: "fast",
         category1: "nauka",
         category2: ["czas", "ilość"]
     },
@@ -1597,9 +1597,9 @@ fiszki10.push(
         translate: "Pies śpi pod dużym drzewem",
         translateb: "[De dog slips ander de big tri]",
         translateb2: "[]",
-        srcWord: ["https://www.arbulang.com/filmy/store2.mp4", 'The Matrix Reloaded (2003)'],
+        srcWord: ["https://www.arbulang.com/filmy/children-outside.mp4", 'Grandmas House (2016)'],
         srcWord2: ["https://www.arbulang.com/filmy/procedure.mp4", "Breaking Bad"],
-        srcWordimage: "https://www.arbulang.com/filmy/store2.png",
+        srcWordimage: "https://www.arbulang.com/filmy/children-outside.png",
         word: [
             "https://www.arbulang.com/voice/music.mp4"
         ],
@@ -1642,7 +1642,7 @@ fiszki10.push(
             "play",
             "outside"
         ],
-        key: "dog",
+        key: "children",
         category1: "nauka",
         category2: ["osoby"],
                 category3: ["PresentSimple", "PresentSimpleCzasownik"]
@@ -1665,7 +1665,7 @@ fiszki10.push(
             "play",
             "outside"
         ],
-        key: "sleeps",
+        key: "play",
         category1: "nauka",
         category2: ["czasownik"]
     },
@@ -1691,7 +1691,7 @@ fiszki10.push(
             "play",
             "outside"
         ],
-        key: "the",
+        key: "outside",
         category1: "nauka",
         category2: ["okresleniaMiejsca"]
     },
@@ -1716,7 +1716,7 @@ fiszki10.push(
             "the",
             "school"
         ],
-        key: "big",
+        key: "after",
         category1: "nauka",
         category2: ["czas"]
     },
@@ -1749,7 +1749,7 @@ fiszki10.push(
             "the",
             "school"
         ],
-        key: "tree",
+        key: "the",
         category1: "nauka",
         category2: ["zaimki"]
     },
@@ -1782,8 +1782,8 @@ fiszki10.push(
             "the",
             "school"
         ],
-        key: "tree",
+        key: "school",
         category1: "nauka",
         category2: ["rzeczy"]
-    }
+    },
 );
