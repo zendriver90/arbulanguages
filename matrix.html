@@ -52,6 +52,16 @@
     font-size: 16px;
     border-radius: 5px;
   }
+    .category-btn5 {
+    background-color: gray; /* Filetowy kolor dla wszystkich przycisków */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+  }
 
   .category-btn[data-category="sport"] {
     background-color: #28a745; /* Zielony kolor dla sportu */
@@ -1819,6 +1829,10 @@ input {
                 <button class="left-button2">+<br></button>TE LEKCJE MAJĄ DOSTĘPNE SKOJARZENIA W WIĘKSZYM ZAKRESIE TEMATÓW
 <div class="user-cards" data-user-cards-container></div>
                 <div id="category-buttons">
+  <button class="category-btn5" data-category="wszystkie"
+    onclick="przekazArgument0(tablica7[0], tablica3[2], '', false, 'fiszki', true, true, tablica3[1], tablica3[4], false, '', '', '', '', indexDivRange)">
+    Wszystkie
+  </button>
   <button class="category-btn" data-category="all">Losowo</button>
   <button class="category-btn" data-category="sport">Sport</button>
   <button class="category-btn" data-category="natura">Natura</button>
@@ -1887,7 +1901,7 @@ indexDivRange = '1'; // Zakres od 1 do 3
     });
 });
   $(document).ready(function() {
-    $('#category-buttons .category-btn[data-category="all"]').addClass('active-category');
+    $('#category-buttons .category-btn5[data-category="wszystkie"]').addClass('active-category');
   });
 const searchInput = document.querySelector("[data-search]");
 console.log("Element input:", searchInput); // Sprawdzenie, czy input istnieje
@@ -4631,7 +4645,15 @@ if (window.matchMedia("(min-width: 999px)").matches) {
             ustawTryb('fiszki');
             przekazArgument0(tablica7[0], tablica3[2], '', false, 'fiszki', true, true, tablica3[1], tablica3[4], false, '', '', '', '', indexDivRange);
 
+// Zmierz czas na początku ładowania skryptu
+const startTime = performance.now();
 
+// Funkcja do wyświetlenia czasu po załadowaniu strony
+window.onload = function() {
+    const endTime = performance.now();
+    const loadTime = endTime - startTime; // czas ładowania w milisekundach
+    console.log(`Czas ładowania strony: ${loadTime.toFixed(2)} ms`);
+};
         </script>
 
         <script id="demoScript" data-category=""></script>

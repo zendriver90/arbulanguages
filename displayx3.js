@@ -743,7 +743,8 @@ const colorMapping = {
     'nauka': '#dc3545',        // Czerwony
     'czarnyhumor': '#ffc107',  // Żółty
     'zwiazki': '#fd7e14',      // Pomarańczowy
-    'all': '#800080'           // Fioletowy
+    'all': '#800080',
+    'wszystkie': 'yellow'       
 };
 
 // Zakres pokolorowanych przycisków
@@ -1784,13 +1785,18 @@ function updateButtonColors() {
                                     'z-index': '1' // Ustaw z-index dla wideo na niższy
                                 });
 
-                                const $videoElement = $('<video>').attr({
-                                    'autoplay': true,
-                                    'muted': true,
-                                    'loop': true
-                                }).css({
-                                    'z-index': '1' // Ustaw z-index dla wideo na niższy
-                                });
+const video = document.createElement('video');
+video.setAttribute('autoplay', '');
+video.setAttribute('loop', '');
+video.muted = true; // ← to jest kluczowe!
+video.playsInline = true; // ← opcjonalne, ale przydatne na mobile
+
+const source = document.createElement('source');
+source.src = srcWords[index];
+source.type = 'video/mp4';
+
+video.appendChild(source);
+const $videoElement = $(video);
                                 if (window.matchMedia("(min-width: 999px)").matches) {
                                     // Dodaj klasę CSS zależnie od indeksu wideo
                                     if (index === 0) {
@@ -1811,7 +1817,7 @@ function updateButtonColors() {
                                 // Dodaj element video do diva dla wideo
                                 $videoElement.appendTo($vidDiv);
                                 // Dodaj element <source> do elementu <video>
-
+$videoElement.attr('muted', true); // atrybut, nie .prop
                                 // Obsługa błędu ładowania wideo
                                 $videoElement.onerror = function () {
                                     console.error('Nie można załadować pliku wideo.');
@@ -1819,41 +1825,86 @@ function updateButtonColors() {
                                 let currentIndexValue = [];
                                 // Funkcja obsługi zdarzenia loadedmetadata
 $videoElement.hide(); // Ukrycie wideo przed załadowaniem
+function ensureVideoStarts($videoElement, index) {
+    let retryCount = 0;
+    const maxRetries = 20;
+    let started = false;
 
-$videoElement.on('loadedmetadata', function () {
-    $videoElement.show(); // Pokaż wideo po załadowaniu metadanych
+    function tryStart() {
+        if (started) return;
+        const el = $videoElement[0];
+        const duration = el.duration;
 
-    const videoDuration = this.duration;
-    videoDurations[index] = videoDuration;
-    console.log('tablica77', totalDuration);
-
-    $videoElement.on('timeupdate', function () {
-        let adjustedProgress = 0;
-        for (let i = 0; i < index; i++) {
-            adjustedProgress += (videoDurations[i] / totalDuration) * 100;
-        }
-        adjustedProgress += (this.currentTime / videoDuration) * (videoDurations[index] / totalDuration) * 100;
-        updateProgress(adjustedProgress);
-        console.log('hej78', index);
-
-        if (!currentIndexValue.includes(index)) {
-            currentIndexValue.push(index);
-            console.log('hej70', currentIndexValue);
-            if (currentIndexValue[0] === 0 || currentIndexValue[0] === 1 || currentIndexValue[0] === 2) {
-                addBackgroundToText(matchingFiszki1, matchingIndexes, currentIndexValue, true, lesson1FirstPartLength, lesson1PartLength, matchingLessons5b);
+        if (el.readyState < 3 || isNaN(duration) || duration === Infinity || duration === 0) {
+            if (retryCount++ < maxRetries) {
+                console.warn(`Wideo ${index} niegotowe (readyState=${el.readyState}), próba ${retryCount}`);
+                return setTimeout(tryStart, 300);
+            } else {
+                console.error(`Wideo ${index} nie wystartowało`);
+                return;
             }
         }
 
-        if ($videoElement[0].duration - $videoElement[0].currentTime < 1) {
-            console.log('Wideo zakończone, uruchamiam następne.');
-            addVideo1(index + 1);
-            updateProgress(0);
-        }
-    });
-});
+        started = true;
+        $videoElement.show();
+        videoDurations[index] = duration;
+
+        $videoElement.off('timeupdate').on('timeupdate', function () {
+            let adjustedProgress = 0;
+            for (let i = 0; i < index; i++) {
+                adjustedProgress += (videoDurations[i] / totalDuration) * 100;
+            }
+            adjustedProgress += (this.currentTime / duration) * (videoDurations[index] / totalDuration) * 100;
+            updateProgress(adjustedProgress);
+
+            if (!currentIndexValue.includes(index)) {
+                currentIndexValue.push(index);
+                if ([0, 1, 2].includes(currentIndexValue[0])) {
+                    addBackgroundToText(matchingFiszki1, matchingIndexes, currentIndexValue, true, lesson1FirstPartLength, lesson1PartLength, matchingLessons5b);
+                }
+            }
+
+            if (duration - this.currentTime < 1) {
+                addVideo1(index + 1);
+                updateProgress(0);
+            }
+        });
+
+        el.play().then(() => {
+            console.log(`Wideo ${index} odtworzone`);
+        }).catch(error => {
+            console.warn(`Autoplay nie działa (index ${index}):`, error);
+        });
+    }
+
+    // Jeśli nie zadziała 'canplaythrough', dodaj fallback na loadeddata
+    $videoElement.one('canplaythrough loadeddata', tryStart);
+
+    try {
+        $videoElement[0].load();
+    } catch (e) {
+        console.warn('Błąd ładowania:', e);
+    }
+}
+
+console.log('wykonuje się655');
                                 addScenes(index);
                                 // Dodaj div z wideo do tła kontenera
-                                $vidDiv.appendTo($container);
+$vidDiv.appendTo($container);
+window.addEventListener('pageshow', () => {
+  const video = document.getElementById('myVideo');
+  if (video) {
+    video.play().catch((error) => {
+      console.error('Error playing video:', error);
+    });
+  }
+});
+// Upewnij się, że wideo jest fizycznie w DOM, zanim zaczniesz ładowanie
+requestAnimationFrame(() => {
+    setTimeout(() => {
+        ensureVideoStarts($videoElement, index);
+    }, 200); // małe opóźnienie buforujące
+});
                                 function updateProgress(progress) {
                                     // Aktualizuj pasek postępu na dole kontenera
                                     $('.progress-bar').css('width', progress + '%');
@@ -1951,11 +2002,11 @@ $videoElement.on('loadedmetadata', function () {
                                                     if (!video.paused) {
                                                         video.pause();
                                                         // Zmień obrazek na "Play"
-                                                        $stopButton.attr('src', 'https://www.arbulang.com/img/play.png');
+                                                        $stopButton.attr('src', 'https://www.arbulang.com/img/stopok2.png');
                                                     } else {
                                                         video.play();
                                                         // Zmień obrazek z powrotem na "Stop"
-                                                        $stopButton.attr('src', 'https://www.arbulang.com/img/stopok2.png');
+                                                        $stopButton.attr('src', 'https://www.arbulang.com/img/play.png');
                                                     }
                                                 });
                                             });
@@ -3332,17 +3383,17 @@ if (window.matchMedia("(max-width: 999px)").matches) {
 const $button = $('<button></button>');
                     $button.addClass('run-button');
                     $button.text('Uruchom'); // Ustawiamy tekst przycisku na 'Uruchom'
-                    $button.attr('data-index', indexDiv);
+                    $button.attr('data-index2', indexDiv);
                     $button.on('click', function () {
 
-                        const index5 = $button.attr('data-index');
+                        const index5 = $button.attr('data-index2');
                         const index55 = parseInt(index5, 10); // Zamieniamy index55 na liczbę
                         // Alternatywnie można użyć Number(index55)
                         // const numericIndex = Number(index55);
 
                         setTimeout(() => {
                             console.log('Kliknięto przycisk o indeksie:', index55);
-                            przekazArgument0(tablica7[0], tablica3[2], index55, true, tablica3[0], true, true, tablica3[1], tablica3[4], false, '', '', '', '');
+                            przekazArgument0(tablica7[0], tablica3[2], index55, true, tablica3[0], true, true, tablica3[1], tablica3[4], false, '', '', '', '', indexDivRange);
                         }, 100);
                         // Usunięcie kontenera po wstawieniu nowego
                     });

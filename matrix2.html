@@ -1286,6 +1286,18 @@ button123:hover {
     <span id="arrow">&#9660;</span> <!-- Strzałka skierowana w dół -->
 </div>
         <script>
+                    function countUniqueFiszki(fiszkiArray) {
+            const seenKeys = new Set();
+            fiszkiArray.forEach(fiszka => {
+                if (fiszka.key) {
+                    seenKeys.add(fiszka.key);
+                }
+            });
+            return seenKeys.size;
+        }
+
+        const uniqueCount = countUniqueFiszki(fiszki);
+        console.log("Liczba unikalnych fiszek:", uniqueCount);
             // Funkcja do zmiany szerokości okna
             function simulateResize(width) {
                 document.documentElement.style.setProperty('--viewport-width', width + 'px');
@@ -4070,13 +4082,13 @@ if (!stopButtonAdded) {
                             // Dodaj nakładkę do kontenera, po dodaniu wideo
                             $overlay.appendTo($container);
                             // Dodaj funkcję hover do kontenera
-                            if (indexDiv < 5) {
+                            if (indexDiv < 9) {
                                 // Jeśli indexDiv < 5, dodajemy hover z dynamicznym napisem
                                 $container.hover(function () {
                                     $('.overlay', this).css('transform', 'translateX(0)');
 
                                     // Twórz nowy dynamiczny div z napisem
-                                    const $dynamicDiv = $('<div>').addClass('dynamic-div').text('Lesson available - open');
+                                    const $dynamicDiv = $('<div>').addClass('dynamic-div').text('Lekcja dostępna - otwórz');
                                     // Dodaj dynamiczny div do kontenera
                                     $dynamicDiv.appendTo($(this)).fadeIn(300);
                                 }, function () {
@@ -4084,24 +4096,6 @@ if (!stopButtonAdded) {
 
                                     // Usuń dynamiczny div po zakończeniu hovera
                                     $('.dynamic-div', this).fadeOut(300, function () {
-                                        $(this).remove();
-                                    });
-                                });
-                            }
-                                                                                                                if (indexDiv < 11 && indexDiv >= 5) {
-                                // Jeśli indexDiv < 5, dodajemy hover z dynamicznym napisem
-                                $container.hover(function () {
-                                    $('.overlay', this).css('transform', 'translateX(0)');
-
-                                    // Twórz nowy dynamiczny div z napisem
-                                    const $dynamicDiv2 = $('<div>').addClass('dynamic-div3').text('The lesson is in preparation');
-                                    // Dodaj dynamiczny div do kontenera
-                                    $dynamicDiv2.appendTo($(this)).fadeIn(300);
-                                }, function () {
-                                    $('.overlay', this).css('transform', 'translateX(100%)');
-
-                                    // Usuń dynamiczny div po zakończeniu hovera
-                                    $('.dynamic-div3', this).fadeOut(300, function () {
                                         $(this).remove();
                                     });
                                 });
@@ -4237,19 +4231,35 @@ ${sentence30}${sentence33}<br>
                             console.log('hej554', index55b2);
                             if (index55b2 === 1) { // Porównaj jako liczby
                                 // Bezpośrednio przekierowujemy użytkownika do strony
-                                window.location.href = 'demo1eng-esp.html?category=' + encodeURIComponent(globalCategory);
+                                window.location.href = 'demo1esp.html?category=' + encodeURIComponent(globalCategory);
                             }
                                                         if (index55b2 === 2) { // Porównaj jako liczby
                                 // Bezpośrednio przekierowujemy użtykownika do strony
-                                window.location.href = 'demo2eng-esp.html?category=' + encodeURIComponent(globalCategory);
+                                window.location.href = 'demo2esp.html?category=' + encodeURIComponent(globalCategory);
                             }
                                                                                     if (index55b2 === 3) { // Porównaj jako liczby
                                 // Bezpośrednio przekierowujemy użtykownika do strony
-                                window.location.href = 'demo3eng-esp.html?category=' + encodeURIComponent(globalCategory);
+                                window.location.href = 'demo3esp.html?category=' + encodeURIComponent(globalCategory);
                             }
                                                                                                                 if (index55b2 === 4) { // Porównaj jako liczby
                                 // Bezpośrednio przekierowujemy użtykownika do strony
-                                window.location.href = 'demo4eng-esp.html?category=' + encodeURIComponent(globalCategory);
+                                window.location.href = 'demo4esp.html?category=' + encodeURIComponent(globalCategory);
+                            }
+                                                                                                                if (index55b2 === 5) { // Porównaj jako liczby
+                                // Bezpośrednio przekierowujemy użtykownika do strony
+                                window.location.href = 'demo5esp.html?category=' + encodeURIComponent(globalCategory);
+                            }
+                                                                                                                if (index55b2 === 6) { // Porównaj jako liczby
+                                // Bezpośrednio przekierowujemy użtykownika do strony
+                                window.location.href = 'demo6esp.html?category=' + encodeURIComponent(globalCategory);
+                            }
+                                                                                                                                            if (index55b2 === 7) { // Porównaj jako liczby
+                                // Bezpośrednio przekierowujemy użtykownika do strony
+                                window.location.href = 'demo7esp.html?category=' + encodeURIComponent(globalCategory);
+                            }
+                            if (index55b2 === 8) { // Porównaj jako liczby
+                                // Bezpośrednio przekierowujemy użtykownika do strony
+                                window.location.href = 'demo8esp.html?category=' + encodeURIComponent(globalCategory);
                             }
                         }, 500);
                         // Usunięcie kontenera po wstawieniu nowego
@@ -5085,39 +5095,39 @@ if (!stopButtonAdded) {
                             console.log('hej554', index55b2);
                             if (index55b2 === 1) { // Porównaj jako liczby
                                 // Bezpośrednio przekierowujemy użytkownika do strony
-                                window.location.href = 'demo1eng-espb.html?category=' + encodeURIComponent(globalCategory);
+                                window.location.href = 'demo1espb.html?category=' + encodeURIComponent(globalCategory);
                             }
                             if (index55b2 === 2) {
                                 // Bezpośrednio przekierowujemy użytkownika do strony
-                                window.location.href = 'demo2eng-espb.html?category=' + encodeURIComponent(globalCategory);
+                                window.location.href = 'demo2espb.html?category=' + encodeURIComponent(globalCategory);
                             }
                             if (index55b2 === 3) {
                                 // Bezpośrednio przekierowujemy użytkownika do strony
-                                window.location.href = 'demo3eng-espb.html?category=' + encodeURIComponent(globalCategory);
+                                window.location.href = 'demo3espb.html?category=' + encodeURIComponent(globalCategory);
                             }
                                                         if (index55b2 === 4) { // Porównaj jako liczby
                                 // Bezpośrednio przekierowujemy użytkownika do strony
-                                window.location.href = 'demo4eng-espb.html?category=' + encodeURIComponent(globalCategory);
+                                window.location.href = 'demo4espb.html?category=' + encodeURIComponent(globalCategory);
                             }
                             if (index55b2 === 5) {
                                 // Bezpośrednio przekierowujemy użytkownika do strony
-                                window.location.href = 'demo5eng-espb.html?category=' + encodeURIComponent(globalCategory);
+                                window.location.href = 'demo5espb.html?category=' + encodeURIComponent(globalCategory);
                             }
                             if (index55b2 === 6) {
                                 // Bezpośrednio przekierowujemy użytkownika do strony
-                                window.location.href = 'demo6eng-espb.html?category=' + encodeURIComponent(globalCategory);
+                                window.location.href = 'demo6espb.html?category=' + encodeURIComponent(globalCategory);
                             }
                                                                                     if (index55b2 === 7) { // Porównaj jako liczby
                                 // Bezpośrednio przekierowujemy użytkownika do strony
-                                window.location.href = 'demo7eng-espb.html?category=' + encodeURIComponent(globalCategory);
+                                window.location.href = 'demo7espb.html?category=' + encodeURIComponent(globalCategory);
                             }
                             if (index55b2 === 8) {
                                 // Bezpośrednio przekierowujemy użytkownika do strony
-                                window.location.href = 'demo8eng-espb.html?category=' + encodeURIComponent(globalCategory);
+                                window.location.href = 'demo8espb.html?category=' + encodeURIComponent(globalCategory);
                             }
                             if (index55b2 === 9) {
                                 // Bezpośrednio przekierowujemy użytkownika do strony
-                                window.location.href = 'demo9eng-espb.html?category=' + encodeURIComponent(globalCategory);
+                                window.location.href = 'demo9espb.html?category=' + encodeURIComponent(globalCategory);
                             }
                         }, 500);
                         // Usunięcie kontenera po wstawieniu nowego

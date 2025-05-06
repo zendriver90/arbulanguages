@@ -633,8 +633,8 @@ button {
 
         <div class="flag-container" id="native-language-container">
             <div data-language="pl">
-                <div id="polski">Polski</div><div id="polski2">ANGIELSKI - Liczba unikalnych słów (228)<br>
-                108 słówek - hiszpański - TERAZ DZIAŁA</div>
+                <div id="polski">Polski</div><div id="polski2">ANGIELSKI - Liczba unikalnych słów - 228<br>
+                HISZPAŃSKI - Liczba unikalnych słów - 100</div>
                 <video autoplay loop muted>
                     <source src="start/Poland.mp4" type="video/mp4">
                     Twój przeglądarka nie obsługuje elementu video.
@@ -741,15 +741,44 @@ Miernikiem jaki możemy tutaj zastosować jest - ile możemy stracić - zachowuj
   </div>
 <div class="post"
      data-short-pl="📌 19 kwietnia 2025"
-     data-full-pl="Można się też pomodlić aby 'świat' pod postacią spotykanych ludzi 'mówił' do nas jak nasza ukochana, nasz ukochany... Pytanie tylko czy znalazłeś miłość czy związek. Tyczy się to też występowania 'głosów' które można, zmieniać, modyfikować, dostrajać, generować - zajmuje się tym zresztą NLP - ale różnica pomiędzy tą 'wiedzą' a wykształceniem statystycznego osobnika powoduje, że przyjmuje on pozycję hejterską do takich wynalazków. Sąd zresztą musi 'podbić', że miał głosy niezależnie od tego kto mu je wgrał - czy rodzice, partner, grupa na fb, czy szkoła. Kościół musi utrzymywać narrację opętania jako usprawiedliwienia czynu, który gdy już 'zlokalizowany' musi przejść przez tunele moralne a stąd już tylko krok aby inwigilować człowieka wiarą pełną bądź niepełną.">
+     data-short-en="📌 April 19, 2025"
+     data-full-pl="Można się też pomodlić aby 'świat' pod postacią spotykanych ludzi 'mówił' do nas jak nasza ukochana, nasz ukochany... Pytanie tylko czy znalazłeś miłość czy związek. Tyczy się to też występowania 'głosów' które można, zmieniać, modyfikować, dostrajać, generować - zajmuje się tym zresztą NLP - ale różnica pomiędzy tą 'wiedzą' a wykształceniem statystycznego osobnika powoduje, że przyjmuje on pozycję hejterską do takich wynalazków. Sąd zresztą musi 'podbić', że miał głosy niezależnie od tego kto mu je wgrał - czy rodzice, partner, grupa na fb, czy szkoła. Kościół musi utrzymywać narrację opętania jako usprawiedliwienia czynu, który gdy już 'zlokalizowany' musi przejść przez tunele moralne a stąd już tylko krok aby inwigilować człowieka wiarą pełną bądź niepełną."
+     data-full-en="Also you can pray with the intention for your whole 'world' by the presence of met
+people 'saying' to us like our beloved man or woman… The only question is
+rather you find love or relationship. It contains with occurence 'voices' like
+'inner dialog' or 'inner monologue' which you can change, modify, resonate with, generate -
+this is a field of NLP - but the diffrence with this 'knowledge' and statistic educational level coused that most person react with hate and disagrement to things like that.
+Court by the way need to 'claim', that some person depends of 'voices' - irrelevant
+to whom was the person which coused this 'inner dialog' - person which install this
+kind of narration - parents, partner, group on facebbok, school. The Catolic Church
+needs to climb to narration of possesion as a justification of some kind of act
+which when this act is 'located' then needs to pass through the moral channel and
+from that is a step to invigilate human being by the fully faith or parted faith."
+       >
   
   <p><strong>Paweł Babik napisał:</strong></p>
   
   <!-- Krótka zapowiedź -->
   <div class="short-text">📌 19 kwietnia 2025</div>
-  
   <!-- Pełna treść (z data-full-pl), ukryta na start -->
   <div class="full-text" style="display: none; margin-top: 10px;"></div>
+    <button class="toggle-btn"></button>
+
+  <!-- Sekcja tłumaczeń -->
+  <div class="translation-controls" style="display:none; margin-top: 10px;">
+    <button onclick="showTranslation('ai', this)">Translate by AI</button>
+    <button onclick="showTranslation('pawel', this)">Translate by Paweł</button>
+  </div>
+
+  <!-- Komentarze -->
+  <div class="comment-box" data-lang="en" style="display:none;">
+    <strong>AI translation correction</strong><br>
+"You can also pray with the intention that the 'world'—in the form of people you meet—speaks to you like your beloved man or woman... The only question is whether you found love or just a relationship.
+
+This also applies to the presence of 'voices'—like inner dialogues or monologues—that can be changed, modified, tuned, or generated. This is, after all, the domain of NLP. But the gap between this kind of 'knowledge' and the statistical level of education often leads people to respond with hate or disbelief toward such ideas.
+
+The court, by the way, must 'confirm' that a person heard voices—regardless of who 'installed' them: parents, a partner, a Facebook group, or school. The Church, meanwhile, needs to uphold the narrative of possession as a justification for certain actions. And once such an act is 'identified', it must pass through moral tunnels, which then becomes just a step away from surveilling a person through full or partial faith."
+  </div>
   
   <!-- Film, ukryty do momentu rozwinięcia -->
   <video class="post-video" controls width="100%" style="display: none; margin-top: 10px;">
@@ -758,37 +787,94 @@ Miernikiem jaki możemy tutaj zastosować jest - ile możemy stracić - zachowuj
   </video>
   
   <!-- Komentarz – ukryty na start -->
-  <div class="comment-box" style="display: none; margin-top: 10px;">
+  <div class="comment-box" data-lang="pl" style="display: none; margin-top: 10px;">
     <div class="comment-author">👤 Komentarz (mój)</div>
     <div class="comment-content">
       Czasami jest to (głos) generowany przez uczucie jakiego osoba doświadcza w "środowisku" - jednak jest ona poprostu bardziej świadoma w zakresie doświadczania tego "sygnału". To znaczy, że jej świadomość ma większe szanse przy pewnym oddziaływaniu na zrozumieniem w jakiej jest sytuacji "komunikacyjnej". Przy czym często wynika to z niechęci do "mówienia" w ten sposób - inaczej przepuściła by to przez swoje "filtry" mentalne jak również czakry (doświadczając w ten sposób emocji, które by zanihilowały ten "sposób komunikacji"). Często też osoba umieszczona w pasach bezpieczeństwa "wymyśla sobie" co krzyczeć przez to zataja przed personelem szpitala co rzeczywiście chce wykrzyczeć - jeżeli jest to mężczyzna i krzyczałby "zerżnijcie mnie" to prawdopodobnie ten głos oznaczałby dla kogoś innego "że jest gejem" przy czym byłby to sygnał, że społeczeństwo czy świat traktuje go przedmiotowo. Komunikat "chcę umrzeć" mógłby oznaczać, że chce wykrzyczeć - potrzebuje być sam - więc byłby też reakcją na warunki szpitalne. Często personel "wie", że ludzie w zabezpieczeniu mechanicznym "kłamią" przez co ich praca wydaje się bardziej emocjonująca. W istocie kłamanie do upadłego jest gloryfikowanie przez naszą cywilizację - niestety często dlatego, że wydaje nam się, że robimy to "dla kogoś" i ten ktoś zrozumiałby powody dla których - nawet w takiej sytuacji kłamiemy.
     </div>
   </div>
 
-  <!-- Przycisk do rozwijania/zwijania NA DOLE -->
-  <button class="toggle-btn" style="margin: 10px 0;">Zobacz wpis</button>
 </div>
   <div class="post"
        data-short-pl="📌 19 kwietnia 2025"
        data-short-en="📌 April 19, 2025"
-       data-full-pl="Dopóki masz co jeść, pić - nie jest tak źle. Nie jesteś pośród tego szaleństwa. Jeśli Twoje życie nie jest zagrożone przez wojnę. Tam - gdzie indziej - jest dużo gorzej a mój stopień zniewolenia, tożsamości, wizerunku wiąże się z wartościami z hierarchii krajów przodujących w rozwoju. Dlatego - pewnie będę narzekał na Sądy czy jakość relacji. Im większa możliwość wygranej - tym większa presja - nieuczciwe zagrania czy niesprawiedliwość. Stan zdrowia też zależy od szerokości geograficznej więc moje cierpienie można by umieścić w globalnej skali. Te wewnętrzne nie da się opisać dopóki nie byłbym na froncie czy polował dzikie zwierzęta w dżungli, pił przegotowaną wodę z rzeki - o ile miałbym czajnik czy dostęp do ujęcia. Musiałbym przejechać pół świata, aby zobaczyć jak ludzie żyją. Dlatego globalizm wprowadził relatywizm cierpienia tzn. że można je wywołać tak jakby wirtualnie a im mniej cierpienia tym większy stres, że się przydarzy - przy czym stres wirtualny a poziom ochrony jak na wojnie. Tak się czuję cały świat - proszę Państwa a skalę dobrobytu i tak nie mierzy się w pewności - czy jej nie stracimy - bo stracimy - tyle, że - dalej wirtualnie bo musielibyśmy to mierzyć lękiem przed śmiercią a ten jest wyznaczany każdorazowo przez rezygnację z planów na przyszłość. Dlatego poziomu zdrowia nie można zmierzyć uzależnieniami a stresu w sposób medyczny (bowiem gdy cierpi nasza dusza to nawet możemy być szczęśliwi). Nie chciałbym aby doradzał mi człowiek, który ma problem ze stresem czy podwyższony lęk przed śmiercią bowiem te pierwsze by anihilował przez kontakt ze mną a te drugie - łapał się relacji jak deski ratunku.">  <p><strong>Paweł Babik napisał:</strong></p>
+       data-full-pl="Dopóki masz co jeść, pić - nie jest tak źle. Nie jesteś pośród tego szaleństwa. Jeśli Twoje życie nie jest zagrożone przez wojnę. Tam - gdzie indziej - jest dużo gorzej a mój stopień zniewolenia, tożsamości, wizerunku wiąże się z wartościami z hierarchii krajów przodujących w rozwoju. Dlatego - pewnie będę narzekał na Sądy czy jakość relacji. Im większa możliwość wygranej - tym większa presja - nieuczciwe zagrania czy niesprawiedliwość. Stan zdrowia też zależy od szerokości geograficznej więc moje cierpienie można by umieścić w globalnej skali. Te wewnętrzne nie da się opisać dopóki nie byłbym na froncie czy polował dzikie zwierzęta w dżungli, pił przegotowaną wodę z rzeki - o ile miałbym czajnik czy dostęp do ujęcia. Musiałbym przejechać pół świata, aby zobaczyć jak ludzie żyją. Dlatego globalizm wprowadził relatywizm cierpienia tzn. że można je wywołać tak jakby wirtualnie a im mniej cierpienia tym większy stres, że się przydarzy - przy czym stres wirtualny a poziom ochrony jak na wojnie. Tak się czuję cały świat - proszę Państwa a skalę dobrobytu i tak nie mierzy się w pewności - czy jej nie stracimy - bo stracimy - tyle, że - dalej wirtualnie bo musielibyśmy to mierzyć lękiem przed śmiercią a ten jest wyznaczany każdorazowo przez rezygnację z planów na przyszłość. Dlatego poziomu zdrowia nie można zmierzyć uzależnieniami a stresu w sposób medyczny (bowiem gdy cierpi nasza dusza to nawet możemy być szczęśliwi). Nie chciałbym aby doradzał mi człowiek, który ma problem ze stresem czy podwyższony lęk przed śmiercią bowiem te pierwsze by anihilował przez kontakt ze mną a te drugie - łapał się relacji jak deski ratunku."
+       data-full-en="Till you have minimum - what to eat, what to drink - it isnt bad. You arent beside
+this madness. If your life isnt destroy by war... There - somewhere else - is far
+more bad, my grade of slavery, identity, public image is connected with value
+from hierarchy the coutries of develops most. From that reason - certainly i will
+complain on Courtes or level of connections with people. The more certailny you
+can win - the more pressure - not fair actions or injustice. Level of healty depends
+too from the latitude so my suffering can be placed in global scale. This inner (suffering)
+cant be described until i will find myself on war first line or hunter wild animals
+in jungle, drink watered water from river - if i could organize kettle or water
+sourde. i would have to cross half of the world, to see how pepole live. From
+that reason globalism impose relativity of suffering - it means that it can be
+coused virtually - and the less suffering the more stress - that this stress will
+happen - but stress comes virutally (spiritual stress) and the level of protection
+to aviod him - like in the war. Thats feel the whole world - ladies and gentelmen - 
+and the scale of whealthy paradoxically istn meassure by confidence to not lose it -
+couse we lose it - but also (we lose it) virtually. This process we would have to
+measure by scare of death and this scare is processed everytime - time by time by 
+our resignation from plans to future. This is why level of healthy cant be measure
+by addiction and level of stress in medical way (becouse when our soul suffer
+we even can be happy). I wouldnt like to get advice from person, who has problem
+with stress or increase level of scary from death - couse this first could be anihilate
+by contact with me and second - catch the realtion like a last lifline.
+"
+       >  <p><strong>Paweł Babik napisał:</strong></p>
   
   <!-- Krótka zapowiedź -->
   <div class="short-text">📌 19 kwietnia 2025</div>
   
   <!-- Pełna treść (z data-full-pl), ukryta na start -->
   <div class="full-text" style="display: none; margin-top: 10px;"></div>
-  
-  <!-- Komentarz – ukryty na start -->
-  <div class="comment-box" style="display: none; margin-top: 10px;">
-    <div class="comment-author">👤 Komentarz (mój)</div>
-    <div class="comment-content">
-      Czasami jest to (głos) generowany przez uczucie jakiego osoba doświadcza w "środowisku" - jednak jest ona poprostu bardziej świadoma w zakresie doświadczania tego "sygnału". To znaczy, że jej świadomość ma większe szanse przy pewnym oddziaływaniu na zrozumieniem w jakiej jest sytuacji "komunikacyjnej". Przy czym często wynika to z niechęci do "mówienia" w ten sposób - inaczej przepuściła by to przez swoje "filtry" mentalne jak również czakry (doświadczając w ten sposób emocji, które by zanihilowały ten "sposób komunikacji"). Często też osoba umieszczona w pasach bezpieczeństwa "wymyśla sobie" co krzyczeć przez to zataja przed personelem szpitala co rzeczywiście chce wykrzyczeć - jeżeli jest to mężczyzna i krzyczałby "zerżnijcie mnie" to prawdopodobnie ten głos oznaczałby dla kogoś innego "że jest gejem" przy czym byłby to sygnał, że społeczeństwo czy świat traktuje go przedmiotowo. Komunikat "chcę umrzeć" mógłby oznaczać, że chce wykrzyczeć - potrzebuje być sam - więc byłby też reakcją na warunki szpitalne. Często personel "wie", że ludzie w zabezpieczeniu mechanicznym "kłamią" przez co ich praca wydaje się bardziej emocjonująca. W istocie kłamanie do upadłego jest gloryfikowanie przez naszą cywilizację - niestety często dlatego, że wydaje nam się, że robimy to "dla kogoś" i ten ktoś zrozumiałby powody dla których - nawet w takiej sytuacji kłamiemy.
-    </div>
+    <button class="toggle-btn"></button>
+
+  <!-- Sekcja tłumaczeń -->
+  <div class="translation-controls" style="display:none; margin-top: 10px;">
+    <button onclick="showTranslation('ai', this)">Translate by AI</button>
+    <button onclick="showTranslation('pawel', this)">Translate by Paweł</button>
   </div>
 
+  <!-- Komentarze -->
+  <div class="comment-box" data-lang="en" style="display:none;">
+    <strong>AI translation correction</strong><br>
+    As long as you have the basics – something to eat and drink – it’s not that bad. You're not caught in the middle of the madness. If your life isn’t threatened by war, then somewhere else, things are much worse.
+My degree of enslavement, sense of identity, and public image are shaped by the values of the most developed countries. That’s why I may complain about the justice system or the quality of human relationships.
+
+The more likely you are to win, the greater the pressure – with unfair tactics or injustice. Health is also tied to geography, so my suffering can be placed on a global scale.
+
+This internal suffering cannot truly be described unless I were on the frontlines of war, hunting wild animals in the jungle, or drinking boiled river water – provided I had a kettle or access to a water source.
+I’d have to travel halfway across the world to see how others live.
+
+That’s why globalism introduced the relativity of suffering – meaning suffering can now be triggered virtually. And the less suffering there is, the more stress we feel that it might happen. Virtual stress – with a level of protection as if we were at war.
+
+That’s how the whole world feels, ladies and gentlemen. Yet the scale of wealth is no longer measured by certainty – because we will lose it – only virtually. We would have to measure it by the fear of death, which is triggered every time we give up on our plans for the future.
+
+That’s why health can’t be measured by addictions, nor stress solely in medical terms – because even when our soul suffers, we may still feel happiness.
+
+I wouldn’t want to take advice from someone who struggles with stress or has an intense fear of death – because the first would try to neutralize their stress through me, and the second would cling to the relationship like a lifeline.
+  </div>
+
+  <div class="comment-box" data-lang="pl-pawel" style="display:none;">
+    <strong>Translation by Paweł and AI:</strong><br>
+    Dopóki masz co jeść, pić - nie jest tak źle... [oryginalny wpis]
+  </div>
+  <!-- Komentarz – ukryty na start -->
+  <div class="comment-box" data-lang="pl" style="display: none; margin-top: 10px;">
+    <div class="comment-author">👤 Komentarz (mój)</div>
+    <div class="comment-content">
+      Cwaniakuje sobie więc taki - jeden czy drugi - ale jego zakres cwaniactwa jest ustalony z góry - tzn. na tym się opiera kapitalizm. A ja cwaniakuję w psychiatrii - czy może być coś trudniejszego czego można się podjąć... Kiedy była ona wymyślona podczas wojen I i II i z każdą kolejną - eksperymentowano z nią.</div>
+  </div>
+<!-- Komentarz po angielsku -->
+<div class="comment-box" data-lang="en" style="display: none; margin-top: 10px;">
+  <div class="comment-author">👤 Comment (mine)</div>
+  <div class="comment-content">
+    So there’s always someone playing dumb not exactly clever – one way or another – but the scope of their cleverness is predetermined. That’s exactly what capitalism is built on. And me? I play clever in psychiatry – is there anything more difficult one could take on? Psychiatry was invented during World War I and II, and with every war, they kept experimenting with it.
+  </div>
+</div>
   <!-- Przycisk do rozwijania/zwijania NA DOLE -->
-  <button class="toggle-btn" style="margin: 10px 0;">Zobacz wpis</button>
   </div>
   <!-- Wpis 1 -->
   <div class="post"
@@ -798,9 +884,34 @@ Miernikiem jaki możemy tutaj zastosować jest - ile możemy stracić - zachowuj
        data-full-en="I would like to be a Polish man even when I do something great. Not a Jew who is from Poland. Just like a German car is German — not with Jewish precision. Nor Swiss. Or French finesse. I would like my product to come from a “Valley” because of our wealth — not from suffering that inspired slave-like ingenuity. Let the craft come not from 'Latin style', but be a mark — mine, of the Polish people. Let the market value be judged from Warsaw — not from Brussels. Let my accent sound funny, not dumb. Let me go on vacation — not be the kind who pretends not to need it. To share warmth — not fake it. To work on working days, to produce in the prime of age, to help in hardship, and to fund in crisis (for example, my site: www.arbulang.com). Everyone gives the same."
   >
         <p><strong>Paweł Babik napisał:</strong></p>
-    <div class="short-text"></div>
-    <div class="full-text" style="display: none;"></div>
-    <button class="toggle-btn">Zobacz wpis</button>
+  <!-- Krótka zapowiedź -->
+  <div class="short-text">📌 19 kwietnia 2025</div>
+  
+  <!-- Pełna treść (z data-full-pl), ukryta na start -->
+  <div class="full-text" style="display: none; margin-top: 10px;"></div>
+    <button class="toggle-btn"></button>
+
+  <!-- Sekcja tłumaczeń -->
+  <div class="translation-controls" style="display:none; margin-top: 10px;">
+    <button onclick="showTranslation('ai', this)">Translate by AI</button>
+    <button onclick="showTranslation('pawel', this)">Translate by Paweł</button>
+  </div>
+
+  <!-- Komentarze -->
+  <div class="comment-box" data-lang="en" style="display:none;">
+    <strong>AI translation correction</strong><br>
+I would like to be a Polish man even when I do something great.
+Not a Jew who is from Poland.
+Just like a German car is German — not "Jewish precision", but Swiss. Or French finesse.
+I would like my product to come from a “Valley” because of our wealth — not from suffering that inspired slave-like ingenuity.
+Let the craft come not from "Latin style", but be a mark — mine, of the Polish people.
+Let the market value be judged from Warsaw — not from Brussels.
+Let my accent sound funny, not dumb.
+Let me go on vacation — not be the kind who pretends not to need it.
+To share warmth — not fake it.
+To work on working days, to produce in the prime of age, to help in hardship, and to fund in crisis (for example, my site: www.arbulang.com).
+Everyone gives the same.
+  </div>
   </div>
 
 
@@ -893,126 +1004,97 @@ Mężczyzna nie ma się jak nauczyć tej energii - a on jest kierowany przez kob
 </div>
 
 <script>
-const langToggle = document.getElementById('lang-toggle');
-let currentLang = 'pl';
+  const langToggle = document.getElementById('lang-toggle');
+  let currentLang = 'pl';
 
-function updatePosts() {
-  const posts = document.querySelectorAll('.post');
-  
-  console.log('Updating posts for language:', currentLang); // Logujemy bieżący język
+  function updatePosts() {
+    document.querySelectorAll('.post').forEach(post => {
+      const shortText = post.querySelector('.short-text');
+      const fullText  = post.querySelector('.full-text');
+      const video     = post.querySelector('.post-video');
+      const toggleBtn = post.querySelector('.toggle-btn');
 
-  posts.forEach(post => {
-    const shortText = post.querySelector('.short-text');
-    const fullText = post.querySelector('.full-text');
-    const toggleBtn = post.querySelector('.toggle-btn');
-    const comment = post.querySelector('.comment-box');
-    const comment2 = post.querySelector('.comment-box2');
-    const comment3 = post.querySelector('.comment-box3');
-    const comment4 = post.querySelector('.comment-box4');
+      // wybór właściwego short/full
+      const short = post.dataset[`short${currentLang === 'pl' ? 'Pl' : 'En'}`] || '';
+      const full  = post.dataset[`full${currentLang === 'pl' ? 'Pl' : 'En'}`]  || '';
 
-    // Wybór krótkiego tekstu
-    const short = post.dataset[`short${currentLang === 'pl' ? 'Pl' : 'En'}`];
-    
-    // Wybór pełnego tekstu
-    const full = post.dataset[`full${currentLang === 'pl' ? 'Pl' : 'En'}`] || '';
-    const fullEn = post.dataset['fullEn'] || ''; // Dodajemy pełny tekst w języku angielskim
+      shortText.textContent = short;
+      fullText.textContent  = full;
 
-    shortText.textContent = short || '';
-    fullText.textContent = full || '';
-    fullText.style.display = 'none';
-
-    if (full || fullEn) {
-      toggleBtn.style.display = 'inline-block';
-      toggleBtn.textContent = currentLang === 'pl' ? 'Zobacz wpis' : 'See full article';
-    } else {
-      toggleBtn.style.display = 'none';
-    }
-
-    // Jeśli język to angielski, ukrywamy komentarze
-    if (currentLang === 'en') {
-      if (comment) comment.style.display = 'none';
-      if (comment2) comment2.style.display = 'none';
-      if (comment3) comment3.style.display = 'none';
-      if (comment4) comment4.style.display = 'none';
-    }
-
-    // Logowanie pełnego tekstu i przycisku
-    console.log('Post full text:', full);
-    console.log('Post fullEn text:', fullEn);
-    console.log('Toggle button text:', toggleBtn.textContent);
-  });
-}
-
-langToggle.addEventListener('click', () => {
-  currentLang = currentLang === 'pl' ? 'en' : 'pl';
-  langToggle.textContent = currentLang === 'pl' ? 'English' : 'Polski';
-  
-  // Logowanie zmiany języka
-  console.log('Language changed to:', currentLang);
-
-  updatePosts();
-});
-
-// Inicjalizacja
-updatePosts();
-
-// Obsługa przycisku "See full article"
-document.querySelectorAll('.toggle-btn').forEach(btn => {
-  btn.addEventListener('click', () => {
-    const post = btn.closest('.post');
-    const fullText = post.querySelector('.full-text');
-    const video = post.querySelector('.post-video');
-    const comment = post.querySelector('.comment-box');
-    const comment2 = post.querySelector('.comment-box2');
-    const comment3 = post.querySelector('.comment-box3');
-    const comment4 = post.querySelector('.comment-box4');
-    const hidden = fullText.style.display === 'none';
-
-    console.log('toggle click – hidden?', hidden);
-    console.log('video element:', video);
-
-    if (hidden) {
-      // Jeśli język to angielski, wyświetlamy pełny tekst z data-full-en
-      if (currentLang === 'en') {
-        fullText.textContent = post.dataset['fullEn'] || ''; 
-      } else {
-        fullText.textContent = post.dataset[`fullPl`] || '';
-      }
-
-      fullText.style.display = 'block';
-
-      // Pokazujemy komentarze w wersji polskiej tylko
-      if (currentLang === 'pl') {
-        if (comment) comment.style.display = 'block';
-        if (comment2) comment2.style.display = 'block';
-        if (comment3) comment3.style.display = 'block';
-        if (comment4) comment4.style.display = 'block';
-      }
-
-      if (video) {
-        video.style.display = 'block';
-        // video.play(); // odkomentuj jeśli chcesz auto-odtwarzanie
-      }
-
-      btn.textContent = currentLang === 'pl' ? 'Ukryj wpis' : 'Hide article';
-    } else {
+      // ukryj pełny tekst i wideo
       fullText.style.display = 'none';
-
-      if (comment) comment.style.display = 'none';
-      if (comment2) comment2.style.display = 'none';
-      if (comment3) comment3.style.display = 'none';
-      if (comment4) comment4.style.display = 'none';
-
       if (video) {
         video.pause();
         video.style.display = 'none';
       }
 
-      btn.textContent = currentLang === 'pl' ? 'Zobacz wpis' : 'See full article';
+      // ustaw przycisk
+      if (full) {
+        toggleBtn.style.display = 'inline-block';
+        toggleBtn.textContent = (currentLang === 'pl' ? 'Zobacz wpis' : 'See full article');
+      } else {
+        toggleBtn.style.display = 'none';
+      }
+
+      // ukryj wszystkie komentarze
+      post.querySelectorAll('.comment-box').forEach(c => {
+        c.style.display = 'none';
+      });
+    });
+  }
+
+  // Przełącznik języka
+  langToggle.addEventListener('click', () => {
+    currentLang = (currentLang === 'pl' ? 'en' : 'pl');
+    langToggle.textContent = (currentLang === 'pl' ? 'English' : 'Polski');
+    updatePosts();
+  });
+
+  // Obsługa przycisku rozwijania / zwijania
+  document.addEventListener('click', e => {
+    if (!e.target.classList.contains('toggle-btn')) return;
+    const btn      = e.target;
+    const post     = btn.closest('.post');
+    const fullText = post.querySelector('.full-text');
+    const video    = post.querySelector('.post-video');
+    const hidden   = fullText.style.display === 'none';
+
+    if (hidden) {
+      // pokaż pełny tekst
+      fullText.style.display = 'block';
+      btn.textContent = (currentLang === 'pl' ? 'Ukryj wpis' : 'Hide article');
+
+      // pokaż i odtwórz wideo
+      if (video) {
+        video.style.display = 'block';
+        video.currentTime = 0;
+        video.play();
+      }
+
+      // pokaż komentarz(y) aktualnego języka
+      post.querySelectorAll('.comment-box').forEach(c => {
+        c.style.display = (c.dataset.lang === currentLang ? 'block' : 'none');
+      });
+    } else {
+      // ukryj pełny tekst
+      fullText.style.display = 'none';
+      btn.textContent = (currentLang === 'pl' ? 'Zobacz wpis' : 'See full article');
+
+      // pauza i ukrycie wideo
+      if (video) {
+        video.pause();
+        video.style.display = 'none';
+      }
+
+      // ukryj komentarze
+      post.querySelectorAll('.comment-box').forEach(c => {
+        c.style.display = 'none';
+      });
     }
   });
-});
 
+  // inicjalizacja
+  updatePosts();
 </script>
             <br>
             <br>

@@ -3233,7 +3233,7 @@ id: [
 ],
         // obrazek
         img: [
-                ""
+                "https://www.arbulang.com/img/fiszki1en-esp/92a.jpg"
         ],
         translate: "To cover the car before the rain",
         translateb: "[koo-BREER el KO-cheh AHN-tehs deh lah YOO-byah]",
@@ -3244,7 +3244,7 @@ id: [
         ],
         // historia
         story: [
-            "My new car has <b><u>coo</b></u>l <b><u>cover</b></u>, my sales man S<b><u>ir</b></u> <b><u>Br</b></u>ayan <b><u>bri</b></u>ng me it in the offer"
+            "My new car has <b><u>coo</b></u>l <b><u>cover</b></u>. Sir Brayan told me a <b><u>bri</u></b>lliant deal was waiting for me. My deal can’t be <b><u>irr</u></b>ational!"
         ],
         // opis
         desc: "cubrir[koo-BREER] - cover",
@@ -3272,14 +3272,14 @@ id: [
 ],
         // obrazek
         img: [
-                ""
+                "https://www.arbulang.com/img/fiszki1en-esp/93a.jpg"
         ],
         word: [
                 "https://www.arbulang.com/voice/music.mp4"
         ],
         // historia
         story: [
-            "<b><u>El</b></u>iot <b><u>co</b></u>py his keys to <b><u>car</b></u> and check if they really works"
+            "<b><u>El</u></b>iot <b><u>co</u></b>pied his keys to the <b><u>car</u></b> and <b><u>che</b></u>cked if they really worked"
         ],
         // opis
         desc: "el coche[el KO-cheh] - car",
@@ -3340,14 +3340,14 @@ id: [
 ],
         // obrazek
         img: [
-                ""
+                "https://www.arbulang.com/img/fiszki1en-esp/95a.jpg"
         ],
         word: [
                 "https://www.arbulang.com/voice/music.mp4"
         ],
         // historia
         story: [
-            "It <b><u>rained</b></u> the <b><u>la</b></u>st day when i go to <b><u>ju</b></u>do with my <b><u>juv</b></u>enile son with g<b><u>ia</b></u>nt hope"
+            "It <b><u>rained</u></b> the <b><u>la</u></b>st day when I went to <b><u>ju</u></b>do with my <b><u>juv</u></b>enile son, full of g<b><u>ia</u></b>nt hope"
         ],
         // opis
         desc: "la lluvia[lah YOO-byah] - the rain",
@@ -3374,7 +3374,7 @@ id: [
 ],
         // obrazek
         img: [
-                "https://www.arbulang.com/img/fiszkiespanol/57a.jpg"
+                "https://www.arbulang.com/img/fiszki1en-esp/96a.jpg"
         ],
         translate: "To change the mind with new ideas",
         translateb: "[kahm-BYAR lah MEN-teh kon NWAY-bahs ee-DEH-ahs]",
@@ -3385,7 +3385,7 @@ id: [
         ],
         // historia
         story: [
-            "I need to <b><u>change</b></u> setting in my Face<b><u>b</b></u>ook <b><u>cam</b></u>pain about cleaning a grave in grave<b><u>yar</b></u>d"
+            "I need to <b><u>change</u></b> the settings in my Face<b><u>b</u></b>ook <b><u>cam</u></b>paign about cleaning a grave in the grave<b><u>yar</u></b>d"
         ],
         // opis
         desc: "cambiar[kahm-BYAR] - change",
@@ -3411,14 +3411,14 @@ id: [
 ],
         // obrazek
         img: [
-                "https://www.arbulang.com/img/fiszkiespanol/58a.jpg"
+                "https://www.arbulang.com/img/fiszki1en-esp/97a.jpg"
         ],
         word: [
                 "https://www.arbulang.com/voice/music.mp4"
         ],
         // historia
         story: [
-            "G<b><u>la</b></u>mour his <b><u>mind</b></u> depends on his <b><u>ment</b></u>ality and his <b><u>te</b></u>chnic and analytic skills"
+            "G<b><u>la</u></b>mour in his <b><u>mind</u></b> depends on his <b><u>ment</u></b>ality, <b><u>te</u></b>chnique, and analytical skills"
         ],
         // opis
         desc: "la mente[lah MEN-teh] - mind",
@@ -3476,17 +3476,17 @@ id: [
 ],
         // obrazek
         img: [
-                "https://www.arbulang.com/img/fiszkiespanol/60a.jpg"
+                "https://www.arbulang.com/img/fiszki1en-esp/99a.jpg"
         ],
         word: [
                 "https://www.arbulang.com/voice/music.mp4"
         ],
         // historia
         story: [
-            "<b><u>New</b></u> <b><u>nu</b></u>trition in sportman life gives him energy, <b><u>ev</b></u>entually he p<b><u>ass</b></u> his personal record"
+            "A <b><u>new</u></b> <b><u>nu</u></b>trition plan in a sportsman's life gives him energy. <b><u>Ev</u></b>entually, he p<b><u>ass</u></b>es his personal record."
         ],
         // opis
-        desc: "nuevas[NWAY-bahs] - nowe",
+        desc: "nuevas[NWAY-bahs] - new(nuevas/nuevos)",
         //zdanie
         sentence2: [
                 "nuevas"
@@ -3509,7 +3509,7 @@ id: [
 ],
         // obrazek
         img: [
-                "https://www.arbulang.com/img/fiszkiespanol/61a.jpg"
+                "https://www.arbulang.com/img/fiszki1en-esp/100a.jpg"
         ],
         word: [
                 "https://www.arbulang.com/voice/music.mp4"
@@ -3542,7 +3542,7 @@ id: [
 ],
         // obrazek
         img: [
-                "https://www.arbulang.com/img/fiszkiespanol/62a.jpg"
+                "https://www.arbulang.com/img/fiszki1en-esp/101a.jpg"
         ],
         translate: "To foresee problems and always be prepared",
         translateb: "[preh-veh-EHR proh-BLEH-mahs ee ehs-TAR preh-pah-RAH-doh SYEM-preh]",
@@ -3553,7 +3553,7 @@ id: [
         ],
         // historia
         story: [
-            ""
+            "<b><u>Pre</u></b>diction is actually <b><u>foresee</u></b>able and depends on <b><u>ver</u></b>y detailed observation"
         ],
         // opis
         desc: "prever[preh-veh-EHR] - foresee",
@@ -3579,7 +3579,7 @@ id: [
 ],
         // obrazek
         img: [
-                "https://www.arbulang.com/img/fiszkiespanol/63a.jpg"
+                "https://www.arbulang.com/img/fiszki1en-esp/102a.jpg"
         ],
         word: [
                 "https://www.arbulang.com/voice/music.mp4"
@@ -3647,17 +3647,17 @@ id: [
 ],
         // obrazek
         img: [
-                "https://www.arbulang.com/img/fiszkiespanol/65a.jpg"
+                "https://www.arbulang.com/img/fiszki1en-esp/104a.jpg"
         ],
         word: [
                 "https://www.arbulang.com/voice/music.mp4"
         ],
         // historia
         story: [
-            ""
+            "The <b><u>best</u></b> moment in action movies is <b><u>to be</b></u> the main character, sometimes drinking at a b<b><u>ar</u></b>"
         ],
         // opis
-        desc: "estar[ehs-TAR] - be",
+        desc: "estar[ehs-TAR] - to be",
         //zdanie
         sentence2: [
                 "estar"
@@ -3681,17 +3681,17 @@ id: [
 ],
         // obrazek
         img: [
-                "https://www.arbulang.com/img/fiszkiespanol/66a.jpg"
+                "https://www.arbulang.com/img/fiszkiespanol/105a.jpg"
         ],
         word: [
                 "https://www.arbulang.com/voice/music.mp4"
         ],
         // historia
         story: [
-            ""
+            "COGNATS - PREPARADO - PREPARED"
         ],
         // opis
-        desc: "preparado[preparado] - przygotowany",
+        desc: "preparado[preh-pah-RAH-doh] - prepared",
         //zdanie
         sentence2: [
                 "preparado"
@@ -3715,17 +3715,17 @@ id: [
 ],
         // obrazek
         img: [
-                "https://www.arbulang.com/img/fiszkiespanol/67a.jpg"
+                "https://www.arbulang.com/img/fiszkiespanol/106a.jpg"
         ],
         word: [
                 "https://www.arbulang.com/voice/music.mp4"
         ],
         // historia
         story: [
-            "O<u><b>siem</u></b> dni to długo okres na obóz. Obóz robimy <u><b>zawsze</u></b> w <u><b>sie</u></b>rpniu. Obóz nazywa się - <u><b>Pre</u></b>dator"
+            "<b><u>Siii</b></u> im <b><u>always</b></u> saying <b><u>yeah</b></u> to good <b><u>pre</b></u>paration to journey"
         ],
         // opis
-        desc: "siempre[siempre] - zawsze",
+        desc: "siempre[SYEM-preh] - always",
         //zdanie
         sentence2: [
                 "siempre"
@@ -3749,10 +3749,10 @@ id: [
 ],
         // obrazek
         img: [
-                "https://www.arbulang.com/img/fiszkiespanol/68a.jpg"
+                "https://www.arbulang.com/img/fiszkiespanol/107a.jpg"
         ],
         translate: "To protect everyone's rights always",
-        translateb: "[Proteher los derechos de todos siempre]",
+        translateb: "[pro-teh-HEHR los deh-REH-chohs deh TOH-dohs SYEM-preh]",
         srcWord: ["https://www.arbulang.com/filmy/esp/protect.mp4", 'Constantine (2005)'],
         srcWordimage: "https://www.arbulang.com/filmy/esp/protect.png",
         word: [
@@ -3760,10 +3760,10 @@ id: [
         ],
         // historia
         story: [
-            "<u><b>Prote</u></b>iny tego <u><b>her</u></b>batnika <u><b>chronią</u></b> przed zawałem"
+            "<b><u>Pro</b></u>blem in security and <b><u>protecting</b></u> your property depend on <b><u>te</b></u>rrible predictions and mental <b><u>her</b></u>itage"
         ],
         // opis
-        desc: "proteger[proteher] - chronić",
+        desc: "proteger[pro-teh-HEHR] - protect",
         //zdanie
         sentence1: [
                 "Proteger"
@@ -3788,17 +3788,17 @@ id: [
 ],
         // obrazek
         img: [
-                "https://www.arbulang.com/img/fiszkiespanol/69a.jpg"
+                "https://www.arbulang.com/img/fiszkiespanol/108a.jpg"
         ],
         word: [
                 "https://www.arbulang.com/voice/music.mp4"
         ],
         // historia
         story: [
-            "<u><b>Los</u></b> wia<u><b>der</u></b>ka jest oczywisty, wi<u><b>ecz</u></b>nie sprawiedliwe nalewa pr<u><b>os</u></b>to do innego wiaderka, takie są <u><b>prawa</u></b> wiaderka"
+            "It was c<b><u>los</b></u>e to ignoring my seller’s <b><u>rights</b></u> because <b><u>the</b></u> <b><u>re</b></u>nt money from other houses was not enough to cover the expenses, and I needed to get a loan and make a <b><u>cho</b></u>ice for the correct agreement (not so fast). It was <b><u>sss</b></u>uper decision"
         ],
         // opis
-        desc: "los derechos[los dereczos] - prawa(liczba mnoga)",
+        desc: "los derechos[los deh-REH-chohs] - the rights",
         //zdanie
         sentence1: [
                 "los derechos"
@@ -3822,17 +3822,17 @@ id: [
 ],
         // obrazek
         img: [
-                "https://www.arbulang.com/img/fiszkiespanol/70a.jpg"
+                "https://www.arbulang.com/img/fiszkiespanol/109a.jpg"
         ],
         word: [
                 "https://www.arbulang.com/voice/music.mp4"
         ],
         // historia
         story: [
-            "Twar<u><b>de</u></b> zasady dla <u><b>wszystkich</u></b> <u><b>to</u></b> <u><b>dos</u></b>łownie wojskowe warunki"
+            "The camera was constructed for the photography, as does everything of all that is designed for the purpose"
         ],
         // opis
-        desc: "de todos[de todos] - wszystkich",
+        desc: "de todos[deh TOH-dohs] - of all",
         //zdanie
         sentence1: [
                 "de todos"
@@ -4203,17 +4203,17 @@ id: [
 ],
         // obrazek
         img: [
-                "https://www.arbulang.com/img/fiszkiespanol/81a.jpg"
+                "https://www.arbulang.com/img/fiszki1en-esp/30a.jpg"
         ],
         word: [
-                "https://www.arbulang.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/lee.mp4"
         ],
         // historia
         story: [
-            "<u><b>W</u></b> <u><b>en</u></b>cyklopedi mamy wiedzę o świecie"
+                "New m<b><u>en</b></u> are on board"
         ],
         // opis
-        desc: "en[en] - w",
+        desc: "en[en] - on/in",
         //zdanie
         sentence2: [
                 "en"
@@ -4334,18 +4334,21 @@ id: [
         124,
         24
 ],
+        // obrazek
         img: [
-                "https://www.arbulang.com/img/fiszkiespanol/64a.jpg"
+                "https://www.arbulang.com/img/fiszki1en-esp/65a.jpg",
+                 "https://www.arbulang.com/img/fiszki1en-esp/36a.jpg"
         ],
         word: [
                 "https://www.arbulang.com/voice/music.mp4"
         ],
         // historia
         story: [
-            "<u><b>I</u></b>dealne <u><b>i</u></b> piękne"
+                "<b><u>And</b></u> this is <b><u>i</b></u>t",
+                "<b><u>I</b></u>nternet <b><u>and</b></u> computer were great inventions"
         ],
         // opis
-        desc: "y[i] - i",
+        desc: "y[ee] - and",
         //zdanie
         sentence2: [
                 "y"
@@ -4375,7 +4378,7 @@ id: [
         ],
         // historia
         story: [
-            "Na tym <u><b>dis</u></b>co normalnie <u><b>fru</u></b>wam z radości. <u><b>Cieszę się</u></b> z muzyki, a na <u><b>tar</u></b>asie są piękne dziewczyny"
+            ""
         ],
         // opis
         desc: "disfrutar[disfrutar] - cieszyć się",
@@ -4408,7 +4411,7 @@ id: [
         ],
         // historia
         story: [
-            "Moja <u><b>mania</u></b> kiedy wstaję <u><b>rano</u></b> jest <u><b>na</u></b> wysokim poziomie"
+            ""
         ],
         // opis
         desc: "la mañana[la maniana] - poranek",
@@ -4446,7 +4449,7 @@ id: [
         ],
         // historia
         story: [
-            "<u><b>Re</u></b>akcja na odmowę bywa bolesna, <u><b>Uuuu</u></b> nie będzie <u><b>zar</u></b>ęczyn"
+            ""
         ],
         // opis
         desc: "rehusar[reusar] - odrzucać",
@@ -4480,10 +4483,10 @@ id: [
         ],
         // historia
         story: [
-            "KOGNATY: oferty - ofertas"
+            "COGNATS - ofertas - offers"
         ],
         // opis
-        desc: "ofertas[ofertas] - oferty(liczba mnoga)",
+        desc: "ofertas[ofertas] - offers",
         //zdanie
         sentence1: [
                 "ofertas"
@@ -4513,7 +4516,7 @@ id: [
         ],
         // historia
         story: [
-            "Na zrobienie pizzy trzeba, mą<u><b>ke</u></b>, <u><b>którą</u></b> później z innymi składnikami mieszamy"
+            ""
         ],
         // opis
         desc: "que[ke] - które/która/który",
@@ -4546,10 +4549,10 @@ id: [
         ],
         // historia
         story: [
-            "KOGNATY: nie - angielskie NO"
+            "COGNATS - NO - NO"
         ],
         // opis
-        desc: "no[no] - nie",
+        desc: "no[no] - no",
         //zdanie
         sentence2: [
                 "no"
@@ -4578,7 +4581,7 @@ id: [
         ],
         // historia
         story: [
-            "W <u><b>te</u></b>macie modlitwy - <u><b>g</u></b>orliwy św.A<u><b>ugust</u></b>yn podobał się Bogu.. Am<u><b>en</u></b>"
+            ""
         ],
         // opis
         desc: "te gusten[te gusten] - ci/ciebie.. podobać się",
@@ -4614,7 +4617,7 @@ id: [
         ],
         // historia
         story: [
-            "Ej m<u><b>en</u></b>, <u><b>tre</u></b>nujemy dziś? <u><b>Nar</u></b>azie muszę odpisać na maile"
+            ""
         ],
         // opis
         desc: "entrenar[entrenar] - trenować",
@@ -4647,7 +4650,7 @@ id: [
         ],
         // historia
         story: [
-            "<u><b>F</u></b>ilip ma Pa<u><b>łer</u></b>(power) i <u><b>mocno</u></b> trenuje <u><b>te</u></b>kwondoo"
+            ""
         ],
         // opis
         desc: "fuerte[fłerte] - mocno",
@@ -4679,7 +4682,7 @@ id: [
         ],
         // historia
         story: [
-            "Wszsycy chcą bić brawo <u><b>dla</u></b> tej <u><b>para</u></b>dy cyrkowca"
+            "<u><b>For</u></b> <u><b>para</u></b>dise people can do a lot"
         ],
         // opis
         desc: "para[para] - dla/żeby",
@@ -4745,7 +4748,7 @@ id: [
         ],
         // historia
         story: [
-            "<u><b>Mech</u></b> <u><b>lepiej</u></b> rośnie od strony północnej - tam gdzie k<u><b>or</u></b>a drzewa"
+            ""
         ],
         // opis
         desc: "mejor[mehor] - lepiej",
@@ -4782,7 +4785,7 @@ id: [
         ],
         // historia
         story: [
-            "<u><b>Eksp</u></b>ort (<u><b>li</u></b>czny) auto<u><b>kar</u></b>ów powoduje prężność rozwoju spółki. To <u><b>wyjaśnia</u></b> potrzebę działania międzynarodowego"
+            ""
         ],
         // opis
         desc: "explicar[eksplikar] - wyjaśniać",
@@ -4818,7 +4821,7 @@ id: [
         ],
         // historia
         story: [
-            "Stadion <u><b>Res</u></b>ovi jest super - jest <u><b>pó</u></b>źno i odbywa sie mecz. Są <u><b>odpowiedzi</u></b> publiczności i jest organizowana kw<u><b>esta</u></b>"
+            ""
         ],
         // opis
         desc: "respuestas[] - odpowiedzi",
@@ -4854,7 +4857,7 @@ id: [
         ],
         // historia
         story: [
-            "Jest j<u><b>as</u></b>ne i <u><b>klar</u></b>owne, że warto uczyć się języków"
+            ""
         ],
         // opis
         desc: "claras[klaras] - ",
@@ -4871,7 +4874,6 @@ id: [
         //  slowo do nauki
         key: "claras",
         category1: [
-                "sport", "gaming"
         ],
         category2: ["osoby", "osoby+czas"],
                 category3: ["Infinitive"]
@@ -4907,7 +4909,6 @@ id: [
         //  slowo do nauki
         key: "ninos",
         category1: [
-                "sport", "gaming"
         ],
         category2: ["osoby", "osoby+czas"],
                 category3: ["Infinitive"]
@@ -4930,10 +4931,10 @@ id: [
         ],
         // historia
         story: [
-            "Przewodnik <u><b>prowa</u></b>dzi wycieczkę i <u><b>wyjaśnia</u></b> wszystko turystom, prześlinił sobie lekko <u><b>war</u></b>gę"
+            "My <b><u>pro</b></u>ject <b><u>prove</b></u> that imposibble is nothing. His <b><u>va</b></u>lue and business <b><u>r</b></u>ank is high"
         ],
         // opis
-        desc: "probar[prowar] - wyjaśniać",
+        desc: "probar[prowar] - prove",
         //zdanie
         sentence1: [
                 "Probar"
@@ -4946,7 +4947,6 @@ id: [
         //  slowo do nauki
         key: "probar",
         category1: [
-                "sport", "gaming"
         ],
         category2: ["osoby", "osoby+czas"],
                 category3: ["Infinitive"]
@@ -4965,10 +4965,10 @@ id: [
         ],
         // historia
         story: [
-            "Jest zima, zjedliśmy <u><b>posiłek</u></b> i palimy w piecu, z <u><b>komi</u></b>na <u><b>da</u></b>je czarny dym"
+            ""
         ],
         // opis
-        desc: "comida[komida] - posiłek",
+        desc: "comida[komida] - meal",
         //zdanie
         sentence1: [
                 "comida"
@@ -4981,7 +4981,6 @@ id: [
         //  slowo do nauki
         key: "comida",
         category1: [
-                "sport", "gaming"
         ],
         category2: ["osoby", "osoby+czas"],
                 category3: ["Infinitive"]
@@ -5000,7 +4999,7 @@ id: [
         ],
         // historia
         story: [
-            "<u><b>Deli</u></b>cje są <u><b>pyszne</u></b>, tylko patrzeć na zegarek ca<u><b>sio</u></b> - kiedy będą zjedzone i to <u><b>sa</u></b>motnie"
+            ""
         ],
         // opis
         desc: "deliciosa[delisiosa] - pyszne",
@@ -5016,7 +5015,6 @@ id: [
         //  slowo do nauki
         key: "deliciosa",
         category1: [
-                "sport", "gaming"
         ],
         category2: ["osoby", "osoby+czas"],
                 category3: ["Infinitive"]
@@ -5028,17 +5026,17 @@ id: [
 ],
         // obrazek
         img: [
-                "https://www.arbulang.com/img/fiszkiespanol/3a.jpg"
+                "https://www.arbulang.com/img/fiszki1en-esp/30a.jpg"
         ],
         word: [
-                "https://www.arbulang.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/lee.mp4"
         ],
         // historia
         story: [
-                "W <u><b>en</u></b>cykopedi jest podstawowa wiedza"
+                "New m<b><u>en</b></u> are on board"
         ],
         // opis
-        desc: "en[en] - w",
+        desc: "en[en] - on/in",
         //zdanie
         sentence2: [
                 "en"
@@ -5063,17 +5061,17 @@ id: [
 ],
         // obrazek
         img: [
-                "https://www.arbulang.com/img/fiszki1/2a.jpg"
+                "https://www.arbulang.com/img/fiszki1en-esp/99a.jpg"
         ],
         word: [
                 "https://www.arbulang.com/voice/music.mp4"
         ],
         // historia
         story: [
-            ""
+            "A <b><u>new</u></b> <b><u>nu</u></b>trition plan in a sportsman's life gives him energy. <b><u>Ev</u></b>entually he is like a sport B<b><u>oss</b></u>"
         ],
         // opis
-        desc: "nuevas[nuewas] - nowe",
+        desc: "nuevos[NWAY-bahs] - new(nuevas/nuevos)",
         //zdanie
         sentence2: [
                 "nuevos"
@@ -5086,7 +5084,6 @@ id: [
         //  slowo do nauki
         key: "nuevos",
         category1: [
-                "sport", "gaming"
         ],
         category2: ["osoby", "osoby+czas"],
                 category3: ["Infinitive"]
@@ -5121,7 +5118,6 @@ id: [
         //  slowo do nauki
         key: "lugares",
         category1: [
-                "sport", "gaming"
         ],
         category2: ["osoby", "osoby+czas"],
                 category3: ["Infinitive"]
@@ -5147,7 +5143,7 @@ id: [
             "I am <u><b>laughing</u></b> at my friend <u><b>irr</u></b>ational <u><b>re</u></b>sponse"
         ],
         // opis
-        desc: "reir[reir] - śmiać się",
+        desc: "reir[reir] - laugh",
         //zdanie
         sentence1: [
                 "Reir"
@@ -5159,7 +5155,6 @@ id: [
         //  slowo do nauki
         key: "reir",
         category1: [
-                "sport", "gaming"
         ],
         category2: ["osoby", "osoby+czas"],
                 category3: ["Infinitive"]
@@ -5171,17 +5166,17 @@ id: [
 ],
         // obrazek
         img: [
-                "https://www.arbulang.com/img/fiszki1/2a.jpg"
+                "https://www.arbulang.com/img/fiszki1en-esp/53a.jpg"
         ],
         word: [
                 "https://www.arbulang.com/voice/music.mp4"
         ],
         // historia
         story: [
-            ""
+                "They <b><u>hun</b></u>t <b><u>to</b></u>gether like a b<b><u>oss</b></u>"
         ],
         // opis
-        desc: "juntos[huntos] - razem",
+        desc: "juntos[hoon-tos] - together",
         //zdanie
         sentence1: [
                 "juntos"
@@ -5193,7 +5188,6 @@ id: [
         //  slowo do nauki
         key: "juntos",
         category1: [
-                "sport", "gaming"
         ],
         category2: ["osoby", "osoby+czas"],
                 category3: ["Infinitive"]
@@ -5205,17 +5199,18 @@ id: [
 ],
         // obrazek
         img: [
-                "https://www.arbulang.com/img/fiszki1/2a.jpg"
+                "https://www.arbulang.com/img/fiszki1en-esp/51a.jpg"
         ],
         word: [
                 "https://www.arbulang.com/voice/music.mp4"
         ],
         // historia
         story: [
-            ""
+                "<b><u>While</b></u> we have some rumor in market, <b><u>m</b></u>y <b><u>Yen</b></u> is in <b><u>trou</b></u>ble, the game isnt <b><u>s</b></u>uper easy",
+                "In my science report i contain a lot. Then i go with friend to celebrate Rastafari cult"
         ],
         // opis
-        desc: "mientras[mientras] - podczas",
+        desc: "mientras[myen-trahs] - while",
         //zdanie
         sentence2: [
                 "mientras"
@@ -5229,7 +5224,6 @@ id: [
         //  slowo do nauki
         key: "mientras",
         category1: [
-                "sport", "gaming"
         ],
         category2: ["osoby", "osoby+czas"],
                 category3: ["Infinitive"]
@@ -5241,17 +5235,17 @@ id: [
 ],
         // obrazek
         img: [
-                "https://www.arbulang.com/img/fiszki1/2a.jpg"
+                "https://www.arbulang.com/img/fiszki1en-esp/51a.jpg"
         ],
         word: [
                 "https://www.arbulang.com/voice/music.mp4"
         ],
         // historia
         story: [
-            ""
+            "<b><u>We look</b></u> at the <b><u>mir</b></u>racle which was seeing in reality <b><u>a</b></u>n actress Carrie-Anne <b><u>Moss</b></u>"
         ],
         // opis
-        desc: "miramos[miramos] - oglądać",
+        desc: "miramos[miramos] - we look",
         //zdanie
         sentence2: [
                 "miramos"
@@ -5265,7 +5259,6 @@ id: [
         //  slowo do nauki
         key: "miramos",
         category1: [
-                "sport", "gaming"
         ],
         category2: ["osoby", "osoby+czas"],
                 category3: ["Infinitive"]
@@ -5301,7 +5294,6 @@ id: [
         //  slowo do nauki
         key: "peliculas",
         category1: [
-                "sport", "gaming"
         ],
         category2: ["osoby", "osoby+czas"],
                 category3: ["Infinitive"]
@@ -5320,10 +5312,10 @@ id: [
         ],
         // historia
         story: [
-            ""
+            "COGNATS - COMICAS - COMICS"
         ],
         // opis
-        desc: "cómicas[comicas] - komediowe",
+        desc: "cómicas[comicas] - comics",
         //zdanie
         sentence2: [
                 "cómicas"
@@ -5337,7 +5329,6 @@ id: [
         //  slowo do nauki
         key: "comicas",
         category1: [
-                "sport", "gaming"
         ],
         category2: ["osoby", "osoby+czas"],
                 category3: ["Infinitive"]
@@ -5360,10 +5351,10 @@ id: [
         ],
         // historia
         story: [
-            "<u><b>Nega</u></b>tywnym rzeczom częściej się <u><b>zaprzecza</u></b>... Tak robi <u><b>Ar</u></b>tek"
+            "We <b><u>deny</b></u> that this factor has <b><u>neg</b></u>ative influence in h<b><u>ar</b></u>d effort of sportsmen"
         ],
         // opis
-        desc: "negar[negar] - zaprzeczać",
+        desc: "negar[negar] - deny",
         //zdanie
         sentence1: [
                 "Negar"
@@ -5375,7 +5366,6 @@ id: [
         //  slowo do nauki
         key: "negar",
         category1: [
-                "sport", "gaming"
         ],
         category2: ["osoby", "osoby+czas"],
                 category3: ["Infinitive"]
@@ -5394,7 +5384,7 @@ id: [
         ],
         // historia
         story: [
-            "Prawda jest jak A<u><b>men</u></b> w pacierzu. Natomiast <u><b>kłamstwo0</u></b> szybko wychodzi. <u><b>Ti</u></b>na jest k<u><b>ras</u></b>nej urody i nie kłamie"
+            ""
         ],
         // opis
         desc: "mentiras[mentiras] - ",
@@ -5409,7 +5399,6 @@ id: [
         //  slowo do nauki
         key: "mentiras",
         category1: [
-                "sport", "gaming"
         ],
         category2: ["osoby", "osoby+czas"],
                 category3: ["Infinitive"]
@@ -5419,18 +5408,21 @@ id: [
         155,
         30
 ],
+        // obrazek
         img: [
-                "https://www.arbulang.com/img/fiszkiespanol/64a.jpg"
+                "https://www.arbulang.com/img/fiszki1en-esp/65a.jpg",
+                 "https://www.arbulang.com/img/fiszki1en-esp/36a.jpg"
         ],
         word: [
                 "https://www.arbulang.com/voice/music.mp4"
         ],
         // historia
         story: [
-            "<u><b>I</u></b>dealne <u><b>i</u></b> piękne"
+                "<b><u>And</b></u> this is <b><u>i</b></u>t",
+                "<b><u>I</b></u>nternet <b><u>and</b></u> computer were great inventions"
         ],
         // opis
-        desc: "y[i] - i",
+        desc: "y[ee] - and",
         //zdanie
         sentence2: [
                 "y"
@@ -5463,10 +5455,10 @@ id: [
         ],
         // historia
         story: [
-            ""
+            "<b><u>The</b></u> best thing in my presents on show was autograf of <b><u>Sir</b></u> Alex. And he <b><u>say</b></u> something to me"
         ],
         // opis
-        desc: "decir[desir] - mówić",
+        desc: "decir[desir] - say",
         //zdanie
         sentence2: [
                 "decir"
@@ -5480,7 +5472,6 @@ id: [
         //  slowo do nauki
         key: "decir",
         category1: [
-                "sport", "gaming"
         ],
         category2: ["osoby", "osoby+czas"],
                 category3: ["Infinitive"]
@@ -5498,10 +5489,10 @@ id: [
         ],
         // historia
         story: [
-            "O<u><b>siem</u></b> dni to długo okres na obóz. Obóz robimy <u><b>zawsze</u></b> w <u><b>sie</u></b>rpniu. Obóz nazywa się - <u><b>Pre</u></b>dator"
+            ""
         ],
         // opis
-        desc: "siempre[siempre] - zawsze",
+        desc: "siempre[siempre] - always",
         //zdanie
         sentence2: [
                 "siempre"
@@ -5534,7 +5525,7 @@ id: [
         ],
         // historia
         story: [
-            "<u><b>Ber</u></b>t to znany naukowiec. <u><b>Prawda</u></b> dla niego to za<u><b>da</u></b>nie najważniejsze. Dla <u><b>Ad</u></b>y też."
+            ""
         ],
         // opis
         desc: "verdad[berdad] - prawda",

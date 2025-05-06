@@ -37,7 +37,7 @@ id: [
                 "una flor"
         ],
         //  slowo do nauki
-        key: "everybody",
+        key: "dibujar",
         category1: [
                 "sport", "wyobraźnia",
                 "natura", "klimat",
@@ -75,7 +75,7 @@ id: [
                 "una flor"
         ],
         //  slowo do nauki
-        key: "everybody",
+        key: "flor",
         category2: ["osoby", "osoby+czas"]
 },
 {
@@ -105,9 +105,8 @@ id: [
                 "el cuaderno"
         ],
         //  slowo do nauki
-        key: "everybody",
+        key: "en",
         category1: [
-                "sport", "gaming"
         ],
         category2: ["osoby", "osoby+czas"]
 },
@@ -138,7 +137,7 @@ id: [
                 "el cuaderno"
         ],
         //  slowo do nauki
-        key: "everybody",
+        key: "cuaderno",
         category1: [
                 "sport", "gaming"
         ],
@@ -175,9 +174,8 @@ id: [
                 "solo"
         ],
         //  slowo do nauki
-        key: "everybody",
+        key: "esperar",
         category1: [
-                "sport", "gaming"
         ],
         category2: ["osoby", "osoby+czas"],
                 category3: ["Infinitive"]
@@ -209,9 +207,8 @@ id: [
                 "solo"
         ],
         //  slowo do nauki
-        key: "everybody",
+        key: "solo",
         category1: [
-                "sport", "gaming"
         ],
         category2: ["osoby", "osoby+czas"]
 },
@@ -246,9 +243,8 @@ id: [
                 "la casa"
         ],
         //  slowo do nauki
-        key: "everybody",
+        key: "dentro de",
         category1: [
-                "sport", "gaming"
         ],
         category2: ["osoby", "osoby+czas"]
 },
@@ -279,9 +275,8 @@ id: [
                 "la casa"
         ],
         //  slowo do nauki
-        key: "everybody",
+        key: "casa",
         category1: [
-                "sport", "gaming"
         ],
         category2: ["osoby", "osoby+czas"]
 },
@@ -317,9 +312,8 @@ id: [
                 "tension"
         ],
         //  slowo do nauki
-        key: "everybody",
+        key: "hablar",
         category1: [
-                "sport", "gaming"
         ],
         category2: ["osoby", "osoby+czas"],
                 category3: ["Infinitive"]
@@ -352,9 +346,8 @@ id: [
                 "tension"
         ],
         //  slowo do nauki
-        key: "everybody",
+        key: "sin",
         category1: [
-                "sport", "gaming"
         ],
         category2: ["osoby", "osoby+czas"]
 },
@@ -386,9 +379,8 @@ id: [
                 "tension"
         ],
         //  slowo do nauki
-        key: "everybody",
+        key: "tension",
         category1: [
-                "sport", "gaming"
         ],
         category2: ["osoby", "osoby+czas"]
 },
@@ -420,9 +412,8 @@ id: [
                 "juntos"
         ],
         //  slowo do nauki
-        key: "everybody",
+        key: "mientras",
         category1: [
-                "sport", "gaming"
         ],
         category2: ["osoby", "osoby+czas"]
 },
@@ -454,9 +445,8 @@ id: [
                 "juntos"
         ],
         //  slowo do nauki
-        key: "everybody",
+        key: "caminamos",
         category1: [
-                "sport", "gaming"
         ],
         category2: ["osoby", "osoby+czas"]
 },
@@ -488,9 +478,8 @@ id: [
                 "juntos"
         ],
         //  slowo do nauki
-        key: "everybody",
+        key: "juntos",
         category1: [
-                "sport", "gaming"
         ],
         category2: ["osoby", "osoby+czas"]
 },
@@ -526,9 +515,8 @@ id: [
                 "con"
         ],
         //  slowo do nauki
-        key: "everybody",
+        key: "romper",
         category1: [
-                "sport", "gaming"
         ],
         category2: ["osoby", "osoby+czas"],
                 category3: ["Infinitive"]
@@ -561,9 +549,8 @@ id: [
                 "con"
         ],
         //  slowo do nauki
-        key: "everybody",
+        key: "silencio",
         category1: [
-                "sport", "gaming"
         ],
         category2: ["osoby", "osoby+czas"]
 },
@@ -595,9 +582,8 @@ id: [
                 "con"
         ],
         //  slowo do nauki
-        key: "everybody",
+        key: "con",
         category1: [
-                "sport", "gaming"
         ],
         category2: ["osoby", "osoby+czas"]
 },
@@ -628,9 +614,8 @@ id: [
                 "bonitas"
         ],
         //  slowo do nauki
-        key: "everybody",
+        key: "palabras",
         category1: [
-                "sport", "gaming"
         ],
         category2: ["osoby", "osoby+czas"]
 },
@@ -661,9 +646,8 @@ id: [
                 "bonitas"
         ],
         //  slowo do nauki
-        key: "everybody",
+        key: "bonitas",
         category1: [
-                "sport", "gaming"
         ],
         category2: ["osoby", "osoby+czas"]
 },
@@ -698,9 +682,8 @@ id: [
                 "las puertas"
         ],
         //  slowo do nauki
-        key: "everybody",
+        key: "asegurar",
         category1: [
-                "sport", "gaming"
         ],
         category2: ["osoby", "osoby+czas"],
                 category3: ["Infinitive"]
@@ -732,9 +715,8 @@ id: [
                 "las puertas"
         ],
         //  slowo do nauki
-        key: "everybody",
+        key: "puertas",
         category1: [
-                "sport", "gaming"
         ],
         category2: ["osoby", "osoby+czas"]
 },
@@ -765,9 +747,8 @@ id: [
                 "dormir"
         ],
         //  slowo do nauki
-        key: "everybody",
+        key: "antes de",
         category1: [
-                "sport", "gaming"
         ],
         category2: ["osoby", "osoby+czas"]
 },
@@ -798,9 +779,8 @@ id: [
                 "dormir"
         ],
         //  slowo do nauki
-        key: "everybody",
+        key: "dormir",
         category1: [
-                "sport", "gaming"
         ],
         category2: ["osoby", "osoby+czas"]
 },
@@ -835,9 +815,8 @@ id: [
                 "la calma"
         ],
         //  slowo do nauki
-        key: "everybody",
+        key: "mantener",
         category1: [
-                "sport", "gaming"
         ],
         category2: ["osoby", "osoby+czas"],
                 category3: ["Infinitive"]
@@ -869,9 +848,8 @@ id: [
                 "la calma"
         ],
         //  slowo do nauki
-        key: "everybody",
+        key: "la calma",
         category1: [
-                "sport", "gaming"
         ],
         category2: ["osoby", "osoby+czas"]
 },
@@ -903,9 +881,8 @@ id: [
                 "juntos"
         ],
         //  slowo do nauki
-        key: "everybody",
+        key: "y",
         category1: [
-                "sport", "gaming"
         ],
         category2: ["osoby", "osoby+czas"]
 },
@@ -937,9 +914,8 @@ id: [
                 "juntos"
         ],
         //  slowo do nauki
-        key: "everybody",
+        key: "disfrutar",
         category1: [
-                "sport", "gaming"
         ],
         category2: ["osoby", "osoby+czas"]
 },
@@ -971,9 +947,8 @@ id: [
                 "juntos"
         ],
         //  slowo do nauki
-        key: "everybody",
+        key: "juntos",
         category1: [
-                "sport", "gaming"
         ],
         category2: ["osoby", "osoby+czas"]
 },
@@ -1009,9 +984,8 @@ id: [
                 "con"
         ],
         //  slowo do nauki
-        key: "everybody",
+        key: "lograr",
         category1: [
-                "sport", "gaming"
         ],
         category2: ["osoby", "osoby+czas"],
                 category3: ["Infinitive"]
@@ -1044,9 +1018,8 @@ id: [
                 "con"
         ],
         //  slowo do nauki
-        key: "everybody",
+        key: "suenos",
         category1: [
-                "sport", "gaming"
         ],
         category2: ["osoby", "osoby+czas"]
 },
@@ -1080,9 +1053,8 @@ id: [
                 "con"
         ],
         //  slowo do nauki
-        key: "everybody",
+        key: "con",
         category1: [
-                "sport", "gaming"
         ],
         category2: ["osoby", "osoby+czas"]
 },
@@ -1114,9 +1086,8 @@ id: [
                 "dedication"
         ],
         //  slowo do nauki
-        key: "everybody",
+        key: "esfuerzo",
         category1: [
-                "sport", "gaming"
         ],
         category2: ["osoby", "osoby+czas"]
 },
@@ -1148,9 +1119,8 @@ id: [
                 "dedication"
         ],
         //  slowo do nauki
-        key: "everybody",
+        key: "y",
         category1: [
-                "sport", "gaming"
         ],
         category2: ["osoby", "osoby+czas"]
 },
@@ -1182,9 +1152,8 @@ id: [
                 "dedication"
         ],
         //  slowo do nauki
-        key: "everybody",
+        key: "dedication",
         category1: [
-                "sport", "gaming"
         ],
         category2: ["osoby", "osoby+czas"]
 },
@@ -1220,9 +1189,8 @@ id: [
                 "felices"
         ],
         //  slowo do nauki
-        key: "everybody",
+        key: "recordar",
         category1: [
-                "sport", "gaming"
         ],
         category2: ["osoby", "osoby+czas"],
                 category3: ["Infinitive"]
@@ -1241,6 +1209,7 @@ id: [
         ],
         // historia
         story: [
+                "KOGANTY - MOMENTOS - MOMENTY",
                 "Te chwile, te <u><b>momenty</u></b>.. <u><b>os</u></b>tatnie, przed końcem urlopu są najlepsze"
         ],
         // opis
@@ -1255,9 +1224,8 @@ id: [
                 "felices"
         ],
         //  slowo do nauki
-        key: "everybody",
+        key: "momentos",
         category1: [
-                "sport", "gaming"
         ],
         category2: ["osoby", "osoby+czas"]
 },
@@ -1289,9 +1257,8 @@ id: [
                 "felices"
         ],
         //  slowo do nauki
-        key: "everybody",
+        key: "felices",
         category1: [
-                "sport", "gaming"
         ],
         category2: ["osoby", "osoby+czas"]
 },
@@ -1324,9 +1291,8 @@ id: [
                 "la familia"
         ],
         //  slowo do nauki
-        key: "everybody",
+        key: "con",
         category1: [
-                "sport", "gaming"
         ],
         category2: ["osoby", "osoby+czas"]
 },
@@ -1344,6 +1310,7 @@ id: [
         ],
         // historia
         story: [
+                "KOGANTY - FAMILIA - RODZINA",
                 "Wczoraj ob<u><b>la</u></b>łem sukces razem z moją <u><b>familią</u></b>"
         ],
         // opis
@@ -1357,9 +1324,8 @@ id: [
                 "la familia"
         ],
         //  slowo do nauki
-        key: "everybody",
+        key: "familia",
         category1: [
-                "sport", "gaming"
         ],
         category2: ["osoby", "osoby+czas"]
 },
@@ -1395,9 +1361,8 @@ id: [
                 "del maquillaje"
         ],
         //  slowo do nauki
-        key: "everybody",
+        key: "disfrutar",
         category1: [
-                "sport", "gaming"
         ],
         category2: ["osoby", "osoby+czas"],
                 category3: ["Infinitive"]
@@ -1429,9 +1394,8 @@ id: [
                 "del maquillaje"
         ],
         //  slowo do nauki
-        key: "everybody",
+        key: "maquillaje",
         category1: [
-                "sport", "gaming"
         ],
         category2: ["osoby", "osoby+czas"]
 },
@@ -1463,9 +1427,8 @@ id: [
                 "salir"
         ],
         //  slowo do nauki
-        key: "everybody",
+        key: "antes de",
         category1: [
-                "sport", "gaming"
         ],
         category2: ["osoby", "osoby+czas"]
 },
@@ -1496,9 +1459,8 @@ id: [
                 "salir"
         ],
         //  slowo do nauki
-        key: "everybody",
+        key: "salir",
         category1: [
-                "sport", "gaming"
         ],
         category2: ["osoby", "osoby+czas"]
 },
@@ -1533,13 +1495,8 @@ id: [
                 "la ansieded"
         ],
         //  slowo do nauki
-        key: "everybody",
+        key: "olvidar",
         category1: [
-                "sport", "gaming",
-                "natura", "kulinaria",
-                "nauka", "medycyna",
-                "czarny humor", "pasja",
-                "związki", "wychowanie"
         ],
         category2: ["osoby", "osoby+czas"],
                 category3: ["Infinitive"]
@@ -1571,13 +1528,8 @@ id: [
                 "la ansieded"
         ],
         //  slowo do nauki
-        key: "everybody",
+        key: "ansiedad",
         category1: [
-                "sport", "gaming",
-                "natura", "kulinaria",
-                "nauka", "medycyna",
-                "czarny humor", "pasja",
-                "związki", "wychowanie"
         ],
         category2: ["osoby", "osoby+czas"]
 },
@@ -1608,13 +1560,8 @@ id: [
                 "las estrellas"
         ],
         //  slowo do nauki
-        key: "everybody",
+        key: "mirando",
         category1: [
-                "sport", "gaming",
-                "natura", "kulinaria",
-                "nauka", "medycyna",
-                "czarny humor", "pasja",
-                "związki", "wychowanie"
         ],
         category2: ["osoby", "osoby+czas"]
 },
@@ -1645,13 +1592,8 @@ id: [
                 "las estrellas"
         ],
         //  slowo do nauki
-        key: "everybody",
+        key: "estrellas",
         category1: [
-                "sport", "gaming",
-                "natura", "kulinaria",
-                "nauka", "medycyna",
-                "czarny humor", "pasja",
-                "związki", "wychowanie"
         ],
         category2: ["osoby", "osoby+czas"]
 },
@@ -1687,13 +1629,8 @@ id: [
                 "al"
         ],
         //  slowo do nauki
-        key: "everybody",
+        key: "extender",
         category1: [
-                "sport", "gaming",
-                "natura", "kulinaria",
-                "nauka", "medycyna",
-                "czarny humor", "pasja",
-                "związki", "wychowanie"
         ],
         category2: ["osoby", "osoby+czas"],
                 category3: ["Infinitive"]
@@ -1726,13 +1663,8 @@ id: [
                 "al"
         ],
         //  slowo do nauki
-        key: "everybody",
+        key: "brazos",
         category1: [
-                "sport", "gaming",
-                "natura", "kulinaria",
-                "nauka", "medycyna",
-                "czarny humor", "pasja",
-                "związki", "wychowanie"
         ],
         category2: ["osoby", "osoby+czas"]
 },
@@ -1764,13 +1696,8 @@ id: [
                 "al"
         ],
         //  slowo do nauki
-        key: "everybody",
+        key: "al",
         category1: [
-                "sport", "gaming",
-                "natura", "kulinaria",
-                "nauka", "medycyna",
-                "czarny humor", "pasja",
-                "związki", "wychowanie"
         ],
         category2: ["osoby", "osoby+czas"]
 },
@@ -1801,13 +1728,8 @@ id: [
                 "azul"
         ],
         //  slowo do nauki
-        key: "everybody",
+        key: "cielo",
         category1: [
-                "sport", "gaming",
-                "natura", "kulinaria",
-                "nauka", "medycyna",
-                "czarny humor", "pasja",
-                "związki", "wychowanie"
         ],
         category2: ["osoby", "osoby+czas"]
 },
@@ -1838,13 +1760,8 @@ id: [
                 "azul"
         ],
         //  slowo do nauki
-        key: "everybody",
+        key: "azul",
         category1: [
-                "sport", "gaming",
-                "natura", "kulinaria",
-                "nauka", "medycyna",
-                "czarny humor", "pasja",
-                "związki", "wychowanie"
         ],
         category2: ["osoby", "osoby+czas"]
 },
@@ -1881,13 +1798,8 @@ id: [
                 "la lluvia"
         ],
         //  slowo do nauki
-        key: "everybody",
+        key: "cubrir",
         category1: [
-                "sport", "gaming",
-                "natura", "kulinaria",
-                "nauka", "medycyna",
-                "czarny humor", "pasja",
-                "związki", "wychowanie"
         ],
         category2: ["osoby", "osoby+czas"],
                 category3: ["Infinitive"]
@@ -1921,13 +1833,8 @@ id: [
                 "la lluvia"
         ],
         //  slowo do nauki
-        key: "everybody",
+        key: "coche",
         category1: [
-                "sport", "gaming",
-                "natura", "kulinaria",
-                "nauka", "medycyna",
-                "czarny humor", "pasja",
-                "związki", "wychowanie"
         ],
         category2: ["osoby", "osoby+czas"]
 },
@@ -1960,13 +1867,8 @@ id: [
                 "la lluvia"
         ],
         //  slowo do nauki
-        key: "everybody",
+        key: "antes de",
         category1: [
-                "sport", "gaming",
-                "natura", "kulinaria",
-                "nauka", "medycyna",
-                "czarny humor", "pasja",
-                "związki", "wychowanie"
         ],
         category2: ["osoby", "osoby+czas"]
 },
@@ -1999,13 +1901,8 @@ id: [
                 "la lluvia"
         ],
         //  slowo do nauki
-        key: "everybody",
+        key: "lluvia",
         category1: [
-                "sport", "gaming",
-                "natura", "kulinaria",
-                "nauka", "medycyna",
-                "czarny humor", "pasja",
-                "związki", "wychowanie"
         ],
         category2: ["osoby", "osoby+czas"]
 },
@@ -2040,13 +1937,8 @@ id: [
                 "la mente"
         ],
         //  slowo do nauki
-        key: "everybody",
+        key: "cambiar",
         category1: [
-                "sport", "gaming",
-                "natura", "kulinaria",
-                "nauka", "medycyna",
-                "czarny humor", "pasja",
-                "związki", "wychowanie"
         ],
         category2: ["osoby", "osoby+czas"],
                 category3: ["Infinitive"]
@@ -2078,13 +1970,8 @@ id: [
                 "la mente"
         ],
         //  slowo do nauki
-        key: "everybody",
+        key: "mente",
         category1: [
-                "sport", "gaming",
-                "natura", "kulinaria",
-                "nauka", "medycyna",
-                "czarny humor", "pasja",
-                "związki", "wychowanie"
         ],
         category2: ["osoby", "osoby+czas"]
 },
@@ -3150,11 +3037,6 @@ id: [
         //  slowo do nauki
         key: "ofertas",
         category1: [
-                "sport", "gaming",
-                "natura", "kulinaria",
-                "nauka", "medycyna",
-                "czarny humor", "pasja",
-                "związki", "wychowanie"
         ],
         category2: ["osoby", "osoby+czas"]
 },
@@ -3458,7 +3340,6 @@ id: [
         //  slowo do nauki
         key: "explicar",
         category1: [
-                "sport", "gaming"
         ],
         category2: ["osoby", "osoby+czas"],
                 category3: ["Infinitive"]
@@ -3494,7 +3375,6 @@ id: [
         //  slowo do nauki
         key: "respuestas",
         category1: [
-                "sport", "gaming"
         ],
         category2: ["osoby", "osoby+czas"],
                 category3: ["Infinitive"]
@@ -3530,7 +3410,6 @@ id: [
         //  slowo do nauki
         key: "claras",
         category1: [
-                "sport", "gaming"
         ],
         category2: ["osoby", "osoby+czas"],
                 category3: ["Infinitive"]
@@ -3566,7 +3445,6 @@ id: [
         //  slowo do nauki
         key: "ninos",
         category1: [
-                "sport", "gaming"
         ],
         category2: ["osoby", "osoby+czas"],
                 category3: ["Infinitive"]
@@ -3605,7 +3483,6 @@ id: [
         //  slowo do nauki
         key: "probar",
         category1: [
-                "sport", "gaming"
         ],
         category2: ["osoby", "osoby+czas"],
                 category3: ["Infinitive"]
@@ -3640,7 +3517,6 @@ id: [
         //  slowo do nauki
         key: "comida",
         category1: [
-                "sport", "gaming"
         ],
         category2: ["osoby", "osoby+czas"],
                 category3: ["Infinitive"]
@@ -3675,7 +3551,6 @@ id: [
         //  slowo do nauki
         key: "deliciosa",
         category1: [
-                "sport", "gaming"
         ],
         category2: ["osoby", "osoby+czas"],
                 category3: ["Infinitive"]
@@ -3710,7 +3585,6 @@ id: [
         //  slowo do nauki
         key: "en",
         category1: [
-                "sport", "gaming"
         ],
         category2: ["osoby", "osoby+czas"],
                 category3: ["Infinitive"]
@@ -3745,7 +3619,6 @@ id: [
         //  slowo do nauki
         key: "nuevos",
         category1: [
-                "sport", "gaming"
         ],
         category2: ["osoby", "osoby+czas"],
                 category3: ["Infinitive"]
@@ -3780,7 +3653,6 @@ id: [
         //  slowo do nauki
         key: "lugares",
         category1: [
-                "sport", "gaming"
         ],
         category2: ["osoby", "osoby+czas"],
                 category3: ["Infinitive"]
@@ -3803,7 +3675,7 @@ id: [
         ],
         // historia
         story: [
-            ""
+            "Moją <u><b>re</u></b>akcją na <u><b>ir</u></b>racjonalny argument był <u><b>śmiech</u></b>"
         ],
         // opis
         desc: "reir[reir] - śmiać się",
@@ -3818,7 +3690,6 @@ id: [
         //  slowo do nauki
         key: "reir",
         category1: [
-                "sport", "gaming"
         ],
         category2: ["osoby", "osoby+czas"],
                 category3: ["Infinitive"]
@@ -3830,30 +3701,28 @@ id: [
 ],
         // obrazek
         img: [
-                "https://www.arbulang.com/img/fiszki1/2a.jpg"
+                "https://www.arbulang.com/img/fiszkiespanol/14a.jpg"
         ],
         word: [
                 "https://www.arbulang.com/voice/music.mp4"
         ],
         // historia
         story: [
-            ""
+                "<u><b>Hu</u></b>ra jesteśmy w <u><b>Un</u></b>ii, <u><b>razem</u></b> z innymi krajami i jest sz<u><b>tos</u></b>"
         ],
         // opis
-        desc: "juntos[huntos] - razem",
+        desc: "juntos[hunots] - razem",
         //zdanie
         sentence1: [
-                "lugares"
+                "juntos"
         ],
         sentence: [
-                "en",
-                "nuevos",
-                "lugares"
+                "Reir",
+                "juntos"
         ],
         //  slowo do nauki
         key: "juntos",
         category1: [
-                "sport", "gaming"
         ],
         category2: ["osoby", "osoby+czas"],
                 category3: ["Infinitive"]
@@ -3865,17 +3734,17 @@ id: [
 ],
         // obrazek
         img: [
-                "https://www.arbulang.com/img/fiszki1/2a.jpg"
+                "https://www.arbulang.com/img/fiszkiespanol/12a.jpg"
         ],
         word: [
                 "https://www.arbulang.com/voice/music.mp4"
         ],
         // historia
         story: [
-            ""
+                "Nie zabieramy całego <u><b>mien</u></b>ia <u><b>kiedy</u></b> jedziemy w </u></b>tras<u><b>ę"
         ],
         // opis
-        desc: "mientras[mientras] - podczas",
+        desc: "mientras[mientras] - gdy/podczas gdy",
         //zdanie
         sentence2: [
                 "mientras"
@@ -3889,7 +3758,6 @@ id: [
         //  slowo do nauki
         key: "mientras",
         category1: [
-                "sport", "gaming"
         ],
         category2: ["osoby", "osoby+czas"],
                 category3: ["Infinitive"]
@@ -3901,7 +3769,7 @@ id: [
 ],
         // obrazek
         img: [
-                "https://www.arbulang.com/img/fiszki1/2a.jpg"
+                ""
         ],
         word: [
                 "https://www.arbulang.com/voice/music.mp4"
@@ -3925,7 +3793,6 @@ id: [
         //  slowo do nauki
         key: "miramos",
         category1: [
-                "sport", "gaming"
         ],
         category2: ["osoby", "osoby+czas"],
                 category3: ["Infinitive"]
@@ -3937,7 +3804,7 @@ id: [
 ],
         // obrazek
         img: [
-                "https://www.arbulang.com/img/fiszki1/2a.jpg"
+                ""
         ],
         word: [
                 "https://www.arbulang.com/voice/music.mp4"
@@ -3961,7 +3828,6 @@ id: [
         //  slowo do nauki
         key: "peliculas",
         category1: [
-                "sport", "gaming"
         ],
         category2: ["osoby", "osoby+czas"],
                 category3: ["Infinitive"]
@@ -3973,14 +3839,14 @@ id: [
 ],
         // obrazek
         img: [
-                "https://www.arbulang.com/img/fiszki1/2a.jpg"
+                ""
         ],
         word: [
                 "https://www.arbulang.com/voice/music.mp4"
         ],
         // historia
         story: [
-            ""
+            "KOGNATY - KOMICZNE - COMICAS"
         ],
         // opis
         desc: "cómicas[comicas] - komediowe",
@@ -3997,7 +3863,6 @@ id: [
         //  slowo do nauki
         key: "comicas",
         category1: [
-                "sport", "gaming"
         ],
         category2: ["osoby", "osoby+czas"],
                 category3: ["Infinitive"]
@@ -4009,7 +3874,7 @@ id: [
 ],
         // obrazek
         img: [
-                "https://www.arbulang.com/img/fiszkiespanol/103a.jpg"
+                "https://www.arbulang.com/img/fiszkiespanol/115a.jpg"
         ],
         translate: "Zaprzeczać kłamstwom i zawsze mówić prawdę",
         translateb: "[Negar mentiras i desir siempre berdad]",
@@ -4035,7 +3900,6 @@ id: [
         //  slowo do nauki
         key: "negar",
         category1: [
-                "sport", "gaming"
         ],
         category2: ["osoby", "osoby+czas"],
                 category3: ["Infinitive"]
@@ -4047,7 +3911,7 @@ id: [
 ],
         // obrazek
         img: [
-                "https://www.arbulang.com/img/fiszki1/2a.jpg"
+                "https://www.arbulang.com/img/fiszkiespanol/116a.jpg"
         ],
         word: [
                 "https://www.arbulang.com/voice/music.mp4"
@@ -4057,7 +3921,7 @@ id: [
             "Prawda jest jak A<u><b>men</u></b> w pacierzu. Natomiast <u><b>kłamstwo0</u></b> szybko wychodzi. <u><b>Ti</u></b>na jest k<u><b>ras</u></b>nej urody i nie kłamie"
         ],
         // opis
-        desc: "mentiras[mentiras] - ",
+        desc: "mentiras[mentiras] - kłamstwa",
         //zdanie
         sentence1: [
                 "mentiras"
@@ -4069,7 +3933,6 @@ id: [
         //  slowo do nauki
         key: "mentiras",
         category1: [
-                "sport", "gaming"
         ],
         category2: ["osoby", "osoby+czas"],
                 category3: ["Infinitive"]
@@ -4104,7 +3967,6 @@ id: [
         //  slowo do nauki
         key: "y",
         category1: [
-                "sport", "gaming"
         ],
         category2: ["osoby", "osoby+czas"],
                 category3: ["Infinitive"]
@@ -4140,7 +4002,6 @@ id: [
         //  slowo do nauki
         key: "decir",
         category1: [
-                "sport", "gaming"
         ],
         category2: ["osoby", "osoby+czas"],
                 category3: ["Infinitive"]
@@ -4175,7 +4036,6 @@ id: [
         //  slowo do nauki
         key: "siempre",
         category1: [
-                "sport", "gaming"
         ],
         category2: ["osoby", "osoby+czas"],
                 category3: ["Infinitive"]
@@ -4187,7 +4047,7 @@ id: [
 ],
         // obrazek
         img: [
-                "https://www.arbulang.com/img/fiszki1/2a.jpg"
+                "https://www.arbulang.com/img/fiszkiespanol/120a.jpg"
         ],
         word: [
                 "https://www.arbulang.com/voice/music.mp4"
@@ -4211,7 +4071,6 @@ id: [
         //  slowo do nauki
         key: "verdad",
         category1: [
-                "sport", "gaming"
         ],
         category2: ["osoby", "osoby+czas"],
                 category3: ["Infinitive"]

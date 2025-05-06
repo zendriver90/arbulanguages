@@ -1285,6 +1285,18 @@ button123:hover {
     <span id="arrow">&#9660;</span> <!-- Strzałka skierowana w dół -->
 </div>
         <script>
+                                function countUniqueFiszki(fiszkiArray) {
+            const seenKeys = new Set();
+            fiszkiArray.forEach(fiszka => {
+                if (fiszka.key) {
+                    seenKeys.add(fiszka.key);
+                }
+            });
+            return seenKeys.size;
+        }
+
+        const uniqueCount = countUniqueFiszki(fiszki);
+        console.log("Liczba unikalnych fiszek:", uniqueCount);
             // Funkcja do zmiany szerokości okna
             function simulateResize(width) {
                 document.documentElement.style.setProperty('--viewport-width', width + 'px');
