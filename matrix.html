@@ -10,7 +10,8 @@
 
   gtag('config', 'G-N1YHS2Y62J');
 </script>
-
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2654094815555460"
+     crossorigin="anonymous"></script>
         <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
         <link rel="stylesheet" type="text/css" href="css/lista.css">
                 <link rel="stylesheet" type="text/css" href="js/fiszki.css">
@@ -29,6 +30,40 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <style>
             @media (min-width: 999px) {
+                #container {
+    padding: 20px;
+}
+
+.background-video {
+    margin-bottom: 20px;
+}
+
+video {
+    max-width: 100%;
+    height: auto;
+}
+.blink-animation {
+    animation: blinkEffect 2s infinite;
+    background-color: #222;
+    color: white;
+    border: 2px solid #444;
+    border-radius: 12px;
+    padding: 20px;
+    margin: 20px 0;
+    font-size: 20px;
+    text-align: center;
+}
+
+@keyframes blinkEffect {
+    0%, 100% { background-color: #222; }
+    50% { background-color: #333; }
+}
+
+.film-title {
+    font-size: 18px;
+    margin: 10px;
+    color: white;
+}
         h1 {
             font-size: 50px;
             text-align: left;
@@ -852,6 +887,52 @@ span.highlight {
                 }
             }
             @media (max-width: 999px) {
+                
+  .category-btn {
+    background-color: #800080; /* Filetowy kolor dla wszystkich przycisków */
+    color: white;
+    border: none;
+    padding: 2px 7px;
+    margin: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+  }
+    .category-btn5 {
+    background-color: gray; /* Filetowy kolor dla wszystkich przycisków */
+    color: white;
+    border: none;
+    padding: 2px 7px;
+    margin: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+  }
+
+  .category-btn[data-category="sport"] {
+    background-color: #28a745; /* Zielony kolor dla sportu */
+  }
+
+  .category-btn[data-category="natura"] {
+    background-color: #007bff; /* Niebieski kolor dla natury */
+  }
+  .category-btn[data-category="nauka"] {
+    background-color: #dc3545; /* Czerwony kolor dla nauki */
+  }
+  .category-btn[data-category="czarnyhumor"] {
+    background-color: #ffc107; /* Żółty kolor dla czarnego humoru */
+  }
+
+  .category-btn[data-category="zwiazki"] {
+    background-color: #fd7e14; /* Pomarańczowy kolor dla związków */
+  }
+    .active-category {
+    border: 6px solid black; /* Czarna ramka dla aktywnej kategorii */
+    box-sizing: border-box; /* Ważne, aby uwzględnić ramkę w układzie */
+  }
+                .highlighted-range {
+  background-color: green;
+}
                                 .hidden-link {
     position: absolute;
     left: -9999px;
@@ -1830,7 +1911,7 @@ input {
 <div class="user-cards" data-user-cards-container></div>
                 <div id="category-buttons">
   <button class="category-btn5" data-category="wszystkie"
-    onclick="przekazArgument0(tablica7[0], tablica3[2], '', false, 'fiszki', true, true, tablica3[1], tablica3[4], false, '', '', '', '', indexDivRange)">
+    onclick="przekazArgument0(tablica7[0], tablica3[2], '', false, 'fiszki', true, true, tablica3[1], tablica3[4], false, '', '', '', '', 100)">
     Wszystkie
   </button>
   <button class="category-btn" data-category="all">Losowo</button>
@@ -1883,7 +1964,7 @@ input {
             let buttonindex = false;
               // Zaznacz przycisk "Losowo" na początku
 
-let selectedCategory = 'all'; // Domyślnie losowo
+let selectedCategory = 'wszystkie'; // Domyślnie losowo
 const tablica45xx = []; // Tablica kategorii
 let indexDivRange = 19;
 $('#category-buttons .category-btn').on('click', function () {
@@ -1900,9 +1981,16 @@ indexDivRange = '1'; // Zakres od 1 do 3
         $(this).text('Otwórz lekcję w nowym oknie - ' + selectedCategoryText);
     });
 });
-  $(document).ready(function() {
-    $('#category-buttons .category-btn5[data-category="wszystkie"]').addClass('active-category');
+$(document).ready(function () {
+  // domyślnie zaznaczony
+  $('#category-buttons .category-btn5[data-category="wszystkie"]').addClass('active-category');
+
+  // po kliknięciu w dowolny przycisk
+  $('#category-buttons button').on('click', function () {
+    $('#category-buttons button').removeClass('active-category'); // usuń z innych
+    $(this).addClass('active-category'); // dodaj do klikniętego
   });
+});
 const searchInput = document.querySelector("[data-search]");
 console.log("Element input:", searchInput); // Sprawdzenie, czy input istnieje
 
@@ -2551,15 +2639,15 @@ function showFiszkiForLesson5d(matchingFiszki1v, tablica41) {
         <button class="charakter-button" onclick="ustawTryb(tablica3[0]); przekazArgument0(globalCategory, '', '', 'fiszki', false, false, 'losowyuklad')">WYGENEROWANY JEDNORAZOWO</button>
             <div id="title">RODZAJ SŁOWNICTWA</div>
                     <button id="inne" class="rodzaj-button" data-rodzaj="osoby">KOGNATY</button>
-    <button id="osoby" class="rodzaj-button" data-rodzaj="osoby" onclick="przekazArgument0('all', '', '', '', '', '', tablica3[1], 'other', false, '', '')">Wszystkie</button>
-    <button class="rodzaj-button" data-rodzaj="osoby" onclick="przekazArgument0('osoby', '', '', '', '', '', tablica3[1], 'other', false, '', '')">Osoby</button>
-    <button class="rodzaj-button" data-rodzaj="zaimki osobowe" onclick="przekazArgument0('zaimkiosobowe', '', '', '', '', '', tablica3[1], 'other', false, '', '')">Zaimki osobowe</button>
+    <button id="osoby" class="rodzaj-button" data-rodzaj="osoby" onclick="przekazArgument0('', 'all', '', '', '', '', '', tablica3[1], 'other', false, '', '', '', '', '100')">Wszystkie</button>
+    <button class="rodzaj-button" data-rodzaj="osoby" onclick="przekazArgument0('', 'osoby', '', '', '', '', '', tablica3[1], 'other', false, '', '', '', '', '100')">Osoby</button>
+    <button class="rodzaj-button" data-rodzaj="zaimki osobowe" onclick="przekazArgument0('', 'zaimkiosobowe', '', '', '', '', '', tablica3[1], 'other', false, '', '', '', '', '100')">Zaimki osobowe</button>
     <button id="inne" onclick="przekazArgument0('emocje', '', '', '', '', '', tablica3[1])">Emocje</button>
-    <button class="rodzaj-button" data-rodzaj="zaimki" onclick="przekazArgument0('spojniki', '', '', '', '', '', tablica3[1], 'OTHER', false, '', '')">Spójniki</button>
-    <button id="inne" onclick="przekazArgument0('kolory', '', '', '', '', '', tablica3[1])">Kolory</button>
-    <button class="rodzaj-button" data-rodzaj="zwierzeta" onclick="przekazArgument0('zwierzeta', '', '', '', '', '', tablica3[1], false, '', '')">Zwierzęta</button>
-    <button class="rodzaj-button" data-rodzaj="czasownik" onclick="przekazArgument0('czasownik', '', '', '', '', '', tablica3[1], false, '', '')">Czasowniki</button>
-            <button class="rodzaj-button" data-rodzaj="czasownik" onclick="przekazArgument0('czas', '', '', '', '', '', tablica3[1], false, '', '')">Czas</button>
+    <button class="rodzaj-button" data-rodzaj="zaimki" onclick="przekazArgument0('', 'spojniki', '', '', '', '', '', tablica3[1], 'OTHER', false, '', '', '', '', '100')">Spójniki</button>
+    <button id="inne" onclick="przekazArgument0('', 'kolory', '', '', '', '', '', tablica3[1], 'other', false, '', '', '', '', '100')">Kolory</button>
+    <button class="rodzaj-button" data-rodzaj="zwierzeta" onclick="przekazArgument0('', 'zwierzeta', '', '', '', '', '', tablica3[1], false, '', '', '', '', '100')">Zwierzęta</button>
+    <button class="rodzaj-button" data-rodzaj="czasownik" onclick="przekazArgument0('', 'czasownik', '', '', '', '', '', tablica3[1], 'other', false, '', '', '', '', '100')">Czasowniki</button>
+            <button class="rodzaj-button" data-rodzaj="czasownik" onclick="przekazArgument0('', 'czas', '', '', '', '', '', tablica3[1], 'other', false, '', '', '', '', '100')">Czas</button>
     <br>ILOŚĆ MATERIAŁU NA LEKCJE<br>
 <button class="czas" onclick="ustawTryb('zdania', undefined); przekazArgument0(globalCategory, '', '', 'zdania', false, false, tablica3[1])">5 MINUT (JEDNO ZDANIE)</button>
 <button id="english" class="czas" onclick="ustawTryb('fiszki', undefined); przekazArgument0(globalCategory, '', '', 'fiszki', true, true, tablica3[1])">10 MINUT (3 ZDANIA) - OPCJONALNIE</button>

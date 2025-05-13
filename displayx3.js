@@ -7,7 +7,7 @@
             let tablica12ad = [];
             let tablica12abc = [];
 function showCombinedSentenceForLesson(selectedCategory, matchingIndexes3, rodzaj, matchingIndexes2, buttonindex, index50, lessonIdToShow1, lessonIdToShow2, lessonIdToShow3, fiszki, matchingIndexes, startIndex, newIndex, indexDiv, lessonsArray, lesson1PartLength, lesson2PartLength, lesson3PartLength, lesson1Sentences, lesson2Sentences, lesson3Sentences, lesson1FirstPartLength, lesson2FirstPartLength, lesson3FirstPartLength, lesson1SecondPartLength, lesson2SecondPartLength, lesson3SecondPartLength, cumulativeFirstPartLength1, cumulativeFirstPartLength2, cumulativeFirstPartLength3, lessonsArrayZ, matchingLessons5, matchingLessons5b, isSearching) {
-                console.log('hej55bbv', selectedCategory);
+                console.log('hej55bbv', matchingIndexes);
                             let tablica60 = [];
                 const matchingFiszki1 = fiszki.filter(fiszka => fiszka.id[1] === lessonIdToShow1);
                 const matchingFiszki2 = fiszki.filter(fiszka => fiszka.id[1] === lessonIdToShow2);
@@ -743,13 +743,12 @@ const colorMapping = {
     'nauka': '#dc3545',        // Czerwony
     'czarnyhumor': '#ffc107',  // Żółty
     'zwiazki': '#fd7e14',      // Pomarańczowy
-    'all': '#800080',
-    'wszystkie': 'yellow'       
+    'all': '#800080'     
 };
 
 // Zakres pokolorowanych przycisków
 const startRange2 = 1;
-const endRange2 = 6;
+const endRange2 = 100;
 
 document.addEventListener('DOMContentLoaded', () => {
     // Kliknięcie w kategorię
@@ -763,27 +762,43 @@ document.addEventListener('DOMContentLoaded', () => {
 });
 let previousTrojkiJSON = '';
 const tablica60 = [];
+console.log('hej340', tablica60);
 function updateButtonColors() {
-    tablica60.length = 0;
+    tablica60.length = 0; // wyczyść tablicę
 
-        const color = colorMapping[selectedCategory] || '#800080';
+    const color = colorMapping[selectedCategory] || '#800080';
 
-        document.querySelectorAll('.sentence-block, .sentence-blockB').forEach(block => {
-            const dataName = parseInt(block.getAttribute('data-name'), 10);
+    document.querySelectorAll('.sentence-block, .sentence-blockB').forEach(block => {
+        const dataNameAttr = block.getAttribute('data-name');
+        const dataName = parseInt(dataNameAttr, 10);
+
+        const button = block.querySelector('button.left-button, button.left-buttonb, button.left-buttonbb');
+
+        // Jeśli brak data-name albo nie jest liczbą – pomiń
+        if (isNaN(dataName)) return;
+
+        // dla "all" – dodaj wszystkie i koloruj wszystkie
+        if (selectedCategory === 'wszystkie') {
             tablica60.push(dataName);
-        if (dataName >= startRange2 && dataName <= endRange2) {
-            const button = block.querySelector('button.left-button, button.left-buttonb, button.left-buttonbb');
             if (button) {
-                if (dataName >= startRange2 && dataName <= endRange2) {
-                    button.style.backgroundColor = color;
-                    button.style.color = 'white';
-                } else {
-                    button.style.backgroundColor = '';
-                    button.style.color = '';
-                }
+                button.style.backgroundColor = color;
+                button.style.color = 'white';
             }
         }
-        });
+else if (dataName >= startRange2 && dataName <= endRange2) {
+    tablica60.push(dataName);
+    if (button) {
+        if (dataName <= 6) {
+            button.style.backgroundColor = color;
+            button.style.color = 'white';
+        } else {
+            // pozostałe przyciski w zakresie 1–100 – bez kolorowania
+            button.style.backgroundColor = '';
+            button.style.color = '';
+        }
+    }
+}
+    });
     
     // PodziaĹ na trĂłjki
     const trojki = [];
@@ -1771,7 +1786,7 @@ function updateButtonColors() {
                                 console.log('hej80', index);
                                 // Sprawdź, czy jesteśmy poza zakresem tablicy
                                 if (index >= srcWords.length && !funkcjaWywolana) {
-                                    przekazArgument0(tablica3[2], undefined, false, tablica3[0], true, true, tablica3[1], tablica3[4], false, '', '', '', '');
+                                    przekazArgument0(tablica7[0], tablica3[2], undefined, false, tablica3[0], true, true, tablica3[1], tablica3[4], false, '', '', '', '', indexDivRange);
                                     console.log("wykonuje się");
                                     funkcjaWywolana = true;
                                 }

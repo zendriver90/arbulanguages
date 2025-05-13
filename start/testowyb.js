@@ -13361,7 +13361,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/212a.jpg",
+                src: "https://www.arbulang.com/img/fiszki1/251a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -13510,7 +13510,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/254a.jpg",
+                src: "https://www.arbulang.com/img/fiszki1/255a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -13542,7 +13542,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/130a.jpg",
+                src: "https://www.arbulang.com/img/fiszki1/131a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -13718,7 +13718,7 @@ const fiszki10 = [
                 {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/130a.jpg",
+                src: "https://www.arbulang.com/img/fiszki1/130b.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -15262,7 +15262,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/122a.jpg",
+                src: "https://www.arbulang.com/img/fiszki1/292a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -15791,7 +15791,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/3a.jpg",
+                src: "https://www.arbulang.com/img/fiszki1/303a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -16145,7 +16145,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/130a.jpg",
+                src: "https://www.arbulang.com/img/fiszki1/131a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -16227,7 +16227,7 @@ const fiszki10 = [
                 alt: "Wygenerowane przez AI."
             },
             story: {
-                text: "Prodecent odwiedził naukowców z proszkiem <u><b>wizi</u></b>r, aby go przetestowali. Jeden naukowiec ma <u><b>ti</u></b>ki i myli się przy badaniach. <u><b>Id</u></b>zie mu słabo",
+                text: "Producent odwiedził naukowców z proszkiem <u><b>wizi</u></b>r, aby go przetestowali. Jeden naukowiec ma <u><b>ti</u></b>ki i myli się przy badaniach. <u><b>Id</u></b>zie mu słabo",
                 alt: ""
             },
             category: ["firmy", "testowanie produktu"]
@@ -16291,7 +16291,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/313a.jpg",
+                src: "https://www.arbulang.com/img/fiszki1/314a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -17850,7 +17850,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/350a.jpg",
+                src: "https://www.arbulang.com/img/fiszki1/351a.jpg",
                 alt: "Mały piesek. Wygenerowane przez AI."
             },
             story: {
@@ -18774,12 +18774,26 @@ function updateLearnedClass(className, classToUpdate) {
         console.log('ColorClass', learnedClasses);
     }
 }
-
-// Funkcja do odzyskiwania klas z Local Storage
 function getLearned2() {
-    const storedColorClass = localStorage.getItem('ColorClass');
-    return storedColorClass ? JSON.parse(storedColorClass) : [];
+    const stored = localStorage.getItem('ColorClass');
+    return stored ? JSON.parse(stored) : [];
 }
+
+function restoreLearnedClasses() {
+    const learnedClasses = getLearned2();
+
+    learnedClasses.forEach(entry => {
+        const selector = '.' + entry.className.replace(/,/g, '\\,'); // lub '\\\\,'
+        console.log('Przywracam:', selector, '->', entry.classToAdd);
+
+        $(selector).addClass(entry.classToAdd);
+    });
+}
+
+// Wywołanie po załadowaniu DOM
+document.addEventListener("DOMContentLoaded", function() {
+    restoreLearnedClasses();
+});
 
 // Wywołanie klas po odświeżeniu strony
 $(document).ready(function () {
@@ -19471,6 +19485,7 @@ if (Array.isArray(fiszka.entries) && fiszka.entries.length > 0) {
         $('.grid-containerb').append(fiszkaContainer);
         console.log(`Generated fiszka block for ID: [${fiszka.id.join(', ')}]`);
         initAudio(fiszka.id);
+        restoreLearnedClasses();
     });
 }
 function generateFiszkaBlock2(fiszka, lessonId2) {

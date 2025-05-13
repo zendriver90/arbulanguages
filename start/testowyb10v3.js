@@ -1075,7 +1075,9 @@ fiszki10.push(
             "https://www.arbulang.com/img/fiszki1/8b.jpg",
             "https://www.arbulang.com/img/fiszki1/8c.jpg",
             "https://www.arbulang.com/img/fiszki1/8d.jpg",
-            "https://www.arbulang.com/img/fiszki1/8e.jpg"
+            "https://www.arbulang.com/img/fiszki1/8e.jpg",
+            "https://www.arbulang.com/img/fiszki1/8f.jpg",
+            "https://www.arbulang.com/img/fiszki1/8g.jpg"
         ],
         word: [
             "https://www.arbulang.com/src/is.wav"
@@ -1153,7 +1155,7 @@ fiszki10.push(
             36,
             72
         ],
-        img: "https://www.arbulang.com/img/fiszki1/240a.jpg",
+        img: "https://www.arbulang.com/img/fiszki1/139a.jpg",
         story: "<b><u>For</b></u>est Gump jest filmem <b><u>dla</b></u> każdego",
         desc: "for[for] - dla",
         sentence2: [
@@ -1174,8 +1176,8 @@ fiszki10.push(
             36,
             72
         ],
-        img: "https://www.arbulang.com/img/fiszki1/241a.jpg",
-        story: "<b><u>As</b></u>teroida, którą wykryliśmy prognozuje <b><u>nam</b></u> pewne trendy psychologi <b><u>as</b></u>trologicznej",
+        img: "https://www.arbulang.com/img/fiszki1/68aa.jpg",
+        story: "<b><u>As</b></u>teroida pod mikroskopem wydaje się <b><u>nam</b></u> niezwykła",
         desc: "us[as] - nas, nam",
         sentence2: [
             "us"
@@ -1359,7 +1361,7 @@ fiszki10.push(
             74
         ],
         img: [
-            "https://www.arbulang.com/img/fiszki1/54a.jpg",
+            "https://www.arbulang.com/img/fiszki1/545aa.jpg",
             "https://www.arbulang.com/img/fiszki1/170a.jpg"
         ],
         story: [
@@ -1467,7 +1469,7 @@ fiszki10.push(
             75
         ],
         img: [
-            "https://www.arbulang.com/img/fiszki1/51a.jpg",
+            "https://www.arbulang.com/img/fiszki1/52aa.jpg",
             "https://www.arbulang.com/img/fiszki1/220a.jpg"
         ],
         story: [
@@ -1587,7 +1589,7 @@ fiszki10.push(
             77
         ],
         img: [
-            "https://www.arbulang.com/img/fiszki1/51a.jpg",
+            "https://www.arbulang.com/img/fiszki1/52aa.jpg",
             "https://www.arbulang.com/img/fiszki1/220a.jpg"
         ],
         story: [
@@ -1664,8 +1666,14 @@ fiszki10.push(
             39,
             77
         ],
-        img: "https://www.arbulang.com/img/fiszki1/221a.jpg",
-        story: "Swoje <u><b>rajt</u></b>uzy na zimę zawsze zaczynam od <u><b>prawej</u></b> strony, <u><b>teraz</u></b> kiedy jest zimno muszę je ubrać",
+        img: [
+            "https://www.arbulang.com/img/fiszki1/130a.jpg",
+            "https://www.arbulang.com/img/fiszki1/130b.jpg"
+        ],
+        story: [
+            "<b><u>Dobrze</b></u> żyłeś. A <b><u>t</b></u>o jest <b><u>raj</b></u> dla ciebie",
+            "Swoje <u><b>rajt</u></b>uzy na zimę zawsze zaczynam od <u><b>prawej</u></b> strony, <u><b>teraz</u></b> kiedy jest zimno muszę je ubrać"
+        ],
         desc: "right[] - right(prawo, right now(teraz)",
         sentence1: [
             "right"
@@ -1760,7 +1768,9 @@ fiszki10.push(
             "https://www.arbulang.com/img/fiszki1/8b.jpg",
             "https://www.arbulang.com/img/fiszki1/8c.jpg",
             "https://www.arbulang.com/img/fiszki1/8d.jpg",
-            "https://www.arbulang.com/img/fiszki1/8e.jpg"
+            "https://www.arbulang.com/img/fiszki1/8e.jpg",
+            "https://www.arbulang.com/img/fiszki1/8f.jpg",
+            "https://www.arbulang.com/img/fiszki1/8g.jpg"
         ],
         word: [
             "https://www.arbulang.com/src/is.wav"
@@ -1914,7 +1924,7 @@ fiszki10.push(
             80
         ],
         img: [
-            "https://www.arbulang.com/img/fiszki1/51a.jpg",
+            "https://www.arbulang.com/img/fiszki1/52aa.jpg",
             "https://www.arbulang.com/img/fiszki1/220a.jpg"
         ],
         story: [
@@ -2017,8 +2027,8 @@ fiszki10.push(
             41,
             80
         ],
-        img: "https://www.arbulang.com/img/fiszki1/239a.jpg",
-        story: "<u><b>Tu</u></b> razem pracujemy przy, żniwach.. Jest <u><b>ge</u></b>nialnie... Kombajnista ustwia h<u><b>eder</u></b> do koszenia zboża",
+        img: "https://www.arbulang.com/img/fiszki1/228a.jpg",
+        story: "<u><b>Teraz</u></b> moja ulubiona woda - to <u><b>Nał</u></b>ęczowska",
         desc: "now[nał] - teraz",
         sentence1: [
             "now"
@@ -2165,18 +2175,17 @@ fiszki10.push(
             81
         ],
         img: [
-            "https://www.arbulang.com/img/fiszki1/43a.jpg",
-            "https://www.arbulang.com/img/fiszki1/80b.jpg",
+            "https://www.arbulang.com/img/fiszki1/44b.jpg",
+            "https://www.arbulang.com/img/fiszki1/44a.jpg",
             "https://www.arbulang.com/img/fiszki1/83c.jpg",
+            "https://www.arbulang.com/img/fiszki1/80b.jpg",
             "https://www.arbulang.com/img/fiszki1/108d.jpg"
         ],
-        word: [
-            "https://www.arbulang.com/voice/music.mp4"
-        ],
         story: [
-            "Quo va<b><u>dis</b></u> <b><u>to</b></u> cytat bardzo znany",
-            "To słówko distant - czytamy <b><u>dis</b></u>tant",
+            "Ma<b><u>dis</b></u>on jest świetnym sportowcem a to jej trener",
+            "Quo va<b><u>dis</b></u> <b><u>to</b></u> cytat bardzo znany i kojarzy się ze starożytnym Rzymem",
             "E<b><u>dis</b></u>on to geniusz",
+            "To słówko distant - czytamy <b><u>dis</b></u>tant",
             "<b><u>Di</b></u>va operowa jest <b><u>s</b></u>ławna"
         ],
         desc: "this[dis] - to",
@@ -2218,7 +2227,7 @@ fiszki10.push(
             82
         ],
         img: [
-            "https://www.arbulang.com/img/fiszki1/96a.jpg"
+            "https://www.arbulang.com/img/fiszki1/95aa.jpg"
         ],
         translate: "",
         translateb: "[Szi hes wizitid Paris meny tajms]",
@@ -2440,7 +2449,7 @@ fiszki10.push(
             44,
             84
         ],
-        img: "https://www.arbulang.com/img/fiszki1/239a.jpg",
+        img: "https://www.arbulang.com/img/fiszki1/288a.jpg",
         story: "<b><u>Fin</b></u> zdaje magisterke i jest na końcu drogi kształcenia się czyli <b><u>finiszuje</b></u>. Zdał <b><u>i</b></u> jest <b><u>szt</b></u>os",
         desc: "finished[finiszt] - ukończyć",
         sentence1: [
@@ -2464,9 +2473,9 @@ fiszki10.push(
             84
         ],
         img: [
-            "https://www.arbulang.com/img/fiszki1/49a.jpg",
-            "https://www.arbulang.com/img/fiszki1/49b.jpg",
-            "https://www.arbulang.com/img/fiszki1/49c.jpg"
+            "https://www.arbulang.com/img/fiszki1/50aa.jpg",
+            "https://www.arbulang.com/img/fiszki1/50bb.jpg",
+            "https://www.arbulang.com/img/fiszki1/50cc.jpg"
         ],
         story: [
             "W <b><u>maj</b></u>u kwitną <b><u>moje</b></u> ulubione kwiaty",
@@ -2497,7 +2506,7 @@ fiszki10.push(
             44,
             84
         ],
-        img: "https://www.arbulang.com/img/fiszki1/239a.jpg",
+        img: "https://www.arbulang.com/img/fiszki1/290a.jpg",
         story: "Mikołaj woła <b><u>hoł</b></u> hoł, ten list do Mikołaja jest jak praca domowa ze szkoły. <b><u>Mło</b></u>dy dobrze ją napisał. S<b><u>ork</b></u>i dziecko, ale Mikołaj nie ma dużo pieniędzy",
         desc: "homework[hołmłork] - praca domowa",
         sentence1: [
@@ -2629,15 +2638,17 @@ fiszki10.push(
             85
         ],
         img: [
-            "https://www.arbulang.com/img/fiszki1/43a.jpg",
-            "https://www.arbulang.com/img/fiszki1/80b.jpg",
+            "https://www.arbulang.com/img/fiszki1/44b.jpg",
+            "https://www.arbulang.com/img/fiszki1/44a.jpg",
             "https://www.arbulang.com/img/fiszki1/83c.jpg",
+            "https://www.arbulang.com/img/fiszki1/80b.jpg",
             "https://www.arbulang.com/img/fiszki1/108d.jpg"
         ],
         story: [
-            "Quo va<b><u>dis</b></u> <b><u>to</b></u> cytat bardzo znany",
-            "To słówko distant - czytamy <b><u>dis</b></u>tant",
+            "Ma<b><u>dis</b></u>on jest świetnym sportowcem a to jej trener",
+            "Quo va<b><u>dis</b></u> <b><u>to</b></u> cytat bardzo znany i kojarzy się ze starożytnym Rzymem",
             "E<b><u>dis</b></u>on to geniusz",
+            "To słówko distant - czytamy <b><u>dis</b></u>tant",
             "<b><u>Di</b></u>va operowa jest <b><u>s</b></u>ławna"
         ],
         desc: "this[dis] - ta rzecz/osoba",

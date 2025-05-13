@@ -12,7 +12,7 @@
 
 .fiszka.active2 {
     border: 1px solid #999;
-    background: green;
+    background: orange;
     border-radius: 5px;
     text-align: center;
     width: 100%;
@@ -232,7 +232,7 @@ story_button {
 }
 .fiszka.active2 {
     border: 1px solid #999;
-    background: green;
+    background: orange;
     border-radius: 5px;
     text-align: center;
     width: 100%;

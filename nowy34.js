@@ -9544,3 +9544,193 @@ if (window.matchMedia("(min-width: 999px)").matches) {
         <script id="demoScript" data-category=""></script>
     </body>
 </html>
+
+        story: "<b><u>As</b></u>teroida, którą wykryliśmy prognozuje <b><u>nam</b></u> pewne trendy psychologi <b><u>as</b></u>trologicznej",
+        
+                story: "<u><b>Tu</u></b> razem pracujemy przy, żniwach.. Jest <u><b>ge</u></b>nialnie... Kombajnista ustwia h<u><b>eder</u></b> do koszenia zboża",
+                
+                
+                
+                if (newIndex === 0 && !buttonindex && !isSearching) {
+                        console.log('hej33b', buttonindex);
+                        let funkcjaWywolana = false;
+                        let stopButtonAdded = false;
+                        if (indexDiv % 2 === 0) {
+                            function addVideo1(index) {
+                                console.log('hej80', index);
+                                // Sprawdź, czy jesteśmy poza zakresem tablicy
+                                if (index >= srcWords.length && !funkcjaWywolana) {
+                                    przekazArgument0(tablica7[0], tablica3[2], undefined, false, tablica3[0], true, true, tablica3[1], tablica3[4], false, '', '', '', '', indexDivRange);
+                                    console.log("wykonuje się");
+                                    funkcjaWywolana = true;
+                                }
+                                // Usuń poprzednie wideo
+                                removePreviousVideo();
+
+                                console.log('hej78', index);
+
+                                // Dodaj div z wideo do tła kontenera
+                                const $vidDiv = $('<div>').addClass('background-video').css({
+                                    'z-index': '1' // Ustaw z-index dla wideo na niższy
+                                });
+
+const video = document.createElement('video');
+video.setAttribute('autoplay', '');
+video.setAttribute('loop', '');
+video.muted = true; // ← to jest kluczowe!
+video.playsInline = true; // ← opcjonalne, ale przydatne na mobile
+
+const source = document.createElement('source');
+source.src = srcWords[index];
+source.type = 'video/mp4';
+
+video.appendChild(source);
+const $videoElement = $(video);
+                                if (window.matchMedia("(min-width: 999px)").matches) {
+                                    // Dodaj klasę CSS zależnie od indeksu wideo
+                                    if (index === 0) {
+                                        $videoElement.addClass('scaled-video');
+                                    } else {
+                                        $videoElement.addClass('next-video');
+                                    }
+                                }
+                                // Utwórz element <source> dla wideo i ustaw atrybuty
+
+                                const $sourceElement = $('<source>').attr({
+                                    'src': srcWords[index], // Poprawne użycie interpolacji
+                                    'type': 'video/mp4'     // Typ pliku wideo
+                                });
+
+                                // Dodaj element source do elementu video
+                                $sourceElement.appendTo($videoElement);
+                                // Dodaj element video do diva dla wideo
+                                $videoElement.appendTo($vidDiv);
+                                // Dodaj element <source> do elementu <video>
+$videoElement.attr('muted', true); // atrybut, nie .prop
+                                // Obsługa błędu ładowania wideo
+                                $videoElement.onerror = function () {
+                                    console.error('Nie można załadować pliku wideo.');
+                                };
+                                let currentIndexValue = [];
+                                // Funkcja obsługi zdarzenia loadedmetadata
+$videoElement.hide(); // Ukrycie wideo przed załadowaniem
+function ensureVideoStarts($videoElement, index) {
+    let retryCount = 0;
+    const maxRetries = 20;
+    let started = false;
+
+    function tryStart() {
+        if (started) return;
+        const el = $videoElement[0];
+        const duration = el.duration;
+
+        if (el.readyState < 3 || isNaN(duration) || duration === Infinity || duration === 0) {
+            if (retryCount++ < maxRetries) {
+                console.warn(`Wideo ${index} niegotowe (readyState=${el.readyState}), próba ${retryCount}`);
+                return setTimeout(tryStart, 300);
+            } else {
+                console.error(`Wideo ${index} nie wystartowało`);
+                return;
+            }
+        }
+
+        started = true;
+        $videoElement.show();
+        videoDurations[index] = duration;
+
+        $videoElement.off('timeupdate').on('timeupdate', function () {
+            let adjustedProgress = 0;
+            for (let i = 0; i < index; i++) {
+                adjustedProgress += (videoDurations[i] / totalDuration) * 100;
+            }
+            adjustedProgress += (this.currentTime / duration) * (videoDurations[index] / totalDuration) * 100;
+            updateProgress(adjustedProgress);
+
+            if (!currentIndexValue.includes(index)) {
+                currentIndexValue.push(index);
+                if ([0, 1, 2].includes(currentIndexValue[0])) {
+                    addBackgroundToText(matchingFiszki1, matchingIndexes, currentIndexValue, true, lesson1FirstPartLength, lesson1PartLength, matchingLessons5b);
+                }
+            }
+
+            if (duration - this.currentTime < 1) {
+                addVideo1(index + 1);
+                updateProgress(0);
+            }
+        });
+
+        el.play().then(() => {
+            console.log(`Wideo ${index} odtworzone`);
+        }).catch(error => {
+            console.warn(`Autoplay nie działa (index ${index}):`, error);
+        });
+    }
+
+    // Jeśli nie zadziała 'canplaythrough', dodaj fallback na loadeddata
+    $videoElement.one('canplaythrough loadeddata', tryStart);
+
+    try {
+        $videoElement[0].load();
+    } catch (e) {
+        console.warn('Błąd ładowania:', e);
+    }
+}
+
+console.log('wykonuje się655');
+                                addScenes(index);
+                                // Dodaj div z wideo do tła kontenera
+$vidDiv.appendTo($container);
+window.addEventListener('pageshow', () => {
+  const video = document.getElementById('myVideo');
+  if (video) {
+    video.play().catch((error) => {
+      console.error('Error playing video:', error);
+    });
+  }
+});
+// Upewnij się, że wideo jest fizycznie w DOM, zanim zaczniesz ładowanie
+requestAnimationFrame(() => {
+    setTimeout(() => {
+        ensureVideoStarts($videoElement, index);
+    }, 200); // małe opóźnienie buforujące
+});
+                                function updateProgress(progress) {
+                                    // Aktualizuj pasek postępu na dole kontenera
+                                    $('.progress-bar').css('width', progress + '%');
+                                }
+
+                                // Inicjalizacja paska postępu
+                                const $progressBar = $('<div>').addClass('progress-bar');
+                                if (window.matchMedia("(min-width: 999px)").matches) {
+                                    $progressBar.css({
+                                        'position': 'absolute',
+                                        'z-index': '2',
+                                        'bottom': '0',
+                                        'left': '0',
+                                        'height': '7px', // Wysokość paska postępu
+                                        'background-color': 'green', // Kolor paska postępu
+                                        'width': '140%', // Delikatne powiększenie paska postępu o 2% w każdym kierunku
+                                        'margin-bottom': '-2%',
+                                        'margin-left': '-4%',
+                                        'margin-right': '-4%' // Zapewnienie równowagi dla powiększenia paska postępu
+                                    });
+                                } else {
+                                    $progressBar.css({
+                                        'position': 'absolute',
+                                        'z-index': '2',
+                                        'bottom': '0px',
+                                        'left': '0px',
+                                        'height': '7px', // Wysokość paska postępu
+                                        'background-color': 'green', // Kolor paska postępu
+                                        'width': '100%' // Delikatne powiększenie paska postępu o 2% w każdym kierunku
+                                    });
+                                }
+                                $progressBar.appendTo($container);
+// Funkcja dodająca nowe elementy <div>
+
+                            }
+                            setTimeout(function () {
+                                addVideo1(0);
+                            }, 200);
+                            
+                }

@@ -41,7 +41,7 @@ fiszki10.push(
             46,
             87
         ],
-        img: "https://www.arbulang.com/img/fiszki1/239a.jpg",
+        img: "https://www.arbulang.com/img/fiszki1/302a.jpg",
         story: "<u><b>Dzast</u></b>in Bieber <u><b>poprostu</u></b> jest najlepszy",
         desc: "just[dzast] - poprostu",
         sentence1: [
@@ -81,7 +81,7 @@ fiszki10.push(
             47,
             88
         ],
-        img: "https://www.arbulang.com/img/fiszki1/96a.jpg",
+        img: "https://www.arbulang.com/img/fiszki1/95aa.jpg",
         translate: "",
         translateb: "[She hes rid dis buk tłajs]",
         translateb2: "[De mówi hes]",
@@ -179,15 +179,17 @@ fiszki10.push(
             88
         ],
         img: [
-            "https://www.arbulang.com/img/fiszki1/43a.jpg",
-            "https://www.arbulang.com/img/fiszki1/80b.jpg",
+            "https://www.arbulang.com/img/fiszki1/44b.jpg",
+            "https://www.arbulang.com/img/fiszki1/44a.jpg",
             "https://www.arbulang.com/img/fiszki1/83c.jpg",
+            "https://www.arbulang.com/img/fiszki1/80b.jpg",
             "https://www.arbulang.com/img/fiszki1/108d.jpg"
         ],
         story: [
-            "Quo va<b><u>dis</b></u> <b><u>to</b></u> cytat bardzo znany",
-            "To słówko distant - czytamy <b><u>dis</b></u>tant",
+            "Ma<b><u>dis</b></u>on jest świetnym sportowcem a to jej trener",
+            "Quo va<b><u>dis</b></u> <b><u>to</b></u> cytat bardzo znany i kojarzy się ze starożytnym Rzymem",
             "E<b><u>dis</b></u>on to geniusz",
+            "To słówko distant - czytamy <b><u>dis</b></u>tant",
             "<b><u>Di</b></u>va operowa jest <b><u>s</b></u>ławna"
         ],
         desc: "this[dis] - ta rzecz/osoba",
@@ -212,7 +214,7 @@ fiszki10.push(
             47,
             88
         ],
-        img: "https://www.arbulang.com/img/fiszki1/44a.jpg",
+        img: "https://www.arbulang.com/img/fiszki1/45aa.jpg",
         story: "Z drzewa <b><u>buk</b></u>owego jest najlepszy papier na <b><u>książki</b></u>",
         desc: "book[buk] - książka",
         sentence1: [
@@ -260,7 +262,7 @@ fiszki10.push(
             48,
             89
         ],
-        img: "https://www.arbulang.com/img/fiszki1/96a.jpg",
+        img: "https://www.arbulang.com/img/fiszki1/131a.jpg",
         translate: "",
         translateb: "[Łi hew wisitid London meni tajms]",
         translateb2: "[De mówi hes]",
@@ -315,7 +317,7 @@ fiszki10.push(
             89
         ],
         img: "https://www.arbulang.com/img/fiszki1/282a.jpg",
-        story: "Prodecent odwiedził naukowców z proszkiem <u><b>wizi</u></b>r, aby go przetestowali. Jeden naukowiec ma <u><b>ti</u></b>ki i myli się przy badaniach. <u><b>Id</u></b>zie mu słabo",
+        story: "Producent odwiedził naukowców z proszkiem <u><b>wizi</u></b>r, aby go przetestowali. Jeden naukowiec ma <u><b>ti</u></b>ki i myli się przy badaniach. <u><b>Id</u></b>zie mu słabo",
         desc: "visited[wizitid] - odwiedził/odwiedziła",
         sentence1: [
             "visited"
@@ -378,9 +380,9 @@ fiszki10.push(
             90
         ],
         img: [
-            "https://www.arbulang.com/img/fiszki1/49a.jpg",
-            "https://www.arbulang.com/img/fiszki1/49b.jpg",
-            "https://www.arbulang.com/img/fiszki1/49c.jpg"
+            "https://www.arbulang.com/img/fiszki1/50aa.jpg",
+            "https://www.arbulang.com/img/fiszki1/50bb.jpg",
+            "https://www.arbulang.com/img/fiszki1/50cc.jpg"
         ],
         translate: "",
         translateb: "[Maj broder plejs futbol on łikedns]",
@@ -530,7 +532,7 @@ fiszki10.push(
             50,
             92
         ],
-        img: "https://www.arbulang.com/img/fiszki1/96a.jpg",
+        img: "https://www.arbulang.com/img/fiszki1/95aa.jpg",
         translate: "",
         translateb: "[Szi drinks kofi ewry singel dej]",
         translateb2: "[Maj broder plejs futbol]",
@@ -721,11 +723,11 @@ fiszki10.push(
             94
         ],
         img: [
-            "https://www.arbulang.com/img/fiszki1/27a.jpg",
-            "https://www.arbulang.com/img/fiszki1/27b.jpg",
-            "https://www.arbulang.com/img/fiszki1/27c.jpg",
-            "https://www.arbulang.com/img/fiszki1/27d.jpg",
-            "https://www.arbulang.com/img/fiszki1/27e.jpg"
+            "https://www.arbulang.com/img/fiszki1/28aa.jpg",
+            "https://www.arbulang.com/img/fiszki1/28bb.jpg",
+            "https://www.arbulang.com/img/fiszki1/28cc.jpg",
+            "https://www.arbulang.com/img/fiszki1/28dd.jpg",
+            "https://www.arbulang.com/img/fiszki1/28ee.jpg"
         ],
         story: [
             "Na mojej łodzi <u><b>kat</u></b>amaran <u><b>kot</u></b> pomaga mi wiosłować",
@@ -1067,11 +1069,11 @@ fiszki10.push(
             99
         ],
         img: [
-            "https://www.arbulang.com/img/fiszki1/31a.jpg",
-            "https://www.arbulang.com/img/fiszki1/31b.jpg",
-            "https://www.arbulang.com/img/fiszki1/31c.jpg",
-            "https://www.arbulang.com/img/fiszki1/31d.jpg",
-            "https://www.arbulang.com/img/fiszki1/31e.jpg"
+            "https://www.arbulang.com/img/fiszki1/32aa.jpg",
+            "https://www.arbulang.com/img/fiszki1/32bb.jpg",
+            "https://www.arbulang.com/img/fiszki1/32cc.jpg",
+            "https://www.arbulang.com/img/fiszki1/32dd.jpg",
+            "https://www.arbulang.com/img/fiszki1/32ee.jpg"
         ],
         translate: "Nasz nauczyciel pomaga nam z pracą domową",
         translateb: "[Aur ticzer helps as wiz hołmłork]",
@@ -1107,7 +1109,7 @@ fiszki10.push(
             54,
             99
         ],
-        img: "https://www.arbulang.com/img/fiszki1/63a.jpg",
+        img: "https://www.arbulang.com/img/fiszki1/64aa.jpg",
         story: "W tym pa<b><u>ti</b></u>o siedzi nauczyciel w <b><u>czer</b></u>wonej koszuli",
         desc: "teacher[ticzer] - nauczyciel",
         sentence1: [
@@ -1128,7 +1130,7 @@ fiszki10.push(
             54,
             100
         ],
-        img: "https://www.arbulang.com/img/fiszki1/340a.jpg",
+        img: "https://www.arbulang.com/img/fiszki1/344a.jpg",
         story: "",
         desc: "helps[helps] - pomaga(on, ona, ono)",
         sentence2: [
@@ -1150,7 +1152,7 @@ fiszki10.push(
             54,
             100
         ],
-        img: "https://www.arbulang.com/img/fiszki1/67a.jpg",
+        img: "https://www.arbulang.com/img/fiszki1/68aa.jpg",
         story: "<b><u>As</b></u>teroida pod mikroskopem wydaje się <b><u>nam</b></u> niezwykła",
         desc: "us[as] - my, nam",
         sentence2: [
@@ -1177,14 +1179,17 @@ fiszki10.push(
             "https://www.arbulang.com/img/fiszki1/16b.jpg",
             "https://www.arbulang.com/img/fiszki1/16c.jpg",
             "https://www.arbulang.com/img/fiszki1/16d.jpg",
-            "https://www.arbulang.com/img/fiszki1/16e.jpg"
+            "https://www.arbulang.com/img/fiszki1/16e.jpg",
+            "https://www.arbulang.com/img/fiszki1/190e.jpg"
+            
         ],
         story: [
             "<u><b>Z</u></b> w<u><b>iz</u></b>ualizacją wygranej sportowcy są dok<u><b>ł</u></b>adnie przygotowani",
             "W<u><b>iz</u></b>ja <u><b>ł</u></b>otrów - wiewiórek, które jedzą <u><b>z</u></b> wiadomo, którego wiaderka(mojego) jest słuszna",
             "W<u><b>iz</u></b>ytacja naukowców <u><b>z</u></b> Japonii jest znakomitą okazją do rewizji popełnionych b<u><b>ł</u></b>ędów",
             "Cz<u><b>ł</u></b>owiek bez w<u><b>iz</u></b>y nie wjedzie, a <u><b>z</u></b> wizą to oczywiście",
-            "Z w<u><b>iz</u></b>ażem czyli makijażem - królowa robi jeszcze lepsze wrażenie w królestwie. Wraz <u><b>z</u></b> królową jest jej wizażysta i rozdaje wizytówki. <u><b>Z</u></b> wizytóką cena ma<u><b>ł</u></b>a"
+            "Z w<u><b>iz</u></b>ażem czyli makijażem - królowa robi jeszcze lepsze wrażenie w królestwie. Wraz <u><b>z</u></b> królową jest jej wizażysta i rozdaje wizytówki. <u><b>Z</u></b> wizytóką cena ma<u><b>ł</u></b>a",
+            "Każdy żołnierz chodzi na polu walki z che<u><b>ł</u></b>mem i kam<u><b>iz</u></b>elką kuloodporną"
         ],
         desc: "with[łiz] - z",
         sentence2: [
@@ -1270,7 +1275,7 @@ fiszki10.push(
             55,
             101
         ],
-        img: "https://www.arbulang.com/img/fiszki1/57a.jpg",
+        img: "https://www.arbulang.com/img/fiszki1/58aa.jpg",
         story: "Mój <b><u>pies</b></u> mnie słucha, <b><u>dog</b></u>aduje się z nim",
         desc: "dog[dog] - pies",
         sentence2: [
@@ -1376,7 +1381,7 @@ fiszki10.push(
             102
         ],
         img: [
-            "https://www.arbulang.com/img/fiszki1/54a.jpg",
+            "https://www.arbulang.com/img/fiszki1/55aa.jpg",
             "https://www.arbulang.com/img/fiszki1/170a.jpg"
         ],
         story: [
@@ -1515,7 +1520,7 @@ fiszki10.push(
             104
         ],
         img: [
-            "https://www.arbulang.com/img/fiszki1/47a.jpg",
+            "https://www.arbulang.com/img/fiszki1/48aa.jpg",
             "https://www.arbulang.com/img/fiszki1/106b.jpg"
         ],
         story: [
@@ -1760,11 +1765,11 @@ fiszki10.push(
             106
         ],
         img: [
-            "https://www.arbulang.com/img/fiszki1/32a.jpg",
-            "https://www.arbulang.com/img/fiszki1/32b.jpg",
-            "https://www.arbulang.com/img/fiszki1/32c.jpg",
-            "https://www.arbulang.com/img/fiszki1/33d.jpg",
-            "https://www.arbulang.com/img/fiszki1/33e.jpg"
+            "https://www.arbulang.com/img/fiszki1/33aa.jpg",
+            "https://www.arbulang.com/img/fiszki1/33bb.jpg",
+            "https://www.arbulang.com/img/fiszki1/33cc.jpg",
+            "https://www.arbulang.com/img/fiszki1/33dd.jpg",
+            "https://www.arbulang.com/img/fiszki1/33ee.jpg"
         ],
         story: [
             "Na pa<b><u>sku</b></u> ekranu jest wynik drużyny z naszej <b><u>szkoły</b></u>, mam swojego <b><u>ul</b></u>ubionego zawodnika",

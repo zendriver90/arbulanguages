@@ -2074,7 +2074,7 @@ const fiszki10 = [
         ],
         key: "selling",
         category1: "związki",
-        category2: ["podmiot+czas", "czasownik"]
+        category2: ["czasownik"]
     },
     {
         id: [
@@ -2253,7 +2253,7 @@ const fiszki10 = [
             "lifestyle", "sukces",
             "geografia", "miasta"
         ],
-        category2: ["podmiot+czas", "czasownik"],
+        category2: ["czasownik"],
         category3: ["PresentSimple", "PresentSimpleCzasownik"]
     },
     {
@@ -2585,7 +2585,7 @@ const fiszki10 = [
         ],
         key: "seem",
         category1: "nauka",
-        category2: ["podmiot+czas", "osoby+czas", "czasownik"],
+        category2: ["czasownik"],
         category3: ["PresentSimple", "PresentSimpleCzasownik"]
     },
     {

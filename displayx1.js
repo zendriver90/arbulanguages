@@ -1278,6 +1278,7 @@ function updateHighlight(indexDiv, $sentence10, index5b, firstWord, secondWord, 
     // Obsługa zdarzeń kliknięcia słów
     console.log('Dodaję event listener do słów (word-span)');
     $sentence10.find('.word-span').off('click').on('click', function () {
+        
         const clickedIndex = $(this).data('index');
         console.log('Kliknięto słowo:', { clickedIndex });
 clickedIndex5.push(clickedIndex);
@@ -1286,6 +1287,20 @@ clickedIndex5.push(clickedIndex);
         // Ponowne zaktualizowanie podświetlenia
         console.log('Ponowne wywołanie updateHighlight po kliknięciu');
         updateHighlight(indexDiv, $sentence10, clickedIndex, firstWord, secondWord, thirdWord, forthWord, fifthWord, sixthWord);
+            function updateWordDisplay(indeks5b, indexDiv) {
+        const fiszka = matchingFiszki1[indeks5b];
+        console.log('hej11d', fiszka);
+        if (fiszka && fiszka.sentence1) {
+            const currentWord = fiszka.sentence1[currentWordIndex] || "";
+            $currentWordDisplay.text(currentWord); // Aktualizujemy tylko tekst w osobnym elemencie
+        } else if (fiszka && fiszka.sentence2) {
+            const currentWord = fiszka.sentence2[currentWordIndex] || "";
+            $currentWordDisplay.text(currentWord); // Aktualizujemy tylko tekst w osobnym elemencie
+        }
+    }
+            let indeks5b = clickedIndex5[clickedIndex5.length - 1];
+                                                        updateWordDisplay(indeks5b, indexDiv);
+                                                        
     });
 
     console.log('updateHighlight - koniec');
@@ -1370,7 +1385,17 @@ if (currentFiszkaIndex < 4) {
     indeks5 = 5;
 }
                                                         console.log('hej555', indeks5);
-                                                        handleNextClick2(indexDiv, $sentence10, currentFiszkaIndex, firstWord, secondWord, thirdWord, forthWord, fifthWord, sixthWord);
+if (clickedIndex5.length > 0 && clickedIndex5[clickedIndex5.length - 1] !== null) {
+    // Zwiększanie clickedIndex5 o 1 i dodanie do tablicy
+    clickedIndex5.push(clickedIndex5[clickedIndex5.length - 1] - 1);
+
+    // Pobranie ostatniego elementu z clickedIndex5
+    let indeks5b = clickedIndex5[clickedIndex5.length - 1];
+    handleNextClick(indexDiv, $sentence10, indeks5b, firstWord, secondWord, thirdWord, forthWord, fifthWord, sixthWord);
+} else {
+    tablica12b.push(currentFiszkaIndex);
+    handleNextClick(indexDiv, $sentence10, currentFiszkaIndex, firstWord, secondWord, thirdWord, forthWord, fifthWord, sixthWord);
+}
                                                         wybierzRodzaj2b('all', indeks5, matchingFiszki1, indexDiv);
                                                         updateWordDisplay(currentWordIndex, indexDiv);
                                                         
@@ -1441,17 +1466,17 @@ if (clickedIndex5.length > 0 && clickedIndex5[clickedIndex5.length - 1] !== null
                                 }, 800);
 
                                                                                                                 console.log('hej68cx', currentFiszkaIndex);
-                                                        
-
-                                                        updateWordDisplay(currentWordIndex, indexDiv);
+                                                                                                                console.log("indexDiv2y", currentWordIndex);
+    let indeks5b = clickedIndex5[clickedIndex5.length - 1];
+                                                        updateWordDisplay(indeks5b, indexDiv);
                                                         // Wywołaj funkcję, przekazując zaktualizowany indeks
-                                                        console.log("indexDiv2", tablica12b);
+
                                                     } else {
                                                         console.log('Koniec fiszek!'); // Informacja o końcu fiszek
                                                     }
                                                 });
 
-    function updateWordDisplay(currentWordIndex) {
+    function updateWordDisplay(indeks5b, indexDiv) {
         const fiszka = matchingFiszki1[currentFiszkaIndex];
         console.log('hej11d', fiszka);
         if (fiszka && fiszka.sentence1) {
