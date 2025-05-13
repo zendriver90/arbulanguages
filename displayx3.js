@@ -1786,7 +1786,7 @@ function updateButtonColors() {
                                 console.log('hej80', index);
                                 // Sprawdź, czy jesteśmy poza zakresem tablicy
                                 if (index >= srcWords.length && !funkcjaWywolana) {
-                                    przekazArgument0(tablica7[0], tablica3[2], undefined, false, tablica3[0], true, true, tablica3[1], tablica3[4], false, '', '', '', '', indexDivRange);
+                                    przekazArgument0(tablica7[0], tablica3[2], undefined, false, tablica3[0], true, true, tablica3[1], tablica3[4], false, '', '', '', '', '100');
                                     console.log("wykonuje się");
                                     funkcjaWywolana = true;
                                 }

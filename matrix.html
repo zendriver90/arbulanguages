@@ -30,6 +30,44 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <style>
             @media (min-width: 999px) {
+                #adblockMessage {
+  transition: all 0.5s ease;
+  box-shadow: 0 0 10px rgba(0,0,0,0.3);
+  border-radius: 8px;
+}
+                .top-section {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: nowrap; /* ważne, żeby reklama nie schodziła pod spód */
+    gap: 20px;
+}
+
+.left-section {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.search-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.button-container,
+.search-wrapper,
+.mode-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.ad-container {
+    margin-left: 100px; /* przesunięcie reklamy w prawo */
+    flex-shrink: 0;
+    margin-top: 100px;
+}
                 #container {
     padding: 20px;
 }
@@ -193,7 +231,8 @@ video {
 .button-container {
     position: relative;
     gap: 0px;
-    top: 96px;
+    right: -220px;
+    top: -22px;
 }
 
 input {
@@ -1860,8 +1899,30 @@ input {
 <a href="demo50angielskib.html?category=all" class="hidden-link lesson-link-50b" target="_blank" rel="noopener noreferrer">Przejdź do lekcji 50</a>
 <a href="demo51angielskib.html?category=all" class="hidden-link lesson-link-51b" target="_blank" rel="noopener noreferrer">Przejdź do lekcji 51</a>
 <a href="demo52angielskib.html?category=all" class="hidden-link lesson-link-52b" target="_blank" rel="noopener noreferrer">Przejdź do lekcji 52</a>
-    <h1>arbulang.com</h1>
-    <h2>ARBU ŚWIAT</h2>
+<div style="display: flex;  gap: 0px;">
+  <!-- Reklama AdSense -->
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2654094815555460"
+     crossorigin="anonymous"></script>
+<!-- Reklama - baner -->
+<ins class="adsbygoogle"
+     style="display:inline-block;width:728px;height:90px"
+     data-ad-client="ca-pub-2654094815555460"
+     data-ad-slot="2561750975"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+  <!-- Tekst obok reklamy -->
+  <div>
+    <h1 style="margin-left: 200px;">arbulang.com</h1>
+    <h2 style="margin-left: 200px;">ARBU ŚWIAT</h2>
+  </div>
+</div>
+
+<!-- Ładowanie skryptu Google -->
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2654094815555460"
+     crossorigin="anonymous"></script>
+    
         <div class="horizontal-bar" id="horizontalBar1">
             <button id="myButton">ANGIELSKI</button>
             <button id="myButton2">HISZPAŃSKI</button>
@@ -1889,22 +1950,38 @@ input {
                     <div class="image-container2">Tłumacz tekst<button onclick="showImages('set1')">START</button>
                     </div>
                 </div>
+<div class="top-section">
+    <!-- Lewa sekcja: wyszukiwarka i przyciski -->
+    <div class="left-section">
+        <div class="search-container">
+            <div class="search-wrapper">
+                <label for="search">Search Word</label>
+                <input type="search" id="search" data-search>
+            </div>
+            <div class="button-container">
+                <button id="polski" class="rodzaj-button2">Polski</button>
+                <button id="angielski" class="rodzaj-button2">Angielski</button>
+            </div>
+        </div>
 
-<div class="search-container">
-    <div class="search-wrapper">
-        <label for="search">Search Word</label>
-        <input type="search" id="search" data-search>
+        <div class="mode-buttons">
+            <button id="singleSentenceBtn" class="rodzaj-button">Jedno zdanie</button>
+            <button id="threeSentencesBtn" class="rodzaj-button">Trzy zdania</button>
+            <button id="singleWordBtn" class="rodzaj-button">Pojedyncze słowo</button>
+        </div>
     </div>
-    <div class="button-container">
-        <button id="polski" class="rodzaj-button2">Polski</button>
-        <button id="angielski" class="rodzaj-button2">Angielski</button>
+
+    <!-- Prawa sekcja: reklama -->
+    <div class="ad-container">
+        <ins class="adsbygoogle"
+             style="display:inline-block;width:728px;height:90px"
+             data-ad-client="ca-pub-2654094815555460"
+             data-ad-slot="2561750975"></ins>
+        <script>
+             (adsbygoogle = window.adsbygoogle || []).push({});
+        </script>
     </div>
 </div>
-                <div>
-    <button id="singleSentenceBtn" class="rodzaj-button">Jedno zdanie</button>
-    <button id="threeSentencesBtn" class="rodzaj-button">Trzy zdania</button>
-    <button id="singleWordBtn" class="rodzaj-button">Pojedyncze słowo</button>
-                </div><br>
                 <div id="matchingButtonsContainer" style="margin-top: 10px;"></div>
                 <p id="key3Result"></p>
                 <button class="left-button2">+<br></button>TE LEKCJE MAJĄ DOSTĘPNE SKOJARZENIA W WIĘKSZYM ZAKRESIE TEMATÓW
@@ -1948,6 +2025,11 @@ input {
             <span id="arrow">&#9660;</span> <!-- Strzałka skierowana w dół -->
         </div>
         <script>
+  window.addEventListener('load', function () {
+    setTimeout(function () {
+      document.getElementById('adblockMessage').style.display = 'block';
+    }, 2000); // 20000 ms = 20 sekund
+  });
         function countUniqueFiszki(fiszkiArray) {
             const seenKeys = new Set();
             fiszkiArray.forEach(fiszka => {
@@ -4743,7 +4825,10 @@ window.onload = function() {
     console.log(`Czas ładowania strony: ${loadTime.toFixed(2)} ms`);
 };
         </script>
-
+<div id="adblockMessage" style="display:none; position:fixed; bottom:20px; left:20px; right:20px; background:#ffdddd; color:#000; border:1px solid #f00; padding:15px; font-family:sans-serif; z-index:99999999;">
+  Dla rozwoju projektu proszę Cię o wyłączenie AdBlocka 🙏 Dziękuję!
+  <button onclick="document.getElementById('adblockMessage').style.display='none'" style="float:right; background:#f00; color:#fff; border:none; padding:5px 10px; cursor:pointer;">X</button>
+</div>
         <script id="demoScript" data-category=""></script>
     </body>
 </html>

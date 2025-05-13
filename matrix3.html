@@ -1249,6 +1249,25 @@ button123:hover {
         </style>
     </head>
     <body>
+        <div style="display: flex;  gap: 0px;">
+  <!-- Reklama AdSense -->
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2654094815555460"
+     crossorigin="anonymous"></script>
+<!-- Reklama - baner -->
+<ins class="adsbygoogle"
+     style="display:inline-block;width:728px;height:90px"
+     data-ad-client="ca-pub-2654094815555460"
+     data-ad-slot="2561750975"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+  <!-- Tekst obok reklamy -->
+  <div>
+    <h1 style="margin-left: 200px;">arbulang.com</h1>
+    <h2 style="margin-left: 200px;">ARBU ŚWIAT</h2>
+  </div>
+</div>
         <div class="horizontal-bar" id="horizontalBar2">
         </div>
         <div class="container">
@@ -1286,7 +1305,12 @@ button123:hover {
         <div class="toggle-button" id="toggleButton">
     <span id="arrow">&#9660;</span> <!-- Strzałka skierowana w dół -->
 </div>
-        <script>
+            <script>
+  window.addEventListener('load', function () {
+    setTimeout(function () {
+      document.getElementById('adblockMessage').style.display = 'block';
+    }, 2000); // 20 seconds
+  });
                                 function countUniqueFiszki(fiszkiArray) {
             const seenKeys = new Set();
             fiszkiArray.forEach(fiszka => {
@@ -5884,6 +5908,10 @@ ${sentence10}<br>
             przekazArgument0(tablica3[2], '', false, 'fiszki', true, true, tablica3[1]);
             ustawTryb('fiszki');
         </script>
+        <div id="adblockMessage" style="display:none; position:fixed; bottom:20px; left:20px; right:20px; background:#ffdddd; color:#000; border:1px solid #f00; padding:15px; font-family:sans-serif; z-index:999999;">
+  To support the development of this project, please consider disabling your AdBlock 🙏 Thank you!
+  <button onclick="document.getElementById('adblockMessage').style.display='none'" style="float:right; background:#f00; color:#fff; border:none; padding:5px 10px; cursor:pointer;">X</button>
+</div>
         <script id="demoScript" data-category=""></script>
     </body>
 </html>
