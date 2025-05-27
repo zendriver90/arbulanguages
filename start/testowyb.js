@@ -2920,6 +2920,30 @@ const fiszki10 = [
             13
         ],
             entries: [
+                        {
+            id: 1,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/50aa.jpg",
+                alt: "Wygenerowane przez AI."
+            },
+            story: {
+                text: "",
+                alt: ""
+            },
+            category: ["sport", ""]
+        },
+                {
+                            id: 3,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/50cc.jpg",
+                alt: "Zroszona przez deszcz - roślina. Wygenerowane przez AI."
+            },
+            story: {
+                text: "W <b><u>maj</b></u>u na <b><u>moje</b></u> rośliny w ogrodzie pada deszcz",
+                alt: "Pory roku, wiosna i jej uroki. Czy majowy deszcz jest przyjemny?"
+            },
+            category: ["nauka", "pory roku"]
+        },
         {
             id: 1,
             img: {
@@ -2932,6 +2956,18 @@ const fiszki10 = [
             },
             category: ["natura", "florystyka"]
         },
+                {
+                    id: 2,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/50bb.jpg",
+                alt: "Wygenerowane przez AI."
+            },
+            story: {
+                text: "",
+                alt: ""
+            },
+            category: ["czarny humor", ""]
+        },
         {
                     id: 2,
             img: {
@@ -2943,18 +2979,6 @@ const fiszki10 = [
                 alt: "Zaufanie a przyjaźń. Czy trudno jest zbudować zaufanie?"
             },
             category: ["związki", "przyjaźń"]
-        },
-        {
-                            id: 3,
-            img: {
-                src: "https://www.arbulang.com/img/fiszki1/50cc.jpg",
-                alt: "Zroszona przez deszcz - roślina. Wygenerowane przez AI."
-            },
-            story: {
-                text: "W <b><u>maj</b></u>u na <b><u>moje</b></u> rośliny w ogrodzie pada deszcz",
-                alt: "Pory roku, wiosna i jej uroki. Czy majowy deszcz jest przyjemny?"
-            },
-            category: ["nauka", "pory roku"]
         }
             ],
         srcWord: ["https://www.arbulang.com/filmy/company.mp4", "Rampage (2018)"],
@@ -19279,27 +19303,48 @@ if (Array.isArray(fiszka.entries) && fiszka.entries.length > 0) {
             selectedIndexes = fiszka.entries
                 .map((entry, index) => ({ entry, index }))
                 .filter(({ entry }) => entry.category.includes("sport"))
-                .slice(0, 3)
+                .slice(0, 5)
                 .map(obj => obj.index);
         } else if (category === "natura") {
             selectedIndexes = fiszka.entries
                 .map((entry, index) => ({ entry, index }))
                 .filter(({ entry }) => entry.category.includes("natura"))
-                .slice(0, 3)
+                .slice(0, 5)
                 .map(obj => obj.index);
-        } else if (category === "all") {
+        } else if (category === "nauka") {
+            selectedIndexes = fiszka.entries
+                .map((entry, index) => ({ entry, index }))
+                .filter(({ entry }) => entry.category.includes("nauka"))
+                .slice(0, 5)
+                .map(obj => obj.index);
+        } else if (category === "czarny humor") {
+            selectedIndexes = fiszka.entries
+                .map((entry, index) => ({ entry, index }))
+                .filter(({ entry }) => entry.category.includes("czarny humor"))
+                .slice(0, 5)
+                .map(obj => obj.index);
+        } else if (category === "zwiazki") {
+    selectedIndexes = fiszka.entries
+        .map((entry, index) => ({ entry, index }))
+        .filter(({ entry }) => {
+            // Usuwamy polskie znaki z kategorii
+            const normalizedCategory = entry.category.map(cat => cat.normalize("NFD").replace(/[\u0300-\u036f]/g, ""));
+            return normalizedCategory.some(cat => cat.includes("zwiazki"));
+        })
+        .slice(0, 5)
+        .map(obj => obj.index);
+} else if (category === "all") {
             // Losowo wybieramy do 3 unikalnych indeksów
             const allIndexes = [...Array(fiszka.entries.length).keys()];
             selectedIndexes = allIndexes
                 .sort(() => 0.5 - Math.random()) // losowe przetasowanie
-                .slice(0, 3);
+                .slice(0, 5);
         } else {
-            // Inne konkretne kategorie np. "natura", "nauka"
-            selectedIndexes = fiszka.entries
-                .map((entry, index) => ({ entry, index }))
-                .filter(({ entry }) => entry.category.includes(category))
-                .slice(0, 3)
-                .map(obj => obj.index);
+            // Losowo wybieramy do 3 unikalnych indeksów
+            const allIndexes = [...Array(fiszka.entries.length).keys()];
+            selectedIndexes = allIndexes
+                .sort(() => 0.5 - Math.random()) // losowe przetasowanie
+                .slice(0, 5);
         }
 
         const randomButtonIndex = selectedIndexes[0] || 0;
@@ -19355,8 +19400,6 @@ if (Array.isArray(fiszka.entries) && fiszka.entries.length > 0) {
                     lastClickedButton = storyButton;
                     lastApprovedIndex = index;
                 }
-            } else {
-                storyButton.addClass('disabled-button'); // Opcjonalna wizualna blokada
             }
 
             storyButtonContainer.append(storyButton);

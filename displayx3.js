@@ -6,6 +6,7 @@
                         let tablica12ab = [];
             let tablica12ad = [];
             let tablica12abc = [];
+            const displayedIds = [];
 function showCombinedSentenceForLesson(selectedCategory, matchingIndexes3, rodzaj, matchingIndexes2, buttonindex, index50, lessonIdToShow1, lessonIdToShow2, lessonIdToShow3, fiszki, matchingIndexes, startIndex, newIndex, indexDiv, lessonsArray, lesson1PartLength, lesson2PartLength, lesson3PartLength, lesson1Sentences, lesson2Sentences, lesson3Sentences, lesson1FirstPartLength, lesson2FirstPartLength, lesson3FirstPartLength, lesson1SecondPartLength, lesson2SecondPartLength, lesson3SecondPartLength, cumulativeFirstPartLength1, cumulativeFirstPartLength2, cumulativeFirstPartLength3, lessonsArrayZ, matchingLessons5, matchingLessons5b, isSearching) {
                 console.log('hej55bbv', matchingIndexes);
                             let tablica60 = [];
@@ -713,17 +714,21 @@ function showCombinedSentenceForLesson(selectedCategory, matchingIndexes3, rodza
                                 }
 
                                 console.log('hej20', sentence1bba);
-    $sentenceDiv.html(`
+$sentenceDiv.html(`
 <div class="sentence-block" data-name="${id1}">
-    <button class="left-button first-button">+<br></button>
-    ${sentence10}${sentence11}<br>
+    <div class="sentence-line">
+        <button class="left-button first-button">+</button>
+        <div class="sentence10">${sentence10}${sentence11}</div>
+    </div>
     <div class="sentence1bba">${sentence1bba}</div>
-    <div class="sentence1bba">${sentence1bbab}</div>
+    <div class="sentence1bbab">${sentence1bbab}</div>
 </div>
 
 <div class="sentence-block" data-name="${id2}">
+                            <div class="sentence-line">
     <button class="left-buttonb second-button">+<br></button>
-    ${sentence20}${sentence22}<br>
+        <div class="sentence20">${sentence20}${sentence22}</div>
+                        </div>
     <div class="sentence1bb1b">${sentence1bb1b}</div>
     <div class="sentence1bba2">${sentence1bba2}</div>
 </div>
@@ -741,7 +746,7 @@ const colorMapping = {
     'sport': '#28a745',        // Zielony
     'natura': '#007bff',       // Niebieski
     'nauka': '#dc3545',        // Czerwony
-    'czarnyhumor': '#ffc107',  // Żółty
+    'czarny humor': '#ffc107',  // Żółty
     'zwiazki': '#fd7e14',      // Pomarańczowy
     'all': '#800080'     
 };
@@ -888,74 +893,62 @@ updateButtonColors();
 }, 0); // opóźnienie np. 100ms
 
                                 $('.sentence1bba').html('');
-                                $sentenceDiv.on('click', '.left-button', function () {
+                                                                $('.sentence1bbab').html('');
+$sentenceDiv.on('click', '.left-button', function () {
+    const $block = $(this).closest('.sentence-block');
+    const blockId = $block.data('name');
 
-                                    // Dodawanie zdania tylko jeśli sentence1bb2 jest puste
-                                    if (sentence1bba === "") {
-                                        let sentencePart3 = fiszka.translateb ? fiszka.translateb : "";
-                                        sentence1bba += sentencePart3 + " ";
-                                    }
-                                    if (sentence1bbab === "") {
-                                        let sentencePart33 = fiszka.translate ? fiszka.translate : "";
-                                        sentence1bbab += sentencePart33 + " ";
-                                    }
-                                    console.log('hej20', sentence1bba);
+    console.log('Kliknięto przycisk w bloku z ID:', blockId);
 
-                                    // Dodanie treści do diva wraz z przyciskiem
-    $sentenceDiv.html(`
-<div class="sentence-block" data-name="${id1}">
-    <button class="left-button first-button">+<br></button>
-    ${sentence10}${sentence11}<br>
-    <div class="sentence1bba">${sentence1bba}</div>
-    <div class="sentence1bba">${sentence1bbab}</div>
-</div>
+    // Dodaj ID do tablicy
+    displayedIds.push(blockId);
+    console.log('Dodano ID do listy wyświetlonych:', blockId);
 
-<div class="sentence-block" data-name="${id2}">
-    <button class="left-buttonb second-button">+<br></button>
-    ${sentence20}${sentence22}<br>
-    <div class="sentence1bb1b">${sentence1bb1b}</div>
-    <div class="sentence1bba2">${sentence1bba2}</div>
-</div>
+    // Jeśli tablica ma więcej niż 6 elementów, usuń pierwszy (najstarszy)
+    if (displayedIds.length > 3) {
+        const removedId = displayedIds.shift();
+        console.log('Usunięto najstarsze ID z tablicy:', removedId);
+    }
 
-<div class="sentence-block" data-name="${id3}">
-    <button class="left-buttonbb third-button">+<br></button>
-    ${sentence30}${sentence33}<br>
-    <div class="sentence1bb3">${sentence1bb3}</div>
-    <div class="sentence1bb1c">${sentence1bb1c}</div>
-</div>
-`);
-                                    // Ustawienie stylu dla przycisków .left-button
-                                    $('.sentence1bb1b').html('');
-                                    $('.sentence1bba2').html('');
-                                    $('.left-button').css('position', 'relative');
-                                    $('.left-buttonb').css('position', 'relative');
-                                    $('.left-buttonbb').css('position', 'relative');
-                                    let sentencePart1 = fiszka.translate ? fiszka.translate : ""; // Sprawdź, czy translate istnieje
-                                    let sentencePart3 = fiszka.translateb ? fiszka.translateb : ""; // Sprawdź, czy translate istnieje
-                                    console.log('Kliknięto przycisk');
-                                    if ($sentence1bba.css('display') === 'none' || sentence1bVisible) {
-                                        $sentence1bba.css('display', 'block');
-                                        $sentence1bba.css({
-                                            'margin-bottom': '-20px',
-                                            'top': '0px',
-                                            'position': 'relative'
-                                        });
-                                    }
-                                    if ($sentence1bbab.css('display') === 'none' || sentence1bVisible) {
-                                        $sentence1bbab.css('display', 'block');
-                                        $sentence1bbab.css({
-                                            'margin-bottom': '-20px',
-                                            'top': '0px',
-                                            'position': 'relative'
-                                        });
-                                    }
-                                    // Dodanie stylizacji na hover
+    console.log('Aktualna lista wyświetlonych ID:', displayedIds);
 
-                                    $sentence1bb1b.html('');
-                                    $sentence1bb1b.empty();
-                                });
-                                $sentence1bb1b.html('');
-                                $sentence1bb1b.empty();
+    const $sentence1bba = $block.find('.sentence1bba');
+    const $sentence1bbab = $block.find('.sentence1bbab');
+
+    if ($sentence1bba.html().trim() === '') {
+        console.log('Wypełniam sentence1bba...');
+        $sentence1bba.html(sentence1bba).css({
+            display: 'block',
+            marginBottom: '0px'
+        });
+    } else {
+        console.log('sentence1bba już jest wypełnione.');
+    }
+
+    if ($sentence1bbab.html().trim() === '') {
+        console.log('Wypełniam sentence1bbab...');
+        $sentence1bbab.html(sentence1bbab).css({
+            display: 'block',
+            marginBottom: '00px'
+        });
+    } else {
+        console.log('sentence1bbab już jest wypełnione.');
+    }
+
+    // Schowaj wszystkie .sentence1bba, które nie mają id z tablicy displayedIds
+    $('.sentence-block').each(function () {
+        const thisId = $(this).data('name');
+        if (!displayedIds.includes(thisId)) {
+            $(this).find('.sentence1bba').hide();
+                        $(this).find('.sentence1bbab').hide();
+            console.log(`Schowano sentence1bba w bloku ID: ${thisId}`);
+        }
+    });
+        $('.sentence10').removeClass('active');
+
+    // Dodaj klasę do .sentence10 w aktualnym bloku
+    $block.find('.sentence10').addClass('highlight-green');
+});
                             }, 0);
                         });
                         console.log('Zawartość zmiennej sentence1:', sentence1b); // Wyświetlenie zawartości zmiennej sentence1                          
@@ -1241,17 +1234,21 @@ function updateButtonColors() {
     });
     }
     updateButtonColors();
-    $sentenceDiv.html(`
+$sentenceDiv.html(`
 <div class="sentence-block" data-name="${id1}">
-    <button class="left-button first-button">+<br></button>
-    ${sentence10}${sentence11}<br>
+    <div class="sentence-line">
+        <button class="left-button first-button">+</button>
+        <div class="sentence10">${sentence10}${sentence11}</div>
+    </div>
     <div class="sentence1bba">${sentence1bba}</div>
-    <div class="sentence1bba">${sentence1bbab}</div>
+    <div class="sentence1bbab">${sentence1bbab}</div>
 </div>
 
 <div class="sentence-block" data-name="${id2}">
+                            <div class="sentence-line">
     <button class="left-buttonb second-button">+<br></button>
-    ${sentence20}${sentence22}<br>
+        <div class="sentence20">${sentence20}${sentence22}</div>
+                        </div>
     <div class="sentence1bb1b">${sentence1bb1b}</div>
     <div class="sentence1bba2">${sentence1bba2}</div>
 </div>
@@ -1265,74 +1262,61 @@ function updateButtonColors() {
 `);
                                 $('.sentence1bb1b').html('');
                                 $('.sentence1bba2').html('');
-                                $sentenceDiv.on('click', '.left-buttonb', function () {
-                                    $('.sentence1bba').html('');
-                                    // Dodawanie zdania tylko jeśli sentence1bb2 jest puste
-                                    if (sentence1bb1b === "") {
-                                        let sentencePart33 = fiszka.translateb ? fiszka.translateb : "";
-                                        sentence1bb1b += sentencePart33 + " ";
-                                    }
-                                    console.log('hej56', sentence1bb1b);
-                                    if (sentence1bba2 === "") {
-                                        let sentencePart33 = fiszka.translate ? fiszka.translate : "";
-                                        sentence1bba2 += sentencePart33 + " ";
-                                    }
-                                    // Dodanie treści do diva wraz z przyciskiem
-    $sentenceDiv.html(`
-<div class="sentence-block" data-name="${id1}">
-    <button class="left-button first-button">+<br></button>
-    ${sentence10}${sentence11}<br>
-    <div class="sentence1bba">${sentence1bba}</div>
-    <div class="sentence1bba">${sentence1bbab}</div>
-</div>
+$sentenceDiv.on('click', '.left-buttonb', function () {
+    const $block = $(this).closest('.sentence-block');
+    const blockId = $block.data('name');
 
-<div class="sentence-block" data-name="${id2}">
-    <button class="left-buttonb second-button">+<br></button>
-    ${sentence20}${sentence22}<br>
-    <div class="sentence1bb1b">${sentence1bb1b}</div>
-    <div class="sentence1bba2">${sentence1bba2}</div>
-</div>
+    console.log('Kliknięto przycisk w bloku z ID:', blockId);
 
-<div class="sentence-block" data-name="${id3}">
-    <button class="left-buttonbb third-button">+<br></button>
-    ${sentence30}${sentence33}<br>
-    <div class="sentence1bb3">${sentence1bb3}</div>
-    <div class="sentence1bb1c">${sentence1bb1c}</div>
-</div>
-`);
-                                    $('.sentence1bba').html('');
-                                    // Ustawienie stylu dla przycisków .left-button
-                                    $('.left-button').css('position', 'relative');
-                                    $('.left-buttonb').css('position', 'relative');
-                                    $('.left-buttonbb').css('position', 'relative');
-                                    let sentencePart33 = fiszka.translateb ? fiszka.translateb : ""; // Sprawdź, czy translate istnieje
-                                    // Obsługa kliknięcia przycisku
-                                    console.log('Kliknięto przycisk');
-                                    let $sentence1bb1b = $sentenceDiv.find('.sentence1bb1b');
-                                    if ($sentence1bb1b.css('display') === 'none') {
-                                        sentence1bVisible = false;
-                                        sentence1baVisible = true;
-                                        // Pokazujemy zdanie .sentence1b
-                                        $sentence1bb1b.css('display', 'block');
-                                        $sentence1bb1b.css({
-                                            'margin-top': '-25px',
-                                            'top': '24px',
-                                            'position': 'relative'
-                                        });
-                                    }
-                                    if ($sentence1bba2.css('display') === 'none') {
-                                        // Pokazujemy zdanie .sentence1b
-                                        $sentence1bba2.css('display', 'block');
-                                        $sentence1bba2.css({
-                                            'margin-top': '0px',
-                                            'top': '23px',
-                                            'position': 'relative'
-                                        });
-                                    }
+    // Dodaj ID do tablicy
+    displayedIds.push(blockId);
+    console.log('Dodano ID do listy wyświetlonych:', blockId);
 
-                                    $sentence1bb1a.html('');
-                                    $sentence1bb1a.empty();
-                                });
+    // Jeśli tablica ma więcej niż 6 elementów, usuń pierwszy (najstarszy)
+    if (displayedIds.length > 3) {
+        const removedId = displayedIds.shift();
+        console.log('Usunięto najstarsze ID z tablicy:', removedId);
+    }
+
+    console.log('Aktualna lista wyświetlonych ID:', displayedIds);
+
+    const $sentence1bb1b = $block.find('.sentence1bb1b');
+    const $sentence1bba2 = $block.find('.sentence1bba2');
+
+    if ($sentence1bb1b.html().trim() === '') {
+        console.log('Wypełniam sentence1bba...');
+        $sentence1bb1b.html(sentence1bb1b).css({
+            display: 'block',
+            marginBottom: '0px'
+        });
+    } else {
+        console.log('sentence1bba już jest wypełnione.');
+    }
+
+    if ($sentence1bba2.html().trim() === '') {
+        console.log('Wypełniam sentence1bbab...');
+        $sentence1bba2.html(sentence1bba2).css({
+            display: 'block',
+            marginBottom: '00px'
+        });
+    } else {
+        console.log('sentence1bbab już jest wypełnione.');
+    }
+
+    // Schowaj wszystkie .sentence1bba, które nie mają id z tablicy displayedIds
+    $('.sentence-block').each(function () {
+        const thisId = $(this).data('name');
+        if (!displayedIds.includes(thisId)) {
+            $(this).find('.sentence1bba').hide();
+                        $(this).find('.sentence1bbab').hide();
+            console.log(`Schowano sentence1bba w bloku ID: ${thisId}`);
+        }
+    });
+        $('.sentence10').removeClass('active');
+
+    // Dodaj klasę do .sentence10 w aktualnym bloku
+    $block.find('.sentence20').addClass('highlight-green');
+});
                                 $sentence1bb1a.html('');
                                 $sentence1bb1a.empty();
                             }, 0);
@@ -1646,17 +1630,21 @@ function updateButtonColors() {
     });
     }
     updateButtonColors();
-    $sentenceDiv.html(`
+$sentenceDiv.html(`
 <div class="sentence-block" data-name="${id1}">
-    <button class="left-button first-button">+<br></button>
-    ${sentence10}${sentence11}<br>
+    <div class="sentence-line">
+        <button class="left-button first-button">+</button>
+        <div class="sentence10">${sentence10}${sentence11}</div>
+    </div>
     <div class="sentence1bba">${sentence1bba}</div>
-    <div class="sentence1bba">${sentence1bbab}</div>
+    <div class="sentence1bbab">${sentence1bbab}</div>
 </div>
 
 <div class="sentence-block" data-name="${id2}">
+                            <div class="sentence-line">
     <button class="left-buttonb second-button">+<br></button>
-    ${sentence20}${sentence22}<br>
+        <div class="sentence20">${sentence20}${sentence22}</div>
+                        </div>
     <div class="sentence1bb1b">${sentence1bb1b}</div>
     <div class="sentence1bba2">${sentence1bba2}</div>
 </div>
@@ -1670,71 +1658,59 @@ function updateButtonColors() {
 `);
                                 $('.sentence1bb3').html('');
                                 $('.sentence1bb1c').html('');
-                                $sentenceDiv.on('click', '.left-buttonbb', function () {
-                                    $('.sentence1bb3').html('');
-                                    // Dodawanie zdania tylko jeśli sentence1bb2 jest puste
-                                    if (sentence1bb3 === "") {
-                                        let sentencePart444b = fiszka.translateb ? fiszka.translateb : "";
-                                        sentence1bb3 += sentencePart444b + " ";
-                                    }
-                                    if (sentence1bb1c === "") {
-                                        let sentencePart444 = fiszka.translate ? fiszka.translate : "";
-                                        sentence1bb1c += sentencePart444 + " ";
-                                    }
-                                    // Dodanie treści do diva wraz z przyciskiem
-    $sentenceDiv.html(`
-<div class="sentence-block" data-name="${id1}">
-    <button class="left-button first-button">+<br></button>
-    ${sentence10}${sentence11}<br>
-    <div class="sentence1bba">${sentence1bba}</div>
-    <div class="sentence1bba">${sentence1bbab}</div>
-</div>
+$sentenceDiv.on('click', '.left-buttonbb', function () {
+    const $block = $(this).closest('.sentence-block');
+    const blockId = $block.data('name');
 
-<div class="sentence-block" data-name="${id2}">
-    <button class="left-buttonb second-button">+<br></button>
-    ${sentence20}${sentence22}<br>
-    <div class="sentence1bb1b">${sentence1bb1b}</div>
-    <div class="sentence1bba2">${sentence1bba2}</div>
-</div>
+    console.log('Kliknięto przycisk w bloku z ID:', blockId);
 
-<div class="sentence-block" data-name="${id3}">
-    <button class="left-buttonbb third-button">+<br></button>
-    ${sentence30}${sentence33}<br>
-    <div class="sentence1bb3">${sentence1bb3}</div>
-    <div class="sentence1bb1c">${sentence1bb1c}</div>
-</div>
-`);
+    // Dodaj ID do tablicy
+    displayedIds.push(blockId);
+    console.log('Dodano ID do listy wyświetlonych:', blockId);
 
-                                    // Ustawienie stylu dla przycisków .left-button
-                                    $('.left-button').css('position', 'relative');
-                                    $('.left-buttonb').css('position', 'relative');
-                                    $('.left-buttonbb').css('position', 'relative');
-                                    let sentencePart444 = fiszka.translateb ? fiszka.translateb : ""; // Sprawdź, czy translate istnieje
-                                    // Obsługa kliknięcia przycisku
-                                    console.log('Kliknięto przycisk');
-                                    let $sentence1bb3 = $sentenceDiv.find('.sentence1bb3');
-                                    if ($sentence1bb3.css('display') === 'none') {
-                                        sentence1bVisible = false;
-                                        sentence1baVisible = true;
-                                        // Pokazujemy zdanie .sentence1b
-                                        $sentence1bb3.css('display', 'block');
-                                        $sentence1bb3.css({
-                                            'margin-top': '-25px',
-                                            'top': '24px',
-                                            'position': 'relative'
-                                        });
-                                    }
-                                    if ($sentence1bb1c.css('display') === 'none') {
-                                        // Pokazujemy zdanie .sentence1b
-                                        $sentence1bb1c.css('display', 'block');
-                                        $sentence1bb1c.css({
-                                            'margin-top': '0px',
-                                            'top': '23px',
-                                            'position': 'relative'
-                                        });
-                                    }
+    // Jeśli tablica ma więcej niż 6 elementów, usuń pierwszy (najstarszy)
+    if (displayedIds.length > 3) {
+        const removedId = displayedIds.shift();
+        console.log('Usunięto najstarsze ID z tablicy:', removedId);
+    }
 
-                                });
+    console.log('Aktualna lista wyświetlonych ID:', displayedIds);
+
+    const $sentence1bb3 = $block.find('.sentence1bb3');
+    const $sentence1bb1c = $block.find('.sentence1bb1c');
+
+    if ($sentence1bb3.html().trim() === '') {
+        console.log('Wypełniam sentence1bba...');
+        $sentence1bb3.html(sentence1bb3).css({
+            display: 'block',
+            marginBottom: '0px'
+        });
+    } else {
+        console.log('sentence1bba już jest wypełnione.');
+    }
+
+    if ($sentence1bb1c.html().trim() === '') {
+        console.log('Wypełniam sentence1bbab...');
+        $sentence1bb1c.html(sentence1bb1c).css({
+            display: 'block',
+            marginBottom: '00px'
+        });
+    } else {
+        console.log('sentence1bbab już jest wypełnione.');
+    }
+
+    console.log('Ukrywam inne kontenery z sentence1bba i sentence1bbab...');
+
+    // Schowaj wszystkie .sentence1bba, które nie mają id z tablicy displayedIds
+    $('.sentence-block').each(function () {
+        const thisId = $(this).data('name');
+        if (!displayedIds.includes(thisId)) {
+            $(this).find('.sentence1bb3').hide();
+                        $(this).find('.sentence1bb1c').hide();
+            console.log(`Schowano sentence1bba w bloku ID: ${thisId}`);
+        }
+    });
+});
                             }, 0);
                         });
                     }
@@ -3333,7 +3309,7 @@ if (window.matchMedia("(max-width: 999px)").matches) {
 
     $sentenceDivB.html(`
 <div class="sentence-blockB" data-name="${id1}">
-    ${sentence10}${sentence11}<br>
+    <div class="sentence10">${sentence10}${sentence11}</div>
     <div class="sentence1b">${sentence1b}</div>
     <div class="sentence1b2">${sentence1b2}</div>
 </div>
@@ -3365,17 +3341,21 @@ if (window.matchMedia("(max-width: 999px)").matches) {
     const id2 = matchingFiszki2[0]?.id[1] || 'unknown2';
     const id3 = matchingFiszki3[0]?.id[1] || 'unknown3';
 
-    $sentenceDiv.html(`
+$sentenceDiv.html(`
 <div class="sentence-block" data-name="${id1}">
-    <button class="left-button first-button">+<br></button>
-    ${sentence10}${sentence11}<br>
+    <div class="sentence-line">
+        <button class="left-button first-button">+</button>
+        <div class="sentence10">${sentence10}${sentence11}</div>
+    </div>
     <div class="sentence1bba">${sentence1bba}</div>
-    <div class="sentence1bba">${sentence1bbab}</div>
+    <div class="sentence1bbab">${sentence1bbab}</div>
 </div>
 
 <div class="sentence-block" data-name="${id2}">
+                            <div class="sentence-line">
     <button class="left-buttonb second-button">+<br></button>
-    ${sentence20}${sentence22}<br>
+        <div class="sentence20">${sentence20}${sentence22}</div>
+                        </div>
     <div class="sentence1bb1b">${sentence1bb1b}</div>
     <div class="sentence1bba2">${sentence1bba2}</div>
 </div>

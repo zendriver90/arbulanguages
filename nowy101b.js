@@ -1987,3 +1987,122 @@ $buttonb2.on('click', function () {
 });
                 }
             }
+            
+                                                    let sentence10 = ""; // Deklaracja zmiennej sentence1 na poziomie lokalnym
+                    let sentence11 = "";
+                    let sentence1bba = "";
+                    let sentence1bbab = "";
+                    function addBackgroundToText1b(matchingFiszki1, matchingIndexes, aktualny, lesson1PartLength, matchingIndexes2, rodzaj, matchingIndexes3, matchingLessons5b) {
+                        $(document).ready(function () {
+
+                            console.log('hejkh', lesson1PartLength);
+                            sentence1bba = "";
+                            sentence1bbab = "";
+                            setTimeout(() => {
+                                for (let i = 0; i < matchingFiszki1.length; i++) {
+                                    const fiszka = matchingFiszki1[i];
+                                    console.log('fiszka:', fiszka);
+                                    if (!fiszka.sentence1 || fiszka.sentence1.length === 0) {
+                                        console.log('fiszka.sentence2 is undefined or empty');
+                                        continue;
+                                    }
+
+                                    // Iteracja przez elementy sentence1
+                                    for (let ki = 0; ki < fiszka.sentence1.length; ki++) {
+                                        let sentencePart = fiszka.sentence1[ki];
+                                        console.log('matchingIndexes1000:', matchingIndexes);
+                                        const indexToCheck = i + lesson1PartLength + 1;
+                                        const indexToCheck2 = i + lesson1PartLength + 1;
+                                            if (matchingIndexes.includes(indexToCheck) && matchingIndexes !== null) {
+                                                // Sprawdzenie, czy indeks bieżącej fiszki znajduje się w tablicy matchingIndexes
+                                                const spanElement = document.createElement('span');
+                                                spanElement.textContent = sentencePart;
+                                                spanElement.classList.add('yellow');
+                                                // Zaktualizuj sentencePart, aby zawierał utworzony element span
+                                                sentencePart = spanElement.outerHTML;
+                                            }
+                                            if (matchingLessons5b.includes(indexToCheck2) && matchingIndexes.length === 0) {
+                                                // Sprawdzenie, czy indeks bieżącej fiszki znajduje się w tablicy matchingIndexes
+                                                const spanElement = document.createElement('span');
+                                                spanElement.textContent = sentencePart;
+                                                spanElement.classList.add('yellow');
+                                                // Zaktualizuj sentencePart, aby zawierał utworzony element span
+                                                sentencePart = spanElement.outerHTML;
+                                            }
+                                        // Dodaj sentencePart do sentence10
+                                        sentence10 += sentencePart + " ";
+
+                                    }
+
+                                }
+                                
+
+                                for (let li = 0; li < matchingFiszki1.length; li++) {
+                                    const fiszka = matchingFiszki1[li];
+                                    console.log('fiszka:', fiszka);
+                                    let sentencePart3 = fiszka.translateb;
+                                    console.log('sentencePart3:', sentencePart3);
+                                    if (aktualny) {
+                                        // Sprawdzenie, czy indeks bieżącej fiszki znajduje się w tablicy matchingIndexes
+                                        const spanElement = document.createElement('span');
+                                        spanElement.textContent = sentencePart3;
+                                        sentencePart3 = spanElement.outerHTML;
+
+                                    }
+                                    sentence1bba += sentencePart3 + " ";
+                                }
+                                for (let li = 0; li < matchingFiszki1.length; li++) {
+                                    const fiszka = matchingFiszki1[li];
+                                    console.log('fiszka:', fiszka);
+                                    let sentencePart3 = fiszka.translate;
+                                    console.log('sentencePart3:', sentencePart3);
+                                    if (aktualny) {
+                                        // Sprawdzenie, czy indeks bieżącej fiszki znajduje się w tablicy matchingIndexes
+                                        const spanElement = document.createElement('span');
+                                        spanElement.textContent = sentencePart3;
+                                        sentencePart3 = spanElement.outerHTML;
+
+                                    }
+                                    sentence1bbab += sentencePart3 + " ";
+                                }
+
+                                console.log('hej20', sentence1bba);
+    $sentenceDiv.html(`
+<div class="sentence-block" data-name="${id1}">
+    <button class="left-button first-button">+<br></button>
+    ${sentence10}${sentence11}<br>
+    <div class="sentence1bba">${sentence1bba}</div>
+    <div class="sentence1bba">${sentence1bbab}</div>
+</div>
+
+<div class="sentence-block" data-name="${id2}">
+    <button class="left-buttonb second-button">+<br></button>
+    ${sentence20}${sentence22}<br>
+    <div class="sentence1bb1b">${sentence1bb1b}</div>
+    <div class="sentence1bba2">${sentence1bba2}</div>
+</div>
+
+<div class="sentence-block" data-name="${id3}">
+    <button class="left-buttonbb third-button">+<br></button>
+    ${sentence30}${sentence33}<br>
+    <div class="sentence1bb3">${sentence1bb3}</div>
+    <div class="sentence1bb1c">${sentence1bb1c}</div>
+</div>
+`);
+
+
+                                $('.sentence1bba').html('');
+                                $sentenceDiv.on('click', '.left-button', function () {
+
+                                    }
+                                    // Dodanie stylizacji na hover
+
+                                    $sentence1bb1b.html('');
+                                    $sentence1bb1b.empty();
+                                });
+                                $sentence1bb1b.html('');
+                                $sentence1bb1b.empty();
+                            }, 0);
+                        });
+                        console.log('Zawartość zmiennej sentence1:', sentence1b); // Wyświetlenie zawartości zmiennej sentence1                          
+                    }

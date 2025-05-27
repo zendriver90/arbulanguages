@@ -138,19 +138,19 @@
 }
 
 #word {
-        position: relative;
-        height: 0px;
-        font-size: 20px;
-        display: grid;
-        text-align: center;
-        justify-content: center;
-        align-items: center;
-        grid-template-columns: auto auto;
-        grid-template-rows: auto;
-        margin-bottom: 0px;
-        width: 100%;
-        grid-column: span 2;
-        z-index: 10;
+    /* Usuń position: absolute; */
+    /* Usuń height: 0px; */
+    font-size: 20px;
+    display: grid;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto;
+    margin-bottom: 0px;
+    width: 100%;
+    grid-column: span 2;
+    z-index: 10;
 }
 #part {
     position: relative;
@@ -168,15 +168,16 @@
 #part button {
     flex: 0 0 auto; /* Przyciski zachowują swoją szerokość */
     margin: 0px; /* Marginesy między przyciskami */
-    font-size: 10px;
+    font-size: 50px;
 }
 
-                #storyone {
-                    border-radius: 20px;
-                    width: 80px;
-                    height: 30px;
-                    font-size: 10px;
-                }
+    #storyone {
+        font-size: 40px;
+        line-height: 1.2;
+        padding: 20px;
+        box-sizing: border-box;
+        border-radius: 20px;
+    }
                 /* Stylizacja dla adnotacji/potęgi */
 .adannotation {
   position: relative;

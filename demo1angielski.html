@@ -1,8 +1,9 @@
 <!DOCTYPE html>
 <head>
-<title>Smart Angielski</title>
+<title>Jak szybko nauczyć się angielskiego – 230 najważniejszych słów</title>
 <meta charset="UTF-8">
 
+<meta name="description" content="Ta platforma e-lerningowa pokazuje, że możesz wzmocnić swoją pamięć poznając zaledwie kilka słów za pomocą nowoczesnej techiniki pamięciowej.">
     <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
     <script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
     <link rel="stylesheet" type="text/css" href="css/alert.css">
@@ -90,6 +91,42 @@ function wybierzRodzaj(category, one, two, three) {
             }
         }
     } else if (category === 'natura') {
+        // Dodaj wszystkie lekcje do matchingLessons
+        for (const fiszka of fiszki) {
+            console.log(`Przetwarzanie fiszki: ${JSON.stringify(fiszka)}`);
+            // Sprawdzanie, czy fiszka ma poprawne id
+            if (fiszka.id && fiszka.id[1]) {
+                // Sprawdzanie, czy id już jest w matchingLessons, aby uniknąć duplikatów
+                if (!matchingLessons.includes(fiszka.id[1])) {
+                    matchingLessons.push(fiszka.id[1]);
+                }
+            }
+        }
+    } else if (category === 'nauka') {
+        // Dodaj wszystkie lekcje do matchingLessons
+        for (const fiszka of fiszki) {
+            console.log(`Przetwarzanie fiszki: ${JSON.stringify(fiszka)}`);
+            // Sprawdzanie, czy fiszka ma poprawne id
+            if (fiszka.id && fiszka.id[1]) {
+                // Sprawdzanie, czy id już jest w matchingLessons, aby uniknąć duplikatów
+                if (!matchingLessons.includes(fiszka.id[1])) {
+                    matchingLessons.push(fiszka.id[1]);
+                }
+            }
+        }
+    } else if (category === 'czarny humor') {
+        // Dodaj wszystkie lekcje do matchingLessons
+        for (const fiszka of fiszki) {
+            console.log(`Przetwarzanie fiszki: ${JSON.stringify(fiszka)}`);
+            // Sprawdzanie, czy fiszka ma poprawne id
+            if (fiszka.id && fiszka.id[1]) {
+                // Sprawdzanie, czy id już jest w matchingLessons, aby uniknąć duplikatów
+                if (!matchingLessons.includes(fiszka.id[1])) {
+                    matchingLessons.push(fiszka.id[1]);
+                }
+            }
+        }
+    } else if (category === 'zwiazki') {
         // Dodaj wszystkie lekcje do matchingLessons
         for (const fiszka of fiszki) {
             console.log(`Przetwarzanie fiszki: ${JSON.stringify(fiszka)}`);

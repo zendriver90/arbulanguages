@@ -227,7 +227,7 @@ story_button {
 
 .fiszka_story {
     display: block;
-    margin-top: 65px;
+    margin-top: 15px;
     font-size: 26px;
 }
 .fiszka.active2 {
@@ -348,15 +348,19 @@ button.fiszka_button {
 }
 
 button.story_button {
-        border-radius: 15px;
-        padding: 10px 20px; /* odstÄpy wewnÄtrzne */
-        font-size: 10px;
-        width: auto;
-        max-width: 100%;
-        box-sizing: border-box;
-        height: auto; /* usuĹ ograniczenie wysokoĹci */
-        white-space: normal; /* pozwala tekstowi siÄ zawijaÄ */
+    display: inline-block;
+    vertical-align: top;
+    margin: 0 5px 5px 5px; /* góra 0, boki 5px, dół 5px dla odstępów między przyciskami */
+    border-radius: 15px;
+    padding: 10px 20px;
+    font-size: 25px;
+    width: auto;
+    max-width: 100%;
+    box-sizing: border-box;
+    height: auto;
+    white-space: normal;
 }
+
 button.story_button2 {
     border-radius: 5px;
     height: 25px;

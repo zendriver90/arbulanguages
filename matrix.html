@@ -28,45 +28,25 @@
         <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="keywords" content="naucz się angielskiego, 1000 angielskich słów, szybka nauka angielskiego, jak nauczyć się angielskiego, jak szybko nauczyć się języka, nauka angielskiego z przyjemnością" />
         <style>
             @media (min-width: 999px) {
-                #adblockMessage {
-  transition: all 0.5s ease;
-  box-shadow: 0 0 10px rgba(0,0,0,0.3);
-  border-radius: 8px;
-}
-                .top-section {
-    display: flex;
-    justify-content: flex-start;
+                .sentence-line {
     align-items: center;
-    flex-wrap: nowrap; /* ważne, żeby reklama nie schodziła pod spód */
-    gap: 20px;
 }
 
-.left-section {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
+.left-button {
+    margin-right: 8px; /* odstęp między przyciskiem a tekstem */
 }
 
-.search-container {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
+.sentence10 {
+    display: inline-block;
 }
-
-.button-container,
-.search-wrapper,
-.mode-buttons {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 10px;
+.sentence20 {
+    display: inline-block;
 }
-
-.ad-container {
-    margin-left: 100px; /* przesunięcie reklamy w prawo */
-    flex-shrink: 0;
-    margin-top: 100px;
+                .highlight-green {
+  background-color: rgba(0, 255, 0, 0.2); /* przezroczysty zielony */
 }
                 #container {
     padding: 20px;
@@ -146,7 +126,7 @@ video {
   .category-btn[data-category="nauka"] {
     background-color: #dc3545; /* Czerwony kolor dla nauki */
   }
-  .category-btn[data-category="czarnyhumor"] {
+  .category-btn[data-category="czarny humor"] {
     background-color: #ffc107; /* Żółty kolor dla czarnego humoru */
   }
 
@@ -231,8 +211,7 @@ video {
 .button-container {
     position: relative;
     gap: 0px;
-    right: -220px;
-    top: -22px;
+    top: 96px;
 }
 
 input {
@@ -691,17 +670,6 @@ span.highlight {
                     margin-top: 80px;
                     z-index: 9999;
                     color: white;
-                }
-                .sentence10,
-                .sentence11,
-                .sentence20,
-                .sentence22,
-                .sentence30,
-                .sentence33 {
-                    margin-bottom: 20px;
-                    font-size: 15px;
-                    color: white;
-                    z-index: 9999;
                 }
 
                 .button1,
@@ -1847,82 +1815,19 @@ input {
     </head>
     <body>
 
-        <a href="demo1angielskib.html?category=all" class="hidden-link lesson-link-1b" target="_blank" rel="noopener noreferrer">Przejdź do lekcji 1</a>
-<a href="demo2angielskib.html?category=all" class="hidden-link lesson-link-2b" target="_blank" rel="noopener noreferrer">Przejdź do lekcji 2</a>
-<a href="demo3angielskib.html?category=all" class="hidden-link lesson-link-3b" target="_blank" rel="noopener noreferrer">Przejdź do lekcji 3</a>
-<a href="demo4angielskib.html?category=all" class="hidden-link lesson-link-4b" target="_blank" rel="noopener noreferrer">Przejdź do lekcji 4</a>
-<a href="demo5angielskib.html?category=all" class="hidden-link lesson-link-5b" target="_blank" rel="noopener noreferrer">Przejdź do lekcji 5</a>
-<a href="demo6angielskib.html?category=all" class="hidden-link lesson-link-6b" target="_blank" rel="noopener noreferrer">Przejdź do lekcji 6</a>
-<a href="demo7angielskib.html?category=all" class="hidden-link lesson-link-7b" target="_blank" rel="noopener noreferrer">Przejdź do lekcji 7</a>
-<a href="demo8angielskib.html?category=all" class="hidden-link lesson-link-8b" target="_blank" rel="noopener noreferrer">Przejdź do lekcji 8</a>
-<a href="demo9angielskib.html?category=all" class="hidden-link lesson-link-9b" target="_blank" rel="noopener noreferrer">Przejdź do lekcji 9</a>
-<a href="demo10angielskib.html?category=all" class="hidden-link lesson-link-10b" target="_blank" rel="noopener noreferrer">Przejdź do lekcji 10</a>
-<a href="demo11angielskib.html?category=all" class="hidden-link lesson-link-11b" target="_blank" rel="noopener noreferrer">Przejdź do lekcji 11</a>
-<a href="demo12angielskib.html?category=all" class="hidden-link lesson-link-12b" target="_blank" rel="noopener noreferrer">Przejdź do lekcji 12</a>
-<a href="demo13angielskib.html?category=all" class="hidden-link lesson-link-13b" target="_blank" rel="noopener noreferrer">Przejdź do lekcji 13</a>
-<a href="demo14angielskib.html?category=all" class="hidden-link lesson-link-14b" target="_blank" rel="noopener noreferrer">Przejdź do lekcji 14</a>
-<a href="demo15angielskib.html?category=all" class="hidden-link lesson-link-15b" target="_blank" rel="noopener noreferrer">Przejdź do lekcji 15</a>
-<a href="demo16angielskib.html?category=all" class="hidden-link lesson-link-16b" target="_blank" rel="noopener noreferrer">Przejdź do lekcji 16</a>
-<a href="demo17angielskib.html?category=all" class="hidden-link lesson-link-17b" target="_blank" rel="noopener noreferrer">Przejdź do lekcji 17</a>
-<a href="demo18angielskib.html?category=all" class="hidden-link lesson-link-18b" target="_blank" rel="noopener noreferrer">Przejdź do lekcji 18</a>
-<a href="demo19angielskib.html?category=all" class="hidden-link lesson-link-19b" target="_blank" rel="noopener noreferrer">Przejdź do lekcji 19</a>
-<a href="demo20angielskib.html?category=all" class="hidden-link lesson-link-20b" target="_blank" rel="noopener noreferrer">Przejdź do lekcji 20</a>
-<a href="demo21angielskib.html?category=all" class="hidden-link lesson-link-21b" target="_blank" rel="noopener noreferrer">Przejdź do lekcji 21</a>
-<a href="demo22angielskib.html?category=all" class="hidden-link lesson-link-22b" target="_blank" rel="noopener noreferrer">Przejdź do lekcji 22</a>
-<a href="demo23angielskib.html?category=all" class="hidden-link lesson-link-23b" target="_blank" rel="noopener noreferrer">Przejdź do lekcji 23</a>
-<a href="demo24angielskib.html?category=all" class="hidden-link lesson-link-24b" target="_blank" rel="noopener noreferrer">Przejdź do lekcji 24</a>
-<a href="demo25angielskib.html?category=all" class="hidden-link lesson-link-25b" target="_blank" rel="noopener noreferrer">Przejdź do lekcji 25</a>
-<a href="demo26angielskib.html?category=all" class="hidden-link lesson-link-26b" target="_blank" rel="noopener noreferrer">Przejdź do lekcji 26</a>
-<a href="demo27angielskib.html?category=all" class="hidden-link lesson-link-27b" target="_blank" rel="noopener noreferrer">Przejdź do lekcji 27</a>
-<a href="demo28angielskib.html?category=all" class="hidden-link lesson-link-28b" target="_blank" rel="noopener noreferrer">Przejdź do lekcji 28</a>
-<a href="demo29angielskib.html?category=all" class="hidden-link lesson-link-29b" target="_blank" rel="noopener noreferrer">Przejdź do lekcji 29</a>
-<a href="demo30angielskib.html?category=all" class="hidden-link lesson-link-30b" target="_blank" rel="noopener noreferrer">Przejdź do lekcji 30</a>
-<a href="demo31angielskib.html?category=all" class="hidden-link lesson-link-31b" target="_blank" rel="noopener noreferrer">Przejdź do lekcji 31</a>
-<a href="demo32angielskib.html?category=all" class="hidden-link lesson-link-32b" target="_blank" rel="noopener noreferrer">Przejdź do lekcji 32</a>
-<a href="demo33angielskib.html?category=all" class="hidden-link lesson-link-33b" target="_blank" rel="noopener noreferrer">Przejdź do lekcji 33</a>
-<a href="demo34angielskib.html?category=all" class="hidden-link lesson-link-34b" target="_blank" rel="noopener noreferrer">Przejdź do lekcji 34</a>
-<a href="demo35angielskib.html?category=all" class="hidden-link lesson-link-35b" target="_blank" rel="noopener noreferrer">Przejdź do lekcji 35</a>
-<a href="demo36angielskib.html?category=all" class="hidden-link lesson-link-36b" target="_blank" rel="noopener noreferrer">Przejdź do lekcji 36</a>
-<a href="demo37angielskib.html?category=all" class="hidden-link lesson-link-37b" target="_blank" rel="noopener noreferrer">Przejdź do lekcji 37</a>
-<a href="demo38angielskib.html?category=all" class="hidden-link lesson-link-38b" target="_blank" rel="noopener noreferrer">Przejdź do lekcji 38</a>
-<a href="demo39angielskib.html?category=all" class="hidden-link lesson-link-39b" target="_blank" rel="noopener noreferrer">Przejdź do lekcji 39</a>
-<a href="demo40angielskib.html?category=all" class="hidden-link lesson-link-40b" target="_blank" rel="noopener noreferrer">Przejdź do lekcji 40</a>
-<a href="demo41angielskib.html?category=all" class="hidden-link lesson-link-41b" target="_blank" rel="noopener noreferrer">Przejdź do lekcji 41</a>
-<a href="demo42angielskib.html?category=all" class="hidden-link lesson-link-42b" target="_blank" rel="noopener noreferrer">Przejdź do lekcji 42</a>
-<a href="demo43angielskib.html?category=all" class="hidden-link lesson-link-43b" target="_blank" rel="noopener noreferrer">Przejdź do lekcji 43</a>
-<a href="demo44angielskib.html?category=all" class="hidden-link lesson-link-44b" target="_blank" rel="noopener noreferrer">Przejdź do lekcji 44</a>
-<a href="demo45angielskib.html?category=all" class="hidden-link lesson-link-45b" target="_blank" rel="noopener noreferrer">Przejdź do lekcji 45</a>
-<a href="demo46angielskib.html?category=all" class="hidden-link lesson-link-46b" target="_blank" rel="noopener noreferrer">Przejdź do lekcji 46</a>
-<a href="demo47angielskib.html?category=all" class="hidden-link lesson-link-47b" target="_blank" rel="noopener noreferrer">Przejdź do lekcji 47</a>
-<a href="demo48angielskib.html?category=all" class="hidden-link lesson-link-48b" target="_blank" rel="noopener noreferrer">Przejdź do lekcji 48</a>
-<a href="demo49angielskib.html?category=all" class="hidden-link lesson-link-49b" target="_blank" rel="noopener noreferrer">Przejdź do lekcji 49</a>
-<a href="demo50angielskib.html?category=all" class="hidden-link lesson-link-50b" target="_blank" rel="noopener noreferrer">Przejdź do lekcji 50</a>
-<a href="demo51angielskib.html?category=all" class="hidden-link lesson-link-51b" target="_blank" rel="noopener noreferrer">Przejdź do lekcji 51</a>
-<a href="demo52angielskib.html?category=all" class="hidden-link lesson-link-52b" target="_blank" rel="noopener noreferrer">Przejdź do lekcji 52</a>
-<div style="display: flex;  gap: 0px;">
-  <!-- Reklama AdSense -->
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2654094815555460"
-     crossorigin="anonymous"></script>
-<!-- Reklama - baner -->
-<ins class="adsbygoogle"
-     style="display:inline-block;width:728px;height:90px"
-     data-ad-client="ca-pub-2654094815555460"
-     data-ad-slot="2561750975"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+        <a href="demo1angielski.html?category=sport&data=1,2,3" class="hidden-link lesson-link-1b" target="_blank" rel="noopener noreferrer">Przejdź do lekcji 1</a>
+                <a href="demo1angielski.html?category=sport&data=4,5,6" class="hidden-link lesson-link-1b" target="_blank" rel="noopener noreferrer">Przejdź do lekcji 2</a>
+        <a href="demo1angielski.html?category=natura&data=1,2,3" class="hidden-link lesson-link-1b" target="_blank" rel="noopener noreferrer">Przejdź do lekcji 1</a>
+                <a href="demo1angielski.html?category=natura&data=4,5,6" class="hidden-link lesson-link-1b" target="_blank" rel="noopener noreferrer">Przejdź do lekcji 2</a>
+        <a href="demo1angielski.html?category=nauka&data=1,2,3" class="hidden-link lesson-link-1b" target="_blank" rel="noopener noreferrer">Przejdź do lekcji 1</a>
+                <a href="demo1angielski.html?category=nauka&data=4,5,6" class="hidden-link lesson-link-1b" target="_blank" rel="noopener noreferrer">Przejdź do lekcji 2</a>          
+        <a href="demo1angielski.html?category=czarny%20humor&data=1,2,3" class="hidden-link lesson-link-1b" target="_blank" rel="noopener noreferrer">Przejdź do lekcji 1</a>
+                <a href="demo1angielski.html?category=czarny%20humor&data=4,5,6" class="hidden-link lesson-link-1b" target="_blank" rel="noopener noreferrer">Przejdź do lekcji 2</a>    
+        <a href="demo1angielski.html?category=zwiazki&data=1,2,3" class="hidden-link lesson-link-1b" target="_blank" rel="noopener noreferrer">Przejdź do lekcji 1</a>
+                <a href="demo1angielski.html?category=zwiazki&data=4,5,6" class="hidden-link lesson-link-1b" target="_blank" rel="noopener noreferrer">Przejdź do lekcji 2</a>
 
-  <!-- Tekst obok reklamy -->
-  <div>
-    <h1 style="margin-left: 200px;">arbulang.com</h1>
-    <h2 style="margin-left: 200px;">ARBU ŚWIAT</h2>
-  </div>
-</div>
-
-<!-- Ładowanie skryptu Google -->
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2654094815555460"
-     crossorigin="anonymous"></script>
-    
+<h1>arbulang.com</h1>
+    <h2>ARBU ŚWIAT</h2>
         <div class="horizontal-bar" id="horizontalBar1">
             <button id="myButton">ANGIELSKI</button>
             <button id="myButton2">HISZPAŃSKI</button>
@@ -1950,52 +1855,36 @@ input {
                     <div class="image-container2">Tłumacz tekst<button onclick="showImages('set1')">START</button>
                     </div>
                 </div>
-<div class="top-section">
-    <!-- Lewa sekcja: wyszukiwarka i przyciski -->
-    <div class="left-section">
-        <div class="search-container">
-            <div class="search-wrapper">
-                <label for="search">Search Word</label>
-                <input type="search" id="search" data-search>
-            </div>
-            <div class="button-container">
-                <button id="polski" class="rodzaj-button2">Polski</button>
-                <button id="angielski" class="rodzaj-button2">Angielski</button>
-            </div>
-        </div>
 
-        <div class="mode-buttons">
-            <button id="singleSentenceBtn" class="rodzaj-button">Jedno zdanie</button>
-            <button id="threeSentencesBtn" class="rodzaj-button">Trzy zdania</button>
-            <button id="singleWordBtn" class="rodzaj-button">Pojedyncze słowo</button>
-        </div>
+<div class="search-container">
+    <div class="search-wrapper">
+        <label for="search">Search Word</label>
+        <input type="search" id="search" data-search>
     </div>
-
-    <!-- Prawa sekcja: reklama -->
-    <div class="ad-container">
-        <ins class="adsbygoogle"
-             style="display:inline-block;width:728px;height:90px"
-             data-ad-client="ca-pub-2654094815555460"
-             data-ad-slot="2561750975"></ins>
-        <script>
-             (adsbygoogle = window.adsbygoogle || []).push({});
-        </script>
+    <div class="button-container">
+        <button id="polski" class="rodzaj-button2">Polski</button>
+        <button id="angielski" class="rodzaj-button2">Angielski</button>
     </div>
 </div>
+                <div>
+    <button id="singleSentenceBtn" class="rodzaj-button">Jedno zdanie</button>
+    <button id="threeSentencesBtn" class="rodzaj-button">Trzy zdania</button>
+    <button id="singleWordBtn" class="rodzaj-button">Pojedyncze słowo</button>
+                </div><br>
                 <div id="matchingButtonsContainer" style="margin-top: 10px;"></div>
                 <p id="key3Result"></p>
                 <button class="left-button2">+<br></button>TE LEKCJE MAJĄ DOSTĘPNE SKOJARZENIA W WIĘKSZYM ZAKRESIE TEMATÓW
 <div class="user-cards" data-user-cards-container></div>
                 <div id="category-buttons">
   <button class="category-btn5" data-category="wszystkie"
-    onclick="przekazArgument0(tablica7[0], tablica3[2], '', false, 'fiszki', true, true, tablica3[1], tablica3[4], false, '', '', '', '', 100)">
+    onclick="przekazArgument0(tablica7[0], tablica3[2], '', false, 'fiszki', true, true, tablica3[1], 'other', false, '', '', '', '', 100)">
     Wszystkie
   </button>
   <button class="category-btn" data-category="all">Losowo</button>
   <button class="category-btn" data-category="sport">Sport</button>
   <button class="category-btn" data-category="natura">Natura</button>
   <button class="category-btn" data-category="nauka">Nauka</button>
-  <button class="category-btn" data-category="czarnyhumor">Czarny humor</button>
+  <button class="category-btn" data-category="czarny humor">Czarny humor</button>
   <button class="category-btn" data-category="zwiazki">Związki</button>
 </div>
 
@@ -2025,11 +1914,17 @@ input {
             <span id="arrow">&#9660;</span> <!-- Strzałka skierowana w dół -->
         </div>
         <script>
-  window.addEventListener('load', function () {
-    setTimeout(function () {
+  // Pokaż tylko raz
+  window.addEventListener('DOMContentLoaded', () => {
+    if (!localStorage.getItem('adblockMessageClosed')) {
       document.getElementById('adblockMessage').style.display = 'block';
-    }, 2000); // 20000 ms = 20 sekund
+    }
   });
+
+  function closeAdblockMessage() {
+    document.getElementById('adblockMessage').style.display = 'none';
+    localStorage.setItem('adblockMessageClosed', 'true');
+  }
         function countUniqueFiszki(fiszkiArray) {
             const seenKeys = new Set();
             fiszkiArray.forEach(fiszka => {
@@ -2722,17 +2617,41 @@ function showFiszkiForLesson5d(matchingFiszki1v, tablica41) {
             <div id="title">RODZAJ SŁOWNICTWA</div>
                     <button id="inne" class="rodzaj-button" data-rodzaj="osoby">KOGNATY</button>
     <button id="osoby" class="rodzaj-button" data-rodzaj="osoby" onclick="przekazArgument0('', 'all', '', '', '', '', '', tablica3[1], 'other', false, '', '', '', '', '100')">Wszystkie</button>
-    <button class="rodzaj-button" data-rodzaj="osoby" onclick="przekazArgument0('', 'osoby', '', '', '', '', '', tablica3[1], 'other', false, '', '', '', '', '100')">Osoby</button>
-    <button class="rodzaj-button" data-rodzaj="zaimki osobowe" onclick="przekazArgument0('', 'zaimkiosobowe', '', '', '', '', '', tablica3[1], 'other', false, '', '', '', '', '100')">Zaimki osobowe</button>
-    <button id="inne" onclick="przekazArgument0('emocje', '', '', '', '', '', tablica3[1])">Emocje</button>
-    <button class="rodzaj-button" data-rodzaj="zaimki" onclick="przekazArgument0('', 'spojniki', '', '', '', '', '', tablica3[1], 'OTHER', false, '', '', '', '', '100')">Spójniki</button>
+<button id="osobyButton" class="rodzaj-button" data-rodzaj="osoby"
+  onclick="przekazArgument0('', 'osoby', '', '', '', '', '', tablica3[1], 'other', false, '', '', '', '', '100')">
+  <span>Osoby (Rodzina, zaimki, zawody)</span>
+  <span id="liczbaOsoby" style="margin-left: 8px; font-weight: bold;"></span>
+</button>
+<button id="zaimkiButton" class="rodzaj-button" data-rodzaj="osoby"
+  onclick="przekazArgument0('', 'zaimkiosobowe', '', '', '', '', '', tablica3[1], 'other', false, '', '', '', '', '100')">
+  <span>Zaimki osobowe</span>
+  <span id="liczbaZaimki" style="margin-left: 8px; font-weight: bold;"></span>
+</button>
+            <button id="spojnikiButton" class="rodzaj-button" data-rodzaj="osoby"
+  onclick="przekazArgument0('', 'spojniki', '', '', '', '', '', tablica3[1], 'other', false, '', '', '', '', '100')">
+  <span>Spójniki</span>
+  <span id="liczbaSpojniki" style="margin-left: 8px; font-weight: bold;"></span>
+</button>
+                    <button id="czasownikButton" class="rodzaj-button" data-rodzaj="czasownik"
+  onclick="przekazArgument0('', 'czasownik', '', '', '', '', '', tablica3[1], 'other', false, '', '', '', '', '100')">
+  <span>Czasowniki</span>
+  <span id="liczbaCzasownik" style="margin-left: 8px; font-weight: bold;"></span>
+</button>
+                            <button id="czasButton" class="rodzaj-button" data-rodzaj="czasownik"
+  onclick="przekazArgument0('', 'czas', '', '', '', '', '', tablica3[1], 'other', false, '', '', '', '', '100')">
+  <span>Czas</span>
+  <span id="liczbaCzas" style="margin-left: 8px; font-weight: bold;"></span>
+</button>
+                                        <button id="zwierzetaButton" class="rodzaj-button" data-rodzaj="czasownik"
+  onclick="przekazArgument0('', 'zwierzeta', '', '', '', '', '', tablica3[1], 'other', false, '', '', '', '', '100')">
+  <span>Zwierzęta</span>
+  <span id="liczbaZwierzeta" style="margin-left: 8px; font-weight: bold;"></span>
+</button>
+            <button id="inne" onclick="przekazArgument0('emocje', '', '', '', '', '', tablica3[1])">Emocje</button>
     <button id="inne" onclick="przekazArgument0('', 'kolory', '', '', '', '', '', tablica3[1], 'other', false, '', '', '', '', '100')">Kolory</button>
-    <button class="rodzaj-button" data-rodzaj="zwierzeta" onclick="przekazArgument0('', 'zwierzeta', '', '', '', '', '', tablica3[1], false, '', '', '', '', '100')">Zwierzęta</button>
-    <button class="rodzaj-button" data-rodzaj="czasownik" onclick="przekazArgument0('', 'czasownik', '', '', '', '', '', tablica3[1], 'other', false, '', '', '', '', '100')">Czasowniki</button>
-            <button class="rodzaj-button" data-rodzaj="czasownik" onclick="przekazArgument0('', 'czas', '', '', '', '', '', tablica3[1], 'other', false, '', '', '', '', '100')">Czas</button>
     <br>ILOŚĆ MATERIAŁU NA LEKCJE<br>
-<button class="czas" onclick="ustawTryb('zdania', undefined); przekazArgument0(globalCategory, '', '', 'zdania', false, false, tablica3[1])">5 MINUT (JEDNO ZDANIE)</button>
-<button id="english" class="czas" onclick="ustawTryb('fiszki', undefined); przekazArgument0(globalCategory, '', '', 'fiszki', true, true, tablica3[1])">10 MINUT (3 ZDANIA) - OPCJONALNIE</button>
+<button class="czas" onclick="ustawTryb('zdania', undefined); przekazArgument0('', globalCategory, '', '', 'zdania', false, false, tablica3[1])">5 MINUT (JEDNO ZDANIE)</button>
+<button id="english" class="czas" onclick="ustawTryb('fiszki', undefined); przekazArgument0('', globalCategory, '', '', 'fiszki', true, true, tablica3[1])">10 MINUT (3 ZDANIA) - OPCJONALNIE</button>
 <br>TRYB LEKCJI<br>
 <button id="english" class="czas" onclick="ustawTryb(tablica3[0], ''); przekazArgument0(globalCategory, '', '', tablica3[0], false, false, tablica3[1])">ZDANIA</button>
 <button class="czas" onclick="ustawTryb(tablica3[0], 'frazy'); przekazArgument0(globalCategory, '', '', tablica3[0], true, true, tablica3[1])">FRAZY</button>
@@ -2787,7 +2706,36 @@ function showFiszkiForLesson5d(matchingFiszki1v, tablica41) {
 
                 // Dodaj div do znalezionego kontenera
                 $targetContainer.append($flashcardContainer);
-
+    // Po dodaniu konsoli, policz fiszki z kategorii "osoby"
+    if (typeof fiszki10 !== 'undefined') {
+        const count = findMatchingFiszkiCount('osoby', fiszki10);
+        $('#liczbaOsoby').text(`Ilość: ${count}`);
+    }
+        // Po dodaniu konsoli, policz fiszki z kategorii "osoby"
+    if (typeof fiszki10 !== 'undefined') {
+        const count = findMatchingFiszkiCount('zaimkiosobowe', fiszki10);
+        $('#liczbaZaimki').text(`Ilość: ${count}`);
+    }
+            // Po dodaniu konsoli, policz fiszki z kategorii "osoby"
+    if (typeof fiszki10 !== 'undefined') {
+        const count = findMatchingFiszkiCount('spojniki', fiszki10);
+        $('#liczbaSpojniki').text(`Ilość: ${count}`);
+    }
+                // Po dodaniu konsoli, policz fiszki z kategorii "osoby"
+    if (typeof fiszki10 !== 'undefined') {
+        const count = findMatchingFiszkiCount('czasownik', fiszki10);
+        $('#liczbaCzasownik').text(`Ilość: ${count}`);
+    }
+                    // Po dodaniu konsoli, policz fiszki z kategorii "osoby"
+    if (typeof fiszki10 !== 'undefined') {
+        const count = findMatchingFiszkiCount('czas', fiszki10);
+        $('#liczbaCzas').text(`Ilość: ${count}`);
+    }
+                        // Po dodaniu konsoli, policz fiszki z kategorii "osoby"
+    if (typeof fiszki10 !== 'undefined') {
+        const count = findMatchingFiszkiCount('zwierzeta', fiszki10);
+        $('#liczbaZwierzeta').text(`Ilość: ${count}`);
+    }
                 var $gridContainer = $('.grid-container');
                 var $gridContainer2 = $('.search-container');
                                                             $gridContainer.css({
@@ -2907,23 +2855,63 @@ $gridContainer2.css('margin-top', flashcardContainerHeight + 100 + 'px');
                 czasv2 = czas;
             }
 
-            // Funkcja znajdująca indeksy dla pasujących "fiszek"
-            function findXForMatchingFiszka(category, fiszki) {
-                const matchingIndexes = [];
-                // Iteruj przez tablicę fiszki
-                console.log('hej234', category);
-                for (let i = 0; i < fiszki.length; i++) {
-                    // Upewnij się, że fiszki[i] oraz fiszki[i].category3 są zdefiniowane
-                    if (fiszki[i].category2.includes(category)) {
-                        // Jeśli warunek jest spełniony, dodajemy indeks "fiszki" do tablicy
-                        matchingIndexes.push(i + 1);
-                        console.log('hej7vvv', matchingIndexes);
-                    }
-                }
-                // Zwracamy tablicę indeksów pasujących "fiszek"
-                console.log('wykonuje się 6', matchingIndexes);
-                return matchingIndexes;
-            }
+function findXForMatchingFiszka(category, fiszki) {
+    const matchingIndexes = [];
+
+    for (let i = 0; i < fiszki.length; i++) {
+        if (fiszki[i].category2.includes(category)) {
+            matchingIndexes.push(i + 1);
+        }
+    }
+
+    if (category === 'osoby') {
+        const button = document.getElementById('osobyButton');
+        if (button) {
+            button.innerHTML = `Osoby(Rodzina, zaimki, zawody) <strong>Ilość: ${matchingIndexes.length}</strong>`;
+        }
+    }
+    if (category === 'zaimki osobowe') {
+        const button = document.getElementById('zaimkiButton');
+        if (button) {
+            button.innerHTML = `Zaimki osobowe <strong>Ilość: ${matchingIndexes.length}</strong>`;
+        }
+    }
+    if (category === 'spojniki') {
+        const button = document.getElementById('spojnikiButton');
+        if (button) {
+            button.innerHTML = `Spójniki <strong>Ilość: ${matchingIndexes.length}</strong>`;
+        }
+    }
+    if (category === 'czasownik') {
+        const button = document.getElementById('czasownikButton');
+        if (button) {
+            button.innerHTML = `Czasowniki <strong>Ilość: ${matchingIndexes.length}</strong>`;
+        }
+    }
+    if (category === 'czas') {
+        const button = document.getElementById('czasownikButton');
+        if (button) {
+            button.innerHTML = `Czas <strong>Ilość: ${matchingIndexes.length}</strong>`;
+        }
+    }
+    if (category === 'zwierzeta') {
+        const button = document.getElementById('zwierzetaButton');
+        if (button) {
+            button.innerHTML = `Zwierzęta <strong>Ilość: ${matchingIndexes.length}</strong>`;
+        }
+    }
+
+    return matchingIndexes;
+}
+function findMatchingFiszkiCount(category, fiszki) {
+    let count = 0;
+    for (let i = 0; i < fiszki.length; i++) {
+        if (fiszki[i].category2 && fiszki[i].category2.includes(category)) {
+            count++;
+        }
+    }
+    return count;
+}
             // Funkcja znajdująca indeksy dla pasujących "fiszek"
             function findXForMatchingFiszka2(category, fiszki) {
                 const matchingIndexes2 = [];
@@ -4827,7 +4815,7 @@ window.onload = function() {
         </script>
 <div id="adblockMessage" style="display:none; position:fixed; bottom:20px; left:20px; right:20px; background:#ffdddd; color:#000; border:1px solid #f00; padding:15px; font-family:sans-serif; z-index:99999999;">
   Dla rozwoju projektu proszę Cię o wyłączenie AdBlocka 🙏 Dziękuję!
-  <button onclick="document.getElementById('adblockMessage').style.display='none'" style="float:right; background:#f00; color:#fff; border:none; padding:5px 10px; cursor:pointer;">X</button>
+  <button onclick="closeAdblockMessage()" style="float:right; background:#f00; color:#fff; border:none; padding:5px 10px; cursor:pointer;">X</button>
 </div>
         <script id="demoScript" data-category=""></script>
     </body>

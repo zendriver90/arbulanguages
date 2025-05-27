@@ -17,7 +17,8 @@
         <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>ARBULANG.COM</title>
+        <meta name="keywords" content="learn Spanish, fast Spanish, 1000 Spanish words, Spanish flashcards, fun Spanish learning, Spanish for beginners, learn with joy, Spanish mnemonics" />
+        <title>Learn Spanish</title>
         <style>
             @media (min-width: 999px) {
                 .bottom-bar {
@@ -130,6 +131,18 @@
                     flex-direction: column;
                     justify-content: center;
                     background-color: blue;
+                    width: 330px;
+                    position: relative;
+                    height: 100px;
+                    margin-bottom: 0px;
+                    align-items: center;
+                    font-size: 20px;
+                }
+                                .image-container2b {
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    background-color: gray;
                     width: 330px;
                     position: relative;
                     height: 100px;
@@ -338,6 +351,7 @@
                     margin-bottom: -90px;
                     color: white;
                     z-index: 9999;
+                    font-size: 18px;
                 }
 
                 .sentenceB {
@@ -1249,25 +1263,18 @@ button123:hover {
         </style>
     </head>
     <body>
-        <div style="display: flex;  gap: 0px;">
-  <!-- Reklama AdSense -->
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2654094815555460"
-     crossorigin="anonymous"></script>
-<!-- Reklama - baner -->
-<ins class="adsbygoogle"
-     style="display:inline-block;width:728px;height:90px"
-     data-ad-client="ca-pub-2654094815555460"
-     data-ad-slot="2561750975"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
 
   <!-- Tekst obok reklamy -->
+<div style="display: flex; justify-content: space-between; align-items: center;">
   <div>
-    <h1 style="margin-left: 200px;">arbulang.com</h1>
-    <h2 style="margin-left: 200px;">ARBU ŚWIAT</h2>
+    <h1 style="margin-left: 0px;">arbulang.com</h1>
+    <h2 style="margin-left: 0px;">ARBU ŚWIAT</h2>
+  </div>
+  <div style="font-weight: bold; font-size: 20px; color: #333; margin-right: 770px;">
+    133 WORDS AVAILABLE
   </div>
 </div>
+
         <div class="horizontal-bar" id="horizontalBar2">
         </div>
         <div class="container">
@@ -1282,13 +1289,13 @@ button123:hover {
             </div>
             <div class="content-container">
                 <div class="grid-containera">
-                    <div class="image-container2">Standard<button onclick="showImages('set1')">DRAW LESSONS</button>
+                    <div class="image-container2b">Standard<button onclick="showImages('set1')">DRAW LESSONS</button>
                     </div>
                     <div class="image-container2" id="buttoncreate">Generating a flashcard<button id="flashcardButton" onclick="addFlashcardContainer()">OPEN CONSOLES</button>
                     </div>
-                    <div class="image-container2">EXAM<button onclick="showImages('set1')">START</button>
+                    <div class="image-container2b">EXAM<button onclick="showImages('set1')">START</button>
                     </div>
-                    <div class="image-container2">TRANSLATE TEXT<button onclick="showImages('set1')">START</button>
+                    <div class="image-container2b">TRANSLATE TEXT<button onclick="showImages('set1')">START</button>
                     </div>
                 </div>
                 <div class="grid-container">
@@ -1306,11 +1313,6 @@ button123:hover {
     <span id="arrow">&#9660;</span> <!-- Strzałka skierowana w dół -->
 </div>
             <script>
-  window.addEventListener('load', function () {
-    setTimeout(function () {
-      document.getElementById('adblockMessage').style.display = 'block';
-    }, 2000); // 20 seconds
-  });
                                 function countUniqueFiszki(fiszkiArray) {
             const seenKeys = new Set();
             fiszkiArray.forEach(fiszka => {
@@ -2076,7 +2078,7 @@ let losowaniaCounter2 = 0; // Zmienna licznika losowań
                             console.log('hej155', buttonindex);
                             console.log('hej323', index55);
 
-                            if (tablica10.length <= 7 || tablica10.length === 0) {
+                            if (tablica10.length <= 10 || tablica10.length === 0) {
                                 console.log('wykonuje się 8');
                                 console.log('hej32', newIndex);
                                 console.log('hej18', tablica10);
@@ -2254,7 +2256,7 @@ let losowaniaCounter2 = 0; // Zmienna licznika losowań
                 const matchingFiszki3 = fiszki.filter(fiszka => fiszka.id[1] === lessonIdToShow3);
                 console.log('hej450', matchingIndexes);
                 console.log('hej444', newIndex);
-                if (matchingFiszki1.length > 0 && matchingFiszki2.length > 0 && matchingFiszki3.length > 0) {
+                if (matchingFiszki1.length > 0 || matchingFiszki2.length > 0 || matchingFiszki3.length > 0) {
                     const srcWord1 = pobierzSrcWordDlaLekcji(lessonIdToShow1, fiszki);
                     const srcWord1b = pobierzSrcWordDlaLekcji3(lessonIdToShow1, fiszki);
                     const srcWord2 = pobierzSrcWordDlaLekcji(lessonIdToShow2, fiszki);
@@ -4089,7 +4091,7 @@ if (!stopButtonAdded) {
                             // Dodaj nakładkę do kontenera, po dodaniu wideo
                             $overlay.appendTo($container);
                             // Dodaj funkcję hover do kontenera
-                            if (indexDiv < 8) {
+                            if (indexDiv < 11) {
                                 // Jeśli indexDiv < 5, dodajemy hover z dynamicznym napisem
                                 $container.hover(function () {
                                     $('.overlay', this).css('transform', 'translateX(0)');
@@ -4103,24 +4105,6 @@ if (!stopButtonAdded) {
 
                                     // Usuń dynamiczny div po zakończeniu hovera
                                     $('.dynamic-div', this).fadeOut(300, function () {
-                                        $(this).remove();
-                                    });
-                                });
-                            }
-                                                                                                                if (indexDiv < 11 && indexDiv >= 8) {
-                                // Jeśli indexDiv < 5, dodajemy hover z dynamicznym napisem
-                                $container.hover(function () {
-                                    $('.overlay', this).css('transform', 'translateX(0)');
-
-                                    // Twórz nowy dynamiczny div z napisem
-                                    const $dynamicDiv2 = $('<div>').addClass('dynamic-div3').text('The lesson is in preparation');
-                                    // Dodaj dynamiczny div do kontenera
-                                    $dynamicDiv2.appendTo($(this)).fadeIn(300);
-                                }, function () {
-                                    $('.overlay', this).css('transform', 'translateX(100%)');
-
-                                    // Usuń dynamiczny div po zakończeniu hovera
-                                    $('.dynamic-div3', this).fadeOut(300, function () {
                                         $(this).remove();
                                     });
                                 });
@@ -4281,6 +4265,18 @@ ${sentence30}${sentence33}<br>
                                                         if (index55b2 === 7) { // Porównaj jako liczby
                                 // Bezpośrednio przekierowujemy użtykownika do strony
                                 window.location.href = 'demo7eng-esp.html?category=' + encodeURIComponent(globalCategory);
+                            }
+                                                                                    if (index55b2 === 8) { // Porównaj jako liczby
+                                // Bezpośrednio przekierowujemy użtykownika do strony
+                                window.location.href = 'demo8eng-esp.html?category=' + encodeURIComponent(globalCategory);
+                            }
+                                                                                                                if (index55b2 === 9) { // Porównaj jako liczby
+                                // Bezpośrednio przekierowujemy użtykownika do strony
+                                window.location.href = 'demo9eng-esp.html?category=' + encodeURIComponent(globalCategory);
+                            }
+                                                                                                                if (index55b2 === 10) { // Porównaj jako liczby
+                                // Bezpośrednio przekierowujemy użtykownika do strony
+                                window.location.href = 'demo10eng-esp.html?category=' + encodeURIComponent(globalCategory);
                             }
                         }, 500);
                         // Usunięcie kontenera po wstawieniu nowego
@@ -5908,10 +5904,6 @@ ${sentence10}<br>
             przekazArgument0(tablica3[2], '', false, 'fiszki', true, true, tablica3[1]);
             ustawTryb('fiszki');
         </script>
-        <div id="adblockMessage" style="display:none; position:fixed; bottom:20px; left:20px; right:20px; background:#ffdddd; color:#000; border:1px solid #f00; padding:15px; font-family:sans-serif; z-index:999999;">
-  To support the development of this project, please consider disabling your AdBlock 🙏 Thank you!
-  <button onclick="document.getElementById('adblockMessage').style.display='none'" style="float:right; background:#f00; color:#fff; border:none; padding:5px 10px; cursor:pointer;">X</button>
-</div>
         <script id="demoScript" data-category=""></script>
     </body>
 </html>
