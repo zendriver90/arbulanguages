@@ -1,35 +1,43 @@
 <?php
+error_reporting(E_ALL);
+ini_set('display_errors', 1);
+ini_set('display_startup_errors', 1);
+header('Content-Type: application/json');
+
 $counterFile = "counter.txt";
 $fingerprintFile = "fingerprints.json";
 
-// Odbierz dane POST jako JSON
+if (!file_exists($counterFile)) {
+    file_put_contents($counterFile, "1234");
+}
+
+if (!file_exists($fingerprintFile)) {
+    file_put_contents($fingerprintFile, "[]");
+}
+
 $data = json_decode(file_get_contents("php://input"), true);
-$fingerprint = $data["fingerprint"] ?? null;
+$fingerprint = isset($data["fingerprint"]) ? $data["fingerprint"] : null;
 
 if (!$fingerprint) {
     http_response_code(400);
-    echo json_encode(["error" => "Brak fingerprintu"]);
+    echo json_encode(array("error" => "Brak fingerprintu"));
     exit;
 }
 
-// Wczytaj aktualną wartość licznika
-$counter = file_exists($counterFile) ? (int)file_get_contents($counterFile) : 1234;
+$counter = (int)file_get_contents($counterFile);
 
-// Wczytaj istniejące fingerprinty
-$fingerprints = file_exists($fingerprintFile) 
-    ? json_decode(file_get_contents($fingerprintFile), true) 
-    : [];
+$fingerprints = json_decode(file_get_contents($fingerprintFile), true);
 
-// Jeśli fingerprint jeszcze nie był zapisany, dodaj go
+if (!is_array($fingerprints)) {
+    $fingerprints = array();
+}
+
 if (!in_array($fingerprint, $fingerprints)) {
     $fingerprints[] = $fingerprint;
-    file_put_contents($fingerprintFile, json_encode($fingerprints));
-
-    // Zwiększ licznik i zapisz nową wartość
+    file_put_contents($fingerprintFile, json_encode($fingerprints, JSON_PRETTY_PRINT));
     $counter++;
     file_put_contents($counterFile, $counter);
 }
 
-// Zwróć aktualną wartość licznika
-header('Content-Type: application/json');
-echo json_encode(["counter" => $counter]);
+echo json_encode(array("counter" => $counter));
+exit;

@@ -2927,13 +2927,13 @@ const fiszki10 = [
                 alt: "Wygenerowane przez AI."
             },
             story: {
-                text: "",
-                alt: ""
+                text: "<b><u>Maj</b></u>kut mówi: <b><u>mój</b></u> wynik był najlepszy w tym wyścigu",
+                alt: "Bieganie. Czy dominująca półkula mózgu ma wpływ na wyniki sportowe?"
             },
-            category: ["sport", ""]
+            category: ["sport", "bieganie"]
         },
                 {
-                            id: 3,
+                            id: 2,
             img: {
                 src: "https://www.arbulang.com/img/fiszki1/50cc.jpg",
                 alt: "Zroszona przez deszcz - roślina. Wygenerowane przez AI."
@@ -2945,7 +2945,7 @@ const fiszki10 = [
             category: ["nauka", "pory roku"]
         },
         {
-            id: 1,
+            id: 3,
             img: {
                 src: "https://www.arbulang.com/img/fiszki1/50aa.jpg",
                 alt: "Ogród kwiatowy. Wygenerowane przez AI."
@@ -2957,19 +2957,19 @@ const fiszki10 = [
             category: ["natura", "florystyka"]
         },
                 {
-                    id: 2,
+                    id: 4,
             img: {
                 src: "https://www.arbulang.com/img/fiszki1/50bb.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
-                text: "",
-                alt: ""
+                text: "Weekend majowy to doskanły czas, aby odpocząć od pracy",
+                alt: "Praca. Kiedy najlepiej odpoczywać w Polsce?"
             },
-            category: ["czarny humor", ""]
+            category: ["czarny humor", "wypoczynek"]
         },
         {
-                    id: 2,
+                    id: 5,
             img: {
                 src: "https://www.arbulang.com/img/fiszki1/50bb.jpg",
                 alt: "Auto na parkingu. Wygenerowane przez AI."
@@ -3013,13 +3013,61 @@ const fiszki10 = [
             id: 1,
             img: {
                 src: "https://www.arbulang.com/img/fiszki1/39aa.jpg",
-                alt: "Kamping w lesie. Wygenerowane przez AI."
+                alt: "Wygenerowane przez AI."
+            },
+            story: {
+                text: "Wyczynowiec spinaczkowy wygrał zwody. Wrócił do <b><u>Kamp</b></u>ingu i teraz leczy r<b><u>any</b></u> na rękach. Wparcie <b><u>firmy</b></u> sponsorującej było nieocenione",
+                alt: "Wspinaczka. Czy przez wspinaczkę można mieć rany na palcach?"
+            },
+            category: ["sport", "wspinaczka"]
+        },
+                                {
+            id: 2,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/39aa.jpg",
+                alt: "Wygenerowane przez AI."
+            },
+            story: {
+                text: "Na <b><u>kamp</b></u>ingu Uniwersytetu każdy jest ubr<b><u>any</b></u> w koszulkę Uczelni. Niektóre <b><u>firmy</b></u> już chcą zatrudnić studentów",
+                alt: "Kamping Uczelniany. Jak rozponać studenta na kampingu?"
+            },
+            category: ["nauka", "impreza"]
+        },
+                {
+            id: 3,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/39aa.jpg",
+                alt: "Wygenerowane przez AI."
             },
             story: {
                 text: "<b><u>Kamp</b></u>ing jest koloru <b><u>any</b></u>żowego, prowadzi go <b><u>firma</b></u> z Polski",
                 alt: "Wakacje a wybór noclegu. Jak spędzać wakacje?"
             },
-            category: ["wakacje", "kamping"]
+            category: ["natura", "kamping"]
+        },
+                        {
+            id: 4,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/39aa.jpg",
+                alt: "Wygenerowane przez AI."
+            },
+            story: {
+                text: "Cze<b><u>kam</b></u> na stację po drodze. Licznik <b><u>pa</b></u>liwa wyzerow<b><u>any</b></u>, jadę na rezerwie. Kupię paliwo na stacji obojętnie jakiej <b><u>firmy</b></u>",
+                alt: ""
+            },
+            category: ["czarny humor", "jazda autem"]
+        },
+                                {
+            id: 4,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/39aa.jpg",
+                alt: "Wygenerowane przez AI."
+            },
+            story: {
+                text: "<b><u>Kam</b></u>il <b><u>pa</b></u>trzy i obeserwuje jak jego <b><u>firma</b></u> dynamicznie się rozwija i poszerza swój rynek na <b><u>Stany</b></u>",
+                alt: ""
+            },
+            category: ["związki", ""]
         }
             ],
         desc: "company[kampany] - firma",
@@ -3148,8 +3196,32 @@ const fiszki10 = [
             14
         ],
             entries: [
-        {
+                        {
             id: 1,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/41aa.jpg",
+                alt: "Wygenerowane przez AI."
+            },
+            story: {
+                text: "Dewaluacja tego sportwca za niesportowe zachowanie przerodziła się w bardziej elokwentne sędziowanie - gry w ping-ponga",
+                alt: "Gra w ping-ponga. Czy dobry sędzia może zapanować nad emocjami zawodników?"
+            },
+            category: ["sport", "sędziowanie"]
+        },
+                {
+            id: 2,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/41aa.jpg",
+                alt: "Granie w ping-ponga. Wygenerowane przez AI."
+            },
+            story: {
+                text: "Dewastacja parku przez anarchistów, którym do elokewencji daleko pokazuje, że lepiej żeby pograli w ping-ponga. Bo inaczej się nie rozwijają",
+                alt: "Wykształcenie a zachowanie. Czy gniew ludzi może powodować łamanie prawa?"
+            },
+            category: ["natura", "przestrzganie prawa"]
+        },
+        {
+            id: 3,
             img: {
                 src: "https://www.arbulang.com/img/fiszki1/41aa.jpg",
                 alt: "Granie w ping-ponga. Wygenerowane przez AI."
@@ -3158,7 +3230,31 @@ const fiszki10 = [
                 text: "<b><u>Dewelop</b></u>er gra w p<b><u>ing</b></u>-ponga z właścicielem i <b><u>rozwija</b></u> narracje, aby coś ugrać",
                 alt: "Prowadzenie biznesu. Czy w biznesie relacje mają znaczenie?"
             },
-            category: ["biznes", "relacje"]
+            category: ["czarny humor", "relacje"]
+        },
+                {
+            id: 4,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/41aa.jpg",
+                alt: "Wygenerowane przez AI."
+            },
+            story: {
+                text: "",
+                alt: ""
+            },
+            category: ["czarny humor", ""]
+        },
+                {
+            id: 4,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/41aa.jpg",
+                alt: "Wygenerowane przez AI."
+            },
+            story: {
+                text: "Dewocjonalia to takie artykuły religijne. Rozwój ich przypada na bardzo odległy czas. Po kupieniu dewocjonali para je mielonego pieczonego w miejscowej kuchni a w radiu gra Sting. Rozwój duchowy dla tej pary bardzo sie liczy",
+                alt: "Pamiątki ze zwiedzania. Jak można spędzić czas na pogłębianiu wiary?"
+            },
+            category: ["związki", "religia"]
         }
             ],
         translateb2: "[deweloping wery intensiwli]",
@@ -18724,30 +18820,200 @@ const fiszki10 = [
         category2: ["rzeczy"]
     }
 ];
+let totalTrainingFiszkaCount = 0;
+  let trainingFiszkaCount = 0;
+  let badgeProgressCount = 0;
+  let badgeLevel = 1;
+  const maxBadgeLevel = 5;
+  let badgeAlreadyGiven = false;
+
+  function getCurrentBadgeLimit(){ return 4; }
+
+  function updateFloatingCounter(){
+    const lim = getCurrentBadgeLimit();
+    $('#floatingCounter').text(`${trainingFiszkaCount}/${lim}`);
+  }
+function updateBadgeOverlayText() {
+  const lim = getCurrentBadgeLimit();
+
+  if (badgeLevel >= 4) {
+    $('#badgeOverlayText').hide(); // 🔒 Ukryj tekst dla poziomu 4+
+    return;
+  }
+
+  console.log('[DBG] badgeProgressCount=', badgeProgressCount, '/', lim);
+  $('#badgeOverlayText').text(`${badgeProgressCount}/${lim}`);
+  $('#badgeOverlayText').show(); // Upewnij się, że jest widoczny poniżej 4
+}
+function addEarnedBadge(level) {
+    if (level > 3) return; // 🔒 NIE dodawaj odznak poziomu >3
+  const badgeName = getBadgeName(level);
+  const progressText = `${getCurrentBadgeLimit()}/${getCurrentBadgeLimit()}`;
+
+  const badgeElement = $(`
+    <div class="earned-badge-wrapper" style="
+      position: relative; 
+      display: inline-block; 
+      width: 100px; 
+      height: 100px; 
+      margin: 5px;
+      overflow: hidden;
+      border-radius: 6px;
+    ">
+      <img src="img/songo${level}.jpg" class="earned-badge" style="
+        width: 100%; 
+        height: 100%; 
+        object-fit: cover; 
+        border-radius: 6px;
+        display: block;
+      ">
+      <div style="
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        background: rgba(0,0,0,0.6);
+        color: #fff;
+        font-size: 11px;
+        text-align: center;
+        padding: 2px 4px;
+        box-sizing: border-box;
+        line-height: 1.2;
+      ">
+        <div style="font-weight: bold;">${badgeName}</div>
+        <div>${progressText}</div>
+      </div>
+    </div>
+  `);
+
+  $('#earnedBadgesContainer').append(badgeElement);
+}
+function restoreBadgeState(){
+  totalTrainingFiszkaCount = parseInt(localStorage.getItem('totalTrainingFiszkaCount')) || 0;
+  trainingFiszkaCount = parseInt(localStorage.getItem('trainingFiszkaCount')) || 0;
+  badgeProgressCount   = parseInt(localStorage.getItem('badgeProgressCount'))   || 0;
+  badgeLevel           = parseInt(localStorage.getItem('badgeLevel'))           || 1;
+
+for (let i = 1; i < badgeLevel && i < 4; i++) {
+  addEarnedBadge(i);
+}
+
+  $('#currentBadgeContainer').show();
+  $('#floatingCounter').show();
+
+  updateFloatingCounter();
+  updateBadgeOverlayText();
+  updateMainCounter();
+}
 
 
-function addToTrainingList(idFiszki) {
-    // dodaj do local storage do treningu
-    addFiszkaToLesson(idFiszki);
+  function updateLearningNotification() {
+    const złWartość = totalTrainingFiszkaCount * 2;
+    const progressPercent = Math.min(100, Math.round((totalTrainingFiszkaCount / 18) * 100));
+
+    $('#learningNotification').html(`
+      <div style="background: #ffffff; color: black; padding: 6px; border-radius: 6px;">
+        📚 Każde słowo = <strong>2 zł</strong> wartości nauki.<br>
+        🧩 Postęp lekcji: <strong>${progressPercent}%</strong> (${totalTrainingFiszkaCount}/18) – wartość: <strong>${złWartość} zł</strong>
+      </div>
+    `);
+
+    console.log('[DBG] Notyfikacja:', totalTrainingFiszkaCount);
+  }
+
+  // Ważne: poczekaj na załadowanie DOM
+  $(document).ready(function() {
+    updateLearningNotification();
+  });
+function giveBadge(){
+    if (badgeLevel >= 4) return; // 🔒 NIE pozwól wejść na poziom 4+
+  badgeAlreadyGiven = true;
+  setTimeout(() => {
+    const previousLevel = badgeLevel;
+    badgeLevel++; // zwiększ najpierw poziom
+    addEarnedBadge(previousLevel); // dodaj odznakę za poprzedni poziom
+
+    badgeProgressCount = 0;
+    trainingFiszkaCount = 0;
+
+    updateFloatingCounter();
+    updateBadgeOverlayText();
+    updateBadgeImage();
+
+    localStorage.setItem('trainingFiszkaCount', trainingFiszkaCount);
+    localStorage.setItem('badgeProgressCount', badgeProgressCount);
+    localStorage.setItem('badgeLevel', badgeLevel);
+
+    badgeAlreadyGiven = false;
+  }, 1000);
+}
+
+function addToTrainingList(id){
+  trainingFiszkaCount++;
+  totalTrainingFiszkaCount++;
+  badgeProgressCount++;
+
+  localStorage.setItem('totalTrainingFiszkaCount', totalTrainingFiszkaCount);
+  localStorage.setItem('trainingFiszkaCount', trainingFiszkaCount);
+  localStorage.setItem('badgeProgressCount', badgeProgressCount);
+
+  updateMainCounter();
+  updateFloatingCounter();
+  updateBadgeOverlayText();
+  updateLearningNotification(); // <- to tu
+
+  if(badgeProgressCount >= getCurrentBadgeLimit() && !badgeAlreadyGiven){
+    giveBadge();
+  }
+}
+
+  // symulacja Twojego activateFiszka:
+  function activateFiszka(id, znam){
+    if(!znam) addToTrainingList(id);
+  }
+  
+function updateMainCounter(){
+  $('#totalValue').text(totalTrainingFiszkaCount);
+}
+$(function(){
+  restoreBadgeState();
+  updateBadgeImage(); // ← to jest ważne
+  $('.train-btn').on('click', ()=> activateFiszka('f1', false));
+});
+function getBadgeName(level) {
+  switch(level) {
+    case 1: return 'Mistrz Pamięci';
+    case 2: return 'Eksploracja Świata Arbu';
+    case 3: return 'Intensywna Nauka';
+    default: return ''; // lub np. return null;
+  }
+}
+
+function updateBadgeImage() {
+  if (badgeLevel >= 4) {
+    $('#badgeImage').hide();            // Ukryj grafikę
+    $('#badgeOverlayText').hide();      // Ukryj overlay z punktami
+    $('#currentBadgeName').hide();      // Ukryj nazwę odznaki, jeśli masz ten element
+    return;
+  }
+
+  const clampedLevel = Math.min(badgeLevel, maxBadgeLevel);
+  $('#badgeImage').attr('src', `img/songo${clampedLevel}.jpg`).show();
+  $('#badgeOverlayText').show();
+  $('#currentBadgeName').text(getBadgeName(clampedLevel)).show();
 }
 function activateFiszka(idFiszki, znam) {
     let id = idFiszki;
     let parametr = '';
 
     if (Array.isArray(idFiszki)) {
-        // Połącz wartości z tablicy id w jeden ciąg znaków oddzielony przecinkami
         id = idFiszki.slice(0, 3).join(',');
-        // Obsługa ewentualnego dodatkowego parametru (np. czwartego elementu w tablicy)
         parametr = idFiszki.length > 3 ? idFiszki[3] : '';
     }
 
-    // Tworzenie klasy CSS z odpowiednim formatowaniem (poprawione usunięcie przecinków w CSS)
     const className = `fiszka-${id}${parametr ? '\\,' + parametr : ''}`;
     const selector = `.${className.replace(/,/g, '\\,')}`;
-    console.log(selector);
 
     if (znam) {
-        // Zapisz klasę 'active' lub zmień z 'active2' na 'active'
         if ($(selector).hasClass('active2')) {
             $(selector).removeClass('active2').addClass('active');
             updateLearnedClass(className, 'active');
@@ -18756,19 +19022,28 @@ function activateFiszka(idFiszki, znam) {
             saveLearnedClass(className, 'active');
         }
         setAsLearned(id);
-        console.log(`Set fiszka with ID ${id} as learned.`);
     } else {
-        // Zapisz klasę 'active2' lub usuń 'active'
         $(selector).removeClass('active').addClass('active2');
         saveLearnedClass(className, 'active2');
         addToTrainingList(id);
-        console.log(`Clicked - fiszka with ID ${id} added to training list.`);
-        console.log('Clicked', $(selector));
     }
 }
 
+function incrementBadgeProgress() {
+    badgeProgressCount++;
+    trainingFiszkaCount++;
 
+    updateFloatingCounter();
+    updateBadgeOverlayText();
 
+    localStorage.setItem('trainingFiszkaCount', trainingFiszkaCount);
+    localStorage.setItem('badgeProgressCount', badgeProgressCount);
+
+    const currentLimit = getCurrentBadgeLimit();
+    if (badgeProgressCount >= currentLimit && !badgeAlreadyGiven) {
+        giveBadge();
+    }
+}
 // Funkcja do zapisywania klasy w Local Storage
 function saveLearnedClass(className, classToAdd) {
     let learnedClasses = getLearned2();

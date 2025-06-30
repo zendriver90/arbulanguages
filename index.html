@@ -17,6 +17,15 @@
     <title>Language Selection</title>
     <style>
                     @media (min-width: 999px) {
+    .image-row {
+      display: flex;
+      justify-content: center; /* wyśrodkowanie */
+      gap: 10px; /* odstęp między obrazkami */
+    }
+.image-row img {
+  width: auto;
+  height: 300px;
+}
 #result {
   display: block;
   text-align: center;
@@ -378,8 +387,78 @@ button {
   z-index: 1000;
   position: relative;
 }
+    .calendar-nav2 {
+          display: none;
+  background: lightyellow;
+  border: 1px solid orange;
+  padding-bottom: 20px;
+  gap: 0px;
+}
+.calendar-nav2 button {
+  display: none;
+  padding: 10px 20px;
+  background-color: #f0f0f0;
+  border: 2px solid #ccc;
+  color: #000;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 6px;
+  z-index: 1000;
+  position: relative;
+}
                     }
                                 @media (max-width: 999px) {
+                                        .image-row {
+      display: block;
+      justify-content: center; /* wyśrodkowanie */
+      gap: 10px; /* odstęp między obrazkami */
+    }
+.image-row img {
+  width: auto;
+  height: 300px;
+}
+  .calendar-nav {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+  }
+      .calendar-nav2 {
+          display: none;
+  background: lightyellow;
+  border: 1px solid orange;
+  padding-bottom: 20px;
+  gap: 0px;
+}
+.calendar-nav2 button {
+  display: none;
+  padding: 10px 20px;
+  background-color: #f0f0f0;
+  border: 2px solid #ccc;
+  color: #000;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 6px;
+  z-index: 1000;
+  position: relative;
+}
+                                                                                    .month-btn {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+  }
+                                    #result {
+  display: block;
+  text-align: center;
+}
+.tag {
+  background-color: lightblue;
+  border: 1px solid #888;
+  padding: 6px 12px;
+  margin: 5px;
+  display: inline-block;
+  border-radius: 20px;
+  cursor: pointer;
+}
                                         .media-row {
       display: flex;
       justify-content: center;
@@ -659,13 +738,13 @@ button {
     </style>
 </head>
 <body>
-<div id="result"></div>
+<div id="result">Czekam...</div>
+<button id="countVisit">Kliknij mnie</button>
 
 <script>
 function getFingerprint() {
   let fp = localStorage.getItem('fingerprint');
   if (!fp) {
-    // jeśli nie ma fingerprintu, wygeneruj nowy i zapisz
     fp = 'user' + Date.now() + Math.floor(Math.random() * 1000);
     localStorage.setItem('fingerprint', fp);
   }
@@ -674,15 +753,14 @@ function getFingerprint() {
 
 function updateCounter() {
   const fp = getFingerprint();
-  console.log("Wywołano updateCounter z fingerprint:", fp);
   fetch('save_visit.php', {
     method: 'POST',
     headers: {'Content-Type': 'application/json'},
     body: JSON.stringify({ fingerprint: fp })
   })
-  .then(response => response.json())
+  .then(res => res.json())
   .then(data => {
-    document.getElementById("result").innerText = 'Liczba odwiedzin: ' + data.counter;
+document.getElementById("result").innerText = 'Liczba odwiedzin / Number of visits: ' + data.counter;
   })
   .catch(err => {
     document.getElementById("result").innerText = 'Błąd: ' + err;
@@ -738,6 +816,7 @@ document.addEventListener("DOMContentLoaded", () => {
             <div id="polski5">(108 słówek... + 6 słówek)</div>
         </div>
         <div id="autor">AUTOR FISZEK: PAWEŁ BABIK (ŁĄCZNIE 700 FISZEK)</div><br>
+
 <div id="autor" style="font-size: 24px;">FLASHCARDS AUTHOR: PAWEŁ BABIK (total of 700 flashcards) - The blog will soon be available in English as well</div>
   <!-- Link do profilu -->
   <div class="media-row">
@@ -759,8 +838,18 @@ document.addEventListener("DOMContentLoaded", () => {
       </a>
     </div>
   </div>
+            <div class="image-row">
+    <img src="img/PawelBabik.jpg" alt="Obraz 1">
+    <img src="img/PawelBabik2.jpg" alt="Obraz 2">
+    <img src="img/PawelBabik3.jpg" alt="Obraz 3">
+    <img src="img/PawelBabik4.png" alt="Obraz 4">
+  </div>
 📌 <span style="font-size: 24px;"><strong>(UPDATE 12.05.25)<br>
 CORRECTED MOVIE TITLES FOR LEARNING SPANISH THROUGH ENGLISH-SPEAKERS' PERSPECTIVE</strong></span><br><br>
+            📌(AKTUALIZACJA 08.06.25
+    DODANE ODZNAKI DO ZDOBYCIA PODCZAS PRZERABIANIA FISZEK<br><br>
+            📌(AKTUALIZACJA 04.06.25
+    AKTUALIZACJA SPOSOBU WYŚWIETLANIA SUGEROWYCH LEKCJI<br><br>
             📌(AKTUALIZACJA 14.05.25
     NOWY CZYNNIK - ILOŚĆ SŁÓWEK W KATEGORII<br><br>
                 📌(AKTUALIZACJA 13.05.25
@@ -776,16 +865,52 @@ CORRECTED MOVIE TITLES FOR LEARNING SPANISH THROUGH ENGLISH-SPEAKERS' PERSPECTIV
 <button class="month-btn" data-month="kwietnia 2025">Kwiecień 2025</button>
   <button class="month-btn" data-month="maja 2025">Maj 2025</button>
 </div>
+<div class="calendar-nav2">
+      <button class="month-btn" data-month="lipca 2024">July 2024</button>
+<button class="month-btn" data-month="kwietnia 2025">April 2025</button>
+  <button class="month-btn" data-month="maja 2025">May 2025</button>
+</div>
 <!-- Sekcja wpisów -->
 <div class="tablica-container">
   <div class="tab-title">📝 Moje wpisy na FB</div>
   <!-- Wpis 1 -->
+  <div class="post"
+     data-short-pl="📌 5 maja 2025"
+     data-short-en="📌 May 5, 2025"
+     data-month="maja 2025"
+     data-full-pl="Tak jak ta Letty w aucie, która krzyczy na kierowcę w momencie 'krytycznym' - tak jest to metafora presji a bardziej szczegółowo - 'dialogów wewnętrznych' - jakie zostały wgrane jednostkom - Polakom i każdemu kto został wychowywany pod presją. Tak krzyczą matki na swoje dzieci, wcześniej mężowie na żony, żony na mężów. Rodzice na dzieci (np w trakcie zamążpójścia, wcześniej przy wychowaniu). Ten krzyk nie jest prawie słyszalny - widoczny. Ten krzyk obecny jest podczas ciszy. Ten krzyk to taki rodzaj 'nie wiem co robić', 'nie wiem czy mi się uda' czy 'kurde, jeszcze muszę zrobić to i to'. Ten krzyk jest sformatowany, skompresowany (tak jak plik w komputerze). Ten krzyk nie objawia się słyszalną komunikacją. Jest ekspresją podczas gdy tracimy kontrole - pokazuje nasze 'wibracje' - cały system motywacyjny i operacyjny (między innymi to czego się boimy). Boimy się dźwięków, które mogły by do nas dotrzeć (tak jak paranoiczne przestrzeżenie o dźwiękach w więzieniu). Boimy się natężenia - ilości informacji jakie mogą nas osłabić, upośledzić, spowolnić, unieszczęśliwić, zaniżyć wibracje. Kontrola nad tymi dźwiękami często nie jest w naszej odpowiedzialności - 'harmonijność' tego co do nas dociera może być przez nas wywołana - ale 'często' jest to głos naszego pradziadka, który był odpowiednio nazywany przez prusaków czy austryjaków - który musiał im 'płacić i płakać' - który wkurwiał się, że jest niewolnikiem - pracuje dla kogoś. Ale tak nie musiało być - nie wiadomo co dostał od rodziców (wtedy) i czy np. nie denerwował się, że 'jest gorzej' - a już było lepiej. Frustracja na zabory czy system polityczny. Frustracja na dostęp do prądu - sąsiad miał a my jeszcze nie - miał radio a nas nie było stać. Czy nawet nasi dziadkowie - nie mieli telewizora. Ten głos 'żyje' w naszej rzeczywistości - jest czasami 'serdecznością' - którą ktoś nie rozpoznaje jako serdeczności - a dlatego, że główna strategia komuniakcji jest krzykiem i przebrnięciem przez bariery jakie stoją nam na drodze tak jak dla Letty i Dominica Torreto. Dlatego życie w rodzinie będzie sformatowane do 'procesów sądowych' a na sali sądowej skompresujemy nasz gniew - do języka, który jest arogancki - który pokazuje jak głośno krzyczymy, ale wyrażając to w sposób dyplomatyczny, spokojny - językiem prawniczym. Ten krzyk jest sformatowany do tego, że nie czujemy się kochani. Ten krzyk jest sformatowany do szeptu - który ma komuś wyrządzić krzywdę - przez to nasz szept jest tak jakby głosem diabła - cichy, spokojny, ale agresywny. Moment, w którym słyszymy ciszę jest momentem, w którym ściszenie - tego krzyku 'uwalnia nas' - nie powiemy takim szeptem 'kocham Cię', bo to by odsłoniło naszą potrzebę 'kochania' zamiast walczenia i odsłoniło dziecko, które w nas siedzi i jest zranione. Te dziecko słyszało 'dźwięk' ulicy w dzieciństwie - przebywa w tym, pływa w tym i czasami nawet pilnuje, aby ten przeraźliwy ryk nadal trwał..."
+       >
+  
+  <p><strong>Paweł Babik napisał:</strong></p>
+    <div class="tags">
+  <button class="tag">#zmysły</button>
+  <button class="tag">#mindset</button>
+</div>
+  <!-- Krótka zapowiedź -->
+  <div class="short-text">📌 19 kwietnia 2025</div>
+  <!-- Pełna treść (z data-full-pl), ukryta na start -->
+  <div class="full-text" style="display: none; margin-top: 10px;"></div>
+    <button class="toggle-btn"></button>
+
+  <!-- Sekcja tłumaczeń -->
+  <div class="translation-controls" style="display:none; margin-top: 10px;">
+    <button onclick="showTranslation('ai', this)">Translate by AI</button>
+    <button onclick="showTranslation('pawel', this)">Translate by Paweł</button>
+  </div>
+  
+  <!-- Film, ukryty do momentu rozwinięcia -->
+  <video class="post-video" controls width="100%" style="display: none; margin-top: 10px;">
+    <source src="filmy/wpisy/fast.mp4" type="video/mp4">
+    Twoja przeglądarka nie obsługuje odtwarzacza wideo.
+  </video>
+  </div>
                                         <div class="post"
        data-short-pl="📌 2 maja 2025"
        data-short-en="📌 May 2, 2025"
               data-month="maja 2025"
        data-full-pl="'Muszę' wierzyć w ich iluzję. Bo inaczej okazało by się, że jestem wolny. Pierwszy raz w życiu jestem wolny. Bez pieniędzy, bez TVNu, Polsatu, prawników, firm.">
         <p><strong>Paweł Babik napisał:</strong></p>
+        <img src="wolny.png" alt="Opis obrazka" width="600" />
 <div class="tags">
   <button class="tag">#zdrowie</button>
   <button class="tag">#psychosomatyka</button>
@@ -1148,6 +1273,7 @@ Dla młodszego pokolenia często praca jest tylko kupieniem sobie czasu aby kto�
       <div class="post"
        data-short-pl="📌 20 kwietnia 2025"
        data-short-en="📌 April 20, 2025"
+       data-month="kwietnia 2025"
        data-full-pl="Kobieta, która nie ukształtowała obrazu mężczyzny jaki daje jej wsparcie i pole do rozwoju (np. chroni i daje poczucie bezpieczeństwa) staje się kimś kto doprowadza do cierpienia mężczyzn w przyszłości. Prowokuje czy upośledza mężczyznę - ze względu na swój lęk, brak - że tego nie ma (mężczyzny) - a jest to zasób wewnętrzny (uczucie). To znaczy, że musi szukać pomimo, że jej koleżanki mają to i ona - ta kobieta jest tak jakby wybrakowana. Również religia wpływa na poczucie, że mężczyzna jest wyżej (przez to nie ma na tyle odwagi, aby korzystać z tej energii) co pokazuje płeć uczniów Jezusa. Gdy taka kobieta popatrzy w stronę religii - tam mężczyźni, gdy w stronę seksualności - tam wiedza o mężczyznach wymagana. Dlatego taka kobieta może nie przejść przez drzwi jakie pozwoliły by jej na równowagę energii - co zapewniłoby jej spokój. Dlatego mówi się o mężczyznach, że są źli - natomiast aranżuje to często kobieta która nie miała szansy zrównoważyć się w procesie dorastania - a później społeczeństwo zapewni jej wygodę w tym braku - tak, że nawet nie będzie musiała nic robić."
         data-full-en="Woman, who dont develop a image of man who gives
 her suport and field to grow (for example protect
@@ -1248,6 +1374,7 @@ Miernikiem jaki możemy tutaj zastosować jest - ile możemy stracić - zachowuj
 <div class="post"
      data-short-pl="📌 19 kwietnia 2025"
      data-short-en="📌 April 19, 2025"
+     data-month="kwietnia 2025"
      data-full-pl="Można się też pomodlić aby 'świat' pod postacią spotykanych ludzi 'mówił' do nas jak nasza ukochana, nasz ukochany... Pytanie tylko czy znalazłeś miłość czy związek. Tyczy się to też występowania 'głosów' które można, zmieniać, modyfikować, dostrajać, generować - zajmuje się tym zresztą NLP - ale różnica pomiędzy tą 'wiedzą' a wykształceniem statystycznego osobnika powoduje, że przyjmuje on pozycję hejterską do takich wynalazków. Sąd zresztą musi 'podbić', że miał głosy niezależnie od tego kto mu je wgrał - czy rodzice, partner, grupa na fb, czy szkoła. Kościół musi utrzymywać narrację opętania jako usprawiedliwienia czynu, który gdy już 'zlokalizowany' musi przejść przez tunele moralne a stąd już tylko krok aby inwigilować człowieka wiarą pełną bądź niepełną."
      data-full-en="Also you can pray with the intention for your whole 'world' by the presence of met
 people 'saying' to us like our beloved man or woman… The only question is
@@ -1574,72 +1701,108 @@ Mężczyzna nie ma się jak nauczyć tej energii - a on jest kierowany przez kob
 </div>
 
 <script>
+    document.getElementById("lang-toggle").addEventListener("click", function () {
+  const nav1 = document.querySelector(".calendar-nav");
+  const nav2 = document.querySelector(".calendar-nav2");
+
+  nav1.innerHTML = nav2.innerHTML;
+});
 document.addEventListener("DOMContentLoaded", function () {
   const monthButtons = document.querySelectorAll(".month-btn");
   const posts = document.querySelectorAll(".post");
+  const langToggle = document.getElementById('lang-toggle');
+  let currentLang = 'pl';
+  let selectedMonth = null;  // zapamiętany wybrany miesiąc (null = brak filtru)
+
+  // Obsługa kliknięcia na przycisk miesiąca
+  monthButtons.forEach(button => {
+    button.addEventListener("click", () => {
+      selectedMonth = button.getAttribute("data-month");
+      updatePosts();
+    });
+  });
+function attachMonthButtonListeners() {
+  const monthButtons = document.querySelectorAll(".month-btn");
 
   monthButtons.forEach(button => {
     button.addEventListener("click", () => {
-      const selectedMonth = button.getAttribute("data-month");
-
-      posts.forEach(post => {
-        const postMonth = post.getAttribute("data-month");
-        if (postMonth === selectedMonth) {
-          post.style.display = "block";
-        } else {
-          post.style.display = "none";
-        }
-      });
+      selectedMonth = button.getAttribute("data-month");
+      updatePosts();
     });
   });
+}
+function updatePosts() {
+  const posts = document.querySelectorAll('.post');
+
+  posts.forEach(post => {
+    const postMonth = post.getAttribute("data-month");
+    const shortPl = post.dataset.shortPl || '';
+    const shortEn = post.dataset.shortEn || '';
+    const fullPl  = post.dataset.fullPl || '';
+    const fullEn  = post.dataset.fullEn || '';
+
+    const shortText = post.querySelector('.short-text');
+    const fullText  = post.querySelector('.full-text');
+    const video     = post.querySelector('.post-video');
+    const toggleBtn = post.querySelector('.toggle-btn');
+
+    // filtr miesiąca — ukryj post jeśli miesiąc się nie zgadza
+    if (selectedMonth && postMonth !== selectedMonth) {
+      post.style.display = 'none';
+      return;
+    }
+
+    // filtr języka — ukryj post jeśli brak tekstu w danym języku
+    if ((currentLang === 'pl' && shortPl.trim() === '') ||
+        (currentLang === 'en' && shortEn.trim() === '')) {
+      post.style.display = 'none';
+      return;
+    }
+
+    // jeśli pełny tekst jest pusty, ukryj post
+    if ((currentLang === 'pl' && !fullPl) || (currentLang === 'en' && !fullEn)) {
+      post.style.display = 'none';
+      return;
+    }
+
+    // pokaż post
+    post.style.display = 'block';
+
+    // ustaw teksty
+    shortText.textContent = currentLang === 'pl' ? shortPl : shortEn;
+    fullText.textContent  = currentLang === 'pl' ? fullPl : fullEn;
+    fullText.style.display = 'none';
+
+    if (video) {
+      video.pause();
+      video.style.display = 'none';
+    }
+
+    // pokaż/ukryj przycisk toggle
+    toggleBtn.style.display = 'inline-block';
+    toggleBtn.textContent = currentLang === 'pl' ? 'Zobacz wpis' : 'See full article';
+
+    // ukryj komentarze
+    post.querySelectorAll('.comment-box').forEach(c => {
+      c.style.display = 'none';
+    });
+  });
+}
+
+langToggle.addEventListener('click', () => {
+  currentLang = (currentLang === 'pl' ? 'en' : 'pl');
+  langToggle.textContent = (currentLang === 'pl' ? 'in English' : 'po polsku');
+
+  const nav1 = document.querySelector(".calendar-nav");
+  const nav2 = document.querySelector(".calendar-nav2");
+  nav1.innerHTML = nav2.innerHTML;
+
+  attachMonthButtonListeners(); // <== dodaj ponownie nasłuchiwanie
+
+  updatePosts();
 });
-  const langToggle = document.getElementById('lang-toggle');
-  let currentLang = 'pl';
 
-  function updatePosts() {
-    document.querySelectorAll('.post').forEach(post => {
-      const shortText = post.querySelector('.short-text');
-      const fullText  = post.querySelector('.full-text');
-      const video     = post.querySelector('.post-video');
-      const toggleBtn = post.querySelector('.toggle-btn');
-
-      // wybór właściwego short/full
-      const short = post.dataset[`short${currentLang === 'pl' ? 'Pl' : 'En'}`] || '';
-      const full  = post.dataset[`full${currentLang === 'pl' ? 'Pl' : 'En'}`]  || '';
-
-      shortText.textContent = short;
-      fullText.textContent  = full;
-
-      // ukryj pełny tekst i wideo
-      fullText.style.display = 'none';
-      if (video) {
-        video.pause();
-        video.style.display = 'none';
-      }
-
-      // ustaw przycisk
-      if (full) {
-        toggleBtn.style.display = 'inline-block';
-        toggleBtn.textContent = (currentLang === 'pl' ? 'Zobacz wpis' : 'See full article');
-      } else {
-        toggleBtn.style.display = 'none';
-      }
-
-      // ukryj wszystkie komentarze
-      post.querySelectorAll('.comment-box').forEach(c => {
-        c.style.display = 'none';
-      });
-    });
-  }
-
-  // Przełącznik języka
-  langToggle.addEventListener('click', () => {
-    currentLang = (currentLang === 'pl' ? 'en' : 'pl');
-    langToggle.textContent = (currentLang === 'pl' ? 'English' : 'Polski');
-    updatePosts();
-  });
-
-  // Obsługa przycisku rozwijania / zwijania
+  // Obsługa kliknięć na przyciski toggle wpisu (pokazywanie/ukrywanie pełnego tekstu)
   document.addEventListener('click', e => {
     if (!e.target.classList.contains('toggle-btn')) return;
     const btn      = e.target;
@@ -1649,41 +1812,36 @@ document.addEventListener("DOMContentLoaded", function () {
     const hidden   = fullText.style.display === 'none';
 
     if (hidden) {
-      // pokaż pełny tekst
       fullText.style.display = 'block';
       btn.textContent = (currentLang === 'pl' ? 'Ukryj wpis' : 'Hide article');
 
-      // pokaż i odtwórz wideo
       if (video) {
         video.style.display = 'block';
         video.currentTime = 0;
         video.play();
       }
 
-      // pokaż komentarz(y) aktualnego języka
       post.querySelectorAll('.comment-box').forEach(c => {
         c.style.display = (c.dataset.lang === currentLang ? 'block' : 'none');
       });
     } else {
-      // ukryj pełny tekst
       fullText.style.display = 'none';
       btn.textContent = (currentLang === 'pl' ? 'Zobacz wpis' : 'See full article');
 
-      // pauza i ukrycie wideo
       if (video) {
         video.pause();
         video.style.display = 'none';
       }
 
-      // ukryj komentarze
       post.querySelectorAll('.comment-box').forEach(c => {
         c.style.display = 'none';
       });
     }
   });
 
-  // inicjalizacja
+  // inicjalizacja widoku po załadowaniu
   updatePosts();
+});
 </script>
             <br>
             <br>

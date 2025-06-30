@@ -4,8 +4,7 @@
 <meta charset="UTF-8">
 
 <meta name="description" content="Ta platforma e-lerningowa pokazuje, że możesz wzmocnić swoją pamięć poznając zaledwie kilka słów za pomocą nowoczesnej techiniki pamięciowej.">
-    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
-    <script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <link rel="stylesheet" type="text/css" href="css/alert.css">
     <link rel="stylesheet" type="text/css" href="css/lista.css">
     <link rel="stylesheet" type="text/css" href="css/fiszki.css">
@@ -16,6 +15,14 @@
     <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2654094815555460"
     crossorigin="anonymous"></script>
 </head>
+<style>
+    #learningNotification {
+  display: block !important;
+  background: yellow !important;
+  z-index: 9999 !important;
+  position: relative;
+}
+</style>
 <body>
     <div id="kontenery">
         <div id='karta1'>
@@ -225,5 +232,72 @@ function showFiszkiForLesson(lessonIdToShow, fiszki, category) {
 </body>
 <div id="footer"></div>
 <div id="footer"></div>
+<!-- Bieżący badge ze statycznym id -->
+<div id="mainCounter" style="
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: rgba(0, 128, 0, 0.8);
+    color: white;
+    padding: 10px 15px;
+    border-radius: 10px;
+    font-size: 18px;
+    z-index: 1000;
+    box-shadow: 0 0 6px rgba(0,0,0,0.1);
+">
+  🧠 Łącznie: <span id="totalValue">0</span><br>
+  <div id="learningNotification" style="margin-top: 6px; font-size: 14px; color: #fff;"></div>
+</div>
 
+<!-- Kontener odznak po prawej stronie, pionowo -->
+<div id="badgesColumn" style="
+    position: fixed;
+    bottom: 100px;
+    right: 20px;
+    z-index: 1001;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    max-width: 80px;
+">
+
+  <!-- Zdobyte odznaki (pionowo u góry) -->
+  <div id="earnedBadgesContainer" style="
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 8px;
+      max-height: 300px;
+      overflow-y: auto;
+  ">
+    <!-- Tu będą wstawiane zdobyte odznaki -->
+  </div>
+
+<!-- Aktualna odznaka na dole -->
+<div id="currentBadgeContainer" style="
+    margin-top: 20px;
+    text-align: center;
+    display: none;
+">
+  <h3 style="color: darkgreen; font-weight: bold; font-size: 12px; margin-bottom: 6px;"></h3>
+  <div id="currentBadgeName" style="font-size: 14px; font-weight: bold; color: darkblue; margin-bottom: 6px;">
+    <!-- Tu pojawi się nazwa odznaki -->
+  </div>
+  <div style="position: relative; display: inline-block;">
+    <img id="badgeImage" src="img/songo1.jpg" alt="Odznaka" style="width: 60px; height: 60px; border-radius: 8px;">
+    <div id="badgeOverlayText" style="
+        position: absolute;
+        bottom: 2px;
+        right: 2px;
+        background: rgba(0, 0, 0, 0.5);
+        color: white;
+        font-size: 15px;
+        padding: 2px 6px;
+        border-radius: 4px;
+    ">0/4</div>
+  </div>
+</div>
+
+</div>
 </html>
