@@ -3535,34 +3535,6 @@ function loadFromLocalStorage() {
     return storedData ? JSON.parse(storedData) : null;
 }
 
-const storedLessons = loadFromLocalStorage();
-
-if (storedLessons) {
-    lessons2b = storedLessons;
-    console.log('Wczytane dane z localStorage:', lessons2b);
-    console.log('hejlekcje', lessons2b[2]);
-
-    // Wywołanie funkcji showFiszki2 po wczytaniu danych
-    setTimeout(() => {
-        console.log('Wywołanie showFiszki2 z wczytanymi danymi');
-        showFiszki2();  // Upewnij się, że ta funkcja jest zdefiniowana
-    }, 0);
-} else {
-    // Jeśli nie ma zapisanych danych, losuj i zapisz
-    for (let i = 1; i <= 30; i++) {
-        lessons2b[i] = [];
-    }
-
-    // Zapisz dane do localStorage
-    saveToLocalStorage(lessons2b);
-
-    // Wywołanie showFiszki2 po zapisaniu nowych danych
-    setTimeout(() => {
-        console.log('Wywołanie showFiszki2 z nowo wygenerowanymi danymi');
-        showFiszki2();  // Upewnij się, że ta funkcja jest zdefiniowana
-    }, 0);
-}
-
 
 // Sprawdzanie zawartości lessons2b po załadowaniu danych
 function printLessons2b() {

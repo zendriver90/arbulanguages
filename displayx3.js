@@ -8,7 +8,7 @@
             let tablica12ad = [];
             let tablica12abc = [];
             const displayedIds = [];
-function showCombinedSentenceForLesson(number, selectedCategory, matchingIndexes3, rodzaj, matchingIndexes2, buttonindex, index50, lessonIdToShow1, lessonIdToShow2, lessonIdToShow3, fiszki, matchingIndexes, startIndex, newIndex, indexDiv, lessonsArray, lesson1PartLength, lesson2PartLength, lesson3PartLength, lesson1Sentences, lesson2Sentences, lesson3Sentences, lesson1FirstPartLength, lesson2FirstPartLength, lesson3FirstPartLength, lesson1SecondPartLength, lesson2SecondPartLength, lesson3SecondPartLength, cumulativeFirstPartLength1, cumulativeFirstPartLength2, cumulativeFirstPartLength3, lessonsArrayZ, matchingLessons5, matchingLessons5b, isSearching) {
+function showCombinedSentenceForLesson(number, selectedCategory, matchingIndexes3, rodzaj, matchingIndexes2, buttonindex, index50, lessonIdToShow1, lessonIdToShow2, lessonIdToShow3, fiszki, matchingIndexes, startIndex, newIndex, newIndex10, indexDiv, indexDiv0b, lessonsArray, lesson1PartLength, lesson2PartLength, lesson3PartLength, lesson1Sentences, lesson2Sentences, lesson3Sentences, lesson1FirstPartLength, lesson2FirstPartLength, lesson3FirstPartLength, lesson1SecondPartLength, lesson2SecondPartLength, lesson3SecondPartLength, cumulativeFirstPartLength1, cumulativeFirstPartLength2, cumulativeFirstPartLength3, lessonsArrayZ, matchingLessons5, matchingLessons5b, isSearching) {
                 console.log('hej55bbv', indexDiv);
                 console.log('hej100', newIndex);
                             let tablica60 = [];
@@ -438,10 +438,10 @@ const $container = $('<div></div>');
 $container.addClass('image-container3');
 $container.css('position', 'relative');
 $container.attr('data-lesson', indexDiv);
-const $container2 = $(`.image-container3b[data-lesson="${indexDiv + 1}"]`);
 
-if ($container2.length > 0) {
-    $container.insertBefore($container2);
+const $insertedContainer = $(`.image-container3b[data-lesson="${indexDiv + 1}"]`);
+if ($insertedContainer.length > 0) {
+    $container.insertBefore($insertedContainer);
 } else {
     // Jeśli nie ma takiego kontenera, dodaj na koniec
     $('.grid-container').append($container);
@@ -476,7 +476,7 @@ console.log("srcWord3b:", srcWord3b);
                             previousVideo.remove(); // Usunięcie poprzedniego wideo z kontenera
                         }
                     }
-                    if (newIndex === 0 && !buttonindex && !isSearching && !number) {
+                    if ((newIndex === 0 || newIndex10 === 0) && !buttonindex && !isSearching && !number) {
                         console.log('hej33b', buttonindex);
                         let funkcjaWywolana = false;
                         let stopButtonAdded = false;
@@ -958,7 +958,7 @@ requestAnimationFrame(() => {
                                 addVideo1b(0);
                             }, 200);
                         }
-                    } else if (newIndex === 0 && !buttonindex && !isSearching && number) {
+                    } else if ((newIndex === 0 || newIndex10 === 0) && !buttonindex && !isSearching && number) {
                         
     const srcWords2 = [srcWord1b, srcWord2b, srcWord3b];
 
@@ -984,7 +984,7 @@ requestAnimationFrame(() => {
                     tablica7[0], tablica3[2], index55,
                     true, tablica3[0], true, true,
                     tablica3[1], tablica3[4],
-                    false, '', '', '', '', indexDivRange
+                    false, '', '', '', '', '100', indexDiv0, indexDiv0b
                 );
             }, 100);
         });
@@ -1023,11 +1023,11 @@ $button.css({
             'text-align': 'center',
             'user-select': 'none'
         })
-        .text('6');
+        .text('7');
 
     $container.append($countdown);
 
-    let counter = 15;
+    let counter = 7;
     const countdownInterval = setInterval(() => {
         counter--;
         $countdown.text(counter);
@@ -1035,7 +1035,7 @@ $button.css({
         if (counter === 0) {
             clearInterval(countdownInterval);
             $countdown.remove();
-            przekazArgument0(tablica7[0], tablica3[2], undefined, false, tablica3[0], true, true, tablica3[1], tablica3[4], false, '', '', '', '', '100');
+            przekazArgument0(tablica7[0], tablica3[2], undefined, false, tablica3[0], true, true, tablica3[1], tablica3[4], false, '', '', '', '', '100', indexDiv0, indexDiv0b);
         }
     }, 1000);
 
