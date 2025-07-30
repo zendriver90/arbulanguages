@@ -31,8 +31,8 @@
         <meta name="keywords" content="naucz się angielskiego, 1000 angielskich słów, szybka nauka angielskiego, jak nauczyć się angielskiego, jak szybko nauczyć się języka, nauka angielskiego z przyjemnością" />
         <style>
             @media (min-width: 999px) {
-.green {
-  background-color: lightgreen;
+.orange {
+  background-color: orange;
   padding: 2px 4px;
   border-radius: 4px;
 }
@@ -2187,7 +2187,7 @@ searchInput?.addEventListener("input", (e) => {
 polskiButton.addEventListener("click", function () {
 przekazArgument0(tablica3[2], '', false, 'fiszki', false, false, tablica3[1], tablica3[4], true, matchingLessons5, matchingLessons5b, false);
 });
-    przekazArgument0(tablica7[0], tablica3[2], '', false, tablica3[0], false, false, tablica3[1], tablica3[4], true, matchingLessons5, matchingLessons5b, isSearching2, staraTablica40);
+    przekazArgument0(tablica7[0], tablica3[2], '', false, tablica3[0], false, false, tablica3[1], tablica3[4], true, matchingLessons5, matchingLessons5b, isSearching2, staraTablica40, '100', '', '');
 });
 function displayKey3ForKey(word, container) {
     // Szukamy fiszki, której właściwość 'key' lub 'key2' odpowiada podanemu słowu.
@@ -3926,7 +3926,9 @@ for (let i = 0; i < myVariable.length; i += 3) {
                             }
     // --- TWOJA WARSTWA WARUNKU I indexDiv0 ---
     console.log('xxx:', indexDivRange);
-if ((tablica10.length <= indexDivRange || tablica10.length === 0) && ostatniaWartosc < 2) {
+    if ((tablica10.length <= indexDivRange || tablica10.length === 0) && ostatniaWartosc < 2 && isSearching) {
+        
+        } else if ((tablica10.length <= indexDivRange || tablica10.length === 0) && ostatniaWartosc < 2) {
 const newIndex2 = null;
 const indexDiv0b2 = null;
 const newIndex5 = null;
@@ -4337,9 +4339,6 @@ function showCombinedSentenceForLesson22b(number1, selectedCategory, matchingInd
                     }
                     console.log(`Fiszki dla lekcji ${lessonIdToShow1}, ${lessonIdToShow2} i ${lessonIdToShow3}:`);
 
-
-                    let sentence20 = ""; // Deklaracja zmiennej sentence1 na poziomie lokalnym
-                    let sentence22 = "";
                     let sentence30 = ""; // Deklaracja zmiennej sentence1 na poziomie lokalnym
                     let sentence33 = "";
 
@@ -4349,7 +4348,7 @@ function showCombinedSentenceForLesson22b(number1, selectedCategory, matchingInd
                     let sentence1bba = "";
                     let sentence1bbab = "";
                     
-                    function addBackgroundToText1b(matchingFiszki1, matchingIndexes, aktualny, lesson1PartLength, matchingIndexes2, rodzaj, matchingIndexes3, matchingLessons5b) {
+                    function addBackgroundToText1b(matchingFiszki1, matchingIndexes, aktualny, lesson1PartLength, matchingIndexes2, rodzaj, matchingIndexes3) {
                         
         $(document).ready(function () {
 function isFiszkaActive2(className) {
@@ -4385,7 +4384,7 @@ console.log('[🟢 Czy aktywna (active2)?]', isActive);
     if (isActive) {
         const spanGreen = document.createElement('span');
         spanGreen.textContent = sentencePart;
-        spanGreen.classList.add('green');
+        spanGreen.classList.add('orange');
         sentencePart = spanGreen.outerHTML;
 
         console.log('[✅ PODŚWIETLONO NA ZIELONO]', sentencePart);
@@ -4394,14 +4393,6 @@ console.log('[🟢 Czy aktywna (active2)?]', isActive);
                                         const indexToCheck = i + lesson1PartLength + 1;
                                         const indexToCheck2 = i + lesson1PartLength + 1;
                                             if (matchingIndexes.includes(indexToCheck) && matchingIndexes !== null) {
-                                                // Sprawdzenie, czy indeks bieżącej fiszki znajduje się w tablicy matchingIndexes
-                                                const spanElement = document.createElement('span');
-                                                spanElement.textContent = sentencePart;
-                                                spanElement.classList.add('yellow');
-                                                // Zaktualizuj sentencePart, aby zawierał utworzony element span
-                                                sentencePart = spanElement.outerHTML;
-                                            }
-                                            if (matchingLessons5b.includes(indexToCheck2) && matchingIndexes.length === 0) {
                                                 // Sprawdzenie, czy indeks bieżącej fiszki znajduje się w tablicy matchingIndexes
                                                 const spanElement = document.createElement('span');
                                                 spanElement.textContent = sentencePart;
@@ -4542,19 +4533,21 @@ console.log('[🟢 Czy aktywna (active2)?]', isActive);
                                     // Iteracja przez elementy sentence1
                                     for (let kii = 0; kii < fiszka.sentence2.length; kii++) {
                                         let sentencePart2 = fiszka.sentence2[kii];
-                                        console.log('sentencePart5:', ii);
+    const classNameToCheck = `fiszka-${fiszka.id}`;
+    const isActive = isFiszkaActive2(classNameToCheck);
+
+    if (isActive) {
+        const spanGreen2 = document.createElement('span');
+        spanGreen2.textContent = sentencePart2;
+        spanGreen2.classList.add('orange');
+        sentencePart2 = spanGreen2.outerHTML;
+
+        console.log('[✅ PODŚWIETLONO NA ZIELONO w sentence2]', sentencePart2);
+    }
                                         const indexToCheck = ii + lesson1PartLength + 1;
                                         const indexToCheck2 = ii + lesson1PartLength + 1;
                                         console.log('indexToCheck77:', indexToCheck);
                                             if (matchingIndexes.includes(indexToCheck) && matchingIndexes !== null) {
-                                                // Sprawdzenie, czy indeks bieżącej fiszki znajduje się w tablicy matchingIndexes
-                                                const spanElement = document.createElement('span');
-                                                spanElement.textContent = sentencePart2;
-                                                spanElement.classList.add('yellow');
-                                                // Zaktualizuj sentencePart, aby zawierał utworzony element span
-                                                sentencePart2 = spanElement.outerHTML;
-                                            }
-                                            if (matchingLessons5b.includes(indexToCheck2) && matchingIndexes.length === 0) {
                                                 // Sprawdzenie, czy indeks bieżącej fiszki znajduje się w tablicy matchingIndexes
                                                 const spanElement = document.createElement('span');
                                                 spanElement.textContent = sentencePart2;
@@ -4749,7 +4742,7 @@ else if (dataName >= startRange2 && dataName <= endRange2) {
 
         // UsuĹ stare linki
         $('.hidden-link').remove();
-        console.log('UsuniÄto stare linki');
+        console.log('Usunieto stare linki');
 
         // Wygeneruj nowe linki (dla pierwszych dwĂłch trĂłjek, jeĹli istniejÄ)
         const firstTrojka = trojki[0] || [];
@@ -4792,25 +4785,25 @@ else if (dataName >= startRange2 && dataName <= endRange2) {
         const link19 = `demo1angielski.html?category=${selectedCategory}&data=${dziewietnascie.join(',')}`;
 
         const linksHTML = `
-            <a href="${link1}" class="hidden-link lesson-link-1" target="_blank" rel="noopener noreferrer">PrzejdĹş do lekcji 1</a>
-            <a href="${link2}" class="hidden-link lesson-link-2" target="_blank" rel="noopener noreferrer">PrzejdĹş do lekcji 2</a>
-        <a href="${link3}" class="hidden-link lesson-link-3" target="_blank" rel="noopener noreferrer">PrzejdĹş do lekcji 3</a>
-                    <a href="${link4}" class="hidden-link lesson-link-4" target="_blank" rel="noopener noreferrer">PrzejdĹş do lekcji 1</a>
-            <a href="${link5}" class="hidden-link lesson-link-5" target="_blank" rel="noopener noreferrer">PrzejdĹş do lekcji 2</a>
-        <a href="${link6}" class="hidden-link lesson-link-6" target="_blank" rel="noopener noreferrer">PrzejdĹş do lekcji 3</a>
-                    <a href="${link7}" class="hidden-link lesson-link-7" target="_blank" rel="noopener noreferrer">PrzejdĹş do lekcji 1</a>
-            <a href="${link8}" class="hidden-link lesson-link-8" target="_blank" rel="noopener noreferrer">PrzejdĹş do lekcji 2</a>
-        <a href="${link9}" class="hidden-link lesson-link-9" target="_blank" rel="noopener noreferrer">PrzejdĹş do lekcji 3</a>
-                    <a href="${link10}" class="hidden-link lesson-link-10" target="_blank" rel="noopener noreferrer">PrzejdĹş do lekcji 1</a>
-            <a href="${link11}" class="hidden-link lesson-link-11" target="_blank" rel="noopener noreferrer">PrzejdĹş do lekcji 2</a>
-        <a href="${link12}" class="hidden-link lesson-link-12" target="_blank" rel="noopener noreferrer">PrzejdĹş do lekcji 3</a>
-                    <a href="${link13}" class="hidden-link lesson-link-13" target="_blank" rel="noopener noreferrer">PrzejdĹş do lekcji 1</a>
-            <a href="${link14}" class="hidden-link lesson-link-14" target="_blank" rel="noopener noreferrer">PrzejdĹş do lekcji 2</a>
-        <a href="${link15}" class="hidden-link lesson-link-15" target="_blank" rel="noopener noreferrer">PrzejdĹş do lekcji 3</a>
-                    <a href="${link16}" class="hidden-link lesson-link-16" target="_blank" rel="noopener noreferrer">PrzejdĹş do lekcji 1</a>
-            <a href="${link17}" class="hidden-link lesson-link-17" target="_blank" rel="noopener noreferrer">PrzejdĹş do lekcji 2</a>
-        <a href="${link18}" class="hidden-link lesson-link-18" target="_blank" rel="noopener noreferrer">PrzejdĹş do lekcji 3</a>
-                <a href="${link19}" class="hidden-link lesson-link-19" target="_blank" rel="noopener noreferrer">PrzejdĹş do lekcji 3</a>
+            <a href="${link1}" class="lesson-link-1" style="display: none;">PrzejdĹş do lekcji 1</a>
+            <a href="${link2}" class="lesson-link-2" style="display: none;">PrzejdĹş do lekcji 2</a>
+        <a href="${link3}" class="lesson-link-3" style="display: none;">PrzejdĹş do lekcji 3</a>
+                    <a href="${link4}" class="lesson-link-4" style="display: none;">PrzejdĹş do lekcji 4</a>
+            <a href="${link5}" class="lesson-link-5" style="display: none;">PrzejdĹş do lekcji 5</a>
+        <a href="${link6}" class="lesson-link-6" style="display: none;">PrzejdĹş do lekcji 6</a>
+                    <a href="${link7}" class="lesson-link-7" style="display: none;">PrzejdĹş do lekcji 7</a>
+            <a href="${link8}" class="lesson-link-8" style="display: none;">PrzejdĹş do lekcji 8</a>
+        <a href="${link9}" class="lesson-link-9" style="display: none;">PrzejdĹş do lekcji 3</a>
+                    <a href="${link10}" class="lesson-link-10" style="display: none;">PrzejdĹş do lekcji 1</a>
+            <a href="${link11}" class="lesson-link-11" style="display: none;">PrzejdĹş do lekcji 2</a>
+        <a href="${link12}" class="lesson-link-12" style="display: none;">PrzejdĹş do lekcji 3</a>
+                    <a href="${link13}" class="lesson-link-13" style="display: none;">PrzejdĹş do lekcji 1</a>
+            <a href="${link14}" class="lesson-link-14" style="display: none;">PrzejdĹş do lekcji 2</a>
+        <a href="${link15}" class="lesson-link-15" style="display: none;">PrzejdĹş do lekcji 3</a>
+                    <a href="${link16}" class="lesson-link-16" style="display: none;">PrzejdĹş do lekcji 1</a>
+            <a href="${link17}" class="lesson-link-17" style="display: none;">PrzejdĹş do lekcji 2</a>
+        <a href="${link18}" class="lesson-link-18" style="display: none;">PrzejdĹş do lekcji 3</a>
+                <a href="${link19}" class="lesson-link-19" style="display: none;">PrzejdĹş do lekcji 3</a>
         `;
 
         $('body').append(linksHTML);
@@ -4883,13 +4876,23 @@ $sentenceDiv.on('click', '.left-button', function () {
                         });                         
                     }
 
-
+                                        let sentence20 = ""; // Deklaracja zmiennej sentence1 na poziomie lokalnym
+                    let sentence22 = "";
                     let sentence1bb1b = "";
                     let sentence1bba2 = "";
-                    function addBackgroundToText2b(matchingFiszki2, matchingIndexes, aktualny, lesson2PartLength, matchingIndexes2, rodzaj, matchingIndexes3, matchingLessons5b) {
+                    function addBackgroundToText2b(matchingFiszki2, matchingIndexes, aktualny, lesson2PartLength, matchingIndexes2, rodzaj, matchingIndexes3) {
 
                         $(document).ready(function () {
-                            setTimeout(() => {
+
+                                function isFiszkaActive2(className) {
+    const learned = getLearned2();
+    console.log('[📦 ZAWARTOŚĆ ColorClass]', learned);
+
+    const entry = learned.find(e => e.className === className);
+    console.log('[🔍 SZUKAM]', className, '->', entry);
+
+    return entry && entry.classToAdd === "active2";
+}
                                 sentence1bb1b = "";
                                 sentence1bba2 = "";
                                 // Iteracja przez matchingFiszki2 dla sentence1
@@ -4904,6 +4907,20 @@ $sentenceDiv.on('click', '.left-button', function () {
                                     // Iteracja przez elementy sentence1
                                     for (let k = 0; k < fiszka.sentence1.length; k++) {
                                         let sentencePart = fiszka.sentence1[k];
+const classNameToCheck = `fiszka-${fiszka.id}`;
+console.log('[🟢 SPRAWDZAM FISZKĘ]', classNameToCheck);
+
+const isActive = isFiszkaActive2(classNameToCheck);
+console.log('[🟢 Czy aktywna (active2)?]', isActive);
+
+    if (isActive) {
+        const spanGreen = document.createElement('span');
+        spanGreen.textContent = sentencePart;
+        spanGreen.classList.add('orange');
+        sentencePart = spanGreen.outerHTML;
+
+        console.log('[✅ PODŚWIETLONO NA ZIELONO]', sentencePart);
+    }
                                         console.log('sentencePart5:', sentencePart);
                                         const indexToCheck = j + lesson2PartLength + 1;
                                         const indexToCheck2 = j + lesson2PartLength + 1;
@@ -4920,129 +4937,7 @@ $sentenceDiv.on('click', '.left-button', function () {
                                                 sentencePart = spanElement.outerHTML;
                                             }
                                         }
-                                        if (matchingLessons5b.includes(indexToCheck2) && matchingLessons5b !== null) {
-                                                // Sprawdzenie, czy indeks bieżącej fiszki znajduje się w tablicy matchingIndexes
-                                                const spanElement = document.createElement('span');
-                                                spanElement.textContent = sentencePart;
-                                                spanElement.classList.add('yellow');
-                                                // Zaktualizuj sentencePart, aby zawierał utworzony element span
-                                                sentencePart = spanElement.outerHTML;
-                                            }
-                                        function countCategoryInFiszki2(matchingFiszki2, category) {
-                                            // Zmienna do przechowywania sumy wystąpień
-                                            let totalCount = 0;
-
-                                            // Iteracja przez wszystkie fiszki
-                                            for (let j = 0; j < matchingFiszki2.length; j++) {
-                                                const fiszka = matchingFiszki2[j];
-
-                                                // Zlicz wystąpienia kategorii w category3
-                                                if (fiszka.category3 && Array.isArray(fiszka.category3)) {
-                                                    const count = fiszka.category3.filter(cat => cat === category).length;
-                                                    totalCount += count; // Dodaj do sumy
-                                                }
-                                            }
-
-                                            return [totalCount]; // Zwróć tablicę z jedną sumaryczną wartością
-                                        }
-
-// Użycie funkcji
-                                        const categoryToCount = "PresentSimplePodmiot";
-                                        const categoryToCount2 = "PresentSimpleCzasownik";
-                                        const occurrences = countCategoryInFiszki2(matchingFiszki2, categoryToCount);
-                                        const occurrences2 = countCategoryInFiszki2(matchingFiszki2, categoryToCount2);
-// Wypisywanie wyników
-                                        console.log('Suma wystąpień:', occurrences2);
-                                        // Po zakończeniu iteracji przez fiszkę, sprawdź occurrences
-                                        // Po zakończeniu iteracji przez fiszkę, sprawdź occurrences
-                                        // Po zakończeniu iteracji przez fiszkę, sprawdź occurrences
-                                        // Flaga sprawdzająca, czy podmiot został już dodany
-
-                                        if (aktualny && rodzaj === "play" && matchingIndexes2.includes(indexToCheck2)) {
-                                            console.log('hej123', occurrences);
-                                            // Sprawdź, czy to jest pierwsze słowo
-                                            if (j === 0 && occurrences[0] === 2) {
-                                                console.log('Podświetlono pierwsze słowo:', fiszka.sentence1[j]);
-                                                const firstWordElement = document.createElement('span');
-                                                firstWordElement.textContent = sentencePart;
-                                                firstWordElement.classList.add('green'); // Dodaj klasę, która podświetla słowo na zielono
-                                                sentencePart = firstWordElement.outerHTML; // Zamień pierwsze słowo na jego wersję z "span"
-                                            }
-                                            // Dodaj podmiot po drugim słowie, jeśli occurrences wynosi 2
-                                            if (j === 1 && occurrences[0] === 2) {
-                                                console.log('Dodano "podmiot" po drugim słowie:', fiszka.sentence1[j]);
-                                                const podmiotElement = document.createElement('span');
-                                                podmiotElement.textContent = sentencePart;
-                                                podmiotElement.classList.add('green');
-                                                sentencePart = podmiotElement.outerHTML;
-                                                podmiotElement.textContent = "(podmiot)";
-
-                                                // Rozdziel zdanie na słowa
-                                                let words = sentencePart.split(' ');
-                                                words.splice(2, 0, podmiotElement.outerHTML); // Dodaj podmiot po drugim słowie
-                                                sentencePart = words.join(' '); // Połącz z powrotem w jedno zdanie
-
-                                            } else if (j === 0 && occurrences[0] === 1) {
-                                                console.log('Dodano "podmiot" po pierwszym słowie:', fiszka.sentence1[j]);
-                                                const podmiotElement = document.createElement('span');
-                                                podmiotElement.textContent = sentencePart;
-                                                podmiotElement.classList.add('green');
-                                                sentencePart = podmiotElement.outerHTML;
-                                                podmiotElement.textContent = "(podmiot)";
-
-                                                // Rozdziel zdanie na słowa
-                                                let words = sentencePart.split(' ');
-                                                words.splice(3, 0, podmiotElement.outerHTML); // Dodaj podmiot po pierwszym słowie
-                                                sentencePart = words.join(' '); // Połącz z powrotem w jedno zdanie
-
-                                            }
-                                        }
-                                        if (aktualny && rodzaj === "play" && matchingIndexes3.includes(indexToCheck2)) {
-                                            console.log('hej123', occurrences);
-                                            // Sprawdź, czy to jest pierwsze słowo
-                                            // Dodaj podmiot po drugim słowie, jeśli occurrences wynosi 2
-
-                                            if (j === 2 && occurrences2[0] === 2) {
-                                                console.log('Dodano "podmiot" po drugim słowie:', fiszka.sentence1[j]);
-                                                const podmiotElement = document.createElement('span');
-                                                podmiotElement.textContent = sentencePart;
-                                                podmiotElement.classList.add('blue');
-                                                sentencePart = podmiotElement.outerHTML;
-                                                podmiotElement.textContent = "(czasownik)";
-
-                                                // Rozdziel zdanie na słowa
-                                                let words = sentencePart.split(' ');
-                                                words.splice(2, 1, podmiotElement.outerHTML); // Dodaj podmiot po drugim słowie
-                                                sentencePart = words.join(' '); // Połącz z powrotem w jedno zdanie
-
-                                            } else if (j === 2 && occurrences2[0] === 1) {
-                                                console.log('Dodano "podmiot" po drugim słowie:', fiszka.sentence1[j]);
-                                                const podmiotElement = document.createElement('span');
-                                                podmiotElement.textContent = sentencePart;
-                                                podmiotElement.classList.add('blue');
-                                                sentencePart = podmiotElement.outerHTML;
-                                                podmiotElement.textContent = "(czasownik)";
-
-                                                // Rozdziel zdanie na słowa
-                                                let words = sentencePart.split(' ');
-                                                words.splice(3, 0, podmiotElement.outerHTML); // Dodaj podmiot po drugim słowie
-                                                sentencePart = words.join(' '); // Połącz z powrotem w jedno zdanie
-
-                                            } else if (j === 1 && occurrences2[0] === 1) {
-                                                console.log('Dodano "podmiot" po pierwszym słowie:', fiszka.sentence1[j]);
-                                                const podmiotElement = document.createElement('span');
-                                                podmiotElement.textContent = sentencePart;
-                                                podmiotElement.classList.add('blue');
-                                                sentencePart = podmiotElement.outerHTML;
-                                                podmiotElement.textContent = "(czasownik)";
-
-                                                // Rozdziel zdanie na słowa
-                                                let words = sentencePart.split(' ');
-                                                words.splice(3, 0, podmiotElement.outerHTML); // Dodaj podmiot po pierwszym słowie
-                                                sentencePart = words.join(' '); // Połącz z powrotem w jedno zdanie
-
-                                            }
-                                        }
+                                        
                                         // Dodaj sentencePart do sentence10
                                         sentence20 += sentencePart + " ";
 
@@ -5058,9 +4953,23 @@ $sentenceDiv.on('click', '.left-button', function () {
                                         continue;
                                     }
 
-                                    // Iteracja przez elementy sentence2
-                                    for (let kk = 0; kk < fiszka.sentence2.length; kk++) {
-                                        let sentencePart2 = fiszka.sentence2[kk];
+for (let kk = 0; kk < fiszka.sentence2.length; kk++) {
+    let sentencePart2 = fiszka.sentence2[kk];
+    if (!sentencePart2 || sentencePart2.trim() === "") continue;
+
+    const classNameToCheck = `fiszka-${fiszka.id}`;
+    const isActive = isFiszkaActive2(classNameToCheck);
+
+    // Dodaj klasę do SPANA, która potem będzie aktywowana po odświeżeniu
+    const span = document.createElement('span');
+    span.textContent = sentencePart2;
+    span.classList.add(classNameToCheck); // ← tu dodajemy klasę identyfikującą fiszkę
+
+    if (isActive) {
+        span.classList.add('orange');
+        console.log('[✅ PODŚWIETLONO NA POMARAŃCZOWO]', sentencePart2);
+    }
+
                                         console.log('sentencePart2 przed przetworzeniem:', sentencePart2);
                                         const indexToCheck = jj + lesson2PartLength + 1;
                                         const indexToCheck2 = jj + lesson2PartLength + 1;
@@ -5075,16 +4984,9 @@ $sentenceDiv.on('click', '.left-button', function () {
                                                 sentencePart2 = spanElement.outerHTML;
                                             }
                                         }
-                                        if (matchingLessons5b.includes(indexToCheck2) && matchingLessons5b !== null) {
-                                                // Sprawdzenie, czy indeks bieżącej fiszki znajduje się w tablicy matchingIndexes
-                                                const spanElement = document.createElement('span');
-                                                spanElement.textContent = sentencePart2;
-                                                spanElement.classList.add('yellow');
-                                                // Zaktualizuj sentencePart, aby zawierał utworzony element span
-                                                sentencePart2 = spanElement.outerHTML;
-                                            }
-                                        sentence22 += sentencePart2 + " ";
-                                    }
+
+    sentence22 += span.outerHTML + " ";
+}
                                 }
                                 for (let li = 0; li < matchingFiszki2.length; li++) {
                                     const fiszka = matchingFiszki2[li];
@@ -5236,22 +5138,18 @@ $sentenceDiv.on('click', '.left-buttonb', function () {
     $('.sentence-block').each(function () {
         const thisId = $(this).data('name');
         if (!displayedIds.includes(thisId)) {
-            $(this).find('.sentence1bba').hide();
-                        $(this).find('.sentence1bbab').hide();
+            $(this).find('.sentence1bb1b').hide();
+                        $(this).find('.sentence1bba2').hide();
             console.log(`Schowano sentence1bba w bloku ID: ${thisId}`);
         }
     });
-        $('.sentence10').removeClass('active');
+        $('.sentence20').removeClass('active');
 
     // Dodaj klasę do .sentence10 w aktualnym bloku
     $block.find('.sentence20').addClass('highlight-green');
 });
-                                $sentence1bb1a.html('');
-                                $sentence1bb1a.empty();
-                            }, 0);
                         });
                     }
-
 
 
 
@@ -5261,9 +5159,17 @@ $sentenceDiv.on('click', '.left-buttonb', function () {
                     let sentence1bb3 = "";
                     let sentence1bb1c = "";
 
-                    function addBackgroundToText3b(matchingFiszki3, matchingIndexes, aktualny, lesson3PartLength, matchingIndexes2, rodzaj, matchingIndexes3, matchingLessons5b) {
+                    function addBackgroundToText3b(matchingFiszki3, matchingIndexes, aktualny, lesson3PartLength, matchingIndexes2, rodzaj, matchingIndexes3) {
                         $(document).ready(function () {
-setTimeout(() => {
+                                function isFiszkaActive2(className) {
+    const learned = getLearned2();
+    console.log('[📦 ZAWARTOŚĆ ColorClass]', learned);
+
+    const entry = learned.find(e => e.className === className);
+    console.log('[🔍 SZUKAM]', className, '->', entry);
+
+    return entry && entry.classToAdd === "active2";
+}
                             sentence1bb3 = "";
                             sentence1bb1c = "";
 
@@ -5276,6 +5182,20 @@ setTimeout(() => {
                                 }
                                 for (let lm = 0; lm < fiszka.sentence1.length; lm++) {
                                     let sentencePart = fiszka.sentence1[lm];
+                                    const classNameToCheck = `fiszka-${fiszka.id}`;
+console.log('[🟢 SPRAWDZAM FISZKĘ]', classNameToCheck);
+
+const isActive = isFiszkaActive2(classNameToCheck);
+console.log('[🟢 Czy aktywna (active2)?]', isActive);
+
+    if (isActive) {
+        const spanGreen = document.createElement('span');
+        spanGreen.textContent = sentencePart;
+        spanGreen.classList.add('orange');
+        sentencePart = spanGreen.outerHTML;
+
+        console.log('[✅ PODŚWIETLONO NA ZIELONO]', sentencePart);
+    }
                                         console.log('sentencePart5:', sentencePart);
                                         const indexToCheck = l + lesson3PartLength + 1;
                                         const indexToCheck2 = l + lesson3PartLength + 1;
@@ -5290,14 +5210,6 @@ setTimeout(() => {
                                                 sentencePart = spanElement.outerHTML;
                                             }
                                         }
-                                        if (matchingLessons5b.includes(indexToCheck2) && matchingLessons5b !== null) {
-                                                // Sprawdzenie, czy indeks bieżącej fiszki znajduje się w tablicy matchingIndexes
-                                                const spanElement = document.createElement('span');
-                                                spanElement.textContent = sentencePart;
-                                                spanElement.classList.add('yellow');
-                                                // Zaktualizuj sentencePart, aby zawierał utworzony element span
-                                                sentencePart = spanElement.outerHTML;
-                                            }
 function countCategoryInFiszki2(matchingFiszki3, category) {
                                             // Zmienna do przechowywania sumy wystąpień
                                             let totalCount = 0;
@@ -5466,6 +5378,20 @@ function countCategoryInFiszki2(matchingFiszki3, category) {
                                 }
                                 for (let lmn = 0; lmn < fiszka.sentence2.length; lmn++) {
                                     let sentencePart3 = fiszka.sentence2[lmn];
+    if (!sentencePart3 || sentencePart3.trim() === "") continue;
+
+    const classNameToCheck = `fiszka-${fiszka.id}`;
+    const isActive = isFiszkaActive2(classNameToCheck);
+
+    // Dodaj klasę do SPANA, która potem będzie aktywowana po odświeżeniu
+    const span = document.createElement('span');
+    span.textContent = sentencePart3;
+    span.classList.add(classNameToCheck); // ← tu dodajemy klasę identyfikującą fiszkę
+
+    if (isActive) {
+        span.classList.add('orange');
+        console.log('[✅ PODŚWIETLONO NA POMARAŃCZOWO]', sentencePart3);
+    }
                                     const indexToCheck = lmm + lesson3PartLength + 1;
                                     const indexToCheck2 = lmm + lesson3PartLength + 1;
                                         if (aktualny) {
@@ -5478,15 +5404,7 @@ function countCategoryInFiszki2(matchingFiszki3, category) {
                                                 sentencePart3 = spanElement.outerHTML;
                                             }
                                         }
-                                        if (matchingLessons5b.includes(indexToCheck2) && matchingLessons5b !== null) {
-                                                // Sprawdzenie, czy indeks bieżącej fiszki znajduje się w tablicy matchingIndexes
-                                                const spanElement = document.createElement('span');
-                                                spanElement.textContent = sentencePart3;
-                                                spanElement.classList.add('yellow');
-                                                // Zaktualizuj sentencePart, aby zawierał utworzony element span
-                                                sentencePart3 = spanElement.outerHTML;
-                                            }
-                                    sentence33 += sentencePart3 + " ";
+    sentence33 += span.outerHTML + " ";
                                 }
                             }
                             for (let z = 0; z < matchingFiszki3.length; z++) {
@@ -5640,7 +5558,6 @@ $sentenceDiv.on('click', '.left-buttonbb', function () {
         }
     });
 });
-                            }, 0);
                         });
                     }
                         console.log('wykonuje się teraz5');
@@ -6298,9 +6215,9 @@ if (window.matchMedia("(max-width: 999px)").matches) {
                             }
 
                             // Jeśli kontener nie został jeszcze wybrany, wybierz losowy kontener
-                            addBackgroundToText1b(matchingFiszki1, matchingIndexes, true, lesson1PartLength, matchingIndexes2, rodzaj, matchingIndexes3, matchingLessons5b);
-                            addBackgroundToText2b(matchingFiszki2, matchingIndexes, true, lesson2PartLength, matchingIndexes2, rodzaj, matchingIndexes3, matchingLessons5b);
-                            addBackgroundToText3b(matchingFiszki3, matchingIndexes, true, lesson3PartLength, matchingIndexes2, rodzaj, matchingIndexes3, matchingLessons5b);
+                            addBackgroundToText1b(matchingFiszki1, matchingIndexes, true, lesson1PartLength, matchingIndexes2, rodzaj, matchingIndexes3);
+                            addBackgroundToText2b(matchingFiszki2, matchingIndexes, true, lesson2PartLength, matchingIndexes2, rodzaj, matchingIndexes3);
+                            addBackgroundToText3b(matchingFiszki3, matchingIndexes, true, lesson3PartLength, matchingIndexes2, rodzaj, matchingIndexes3);
                         }
                         if (newIndex !== 0) {
                         setTimeout(function () {
@@ -7279,7 +7196,7 @@ if (window.matchMedia("(min-width: 999px)").matches) {
                 }
             });
             ustawTryb('fiszki');
-            przekazArgument0(tablica7[0], tablica3[2], '', false, 'fiszki', true, true, tablica3[1], tablica3[4], false, '', '', '', '', '100', '', '');
+            przekazArgument0(tablica7[0], tablica3[2], '', false, 'fiszki', true, true, tablica3[1], tablica3[4], false, '', '', '', '', '', '', '100', '', '');
 
 // Zmierz czas na początku ładowania skryptu
 const startTime = performance.now();

@@ -1713,8 +1713,8 @@ $buttonb2.on('click', function () {
         if (index55b2 === 19) {
         lessonLink = document.querySelector('.lesson-link-19');
     }
-    if (lessonLink) {
-        lessonLink.click(); // Automatyczne kliknięcie ukrytego linka
+    if (lessonLink && lessonLink.href) {
+        window.location.href = lessonLink.href; // ⬅️ otwieranie w tym samym oknie
     }
 });
 

@@ -3543,7 +3543,7 @@ function printLessons2b() {
 
 // Wywołaj tę funkcję, gdy masz pewność, że dane zostały załadowane
 document.addEventListener('DOMContentLoaded', function () {
-    setTimeout(printLessons2b, 1000);  // Opóźnienie dla pewności
+    setTimeout(printLessons2b, 2000);  // Opóźnienie dla pewności
 });
 
 function generateFiszkaBlock(fiszka, lessonId2) {
