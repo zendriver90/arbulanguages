@@ -2923,7 +2923,7 @@ const fiszki10 = [
                         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/50aa.jpg",
+                src: "https://www.arbulang.com/img/fiszki1/50aa1.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -2959,7 +2959,7 @@ const fiszki10 = [
                 {
                     id: 4,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/50bb.jpg",
+                src: "https://www.arbulang.com/img/fiszki1/50bb4.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -3012,7 +3012,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/39aa.jpg",
+                src: "https://www.arbulang.com/img/fiszki1/39aa1.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -3024,7 +3024,7 @@ const fiszki10 = [
                                 {
             id: 2,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/39aa.jpg",
+                src: "https://www.arbulang.com/img/fiszki1/39aa2.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -3048,7 +3048,7 @@ const fiszki10 = [
                         {
             id: 4,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/39aa.jpg",
+                src: "https://www.arbulang.com/img/fiszki1/39aa4.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -3060,11 +3060,11 @@ const fiszki10 = [
                                 {
             id: 4,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/39aa.jpg",
+                src: "https://www.arbulang.com/img/fiszki1/39aa5.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
-                text: "<b><u>Kam</b></u>il <b><u>pa</b></u>trzy i obeserwuje jak jego <b><u>firma</b></u> dynamicznie się rozwija i poszerza swój rynek na <b><u>Stany</b></u>",
+                text: "<b><u>Kam</b></u>il <b><u>pa</b></u>trzy i obserwuje jak jego <b><u>firma</b></u> dynamicznie się rozwija i poszerza swój rynek na <b><u>Stany</b></u>",
                 alt: ""
             },
             category: ["związki", ""]
@@ -3199,11 +3199,11 @@ const fiszki10 = [
                         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/41aa.jpg",
+                src: "https://www.arbulang.com/img/fiszki1/41aa1.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
-                text: "Dewaluacja tego sportwca za niesportowe zachowanie przerodziła się w bardziej elokwentne sędziowanie - gry w ping-ponga",
+                text: "<b><u>Dew</b></u>aluacja tego sportowca za niesportowe zachowanie przerodziła się w bardziej <b><u>elo</b></u>kwentne sędziowanie - gry w <b><u>ping</b></u>-ponga",
                 alt: "Gra w ping-ponga. Czy dobry sędzia może zapanować nad emocjami zawodników?"
             },
             category: ["sport", "sędziowanie"]
@@ -3211,17 +3211,29 @@ const fiszki10 = [
                 {
             id: 2,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/41aa.jpg",
+                src: "https://www.arbulang.com/img/fiszki1/41aa2.jpg",
                 alt: "Granie w ping-ponga. Wygenerowane przez AI."
             },
             story: {
-                text: "Dewastacja parku przez anarchistów, którym do elokewencji daleko pokazuje, że lepiej żeby pograli w ping-ponga. Bo inaczej się nie rozwijają",
+                text: "<b><u>Dew</b></u>astacja parku przez anarchistów, którym do <b><u>elo</b></u>kwencji daleko pokazuje, że lepiej żeby pograli w <b><u>ping</b></u>-ponga. Bo inaczej się nie rozwijają",
                 alt: "Wykształcenie a zachowanie. Czy gniew ludzi może powodować łamanie prawa?"
             },
             category: ["natura", "przestrzganie prawa"]
         },
-        {
+                        {
             id: 3,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/41aa4.jpg",
+                alt: "Wygenerowane przez AI."
+            },
+            story: {
+                text: "",
+                alt: ""
+            },
+            category: ["nauka", ""]
+        },
+        {
+            id: 4,
             img: {
                 src: "https://www.arbulang.com/img/fiszki1/41aa.jpg",
                 alt: "Granie w ping-ponga. Wygenerowane przez AI."
@@ -3233,25 +3245,13 @@ const fiszki10 = [
             category: ["czarny humor", "relacje"]
         },
                 {
-            id: 4,
+            id: 5,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/41aa.jpg",
+                src: "https://www.arbulang.com/img/fiszki1/41aa5.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
-                text: "",
-                alt: ""
-            },
-            category: ["czarny humor", ""]
-        },
-                {
-            id: 4,
-            img: {
-                src: "https://www.arbulang.com/img/fiszki1/41aa.jpg",
-                alt: "Wygenerowane przez AI."
-            },
-            story: {
-                text: "Dewocjonalia to takie artykuły religijne. Rozwój ich przypada na bardzo odległy czas. Po kupieniu dewocjonali para je mielonego pieczonego w miejscowej kuchni a w radiu gra Sting. Rozwój duchowy dla tej pary bardzo sie liczy",
+                text: "<b><u>Dew</b></u>ocjonalia to takie artykuły religijne. Rozwój ich przypada na bardzo odległy czas. Po kupieniu dewocjonali para je mi<b><u>elo</b></u>nego <b><u>pi</b></u>eczonego w miejscowej kuchni a w radiu gra St<b><u>ing</b></u>. Rozwój duchowy dla tej pary bardzo sie liczy",
                 alt: "Pamiątki ze zwiedzania. Jak można spędzić czas na pogłębianiu wiary?"
             },
             category: ["związki", "religia"]
@@ -3278,8 +3278,32 @@ const fiszki10 = [
             14
         ],
             entries: [
-        {
+                        {
             id: 1,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/42aa1.jpg",
+                alt: " Wygenerowane przez AI."
+            },
+            story: {
+                text: "Se<b><u>wery</b></u>n jest <b><u>bardzo</b></u> dobrze przygotowany na następny mecz",
+                alt: "Kwalifikacja na listę. Jak zakwalifikować się na listę?"
+            },
+            category: ["sport", "trening"]
+        },
+                {
+            id: 2,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/42aa2.jpg",
+                alt: "Wygenerowane przez AI."
+            },
+            story: {
+                text: "Ksa<b><u>wery</b></u> <b><u>bardzo</b></u> się opalił na słońcu w te lato",
+                alt: "Kwalifikacja na listę. Jak zakwalifikować się na listę?"
+            },
+            category: ["natura", "odpoczynek"]
+        },
+        {
+            id: 3,
             img: {
                 src: "https://www.arbulang.com/img/fiszki1/42aa.jpg",
                 alt: "Zadowolony petent. Wygenerowane przez AI."
@@ -3288,7 +3312,31 @@ const fiszki10 = [
                 text: "<b><u>Wery</b></u>fikacja przebiegła poprawnie dla tej osoby i ona jest <b><u>bardzo</b></u> zadowolona",
                 alt: "Kwalifikacja na listę. Jak zakwalifikować się na listę?"
             },
-            category: ["urzędy", "weryfikacja"]
+            category: ["nauka", "urzędy"]
+        },
+                {
+            id: 4,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/42aa4.jpg",
+                alt: "Wygenerowane przez AI."
+            },
+            story: {
+                text: "",
+                alt: ""
+            },
+            category: ["czarny humor", ""]
+        },
+                        {
+            id: 5,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/42a5.jpg",
+                alt: "Wygenerowane przez AI."
+            },
+            story: {
+                text: "",
+                alt: ""
+            },
+            category: ["związki", ""]
         }
             ],
         desc: "very[wery] - bardzo",

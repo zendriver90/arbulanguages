@@ -1,12 +1,5 @@
             
             const tablica10 = [];
-
-                        let sentence1bVisible = false;
-            let sentence1baVisible = false;
-            let sentence1b3aVisible = false;
-                        let tablica12ab = [];
-            let tablica12ad = [];
-            let tablica12abc = [];
             const displayedIds = [];
 function showCombinedSentenceForLesson(number, selectedCategory, matchingIndexes3, rodzaj, matchingIndexes2, buttonindex, index50, lessonIdToShow1, lessonIdToShow2, lessonIdToShow3, fiszki, matchingIndexes, startIndex, newIndex, newIndex10, indexDiv, indexDiv0b, lessonsArray, lesson1PartLength, lesson2PartLength, lesson3PartLength, lesson1Sentences, lesson2Sentences, lesson3Sentences, lesson1FirstPartLength, lesson2FirstPartLength, lesson3FirstPartLength, lesson1SecondPartLength, lesson2SecondPartLength, lesson3SecondPartLength, cumulativeFirstPartLength1, cumulativeFirstPartLength2, cumulativeFirstPartLength3, lessonsArrayZ, matchingLessons5, matchingLessons5b, isSearching) {
                 console.log('hej55bbv', indexDiv);
@@ -50,7 +43,8 @@ function showCombinedSentenceForLesson(number, selectedCategory, matchingIndexes
                     }
                     console.log(`Fiszki dla lekcji ${lessonIdToShow1}, ${lessonIdToShow2} i ${lessonIdToShow3}:`);
 
-
+                    let sentence10 = "";
+                    let sentence11 = "";
                     let sentence20 = ""; // Deklaracja zmiennej sentence1 na poziomie lokalnym
                     let sentence22 = "";
                     let sentence30 = ""; // Deklaracja zmiennej sentence1 na poziomie lokalnym
@@ -62,7 +56,7 @@ function showCombinedSentenceForLesson(number, selectedCategory, matchingIndexes
                     let sentence1b22 = "";
                     let sentence1c2a = "";
                     let sentence1c22 = "";
-                    function addBackgroundToText(matchingFiszki1, matchingIndexes, currentIndexValue, aktualny, lesson1FirstPartLength, lesson1PartLength, matchingLessons5b) {
+function addBackgroundToText(matchingFiszki1, matchingIndexes, currentIndexValue, aktualny, lesson1FirstPartLength, lesson1PartLength, matchingLessons5b) {
                         setTimeout(function () {
                             sentence10 = "";
                             sentence11 = "";
@@ -111,6 +105,15 @@ function showCombinedSentenceForLesson(number, selectedCategory, matchingIndexes
                                             spanElement.textContent = sentencePart;
                                         } else if (currentIndexValue == 0) {
 
+                                            if (sentence1b === "") {
+                                                let sentencePart333 = fiszka.translateb ? fiszka.translateb : "";
+                                                sentence1b += sentencePart333 + " ";
+                                            }
+
+                                            if (sentence1b2 === "") {
+                                                let sentencePart333 = fiszka.translate ? fiszka.translate : "";
+                                                sentence1b2 += sentencePart333 + " ";
+                                            }
                                             const spanElement = document.createElement('span');
                                             spanElement.textContent = sentencePart;
                                             spanElement.classList.add('highlighted-sentence');
@@ -428,7 +431,7 @@ function showCombinedSentenceForLesson(number, selectedCategory, matchingIndexes
 </div>
 `);
 
-                        }, 0);
+                        }, 400);
 
                     }
 
@@ -485,7 +488,7 @@ console.log("srcWord3b:", srcWord3b);
                                 console.log('hej80', index);
                                 // Sprawdź, czy jesteśmy poza zakresem tablicy
                                 if (index >= srcWords.length && !funkcjaWywolana) {
-                                    przekazArgument0(tablica7[0], tablica3[2], undefined, false, tablica3[0], true, true, tablica3[1], tablica3[4], false, '', '', '', '', '100');
+                                    przekazArgument0(tablica7[0], tablica3[2], undefined, false, tablica3[0], true, true, tablica3[1], tablica3[4], false, '', '', '', '', '100', indexDiv0, indexDiv0b);
                                     console.log("wykonuje się");
                                     funkcjaWywolana = true;
                                 }
@@ -499,18 +502,13 @@ console.log("srcWord3b:", srcWord3b);
                                     'z-index': '1' // Ustaw z-index dla wideo na niższy
                                 });
 
-const video = document.createElement('video');
-video.setAttribute('autoplay', '');
-video.setAttribute('loop', '');
-video.muted = true; // ← to jest kluczowe!
-video.playsInline = true; // ← opcjonalne, ale przydatne na mobile
-
-const source = document.createElement('source');
-source.src = srcWords[index];
-source.type = 'video/mp4';
-
-video.appendChild(source);
-const $videoElement = $(video);
+                                const $videoElement = $('<video>').attr({
+                                    'autoplay': true,
+                                    'muted': true,
+                                    'loop': true
+                                }).css({
+                                    'z-index': '1' // Ustaw z-index dla wideo na niższy
+                                });
                                 if (window.matchMedia("(min-width: 999px)").matches) {
                                     // Dodaj klasę CSS zależnie od indeksu wideo
                                     if (index === 0) {
@@ -531,7 +529,7 @@ const $videoElement = $(video);
                                 // Dodaj element video do diva dla wideo
                                 $videoElement.appendTo($vidDiv);
                                 // Dodaj element <source> do elementu <video>
-$videoElement.attr('muted', true); // atrybut, nie .prop
+
                                 // Obsługa błędu ładowania wideo
                                 $videoElement.onerror = function () {
                                     console.error('Nie można załadować pliku wideo.');
@@ -539,86 +537,41 @@ $videoElement.attr('muted', true); // atrybut, nie .prop
                                 let currentIndexValue = [];
                                 // Funkcja obsługi zdarzenia loadedmetadata
 $videoElement.hide(); // Ukrycie wideo przed załadowaniem
-function ensureVideoStarts($videoElement, index) {
-    let retryCount = 0;
-    const maxRetries = 20;
-    let started = false;
 
-    function tryStart() {
-        if (started) return;
-        const el = $videoElement[0];
-        const duration = el.duration;
+$videoElement.on('loadedmetadata', function () {
+    $videoElement.show(); // Pokaż wideo po załadowaniu metadanych
 
-        if (el.readyState < 3 || isNaN(duration) || duration === Infinity || duration === 0) {
-            if (retryCount++ < maxRetries) {
-                console.warn(`Wideo ${index} niegotowe (readyState=${el.readyState}), próba ${retryCount}`);
-                return setTimeout(tryStart, 300);
-            } else {
-                console.error(`Wideo ${index} nie wystartowało`);
-                return;
+    const videoDuration = this.duration;
+    videoDurations[index] = videoDuration;
+    console.log('tablica77', totalDuration);
+
+    $videoElement.on('timeupdate', function () {
+        let adjustedProgress = 0;
+        for (let i = 0; i < index; i++) {
+            adjustedProgress += (videoDurations[i] / totalDuration) * 100;
+        }
+        adjustedProgress += (this.currentTime / videoDuration) * (videoDurations[index] / totalDuration) * 100;
+        updateProgress(adjustedProgress);
+        console.log('hej78', index);
+
+        if (!currentIndexValue.includes(index)) {
+            currentIndexValue.push(index);
+            console.log('hej70', currentIndexValue);
+            if (currentIndexValue[0] === 0 || currentIndexValue[0] === 1 || currentIndexValue[0] === 2) {
+                addBackgroundToText(matchingFiszki1, matchingIndexes, currentIndexValue, true, lesson1FirstPartLength, lesson1PartLength, matchingLessons5b);
             }
         }
 
-        started = true;
-        $videoElement.show();
-        videoDurations[index] = duration;
-
-        $videoElement.off('timeupdate').on('timeupdate', function () {
-            let adjustedProgress = 0;
-            for (let i = 0; i < index; i++) {
-                adjustedProgress += (videoDurations[i] / totalDuration) * 100;
-            }
-            adjustedProgress += (this.currentTime / duration) * (videoDurations[index] / totalDuration) * 100;
-            updateProgress(adjustedProgress);
-
-            if (!currentIndexValue.includes(index)) {
-                currentIndexValue.push(index);
-                if ([0, 1, 2].includes(currentIndexValue[0])) {
-                    addBackgroundToText(matchingFiszki1, matchingIndexes, currentIndexValue, true, lesson1FirstPartLength, lesson1PartLength, matchingLessons5b);
-                }
-            }
-
-            if (duration - this.currentTime < 1) {
-                addVideo1(index + 1);
-                updateProgress(0);
-            }
-        });
-
-        el.play().then(() => {
-            console.log(`Wideo ${index} odtworzone`);
-        }).catch(error => {
-            console.warn(`Autoplay nie działa (index ${index}):`, error);
-        });
-    }
-
-    // Jeśli nie zadziała 'canplaythrough', dodaj fallback na loadeddata
-    $videoElement.one('canplaythrough loadeddata', tryStart);
-
-    try {
-        $videoElement[0].load();
-    } catch (e) {
-        console.warn('Błąd ładowania:', e);
-    }
-}
-
-console.log('wykonuje się655');
+        if ($videoElement[0].duration - $videoElement[0].currentTime < 1) {
+            console.log('Wideo zakończone, uruchamiam następne.');
+            addVideo1(index + 1);
+            updateProgress(0);
+        }
+    });
+});
                                 addScenes(index);
                                 // Dodaj div z wideo do tła kontenera
-$vidDiv.appendTo($container);
-window.addEventListener('pageshow', () => {
-  const video = document.getElementById('myVideo');
-  if (video) {
-    video.play().catch((error) => {
-      console.error('Error playing video:', error);
-    });
-  }
-});
-// Upewnij się, że wideo jest fizycznie w DOM, zanim zaczniesz ładowanie
-requestAnimationFrame(() => {
-    setTimeout(() => {
-        ensureVideoStarts($videoElement, index);
-    }, 200); // małe opóźnienie buforujące
-});
+                                $vidDiv.appendTo($container);
                                 function updateProgress(progress) {
                                     // Aktualizuj pasek postępu na dole kontenera
                                     $('.progress-bar').css('width', progress + '%');
@@ -716,11 +669,11 @@ requestAnimationFrame(() => {
                                                     if (!video.paused) {
                                                         video.pause();
                                                         // Zmień obrazek na "Play"
-                                                        $stopButton.attr('src', 'https://www.arbulang.com/img/stopok2.png');
+                                                        $stopButton.attr('src', 'https://www.arbulang.com/img/play.png');
                                                     } else {
                                                         video.play();
                                                         // Zmień obrazek z powrotem na "Stop"
-                                                        $stopButton.attr('src', 'https://www.arbulang.com/img/play.png');
+                                                        $stopButton.attr('src', 'https://www.arbulang.com/img/stopok2.png');
                                                     }
                                                 });
                                             });
@@ -749,7 +702,7 @@ requestAnimationFrame(() => {
                                 console.log('hej80', index);
                                 // Sprawdź, czy jesteśmy poza zakresem tablicy
                                 if (index >= srcWords.length && !funkcjaWywolana) {
-                                    przekazArgument0(tablica7[0], tablica3[2], undefined, false, tablica3[0], true, true, tablica3[1], tablica3[4], false, '', '', '', '', '100');
+                                    przekazArgument0(tablica7[0], tablica3[2], undefined, false, tablica3[0], true, true, tablica3[1], tablica3[4], false, '', '', '', '', '100', indexDiv0, indexDiv0b);
                                     console.log("wykonuje się");
                                     funkcjaWywolana = true;
                                 }
@@ -958,7 +911,7 @@ requestAnimationFrame(() => {
                                 addVideo1b(0);
                             }, 200);
                         }
-                    } else if ((newIndex === 0 || newIndex10 === 0) && !buttonindex && !isSearching && number) {
+                        } else if ((newIndex === 0 || newIndex10 === 0) && !buttonindex && !isSearching && number) {
                         
     const srcWords2 = [srcWord1b, srcWord2b, srcWord3b];
 
@@ -1023,11 +976,11 @@ $button.css({
             'text-align': 'center',
             'user-select': 'none'
         })
-        .text('7');
+        .text('4');
 
     $container.append($countdown);
 
-    let counter = 7;
+    let counter = 4;
     const countdownInterval = setInterval(() => {
         counter--;
         $countdown.text(counter);
@@ -1547,7 +1500,7 @@ $button.css({
                     // Tworzenie nowego elementu div za pomocą jQuery
 
 
-                    if ((index50 === 0 && buttonindex) || (newIndex === 0 && !buttonindex)) {
+                    if ((index50 === 0 && buttonindex) || (newIndex === 0 && !buttonindex) || (newIndex10 === 0 && !buttonindex)) {
     var $sentenceDivB = $('<div></div>');
     $sentenceDivB.addClass('sentenceBA');
 
@@ -1557,7 +1510,9 @@ $button.css({
 
     $sentenceDivB.html(`
 <div class="sentence-blockB" data-name="${id1}">
-    <div class="sentence10">${sentence10}${sentence11}</div>
+    ${sentence10}${sentence11}<br>
+    <div class="sentence1b">${sentence1b}</div>
+    <div class="sentence1b2">${sentence1b2}</div>
 </div>
 
 <div class="sentence-blockB" data-name="${id2}">

@@ -10,7 +10,7 @@
                 data: [] // Inicjalizacja tablicy wewnątrz obiektu
             };
             let tablica24 = [];
-            function showCombinedSentenceForLesson2(selectedCategory, polski, index50, matchingIndexes, lessonIdToShow1, newIndex, indexDiv, lesson1PartLength) {
+            function showCombinedSentenceForLesson2(selectedCategory, polski, index50, matchingIndexes, lessonIdToShow1, newIndex, indexDiv, lesson1PartLength, isSearching) {
                                 console.log('hej55bbv', selectedCategory);
                                                             let tablica61 = [];
                 // Tutaj reszta kodu funkcji
@@ -419,7 +419,7 @@ updateButtonColors();
                                     'position': 'relative'
                                 });
 
-                            }, 300);
+                            }, 0);
                         });
                         console.log('Zawartość zmiennej sentence1:', sentence1b); // Wyświetlenie zawartości zmiennej sentence1                          
                     }
@@ -466,7 +466,7 @@ updateButtonColors();
                     let currentVideoElement = null;
                     const activeVideos = [];
                     let initialFiszkaContainer = null; // Zmienna przechowująca kontener fiszki
-                    if (newIndex === 0 && !buttonindex) {
+                    if (newIndex === 0 && !buttonindex && !isSearching) {
                         isVideoPlaying = true;
                         console.log('hej3331', buttonindex);
                         let stopButtonAdded = false;
