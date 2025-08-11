@@ -1500,7 +1500,7 @@ $button.css({
                     // Tworzenie nowego elementu div za pomocą jQuery
 
 
-                    if ((index50 === 0 && buttonindex) || (newIndex === 0 && !buttonindex) || (newIndex10 === 0 && !buttonindex)) {
+                    if ((index50 === 0 && buttonindex && !isSearching) || (newIndex === 0 && !buttonindex && !isSearching) || (newIndex10 === 0 && !buttonindex && !isSearching)) {
     var $sentenceDivB = $('<div></div>');
     $sentenceDivB.addClass('sentenceBA');
 

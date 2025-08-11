@@ -10,8 +10,8 @@
                 data: [] // Inicjalizacja tablicy wewnątrz obiektu
             };
             let tablica24 = [];
-            function showCombinedSentenceForLesson2(isSearching, selectedCategory, polski, index50, matchingIndexes, lessonIdToShow1, newIndex, indexDiv, lesson1PartLength, matchingLessons5b) {
-                                console.log('wykonuje się 8nn', matchingLessons5b);
+            function showCombinedSentenceForLesson2b(isSearching, selectedCategory, polski, index50, matchingIndexes, lessonIdToShow1, newIndex, indexDiv, lesson1PartLength, matchingLessons5) {
+                                console.log('wykonuje się 8nn', matchingLessons5);
                                                             let tablica61 = [];
                 // Tutaj reszta kodu funkcji
                 const matchingFiszki1 = fiszki.filter(fiszka => fiszka.id[1] === lessonIdToShow1);
@@ -166,7 +166,7 @@ $sentenceDivB.html(`
 
                     let sentence1bba = "";
                     let sentence1bbab = "";
-                    function addBackgroundToText1b(matchingFiszki1, matchingIndexes, aktualny, lesson1PartLength, polski, matchingLessons5b) {
+                    function addBackgroundToText1b(matchingFiszki1, matchingIndexes, aktualny, lesson1PartLength, polski, matchingLessons5) {
                         console.log('hll10', matchingLessons5);
                         console.log('hll10', matchingIndexes);
                         $(document).ready(function () {
@@ -186,8 +186,7 @@ $sentenceDivB.html(`
                                         let sentencePart = fiszka.sentence1[ki];
                                         console.log('sentencePart5:', sentencePart);
                                         const indexToCheck = i + lesson1PartLength + 1;
-                                        console.log('indexToCheck5:', lesson1PartLength);
-                                        console.log('indexToCheck5b:', indexToCheck);
+                                        console.log('indexToCheck5:', indexToCheck);
                                         // Sprawdź, czy indeks jest równy 0
                                             if (matchingIndexes.includes(indexToCheck) && matchingIndexes !== null) {
                                                 // Sprawdzenie, czy indeks bieżącej fiszki znajduje się w tablicy matchingIndexes
@@ -197,8 +196,8 @@ $sentenceDivB.html(`
                                                 // Zaktualizuj sentencePart, aby zawierał utworzony element span
                                                 sentencePart = spanElement.outerHTML;
                                             }
-                                        console.log('indexToCheck5c', matchingLessons5b);
-                                            if (matchingLessons5b.includes(indexToCheck) && matchingIndexes.length === 0) {
+                                        console.log('hll10-', matchingLessons5.includes(indexToCheck));
+                                            if (matchingLessons5.includes(indexToCheck) && matchingIndexes.length === 0) {
                                                 // Sprawdzenie, czy indeks bieżącej fiszki znajduje się w tablicy matchingIndexes
                                                 const spanElement = document.createElement('span');
                                                 spanElement.textContent = sentencePart;
@@ -232,7 +231,7 @@ $sentenceDivB.html(`
                                                 // Zaktualizuj sentencePart, aby zawierał utworzony element span
                                                 sentencePart2 = spanElement.outerHTML;
                                             }
-                                            if (matchingLessons5b.includes(indexToCheck) && matchingIndexes.length === 0) {
+                                            if (matchingLessons5.includes(indexToCheck) && matchingIndexes.length === 0) {
                                                 // Sprawdzenie, czy indeks bieżącej fiszki znajduje się w tablicy matchingIndexes
                                                 const spanElement = document.createElement('span');
                                                 spanElement.textContent = sentencePart2;
@@ -1814,7 +1813,7 @@ if (currentFiszkaIndex === 0) {
 
 
                             // Jeśli kontener nie został jeszcze wybrany, wybierz losowy kontener
-                            addBackgroundToText1b(matchingFiszki1, matchingIndexes, true, lesson1PartLength, polski, matchingLessons5b);
+                            addBackgroundToText1b(matchingFiszki1, matchingIndexes, true, lesson1PartLength, polski, matchingLessons5);
                         }
                         addVideo3(0);
                     }

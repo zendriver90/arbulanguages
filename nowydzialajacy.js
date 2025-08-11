@@ -714,23 +714,23 @@ function showCombinedSentenceForLesson5b(selectedCategory, matchingIndexes3, rod
                                 }
 
                                 console.log('hej20', sentence1bba);
-    $sentenceDiv.html(`
+$sentenceDiv.html(`
 <div class="sentence-block" data-name="${id1}">
-    <button class="left-button first-button">+<br></button>
+    <button class="left-button first-button ${selectedCategory}">+<br></button>
     ${sentence10}${sentence11}<br>
     <div class="sentence1bba">${sentence1bba}</div>
     <div class="sentence1bba">${sentence1bbab}</div>
 </div>
 
 <div class="sentence-block" data-name="${id2}">
-    <button class="left-buttonb second-button">+<br></button>
+    <button class="left-buttonb second-button ${selectedCategory}">+<br></button>
     ${sentence20}${sentence22}<br>
     <div class="sentence1bb1b">${sentence1bb1b}</div>
     <div class="sentence1bba2">${sentence1bba2}</div>
 </div>
 
 <div class="sentence-block" data-name="${id3}">
-    <button class="left-buttonbb third-button">+<br></button>
+    <button class="left-buttonbb third-button ${selectedCategory}">+<br></button>
     ${sentence30}${sentence33}<br>
     <div class="sentence1bb3">${sentence1bb3}</div>
     <div class="sentence1bb1c">${sentence1bb1c}</div>
@@ -739,12 +739,12 @@ function showCombinedSentenceForLesson5b(selectedCategory, matchingIndexes3, rod
 
 // Kolory przypisane do kategorii
 const colorMapping = {
-    'sport': '#28a745',        // Zielony
-    'natura': '#007bff',       // Niebieski
-    'nauka': '#dc3545',        // Czerwony
-    'czarnyhumor': '#ffc107',  // Żółty
-    'zwiazki': '#fd7e14',      // Pomarańczowy
-    'all': '#800080'     
+    'sport': 'green',        // 
+    'natura': 'yellow',       // 
+    'nauka': 'blue',        // 
+    'czarnyhumor': 'red',  // 
+    'zwiazki': 'blueviolet',      // 
+    'all': 'pink'     
 };
 
 // Zakres pokolorowanych przycisków
@@ -1198,17 +1198,17 @@ updateButtonColors();
                                 // Kliknięcie w kategorię
 // Kolory przypisane do kategorii
 const colorMapping = {
-    'sport': '#28a745',        // Zielony
-    'natura': '#007bff',       // Niebieski
-    'nauka': '#dc3545',        // Czerwony
-    'czarnyhumor': '#ffc107',  // Żółty
-    'zwiazki': '#fd7e14',      // Pomarańczowy
-    'all': '#800080'           // Fioletowy
+    'sport': 'green',        // 
+    'natura': 'yellow',       // 
+    'nauka': 'blue',        // 
+    'czarnyhumor': 'red',  // 
+    'zwiazki': 'blueviolet',      // 
+    'all': 'pink'     
 };
 
 // Zakres pokolorowanych przycisków
 const startRange2 = 1;
-const endRange2 = 6;
+const endRange2 = 7;
 
 document.addEventListener('DOMContentLoaded', () => {
     // Kliknięcie w kategorię
@@ -1242,23 +1242,23 @@ function updateButtonColors() {
     });
     }
     updateButtonColors();
-    $sentenceDiv.html(`
+$sentenceDiv.html(`
 <div class="sentence-block" data-name="${id1}">
-    <button class="left-button first-button">+<br></button>
+    <button class="left-button first-button ${selectedCategory}">+<br></button>
     ${sentence10}${sentence11}<br>
     <div class="sentence1bba">${sentence1bba}</div>
     <div class="sentence1bba">${sentence1bbab}</div>
 </div>
 
 <div class="sentence-block" data-name="${id2}">
-    <button class="left-buttonb second-button">+<br></button>
+    <button class="left-buttonb second-button ${selectedCategory}">+<br></button>
     ${sentence20}${sentence22}<br>
     <div class="sentence1bb1b">${sentence1bb1b}</div>
     <div class="sentence1bba2">${sentence1bba2}</div>
 </div>
 
 <div class="sentence-block" data-name="${id3}">
-    <button class="left-buttonbb third-button">+<br></button>
+    <button class="left-buttonbb third-button ${selectedCategory}">+<br></button>
     ${sentence30}${sentence33}<br>
     <div class="sentence1bb3">${sentence1bb3}</div>
     <div class="sentence1bb1c">${sentence1bb1c}</div>
@@ -1279,23 +1279,23 @@ function updateButtonColors() {
                                         sentence1bba2 += sentencePart33 + " ";
                                     }
                                     // Dodanie treści do diva wraz z przyciskiem
-    $sentenceDiv.html(`
+$sentenceDiv.html(`
 <div class="sentence-block" data-name="${id1}">
-    <button class="left-button first-button">+<br></button>
+    <button class="left-button first-button ${selectedCategory}">+<br></button>
     ${sentence10}${sentence11}<br>
     <div class="sentence1bba">${sentence1bba}</div>
     <div class="sentence1bba">${sentence1bbab}</div>
 </div>
 
 <div class="sentence-block" data-name="${id2}">
-    <button class="left-buttonb second-button">+<br></button>
+    <button class="left-buttonb second-button ${selectedCategory}">+<br></button>
     ${sentence20}${sentence22}<br>
     <div class="sentence1bb1b">${sentence1bb1b}</div>
     <div class="sentence1bba2">${sentence1bba2}</div>
 </div>
 
 <div class="sentence-block" data-name="${id3}">
-    <button class="left-buttonbb third-button">+<br></button>
+    <button class="left-buttonbb third-button ${selectedCategory}">+<br></button>
     ${sentence30}${sentence33}<br>
     <div class="sentence1bb3">${sentence1bb3}</div>
     <div class="sentence1bb1c">${sentence1bb1c}</div>
@@ -1602,17 +1602,17 @@ function countCategoryInFiszki2(matchingFiszki3, category) {
                             }
 // Kolory przypisane do kategorii
 const colorMapping = {
-    'sport': '#28a745',        // Zielony
-    'natura': '#007bff',       // Niebieski
-    'nauka': '#dc3545',        // Czerwony
-    'czarnyhumor': '#ffc107',  // Żółty
-    'zwiazki': '#fd7e14',      // Pomarańczowy
-    'all': '#800080'           // Fioletowy
+    'sport': 'green',        // 
+    'natura': 'yellow',       // 
+    'nauka': 'blue',        // 
+    'czarny humor': 'red',  // 
+    'zwiazki': 'blueviolet',      // 
+    'all': 'pink'     
 };
 
 // Zakres pokolorowanych przycisków
 const startRange2 = 1;
-const endRange2 = 6;
+const endRange2 = 7;
 
 document.addEventListener('DOMContentLoaded', () => {
     // Kliknięcie w kategorię
@@ -1647,23 +1647,23 @@ function updateButtonColors() {
     });
     }
     updateButtonColors();
-    $sentenceDiv.html(`
+$sentenceDiv.html(`
 <div class="sentence-block" data-name="${id1}">
-    <button class="left-button first-button">+<br></button>
+    <button class="left-button first-button ${selectedCategory}">+<br></button>
     ${sentence10}${sentence11}<br>
     <div class="sentence1bba">${sentence1bba}</div>
     <div class="sentence1bba">${sentence1bbab}</div>
 </div>
 
 <div class="sentence-block" data-name="${id2}">
-    <button class="left-buttonb second-button">+<br></button>
+    <button class="left-buttonb second-button ${selectedCategory}">+<br></button>
     ${sentence20}${sentence22}<br>
     <div class="sentence1bb1b">${sentence1bb1b}</div>
     <div class="sentence1bba2">${sentence1bba2}</div>
 </div>
 
 <div class="sentence-block" data-name="${id3}">
-    <button class="left-buttonbb third-button">+<br></button>
+    <button class="left-buttonbb third-button ${selectedCategory}">+<br></button>
     ${sentence30}${sentence33}<br>
     <div class="sentence1bb3">${sentence1bb3}</div>
     <div class="sentence1bb1c">${sentence1bb1c}</div>
@@ -1683,23 +1683,23 @@ function updateButtonColors() {
                                         sentence1bb1c += sentencePart444 + " ";
                                     }
                                     // Dodanie treści do diva wraz z przyciskiem
-    $sentenceDiv.html(`
+$sentenceDiv.html(`
 <div class="sentence-block" data-name="${id1}">
-    <button class="left-button first-button">+<br></button>
+    <button class="left-button first-button ${selectedCategory}">+<br></button>
     ${sentence10}${sentence11}<br>
     <div class="sentence1bba">${sentence1bba}</div>
     <div class="sentence1bba">${sentence1bbab}</div>
 </div>
 
 <div class="sentence-block" data-name="${id2}">
-    <button class="left-buttonb second-button">+<br></button>
+    <button class="left-buttonb second-button ${selectedCategory}">+<br></button>
     ${sentence20}${sentence22}<br>
     <div class="sentence1bb1b">${sentence1bb1b}</div>
     <div class="sentence1bba2">${sentence1bba2}</div>
 </div>
 
 <div class="sentence-block" data-name="${id3}">
-    <button class="left-buttonbb third-button">+<br></button>
+    <button class="left-buttonbb third-button ${selectedCategory}">+<br></button>
     ${sentence30}${sentence33}<br>
     <div class="sentence1bb3">${sentence1bb3}</div>
     <div class="sentence1bb1c">${sentence1bb1c}</div>
@@ -3324,7 +3324,7 @@ if (window.matchMedia("(max-width: 999px)").matches) {
                     // Tworzenie nowego elementu div za pomocą jQuery
 
 
-                    if ((index50 === 0 && buttonindex) || (newIndex === 0 && !buttonindex)) {
+                    if ((index50 === 0 && buttonindex && !isSearching) || (newIndex === 0 && !buttonindex && !isSearching)) {
     var $sentenceDivB = $('<div></div>');
     $sentenceDivB.addClass('sentenceBA');
 
@@ -3366,23 +3366,23 @@ if (window.matchMedia("(max-width: 999px)").matches) {
     const id2 = matchingFiszki2[0]?.id[1] || 'unknown2';
     const id3 = matchingFiszki3[0]?.id[1] || 'unknown3';
 
-    $sentenceDiv.html(`
+$sentenceDiv.html(`
 <div class="sentence-block" data-name="${id1}">
-    <button class="left-button first-button">+<br></button>
+    <button class="left-button first-button ${selectedCategory}">+<br></button>
     ${sentence10}${sentence11}<br>
     <div class="sentence1bba">${sentence1bba}</div>
     <div class="sentence1bba">${sentence1bbab}</div>
 </div>
 
 <div class="sentence-block" data-name="${id2}">
-    <button class="left-buttonb second-button">+<br></button>
+    <button class="left-buttonb second-button ${selectedCategory}">+<br></button>
     ${sentence20}${sentence22}<br>
     <div class="sentence1bb1b">${sentence1bb1b}</div>
     <div class="sentence1bba2">${sentence1bba2}</div>
 </div>
 
 <div class="sentence-block" data-name="${id3}">
-    <button class="left-buttonbb third-button">+<br></button>
+    <button class="left-buttonbb third-button ${selectedCategory}">+<br></button>
     ${sentence30}${sentence33}<br>
     <div class="sentence1bb3">${sentence1bb3}</div>
     <div class="sentence1bb1c">${sentence1bb1c}</div>

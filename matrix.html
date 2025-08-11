@@ -128,48 +128,86 @@ video {
 	font: bold 1.5em verdana;
         }
 
-  .category-btn {
-    background-color: #800080; /* Filetowy kolor dla wszystkich przycisków */
-    color: white;
-    border: none;
-    padding: 10px 20px;
-    margin: 5px;
-    cursor: pointer;
-    font-size: 16px;
-    border-radius: 5px;
-  }
-    .category-btn5 {
-    background-color: gray; /* Filetowy kolor dla wszystkich przycisków */
-    color: white;
-    border: none;
-    padding: 10px 20px;
-    margin: 5px;
-    cursor: pointer;
-    font-size: 16px;
-    border-radius: 5px;
-  }
+/* Domyślny styl dla wszystkich przycisków */
+#category-buttons button {
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  margin: 3px;
+  cursor: pointer;
+  font-weight: 600;
+  border-radius: 4px;
+}
 
-  .category-btn[data-category="sport"] {
-    background-color: #28a745; /* Zielony kolor dla sportu */
-  }
+/* Specyficzne kolory wg kategorii */
+#category-buttons button[data-category="wszystkie"] {
+  background-color: #6c757d; /* szary */
+}
 
-  .category-btn[data-category="natura"] {
-    background-color: #007bff; /* Niebieski kolor dla natury */
-  }
-  .category-btn[data-category="nauka"] {
-    background-color: #dc3545; /* Czerwony kolor dla nauki */
-  }
-  .category-btn[data-category="czarny humor"] {
-    background-color: #ffc107; /* Żółty kolor dla czarnego humoru */
-  }
+#category-buttons button[data-category="all"] {
+  background-color: pink; /* niebieski */
+}
 
-  .category-btn[data-category="zwiazki"] {
-    background-color: #fd7e14; /* Pomarańczowy kolor dla związków */
-  }
-    .active-category {
-    border: 6px solid black; /* Czarna ramka dla aktywnej kategorii */
-    box-sizing: border-box; /* Ważne, aby uwzględnić ramkę w układzie */
-  }
+#category-buttons button[data-category="sport"] {
+  background-color: green; /* zielony */
+}
+
+#category-buttons button[data-category="natura"] {
+  background-color: yellow; /* turkusowy */
+}
+
+#category-buttons button[data-category="nauka"] {
+  background-color: blue; /* żółty */
+}
+
+#category-buttons button[data-category="czarnyhumor"] {
+  background-color: red; /* pomarańczowy */
+}
+
+#category-buttons button[data-category="zwiazki"] {
+  background-color: blueviolet; /* różowy */
+}
+
+.left-button.sport,
+.left-buttonb.sport,
+.left-buttonbb.sport {
+  background-color: green !important;
+  color: white !important;
+}
+.left-button.nauka,
+.left-buttonb.nauka,
+.left-buttonbb.nauka {
+  background-color: blue !important;
+  color: white !important;
+}
+.left-button.natura,
+.left-buttonb.natura,
+.left-buttonbb.natura {
+  background-color: yellow !important;
+  color: white !important;
+}
+.left-button.zwiazki,
+.left-buttonb.zwiazki,
+.left-buttonbb.zwiazki {
+  background-color: blueviolet !important;
+  color: white !important;
+}
+.left-button.czarnyhumor,
+.left-buttonb.czarnyhumor,
+.left-buttonbb.czarnyhumor {
+  background-color: red !important;
+  color: white !important;
+}
+.left-button.all,
+.left-buttonb.all,
+.left-buttonbb.all {
+  background-color: pink !important;
+  color: white !important;
+}
+.active-category {
+  outline: 2px solid #333;
+  /* lub inny efekt wizualny */
+}
                 .highlighted-range {
   background-color: green;
 }
@@ -394,7 +432,6 @@ span.highlight {
                 .left-button,
                 .left-buttonb,
                 .left-buttonbb{
-                    color: orange;
                     border-radius: 5px;
                 }
                 .white-text {
@@ -959,7 +996,7 @@ span.highlight {
                 }
                 
   .category-btn {
-    background-color: #800080; /* Filetowy kolor dla wszystkich przycisków */
+    background-color: blueviolet; /* Filetowy kolor dla wszystkich przycisków */
     color: white;
     border: none;
     padding: 2px 7px;
@@ -990,11 +1027,11 @@ span.highlight {
     background-color: #dc3545; /* Czerwony kolor dla nauki */
   }
   .category-btn[data-category="czarnyhumor"] {
-    background-color: #ffc107; /* Żółty kolor dla czarnego humoru */
+    background-color: orange; /* Żółty kolor dla czarnego humoru */
   }
 
   .category-btn[data-category="zwiazki"] {
-    background-color: #fd7e14; /* Pomarańczowy kolor dla związków */
+    background-color: yellow; /* Pomarańczowy kolor dla związków */
   }
     .active-category {
     border: 6px solid black; /* Czarna ramka dla aktywnej kategorii */
@@ -1113,7 +1150,6 @@ input {
                     font-size: 7px;
                     width: 20px;
                     height: 20px;
-                    color: orange;
                     border-radius: 5px;
                 }
                 @keyframes blinkBackground {
@@ -1349,10 +1385,6 @@ input {
                     z-index: 99999; /* Wyższy z-index na hover */
                 }
 
-                button.left-button.first-button:hover {
-                    z-index: 99999; /* Wyższy z-index na hover */
-                    display: block; /* Wyświetlenie przycisku na hover */
-                }
                 .image-container3:hover {
                     z-index: 99999; /* Wyższy z-index na hover */
                 }
@@ -1480,8 +1512,8 @@ input {
                     z-index: 9999;
                 }
                 .sentenceBC {
-                    font-size: 12px;
-                    margin-bottom: 60px;
+                    font-size: 10px;
+                    margin-bottom: -25px;
                     color: white;
                     z-index: 9999;
                 }
@@ -1931,13 +1963,13 @@ input {
     </div>
 </div>
                 <div>
-    <button id="singleSentenceBtn" class="rodzaj-button">Jedno zdanie</button>
-    <button id="threeSentencesBtn" class="rodzaj-button">Trzy zdania</button>
+    <button id="singleSentenceBtn" class="rodzaj-button">Jedno zdanie (działa)</button>
+    <button id="threeSentencesBtn" class="rodzaj-button">Trzy zdania (działa)</button>
     <button id="singleWordBtn" class="rodzaj-button">Pojedyncze słowo</button>
                 </div><br>
                 <div id="matchingButtonsContainer" style="margin-top: 10px;"></div>
                 <p id="key3Result"></p>
-                <button class="left-button2">+<br></button>TE LEKCJE MAJĄ DOSTĘPNE SKOJARZENIA W WIĘKSZYM ZAKRESIE TEMATÓW
+                <button class="left-button2">+<br></button>TE LEKCJE MAJĄ DOSTĘPNE SKOJARZENIA W WIĘKSZYM ZAKRESIE TEMATÓW (DZIAŁA)
 <div class="user-cards" data-user-cards-container></div>
                 <div id="category-buttons">
   <button class="category-btn5" data-category="wszystkie"
@@ -1948,7 +1980,7 @@ input {
   <button class="category-btn" data-category="sport">Sport</button>
   <button class="category-btn" data-category="natura">Natura</button>
   <button class="category-btn" data-category="nauka">Nauka</button>
-  <button class="category-btn" data-category="czarny humor">Czarny humor</button>
+  <button class="category-btn" data-category="czarnyhumor">Czarny humor</button>
   <button class="category-btn" data-category="zwiazki">Związki</button>
 </div>
 
@@ -2007,10 +2039,54 @@ input {
             let buttonindex = false;
               // Zaznacz przycisk "Losowo" na początku
 
-let selectedCategory = 'wszystkie'; // Domyślnie losowo
-const tablica45xx = []; // Tablica kategorii
-let indexDivRange = 19;
-$('#category-buttons .category-btn').on('click', function () {
+const colorMapping = {
+  sport: 'sport',
+  natura: 'natura',
+  nauka: 'nauka',
+  czarnyhumor: 'czarnyhumor',
+  zwiazki: 'zwiazki',
+  all: 'all',
+  wszystkie: 'wszystkie' // jeśli używasz takiej klasy
+};
+
+
+const colors = {
+  sport: 'rgb(128, 0, 128)',
+  natura: 'green',
+  nauka: 'orange',
+  czarnyhumor: 'darkorange',
+  zwiazki: 'pink',
+  all: 'steelblue',
+  wszystkie: 'grey'
+};
+
+let selectedCategory = 'wszystkie';
+const startRange = 1;
+const endRange = 7;
+
+$('#category-buttons .category-btn, #category-buttons .category-btn5').on('click', function () {
+  $('#category-buttons .category-btn, #category-buttons .category-btn5').removeClass('active-category');
+  $(this).addClass('active-category');
+
+  selectedCategory = $(this).data('category');
+
+  $('.sentence-block, .sentence-blockB').each(function () {
+    const dataName = parseInt($(this).attr('data-name'), 10);
+    if (isNaN(dataName)) return;
+
+    const $btn = $(this).find('button.left-button, button.left-buttonb, button.left-buttonbb');
+
+    // Usuń klasy kolorów i inline style
+    $btn.removeClass(Object.values(colorMapping).join(' '));
+    $btn.css('background-color', '');
+    $btn.css('color', '');
+
+    if (selectedCategory === 'wszystkie' || (dataName >= startRange && dataName <= endRange)) {
+      $btn.addClass(selectedCategory);
+      $btn.css('background-color', colors[selectedCategory] || '');
+      $btn.css('color', 'white');
+    }
+  });
     $('#category-buttons .category-btn').removeClass('active-category');
     $(this).addClass('active-category');
 indexDivRange = '1'; // Zakres od 1 do 3
@@ -2019,11 +2095,8 @@ indexDivRange = '1'; // Zakres od 1 do 3
     tablica7[0] = $(this).data('category'); // <-- poprawione
     console.log('Wybrana kategoria:', tablica7[0]);
     przekazArgument0(tablica7[0], 'all', '', '', '', '', '', tablica3[1], 'other', false, '', '', '', '', indexDivRange);
-
-    $('.run-button3').each(function () {
-        $(this).text('Otwórz lekcję w nowym oknie - ' + selectedCategoryText);
-    });
 });
+
 $(document).ready(function () {
   // domyślnie zaznaczony
   $('#category-buttons .category-btn5[data-category="wszystkie"]').addClass('active-category');
@@ -2185,7 +2258,7 @@ searchInput?.addEventListener("input", (e) => {
     }
     document.getElementById("singleSentenceBtn")?.addEventListener("click", () => {
         tablica3[0] = 'zdania';
-        przekazArgument0(tablica7[0], tablica3[2], '', false, 'zdania', false, false, tablica3[1], tablica3[4], true, matchingLessons5, matchingLessons5b, false);
+        przekazArgument0(tablica7[0], tablica3[2], '', false, 'zdania', false, false, tablica3[1], tablica3[4], true, matchingLessons5, matchingLessons5b, isSearching2, staraTablica40, '100', '', '');
     });
 
     document.getElementById("threeSentencesBtn")?.addEventListener("click", () => {
@@ -2439,7 +2512,7 @@ function removeFiszka(idFiszkiGroup) {
         showFiszkiForLesson5ddb(tablica40, tablica41, fiszki);
     }, 0);
         tablica3[0] = 'zdania';
-        przekazArgument0(tablica7[0], tablica3[2], '', false, 'zdania', true, true, tablica3[1], tablica3[4], false, '', '');
+        przekazArgument0(tablica7[0], tablica3[2], '', false, 'zdania', false, false, tablica3[1], tablica3[4], true, matchingLessons5, matchingLessons5b, isSearching2, staraTablica40, '100', '', '');
     });
         // Dodanie zdarzenia kliknięcia do przycisku
 document.getElementById("threeSentencesBtn").addEventListener("click", () => {
@@ -3190,7 +3263,7 @@ function findMatchingFiszkiCount(category, fiszki) {
 
 
             const partLengths3 = calculatePartLengths3(fiszki);
-            console.log('Cumulative counts:', partLengths3);
+            console.log('Cumulative counts3:', partLengths3);
 
 
 
@@ -3528,7 +3601,7 @@ if (myVariable.length > 0) {
                     $('.grid-container .image-container3').remove();
                     $('.grid-container .image-container5').remove();
                     // Wyświetl pojedyncze zdania dla znalezionych lekcji
-                    console.log('Warunek czas === "fiszki" jest spełniony2');
+                    console.log('Warunek11', isSearching);
 
                     if (myVariable.length > 0) {
                         // Inicjuj flagę dla wystąpienia zera
@@ -3605,16 +3678,9 @@ if (myVariable.length > 0) {
                             // Dodanie wartości true dla każdego lessonId w polski
 
 
-                            // Znajdź długości drugiej części zdania dla każdej lekcji
                             const lesson1PartLength = partLengths3.find(item => item.id === lessonId1)?.cumulativeCount || 0;
 
-                            // Obliczanie skumulowanych długości
                             cumulativeFirstPartLength1 += lesson1PartLength;
-
-                            const cumulativeTotalFirstPartLength1 = cumulativeFirstPartLength1;
-
-                            // Aktualizacja poprzedniej wartości skumulowanej dla następnej iteracji
-                            previousCumulativeFirstPartLength3 = cumulativeFirstPartLength3;
 
                             const lessonObjectA = {
                                 lessonId1: lessonId1,
@@ -3642,10 +3708,10 @@ if (myVariable.length > 0) {
 
 
                             if ((tablica15.length <= 51 || tablica15.length === 0)) {
-                                console.log('wykonuje się 8');
-
-                                showCombinedSentenceForLesson2(selectedCategory, polski, index50, matchingIndexes, lessonId1, newIndex, indexDiv, lesson1PartLength);
-                                console.log('hej321', polski);
+                                console.log('hej18vv-', matchingLessons5b);
+                                isSearching = true;
+                                showCombinedSentenceForLesson2(isSearching, selectedCategory, polski, index50, matchingIndexes, lessonId1, newIndex, indexDiv, lesson1PartLength, matchingLessons5b);
+                                console.log('hej321', lesson1PartLength);
                             }
                         }
                     }
@@ -3936,9 +4002,7 @@ for (let i = 0; i < myVariable.length; i += 3) {
                             }
     // --- TWOJA WARSTWA WARUNKU I indexDiv0 ---
     console.log('xxx:', indexDivRange);
-    if ((tablica10.length <= indexDivRange || tablica10.length === 0) && ostatniaWartosc < 2 && isSearching) {
-        
-        } else if ((tablica10.length <= indexDivRange || tablica10.length === 0) && ostatniaWartosc < 2) {
+if ((tablica10.length <= indexDivRange || tablica10.length === 0) && ostatniaWartosc < 2) {
 const newIndex2 = null;
 const indexDiv0b2 = null;
 const newIndex5 = null;
@@ -4299,9 +4363,9 @@ if (ostatniaWartosc % 2 === 1) {
                                 }
                             }
                             if ((tablica15.length <= 57 || tablica15.length === 0)) {
-                                console.log('wykonuje się 8');
+                                console.log('wykonuje się 8mm', isSearching);
 
-                                showCombinedSentenceForLesson2(selectedCategory, polski, index50, matchingIndexes, lessonId1, newIndex, indexDiv, lesson1PartLength);
+                                showCombinedSentenceForLesson2(selectedCategory, polski, index50, matchingIndexes, lessonId1, newIndex, indexDiv, lesson1PartLength, isSearching);
                                 console.log('hej321', polski);
                             }
                         }
@@ -4311,14 +4375,13 @@ if (ostatniaWartosc % 2 === 1) {
             }
             </script>
                                     <script src="nowydzialajacy.js"></script>
+                                            <script src="displayx1.js"></script>
                     <script src="displayx3.js"></script>
                     <script src="start/miniatury-prezentacja.js"></script>
                     <script>
             
                     
 </script>
-
-        <script src="displayx1.js"></script>
     <script>                   
 
             function showCombinedSentenceForLesson5(index50, lessonIdToShow1, newIndex, indexDiv, buttonindex, lessonLength) {

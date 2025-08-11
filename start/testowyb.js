@@ -19626,48 +19626,47 @@ if (Array.isArray(fiszka.entries) && fiszka.entries.length > 0) {
             selectedIndexes = fiszka.entries
                 .map((entry, index) => ({ entry, index }))
                 .filter(({ entry }) => entry.category.includes("sport"))
-                .slice(0, 5)
+                .slice(0, 7)
                 .map(obj => obj.index);
         } else if (category === "natura") {
             selectedIndexes = fiszka.entries
                 .map((entry, index) => ({ entry, index }))
                 .filter(({ entry }) => entry.category.includes("natura"))
-                .slice(0, 5)
+                .slice(0, 7)
                 .map(obj => obj.index);
         } else if (category === "nauka") {
             selectedIndexes = fiszka.entries
                 .map((entry, index) => ({ entry, index }))
                 .filter(({ entry }) => entry.category.includes("nauka"))
-                .slice(0, 5)
+                .slice(0, 7)
                 .map(obj => obj.index);
-        } else if (category === "czarny humor") {
-            selectedIndexes = fiszka.entries
-                .map((entry, index) => ({ entry, index }))
-                .filter(({ entry }) => entry.category.includes("czarny humor"))
-                .slice(0, 5)
-                .map(obj => obj.index);
-        } else if (category === "zwiazki") {
+        } else if (category === 'czarny humor' || category === 'czarnyhumor') {
     selectedIndexes = fiszka.entries
         .map((entry, index) => ({ entry, index }))
-        .filter(({ entry }) => {
-            // Usuwamy polskie znaki z kategorii
-            const normalizedCategory = entry.category.map(cat => cat.normalize("NFD").replace(/[\u0300-\u036f]/g, ""));
-            return normalizedCategory.some(cat => cat.includes("zwiazki"));
-        })
-        .slice(0, 5)
+        .filter(({ entry }) => 
+            entry.category.includes('czarnyhumor') || 
+            entry.category.includes('czarny humor')
+        )
+        .slice(0, 7)
         .map(obj => obj.index);
+        } else if (category === "zwiazki") {
+            selectedIndexes = fiszka.entries
+                .map((entry, index) => ({ entry, index }))
+                .filter(({ entry }) => entry.category.includes("zwiazki"))
+                .slice(0, 7)
+                .map(obj => obj.index);
 } else if (category === "all") {
             // Losowo wybieramy do 3 unikalnych indeksów
             const allIndexes = [...Array(fiszka.entries.length).keys()];
             selectedIndexes = allIndexes
                 .sort(() => 0.5 - Math.random()) // losowe przetasowanie
-                .slice(0, 5);
+                .slice(0, 7);
         } else {
             // Losowo wybieramy do 3 unikalnych indeksów
             const allIndexes = [...Array(fiszka.entries.length).keys()];
             selectedIndexes = allIndexes
                 .sort(() => 0.5 - Math.random()) // losowe przetasowanie
-                .slice(0, 5);
+                .slice(0, 7);
         }
 
         const randomButtonIndex = selectedIndexes[0] || 0;
