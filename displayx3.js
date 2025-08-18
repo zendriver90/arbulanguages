@@ -2,8 +2,8 @@
             const tablica10 = [];
             const displayedIds = [];
 function showCombinedSentenceForLesson(number, selectedCategory, matchingIndexes3, rodzaj, matchingIndexes2, buttonindex, index50, lessonIdToShow1, lessonIdToShow2, lessonIdToShow3, fiszki, matchingIndexes, startIndex, newIndex, newIndex10, indexDiv, indexDiv0b, lessonsArray, lesson1PartLength, lesson2PartLength, lesson3PartLength, lesson1Sentences, lesson2Sentences, lesson3Sentences, lesson1FirstPartLength, lesson2FirstPartLength, lesson3FirstPartLength, lesson1SecondPartLength, lesson2SecondPartLength, lesson3SecondPartLength, cumulativeFirstPartLength1, cumulativeFirstPartLength2, cumulativeFirstPartLength3, lessonsArrayZ, matchingLessons5, matchingLessons5b, isSearching) {
-                console.log('hej55bbv', indexDiv);
-                console.log('hej100', newIndex);
+                console.log('hej55bbv', buttonindex);
+                console.log('hej100', index50);
                             let tablica60 = [];
                 const matchingFiszki1 = fiszki.filter(fiszka => fiszka.id[1] === lessonIdToShow1);
                 const matchingFiszki2 = fiszki.filter(fiszka => fiszka.id[1] === lessonIdToShow2);
@@ -431,7 +431,7 @@ function addBackgroundToText(matchingFiszki1, matchingIndexes, currentIndexValue
 </div>
 `);
 
-                        }, 400);
+                        }, 0);
 
                     }
 
@@ -442,6 +442,7 @@ $container.addClass('image-container3');
 $container.css('position', 'relative');
 $container.attr('data-lesson', indexDiv);
 
+
 const $insertedContainer = $(`.image-container3b[data-lesson="${indexDiv + 1}"]`);
 if ($insertedContainer.length > 0) {
     $container.insertBefore($insertedContainer);
@@ -449,7 +450,6 @@ if ($insertedContainer.length > 0) {
     // Jeśli nie ma takiego kontenera, dodaj na koniec
     $('.grid-container').append($container);
 }
-
 
                     const srcWords = [srcWord1, srcWord2, srcWord3];
                     const srcWordsb = [srcWord1d, srcWord2d, srcWord3d];
@@ -488,7 +488,6 @@ console.log("srcWord3b:", srcWord3b);
                                 console.log('hej80', index);
                                 // Sprawdź, czy jesteśmy poza zakresem tablicy
                                 if (index >= srcWords.length && !funkcjaWywolana) {
-                                    przekazArgument0(tablica7[0], tablica3[2], undefined, false, tablica3[0], true, true, tablica3[1], tablica3[4], false, '', '', '', '', '100', indexDiv0, indexDiv0b);
                                     console.log("wykonuje się");
                                     funkcjaWywolana = true;
                                 }
@@ -702,7 +701,6 @@ $videoElement.on('loadedmetadata', function () {
                                 console.log('hej80', index);
                                 // Sprawdź, czy jesteśmy poza zakresem tablicy
                                 if (index >= srcWords.length && !funkcjaWywolana) {
-                                    przekazArgument0(tablica7[0], tablica3[2], undefined, false, tablica3[0], true, true, tablica3[1], tablica3[4], false, '', '', '', '', '100', indexDiv0, indexDiv0b);
                                     console.log("wykonuje się");
                                     funkcjaWywolana = true;
                                 }
@@ -976,11 +974,11 @@ $button.css({
             'text-align': 'center',
             'user-select': 'none'
         })
-        .text('4');
+        .text('8');
 
     $container.append($countdown);
 
-    let counter = 4;
+    let counter = 8;
     const countdownInterval = setInterval(() => {
         counter--;
         $countdown.text(counter);
@@ -988,8 +986,7 @@ $button.css({
         if (counter === 0) {
             clearInterval(countdownInterval);
             $countdown.remove();
-            przekazArgument0(tablica7[0], tablica3[2], undefined, false, tablica3[0], true, true, tablica3[1], tablica3[4], false, '', '', '', '', '100', indexDiv0, indexDiv0b);
-        }
+            }
     }, 1000);
 
     // Kontener na tekst, który będzie scrollowany
@@ -1031,36 +1028,34 @@ $button.css({
 
     $container.append($textContainer);
         return;
-} else if (index50 === 0 && buttonindex && !isSearching) {
-                        let stopButtonAdded = false;
-                        console.log('hej3338', newIndex);
+} else if (newIndex10 === 0 && !isSearching) {
+                        console.log('hej33b', buttonindex);
                         let funkcjaWywolana = false;
+                        let stopButtonAdded = false;
                         if (indexDiv % 2 === 0) {
-                            function addVideo2(index) {
+                            function addVideo1(index) {
                                 console.log('hej80', index);
-
                                 // Sprawdź, czy jesteśmy poza zakresem tablicy
                                 if (index >= srcWords.length && !funkcjaWywolana) {
-                                    setTimeout(function () {
-                                        $('.progress-bar').remove();
-                                    }, 200); // Opóźnienie w milisekundach (tu: 200 ms)
-                                    przekazArgument0(tablica7[0], tablica3[2], undefined, false, tablica3[0], true, true, tablica3[1], tablica3[4], false, '', '', '', '', '100');
                                     console.log("wykonuje się");
                                     funkcjaWywolana = true;
                                 }
-
                                 // Usuń poprzednie wideo
                                 removePreviousVideo();
+
                                 console.log('hej78', index);
 
                                 // Dodaj div z wideo do tła kontenera
-                                const $vidDiv = $('<div>').addClass('background-video');
+                                const $vidDiv = $('<div>').addClass('background-video').css({
+                                    'z-index': '1' // Ustaw z-index dla wideo na niższy
+                                });
 
-                                // Utwórz element <video> i ustaw atrybuty
                                 const $videoElement = $('<video>').attr({
-                                    'autoplay': true, // Automatyczne odtwarzanie wideo
-                                    'muted': true, // Wyciszenie dźwięku wideo
-                                    'loop': true // Zapętlenie wideo
+                                    'autoplay': true,
+                                    'muted': true,
+                                    'loop': true
+                                }).css({
+                                    'z-index': '1' // Ustaw z-index dla wideo na niższy
                                 });
                                 if (window.matchMedia("(min-width: 999px)").matches) {
                                     // Dodaj klasę CSS zależnie od indeksu wideo
@@ -1071,6 +1066,7 @@ $button.css({
                                     }
                                 }
                                 // Utwórz element <source> dla wideo i ustaw atrybuty
+
                                 const $sourceElement = $('<source>').attr({
                                     'src': srcWords[index], // Poprawne użycie interpolacji
                                     'type': 'video/mp4'     // Typ pliku wideo
@@ -1078,59 +1074,52 @@ $button.css({
 
                                 // Dodaj element source do elementu video
                                 $sourceElement.appendTo($videoElement);
-
                                 // Dodaj element video do diva dla wideo
                                 $videoElement.appendTo($vidDiv);
-
                                 // Dodaj element <source> do elementu <video>
+
                                 // Obsługa błędu ładowania wideo
                                 $videoElement.onerror = function () {
                                     console.error('Nie można załadować pliku wideo.');
                                 };
-
                                 let currentIndexValue = [];
-
                                 // Funkcja obsługi zdarzenia loadedmetadata
-                                $videoElement.on('loadedmetadata', function () {
-                                    const videoDuration = this.duration;
-                                    videoDurations[index] = videoDuration;
-                                    console.log('tablica77', totalDuration);
+$videoElement.hide(); // Ukrycie wideo przed załadowaniem
 
-                                    $videoElement.on('timeupdate', function () {
-                                        let adjustedProgress = 0;
-                                        for (let i = 0; i < index; i++) {
-                                            adjustedProgress += (videoDurations[i] / totalDuration) * 100;
-                                        }
-                                        adjustedProgress += (this.currentTime / videoDuration) * (videoDurations[index] / totalDuration) * 100;
-                                        updateProgress(adjustedProgress);
-                                        console.log('hej78', index);
+$videoElement.on('loadedmetadata', function () {
+    $videoElement.show(); // Pokaż wideo po załadowaniu metadanych
 
-                                        // Sprawdź, czy wartość index nie została jeszcze dodana do tablicy currentIndex
-                                        if (!currentIndexValue.includes(index)) {
-                                            // Dodaj index do tablicy currentIndex
-                                            currentIndexValue.push(index);
-                                            console.log('hej70', currentIndexValue);
+    const videoDuration = this.duration;
+    videoDurations[index] = videoDuration;
+    console.log('tablica77', totalDuration);
 
-                                            // Wywołaj funkcję addBackgroundToText tylko raz
-                                            if (currentIndexValue[0] === 0 || currentIndexValue[0] === 1 || currentIndexValue[0] === 2) {
-                                                addBackgroundToText(matchingFiszki1, matchingIndexes, currentIndexValue, true, lesson1FirstPartLength, lesson1PartLength, matchingLessons5b);
-                                            }
-                                        }
+    $videoElement.on('timeupdate', function () {
+        let adjustedProgress = 0;
+        for (let i = 0; i < index; i++) {
+            adjustedProgress += (videoDurations[i] / totalDuration) * 100;
+        }
+        adjustedProgress += (this.currentTime / videoDuration) * (videoDurations[index] / totalDuration) * 100;
+        updateProgress(adjustedProgress);
+        console.log('hej78', index);
 
-                                        // Sprawdź, czy wideo zostało zakończone
-                                        if ($videoElement[0].duration - $videoElement[0].currentTime < 1) {
-                                            console.log('Wideo zakończone, uruchamiam następne.');
-                                            // Odtwórz następne wideo po zakończeniu poprzedniego
-                                            addVideo2(index + 1);
-                                            updateProgress(0);
-                                        }
-                                    });
-                                });
+        if (!currentIndexValue.includes(index)) {
+            currentIndexValue.push(index);
+            console.log('hej70', currentIndexValue);
+            if (currentIndexValue[0] === 0 || currentIndexValue[0] === 1 || currentIndexValue[0] === 2) {
+                addBackgroundToText(matchingFiszki1, matchingIndexes, currentIndexValue, true, lesson1FirstPartLength, lesson1PartLength, matchingLessons5b);
+            }
+        }
 
+        if ($videoElement[0].duration - $videoElement[0].currentTime < 1) {
+            console.log('Wideo zakończone, uruchamiam następne.');
+            addVideo1(index + 1);
+            updateProgress(0);
+        }
+    });
+});
                                 addScenes(index);
-                                // Dodaj wideo do kontenera
+                                // Dodaj div z wideo do tła kontenera
                                 $vidDiv.appendTo($container);
-
                                 function updateProgress(progress) {
                                     // Aktualizuj pasek postępu na dole kontenera
                                     $('.progress-bar').css('width', progress + '%');
@@ -1163,7 +1152,7 @@ $button.css({
                                     });
                                 }
                                 $progressBar.appendTo($container);
-
+// Funkcja dodająca nowe elementy <div>
                                 function addScenes(index) {
                                     // Sprawdź, czy istnieje element <div> o klasie 'scene-description'
                                     let $sceneDiv = $container.find('.scene-description');
@@ -1203,18 +1192,10 @@ $button.css({
                                                 'z-index': '99999999999'
                                             });
                                         }
-                                    } else if (window.matchMedia("(min-width: 999px)").matches) {
-                                        // Dodatkowe style, jeśli indexDiv jest podzielny przez 4
-                                        if (indexDiv % 4 === 1) {
-                                            // Dodaj klasę 'scene-description2' do $sceneDiv
-                                            $sceneDiv.removeClass('scene-description');
-                                            $sceneDiv.addClass('scene-description2');
-                                        } else {
-                                            // Upewnij się, że klasa 'scene-description2' jest usunięta, jeśli nie jest podzielna przez 4
-                                            $sceneDiv.removeClass('scene-description2');
-                                        }
                                     }
                                 }
+
+
 // Tworzenie przycisku "Stop"
                                 if (!stopButtonAdded) {
                                     const $stopButton = $('<img>')
@@ -1262,34 +1243,32 @@ $button.css({
                                 }
                             }
                             setTimeout(function () {
-                                addVideo2(0);
-                            }, 700);
+                                addVideo1(0);
+                            }, 200);
                         } else if (indexDiv === 1 || indexDiv === 11 || indexDiv === 13 || indexDiv === 17 || indexDiv === 19 || indexDiv === 23 || indexDiv === 29 || indexDiv === 31 || indexDiv === 37 || indexDiv === 41 || indexDiv === 43 || indexDiv % 3 === 0 || indexDiv % 5 === 0 || indexDiv % 7 === 0) {
-                            function addVideo2b(index) {
+                            function addVideo1b(index) {
                                 console.log('hej80', index);
-
                                 // Sprawdź, czy jesteśmy poza zakresem tablicy
                                 if (index >= srcWords.length && !funkcjaWywolana) {
-                                    setTimeout(function () {
-                                        $('.progress-bar').remove();
-                                    }, 200); // Opóźnienie w milisekundach (tu: 200 ms)
-                                    przekazArgument0(tablica7[0], tablica3[2], undefined, false, tablica3[0], true, true, tablica3[1], tablica3[4], false, '', '', '', '', '100');
                                     console.log("wykonuje się");
                                     funkcjaWywolana = true;
                                 }
-
                                 // Usuń poprzednie wideo
                                 removePreviousVideo();
+
                                 console.log('hej78', index);
 
                                 // Dodaj div z wideo do tła kontenera
-                                const $vidDiv = $('<div>').addClass('background-video22');
+                                const $vidDiv = $('<div>').addClass('background-video22').css({
+                                    'z-index': '1' // Ustaw z-index dla wideo na niższy
+                                });
 
-                                // Utwórz element <video> i ustaw atrybuty
                                 const $videoElement = $('<video>').attr({
-                                    'autoplay': true, // Automatyczne odtwarzanie wideo
-                                    'muted': true, // Wyciszenie dźwięku wideo
-                                    'loop': true // Zapętlenie wideo
+                                    'autoplay': true,
+                                    'muted': true,
+                                    'loop': true
+                                }).css({
+                                    'z-index': '1' // Ustaw z-index dla wideo na niższy
                                 });
                                 if (window.matchMedia("(min-width: 999px)").matches) {
                                     // Dodaj klasę CSS zależnie od indeksu wideo
@@ -1300,6 +1279,7 @@ $button.css({
                                     }
                                 }
                                 // Utwórz element <source> dla wideo i ustaw atrybuty
+
                                 const $sourceElement = $('<source>').attr({
                                     'src': srcWords[index], // Poprawne użycie interpolacji
                                     'type': 'video/mp4'     // Typ pliku wideo
@@ -1307,24 +1287,20 @@ $button.css({
 
                                 // Dodaj element source do elementu video
                                 $sourceElement.appendTo($videoElement);
-
                                 // Dodaj element video do diva dla wideo
                                 $videoElement.appendTo($vidDiv);
-
                                 // Dodaj element <source> do elementu <video>
+
                                 // Obsługa błędu ładowania wideo
                                 $videoElement.onerror = function () {
                                     console.error('Nie można załadować pliku wideo.');
                                 };
-
                                 let currentIndexValue = [];
-
                                 // Funkcja obsługi zdarzenia loadedmetadata
                                 $videoElement.on('loadedmetadata', function () {
                                     const videoDuration = this.duration;
                                     videoDurations[index] = videoDuration;
                                     console.log('tablica77', totalDuration);
-
                                     $videoElement.on('timeupdate', function () {
                                         let adjustedProgress = 0;
                                         for (let i = 0; i < index; i++) {
@@ -1333,13 +1309,11 @@ $button.css({
                                         adjustedProgress += (this.currentTime / videoDuration) * (videoDurations[index] / totalDuration) * 100;
                                         updateProgress(adjustedProgress);
                                         console.log('hej78', index);
-
                                         // Sprawdź, czy wartość index nie została jeszcze dodana do tablicy currentIndex
                                         if (!currentIndexValue.includes(index)) {
                                             // Dodaj index do tablicy currentIndex
                                             currentIndexValue.push(index);
                                             console.log('hej70', currentIndexValue);
-
                                             // Wywołaj funkcję addBackgroundToText tylko raz
                                             if (currentIndexValue[0] === 0 || currentIndexValue[0] === 1 || currentIndexValue[0] === 2) {
                                                 addBackgroundToText(matchingFiszki1, matchingIndexes, currentIndexValue, true, lesson1FirstPartLength, lesson1PartLength, matchingLessons5b);
@@ -1350,16 +1324,14 @@ $button.css({
                                         if ($videoElement[0].duration - $videoElement[0].currentTime < 1) {
                                             console.log('Wideo zakończone, uruchamiam następne.');
                                             // Odtwórz następne wideo po zakończeniu poprzedniego
-                                            addVideo2b(index + 1);
+                                            addVideo1b(index + 1);
                                             updateProgress(0);
                                         }
                                     });
                                 });
-
                                 addScenes(index);
-                                // Dodaj wideo do kontenera
+                                // Dodaj div z wideo do tła kontenera
                                 $vidDiv.appendTo($container);
-
                                 function updateProgress(progress) {
                                     // Aktualizuj pasek postępu na dole kontenera
                                     $('.progress-bar').css('width', progress + '%');
@@ -1392,7 +1364,7 @@ $button.css({
                                     });
                                 }
                                 $progressBar.appendTo($container);
-
+// Funkcja dodająca nowe elementy <div>
                                 function addScenes(index) {
                                     // Sprawdź, czy istnieje element <div> o klasie 'scene-description'
                                     let $sceneDiv = $container.find('.scene-description');
@@ -1432,18 +1404,10 @@ $button.css({
                                                 'z-index': '99999999999'
                                             });
                                         }
-                                    } else if (window.matchMedia("(min-width: 999px)").matches) {
-                                        // Dodatkowe style, jeśli indexDiv jest podzielny przez 4
-                                        if (indexDiv % 4 === 1) {
-                                            // Dodaj klasę 'scene-description2' do $sceneDiv
-                                            $sceneDiv.removeClass('scene-description');
-                                            $sceneDiv.addClass('scene-description2');
-                                        } else {
-                                            // Upewnij się, że klasa 'scene-description2' jest usunięta, jeśli nie jest podzielna przez 4
-                                            $sceneDiv.removeClass('scene-description2');
-                                        }
                                     }
                                 }
+
+
 // Tworzenie przycisku "Stop"
                                 if (!stopButtonAdded) {
                                     const $stopButton = $('<img>')
@@ -1491,8 +1455,8 @@ $button.css({
                                 }
                             }
                             setTimeout(function () {
-                                addVideo2b(0);
-                            }, 700);
+                                addVideo1b(0);
+                            }, 200);
                         }
                         }
                         
@@ -1500,7 +1464,7 @@ $button.css({
                     // Tworzenie nowego elementu div za pomocą jQuery
 
 
-                    if ((index50 === 0 && buttonindex && !isSearching) || (newIndex === 0 && !buttonindex && !isSearching) || (newIndex10 === 0 && !buttonindex && !isSearching)) {
+                    if ((newIndex === 0 && !buttonindex && !isSearching) || (newIndex10 === 0 && !isSearching && number)) {
     var $sentenceDivB = $('<div></div>');
     $sentenceDivB.addClass('sentenceBA');
 
@@ -1549,7 +1513,7 @@ const $button = $('<button></button>')
                 tablica7[0], tablica3[2], index55,
                 true, tablica3[0], true, true,
                 tablica3[1], tablica3[4],
-                false, '', '', '', '', indexDivRange
+                false, '', '', '', '', indexDivRange, '', ''
             );
         }, 100);
     });

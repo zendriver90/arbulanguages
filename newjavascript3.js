@@ -3929,3 +3929,172 @@ function showFiszkiForLesson(lessonIdToShow, fiszki, category) {
 
 </div>
 </html>
+                    const $container = $('<div></div>'); // Tworzymy nowy element div za pomocą jQuery
+                    $container.addClass('image-container3b'); // Dodajemy klasę do nowego diva
+                    $container.css('position', 'relative'); // Ustawiamy pozycję diva na relative
+
+                    // Możesz również dodać dodatkowe atrybuty, takie jak 'data-lesson'
+                    $container.attr('data-lesson', indexDiv);
+function addVideo3(index) {
+                            console.log('index44b', indexDiv);
+
+                            // Tworzymy element <video> z atrybutami
+                            const $videoElement = $('<video>').attr({
+                                'loop': true,
+                                'style': 'z-index: 1',
+                                'poster': srcWordimage[index] // Dodanie plakatu do wideo
+                            });
+
+// Tworzymy kontener dla miniatur
+                            const $thumbnailContainer = $('<div>').addClass('thumbnail-container').css({
+                                display: 'flex',
+                                justifyContent: 'space-between',
+                                position: 'absolute',
+                                top: '10px',
+                                left: '10px',
+                                width: '90%', // Kontener zajmuje 90% szerokości wideo
+                                zIndex: '2',
+                                pointerEvents: 'auto' // Reaguje na zdarzenia
+                            });
+                            
+                            
+srcWordsb.forEach((src, idx) => {
+    // Miniatura
+const $thumbnail = $('<img>').attr({
+    src: src,
+    class: `thumbnail-${idx + 1}`
+}).css({
+    width: 'calc(100% - 4px)', // Odejmujemy szerokość ramki (2px z każdej strony)
+    cursor: 'pointer',
+    border: '2px solid white',
+    borderRadius: '5px',
+    boxShadow: '0px 2px 4px rgba(0, 0, 0, 0.3)',
+    display: 'block' // Zapobiega pustym marginesom obrazka
+});
+    
+
+const $icons = $('<div></div>').addClass('overlay-icons').css({
+    position: 'absolute',
+    top: '50%',
+    left: '50%',
+    transform: 'translate(-50%, -50%)',
+    display: 'flex', // Flexbox dla ułożenia ikon w linii
+    flexDirection: 'row', // Ułożenie ikon w poziomie
+    alignItems: 'center', // Centrowanie ikon w pionie
+    gap: '10px', // Odstęp między ikonami
+    zIndex: 2,  // Zwiększamy zIndex, aby ikony były nad miniaturą, ale nie zasłaniały obramowania
+    pointerEvents: 'auto' // Zmiana na auto, aby ikony były klikalne, jeśli potrzebujesz
+});
+    // Ikony
+    // Ikona speaker
+const $speakerIcon = $('<img>')
+  .attr({
+    src: 'https://www.arbulang.com/img/play.png',
+    alt: 'Głośnik'
+  })
+  .css({
+    width: '18px',
+    height: '18px',
+    cursor: 'pointer'
+  })
+  .on('click', function(e) {
+    e.stopPropagation(); // Zapobiegamy propagacji kliknięcia
+    
+    // Ustawienie plakatu dla wideo
+    $videoElement.attr('poster', src);
+    $videoElement[0].load();
+    
+    console.log('Kliknięto speakerIcon dla idx:', idx);
+
+    // Usuwamy wszystkie miniatury, które NIE są klikniętą miniaturą
+    $thumbnailContainer.find('img').not(`.thumbnail-${idx + 1}`).remove();
+
+    // Znalezienie klikniętej miniatury i usunięcie samego obrazka
+    const $clickedThumbnail = $thumbnailContainer.find(`.thumbnail-${idx + 1}`);
+    
+    // Tworzymy pusty div zamiast obrazka, aby ramka pozostała
+    const $emptyFrame = $('<div></div>')
+      .css({
+        width: $clickedThumbnail.width(),  // Szerokość taka sama jak miniatura
+        height: $clickedThumbnail.height(), // Wysokość taka sama jak miniatura
+        border: '2px solid white', // Ramka taka sama jak wcześniej
+        borderRadius: '5px',
+        boxShadow: '0px 2px 4px rgba(0, 0, 0, 0.3)',
+        backgroundColor: 'transparent', // Upewniamy się, że tło jest przezroczyste
+        display: 'block' // Zapobiega pustym marginesom obrazka
+      });
+
+    // Zamieniamy obrazek na pusty div
+    $clickedThumbnail.replaceWith($emptyFrame);
+
+    setTimeout(function () {
+      addVideo2bd(idx);
+    }, 200);
+});
+    const $playIcon = $('<img>').attr({
+        src: 'https://www.arbulang.com/img/music2.png', // Ikona play
+        alt: 'Play'
+    }).css({
+        width: '20px',
+        height: '20px',
+        cursor: 'pointer'
+    }).on('click', function () {
+        // Odtwarzanie wideo po kliknięciu playIcon
+        addVideo3(idx); // Przekazanie idx zamiast indexDiv
+    });
+
+    // Dodaj ikony do kontenera ikon
+    $icons.append($speakerIcon, $playIcon);
+
+    // Dodaj miniaturę i ikony do kontenera miniatury
+    const $thumbnailWrapper = $('<div></div>').css({
+        position: 'relative', // Pozycjonowanie względne dla poprawnego overlay
+        width: '30%', // Każdy wrapper zajmuje 1/3 szerokości
+        overflow: 'hidden' // Zapewnia, że overlay nie wychodzi poza miniaturę
+    }).append($thumbnail, $icons);
+
+    // Obsługa hover
+    $thumbnailWrapper.hover(
+        function () {
+            $icons.css('display', 'flex'); // Pokaż ikony
+        },
+        function () {
+            $icons.css('display', 'none'); // Ukryj ikony
+        }
+    );
+
+
+    
+
+    // Dodaj wrapper do głównego kontenera
+    $thumbnailContainer.append($thumbnailWrapper);
+
+                            });
+
+                            // Tworzymy element <div> dla nakładki
+                            const $overlay = $('<div>').addClass('overlay');
+
+                            // Tworzymy przycisk w overlay
+                            const $buttonb = $('<img>').attr({
+                                'src': 'https://www.arbulang.com/img/startsystem.png',
+                                'class': 'overlay-button'
+                            });
+
+                            // Dodajemy elementy do kontenera
+                            $container.append($thumbnailContainer); // Miniatury
+                            $container.append($videoElement); // Wideo
+                            $container.append($overlay); // Nakładka
+                            $container.append($buttonb); // Przycisk w nakładce
+                            // Dodaj funkcję hover do kontenera
+
+
+                            // Jeśli kontener nie został jeszcze wybrany, wybierz losowy kontener
+                            addBackgroundToText1b(matchingFiszki1, matchingIndexes, true, lesson1PartLength, matchingIndexes2, rodzaj, matchingIndexes3, matchingLessons5b);
+                            addBackgroundToText2b(matchingFiszki2, matchingIndexes, true, lesson2PartLength, matchingIndexes2, rodzaj, matchingIndexes3, matchingLessons5b);
+                            addBackgroundToText3b(matchingFiszki3, matchingIndexes, true, lesson3PartLength, matchingIndexes2, rodzaj, matchingIndexes3, matchingLessons5b);
+                        }
+                        if (newIndex !== 0) {
+                        setTimeout(function () {
+                            addVideo3(0);
+                        }, 100);
+                    }

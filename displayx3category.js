@@ -1,49 +1,46 @@
             
-            const tablica12a = [];
-                        let sentence1bVisible = false;
-            let sentence1baVisible = false;
-            let sentence1b3aVisible = false;
-                        let tablica12ab = [];
-            let tablica12ad = [];
-            let tablica12abc = [];
-function showCombinedSentenceForLesson5b(category, selectedCategory, matchingIndexes3, rodzaj, matchingIndexes2, buttonindex, index50, lessonIdToShow1, lessonIdToShow2, lessonIdToShow3, fiszki, matchingIndexes, startIndex, newIndex, indexDiv, lessonsArray, lesson1PartLength, lesson2PartLength, lesson3PartLength, lesson1Sentences, lesson2Sentences, lesson3Sentences, lesson1FirstPartLength, lesson2FirstPartLength, lesson3FirstPartLength, lesson1SecondPartLength, lesson2SecondPartLength, lesson3SecondPartLength, cumulativeFirstPartLength1, cumulativeFirstPartLength2, cumulativeFirstPartLength3, lessonsArrayZ, matchingLessons5, matchingLessons5b, isSearching) {
-                console.log('hej55bbv', matchingIndexes);
-                            let tablica60 = [];
-                const matchingFiszki1 = fiszki10.filter(fiszka => fiszka.id[1] === lessonIdToShow1);
-                const matchingFiszki2 = fiszki10.filter(fiszka => fiszka.id[1] === lessonIdToShow2);
-                const matchingFiszki3 = fiszki10.filter(fiszka => fiszka.id[1] === lessonIdToShow3);
+            const tablica10a = [];
 
+                        let tablica12ab2 = [];
+            let tablica12ad2 = [];
+            let tablica12abc2 = [];
+function showCombinedSentenceForLesson5b2(category, selectedCategory, matchingIndexes3, rodzaj, matchingIndexes2, buttonindex, index50, lessonIdToShow1, lessonIdToShow2, lessonIdToShow3, fiszki, matchingIndexes, startIndex, newIndex, indexDiv, lessonsArray, lesson1PartLength, lesson2PartLength, lesson3PartLength, lesson1Sentences, lesson2Sentences, lesson3Sentences, lesson1FirstPartLength, lesson2FirstPartLength, lesson3FirstPartLength, lesson1SecondPartLength, lesson2SecondPartLength, lesson3SecondPartLength, cumulativeFirstPartLength1, cumulativeFirstPartLength2, cumulativeFirstPartLength3, lessonsArrayZ, matchingLessons5, matchingLessons5b, isSearching) {
+                console.log('hej55bbv', selectedCategory);
+                            let tablica60 = [];
+                const matchingFiszki1 = fiszki.filter(fiszka => fiszka.id[1] === lessonIdToShow1);
+                const matchingFiszki2 = fiszki.filter(fiszka => fiszka.id[1] === lessonIdToShow2);
+                const matchingFiszki3 = fiszki.filter(fiszka => fiszka.id[1] === lessonIdToShow3);
                 console.log('hej450b', tablica60);
-                console.log('hej444d', newIndex);
+                console.log('hej444', newIndex);
     const id1 = matchingFiszki1[0]?.id[1] || 'unknown1';
     const id2 = matchingFiszki2[0]?.id[1] || 'unknown2';
     const id3 = matchingFiszki3[0]?.id[1] || 'unknown3';
                 if (matchingFiszki1.length > 0 || matchingFiszki2.length > 0 || matchingFiszki3.length > 0) {
 
-                    const srcWord1 = pobierzSrcWordDlaLekcji(lessonIdToShow1, fiszki10);
-                    const srcWord1b = pobierzSrcWordDlaLekcji3(lessonIdToShow1, fiszki10);
-                    const srcWord1d = pobierzSrcWordDlaLekcji4(lessonIdToShow1, fiszki10);
-                    const srcWord2 = pobierzSrcWordDlaLekcji(lessonIdToShow2, fiszki10);
-                    const srcWord2b = pobierzSrcWordDlaLekcji3(lessonIdToShow2, fiszki10);
-                    const srcWord2d = pobierzSrcWordDlaLekcji4(lessonIdToShow2, fiszki10);
-                    const srcWord3 = pobierzSrcWordDlaLekcji(lessonIdToShow3, fiszki10);
-                    const srcWord3b = pobierzSrcWordDlaLekcji3(lessonIdToShow3, fiszki10);
-                    const srcWord3d = pobierzSrcWordDlaLekcji4(lessonIdToShow3, fiszki10);
-                    const srcWord10 = pobierzSrcWordDlaLekcji2(lessonIdToShow1, fiszki10);
-                    function pobierzSrcWordDlaLekcji(lessonId, fiszki10) {
-                        const matchingFiszka = fiszki10.find(fiszka => fiszka.id[1] === lessonId);
+                    const srcWord1 = pobierzSrcWordDlaLekcji(lessonIdToShow1, fiszki);
+                    const srcWord1b = pobierzSrcWordDlaLekcji3(lessonIdToShow1, fiszki);
+                    const srcWord1d = pobierzSrcWordDlaLekcji4(lessonIdToShow1, fiszki);
+                    const srcWord2 = pobierzSrcWordDlaLekcji(lessonIdToShow2, fiszki);
+                    const srcWord2b = pobierzSrcWordDlaLekcji3(lessonIdToShow2, fiszki);
+                    const srcWord2d = pobierzSrcWordDlaLekcji4(lessonIdToShow2, fiszki);
+                    const srcWord3 = pobierzSrcWordDlaLekcji(lessonIdToShow3, fiszki);
+                    const srcWord3b = pobierzSrcWordDlaLekcji3(lessonIdToShow3, fiszki);
+                    const srcWord3d = pobierzSrcWordDlaLekcji4(lessonIdToShow3, fiszki);
+                    const srcWord10 = pobierzSrcWordDlaLekcji2(lessonIdToShow1, fiszki);
+                    function pobierzSrcWordDlaLekcji(lessonId, fiszki) {
+                        const matchingFiszka = fiszki.find(fiszka => fiszka.id[1] === lessonId);
                         return matchingFiszka ? matchingFiszka.srcWord[0] : null;
                     }
-                    function pobierzSrcWordDlaLekcji3(lessonId, fiszki10) {
-                        const matchingFiszka = fiszki10.find(fiszka => fiszka.id[1] === lessonId);
+                    function pobierzSrcWordDlaLekcji3(lessonId, fiszki) {
+                        const matchingFiszka = fiszki.find(fiszka => fiszka.id[1] === lessonId);
                         return matchingFiszka ? matchingFiszka.srcWord[1] : null; // Zwracamy srcWord[1] zamiast srcWord
                     }
-                    function pobierzSrcWordDlaLekcji2(lessonId, fiszki10) {
-                        const matchingFiszka = fiszki10.find(fiszka => fiszka.id[1] === lessonId);
+                    function pobierzSrcWordDlaLekcji2(lessonId, fiszki) {
+                        const matchingFiszka = fiszki.find(fiszka => fiszka.id[1] === lessonId);
                         return matchingFiszka ? matchingFiszka.srcWordimage : null;
                     }
-                    function pobierzSrcWordDlaLekcji4(lessonId, fiszki10) {
-                        const matchingFiszka = fiszki10.find(fiszka => fiszka.id[1] === lessonId);
+                    function pobierzSrcWordDlaLekcji4(lessonId, fiszki) {
+                        const matchingFiszka = fiszki.find(fiszka => fiszka.id[1] === lessonId);
                         return matchingFiszka ? matchingFiszka.srcWordimage : null;
                     }
                     console.log(`Fiszki dla lekcji ${lessonIdToShow1}, ${lessonIdToShow2} i ${lessonIdToShow3}:`);
@@ -714,23 +711,23 @@ function showCombinedSentenceForLesson5b(category, selectedCategory, matchingInd
                                 }
 
                                 console.log('hej20', sentence1bba);
-$sentenceDiv.html(`
+    $sentenceDiv.html(`
 <div class="sentence-block" data-name="${id1}">
-    <button class="left-button first-button ${selectedCategory}">+<br></button>
+    <button class="left-button first-button">+<br></button>
     ${sentence10}${sentence11}<br>
     <div class="sentence1bba">${sentence1bba}</div>
     <div class="sentence1bba">${sentence1bbab}</div>
 </div>
 
 <div class="sentence-block" data-name="${id2}">
-    <button class="left-buttonb second-button ${selectedCategory}">+<br></button>
+    <button class="left-buttonb second-button">+<br></button>
     ${sentence20}${sentence22}<br>
     <div class="sentence1bb1b">${sentence1bb1b}</div>
     <div class="sentence1bba2">${sentence1bba2}</div>
 </div>
 
 <div class="sentence-block" data-name="${id3}">
-    <button class="left-buttonbb third-button ${selectedCategory}">+<br></button>
+    <button class="left-buttonbb third-button">+<br></button>
     ${sentence30}${sentence33}<br>
     <div class="sentence1bb3">${sentence1bb3}</div>
     <div class="sentence1bb1c">${sentence1bb1c}</div>
@@ -739,17 +736,18 @@ $sentenceDiv.html(`
 
 // Kolory przypisane do kategorii
 const colorMapping = {
-    'sport': 'green',        // 
-    'natura': 'yellow',       // 
-    'nauka': 'blue',        // 
-    'czarnyhumor': 'red',  // 
-    'zwiazki': 'blueviolet',      // 
-    'all': 'pink'     
+    'sport': '#28a745',        // Zielony
+    'natura': '#007bff',       // Niebieski
+    'nauka': '#dc3545',        // Czerwony
+    'czarnyhumor': '#ffc107',  // Żółty
+    'zwiazki': '#fd7e14',      // Pomarańczowy
+    'all': '#800080',
+    'wszystkie': 'yellow'       
 };
 
 // Zakres pokolorowanych przycisków
 const startRange2 = 1;
-const endRange2 = 100;
+const endRange2 = 7;
 
 document.addEventListener('DOMContentLoaded', () => {
     // Kliknięcie w kategorię
@@ -763,43 +761,27 @@ document.addEventListener('DOMContentLoaded', () => {
 });
 let previousTrojkiJSON = '';
 const tablica60 = [];
-console.log('hej340', tablica60);
 function updateButtonColors() {
-    tablica60.length = 0; // wyczyść tablicę
+    tablica60.length = 0;
 
-    const color = colorMapping[selectedCategory] || '#800080';
+        const color = colorMapping[selectedCategory] || '#800080';
 
-    document.querySelectorAll('.sentence-block, .sentence-blockB').forEach(block => {
-        const dataNameAttr = block.getAttribute('data-name');
-        const dataName = parseInt(dataNameAttr, 10);
-
-        const button = block.querySelector('button.left-button, button.left-buttonb, button.left-buttonbb');
-
-        // Jeśli brak data-name albo nie jest liczbą – pomiń
-        if (isNaN(dataName)) return;
-
-        // dla "all" – dodaj wszystkie i koloruj wszystkie
-        if (selectedCategory === 'wszystkie') {
+        document.querySelectorAll('.sentence-block, .sentence-blockB').forEach(block => {
+            const dataName = parseInt(block.getAttribute('data-name'), 10);
             tablica60.push(dataName);
+        if (dataName >= startRange2 && dataName <= endRange2) {
+            const button = block.querySelector('button.left-button, button.left-buttonb, button.left-buttonbb');
             if (button) {
-                button.style.backgroundColor = color;
-                button.style.color = 'white';
+                if (dataName >= startRange2 && dataName <= endRange2) {
+                    button.style.backgroundColor = color;
+                    button.style.color = 'white';
+                } else {
+                    button.style.backgroundColor = '';
+                    button.style.color = '';
+                }
             }
         }
-else if (dataName >= startRange2 && dataName <= endRange2) {
-    tablica60.push(dataName);
-    if (button) {
-        if (dataName <= 6) {
-            button.style.backgroundColor = color;
-            button.style.color = 'white';
-        } else {
-            // pozostałe przyciski w zakresie 1–100 – bez kolorowania
-            button.style.backgroundColor = '';
-            button.style.color = '';
-        }
-    }
-}
-    });
+        });
     
     // PodziaĹ na trĂłjki
     const trojki = [];
@@ -958,8 +940,7 @@ updateButtonColors();
                                 $sentence1bb1b.html('');
                                 $sentence1bb1b.empty();
                             }, 0);
-                        });
-                        console.log('Zawartość zmiennej sentence1:', sentence1b); // Wyświetlenie zawartości zmiennej sentence1                          
+                        });                          
                     }
 
 
@@ -1198,17 +1179,17 @@ updateButtonColors();
                                 // Kliknięcie w kategorię
 // Kolory przypisane do kategorii
 const colorMapping = {
-    'sport': 'green',        // 
-    'natura': 'yellow',       // 
-    'nauka': 'blue',        // 
-    'czarnyhumor': 'red',  // 
-    'zwiazki': 'blueviolet',      // 
-    'all': 'pink'     
+    'sport': '#28a745',        // Zielony
+    'natura': '#007bff',       // Niebieski
+    'nauka': '#dc3545',        // Czerwony
+    'czarnyhumor': '#ffc107',  // Żółty
+    'zwiazki': '#fd7e14',      // Pomarańczowy
+    'all': '#800080'           // Fioletowy
 };
 
 // Zakres pokolorowanych przycisków
 const startRange2 = 1;
-const endRange2 = 7;
+const endRange2 = 6;
 
 document.addEventListener('DOMContentLoaded', () => {
     // Kliknięcie w kategorię
@@ -1242,23 +1223,23 @@ function updateButtonColors() {
     });
     }
     updateButtonColors();
-$sentenceDiv.html(`
+    $sentenceDiv.html(`
 <div class="sentence-block" data-name="${id1}">
-    <button class="left-button first-button ${selectedCategory}">+<br></button>
+    <button class="left-button first-button">+<br></button>
     ${sentence10}${sentence11}<br>
     <div class="sentence1bba">${sentence1bba}</div>
     <div class="sentence1bba">${sentence1bbab}</div>
 </div>
 
 <div class="sentence-block" data-name="${id2}">
-    <button class="left-buttonb second-button ${selectedCategory}">+<br></button>
+    <button class="left-buttonb second-button">+<br></button>
     ${sentence20}${sentence22}<br>
     <div class="sentence1bb1b">${sentence1bb1b}</div>
     <div class="sentence1bba2">${sentence1bba2}</div>
 </div>
 
 <div class="sentence-block" data-name="${id3}">
-    <button class="left-buttonbb third-button ${selectedCategory}">+<br></button>
+    <button class="left-buttonbb third-button">+<br></button>
     ${sentence30}${sentence33}<br>
     <div class="sentence1bb3">${sentence1bb3}</div>
     <div class="sentence1bb1c">${sentence1bb1c}</div>
@@ -1279,23 +1260,23 @@ $sentenceDiv.html(`
                                         sentence1bba2 += sentencePart33 + " ";
                                     }
                                     // Dodanie treści do diva wraz z przyciskiem
-$sentenceDiv.html(`
+    $sentenceDiv.html(`
 <div class="sentence-block" data-name="${id1}">
-    <button class="left-button first-button ${selectedCategory}">+<br></button>
+    <button class="left-button first-button">+<br></button>
     ${sentence10}${sentence11}<br>
     <div class="sentence1bba">${sentence1bba}</div>
     <div class="sentence1bba">${sentence1bbab}</div>
 </div>
 
 <div class="sentence-block" data-name="${id2}">
-    <button class="left-buttonb second-button ${selectedCategory}">+<br></button>
+    <button class="left-buttonb second-button">+<br></button>
     ${sentence20}${sentence22}<br>
     <div class="sentence1bb1b">${sentence1bb1b}</div>
     <div class="sentence1bba2">${sentence1bba2}</div>
 </div>
 
 <div class="sentence-block" data-name="${id3}">
-    <button class="left-buttonbb third-button ${selectedCategory}">+<br></button>
+    <button class="left-buttonbb third-button">+<br></button>
     ${sentence30}${sentence33}<br>
     <div class="sentence1bb3">${sentence1bb3}</div>
     <div class="sentence1bb1c">${sentence1bb1c}</div>
@@ -1602,17 +1583,17 @@ function countCategoryInFiszki2(matchingFiszki3, category) {
                             }
 // Kolory przypisane do kategorii
 const colorMapping = {
-    'sport': 'green',        // 
-    'natura': 'yellow',       // 
-    'nauka': 'blue',        // 
-    'czarny humor': 'red',  // 
-    'zwiazki': 'blueviolet',      // 
-    'all': 'pink'     
+    'sport': '#28a745',        // Zielony
+    'natura': '#007bff',       // Niebieski
+    'nauka': '#dc3545',        // Czerwony
+    'czarnyhumor': '#ffc107',  // Żółty
+    'zwiazki': '#fd7e14',      // Pomarańczowy
+    'all': '#800080'           // Fioletowy
 };
 
 // Zakres pokolorowanych przycisków
 const startRange2 = 1;
-const endRange2 = 7;
+const endRange2 = 6;
 
 document.addEventListener('DOMContentLoaded', () => {
     // Kliknięcie w kategorię
@@ -1647,23 +1628,23 @@ function updateButtonColors() {
     });
     }
     updateButtonColors();
-$sentenceDiv.html(`
+    $sentenceDiv.html(`
 <div class="sentence-block" data-name="${id1}">
-    <button class="left-button first-button ${selectedCategory}">+<br></button>
+    <button class="left-button first-button">+<br></button>
     ${sentence10}${sentence11}<br>
     <div class="sentence1bba">${sentence1bba}</div>
     <div class="sentence1bba">${sentence1bbab}</div>
 </div>
 
 <div class="sentence-block" data-name="${id2}">
-    <button class="left-buttonb second-button ${selectedCategory}">+<br></button>
+    <button class="left-buttonb second-button">+<br></button>
     ${sentence20}${sentence22}<br>
     <div class="sentence1bb1b">${sentence1bb1b}</div>
     <div class="sentence1bba2">${sentence1bba2}</div>
 </div>
 
 <div class="sentence-block" data-name="${id3}">
-    <button class="left-buttonbb third-button ${selectedCategory}">+<br></button>
+    <button class="left-buttonbb third-button">+<br></button>
     ${sentence30}${sentence33}<br>
     <div class="sentence1bb3">${sentence1bb3}</div>
     <div class="sentence1bb1c">${sentence1bb1c}</div>
@@ -1683,23 +1664,23 @@ $sentenceDiv.html(`
                                         sentence1bb1c += sentencePart444 + " ";
                                     }
                                     // Dodanie treści do diva wraz z przyciskiem
-$sentenceDiv.html(`
+    $sentenceDiv.html(`
 <div class="sentence-block" data-name="${id1}">
-    <button class="left-button first-button ${selectedCategory}">+<br></button>
+    <button class="left-button first-button">+<br></button>
     ${sentence10}${sentence11}<br>
     <div class="sentence1bba">${sentence1bba}</div>
     <div class="sentence1bba">${sentence1bbab}</div>
 </div>
 
 <div class="sentence-block" data-name="${id2}">
-    <button class="left-buttonb second-button ${selectedCategory}">+<br></button>
+    <button class="left-buttonb second-button">+<br></button>
     ${sentence20}${sentence22}<br>
     <div class="sentence1bb1b">${sentence1bb1b}</div>
     <div class="sentence1bba2">${sentence1bba2}</div>
 </div>
 
 <div class="sentence-block" data-name="${id3}">
-    <button class="left-buttonbb third-button ${selectedCategory}">+<br></button>
+    <button class="left-buttonbb third-button">+<br></button>
     ${sentence30}${sentence33}<br>
     <div class="sentence1bb3">${sentence1bb3}</div>
     <div class="sentence1bb1c">${sentence1bb1c}</div>
@@ -1778,952 +1759,7 @@ $sentenceDiv.html(`
                         }
                     }
 
-                    if (newIndex === 0 && !buttonindex && !isSearching && category === "all") {
-                        console.log('hej33b', buttonindex);
-                        let funkcjaWywolana = false;
-                        let stopButtonAdded = false;
-                        if (indexDiv % 2 === 0) {
-                            function addVideo1(index) {
-                                console.log('hej80', index);
-                                // Sprawdź, czy jesteśmy poza zakresem tablicy
-                                if (index >= srcWords.length && !funkcjaWywolana) {
-                                    przekazArgument0(tablica7[0], tablica3[2], undefined, false, tablica3[0], true, true, tablica3[1], tablica3[4], false, '', '', '', '', '100');
-                                    console.log("wykonuje się");
-                                    funkcjaWywolana = true;
-                                }
-                                // Usuń poprzednie wideo
-                                removePreviousVideo();
-
-                                console.log('hej78', index);
-
-                                // Dodaj div z wideo do tła kontenera
-                                const $vidDiv = $('<div>').addClass('background-video').css({
-                                    'z-index': '1' // Ustaw z-index dla wideo na niższy
-                                });
-
-const video = document.createElement('video');
-video.setAttribute('autoplay', '');
-video.setAttribute('loop', '');
-video.muted = true; // ← to jest kluczowe!
-video.playsInline = true; // ← opcjonalne, ale przydatne na mobile
-
-const source = document.createElement('source');
-source.src = srcWords[index];
-source.type = 'video/mp4';
-
-video.appendChild(source);
-const $videoElement = $(video);
-                                if (window.matchMedia("(min-width: 999px)").matches) {
-                                    // Dodaj klasę CSS zależnie od indeksu wideo
-                                    if (index === 0) {
-                                        $videoElement.addClass('scaled-video');
-                                    } else {
-                                        $videoElement.addClass('next-video');
-                                    }
-                                }
-                                // Utwórz element <source> dla wideo i ustaw atrybuty
-
-                                const $sourceElement = $('<source>').attr({
-                                    'src': srcWords[index], // Poprawne użycie interpolacji
-                                    'type': 'video/mp4'     // Typ pliku wideo
-                                });
-
-                                // Dodaj element source do elementu video
-                                $sourceElement.appendTo($videoElement);
-                                // Dodaj element video do diva dla wideo
-                                $videoElement.appendTo($vidDiv);
-                                // Dodaj element <source> do elementu <video>
-$videoElement.attr('muted', true); // atrybut, nie .prop
-                                // Obsługa błędu ładowania wideo
-                                $videoElement.onerror = function () {
-                                    console.error('Nie można załadować pliku wideo.');
-                                };
-                                let currentIndexValue = [];
-                                // Funkcja obsługi zdarzenia loadedmetadata
-$videoElement.hide(); // Ukrycie wideo przed załadowaniem
-function ensureVideoStarts($videoElement, index) {
-    let retryCount = 0;
-    const maxRetries = 20;
-    let started = false;
-
-    function tryStart() {
-        if (started) return;
-        const el = $videoElement[0];
-        const duration = el.duration;
-
-        if (el.readyState < 3 || isNaN(duration) || duration === Infinity || duration === 0) {
-            if (retryCount++ < maxRetries) {
-                console.warn(`Wideo ${index} niegotowe (readyState=${el.readyState}), próba ${retryCount}`);
-                return setTimeout(tryStart, 300);
-            } else {
-                console.error(`Wideo ${index} nie wystartowało`);
-                return;
-            }
-        }
-
-        started = true;
-        $videoElement.show();
-        videoDurations[index] = duration;
-
-        $videoElement.off('timeupdate').on('timeupdate', function () {
-            let adjustedProgress = 0;
-            for (let i = 0; i < index; i++) {
-                adjustedProgress += (videoDurations[i] / totalDuration) * 100;
-            }
-            adjustedProgress += (this.currentTime / duration) * (videoDurations[index] / totalDuration) * 100;
-            updateProgress(adjustedProgress);
-
-            if (!currentIndexValue.includes(index)) {
-                currentIndexValue.push(index);
-                if ([0, 1, 2].includes(currentIndexValue[0])) {
-                    addBackgroundToText(matchingFiszki1, matchingIndexes, currentIndexValue, true, lesson1FirstPartLength, lesson1PartLength, matchingLessons5b);
-                }
-            }
-
-            if (duration - this.currentTime < 1) {
-                addVideo1(index + 1);
-                updateProgress(0);
-            }
-        });
-
-        el.play().then(() => {
-            console.log(`Wideo ${index} odtworzone`);
-        }).catch(error => {
-            console.warn(`Autoplay nie działa (index ${index}):`, error);
-        });
-    }
-
-    // Jeśli nie zadziała 'canplaythrough', dodaj fallback na loadeddata
-    $videoElement.one('canplaythrough loadeddata', tryStart);
-
-    try {
-        $videoElement[0].load();
-    } catch (e) {
-        console.warn('Błąd ładowania:', e);
-    }
-}
-
-console.log('wykonuje się655');
-                                addScenes(index);
-                                // Dodaj div z wideo do tła kontenera
-$vidDiv.appendTo($container);
-window.addEventListener('pageshow', () => {
-  const video = document.getElementById('myVideo');
-  if (video) {
-    video.play().catch((error) => {
-      console.error('Error playing video:', error);
-    });
-  }
-});
-// Upewnij się, że wideo jest fizycznie w DOM, zanim zaczniesz ładowanie
-requestAnimationFrame(() => {
-    setTimeout(() => {
-        ensureVideoStarts($videoElement, index);
-    }, 200); // małe opóźnienie buforujące
-});
-                                function updateProgress(progress) {
-                                    // Aktualizuj pasek postępu na dole kontenera
-                                    $('.progress-bar').css('width', progress + '%');
-                                }
-
-                                // Inicjalizacja paska postępu
-                                const $progressBar = $('<div>').addClass('progress-bar');
-                                if (window.matchMedia("(min-width: 999px)").matches) {
-                                    $progressBar.css({
-                                        'position': 'absolute',
-                                        'z-index': '2',
-                                        'bottom': '0',
-                                        'left': '0',
-                                        'height': '7px', // Wysokość paska postępu
-                                        'background-color': 'green', // Kolor paska postępu
-                                        'width': '140%', // Delikatne powiększenie paska postępu o 2% w każdym kierunku
-                                        'margin-bottom': '-2%',
-                                        'margin-left': '-4%',
-                                        'margin-right': '-4%' // Zapewnienie równowagi dla powiększenia paska postępu
-                                    });
-                                } else {
-                                    $progressBar.css({
-                                        'position': 'absolute',
-                                        'z-index': '2',
-                                        'bottom': '0px',
-                                        'left': '0px',
-                                        'height': '7px', // Wysokość paska postępu
-                                        'background-color': 'green', // Kolor paska postępu
-                                        'width': '100%' // Delikatne powiększenie paska postępu o 2% w każdym kierunku
-                                    });
-                                }
-                                $progressBar.appendTo($container);
-// Funkcja dodająca nowe elementy <div>
-                                function addScenes(index) {
-                                    // Sprawdź, czy istnieje element <div> o klasie 'scene-description'
-                                    let $sceneDiv = $container.find('.scene-description');
-
-                                    if ($sceneDiv.length) {
-                                        // Jeśli istnieje, wyczyść jego zawartość
-                                        $sceneDiv.empty();
-                                    } else {
-                                        // Jeśli nie istnieje, stwórz nowy element <div>
-                                        $sceneDiv = $('<div>').addClass('scene-description').appendTo($container);
-                                    }
-
-                                    // Dodaj nowy tekst do <div>
-                                    $sceneDiv.text(`Scena z filmu ${srcWords2[index]}`);
-
-                                    if (window.matchMedia("(max-width: 999px)").matches) {
-                                        if (indexDiv % 2 === 0) {
-                                            console.log('Warunek podzielności przez 2 spełniony2');
-                                            // Zmień CSS paska napisu, aby wyświetlał się po lewej stronie kontenera
-                                            $sceneDiv.css({
-                                                'position': 'relative',
-                                                'margin-top': '-140px',
-                                                'margin-left': '-450px',
-                                                'text-align': 'left',
-                                                'background-color': 'orange',
-                                                'z-index': '9999999'
-                                            });
-                                        } else if (indexDiv % 1 === 0 || indexDiv % 3 === 0 || indexDiv % 5 === 0) {
-                                            console.log('Warunek podzielności przez 1 spełniony2');
-                                            // Zmień CSS paska napisu, aby wyświetlał się po lewej stronie kontenera
-                                            $sceneDiv.css({
-                                                'position': 'relative',
-                                                'margin-top': '-140px',
-                                                'margin-right': '-20px',
-                                                'text-align': 'left',
-                                                'background-color': 'blue',
-                                                'z-index': '99999999999'
-                                            });
-                                        }
-                                    }
-                                }
-
-
-// Tworzenie przycisku "Stop"
-                                if (!stopButtonAdded) {
-                                    const $stopButton = $('<img>')
-                                            .attr('src', 'https://www.arbulang.com/img/stopok2.png')
-                                            .css({
-                                                'display': 'none', // Ukryty na starcie
-                                                'position': 'absolute', // Precyzyjne pozycjonowanie względem kontenera
-                                                'top': '-15px',
-                                                'left': '20px',
-                                                'width': '40px',
-                                                'height': '40px',
-                                                'z-index': '999999',
-                                                'cursor': 'pointer' // Ustawienie kursora jako wskaźnik
-                                            })
-                                            .on('click', function () {
-                                                // Pętla po wszystkich elementach wideo i zatrzymywanie każdego z nich
-                                                $('video').each(function () {
-                                                    const video = this;
-                                                    if (!video.paused) {
-                                                        video.pause();
-                                                        // Zmień obrazek na "Play"
-                                                        $stopButton.attr('src', 'https://www.arbulang.com/img/stopok2.png');
-                                                    } else {
-                                                        video.play();
-                                                        // Zmień obrazek z powrotem na "Stop"
-                                                        $stopButton.attr('src', 'https://www.arbulang.com/img/play.png');
-                                                    }
-                                                });
-                                            });
-
-                                    // Dodanie przycisku do kontenera
-                                    $stopButton.appendTo($container);
-
-                                    // Pokazywanie przycisku na hover kontenera
-                                    $container.on('mouseover', function () {
-                                        $stopButton.show();
-                                    });
-
-                                    // Ukrywanie przycisku, gdy mysz opuści kontener
-                                    $container.on('mouseout', function () {
-                                        $stopButton.hide();
-                                    });
-
-                                    stopButtonAdded = true;  // Flaga ustawiona na true, gdy przycisk został dodany
-                                }
-                            }
-                            setTimeout(function () {
-                                addVideo1(0);
-                            }, 200);
-                        } else if (indexDiv === 1 || indexDiv === 11 || indexDiv === 13 || indexDiv === 17 || indexDiv === 19 || indexDiv === 23 || indexDiv === 29 || indexDiv === 31 || indexDiv === 37 || indexDiv === 41 || indexDiv === 43 || indexDiv % 3 === 0 || indexDiv % 5 === 0 || indexDiv % 7 === 0) {
-                            function addVideo1b(index) {
-                                console.log('hej80', index);
-                                // Sprawdź, czy jesteśmy poza zakresem tablicy
-                                if (index >= srcWords.length && !funkcjaWywolana) {
-                                    przekazArgument0(tablica3[2], undefined, false, tablica3[0], true, true, tablica3[1], tablica3[4], false, '', '', '', '');
-                                    console.log("wykonuje się");
-                                    funkcjaWywolana = true;
-                                }
-                                // Usuń poprzednie wideo
-                                removePreviousVideo();
-
-                                console.log('hej78', index);
-
-                                // Dodaj div z wideo do tła kontenera
-                                const $vidDiv = $('<div>').addClass('background-video22').css({
-                                    'z-index': '1' // Ustaw z-index dla wideo na niższy
-                                });
-
-                                const $videoElement = $('<video>').attr({
-                                    'autoplay': true,
-                                    'muted': true,
-                                    'loop': true
-                                }).css({
-                                    'z-index': '1' // Ustaw z-index dla wideo na niższy
-                                });
-                                if (window.matchMedia("(min-width: 999px)").matches) {
-                                    // Dodaj klasę CSS zależnie od indeksu wideo
-                                    if (index === 0) {
-                                        $videoElement.addClass('scaled-video');
-                                    } else {
-                                        $videoElement.addClass('next-video');
-                                    }
-                                }
-                                // Utwórz element <source> dla wideo i ustaw atrybuty
-
-                                const $sourceElement = $('<source>').attr({
-                                    'src': srcWords[index], // Poprawne użycie interpolacji
-                                    'type': 'video/mp4'     // Typ pliku wideo
-                                });
-
-                                // Dodaj element source do elementu video
-                                $sourceElement.appendTo($videoElement);
-                                // Dodaj element video do diva dla wideo
-                                $videoElement.appendTo($vidDiv);
-                                // Dodaj element <source> do elementu <video>
-
-                                // Obsługa błędu ładowania wideo
-                                $videoElement.onerror = function () {
-                                    console.error('Nie można załadować pliku wideo.');
-                                };
-                                let currentIndexValue = [];
-                                // Funkcja obsługi zdarzenia loadedmetadata
-                                $videoElement.on('loadedmetadata', function () {
-                                    const videoDuration = this.duration;
-                                    videoDurations[index] = videoDuration;
-                                    console.log('tablica77', totalDuration);
-                                    $videoElement.on('timeupdate', function () {
-                                        let adjustedProgress = 0;
-                                        for (let i = 0; i < index; i++) {
-                                            adjustedProgress += (videoDurations[i] / totalDuration) * 100;
-                                        }
-                                        adjustedProgress += (this.currentTime / videoDuration) * (videoDurations[index] / totalDuration) * 100;
-                                        updateProgress(adjustedProgress);
-                                        console.log('hej78', index);
-                                        // Sprawdź, czy wartość index nie została jeszcze dodana do tablicy currentIndex
-                                        if (!currentIndexValue.includes(index)) {
-                                            // Dodaj index do tablicy currentIndex
-                                            currentIndexValue.push(index);
-                                            console.log('hej70', currentIndexValue);
-                                            // Wywołaj funkcję addBackgroundToText tylko raz
-                                            if (currentIndexValue[0] === 0 || currentIndexValue[0] === 1 || currentIndexValue[0] === 2) {
-                                                addBackgroundToText(matchingFiszki1, matchingIndexes, currentIndexValue, true, lesson1FirstPartLength, lesson1PartLength, matchingLessons5b);
-                                            }
-                                        }
-
-                                        // Sprawdź, czy wideo zostało zakończone
-                                        if ($videoElement[0].duration - $videoElement[0].currentTime < 1) {
-                                            console.log('Wideo zakończone, uruchamiam następne.');
-                                            // Odtwórz następne wideo po zakończeniu poprzedniego
-                                            addVideo1b(index + 1);
-                                            updateProgress(0);
-                                        }
-                                    });
-                                });
-                                addScenes(index);
-                                // Dodaj div z wideo do tła kontenera
-                                $vidDiv.appendTo($container);
-                                function updateProgress(progress) {
-                                    // Aktualizuj pasek postępu na dole kontenera
-                                    $('.progress-bar').css('width', progress + '%');
-                                }
-
-                                // Inicjalizacja paska postępu
-                                const $progressBar = $('<div>').addClass('progress-bar');
-                                if (window.matchMedia("(min-width: 999px)").matches) {
-                                    $progressBar.css({
-                                        'position': 'absolute',
-                                        'z-index': '2',
-                                        'bottom': '0',
-                                        'left': '0',
-                                        'height': '7px', // Wysokość paska postępu
-                                        'background-color': 'green', // Kolor paska postępu
-                                        'width': '140%', // Delikatne powiększenie paska postępu o 2% w każdym kierunku
-                                        'margin-bottom': '-2%',
-                                        'margin-left': '-4%',
-                                        'margin-right': '-4%' // Zapewnienie równowagi dla powiększenia paska postępu
-                                    });
-                                } else {
-                                    $progressBar.css({
-                                        'position': 'absolute',
-                                        'z-index': '2',
-                                        'bottom': '0px',
-                                        'left': '0px',
-                                        'height': '7px', // Wysokość paska postępu
-                                        'background-color': 'green', // Kolor paska postępu
-                                        'width': '100%' // Delikatne powiększenie paska postępu o 2% w każdym kierunku
-                                    });
-                                }
-                                $progressBar.appendTo($container);
-// Funkcja dodająca nowe elementy <div>
-                                function addScenes(index) {
-                                    // Sprawdź, czy istnieje element <div> o klasie 'scene-description'
-                                    let $sceneDiv = $container.find('.scene-description');
-
-                                    if ($sceneDiv.length) {
-                                        // Jeśli istnieje, wyczyść jego zawartość
-                                        $sceneDiv.empty();
-                                    } else {
-                                        // Jeśli nie istnieje, stwórz nowy element <div>
-                                        $sceneDiv = $('<div>').addClass('scene-description').appendTo($container);
-                                    }
-
-                                    // Dodaj nowy tekst do <div>
-                                    $sceneDiv.text(`Scena z filmu ${srcWords2[index]}`);
-
-                                    if (window.matchMedia("(max-width: 999px)").matches) {
-                                        if (indexDiv % 2 === 0) {
-                                            console.log('Warunek podzielności przez 2 spełniony2');
-                                            // Zmień CSS paska napisu, aby wyświetlał się po lewej stronie kontenera
-                                            $sceneDiv.css({
-                                                'position': 'relative',
-                                                'margin-top': '-140px',
-                                                'margin-left': '-450px',
-                                                'text-align': 'left',
-                                                'background-color': 'orange',
-                                                'z-index': '9999999'
-                                            });
-                                        } else if (indexDiv % 1 === 0 || indexDiv % 3 === 0 || indexDiv % 5 === 0) {
-                                            console.log('Warunek podzielności przez 1 spełniony2');
-                                            // Zmień CSS paska napisu, aby wyświetlał się po lewej stronie kontenera
-                                            $sceneDiv.css({
-                                                'position': 'relative',
-                                                'margin-top': '-140px',
-                                                'margin-right': '-20px',
-                                                'text-align': 'left',
-                                                'background-color': 'blue',
-                                                'z-index': '99999999999'
-                                            });
-                                        }
-                                    }
-                                }
-
-
-// Tworzenie przycisku "Stop"
-                                if (!stopButtonAdded) {
-                                    const $stopButton = $('<img>')
-                                            .attr('src', 'https://www.arbulang.com/img/stopok2.png')
-                                            .css({
-                                                'display': 'none', // Ukryty na starcie
-                                                'position': 'absolute', // Precyzyjne pozycjonowanie względem kontenera
-                                                'top': '-15px',
-                                                'left': '20px',
-                                                'width': '40px',
-                                                'height': '40px',
-                                                'z-index': '999999',
-                                                'cursor': 'pointer' // Ustawienie kursora jako wskaźnik
-                                            })
-                                            .on('click', function () {
-                                                // Pętla po wszystkich elementach wideo i zatrzymywanie każdego z nich
-                                                $('video').each(function () {
-                                                    const video = this;
-                                                    if (!video.paused) {
-                                                        video.pause();
-                                                        // Zmień obrazek na "Play"
-                                                        $stopButton.attr('src', 'https://www.arbulang.com/img/play.png');
-                                                    } else {
-                                                        video.play();
-                                                        // Zmień obrazek z powrotem na "Stop"
-                                                        $stopButton.attr('src', 'https://www.arbulang.com/img/stopok2.png');
-                                                    }
-                                                });
-                                            });
-
-                                    // Dodanie przycisku do kontenera
-                                    $stopButton.appendTo($container);
-
-                                    // Pokazywanie przycisku na hover kontenera
-                                    $container.on('mouseover', function () {
-                                        $stopButton.show();
-                                    });
-
-                                    // Ukrywanie przycisku, gdy mysz opuści kontener
-                                    $container.on('mouseout', function () {
-                                        $stopButton.hide();
-                                    });
-
-                                    stopButtonAdded = true;  // Flaga ustawiona na true, gdy przycisk został dodany
-                                }
-                            }
-                            setTimeout(function () {
-                                addVideo1b(0);
-                            }, 200);
-                        }
-                    } else if (index50 === 0 && buttonindex && !isSearching) {
-                        let stopButtonAdded = false;
-                        console.log('hej3338', newIndex);
-                        let funkcjaWywolana = false;
-                        if (indexDiv % 2 === 0) {
-                            function addVideo2(index) {
-                                console.log('hej80', index);
-
-                                // Sprawdź, czy jesteśmy poza zakresem tablicy
-                                if (index >= srcWords.length && !funkcjaWywolana) {
-                                    setTimeout(function () {
-                                        $('.progress-bar').remove();
-                                    }, 200); // Opóźnienie w milisekundach (tu: 200 ms)
-                                    przekazArgument0(tablica3[2], undefined, false, tablica3[0], true, true, tablica3[1], tablica3[4], false, '', '', '', '');
-                                    console.log("wykonuje się");
-                                    funkcjaWywolana = true;
-                                }
-
-                                // Usuń poprzednie wideo
-                                removePreviousVideo();
-                                console.log('hej78', index);
-
-                                // Dodaj div z wideo do tła kontenera
-                                const $vidDiv = $('<div>').addClass('background-video');
-
-                                // Utwórz element <video> i ustaw atrybuty
-                                const $videoElement = $('<video>').attr({
-                                    'autoplay': true, // Automatyczne odtwarzanie wideo
-                                    'muted': true, // Wyciszenie dźwięku wideo
-                                    'loop': true // Zapętlenie wideo
-                                });
-                                if (window.matchMedia("(min-width: 999px)").matches) {
-                                    // Dodaj klasę CSS zależnie od indeksu wideo
-                                    if (index === 0) {
-                                        $videoElement.addClass('scaled-video');
-                                    } else {
-                                        $videoElement.addClass('next-video');
-                                    }
-                                }
-                                // Utwórz element <source> dla wideo i ustaw atrybuty
-                                const $sourceElement = $('<source>').attr({
-                                    'src': srcWords[index], // Poprawne użycie interpolacji
-                                    'type': 'video/mp4'     // Typ pliku wideo
-                                });
-
-                                // Dodaj element source do elementu video
-                                $sourceElement.appendTo($videoElement);
-
-                                // Dodaj element video do diva dla wideo
-                                $videoElement.appendTo($vidDiv);
-
-                                // Dodaj element <source> do elementu <video>
-                                // Obsługa błędu ładowania wideo
-                                $videoElement.onerror = function () {
-                                    console.error('Nie można załadować pliku wideo.');
-                                };
-
-                                let currentIndexValue = [];
-
-                                // Funkcja obsługi zdarzenia loadedmetadata
-                                $videoElement.on('loadedmetadata', function () {
-                                    const videoDuration = this.duration;
-                                    videoDurations[index] = videoDuration;
-                                    console.log('tablica77', totalDuration);
-
-                                    $videoElement.on('timeupdate', function () {
-                                        let adjustedProgress = 0;
-                                        for (let i = 0; i < index; i++) {
-                                            adjustedProgress += (videoDurations[i] / totalDuration) * 100;
-                                        }
-                                        adjustedProgress += (this.currentTime / videoDuration) * (videoDurations[index] / totalDuration) * 100;
-                                        updateProgress(adjustedProgress);
-                                        console.log('hej78', index);
-
-                                        // Sprawdź, czy wartość index nie została jeszcze dodana do tablicy currentIndex
-                                        if (!currentIndexValue.includes(index)) {
-                                            // Dodaj index do tablicy currentIndex
-                                            currentIndexValue.push(index);
-                                            console.log('hej70', currentIndexValue);
-
-                                            // Wywołaj funkcję addBackgroundToText tylko raz
-                                            if (currentIndexValue[0] === 0 || currentIndexValue[0] === 1 || currentIndexValue[0] === 2) {
-                                                addBackgroundToText(matchingFiszki1, matchingIndexes, currentIndexValue, true, lesson1FirstPartLength, lesson1PartLength, matchingLessons5b);
-                                            }
-                                        }
-
-                                        // Sprawdź, czy wideo zostało zakończone
-                                        if ($videoElement[0].duration - $videoElement[0].currentTime < 1) {
-                                            console.log('Wideo zakończone, uruchamiam następne.');
-                                            // Odtwórz następne wideo po zakończeniu poprzedniego
-                                            addVideo2(index + 1);
-                                            updateProgress(0);
-                                        }
-                                    });
-                                });
-
-                                addScenes(index);
-                                // Dodaj wideo do kontenera
-                                $vidDiv.appendTo($container);
-
-                                function updateProgress(progress) {
-                                    // Aktualizuj pasek postępu na dole kontenera
-                                    $('.progress-bar').css('width', progress + '%');
-                                }
-
-                                // Inicjalizacja paska postępu
-                                const $progressBar = $('<div>').addClass('progress-bar');
-                                if (window.matchMedia("(min-width: 999px)").matches) {
-                                    $progressBar.css({
-                                        'position': 'absolute',
-                                        'z-index': '2',
-                                        'bottom': '0',
-                                        'left': '0',
-                                        'height': '7px', // Wysokość paska postępu
-                                        'background-color': 'green', // Kolor paska postępu
-                                        'width': '140%', // Delikatne powiększenie paska postępu o 2% w każdym kierunku
-                                        'margin-bottom': '-2%',
-                                        'margin-left': '-4%',
-                                        'margin-right': '-4%' // Zapewnienie równowagi dla powiększenia paska postępu
-                                    });
-                                } else {
-                                    $progressBar.css({
-                                        'position': 'absolute',
-                                        'z-index': '2',
-                                        'bottom': '0px',
-                                        'left': '0px',
-                                        'height': '7px', // Wysokość paska postępu
-                                        'background-color': 'green', // Kolor paska postępu
-                                        'width': '100%' // Delikatne powiększenie paska postępu o 2% w każdym kierunku
-                                    });
-                                }
-                                $progressBar.appendTo($container);
-
-                                function addScenes(index) {
-                                    // Sprawdź, czy istnieje element <div> o klasie 'scene-description'
-                                    let $sceneDiv = $container.find('.scene-description');
-
-                                    if ($sceneDiv.length) {
-                                        // Jeśli istnieje, wyczyść jego zawartość
-                                        $sceneDiv.empty();
-                                    } else {
-                                        // Jeśli nie istnieje, stwórz nowy element <div>
-                                        $sceneDiv = $('<div>').addClass('scene-description').appendTo($container);
-                                    }
-
-                                    // Dodaj nowy tekst do <div>
-                                    $sceneDiv.text(`Scena z filmu ${srcWords2[index]}`);
-
-                                    if (window.matchMedia("(max-width: 999px)").matches) {
-                                        if (indexDiv % 2 === 0) {
-                                            console.log('Warunek podzielności przez 2 spełniony2');
-                                            // Zmień CSS paska napisu, aby wyświetlał się po lewej stronie kontenera
-                                            $sceneDiv.css({
-                                                'position': 'relative',
-                                                'margin-top': '-140px',
-                                                'margin-left': '-450px',
-                                                'text-align': 'left',
-                                                'background-color': 'orange',
-                                                'z-index': '9999999'
-                                            });
-                                        } else if (indexDiv % 1 === 0 || indexDiv % 3 === 0 || indexDiv % 5 === 0) {
-                                            console.log('Warunek podzielności przez 1 spełniony2');
-                                            // Zmień CSS paska napisu, aby wyświetlał się po lewej stronie kontenera
-                                            $sceneDiv.css({
-                                                'position': 'relative',
-                                                'margin-top': '-140px',
-                                                'margin-right': '-20px',
-                                                'text-align': 'left',
-                                                'background-color': 'blue',
-                                                'z-index': '99999999999'
-                                            });
-                                        }
-                                    } else if (window.matchMedia("(min-width: 999px)").matches) {
-                                        // Dodatkowe style, jeśli indexDiv jest podzielny przez 4
-                                        if (indexDiv % 4 === 1) {
-                                            // Dodaj klasę 'scene-description2' do $sceneDiv
-                                            $sceneDiv.removeClass('scene-description');
-                                            $sceneDiv.addClass('scene-description2');
-                                        } else {
-                                            // Upewnij się, że klasa 'scene-description2' jest usunięta, jeśli nie jest podzielna przez 4
-                                            $sceneDiv.removeClass('scene-description2');
-                                        }
-                                    }
-                                }
-// Tworzenie przycisku "Stop"
-                                if (!stopButtonAdded) {
-                                    const $stopButton = $('<img>')
-                                            .attr('src', 'https://www.arbulang.com/img/stopok2.png')
-                                            .css({
-                                                'display': 'none', // Ukryty na starcie
-                                                'position': 'absolute', // Precyzyjne pozycjonowanie względem kontenera
-                                                'top': '-15px',
-                                                'left': '20px',
-                                                'width': '40px',
-                                                'height': '40px',
-                                                'z-index': '999999',
-                                                'cursor': 'pointer' // Ustawienie kursora jako wskaźnik
-                                            })
-                                            .on('click', function () {
-                                                // Pętla po wszystkich elementach wideo i zatrzymywanie każdego z nich
-                                                $('video').each(function () {
-                                                    const video = this;
-                                                    if (!video.paused) {
-                                                        video.pause();
-                                                        // Zmień obrazek na "Play"
-                                                        $stopButton.attr('src', 'https://www.arbulang.com/img/play.png');
-                                                    } else {
-                                                        video.play();
-                                                        // Zmień obrazek z powrotem na "Stop"
-                                                        $stopButton.attr('src', 'https://www.arbulang.com/img/stopok2.png');
-                                                    }
-                                                });
-                                            });
-
-                                    // Dodanie przycisku do kontenera
-                                    $stopButton.appendTo($container);
-
-                                    // Pokazywanie przycisku na hover kontenera
-                                    $container.on('mouseover', function () {
-                                        $stopButton.show();
-                                    });
-
-                                    // Ukrywanie przycisku, gdy mysz opuści kontener
-                                    $container.on('mouseout', function () {
-                                        $stopButton.hide();
-                                    });
-
-                                    stopButtonAdded = true;  // Flaga ustawiona na true, gdy przycisk został dodany
-                                }
-                            }
-                            setTimeout(function () {
-                                addVideo2(0);
-                            }, 700);
-                        } else if (indexDiv === 1 || indexDiv === 11 || indexDiv === 13 || indexDiv === 17 || indexDiv === 19 || indexDiv === 23 || indexDiv === 29 || indexDiv === 31 || indexDiv === 37 || indexDiv === 41 || indexDiv === 43 || indexDiv % 3 === 0 || indexDiv % 5 === 0 || indexDiv % 7 === 0) {
-                            function addVideo2b(index) {
-                                console.log('hej80', index);
-
-                                // Sprawdź, czy jesteśmy poza zakresem tablicy
-                                if (index >= srcWords.length && !funkcjaWywolana) {
-                                    setTimeout(function () {
-                                        $('.progress-bar').remove();
-                                    }, 200); // Opóźnienie w milisekundach (tu: 200 ms)
-                                    przekazArgument0(tablica3[2], undefined, false, tablica3[0], true, true, tablica3[1], tablica3[4], false, '', '', '', '');
-                                    console.log("wykonuje się");
-                                    funkcjaWywolana = true;
-                                }
-
-                                // Usuń poprzednie wideo
-                                removePreviousVideo();
-                                console.log('hej78', index);
-
-                                // Dodaj div z wideo do tła kontenera
-                                const $vidDiv = $('<div>').addClass('background-video22');
-
-                                // Utwórz element <video> i ustaw atrybuty
-                                const $videoElement = $('<video>').attr({
-                                    'autoplay': true, // Automatyczne odtwarzanie wideo
-                                    'muted': true, // Wyciszenie dźwięku wideo
-                                    'loop': true // Zapętlenie wideo
-                                });
-                                if (window.matchMedia("(min-width: 999px)").matches) {
-                                    // Dodaj klasę CSS zależnie od indeksu wideo
-                                    if (index === 0) {
-                                        $videoElement.addClass('scaled-video');
-                                    } else {
-                                        $videoElement.addClass('next-video');
-                                    }
-                                }
-                                // Utwórz element <source> dla wideo i ustaw atrybuty
-                                const $sourceElement = $('<source>').attr({
-                                    'src': srcWords[index], // Poprawne użycie interpolacji
-                                    'type': 'video/mp4'     // Typ pliku wideo
-                                });
-
-                                // Dodaj element source do elementu video
-                                $sourceElement.appendTo($videoElement);
-
-                                // Dodaj element video do diva dla wideo
-                                $videoElement.appendTo($vidDiv);
-
-                                // Dodaj element <source> do elementu <video>
-                                // Obsługa błędu ładowania wideo
-                                $videoElement.onerror = function () {
-                                    console.error('Nie można załadować pliku wideo.');
-                                };
-
-                                let currentIndexValue = [];
-
-                                // Funkcja obsługi zdarzenia loadedmetadata
-                                $videoElement.on('loadedmetadata', function () {
-                                    const videoDuration = this.duration;
-                                    videoDurations[index] = videoDuration;
-                                    console.log('tablica77', totalDuration);
-
-                                    $videoElement.on('timeupdate', function () {
-                                        let adjustedProgress = 0;
-                                        for (let i = 0; i < index; i++) {
-                                            adjustedProgress += (videoDurations[i] / totalDuration) * 100;
-                                        }
-                                        adjustedProgress += (this.currentTime / videoDuration) * (videoDurations[index] / totalDuration) * 100;
-                                        updateProgress(adjustedProgress);
-                                        console.log('hej78', index);
-
-                                        // Sprawdź, czy wartość index nie została jeszcze dodana do tablicy currentIndex
-                                        if (!currentIndexValue.includes(index)) {
-                                            // Dodaj index do tablicy currentIndex
-                                            currentIndexValue.push(index);
-                                            console.log('hej70', currentIndexValue);
-
-                                            // Wywołaj funkcję addBackgroundToText tylko raz
-                                            if (currentIndexValue[0] === 0 || currentIndexValue[0] === 1 || currentIndexValue[0] === 2) {
-                                                addBackgroundToText(matchingFiszki1, matchingIndexes, currentIndexValue, true, lesson1FirstPartLength, lesson1PartLength, matchingLessons5b);
-                                            }
-                                        }
-
-                                        // Sprawdź, czy wideo zostało zakończone
-                                        if ($videoElement[0].duration - $videoElement[0].currentTime < 1) {
-                                            console.log('Wideo zakończone, uruchamiam następne.');
-                                            // Odtwórz następne wideo po zakończeniu poprzedniego
-                                            addVideo2b(index + 1);
-                                            updateProgress(0);
-                                        }
-                                    });
-                                });
-
-                                addScenes(index);
-                                // Dodaj wideo do kontenera
-                                $vidDiv.appendTo($container);
-
-                                function updateProgress(progress) {
-                                    // Aktualizuj pasek postępu na dole kontenera
-                                    $('.progress-bar').css('width', progress + '%');
-                                }
-
-                                // Inicjalizacja paska postępu
-                                const $progressBar = $('<div>').addClass('progress-bar');
-                                if (window.matchMedia("(min-width: 999px)").matches) {
-                                    $progressBar.css({
-                                        'position': 'absolute',
-                                        'z-index': '2',
-                                        'bottom': '0',
-                                        'left': '0',
-                                        'height': '7px', // Wysokość paska postępu
-                                        'background-color': 'green', // Kolor paska postępu
-                                        'width': '140%', // Delikatne powiększenie paska postępu o 2% w każdym kierunku
-                                        'margin-bottom': '-2%',
-                                        'margin-left': '-4%',
-                                        'margin-right': '-4%' // Zapewnienie równowagi dla powiększenia paska postępu
-                                    });
-                                } else {
-                                    $progressBar.css({
-                                        'position': 'absolute',
-                                        'z-index': '2',
-                                        'bottom': '0px',
-                                        'left': '0px',
-                                        'height': '7px', // Wysokość paska postępu
-                                        'background-color': 'green', // Kolor paska postępu
-                                        'width': '100%' // Delikatne powiększenie paska postępu o 2% w każdym kierunku
-                                    });
-                                }
-                                $progressBar.appendTo($container);
-
-                                function addScenes(index) {
-                                    // Sprawdź, czy istnieje element <div> o klasie 'scene-description'
-                                    let $sceneDiv = $container.find('.scene-description');
-
-                                    if ($sceneDiv.length) {
-                                        // Jeśli istnieje, wyczyść jego zawartość
-                                        $sceneDiv.empty();
-                                    } else {
-                                        // Jeśli nie istnieje, stwórz nowy element <div>
-                                        $sceneDiv = $('<div>').addClass('scene-description').appendTo($container);
-                                    }
-
-                                    // Dodaj nowy tekst do <div>
-                                    $sceneDiv.text(`Scena z filmu ${srcWords2[index]}`);
-
-                                    if (window.matchMedia("(max-width: 999px)").matches) {
-                                        if (indexDiv % 2 === 0) {
-                                            console.log('Warunek podzielności przez 2 spełniony2');
-                                            // Zmień CSS paska napisu, aby wyświetlał się po lewej stronie kontenera
-                                            $sceneDiv.css({
-                                                'position': 'relative',
-                                                'margin-top': '-140px',
-                                                'margin-left': '-450px',
-                                                'text-align': 'left',
-                                                'background-color': 'orange',
-                                                'z-index': '9999999'
-                                            });
-                                        } else if (indexDiv % 1 === 0 || indexDiv % 3 === 0 || indexDiv % 5 === 0) {
-                                            console.log('Warunek podzielności przez 1 spełniony2');
-                                            // Zmień CSS paska napisu, aby wyświetlał się po lewej stronie kontenera
-                                            $sceneDiv.css({
-                                                'position': 'relative',
-                                                'margin-top': '-140px',
-                                                'margin-right': '-20px',
-                                                'text-align': 'left',
-                                                'background-color': 'blue',
-                                                'z-index': '99999999999'
-                                            });
-                                        }
-                                    } else if (window.matchMedia("(min-width: 999px)").matches) {
-                                        // Dodatkowe style, jeśli indexDiv jest podzielny przez 4
-                                        if (indexDiv % 4 === 1) {
-                                            // Dodaj klasę 'scene-description2' do $sceneDiv
-                                            $sceneDiv.removeClass('scene-description');
-                                            $sceneDiv.addClass('scene-description2');
-                                        } else {
-                                            // Upewnij się, że klasa 'scene-description2' jest usunięta, jeśli nie jest podzielna przez 4
-                                            $sceneDiv.removeClass('scene-description2');
-                                        }
-                                    }
-                                }
-// Tworzenie przycisku "Stop"
-                                if (!stopButtonAdded) {
-                                    const $stopButton = $('<img>')
-                                            .attr('src', 'https://www.arbulang.com/img/stopok2.png')
-                                            .css({
-                                                'display': 'none', // Ukryty na starcie
-                                                'position': 'absolute', // Precyzyjne pozycjonowanie względem kontenera
-                                                'top': '-15px',
-                                                'left': '20px',
-                                                'width': '40px',
-                                                'height': '40px',
-                                                'z-index': '999999',
-                                                'cursor': 'pointer' // Ustawienie kursora jako wskaźnik
-                                            })
-                                            .on('click', function () {
-                                                // Pętla po wszystkich elementach wideo i zatrzymywanie każdego z nich
-                                                $('video').each(function () {
-                                                    const video = this;
-                                                    if (!video.paused) {
-                                                        video.pause();
-                                                        // Zmień obrazek na "Play"
-                                                        $stopButton.attr('src', 'https://www.arbulang.com/img/play.png');
-                                                    } else {
-                                                        video.play();
-                                                        // Zmień obrazek z powrotem na "Stop"
-                                                        $stopButton.attr('src', 'https://www.arbulang.com/img/stopok2.png');
-                                                    }
-                                                });
-                                            });
-
-                                    // Dodanie przycisku do kontenera
-                                    $stopButton.appendTo($container);
-
-                                    // Pokazywanie przycisku na hover kontenera
-                                    $container.on('mouseover', function () {
-                                        $stopButton.show();
-                                    });
-
-                                    // Ukrywanie przycisku, gdy mysz opuści kontener
-                                    $container.on('mouseout', function () {
-                                        $stopButton.hide();
-                                    });
-
-                                    stopButtonAdded = true;  // Flaga ustawiona na true, gdy przycisk został dodany
-                                }
-                            }
-                            setTimeout(function () {
-                                addVideo2b(0);
-                            }, 700);
-                        }
-                    } else if (isSearching) {
+                    if (category !== "all") {
                         function addVideo3(index) {
                             console.log('index44b', indexDiv);
 
@@ -2863,7 +1899,7 @@ const $speakerIcon = $('<img>')
                                     let initialProgress = 0;
                                     console.log('hej80d', idx);
 
-                                    console.log('hej10a', tablica12ab[0]);
+                                    console.log('hej10a', tablica12ab2[0]);
                                     // Sprawdź, czy jesteśmy poza zakresem tablicy
                                     if (idx >= srcWords.length && !funkcjaWywolana) {
                                         setTimeout(function () {
@@ -2955,8 +1991,8 @@ const $speakerIcon = $('<img>')
                                                     totalDuration = videoDurations.reduce((sum, duration) => sum + (duration || 0), 0);
                                                 }
 
-                                                tablica12ab.push(videoDuration);
-                                                console.log('hej15b', tablica12ab[0]);
+                                                tablica12ab2.push(videoDuration);
+                                                console.log('hej15b', tablica12ab2[0]);
                                                 // Obsługa postępu w trakcie odtwarzania wideo
 
                                             });
@@ -2964,7 +2000,7 @@ const $speakerIcon = $('<img>')
                                         addVideo2bd0(0);
                                     }
                                     setTimeout(function () {
-                                        console.log('hej24bc', tablica12ab[0]);
+                                        console.log('hej24bc', tablica12ab2[0]);
                                     }, 300); // Opóźnienie w milisekundach (tu: 200 ms)
                                     if (idx === 2) {
                                         function addVideo2bd0(idx) {
@@ -3017,7 +2053,7 @@ const $speakerIcon = $('<img>')
                                                 }
                                                 console.log('hej15', videoDuration);
                                                 tablica12ad.push(videoDuration);
-                                                tablica12abc[0] = tablica12ab[0] + tablica12ad[0];
+                                                tablica12abc2[0] = tablica12ab2[0] + tablica12ad2[0];
                                                 // Obsługa postępu w trakcie odtwarzania wideo
 
                                             });
@@ -3025,8 +2061,8 @@ const $speakerIcon = $('<img>')
                                         addVideo2bd0(1);
                                     }
 
-                                    console.log('hej24bci', tablica12ad[0]);
-                                    console.log('hej24bcl', tablica12abc[0]);
+                                    console.log('hej24bci', tablica12ad2[0]);
+                                    console.log('hej24bcl', tablica12abc2[0]);
                                     let currentIndexValue = [];
 
 
@@ -3047,14 +2083,14 @@ const $speakerIcon = $('<img>')
                                             }
                                             if (idx === 1) {
                                                 setTimeout(function () {
-                                                    let startPosition = tablica12ab[0];  // Przykład: start na określonej wartości
+                                                    let startPosition = tablica12ab2[0];  // Przykład: start na określonej wartości
                                                     let startPositionPercentage = (startPosition / totalDuration) * 100; // Przeliczenie na procent
                                                     console.log('hej24b2', startPositionPercentage);
                                                     updateProgress2(startPositionPercentage, adjustedProgress);
                                                 }, 800); // Opóźnienie w milisekundach
                                             }
                                             if (idx === 2) {
-                                                let startPosition = tablica12abc[0];  // Przykład: start na określonej wartości
+                                                let startPosition = tablica12abc2[0];  // Przykład: start na określonej wartości
                                                 let startPositionPercentage = (startPosition / totalDuration) * 100; // Przeliczenie na procent
                                                 console.log('hej24b3', startPositionPercentage);
                                                 updateProgress2(startPositionPercentage, adjustedProgress);
@@ -3324,40 +2360,7 @@ if (window.matchMedia("(max-width: 999px)").matches) {
                     // Tworzenie nowego elementu div za pomocą jQuery
 
 
-                    if ((index50 === 0 && buttonindex && !isSearching) || (newIndex === 0 && !buttonindex && !isSearching)) {
-    var $sentenceDivB = $('<div></div>');
-    $sentenceDivB.addClass('sentenceBA');
-
-    const id1 = matchingFiszki1[0]?.id[1] || 'unknown1';
-    const id2 = matchingFiszki2[0]?.id[1] || 'unknown2';
-    const id3 = matchingFiszki3[0]?.id[1] || 'unknown3';
-
-    $sentenceDivB.html(`
-<div class="sentence-blockB" data-name="${id1}">
-    ${sentence10}${sentence11}<br>
-    <div class="sentence1b">${sentence1b}</div>
-    <div class="sentence1b2">${sentence1b2}</div>
-</div>
-
-<div class="sentence-blockB" data-name="${id2}">
-    ${sentence20}${sentence22}<br>
-    <div class="sentence1b2a">${sentence1b2a}</div>
-    <div class="sentence1b22">${sentence1b22}</div>
-</div>
-
-<div class="sentence-blockB" data-name="${id3}">
-    ${sentence30}${sentence33}<br>
-    <div class="sentence1c2a">${sentence1c2a}</div>
-    <div class="sentence1c22">${sentence1c22}</div>
-</div>
-`);
-                        $sentenceDivB.css({
-                            'position': 'absolute',
-                            'margin-top': '40px',
-                            'text-align': 'center',
-                            'z-index': '100'
-                        });
-                    } else {
+                    if (category !== 'all') {
     var $sentenceDiv = $('<div></div>');
     $sentenceDiv.addClass('sentence');
 
@@ -3366,23 +2369,23 @@ if (window.matchMedia("(max-width: 999px)").matches) {
     const id2 = matchingFiszki2[0]?.id[1] || 'unknown2';
     const id3 = matchingFiszki3[0]?.id[1] || 'unknown3';
 
-$sentenceDiv.html(`
+    $sentenceDiv.html(`
 <div class="sentence-block" data-name="${id1}">
-    <button class="left-button first-button ${selectedCategory}">+<br></button>
+    <button class="left-button first-button">+<br></button>
     ${sentence10}${sentence11}<br>
     <div class="sentence1bba">${sentence1bba}</div>
     <div class="sentence1bba">${sentence1bbab}</div>
 </div>
 
 <div class="sentence-block" data-name="${id2}">
-    <button class="left-buttonb second-button ${selectedCategory}">+<br></button>
+    <button class="left-buttonb second-button">+<br></button>
     ${sentence20}${sentence22}<br>
     <div class="sentence1bb1b">${sentence1bb1b}</div>
     <div class="sentence1bba2">${sentence1bba2}</div>
 </div>
 
 <div class="sentence-block" data-name="${id3}">
-    <button class="left-buttonbb third-button ${selectedCategory}">+<br></button>
+    <button class="left-buttonbb third-button">+<br></button>
     ${sentence30}${sentence33}<br>
     <div class="sentence1bb3">${sentence1bb3}</div>
     <div class="sentence1bb1c">${sentence1bb1c}</div>
@@ -3530,9 +2533,8 @@ $buttonb2.on('click', function () {
                     $container.append($buttonb2);
                     // Dodanie diva z zdaniem do kontenera
                     $container.append($sentenceDiv);
-                    $container.append($sentenceDivB);
-                    tablica12a.push(srcWords);
-                    console.log('hej6', tablica12a);
+                    tablica10a.push(srcWords);
+                    console.log('hej6', tablica10);
 
                 }
 

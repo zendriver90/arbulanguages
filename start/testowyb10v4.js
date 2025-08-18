@@ -1441,8 +1441,8 @@ fiszki10.push(
             "https://www.arbulang.com/img/fiszki1/5d.jpg",
             "https://www.arbulang.com/img/fiszki1/5e.jpg"
         ],
-        translate: "Pies śpi pod dużym drzewem",
-        translateb: "[De dog slips ander de big tri]",
+        translate: "Mężczyzna prowadzi swój samochód szybko",
+        translateb: "[De men drajws his kar fast]",
         translateb2: "[]",
         srcWord: ["https://www.arbulang.com/filmy/drivefast.mp4", 'Fast and Furious'],
         srcWord2: ["https://www.arbulang.com/filmy/procedure.mp4", "Breaking Bad"],
@@ -1599,8 +1599,8 @@ fiszki10.push(
             "https://www.arbulang.com/img/fiszki1/5d.jpg",
             "https://www.arbulang.com/img/fiszki1/5e.jpg"
         ],
-        translate: "Pies śpi pod dużym drzewem",
-        translateb: "[De dog slips ander de big tri]",
+        translate: "Dzieci bawią się na dworze po szkole",
+        translateb: "[De czildren plej autsajd after de skul]",
         translateb2: "[]",
         srcWord: ["https://www.arbulang.com/filmy/children-outside.mp4", 'Grandmas House (2016)'],
         srcWord2: ["https://www.arbulang.com/filmy/procedure.mp4", "Breaking Bad"],
@@ -1660,7 +1660,7 @@ fiszki10.push(
         ],
         img: "https://www.arbulang.com/img/fiszki1/363a.jpg",
         story: "<u><b>Gram</u></b> w piłke bardzo dobrze i odebrałem piłkę nawet <u><b>ple</u></b>cami... <u><b>y</u></b>eeees",
-        desc: "play[drajws] - grać (on, ona, ono)",
+        desc: "play[plej] - grać (on, ona, ono)",
         sentence1: [
             "play"
         ],
@@ -1791,4 +1791,365 @@ fiszki10.push(
         category1: "nauka",
         category2: ["rzeczy"]
     },
+    {
+        id: [
+            368,
+            58,
+            106
+        ],
+        img: [
+            "https://www.arbulang.com/img/fiszki1/5a.jpg",
+            "https://www.arbulang.com/img/fiszki1/5b.jpg",
+            "https://www.arbulang.com/img/fiszki1/5c.jpg",
+            "https://www.arbulang.com/img/fiszki1/5d.jpg",
+            "https://www.arbulang.com/img/fiszki1/5e.jpg"
+        ],
+        translate: "Chłopiec lubi czytać książki",
+        translateb: "[De boj lajks tu rid buks]",
+        translateb2: "[]",
+        srcWord: ["", 'Grandmas House (2016)'],
+        srcWord2: ["", "Breaking Bad"],
+        srcWordimage: "https://www.arbulang.com/filmy/children-outside.png",
+        word: [
+            "https://www.arbulang.com/voice/music.mp4"
+        ],
+        story: [
+            "Piłki do gry w kosza są twar<u><b>de</u></b>. Sam ten sport <u><b>to</u></b> twarda gra",
+            "Na tym <u><b>de</u></b>ptaku jest sporo drzewek, <u><b>to</u></b> urocze miejsce",
+            "<u><b>To</u></b> ten <u><b>De</u></b>partament Stanu prowadzi badania nad społecznym problemem",
+            "Czasami politycy stosują <u><b>de</u></b>magogię. Czyli co stosują? <u><b>Tę</u></b> <u><b>de</u></b>magogię",
+            "<u><b>To</u></b> co w naszej rodzinie istnieje to <u><b>de</u></b>mokracja"
+        ],
+        desc: "TRUDNOŚĆ JĘZYKOWA: the[de]-33%, [ze]-33%, [d-ze]-33% - ta",
+        sentence1: [
+            "The"
+        ],
+        sentence: [
+            "The",
+            "boy",
+            "likes",
+            "to read",
+            "books"
+        ],
+        key: "the",
+        category2: ["osoby"],
+        category3: ["PresenttSimple", "PresentSimplePodmiot"]
+    },
+                                            {
+        id: [
+            369,
+            58,
+            106
+        ],
+        img: "https://www.arbulang.com/img/fiszki1/362a.jpg",
+        story: "",
+        desc: "boy[boj] - chłopiec",
+        sentence1: [
+            "boy"
+        ],
+        sentence: [
+            "The",
+            "boy",
+            "likes",
+            "to read",
+            "books"
+        ],
+        key: "children",
+        category1: "nauka",
+        category2: ["osoby"],
+                category3: ["PresentSimple", "PresentSimpleCzasownik"]
+    },
+                                            {
+        id: [
+            370,
+            58,
+            106
+        ],
+        img: "https://www.arbulang.com/img/fiszki1/363a.jpg",
+        story: "",
+        desc: "likes[lajks] - ",
+        sentence1: [
+            "likes"
+        ],
+        sentence: [
+            "The",
+            "boy",
+            "likes",
+            "to read",
+            "books"
+        ],
+        key: "play",
+        category1: "nauka",
+        category2: ["czasownik"]
+    },
+                                                    {
+        id: [
+            371,
+            58,
+            106
+        ],
+        img: [
+            "https://www.arbulang.com/img/fiszki1/364a.jpg"
+        ],
+        story: [
+            ""
+        ],
+        desc: "to read[tu rid] - czytać",
+        sentence1: [
+            "to read"
+        ],
+        sentence: [
+            "The",
+            "boy",
+            "likes",
+            "to read",
+            "books"
+        ],
+        key: "outside",
+        category1: "nauka",
+        category2: ["okresleniaMiejsca"]
+    },
+                                                    {
+        id: [
+            372,
+            58,
+            106
+        ],
+        img: [
+            "https://www.arbulang.com/img/fiszki1/365a.jpg"
+        ],
+        story: [
+            ""
+        ],
+        desc: "books[buks] - książki",
+        sentence2: [
+            "books"
+        ],
+        sentence: [
+            "The",
+            "boy",
+            "likes",
+            "to read",
+            "books"
+        ],
+        key: "after",
+        category1: "nauka",
+        category2: ["czas"]
+    },
+                     {
+        id: [
+            373,
+            59,
+            107
+        ],
+        img: [
+            "https://www.arbulang.com/img/fiszki1/7a.jpg",
+            "https://www.arbulang.com/img/fiszki1/7b.jpg",
+            "https://www.arbulang.com/img/fiszki1/7c.jpg",
+            "https://www.arbulang.com/img/fiszki1/7d.jpg",
+            "https://www.arbulang.com/img/fiszki1/7e.jpg"
+        ],
+        translate: "On codziennie biega w parku",
+        translateb: "[hi rans in de park dejli]",
+        translateb2: "[Hi is obidient]",
+        srcWord: ["", "Breaking Bad"],
+        srcWord2: ["", "Breaking Bad"],
+        srcWordimage: "https://www.arbulang.com/filmy/procedure.png",
+        word: [
+            "https://www.arbulang.com/voice/bike.mp4"
+        ],
+        story: [
+            'To właśnie <u><b>on</u></b> jest <span class="adannotation" data-annotation="1"><b><u>hi</b></u></span>tem tego sezonu piłkarskiego',
+            'Samiec czyli <u><b>on</u></b> - <span class="adannotation" data-annotation="1"><b><u>hi</b></u></span>popotam',
+            '<u><b>On</b></u> - <span class="adannotation" data-annotation="1"><u><b>Hi</b></u></span>eronim odleciał balonem',
+            'Ma<span class="adannotation" data-annotation="1"><u><b>chi</u></b></span>nę do tortur wymyślił <u><b>on</u></b> - jest <span class="adannotation" data-annotation="1"><u><b>Hi</u></b></span>ndusem',
+            '<u><b>On</u></b> je ciastka <span class="adannotation" data-annotation="1"><u><b>hi</u></b></span>ty'
+        ],
+        desc: "he[hi] - on",
+        sentence1: [
+            "He"
+        ],
+        sentence: [
+            "He",
+            "runs",
+            "in the park",
+            "daily"
+        ],
+        key: "the",
+        category2: ["osoby"],
+        category3: ["PresenttSimple", "PresentSimplePodmiot"]
+    },
+                                            {
+        id: [
+            374,
+            59,
+            107
+        ],
+        img: "https://www.arbulang.com/img/fiszki1/362a.jpg",
+        story: "",
+        desc: "runs[rans] - biegnie",
+        sentence1: [
+            "runs"
+        ],
+        sentence: [
+            "He",
+            "runs",
+            "in the park",
+            "daily"
+        ],
+        key: "children",
+        category1: "nauka",
+        category2: ["osoby"],
+                category3: ["PresentSimple", "PresentSimpleCzasownik"]
+    },
+                                            {
+        id: [
+            375,
+            59,
+            107
+        ],
+        img: "https://www.arbulang.com/img/fiszki1/363a.jpg",
+        story: "",
+        desc: "in the park[in de park] - w parku",
+        sentence1: [
+            "in the park"
+        ],
+        sentence: [
+            "He",
+            "runs",
+            "in the park",
+            "daily"
+        ],
+        key: "play",
+        category1: "nauka",
+        category2: ["czasownik"]
+    },
+                                                    {
+        id: [
+            376,
+            59,
+            107
+        ],
+        img: [
+            "https://www.arbulang.com/img/fiszki1/364a.jpg"
+        ],
+        story: [
+            ""
+        ],
+        desc: "daily[dejli] - codziennie",
+        sentence1: [
+            "daily"
+        ],
+        sentence: [
+            "He",
+            "runs",
+            "in the park",
+            "daily"
+        ],
+        key: "outside",
+        category1: "nauka",
+        category2: ["okresleniaMiejsca"]
+    },
+                         {
+        id: [
+            377,
+            60,
+            108
+        ],
+        img: [
+            "https://www.arbulang.com/img/fiszki1/7a.jpg",
+            "https://www.arbulang.com/img/fiszki1/7b.jpg",
+            "https://www.arbulang.com/img/fiszki1/7c.jpg",
+            "https://www.arbulang.com/img/fiszki1/7d.jpg",
+            "https://www.arbulang.com/img/fiszki1/7e.jpg"
+        ],
+        translate: "Ona pięknie śpiewa pod prysznicem",
+        translateb: "[Szi sings bjutifuli in de szołer]",
+        translateb2: "[]",
+        srcWord: ["", "Andie Case - Mysterious"],
+        srcWord2: ["", "Breaking Bad"],
+        srcWordimage: "https://www.arbulang.com/filmy/procedure.png",
+        word: [
+            "https://www.arbulang.com/voice/bike.mp4"
+        ],
+        story: "<u><b>Ona</u></b> - Patrycja ma ri<u><b>szi</u></b> to naturalny antyoksydant",
+        desc: "she[szi] - niebieski/niebieskie",
+        sentence1: [
+            "He"
+        ],
+        sentence: [
+            "She",
+            "sings",
+            "beautifully"
+        ],
+        key: "the",
+        category2: ["osoby"],
+        category3: ["PresenttSimple", "PresentSimplePodmiot"]
+    },
+                                            {
+        id: [
+            378,
+            60,
+            108
+        ],
+        img: "https://www.arbulang.com/img/fiszki1/362a.jpg",
+        story: "",
+        desc: "sings[sings] - śpiewa",
+        sentence1: [
+            "sings"
+        ],
+        sentence: [
+            "She",
+            "sings",
+            "beautifully"
+        ],
+        key: "children",
+        category1: "nauka",
+        category2: ["osoby"],
+                category3: ["PresentSimple", "PresentSimpleCzasownik"]
+    },
+                                            {
+        id: [
+            379,
+            59,
+            107
+        ],
+        img: "https://www.arbulang.com/img/fiszki1/363a.jpg",
+        story: "",
+        desc: "beautifully[bjutlifuli] - pięknie",
+        sentence1: [
+            "beautifully"
+        ],
+        sentence: [
+            "She",
+            "sings",
+            "beautifully"
+        ],
+        key: "play",
+        category1: "nauka",
+        category2: ["czasownik"]
+    },
+                                                    {
+        id: [
+            380,
+            60,
+            109
+        ],
+        img: [
+            "https://www.arbulang.com/img/fiszki1/364a.jpg"
+        ],
+        story: [
+            ""
+        ],
+        desc: "in the shower[in de szołer] - pod prysznicem",
+        sentence2: [
+            "in the shower"
+        ],
+        sentence: [
+            "in the shower"
+        ],
+        key: "outside",
+        category1: "nauka",
+        category2: ["okresleniaMiejsca"]
+    }
 );

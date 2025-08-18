@@ -2963,7 +2963,7 @@ const fiszki10 = [
                 alt: "Wygenerowane przez AI."
             },
             story: {
-                text: "Weekend majowy to doskanły czas, aby odpocząć od pracy",
+                text: "Weekend <b><u>maj</b></u>owy to doskanły czas, aby odpocząć od <b><u>mojej</b></u> pracy",
                 alt: "Praca. Kiedy najlepiej odpoczywać w Polsce?"
             },
             category: ["czarny humor", "wypoczynek"]
@@ -2979,6 +2979,30 @@ const fiszki10 = [
                 alt: "Zaufanie a przyjaźń. Czy trudno jest zbudować zaufanie?"
             },
             category: ["związki", "przyjaźń"]
+        },
+                        {
+                    id: 6,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/50aa6.jpg",
+                alt: "Wygenerowane przez AI."
+            },
+            story: {
+                text: "Jestem <b><u>maj</b></u>kutem. <b><u>Moje</b></u> serwy tenisowe są wyśmienite",
+                alt: ""
+            },
+            category: ["sport 2", "tenis ziemny"]
+        },
+        {
+                            id: 7,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/50aa7.jpg",
+                alt: "Auto na parkingu. Wygenerowane przez AI."
+            },
+            story: {
+                text: "<b><u>Moje</b></u> auto to <b><u>Maj</b></u>bach - muszę płacić wysoką składkę ubezpieczeniową",
+                alt: ""
+            },
+            category: ["czarny humor 2", "majątek"]
         }
             ],
         srcWord: ["https://www.arbulang.com/filmy/company.mp4", "Rampage (2018)"],
@@ -3286,7 +3310,7 @@ const fiszki10 = [
             },
             story: {
                 text: "Se<b><u>wery</b></u>n jest <b><u>bardzo</b></u> dobrze przygotowany na następny mecz",
-                alt: "Kwalifikacja na listę. Jak zakwalifikować się na listę?"
+                alt: ""
             },
             category: ["sport", "trening"]
         },
@@ -3298,7 +3322,7 @@ const fiszki10 = [
             },
             story: {
                 text: "Ksa<b><u>wery</b></u> <b><u>bardzo</b></u> się opalił na słońcu w te lato",
-                alt: "Kwalifikacja na listę. Jak zakwalifikować się na listę?"
+                alt: ""
             },
             category: ["natura", "odpoczynek"]
         },
@@ -3321,10 +3345,10 @@ const fiszki10 = [
                 alt: "Wygenerowane przez AI."
             },
             story: {
-                text: "",
+                text: "Na zegarku widniały <b><u>bardzo</b></u> piękne gra<b><u>wery</b></u> przedstawiające roślinne ornamenty",
                 alt: ""
             },
-            category: ["czarny humor", ""]
+            category: ["czarny humor", "przemioty"]
         },
                         {
             id: 5,
@@ -3362,6 +3386,30 @@ const fiszki10 = [
         {
             id: 1,
             img: {
+                src: "https://www.arbulang.com/img/fiszki1/43aa1.jpg",
+                alt: "Wygenerowane przez AI."
+            },
+            story: {
+                text: "Gra sportowa na n<b><u>inte</b></u>ndo nie zawsze jest łatwa. Ale jest zabawa <b><u>Siiii</b></u> i dlatego <b><u>wli</b></u>cza się do potężnej rozrywki",
+                alt: ""
+            },
+            category: ["sport", "gra sportowa"]
+        },
+                            {
+            id: 2,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/43aa2.jpg",
+                alt: "Wygenerowane przez AI."
+            },
+            story: {
+                text: "M<b><u>int</b></u>aj to ryba której s<b><u>ens</b></u>em życia jest pływać i wariować co <b><u>wli</b></u>cza się do jej dobrego smaku",
+                alt: ""
+            },
+            category: ["natura", "ryby"]
+        },
+                {
+            id: 3,
+            img: {
                 src: "https://www.arbulang.com/img/fiszki1/43aa.jpg",
                 alt: "Para z dyplomem. Wygenerowane przez AI."
             },
@@ -3369,7 +3417,31 @@ const fiszki10 = [
                 text: "<b><u>Inten</b></u>cją Zo<b><u>si</b></u> jest <b><u>wli</b></u>czenie jej zasług do intensywnej pracy społeczności",
                 alt: "Życie w społeczności. Jak można awansować w społeczności"
             },
-            category: ["społeczność", "relacje"]
+            category: ["nauka", "społeczność"]
+        },
+                        {
+            id: 4,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/43aa4.jpg",
+                alt: "Wygenerowane przez AI."
+            },
+            story: {
+                text: "<b><u>Inte</b></u>res i s<b><u>ens</b></u> w zarabianiu pieniędzy można sprawdzić po ilości wypitych p<b><u>iw</b></u> i <b><u>li</b></u>kierów",
+                alt: "Picie alkoholów. Jakie alkohole są dobre?"
+            },
+            category: ["czarny humor", "spożywanie alkoholu"]
+        },
+                    {
+            id: 5,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/43aa5.jpg",
+                alt: "Wygenerowane przez AI."
+            },
+            story: {
+                text: "<b><u>Intens</b></u>ywne życie polega no dostrzeganiu każdej radosnej <b><u>i</b></u> przyjaznej ch<b><u>wili</b></u>",
+                alt: "Życie w społeczności. Jak można awansować w społeczności"
+            },
+            category: ["związki", "capre diem"]
         }
             ],
         desc: "intensively[intensiwli] - intensywnie",
@@ -3481,18 +3553,66 @@ const fiszki10 = [
             15
         ],
             entries: [
-        {
+                        {
             id: 1,
             img: {
+                src: "https://www.arbulang.com/img/fiszki1/45aa1.jpg",
+                alt: "Wygenerowane przez AI."
+            },
+            story: {
+                text: "Za<b><u>buk</b></u>owałem już hotel na następne mistrzostwa i czytam <b><u>książkę</b></u> o treningu mentalnym",
+                alt: ""
+            },
+            category: ["sport", "organizacja"]
+        },
+                                {
+            id: 2,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/45aa2.jpg",
+                alt: "Wygenerowane przez AI."
+            },
+            story: {
+                text: "<b><u>Buk</b></u>areszt to piękne miejsce - najpierw je odwiedziłem a później przeczytałem o nim <b><u>książkę</b></u>",
+                alt: ""
+            },
+            category: ["natura", "miejsca"]
+        },
+        {
+            id: 3,
+            img: {
                 src: "https://www.arbulang.com/img/fiszki1/45aa.jpg",
-                alt: "Książka. Wygenerowane przez AI."
+                alt: "Wygenerowane przez AI."
             },
             story: {
                 text: "Z drzewa <b><u>buk</b></u>owego jest najlepszy papier na <b><u>książki</b></u>",
                 alt: "Papier na książki. Z czego robiony jest papier na książki?"
             },
             category: ["nauka", "produkcja"]
-        }
+        },
+                                        {
+            id: 4,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/45aa4.jpg",
+                alt: "Wygenerowane przez AI."
+            },
+            story: {
+                text: "<b><u>Buk</b></u>szpan to takie warzywo, którego dużo jem - bo wyczytałem w <b><u>książce</b></u> że jest zdrowe",
+                alt: ""
+            },
+            category: ["czarny humor", "warzywa"]
+        },
+                                                {
+            id: 5,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/45aa5.jpg",
+                alt: "Wygenerowane przez AI."
+            },
+            story: {
+                text: "W <b><u>Buk</b></u>areszcie zakochałem się po uszy. Napisałem dla ukochanej <b><u>książkę</b></u>",
+                alt: ""
+            },
+            category: ["związki", "miejsca"]
+        },
             ],
         desc: "book[buk] - książka",
         sentence1: [
@@ -3514,8 +3634,32 @@ const fiszki10 = [
             15
         ],
             entries: [
-        {
+                        {
             id: 1,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/46aa1.jpg",
+                alt: "Wygenerowane przez AI."
+            },
+            story: {
+                text: "Mam zawody sportowe w Belgradzie w ping-p<b><u>ong</b></u>u - <b><u>s</b></u>uper!!!",
+                alt: ""
+            },
+            category: ["sport", "miasta Europy"]
+        },
+                {
+            id: 2,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/46aa2.jpg",
+                alt: "Wygenerowane przez AI."
+            },
+            story: {
+                text: "<b><u>Bel</b></u>a siana <b><u>przynależy</b></u> do tego gospodarstwa - <b><u>ong</b></u>iś do kogoś innego - jednak wszystko jest po <b><u>s</b></u>taremu",
+                alt: ""
+            },
+            category: ["natura", "gospodarstwo"]
+        },
+        {
+            id: 3,
             img: {
                 src: "https://www.arbulang.com/img/fiszki1/46aa.jpg",
                 alt: "Historia architektury. Wygenerowane przez AI."
@@ -3524,7 +3668,31 @@ const fiszki10 = [
                 text: "<b><u>Bel</b></u>ki <b><u>przynależą</b></u> do stropu, w Mongoli tak robiono stropy",
                 alt: "Konstrukcja stropu. Jak zrobić strop?"
             },
-            category: ["budownictwo", "konstrukcje"]
+            category: ["nauka", "budownictwo"]
+        },
+                {
+            id: 4,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/46aa4.jpg",
+                alt: "Wygenerowane przez AI."
+            },
+            story: {
+                text: "<b><u>Bel</b></u>ka <b><u>przynależenia</b></u> do stopniu mistrzostwa ju-jitsu mówi o tym że ktoś nieźle walczy. Mógłby wygrać z M<b><u>ong</b></u>ołem lub <b><u>S</b></u>partaninem",
+                alt: ""
+            },
+            category: ["czarny humor", "ju-jitsu"]
+        },
+                        {
+            id: 5,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/46aa5.jpg",
+                alt: "Wygenerowane przez AI."
+            },
+            story: {
+                text: "",
+                alt: ""
+            },
+            category: ["związki", ""]
         }
             ],
         story: "<b><u>Bel</b></u>ki <b><u>przynależą</b></u> do stropu, w Mongoli tak robiono stropy",
@@ -3638,8 +3806,32 @@ const fiszki10 = [
             16
         ],
             entries: [
-        {
+                        {
             id: 1,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/48aa1.jpg",
+                alt: "Wygenerowane przez AI."
+            },
+            story: {
+                text: "Pre<b><u>his</b></u>toryczny dinozaur z <b><u>jego</b></u> sprawnością mógłby spokojnie pokonać niedźwiedzia",
+                alt: ""
+            },
+            category: ["sport", "zwierzęta"]
+        },
+                {
+            id: 2,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/48aa2.jpg",
+                alt: "Wygenerowane przez AI."
+            },
+            story: {
+                text: "Lew nie wpada w <b><u>his</b></u>terię - polegają na instynkcie. Za to <b><u>jego</b></u> natura jest bardzo niebezpieczna dla czowieka",
+                alt: ""
+            },
+            category: ["natura", "sawanaa"]
+        },
+        {
+            id: 3,
             img: {
                 src: "https://www.arbulang.com/img/fiszki1/48aa.jpg",
                 alt: "Historia człowieka w muzeum. Wygenerowane przez AI."
@@ -3648,10 +3840,10 @@ const fiszki10 = [
                 text: "<b><u>Jego</b></u> <b><u>his</b></u>toria jest bardzo atrakcyjna i bujna",
                 alt: "Opowieść o dawnych czasach. Jak opowiadać historię?"
             },
-            category: ["związki", "autoprezentacja"]
+            category: ["nauka", "autoprezentacja"]
         },
                 {
-            id: 2,
+            id: 4,
             img: {
                 src: "https://www.arbulang.com/img/fiszki1/106b.jpg",
                 alt: "Wynalazek nowoczesności. Wygenerowane przez AI."
@@ -3660,13 +3852,21 @@ const fiszki10 = [
                 text: "Jego ma<b><u>chi</b></u>na jest bardzo <b><u>s</b></u>prawna",
                 alt: "Projektowanie urządzenia. Jak projektuje się maszyny?"
             },
-            category: ["praca", "technologia"]
+            category: ["czarny humor", "technologia"]
+        },
+                        {
+            id: 5,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/48aa5.jpg",
+                alt: "Wygenerowane przez AI."
+            },
+            story: {
+                text: "<b><u>Jego</b></u> dziewczyna wpadła w <b><u>his</b></u>terię",
+                alt: ""
+            },
+            category: ["związki", "emocje"]
         }
             ],
-        story: [
-            "<b><u>Jego</b></u> <b><u>his</b></u>toria jest bardzo atrakcyjna i bujna",
-            "Jego ma<b><u>chi</b></u>na jest bardzo <b><u>s</b></u>prawna"
-        ],
         desc: "his[his] -jego",
         sentence2: [
             "his"
@@ -3689,8 +3889,32 @@ const fiszki10 = [
             16
         ],
             entries: [
-        {
+                        {
             id: 1,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/49aa.jpg",
+                alt: "Wygenerowane przez AI."
+            },
+            story: {
+                text: "Na zawodach sportowych jest grana muzyka przez didżeja Dawida a jego zapach to jak mydełko 'Fa' i kręci bioderkiem - wszyskiemu przygląda się mój dziadek",
+                alt: ""
+            },
+            category: ["sport", "impreza sportowa"]
+        },
+                                {
+            id: 2,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/49aa.jpg",
+                alt: "Córka i dziadek. Wygenerowane przez AI."
+            },
+            story: {
+                text: "",
+                alt: "W"
+            },
+            category: ["natura", ""]
+        },
+        {
+            id: 5,
             img: {
                 src: "https://www.arbulang.com/img/fiszki1/49aa.jpg",
                 alt: "Córka i dziadek. Wygenerowane przez AI."
@@ -3699,7 +3923,7 @@ const fiszki10 = [
                 text: "Kłóciłem się z <b><u>dziadkeim</b></u> i była <b><u>grand</b></u>a.. ta <b><u>fa</b></u>milia mnie już <b><u>de</b></u>ne<b><u>r</b></u>wuje",
                 alt: "Wpływ członków rodziny na siebie. Jak rodzina wpływa na siebie nawzajem?"
             },
-            category: ["społeczność", "rodzina"]
+            category: ["związki", "rodzina"]
         }
             ],
         desc: "grandfather[grandfader] - dziadek",
@@ -3721,8 +3945,32 @@ const fiszki10 = [
             17
         ],
             entries: [
-        {
+                        {
             id: 1,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/50aa1.jpg",
+                alt: "Wygenerowane przez AI."
+            },
+            story: {
+                text: "<b><u>Maj</b></u>kut mówi: <b><u>mój</b></u> wynik był najlepszy w tym wyścigu",
+                alt: "Bieganie. Czy dominująca półkula mózgu ma wpływ na wyniki sportowe?"
+            },
+            category: ["sport", "bieganie"]
+        },
+                {
+                            id: 2,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/50cc.jpg",
+                alt: "Zroszona przez deszcz - roślina. Wygenerowane przez AI."
+            },
+            story: {
+                text: "W <b><u>maj</b></u>u na <b><u>moje</b></u> rośliny w ogrodzie pada deszcz",
+                alt: "Pory roku, wiosna i jej uroki. Czy majowy deszcz jest przyjemny?"
+            },
+            category: ["nauka", "pory roku"]
+        },
+        {
+            id: 3,
             img: {
                 src: "https://www.arbulang.com/img/fiszki1/50aa.jpg",
                 alt: "Ogród kwiatowy. Wygenerowane przez AI."
@@ -3733,8 +3981,20 @@ const fiszki10 = [
             },
             category: ["natura", "florystyka"]
         },
+                {
+                    id: 4,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/50bb4.jpg",
+                alt: "Wygenerowane przez AI."
+            },
+            story: {
+                text: "Weekend <b><u>maj</b></u>owy to doskanły czas, aby odpocząć od <b><u>mojej</b></u> pracy",
+                alt: "Praca. Kiedy najlepiej odpoczywać w Polsce?"
+            },
+            category: ["czarny humor", "wypoczynek"]
+        },
         {
-                    id: 2,
+                    id: 5,
             img: {
                 src: "https://www.arbulang.com/img/fiszki1/50bb.jpg",
                 alt: "Auto na parkingu. Wygenerowane przez AI."
@@ -3745,17 +4005,29 @@ const fiszki10 = [
             },
             category: ["związki", "przyjaźń"]
         },
-        {
-                            id: 3,
+                        {
+                    id: 6,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/50cc.jpg",
-                alt: "Zroszona przez deszcz - roślina. Wygenerowane przez AI."
+                src: "https://www.arbulang.com/img/fiszki1/50aa6.jpg",
+                alt: "Wygenerowane przez AI."
             },
             story: {
-                text: "W <b><u>maj</b></u>u na <b><u>moje</b></u> rośliny w ogrodzie pada deszcz",
-                alt: "Pory roku, wiosna i jej uroki. Czy majowy deszcz jest przyjemny?"
+                text: "Jestem <b><u>maj</b></u>kutem. <b><u>Moje</b></u> serwy tenisowe są wyśmienite",
+                alt: ""
             },
-            category: ["nauka", "pory roku"]
+            category: ["sport 2", "tenis ziemny"]
+        },
+        {
+                            id: 7,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/50aa7.jpg",
+                alt: "Auto na parkingu. Wygenerowane przez AI."
+            },
+            story: {
+                text: "<b><u>Moje</b></u> auto to <b><u>Maj</b></u>bach - muszę płacić wysoką składkę ubezpieczeniową",
+                alt: ""
+            },
+            category: ["czarny humor 2", "majątek"]
         }
             ],
         translate: "Moi sąsiedzi sprzedali ich duży dom",
@@ -3785,6 +4057,18 @@ const fiszki10 = [
             17
         ],
             entries: [
+                        {
+            id: 1,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/51aa.jpg",
+                alt: "Wierszyk na urodziny. Wygenerowane przez AI."
+            },
+            story: {
+                text: "Dawno nie widziałem takiej fajnej sportsmenki",
+                alt: "Imprezy okolicznościowe. Co jest najlepsze na urodziny?"
+            },
+            category: ["sport", ""]
+        },
         {
             id: 1,
             img: {
@@ -3795,7 +4079,7 @@ const fiszki10 = [
                 text: "Dla zdol<b><u>nej</b></u> uczennicy <b><u>sąsiedzi</b></u> ułożyli wierszyk, <b><u>bo</b></u> <b><u>s</b></u>ą jej urodziny",
                 alt: "Imprezy okolicznościowe. Co jest najlepsze na urodziny?"
             },
-            category: ["społeczność", "relacje"]
+            category: ["związki", "społeczność"]
         }
             ],
         desc: "neighbours[nejbours] - sąsiedzi",
@@ -3985,7 +4269,7 @@ const fiszki10 = [
                 text: "W <b><u>domu</b></u> mamy psa, który robi <b><u>hał</b></u>.. hał.. na sąsiadów i wabi się <b><u>S</b></u>ara",
                 alt: ""
             },
-            category: ["ycie", "zwierzęta domowe"]
+            category: ["życie", "zwierzęta domowe"]
         }
             ],
         desc: "house[hałs] - dom",
@@ -4008,8 +4292,32 @@ const fiszki10 = [
             19
         ],
             entries: [
-        {
+                        {
             id: 1,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/50aa1.jpg",
+                alt: "Wygenerowane przez AI."
+            },
+            story: {
+                text: "<b><u>Maj</b></u>kut mówi: <b><u>mój</b></u> wynik był najlepszy w tym wyścigu",
+                alt: "Bieganie. Czy dominująca półkula mózgu ma wpływ na wyniki sportowe?"
+            },
+            category: ["sport", "bieganie"]
+        },
+                {
+                            id: 2,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/50cc.jpg",
+                alt: "Zroszona przez deszcz - roślina. Wygenerowane przez AI."
+            },
+            story: {
+                text: "W <b><u>maj</b></u>u na <b><u>moje</b></u> rośliny w ogrodzie pada deszcz",
+                alt: "Pory roku, wiosna i jej uroki. Czy majowy deszcz jest przyjemny?"
+            },
+            category: ["nauka", "pory roku"]
+        },
+        {
+            id: 3,
             img: {
                 src: "https://www.arbulang.com/img/fiszki1/50aa.jpg",
                 alt: "Ogród kwiatowy. Wygenerowane przez AI."
@@ -4020,8 +4328,20 @@ const fiszki10 = [
             },
             category: ["natura", "florystyka"]
         },
+                {
+                    id: 4,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/50bb4.jpg",
+                alt: "Wygenerowane przez AI."
+            },
+            story: {
+                text: "Weekend <b><u>maj</b></u>owy to doskanły czas, aby odpocząć od <b><u>mojej</b></u> pracy",
+                alt: "Praca. Kiedy najlepiej odpoczywać w Polsce?"
+            },
+            category: ["czarny humor", "wypoczynek"]
+        },
         {
-                    id: 2,
+                    id: 5,
             img: {
                 src: "https://www.arbulang.com/img/fiszki1/50bb.jpg",
                 alt: "Auto na parkingu. Wygenerowane przez AI."
@@ -4032,17 +4352,29 @@ const fiszki10 = [
             },
             category: ["związki", "przyjaźń"]
         },
-        {
-                            id: 3,
+                        {
+                    id: 6,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/50cc.jpg",
-                alt: "Zroszona przez deszcz - roślina. Wygenerowane przez AI."
+                src: "https://www.arbulang.com/img/fiszki1/50aa6.jpg",
+                alt: "Wygenerowane przez AI."
             },
             story: {
-                text: "W <b><u>maj</b></u>u na <b><u>moje</b></u> rośliny w ogrodzie pada deszcz",
-                alt: "Pory roku, wiosna i jej uroki. Czy majowy deszcz jest przyjemny?"
+                text: "Jestem <b><u>maj</b></u>kutem. <b><u>Moje</b></u> serwy tenisowe są wyśmienite",
+                alt: ""
             },
-            category: ["nauka", "pory roku"]
+            category: ["sport 2", "tenis ziemny"]
+        },
+        {
+                            id: 7,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/50aa7.jpg",
+                alt: "Auto na parkingu. Wygenerowane przez AI."
+            },
+            story: {
+                text: "<b><u>Moje</b></u> auto to <b><u>Maj</b></u>bach - muszę płacić wysoką składkę ubezpieczeniową",
+                alt: ""
+            },
+            category: ["czarny humor 2", "majątek"]
         }
             ],
         translate: "Mój pies jest dobrym przyjacielem",
@@ -4072,9 +4404,21 @@ const fiszki10 = [
             10,
             19
         ],
-            entries: [
+                    entries: [
         {
             id: 1,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/58aa1.jpg",
+                alt: "Mały piesek. Wygenerowane przez AI."
+            },
+            story: {
+                text: "W tym psim wyścigu musi być dogrywka",
+                alt: ""
+            },
+            category: ["sport", "zawody zwierząt"]
+        },
+        {
+            id: 4,
             img: {
                 src: "https://www.arbulang.com/img/fiszki1/58aa.jpg",
                 alt: "Mały piesek. Wygenerowane przez AI."
@@ -4083,7 +4427,7 @@ const fiszki10 = [
                 text: "Mój <b><u>pies</b></u> mnie słucha, <b><u>dog</b></u>aduje się z nim",
                 alt: ""
             },
-            category: ["życie", "pupil"]
+            category: ["czarny humor", "pupil"]
         }
             ],
         desc: "dog[dog] - pies",
@@ -6557,8 +6901,32 @@ const fiszki10 = [
             36
         ],
             entries: [
-        {
+                        {
             id: 1,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/48aa1.jpg",
+                alt: "Wygenerowane przez AI."
+            },
+            story: {
+                text: "Pre<b><u>his</b></u>toryczny dinozaur z <b><u>jego</b></u> sprawnością mógłby spokojnie pokonać niedźwiedzia",
+                alt: ""
+            },
+            category: ["sport", "zwierzęta"]
+        },
+                {
+            id: 2,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/48aa2.jpg",
+                alt: "Wygenerowane przez AI."
+            },
+            story: {
+                text: "Lew nie wpada w <b><u>his</b></u>terię - polegają na instynkcie. Za to <b><u>jego</b></u> natura jest bardzo niebezpieczna dla czowieka",
+                alt: ""
+            },
+            category: ["natura", "sawanaa"]
+        },
+        {
+            id: 3,
             img: {
                 src: "https://www.arbulang.com/img/fiszki1/48aa.jpg",
                 alt: "Historia człowieka w muzeum. Wygenerowane przez AI."
@@ -6567,10 +6935,10 @@ const fiszki10 = [
                 text: "<b><u>Jego</b></u> <b><u>his</b></u>toria jest bardzo atrakcyjna i bujna",
                 alt: "Opowieść o dawnych czasach. Jak opowiadać historię?"
             },
-            category: ["związki", "autoprezentacja"]
+            category: ["nauka", "autoprezentacja"]
         },
                 {
-            id: 2,
+            id: 4,
             img: {
                 src: "https://www.arbulang.com/img/fiszki1/106b.jpg",
                 alt: "Wynalazek nowoczesności. Wygenerowane przez AI."
@@ -6579,7 +6947,19 @@ const fiszki10 = [
                 text: "Jego ma<b><u>chi</b></u>na jest bardzo <b><u>s</b></u>prawna",
                 alt: "Projektowanie urządzenia. Jak projektuje się maszyny?"
             },
-            category: ["praca", "technologia"]
+            category: ["czarny humor", "technologia"]
+        },
+                        {
+            id: 5,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/48aa5.jpg",
+                alt: "Wygenerowane przez AI."
+            },
+            story: {
+                text: "<b><u>Jego</b></u> dziewczyna wpadła w <b><u>his</b></u>terię",
+                alt: ""
+            },
+            category: ["związki", "emocje"]
         }
             ],
         desc: "his[his] - jego",
@@ -9021,8 +9401,32 @@ const fiszki10 = [
             51
         ],
             entries: [
-        {
+                        {
             id: 1,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/48aa1.jpg",
+                alt: "Wygenerowane przez AI."
+            },
+            story: {
+                text: "Pre<b><u>his</b></u>toryczny dinozaur z <b><u>jego</b></u> sprawnością mógłby spokojnie pokonać niedźwiedzia",
+                alt: ""
+            },
+            category: ["sport", "zwierzęta"]
+        },
+                {
+            id: 2,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/48aa2.jpg",
+                alt: "Wygenerowane przez AI."
+            },
+            story: {
+                text: "Lew nie wpada w <b><u>his</b></u>terię - polegają na instynkcie. Za to <b><u>jego</b></u> natura jest bardzo niebezpieczna dla czowieka",
+                alt: ""
+            },
+            category: ["natura", "sawanaa"]
+        },
+        {
+            id: 3,
             img: {
                 src: "https://www.arbulang.com/img/fiszki1/48aa.jpg",
                 alt: "Historia człowieka w muzeum. Wygenerowane przez AI."
@@ -9031,10 +9435,10 @@ const fiszki10 = [
                 text: "<b><u>Jego</b></u> <b><u>his</b></u>toria jest bardzo atrakcyjna i bujna",
                 alt: "Opowieść o dawnych czasach. Jak opowiadać historię?"
             },
-            category: ["związki", "autoprezentacja"]
+            category: ["nauka", "autoprezentacja"]
         },
                 {
-            id: 2,
+            id: 4,
             img: {
                 src: "https://www.arbulang.com/img/fiszki1/106b.jpg",
                 alt: "Wynalazek nowoczesności. Wygenerowane przez AI."
@@ -9043,7 +9447,19 @@ const fiszki10 = [
                 text: "Jego ma<b><u>chi</b></u>na jest bardzo <b><u>s</b></u>prawna",
                 alt: "Projektowanie urządzenia. Jak projektuje się maszyny?"
             },
-            category: ["praca", "technologia"]
+            category: ["czarny humor", "technologia"]
+        },
+                        {
+            id: 5,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/48aa5.jpg",
+                alt: "Wygenerowane przez AI."
+            },
+            story: {
+                text: "<b><u>Jego</b></u> dziewczyna wpadła w <b><u>his</b></u>terię",
+                alt: ""
+            },
+            category: ["związki", "emocje"]
         }
             ],
         desc: "his[his] - jego",
@@ -11287,8 +11703,32 @@ const fiszki10 = [
             62
         ],
             entries: [
-        {
+                        {
             id: 1,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/50aa1.jpg",
+                alt: "Wygenerowane przez AI."
+            },
+            story: {
+                text: "<b><u>Maj</b></u>kut mówi: <b><u>mój</b></u> wynik był najlepszy w tym wyścigu",
+                alt: "Bieganie. Czy dominująca półkula mózgu ma wpływ na wyniki sportowe?"
+            },
+            category: ["sport", "bieganie"]
+        },
+                {
+                            id: 2,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/50cc.jpg",
+                alt: "Zroszona przez deszcz - roślina. Wygenerowane przez AI."
+            },
+            story: {
+                text: "W <b><u>maj</b></u>u na <b><u>moje</b></u> rośliny w ogrodzie pada deszcz",
+                alt: "Pory roku, wiosna i jej uroki. Czy majowy deszcz jest przyjemny?"
+            },
+            category: ["nauka", "pory roku"]
+        },
+        {
+            id: 3,
             img: {
                 src: "https://www.arbulang.com/img/fiszki1/50aa.jpg",
                 alt: "Ogród kwiatowy. Wygenerowane przez AI."
@@ -11299,8 +11739,20 @@ const fiszki10 = [
             },
             category: ["natura", "florystyka"]
         },
+                {
+                    id: 4,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/50bb4.jpg",
+                alt: "Wygenerowane przez AI."
+            },
+            story: {
+                text: "Weekend <b><u>maj</b></u>owy to doskanły czas, aby odpocząć od <b><u>mojej</b></u> pracy",
+                alt: "Praca. Kiedy najlepiej odpoczywać w Polsce?"
+            },
+            category: ["czarny humor", "wypoczynek"]
+        },
         {
-                    id: 2,
+                    id: 5,
             img: {
                 src: "https://www.arbulang.com/img/fiszki1/50bb.jpg",
                 alt: "Auto na parkingu. Wygenerowane przez AI."
@@ -11311,17 +11763,29 @@ const fiszki10 = [
             },
             category: ["związki", "przyjaźń"]
         },
-        {
-                            id: 3,
+                        {
+                    id: 6,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/50cc.jpg",
-                alt: "Zroszona przez deszcz - roślina. Wygenerowane przez AI."
+                src: "https://www.arbulang.com/img/fiszki1/50aa6.jpg",
+                alt: "Wygenerowane przez AI."
             },
             story: {
-                text: "W <b><u>maj</b></u>u na <b><u>moje</b></u> rośliny w ogrodzie pada deszcz",
-                alt: "Pory roku, wiosna i jej uroki. Czy majowy deszcz jest przyjemny?"
+                text: "Jestem <b><u>maj</b></u>kutem. <b><u>Moje</b></u> serwy tenisowe są wyśmienite",
+                alt: ""
             },
-            category: ["nauka", "pory roku"]
+            category: ["sport 2", "tenis ziemny"]
+        },
+        {
+                            id: 7,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/50aa7.jpg",
+                alt: "Auto na parkingu. Wygenerowane przez AI."
+            },
+            story: {
+                text: "<b><u>Moje</b></u> auto to <b><u>Maj</b></u>bach - muszę płacić wysoką składkę ubezpieczeniową",
+                alt: ""
+            },
+            category: ["czarny humor 2", "majątek"]
         }
             ],
         desc: "my[maj] - mój/moje",
@@ -15294,31 +15758,19 @@ const fiszki10 = [
             84
         ],
             entries: [
-        {
+                        {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/50aa.jpg",
-                alt: "Ogród kwiatowy. Wygenerowane przez AI."
+                src: "https://www.arbulang.com/img/fiszki1/50aa1.jpg",
+                alt: "Wygenerowane przez AI."
             },
             story: {
-                text: "W <b><u>maj</b></u>u kwitną <b><u>moje</b></u> ulubione kwiaty",
-                alt: "Wiosna i jej piękno. Czy wiosna powoduje radosny klimat?"
+                text: "<b><u>Maj</b></u>kut mówi: <b><u>mój</b></u> wynik był najlepszy w tym wyścigu",
+                alt: "Bieganie. Czy dominująca półkula mózgu ma wpływ na wyniki sportowe?"
             },
-            category: ["natura", "florystyka"]
+            category: ["sport", "bieganie"]
         },
-        {
-                    id: 2,
-            img: {
-                src: "https://www.arbulang.com/img/fiszki1/50bb.jpg",
-                alt: "Auto na parkingu. Wygenerowane przez AI."
-            },
-            story: {
-                text: "Przetrzy<b><u>maj</b></u> mi na pare dni <b><u>moje</b></u> auto na placu",
-                alt: "Zaufanie a przyjaźń. Czy trudno jest zbudować zaufanie?"
-            },
-            category: ["związki", "przyjaźń"]
-        },
-        {
+                {
                             id: 2,
             img: {
                 src: "https://www.arbulang.com/img/fiszki1/50cc.jpg",
@@ -15329,19 +15781,68 @@ const fiszki10 = [
                 alt: "Pory roku, wiosna i jej uroki. Czy majowy deszcz jest przyjemny?"
             },
             category: ["nauka", "pory roku"]
+        },
+        {
+            id: 3,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/50aa.jpg",
+                alt: "Ogród kwiatowy. Wygenerowane przez AI."
+            },
+            story: {
+                text: "W <b><u>maj</b></u>u kwitną <b><u>moje</b></u> ulubione kwiaty",
+                alt: "Wiosna i jej piękno. Czy wiosna powoduje radosny klimat?"
+            },
+            category: ["natura", "florystyka"]
+        },
+                {
+                    id: 4,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/50bb4.jpg",
+                alt: "Wygenerowane przez AI."
+            },
+            story: {
+                text: "Weekend <b><u>maj</b></u>owy to doskanły czas, aby odpocząć od <b><u>mojej</b></u> pracy",
+                alt: "Praca. Kiedy najlepiej odpoczywać w Polsce?"
+            },
+            category: ["czarny humor", "wypoczynek"]
+        },
+        {
+                    id: 5,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/50bb.jpg",
+                alt: "Auto na parkingu. Wygenerowane przez AI."
+            },
+            story: {
+                text: "Przetrzy<b><u>maj</b></u> mi na pare dni <b><u>moje</b></u> auto na placu",
+                alt: "Zaufanie a przyjaźń. Czy trudno jest zbudować zaufanie?"
+            },
+            category: ["związki", "przyjaźń"]
+        },
+                        {
+                    id: 6,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/50aa6.jpg",
+                alt: "Wygenerowane przez AI."
+            },
+            story: {
+                text: "Jestem <b><u>maj</b></u>kutem. <b><u>Moje</b></u> serwy tenisowe są wyśmienite",
+                alt: ""
+            },
+            category: ["sport 2", "tenis ziemny"]
+        },
+        {
+                            id: 7,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/50aa7.jpg",
+                alt: "Auto na parkingu. Wygenerowane przez AI."
+            },
+            story: {
+                text: "<b><u>Moje</b></u> auto to <b><u>Maj</b></u>bach - muszę płacić wysoką składkę ubezpieczeniową",
+                alt: ""
+            },
+            category: ["czarny humor 2", "majątek"]
         }
             ],
-        desc: "my[maj] - moje",
-        sentence1: [
-            "my"
-        ],
-        sentence: [
-            "I",
-            "have",
-            "finished",
-            "my",
-            "homework"
-        ],
         key: "my",
         category1: ["natura", "florystyka",
             "związki", "przyjaźń",
@@ -16487,31 +16988,19 @@ const fiszki10 = [
             90
         ],
             entries: [
-        {
+                        {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/50aa.jpg",
-                alt: "Ogród kwiatowy. Wygenerowane przez AI."
+                src: "https://www.arbulang.com/img/fiszki1/50aa1.jpg",
+                alt: "Wygenerowane przez AI."
             },
             story: {
-                text: "W <b><u>maj</b></u>u kwitną <b><u>moje</b></u> ulubione kwiaty",
-                alt: "Wiosna i jej piękno. Czy wiosna powoduje radosny klimat?"
+                text: "<b><u>Maj</b></u>kut mówi: <b><u>mój</b></u> wynik był najlepszy w tym wyścigu",
+                alt: "Bieganie. Czy dominująca półkula mózgu ma wpływ na wyniki sportowe?"
             },
-            category: ["natura", "florystyka"]
+            category: ["sport", "bieganie"]
         },
-        {
-                    id: 2,
-            img: {
-                src: "https://www.arbulang.com/img/fiszki1/50bb.jpg",
-                alt: "Auto na parkingu. Wygenerowane przez AI."
-            },
-            story: {
-                text: "Przetrzy<b><u>maj</b></u> mi na pare dni <b><u>moje</b></u> auto na placu",
-                alt: "Zaufanie a przyjaźń. Czy trudno jest zbudować zaufanie?"
-            },
-            category: ["związki", "przyjaźń"]
-        },
-        {
+                {
                             id: 2,
             img: {
                 src: "https://www.arbulang.com/img/fiszki1/50cc.jpg",
@@ -16522,6 +17011,66 @@ const fiszki10 = [
                 alt: "Pory roku, wiosna i jej uroki. Czy majowy deszcz jest przyjemny?"
             },
             category: ["nauka", "pory roku"]
+        },
+        {
+            id: 3,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/50aa.jpg",
+                alt: "Ogród kwiatowy. Wygenerowane przez AI."
+            },
+            story: {
+                text: "W <b><u>maj</b></u>u kwitną <b><u>moje</b></u> ulubione kwiaty",
+                alt: "Wiosna i jej piękno. Czy wiosna powoduje radosny klimat?"
+            },
+            category: ["natura", "florystyka"]
+        },
+                {
+                    id: 4,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/50bb4.jpg",
+                alt: "Wygenerowane przez AI."
+            },
+            story: {
+                text: "Weekend <b><u>maj</b></u>owy to doskanły czas, aby odpocząć od <b><u>mojej</b></u> pracy",
+                alt: "Praca. Kiedy najlepiej odpoczywać w Polsce?"
+            },
+            category: ["czarny humor", "wypoczynek"]
+        },
+        {
+                    id: 5,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/50bb.jpg",
+                alt: "Auto na parkingu. Wygenerowane przez AI."
+            },
+            story: {
+                text: "Przetrzy<b><u>maj</b></u> mi na pare dni <b><u>moje</b></u> auto na placu",
+                alt: "Zaufanie a przyjaźń. Czy trudno jest zbudować zaufanie?"
+            },
+            category: ["związki", "przyjaźń"]
+        },
+                        {
+                    id: 6,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/50aa6.jpg",
+                alt: "Wygenerowane przez AI."
+            },
+            story: {
+                text: "Jestem <b><u>maj</b></u>kutem. <b><u>Moje</b></u> serwy tenisowe są wyśmienite",
+                alt: ""
+            },
+            category: ["sport 2", "tenis ziemny"]
+        },
+        {
+                            id: 7,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/50aa7.jpg",
+                alt: "Auto na parkingu. Wygenerowane przez AI."
+            },
+            story: {
+                text: "<b><u>Moje</b></u> auto to <b><u>Maj</b></u>bach - muszę płacić wysoką składkę ubezpieczeniową",
+                alt: ""
+            },
+            category: ["czarny humor 2", "majątek"]
         }
             ],
         translate: "",
@@ -18283,8 +18832,8 @@ const fiszki10 = [
             category: ["związki", "rodzina"]
         }
     ],
-        translate: "",
-        translateb: "[]",
+        translate: "Mężczyzna prowadzi swój samochód szybko",
+        translateb: "[De men drajws his kar fast]",
         translateb2: "[]",
         srcWord: ["https://www.arbulang.com/filmy/store2.mp4", 'The Matrix Reloaded (2003)'],
         srcWord2: ["https://www.arbulang.com/filmy/procedure.mp4", "Breaking Bad"],
@@ -18378,8 +18927,32 @@ const fiszki10 = [
             104
         ],
             entries: [
-        {
+                        {
             id: 1,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/48aa1.jpg",
+                alt: "Wygenerowane przez AI."
+            },
+            story: {
+                text: "Pre<b><u>his</b></u>toryczny dinozaur z <b><u>jego</b></u> sprawnością mógłby spokojnie pokonać niedźwiedzia",
+                alt: ""
+            },
+            category: ["sport", "zwierzęta"]
+        },
+                {
+            id: 2,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/48aa2.jpg",
+                alt: "Wygenerowane przez AI."
+            },
+            story: {
+                text: "Lew nie wpada w <b><u>his</b></u>terię - polegają na instynkcie. Za to <b><u>jego</b></u> natura jest bardzo niebezpieczna dla czowieka",
+                alt: ""
+            },
+            category: ["natura", "sawanaa"]
+        },
+        {
+            id: 3,
             img: {
                 src: "https://www.arbulang.com/img/fiszki1/48aa.jpg",
                 alt: "Historia człowieka w muzeum. Wygenerowane przez AI."
@@ -18388,10 +18961,10 @@ const fiszki10 = [
                 text: "<b><u>Jego</b></u> <b><u>his</b></u>toria jest bardzo atrakcyjna i bujna",
                 alt: "Opowieść o dawnych czasach. Jak opowiadać historię?"
             },
-            category: ["związki", "autoprezentacja"]
+            category: ["nauka", "autoprezentacja"]
         },
                 {
-            id: 2,
+            id: 4,
             img: {
                 src: "https://www.arbulang.com/img/fiszki1/106b.jpg",
                 alt: "Wynalazek nowoczesności. Wygenerowane przez AI."
@@ -18400,13 +18973,21 @@ const fiszki10 = [
                 text: "Jego ma<b><u>chi</b></u>na jest bardzo <b><u>s</b></u>prawna",
                 alt: "Projektowanie urządzenia. Jak projektuje się maszyny?"
             },
-            category: ["praca", "technologia"]
+            category: ["czarny humor", "technologia"]
+        },
+                        {
+            id: 5,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/48aa5.jpg",
+                alt: "Wygenerowane przez AI."
+            },
+            story: {
+                text: "<b><u>Jego</b></u> dziewczyna wpadła w <b><u>his</b></u>terię",
+                alt: ""
+            },
+            category: ["związki", "emocje"]
         }
             ],
-        story: [
-            "<b><u>Jego</b></u> <b><u>his</b></u>toria jest bardzo atrakcyjna i bujna",
-            "Jego ma<b><u>chi</b></u>na jest bardzo <b><u>s</b></u>prawna"
-        ],
         desc: "his[his] -jego",
         sentence2: [
             "his"

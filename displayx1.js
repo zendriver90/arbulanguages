@@ -3,7 +3,6 @@
             const tablica11b = [];
             let tablica13a = [];
             let tablica12b = [];
-            let clickedIndex5 = [];
             let tablica12bu = [];
             let tablica15a = [];
             const fiszkaobject = {
@@ -11,13 +10,11 @@
             };
             let tablica24 = [];
             function showCombinedSentenceForLesson2(isSearching, selectedCategory, polski, index50, matchingIndexes, lessonIdToShow1, newIndex, indexDiv, lesson1PartLength, matchingLessons5b) {
-                                console.log('wykonuje się 8nn', matchingLessons5b);
-                                                            let tablica61 = [];
                 // Tutaj reszta kodu funkcji
                 const matchingFiszki1 = fiszki.filter(fiszka => fiszka.id[1] === lessonIdToShow1);
                 const matchingFiszki10 = fiszki.filter(fiszka => fiszka.id[1] === lessonIdToShow1);
-                console.log('hej10zz', matchingFiszki10);
-    const id1 = matchingFiszki1[0]?.id[1] || 'unknown1';
+                console.log('hej10', matchingFiszki10);
+const id1 = matchingFiszki1[0]?.id[1] || 'unknown1';
                 if (matchingFiszki10.length > 0) {
                     const srcWord1 = pobierzSrcWordDlaLekcji(lessonIdToShow1, fiszki);
                     const srcWord10 = pobierzSrcWordDlaLekcji2(lessonIdToShow1, fiszki);
@@ -39,12 +36,11 @@
                     let sentence1b = "";
                     let sentence1b2 = "";
                     function addBackgroundToText(matchingFiszki1, matchingIndexes, currentIndexValue, aktualny, lesson1PartLength, polski) {
-                        $(document).ready(function () {
+                        setTimeout(function () {
                             sentence10 = "";
                             sentence11 = "";
                             sentence1b = "";
                             sentence1b2 = "";
-                            setTimeout(() => {
                             console.log('hej22', polski);
                             console.log('Rozpoczęcie funkcji addBackgroundToText');
                             console.log('matchingFiszki1:', matchingFiszki1);
@@ -150,25 +146,64 @@
                             }
                             // Iteracja przez elementy sentence1
 
+                            // Iteracja przez matchingFiszki2 dla sentence2
+
+                            for (let li = 0; li < matchingFiszki1.length; li++) {
+                                const fiszka = matchingFiszki1[li];
+                                console.log('fiszka:', fiszka);
+                                let sentencePart333 = fiszka.translateb;
+                                console.log('sentencePart333:', sentencePart333);
+                                if (aktualny) {
+                                    // Sprawdzenie, czy indeks bieżącej fiszki znajduje się w tablicy matchingIndexes
+                                    const spanElement = document.createElement('span');
+                                    spanElement.textContent = sentencePart333;
+                                    sentencePart333 = spanElement.outerHTML;
+                                }
+                                sentence1b += sentencePart333 + " ";
+                            }
+                            if (sentence1b === "") {
+                                let sentencePart333 = fiszka.translateb ? fiszka.translateb : "";
+                                sentence1b += sentencePart333 + " ";
+                            }
+                            for (let li = 0; li < matchingFiszki1.length; li++) {
+                                const fiszka = matchingFiszki1[li];
+                                console.log('fiszka:', fiszka);
+                                let sentencePart333B = fiszka.translate;
+                                console.log('sentencePart333:', sentencePart333B);
+                                if (aktualny) {
+                                    // Sprawdzenie, czy indeks bieżącej fiszki znajduje się w tablicy matchingIndexes
+                                    const spanElement = document.createElement('span');
+                                    spanElement.textContent = sentencePart333B;
+                                    sentencePart333B = spanElement.outerHTML;
+                                }
+                                sentence1b2 += sentencePart333B + " ";
+                            }
+                            if (sentence1b2 === "") {
+                                let sentencePart333B = fiszka.translate ? fiszka.translate : "";
+                                sentence1b2 += sentencePart333B + " ";
+                            }
                             // Dodanie treści do diva wraz z przyciskiem
 
-$sentenceDivB.html(`
-<div class="sentence-block" data-name="${id1}">
-    <button class="left-button first-button">+<br></button>
-    ${sentence10}${sentence11}<br>
-    <div class="sentence1b">${sentence1b}</div>
-    <div class="sentence1b2">${sentence1b2}</div>
-</div>
+                            $sentenceDivB.html(`
+${sentence10}${sentence11}<br>
+<div class="sentence1b">${sentence1b}</div>
+<div class="sentence1b2">${sentence1b2}</div>
 `);
-                                }, 0);
-                                               });     
+
+                            if ($sentence1b.css('display') === 'none') {
+                                // Pokazujemy zdanie .sentence1bb
+                                $sentence1b.css('display', 'block');
+                                $sentence1b.css({
+                                    'position': 'relative'
+                                });
+                            }
+                        }, 0);
                     }
 
                     let sentence1bba = "";
                     let sentence1bbab = "";
-                    function addBackgroundToText1b(matchingFiszki1, matchingIndexes, aktualny, lesson1PartLength, polski, matchingLessons5b) {
-                        console.log('hll10', matchingLessons5);
-                        console.log('hll10', matchingIndexes);
+                    function addBackgroundToText1b(matchingFiszki1, matchingIndexes, aktualny, lesson1PartLength, polski) {
+                        console.log('hejkk10', indexDiv);
                         $(document).ready(function () {
                             sentence1bba = "";
                             sentence1bbab = "";
@@ -186,10 +221,10 @@ $sentenceDivB.html(`
                                         let sentencePart = fiszka.sentence1[ki];
                                         console.log('sentencePart5:', sentencePart);
                                         const indexToCheck = i + lesson1PartLength + 1;
-                                        console.log('indexToCheck5:', lesson1PartLength);
-                                        console.log('indexToCheck5b:', indexToCheck);
+                                        console.log('indexToCheck5:', indexToCheck);
                                         // Sprawdź, czy indeks jest równy 0
-                                            if (matchingIndexes.includes(indexToCheck) && matchingIndexes !== null) {
+                                        if (aktualny) {
+                                            if (matchingIndexes.includes(indexToCheck)) {
                                                 // Sprawdzenie, czy indeks bieżącej fiszki znajduje się w tablicy matchingIndexes
                                                 const spanElement = document.createElement('span');
                                                 spanElement.textContent = sentencePart;
@@ -197,15 +232,7 @@ $sentenceDivB.html(`
                                                 // Zaktualizuj sentencePart, aby zawierał utworzony element span
                                                 sentencePart = spanElement.outerHTML;
                                             }
-                                        console.log('indexToCheck5c', matchingLessons5b);
-                                            if (matchingLessons5b.includes(indexToCheck) && matchingIndexes.length === 0) {
-                                                // Sprawdzenie, czy indeks bieżącej fiszki znajduje się w tablicy matchingIndexes
-                                                const spanElement = document.createElement('span');
-                                                spanElement.textContent = sentencePart;
-                                                spanElement.classList.add('yellow');
-                                                // Zaktualizuj sentencePart, aby zawierał utworzony element span
-                                                sentencePart = spanElement.outerHTML;
-                                            }
+                                        }
 
                                         sentence10 += sentencePart + " ";
                                     }
@@ -224,7 +251,8 @@ $sentenceDivB.html(`
                                         console.log('sentencePart5:', sentencePart2);
                                         const indexToCheck = ii + lesson1PartLength + 1;
                                         console.log('indexToCheck77:', indexToCheck);
-                                            if (matchingIndexes.includes(indexToCheck) && matchingIndexes !== null) {
+                                        if (aktualny) {
+                                            if (matchingIndexes.includes(indexToCheck)) {
                                                 // Sprawdzenie, czy indeks bieżącej fiszki znajduje się w tablicy matchingIndexes
                                                 const spanElement = document.createElement('span');
                                                 spanElement.textContent = sentencePart2;
@@ -232,14 +260,7 @@ $sentenceDivB.html(`
                                                 // Zaktualizuj sentencePart, aby zawierał utworzony element span
                                                 sentencePart2 = spanElement.outerHTML;
                                             }
-                                            if (matchingLessons5b.includes(indexToCheck) && matchingIndexes.length === 0) {
-                                                // Sprawdzenie, czy indeks bieżącej fiszki znajduje się w tablicy matchingIndexes
-                                                const spanElement = document.createElement('span');
-                                                spanElement.textContent = sentencePart2;
-                                                spanElement.classList.add('yellow');
-                                                // Zaktualizuj sentencePart, aby zawierał utworzony element span
-                                                sentencePart2 = spanElement.outerHTML;
-                                            }
+                                        }
                                         sentence11 += sentencePart2 + " ";
                                     }
                                 }
@@ -282,113 +303,176 @@ $sentenceDiv.html(`
     <div class="sentence1bbab">${sentence1bbab}</div>
 </div>
 `);
-                                const startRange2 = 1;
+                                // Kolory przypisane do kategorii
+// Kolory przypisane do kategorii
+const colorMapping = {
+    'sport': '#28a745',
+    'natura': '#007bff',
+    'nauka': '#dc3545',
+    'czarnyhumor': '#ffc107',
+    'zwiazki': '#fd7e14',
+    'all': '#800080',
+    'wszystkie': 'yellow'
+};
+
+const startRange2 = 1;
 const endRange2 = 6;
-let previousTrojkiJSON = '';
+let selectedCategory = 'wszystkie';
+let previousLessonsJSON = '';
+const tablica60 = [];
+
+document.addEventListener('DOMContentLoaded', () => {
+    document.querySelectorAll('.category-btn').forEach(button => {
+        button.addEventListener('click', (event) => {
+            event.preventDefault();
+            selectedCategory = button.getAttribute('data-category');
+            updateButtonColors();
+        });
+    });
+
+    updateButtonColors();
+});
+
 function updateButtonColors() {
-    tablica61.length = 0;
+    tablica60.length = 0;
+
+    const color = colorMapping[selectedCategory] || '#800080';
+
     document.querySelectorAll('.sentence-block, .sentence-blockB').forEach(block => {
         const dataName = parseInt(block.getAttribute('data-name'), 10);
-        tablica61.push(dataName);
+        tablica60.push(dataName);
+
         if (dataName >= startRange2 && dataName <= endRange2) {
             const button = block.querySelector('button.left-button, button.left-buttonb, button.left-buttonbb');
             if (button) {
-                button.style.backgroundColor = 'blue';
+                button.style.backgroundColor = color;
                 button.style.color = 'white';
             }
         }
     });
 
-    // Podział na trójki
-    const trojki = [];
-    for (let i = 0; i < tablica61.length; i += 1) {
-        trojki.push(tablica61.slice(i, i + 1));
-    }
+    // Zamiana na lekcje pojedyncze (bez grupowania po 3)
+    const lekcje = tablica60.map(num => [num]);
 
-    const currentTrojkiJSON = JSON.stringify(trojki);
-    if (currentTrojkiJSON !== previousTrojkiJSON) {
-        previousTrojkiJSON = currentTrojkiJSON;
+    const currentLessonsJSON = JSON.stringify(lekcje);
+    if (currentLessonsJSON !== previousLessonsJSON) {
+        previousLessonsJSON = currentLessonsJSON;
 
-        console.log('Nowe trójki:', trojki);
-
-        // Usuń stare linki
         $('.hidden-link').remove();
-        console.log('Usunięto stare linki');
 
-        // Wygeneruj nowe linki (dla pierwszych dwóch trójek, jeśli istnieją)
-        const firstTrojka = trojki[0] || [];
-        const secondTrojka = trojki[1] || [];
-        const thirdTrojka = trojki[2] || [];
-        const cztery = trojki[3] || [];
-        const piec = trojki[4] || [];
-        const szesc = trojki[5] || [];
-        const siedem = trojki[6] || [];
-        const osiem = trojki[7] || [];
-        const dziewiec = trojki[8] || [];
-        const dziesiec = trojki[9] || [];
-        const jedenascie = trojki[10] || [];
-        const dwanascie = trojki[11] || [];
-        const trzynascie = trojki[12] || [];
-        const czternascie = trojki[13] || [];
-        const pietnascie = trojki[14] || [];
-        const szstnascie = trojki[15] || [];
-        const siedemnascie = trojki[16] || [];
-        const osiemnascie = trojki[17] || [];
-                const dziewietnascie = trojki[18] || [];
-        const link1 = `demo1angielski.html?category=${selectedCategory}&data=${firstTrojka.join(',')}`;
-        const link2 = `demo1angielski.html?category=${selectedCategory}&data=${secondTrojka.join(',')}`;
-        const link3 = `demo1angielski.html?category=${selectedCategory}&data=${thirdTrojka.join(',')}`;
-        const link4 = `demo1angielski.html?category=${selectedCategory}&data=${cztery.join(',')}`;
-        const link5 = `demo1angielski.html?category=${selectedCategory}&data=${piec.join(',')}`;
-        const link6 = `demo1angielski.html?category=${selectedCategory}&data=${szesc.join(',')}`;
-        const link7 = `demo1angielski.html?category=${selectedCategory}&data=${siedem.join(',')}`;
-        const link8 = `demo1angielski.html?category=${selectedCategory}&data=${osiem.join(',')}`;
-        const link9 = `demo1angielski.html?category=${selectedCategory}&data=${dziewiec.join(',')}`;
-        const link10 = `demo1angielski.html?category=${selectedCategory}&data=${dziesiec.join(',')}`;
-        const link11 = `demo1angielski.html?category=${selectedCategory}&data=${jedenascie.join(',')}`;
-        const link12 = `demo1angielski.html?category=${selectedCategory}&data=${dwanascie.join(',')}`;
-        const link13 = `demo1angielski.html?category=${selectedCategory}&data=${trzynascie.join(',')}`;
-        const link14 = `demo1angielski.html?category=${selectedCategory}&data=${czternascie.join(',')}`;
-        const link15 = `demo1angielski.html?category=${selectedCategory}&data=${pietnascie.join(',')}`;
-        const link16 = `demo1angielski.html?category=${selectedCategory}&data=${szstnascie.join(',')}`;
-        const link17 = `demo1angielski.html?category=${selectedCategory}&data=${siedemnascie.join(',')}`;
-        const link18 = `demo1angielski.html?category=${selectedCategory}&data=${osiemnascie.join(',')}`;
-        const link19 = `demo1angielski.html?category=${selectedCategory}&data=${dziewietnascie.join(',')}`;
+        // Pobierz maksymalnie 19 lekcji
+        const [firstTrojka, secondTrojka, thirdTrojka, cztery, piec, szesc,
+               siedem, osiem, dziewiec, dziesiec, jedenascie, dwanascie,
+               trzynascie, czternascie, pietnascie, szstnascie, siedemnascie,
+               osiemnascie, dziewietnascie] = lekcje;
+
+        const link1  = `demo1angielski.html?category=${selectedCategory}&data=${(firstTrojka || []).join(',')}`;
+        const link2  = `demo2angielski.html?category=${selectedCategory}&data=${(secondTrojka || []).join(',')}`;
+        const link3  = `demo1angielski.html?category=${selectedCategory}&data=${(thirdTrojka || []).join(',')}`;
+        const link4  = `demo1angielski.html?category=${selectedCategory}&data=${(cztery || []).join(',')}`;
+        const link5  = `demo1angielski.html?category=${selectedCategory}&data=${(piec || []).join(',')}`;
+        const link6  = `demo1angielski.html?category=${selectedCategory}&data=${(szesc || []).join(',')}`;
+        const link7  = `demo1angielski.html?category=${selectedCategory}&data=${(siedem || []).join(',')}`;
+        const link8  = `demo1angielski.html?category=${selectedCategory}&data=${(osiem || []).join(',')}`;
+        const link9  = `demo1angielski.html?category=${selectedCategory}&data=${(dziewiec || []).join(',')}`;
+        const link10 = `demo1angielski.html?category=${selectedCategory}&data=${(dziesiec || []).join(',')}`;
+        const link11 = `demo1angielski.html?category=${selectedCategory}&data=${(jedenascie || []).join(',')}`;
+        const link12 = `demo1angielski.html?category=${selectedCategory}&data=${(dwanascie || []).join(',')}`;
+        const link13 = `demo1angielski.html?category=${selectedCategory}&data=${(trzynascie || []).join(',')}`;
+        const link14 = `demo1angielski.html?category=${selectedCategory}&data=${(czternascie || []).join(',')}`;
+        const link15 = `demo1angielski.html?category=${selectedCategory}&data=${(pietnascie || []).join(',')}`;
+        const link16 = `demo1angielski.html?category=${selectedCategory}&data=${(szstnascie || []).join(',')}`;
+        const link17 = `demo1angielski.html?category=${selectedCategory}&data=${(siedemnascie || []).join(',')}`;
+        const link18 = `demo1angielski.html?category=${selectedCategory}&data=${(osiemnascie || []).join(',')}`;
+        const link19 = `demo1angielski.html?category=${selectedCategory}&data=${(dziewietnascie || []).join(',')}`;
 
         const linksHTML = `
-            <a href="${link1}" class="hidden-link lesson-link-1b" target="_blank" rel="noopener noreferrer">Przejdź do lekcji 1</a>
-            <a href="${link2}" class="hidden-link lesson-link-2b" target="_blank" rel="noopener noreferrer">Przejdź do lekcji 2</a>
-        <a href="${link3}" class="hidden-link lesson-link-3b" target="_blank" rel="noopener noreferrer">Przejdź do lekcji 3</a>
-                    <a href="${link4}" class="hidden-link lesson-link-4b" target="_blank" rel="noopener noreferrer">Przejdź do lekcji 1</a>
-            <a href="${link5}" class="hidden-link lesson-link-5" target="_blank" rel="noopener noreferrer">Przejdź do lekcji 2</a>
-        <a href="${link6}" class="hidden-link lesson-link-6" target="_blank" rel="noopener noreferrer">Przejdź do lekcji 3</a>
-                    <a href="${link7}" class="hidden-link lesson-link-7" target="_blank" rel="noopener noreferrer">Przejdź do lekcji 1</a>
-            <a href="${link8}" class="hidden-link lesson-link-8" target="_blank" rel="noopener noreferrer">Przejdź do lekcji 2</a>
-        <a href="${link9}" class="hidden-link lesson-link-9" target="_blank" rel="noopener noreferrer">Przejdź do lekcji 3</a>
-                    <a href="${link10}" class="hidden-link lesson-link-10" target="_blank" rel="noopener noreferrer">Przejdź do lekcji 1</a>
-            <a href="${link11}" class="hidden-link lesson-link-11" target="_blank" rel="noopener noreferrer">Przejdź do lekcji 2</a>
-        <a href="${link12}" class="hidden-link lesson-link-12" target="_blank" rel="noopener noreferrer">Przejdź do lekcji 3</a>
-                    <a href="${link13}" class="hidden-link lesson-link-13" target="_blank" rel="noopener noreferrer">Przejdź do lekcji 1</a>
-            <a href="${link14}" class="hidden-link lesson-link-14" target="_blank" rel="noopener noreferrer">Przejdź do lekcji 2</a>
-        <a href="${link15}" class="hidden-link lesson-link-15" target="_blank" rel="noopener noreferrer">Przejdź do lekcji 3</a>
-                    <a href="${link16}" class="hidden-link lesson-link-16" target="_blank" rel="noopener noreferrer">Przejdź do lekcji 1</a>
-            <a href="${link17}" class="hidden-link lesson-link-17" target="_blank" rel="noopener noreferrer">Przejdź do lekcji 2</a>
-        <a href="${link18}" class="hidden-link lesson-link-18" target="_blank" rel="noopener noreferrer">Przejdź do lekcji 3</a>
-                <a href="${link19}" class="hidden-link lesson-link-19" target="_blank" rel="noopener noreferrer">Przejdź do lekcji 3</a>
+            <a href="${link1}" class="hidden-link lesson-link-1" target="_blank">Lekcja 1</a>
+            <a href="${link2}" class="hidden-link lesson-link-2" target="_blank">Lekcja 2</a>
+            <a href="${link3}" class="hidden-link lesson-link-3" target="_blank">Lekcja 3</a>
+            <a href="${link4}" class="hidden-link lesson-link-4" target="_blank">Lekcja 4</a>
+            <a href="${link5}" class="hidden-link lesson-link-5" target="_blank">Lekcja 5</a>
+            <a href="${link6}" class="hidden-link lesson-link-6" target="_blank">Lekcja 6</a>
+            <a href="${link7}" class="hidden-link lesson-link-7" target="_blank">Lekcja 7</a>
+            <a href="${link8}" class="hidden-link lesson-link-8" target="_blank">Lekcja 8</a>
+            <a href="${link9}" class="hidden-link lesson-link-9" target="_blank">Lekcja 9</a>
+            <a href="${link10}" class="hidden-link lesson-link-10" target="_blank">Lekcja 10</a>
+            <a href="${link11}" class="hidden-link lesson-link-11" target="_blank">Lekcja 11</a>
+            <a href="${link12}" class="hidden-link lesson-link-12" target="_blank">Lekcja 12</a>
+            <a href="${link13}" class="hidden-link lesson-link-13" target="_blank">Lekcja 13</a>
+            <a href="${link14}" class="hidden-link lesson-link-14" target="_blank">Lekcja 14</a>
+            <a href="${link15}" class="hidden-link lesson-link-15" target="_blank">Lekcja 15</a>
+            <a href="${link16}" class="hidden-link lesson-link-16" target="_blank">Lekcja 16</a>
+            <a href="${link17}" class="hidden-link lesson-link-17" target="_blank">Lekcja 17</a>
+            <a href="${link18}" class="hidden-link lesson-link-18" target="_blank">Lekcja 18</a>
+            <a href="${link19}" class="hidden-link lesson-link-19" target="_blank">Lekcja 19</a>
         `;
 
         $('body').append(linksHTML);
-        console.log('Dodano linki:', link1, link2);
     }
 }
-
-// Uruchom na początku
+    setTimeout(() => {
+// Uruchom na poczÄtku
 updateButtonColors();
+}, 0); // opóźnienie np. 100ms
 
+                                $('.sentence1bba').html('');
+                                $sentenceDiv.on('click', '.left-button', function () {
 
+                                    // Dodawanie zdania tylko jeśli sentence1bb2 jest puste
+                                    if (sentence1bba === "") {
+                                        let sentencePart3 = fiszka.translateb ? fiszka.translateb : "";
+                                        sentence1bba += sentencePart3 + " ";
+                                    }
+                                    if (sentence1bbab === "") {
+                                        let sentencePart33 = fiszka.translate ? fiszka.translate : "";
+                                        sentence1bbab += sentencePart33 + " ";
+                                    }
+                                    console.log('hej20', sentence1bba);
+
+                                    // Dodanie treści do diva wraz z przyciskiem
+$sentenceDiv.html(`
+<div class="sentence-block" data-name="${id1}">
+    <button class="left-button first-button">+<br></button>
+    ${sentence10}${sentence11}<br>
+    <div class="sentence1bba">${sentence1bba}</div>
+    <div class="sentence1bbab">${sentence1bbab}</div>
+</div>
+`);
+                                    // Ustawienie stylu dla przycisków .left-button
+                                    $('.sentence1bb1b').html('');
+                                    $('.sentence1bba2').html('');
+                                    $('.left-button').css('position', 'relative');
+                                    $('.left-buttonb').css('position', 'relative');
+                                    $('.left-buttonbb').css('position', 'relative');
+                                    let sentencePart1 = fiszka.translate ? fiszka.translate : ""; // Sprawdź, czy translate istnieje
+                                    let sentencePart3 = fiszka.translateb ? fiszka.translateb : ""; // Sprawdź, czy translate istnieje
+                                    console.log('Kliknięto przycisk');
+                                    if ($sentence1bba.css('display') === 'none' || sentence1bVisible) {
+                                        $sentence1bba.css('display', 'block');
+                                        $sentence1bba.css({
+                                            'margin-bottom': '-20px',
+                                            'top': '0px',
+                                            'position': 'relative'
+                                        });
+                                    }
+                                    if ($sentence1bbab.css('display') === 'none' || sentence1bVisible) {
+                                        $sentence1bbab.css('display', 'block');
+                                        $sentence1bbab.css({
+                                            'margin-bottom': '-20px',
+                                            'top': '0px',
+                                            'position': 'relative'
+                                        });
+                                    }
+                                    // Dodanie stylizacji na hover
+
+                                    $sentence1bb1b.html('');
+                                    $sentence1bb1b.empty();
+                                });
+                                $sentence1bb1b.html('');
+                                $sentence1bb1b.empty();
                             }, 0);
-                        });
-                        console.log('Zawartość zmiennej sentence1:', sentence1b); // Wyświetlenie zawartości zmiennej sentence1                          
+                        });                          
                     }
 
 
@@ -400,6 +484,9 @@ updateButtonColors();
                     // Możesz również dodać dodatkowe atrybuty, takie jak 'data-lesson'
                     $container.attr('data-lesson', indexDiv);
                     $('.grid-container').append($container);
+
+
+                    let tablica11c = [];
 
                     const srcWords = [srcWord1];
                     console.log('hej2', srcWords);
@@ -429,9 +516,10 @@ updateButtonColors();
 
                     let currentVideoElement = null;
                     const activeVideos = [];
+                    let initialFiszkaContainer = null; // Zmienna przechowująca kontener fiszki
                     if (newIndex === 0 && !isSearching) {
-                        console.log('wykonuje sie 7nn');
                         isVideoPlaying = true;
+                        console.log('hej3331', buttonindex);
                         let stopButtonAdded = false;
                         let funkcjaWywolana = false;
                         // Definiowanie funkcji do sprawdzania widoczności wideo
@@ -635,7 +723,7 @@ updateButtonColors();
                         setTimeout(function () {
                             addVideo1(0);
                         }, 0);
-                    } else if (index50 === 0 && !isSearching) {
+                    } else if (index50 === 0 && buttonindex) {
                         let stopButtonAdded = false;
                         console.log('hej3331', buttonindex);
                         let funkcjaWywolana2 = false;
@@ -831,7 +919,7 @@ updateButtonColors();
                         setTimeout(function () {
                             addVideo2(0);
                         }, 0);
-                    } else if (isSearching) {
+                    } else {
                         function addVideo3(index) {
                             // Upewnij się, że istnieje tablica dla podanego indexDiv w obiekcie currentIndexFiszkaMap
 
@@ -1050,11 +1138,10 @@ updateButtonColors();
                             });
 
 
-function highlightFirstWord(indexDiv) {
+                            function highlightFirstWord(indexDiv) {
     const $container = $(`.image-container4[data-lesson="${indexDiv}"]`);
-    $(`.image-container4`).css('z-index', 100); // Reset z-index dla wszystkich
-    $container.css('z-index', 102); // Podniesienie z-index tylko dla aktywnego
-
+$(`.image-container4`).css('z-index', 100); // Reset z-index dla wszystkich
+$container.css('z-index', 102); // Podniesienie z-index tylko dla aktywnego
     if (matchingFiszki1.length > 0) {
         const $sentence10 = $container.find('.sentenceBB');
         const $sentence11 = $container.find('.sentence11');
@@ -1062,15 +1149,11 @@ function highlightFirstWord(indexDiv) {
                                 
 
         if ($sentence10.length > 0 || $sentence11.length > 0 || $sentence1bba.length > 0) {
-            let sentenceHtml = $sentence10.html();
+            let sentenceText = $sentence10.html();
+            let sentenceText2 = $sentence1bba.html();
             let tempDiv = document.createElement('div');
-            tempDiv.innerHTML = sentenceHtml;
-            // Usuń przycisk z tekstu
-            $(tempDiv).find('button').remove();
-            $(tempDiv).find('.sentence1bba').remove(); // usuń dolną część zdania
-
-            let pureText = tempDiv.innerText.trim();
-            let words = pureText.split(' ');
+            tempDiv.innerHTML = sentenceText;
+            let words = tempDiv.innerText.split(' ');
 
             if (words.length > 0) {
                 let firstWord = words[0];
@@ -1090,19 +1173,17 @@ function highlightFirstWord(indexDiv) {
                 let button1 = `<button class="prev-button" id="prev-button">&lt;</button>`;
                 let button2 = `<button class="next-button" id="next-button">&gt;</button>`;
 
-                // Wstaw wszystko z powrotem
                 $sentence10.html(`
-                    <button class="left-button first-button">+<br></button>
-                    ${button1}
-                    <span class="word-span" style="cursor: pointer;">${highlightedSpan}</span>
-                    <span class="word-span" style="cursor: pointer;">${secondWord}</span>
-                    <span class="word-span" style="cursor: pointer;">${thirdWord}</span>
-                    <span class="word-span" style="cursor: pointer;">${forthWord}</span>
-                    <span class="word-span" style="cursor: pointer;">${fifthWord}</span>
+                    ${button1} 
+                    <span class="word-span" style="cursor: pointer;">${highlightedSpan}</span> 
+                    <span class="word-span" style="cursor: pointer;">${secondWord}</span> 
+                    <span class="word-span" style="cursor: pointer;">${thirdWord}</span> 
+                    <span class="word-span" style="cursor: pointer;">${forthWord}</span> 
+                    <span class="word-span" style="cursor: pointer;">${fifthWord}</span> 
                     <span class="word-span" style="cursor: pointer;">${sixthWord}</span>
                     ${button2}
                     <br>
-                    <div class="sentence1bba">${$sentence1bba.html()}</div>
+                    <div class="sentence1bba">${sentenceText2}</div>
                 `);
 $("<style>")
   .prop("type", "text/css")
@@ -1162,6 +1243,17 @@ $('.indexDiv').on('click', function () {
     handleIndexDivClick(indexDiv); // Wywołaj funkcję przesuwania 'wordDisplay'
 });
                         const $currentWordDisplay = $('<span>').appendTo($wordContainer);
+    function updateWordDisplay2(currentWordIndex) {
+        let fiszka = matchingFiszki1[currentFiszkaIndex];
+        console.log('hej11', fiszka);
+        if (fiszka && fiszka.sentence1) {
+            const currentWord = fiszka.sentence1[currentWordIndex] || "";
+            $currentWordDisplay.text(currentWord); // Aktualizujemy tylko tekst w osobnym elemencie
+        } else if (fiszka && fiszka.sentence2) {
+            const currentWord = fiszka.sentence2[currentWordIndex] || "";
+            $currentWordDisplay.text(currentWord); // Aktualizujemy tylko tekst w osobnym elemencie
+        }
+    }
 // Deklaracja clickedIndex jako zmiennej globalnej
 let clickedIndex;
 
@@ -1214,24 +1306,17 @@ function handleNextClick2(indexDiv, $sentence10, currentFiszkaIndex, firstWord, 
         }
 
 
-function updateHighlight(indexDiv, $sentence10, index5b, firstWord, secondWord, thirdWord, forthWord, fifthWord, sixthWord) {
-    console.log('updateHighlight - start');
-    console.log('Aktualne wartości:', { indexDiv, index, firstWord, secondWord, thirdWord, forthWord, fifthWord, sixthWord });
-
+function updateHighlight(indexDiv, $sentence10, index, firstWord, secondWord, thirdWord, forthWord, fifthWord, sixthWord) {
     const words = [firstWord, secondWord, thirdWord, forthWord, fifthWord, sixthWord];
-    console.log('Tablica words:', words);
 
     // Generuj podświetlone słowa
     const highlightedWords = words.map((word, i) => {
-        const isHighlighted = i === index5b;
-        console.log(`Generuję słowo: "${word}", indeks: ${i}, podświetlone: ${isHighlighted}`);
-        return isHighlighted
+        return i === index
             ? `<span class="highlighted word-span" data-index="${i}" style="cursor: pointer;">${word}</span>`
             : `<span class="word-span" data-index="${i}" style="cursor: pointer;">${word}</span>`;
     });
 
     // Zaktualizuj HTML dla $sentence10
-    console.log('Aktualizuję HTML $sentence10');
     $sentence10.html(`
         <button class="prev-button" id="prev-button">&lt;</button>
         ${highlightedWords.join(' ')}
@@ -1239,34 +1324,16 @@ function updateHighlight(indexDiv, $sentence10, index5b, firstWord, secondWord, 
     `);
 
     // Obsługa zdarzeń kliknięcia słów
-    console.log('Dodaję event listener do słów (word-span)');
     $sentence10.find('.word-span').off('click').on('click', function () {
-        
         const clickedIndex = $(this).data('index');
-        console.log('Kliknięto słowo:', { clickedIndex });
-clickedIndex5.push(clickedIndex);
+
+
         // Wywołanie funkcji obsługi kliknięcia
         handleWordClick(clickedIndex, indexDiv, matchingFiszki1);
-        // Ponowne zaktualizowanie podświetlenia
-        console.log('Ponowne wywołanie updateHighlight po kliknięciu');
-        updateHighlight(indexDiv, $sentence10, clickedIndex, firstWord, secondWord, thirdWord, forthWord, fifthWord, sixthWord);
-            function updateWordDisplay(indeks5b, indexDiv) {
-        const fiszka = matchingFiszki1[indeks5b];
-        console.log('hej11d', fiszka);
-        if (fiszka && fiszka.sentence1) {
-            const currentWord = fiszka.sentence1[currentWordIndex] || "";
-            $currentWordDisplay.text(currentWord); // Aktualizujemy tylko tekst w osobnym elemencie
-        } else if (fiszka && fiszka.sentence2) {
-            const currentWord = fiszka.sentence2[currentWordIndex] || "";
-            $currentWordDisplay.text(currentWord); // Aktualizujemy tylko tekst w osobnym elemencie
-        }
-    }
-            let indeks5b = clickedIndex5[clickedIndex5.length - 1];
-                                                        updateWordDisplay(indeks5b, indexDiv);
-                                                        
-    });
 
-    console.log('updateHighlight - koniec');
+        // Ponowne zaktualizowanie podświetlenia
+        updateHighlight($sentence10, index, firstWord, secondWord, thirdWord, forthWord, fifthWord, sixthWord);
+    });
 }
 
 
@@ -1348,17 +1415,7 @@ if (currentFiszkaIndex < 4) {
     indeks5 = 5;
 }
                                                         console.log('hej555', indeks5);
-if (clickedIndex5.length > 0 && clickedIndex5[clickedIndex5.length - 1] !== null) {
-    // Zwiększanie clickedIndex5 o 1 i dodanie do tablicy
-    clickedIndex5.push(clickedIndex5[clickedIndex5.length - 1] - 1);
-
-    // Pobranie ostatniego elementu z clickedIndex5
-    let indeks5b = clickedIndex5[clickedIndex5.length - 1];
-    handleNextClick(indexDiv, $sentence10, indeks5b, firstWord, secondWord, thirdWord, forthWord, fifthWord, sixthWord);
-} else {
-    tablica12b.push(currentFiszkaIndex);
-    handleNextClick(indexDiv, $sentence10, currentFiszkaIndex, firstWord, secondWord, thirdWord, forthWord, fifthWord, sixthWord);
-}
+                                                        handleNextClick2(indexDiv, $sentence10, currentFiszkaIndex, firstWord, secondWord, thirdWord, forthWord, fifthWord, sixthWord);
                                                         wybierzRodzaj2b('all', indeks5, matchingFiszki1, indexDiv);
                                                         updateWordDisplay(currentWordIndex, indexDiv);
                                                         
@@ -1412,34 +1469,23 @@ $container.css('z-index', 102); // Podniesienie z-index tylko dla aktywnego
                                                         // Jeśli nie istnieje, dodaj nową tablicę
                                                         fiszkaobject.data.push([indexDiv, currentFiszkaIndex]);
                                                     }
-                                                    
-if (clickedIndex5.length > 0 && clickedIndex5[clickedIndex5.length - 1] !== null) {
-    // Zwiększanie clickedIndex5 o 1 i dodanie do tablicy
-    clickedIndex5.push(clickedIndex5[clickedIndex5.length - 1] + 1);
-
-    // Pobranie ostatniego elementu z clickedIndex5
-    let indeks5b = clickedIndex5[clickedIndex5.length - 1];
-    handleNextClick(indexDiv, $sentence10, indeks5b, firstWord, secondWord, thirdWord, forthWord, fifthWord, sixthWord);
-} else {
-    tablica12b.push(currentFiszkaIndex);
-    handleNextClick(indexDiv, $sentence10, currentFiszkaIndex, firstWord, secondWord, thirdWord, forthWord, fifthWord, sixthWord);
-}
+                                                    tablica12b.push(currentFiszkaIndex);
                                 setTimeout(() => {
                                                         wybierzRodzaj2('all', currentFiszkaIndex, matchingFiszki1, indexDiv);
                                 }, 800);
 
                                                                                                                 console.log('hej68cx', currentFiszkaIndex);
-                                                                                                                console.log("indexDiv2y", currentWordIndex);
-    let indeks5b = clickedIndex5[clickedIndex5.length - 1];
-                                                        updateWordDisplay(indeks5b, indexDiv);
-                                                        // Wywołaj funkcję, przekazując zaktualizowany indeks
+                                                        handleNextClick(indexDiv, $sentence10, currentFiszkaIndex, firstWord, secondWord, thirdWord, forthWord, fifthWord, sixthWord);
 
+                                                        updateWordDisplay(currentWordIndex, indexDiv);
+                                                        // Wywołaj funkcję, przekazując zaktualizowany indeks
+                                                        console.log("indexDiv2", tablica12b);
                                                     } else {
                                                         console.log('Koniec fiszek!'); // Informacja o końcu fiszek
                                                     }
                                                 });
 
-    function updateWordDisplay(indeks5b, indexDiv) {
+    function updateWordDisplay(currentWordIndex) {
         const fiszka = matchingFiszki1[currentFiszkaIndex];
         console.log('hej11d', fiszka);
         if (fiszka && fiszka.sentence1) {
@@ -1814,7 +1860,7 @@ if (currentFiszkaIndex === 0) {
 
 
                             // Jeśli kontener nie został jeszcze wybrany, wybierz losowy kontener
-                            addBackgroundToText1b(matchingFiszki1, matchingIndexes, true, lesson1PartLength, polski, matchingLessons5b);
+                            addBackgroundToText1b(matchingFiszki1, matchingIndexes, true, lesson1PartLength, polski);
                         }
                         addVideo3(0);
                     }
@@ -1951,7 +1997,7 @@ $sentenceDiv.html(`
                         buttonindex = true;
                         setTimeout(() => {
                             console.log('Kliknięto przycisk o indeksie:', index55);
-                            przekazArgument0(tablica3[2], index55, true, tablica3[0], true, true, tablica3[1], tablica3[4], false, '', '', '', '');
+                            przekazArgument0(tablica7[0], tablica3[2], index55, true, tablica3[0], true, true, tablica3[1], tablica3[4], false, '', '', '', '');
                             console.log('hej26', czas);
                         }, 100);
                         // Usunięcie kontenera po wstawieniu nowego
@@ -1969,19 +2015,20 @@ $sentenceDiv.html(`
                     });
                     $container.append($button);
 
-                    const $buttonb2 = $('<button></button>');
+const $buttonb2 = $('<button></button>');
 $buttonb2.addClass('run-button3');
 $buttonb2.text('Otwórz lekcję w nowym oknie');
 
 // Dodajemy atrybut 'data-index2' z wartością indexDiv do przycisku
 $buttonb2.attr('data-index2', indexDiv);
+
 $buttonb2.on('click', function () {
-    const $clickedContainer = $container; // Przypisz kliknięty kontener do zmiennej
+    const $clickedContainer = $container;
 
     // Dodaj tło do nieklikniętych kontenerów
     $('.image-container3').not($clickedContainer).each(function () {
-        const $container = $(this);
-        if ($container.find('.background-overlay').length === 0) {
+        const $c = $(this);
+        if ($c.find('.background-overlay').length === 0) {
             $('<div>')
                 .addClass('background-overlay')
                 .css({
@@ -1994,7 +2041,7 @@ $buttonb2.on('click', function () {
                     'opacity': '0.35',
                     'z-index': '1000'
                 })
-                .appendTo($container);
+                .appendTo($c);
         }
     });
 
@@ -2003,86 +2050,20 @@ $buttonb2.on('click', function () {
         $('.background-overlay').remove();
     });
 
-    const index5b2 = $buttonb2.attr('data-index2');
-    const index55b2 = parseInt(index5b2, 10);
+    const index55b2 = parseInt($(this).attr('data-index2'), 10);
 
-    // Znajdź ukryty link i kliknij go
-    let lessonLink = null;
-    if (index55b2 === 1) {
-        lessonLink = document.querySelector('.lesson-link-1b');
-    }
-    if (index55b2 === 2) {
-        lessonLink = document.querySelector('.lesson-link-2b');
-    }
-        if (index55b2 === 3) {
-        lessonLink = document.querySelector('.lesson-link-3b');
-    }
-        if (index55b2 === 4) {
-        lessonLink = document.querySelector('.lesson-link-4b');
-    }
-    if (index55b2 === 5) {
-        lessonLink = document.querySelector('.lesson-link-5b');
-    }
-        if (index55b2 === 6) {
-        lessonLink = document.querySelector('.lesson-link-6b');
-    }
-        if (index55b2 === 7) {
-        lessonLink = document.querySelector('.lesson-link-7b');
-    }
-        if (index55b2 === 8) {
-        lessonLink = document.querySelector('.lesson-link-8b');
-    }
-        if (index55b2 === 9) {
-        lessonLink = document.querySelector('.lesson-link-9b');
-    }
-        if (index55b2 === 10) {
-        lessonLink = document.querySelector('.lesson-link-10b');
-    }
-            if (index55b2 === 11) {
-        lessonLink = document.querySelector('.lesson-link-11b');
-    }
-        if (index55b2 === 12) {
-        lessonLink = document.querySelector('.lesson-link-12b');
-    }
-        if (index55b2 === 13) {
-        lessonLink = document.querySelector('.lesson-link-13b');
-    }
-    if (index55b2 === 14) {
-        lessonLink = document.querySelector('.lesson-link-14b');
-    }
-        if (index55b2 === 15) {
-        lessonLink = document.querySelector('.lesson-link-15b');
-    }
-        if (index55b2 === 16) {
-        lessonLink = document.querySelector('.lesson-link-16b');
-    }
-    if (index55b2 === 17) {
-        lessonLink = document.querySelector('.lesson-link-17b');
-    }
-        if (index55b2 === 18) {
-        lessonLink = document.querySelector('.lesson-link-18b');
-    }
-        if (index55b2 === 19) {
-        lessonLink = document.querySelector('.lesson-link-19b');
-    }
-        if (index55b2 === 20) {
-        lessonLink = document.querySelector('.lesson-link-20b');
-    }
-        if (index55b2 === 21) {
-        lessonLink = document.querySelector('.lesson-link-21');
-    }
-        if (index55b2 === 22) {
-        lessonLink = document.querySelector('.lesson-link-22b');
-    }
-            if (index55b2 === 23) {
-        lessonLink = document.querySelector('.lesson-link-23b');
-    }
-        if (index55b2 === 24) {
-        lessonLink = document.querySelector('.lesson-link-24b');
-    }
-    if (lessonLink) {
-        lessonLink.click(); // Automatyczne kliknięcie ukrytego linka
-    }
+    // Poczekaj aż link będzie w DOM, potem kliknij
+    const tryClickLink = () => {
+        const lessonLink = document.querySelector(`.lesson-link-${index55b2}`);
+        if (lessonLink) {
+            lessonLink.click();
+        } else {
+            // Jeśli linka jeszcze nie ma, spróbuj ponownie po 100ms
+            setTimeout(tryClickLink, 100);
+        }
+    };
+
+    tryClickLink();
 });
                     $buttonb2.css({
                         'position': 'absolute', // Przykładowa wartość odstępu od lewej krawędzi

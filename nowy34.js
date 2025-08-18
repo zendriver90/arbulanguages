@@ -13183,3 +13183,112 @@ $buttonb2.on('click', function () {
 
                 // Deklaracja tablicy, która będzie zawierać wszystkie tablice
             }
+            
+             else if ((tablica10.length <= indexDivRange || tablica10.length === 0) && ostatniaWartosc < 5 && ostatniaWartosc > 3 && category === 'all') {
+                                                        let number = true;
+                            let number1 = false;
+                            let number2 = false;
+                            let newIndex5;
+                            console.log('hejhej511', indexDiv0b);
+                let newIndex10 = (indexDiv === indexDiv0b) ? 0 : indexDiv;
+                                                        if (newIndex10 === 0 || index50 === 0) {
+                            let number1 = true;
+                                /// WSTAWIENIE DRUGIEJ MINIATURY
+                    showCombinedSentenceForLesson22b(
+        number1, number2, selectedCategory, matchingIndexes3, rodzaj, matchingIndexes2,
+        buttonindex, index50, lessonId1, lessonId2, lessonId3, fiszki, matchingIndexes,
+        startIndex, newIndex, newIndex5, newIndex10, indexDiv, indexDiv0, indexDiv0b, lessonsArray,
+        lesson1PartLength, lesson2PartLength, lesson3PartLength,
+        lesson1Sentences, lesson2Sentences, lesson3Sentences,
+        lesson1FirstPartLength, lesson2FirstPartLength, lesson3FirstPartLength,
+        lesson1SecondPartLength, lesson2SecondPartLength, lesson3SecondPartLength,
+        cumulativeFirstPartLength1, cumulativeFirstPartLength2, cumulativeFirstPartLength3,
+        lessonsArrayZ, matchingLessons5, matchingLessons5b, isSearching
+    );
+            }
+                                    if (newIndex === 0 || index50 === 0) {
+                            //// WGRANIE MIEJSCA NA TRZECIĄ LEKCJĘ
+    const indexDiv0b = indexDiv;
+        tablica43b.push(indexDiv0b);
+                                console.log('hejhej51', tablica43b[tablica43b.length - 1]);
+
+            przekazArgument0(tablica7[0], tablica3[2], undefined, false, tablica3[0], true, true, tablica3[1], tablica3[4], false, '', '', '', '', '100', undefined, indexDiv0b);
+        }
+                        } else if ((tablica10.length <= indexDivRange || tablica10.length === 0) && ostatniaWartosc > 4) {
+                            const maxOstatnia = 20;
+if (ostatniaWartosc % 2 === 1) {
+                                let number = false;
+                            let number1 = false;
+                            let number2 = false;
+                            let newIndex5;
+                            console.log('hejhej511x', indexDiv0b);
+                let newIndex10 = (indexDiv === indexDiv0b) ? 0 : indexDiv;
+                /// USUNIĘCIE TRZECIEJ MINIATURY (I NASTĘPNEJ)
+                if (newIndex10 === 0 || index50 === 0) {
+                    showCombinedSentenceForLesson22b(
+        number1, number2, selectedCategory, matchingIndexes3, rodzaj, matchingIndexes2,
+        buttonindex, index50, lessonId1, lessonId2, lessonId3, fiszki, matchingIndexes,
+        startIndex, newIndex, newIndex5, newIndex10, indexDiv, indexDiv0, indexDiv0b, lessonsArray,
+        lesson1PartLength, lesson2PartLength, lesson3PartLength,
+        lesson1Sentences, lesson2Sentences, lesson3Sentences,
+        lesson1FirstPartLength, lesson2FirstPartLength, lesson3FirstPartLength,
+        lesson1SecondPartLength, lesson2SecondPartLength, lesson3SecondPartLength,
+        cumulativeFirstPartLength1, cumulativeFirstPartLength2, cumulativeFirstPartLength3,
+        lessonsArrayZ, matchingLessons5, matchingLessons5b, isSearching
+    );
+            }
+                        if (newIndex10 === 0 || index50 === 0) {
+                                const currentIndexDiv = indexDiv;
+    setTimeout(() => {
+        tablica43.push(currentIndexDiv);
+            }, 0);
+            number = false;
+/// PRODUKCJA TRZECIEJ LEKCJI (I NASTĘPNEJ)
+            showCombinedSentenceForLesson(
+                number, selectedCategory, matchingIndexes3, rodzaj, matchingIndexes2,
+                buttonindex, index50, lessonId1, lessonId2, lessonId3, fiszki, matchingIndexes,
+                startIndex, newIndex, newIndex10, indexDiv, indexDiv0b, lessonsArray,
+                lesson1PartLength, lesson2PartLength, lesson3PartLength,
+                lesson1Sentences, lesson2Sentences, lesson3Sentences,
+                lesson1FirstPartLength, lesson2FirstPartLength, lesson3FirstPartLength,
+                lesson1SecondPartLength, lesson2SecondPartLength, lesson3SecondPartLength,
+                cumulativeFirstPartLength1, cumulativeFirstPartLength2, cumulativeFirstPartLength3,
+                lessonsArrayZ, matchingLessons5, matchingLessons5b, isSearching
+            );
+    continue;
+            }
+} else if (ostatniaWartosc % 2 === 0) {
+                                                                console.log('wykonuje się 8');
+                                                            let number = true;
+                            let number1 = false;
+                            let number2 = false;
+                            let newIndex5;
+                            console.log('hejhej511', indexDiv0b);
+                let newIndex10 = (indexDiv === indexDiv0b) ? 0 : indexDiv;
+                                                        if (newIndex10 === 0) {
+                                                            console.log('wykonuje się 8b');
+                            let number2 = true;
+                                // WSTAWIENIE TRZECIEJ MINIATURY
+                    showCombinedSentenceForLesson22b(
+        number1, number2, selectedCategory, matchingIndexes3, rodzaj, matchingIndexes2,
+        buttonindex, index50, lessonId1, lessonId2, lessonId3, fiszki, matchingIndexes,
+        startIndex, newIndex, newIndex5, newIndex10, indexDiv, indexDiv0, indexDiv0b, lessonsArray,
+        lesson1PartLength, lesson2PartLength, lesson3PartLength,
+        lesson1Sentences, lesson2Sentences, lesson3Sentences,
+        lesson1FirstPartLength, lesson2FirstPartLength, lesson3FirstPartLength,
+        lesson1SecondPartLength, lesson2SecondPartLength, lesson3SecondPartLength,
+        cumulativeFirstPartLength1, cumulativeFirstPartLength2, cumulativeFirstPartLength3,
+        lessonsArrayZ, matchingLessons5, matchingLessons5b, isSearching
+    );
+            }
+                                    if (newIndex === 0) {
+                            //// WGRANIE MIEJSCA NA CZWARTĄ LEKCJĘ (I NASTPĘPNĄ)
+    const indexDiv0b = indexDiv;
+        tablica43b.push(indexDiv0b);
+                                console.log('hejhej51', tablica43b[tablica43b.length - 1]);
+
+            przekazArgument0(tablica7[0], tablica3[2], undefined, false, tablica3[0], true, true, tablica3[1], tablica3[4], false, '', '', '', '', '100', undefined, indexDiv0b);
+        }
+}
+}
+                    }

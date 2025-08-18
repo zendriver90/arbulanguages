@@ -20,10 +20,10 @@
         <link rel="stylesheet" type="text/css" href="css/1nowe-pc.css">
         <script src="js/story.js"></script>
         <script src="js/storage.js"></script>
-        <script src="start\testowyb10.js"></script>
-                <script src="start\testowyb10v2.js"></script>
-                <script src="start\testowyb10v3.js"></script>
-                <script src="start\testowyb10v4.js"></script>
+        <script src="start/testowyb10.js"></script>
+                <script src="start/testowyb10v2.js"></script>
+                <script src="start/testowyb10v3.js"></script>
+                <script src="start/testowyb10v4.js"></script>
                 <script src="js/lista.js"></script>
         <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
         <meta charset="UTF-8">
@@ -31,6 +31,10 @@
         <meta name="keywords" content="naucz się angielskiego, 1000 angielskich słów, szybka nauka angielskiego, jak nauczyć się angielskiego, jak szybko nauczyć się języka, nauka angielskiego z przyjemnością" />
         <style>
             @media (min-width: 999px) {
+                                .image-container3 .run-button4 {
+                    margin-top: -40px;
+                    text-align: center;
+                }
                 .sentence-block {
     display: block !important;
 }
@@ -128,86 +132,47 @@ video {
 	font: bold 1.5em verdana;
         }
 
-/* Domyślny styl dla wszystkich przycisków */
-#category-buttons button {
-  color: white;
-  border: none;
-  padding: 8px 16px;
-  margin: 3px;
-  cursor: pointer;
-  font-weight: 600;
-  border-radius: 4px;
-}
+  .category-btn {
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+  }
+    .category-btn5 {
+    background-color: gray; /* Filetowy kolor dla wszystkich przycisków */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+  }
 
-/* Specyficzne kolory wg kategorii */
-#category-buttons button[data-category="wszystkie"] {
-  background-color: #6c757d; /* szary */
-}
+  .category-btn[data-category="sport"] {
+    background-color: #28a745; /* Zielony kolor dla sportu */
+  }
 
-#category-buttons button[data-category="all"] {
-  background-color: pink; /* niebieski */
-}
+  .category-btn[data-category="natura"] {
+    background-color: #007bff; /* Niebieski kolor dla natury */
+  }
+  .category-btn[data-category="nauka"] {
+    background-color: #dc3545; /* Czerwony kolor dla nauki */
+  }
+  .category-btn[data-category="czarny humor"] {
+    background-color: orange; /* Żółty kolor dla czarnego humoru */
+  }
 
-#category-buttons button[data-category="sport"] {
-  background-color: green; /* zielony */
-}
-
-#category-buttons button[data-category="natura"] {
-  background-color: yellow; /* turkusowy */
-}
-
-#category-buttons button[data-category="nauka"] {
-  background-color: blue; /* żółty */
-}
-
-#category-buttons button[data-category="czarnyhumor"] {
-  background-color: red; /* pomarańczowy */
-}
-
-#category-buttons button[data-category="zwiazki"] {
-  background-color: blueviolet; /* różowy */
-}
-
-.left-button.sport,
-.left-buttonb.sport,
-.left-buttonbb.sport {
-  background-color: green !important;
-  color: white !important;
-}
-.left-button.nauka,
-.left-buttonb.nauka,
-.left-buttonbb.nauka {
-  background-color: blue !important;
-  color: white !important;
-}
-.left-button.natura,
-.left-buttonb.natura,
-.left-buttonbb.natura {
-  background-color: yellow !important;
-  color: white !important;
-}
-.left-button.zwiazki,
-.left-buttonb.zwiazki,
-.left-buttonbb.zwiazki {
-  background-color: blueviolet !important;
-  color: white !important;
-}
-.left-button.czarnyhumor,
-.left-buttonb.czarnyhumor,
-.left-buttonbb.czarnyhumor {
-  background-color: red !important;
-  color: white !important;
-}
-.left-button.all,
-.left-buttonb.all,
-.left-buttonbb.all {
-  background-color: pink !important;
-  color: white !important;
-}
-.active-category {
-  outline: 2px solid #333;
-  /* lub inny efekt wizualny */
-}
+  .category-btn[data-category="zwiazki"] {
+    background-color: #fd7e14; /* Pomarańczowy kolor dla związków */
+  }
+    .active-category {
+    border: 6px solid black; /* Czarna ramka dla aktywnej kategorii */
+    box-sizing: border-box; /* Ważne, aby uwzględnić ramkę w układzie */
+  }
                 .highlighted-range {
   background-color: green;
 }
@@ -432,6 +397,7 @@ span.highlight {
                 .left-button,
                 .left-buttonb,
                 .left-buttonbb{
+                    color: orange;
                     border-radius: 5px;
                 }
                 .white-text {
@@ -490,7 +456,7 @@ span.highlight {
                     background-color: blue;
                     width: 100%;
                     position: relative;
-                    min-height: 100px;
+                    min-height: 150px;
                     height: auto;
                     margin-bottom: 0px;
                     align-items: center;
@@ -996,7 +962,7 @@ span.highlight {
                 }
                 
   .category-btn {
-    background-color: blueviolet; /* Filetowy kolor dla wszystkich przycisków */
+    background-color: #800080; /* Filetowy kolor dla wszystkich przycisków */
     color: white;
     border: none;
     padding: 2px 7px;
@@ -1026,12 +992,12 @@ span.highlight {
   .category-btn[data-category="nauka"] {
     background-color: #dc3545; /* Czerwony kolor dla nauki */
   }
-  .category-btn[data-category="czarnyhumor"] {
+  .category-btn[data-category="czarny humor"] {
     background-color: orange; /* Żółty kolor dla czarnego humoru */
   }
 
   .category-btn[data-category="zwiazki"] {
-    background-color: yellow; /* Pomarańczowy kolor dla związków */
+    background-color: #fd7e14; /* Pomarańczowy kolor dla związków */
   }
     .active-category {
     border: 6px solid black; /* Czarna ramka dla aktywnej kategorii */
@@ -1150,6 +1116,7 @@ input {
                     font-size: 7px;
                     width: 20px;
                     height: 20px;
+                    color: orange;
                     border-radius: 5px;
                 }
                 @keyframes blinkBackground {
@@ -1188,21 +1155,22 @@ input {
                     font-size: 20px;
                 }
 
-                .image-container3 {
-                    display: flex;
-                    flex-direction: column;
-                    justify-content: center;
-                    background-color: blue;
-                    width: 100%;
-                    position: relative;
-                    min-height: 100px;
-                    max-height: 100px;
-                    height: auto;
-                    margin-bottom: 0px;
-                    align-items: center;
-                    font-size: 20px;
-                    margin-top: 10px;
-                }
+.image-container3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: blue; /* kolor początkowy */
+    width: 100%;
+    position: relative;
+    min-height: 100px; /* rezerwacja miejsca */
+    max-height: 100px;
+    height: auto;
+    margin-bottom: 0px;
+    align-items: center;
+    font-size: 20px;
+    margin-top: 10px;
+    overflow: hidden;
+}
                 .image-container3b {
                     display: flex;
                     flex-direction: column;
@@ -1512,8 +1480,8 @@ input {
                     z-index: 9999;
                 }
                 .sentenceBC {
-                    font-size: 10px;
-                    margin-bottom: -25px;
+                    font-size: 12px;
+                    margin-bottom: 60px;
                     color: white;
                     z-index: 9999;
                 }
@@ -1963,13 +1931,13 @@ input {
     </div>
 </div>
                 <div>
-    <button id="singleSentenceBtn" class="rodzaj-button">Jedno zdanie (działa)</button>
-    <button id="threeSentencesBtn" class="rodzaj-button">Trzy zdania (działa)</button>
+    <button id="singleSentenceBtn" class="rodzaj-button">Jedno zdanie (DZIAŁA)</button>
+    <button id="threeSentencesBtn" class="rodzaj-button">Trzy zdania (DZIAŁA)</button>
     <button id="singleWordBtn" class="rodzaj-button">Pojedyncze słowo</button>
                 </div><br>
                 <div id="matchingButtonsContainer" style="margin-top: 10px;"></div>
                 <p id="key3Result"></p>
-                <button class="left-button2">+<br></button>TE LEKCJE MAJĄ DOSTĘPNE SKOJARZENIA W WIĘKSZYM ZAKRESIE TEMATÓW (DZIAŁA)
+                <button class="left-button2">+<br></button>TE LEKCJE MAJĄ DOSTĘPNE SKOJARZENIA W WIĘKSZYM ZAKRESIE TEMATÓW (DZIAŁĄ)
 <div class="user-cards" data-user-cards-container></div>
                 <div id="category-buttons">
   <button class="category-btn5" data-category="wszystkie"
@@ -1980,7 +1948,7 @@ input {
   <button class="category-btn" data-category="sport">Sport</button>
   <button class="category-btn" data-category="natura">Natura</button>
   <button class="category-btn" data-category="nauka">Nauka</button>
-  <button class="category-btn" data-category="czarnyhumor">Czarny humor</button>
+  <button class="category-btn" data-category="czarny humor">Czarny humor</button>
   <button class="category-btn" data-category="zwiazki">Związki</button>
 </div>
 
@@ -2011,7 +1979,7 @@ input {
         </div>
 
         <script>
-            
+
   // Pokaż tylko raz
   window.addEventListener('DOMContentLoaded', () => {
     if (!localStorage.getItem('adblockMessageClosed')) {
@@ -2038,55 +2006,12 @@ input {
             const tablica20 = [];
             let buttonindex = false;
               // Zaznacz przycisk "Losowo" na początku
-
-const colorMapping = {
-  sport: 'sport',
-  natura: 'natura',
-  nauka: 'nauka',
-  czarnyhumor: 'czarnyhumor',
-  zwiazki: 'zwiazki',
-  all: 'all',
-  wszystkie: 'wszystkie' // jeśli używasz takiej klasy
-};
-
-
-const colors = {
-  sport: 'rgb(128, 0, 128)',
-  natura: 'green',
-  nauka: 'orange',
-  czarnyhumor: 'darkorange',
-  zwiazki: 'pink',
-  all: 'steelblue',
-  wszystkie: 'grey'
-};
-
-let selectedCategory = 'wszystkie';
-const startRange = 1;
-const endRange = 7;
-
-$('#category-buttons .category-btn, #category-buttons .category-btn5').on('click', function () {
-  $('#category-buttons .category-btn, #category-buttons .category-btn5').removeClass('active-category');
-  $(this).addClass('active-category');
-
-  selectedCategory = $(this).data('category');
-
-  $('.sentence-block, .sentence-blockB').each(function () {
-    const dataName = parseInt($(this).attr('data-name'), 10);
-    if (isNaN(dataName)) return;
-
-    const $btn = $(this).find('button.left-button, button.left-buttonb, button.left-buttonbb');
-
-    // Usuń klasy kolorów i inline style
-    $btn.removeClass(Object.values(colorMapping).join(' '));
-    $btn.css('background-color', '');
-    $btn.css('color', '');
-
-    if (selectedCategory === 'wszystkie' || (dataName >= startRange && dataName <= endRange)) {
-      $btn.addClass(selectedCategory);
-      $btn.css('background-color', colors[selectedCategory] || '');
-      $btn.css('color', 'white');
-    }
-  });
+let tablica55 = [];
+let selectedCategory = 'wszystkie'; // Domyślnie losowo
+const tablica45xx = []; // Tablica kategorii
+let indexDivRange = 19;
+let numberb = false;
+$('#category-buttons .category-btn').on('click', function () {
     $('#category-buttons .category-btn').removeClass('active-category');
     $(this).addClass('active-category');
 indexDivRange = '1'; // Zakres od 1 do 3
@@ -2094,9 +2019,16 @@ indexDivRange = '1'; // Zakres od 1 do 3
     console.log("Wybrano kategorię:", selectedCategoryText);
     tablica7[0] = $(this).data('category'); // <-- poprawione
     console.log('Wybrana kategoria:', tablica7[0]);
-    przekazArgument0(tablica7[0], 'all', '', '', '', '', '', tablica3[1], 'other', false, '', '', '', '', indexDivRange);
+if (tablica55[0] === true) {
+    przekazArgument0(tablica7[0], 'all', '', '', '', '', '', tablica3[1], 'other', false, '', '', '', '', indexDivRange, '', '');
+} else if (tablica55[1] === true) {
+    $('.grid-container .image-container3b').remove();
+    przekazArgument0(tablica7[0], 'all', '', '', '', '', '', tablica3[1], 'other', false, '', '', '', '', indexDivRange, '', '');
+}
+    $('.run-button3').each(function () {
+        $(this).text('Otwórz lekcję w nowym oknie - ' + selectedCategoryText);
+    });
 });
-
 $(document).ready(function () {
   // domyślnie zaznaczony
   $('#category-buttons .category-btn5[data-category="wszystkie"]').addClass('active-category');
@@ -2107,476 +2039,9 @@ $(document).ready(function () {
     $(this).addClass('active-category'); // dodaj do klikniętego
   });
 });
-const searchInput = document.querySelector("[data-search]");
-console.log("Element input:", searchInput); // Sprawdzenie, czy input istnieje
-
-let matchingKeys = [];
-let matchingKeysB = [];
-let searchKey = "key"; // Domyślnie angielski
-let searching1 = false;
-let searching2 = false;
-let polskiButton = document.getElementById("polski");
-let angielskiButton = document.getElementById("angielski");
-
-polskiButton.addEventListener("click", function () {
-    searchKey = "key2"; // Przełączamy na polski
-    console.log("Przełączono na polski, używam klucza:", searchKey);
-    isSearching = true;
-
-    findMatchingKeys(fiszki, document.getElementById("search")?.value.toLowerCase().trim(), searchKey);
-    matchingLessons5 = findLessonsForWords(fiszki, searchKey);
-    matchingLessons5b = findLessonsForWordsB(fiszki, searchKey);
-
-    przekazArgument0(tablica7[0], tablica3[2], '', false, 'fiszki', false, false, tablica3[1], tablica3[4], true, matchingLessons5, matchingLessons5b, false);
-});
-
-angielskiButton.addEventListener("click", function () {
-    searchKey = "key"; // Przełączamy na polski
-    console.log("Przełączono na polski, używam klucza:", searchKey);
-    isSearching = true;
-
-    findMatchingKeys(fiszki, document.getElementById("search")?.value.toLowerCase().trim(), searchKey);
-    matchingLessons5 = findLessonsForWords(fiszki, searchKey);
-    matchingLessons5b = findLessonsForWordsB(fiszki, searchKey);
-
-    przekazArgument0(tablica7[0], tablica3[2], '', false, 'fiszki', false, false, tablica3[1], tablica3[4], true, matchingLessons5, matchingLessons5b, false);
-});
-
-function updateSearch() {
-    const searchValue = document.getElementById("search")?.value.toLowerCase().trim();
-    if (!searchValue) {
-        console.log("Pole wyszukiwania jest puste.");
-        return;
-    }
-    findMatchingKeys(fiszki, searchValue, searchKey);
-}
-
-function findMatchingKeys(fiszki, searchValue, searchKey) {
-    console.log("Rozpoczynam filtrowanie fiszek dla frazy:", searchValue, "przy użyciu klucza:", searchKey);
-
-    matchingKeys = fiszki
-        .filter(fiszka => {
-            let keyValue = fiszka[searchKey];
-
-            if (Array.isArray(keyValue)) {
-                // Sprawdzamy, czy którykolwiek element tablicy zaczyna się od searchValue
-                return keyValue.some(value => value.toLowerCase().startsWith(searchValue));
-            } else if (typeof keyValue === "string") {
-                // Normalne sprawdzenie dla stringów
-                return keyValue.toLowerCase().startsWith(searchValue);
-            }
-            return false;
-        })
-        .map(fiszka => fiszka[searchKey]);
-showMatchingButtons();
-    matchingKeysB = [...matchingKeys];
-
-    console.log("Pasujące słowa:", matchingKeys);
-    console.log("Pasujące słowa2:", matchingKeysB);
-}
-
-function findLessonsForWords(fiszki, searchKey) {
-    let lessonIds = new Set();
-
-    fiszki.forEach(fiszka => {
-        if (!fiszka[searchKey] || !fiszka.id) return;
-        if (matchingKeys.includes(fiszka[searchKey])) {
-            lessonIds.add(fiszka.id[1]);
-        }
-    });
-
-    console.log("Lekcje zawierające szukane słowo:", Array.from(lessonIds));
-    return Array.from(lessonIds);
-}
-
-function findLessonsForWordsB(fiszki, searchKey) {
-    let lessonIdsB = new Set();
-
-    fiszki.forEach(fiszka => {
-        if (!fiszka[searchKey] || !fiszka.id) return;
-        if (matchingKeysB.includes(fiszka[searchKey])) {
-            lessonIdsB.add(fiszka.id[0]);
-        }
-    });
-    console.log("Wybrany rodzaj555: ", matchingKeysB);
-    console.log("Ustawienia fiszek5:", Array.from(lessonIdsB));
-    return Array.from(lessonIdsB);
-}
-
-let isSearching = false;
-let isSearching2 = false;
-let tablica40 = [];
-let tablica41 = [];
-let staraTablica40 = null;
-
-polskiButton.addEventListener("click", function () {
-    searchInput.placeholder = "przykład"; 
-});
-
-angielskiButton.addEventListener("click", function () {
-    searchInput.placeholder = "example"; 
-});
-searchInput.placeholder = "example"; 
-searchInput?.addEventListener("input", (e) => {
-    const searchTerm = e.target.value.trim().toLowerCase();
-    if (!searchTerm) {
-        console.log("Pusty input - przerywamy");
-        matchingKeys = [];
-        tablica40 = [];
-        return;
-    }
-
-    findMatchingKeys(fiszki, searchTerm, searchKey);
-    matchingLessons5 = findLessonsForWords(fiszki, searchKey);
-    matchingLessons5b = findLessonsForWordsB(fiszki, searchKey);
-
-    let nowaTablica40 = Array.isArray(matchingLessons5b) ? matchingLessons5b.flat() : [];
-
-    if (tablica40.length > 0) {
-        staraTablica40 = [...tablica40];
-        console.log('Stara tablica (zanim zmienimy):', staraTablica40);
-    }
-
-    tablica40 = [...nowaTablica40];
-    let pominiete = (staraTablica40 || []).filter(num => !nowaTablica40.includes(num));
-    console.log('Pominięte numery:', pominiete);
-
-    if (searchTerm.length === 1) {
-        isSearching = true;
-        console.log("Rozpoczęto wyszukiwanie:", isSearching);
-    }
-    if (searchTerm.length === 0) {
-        isSearching = false;
-        if (isSearching2) {
-        przekazArgument0(tablica3[2], '', false, '', true, true, tablica3[1], tablica3[4], false, null, null, false, staraTablica40);
-        }
-        console.log("Pusty input - przerywamy");
-        matchingKeys = [];
-        tablica40 = []; // Resetujemy tablicę
-        przekazArgument0(tablica3[2], '', false, 'fiszki', true, true, tablica3[1], tablica3[4], false, '', '');
-        return;
-    }
-    document.getElementById("singleSentenceBtn")?.addEventListener("click", () => {
-        tablica3[0] = 'zdania';
-        przekazArgument0(tablica7[0], tablica3[2], '', false, 'zdania', false, false, tablica3[1], tablica3[4], true, matchingLessons5, matchingLessons5b, isSearching2, staraTablica40, '100', '', '');
-    });
-
-    document.getElementById("threeSentencesBtn")?.addEventListener("click", () => {
-        tablica3[0] = 'fiszki';
-        przekazArgument0(tablica7[0], tablica3[2], '', false, 'fiszki', false, false, tablica3[1], tablica3[4], true, matchingLessons5, matchingLessons5b, false);
-    });
-polskiButton.addEventListener("click", function () {
-przekazArgument0(tablica3[2], '', false, 'fiszki', false, false, tablica3[1], tablica3[4], true, matchingLessons5, matchingLessons5b, false);
-});
-    przekazArgument0(tablica7[0], tablica3[2], '', false, tablica3[0], false, false, tablica3[1], tablica3[4], true, matchingLessons5, matchingLessons5b, isSearching2, staraTablica40, '100', '', '');
-});
-function displayKey3ForKey(word, container) {
-    // Szukamy fiszki, której właściwość 'key' lub 'key2' odpowiada podanemu słowu.
-    const foundFiszka = fiszki10.find(fiszka =>
-        fiszka.key === word || fiszka.key2 === word
-    );
-
-    if (!foundFiszka) {
-        container.textContent = "Nie znaleziono fiszki";
-        return;
-    }
-
-    let keyList, headerText, englishMode = false;
-    
-    // Jeśli użytkownik wpisał słówko angielskie (czyli znajduje się w key)
-    if (foundFiszka.key === word && Array.isArray(foundFiszka.key3)) {
-        keyList = foundFiszka.key3;
-        headerText = foundFiszka.key2; // wyświetlamy angielskie słówko jako nagłówek
-        englishMode = true;
-    }
-    // Jeśli użytkownik wpisał (lub funkcja jest wywołana z) polskie słówko – czyli key2
-    else if (foundFiszka.key2 === word && Array.isArray(foundFiszka.key4)) {
-        keyList = foundFiszka.key4;
-        headerText = foundFiszka.key; // nagłówek to polskie słówko
-                englishMode = false;
-    } else {
-        container.textContent = "Brak dodatkowych słów";
-        return;
-    }
-    
-    // Czyścimy zawartość kontenera i ustawiamy klasę
-    container.innerHTML = "";
-    container.classList.add("fiszka-container");
-    
-    // Nagłówek – główne słówko (tryb angielski: key; tryb polski: key2)
-    const headerDiv = document.createElement("div");
-    headerDiv.textContent = headerText;
-    headerDiv.className = "fiszka-word";
-    container.appendChild(headerDiv);
-    
-    // Kontener na przyciski synonimów (dla angielskiego: key3, dla polskiego: key4)
-    const rowDiv = document.createElement("div");
-    rowDiv.style.display = "flex";
-    rowDiv.style.justifyContent = "space-between";
-    rowDiv.style.marginTop = "10px";
-
-    // Lewa kolumna – przyciski synonimów
-    const leftColumn = document.createElement("div");
-    leftColumn.style.display = "flex";
-    leftColumn.style.flexWrap = "wrap";
-    leftColumn.style.alignItems = "center";
-    
-    keyList.forEach(item => {
-        const btn = document.createElement("button");
-        btn.textContent = item;
-        btn.className = "matching-button";
-        btn.style.margin = "2px";
-        btn.addEventListener("click", () => {
-            console.log("Kliknięto:", item);
-        });
-        leftColumn.appendChild(btn);
-    });
-    
-    rowDiv.appendChild(leftColumn);
-
-    // W trybie angielskim dodajemy dodatkowy przycisk,
-    // który przełącza widok tak, jakby użytkownik wpisał słówko po polsku
-    if (englishMode) {
-        const rightColumn = document.createElement("div");
-        rightColumn.style.display = "flex";
-        rightColumn.style.flexDirection = "column";
-        rightColumn.style.alignItems = "stretch";
-
-        const showPolishButton = document.createElement("button");
-        showPolishButton.textContent = "pokaż słówko po polsku";
-        showPolishButton.className = "fiszka-button";
-        showPolishButton.style.marginBottom = "5px";
-        showPolishButton.style.width = "150px";
-
-        // Po kliknięciu wywołujemy funkcję ponownie, przekazując wartość key2 jako argument.
-        showPolishButton.addEventListener("click", () => {
-            displayKey3ForKey(foundFiszka.key2, container);
-        });
-
-        rightColumn.appendChild(showPolishButton);
-        rowDiv.appendChild(rightColumn);
-    }
-    
-    container.appendChild(rowDiv);
-}
-
-function showMatchingButtons() {
-    const container = document.getElementById("matchingButtonsContainer");
-    if (!container) {
-        console.warn("Brak kontenera #matchingButtonsContainer w HTML");
-        return;
-    }
-
-    container.innerHTML = "";
-
-    for (let i = 0; i < matchingKeys.length; i++) {
-        const key = matchingKeys[i];
-        const key2 = matchingKeysB[i];
-console.log("Kliknięto key2:", key2);
-        // GŁÓWNY WSPÓLNY kontener - jedna linia: key + synonimy
-        const rowDiv = document.createElement("div");
-        rowDiv.style.display = "flex";
-        rowDiv.style.flexWrap = "wrap";
-        rowDiv.style.alignItems = "center";
-        rowDiv.style.marginBottom = "10px";
-
-        // Przycisk główny (key)
-        const keyBtn = document.createElement("button");
-        keyBtn.textContent = key;
-        keyBtn.className = "matching-button";
-        keyBtn.style.margin = "5px";
-        keyBtn.addEventListener("click", () => {
-            console.log("Kliknięto key2:", key2);
-        });
-        rowDiv.appendChild(keyBtn);
-
-        // Kontener na synonimy key3 / key4
-        const key3Container = document.createElement("div");
-        key3Container.style.display = "flex";
-        key3Container.style.flexWrap = "wrap";
-        key3Container.style.gap = "5px";
-        key3Container.style.marginLeft = "10px";
-
-        // Dodajemy do wspólnego kontenera
-        rowDiv.appendChild(key3Container);
-        container.appendChild(rowDiv);
-
-        // Wypełniamy synonimami
-        displayKey3ForKey(key, key3Container);
-    }
-
-    if (matchingKeys.length === 0) {
-        container.innerHTML = "<p>Brak wyników</p>";
-    }
-}
-
-// Przykładowe wywołanie funkcji
-showMatchingButtons();
-// Przykładowe wywołanie
-
-document.getElementById("singleWordBtn").addEventListener("click", function() {
-    console.log("Kliknięto singleWordBtn");
-isSearching2 = true;
-
-    console.log("Wyświetlam zawartość tablica40 (tylko raz):", tablica40);
-
-    function showFiszkiForLesson5dd(tablica40, tablica41, fiszki) {
-        console.log("Wybrany rodzaj: ", tablica40);
-
-        setTimeout(() => {
-            let matchingFiszki122 = [];
-
-            tablica40.forEach(t40 => {
-                fiszki.forEach(fiszka => {
-                    if (fiszka.id[0] === t40) {
-                        matchingFiszki122.push(fiszka); // Zapisujemy cały obiekt, nie tylko fiszka.id
-                    }
-                });
-            });
-
-            console.log("Wyświetlam:", matchingFiszki122);
-
-            // Przykładowe użycie funkcji generateFiszkaBlock3
-            matchingFiszki122.forEach(fiszka => {
-                generateFiszkaBlock3(fiszka, "lessonId2"); // Przekazujemy cały obiekt fiszka
-            });
-
-        }, 1000);
-    }
-
-    setTimeout(() => {
-        showFiszkiForLesson5dd(tablica40, tablica41, fiszki);
-    }, 1000);
-});
-
-
-
-    // Dodanie zdarzenia kliknięcia do przycisku
-document.getElementById("singleSentenceBtn").addEventListener("click", () => {
-    searching1 = true;
-    function showFiszkiForLesson5ddb(tablica40, tablica41, fiszki) {
-    console.log("Wybrany rodzaj: ", tablica40);
-
-    setTimeout(() => {
-        let idFiszki = [];
-
-        // Pobieranie id pasujących do tablica40
-        tablica40.forEach(t40 => {
-            fiszki.forEach(fiszka => {
-                if (fiszka.id[0] === t40) {
-                    idFiszki.push(fiszka.id); // Zapisujemy cały obiekt
-                }
-            });
-        });
-
-        console.log("Wyświetlam4:", idFiszki);
-
-        // Podział na mniejsze grupy po 3 elementy
-        let chunkedIdFiszki = [];
-        for (let i = 0; i < idFiszki.length; i += 3) {
-            chunkedIdFiszki.push(idFiszki.slice(i, i + 3));
-        }
-
-        console.log("Podzielone grupy ID:", chunkedIdFiszki);
-
-        // Usuwanie każdej grupy osobno
-        chunkedIdFiszki.forEach(group => {
-            removeFiszka(group);
-        });
-
-    }, 0);
-}
-
-function removeFiszka(idFiszkiGroup) {
-    idFiszkiGroup.forEach(singleId => {
-        // Jeśli singleId jest tablicą, łączymy jej elementy separatorem ','
-        let idString = Array.isArray(singleId) ? singleId.join(',') : singleId;
-        const className = `fiszka5 fiszka-${idString}`;
-        
-        // Escape'owanie przecinków w selektorze CSS
-        const selector = `.${className.replace(/,/g, '\\,').replace(/\s+/g, '.')}`; 
-
-        console.log("Wyświetlam4b:", selector);
-    
-        const $fiszkaToRemove = $('.grid-container').find(selector);
-        if ($fiszkaToRemove.length) {
-            console.log('Element znaleziony po opóźnieniu, usuwam...');
-            $fiszkaToRemove.remove();
-        } else {
-            console.log('Element nadal nie znaleziony.');
-        }
-    });
-}
-
-        setTimeout(() => {
-        showFiszkiForLesson5ddb(tablica40, tablica41, fiszki);
-    }, 0);
-        tablica3[0] = 'zdania';
-        przekazArgument0(tablica7[0], tablica3[2], '', false, 'zdania', false, false, tablica3[1], tablica3[4], true, matchingLessons5, matchingLessons5b, isSearching2, staraTablica40, '100', '', '');
-    });
-        // Dodanie zdarzenia kliknięcia do przycisku
-document.getElementById("threeSentencesBtn").addEventListener("click", () => {
-searching2 = true;
-function showFiszkiForLesson5ddb(tablica40, tablica41, fiszki) {
-    console.log("Wybrany rodzaj: ", tablica40);
-
-    setTimeout(() => {
-        let idFiszki = [];
-
-        // Pobieranie id pasujących do tablica40
-        tablica40.forEach(t40 => {
-            fiszki.forEach(fiszka => {
-                if (fiszka.id[0] === t40) {
-                    idFiszki.push(fiszka.id); // Zapisujemy cały obiekt
-                }
-            });
-        });
-        console.log("Wyświetlam4:", idFiszki);
-
-        // Podział na mniejsze grupy po 3 elementy
-        let chunkedIdFiszki = [];
-        for (let i = 0; i < idFiszki.length; i += 3) {
-            chunkedIdFiszki.push(idFiszki.slice(i, i + 3));
-        }
-
-        console.log("Podzielone grupy ID:", chunkedIdFiszki);
-
-        // Usuwanie każdej grupy osobno
-        chunkedIdFiszki.forEach(group => {
-            removeFiszka(group);
-        });
-
-    }, 0);
-}
-
-function removeFiszka(idFiszkiGroup) {
-    idFiszkiGroup.forEach(singleId => {
-        // Jeśli singleId jest tablicą, łączymy jej elementy separatorem ','
-        let idString = Array.isArray(singleId) ? singleId.join(',') : singleId;
-        const className = `fiszka5 fiszka-${idString}`;
-        
-        // Escape'owanie przecinków w selektorze CSS
-        const selector = `.${className.replace(/,/g, '\\,').replace(/\s+/g, '.')}`; 
-
-        console.log("Wyświetlam4b:", selector);
-    
-        const $fiszkaToRemove = $('.grid-container').find(selector);
-        if ($fiszkaToRemove.length) {
-            console.log('Element znaleziony po opóźnieniu, usuwam...');
-            $fiszkaToRemove.remove();
-        } else {
-            console.log('Element nadal nie znaleziony.');
-        }
-    });
-}
-
-        setTimeout(() => {
-        showFiszkiForLesson5ddb(tablica40, tablica41, fiszki);
-    }, 0);
-
-        tablica3[0] = 'fiszki';
-    przekazArgument0(tablica7[0], tablica3[2], '', false, 'fiszki', true, true, tablica3[1], tablica3[4], false, '', '');
-    });
+</script>
+                                    <script src="wyszukiwarka.js"></script>
+            <script>
     
 
         document.addEventListener('DOMContentLoaded', () => {
@@ -2952,8 +2417,8 @@ $gridContainer2.css('margin-top', flashcardContainerHeight + 100 + 'px');
                 $('.grid-container .image-container3').remove();
                 $('.grid-container .image-container4').remove();
                         indexDiv0 = tablica43[tablica43.length - 1]; ////// DODAWANIE
-                                console.log(":vv ", matchingLessons5b);
-                                console.log('xxx:', indexDivRange); // Dodano log licznika losowań
+                        console.log(":vv ", index55);
+                                console.log(":vv ", buttonindex);
                 tablica3[1] = id;
                 tablica3[2] = category;
                 tablica3[4] = rodzaj;
@@ -3263,7 +2728,7 @@ function findMatchingFiszkiCount(category, fiszki) {
 
 
             const partLengths3 = calculatePartLengths3(fiszki);
-            console.log('Cumulative counts3:', partLengths3);
+            console.log('Cumulative counts:', partLengths3);
 
 
 
@@ -3585,7 +3050,7 @@ if (myVariable.length > 0) {
                                 console.log('wykonuje się 8');
                                 console.log('hej32', newIndex);
                                 console.log('hej18vv', matchingLessons5b);
-                                showCombinedSentenceForLesson5b(selectedCategory, matchingIndexes3, rodzaj, matchingIndexes2, buttonindex, index50, lessonId1, lessonId2, lessonId3, fiszki, matchingIndexes, startIndex, newIndex, indexDiv, lessonsArray, lesson1PartLength, lesson2PartLength, lesson3PartLength, lesson1Sentences, lesson2Sentences, lesson3Sentences, lesson1FirstPartLength, lesson2FirstPartLength, lesson3FirstPartLength, lesson1SecondPartLength, lesson2SecondPartLength, lesson3SecondPartLength, cumulativeFirstPartLength1, cumulativeFirstPartLength2, cumulativeFirstPartLength3, lessonsArrayZ, matchingLessons5, matchingLessons5b, isSearching);
+                                showCombinedSentenceForLesson5b(category, selectedCategory, matchingIndexes3, rodzaj, matchingIndexes2, buttonindex, index50, lessonId1, lessonId2, lessonId3, fiszki, matchingIndexes, startIndex, newIndex, indexDiv, lessonsArray, lesson1PartLength, lesson2PartLength, lesson3PartLength, lesson1Sentences, lesson2Sentences, lesson3Sentences, lesson1FirstPartLength, lesson2FirstPartLength, lesson3FirstPartLength, lesson1SecondPartLength, lesson2SecondPartLength, lesson3SecondPartLength, cumulativeFirstPartLength1, cumulativeFirstPartLength2, cumulativeFirstPartLength3, lessonsArrayZ, matchingLessons5, matchingLessons5b, isSearching);
             console.log('hej18vvv', selectedCategory);                
             }
 
@@ -3601,7 +3066,7 @@ if (myVariable.length > 0) {
                     $('.grid-container .image-container3').remove();
                     $('.grid-container .image-container5').remove();
                     // Wyświetl pojedyncze zdania dla znalezionych lekcji
-                    console.log('Warunek11', isSearching);
+                    console.log('Warunek czas === "fiszki" jest spełniony2');
 
                     if (myVariable.length > 0) {
                         // Inicjuj flagę dla wystąpienia zera
@@ -3678,9 +3143,16 @@ if (myVariable.length > 0) {
                             // Dodanie wartości true dla każdego lessonId w polski
 
 
+                            // Znajdź długości drugiej części zdania dla każdej lekcji
                             const lesson1PartLength = partLengths3.find(item => item.id === lessonId1)?.cumulativeCount || 0;
 
+                            // Obliczanie skumulowanych długości
                             cumulativeFirstPartLength1 += lesson1PartLength;
+
+                            const cumulativeTotalFirstPartLength1 = cumulativeFirstPartLength1;
+
+                            // Aktualizacja poprzedniej wartości skumulowanej dla następnej iteracji
+                            previousCumulativeFirstPartLength3 = cumulativeFirstPartLength3;
 
                             const lessonObjectA = {
                                 lessonId1: lessonId1,
@@ -3708,10 +3180,10 @@ if (myVariable.length > 0) {
 
 
                             if ((tablica15.length <= 51 || tablica15.length === 0)) {
-                                console.log('hej18vv-', matchingLessons5b);
-                                isSearching = true;
+                                console.log('wykonuje się 8');
+
                                 showCombinedSentenceForLesson2(isSearching, selectedCategory, polski, index50, matchingIndexes, lessonId1, newIndex, indexDiv, lesson1PartLength, matchingLessons5b);
-                                console.log('hej321', lesson1PartLength);
+                                console.log('hej321', polski);
                             }
                         }
                     }
@@ -4000,9 +3472,12 @@ for (let i = 0; i < myVariable.length; i += 3) {
                                     break; // Przerwanie pętli, jeśli użytkownik nie chce kontynuować
                                 }
                             }
-    // --- TWOJA WARSTWA WARUNKU I indexDiv0 ---
-    console.log('xxx:', indexDivRange);
-if ((tablica10.length <= indexDivRange || tablica10.length === 0) && ostatniaWartosc < 2) {
+                            if (category !== 'all') {
+                                $('.grid-container .image-container3b').remove();
+                               showCombinedSentenceForLesson5b2(category, selectedCategory, matchingIndexes3, rodzaj, matchingIndexes2, buttonindex, index50, lessonId1, lessonId2, lessonId3, fiszki, matchingIndexes, startIndex, newIndex, indexDiv, lessonsArray, lesson1PartLength, lesson2PartLength, lesson3PartLength, lesson1Sentences, lesson2Sentences, lesson3Sentences, lesson1FirstPartLength, lesson2FirstPartLength, lesson3FirstPartLength, lesson1SecondPartLength, lesson2SecondPartLength, lesson3SecondPartLength, cumulativeFirstPartLength1, cumulativeFirstPartLength2, cumulativeFirstPartLength3, lessonsArrayZ, matchingLessons5, matchingLessons5b, isSearching);
+                            }
+console.log('hej100vv', index50);
+if ((tablica10.length <= indexDivRange || tablica10.length === 0) && ostatniaWartosc < 2 && category === 'all') {
 const newIndex2 = null;
 const indexDiv0b2 = null;
 const newIndex5 = null;
@@ -4010,6 +3485,7 @@ const newIndex10 = null;
 let number = true;
 let number1 = false;
 let number2 = false;
+    setTimeout(() => {
                                         if (newIndex !== 0) {
     // ⬇️ ZAWSZE wykonujemy tę funkcję – nawet jeśli newIndex = 0 //// DODAWANIE WSZYSTKICH OPRÓCZ PIERWSZEJ LEKCJI
     showCombinedSentenceForLesson22b(
@@ -4023,8 +3499,9 @@ let number2 = false;
         cumulativeFirstPartLength1, cumulativeFirstPartLength2, cumulativeFirstPartLength3,
         lessonsArrayZ, matchingLessons5, matchingLessons5b, isSearching
     );
-    continue;
     }
+                }, 0);
+                    setTimeout(() => {
             if (newIndex === 0) {
     const currentIndexDiv = indexDiv;
     setTimeout(() => {
@@ -4042,9 +3519,10 @@ let number2 = false;
                 cumulativeFirstPartLength1, cumulativeFirstPartLength2, cumulativeFirstPartLength3,
                 lessonsArrayZ, matchingLessons5, matchingLessons5b, isSearching
             );
-    continue;
+    tablica55.push(true);
             }
-            } else if ((tablica10.length <= indexDivRange || tablica10.length === 0) && ostatniaWartosc < 3 && ostatniaWartosc > 1) {
+                            }, 1000);
+            } else if ((tablica10.length <= indexDivRange || tablica10.length === 0) && ostatniaWartosc < 3 && ostatniaWartosc > 1 && category === 'all') {
                 let number = true;
                 let number1 = false;
                 let number2 = false;
@@ -4068,25 +3546,32 @@ let number2 = false;
     continue;
             }
                                 console.log('hejhej54', newIndex5);
-            
-                        if (newIndex === 0) {
+            if (index50 === 0) {
+                            //// WGRANIE MIEJSCA NA DRUGĄ LEKCJĘ
+    const indexDiv0b = indexDiv;
+        tablica43b.push(indexDiv0b);
+                                console.log('hejhej51', tablica43b[tablica43b.length - 1]);
+
+            przekazArgument0(tablica7[0], tablica3[2], undefined, true, tablica3[0], true, true, tablica3[1], tablica3[4], false, '', '', '', '', '100', undefined, indexDiv0b);
+            } else if (index50 === null && newIndex === 0) {
                             //// WGRANIE MIEJSCA NA DRUGĄ LEKCJĘ
     const indexDiv0b = indexDiv;
         tablica43b.push(indexDiv0b);
                                 console.log('hejhej51', tablica43b[tablica43b.length - 1]);
 
             przekazArgument0(tablica7[0], tablica3[2], undefined, false, tablica3[0], true, true, tablica3[1], tablica3[4], false, '', '', '', '', '100', undefined, indexDiv0b);
-        }
-
-                    } else if ((tablica10.length <= indexDivRange || tablica10.length === 0) && ostatniaWartosc < 4 && ostatniaWartosc > 2) {
+            }
+        
+                    } else if ((tablica10.length <= indexDivRange || tablica10.length === 0) && ostatniaWartosc < 4 && ostatniaWartosc > 2 && category === 'all') {
                             let number = true;
                             let number1 = false;
                             let number2 = false;
+                            numberb = true;
                             let newIndex5;
                             console.log('hejhej511', indexDiv0b);
                 let newIndex10 = (indexDiv === indexDiv0b) ? 0 : indexDiv;
                 /// USUNIĘCIE DRUGIEJ MINIATURY
-                if (newIndex10 === 0) {
+                            if (newIndex10 === 0) {
                     showCombinedSentenceForLesson22b(
         number1, number2, selectedCategory, matchingIndexes3, rodzaj, matchingIndexes2,
         buttonindex, index50, lessonId1, lessonId2, lessonId3, fiszki, matchingIndexes,
@@ -4116,115 +3601,10 @@ let number2 = false;
                 cumulativeFirstPartLength1, cumulativeFirstPartLength2, cumulativeFirstPartLength3,
                 lessonsArrayZ, matchingLessons5, matchingLessons5b, isSearching
             );
+    tablica55.push(true);
     continue;
             }
-                        } else if ((tablica10.length <= indexDivRange || tablica10.length === 0) && ostatniaWartosc < 5 && ostatniaWartosc > 3) {
-                                                        let number = true;
-                            let number1 = false;
-                            let number2 = false;
-                            let newIndex5;
-                            console.log('hejhej511', indexDiv0b);
-                let newIndex10 = (indexDiv === indexDiv0b) ? 0 : indexDiv;
-                                                        if (newIndex10 === 0) {
-                            let number1 = true;
-                                /// WSTAWIENIE DRUGIEJ MINIATURY
-                    showCombinedSentenceForLesson22b(
-        number1, number2, selectedCategory, matchingIndexes3, rodzaj, matchingIndexes2,
-        buttonindex, index50, lessonId1, lessonId2, lessonId3, fiszki, matchingIndexes,
-        startIndex, newIndex, newIndex5, newIndex10, indexDiv, indexDiv0, indexDiv0b, lessonsArray,
-        lesson1PartLength, lesson2PartLength, lesson3PartLength,
-        lesson1Sentences, lesson2Sentences, lesson3Sentences,
-        lesson1FirstPartLength, lesson2FirstPartLength, lesson3FirstPartLength,
-        lesson1SecondPartLength, lesson2SecondPartLength, lesson3SecondPartLength,
-        cumulativeFirstPartLength1, cumulativeFirstPartLength2, cumulativeFirstPartLength3,
-        lessonsArrayZ, matchingLessons5, matchingLessons5b, isSearching
-    );
-            }
-                                    if (newIndex === 0) {
-                            //// WGRANIE MIEJSCA NA TRZECIĄ LEKCJĘ
-    const indexDiv0b = indexDiv;
-        tablica43b.push(indexDiv0b);
-                                console.log('hejhej51', tablica43b[tablica43b.length - 1]);
-
-            przekazArgument0(tablica7[0], tablica3[2], undefined, false, tablica3[0], true, true, tablica3[1], tablica3[4], false, '', '', '', '', '100', undefined, indexDiv0b);
-        }
-                        } else if ((tablica10.length <= indexDivRange || tablica10.length === 0) && ostatniaWartosc > 4) {
-                            const maxOstatnia = 20;
-if (ostatniaWartosc % 2 === 1) {
-                                let number = false;
-                            let number1 = false;
-                            let number2 = false;
-                            let newIndex5;
-                            console.log('hejhej511x', indexDiv0b);
-                let newIndex10 = (indexDiv === indexDiv0b) ? 0 : indexDiv;
-                /// USUNIĘCIE TRZECIEJ MINIATURY (I NASTĘPNEJ)
-                if (newIndex10 === 0) {
-                    showCombinedSentenceForLesson22b(
-        number1, number2, selectedCategory, matchingIndexes3, rodzaj, matchingIndexes2,
-        buttonindex, index50, lessonId1, lessonId2, lessonId3, fiszki, matchingIndexes,
-        startIndex, newIndex, newIndex5, newIndex10, indexDiv, indexDiv0, indexDiv0b, lessonsArray,
-        lesson1PartLength, lesson2PartLength, lesson3PartLength,
-        lesson1Sentences, lesson2Sentences, lesson3Sentences,
-        lesson1FirstPartLength, lesson2FirstPartLength, lesson3FirstPartLength,
-        lesson1SecondPartLength, lesson2SecondPartLength, lesson3SecondPartLength,
-        cumulativeFirstPartLength1, cumulativeFirstPartLength2, cumulativeFirstPartLength3,
-        lessonsArrayZ, matchingLessons5, matchingLessons5b, isSearching
-    );
-            }
-                        if (newIndex10 === 0) {
-                                const currentIndexDiv = indexDiv;
-    setTimeout(() => {
-        tablica43.push(currentIndexDiv);
-            }, 0);
-            number = false;
-/// PRODUKCJA TRZECIEJ LEKCJI (I NASTĘPNEJ)
-            showCombinedSentenceForLesson(
-                number, selectedCategory, matchingIndexes3, rodzaj, matchingIndexes2,
-                buttonindex, index50, lessonId1, lessonId2, lessonId3, fiszki, matchingIndexes,
-                startIndex, newIndex, newIndex10, indexDiv, indexDiv0b, lessonsArray,
-                lesson1PartLength, lesson2PartLength, lesson3PartLength,
-                lesson1Sentences, lesson2Sentences, lesson3Sentences,
-                lesson1FirstPartLength, lesson2FirstPartLength, lesson3FirstPartLength,
-                lesson1SecondPartLength, lesson2SecondPartLength, lesson3SecondPartLength,
-                cumulativeFirstPartLength1, cumulativeFirstPartLength2, cumulativeFirstPartLength3,
-                lessonsArrayZ, matchingLessons5, matchingLessons5b, isSearching
-            );
-    continue;
-            }
-} else if (ostatniaWartosc % 2 === 0) {
-                                                                console.log('wykonuje się 8');
-                                                            let number = true;
-                            let number1 = false;
-                            let number2 = false;
-                            let newIndex5;
-                            console.log('hejhej511', indexDiv0b);
-                let newIndex10 = (indexDiv === indexDiv0b) ? 0 : indexDiv;
-                                                        if (newIndex10 === 0) {
-                                                            console.log('wykonuje się 8b');
-                            let number2 = true;
-                                // WSTAWIENIE TRZECIEJ MINIATURY
-                    showCombinedSentenceForLesson22b(
-        number1, number2, selectedCategory, matchingIndexes3, rodzaj, matchingIndexes2,
-        buttonindex, index50, lessonId1, lessonId2, lessonId3, fiszki, matchingIndexes,
-        startIndex, newIndex, newIndex5, newIndex10, indexDiv, indexDiv0, indexDiv0b, lessonsArray,
-        lesson1PartLength, lesson2PartLength, lesson3PartLength,
-        lesson1Sentences, lesson2Sentences, lesson3Sentences,
-        lesson1FirstPartLength, lesson2FirstPartLength, lesson3FirstPartLength,
-        lesson1SecondPartLength, lesson2SecondPartLength, lesson3SecondPartLength,
-        cumulativeFirstPartLength1, cumulativeFirstPartLength2, cumulativeFirstPartLength3,
-        lessonsArrayZ, matchingLessons5, matchingLessons5b, isSearching
-    );
-            }
-                                    if (newIndex === 0) {
-                            //// WGRANIE MIEJSCA NA CZWARTĄ LEKCJĘ (I NASTPĘPNĄ)
-    const indexDiv0b = indexDiv;
-        tablica43b.push(indexDiv0b);
-                                console.log('hejhej51', tablica43b[tablica43b.length - 1]);
-
-            przekazArgument0(tablica7[0], tablica3[2], undefined, false, tablica3[0], true, true, tablica3[1], tablica3[4], false, '', '', '', '', '100', undefined, indexDiv0b);
-        }
-}
-}
+                        }
                     }
                         console.log('Aktualna zawartość tablicy lessonsArray:', lessonsArray);
                         const numberOfContainers = $('.image-container3').length;
@@ -4233,6 +3613,7 @@ if (ostatniaWartosc % 2 === 1) {
                 }
 
                 if (czas === 'zdania' && czas !== 'fiszki' && !isSearching) {
+                    $('.grid-container .image-container3b').remove();
                     $('.grid-container .image-container3').remove();
                     $('.grid-container .image-container5').remove();
                     // Wyświetl pojedyncze zdania dla znalezionych lekcji
@@ -4363,9 +3744,9 @@ if (ostatniaWartosc % 2 === 1) {
                                 }
                             }
                             if ((tablica15.length <= 57 || tablica15.length === 0)) {
-                                console.log('wykonuje się 8mm', isSearching);
+                                console.log('wykonuje się 8');
 
-                                showCombinedSentenceForLesson2(selectedCategory, polski, index50, matchingIndexes, lessonId1, newIndex, indexDiv, lesson1PartLength, isSearching);
+                                showCombinedSentenceForLesson2(isSearching, selectedCategory, polski, index50, matchingIndexes, lessonId1, newIndex, indexDiv, lesson1PartLength, matchingLessons5b);
                                 console.log('hej321', polski);
                             }
                         }
@@ -4375,646 +3756,17 @@ if (ostatniaWartosc % 2 === 1) {
             }
             </script>
                                     <script src="nowydzialajacy.js"></script>
-                                            <script src="displayx1.js"></script>
                     <script src="displayx3.js"></script>
+                                        <script src="displayx3category.js"></script>
                     <script src="start/miniatury-prezentacja.js"></script>
                     <script>
             
                     
 </script>
+
+        <script src="displayx1.js"></script>
+                <script src="showCombinedSentenceForLesson5.js"></script>
     <script>                   
-
-            function showCombinedSentenceForLesson5(index50, lessonIdToShow1, newIndex, indexDiv, buttonindex, lessonLength) {
-                // Tutaj reszta kodu funkcji
-                const matchingFiszki1 = fiszki.filter(fiszka => fiszka.id[2] === lessonIdToShow1);
-                const matchingFiszki10 = fiszki.filter(fiszka => fiszka.id[2] === lessonIdToShow1);
-                console.log('hej10', matchingFiszki1);
-
-                if (matchingFiszki10.length > 0) {
-                    const srcWord1 = pobierzSrcWordDlaLekcji(lessonIdToShow1, fiszki);
-                    const srcWord10 = pobierzSrcWordDlaLekcji2(lessonIdToShow1, fiszki);
-                    const srcWord1b = pobierzSrcWordDlaLekcji3(lessonIdToShow1, fiszki);
-                    function pobierzSrcWordDlaLekcji(lessonId, fiszki) {
-                        const matchingFiszka = fiszki.find(fiszka => fiszka.id[2] === lessonId);
-                        return matchingFiszka ? matchingFiszka.srcWord2[0] : null;
-                    }
-                    function pobierzSrcWordDlaLekcji2(lessonId, fiszki) {
-                        const matchingFiszka = fiszki.find(fiszka => fiszka.id[1] === lessonId);
-                        return matchingFiszka ? matchingFiszka.srcWordimage : null;
-                    }
-                    function pobierzSrcWordDlaLekcji3(lessonId, fiszki) {
-                        const matchingFiszka = fiszki.find(fiszka => fiszka.id[1] === lessonId);
-                        return matchingFiszka ? matchingFiszka.srcWord[1] : null; // Zwracamy srcWord[1] zamiast srcWord
-                    }
-                    let sentence10 = ""; // Deklaracja zmiennej sentence1 na poziomie lokalnym
-                    let sentence1b = "";
-                    let sentence1b2 = "";
-                    function addBackgroundToText(matchingFiszki1, matchingIndexes, currentIndexValue, aktualny) {
-                        setTimeout(function () {
-                            sentence10 = "";
-                            sentence1b = "";
-                            sentence1b2 = "";
-                            console.log('hej22', polski);
-                            console.log('Rozpoczęcie funkcji addBackgroundToText');
-                            console.log('matchingFiszki1:', matchingFiszki1);
-                            console.log('lessonIdToShow1:', lessonIdToShow1);
-                            console.log('matchingIndexes:', matchingIndexes);
-                            console.log('currentIndexValue:', currentIndexValue);
-                            console.log('aktualny:', aktualny);
-                            for (let i = 0; i < matchingFiszki1.length; i++) {
-                                const fiszka = matchingFiszki1[i];
-                                console.log('fiszka:', fiszka);
-                                if (!fiszka.sentence1 || fiszka.sentence1.length === 0) {
-                                    console.log('fiszka.sentence1 is undefined or empty');
-                                    continue; // Jeśli sentence1 nie istnieje lub jest puste, przejdź do następnej fiszki
-                                }
-
-                                // Iteracja przez elementy sentence1
-                                for (let ki = 0; ki < fiszka.sentence1.length; ki++) {
-                                    let sentencePart = fiszka.sentence1[ki];
-                                    console.log('sentencePart5:', sentencePart);
-                                    const indexToCheck = i + lesson1FirstPartLength + 1;
-                                    console.log('indexToCheck5:', indexToCheck);
-                                    if (aktualny) {
-                                        if (!matchingIndexes.includes(indexToCheck) && currentIndexValue == 0) {
-                                            const spanElement = document.createElement('span');
-                                            spanElement.innerHTML = sentencePart; // Użyj innerHTML zamiast textContent
-                                            sentencePart = spanElement.outerHTML;
-                                        } else if (matchingIndexes.includes(indexToCheck) && currentIndexValue == 0) {
-                                            console.log('działa255', matchingIndexes.includes(indexToCheck));
-                                            const spanElement = document.createElement('span');
-                                            spanElement.innerHTML = sentencePart; // Użyj innerHTML zamiast textContent
-                                            if (!spanElement.classList.contains('highlighted-sentence')) {
-                                                spanElement.classList.add('yellow');
-                                                spanElement.classList.add('highlighted-sentence');
-                                            }
-                                            sentencePart = spanElement.outerHTML;
-                                        } else if (currentIndexValue == 0) {
-                                            const spanElement = document.createElement('span');
-                                            spanElement.innerHTML = sentencePart; // Użyj innerHTML zamiast textContent
-                                            spanElement.classList.add('highlighted-sentence');
-                                            sentencePart = spanElement.outerHTML;
-                                        } else if (currentIndexValue == 1 && matchingIndexes.includes(indexToCheck)) {
-                                            const spanElement = document.createElement('span');
-                                            spanElement.innerHTML = sentencePart; // Użyj innerHTML zamiast textContent
-                                            spanElement.classList.remove('highlighted-sentence');
-                                            spanElement.classList.add('yellow');
-                                            sentencePart = spanElement.outerHTML;
-                                        }
-                                    }
-
-                                    console.log('sentencePart po przetworzeniu:', sentencePart); // Dodaj log po przetworzeniu
-                                    sentence10 += sentencePart + " ";
-                                }
-                            }
-                            console.log('final sentence10:', sentence10); // Dodaj log dla ostatecznego wyniku
-                            // Iteracja przez elementy sentence1
-
-                            // Iteracja przez matchingFiszki2 dla sentence2
-
-                            for (let li = 0; li < matchingFiszki1.length; li++) {
-                                const fiszka = matchingFiszki1[li];
-                                console.log('fiszka:', fiszka);
-                                let sentencePart333 = fiszka.translateb;
-                                console.log('sentencePart333:', sentencePart333);
-                                if (aktualny) {
-                                    // Sprawdzenie, czy indeks bieżącej fiszki znajduje się w tablicy matchingIndexes
-                                    const spanElement = document.createElement('span');
-                                    spanElement.textContent = sentencePart333;
-                                    sentencePart333 = spanElement.outerHTML;
-                                }
-                                sentence1b += sentencePart333 + " ";
-                            }
-                            if (sentence1b === "") {
-                                let sentencePart333 = fiszka.translateb ? fiszka.translateb : "";
-                                sentence1b += sentencePart333 + " ";
-                            }
-                            for (let li = 0; li < matchingFiszki1.length; li++) {
-                                const fiszka = matchingFiszki1[li];
-                                console.log('fiszka:', fiszka);
-                                let sentencePart333 = fiszka.translate;
-                                console.log('sentencePart333:', sentencePart333);
-                                if (aktualny) {
-                                    // Sprawdzenie, czy indeks bieżącej fiszki znajduje się w tablicy matchingIndexes
-                                    const spanElement = document.createElement('span');
-                                    spanElement.textContent = sentencePart333;
-                                    sentencePart333 = spanElement.outerHTML;
-                                }
-                                sentence1b2 += sentencePart333 + " ";
-                            }
-                            if (sentence1b2 === "") {
-                                let sentencePart333 = fiszka.translate ? fiszka.translate : "";
-                                sentence1b2 += sentencePart333 + " ";
-                            }
-                            // Dodanie treści do diva wraz z przyciskiem
-
-                            $sentenceDivB.html(`
-${sentence10}<br>
-<div class="sentence1b">${sentence1b}</div>
-<div class="sentence1b2">${sentence1b2}</div>
-`);
-
-                            if ($sentence1b.css('display') === 'none') {
-                                // Pokazujemy zdanie .sentence1bb
-                                $sentence1b.css('display', 'block');
-                                $sentence1b.css({
-                                    'margin-bottom': '0px',
-                                    'top': '0px',
-                                    'position': 'relative'
-                                });
-                            }
-                        }, 0);
-                    }
-
-                    let sentence1bba = "";
-                    let sentence1bbab = "";
-                    function addBackgroundToText1b(matchingFiszki1, matchingIndexes, aktualny, lessonLength) {
-                        $(document).ready(function () {
-                            sentence1bba = "";
-                            sentence1bbab = "";
-                            setTimeout(() => {
-                                for (let i = 0; i < matchingFiszki1.length; i++) {
-                                    const fiszka = matchingFiszki1[i];
-                                    console.log('fiszka:', fiszka);
-                                    if (!fiszka.sentence || fiszka.sentence.length === 0) {
-                                        console.log('fiszka.sentence1 is undefined or empty');
-                                        continue; // Jeśli sentence1 nie istnieje lub jest puste, przejdź do następnej fiszki
-                                    }
-
-                                    // Iteracja przez elementy sentence1
-                                    for (let ki = 0; ki < fiszka.sentence.length; ki++) {
-                                        let sentencePart = fiszka.sentence[ki];
-                                        console.log('sentencePart5:', sentencePart);
-                                        const indexToCheck = i + lessonLength + 1;
-                                        console.log('indexToCheck5:', indexToCheck);
-                                        // Sprawdź, czy indeks jest równy 0
-                                        if (aktualny) {
-                                            if (matchingIndexes.includes(indexToCheck)) {
-                                                // Sprawdzenie, czy indeks bieżącej fiszki znajduje się w tablicy matchingIndexes
-                                                const spanElement = document.createElement('span');
-                                                spanElement.textContent = sentencePart;
-                                                spanElement.classList.add('yellow');
-                                                // Zaktualizuj sentencePart, aby zawierał utworzony element span
-                                                sentencePart = spanElement.outerHTML;
-                                            }
-                                        }
-
-                                        sentence10 += sentencePart + " ";
-                                    }
-                                    break; // Zakończ pętlę po pierwszym przetworzeniu fiszki
-                                }
-                                for (let li = 0; li < matchingFiszki1.length; li++) {
-                                    const fiszka = matchingFiszki1[li];
-                                    console.log('fiszka:', fiszka);
-                                    let sentencePart3 = fiszka.translateb2;
-                                    console.log('sentencePart3:', sentencePart3);
-                                    if (aktualny) {
-                                        // Sprawdzenie, czy indeks bieżącej fiszki znajduje się w tablicy matchingIndexes
-                                        const spanElement = document.createElement('span');
-                                        spanElement.textContent = sentencePart3;
-                                        sentencePart3 = spanElement.outerHTML;
-
-                                    }
-                                    sentence1bba += sentencePart3 + " ";
-                                }
-                                for (let li = 0; li < matchingFiszki1.length; li++) {
-                                    const fiszka = matchingFiszki1[li];
-                                    console.log('fiszka:', fiszka);
-                                    let sentencePart3 = fiszka.translate;
-                                    console.log('sentencePart3:', sentencePart3);
-                                    if (aktualny) {
-                                        // Sprawdzenie, czy indeks bieżącej fiszki znajduje się w tablicy matchingIndexes
-                                        const spanElement = document.createElement('span');
-                                        spanElement.textContent = sentencePart3;
-                                        sentencePart3 = spanElement.outerHTML;
-
-                                    }
-                                    sentence1bbab += sentencePart3 + " ";
-                                }
-
-                                console.log('hej20', sentence1bba);
-
-                                $sentenceDiv.html(`
-${sentence10}<br>
-<div class="sentence1bba">${sentence1bba}</div>
-<div class="sentence1bbab">${sentence1bbab}</div>
-`);
-                                if ($sentence1bba.css('display') === 'none') {
-                                    // Pokazujemy zdanie .sentence1bb
-                                    $sentence1bba.css('display', 'block');
-                                    $sentence1bba.css({
-                                        'margin-bottom': '-20px',
-                                        'top': '0px',
-                                        'position': 'relative'
-                                    });
-                                }
-                            }, 300);
-                        });
-                        console.log('Zawartość zmiennej sentence1:', sentence1b); // Wyświetlenie zawartości zmiennej sentence1                          
-                    }
-
-
-
-                    const $container = $('<div></div>'); // Tworzymy nowy element div za pomocą jQuery
-                    $container.addClass('image-container5'); // Dodajemy klasę do nowego diva
-                    $container.css('position', 'relative'); // Ustawiamy pozycję diva na relative
-
-                    // Możesz również dodać dodatkowe atrybuty, takie jak 'data-lesson'
-                    $container.attr('data-lesson', indexDiv);
-                    $('.grid-container').append($container);
-                    const srcWords = [srcWord1];
-                    console.log('hej2', srcWords);
-                    const srcWords2 = [srcWord1b];
-                    console.log('hej2', srcWords2);
-                    const srcWordimage = [srcWord10];
-                    console.log('hej2', srcWordimage);
-                    let videoDurations = [];
-                    let totalDuration = 0;
-                    for (let i = 0; i < srcWords.length; i++) {
-                        const video = document.createElement('video');
-                        video.src = srcWords[i];
-                        video.addEventListener('loadedmetadata', function () {
-                            totalDuration += this.duration;
-                            console.log('tablica8', totalDuration);
-                            console.log('działa5');
-                        });
-                    }
-                    console.log('hej');
-                    console.log('tablica11', videoDurations);
-                    function removePreviousVideo() {
-                        const previousVideo = $container.find('video'); // Poprawne odwołanie do poprzedniego wideo
-                        if (previousVideo.length > 0) {
-                            previousVideo.remove(); // Usunięcie poprzedniego wideo z kontenera
-                        }
-                    }
-
-                    if (newIndex === 0 && !buttonindex) {
-                        console.log('hej3331', buttonindex);
-                        let funkcjaWywolana = false;
-                        function addVideo1(index) {
-                            // Sprawdź, czy jesteśmy poza zakresem tablicy
-                            if (index >= srcWords.length && !funkcjaWywolana) {
-                                funkcjaWywolana = true;
-                                countVisibleContainers();
-                                przekazArgument0(tablica3[2], undefined, false, tablica3[0], true, true, tablica3[1], tablica3[4]);
-                                console.log("wykonuje się");
-                            }
-                            // Usuń poprzednie wideo
-                            removePreviousVideo();
-                            console.log('hej78', index);
-                            const $vidDiv = $('<div>').addClass('background-video');
-                            // Utwórz element <video> i ustaw atrybuty
-                            const $videoElement = $('<video>').attr({
-                                'autoplay': true, // Automatyczne odtwarzanie wideo
-                                'muted': true, // Wyciszenie dźwięku wideo
-                                'loop': true // Zapętlenie wideo
-                            });
-                            // Dodaj klasę CSS zależnie od indeksu wideo
-                            if (index === 0) {
-                                $videoElement.addClass('scaled-video');
-                            } else {
-                                $videoElement.addClass('next-video');
-                            }
-                            // Utwórz element <source> dla wideo i ustaw atrybuty
-                            const $sourceElement = $('<source>').attr({
-                                'src': srcWords[index], // Poprawne użycie interpolacji
-                                'type': 'video/mp4'     // Typ pliku wideo
-                            });
-                            // Dodaj element source do elementu video
-                            $sourceElement.appendTo($videoElement);
-                            // Dodaj element video do diva dla wideo
-                            $videoElement.appendTo($vidDiv);
-                            // Dodaj element <source> do elementu <video>
-
-                            // Obsługa błędu ładowania wideo
-                            $videoElement.onerror = function () {
-                                console.error('Nie można załadować pliku wideo.');
-                            };
-                            let currentIndexValue = [];
-
-                            // Funkcja obsługi zdarzenia loadedmetadata
-                            $videoElement.on('loadedmetadata', function () {
-                                const videoDuration = this.duration;
-                                videoDurations[index] = videoDuration;
-                                console.log('tablica77', totalDuration);
-                                // Uruchomienie funkcji countVisibleContainers co 2 sekundy
-
-                                $videoElement.on('timeupdate', function () {
-                                    let adjustedProgress = 0;
-                                    for (let i = 0; i < index; i++) {
-                                        adjustedProgress += (videoDurations[i] / totalDuration) * 100;
-                                    }
-                                    adjustedProgress += (this.currentTime / videoDuration) * (videoDurations[index] / totalDuration) * 100;
-                                    updateProgress(adjustedProgress);
-                                    console.log('hej786', index);
-                                    // Sprawdź, czy wartość index nie została jeszcze dodana do tablicy currentIndex
-                                    if (!currentIndexValue.includes(index)) {
-                                        // Dodaj index do tablicy currentIndex
-                                        currentIndexValue.push(index);
-                                        console.log('hej70', currentIndexValue);
-                                        // Wywołaj funkcję addBackgroundToText tylko raz
-                                        if (currentIndexValue[0] === 0) {
-                                            addBackgroundToText(matchingFiszki1, matchingIndexes, currentIndexValue, true);
-                                        }
-                                    }
-
-                                    // Sprawdź, czy wideo zostało zakończone
-                                    if ($videoElement[0].duration - $videoElement[0].currentTime < 1) {
-                                        console.log('Wideo zakończone, uruchamiam następne.');
-                                        // Odtwórz następne wideo po zakończeniu poprzedniego
-                                        addVideo1(index + 1);
-                                        updateProgress(0);
-                                    }
-                                });
-                            });
-                            addScenes(index);
-                            // Dodaj div z wideo do tła kontenera
-                            $vidDiv.appendTo($container);
-                            function updateProgress(progress) {
-                                // Aktualizuj pasek postępu na dole kontenera
-                                $('.progress-bar').css('width', progress + '%');
-                            }
-
-                            // Inicjalizacja paska postępu
-                            const $progressBar = $('<div>').addClass('progress-bar');
-                            $progressBar.css({
-                                'position': 'absolute',
-                                'z-index': '2',
-                                'bottom': '0',
-                                'left': '0',
-                                'height': '5px', // Wysokość paska postępu
-                                'background-color': '#007bff', // Kolor paska postępu
-                                'width': '140%', // Delikatne powiększenie paska postępu o 2% w każdym kierunku
-                                'margin-bottom': '-2%',
-                                'margin-left': '-4%',
-                                'margin-right': '-4%'// Zapewnienie równowagi dla powiększenia paska postępu
-                            });
-// Funkcja dodająca nowe elementy <div>
-                            function addScenes(index) {
-                                // Sprawdź, czy istnieje element <div> o klasie 'scene-description'
-                                let $sceneDiv = $container.find('.scene-description');
-
-                                if ($sceneDiv.length) {
-                                    // Jeśli istnieje, wyczyść jego zawartość
-                                    $sceneDiv.empty();
-                                } else {
-                                    // Jeśli nie istnieje, stwórz nowy element <div>
-                                    $sceneDiv = $('<div>').addClass('scene-description').appendTo($container);
-                                }
-
-                                // Dodaj nowy tekst do <div>
-                                $sceneDiv.text(`Scena z filmu ${srcWords2[index]}`);
-                            }
-                        }
-                        addVideo1(0);
-                    } else if (index50 === 0 && buttonindex) {
-                        console.log('hej3331', buttonindex);
-                        let funkcjaWywolana2 = false;
-                        function addVideo2(index) {
-                            console.log('hej80', index);
-                            // Sprawdź, czy jesteśmy poza zakresem tablicy
-                            if (index >= srcWords.length && !funkcjaWywolana2) {
-                                setTimeout(function () {
-                                    $('.progress-bar').remove();
-                                }, 200); // Opóźnienie w milisekundach (tu: 1 sekunda)
-                                buttonindex = false;
-                                przekazArgument0(tablica3[2], undefined, false, tablica3[0], true, true, tablica3[1], tablica3[4]);
-                                console.log("wykonuje się");
-                                funkcjaWywolana2 = true;
-                            }
-                            // Usuń poprzednie wideo
-                            removePreviousVideo();
-                            console.log('hej78', index);
-                            const $vidDiv = $('<div>').addClass('background-video');
-                            // Utwórz element <video> i ustaw atrybuty
-                            const $videoElement = $('<video>').attr({
-                                'autoplay': true, // Automatyczne odtwarzanie wideo
-                                'muted': true, // Wyciszenie dźwięku wideo
-                                'loop': true // Zapętlenie wideo
-                            });
-                            // Dodaj klasę CSS zależnie od indeksu wideo
-                            if (index === 0) {
-                                $videoElement.addClass('scaled-video');
-                            } else {
-                                $videoElement.addClass('next-video');
-                            }
-                            // Utwórz element <source> dla wideo i ustaw atrybuty
-                            const $sourceElement = $('<source>').attr({
-                                'src': srcWords[index], // Poprawne użycie interpolacji
-                                'type': 'video/mp4'     // Typ pliku wideo
-                            });
-                            // Dodaj element source do elementu video
-                            $sourceElement.appendTo($videoElement);
-                            // Dodaj element video do diva dla wideo
-                            $videoElement.appendTo($vidDiv);
-                            // Dodaj element <source> do elementu <video>
-
-                            // Obsługa błędu ładowania wideo
-                            $videoElement.onerror = function () {
-                                console.error('Nie można załadować pliku wideo.');
-                            };
-                            let currentIndexValue = [];
-                            // Funkcja obsługi zdarzenia loadedmetadata
-                            $videoElement.on('loadedmetadata', function () {
-                                const videoDuration = this.duration;
-                                videoDurations[index] = videoDuration;
-                                console.log('tablica77', totalDuration);
-                                $videoElement.on('timeupdate', function () {
-                                    let adjustedProgress = 0;
-                                    for (let i = 0; i < index; i++) {
-                                        adjustedProgress += (videoDurations[i] / totalDuration) * 100;
-                                    }
-                                    adjustedProgress += (this.currentTime / videoDuration) * (videoDurations[index] / totalDuration) * 100;
-                                    updateProgress(adjustedProgress);
-                                    console.log('hej78', index);
-                                    // Sprawdź, czy wartość index nie została jeszcze dodana do tablicy currentIndex
-                                    if (!currentIndexValue.includes(index)) {
-                                        // Dodaj index do tablicy currentIndex
-                                        currentIndexValue.push(index);
-                                        console.log('hej70', currentIndexValue);
-                                        // Wywołaj funkcję addBackgroundToText tylko raz
-                                        if (currentIndexValue[0] === 0) {
-                                            setTimeout(() => {
-                                                addBackgroundToText(matchingFiszki1, matchingIndexes, currentIndexValue, true);
-                                            }, 300);
-                                        }
-                                    }
-
-                                    // Sprawdź, czy wideo zostało zakończone
-                                    if ($videoElement[0].duration - $videoElement[0].currentTime < 1) {
-                                        console.log('Wideo zakończone, uruchamiam następne.');
-                                        // Odtwórz następne wideo po zakończeniu poprzedniego
-                                        addVideo2(index + 1);
-                                        updateProgress(0);
-                                    }
-                                });
-                            });
-                            // Dodaj div z wideo do tła kontenera
-                            $vidDiv.appendTo($container);
-                            function updateProgress(progress) {
-                                // Aktualizuj pasek postępu na dole kontenera
-                                $('.progress-bar').css('width', progress + '%');
-                            }
-
-                            // Inicjalizacja paska postępu
-                            const $progressBar = $('<div>').addClass('progress-bar');
-                            $progressBar.css({
-                                'position': 'absolute',
-                                'z-index': '2',
-                                'bottom': '0',
-                                'left': '0',
-                                'height': '5px', // Wysokość paska postępu
-                                'background-color': '#007bff', // Kolor paska postępu
-                                'width': '140%', // Delikatne powiększenie paska postępu o 2% w każdym kierunku
-                                'margin-bottom': '-2%',
-                                'margin-left': '-4%',
-                                'margin-right': '-4%'// Zapewnienie równowagi dla powiększenia paska postępu
-                            });
-                            $progressBar.appendTo($container);
-                        }
-                        addVideo2(0);
-                    } else {
-                        function addVideo3(index) {
-                            // Utwórz element <video> i ustaw atrybuty
-                            const $videoElement = $('<video>').attr({
-                                'muted': true, // Wyciszenie dźwięku wideo
-                                'loop': true, // Zapętlenie wideo
-                                'style': 'z-index: 1',
-                                'poster': srcWordimage[index] // Dodanie plakatu do wideo
-                            });
-                            // Utwórz element <div> dla nakładki
-                            const $overlay = $('<div>').addClass('overlay');
-                            const $buttonb = $('<img>').attr({
-                                'src': 'https://www.arbulang.com/img/startsystem.png', // Względna ścieżka do pliku PNG
-                                'class': 'overlay-button' // Klasa dla stylów CSS
-                            }).css({
-                                'position': 'absolute',
-                                'z-index': '1000000',
-                                'bottom': '10px',
-                                'right': '10px',
-                                'width': '30px',
-                                'height': '30px',
-                                'cursor': 'pointer',
-                                'border-radius': '8px'
-                            });
-                            // Dodaj element video do diva dla wideo
-                            $videoElement.appendTo($container);
-                            // Dodaj nakładkę do kontenera, po dodaniu wideo
-                            $overlay.appendTo($container);
-                            // Dodaj przycisk do nakładki
-                            $buttonb.appendTo($container);
-
-                            // Dodaj funkcję hover do kontenera
-                            $container.hover(function () {
-                                $('.overlay', this).css('transform', 'translateX(0)');
-
-                                // Twórz nowy dynamiczny div
-                                const $dynamicDiv = $('<div>').addClass('dynamic-div').text('Szybka lekcja - kliknij');
-                                // Dodaj dynamiczny div do kontenera
-                                $dynamicDiv.appendTo($(this)).fadeIn(300);
-                            }, function () {
-                                $('.overlay', this).css('transform', 'translateX(100%)');
-
-                                // Usuń dynamiczny div po zakończeniu hovera
-                                $('.dynamic-div', this).fadeOut(300, function () {
-                                    $(this).remove();
-                                });
-                            });
-                            // Set up the click handler for the overlay button
-                            $buttonb.on('click', function () {
-                                console.log('Button clicked');
-
-                                const $newButton = $('<button>').text('Szybka lekcja').addClass('slide-button');
-                                $newButton.appendTo($container); // Append to container
-
-                                console.log('New button added');
-
-                                // Ensure button is visible before animating
-                                $newButton.show();
-                                console.log('Button should be visible');
-
-                                $newButton.animate({
-                                    right: '10px' // Move to visible position within the container
-                                }, 500, function () {
-                                    console.log('Animation complete');
-                                });
-                            });
-
-                            // Jeśli kontener nie został jeszcze wybrany, wybierz losowy kontener
-                            addBackgroundToText1b(matchingFiszki1, matchingIndexes, true, lessonLength);
-                        }
-                        addVideo3(0);
-                    }
-                    if ((index50 === 0) || (newIndex === 0)) {
-                        var $sentenceDivB = $('<div></div>');
-                        $sentenceDivB.addClass('sentenceB'); // Dodanie klasy 'sentence'
-                        $sentenceDivB.html(`
-    ${sentence10}<br>
-    <div class="sentence1b">${sentence1b}</div>
-    <div class="sentence1b2">${sentence1b2}</div>
-`);
-                        $sentenceDivB.css({
-                            'position': 'absolute',
-                            'font-size': '18px',
-                            'margin-top': '80px',
-                            'text-align': 'center',
-                            'z-index': '999'
-                        });
-                    } else {
-                        var $sentenceDiv = $('<div></div>');
-                        $sentenceDiv.addClass('sentence'); // Dodanie klasy 'sentence'
-                        $sentenceDiv.html(`
-    ${sentence10}<br>
-    <div class="sentence1bba">${sentence1bba}</div>
-    <div class="sentence1bbab">${sentence1bbab}</div>
-`);
-                        $sentenceDiv.css({
-                            'position': 'absolute',
-                            'font-size': '28px',
-                            'margin-top': '-80px',
-                            'text-align': 'center',
-                            'z-index': '5'
-                        });
-                    }
-
-                    const $button = $('<button></button>');
-                    $button.addClass('run-button2');
-                    $button.text('Uruchom'); // Ustawiamy tekst przycisku na 'Uruchom'
-
-                    // Dodajemy atrybut 'data-index' z wartością indexDiv do przycisku
-                    $button.attr('data-index', indexDiv);
-                    $button.on('click', function () {
-
-
-                        const index5 = $button.attr('data-index');
-                        const index55 = parseInt(index5, 10); // Zamieniamy index55 na liczbę
-                        // Alternatywnie można użyć Number(index55)
-                        // const numericIndex = Number(index55);
-                        buttonindex = true;
-                        setTimeout(() => {
-                            console.log('Kliknięto przycisk o indeksie:', index55);
-                            przekazArgument0(tablica7[0], tablica3[2], index55, true, tablica3[0], true, true, tablica3[1], tablica3[4], false, '', '', '', '');
-                            console.log('hej26', czas);
-                        }, 100);
-                        // Usunięcie kontenera po wstawieniu nowego
-                    });
-                    $button.css({
-                        'position': 'absolute',
-                        'left': '50%', // Przykładowa wartość odstępu od lewej krawędzi
-                        'top': '10px',
-                        'z-index': '10' // Ustawienie z-index dla buttona większe niż dla sentenceDiv
-                    });
-                    $container.append($button);
-                    // Dodanie diva z zdaniem do kontenera
-                    $container.append($sentenceDiv);
-                    $container.append($sentenceDivB);
-                    tablica20.push(srcWords);
-                    console.log('hej6', tablica20);
-                }
-            }
-
-
-
             function wybierzTematyke(tematyka) {
                 console.log("Wybrana ulubiona tematyka fiszek: " + tematyka);
                 // Dodaj logikę lub akcje związane z wyborem tematyki fiszek.
