@@ -2417,6 +2417,7 @@ $gridContainer2.css('margin-top', flashcardContainerHeight + 100 + 'px');
                 $('.grid-container .image-container3').remove();
                 $('.grid-container .image-container4').remove();
                         indexDiv0 = tablica43[tablica43.length - 1]; ////// DODAWANIE
+                        indexDiv0b = tablica43b[tablica43b.length - 1]; ////// DODAWANIE
                         console.log(":vv ", index55);
                                 console.log(":vv ", buttonindex);
                 tablica3[1] = id;
@@ -3476,7 +3477,7 @@ for (let i = 0; i < myVariable.length; i += 3) {
                                 $('.grid-container .image-container3b').remove();
                                showCombinedSentenceForLesson5b2(category, selectedCategory, matchingIndexes3, rodzaj, matchingIndexes2, buttonindex, index50, lessonId1, lessonId2, lessonId3, fiszki, matchingIndexes, startIndex, newIndex, indexDiv, lessonsArray, lesson1PartLength, lesson2PartLength, lesson3PartLength, lesson1Sentences, lesson2Sentences, lesson3Sentences, lesson1FirstPartLength, lesson2FirstPartLength, lesson3FirstPartLength, lesson1SecondPartLength, lesson2SecondPartLength, lesson3SecondPartLength, cumulativeFirstPartLength1, cumulativeFirstPartLength2, cumulativeFirstPartLength3, lessonsArrayZ, matchingLessons5, matchingLessons5b, isSearching);
                             }
-console.log('hej100vv', index50);
+console.log('hej100vv', tablica55[0], tablica55[1]);
 if ((tablica10.length <= indexDivRange || tablica10.length === 0) && ostatniaWartosc < 2 && category === 'all') {
 const newIndex2 = null;
 const indexDiv0b2 = null;
@@ -3485,7 +3486,7 @@ const newIndex10 = null;
 let number = true;
 let number1 = false;
 let number2 = false;
-    setTimeout(() => {
+
                                         if (newIndex !== 0) {
     // ⬇️ ZAWSZE wykonujemy tę funkcję – nawet jeśli newIndex = 0 //// DODAWANIE WSZYSTKICH OPRÓCZ PIERWSZEJ LEKCJI
     showCombinedSentenceForLesson22b(
@@ -3500,8 +3501,7 @@ let number2 = false;
         lessonsArrayZ, matchingLessons5, matchingLessons5b, isSearching
     );
     }
-                }, 0);
-                    setTimeout(() => {
+
             if (newIndex === 0) {
     const currentIndexDiv = indexDiv;
     setTimeout(() => {
@@ -3511,7 +3511,7 @@ let number2 = false;
             showCombinedSentenceForLesson(
                 number, selectedCategory, matchingIndexes3, rodzaj, matchingIndexes2,
                 buttonindex, index50, lessonId1, lessonId2, lessonId3, fiszki, matchingIndexes,
-                startIndex, newIndex, newIndex10, indexDiv, lessonsArray,
+                startIndex, newIndex, newIndex10, indexDiv, indexDiv0, indexDiv0b, lessonsArray,
                 lesson1PartLength, lesson2PartLength, lesson3PartLength,
                 lesson1Sentences, lesson2Sentences, lesson3Sentences,
                 lesson1FirstPartLength, lesson2FirstPartLength, lesson3FirstPartLength,
@@ -3521,7 +3521,6 @@ let number2 = false;
             );
     tablica55.push(true);
             }
-                            }, 1000);
             } else if ((tablica10.length <= indexDivRange || tablica10.length === 0) && ostatniaWartosc < 3 && ostatniaWartosc > 1 && category === 'all') {
                 let number = true;
                 let number1 = false;
@@ -3529,6 +3528,7 @@ let number2 = false;
                 const newIndex10 = null;
                 const newIndex5 = (indexDiv === indexDiv0) ? 0 : indexDiv;
                 //////// DODANIE PIERWSZEJ MINIATURY
+                    tablica55.push(true);
                 console.log('Użytkownik', newIndex5);
                 let indexDiv0b = null;
                 if (newIndex5 === 0) {
@@ -3544,7 +3544,9 @@ let number2 = false;
         lessonsArrayZ, matchingLessons5, matchingLessons5b, isSearching
     );
     continue;
-            }
+            } else if (index50 === 0 && tablica55[1] === true) {
+ostatniaWartosc === 3;
+}
                                 console.log('hejhej54', newIndex5);
             if (index50 === 0) {
                             //// WGRANIE MIEJSCA NA DRUGĄ LEKCJĘ
@@ -3552,14 +3554,14 @@ let number2 = false;
         tablica43b.push(indexDiv0b);
                                 console.log('hejhej51', tablica43b[tablica43b.length - 1]);
 
-            przekazArgument0(tablica7[0], tablica3[2], undefined, true, tablica3[0], true, true, tablica3[1], tablica3[4], false, '', '', '', '', '100', undefined, indexDiv0b);
-            } else if (index50 === null && newIndex === 0) {
+            przekazArgument0(tablica7[0], tablica3[2], undefined, true, tablica3[0], true, true, tablica3[1], tablica3[4], false, '', '', '', '', '100', indexDiv0, indexDiv0b);
+            } else if (newIndex === 0 && !buttonindex) {
                             //// WGRANIE MIEJSCA NA DRUGĄ LEKCJĘ
     const indexDiv0b = indexDiv;
         tablica43b.push(indexDiv0b);
                                 console.log('hejhej51', tablica43b[tablica43b.length - 1]);
 
-            przekazArgument0(tablica7[0], tablica3[2], undefined, false, tablica3[0], true, true, tablica3[1], tablica3[4], false, '', '', '', '', '100', undefined, indexDiv0b);
+            przekazArgument0(tablica7[0], tablica3[2], undefined, false, tablica3[0], true, true, tablica3[1], tablica3[4], false, '', '', '', '', '100', indexDiv0, indexDiv0b);
             }
         
                     } else if ((tablica10.length <= indexDivRange || tablica10.length === 0) && ostatniaWartosc < 4 && ostatniaWartosc > 2 && category === 'all') {
@@ -3569,9 +3571,10 @@ let number2 = false;
                             numberb = true;
                             let newIndex5;
                             console.log('hejhej511', indexDiv0b);
+                let newIndex10b = (indexDiv === indexDiv0) ? 0 : indexDiv;
                 let newIndex10 = (indexDiv === indexDiv0b) ? 0 : indexDiv;
                 /// USUNIĘCIE DRUGIEJ MINIATURY
-                            if (newIndex10 === 0) {
+                            if (newIndex10b === 0) {
                     showCombinedSentenceForLesson22b(
         number1, number2, selectedCategory, matchingIndexes3, rodzaj, matchingIndexes2,
         buttonindex, index50, lessonId1, lessonId2, lessonId3, fiszki, matchingIndexes,
@@ -3593,7 +3596,7 @@ let number2 = false;
             showCombinedSentenceForLesson(
                 number, selectedCategory, matchingIndexes3, rodzaj, matchingIndexes2,
                 buttonindex, index50, lessonId1, lessonId2, lessonId3, fiszki, matchingIndexes,
-                startIndex, newIndex, newIndex10, indexDiv, indexDiv0b, lessonsArray,
+                startIndex, newIndex, newIndex10, indexDiv, indexDiv0, indexDiv0b, lessonsArray,
                 lesson1PartLength, lesson2PartLength, lesson3PartLength,
                 lesson1Sentences, lesson2Sentences, lesson3Sentences,
                 lesson1FirstPartLength, lesson2FirstPartLength, lesson3FirstPartLength,
@@ -3604,7 +3607,151 @@ let number2 = false;
     tablica55.push(true);
     continue;
             }
-                        }
+
+                        } else if ((tablica10.length <= indexDivRange || tablica10.length === 0) && ostatniaWartosc < 5 && ostatniaWartosc > 3 && category === 'all') {
+                                                        let number = true;
+                            let number1 = false;
+                            let number2 = false;
+                            let newIndex5;
+
+                            console.log('hejhej511v', tablica55);
+                let newIndex10 = (indexDiv === indexDiv0) ? 0 : indexDiv;
+                                            tablica55.push(true);
+                                                        if (newIndex10 === 0) {
+                            let number1 = true;
+                                /// WSTAWIENIE DRUGIEJ MINIATURY
+                    showCombinedSentenceForLesson22b(
+        number1, number2, selectedCategory, matchingIndexes3, rodzaj, matchingIndexes2,
+        buttonindex, index50, lessonId1, lessonId2, lessonId3, fiszki, matchingIndexes,
+        startIndex, newIndex, newIndex5, newIndex10, indexDiv, indexDiv0, indexDiv0b, lessonsArray,
+        lesson1PartLength, lesson2PartLength, lesson3PartLength,
+        lesson1Sentences, lesson2Sentences, lesson3Sentences,
+        lesson1FirstPartLength, lesson2FirstPartLength, lesson3FirstPartLength,
+        lesson1SecondPartLength, lesson2SecondPartLength, lesson3SecondPartLength,
+        cumulativeFirstPartLength1, cumulativeFirstPartLength2, cumulativeFirstPartLength3,
+        lessonsArrayZ, matchingLessons5, matchingLessons5b, isSearching
+    );
+            } else if (index50 === 0 && tablica55[3] === true) {
+ostatniaWartosc === 5;
+}
+            if (index50 === 0) {
+                            //// WGRANIE MIEJSCA NA TRZECIĄ LEKCJĘ
+    const indexDiv0b = indexDiv;
+        tablica43b.push(indexDiv0b);
+                                        const currentIndexDiv = indexDiv;
+    setTimeout(() => {
+        tablica43c.push(currentIndexDiv);
+            }, 0);
+                                console.log('hejhej51', tablica43b[tablica43b.length - 1]);
+
+            przekazArgument0(tablica7[0], tablica3[2], undefined, true, tablica3[0], true, true, tablica3[1], tablica3[4], false, '', '', '', '', '100', indexDiv0, indexDiv0b);
+            } else if (newIndex === 0 && !buttonindex) {
+                            //// WGRANIE MIEJSCA NA TRZECIĄ LEKCJĘ
+    const indexDiv0b = indexDiv;
+        tablica43b.push(indexDiv0b);
+                                console.log('hejhej51', tablica43b[tablica43b.length - 1]);
+
+            przekazArgument0(tablica7[0], tablica3[2], undefined, false, tablica3[0], true, true, tablica3[1], tablica3[4], false, '', '', '', '', '100', indexDiv0, indexDiv0b);
+            }
+                        } else if ((tablica10.length <= indexDivRange || tablica10.length === 0) && ostatniaWartosc > 4 && ostatniaWartosc < 6) {
+console.log('hej122', ostatniaWartosc);
+                                let number = true;
+                            let number1 = false;
+
+                            let newIndex5;
+                            console.log('hejhej511x', indexDiv0);
+                                                        let newIndex10 = (indexDiv === indexDiv0) ? 0 : indexDiv;
+                                                        if (newIndex10 === 0) {
+                                                                                        let number2 = true;
+                                                            console.log('wykonuje się 8bb');
+                                // WSTAWIENIE TRZECIEJ MINIATURY GDY KLIKNĘ INDEX50 CZYLI DRUGIEJ
+                    showCombinedSentenceForLesson22b(
+        number1, number2, selectedCategory, matchingIndexes3, rodzaj, matchingIndexes2,
+        buttonindex, index50, lessonId1, lessonId2, lessonId3, fiszki, matchingIndexes,
+        startIndex, newIndex, newIndex5, newIndex10, indexDiv, indexDiv0, indexDiv0b, lessonsArray,
+        lesson1PartLength, lesson2PartLength, lesson3PartLength,
+        lesson1Sentences, lesson2Sentences, lesson3Sentences,
+        lesson1FirstPartLength, lesson2FirstPartLength, lesson3FirstPartLength,
+        lesson1SecondPartLength, lesson2SecondPartLength, lesson3SecondPartLength,
+        cumulativeFirstPartLength1, cumulativeFirstPartLength2, cumulativeFirstPartLength3,
+        lessonsArrayZ, matchingLessons5, matchingLessons5b, isSearching
+    );
+            }
+                                        number2 = false;
+                let newIndex10b = (indexDiv === indexDiv0) ? 0 : indexDiv;
+                let newIndex10c = (indexDiv === indexDiv0b) ? 0 : indexDiv;
+                /// USUNIĘCIE TRZECIEJ MINIATURY (I NASTĘPNEJ)
+                if (newIndex10b === 0 && !number2) {
+                    showCombinedSentenceForLesson22b(
+        number1, number2, selectedCategory, matchingIndexes3, rodzaj, matchingIndexes2,
+        buttonindex, index50, lessonId1, lessonId2, lessonId3, fiszki, matchingIndexes,
+        startIndex, newIndex, newIndex5, newIndex10, indexDiv, indexDiv0, indexDiv0b, lessonsArray,
+        lesson1PartLength, lesson2PartLength, lesson3PartLength,
+        lesson1Sentences, lesson2Sentences, lesson3Sentences,
+        lesson1FirstPartLength, lesson2FirstPartLength, lesson3FirstPartLength,
+        lesson1SecondPartLength, lesson2SecondPartLength, lesson3SecondPartLength,
+        cumulativeFirstPartLength1, cumulativeFirstPartLength2, cumulativeFirstPartLength3,
+        lessonsArrayZ, matchingLessons5, matchingLessons5b, isSearching
+    );
+            }
+                        if (newIndex10c === 0) {
+                                const currentIndexDiv = indexDiv;
+    setTimeout(() => {
+        tablica43.push(currentIndexDiv);
+            }, 0);
+/// PRODUKCJA TRZECIEJ LEKCJI (I NASTĘPNEJ)
+            showCombinedSentenceForLesson(
+                number, selectedCategory, matchingIndexes3, rodzaj, matchingIndexes2,
+                buttonindex, index50, lessonId1, lessonId2, lessonId3, fiszki, matchingIndexes,
+                startIndex, newIndex, newIndex10, indexDiv, indexDiv0, indexDiv0b, lessonsArray,
+                lesson1PartLength, lesson2PartLength, lesson3PartLength,
+                lesson1Sentences, lesson2Sentences, lesson3Sentences,
+                lesson1FirstPartLength, lesson2FirstPartLength, lesson3FirstPartLength,
+                lesson1SecondPartLength, lesson2SecondPartLength, lesson3SecondPartLength,
+                cumulativeFirstPartLength1, cumulativeFirstPartLength2, cumulativeFirstPartLength3,
+                lessonsArrayZ, matchingLessons5, matchingLessons5b, isSearching
+            );
+        tablica55.push(true);
+            continue;
+            }
+
+        } else if ((tablica10.length <= indexDivRange || tablica10.length === 0) && ostatniaWartosc > 5 && ostatniaWartosc < 7) {
+    console.log('wykonuje się 8bb');
+    console.log('hej122', ostatniaWartosc);
+                                                                console.log('wykonuje się 8');
+                                                            let number = true;
+                            let number1 = false;
+                            let number2 = false;
+                            let newIndex5;
+                            console.log('hejhej511', indexDiv0b);
+                let newIndex10v = (indexDiv === indexDiv0b) ? 0 : indexDiv;
+                                                        if (newIndex10v === 0) {
+                                                            console.log('wykonuje się 8bb');
+                            let number2 = true;
+                                // WSTAWIENIE TRZECIEJ MINIATURY
+                    showCombinedSentenceForLesson22b(
+        number1, number2, selectedCategory, matchingIndexes3, rodzaj, matchingIndexes2,
+        buttonindex, index50, lessonId1, lessonId2, lessonId3, fiszki, matchingIndexes,
+        startIndex, newIndex, newIndex5, newIndex10, indexDiv, indexDiv0, indexDiv0b, lessonsArray,
+        lesson1PartLength, lesson2PartLength, lesson3PartLength,
+        lesson1Sentences, lesson2Sentences, lesson3Sentences,
+        lesson1FirstPartLength, lesson2FirstPartLength, lesson3FirstPartLength,
+        lesson1SecondPartLength, lesson2SecondPartLength, lesson3SecondPartLength,
+        cumulativeFirstPartLength1, cumulativeFirstPartLength2, cumulativeFirstPartLength3,
+        lessonsArrayZ, matchingLessons5, matchingLessons5b, isSearching
+    );
+            } else if (index50 === 0 && tablica55[3] === true) {
+ostatniaWartosc === 7;
+}
+                                    if (newIndex === 0) {
+                            //// WGRANIE MIEJSCA NA CZWARTĄ LEKCJĘ (I NASTPĘPNĄ)
+    const indexDiv0b = indexDiv;
+        tablica43b.push(indexDiv0b);
+                                console.log('hejhej51', tablica43b[tablica43b.length - 1]);
+
+            przekazArgument0(tablica7[0], tablica3[2], undefined, false, tablica3[0], true, true, tablica3[1], tablica3[4], false, '', '', '', '', '100', undefined, indexDiv0b);
+        }
+}
                     }
                         console.log('Aktualna zawartość tablicy lessonsArray:', lessonsArray);
                         const numberOfContainers = $('.image-container3').length;

@@ -1,7 +1,7 @@
             
             const tablica10 = [];
             const displayedIds = [];
-function showCombinedSentenceForLesson(number, selectedCategory, matchingIndexes3, rodzaj, matchingIndexes2, buttonindex, index50, lessonIdToShow1, lessonIdToShow2, lessonIdToShow3, fiszki, matchingIndexes, startIndex, newIndex, newIndex10, indexDiv, indexDiv0b, lessonsArray, lesson1PartLength, lesson2PartLength, lesson3PartLength, lesson1Sentences, lesson2Sentences, lesson3Sentences, lesson1FirstPartLength, lesson2FirstPartLength, lesson3FirstPartLength, lesson1SecondPartLength, lesson2SecondPartLength, lesson3SecondPartLength, cumulativeFirstPartLength1, cumulativeFirstPartLength2, cumulativeFirstPartLength3, lessonsArrayZ, matchingLessons5, matchingLessons5b, isSearching) {
+function showCombinedSentenceForLesson(number, selectedCategory, matchingIndexes3, rodzaj, matchingIndexes2, buttonindex, index50, lessonIdToShow1, lessonIdToShow2, lessonIdToShow3, fiszki, matchingIndexes, startIndex, newIndex, newIndex10, indexDiv, indexDiv0, indexDiv0b, lessonsArray, lesson1PartLength, lesson2PartLength, lesson3PartLength, lesson1Sentences, lesson2Sentences, lesson3Sentences, lesson1FirstPartLength, lesson2FirstPartLength, lesson3FirstPartLength, lesson1SecondPartLength, lesson2SecondPartLength, lesson3SecondPartLength, cumulativeFirstPartLength1, cumulativeFirstPartLength2, cumulativeFirstPartLength3, lessonsArrayZ, matchingLessons5, matchingLessons5b, isSearching) {
                 console.log('hej55bbv', buttonindex);
                 console.log('hej100', index50);
                             let tablica60 = [];
@@ -978,16 +978,25 @@ $button.css({
 
     $container.append($countdown);
 
+    // Twój kod tworzenia licznika
     let counter = 8;
-    const countdownInterval = setInterval(() => {
+    let countdownInterval = setInterval(() => {
         counter--;
         $countdown.text(counter);
 
         if (counter === 0) {
             clearInterval(countdownInterval);
             $countdown.remove();
-            }
+            przekazArgument0(
+                tablica7[0], tablica3[2], undefined, false,
+                tablica3[0], true, true, tablica3[1], tablica3[4],
+                false, '', '', '', '', '100', indexDiv0, indexDiv0b
+            );
+        }
     }, 1000);
+
+    // zapisz interval w zmiennej globalnej lub w closure, żeby drugi warunek mógł go zatrzymać
+    window.myCountdownInterval = countdownInterval;
 
     // Kontener na tekst, który będzie scrollowany
     const $textContainer = $('<div></div>').css({
@@ -1029,6 +1038,11 @@ $button.css({
     $container.append($textContainer);
         return;
 } else if (newIndex10 === 0 && !isSearching) {
+        if (window.myCountdownInterval) {
+        clearInterval(window.myCountdownInterval); // zatrzymanie licznika
+        $('#countdown-timer').remove();           // usunięcie elementu
+        window.myCountdownInterval = null;        // wyczyszczenie referencji
+    }
                         console.log('hej33b', buttonindex);
                         let funkcjaWywolana = false;
                         let stopButtonAdded = false;
