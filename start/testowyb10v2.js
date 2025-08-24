@@ -37,6 +37,7 @@ fiszki10.push(
         translateb: "[Hi das not obej to his trajner]",
         srcWord: ["https://www.arbulang.com/filmy/training.mp4", "Matrix(1999)", "Akcja"],
         srcWordimage: "https://www.arbulang.com/filmy/training.png",
+                        opis: "Trening sztuk walki w wirtualnej rzeczywistości",
         story: [
             "To właśnie <u><b>on</u></b> jest <b><u>hi</b></u>tem tego sezonu piłkarskiego",
             "Samiec czyli <u><b>on</u></b> - <b><u>hi</b></u>popotam",
@@ -241,6 +242,7 @@ fiszki10.push(
         translateb: "[Dis siti is ful of pipul]",
         srcWord: ["https://www.arbulang.com/filmy/city.mp4", "Resident Evil: Afterlife(2010)", "Akcja"],
         srcWordimage: "https://www.arbulang.com/filmy/city.png",
+                        opis: "Sztuczne miasto",
         story: [
             "Ma<b><u>dis</b></u>on jest świetnym sportowcem a to jej trener",
             "Quo va<b><u>dis</b></u> <b><u>to</b></u> cytat bardzo znany",
@@ -424,6 +426,7 @@ fiszki10.push(
         translateb: "[Aur stjudents hew tu stadi weri hard]",
         srcWord: ["https://www.arbulang.com/filmy/studyhard.mp4", "Marsjanin(2015)", "Akcja"],
         srcWordimage: "https://www.arbulang.com/filmy/studyhard.png",
+                        opis: "Zapowiedź filmu",
         story: [
             "<u><b>Aur</u></b>a zawodnika z <u><b>naszego</u></b> zespołu jest niesamowita",
             "M<u><b>aur</u></b>ycy to jest <u><b>nasz</u></b> ogrodnik",
@@ -575,6 +578,7 @@ fiszki10.push(
         translateb: "[Aj dont hew tajm tu rid]",
         srcWord: ["https://www.arbulang.com/filmy/read.mp4", "Księgowy(2016)", "Akcja"],
         srcWordimage: "https://www.arbulang.com/filmy/read.png",
+                                opis: "Wybitna praca księgowego",
         story: [
             "<u><b>Ja</u></b> jestem Piotrek, mam okulary ochronne, gdy jechałem rowerem wleciała mi mucha do <u><b>oka</u></b>, krzyczałem <u><b>ajjj</u></b> - dlaczego to <u><b>mi</u></b> wleciała mucha do <u><b>oka</u></b>, <u><b>ajjj</u></b>",
             "M<u><b>aj</u></b>a ma zezowate <u><b>oko</u></b> i mówi, no <u><b>JA</u></b> widzę ciebie podwójnie",
@@ -738,6 +742,7 @@ fiszki10.push(
         translateb: "[Pipul fink dat hi is rajt]",
         srcWord: ["https://www.arbulang.com/filmy/right.mp4", "Klub Dyskusyjny(2007)", "Biograficzny"],
         srcWordimage: "https://www.arbulang.com/filmy/right.png",
+                                opis: "Wystąpienie publiczne głównego bohatera",
         story: "Wszyscy <b><u>ludzie</b></u> muszą <b><u>pi</b></u>ć wodę, a w lato <b><u>pul</b></u>a pitej wody powinna się zwiekszać",
         desc: "people[pipul] - ludzie",
         sentence1: [
@@ -853,6 +858,7 @@ fiszki10.push(
         translateb: "[Łi szud ker ebaut aur fjuczer]",
         srcWord: ["https://www.arbulang.com/filmy/future.mp4", "Titanic(1997)", "Romantyczny"],
         srcWordimage: "https://www.arbulang.com/filmy/future.png",
+                                opis: "Zapowiedź filmu",
         story: "<b><u>Wi</b></u>ll Smith oznajmił, że <b><u>my</b></u> jako ludzkość mamy się dobrze",
         desc: "we[łi] - my",
         sentence1: [
@@ -1011,6 +1017,7 @@ fiszki10.push(
         translateb: "[De prajs for brejkin de ruls is haj]",
         srcWord: ["https://www.arbulang.com/filmy/humanface.mp4", "Yes Man(2008)", "Komedia"],
         srcWordimage: "https://www.arbulang.com/filmy/humanface.png",
+                                        opis: "Ryzykowne zachowania bohatera",
         story: [
             "Piłki do gry w kosza są twar<u><b>de</u></b>. Sam ten sport <u><b>to</u></b> twarda gra",
             "Na tym <u><b>de</u></b>ptaku jest sporo drzewek, <u><b>to</u></b> urocze miejsce",
@@ -1266,6 +1273,7 @@ fiszki10.push(
         translateb: "[Hi finks dat its onli łej to ewojd enader łor]",
         srcWord: ["https://www.arbulang.com/filmy/war.mp4", "Gladiator(2000)", "Akcja"],
         srcWordimage: "https://www.arbulang.com/filmy/war.png",
+                                                opis: "Scena przed walką wojsk",
         story: [
             "To właśnie <u><b>on</u></b> jest <b><u>hi</b></u>tem tego sezonu piłkarskiego",
             "Samiec czyli <u><b>on</u></b> - <b><u>hi</b></u>popotam",
@@ -1518,6 +1526,7 @@ fiszki10.push(
         ],
         srcWord: ["https://www.arbulang.com/filmy/leavingschool.mp4", "Openhaymer(2023)", "Biograficzny"],
         srcWordimage: "https://www.arbulang.com/filmy/leavingschool.png",
+                                                opis: "Zapowiedź filmu",
         desc: "TRUDNOŚĆ JĘZYKOWA: the[de]-33%, [ze]-33%, [d-ze]-33% - ta",
         sentence1: [
             "The"
@@ -1801,6 +1810,7 @@ fiszki10.push(
         translateb: "[De inwenszyn of de łil łos a big step fołard]",
         srcWord: ["https://www.arbulang.com/filmy/weel.mp4", "Szybcy i Wściekli(2001)", "Akcja"],
         srcWordimage: "https://www.arbulang.com/filmy/weel.png",
+                                                opis: "Wyścig samochodowy",
         story: [
             "Piłki do gry w kosza są twar<u><b>de</u></b>. Sam ten sport <u><b>to</u></b> twarda gra",
             "Na tym <u><b>de</u></b>ptaku jest sporo drzewek, <u><b>to</u></b> urocze miejsce",
@@ -2058,6 +2068,7 @@ fiszki10.push(
         translateb: "[Tel mi łaj dis bridż is soł important tu ju]",
         srcWord: ["https://www.arbulang.com/filmy/bridge.mp4", "Szybcy i Wściekli 5(2011)", "Akcja"],
         srcWordimage: "https://www.arbulang.com/filmy/bridge.png",
+                                                opis: "Przejazd przez most",
         story: "<b><u>Tel</b></u>efonowanie w tych czasach to można <b><u>powiedzieć</b></u> - łatwa sprawa",
         desc: "tell[tel] - powiedz/powiedzieć",
         sentence1: [
@@ -2355,6 +2366,7 @@ fiszki10.push(
         translateb: "[E juzer mej ad or remuw dis ekaunts łiz iz]",
         srcWord: ["https://www.arbulang.com/filmy/accounts.mp4", "Matrix(1999)", "Akcja"],
         srcWordimage: "https://www.arbulang.com/filmy/accounts.png",
+                                                opis: "Ładowanie programów umysłowych przez program komputerowy",
         story: "<u><b>Ju</u></b>ż wielu <u><b>użytkowników</u></b> wykupiło płatne subskrypcje, bo darmowa wersja jest mi<u><b>zer</u></b>na",
         desc: "user[juzer] - użytkownik",
         sentence1: [
@@ -2589,6 +2601,7 @@ fiszki10.push(
         translateb: "[Szi ofers sam edwajs ebaut hał tu help jor czaild]",
         srcWord: ["https://www.arbulang.com/filmy/child.mp4", "Matrix(1999)", "Akcja"],
         srcWordimage: "https://www.arbulang.com/filmy/child.png",
+                                                opis: "Scena rodzinna. Matka obserwuje dzieci.",
         story: "<u><b>Ona</u></b> - Patrycja ma ri<u><b>szi</u></b> to naturalny antyoksydant",
         desc: "she[szi] - ona",
         sentence1: [

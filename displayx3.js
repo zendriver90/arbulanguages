@@ -18,12 +18,15 @@ function showCombinedSentenceForLesson(number, selectedCategory, matchingIndexes
                     const srcWord1 = pobierzSrcWordDlaLekcji(lessonIdToShow1, fiszki);
                     const srcWord1b = pobierzSrcWordDlaLekcji3(lessonIdToShow1, fiszki);
                     const srcWord1d = pobierzSrcWordDlaLekcji4(lessonIdToShow1, fiszki);
+                    const srcWord1f = pobierzSrcWordDlaLekcji4b(lessonIdToShow1, fiszki);
                     const srcWord2 = pobierzSrcWordDlaLekcji(lessonIdToShow2, fiszki);
                     const srcWord2b = pobierzSrcWordDlaLekcji3(lessonIdToShow2, fiszki);
                     const srcWord2d = pobierzSrcWordDlaLekcji4(lessonIdToShow2, fiszki);
+                    const srcWord2f = pobierzSrcWordDlaLekcji4b(lessonIdToShow2, fiszki);
                     const srcWord3 = pobierzSrcWordDlaLekcji(lessonIdToShow3, fiszki);
                     const srcWord3b = pobierzSrcWordDlaLekcji3(lessonIdToShow3, fiszki);
                     const srcWord3d = pobierzSrcWordDlaLekcji4(lessonIdToShow3, fiszki);
+                    const srcWord3f = pobierzSrcWordDlaLekcji4b(lessonIdToShow3, fiszki);
                     const srcWord10 = pobierzSrcWordDlaLekcji2(lessonIdToShow1, fiszki);
                     function pobierzSrcWordDlaLekcji(lessonId, fiszki) {
                         const matchingFiszka = fiszki.find(fiszka => fiszka.id[1] === lessonId);
@@ -40,6 +43,10 @@ function showCombinedSentenceForLesson(number, selectedCategory, matchingIndexes
                     function pobierzSrcWordDlaLekcji4(lessonId, fiszki) {
                         const matchingFiszka = fiszki.find(fiszka => fiszka.id[1] === lessonId);
                         return matchingFiszka ? matchingFiszka.srcWordimage : null;
+                    }
+                                        function pobierzSrcWordDlaLekcji4b(lessonId, fiszki) {
+                        const matchingFiszka = fiszki.find(fiszka => fiszka.id[1] === lessonId);
+                        return matchingFiszka ? matchingFiszka.opis : null;
                     }
                     console.log(`Fiszki dla lekcji ${lessonIdToShow1}, ${lessonIdToShow2} i ${lessonIdToShow3}:`);
 
@@ -453,6 +460,7 @@ if ($insertedContainer.length > 0) {
 
                     const srcWords = [srcWord1, srcWord2, srcWord3];
                     const srcWordsb = [srcWord1d, srcWord2d, srcWord3d];
+                    const srcWordsf = [srcWord1f, srcWord2f, srcWord3f];
                     const srcWords2 = [srcWord1b, srcWord2b, srcWord3b];
                                             console.log("srcWord1b:", srcWord1d);
 console.log("srcWord2b:", srcWord2b);
@@ -910,8 +918,6 @@ $videoElement.on('loadedmetadata', function () {
                             }, 200);
                         }
                         } else if ((newIndex === 0 || newIndex10 === 0) && !buttonindex && !isSearching && number) {
-                        
-    const srcWords2 = [srcWord1b, srcWord2b, srcWord3b];
 
     // Ograniczamy cały kontener
     $container.css({
@@ -940,23 +946,23 @@ $videoElement.on('loadedmetadata', function () {
             }, 100);
         });
 
-$button.css({
-    'position': 'absolute',
-    'left': '10px',        // lewa krawędź kontenera
-    'top': '30px',         // poniżej licznika
-    'font-size': '14px',
-    'height': '36px',
-    'width': '120px',
-    'color': 'white',
-    'background-color': 'blue',
-    'border': '1px solid #aaa',
-    'border-radius': '6px',
-    'cursor': 'pointer'    // bardzo wysoki, by nic go nie zakryło
-});
+    $button.css({
+        'position': 'absolute',
+        'left': '10px',        // lewa krawędź kontenera
+        'top': '30px',         // poniżej licznika
+        'font-size': '14px',
+        'height': '36px',
+        'width': '120px',
+        'color': 'white',
+        'background-color': 'blue',
+        'border': '1px solid #aaa',
+        'border-radius': '6px',
+        'cursor': 'pointer'
+    });
 
     $container.append($button);
 
-    // Licznik odliczania
+    // 🔹 Licznik odliczania
     const $countdown = $('<p>')
         .attr('id', 'countdown-timer')
         .css({
@@ -995,10 +1001,10 @@ $button.css({
         }
     }, 1000);
 
-    // zapisz interval w zmiennej globalnej lub w closure, żeby drugi warunek mógł go zatrzymać
+    // zapisz interval w zmiennej globalnej lub w closure
     window.myCountdownInterval = countdownInterval;
 
-    // Kontener na tekst, który będzie scrollowany
+    // 🔹 Kontener na tekst + propozycje
     const $textContainer = $('<div></div>').css({
       'position': 'absolute',
       'top': '20px', // poniżej przycisku i licznika
@@ -1009,34 +1015,80 @@ $button.css({
       'padding': '0 10px',
       'font-size': '10px',
       'text-align': 'center',
-      'background-color': '#f9f9f9' // opcjonalnie
+      'background-color': '#f9f9f9'
     });
 
     // Dodaj tekst informacyjny
-    $textContainer.append(
-      $('<p>')
-        .text('Może zainteresują Cię kadry z tych filmów:')
-        .css({
-          'margin': '5px 0 8px 0'
-        })
-    );
+$textContainer.append(
+  $('<p>')
+    .text('Może zainteresują Cię kadry z tych filmów:')
+    .css({
+      'margin': '5px 0 8px 0',
+      'font-weight': 'bold'
+    })
+);
 
-    // Dodaj nazwy filmów do tekstu
-    srcWords2.forEach(function(src, index) {
-        if (src) {
-            const fileName = src.split('/').pop().replace('.mp4', '');
-            const $videoName = $('<p>')
-                .text(fileName)
-                .css({
-                    'font-weight': 'bold',
-                    'margin': '2px 0'
-                });
-            $textContainer.append($videoName);
-        }
+// Iterujemy równolegle przez nazwy i miniaturki
+srcWords2.forEach((name, idxLesson) => {
+    if (!name) return;
+
+    const thumb = srcWordsb[idxLesson] || '';
+    const textF = srcWordsf[idxLesson] || '';
+
+    const $item = $('<div></div>').css({
+        display: 'grid',
+        'grid-template-columns': '60px 1fr', // miniaturka | prawa kolumna
+        gap: '10px',
+        alignItems: 'center',  // wyrównanie do środka miniaturki
+        margin: '6px 0',
+        padding: '4px',
+        'border-bottom': '1px solid #ddd'
     });
 
+    const $img = $('<img>')
+        .attr('src', thumb)
+        .attr('alt', name)
+        .on('error', function() {
+            $(this).css({'background': '#ccc'}).attr('alt', 'Brak miniatury');
+        })
+        .css({
+            width: '60px',
+            height: '40px',
+            'object-fit': 'cover',
+            'border-radius': '4px'
+        });
+
+    // Prawa kolumna: nazwa i opis w pionie
+    const $rightCol = $('<div></div>').css({
+        display: 'flex',
+        'flex-direction': 'column',
+        gap: '2px',  // odstęp między nazwą a opisem
+        'justify-content': 'center'  // wyśrodkowanie w pionie w stosunku do miniaturki
+    });
+
+    const $videoName = $('<p></p>')
+        .text(name)
+        .css({
+            'font-weight': 'bold',
+            margin: '0',
+            'font-size': '12px'
+        });
+
+    const $videoTextF = $('<p></p>')
+        .text(textF)
+        .css({
+            margin: '0',
+            'font-size': '10px',
+            color: '#555'
+        });
+
+    $rightCol.append($videoName, $videoTextF);
+    $item.append($img, $rightCol);
+    $textContainer.append($item);
+});
+
     $container.append($textContainer);
-        return;
+    return;
 } else if (newIndex10 === 0 && !isSearching) {
         if (window.myCountdownInterval) {
         clearInterval(window.myCountdownInterval); // zatrzymanie licznika
@@ -1527,7 +1579,7 @@ const $button = $('<button></button>')
                 tablica7[0], tablica3[2], index55,
                 true, tablica3[0], true, true,
                 tablica3[1], tablica3[4],
-                false, '', '', '', '', indexDivRange, '', ''
+                false, '', '', '', '', indexDivRange, indexDiv0, indexDiv0b
             );
         }, 100);
     });

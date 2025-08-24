@@ -80,6 +80,7 @@ fiszki10.push(
         translateb: "[Jor kaind łerds mejd maj dej]",
         srcWord: ["https://www.arbulang.com/filmy/words.mp4", "Matrix(1999)", "Akcja"],
         srcWordimage: "https://www.arbulang.com/filmy/words.png",
+                                                opis: "Rozmowa w restauracji",
         story: [
             "W wojsku ma<u><b>jor</u></b> to <u><b>twój</u></b> szef od musztry",
             "F<u><b>jor</u></b>d to zatoka, gdzie <u><b>twój</u></b> wypoczynek może być fajny",
@@ -245,6 +246,7 @@ fiszki10.push(
         translateb: "[Aj eprisziejt jor esistens tudej]",
         srcWord: ["https://www.arbulang.com/filmy/assistance.mp4", "Avatar(2022)", "Sci-fi"],
         srcWordimage: "https://www.arbulang.com/filmy/assistance.png",
+                                                opis: "Scena pływania w morzu - głównych bohaterów",
         story: [
             "<u><b>Ja</u></b> jestem Piotrek, mam okulary ochronne, gdy jechałem rowerem wleciała mi mucha do <u><b>oka</u></b>, krzyczałem <u><b>ajjj</u></b> - dlaczego to <u><b>mi</u></b> wleciała mucha do <u><b>oka</u></b>, <u><b>ajjj</u></b>",
             "M<u><b>aj</u></b>a ma zezowate <u><b>oko</u></b> i mówi, no <u><b>JA</u></b> widzę ciebie podwójnie",
@@ -390,6 +392,7 @@ fiszki10.push(
         translateb: "[Dis flałer is jelow bat ol de aders ar blu]",
         srcWord: ["https://www.arbulang.com/filmy/kwiaty.mp4", "Klan", "Serial"],
         srcWordimage: "https://www.arbulang.com/filmy/kwiaty.png",
+                                                opis: "Scena wręczenia kwiatów",
         story: [
             "Ma<b><u>dis</b></u>on jest świetnym sportowcem a to jej trener",
             "Quo va<b><u>dis</b></u> <b><u>to</b></u> cytat bardzo znany",
@@ -654,6 +657,7 @@ fiszki10.push(
         translateb2: "[Ewrybody hes fan]",
         srcWord: ["https://www.arbulang.com/filmy/shebook.mp4", "Harry Potter i Komnata Tajemnic (2002)"],
         srcWordimage: "https://www.arbulang.com/filmy/shebook.png",
+                                                opis: "Rozmowa na temat książki",
         story: "<u><b>Ona</u></b> - Patrycja ma ri<u><b>szi</u></b> to naturalny antyoksydant",
         desc: "she[szi] - niebieski/niebieskie",
         sentence1: [
@@ -830,6 +834,7 @@ fiszki10.push(
         translateb2: "[Ewrybody hes fan]",
         srcWord: ["https://www.arbulang.com/filmy/football.mp4", "Pelé. Narodziny legendy (2016)"],
         srcWordimage: "https://www.arbulang.com/filmy/football.png",
+                                                opis: "Scena podczas meczu głównego bohatera",
         story: "<u><b>Oni</u></b> z<u><b>dej</u></b>mują jabłka z jabłoni",
         desc: "they[dej] - oni",
         sentence1: [
@@ -1039,6 +1044,7 @@ fiszki10.push(
         translateb2: "[Ewrybody hes fan]",
         srcWord: ["https://www.arbulang.com/filmy/dinner.mp4", "Rodzinka.pl"],
         srcWordimage: "https://www.arbulang.com/filmy/dinner.png",
+                                                opis: "Zapytanie o wspólny posiłek",
         word: [
             "https://www.arbulang.com/voice/music.mp4"
         ],
@@ -1229,6 +1235,7 @@ fiszki10.push(
         translateb: "[Aj em łorking on e big prodźekt tudej]",
         srcWord: ["https://www.arbulang.com/filmy/project.mp4", "Matrix(1999)"],
         srcWordimage: "https://www.arbulang.com/filmy/project.png",
+                                                        opis: "Scena namierzenia głównego bohatera w wirutalnym świecie",
         word: [
             "https://www.arbulang.com/voice/music.mp4"
         ],
@@ -1442,6 +1449,7 @@ fiszki10.push(
         translateb: "[De tinejdźers ar słiming]",
         srcWord: ["https://www.arbulang.com/filmy/swimmingpool.mp4", "The Middle(amerykański serial)"],
         srcWordimage: "https://www.arbulang.com/filmy/swimmingpool.png",
+                                                        opis: "Pływanie na basenie",
         word: [
             "https://www.arbulang.com/voice/music.mp4"
         ],
@@ -1561,6 +1569,7 @@ fiszki10.push(
         translateb: "[Łi ar łoczing e muwi rajt nał]",
         srcWord: ["https://www.arbulang.com/filmy/television.mp4", "Pan życia i śmierci(2005)"],
         srcWordimage: "https://www.arbulang.com/filmy/television.png",
+                                                        opis: "Główny bohater ogląda wiadomości",
         word: [
             "https://www.arbulang.com/voice/music.mp4"
         ],
@@ -1733,6 +1742,7 @@ fiszki10.push(
         srcWord: ["https://www.arbulang.com/filmy/running.mp4", "Forrest Gump (1994)"],
         srcWord2: ["https://www.arbulang.com/filmy/procedure.mp4", "Breaking Bad"],
         srcWordimage: "https://www.arbulang.com/filmy/running.png",
+                                                        opis: "Bieg głównego bohatera",
         word: [
             "https://www.arbulang.com/voice/bike.mp4"
         ],
@@ -1896,6 +1906,7 @@ fiszki10.push(
         srcWord: ["https://www.arbulang.com/filmy/morning.mp4", "Fast and Furious: Hobbs and Shaw(2019)"],
                 srcWord2: ["https://www.arbulang.com/filmy/procedure.mp4", "Breaking Bad"],
         srcWordimage: "https://www.arbulang.com/filmy/morning.png",
+                                                        opis: "Poranek głównych bohaterów",
         word: [
             "https://www.arbulang.com/src/is.wav"
         ],
@@ -2064,6 +2075,7 @@ fiszki10.push(
         srcWord: ["https://www.arbulang.com/filmy/learning-english.mp4", "Klik: I robisz, co chcesz (2006)"],
         srcWord2: ["https://www.arbulang.com/filmy/procedure.mp4", "Breaking Bad"],
         srcWordimage: "https://www.arbulang.com/filmy/learning-english.png",
+                                                        opis: "Główny bohater rozmawia z profesorem",
         word: [
             "https://www.arbulang.com/voice/bike.mp4"
         ],
@@ -2235,6 +2247,7 @@ fiszki10.push(
         srcWord: ["https://www.arbulang.com/filmy/Paris.mp4", "Północ w Paryżu"],
         srcWord2: ["https://www.arbulang.com/filmy/procedure.mp4", ""],
         srcWordimage: "https://www.arbulang.com/filmy/Paris.png",
+                                                        opis: "Wieczór w Paryżu",
         word: [
             "https://www.arbulang.com/voice/bike.mp4"
         ],
@@ -2394,6 +2407,7 @@ fiszki10.push(
         srcWord: ["https://www.arbulang.com/filmy/homework.mp4", "Prison Break"],
         srcWord2: ["https://www.arbulang.com/filmy/procedure.mp4", ""],
         srcWordimage: "https://www.arbulang.com/filmy/homework.png",
+                                                        opis: "Przygotowania logistyczne głównego bohatera",
         word: [
             "https://www.arbulang.com/voice/bike.mp4"
         ],
@@ -2538,6 +2552,7 @@ fiszki10.push(
         srcWord: ["https://www.arbulang.com/filmy/house.mp4", "Breaking Bad"],
         srcWord2: ["https://www.arbulang.com/filmy/procedure.mp4", ""],
         srcWordimage: "https://www.arbulang.com/filmy/house.png",
+                                                        opis: "Obserwacja domu podczas skomplikowanej akcji",
         word: [
             "https://www.arbulang.com/voice/bike.mp4"
         ],
@@ -2750,6 +2765,7 @@ fiszki10.push(
         srcWord: ["https://www.arbulang.com/filmy/movie.mp4", "Matrix (1999)"],
         srcWord2: ["https://www.arbulang.com/filmy/procedure.mp4", ""],
         srcWordimage: "https://www.arbulang.com/filmy/movie.png",
+                                                        opis: "Oglądanie niedawnej przeszłości w której widać historie ludzkości",
         word: [
             "https://www.arbulang.com/voice/bike.mp4"
         ],

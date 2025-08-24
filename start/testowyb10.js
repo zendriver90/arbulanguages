@@ -16,7 +16,7 @@ const fiszki10 = [
         translate: "Wszyscy mają ubaw na zabawie",
         translateb: "[Ewrybody hes fan at de party]",
         translateb2: "[Ewrybody hes fan]",
-        opis: "Meksykański 'pass' po wejściu na impreze",
+        opis: "Meksykański 'pass' po wejściu na imprezę",
         srcWord: ["https://www.arbulang.com/filmy/party.mp4", "The Matrix Reloaded"],
         srcWord2: ["https://www.arbulang.com/filmy/procedure.mp4", "Breaking Bad"],
         srcWordimage: "https://www.arbulang.com/filmy/party.png",
@@ -1989,6 +1989,7 @@ const fiszki10 = [
         srcWord: ["https://www.arbulang.com/filmy/bighouse.mp4", "Mechanik: Konfrontacja (2013)"],
         srcWordimage: "https://www.arbulang.com/filmy/bighouse.png",
         srcWord2: ["https://www.arbulang.com/filmy/procedure.mp4", "Breaking Bad"],
+                opis: "Wykonanie zlecenia akcji dywersyjnej",
         story: [
             "W <b><u>maj</b></u>u kwitną <b><u>moje</b></u> ulubione kwiaty",
             "Przetrzy<b><u>maj</b></u> mi na pare dni <b><u>moje</b></u> auto na placu",
@@ -2171,6 +2172,7 @@ const fiszki10 = [
         translateb2: "[Maj dog is]",
         srcWord: ["https://www.arbulang.com/filmy/dog.mp4", "Sztanga i cash (2013)"],
         srcWordimage: "https://www.arbulang.com/filmy/dog.png",
+                        opis: "Zapowiedź filmu",
         word: [
             "https://www.arbulang.com/voice/music.mp4"
         ],
@@ -2346,6 +2348,7 @@ const fiszki10 = [
         translateb2: "[De ticzer trajs]",
         srcWord: ["https://www.arbulang.com/filmy/teacher.mp4", "Yes Man (2008)"],
         srcWordimage: "https://www.arbulang.com/filmy/teacher.png",
+                        opis: "Scena przekonania do bohatera filmu przez mentora podczas wystąpienia",
         word: [
             "https://www.arbulang.com/voice/music.mp4"
         ],
@@ -2522,6 +2525,7 @@ const fiszki10 = [
         translateb2: "[Jor parents sim]",
         srcWord: ["https://www.arbulang.com/filmy/parents.mp4", "Serial: Rodzinka.pl"],
         srcWordimage: "https://www.arbulang.com/filmy/parents.png",
+                        opis: "Zapytanie o wspólny posiłek",
         word: [
             "https://www.arbulang.com/voice/music.mp4"
         ],
@@ -2692,6 +2696,7 @@ const fiszki10 = [
         translateb2: "[De dogs ken]",
         srcWord: ["https://www.arbulang.com/filmy/dogs.mp4", "The Dark Knight(2008)"],
         srcWordimage: "https://www.arbulang.com/filmy/dogs.png",
+                        opis: "Naszczucie przez Jokera psami pod Batmana",
         story: [
             "Piłki do gry w kosza są twar<u><b>de</u></b>. Sam ten sport <u><b>to</u></b> twarda gra",
             "Na tym <u><b>de</u></b>ptaku jest sporo drzewek, <u><b>to</u></b> urocze miejsce",
@@ -2856,6 +2861,7 @@ const fiszki10 = [
         translateb2: "[Dis ediszyn ikspajers]",
         srcWord: ["https://www.arbulang.com/filmy/counting.mp4", "The Dark Knight(2008)"],
         srcWordimage: "https://www.arbulang.com/filmy/counting.png",
+                        opis: "Finał próby Jokera, której poddana została społeczność",
         word: [
             "https://www.arbulang.com/voice/music.mp4"
         ],
@@ -3007,6 +3013,7 @@ const fiszki10 = [
         translateb: "[Hi hes łajd reindź of łords]",
         srcWord: ["https://www.arbulang.com/filmy/rangewords.mp4", "Jestem Bogiem(2011)"],
         srcWordimage: "https://www.arbulang.com/filmy/rangewords.png",
+                        opis: "Szybkie pisanie książki",
         story: [
             "To właśnie <u><b>on</u></b> jest <b><u>hi</b></u>tem tego sezonu piłkarskiego",
             "Samiec czyli <u><b>on</u></b> - <b><u>hi</b></u>popotam",
@@ -3184,6 +3191,7 @@ const fiszki10 = [
         translateb: "[Hi ders tu mejk eprołcz tu her]",
         srcWord: ["https://www.arbulang.com/filmy/approach.mp4", "Matrix(1999)"],
         srcWordimage: "https://www.arbulang.com/filmy/approach.png",
+                        opis: "Spotkanie dziewczyny w wirtualnym świecie",
         word: [
             "https://www.arbulang.com/voice/music.mp4"
         ],
@@ -3296,6 +3304,7 @@ const fiszki10 = [
         translateb: "[Szi is etaczd to her boł]",
         srcWord: ["https://www.arbulang.com/filmy/bow.mp4", "Igrzyska śmierci: Kosogłos. Część 2(2015)"],
         srcWordimage: "https://www.arbulang.com/filmy/bow.png",
+                        opis: "Główna bohaterka z łukiem",
         story: "<u><b>Ona</u></b> - Patrycja ma ri<u><b>szi</u></b> to naturalny antyoksydant",
         desc: "she[szi] - ona",
         sentence1: [

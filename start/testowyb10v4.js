@@ -88,6 +88,7 @@ fiszki10.push(
         srcWord: ["https://www.arbulang.com/filmy/booktwice.mp4", "Poradnik pozytywnego myślenia (2012)"],
         srcWord2: ["https://www.arbulang.com/filmy/procedure.mp4", ""],
         srcWordimage: "https://www.arbulang.com/filmy/booktwice.png",
+                                                                opis: "Bohater czyta książkę",
         word: [
             "https://www.arbulang.com/voice/bike.mp4"
         ],
@@ -269,6 +270,7 @@ fiszki10.push(
         srcWord: ["https://www.arbulang.com/filmy/London.mp4", "Sherlock Holmes (2009)"],
         srcWord2: ["https://www.arbulang.com/filmy/procedure.mp4", ""],
         srcWordimage: "https://www.arbulang.com/filmy/London.png",
+                                                                opis: "Big Ben w Londynie",
         word: [
             "https://www.arbulang.com/voice/bike.mp4"
         ],
@@ -390,6 +392,7 @@ fiszki10.push(
         srcWord: ["https://www.arbulang.com/filmy/football2.mp4", "Miasto Boga (2002)"],
         srcWord2: ["https://www.arbulang.com/filmy/procedure.mp4", ""],
         srcWordimage: "https://www.arbulang.com/filmy/football2.png",
+                                                                opis: "Scena amatorskiego meczu piłkarskiego",
         word: [
             "https://www.arbulang.com/voice/bike.mp4"
         ],
@@ -539,6 +542,7 @@ fiszki10.push(
         srcWord: ["https://www.arbulang.com/filmy/coffe2.mp4", "Serial - Dexter ()"],
         srcWord2: ["https://www.arbulang.com/filmy/procedure.mp4", ""],
         srcWordimage: "https://www.arbulang.com/filmy/coffe2.png",
+                                                                opis: "Scena zaparzania kawy",
         word: [
             "https://www.arbulang.com/voice/bike.mp4"
         ],
@@ -685,6 +689,7 @@ fiszki10.push(
         srcWord: ["https://www.arbulang.com/filmy/cat2.mp4", "Kot w butach: Ostatnie życzenie (2022)"],
         srcWord2: ["https://www.arbulang.com/filmy/procedure.mp4", ""],
         srcWordimage: "https://www.arbulang.com/filmy/cat2.png",
+                                                                opis: "Zdziwienie kota w animowanym filmie",
         word: [
             "https://www.arbulang.com/voice/bike.mp4"
         ],
@@ -859,6 +864,7 @@ fiszki10.push(
         srcWord: ["https://www.arbulang.com/filmy/shoes-pele.mp4", 'Pelé. Narodziny legendy (2016)'],
         srcWord2: ["https://www.arbulang.com/filmy/procedure.mp4", "Breaking Bad"],
         srcWordimage: "https://www.arbulang.com/filmy/shoes-pele.png",
+                                                                opis: "Dzieci - piłkarze zakładają buty",
         word: [
             "https://www.arbulang.com/voice/music.mp4"
         ],
@@ -985,6 +991,7 @@ fiszki10.push(
         srcWord: ["https://www.arbulang.com/filmy/store2.mp4", 'Sztanga i Cash (2013)'],
         srcWord2: ["https://www.arbulang.com/filmy/procedure.mp4", "Breaking Bad"],
         srcWordimage: "https://www.arbulang.com/filmy/store2.png",
+                                                                opis: "Scena wejścia do sklepu z bronią",
         word: [
             "https://www.arbulang.com/voice/music.mp4"
         ],
@@ -1081,6 +1088,7 @@ fiszki10.push(
         srcWord: ["https://www.arbulang.com/filmy/teacher2.mp4", 'Dom z papieru (2017-2021)'],
         srcWord2: ["https://www.arbulang.com/filmy/procedure.mp4", "Breaking Bad"],
         srcWordimage: "https://www.arbulang.com/filmy/teacher2.png",
+                                                                opis: "Przygotowanie się do akcji rabunkowej",
         word: [
             "https://www.arbulang.com/voice/music.mp4"
         ],
@@ -1246,6 +1254,7 @@ fiszki10.push(
         srcWord: ["https://www.arbulang.com/filmy/dogtree.mp4", 'Komisarz Alex (2011)'],
         srcWord2: ["https://www.arbulang.com/filmy/procedure.mp4", "Breaking Bad"],
         srcWordimage: "https://www.arbulang.com/filmy/dogtree.png",
+                                                                opis: "Odgłosy psa na kanapie",
         word: [
             "https://www.arbulang.com/voice/music.mp4"
         ],
@@ -1447,6 +1456,7 @@ fiszki10.push(
         srcWord: ["https://www.arbulang.com/filmy/drivefast.mp4", 'Fast and Furious'],
         srcWord2: ["https://www.arbulang.com/filmy/procedure.mp4", "Breaking Bad"],
         srcWordimage: "https://www.arbulang.com/filmy/drivefast.png",
+                                                                        opis: "Wyścig samochodowy",
         word: [
             "https://www.arbulang.com/voice/music.mp4"
         ],
@@ -1605,6 +1615,7 @@ fiszki10.push(
         srcWord: ["https://www.arbulang.com/filmy/children-outside.mp4", 'Grandmas House (2016)'],
         srcWord2: ["https://www.arbulang.com/filmy/procedure.mp4", "Breaking Bad"],
         srcWordimage: "https://www.arbulang.com/filmy/children-outside.png",
+                                                                        opis: "Scena sytacji społecznej dzieci",
         word: [
             "https://www.arbulang.com/voice/music.mp4"
         ],
@@ -1807,8 +1818,9 @@ fiszki10.push(
         translate: "Chłopiec lubi czytać książki",
         translateb: "[De boj lajks tu rid buks]",
         translateb2: "[]",
-        srcWord: ["", 'Grandmas House (2016)'],
+        srcWord: ["", ''],
         srcWord2: ["", "Breaking Bad"],
+                                                                        opis: "",
         srcWordimage: "https://www.arbulang.com/filmy/children-outside.png",
         word: [
             "https://www.arbulang.com/voice/music.mp4"
@@ -1841,8 +1853,8 @@ fiszki10.push(
             58,
             106
         ],
-        img: "https://www.arbulang.com/img/fiszki1/362a.jpg",
-        story: "",
+        img: "https://www.arbulang.com/img/fiszki1/369a.jpg",
+        story: "Chłopiec który uczy się pływać słyszy od nauczyciela: 'możesz narazie ze swoimi umiejętnościami tylko pływać do tej 'boji'",
         desc: "boy[boj] - chłopiec",
         sentence1: [
             "boy"
@@ -1865,8 +1877,8 @@ fiszki10.push(
             58,
             106
         ],
-        img: "https://www.arbulang.com/img/fiszki1/363a.jpg",
-        story: "",
+        img: "https://www.arbulang.com/img/fiszki1/370a.jpg",
+        story: "Dostałem na facebooku lajka i jest super",
         desc: "likes[lajks] - ",
         sentence1: [
             "likes"
@@ -1892,7 +1904,7 @@ fiszki10.push(
             "https://www.arbulang.com/img/fiszki1/364a.jpg"
         ],
         story: [
-            ""
+            "Czytanie tutaj w bibliotece przy takiej reggae muzyce z ridimem jest fajne"
         ],
         desc: "to read[tu rid] - czytać",
         sentence1: [
@@ -1918,10 +1930,8 @@ fiszki10.push(
         img: [
             "https://www.arbulang.com/img/fiszki1/365a.jpg"
         ],
-        story: [
-            ""
-        ],
-        desc: "books[buks] - książki",
+        story: "Z drzewa <b><u>buk</b></u>owego jest najlepszy papier na <b><u>książki</b></u>",
+        desc: "book[buk] - książka, books[buks] - książki (liczba mnoga dodanie s - na końcu)",
         sentence2: [
             "books"
         ],
@@ -1986,7 +1996,7 @@ fiszki10.push(
             107
         ],
         img: "https://www.arbulang.com/img/fiszki1/362a.jpg",
-        story: "",
+        story: "Biegnę szybko na moje ranczo z domu. Tam mam spokój",
         desc: "runs[rans] - biegnie",
         sentence1: [
             "runs"
@@ -2009,7 +2019,7 @@ fiszki10.push(
             107
         ],
         img: "https://www.arbulang.com/img/fiszki1/363a.jpg",
-        story: "",
+        story: "KOGNATY - PARK - PARK",
         desc: "in the park[in de park] - w parku",
         sentence1: [
             "in the park"
@@ -2063,10 +2073,10 @@ fiszki10.push(
             "https://www.arbulang.com/img/fiszki1/7d.jpg",
             "https://www.arbulang.com/img/fiszki1/7e.jpg"
         ],
-        translate: "Ona pięknie śpiewa pod prysznicem",
-        translateb: "[Szi sings bjutifuli in de szołer]",
+        translate: "On pięknie śpiewa pod prysznicem",
+        translateb: "[Hi sings bjutifuli in de szołer]",
         translateb2: "[]",
-        srcWord: ["", "Andie Case - Mysterious"],
+        srcWord: ["", ""],
         srcWord2: ["", "Breaking Bad"],
         srcWordimage: "https://www.arbulang.com/filmy/procedure.png",
         word: [
@@ -2078,7 +2088,7 @@ fiszki10.push(
             "He"
         ],
         sentence: [
-            "She",
+            "He",
             "sings",
             "beautifully"
         ],
@@ -2099,7 +2109,7 @@ fiszki10.push(
             "sings"
         ],
         sentence: [
-            "She",
+            "He",
             "sings",
             "beautifully"
         ],
@@ -2121,7 +2131,7 @@ fiszki10.push(
             "beautifully"
         ],
         sentence: [
-            "She",
+            "He",
             "sings",
             "beautifully"
         ],
