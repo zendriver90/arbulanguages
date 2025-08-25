@@ -78,7 +78,7 @@ function addBackgroundToText(matchingFiszki1, matchingIndexes, currentIndexValue
                             sentence1c2a = "";
                             sentence1c22 = "";
 
-                            console.log('Rozpoczęcie funkcji addBackgroundToText');
+                            console.log('RozpoczÄcie funkcji addBackgroundToText');
                             console.log('matchingFiszki1:', fiszki);
                             console.log('lessonIdToShow1:', lessonIdToShow1);
                             console.log('matchingIndexes:', matchingIndexes);
@@ -89,7 +89,7 @@ function addBackgroundToText(matchingFiszki1, matchingIndexes, currentIndexValue
                                 console.log('fiszka:', fiszka);
                                 if (!fiszka.sentence1 || fiszka.sentence1.length === 0) {
                                     console.log('fiszka.sentence1 is undefined or empty');
-                                    continue; // Jeśli sentence1 nie istnieje lub jest puste, przejdź do następnej fiszki
+                                    continue; // JeĹli sentence1 nie istnieje lub jest puste, przejdĹş do nastÄpnej fiszki
                                 }
 
                                 // Iteracja przez elementy sentence1
@@ -104,10 +104,10 @@ function addBackgroundToText(matchingFiszki1, matchingIndexes, currentIndexValue
                                             spanElement.textContent = sentencePart;
                                             spanElement.classList.add('highlighted-sentence');
                                             spanElement.classList.add('yellow');
-                                            // Zaktualizuj sentencePart, aby zawierał utworzony element span
+                                            // Zaktualizuj sentencePart, aby zawieraĹ utworzony element span
                                             sentencePart = spanElement.outerHTML;
                                         } else if (matchingIndexes.includes(indexToCheck) && currentIndexValue == 0) {
-                                            // Sprawdzenie, czy indeks bieżącej fiszki znajduje się w tablicy matchingIndexes
+                                            // Sprawdzenie, czy indeks bieĹźÄcej fiszki znajduje siÄ w tablicy matchingIndexes
                                             const spanElement = document.createElement('span');
                                             spanElement.textContent = sentencePart;
                                         } else if (currentIndexValue == 0) {
@@ -124,14 +124,14 @@ function addBackgroundToText(matchingFiszki1, matchingIndexes, currentIndexValue
                                             const spanElement = document.createElement('span');
                                             spanElement.textContent = sentencePart;
                                             spanElement.classList.add('highlighted-sentence');
-                                            // Zaktualizuj sentencePart, aby zawierał utworzony element span
+                                            // Zaktualizuj sentencePart, aby zawieraĹ utworzony element span
                                             sentencePart = spanElement.outerHTML;
                                         } else if (currentIndexValue == 1 && matchingIndexes.includes(indexToCheck)) {
                                             const spanElement = document.createElement('span');
                                             spanElement.textContent = sentencePart;
                                             spanElement.classList.remove('highlighted-sentence');
                                             spanElement.classList.add('yellow');
-                                            // Zaktualizuj sentencePart, aby zawierał utworzony element span
+                                            // Zaktualizuj sentencePart, aby zawieraĹ utworzony element span
                                             sentencePart = spanElement.outerHTML;
                                         }
                                     }
@@ -163,24 +163,24 @@ function addBackgroundToText(matchingFiszki1, matchingIndexes, currentIndexValue
                                             spanElement.textContent = sentencePart2;
                                             spanElement.classList.remove('highlighted-sentence');
                                             spanElement.classList.add('yellow');
-                                            // Zaktualizuj sentencePart, aby zawierał utworzony element span
+                                            // Zaktualizuj sentencePart, aby zawieraĹ utworzony element span
                                             sentencePart2 = spanElement.outerHTML;
                                         } else if (matchingIndexes.includes(indexToCheck) && currentIndexValue == 0) {
-                                            // Sprawdzenie, czy indeks bieżącej fiszki znajduje się w tablicy matchingIndexes
+                                            // Sprawdzenie, czy indeks bieĹźÄcej fiszki znajduje siÄ w tablicy matchingIndexes
                                             const spanElement = document.createElement('span');
                                             spanElement.textContent = sentencePart2;
                                         } else if (currentIndexValue == 0) {
                                             const spanElement = document.createElement('span');
                                             spanElement.textContent = sentencePart2;
                                             spanElement.classList.add('highlighted-sentence');
-                                            // Zaktualizuj sentencePart, aby zawierał utworzony element span
+                                            // Zaktualizuj sentencePart, aby zawieraĹ utworzony element span
                                             sentencePart2 = spanElement.outerHTML;
                                         } else if (currentIndexValue == 1 && matchingIndexes.includes(indexToCheck)) {
                                             const spanElement = document.createElement('span');
                                             spanElement.textContent = sentencePart2;
                                             spanElement.classList.remove('highlighted-sentence');
                                             spanElement.classList.add('yellow');
-                                            // Zaktualizuj sentencePart, aby zawierał utworzony element span
+                                            // Zaktualizuj sentencePart, aby zawieraĹ utworzony element span
                                             sentencePart2 = spanElement.outerHTML;
                                         }
                                     }
@@ -195,7 +195,7 @@ function addBackgroundToText(matchingFiszki1, matchingIndexes, currentIndexValue
                                 console.log('fiszka:', fiszka);
                                 if (!fiszka.sentence1 || fiszka.sentence1.length === 0) {
                                     console.log('fiszka.sentence1 is undefined or empty');
-                                    continue; // Jeśli sentence1 nie istnieje lub jest puste, przejdź do następnej fiszki
+                                    continue; // JeĹli sentence1 nie istnieje lub jest puste, przejdĹş do nastÄpnej fiszki
                                 }
 
                                 // Iteracja przez elementy sentence1
@@ -209,16 +209,16 @@ function addBackgroundToText(matchingFiszki1, matchingIndexes, currentIndexValue
                                             spanElement.textContent = sentencePart2;
                                             spanElement.classList.remove('highlighted-sentence');
                                             spanElement.classList.add('yellow');
-                                            // Zaktualizuj sentencePart, aby zawierał utworzony element span
+                                            // Zaktualizuj sentencePart, aby zawieraĹ utworzony element span
                                             sentencePart2 = spanElement.outerHTML;
                                             const spanElement = document.createElement('span');
                                             spanElement.textContent = sentencePart;
                                             spanElement.classList.remove('highlighted-sentence');
                                             spanElement.classList.add('yellow');
-                                            // Zaktualizuj sentencePart, aby zawierał utworzony element span
+                                            // Zaktualizuj sentencePart, aby zawieraĹ utworzony element span
                                             sentencePart = spanElement.outerHTML;
                                         } else if (matchingIndexes.includes(indexToCheck) && currentIndexValue == 1) {
-                                            // Sprawdzenie, czy indeks bieżącej fiszki znajduje się w tablicy matchingIndexes
+                                            // Sprawdzenie, czy indeks bieĹźÄcej fiszki znajduje siÄ w tablicy matchingIndexes
                                             const spanElement = document.createElement('span');
                                             spanElement.textContent = sentencePart;
                                         } else if (currentIndexValue == 1) {
@@ -236,14 +236,14 @@ function addBackgroundToText(matchingFiszki1, matchingIndexes, currentIndexValue
                                             const spanElement = document.createElement('span');
                                             spanElement.textContent = sentencePart;
                                             spanElement.classList.add('highlighted-sentence');
-                                            // Zaktualizuj sentencePart, aby zawierał utworzony element span
+                                            // Zaktualizuj sentencePart, aby zawieraĹ utworzony element span
                                             sentencePart = spanElement.outerHTML;
                                         } else if (currentIndexValue == 2 && matchingIndexes.includes(indexToCheck)) {
                                             const spanElement = document.createElement('span');
                                             spanElement.textContent = sentencePart;
                                             spanElement.classList.remove('highlighted-sentence');
                                             spanElement.classList.add('yellow');
-                                            // Zaktualizuj sentencePart, aby zawierał utworzony element span
+                                            // Zaktualizuj sentencePart, aby zawieraĹ utworzony element span
                                             sentencePart = spanElement.outerHTML;
                                         }
                                     }
@@ -273,30 +273,30 @@ function addBackgroundToText(matchingFiszki1, matchingIndexes, currentIndexValue
                                             spanElement.textContent = sentencePart2;
                                             spanElement.classList.remove('highlighted-sentence');
                                             spanElement.classList.add('yellow');
-                                            // Zaktualizuj sentencePart, aby zawierał utworzony element span
+                                            // Zaktualizuj sentencePart, aby zawieraĹ utworzony element span
                                             sentencePart2 = spanElement.outerHTML;
                                         } else if (matchingIndexes.includes(indexToCheck) && currentIndexValue == 1) {
-                                            // Sprawdzenie, czy indeks bieżącej fiszki znajduje się w tablicy matchingIndexes
+                                            // Sprawdzenie, czy indeks bieĹźÄcej fiszki znajduje siÄ w tablicy matchingIndexes
                                             const spanElement = document.createElement('span');
                                             spanElement.textContent = sentencePart2;
                                             if (!spanElement.classList.contains('yellow')) {
                                                 spanElement.classList.add('yellow');
                                                 spanElement.classList.add('highlighted-sentence');
                                             }
-                                            // Zaktualizuj sentencePart, aby zawierał utworzony element span
+                                            // Zaktualizuj sentencePart, aby zawieraĹ utworzony element span
                                             sentencePart2 = spanElement.outerHTML;
                                         } else if (currentIndexValue == 1) {
                                             const spanElement = document.createElement('span');
                                             spanElement.textContent = sentencePart2;
                                             spanElement.classList.add('highlighted-sentence');
-                                            // Zaktualizuj sentencePart, aby zawierał utworzony element span
+                                            // Zaktualizuj sentencePart, aby zawieraĹ utworzony element span
                                             sentencePart2 = spanElement.outerHTML;
                                         } else if (currentIndexValue == 2 && matchingIndexes.includes(indexToCheck)) {
                                             const spanElement = document.createElement('span');
                                             spanElement.textContent = sentencePart2;
                                             spanElement.classList.remove('highlighted-sentence');
                                             spanElement.classList.add('yellow');
-                                            // Zaktualizuj sentencePart, aby zawierał utworzony element span
+                                            // Zaktualizuj sentencePart, aby zawieraĹ utworzony element span
                                             sentencePart2 = spanElement.outerHTML;
                                         }
                                     }
@@ -310,7 +310,7 @@ function addBackgroundToText(matchingFiszki1, matchingIndexes, currentIndexValue
                                 console.log('fiszka:', fiszka);
                                 if (!fiszka.sentence1 || fiszka.sentence1.length === 0) {
                                     console.log('fiszka.sentence1 is undefined or empty');
-                                    continue; // Jeśli sentence1 nie istnieje lub jest puste, przejdź do następnej fiszki
+                                    continue; // JeĹli sentence1 nie istnieje lub jest puste, przejdĹş do nastÄpnej fiszki
                                 }
                                 // Iteracja przez elementy sentence1
                                 for (let lm = 0; lm < fiszka.sentence1.length; lm++) {
@@ -324,18 +324,18 @@ function addBackgroundToText(matchingFiszki1, matchingIndexes, currentIndexValue
                                             spanElement.textContent = sentencePart;
                                             spanElement.classList.remove('highlighted-sentence');
                                             spanElement.classList.add('yellow');
-                                            // Zaktualizuj sentencePart, aby zawierał utworzony element span
+                                            // Zaktualizuj sentencePart, aby zawieraĹ utworzony element span
                                             sentencePart = spanElement.outerHTML;
                                         } else if (matchingIndexes.includes(indexToCheck) && currentIndexValue == 2) {
-                                            // Sprawdzenie, czy indeks bieżącej fiszki znajduje się w tablicy matchingIndexes
+                                            // Sprawdzenie, czy indeks bieĹźÄcej fiszki znajduje siÄ w tablicy matchingIndexes
                                             const spanElement = document.createElement('span');
                                             spanElement.textContent = sentencePart;
                                             if (!spanElement.classList.contains('yellow')) {
                                                 spanElement.classList.add('yellow');
                                                 spanElement.classList.add('highlighted-sentence');
                                             }
-                                            // Zaktualizuj sentencePart, aby zawierał utworzony element span
-                                            // Zaktualizuj sentencePart, aby zawierał utworzony element span
+                                            // Zaktualizuj sentencePart, aby zawieraĹ utworzony element span
+                                            // Zaktualizuj sentencePart, aby zawieraĹ utworzony element span
                                             sentencePart = spanElement.outerHTML;
                                         } else if (currentIndexValue == 2) {
                                             if (sentence1c2a === "") {
@@ -349,14 +349,14 @@ function addBackgroundToText(matchingFiszki1, matchingIndexes, currentIndexValue
                                             const spanElement = document.createElement('span');
                                             spanElement.textContent = sentencePart;
                                             spanElement.classList.add('highlighted-sentence');
-                                            // Zaktualizuj sentencePart, aby zawierał utworzony element span
+                                            // Zaktualizuj sentencePart, aby zawieraĹ utworzony element span
                                             sentencePart = spanElement.outerHTML;
                                         } else if (currentIndexValue == 0 && matchingIndexes.includes(indexToCheck)) {
                                             const spanElement = document.createElement('span');
                                             spanElement.textContent = sentencePart;
                                             spanElement.classList.remove('highlighted-sentence');
                                             spanElement.classList.add('yellow');
-                                            // Zaktualizuj sentencePart, aby zawierał utworzony element span
+                                            // Zaktualizuj sentencePart, aby zawieraĹ utworzony element span
                                             sentencePart = spanElement.outerHTML;
                                         }
                                     }
@@ -385,30 +385,30 @@ function addBackgroundToText(matchingFiszki1, matchingIndexes, currentIndexValue
                                             spanElement.textContent = sentencePart2;
                                             spanElement.classList.remove('highlighted-sentence');
                                             spanElement.classList.add('yellow');
-                                            // Zaktualizuj sentencePart, aby zawierał utworzony element span
+                                            // Zaktualizuj sentencePart, aby zawieraĹ utworzony element span
                                             sentencePart2 = spanElement.outerHTML;
                                         } else if (matchingIndexes.includes(indexToCheck) && currentIndexValue == 2) {
-                                            // Sprawdzenie, czy indeks bieżącej fiszki znajduje się w tablicy matchingIndexes
+                                            // Sprawdzenie, czy indeks bieĹźÄcej fiszki znajduje siÄ w tablicy matchingIndexes
                                             const spanElement = document.createElement('span');
                                             spanElement.textContent = sentencePart2;
                                             if (!spanElement.classList.contains('yellow')) {
                                                 spanElement.classList.add('yellow');
                                                 spanElement.classList.add('highlighted-sentence');
                                             }
-                                            // Zaktualizuj sentencePart, aby zawierał utworzony element span
+                                            // Zaktualizuj sentencePart, aby zawieraĹ utworzony element span
                                             sentencePart2 = spanElement.outerHTML;
                                         } else if (currentIndexValue == 2) {
                                             const spanElement = document.createElement('span');
                                             spanElement.textContent = sentencePart2;
                                             spanElement.classList.add('highlighted-sentence');
-                                            // Zaktualizuj sentencePart, aby zawierał utworzony element span
+                                            // Zaktualizuj sentencePart, aby zawieraĹ utworzony element span
                                             sentencePart2 = spanElement.outerHTML;
                                         } else if (currentIndexValue == 0 && matchingIndexes.includes(indexToCheck)) {
                                             const spanElement = document.createElement('span');
                                             spanElement.textContent = sentencePart2;
                                             spanElement.classList.remove('highlighted-sentence');
                                             spanElement.classList.add('yellow');
-                                            // Zaktualizuj sentencePart, aby zawierał utworzony element span
+                                            // Zaktualizuj sentencePart, aby zawieraĹ utworzony element span
                                             sentencePart2 = spanElement.outerHTML;
                                         }
                                     }
@@ -417,7 +417,7 @@ function addBackgroundToText(matchingFiszki1, matchingIndexes, currentIndexValue
                                 }
                             }
 
-                            // Dodanie treści do diva wraz z przyciskiem
+                            // Dodanie treĹci do diva wraz z przyciskiem
     $sentenceDivB.html(`
 <div class="sentence-blockB" data-name="${id1}">
     ${sentence10}${sentence11}<br>
@@ -437,104 +437,6 @@ function addBackgroundToText(matchingFiszki1, matchingIndexes, currentIndexValue
     <div class="sentence1c22">${sentence1c22}</div>
 </div>
 `);
-const startRange2 = 1;
-const endRange2 = 7;
-
-document.addEventListener('DOMContentLoaded', () => {
-    document.querySelectorAll('.category-btn').forEach(button => {
-        button.addEventListener('click', (event) => {
-            event.preventDefault();
-            selectedCategory = button.getAttribute('data-category');
-            updateButtonColors();
-        });
-    });
-});
-
-let previousTrojkiJSON = '';
-const tablica60 = [];
-const linkMap = {}; // mapa data-name -> link
-
-function updateButtonColors() {
-    tablica60.length = 0;
-    for (let key in linkMap) delete linkMap[key]; // reset mapy linków
-
-    const color = colorMapping[selectedCategory] || '#800080';
-
-    // Tworzymy tablicę z numerami wszystkich kontenerów
-    document.querySelectorAll('.sentence-block, .sentence-blockB').forEach(block => {
-        const dataName = parseInt(block.getAttribute('data-name'), 10);
-        tablica60.push(dataName);
-
-        if (dataName >= startRange2 && dataName <= endRange2) {
-            const button = block.querySelector('button.left-button, button.left-buttonb, button.left-buttonbb');
-            if (button) {
-                button.style.backgroundColor = color;
-                button.style.color = 'white';
-            }
-        }
-    });
-
-    // Tworzymy trójki z tablica60
-    const trojki = [];
-    for (let i = 0; i < tablica60.length; i += 3) {
-        trojki.push(tablica60.slice(i, i + 3));
-    }
-
-    // Jeśli mamy przesunięcie index50, przesuwamy tylko numery większe niż index50
-    if (typeof index50 !== 'undefined' && index50 !== null) {
-        for (let i = 0; i < trojki.length; i++) {
-            trojki[i] = trojki[i].map(num => (num > index50 ? num - 3 : num));
-        }
-    }
-
-    const currentTrojkiJSON = JSON.stringify(trojki);
-    if (currentTrojkiJSON !== previousTrojkiJSON) {
-        previousTrojkiJSON = currentTrojkiJSON;
-
-        // Usuwamy stare przyciski
-        $('.run-button3').remove();
-
-        // Tworzymy przyciski dla każdej trójki
-        trojki.forEach((trojka, i) => {
-            const lessonNumber = i + 1; // numer lekcji/grupy
-            const link = `demo1angielski.html?category=${selectedCategory}&data=${trojka.join(',')}`;
-
-            // zapis mapowania dla każdego elementu trójki (opcjonalne)
-            trojka.forEach(indexDiv => linkMap[indexDiv] = link);
-
-            // Tworzymy przycisk w pierwszym kontenerze trójki
-            const $container = $(`.sentence-block[data-name="${trojka[0]}"]`);
-            if ($container.length && !$container.find('.run-button3').length) {
-                const $buttonb2 = $('<button></button>')
-                    .addClass('run-button3')
-                    .text(`Otwórz lekcję ${lessonNumber}`)
-                    .attr('data-lesson', lessonNumber)
-                    .attr('data-link', link)
-                    .css({
-                        position: 'absolute',
-                        top: '5px',
-                        right: '5px',
-                        'z-index': 2000,
-                        color: 'white',
-                        'background-color': '#007bff',
-                        border: 'none',
-                        'border-radius': '4px',
-                        cursor: 'pointer'
-                    });
-                $container.append($buttonb2);
-            }
-        });
-    }
-}
-
-// Delegacja zdarzeń dla nowych przycisków
-$('body').off('click', '.run-button3').on('click', '.run-button3', function() {
-    const link = $(this).attr('data-link');
-    if (link) window.open(link, '_blank'); // otwiera w nowym oknie
-});
-
-// Uruchom na start
-setTimeout(updateButtonColors, 0);
 
                         }, 0);
 
@@ -552,7 +454,7 @@ const $insertedContainer = $(`.image-container3b[data-lesson="${indexDiv + 1}"]`
 if ($insertedContainer.length > 0) {
     $container.insertBefore($insertedContainer);
 } else {
-    // Jeśli nie ma takiego kontenera, dodaj na koniec
+    // JeĹli nie ma takiego kontenera, dodaj na koniec
     $('.grid-container').append($container);
 }
 
@@ -566,7 +468,7 @@ console.log("srcWord3b:", srcWord3b);
                     // Tworzymy kontenery dynamicznie
 
                     console.log('hej155', srcWordsb);
-                    // Zmienna globalna przechowująca łączny czas trwania wszystkich wideo
+                    // Zmienna globalna przechowujÄca ĹÄczny czas trwania wszystkich wideo
                     let videoDurations = [];
                     let totalDuration = 0;
                     for (let i = 0; i < srcWords.length; i++) {
@@ -575,14 +477,14 @@ console.log("srcWord3b:", srcWord3b);
                         video.addEventListener('loadedmetadata', function () {
                             totalDuration += this.duration;
                             console.log('tablica8', totalDuration);
-                            console.log('działa5');
+                            console.log('dziaĹa5');
                         });
                     }
                     console.log('tablica11', videoDurations);
                     function removePreviousVideo() {
-                        const previousVideo = $container.find('video'); // Poprawne odwołanie do poprzedniego wideo
+                        const previousVideo = $container.find('video'); // Poprawne odwoĹanie do poprzedniego wideo
                         if (previousVideo.length > 0) {
-                            previousVideo.remove(); // Usunięcie poprzedniego wideo z kontenera
+                            previousVideo.remove(); // UsuniÄcie poprzedniego wideo z kontenera
                         }
                     }
                     if ((newIndex === 0 || newIndex10 === 0) && !buttonindex && !isSearching && !number) {
@@ -592,19 +494,19 @@ console.log("srcWord3b:", srcWord3b);
                         if (indexDiv % 2 === 0) {
                             function addVideo1(index) {
                                 console.log('hej80', index);
-                                // Sprawdź, czy jesteśmy poza zakresem tablicy
+                                // SprawdĹş, czy jesteĹmy poza zakresem tablicy
                                 if (index >= srcWords.length && !funkcjaWywolana) {
-                                    console.log("wykonuje się");
+                                    console.log("wykonuje siÄ");
                                     funkcjaWywolana = true;
                                 }
-                                // Usuń poprzednie wideo
+                                // UsuĹ poprzednie wideo
                                 removePreviousVideo();
 
                                 console.log('hej78', index);
 
-                                // Dodaj div z wideo do tła kontenera
+                                // Dodaj div z wideo do tĹa kontenera
                                 const $vidDiv = $('<div>').addClass('background-video').css({
-                                    'z-index': '1' // Ustaw z-index dla wideo na niższy
+                                    'z-index': '1' // Ustaw z-index dla wideo na niĹźszy
                                 });
 
                                 const $videoElement = $('<video>').attr({
@@ -612,20 +514,20 @@ console.log("srcWord3b:", srcWord3b);
                                     'muted': true,
                                     'loop': true
                                 }).css({
-                                    'z-index': '1' // Ustaw z-index dla wideo na niższy
+                                    'z-index': '1' // Ustaw z-index dla wideo na niĹźszy
                                 });
                                 if (window.matchMedia("(min-width: 999px)").matches) {
-                                    // Dodaj klasę CSS zależnie od indeksu wideo
+                                    // Dodaj klasÄ CSS zaleĹźnie od indeksu wideo
                                     if (index === 0) {
                                         $videoElement.addClass('scaled-video');
                                     } else {
                                         $videoElement.addClass('next-video');
                                     }
                                 }
-                                // Utwórz element <source> dla wideo i ustaw atrybuty
+                                // UtwĂłrz element <source> dla wideo i ustaw atrybuty
 
                                 const $sourceElement = $('<source>').attr({
-                                    'src': srcWords[index], // Poprawne użycie interpolacji
+                                    'src': srcWords[index], // Poprawne uĹźycie interpolacji
                                     'type': 'video/mp4'     // Typ pliku wideo
                                 });
 
@@ -635,16 +537,16 @@ console.log("srcWord3b:", srcWord3b);
                                 $videoElement.appendTo($vidDiv);
                                 // Dodaj element <source> do elementu <video>
 
-                                // Obsługa błędu ładowania wideo
+                                // ObsĹuga bĹÄdu Ĺadowania wideo
                                 $videoElement.onerror = function () {
-                                    console.error('Nie można załadować pliku wideo.');
+                                    console.error('Nie moĹźna zaĹadowaÄ pliku wideo.');
                                 };
                                 let currentIndexValue = [];
-                                // Funkcja obsługi zdarzenia loadedmetadata
-$videoElement.hide(); // Ukrycie wideo przed załadowaniem
+                                // Funkcja obsĹugi zdarzenia loadedmetadata
+$videoElement.hide(); // Ukrycie wideo przed zaĹadowaniem
 
 $videoElement.on('loadedmetadata', function () {
-    $videoElement.show(); // Pokaż wideo po załadowaniu metadanych
+    $videoElement.show(); // PokaĹź wideo po zaĹadowaniu metadanych
 
     const videoDuration = this.duration;
     videoDurations[index] = videoDuration;
@@ -668,21 +570,21 @@ $videoElement.on('loadedmetadata', function () {
         }
 
         if ($videoElement[0].duration - $videoElement[0].currentTime < 1) {
-            console.log('Wideo zakończone, uruchamiam następne.');
+            console.log('Wideo zakoĹczone, uruchamiam nastÄpne.');
             addVideo1(index + 1);
             updateProgress(0);
         }
     });
 });
                                 addScenes(index);
-                                // Dodaj div z wideo do tła kontenera
+                                // Dodaj div z wideo do tĹa kontenera
                                 $vidDiv.appendTo($container);
                                 function updateProgress(progress) {
-                                    // Aktualizuj pasek postępu na dole kontenera
+                                    // Aktualizuj pasek postÄpu na dole kontenera
                                     $('.progress-bar').css('width', progress + '%');
                                 }
 
-                                // Inicjalizacja paska postępu
+                                // Inicjalizacja paska postÄpu
                                 const $progressBar = $('<div>').addClass('progress-bar');
                                 if (window.matchMedia("(min-width: 999px)").matches) {
                                     $progressBar.css({
@@ -690,12 +592,12 @@ $videoElement.on('loadedmetadata', function () {
                                         'z-index': '2',
                                         'bottom': '0',
                                         'left': '0',
-                                        'height': '7px', // Wysokość paska postępu
-                                        'background-color': 'green', // Kolor paska postępu
-                                        'width': '140%', // Delikatne powiększenie paska postępu o 2% w każdym kierunku
+                                        'height': '7px', // WysokoĹÄ paska postÄpu
+                                        'background-color': 'green', // Kolor paska postÄpu
+                                        'width': '140%', // Delikatne powiÄkszenie paska postÄpu o 2% w kaĹźdym kierunku
                                         'margin-bottom': '-2%',
                                         'margin-left': '-4%',
-                                        'margin-right': '-4%' // Zapewnienie równowagi dla powiększenia paska postępu
+                                        'margin-right': '-4%' // Zapewnienie rĂłwnowagi dla powiÄkszenia paska postÄpu
                                     });
                                 } else {
                                     $progressBar.css({
@@ -703,22 +605,22 @@ $videoElement.on('loadedmetadata', function () {
                                         'z-index': '2',
                                         'bottom': '0px',
                                         'left': '0px',
-                                        'height': '7px', // Wysokość paska postępu
-                                        'background-color': 'green', // Kolor paska postępu
-                                        'width': '100%' // Delikatne powiększenie paska postępu o 2% w każdym kierunku
+                                        'height': '7px', // WysokoĹÄ paska postÄpu
+                                        'background-color': 'green', // Kolor paska postÄpu
+                                        'width': '100%' // Delikatne powiÄkszenie paska postÄpu o 2% w kaĹźdym kierunku
                                     });
                                 }
                                 $progressBar.appendTo($container);
-// Funkcja dodająca nowe elementy <div>
+// Funkcja dodajÄca nowe elementy <div>
                                 function addScenes(index) {
-                                    // Sprawdź, czy istnieje element <div> o klasie 'scene-description'
+                                    // SprawdĹş, czy istnieje element <div> o klasie 'scene-description'
                                     let $sceneDiv = $container.find('.scene-description');
 
                                     if ($sceneDiv.length) {
-                                        // Jeśli istnieje, wyczyść jego zawartość
+                                        // JeĹli istnieje, wyczyĹÄ jego zawartoĹÄ
                                         $sceneDiv.empty();
                                     } else {
-                                        // Jeśli nie istnieje, stwórz nowy element <div>
+                                        // JeĹli nie istnieje, stwĂłrz nowy element <div>
                                         $sceneDiv = $('<div>').addClass('scene-description').appendTo($container);
                                     }
 
@@ -727,8 +629,8 @@ $videoElement.on('loadedmetadata', function () {
 
                                     if (window.matchMedia("(max-width: 999px)").matches) {
                                         if (indexDiv % 2 === 0) {
-                                            console.log('Warunek podzielności przez 2 spełniony2');
-                                            // Zmień CSS paska napisu, aby wyświetlał się po lewej stronie kontenera
+                                            console.log('Warunek podzielnoĹci przez 2 speĹniony2');
+                                            // ZmieĹ CSS paska napisu, aby wyĹwietlaĹ siÄ po lewej stronie kontenera
                                             $sceneDiv.css({
                                                 'position': 'relative',
                                                 'margin-top': '-140px',
@@ -738,8 +640,8 @@ $videoElement.on('loadedmetadata', function () {
                                                 'z-index': '9999999'
                                             });
                                         } else if (indexDiv % 1 === 0 || indexDiv % 3 === 0 || indexDiv % 5 === 0) {
-                                            console.log('Warunek podzielności przez 1 spełniony2');
-                                            // Zmień CSS paska napisu, aby wyświetlał się po lewej stronie kontenera
+                                            console.log('Warunek podzielnoĹci przez 1 speĹniony2');
+                                            // ZmieĹ CSS paska napisu, aby wyĹwietlaĹ siÄ po lewej stronie kontenera
                                             $sceneDiv.css({
                                                 'position': 'relative',
                                                 'margin-top': '-140px',
@@ -759,25 +661,25 @@ $videoElement.on('loadedmetadata', function () {
                                             .attr('src', 'https://www.arbulang.com/img/stopok2.png')
                                             .css({
                                                 'display': 'none', // Ukryty na starcie
-                                                'position': 'absolute', // Precyzyjne pozycjonowanie względem kontenera
+                                                'position': 'absolute', // Precyzyjne pozycjonowanie wzglÄdem kontenera
                                                 'top': '-15px',
                                                 'left': '20px',
                                                 'width': '40px',
                                                 'height': '40px',
                                                 'z-index': '999999',
-                                                'cursor': 'pointer' // Ustawienie kursora jako wskaźnik
+                                                'cursor': 'pointer' // Ustawienie kursora jako wskaĹşnik
                                             })
                                             .on('click', function () {
-                                                // Pętla po wszystkich elementach wideo i zatrzymywanie każdego z nich
+                                                // PÄtla po wszystkich elementach wideo i zatrzymywanie kaĹźdego z nich
                                                 $('video').each(function () {
                                                     const video = this;
                                                     if (!video.paused) {
                                                         video.pause();
-                                                        // Zmień obrazek na "Play"
+                                                        // ZmieĹ obrazek na "Play"
                                                         $stopButton.attr('src', 'https://www.arbulang.com/img/play.png');
                                                     } else {
                                                         video.play();
-                                                        // Zmień obrazek z powrotem na "Stop"
+                                                        // ZmieĹ obrazek z powrotem na "Stop"
                                                         $stopButton.attr('src', 'https://www.arbulang.com/img/stopok2.png');
                                                     }
                                                 });
@@ -791,12 +693,12 @@ $videoElement.on('loadedmetadata', function () {
                                         $stopButton.show();
                                     });
 
-                                    // Ukrywanie przycisku, gdy mysz opuści kontener
+                                    // Ukrywanie przycisku, gdy mysz opuĹci kontener
                                     $container.on('mouseout', function () {
                                         $stopButton.hide();
                                     });
 
-                                    stopButtonAdded = true;  // Flaga ustawiona na true, gdy przycisk został dodany
+                                    stopButtonAdded = true;  // Flaga ustawiona na true, gdy przycisk zostaĹ dodany
                                 }
                             }
                             setTimeout(function () {
@@ -805,19 +707,19 @@ $videoElement.on('loadedmetadata', function () {
                         } else if (indexDiv === 1 || indexDiv === 11 || indexDiv === 13 || indexDiv === 17 || indexDiv === 19 || indexDiv === 23 || indexDiv === 29 || indexDiv === 31 || indexDiv === 37 || indexDiv === 41 || indexDiv === 43 || indexDiv % 3 === 0 || indexDiv % 5 === 0 || indexDiv % 7 === 0) {
                             function addVideo1b(index) {
                                 console.log('hej80', index);
-                                // Sprawdź, czy jesteśmy poza zakresem tablicy
+                                // SprawdĹş, czy jesteĹmy poza zakresem tablicy
                                 if (index >= srcWords.length && !funkcjaWywolana) {
-                                    console.log("wykonuje się");
+                                    console.log("wykonuje siÄ");
                                     funkcjaWywolana = true;
                                 }
-                                // Usuń poprzednie wideo
+                                // UsuĹ poprzednie wideo
                                 removePreviousVideo();
 
                                 console.log('hej78', index);
 
-                                // Dodaj div z wideo do tła kontenera
+                                // Dodaj div z wideo do tĹa kontenera
                                 const $vidDiv = $('<div>').addClass('background-video22').css({
-                                    'z-index': '1' // Ustaw z-index dla wideo na niższy
+                                    'z-index': '1' // Ustaw z-index dla wideo na niĹźszy
                                 });
 
                                 const $videoElement = $('<video>').attr({
@@ -825,20 +727,20 @@ $videoElement.on('loadedmetadata', function () {
                                     'muted': true,
                                     'loop': true
                                 }).css({
-                                    'z-index': '1' // Ustaw z-index dla wideo na niższy
+                                    'z-index': '1' // Ustaw z-index dla wideo na niĹźszy
                                 });
                                 if (window.matchMedia("(min-width: 999px)").matches) {
-                                    // Dodaj klasę CSS zależnie od indeksu wideo
+                                    // Dodaj klasÄ CSS zaleĹźnie od indeksu wideo
                                     if (index === 0) {
                                         $videoElement.addClass('scaled-video');
                                     } else {
                                         $videoElement.addClass('next-video');
                                     }
                                 }
-                                // Utwórz element <source> dla wideo i ustaw atrybuty
+                                // UtwĂłrz element <source> dla wideo i ustaw atrybuty
 
                                 const $sourceElement = $('<source>').attr({
-                                    'src': srcWords[index], // Poprawne użycie interpolacji
+                                    'src': srcWords[index], // Poprawne uĹźycie interpolacji
                                     'type': 'video/mp4'     // Typ pliku wideo
                                 });
 
@@ -848,12 +750,12 @@ $videoElement.on('loadedmetadata', function () {
                                 $videoElement.appendTo($vidDiv);
                                 // Dodaj element <source> do elementu <video>
 
-                                // Obsługa błędu ładowania wideo
+                                // ObsĹuga bĹÄdu Ĺadowania wideo
                                 $videoElement.onerror = function () {
-                                    console.error('Nie można załadować pliku wideo.');
+                                    console.error('Nie moĹźna zaĹadowaÄ pliku wideo.');
                                 };
                                 let currentIndexValue = [];
-                                // Funkcja obsługi zdarzenia loadedmetadata
+                                // Funkcja obsĹugi zdarzenia loadedmetadata
                                 $videoElement.on('loadedmetadata', function () {
                                     const videoDuration = this.duration;
                                     videoDurations[index] = videoDuration;
@@ -866,35 +768,35 @@ $videoElement.on('loadedmetadata', function () {
                                         adjustedProgress += (this.currentTime / videoDuration) * (videoDurations[index] / totalDuration) * 100;
                                         updateProgress(adjustedProgress);
                                         console.log('hej78', index);
-                                        // Sprawdź, czy wartość index nie została jeszcze dodana do tablicy currentIndex
+                                        // SprawdĹş, czy wartoĹÄ index nie zostaĹa jeszcze dodana do tablicy currentIndex
                                         if (!currentIndexValue.includes(index)) {
                                             // Dodaj index do tablicy currentIndex
                                             currentIndexValue.push(index);
                                             console.log('hej70', currentIndexValue);
-                                            // Wywołaj funkcję addBackgroundToText tylko raz
+                                            // WywoĹaj funkcjÄ addBackgroundToText tylko raz
                                             if (currentIndexValue[0] === 0 || currentIndexValue[0] === 1 || currentIndexValue[0] === 2) {
                                                 addBackgroundToText(matchingFiszki1, matchingIndexes, currentIndexValue, true, lesson1FirstPartLength, lesson1PartLength, matchingLessons5b);
                                             }
                                         }
 
-                                        // Sprawdź, czy wideo zostało zakończone
+                                        // SprawdĹş, czy wideo zostaĹo zakoĹczone
                                         if ($videoElement[0].duration - $videoElement[0].currentTime < 1) {
-                                            console.log('Wideo zakończone, uruchamiam następne.');
-                                            // Odtwórz następne wideo po zakończeniu poprzedniego
+                                            console.log('Wideo zakoĹczone, uruchamiam nastÄpne.');
+                                            // OdtwĂłrz nastÄpne wideo po zakoĹczeniu poprzedniego
                                             addVideo1b(index + 1);
                                             updateProgress(0);
                                         }
                                     });
                                 });
                                 addScenes(index);
-                                // Dodaj div z wideo do tła kontenera
+                                // Dodaj div z wideo do tĹa kontenera
                                 $vidDiv.appendTo($container);
                                 function updateProgress(progress) {
-                                    // Aktualizuj pasek postępu na dole kontenera
+                                    // Aktualizuj pasek postÄpu na dole kontenera
                                     $('.progress-bar').css('width', progress + '%');
                                 }
 
-                                // Inicjalizacja paska postępu
+                                // Inicjalizacja paska postÄpu
                                 const $progressBar = $('<div>').addClass('progress-bar');
                                 if (window.matchMedia("(min-width: 999px)").matches) {
                                     $progressBar.css({
@@ -902,12 +804,12 @@ $videoElement.on('loadedmetadata', function () {
                                         'z-index': '2',
                                         'bottom': '0',
                                         'left': '0',
-                                        'height': '7px', // Wysokość paska postępu
-                                        'background-color': 'green', // Kolor paska postępu
-                                        'width': '140%', // Delikatne powiększenie paska postępu o 2% w każdym kierunku
+                                        'height': '7px', // WysokoĹÄ paska postÄpu
+                                        'background-color': 'green', // Kolor paska postÄpu
+                                        'width': '140%', // Delikatne powiÄkszenie paska postÄpu o 2% w kaĹźdym kierunku
                                         'margin-bottom': '-2%',
                                         'margin-left': '-4%',
-                                        'margin-right': '-4%' // Zapewnienie równowagi dla powiększenia paska postępu
+                                        'margin-right': '-4%' // Zapewnienie rĂłwnowagi dla powiÄkszenia paska postÄpu
                                     });
                                 } else {
                                     $progressBar.css({
@@ -915,22 +817,22 @@ $videoElement.on('loadedmetadata', function () {
                                         'z-index': '2',
                                         'bottom': '0px',
                                         'left': '0px',
-                                        'height': '7px', // Wysokość paska postępu
-                                        'background-color': 'green', // Kolor paska postępu
-                                        'width': '100%' // Delikatne powiększenie paska postępu o 2% w każdym kierunku
+                                        'height': '7px', // WysokoĹÄ paska postÄpu
+                                        'background-color': 'green', // Kolor paska postÄpu
+                                        'width': '100%' // Delikatne powiÄkszenie paska postÄpu o 2% w kaĹźdym kierunku
                                     });
                                 }
                                 $progressBar.appendTo($container);
-// Funkcja dodająca nowe elementy <div>
+// Funkcja dodajÄca nowe elementy <div>
                                 function addScenes(index) {
-                                    // Sprawdź, czy istnieje element <div> o klasie 'scene-description'
+                                    // SprawdĹş, czy istnieje element <div> o klasie 'scene-description'
                                     let $sceneDiv = $container.find('.scene-description');
 
                                     if ($sceneDiv.length) {
-                                        // Jeśli istnieje, wyczyść jego zawartość
+                                        // JeĹli istnieje, wyczyĹÄ jego zawartoĹÄ
                                         $sceneDiv.empty();
                                     } else {
-                                        // Jeśli nie istnieje, stwórz nowy element <div>
+                                        // JeĹli nie istnieje, stwĂłrz nowy element <div>
                                         $sceneDiv = $('<div>').addClass('scene-description').appendTo($container);
                                     }
 
@@ -939,8 +841,8 @@ $videoElement.on('loadedmetadata', function () {
 
                                     if (window.matchMedia("(max-width: 999px)").matches) {
                                         if (indexDiv % 2 === 0) {
-                                            console.log('Warunek podzielności przez 2 spełniony2');
-                                            // Zmień CSS paska napisu, aby wyświetlał się po lewej stronie kontenera
+                                            console.log('Warunek podzielnoĹci przez 2 speĹniony2');
+                                            // ZmieĹ CSS paska napisu, aby wyĹwietlaĹ siÄ po lewej stronie kontenera
                                             $sceneDiv.css({
                                                 'position': 'relative',
                                                 'margin-top': '-140px',
@@ -950,8 +852,8 @@ $videoElement.on('loadedmetadata', function () {
                                                 'z-index': '9999999'
                                             });
                                         } else if (indexDiv % 1 === 0 || indexDiv % 3 === 0 || indexDiv % 5 === 0) {
-                                            console.log('Warunek podzielności przez 1 spełniony2');
-                                            // Zmień CSS paska napisu, aby wyświetlał się po lewej stronie kontenera
+                                            console.log('Warunek podzielnoĹci przez 1 speĹniony2');
+                                            // ZmieĹ CSS paska napisu, aby wyĹwietlaĹ siÄ po lewej stronie kontenera
                                             $sceneDiv.css({
                                                 'position': 'relative',
                                                 'margin-top': '-140px',
@@ -971,25 +873,25 @@ $videoElement.on('loadedmetadata', function () {
                                             .attr('src', 'https://www.arbulang.com/img/stopok2.png')
                                             .css({
                                                 'display': 'none', // Ukryty na starcie
-                                                'position': 'absolute', // Precyzyjne pozycjonowanie względem kontenera
+                                                'position': 'absolute', // Precyzyjne pozycjonowanie wzglÄdem kontenera
                                                 'top': '-15px',
                                                 'left': '20px',
                                                 'width': '40px',
                                                 'height': '40px',
                                                 'z-index': '999999',
-                                                'cursor': 'pointer' // Ustawienie kursora jako wskaźnik
+                                                'cursor': 'pointer' // Ustawienie kursora jako wskaĹşnik
                                             })
                                             .on('click', function () {
-                                                // Pętla po wszystkich elementach wideo i zatrzymywanie każdego z nich
+                                                // PÄtla po wszystkich elementach wideo i zatrzymywanie kaĹźdego z nich
                                                 $('video').each(function () {
                                                     const video = this;
                                                     if (!video.paused) {
                                                         video.pause();
-                                                        // Zmień obrazek na "Play"
+                                                        // ZmieĹ obrazek na "Play"
                                                         $stopButton.attr('src', 'https://www.arbulang.com/img/play.png');
                                                     } else {
                                                         video.play();
-                                                        // Zmień obrazek z powrotem na "Stop"
+                                                        // ZmieĹ obrazek z powrotem na "Stop"
                                                         $stopButton.attr('src', 'https://www.arbulang.com/img/stopok2.png');
                                                     }
                                                 });
@@ -1003,12 +905,12 @@ $videoElement.on('loadedmetadata', function () {
                                         $stopButton.show();
                                     });
 
-                                    // Ukrywanie przycisku, gdy mysz opuści kontener
+                                    // Ukrywanie przycisku, gdy mysz opuĹci kontener
                                     $container.on('mouseout', function () {
                                         $stopButton.hide();
                                     });
 
-                                    stopButtonAdded = true;  // Flaga ustawiona na true, gdy przycisk został dodany
+                                    stopButtonAdded = true;  // Flaga ustawiona na true, gdy przycisk zostaĹ dodany
                                 }
                             }
                             setTimeout(function () {
@@ -1017,7 +919,7 @@ $videoElement.on('loadedmetadata', function () {
                         }
                         } else if ((newIndex === 0 || newIndex10 === 0) && !buttonindex && !isSearching && number) {
 
-    // Ograniczamy cały kontener
+    // Ograniczamy caĹy kontener
     $container.css({
       'position': 'relative',
       'height': '100px',
@@ -1025,16 +927,16 @@ $videoElement.on('loadedmetadata', function () {
       'border': '1px solid #ccc'  // dla testu, widoczna granica
     });
 
-    // 🔹 Dodaj przycisk URUCHOM natychmiast – przed odliczaniem
+    // đš Dodaj przycisk URUCHOM natychmiast â przed odliczaniem
     const $button = $('<button></button>')
         .addClass('run-button4')
-        .text('Uruchom-działa')
+        .text('Uruchom-dziaĹa')
         .attr('data-index2', indexDiv)
         .on('click', function () {
             const index5 = $(this).attr('data-index2');
             const index55 = parseInt(index5, 10);
             setTimeout(() => {
-                console.log('Kliknięto przycisk o indeksie:', index55);
+                console.log('KlikniÄto przycisk o indeksie:', index55);
                 przekazArgument0(
                     tablica7[0], tablica3[2], index55,
                     true, tablica3[0], true, true,
@@ -1046,8 +948,8 @@ $videoElement.on('loadedmetadata', function () {
 
     $button.css({
         'position': 'absolute',
-        'left': '10px',        // lewa krawędź kontenera
-        'top': '30px',         // poniżej licznika
+        'left': '10px',        // lewa krawÄdĹş kontenera
+        'top': '30px',         // poniĹźej licznika
         'font-size': '14px',
         'height': '36px',
         'width': '120px',
@@ -1060,7 +962,7 @@ $videoElement.on('loadedmetadata', function () {
 
     $container.append($button);
 
-    // 🔹 Licznik odliczania
+    // đš Licznik odliczania
     const $countdown = $('<p>')
         .attr('id', 'countdown-timer')
         .css({
@@ -1082,7 +984,7 @@ $videoElement.on('loadedmetadata', function () {
 
     $container.append($countdown);
 
-    // Twój kod tworzenia licznika
+    // TwĂłj kod tworzenia licznika
     let counter = 8;
     let countdownInterval = setInterval(() => {
         counter--;
@@ -1102,10 +1004,10 @@ $videoElement.on('loadedmetadata', function () {
     // zapisz interval w zmiennej globalnej lub w closure
     window.myCountdownInterval = countdownInterval;
 
-    // 🔹 Kontener na tekst + propozycje
+    // đš Kontener na tekst + propozycje
     const $textContainer = $('<div></div>').css({
       'position': 'absolute',
-      'top': '20px', // poniżej przycisku i licznika
+      'top': '20px', // poniĹźej przycisku i licznika
       'left': '0',
       'right': '0',
       'bottom': '0',
@@ -1119,14 +1021,14 @@ $videoElement.on('loadedmetadata', function () {
     // Dodaj tekst informacyjny
 $textContainer.append(
   $('<p>')
-    .text('Może zainteresują Cię kadry z tych filmów:')
+    .text('MoĹźe zainteresujÄ CiÄ kadry z tych filmĂłw:')
     .css({
       'margin': '5px 0 8px 0',
       'font-weight': 'bold'
     })
 );
 
-// Iterujemy równolegle przez nazwy i miniaturki
+// Iterujemy rĂłwnolegle przez nazwy i miniaturki
 srcWords2.forEach((name, idxLesson) => {
     if (!name) return;
 
@@ -1137,7 +1039,7 @@ srcWords2.forEach((name, idxLesson) => {
         display: 'grid',
         'grid-template-columns': '60px 1fr', // miniaturka | prawa kolumna
         gap: '10px',
-        alignItems: 'center',  // wyrównanie do środka miniaturki
+        alignItems: 'center',  // wyrĂłwnanie do Ĺrodka miniaturki
         margin: '6px 0',
         padding: '4px',
         'border-bottom': '1px solid #ddd'
@@ -1160,8 +1062,8 @@ srcWords2.forEach((name, idxLesson) => {
     const $rightCol = $('<div></div>').css({
         display: 'flex',
         'flex-direction': 'column',
-        gap: '2px',  // odstęp między nazwą a opisem
-        'justify-content': 'center'  // wyśrodkowanie w pionie w stosunku do miniaturki
+        gap: '2px',  // odstÄp miÄdzy nazwÄ a opisem
+        'justify-content': 'center'  // wyĹrodkowanie w pionie w stosunku do miniaturki
     });
 
     const $videoName = $('<p></p>')
@@ -1190,7 +1092,7 @@ srcWords2.forEach((name, idxLesson) => {
 } else if (newIndex10 === 0 && !isSearching) {
         if (window.myCountdownInterval) {
         clearInterval(window.myCountdownInterval); // zatrzymanie licznika
-        $('#countdown-timer').remove();           // usunięcie elementu
+        $('#countdown-timer').remove();           // usuniÄcie elementu
         window.myCountdownInterval = null;        // wyczyszczenie referencji
     }
                         console.log('hej33b', buttonindex);
@@ -1199,19 +1101,19 @@ srcWords2.forEach((name, idxLesson) => {
                         if (indexDiv % 2 === 0) {
                             function addVideo1(index) {
                                 console.log('hej80', index);
-                                // Sprawdź, czy jesteśmy poza zakresem tablicy
+                                // SprawdĹş, czy jesteĹmy poza zakresem tablicy
                                 if (index >= srcWords.length && !funkcjaWywolana) {
-                                    console.log("wykonuje się");
+                                    console.log("wykonuje siÄ");
                                     funkcjaWywolana = true;
                                 }
-                                // Usuń poprzednie wideo
+                                // UsuĹ poprzednie wideo
                                 removePreviousVideo();
 
                                 console.log('hej78', index);
 
-                                // Dodaj div z wideo do tła kontenera
+                                // Dodaj div z wideo do tĹa kontenera
                                 const $vidDiv = $('<div>').addClass('background-video').css({
-                                    'z-index': '1' // Ustaw z-index dla wideo na niższy
+                                    'z-index': '1' // Ustaw z-index dla wideo na niĹźszy
                                 });
 
                                 const $videoElement = $('<video>').attr({
@@ -1219,20 +1121,20 @@ srcWords2.forEach((name, idxLesson) => {
                                     'muted': true,
                                     'loop': true
                                 }).css({
-                                    'z-index': '1' // Ustaw z-index dla wideo na niższy
+                                    'z-index': '1' // Ustaw z-index dla wideo na niĹźszy
                                 });
                                 if (window.matchMedia("(min-width: 999px)").matches) {
-                                    // Dodaj klasę CSS zależnie od indeksu wideo
+                                    // Dodaj klasÄ CSS zaleĹźnie od indeksu wideo
                                     if (index === 0) {
                                         $videoElement.addClass('scaled-video');
                                     } else {
                                         $videoElement.addClass('next-video');
                                     }
                                 }
-                                // Utwórz element <source> dla wideo i ustaw atrybuty
+                                // UtwĂłrz element <source> dla wideo i ustaw atrybuty
 
                                 const $sourceElement = $('<source>').attr({
-                                    'src': srcWords[index], // Poprawne użycie interpolacji
+                                    'src': srcWords[index], // Poprawne uĹźycie interpolacji
                                     'type': 'video/mp4'     // Typ pliku wideo
                                 });
 
@@ -1242,16 +1144,16 @@ srcWords2.forEach((name, idxLesson) => {
                                 $videoElement.appendTo($vidDiv);
                                 // Dodaj element <source> do elementu <video>
 
-                                // Obsługa błędu ładowania wideo
+                                // ObsĹuga bĹÄdu Ĺadowania wideo
                                 $videoElement.onerror = function () {
-                                    console.error('Nie można załadować pliku wideo.');
+                                    console.error('Nie moĹźna zaĹadowaÄ pliku wideo.');
                                 };
                                 let currentIndexValue = [];
-                                // Funkcja obsługi zdarzenia loadedmetadata
-$videoElement.hide(); // Ukrycie wideo przed załadowaniem
+                                // Funkcja obsĹugi zdarzenia loadedmetadata
+$videoElement.hide(); // Ukrycie wideo przed zaĹadowaniem
 
 $videoElement.on('loadedmetadata', function () {
-    $videoElement.show(); // Pokaż wideo po załadowaniu metadanych
+    $videoElement.show(); // PokaĹź wideo po zaĹadowaniu metadanych
 
     const videoDuration = this.duration;
     videoDurations[index] = videoDuration;
@@ -1275,22 +1177,21 @@ $videoElement.on('loadedmetadata', function () {
         }
 
         if ($videoElement[0].duration - $videoElement[0].currentTime < 1) {
-            console.log('Wideo zakończone, uruchamiam następne.');
+            console.log('Wideo zakoĹczone, uruchamiam nastÄpne.');
             addVideo1(index + 1);
             updateProgress(0);
         }
     });
 });
                                 addScenes(index);
-                                // Dodaj div z wideo do tła kontenera
+                                // Dodaj div z wideo do tĹa kontenera
                                 $vidDiv.appendTo($container);
-
                                 function updateProgress(progress) {
-                                    // Aktualizuj pasek postępu na dole kontenera
+                                    // Aktualizuj pasek postÄpu na dole kontenera
                                     $('.progress-bar').css('width', progress + '%');
                                 }
 
-                                // Inicjalizacja paska postępu
+                                // Inicjalizacja paska postÄpu
                                 const $progressBar = $('<div>').addClass('progress-bar');
                                 if (window.matchMedia("(min-width: 999px)").matches) {
                                     $progressBar.css({
@@ -1298,12 +1199,12 @@ $videoElement.on('loadedmetadata', function () {
                                         'z-index': '2',
                                         'bottom': '0',
                                         'left': '0',
-                                        'height': '7px', // Wysokość paska postępu
-                                        'background-color': 'green', // Kolor paska postępu
-                                        'width': '140%', // Delikatne powiększenie paska postępu o 2% w każdym kierunku
+                                        'height': '7px', // WysokoĹÄ paska postÄpu
+                                        'background-color': 'green', // Kolor paska postÄpu
+                                        'width': '140%', // Delikatne powiÄkszenie paska postÄpu o 2% w kaĹźdym kierunku
                                         'margin-bottom': '-2%',
                                         'margin-left': '-4%',
-                                        'margin-right': '-4%' // Zapewnienie równowagi dla powiększenia paska postępu
+                                        'margin-right': '-4%' // Zapewnienie rĂłwnowagi dla powiÄkszenia paska postÄpu
                                     });
                                 } else {
                                     $progressBar.css({
@@ -1311,22 +1212,22 @@ $videoElement.on('loadedmetadata', function () {
                                         'z-index': '2',
                                         'bottom': '0px',
                                         'left': '0px',
-                                        'height': '7px', // Wysokość paska postępu
-                                        'background-color': 'green', // Kolor paska postępu
-                                        'width': '100%' // Delikatne powiększenie paska postępu o 2% w każdym kierunku
+                                        'height': '7px', // WysokoĹÄ paska postÄpu
+                                        'background-color': 'green', // Kolor paska postÄpu
+                                        'width': '100%' // Delikatne powiÄkszenie paska postÄpu o 2% w kaĹźdym kierunku
                                     });
                                 }
                                 $progressBar.appendTo($container);
-// Funkcja dodająca nowe elementy <div>
+// Funkcja dodajÄca nowe elementy <div>
                                 function addScenes(index) {
-                                    // Sprawdź, czy istnieje element <div> o klasie 'scene-description'
+                                    // SprawdĹş, czy istnieje element <div> o klasie 'scene-description'
                                     let $sceneDiv = $container.find('.scene-description');
 
                                     if ($sceneDiv.length) {
-                                        // Jeśli istnieje, wyczyść jego zawartość
+                                        // JeĹli istnieje, wyczyĹÄ jego zawartoĹÄ
                                         $sceneDiv.empty();
                                     } else {
-                                        // Jeśli nie istnieje, stwórz nowy element <div>
+                                        // JeĹli nie istnieje, stwĂłrz nowy element <div>
                                         $sceneDiv = $('<div>').addClass('scene-description').appendTo($container);
                                     }
 
@@ -1335,8 +1236,8 @@ $videoElement.on('loadedmetadata', function () {
 
                                     if (window.matchMedia("(max-width: 999px)").matches) {
                                         if (indexDiv % 2 === 0) {
-                                            console.log('Warunek podzielności przez 2 spełniony2');
-                                            // Zmień CSS paska napisu, aby wyświetlał się po lewej stronie kontenera
+                                            console.log('Warunek podzielnoĹci przez 2 speĹniony2');
+                                            // ZmieĹ CSS paska napisu, aby wyĹwietlaĹ siÄ po lewej stronie kontenera
                                             $sceneDiv.css({
                                                 'position': 'relative',
                                                 'margin-top': '-140px',
@@ -1346,8 +1247,8 @@ $videoElement.on('loadedmetadata', function () {
                                                 'z-index': '9999999'
                                             });
                                         } else if (indexDiv % 1 === 0 || indexDiv % 3 === 0 || indexDiv % 5 === 0) {
-                                            console.log('Warunek podzielności przez 1 spełniony2');
-                                            // Zmień CSS paska napisu, aby wyświetlał się po lewej stronie kontenera
+                                            console.log('Warunek podzielnoĹci przez 1 speĹniony2');
+                                            // ZmieĹ CSS paska napisu, aby wyĹwietlaĹ siÄ po lewej stronie kontenera
                                             $sceneDiv.css({
                                                 'position': 'relative',
                                                 'margin-top': '-140px',
@@ -1367,25 +1268,25 @@ $videoElement.on('loadedmetadata', function () {
                                             .attr('src', 'https://www.arbulang.com/img/stopok2.png')
                                             .css({
                                                 'display': 'none', // Ukryty na starcie
-                                                'position': 'absolute', // Precyzyjne pozycjonowanie względem kontenera
+                                                'position': 'absolute', // Precyzyjne pozycjonowanie wzglÄdem kontenera
                                                 'top': '-15px',
                                                 'left': '20px',
                                                 'width': '40px',
                                                 'height': '40px',
                                                 'z-index': '999999',
-                                                'cursor': 'pointer' // Ustawienie kursora jako wskaźnik
+                                                'cursor': 'pointer' // Ustawienie kursora jako wskaĹşnik
                                             })
                                             .on('click', function () {
-                                                // Pętla po wszystkich elementach wideo i zatrzymywanie każdego z nich
+                                                // PÄtla po wszystkich elementach wideo i zatrzymywanie kaĹźdego z nich
                                                 $('video').each(function () {
                                                     const video = this;
                                                     if (!video.paused) {
                                                         video.pause();
-                                                        // Zmień obrazek na "Play"
+                                                        // ZmieĹ obrazek na "Play"
                                                         $stopButton.attr('src', 'https://www.arbulang.com/img/play.png');
                                                     } else {
                                                         video.play();
-                                                        // Zmień obrazek z powrotem na "Stop"
+                                                        // ZmieĹ obrazek z powrotem na "Stop"
                                                         $stopButton.attr('src', 'https://www.arbulang.com/img/stopok2.png');
                                                     }
                                                 });
@@ -1399,14 +1300,14 @@ $videoElement.on('loadedmetadata', function () {
                                         $stopButton.show();
                                     });
 
-                                    // Ukrywanie przycisku, gdy mysz opuści kontener
+                                    // Ukrywanie przycisku, gdy mysz opuĹci kontener
                                     $container.on('mouseout', function () {
                                         $stopButton.hide();
                                     });
 
-                                    stopButtonAdded = true;  // Flaga ustawiona na true, gdy przycisk został dodany
+                                    stopButtonAdded = true;  // Flaga ustawiona na true, gdy przycisk zostaĹ dodany
                                 }
-// Pobierz numer lekcji z data-lesson kontenera
+                                // Pobierz numer lekcji z data-lesson kontenera
 const lessonNumber = $container.attr('data-lesson');
 
 // Tworzymy przycisk tylko jeśli jeszcze go nie ma w kontenerze
@@ -1444,19 +1345,19 @@ const lessonNumber = $container.attr('data-lesson');
                         } else if (indexDiv === 1 || indexDiv === 11 || indexDiv === 13 || indexDiv === 17 || indexDiv === 19 || indexDiv === 23 || indexDiv === 29 || indexDiv === 31 || indexDiv === 37 || indexDiv === 41 || indexDiv === 43 || indexDiv % 3 === 0 || indexDiv % 5 === 0 || indexDiv % 7 === 0) {
                             function addVideo1b(index) {
                                 console.log('hej80', index);
-                                // Sprawdź, czy jesteśmy poza zakresem tablicy
+                                // SprawdĹş, czy jesteĹmy poza zakresem tablicy
                                 if (index >= srcWords.length && !funkcjaWywolana) {
-                                    console.log("wykonuje się");
+                                    console.log("wykonuje siÄ");
                                     funkcjaWywolana = true;
                                 }
-                                // Usuń poprzednie wideo
+                                // UsuĹ poprzednie wideo
                                 removePreviousVideo();
 
                                 console.log('hej78', index);
 
-                                // Dodaj div z wideo do tła kontenera
+                                // Dodaj div z wideo do tĹa kontenera
                                 const $vidDiv = $('<div>').addClass('background-video22').css({
-                                    'z-index': '1' // Ustaw z-index dla wideo na niższy
+                                    'z-index': '1' // Ustaw z-index dla wideo na niĹźszy
                                 });
 
                                 const $videoElement = $('<video>').attr({
@@ -1464,20 +1365,20 @@ const lessonNumber = $container.attr('data-lesson');
                                     'muted': true,
                                     'loop': true
                                 }).css({
-                                    'z-index': '1' // Ustaw z-index dla wideo na niższy
+                                    'z-index': '1' // Ustaw z-index dla wideo na niĹźszy
                                 });
                                 if (window.matchMedia("(min-width: 999px)").matches) {
-                                    // Dodaj klasę CSS zależnie od indeksu wideo
+                                    // Dodaj klasÄ CSS zaleĹźnie od indeksu wideo
                                     if (index === 0) {
                                         $videoElement.addClass('scaled-video');
                                     } else {
                                         $videoElement.addClass('next-video');
                                     }
                                 }
-                                // Utwórz element <source> dla wideo i ustaw atrybuty
+                                // UtwĂłrz element <source> dla wideo i ustaw atrybuty
 
                                 const $sourceElement = $('<source>').attr({
-                                    'src': srcWords[index], // Poprawne użycie interpolacji
+                                    'src': srcWords[index], // Poprawne uĹźycie interpolacji
                                     'type': 'video/mp4'     // Typ pliku wideo
                                 });
 
@@ -1487,12 +1388,12 @@ const lessonNumber = $container.attr('data-lesson');
                                 $videoElement.appendTo($vidDiv);
                                 // Dodaj element <source> do elementu <video>
 
-                                // Obsługa błędu ładowania wideo
+                                // ObsĹuga bĹÄdu Ĺadowania wideo
                                 $videoElement.onerror = function () {
-                                    console.error('Nie można załadować pliku wideo.');
+                                    console.error('Nie moĹźna zaĹadowaÄ pliku wideo.');
                                 };
                                 let currentIndexValue = [];
-                                // Funkcja obsługi zdarzenia loadedmetadata
+                                // Funkcja obsĹugi zdarzenia loadedmetadata
                                 $videoElement.on('loadedmetadata', function () {
                                     const videoDuration = this.duration;
                                     videoDurations[index] = videoDuration;
@@ -1505,35 +1406,35 @@ const lessonNumber = $container.attr('data-lesson');
                                         adjustedProgress += (this.currentTime / videoDuration) * (videoDurations[index] / totalDuration) * 100;
                                         updateProgress(adjustedProgress);
                                         console.log('hej78', index);
-                                        // Sprawdź, czy wartość index nie została jeszcze dodana do tablicy currentIndex
+                                        // SprawdĹş, czy wartoĹÄ index nie zostaĹa jeszcze dodana do tablicy currentIndex
                                         if (!currentIndexValue.includes(index)) {
                                             // Dodaj index do tablicy currentIndex
                                             currentIndexValue.push(index);
                                             console.log('hej70', currentIndexValue);
-                                            // Wywołaj funkcję addBackgroundToText tylko raz
+                                            // WywoĹaj funkcjÄ addBackgroundToText tylko raz
                                             if (currentIndexValue[0] === 0 || currentIndexValue[0] === 1 || currentIndexValue[0] === 2) {
                                                 addBackgroundToText(matchingFiszki1, matchingIndexes, currentIndexValue, true, lesson1FirstPartLength, lesson1PartLength, matchingLessons5b);
                                             }
                                         }
 
-                                        // Sprawdź, czy wideo zostało zakończone
+                                        // SprawdĹş, czy wideo zostaĹo zakoĹczone
                                         if ($videoElement[0].duration - $videoElement[0].currentTime < 1) {
-                                            console.log('Wideo zakończone, uruchamiam następne.');
-                                            // Odtwórz następne wideo po zakończeniu poprzedniego
+                                            console.log('Wideo zakoĹczone, uruchamiam nastÄpne.');
+                                            // OdtwĂłrz nastÄpne wideo po zakoĹczeniu poprzedniego
                                             addVideo1b(index + 1);
                                             updateProgress(0);
                                         }
                                     });
                                 });
                                 addScenes(index);
-                                // Dodaj div z wideo do tła kontenera
+                                // Dodaj div z wideo do tĹa kontenera
                                 $vidDiv.appendTo($container);
                                 function updateProgress(progress) {
-                                    // Aktualizuj pasek postępu na dole kontenera
+                                    // Aktualizuj pasek postÄpu na dole kontenera
                                     $('.progress-bar').css('width', progress + '%');
                                 }
 
-                                // Inicjalizacja paska postępu
+                                // Inicjalizacja paska postÄpu
                                 const $progressBar = $('<div>').addClass('progress-bar');
                                 if (window.matchMedia("(min-width: 999px)").matches) {
                                     $progressBar.css({
@@ -1541,12 +1442,12 @@ const lessonNumber = $container.attr('data-lesson');
                                         'z-index': '2',
                                         'bottom': '0',
                                         'left': '0',
-                                        'height': '7px', // Wysokość paska postępu
-                                        'background-color': 'green', // Kolor paska postępu
-                                        'width': '140%', // Delikatne powiększenie paska postępu o 2% w każdym kierunku
+                                        'height': '7px', // WysokoĹÄ paska postÄpu
+                                        'background-color': 'green', // Kolor paska postÄpu
+                                        'width': '140%', // Delikatne powiÄkszenie paska postÄpu o 2% w kaĹźdym kierunku
                                         'margin-bottom': '-2%',
                                         'margin-left': '-4%',
-                                        'margin-right': '-4%' // Zapewnienie równowagi dla powiększenia paska postępu
+                                        'margin-right': '-4%' // Zapewnienie rĂłwnowagi dla powiÄkszenia paska postÄpu
                                     });
                                 } else {
                                     $progressBar.css({
@@ -1554,22 +1455,22 @@ const lessonNumber = $container.attr('data-lesson');
                                         'z-index': '2',
                                         'bottom': '0px',
                                         'left': '0px',
-                                        'height': '7px', // Wysokość paska postępu
-                                        'background-color': 'green', // Kolor paska postępu
-                                        'width': '100%' // Delikatne powiększenie paska postępu o 2% w każdym kierunku
+                                        'height': '7px', // WysokoĹÄ paska postÄpu
+                                        'background-color': 'green', // Kolor paska postÄpu
+                                        'width': '100%' // Delikatne powiÄkszenie paska postÄpu o 2% w kaĹźdym kierunku
                                     });
                                 }
                                 $progressBar.appendTo($container);
-// Funkcja dodająca nowe elementy <div>
+// Funkcja dodajÄca nowe elementy <div>
                                 function addScenes(index) {
-                                    // Sprawdź, czy istnieje element <div> o klasie 'scene-description'
+                                    // SprawdĹş, czy istnieje element <div> o klasie 'scene-description'
                                     let $sceneDiv = $container.find('.scene-description');
 
                                     if ($sceneDiv.length) {
-                                        // Jeśli istnieje, wyczyść jego zawartość
+                                        // JeĹli istnieje, wyczyĹÄ jego zawartoĹÄ
                                         $sceneDiv.empty();
                                     } else {
-                                        // Jeśli nie istnieje, stwórz nowy element <div>
+                                        // JeĹli nie istnieje, stwĂłrz nowy element <div>
                                         $sceneDiv = $('<div>').addClass('scene-description').appendTo($container);
                                     }
 
@@ -1578,8 +1479,8 @@ const lessonNumber = $container.attr('data-lesson');
 
                                     if (window.matchMedia("(max-width: 999px)").matches) {
                                         if (indexDiv % 2 === 0) {
-                                            console.log('Warunek podzielności przez 2 spełniony2');
-                                            // Zmień CSS paska napisu, aby wyświetlał się po lewej stronie kontenera
+                                            console.log('Warunek podzielnoĹci przez 2 speĹniony2');
+                                            // ZmieĹ CSS paska napisu, aby wyĹwietlaĹ siÄ po lewej stronie kontenera
                                             $sceneDiv.css({
                                                 'position': 'relative',
                                                 'margin-top': '-140px',
@@ -1589,8 +1490,8 @@ const lessonNumber = $container.attr('data-lesson');
                                                 'z-index': '9999999'
                                             });
                                         } else if (indexDiv % 1 === 0 || indexDiv % 3 === 0 || indexDiv % 5 === 0) {
-                                            console.log('Warunek podzielności przez 1 spełniony2');
-                                            // Zmień CSS paska napisu, aby wyświetlał się po lewej stronie kontenera
+                                            console.log('Warunek podzielnoĹci przez 1 speĹniony2');
+                                            // ZmieĹ CSS paska napisu, aby wyĹwietlaĹ siÄ po lewej stronie kontenera
                                             $sceneDiv.css({
                                                 'position': 'relative',
                                                 'margin-top': '-140px',
@@ -1610,25 +1511,25 @@ const lessonNumber = $container.attr('data-lesson');
                                             .attr('src', 'https://www.arbulang.com/img/stopok2.png')
                                             .css({
                                                 'display': 'none', // Ukryty na starcie
-                                                'position': 'absolute', // Precyzyjne pozycjonowanie względem kontenera
+                                                'position': 'absolute', // Precyzyjne pozycjonowanie wzglÄdem kontenera
                                                 'top': '-15px',
                                                 'left': '20px',
                                                 'width': '40px',
                                                 'height': '40px',
                                                 'z-index': '999999',
-                                                'cursor': 'pointer' // Ustawienie kursora jako wskaźnik
+                                                'cursor': 'pointer' // Ustawienie kursora jako wskaĹşnik
                                             })
                                             .on('click', function () {
-                                                // Pętla po wszystkich elementach wideo i zatrzymywanie każdego z nich
+                                                // PÄtla po wszystkich elementach wideo i zatrzymywanie kaĹźdego z nich
                                                 $('video').each(function () {
                                                     const video = this;
                                                     if (!video.paused) {
                                                         video.pause();
-                                                        // Zmień obrazek na "Play"
+                                                        // ZmieĹ obrazek na "Play"
                                                         $stopButton.attr('src', 'https://www.arbulang.com/img/play.png');
                                                     } else {
                                                         video.play();
-                                                        // Zmień obrazek z powrotem na "Stop"
+                                                        // ZmieĹ obrazek z powrotem na "Stop"
                                                         $stopButton.attr('src', 'https://www.arbulang.com/img/stopok2.png');
                                                     }
                                                 });
@@ -1642,14 +1543,19 @@ const lessonNumber = $container.attr('data-lesson');
                                         $stopButton.show();
                                     });
 
-                                    // Ukrywanie przycisku, gdy mysz opuści kontener
+                                    // Ukrywanie przycisku, gdy mysz opuĹci kontener
                                     $container.on('mouseout', function () {
                                         $stopButton.hide();
                                     });
 
-                                    stopButtonAdded = true;  // Flaga ustawiona na true, gdy przycisk został dodany
+                                    stopButtonAdded = true;  // Flaga ustawiona na true, gdy przycisk zostaĹ dodany
                                 }
-// Pobierz numer lekcji z data-lesson kontenera
+                            }
+                            setTimeout(function () {
+                                addVideo1b(0);
+                            }, 200);
+                        }
+                        // Pobierz numer lekcji z data-lesson kontenera
 const lessonNumber = $container.attr('data-lesson');
 
 // Tworzymy przycisk tylko jeśli jeszcze go nie ma w kontenerze
@@ -1680,15 +1586,10 @@ const lessonNumber = $container.attr('data-lesson');
     });
 
     $container.append($buttonb2);
-                            }
-                            setTimeout(function () {
-                                addVideo1b(0);
-                            }, 200);
-                        }
                         }
                         
-                    // Stwórz przycisk za pomocą jQuery
-                    // Tworzenie nowego elementu div za pomocą jQuery
+                    // StwĂłrz przycisk za pomocÄ jQuery
+                    // Tworzenie nowego elementu div za pomocÄ jQuery
 
 
                     if ((newIndex === 0 && !buttonindex && !isSearching) || (newIndex10 === 0 && !isSearching && number)) {
@@ -1735,7 +1636,7 @@ const $button = $('<button></button>')
         const index55 = parseInt(index5, 10);
 
         setTimeout(() => {
-            console.log('Kliknięto przycisk o indeksie:', index55);
+            console.log('KlikniÄto przycisk o indeksie:', index55);
             przekazArgument0(
                 tablica7[0], tablica3[2], index55,
                 true, tablica3[0], true, true,
@@ -1745,27 +1646,23 @@ const $button = $('<button></button>')
         }, 100);
     });
 
-// Stylowanie przycisku – widoczny od razu
+// Stylowanie przycisku â widoczny od razu
 $button.css({
     'position': 'absolute',
-    'right': '-200px',       // Dopasuj pozycję według potrzeb
+    'right': '-200px',       // Dopasuj pozycjÄ wedĹug potrzeb
     'top': '5px',
     'font-size': '10px',
     'height': '30px',
     'width': '170px',
     'color': 'blue',
     'background-color': 'white',
-    'z-index': '12',         // Wyższy niż inne elementy
+    'z-index': '12',         // WyĹźszy niĹź inne elementy
     'border': '1px solid #aaa',
     'cursor': 'pointer'
 });
 
-// Dodanie przycisku do kontenera – OD RAZU po jego stworzeniu
+// Dodanie przycisku do kontenera â OD RAZU po jego stworzeniu
 $container.append($button);
-
-
-
-                    $container.append($buttonb2);
                     // Dodanie diva z zdaniem do kontenera
                     $container.append($sentenceDivB);
                     tablica10.push(srcWords);
@@ -1773,5 +1670,5 @@ $container.append($button);
 
                 }
 
-                // Deklaracja tablicy, która będzie zawierać wszystkie tablice
+                // Deklaracja tablicy, ktĂłra bÄdzie zawieraÄ wszystkie tablice
             }
