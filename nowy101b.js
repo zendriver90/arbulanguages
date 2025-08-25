@@ -5654,3 +5654,5 @@ $buttonb2.on('click', function () {
 
                 // Deklaracja tablicy, która będzie zawierać wszystkie tablice
             }
+            
+                    story: "Chłopiec który uczy się pływać słyszy od nauczyciela: 'możesz narazie ze swoimi umiejętnościami tylko pływać do tej 'boji'",

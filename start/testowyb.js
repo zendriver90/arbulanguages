@@ -18882,7 +18882,7 @@ const fiszki10 = [
             "man",
             "drives"
         ],
-        key: "dog",
+        key: "men",
         category1: "nauka",
         category2: ["osoby"],
                 category3: ["PresentSimple", "PresentSimpleCzasownik"]
@@ -18916,7 +18916,7 @@ const fiszki10 = [
             "man",
             "drives"
         ],
-        key: "sleeps",
+        key: "drives",
         category1: "nauka",
         category2: ["czasownik"]
     },
@@ -18997,7 +18997,7 @@ const fiszki10 = [
             "car",
             "fast"
         ],
-        key: "the",
+        key: "his",
         category1: "nauka",
         category2: ["zaimkiosobowe", "osoby"]
     },
@@ -19030,7 +19030,7 @@ const fiszki10 = [
             "car",
             "fast"
         ],
-        key: "big",
+        key: "car",
         category1: "nauka",
         category2: ["rzeczy"]
     },
@@ -19063,7 +19063,7 @@ const fiszki10 = [
             "car",
             "fast"
         ],
-        key: "tree",
+        key: "fast",
         category1: "nauka",
         category2: ["czas", "ilość"]
     },
@@ -19188,7 +19188,7 @@ const fiszki10 = [
             "play",
             "outside"
         ],
-        key: "dog",
+        key: "children",
         category1: "nauka",
         category2: ["osoby"],
                 category3: ["PresentSimple", "PresentSimpleCzasownik"]
@@ -19223,7 +19223,7 @@ const fiszki10 = [
             "play",
             "outside"
         ],
-        key: "sleeps",
+        key: "play",
         category1: "nauka",
         category2: ["czasownik"]
     },
@@ -19257,7 +19257,7 @@ const fiszki10 = [
             "play",
             "outside"
         ],
-        key: "the",
+        key: "outside",
         category1: "nauka",
         category2: ["okresleniaMiejsca"]
     },
@@ -19363,7 +19363,7 @@ const fiszki10 = [
             "the",
             "school"
         ],
-        key: "tree",
+        key: "the",
         category1: "nauka",
         category2: ["zaimki"]
     },
@@ -19444,9 +19444,605 @@ const fiszki10 = [
             "the",
             "school"
         ],
-        key: "tree",
+        key: "school",
         category1: "nauka",
         category2: ["rzeczy"]
+    },
+    {
+        id: [
+            368,
+            58,
+            106
+        ],
+    entries: [
+        {
+            id: 1,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/5a.jpg",
+                alt: "Piłki koszykarskie. Wygenerowane przez AI."
+            },
+            story: {
+                text: 'Piłki do gry w kosza są twar<span class="adannotation" data-annotation="1"><u><b>de</u></b></span>. Sam ten sport <u><b>to</u></b> twarda gra',
+                alt: "Sport i przedmioty do sportu. Czy piłka do koszykówki jest twarda?"
+            },
+            category: ["sport", "koszykówka"]
+        },
+        {
+            id: 2,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/5b.jpg",
+                alt: "Deptak dla mieszkańców. Wygenerowane przez AI."
+            },
+            story: {
+                text: 'Na tym <span class="adannotation" data-annotation="1"><u><b>de</u></b></span>ptaku jest sporo drzewek, <u><b>to</u></b> urocze miejsce',
+                alt: "Miejsce do spacerowania. Czy na deptaku zazwyczaj rosną drzewka?"
+            },
+             category: ["natura", "czas wolny"]
+        },
+        {
+            id: 3,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/5c.jpg",
+                alt: "Politycy na posiedzeniu. Wygenerowane przez AI."
+            },
+            story: {
+                text: '<u><b>To</u></b> ten <span class="adannotation" data-annotation="1"><u><b>De</u></b></span>partament Stanu prowadzi badania nad społecznym problemem',
+                alt: "Insytucje rządowe w służbie ludziom. Czy państwo pomaga w rozwiązywaniu problemów społecznych?"
+            },
+           category: ["nauka", "rząd"]
+        },
+        {
+            id: 4,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/5d.jpg",
+                alt: "Wystąpienia polityków. Wygenerowane przez AI."
+            },
+            story: {
+                text: 'Czasami politycy stosują <span class="adannotation" data-annotation="1"><u><b>de</u></b></span>magogię. Czyli co stosują? <u><b>Tę</u></b> <span class="adannotation" data-annotation="1"><u><b>de</u></b></span>magogię',
+                alt: "Polityka i sztuka rozmawiania. Czy politycy przekonują etycznie?"
+            },
+            category: ["czarny humor", "polityka"]
+        },
+        {
+            id: 5,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/5e.jpg",
+                alt: "Zasady w rodzinie. Wygenerowane przez AI."
+            },
+            story: {
+                text: '<u><b>To</u></b> co w naszej rodzinie istnieje to <span class="adannotation" data-annotation="1"><u><b>de</u></b></span>mokracja',
+                alt: "Życie rodzinne i więź rodzinna. Czy w rodzinie może istnieć demokracja?"
+            },
+            category: ["związki", "rodzina"]
+        }
+    ],
+        desc: "TRUDNOŚĆ JĘZYKOWA: the[de]-33%, [ze]-33%, [d-ze]-33% - ta",
+        translate: "Mężczyzna lubi czytać książki",
+        translateb: "[De men lajks tu rid buks]",
+        translateb2: "[]",
+        srcWord: ["https://www.arbulang.com/filmy/readbook2.mp4", 'Breaking Bad'],
+        srcWord2: ["https://www.arbulang.com/filmy/readbook2.mp4", "Breaking Bad"],
+                                                                        opis: "Czytanie książki na kiblu",
+        srcWordimage: "https://www.arbulang.com/filmy/children-outside.png",
+        word: [
+            "https://www.arbulang.com/voice/music.mp4"
+        ],
+        sentence1: [
+            "The"
+        ],
+        sentence: [
+            "The",
+            "men",
+            "likes",
+            "to read",
+            "books"
+        ],
+        key: "the",
+        category2: ["osoby"],
+        category3: ["PresenttSimple", "PresentSimplePodmiot"]
+    },
+                                            {
+        id: [
+            369,
+            58,
+            106
+        ],
+            entries: [
+        {
+            id: 1,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/369a.jpg",
+                alt: ""
+            },
+            story: {
+                text: 'KOGNATY - MEN - MĘŻCZYZNA',
+                alt: ""
+            },
+            category: [""]
+        }
+            ],
+        story: "KOGNATY - MEN - MĘŻCZYZNA'",
+        desc: "men[men] - mężczyzna",
+        sentence1: [
+            "men"
+        ],
+        sentence: [
+            "The",
+            "men",
+            "likes",
+            "to read",
+            "books"
+        ],
+        key: "men",
+        category1: "nauka",
+        category2: ["osoby"],
+                category3: ["PresentSimple", "PresentSimpleCzasownik"]
+    },
+                                            {
+        id: [
+            370,
+            58,
+            106
+        ],
+            entries: [
+        {
+            id: 1,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/370a.jpg",
+                alt: ""
+            },
+            story: {
+                text: 'Dostałem na facebooku <u><b>laj</u></b>ka i jest <u><b>s</u></b>uper',
+                alt: ""
+            },
+            category: ["związki", "społeczność"]
+        }
+            ],
+        desc: "likes[lajks] - ",
+        sentence1: [
+            "likes"
+        ],
+        sentence: [
+            "The",
+            "men",
+            "likes",
+            "to read",
+            "books"
+        ],
+        key: "likes",
+        category1: "nauka",
+        category2: ["czasownik"]
+    },
+                                                    {
+        id: [
+            371,
+            58,
+            106
+        ],
+            entries: [
+        {
+            id: 1,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/371a.jpg",
+                alt: ""
+            },
+            story: {
+                text: 'Czytanie tutaj w bibliotece przy takiej reggae muzyce z ridimem jest fajne',
+                alt: ""
+            },
+            category: ["aktywności", "czytanie"]
+        }
+            ],
+        desc: "to read[tu rid] - czytać",
+        sentence1: [
+            "to read"
+        ],
+        sentence: [
+            "The",
+            "men",
+            "likes",
+            "to read",
+            "books"
+        ],
+        key: "to read",
+        category1: "nauka",
+        category2: ["okresleniaMiejsca"]
+    },
+                                                    {
+        id: [
+            372,
+            58,
+            106
+        ],
+            entries: [
+        {
+            id: 1,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/45aa.jpg",
+                alt: "Książka. Wygenerowane przez AI."
+            },
+            story: {
+                text: "Z drzewa <b><u>buk</b></u>owego jest najlepszy papier na <b><u>książki</b></u>",
+                alt: "Papier na książki. Z czego robiony jest papier na książki?"
+            },
+            category: ["nauka", "produkcja"]
+        }
+            ],
+        desc: "book[buk] - książka, books[buks] - książki (liczba mnoga dodanie s - na końcu)",
+        sentence2: [
+            "books"
+        ],
+        sentence: [
+            "The",
+            "men",
+            "likes",
+            "to read",
+            "books"
+        ],
+        key: "books",
+        category1: "nauka",
+        category2: ["czas"]
+    },
+                     {
+        id: [
+            373,
+            59,
+            107
+        ],
+    entries: [
+        {
+            id: 1,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/7a.jpg",
+                alt: "Gracz Rugby. Wygenerowane przez AI."
+            },
+            story: {
+                text: 'To właśnie <u><b>on</u></b> jest <span class="adannotation" data-annotation="1"><b><u>hi</b></u></span>tem tego sezonu piłkarskiego',
+                alt: "Niesamowite wydarzenie w SuperLidze. Jak się plasuje nasza drużyna w tabeli?"
+            },
+            category: ["sport", "piłka nożna"]
+        },
+        {
+            id: 2,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/7b.jpg",
+                alt: "Hipopotam w wodzie. Wygenerowane przez AI."
+            },
+            story: {
+                text: 'Samiec czyli <u><b>on</u></b> - <span class="adannotation" data-annotation="1"><b><u>hi</b></u></span>popotam',
+               alt: "Życie hipopotamów. Czy samiec hipopotama jest groźniejszy czy samica?"
+            },
+             category: ["natura", "zoologia"]
+        },
+        {
+            id: 3,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/7c.jpg",
+                alt: "Loty balonowe. Wygenerowane przez AI."
+            },
+            story: {
+                text: '<u><b>On</b></u> - <span class="adannotation" data-annotation="1"><u><b>Hi</b></u></span>eronim odleciał balonem',
+                alt: "Loty balonowe. Jak daleko można podróżować balonem?"
+            },
+           category: ["nauka", "czas wolny"]
+        },
+        {
+            id: 4,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/7d.jpg",
+                alt: "Wygenerowane przez AI."
+            },
+            story: {
+                text: 'Ma<span class="adannotation" data-annotation="1"><u><b>chi</u></b></span>nę do tortur wymyślił <u><b>on</u></b> - jest <span class="adannotation" data-annotation="1"><u><b>Hi</u></b></span>ndusem',
+                alt: "Starodawne metody przesłuchań. Gdzie wymyślono tortury?"
+            },
+            category: ["czarny humor", "historia"]
+        },
+        {
+            id: 5,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/7e.jpg",
+                alt: "Smakowanie przysmaków. Wygenerowane przez AI."
+            },
+            story: {
+                text: '<u><b>On</u></b> je ciastka <span class="adannotation" data-annotation="1"><u><b>hi</u></b></span>ty',
+               alt: "Kulinaria i przysmaki. Jakie są najlepsze ciastka?"
+            },
+            category: ["związki", "kulinaria"]
+        }
+    ],
+        translate: "On codziennie biega w parku",
+        translateb: "[Hi rans in de park dejli]",
+        translateb2: "[Hi is obidient]",
+        srcWord: ["https://www.arbulang.com/filmy/running2.mp4", "Adrenalina (2009)"],
+        srcWord2: ["https://www.arbulang.com/filmy/running2.mp4", "Breaking Bad"],
+        srcWordimage: "https://www.arbulang.com/filmy/procedure.png",
+        word: [
+            "https://www.arbulang.com/voice/bike.mp4"
+        ],
+        desc: "he[hi] - on",
+        sentence1: [
+            "He"
+        ],
+        sentence: [
+            "He",
+            "runs",
+            "in the park",
+            "daily"
+        ],
+        key: "he",
+        category2: ["osoby"],
+        category3: ["PresenttSimple", "PresentSimplePodmiot"]
+    },
+                                            {
+        id: [
+            374,
+            59,
+            107
+        ],
+            entries: [
+        {
+            id: 1,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/374a.jpg",
+                alt: "Książka. Wygenerowane przez AI."
+            },
+            story: {
+                text: "<u><b>Biegnę</u></b> szybko na moje <u><b>ran</u></b>czo z domu. Tam mam <u><b>s</u></b>pokój",
+                alt: ""
+            },
+            category: ["nauka", "produkcja"]
+        }
+            ],
+        desc: "runs[rans] - biegnie",
+        sentence1: [
+            "runs"
+        ],
+        sentence: [
+            "He",
+            "runs",
+            "in the park",
+            "daily"
+        ],
+        key: "runs",
+        category1: "nauka",
+        category2: ["osoby"],
+                category3: ["PresentSimple", "PresentSimpleCzasownik"]
+    },
+                                            {
+        id: [
+            375,
+            59,
+            107
+        ],
+            entries: [
+        {
+            id: 1,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/375a.jpg",
+                alt: ""
+            },
+            story: {
+                text: "KOGNATY - PARK - PARK",
+                alt: ""
+            },
+            category: [""]
+        }
+            ],
+        desc: "in the park[in de park] - w parku",
+        sentence1: [
+            "in the park"
+        ],
+        sentence: [
+            "He",
+            "runs",
+            "in the park",
+            "daily"
+        ],
+        key: "in the park",
+        category1: "nauka",
+        category2: ["czasownik"]
+    },
+                                                    {
+        id: [
+            376,
+            59,
+            107
+        ],
+            entries: [
+        {
+            id: 1,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/376a.jpg",
+                alt: ""
+            },
+            story: {
+                text: "Ktoś <u><b>codziennie</u></b> mówi <u><b>'dej'</u></b> i <u><b>li</u></b>czy na fart",
+                alt: ""
+            },
+            category: [""]
+        }
+            ],
+        desc: "daily[dejli] - codziennie",
+        sentence1: [
+            "daily"
+        ],
+        sentence: [
+            "He",
+            "runs",
+            "in the park",
+            "daily"
+        ],
+        key: "daily",
+        category1: "nauka",
+        category2: ["okresleniaMiejsca"]
+    },
+                         {
+        id: [
+            377,
+            60,
+            108
+        ],
+    entries: [
+        {
+            id: 1,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/7a.jpg",
+                alt: "Gracz Rugby. Wygenerowane przez AI."
+            },
+            story: {
+                text: 'To właśnie <u><b>on</u></b> jest <span class="adannotation" data-annotation="1"><b><u>hi</b></u></span>tem tego sezonu piłkarskiego',
+                alt: "Niesamowite wydarzenie w SuperLidze. Jak się plasuje nasza drużyna w tabeli?"
+            },
+            category: ["sport", "piłka nożna"]
+        },
+        {
+            id: 2,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/7b.jpg",
+                alt: "Hipopotam w wodzie. Wygenerowane przez AI."
+            },
+            story: {
+                text: 'Samiec czyli <u><b>on</u></b> - <span class="adannotation" data-annotation="1"><b><u>hi</b></u></span>popotam',
+               alt: "Życie hipopotamów. Czy samiec hipopotama jest groźniejszy czy samica?"
+            },
+             category: ["natura", "zoologia"]
+        },
+        {
+            id: 3,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/7c.jpg",
+                alt: "Loty balonowe. Wygenerowane przez AI."
+            },
+            story: {
+                text: '<u><b>On</b></u> - <span class="adannotation" data-annotation="1"><u><b>Hi</b></u></span>eronim odleciał balonem',
+                alt: "Loty balonowe. Jak daleko można podróżować balonem?"
+            },
+           category: ["nauka", "czas wolny"]
+        },
+        {
+            id: 4,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/7d.jpg",
+                alt: "Wygenerowane przez AI."
+            },
+            story: {
+                text: 'Ma<span class="adannotation" data-annotation="1"><u><b>chi</u></b></span>nę do tortur wymyślił <u><b>on</u></b> - jest <span class="adannotation" data-annotation="1"><u><b>Hi</u></b></span>ndusem',
+                alt: "Starodawne metody przesłuchań. Gdzie wymyślono tortury?"
+            },
+            category: ["czarny humor", "historia"]
+        },
+        {
+            id: 5,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/7e.jpg",
+                alt: "Smakowanie przysmaków. Wygenerowane przez AI."
+            },
+            story: {
+                text: '<u><b>On</u></b> je ciastka <span class="adannotation" data-annotation="1"><u><b>hi</u></b></span>ty',
+               alt: "Kulinaria i przysmaki. Jakie są najlepsze ciastka?"
+            },
+            category: ["związki", "kulinaria"]
+        }
+    ],
+        translate: "On pięknie śpiewa pod prysznicem",
+        translateb: "[Hi sings bjutifuli in de szołer]",
+        translateb2: "[]",
+        srcWord: ["https://www.arbulang.com/filmy/singingshower.mp4", "V for Vendetta (2005)"],
+        srcWordimage: "https://www.arbulang.com/filmy/singingshower.png",
+        word: [
+            "https://www.arbulang.com/voice/bike.mp4"
+        ],
+        desc: "she[szi] - niebieski/niebieskie",
+        sentence1: [
+            "He"
+        ],
+        sentence: [
+            "He",
+            "sings",
+            "beautifully"
+        ],
+        key: "he",
+        category2: ["osoby"],
+        category3: ["PresenttSimple", "PresentSimplePodmiot"]
+    },
+                                            {
+        id: [
+            378,
+            60,
+            108
+        ],
+            entries: [
+        {
+            id: 1,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/378a.jpg",
+                alt: ""
+            },
+            story: {
+                text: "Ktoś nie ma zębów i mówi ma<u><b>sin</u></b>a zamiast maszyna. Bardziej woli śpiewać niż <u><b>g</u></b>wizdać",
+                alt: ""
+            },
+            category: [""]
+        }
+            ],
+        desc: "sings[sings] - śpiewa",
+        sentence1: [
+            "sings"
+        ],
+        sentence: [
+            "He",
+            "sings",
+            "beautifully"
+        ],
+        key: "sings",
+        category1: "nauka",
+        category2: ["osoby"],
+                category3: ["PresentSimple", "PresentSimpleCzasownik"]
+    },
+                                            {
+        id: [
+            379,
+            59,
+            107
+        ],
+        img: "https://www.arbulang.com/img/fiszki1/363a.jpg",
+        story: "",
+        desc: "beautifully[bjutlifuli] - pięknie",
+        sentence1: [
+            "beautifully"
+        ],
+        sentence: [
+            "He",
+            "sings",
+            "beautifully"
+        ],
+        key: "beautifulyy",
+        category1: "nauka",
+        category2: ["czasownik"]
+    },
+                                                    {
+        id: [
+            380,
+            60,
+            109
+        ],
+        img: [
+            "https://www.arbulang.com/img/fiszki1/364a.jpg"
+        ],
+        story: [
+            ""
+        ],
+        desc: "in the shower[in de szołer] - pod prysznicem",
+        sentence2: [
+            "in the shower"
+        ],
+        sentence: [
+            "in the shower"
+        ],
+        key: "in the shower",
+        category1: "nauka",
+        category2: ["okresleniaMiejsca"]
     }
 ];
 let totalTrainingFiszkaCount = 0;

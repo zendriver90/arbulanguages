@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html>
     <head>
@@ -630,7 +631,7 @@ span.highlight {
                 }
                 .run-button3 {
                     position: absolute;
-                    top: 165px;
+                    top: 100px;
                     right: 20px;
                     display: none; /* Ukrycie przycisku */
                     z-index: 99999; /* Wyższy z-index, aby przycisk był na wierzchu */
@@ -1939,7 +1940,7 @@ input {
                 </div><br>
                 <div id="matchingButtonsContainer" style="margin-top: 10px;"></div>
                 <p id="key3Result"></p>
-                <button class="left-button2">+<br></button>TE LEKCJE MAJĄ DOSTĘPNE SKOJARZENIA W WIĘKSZYM ZAKRESIE TEMATÓW (DZIAŁĄ)
+                <button class="left-button2">+<br></button>TE LEKCJE MAJĄ DOSTĘPNE SKOJARZENIA W WIĘKSZYM ZAKRESIE TEMATÓW (DZIAŁA)
 <div class="user-cards" data-user-cards-container></div>
                 <div id="category-buttons">
   <button class="category-btn5" data-category="wszystkie"
@@ -3555,7 +3556,20 @@ let number2 = false;
             przekazArgument0(tablica7[0], tablica3[2], undefined, true, tablica3[0], true, true, tablica3[1], tablica3[4], false, '', '', '', '', '100', indexDiv0, indexDiv0b);
             } else if (index50 === 0 && tablica55[1] === true) {
 ostatniaWartosc === 3;
-}
+} else if (newIndex5 === 0) {
+                    showCombinedSentenceForLesson22b(
+        number1, number2, selectedCategory, matchingIndexes3, rodzaj, matchingIndexes2,
+        buttonindex, index50, lessonId1, lessonId2, lessonId3, fiszki, matchingIndexes,
+        startIndex, newIndex, newIndex5, newIndex10, indexDiv, indexDiv0, indexDiv0b, lessonsArray,
+        lesson1PartLength, lesson2PartLength, lesson3PartLength,
+        lesson1Sentences, lesson2Sentences, lesson3Sentences,
+        lesson1FirstPartLength, lesson2FirstPartLength, lesson3FirstPartLength,
+        lesson1SecondPartLength, lesson2SecondPartLength, lesson3SecondPartLength,
+        cumulativeFirstPartLength1, cumulativeFirstPartLength2, cumulativeFirstPartLength3,
+        lessonsArrayZ, matchingLessons5, matchingLessons5b, isSearching
+    );
+    continue;
+            }
                                 console.log('hejhej54', newIndex5);
             if (newIndex === 0 && !buttonindex) {
                             //// WGRANIE MIEJSCA NA DRUGĄ LEKCJĘ
@@ -3619,7 +3633,7 @@ tablica55.push(true);
                             console.log('hejhej511v', tablica55);
                 let newIndex10 = (indexDiv === indexDiv0) ? 0 : indexDiv;
                                             tablica55.push(true);
-                                                        if (newIndex10 === 0) {
+                                                        if (newIndex10 === 0 && !buttonindex) {
                             let number1 = true;
                                 /// WSTAWIENIE DRUGIEJ MINIATURY
                     showCombinedSentenceForLesson22b(
@@ -3633,17 +3647,31 @@ tablica55.push(true);
         cumulativeFirstPartLength1, cumulativeFirstPartLength2, cumulativeFirstPartLength3,
         lessonsArrayZ, matchingLessons5, matchingLessons5b, isSearching
     );
-            } else if (index50 === 0 && tablica55[3] === true) {
-ostatniaWartosc === 5;
-}
-            if (index50 === 0) {
+            } else if (index50 === 0) {
                             //// WGRANIE MIEJSCA NA TRZECIĄ LEKCJĘ
     const indexDiv0b = indexDiv;
         tablica43b.push(indexDiv0b);
                                 console.log('hejhej51', tablica43b[tablica43b.length - 1]);
 
             przekazArgument0(tablica7[0], tablica3[2], undefined, true, tablica3[0], true, true, tablica3[1], tablica3[4], false, '', '', '', '', '100', indexDiv0, indexDiv0b);
-            } else if (newIndex === 0 && !buttonindex) {
+            } else if (index50 === 0 && tablica55[3] === true) {
+ostatniaWartosc === 5;
+} else if (newIndex10 === 0) {
+                            let number1 = true;
+                                /// WSTAWIENIE DRUGIEJ MINIATURY
+                    showCombinedSentenceForLesson22b(
+        number1, number2, selectedCategory, matchingIndexes3, rodzaj, matchingIndexes2,
+        buttonindex, index50, lessonId1, lessonId2, lessonId3, fiszki, matchingIndexes,
+        startIndex, newIndex, newIndex5, newIndex10, indexDiv, indexDiv0, indexDiv0b, lessonsArray,
+        lesson1PartLength, lesson2PartLength, lesson3PartLength,
+        lesson1Sentences, lesson2Sentences, lesson3Sentences,
+        lesson1FirstPartLength, lesson2FirstPartLength, lesson3FirstPartLength,
+        lesson1SecondPartLength, lesson2SecondPartLength, lesson3SecondPartLength,
+        cumulativeFirstPartLength1, cumulativeFirstPartLength2, cumulativeFirstPartLength3,
+        lessonsArrayZ, matchingLessons5, matchingLessons5b, isSearching
+    );
+            }
+            if (newIndex === 0 && !buttonindex) {
                             //// WGRANIE MIEJSCA NA TRZECIĄ LEKCJĘ
     const indexDiv0b = indexDiv;
         tablica43b.push(indexDiv0b);

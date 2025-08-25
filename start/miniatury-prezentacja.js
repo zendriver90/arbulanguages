@@ -376,130 +376,89 @@ const colorMapping = {
     'wszystkie': 'yellow'       
 };
 
-// Zakres pokolorowanych przycisków
 const startRange2 = 1;
 const endRange2 = 7;
 
 document.addEventListener('DOMContentLoaded', () => {
-    // Kliknięcie w kategorię
     document.querySelectorAll('.category-btn').forEach(button => {
         button.addEventListener('click', (event) => {
-            event.preventDefault(); // zapobiega przeładowaniu
+            event.preventDefault();
             selectedCategory = button.getAttribute('data-category');
             updateButtonColors();
         });
     });
 });
+
 let previousTrojkiJSON = '';
 const tablica60 = [];
+const linkMap = {}; // mapa data-name -> link
+
 function updateButtonColors() {
     tablica60.length = 0;
+    for (let key in linkMap) delete linkMap[key]; // reset mapy linków
 
-        const color = colorMapping[selectedCategory] || '#800080';
+    const color = colorMapping[selectedCategory] || '#800080';
 
-        document.querySelectorAll('.sentence-block, .sentence-blockB').forEach(block => {
-            const dataName = parseInt(block.getAttribute('data-name'), 10);
-            tablica60.push(dataName);
+    document.querySelectorAll('.sentence-block, .sentence-blockB').forEach(block => {
+        const dataName = parseInt(block.getAttribute('data-name'), 10);
+        tablica60.push(dataName);
+
         if (dataName >= startRange2 && dataName <= endRange2) {
             const button = block.querySelector('button.left-button, button.left-buttonb, button.left-buttonbb');
             if (button) {
-                if (dataName >= startRange2 && dataName <= endRange2) {
-                    button.style.backgroundColor = color;
-                    button.style.color = 'white';
-                } else {
-                    button.style.backgroundColor = '';
-                    button.style.color = '';
-                }
+                button.style.backgroundColor = color;
+                button.style.color = 'white';
             }
         }
-        });
-    
-    // PodziaĹ na trĂłjki
+    });
+
     const trojki = [];
     for (let i = 0; i < tablica60.length; i += 3) {
         trojki.push(tablica60.slice(i, i + 3));
+    }
+
+    if (newIndex === 0 || newIndex5 === 0 || newIndex10 === 0) {
+        for (let i = 0; i < trojki.length; i++) {
+            trojki[i] = trojki[i].map(num => (num > index50 ? num - 3 : num));
+        }
     }
 
     const currentTrojkiJSON = JSON.stringify(trojki);
     if (currentTrojkiJSON !== previousTrojkiJSON) {
         previousTrojkiJSON = currentTrojkiJSON;
 
-        console.log('Nowe trĂłjki:', trojki);
-
-        // UsuĹ stare linki
+        // Usuń stare linki i przyciski
         $('.hidden-link').remove();
-        console.log('UsuniÄto stare linki');
+        $('.run-button3').remove();
 
-        // Wygeneruj nowe linki (dla pierwszych dwĂłch trĂłjek, jeĹli istniejÄ)
-        const firstTrojka = trojki[0] || [];
-        const secondTrojka = trojki[1] || [];
-        const thirdTrojka = trojki[2] || [];
-        const cztery = trojki[3] || [];
-        const piec = trojki[4] || [];
-        const szesc = trojki[5] || [];
-        const siedem = trojki[6] || [];
-        const osiem = trojki[7] || [];
-        const dziewiec = trojki[8] || [];
-        const dziesiec = trojki[9] || [];
-        const jedenascie = trojki[10] || [];
-        const dwanascie = trojki[11] || [];
-        const trzynascie = trojki[12] || [];
-        const czternascie = trojki[13] || [];
-        const pietnascie = trojki[14] || [];
-        const szstnascie = trojki[15] || [];
-        const siedemnascie = trojki[16] || [];
-        const osiemnascie = trojki[17] || [];
-                const dziewietnascie = trojki[18] || [];
-        const link1 = `demo1angielski.html?category=${selectedCategory}&data=${firstTrojka.join(',')}`;
-        const link2 = `demo1angielski.html?category=${selectedCategory}&data=${secondTrojka.join(',')}`;
-        const link3 = `demo1angielski.html?category=${selectedCategory}&data=${thirdTrojka.join(',')}`;
-        const link4 = `demo1angielski.html?category=${selectedCategory}&data=${cztery.join(',')}`;
-        const link5 = `demo1angielski.html?category=${selectedCategory}&data=${piec.join(',')}`;
-        const link6 = `demo1angielski.html?category=${selectedCategory}&data=${szesc.join(',')}`;
-        const link7 = `demo1angielski.html?category=${selectedCategory}&data=${siedem.join(',')}`;
-        const link8 = `demo1angielski.html?category=${selectedCategory}&data=${osiem.join(',')}`;
-        const link9 = `demo1angielski.html?category=${selectedCategory}&data=${dziewiec.join(',')}`;
-        const link10 = `demo1angielski.html?category=${selectedCategory}&data=${dziesiec.join(',')}`;
-        const link11 = `demo1angielski.html?category=${selectedCategory}&data=${jedenascie.join(',')}`;
-        const link12 = `demo1angielski.html?category=${selectedCategory}&data=${dwanascie.join(',')}`;
-        const link13 = `demo1angielski.html?category=${selectedCategory}&data=${trzynascie.join(',')}`;
-        const link14 = `demo1angielski.html?category=${selectedCategory}&data=${czternascie.join(',')}`;
-        const link15 = `demo1angielski.html?category=${selectedCategory}&data=${pietnascie.join(',')}`;
-        const link16 = `demo1angielski.html?category=${selectedCategory}&data=${szstnascie.join(',')}`;
-        const link17 = `demo1angielski.html?category=${selectedCategory}&data=${siedemnascie.join(',')}`;
-        const link18 = `demo1angielski.html?category=${selectedCategory}&data=${osiemnascie.join(',')}`;
-        const link19 = `demo1angielski.html?category=${selectedCategory}&data=${dziewietnascie.join(',')}`;
+trojki.forEach((trojka, i) => {
+    const lessonNumber = i + 1;
+    const link = `demo1angielski.html?category=${selectedCategory}&data=${trojka.join(',')}`;
 
-        const linksHTML = `
-            <a href="${link1}" class="hidden-link lesson-link-1" target="_blank" rel="noopener noreferrer">PrzejdĹş do lekcji 1</a>
-            <a href="${link2}" class="hidden-link lesson-link-2" target="_blank" rel="noopener noreferrer">PrzejdĹş do lekcji 2</a>
-        <a href="${link3}" class="hidden-link lesson-link-3" target="_blank" rel="noopener noreferrer">PrzejdĹş do lekcji 3</a>
-                    <a href="${link4}" class="hidden-link lesson-link-4" target="_blank" rel="noopener noreferrer">PrzejdĹş do lekcji 1</a>
-            <a href="${link5}" class="hidden-link lesson-link-5" target="_blank" rel="noopener noreferrer">PrzejdĹş do lekcji 2</a>
-        <a href="${link6}" class="hidden-link lesson-link-6" target="_blank" rel="noopener noreferrer">PrzejdĹş do lekcji 3</a>
-                    <a href="${link7}" class="hidden-link lesson-link-7" target="_blank" rel="noopener noreferrer">PrzejdĹş do lekcji 1</a>
-            <a href="${link8}" class="hidden-link lesson-link-8" target="_blank" rel="noopener noreferrer">PrzejdĹş do lekcji 2</a>
-        <a href="${link9}" class="hidden-link lesson-link-9" target="_blank" rel="noopener noreferrer">PrzejdĹş do lekcji 3</a>
-                    <a href="${link10}" class="hidden-link lesson-link-10" target="_blank" rel="noopener noreferrer">PrzejdĹş do lekcji 1</a>
-            <a href="${link11}" class="hidden-link lesson-link-11" target="_blank" rel="noopener noreferrer">PrzejdĹş do lekcji 2</a>
-        <a href="${link12}" class="hidden-link lesson-link-12" target="_blank" rel="noopener noreferrer">PrzejdĹş do lekcji 3</a>
-                    <a href="${link13}" class="hidden-link lesson-link-13" target="_blank" rel="noopener noreferrer">PrzejdĹş do lekcji 1</a>
-            <a href="${link14}" class="hidden-link lesson-link-14" target="_blank" rel="noopener noreferrer">PrzejdĹş do lekcji 2</a>
-        <a href="${link15}" class="hidden-link lesson-link-15" target="_blank" rel="noopener noreferrer">PrzejdĹş do lekcji 3</a>
-                    <a href="${link16}" class="hidden-link lesson-link-16" target="_blank" rel="noopener noreferrer">PrzejdĹş do lekcji 1</a>
-            <a href="${link17}" class="hidden-link lesson-link-17" target="_blank" rel="noopener noreferrer">PrzejdĹş do lekcji 2</a>
-        <a href="${link18}" class="hidden-link lesson-link-18" target="_blank" rel="noopener noreferrer">PrzejdĹş do lekcji 3</a>
-                <a href="${link19}" class="hidden-link lesson-link-19" target="_blank" rel="noopener noreferrer">PrzejdĹş do lekcji 3</a>
-        `;
+    // Zapis mapowania dla wszystkich elementów trójki
+    trojka.forEach(indexDiv => linkMap[indexDiv] = link);
 
-        $('body').append(linksHTML);
-        console.log('Dodano linki:', link1, link2);
+    // Tworzymy przycisk tylko w pierwszym elemencie trójki
+    const firstIndex = trojka[0];
+    const $container = $(`.sentence-block[data-name="${firstIndex}"]`);
+    const $buttonb2 = $('<button></button>');
+    $buttonb2.addClass('run-button3');
+    $buttonb2.text(`Otwórz lekcję ${lessonNumber}`);
+    $buttonb2.attr('data-index2', firstIndex);
+    $container.append($buttonb2);
+});
     }
 }
-    setTimeout(() => {
-// Uruchom na poczÄtku
-updateButtonColors();
-}, 0); // opóźnienie np. 100ms
+
+// Delegacja zdarzeń – działa dla nowych przycisków
+$('body').off('click', '.run-button3').on('click', '.run-button3', function () {
+    const indexDiv = $(this).attr('data-index2');
+    const lessonLink = linkMap[indexDiv];
+    if (lessonLink) window.open(lessonLink, '_blank');
+});
+
+// Uruchom na start
+setTimeout(updateButtonColors, 0);
 
                                 $('.sentence1bba').html('');
                                 $sentenceDiv.on('click', '.left-button', function () {
@@ -1993,7 +1952,7 @@ if (window.matchMedia("(max-width: 999px)").matches) {
 // Tworzenie przycisku
 const $button = $('<button></button>')
     .addClass('run-button')
-    .text('Uruchom') // Tekst przycisku
+    .text('Uruchom-działa') // Tekst przycisku
     .attr('data-index2', indexDiv)
     .on('click', function () {
         const index5 = $(this).attr('data-index2');
@@ -2027,109 +1986,7 @@ $button.css({
 
 // Dodanie przycisku do kontenera – OD RAZU po jego stworzeniu
 $container.append($button);
-                    
-                    const $buttonb2 = $('<button></button>');
-$buttonb2.addClass('run-button3');
-$buttonb2.text('Otwórz lekcję w nowym oknie');
 
-// Dodajemy atrybut 'data-index2' z wartością indexDiv do przycisku
-$buttonb2.attr('data-index2', indexDiv);
-$buttonb2.on('click', function () {
-    const $clickedContainer = $container; // Przypisz kliknięty kontener do zmiennej
-
-    // Dodaj tło do nieklikniętych kontenerów
-    $('.image-container3b').not($clickedContainer).each(function () {
-        const $container = $(this);
-        if ($container.find('.background-overlay').length === 0) {
-            $('<div>')
-                .addClass('background-overlay')
-                .css({
-                    'position': 'absolute',
-                    'top': '0',
-                    'left': '0',
-                    'width': '100%',
-                    'height': '100%',
-                    'background-color': 'blue',
-                    'opacity': '0.35',
-                    'z-index': '1000'
-                })
-                .appendTo($container);
-        }
-    });
-
-    // Usuń klasę .background-overlay po powrocie na stronę
-    $(window).on('pageshow', function () {
-        $('.background-overlay').remove();
-    });
-
-    const index5b2 = $buttonb2.attr('data-index2');
-    const index55b2 = parseInt(index5b2, 10);
-
-    // Znajdź ukryty link i kliknij go
-    let lessonLink = null;
-    if (index55b2 === 1) {
-        lessonLink = document.querySelector('.lesson-link-1');
-    }
-    if (index55b2 === 2) {
-        lessonLink = document.querySelector('.lesson-link-2');
-    }
-        if (index55b2 === 3) {
-        lessonLink = document.querySelector('.lesson-link-3');
-    }
-        if (index55b2 === 4) {
-        lessonLink = document.querySelector('.lesson-link-4');
-    }
-    if (index55b2 === 5) {
-        lessonLink = document.querySelector('.lesson-link-5');
-    }
-        if (index55b2 === 6) {
-        lessonLink = document.querySelector('.lesson-link-6');
-    }
-        if (index55b2 === 7) {
-        lessonLink = document.querySelector('.lesson-link-7');
-    }
-        if (index55b2 === 8) {
-        lessonLink = document.querySelector('.lesson-link-8');
-    }
-        if (index55b2 === 9) {
-        lessonLink = document.querySelector('.lesson-link-9');
-    }
-        if (index55b2 === 10) {
-        lessonLink = document.querySelector('.lesson-link-10');
-    }
-            if (index55b2 === 11) {
-        lessonLink = document.querySelector('.lesson-link-11');
-    }
-        if (index55b2 === 12) {
-        lessonLink = document.querySelector('.lesson-link-12');
-    }
-        if (index55b2 === 13) {
-        lessonLink = document.querySelector('.lesson-link-13');
-    }
-    if (index55b2 === 14) {
-        lessonLink = document.querySelector('.lesson-link-14');
-    }
-        if (index55b2 === 15) {
-        lessonLink = document.querySelector('.lesson-link-15');
-    }
-        if (index55b2 === 16) {
-        lessonLink = document.querySelector('.lesson-link-16');
-    }
-    if (index55b2 === 17) {
-        lessonLink = document.querySelector('.lesson-link-17');
-    }
-        if (index55b2 === 18) {
-        lessonLink = document.querySelector('.lesson-link-18');
-    }
-        if (index55b2 === 19) {
-        lessonLink = document.querySelector('.lesson-link-19');
-    }
-    if (lessonLink) {
-        lessonLink.click(); // Automatyczne kliknięcie ukrytego linka
-    }
-});
-
-                    $container.append($buttonb2);
                     // Dodanie diva z zdaniem do kontenera
                     $container.append($sentenceDiv);
                     tablica11.push(srcWords);

@@ -1818,9 +1818,9 @@ fiszki10.push(
         translate: "Chłopiec lubi czytać książki",
         translateb: "[De boj lajks tu rid buks]",
         translateb2: "[]",
-        srcWord: ["", ''],
-        srcWord2: ["", "Breaking Bad"],
-                                                                        opis: "",
+        srcWord: ["https://www.arbulang.com/filmy/readbook2.mp4", 'Breaking Bad'],
+        srcWord2: ["https://www.arbulang.com/filmy/readbook2.mp4", "Breaking Bad"],
+                                                                        opis: "Czytanie książki na kiblu",
         srcWordimage: "https://www.arbulang.com/filmy/children-outside.png",
         word: [
             "https://www.arbulang.com/voice/music.mp4"
@@ -1838,7 +1838,7 @@ fiszki10.push(
         ],
         sentence: [
             "The",
-            "boy",
+            "men",
             "likes",
             "to read",
             "books"
@@ -1854,14 +1854,14 @@ fiszki10.push(
             106
         ],
         img: "https://www.arbulang.com/img/fiszki1/369a.jpg",
-        story: "Chłopiec który uczy się pływać słyszy od nauczyciela: 'możesz narazie ze swoimi umiejętnościami tylko pływać do tej 'boji'",
-        desc: "boy[boj] - chłopiec",
+        story: "KOGNATY - MEN - MĘŻCZYZNA'",
+        desc: "men[men] - mężczyzna",
         sentence1: [
-            "boy"
+            "men"
         ],
         sentence: [
             "The",
-            "boy",
+            "men",
             "likes",
             "to read",
             "books"
@@ -1885,7 +1885,7 @@ fiszki10.push(
         ],
         sentence: [
             "The",
-            "boy",
+            "men",
             "likes",
             "to read",
             "books"
@@ -1912,7 +1912,7 @@ fiszki10.push(
         ],
         sentence: [
             "The",
-            "boy",
+            "men",
             "likes",
             "to read",
             "books"
@@ -1937,7 +1937,7 @@ fiszki10.push(
         ],
         sentence: [
             "The",
-            "boy",
+            "men",
             "likes",
             "to read",
             "books"
@@ -1960,10 +1960,10 @@ fiszki10.push(
             "https://www.arbulang.com/img/fiszki1/7e.jpg"
         ],
         translate: "On codziennie biega w parku",
-        translateb: "[hi rans in de park dejli]",
+        translateb: "[Hi rans in de park dejli]",
         translateb2: "[Hi is obidient]",
-        srcWord: ["", "Breaking Bad"],
-        srcWord2: ["", "Breaking Bad"],
+        srcWord: ["https://www.arbulang.com/filmy/running2.mp4", "Adrenalina (2009)"],
+        srcWord2: ["https://www.arbulang.com/filmy/running2.mp4", "Breaking Bad"],
         srcWordimage: "https://www.arbulang.com/filmy/procedure.png",
         word: [
             "https://www.arbulang.com/voice/bike.mp4"
@@ -1995,8 +1995,8 @@ fiszki10.push(
             59,
             107
         ],
-        img: "https://www.arbulang.com/img/fiszki1/362a.jpg",
-        story: "Biegnę szybko na moje ranczo z domu. Tam mam spokój",
+        img: "https://www.arbulang.com/img/fiszki1/374a.jpg",
+        story: "<u><b>Biegnę</u></b> szybko na moje <u><b>ran</u></b>czo z domu. Tam mam <u><b>s</u></b>pokój",
         desc: "runs[rans] - biegnie",
         sentence1: [
             "runs"
@@ -2041,10 +2041,10 @@ fiszki10.push(
             107
         ],
         img: [
-            "https://www.arbulang.com/img/fiszki1/364a.jpg"
+            "https://www.arbulang.com/img/fiszki1/376a.jpg"
         ],
         story: [
-            ""
+            "Ktoś <u><b>codziennie</u></b> mówi <u><b>'dej'</u></b> i <u><b>li</u></b>czy na fart"
         ],
         desc: "daily[dejli] - codziennie",
         sentence1: [
@@ -2076,9 +2076,8 @@ fiszki10.push(
         translate: "On pięknie śpiewa pod prysznicem",
         translateb: "[Hi sings bjutifuli in de szołer]",
         translateb2: "[]",
-        srcWord: ["", ""],
-        srcWord2: ["", "Breaking Bad"],
-        srcWordimage: "https://www.arbulang.com/filmy/procedure.png",
+        srcWord: ["https://www.arbulang.com/filmy/singingshower.mp4", "V for Vendetta (2005)"],
+        srcWordimage: "https://www.arbulang.com/filmy/singingshower.png",
         word: [
             "https://www.arbulang.com/voice/bike.mp4"
         ],
@@ -2103,7 +2102,7 @@ fiszki10.push(
             108
         ],
         img: "https://www.arbulang.com/img/fiszki1/362a.jpg",
-        story: "",
+        story: "Ktoś nie ma zębów i mówi masina zamiast maszyna. Bardziej woli śpiewać niż gwizdać",
         desc: "sings[sings] - śpiewa",
         sentence1: [
             "sings"

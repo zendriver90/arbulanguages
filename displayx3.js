@@ -437,6 +437,104 @@ function addBackgroundToText(matchingFiszki1, matchingIndexes, currentIndexValue
     <div class="sentence1c22">${sentence1c22}</div>
 </div>
 `);
+const startRange2 = 1;
+const endRange2 = 7;
+
+document.addEventListener('DOMContentLoaded', () => {
+    document.querySelectorAll('.category-btn').forEach(button => {
+        button.addEventListener('click', (event) => {
+            event.preventDefault();
+            selectedCategory = button.getAttribute('data-category');
+            updateButtonColors();
+        });
+    });
+});
+
+let previousTrojkiJSON = '';
+const tablica60 = [];
+const linkMap = {}; // mapa data-name -> link
+
+function updateButtonColors() {
+    tablica60.length = 0;
+    for (let key in linkMap) delete linkMap[key]; // reset mapy linków
+
+    const color = colorMapping[selectedCategory] || '#800080';
+
+    // Tworzymy tablicę z numerami wszystkich kontenerów
+    document.querySelectorAll('.sentence-block, .sentence-blockB').forEach(block => {
+        const dataName = parseInt(block.getAttribute('data-name'), 10);
+        tablica60.push(dataName);
+
+        if (dataName >= startRange2 && dataName <= endRange2) {
+            const button = block.querySelector('button.left-button, button.left-buttonb, button.left-buttonbb');
+            if (button) {
+                button.style.backgroundColor = color;
+                button.style.color = 'white';
+            }
+        }
+    });
+
+    // Tworzymy trójki z tablica60
+    const trojki = [];
+    for (let i = 0; i < tablica60.length; i += 3) {
+        trojki.push(tablica60.slice(i, i + 3));
+    }
+
+    // Jeśli mamy przesunięcie index50, przesuwamy tylko numery większe niż index50
+    if (typeof index50 !== 'undefined' && index50 !== null) {
+        for (let i = 0; i < trojki.length; i++) {
+            trojki[i] = trojki[i].map(num => (num > index50 ? num - 3 : num));
+        }
+    }
+
+    const currentTrojkiJSON = JSON.stringify(trojki);
+    if (currentTrojkiJSON !== previousTrojkiJSON) {
+        previousTrojkiJSON = currentTrojkiJSON;
+
+        // Usuwamy stare przyciski
+        $('.run-button3').remove();
+
+        // Tworzymy przyciski dla każdej trójki
+        trojki.forEach((trojka, i) => {
+            const lessonNumber = i + 1; // numer lekcji/grupy
+            const link = `demo1angielski.html?category=${selectedCategory}&data=${trojka.join(',')}`;
+
+            // zapis mapowania dla każdego elementu trójki (opcjonalne)
+            trojka.forEach(indexDiv => linkMap[indexDiv] = link);
+
+            // Tworzymy przycisk w pierwszym kontenerze trójki
+            const $container = $(`.sentence-block[data-name="${trojka[0]}"]`);
+            if ($container.length && !$container.find('.run-button3').length) {
+                const $buttonb2 = $('<button></button>')
+                    .addClass('run-button3')
+                    .text(`Otwórz lekcję ${lessonNumber}`)
+                    .attr('data-lesson', lessonNumber)
+                    .attr('data-link', link)
+                    .css({
+                        position: 'absolute',
+                        top: '5px',
+                        right: '5px',
+                        'z-index': 2000,
+                        color: 'white',
+                        'background-color': '#007bff',
+                        border: 'none',
+                        'border-radius': '4px',
+                        cursor: 'pointer'
+                    });
+                $container.append($buttonb2);
+            }
+        });
+    }
+}
+
+// Delegacja zdarzeń dla nowych przycisków
+$('body').off('click', '.run-button3').on('click', '.run-button3', function() {
+    const link = $(this).attr('data-link');
+    if (link) window.open(link, '_blank'); // otwiera w nowym oknie
+});
+
+// Uruchom na start
+setTimeout(updateButtonColors, 0);
 
                         }, 0);
 
@@ -930,7 +1028,7 @@ $videoElement.on('loadedmetadata', function () {
     // 🔹 Dodaj przycisk URUCHOM natychmiast – przed odliczaniem
     const $button = $('<button></button>')
         .addClass('run-button4')
-        .text('Uruchom')
+        .text('Uruchom-działa')
         .attr('data-index2', indexDiv)
         .on('click', function () {
             const index5 = $(this).attr('data-index2');
@@ -1186,6 +1284,7 @@ $videoElement.on('loadedmetadata', function () {
                                 addScenes(index);
                                 // Dodaj div z wideo do tła kontenera
                                 $vidDiv.appendTo($container);
+
                                 function updateProgress(progress) {
                                     // Aktualizuj pasek postępu na dole kontenera
                                     $('.progress-bar').css('width', progress + '%');
@@ -1307,6 +1406,37 @@ $videoElement.on('loadedmetadata', function () {
 
                                     stopButtonAdded = true;  // Flaga ustawiona na true, gdy przycisk został dodany
                                 }
+// Pobierz numer lekcji z data-lesson kontenera
+const lessonNumber = $container.attr('data-lesson');
+
+// Tworzymy przycisk tylko jeśli jeszcze go nie ma w kontenerze
+
+    const $buttonb2 = $('<button></button>')
+        .addClass('run-button3')
+        .text(`Otwórz lekcję ${lessonNumber}`) // faktyczny numer lekcji
+        .attr('data-lesson-number', lessonNumber)
+        .css({
+            position: 'absolute',
+            top: '5px',
+            right: '5px',
+            'z-index': 2000,
+            color: 'white',
+            'background-color': '#007bff',
+            border: 'none',
+            'border-radius': '4px',
+            padding: '5px 10px',
+            cursor: 'pointer'
+        });
+
+    // Kliknięcie otwiera link do całej trójki (lekcji)
+    $buttonb2.on('click', function () {
+        const lessonNum = parseInt($(this).attr('data-lesson-number'), 10);
+        const startIndex = (lessonNum - 1) * 3 + 1;
+        const link = `demo1angielski.html?category=${selectedCategory}&data=${startIndex},${startIndex + 1},${startIndex + 2}`;
+        window.open(link, '_blank');
+    });
+
+    $container.append($buttonb2);
                             }
                             setTimeout(function () {
                                 addVideo1(0);
@@ -1519,6 +1649,37 @@ $videoElement.on('loadedmetadata', function () {
 
                                     stopButtonAdded = true;  // Flaga ustawiona na true, gdy przycisk został dodany
                                 }
+// Pobierz numer lekcji z data-lesson kontenera
+const lessonNumber = $container.attr('data-lesson');
+
+// Tworzymy przycisk tylko jeśli jeszcze go nie ma w kontenerze
+
+    const $buttonb2 = $('<button></button>')
+        .addClass('run-button3')
+        .text(`Otwórz lekcję ${lessonNumber}`) // faktyczny numer lekcji
+        .attr('data-lesson-number', lessonNumber)
+        .css({
+            position: 'absolute',
+            top: '5px',
+            right: '5px',
+            'z-index': 2000,
+            color: 'white',
+            'background-color': '#007bff',
+            border: 'none',
+            'border-radius': '4px',
+            padding: '5px 10px',
+            cursor: 'pointer'
+        });
+
+    // Kliknięcie otwiera link do całej trójki (lekcji)
+    $buttonb2.on('click', function () {
+        const lessonNum = parseInt($(this).attr('data-lesson-number'), 10);
+        const startIndex = (lessonNum - 1) * 3 + 1;
+        const link = `demo1angielski.html?category=${selectedCategory}&data=${startIndex},${startIndex + 1},${startIndex + 2}`;
+        window.open(link, '_blank');
+    });
+
+    $container.append($buttonb2);
                             }
                             setTimeout(function () {
                                 addVideo1b(0);
@@ -1601,107 +1762,8 @@ $button.css({
 
 // Dodanie przycisku do kontenera – OD RAZU po jego stworzeniu
 $container.append($button);
-                    
-                    const $buttonb2 = $('<button></button>');
-$buttonb2.addClass('run-button3');
-$buttonb2.text('Otwórz lekcję w nowym oknie');
 
-// Dodajemy atrybut 'data-index2' z wartością indexDiv do przycisku
-$buttonb2.attr('data-index2', indexDiv);
-$buttonb2.on('click', function () {
-    const $clickedContainer = $container; // Przypisz kliknięty kontener do zmiennej
 
-    // Dodaj tło do nieklikniętych kontenerów
-    $('.image-container3').not($clickedContainer).each(function () {
-        const $container = $(this);
-        if ($container.find('.background-overlay').length === 0) {
-            $('<div>')
-                .addClass('background-overlay')
-                .css({
-                    'position': 'absolute',
-                    'top': '0',
-                    'left': '0',
-                    'width': '100%',
-                    'height': '100%',
-                    'background-color': 'blue',
-                    'opacity': '0.35',
-                    'z-index': '1000'
-                })
-                .appendTo($container);
-        }
-    });
-
-    // Usuń klasę .background-overlay po powrocie na stronę
-    $(window).on('pageshow', function () {
-        $('.background-overlay').remove();
-    });
-
-    const index5b2 = $buttonb2.attr('data-index2');
-    const index55b2 = parseInt(index5b2, 10);
-
-    // Znajdź ukryty link i kliknij go
-    let lessonLink = null;
-    if (index55b2 === 1) {
-        lessonLink = document.querySelector('.lesson-link-1');
-    }
-    if (index55b2 === 2) {
-        lessonLink = document.querySelector('.lesson-link-2');
-    }
-        if (index55b2 === 3) {
-        lessonLink = document.querySelector('.lesson-link-3');
-    }
-        if (index55b2 === 4) {
-        lessonLink = document.querySelector('.lesson-link-4');
-    }
-    if (index55b2 === 5) {
-        lessonLink = document.querySelector('.lesson-link-5');
-    }
-        if (index55b2 === 6) {
-        lessonLink = document.querySelector('.lesson-link-6');
-    }
-        if (index55b2 === 7) {
-        lessonLink = document.querySelector('.lesson-link-7');
-    }
-        if (index55b2 === 8) {
-        lessonLink = document.querySelector('.lesson-link-8');
-    }
-        if (index55b2 === 9) {
-        lessonLink = document.querySelector('.lesson-link-9');
-    }
-        if (index55b2 === 10) {
-        lessonLink = document.querySelector('.lesson-link-10');
-    }
-            if (index55b2 === 11) {
-        lessonLink = document.querySelector('.lesson-link-11');
-    }
-        if (index55b2 === 12) {
-        lessonLink = document.querySelector('.lesson-link-12');
-    }
-        if (index55b2 === 13) {
-        lessonLink = document.querySelector('.lesson-link-13');
-    }
-    if (index55b2 === 14) {
-        lessonLink = document.querySelector('.lesson-link-14');
-    }
-        if (index55b2 === 15) {
-        lessonLink = document.querySelector('.lesson-link-15');
-    }
-        if (index55b2 === 16) {
-        lessonLink = document.querySelector('.lesson-link-16');
-    }
-    if (index55b2 === 17) {
-        lessonLink = document.querySelector('.lesson-link-17');
-    }
-        if (index55b2 === 18) {
-        lessonLink = document.querySelector('.lesson-link-18');
-    }
-        if (index55b2 === 19) {
-        lessonLink = document.querySelector('.lesson-link-19');
-    }
-    if (lessonLink && lessonLink.href) {
-        window.location.href = lessonLink.href; // ⬅️ otwieranie w tym samym oknie
-    }
-});
 
                     $container.append($buttonb2);
                     // Dodanie diva z zdaniem do kontenera
