@@ -443,18 +443,69 @@ function addBackgroundToText(matchingFiszki1, matchingIndexes, currentIndexValue
                     }
 
 
-// Tworzymy nowy kontener
+// Tworzymy kontener .image-container3
 const $container = $('<div></div>');
 $container.addClass('image-container3');
-$container.css('position', 'relative');
+$container.css({
+    position: 'relative',
+    width: '100%',
+    zIndex: 2000
+});
 $container.attr('data-lesson', indexDiv);
+$('.grid-container').append($container);
+
+// przycisk w grid-container
+const $button = $('<button></button>')
+    .addClass('run-button4')
+    .text('Uruchom-działa')
+    .attr('data-index2', indexDiv)
+    .css({
+        position: 'absolute',
+        zIndex: 999999, // żeby zawsze był na wierzchu
+        background: 'white',
+        border: '1px solid #aaa'
+    })
+    .on('click', function () {
+        const index5 = $(this).attr('data-index2');
+        const index55 = parseInt(index5, 10);
+
+        setTimeout(() => {
+            console.log('Kliknięto przycisk o indeksie:', index55);
+            przekazArgument0(
+                tablica7[0], tablica3[2], index55,
+                true, tablica3[0], true, true,
+                tablica3[1], tablica3[4],
+                false, '', '', '', '', indexDivRange
+            );
+        }, 100);
+    })
+    .appendTo('.grid-container');
+
+// Funkcja aktualizująca pozycję przycisku względem kontenera
+function updateButtonPosition() {
+    if ($container.length && $button.length) {
+        const offset = $container.offset(); // pozycja względem dokumentu
+        const gridOffset = $('.grid-container').offset(); // pozycja grid-container
+        // ustaw pozycję absolutną w grid-container
+        $button.css({
+            top: offset.top - gridOffset.top - 10 + 'px',  // 10px nad kontenerem
+            left: offset.left - gridOffset.left + 10 + 'px'
+        });
+    }
+    requestAnimationFrame(updateButtonPosition);
+}
+
+// Uruchamiamy pętlę aktualizującą pozycję
+updateButtonPosition();
 
 
-const $insertedContainer = $(`.image-container3b[data-lesson="${indexDiv + 1}"]`);
+const $insertedContainer = $(`.image-container3b[data-lesson="${indexDiv + 1}"],
+                             .image-container3b[data-lesson="${indexDiv + 2}"]`);
+
 if ($insertedContainer.length > 0) {
-    $container.insertBefore($insertedContainer);
+    $container.insertBefore($insertedContainer.first());
 } else {
-    // JeĹli nie ma takiego kontenera, dodaj na koniec
+    // Jeśli nie ma takiego kontenera, dodaj na koniec
     $('.grid-container').append($container);
 }
 
@@ -918,96 +969,250 @@ $videoElement.on('loadedmetadata', function () {
                             }, 200);
                         }
                         } else if ((newIndex === 0 || newIndex10 === 0) && !buttonindex && !isSearching && number) {
+                            $('.image-container3b').each(function() {
+  this.style.setProperty('position', 'relative', 'important');
+  this.style.setProperty('z-index', '1', 'important');
+});
+    // === przygotowanie kontenera ===
+    const $gridContainer = $('.grid-container');
+    $gridContainer.css('position', 'relative');
 
-    // Ograniczamy caĹy kontener
+    // ===========================
+    // Funkcje i przyciski "nike" (tylko ramka podczas odliczania; fill po zakończeniu)
+    // ===========================
+    function makeNikeButton(storageKey, title) {
+        const $btn = $('<button class="nike-button" aria-label="' + title + '"></button>');
+        $btn.html('<span class="nike-icon">✓</span>');
+        $btn.data('storageKey', storageKey);
+        $btn.css({
+            width: '44px',
+            height: '44px',
+            padding: '0',
+            display: 'flex',
+            alignItems: 'center',
+            justifyContent: 'center',
+            'border-radius': '8px',
+            border: '3px solid #aaa',
+            'background-color': 'transparent',
+            color: '#444',
+            cursor: 'pointer',
+            position: 'relative',
+            overflow: 'hidden',
+            'font-size': '18px',
+            'line-height': '1'
+        });
+        return $btn;
+    }
+
+function restoreNikeButtonState($btn) {
+    const key = $btn.data('storageKey');
+    if (localStorage.getItem(key) === 'done') {
+        $btn.addClass('filled');
+        $btn.css({
+            'background-color': 'green',
+            color: 'black',        // ikona ✓ czarna
+            border: '3px solid green'
+        });
+    } else {
+        $btn.removeClass('filled');
+        $btn.css({
+            'background-color': 'transparent',
+            color: '#444',
+            border: '3px solid #aaa'
+        });
+    }
+}
+
+function setNikeActive($btn) {
+    $btn.addClass('active');
+    $btn.css({
+        'border': '5px solid green',  // teraz grubsza ramka
+        'background-color': 'transparent',
+        color: '#444'                 // ikona pozostaje czarna
+    });
+}
+
+    function clearNikeActive($btn) {
+        $btn.removeClass('active');
+        if (!$btn.hasClass('filled')) $btn.css('border-color', '#aaa');
+    }
+
+    function resetNikeButtons() {
+        [$nike1, $nike2, $nike3].forEach(btn => {
+            if (!btn.hasClass('filled')) {
+                btn.find('.fill-bar').remove();
+                btn.css({'background-color':'transparent', color:'#444', 'border-color': '#aaa'});
+            }
+            btn.removeClass('active');
+        });
+    }
+
+    // finishNikeFill -> dopiero tutaj tworzymy fill-bar i zapisujemy stan
+function finishNikeFill($btn, storageKey) {
+    if (localStorage.getItem(storageKey) === 'done') {
+        restoreNikeButtonState($btn);
+        return;
+    }
+
+    // Usuń ewentualne active klasy
+    $btn.removeClass('active');
+
+    // Ustaw styl "pełnego wypełnienia" – zielone tło, czarna ikona
+    $btn.addClass('filled');
+    $btn.css({
+        'background-color': 'green',
+        color: 'black',          // ikona ✓ czarna
+        border: '3px solid green'
+    });
+
+    // Zapisz w localStorage
+    localStorage.setItem(storageKey, 'done');
+}
+
+    // convenience: jeśli chcesz aby nike "samo" uruchomiło i samo skończyło (np. przypadek tablica55)
+function startNikeAuto(duration, $btn, storageKey) {
+    if (localStorage.getItem(storageKey) === 'done') {
+        restoreNikeButtonState($btn);
+        return;
+    }
+
+    // ustaw ramkę aktywną dla tego przycisku
+    setNikeActive($btn);
+
+    // po odliczaniu wypełnienie
+    setTimeout(() => {
+        finishNikeFill($btn, storageKey);
+    }, duration);
+}
+    // Tworzymy 3 "nike" przyciski
+// Tworzymy 3 "nike" przyciski
+const $nike1 = makeNikeButton('nike1Done', 'Nike 1');
+const $nike2 = makeNikeButton('nike2Done', 'Nike 2');
+const $nike3 = makeNikeButton('nike3Done', 'Nike 3');
+
+// Kontener na przyciski – teraz GLOBALNY, a nie w grid-container
+const $buttonsContainer = $('<div id="nikeBar"></div>').css({
+    position: 'fixed',     // <<< klucz
+    bottom: '10px',        // odległość od dołu ekranu
+    right: '20px',         // odległość od prawej
+    display: 'flex',
+    flexDirection: 'row',
+    gap: '12px',
+    zIndex: 9999999999,          // <<< klucz – wyżej niż wszystko
+    'background-color': 'rgba(255,255,255,0.8)',
+    'padding': '8px',
+    'border-radius': '12px',
+    'box-shadow': '0 2px 8px rgba(0,0,0,0.3)'
+});
+
+$buttonsContainer.append($nike1, $nike2, $nike3);
+$('body').append($buttonsContainer); // <<< WAŻNE – do body, a nie do grid-container
+
+    // Przywróć stan z localStorage dla każdego nike
+    [$nike1, $nike2, $nike3].forEach(btn => restoreNikeButtonState(btn));
+
+    // opcjonalne kliknięcia (jeżeli chcesz manualne uruchamianie)
+    $nike1.on('click', () => {
+        if (localStorage.getItem('nike1Done') !== 'done') {
+            // pokaż ramkę (active) i ustaw szybką auto-symulację fill po 8s:
+            startNikeAuto(8000, $nike1, 'nike1Done');
+        }
+    });
+    $nike2.on('click', () => {
+        if (localStorage.getItem('nike2Done') !== 'done') startNikeAuto(8000, $nike2, 'nike2Done');
+    });
+    $nike3.on('click', () => {
+        if (localStorage.getItem('nike3Done') !== 'done') startNikeAuto(8000, $nike3, 'nike3Done');
+    });
+
+    // Jeżeli chcesz, aby przy tablica55 uruchamiał się automatycznie, użyj startNikeAuto
+    if (tablica55 && tablica55[0] === true) {
+        // uruchamia ramkę natychmiast; po 8000ms wypełni się
+        startNikeAuto(8000, $nike1, 'nike1Done');
+    }
+    if (tablica55 && tablica55[2] === true) {
+        startNikeAuto(8000, $nike2, 'nike2Done');
+    }
+
+    // ===========================
+    // Dalej: Twój oryginalny kontener + licznik (integracja)
+    // ===========================
     $container.css({
       'position': 'relative',
       'height': '100px',
       'overflow': 'hidden',
-      'border': '1px solid #ccc'  // dla testu, widoczna granica
+      'border': '1px solid #ccc'
     });
 
-    // đš Dodaj przycisk URUCHOM natychmiast â przed odliczaniem
-    const $button = $('<button></button>')
-        .addClass('run-button4')
-        .text('Uruchom-dziaĹa')
-        .attr('data-index2', indexDiv)
-        .on('click', function () {
-            const index5 = $(this).attr('data-index2');
-            const index55 = parseInt(index5, 10);
-            setTimeout(() => {
-                console.log('KlikniÄto przycisk o indeksie:', index55);
-                przekazArgument0(
-                    tablica7[0], tablica3[2], index55,
-                    true, tablica3[0], true, true,
-                    tablica3[1], tablica3[4],
-                    false, '', '', '', '', '100', indexDiv0, indexDiv0b
-                );
-            }, 100);
-        });
 
-    $button.css({
+
+// Tworzenie licznika w kontenerze
+const $countdown = $('<p>')
+    .attr('id', 'countdown-timer')
+    .css({
+        'font-size': '14px',       // standardowa wielkość liter na PC
+        'font-weight': 'bold',
+        'color': 'green',
+        'margin': '0 auto',        // automatyczne marginesy do wycentrowania
         'position': 'absolute',
-        'left': '10px',        // lewa krawÄdĹş kontenera
-        'top': '30px',         // poniĹźej licznika
-        'font-size': '14px',
-        'height': '36px',
-        'width': '120px',
-        'color': 'white',
-        'background-color': 'blue',
-        'border': '1px solid #aaa',
-        'border-radius': '6px',
-        'cursor': 'pointer'
-    });
+        'top': '0px',
+        'left': '50%',             // ustawienie na środek
+        'transform': 'translateX(-50%)', // korekta przesunięcia
+        'z-index': '10',
+        'line-height': '30px',
+        'height': '30px',
+        'width': '250px',
+        'text-align': 'center',
+        'user-select': 'none',
+        'text-transform': 'none'   // normalne litery, nie uppercase
+    })
+    .text('30 sekund do uruchomienia filmów');
 
-    $container.append($button);
+$container.append($countdown);
 
-    // đš Licznik odliczania
-    const $countdown = $('<p>')
-        .attr('id', 'countdown-timer')
-        .css({
-            'font-size': '20px',
-            'font-weight': 'bold',
-            'color': 'red',
-            'margin': '0',
-            'position': 'absolute',
-            'top': '8px',
-            'left': '130px',
-            'z-index': '10',
-            'line-height': '30px',
-            'height': '30px',
-            'width': '40px',
-            'text-align': 'center',
-            'user-select': 'none'
-        })
-        .text('8');
+// Responsywność dla smartfona
+const style = document.createElement('style');
+style.innerHTML = `
+  @media (max-width: 480px) {
+    #countdown-timer {
+      font-size: 14px !important; /* mniejsze litery na telefon */
+      width: 200px !important;    /* dostosowana szerokość */
+    }
+  }
+`;
+document.head.appendChild(style);
 
-    $container.append($countdown);
+// === INTEGRACJA: przed startem lokalnego licznika ustawiamy tylko RAMKĘ na zielono ===
+if (localStorage.getItem('nike1Done') !== 'done') {
+    setNikeActive($nike1);
+}
 
-    // TwĂłj kod tworzenia licznika
-    let counter = 8;
-    let countdownInterval = setInterval(() => {
-        counter--;
-        $countdown.text(counter);
+// Start lokalnego licznika (30s)
+let counter = 30;
+let countdownInterval = setInterval(() => {
+    counter--;
+    $countdown.text(counter + ' sekund do uruchomienia filmów');
 
-        if (counter === 0) {
-            clearInterval(countdownInterval);
-            $countdown.remove();
-            przekazArgument0(
-                tablica7[0], tablica3[2], undefined, false,
-                tablica3[0], true, true, tablica3[1], tablica3[4],
-                false, '', '', '', '', '100', indexDiv0, indexDiv0b
-            );
-        }
-    }, 1000);
+    if (counter === 0) {
+        clearInterval(countdownInterval);
+        $countdown.remove();
 
-    // zapisz interval w zmiennej globalnej lub w closure
+        finishNikeFill($nike1, 'nike1Done');
+
+        przekazArgument0(
+            tablica7[0], tablica3[2], undefined, false,
+            tablica3[0], true, true, tablica3[1], tablica3[4],
+            false, '', '', '', '', '100', indexDiv0, indexDiv0b
+        );
+    }
+}, 1000);
+
     window.myCountdownInterval = countdownInterval;
 
-    // đš Kontener na tekst + propozycje
+    // Kontener na tekst + propozycje
     const $textContainer = $('<div></div>').css({
       'position': 'absolute',
-      'top': '20px', // poniĹźej przycisku i licznika
+      'top': '20px',
       'left': '0',
       'right': '0',
       'bottom': '0',
@@ -1018,73 +1223,70 @@ $videoElement.on('loadedmetadata', function () {
       'background-color': '#f9f9f9'
     });
 
-    // Dodaj tekst informacyjny
 $textContainer.append(
-  $('<p>')
-    .text('MoĹźe zainteresujÄ CiÄ kadry z tych filmĂłw:')
-    .css({
-      'margin': '5px 0 8px 0',
-      'font-weight': 'bold'
-    })
+    $('<p>')
+        .text('Może zainteresują Cię kadry z tych filmów:')
+        .addClass('text-intro')
 );
-
-// Iterujemy rĂłwnolegle przez nazwy i miniaturki
+    // Iteracja Twoich list (srcWords2, srcWordsb, srcWordsf)
 srcWords2.forEach((name, idxLesson) => {
     if (!name) return;
 
     const thumb = srcWordsb[idxLesson] || '';
     const textF = srcWordsf[idxLesson] || '';
 
-    const $item = $('<div></div>').css({
-        display: 'grid',
-        'grid-template-columns': '60px 1fr', // miniaturka | prawa kolumna
-        gap: '10px',
-        alignItems: 'center',  // wyrĂłwnanie do Ĺrodka miniaturki
-        margin: '6px 0',
-        padding: '4px',
-        'border-bottom': '1px solid #ddd'
-    });
+    const $item = $('<div></div>').addClass('video-item');
+    const $img = $('<img>').attr('src', thumb).attr('alt', name)
+        .on('error', function() { $(this).css({'background':'#ccc'}).attr('alt','Brak miniatury'); })
+        .addClass('video-thumb');
 
-    const $img = $('<img>')
-        .attr('src', thumb)
-        .attr('alt', name)
-        .on('error', function() {
-            $(this).css({'background': '#ccc'}).attr('alt', 'Brak miniatury');
-        })
-        .css({
-            width: '60px',
-            height: '40px',
-            'object-fit': 'cover',
-            'border-radius': '4px'
-        });
+    const $rightCol = $('<div></div>').addClass('video-text');
+    const $videoName = $('<p></p>').text(name).addClass('video-name');
+    const $videoTextF = $('<p></p>').text(textF).addClass('video-subtext');
 
-    // Prawa kolumna: nazwa i opis w pionie
-    const $rightCol = $('<div></div>').css({
+    // ===== kontener opisu + ikonka =====
+    const $descContainer = $('<div></div>').css({
         display: 'flex',
-        'flex-direction': 'column',
-        gap: '2px',  // odstÄp miÄdzy nazwÄ a opisem
-        'justify-content': 'center'  // wyĹrodkowanie w pionie w stosunku do miniaturki
+        alignItems: 'center',
+        gap: '8px'
     });
+    $videoTextF.css({margin:0, flex:1});
+    const $icon = $('<span></span>').text('🔄').css({
+        cursor: 'pointer',
+        fontSize: '20px',
+        userSelect: 'none'
+    }).attr('title','Odśwież dane fiszki');
 
-    const $videoName = $('<p></p>')
-        .text(name)
-        .css({
-            'font-weight': 'bold',
-            margin: '0',
-            'font-size': '12px'
-        });
-
-    const $videoTextF = $('<p></p>')
-        .text(textF)
-        .css({
-            margin: '0',
-            'font-size': '10px',
-            color: '#555'
-        });
-
-    $rightCol.append($videoName, $videoTextF);
+    $descContainer.append($videoTextF, $icon);
+    $rightCol.append($videoName, $descContainer);
     $item.append($img, $rightCol);
     $textContainer.append($item);
+
+$icon.on('click', function() {
+    // Tworzymy kontener na Twoje zdanie
+    const $sentenceDivB = $('<div></div>').addClass('sentenceBA');
+
+    // Wywołanie Twojej funkcji generującej zdania
+    addBackgroundToText(matchingFiszki1, matchingIndexes, '1', true, lesson1FirstPartLength, lesson1PartLength, matchingLessons5b);
+
+    // Wstawienie wygenerowanych zdań do kontenera
+    $sentenceDivB.html(`
+        <div class="sentence-blockB" data-name="${matchingFiszki1[0]?.id[1] || 'unknown1'}">
+            ${sentence10}${sentence11}<br>
+        </div>
+    `);
+
+    // Stylizacja kontenera
+    $sentenceDivB.css({
+        'position': 'absolute',
+        'margin-top': '10px',
+        'text-align': 'center',
+        'z-index': '100'
+    });
+
+    // Dodanie kontenera do elementu wideo
+    $item.append($sentenceDivB);
+});
 });
 
     $container.append($textContainer);
@@ -1314,7 +1516,7 @@ const lessonNumber = $container.attr('data-lesson');
 
     const $buttonb2 = $('<button></button>')
         .addClass('run-button3')
-        .text(`Otwórz lekcję ${lessonNumber}`) // faktyczny numer lekcji
+        .text(`Otwórz lekcję`) // faktyczny numer lekcji
         .attr('data-lesson-number', lessonNumber)
         .css({
             position: 'absolute',
@@ -1626,40 +1828,6 @@ const lessonNumber = $container.attr('data-lesson');
                             'z-index': '100'
                         });
                     }
-// Tworzenie przycisku
-const $button = $('<button></button>')
-    .addClass('run-button')
-    .text('Uruchom') // Tekst przycisku
-    .attr('data-index2', indexDiv)
-    .on('click', function () {
-        const index5 = $(this).attr('data-index2');
-        const index55 = parseInt(index5, 10);
-
-        setTimeout(() => {
-            console.log('KlikniÄto przycisk o indeksie:', index55);
-            przekazArgument0(
-                tablica7[0], tablica3[2], index55,
-                true, tablica3[0], true, true,
-                tablica3[1], tablica3[4],
-                false, '', '', '', '', indexDivRange, indexDiv0, indexDiv0b
-            );
-        }, 100);
-    });
-
-// Stylowanie przycisku â widoczny od razu
-$button.css({
-    'position': 'absolute',
-    'right': '-200px',       // Dopasuj pozycjÄ wedĹug potrzeb
-    'top': '5px',
-    'font-size': '10px',
-    'height': '30px',
-    'width': '170px',
-    'color': 'blue',
-    'background-color': 'white',
-    'z-index': '12',         // WyĹźszy niĹź inne elementy
-    'border': '1px solid #aaa',
-    'cursor': 'pointer'
-});
 
 // Dodanie przycisku do kontenera â OD RAZU po jego stworzeniu
 $container.append($button);

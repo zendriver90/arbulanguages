@@ -2,7 +2,7 @@ const urlParams = new URLSearchParams(window.location.search);
             const category = urlParams.get('category');
                         const tablica11 = [];
                         
-function showCombinedSentenceForLesson22b(number1, number2, selectedCategory, matchingIndexes3, rodzaj, matchingIndexes2, buttonindex, index50, lessonIdToShow1, lessonIdToShow2, lessonIdToShow3, fiszki, matchingIndexes, startIndex, newIndex, newIndex5, newIndex10, indexDiv, indexDiv0, indexDiv0b, indexDiv0b2, lessonsArray, lesson1PartLength, lesson2PartLength, lesson3PartLength, lesson1Sentences, lesson2Sentences, lesson3Sentences, lesson1FirstPartLength, lesson2FirstPartLength, lesson3FirstPartLength, lesson1SecondPartLength, lesson2SecondPartLength, lesson3SecondPartLength, cumulativeFirstPartLength1, cumulativeFirstPartLength2, cumulativeFirstPartLength3, lessonsArrayZ, matchingLessons5, matchingLessons5b, isSearching) {      
+function showCombinedSentenceForLesson22b(number1, number2, selectedCategory, matchingIndexes3, rodzaj, matchingIndexes2, buttonindex, index50, lessonIdToShow1, lessonIdToShow2, lessonIdToShow3, fiszki, matchingIndexes, startIndex, newIndex, newIndex5, newIndex10, indexDiv, indexDiv0, indexDiv0b, newIndex10d, lessonsArray, lesson1PartLength, lesson2PartLength, lesson3PartLength, lesson1Sentences, lesson2Sentences, lesson3Sentences, lesson1FirstPartLength, lesson2FirstPartLength, lesson3FirstPartLength, lesson1SecondPartLength, lesson2SecondPartLength, lesson3SecondPartLength, cumulativeFirstPartLength1, cumulativeFirstPartLength2, cumulativeFirstPartLength3, lessonsArrayZ, matchingLessons5, matchingLessons5b, isSearching) {      
     console.log('hejhej11v', matchingLessons5b);
                             let tablica60 = [];
                 const matchingFiszki1 = fiszki10.filter(fiszka => fiszka.id[1] === lessonIdToShow1);
@@ -441,9 +441,21 @@ trojki.forEach((trojka, i) => {
     // Tworzymy przycisk tylko w pierwszym elemencie trójki
     const firstIndex = trojka[0];
     const $container = $(`.sentence-block[data-name="${firstIndex}"]`);
-    const $buttonb2 = $('<button></button>');
+    const $buttonb2 = $('<button></button>')
+        .css({
+            position: 'absolute',
+            top: '60px',
+            right: '5px',
+            'z-index': 2000,
+            color: 'white',
+            'background-color': '#007bff',
+            border: 'none',
+            'border-radius': '4px',
+            padding: '5px 10px',
+            cursor: 'pointer'
+        });
     $buttonb2.addClass('run-button3');
-    $buttonb2.text(`Otwórz lekcję ${lessonNumber}`);
+    $buttonb2.text(`Otwórz lekcję tutaj`);
     $buttonb2.attr('data-index2', firstIndex);
     $container.append($buttonb2);
 });
@@ -1209,6 +1221,7 @@ function updateButtonColors() {
 
                     // Możesz również dodać dodatkowe atrybuty, takie jak 'data-lesson'
                     $container.attr('data-lesson', indexDiv);
+
                     if (newIndex10 !== null) {
                     const $container2b = $(`.image-container3b[data-lesson="${indexDiv0b}"]`);
                 console.log('data-lesson10', $container2b);            
@@ -1218,32 +1231,43 @@ if ($container2b.length > 0) {
     $container2b.remove();
 }
                     }
+                                        if (newIndex10d !== null) {
+                    const $container2bv = $(`.image-container3b[data-lesson="${newIndex10d}"]`);
+                console.log('data-lesson10', $container2bv);            
+
+if ($container2bv.length > 0) {
+        console.log('Usunięto kontener2b o data-lesson', $container2bv);
+    $container2bv.remove();
+}
+                    }
 if (newIndex10 === null) {
-const $container2 = $(`.image-container3b[data-lesson="${indexDiv0 + 1}"]`);
-if ($container2.length > 0) {
-    $container.insertBefore($container2);
-} else {
-    // Jeśli nie ma takiego kontenera, dodaj na koniec
-    $('.grid-container').append($container);
+    const $container2 = $(`.image-container3b[data-lesson="${indexDiv0 + 1}"], 
+                          .image-container3b[data-lesson="${indexDiv0 + 2}"]`);
+    if ($container2.length > 0) {
+        $container.insertBefore($container2.first());
+    } else {
+        $('.grid-container').append($container);
+    }
 }
-}
+
 if (number1) {
-const $container2 = $(`.image-container3b[data-lesson="${indexDiv0b + 1}"]`);
-if ($container2.length > 0) {
-    $container.insertBefore($container2);
-} else {
-    // Jeśli nie ma takiego kontenera, dodaj na koniec
-    $('.grid-container').append($container);
+    const $container2 = $(`.image-container3b[data-lesson="${indexDiv0b + 1}"], 
+                          .image-container3b[data-lesson="${indexDiv0b + 2}"]`);
+    if ($container2.length > 0) {
+        $container.insertBefore($container2.first());
+    } else {
+        $('.grid-container').append($container);
+    }
 }
-}
+
 if (number2) {
-const $container2 = $(`.image-container3b[data-lesson="${indexDiv0b + 1}"]`);
-if ($container2.length > 0) {
-    $container.insertBefore($container2);
-} else {
-    // Jeśli nie ma takiego kontenera, dodaj na koniec
-    $('.grid-container').append($container);
-}
+    const $container2 = $(`.image-container3b[data-lesson="${indexDiv0b + 1}"], 
+                          .image-container3b[data-lesson="${indexDiv0b + 2}"]`);
+    if ($container2.length > 0) {
+        $container.insertBefore($container2.first());
+    } else {
+        $('.grid-container').append($container);
+    }
 }
 
 
@@ -1868,7 +1892,7 @@ if (window.matchMedia("(max-width: 999px)").matches) {
                             addBackgroundToText2b(matchingFiszki2, matchingIndexes, true, lesson2PartLength, matchingIndexes2, rodzaj, matchingIndexes3, matchingLessons5b);
                             addBackgroundToText3b(matchingFiszki3, matchingIndexes, true, lesson3PartLength, matchingIndexes2, rodzaj, matchingIndexes3, matchingLessons5b);
                         }
-                        if (newIndex !== 0) {
+                        if (newIndex !== 0 || newIndex === 0) {
                         setTimeout(function () {
                             addVideo3(0);
                         }, 100);
@@ -1877,7 +1901,7 @@ if (window.matchMedia("(max-width: 999px)").matches) {
                     // Stwórz przycisk za pomocą jQuery
                     // Tworzenie nowego elementu div za pomocą jQuery
 
-                   if ((index50 === 0 && buttonindex) || (newIndex === 0 && !buttonindex)) {
+                   if ((index50 === 0 && buttonindex)) {
     var $sentenceDivB = $('<div></div>');
     $sentenceDivB.addClass('sentenceBA');
 
@@ -1910,7 +1934,7 @@ if (window.matchMedia("(max-width: 999px)").matches) {
                             'text-align': 'center',
                             'z-index': '100'
                         });
-                    } else {
+                    } else if (newIndex === 0 || newIndex !== 0) {
     var $sentenceDiv = $('<div></div>');
     $sentenceDiv.addClass('sentence');
 
@@ -1949,6 +1973,7 @@ if (window.matchMedia("(max-width: 999px)").matches) {
         'z-index': '5'
     });
 }
+
 // Tworzenie przycisku
 const $button = $('<button></button>')
     .addClass('run-button')

@@ -32,6 +32,74 @@
         <meta name="keywords" content="naucz się angielskiego, 1000 angielskich słów, szybka nauka angielskiego, jak nauczyć się angielskiego, jak szybko nauczyć się języka, nauka angielskiego z przyjemnością" />
         <style>
             @media (min-width: 999px) {
+                .text-intro {
+    margin: 5px 0 8px 0;
+    font-weight: bold;
+    font-size: 12px; /* standardowa wielkość na PC */
+}
+                .video-item {
+    display: grid;
+    grid-template-columns: 60px 1fr;
+    gap: 10px;
+    align-items: center;
+    margin: 6px 0;
+    padding: 4px;
+    border-bottom: 1px solid #ddd;
+}
+
+.video-thumb {
+    width: 60px;
+    height: 40px;
+    object-fit: cover;
+    border-radius: 4px;
+}
+
+.video-text {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    justify-content: center;
+}
+
+.video-name {
+    font-weight: bold;
+    margin: 0;
+    font-size: 12px;
+}
+
+.video-subtext {
+    margin: 0;
+    font-size: 10px;
+    color: #555;
+}
+                #adblockMessage {
+  display: none;
+  width: 500px;
+  max-width: 90%; /* żeby na małych ekranach nie wychodziło poza ekran */
+  position: fixed;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: #ffdddd;
+  color: #000;
+  border: 1px solid #f00;
+  padding: 15px;
+  font-family: sans-serif;
+  z-index: 99999999;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+  border-radius: 8px;
+}
+
+#adblockMessage button {
+  float: right;
+  background: #f00;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  font-weight: bold;
+  border-radius: 4px;
+}
                                 .image-container3 .run-button4 {
                     margin-top: -40px;
                     text-align: center;
@@ -449,15 +517,25 @@ span.highlight {
                     align-items: center;
                     font-size: 20px;
                 }
+                                                .image-container2b {
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    background-color: gray;
+                    width: 330px;
+                    position: relative;
+                    height: 100px;
+                    margin-bottom: 0px;
+                    align-items: center;
+                    font-size: 20px;
+                }
 
                 .image-container3 {
                     display: flex;
                     flex-direction: column;
                     justify-content: center;
-                    background-color: blue;
                     width: 100%;
                     position: relative;
-                    min-height: 250px;
                     min-height: 220px;
                     height: auto;
                     margin-bottom: 0px;
@@ -472,7 +550,6 @@ span.highlight {
                     background-color: blue;
                     width: 100%;
                     position: relative;
-                    min-height: 250px;
                     min-height: 220px;
                     height: auto;
                     margin-bottom: 0px;
@@ -955,14 +1032,80 @@ span.highlight {
                 }
             }
             @media (max-width: 999px) {
-                .image-container3 .run-button4 {
-                    margin-top: -40px;
+                                .grid-containera {
+                    display: grid;
+                    max-width: 100%;
+                    grid-template-columns: repeat(2, 1fr);
+                    position: relative;
+                    gap: 0px;
                     text-align: center;
+                    align-items: center;
+                    z-index: 1;
                 }
-                                .image-container3b .run-button4 {
-                    margin-top: -40px;
-                    text-align: center;
+
+                .grid-container {
+                    display: grid;
+                    box-sizing: border-box; /* Ustawienie box-sizing */
+                    grid-template-columns: repeat(2, 1fr);
+                    gap: 3px; /* Można dostosować zgodnie z potrzebami */
+                    position: relative;
+                    padding-top: 30px; /* Ustawienie marginesów zgodnie z potrzebami */
+                    margin-bottom: 0; /* Ustawienie marginesów zgodnie z potrzebami */
+                    z-index: 1;
                 }
+                .grid-containerb {
+                    display: grid;
+                    box-sizing: border-box; /* Ustawienie box-sizing */
+                    max-width: 100%; /* Zapewnienie, że kontener zajmuje 100% szerokości */
+                    grid-template-columns: repeat(1, 1fr);
+                    gap: 3px; /* Można dostosować zgodnie z potrzebami */
+                    position: relative;
+                    padding-top: 30px; /* Ustawienie marginesów zgodnie z potrzebami */
+                    margin-right: 0; /* Ustawienie marginesów zgodnie z potrzebami */
+                    overflow: hidden; /* Ukrywanie wszelkiego poziomego przewijania */
+                    z-index: 1;
+                }
+                    .text-intro {
+        margin: 2px 0 2px 0;
+        font-size: 8px; /* mniejsza czcionka, żeby wszystko zmieścić */
+    }
+    .video-item {
+        display: flex;
+        flex-direction: row;      /* miniatura + tekst obok siebie */
+        align-items: center;
+        gap: 2px;
+        margin: 0;
+        padding: 0;
+    }
+
+.video-thumb {
+    max-width: 45px;   /* ograniczenie szerokości */
+    max-height: 22px;  /* ograniczenie wysokości */
+    width: auto;       /* zachowanie proporcji */
+    height: auto;      /* zachowanie proporcji */
+    object-fit: cover; /* przycina, jeśli kontener większy */
+    border-radius: 4px;
+}
+
+    .video-text {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 1px;
+    }
+
+    .video-name {
+        font-size: 8px;
+        margin: 0;
+        line-height: 1;
+    }
+
+    .video-subtext {
+        font-size: 6px;
+        margin: 0;
+        line-height: 1;
+    }
+
                 
   .category-btn {
     background-color: #800080; /* Filetowy kolor dla wszystkich przycisków */
@@ -1159,20 +1302,11 @@ input {
                 }
 
 .image-container3 {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    background-color: blue; /* kolor początkowy */
+    position: absolute; /* zamiast relative */
+    top: 0;
+    left: 0;
     width: 100%;
-    position: relative;
-    min-height: 100px; /* rezerwacja miejsca */
-    max-height: 100px;
-    height: auto;
-    margin-bottom: 0px;
-    align-items: center;
-    font-size: 20px;
-    margin-top: 10px;
-    overflow: hidden;
+    z-index: 9999;
 }
                 .image-container3b {
                     display: flex;
@@ -1183,10 +1317,19 @@ input {
                     box-sizing: border-box;
                     align-items: center;
                     font-size: 20px;
-                    z-index: 999;
-                    order: 0; /* Domyślna kolejność */
-                    z-index: 1;
+                    z-index: 10000
+}
                 }/* Tło */
+                .run-button4 {
+    position: absolute;
+    z-index: 99999;
+    font-size: 16px;
+    background-color: yellow;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    z-index: 10001; /* zawsze nad rodzeństwem */
+}
                 .background-overlay {
                     position: absolute;
                     top: 0;
@@ -1303,16 +1446,6 @@ input {
                     padding: 5px 10px;
                     z-index: 1000;
                     white-space: nowrap; /* Zapobiega zawijaniu tekstu */
-                }
-                .overlay-button {
-                    position: absolute;
-                    z-index: 1000000;
-                    bottom: 10px;
-                    right: -70px;
-                    width: 18px;
-                    height: 18px;
-                    cursor: pointer;
-                    border-radius: 8px;
                 }
                 .slide-button {
                     position: absolute; /* Position relative to the container */
@@ -1624,39 +1757,7 @@ input {
                     color: white;
                     cursor: pointer;
                 }
-                .grid-containera {
-                    display: grid;
-                    max-width: 100%;
-                    grid-template-columns: repeat(2, 1fr);
-                    position: relative;
-                    gap: 0px;
-                    text-align: center;
-                    align-items: center;
-                    z-index: 1;
-                }
 
-                .grid-container {
-                    display: grid;
-                    box-sizing: border-box; /* Ustawienie box-sizing */
-                    grid-template-columns: repeat(2, 1fr);
-                    gap: 3px; /* Można dostosować zgodnie z potrzebami */
-                    position: relative;
-                    padding-top: 30px; /* Ustawienie marginesów zgodnie z potrzebami */
-                    margin-bottom: 0; /* Ustawienie marginesów zgodnie z potrzebami */
-                    z-index: 1;
-                }
-                .grid-containerb {
-                    display: grid;
-                    box-sizing: border-box; /* Ustawienie box-sizing */
-                    max-width: 100%; /* Zapewnienie, że kontener zajmuje 100% szerokości */
-                    grid-template-columns: repeat(1, 1fr);
-                    gap: 3px; /* Można dostosować zgodnie z potrzebami */
-                    position: relative;
-                    padding-top: 30px; /* Ustawienie marginesów zgodnie z potrzebami */
-                    margin-right: 0; /* Ustawienie marginesów zgodnie z potrzebami */
-                    overflow: hidden; /* Ukrywanie wszelkiego poziomego przewijania */
-                    z-index: 1;
-                }
 
                 body {
                     overflow-x: hidden; /* Ukrywanie poziomego przewijania w body */
@@ -1877,6 +1978,17 @@ input {
                 .show-toggle-button {
                     bottom: 60px; /* Strzałka przesuwa się do góry gdy pasek jest widoczny */
                 }
+                  #adblockMessage {
+    width: 90%;
+    padding: 20px;
+    font-size: 16px;
+    bottom: 15px;
+  }
+
+  #adblockMessage button {
+    padding: 10px 15px;
+    font-size: 16px;
+  }
             }
         </style>
     </head>
@@ -1913,13 +2025,13 @@ input {
             </div>
             <div class="content-container">
                 <div class="grid-containera">
-                    <div class="image-container2">Standard<button onclick="showImages('set1')"> LOSUJ LEKCJE</button>
+                    <div class="image-container2b">Standard<button onclick="showImages('set1')"> LOSUJ LEKCJE</button>
                     </div>
                     <div class="image-container2" id="buttoncreate">Generowanie fiszki<button id="flashcardButton" onclick="addFlashcardContainer()">OTWÓRZ KONSOLE</button>
                     </div>
-                    <div class="image-container2">Kartkówka<button onclick="showImages('set1')">START</button>
+                    <div class="image-container2b">Kartkówka<button onclick="showImages('set1')">START</button>
                     </div>
-                    <div class="image-container2">Tłumacz tekst<button onclick="showImages('set1')">START</button>
+                    <div class="image-container2b">Tłumacz tekst<button onclick="showImages('set1')">START</button>
                     </div>
                 </div>
 
@@ -1982,7 +2094,44 @@ input {
         </div>
 
         <script>
+// Dodaj przycisk do kontenera
+$(".grid-container").append(`
+    <button id="startButton" class="floating-btn">▶ Start Arbu świat</button>
+`);
 
+// Nadaj mu styl, żeby był "pływający"
+$(".floating-btn").css({
+    position: "fixed",
+    bottom: "15px",
+    right: "15px",
+    backgroundColor: "#4caf50",
+    color: "white",
+    border: "none",
+    padding: "12px 20px",
+    fontSize: "16px",
+    borderRadius: "8px",
+    cursor: "pointer",
+    boxShadow: "0 4px 6px rgba(0,0,0,0.2)",
+    zIndex: 999999999999
+});
+
+// Flaga globalna
+let flagaPrzycisku = false;
+let flagaPrzycisku2 = false;
+
+$(document).on("click", "#startButton", function () {
+    console.log("Kliknięto Start");
+
+    console.log("tablica7:", tablica7);
+    console.log("tablica3:", tablica3);
+    console.log("ustawTryb:", typeof ustawTryb);
+    console.log("przekazArgument0:", typeof przekazArgument0);
+
+    flagaPrzycisku = true;
+    ustawTryb('fiszki');
+    przekazArgument0(tablica7[0], 'all', '', false, 'fiszki', true, true, tablica3[1], tablica3[4], false, '', '', '', '', '', '', '100', '', '');
+    console.log("✅ Flaga przycisku ustawiona na TRUE");
+});
   // Pokaż tylko raz
   window.addEventListener('DOMContentLoaded', () => {
     if (!localStorage.getItem('adblockMessageClosed')) {
@@ -2414,14 +2563,16 @@ $gridContainer2.css('margin-top', flashcardContainerHeight + 100 + 'px');
             tablica3[4] = null;
                         let tablica43 = [];
                         let tablica43b = [];
+                        let tablica43d = [];
                         let indexDiv0;
                         let indexDiv0b;
-            function przekazArgument0(selectedCategory, category, index55, buttonindex, czas, idpolski, idtranslate, id, rodzaj, isSearching, matchingLessons5, matchingLessons5b, isSearching2, staraTablica40, indexDivRange, indexDiv0, indexDiv0b) {
+            function przekazArgument0(selectedCategory, category, index55, buttonindex, czas, idpolski, idtranslate, id, rodzaj, isSearching, matchingLessons5, matchingLessons5b, isSearching2, staraTablica40, indexDivRange, indexDiv0, indexDiv0b, indexDiv0d) {
                 $('.grid-container .image-container3').remove();
                 $('.grid-container .image-container4').remove();
                         indexDiv0 = tablica43[tablica43.length - 1]; ////// DODAWANIE
                         indexDiv0b = tablica43b[tablica43b.length - 1]; ////// DODAWANIE
-                        console.log(":vv ", index55);
+                        indexDiv0d = tablica43d[tablica43d.length - 1]; ////// DODAWANIE
+                        console.log(":vvv ", indexDiv0d);
                                 console.log(":vv ", buttonindex);
                 tablica3[1] = id;
                 tablica3[2] = category;
@@ -2440,7 +2591,7 @@ $gridContainer2.css('margin-top', flashcardContainerHeight + 100 + 'px');
                 globalIdTranslate = idtranslate;
                                 console.log('nowy30', rodzaj);
                 // Wywołaj funkcję wybierzCharakter na podstawie trybu
-                wybierzCharakter(selectedCategory, category, tablica3[0], index55, buttonindex, tablica3[1], tablica3[3], rodzaj, isSearching, matchingLessons5, matchingLessons5b, isSearching2, staraTablica40, indexDivRange, indexDiv0, indexDiv0b);
+                wybierzCharakter(selectedCategory, category, tablica3[0], index55, buttonindex, tablica3[1], tablica3[3], rodzaj, isSearching, matchingLessons5, matchingLessons5b, isSearching2, staraTablica40, indexDivRange, indexDiv0, indexDiv0b, indexDiv0d);
 
             }
 
@@ -2451,7 +2602,7 @@ $gridContainer2.css('margin-top', flashcardContainerHeight + 100 + 'px');
             }
             console.log('hej33bb', tablica3);
             // Funkcja wybierająca charakter
-            function wybierzCharakter(selectedCategory, category, czas, index55, buttonindex, idpolski, frazyid, rodzaj, isSearching, matchingLessons5, matchingLessons5b, isSearching2, staraTablica40, indexDivRange, indexDiv0, indexDiv0b) {
+            function wybierzCharakter(selectedCategory, category, czas, index55, buttonindex, idpolski, frazyid, rodzaj, isSearching, matchingLessons5, matchingLessons5b, isSearching2, staraTablica40, indexDivRange, indexDiv0, indexDiv0b, indexDiv0d) {
                 console.log('hej223', czas, category, frazyid);
 
                 pulpitstartowy = false;
@@ -2461,7 +2612,7 @@ $gridContainer2.css('margin-top', flashcardContainerHeight + 100 + 'px');
                 matchingIndexes2 = findXForMatchingFiszka2(globalCategory, fiszki);
                 matchingIndexes3 = findXForMatchingFiszka3(globalCategory, fiszki);
 
-                wybierzRodzaj(selectedCategory, globalCategory, czas, matchingIndexes, index55, buttonindex, idpolski, frazyid, matchingIndexes2, rodzaj, matchingIndexes3, isSearching, matchingLessons5, matchingLessons5b, isSearching2, staraTablica40, indexDivRange, indexDiv0, indexDiv0b);
+                wybierzRodzaj(selectedCategory, globalCategory, czas, matchingIndexes, index55, buttonindex, idpolski, frazyid, matchingIndexes2, rodzaj, matchingIndexes3, isSearching, matchingLessons5, matchingLessons5b, isSearching2, staraTablica40, indexDivRange, indexDiv0, indexDiv0b, indexDiv0d);
                 // Wyświetl na konsoli zaktualizowane matchingIndexes
                 console.log("Zaktualizowane matchingIndexes:", matchingIndexes);
                 console.log("wykonuje sie hej", matchingIndexes2);
@@ -2759,7 +2910,7 @@ function findMatchingFiszkiCount(category, fiszki) {
             let losowaniaCounter2 = 0; // Zmienna licznika losowań
             let tablica33 = [];
             let tablica33b = [];
-            function wybierzRodzaj(selectedCategory, category, czas, matchingIndexes, index55, buttonindex, idpolski, frazyid, matchingIndexes2, rodzaj, matchingIndexes3, isSearching, matchingLessons5, matchingLessons5b, isSearching2, staraTablica40, indexDivRange, indexDiv0, indexDiv0b) {
+            function wybierzRodzaj(selectedCategory, category, czas, matchingIndexes, index55, buttonindex, idpolski, frazyid, matchingIndexes2, rodzaj, matchingIndexes3, isSearching, matchingLessons5, matchingLessons5b, isSearching2, staraTablica40, indexDivRange, indexDiv0, indexDiv0b, indexDiv0d) {
                 category = category || globalCategory;
                 czasv2 = czas;
                 console.log("Wybrany rodzaj słownictwa:vv ", selectedCategory);
@@ -3480,8 +3631,52 @@ for (let i = 0; i < myVariable.length; i += 3) {
                                 $('.grid-container .image-container3b').remove();
                                showCombinedSentenceForLesson5b2(category, selectedCategory, matchingIndexes3, rodzaj, matchingIndexes2, buttonindex, index50, lessonId1, lessonId2, lessonId3, fiszki, matchingIndexes, startIndex, newIndex, indexDiv, lessonsArray, lesson1PartLength, lesson2PartLength, lesson3PartLength, lesson1Sentences, lesson2Sentences, lesson3Sentences, lesson1FirstPartLength, lesson2FirstPartLength, lesson3FirstPartLength, lesson1SecondPartLength, lesson2SecondPartLength, lesson3SecondPartLength, cumulativeFirstPartLength1, cumulativeFirstPartLength2, cumulativeFirstPartLength3, lessonsArrayZ, matchingLessons5, matchingLessons5b, isSearching);
                             }
+                            // 🔹 Najpierw sprawdzamy specjalny przypadek dla flagaPrzycisku + index50
+if (flagaPrzycisku2 && !flagaPrzycisku &&
+    ((tablica10.length <= indexDivRange || tablica10.length === 0) &&
+    category === 'all')
+) {
+    const newIndex2 = null;
+    const indexDiv0b2 = null;
+    const newIndex5 = null;
+    const newIndex10 = null;
+    const newIndex10d = null;
+    let number = true;
+    let number1 = false;
+    let number2 = false;
+
+    if (newIndex !== 0) {
+        showCombinedSentenceForLesson22b(
+            number1, number2, selectedCategory, matchingIndexes3, rodzaj, matchingIndexes2,
+            buttonindex, index50, lessonId1, lessonId2, lessonId3, fiszki, matchingIndexes,
+            startIndex, newIndex, newIndex5,  newIndex10, indexDiv, indexDiv0, indexDiv0b, newIndex10d, lessonsArray,
+            lesson1PartLength, lesson2PartLength, lesson3PartLength,
+            lesson1Sentences, lesson2Sentences, lesson3Sentences,
+            lesson1FirstPartLength, lesson2FirstPartLength, lesson3FirstPartLength,
+            lesson1SecondPartLength, lesson2SecondPartLength, lesson3SecondPartLength,
+            cumulativeFirstPartLength1, cumulativeFirstPartLength2, cumulativeFirstPartLength3,
+            lessonsArrayZ, matchingLessons5, matchingLessons5b, isSearching
+        );
+    } else if (newIndex === 0) {
+                showCombinedSentenceForLesson22b(
+            number1, number2, selectedCategory, matchingIndexes3, rodzaj, matchingIndexes2,
+            buttonindex, index50, lessonId1, lessonId2, lessonId3, fiszki, matchingIndexes,
+            startIndex, newIndex, newIndex5,  newIndex10, indexDiv, indexDiv0, indexDiv0b, newIndex10d, lessonsArray,
+            lesson1PartLength, lesson2PartLength, lesson3PartLength,
+            lesson1Sentences, lesson2Sentences, lesson3Sentences,
+            lesson1FirstPartLength, lesson2FirstPartLength, lesson3FirstPartLength,
+            lesson1SecondPartLength, lesson2SecondPartLength, lesson3SecondPartLength,
+            cumulativeFirstPartLength1, cumulativeFirstPartLength2, cumulativeFirstPartLength3,
+            lessonsArrayZ, matchingLessons5, matchingLessons5b, isSearching
+        );
+    }
+}
 console.log('hej100vv', tablica55[0], tablica55[1]);
-if ((tablica10.length <= indexDivRange || tablica10.length === 0) && ostatniaWartosc < 2 && category === 'all') {
+if (flagaPrzycisku && 
+    ((tablica10.length <= indexDivRange || tablica10.length === 0) &&
+    ostatniaWartosc < 3 && !flagaPrzycisku2 &&
+    category === 'all')
+) {
 const newIndex2 = null;
 const indexDiv0b2 = null;
 const newIndex5 = null;
@@ -3489,13 +3684,21 @@ const newIndex10 = null;
 let number = true;
 let number1 = false;
 let number2 = false;
-
-                                        if (newIndex !== 0) {
-    // ⬇️ ZAWSZE wykonujemy tę funkcję – nawet jeśli newIndex = 0 //// DODAWANIE WSZYSTKICH OPRÓCZ PIERWSZEJ LEKCJI
-    showCombinedSentenceForLesson22b(
+            if (newIndex === 0) {
+    const currentIndexDiv = indexDiv;
+    setTimeout(() => {
+        tablica43.push(currentIndexDiv);
+            }, 500);
+                tablica55.push(true);
+/// PRODUKCJA PIERWSZEJ LEKCJI
+                let newIndex10d = (indexDiv === indexDiv0) ? 0 : indexDiv;
+                console.log('hej105', newIndex10d);
+                /// USUNIĘCIE DRUGIEJ MINIATURY
+                            if (newIndex10d === 0) {
+                    showCombinedSentenceForLesson22b(
         number1, number2, selectedCategory, matchingIndexes3, rodzaj, matchingIndexes2,
         buttonindex, index50, lessonId1, lessonId2, lessonId3, fiszki, matchingIndexes,
-        startIndex, newIndex, newIndex5,  newIndex10, indexDiv, indexDiv0, indexDiv0b, lessonsArray,
+        startIndex, newIndex, newIndex5, newIndex10, indexDiv, indexDiv0, indexDiv0b, newIndex10d, lessonsArray,
         lesson1PartLength, lesson2PartLength, lesson3PartLength,
         lesson1Sentences, lesson2Sentences, lesson3Sentences,
         lesson1FirstPartLength, lesson2FirstPartLength, lesson3FirstPartLength,
@@ -3503,14 +3706,7 @@ let number2 = false;
         cumulativeFirstPartLength1, cumulativeFirstPartLength2, cumulativeFirstPartLength3,
         lessonsArrayZ, matchingLessons5, matchingLessons5b, isSearching
     );
-    }
-
-            if (newIndex === 0) {
-    const currentIndexDiv = indexDiv;
-    setTimeout(() => {
-        tablica43.push(currentIndexDiv);
-            }, 0);
-/// PRODUKCJA PIERWSZEJ LEKCJI
+            }
             showCombinedSentenceForLesson(
                 number, selectedCategory, matchingIndexes3, rodzaj, matchingIndexes2,
                 buttonindex, index50, lessonId1, lessonId2, lessonId3, fiszki, matchingIndexes,
@@ -3522,9 +3718,9 @@ let number2 = false;
                 cumulativeFirstPartLength1, cumulativeFirstPartLength2, cumulativeFirstPartLength3,
                 lessonsArrayZ, matchingLessons5, matchingLessons5b, isSearching
             );
-    tablica55.push(true);
+
             }
-            } else if ((tablica10.length <= indexDivRange || tablica10.length === 0) && ostatniaWartosc < 3 && ostatniaWartosc > 1 && category === 'all') {
+            } else if ((tablica10.length <= indexDivRange || tablica10.length === 0) && ostatniaWartosc < 4 && ostatniaWartosc > 2 && category === 'all') {
                 let number = true;
                 let number1 = false;
                 let number2 = false;
@@ -3580,7 +3776,7 @@ ostatniaWartosc === 3;
             przekazArgument0(tablica7[0], tablica3[2], undefined, false, tablica3[0], true, true, tablica3[1], tablica3[4], false, '', '', '', '', '100', indexDiv0, indexDiv0b);
             }
         
-                    } else if ((tablica10.length <= indexDivRange || tablica10.length === 0) && ostatniaWartosc < 4 && ostatniaWartosc > 2 && category === 'all') {
+                    } else if ((tablica10.length <= indexDivRange || tablica10.length === 0) && ostatniaWartosc < 5 && ostatniaWartosc > 3 && category === 'all') {
                             let number = true;
                             let number1 = false;
                             let number2 = false;
@@ -3608,6 +3804,7 @@ ostatniaWartosc === 3;
     setTimeout(() => {
         tablica43.push(currentIndexDiv);
             }, 0);
+                tablica55.push(true);
 /// PRODUKCJA DRUGIEJ LEKCJI
             showCombinedSentenceForLesson(
                 number, selectedCategory, matchingIndexes3, rodzaj, matchingIndexes2,
@@ -3620,11 +3817,11 @@ ostatniaWartosc === 3;
                 cumulativeFirstPartLength1, cumulativeFirstPartLength2, cumulativeFirstPartLength3,
                 lessonsArrayZ, matchingLessons5, matchingLessons5b, isSearching
             );
-    tablica55.push(true);
+
     continue;
             }
 
-                        } else if ((tablica10.length <= indexDivRange || tablica10.length === 0) && ostatniaWartosc < 5 && ostatniaWartosc > 3 && category === 'all') {
+                        } else if ((tablica10.length <= indexDivRange || tablica10.length === 0) && ostatniaWartosc < 6 && ostatniaWartosc > 4 && category === 'all') {
                                                         let number = true;
                             let number1 = false;
                             let number2 = false;
@@ -3679,7 +3876,7 @@ ostatniaWartosc === 5;
 
             przekazArgument0(tablica7[0], tablica3[2], undefined, false, tablica3[0], true, true, tablica3[1], tablica3[4], false, '', '', '', '', '100', indexDiv0, indexDiv0b);
             }
-                        } else if ((tablica10.length <= indexDivRange || tablica10.length === 0) && ostatniaWartosc > 4 && ostatniaWartosc < 6) {
+                        } else if ((tablica10.length <= indexDivRange || tablica10.length === 0) && ostatniaWartosc > 5 && ostatniaWartosc < 7) {
 console.log('hej122', ostatniaWartosc);
                                 let number = true;
                             let number1 = false;
@@ -3877,10 +4074,11 @@ if (newIndex10b === 0) {
 
             }
             </script>
+                                <script src="start/miniatury-prezentacja.js"></script>
                                     <script src="nowydzialajacy.js"></script>
                     <script src="displayx3.js"></script>
                                         <script src="displayx3category.js"></script>
-                    <script src="start/miniatury-prezentacja.js"></script>
+
                     <script>
             
                     
@@ -4031,7 +4229,8 @@ if (window.matchMedia("(min-width: 999px)").matches) {
                 }
             });
             ustawTryb('fiszki');
-            przekazArgument0(tablica7[0], tablica3[2], '', false, 'fiszki', true, true, tablica3[1], tablica3[4], false, '', '', '', '', '', '', '100', '', '');
+            flagaPrzycisku2 = true;
+            przekazArgument0(tablica7[0], tablica3[2], '', false, 'fiszki', true, true, tablica3[1], tablica3[4], false, '', '', '', '', '', '', '100', '', '', flagaPrzycisku2);
 
 // Zmierz czas na początku ładowania skryptu
 const startTime = performance.now();
@@ -4043,9 +4242,9 @@ window.onload = function() {
     console.log(`Czas ładowania strony: ${loadTime.toFixed(2)} ms`);
 };
         </script>
-<div id="adblockMessage" style="display:none; position:fixed; bottom:20px; left:20px; right:20px; background:#ffdddd; color:#000; border:1px solid #f00; padding:15px; font-family:sans-serif; z-index:99999999;">
+<div id="adblockMessage">
   Dla rozwoju projektu proszę Cię o wyłączenie AdBlocka 🙏 Dziękuję!
-  <button onclick="closeAdblockMessage()" style="float:right; background:#f00; color:#fff; border:none; padding:5px 10px; cursor:pointer;">X</button>
+  <button onclick="closeAdblockMessage()">X</button>
 </div>
         <script id="demoScript" data-category=""></script>
     </body>
