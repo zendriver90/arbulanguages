@@ -1,9 +1,8 @@
             
             const tablica10 = [];
             const displayedIds = [];
-function showCombinedSentenceForLesson(number, selectedCategory, matchingIndexes3, rodzaj, matchingIndexes2, buttonindex, index50, lessonIdToShow1, lessonIdToShow2, lessonIdToShow3, fiszki, matchingIndexes, startIndex, newIndex, newIndex10, indexDiv, indexDiv0, indexDiv0b, lessonsArray, lesson1PartLength, lesson2PartLength, lesson3PartLength, lesson1Sentences, lesson2Sentences, lesson3Sentences, lesson1FirstPartLength, lesson2FirstPartLength, lesson3FirstPartLength, lesson1SecondPartLength, lesson2SecondPartLength, lesson3SecondPartLength, cumulativeFirstPartLength1, cumulativeFirstPartLength2, cumulativeFirstPartLength3, lessonsArrayZ, matchingLessons5, matchingLessons5b, isSearching) {
-                console.log('hej55bbv', buttonindex);
-                console.log('hej100', index50);
+function showCombinedSentenceForLesson(number, selectedCategory, matchingIndexes3, rodzaj, matchingIndexes2, buttonindex, index50, lessonIdToShow1, lessonIdToShow2, lessonIdToShow3, fiszki, matchingIndexes, startIndex, newIndex, newIndex10, newIndex3, newIndex3b, newIndex10b3, newIndex10dd, indexDiv, indexDiv0, indexDiv0b, indexDiv0d, newIndex10d, lessonsArray, lesson1PartLength, lesson2PartLength, lesson3PartLength, lesson1Sentences, lesson2Sentences, lesson3Sentences, lesson1FirstPartLength, lesson2FirstPartLength, lesson3FirstPartLength, lesson1SecondPartLength, lesson2SecondPartLength, lesson3SecondPartLength, cumulativeFirstPartLength1, cumulativeFirstPartLength2, cumulativeFirstPartLength3, lessonsArrayZ, matchingLessons5, matchingLessons5b, isSearching) {
+
                             let tablica60 = [];
                 const matchingFiszki1 = fiszki.filter(fiszka => fiszka.id[1] === lessonIdToShow1);
                 const matchingFiszki2 = fiszki.filter(fiszka => fiszka.id[1] === lessonIdToShow2);
@@ -457,7 +456,7 @@ $('.grid-container').append($container);
 // przycisk w grid-container
 const $button = $('<button></button>')
     .addClass('run-button4')
-    .text('Uruchom-działa')
+    .text('Uruchom-działa5')
     .attr('data-index2', indexDiv)
     .css({
         position: 'absolute',
@@ -538,8 +537,8 @@ console.log("srcWord3b:", srcWord3b);
                             previousVideo.remove(); // UsuniÄcie poprzedniego wideo z kontenera
                         }
                     }
-                    if ((newIndex === 0 || newIndex10 === 0) && !buttonindex && !isSearching && !number) {
-                        console.log('hej33b', buttonindex);
+                    if ((newIndex10d === 0 || newIndex10 === 0 || newIndex10b3 === 0 || newIndex10dd) && !isSearching && !number) {
+                        console.log('hej33bg', buttonindex);
                         let funkcjaWywolana = false;
                         let stopButtonAdded = false;
                         if (indexDiv % 2 === 0) {
@@ -968,7 +967,7 @@ $videoElement.on('loadedmetadata', function () {
                                 addVideo1b(0);
                             }, 200);
                         }
-                        } else if ((newIndex === 0 || newIndex10 === 0) && !buttonindex && !isSearching && number) {
+                        } else if ((newIndex10d === 0 || newIndex10 === 0 || newIndex10b3 === 0) && !buttonindex && !isSearching && number) {
                             $('.image-container3b').each(function() {
   this.style.setProperty('position', 'relative', 'important');
   this.style.setProperty('z-index', '1', 'important');
@@ -1149,24 +1148,7 @@ $('body').append($buttonsContainer); // <<< WAŻNE – do body, a nie do grid-co
 // Tworzenie licznika w kontenerze
 const $countdown = $('<p>')
     .attr('id', 'countdown-timer')
-    .css({
-        'font-size': '14px',       // standardowa wielkość liter na PC
-        'font-weight': 'bold',
-        'color': 'green',
-        'margin': '0 auto',        // automatyczne marginesy do wycentrowania
-        'position': 'absolute',
-        'top': '0px',
-        'left': '50%',             // ustawienie na środek
-        'transform': 'translateX(-50%)', // korekta przesunięcia
-        'z-index': '10',
-        'line-height': '30px',
-        'height': '30px',
-        'width': '250px',
-        'text-align': 'center',
-        'user-select': 'none',
-        'text-transform': 'none'   // normalne litery, nie uppercase
-    })
-    .text('30 sekund do uruchomienia filmów');
+    .text('10 sekund do uruchomienia filmów');
 
 $container.append($countdown);
 
@@ -1188,7 +1170,7 @@ if (localStorage.getItem('nike1Done') !== 'done') {
 }
 
 // Start lokalnego licznika (30s)
-let counter = 30;
+let counter = 10;
 let countdownInterval = setInterval(() => {
     counter--;
     $countdown.text(counter + ' sekund do uruchomienia filmów');
@@ -1237,12 +1219,14 @@ srcWords2.forEach((name, idxLesson) => {
 
     const $item = $('<div></div>').addClass('video-item');
     const $img = $('<img>').attr('src', thumb).attr('alt', name)
-        .on('error', function() { $(this).css({'background':'#ccc'}).attr('alt','Brak miniatury'); })
+        .on('error', function() { 
+            $(this).css({'background':'#ccc'}).attr('alt','Brak miniatury'); 
+        })
         .addClass('video-thumb');
 
     const $rightCol = $('<div></div>').addClass('video-text');
     const $videoName = $('<p></p>').text(name).addClass('video-name');
-    const $videoTextF = $('<p></p>').text(textF).addClass('video-subtext');
+    const $videoTextF = $('<div></div>').addClass('video-subtext').text(textF);
 
     // ===== kontener opisu + ikonka =====
     const $descContainer = $('<div></div>').css({
@@ -1251,48 +1235,119 @@ srcWords2.forEach((name, idxLesson) => {
         gap: '8px'
     });
     $videoTextF.css({margin:0, flex:1});
-    const $icon = $('<span></span>').text('🔄').css({
-        cursor: 'pointer',
-        fontSize: '20px',
-        userSelect: 'none'
-    }).attr('title','Odśwież dane fiszki');
+    // mapujemy zestawy (fallback do matchingFiszki1 jeśli brak któregokolwiek)
+const matchingFiszkiArr = [
+    (typeof matchingFiszki1 !== 'undefined') ? matchingFiszki1 : null,
+    (typeof matchingFiszki2 !== 'undefined') ? matchingFiszki2 : null,
+    (typeof matchingFiszki3 !== 'undefined') ? matchingFiszki3 : null
+];
+const firstLenArr = [
+    (typeof lesson1FirstPartLength !== 'undefined') ? lesson1FirstPartLength : 0,
+    (typeof lesson2FirstPartLength !== 'undefined') ? lesson2FirstPartLength : 0,
+    (typeof lesson3FirstPartLength !== 'undefined') ? lesson3FirstPartLength : 0
+];
+const partLenArr = [
+    (typeof lesson1PartLength !== 'undefined') ? lesson1PartLength : 0,
+    (typeof lesson2PartLength !== 'undefined') ? lesson2PartLength : 0,
+    (typeof lesson3PartLength !== 'undefined') ? lesson3PartLength : 0
+];
 
-    $descContainer.append($videoTextF, $icon);
-    $rightCol.append($videoName, $descContainer);
-    $item.append($img, $rightCol);
-    $textContainer.append($item);
+// tworzymy pojedynczą ikonkę (jak wcześniej)
+const $icon = $('<span></span>').text('🔄').css({
+    cursor: 'pointer',
+    fontSize: '20px',
+    userSelect: 'none'
+}).attr('title','Pokaż zdanie');
 
+// dopasuj wygląd kontenera opisu jak wcześniej
+$descContainer.append($videoTextF, $icon);
+$rightCol.append($videoName, $descContainer);
+$item.append($img, $rightCol);
+$textContainer.append($item);
+
+// handler kliknięcia — używamy idxLesson, żeby wiedzieć które zdanie ładować
 $icon.on('click', function() {
-    // Tworzymy kontener na Twoje zdanie
-    const $sentenceDivB = $('<div></div>').addClass('sentenceBA');
+    // określ który "zestaw" wywołać (1..3). Użyj idxLesson (0->1, 1->2, 2->3). Jeśli idxLesson > 2 użyj 1.
+    const which = (typeof idxLesson === 'number' && idxLesson >= 0 && idxLesson <= 2) ? (idxLesson + 1) : 1;
+    const cfgF = matchingFiszkiArr[which - 1] || matchingFiszkiArr[0];
+    const cfgFirstLen = firstLenArr[which - 1] || firstLenArr[0];
+    const cfgPartLen = partLenArr[which - 1] || partLenArr[0];
 
-    // Wywołanie Twojej funkcji generującej zdania
-    addBackgroundToText(matchingFiszki1, matchingIndexes, '1', true, lesson1FirstPartLength, lesson1PartLength, matchingLessons5b);
+    // wywołaj generator (może działać asynchronicznie i potem ustawia globalne sentenceXX)
+    addBackgroundToText(cfgF, matchingIndexes, String(which), true, cfgFirstLen, cfgPartLen, matchingLessons5b);
 
-    // Wstawienie wygenerowanych zdań do kontenera
-    $sentenceDivB.html(`
-        <div class="sentence-blockB" data-name="${matchingFiszki1[0]?.id[1] || 'unknown1'}">
-            ${sentence10}${sentence11}<br>
-        </div>
-    `);
+    // polling: czekamy aż odpowiednie sentenceXX będą gotowe
+    const intervalMs = 50;
+    const timeoutMs = 3000;
+    let waited = 0;
 
-    // Stylizacja kontenera
-    $sentenceDivB.css({
-        'position': 'absolute',
-        'margin-top': '10px',
-        'text-align': 'center',
-        'z-index': '100'
-    });
+    const checker = setInterval(() => {
+        let ready = false;
 
-    // Dodanie kontenera do elementu wideo
-    $item.append($sentenceDivB);
+        if (which === 1) {
+            ready = (typeof sentence10 !== 'undefined' && sentence10 && sentence10.trim() !== '') ||
+                    (typeof sentence11 !== 'undefined' && sentence11 && sentence11.trim() !== '');
+        } else if (which === 2) {
+            ready = (typeof sentence20 !== 'undefined' && sentence20 && sentence20.trim() !== '') ||
+                    (typeof sentence22 !== 'undefined' && sentence22 && sentence22.trim() !== '');
+        } else {
+            ready = (typeof sentence30 !== 'undefined' && sentence30 && sentence30.trim() !== '') ||
+                    (typeof sentence33 !== 'undefined' && sentence33 && sentence33.trim() !== '');
+        }
+
+        if (ready) {
+            clearInterval(checker);
+
+            // bezpieczne id dla bloku (fallbacky)
+            const id1 = (matchingFiszkiArr[0] && matchingFiszkiArr[0][0]?.id?.[1]) ? matchingFiszkiArr[0][0].id[1] : 'unknown1';
+            const id2 = (matchingFiszkiArr[1] && matchingFiszkiArr[1][0]?.id?.[1]) ? matchingFiszkiArr[1][0].id[1] : id1;
+            const id3 = (matchingFiszkiArr[2] && matchingFiszkiArr[2][0]?.id?.[1]) ? matchingFiszkiArr[2][0].id[1] : id1;
+
+            // budujemy HTML tylko dla wybranego bloku
+            let html = '';
+            if (which === 1) {
+                html = `
+<div class="sentence-blockB" data-name="${id1}">
+    ${sentence10 || ''}${sentence11 || ''}<br>
+    <div class="sentence1b">${(typeof sentence1b !== 'undefined' ? sentence1b : '')}</div>
+    <div class="sentence1b2">${(typeof sentence1b2 !== 'undefined' ? sentence1b2 : '')}</div>
+</div>`;
+            } else if (which === 2) {
+                html = `
+<div class="sentence-blockB" data-name="${id2}">
+    ${sentence20 || ''}${sentence22 || ''}<br>
+    <div class="sentence1b2a">${(typeof sentence1b2a !== 'undefined' ? sentence1b2a : '')}</div>
+    <div class="sentence1b22">${(typeof sentence1b22 !== 'undefined' ? sentence1b22 : '')}</div>
+</div>`;
+            } else {
+                html = `
+<div class="sentence-blockB" data-name="${id3}">
+    ${sentence30 || ''}${sentence33 || ''}<br>
+    <div class="sentence1c2a">${(typeof sentence1c2a !== 'undefined' ? sentence1c2a : '')}</div>
+    <div class="sentence1c22">${(typeof sentence1c22 !== 'undefined' ? sentence1c22 : '')}</div>
+</div>`;
+            }
+
+            // Podmień tylko opisowy kontener i dołącz ikonę z powrotem (żeby nie znikła)
+            $descContainer.empty().append(html, $icon);
+            return;
+        }
+
+        waited += intervalMs;
+        if (waited >= timeoutMs) {
+            clearInterval(checker);
+            console.warn('addBackgroundToText: brak wyniku w czasie oczekiwania dla zdania', which);
+            // opcjonalnie: przywróć oryginalny opis i ikonę
+            $descContainer.empty().append($videoTextF, $icon);
+        }
+    }, intervalMs);
 });
 });
 
     $container.append($textContainer);
     return;
-} else if (newIndex10 === 0 && !isSearching) {
-        if (window.myCountdownInterval) {
+} else if ((newIndex10 === 0 || newIndex10b3 === 0) && !isSearching && number) {
+            if (window.myCountdownInterval) {
         clearInterval(window.myCountdownInterval); // zatrzymanie licznika
         $('#countdown-timer').remove();           // usuniÄcie elementu
         window.myCountdownInterval = null;        // wyczyszczenie referencji
@@ -1794,7 +1849,8 @@ const lessonNumber = $container.attr('data-lesson');
                     // Tworzenie nowego elementu div za pomocÄ jQuery
 
 
-                    if ((newIndex === 0 && !buttonindex && !isSearching) || (newIndex10 === 0 && !isSearching && number)) {
+                    if ((newIndex3 === 0 || newIndex3b === 0 || newIndex10dd) && !isSearching) {
+                        console.log('hej1000', newIndex3, buttonindex);
     var $sentenceDivB = $('<div></div>');
     $sentenceDivB.addClass('sentenceBA');
 

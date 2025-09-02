@@ -341,4 +341,5 @@ const fiszki10 = [
         key: "fun",
        key2: ["zabawa"],
        key3: ["ubaw", "uciecha", "heca"]
-       },
+       }
+],

@@ -2,7 +2,7 @@ const urlParams = new URLSearchParams(window.location.search);
             const category = urlParams.get('category');
                         const tablica11 = [];
                         
-function showCombinedSentenceForLesson22b(number1, number2, selectedCategory, matchingIndexes3, rodzaj, matchingIndexes2, buttonindex, index50, lessonIdToShow1, lessonIdToShow2, lessonIdToShow3, fiszki, matchingIndexes, startIndex, newIndex, newIndex5, newIndex10, indexDiv, indexDiv0, indexDiv0b, newIndex10d, lessonsArray, lesson1PartLength, lesson2PartLength, lesson3PartLength, lesson1Sentences, lesson2Sentences, lesson3Sentences, lesson1FirstPartLength, lesson2FirstPartLength, lesson3FirstPartLength, lesson1SecondPartLength, lesson2SecondPartLength, lesson3SecondPartLength, cumulativeFirstPartLength1, cumulativeFirstPartLength2, cumulativeFirstPartLength3, lessonsArrayZ, matchingLessons5, matchingLessons5b, isSearching) {      
+function showCombinedSentenceForLesson22b(number1, number2, selectedCategory, matchingIndexes3, rodzaj, matchingIndexes2, buttonindex, index50, lessonIdToShow1, lessonIdToShow2, lessonIdToShow3, fiszki, matchingIndexes, startIndex, newIndex, newIndex5, newIndex10, newIndex10b3, newIndex10b4, newIndex10dd, indexDiv, indexDiv0, indexDiv0b, indexDiv0d, newIndex10d, lessonsArray, lesson1PartLength, lesson2PartLength, lesson3PartLength, lesson1Sentences, lesson2Sentences, lesson3Sentences, lesson1FirstPartLength, lesson2FirstPartLength, lesson3FirstPartLength, lesson1SecondPartLength, lesson2SecondPartLength, lesson3SecondPartLength, cumulativeFirstPartLength1, cumulativeFirstPartLength2, cumulativeFirstPartLength3, lessonsArrayZ, matchingLessons5, matchingLessons5b, isSearching) {      
     console.log('hejhej11v', matchingLessons5b);
                             let tablica60 = [];
                 const matchingFiszki1 = fiszki10.filter(fiszka => fiszka.id[1] === lessonIdToShow1);
@@ -58,22 +58,19 @@ function showCombinedSentenceForLesson22b(number1, number2, selectedCategory, ma
         $(document).ready(function () {
 function isFiszkaActive2(className) {
     const learned = getLearned2();
-    console.log('[📦 ZAWARTOŚĆ ColorClass]', learned);
 
     const entry = learned.find(e => e.className === className);
-    console.log('[🔍 SZUKAM]', className, '->', entry);
 
     return entry && entry.classToAdd === "active2";
 }
-                            console.log('hejkh', lesson1PartLength);
                             sentence1bba = "";
                             sentence1bbab = "";
                             setTimeout(() => {
                                 for (let i = 0; i < matchingFiszki1.length; i++) {
                                     const fiszka = matchingFiszki1[i];
-                                    console.log('fiszka:', fiszka);
+                                    
                                     if (!fiszka.sentence1 || fiszka.sentence1.length === 0) {
-                                        console.log('fiszka.sentence2 is undefined or empty');
+                                        
                                         continue;
                                     }
 
@@ -81,20 +78,15 @@ function isFiszkaActive2(className) {
                                     for (let ki = 0; ki < fiszka.sentence1.length; ki++) {
                                         let sentencePart = fiszka.sentence1[ki];
 const classNameToCheck = `fiszka-${fiszka.id}`;
-console.log('[🟢 SPRAWDZAM FISZKĘ]', classNameToCheck);
 
 const isActive = isFiszkaActive2(classNameToCheck);
-console.log('[🟢 Czy aktywna (active2)?]', isActive);
 
     if (isActive) {
         const spanGreen = document.createElement('span');
         spanGreen.textContent = sentencePart;
         spanGreen.classList.add('orange');
         sentencePart = spanGreen.outerHTML;
-
-        console.log('[✅ PODŚWIETLONO NA ZIELONO]', sentencePart);
     }
-                                        console.log('matchingIndexes1000:', matchingIndexes);
                                         const indexToCheck = i + lesson1PartLength + 1;
                                         const indexToCheck2 = i + lesson1PartLength + 1;
                                             if (matchingIndexes.includes(indexToCheck) && matchingIndexes !== null) {
@@ -229,9 +221,9 @@ console.log('[🟢 Czy aktywna (active2)?]', isActive);
                                 }
                                 for (let ii = 0; ii < matchingFiszki1.length; ii++) {
                                     const fiszka = matchingFiszki1[ii];
-                                    console.log('fiszka2:', fiszka);
+                                    
                                     if (!fiszka.sentence2 || fiszka.sentence2.length === 0) {
-                                        console.log('fiszka.sentence2 is undefined or empty');
+                                        
                                         continue;
                                     }
 
@@ -251,7 +243,6 @@ console.log('[🟢 Czy aktywna (active2)?]', isActive);
     }
                                         const indexToCheck = ii + lesson1PartLength + 1;
                                         const indexToCheck2 = ii + lesson1PartLength + 1;
-                                        console.log('indexToCheck77:', indexToCheck);
                                             if (matchingIndexes.includes(indexToCheck) && matchingIndexes !== null) {
                                                 // Sprawdzenie, czy indeks bieżącej fiszki znajduje się w tablicy matchingIndexes
                                                 const spanElement = document.createElement('span');
@@ -260,11 +251,9 @@ console.log('[🟢 Czy aktywna (active2)?]', isActive);
                                                 // Zaktualizuj sentencePart, aby zawierał utworzony element span
                                                 sentencePart2 = spanElement.outerHTML;
                                             }
-                                        
                                         function countCategoryInFiszki1b(matchingFiszki1, category) {
                                             // Zmienna do przechowywania sumy wystąpień
                                             let totalCount = 0;
-
                                             // Iteracja przez wszystkie fiszki
                                             for (let ii = 0; ii < matchingFiszki1.length; ii++) {
                                                 const fiszka = matchingFiszki1[ii];
@@ -275,13 +264,11 @@ console.log('[🟢 Czy aktywna (active2)?]', isActive);
                                                     totalCount += count; // Dodaj do sumy
                                                 }
                                             }
-
                                             return [totalCount]; // Zwróć tablicę z jedną sumaryczną wartością
                                         }
                                         const categoryToCount2 = "PresentSimpleCzasownik";
                                         const occurrences2 = countCategoryInFiszki1b(matchingFiszki1, categoryToCount2);
 // Wypisywanie wyników
-                                        console.log('Suma wystąpień5:', occurrences2);
                                         // Po zakończeniu iteracji przez fiszkę, sprawdź occurrences
                                         // Po zakończeniu iteracji przez fiszkę, sprawdź occurrences
                                         // Po zakończeniu iteracji przez fiszkę, sprawdź occurrences
@@ -313,7 +300,6 @@ console.log('[🟢 Czy aktywna (active2)?]', isActive);
 
                                 for (let li = 0; li < matchingFiszki1.length; li++) {
                                     const fiszka = matchingFiszki1[li];
-                                    console.log('fiszka:', fiszka);
                                     let sentencePart3 = fiszka.translateb;
                                     console.log('sentencePart3:', sentencePart3);
                                     if (aktualny) {
@@ -327,7 +313,6 @@ console.log('[🟢 Czy aktywna (active2)?]', isActive);
                                 }
                                 for (let li = 0; li < matchingFiszki1.length; li++) {
                                     const fiszka = matchingFiszki1[li];
-                                    console.log('fiszka:', fiszka);
                                     let sentencePart3 = fiszka.translate;
                                     console.log('sentencePart3:', sentencePart3);
                                     if (aktualny) {
@@ -339,9 +324,7 @@ console.log('[🟢 Czy aktywna (active2)?]', isActive);
                                     }
                                     sentence1bbab += sentencePart3 + " ";
                                 }
-                                
 
-                                console.log('hej20', sentence1bba);
  $sentenceDiv.html(`
 <div class="sentence-block" data-name="${id1}">
     <button class="left-button first-button">+<br></button>
@@ -484,7 +467,6 @@ setTimeout(updateButtonColors, 0);
                                         let sentencePart33 = fiszka.translate ? fiszka.translate : "";
                                         sentence1bbab += sentencePart33 + " ";
                                     }
-                                    console.log('hej20', sentence1bba);
 
                                     // Dodanie treści do diva wraz z przyciskiem
     $sentenceDiv.html(`
@@ -555,10 +537,8 @@ setTimeout(updateButtonColors, 0);
                         $(document).ready(function () {
                             function isFiszkaActive2(className) {
     const learned = getLearned2();
-    console.log('[📦 ZAWARTOŚĆ ColorClass]', learned);
 
     const entry = learned.find(e => e.className === className);
-    console.log('[🔍 SZUKAM]', className, '->', entry);
 
     if (entry) {
         if (entry.classToAdd === "active") return "green";
@@ -571,9 +551,7 @@ setTimeout(updateButtonColors, 0);
                                 // Iteracja przez matchingFiszki2 dla sentence1
                                 for (let j = 0; j < matchingFiszki2.length; j++) {
                                     const fiszka = matchingFiszki2[j];
-                                    console.log('fiszka:', fiszka);
                                     if (!fiszka.sentence1 || fiszka.sentence1.length === 0) {
-                                        console.log('fiszka.sentence1 is undefined or empty');
                                         continue; // Jeśli sentence1 nie istnieje lub jest puste, przejdź do następnej fiszki
                                     }
 
@@ -584,8 +562,6 @@ setTimeout(updateButtonColors, 0);
                                         console.log('sentencePart5:', sentencePart);
                                         const indexToCheck = j + lesson2PartLength + 1;
                                         const indexToCheck2 = j + lesson2PartLength + 1;
-                                        console.log('indexToCheck5:', indexToCheck);
-                                        console.log('hej31', sentencePart);
                                         // Sprawdź, czy indeks jest równy 0
                                         if (aktualny) {
                                             if (matchingIndexes.includes(indexToCheck)) {
@@ -607,9 +583,9 @@ setTimeout(updateButtonColors, 0);
                                                                 // Iteracja przez matchingFiszki2 dla sentence2
                                 for (let jj = 0; jj < matchingFiszki2.length; jj++) {
                                     const fiszka = matchingFiszki2[jj];
-                                    console.log('fiszka2:', fiszka);
+                                    
                                     if (!fiszka.sentence2 || fiszka.sentence2.length === 0) {
-                                        console.log('fiszka.sentence2 is undefined or empty');
+                                        
                                         continue;
                                     }
 
@@ -626,14 +602,9 @@ const colorClass = isFiszkaActive2(classNameToCheck);
 
     if (colorClass) {
         span.classList.add(colorClass);
-
-        console.log(`[✅ PODŚWIETLONO NA ${colorClass.toUpperCase()}]`, sentencePart2);
     }
-
-                                        console.log('sentencePart2 przed przetworzeniem:', sentencePart2);
                                         const indexToCheck = jj + lesson2PartLength + 1;
                                         const indexToCheck2 = jj + lesson2PartLength + 1;
-                                        console.log('indexToCheck3:', indexToCheck);
                                         if (aktualny) {
                                             if (matchingIndexes.includes(indexToCheck)) {
                                                 // Sprawdzenie, czy indeks bieżącej fiszki znajduje się w tablicy matchingIndexes
@@ -649,9 +620,6 @@ const colorClass = isFiszkaActive2(classNameToCheck);
 }
                                 }
 
-                                console.log('hej20', sentence1bb1b);
-                                // Kliknięcie w kategorię
-                                // Kliknięcie w kategorię
 // Kolory przypisane do kategorii
 const colorMapping = {
     'sport': '#28a745',        // Zielony
@@ -807,10 +775,8 @@ function updateButtonColors() {
                         $(document).ready(function () {
                                 function isFiszkaActive2(className) {
     const learned = getLearned2();
-    console.log('[📦 ZAWARTOŚĆ ColorClass]', learned);
 
     const entry = learned.find(e => e.className === className);
-    console.log('[🔍 SZUKAM]', className, '->', entry);
 
     return entry && entry.classToAdd === "active2";
 }
@@ -819,31 +785,25 @@ function updateButtonColors() {
 
                             for (let l = 0; l < matchingFiszki3.length; l++) {
                                 const fiszka = matchingFiszki3[l];
-                                console.log('fiszka:', fiszka);
+                                
                                 if (!fiszka.sentence1 || fiszka.sentence1.length === 0) {
-                                    console.log('fiszka.sentence1 is undefined or empty');
+                                    
                                     continue;
                                 }
                                 for (let lm = 0; lm < fiszka.sentence1.length; lm++) {
                                     let sentencePart = fiszka.sentence1[lm];
                                     const classNameToCheck = `fiszka-${fiszka.id}`;
-console.log('[🟢 SPRAWDZAM FISZKĘ]', classNameToCheck);
 
 const isActive = isFiszkaActive2(classNameToCheck);
-console.log('[🟢 Czy aktywna (active2)?]', isActive);
-
     if (isActive) {
         const spanGreen = document.createElement('span');
         spanGreen.textContent = sentencePart;
         spanGreen.classList.add('orange');
         sentencePart = spanGreen.outerHTML;
-
-        console.log('[✅ PODŚWIETLONO NA ZIELONO]', sentencePart);
     }
-                                        console.log('sentencePart5:', sentencePart);
+
                                         const indexToCheck = l + lesson3PartLength + 1;
                                         const indexToCheck2 = l + lesson3PartLength + 1;
-                                    console.log('indexToCheck:', indexToCheck);
                                         if (aktualny) {
                                             if (matchingIndexes.includes(indexToCheck)) {
                                                 // Sprawdzenie, czy indeks bieżącej fiszki znajduje się w tablicy matchingIndexes
@@ -1015,9 +975,9 @@ function countCategoryInFiszki2(matchingFiszki3, category) {
 
                             for (let lmm = 0; lmm < matchingFiszki3.length; lmm++) {
                                 const fiszka = matchingFiszki3[lmm];
-                                console.log('fiszka2:', fiszka);
+                               
                                 if (!fiszka.sentence2 || fiszka.sentence2.length === 0) {
-                                    console.log('fiszka.sentence2 is undefined or empty');
+                                   
                                     continue;
                                 }
                                 for (let lmn = 0; lmn < fiszka.sentence2.length; lmn++) {
@@ -1232,7 +1192,7 @@ if ($container2b.length > 0) {
 }
                     }
                                         if (newIndex10d !== null) {
-                    const $container2bv = $(`.image-container3b[data-lesson="${newIndex10d}"]`);
+                    const $container2bv = $(`.image-container3b[data-lesson="${indexDiv0d}"]`);
                 console.log('data-lesson10', $container2bv);            
 
 if ($container2bv.length > 0) {
@@ -1240,7 +1200,25 @@ if ($container2bv.length > 0) {
     $container2bv.remove();
 }
                     }
-if (newIndex10 === null) {
+                                                            if (newIndex10b3 !== null) {
+                    const $container2bv = $(`.image-container3b[data-lesson="${indexDiv0b}"]`);
+                console.log('data-lesson10', $container2bv);            
+
+if ($container2bv.length > 0) {
+        console.log('Usunięto kontener2b o data-lesson', $container2bv);
+    $container2bv.remove();
+}
+                    }
+                                                                                if (newIndex10dd !== null) {
+                    const $container2bv = $(`.image-container3b[data-lesson="${indexDiv0b}"]`);
+                console.log('data-lesson10', $container2bv);            
+
+if ($container2bv.length > 0) {
+        console.log('Usunięto kontener2b o data-lesson', $container2bv);
+    $container2bv.remove();
+}
+                    }
+if (newIndex10d === null) {
     const $container2 = $(`.image-container3b[data-lesson="${indexDiv0 + 1}"], 
                           .image-container3b[data-lesson="${indexDiv0 + 2}"]`);
     if ($container2.length > 0) {
@@ -1251,8 +1229,7 @@ if (newIndex10 === null) {
 }
 
 if (number1) {
-    const $container2 = $(`.image-container3b[data-lesson="${indexDiv0b + 1}"], 
-                          .image-container3b[data-lesson="${indexDiv0b + 2}"]`);
+    const $container2 = $(`.image-container3b[data-lesson="${indexDiv0b + 1}"]`);
     if ($container2.length > 0) {
         $container.insertBefore($container2.first());
     } else {
@@ -1260,7 +1237,7 @@ if (number1) {
     }
 }
 
-if (number2) {
+if (newIndex10b4 !== null) {
     const $container2 = $(`.image-container3b[data-lesson="${indexDiv0b + 1}"], 
                           .image-container3b[data-lesson="${indexDiv0b + 2}"]`);
     if ($container2.length > 0) {
@@ -1289,7 +1266,6 @@ console.log("srcWord3b:", srcWord3b);
                         video.src = srcWords[i];
                         video.addEventListener('loadedmetadata', function () {
                             totalDuration += this.duration;
-                            console.log('tablica8', totalDuration);
                             console.log('działa5');
                         });
                     }
@@ -1892,7 +1868,7 @@ if (window.matchMedia("(max-width: 999px)").matches) {
                             addBackgroundToText2b(matchingFiszki2, matchingIndexes, true, lesson2PartLength, matchingIndexes2, rodzaj, matchingIndexes3, matchingLessons5b);
                             addBackgroundToText3b(matchingFiszki3, matchingIndexes, true, lesson3PartLength, matchingIndexes2, rodzaj, matchingIndexes3, matchingLessons5b);
                         }
-                        if (newIndex !== 0 || newIndex === 0) {
+                        if ((newIndex !== 0 && newIndex10d === null) || (newIndex === 0 && newIndex10d === null)) {
                         setTimeout(function () {
                             addVideo3(0);
                         }, 100);
@@ -1934,7 +1910,7 @@ if (window.matchMedia("(max-width: 999px)").matches) {
                             'text-align': 'center',
                             'z-index': '100'
                         });
-                    } else if (newIndex === 0 || newIndex !== 0) {
+                    } else if (newIndex === 0 && newIndex5 === 0 || newIndex10d === 0 || newIndex10 === 0 || newIndex10b4 === 0 || (newIndex !== 0 && newIndex10d === null)) {
     var $sentenceDiv = $('<div></div>');
     $sentenceDiv.addClass('sentence');
 
@@ -1989,7 +1965,7 @@ const $button = $('<button></button>')
                 tablica7[0], tablica3[2], index55,
                 true, tablica3[0], true, true,
                 tablica3[1], tablica3[4],
-                false, '', '', '', '', indexDivRange
+                false, '', '', '', '', '100', '', '', '', false, true, false
             );
         }, 100);
     });

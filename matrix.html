@@ -1030,6 +1030,23 @@ span.highlight {
                 .zaznaczony-charakter {
                     border: 3px solid blue;
                 }
+.image-container3 #countdown-timer {
+    font-size: 12px;          /* standardowy rozmiar na PC */
+    font-weight: bold;
+    color: green;
+    margin: 0 auto;           /* wycentrowanie */
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 10;
+    line-height: 30px;
+    height: 30px;
+    width: 250px;
+    text-align: center;
+    user-select: none;
+    text-transform: none;     /* normalne litery */
+}
             }
             @media (max-width: 999px) {
                                 .grid-containera {
@@ -1065,6 +1082,12 @@ span.highlight {
                     overflow: hidden; /* Ukrywanie wszelkiego poziomego przewijania */
                     z-index: 1;
                 }
+    .image-container3 #countdown-timer {
+        font-size: 5px;      /* mniejszy font na ekranach do 600px */
+        line-height: 20px;    /* opcjonalnie zmniejszyć wysokość wiersza */
+        height: 20px;         /* zmniejszyć wysokość kontenera */
+        width: 180px;         /* dopasować szerokość do małego ekranu */
+    }
                     .text-intro {
         margin: 2px 0 2px 0;
         font-size: 8px; /* mniejsza czcionka, żeby wszystko zmieścić */
@@ -2116,8 +2139,8 @@ $(".floating-btn").css({
 });
 
 // Flaga globalna
-let flagaPrzycisku = false;
-let flagaPrzycisku2 = false;
+let flagaPrzycisku = [];
+let flagaPrzycisku2 = [];
 
 $(document).on("click", "#startButton", function () {
     console.log("Kliknięto Start");
@@ -2127,9 +2150,11 @@ $(document).on("click", "#startButton", function () {
     console.log("ustawTryb:", typeof ustawTryb);
     console.log("przekazArgument0:", typeof przekazArgument0);
 
-    flagaPrzycisku = true;
+    flagaPrzycisku[0] = true;
+    flagaPrzycisku2[0] = false;
+    console.log('110', flagaPrzycisku, flagaPrzycisku2);
     ustawTryb('fiszki');
-    przekazArgument0(tablica7[0], 'all', '', false, 'fiszki', true, true, tablica3[1], tablica3[4], false, '', '', '', '', '', '', '100', '', '');
+    przekazArgument0(tablica7[0], 'all', '', false, 'fiszki', true, true, tablica3[1], tablica3[4], false, '', '', '', '', '100', '', '', '', true, false, true);
     console.log("✅ Flaga przycisku ustawiona na TRUE");
 });
   // Pokaż tylko raz
@@ -2566,22 +2591,18 @@ $gridContainer2.css('margin-top', flashcardContainerHeight + 100 + 'px');
                         let tablica43d = [];
                         let indexDiv0;
                         let indexDiv0b;
-            function przekazArgument0(selectedCategory, category, index55, buttonindex, czas, idpolski, idtranslate, id, rodzaj, isSearching, matchingLessons5, matchingLessons5b, isSearching2, staraTablica40, indexDivRange, indexDiv0, indexDiv0b, indexDiv0d) {
-                $('.grid-container .image-container3').remove();
+            function przekazArgument0(selectedCategory, category, index55, buttonindex, czas, idpolski, idtranslate, id, rodzaj, isSearching, matchingLessons5, matchingLessons5b, isSearching2, staraTablica40, indexDivRange, indexDiv0, indexDiv0b, indexDiv0d, number, flagaPrzycisku2, flagaPrzycisku) {
+       
+        $('.grid-container .image-container3').remove();
                 $('.grid-container .image-container4').remove();
                         indexDiv0 = tablica43[tablica43.length - 1]; ////// DODAWANIE
                         indexDiv0b = tablica43b[tablica43b.length - 1]; ////// DODAWANIE
                         indexDiv0d = tablica43d[tablica43d.length - 1]; ////// DODAWANIE
-                        console.log(":vvv ", indexDiv0d);
-                                console.log(":vv ", buttonindex);
+                        console.log(":vvv ", flagaPrzycisku2, flagaPrzycisku);
+                                console.log(":vv ", number);
                 tablica3[1] = id;
                 tablica3[2] = category;
                 tablica3[4] = rodzaj;
-                console.log('hej55b', rodzaj);
-                console.log('hej321b', idtranslate);
-                console.log('hej453', buttonindex);
-                console.log('hej453', czas);
-                console.log('hej453', idpolski);
                 pulpitstartowy = true;
                 przyciskKlikniety = true;
                 // Przypisz wartość do zmiennej globalnej
@@ -2589,9 +2610,8 @@ $gridContainer2.css('margin-top', flashcardContainerHeight + 100 + 'px');
                 tablica10.length = 0;
                 tablica15.length = 0;
                 globalIdTranslate = idtranslate;
-                                console.log('nowy30', rodzaj);
                 // Wywołaj funkcję wybierzCharakter na podstawie trybu
-                wybierzCharakter(selectedCategory, category, tablica3[0], index55, buttonindex, tablica3[1], tablica3[3], rodzaj, isSearching, matchingLessons5, matchingLessons5b, isSearching2, staraTablica40, indexDivRange, indexDiv0, indexDiv0b, indexDiv0d);
+                wybierzCharakter(selectedCategory, category, tablica3[0], index55, buttonindex, tablica3[1], tablica3[3], rodzaj, isSearching, matchingLessons5, matchingLessons5b, isSearching2, staraTablica40, indexDivRange, indexDiv0, indexDiv0b, indexDiv0d, number, flagaPrzycisku2, flagaPrzycisku);
 
             }
 
@@ -2602,20 +2622,16 @@ $gridContainer2.css('margin-top', flashcardContainerHeight + 100 + 'px');
             }
             console.log('hej33bb', tablica3);
             // Funkcja wybierająca charakter
-            function wybierzCharakter(selectedCategory, category, czas, index55, buttonindex, idpolski, frazyid, rodzaj, isSearching, matchingLessons5, matchingLessons5b, isSearching2, staraTablica40, indexDivRange, indexDiv0, indexDiv0b, indexDiv0d) {
+            function wybierzCharakter(selectedCategory, category, czas, index55, buttonindex, idpolski, frazyid, rodzaj, isSearching, matchingLessons5, matchingLessons5b, isSearching2, staraTablica40, indexDivRange, indexDiv0, indexDiv0b, indexDiv0d, number, flagaPrzycisku2, flagaPrzycisku) {
                 console.log('hej223', czas, category, frazyid);
 
                 pulpitstartowy = false;
-                console.log('hej555', czas);
                 // Aktualizuj matchingIndexes na podstawie nowej kategorii
                 matchingIndexes = findXForMatchingFiszka(globalCategory, fiszki);
                 matchingIndexes2 = findXForMatchingFiszka2(globalCategory, fiszki);
                 matchingIndexes3 = findXForMatchingFiszka3(globalCategory, fiszki);
 
-                wybierzRodzaj(selectedCategory, globalCategory, czas, matchingIndexes, index55, buttonindex, idpolski, frazyid, matchingIndexes2, rodzaj, matchingIndexes3, isSearching, matchingLessons5, matchingLessons5b, isSearching2, staraTablica40, indexDivRange, indexDiv0, indexDiv0b, indexDiv0d);
-                // Wyświetl na konsoli zaktualizowane matchingIndexes
-                console.log("Zaktualizowane matchingIndexes:", matchingIndexes);
-                console.log("wykonuje sie hej", matchingIndexes2);
+                wybierzRodzaj(selectedCategory, globalCategory, czas, matchingIndexes, index55, buttonindex, idpolski, frazyid, matchingIndexes2, rodzaj, matchingIndexes3, isSearching, matchingLessons5, matchingLessons5b, isSearching2, staraTablica40, indexDivRange, indexDiv0, indexDiv0b, indexDiv0d, number, flagaPrzycisku2, flagaPrzycisku);
                 czasv2 = czas;
             }
 
@@ -2685,7 +2701,6 @@ function findMatchingFiszkiCount(category, fiszki) {
                     // Upewnij się, że fiszki[i] oraz fiszki[i].category3 są zdefiniowane
                     if (fiszki[i] && fiszki[i].category3 && fiszki[i].category3.includes("PresentSimplePodmiot")) {
                         matchingIndexes2.push(i + 1);
-                        console.log('hej7xxv', matchingIndexes2);
                     }
                 }
                 // Zwracamy tablicę indeksów pasujących "fiszek"
@@ -2700,11 +2715,9 @@ function findMatchingFiszkiCount(category, fiszki) {
                     // Upewnij się, że fiszki[i] oraz fiszki[i].category3 są zdefiniowane
                     if (fiszki[i] && fiszki[i].category3 && fiszki[i].category3.includes("PresentSimpleCzasownik")) {
                         matchingIndexes3.push(i + 1);
-                        console.log('hej7xxv', matchingIndexes3);
                     }
                 }
                 // Zwracamy tablicę indeksów pasujących "fiszek"
-                console.log('wykonuje się 6bb', matchingIndexes3);
                 return matchingIndexes3;
             }
             function countCorrelationsForId0(fiszki) {
@@ -2732,7 +2745,6 @@ function findMatchingFiszkiCount(category, fiszki) {
             }
 
             const correlationsCount = countCorrelationsForId0(fiszki);
-            console.log('hej12', correlationsCount);
 
             function calculatePartLengths(fiszki) {
                 const idToLengthsMap = new Map(); // Mapa dla długości części zdania dla każdego identyfikatora y
@@ -2910,9 +2922,11 @@ function findMatchingFiszkiCount(category, fiszki) {
             let losowaniaCounter2 = 0; // Zmienna licznika losowań
             let tablica33 = [];
             let tablica33b = [];
-            function wybierzRodzaj(selectedCategory, category, czas, matchingIndexes, index55, buttonindex, idpolski, frazyid, matchingIndexes2, rodzaj, matchingIndexes3, isSearching, matchingLessons5, matchingLessons5b, isSearching2, staraTablica40, indexDivRange, indexDiv0, indexDiv0b, indexDiv0d) {
+            function wybierzRodzaj(selectedCategory, category, czas, matchingIndexes, index55, buttonindex, idpolski, frazyid, matchingIndexes2, rodzaj, matchingIndexes3, isSearching, matchingLessons5, matchingLessons5b, isSearching2, staraTablica40, indexDivRange, indexDiv0, indexDiv0b, indexDiv0d, number, flagaPrzycisku2, flagaPrzycisku) {
                 category = category || globalCategory;
                 czasv2 = czas;
+                number;
+                console.log('hej108n', number);
                 console.log("Wybrany rodzaj słownictwa:vv ", selectedCategory);
                 console.log('hej5b', index55);
                 console.log('hej755', matchingIndexes);
@@ -3192,15 +3206,10 @@ if (myVariable.length > 0) {
                                 lesson3SecondPartLength: lesson3SecondPartLength,
                                 indexDiv: indexDiv
                             };
-
                             lessonsArrayZ.push(lessonObjectZ);
                             console.log('hej3334vv', lessonObjectZ);
-
                             // Zwiększenie licznika losowań
                             console.log('Liczba losowań:', losowaniaCounter); // Dodano log licznika losowań
-
-
-
                             if (tablica10.length <= indexDivRange || tablica10.length === 0) {
                                 console.log('wykonuje się 8');
                                 console.log('hej32', newIndex);
@@ -3208,10 +3217,7 @@ if (myVariable.length > 0) {
                                 showCombinedSentenceForLesson5b(category, selectedCategory, matchingIndexes3, rodzaj, matchingIndexes2, buttonindex, index50, lessonId1, lessonId2, lessonId3, fiszki, matchingIndexes, startIndex, newIndex, indexDiv, lessonsArray, lesson1PartLength, lesson2PartLength, lesson3PartLength, lesson1Sentences, lesson2Sentences, lesson3Sentences, lesson1FirstPartLength, lesson2FirstPartLength, lesson3FirstPartLength, lesson1SecondPartLength, lesson2SecondPartLength, lesson3SecondPartLength, cumulativeFirstPartLength1, cumulativeFirstPartLength2, cumulativeFirstPartLength3, lessonsArrayZ, matchingLessons5, matchingLessons5b, isSearching);
             console.log('hej18vvv', selectedCategory);                
             }
-
                         }
-
-                        console.log('Aktualna zawartość tablicy lessonsArray:', lessonsArray);
                         const numberOfContainers = $('.image-container3').length;
                         console.log('Liczba dodanych divów:', numberOfContainers);
                     }
@@ -3320,16 +3326,6 @@ if (myVariable.length > 0) {
 
                             // Dodawanie obiektu do tablicy lekcji
                             lessonsArrayA.push(lessonObjectA);
-                            console.log('hej3334vv', lessonObjectA);
-
-
-                            // Zwiększ startIndex o 7 za każdym razem, gdy funkcja iteruje
-                            console.log('hej558', lessonsArrayA);
-                            console.log('hej40', newIndex); // Wyświetl wartość startIndex
-                            console.log('wykonuje się 7');
-                            console.log('hej323', index55);
-
-                            console.log('hej344');
                             // Zwiększenie licznika losowań
                             console.log('Liczba losowań:', losowaniaCounter); // Dodano log licznika losowań
 
@@ -3631,37 +3627,29 @@ for (let i = 0; i < myVariable.length; i += 3) {
                                 $('.grid-container .image-container3b').remove();
                                showCombinedSentenceForLesson5b2(category, selectedCategory, matchingIndexes3, rodzaj, matchingIndexes2, buttonindex, index50, lessonId1, lessonId2, lessonId3, fiszki, matchingIndexes, startIndex, newIndex, indexDiv, lessonsArray, lesson1PartLength, lesson2PartLength, lesson3PartLength, lesson1Sentences, lesson2Sentences, lesson3Sentences, lesson1FirstPartLength, lesson2FirstPartLength, lesson3FirstPartLength, lesson1SecondPartLength, lesson2SecondPartLength, lesson3SecondPartLength, cumulativeFirstPartLength1, cumulativeFirstPartLength2, cumulativeFirstPartLength3, lessonsArrayZ, matchingLessons5, matchingLessons5b, isSearching);
                             }
+                            console.log('hej108', flagaPrzycisku);
+                          
                             // 🔹 Najpierw sprawdzamy specjalny przypadek dla flagaPrzycisku + index50
-if (flagaPrzycisku2 && !flagaPrzycisku &&
-    ((tablica10.length <= indexDivRange || tablica10.length === 0) &&
-    category === 'all')
-) {
-    const newIndex2 = null;
-    const indexDiv0b2 = null;
+if (flagaPrzycisku2 && !flagaPrzycisku && (tablica10.length <= indexDivRange || tablica10.length === 0) && category === 'all' && ostatniaWartosc < 2 && ostatniaWartosc > 0 && !number) {
     const newIndex5 = null;
     const newIndex10 = null;
     const newIndex10d = null;
-    let number = true;
+    const newIndex10b3 = null;
+    const newIndex10b4 = null;
     let number1 = false;
     let number2 = false;
+    const newIndex10dd = null;
+   console.log('hej230', number);
+    // używamy index55 jako index50
+
 
     if (newIndex !== 0) {
+        // --- LEKCJA INTERAKTYWNA ---
         showCombinedSentenceForLesson22b(
             number1, number2, selectedCategory, matchingIndexes3, rodzaj, matchingIndexes2,
             buttonindex, index50, lessonId1, lessonId2, lessonId3, fiszki, matchingIndexes,
-            startIndex, newIndex, newIndex5,  newIndex10, indexDiv, indexDiv0, indexDiv0b, newIndex10d, lessonsArray,
-            lesson1PartLength, lesson2PartLength, lesson3PartLength,
-            lesson1Sentences, lesson2Sentences, lesson3Sentences,
-            lesson1FirstPartLength, lesson2FirstPartLength, lesson3FirstPartLength,
-            lesson1SecondPartLength, lesson2SecondPartLength, lesson3SecondPartLength,
-            cumulativeFirstPartLength1, cumulativeFirstPartLength2, cumulativeFirstPartLength3,
-            lessonsArrayZ, matchingLessons5, matchingLessons5b, isSearching
-        );
-    } else if (newIndex === 0) {
-                showCombinedSentenceForLesson22b(
-            number1, number2, selectedCategory, matchingIndexes3, rodzaj, matchingIndexes2,
-            buttonindex, index50, lessonId1, lessonId2, lessonId3, fiszki, matchingIndexes,
-            startIndex, newIndex, newIndex5,  newIndex10, indexDiv, indexDiv0, indexDiv0b, newIndex10d, lessonsArray,
+            startIndex, newIndex, newIndex5, newIndex10, newIndex10b3, newIndex10b4, newIndex10dd,
+            indexDiv, indexDiv0, indexDiv0b, indexDiv0d, newIndex10d, newIndex10d, lessonsArray,
             lesson1PartLength, lesson2PartLength, lesson3PartLength,
             lesson1Sentences, lesson2Sentences, lesson3Sentences,
             lesson1FirstPartLength, lesson2FirstPartLength, lesson3FirstPartLength,
@@ -3670,35 +3658,60 @@ if (flagaPrzycisku2 && !flagaPrzycisku &&
             lessonsArrayZ, matchingLessons5, matchingLessons5b, isSearching
         );
     }
+    if (newIndex === 0) {
+
+        console.log('hej105', newIndex);
+        showCombinedSentenceForLesson22b(
+            number1, number2, selectedCategory, matchingIndexes3, rodzaj, matchingIndexes2,
+            buttonindex, index50, lessonId1, lessonId2, lessonId3, fiszki, matchingIndexes,
+            startIndex, newIndex, newIndex5, newIndex10, newIndex10b3, newIndex10b4, newIndex10dd,
+            indexDiv, indexDiv0, indexDiv0b, indexDiv0d, newIndex10d, lessonsArray,
+            lesson1PartLength, lesson2PartLength, lesson3PartLength,
+            lesson1Sentences, lesson2Sentences, lesson3Sentences,
+            lesson1FirstPartLength, lesson2FirstPartLength, lesson3FirstPartLength,
+            lesson1SecondPartLength, lesson2SecondPartLength, lesson3SecondPartLength,
+            cumulativeFirstPartLength1, cumulativeFirstPartLength2, cumulativeFirstPartLength3,
+            lessonsArrayZ, matchingLessons5, matchingLessons5b, isSearching
+        );
+continue;
+    }
+
+   } else if (flagaPrzycisku2 && !flagaPrzycisku && (tablica10.length <= indexDivRange || tablica10.length === 0) && category === 'all' && ostatniaWartosc < 3 && ostatniaWartosc > 1 && !number) {
+    const newIndex5 = null;
+    const newIndex10 = null;
+    const newIndex10d = null;
+    const newIndex10b3 = null;
+    let newIndex10b4 = null;
+    let number1 = false;
+    let number2 = false;
+    const newIndex10dd = null;  
+            if (index50 === 0) {
+                            //// WGRANIE MIEJSCA NA DRUGĄ LEKCJĘ
+    const indexDiv0b = indexDiv;
+        tablica43b.push(indexDiv0b);
+                     console.log('hej105b', index50);           
+
+            przekazArgument0(tablica7[0], tablica3[2], undefined, true, tablica3[0], true, true, tablica3[1], tablica3[4], false, '', '', '', '', '100', indexDiv0, indexDiv0b, indexDiv0d, false, true, false);
+            } else if (index50 === 0) {
+ostatniaWartosc === 3;
 }
-console.log('hej100vv', tablica55[0], tablica55[1]);
-if (flagaPrzycisku && 
-    ((tablica10.length <= indexDivRange || tablica10.length === 0) &&
-    ostatniaWartosc < 3 && !flagaPrzycisku2 &&
-    category === 'all')
-) {
-const newIndex2 = null;
-const indexDiv0b2 = null;
-const newIndex5 = null;
-const newIndex10 = null;
-let number = true;
-let number1 = false;
-let number2 = false;
-            if (newIndex === 0) {
-    const currentIndexDiv = indexDiv;
-    setTimeout(() => {
-        tablica43.push(currentIndexDiv);
-            }, 500);
-                tablica55.push(true);
-/// PRODUKCJA PIERWSZEJ LEKCJI
-                let newIndex10d = (indexDiv === indexDiv0) ? 0 : indexDiv;
-                console.log('hej105', newIndex10d);
-                /// USUNIĘCIE DRUGIEJ MINIATURY
-                            if (newIndex10d === 0) {
+   } else if (flagaPrzycisku2 && !flagaPrzycisku && (tablica10.length <= indexDivRange || tablica10.length === 0) && category === 'all' && ostatniaWartosc < 4 && ostatniaWartosc > 2 && !number) {
+    const newIndex5 = null;
+    const newIndex3 = null;
+    const newIndex3b = null;
+    const newIndex10 = null;
+    const newIndex10d = null;
+    const newIndex10b3 = null;
+    let newIndex10b4 = null;
+    let number1 = false;
+    let number2 = false;
+   let newIndex10dd = (indexDiv === indexDiv0b) ? 0 : indexDiv;
+      console.log('hej230b', newIndex10dd);
+                                  if (newIndex10dd === 0) {
                     showCombinedSentenceForLesson22b(
         number1, number2, selectedCategory, matchingIndexes3, rodzaj, matchingIndexes2,
         buttonindex, index50, lessonId1, lessonId2, lessonId3, fiszki, matchingIndexes,
-        startIndex, newIndex, newIndex5, newIndex10, indexDiv, indexDiv0, indexDiv0b, newIndex10d, lessonsArray,
+        startIndex, newIndex, newIndex5, newIndex10, newIndex10b3, newIndex10b4, newIndex10dd, indexDiv, indexDiv0, indexDiv0b, indexDiv0d, newIndex10d, lessonsArray,
         lesson1PartLength, lesson2PartLength, lesson3PartLength,
         lesson1Sentences, lesson2Sentences, lesson3Sentences,
         lesson1FirstPartLength, lesson2FirstPartLength, lesson3FirstPartLength,
@@ -3707,10 +3720,61 @@ let number2 = false;
         lessonsArrayZ, matchingLessons5, matchingLessons5b, isSearching
     );
             }
+    if (newIndex10dd === 0) {
+
+        showCombinedSentenceForLesson(
+            number, selectedCategory, matchingIndexes3, rodzaj, matchingIndexes2,
+            buttonindex, index50, lessonId1, lessonId2, lessonId3, fiszki, matchingIndexes,
+            startIndex, newIndex, newIndex10, newIndex3, newIndex3b, newIndex10b3, newIndex10dd,
+            indexDiv, indexDiv0, indexDiv0b, indexDiv0d, newIndex10d, lessonsArray,
+            lesson1PartLength, lesson2PartLength, lesson3PartLength,
+            lesson1Sentences, lesson2Sentences, lesson3Sentences,
+            lesson1FirstPartLength, lesson2FirstPartLength, lesson3FirstPartLength,
+            lesson1SecondPartLength, lesson2SecondPartLength, lesson3SecondPartLength,
+            cumulativeFirstPartLength1, cumulativeFirstPartLength2, cumulativeFirstPartLength3,
+            lessonsArrayZ, matchingLessons5, matchingLessons5b, isSearching
+        );
+        console.log('hej100vv', indexDiv0b);
+            continue;
+    }
+}
+console.log('hej100vvn', flagaPrzycisku, flagaPrzycisku2, number);
+if (!flagaPrzycisku2 && flagaPrzycisku && (tablica10.length <= indexDivRange || tablica10.length === 0) && ostatniaWartosc < 3 && ostatniaWartosc > 1 && category === 'all' && number) {
+console.log('hej111', number);
+const newIndex5 = null;
+const newIndex10 = null;
+const newIndex10b3 = null;
+let newIndex10b4 = null;
+const newIndex3 = null;
+const newIndex3b = null;
+let number1 = false;
+let number2 = false;
+let newIndex10d = (indexDiv === indexDiv0) ? 0 : indexDiv;
+console.log('hej107', indexDiv0);
+if (newIndex10d === 0) {
+    /// USUNIĘCIE PIERWSZEJ MINIATURY
+                showCombinedSentenceForLesson22b(
+            number1, number2, selectedCategory, matchingIndexes3, rodzaj, matchingIndexes2,
+            buttonindex, index50, lessonId1, lessonId2, lessonId3, fiszki, matchingIndexes,
+            startIndex, newIndex, newIndex5,  newIndex10, newIndex10b3, newIndex10b4, indexDiv, indexDiv0, indexDiv0b, indexDiv0d, newIndex10d, lessonsArray,
+            lesson1PartLength, lesson2PartLength, lesson3PartLength,
+            lesson1Sentences, lesson2Sentences, lesson3Sentences,
+            lesson1FirstPartLength, lesson2FirstPartLength, lesson3FirstPartLength,
+            lesson1SecondPartLength, lesson2SecondPartLength, lesson3SecondPartLength,
+            cumulativeFirstPartLength1, cumulativeFirstPartLength2, cumulativeFirstPartLength3,
+            lessonsArrayZ, matchingLessons5, matchingLessons5b, isSearching
+        );
+}
+            if (newIndex10d === 0) {
+    const currentIndexDiv = indexDiv;
+    setTimeout(() => {
+        tablica43.push(currentIndexDiv);
+            }, 0);
+/// WSTAWIENIE PIERWSZEJ LEKCJI PRZY ARBU WORLD
             showCombinedSentenceForLesson(
                 number, selectedCategory, matchingIndexes3, rodzaj, matchingIndexes2,
                 buttonindex, index50, lessonId1, lessonId2, lessonId3, fiszki, matchingIndexes,
-                startIndex, newIndex, newIndex10, indexDiv, indexDiv0, indexDiv0b, lessonsArray,
+                startIndex, newIndex, newIndex10, newIndex3, newIndex3b, newIndex10b3, indexDiv, indexDiv0, indexDiv0b, indexDiv0d, newIndex10d, lessonsArray,
                 lesson1PartLength, lesson2PartLength, lesson3PartLength,
                 lesson1Sentences, lesson2Sentences, lesson3Sentences,
                 lesson1FirstPartLength, lesson2FirstPartLength, lesson3FirstPartLength,
@@ -3719,54 +3783,32 @@ let number2 = false;
                 lessonsArrayZ, matchingLessons5, matchingLessons5b, isSearching
             );
 
+    tablica55.push(true);
             }
-            } else if ((tablica10.length <= indexDivRange || tablica10.length === 0) && ostatniaWartosc < 4 && ostatniaWartosc > 2 && category === 'all') {
+            } else if ((tablica10.length <= indexDivRange || tablica10.length === 0) && ostatniaWartosc < 4 && ostatniaWartosc > 2 && category === 'all' && number) {
                 let number = true;
                 let number1 = false;
                 let number2 = false;
                 const newIndex10 = null;
-                const newIndex5 = (indexDiv === indexDiv0) ? 0 : indexDiv;
+                    const newIndex10d = null;
+                    const newIndex10b3 = null;
+                    let newIndex10b4 = null;
+                    const newIndex5 = null;
+                const newIndex3 = (indexDiv === indexDiv0) ? 0 : indexDiv;
+                console.log('hejhej511ff', indexDiv0);
                 //////// DODANIE PIERWSZEJ MINIATURY
                     tablica55.push(true);
-                console.log('Użytkownik', newIndex5);
-                let indexDiv0b = null;
-                if (newIndex5 === 0 && !buttonindex) {
-                    showCombinedSentenceForLesson22b(
-        number1, number2, selectedCategory, matchingIndexes3, rodzaj, matchingIndexes2,
-        buttonindex, index50, lessonId1, lessonId2, lessonId3, fiszki, matchingIndexes,
-        startIndex, newIndex, newIndex5, newIndex10, indexDiv, indexDiv0, indexDiv0b, lessonsArray,
-        lesson1PartLength, lesson2PartLength, lesson3PartLength,
-        lesson1Sentences, lesson2Sentences, lesson3Sentences,
-        lesson1FirstPartLength, lesson2FirstPartLength, lesson3FirstPartLength,
-        lesson1SecondPartLength, lesson2SecondPartLength, lesson3SecondPartLength,
-        cumulativeFirstPartLength1, cumulativeFirstPartLength2, cumulativeFirstPartLength3,
-        lessonsArrayZ, matchingLessons5, matchingLessons5b, isSearching
-    );
-    continue;
-            } else if (index50 === 0) {
+if (index50 === 0) {
                             //// WGRANIE MIEJSCA NA DRUGĄ LEKCJĘ
     const indexDiv0b = indexDiv;
         tablica43b.push(indexDiv0b);
-                                console.log('hejhej51', tablica43b[tablica43b.length - 1]);
+                                
 
             przekazArgument0(tablica7[0], tablica3[2], undefined, true, tablica3[0], true, true, tablica3[1], tablica3[4], false, '', '', '', '', '100', indexDiv0, indexDiv0b);
             } else if (index50 === 0 && tablica55[1] === true) {
-ostatniaWartosc === 3;
-} else if (newIndex5 === 0) {
-                    showCombinedSentenceForLesson22b(
-        number1, number2, selectedCategory, matchingIndexes3, rodzaj, matchingIndexes2,
-        buttonindex, index50, lessonId1, lessonId2, lessonId3, fiszki, matchingIndexes,
-        startIndex, newIndex, newIndex5, newIndex10, indexDiv, indexDiv0, indexDiv0b, lessonsArray,
-        lesson1PartLength, lesson2PartLength, lesson3PartLength,
-        lesson1Sentences, lesson2Sentences, lesson3Sentences,
-        lesson1FirstPartLength, lesson2FirstPartLength, lesson3FirstPartLength,
-        lesson1SecondPartLength, lesson2SecondPartLength, lesson3SecondPartLength,
-        cumulativeFirstPartLength1, cumulativeFirstPartLength2, cumulativeFirstPartLength3,
-        lessonsArrayZ, matchingLessons5, matchingLessons5b, isSearching
-    );
-    continue;
-            }
-                                console.log('hejhej54', newIndex5);
+ostatniaWartosc === 4;
+}
+                                console.log('hejhej54', newIndex3);
             if (newIndex === 0 && !buttonindex) {
                             //// WGRANIE MIEJSCA NA DRUGĄ LEKCJĘ
     const indexDiv0b = indexDiv;
@@ -3776,21 +3818,27 @@ ostatniaWartosc === 3;
             przekazArgument0(tablica7[0], tablica3[2], undefined, false, tablica3[0], true, true, tablica3[1], tablica3[4], false, '', '', '', '', '100', indexDiv0, indexDiv0b);
             }
         
-                    } else if ((tablica10.length <= indexDivRange || tablica10.length === 0) && ostatniaWartosc < 5 && ostatniaWartosc > 3 && category === 'all') {
+                    } else if ((tablica10.length <= indexDivRange || tablica10.length === 0) && ostatniaWartosc < 5 && ostatniaWartosc > 3 && category === 'all' && number) {
                             let number = true;
                             let number1 = false;
                             let number2 = false;
                             numberb = true;
+                            const newIndex10d = null;
+                            const newIndex10b3 = null;
+                            let newIndex10b4 = null;
                             let newIndex5;
-                            console.log('hejhej511', indexDiv0b);
+                            const newIndex3 = null;
+const newIndex3b = null;
                 let newIndex10b = (indexDiv === indexDiv0) ? 0 : indexDiv;
                 let newIndex10 = (indexDiv === indexDiv0b) ? 0 : indexDiv;
+                                            console.log('hejhej511pomijane', indexDiv0);
+                                            console.log('hejhej511v', indexDiv0b);
                 /// USUNIĘCIE DRUGIEJ MINIATURY
                             if (newIndex10b === 0) {
                     showCombinedSentenceForLesson22b(
         number1, number2, selectedCategory, matchingIndexes3, rodzaj, matchingIndexes2,
         buttonindex, index50, lessonId1, lessonId2, lessonId3, fiszki, matchingIndexes,
-        startIndex, newIndex, newIndex5, newIndex10, indexDiv, indexDiv0, indexDiv0b, lessonsArray,
+        startIndex, newIndex, newIndex5, newIndex10, newIndex10b3, newIndex10b4, indexDiv, indexDiv0, indexDiv0b, indexDiv0d, newIndex10d, lessonsArray,
         lesson1PartLength, lesson2PartLength, lesson3PartLength,
         lesson1Sentences, lesson2Sentences, lesson3Sentences,
         lesson1FirstPartLength, lesson2FirstPartLength, lesson3FirstPartLength,
@@ -3809,7 +3857,7 @@ ostatniaWartosc === 3;
             showCombinedSentenceForLesson(
                 number, selectedCategory, matchingIndexes3, rodzaj, matchingIndexes2,
                 buttonindex, index50, lessonId1, lessonId2, lessonId3, fiszki, matchingIndexes,
-                startIndex, newIndex, newIndex10, indexDiv, indexDiv0, indexDiv0b, lessonsArray,
+                startIndex, newIndex, newIndex10, newIndex3, newIndex3b, newIndex10b3, indexDiv, indexDiv0, indexDiv0b, indexDiv0d, newIndex10d, lessonsArray,
                 lesson1PartLength, lesson2PartLength, lesson3PartLength,
                 lesson1Sentences, lesson2Sentences, lesson3Sentences,
                 lesson1FirstPartLength, lesson2FirstPartLength, lesson3FirstPartLength,
@@ -3826,25 +3874,16 @@ ostatniaWartosc === 3;
                             let number1 = false;
                             let number2 = false;
                             let newIndex5;
+                            let newIndex10d = null;
+                            const newIndex10b = null;
+                            const newIndex10b3 = null;
+                            let newIndex10b4 = null;
+                            const newIndex3b = (indexDiv === indexDiv0) ? 0 : indexDiv;
 tablica55.push(true);
-                            console.log('hejhej511v', tablica55);
-                let newIndex10 = (indexDiv === indexDiv0) ? 0 : indexDiv;
+
                                             tablica55.push(true);
-                                                        if (newIndex10 === 0 && !buttonindex) {
-                            let number1 = true;
-                                /// WSTAWIENIE DRUGIEJ MINIATURY
-                    showCombinedSentenceForLesson22b(
-        number1, number2, selectedCategory, matchingIndexes3, rodzaj, matchingIndexes2,
-        buttonindex, index50, lessonId1, lessonId2, lessonId3, fiszki, matchingIndexes,
-        startIndex, newIndex, newIndex5, newIndex10, indexDiv, indexDiv0, indexDiv0b, lessonsArray,
-        lesson1PartLength, lesson2PartLength, lesson3PartLength,
-        lesson1Sentences, lesson2Sentences, lesson3Sentences,
-        lesson1FirstPartLength, lesson2FirstPartLength, lesson3FirstPartLength,
-        lesson1SecondPartLength, lesson2SecondPartLength, lesson3SecondPartLength,
-        cumulativeFirstPartLength1, cumulativeFirstPartLength2, cumulativeFirstPartLength3,
-        lessonsArrayZ, matchingLessons5, matchingLessons5b, isSearching
-    );
-            } else if (index50 === 0) {
+                                            console.log('hejhej511', indexDiv0);
+if (index50 === 0) {
                             //// WGRANIE MIEJSCA NA TRZECIĄ LEKCJĘ
     const indexDiv0b = indexDiv;
         tablica43b.push(indexDiv0b);
@@ -3852,22 +3891,9 @@ tablica55.push(true);
 
             przekazArgument0(tablica7[0], tablica3[2], undefined, true, tablica3[0], true, true, tablica3[1], tablica3[4], false, '', '', '', '', '100', indexDiv0, indexDiv0b);
             } else if (index50 === 0 && tablica55[3] === true) {
-ostatniaWartosc === 5;
-} else if (newIndex10 === 0) {
-                            let number1 = true;
-                                /// WSTAWIENIE DRUGIEJ MINIATURY
-                    showCombinedSentenceForLesson22b(
-        number1, number2, selectedCategory, matchingIndexes3, rodzaj, matchingIndexes2,
-        buttonindex, index50, lessonId1, lessonId2, lessonId3, fiszki, matchingIndexes,
-        startIndex, newIndex, newIndex5, newIndex10, indexDiv, indexDiv0, indexDiv0b, lessonsArray,
-        lesson1PartLength, lesson2PartLength, lesson3PartLength,
-        lesson1Sentences, lesson2Sentences, lesson3Sentences,
-        lesson1FirstPartLength, lesson2FirstPartLength, lesson3FirstPartLength,
-        lesson1SecondPartLength, lesson2SecondPartLength, lesson3SecondPartLength,
-        cumulativeFirstPartLength1, cumulativeFirstPartLength2, cumulativeFirstPartLength3,
-        lessonsArrayZ, matchingLessons5, matchingLessons5b, isSearching
-    );
-            }
+ostatniaWartosc === 6;
+}
+            
             if (newIndex === 0 && !buttonindex) {
                             //// WGRANIE MIEJSCA NA TRZECIĄ LEKCJĘ
     const indexDiv0b = indexDiv;
@@ -3882,17 +3908,24 @@ console.log('hej122', ostatniaWartosc);
                             let number1 = false;
                             let number2 = false;
                             numberb = true;
+                            const newIndex10b = null;
                             let newIndex5;
-                            console.log('hejhej511x', indexDiv0b);
-                                            let newIndex10b = (indexDiv === indexDiv0) ? 0 : indexDiv;
-                                                        let newIndex10 = (indexDiv === indexDiv0b) ? 0 : indexDiv;
+                            let newIndex10d = null;
+                            let newIndex10 = null;
+                            let newIndex10b4 = null;
+                            const newIndex3 = null;
+                            const newIndex3b = null;
+                                            let newIndex10b2 = (indexDiv === indexDiv0) ? 0 : indexDiv;
+                                                        let newIndex10b3 = (indexDiv === indexDiv0b) ? 0 : indexDiv;
+                                                        console.log('hejhej511tutaj ma się wgrywać usunięcie trzeciej', indexDiv0);
+                                                        console.log('hejhej511v', indexDiv0b);
                                                                     /// USUNIĘCIE TRZECIEJ MINIATURY
-if (newIndex10b === 0) {
+if (newIndex10b2 === 0) {
         console.log('wykonuje się 88 (opóźnione)');
         showCombinedSentenceForLesson22b(
             number1, number2, selectedCategory, matchingIndexes3, rodzaj, matchingIndexes2,
             buttonindex, index50, lessonId1, lessonId2, lessonId3, fiszki, matchingIndexes,
-            startIndex, newIndex, newIndex5, newIndex10, indexDiv, indexDiv0, indexDiv0b, lessonsArray,
+            startIndex, newIndex, newIndex5, newIndex10, newIndex10b3, newIndex10b4, indexDiv, indexDiv0, indexDiv0b, indexDiv0d, newIndex10d, lessonsArray,
             lesson1PartLength, lesson2PartLength, lesson3PartLength,
             lesson1Sentences, lesson2Sentences, lesson3Sentences,
             lesson1FirstPartLength, lesson2FirstPartLength, lesson3FirstPartLength,
@@ -3901,8 +3934,7 @@ if (newIndex10b === 0) {
             lessonsArrayZ, matchingLessons5, matchingLessons5b, isSearching
         );
 }
-                        if (newIndex10 === 0) {
-                            number = true;
+                        if (newIndex10b3 === 0) {
                                 const currentIndexDiv = indexDiv;
     setTimeout(() => {
         tablica43.push(currentIndexDiv);
@@ -3911,7 +3943,7 @@ if (newIndex10b === 0) {
             showCombinedSentenceForLesson(
                 number, selectedCategory, matchingIndexes3, rodzaj, matchingIndexes2,
                 buttonindex, index50, lessonId1, lessonId2, lessonId3, fiszki, matchingIndexes,
-                startIndex, newIndex, newIndex10, indexDiv, indexDiv0, indexDiv0b, lessonsArray,
+                startIndex, newIndex, newIndex10, newIndex3, newIndex3b, newIndex10b3, indexDiv, indexDiv0, indexDiv0b, indexDiv0d, newIndex10d, lessonsArray,
                 lesson1PartLength, lesson2PartLength, lesson3PartLength,
                 lesson1Sentences, lesson2Sentences, lesson3Sentences,
                 lesson1FirstPartLength, lesson2FirstPartLength, lesson3FirstPartLength,
@@ -3923,7 +3955,36 @@ if (newIndex10b === 0) {
             continue;
             }
 
-        }
+        } else if ((tablica10.length <= indexDivRange || tablica10.length === 0) && ostatniaWartosc < 8 && ostatniaWartosc > 6 && category === 'all') {
+                                                        let number = true;
+                                                        
+                            let number1 = false;
+                            let number2 = false;
+                            let newIndex5;
+                            let newIndex10d = null;
+                            let newIndex10b3 = null;
+                            
+                            let newIndex10 = null;
+tablica55.push(true);
+                let newIndex10b4 = (indexDiv === indexDiv0b) ? 0 : indexDiv;
+                console.log('hejhej511v', indexDiv0b);
+                                            tablica55.push(true);
+                                                        if (newIndex10b4 === 0) {
+                            number2 = true;
+                                /// WSTAWIENIE TRZECIEJ MINIATURY
+                    showCombinedSentenceForLesson22b(
+        number1, number2, selectedCategory, matchingIndexes3, rodzaj, matchingIndexes2,
+        buttonindex, index50, lessonId1, lessonId2, lessonId3, fiszki, matchingIndexes,
+        startIndex, newIndex, newIndex5, newIndex10, newIndex10b3, newIndex10b4, indexDiv, indexDiv0, indexDiv0b, indexDiv0d, newIndex10d, lessonsArray,
+        lesson1PartLength, lesson2PartLength, lesson3PartLength,
+        lesson1Sentences, lesson2Sentences, lesson3Sentences,
+        lesson1FirstPartLength, lesson2FirstPartLength, lesson3FirstPartLength,
+        lesson1SecondPartLength, lesson2SecondPartLength, lesson3SecondPartLength,
+        cumulativeFirstPartLength1, cumulativeFirstPartLength2, cumulativeFirstPartLength3,
+        lessonsArrayZ, matchingLessons5, matchingLessons5b, isSearching
+    );
+            } 
+                    }
                     }
                         console.log('Aktualna zawartość tablicy lessonsArray:', lessonsArray);
                         const numberOfContainers = $('.image-container3').length;
@@ -4229,8 +4290,11 @@ if (window.matchMedia("(min-width: 999px)").matches) {
                 }
             });
             ustawTryb('fiszki');
-            flagaPrzycisku2 = true;
-            przekazArgument0(tablica7[0], tablica3[2], '', false, 'fiszki', true, true, tablica3[1], tablica3[4], false, '', '', '', '', '', '', '100', '', '', flagaPrzycisku2);
+            flagaPrzycisku2[0] = true;
+                flagaPrzycisku[0] = false;
+                const number = false;
+                    console.log('hej110b', number, flagaPrzycisku, flagaPrzycisku2);
+                    przekazArgument0(tablica7[0], tablica3[2], '', false, 'fiszki', true, true, tablica3[1], tablica3[4], false, '', '', '', '', '100', '', '', '', false, true, false); 
 
 // Zmierz czas na początku ładowania skryptu
 const startTime = performance.now();
