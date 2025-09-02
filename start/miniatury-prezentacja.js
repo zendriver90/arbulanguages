@@ -1192,7 +1192,7 @@ if ($container2b.length > 0) {
 }
                     }
                                         if (newIndex10d !== null) {
-                    const $container2bv = $(`.image-container3b[data-lesson="${indexDiv0d}"]`);
+                    const $container2bv = $(`.image-container3b[data-lesson="${indexDiv0}"]`);
                 console.log('data-lesson10', $container2bv);            
 
 if ($container2bv.length > 0) {

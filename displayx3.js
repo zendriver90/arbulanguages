@@ -1184,7 +1184,7 @@ let countdownInterval = setInterval(() => {
         przekazArgument0(
             tablica7[0], tablica3[2], undefined, false,
             tablica3[0], true, true, tablica3[1], tablica3[4],
-            false, '', '', '', '', '100', indexDiv0, indexDiv0b
+            false, '', '', '', '', '100', indexDiv0, indexDiv0b, indexDiv0d, true, false, true
         );
     }
 }, 1000);
