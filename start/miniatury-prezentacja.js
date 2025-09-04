@@ -1862,11 +1862,14 @@ if (window.matchMedia("(max-width: 999px)").matches) {
                                     });
                                 });
                             }
-
+// Kiedy miniatura (poster) zostanie wczytana
+$('<img>').attr('src', srcWordimage[index]).on('load', function () {
+    console.log('✅ Miniatura załadowana, odpalam fiszki...');
                             // Jeśli kontener nie został jeszcze wybrany, wybierz losowy kontener
                             addBackgroundToText1b(matchingFiszki1, matchingIndexes, true, lesson1PartLength, matchingIndexes2, rodzaj, matchingIndexes3, matchingLessons5b);
                             addBackgroundToText2b(matchingFiszki2, matchingIndexes, true, lesson2PartLength, matchingIndexes2, rodzaj, matchingIndexes3, matchingLessons5b);
                             addBackgroundToText3b(matchingFiszki3, matchingIndexes, true, lesson3PartLength, matchingIndexes2, rodzaj, matchingIndexes3, matchingLessons5b);
+                            });
                         }
                         if ((newIndex !== 0 && newIndex10d === null) || (newIndex === 0 && newIndex10d === null)) {
                         setTimeout(function () {

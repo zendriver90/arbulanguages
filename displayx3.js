@@ -474,7 +474,7 @@ const $button = $('<button></button>')
                 tablica7[0], tablica3[2], index55,
                 true, tablica3[0], true, true,
                 tablica3[1], tablica3[4],
-                false, '', '', '', '', indexDivRange
+                false, '', '', '', '', '100', '', '', '', false, true, false
             );
         }, 100);
     })
@@ -498,8 +498,7 @@ function updateButtonPosition() {
 updateButtonPosition();
 
 
-const $insertedContainer = $(`.image-container3b[data-lesson="${indexDiv + 1}"],
-                             .image-container3b[data-lesson="${indexDiv + 2}"]`);
+const $insertedContainer = $(`.image-container3b[data-lesson="${indexDiv + 1}"]`);
 
 if ($insertedContainer.length > 0) {
     $container.insertBefore($insertedContainer.first());
@@ -513,8 +512,8 @@ if ($insertedContainer.length > 0) {
                     const srcWordsf = [srcWord1f, srcWord2f, srcWord3f];
                     const srcWords2 = [srcWord1b, srcWord2b, srcWord3b];
                                             console.log("srcWord1b:", srcWord1d);
-console.log("srcWord2b:", srcWord2b);
-console.log("srcWord3b:", srcWord3b);
+console.log("srcWord2bvv:", newIndex10dd, indexDiv);
+console.log("srcWord3b:", indexDiv);
                     // Tworzymy kontenery dynamicznie
 
                     console.log('hej155', srcWordsb);
@@ -537,8 +536,8 @@ console.log("srcWord3b:", srcWord3b);
                             previousVideo.remove(); // UsuniÄcie poprzedniego wideo z kontenera
                         }
                     }
-                    if ((newIndex10d === 0 || newIndex10 === 0 || newIndex10b3 === 0 || newIndex10dd) && !isSearching && !number) {
-                        console.log('hej33bg', buttonindex);
+                    if (indexDiv && newIndex10dd === 0 && !isSearching && !number) {
+                        console.log('wykonuje się22');
                         let funkcjaWywolana = false;
                         let stopButtonAdded = false;
                         if (indexDiv % 2 === 0) {

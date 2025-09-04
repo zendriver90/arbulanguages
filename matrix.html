@@ -3636,6 +3636,7 @@ if (flagaPrzycisku2 && !flagaPrzycisku && (tablica10.length <= indexDivRange || 
     const newIndex10d = null;
     const newIndex10b3 = null;
     const newIndex10b4 = null;
+    let number = false;
     let number1 = false;
     let number2 = false;
     const newIndex10dd = null;
@@ -3676,18 +3677,18 @@ if (flagaPrzycisku2 && !flagaPrzycisku && (tablica10.length <= indexDivRange || 
             cumulativeFirstPartLength1, cumulativeFirstPartLength2, cumulativeFirstPartLength3,
             lessonsArrayZ, matchingLessons5, matchingLessons5b, isSearching
         );
-continue;
     }
 
    } else if (flagaPrzycisku2 && !flagaPrzycisku && (tablica10.length <= indexDivRange || tablica10.length === 0) && category === 'all' && ostatniaWartosc < 3 && ostatniaWartosc > 1 && !number) {
     const newIndex5 = null;
     const newIndex10 = null;
     const newIndex10d = null;
+    const newIndex10dd = null;
     const newIndex10b3 = null;
     let newIndex10b4 = null;
+    let number = false;
     let number1 = false;
     let number2 = false;
-    const newIndex10dd = null;  
             if (index50 === 0) {
                             //// WGRANIE MIEJSCA NA DRUGĄ LEKCJĘ
     const indexDiv0b = indexDiv;
@@ -3706,15 +3707,20 @@ ostatniaWartosc === 3;
     const newIndex10d = null;
     const newIndex10b3 = null;
     let newIndex10b4 = null;
+    let number = false;
     let number1 = false;
     let number2 = false;
-   let newIndex10dd = (indexDiv === indexDiv0b) ? 0 : indexDiv;
-      console.log('hej230b', newIndex10dd);
-                                  if (newIndex10dd === 0) {
-                    showCombinedSentenceForLesson22b(
-        number1, number2, selectedCategory, matchingIndexes3, rodzaj, matchingIndexes2,
+let newIndex10dd; // nie przypisujemy null
+console.log('hej107v', newIndex10dd); // TUTAJ WYPISUJE NULL
+if (indexDiv === indexDiv0b) {
+    newIndex10dd = 0; // przypisanie wartości tylko w tym warunku
+    console.log('hej107v', newIndex10dd);
+
+    showCombinedSentenceForLesson(
+        number, selectedCategory, matchingIndexes3, rodzaj, matchingIndexes2,
         buttonindex, index50, lessonId1, lessonId2, lessonId3, fiszki, matchingIndexes,
-        startIndex, newIndex, newIndex5, newIndex10, newIndex10b3, newIndex10b4, newIndex10dd, indexDiv, indexDiv0, indexDiv0b, indexDiv0d, newIndex10d, lessonsArray,
+        startIndex, newIndex, newIndex10, newIndex3, newIndex3b, newIndex10b3, newIndex10dd,
+        indexDiv, indexDiv0, indexDiv0b, indexDiv0d, newIndex10d, lessonsArray,
         lesson1PartLength, lesson2PartLength, lesson3PartLength,
         lesson1Sentences, lesson2Sentences, lesson3Sentences,
         lesson1FirstPartLength, lesson2FirstPartLength, lesson3FirstPartLength,
@@ -3722,24 +3728,10 @@ ostatniaWartosc === 3;
         cumulativeFirstPartLength1, cumulativeFirstPartLength2, cumulativeFirstPartLength3,
         lessonsArrayZ, matchingLessons5, matchingLessons5b, isSearching
     );
-            }
-    if (newIndex10dd === 0) {
+} else {
+    console.log('indexDiv !== indexDiv0b, newIndex10dd nie istnieje i funkcja nie jest wywoływana');
+}
 
-        showCombinedSentenceForLesson(
-            number, selectedCategory, matchingIndexes3, rodzaj, matchingIndexes2,
-            buttonindex, index50, lessonId1, lessonId2, lessonId3, fiszki, matchingIndexes,
-            startIndex, newIndex, newIndex10, newIndex3, newIndex3b, newIndex10b3, newIndex10dd,
-            indexDiv, indexDiv0, indexDiv0b, indexDiv0d, newIndex10d, lessonsArray,
-            lesson1PartLength, lesson2PartLength, lesson3PartLength,
-            lesson1Sentences, lesson2Sentences, lesson3Sentences,
-            lesson1FirstPartLength, lesson2FirstPartLength, lesson3FirstPartLength,
-            lesson1SecondPartLength, lesson2SecondPartLength, lesson3SecondPartLength,
-            cumulativeFirstPartLength1, cumulativeFirstPartLength2, cumulativeFirstPartLength3,
-            lessonsArrayZ, matchingLessons5, matchingLessons5b, isSearching
-        );
-        console.log('hej100vv', indexDiv0b);
-            continue;
-    }
 }
 console.log('hej100vvn', flagaPrzycisku, flagaPrzycisku2, number);
 if (!flagaPrzycisku2 && flagaPrzycisku && (tablica10.length <= indexDivRange || tablica10.length === 0) && ostatniaWartosc < 3 && ostatniaWartosc > 1 && category === 'all' && number) {
