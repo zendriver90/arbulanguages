@@ -1628,42 +1628,7 @@ if (window.matchMedia("(max-width: 999px)").matches) {
                             $container.append($overlay); // Nakładka
                             $container.append($buttonb); // Przycisk w nakładce
                             // Dodaj funkcję hover do kontenera
-                            if (indexDiv < 18) {
-                                // Jeśli indexDiv < 5, dodajemy hover z dynamicznym napisem
-                                $container.hover(function () {
-                                    $('.overlay', this).css('transform', 'translateX(0)');
 
-                                    // Twórz nowy dynamiczny div z napisem
-                                    const $dynamicDiv = $('<div>').addClass('dynamic-div').text('Lekcja dostępna - otwórz');
-                                    // Dodaj dynamiczny div do kontenera
-                                    $dynamicDiv.appendTo($(this)).fadeIn(300);
-                                }, function () {
-                                    $('.overlay', this).css('transform', 'translateX(100%)');
-
-                                    // Usuń dynamiczny div po zakończeniu hovera
-                                    $('.dynamic-div', this).fadeOut(300, function () {
-                                        $(this).remove();
-                                    });
-                                });
-                            }
-                                                        if (indexDiv < 20 && indexDiv > 17) {
-                                // Jeśli indexDiv < 5, dodajemy hover z dynamicznym napisem
-                                $container.hover(function () {
-                                    $('.overlay', this).css('transform', 'translateX(0)');
-
-                                    // Twórz nowy dynamiczny div z napisem
-                                    const $dynamicDiv2 = $('<div>').addClass('dynamic-div2').text('Nowa lekcja - już dostępna');
-                                    // Dodaj dynamiczny div do kontenera
-                                    $dynamicDiv2.appendTo($(this)).fadeIn(300);
-                                }, function () {
-                                    $('.overlay', this).css('transform', 'translateX(100%)');
-
-                                    // Usuń dynamiczny div po zakończeniu hovera
-                                    $('.dynamic-div2', this).fadeOut(300, function () {
-                                        $(this).remove();
-                                    });
-                                });
-                            }
 // Kiedy miniatura (poster) zostanie wczytana
 $('<img>').attr('src', srcWordimage[index]).on('load', function () {
     console.log('✅ Miniatura załadowana, odpalam fiszki...');

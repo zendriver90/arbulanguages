@@ -2206,34 +2206,6 @@ let selectedCategory = 'wszystkie'; // Domyślnie losowo
 const tablica45xx = []; // Tablica kategorii
 let indexDivRange = 29; // domyślnie pokazujemy wszystkie
 
-// ------------------------- GENEROWANIE PRZYCISKÓW -------------------------
-function generujRunButtons() {
-    // usuń stare przyciski
-    $('.run-button3').remove();
-
-    // dla każdej sentence-block dodaj przycisk
-    $('.sentence-block').each(function() {
-        const dataName = $(this).attr('data-name');
-        const $button = $('<button></button>')
-            .addClass('run-button3')
-            .text('Otwórz lekcję w nowym oknie - ' + selectedCategory)
-            .css({
-                position: 'absolute',
-                top: '10px',
-                right: '10px',
-                'z-index': 2000,
-                color: 'white',
-                'background-color': '#007bff',
-                border: 'none',
-                'border-radius': '4px',
-                padding: '5px 10px',
-                cursor: 'pointer'
-            })
-            .attr('data-index2', dataName); // opcjonalnie przypisz id lub index
-
-        $(this).append($button);
-    });
-}
 
 // ------------------------- OBSŁUGA KLIKNIĘCIA KATEGORII -------------------------
 $('#category-buttons .category-btn').on('click', function () {
@@ -2258,19 +2230,11 @@ $('#category-buttons .category-btn').on('click', function () {
         tablica7[0], 'all', '', false, 'fiszki', true, true,
         tablica3[1], tablica3[4], false, '', '', '', '', indexDivRange, '', '', '', false, true, false
     );
+// Dodajemy przyciski dopiero po wygenerowaniu bloków
+setTimeout(() => { // mały delay, jeśli generacja jest synchroniczna
+    addRunButtonsForVisible();
+}, 50);
 
-    // aktualizacja tekstów przycisków run-button3
-    $('.run-button3').each(function () {
-        $(this).text('Otwórz lekcję w nowym oknie - ' + selectedCategory);
-    });
-});
-
-// ------------------------- OBSŁUGA KLIKNIĘCIA PRZYCISKU -------------------------
-$('body').off('click', '.run-button3').on('click', '.run-button3', function() {
-    const indexDiv = $(this).attr('data-index2');
-    // tutaj podmień na prawdziwy link, np. demo1angielski.html?data=...
-    const lessonLink = `#?data=${indexDiv}&category=${selectedCategory}`;
-    window.open(lessonLink, '_blank');
 });
 
 // ------------------------- DOMYŚLNY START -------------------------
@@ -2281,7 +2245,7 @@ $(document).ready(function() {
     indexDivRange = 24; // wszystkie lekcje
 
     // generuj przyciski od razu
-    generujRunButtons();
+    addRunButtonsForVisible();
 });
 </script>
                                     <script src="wyszukiwarka.js"></script>

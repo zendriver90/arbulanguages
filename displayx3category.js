@@ -364,41 +364,37 @@ function kolorujPrzyciskiZakres(start, end) {
 setTimeout(() => {
     kolorujPrzyciskiZakres(1, 9);
 }, 0);
-// Po wygenerowaniu zdań dla lekcji
-const sentenceBlocks = $('.sentence-block'); // wszystkie bloki w bieżącej lekcji
+function addRunButtonsForVisible() {
+    $('.sentence-block:visible').each(function() {
+        const $block = $(this);
 
-sentenceBlocks.each(function(index) {
-    const dataName = parseInt($(this).attr('data-name'));
-    
-    // Kolorowanie przycisków tylko w zakresie indexDivRange
-    if (dataName >= 1 && dataName <= indexDivRange) {
-        $(this).find('button').css('background-color', '#28a745'); // zielony
-    }
+        if ($block.css('position') === 'static') {
+            $block.css('position', 'relative');
+        }
 
-    // Tworzenie przycisku run-button3 tylko dla pierwszego zdania w trójce
-    if ((index % 3) === 0) { 
-        $(this).find('.run-button3').remove(); // usuń poprzedni
-        const $button = $('<button></button>')
-            .addClass('run-button3')
-            .text('Otwórz lekcję w nowym oknie - ' + selectedCategory)
-            .css({
-                position: 'absolute',
-                top: '60px',
-                right: '5px',
-                'z-index': 2000,
-                color: 'white',
-                'background-color': '#007bff',
-                border: 'none',
-                'border-radius': '4px',
-                padding: '5px 10px',
-                cursor: 'pointer'
-            })
-            .attr('data-index2', dataName);
-        $(this).append($button);
-    }
-});
+        if ($block.find('.run-button3').length === 0) {
+            const index2 = $block.attr('data-lesson') || $block.attr('data-name');
+            const $button = $('<button>')
+                .addClass('run-button3')
+                .attr('data-index2', index2)
+                .text('Otwórz lekcję')
+                .css({
+                    position: 'absolute',
+                    top: '10px',
+                    right: '10px',
+                    'z-index': 2000
+                });
+            $block.append($button);
+        }
+    });
+}
 
-// Delegacja zdarzeń do nowych przycisków
+// Wywołujemy po wyświetleniu kontenerów np. po wyborze kategorii
+setTimeout(() => { 
+    addRunButtonsForVisible();
+}, 50);
+
+// Delegacja kliknięcia
 $('body').off('click', '.run-button3').on('click', '.run-button3', function () {
     const indexDiv = $(this).attr('data-index2');
     const link = `demo1angielski.html?category=${selectedCategory}&data=${indexDiv}`; 
@@ -768,25 +764,7 @@ $('body').off('click', '.run-button3').on('click', '.run-button3', function () {
     <div class="sentence1bb1c">${sentence1bb1c}</div>
 </div>
 `);
-function kolorujPrzyciskiZakres(start, end) {
-    $('.sentence-block').each(function() {
-        const $block = $(this);
-        const dataName = parseInt($block.attr('data-name'), 10);
-        if (dataName >= start && dataName <= end) {
-            const $btn = $block.find('button');
-            $btn.css('background-color', 'green');
-            $btn.hover(
-                function() { $(this).css('background-color', 'lightgreen'); },
-                function() { $(this).css('background-color', 'green'); }
-            );
-        }
-    });
-}
 
-// Po wstawieniu zdań do trzeciego kontenera
-setTimeout(() => {
-    kolorujPrzyciskiZakres(1, 9);
-}, 0);
                                     $('.sentence1bba').html('');
                                     // Ustawienie stylu dla przycisków .left-button
                                     $('.left-button').css('position', 'relative');
@@ -1146,25 +1124,7 @@ function countCategoryInFiszki2(matchingFiszki3, category) {
     <div class="sentence1bb1c">${sentence1bb1c}</div>
 </div>
 `);
-function kolorujPrzyciskiZakres(start, end) {
-    $('.sentence-block').each(function() {
-        const $block = $(this);
-        const dataName = parseInt($block.attr('data-name'), 10);
-        if (dataName >= start && dataName <= end) {
-            const $btn = $block.find('button');
-            $btn.css('background-color', 'green');
-            $btn.hover(
-                function() { $(this).css('background-color', 'lightgreen'); },
-                function() { $(this).css('background-color', 'green'); }
-            );
-        }
-    });
-}
 
-// Po wstawieniu zdań do trzeciego kontenera
-setTimeout(() => {
-    kolorujPrzyciskiZakres(1, 9);
-}, 0);
                                     // Ustawienie stylu dla przycisków .left-button
                                     $('.left-button').css('position', 'relative');
                                     $('.left-buttonb').css('position', 'relative');
@@ -1787,42 +1747,7 @@ if (window.matchMedia("(max-width: 999px)").matches) {
                             $container.append($overlay); // Nakładka
                             $container.append($buttonb); // Przycisk w nakładce
                             // Dodaj funkcję hover do kontenera
-                            if (indexDiv < 18) {
-                                // Jeśli indexDiv < 5, dodajemy hover z dynamicznym napisem
-                                $container.hover(function () {
-                                    $('.overlay', this).css('transform', 'translateX(0)');
 
-                                    // Twórz nowy dynamiczny div z napisem
-                                    const $dynamicDiv = $('<div>').addClass('dynamic-div').text('Lekcja dostępna - otwórz');
-                                    // Dodaj dynamiczny div do kontenera
-                                    $dynamicDiv.appendTo($(this)).fadeIn(300);
-                                }, function () {
-                                    $('.overlay', this).css('transform', 'translateX(100%)');
-
-                                    // Usuń dynamiczny div po zakończeniu hovera
-                                    $('.dynamic-div', this).fadeOut(300, function () {
-                                        $(this).remove();
-                                    });
-                                });
-                            }
-                                                        if (indexDiv < 20 && indexDiv > 17) {
-                                // Jeśli indexDiv < 5, dodajemy hover z dynamicznym napisem
-                                $container.hover(function () {
-                                    $('.overlay', this).css('transform', 'translateX(0)');
-
-                                    // Twórz nowy dynamiczny div z napisem
-                                    const $dynamicDiv2 = $('<div>').addClass('dynamic-div2').text('Nowa lekcja - już dostępna');
-                                    // Dodaj dynamiczny div do kontenera
-                                    $dynamicDiv2.appendTo($(this)).fadeIn(300);
-                                }, function () {
-                                    $('.overlay', this).css('transform', 'translateX(100%)');
-
-                                    // Usuń dynamiczny div po zakończeniu hovera
-                                    $('.dynamic-div2', this).fadeOut(300, function () {
-                                        $(this).remove();
-                                    });
-                                });
-                            }
 
                             // Jeśli kontener nie został jeszcze wybrany, wybierz losowy kontener
                             addBackgroundToText1b(matchingFiszki1, matchingIndexes, true, lesson1PartLength, matchingIndexes2, rodzaj, matchingIndexes3, matchingLessons5b);
