@@ -1,16 +1,13 @@
             
-            const tablica10a = [];
-
-                        let tablica12ab2 = [];
+            let tablica12ab2 = [];
             let tablica12ad2 = [];
             let tablica12abc2 = [];
-function showCombinedSentenceForLesson5b2(category, selectedCategory, matchingIndexes3, rodzaj, matchingIndexes2, buttonindex, index50, lessonIdToShow1, lessonIdToShow2, lessonIdToShow3, fiszki, matchingIndexes, startIndex, newIndex, indexDiv, lessonsArray, lesson1PartLength, lesson2PartLength, lesson3PartLength, lesson1Sentences, lesson2Sentences, lesson3Sentences, lesson1FirstPartLength, lesson2FirstPartLength, lesson3FirstPartLength, lesson1SecondPartLength, lesson2SecondPartLength, lesson3SecondPartLength, cumulativeFirstPartLength1, cumulativeFirstPartLength2, cumulativeFirstPartLength3, lessonsArrayZ, matchingLessons5, matchingLessons5b, isSearching) {
+function showCombinedSentenceForLesson5b2(selectedCategory, globalCategory, matchingIndexes3, rodzaj, matchingIndexes2, buttonindex, index50, lessonIdToShow1, lessonIdToShow2, lessonIdToShow3, fiszki, matchingIndexes, startIndex, newIndex, indexDiv, lessonsArray, lesson1PartLength, lesson2PartLength, lesson3PartLength, lesson1Sentences, lesson2Sentences, lesson3Sentences, lesson1FirstPartLength, lesson2FirstPartLength, lesson3FirstPartLength, lesson1SecondPartLength, lesson2SecondPartLength, lesson3SecondPartLength, cumulativeFirstPartLength1, cumulativeFirstPartLength2, cumulativeFirstPartLength3, lessonsArrayZ, matchingLessons5, matchingLessons5b, isSearching) {
                 console.log('hej55bbv', selectedCategory);
-                            let tablica60 = [];
+
                 const matchingFiszki1 = fiszki.filter(fiszka => fiszka.id[1] === lessonIdToShow1);
                 const matchingFiszki2 = fiszki.filter(fiszka => fiszka.id[1] === lessonIdToShow2);
                 const matchingFiszki3 = fiszki.filter(fiszka => fiszka.id[1] === lessonIdToShow3);
-                console.log('hej450b', tablica60);
                 console.log('hej444', newIndex);
     const id1 = matchingFiszki1[0]?.id[1] || 'unknown1';
     const id2 = matchingFiszki2[0]?.id[1] || 'unknown2';
@@ -50,391 +47,6 @@ function showCombinedSentenceForLesson5b2(category, selectedCategory, matchingIn
                     let sentence22 = "";
                     let sentence30 = ""; // Deklaracja zmiennej sentence1 na poziomie lokalnym
                     let sentence33 = "";
-                    let sentence12 = " / ";
-                    let sentence1b = " / ";
-                    let sentence1b2 = " / ";
-                    let sentence1b2a = "";
-                    let sentence1b22 = "";
-                    let sentence1c2a = "";
-                    let sentence1c22 = "";
-                    function addBackgroundToText(matchingFiszki1, matchingIndexes, currentIndexValue, aktualny, lesson1FirstPartLength, lesson1PartLength, matchingLessons5b) {
-                        setTimeout(function () {
-                            sentence10 = "";
-                            sentence11 = "";
-                            sentence20 = "";
-                            sentence22 = "";
-                            sentence30 = "";
-                            sentence33 = "";
-                            sentence1b = "";
-                            sentence1b2 = "";
-                            sentence1b2a = "";
-                            sentence1b22 = "";
-                            sentence1c2a = "";
-                            sentence1c22 = "";
-
-                            console.log('Rozpoczęcie funkcji addBackgroundToText');
-                            console.log('matchingFiszki1:', fiszki);
-                            console.log('lessonIdToShow1:', lessonIdToShow1);
-                            console.log('matchingIndexes:', matchingIndexes);
-                            console.log('currentIndexValue:', currentIndexValue);
-                            console.log('aktualny:', aktualny);
-                            for (let i = 0; i < matchingFiszki1.length; i++) {
-                                const fiszka = matchingFiszki1[i];
-                                console.log('fiszka:', fiszka);
-                                if (!fiszka.sentence1 || fiszka.sentence1.length === 0) {
-                                    console.log('fiszka.sentence1 is undefined or empty');
-                                    continue; // Jeśli sentence1 nie istnieje lub jest puste, przejdź do następnej fiszki
-                                }
-
-                                // Iteracja przez elementy sentence1
-                                for (let ki = 0; ki < fiszka.sentence1.length; ki++) {
-                                    let sentencePart = fiszka.sentence1[ki];
-                                    console.log('sentencePart5:', sentencePart);
-                                    const indexToCheck = i + lesson1PartLength + 1;
-                                    console.log('indexToCheck5:', indexToCheck);
-                                    if (aktualny) {
-                                        if (matchingIndexes.includes(indexToCheck) && currentIndexValue == 0) {
-                                            const spanElement = document.createElement('span');
-                                            spanElement.textContent = sentencePart;
-                                            spanElement.classList.add('highlighted-sentence');
-                                            spanElement.classList.add('yellow');
-                                            // Zaktualizuj sentencePart, aby zawierał utworzony element span
-                                            sentencePart = spanElement.outerHTML;
-                                        } else if (matchingIndexes.includes(indexToCheck) && currentIndexValue == 0) {
-                                            // Sprawdzenie, czy indeks bieżącej fiszki znajduje się w tablicy matchingIndexes
-                                            const spanElement = document.createElement('span');
-                                            spanElement.textContent = sentencePart;
-                                        } else if (currentIndexValue == 0) {
-
-                                            if (sentence1b === "") {
-                                                let sentencePart333 = fiszka.translateb ? fiszka.translateb : "";
-                                                sentence1b += sentencePart333 + " ";
-                                            }
-
-                                            if (sentence1b2 === "") {
-                                                let sentencePart333 = fiszka.translate ? fiszka.translate : "";
-                                                sentence1b2 += sentencePart333 + " ";
-                                            }
-                                            const spanElement = document.createElement('span');
-                                            spanElement.textContent = sentencePart;
-                                            spanElement.classList.add('highlighted-sentence');
-                                            // Zaktualizuj sentencePart, aby zawierał utworzony element span
-                                            sentencePart = spanElement.outerHTML;
-                                        } else if (currentIndexValue == 1 && matchingIndexes.includes(indexToCheck)) {
-                                            const spanElement = document.createElement('span');
-                                            spanElement.textContent = sentencePart;
-                                            spanElement.classList.remove('highlighted-sentence');
-                                            spanElement.classList.add('yellow');
-                                            // Zaktualizuj sentencePart, aby zawierał utworzony element span
-                                            sentencePart = spanElement.outerHTML;
-                                        }
-                                    }
-
-                                    console.log('sentencePart po przetworzeniu:', sentencePart); // Dodaj log po przetworzeniu
-                                    sentence10 += sentencePart + " ";
-                                }
-                            }
-                            console.log('final sentence10:', sentence10); // Dodaj log dla ostatecznego wyniku
-
-
-                            for (let ii = 0; ii < matchingFiszki1.length; ii++) {
-                                const fiszka = matchingFiszki1[ii];
-                                console.log('fiszka2:', fiszka);
-                                if (!fiszka.sentence2 || fiszka.sentence2.length === 0) {
-                                    console.log('fiszka.sentence2 is undefined or empty');
-                                    continue;
-                                }
-
-                                // Iteracja przez elementy sentence1
-                                for (let kii = 0; kii < fiszka.sentence2.length; kii++) {
-                                    let sentencePart2 = fiszka.sentence2[kii];
-                                    console.log('sentencePart5:', sentencePart2);
-                                    const indexToCheck = ii + lesson1PartLength + 1;
-                                    console.log('indexToCheck77:', indexToCheck);
-                                    if (aktualny) {
-                                        if (matchingIndexes.includes(indexToCheck) && currentIndexValue == 0) {
-                                            const spanElement = document.createElement('span');
-                                            spanElement.textContent = sentencePart2;
-                                            spanElement.classList.remove('highlighted-sentence');
-                                            spanElement.classList.add('yellow');
-                                            // Zaktualizuj sentencePart, aby zawierał utworzony element span
-                                            sentencePart2 = spanElement.outerHTML;
-                                        } else if (matchingIndexes.includes(indexToCheck) && currentIndexValue == 0) {
-                                            // Sprawdzenie, czy indeks bieżącej fiszki znajduje się w tablicy matchingIndexes
-                                            const spanElement = document.createElement('span');
-                                            spanElement.textContent = sentencePart2;
-                                        } else if (currentIndexValue == 0) {
-                                            const spanElement = document.createElement('span');
-                                            spanElement.textContent = sentencePart2;
-                                            spanElement.classList.add('highlighted-sentence');
-                                            // Zaktualizuj sentencePart, aby zawierał utworzony element span
-                                            sentencePart2 = spanElement.outerHTML;
-                                        } else if (currentIndexValue == 1 && matchingIndexes.includes(indexToCheck)) {
-                                            const spanElement = document.createElement('span');
-                                            spanElement.textContent = sentencePart2;
-                                            spanElement.classList.remove('highlighted-sentence');
-                                            spanElement.classList.add('yellow');
-                                            // Zaktualizuj sentencePart, aby zawierał utworzony element span
-                                            sentencePart2 = spanElement.outerHTML;
-                                        }
-                                    }
-
-                                    console.log('sentencePart2 po przetworzeniu:', sentencePart2);
-                                    sentence11 += sentencePart2 + " ";
-                                }
-                            }
-                            // Iteracja przez matchingFiszki2 dla sentence1
-                            for (let j = 0; j < matchingFiszki2.length; j++) {
-                                const fiszka = matchingFiszki2[j];
-                                console.log('fiszka:', fiszka);
-                                if (!fiszka.sentence1 || fiszka.sentence1.length === 0) {
-                                    console.log('fiszka.sentence1 is undefined or empty');
-                                    continue; // Jeśli sentence1 nie istnieje lub jest puste, przejdź do następnej fiszki
-                                }
-
-                                // Iteracja przez elementy sentence1
-                                for (let k = 0; k < fiszka.sentence1.length; k++) {
-                                    let sentencePart = fiszka.sentence1[k];
-                                    console.log('sentencePart5:', sentencePart);
-                                    const indexToCheck = j + lesson2PartLength + 1;
-                                    console.log('indexToCheck5:', indexToCheck);
-                                    if (aktualny) {
-                                        if (matchingIndexes.includes(indexToCheck) && currentIndexValue == 0) {
-                                            spanElement.textContent = sentencePart2;
-                                            spanElement.classList.remove('highlighted-sentence');
-                                            spanElement.classList.add('yellow');
-                                            // Zaktualizuj sentencePart, aby zawierał utworzony element span
-                                            sentencePart2 = spanElement.outerHTML;
-                                            const spanElement = document.createElement('span');
-                                            spanElement.textContent = sentencePart;
-                                            spanElement.classList.remove('highlighted-sentence');
-                                            spanElement.classList.add('yellow');
-                                            // Zaktualizuj sentencePart, aby zawierał utworzony element span
-                                            sentencePart = spanElement.outerHTML;
-                                        } else if (matchingIndexes.includes(indexToCheck) && currentIndexValue == 1) {
-                                            // Sprawdzenie, czy indeks bieżącej fiszki znajduje się w tablicy matchingIndexes
-                                            const spanElement = document.createElement('span');
-                                            spanElement.textContent = sentencePart;
-                                        } else if (currentIndexValue == 1) {
-
-                                            if (sentence1b2a === "") {
-                                                let sentencePart333 = fiszka.translateb ? fiszka.translateb : "";
-                                                sentence1b2a += sentencePart333 + " ";
-                                            }
-                                            if (sentence1b22 === "") {
-                                                let sentencePart444 = fiszka.translate ? fiszka.translate : "";
-                                                sentence1b22 += sentencePart444 + " ";
-                                            }
-                                            $('.sentence1b').html('');
-                                            $('.sentence1b2').html('');
-                                            const spanElement = document.createElement('span');
-                                            spanElement.textContent = sentencePart;
-                                            spanElement.classList.add('highlighted-sentence');
-                                            // Zaktualizuj sentencePart, aby zawierał utworzony element span
-                                            sentencePart = spanElement.outerHTML;
-                                        } else if (currentIndexValue == 2 && matchingIndexes.includes(indexToCheck)) {
-                                            const spanElement = document.createElement('span');
-                                            spanElement.textContent = sentencePart;
-                                            spanElement.classList.remove('highlighted-sentence');
-                                            spanElement.classList.add('yellow');
-                                            // Zaktualizuj sentencePart, aby zawierał utworzony element span
-                                            sentencePart = spanElement.outerHTML;
-                                        }
-                                    }
-
-                                    sentence20 += sentencePart + " ";
-                                }
-                            }
-
-                            // Iteracja przez matchingFiszki2 dla sentence2
-                            for (let jj = 0; jj < matchingFiszki2.length; jj++) {
-                                const fiszka = matchingFiszki2[jj];
-                                console.log('fiszka2:', fiszka);
-                                if (!fiszka.sentence2 || fiszka.sentence2.length === 0) {
-                                    console.log('fiszka.sentence2 is undefined or empty');
-                                    continue;
-                                }
-
-                                // Iteracja przez elementy sentence2
-                                for (let kk = 0; kk < fiszka.sentence2.length; kk++) {
-                                    let sentencePart2 = fiszka.sentence2[kk];
-                                    console.log('sentencePart2 przed przetworzeniem:', sentencePart2);
-                                    const indexToCheck = jj + lesson2PartLength + 1;
-                                    console.log('indexToCheck3:', indexToCheck);
-                                    if (aktualny) {
-                                        if (matchingIndexes.includes(indexToCheck) && currentIndexValue == 0) {
-                                            const spanElement = document.createElement('span');
-                                            spanElement.textContent = sentencePart2;
-                                            spanElement.classList.remove('highlighted-sentence');
-                                            spanElement.classList.add('yellow');
-                                            // Zaktualizuj sentencePart, aby zawierał utworzony element span
-                                            sentencePart2 = spanElement.outerHTML;
-                                        } else if (matchingIndexes.includes(indexToCheck) && currentIndexValue == 1) {
-                                            // Sprawdzenie, czy indeks bieżącej fiszki znajduje się w tablicy matchingIndexes
-                                            const spanElement = document.createElement('span');
-                                            spanElement.textContent = sentencePart2;
-                                            if (!spanElement.classList.contains('yellow')) {
-                                                spanElement.classList.add('yellow');
-                                                spanElement.classList.add('highlighted-sentence');
-                                            }
-                                            // Zaktualizuj sentencePart, aby zawierał utworzony element span
-                                            sentencePart2 = spanElement.outerHTML;
-                                        } else if (currentIndexValue == 1) {
-                                            const spanElement = document.createElement('span');
-                                            spanElement.textContent = sentencePart2;
-                                            spanElement.classList.add('highlighted-sentence');
-                                            // Zaktualizuj sentencePart, aby zawierał utworzony element span
-                                            sentencePart2 = spanElement.outerHTML;
-                                        } else if (currentIndexValue == 2 && matchingIndexes.includes(indexToCheck)) {
-                                            const spanElement = document.createElement('span');
-                                            spanElement.textContent = sentencePart2;
-                                            spanElement.classList.remove('highlighted-sentence');
-                                            spanElement.classList.add('yellow');
-                                            // Zaktualizuj sentencePart, aby zawierał utworzony element span
-                                            sentencePart2 = spanElement.outerHTML;
-                                        }
-                                    }
-
-                                    sentence22 += sentencePart2 + " ";
-                                }
-                            }
-
-                            for (let l = 0; l < matchingFiszki3.length; l++) {
-                                const fiszka = matchingFiszki3[l];
-                                console.log('fiszka:', fiszka);
-                                if (!fiszka.sentence1 || fiszka.sentence1.length === 0) {
-                                    console.log('fiszka.sentence1 is undefined or empty');
-                                    continue; // Jeśli sentence1 nie istnieje lub jest puste, przejdź do następnej fiszki
-                                }
-                                // Iteracja przez elementy sentence1
-                                for (let lm = 0; lm < fiszka.sentence1.length; lm++) {
-                                    let sentencePart = fiszka.sentence1[lm];
-                                    console.log('sentencePart5:', sentencePart);
-                                    const indexToCheck = l + lesson3PartLength + 1;
-                                    console.log('indexToCheck55:', indexToCheck);
-                                    if (aktualny) {
-                                        if (matchingIndexes.includes(indexToCheck) && currentIndexValue == 1) {
-                                            const spanElement = document.createElement('span');
-                                            spanElement.textContent = sentencePart;
-                                            spanElement.classList.remove('highlighted-sentence');
-                                            spanElement.classList.add('yellow');
-                                            // Zaktualizuj sentencePart, aby zawierał utworzony element span
-                                            sentencePart = spanElement.outerHTML;
-                                        } else if (matchingIndexes.includes(indexToCheck) && currentIndexValue == 2) {
-                                            // Sprawdzenie, czy indeks bieżącej fiszki znajduje się w tablicy matchingIndexes
-                                            const spanElement = document.createElement('span');
-                                            spanElement.textContent = sentencePart;
-                                            if (!spanElement.classList.contains('yellow')) {
-                                                spanElement.classList.add('yellow');
-                                                spanElement.classList.add('highlighted-sentence');
-                                            }
-                                            // Zaktualizuj sentencePart, aby zawierał utworzony element span
-                                            // Zaktualizuj sentencePart, aby zawierał utworzony element span
-                                            sentencePart = spanElement.outerHTML;
-                                        } else if (currentIndexValue == 2) {
-                                            if (sentence1c2a === "") {
-                                                let sentencePart333 = fiszka.translateb ? fiszka.translateb : "";
-                                                sentence1c2a += sentencePart333 + " ";
-                                            }
-                                            if (sentence1c22 === "") {
-                                                let sentencePart444 = fiszka.translate ? fiszka.translate : "";
-                                                sentence1c22 += sentencePart444 + " ";
-                                            }
-                                            const spanElement = document.createElement('span');
-                                            spanElement.textContent = sentencePart;
-                                            spanElement.classList.add('highlighted-sentence');
-                                            // Zaktualizuj sentencePart, aby zawierał utworzony element span
-                                            sentencePart = spanElement.outerHTML;
-                                        } else if (currentIndexValue == 0 && matchingIndexes.includes(indexToCheck)) {
-                                            const spanElement = document.createElement('span');
-                                            spanElement.textContent = sentencePart;
-                                            spanElement.classList.remove('highlighted-sentence');
-                                            spanElement.classList.add('yellow');
-                                            // Zaktualizuj sentencePart, aby zawierał utworzony element span
-                                            sentencePart = spanElement.outerHTML;
-                                        }
-                                    }
-
-                                    sentence30 += sentencePart + " ";
-                                }
-                            }
-                            // Iteracja przez matchingFiszki2 dla sentence2
-                            for (let lmm = 0; lmm < matchingFiszki3.length; lmm++) {
-                                const fiszka = matchingFiszki3[lmm];
-                                console.log('fiszka2:', fiszka);
-                                if (!fiszka.sentence2 || fiszka.sentence2.length === 0) {
-                                    console.log('fiszka.sentence2 is undefined or empty');
-                                    continue;
-                                }
-
-                                // Iteracja przez elementy sentence2
-                                for (let lmn = 0; lmn < fiszka.sentence2.length; lmn++) {
-                                    let sentencePart2 = fiszka.sentence2[lmn];
-                                    console.log('sentencePart2 przed przetworzeniem:', sentencePart2);
-                                    const indexToCheck = lmm + lesson3PartLength + 1;
-                                    console.log('indexToCheck3:', indexToCheck);
-                                    if (aktualny) {
-                                        if (matchingIndexes.includes(indexToCheck) && currentIndexValue == 1) {
-                                            const spanElement = document.createElement('span');
-                                            spanElement.textContent = sentencePart2;
-                                            spanElement.classList.remove('highlighted-sentence');
-                                            spanElement.classList.add('yellow');
-                                            // Zaktualizuj sentencePart, aby zawierał utworzony element span
-                                            sentencePart2 = spanElement.outerHTML;
-                                        } else if (matchingIndexes.includes(indexToCheck) && currentIndexValue == 2) {
-                                            // Sprawdzenie, czy indeks bieżącej fiszki znajduje się w tablicy matchingIndexes
-                                            const spanElement = document.createElement('span');
-                                            spanElement.textContent = sentencePart2;
-                                            if (!spanElement.classList.contains('yellow')) {
-                                                spanElement.classList.add('yellow');
-                                                spanElement.classList.add('highlighted-sentence');
-                                            }
-                                            // Zaktualizuj sentencePart, aby zawierał utworzony element span
-                                            sentencePart2 = spanElement.outerHTML;
-                                        } else if (currentIndexValue == 2) {
-                                            const spanElement = document.createElement('span');
-                                            spanElement.textContent = sentencePart2;
-                                            spanElement.classList.add('highlighted-sentence');
-                                            // Zaktualizuj sentencePart, aby zawierał utworzony element span
-                                            sentencePart2 = spanElement.outerHTML;
-                                        } else if (currentIndexValue == 0 && matchingIndexes.includes(indexToCheck)) {
-                                            const spanElement = document.createElement('span');
-                                            spanElement.textContent = sentencePart2;
-                                            spanElement.classList.remove('highlighted-sentence');
-                                            spanElement.classList.add('yellow');
-                                            // Zaktualizuj sentencePart, aby zawierał utworzony element span
-                                            sentencePart2 = spanElement.outerHTML;
-                                        }
-                                    }
-
-                                    sentence33 += sentencePart2 + " ";
-                                }
-                            }
-
-                            // Dodanie treści do diva wraz z przyciskiem
-    $sentenceDivB.html(`
-<div class="sentence-blockB" data-name="${id1}">
-    ${sentence10}${sentence11}<br>
-    <div class="sentence1b">${sentence1b}</div>
-    <div class="sentence1b2">${sentence1b2}</div>
-</div>
-
-<div class="sentence-blockB" data-name="${id2}">
-    ${sentence20}${sentence22}<br>
-    <div class="sentence1b2a">${sentence1b2a}</div>
-    <div class="sentence1b22">${sentence1b22}</div>
-</div>
-
-<div class="sentence-blockB" data-name="${id3}">
-    ${sentence30}${sentence33}<br>
-    <div class="sentence1c2a">${sentence1c2a}</div>
-    <div class="sentence1c22">${sentence1c22}</div>
-</div>
-`);
-
-                        }, 0);
-
-                    }
                     // Zmienna do liczenia wystąpień indexToCheck
                                         let sentence10 = ""; // Deklaracja zmiennej sentence1 na poziomie lokalnym
                     let sentence11 = "";
@@ -733,143 +345,65 @@ function showCombinedSentenceForLesson5b2(category, selectedCategory, matchingIn
     <div class="sentence1bb1c">${sentence1bb1c}</div>
 </div>
 `);
-
-// Kolory przypisane do kategorii
-const colorMapping = {
-    'sport': '#28a745',        // Zielony
-    'natura': '#007bff',       // Niebieski
-    'nauka': '#dc3545',        // Czerwony
-    'czarnyhumor': '#ffc107',  // Żółty
-    'zwiazki': '#fd7e14',      // Pomarańczowy
-    'all': '#800080',
-    'wszystkie': 'yellow'       
-};
-
-// Zakres pokolorowanych przycisków
-const startRange2 = 1;
-const endRange2 = 7;
-
-document.addEventListener('DOMContentLoaded', () => {
-    // Kliknięcie w kategorię
-    document.querySelectorAll('.category-btn').forEach(button => {
-        button.addEventListener('click', (event) => {
-            event.preventDefault(); // zapobiega przeładowaniu
-            selectedCategory = button.getAttribute('data-category');
-            updateButtonColors();
-        });
-    });
-});
-let previousTrojkiJSON = '';
-const tablica60 = [];
-function updateButtonColors() {
-    tablica60.length = 0;
-
-        const color = colorMapping[selectedCategory] || '#800080';
-
-        document.querySelectorAll('.sentence-block, .sentence-blockB').forEach(block => {
-            const dataName = parseInt(block.getAttribute('data-name'), 10);
-            tablica60.push(dataName);
-        if (dataName >= startRange2 && dataName <= endRange2) {
-            const button = block.querySelector('button.left-button, button.left-buttonb, button.left-buttonbb');
-            if (button) {
-                if (dataName >= startRange2 && dataName <= endRange2) {
-                    button.style.backgroundColor = color;
-                    button.style.color = 'white';
-                } else {
-                    button.style.backgroundColor = '';
-                    button.style.color = '';
-                }
-            }
+function kolorujPrzyciskiZakres(start, end) {
+    $('.sentence-block').each(function() {
+        const $block = $(this);
+        const dataName = parseInt($block.attr('data-name'), 10);
+        if (dataName >= start && dataName <= end) {
+            const $btn = $block.find('button');
+            $btn.css('background-color', 'green');
+            $btn.hover(
+                function() { $(this).css('background-color', 'lightgreen'); },
+                function() { $(this).css('background-color', 'green'); }
+            );
         }
-        });
-    
-    // PodziaĹ na trĂłjki
-    const trojki = [];
-    for (let i = 0; i < tablica60.length; i += 3) {
-        trojki.push(tablica60.slice(i, i + 3));
-    }
-
-    const currentTrojkiJSON = JSON.stringify(trojki);
-    if (currentTrojkiJSON !== previousTrojkiJSON) {
-        previousTrojkiJSON = currentTrojkiJSON;
-
-        console.log('Nowe trĂłjki:', trojki);
-
-        // UsuĹ stare linki
-        $('.hidden-link').remove();
-        console.log('UsuniÄto stare linki');
-
-        // Wygeneruj nowe linki (dla pierwszych dwĂłch trĂłjek, jeĹli istniejÄ)
-        const firstTrojka = trojki[0] || [];
-        const secondTrojka = trojki[1] || [];
-        const thirdTrojka = trojki[2] || [];
-        const cztery = trojki[3] || [];
-        const piec = trojki[4] || [];
-        const szesc = trojki[5] || [];
-        const siedem = trojki[6] || [];
-        const osiem = trojki[7] || [];
-        const dziewiec = trojki[8] || [];
-        const dziesiec = trojki[9] || [];
-        const jedenascie = trojki[10] || [];
-        const dwanascie = trojki[11] || [];
-        const trzynascie = trojki[12] || [];
-        const czternascie = trojki[13] || [];
-        const pietnascie = trojki[14] || [];
-        const szstnascie = trojki[15] || [];
-        const siedemnascie = trojki[16] || [];
-        const osiemnascie = trojki[17] || [];
-                const dziewietnascie = trojki[18] || [];
-        const link1 = `demo1angielski.html?category=${selectedCategory}&data=${firstTrojka.join(',')}`;
-        const link2 = `demo1angielski.html?category=${selectedCategory}&data=${secondTrojka.join(',')}`;
-        const link3 = `demo1angielski.html?category=${selectedCategory}&data=${thirdTrojka.join(',')}`;
-        const link4 = `demo1angielski.html?category=${selectedCategory}&data=${cztery.join(',')}`;
-        const link5 = `demo1angielski.html?category=${selectedCategory}&data=${piec.join(',')}`;
-        const link6 = `demo1angielski.html?category=${selectedCategory}&data=${szesc.join(',')}`;
-        const link7 = `demo1angielski.html?category=${selectedCategory}&data=${siedem.join(',')}`;
-        const link8 = `demo1angielski.html?category=${selectedCategory}&data=${osiem.join(',')}`;
-        const link9 = `demo1angielski.html?category=${selectedCategory}&data=${dziewiec.join(',')}`;
-        const link10 = `demo1angielski.html?category=${selectedCategory}&data=${dziesiec.join(',')}`;
-        const link11 = `demo1angielski.html?category=${selectedCategory}&data=${jedenascie.join(',')}`;
-        const link12 = `demo1angielski.html?category=${selectedCategory}&data=${dwanascie.join(',')}`;
-        const link13 = `demo1angielski.html?category=${selectedCategory}&data=${trzynascie.join(',')}`;
-        const link14 = `demo1angielski.html?category=${selectedCategory}&data=${czternascie.join(',')}`;
-        const link15 = `demo1angielski.html?category=${selectedCategory}&data=${pietnascie.join(',')}`;
-        const link16 = `demo1angielski.html?category=${selectedCategory}&data=${szstnascie.join(',')}`;
-        const link17 = `demo1angielski.html?category=${selectedCategory}&data=${siedemnascie.join(',')}`;
-        const link18 = `demo1angielski.html?category=${selectedCategory}&data=${osiemnascie.join(',')}`;
-        const link19 = `demo1angielski.html?category=${selectedCategory}&data=${dziewietnascie.join(',')}`;
-
-        const linksHTML = `
-            <a href="${link1}" class="hidden-link lesson-link-1" target="_blank" rel="noopener noreferrer">PrzejdĹş do lekcji 1</a>
-            <a href="${link2}" class="hidden-link lesson-link-2" target="_blank" rel="noopener noreferrer">PrzejdĹş do lekcji 2</a>
-        <a href="${link3}" class="hidden-link lesson-link-3" target="_blank" rel="noopener noreferrer">PrzejdĹş do lekcji 3</a>
-                    <a href="${link4}" class="hidden-link lesson-link-4" target="_blank" rel="noopener noreferrer">PrzejdĹş do lekcji 1</a>
-            <a href="${link5}" class="hidden-link lesson-link-5" target="_blank" rel="noopener noreferrer">PrzejdĹş do lekcji 2</a>
-        <a href="${link6}" class="hidden-link lesson-link-6" target="_blank" rel="noopener noreferrer">PrzejdĹş do lekcji 3</a>
-                    <a href="${link7}" class="hidden-link lesson-link-7" target="_blank" rel="noopener noreferrer">PrzejdĹş do lekcji 1</a>
-            <a href="${link8}" class="hidden-link lesson-link-8" target="_blank" rel="noopener noreferrer">PrzejdĹş do lekcji 2</a>
-        <a href="${link9}" class="hidden-link lesson-link-9" target="_blank" rel="noopener noreferrer">PrzejdĹş do lekcji 3</a>
-                    <a href="${link10}" class="hidden-link lesson-link-10" target="_blank" rel="noopener noreferrer">PrzejdĹş do lekcji 1</a>
-            <a href="${link11}" class="hidden-link lesson-link-11" target="_blank" rel="noopener noreferrer">PrzejdĹş do lekcji 2</a>
-        <a href="${link12}" class="hidden-link lesson-link-12" target="_blank" rel="noopener noreferrer">PrzejdĹş do lekcji 3</a>
-                    <a href="${link13}" class="hidden-link lesson-link-13" target="_blank" rel="noopener noreferrer">PrzejdĹş do lekcji 1</a>
-            <a href="${link14}" class="hidden-link lesson-link-14" target="_blank" rel="noopener noreferrer">PrzejdĹş do lekcji 2</a>
-        <a href="${link15}" class="hidden-link lesson-link-15" target="_blank" rel="noopener noreferrer">PrzejdĹş do lekcji 3</a>
-                    <a href="${link16}" class="hidden-link lesson-link-16" target="_blank" rel="noopener noreferrer">PrzejdĹş do lekcji 1</a>
-            <a href="${link17}" class="hidden-link lesson-link-17" target="_blank" rel="noopener noreferrer">PrzejdĹş do lekcji 2</a>
-        <a href="${link18}" class="hidden-link lesson-link-18" target="_blank" rel="noopener noreferrer">PrzejdĹş do lekcji 3</a>
-                <a href="${link19}" class="hidden-link lesson-link-19" target="_blank" rel="noopener noreferrer">PrzejdĹş do lekcji 3</a>
-        `;
-
-        $('body').append(linksHTML);
-        console.log('Dodano linki:', link1, link2);
-    }
+    });
 }
-    setTimeout(() => {
-// Uruchom na poczÄtku
-updateButtonColors();
-}, 0); // opóźnienie np. 100ms
 
+// Po wstawieniu zdań do trzeciego kontenera
+setTimeout(() => {
+    kolorujPrzyciskiZakres(1, 9);
+}, 0);
+// Po wygenerowaniu zdań dla lekcji
+const sentenceBlocks = $('.sentence-block'); // wszystkie bloki w bieżącej lekcji
+
+sentenceBlocks.each(function(index) {
+    const dataName = parseInt($(this).attr('data-name'));
+    
+    // Kolorowanie przycisków tylko w zakresie indexDivRange
+    if (dataName >= 1 && dataName <= indexDivRange) {
+        $(this).find('button').css('background-color', '#28a745'); // zielony
+    }
+
+    // Tworzenie przycisku run-button3 tylko dla pierwszego zdania w trójce
+    if ((index % 3) === 0) { 
+        $(this).find('.run-button3').remove(); // usuń poprzedni
+        const $button = $('<button></button>')
+            .addClass('run-button3')
+            .text('Otwórz lekcję w nowym oknie - ' + selectedCategory)
+            .css({
+                position: 'absolute',
+                top: '60px',
+                right: '5px',
+                'z-index': 2000,
+                color: 'white',
+                'background-color': '#007bff',
+                border: 'none',
+                'border-radius': '4px',
+                padding: '5px 10px',
+                cursor: 'pointer'
+            })
+            .attr('data-index2', dataName);
+        $(this).append($button);
+    }
+});
+
+// Delegacja zdarzeń do nowych przycisków
+$('body').off('click', '.run-button3').on('click', '.run-button3', function () {
+    const indexDiv = $(this).attr('data-index2');
+    const link = `demo1angielski.html?category=${selectedCategory}&data=${indexDiv}`; 
+    window.open(link, '_blank');
+});
                                 $('.sentence1bba').html('');
                                 $sentenceDiv.on('click', '.left-button', function () {
 
@@ -934,11 +468,7 @@ updateButtonColors();
                                     }
                                     // Dodanie stylizacji na hover
 
-                                    $sentence1bb1b.html('');
-                                    $sentence1bb1b.empty();
                                 });
-                                $sentence1bb1b.html('');
-                                $sentence1bb1b.empty();
                             }, 0);
                         });                          
                     }
@@ -1177,52 +707,7 @@ updateButtonColors();
 
                                 console.log('hej20', sentence1bb1b);
                                 // Kliknięcie w kategorię
-// Kolory przypisane do kategorii
-const colorMapping = {
-    'sport': '#28a745',        // Zielony
-    'natura': '#007bff',       // Niebieski
-    'nauka': '#dc3545',        // Czerwony
-    'czarnyhumor': '#ffc107',  // Żółty
-    'zwiazki': '#fd7e14',      // Pomarańczowy
-    'all': '#800080'           // Fioletowy
-};
 
-// Zakres pokolorowanych przycisków
-const startRange2 = 1;
-const endRange2 = 6;
-
-document.addEventListener('DOMContentLoaded', () => {
-    // Kliknięcie w kategorię
-    document.querySelectorAll('.category-btn').forEach(button => {
-        button.addEventListener('click', (event) => {
-            event.preventDefault(); // zapobiega przeładowaniu
-            selectedCategory = button.getAttribute('data-category');
-            updateButtonColors();
-        });
-    });
-});
-// Główna funkcja kolorująca
-function updateButtonColors() {
-    const color = colorMapping[selectedCategory] || '#800080';
-    
-    document.querySelectorAll('.sentence-block, .sentence-blockB').forEach(block => {
-        const dataName = parseInt(block.getAttribute('data-name'), 10);
-
-        const button = block.querySelector('button.left-button, button.left-buttonb, button.left-buttonbb');
-
-        if (button) {
-            if (dataName >= startRange2 && dataName <= endRange2) {
-                button.style.backgroundColor = color;
-                button.style.color = 'white';
-            } else {
-                // Czyścimy kolory poza zakresem
-                button.style.backgroundColor = '';
-                button.style.color = '';
-            }
-        }
-    });
-    }
-    updateButtonColors();
     $sentenceDiv.html(`
 <div class="sentence-block" data-name="${id1}">
     <button class="left-button first-button">+<br></button>
@@ -1245,6 +730,7 @@ function updateButtonColors() {
     <div class="sentence1bb1c">${sentence1bb1c}</div>
 </div>
 `);
+               
                                 $('.sentence1bb1b').html('');
                                 $('.sentence1bba2').html('');
                                 $sentenceDiv.on('click', '.left-buttonb', function () {
@@ -1282,6 +768,25 @@ function updateButtonColors() {
     <div class="sentence1bb1c">${sentence1bb1c}</div>
 </div>
 `);
+function kolorujPrzyciskiZakres(start, end) {
+    $('.sentence-block').each(function() {
+        const $block = $(this);
+        const dataName = parseInt($block.attr('data-name'), 10);
+        if (dataName >= start && dataName <= end) {
+            const $btn = $block.find('button');
+            $btn.css('background-color', 'green');
+            $btn.hover(
+                function() { $(this).css('background-color', 'lightgreen'); },
+                function() { $(this).css('background-color', 'green'); }
+            );
+        }
+    });
+}
+
+// Po wstawieniu zdań do trzeciego kontenera
+setTimeout(() => {
+    kolorujPrzyciskiZakres(1, 9);
+}, 0);
                                     $('.sentence1bba').html('');
                                     // Ustawienie stylu dla przycisków .left-button
                                     $('.left-button').css('position', 'relative');
@@ -1581,53 +1086,7 @@ function countCategoryInFiszki2(matchingFiszki3, category) {
                                 }
                                 sentence1bb1c += sentencePart444 + " ";
                             }
-// Kolory przypisane do kategorii
-const colorMapping = {
-    'sport': '#28a745',        // Zielony
-    'natura': '#007bff',       // Niebieski
-    'nauka': '#dc3545',        // Czerwony
-    'czarnyhumor': '#ffc107',  // Żółty
-    'zwiazki': '#fd7e14',      // Pomarańczowy
-    'all': '#800080'           // Fioletowy
-};
 
-// Zakres pokolorowanych przycisków
-const startRange2 = 1;
-const endRange2 = 6;
-
-document.addEventListener('DOMContentLoaded', () => {
-    // Kliknięcie w kategorię
-    document.querySelectorAll('.category-btn').forEach(button => {
-        button.addEventListener('click', (event) => {
-            event.preventDefault(); // zapobiega przeładowaniu
-            selectedCategory = button.getAttribute('data-category');
-            updateButtonColors();
-        });
-    });
-});
-
-// Główna funkcja kolorująca
-function updateButtonColors() {
-    const color = colorMapping[selectedCategory] || '#800080';
-    
-    document.querySelectorAll('.sentence-block, .sentence-blockB').forEach(block => {
-        const dataName = parseInt(block.getAttribute('data-name'), 10);
-
-        const button = block.querySelector('button.left-button, button.left-buttonb, button.left-buttonbb');
-
-        if (button) {
-            if (dataName >= startRange2 && dataName <= endRange2) {
-                button.style.backgroundColor = color;
-                button.style.color = 'white';
-            } else {
-                // Czyścimy kolory poza zakresem
-                button.style.backgroundColor = '';
-                button.style.color = '';
-            }
-        }
-    });
-    }
-    updateButtonColors();
     $sentenceDiv.html(`
 <div class="sentence-block" data-name="${id1}">
     <button class="left-button first-button">+<br></button>
@@ -1650,6 +1109,7 @@ function updateButtonColors() {
     <div class="sentence1bb1c">${sentence1bb1c}</div>
 </div>
 `);
+
                                 $('.sentence1bb3').html('');
                                 $('.sentence1bb1c').html('');
                                 $sentenceDiv.on('click', '.left-buttonbb', function () {
@@ -1686,7 +1146,25 @@ function updateButtonColors() {
     <div class="sentence1bb1c">${sentence1bb1c}</div>
 </div>
 `);
+function kolorujPrzyciskiZakres(start, end) {
+    $('.sentence-block').each(function() {
+        const $block = $(this);
+        const dataName = parseInt($block.attr('data-name'), 10);
+        if (dataName >= start && dataName <= end) {
+            const $btn = $block.find('button');
+            $btn.css('background-color', 'green');
+            $btn.hover(
+                function() { $(this).css('background-color', 'lightgreen'); },
+                function() { $(this).css('background-color', 'green'); }
+            );
+        }
+    });
+}
 
+// Po wstawieniu zdań do trzeciego kontenera
+setTimeout(() => {
+    kolorujPrzyciskiZakres(1, 9);
+}, 0);
                                     // Ustawienie stylu dla przycisków .left-button
                                     $('.left-button').css('position', 'relative');
                                     $('.left-buttonb').css('position', 'relative');
@@ -2399,144 +1877,48 @@ if (window.matchMedia("(max-width: 999px)").matches) {
         'z-index': '5'
     });
 }
-const $button = $('<button></button>');
-                    $button.addClass('run-button');
-                    $button.text('Uruchom'); // Ustawiamy tekst przycisku na 'Uruchom'
-                    $button.attr('data-index2', indexDiv);
-                    $button.on('click', function () {
+// Tworzenie przycisku
+const $button = $('<button></button>')
+    .addClass('run-button')
+    .text('Uruchom-działa') // Tekst przycisku
+    .attr('data-index2', indexDiv)
+    .on('click', function () {
+        const index5 = $(this).attr('data-index2');
+        const index55 = parseInt(index5, 10);
 
-                        const index5 = $button.attr('data-index2');
-                        const index55 = parseInt(index5, 10); // Zamieniamy index55 na liczbę
-                        // Alternatywnie można użyć Number(index55)
-                        // const numericIndex = Number(index55);
-
-                        setTimeout(() => {
-                            console.log('Kliknięto przycisk o indeksie:', index55);
-                            przekazArgument0(tablica7[0], tablica3[2], index55, true, tablica3[0], true, true, tablica3[1], tablica3[4], false, '', '', '', '', indexDivRange);
-                        }, 100);
-                        // Usunięcie kontenera po wstawieniu nowego
-                    });
-                    $button.css({
-                        'position': 'absolute',
-                        'right': '-200px', // Przykładowa wartość odstępu od lewej krawędzi
-                        'top': '5px',
-                        'font-size': '10px',
-                        'height': '30px',
-                        'width': '170px',
-                        'color': 'blue',
-                        'background-color': 'white',
-                        'z-index': '12' // Ustawienie z-index dla buttona większe niż dla sentenceDiv
-                    });
-                    $container.append($button);
-                    
-                    const $buttonb2 = $('<button></button>');
-$buttonb2.addClass('run-button3');
-$buttonb2.text('Otwórz lekcję w nowym oknie');
-
-// Dodajemy atrybut 'data-index2' z wartością indexDiv do przycisku
-$buttonb2.attr('data-index2', indexDiv);
-$buttonb2.on('click', function () {
-    const $clickedContainer = $container; // Przypisz kliknięty kontener do zmiennej
-
-    // Dodaj tło do nieklikniętych kontenerów
-    $('.image-container3').not($clickedContainer).each(function () {
-        const $container = $(this);
-        if ($container.find('.background-overlay').length === 0) {
-            $('<div>')
-                .addClass('background-overlay')
-                .css({
-                    'position': 'absolute',
-                    'top': '0',
-                    'left': '0',
-                    'width': '100%',
-                    'height': '100%',
-                    'background-color': 'blue',
-                    'opacity': '0.35',
-                    'z-index': '1000'
-                })
-                .appendTo($container);
-        }
+        setTimeout(() => {
+            console.log('Kliknięto przycisk o indeksie:', index55);
+            przekazArgument0(
+                tablica7[0], tablica3[2], index55,
+                true, tablica3[0], true, true,
+                tablica3[1], tablica3[4],
+                false, '', '', '', '', '100', '', '', '', false, true, false
+            );
+        }, 100);
     });
 
-    // Usuń klasę .background-overlay po powrocie na stronę
-    $(window).on('pageshow', function () {
-        $('.background-overlay').remove();
-    });
-
-    const index5b2 = $buttonb2.attr('data-index2');
-    const index55b2 = parseInt(index5b2, 10);
-
-    // Znajdź ukryty link i kliknij go
-    let lessonLink = null;
-    if (index55b2 === 1) {
-        lessonLink = document.querySelector('.lesson-link-1');
-    }
-    if (index55b2 === 2) {
-        lessonLink = document.querySelector('.lesson-link-2');
-    }
-        if (index55b2 === 3) {
-        lessonLink = document.querySelector('.lesson-link-3');
-    }
-        if (index55b2 === 4) {
-        lessonLink = document.querySelector('.lesson-link-4');
-    }
-    if (index55b2 === 5) {
-        lessonLink = document.querySelector('.lesson-link-5');
-    }
-        if (index55b2 === 6) {
-        lessonLink = document.querySelector('.lesson-link-6');
-    }
-        if (index55b2 === 7) {
-        lessonLink = document.querySelector('.lesson-link-7');
-    }
-        if (index55b2 === 8) {
-        lessonLink = document.querySelector('.lesson-link-8');
-    }
-        if (index55b2 === 9) {
-        lessonLink = document.querySelector('.lesson-link-9');
-    }
-        if (index55b2 === 10) {
-        lessonLink = document.querySelector('.lesson-link-10');
-    }
-            if (index55b2 === 11) {
-        lessonLink = document.querySelector('.lesson-link-11');
-    }
-        if (index55b2 === 12) {
-        lessonLink = document.querySelector('.lesson-link-12');
-    }
-        if (index55b2 === 13) {
-        lessonLink = document.querySelector('.lesson-link-13');
-    }
-    if (index55b2 === 14) {
-        lessonLink = document.querySelector('.lesson-link-14');
-    }
-        if (index55b2 === 15) {
-        lessonLink = document.querySelector('.lesson-link-15');
-    }
-        if (index55b2 === 16) {
-        lessonLink = document.querySelector('.lesson-link-16');
-    }
-    if (index55b2 === 17) {
-        lessonLink = document.querySelector('.lesson-link-17');
-    }
-        if (index55b2 === 18) {
-        lessonLink = document.querySelector('.lesson-link-18');
-    }
-        if (index55b2 === 19) {
-        lessonLink = document.querySelector('.lesson-link-19');
-    }
-    if (lessonLink) {
-        lessonLink.click(); // Automatyczne kliknięcie ukrytego linka
-    }
+// Stylowanie przycisku – widoczny od razu
+$button.css({
+    'position': 'absolute',
+    'right': '-200px',       // Dopasuj pozycję według potrzeb
+    'top': '5px',
+    'font-size': '10px',
+    'height': '30px',
+    'width': '170px',
+    'color': 'blue',
+    'background-color': 'white',
+    'z-index': '12',         // Wyższy niż inne elementy
+    'border': '1px solid #aaa',
+    'cursor': 'pointer'
 });
 
-                    $container.append($buttonb2);
+// Dodanie przycisku do kontenera – OD RAZU po jego stworzeniu
+$container.append($button);
+
                     // Dodanie diva z zdaniem do kontenera
                     $container.append($sentenceDiv);
                     tablica10a.push(srcWords);
-                    console.log('hej6', tablica10);
-
+                    console.log('hej6', tablica10a);
+console.log('wykonuje się teraz');
                 }
-
-                // Deklaracja tablicy, która będzie zawierać wszystkie tablice
-            }
+                }

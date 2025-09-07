@@ -32,6 +32,11 @@
         <meta name="keywords" content="naucz się angielskiego, 1000 angielskich słów, szybka nauka angielskiego, jak nauczyć się angielskiego, jak szybko nauczyć się języka, nauka angielskiego z przyjemnością" />
         <style>
             @media (min-width: 999px) {
+                                .left-button,
+                .left-buttonb,
+                .left-buttonbb{
+                    border-radius: 5px;
+                }
                 .text-intro {
     margin: 5px 0 8px 0;
     font-weight: bold;
@@ -141,7 +146,9 @@
     align-items: center;
 }
 
-.left-button {
+.left-button,
+.left-buttonb
+.left-buttonbb {
     margin-right: 8px; /* odstęp między przyciskiem a tekstem */
 }
 
@@ -201,15 +208,6 @@ video {
 	font: bold 1.5em verdana;
         }
 
-  .category-btn {
-    color: white;
-    border: none;
-    padding: 10px 20px;
-    margin: 5px;
-    cursor: pointer;
-    font-size: 16px;
-    border-radius: 5px;
-  }
     .category-btn5 {
     background-color: gray; /* Filetowy kolor dla wszystkich przycisków */
     color: white;
@@ -220,24 +218,56 @@ video {
     font-size: 16px;
     border-radius: 5px;
   }
+/* Losowo */
+#all {
+  background-color: #6c757d; /* Szary */
+  color: white;
+}
 
-  .category-btn[data-category="sport"] {
-    background-color: #28a745; /* Zielony kolor dla sportu */
-  }
+/* Sport */
+#sport {
+  background-color: #28a745; /* Zielony */
+  color: white;
+}
 
-  .category-btn[data-category="natura"] {
-    background-color: #007bff; /* Niebieski kolor dla natury */
-  }
-  .category-btn[data-category="nauka"] {
-    background-color: #dc3545; /* Czerwony kolor dla nauki */
-  }
-  .category-btn[data-category="czarny humor"] {
-    background-color: orange; /* Żółty kolor dla czarnego humoru */
-  }
+/* Natura */
+#natura {
+  background-color: #007bff; /* Niebieski */
+  color: white;
+}
 
-  .category-btn[data-category="zwiazki"] {
-    background-color: #fd7e14; /* Pomarańczowy kolor dla związków */
-  }
+/* Nauka */
+#nauka {
+  background-color: #dc3545; /* Czerwony */
+  color: white;
+}
+
+/* Czarny humor */
+#czarnyhumor {
+  background-color: #ffc107; /* Żółty */
+  color: black; /* czarny, żeby tekst był czytelny */
+}
+
+/* Związki */
+#zwiazki {
+  background-color: #fd7e14; /* Pomarańczowy */
+  color: white;
+}
+
+/* Opcjonalnie: wspólny wygląd dla wszystkich przycisków */
+.category-btn {
+  border: none;
+  padding: 10px 15px;
+  margin: 5px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: transform 0.2s ease;
+}
+
+.category-btn:hover {
+  transform: scale(1.05);
+}
     .active-category {
     border: 6px solid black; /* Czarna ramka dla aktywnej kategorii */
     box-sizing: border-box; /* Ważne, aby uwzględnić ramkę w układzie */
@@ -368,9 +398,7 @@ input {
     z-index: 10; /* Zapewnia, że categoryHTML będzie na wierzchu */
 }
 
-.left-button {
-    position: relative; /* Pozostaje w normalnym przepływie */
-}
+
 .left-button2 {
     position: relative; /* Pozostaje w normalnym przepływie */
     height: 25px;
@@ -463,12 +491,7 @@ span.highlight {
                     width: 118px;
                     margin-right: 20px;
                 }
-                .left-button,
-                .left-buttonb,
-                .left-buttonbb{
-                    color: orange;
-                    border-radius: 5px;
-                }
+
                 .white-text {
                     color: white !important;
                 }
@@ -1285,7 +1308,6 @@ input {
                     font-size: 7px;
                     width: 20px;
                     height: 20px;
-                    color: orange;
                     border-radius: 5px;
                 }
                 @keyframes blinkBackground {
@@ -2078,16 +2100,12 @@ input {
                 <button class="left-button2">+<br></button>TE LEKCJE MAJĄ DOSTĘPNE SKOJARZENIA W WIĘKSZYM ZAKRESIE TEMATÓW (DZIAŁA)
 <div class="user-cards" data-user-cards-container></div>
                 <div id="category-buttons">
-  <button class="category-btn5" data-category="wszystkie"
-    onclick="przekazArgument0(tablica7[0], tablica3[2], '', false, 'fiszki', true, true, tablica3[1], 'other', false, '', '', '', '', 100)">
-    Wszystkie
-  </button>
-  <button class="category-btn" data-category="all">Losowo</button>
-  <button class="category-btn" data-category="sport">Sport</button>
-  <button class="category-btn" data-category="natura">Natura</button>
-  <button class="category-btn" data-category="nauka">Nauka</button>
-  <button class="category-btn" data-category="czarny humor">Czarny humor</button>
-  <button class="category-btn" data-category="zwiazki">Związki</button>
+  <button class="category-btn" id="all">Losowo (wszystkie)</button>
+  <button class="category-btn" id="sport">Sport</button>
+  <button class="category-btn" id="natura">Natura</button>
+  <button class="category-btn" id="nauka">Nauka</button>
+  <button class="category-btn" id="czarnyhumor">Czarny humor</button>
+  <button class="category-btn" id="zwiazki">Związki</button>
 </div>
 
 <template data-user-template>
@@ -2117,6 +2135,7 @@ input {
         </div>
 
         <script>
+                        let tablica10a = [];
 // Dodaj przycisk do kontenera
 $(".grid-container").append(`
     <button id="startButton" class="floating-btn">▶ Start Arbu świat</button>
@@ -2182,39 +2201,87 @@ $(document).on("click", "#startButton", function () {
         console.log("Liczba unikalnych fiszek:", uniqueCount);
             const tablica20 = [];
             let buttonindex = false;
-              // Zaznacz przycisk "Losowo" na początku
-let tablica55 = [];
+
 let selectedCategory = 'wszystkie'; // Domyślnie losowo
 const tablica45xx = []; // Tablica kategorii
-let indexDivRange = 19;
-let numberb = false;
+let indexDivRange = 29; // domyślnie pokazujemy wszystkie
+
+// ------------------------- GENEROWANIE PRZYCISKÓW -------------------------
+function generujRunButtons() {
+    // usuń stare przyciski
+    $('.run-button3').remove();
+
+    // dla każdej sentence-block dodaj przycisk
+    $('.sentence-block').each(function() {
+        const dataName = $(this).attr('data-name');
+        const $button = $('<button></button>')
+            .addClass('run-button3')
+            .text('Otwórz lekcję w nowym oknie - ' + selectedCategory)
+            .css({
+                position: 'absolute',
+                top: '10px',
+                right: '10px',
+                'z-index': 2000,
+                color: 'white',
+                'background-color': '#007bff',
+                border: 'none',
+                'border-radius': '4px',
+                padding: '5px 10px',
+                cursor: 'pointer'
+            })
+            .attr('data-index2', dataName); // opcjonalnie przypisz id lub index
+
+        $(this).append($button);
+    });
+}
+
+// ------------------------- OBSŁUGA KLIKNIĘCIA KATEGORII -------------------------
 $('#category-buttons .category-btn').on('click', function () {
     $('#category-buttons .category-btn').removeClass('active-category');
     $(this).addClass('active-category');
-indexDivRange = '1'; // Zakres od 1 do 3
-    const selectedCategoryText = $(this).text(); // np. "Sport"
-    console.log("Wybrano kategorię:", selectedCategoryText);
-    tablica7[0] = $(this).data('category'); // <-- poprawione
-    console.log('Wybrana kategoria:', tablica7[0]);
-if (tablica55[0] === true) {
-    przekazArgument0(tablica7[0], 'all', '', '', '', '', '', tablica3[1], 'other', false, '', '', '', '', indexDivRange, '', '');
-} else if (tablica55[1] === true) {
-    $('.grid-container .image-container3b').remove();
-    przekazArgument0(tablica7[0], 'all', '', '', '', '', '', tablica3[1], 'other', false, '', '', '', '', indexDivRange, '', '');
-}
+
+    selectedCategory = $(this).attr('id');
+    console.log("Wybrano kategorię:", selectedCategory);
+
+    // ustawiamy indexDivRange w zależności od wybranej kategorii
+    if (selectedCategory === 'all') {
+        indexDivRange = 29; // wszystkie lekcje
+    } else {
+        indexDivRange = 2; // ograniczone do 3 lekcji
+    }
+
+    tablica7[0] = selectedCategory; 
+    console.log('Wybrana kategoria do przekazania:', tablica7[0]);
+
+    // wywołanie funkcji, która generuje lekcje
+    przekazArgument0(
+        tablica7[0], 'all', '', false, 'fiszki', true, true,
+        tablica3[1], tablica3[4], false, '', '', '', '', indexDivRange, '', '', '', false, true, false
+    );
+
+    // aktualizacja tekstów przycisków run-button3
     $('.run-button3').each(function () {
-        $(this).text('Otwórz lekcję w nowym oknie - ' + selectedCategoryText);
+        $(this).text('Otwórz lekcję w nowym oknie - ' + selectedCategory);
     });
 });
-$(document).ready(function () {
-  // domyślnie zaznaczony
-  $('#category-buttons .category-btn5[data-category="wszystkie"]').addClass('active-category');
 
-  // po kliknięciu w dowolny przycisk
-  $('#category-buttons button').on('click', function () {
-    $('#category-buttons button').removeClass('active-category'); // usuń z innych
-    $(this).addClass('active-category'); // dodaj do klikniętego
-  });
+// ------------------------- OBSŁUGA KLIKNIĘCIA PRZYCISKU -------------------------
+$('body').off('click', '.run-button3').on('click', '.run-button3', function() {
+    const indexDiv = $(this).attr('data-index2');
+    // tutaj podmień na prawdziwy link, np. demo1angielski.html?data=...
+    const lessonLink = `#?data=${indexDiv}&category=${selectedCategory}`;
+    window.open(lessonLink, '_blank');
+});
+
+// ------------------------- DOMYŚLNY START -------------------------
+$(document).ready(function() {
+    // domyślnie zaznaczony przycisk "Losowo"
+    $('#all').addClass('active-category');
+    selectedCategory = 'all';
+    indexDivRange = 24; // wszystkie lekcje
+
+    // generuj przyciski od razu
+    generujRunButtons();
 });
 </script>
                                     <script src="wyszukiwarka.js"></script>
@@ -2591,7 +2658,7 @@ $gridContainer2.css('margin-top', flashcardContainerHeight + 100 + 'px');
                         let tablica43d = [];
                         let indexDiv0;
                         let indexDiv0b;
-            function przekazArgument0(selectedCategory, category, index55, buttonindex, czas, idpolski, idtranslate, id, rodzaj, isSearching, matchingLessons5, matchingLessons5b, isSearching2, staraTablica40, indexDivRange, indexDiv0, indexDiv0b, indexDiv0d, number, flagaPrzycisku2, flagaPrzycisku) {
+            function przekazArgument0(selectedCategory, globalcategory, index55, buttonindex, czas, idpolski, idtranslate, id, rodzaj, isSearching, matchingLessons5, matchingLessons5b, isSearching2, staraTablica40, indexDivRange, indexDiv0, indexDiv0b, indexDiv0d, number, flagaPrzycisku2, flagaPrzycisku) {
        
         $('.grid-container .image-container3').remove();
                 $('.grid-container .image-container4').remove();
@@ -2601,17 +2668,18 @@ $gridContainer2.css('margin-top', flashcardContainerHeight + 100 + 'px');
                         console.log(":vvv ", flagaPrzycisku2, flagaPrzycisku);
                                 console.log(":vv ", number);
                 tablica3[1] = id;
-                tablica3[2] = category;
+                tablica3[2] = globalcategory;
                 tablica3[4] = rodzaj;
                 pulpitstartowy = true;
                 przyciskKlikniety = true;
                 // Przypisz wartość do zmiennej globalnej
                 globalCategory = category;
+                                tablica10a.length = 0;
                 tablica10.length = 0;
                 tablica15.length = 0;
                 globalIdTranslate = idtranslate;
                 // Wywołaj funkcję wybierzCharakter na podstawie trybu
-                wybierzCharakter(selectedCategory, category, tablica3[0], index55, buttonindex, tablica3[1], tablica3[3], rodzaj, isSearching, matchingLessons5, matchingLessons5b, isSearching2, staraTablica40, indexDivRange, indexDiv0, indexDiv0b, indexDiv0d, number, flagaPrzycisku2, flagaPrzycisku);
+                wybierzCharakter(selectedCategory, globalcategory, tablica3[0], index55, buttonindex, tablica3[1], tablica3[3], rodzaj, isSearching, matchingLessons5, matchingLessons5b, isSearching2, staraTablica40, indexDivRange, indexDiv0, indexDiv0b, indexDiv0d, number, flagaPrzycisku2, flagaPrzycisku);
 
             }
 
@@ -2622,8 +2690,8 @@ $gridContainer2.css('margin-top', flashcardContainerHeight + 100 + 'px');
             }
             console.log('hej33bb', tablica3);
             // Funkcja wybierająca charakter
-            function wybierzCharakter(selectedCategory, category, czas, index55, buttonindex, idpolski, frazyid, rodzaj, isSearching, matchingLessons5, matchingLessons5b, isSearching2, staraTablica40, indexDivRange, indexDiv0, indexDiv0b, indexDiv0d, number, flagaPrzycisku2, flagaPrzycisku) {
-                console.log('hej223', czas, category, frazyid);
+            function wybierzCharakter(selectedCategory, globalcategory, czas, index55, buttonindex, idpolski, frazyid, rodzaj, isSearching, matchingLessons5, matchingLessons5b, isSearching2, staraTablica40, indexDivRange, indexDiv0, indexDiv0b, indexDiv0d, number, flagaPrzycisku2, flagaPrzycisku) {
+                console.log('hej223', czas, globalcategory, frazyid);
 
                 pulpitstartowy = false;
                 // Aktualizuj matchingIndexes na podstawie nowej kategorii
@@ -2635,46 +2703,46 @@ $gridContainer2.css('margin-top', flashcardContainerHeight + 100 + 'px');
                 czasv2 = czas;
             }
 
-function findXForMatchingFiszka(category, fiszki) {
+function findXForMatchingFiszka(globalcategory, fiszki) {
     const matchingIndexes = [];
 
     for (let i = 0; i < fiszki.length; i++) {
-        if (fiszki[i].category2.includes(category)) {
+        if (fiszki[i].category2.includes(globalcategory)) {
             matchingIndexes.push(i + 1);
         }
     }
 
-    if (category === 'osoby') {
+    if (globalcategory === 'osoby') {
         const button = document.getElementById('osobyButton');
         if (button) {
             button.innerHTML = `Osoby(Rodzina, zaimki, zawody) <strong>Ilość: ${matchingIndexes.length}</strong>`;
         }
     }
-    if (category === 'zaimki osobowe') {
+    if (globalcategory === 'zaimki osobowe') {
         const button = document.getElementById('zaimkiButton');
         if (button) {
             button.innerHTML = `Zaimki osobowe <strong>Ilość: ${matchingIndexes.length}</strong>`;
         }
     }
-    if (category === 'spojniki') {
+    if (globalcategory === 'spojniki') {
         const button = document.getElementById('spojnikiButton');
         if (button) {
             button.innerHTML = `Spójniki <strong>Ilość: ${matchingIndexes.length}</strong>`;
         }
     }
-    if (category === 'czasownik') {
+    if (globalcategory === 'czasownik') {
         const button = document.getElementById('czasownikButton');
         if (button) {
             button.innerHTML = `Czasowniki <strong>Ilość: ${matchingIndexes.length}</strong>`;
         }
     }
-    if (category === 'czas') {
+    if (globalcategory === 'czas') {
         const button = document.getElementById('czasownikButton');
         if (button) {
             button.innerHTML = `Czas <strong>Ilość: ${matchingIndexes.length}</strong>`;
         }
     }
-    if (category === 'zwierzeta') {
+    if (globalcategory === 'zwierzeta') {
         const button = document.getElementById('zwierzetaButton');
         if (button) {
             button.innerHTML = `Zwierzęta <strong>Ilość: ${matchingIndexes.length}</strong>`;
@@ -2683,20 +2751,20 @@ function findXForMatchingFiszka(category, fiszki) {
 
     return matchingIndexes;
 }
-function findMatchingFiszkiCount(category, fiszki) {
+function findMatchingFiszkiCount(globalcategory, fiszki) {
     let count = 0;
     for (let i = 0; i < fiszki.length; i++) {
-        if (fiszki[i].category2 && fiszki[i].category2.includes(category)) {
+        if (fiszki[i].category2 && fiszki[i].category2.includes(globalcategory)) {
             count++;
         }
     }
     return count;
 }
             // Funkcja znajdująca indeksy dla pasujących "fiszek"
-            function findXForMatchingFiszka2(category, fiszki) {
+            function findXForMatchingFiszka2(globalcategory, fiszki) {
                 const matchingIndexes2 = [];
                 // Iteruj przez tablicę fiszki
-                console.log('hej234', category);
+                console.log('hej234', globalcategory);
                 for (let i = 0; i < fiszki.length; i++) {
                     // Upewnij się, że fiszki[i] oraz fiszki[i].category3 są zdefiniowane
                     if (fiszki[i] && fiszki[i].category3 && fiszki[i].category3.includes("PresentSimplePodmiot")) {
@@ -2707,10 +2775,10 @@ function findMatchingFiszkiCount(category, fiszki) {
                 console.log('wykonuje się 6bb', matchingIndexes2);
                 return matchingIndexes2;
             }
-            function findXForMatchingFiszka3(category, fiszki) {
+            function findXForMatchingFiszka3(globalcategory, fiszki) {
                 const matchingIndexes3 = [];
                 // Iteruj przez tablicę fiszki
-                console.log('hej234', category);
+                console.log('hej234', globalcategory);
                 for (let i = 0; i < fiszki.length; i++) {
                     // Upewnij się, że fiszki[i] oraz fiszki[i].category3 są zdefiniowane
                     if (fiszki[i] && fiszki[i].category3 && fiszki[i].category3.includes("PresentSimpleCzasownik")) {
@@ -2922,8 +2990,7 @@ function findMatchingFiszkiCount(category, fiszki) {
             let losowaniaCounter2 = 0; // Zmienna licznika losowań
             let tablica33 = [];
             let tablica33b = [];
-            function wybierzRodzaj(selectedCategory, category, czas, matchingIndexes, index55, buttonindex, idpolski, frazyid, matchingIndexes2, rodzaj, matchingIndexes3, isSearching, matchingLessons5, matchingLessons5b, isSearching2, staraTablica40, indexDivRange, indexDiv0, indexDiv0b, indexDiv0d, number, flagaPrzycisku2, flagaPrzycisku) {
-                category = category || globalCategory;
+            function wybierzRodzaj(selectedCategory, globalcategory, czas, matchingIndexes, index55, buttonindex, idpolski, frazyid, matchingIndexes2, rodzaj, matchingIndexes3, isSearching, matchingLessons5, matchingLessons5b, isSearching2, staraTablica40, indexDivRange, indexDiv0, indexDiv0b, indexDiv0d, number, flagaPrzycisku2, flagaPrzycisku) {
                 czasv2 = czas;
                 number;
                 console.log('hej108n', number);
@@ -2939,12 +3006,12 @@ console.log('hej755', matchingLessons1b);
                 for (const fiszka of fiszki) {
                     let matchingFiszka = false;
                     // Sprawdzenie warunków dla category
-                    if (category === 'all' || !category) {
+                    if (globalcategory === 'all' || !globalcategory) {
                         matchingFiszka = true;
-                    } else if (category !== 'PresentSimple' && category !== 'PresentContinous' && category !== 'PastSimple') {
-                        matchingFiszka = fiszka.category2.includes(category);
+                    } else if (globalcategory !== 'PresentSimple' && globalcategory !== 'PresentContinous' && globalcategory !== 'PastSimple') {
+                        matchingFiszka = fiszka.category2.includes(globalcategory);
                     } else {
-                        matchingFiszka = fiszka.category3 && fiszka.category3.includes(category);
+                        matchingFiszka = fiszka.category3 && fiszka.category3.includes(globalcategory);
                     }
 
                     // Dodanie fiszki do matchingLessons na podstawie warunków
@@ -3623,15 +3690,27 @@ for (let i = 0; i < myVariable.length; i += 3) {
                                     break; // Przerwanie pętli, jeśli użytkownik nie chce kontynuować
                                 }
                             }
-                            if (category !== 'all') {
-                                $('.grid-container .image-container3b').remove();
-                               showCombinedSentenceForLesson5b2(category, selectedCategory, matchingIndexes3, rodzaj, matchingIndexes2, buttonindex, index50, lessonId1, lessonId2, lessonId3, fiszki, matchingIndexes, startIndex, newIndex, indexDiv, lessonsArray, lesson1PartLength, lesson2PartLength, lesson3PartLength, lesson1Sentences, lesson2Sentences, lesson3Sentences, lesson1FirstPartLength, lesson2FirstPartLength, lesson3FirstPartLength, lesson1SecondPartLength, lesson2SecondPartLength, lesson3SecondPartLength, cumulativeFirstPartLength1, cumulativeFirstPartLength2, cumulativeFirstPartLength3, lessonsArrayZ, matchingLessons5, matchingLessons5b, isSearching);
-                            }
+                            console.log('hej31', indexDivRange);
+if (tablica10a.length <= indexDivRange){
+    console.log('działa2');
+    showCombinedSentenceForLesson5b2(
+        selectedCategory, globalCategory, matchingIndexes3, rodzaj,
+        matchingIndexes2, buttonindex, index50, lessonId1, lessonId2, lessonId3,
+        fiszki, matchingIndexes, startIndex, newIndex, indexDiv, lessonsArray,
+        lesson1PartLength, lesson2PartLength, lesson3PartLength,
+        lesson1Sentences, lesson2Sentences, lesson3Sentences,
+        lesson1FirstPartLength, lesson2FirstPartLength, lesson3FirstPartLength,
+        lesson1SecondPartLength, lesson2SecondPartLength, lesson3SecondPartLength,
+        cumulativeFirstPartLength1, cumulativeFirstPartLength2, cumulativeFirstPartLength3,
+        lessonsArrayZ, matchingLessons5, matchingLessons5b, isSearching
+    );
+}
                             console.log('hej108', flagaPrzycisku);
                           
                             // 🔹 Najpierw sprawdzamy specjalny przypadek dla flagaPrzycisku + index50
 if (flagaPrzycisku2 && !flagaPrzycisku && (tablica10.length <= indexDivRange || tablica10.length === 0) && category === 'all' && ostatniaWartosc < 2 && ostatniaWartosc > 0 && !number) {
-    const newIndex5 = null;
+    console.log('działa1');
+            const newIndex5 = null;
     const newIndex10 = null;
     const newIndex10d = null;
     const newIndex10b3 = null;
@@ -4129,12 +4208,13 @@ tablica55.push(true);
                 }
 
             }
+            const urlParams = new URLSearchParams(window.location.search);
+            const category = urlParams.get('category');
             </script>
                                 <script src="start/miniatury-prezentacja.js"></script>
-                                    <script src="nowydzialajacy.js"></script>
                     <script src="displayx3.js"></script>
                                         <script src="displayx3category.js"></script>
-
+                                    <script src="nowydzialajacy.js"></script>
                     <script>
             
                     

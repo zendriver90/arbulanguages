@@ -1,16 +1,13 @@
-const urlParams = new URLSearchParams(window.location.search);
-            const category = urlParams.get('category');
+                        
                         const tablica11 = [];
                         
 function showCombinedSentenceForLesson22b(number1, number2, selectedCategory, matchingIndexes3, rodzaj, matchingIndexes2, buttonindex, index50, lessonIdToShow1, lessonIdToShow2, lessonIdToShow3, fiszki, matchingIndexes, startIndex, newIndex, newIndex5, newIndex10, newIndex10b3, newIndex10b4, newIndex10dd, indexDiv, indexDiv0, indexDiv0b, indexDiv0d, newIndex10d, lessonsArray, lesson1PartLength, lesson2PartLength, lesson3PartLength, lesson1Sentences, lesson2Sentences, lesson3Sentences, lesson1FirstPartLength, lesson2FirstPartLength, lesson3FirstPartLength, lesson1SecondPartLength, lesson2SecondPartLength, lesson3SecondPartLength, cumulativeFirstPartLength1, cumulativeFirstPartLength2, cumulativeFirstPartLength3, lessonsArrayZ, matchingLessons5, matchingLessons5b, isSearching) {      
-    console.log('hejhej11v', matchingLessons5b);
-                            let tablica60 = [];
+    console.log('hejhej11v', selectedCategory);
+                            console.log(number1, number2);
                 const matchingFiszki1 = fiszki10.filter(fiszka => fiszka.id[1] === lessonIdToShow1);
                 const matchingFiszki2 = fiszki10.filter(fiszka => fiszka.id[1] === lessonIdToShow2);
                 const matchingFiszki3 = fiszki10.filter(fiszka => fiszka.id[1] === lessonIdToShow3);
 
-                console.log('hej450b', tablica60);
-                console.log('hej444d', newIndex);
     const id1 = matchingFiszki1[0]?.id[1] || 'unknown1';
     const id2 = matchingFiszki2[0]?.id[1] || 'unknown2';
     const id3 = matchingFiszki3[0]?.id[1] || 'unknown3';
@@ -348,112 +345,7 @@ const isActive = isFiszkaActive2(classNameToCheck);
 </div>
 `);
 
-// Kolory przypisane do kategorii
-const colorMapping = {
-    'sport': '#28a745',        // Zielony
-    'natura': '#007bff',       // Niebieski
-    'nauka': '#dc3545',        // Czerwony
-    'czarnyhumor': '#ffc107',  // Żółty
-    'zwiazki': '#fd7e14',      // Pomarańczowy
-    'all': '#800080',
-    'wszystkie': 'yellow'       
-};
 
-const startRange2 = 1;
-const endRange2 = 7;
-
-document.addEventListener('DOMContentLoaded', () => {
-    document.querySelectorAll('.category-btn').forEach(button => {
-        button.addEventListener('click', (event) => {
-            event.preventDefault();
-            selectedCategory = button.getAttribute('data-category');
-            updateButtonColors();
-        });
-    });
-});
-
-let previousTrojkiJSON = '';
-const tablica60 = [];
-const linkMap = {}; // mapa data-name -> link
-
-function updateButtonColors() {
-    tablica60.length = 0;
-    for (let key in linkMap) delete linkMap[key]; // reset mapy linków
-
-    const color = colorMapping[selectedCategory] || '#800080';
-
-    document.querySelectorAll('.sentence-block, .sentence-blockB').forEach(block => {
-        const dataName = parseInt(block.getAttribute('data-name'), 10);
-        tablica60.push(dataName);
-
-        if (dataName >= startRange2 && dataName <= endRange2) {
-            const button = block.querySelector('button.left-button, button.left-buttonb, button.left-buttonbb');
-            if (button) {
-                button.style.backgroundColor = color;
-                button.style.color = 'white';
-            }
-        }
-    });
-
-    const trojki = [];
-    for (let i = 0; i < tablica60.length; i += 3) {
-        trojki.push(tablica60.slice(i, i + 3));
-    }
-
-    if (newIndex === 0 || newIndex5 === 0 || newIndex10 === 0) {
-        for (let i = 0; i < trojki.length; i++) {
-            trojki[i] = trojki[i].map(num => (num > index50 ? num - 3 : num));
-        }
-    }
-
-    const currentTrojkiJSON = JSON.stringify(trojki);
-    if (currentTrojkiJSON !== previousTrojkiJSON) {
-        previousTrojkiJSON = currentTrojkiJSON;
-
-        // Usuń stare linki i przyciski
-        $('.hidden-link').remove();
-        $('.run-button3').remove();
-
-trojki.forEach((trojka, i) => {
-    const lessonNumber = i + 1;
-    const link = `demo1angielski.html?category=${selectedCategory}&data=${trojka.join(',')}`;
-
-    // Zapis mapowania dla wszystkich elementów trójki
-    trojka.forEach(indexDiv => linkMap[indexDiv] = link);
-
-    // Tworzymy przycisk tylko w pierwszym elemencie trójki
-    const firstIndex = trojka[0];
-    const $container = $(`.sentence-block[data-name="${firstIndex}"]`);
-    const $buttonb2 = $('<button></button>')
-        .css({
-            position: 'absolute',
-            top: '60px',
-            right: '5px',
-            'z-index': 2000,
-            color: 'white',
-            'background-color': '#007bff',
-            border: 'none',
-            'border-radius': '4px',
-            padding: '5px 10px',
-            cursor: 'pointer'
-        });
-    $buttonb2.addClass('run-button3');
-    $buttonb2.text(`Otwórz lekcję tutaj`);
-    $buttonb2.attr('data-index2', firstIndex);
-    $container.append($buttonb2);
-});
-    }
-}
-
-// Delegacja zdarzeń – działa dla nowych przycisków
-$('body').off('click', '.run-button3').on('click', '.run-button3', function () {
-    const indexDiv = $(this).attr('data-index2');
-    const lessonLink = linkMap[indexDiv];
-    if (lessonLink) window.open(lessonLink, '_blank');
-});
-
-// Uruchom na start
-setTimeout(updateButtonColors, 0);
 
                                 $('.sentence1bba').html('');
                                 $sentenceDiv.on('click', '.left-button', function () {
@@ -619,53 +511,6 @@ const colorClass = isFiszkaActive2(classNameToCheck);
     sentence22 += span.outerHTML + " ";
 }
                                 }
-
-// Kolory przypisane do kategorii
-const colorMapping = {
-    'sport': '#28a745',        // Zielony
-    'natura': '#007bff',       // Niebieski
-    'nauka': '#dc3545',        // Czerwony
-    'czarnyhumor': '#ffc107',  // Żółty
-    'zwiazki': '#fd7e14',      // Pomarańczowy
-    'all': '#800080'           // Fioletowy
-};
-
-// Zakres pokolorowanych przycisków
-const startRange2 = 1;
-const endRange2 = 6;
-
-document.addEventListener('DOMContentLoaded', () => {
-    // Kliknięcie w kategorię
-    document.querySelectorAll('.category-btn').forEach(button => {
-        button.addEventListener('click', (event) => {
-            event.preventDefault(); // zapobiega przeładowaniu
-            selectedCategory = button.getAttribute('data-category');
-            updateButtonColors();
-        });
-    });
-});
-// Główna funkcja kolorująca
-function updateButtonColors() {
-    const color = colorMapping[selectedCategory] || '#800080';
-    
-    document.querySelectorAll('.sentence-block, .sentence-blockB').forEach(block => {
-        const dataName = parseInt(block.getAttribute('data-name'), 10);
-
-        const button = block.querySelector('button.left-button, button.left-buttonb, button.left-buttonbb');
-
-        if (button) {
-            if (dataName >= startRange2 && dataName <= endRange2) {
-                button.style.backgroundColor = color;
-                button.style.color = 'white';
-            } else {
-                // Czyścimy kolory poza zakresem
-                button.style.backgroundColor = '';
-                button.style.color = '';
-            }
-        }
-    });
-    }
-    updateButtonColors();
  $sentenceDiv.html(`
 <div class="sentence-block" data-name="${id1}">
     <button class="left-button first-button">+<br></button>
@@ -688,6 +533,8 @@ function updateButtonColors() {
     <div class="sentence1bb1c">${sentence1bb1c}</div>
 </div>
 `);
+                            // Kolory przypisane do kategorii
+
                                 $('.sentence1bb1b').html('');
                                 $('.sentence1bba2').html('');
                                 $sentenceDiv.on('click', '.left-buttonb', function () {
@@ -1034,53 +881,7 @@ function countCategoryInFiszki2(matchingFiszki3, category) {
                                 }
                                 sentence1bb1c += sentencePart444 + " ";
                             }
-// Kolory przypisane do kategorii
-const colorMapping = {
-    'sport': '#28a745',        // Zielony
-    'natura': '#007bff',       // Niebieski
-    'nauka': '#dc3545',        // Czerwony
-    'czarnyhumor': '#ffc107',  // Żółty
-    'zwiazki': '#fd7e14',      // Pomarańczowy
-    'all': '#800080'           // Fioletowy
-};
 
-// Zakres pokolorowanych przycisków
-const startRange2 = 1;
-const endRange2 = 6;
-
-document.addEventListener('DOMContentLoaded', () => {
-    // Kliknięcie w kategorię
-    document.querySelectorAll('.category-btn').forEach(button => {
-        button.addEventListener('click', (event) => {
-            event.preventDefault(); // zapobiega przeładowaniu
-            selectedCategory = button.getAttribute('data-category');
-            updateButtonColors();
-        });
-    });
-});
-
-// Główna funkcja kolorująca
-function updateButtonColors() {
-    const color = colorMapping[selectedCategory] || '#800080';
-    
-    document.querySelectorAll('.sentence-block, .sentence-blockB').forEach(block => {
-        const dataName = parseInt(block.getAttribute('data-name'), 10);
-
-        const button = block.querySelector('button.left-button, button.left-buttonb, button.left-buttonbb');
-
-        if (button) {
-            if (dataName >= startRange2 && dataName <= endRange2) {
-                button.style.backgroundColor = color;
-                button.style.color = 'white';
-            } else {
-                // Czyścimy kolory poza zakresem
-                button.style.backgroundColor = '';
-                button.style.color = '';
-            }
-        }
-    });
-    }
-    updateButtonColors();
     $sentenceDiv.html(`
 <div class="sentence-block" data-name="${id1}">
     <button class="left-button first-button">+<br></button>
@@ -1103,6 +904,7 @@ function updateButtonColors() {
     <div class="sentence1bb1c">${sentence1bb1c}</div>
 </div>
 `);
+
                                 $('.sentence1bb3').html('');
                                 $('.sentence1bb1c').html('');
                                 $sentenceDiv.on('click', '.left-buttonbb', function () {

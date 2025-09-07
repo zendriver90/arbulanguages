@@ -2127,8 +2127,8 @@ fiszki10.push(
                                             {
         id: [
             379,
-            59,
-            107
+            60,
+            108
         ],
         img: "https://www.arbulang.com/img/fiszki1/379a.jpg",
         story: "Branża <u><b>Bjuti</u></b> jest na <u><b>'full'</u></b> oblężona przez kobiety. W usługę w<u><b>li</u></b>czone są wszystkie zabiegi aby kobieta <u><b>pięknie</u></b> wyglądała",
@@ -4743,6 +4743,1500 @@ fiszki10.push(
             "on the weekends"
         ],
         key: "on the weekends",
+        category1: "nauka",
+        category2: ["okresleniaMiejsca"]
+    },
+                        {
+        id: [
+            470,
+            78,
+            141
+        ],
+        img: [
+            "https://www.arbulang.com/img/fiszki1/7a.jpg",
+            "https://www.arbulang.com/img/fiszki1/7b.jpg",
+            "https://www.arbulang.com/img/fiszki1/7c.jpg",
+            "https://www.arbulang.com/img/fiszki1/7d.jpg",
+            "https://www.arbulang.com/img/fiszki1/7e.jpg"
+        ],
+        translate: "",
+        translateb: "[Hi sings bjutifuli in de szołer]",
+        translateb2: "[]",
+        srcWord: ["https://www.arbulang.com/filmy/singingshower.mp4", "V for Vendetta (2005)"],
+        srcWordimage: "https://www.arbulang.com/filmy/singingshower.png",
+        word: [
+            "https://www.arbulang.com/voice/bike.mp4"
+        ],
+        story: "<u><b>Ona</u></b> - Patrycja ma ri<u><b>szi</u></b> to naturalny antyoksydant",
+        desc: "the[szi] - niebieski/niebieskie",
+        sentence1: [
+            "She"
+        ],
+        sentence: [
+            "She",
+            "practices",
+            "yoga"
+        ],
+        key: "she",
+        category2: ["osoby"],
+        category3: ["PresenttSimple", "PresentSimplePodmiot"]
+    },
+                                                                                        {
+        id: [
+            471,
+            78,
+            140
+        ],
+        img: [
+            "https://www.arbulang.com/img/fiszki1/364a.jpg"
+        ],
+        story: [
+            ""
+        ],
+        desc: "practices[] - ",
+        sentence1: [
+            "practices"
+        ],
+        sentence: [
+            "She",
+            "practices",
+            "yoga"
+        ],
+        key: "practices",
+        category1: "nauka",
+        category2: ["okresleniaMiejsca"]
+    },
+                                                                                    {
+        id: [
+            472,
+            78,
+            140
+        ],
+        img: [
+            "https://www.arbulang.com/img/fiszki1/364a.jpg"
+        ],
+        story: [
+            ""
+        ],
+        desc: "yoga[] - ",
+        sentence1: [
+            "yoga"
+        ],
+        sentence: [
+            "She",
+            "practices",
+            "yoga"
+        ],
+        key: "yoga",
+        category1: "nauka",
+        category2: ["okresleniaMiejsca"]
+    },
+                                                                                        {
+        id: [
+            473,
+            78,
+            141
+        ],
+        img: [
+            "https://www.arbulang.com/img/fiszki1/364a.jpg"
+        ],
+        story: [
+            ""
+        ],
+        desc: "every[] - ",
+        sentence1: [
+            "every"
+        ],
+        sentence: [
+            "every",
+            "afternoon"
+        ],
+        key: "on the weekends",
+        category1: "nauka",
+        category2: ["okresleniaMiejsca"]
+    },
+                                                                                            {
+        id: [
+            474,
+            78,
+            142
+        ],
+        img: [
+            "https://www.arbulang.com/img/fiszki1/364a.jpg"
+        ],
+        story: [
+            ""
+        ],
+        desc: "afternoon[] - ",
+        sentence1: [
+            "afternoon"
+        ],
+        sentence: [
+            "every",
+            "afternoon"
+        ],
+        key: "on the weekends",
+        category1: "nauka",
+        category2: ["okresleniaMiejsca"]
+    },
+                            {
+        id: [
+            475,
+            79,
+            143
+        ],
+        img: [
+            "https://www.arbulang.com/img/fiszki1/7a.jpg",
+            "https://www.arbulang.com/img/fiszki1/7b.jpg",
+            "https://www.arbulang.com/img/fiszki1/7c.jpg",
+            "https://www.arbulang.com/img/fiszki1/7d.jpg",
+            "https://www.arbulang.com/img/fiszki1/7e.jpg"
+        ],
+        translate: "",
+        translateb: "[Hi sings bjutifuli in de szołer]",
+        translateb2: "[]",
+        srcWord: ["https://www.arbulang.com/filmy/singingshower.mp4", "V for Vendetta (2005)"],
+        srcWordimage: "https://www.arbulang.com/filmy/singingshower.png",
+        word: [
+            "https://www.arbulang.com/voice/bike.mp4"
+        ],
+        story: "<u><b>Ona</u></b> - Patrycja ma ri<u><b>szi</u></b> to naturalny antyoksydant",
+        desc: "the[szi] - niebieski/niebieskie",
+        sentence1: [
+            "My"
+        ],
+        sentence: [
+            "My",
+            "sister",
+            "pants",
+            "pictures",
+            "of",
+            "animals"
+        ],
+        key: "my",
+        category2: ["osoby"],
+        category3: ["PresenttSimple", "PresentSimplePodmiot"]
+    },
+                                                                                                {
+        id: [
+            476,
+            79,
+            143
+        ],
+        img: [
+            "https://www.arbulang.com/img/fiszki1/364a.jpg"
+        ],
+        story: [
+            ""
+        ],
+        desc: "sister[] - ",
+        sentence1: [
+            "sister"
+        ],
+        sentence: [
+            "My",
+            "sister",
+            "pants",
+            "pictures",
+            "of",
+            "animals"
+        ],
+        key: "sister",
+        category1: "nauka",
+        category2: ["okresleniaMiejsca"]
+    },
+                                                                                                {
+        id: [
+            477,
+            79,
+            143
+        ],
+        img: [
+            "https://www.arbulang.com/img/fiszki1/364a.jpg"
+        ],
+        story: [
+            ""
+        ],
+        desc: "pants[] - ",
+        sentence1: [
+            "pants"
+        ],
+        sentence: [
+            "My",
+            "sister",
+            "pants",
+            "pictures",
+            "of",
+            "animals"
+        ],
+        key: "pants",
+        category1: "nauka",
+        category2: ["okresleniaMiejsca"]
+    },
+                                                                                                    {
+        id: [
+            478,
+            79,
+            143
+        ],
+        img: [
+            "https://www.arbulang.com/img/fiszki1/364a.jpg"
+        ],
+        story: [
+            ""
+        ],
+        desc: "pictures[] - ",
+        sentence1: [
+            "pictures"
+        ],
+        sentence: [
+            "My",
+            "sister",
+            "pants",
+            "pictures",
+            "of",
+            "animals"
+        ],
+        key: "pictures",
+        category1: "nauka",
+        category2: ["okresleniaMiejsca"]
+    },
+                                                                                                    {
+        id: [
+            479,
+            79,
+            143
+        ],
+        img: [
+            "https://www.arbulang.com/img/fiszki1/364a.jpg"
+        ],
+        story: [
+            ""
+        ],
+        desc: "of[] - ",
+        sentence1: [
+            "of"
+        ],
+        sentence: [
+            "My",
+            "sister",
+            "pants",
+            "pictures",
+            "of",
+            "animals"
+        ],
+        key: "of",
+        category1: "nauka",
+        category2: ["okresleniaMiejsca"]
+    },
+                                                                                                    {
+        id: [
+            480,
+            79,
+            143
+        ],
+        img: [
+            "https://www.arbulang.com/img/fiszki1/364a.jpg"
+        ],
+        story: [
+            ""
+        ],
+        desc: "animals[] - ",
+        sentence1: [
+            "animals"
+        ],
+        sentence: [
+            "My",
+            "sister",
+            "pants",
+            "pictures",
+            "of",
+            "animals"
+        ],
+        key: "animals",
+        category1: "nauka",
+        category2: ["okresleniaMiejsca"]
+    },
+                                {
+        id: [
+            481,
+            80,
+            144
+        ],
+        img: [
+            "https://www.arbulang.com/img/fiszki1/7a.jpg",
+            "https://www.arbulang.com/img/fiszki1/7b.jpg",
+            "https://www.arbulang.com/img/fiszki1/7c.jpg",
+            "https://www.arbulang.com/img/fiszki1/7d.jpg",
+            "https://www.arbulang.com/img/fiszki1/7e.jpg"
+        ],
+        translate: "",
+        translateb: "[Hi sings bjutifuli in de szołer]",
+        translateb2: "[]",
+        srcWord: ["https://www.arbulang.com/filmy/singingshower.mp4", "V for Vendetta (2005)"],
+        srcWordimage: "https://www.arbulang.com/filmy/singingshower.png",
+        word: [
+            "https://www.arbulang.com/voice/bike.mp4"
+        ],
+        story: "<u><b>Ona</u></b> - Patrycja ma ri<u><b>szi</u></b> to naturalny antyoksydant",
+        desc: "the[szi] - niebieski/niebieskie",
+        sentence1: [
+            "They"
+        ],
+        sentence: [
+            "They",
+            "travel",
+            "to",
+            "Europe"
+        ],
+        key: "they",
+        category2: ["osoby"],
+        category3: ["PresenttSimple", "PresentSimplePodmiot"]
+    },
+                                                                                                        {
+        id: [
+            482,
+            80,
+            144
+        ],
+        img: [
+            "https://www.arbulang.com/img/fiszki1/364a.jpg"
+        ],
+        story: [
+            ""
+        ],
+        desc: "travel[] - ",
+        sentence1: [
+            "travel"
+        ],
+        sentence: [
+            "They",
+            "travel",
+            "to",
+            "Europe"
+        ],
+        key: "travel",
+        category1: "nauka",
+        category2: ["okresleniaMiejsca"]
+    },
+                                                                                                            {
+        id: [
+            483,
+            80,
+            144
+        ],
+        img: [
+            "https://www.arbulang.com/img/fiszki1/364a.jpg"
+        ],
+        story: [
+            ""
+        ],
+        desc: "to[] - ",
+        sentence1: [
+            "to"
+        ],
+        sentence: [
+            "They",
+            "travel",
+            "to",
+            "Europe"
+        ],
+        key: "to",
+        category1: "nauka",
+        category2: ["okresleniaMiejsca"]
+    },
+                                                                                                            {
+        id: [
+            484,
+            80,
+            144
+        ],
+        img: [
+            "https://www.arbulang.com/img/fiszki1/364a.jpg"
+        ],
+        story: [
+            ""
+        ],
+        desc: "Europe[] - ",
+        sentence1: [
+            "europe"
+        ],
+        sentence: [
+            "They",
+            "travel",
+            "to",
+            "Europe"
+        ],
+        key: "europe",
+        category1: "nauka",
+        category2: ["okresleniaMiejsca"]
+    },
+                                                                                                                {
+        id: [
+            485,
+            80,
+            144
+        ],
+        img: [
+            "https://www.arbulang.com/img/fiszki1/364a.jpg"
+        ],
+        story: [
+            ""
+        ],
+        desc: "every[] - ",
+        sentence1: [
+            "every"
+        ],
+        sentence: [
+            "They",
+            "travel",
+            "to",
+            "Europe"
+        ],
+        key: "every",
+        category1: "nauka",
+        category2: ["okresleniaMiejsca"]
+    },
+                                                                                                                    {
+        id: [
+            486,
+            80,
+            144
+        ],
+        img: [
+            "https://www.arbulang.com/img/fiszki1/364a.jpg"
+        ],
+        story: [
+            ""
+        ],
+        desc: "summer[] - ",
+        sentence1: [
+            "summer"
+        ],
+        sentence: [
+            "They",
+            "travel",
+            "to",
+            "Europe"
+        ],
+        key: "summer",
+        category1: "nauka",
+        category2: ["okresleniaMiejsca"]
+    },
+                                    {
+        id: [
+            487,
+            81,
+            145
+        ],
+        img: [
+            "https://www.arbulang.com/img/fiszki1/7a.jpg",
+            "https://www.arbulang.com/img/fiszki1/7b.jpg",
+            "https://www.arbulang.com/img/fiszki1/7c.jpg",
+            "https://www.arbulang.com/img/fiszki1/7d.jpg",
+            "https://www.arbulang.com/img/fiszki1/7e.jpg"
+        ],
+        translate: "",
+        translateb: "[Hi sings bjutifuli in de szołer]",
+        translateb2: "[]",
+        srcWord: ["https://www.arbulang.com/filmy/singingshower.mp4", "V for Vendetta (2005)"],
+        srcWordimage: "https://www.arbulang.com/filmy/singingshower.png",
+        word: [
+            "https://www.arbulang.com/voice/bike.mp4"
+        ],
+        story: "<u><b>Ona</u></b> - Patrycja ma ri<u><b>szi</u></b> to naturalny antyoksydant",
+        desc: "the[szi] - niebieski/niebieskie",
+        sentence1: [
+            "The"
+        ],
+        sentence: [
+            "The",
+            "wind",
+            "blows",
+            "hard"
+        ],
+        key: "the",
+        category2: ["osoby"],
+        category3: ["PresenttSimple", "PresentSimplePodmiot"]
+    },
+                                                                                                                        {
+        id: [
+            488,
+            81,
+            145
+        ],
+        img: [
+            "https://www.arbulang.com/img/fiszki1/364a.jpg"
+        ],
+        story: [
+            ""
+        ],
+        desc: "wind[] - ",
+        sentence1: [
+            "wind"
+        ],
+        sentence: [
+            "The",
+            "wind",
+            "blows",
+            "hard"
+        ],
+        key: "wind",
+        category1: "nauka",
+        category2: ["okresleniaMiejsca"]
+    },
+                                                                                                                            {
+        id: [
+            489,
+            81,
+            145
+        ],
+        img: [
+            "https://www.arbulang.com/img/fiszki1/364a.jpg"
+        ],
+        story: [
+            ""
+        ],
+        desc: "blows[] - ",
+        sentence1: [
+            "blows"
+        ],
+        sentence: [
+            "The",
+            "wind",
+            "blows",
+            "hard"
+        ],
+        key: "blows",
+        category1: "nauka",
+        category2: ["okresleniaMiejsca"]
+    },
+                                                                                                                                {
+        id: [
+            490,
+            81,
+            145
+        ],
+        img: [
+            "https://www.arbulang.com/img/fiszki1/364a.jpg"
+        ],
+        story: [
+            ""
+        ],
+        desc: "hard[] - ",
+        sentence1: [
+            "hard"
+        ],
+        sentence: [
+            "The",
+            "wind",
+            "blows",
+            "hard"
+        ],
+        key: "hard",
+        category1: "nauka",
+        category2: ["okresleniaMiejsca"]
+    },
+                                                                                                                                    {
+        id: [
+            491,
+            81,
+            146
+        ],
+        img: [
+            "https://www.arbulang.com/img/fiszki1/364a.jpg"
+        ],
+        story: [
+            ""
+        ],
+        desc: "during[] - ",
+        sentence1: [
+            "during"
+        ],
+        sentence: [
+            "during",
+            "winter"
+        ],
+        key: "during",
+        category1: "nauka",
+        category2: ["okresleniaMiejsca"]
+    },
+                                                                                                                                    {
+        id: [
+            492,
+            81,
+            146
+        ],
+        img: [
+            "https://www.arbulang.com/img/fiszki1/364a.jpg"
+        ],
+        story: [
+            ""
+        ],
+        desc: "winter[] - ",
+        sentence1: [
+            "winter"
+        ],
+        sentence: [
+            "during",
+            "winter"
+        ],
+        key: "winter",
+        category1: "nauka",
+        category2: ["okresleniaMiejsca"]
+    },
+                                        {
+        id: [
+            493,
+            82,
+            147
+        ],
+        img: [
+            "https://www.arbulang.com/img/fiszki1/7a.jpg",
+            "https://www.arbulang.com/img/fiszki1/7b.jpg",
+            "https://www.arbulang.com/img/fiszki1/7c.jpg",
+            "https://www.arbulang.com/img/fiszki1/7d.jpg",
+            "https://www.arbulang.com/img/fiszki1/7e.jpg"
+        ],
+        translate: "",
+        translateb: "[Hi sings bjutifuli in de szołer]",
+        translateb2: "[]",
+        srcWord: ["https://www.arbulang.com/filmy/singingshower.mp4", "V for Vendetta (2005)"],
+        srcWordimage: "https://www.arbulang.com/filmy/singingshower.png",
+        word: [
+            "https://www.arbulang.com/voice/bike.mp4"
+        ],
+        story: "<u><b>Ona</u></b> - Patrycja ma ri<u><b>szi</u></b> to naturalny antyoksydant",
+        desc: "the[szi] - niebieski/niebieskie",
+        sentence1: [
+            "They"
+        ],
+        sentence: [
+            "They",
+            "go",
+            "fishing"
+        ],
+        key: "they",
+        category2: ["osoby"],
+        category3: ["PresenttSimple", "PresentSimplePodmiot"]
+    },
+                                                                                                                                        {
+        id: [
+            494,
+            82,
+            147
+        ],
+        img: [
+            "https://www.arbulang.com/img/fiszki1/364a.jpg"
+        ],
+        story: [
+            ""
+        ],
+        desc: "go[] - ",
+        sentence1: [
+            "go"
+        ],
+        sentence: [
+            "They",
+            "go",
+            "fishing"
+        ],
+        key: "go",
+        category1: "nauka",
+        category2: ["okresleniaMiejsca"]
+    },
+                                                                                                                                            {
+        id: [
+            495,
+            82,
+            147
+        ],
+        img: [
+            "https://www.arbulang.com/img/fiszki1/364a.jpg"
+        ],
+        story: [
+            ""
+        ],
+        desc: "fishing[] - ",
+        sentence1: [
+            "fishing"
+        ],
+        sentence: [
+            "They",
+            "go",
+            "fishing"
+        ],
+        key: "fishing",
+        category1: "nauka",
+        category2: ["okresleniaMiejsca"]
+    },
+                                                                                                                                            {
+        id: [
+            496,
+            82,
+            148
+        ],
+        img: [
+            "https://www.arbulang.com/img/fiszki1/364a.jpg"
+        ],
+        story: [
+            ""
+        ],
+        desc: "in the river[] - ",
+        sentence2: [
+            "in the river"
+        ],
+        sentence: [
+            "in the river"
+        ],
+        key: "go",
+        category1: "nauka",
+        category2: ["okresleniaMiejsca"]
+    },
+                                            {
+        id: [
+            497,
+            83,
+            149
+        ],
+        img: [
+            "https://www.arbulang.com/img/fiszki1/7a.jpg",
+            "https://www.arbulang.com/img/fiszki1/7b.jpg",
+            "https://www.arbulang.com/img/fiszki1/7c.jpg",
+            "https://www.arbulang.com/img/fiszki1/7d.jpg",
+            "https://www.arbulang.com/img/fiszki1/7e.jpg"
+        ],
+        translate: "",
+        translateb: "[Hi sings bjutifuli in de szołer]",
+        translateb2: "[]",
+        srcWord: ["https://www.arbulang.com/filmy/singingshower.mp4", "V for Vendetta (2005)"],
+        srcWordimage: "https://www.arbulang.com/filmy/singingshower.png",
+        word: [
+            "https://www.arbulang.com/voice/bike.mp4"
+        ],
+        story: "<u><b>Ona</u></b> - Patrycja ma ri<u><b>szi</u></b> to naturalny antyoksydant",
+        desc: "the[szi] - niebieski/niebieskie",
+        sentence1: [
+            "The"
+        ],
+        sentence: [
+            "The",
+            "sky",
+            "is",
+            "clear",
+            "and",
+            "blue",
+            "today"
+        ],
+        key: "the",
+        category2: ["osoby"],
+        category3: ["PresenttSimple", "PresentSimplePodmiot"]
+    },
+                                                                                                                                                {
+        id: [
+            498,
+            83,
+            149
+        ],
+        img: [
+            "https://www.arbulang.com/img/fiszki1/364a.jpg"
+        ],
+        story: [
+            ""
+        ],
+        desc: "sky[] - ",
+        sentence2: [
+            "sky"
+        ],
+        sentence: [
+            "The",
+            "sky",
+            "is",
+            "clear",
+            "and",
+            "blue",
+            "today"
+        ],
+        key: "sky",
+        category1: "nauka",
+        category2: ["okresleniaMiejsca"]
+    },
+                                                                                                                                                    {
+        id: [
+            499,
+            83,
+            149
+        ],
+        img: [
+            "https://www.arbulang.com/img/fiszki1/364a.jpg"
+        ],
+        story: [
+            ""
+        ],
+        desc: "is[] - ",
+        sentence2: [
+            "is"
+        ],
+        sentence: [
+            "The",
+            "sky",
+            "is",
+            "clear",
+            "and",
+            "blue",
+            "today"
+        ],
+        key: "is",
+        category1: "nauka",
+        category2: ["okresleniaMiejsca"]
+    },
+                                                                                                                                                        {
+        id: [
+            500,
+            83,
+            149
+        ],
+        img: [
+            "https://www.arbulang.com/img/fiszki1/364a.jpg"
+        ],
+        story: [
+            ""
+        ],
+        desc: "clear[] - ",
+        sentence2: [
+            "clear"
+        ],
+        sentence: [
+            "The",
+            "sky",
+            "is",
+            "clear",
+            "and",
+            "blue",
+            "today"
+        ],
+        key: "clear",
+        category1: "nauka",
+        category2: ["okresleniaMiejsca"]
+    },
+                                                                                                                                                            {
+        id: [
+            501,
+            83,
+            149
+        ],
+        img: [
+            "https://www.arbulang.com/img/fiszki1/364a.jpg"
+        ],
+        story: [
+            ""
+        ],
+        desc: "and[] - ",
+        sentence2: [
+            "and"
+        ],
+        sentence: [
+            "The",
+            "sky",
+            "is",
+            "clear",
+            "and",
+            "blue",
+            "today"
+        ],
+        key: "and",
+        category1: "nauka",
+        category2: ["okresleniaMiejsca"]
+    },
+                                                                                                                                                                {
+        id: [
+            502,
+            83,
+            149
+        ],
+        img: [
+            "https://www.arbulang.com/img/fiszki1/364a.jpg"
+        ],
+        story: [
+            ""
+        ],
+        desc: "blue[] - ",
+        sentence2: [
+            "blue"
+        ],
+        sentence: [
+            "The",
+            "sky",
+            "is",
+            "clear",
+            "and",
+            "blue",
+            "today"
+        ],
+        key: "blue",
+        category1: "nauka",
+        category2: ["okresleniaMiejsca"]
+    },
+                                                                                                                                                                    {
+        id: [
+            503,
+            83,
+            149
+        ],
+        img: [
+            "https://www.arbulang.com/img/fiszki1/364a.jpg"
+        ],
+        story: [
+            ""
+        ],
+        desc: "today[] - ",
+        sentence2: [
+            "today"
+        ],
+        sentence: [
+            "The",
+            "sky",
+            "is",
+            "clear",
+            "and",
+            "blue",
+            "today"
+        ],
+        key: "today",
+        category1: "nauka",
+        category2: ["okresleniaMiejsca"]
+    },
+                                               {
+        id: [
+            504,
+            84,
+            150
+        ],
+        img: [
+            "https://www.arbulang.com/img/fiszki1/7a.jpg",
+            "https://www.arbulang.com/img/fiszki1/7b.jpg",
+            "https://www.arbulang.com/img/fiszki1/7c.jpg",
+            "https://www.arbulang.com/img/fiszki1/7d.jpg",
+            "https://www.arbulang.com/img/fiszki1/7e.jpg"
+        ],
+        translate: "",
+        translateb: "[Hi sings bjutifuli in de szołer]",
+        translateb2: "[]",
+        srcWord: ["https://www.arbulang.com/filmy/singingshower.mp4", "V for Vendetta (2005)"],
+        srcWordimage: "https://www.arbulang.com/filmy/singingshower.png",
+        word: [
+            "https://www.arbulang.com/voice/bike.mp4"
+        ],
+        story: "<u><b>Ona</u></b> - Patrycja ma ri<u><b>szi</u></b> to naturalny antyoksydant",
+        desc: "the[szi] - niebieski/niebieskie",
+        sentence1: [
+            "They"
+        ],
+        sentence: [
+            "They",
+            "work",
+            "together"
+        ],
+        key: "the",
+        category2: ["osoby"],
+        category3: ["PresenttSimple", "PresentSimplePodmiot"]
+    },
+{
+        id: [
+            505,
+            84,
+            150
+        ],
+        img: [
+            "https://www.arbulang.com/img/fiszki1/364a.jpg"
+        ],
+        story: [
+            ""
+        ],
+        desc: "work[] - ",
+        sentence2: [
+            "work"
+        ],
+        sentence: [
+            "They",
+            "work",
+            "together"
+        ],
+        key: "work",
+        category1: "nauka",
+        category2: ["okresleniaMiejsca"]
+    },
+                                                                                                                                                                            {
+        id: [
+            506,
+            84,
+            150
+        ],
+        img: [
+            "https://www.arbulang.com/img/fiszki1/364a.jpg"
+        ],
+        story: [
+            ""
+        ],
+        desc: "together[] - ",
+        sentence2: [
+            "together"
+        ],
+        sentence: [
+            "They",
+            "work",
+            "together"
+        ],
+        key: "work",
+        category1: "nauka",
+        category2: ["okresleniaMiejsca"]
+    },
+                                                                                                                                                                                {
+        id: [
+            507,
+            84,
+            151
+        ],
+        img: [
+            "https://www.arbulang.com/img/fiszki1/364a.jpg"
+        ],
+        story: [
+            ""
+        ],
+        desc: "in the same office[] - w tym samym biurze",
+        sentence2: [
+            "in the same office"
+        ],
+        sentence: [
+            "in the same office"
+        ],
+        key: "work",
+        category1: "nauka",
+        category2: ["okresleniaMiejsca"]
+    },
+                                                    {
+        id: [
+            508,
+            85,
+            152
+        ],
+        img: [
+            "https://www.arbulang.com/img/fiszki1/7a.jpg",
+            "https://www.arbulang.com/img/fiszki1/7b.jpg",
+            "https://www.arbulang.com/img/fiszki1/7c.jpg",
+            "https://www.arbulang.com/img/fiszki1/7d.jpg",
+            "https://www.arbulang.com/img/fiszki1/7e.jpg"
+        ],
+        translate: "",
+        translateb: "[Hi sings bjutifuli in de szołer]",
+        translateb2: "[]",
+        srcWord: ["https://www.arbulang.com/filmy/singingshower.mp4", "V for Vendetta (2005)"],
+        srcWordimage: "https://www.arbulang.com/filmy/singingshower.png",
+        word: [
+            "https://www.arbulang.com/voice/bike.mp4"
+        ],
+        story: "<u><b>Ona</u></b> - Patrycja ma ri<u><b>szi</u></b> to naturalny antyoksydant",
+        desc: "the[szi] - niebieski/niebieskie",
+        sentence1: [
+            "We"
+        ],
+        sentence: [
+            "We",
+            "watched",
+            "the stars"
+        ],
+        key: "the",
+        category2: ["osoby"],
+        category3: ["PresenttSimple", "PresentSimplePodmiot"]
+    },
+                                                                                                                                                                                    {
+        id: [
+            509,
+            85,
+            152
+        ],
+        img: [
+            "https://www.arbulang.com/img/fiszki1/364a.jpg"
+        ],
+        story: [
+            ""
+        ],
+        desc: "watched[] - ",
+        sentence2: [
+            "watched"
+        ],
+        sentence: [
+            "We",
+            "watched",
+            "the stars"
+        ],
+        key: "watched",
+        category1: "nauka",
+        category2: ["okresleniaMiejsca"]
+    },
+                                                                                                                                                                                        {
+        id: [
+            510,
+            85,
+            152
+        ],
+        img: [
+            "https://www.arbulang.com/img/fiszki1/364a.jpg"
+        ],
+        story: [
+            ""
+        ],
+        desc: "the stars[] - ",
+        sentence2: [
+            "the stars"
+        ],
+        sentence: [
+            "We",
+            "watched",
+            "the stars"
+        ],
+        key: "the stars",
+        category1: "nauka",
+        category2: ["okresleniaMiejsca"]
+    },
+                                                                                                                                                                                            {
+        id: [
+            511,
+            85,
+            153
+        ],
+        img: [
+            "https://www.arbulang.com/img/fiszki1/364a.jpg"
+        ],
+        story: [
+            ""
+        ],
+        desc: "last[] - ",
+        sentence2: [
+            "last"
+        ],
+        sentence: [
+            "last",
+            "night"
+        ],
+        key: "last",
+        category1: "nauka",
+        category2: ["okresleniaMiejsca"]
+    },
+                                                                                                                                                                                                {
+        id: [
+            512,
+            85,
+            153
+        ],
+        img: [
+            "https://www.arbulang.com/img/fiszki1/364a.jpg"
+        ],
+        story: [
+            ""
+        ],
+        desc: "night[] - ",
+        sentence2: [
+            "night"
+        ],
+        sentence: [
+            "last",
+            "night"
+        ],
+        key: "night",
+        category1: "nauka",
+        category2: ["okresleniaMiejsca"]
+    },
+                                                            {
+        id: [
+            513,
+            86,
+            154
+        ],
+        img: [
+            "https://www.arbulang.com/img/fiszki1/7a.jpg",
+            "https://www.arbulang.com/img/fiszki1/7b.jpg",
+            "https://www.arbulang.com/img/fiszki1/7c.jpg",
+            "https://www.arbulang.com/img/fiszki1/7d.jpg",
+            "https://www.arbulang.com/img/fiszki1/7e.jpg"
+        ],
+        translate: "",
+        translateb: "[Hi sings bjutifuli in de szołer]",
+        translateb2: "[]",
+        srcWord: ["https://www.arbulang.com/filmy/tennis.mp4", "V for Vendetta (2005)"],
+        srcWordimage: "https://www.arbulang.com/filmy/tennis.png",
+        word: [
+            "https://www.arbulang.com/voice/bike.mp4"
+        ],
+        story: "<u><b>Ona</u></b> - Patrycja ma ri<u><b>szi</u></b> to naturalny antyoksydant",
+        desc: "the[szi] - niebieski/niebieskie",
+        sentence1: [
+            "He"
+        ],
+        sentence: [
+            "He",
+            "visits",
+            "library"
+        ],
+        key: "the",
+        category2: ["osoby"],
+        category3: ["PresenttSimple", "PresentSimplePodmiot"]
+    },
+                                                                                                                                                                                                    {
+        id: [
+            514,
+            86,
+            154
+        ],
+        img: [
+            "https://www.arbulang.com/img/fiszki1/364a.jpg"
+        ],
+        story: [
+            ""
+        ],
+        desc: "visits[] - ",
+        sentence2: [
+            "visits"
+        ],
+        sentence: [
+            "He",
+            "visits",
+            "library"
+        ],
+        key: "night",
+        category1: "nauka",
+        category2: ["okresleniaMiejsca"]
+    },
+                                                                                                                                                                                                    {
+        id: [
+            515,
+            86,
+            154
+        ],
+        img: [
+            "https://www.arbulang.com/img/fiszki1/364a.jpg"
+        ],
+        story: [
+            ""
+        ],
+        desc: "library[] - ",
+        sentence2: [
+            "library"
+        ],
+        sentence: [
+            "He",
+            "visits",
+            "library"
+        ],
+        key: "night",
+        category1: "nauka",
+        category2: ["okresleniaMiejsca"]
+    },
+                                                                                                                                                                                                        {
+        id: [
+            516,
+            86,
+            155
+        ],
+        img: [
+            "https://www.arbulang.com/img/fiszki1/364a.jpg"
+        ],
+        story: [
+            ""
+        ],
+        desc: "library[] - ",
+        sentence2: [
+            "library"
+        ],
+        sentence: [
+            "every",
+            "week"
+        ],
+        key: "night",
+        category1: "nauka",
+        category2: ["okresleniaMiejsca"]
+    },
+                                                                                                                                                                                                        {
+        id: [
+            517,
+            86,
+            155
+        ],
+        img: [
+            "https://www.arbulang.com/img/fiszki1/364a.jpg"
+        ],
+        story: [
+            ""
+        ],
+        desc: "library[] - ",
+        sentence2: [
+            "library"
+        ],
+        sentence: [
+            "every",
+            "week"
+        ],
+        key: "night",
+        category1: "nauka",
+        category2: ["okresleniaMiejsca"]
+    },
+                                                                {
+        id: [
+            518,
+            87,
+            156
+        ],
+        img: [
+            "https://www.arbulang.com/img/fiszki1/7a.jpg",
+            "https://www.arbulang.com/img/fiszki1/7b.jpg",
+            "https://www.arbulang.com/img/fiszki1/7c.jpg",
+            "https://www.arbulang.com/img/fiszki1/7d.jpg",
+            "https://www.arbulang.com/img/fiszki1/7e.jpg"
+        ],
+        translate: "",
+        translateb: "[Hi sings bjutifuli in de szołer]",
+        translateb2: "[]",
+        srcWord: ["https://www.arbulang.com/filmy/tennis.mp4", "V for Vendetta (2005)"],
+        srcWordimage: "https://www.arbulang.com/filmy/tennis.png",
+        word: [
+            "https://www.arbulang.com/voice/bike.mp4"
+        ],
+        story: "<u><b>Ona</u></b> - Patrycja ma ri<u><b>szi</u></b> to naturalny antyoksydant",
+        desc: "the[szi] - niebieski/niebieskie",
+        sentence1: [
+            "He"
+        ],
+        sentence: [
+            "He",
+            "reads",
+            "newspapers"
+        ],
+        key: "he",
+        category2: ["osoby"],
+        category3: ["PresenttSimple", "PresentSimplePodmiot"]
+    },
+                                                                                                                                                                                                            {
+        id: [
+            519,
+            87,
+            156
+        ],
+        img: [
+            "https://www.arbulang.com/img/fiszki1/364a.jpg"
+        ],
+        story: [
+            ""
+        ],
+        desc: "reads[] - ",
+        sentence2: [
+            "reads"
+        ],
+        sentence: [
+            "He",
+            "reads",
+            "newspapers"
+        ],
+        key: "night",
+        category1: "nauka",
+        category2: ["okresleniaMiejsca"]
+    },   
+    {
+        id: [
+            520,
+            87,
+            156
+        ],
+        img: [
+            "https://www.arbulang.com/img/fiszki1/364a.jpg"
+        ],
+        story: [
+            ""
+        ],
+        desc: "newspapers[] - ",
+        sentence2: [
+            "newspapers"
+        ],
+        sentence: [
+            "He",
+            "reads",
+            "newspapers"
+        ],
+        key: "night",
+        category1: "nauka",
+        category2: ["okresleniaMiejsca"]
+    },
+        {
+        id: [
+            521,
+            87,
+            157
+        ],
+        img: [
+            "https://www.arbulang.com/img/fiszki1/364a.jpg"
+        ],
+        story: [
+            ""
+        ],
+        desc: "at[] - ",
+        sentence2: [
+            "at"
+        ],
+        sentence: [
+            "at",
+            "every",
+            "week"
+        ],
+        key: "night",
+        category1: "nauka",
+        category2: ["okresleniaMiejsca"]
+    },
+            {
+        id: [
+            522,
+            87,
+            157
+        ],
+        img: [
+            "https://www.arbulang.com/img/fiszki1/364a.jpg"
+        ],
+        story: [
+            ""
+        ],
+        desc: "every[] - ",
+        sentence2: [
+            "every"
+        ],
+        sentence: [
+            "at",
+            "every",
+            "week"
+        ],
+        key: "night",
+        category1: "nauka",
+        category2: ["okresleniaMiejsca"]
+    },
+        {
+        id: [
+            522,
+            87,
+            157
+        ],
+        img: [
+            "https://www.arbulang.com/img/fiszki1/364a.jpg"
+        ],
+        story: [
+            ""
+        ],
+        desc: "week[] - ",
+        sentence2: [
+            "week"
+        ],
+        sentence: [
+            "at",
+            "every",
+            "week"
+        ],
+        key: "night",
         category1: "nauka",
         category2: ["okresleniaMiejsca"]
     },

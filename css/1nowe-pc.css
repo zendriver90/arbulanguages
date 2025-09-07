@@ -26,15 +26,6 @@
       bottom: 0; /* Umiejscowienie kontenera na górze widoku */
       left: 0; /* Umiejscowienie kontenera na lewej krawędzi widoku */
     }
-    #nauka {
-      width: 210px;
-      height: 38px;
-      font-size: 10px;
-      overflow: auto;
-      position: fixed; /* Ustawienie kontenera jako przyczepionego do lewej krawędzi widoku */
-      top: 0; /* Umiejscowienie kontenera na górze widoku */
-      left: 0; /* Umiejscowienie kontenera na lewej krawędzi widoku */
-    }
     
         #nauka3 {
       width: 20px;
