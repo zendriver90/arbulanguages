@@ -536,7 +536,7 @@ console.log("srcWord3b:", indexDiv);
                             previousVideo.remove(); // UsuniÄcie poprzedniego wideo z kontenera
                         }
                     }
-                    if (indexDiv && newIndex10dd === 0 && !isSearching && !number) {
+                    if ((indexDiv && newIndex10d === 0) && !isSearching && !number) {
                         console.log('wykonuje się22');
                         let funkcjaWywolana = false;
                         let stopButtonAdded = false;
@@ -966,7 +966,8 @@ $videoElement.on('loadedmetadata', function () {
                                 addVideo1b(0);
                             }, 200);
                         }
-                        } else if ((newIndex10d === 0 || newIndex10 === 0 || newIndex10b3 === 0) && !buttonindex && !isSearching && number) {
+                        } else if ((newIndex10d === 0 || newIndex10 === 0 || newIndex10b3 === 0) && !isSearching && number && !buttonindex) {
+                            console.log('działa7', newIndex10d, !isSearching, number);
                             $('.image-container3b').each(function() {
   this.style.setProperty('position', 'relative', 'important');
   this.style.setProperty('z-index', '1', 'important');

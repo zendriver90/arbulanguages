@@ -2796,25 +2796,4 @@ fiszki10.push(
         category2: ["zaimki"],
         category3: ["PresentPerfect"]
     },
-                                {
-        id: [
-            300,
-            46,
-            87
-        ],
-        img: "https://www.arbulang.com/img/fiszki1/300a.jpg",
-        story: "Ten <u><b>film</u></b> <u><b>mówi</u></b> o perypetiach losu",
-        desc: "movie[muwi] - film",
-        sentence1: [
-            "movie"
-        ],
-        sentence: [
-            "The",
-            "movie",
-            "has"
-        ],
-        key: "movie",
-        category1: "nauka",
-        category2: ["zdarzenia"]
-    },
 );

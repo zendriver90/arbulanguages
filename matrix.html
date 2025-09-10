@@ -25,6 +25,8 @@
                 <script src="start/testowyb10v2.js"></script>
                 <script src="start/testowyb10v3.js"></script>
                 <script src="start/testowyb10v4.js"></script>
+                <script src="start/testowyb10v5.js"></script>
+                <script src="start/testowyb10v6.js"></script>
                 <script src="js/lista.js"></script>
         <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
         <meta charset="UTF-8">
@@ -32,10 +34,32 @@
         <meta name="keywords" content="naucz się angielskiego, 1000 angielskich słów, szybka nauka angielskiego, jak nauczyć się angielskiego, jak szybko nauczyć się języka, nauka angielskiego z przyjemnością" />
         <style>
             @media (min-width: 999px) {
+.sentence-block {
+    margin-bottom: 10px;
+}
+
+.left-button {
+    display: inline-block;       /* siedzi w tej samej linii */
+    vertical-align: middle;      /* wyrównanie pionowe */
+    margin-right: 6px;           /* odstęp od tekstu */
+}
+
+.sentence-line {
+    display: inline;             /* tekst + ikona w jednej linii */
+}
+
+.run-icon {
+    margin-left: 6px;            /* odstęp od tekstu */
+    cursor: pointer;
+    font-size: 18px;
+    vertical-align: middle;      /* wyrównanie z tekstem */
+}
                                 .left-button,
                 .left-buttonb,
                 .left-buttonbb{
-                    border-radius: 5px;
+    display: inline-block;
+    vertical-align: middle;  /* wyrównanie do tekstu */
+    margin-right: 6px;       /* odstęp od tekstu */
                 }
                 .text-intro {
     margin: 5px 0 8px 0;
@@ -141,15 +165,6 @@
 }
 .run-button {
     pointer-events: auto !important;
-}
-                .sentence-line {
-    align-items: center;
-}
-
-.left-button,
-.left-buttonb
-.left-buttonbb {
-    margin-right: 8px; /* odstęp między przyciskiem a tekstem */
 }
 
 .sentence10 {
@@ -2173,8 +2188,8 @@ $(document).on("click", "#startButton", function () {
     flagaPrzycisku2[0] = false;
     console.log('110', flagaPrzycisku, flagaPrzycisku2);
     ustawTryb('fiszki');
-    przekazArgument0(tablica7[0], 'all', '', false, 'fiszki', true, true, tablica3[1], tablica3[4], false, '', '', '', '', '100', '', '', '', true, false, true);
-    console.log("✅ Flaga przycisku ustawiona na TRUE");
+    przekazArgument0('all', 'all', '', false, 'fiszki', true, true, tablica3[1], tablica3[4], false, '', '', '', '', '100', '', '', '', true, false, true);
+    console.log("Flaga przycisku ustawiona na TRUE");
 });
   // Pokaż tylko raz
   window.addEventListener('DOMContentLoaded', () => {
@@ -2204,7 +2219,7 @@ $(document).on("click", "#startButton", function () {
 
 let selectedCategory = 'wszystkie'; // Domyślnie losowo
 const tablica45xx = []; // Tablica kategorii
-let indexDivRange = 29; // domyślnie pokazujemy wszystkie
+let indexDivRange = 100; // domyślnie pokazujemy wszystkie
 
 
 // ------------------------- OBSŁUGA KLIKNIĘCIA KATEGORII -------------------------
@@ -2217,7 +2232,7 @@ $('#category-buttons .category-btn').on('click', function () {
 
     // ustawiamy indexDivRange w zależności od wybranej kategorii
     if (selectedCategory === 'all') {
-        indexDivRange = 29; // wszystkie lekcje
+        indexDivRange = 100; // wszystkie lekcje
     } else {
         indexDivRange = 2; // ograniczone do 3 lekcji
     }
@@ -2230,10 +2245,6 @@ $('#category-buttons .category-btn').on('click', function () {
         tablica7[0], 'all', '', false, 'fiszki', true, true,
         tablica3[1], tablica3[4], false, '', '', '', '', indexDivRange, '', '', '', false, true, false
     );
-// Dodajemy przyciski dopiero po wygenerowaniu bloków
-setTimeout(() => { // mały delay, jeśli generacja jest synchroniczna
-    addRunButtonsForVisible();
-}, 50);
 
 });
 
@@ -2242,10 +2253,8 @@ $(document).ready(function() {
     // domyślnie zaznaczony przycisk "Losowo"
     $('#all').addClass('active-category');
     selectedCategory = 'all';
-    indexDivRange = 24; // wszystkie lekcje
+    indexDivRange = 100; // wszystkie lekcje
 
-    // generuj przyciski od razu
-    addRunButtonsForVisible();
 });
 </script>
                                     <script src="wyszukiwarka.js"></script>
@@ -3654,25 +3663,11 @@ for (let i = 0; i < myVariable.length; i += 3) {
                                     break; // Przerwanie pętli, jeśli użytkownik nie chce kontynuować
                                 }
                             }
-                            console.log('hej31', indexDivRange);
-if (tablica10a.length <= indexDivRange){
-    console.log('działa2');
-    showCombinedSentenceForLesson5b2(
-        selectedCategory, globalCategory, matchingIndexes3, rodzaj,
-        matchingIndexes2, buttonindex, index50, lessonId1, lessonId2, lessonId3,
-        fiszki, matchingIndexes, startIndex, newIndex, indexDiv, lessonsArray,
-        lesson1PartLength, lesson2PartLength, lesson3PartLength,
-        lesson1Sentences, lesson2Sentences, lesson3Sentences,
-        lesson1FirstPartLength, lesson2FirstPartLength, lesson3FirstPartLength,
-        lesson1SecondPartLength, lesson2SecondPartLength, lesson3SecondPartLength,
-        cumulativeFirstPartLength1, cumulativeFirstPartLength2, cumulativeFirstPartLength3,
-        lessonsArrayZ, matchingLessons5, matchingLessons5b, isSearching
-    );
-}
+                            console.log('hej31', selectedCategory);
                             console.log('hej108', flagaPrzycisku);
                           
                             // 🔹 Najpierw sprawdzamy specjalny przypadek dla flagaPrzycisku + index50
-if (flagaPrzycisku2 && !flagaPrzycisku && (tablica10.length <= indexDivRange || tablica10.length === 0) && category === 'all' && ostatniaWartosc < 2 && ostatniaWartosc > 0 && !number) {
+if (flagaPrzycisku2 && !flagaPrzycisku && (tablica10.length <= indexDivRange || tablica10.length === 0) && selectedCategory === 'all' && ostatniaWartosc < 2 && ostatniaWartosc > 0 && !number) {
     console.log('działa1');
             const newIndex5 = null;
     const newIndex10 = null;
@@ -3722,7 +3717,7 @@ if (flagaPrzycisku2 && !flagaPrzycisku && (tablica10.length <= indexDivRange || 
         );
     }
 
-   } else if (flagaPrzycisku2 && !flagaPrzycisku && (tablica10.length <= indexDivRange || tablica10.length === 0) && category === 'all' && ostatniaWartosc < 3 && ostatniaWartosc > 1 && !number) {
+   } else if (flagaPrzycisku2 && !flagaPrzycisku && (tablica10.length <= indexDivRange || tablica10.length === 0) && selectedCategory === 'all' && ostatniaWartosc < 3 && ostatniaWartosc > 1 && !number) {
     const newIndex5 = null;
     const newIndex10 = null;
     const newIndex10d = null;
@@ -3738,11 +3733,11 @@ if (flagaPrzycisku2 && !flagaPrzycisku && (tablica10.length <= indexDivRange || 
         tablica43b.push(indexDiv0b);
                      console.log('hej105b', index50);           
 
-            przekazArgument0(tablica7[0], tablica3[2], undefined, true, tablica3[0], true, true, tablica3[1], tablica3[4], false, '', '', '', '', '100', indexDiv0, indexDiv0b, indexDiv0d, false, true, false);
+            przekazArgument0('all', tablica3[2], undefined, true, tablica3[0], true, true, tablica3[1], tablica3[4], false, '', '', '', '', '100', indexDiv0, indexDiv0b, indexDiv0d, false, true, false);
             } else if (index50 === 0) {
 ostatniaWartosc === 3;
 }
-   } else if (flagaPrzycisku2 && !flagaPrzycisku && (tablica10.length <= indexDivRange || tablica10.length === 0) && category === 'all' && ostatniaWartosc < 4 && ostatniaWartosc > 2 && !number) {
+   } else if (flagaPrzycisku2 && !flagaPrzycisku && (tablica10.length <= indexDivRange || tablica10.length === 0) && selectedCategory === 'all' && ostatniaWartosc < 4 && ostatniaWartosc > 2 && !number) {
     const newIndex5 = null;
     const newIndex3 = null;
     const newIndex3b = null;
@@ -3777,7 +3772,7 @@ if (indexDiv === indexDiv0b) {
 
 }
 console.log('hej100vvn', flagaPrzycisku, flagaPrzycisku2, number);
-if (!flagaPrzycisku2 && flagaPrzycisku && (tablica10.length <= indexDivRange || tablica10.length === 0) && ostatniaWartosc < 3 && ostatniaWartosc > 1 && category === 'all' && number) {
+if (!flagaPrzycisku2 && flagaPrzycisku && (tablica10.length <= indexDivRange || tablica10.length === 0) && ostatniaWartosc < 3 && ostatniaWartosc > 1 && selectedCategory === 'all' && number) {
 console.log('hej111', number);
 const newIndex5 = null;
 const newIndex10 = null;
@@ -3789,7 +3784,7 @@ const newIndex10dd = null;
 let number1 = false;
 let number2 = false;
 let newIndex10d = (indexDiv === indexDiv0) ? 0 : indexDiv;
-console.log('hej107', indexDiv0, buttonindex);
+console.log('hej107', indexDiv0, buttonindex, newIndex10d, selectedCategory);
 if (newIndex10d === 0) {
     /// USUNIĘCIE PIERWSZEJ MINIATURY
                 showCombinedSentenceForLesson22b(
@@ -3824,7 +3819,7 @@ if (newIndex10d === 0) {
 
     tablica55.push(true);
             }
-            } else if (!flagaPrzycisku2 && flagaPrzycisku && (tablica10.length <= indexDivRange || tablica10.length === 0) && ostatniaWartosc < 4 && ostatniaWartosc > 2 && category === 'all' && number) {
+            } else if (!flagaPrzycisku2 && flagaPrzycisku && (tablica10.length <= indexDivRange || tablica10.length === 0) && ostatniaWartosc < 4 && ostatniaWartosc > 2 && selectedCategory === 'all' && number) {
                 let number = true;
                 let number1 = false;
                 let number2 = false;
@@ -4179,11 +4174,8 @@ tablica55.push(true);
                     <script src="displayx3.js"></script>
                                         <script src="displayx3category.js"></script>
                                     <script src="nowydzialajacy.js"></script>
-                    <script>
-            
-                    
+                    <script>           
 </script>
-
         <script src="displayx1.js"></script>
                 <script src="showCombinedSentenceForLesson5.js"></script>
     <script>                   
@@ -4333,7 +4325,7 @@ if (window.matchMedia("(min-width: 999px)").matches) {
                 flagaPrzycisku[0] = false;
                 const number = false;
                     console.log('hej110b', number, flagaPrzycisku, flagaPrzycisku2);
-                    przekazArgument0(tablica7[0], tablica3[2], '', false, 'fiszki', true, true, tablica3[1], tablica3[4], false, '', '', '', '', '100', '', '', '', false, true, false); 
+                    przekazArgument0('all', tablica3[2], '', false, 'fiszki', true, true, tablica3[1], tablica3[4], false, '', '', '', '', '100', '', '', '', false, true, false); 
 
 // Zmierz czas na początku ładowania skryptu
 const startTime = performance.now();

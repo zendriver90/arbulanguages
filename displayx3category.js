@@ -325,8 +325,8 @@ function showCombinedSentenceForLesson5b2(selectedCategory, globalCategory, matc
                                 console.log('hej20', sentence1bba);
     $sentenceDiv.html(`
 <div class="sentence-block" data-name="${id1}">
-    <button class="left-button first-button">+<br></button>
-    ${sentence10}${sentence11}<br>
+    <button class="left-button first-button">+</button>
+    ${sentence10}${sentence11}
     <div class="sentence1bba">${sentence1bba}</div>
     <div class="sentence1bba">${sentence1bbab}</div>
 </div>
@@ -364,40 +364,51 @@ function kolorujPrzyciskiZakres(start, end) {
 setTimeout(() => {
     kolorujPrzyciskiZakres(1, 9);
 }, 0);
-function addRunButtonsForVisible() {
+function addRunIconsForVisible() {
     $('.sentence-block:visible').each(function() {
-        const $block = $(this);
+const $block = $(this);
 
-        if ($block.css('position') === 'static') {
-            $block.css('position', 'relative');
-        }
+if ($block.find('.run-icon').length === 0) {
+    const index2 = $block.attr('data-lesson') || $block.attr('data-name');
 
-        if ($block.find('.run-button3').length === 0) {
-            const index2 = $block.attr('data-lesson') || $block.attr('data-name');
-            const $button = $('<button>')
-                .addClass('run-button3')
-                .attr('data-index2', index2)
-                .text('Otwórz lekcję')
-                .css({
-                    position: 'absolute',
-                    top: '10px',
-                    right: '10px',
-                    'z-index': 2000
-                });
-            $block.append($button);
-        }
+    const $icon = $('<span></span>')
+        .addClass('run-icon')
+        .attr('data-index2', index2)
+        .text('🔄')
+        .attr('title', 'Pokaż zdanie')
+        .css({
+            cursor: 'pointer',
+            fontSize: '18px',
+            marginLeft: '6px',
+            userSelect: 'none',
+            display: 'inline-block',
+            verticalAlign: 'middle'
+        });
+
+    // Pobieramy tekst zdania w node tekstowym
+    const text = $block.contents().filter(function() {
+        return this.nodeType === 3 && this.nodeValue.trim() !== '';
+    }).first();
+
+    if (text.length) {
+        const $wrapper = $('<span class="sentence-line"></span>');
+        $wrapper.text(text.text()).append($icon);
+        text.replaceWith($wrapper);  // zamieniamy node tekstowy na span z ikoną
+    }
+}
+        
     });
 }
 
-// Wywołujemy po wyświetleniu kontenerów np. po wyborze kategorii
+// Wywołujemy po wyświetleniu kontenerów
 setTimeout(() => { 
-    addRunButtonsForVisible();
+    addRunIconsForVisible();
 }, 50);
 
-// Delegacja kliknięcia
-$('body').off('click', '.run-button3').on('click', '.run-button3', function () {
+// Kliknięcie w ikonkę
+$('body').off('click', '.run-icon').on('click', '.run-icon', function () {
     const indexDiv = $(this).attr('data-index2');
-    const link = `demo1angielski.html?category=${selectedCategory}&data=${indexDiv}`; 
+    const link = `demo1angielski.html?category=${selectedCategory}&data=${indexDiv}`;
     window.open(link, '_blank');
 });
                                 $('.sentence1bba').html('');
@@ -417,8 +428,8 @@ $('body').off('click', '.run-button3').on('click', '.run-button3', function () {
                                     // Dodanie treści do diva wraz z przyciskiem
     $sentenceDiv.html(`
 <div class="sentence-block" data-name="${id1}">
-    <button class="left-button first-button">+<br></button>
-    ${sentence10}${sentence11}<br>
+    <button class="left-button first-button">+</button>
+    ${sentence10}${sentence11}
     <div class="sentence1bba">${sentence1bba}</div>
     <div class="sentence1bba">${sentence1bbab}</div>
 </div>
@@ -706,8 +717,8 @@ $('body').off('click', '.run-button3').on('click', '.run-button3', function () {
 
     $sentenceDiv.html(`
 <div class="sentence-block" data-name="${id1}">
-    <button class="left-button first-button">+<br></button>
-    ${sentence10}${sentence11}<br>
+    <button class="left-button first-button">+</button>
+    ${sentence10}${sentence11}
     <div class="sentence1bba">${sentence1bba}</div>
     <div class="sentence1bba">${sentence1bbab}</div>
 </div>
@@ -744,8 +755,8 @@ $('body').off('click', '.run-button3').on('click', '.run-button3', function () {
                                     // Dodanie treści do diva wraz z przyciskiem
     $sentenceDiv.html(`
 <div class="sentence-block" data-name="${id1}">
-    <button class="left-button first-button">+<br></button>
-    ${sentence10}${sentence11}<br>
+    <button class="left-button first-button">+</button>
+    ${sentence10}${sentence11}
     <div class="sentence1bba">${sentence1bba}</div>
     <div class="sentence1bba">${sentence1bbab}</div>
 </div>
@@ -795,11 +806,7 @@ $('body').off('click', '.run-button3').on('click', '.run-button3', function () {
                                         });
                                     }
 
-                                    $sentence1bb1a.html('');
-                                    $sentence1bb1a.empty();
                                 });
-                                $sentence1bb1a.html('');
-                                $sentence1bb1a.empty();
                             }, 0);
                         });
                     }
@@ -1067,8 +1074,8 @@ function countCategoryInFiszki2(matchingFiszki3, category) {
 
     $sentenceDiv.html(`
 <div class="sentence-block" data-name="${id1}">
-    <button class="left-button first-button">+<br></button>
-    ${sentence10}${sentence11}<br>
+    <button class="left-button first-button">+</button>
+    ${sentence10}${sentence11}
     <div class="sentence1bba">${sentence1bba}</div>
     <div class="sentence1bba">${sentence1bbab}</div>
 </div>
@@ -1104,8 +1111,8 @@ function countCategoryInFiszki2(matchingFiszki3, category) {
                                     // Dodanie treści do diva wraz z przyciskiem
     $sentenceDiv.html(`
 <div class="sentence-block" data-name="${id1}">
-    <button class="left-button first-button">+<br></button>
-    ${sentence10}${sentence11}<br>
+    <button class="left-button first-button">+</button>
+    ${sentence10}${sentence11}
     <div class="sentence1bba">${sentence1bba}</div>
     <div class="sentence1bba">${sentence1bbab}</div>
 </div>
@@ -1774,8 +1781,8 @@ if (window.matchMedia("(max-width: 999px)").matches) {
 
     $sentenceDiv.html(`
 <div class="sentence-block" data-name="${id1}">
-    <button class="left-button first-button">+<br></button>
-    ${sentence10}${sentence11}<br>
+    <button class="left-button first-button">+</button>
+    ${sentence10}${sentence11}
     <div class="sentence1bba">${sentence1bba}</div>
     <div class="sentence1bba">${sentence1bbab}</div>
 </div>

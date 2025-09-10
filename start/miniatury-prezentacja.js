@@ -1732,7 +1732,7 @@ const $button = $('<button></button>')
         setTimeout(() => {
             console.log('Kliknięto przycisk o indeksie:', index55);
             przekazArgument0(
-                tablica7[0], tablica3[2], index55,
+                'all', tablica3[2], index55,
                 true, tablica3[0], true, true,
                 tablica3[1], tablica3[4],
                 false, '', '', '', '', '100', '', '', '', false, true, false
