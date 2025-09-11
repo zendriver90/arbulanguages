@@ -7787,3 +7787,98 @@ ${sentence10}<br>
         <script id="demoScript" data-category=""></script>
     </body>
 </html>
+
+const urlParams = new URLSearchParams(window.location.search);
+            const category = urlParams.get('category');
+                        const tablica11 = [];
+                        
+function showCombinedSentenceForLesson22b(number1, number2, selectedCategory, matchingIndexes3, rodzaj, matchingIndexes2, buttonindex, index50, lessonIdToShow1, lessonIdToShow2, lessonIdToShow3, fiszki, matchingIndexes, startIndex, newIndex, newIndex5, newIndex10, newIndex10b3, newIndex10b4, newIndex10dd, indexDiv, indexDiv0, indexDiv0b, indexDiv0d, newIndex10d, lessonsArray, lesson1PartLength, lesson2PartLength, lesson3PartLength, lesson1Sentences, lesson2Sentences, lesson3Sentences, lesson1FirstPartLength, lesson2FirstPartLength, lesson3FirstPartLength, lesson1SecondPartLength, lesson2SecondPartLength, lesson3SecondPartLength, cumulativeFirstPartLength1, cumulativeFirstPartLength2, cumulativeFirstPartLength3, lessonsArrayZ, matchingLessons5, matchingLessons5b, isSearching) {      
+    console.log('hejhej11v', matchingLessons5b);
+                            let tablica60 = [];
+                const matchingFiszki1 = fiszki10.filter(fiszka => fiszka.id[1] === lessonIdToShow1);
+                const matchingFiszki2 = fiszki10.filter(fiszka => fiszka.id[1] === lessonIdToShow2);
+                const matchingFiszki3 = fiszki10.filter(fiszka => fiszka.id[1] === lessonIdToShow3);
+
+                console.log('hej450b', tablica60);
+                console.log('hej444d', newIndex);
+    const id1 = matchingFiszki1[0]?.id[1] || 'unknown1';
+    const id2 = matchingFiszki2[0]?.id[1] || 'unknown2';
+    const id3 = matchingFiszki3[0]?.id[1] || 'unknown3';
+                if (matchingFiszki1.length > 0 || matchingFiszki2.length > 0 || matchingFiszki3.length > 0) {
+
+                    const srcWord1 = pobierzSrcWordDlaLekcji(lessonIdToShow1, fiszki10);
+                    const srcWord1b = pobierzSrcWordDlaLekcji3(lessonIdToShow1, fiszki10);
+                    const srcWord1d = pobierzSrcWordDlaLekcji4(lessonIdToShow1, fiszki10);
+                    const srcWord2 = pobierzSrcWordDlaLekcji(lessonIdToShow2, fiszki10);
+                    const srcWord2b = pobierzSrcWordDlaLekcji3(lessonIdToShow2, fiszki10);
+                    const srcWord2d = pobierzSrcWordDlaLekcji4(lessonIdToShow2, fiszki10);
+                    const srcWord3 = pobierzSrcWordDlaLekcji(lessonIdToShow3, fiszki10);
+                    const srcWord3b = pobierzSrcWordDlaLekcji3(lessonIdToShow3, fiszki10);
+                    const srcWord3d = pobierzSrcWordDlaLekcji4(lessonIdToShow3, fiszki10);
+                    const srcWord10 = pobierzSrcWordDlaLekcji2(lessonIdToShow1, fiszki10);
+                    function pobierzSrcWordDlaLekcji(lessonId, fiszki10) {
+                        const matchingFiszka = fiszki10.find(fiszka => fiszka.id[1] === lessonId);
+                        return matchingFiszka ? matchingFiszka.srcWord[0] : null;
+                    }
+                    function pobierzSrcWordDlaLekcji3(lessonId, fiszki10) {
+                        const matchingFiszka = fiszki10.find(fiszka => fiszka.id[1] === lessonId);
+                        return matchingFiszka ? matchingFiszka.srcWord[1] : null; // Zwracamy srcWord[1] zamiast srcWord
+                    }
+                    function pobierzSrcWordDlaLekcji2(lessonId, fiszki10) {
+                        const matchingFiszka = fiszki10.find(fiszka => fiszka.id[1] === lessonId);
+                        return matchingFiszka ? matchingFiszka.srcWordimage : null;
+                    }
+                    function pobierzSrcWordDlaLekcji4(lessonId, fiszki10) {
+                        const matchingFiszka = fiszki10.find(fiszka => fiszka.id[1] === lessonId);
+                        return matchingFiszka ? matchingFiszka.srcWordimage : null;
+                    }
+                    console.log(`Fiszki dla lekcji ${lessonIdToShow1}, ${lessonIdToShow2} i ${lessonIdToShow3}:`);
+
+                    let sentence30 = ""; // Deklaracja zmiennej sentence1 na poziomie lokalnym
+                    let sentence33 = "";
+
+                    // Zmienna do liczenia wystÄpieĹ indexToCheck
+                                        let sentence10 = ""; // Deklaracja zmiennej sentence1 na poziomie lokalnym
+                    let sentence11 = "";
+                    let sentence1bba = "";
+                    let sentence1bbab = "";
+                    
+                    function addBackgroundToText1b(matchingFiszki1, matchingIndexes, aktualny, lesson1PartLength, matchingIndexes2, rodzaj, matchingIndexes3, matchingLessons5b) {
+                        
+        $(document).ready(function () {
+function isFiszkaActive2(className) {
+    const learned = getLearned2();
+
+    const entry = learned.find(e => e.className === className);
+
+    return entry && entry.classToAdd === "active2";
+}
+                            sentence1bba = "";
+                            sentence1bbab = "";
+                            setTimeout(() => {
+                                for (let i = 0; i < matchingFiszki1.length; i++) {
+                                    const fiszka = matchingFiszki1[i];
+
+                                    // Iteracja przez elementy sentence1
+                                    for (let ki = 0; ki < fiszka.sentence1.length; ki++) {
+                                        let sentencePart = fiszka.sentence1[ki];
+
+                                        // Dodaj sentencePart do sentence10
+                                        sentence10 += sentencePart + " ";
+
+                                    }
+
+                                }
+                                for (let ii = 0; ii < matchingFiszki1.length; ii++) {
+                                    const fiszka = matchingFiszki1[ii];
+
+
+                                    // Iteracja przez elementy sentence1
+                                    for (let kii = 0; kii < fiszka.sentence2.length; kii++) {
+                                        let sentencePart2 = fiszka.sentence2[kii];
+
+                                        // Dodaj sentencePart do sentence10
+                                        sentence11 += sentencePart2 + " ";
+
+                                    }
+                                }

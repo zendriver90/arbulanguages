@@ -77,7 +77,7 @@ function addBackgroundToText(matchingFiszki1, matchingIndexes, currentIndexValue
                             sentence1c2a = "";
                             sentence1c22 = "";
 
-                            console.log('RozpoczÄcie funkcji addBackgroundToText');
+                            console.log('RozpoczĂÂcie funkcji addBackgroundToText');
                             console.log('matchingFiszki1:', fiszki);
                             console.log('lessonIdToShow1:', lessonIdToShow1);
                             console.log('matchingIndexes:', matchingIndexes);
@@ -88,7 +88,7 @@ function addBackgroundToText(matchingFiszki1, matchingIndexes, currentIndexValue
                                 console.log('fiszka:', fiszka);
                                 if (!fiszka.sentence1 || fiszka.sentence1.length === 0) {
                                     console.log('fiszka.sentence1 is undefined or empty');
-                                    continue; // JeĹli sentence1 nie istnieje lub jest puste, przejdĹş do nastÄpnej fiszki
+                                    continue; // JeÄšÂli sentence1 nie istnieje lub jest puste, przejdÄšĹ do nastĂÂpnej fiszki
                                 }
 
                                 // Iteracja przez elementy sentence1
@@ -103,10 +103,10 @@ function addBackgroundToText(matchingFiszki1, matchingIndexes, currentIndexValue
                                             spanElement.textContent = sentencePart;
                                             spanElement.classList.add('highlighted-sentence');
                                             spanElement.classList.add('yellow');
-                                            // Zaktualizuj sentencePart, aby zawieraĹ utworzony element span
+                                            // Zaktualizuj sentencePart, aby zawieraÄšÂ utworzony element span
                                             sentencePart = spanElement.outerHTML;
                                         } else if (matchingIndexes.includes(indexToCheck) && currentIndexValue == 0) {
-                                            // Sprawdzenie, czy indeks bieĹźÄcej fiszki znajduje siÄ w tablicy matchingIndexes
+                                            // Sprawdzenie, czy indeks bieÄšĹşĂÂcej fiszki znajduje siĂÂ w tablicy matchingIndexes
                                             const spanElement = document.createElement('span');
                                             spanElement.textContent = sentencePart;
                                         } else if (currentIndexValue == 0) {
@@ -123,14 +123,14 @@ function addBackgroundToText(matchingFiszki1, matchingIndexes, currentIndexValue
                                             const spanElement = document.createElement('span');
                                             spanElement.textContent = sentencePart;
                                             spanElement.classList.add('highlighted-sentence');
-                                            // Zaktualizuj sentencePart, aby zawieraĹ utworzony element span
+                                            // Zaktualizuj sentencePart, aby zawieraÄšÂ utworzony element span
                                             sentencePart = spanElement.outerHTML;
                                         } else if (currentIndexValue == 1 && matchingIndexes.includes(indexToCheck)) {
                                             const spanElement = document.createElement('span');
                                             spanElement.textContent = sentencePart;
                                             spanElement.classList.remove('highlighted-sentence');
                                             spanElement.classList.add('yellow');
-                                            // Zaktualizuj sentencePart, aby zawieraĹ utworzony element span
+                                            // Zaktualizuj sentencePart, aby zawieraÄšÂ utworzony element span
                                             sentencePart = spanElement.outerHTML;
                                         }
                                     }
@@ -162,24 +162,24 @@ function addBackgroundToText(matchingFiszki1, matchingIndexes, currentIndexValue
                                             spanElement.textContent = sentencePart2;
                                             spanElement.classList.remove('highlighted-sentence');
                                             spanElement.classList.add('yellow');
-                                            // Zaktualizuj sentencePart, aby zawieraĹ utworzony element span
+                                            // Zaktualizuj sentencePart, aby zawieraÄšÂ utworzony element span
                                             sentencePart2 = spanElement.outerHTML;
                                         } else if (matchingIndexes.includes(indexToCheck) && currentIndexValue == 0) {
-                                            // Sprawdzenie, czy indeks bieĹźÄcej fiszki znajduje siÄ w tablicy matchingIndexes
+                                            // Sprawdzenie, czy indeks bieÄšĹşĂÂcej fiszki znajduje siĂÂ w tablicy matchingIndexes
                                             const spanElement = document.createElement('span');
                                             spanElement.textContent = sentencePart2;
                                         } else if (currentIndexValue == 0) {
                                             const spanElement = document.createElement('span');
                                             spanElement.textContent = sentencePart2;
                                             spanElement.classList.add('highlighted-sentence');
-                                            // Zaktualizuj sentencePart, aby zawieraĹ utworzony element span
+                                            // Zaktualizuj sentencePart, aby zawieraÄšÂ utworzony element span
                                             sentencePart2 = spanElement.outerHTML;
                                         } else if (currentIndexValue == 1 && matchingIndexes.includes(indexToCheck)) {
                                             const spanElement = document.createElement('span');
                                             spanElement.textContent = sentencePart2;
                                             spanElement.classList.remove('highlighted-sentence');
                                             spanElement.classList.add('yellow');
-                                            // Zaktualizuj sentencePart, aby zawieraĹ utworzony element span
+                                            // Zaktualizuj sentencePart, aby zawieraÄšÂ utworzony element span
                                             sentencePart2 = spanElement.outerHTML;
                                         }
                                     }
@@ -194,7 +194,7 @@ function addBackgroundToText(matchingFiszki1, matchingIndexes, currentIndexValue
                                 console.log('fiszka:', fiszka);
                                 if (!fiszka.sentence1 || fiszka.sentence1.length === 0) {
                                     console.log('fiszka.sentence1 is undefined or empty');
-                                    continue; // JeĹli sentence1 nie istnieje lub jest puste, przejdĹş do nastÄpnej fiszki
+                                    continue; // JeÄšÂli sentence1 nie istnieje lub jest puste, przejdÄšĹ do nastĂÂpnej fiszki
                                 }
 
                                 // Iteracja przez elementy sentence1
@@ -208,16 +208,16 @@ function addBackgroundToText(matchingFiszki1, matchingIndexes, currentIndexValue
                                             spanElement.textContent = sentencePart2;
                                             spanElement.classList.remove('highlighted-sentence');
                                             spanElement.classList.add('yellow');
-                                            // Zaktualizuj sentencePart, aby zawieraĹ utworzony element span
+                                            // Zaktualizuj sentencePart, aby zawieraÄšÂ utworzony element span
                                             sentencePart2 = spanElement.outerHTML;
                                             const spanElement = document.createElement('span');
                                             spanElement.textContent = sentencePart;
                                             spanElement.classList.remove('highlighted-sentence');
                                             spanElement.classList.add('yellow');
-                                            // Zaktualizuj sentencePart, aby zawieraĹ utworzony element span
+                                            // Zaktualizuj sentencePart, aby zawieraÄšÂ utworzony element span
                                             sentencePart = spanElement.outerHTML;
                                         } else if (matchingIndexes.includes(indexToCheck) && currentIndexValue == 1) {
-                                            // Sprawdzenie, czy indeks bieĹźÄcej fiszki znajduje siÄ w tablicy matchingIndexes
+                                            // Sprawdzenie, czy indeks bieÄšĹşĂÂcej fiszki znajduje siĂÂ w tablicy matchingIndexes
                                             const spanElement = document.createElement('span');
                                             spanElement.textContent = sentencePart;
                                         } else if (currentIndexValue == 1) {
@@ -235,14 +235,14 @@ function addBackgroundToText(matchingFiszki1, matchingIndexes, currentIndexValue
                                             const spanElement = document.createElement('span');
                                             spanElement.textContent = sentencePart;
                                             spanElement.classList.add('highlighted-sentence');
-                                            // Zaktualizuj sentencePart, aby zawieraĹ utworzony element span
+                                            // Zaktualizuj sentencePart, aby zawieraÄšÂ utworzony element span
                                             sentencePart = spanElement.outerHTML;
                                         } else if (currentIndexValue == 2 && matchingIndexes.includes(indexToCheck)) {
                                             const spanElement = document.createElement('span');
                                             spanElement.textContent = sentencePart;
                                             spanElement.classList.remove('highlighted-sentence');
                                             spanElement.classList.add('yellow');
-                                            // Zaktualizuj sentencePart, aby zawieraĹ utworzony element span
+                                            // Zaktualizuj sentencePart, aby zawieraÄšÂ utworzony element span
                                             sentencePart = spanElement.outerHTML;
                                         }
                                     }
@@ -272,30 +272,30 @@ function addBackgroundToText(matchingFiszki1, matchingIndexes, currentIndexValue
                                             spanElement.textContent = sentencePart2;
                                             spanElement.classList.remove('highlighted-sentence');
                                             spanElement.classList.add('yellow');
-                                            // Zaktualizuj sentencePart, aby zawieraĹ utworzony element span
+                                            // Zaktualizuj sentencePart, aby zawieraÄšÂ utworzony element span
                                             sentencePart2 = spanElement.outerHTML;
                                         } else if (matchingIndexes.includes(indexToCheck) && currentIndexValue == 1) {
-                                            // Sprawdzenie, czy indeks bieĹźÄcej fiszki znajduje siÄ w tablicy matchingIndexes
+                                            // Sprawdzenie, czy indeks bieÄšĹşĂÂcej fiszki znajduje siĂÂ w tablicy matchingIndexes
                                             const spanElement = document.createElement('span');
                                             spanElement.textContent = sentencePart2;
                                             if (!spanElement.classList.contains('yellow')) {
                                                 spanElement.classList.add('yellow');
                                                 spanElement.classList.add('highlighted-sentence');
                                             }
-                                            // Zaktualizuj sentencePart, aby zawieraĹ utworzony element span
+                                            // Zaktualizuj sentencePart, aby zawieraÄšÂ utworzony element span
                                             sentencePart2 = spanElement.outerHTML;
                                         } else if (currentIndexValue == 1) {
                                             const spanElement = document.createElement('span');
                                             spanElement.textContent = sentencePart2;
                                             spanElement.classList.add('highlighted-sentence');
-                                            // Zaktualizuj sentencePart, aby zawieraĹ utworzony element span
+                                            // Zaktualizuj sentencePart, aby zawieraÄšÂ utworzony element span
                                             sentencePart2 = spanElement.outerHTML;
                                         } else if (currentIndexValue == 2 && matchingIndexes.includes(indexToCheck)) {
                                             const spanElement = document.createElement('span');
                                             spanElement.textContent = sentencePart2;
                                             spanElement.classList.remove('highlighted-sentence');
                                             spanElement.classList.add('yellow');
-                                            // Zaktualizuj sentencePart, aby zawieraĹ utworzony element span
+                                            // Zaktualizuj sentencePart, aby zawieraÄšÂ utworzony element span
                                             sentencePart2 = spanElement.outerHTML;
                                         }
                                     }
@@ -309,7 +309,7 @@ function addBackgroundToText(matchingFiszki1, matchingIndexes, currentIndexValue
                                 console.log('fiszka:', fiszka);
                                 if (!fiszka.sentence1 || fiszka.sentence1.length === 0) {
                                     console.log('fiszka.sentence1 is undefined or empty');
-                                    continue; // JeĹli sentence1 nie istnieje lub jest puste, przejdĹş do nastÄpnej fiszki
+                                    continue; // JeÄšÂli sentence1 nie istnieje lub jest puste, przejdÄšĹ do nastĂÂpnej fiszki
                                 }
                                 // Iteracja przez elementy sentence1
                                 for (let lm = 0; lm < fiszka.sentence1.length; lm++) {
@@ -323,18 +323,18 @@ function addBackgroundToText(matchingFiszki1, matchingIndexes, currentIndexValue
                                             spanElement.textContent = sentencePart;
                                             spanElement.classList.remove('highlighted-sentence');
                                             spanElement.classList.add('yellow');
-                                            // Zaktualizuj sentencePart, aby zawieraĹ utworzony element span
+                                            // Zaktualizuj sentencePart, aby zawieraÄšÂ utworzony element span
                                             sentencePart = spanElement.outerHTML;
                                         } else if (matchingIndexes.includes(indexToCheck) && currentIndexValue == 2) {
-                                            // Sprawdzenie, czy indeks bieĹźÄcej fiszki znajduje siÄ w tablicy matchingIndexes
+                                            // Sprawdzenie, czy indeks bieÄšĹşĂÂcej fiszki znajduje siĂÂ w tablicy matchingIndexes
                                             const spanElement = document.createElement('span');
                                             spanElement.textContent = sentencePart;
                                             if (!spanElement.classList.contains('yellow')) {
                                                 spanElement.classList.add('yellow');
                                                 spanElement.classList.add('highlighted-sentence');
                                             }
-                                            // Zaktualizuj sentencePart, aby zawieraĹ utworzony element span
-                                            // Zaktualizuj sentencePart, aby zawieraĹ utworzony element span
+                                            // Zaktualizuj sentencePart, aby zawieraÄšÂ utworzony element span
+                                            // Zaktualizuj sentencePart, aby zawieraÄšÂ utworzony element span
                                             sentencePart = spanElement.outerHTML;
                                         } else if (currentIndexValue == 2) {
                                             if (sentence1c2a === "") {
@@ -348,14 +348,14 @@ function addBackgroundToText(matchingFiszki1, matchingIndexes, currentIndexValue
                                             const spanElement = document.createElement('span');
                                             spanElement.textContent = sentencePart;
                                             spanElement.classList.add('highlighted-sentence');
-                                            // Zaktualizuj sentencePart, aby zawieraĹ utworzony element span
+                                            // Zaktualizuj sentencePart, aby zawieraÄšÂ utworzony element span
                                             sentencePart = spanElement.outerHTML;
                                         } else if (currentIndexValue == 0 && matchingIndexes.includes(indexToCheck)) {
                                             const spanElement = document.createElement('span');
                                             spanElement.textContent = sentencePart;
                                             spanElement.classList.remove('highlighted-sentence');
                                             spanElement.classList.add('yellow');
-                                            // Zaktualizuj sentencePart, aby zawieraĹ utworzony element span
+                                            // Zaktualizuj sentencePart, aby zawieraÄšÂ utworzony element span
                                             sentencePart = spanElement.outerHTML;
                                         }
                                     }
@@ -384,30 +384,30 @@ function addBackgroundToText(matchingFiszki1, matchingIndexes, currentIndexValue
                                             spanElement.textContent = sentencePart2;
                                             spanElement.classList.remove('highlighted-sentence');
                                             spanElement.classList.add('yellow');
-                                            // Zaktualizuj sentencePart, aby zawieraĹ utworzony element span
+                                            // Zaktualizuj sentencePart, aby zawieraÄšÂ utworzony element span
                                             sentencePart2 = spanElement.outerHTML;
                                         } else if (matchingIndexes.includes(indexToCheck) && currentIndexValue == 2) {
-                                            // Sprawdzenie, czy indeks bieĹźÄcej fiszki znajduje siÄ w tablicy matchingIndexes
+                                            // Sprawdzenie, czy indeks bieÄšĹşĂÂcej fiszki znajduje siĂÂ w tablicy matchingIndexes
                                             const spanElement = document.createElement('span');
                                             spanElement.textContent = sentencePart2;
                                             if (!spanElement.classList.contains('yellow')) {
                                                 spanElement.classList.add('yellow');
                                                 spanElement.classList.add('highlighted-sentence');
                                             }
-                                            // Zaktualizuj sentencePart, aby zawieraĹ utworzony element span
+                                            // Zaktualizuj sentencePart, aby zawieraÄšÂ utworzony element span
                                             sentencePart2 = spanElement.outerHTML;
                                         } else if (currentIndexValue == 2) {
                                             const spanElement = document.createElement('span');
                                             spanElement.textContent = sentencePart2;
                                             spanElement.classList.add('highlighted-sentence');
-                                            // Zaktualizuj sentencePart, aby zawieraĹ utworzony element span
+                                            // Zaktualizuj sentencePart, aby zawieraÄšÂ utworzony element span
                                             sentencePart2 = spanElement.outerHTML;
                                         } else if (currentIndexValue == 0 && matchingIndexes.includes(indexToCheck)) {
                                             const spanElement = document.createElement('span');
                                             spanElement.textContent = sentencePart2;
                                             spanElement.classList.remove('highlighted-sentence');
                                             spanElement.classList.add('yellow');
-                                            // Zaktualizuj sentencePart, aby zawieraĹ utworzony element span
+                                            // Zaktualizuj sentencePart, aby zawieraÄšÂ utworzony element span
                                             sentencePart2 = spanElement.outerHTML;
                                         }
                                     }
@@ -416,7 +416,7 @@ function addBackgroundToText(matchingFiszki1, matchingIndexes, currentIndexValue
                                 }
                             }
 
-                            // Dodanie treĹci do diva wraz z przyciskiem
+                            // Dodanie treÄšÂci do diva wraz z przyciskiem
     $sentenceDivB.html(`
 <div class="sentence-blockB" data-name="${id1}">
     ${sentence10}${sentence11}<br>
@@ -460,7 +460,7 @@ const $button = $('<button></button>')
     .attr('data-index2', indexDiv)
     .css({
         position: 'absolute',
-        zIndex: 999999, // żeby zawsze był na wierzchu
+        zIndex: 999999, // Ĺźeby zawsze byĹ na wierzchu
         background: 'white',
         border: '1px solid #aaa'
     })
@@ -469,7 +469,7 @@ const $button = $('<button></button>')
         const index55 = parseInt(index5, 10);
 
         setTimeout(() => {
-            console.log('Kliknięto przycisk o indeksie:', index55);
+            console.log('KlikniÄto przycisk o indeksie:', index55);
             przekazArgument0(
                 tablica7[0], tablica3[2], index55,
                 true, tablica3[0], true, true,
@@ -480,12 +480,12 @@ const $button = $('<button></button>')
     })
     .appendTo('.grid-container');
 
-// Funkcja aktualizująca pozycję przycisku względem kontenera
+// Funkcja aktualizujÄca pozycjÄ przycisku wzglÄdem kontenera
 function updateButtonPosition() {
     if ($container.length && $button.length) {
-        const offset = $container.offset(); // pozycja względem dokumentu
+        const offset = $container.offset(); // pozycja wzglÄdem dokumentu
         const gridOffset = $('.grid-container').offset(); // pozycja grid-container
-        // ustaw pozycję absolutną w grid-container
+        // ustaw pozycjÄ absolutnÄ w grid-container
         $button.css({
             top: offset.top - gridOffset.top - 10 + 'px',  // 10px nad kontenerem
             left: offset.left - gridOffset.left + 10 + 'px'
@@ -494,7 +494,7 @@ function updateButtonPosition() {
     requestAnimationFrame(updateButtonPosition);
 }
 
-// Uruchamiamy pętlę aktualizującą pozycję
+// Uruchamiamy pÄtlÄ aktualizujÄcÄ pozycjÄ
 updateButtonPosition();
 
 
@@ -503,7 +503,16 @@ const $insertedContainer = $(`.image-container3b[data-lesson="${indexDiv + 1}"]`
 if ($insertedContainer.length > 0) {
     $container.insertBefore($insertedContainer.first());
 } else {
-    // Jeśli nie ma takiego kontenera, dodaj na koniec
+    // JeĹli nie ma takiego kontenera, dodaj na koniec
+    $('.grid-container').append($container);
+}
+
+const $insertedContainer2 = $(`.image-container3b[data-lesson="${indexDiv0b + 1}"]`);
+
+if ($insertedContainer2.length > 0) {
+    $container.insertBefore($insertedContainer2.first());
+} else {
+    // JeĹli nie ma takiego kontenera, dodaj na koniec
     $('.grid-container').append($container);
 }
 
@@ -517,7 +526,7 @@ console.log("srcWord3b:", indexDiv);
                     // Tworzymy kontenery dynamicznie
 
                     console.log('hej155', srcWordsb);
-                    // Zmienna globalna przechowujÄca ĹÄczny czas trwania wszystkich wideo
+                    // Zmienna globalna przechowujĂÂca ÄšÂĂÂczny czas trwania wszystkich wideo
                     let videoDurations = [];
                     let totalDuration = 0;
                     for (let i = 0; i < srcWords.length; i++) {
@@ -526,36 +535,36 @@ console.log("srcWord3b:", indexDiv);
                         video.addEventListener('loadedmetadata', function () {
                             totalDuration += this.duration;
                             console.log('tablica8', totalDuration);
-                            console.log('dziaĹa5');
+                            console.log('dziaÄšÂa5');
                         });
                     }
                     console.log('tablica11', videoDurations);
                     function removePreviousVideo() {
-                        const previousVideo = $container.find('video'); // Poprawne odwoĹanie do poprzedniego wideo
+                        const previousVideo = $container.find('video'); // Poprawne odwoÄšÂanie do poprzedniego wideo
                         if (previousVideo.length > 0) {
-                            previousVideo.remove(); // UsuniÄcie poprzedniego wideo z kontenera
+                            previousVideo.remove(); // UsuniĂÂcie poprzedniego wideo z kontenera
                         }
                     }
-                    if ((indexDiv && newIndex10d === 0) && !isSearching && !number) {
-                        console.log('wykonuje się22');
+                    if ((indexDiv && newIndex10dd === 0) && !isSearching && !number) {
+                        console.log('wykonuje siÄ22');
                         let funkcjaWywolana = false;
                         let stopButtonAdded = false;
                         if (indexDiv % 2 === 0) {
                             function addVideo1(index) {
                                 console.log('hej80', index);
-                                // SprawdĹş, czy jesteĹmy poza zakresem tablicy
+                                // SprawdÄšĹ, czy jesteÄšÂmy poza zakresem tablicy
                                 if (index >= srcWords.length && !funkcjaWywolana) {
-                                    console.log("wykonuje siÄ");
+                                    console.log("wykonuje siĂÂ");
                                     funkcjaWywolana = true;
                                 }
-                                // UsuĹ poprzednie wideo
+                                // UsuÄšÂ poprzednie wideo
                                 removePreviousVideo();
 
                                 console.log('hej78', index);
 
-                                // Dodaj div z wideo do tĹa kontenera
+                                // Dodaj div z wideo do tÄšÂa kontenera
                                 const $vidDiv = $('<div>').addClass('background-video').css({
-                                    'z-index': '1' // Ustaw z-index dla wideo na niĹźszy
+                                    'z-index': '1' // Ustaw z-index dla wideo na niÄšĹşszy
                                 });
 
                                 const $videoElement = $('<video>').attr({
@@ -563,20 +572,20 @@ console.log("srcWord3b:", indexDiv);
                                     'muted': true,
                                     'loop': true
                                 }).css({
-                                    'z-index': '1' // Ustaw z-index dla wideo na niĹźszy
+                                    'z-index': '1' // Ustaw z-index dla wideo na niÄšĹşszy
                                 });
                                 if (window.matchMedia("(min-width: 999px)").matches) {
-                                    // Dodaj klasÄ CSS zaleĹźnie od indeksu wideo
+                                    // Dodaj klasĂÂ CSS zaleÄšĹşnie od indeksu wideo
                                     if (index === 0) {
                                         $videoElement.addClass('scaled-video');
                                     } else {
                                         $videoElement.addClass('next-video');
                                     }
                                 }
-                                // UtwĂłrz element <source> dla wideo i ustaw atrybuty
+                                // UtwÄĹrz element <source> dla wideo i ustaw atrybuty
 
                                 const $sourceElement = $('<source>').attr({
-                                    'src': srcWords[index], // Poprawne uĹźycie interpolacji
+                                    'src': srcWords[index], // Poprawne uÄšĹşycie interpolacji
                                     'type': 'video/mp4'     // Typ pliku wideo
                                 });
 
@@ -586,16 +595,16 @@ console.log("srcWord3b:", indexDiv);
                                 $videoElement.appendTo($vidDiv);
                                 // Dodaj element <source> do elementu <video>
 
-                                // ObsĹuga bĹÄdu Ĺadowania wideo
+                                // ObsÄšÂuga bÄšÂĂÂdu ÄšÂadowania wideo
                                 $videoElement.onerror = function () {
-                                    console.error('Nie moĹźna zaĹadowaÄ pliku wideo.');
+                                    console.error('Nie moÄšĹşna zaÄšÂadowaĂÂ pliku wideo.');
                                 };
                                 let currentIndexValue = [];
-                                // Funkcja obsĹugi zdarzenia loadedmetadata
-$videoElement.hide(); // Ukrycie wideo przed zaĹadowaniem
+                                // Funkcja obsÄšÂugi zdarzenia loadedmetadata
+$videoElement.hide(); // Ukrycie wideo przed zaÄšÂadowaniem
 
 $videoElement.on('loadedmetadata', function () {
-    $videoElement.show(); // PokaĹź wideo po zaĹadowaniu metadanych
+    $videoElement.show(); // PokaÄšĹş wideo po zaÄšÂadowaniu metadanych
 
     const videoDuration = this.duration;
     videoDurations[index] = videoDuration;
@@ -619,21 +628,21 @@ $videoElement.on('loadedmetadata', function () {
         }
 
         if ($videoElement[0].duration - $videoElement[0].currentTime < 1) {
-            console.log('Wideo zakoĹczone, uruchamiam nastÄpne.');
+            console.log('Wideo zakoÄšÂczone, uruchamiam nastĂÂpne.');
             addVideo1(index + 1);
             updateProgress(0);
         }
     });
 });
                                 addScenes(index);
-                                // Dodaj div z wideo do tĹa kontenera
+                                // Dodaj div z wideo do tÄšÂa kontenera
                                 $vidDiv.appendTo($container);
                                 function updateProgress(progress) {
-                                    // Aktualizuj pasek postÄpu na dole kontenera
+                                    // Aktualizuj pasek postĂÂpu na dole kontenera
                                     $('.progress-bar').css('width', progress + '%');
                                 }
 
-                                // Inicjalizacja paska postÄpu
+                                // Inicjalizacja paska postĂÂpu
                                 const $progressBar = $('<div>').addClass('progress-bar');
                                 if (window.matchMedia("(min-width: 999px)").matches) {
                                     $progressBar.css({
@@ -641,12 +650,12 @@ $videoElement.on('loadedmetadata', function () {
                                         'z-index': '2',
                                         'bottom': '0',
                                         'left': '0',
-                                        'height': '7px', // WysokoĹÄ paska postÄpu
-                                        'background-color': 'green', // Kolor paska postÄpu
-                                        'width': '140%', // Delikatne powiÄkszenie paska postÄpu o 2% w kaĹźdym kierunku
+                                        'height': '7px', // WysokoÄšÂĂÂ paska postĂÂpu
+                                        'background-color': 'green', // Kolor paska postĂÂpu
+                                        'width': '140%', // Delikatne powiĂÂkszenie paska postĂÂpu o 2% w kaÄšĹşdym kierunku
                                         'margin-bottom': '-2%',
                                         'margin-left': '-4%',
-                                        'margin-right': '-4%' // Zapewnienie rĂłwnowagi dla powiÄkszenia paska postÄpu
+                                        'margin-right': '-4%' // Zapewnienie rÄĹwnowagi dla powiĂÂkszenia paska postĂÂpu
                                     });
                                 } else {
                                     $progressBar.css({
@@ -654,22 +663,22 @@ $videoElement.on('loadedmetadata', function () {
                                         'z-index': '2',
                                         'bottom': '0px',
                                         'left': '0px',
-                                        'height': '7px', // WysokoĹÄ paska postÄpu
-                                        'background-color': 'green', // Kolor paska postÄpu
-                                        'width': '100%' // Delikatne powiÄkszenie paska postÄpu o 2% w kaĹźdym kierunku
+                                        'height': '7px', // WysokoÄšÂĂÂ paska postĂÂpu
+                                        'background-color': 'green', // Kolor paska postĂÂpu
+                                        'width': '100%' // Delikatne powiĂÂkszenie paska postĂÂpu o 2% w kaÄšĹşdym kierunku
                                     });
                                 }
                                 $progressBar.appendTo($container);
-// Funkcja dodajÄca nowe elementy <div>
+// Funkcja dodajĂÂca nowe elementy <div>
                                 function addScenes(index) {
-                                    // SprawdĹş, czy istnieje element <div> o klasie 'scene-description'
+                                    // SprawdÄšĹ, czy istnieje element <div> o klasie 'scene-description'
                                     let $sceneDiv = $container.find('.scene-description');
 
                                     if ($sceneDiv.length) {
-                                        // JeĹli istnieje, wyczyĹÄ jego zawartoĹÄ
+                                        // JeÄšÂli istnieje, wyczyÄšÂĂÂ jego zawartoÄšÂĂÂ
                                         $sceneDiv.empty();
                                     } else {
-                                        // JeĹli nie istnieje, stwĂłrz nowy element <div>
+                                        // JeÄšÂli nie istnieje, stwÄĹrz nowy element <div>
                                         $sceneDiv = $('<div>').addClass('scene-description').appendTo($container);
                                     }
 
@@ -678,8 +687,8 @@ $videoElement.on('loadedmetadata', function () {
 
                                     if (window.matchMedia("(max-width: 999px)").matches) {
                                         if (indexDiv % 2 === 0) {
-                                            console.log('Warunek podzielnoĹci przez 2 speĹniony2');
-                                            // ZmieĹ CSS paska napisu, aby wyĹwietlaĹ siÄ po lewej stronie kontenera
+                                            console.log('Warunek podzielnoÄšÂci przez 2 speÄšÂniony2');
+                                            // ZmieÄšÂ CSS paska napisu, aby wyÄšÂwietlaÄšÂ siĂÂ po lewej stronie kontenera
                                             $sceneDiv.css({
                                                 'position': 'relative',
                                                 'margin-top': '-140px',
@@ -689,8 +698,8 @@ $videoElement.on('loadedmetadata', function () {
                                                 'z-index': '9999999'
                                             });
                                         } else if (indexDiv % 1 === 0 || indexDiv % 3 === 0 || indexDiv % 5 === 0) {
-                                            console.log('Warunek podzielnoĹci przez 1 speĹniony2');
-                                            // ZmieĹ CSS paska napisu, aby wyĹwietlaĹ siÄ po lewej stronie kontenera
+                                            console.log('Warunek podzielnoÄšÂci przez 1 speÄšÂniony2');
+                                            // ZmieÄšÂ CSS paska napisu, aby wyÄšÂwietlaÄšÂ siĂÂ po lewej stronie kontenera
                                             $sceneDiv.css({
                                                 'position': 'relative',
                                                 'margin-top': '-140px',
@@ -710,25 +719,25 @@ $videoElement.on('loadedmetadata', function () {
                                             .attr('src', 'https://www.arbulang.com/img/stopok2.png')
                                             .css({
                                                 'display': 'none', // Ukryty na starcie
-                                                'position': 'absolute', // Precyzyjne pozycjonowanie wzglÄdem kontenera
+                                                'position': 'absolute', // Precyzyjne pozycjonowanie wzglĂÂdem kontenera
                                                 'top': '-15px',
                                                 'left': '20px',
                                                 'width': '40px',
                                                 'height': '40px',
                                                 'z-index': '999999',
-                                                'cursor': 'pointer' // Ustawienie kursora jako wskaĹşnik
+                                                'cursor': 'pointer' // Ustawienie kursora jako wskaÄšĹnik
                                             })
                                             .on('click', function () {
-                                                // PÄtla po wszystkich elementach wideo i zatrzymywanie kaĹźdego z nich
+                                                // PĂÂtla po wszystkich elementach wideo i zatrzymywanie kaÄšĹşdego z nich
                                                 $('video').each(function () {
                                                     const video = this;
                                                     if (!video.paused) {
                                                         video.pause();
-                                                        // ZmieĹ obrazek na "Play"
+                                                        // ZmieÄšÂ obrazek na "Play"
                                                         $stopButton.attr('src', 'https://www.arbulang.com/img/play.png');
                                                     } else {
                                                         video.play();
-                                                        // ZmieĹ obrazek z powrotem na "Stop"
+                                                        // ZmieÄšÂ obrazek z powrotem na "Stop"
                                                         $stopButton.attr('src', 'https://www.arbulang.com/img/stopok2.png');
                                                     }
                                                 });
@@ -742,12 +751,12 @@ $videoElement.on('loadedmetadata', function () {
                                         $stopButton.show();
                                     });
 
-                                    // Ukrywanie przycisku, gdy mysz opuĹci kontener
+                                    // Ukrywanie przycisku, gdy mysz opuÄšÂci kontener
                                     $container.on('mouseout', function () {
                                         $stopButton.hide();
                                     });
 
-                                    stopButtonAdded = true;  // Flaga ustawiona na true, gdy przycisk zostaĹ dodany
+                                    stopButtonAdded = true;  // Flaga ustawiona na true, gdy przycisk zostaÄšÂ dodany
                                 }
                             }
                             setTimeout(function () {
@@ -756,19 +765,19 @@ $videoElement.on('loadedmetadata', function () {
                         } else if (indexDiv === 1 || indexDiv === 11 || indexDiv === 13 || indexDiv === 17 || indexDiv === 19 || indexDiv === 23 || indexDiv === 29 || indexDiv === 31 || indexDiv === 37 || indexDiv === 41 || indexDiv === 43 || indexDiv % 3 === 0 || indexDiv % 5 === 0 || indexDiv % 7 === 0) {
                             function addVideo1b(index) {
                                 console.log('hej80', index);
-                                // SprawdĹş, czy jesteĹmy poza zakresem tablicy
+                                // SprawdÄšĹ, czy jesteÄšÂmy poza zakresem tablicy
                                 if (index >= srcWords.length && !funkcjaWywolana) {
-                                    console.log("wykonuje siÄ");
+                                    console.log("wykonuje siĂÂ");
                                     funkcjaWywolana = true;
                                 }
-                                // UsuĹ poprzednie wideo
+                                // UsuÄšÂ poprzednie wideo
                                 removePreviousVideo();
 
                                 console.log('hej78', index);
 
-                                // Dodaj div z wideo do tĹa kontenera
+                                // Dodaj div z wideo do tÄšÂa kontenera
                                 const $vidDiv = $('<div>').addClass('background-video22').css({
-                                    'z-index': '1' // Ustaw z-index dla wideo na niĹźszy
+                                    'z-index': '1' // Ustaw z-index dla wideo na niÄšĹşszy
                                 });
 
                                 const $videoElement = $('<video>').attr({
@@ -776,20 +785,20 @@ $videoElement.on('loadedmetadata', function () {
                                     'muted': true,
                                     'loop': true
                                 }).css({
-                                    'z-index': '1' // Ustaw z-index dla wideo na niĹźszy
+                                    'z-index': '1' // Ustaw z-index dla wideo na niÄšĹşszy
                                 });
                                 if (window.matchMedia("(min-width: 999px)").matches) {
-                                    // Dodaj klasÄ CSS zaleĹźnie od indeksu wideo
+                                    // Dodaj klasĂÂ CSS zaleÄšĹşnie od indeksu wideo
                                     if (index === 0) {
                                         $videoElement.addClass('scaled-video');
                                     } else {
                                         $videoElement.addClass('next-video');
                                     }
                                 }
-                                // UtwĂłrz element <source> dla wideo i ustaw atrybuty
+                                // UtwÄĹrz element <source> dla wideo i ustaw atrybuty
 
                                 const $sourceElement = $('<source>').attr({
-                                    'src': srcWords[index], // Poprawne uĹźycie interpolacji
+                                    'src': srcWords[index], // Poprawne uÄšĹşycie interpolacji
                                     'type': 'video/mp4'     // Typ pliku wideo
                                 });
 
@@ -799,12 +808,12 @@ $videoElement.on('loadedmetadata', function () {
                                 $videoElement.appendTo($vidDiv);
                                 // Dodaj element <source> do elementu <video>
 
-                                // ObsĹuga bĹÄdu Ĺadowania wideo
+                                // ObsÄšÂuga bÄšÂĂÂdu ÄšÂadowania wideo
                                 $videoElement.onerror = function () {
-                                    console.error('Nie moĹźna zaĹadowaÄ pliku wideo.');
+                                    console.error('Nie moÄšĹşna zaÄšÂadowaĂÂ pliku wideo.');
                                 };
                                 let currentIndexValue = [];
-                                // Funkcja obsĹugi zdarzenia loadedmetadata
+                                // Funkcja obsÄšÂugi zdarzenia loadedmetadata
                                 $videoElement.on('loadedmetadata', function () {
                                     const videoDuration = this.duration;
                                     videoDurations[index] = videoDuration;
@@ -817,35 +826,35 @@ $videoElement.on('loadedmetadata', function () {
                                         adjustedProgress += (this.currentTime / videoDuration) * (videoDurations[index] / totalDuration) * 100;
                                         updateProgress(adjustedProgress);
                                         console.log('hej78', index);
-                                        // SprawdĹş, czy wartoĹÄ index nie zostaĹa jeszcze dodana do tablicy currentIndex
+                                        // SprawdÄšĹ, czy wartoÄšÂĂÂ index nie zostaÄšÂa jeszcze dodana do tablicy currentIndex
                                         if (!currentIndexValue.includes(index)) {
                                             // Dodaj index do tablicy currentIndex
                                             currentIndexValue.push(index);
                                             console.log('hej70', currentIndexValue);
-                                            // WywoĹaj funkcjÄ addBackgroundToText tylko raz
+                                            // WywoÄšÂaj funkcjĂÂ addBackgroundToText tylko raz
                                             if (currentIndexValue[0] === 0 || currentIndexValue[0] === 1 || currentIndexValue[0] === 2) {
                                                 addBackgroundToText(matchingFiszki1, matchingIndexes, currentIndexValue, true, lesson1FirstPartLength, lesson1PartLength, matchingLessons5b);
                                             }
                                         }
 
-                                        // SprawdĹş, czy wideo zostaĹo zakoĹczone
+                                        // SprawdÄšĹ, czy wideo zostaÄšÂo zakoÄšÂczone
                                         if ($videoElement[0].duration - $videoElement[0].currentTime < 1) {
-                                            console.log('Wideo zakoĹczone, uruchamiam nastÄpne.');
-                                            // OdtwĂłrz nastÄpne wideo po zakoĹczeniu poprzedniego
+                                            console.log('Wideo zakoÄšÂczone, uruchamiam nastĂÂpne.');
+                                            // OdtwÄĹrz nastĂÂpne wideo po zakoÄšÂczeniu poprzedniego
                                             addVideo1b(index + 1);
                                             updateProgress(0);
                                         }
                                     });
                                 });
                                 addScenes(index);
-                                // Dodaj div z wideo do tĹa kontenera
+                                // Dodaj div z wideo do tÄšÂa kontenera
                                 $vidDiv.appendTo($container);
                                 function updateProgress(progress) {
-                                    // Aktualizuj pasek postÄpu na dole kontenera
+                                    // Aktualizuj pasek postĂÂpu na dole kontenera
                                     $('.progress-bar').css('width', progress + '%');
                                 }
 
-                                // Inicjalizacja paska postÄpu
+                                // Inicjalizacja paska postĂÂpu
                                 const $progressBar = $('<div>').addClass('progress-bar');
                                 if (window.matchMedia("(min-width: 999px)").matches) {
                                     $progressBar.css({
@@ -853,12 +862,12 @@ $videoElement.on('loadedmetadata', function () {
                                         'z-index': '2',
                                         'bottom': '0',
                                         'left': '0',
-                                        'height': '7px', // WysokoĹÄ paska postÄpu
-                                        'background-color': 'green', // Kolor paska postÄpu
-                                        'width': '140%', // Delikatne powiÄkszenie paska postÄpu o 2% w kaĹźdym kierunku
+                                        'height': '7px', // WysokoÄšÂĂÂ paska postĂÂpu
+                                        'background-color': 'green', // Kolor paska postĂÂpu
+                                        'width': '140%', // Delikatne powiĂÂkszenie paska postĂÂpu o 2% w kaÄšĹşdym kierunku
                                         'margin-bottom': '-2%',
                                         'margin-left': '-4%',
-                                        'margin-right': '-4%' // Zapewnienie rĂłwnowagi dla powiÄkszenia paska postÄpu
+                                        'margin-right': '-4%' // Zapewnienie rÄĹwnowagi dla powiĂÂkszenia paska postĂÂpu
                                     });
                                 } else {
                                     $progressBar.css({
@@ -866,22 +875,22 @@ $videoElement.on('loadedmetadata', function () {
                                         'z-index': '2',
                                         'bottom': '0px',
                                         'left': '0px',
-                                        'height': '7px', // WysokoĹÄ paska postÄpu
-                                        'background-color': 'green', // Kolor paska postÄpu
-                                        'width': '100%' // Delikatne powiÄkszenie paska postÄpu o 2% w kaĹźdym kierunku
+                                        'height': '7px', // WysokoÄšÂĂÂ paska postĂÂpu
+                                        'background-color': 'green', // Kolor paska postĂÂpu
+                                        'width': '100%' // Delikatne powiĂÂkszenie paska postĂÂpu o 2% w kaÄšĹşdym kierunku
                                     });
                                 }
                                 $progressBar.appendTo($container);
-// Funkcja dodajÄca nowe elementy <div>
+// Funkcja dodajĂÂca nowe elementy <div>
                                 function addScenes(index) {
-                                    // SprawdĹş, czy istnieje element <div> o klasie 'scene-description'
+                                    // SprawdÄšĹ, czy istnieje element <div> o klasie 'scene-description'
                                     let $sceneDiv = $container.find('.scene-description');
 
                                     if ($sceneDiv.length) {
-                                        // JeĹli istnieje, wyczyĹÄ jego zawartoĹÄ
+                                        // JeÄšÂli istnieje, wyczyÄšÂĂÂ jego zawartoÄšÂĂÂ
                                         $sceneDiv.empty();
                                     } else {
-                                        // JeĹli nie istnieje, stwĂłrz nowy element <div>
+                                        // JeÄšÂli nie istnieje, stwÄĹrz nowy element <div>
                                         $sceneDiv = $('<div>').addClass('scene-description').appendTo($container);
                                     }
 
@@ -890,8 +899,8 @@ $videoElement.on('loadedmetadata', function () {
 
                                     if (window.matchMedia("(max-width: 999px)").matches) {
                                         if (indexDiv % 2 === 0) {
-                                            console.log('Warunek podzielnoĹci przez 2 speĹniony2');
-                                            // ZmieĹ CSS paska napisu, aby wyĹwietlaĹ siÄ po lewej stronie kontenera
+                                            console.log('Warunek podzielnoÄšÂci przez 2 speÄšÂniony2');
+                                            // ZmieÄšÂ CSS paska napisu, aby wyÄšÂwietlaÄšÂ siĂÂ po lewej stronie kontenera
                                             $sceneDiv.css({
                                                 'position': 'relative',
                                                 'margin-top': '-140px',
@@ -901,8 +910,8 @@ $videoElement.on('loadedmetadata', function () {
                                                 'z-index': '9999999'
                                             });
                                         } else if (indexDiv % 1 === 0 || indexDiv % 3 === 0 || indexDiv % 5 === 0) {
-                                            console.log('Warunek podzielnoĹci przez 1 speĹniony2');
-                                            // ZmieĹ CSS paska napisu, aby wyĹwietlaĹ siÄ po lewej stronie kontenera
+                                            console.log('Warunek podzielnoÄšÂci przez 1 speÄšÂniony2');
+                                            // ZmieÄšÂ CSS paska napisu, aby wyÄšÂwietlaÄšÂ siĂÂ po lewej stronie kontenera
                                             $sceneDiv.css({
                                                 'position': 'relative',
                                                 'margin-top': '-140px',
@@ -922,25 +931,25 @@ $videoElement.on('loadedmetadata', function () {
                                             .attr('src', 'https://www.arbulang.com/img/stopok2.png')
                                             .css({
                                                 'display': 'none', // Ukryty na starcie
-                                                'position': 'absolute', // Precyzyjne pozycjonowanie wzglÄdem kontenera
+                                                'position': 'absolute', // Precyzyjne pozycjonowanie wzglĂÂdem kontenera
                                                 'top': '-15px',
                                                 'left': '20px',
                                                 'width': '40px',
                                                 'height': '40px',
                                                 'z-index': '999999',
-                                                'cursor': 'pointer' // Ustawienie kursora jako wskaĹşnik
+                                                'cursor': 'pointer' // Ustawienie kursora jako wskaÄšĹnik
                                             })
                                             .on('click', function () {
-                                                // PÄtla po wszystkich elementach wideo i zatrzymywanie kaĹźdego z nich
+                                                // PĂÂtla po wszystkich elementach wideo i zatrzymywanie kaÄšĹşdego z nich
                                                 $('video').each(function () {
                                                     const video = this;
                                                     if (!video.paused) {
                                                         video.pause();
-                                                        // ZmieĹ obrazek na "Play"
+                                                        // ZmieÄšÂ obrazek na "Play"
                                                         $stopButton.attr('src', 'https://www.arbulang.com/img/play.png');
                                                     } else {
                                                         video.play();
-                                                        // ZmieĹ obrazek z powrotem na "Stop"
+                                                        // ZmieÄšÂ obrazek z powrotem na "Stop"
                                                         $stopButton.attr('src', 'https://www.arbulang.com/img/stopok2.png');
                                                     }
                                                 });
@@ -954,12 +963,12 @@ $videoElement.on('loadedmetadata', function () {
                                         $stopButton.show();
                                     });
 
-                                    // Ukrywanie przycisku, gdy mysz opuĹci kontener
+                                    // Ukrywanie przycisku, gdy mysz opuÄšÂci kontener
                                     $container.on('mouseout', function () {
                                         $stopButton.hide();
                                     });
 
-                                    stopButtonAdded = true;  // Flaga ustawiona na true, gdy przycisk zostaĹ dodany
+                                    stopButtonAdded = true;  // Flaga ustawiona na true, gdy przycisk zostaÄšÂ dodany
                                 }
                             }
                             setTimeout(function () {
@@ -967,7 +976,7 @@ $videoElement.on('loadedmetadata', function () {
                             }, 200);
                         }
                         } else if ((newIndex10d === 0 || newIndex10 === 0 || newIndex10b3 === 0) && !isSearching && number && !buttonindex) {
-                            console.log('działa7', newIndex10d, !isSearching, number);
+                            console.log('dziaĹa7', newIndex10d, !isSearching, number);
                             $('.image-container3b').each(function() {
   this.style.setProperty('position', 'relative', 'important');
   this.style.setProperty('z-index', '1', 'important');
@@ -977,11 +986,11 @@ $videoElement.on('loadedmetadata', function () {
     $gridContainer.css('position', 'relative');
 
     // ===========================
-    // Funkcje i przyciski "nike" (tylko ramka podczas odliczania; fill po zakończeniu)
+    // Funkcje i przyciski "nike" (tylko ramka podczas odliczania; fill po zakoĹczeniu)
     // ===========================
     function makeNikeButton(storageKey, title) {
         const $btn = $('<button class="nike-button" aria-label="' + title + '"></button>');
-        $btn.html('<span class="nike-icon">✓</span>');
+        $btn.html('<span class="nike-icon">â</span>');
         $btn.data('storageKey', storageKey);
         $btn.css({
             width: '44px',
@@ -1009,7 +1018,7 @@ function restoreNikeButtonState($btn) {
         $btn.addClass('filled');
         $btn.css({
             'background-color': 'green',
-            color: 'black',        // ikona ✓ czarna
+            color: 'black',        // ikona â czarna
             border: '3px solid green'
         });
     } else {
@@ -1053,14 +1062,14 @@ function finishNikeFill($btn, storageKey) {
         return;
     }
 
-    // Usuń ewentualne active klasy
+    // UsuĹ ewentualne active klasy
     $btn.removeClass('active');
 
-    // Ustaw styl "pełnego wypełnienia" – zielone tło, czarna ikona
+    // Ustaw styl "peĹnego wypeĹnienia" â zielone tĹo, czarna ikona
     $btn.addClass('filled');
     $btn.css({
         'background-color': 'green',
-        color: 'black',          // ikona ✓ czarna
+        color: 'black',          // ikona â czarna
         border: '3px solid green'
     });
 
@@ -1068,17 +1077,17 @@ function finishNikeFill($btn, storageKey) {
     localStorage.setItem(storageKey, 'done');
 }
 
-    // convenience: jeśli chcesz aby nike "samo" uruchomiło i samo skończyło (np. przypadek tablica55)
+    // convenience: jeĹli chcesz aby nike "samo" uruchomiĹo i samo skoĹczyĹo (np. przypadek tablica55)
 function startNikeAuto(duration, $btn, storageKey) {
     if (localStorage.getItem(storageKey) === 'done') {
         restoreNikeButtonState($btn);
         return;
     }
 
-    // ustaw ramkę aktywną dla tego przycisku
+    // ustaw ramkÄ aktywnÄ dla tego przycisku
     setNikeActive($btn);
 
-    // po odliczaniu wypełnienie
+    // po odliczaniu wypeĹnienie
     setTimeout(() => {
         finishNikeFill($btn, storageKey);
     }, duration);
@@ -1089,15 +1098,15 @@ const $nike1 = makeNikeButton('nike1Done', 'Nike 1');
 const $nike2 = makeNikeButton('nike2Done', 'Nike 2');
 const $nike3 = makeNikeButton('nike3Done', 'Nike 3');
 
-// Kontener na przyciski – teraz GLOBALNY, a nie w grid-container
+// Kontener na przyciski â teraz GLOBALNY, a nie w grid-container
 const $buttonsContainer = $('<div id="nikeBar"></div>').css({
     position: 'fixed',     // <<< klucz
-    bottom: '10px',        // odległość od dołu ekranu
-    right: '20px',         // odległość od prawej
+    bottom: '10px',        // odlegĹoĹÄ od doĹu ekranu
+    right: '20px',         // odlegĹoĹÄ od prawej
     display: 'flex',
     flexDirection: 'row',
     gap: '12px',
-    zIndex: 9999999999,          // <<< klucz – wyżej niż wszystko
+    zIndex: 9999999999,          // <<< klucz â wyĹźej niĹź wszystko
     'background-color': 'rgba(255,255,255,0.8)',
     'padding': '8px',
     'border-radius': '12px',
@@ -1105,15 +1114,15 @@ const $buttonsContainer = $('<div id="nikeBar"></div>').css({
 });
 
 $buttonsContainer.append($nike1, $nike2, $nike3);
-$('body').append($buttonsContainer); // <<< WAŻNE – do body, a nie do grid-container
+$('body').append($buttonsContainer); // <<< WAĹťNE â do body, a nie do grid-container
 
-    // Przywróć stan z localStorage dla każdego nike
+    // PrzywrĂłÄ stan z localStorage dla kaĹźdego nike
     [$nike1, $nike2, $nike3].forEach(btn => restoreNikeButtonState(btn));
 
-    // opcjonalne kliknięcia (jeżeli chcesz manualne uruchamianie)
+    // opcjonalne klikniÄcia (jeĹźeli chcesz manualne uruchamianie)
     $nike1.on('click', () => {
         if (localStorage.getItem('nike1Done') !== 'done') {
-            // pokaż ramkę (active) i ustaw szybką auto-symulację fill po 8s:
+            // pokaĹź ramkÄ (active) i ustaw szybkÄ auto-symulacjÄ fill po 8s:
             startNikeAuto(8000, $nike1, 'nike1Done');
         }
     });
@@ -1124,9 +1133,9 @@ $('body').append($buttonsContainer); // <<< WAŻNE – do body, a nie do grid-co
         if (localStorage.getItem('nike3Done') !== 'done') startNikeAuto(8000, $nike3, 'nike3Done');
     });
 
-    // Jeżeli chcesz, aby przy tablica55 uruchamiał się automatycznie, użyj startNikeAuto
+    // JeĹźeli chcesz, aby przy tablica55 uruchamiaĹ siÄ automatycznie, uĹźyj startNikeAuto
     if (tablica55 && tablica55[0] === true) {
-        // uruchamia ramkę natychmiast; po 8000ms wypełni się
+        // uruchamia ramkÄ natychmiast; po 8000ms wypeĹni siÄ
         startNikeAuto(8000, $nike1, 'nike1Done');
     }
     if (tablica55 && tablica55[2] === true) {
@@ -1134,7 +1143,7 @@ $('body').append($buttonsContainer); // <<< WAŻNE – do body, a nie do grid-co
     }
 
     // ===========================
-    // Dalej: Twój oryginalny kontener + licznik (integracja)
+    // Dalej: TwĂłj oryginalny kontener + licznik (integracja)
     // ===========================
     $container.css({
       'position': 'relative',
@@ -1148,23 +1157,23 @@ $('body').append($buttonsContainer); // <<< WAŻNE – do body, a nie do grid-co
 // Tworzenie licznika w kontenerze
 const $countdown = $('<p>')
     .attr('id', 'countdown-timer')
-    .text('10 sekund do uruchomienia filmów');
+    .text('10 sekund do uruchomienia filmĂłw');
 
 $container.append($countdown);
 
-// Responsywność dla smartfona
+// ResponsywnoĹÄ dla smartfona
 const style = document.createElement('style');
 style.innerHTML = `
   @media (max-width: 480px) {
     #countdown-timer {
       font-size: 14px !important; /* mniejsze litery na telefon */
-      width: 200px !important;    /* dostosowana szerokość */
+      width: 200px !important;    /* dostosowana szerokoĹÄ */
     }
   }
 `;
 document.head.appendChild(style);
 
-// === INTEGRACJA: przed startem lokalnego licznika ustawiamy tylko RAMKĘ na zielono ===
+// === INTEGRACJA: przed startem lokalnego licznika ustawiamy tylko RAMKÄ na zielono ===
 if (localStorage.getItem('nike1Done') !== 'done') {
     setNikeActive($nike1);
 }
@@ -1173,7 +1182,7 @@ if (localStorage.getItem('nike1Done') !== 'done') {
 let counter = 10;
 let countdownInterval = setInterval(() => {
     counter--;
-    $countdown.text(counter + ' sekund do uruchomienia filmów');
+    $countdown.text(counter + ' sekund do uruchomienia filmĂłw');
 
     if (counter === 0) {
         clearInterval(countdownInterval);
@@ -1207,7 +1216,7 @@ let countdownInterval = setInterval(() => {
 
 $textContainer.append(
     $('<p>')
-        .text('Może zainteresują Cię kadry z tych filmów:')
+        .text('MoĹźe zainteresujÄ CiÄ kadry z tych filmĂłw:')
         .addClass('text-intro')
 );
     // Iteracja Twoich list (srcWords2, srcWordsb, srcWordsf)
@@ -1235,7 +1244,7 @@ srcWords2.forEach((name, idxLesson) => {
         gap: '8px'
     });
     $videoTextF.css({margin:0, flex:1});
-    // mapujemy zestawy (fallback do matchingFiszki1 jeśli brak któregokolwiek)
+    // mapujemy zestawy (fallback do matchingFiszki1 jeĹli brak ktĂłregokolwiek)
 const matchingFiszkiArr = [
     (typeof matchingFiszki1 !== 'undefined') ? matchingFiszki1 : null,
     (typeof matchingFiszki2 !== 'undefined') ? matchingFiszki2 : null,
@@ -1252,31 +1261,31 @@ const partLenArr = [
     (typeof lesson3PartLength !== 'undefined') ? lesson3PartLength : 0
 ];
 
-// tworzymy pojedynczą ikonkę (jak wcześniej)
-const $icon = $('<span></span>').text('🔄').css({
+// tworzymy pojedynczÄ ikonkÄ (jak wczeĹniej)
+const $icon = $('<span></span>').text('đ').css({
     cursor: 'pointer',
     fontSize: '20px',
     userSelect: 'none'
-}).attr('title','Pokaż zdanie');
+}).attr('title','PokaĹź zdanie');
 
-// dopasuj wygląd kontenera opisu jak wcześniej
+// dopasuj wyglÄd kontenera opisu jak wczeĹniej
 $descContainer.append($videoTextF, $icon);
 $rightCol.append($videoName, $descContainer);
 $item.append($img, $rightCol);
 $textContainer.append($item);
 
-// handler kliknięcia — używamy idxLesson, żeby wiedzieć które zdanie ładować
+// handler klikniÄcia â uĹźywamy idxLesson, Ĺźeby wiedzieÄ ktĂłre zdanie ĹadowaÄ
 $icon.on('click', function() {
-    // określ który "zestaw" wywołać (1..3). Użyj idxLesson (0->1, 1->2, 2->3). Jeśli idxLesson > 2 użyj 1.
+    // okreĹl ktĂłry "zestaw" wywoĹaÄ (1..3). UĹźyj idxLesson (0->1, 1->2, 2->3). JeĹli idxLesson > 2 uĹźyj 1.
     const which = (typeof idxLesson === 'number' && idxLesson >= 0 && idxLesson <= 2) ? (idxLesson + 1) : 1;
     const cfgF = matchingFiszkiArr[which - 1] || matchingFiszkiArr[0];
     const cfgFirstLen = firstLenArr[which - 1] || firstLenArr[0];
     const cfgPartLen = partLenArr[which - 1] || partLenArr[0];
 
-    // wywołaj generator (może działać asynchronicznie i potem ustawia globalne sentenceXX)
+    // wywoĹaj generator (moĹźe dziaĹaÄ asynchronicznie i potem ustawia globalne sentenceXX)
     addBackgroundToText(cfgF, matchingIndexes, String(which), true, cfgFirstLen, cfgPartLen, matchingLessons5b);
 
-    // polling: czekamy aż odpowiednie sentenceXX będą gotowe
+    // polling: czekamy aĹź odpowiednie sentenceXX bÄdÄ gotowe
     const intervalMs = 50;
     const timeoutMs = 3000;
     let waited = 0;
@@ -1328,7 +1337,7 @@ $icon.on('click', function() {
 </div>`;
             }
 
-            // Podmień tylko opisowy kontener i dołącz ikonę z powrotem (żeby nie znikła)
+            // PodmieĹ tylko opisowy kontener i doĹÄcz ikonÄ z powrotem (Ĺźeby nie znikĹa)
             $descContainer.empty().append(html, $icon);
             return;
         }
@@ -1337,7 +1346,7 @@ $icon.on('click', function() {
         if (waited >= timeoutMs) {
             clearInterval(checker);
             console.warn('addBackgroundToText: brak wyniku w czasie oczekiwania dla zdania', which);
-            // opcjonalnie: przywróć oryginalny opis i ikonę
+            // opcjonalnie: przywrĂłÄ oryginalny opis i ikonÄ
             $descContainer.empty().append($videoTextF, $icon);
         }
     }, intervalMs);
@@ -1349,7 +1358,7 @@ $icon.on('click', function() {
 } else if ((newIndex10 === 0 || newIndex10b3 === 0) && !isSearching && number) {
             if (window.myCountdownInterval) {
         clearInterval(window.myCountdownInterval); // zatrzymanie licznika
-        $('#countdown-timer').remove();           // usuniÄcie elementu
+        $('#countdown-timer').remove();           // usuniĂÂcie elementu
         window.myCountdownInterval = null;        // wyczyszczenie referencji
     }
                         console.log('hej33b', buttonindex);
@@ -1358,19 +1367,19 @@ $icon.on('click', function() {
                         if (indexDiv % 2 === 0) {
                             function addVideo1(index) {
                                 console.log('hej80', index);
-                                // SprawdĹş, czy jesteĹmy poza zakresem tablicy
+                                // SprawdÄšĹ, czy jesteÄšÂmy poza zakresem tablicy
                                 if (index >= srcWords.length && !funkcjaWywolana) {
-                                    console.log("wykonuje siÄ");
+                                    console.log("wykonuje siĂÂ");
                                     funkcjaWywolana = true;
                                 }
-                                // UsuĹ poprzednie wideo
+                                // UsuÄšÂ poprzednie wideo
                                 removePreviousVideo();
 
                                 console.log('hej78', index);
 
-                                // Dodaj div z wideo do tĹa kontenera
+                                // Dodaj div z wideo do tÄšÂa kontenera
                                 const $vidDiv = $('<div>').addClass('background-video').css({
-                                    'z-index': '1' // Ustaw z-index dla wideo na niĹźszy
+                                    'z-index': '1' // Ustaw z-index dla wideo na niÄšĹşszy
                                 });
 
                                 const $videoElement = $('<video>').attr({
@@ -1378,20 +1387,20 @@ $icon.on('click', function() {
                                     'muted': true,
                                     'loop': true
                                 }).css({
-                                    'z-index': '1' // Ustaw z-index dla wideo na niĹźszy
+                                    'z-index': '1' // Ustaw z-index dla wideo na niÄšĹşszy
                                 });
                                 if (window.matchMedia("(min-width: 999px)").matches) {
-                                    // Dodaj klasÄ CSS zaleĹźnie od indeksu wideo
+                                    // Dodaj klasĂÂ CSS zaleÄšĹşnie od indeksu wideo
                                     if (index === 0) {
                                         $videoElement.addClass('scaled-video');
                                     } else {
                                         $videoElement.addClass('next-video');
                                     }
                                 }
-                                // UtwĂłrz element <source> dla wideo i ustaw atrybuty
+                                // UtwÄĹrz element <source> dla wideo i ustaw atrybuty
 
                                 const $sourceElement = $('<source>').attr({
-                                    'src': srcWords[index], // Poprawne uĹźycie interpolacji
+                                    'src': srcWords[index], // Poprawne uÄšĹşycie interpolacji
                                     'type': 'video/mp4'     // Typ pliku wideo
                                 });
 
@@ -1401,16 +1410,16 @@ $icon.on('click', function() {
                                 $videoElement.appendTo($vidDiv);
                                 // Dodaj element <source> do elementu <video>
 
-                                // ObsĹuga bĹÄdu Ĺadowania wideo
+                                // ObsÄšÂuga bÄšÂĂÂdu ÄšÂadowania wideo
                                 $videoElement.onerror = function () {
-                                    console.error('Nie moĹźna zaĹadowaÄ pliku wideo.');
+                                    console.error('Nie moÄšĹşna zaÄšÂadowaĂÂ pliku wideo.');
                                 };
                                 let currentIndexValue = [];
-                                // Funkcja obsĹugi zdarzenia loadedmetadata
-$videoElement.hide(); // Ukrycie wideo przed zaĹadowaniem
+                                // Funkcja obsÄšÂugi zdarzenia loadedmetadata
+$videoElement.hide(); // Ukrycie wideo przed zaÄšÂadowaniem
 
 $videoElement.on('loadedmetadata', function () {
-    $videoElement.show(); // PokaĹź wideo po zaĹadowaniu metadanych
+    $videoElement.show(); // PokaÄšĹş wideo po zaÄšÂadowaniu metadanych
 
     const videoDuration = this.duration;
     videoDurations[index] = videoDuration;
@@ -1434,21 +1443,21 @@ $videoElement.on('loadedmetadata', function () {
         }
 
         if ($videoElement[0].duration - $videoElement[0].currentTime < 1) {
-            console.log('Wideo zakoĹczone, uruchamiam nastÄpne.');
+            console.log('Wideo zakoÄšÂczone, uruchamiam nastĂÂpne.');
             addVideo1(index + 1);
             updateProgress(0);
         }
     });
 });
                                 addScenes(index);
-                                // Dodaj div z wideo do tĹa kontenera
+                                // Dodaj div z wideo do tÄšÂa kontenera
                                 $vidDiv.appendTo($container);
                                 function updateProgress(progress) {
-                                    // Aktualizuj pasek postÄpu na dole kontenera
+                                    // Aktualizuj pasek postĂÂpu na dole kontenera
                                     $('.progress-bar').css('width', progress + '%');
                                 }
 
-                                // Inicjalizacja paska postÄpu
+                                // Inicjalizacja paska postĂÂpu
                                 const $progressBar = $('<div>').addClass('progress-bar');
                                 if (window.matchMedia("(min-width: 999px)").matches) {
                                     $progressBar.css({
@@ -1456,12 +1465,12 @@ $videoElement.on('loadedmetadata', function () {
                                         'z-index': '2',
                                         'bottom': '0',
                                         'left': '0',
-                                        'height': '7px', // WysokoĹÄ paska postÄpu
-                                        'background-color': 'green', // Kolor paska postÄpu
-                                        'width': '140%', // Delikatne powiÄkszenie paska postÄpu o 2% w kaĹźdym kierunku
+                                        'height': '7px', // WysokoÄšÂĂÂ paska postĂÂpu
+                                        'background-color': 'green', // Kolor paska postĂÂpu
+                                        'width': '140%', // Delikatne powiĂÂkszenie paska postĂÂpu o 2% w kaÄšĹşdym kierunku
                                         'margin-bottom': '-2%',
                                         'margin-left': '-4%',
-                                        'margin-right': '-4%' // Zapewnienie rĂłwnowagi dla powiÄkszenia paska postÄpu
+                                        'margin-right': '-4%' // Zapewnienie rÄĹwnowagi dla powiĂÂkszenia paska postĂÂpu
                                     });
                                 } else {
                                     $progressBar.css({
@@ -1469,22 +1478,22 @@ $videoElement.on('loadedmetadata', function () {
                                         'z-index': '2',
                                         'bottom': '0px',
                                         'left': '0px',
-                                        'height': '7px', // WysokoĹÄ paska postÄpu
-                                        'background-color': 'green', // Kolor paska postÄpu
-                                        'width': '100%' // Delikatne powiÄkszenie paska postÄpu o 2% w kaĹźdym kierunku
+                                        'height': '7px', // WysokoÄšÂĂÂ paska postĂÂpu
+                                        'background-color': 'green', // Kolor paska postĂÂpu
+                                        'width': '100%' // Delikatne powiĂÂkszenie paska postĂÂpu o 2% w kaÄšĹşdym kierunku
                                     });
                                 }
                                 $progressBar.appendTo($container);
-// Funkcja dodajÄca nowe elementy <div>
+// Funkcja dodajĂÂca nowe elementy <div>
                                 function addScenes(index) {
-                                    // SprawdĹş, czy istnieje element <div> o klasie 'scene-description'
+                                    // SprawdÄšĹ, czy istnieje element <div> o klasie 'scene-description'
                                     let $sceneDiv = $container.find('.scene-description');
 
                                     if ($sceneDiv.length) {
-                                        // JeĹli istnieje, wyczyĹÄ jego zawartoĹÄ
+                                        // JeÄšÂli istnieje, wyczyÄšÂĂÂ jego zawartoÄšÂĂÂ
                                         $sceneDiv.empty();
                                     } else {
-                                        // JeĹli nie istnieje, stwĂłrz nowy element <div>
+                                        // JeÄšÂli nie istnieje, stwÄĹrz nowy element <div>
                                         $sceneDiv = $('<div>').addClass('scene-description').appendTo($container);
                                     }
 
@@ -1493,8 +1502,8 @@ $videoElement.on('loadedmetadata', function () {
 
                                     if (window.matchMedia("(max-width: 999px)").matches) {
                                         if (indexDiv % 2 === 0) {
-                                            console.log('Warunek podzielnoĹci przez 2 speĹniony2');
-                                            // ZmieĹ CSS paska napisu, aby wyĹwietlaĹ siÄ po lewej stronie kontenera
+                                            console.log('Warunek podzielnoÄšÂci przez 2 speÄšÂniony2');
+                                            // ZmieÄšÂ CSS paska napisu, aby wyÄšÂwietlaÄšÂ siĂÂ po lewej stronie kontenera
                                             $sceneDiv.css({
                                                 'position': 'relative',
                                                 'margin-top': '-140px',
@@ -1504,8 +1513,8 @@ $videoElement.on('loadedmetadata', function () {
                                                 'z-index': '9999999'
                                             });
                                         } else if (indexDiv % 1 === 0 || indexDiv % 3 === 0 || indexDiv % 5 === 0) {
-                                            console.log('Warunek podzielnoĹci przez 1 speĹniony2');
-                                            // ZmieĹ CSS paska napisu, aby wyĹwietlaĹ siÄ po lewej stronie kontenera
+                                            console.log('Warunek podzielnoÄšÂci przez 1 speÄšÂniony2');
+                                            // ZmieÄšÂ CSS paska napisu, aby wyÄšÂwietlaÄšÂ siĂÂ po lewej stronie kontenera
                                             $sceneDiv.css({
                                                 'position': 'relative',
                                                 'margin-top': '-140px',
@@ -1525,25 +1534,25 @@ $videoElement.on('loadedmetadata', function () {
                                             .attr('src', 'https://www.arbulang.com/img/stopok2.png')
                                             .css({
                                                 'display': 'none', // Ukryty na starcie
-                                                'position': 'absolute', // Precyzyjne pozycjonowanie wzglÄdem kontenera
+                                                'position': 'absolute', // Precyzyjne pozycjonowanie wzglĂÂdem kontenera
                                                 'top': '-15px',
                                                 'left': '20px',
                                                 'width': '40px',
                                                 'height': '40px',
                                                 'z-index': '999999',
-                                                'cursor': 'pointer' // Ustawienie kursora jako wskaĹşnik
+                                                'cursor': 'pointer' // Ustawienie kursora jako wskaÄšĹnik
                                             })
                                             .on('click', function () {
-                                                // PÄtla po wszystkich elementach wideo i zatrzymywanie kaĹźdego z nich
+                                                // PĂÂtla po wszystkich elementach wideo i zatrzymywanie kaÄšĹşdego z nich
                                                 $('video').each(function () {
                                                     const video = this;
                                                     if (!video.paused) {
                                                         video.pause();
-                                                        // ZmieĹ obrazek na "Play"
+                                                        // ZmieÄšÂ obrazek na "Play"
                                                         $stopButton.attr('src', 'https://www.arbulang.com/img/play.png');
                                                     } else {
                                                         video.play();
-                                                        // ZmieĹ obrazek z powrotem na "Stop"
+                                                        // ZmieÄšÂ obrazek z powrotem na "Stop"
                                                         $stopButton.attr('src', 'https://www.arbulang.com/img/stopok2.png');
                                                     }
                                                 });
@@ -1557,21 +1566,21 @@ $videoElement.on('loadedmetadata', function () {
                                         $stopButton.show();
                                     });
 
-                                    // Ukrywanie przycisku, gdy mysz opuĹci kontener
+                                    // Ukrywanie przycisku, gdy mysz opuÄšÂci kontener
                                     $container.on('mouseout', function () {
                                         $stopButton.hide();
                                     });
 
-                                    stopButtonAdded = true;  // Flaga ustawiona na true, gdy przycisk zostaĹ dodany
+                                    stopButtonAdded = true;  // Flaga ustawiona na true, gdy przycisk zostaÄšÂ dodany
                                 }
                                 // Pobierz numer lekcji z data-lesson kontenera
 const lessonNumber = $container.attr('data-lesson');
 
-// Tworzymy przycisk tylko jeśli jeszcze go nie ma w kontenerze
+// Tworzymy przycisk tylko jeĹli jeszcze go nie ma w kontenerze
 
     const $buttonb2 = $('<button></button>')
         .addClass('run-button3')
-        .text(`Otwórz lekcję`) // faktyczny numer lekcji
+        .text(`OtwĂłrz lekcjÄ`) // faktyczny numer lekcji
         .attr('data-lesson-number', lessonNumber)
         .css({
             position: 'absolute',
@@ -1586,7 +1595,7 @@ const lessonNumber = $container.attr('data-lesson');
             cursor: 'pointer'
         });
 
-    // Kliknięcie otwiera link do całej trójki (lekcji)
+    // KlikniÄcie otwiera link do caĹej trĂłjki (lekcji)
     $buttonb2.on('click', function () {
         const lessonNum = parseInt($(this).attr('data-lesson-number'), 10);
         const startIndex = (lessonNum - 1) * 3 + 1;
@@ -1602,19 +1611,19 @@ const lessonNumber = $container.attr('data-lesson');
                         } else if (indexDiv === 1 || indexDiv === 11 || indexDiv === 13 || indexDiv === 17 || indexDiv === 19 || indexDiv === 23 || indexDiv === 29 || indexDiv === 31 || indexDiv === 37 || indexDiv === 41 || indexDiv === 43 || indexDiv % 3 === 0 || indexDiv % 5 === 0 || indexDiv % 7 === 0) {
                             function addVideo1b(index) {
                                 console.log('hej80', index);
-                                // SprawdĹş, czy jesteĹmy poza zakresem tablicy
+                                // SprawdÄšĹ, czy jesteÄšÂmy poza zakresem tablicy
                                 if (index >= srcWords.length && !funkcjaWywolana) {
-                                    console.log("wykonuje siÄ");
+                                    console.log("wykonuje siĂÂ");
                                     funkcjaWywolana = true;
                                 }
-                                // UsuĹ poprzednie wideo
+                                // UsuÄšÂ poprzednie wideo
                                 removePreviousVideo();
 
                                 console.log('hej78', index);
 
-                                // Dodaj div z wideo do tĹa kontenera
+                                // Dodaj div z wideo do tÄšÂa kontenera
                                 const $vidDiv = $('<div>').addClass('background-video22').css({
-                                    'z-index': '1' // Ustaw z-index dla wideo na niĹźszy
+                                    'z-index': '1' // Ustaw z-index dla wideo na niÄšĹşszy
                                 });
 
                                 const $videoElement = $('<video>').attr({
@@ -1622,20 +1631,20 @@ const lessonNumber = $container.attr('data-lesson');
                                     'muted': true,
                                     'loop': true
                                 }).css({
-                                    'z-index': '1' // Ustaw z-index dla wideo na niĹźszy
+                                    'z-index': '1' // Ustaw z-index dla wideo na niÄšĹşszy
                                 });
                                 if (window.matchMedia("(min-width: 999px)").matches) {
-                                    // Dodaj klasÄ CSS zaleĹźnie od indeksu wideo
+                                    // Dodaj klasĂÂ CSS zaleÄšĹşnie od indeksu wideo
                                     if (index === 0) {
                                         $videoElement.addClass('scaled-video');
                                     } else {
                                         $videoElement.addClass('next-video');
                                     }
                                 }
-                                // UtwĂłrz element <source> dla wideo i ustaw atrybuty
+                                // UtwÄĹrz element <source> dla wideo i ustaw atrybuty
 
                                 const $sourceElement = $('<source>').attr({
-                                    'src': srcWords[index], // Poprawne uĹźycie interpolacji
+                                    'src': srcWords[index], // Poprawne uÄšĹşycie interpolacji
                                     'type': 'video/mp4'     // Typ pliku wideo
                                 });
 
@@ -1645,12 +1654,12 @@ const lessonNumber = $container.attr('data-lesson');
                                 $videoElement.appendTo($vidDiv);
                                 // Dodaj element <source> do elementu <video>
 
-                                // ObsĹuga bĹÄdu Ĺadowania wideo
+                                // ObsÄšÂuga bÄšÂĂÂdu ÄšÂadowania wideo
                                 $videoElement.onerror = function () {
-                                    console.error('Nie moĹźna zaĹadowaÄ pliku wideo.');
+                                    console.error('Nie moÄšĹşna zaÄšÂadowaĂÂ pliku wideo.');
                                 };
                                 let currentIndexValue = [];
-                                // Funkcja obsĹugi zdarzenia loadedmetadata
+                                // Funkcja obsÄšÂugi zdarzenia loadedmetadata
                                 $videoElement.on('loadedmetadata', function () {
                                     const videoDuration = this.duration;
                                     videoDurations[index] = videoDuration;
@@ -1663,35 +1672,35 @@ const lessonNumber = $container.attr('data-lesson');
                                         adjustedProgress += (this.currentTime / videoDuration) * (videoDurations[index] / totalDuration) * 100;
                                         updateProgress(adjustedProgress);
                                         console.log('hej78', index);
-                                        // SprawdĹş, czy wartoĹÄ index nie zostaĹa jeszcze dodana do tablicy currentIndex
+                                        // SprawdÄšĹ, czy wartoÄšÂĂÂ index nie zostaÄšÂa jeszcze dodana do tablicy currentIndex
                                         if (!currentIndexValue.includes(index)) {
                                             // Dodaj index do tablicy currentIndex
                                             currentIndexValue.push(index);
                                             console.log('hej70', currentIndexValue);
-                                            // WywoĹaj funkcjÄ addBackgroundToText tylko raz
+                                            // WywoÄšÂaj funkcjĂÂ addBackgroundToText tylko raz
                                             if (currentIndexValue[0] === 0 || currentIndexValue[0] === 1 || currentIndexValue[0] === 2) {
                                                 addBackgroundToText(matchingFiszki1, matchingIndexes, currentIndexValue, true, lesson1FirstPartLength, lesson1PartLength, matchingLessons5b);
                                             }
                                         }
 
-                                        // SprawdĹş, czy wideo zostaĹo zakoĹczone
+                                        // SprawdÄšĹ, czy wideo zostaÄšÂo zakoÄšÂczone
                                         if ($videoElement[0].duration - $videoElement[0].currentTime < 1) {
-                                            console.log('Wideo zakoĹczone, uruchamiam nastÄpne.');
-                                            // OdtwĂłrz nastÄpne wideo po zakoĹczeniu poprzedniego
+                                            console.log('Wideo zakoÄšÂczone, uruchamiam nastĂÂpne.');
+                                            // OdtwÄĹrz nastĂÂpne wideo po zakoÄšÂczeniu poprzedniego
                                             addVideo1b(index + 1);
                                             updateProgress(0);
                                         }
                                     });
                                 });
                                 addScenes(index);
-                                // Dodaj div z wideo do tĹa kontenera
+                                // Dodaj div z wideo do tÄšÂa kontenera
                                 $vidDiv.appendTo($container);
                                 function updateProgress(progress) {
-                                    // Aktualizuj pasek postÄpu na dole kontenera
+                                    // Aktualizuj pasek postĂÂpu na dole kontenera
                                     $('.progress-bar').css('width', progress + '%');
                                 }
 
-                                // Inicjalizacja paska postÄpu
+                                // Inicjalizacja paska postĂÂpu
                                 const $progressBar = $('<div>').addClass('progress-bar');
                                 if (window.matchMedia("(min-width: 999px)").matches) {
                                     $progressBar.css({
@@ -1699,12 +1708,12 @@ const lessonNumber = $container.attr('data-lesson');
                                         'z-index': '2',
                                         'bottom': '0',
                                         'left': '0',
-                                        'height': '7px', // WysokoĹÄ paska postÄpu
-                                        'background-color': 'green', // Kolor paska postÄpu
-                                        'width': '140%', // Delikatne powiÄkszenie paska postÄpu o 2% w kaĹźdym kierunku
+                                        'height': '7px', // WysokoÄšÂĂÂ paska postĂÂpu
+                                        'background-color': 'green', // Kolor paska postĂÂpu
+                                        'width': '140%', // Delikatne powiĂÂkszenie paska postĂÂpu o 2% w kaÄšĹşdym kierunku
                                         'margin-bottom': '-2%',
                                         'margin-left': '-4%',
-                                        'margin-right': '-4%' // Zapewnienie rĂłwnowagi dla powiÄkszenia paska postÄpu
+                                        'margin-right': '-4%' // Zapewnienie rÄĹwnowagi dla powiĂÂkszenia paska postĂÂpu
                                     });
                                 } else {
                                     $progressBar.css({
@@ -1712,22 +1721,22 @@ const lessonNumber = $container.attr('data-lesson');
                                         'z-index': '2',
                                         'bottom': '0px',
                                         'left': '0px',
-                                        'height': '7px', // WysokoĹÄ paska postÄpu
-                                        'background-color': 'green', // Kolor paska postÄpu
-                                        'width': '100%' // Delikatne powiÄkszenie paska postÄpu o 2% w kaĹźdym kierunku
+                                        'height': '7px', // WysokoÄšÂĂÂ paska postĂÂpu
+                                        'background-color': 'green', // Kolor paska postĂÂpu
+                                        'width': '100%' // Delikatne powiĂÂkszenie paska postĂÂpu o 2% w kaÄšĹşdym kierunku
                                     });
                                 }
                                 $progressBar.appendTo($container);
-// Funkcja dodajÄca nowe elementy <div>
+// Funkcja dodajĂÂca nowe elementy <div>
                                 function addScenes(index) {
-                                    // SprawdĹş, czy istnieje element <div> o klasie 'scene-description'
+                                    // SprawdÄšĹ, czy istnieje element <div> o klasie 'scene-description'
                                     let $sceneDiv = $container.find('.scene-description');
 
                                     if ($sceneDiv.length) {
-                                        // JeĹli istnieje, wyczyĹÄ jego zawartoĹÄ
+                                        // JeÄšÂli istnieje, wyczyÄšÂĂÂ jego zawartoÄšÂĂÂ
                                         $sceneDiv.empty();
                                     } else {
-                                        // JeĹli nie istnieje, stwĂłrz nowy element <div>
+                                        // JeÄšÂli nie istnieje, stwÄĹrz nowy element <div>
                                         $sceneDiv = $('<div>').addClass('scene-description').appendTo($container);
                                     }
 
@@ -1736,8 +1745,8 @@ const lessonNumber = $container.attr('data-lesson');
 
                                     if (window.matchMedia("(max-width: 999px)").matches) {
                                         if (indexDiv % 2 === 0) {
-                                            console.log('Warunek podzielnoĹci przez 2 speĹniony2');
-                                            // ZmieĹ CSS paska napisu, aby wyĹwietlaĹ siÄ po lewej stronie kontenera
+                                            console.log('Warunek podzielnoÄšÂci przez 2 speÄšÂniony2');
+                                            // ZmieÄšÂ CSS paska napisu, aby wyÄšÂwietlaÄšÂ siĂÂ po lewej stronie kontenera
                                             $sceneDiv.css({
                                                 'position': 'relative',
                                                 'margin-top': '-140px',
@@ -1747,8 +1756,8 @@ const lessonNumber = $container.attr('data-lesson');
                                                 'z-index': '9999999'
                                             });
                                         } else if (indexDiv % 1 === 0 || indexDiv % 3 === 0 || indexDiv % 5 === 0) {
-                                            console.log('Warunek podzielnoĹci przez 1 speĹniony2');
-                                            // ZmieĹ CSS paska napisu, aby wyĹwietlaĹ siÄ po lewej stronie kontenera
+                                            console.log('Warunek podzielnoÄšÂci przez 1 speÄšÂniony2');
+                                            // ZmieÄšÂ CSS paska napisu, aby wyÄšÂwietlaÄšÂ siĂÂ po lewej stronie kontenera
                                             $sceneDiv.css({
                                                 'position': 'relative',
                                                 'margin-top': '-140px',
@@ -1768,25 +1777,25 @@ const lessonNumber = $container.attr('data-lesson');
                                             .attr('src', 'https://www.arbulang.com/img/stopok2.png')
                                             .css({
                                                 'display': 'none', // Ukryty na starcie
-                                                'position': 'absolute', // Precyzyjne pozycjonowanie wzglÄdem kontenera
+                                                'position': 'absolute', // Precyzyjne pozycjonowanie wzglĂÂdem kontenera
                                                 'top': '-15px',
                                                 'left': '20px',
                                                 'width': '40px',
                                                 'height': '40px',
                                                 'z-index': '999999',
-                                                'cursor': 'pointer' // Ustawienie kursora jako wskaĹşnik
+                                                'cursor': 'pointer' // Ustawienie kursora jako wskaÄšĹnik
                                             })
                                             .on('click', function () {
-                                                // PÄtla po wszystkich elementach wideo i zatrzymywanie kaĹźdego z nich
+                                                // PĂÂtla po wszystkich elementach wideo i zatrzymywanie kaÄšĹşdego z nich
                                                 $('video').each(function () {
                                                     const video = this;
                                                     if (!video.paused) {
                                                         video.pause();
-                                                        // ZmieĹ obrazek na "Play"
+                                                        // ZmieÄšÂ obrazek na "Play"
                                                         $stopButton.attr('src', 'https://www.arbulang.com/img/play.png');
                                                     } else {
                                                         video.play();
-                                                        // ZmieĹ obrazek z powrotem na "Stop"
+                                                        // ZmieÄšÂ obrazek z powrotem na "Stop"
                                                         $stopButton.attr('src', 'https://www.arbulang.com/img/stopok2.png');
                                                     }
                                                 });
@@ -1800,12 +1809,12 @@ const lessonNumber = $container.attr('data-lesson');
                                         $stopButton.show();
                                     });
 
-                                    // Ukrywanie przycisku, gdy mysz opuĹci kontener
+                                    // Ukrywanie przycisku, gdy mysz opuÄšÂci kontener
                                     $container.on('mouseout', function () {
                                         $stopButton.hide();
                                     });
 
-                                    stopButtonAdded = true;  // Flaga ustawiona na true, gdy przycisk zostaĹ dodany
+                                    stopButtonAdded = true;  // Flaga ustawiona na true, gdy przycisk zostaÄšÂ dodany
                                 }
                             }
                             setTimeout(function () {
@@ -1815,11 +1824,11 @@ const lessonNumber = $container.attr('data-lesson');
                         // Pobierz numer lekcji z data-lesson kontenera
 const lessonNumber = $container.attr('data-lesson');
 
-// Tworzymy przycisk tylko jeśli jeszcze go nie ma w kontenerze
+// Tworzymy przycisk tylko jeĹli jeszcze go nie ma w kontenerze
 
     const $buttonb2 = $('<button></button>')
         .addClass('run-button3')
-        .text(`Otwórz lekcję ${lessonNumber}`) // faktyczny numer lekcji
+        .text(`OtwĂłrz lekcjÄ ${lessonNumber}`) // faktyczny numer lekcji
         .attr('data-lesson-number', lessonNumber)
         .css({
             position: 'absolute',
@@ -1834,7 +1843,7 @@ const lessonNumber = $container.attr('data-lesson');
             cursor: 'pointer'
         });
 
-    // Kliknięcie otwiera link do całej trójki (lekcji)
+    // KlikniÄcie otwiera link do caĹej trĂłjki (lekcji)
     $buttonb2.on('click', function () {
         const lessonNum = parseInt($(this).attr('data-lesson-number'), 10);
         const startIndex = (lessonNum - 1) * 3 + 1;
@@ -1845,8 +1854,8 @@ const lessonNumber = $container.attr('data-lesson');
     $container.append($buttonb2);
                         }
                         
-                    // StwĂłrz przycisk za pomocÄ jQuery
-                    // Tworzenie nowego elementu div za pomocÄ jQuery
+                    // StwÄĹrz przycisk za pomocĂÂ jQuery
+                    // Tworzenie nowego elementu div za pomocĂÂ jQuery
 
 
                     if ((newIndex3 === 0 || newIndex3b === 0 || newIndex10dd) && !isSearching) {
@@ -1885,7 +1894,7 @@ const lessonNumber = $container.attr('data-lesson');
                         });
                     }
 
-// Dodanie przycisku do kontenera â OD RAZU po jego stworzeniu
+// Dodanie przycisku do kontenera Ă˘ÂÂ OD RAZU po jego stworzeniu
 $container.append($button);
                     // Dodanie diva z zdaniem do kontenera
                     $container.append($sentenceDivB);
@@ -1894,5 +1903,5 @@ $container.append($button);
 
                 }
 
-                // Deklaracja tablicy, ktĂłra bÄdzie zawieraÄ wszystkie tablice
+                // Deklaracja tablicy, ktÄĹra bĂÂdzie zawieraĂÂ wszystkie tablice
             }
