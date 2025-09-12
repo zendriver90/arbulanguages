@@ -507,15 +507,6 @@ if ($insertedContainer.length > 0) {
     $('.grid-container').append($container);
 }
 
-const $insertedContainer2 = $(`.image-container3b[data-lesson="${indexDiv0b + 1}"]`);
-
-if ($insertedContainer2.length > 0) {
-    $container.insertBefore($insertedContainer2.first());
-} else {
-    // JeĹli nie ma takiego kontenera, dodaj na koniec
-    $('.grid-container').append($container);
-}
-
                     const srcWords = [srcWord1, srcWord2, srcWord3];
                     const srcWordsb = [srcWord1d, srcWord2d, srcWord3d];
                     const srcWordsf = [srcWord1f, srcWord2f, srcWord3f];

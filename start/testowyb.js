@@ -20038,10 +20038,10 @@ const fiszki10 = [
             109
         ],
         img: [
-            "https://www.arbulang.com/img/fiszki1/364a.jpg"
+            "https://www.arbulang.com/img/fiszki1/380a.jpg"
         ],
         story: [
-            "Moja mina <b><u>pod prysznicem</b></u> gdy zatarłem oko i się z<b><u>de</b></u>n<b><u>er</b></u>owawałem wyglądałaby by nie niezłe <b><u>szoł</b></u>"
+            "Moja mina <b><u>pod prysznicem</b></u> gdy zatarłem oko i się z<b><u>de</b></u>n<b><u>er</b></u>wowałam wyglądałaby by nie niezłe <b><u>szoł</b></u>"
         ],
         desc: "in the shower[in de szołer] - pod prysznicem",
         sentence2: [
@@ -20279,7 +20279,7 @@ const fiszki10 = [
                 alt: "Wygenerowane przez AI."
             },
             story: {
-                text: "KOGNATY - TENNIS - TENIS",
+                text: "KOGNATY - TENNIS (ENG) - TENIS (PL)",
                 alt: ""
             },
             category: [""]
@@ -20317,8 +20317,8 @@ const fiszki10 = [
             category: ["show-biznes", "aktor"]
         }
             ],
-        translate: "",
-        translateb: "[]",
+        translate: " Oglądamy teraz film",
+        translateb: "[Łi wizit aur grandparents]",
         srcWord: ["https://www.arbulang.com/filmy/grandparents.mp4", "Logan (2017)"],
         srcWordimage: "https://www.arbulang.com/filmy/grandparents.png",
         desc: "we[łi] - my",
@@ -20355,7 +20355,7 @@ const fiszki10 = [
             category: ["show-biznes", "aktor"]
         }
             ],
-        desc: "visit[] - odwiedzać",
+        desc: "visit[wizit] - odwiedzać",
         sentence1: [
             "visit"
         ],
@@ -20437,7 +20437,7 @@ const fiszki10 = [
             category: ["związki", "okazje"]
         }
     ],
-        desc: "our[aur] - nasz",
+        desc: "our[20%-aur, 80%-ałer, TRUDNOŚĆ JĘZYKOWA] - nasz",
         sentence1: [
             "our"
         ],
@@ -20461,9 +20461,9 @@ const fiszki10 = [
             "https://www.arbulang.com/img/fiszki1/389a.jpg"
         ],
         story: [
-            "Ale <b><u>grand</b></u>a bo moi dziadkowie <b><u>Pare</b></u> lat temu byli sentym<b><u>ent</b></u>alni i chyba <b><u>s</b></u>ą nadal"
+            "Ale <b><u>grand</b></u>a bo moi dziadkowie <b><u>pare</b></u> lat temu byli sentym<b><u>ent</b></u>alni i chyba <b><u>s</b></u>ą nadal"
         ],
-        desc: "grandparents[grandparents] - nasz, nasze",
+        desc: "grandparents[grandparents] - dziadkowie",
         sentence1: [
             "grandparents"
         ],
@@ -20497,7 +20497,7 @@ const fiszki10 = [
             category: ["piłka nożna", "technika"]
         }
             ],
-        desc: "every[ewry] - każdy",
+        desc: "every[ewry] - każdy, każda, każde",
         sentence1: [
             "every"
         ],
@@ -20519,11 +20519,11 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/324a.jpg",
+                src: "https://www.arbulang.com/img/fiszki1/391a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
-                text: "Woda w rzece <u><b>San</u></b> przez którą przejeżdza <u><b>And</u></b>rz<u><b>ej</u></b> w <u><b>niedziele</u></b> jest powyżej normalnego stanu bo przez ostatnie dni bardzo l<u><b>ej</u></b>e",
+                text: "Woda w rzece <u><b>San</u></b> przez którą przejeżdźa (po moście) <u><b>And</u></b>rz<u><b>ej</u></b> w <u><b>niedziele</u></b> jest powyżej normalnego stanu bo przez ostatnie dni bardzo l<u><b>ej</u></b>e",
                 alt: ""
             },
             category: [""]
@@ -20611,7 +20611,7 @@ const fiszki10 = [
     ],
         translate: "",
         translateb: "[]",
-        translateb2: "[Aur skul organajz]",
+        translateb2: "[De kar is parktd nirbaj",
         srcWord: ["https://www.arbulang.com/filmy/car.mp4", "W pogoni za zemstą (2010)"],
         srcWordimage: "https://www.arbulang.com/filmy/car.png",
         word: "https://www.arbulang.com/voice/party.mp4",
@@ -20647,7 +20647,7 @@ const fiszki10 = [
                 text: 'Za strzelenie tego <u><b>kar</u></b>nego piłkarz dostanie <u><b>samochód</u></b>',
                 alt: ""
             },
-            category: ["sport", "koszykówka"]
+            category: ["sport", "nagroda"]
         }
     ],
         desc: "car[kar] - auto, samochód",
@@ -20789,7 +20789,7 @@ const fiszki10 = [
                 alt: "Wygenerowane przez AI."
             },
             story: {
-                text: 'KOGNATY - PARKOWAĆ - PARKTD',
+                text: 'KOGNATY - PARKTD (ENG) - PARKOWAĆ  (PL)',
                 alt: ""
             },
             category: ["sport", "koszykówka"]
@@ -20916,8 +20916,8 @@ const fiszki10 = [
         translate: "",
         translateb: "[Aj hew tu kats at hołm]",
         translateb2: "[Aj em szaj]",
-        srcWord: ["https://www.arbulang.com/filmy/shy.mp4", 'The Matrix Reloaded (2003)'],
-        srcWord2: ["https://www.arbulang.com/filmy/procedure.mp4", "Breaking Bad"],
+        srcWord: ["https://www.arbulang.com/filmy/two-cats.mp4", "Matrix Reaktywacja (2003)"],
+        srcWordimage: "https://www.arbulang.com/filmy/two-cats.png",
         srcWordimage: "https://www.arbulang.com/filmy/shy.png",
         word: [
             "https://www.arbulang.com/voice/music.mp4"
@@ -20990,7 +20990,7 @@ const fiszki10 = [
             category: ["życie", "ubiór"]
         }
             ],
-        desc: "two[tu] - ",
+        desc: "two[tu] - dwa",
         sentence1: [
             "two"
         ],
@@ -21106,7 +21106,7 @@ const fiszki10 = [
             category: ["sport", "humor"]
         }
     ],
-        desc: "at home[] - ",
+        desc: "at home[] - w domu",
         sentence2: [
             "at home"
         ],
@@ -21203,7 +21203,7 @@ const fiszki10 = [
             "bird",
             "flies",
             "over",
-            "the house"
+            "the ground"
         ],
         key: "the",
         category2: ["osoby"],
@@ -21215,12 +21215,20 @@ const fiszki10 = [
             65,
             119
         ],
-        img: [
-            "https://www.arbulang.com/img/fiszki1/403a.jpg"
-        ],
-        story: [
-            "<u><b>By</u></b> zobaczyć <u><b>ptaka</u></b> - jastrzębia trzeba się ba<u><b>rd</u></b>zo natrudzić"
-        ],
+    entries: [
+        {
+            id: 1,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/403a.jpg",
+                alt: "Wygenerowane przez AI."
+            },
+            story: {
+                text: "<u><b>By</u></b> zobaczyć <u><b>ptaka</u></b> - jastrzębia trzeba się ba<u><b>rd</u></b>zo natrudzić",
+                alt: ""
+            },
+            category: ["", ""]
+        }
+    ],
         desc: "bird[byrd] - ptak",
         sentence2: [
             "bird"
@@ -21230,11 +21238,11 @@ const fiszki10 = [
             "bird",
             "flies",
             "over",
-            "the house"
+            "the ground"
         ],
         key: "bird",
         category1: "nauka",
-        category2: ["okresleniaMiejsca"]
+        category2: ["zwierzeta"]
     },
                                                                                                                                     {
         id: [
@@ -21242,12 +21250,20 @@ const fiszki10 = [
             65,
             119
         ],
-        img: [
-            "https://www.arbulang.com/img/fiszki1/404a.jpg"
-        ],
-        story: [
-            "<u><b>Fla</u></b>ming lata sobie nad T<u><b>ajs</u></b>kim jeziorem"
-        ],
+    entries: [
+        {
+            id: 1,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/404a.jpg",
+                alt: "Wygenerowane przez AI."
+            },
+            story: {
+                text: "<u><b>Fla</u></b>ming lata sobie nad T<u><b>ajs</u></b>kim jeziorem",
+                alt: ""
+            },
+            category: ["", ""]
+        }
+    ],
         desc: "flies[flajs] - przelatuje, lata",
         sentence2: [
             "flies"
@@ -21257,11 +21273,11 @@ const fiszki10 = [
             "bird",
             "flies",
             "over",
-            "the house"
+            "the ground"
         ],
         key: "flies",
         category1: "nauka",
-        category2: ["okresleniaMiejsca"]
+        category2: ["czasownik"]
     },
                                                                                                                                         {
         id: [
@@ -21277,13 +21293,13 @@ const fiszki10 = [
                 alt: "Wygenerowane przez AI."
             },
             story: {
-                text: 'Ooooł <u><b>nad</u></b> naszym domem leci orzeł taki jakiego mam wygra<u><b>wer</u></b>owanego na bryluku przy kluczach',
+                text: 'Ooooł <u><b>nad</u></b> naszym domem leci orzeł taki jakiego mam wygra<u><b>wer</u></b>owanego na bryloku przy kluczach',
                 alt: ""
             },
             category: ["sport", "koszykówka"]
         }
     ],
-        desc: "over[ołwer] - ",
+        desc: "over[ołwer] - nad",
         sentence2: [
             "over"
         ],
@@ -21292,7 +21308,7 @@ const fiszki10 = [
             "bird",
             "flies",
             "over",
-            "the house"
+            "the ground"
         ],
         key: "over",
         category1: "nauka",
@@ -21312,22 +21328,22 @@ const fiszki10 = [
                 alt: "Wygenerowane przez AI."
             },
             story: {
-                text: 'Koło tego <u><b>domu</u></b> jest duży <u><b>hał</u></b>a<u><b>s</u></b>',
+                text: '',
                 alt: ""
             },
             category: ["sport", "koszykówka"]
         }
     ],
-        desc: "the house[de hałs] - ten dom",
+        desc: "the ground[de graund] - ziemia",
         sentence2: [
-            "the house"
+            "the ground"
         ],
         sentence: [
             "The",
             "bird",
             "flies",
             "over",
-            "the house"
+            "the ground"
         ],
         key: "the house",
         category1: "nauka",
@@ -21354,8 +21370,8 @@ const fiszki10 = [
         }
             ],
         translate: "",
-        translateb: "[Szi drinks kofi ewry singel dej]",
-        translateb2: "[Maj broder plejs futbol]",
+        translateb: "[Szi spiks]",
+        translateb2: "[]",
         srcWord: ["https://www.arbulang.com/filmy/coffe2.mp4", "Serial - Dexter ()"],
         srcWord2: ["https://www.arbulang.com/filmy/procedure.mp4", ""],
         srcWordimage: "https://www.arbulang.com/filmy/coffe2.png",
@@ -21385,12 +21401,12 @@ const fiszki10 = [
             121
         ],
         img: [
-            "https://www.arbulang.com/img/fiszki1/364a.jpg"
+            "https://www.arbulang.com/img/fiszki1/408a.jpg"
         ],
         story: [
             "<u><b>Spik</u></b>er coś tam <u><b>s</u></b>obie <u><b>mówi</u></b> w tle meczu na żywo"
         ],
-        desc: "speaks[spiks] - ",
+        desc: "speaks[spiks] - mówić",
         sentence2: [
             "speaks"
         ],
@@ -21426,7 +21442,7 @@ const fiszki10 = [
             category: ["nauka", "techniki nauki"]
         }
             ],
-        desc: "english[TRUDNOŚĆ JĘZYKOWA - inglisz(30%), ynglish(30%), english(30%)] - uczę się",
+      desc: "english[TRUDNOŚĆ JĘZYKOWA - inglisz(30%), ynglish(30%), english(30%)] - coś angielskiego np. język angielski",
         sentence2: [
             "English"
         ],
@@ -21543,10 +21559,10 @@ const fiszki10 = [
                 text: "<b><u>Flu</b></u>orescencyjny brylok <b><u>płynnie</b></u> przypomina mi jak ważny jest dla mnie dom, mam do niego s<b><u>ent</b></u>yment i nie li</b></u>czę, że kiedyś się przeprowadzę",
                 alt: ""
             },
-            category: ["sport", "trening"]
+            category: ["", ""]
         }
             ],
-        desc: "fluently[fluentli] - ",
+        desc: "fluently[] - płynnie, płynny",
         sentence2: [
             "fluently"
         ],
@@ -21702,7 +21718,7 @@ const fiszki10 = [
                 text: 'Mam tatułaż złożony z <b><u>drzewa</b></u> i <b><u>tri</b></u>bala. Taki <b><u>tri</b></u>k',
                 alt: ""
             },
-            category: ["sport", "koszykówka"]
+            category: ["", ""]
         }
     ],
         desc: "tree[tri] - drzewo",
@@ -21973,7 +21989,7 @@ const fiszki10 = [
             category: [""]
         }
     ],
-        desc: "green[grin] - ",
+        desc: "green[grin] - zielony",
         sentence2: [
             "green"
         ],
@@ -21987,7 +22003,7 @@ const fiszki10 = [
         ],
         key: "green",
         category1: "nauka",
-        category2: ["okresleniaMiejsca"]
+        category2: ["kolory"]
     },
                                                          {
         id: [
@@ -22060,17 +22076,17 @@ const fiszki10 = [
         translate: "On pięknie śpiewa pod prysznicem",
         translateb: "[Hi sings bjutifuli in de szołer]",
         translateb2: "[]",
-        srcWord: ["https://www.arbulang.com/filmy/tennis.mp4", "V for Vendetta (2005)"],
-        srcWordimage: "https://www.arbulang.com/filmy/tennis.png",
+        srcWord: ["https://www.arbulang.com/filmy/math.mp4", "V for Vendetta (2005)"],
+        srcWordimage: "https://www.arbulang.com/filmy/math.png",
         word: [
             "https://www.arbulang.com/voice/bike.mp4"
         ],
-        desc: "she[szi] - niebieski/niebieskie",
+        desc: "he[hi] - on",
         sentence1: [
-            "She"
+            "He"
         ],
         sentence: [
-            "She",
+            "He",
             "teaches",
             "math"
         ],
@@ -22092,13 +22108,13 @@ const fiszki10 = [
                 alt: "Wygenerowane przez AI."
             },
             story: {
-                text: '<u><b>Ti</u></b>ffany(Tifany) <u><b>uczy</u></b> w interenetowej szkole. Brała udział w ustalaniu <u><b>czes<u></b>nego',
+                text: '<u><b>Ti</u></b>ffany(Tifany) <u><b>uczy</u></b> w interenetowej szkole. Brała udział w wyznaczaniu <u><b>czes<u></b>nego',
                 alt: ""
             },
             category: [""]
         }
     ],
-        desc: "teaches[ticzes] - ",
+        desc: "teaches[ticzes] - uczy",
         sentence2: [
             "teaches"
         ],
@@ -22109,7 +22125,7 @@ const fiszki10 = [
         ],
         key: "teaches",
         category1: "nauka",
-        category2: ["okresleniaMiejsca"]
+        category2: ["czasownik"]
     },
                                                                                                                                                                                             {
         id: [
@@ -22131,7 +22147,7 @@ const fiszki10 = [
             category: [""]
         }
     ],
-        desc: "math[matf, matw] - ",
+        desc: "math[matf, matw] - matematyka",
         sentence2: [
             "math"
         ],
@@ -25127,7 +25143,7 @@ const fiszki10 = [
             "https://www.arbulang.com/voice/bike.mp4"
         ],
         story: "<u><b>Ona</u></b> - Patrycja ma ri<u><b>szi</u></b> to naturalny antyoksydant",
-        desc: "the[szi] - niebieski/niebieskie",
+        desc: "the[de] - to",
         sentence1: [
             "The"
         ],
@@ -25627,7 +25643,7 @@ const fiszki10 = [
             "https://www.arbulang.com/voice/bike.mp4"
         ],
         story: "<u><b>Ona</u></b> - Patrycja ma ri<u><b>szi</u></b> to naturalny antyoksydant",
-        desc: "the[szi] - niebieski/niebieskie",
+        desc: "he[hi] - on",
         sentence1: [
             "He"
         ],

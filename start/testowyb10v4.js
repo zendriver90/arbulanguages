@@ -2173,10 +2173,10 @@ id: [
         109
 ],
         img: [
-                "https://www.arbulang.com/img/fiszki1/364a.jpg"
+                "https://www.arbulang.com/img/fiszki1/380a.jpg"
         ],
         story: [
-                "KOGNATY"
+                "Moja mina <b><u>pod prysznicem</b></u> gdy zatarłem oko i się z<b><u>de</b></u>n<b><u>er</b></u>owawałem wyglądałaby by nie niezłe <b><u>szoł</b></u>"
         ],
         desc: "in the shower[in de szołer] - pod prysznicem",
         sentence2: [
@@ -2203,7 +2203,7 @@ id: [
         translate: "",
         translateb: "[Maj broder plejs futbol on łikedns]",
         translateb2: "[Maj broder plejs futbol]",
-        srcWord: ["https://www.arbulang.com/filmy/tennis.mp4", "Miasto Boga (2002)"],
+        srcWord: ["https://www.arbulang.com/filmy/tennis.mp4", "Wimbledon (2004)"],
         srcWord2: ["https://www.arbulang.com/filmy/procedure.mp4", ""],
         srcWordimage: "https://www.arbulang.com/filmy/tennis.png",
         opis: "Scena amatorskiego meczu piłkarskiego",
@@ -2276,7 +2276,7 @@ id: [
         ],
         key: "loves",
         category1: "nauka",
-        category2: ["okresleniaMiejsca"]
+        category2: ["czasownik"]
 },
 {
 id: [
@@ -2288,7 +2288,7 @@ id: [
                 "https://www.arbulang.com/img/fiszki1/384a.jpg"
         ],
         story: [
-                ""
+                "W Champions League <b><u>grają</b></u> najlepsi zawodnicy. <b><u>Tu</b></u> jest pełna koncentracja i każdy obrońca <b><u>j</b></u>est na <b><u>ple</b></u>cach napastnika"
         ],
         desc: "to play[tu plej] - przyjaciel",
         sentence1: [
@@ -2309,10 +2309,10 @@ id: [
         112
 ],
         img: [
-                "https://www.arbulang.com/img/fiszki1/364a.jpg"
+                "https://www.arbulang.com/img/fiszki1/385a.jpg"
         ],
         story: [
-                ""
+                "KOGNATY - TENNIS (ENG) - TENIS (PL)"
         ],
         desc: "tennis[] - przyjaciel",
         sentence1: [
@@ -2342,8 +2342,8 @@ id: [
         translate: "",
         translateb: "[Łi wizit aur grandparents ewry Sandej]",
         translateb2: "[]",
-        srcWord: ["https://www.arbulang.com/filmy/singingshower.mp4", "V for Vendetta (2005)"],
-        srcWordimage: "https://www.arbulang.com/filmy/singingshower.png",
+        srcWord: ["https://www.arbulang.com/filmy/grandparents.mp4", "Logan (2017)"],
+        srcWordimage: "https://www.arbulang.com/filmy/grandparents.png",
         word: [
                 "https://www.arbulang.com/voice/bike.mp4"
         ],
@@ -2369,10 +2369,10 @@ id: [
         113
 ],
         img: [
-                "https://www.arbulang.com/img/fiszki1/364a.jpg"
+                "https://www.arbulang.com/img/fiszki1/387a.jpg"
         ],
         story: [
-                ""
+                "KOGNATY - VISIT (ENG) - WIZYTOWAĆ (PL)"
         ],
         desc: "visit[] - odwiedzać",
         sentence1: [
@@ -2395,12 +2395,30 @@ id: [
         113
 ],
         img: [
-                "https://www.arbulang.com/img/fiszki1/364a.jpg"
+                "https://www.arbulang.com/img/fiszki1/32aa.jpg",
+                "https://www.arbulang.com/img/fiszki1/32bb.jpg",
+                "https://www.arbulang.com/img/fiszki1/32cc.jpg",
+                "https://www.arbulang.com/img/fiszki1/32dd.jpg",
+                "https://www.arbulang.com/img/fiszki1/32ee.jpg"
+        ],
+        translate: "Nasz nauczyciel pomaga nam z pracą domową",
+        translateb: "[Aur ticzer helps as wiz hołmłork]",
+        translateb2: "[]",
+        srcWord: ["https://www.arbulang.com/filmy/teacher2.mp4", 'Dom z papieru (2017-2021)'],
+        srcWord2: ["https://www.arbulang.com/filmy/procedure.mp4", "Breaking Bad"],
+        srcWordimage: "https://www.arbulang.com/filmy/teacher2.png",
+        opis: "Przygotowanie się do akcji rabunkowej",
+        word: [
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         story: [
-                ""
+                "<u><b>Aur</u></b>a zawodnika z <u><b>naszego</u></b> zespołu jest niesamowita",
+                "M<u><b>aur</u></b>ycy to jest <u><b>nasz</u></b> ogrodnik",
+                "<u><b>Nasz</u></b> dostawca prądu to <u><b>Taur</u></b>on",
+                "Władcy pierścieni.. najniebezpieczniejsze dla <u><b>naszego</u></b> bezpieczeństwa było oko S<u><b>aur</u></b>ona",
+                "<u><b>Nasza</u></b> mama dostała l<u><b>aur</u></b>kę na dzień mamy"
         ],
-        desc: "our[] - nasz, nasze",
+        desc: "our[20%-aur, 80%-ałer, TRUDNOŚĆ JĘZYKOWA] - nasz",
         sentence1: [
                 "our"
         ],
@@ -2421,12 +2439,12 @@ id: [
         113
 ],
         img: [
-                "https://www.arbulang.com/img/fiszki1/364a.jpg"
+                "https://www.arbulang.com/img/fiszki1/389a.jpg"
         ],
         story: [
-                ""
+                "Ale <b><u>grand</b></u>a bo moi dziadkowie <b><u>Pare</b></u> lat temu byli sentym<b><u>ent</b></u>alni i chyba <b><u>s</b></u>ą nadal"
         ],
-        desc: "grandparents[] - nasz, nasze",
+        desc: "grandparents[] - dziadkowie",
         sentence1: [
                 "grandparents"
         ],
@@ -2447,12 +2465,12 @@ id: [
         114
 ],
         img: [
-                "https://www.arbulang.com/img/fiszki1/364a.jpg"
+                "https://www.arbulang.com/img/fiszki1/324a.jpg"
         ],
         story: [
-                ""
+                "Prawie <u><b>każdy</u></b> robi błąd na tym zagraniu. <u><b>Ew</u></b>identnie trudny element gry w piłkę. Dobrze potrafi to zrobić tylko dob<u><b>ry</u></b> zawodnik"
         ],
-        desc: "every[ewry] - nasz, nasze",
+        desc: "every[ewry] - każdy, każda, każde",
         sentence1: [
                 "every"
         ],
@@ -2471,12 +2489,12 @@ id: [
         114
 ],
         img: [
-                "https://www.arbulang.com/img/fiszki1/364a.jpg"
+                "https://www.arbulang.com/img/fiszki1/391a.jpg"
         ],
         story: [
-                ""
+                "Woda w rzece <u><b>San</u></b> przez którą przejeżdza (po moście) <u><b>And</u></b>rz<u><b>ej</u></b> w <u><b>niedziele</u></b> jest powyżej normalnego stanu bo przez ostatnie dni bardzo l<u><b>ej</u></b>e"
         ],
-        desc: "Sunday[] - ",
+        esc: "sunday[sandej] - niedziela",
         sentence1: [
                 "Sunday"
         ],
@@ -2504,7 +2522,7 @@ id: [
         translate: "",
         translateb: "[Hi sings bjutifuli in de szołer]",
         translateb2: "[]",
-        srcWord: ["https://www.arbulang.com/filmy/car.mp4", "V for Vendetta (2005)"],
+        srcWord: ["https://www.arbulang.com/filmy/car.mp4", "W pogoni za zemstą (2010)"],
         srcWordimage: "https://www.arbulang.com/filmy/car.png",
         word: [
                 "https://www.arbulang.com/voice/bike.mp4"
@@ -2549,7 +2567,7 @@ id: [
                 "nearby"
         ],
         key: "car",
-        category1: "nauka",
+        category1: "sport-nagroda",
         category2: ["okresleniaMiejsca"]
 },
 {
@@ -2559,12 +2577,24 @@ id: [
         115
 ],
         img: [
-                "https://www.arbulang.com/img/fiszki1/364a.jpg"
+            "https://www.arbulang.com/img/fiszki1/8a.jpg",
+            "https://www.arbulang.com/img/fiszki1/8b.jpg",
+            "https://www.arbulang.com/img/fiszki1/8c.jpg",
+            "https://www.arbulang.com/img/fiszki1/8d.jpg",
+            "https://www.arbulang.com/img/fiszki1/8e.jpg",
+            "https://www.arbulang.com/img/fiszki1/8f.jpg",
+            "https://www.arbulang.com/img/fiszki1/8g.jpg"
         ],
         story: [
-                ""
+            'Gdy ktoś szybko biega obok nas to <u><b>jest</u></b> w popłochu, słyszymy tylko św<span class="adannotation" data-annotation="1"><u><b>is</u></b></span>t',
+            'L<span class="adannotation" data-annotation="1"><u><b>is</u></b></span> <u><b>jest</u></b> dzisiaj listonoszem',
+            '<span class="adannotation" data-annotation="1"><b><u>Is</b></u></span>tota tego przekazu <b><u>jest</b></u> bardzo ważna',
+            'L<span class="adannotation" data-annotation="1"><b><u>is</b></u></span> jest bardzo przebiegły, ale <b><u>jest</b></u> też wilk, który go zje',
+            'Johny Bravo <u><b>jest</b></u> m<span class="adannotation" data-annotation="1"><u><b>is</b></u></span>trzem relacji damsko-męskich',
+            'Lu<span class="adannotation" data-annotation="1"><b><u>is</b></u></span> <b><u>jest</b></u> bardzo zadowolony ze swojej pracy',
+            '<span class="adannotation" data-annotation="1"><b><u>Is</b></u></span>tambuł <b><u>jest</b></u> fajnym miastem'
         ],
-        desc: "is[] - ",
+        desc: "is[is] - jest",
         sentence1: [
                 "is"
         ],
@@ -2586,12 +2616,12 @@ id: [
         115
 ],
         img: [
-                "https://www.arbulang.com/img/fiszki1/364a.jpg"
+                "https://www.arbulang.com/img/fiszki1/395a.jpg"
         ],
         story: [
-                ""
+                "KOGNATY - PARKTD (ENG) - PARKOWAĆ  (PL)"
         ],
-        desc: "parked[] - ",
+        desc: "parked[parktd] - zaparkowany (czas przeszły + ed)",
         sentence1: [
                 "parked"
         ],
@@ -2613,12 +2643,12 @@ id: [
         116
 ],
         img: [
-                "https://www.arbulang.com/img/fiszki1/364a.jpg"
+                "https://www.arbulang.com/img/fiszki1/396a.jpg"
         ],
         story: [
-                ""
+                "<b><u>W pobliżu</b></u> tego Świętego Miejsca przeżyłem <b><u>baj</b></u>eczną <b><u>Nir</b></u>wanę"
         ],
-        desc: "nearby[] - ",
+        desc: "nearby[nirbaj, nierbaj] - w pobliżu",
         sentence2: [
                 "nearby"
         ],
@@ -2640,22 +2670,29 @@ id: [
         117
 ],
         img: [
-                "https://www.arbulang.com/img/fiszki1/7a.jpg",
-                "https://www.arbulang.com/img/fiszki1/7b.jpg",
-                "https://www.arbulang.com/img/fiszki1/7c.jpg",
-                "https://www.arbulang.com/img/fiszki1/7d.jpg",
-                "https://www.arbulang.com/img/fiszki1/7e.jpg"
+                "https://www.arbulang.com/img/fiszki1/19a.jpg",
+                "https://www.arbulang.com/img/fiszki1/19b.jpg",
+                "https://www.arbulang.com/img/fiszki1/19c.jpg",
+                "https://www.arbulang.com/img/fiszki1/19d.jpg",
+                "https://www.arbulang.com/img/fiszki1/19e.jpg"
         ],
         translate: "",
-        translateb: "[]",
-        translateb2: "[]",
+        translateb: "[Aj nid e nju per of szu]",
+        translateb2: "[Aj em szaj]",
         srcWord: ["https://www.arbulang.com/filmy/two-cats.mp4", "Matrix Reaktywacja (2003)"],
         srcWordimage: "https://www.arbulang.com/filmy/two-cats.png",
+        opis: "",
         word: [
-                "https://www.arbulang.com/voice/bike.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
-        story: "<u><b>Ona</u></b> - Patrycja ma ri<u><b>szi</u></b> to naturalny antyoksydant",
-        desc: "she[szi] - niebieski/niebieskie",
+        story: [
+                "<u><b>Ja</u></b> jestem Piotrek, mam okulary ochronne, gdy jechałem rowerem wleciała mi mucha do <u><b>oka</u></b>, krzyczałem <u><b>ajjj</u></b> - dlaczego to <u><b>mi</u></b> wleciała mucha do <u><b>oka</u></b>, <u><b>ajjj</u></b>",
+                "M<u><b>aj</u></b>a ma zezowate <u><b>oko</u></b> i mówi, no <u><b>JA</u></b> widzę ciebie podwójnie",
+                "Nauka o mitach, takich jak królowa G</u></b>aj</u></b>a to ten temat, gdzie <u><b>ja</u></b> mam największą wiedze",
+                "Teraz <u><b>ja</u></b> występuję na weselu jako wodzirej i śpiewam <u><b>Aj</u></b>-ja-jaj tak słodko jest tu z wami być..",
+                "Mo<u><b>ja</u></b> babcia idzie do kurnika po jaja, a <u><b>ja</u></b> będę za chwilę jadł jajecznice"
+        ],
+        desc: "I[aj] - ja",
         sentence1: [
                 "I"
         ],
@@ -2675,13 +2712,9 @@ id: [
         64,
         117
 ],
-        img: [
-                "https://www.arbulang.com/img/fiszki1/364a.jpg"
-        ],
-        story: [
-                ""
-        ],
-        desc: "have[] - ",
+        img: "https://www.arbulang.com/img/fiszki1/122a.jpg",
+        story: "<b><u>Mam</b></u> fajne spodnie, ale puścił sz<b><u>ew</b></u>, <b><u>ch</b></u>yba go zaceruje",
+        desc: "have[hew] - mam",
         sentence1: [
                 "have"
         ],
@@ -2702,12 +2735,12 @@ id: [
         117
 ],
         img: [
-                "https://www.arbulang.com/img/fiszki1/364a.jpg"
+                "https://www.arbulang.com/img/fiszki1/399a.jpg"
         ],
         story: [
-                ""
+                "Jestem w parku. <b><u>Tu</b></u> (w tym parku) jest <b><u>dwa</b></u> koty"
         ],
-        desc: "two[] - ",
+        desc: "two[] - dwa",
         sentence1: [
                 "two"
         ],
