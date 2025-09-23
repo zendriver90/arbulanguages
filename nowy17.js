@@ -7882,3 +7882,275 @@ function isFiszkaActive2(className) {
 
                                     }
                                 }
+                                
+                                if (!flagaPrzycisku2 && flagaPrzycisku && (tablica10.length <= indexDivRange || tablica10.length === 0) && ostatniaWartosc < 3 && ostatniaWartosc > 1 && category === 'all' && number) {
+console.log('hej111', number);
+const newIndex5 = null;
+const newIndex10 = null;
+const newIndex10b3 = null;
+let newIndex10b4 = null;
+const newIndex3 = null;
+const newIndex3b = null;
+const newIndex10dd = null;
+let number1 = false;
+let number2 = false;
+let newIndex10d = (indexDiv === indexDiv0) ? 0 : indexDiv;
+console.log('hej107', indexDiv0, buttonindex);
+if (newIndex10d === 0) {
+    /// USUNIĘCIE PIERWSZEJ MINIATURY
+                showCombinedSentenceForLesson22b(
+            number1, number2, selectedCategory, matchingIndexes3, rodzaj, matchingIndexes2,
+            buttonindex, index50, lessonId1, lessonId2, lessonId3, fiszki, matchingIndexes,
+            startIndex, newIndex, newIndex3,  newIndex10, newIndex10b3, newIndex10b4, newIndex10dd, indexDiv, indexDiv0, indexDiv0b, indexDiv0d, newIndex10d, lessonsArray,
+            lesson1PartLength, lesson2PartLength, lesson3PartLength,
+            lesson1Sentences, lesson2Sentences, lesson3Sentences,
+            lesson1FirstPartLength, lesson2FirstPartLength, lesson3FirstPartLength,
+            lesson1SecondPartLength, lesson2SecondPartLength, lesson3SecondPartLength,
+            cumulativeFirstPartLength1, cumulativeFirstPartLength2, cumulativeFirstPartLength3,
+            lessonsArrayZ, matchingLessons5, matchingLessons5b, isSearching
+        );
+}
+            if (newIndex10d === 0) {
+    const currentIndexDiv = indexDiv;
+    setTimeout(() => {
+        tablica43.push(currentIndexDiv);
+            }, 0);
+/// WSTAWIENIE PIERWSZEJ LEKCJI PRZY ARBU WORLD
+            showCombinedSentenceForLesson(
+                number, selectedCategory, matchingIndexes3, rodzaj, matchingIndexes2,
+                buttonindex, index50, lessonId1, lessonId2, lessonId3, fiszki, matchingIndexes,
+                startIndex, newIndex, newIndex10, newIndex3, newIndex3b, newIndex10b3, newIndex10dd, indexDiv, indexDiv0, indexDiv0b, indexDiv0d, newIndex10d, lessonsArray,
+                lesson1PartLength, lesson2PartLength, lesson3PartLength,
+                lesson1Sentences, lesson2Sentences, lesson3Sentences,
+                lesson1FirstPartLength, lesson2FirstPartLength, lesson3FirstPartLength,
+                lesson1SecondPartLength, lesson2SecondPartLength, lesson3SecondPartLength,
+                cumulativeFirstPartLength1, cumulativeFirstPartLength2, cumulativeFirstPartLength3,
+                lessonsArrayZ, matchingLessons5, matchingLessons5b, isSearching
+            );
+
+    tablica55.push(true);
+            }
+            } else if (!flagaPrzycisku2 && flagaPrzycisku && (tablica10.length <= indexDivRange || tablica10.length === 0) && ostatniaWartosc < 4 && ostatniaWartosc > 2 && category === 'all' && number) {
+                let number = true;
+                let number1 = false;
+                let number2 = false;
+                const newIndex10 = null;
+                    const newIndex10d = null;
+                    const newIndex10b3 = null;
+                    let newIndex10b4 = null;
+                    const newIndex5 = null;
+                    const newIndex10dd = null;
+                const newIndex3 = (indexDiv === indexDiv0) ? 0 : indexDiv;
+if (newIndex3 === 0) {
+    /// WSTAWIENIE PIERWSZEJ MINIATURY
+                showCombinedSentenceForLesson22b(
+            number1, number2, selectedCategory, matchingIndexes3, rodzaj, matchingIndexes2,
+            buttonindex, index50, lessonId1, lessonId2, lessonId3, fiszki, matchingIndexes,
+            startIndex, newIndex, newIndex3, newIndex10, newIndex10b3, newIndex10b4, newIndex10dd, indexDiv, indexDiv0, indexDiv0b, indexDiv0d, newIndex10d, lessonsArray,
+            lesson1PartLength, lesson2PartLength, lesson3PartLength,
+            lesson1Sentences, lesson2Sentences, lesson3Sentences,
+            lesson1FirstPartLength, lesson2FirstPartLength, lesson3FirstPartLength,
+            lesson1SecondPartLength, lesson2SecondPartLength, lesson3SecondPartLength,
+            cumulativeFirstPartLength1, cumulativeFirstPartLength2, cumulativeFirstPartLength3,
+            lessonsArrayZ, matchingLessons5, matchingLessons5b, isSearching
+        );
+}
+                    tablica55.push(true);
+if (index50 === 0) {
+    //// WGRANIE MIEJSCA NA DRUGĄ LEKCJĘ
+    const indexDiv0b = indexDiv;
+        tablica43b.push(indexDiv0b);
+            przekazArgument0(tablica7[0], tablica3[2], undefined, true, tablica3[0], true, true, tablica3[1], tablica3[4], false, '', '', '', '', '100', indexDiv0, indexDiv0b, indexDiv0d, true, false, true);
+            } else if (index50 === 0 && tablica55[1] === true) {
+ostatniaWartosc === 4;
+}
+                                console.log('hejhej54', newIndex3);
+            if (newIndex === 0 && !buttonindex) {
+                            //// WGRANIE MIEJSCA NA DRUGĄ LEKCJĘ
+    const indexDiv0b = indexDiv;
+        tablica43b.push(indexDiv0b);
+                                console.log('hejhej51', tablica43b[tablica43b.length - 1]);
+
+            przekazArgument0(tablica7[0], tablica3[2], undefined, false, tablica3[0], true, true, tablica3[1], tablica3[4], false, '', '', '', '', '100', indexDiv0, indexDiv0b, indexDiv0d, true, false, true);
+            }
+        
+                    } else if (!flagaPrzycisku2 && flagaPrzycisku && (tablica10.length <= indexDivRange || tablica10.length === 0) && ostatniaWartosc < 5 && ostatniaWartosc > 3 && category === 'all' && number) {
+                            let number = true;
+                            let number1 = false;
+                            let number2 = false;
+                            numberb = true;
+                            const newIndex10d = null;
+                            const newIndex10b3 = null;
+                            const newIndex10dd = null;
+                            let newIndex10b4 = null;
+                            let newIndex5;
+                            const newIndex3 = null;
+const newIndex3b = null;
+                let newIndex10b = (indexDiv === indexDiv0) ? 0 : indexDiv;
+                let newIndex10 = (indexDiv === indexDiv0b) ? 0 : indexDiv;
+                                            console.log('hejhej511pomijane', indexDiv0);
+                                            console.log('hejhej511v', indexDiv0b);
+                /// USUNIĘCIE DRUGIEJ MINIATURY
+                            if (newIndex10b === 0) {
+                    showCombinedSentenceForLesson22b(
+        number1, number2, selectedCategory, matchingIndexes3, rodzaj, matchingIndexes2,
+        buttonindex, index50, lessonId1, lessonId2, lessonId3, fiszki, matchingIndexes,
+        startIndex, newIndex, newIndex5, newIndex10, newIndex10b3, newIndex10b4, newIndex10dd, indexDiv, indexDiv0, indexDiv0b, indexDiv0d, newIndex10d, lessonsArray,
+        lesson1PartLength, lesson2PartLength, lesson3PartLength,
+        lesson1Sentences, lesson2Sentences, lesson3Sentences,
+        lesson1FirstPartLength, lesson2FirstPartLength, lesson3FirstPartLength,
+        lesson1SecondPartLength, lesson2SecondPartLength, lesson3SecondPartLength,
+        cumulativeFirstPartLength1, cumulativeFirstPartLength2, cumulativeFirstPartLength3,
+        lessonsArrayZ, matchingLessons5, matchingLessons5b, isSearching
+    );
+            }
+                        if (newIndex10 === 0) {
+                                const currentIndexDiv = indexDiv;
+    setTimeout(() => {
+        tablica43.push(currentIndexDiv);
+            }, 0);
+                tablica55.push(true);
+/// PRODUKCJA DRUGIEJ LEKCJI
+            showCombinedSentenceForLesson(
+                number, selectedCategory, matchingIndexes3, rodzaj, matchingIndexes2,
+                buttonindex, index50, lessonId1, lessonId2, lessonId3, fiszki, matchingIndexes,
+                startIndex, newIndex, newIndex10, newIndex3, newIndex3b, newIndex10b3, newIndex10dd, indexDiv, indexDiv0, indexDiv0b, indexDiv0d, newIndex10d, lessonsArray,
+                lesson1PartLength, lesson2PartLength, lesson3PartLength,
+                lesson1Sentences, lesson2Sentences, lesson3Sentences,
+                lesson1FirstPartLength, lesson2FirstPartLength, lesson3FirstPartLength,
+                lesson1SecondPartLength, lesson2SecondPartLength, lesson3SecondPartLength,
+                cumulativeFirstPartLength1, cumulativeFirstPartLength2, cumulativeFirstPartLength3,
+                lessonsArrayZ, matchingLessons5, matchingLessons5b, isSearching
+            );
+
+    continue;
+            }
+
+                        } else if ((tablica10.length <= indexDivRange || tablica10.length === 0) && ostatniaWartosc < 6 && ostatniaWartosc > 4 && category === 'all') {
+                                                        let number = true;
+                            let number1 = false;
+                            let number2 = false;
+                            let newIndex5;
+                            let newIndex10d = null;
+                            const newIndex10b = null;
+                            const newIndex10b3 = null;
+                            let newIndex10b4 = null;
+                            const newIndex3b = (indexDiv === indexDiv0) ? 0 : indexDiv;
+tablica55.push(true);
+if (newIndex3b === 0) {
+    /// WSTAWIENIE DRUGIEJ MINIATURY
+                showCombinedSentenceForLesson22b(
+            number1, number2, selectedCategory, matchingIndexes3, rodzaj, matchingIndexes2,
+            buttonindex, index50, lessonId1, lessonId2, lessonId3, fiszki, matchingIndexes,
+            startIndex, newIndex, newIndex5,  newIndex10, newIndex10b3, newIndex10b4, newIndex10dd, indexDiv, indexDiv0, indexDiv0b, indexDiv0d, newIndex10d, lessonsArray,
+            lesson1PartLength, lesson2PartLength, lesson3PartLength,
+            lesson1Sentences, lesson2Sentences, lesson3Sentences,
+            lesson1FirstPartLength, lesson2FirstPartLength, lesson3FirstPartLength,
+            lesson1SecondPartLength, lesson2SecondPartLength, lesson3SecondPartLength,
+            cumulativeFirstPartLength1, cumulativeFirstPartLength2, cumulativeFirstPartLength3,
+            lessonsArrayZ, matchingLessons5, matchingLessons5b, isSearching
+        );
+}
+                                            tablica55.push(true);
+                                            console.log('hejhej511', indexDiv0);
+if (index50 === 0) {
+                            //// WGRANIE MIEJSCA NA TRZECIĄ LEKCJĘ
+    const indexDiv0b = indexDiv;
+        tablica43b.push(indexDiv0b);
+                                console.log('hejhej51', tablica43b[tablica43b.length - 1]);
+
+            przekazArgument0(tablica7[0], tablica3[2], undefined, true, tablica3[0], true, true, tablica3[1], tablica3[4], false, '', '', '', '', '100', indexDiv0, indexDiv0b);
+            } else if (index50 === 0 && tablica55[3] === true) {
+ostatniaWartosc === 6;
+}
+            
+            if (newIndex === 0 && !buttonindex) {
+                            //// WGRANIE MIEJSCA NA TRZECIĄ LEKCJĘ
+    const indexDiv0b = indexDiv;
+        tablica43b.push(indexDiv0b);
+                                console.log('hejhej51', tablica43b[tablica43b.length - 1]);
+
+            przekazArgument0(tablica7[0], tablica3[2], undefined, false, tablica3[0], true, true, tablica3[1], tablica3[4], false, '', '', '', '', '100', indexDiv0, indexDiv0b);
+            }
+                        } else if ((tablica10.length <= indexDivRange || tablica10.length === 0) && ostatniaWartosc > 5 && ostatniaWartosc < 7) {
+console.log('hej122', ostatniaWartosc);
+                                let number = true;
+                            let number1 = false;
+                            let number2 = false;
+                            numberb = true;
+                            const newIndex10b = null;
+                            let newIndex5;
+                            let newIndex10d = null;
+                            let newIndex10 = null;
+                            let newIndex10b4 = null;
+                            const newIndex3 = null;
+                            const newIndex3b = null;
+                                            let newIndex10b2 = (indexDiv === indexDiv0) ? 0 : indexDiv;
+                                                        let newIndex10b3 = (indexDiv === indexDiv0b) ? 0 : indexDiv;
+                                                        console.log('hejhej511tutaj ma się wgrywać usunięcie trzeciej', indexDiv0);
+                                                        console.log('hejhej511v', indexDiv0b);
+                                                                    /// USUNIĘCIE TRZECIEJ MINIATURY
+if (newIndex10b2 === 0) {
+        console.log('wykonuje się 88 (opóźnione)');
+        showCombinedSentenceForLesson22b(
+            number1, number2, selectedCategory, matchingIndexes3, rodzaj, matchingIndexes2,
+            buttonindex, index50, lessonId1, lessonId2, lessonId3, fiszki, matchingIndexes,
+            startIndex, newIndex, newIndex5, newIndex10, newIndex10b3, newIndex10b4, indexDiv, indexDiv0, indexDiv0b, indexDiv0d, newIndex10d, lessonsArray,
+            lesson1PartLength, lesson2PartLength, lesson3PartLength,
+            lesson1Sentences, lesson2Sentences, lesson3Sentences,
+            lesson1FirstPartLength, lesson2FirstPartLength, lesson3FirstPartLength,
+            lesson1SecondPartLength, lesson2SecondPartLength, lesson3SecondPartLength,
+            cumulativeFirstPartLength1, cumulativeFirstPartLength2, cumulativeFirstPartLength3,
+            lessonsArrayZ, matchingLessons5, matchingLessons5b, isSearching
+        );
+}
+                        if (newIndex10b3 === 0) {
+                                const currentIndexDiv = indexDiv;
+    setTimeout(() => {
+        tablica43.push(currentIndexDiv);
+            }, 0);
+/// PRODUKCJA TRZECIEJ LEKCJI (I NASTĘPNEJ)
+            showCombinedSentenceForLesson(
+                number, selectedCategory, matchingIndexes3, rodzaj, matchingIndexes2,
+                buttonindex, index50, lessonId1, lessonId2, lessonId3, fiszki, matchingIndexes,
+                startIndex, newIndex, newIndex10, newIndex3, newIndex3b, newIndex10b3, indexDiv, indexDiv0, indexDiv0b, indexDiv0d, newIndex10d, lessonsArray,
+                lesson1PartLength, lesson2PartLength, lesson3PartLength,
+                lesson1Sentences, lesson2Sentences, lesson3Sentences,
+                lesson1FirstPartLength, lesson2FirstPartLength, lesson3FirstPartLength,
+                lesson1SecondPartLength, lesson2SecondPartLength, lesson3SecondPartLength,
+                cumulativeFirstPartLength1, cumulativeFirstPartLength2, cumulativeFirstPartLength3,
+                lessonsArrayZ, matchingLessons5, matchingLessons5b, isSearching
+            );
+        tablica55.push(true);
+            continue;
+            }
+
+        } else if ((tablica10.length <= indexDivRange || tablica10.length === 0) && ostatniaWartosc < 8 && ostatniaWartosc > 6 && category === 'all') {
+                                                        let number = true;
+                                                        
+                            let number1 = false;
+                            let number2 = false;
+                            let newIndex5;
+                            let newIndex10d = null;
+                            let newIndex10b3 = null;
+                            
+                            let newIndex10 = null;
+tablica55.push(true);
+                let newIndex10b4 = (indexDiv === indexDiv0b) ? 0 : indexDiv;
+                console.log('hejhej511v', indexDiv0b);
+                                            tablica55.push(true);
+                                                        if (newIndex10b4 === 0) {
+                            number2 = true;
+                                /// WSTAWIENIE TRZECIEJ MINIATURY
+                    showCombinedSentenceForLesson22b(
+        number1, number2, selectedCategory, matchingIndexes3, rodzaj, matchingIndexes2,
+        buttonindex, index50, lessonId1, lessonId2, lessonId3, fiszki, matchingIndexes,
+        startIndex, newIndex, newIndex5, newIndex10, newIndex10b3, newIndex10b4, indexDiv, indexDiv0, indexDiv0b, indexDiv0d, newIndex10d, lessonsArray,
+        lesson1PartLength, lesson2PartLength, lesson3PartLength,
+        lesson1Sentences, lesson2Sentences, lesson3Sentences,
+        lesson1FirstPartLength, lesson2FirstPartLength, lesson3FirstPartLength,
+        lesson1SecondPartLength, lesson2SecondPartLength, lesson3SecondPartLength,
+        cumulativeFirstPartLength1, cumulativeFirstPartLength2, cumulativeFirstPartLength3,
+        lessonsArrayZ, matchingLessons5, matchingLessons5b, isSearching
+    );
+            } 

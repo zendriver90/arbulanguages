@@ -1,8 +1,18 @@
             
-            const tablica10 = [];
-            const displayedIds = [];
-function showCombinedSentenceForLesson(number, selectedCategory, matchingIndexes3, rodzaj, matchingIndexes2, buttonindex, index50, lessonIdToShow1, lessonIdToShow2, lessonIdToShow3, fiszki, matchingIndexes, startIndex, newIndex, newIndex10, newIndex3, newIndex3b, newIndex10b3, newIndex10dd, indexDiv, indexDiv0, indexDiv0b, indexDiv0d, newIndex10d, lessonsArray, lesson1PartLength, lesson2PartLength, lesson3PartLength, lesson1Sentences, lesson2Sentences, lesson3Sentences, lesson1FirstPartLength, lesson2FirstPartLength, lesson3FirstPartLength, lesson1SecondPartLength, lesson2SecondPartLength, lesson3SecondPartLength, cumulativeFirstPartLength1, cumulativeFirstPartLength2, cumulativeFirstPartLength3, lessonsArrayZ, matchingLessons5, matchingLessons5b, isSearching) {
 
+            const displayedIds = [];
+function showCombinedSentenceForLesson(
+        selectedCategory, matchingIndexes3, rodzaj, matchingIndexes2,
+        buttonindex, index55, index77, lessonIdToShow1, lessonIdToShow2, lessonIdToShow3, fiszki, matchingIndexes,
+        startIndex, newIndex, indexDiv,
+        lessonsArray, lesson1PartLength, lesson2PartLength, lesson3PartLength,
+        lesson1Sentences, lesson2Sentences, lesson3Sentences,
+        lesson1FirstPartLength, lesson2FirstPartLength, lesson3FirstPartLength,
+        lesson1SecondPartLength, lesson2SecondPartLength, lesson3SecondPartLength,
+        cumulativeFirstPartLength1, cumulativeFirstPartLength2, cumulativeFirstPartLength3,
+        lessonsArrayZ, matchingLessons5, matchingLessons5b, isSearching) {
+console.log('wykonuje się12');
+        console.log("index55 =", index55);
                             let tablica60 = [];
                 const matchingFiszki1 = fiszki.filter(fiszka => fiszka.id[1] === lessonIdToShow1);
                 const matchingFiszki2 = fiszki.filter(fiszka => fiszka.id[1] === lessonIdToShow2);
@@ -453,70 +463,33 @@ $container.css({
 $container.attr('data-lesson', indexDiv);
 $('.grid-container').append($container);
 
-// przycisk w grid-container
-const $button = $('<button></button>')
-    .addClass('run-button4')
-    .text('Uruchom-działa5')
-    .attr('data-index2', indexDiv)
-    .css({
-        position: 'absolute',
-        zIndex: 999999, // Ĺźeby zawsze byĹ na wierzchu
-        background: 'white',
-        border: '1px solid #aaa'
-    })
-    .on('click', function () {
-        const index5 = $(this).attr('data-index2');
-        const index55 = parseInt(index5, 10);
+const observer = new MutationObserver(() => {
+  // 🔹 Szukamy kontenerów powiązanych z indexDiv0b
+  const container3b    = document.querySelector(`.image-container3b[data-lesson="${index55 + 1}"]`);
+  const container3bCur = document.querySelector(`.image-container3b[data-lesson="${index55}"]`);
+  const container3     = document.querySelector(`.image-container3[data-lesson="${index55}"]`);
+  // --- pierwszy warunek: indexDiv0b ---
+  if (container3 && container3b && container3bCur) {
+    container3b.parentNode.insertBefore(container3, container3b);
+    console.log(`✅ Wstawiono55 container3 (data-lesson=${index55}) przed container3b (data-lesson=${index55 + 1})`);
 
-        setTimeout(() => {
-            console.log('KlikniÄto przycisk o indeksie:', index55);
-            przekazArgument0(
-                tablica7[0], tablica3[2], index55,
-                true, tablica3[0], true, true,
-                tablica3[1], tablica3[4],
-                false, '', '', '', '', '100', '', '', '', false, true, false
-            );
-        }, 100);
-    })
-    .appendTo('.grid-container');
+    container3bCur.remove();
+    console.log(`🗑️ Usunięto container3b o data-lesson=${index55}`);
 
-// Funkcja aktualizujÄca pozycjÄ przycisku wzglÄdem kontenera
-function updateButtonPosition() {
-    if ($container.length && $button.length) {
-        const offset = $container.offset(); // pozycja wzglÄdem dokumentu
-        const gridOffset = $('.grid-container').offset(); // pozycja grid-container
-        // ustaw pozycjÄ absolutnÄ w grid-container
-        $button.css({
-            top: offset.top - gridOffset.top - 10 + 'px',  // 10px nad kontenerem
-            left: offset.left - gridOffset.left + 10 + 'px'
-        });
-    }
-    requestAnimationFrame(updateButtonPosition);
-}
+    observer.disconnect();
+    return;
+  }
+});
 
-// Uruchamiamy pÄtlÄ aktualizujÄcÄ pozycjÄ
-updateButtonPosition();
-
-
-const $insertedContainer = $(`.image-container3b[data-lesson="${indexDiv + 1}"]`);
-
-if ($insertedContainer.length > 0) {
-    $container.insertBefore($insertedContainer.first());
-} else {
-    // JeĹli nie ma takiego kontenera, dodaj na koniec
-    $('.grid-container').append($container);
-}
-
+// obserwuj cały body i wszystkie poddrzewa
+observer.observe(document.body, { childList: true, subtree: true });
                     const srcWords = [srcWord1, srcWord2, srcWord3];
                     const srcWordsb = [srcWord1d, srcWord2d, srcWord3d];
                     const srcWordsf = [srcWord1f, srcWord2f, srcWord3f];
                     const srcWords2 = [srcWord1b, srcWord2b, srcWord3b];
-                                            console.log("srcWord1b:", srcWord1d);
-console.log("srcWord2bvv:", newIndex10dd, indexDiv);
-console.log("srcWord3b:", indexDiv);
+
                     // Tworzymy kontenery dynamicznie
 
-                    console.log('hej155', srcWordsb);
                     // Zmienna globalna przechowujĂÂca ÄšÂĂÂczny czas trwania wszystkich wideo
                     let videoDurations = [];
                     let totalDuration = 0;
@@ -536,7 +509,7 @@ console.log("srcWord3b:", indexDiv);
                             previousVideo.remove(); // UsuniĂÂcie poprzedniego wideo z kontenera
                         }
                     }
-                    if ((indexDiv && newIndex10dd === 0) && !isSearching && !number) {
+                    if (index55 === indexDiv) {
                         console.log('wykonuje siÄ22');
                         let funkcjaWywolana = false;
                         let stopButtonAdded = false;
@@ -707,7 +680,7 @@ $videoElement.on('loadedmetadata', function () {
 // Tworzenie przycisku "Stop"
                                 if (!stopButtonAdded) {
                                     const $stopButton = $('<img>')
-                                            .attr('src', 'https://www.arbulang.com/img/stopok2.png')
+                                            .attr('src', 'https://localhost/arbulanguage.com/img/stopok2.png')
                                             .css({
                                                 'display': 'none', // Ukryty na starcie
                                                 'position': 'absolute', // Precyzyjne pozycjonowanie wzglĂÂdem kontenera
@@ -725,11 +698,11 @@ $videoElement.on('loadedmetadata', function () {
                                                     if (!video.paused) {
                                                         video.pause();
                                                         // ZmieÄšÂ obrazek na "Play"
-                                                        $stopButton.attr('src', 'https://www.arbulang.com/img/play.png');
+                                                        $stopButton.attr('src', 'https://localhost/arbulanguage.com/img/play.png');
                                                     } else {
                                                         video.play();
                                                         // ZmieÄšÂ obrazek z powrotem na "Stop"
-                                                        $stopButton.attr('src', 'https://www.arbulang.com/img/stopok2.png');
+                                                        $stopButton.attr('src', 'https://localhost/arbulanguage.com/img/stopok2.png');
                                                     }
                                                 });
                                             });
@@ -919,7 +892,7 @@ $videoElement.on('loadedmetadata', function () {
 // Tworzenie przycisku "Stop"
                                 if (!stopButtonAdded) {
                                     const $stopButton = $('<img>')
-                                            .attr('src', 'https://www.arbulang.com/img/stopok2.png')
+                                            .attr('src', 'https://localhost/arbulanguage.com/img/stopok2.png')
                                             .css({
                                                 'display': 'none', // Ukryty na starcie
                                                 'position': 'absolute', // Precyzyjne pozycjonowanie wzglĂÂdem kontenera
@@ -937,11 +910,11 @@ $videoElement.on('loadedmetadata', function () {
                                                     if (!video.paused) {
                                                         video.pause();
                                                         // ZmieÄšÂ obrazek na "Play"
-                                                        $stopButton.attr('src', 'https://www.arbulang.com/img/play.png');
+                                                        $stopButton.attr('src', 'https://localhost/arbulanguage.com/img/play.png');
                                                     } else {
                                                         video.play();
                                                         // ZmieÄšÂ obrazek z powrotem na "Stop"
-                                                        $stopButton.attr('src', 'https://www.arbulang.com/img/stopok2.png');
+                                                        $stopButton.attr('src', 'https://localhost/arbulanguage.com/img/stopok2.png');
                                                     }
                                                 });
                                             });
@@ -966,891 +939,17 @@ $videoElement.on('loadedmetadata', function () {
                                 addVideo1b(0);
                             }, 200);
                         }
-                        } else if ((newIndex10d === 0 || newIndex10 === 0 || newIndex10b3 === 0) && !isSearching && number && !buttonindex) {
-                            console.log('dziaĹa7', newIndex10d, !isSearching, number);
-                            $('.image-container3b').each(function() {
-  this.style.setProperty('position', 'relative', 'important');
-  this.style.setProperty('z-index', '1', 'important');
-});
-    // === przygotowanie kontenera ===
-    const $gridContainer = $('.grid-container');
-    $gridContainer.css('position', 'relative');
-
-    // ===========================
-    // Funkcje i przyciski "nike" (tylko ramka podczas odliczania; fill po zakoĹczeniu)
-    // ===========================
-    function makeNikeButton(storageKey, title) {
-        const $btn = $('<button class="nike-button" aria-label="' + title + '"></button>');
-        $btn.html('<span class="nike-icon">â</span>');
-        $btn.data('storageKey', storageKey);
-        $btn.css({
-            width: '44px',
-            height: '44px',
-            padding: '0',
-            display: 'flex',
-            alignItems: 'center',
-            justifyContent: 'center',
-            'border-radius': '8px',
-            border: '3px solid #aaa',
-            'background-color': 'transparent',
-            color: '#444',
-            cursor: 'pointer',
-            position: 'relative',
-            overflow: 'hidden',
-            'font-size': '18px',
-            'line-height': '1'
-        });
-        return $btn;
-    }
-
-function restoreNikeButtonState($btn) {
-    const key = $btn.data('storageKey');
-    if (localStorage.getItem(key) === 'done') {
-        $btn.addClass('filled');
-        $btn.css({
-            'background-color': 'green',
-            color: 'black',        // ikona â czarna
-            border: '3px solid green'
-        });
-    } else {
-        $btn.removeClass('filled');
-        $btn.css({
-            'background-color': 'transparent',
-            color: '#444',
-            border: '3px solid #aaa'
-        });
-    }
-}
-
-function setNikeActive($btn) {
-    $btn.addClass('active');
-    $btn.css({
-        'border': '5px solid green',  // teraz grubsza ramka
-        'background-color': 'transparent',
-        color: '#444'                 // ikona pozostaje czarna
-    });
-}
-
-    function clearNikeActive($btn) {
-        $btn.removeClass('active');
-        if (!$btn.hasClass('filled')) $btn.css('border-color', '#aaa');
-    }
-
-    function resetNikeButtons() {
-        [$nike1, $nike2, $nike3].forEach(btn => {
-            if (!btn.hasClass('filled')) {
-                btn.find('.fill-bar').remove();
-                btn.css({'background-color':'transparent', color:'#444', 'border-color': '#aaa'});
-            }
-            btn.removeClass('active');
-        });
-    }
-
-    // finishNikeFill -> dopiero tutaj tworzymy fill-bar i zapisujemy stan
-function finishNikeFill($btn, storageKey) {
-    if (localStorage.getItem(storageKey) === 'done') {
-        restoreNikeButtonState($btn);
-        return;
-    }
-
-    // UsuĹ ewentualne active klasy
-    $btn.removeClass('active');
-
-    // Ustaw styl "peĹnego wypeĹnienia" â zielone tĹo, czarna ikona
-    $btn.addClass('filled');
-    $btn.css({
-        'background-color': 'green',
-        color: 'black',          // ikona â czarna
-        border: '3px solid green'
-    });
-
-    // Zapisz w localStorage
-    localStorage.setItem(storageKey, 'done');
-}
-
-    // convenience: jeĹli chcesz aby nike "samo" uruchomiĹo i samo skoĹczyĹo (np. przypadek tablica55)
-function startNikeAuto(duration, $btn, storageKey) {
-    if (localStorage.getItem(storageKey) === 'done') {
-        restoreNikeButtonState($btn);
-        return;
-    }
-
-    // ustaw ramkÄ aktywnÄ dla tego przycisku
-    setNikeActive($btn);
-
-    // po odliczaniu wypeĹnienie
-    setTimeout(() => {
-        finishNikeFill($btn, storageKey);
-    }, duration);
-}
-    // Tworzymy 3 "nike" przyciski
-// Tworzymy 3 "nike" przyciski
-const $nike1 = makeNikeButton('nike1Done', 'Nike 1');
-const $nike2 = makeNikeButton('nike2Done', 'Nike 2');
-const $nike3 = makeNikeButton('nike3Done', 'Nike 3');
-
-// Kontener na przyciski â teraz GLOBALNY, a nie w grid-container
-const $buttonsContainer = $('<div id="nikeBar"></div>').css({
-    position: 'fixed',     // <<< klucz
-    bottom: '10px',        // odlegĹoĹÄ od doĹu ekranu
-    right: '20px',         // odlegĹoĹÄ od prawej
-    display: 'flex',
-    flexDirection: 'row',
-    gap: '12px',
-    zIndex: 9999999999,          // <<< klucz â wyĹźej niĹź wszystko
-    'background-color': 'rgba(255,255,255,0.8)',
-    'padding': '8px',
-    'border-radius': '12px',
-    'box-shadow': '0 2px 8px rgba(0,0,0,0.3)'
-});
-
-$buttonsContainer.append($nike1, $nike2, $nike3);
-$('body').append($buttonsContainer); // <<< WAĹťNE â do body, a nie do grid-container
-
-    // PrzywrĂłÄ stan z localStorage dla kaĹźdego nike
-    [$nike1, $nike2, $nike3].forEach(btn => restoreNikeButtonState(btn));
-
-    // opcjonalne klikniÄcia (jeĹźeli chcesz manualne uruchamianie)
-    $nike1.on('click', () => {
-        if (localStorage.getItem('nike1Done') !== 'done') {
-            // pokaĹź ramkÄ (active) i ustaw szybkÄ auto-symulacjÄ fill po 8s:
-            startNikeAuto(8000, $nike1, 'nike1Done');
-        }
-    });
-    $nike2.on('click', () => {
-        if (localStorage.getItem('nike2Done') !== 'done') startNikeAuto(8000, $nike2, 'nike2Done');
-    });
-    $nike3.on('click', () => {
-        if (localStorage.getItem('nike3Done') !== 'done') startNikeAuto(8000, $nike3, 'nike3Done');
-    });
-
-    // JeĹźeli chcesz, aby przy tablica55 uruchamiaĹ siÄ automatycznie, uĹźyj startNikeAuto
-    if (tablica55 && tablica55[0] === true) {
-        // uruchamia ramkÄ natychmiast; po 8000ms wypeĹni siÄ
-        startNikeAuto(8000, $nike1, 'nike1Done');
-    }
-    if (tablica55 && tablica55[2] === true) {
-        startNikeAuto(8000, $nike2, 'nike2Done');
-    }
-
-    // ===========================
-    // Dalej: TwĂłj oryginalny kontener + licznik (integracja)
-    // ===========================
-    $container.css({
-      'position': 'relative',
-      'height': '100px',
-      'overflow': 'hidden',
-      'border': '1px solid #ccc'
-    });
-
-
-
-// Tworzenie licznika w kontenerze
-const $countdown = $('<p>')
-    .attr('id', 'countdown-timer')
-    .text('10 sekund do uruchomienia filmĂłw');
-
-$container.append($countdown);
-
-// ResponsywnoĹÄ dla smartfona
-const style = document.createElement('style');
-style.innerHTML = `
-  @media (max-width: 480px) {
-    #countdown-timer {
-      font-size: 14px !important; /* mniejsze litery na telefon */
-      width: 200px !important;    /* dostosowana szerokoĹÄ */
-    }
-  }
-`;
-document.head.appendChild(style);
-
-// === INTEGRACJA: przed startem lokalnego licznika ustawiamy tylko RAMKÄ na zielono ===
-if (localStorage.getItem('nike1Done') !== 'done') {
-    setNikeActive($nike1);
-}
-
-// Start lokalnego licznika (30s)
-let counter = 10;
-let countdownInterval = setInterval(() => {
-    counter--;
-    $countdown.text(counter + ' sekund do uruchomienia filmĂłw');
-
-    if (counter === 0) {
-        clearInterval(countdownInterval);
-        $countdown.remove();
-
-        finishNikeFill($nike1, 'nike1Done');
-
-        przekazArgument0(
-            tablica7[0], tablica3[2], undefined, false,
-            tablica3[0], true, true, tablica3[1], tablica3[4],
-            false, '', '', '', '', '100', indexDiv0, indexDiv0b, indexDiv0d, true, false, true
-        );
-    }
-}, 1000);
-
-    window.myCountdownInterval = countdownInterval;
-
-    // Kontener na tekst + propozycje
-    const $textContainer = $('<div></div>').css({
-      'position': 'absolute',
-      'top': '20px',
-      'left': '0',
-      'right': '0',
-      'bottom': '0',
-      'overflow-y': 'auto',
-      'padding': '0 10px',
-      'font-size': '10px',
-      'text-align': 'center',
-      'background-color': '#f9f9f9'
-    });
-
-$textContainer.append(
-    $('<p>')
-        .text('MoĹźe zainteresujÄ CiÄ kadry z tych filmĂłw:')
-        .addClass('text-intro')
-);
-    // Iteracja Twoich list (srcWords2, srcWordsb, srcWordsf)
-srcWords2.forEach((name, idxLesson) => {
-    if (!name) return;
-
-    const thumb = srcWordsb[idxLesson] || '';
-    const textF = srcWordsf[idxLesson] || '';
-
-    const $item = $('<div></div>').addClass('video-item');
-    const $img = $('<img>').attr('src', thumb).attr('alt', name)
-        .on('error', function() { 
-            $(this).css({'background':'#ccc'}).attr('alt','Brak miniatury'); 
-        })
-        .addClass('video-thumb');
-
-    const $rightCol = $('<div></div>').addClass('video-text');
-    const $videoName = $('<p></p>').text(name).addClass('video-name');
-    const $videoTextF = $('<div></div>').addClass('video-subtext').text(textF);
-
-    // ===== kontener opisu + ikonka =====
-    const $descContainer = $('<div></div>').css({
-        display: 'flex',
-        alignItems: 'center',
-        gap: '8px'
-    });
-    $videoTextF.css({margin:0, flex:1});
-    // mapujemy zestawy (fallback do matchingFiszki1 jeĹli brak ktĂłregokolwiek)
-const matchingFiszkiArr = [
-    (typeof matchingFiszki1 !== 'undefined') ? matchingFiszki1 : null,
-    (typeof matchingFiszki2 !== 'undefined') ? matchingFiszki2 : null,
-    (typeof matchingFiszki3 !== 'undefined') ? matchingFiszki3 : null
-];
-const firstLenArr = [
-    (typeof lesson1FirstPartLength !== 'undefined') ? lesson1FirstPartLength : 0,
-    (typeof lesson2FirstPartLength !== 'undefined') ? lesson2FirstPartLength : 0,
-    (typeof lesson3FirstPartLength !== 'undefined') ? lesson3FirstPartLength : 0
-];
-const partLenArr = [
-    (typeof lesson1PartLength !== 'undefined') ? lesson1PartLength : 0,
-    (typeof lesson2PartLength !== 'undefined') ? lesson2PartLength : 0,
-    (typeof lesson3PartLength !== 'undefined') ? lesson3PartLength : 0
-];
-
-// tworzymy pojedynczÄ ikonkÄ (jak wczeĹniej)
-const $icon = $('<span></span>').text('đ').css({
-    cursor: 'pointer',
-    fontSize: '20px',
-    userSelect: 'none'
-}).attr('title','PokaĹź zdanie');
-
-// dopasuj wyglÄd kontenera opisu jak wczeĹniej
-$descContainer.append($videoTextF, $icon);
-$rightCol.append($videoName, $descContainer);
-$item.append($img, $rightCol);
-$textContainer.append($item);
-
-// handler klikniÄcia â uĹźywamy idxLesson, Ĺźeby wiedzieÄ ktĂłre zdanie ĹadowaÄ
-$icon.on('click', function() {
-    // okreĹl ktĂłry "zestaw" wywoĹaÄ (1..3). UĹźyj idxLesson (0->1, 1->2, 2->3). JeĹli idxLesson > 2 uĹźyj 1.
-    const which = (typeof idxLesson === 'number' && idxLesson >= 0 && idxLesson <= 2) ? (idxLesson + 1) : 1;
-    const cfgF = matchingFiszkiArr[which - 1] || matchingFiszkiArr[0];
-    const cfgFirstLen = firstLenArr[which - 1] || firstLenArr[0];
-    const cfgPartLen = partLenArr[which - 1] || partLenArr[0];
-
-    // wywoĹaj generator (moĹźe dziaĹaÄ asynchronicznie i potem ustawia globalne sentenceXX)
-    addBackgroundToText(cfgF, matchingIndexes, String(which), true, cfgFirstLen, cfgPartLen, matchingLessons5b);
-
-    // polling: czekamy aĹź odpowiednie sentenceXX bÄdÄ gotowe
-    const intervalMs = 50;
-    const timeoutMs = 3000;
-    let waited = 0;
-
-    const checker = setInterval(() => {
-        let ready = false;
-
-        if (which === 1) {
-            ready = (typeof sentence10 !== 'undefined' && sentence10 && sentence10.trim() !== '') ||
-                    (typeof sentence11 !== 'undefined' && sentence11 && sentence11.trim() !== '');
-        } else if (which === 2) {
-            ready = (typeof sentence20 !== 'undefined' && sentence20 && sentence20.trim() !== '') ||
-                    (typeof sentence22 !== 'undefined' && sentence22 && sentence22.trim() !== '');
-        } else {
-            ready = (typeof sentence30 !== 'undefined' && sentence30 && sentence30.trim() !== '') ||
-                    (typeof sentence33 !== 'undefined' && sentence33 && sentence33.trim() !== '');
-        }
-
-        if (ready) {
-            clearInterval(checker);
-
-            // bezpieczne id dla bloku (fallbacky)
-            const id1 = (matchingFiszkiArr[0] && matchingFiszkiArr[0][0]?.id?.[1]) ? matchingFiszkiArr[0][0].id[1] : 'unknown1';
-            const id2 = (matchingFiszkiArr[1] && matchingFiszkiArr[1][0]?.id?.[1]) ? matchingFiszkiArr[1][0].id[1] : id1;
-            const id3 = (matchingFiszkiArr[2] && matchingFiszkiArr[2][0]?.id?.[1]) ? matchingFiszkiArr[2][0].id[1] : id1;
-
-            // budujemy HTML tylko dla wybranego bloku
-            let html = '';
-            if (which === 1) {
-                html = `
-<div class="sentence-blockB" data-name="${id1}">
-    ${sentence10 || ''}${sentence11 || ''}<br>
-    <div class="sentence1b">${(typeof sentence1b !== 'undefined' ? sentence1b : '')}</div>
-    <div class="sentence1b2">${(typeof sentence1b2 !== 'undefined' ? sentence1b2 : '')}</div>
-</div>`;
-            } else if (which === 2) {
-                html = `
-<div class="sentence-blockB" data-name="${id2}">
-    ${sentence20 || ''}${sentence22 || ''}<br>
-    <div class="sentence1b2a">${(typeof sentence1b2a !== 'undefined' ? sentence1b2a : '')}</div>
-    <div class="sentence1b22">${(typeof sentence1b22 !== 'undefined' ? sentence1b22 : '')}</div>
-</div>`;
-            } else {
-                html = `
-<div class="sentence-blockB" data-name="${id3}">
-    ${sentence30 || ''}${sentence33 || ''}<br>
-    <div class="sentence1c2a">${(typeof sentence1c2a !== 'undefined' ? sentence1c2a : '')}</div>
-    <div class="sentence1c22">${(typeof sentence1c22 !== 'undefined' ? sentence1c22 : '')}</div>
-</div>`;
-            }
-
-            // PodmieĹ tylko opisowy kontener i doĹÄcz ikonÄ z powrotem (Ĺźeby nie znikĹa)
-            $descContainer.empty().append(html, $icon);
-            return;
-        }
-
-        waited += intervalMs;
-        if (waited >= timeoutMs) {
-            clearInterval(checker);
-            console.warn('addBackgroundToText: brak wyniku w czasie oczekiwania dla zdania', which);
-            // opcjonalnie: przywrĂłÄ oryginalny opis i ikonÄ
-            $descContainer.empty().append($videoTextF, $icon);
-        }
-    }, intervalMs);
-});
-});
-
-    $container.append($textContainer);
-    return;
-} else if ((newIndex10 === 0 || newIndex10b3 === 0) && !isSearching && number) {
-            if (window.myCountdownInterval) {
-        clearInterval(window.myCountdownInterval); // zatrzymanie licznika
-        $('#countdown-timer').remove();           // usuniĂÂcie elementu
-        window.myCountdownInterval = null;        // wyczyszczenie referencji
-    }
-                        console.log('hej33b', buttonindex);
-                        let funkcjaWywolana = false;
-                        let stopButtonAdded = false;
-                        if (indexDiv % 2 === 0) {
-                            function addVideo1(index) {
-                                console.log('hej80', index);
-                                // SprawdÄšĹ, czy jesteÄšÂmy poza zakresem tablicy
-                                if (index >= srcWords.length && !funkcjaWywolana) {
-                                    console.log("wykonuje siĂÂ");
-                                    funkcjaWywolana = true;
-                                }
-                                // UsuÄšÂ poprzednie wideo
-                                removePreviousVideo();
-
-                                console.log('hej78', index);
-
-                                // Dodaj div z wideo do tÄšÂa kontenera
-                                const $vidDiv = $('<div>').addClass('background-video').css({
-                                    'z-index': '1' // Ustaw z-index dla wideo na niÄšĹşszy
-                                });
-
-                                const $videoElement = $('<video>').attr({
-                                    'autoplay': true,
-                                    'muted': true,
-                                    'loop': true
-                                }).css({
-                                    'z-index': '1' // Ustaw z-index dla wideo na niÄšĹşszy
-                                });
-                                if (window.matchMedia("(min-width: 999px)").matches) {
-                                    // Dodaj klasĂÂ CSS zaleÄšĹşnie od indeksu wideo
-                                    if (index === 0) {
-                                        $videoElement.addClass('scaled-video');
-                                    } else {
-                                        $videoElement.addClass('next-video');
-                                    }
-                                }
-                                // UtwÄĹrz element <source> dla wideo i ustaw atrybuty
-
-                                const $sourceElement = $('<source>').attr({
-                                    'src': srcWords[index], // Poprawne uÄšĹşycie interpolacji
-                                    'type': 'video/mp4'     // Typ pliku wideo
-                                });
-
-                                // Dodaj element source do elementu video
-                                $sourceElement.appendTo($videoElement);
-                                // Dodaj element video do diva dla wideo
-                                $videoElement.appendTo($vidDiv);
-                                // Dodaj element <source> do elementu <video>
-
-                                // ObsÄšÂuga bÄšÂĂÂdu ÄšÂadowania wideo
-                                $videoElement.onerror = function () {
-                                    console.error('Nie moÄšĹşna zaÄšÂadowaĂÂ pliku wideo.');
-                                };
-                                let currentIndexValue = [];
-                                // Funkcja obsÄšÂugi zdarzenia loadedmetadata
-$videoElement.hide(); // Ukrycie wideo przed zaÄšÂadowaniem
-
-$videoElement.on('loadedmetadata', function () {
-    $videoElement.show(); // PokaÄšĹş wideo po zaÄšÂadowaniu metadanych
-
-    const videoDuration = this.duration;
-    videoDurations[index] = videoDuration;
-    console.log('tablica77', totalDuration);
-
-    $videoElement.on('timeupdate', function () {
-        let adjustedProgress = 0;
-        for (let i = 0; i < index; i++) {
-            adjustedProgress += (videoDurations[i] / totalDuration) * 100;
-        }
-        adjustedProgress += (this.currentTime / videoDuration) * (videoDurations[index] / totalDuration) * 100;
-        updateProgress(adjustedProgress);
-        console.log('hej78', index);
-
-        if (!currentIndexValue.includes(index)) {
-            currentIndexValue.push(index);
-            console.log('hej70', currentIndexValue);
-            if (currentIndexValue[0] === 0 || currentIndexValue[0] === 1 || currentIndexValue[0] === 2) {
-                addBackgroundToText(matchingFiszki1, matchingIndexes, currentIndexValue, true, lesson1FirstPartLength, lesson1PartLength, matchingLessons5b);
-            }
-        }
-
-        if ($videoElement[0].duration - $videoElement[0].currentTime < 1) {
-            console.log('Wideo zakoÄšÂczone, uruchamiam nastĂÂpne.');
-            addVideo1(index + 1);
-            updateProgress(0);
-        }
-    });
-});
-                                addScenes(index);
-                                // Dodaj div z wideo do tÄšÂa kontenera
-                                $vidDiv.appendTo($container);
-                                function updateProgress(progress) {
-                                    // Aktualizuj pasek postĂÂpu na dole kontenera
-                                    $('.progress-bar').css('width', progress + '%');
-                                }
-
-                                // Inicjalizacja paska postĂÂpu
-                                const $progressBar = $('<div>').addClass('progress-bar');
-                                if (window.matchMedia("(min-width: 999px)").matches) {
-                                    $progressBar.css({
-                                        'position': 'absolute',
-                                        'z-index': '2',
-                                        'bottom': '0',
-                                        'left': '0',
-                                        'height': '7px', // WysokoÄšÂĂÂ paska postĂÂpu
-                                        'background-color': 'green', // Kolor paska postĂÂpu
-                                        'width': '140%', // Delikatne powiĂÂkszenie paska postĂÂpu o 2% w kaÄšĹşdym kierunku
-                                        'margin-bottom': '-2%',
-                                        'margin-left': '-4%',
-                                        'margin-right': '-4%' // Zapewnienie rÄĹwnowagi dla powiĂÂkszenia paska postĂÂpu
-                                    });
-                                } else {
-                                    $progressBar.css({
-                                        'position': 'absolute',
-                                        'z-index': '2',
-                                        'bottom': '0px',
-                                        'left': '0px',
-                                        'height': '7px', // WysokoÄšÂĂÂ paska postĂÂpu
-                                        'background-color': 'green', // Kolor paska postĂÂpu
-                                        'width': '100%' // Delikatne powiĂÂkszenie paska postĂÂpu o 2% w kaÄšĹşdym kierunku
-                                    });
-                                }
-                                $progressBar.appendTo($container);
-// Funkcja dodajĂÂca nowe elementy <div>
-                                function addScenes(index) {
-                                    // SprawdÄšĹ, czy istnieje element <div> o klasie 'scene-description'
-                                    let $sceneDiv = $container.find('.scene-description');
-
-                                    if ($sceneDiv.length) {
-                                        // JeÄšÂli istnieje, wyczyÄšÂĂÂ jego zawartoÄšÂĂÂ
-                                        $sceneDiv.empty();
-                                    } else {
-                                        // JeÄšÂli nie istnieje, stwÄĹrz nowy element <div>
-                                        $sceneDiv = $('<div>').addClass('scene-description').appendTo($container);
-                                    }
-
-                                    // Dodaj nowy tekst do <div>
-                                    $sceneDiv.text(`Scena z filmu ${srcWords2[index]}`);
-
-                                    if (window.matchMedia("(max-width: 999px)").matches) {
-                                        if (indexDiv % 2 === 0) {
-                                            console.log('Warunek podzielnoÄšÂci przez 2 speÄšÂniony2');
-                                            // ZmieÄšÂ CSS paska napisu, aby wyÄšÂwietlaÄšÂ siĂÂ po lewej stronie kontenera
-                                            $sceneDiv.css({
-                                                'position': 'relative',
-                                                'margin-top': '-140px',
-                                                'margin-left': '-450px',
-                                                'text-align': 'left',
-                                                'background-color': 'orange',
-                                                'z-index': '9999999'
-                                            });
-                                        } else if (indexDiv % 1 === 0 || indexDiv % 3 === 0 || indexDiv % 5 === 0) {
-                                            console.log('Warunek podzielnoÄšÂci przez 1 speÄšÂniony2');
-                                            // ZmieÄšÂ CSS paska napisu, aby wyÄšÂwietlaÄšÂ siĂÂ po lewej stronie kontenera
-                                            $sceneDiv.css({
-                                                'position': 'relative',
-                                                'margin-top': '-140px',
-                                                'margin-right': '-20px',
-                                                'text-align': 'left',
-                                                'background-color': 'blue',
-                                                'z-index': '99999999999'
-                                            });
-                                        }
-                                    }
-                                }
-
-
-// Tworzenie przycisku "Stop"
-                                if (!stopButtonAdded) {
-                                    const $stopButton = $('<img>')
-                                            .attr('src', 'https://www.arbulang.com/img/stopok2.png')
-                                            .css({
-                                                'display': 'none', // Ukryty na starcie
-                                                'position': 'absolute', // Precyzyjne pozycjonowanie wzglĂÂdem kontenera
-                                                'top': '-15px',
-                                                'left': '20px',
-                                                'width': '40px',
-                                                'height': '40px',
-                                                'z-index': '999999',
-                                                'cursor': 'pointer' // Ustawienie kursora jako wskaÄšĹnik
-                                            })
-                                            .on('click', function () {
-                                                // PĂÂtla po wszystkich elementach wideo i zatrzymywanie kaÄšĹşdego z nich
-                                                $('video').each(function () {
-                                                    const video = this;
-                                                    if (!video.paused) {
-                                                        video.pause();
-                                                        // ZmieÄšÂ obrazek na "Play"
-                                                        $stopButton.attr('src', 'https://www.arbulang.com/img/play.png');
-                                                    } else {
-                                                        video.play();
-                                                        // ZmieÄšÂ obrazek z powrotem na "Stop"
-                                                        $stopButton.attr('src', 'https://www.arbulang.com/img/stopok2.png');
-                                                    }
-                                                });
-                                            });
-
-                                    // Dodanie przycisku do kontenera
-                                    $stopButton.appendTo($container);
-
-                                    // Pokazywanie przycisku na hover kontenera
-                                    $container.on('mouseover', function () {
-                                        $stopButton.show();
-                                    });
-
-                                    // Ukrywanie przycisku, gdy mysz opuÄšÂci kontener
-                                    $container.on('mouseout', function () {
-                                        $stopButton.hide();
-                                    });
-
-                                    stopButtonAdded = true;  // Flaga ustawiona na true, gdy przycisk zostaÄšÂ dodany
-                                }
-                                // Pobierz numer lekcji z data-lesson kontenera
-const lessonNumber = $container.attr('data-lesson');
-
-// Tworzymy przycisk tylko jeĹli jeszcze go nie ma w kontenerze
-
-    const $buttonb2 = $('<button></button>')
-        .addClass('run-button3')
-        .text(`OtwĂłrz lekcjÄ`) // faktyczny numer lekcji
-        .attr('data-lesson-number', lessonNumber)
-        .css({
-            position: 'absolute',
-            top: '5px',
-            right: '5px',
-            'z-index': 2000,
-            color: 'white',
-            'background-color': '#007bff',
-            border: 'none',
-            'border-radius': '4px',
-            padding: '5px 10px',
-            cursor: 'pointer'
-        });
-
-    // KlikniÄcie otwiera link do caĹej trĂłjki (lekcji)
-    $buttonb2.on('click', function () {
-        const lessonNum = parseInt($(this).attr('data-lesson-number'), 10);
-        const startIndex = (lessonNum - 1) * 3 + 1;
-        const link = `demo1angielski.html?category=${selectedCategory}&data=${startIndex},${startIndex + 1},${startIndex + 2}`;
-        window.open(link, '_blank');
-    });
-
-    $container.append($buttonb2);
-                            }
-                            setTimeout(function () {
-                                addVideo1(0);
-                            }, 200);
-                        } else if (indexDiv === 1 || indexDiv === 11 || indexDiv === 13 || indexDiv === 17 || indexDiv === 19 || indexDiv === 23 || indexDiv === 29 || indexDiv === 31 || indexDiv === 37 || indexDiv === 41 || indexDiv === 43 || indexDiv % 3 === 0 || indexDiv % 5 === 0 || indexDiv % 7 === 0) {
-                            function addVideo1b(index) {
-                                console.log('hej80', index);
-                                // SprawdÄšĹ, czy jesteÄšÂmy poza zakresem tablicy
-                                if (index >= srcWords.length && !funkcjaWywolana) {
-                                    console.log("wykonuje siĂÂ");
-                                    funkcjaWywolana = true;
-                                }
-                                // UsuÄšÂ poprzednie wideo
-                                removePreviousVideo();
-
-                                console.log('hej78', index);
-
-                                // Dodaj div z wideo do tÄšÂa kontenera
-                                const $vidDiv = $('<div>').addClass('background-video22').css({
-                                    'z-index': '1' // Ustaw z-index dla wideo na niÄšĹşszy
-                                });
-
-                                const $videoElement = $('<video>').attr({
-                                    'autoplay': true,
-                                    'muted': true,
-                                    'loop': true
-                                }).css({
-                                    'z-index': '1' // Ustaw z-index dla wideo na niÄšĹşszy
-                                });
-                                if (window.matchMedia("(min-width: 999px)").matches) {
-                                    // Dodaj klasĂÂ CSS zaleÄšĹşnie od indeksu wideo
-                                    if (index === 0) {
-                                        $videoElement.addClass('scaled-video');
-                                    } else {
-                                        $videoElement.addClass('next-video');
-                                    }
-                                }
-                                // UtwÄĹrz element <source> dla wideo i ustaw atrybuty
-
-                                const $sourceElement = $('<source>').attr({
-                                    'src': srcWords[index], // Poprawne uÄšĹşycie interpolacji
-                                    'type': 'video/mp4'     // Typ pliku wideo
-                                });
-
-                                // Dodaj element source do elementu video
-                                $sourceElement.appendTo($videoElement);
-                                // Dodaj element video do diva dla wideo
-                                $videoElement.appendTo($vidDiv);
-                                // Dodaj element <source> do elementu <video>
-
-                                // ObsÄšÂuga bÄšÂĂÂdu ÄšÂadowania wideo
-                                $videoElement.onerror = function () {
-                                    console.error('Nie moÄšĹşna zaÄšÂadowaĂÂ pliku wideo.');
-                                };
-                                let currentIndexValue = [];
-                                // Funkcja obsÄšÂugi zdarzenia loadedmetadata
-                                $videoElement.on('loadedmetadata', function () {
-                                    const videoDuration = this.duration;
-                                    videoDurations[index] = videoDuration;
-                                    console.log('tablica77', totalDuration);
-                                    $videoElement.on('timeupdate', function () {
-                                        let adjustedProgress = 0;
-                                        for (let i = 0; i < index; i++) {
-                                            adjustedProgress += (videoDurations[i] / totalDuration) * 100;
-                                        }
-                                        adjustedProgress += (this.currentTime / videoDuration) * (videoDurations[index] / totalDuration) * 100;
-                                        updateProgress(adjustedProgress);
-                                        console.log('hej78', index);
-                                        // SprawdÄšĹ, czy wartoÄšÂĂÂ index nie zostaÄšÂa jeszcze dodana do tablicy currentIndex
-                                        if (!currentIndexValue.includes(index)) {
-                                            // Dodaj index do tablicy currentIndex
-                                            currentIndexValue.push(index);
-                                            console.log('hej70', currentIndexValue);
-                                            // WywoÄšÂaj funkcjĂÂ addBackgroundToText tylko raz
-                                            if (currentIndexValue[0] === 0 || currentIndexValue[0] === 1 || currentIndexValue[0] === 2) {
-                                                addBackgroundToText(matchingFiszki1, matchingIndexes, currentIndexValue, true, lesson1FirstPartLength, lesson1PartLength, matchingLessons5b);
-                                            }
-                                        }
-
-                                        // SprawdÄšĹ, czy wideo zostaÄšÂo zakoÄšÂczone
-                                        if ($videoElement[0].duration - $videoElement[0].currentTime < 1) {
-                                            console.log('Wideo zakoÄšÂczone, uruchamiam nastĂÂpne.');
-                                            // OdtwÄĹrz nastĂÂpne wideo po zakoÄšÂczeniu poprzedniego
-                                            addVideo1b(index + 1);
-                                            updateProgress(0);
-                                        }
-                                    });
-                                });
-                                addScenes(index);
-                                // Dodaj div z wideo do tÄšÂa kontenera
-                                $vidDiv.appendTo($container);
-                                function updateProgress(progress) {
-                                    // Aktualizuj pasek postĂÂpu na dole kontenera
-                                    $('.progress-bar').css('width', progress + '%');
-                                }
-
-                                // Inicjalizacja paska postĂÂpu
-                                const $progressBar = $('<div>').addClass('progress-bar');
-                                if (window.matchMedia("(min-width: 999px)").matches) {
-                                    $progressBar.css({
-                                        'position': 'absolute',
-                                        'z-index': '2',
-                                        'bottom': '0',
-                                        'left': '0',
-                                        'height': '7px', // WysokoÄšÂĂÂ paska postĂÂpu
-                                        'background-color': 'green', // Kolor paska postĂÂpu
-                                        'width': '140%', // Delikatne powiĂÂkszenie paska postĂÂpu o 2% w kaÄšĹşdym kierunku
-                                        'margin-bottom': '-2%',
-                                        'margin-left': '-4%',
-                                        'margin-right': '-4%' // Zapewnienie rÄĹwnowagi dla powiĂÂkszenia paska postĂÂpu
-                                    });
-                                } else {
-                                    $progressBar.css({
-                                        'position': 'absolute',
-                                        'z-index': '2',
-                                        'bottom': '0px',
-                                        'left': '0px',
-                                        'height': '7px', // WysokoÄšÂĂÂ paska postĂÂpu
-                                        'background-color': 'green', // Kolor paska postĂÂpu
-                                        'width': '100%' // Delikatne powiĂÂkszenie paska postĂÂpu o 2% w kaÄšĹşdym kierunku
-                                    });
-                                }
-                                $progressBar.appendTo($container);
-// Funkcja dodajĂÂca nowe elementy <div>
-                                function addScenes(index) {
-                                    // SprawdÄšĹ, czy istnieje element <div> o klasie 'scene-description'
-                                    let $sceneDiv = $container.find('.scene-description');
-
-                                    if ($sceneDiv.length) {
-                                        // JeÄšÂli istnieje, wyczyÄšÂĂÂ jego zawartoÄšÂĂÂ
-                                        $sceneDiv.empty();
-                                    } else {
-                                        // JeÄšÂli nie istnieje, stwÄĹrz nowy element <div>
-                                        $sceneDiv = $('<div>').addClass('scene-description').appendTo($container);
-                                    }
-
-                                    // Dodaj nowy tekst do <div>
-                                    $sceneDiv.text(`Scena z filmu ${srcWords2[index]}`);
-
-                                    if (window.matchMedia("(max-width: 999px)").matches) {
-                                        if (indexDiv % 2 === 0) {
-                                            console.log('Warunek podzielnoÄšÂci przez 2 speÄšÂniony2');
-                                            // ZmieÄšÂ CSS paska napisu, aby wyÄšÂwietlaÄšÂ siĂÂ po lewej stronie kontenera
-                                            $sceneDiv.css({
-                                                'position': 'relative',
-                                                'margin-top': '-140px',
-                                                'margin-left': '-450px',
-                                                'text-align': 'left',
-                                                'background-color': 'orange',
-                                                'z-index': '9999999'
-                                            });
-                                        } else if (indexDiv % 1 === 0 || indexDiv % 3 === 0 || indexDiv % 5 === 0) {
-                                            console.log('Warunek podzielnoÄšÂci przez 1 speÄšÂniony2');
-                                            // ZmieÄšÂ CSS paska napisu, aby wyÄšÂwietlaÄšÂ siĂÂ po lewej stronie kontenera
-                                            $sceneDiv.css({
-                                                'position': 'relative',
-                                                'margin-top': '-140px',
-                                                'margin-right': '-20px',
-                                                'text-align': 'left',
-                                                'background-color': 'blue',
-                                                'z-index': '99999999999'
-                                            });
-                                        }
-                                    }
-                                }
-
-
-// Tworzenie przycisku "Stop"
-                                if (!stopButtonAdded) {
-                                    const $stopButton = $('<img>')
-                                            .attr('src', 'https://www.arbulang.com/img/stopok2.png')
-                                            .css({
-                                                'display': 'none', // Ukryty na starcie
-                                                'position': 'absolute', // Precyzyjne pozycjonowanie wzglĂÂdem kontenera
-                                                'top': '-15px',
-                                                'left': '20px',
-                                                'width': '40px',
-                                                'height': '40px',
-                                                'z-index': '999999',
-                                                'cursor': 'pointer' // Ustawienie kursora jako wskaÄšĹnik
-                                            })
-                                            .on('click', function () {
-                                                // PĂÂtla po wszystkich elementach wideo i zatrzymywanie kaÄšĹşdego z nich
-                                                $('video').each(function () {
-                                                    const video = this;
-                                                    if (!video.paused) {
-                                                        video.pause();
-                                                        // ZmieÄšÂ obrazek na "Play"
-                                                        $stopButton.attr('src', 'https://www.arbulang.com/img/play.png');
-                                                    } else {
-                                                        video.play();
-                                                        // ZmieÄšÂ obrazek z powrotem na "Stop"
-                                                        $stopButton.attr('src', 'https://www.arbulang.com/img/stopok2.png');
-                                                    }
-                                                });
-                                            });
-
-                                    // Dodanie przycisku do kontenera
-                                    $stopButton.appendTo($container);
-
-                                    // Pokazywanie przycisku na hover kontenera
-                                    $container.on('mouseover', function () {
-                                        $stopButton.show();
-                                    });
-
-                                    // Ukrywanie przycisku, gdy mysz opuÄšÂci kontener
-                                    $container.on('mouseout', function () {
-                                        $stopButton.hide();
-                                    });
-
-                                    stopButtonAdded = true;  // Flaga ustawiona na true, gdy przycisk zostaÄšÂ dodany
-                                }
-                            }
-                            setTimeout(function () {
-                                addVideo1b(0);
-                            }, 200);
                         }
-                        // Pobierz numer lekcji z data-lesson kontenera
-const lessonNumber = $container.attr('data-lesson');
+                        
+                        
+                    
 
-// Tworzymy przycisk tylko jeĹli jeszcze go nie ma w kontenerze
-
-    const $buttonb2 = $('<button></button>')
-        .addClass('run-button3')
-        .text(`OtwĂłrz lekcjÄ ${lessonNumber}`) // faktyczny numer lekcji
-        .attr('data-lesson-number', lessonNumber)
-        .css({
-            position: 'absolute',
-            top: '5px',
-            right: '5px',
-            'z-index': 2000,
-            color: 'white',
-            'background-color': '#007bff',
-            border: 'none',
-            'border-radius': '4px',
-            padding: '5px 10px',
-            cursor: 'pointer'
-        });
-
-    // KlikniÄcie otwiera link do caĹej trĂłjki (lekcji)
-    $buttonb2.on('click', function () {
-        const lessonNum = parseInt($(this).attr('data-lesson-number'), 10);
-        const startIndex = (lessonNum - 1) * 3 + 1;
-        const link = `demo1angielski.html?category=${selectedCategory}&data=${startIndex},${startIndex + 1},${startIndex + 2}`;
-        window.open(link, '_blank');
-    });
-
-    $container.append($buttonb2);
-                        }
                         
                     // StwÄĹrz przycisk za pomocĂÂ jQuery
                     // Tworzenie nowego elementu div za pomocĂÂ jQuery
 
 
-                    if ((newIndex3 === 0 || newIndex3b === 0 || newIndex10dd) && !isSearching) {
-                        console.log('hej1000', newIndex3, buttonindex);
+                    if (!isSearching) {
     var $sentenceDivB = $('<div></div>');
     $sentenceDivB.addClass('sentenceBA');
 
@@ -1884,15 +983,12 @@ const lessonNumber = $container.attr('data-lesson');
                             'z-index': '100'
                         });
                     }
-
-// Dodanie przycisku do kontenera Ă˘ÂÂ OD RAZU po jego stworzeniu
-$container.append($button);
+                    
                     // Dodanie diva z zdaniem do kontenera
                     $container.append($sentenceDivB);
                     tablica10.push(srcWords);
                     console.log('hej6', tablica10);
-
                 }
-
-                // Deklaracja tablicy, ktÄĹra bĂÂdzie zawieraĂÂ wszystkie tablice
             }
+                
+            
