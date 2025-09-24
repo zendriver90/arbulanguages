@@ -22167,14 +22167,26 @@ const fiszki10 = [
             124
         ],
     entries: [
-        {
+                {
             id: 1,
             img: {
                 src: "https://www.arbulang.com/img/fiszki1/422a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
-                text: 'Z ch<u><b>at</u></b>y do <u><b>lokal</u></b>nej szkoły mam kilometr. W walkacje robili w niej remont i <u><b>skul</u></b>i tynki',
+                text: '<u><b>Lokal</u></b>izacja <u><b>szkoły</u></b> brata je<u><b>s</u></b>t bardzo <u><b>cool(kul)</u></b>',
+                alt: ""
+            },
+            category: [""]
+        },
+        {
+            id: 2,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/422b.jpg",
+                alt: "Wygenerowane przez AI."
+            },
+            story: {
+                text: 'Z ch<u><b>at</u></b>y do <u><b>lokal</u></b>nej szkoły mam kilometr. W wakacje robili w niej remont i <u><b>skul</u></b>i tynki',
                 alt: ""
             },
             category: [""]
@@ -22282,10 +22294,22 @@ const fiszki10 = [
             125
         ],
     entries: [
-        {
+                {
             id: 1,
             img: {
                 src: "https://www.arbulang.com/img/fiszki1/424a.jpg",
+                alt: "Wygenerowane przez AI."
+            },
+            story: {
+                text: 'W <u><b>autobusie</u></b> jest radio i ma fajny <u><b>bas</u></b>',
+                alt: ""
+            },
+            category: [""]
+        },
+        {
+            id: 2,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/424b.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -22347,12 +22371,20 @@ const fiszki10 = [
             69,
             126
         ],
-        img: [
-            "https://www.arbulang.com/img/fiszki1/426a.jpg"
-        ],
-        story: [
-            "Br<u><b>at</u></b> czeka na mnie <u><b>na stacji</u></b>. Denerwuje się bo pociąg się spóźnia. Później będziemy jeść <u><b>stej</u></b>ki i kanapki z <u><b>szyn</u></b>ką"
-        ],
+            entries: [
+        {
+            id: 1,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/426a.jpg",
+                alt: "Wygenerowane przez AI."
+            },
+            story: {
+                text: 'Br<u><b>at</u></b> czeka na mnie <u><b>na stacji</u></b>. Denerwuje się bo pociąg się spóźnia. Później będziemy jeść <u><b>stej</u></b>ki i kanapki z <u><b>szyn</u></b>ką',
+                alt: ""
+            },
+            category: [""]
+        }
+    ],
         desc: "at the station[at de stejszyn] - na stacji",
         sentence2: [
             "at the station"
@@ -22385,7 +22417,7 @@ const fiszki10 = [
             category: [""]
         }
     ],
-        desc: "soon[sun, sjun] - ",
+        desc: "soon[sun, sjun] - wkrótce",
         sentence2: [
             "soon"
         ],
@@ -22563,7 +22595,7 @@ const fiszki10 = [
             "https://www.arbulang.com/img/fiszki1/431a.jpg"
         ],
         story: [
-            "<u><b>Kiedy</u></b> pojedziemy do <u><b>Łe</u></b>by pyta sy<u><b>n</u></b>? "
+            "<u><b>Kiedy</u></b> pojedziemy do <u><b>Łe</u></b>by pyta sy<u><b>n</u></b>?"
         ],
         desc: "when[łen] - kiedy",
         sentence2: [
@@ -23067,12 +23099,20 @@ const fiszki10 = [
             72,
             131
         ],
-        img: [
-            "https://www.arbulang.com/img/fiszki1/443a.jpg"
-        ],
-        story: [
-            "<u><b>Mjuzi</u></b>k czyli muzyka ma także swoje <u><b>muzeum</u></b> myzyki. Odwiedziłem takie muzeum a późneij kupiłem w sklepie cukierki Emen<u><b>ems</u></b>y"
-        ],
+            entries: [
+        {
+            id: 1,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/443a.jpg",
+                alt: "Wygenerowane przez AI."
+            },
+            story: {
+                text: "<u><b>Mjuzi</u></b>k czyli muzyka ma także swoje <u><b>muzeum</u></b> myzyki. Odwiedziłem takie muzeum a późneij kupiłem w sklepie cukierki Emen<u><b>ems</u></b>y",
+                alt: ""
+            },
+            category: [""]
+        }
+            ],
         desc: "museums[mjuziems] - muzeum",
         sentence2: [
             "museums"
@@ -23093,12 +23133,20 @@ const fiszki10 = [
             72,
             132
         ],
-        img: [
-            "https://www.arbulang.com/img/fiszki1/444a.jpg"
-        ],
-        story: [
-            "On - Piotrek nie lubi melan<u><b>choli</u></b> w jesień dlatego pojechał <u><b>na wakacje</u></b>. Dobrze mu na nich jest. <u><b>D</u></b>zisiaj ma r<u><b>ejs</u></b> statkiem"
-        ],
+            entries: [
+        {
+            id: 1,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/444a.jpg",
+                alt: "Wygenerowane przez AI."
+            },
+            story: {
+                text: "On - Piotrek nie lubi melan<u><b>choli</u></b> w jesień dlatego pojechał <u><b>na wakacje</u></b>. Dobrze mu na nich jest. <u><b>D</u></b>zisiaj ma r<u><b>ejs</u></b> statkiem",
+                alt: ""
+            },
+            category: [""]
+        }
+            ],
         desc: "on holidys[on holidejs] - na wakacjach",
         sentence2: [
             "on holidys"
@@ -23116,23 +23164,75 @@ const fiszki10 = [
             73,
             133
         ],
-        img: [
-            "https://www.arbulang.com/img/fiszki1/7a.jpg",
-            "https://www.arbulang.com/img/fiszki1/7b.jpg",
-            "https://www.arbulang.com/img/fiszki1/7c.jpg",
-            "https://www.arbulang.com/img/fiszki1/7d.jpg",
-            "https://www.arbulang.com/img/fiszki1/7e.jpg"
-        ],
-        translate: "",
-        translateb: "[Hi sings bjutifuli in de szołer]",
-        translateb2: "[]",
-        srcWord: ["https://www.arbulang.com/filmy/tennis.mp4", "V for Vendetta (2005)"],
-        srcWordimage: "https://www.arbulang.com/filmy/tennis.png",
-        word: [
-            "https://www.arbulang.com/voice/bike.mp4"
-        ],
-        story: "<u><b>Ona</u></b> - Patrycja ma ri<u><b>szi</u></b> to naturalny antyoksydant",
-        desc: "the[szi] - niebieski/niebieskie",
+    entries: [
+        {
+            id: 1,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/32aa.jpg",
+                alt: "Zawodnik na meczu. Wygenerowane przez AI."
+            },
+            story: {
+                text: "<u><b>Aur</u></b>a zawodnika z <u><b>naszego</u></b> zespołu jest niesamowita",
+                alt: "Wizerunek sportowca. Czy sportowiec może mieć niesamwitą aurę?"
+            },
+            category: ["sport", "mindeset"]
+        },
+        {
+            id: 2,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/32bb.jpg",
+                alt: "Ogrodnik w ogrodzie. Wygenerowane przez AI."
+            },
+            story: {
+                text: "M<u><b>aur</u></b>ycy to jest <u><b>nasz</u></b> ogrodnik",
+                alt: "Zawody. Czy ogrodnictwo może być fajnym zawodem?"
+            },
+             category: ["natura", "zawód"]
+        },
+        {
+            id: 3,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/32cc.jpg",
+                alt: "Sieć wysokiego napięcia. Wygenerowane przez AI."
+            },
+            story: {
+                text: "<u><b>Nasz</u></b> dostawca prądu to <u><b>Taur</u></b>on",
+                alt: "Płacenie rachunków. Czy zapłacenie rachunku na czas daje satysfakcję?"
+            },
+           category: ["nauka", "energetyka"]
+        },
+        {
+            id: 4,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/32dd.jpg",
+                alt: "Oko Saurona. Wygenerowane przez AI."
+            },
+            story: {
+                text: "Władcy pierścieni.. najniebezpieczniejsze dla <u><b>naszego</u></b> bezpieczeństwa było oko S<u><b>aur</u></b>ona",
+                alt: "Powieść fantastyczna. Co było najgroźniejsze dla Drużyny Pierścienia?"
+            },
+            category: ["czarny humor", "filmy"]
+        },
+        {
+            id: 5,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/32ee.jpg",
+                alt: "Laurka dla mamy. Wygenerowane przez AI."
+            },
+            story: {
+                text: "<u><b>Nasza</u></b> mama dostała l<u><b>aur</u></b>kę na dzień mamy",
+                alt: "Imprezy okolicznościowe. Jaki prezent jest najlepszy na dzień mamy?"
+            },
+            category: ["związki", "okazje"]
+        }
+    ],
+        translate: "Nasza szkoła organizuje całkiem ciekawe wydarzenia",
+        translateb: "[Aur skul organajz kłajt interesting iwents]",
+        translateb2: "[Aur skul organajz]",
+        srcWord: ["https://www.arbulang.com/filmy/school.mp4", "American Pie: The Wedding (2003)"],
+        srcWordimage: "https://www.arbulang.com/filmy/school.png",
+        word: "https://www.arbulang.com/voice/party.mp4",
+        desc: "our[aur] - nasz",
         sentence1: [
             "Our"
         ],
@@ -23153,13 +23253,21 @@ const fiszki10 = [
             73,
             133
         ],
-        img: [
-            "https://www.arbulang.com/img/fiszki1/446a.jpg"
-        ],
-        story: [
-            ""
-        ],
-        desc: "team[tim] - ",
+            entries: [
+        {
+            id: 1,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/446a.jpg",
+                alt: "Wygenerowane przez AI."
+            },
+            story: {
+                text: "Tymoteusz czyli <u><b>Tim</u></b>i jest częścią <u><b>zespołu</u></b>",
+                alt: ""
+            },
+            category: [""]
+        }
+            ],
+        desc: "team[tim] - zespół",
         sentence2: [
             "team"
         ],
@@ -23180,12 +23288,20 @@ const fiszki10 = [
             73,
             133
         ],
-        img: [
-            "https://www.arbulang.com/img/fiszki1/447a.jpg"
-        ],
-        story: [
-            "Zaczynają się igrzyska. P<u><b>łon</u></b>ie pochodnia olimpijska - którą niesie ktoś kto kiedyś <u><b>wygrał</u></b> w ważnych zawodach"
-        ],
+            entries: [
+        {
+            id: 1,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/447a.jpg",
+                alt: "Wygenerowane przez AI."
+            },
+            story: {
+                text: "Zaczynają się igrzyska. P<u><b>łon</u></b>ie pochodnia olimpijska - którą niesie ktoś kto kiedyś <u><b>wygrał</u></b> w ważnych zawodach",
+                alt: ""
+            },
+            category: [""]
+        }
+            ],
         desc: "won[łon, łan] - wygrał",
         sentence2: [
             "won"
