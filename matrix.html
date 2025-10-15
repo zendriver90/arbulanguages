@@ -16,6 +16,9 @@
                 <script src="start/testowyb10v2.js"></script>
                 <script src="start/testowyb10v3.js"></script>
                 <script src="start/testowyb10v4.js"></script>
+                <script src="start/testowyb10v5.js"></script>
+                <script src="start/testowyb10v6.js"></script>
+                <script src="start/testowyb10v7.js"></script>
         <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
         <meta charset="UTF-8">
         <title>arbulang.com</title>
@@ -2179,12 +2182,12 @@ $(document).on("click", "#startButton", function () {
 let tablica55 = [];
 let selectedCategory = 'wszystkie'; // Domyślnie losowo
 const tablica45xx = []; // Tablica kategorii
-let indexDivRange = 19;
+let indexDivRange = 30;
 let numberb = false;
 $('#category-buttons .category-btn').on('click', function () {
     $('#category-buttons .category-btn').removeClass('active-category');
     $(this).addClass('active-category');
-indexDivRange = '1'; // Zakres od 1 do 3
+indexDivRange = '30'; // Zakres od 1 do 3
     const selectedCategoryText = $(this).text(); // np. "Sport"
     console.log("Wybrano kategorię:", selectedCategoryText);
     tablica7[0] = $(this).data('category'); // <-- poprawione
@@ -2348,10 +2351,10 @@ function showFiszkiForLesson5d(matchingFiszki1v, tablica41) {
                 blinkButton();
             };
             document.getElementById('myButton').addEventListener('click', function () {
-                window.location.href = 'https://localhost/arbulanguage.com/matrix.html';
+                window.location.href = 'https://www.arbulang.com//matrix.html';
             });
             document.getElementById('myButton2').addEventListener('click', function () {
-                window.location.href = 'https://localhost/arbulanguage.com/matrix2.html';
+                window.location.href = 'https://www.arbulang.com//matrix2.html';
             });
 
 
@@ -3711,6 +3714,9 @@ if (flagaPrzycisku2 && !flagaPrzycisku && (tablica10.length <= indexDivRange) &&
         lessonsArrayZ, matchingLessons5, matchingLessons5b, isSearching
         );
                     }
+                        losowaniaCounter = 2;
+    tablica33.push(losowaniaCounter);
+    const ostatniaWartosc = 2; 
                     }
                     }
                         console.log('Aktualna zawartość tablicy lessonsArray:', lessonsArray);

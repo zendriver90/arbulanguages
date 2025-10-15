@@ -1384,10 +1384,10 @@ id: [
             133
         ],
         img: [
-            "https://www.arbulang.com/img/fiszki1/364a.jpg"
+            "https://www.arbulang.com/img/fiszki1/448a.jpg"
         ],
         story: [
-            ""
+            "W tym <u><b>meczu</u></b> <u><b>de</u></b>rbowym trener kilka razy zareagował na styl gry swojej drużyny. Można powiedzieć, że w <u><b>meczu</u></b> dużo <u><b>macz</u></b>ał palce"
         ],
         desc: "the match[] - ",
         sentence2: [
@@ -1535,9 +1535,9 @@ id: [
             "https://www.arbulang.com/img/fiszki1/364a.jpg"
         ],
         story: [
-            ""
+            "Samochód ciężarowy <u><b>Star</u></b> jedzie nad <u><b>gwieździstym-gwiazdy</u></b> niebem"
         ],
-        desc: "stars[] - ",
+        desc: "stars[stars] - gwiazdy",
         sentence2: [
             "stars"
         ],
@@ -1563,9 +1563,9 @@ id: [
             "https://www.arbulang.com/img/fiszki1/364a.jpg"
         ],
         story: [
-            ""
+            "Na zajęciach p<u><b>last</u></b>yki jest <u><b>ostatnio</u></b> fajna atmosfera"
         ],
-        desc: "last[] - ",
+        desc: "last[last] - ostatni",
         sentence2: [
             "last"
         ],
@@ -1591,9 +1591,9 @@ id: [
             "https://www.arbulang.com/img/fiszki1/364a.jpg"
         ],
         story: [
-            ""
+            "<u><b>Naj</u></b>lepszy <u><b>t</u></b>owarzysz dla snu to <u><b>noc</u></b>"
         ],
-        desc: "night[] - ",
+        desc: "night[najt] - noc",
         sentence2: [
             "night"
         ],
@@ -1625,13 +1625,13 @@ id: [
         translate: "",
         translateb: "[]",
         translateb2: "[]",
-        srcWord: ["https://www.arbulang.com/filmy/tennis.mp4", "V for Vendetta (2005)"],
-        srcWordimage: "https://www.arbulang.com/filmy/tennis.png",
+        srcWord: ["https://www.arbulang.com/filmy/fish.mp4", "The Meg (2018)"],
+        srcWordimage: "https://www.arbulang.com/filmy/fish.png",
         word: [
             "https://www.arbulang.com/voice/bike.mp4"
         ],
         story: "<u><b>Ona</u></b> - Patrycja ma ri<u><b>szi</u></b> to naturalny antyoksydant",
-        desc: "the[szi] - niebieski/niebieskie",
+        desc: "the[de] - ",
         sentence1: [
             "The"
         ],
@@ -1654,7 +1654,7 @@ id: [
             "https://www.arbulang.com/img/fiszki1/364a.jpg"
         ],
         story: [
-            ""
+            "Dzięki tym <u><b>fisz</u></b>kom łowię słowa do pamięci jak <u><b>ryby</u></b>"
         ],
         desc: "fish[] - ",
         sentence2: [
@@ -1676,12 +1676,12 @@ id: [
             136
         ],
         img: [
-            "https://www.arbulang.com/img/fiszki1/364a.jpg"
+            "https://www.arbulang.com/img/fiszki1/458a.jpg"
         ],
         story: [
-            ""
+            "Swing (<u><b>słi</u></b>ng) to <u><b>m</u></b>uzyka, do której się wręcz <u><b>pływa</u></b> nie tańczy"
         ],
-        desc: "swim[] - ",
+        desc: "swim[słim] - pływać",
         sentence2: [
             "swim"
         ],
@@ -1701,12 +1701,12 @@ id: [
             137
         ],
         img: [
-            "https://www.arbulang.com/img/fiszki1/364a.jpg"
+            "https://www.arbulang.com/img/fiszki1/254a.jpg"
         ],
         story: [
-            ""
+            "<u><b>In</u></b>trowertyk lubi przesiadywać <u><b>w</u></b> swoim umyśle"
         ],
-        desc: "in[] - ",
+        desc: "in[in] - w",
         sentence2: [
             "in"
         ],
@@ -1732,7 +1732,7 @@ id: [
         story: [
             ""
         ],
-        desc: "the[] - ",
+        desc: "the[de] - ",
         sentence2: [
             "the"
         ],
@@ -1753,12 +1753,12 @@ id: [
             137
         ],
         img: [
-            "https://www.arbulang.com/img/fiszki1/364a.jpg"
+            "https://www.arbulang.com/img/fiszki1/461a.jpg"
         ],
         story: [
-            ""
+            "<u><b>Lir</u></b>yka <u><b>K</u></b>ochanowskiego to <u><b>czysta</u></b> sztuka literack"
         ],
-        desc: "clear[] - ",
+        desc: "clear[klir] - czysta, czysto, czyste",
         sentence2: [
             "clear"
         ],
@@ -1779,12 +1779,12 @@ id: [
             137
         ],
         img: [
-            "https://www.arbulang.com/img/fiszki1/364a.jpg"
+            "https://www.arbulang.com/img/fiszki1/462a.jpg"
         ],
         story: [
-            ""
+            "Na tym jeziorze jest umiejscowiony <u><b>'lej</u></b>e<u><b>k</u></b>' w systemie tamy wodnej"
         ],
-        desc: "lake[] - ",
+        desc: "lake[lejk] - jezioro",
         sentence2: [
             "lake"
         ],
@@ -1814,13 +1814,13 @@ id: [
         translate: "",
         translateb: "[]",
         translateb2: "[]",
-        srcWord: ["https://www.arbulang.com/filmy/tennis.mp4", "V for Vendetta (2005)"],
+        srcWord: ["https://www.arbulang.com/filmy/tennis.mp4", "Pele. Narodziny legendy (2016)"],
         srcWordimage: "https://www.arbulang.com/filmy/tennis.png",
         word: [
             "https://www.arbulang.com/voice/bike.mp4"
         ],
         story: "<u><b>Ona</u></b> - Patrycja ma ri<u><b>szi</u></b> to naturalny antyoksydant",
-        desc: "the[szi] - niebieski/niebieskie",
+        desc: "the[de] - ",
         sentence1: [
             "The"
         ],
@@ -1843,12 +1843,12 @@ id: [
             138
         ],
         img: [
-            "https://www.arbulang.com/img/fiszki1/364a.jpg"
+            "https://www.arbulang.com/img/fiszki1/464a.jpg"
         ],
         story: [
-            ""
+            "Ten <u><b>chłopiec</u></b> ze względu na wiek może dopłynąć do tej <u><b>boj</u></b>i"
         ],
-        desc: "boy[] - ",
+        desc: "boy[boj] - chłopiec",
         sentence2: [
             "boy"
         ],
@@ -1871,12 +1871,12 @@ id: [
             138
         ],
         img: [
-            "https://www.arbulang.com/img/fiszki1/364a.jpg"
+            "https://www.arbulang.com/img/fiszki1/465a.jpg"
         ],
         story: [
-            ""
+            "Te <u><b>kopnięcie</u></b> okazało się piłkarskim <u><b>kiksem</u></b>"
         ],
-        desc: "kicks[] - ",
+        desc: "kicks[kiks] - kopnięcia lub kopnąć + s",
         sentence2: [
             "kicks"
         ],
@@ -1927,12 +1927,12 @@ id: [
             138
         ],
         img: [
-            "https://www.arbulang.com/img/fiszki1/364a.jpg"
+            "https://www.arbulang.com/img/fiszki1/467a.jpg"
         ],
         story: [
-            ""
+            "<u><b>Bol</u></b>ek ma wreszcie swoją własną <u><b>piłkę</u></b>"
         ],
-        desc: "ball[] - ",
+        desc: "ball[bol] - piłka",
         sentence2: [
             "ball"
         ],
@@ -1955,12 +1955,12 @@ id: [
             138
         ],
         img: [
-            "https://www.arbulang.com/img/fiszki1/364a.jpg"
+            "https://www.arbulang.com/img/fiszki1/368a.jpg"
         ],
         story: [
-            ""
+            "<u><b>Far</u></b>ma naszej rodziny jest <u><b>daleko</u></b> od miasta"
         ],
-        desc: "far[] - ",
+        desc: "far[fa(r)] - daleko",
         sentence2: [
             "far"
         ],
@@ -1992,7 +1992,7 @@ id: [
         translate: "",
         translateb: "[]",
         translateb2: "[]",
-        srcWord: ["https://www.arbulang.com/filmy/tennis.mp4", "V for Vendetta (2005)"],
+        srcWord: ["https://www.arbulang.com/filmy/tennis.mp4", "Jumanji: Przygoda w dżungli (2017)"],
         srcWordimage: "https://www.arbulang.com/filmy/tennis.png",
         word: [
             "https://www.arbulang.com/voice/bike.mp4"
@@ -2021,11 +2021,11 @@ id: [
             "https://www.arbulang.com/img/fiszki1/364a.jpg"
         ],
         story: [
-            ""
+            "<u><b>Eksplo</u></b>racja kosmosu odbywa się poprzez <u><b>badania</u></b> z danych dostarczonych przez teleskop Hubbla"
         ],
-        desc: "explore[] - ",
+        desc: "explore[explo] - eksplorować, badać",
         sentence2: [
-            "expplore"
+            "explore"
         ],
         sentence: [
             "They",
@@ -2043,12 +2043,12 @@ id: [
             139
         ],
         img: [
-            "https://www.arbulang.com/img/fiszki1/364a.jpg"
+            "https://www.arbulang.com/img/fiszki1/471a.jpg"
         ],
         story: [
-            ""
+            "<u><b>For</u></b>mę sportową robię w <u><b>lesie</u></b>, w którym j<u><b>est</u></b> dużo czystego powietrza"
         ],
-        desc: "forest[] - ",
+        desc: "forest[forest] - las",
         sentence2: [
             "forest"
         ],
@@ -2071,7 +2071,7 @@ id: [
             "https://www.arbulang.com/img/fiszki1/364a.jpg"
         ],
         story: [
-            ""
+            "KOGNATY - WEEKEND"
         ],
         desc: "on the weekends[] - ",
         sentence2: [
@@ -2100,18 +2100,18 @@ id: [
         translate: "",
         translateb: "[]",
         translateb2: "[]",
-        srcWord: ["https://www.arbulang.com/filmy/tennis.mp4", "V for Vendetta (2005)"],
-        srcWordimage: "https://www.arbulang.com/filmy/tennis.png",
+        srcWord: ["https://www.arbulang.com/filmy/yoga.mp4", "Faster (2010)"],
+        srcWordimage: "https://www.arbulang.com/filmy/yoga.png",
         word: [
             "https://www.arbulang.com/voice/bike.mp4"
         ],
         story: "<u><b>Ona</u></b> - Patrycja ma ri<u><b>szi</u></b> to naturalny antyoksydant",
-        desc: "the[szi] - niebieski/niebieskie",
+        desc: "he[hi] - ",
         sentence1: [
-            "She"
+            "He"
         ],
         sentence: [
-            "She",
+            "He",
             "practices",
             "yoga"
         ],
@@ -2136,7 +2136,7 @@ id: [
             "practices"
         ],
         sentence: [
-            "She",
+            "He",
             "practices",
             "yoga"
         ],
@@ -2161,7 +2161,7 @@ id: [
             "yoga"
         ],
         sentence: [
-            "She",
+            "He",
             "practices",
             "yoga"
         ],
@@ -2189,7 +2189,7 @@ id: [
             "every",
             "afternoon"
         ],
-        key: "on the weekends",
+        key: "every",
         category1: "nauka",
         category2: ["okresleniaMiejsca"]
     },
@@ -2213,7 +2213,7 @@ id: [
             "every",
             "afternoon"
         ],
-        key: "on the weekends",
+        key: "afternoon",
         category1: "nauka",
         category2: ["okresleniaMiejsca"]
     },
@@ -2233,7 +2233,7 @@ id: [
         translate: "",
         translateb: "[]",
         translateb2: "[]",
-        srcWord: ["https://www.arbulang.com/filmy/tennis.mp4", "V for Vendetta (2005)"],
+        srcWord: ["https://www.arbulang.com/filmy/tennis.mp4", "Most do Terabithii (2007)"],
         srcWordimage: "https://www.arbulang.com/filmy/tennis.png",
         word: [
             "https://www.arbulang.com/voice/bike.mp4"
@@ -2265,9 +2265,9 @@ id: [
             "https://www.arbulang.com/img/fiszki1/364a.jpg"
         ],
         story: [
-            ""
+            "<b><u>Siiii</b></u>, moja <b><u>siostra</b></u> <b><u>ster</b></u>uje łodzią motorową"
         ],
-        desc: "sister[] - ",
+        desc: "sister[sister] - siostra",
         sentence1: [
             "sister"
         ],
@@ -2321,9 +2321,9 @@ id: [
             "https://www.arbulang.com/img/fiszki1/364a.jpg"
         ],
         story: [
-            ""
+            "W ten wie<b><u>czór</b></u> gramy w pokera. Fotograf robi <b><u>zdjęcia</b></u>. Na spoktaniu mam kartę <b><u>pik</b></u>"
         ],
-        desc: "pictures[] - ",
+        desc: "pictures[pikczur] - zdjęcie(picture + s = pictures)",
         sentence1: [
             "pictures"
         ],
@@ -2411,8 +2411,8 @@ id: [
         translate: "",
         translateb: "[]",
         translateb2: "[]",
-        srcWord: ["https://www.arbulang.com/filmy/tennis.mp4", "V for Vendetta (2005)"],
-        srcWordimage: "https://www.arbulang.com/filmy/tennis.png",
+        srcWord: ["https://www.arbulang.com/filmy/europe.mp4", "Eurotrip (2004)"],
+        srcWordimage: "https://www.arbulang.com/filmy/europe.png",
         word: [
             "https://www.arbulang.com/voice/bike.mp4"
         ],
@@ -2577,7 +2577,7 @@ id: [
         translate: "",
         translateb: "[]",
         translateb2: "[]",
-        srcWord: ["https://www.arbulang.com/filmy/tennis.mp4", "V for Vendetta (2005)"],
+        srcWord: ["https://www.arbulang.com/filmy/tennis.mp4", "Incepcja (2010)"],
         srcWordimage: "https://www.arbulang.com/filmy/tennis.png",
         word: [
             "https://www.arbulang.com/voice/bike.mp4"
@@ -2739,7 +2739,7 @@ id: [
         translate: "",
         translateb: "[]",
         translateb2: "[]",
-        srcWord: ["https://www.arbulang.com/filmy/tennis.mp4", "V for Vendetta (2005)"],
+        srcWord: ["https://www.arbulang.com/filmy/tennis.mp4", "Nie wierzcie bliźniaczkom (1998)"],
         srcWordimage: "https://www.arbulang.com/filmy/tennis.png",
         word: [
             "https://www.arbulang.com/voice/bike.mp4"
@@ -2827,7 +2827,7 @@ id: [
         sentence: [
             "in the river"
         ],
-        key: "go",
+        key: "in the river",
         category1: "nauka",
         category2: ["okresleniaMiejsca"]
     }

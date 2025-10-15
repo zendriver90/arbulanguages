@@ -4074,6 +4074,3011 @@ id: [
         ],
         category2: ["osoby", "osoby+czas"],
                 category3: ["Infinitive"]
+},
+{
+id: [
+        121,
+        25
+],
+        // obrazek
+        img: [
+                "https://www.arbulang.com/img/fiszkiespanol/121a.jpg"
+        ],
+        translate: "Zaprzeczać kłamstwom i zawsze mówić prawdę",
+        translateb: "[Negar mentiras i desir siempre berdad]",
+        srcWord: ["https://www.arbulang.com/filmy/esp/truth.mp4", 'Matrix 1999'],
+        srcWordimage: "https://www.arbulang.com/filmy/esp/truth.png",
+        word: [
+                "https://www.arbulang.com/voice/music.mp4"
+        ],
+        // historia
+        story: [
+            "<u><b>Ba</u></b>rtek <u><b>i Lar</u></b>a Croft lubią razem <u><b>tańczyć</u></b>"
+        ],
+        // opis
+        desc: "bailar[] - tańczyć",
+        //zdanie
+        sentence1: [
+                "Bailar"
+        ],
+        sentence: [
+                "Bailar",
+                "lento"
+        ],
+        //  slowo do nauki
+        key: "bailar",
+        category1: [
+        ],
+        category2: ["osoby", "osoby+czas"],
+                category3: ["Infinitive"]
+},
+{
+id: [
+        122,
+        25
+],
+        // obrazek
+        img: [
+                "https://www.arbulang.com/img/fiszkiespanol/122a.jpg"
+        ],
+        word: [
+                "https://www.arbulang.com/voice/music.mp4"
+        ],
+        // historia
+        story: [
+            "Roślina <u><b>len</u></b> <u><b>to</u></b> najlepszy sposób aby zaprzestać pogoni w życiu i żyć <u><b>powoli</u></b>"
+        ],
+        // opis
+        desc: "lento[lento] - powoli",
+        //zdanie
+        sentence1: [
+                "lento"
+        ],
+        sentence: [
+                "Bailar",
+                "lento"
+        ],
+        //  slowo do nauki
+        key: "lento",
+        category1: [
+        ],
+        category2: ["osoby", "osoby+czas"],
+                category3: ["Infinitive"]
+},
+{
+id: [
+        123,
+        25
+],
+        // obrazek
+        img: [
+            "https://www.arbulang.com/img/fiszkiespanol/17a.jpg",
+                "https://www.arbulang.com/img/fiszkiespanol/31a.jpg",
+                "https://www.arbulang.com/img/fiszkiespanol/59a.jpg",
+                "https://www.arbulang.com/img/fiszkiespanol/75a.jpg"
+        ],
+        word: [
+                "https://www.arbulang.com/voice/music.mp4"
+        ],
+        // historia
+        story: [
+                "<u><b>Z</u></b> <u><b>kon</u></b>opiami jest niezły ubaw",
+                "<u><b>Z</u></b> takimi <u><b>kon</u></b>taktami jakie mam, lepiej jest mi podołać obowiązkom",
+                "<u><b>Z</u></b> <u><b>kon</u></b>sernacją przyjąłem tę decyzję",
+                "<u><b>Z</u></b> <u><b>kon</u></b>taktami w branży u mnie słabo..."
+        ],
+        // opis
+        desc: "con[kon] - z",
+        //zdanie
+        sentence1: [
+                "con"
+        ],
+        sentence: [
+                "con",
+                "musica",
+                "romántica",
+                "suave"
+        ],
+        //  slowo do nauki
+        key: "con",
+        category1: [
+        ],
+        category2: ["osoby", "osoby+czas"],
+                category3: ["Infinitive"]
+},
+{
+id: [
+        124,
+        25
+],
+        // obrazek
+        img: [
+                "https://www.arbulang.com/img/fiszkiespanol/124a.jpg"
+        ],
+        word: [
+                "https://www.arbulang.com/voice/music.mp4"
+        ],
+        // historia
+        story: [
+            "KOGNATY: MUZYKA - MUSICA"
+        ],
+        // opis
+        desc: "musica[] - muzyka",
+        //zdanie
+        sentence1: [
+                "musica"
+        ],
+        sentence: [
+                "con",
+                "musica",
+                "romántica",
+                "suave"
+        ],
+        //  slowo do nauki
+        key: "musica",
+        category1: [
+        ],
+        category2: ["osoby", "osoby+czas"],
+                category3: ["Infinitive"]
+},
+{
+id: [
+        125,
+        25
+],
+        // obrazek
+        img: [
+                "https://www.arbulang.com/img/fiszkiespanol/125a.jpg"
+        ],
+        word: [
+                "https://www.arbulang.com/voice/music.mp4"
+        ],
+        // historia
+        story: [
+            "KOGNATY: ROMANTYCZNY - ROMANTICA"
+        ],
+        // opis
+        desc: "romántica[] - romantyczny",
+        //zdanie
+        sentence1: [
+                "romántica"
+        ],
+        sentence: [
+                "con",
+                "musica",
+                "romántica",
+                "suave"
+        ],
+        //  slowo do nauki
+        key: "romantica",
+        category1: [
+        ],
+        category2: ["osoby", "osoby+czas"],
+                category3: ["Infinitive"]
+},
+{
+id: [
+        126,
+        25
+],
+        // obrazek
+        img: [
+                "https://www.arbulang.com/img/fiszkiespanol/126a.jpg"
+        ],
+        word: [
+                "https://www.arbulang.com/voice/music.mp4"
+        ],
+        // historia
+        story: [
+            "<u><b>Sławe</u></b>tny jest ten mój <u><b>delikatny</u></b> perfum"
+        ],
+        // opis
+        desc: "suave[sławe] - delikatny",
+        //zdanie
+        sentence1: [
+                "suave"
+        ],
+        sentence: [
+                "con",
+                "musica",
+                "romántica",
+                "suave"
+        ],
+        //  slowo do nauki
+        key: "suave",
+        category1: [
+        ],
+        category2: ["osoby", "osoby+czas"],
+                category3: ["Infinitive"]
+},
+{
+id: [
+        127,
+        26
+],
+        // obrazek
+        img: [
+                "https://www.arbulang.com/img/fiszkiespanol/127a.jpg"
+        ],
+        translate: "Zaprzeczać kłamstwom i zawsze mówić prawdę",
+        translateb: "[Negar mentiras i desir siempre berdad]",
+        srcWord: ["https://www.arbulang.com/filmy/esp/truth.mp4", 'Matrix 1999'],
+        srcWordimage: "https://www.arbulang.com/filmy/esp/truth.png",
+        word: [
+                "https://www.arbulang.com/voice/music.mp4"
+        ],
+        // historia
+        story: [
+            "Filmowy a<u><b>mant</u></b> <u><b>zachowuje</u></b> wizerunek bardzo <u><b>ener</u></b>gicznego"
+        ],
+        // opis
+        desc: "mantener[] - zachować",
+        //zdanie
+        sentence1: [
+                "Mantener"
+        ],
+        sentence: [
+                "Mantener",
+                "la paz",
+                "y",
+                "armonia"
+        ],
+        //  slowo do nauki
+        key: "mantener",
+        category1: [
+        ],
+        category2: ["osoby", "osoby+czas"],
+                category3: ["Infinitive"]
+},
+{
+id: [
+        128,
+        26
+],
+        // obrazek
+        img: [
+                "https://www.arbulang.com/img/fiszkiespanol/128a.jpg"
+        ],
+        word: [
+                "https://www.arbulang.com/voice/music.mp4"
+        ],
+        // historia
+        story: [
+            "P<u><b>la</u></b>n jest całkowity <u><b>pokój</u></b> na świecie. Większości to <u><b>pas</u></b>uje"
+        ],
+        // opis
+        desc: "la paz[la pas(Meksyk, Kolumia)] - pokój",
+        //zdanie
+        sentence1: [
+                "la paz"
+        ],
+        sentence: [
+                "Mantener",
+                "la paz",
+                "y",
+                "armonia"
+        ],
+        //  slowo do nauki
+        key: "paz",
+        category1: [
+        ],
+        category2: ["osoby", "osoby+czas"],
+                category3: ["Infinitive"]
+},
+{
+id: [
+        129,
+        26
+],
+        // obrazek
+        img: [
+                "https://www.arbulang.com/img/fiszkiespanol/26a.jpg"
+        ],
+        word: [
+                "https://www.arbulang.com/voice/music.mp4"
+        ],
+        // historia
+        story: [
+                "<u><b>I</u></b> tak dalej.."
+        ],
+        // opis
+        desc: "y[i] - i",
+        //zdanie
+        sentence1: [
+                "y"
+        ],
+        sentence: [
+                "Mantener",
+                "la paz",
+                "y",
+                "armonia"
+        ],
+        //  slowo do nauki
+        key: "y",
+        category1: [
+        ],
+        category2: ["osoby", "osoby+czas"],
+                category3: ["Infinitive"]
+},
+{
+id: [
+        130,
+        26
+],
+        // obrazek
+        img: [
+                "https://www.arbulang.com/img/fiszkiespanol/130a.jpg"
+        ],
+        word: [
+                "https://www.arbulang.com/voice/music.mp4"
+        ],
+        // historia
+        story: [
+            "KOGNATY: HARMONIA - ARMONIA (HA NIEME)"
+        ],
+        // opis
+        desc: "armonia[armonia] - harmonia",
+        //zdanie
+        sentence1: [
+                "armonia"
+        ],
+        sentence: [
+                "Mantener",
+                "la paz",
+                "y",
+                "armonia"
+        ],
+        //  slowo do nauki
+        key: "armonia",
+        category1: [
+        ],
+        category2: ["osoby", "osoby+czas"],
+                category3: ["Infinitive"]
+},
+{
+id: [
+        131,
+        27
+],
+        // obrazek
+        img: [
+                "https://www.arbulang.com/img/fiszkiespanol/131a.jpg"
+        ],
+        translate: "Zaprzeczać kłamstwom i zawsze mówić prawdę",
+        translateb: "[Negar mentiras i desir siempre berdad]",
+        srcWord: ["https://www.arbulang.com/filmy/esp/truth.mp4", 'Matrix 1999'],
+        srcWordimage: "https://www.arbulang.com/filmy/esp/truth.png",
+        word: [
+                "https://www.arbulang.com/voice/music.mp4"
+        ],
+        // historia
+        story: [
+            "<u><b>Bia</u></b>ły samolot pozwala <u><b>podróżować</u></b>, jednak trzeba <u><b>har</u></b>ować na bilet"
+        ],
+        // opis
+        desc: "viajar[biahar] - podróżować",
+        //zdanie
+        sentence1: [
+                "Viajar"
+        ],
+        sentence: [
+                "Viajar",
+                "junots"
+        ],
+        //  slowo do nauki
+        key: "viajar",
+        category1: [
+        ],
+        category2: ["osoby", "osoby+czas"],
+                category3: ["Infinitive"]
+},
+{
+id: [
+        132,
+        27
+],
+        // obrazek
+        img: [
+                "https://www.arbulang.com/img/fiszkiespanol/14a.jpg"
+        ],
+        word: [
+                "https://www.arbulang.com/voice/music.mp4"
+        ],
+        // historia
+        story: [
+                "<u><b>Hu</u></b>ra jesteśmy w <u><b>Un</u></b>ii, <u><b>razem</u></b> z innymi krajami i jest sz<u><b>tos</u></b>"
+        ],
+        // opis
+        desc: "juntos[hunots] - razem",
+        //zdanie
+        sentence1: [
+                "juntos"
+        ],
+        sentence: [
+                "Viajar",
+                "junots"
+        ],
+        //  slowo do nauki
+        key: "juntos",
+        category1: [
+        ],
+        category2: ["osoby", "osoby+czas"],
+                category3: ["Infinitive"]
+},
+{
+id: [
+        133,
+        27
+],
+        // obrazek
+        img: [
+                "https://www.arbulang.com/img/fiszkiespanol/3a.jpg"
+        ],
+        word: [
+                "https://www.arbulang.com/voice/music.mp4"
+        ],
+        // historia
+        story: [
+                "W <u><b>en</u></b>cykopedi jest podstawowa wiedza"
+        ],
+        // opis
+        desc: "en[en] - w",
+        //zdanie
+        sentence1: [
+                "en"
+        ],
+        sentence: [
+                "en",
+                "un coche",
+                "bonito"
+        ],
+        //  slowo do nauki
+        key: "en",
+        category1: [
+        ],
+        category2: ["osoby", "osoby+czas"],
+                category3: ["Infinitive"]
+},
+{
+id: [
+        134,
+        27
+],
+        // obrazek
+        img: [
+                "https://www.arbulang.com/img/fiszkiespanol/120a.jpg"
+        ],
+        word: [
+                "https://www.arbulang.com/voice/music.mp4"
+        ],
+        // historia
+        story: [
+            "Br<u><b>un</u></b>o czasami mówi: s<u><b>kocze</u></b> do sklepu, ma na myśli: pojechanie <u><b>autem</u></b>"
+        ],
+        // opis
+        desc: "un coche[] - ",
+        //zdanie
+        sentence1: [
+                "un coche"
+        ],
+        sentence: [
+                "en",
+                "un coche",
+                "bonito"
+        ],
+        //  slowo do nauki
+        key: "coche",
+        category1: [
+        ],
+        category2: ["osoby", "osoby+czas"],
+                category3: ["Infinitive"]
+},
+{
+id: [
+        135,
+        27
+],
+        // obrazek
+        img: [
+                "https://www.arbulang.com/img/fiszkiespanol/120a.jpg"
+        ],
+        word: [
+                "https://www.arbulang.com/voice/music.mp4"
+        ],
+        // historia
+        story: [
+            ""
+        ],
+        // opis
+        desc: "bonito[] - ",
+        //zdanie
+        sentence1: [
+                "bonito"
+        ],
+        sentence: [
+                "en",
+                "un coche",
+                "bonito"
+        ],
+        //  slowo do nauki
+        key: "bonito",
+        category1: [
+        ],
+        category2: ["osoby", "osoby+czas"],
+                category3: ["Infinitive"]
+},
+{
+id: [
+        136,
+        28
+],
+        // obrazek
+        img: [
+                "https://www.arbulang.com/img/fiszkiespanol/115a.jpg"
+        ],
+        translate: "Zaprzeczać kłamstwom i zawsze mówić prawdę",
+        translateb: "[Negar mentiras i desir siempre berdad]",
+        srcWord: ["https://www.arbulang.com/filmy/esp/truth.mp4", 'Matrix 1999'],
+        srcWordimage: "https://www.arbulang.com/filmy/esp/truth.png",
+        word: [
+                "https://www.arbulang.com/voice/music.mp4"
+        ],
+        // historia
+        story: [
+            ""
+        ],
+        // opis
+        desc: "usar[] - ",
+        //zdanie
+        sentence1: [
+                "Usar"
+        ],
+        sentence: [
+                "Usar",
+                "maquillaje",
+                "bonito"
+        ],
+        //  slowo do nauki
+        key: "usar",
+        category1: [
+        ],
+        category2: ["osoby", "osoby+czas"],
+                category3: ["Infinitive"]
+},
+{
+id: [
+        137,
+        28
+],
+        // obrazek
+        img: [
+                "https://www.arbulang.com/img/fiszkiespanol/130a.jpg"
+        ],
+        word: [
+                "https://www.arbulang.com/voice/music.mp4"
+        ],
+        // historia
+        story: [
+            "<u><b>Mak</u></b>s kocha swoją dziewczynę, nie ważne czy ma ma<u><b>kija</u></b>ż czy nie. Ona - <u><b>He</u></b>lena jest bardzo szczęśliwa"
+        ],
+        // opis
+        desc: "maquillaje[] - makijaż",
+        //zdanie
+        sentence1: [
+                "maquillaje"
+        ],
+        sentence: [
+                "Usar",
+                "maquillaje",
+                "bonito"
+        ],
+        //  slowo do nauki
+        key: "maquillaje",
+        category1: [
+        ],
+        category2: ["osoby", "osoby+czas"],
+                category3: ["Infinitive"]
+},
+{
+id: [
+        138,
+        28
+],
+        // obrazek
+        img: [
+                "https://www.arbulang.com/img/fiszkiespanol/120a.jpg"
+        ],
+        word: [
+                "https://www.arbulang.com/voice/music.mp4"
+        ],
+        // historia
+        story: [
+            ""
+        ],
+        // opis
+        desc: "bonito[] - ",
+        //zdanie
+        sentence1: [
+                "bonito"
+        ],
+        sentence: [
+                "Usar",
+                "maquillaje",
+                "bonito"
+        ],
+        //  slowo do nauki
+        key: "bonito",
+        category1: [
+        ],
+        category2: ["osoby", "osoby+czas"],
+                category3: ["Infinitive"]
+},
+{
+id: [
+        139,
+        28
+],
+        // obrazek
+        img: [
+                "https://www.arbulang.com/img/fiszkiespanol/120a.jpg"
+        ],
+        word: [
+                "https://www.arbulang.com/voice/music.mp4"
+        ],
+        // historia
+        story: [
+            ""
+        ],
+        // opis
+        desc: "para[] - ",
+        //zdanie
+        sentence1: [
+                "para"
+        ],
+        sentence: [
+                "para",
+                "sentire",
+                "bien"
+        ],
+        //  slowo do nauki
+        key: "para",
+        category1: [
+        ],
+        category2: ["osoby", "osoby+czas"],
+                category3: ["Infinitive"]
+},
+{
+id: [
+        140,
+        28
+],
+        // obrazek
+        img: [
+                "https://www.arbulang.com/img/fiszkiespanol/120a.jpg"
+        ],
+        word: [
+                "https://www.arbulang.com/voice/music.mp4"
+        ],
+        // historia
+        story: [
+            ""
+        ],
+        // opis
+        desc: "sentire[] - ",
+        //zdanie
+        sentence1: [
+                "sentire"
+        ],
+        sentence: [
+                "para",
+                "sentire",
+                "bien"
+        ],
+        //  slowo do nauki
+        key: "sentire",
+        category1: [
+        ],
+        category2: ["osoby", "osoby+czas"],
+                category3: ["Infinitive"]
+},
+{
+id: [
+        141,
+        28
+],
+        // obrazek
+        img: [
+                "https://www.arbulang.com/img/fiszkiespanol/120a.jpg"
+        ],
+        word: [
+                "https://www.arbulang.com/voice/music.mp4"
+        ],
+        // historia
+        story: [
+            ""
+        ],
+        // opis
+        desc: "bien[] - ",
+        //zdanie
+        sentence1: [
+                "bien"
+        ],
+        sentence: [
+                "para",
+                "sentire",
+                "bien"
+        ],
+        //  slowo do nauki
+        key: "bien",
+        category1: [
+        ],
+        category2: ["osoby", "osoby+czas"],
+                category3: ["Infinitive"]
+},
+{
+id: [
+        142,
+        29
+],
+        // obrazek
+        img: [
+                "https://www.arbulang.com/img/fiszkiespanol/142a.jpg"
+        ],
+        translate: "Zaprzeczać kłamstwom i zawsze mówić prawdę",
+        translateb: "[Negar mentiras i desir siempre berdad]",
+        srcWord: ["https://www.arbulang.com/filmy/esp/truth.mp4", 'Matrix 1999'],
+        srcWordimage: "https://www.arbulang.com/filmy/esp/truth.png",
+        word: [
+                "https://www.arbulang.com/voice/music.mp4"
+        ],
+        // historia
+        story: [
+            "<u><b>Dar</u></b>mowe <u><b>qui</u></b>z'y o kotach są po to, by dowiedzieć się więcej jak się nimi <u><b>opiekować</u></b>"
+        ],
+        // opis
+        desc: "cuidar[] - opiekować się",
+        //zdanie
+        sentence1: [
+                "Cuidar"
+        ],
+        sentence: [
+                "Cuidar",
+                "el jardin"
+        ],
+        //  slowo do nauki
+        key: "cuidar",
+        category1: [
+        ],
+        category2: ["osoby", "osoby+czas"],
+                category3: ["Infinitive"]
+},
+{
+id: [
+        143,
+        29
+],
+        // obrazek
+        img: [
+                "https://www.arbulang.com/img/fiszkiespanol/143a.jpg"
+        ],
+        word: [
+                "https://www.arbulang.com/voice/music.mp4"
+        ],
+        // historia
+        story: [
+            "<u><b>Har</u></b>t ducha trzeba mieć, aby jeździć na mecze <u><b>Din</u></b>amo Zagrzeb i uprawiać wielki <u><b>ogród</u></b>"
+        ],
+        // opis
+        desc: "el jardin[] - ogród",
+        //zdanie
+        sentence1: [
+                "el jardin"
+        ],
+        sentence: [
+                "Cuidar",
+                "el jardin"
+        ],
+        //  slowo do nauki
+        key: "jardin",
+        category1: [
+        ],
+        category2: ["osoby", "osoby+czas"],
+                category3: ["Infinitive"]
+},
+{
+id: [
+        144,
+        29
+],
+        // obrazek
+        img: [
+            "https://www.arbulang.com/img/fiszkiespanol/17a.jpg",
+                "https://www.arbulang.com/img/fiszkiespanol/31a.jpg",
+                "https://www.arbulang.com/img/fiszkiespanol/59a.jpg",
+                "https://www.arbulang.com/img/fiszkiespanol/75a.jpg"
+        ],
+        word: [
+                "https://www.arbulang.com/voice/music.mp4"
+        ],
+        // historia
+        story: [
+                "<u><b>Z</u></b> <u><b>kon</u></b>opiami jest niezły ubaw",
+                "<u><b>Z</u></b> takimi <u><b>kon</u></b>taktami jakie mam, lepiej jest mi podołać obowiązkom",
+                "<u><b>Z</u></b> <u><b>kon</u></b>sernacją przyjąłem tę decyzję",
+                "<u><b>Z</u></b> <u><b>kon</u></b>taktami w branży u mnie słabo..."
+        ],
+        // opis
+        desc: "con[kon] - z",
+        //zdanie
+        sentence1: [
+                "con"
+        ],
+        sentence: [
+                "con",
+                "amor",
+                "siempre"
+        ],
+        //  slowo do nauki
+        key: "con",
+        category1: [
+        ],
+        category2: ["osoby", "osoby+czas"],
+                category3: ["Infinitive"]
+},
+{
+id: [
+        145,
+        29
+],
+        // obrazek
+        img: [
+                "https://www.arbulang.com/img/fiszkiespanol/145a.jpg"
+        ],
+        word: [
+                "https://www.arbulang.com/voice/music.mp4"
+        ],
+        // historia
+        story: [
+            "KOGNATY AMORY - AMOR (MIŁOŚĆ)"
+        ],
+        // opis
+        desc: "amor[amor] - miłość",
+        //zdanie
+        sentence1: [
+                "amor"
+        ],
+        sentence: [
+                "con",
+                "amor",
+                "siempre"
+        ],
+        //  slowo do nauki
+        key: "amor",
+        category1: [
+        ],
+        category2: ["osoby", "osoby+czas"],
+                category3: ["Infinitive"]
+},
+{
+id: [
+        146,
+        29
+],
+        img: [
+                "https://www.arbulang.com/img/fiszkiespanol/71a.jpg"
+        ],
+        word: [
+                "https://www.arbulang.com/voice/music.mp4"
+        ],
+        // historia
+        story: [
+            "O<u><b>siem</u></b> dni to długo okres na obóz. Obóz robimy <u><b>zawsze</u></b> w <u><b>sie</u></b>rpniu. Obóz nazywa się - <u><b>Pre</u></b>dator"
+        ],
+        // opis
+        desc: "siempre[siempre] - zawsze",
+        //zdanie
+        sentence1: [
+                "siempre"
+        ],
+        sentence: [
+                "con",
+                "amor",
+                "siempre"
+        ],
+        //  slowo do nauki
+        key: "siempre",
+        category1: [
+        ],
+        category2: ["osoby", "osoby+czas"],
+                category3: ["Infinitive"]
+},
+{
+id: [
+        147,
+        30
+],
+        // obrazek
+        img: [
+                "https://www.arbulang.com/img/fiszkiespanol/131a.jpg"
+        ],
+        translate: "Zaprzeczać kłamstwom i zawsze mówić prawdę",
+        translateb: "[Negar mentiras i desir siempre berdad]",
+        srcWord: ["https://www.arbulang.com/filmy/esp/truth.mp4", 'Matrix 1999'],
+        srcWordimage: "https://www.arbulang.com/filmy/esp/truth.png",
+        word: [
+                "https://www.arbulang.com/voice/music.mp4"
+        ],
+        // historia
+        story: [
+            ""
+        ],
+        // opis
+        desc: "tratar[tratar] - traktować, radzić sobie",
+        //zdanie
+        sentence1: [
+                "Tratar"
+        ],
+        sentence: [
+                "Tratar",
+                "la ansiedad"
+        ],
+        //  slowo do nauki
+        key: "tratar",
+        category1: [
+        ],
+        category2: ["osoby", "osoby+czas"],
+                category3: ["Infinitive"]
+},
+{
+id: [
+        148,
+        30
+],
+        img: [
+                "https://www.arbulang.com/img/fiszkiespanol/146a.jpg"
+        ],
+        word: [
+                "https://www.arbulang.com/voice/music.mp4"
+        ],
+        // historia
+        story: [
+            "P<u><b>an</u></b> <u><b>Sie</u></b>rgiej czuje <u><b>niepokój</u></b>, gdy wspomina mu się o mieście Bag<u><b>dad</u></b> gdzie był na misji wojennej"
+        ],
+        // opis
+        desc: "la ansiedad[la ansiedad] - lęk, niepokój",
+        //zdanie
+        sentence1: [
+                "siempre"
+        ],
+        sentence: [
+                "Tratar",
+                "la ansiedad"
+        ],
+        //  slowo do nauki
+        key: "ansiedad",
+        category1: [
+        ],
+        category2: ["osoby", "osoby+czas"],
+                category3: ["Infinitive"]
+},
+{
+id: [
+        149,
+        30
+],
+        img: [
+                "https://www.arbulang.com/img/fiszkiespanol/146a.jpg"
+        ],
+        word: [
+                "https://www.arbulang.com/voice/music.mp4"
+        ],
+        // historia
+        story: [
+            "P<u><b>an</u></b> <u><b>Sie</u></b>rgiej czuje <u><b>niepokój</u></b>, gdy wspomina mu się o mieście Bag<u><b>dad</u></b> gdzie był na misji wojennej"
+        ],
+        // opis
+        desc: "la ansiedad[la ansiedad] - lęk, niepokój",
+        //zdanie
+        sentence1: [
+                "con"
+        ],
+        sentence: [
+                "con",
+                "respiracion",
+                "profunda"
+        ],
+        //  slowo do nauki
+        key: "con",
+        category1: [
+        ],
+        category2: ["osoby", "osoby+czas"],
+                category3: ["Infinitive"]
+},
+{
+id: [
+        150,
+        30
+],
+        img: [
+                "https://www.arbulang.com/img/fiszkiespanol/146a.jpg"
+        ],
+        word: [
+                "https://www.arbulang.com/voice/music.mp4"
+        ],
+        // historia
+        story: [
+            "P<u><b>an</u></b> <u><b>Sie</u></b>rgiej czuje <u><b>niepokój</u></b>, gdy wspomina mu się o mieście Bag<u><b>dad</u></b> gdzie był na misji wojennej"
+        ],
+        // opis
+        desc: "la ansiedad[la ansiedad] - lęk, niepokój",
+        //zdanie
+        sentence1: [
+                "con"
+        ],
+        sentence: [
+                "con",
+                "respiracion",
+                "profunda"
+        ],
+        //  slowo do nauki
+        key: "respiracion",
+        category1: [
+        ],
+        category2: ["osoby", "osoby+czas"],
+                category3: ["Infinitive"]
+},
+{
+id: [
+        151,
+        30
+],
+        img: [
+                "https://www.arbulang.com/img/fiszkiespanol/146a.jpg"
+        ],
+        word: [
+                "https://www.arbulang.com/voice/music.mp4"
+        ],
+        // historia
+        story: [
+            ""
+        ],
+        // opis
+        desc: "profunda[la ansiedad] - głęboki, głęboka, głęboko",
+        //zdanie
+        sentence1: [
+                "profunda"
+        ],
+        sentence: [
+                "con",
+                "respiracion",
+                "profunda"
+        ],
+        //  slowo do nauki
+        key: "profunda",
+        category1: [
+        ],
+        category2: ["osoby", "osoby+czas"],
+                category3: ["Infinitive"]
+},
+{
+id: [
+        152,
+        31
+],
+        // obrazek
+        img: [
+                "https://www.arbulang.com/img/fiszkiespanol/131a.jpg"
+        ],
+        translate: "Zaprzeczać kłamstwom i zawsze mówić prawdę",
+        translateb: "[Negar mentiras i desir siempre berdad]",
+        srcWord: ["https://www.arbulang.com/filmy/esp/truth.mp4", 'Matrix 1999'],
+        srcWordimage: "https://www.arbulang.com/filmy/esp/truth.png",
+        word: [
+                "https://www.arbulang.com/voice/music.mp4"
+        ],
+        // historia
+        story: [
+            ""
+        ],
+        // opis
+        desc: "anhelar[anielar] - traktować, radzić sobie",
+        //zdanie
+        sentence1: [
+                "Anhelar"
+        ],
+        sentence: [
+                "Anhelar",
+                "paz"
+        ],
+        //  slowo do nauki
+        key: "Anhelar",
+        category1: [
+        ],
+        category2: ["osoby", "osoby+czas"],
+                category3: ["Infinitive"]
+},
+{
+id: [
+        153,
+        32
+],
+        img: [
+                "https://www.arbulang.com/img/fiszkiespanol/146a.jpg"
+        ],
+        word: [
+                "https://www.arbulang.com/voice/music.mp4"
+        ],
+        // historia
+        story: [
+            ""
+        ],
+        // opis
+        desc: "paz[paz] - ",
+        //zdanie
+        sentence1: [
+                "paz"
+        ],
+        sentence: [
+                "Anhelar",
+                "paz"
+        ],
+        //  slowo do nauki
+        key: "paz",
+        category1: [
+        ],
+        category2: ["osoby", "osoby+czas"],
+                category3: ["Infinitive"]
+},
+{
+id: [
+        154,
+        32
+],
+        img: [
+                "https://www.arbulang.com/img/fiszkiespanol/146a.jpg"
+        ],
+        word: [
+                "https://www.arbulang.com/voice/music.mp4"
+        ],
+        // historia
+        story: [
+            ""
+        ],
+        // opis
+        desc: "mientras[] - ",
+        //zdanie
+        sentence1: [
+                "mientras"
+        ],
+        sentence: [
+                "mientras",
+                "hay",
+                "conflictos",
+                "grandes"
+        ],
+        //  slowo do nauki
+        key: "mientras",
+        category1: [
+        ],
+        category2: ["osoby", "osoby+czas"],
+                category3: ["Infinitive"]
+},
+{
+id: [
+        155,
+        32
+],
+        img: [
+                "https://www.arbulang.com/img/fiszkiespanol/146a.jpg"
+        ],
+        word: [
+                "https://www.arbulang.com/voice/music.mp4"
+        ],
+        // historia
+        story: [
+            ""
+        ],
+        // opis
+        desc: "hay[] - ",
+        //zdanie
+        sentence1: [
+                "hay"
+        ],
+        sentence: [
+                "mientras",
+                "hay",
+                "conflictos",
+                "grandes"
+        ],
+        //  slowo do nauki
+        key: "hay",
+        category1: [
+        ],
+        category2: ["osoby", "osoby+czas"],
+                category3: ["Infinitive"]
+},
+{
+id: [
+        156,
+        32
+],
+        img: [
+                "https://www.arbulang.com/img/fiszkiespanol/146a.jpg"
+        ],
+        word: [
+                "https://www.arbulang.com/voice/music.mp4"
+        ],
+        // historia
+        story: [
+            ""
+        ],
+        // opis
+        desc: "conflictos[] - ",
+        //zdanie
+        sentence1: [
+                "conflictos"
+        ],
+        sentence: [
+                "mientras",
+                "hay",
+                "conflictos",
+                "grandes"
+        ],
+        //  slowo do nauki
+        key: "conflictos",
+        category1: [
+        ],
+        category2: ["osoby", "osoby+czas"],
+                category3: ["Infinitive"]
+},
+{
+id: [
+        157,
+        32
+],
+        img: [
+                "https://www.arbulang.com/img/fiszkiespanol/146a.jpg"
+        ],
+        word: [
+                "https://www.arbulang.com/voice/music.mp4"
+        ],
+        // historia
+        story: [
+            ""
+        ],
+        // opis
+        desc: "grandes[] - ",
+        //zdanie
+        sentence1: [
+                "grandes"
+        ],
+        sentence: [
+                "mientras",
+                "hay",
+                "conflictos",
+                "grandes"
+        ],
+        //  slowo do nauki
+        key: "grandes",
+        category1: [
+        ],
+        category2: ["osoby", "osoby+czas"],
+                category3: ["Infinitive"]
+},
+{
+id: [
+        158,
+        33
+],
+        // obrazek
+        img: [
+                "https://www.arbulang.com/img/fiszkiespanol/131a.jpg"
+        ],
+        translate: "Zaprzeczać kłamstwom i zawsze mówić prawdę",
+        translateb: "[Negar mentiras i desir siempre berdad]",
+        srcWord: ["https://www.arbulang.com/filmy/esp/truth.mp4", 'Matrix 1999'],
+        srcWordimage: "https://www.arbulang.com/filmy/esp/truth.png",
+        word: [
+                "https://www.arbulang.com/voice/music.mp4"
+        ],
+        // historia
+        story: [
+            ""
+        ],
+        // opis
+        desc: "cambiar[kambiar] - zmieniać",
+        //zdanie
+        sentence1: [
+                "Cambiar"
+        ],
+        sentence: [
+                "Cambiar",
+                "el mundo"
+        ],
+        //  slowo do nauki
+        key: "cambiar",
+        category1: [
+        ],
+        category2: ["osoby", "osoby+czas"],
+                category3: ["Infinitive"]
+},
+{
+id: [
+        159,
+        33
+],
+        img: [
+                "https://www.arbulang.com/img/fiszkiespanol/146a.jpg"
+        ],
+        word: [
+                "https://www.arbulang.com/voice/music.mp4"
+        ],
+        // historia
+        story: [
+            ""
+        ],
+        // opis
+        desc: "el mundo[] - ",
+        //zdanie
+        sentence1: [
+                "el mundo"
+        ],
+        sentence: [
+                "Cambiar",
+                "el mundo"
+        ],
+        //  slowo do nauki
+        key: "mundo",
+        category1: [
+        ],
+        category2: ["osoby", "osoby+czas"],
+                category3: ["Infinitive"]
+},
+{
+id: [
+        160,
+        33
+],
+        img: [
+                "https://www.arbulang.com/img/fiszkiespanol/146a.jpg"
+        ],
+        word: [
+                "https://www.arbulang.com/voice/music.mp4"
+        ],
+        // historia
+        story: [
+            ""
+        ],
+        // opis
+        desc: "con[] - ",
+        //zdanie
+        sentence1: [
+                "con"
+        ],
+        sentence: [
+                "con",
+                "pequeñas",
+                "acciones"
+        ],
+        //  slowo do nauki
+        key: "con",
+        category1: [
+        ],
+        category2: ["osoby", "osoby+czas"],
+                category3: ["Infinitive"]
+},
+{
+id: [
+        161,
+        33
+],
+        img: [
+                "https://www.arbulang.com/img/fiszkiespanol/146a.jpg"
+        ],
+        word: [
+                "https://www.arbulang.com/voice/music.mp4"
+        ],
+        // historia
+        story: [
+            ""
+        ],
+        // opis
+        desc: "pequeñas[] - ",
+        //zdanie
+        sentence1: [
+                "pequeñas"
+        ],
+        sentence: [
+                "con",
+                "pequeñas",
+                "acciones"
+        ],
+        //  slowo do nauki
+        key: "pequenas",
+        category1: [
+        ],
+        category2: ["osoby", "osoby+czas"],
+                category3: ["Infinitive"]
+},
+{
+id: [
+        162,
+        33
+],
+        img: [
+                "https://www.arbulang.com/img/fiszkiespanol/146a.jpg"
+        ],
+        word: [
+                "https://www.arbulang.com/voice/music.mp4"
+        ],
+        // historia
+        story: [
+            ""
+        ],
+        // opis
+        desc: "acciones[] - ",
+        //zdanie
+        sentence1: [
+                "acciones"
+        ],
+        sentence: [
+                "con",
+                "pequeñas",
+                "acciones"
+        ],
+        //  slowo do nauki
+        key: "acciones",
+        category1: [
+        ],
+        category2: ["osoby", "osoby+czas"],
+                category3: ["Infinitive"]
+},
+{
+id: [
+        163,
+        34
+],
+        // obrazek
+        img: [
+                "https://www.arbulang.com/img/fiszkiespanol/131a.jpg"
+        ],
+        translate: "Zaprzeczać kłamstwom i zawsze mówić prawdę",
+        translateb: "[Negar mentiras i desir siempre berdad]",
+        srcWord: ["https://www.arbulang.com/filmy/esp/truth.mp4", 'Matrix 1999'],
+        srcWordimage: "https://www.arbulang.com/filmy/esp/truth.png",
+        word: [
+                "https://www.arbulang.com/voice/music.mp4"
+        ],
+        // historia
+        story: [
+            ""
+        ],
+        // opis
+        desc: "lograr[] - zmieniać",
+        //zdanie
+        sentence1: [
+                "Lograr"
+        ],
+        sentence: [
+                "Lograr",
+                "sueños",
+                "grandes"
+        ],
+        //  slowo do nauki
+        key: "lograr",
+        category1: [
+        ],
+        category2: ["osoby", "osoby+czas"],
+                category3: ["Infinitive"]
+},
+{
+id: [
+        164,
+        34
+],
+        img: [
+                "https://www.arbulang.com/img/fiszkiespanol/146a.jpg"
+        ],
+        word: [
+                "https://www.arbulang.com/voice/music.mp4"
+        ],
+        // historia
+        story: [
+            ""
+        ],
+        // opis
+        desc: "sueños[] - ",
+        //zdanie
+        sentence1: [
+                "sueños"
+        ],
+        sentence: [
+                "Lograr",
+                "sueños",
+                "grandes"
+        ],
+        //  slowo do nauki
+        key: "suenos",
+        category1: [
+        ],
+        category2: ["osoby", "osoby+czas"],
+                category3: ["Infinitive"]
+},
+{
+id: [
+        165,
+        34
+],
+        img: [
+                "https://www.arbulang.com/img/fiszkiespanol/146a.jpg"
+        ],
+        word: [
+                "https://www.arbulang.com/voice/music.mp4"
+        ],
+        // historia
+        story: [
+            ""
+        ],
+        // opis
+        desc: "grandes[] - ",
+        //zdanie
+        sentence1: [
+                "grandes"
+        ],
+        sentence: [
+                "Lograr",
+                "sueños",
+                "grandes"
+        ],
+        //  slowo do nauki
+        key: "grandes",
+        category1: [
+        ],
+        category2: ["osoby", "osoby+czas"],
+                category3: ["Infinitive"]
+},
+{
+id: [
+        166,
+        34
+],
+        img: [
+                "https://www.arbulang.com/img/fiszkiespanol/146a.jpg"
+        ],
+        word: [
+                "https://www.arbulang.com/voice/music.mp4"
+        ],
+        // historia
+        story: [
+            ""
+        ],
+        // opis
+        desc: "con[] - ",
+        //zdanie
+        sentence1: [
+                "con"
+        ],
+        sentence: [
+                "con",
+                "pequeños",
+                "pasos"
+        ],
+        //  slowo do nauki
+        key: "con",
+        category1: [
+        ],
+        category2: ["osoby", "osoby+czas"],
+                category3: ["Infinitive"]
+},
+{
+id: [
+        167,
+        34
+],
+        img: [
+                "https://www.arbulang.com/img/fiszkiespanol/146a.jpg"
+        ],
+        word: [
+                "https://www.arbulang.com/voice/music.mp4"
+        ],
+        // historia
+        story: [
+            ""
+        ],
+        // opis
+        desc: "pequeños[] - ",
+        //zdanie
+        sentence1: [
+                "pequeños"
+        ],
+        sentence: [
+                "con",
+                "pequeños",
+                "pasos"
+        ],
+        //  slowo do nauki
+        key: "pequenos",
+        category1: [
+        ],
+        category2: ["osoby", "osoby+czas"],
+                category3: ["Infinitive"]
+},
+{
+id: [
+        168,
+        34
+],
+        img: [
+                "https://www.arbulang.com/img/fiszkiespanol/146a.jpg"
+        ],
+        word: [
+                "https://www.arbulang.com/voice/music.mp4"
+        ],
+        // historia
+        story: [
+            ""
+        ],
+        // opis
+        desc: "pasos[] - ",
+        //zdanie
+        sentence1: [
+                "pasos"
+        ],
+        sentence: [
+                "con",
+                "pequeños",
+                "pasos"
+        ],
+        //  slowo do nauki
+        key: "pasos",
+        category1: [
+        ],
+        category2: ["osoby", "osoby+czas"],
+                category3: ["Infinitive"]
+},
+{
+id: [
+        169,
+        35
+],
+        // obrazek
+        img: [
+                "https://www.arbulang.com/img/fiszkiespanol/131a.jpg"
+        ],
+        translate: "Zaprzeczać kłamstwom i zawsze mówić prawdę",
+        translateb: "[Negar mentiras i desir siempre berdad]",
+        srcWord: ["https://www.arbulang.com/filmy/esp/truth.mp4", 'Matrix 1999'],
+        srcWordimage: "https://www.arbulang.com/filmy/esp/truth.png",
+        word: [
+                "https://www.arbulang.com/voice/music.mp4"
+        ],
+        // historia
+        story: [
+            ""
+        ],
+        // opis
+        desc: "repetir[] - powtarzać",
+        //zdanie
+        sentence1: [
+                "Repetir"
+        ],
+        sentence: [
+                "Repetir",
+                "palabras",
+                "bontias"
+        ],
+        //  slowo do nauki
+        key: "repetir",
+        category1: [
+        ],
+        category2: ["osoby", "osoby+czas"],
+                category3: ["Infinitive"]
+},
+{
+id: [
+        168,
+        34
+],
+        img: [
+                "https://www.arbulang.com/img/fiszkiespanol/146a.jpg"
+        ],
+        word: [
+                "https://www.arbulang.com/voice/music.mp4"
+        ],
+        // historia
+        story: [
+            ""
+        ],
+        // opis
+        desc: "palabras[] - ",
+        //zdanie
+        sentence1: [
+                "palabras"
+        ],
+        sentence: [
+                "Repetir",
+                "palabras",
+                "bontias"
+        ],
+        //  slowo do nauki
+        key: "palabras",
+        category1: [
+        ],
+        category2: ["osoby", "osoby+czas"],
+                category3: ["Infinitive"]
+},
+{
+id: [
+        168,
+        34
+],
+        img: [
+                "https://www.arbulang.com/img/fiszkiespanol/146a.jpg"
+        ],
+        word: [
+                "https://www.arbulang.com/voice/music.mp4"
+        ],
+        // historia
+        story: [
+            ""
+        ],
+        // opis
+        desc: "bonitas[] - ",
+        //zdanie
+        sentence1: [
+                "bonitas"
+        ],
+        sentence: [
+                "Repetir",
+                "palabras",
+                "bontias"
+        ],
+        //  slowo do nauki
+        key: "siempre",
+        category1: [
+        ],
+        category2: ["osoby", "osoby+czas"],
+                category3: ["Infinitive"]
+},
+{
+id: [
+        168,
+        34
+],
+        img: [
+                "https://www.arbulang.com/img/fiszkiespanol/146a.jpg"
+        ],
+        word: [
+                "https://www.arbulang.com/voice/music.mp4"
+        ],
+        // historia
+        story: [
+            ""
+        ],
+        // opis
+        desc: "para[] - ",
+        //zdanie
+        sentence1: [
+                "para"
+        ],
+        sentence: [
+                "para",
+                "sentirse",
+                "bien"
+        ],
+        //  slowo do nauki
+        key: "para",
+        category1: [
+        ],
+        category2: ["osoby", "osoby+czas"],
+                category3: ["Infinitive"]
+},
+{
+id: [
+        168,
+        34
+],
+        img: [
+                "https://www.arbulang.com/img/fiszkiespanol/146a.jpg"
+        ],
+        word: [
+                "https://www.arbulang.com/voice/music.mp4"
+        ],
+        // historia
+        story: [
+            ""
+        ],
+        // opis
+        desc: "sentirse[] - ",
+        //zdanie
+        sentence1: [
+                "sentirse"
+        ],
+        sentence: [
+                "para",
+                "sentirse",
+                "bien"
+        ],
+        //  slowo do nauki
+        key: "sentirse",
+        category1: [
+        ],
+        category2: ["osoby", "osoby+czas"],
+                category3: ["Infinitive"]
+},
+{
+id: [
+        168,
+        34
+],
+        img: [
+                "https://www.arbulang.com/img/fiszkiespanol/146a.jpg"
+        ],
+        word: [
+                "https://www.arbulang.com/voice/music.mp4"
+        ],
+        // historia
+        story: [
+            ""
+        ],
+        // opis
+        desc: "bien[] - ",
+        //zdanie
+        sentence1: [
+                "bien"
+        ],
+        sentence: [
+                "para",
+                "sentirse",
+                "bien"
+        ],
+        //  slowo do nauki
+        key: "bien",
+        category1: [
+        ],
+        category2: ["osoby", "osoby+czas"],
+                category3: ["Infinitive"]
+},
+{
+id: [
+        169,
+        35
+],
+        // obrazek
+        img: [
+                "https://www.arbulang.com/img/fiszkiespanol/131a.jpg"
+        ],
+        translate: "Zaprzeczać kłamstwom i zawsze mówić prawdę",
+        translateb: "[Negar mentiras i desir siempre berdad]",
+        srcWord: ["https://www.arbulang.com/filmy/esp/truth.mp4", 'Matrix 1999'],
+        srcWordimage: "https://www.arbulang.com/filmy/esp/truth.png",
+        word: [
+                "https://www.arbulang.com/voice/music.mp4"
+        ],
+        // historia
+        story: [
+            ""
+        ],
+        // opis
+        desc: "mantener[] - powtarzać",
+        //zdanie
+        sentence1: [
+                "Mantener"
+        ],
+        sentence: [
+                "Mantener",
+                "la calma"
+        ],
+        //  slowo do nauki
+        key: "mantener",
+        category1: [
+        ],
+        category2: ["osoby", "osoby+czas"],
+                category3: ["Infinitive"]
+},
+{
+id: [
+        170,
+        35
+],
+        img: [
+                "https://www.arbulang.com/img/fiszkiespanol/146a.jpg"
+        ],
+        word: [
+                "https://www.arbulang.com/voice/music.mp4"
+        ],
+        // historia
+        story: [
+            ""
+        ],
+        // opis
+        desc: "la calma[] - ",
+        //zdanie
+        sentence1: [
+                "la calma"
+        ],
+        sentence: [
+                "Mantener",
+                "la calma"
+        ],
+        //  slowo do nauki
+        key: "calma",
+        category1: [
+        ],
+        category2: ["osoby", "osoby+czas"],
+                category3: ["Infinitive"]
+},
+{
+id: [
+        171,
+        35
+],
+        img: [
+                "https://www.arbulang.com/img/fiszkiespanol/146a.jpg"
+        ],
+        word: [
+                "https://www.arbulang.com/voice/music.mp4"
+        ],
+        // historia
+        story: [
+            ""
+        ],
+        // opis
+        desc: "y[] - ",
+        //zdanie
+        sentence1: [
+                "y"
+        ],
+        sentence: [
+                "y",
+                "disfrutar",
+                "el momento"
+        ],
+        //  slowo do nauki
+        key: "y",
+        category1: [
+        ],
+        category2: ["osoby", "osoby+czas"],
+                category3: ["Infinitive"]
+},
+{
+id: [
+        172,
+        35
+],
+        img: [
+                "https://www.arbulang.com/img/fiszkiespanol/146a.jpg"
+        ],
+        word: [
+                "https://www.arbulang.com/voice/music.mp4"
+        ],
+        // historia
+        story: [
+            ""
+        ],
+        // opis
+        desc: "disfrutar[] - ",
+        //zdanie
+        sentence1: [
+                "disfrutar"
+        ],
+        sentence: [
+                "y",
+                "disfrutar",
+                "el momento"
+        ],
+        //  slowo do nauki
+        key: "disfrutar",
+        category1: [
+        ],
+        category2: ["osoby", "osoby+czas"],
+                category3: ["Infinitive"]
+},
+{
+id: [
+        173,
+        35
+],
+        img: [
+                "https://www.arbulang.com/img/fiszkiespanol/146a.jpg"
+        ],
+        word: [
+                "https://www.arbulang.com/voice/music.mp4"
+        ],
+        // historia
+        story: [
+            ""
+        ],
+        // opis
+        desc: "el momento[] - ",
+        //zdanie
+        sentence1: [
+                "el momento"
+        ],
+        sentence: [
+                "y",
+                "disfrutar",
+                "el momento"
+        ],
+        //  slowo do nauki
+        key: "momento",
+        category1: [
+        ],
+        category2: ["osoby", "osoby+czas"],
+                category3: ["Infinitive"]
+},
+{
+id: [
+        174,
+        36
+],
+        // obrazek
+        img: [
+                "https://www.arbulang.com/img/fiszkiespanol/131a.jpg"
+        ],
+        translate: "Zaprzeczać kłamstwom i zawsze mówić prawdę",
+        translateb: "[Negar mentiras i desir siempre berdad]",
+        srcWord: ["https://www.arbulang.com/filmy/esp/truth.mp4", 'Matrix 1999'],
+        srcWordimage: "https://www.arbulang.com/filmy/esp/truth.png",
+        word: [
+                "https://www.arbulang.com/voice/music.mp4"
+        ],
+        // historia
+        story: [
+            ""
+        ],
+        // opis
+        desc: "cuidar[] - powtarzać",
+        //zdanie
+        sentence1: [
+                "Cuidar"
+        ],
+        sentence: [
+                "Cuidar",
+                "la salud"
+        ],
+        //  slowo do nauki
+        key: "cuidar",
+        category1: [
+        ],
+        category2: ["osoby", "osoby+czas"],
+                category3: ["Infinitive"]
+},
+{
+id: [
+        175,
+        36
+],
+        img: [
+                "https://www.arbulang.com/img/fiszkiespanol/146a.jpg"
+        ],
+        word: [
+                "https://www.arbulang.com/voice/music.mp4"
+        ],
+        // historia
+        story: [
+            ""
+        ],
+        // opis
+        desc: "la salud[] - ",
+        //zdanie
+        sentence1: [
+                "la salud"
+        ],
+        sentence: [
+                "Cuidar",
+                "la salud"
+        ],
+        //  slowo do nauki
+        key: "salud",
+        category1: [
+        ],
+        category2: ["osoby", "osoby+czas"],
+                category3: ["Infinitive"]
+},
+{
+id: [
+        176,
+        36
+],
+        img: [
+                "https://www.arbulang.com/img/fiszkiespanol/146a.jpg"
+        ],
+        word: [
+                "https://www.arbulang.com/voice/music.mp4"
+        ],
+        // historia
+        story: [
+            ""
+        ],
+        // opis
+        desc: "con[] - ",
+        //zdanie
+        sentence1: [
+                "con"
+        ],
+        sentence: [
+                "con",
+                "ejercicio",
+                "diario"
+        ],
+        //  slowo do nauki
+        key: "con",
+        category1: [
+        ],
+        category2: ["osoby", "osoby+czas"],
+                category3: ["Infinitive"]
+},
+{
+id: [
+        177,
+        36
+],
+        img: [
+                "https://www.arbulang.com/img/fiszkiespanol/146a.jpg"
+        ],
+        word: [
+                "https://www.arbulang.com/voice/music.mp4"
+        ],
+        // historia
+        story: [
+            ""
+        ],
+        // opis
+        desc: "ejercicio[] - ",
+        //zdanie
+        sentence1: [
+                "ejercicio"
+        ],
+        sentence: [
+                "con",
+                "ejercicio",
+                "diario"
+        ],
+        //  slowo do nauki
+        key: "ejercicio",
+        category1: [
+        ],
+        category2: ["osoby", "osoby+czas"],
+                category3: ["Infinitive"]
+},
+{
+id: [
+        178,
+        36
+],
+        img: [
+                "https://www.arbulang.com/img/fiszkiespanol/146a.jpg"
+        ],
+        word: [
+                "https://www.arbulang.com/voice/music.mp4"
+        ],
+        // historia
+        story: [
+            ""
+        ],
+        // opis
+        desc: "diario[] - ",
+        //zdanie
+        sentence1: [
+                "diario"
+        ],
+        sentence: [
+                "con",
+                "ejercicio",
+                "diario"
+        ],
+        //  slowo do nauki
+        key: "diario",
+        category1: [
+        ],
+        category2: ["osoby", "osoby+czas"],
+                category3: ["Infinitive"]
+},
+{
+id: [
+        179,
+        37
+],
+        // obrazek
+        img: [
+                "https://www.arbulang.com/img/fiszkiespanol/131a.jpg"
+        ],
+        translate: "Zaprzeczać kłamstwom i zawsze mówić prawdę",
+        translateb: "[Negar mentiras i desir siempre berdad]",
+        srcWord: ["https://www.arbulang.com/filmy/esp/truth.mp4", 'Matrix 1999'],
+        srcWordimage: "https://www.arbulang.com/filmy/esp/truth.png",
+        word: [
+                "https://www.arbulang.com/voice/music.mp4"
+        ],
+        // historia
+        story: [
+            ""
+        ],
+        // opis
+        desc: "proteger[] - chronić",
+        //zdanie
+        sentence1: [
+                "Proteger"
+        ],
+        sentence: [
+                "Proteger",
+                "el cuerpo"
+        ],
+        //  slowo do nauki
+        key: "proteger",
+        category1: [
+        ],
+        category2: ["osoby", "osoby+czas"],
+                category3: ["Infinitive"]
+},
+{
+id: [
+        180,
+        37
+],
+        img: [
+                "https://www.arbulang.com/img/fiszkiespanol/146a.jpg"
+        ],
+        word: [
+                "https://www.arbulang.com/voice/music.mp4"
+        ],
+        // historia
+        story: [
+            ""
+        ],
+        // opis
+        desc: "el cuerpo[] - ",
+        //zdanie
+        sentence1: [
+                "el cuerpo"
+        ],
+        sentence: [
+                "Proteger",
+                "el cuerpo"
+        ],
+        //  slowo do nauki
+        key: "cuerpo",
+        category1: [
+        ],
+        category2: ["osoby", "osoby+czas"],
+                category3: ["Infinitive"]
+},
+{
+id: [
+        181,
+        37
+],
+        img: [
+                "https://www.arbulang.com/img/fiszkiespanol/146a.jpg"
+        ],
+        word: [
+                "https://www.arbulang.com/voice/music.mp4"
+        ],
+        // historia
+        story: [
+            ""
+        ],
+        // opis
+        desc: "con[] - ",
+        //zdanie
+        sentence1: [
+                "con"
+        ],
+        sentence: [
+                "con",
+                "ropa",
+                "cómoda"
+        ],
+        //  slowo do nauki
+        key: "con",
+        category1: [
+        ],
+        category2: ["osoby", "osoby+czas"],
+                category3: ["Infinitive"]
+},
+{
+id: [
+        182,
+        37
+],
+        img: [
+                "https://www.arbulang.com/img/fiszkiespanol/146a.jpg"
+        ],
+        word: [
+                "https://www.arbulang.com/voice/music.mp4"
+        ],
+        // historia
+        story: [
+            ""
+        ],
+        // opis
+        desc: "ropa[] - ",
+        //zdanie
+        sentence1: [
+                "ropa"
+        ],
+        sentence: [
+                "con",
+                "ropa",
+                "cómoda"
+        ],
+        //  slowo do nauki
+        key: "ropa",
+        category1: [
+        ],
+        category2: ["osoby", "osoby+czas"],
+                category3: ["Infinitive"]
+},
+{
+id: [
+        183,
+        37
+],
+        img: [
+                "https://www.arbulang.com/img/fiszkiespanol/146a.jpg"
+        ],
+        word: [
+                "https://www.arbulang.com/voice/music.mp4"
+        ],
+        // historia
+        story: [
+            ""
+        ],
+        // opis
+        desc: "cómoda[] - ",
+        //zdanie
+        sentence1: [
+                "cómoda"
+        ],
+        sentence: [
+                "con",
+                "ropa",
+                "cómoda"
+        ],
+        //  slowo do nauki
+        key: "comoda",
+        category1: [
+        ],
+        category2: ["osoby", "osoby+czas"],
+                category3: ["Infinitive"]
+},
+{
+id: [
+        184,
+        38
+],
+        // obrazek
+        img: [
+                "https://www.arbulang.com/img/fiszkiespanol/131a.jpg"
+        ],
+        translate: "Zaprzeczać kłamstwom i zawsze mówić prawdę",
+        translateb: "[Negar mentiras i desir siempre berdad]",
+        srcWord: ["https://www.arbulang.com/filmy/esp/truth.mp4", 'Matrix 1999'],
+        srcWordimage: "https://www.arbulang.com/filmy/esp/truth.png",
+        word: [
+                "https://www.arbulang.com/voice/music.mp4"
+        ],
+        // historia
+        story: [
+            ""
+        ],
+        // opis
+        desc: "cambiar[] - chronić",
+        //zdanie
+        sentence1: [
+                "Cmabiar"
+        ],
+        sentence: [
+                "Cambiar",
+                "el plan"
+        ],
+        //  slowo do nauki
+        key: "cambiar",
+        category1: [
+        ],
+        category2: ["osoby", "osoby+czas"],
+                category3: ["Infinitive"]
+},
+{
+id: [
+        185,
+        38
+],
+        img: [
+                "https://www.arbulang.com/img/fiszkiespanol/146a.jpg"
+        ],
+        word: [
+                "https://www.arbulang.com/voice/music.mp4"
+        ],
+        // historia
+        story: [
+            ""
+        ],
+        // opis
+        desc: "el plan[] - ",
+        //zdanie
+        sentence1: [
+                "el plan"
+        ],
+        sentence: [
+                "Cambiar",
+                "el plan"
+        ],
+        //  slowo do nauki
+        key: "plan",
+        category1: [
+        ],
+        category2: ["osoby", "osoby+czas"],
+                category3: ["Infinitive"]
+},
+{
+id: [
+        186,
+        38
+],
+        img: [
+                "https://www.arbulang.com/img/fiszkiespanol/146a.jpg"
+        ],
+        word: [
+                "https://www.arbulang.com/voice/music.mp4"
+        ],
+        // historia
+        story: [
+            ""
+        ],
+        // opis
+        desc: "si es[] - ",
+        //zdanie
+        sentence1: [
+                "si es"
+        ],
+        sentence: [
+                "si es",
+                "necasario"
+        ],
+        //  slowo do nauki
+        key: "si es",
+        category1: [
+        ],
+        category2: ["osoby", "osoby+czas"],
+                category3: ["Infinitive"]
+},
+{
+id: [
+        187,
+        38
+],
+        img: [
+                "https://www.arbulang.com/img/fiszkiespanol/146a.jpg"
+        ],
+        word: [
+                "https://www.arbulang.com/voice/music.mp4"
+        ],
+        // historia
+        story: [
+            ""
+        ],
+        // opis
+        desc: "necesario[] - ",
+        //zdanie
+        sentence1: [
+                "necasario"
+        ],
+        sentence: [
+                "si es",
+                "necasario"
+        ],
+        //  slowo do nauki
+        key: "necesario",
+        category1: [
+        ],
+        category2: ["osoby", "osoby+czas"],
+                category3: ["Infinitive"]
+},
+{
+id: [
+        188,
+        39
+],
+        // obrazek
+        img: [
+                "https://www.arbulang.com/img/fiszkiespanol/131a.jpg"
+        ],
+        translate: "Zaprzeczać kłamstwom i zawsze mówić prawdę",
+        translateb: "[Negar mentiras i desir siempre berdad]",
+        srcWord: ["https://www.arbulang.com/filmy/esp/truth.mp4", 'Matrix 1999'],
+        srcWordimage: "https://www.arbulang.com/filmy/esp/truth.png",
+        word: [
+                "https://www.arbulang.com/voice/music.mp4"
+        ],
+        // historia
+        story: [
+            ""
+        ],
+        // opis
+        desc: "prever[] - chronić",
+        //zdanie
+        sentence1: [
+                "Prever"
+        ],
+        sentence: [
+                "Prever",
+                "el futuro"
+        ],
+        //  slowo do nauki
+        key: "prever",
+        category1: [
+        ],
+        category2: ["osoby", "osoby+czas"],
+                category3: ["Infinitive"]
+},
+{
+id: [
+        189,
+        39
+],
+        img: [
+                "https://www.arbulang.com/img/fiszkiespanol/146a.jpg"
+        ],
+        word: [
+                "https://www.arbulang.com/voice/music.mp4"
+        ],
+        // historia
+        story: [
+            ""
+        ],
+        // opis
+        desc: "el futuro[] - ",
+        //zdanie
+        sentence1: [
+                "el futuro"
+        ],
+        sentence: [
+                "Prever",
+                "el futuro"
+        ],
+        //  slowo do nauki
+        key: "futuro",
+        category1: [
+        ],
+        category2: ["osoby", "osoby+czas"],
+                category3: ["Infinitive"]
+},
+{
+id: [
+        190,
+        39
+],
+        img: [
+                "https://www.arbulang.com/img/fiszkiespanol/146a.jpg"
+        ],
+        word: [
+                "https://www.arbulang.com/voice/music.mp4"
+        ],
+        // historia
+        story: [
+            ""
+        ],
+        // opis
+        desc: "con[] - ",
+        //zdanie
+        sentence1: [
+                "con"
+        ],
+        sentence: [
+                "con",
+                "pensamientos",
+                "positivos"
+        ],
+        //  slowo do nauki
+        key: "con",
+        category1: [
+        ],
+        category2: ["osoby", "osoby+czas"],
+                category3: ["Infinitive"]
+},
+{
+id: [
+        191,
+        39
+],
+        img: [
+                "https://www.arbulang.com/img/fiszkiespanol/146a.jpg"
+        ],
+        word: [
+                "https://www.arbulang.com/voice/music.mp4"
+        ],
+        // historia
+        story: [
+            ""
+        ],
+        // opis
+        desc: "pensamientos[] - ",
+        //zdanie
+        sentence1: [
+                "pensamientos"
+        ],
+        sentence: [
+                "con",
+                "pensamientos",
+                "positivos"
+        ],
+        //  slowo do nauki
+        key: "pensamientos",
+        category1: [
+        ],
+        category2: ["osoby", "osoby+czas"],
+                category3: ["Infinitive"]
+},
+{
+id: [
+        192,
+        39
+],
+        img: [
+                "https://www.arbulang.com/img/fiszkiespanol/146a.jpg"
+        ],
+        word: [
+                "https://www.arbulang.com/voice/music.mp4"
+        ],
+        // historia
+        story: [
+            ""
+        ],
+        // opis
+        desc: "positivos[] - ",
+        //zdanie
+        sentence1: [
+                "positivos"
+        ],
+        sentence: [
+                "con",
+                "pensamientos",
+                "positivos"
+        ],
+        //  slowo do nauki
+        key: "positivos",
+        category1: [
+        ],
+        category2: ["osoby", "osoby+czas"],
+                category3: ["Infinitive"]
+},
+{
+id: [
+        193,
+        40
+],
+        // obrazek
+        img: [
+                "https://www.arbulang.com/img/fiszkiespanol/131a.jpg"
+        ],
+        translate: "Zaprzeczać kłamstwom i zawsze mówić prawdę",
+        translateb: "[Negar mentiras i desir siempre berdad]",
+        srcWord: ["https://www.arbulang.com/filmy/esp/truth.mp4", 'Matrix 1999'],
+        srcWordimage: "https://www.arbulang.com/filmy/esp/truth.png",
+        word: [
+                "https://www.arbulang.com/voice/music.mp4"
+        ],
+        // historia
+        story: [
+            ""
+        ],
+        // opis
+        desc: "despertar[] - chronić",
+        //zdanie
+        sentence1: [
+                "Despertar"
+        ],
+        sentence: [
+                "Despertar",
+                "temprano"
+        ],
+        //  slowo do nauki
+        key: "despertar",
+        category1: [
+        ],
+        category2: ["osoby", "osoby+czas"],
+                category3: ["Infinitive"]
+},
+{
+id: [
+        194,
+        40
+],
+        img: [
+                "https://www.arbulang.com/img/fiszkiespanol/146a.jpg"
+        ],
+        word: [
+                "https://www.arbulang.com/voice/music.mp4"
+        ],
+        // historia
+        story: [
+            ""
+        ],
+        // opis
+        desc: "temprano[] - ",
+        //zdanie
+        sentence1: [
+                "temprano"
+        ],
+        sentence: [
+                "Despertar",
+                "temprano"
+        ],
+        //  slowo do nauki
+        key: "temprano",
+        category1: [
+        ],
+        category2: ["osoby", "osoby+czas"],
+                category3: ["Infinitive"]
+},
+{
+id: [
+        195,
+        40
+],
+        img: [
+                "https://www.arbulang.com/img/fiszkiespanol/146a.jpg"
+        ],
+        word: [
+                "https://www.arbulang.com/voice/music.mp4"
+        ],
+        // historia
+        story: [
+            ""
+        ],
+        // opis
+        desc: "para[] - ",
+        //zdanie
+        sentence1: [
+                "para"
+        ],
+        sentence: [
+                "para",
+                "disfrutar",
+                "el dia"
+        ],
+        //  slowo do nauki
+        key: "para",
+        category1: [
+        ],
+        category2: ["osoby", "osoby+czas"],
+                category3: ["Infinitive"]
+},
+{
+id: [
+        196,
+        40
+],
+        img: [
+                "https://www.arbulang.com/img/fiszkiespanol/146a.jpg"
+        ],
+        word: [
+                "https://www.arbulang.com/voice/music.mp4"
+        ],
+        // historia
+        story: [
+            ""
+        ],
+        // opis
+        desc: "disfrutar[] - ",
+        //zdanie
+        sentence1: [
+                "disfrutar"
+        ],
+        sentence: [
+                "para",
+                "disfrutar",
+                "el dia"
+        ],
+        //  slowo do nauki
+        key: "disfrutar",
+        category1: [
+        ],
+        category2: ["osoby", "osoby+czas"],
+                category3: ["Infinitive"]
+},
+{
+id: [
+        197,
+        40
+],
+        img: [
+                "https://www.arbulang.com/img/fiszkiespanol/146a.jpg"
+        ],
+        word: [
+                "https://www.arbulang.com/voice/music.mp4"
+        ],
+        // historia
+        story: [
+            ""
+        ],
+        // opis
+        desc: "el dia[] - ",
+        //zdanie
+        sentence1: [
+                "el dia"
+        ],
+        sentence: [
+                "para",
+                "disfrutar",
+                "el dia"
+        ],
+        //  slowo do nauki
+        key: "dia",
+        category1: [
+        ],
+        category2: ["osoby", "osoby+czas"],
+                category3: ["Infinitive"]
+},
+{
+id: [
+        198,
+        40
+],
+        // obrazek
+        img: [
+                "https://www.arbulang.com/img/fiszkiespanol/131a.jpg"
+        ],
+        translate: "Zaprzeczać kłamstwom i zawsze mówić prawdę",
+        translateb: "[Negar mentiras i desir siempre berdad]",
+        srcWord: ["https://www.arbulang.com/filmy/esp/truth.mp4", 'Matrix 1999'],
+        srcWordimage: "https://www.arbulang.com/filmy/esp/truth.png",
+        word: [
+                "https://www.arbulang.com/voice/music.mp4"
+        ],
+        // historia
+        story: [
+            ""
+        ],
+        // opis
+        desc: "comer[komer] - jeśc",
+        //zdanie
+        sentence1: [
+                "Comer"
+        ],
+        sentence: [
+                "Comer",
+                "frutas",
+                "frescas"
+        ],
+        //  slowo do nauki
+        key: "comer",
+        category1: [
+        ],
+        category2: ["osoby", "osoby+czas"],
+                category3: ["Infinitive"]
+},
+{
+id: [
+        199,
+        40
+],
+        img: [
+                "https://www.arbulang.com/img/fiszkiespanol/146a.jpg"
+        ],
+        word: [
+                "https://www.arbulang.com/voice/music.mp4"
+        ],
+        // historia
+        story: [
+            ""
+        ],
+        // opis
+        desc: "frutas[] - ",
+        //zdanie
+        sentence1: [
+                "frutas"
+        ],
+        sentence: [
+                "Comer",
+                "frutas",
+                "frescas"
+        ],
+        //  slowo do nauki
+        key: "frutas",
+        category1: [
+        ],
+        category2: ["osoby", "osoby+czas"],
+                category3: ["Infinitive"]
+},
+{
+id: [
+        200,
+        40
+],
+        img: [
+                "https://www.arbulang.com/img/fiszkiespanol/146a.jpg"
+        ],
+        word: [
+                "https://www.arbulang.com/voice/music.mp4"
+        ],
+        // historia
+        story: [
+            ""
+        ],
+        // opis
+        desc: "frescas[] - ",
+        //zdanie
+        sentence1: [
+                "frescas"
+        ],
+        sentence: [
+                "Comer",
+                "frutas",
+                "frescas"
+        ],
+        //  slowo do nauki
+        key: "frescas",
+        category1: [
+        ],
+        category2: ["osoby", "osoby+czas"],
+                category3: ["Infinitive"]
+},
+{
+id: [
+        201,
+        40
+],
+        img: [
+                "https://www.arbulang.com/img/fiszkiespanol/146a.jpg"
+        ],
+        word: [
+                "https://www.arbulang.com/voice/music.mp4"
+        ],
+        // historia
+        story: [
+            ""
+        ],
+        // opis
+        desc: "cada[] - ",
+        //zdanie
+        sentence1: [
+                "cada"
+        ],
+        sentence: [
+                "cada",
+                "mañana"
+        ],
+        //  slowo do nauki
+        key: "cada",
+        category1: [
+        ],
+        category2: ["osoby", "osoby+czas"],
+                category3: ["Infinitive"]
+},
+{
+id: [
+        202,
+        40
+],
+        img: [
+                "https://www.arbulang.com/img/fiszkiespanol/146a.jpg"
+        ],
+        word: [
+                "https://www.arbulang.com/voice/music.mp4"
+        ],
+        // historia
+        story: [
+            ""
+        ],
+        // opis
+        desc: "mañana[] - ",
+        //zdanie
+        sentence1: [
+                "mañana"
+        ],
+        sentence: [
+                "cada",
+                "mañana"
+        ],
+        //  slowo do nauki
+        key: "manana",
+        category1: [
+        ],
+        category2: ["osoby", "osoby+czas"],
+                category3: ["Infinitive"]
 }
 ];
 
