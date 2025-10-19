@@ -16,6 +16,7 @@ const fiszki10 = [
         translate: "Wszyscy mają ubaw na zabawie",
         translateb: "[Ewrybody hes fan at de party]",
         translateb2: "[Ewrybody hes fan]",
+                        translateb3: "Everybody has fun at the party",
         opis: "Meksykański 'pass' po wejściu na imprezę",
         srcWord: ["https://www.arbulang.com/filmy/party.mp4", "The Matrix Reloaded"],
         srcWord2: ["https://www.arbulang.com/filmy/procedure.mp4", "Breaking Bad"],
@@ -300,8 +301,9 @@ const fiszki10 = [
             "https://www.arbulang.com/img/fiszki1/7e.jpg"
         ],
         translate: "On jest posłuszny wobec naukowych procedur",
-        translateb: "[Hi is obidient to sajens prosidżer]",
+        translateb: "[Hi is obidient to sajentifik prosidżer]",
         translateb2: "[Hi is obidient]",
+                                translateb3: "He is obedient to scientific procedures",
         opis: "Głowny bohater znajduje sposób, aby przerwać plan",
         srcWord: ["https://www.arbulang.com/filmy/procedure.mp4", "Breaking Bad"],
         srcWord2: ["https://www.arbulang.com/filmy/procedure.mp4", "Breaking Bad"],
@@ -573,6 +575,7 @@ const fiszki10 = [
         translate: "Bądź bardziej obecny wobec swoich emocji",
         translateb: "[Bi mor prezent łiz jor imołszyns]",
         translateb2: "[Bi mor prezent]",
+        translateb3: "Be more present with your emotions",
         opis: "spotkanie mafijne, na które wchodzi Joker",
         srcWord: ["https://www.arbulang.com/filmy/emotions.mp4", "The Dark Knight(2008)"],
         srcWordimage: "https://www.arbulang.com/filmy/emotions.png",
@@ -855,6 +858,7 @@ const fiszki10 = [
         translate: "Ja jestem nieśmiały, ale czasami bywam odważny",
         translateb: "[Aj em szaj bat samtajms dering]",
         translateb2: "[Aj em szaj]",
+                translateb3: "I am shy but sometimes daring",
         opis: "scena 'prawdziwego' pocałunku",
         srcWord: ["https://www.arbulang.com/filmy/shy.mp4", 'The Matrix Reloaded (2003)'],
         srcWord2: ["https://www.arbulang.com/filmy/procedure.mp4", "Breaking Bad"],
@@ -1129,6 +1133,7 @@ const fiszki10 = [
         translate: "Chłopak złapał kota i przytulił go",
         translateb: "[De gaj kaczes (de) kat end hags it]",
         translateb2: "[De gaj kaczes (de) kat]",
+                        translateb3: "The guy catches the cat and hugs it",
         opis: "Supermen zdejmuje kota z drzewa",
         story: [
             "Piłki do gry w kosza są twar<u><b>de</u></b>. Sam ten sport <u><b>to</u></b> twarda gra",
@@ -1429,6 +1434,7 @@ const fiszki10 = [
         translate: "Nasza szkoła organizuje całkiem ciekawe wydarzenia",
         translateb: "[Aur skul organajz kłajt interesting iwents]",
         translateb2: "[Aur skul organajz]",
+                        translateb3: "Our school organizes quite interesting events",
         opis: "Przygotowania na imprezę szkolną",
         srcWord: ["https://www.arbulang.com/filmy/school.mp4", "American Pie: The Wedding (2003)"],
         srcWordimage: "https://www.arbulang.com/filmy/school.png",
@@ -1633,6 +1639,7 @@ const fiszki10 = [
         translate: "Moja firma zaczyna rozwijać się bardzo intensywnie",
         translateb: "[Maj kampani is deweloping wery intensiwli]",
         translateb2: "[Maj kampani is]",
+                        translateb3: "My company is developing very intesively",
         opis: "Zapowiedż Filmu Rampage",
         story: [
             "W <b><u>maj</b></u>u kwitną <b><u>moje</b></u> ulubione kwiaty",
@@ -1811,6 +1818,7 @@ const fiszki10 = [
         translate: "Ta książka należy do jego dziadka",
         translateb: "[Dis buk belongs tu his grandfader]",
         translateb2: "[Dis buk belongs]",
+                        translateb3: "This book belongs to his grandfather",
         opis: "Szkolenie z techinik świadomego snu",
         story: [
             "Ma<b><u>dis</b></u>on jest świetnym sportowcem a to jej trener",
@@ -1930,12 +1938,18 @@ const fiszki10 = [
             16
         ],
         img: [
+            "https://www.arbulang.com/img/fiszki1/48aa1.jpg",
+            "https://www.arbulang.com/img/fiszki1/48aa2.jpg",
             "https://www.arbulang.com/img/fiszki1/48aa.jpg",
-            "https://www.arbulang.com/img/fiszki1/106b.jpg"
+            "https://www.arbulang.com/img/fiszki1/106b.jpg",
+            "https://www.arbulang.com/img/fiszki1/48aa5.jpg"
         ],
         story: [
+            "Pre<b><u>his</b></u>toryczny dinozaur z <b><u>jego</b></u> sprawnością mógłby spokojnie pokonać niedźwiedzia",
+            "Lew nie wpada w <b><u>his</b></u>terię - polegają na instynkcie. Za to <b><u>jego</b></u> natura jest bardzo niebezpieczna dla czowieka",
             "<b><u>Jego</b></u> <b><u>his</b></u>toria jest bardzo atrakcyjna i bujna",
-            "Jego ma<b><u>chi</b></u>na jest bardzo <b><u>s</b></u>prawna"
+            "Jego ma<b><u>chi</b></u>na jest bardzo <b><u>s</b></u>prawna",
+            "<b><u>Jego</b></u> dziewczyna wpadła w <b><u>his</b></u>terię"
         ],
         desc: "his[his] -jego",
         sentence2: [
@@ -1986,6 +2000,7 @@ const fiszki10 = [
         translate: "Moi sąsiedzi sprzedali ich duży dom",
         translateb: "[Maj nejburs ar seling deir big hałs]",
         translateb2: "[Maj nejburs ar seling]",
+                        translateb3: "My neighbours are selling their big house",
         srcWord: ["https://www.arbulang.com/filmy/bighouse.mp4", "Mechanik: Konfrontacja (2013)"],
         srcWordimage: "https://www.arbulang.com/filmy/bighouse.png",
         srcWord2: ["https://www.arbulang.com/filmy/procedure.mp4", "Breaking Bad"],
@@ -2170,6 +2185,7 @@ const fiszki10 = [
         translate: "Mój pies jest dobrym przyjacielem",
         translateb: "[Maj dog is a gud frend]",
         translateb2: "[Maj dog is]",
+                        translateb3: "My dog is a good friend",
         srcWord: ["https://www.arbulang.com/filmy/dog.mp4", "Sztanga i cash (2013)"],
         srcWordimage: "https://www.arbulang.com/filmy/dog.png",
                         opis: "Zapowiedź filmu",
@@ -2346,6 +2362,7 @@ const fiszki10 = [
         translate: "Nauczyciel stara się pomóc nam",
         translateb: "[De ticzer trajs tu help as]",
         translateb2: "[De ticzer trajs]",
+                        translateb3: "The teacher tries to help us",
         srcWord: ["https://www.arbulang.com/filmy/teacher.mp4", "Yes Man (2008)"],
         srcWordimage: "https://www.arbulang.com/filmy/teacher.png",
                         opis: "Scena przekonania do bohatera filmu przez mentora podczas wystąpienia",
@@ -2523,6 +2540,7 @@ const fiszki10 = [
         translate: "Twoi rodzice wydają się być przyjaźni",
         translateb: "[Jor parents sim tu bi frendli]",
         translateb2: "[Jor parents sim]",
+                        translateb3: "Your parents seem to be friendly",
         srcWord: ["https://www.arbulang.com/filmy/parents.mp4", "Serial: Rodzinka.pl"],
         srcWordimage: "https://www.arbulang.com/filmy/parents.png",
                         opis: "Zapytanie o wspólny posiłek",
@@ -2694,6 +2712,7 @@ const fiszki10 = [
         translate: "Psy mogą biec naprawdę szybko",
         translateb: "[De dogs ken ran rili fast]",
         translateb2: "[De dogs ken]",
+                        translateb3: "The dogs can run really fast",
         srcWord: ["https://www.arbulang.com/filmy/dogs.mp4", "The Dark Knight(2008)"],
         srcWordimage: "https://www.arbulang.com/filmy/dogs.png",
                         opis: "Naszczucie przez Jokera psami pod Batmana",
@@ -2859,6 +2878,7 @@ const fiszki10 = [
         translate: "Ta edycja traci ważność w tym tygodniu",
         translateb: "[Dis ediszyn ikspajers dis łik]",
         translateb2: "[Dis ediszyn ikspajers]",
+                        translateb3: "This edition expires this week",
         srcWord: ["https://www.arbulang.com/filmy/counting.mp4", "The Dark Knight(2008)"],
         srcWordimage: "https://www.arbulang.com/filmy/counting.png",
                         opis: "Finał próby Jokera, której poddana została społeczność",
@@ -3011,6 +3031,7 @@ const fiszki10 = [
         ],
         translate: "On ma szeroki zasób słów",
         translateb: "[Hi hes łajd reindź of łords]",
+                        translateb3: "He has wide range of vocabulary",
         srcWord: ["https://www.arbulang.com/filmy/rangewords.mp4", "Jestem Bogiem(2011)"],
         srcWordimage: "https://www.arbulang.com/filmy/rangewords.png",
                         opis: "Szybkie pisanie książki",
@@ -3189,6 +3210,7 @@ const fiszki10 = [
         ],
         translate: "On odważył się podejść do niej",
         translateb: "[Hi ders tu mejk eprołcz tu her]",
+                        translateb3: "He dares to approach her",
         srcWord: ["https://www.arbulang.com/filmy/approach.mp4", "Matrix(1999)"],
         srcWordimage: "https://www.arbulang.com/filmy/approach.png",
                         opis: "Spotkanie dziewczyny w wirtualnym świecie",
@@ -3264,7 +3286,6 @@ const fiszki10 = [
             "approach"
         ],
         sentence: [
-            "to",
             "approach",
             "her"
         ],
@@ -3285,7 +3306,6 @@ const fiszki10 = [
             "her"
         ],
         sentence: [
-            "to",
             "approach",
             "her"
         ],
@@ -3302,6 +3322,7 @@ const fiszki10 = [
         img: "https://www.arbulang.com/img/fiszki1/95aa.jpg",
         translate: "Ona jest przywiązana do swojego łuku",
         translateb: "[Szi is etaczd to her boł]",
+                        translateb3: "She is attached to her bow",
         srcWord: ["https://www.arbulang.com/filmy/bow.mp4", "Igrzyska śmierci: Kosogłos. Część 2(2015)"],
         srcWordimage: "https://www.arbulang.com/filmy/bow.png",
                         opis: "Główna bohaterka z łukiem",

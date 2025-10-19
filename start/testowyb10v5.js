@@ -45,7 +45,7 @@ id: [
         story: [
             "Ktoś mówi po wiejsku: 'ja mu ma<u><b>choł</u></b> z <u><b>domu</u></b>, o <u><b>m</u></b>nie nie widział'"
         ],
-        desc: "at home[] - w domu",
+        desc: "at home[at hołm] - w domu",
         sentence2: [
             "at home"
         ],
@@ -69,9 +69,10 @@ id: [
                 "https://www.arbulang.com/img/fiszki1/5d.jpg",
                 "https://www.arbulang.com/img/fiszki1/5e.jpg"
         ],
-        translate: "",
-        translateb: "[De kat rans fast ewry morning]",
-        translateb2: "[De kat rans fast]",
+        translate: "Ptaki latają nad ziemią",
+        translateb: "[De byrds flajs ołwer de graund]",
+        translateb2: "[De byrds flajs ołwer de graund]",
+        translateb3: "The birds flies over the ground",
         srcWord: ["https://www.arbulang.com/filmy/cat2.mp4", "Kot w butach: Ostatnie życzenie (2022)"],
         srcWord2: ["https://www.arbulang.com/filmy/procedure.mp4", ""],
         srcWordimage: "https://www.arbulang.com/filmy/cat2.png",
@@ -113,7 +114,7 @@ id: [
         story: [
             "<u><b>By</u></b> zobaczyć <u><b>ptaka</u></b> - jastrzębia trzeba się ba<u><b>rd</u></b>zo natrudzić"
         ],
-        desc: "bird[byrd] - ptak",
+        desc: "birds[byrds] - ptak",
         sentence2: [
             "birds"
         ],
@@ -167,7 +168,7 @@ id: [
         story: [
             "'Ooooł <u><b>nad</u></b> naszym domem leci orzeł taki jakiego mam wygra<u><b>wer</u></b>owanego na bryloku przy kluczach"
         ],
-        desc: "over[] - nad",
+        desc: "over[ołwer] - nad",
         sentence2: [
             "over"
         ],
@@ -216,8 +217,9 @@ id: [
             121
         ],
         img: "https://www.arbulang.com/img/fiszki1/95aa.jpg",
-        translate: "Ona jest przywiązana do swojego łuku",
-        translateb: "[Szi is etaczd to her boł]",
+        translate: "Ona mówi po angielsku bardzo płynnie teraz",
+        translateb: "[Szi spiks inglisz wery fluentli nał]",
+        translateb3: "She speaks English very fluently now",
         srcWord: ["https://www.arbulang.com/filmy/.mp4", ""],
         srcWordimage: "https://www.arbulang.com/filmy/.png",
         opis: "",
@@ -230,7 +232,7 @@ id: [
             "She",
             "speaks",
             "English",
-            "ver",
+            "very",
             "fluently",
             "now"
         ],
@@ -326,7 +328,7 @@ id: [
         story: [
             "<b><u>Flu</b></u>orescencyjny brylok <b><u>płynnie</b></u> przypomina mi jak ważny jest dla mnie dom, mam do niego s<b><u>ent</b></u>yment i nie li</b></u>czę, że kiedyś się przeprowadzę"
         ],
-        desc: "fluently[] - płynnie, płynny",
+        desc: "fluently[fluentli] - płynnie, płynny",
         sentence2: [
             "fluently"
         ],
@@ -379,16 +381,17 @@ id: [
             "https://www.arbulang.com/img/fiszki1/7d.jpg",
             "https://www.arbulang.com/img/fiszki1/7e.jpg"
         ],
-        translate: "",
-        translateb: "[]",
-        translateb2: "[]",
-        srcWord: ["https://www.arbulang.com/filmy/tree.mp4", "V for Vendetta (2005)"],
+        translate: "Drzewo jest wysokie i zielone",
+        translateb: "[De tri is tol and grin]",
+        translateb2: "[De tri is tol and grin]",
+        translateb3: "The tree is tall and green",
+        srcWord: ["https://www.arbulang.com/filmy/tree.mp4", "300 ()"],
         srcWordimage: "https://www.arbulang.com/filmy/tree.png",
         word: [
             "https://www.arbulang.com/voice/bike.mp4"
         ],
-        story: "<u><b>Ona</u></b> - Patrycja ma ri<u><b>szi</u></b> to naturalny antyoksydant",
-        desc: "the[szi] - niebieski/niebieskie",
+        story: "",
+        desc: "the[de] - ",
         sentence1: [
             "The"
         ],
@@ -484,7 +487,7 @@ id: [
         story: [
             "<b><u>Tol</b></u>a jest bardzo <b><u>wysoka</b></u>"
         ],
-        desc: "tall[tOOl] - wysoka, wysoki",
+        desc: "tall[tol] - wysoka, wysoki",
         sentence2: [
             "tall"
         ],
@@ -579,11 +582,12 @@ id: [
             "https://www.arbulang.com/img/fiszki1/7d.jpg",
             "https://www.arbulang.com/img/fiszki1/7e.jpg"
         ],
-        translate: "On jest posłuszny wobec naukowych procedur",
-        translateb: "[Hi is obidient to sajens prosidżer]",
-        translateb2: "[Hi is obidient]",
-        opis: "Głowny bohater znajduje sposób, aby przerwać plan",
-        srcWord: ["https://www.arbulang.com/filmy/math.mp4", "Breaking Bad"],
+        translate: "On uczy matematyki w lokalnej szkole",
+        translateb: "[Hi ticzes matf at lokal skul]]",
+        translateb2: "[Hi ticzes matf]",
+        translateb3: "He teaches math at local school",
+        opis: "",
+        srcWord: ["https://www.arbulang.com/filmy/math.mp4", "Piękny umysł"],
         srcWordimage: "https://www.arbulang.com/filmy/math.png",
         word: [
             "https://www.arbulang.com/voice/bike.mp4"
@@ -604,7 +608,7 @@ id: [
             "teaches",
             "math"
         ],
-        key: "she",
+        key: "he",
         category2: ["osoby"],
         category3: ["PresenttSimple", "PresentSimplePodmiot"]
     },
@@ -620,7 +624,7 @@ id: [
         story: [
             "<u><b>Ti</u></b>ffany(Tifany) <u><b>uczy</u></b> w interenetowej szkole. Brała udział w wyznaczaniu <u><b>czes<u></b>nego"
         ],
-        desc: "teaches[] - uczy",
+        desc: "teaches[ticzes] - uczy",
         sentence2: [
             "teaches"
         ],
@@ -696,11 +700,12 @@ id: [
             "https://www.arbulang.com/img/fiszki1/5d.jpg",
             "https://www.arbulang.com/img/fiszki1/5e.jpg"
         ],
-        translate: "Cena za złamanie zasad jest wysoka",
-        translateb: "[De prajs for brejkin de ruls is haj]",
-        srcWord: ["https://www.arbulang.com/filmy/humanface.mp4", "Yes Man(2008)", "Komedia"],
-        srcWordimage: "https://www.arbulang.com/filmy/humanface.png",
-                                        opis: "Ryzykowne zachowania bohatera",
+        translate: "Autobus wkrótce przyjeżdża na stację",
+        translateb: "[De bas erajws at de stejszyn sun]",
+        translateb3: "The bus arrives at the station soon",
+        srcWord: ["https://www.arbulang.com/filmy/.mp4", ""],
+        srcWordimage: "https://www.arbulang.com/filmy/.png",
+                                        opis: "",
         story: [
             "Piłki do gry w kosza są twar<u><b>de</u></b>. Sam ten sport <u><b>to</u></b> twarda gra",
             "Na tym <u><b>de</u></b>ptaku jest sporo drzewek, <u><b>to</u></b> urocze miejsce",
@@ -834,10 +839,11 @@ id: [
             "https://www.arbulang.com/img/fiszki1/19d.jpg",
             "https://www.arbulang.com/img/fiszki1/19e.jpg"
         ],
-        translate: "I appreciate your assistance today",
-        translateb: "[Aj eprisziejt jor esistens tudej]",
-        srcWord: ["https://www.arbulang.com/filmy/assistance.mp4", "Avatar(2022)", "Sci-fi"],
-        srcWordimage: "https://www.arbulang.com/filmy/assistance.png",
+        translate: "Noszę okulary, kiedy czytam",
+        translateb: "[Aj łer glases łen i rid]",
+        translateb3: "I wear glasses when I read",
+        srcWord: ["https://www.arbulang.com/filmy/glasses2.mp4", ""],
+        srcWordimage: "https://www.arbulang.com/filmy/glasses2.png",
                                                 opis: "Scena pływania w morzu - głównych bohaterów",
         story: [
             "<u><b>Ja</u></b> jestem Piotrek, mam okulary ochronne, gdy jechałem rowerem wleciała mi mucha do <u><b>oka</u></b>, krzyczałem <u><b>ajjj</u></b> - dlaczego to <u><b>mi</u></b> wleciała mucha do <u><b>oka</u></b>, <u><b>ajjj</u></b>",
@@ -999,9 +1005,10 @@ id: [
             129
         ],
         img: "https://www.arbulang.com/img/fiszki1/207b.jpg",
-        translate: "Oni grają w piłkę nożną w tym momencie",
-        translateb: "[Dej ar pleing futbol at de moment]",
-        translateb2: "[Ewrybody hes fan]",
+        translate: "Oni kupują owoce na targu",
+        translateb: "[Dej baj frjuts from de market]",
+        translateb2: "[Dej baj frjuts]",
+        translateb3: "They buy fruits from the market",
         srcWord: ["https://www.arbulang.com/filmy/fruits.mp4", "Anioł Nowej Nadziei (2014)"],
         srcWordimage: "https://www.arbulang.com/filmy/fruits.png",
         story: "<u><b>Oni</u></b> z<u><b>dej</u></b>mują jabłka z jabłoni",
@@ -1055,7 +1062,7 @@ id: [
         story: [
             "<u><b>Fru</u></b>go to fajny napój z owoców. <u><b>T</u></b>o <u><b>s</u></b>uper napój"
         ],
-        desc: "fruits[fruts] - owoce",
+        desc: "fruits[frjuts] - owoce",
         sentence2: [
             "fruits"
         ],
@@ -1161,9 +1168,10 @@ id: [
             131
         ],
         img: "https://www.arbulang.com/img/fiszki1/207b.jpg",
-        translate: "Oni grają w piłkę nożną w tym momencie",
-        translateb: "[Dej ar pleing futbol at de moment]",
-        translateb2: "[Ewrybody hes fan]",
+        translate: "Często odwiedzają muzea w czasie świąt/wakacji",
+        translateb: "[Dej ofen wizyt mjuziems on holidejs]",
+        translateb2: "[Dej ofen wizyt mjuziems]",
+        translateb3: "They often visit museums on holidays",
         srcWord: ["https://www.arbulang.com/filmy/museums.mp4", "Noc w muzeum 2 (2009)"],
         srcWordimage: "https://www.arbulang.com/filmy/museums.png",
                                                 opis: "Scena podczas meczu głównego bohatera",
@@ -1272,9 +1280,9 @@ id: [
         story: [
             "On - Piotrek nie lubi melan<u><b>choli</u></b> w jesień dlatego pojechał <u><b>na wakacje</u></b>. Dobrze mu na nich jest. <u><b>D</u></b>zisiaj ma r<u><b>ejs</u></b> statkiem"
         ],
-        desc: "on holidys[] - ",
+        desc: "on holidays[holidejs] - w święta",
         sentence2: [
-            "on holidys"
+            "on holidays"
         ],
         sentence: [
             "on holidays"
@@ -1296,8 +1304,9 @@ id: [
             "https://www.arbulang.com/img/fiszki1/32dd.jpg",
             "https://www.arbulang.com/img/fiszki1/32ee.jpg"
         ],
-        translate: "Nasi studenci muszą uczyć się bardzo ciężko",
-        translateb: "[Aur stjudents hew tu stadi weri hard]",
+        translate: "Nasza drużyna wygrała mecz wczoraj",
+        translateb: "[Aur tim łon de macz jesterdej]",
+        translateb3: "Our team won the match yesterday",
         srcWord: ["https://www.arbulang.com/filmy/studyhard.mp4", "Marsjanin(2015)", "Akcja"],
         srcWordimage: "https://www.arbulang.com/filmy/studyhard.png",
                         opis: "Zapowiedź filmu",
@@ -1362,7 +1371,7 @@ id: [
         story: [
             "Zaczynają się igrzyska. P<u><b>łon</u></b>ie pochodnia olimpijska - którą niesie ktoś kto kiedyś <u><b>wygrał</u></b> w ważnych zawodach"
         ],
-        desc: "won[] - ",
+        desc: "won[łan, łon] - wygrał/wygrała",
         sentence2: [
             "won"
         ],
@@ -1389,7 +1398,7 @@ id: [
         story: [
             "W tym <u><b>meczu</u></b> <u><b>de</u></b>rbowym trener kilka razy zareagował na styl gry swojej drużyny. Można powiedzieć, że w <u><b>meczu</u></b> dużo <u><b>macz</u></b>ał palce"
         ],
-        desc: "the match[] - ",
+        desc: "the match[de macz] -mecz ",
         sentence2: [
             "the match"
         ],
@@ -1411,12 +1420,12 @@ id: [
             133
         ],
         img: [
-            "https://www.arbulang.com/img/fiszki1/364a.jpg"
+            "https://www.arbulang.com/img/fiszki1/449a.jpg"
         ],
         story: [
             ""
         ],
-        desc: "yesterday[] - ",
+        desc: "yesterday[jesterdej] - wczoraj",
         sentence2: [
             "yesterday"
         ],
@@ -1437,23 +1446,18 @@ id: [
             74,
             134
         ],
-        img: [
-            "https://www.arbulang.com/img/fiszki1/7a.jpg",
-            "https://www.arbulang.com/img/fiszki1/7b.jpg",
-            "https://www.arbulang.com/img/fiszki1/7c.jpg",
-            "https://www.arbulang.com/img/fiszki1/7d.jpg",
-            "https://www.arbulang.com/img/fiszki1/7e.jpg"
-        ],
-        translate: "",
-        translateb: "[]",
-        translateb2: "[]",
+        img: "https://www.arbulang.com/img/fiszki1/131a.jpg",
+        translate: "Oglądaliśmy gwiazdy zeszłej nocy",
+        translateb: "[Łi łocztd de stars last najt]",
+        translateb2: "[Łi łocztd de stars last najt]",
+        translateb3: "We watched the stars last night",
         srcWord: ["https://www.arbulang.com/filmy/tennis.mp4", "V for Vendetta (2005)"],
         srcWordimage: "https://www.arbulang.com/filmy/tennis.png",
         word: [
             "https://www.arbulang.com/voice/bike.mp4"
         ],
-        story: "<u><b>Ona</u></b> - Patrycja ma ri<u><b>szi</u></b> to naturalny antyoksydant",
-        desc: "the[szi] - niebieski/niebieskie",
+        story: "<b><u>Wi</b></u>ll Smith oznajmił, że <b><u>my</b></u> jako ludzkość mamy się dobrze",
+        desc: "we[łi] - my",
         sentence1: [
             "We"
         ],
@@ -1476,12 +1480,10 @@ id: [
             134
         ],
         img: [
-            "https://www.arbulang.com/img/fiszki1/364a.jpg"
+            "https://www.arbulang.com/img/fiszki1/451a.jpg"
         ],
-        story: [
-            ""
-        ],
-        desc: "watched[] - ",
+        story: "Ostatnio ma<u><b>ło</u></b> <u><b>oglądam</u></b> seriali, bo - po<u><b>czt</u></b>a - tam gdzie pracuje dała mi na<u><b>d</u></b>godziny",
+        desc: "watched[łocztd] - ",
         sentence2: [
             "watched"
         ],
@@ -1504,12 +1506,20 @@ id: [
             134
         ],
         img: [
-            "https://www.arbulang.com/img/fiszki1/364a.jpg"
+                "https://www.arbulang.com/img/fiszki1/5a.jpg",
+                "https://www.arbulang.com/img/fiszki1/5b.jpg",
+                "https://www.arbulang.com/img/fiszki1/5c.jpg",
+                "https://www.arbulang.com/img/fiszki1/5d.jpg",
+                "https://www.arbulang.com/img/fiszki1/5e.jpg"
         ],
         story: [
-            ""
+                'Piłki do gry w kosza są twar<span class="adannotation" data-annotation="1"><u><b>de</u></b></span>. Sam ten sport <u><b>to</u></b> twarda gra',
+                'Na tym <span class="adannotation" data-annotation="1"><u><b>de</u></b></span>ptaku jest sporo drzewek, <u><b>to</u></b> urocze miejsce',
+                '<u><b>To</u></b> ten <span class="adannotation" data-annotation="1"><u><b>De</u></b></span>partament Stanu prowadzi badania nad społecznym problemem',
+                'Czasami politycy stosują <span class="adannotation" data-annotation="1"><u><b>de</u></b></span>magogię. Czyli co stosują? <u><b>Tę</u></b> <span class="adannotation" data-annotation="1"><u><b>de</u></b></span>magogię',
+                '<u><b>To</u></b> co w naszej rodzinie istnieje to <span class="adannotation" data-annotation="1"><u><b>de</u></b></span>mokracja'
         ],
-        desc: "the[] - ",
+        desc: "TRUDNOŚĆ JĘZYKOWA: the[de]-33%, [ze]-33%, [d-ze]-33% - ta",
         sentence2: [
             "the"
         ],
@@ -1532,7 +1542,7 @@ id: [
             134
         ],
         img: [
-            "https://www.arbulang.com/img/fiszki1/364a.jpg"
+            "https://www.arbulang.com/img/fiszki1/453a.jpg"
         ],
         story: [
             "Samochód ciężarowy <u><b>Star</u></b> jedzie nad <u><b>gwieździstym-gwiazdy</u></b> niebem"
@@ -1560,7 +1570,7 @@ id: [
             134
         ],
         img: [
-            "https://www.arbulang.com/img/fiszki1/364a.jpg"
+            "https://www.arbulang.com/img/fiszki1/454a.jpg"
         ],
         story: [
             "Na zajęciach p<u><b>last</u></b>yki jest <u><b>ostatnio</u></b> fajna atmosfera"
@@ -1588,7 +1598,7 @@ id: [
             134
         ],
         img: [
-            "https://www.arbulang.com/img/fiszki1/364a.jpg"
+            "https://www.arbulang.com/img/fiszki1/455a.jpg"
         ],
         story: [
             "<u><b>Naj</u></b>lepszy <u><b>t</u></b>owarzysz dla snu to <u><b>noc</u></b>"
@@ -1616,22 +1626,30 @@ id: [
             135
         ],
         img: [
-            "https://www.arbulang.com/img/fiszki1/7a.jpg",
-            "https://www.arbulang.com/img/fiszki1/7b.jpg",
-            "https://www.arbulang.com/img/fiszki1/7c.jpg",
-            "https://www.arbulang.com/img/fiszki1/7d.jpg",
-            "https://www.arbulang.com/img/fiszki1/7e.jpg"
+                "https://www.arbulang.com/img/fiszki1/5a.jpg",
+                "https://www.arbulang.com/img/fiszki1/5b.jpg",
+                "https://www.arbulang.com/img/fiszki1/5c.jpg",
+                "https://www.arbulang.com/img/fiszki1/5d.jpg",
+                "https://www.arbulang.com/img/fiszki1/5e.jpg"
         ],
-        translate: "",
-        translateb: "[]",
-        translateb2: "[]",
+        translate: "Ryby pływają w czystym jeziorze",
+        translateb: "[De fisz słim in de klir lejk]",
+        translateb2: "[De fisz słim]",
+        translateb3: "The fish swim in the clear lake",
         srcWord: ["https://www.arbulang.com/filmy/fish.mp4", "The Meg (2018)"],
         srcWordimage: "https://www.arbulang.com/filmy/fish.png",
+        opis: "Zdziwienie kota w animowanym filmie",
         word: [
-            "https://www.arbulang.com/voice/bike.mp4"
+                "https://www.arbulang.com/voice/bike.mp4"
         ],
-        story: "<u><b>Ona</u></b> - Patrycja ma ri<u><b>szi</u></b> to naturalny antyoksydant",
-        desc: "the[de] - ",
+        story: [
+                'Piłki do gry w kosza są twar<span class="adannotation" data-annotation="1"><u><b>de</u></b></span>. Sam ten sport <u><b>to</u></b> twarda gra',
+                'Na tym <span class="adannotation" data-annotation="1"><u><b>de</u></b></span>ptaku jest sporo drzewek, <u><b>to</u></b> urocze miejsce',
+                '<u><b>To</u></b> ten <span class="adannotation" data-annotation="1"><u><b>De</u></b></span>partament Stanu prowadzi badania nad społecznym problemem',
+                'Czasami politycy stosują <span class="adannotation" data-annotation="1"><u><b>de</u></b></span>magogię. Czyli co stosują? <u><b>Tę</u></b> <span class="adannotation" data-annotation="1"><u><b>de</u></b></span>magogię',
+                '<u><b>To</u></b> co w naszej rodzinie istnieje to <span class="adannotation" data-annotation="1"><u><b>de</u></b></span>mokracja'
+        ],
+        desc: "TRUDNOŚĆ JĘZYKOWA: the[de]-33%, [ze]-33%, [d-ze]-33% - ta",
         sentence1: [
             "The"
         ],
@@ -1651,12 +1669,12 @@ id: [
             135
         ],
         img: [
-            "https://www.arbulang.com/img/fiszki1/364a.jpg"
+            "https://www.arbulang.com/img/fiszki1/457a.jpg"
         ],
         story: [
             "Dzięki tym <u><b>fisz</u></b>kom łowię słowa do pamięci jak <u><b>ryby</u></b>"
         ],
-        desc: "fish[] - ",
+        desc: "fish[fisz] - ryba",
         sentence2: [
             "fish"
         ],
@@ -1676,10 +1694,12 @@ id: [
             136
         ],
         img: [
-            "https://www.arbulang.com/img/fiszki1/458a.jpg"
+            "https://www.arbulang.com/img/fiszki1/458a.jpg",
+            "https://www.arbulang.com/img/fiszki1/458b.jpg"
         ],
         story: [
-            "Swing (<u><b>słi</u></b>ng) to <u><b>m</u></b>uzyka, do której się wręcz <u><b>pływa</u></b> nie tańczy"
+            "Swing (<u><b>słi</u></b>ng) to <u><b>m</u></b>uzyka, do której się wręcz <u><b>pływa</u></b> - nie tańczy",
+            "Francuzi są najlepsi w <u><b>pływaniu</u></b> na Olimpiadzie, wszyscy kibicują <u><b>łi, łi</u></b> i niektórzy Polacy też <u><b>im</u></b> kibicują <u><b>sł</u></b>ownie"
         ],
         desc: "swim[słim] - pływać",
         sentence2: [
@@ -1727,12 +1747,20 @@ id: [
             137
         ],
         img: [
-            "https://www.arbulang.com/img/fiszki1/364a.jpg"
+                "https://www.arbulang.com/img/fiszki1/5a.jpg",
+                "https://www.arbulang.com/img/fiszki1/5b.jpg",
+                "https://www.arbulang.com/img/fiszki1/5c.jpg",
+                "https://www.arbulang.com/img/fiszki1/5d.jpg",
+                "https://www.arbulang.com/img/fiszki1/5e.jpg"
         ],
         story: [
-            ""
+                'Piłki do gry w kosza są twar<span class="adannotation" data-annotation="1"><u><b>de</u></b></span>. Sam ten sport <u><b>to</u></b> twarda gra',
+                'Na tym <span class="adannotation" data-annotation="1"><u><b>de</u></b></span>ptaku jest sporo drzewek, <u><b>to</u></b> urocze miejsce',
+                '<u><b>To</u></b> ten <span class="adannotation" data-annotation="1"><u><b>De</u></b></span>partament Stanu prowadzi badania nad społecznym problemem',
+                'Czasami politycy stosują <span class="adannotation" data-annotation="1"><u><b>de</u></b></span>magogię. Czyli co stosują? <u><b>Tę</u></b> <span class="adannotation" data-annotation="1"><u><b>de</u></b></span>magogię',
+                '<u><b>To</u></b> co w naszej rodzinie istnieje to <span class="adannotation" data-annotation="1"><u><b>de</u></b></span>mokracja'
         ],
-        desc: "the[de] - ",
+        desc: "TRUDNOŚĆ JĘZYKOWA: the[de]-33%, [ze]-33%, [d-ze]-33% - ta",
         sentence2: [
             "the"
         ],
@@ -1756,7 +1784,7 @@ id: [
             "https://www.arbulang.com/img/fiszki1/461a.jpg"
         ],
         story: [
-            "<u><b>Lir</u></b>yka <u><b>K</u></b>ochanowskiego to <u><b>czysta</u></b> sztuka literack"
+            "<u><b>Lir</u></b>yka <u><b>K</u></b>ochanowskiego to <u><b>czysta</u></b> sztuka literacka"
         ],
         desc: "clear[klir] - czysta, czysto, czyste",
         sentence2: [
@@ -1805,22 +1833,30 @@ id: [
             138
         ],
         img: [
-            "https://www.arbulang.com/img/fiszki1/7a.jpg",
-            "https://www.arbulang.com/img/fiszki1/7b.jpg",
-            "https://www.arbulang.com/img/fiszki1/7c.jpg",
-            "https://www.arbulang.com/img/fiszki1/7d.jpg",
-            "https://www.arbulang.com/img/fiszki1/7e.jpg"
+                "https://www.arbulang.com/img/fiszki1/5a.jpg",
+                "https://www.arbulang.com/img/fiszki1/5b.jpg",
+                "https://www.arbulang.com/img/fiszki1/5c.jpg",
+                "https://www.arbulang.com/img/fiszki1/5d.jpg",
+                "https://www.arbulang.com/img/fiszki1/5e.jpg"
         ],
-        translate: "",
-        translateb: "[]",
-        translateb2: "[]",
-        srcWord: ["https://www.arbulang.com/filmy/tennis.mp4", "Pele. Narodziny legendy (2016)"],
-        srcWordimage: "https://www.arbulang.com/filmy/tennis.png",
+        translate: "Chłopiec kopie piłkę daleko",
+        translateb: "[De boj kiks de bal far]",
+        translateb2: "[De boj kiks de bal far]",
+        translateb3: "The boy kicks the ball far",
+        srcWord: ["https://www.arbulang.com/filmy/ballfar.mp4", "Pele. Narodziny legendy (2016)"],
+        srcWordimage: "https://www.arbulang.com/filmy/ballfar.png",
+        opis: "",
         word: [
-            "https://www.arbulang.com/voice/bike.mp4"
+                "https://www.arbulang.com/voice/bike.mp4"
         ],
-        story: "<u><b>Ona</u></b> - Patrycja ma ri<u><b>szi</u></b> to naturalny antyoksydant",
-        desc: "the[de] - ",
+        story: [
+                'Piłki do gry w kosza są twar<span class="adannotation" data-annotation="1"><u><b>de</u></b></span>. Sam ten sport <u><b>to</u></b> twarda gra',
+                'Na tym <span class="adannotation" data-annotation="1"><u><b>de</u></b></span>ptaku jest sporo drzewek, <u><b>to</u></b> urocze miejsce',
+                '<u><b>To</u></b> ten <span class="adannotation" data-annotation="1"><u><b>De</u></b></span>partament Stanu prowadzi badania nad społecznym problemem',
+                'Czasami politycy stosują <span class="adannotation" data-annotation="1"><u><b>de</u></b></span>magogię. Czyli co stosują? <u><b>Tę</u></b> <span class="adannotation" data-annotation="1"><u><b>de</u></b></span>magogię',
+                '<u><b>To</u></b> co w naszej rodzinie istnieje to <span class="adannotation" data-annotation="1"><u><b>de</u></b></span>mokracja'
+        ],
+        desc: "TRUDNOŚĆ JĘZYKOWA: the[de]-33%, [ze]-33%, [d-ze]-33% - ta",
         sentence1: [
             "The"
         ],
@@ -1899,12 +1935,20 @@ id: [
             138
         ],
         img: [
-            "https://www.arbulang.com/img/fiszki1/364a.jpg"
+                "https://www.arbulang.com/img/fiszki1/5a.jpg",
+                "https://www.arbulang.com/img/fiszki1/5b.jpg",
+                "https://www.arbulang.com/img/fiszki1/5c.jpg",
+                "https://www.arbulang.com/img/fiszki1/5d.jpg",
+                "https://www.arbulang.com/img/fiszki1/5e.jpg"
         ],
         story: [
-            ""
+                'Piłki do gry w kosza są twar<span class="adannotation" data-annotation="1"><u><b>de</u></b></span>. Sam ten sport <u><b>to</u></b> twarda gra',
+                'Na tym <span class="adannotation" data-annotation="1"><u><b>de</u></b></span>ptaku jest sporo drzewek, <u><b>to</u></b> urocze miejsce',
+                '<u><b>To</u></b> ten <span class="adannotation" data-annotation="1"><u><b>De</u></b></span>partament Stanu prowadzi badania nad społecznym problemem',
+                'Czasami politycy stosują <span class="adannotation" data-annotation="1"><u><b>de</u></b></span>magogię. Czyli co stosują? <u><b>Tę</u></b> <span class="adannotation" data-annotation="1"><u><b>de</u></b></span>magogię',
+                '<u><b>To</u></b> co w naszej rodzinie istnieje to <span class="adannotation" data-annotation="1"><u><b>de</u></b></span>mokracja'
         ],
-        desc: "the[] - ",
+        desc: "TRUDNOŚĆ JĘZYKOWA: the[de]-33%, [ze]-33%, [d-ze]-33% - ta",
         sentence2: [
             "the"
         ],
@@ -1955,7 +1999,7 @@ id: [
             138
         ],
         img: [
-            "https://www.arbulang.com/img/fiszki1/368a.jpg"
+            "https://www.arbulang.com/img/fiszki1/468a.jpg"
         ],
         story: [
             "<u><b>Far</u></b>ma naszej rodziny jest <u><b>daleko</u></b> od miasta"
@@ -1982,23 +2026,19 @@ id: [
             77,
             139
         ],
-        img: [
-            "https://www.arbulang.com/img/fiszki1/7a.jpg",
-            "https://www.arbulang.com/img/fiszki1/7b.jpg",
-            "https://www.arbulang.com/img/fiszki1/7c.jpg",
-            "https://www.arbulang.com/img/fiszki1/7d.jpg",
-            "https://www.arbulang.com/img/fiszki1/7e.jpg"
-        ],
-        translate: "",
-        translateb: "[]",
-        translateb2: "[]",
-        srcWord: ["https://www.arbulang.com/filmy/tennis.mp4", "Jumanji: Przygoda w dżungli (2017)"],
-        srcWordimage: "https://www.arbulang.com/filmy/tennis.png",
+        img: "https://www.arbulang.com/img/fiszki1/207b.jpg",
+        translate: "Oni zwiedzają las w weekendy",
+        translateb: "[Dej eksplo forest on de wikends]",
+        translateb2: "[Dej eksplo forest]",
+        translateb3: "They explore forest on the weekends",
+        srcWord: ["https://www.arbulang.com/filmy/jungle.mp4", "Jumanji: Przygoda w dżungli (2017)"],
+        srcWordimage: "https://www.arbulang.com/filmy/jungle.png",
+        opis: "",
         word: [
-            "https://www.arbulang.com/voice/bike.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
-        story: "<u><b>Ona</u></b> - Patrycja ma ri<u><b>szi</u></b> to naturalny antyoksydant",
-        desc: "the[szi] - niebieski/niebieskie",
+        story: "<u><b>Oni</u></b> z<u><b>dej</u></b>mują jabłka z jabłoni",
+        desc: "they[dej] - oni",
         sentence1: [
             "They"
         ],
@@ -2018,12 +2058,12 @@ id: [
             139
         ],
         img: [
-            "https://www.arbulang.com/img/fiszki1/364a.jpg"
+            "https://www.arbulang.com/img/fiszki1/470a.jpg"
         ],
         story: [
             "<u><b>Eksplo</u></b>racja kosmosu odbywa się poprzez <u><b>badania</u></b> z danych dostarczonych przez teleskop Hubbla"
         ],
-        desc: "explore[explo] - eksplorować, badać",
+        desc: "explore[explo, ixplo] - eksplorować, badać",
         sentence2: [
             "explore"
         ],
@@ -2068,12 +2108,12 @@ id: [
             140
         ],
         img: [
-            "https://www.arbulang.com/img/fiszki1/364a.jpg"
+            "https://www.arbulang.com/img/fiszki1/472a.jpg"
         ],
         story: [
             "KOGNATY - WEEKEND"
         ],
-        desc: "on the weekends[] - ",
+        desc: "on the weekends[on de wikends] - w weekendy",
         sentence2: [
             "on the weekends"
         ],
@@ -2091,22 +2131,26 @@ id: [
             141
         ],
         img: [
-            "https://www.arbulang.com/img/fiszki1/7a.jpg",
-            "https://www.arbulang.com/img/fiszki1/7b.jpg",
-            "https://www.arbulang.com/img/fiszki1/7c.jpg",
-            "https://www.arbulang.com/img/fiszki1/7d.jpg",
-            "https://www.arbulang.com/img/fiszki1/7e.jpg"
+                "https://www.arbulang.com/img/fiszki1/7a.jpg",
+                "https://www.arbulang.com/img/fiszki1/7b.jpg",
+                "https://www.arbulang.com/img/fiszki1/7c.jpg",
+                "https://www.arbulang.com/img/fiszki1/7d.jpg",
+                "https://www.arbulang.com/img/fiszki1/7e.jpg"
         ],
-        translate: "",
-        translateb: "[]",
-        translateb2: "[]",
+        translate: "On ćwiczy jogę każdego popołudnia",
+        translateb: "[Hi praktisis joga ewry afternju]",
+        translateb2: "[Hi praktisis joga]",
+        translateb3: "He practices yoga every afternoon",
         srcWord: ["https://www.arbulang.com/filmy/yoga.mp4", "Faster (2010)"],
         srcWordimage: "https://www.arbulang.com/filmy/yoga.png",
-        word: [
-            "https://www.arbulang.com/voice/bike.mp4"
+        story: [
+                'To właśnie <u><b>on</u></b> jest <span class="adannotation" data-annotation="1"><b><u>hi</b></u></span>tem tego sezonu piłkarskiego',
+                'Samiec czyli <u><b>on</u></b> - <span class="adannotation" data-annotation="1"><b><u>hi</b></u></span>popotam',
+                '<u><b>On</b></u> - <span class="adannotation" data-annotation="1"><u><b>Hi</b></u></span>eronim odleciał balonem',
+                'Ma<span class="adannotation" data-annotation="1"><u><b>chi</u></b></span>nę do tortur wymyślił <u><b>on</u></b> - jest <span class="adannotation" data-annotation="1"><u><b>Hi</u></b></span>ndusem',
+                '<u><b>On</u></b> je ciastka <span class="adannotation" data-annotation="1"><u><b>hi</u></b></span>ty'
         ],
-        story: "<u><b>Ona</u></b> - Patrycja ma ri<u><b>szi</u></b> to naturalny antyoksydant",
-        desc: "he[hi] - ",
+        desc: "he[hi] - on",
         sentence1: [
             "He"
         ],
@@ -2126,12 +2170,12 @@ id: [
             140
         ],
         img: [
-            "https://www.arbulang.com/img/fiszki1/364a.jpg"
+            "https://www.arbulang.com/img/fiszki1/474a.jpg"
         ],
         story: [
             ""
         ],
-        desc: "practices[] - ",
+        desc: "practices[praktisis] - praktyka",
         sentence1: [
             "practices"
         ],
@@ -2151,12 +2195,12 @@ id: [
             140
         ],
         img: [
-            "https://www.arbulang.com/img/fiszki1/364a.jpg"
+            "https://www.arbulang.com/img/fiszki1/475a.jpg"
         ],
         story: [
-            ""
+            "KOGNATY YOGA - JOGA"
         ],
-        desc: "yoga[] - ",
+        desc: "yoga[jołga] - ",
         sentence1: [
             "yoga"
         ],
@@ -2176,12 +2220,12 @@ id: [
             141
         ],
         img: [
-            "https://www.arbulang.com/img/fiszki1/364a.jpg"
+                "https://www.arbulang.com/img/fiszki1/324a.jpg"
         ],
         story: [
-            ""
+                "Prawie <u><b>każdy</u></b> robi błąd na tym zagraniu. <u><b>Ew</u></b>identnie trudny element gry w piłkę. Dobrze potrafi to zrobić tylko dob<u><b>ry</u></b> zawodnik"
         ],
-        desc: "every[] - ",
+        desc: "every[ewry] - każdy, każda, każde",
         sentence1: [
             "every"
         ],
@@ -2200,12 +2244,12 @@ id: [
             142
         ],
         img: [
-            "https://www.arbulang.com/img/fiszki1/364a.jpg"
+            "https://www.arbulang.com/img/fiszki1/477a.jpg"
         ],
         story: [
-            ""
+            "Po <u><b>południu</u></b> na stacje przyjeżdza n<u><b>aft</u></b>a. Kierowcą jest <u><b>Ern</u></b>i i <u><b>ju</u></b>ż długo tam pracuje"
         ],
-        desc: "afternoon[] - ",
+        desc: "afternoon[afternju] - popołudnie",
         sentence1: [
             "afternoon"
         ],
@@ -2224,22 +2268,26 @@ id: [
             143
         ],
         img: [
-            "https://www.arbulang.com/img/fiszki1/7a.jpg",
-            "https://www.arbulang.com/img/fiszki1/7b.jpg",
-            "https://www.arbulang.com/img/fiszki1/7c.jpg",
-            "https://www.arbulang.com/img/fiszki1/7d.jpg",
-            "https://www.arbulang.com/img/fiszki1/7e.jpg"
+                "https://www.arbulang.com/img/fiszki1/50aa.jpg",
+                "https://www.arbulang.com/img/fiszki1/50bb.jpg",
+                "https://www.arbulang.com/img/fiszki1/50cc.jpg"
         ],
-        translate: "",
-        translateb: "[]",
-        translateb2: "[]",
-        srcWord: ["https://www.arbulang.com/filmy/tennis.mp4", "Most do Terabithii (2007)"],
-        srcWordimage: "https://www.arbulang.com/filmy/tennis.png",
+        translate: "Moja siostra maluje obrazki zwierząt",
+        translateb: "[Maj sister peints pikczur of animals]",
+        translateb2: "[Maj sister peints pikczur of animals]",
+        translateb3: "My sister paints pictures of animals",
+        srcWord: ["https://www.arbulang.com/filmy/painting.mp4", "Most do Terabithii (2007)"],
+        srcWordimage: "https://www.arbulang.com/filmy/painting.png",
+        opis: "",
         word: [
-            "https://www.arbulang.com/voice/bike.mp4"
+                "https://www.arbulang.com/voice/bike.mp4"
         ],
-        story: "<u><b>Ona</u></b> - Patrycja ma ri<u><b>szi</u></b> to naturalny antyoksydant",
-        desc: "the[szi] - niebieski/niebieskie",
+        story: [
+                "W <b><u>maj</b></u>u kwitną <b><u>moje</b></u> ulubione kwiaty",
+                "Przetrzy<b><u>maj</b></u> mi na pare dni <b><u>moje</b></u> auto na placu",
+                "W <b><u>maj</b></u>u na <b><u>moje</b></u> rośliny w ogrodzie pada deszcz"
+        ],
+        desc: "my[maj] - mój",
         sentence1: [
             "My"
         ],
@@ -2262,7 +2310,7 @@ id: [
             143
         ],
         img: [
-            "https://www.arbulang.com/img/fiszki1/364a.jpg"
+            "https://www.arbulang.com/img/fiszki1/479a.jpg"
         ],
         story: [
             "<b><u>Siiii</b></u>, moja <b><u>siostra</b></u> <b><u>ster</b></u>uje łodzią motorową"
@@ -2290,12 +2338,12 @@ id: [
             143
         ],
         img: [
-            "https://www.arbulang.com/img/fiszki1/364a.jpg"
+            "https://www.arbulang.com/img/fiszki1/480a.jpg"
         ],
         story: [
             ""
         ],
-        desc: "paints[] - ",
+        desc: "paints[peints] - maluje",
         sentence1: [
             "paints"
         ],
@@ -2318,10 +2366,11 @@ id: [
             143
         ],
         img: [
-            "https://www.arbulang.com/img/fiszki1/364a.jpg"
+            "https://www.arbulang.com/img/fiszki1/481a.jpg",
+            "https://www.arbulang.com/img/fiszki1/481b.jpg"
         ],
         story: [
-            "W ten wie<b><u>czór</b></u> gramy w pokera. Fotograf robi <b><u>zdjęcia</b></u>. Na spoktaniu mam kartę <b><u>pik</b></u>"
+            "W ten wie<b><u>czór</b></u> gramy w pokera. Fotograf robi <b><u>zdjęcia</b></u>. Na spotkaniu mam kartę <b><u>pik</b></u>"
         ],
         desc: "pictures[pikczur] - zdjęcie(picture + s = pictures)",
         sentence1: [
@@ -2346,12 +2395,14 @@ id: [
             143
         ],
         img: [
-            "https://www.arbulang.com/img/fiszki1/364a.jpg"
+            "https://www.arbulang.com/img/fiszki1/89a.jpg",
+            "https://www.arbulang.com/img/fiszki1/112b.jpg"
         ],
         story: [
-            ""
+            "Tą <b><u>of</b></u>ensywę podjął każdy żołnierz z <b><u>tego</b></u> plutonu",
+            "Dezedorant <b><u>off</b></u> jest na <b><u>te</b></u> komary"
         ],
-        desc: "of[] - ",
+        desc: "of[of] - te/tego/tej",
         sentence1: [
             "of"
         ],
@@ -2374,12 +2425,14 @@ id: [
             143
         ],
         img: [
-            "https://www.arbulang.com/img/fiszki1/364a.jpg"
+            "https://www.arbulang.com/img/fiszki1/483a.jpg",
+            "https://www.arbulang.com/img/fiszki1/483b.jpg"
         ],
         story: [
-            ""
+            "<b><u>A</b></u> na polowaniu w po<b><u>ls</b></u>kim lesie zwięrząt <b><u>nima</b></u> niestety",
+            "<b><u>Ani</b></u>a się nie <b><u>myl</b></u>i i wie, że <b><u>zwierzęta</b></u> hodowlane są bardzo przydatne dla go<b><u>s</b></u>podarstwa"
         ],
-        desc: "animals[] - ",
+        desc: "animals[animals, anymals] - zwierzęta",
         sentence1: [
             "animals"
         ],
@@ -2401,23 +2454,18 @@ id: [
             80,
             144
         ],
-        img: [
-            "https://www.arbulang.com/img/fiszki1/7a.jpg",
-            "https://www.arbulang.com/img/fiszki1/7b.jpg",
-            "https://www.arbulang.com/img/fiszki1/7c.jpg",
-            "https://www.arbulang.com/img/fiszki1/7d.jpg",
-            "https://www.arbulang.com/img/fiszki1/7e.jpg"
-        ],
-        translate: "",
-        translateb: "[]",
-        translateb2: "[]",
+        img: "https://www.arbulang.com/img/fiszki1/207b.jpg",
+        translate: "Oni podróżują do Europy każdego lata",
+        translateb: "[Dej trawel tu Jurop ewry samer]",
+        translateb2: "[Dej trawel tu Jurop]",
+        translateb3: "They travel to Europe every summer",
         srcWord: ["https://www.arbulang.com/filmy/europe.mp4", "Eurotrip (2004)"],
         srcWordimage: "https://www.arbulang.com/filmy/europe.png",
         word: [
             "https://www.arbulang.com/voice/bike.mp4"
         ],
-        story: "<u><b>Ona</u></b> - Patrycja ma ri<u><b>szi</u></b> to naturalny antyoksydant",
-        desc: "the[szi] - niebieski/niebieskie",
+        story: "<u><b>Oni</u></b> z<u><b>dej</u></b>mują jabłka z jabłoni",
+        desc: "they[dej] - oni",
         sentence1: [
             "They"
         ],
@@ -2438,12 +2486,14 @@ id: [
             144
         ],
         img: [
-            "https://www.arbulang.com/img/fiszki1/364a.jpg"
+            "https://www.arbulang.com/img/fiszki1/485b.jpg",
+            "https://www.arbulang.com/img/fiszki1/485a.jpg"
         ],
         story: [
-            ""
+            "Oni <u><b>podróżują</u></b> do Holandii, żeby zapalić <u><b>traw</u></b>ę-marihuanę. <u><b>L</u></b>ubią tą roślinę",
+            "Pojechaliśmy w <u><b>podróż</u></b> do Francji gdzie zwiedzamy piękny ogród <u><b>traw</u></b>iasty a jakaś para robi zdjęcia ślubne panny młodej z <u><b>wel</u></b>onem"
         ],
-        desc: "travel[] - ",
+        desc: "travel[trawel] - podróż, podróżować",
         sentence1: [
             "travel"
         ],
@@ -2464,12 +2514,20 @@ id: [
             144
         ],
         img: [
-            "https://www.arbulang.com/img/fiszki1/364a.jpg"
+            "https://www.arbulang.com/img/fiszki1/10a.jpg",
+            "https://www.arbulang.com/img/fiszki1/10b.jpg",
+            "https://www.arbulang.com/img/fiszki1/10c.jpg",
+            "https://www.arbulang.com/img/fiszki1/10d.jpg",
+            "https://www.arbulang.com/img/fiszki1/10e.jpg"
         ],
         story: [
-            ""
+            '<u><b>Dla</u></b> spor<span class="adannotation" data-annotation="1"><u><b>tu</b></u></span> przeszedłem się pieszo <u><b>ku</u></b> parku',
+            'Ra<span class="adannotation" data-annotation="1"><u><b>tu</u></b></span>nku, ta droga poprowadziła nas <u><b>ku</u></b> wężom',
+            '<span class="adannotation" data-annotation="1"><b><u>Tu</b></u></span> w Egipcie Totem Faraona to pamiątka <u><b>ku</u></b> jego czci',
+            '<span class="adannotation" data-annotation="1"><b><u>Tu</b></u></span> <u><b>dla</u></b> Ciebie jest bardzo dobra aktywność, <u><b>to</u></b>talnie nie brakuje mi nic w drodze <u><b>ku</u></b>t mistrza',
+            'Aaaa.. <span class="adannotation" data-annotation="1"><b><u>tu</b></u></span> to jest, <b><u>ku</b></u> szczęściu znalazłem to..'
         ],
-        desc: "to[] - ",
+        desc: "to[tu] - do, ku",
         sentence1: [
             "to"
         ],
@@ -2490,14 +2548,16 @@ id: [
             144
         ],
         img: [
-            "https://www.arbulang.com/img/fiszki1/364a.jpg"
+            "https://www.arbulang.com/img/fiszki1/487b.jpg",
+            "https://www.arbulang.com/img/fiszki1/487a.jpg"
         ],
         story: [
-            ""
+            "<b><u>Jur</b></u>ek ze Stanów podróżuje po <b><u>Europie</b></u> i lubi sklepy C<b><u>ropp</b></u>",
+            "<b><u>Jur</b></u>ek mieszka w Polsce, czyli w <b><u>Europie</b></u>, ale niestety w wyludnionej, <b><u>op</b></u>ustoszałej miejscowości"
         ],
-        desc: "Europe[] - ",
+        desc: "Europe[jurop] - Europa",
         sentence1: [
-            "europe"
+            "Europe"
         ],
         sentence: [
             "They",
@@ -2516,20 +2576,18 @@ id: [
             144
         ],
         img: [
-            "https://www.arbulang.com/img/fiszki1/364a.jpg"
+                "https://www.arbulang.com/img/fiszki1/324a.jpg"
         ],
         story: [
-            ""
+                "Prawie <u><b>każdy</u></b> robi błąd na tym zagraniu. <u><b>Ew</u></b>identnie trudny element gry w piłkę. Dobrze potrafi to zrobić tylko dob<u><b>ry</u></b> zawodnik"
         ],
-        desc: "every[] - ",
+        desc: "every[ewry] - każdy, każda, każde",
         sentence1: [
             "every"
         ],
         sentence: [
-            "They",
-            "travel",
-            "to",
-            "Europe"
+            "every",
+            "summer"
         ],
         key: "every",
         category1: "nauka",
@@ -2542,20 +2600,18 @@ id: [
             144
         ],
         img: [
-            "https://www.arbulang.com/img/fiszki1/364a.jpg"
+            "https://www.arbulang.com/img/fiszki1/489a.jpg"
         ],
         story: [
-            ""
+            "<u><b>Same</u></b> przyjemne wrażenia tego <u><b>lata</u></b>"
         ],
-        desc: "summer[] - ",
+        desc: "summer[same, samer] - lato",
         sentence1: [
             "summer"
         ],
         sentence: [
-            "They",
-            "travel",
-            "to",
-            "Europe"
+            "every",
+            "summer"
         ],
         key: "summer",
         category1: "nauka",
@@ -2568,22 +2624,29 @@ id: [
             145
         ],
         img: [
-            "https://www.arbulang.com/img/fiszki1/7a.jpg",
-            "https://www.arbulang.com/img/fiszki1/7b.jpg",
-            "https://www.arbulang.com/img/fiszki1/7c.jpg",
-            "https://www.arbulang.com/img/fiszki1/7d.jpg",
-            "https://www.arbulang.com/img/fiszki1/7e.jpg"
+                "https://www.arbulang.com/img/fiszki1/5a.jpg",
+                "https://www.arbulang.com/img/fiszki1/5b.jpg",
+                "https://www.arbulang.com/img/fiszki1/5c.jpg",
+                "https://www.arbulang.com/img/fiszki1/5d.jpg",
+                "https://www.arbulang.com/img/fiszki1/5e.jpg"
         ],
-        translate: "",
-        translateb: "[]",
-        translateb2: "[]",
-        srcWord: ["https://www.arbulang.com/filmy/tennis.mp4", "Incepcja (2010)"],
-        srcWordimage: "https://www.arbulang.com/filmy/tennis.png",
+        translate: "Wiatr wieje mocno zimą",
+        translateb: "[De łind blołs hard during łinter]",
+        translateb2: "[De łind blołs hard]",
+        translateb3: "The wind blows hard during winter",
+        srcWord: ["https://www.arbulang.com/filmy/winter.mp4", "Incepcja (2010)"],
+        srcWordimage: "https://www.arbulang.com/filmy/winter.png",
         word: [
             "https://www.arbulang.com/voice/bike.mp4"
         ],
-        story: "<u><b>Ona</u></b> - Patrycja ma ri<u><b>szi</u></b> to naturalny antyoksydant",
-        desc: "the[szi] - niebieski/niebieskie",
+        story: [
+                'Piłki do gry w kosza są twar<span class="adannotation" data-annotation="1"><u><b>de</u></b></span>. Sam ten sport <u><b>to</u></b> twarda gra',
+                'Na tym <span class="adannotation" data-annotation="1"><u><b>de</u></b></span>ptaku jest sporo drzewek, <u><b>to</u></b> urocze miejsce',
+                '<u><b>To</u></b> ten <span class="adannotation" data-annotation="1"><u><b>De</u></b></span>partament Stanu prowadzi badania nad społecznym problemem',
+                'Czasami politycy stosują <span class="adannotation" data-annotation="1"><u><b>de</u></b></span>magogię. Czyli co stosują? <u><b>Tę</u></b> <span class="adannotation" data-annotation="1"><u><b>de</u></b></span>magogię',
+                '<u><b>To</u></b> co w naszej rodzinie istnieje to <span class="adannotation" data-annotation="1"><u><b>de</u></b></span>mokracja'
+        ],
+        desc: "TRUDNOŚĆ JĘZYKOWA: the[de]-33%, [ze]-33%, [d-ze]-33% - ta",
         sentence1: [
             "The"
         ],
@@ -2604,12 +2667,12 @@ id: [
             145
         ],
         img: [
-            "https://www.arbulang.com/img/fiszki1/364a.jpg"
+            "https://www.arbulang.com/img/fiszki1/491a.jpg"
         ],
         story: [
-            ""
+            "Kolor nieba ma kolor <u><b>ind</u></b>ygo, <u><b>ł</u></b>agodny <u><b>wiatr</u></b> sprawia że ten widok jest cudowny"
         ],
-        desc: "wind[] - ",
+        desc: "wind[łind] - wiatr",
         sentence1: [
             "wind"
         ],
@@ -2630,12 +2693,12 @@ id: [
             145
         ],
         img: [
-            "https://www.arbulang.com/img/fiszki1/364a.jpg"
+            "https://www.arbulang.com/img/fiszki1/492a.jpg"
         ],
         story: [
-            ""
+            "<u><b>Blo</u></b>kada anty ha<u><b>ł</u></b>a<u><b>s</u></b>owa obok drogi szybkiego ruchu powoduje że <u><b>uderzenie</u></b> dzwiękami jest mniej nieznośne"
         ],
-        desc: "blows[] - ",
+        desc: "blows[blołs, blołz] - uderzenie",
         sentence1: [
             "blows"
         ],
@@ -2656,12 +2719,12 @@ id: [
             145
         ],
         img: [
-            "https://www.arbulang.com/img/fiszki1/364a.jpg"
+            "https://www.arbulang.com/img/fiszki1/493a.jpg"
         ],
         story: [
-            ""
+            "On jest bardzo <u><b>hard</u></b>y czyli jest <u><b>twardym</u></b> zawodnikiem"
         ],
-        desc: "hard[] - ",
+        desc: "hard[hard] - twardy",
         sentence1: [
             "hard"
         ],
@@ -2682,12 +2745,12 @@ id: [
             146
         ],
         img: [
-            "https://www.arbulang.com/img/fiszki1/364a.jpg"
+            "https://www.arbulang.com/img/fiszki1/494a.jpg"
         ],
         story: [
-            ""
+            "Akord <u><b>Dur</u></b> <u><b>podczas</u></b> gry na fortepianie daje 'przyjazne' dźwięki. Na pewno umiejętności muzyczne przydają się przy l<u><b>ing</u></b>wistyce"
         ],
-        desc: "during[] - ",
+        desc: "during[during-dźuring] - podczas",
         sentence1: [
             "during"
         ],
@@ -2706,12 +2769,12 @@ id: [
             146
         ],
         img: [
-            "https://www.arbulang.com/img/fiszki1/364a.jpg"
+            "https://www.arbulang.com/img/fiszki1/495a.jpg"
         ],
         story: [
             ""
         ],
-        desc: "winter[] - ",
+        desc: "winter[łinter] - zima",
         sentence1: [
             "winter"
         ],
@@ -2729,23 +2792,19 @@ id: [
             82,
             147
         ],
-        img: [
-            "https://www.arbulang.com/img/fiszki1/7a.jpg",
-            "https://www.arbulang.com/img/fiszki1/7b.jpg",
-            "https://www.arbulang.com/img/fiszki1/7c.jpg",
-            "https://www.arbulang.com/img/fiszki1/7d.jpg",
-            "https://www.arbulang.com/img/fiszki1/7e.jpg"
-        ],
-        translate: "",
-        translateb: "[]",
-        translateb2: "[]",
-        srcWord: ["https://www.arbulang.com/filmy/tennis.mp4", "Nie wierzcie bliźniaczkom (1998)"],
-        srcWordimage: "https://www.arbulang.com/filmy/tennis.png",
+        img: "https://www.arbulang.com/img/fiszki1/207b.jpg",
+        translate: "Oni chodzą na ryby do rzeki",
+        translateb: "[Dej goł fiszing in de riwer]",
+        translateb2: "[Dej goł fiszing]",
+        translateb3: "They go fishing in the river",
+        srcWord: ["https://www.arbulang.com/filmy/fishing.mp4", "Nie wierzcie bliźniaczkom (1998)"],
+        srcWordimage: "https://www.arbulang.com/filmy/fishing.png",
+        opis: "Scena nad jeziorem",
         word: [
-            "https://www.arbulang.com/voice/bike.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
-        story: "<u><b>Ona</u></b> - Patrycja ma ri<u><b>szi</u></b> to naturalny antyoksydant",
-        desc: "the[szi] - niebieski/niebieskie",
+        story: "<u><b>Oni</u></b> z<u><b>dej</u></b>mują jabłka z jabłoni",
+        desc: "they[dej] - oni",
         sentence1: [
             "They"
         ],
@@ -2765,12 +2824,12 @@ id: [
             147
         ],
         img: [
-            "https://www.arbulang.com/img/fiszki1/364a.jpg"
+            "https://www.arbulang.com/img/fiszki1/497a.jpg"
         ],
         story: [
-            ""
+            "Na plaży nudystów ludzie <u><b>idą</u></b> <u><b>goł</u></b>o po piasku"
         ],
-        desc: "go[] - ",
+        desc: "go[goł] - iść",
         sentence1: [
             "go"
         ],
@@ -2790,12 +2849,12 @@ id: [
             147
         ],
         img: [
-            "https://www.arbulang.com/img/fiszki1/364a.jpg"
+            "https://www.arbulang.com/img/fiszki1/498a.jpg"
         ],
         story: [
-            ""
+            "<u><b>Fisz</u></b>ki pomagają w nauce angielskiego. Jeśli jesteś s<u><b>ing</u></b>lem to można <u><b>wędkować</u></b> w pojedynkę i uczyć się angielskiego"
         ],
-        desc: "fishing[] - ",
+        desc: "fishing[fiszing] - łowić (ryby)",
         sentence1: [
             "fishing"
         ],
@@ -2815,12 +2874,12 @@ id: [
             148
         ],
         img: [
-            "https://www.arbulang.com/img/fiszki1/364a.jpg"
+            "https://www.arbulang.com/img/fiszki1/499a.jpg"
         ],
         story: [
             ""
         ],
-        desc: "in the river[] - ",
+        desc: "in the river[in de riwer] - w rzece",
         sentence2: [
             "in the river"
         ],

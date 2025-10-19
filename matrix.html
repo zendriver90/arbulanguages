@@ -19,6 +19,7 @@
                 <script src="start/testowyb10v5.js"></script>
                 <script src="start/testowyb10v6.js"></script>
                 <script src="start/testowyb10v7.js"></script>
+                <script src="start/testowyb10v8.js"></script>
         <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
         <meta charset="UTF-8">
         <title>arbulang.com</title>
@@ -2164,18 +2165,24 @@ $(document).on("click", "#startButton", function () {
     document.getElementById('adblockMessage').style.display = 'none';
     localStorage.setItem('adblockMessageClosed', 'true');
   }
-        function countUniqueFiszki(fiszkiArray) {
-            const seenKeys = new Set();
-            fiszkiArray.forEach(fiszka => {
-                if (fiszka.key) {
-                    seenKeys.add(fiszka.key);
-                }
-            });
-            return seenKeys.size;
-        }
+function getUniqueWordArray(fiszkiArray) {
+  const seen = new Set();
+  const words = [];
 
-        const uniqueCount = countUniqueFiszki(fiszki10);
-        console.log("Liczba unikalnych fiszek:", uniqueCount);
+  fiszkiArray.forEach(fiszka => {
+    if (fiszka.key && !seen.has(fiszka.key)) {
+      seen.add(fiszka.key);
+      words.push(fiszka.key);
+    }
+  });
+
+  return words;
+}
+
+const uniqueWords = getUniqueWordArray(fiszki10);
+
+// 👇 najczytelniejszy sposób — TABELA
+console.table('słowa', uniqueWords);
             const tablica20 = [];
             let buttonindex = false;
               // Zaznacz przycisk "Losowo" na początku

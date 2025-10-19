@@ -103,9 +103,10 @@ id: [
         88
 ],
         img: "https://www.arbulang.com/img/fiszki1/95aa.jpg",
-        translate: "",
+        translate: "Ona przeczytała tę książkę dwa razy",
         translateb: "[She hes rid dis buk tłajs]",
-        translateb2: "[De mówi hes]",
+        translateb2: "[She hes rid dis buk tłajs]",
+        translateb3: "She has read this book twice",
         srcWord: ["https://www.arbulang.com/filmy/booktwice.mp4", "Poradnik pozytywnego myślenia (2012)"],
         srcWord2: ["https://www.arbulang.com/filmy/procedure.mp4", ""],
         srcWordimage: "https://www.arbulang.com/filmy/booktwice.png",
@@ -287,7 +288,8 @@ id: [
         img: "https://www.arbulang.com/img/fiszki1/131a.jpg",
         translate: "",
         translateb: "[Łi hew wisitid London meni tajms]",
-        translateb2: "[De mówi hes]",
+        translateb2: "[Łi hew visitid London]",
+        translateb3: "We have visited London many times",
         srcWord: ["https://www.arbulang.com/filmy/London.mp4", "Sherlock Holmes (2009)"],
         srcWord2: ["https://www.arbulang.com/filmy/procedure.mp4", ""],
         srcWordimage: "https://www.arbulang.com/filmy/London.png",
@@ -407,9 +409,10 @@ id: [
                 "https://www.arbulang.com/img/fiszki1/50bb.jpg",
                 "https://www.arbulang.com/img/fiszki1/50cc.jpg"
         ],
-        translate: "",
+        translate: "Mój brat gra w piłkę nożną w weekendy",
         translateb: "[Maj broder plejs futbol on łikedns]",
         translateb2: "[Maj broder plejs futbol]",
+        translateb3: "My brother plays football on weekends",
         srcWord: ["https://www.arbulang.com/filmy/football2.mp4", "Miasto Boga (2002)"],
         srcWord2: ["https://www.arbulang.com/filmy/procedure.mp4", ""],
         srcWordimage: "https://www.arbulang.com/filmy/football2.png",
@@ -557,9 +560,10 @@ id: [
         92
 ],
         img: "https://www.arbulang.com/img/fiszki1/95aa.jpg",
-        translate: "",
+        translate: "Ona pije kawę każdego dnia",
         translateb: "[Szi drinks kofi ewry singel dej]",
-        translateb2: "[Maj broder plejs futbol]",
+        translateb2: "[Szi drinks kofi]",
+        translateb3: "She drinks coffe every single day",
         srcWord: ["https://www.arbulang.com/filmy/coffe2.mp4", "Serial - Dexter ()"],
         srcWord2: ["https://www.arbulang.com/filmy/procedure.mp4", ""],
         srcWordimage: "https://www.arbulang.com/filmy/coffe2.png",
@@ -704,9 +708,10 @@ id: [
                 "https://www.arbulang.com/img/fiszki1/5d.jpg",
                 "https://www.arbulang.com/img/fiszki1/5e.jpg"
         ],
-        translate: "",
+        translate: "Kot biega szybko każdego ranka",
         translateb: "[De kat rans fast ewry morning]",
         translateb2: "[De kat rans fast]",
+        translateb3: "The cat runs fast every morning",
         srcWord: ["https://www.arbulang.com/filmy/cat2.mp4", "Kot w butach: Ostatnie życzenie (2022)"],
         srcWord2: ["https://www.arbulang.com/filmy/procedure.mp4", ""],
         srcWordimage: "https://www.arbulang.com/filmy/cat2.png",
@@ -879,9 +884,10 @@ id: [
                 "https://www.arbulang.com/img/fiszki1/19d.jpg",
                 "https://www.arbulang.com/img/fiszki1/19e.jpg"
         ],
-        translate: "",
+        translate: "Potrzebuję nowej pary butów",
         translateb: "[Aj nid e nju per of szu]",
-        translateb2: "[Aj em szaj]",
+        translateb2: "[Aj nid]",
+        translateb3: "I need a new pair of shoes",
         srcWord: ["https://www.arbulang.com/filmy/shoes-pele.mp4", 'Pelé. Narodziny legendy (2016)'],
         srcWord2: ["https://www.arbulang.com/filmy/procedure.mp4", "Breaking Bad"],
         srcWordimage: "https://www.arbulang.com/filmy/shoes-pele.png",
@@ -1008,7 +1014,8 @@ id: [
         img: "https://www.arbulang.com/img/fiszki1/207b.jpg",
         translate: "Oni poszli dzisiaj do sklepu",
         translateb: "[Dej łent tu de stor tudej]",
-        translateb2: "[]",
+        translateb2: "[Dej łent]",
+        translateb3: "They went to the store today",
         srcWord: ["https://www.arbulang.com/filmy/store2.mp4", 'Sztanga i Cash (2013)'],
         srcWord2: ["https://www.arbulang.com/filmy/procedure.mp4", "Breaking Bad"],
         srcWordimage: "https://www.arbulang.com/filmy/store2.png",
@@ -1105,7 +1112,8 @@ id: [
         ],
         translate: "Nasz nauczyciel pomaga nam z pracą domową",
         translateb: "[Aur ticzer helps as wiz hołmłork]",
-        translateb2: "[]",
+        translateb2: "[Aur ticzer]",
+        translateb3: "Our teacher helps us with homework",
         srcWord: ["https://www.arbulang.com/filmy/teacher2.mp4", 'Dom z papieru (2017-2021)'],
         srcWord2: ["https://www.arbulang.com/filmy/procedure.mp4", "Breaking Bad"],
         srcWordimage: "https://www.arbulang.com/filmy/teacher2.png",
@@ -1271,7 +1279,8 @@ id: [
         ],
         translate: "Pies śpi pod dużym drzewem",
         translateb: "[De dog slips ander de big tri]",
-        translateb2: "[]",
+        translateb2: "[De dog slips]",
+        translateb3: "The dog sleeps under the big tree",
         srcWord: ["https://www.arbulang.com/filmy/dogtree.mp4", 'Komisarz Alex (2011)'],
         srcWord2: ["https://www.arbulang.com/filmy/procedure.mp4", "Breaking Bad"],
         srcWordimage: "https://www.arbulang.com/filmy/dogtree.png",
@@ -1473,7 +1482,8 @@ id: [
         ],
         translate: "Mężczyzna prowadzi swój samochód szybko",
         translateb: "[De men drajws his kar fast]",
-        translateb2: "[]",
+        translateb2: "[De men drajws]",
+        translateb3: "The man drives his car fast",
         srcWord: ["https://www.arbulang.com/filmy/drivefast.mp4", 'Fast and Furious'],
         srcWord2: ["https://www.arbulang.com/filmy/procedure.mp4", "Breaking Bad"],
         srcWordimage: "https://www.arbulang.com/filmy/drivefast.png",
@@ -1632,7 +1642,8 @@ id: [
         ],
         translate: "Dzieci bawią się na dworze po szkole",
         translateb: "[De czildren plej autsajd after de skul]",
-        translateb2: "[]",
+        translateb2: "[De czildren plej autsajd]",
+        translateb3: "The children play outside after the school",
         srcWord: ["https://www.arbulang.com/filmy/children-outside.mp4", 'Grandmas House (2016)'],
         srcWord2: ["https://www.arbulang.com/filmy/procedure.mp4", "Breaking Bad"],
         srcWordimage: "https://www.arbulang.com/filmy/children-outside.png",
@@ -1836,9 +1847,10 @@ id: [
                 "https://www.arbulang.com/img/fiszki1/5d.jpg",
                 "https://www.arbulang.com/img/fiszki1/5e.jpg"
         ],
-        translate: "Chłopiec lubi czytać książki",
-        translateb: "[De boj lajks tu rid buks]",
-        translateb2: "[]",
+        translate: "Mężczyzna lubi czytać książki",
+        translateb: "[De men lajks tu rid buks]",
+        translateb2: "[De men lajks tu rid buks]",
+        translateb3: "The men likes to read books",
         srcWord: ["https://www.arbulang.com/filmy/readbook2.mp4", 'Breaking Bad'],
         srcWord2: ["https://www.arbulang.com/filmy/readbook2.mp4", "Breaking Bad"],
         opis: "Czytanie książki na kiblu",
@@ -1982,7 +1994,8 @@ id: [
         ],
         translate: "On codziennie biega w parku",
         translateb: "[Hi rans in de park dejli]",
-        translateb2: "[Hi is obidient]",
+        translateb2: "[Hi rans in de park dejli]",
+        translateb3: "He runs in the park daily",
         srcWord: ["https://www.arbulang.com/filmy/running2.mp4", "Adrenalina (2009)"],
         srcWord2: ["https://www.arbulang.com/filmy/running2.mp4", "Breaking Bad"],
         srcWordimage: "https://www.arbulang.com/filmy/procedure.png",
@@ -2094,9 +2107,10 @@ id: [
                 "https://www.arbulang.com/img/fiszki1/7d.jpg",
                 "https://www.arbulang.com/img/fiszki1/7e.jpg"
         ],
-        translate: "On codziennie biega w parku",
-        translateb: "[Hi rans in de park dejli]",
-        translateb2: "[Hi is obidient]",
+        translate: "On pięknie śpiewa pod prysznicem",
+        translateb: "[Hi sings bjutlifuli in de szołer]",
+        translateb2: "[Hi sings bjutlifuli]",
+        translateb3: "He sings beautifully in the shower",
         srcWord: ["https://www.arbulang.com/filmy/running2.mp4", "Adrenalina (2009)"],
         srcWord2: ["https://www.arbulang.com/filmy/running2.mp4", "Breaking Bad"],
         srcWordimage: "https://www.arbulang.com/filmy/procedure.png",
@@ -2200,9 +2214,10 @@ id: [
                 "https://www.arbulang.com/img/fiszki1/50bb.jpg",
                 "https://www.arbulang.com/img/fiszki1/50cc.jpg"
         ],
-        translate: "",
-        translateb: "[Maj broder plejs futbol on łikedns]",
-        translateb2: "[Maj broder plejs futbol]",
+        translate: "Mój przyjaciel lubi grać w tenisa",
+        translateb: "[Maj frend lowz tu plej tenis]",
+        translateb2: "[Maj frend lowz]",
+        translateb3: "My friend loves to play tennis",
         srcWord: ["https://www.arbulang.com/filmy/tennis.mp4", "Wimbledon (2004)"],
         srcWord2: ["https://www.arbulang.com/filmy/procedure.mp4", ""],
         srcWordimage: "https://www.arbulang.com/filmy/tennis.png",
@@ -2314,7 +2329,7 @@ id: [
         story: [
                 "KOGNATY - TENNIS (ENG) - TENIS (PL)"
         ],
-        desc: "tennis[] - przyjaciel",
+        desc: "tennis[tenis] - tenis",
         sentence1: [
                 "tennis"
         ],
@@ -2339,9 +2354,10 @@ id: [
                 "https://www.arbulang.com/img/fiszki1/7d.jpg",
                 "https://www.arbulang.com/img/fiszki1/7e.jpg"
         ],
-        translate: "",
+        translate: "Odwiedzamy naszych dziadków w każdą niedzielę",
         translateb: "[Łi wizit aur grandparents ewry Sandej]",
-        translateb2: "[]",
+        translateb2: "[Łi wizit aur grandparents]",
+        translateb3: "We visit our grandparents every Sunday",
         srcWord: ["https://www.arbulang.com/filmy/grandparents.mp4", "Logan (2017)"],
         srcWordimage: "https://www.arbulang.com/filmy/grandparents.png",
         word: [
@@ -2374,7 +2390,7 @@ id: [
         story: [
                 "KOGNATY - VISIT (ENG) - WIZYTOWAĆ (PL)"
         ],
-        desc: "visit[] - odwiedzać",
+        desc: "visit[wizit] - odwiedzać",
         sentence1: [
                 "visit"
         ],
@@ -2400,16 +2416,6 @@ id: [
                 "https://www.arbulang.com/img/fiszki1/32cc.jpg",
                 "https://www.arbulang.com/img/fiszki1/32dd.jpg",
                 "https://www.arbulang.com/img/fiszki1/32ee.jpg"
-        ],
-        translate: "Nasz nauczyciel pomaga nam z pracą domową",
-        translateb: "[Aur ticzer helps as wiz hołmłork]",
-        translateb2: "[]",
-        srcWord: ["https://www.arbulang.com/filmy/teacher2.mp4", 'Dom z papieru (2017-2021)'],
-        srcWord2: ["https://www.arbulang.com/filmy/procedure.mp4", "Breaking Bad"],
-        srcWordimage: "https://www.arbulang.com/filmy/teacher2.png",
-        opis: "Przygotowanie się do akcji rabunkowej",
-        word: [
-                "https://www.arbulang.com/voice/music.mp4"
         ],
         story: [
                 "<u><b>Aur</u></b>a zawodnika z <u><b>naszego</u></b> zespołu jest niesamowita",
@@ -2444,7 +2450,7 @@ id: [
         story: [
                 "Ale <b><u>grand</b></u>a bo moi dziadkowie <b><u>Pare</b></u> lat temu byli sentym<b><u>ent</b></u>alni i chyba <b><u>s</b></u>ą nadal"
         ],
-        desc: "grandparents[] - dziadkowie",
+        desc: "grandparents[grandparents] - dziadkowie",
         sentence1: [
                 "grandparents"
         ],
@@ -2519,9 +2525,10 @@ id: [
                 "https://www.arbulang.com/img/fiszki1/7d.jpg",
                 "https://www.arbulang.com/img/fiszki1/7e.jpg"
         ],
-        translate: "",
-        translateb: "[Hi sings bjutifuli in de szołer]",
-        translateb2: "[]",
+        translate: "Samochód jest zaparkowany w pobliżu",
+        translateb: "[De kar is parktd nirbaj]",
+        translateb2: "[De kar is parktd nirbaj]",
+        translateb3: "The car is parked nearby",
         srcWord: ["https://www.arbulang.com/filmy/car.mp4", "W pogoni za zemstą (2010)"],
         srcWordimage: "https://www.arbulang.com/filmy/car.png",
         word: [
@@ -2676,9 +2683,10 @@ id: [
                 "https://www.arbulang.com/img/fiszki1/19d.jpg",
                 "https://www.arbulang.com/img/fiszki1/19e.jpg"
         ],
-        translate: "",
-        translateb: "[Aj nid e nju per of szu]",
-        translateb2: "[Aj em szaj]",
+        translate: "Mam w domu dwa koty",
+        translateb: "[Aj hew tu kats]",
+        translateb2: "[Aj hew tu kats]",
+        translateb3: "I have two cats at home",
         srcWord: ["https://www.arbulang.com/filmy/two-cats.mp4", "Matrix Reaktywacja (2003)"],
         srcWordimage: "https://www.arbulang.com/filmy/two-cats.png",
         opis: "",
@@ -2740,7 +2748,7 @@ id: [
         story: [
                 "Jestem w parku. <b><u>Tu</b></u> (w tym parku) jest <b><u>dwa</b></u> koty"
         ],
-        desc: "two[] - dwa",
+        desc: "two[tu] - dwa",
         sentence1: [
                 "two"
         ],
