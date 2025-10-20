@@ -69,7 +69,7 @@
                     }
                     console.log(`Fiszki dla lekcji ${lessonIdToShow1}, ${lessonIdToShow2} i ${lessonIdToShow3}:`);
 
-let sentence10 = "", sentence11 = "";
+let sentence10 = "", sentence11 = "", sentence10b = "", sentence11b = "";
 function addBackgroundToText1b(matchingFiszki1, matchingIndexes, aktualny, lesson1PartLength, matchingIndexes2, rodzaj, matchingIndexes3, matchingLessons5b) {
 
 
@@ -112,11 +112,51 @@ function addBackgroundToText1b(matchingFiszki1, matchingIndexes, aktualny, lesso
             sentence11 += sentencePart2 + " ";
         }
     }
+    
+        for (let i = 0; i < matchingFiszki1.length; i++) {
+        const fiszka = matchingFiszki1[i];
+        if (!fiszka.sentence1b) continue;
 
-    return { sentence10, sentence11 };
+        for (let ki = 0; ki < fiszka.sentence1b.length; ki++) {
+            let sentencePart = fiszka.sentence1b[ki];
+            const indexToCheck = i + lesson1PartLength + 1;
+
+            if (matchingIndexes.includes(indexToCheck) && matchingIndexes !== null) {
+                sentencePart = `<span class="yellow">${sentencePart}</span>`;
+            }
+
+            if (matchingLessons5b.includes(indexToCheck) && matchingIndexes.length === 0) {
+                sentencePart = `<span class="yellow">${sentencePart}</span>`;
+            }
+
+            sentence10b += sentencePart + " ";
+        }
+    }
+
+    for (let i = 0; i < matchingFiszki1.length; i++) {
+        const fiszka = matchingFiszki1[i];
+        if (!fiszka.sentence2b) continue;
+
+        for (let ki = 0; ki < fiszka.sentence2b.length; ki++) {
+            let sentencePart2 = fiszka.sentence2b[ki];
+            const indexToCheck = i + lesson1PartLength + 1;
+
+            if (matchingIndexes.includes(indexToCheck) && matchingIndexes !== null) {
+                sentencePart2 = `<span class="yellow">${sentencePart2}</span>`;
+            }
+
+            if (matchingLessons5b.includes(indexToCheck) && matchingIndexes.length === 0) {
+                sentencePart2 = `<span class="yellow">${sentencePart2}</span>`;
+            }
+
+            sentence11b += sentencePart2 + " ";
+        }
+    }
+
+return { sentence10, sentence11, sentence10b, sentence11b };
 }
 
-let sentence20 = "", sentence22 = "";
+let sentence20 = "", sentence22 = "", sentence20b = "", sentence22b = "";
                     function addBackgroundToText2b(matchingFiszki2, matchingIndexes, aktualny, lesson1PartLength, matchingIndexes2, rodzaj, matchingIndexes3, matchingLessons5b) {
 
 
@@ -159,10 +199,50 @@ let sentence20 = "", sentence22 = "";
             sentence22 += sentencePart2 + " ";
         }
     }
-    return { sentence20, sentence22 };
+    
+            for (let i = 0; i < matchingFiszki2.length; i++) {
+        const fiszka = matchingFiszki2[i];
+        if (!fiszka.sentence1b) continue;
+
+        for (let ki = 0; ki < fiszka.sentence1b.length; ki++) {
+            let sentencePartb = fiszka.sentence1b[ki];
+            const indexToCheck = i + lesson1PartLength + 1;
+
+            if (matchingIndexes.includes(indexToCheck) && matchingIndexes !== null) {
+                sentencePart = `<span class="yellow">${sentencePart}</span>`;
+            }
+
+            if (matchingLessons5b.includes(indexToCheck) && matchingIndexes.length === 0) {
+                sentencePart = `<span class="yellow">${sentencePart}</span>`;
+            }
+
+            sentence20b += sentencePartb + " ";
+        }
+    }
+
+    for (let i = 0; i < matchingFiszki2.length; i++) {
+        const fiszka = matchingFiszki2[i];
+        if (!fiszka.sentence2b) continue;
+
+        for (let ki = 0; ki < fiszka.sentence2b.length; ki++) {
+            let sentencePart2b = fiszka.sentence2b[ki];
+            const indexToCheck = i + lesson1PartLength + 1;
+
+            if (matchingIndexes.includes(indexToCheck) && matchingIndexes !== null) {
+                sentencePart2 = `<span class="yellow">${sentencePart2}</span>`;
+            }
+
+            if (matchingLessons5b.includes(indexToCheck) && matchingIndexes.length === 0) {
+                sentencePart2 = `<span class="yellow">${sentencePart2}</span>`;
+            }
+
+            sentence22b += sentencePart2b + " ";
+        }
+    }
+    return { sentence20, sentence22, sentence20b, sentence22b };
 }
-let sentence30 = "", sentence33 = "";
-                                        function addBackgroundToText3b(matchingFiszki3, matchingIndexes, aktualny, lesson1PartLength, matchingIndexes2, rodzaj, matchingIndexes3, matchingLessons5b) {
+let sentence30 = "", sentence33 = "", sentence30b = "", sentence33b = "";
+                    function addBackgroundToText3b(matchingFiszki3, matchingIndexes, aktualny, lesson1PartLength, matchingIndexes2, rodzaj, matchingIndexes3, matchingLessons5b) {
 
 
     for (let j = 0; j < matchingFiszki3.length; j++) {
@@ -204,7 +284,47 @@ let sentence30 = "", sentence33 = "";
             sentence33 += sentencePart2 + " ";
         }
     }
-    return { sentence30, sentence33 };
+    
+            for (let i = 0; i < matchingFiszki3.length; i++) {
+        const fiszka = matchingFiszki3[i];
+        if (!fiszka.sentence1b) continue;
+
+        for (let ki = 0; ki < fiszka.sentence1b.length; ki++) {
+            let sentencePartb = fiszka.sentence1b[ki];
+            const indexToCheck = i + lesson1PartLength + 1;
+
+            if (matchingIndexes.includes(indexToCheck) && matchingIndexes !== null) {
+                sentencePart = `<span class="yellow">${sentencePart}</span>`;
+            }
+
+            if (matchingLessons5b.includes(indexToCheck) && matchingIndexes.length === 0) {
+                sentencePart = `<span class="yellow">${sentencePart}</span>`;
+            }
+
+            sentence30b += sentencePartb + " ";
+        }
+    }
+
+    for (let i = 0; i < matchingFiszki3.length; i++) {
+        const fiszka = matchingFiszki3[i];
+        if (!fiszka.sentence2b) continue;
+
+        for (let ki = 0; ki < fiszka.sentence2b.length; ki++) {
+            let sentencePart3b = fiszka.sentence2b[ki];
+            const indexToCheck = i + lesson1PartLength + 1;
+
+            if (matchingIndexes.includes(indexToCheck) && matchingIndexes !== null) {
+                sentencePart2 = `<span class="yellow">${sentencePart2}</span>`;
+            }
+
+            if (matchingLessons5b.includes(indexToCheck) && matchingIndexes.length === 0) {
+                sentencePart2 = `<span class="yellow">${sentencePart2}</span>`;
+            }
+
+            sentence33b += sentencePart3b + " ";
+        }
+    }
+    return { sentence30, sentence33, sentence30b, sentence33b };
 }
 
 
@@ -440,6 +560,7 @@ function chooseTripletFromSingleNumber(singleNumber) {
   }
   return false;
 }
+const sentenceCache = {}; // klucz: currentPos, wartość: HTML zdań
 
 function renderLesson() {
     $container.empty();
@@ -518,46 +639,91 @@ function renderLesson() {
 
     // --- Tekst / fiszka ---
     const $textContainer = $('<div>').addClass('text-block');
-    let currentSentenceHtml = "";
+     // --- Sprawdzenie cache ---
+    if (!sentenceCache[currentPos]) {
+        let currentSentenceHtml = "";
+        try {
+if (currentPos === 0 && typeof addBackgroundToText1b === 'function') {
+    const { sentence10, sentence11, sentence10b, sentence11b } =
+        addBackgroundToText1b(matchingFiszki1, matchingIndexes, currentPos, 0,
+                              matchingIndexes2, rodzaj, matchingIndexes3, matchingLessons5b);
 
-    try {
-        if (currentPos === 0 && typeof addBackgroundToText1b === 'function') {
-            const { sentence10, sentence11 } = addBackgroundToText1b(matchingFiszki1, matchingIndexes, currentPos, 0, matchingIndexes2, rodzaj, matchingIndexes3, matchingLessons5b);
-            currentSentenceHtml = (sentence10 || "") + (sentence11 || "");
-        } else if (currentPos === 1 && typeof addBackgroundToText2b === 'function') {
-            const { sentence20, sentence22 } = addBackgroundToText2b(matchingFiszki2, matchingIndexes, currentPos, 0, matchingIndexes2, rodzaj, matchingIndexes3, matchingLessons5b);
-            currentSentenceHtml = (sentence20 || "") + (sentence22 || "");
-        } else if (currentPos === 2 && typeof addBackgroundToText3b === 'function') {
-            const { sentence30, sentence33 } = addBackgroundToText3b(matchingFiszki3, matchingIndexes, currentPos, 0, matchingIndexes2, rodzaj, matchingIndexes3, matchingLessons5b);
-            currentSentenceHtml = (sentence30 || "") + (sentence33 || "");
-        } else {
-            if (fiszka && (fiszka.sentence1 || fiszka.sentence2)) {
-                currentSentenceHtml = (Array.isArray(fiszka.sentence1) ? fiszka.sentence1.join(' ') + ' ' : '') +
-                                      (Array.isArray(fiszka.sentence2) ? fiszka.sentence2.join(' ') : '');
+    currentSentenceHtml = `
+        <div class="sentence-pair">
+            <div class="sentence-main">
+                ${sentence10 || ""}
+                ${sentence11 || ""}
+            </div>
+            <div class="sentence-sub">
+                ${(sentence10b || "").toUpperCase()}
+                ${(sentence11b || "").toUpperCase()}
+            </div>
+        </div>
+    `;
+} else if (currentPos === 1 && typeof addBackgroundToText2b === 'function') {
+    const { sentence20, sentence22, sentence20b, sentence22b } =
+        addBackgroundToText2b(matchingFiszki2, matchingIndexes, currentPos, 0,
+                              matchingIndexes2, rodzaj, matchingIndexes3, matchingLessons5b);
+
+    currentSentenceHtml = `
+        <div class="sentence-pair">
+            <div class="sentence-main">
+                ${sentence20 || ""}
+                ${sentence22 || ""}
+            </div>
+            <div class="sentence-sub">
+                ${(sentence20b || "").toUpperCase()}
+                ${(sentence22b || "").toUpperCase()}
+            </div>
+        </div>
+    `;
+} else if (currentPos === 2 && typeof addBackgroundToText3b === 'function') {
+    const { sentence30, sentence33, sentence30b, sentence33b } =
+        addBackgroundToText3b(matchingFiszki3, matchingIndexes, currentPos, 0,
+                              matchingIndexes2, rodzaj, matchingIndexes3, matchingLessons5b);
+
+    currentSentenceHtml = `
+        <div class="sentence-pair">
+            <div class="sentence-main">
+                ${sentence30 || ""}
+                ${sentence33 || ""}
+            </div>
+            <div class="sentence-sub">
+                ${(sentence30b || "").toUpperCase()}
+                ${(sentence33b || "").toUpperCase()}
+            </div>
+        </div>
+    `;
+} else {
+                if (fiszka && (fiszka.sentence1 || fiszka.sentence2)) {
+                    currentSentenceHtml = (Array.isArray(fiszka.sentence1) ? fiszka.sentence1.join(' ') + ' ' : '') +
+                                          (Array.isArray(fiszka.sentence2) ? fiszka.sentence2.join(' ') : '');
+                }
             }
+        } catch (e) {
+            console.error('Błąd podczas generowania zdań:', e);
         }
-    } catch (e) {
-        console.error('Błąd podczas generowania zdań:', e);
+        sentenceCache[currentPos] = currentSentenceHtml;
     }
 
-    const $sentenceDiv = $('<div>').addClass('sentence-block').html(currentSentenceHtml);
+    const $sentenceDiv = $('<div>').addClass('sentence-block').html(sentenceCache[currentPos]);
     $textContainer.append($sentenceDiv);
 
     // --- Linki do lekcji ---
     const singleLink = `demo1angielski.html?category=${selectedCategory}&data=${currentDataName}`;
-    let tripletLink = linkMap[currentDataName] || null;
-    if (!tripletLink && Array.isArray(trojkiGlobal) && trojkiGlobal.length) {
-        const found = trojkiGlobal.find(t => Array.isArray(t) && t.indexOf(currentDataName) !== -1);
-        if (found) tripletLink = `demo1angielski.html?category=${selectedCategory}&data=${found.join(',')}`;
-    }
-    if (!tripletLink && Array.isArray(currentTriplet) && currentTriplet.length) {
-        tripletLink = `demo1angielski.html?category=${selectedCategory}&data=${currentTriplet.join(',')}`;
-    }
-    if (!tripletLink) tripletLink = singleLink;
+const tripletLink = `demo1angielski.html?category=${selectedCategory}&data=${currentTriplet.join(',')}`;
 
-    const $singleLinkA = $('<a>').attr({ href: singleLink, target: '_blank', rel: 'noopener noreferrer' }).addClass('text-link').text('➡ Otwórz lekcję z wybranym zdaniem');
-    const $tripletLinkA = $('<a>').attr({ href: tripletLink, target: '_blank', rel: 'noopener noreferrer' }).addClass('text-link').text('➡ Otwórz całą lekcję (3 zdania)');
-    $textContainer.append($singleLinkA, $tripletLinkA);
+const $singleLinkA = $('<a>')
+  .attr({ href: singleLink, target: '_blank', rel: 'noopener noreferrer' })
+  .addClass('text-link')
+  .text('➡ Otwórz lekcję z wybranym zdaniem');
+
+const $tripletLinkA = $('<a>')
+  .attr({ href: tripletLink, target: '_blank', rel: 'noopener noreferrer' })
+  .addClass('text-link')
+  .text('➡ Otwórz całą lekcję (3 zdania)');
+
+$textContainer.append($singleLinkA, $tripletLinkA);
 
     // --- Nawigacja w obrębie trójki ---
     const $nav = $('<div>').addClass('nav-buttons');
@@ -576,36 +742,6 @@ function renderLesson() {
     $container.append($mediaContainer, $textContainer, $nav);
 }
 
-// ---------- DODATKOWE: run-icony w .sentence-block (jeśli potrzebne) ----------
-function addRunIconsForVisible() {
-  $('.sentence-block:visible').each(function () {
-    const $block = $(this);
-    if ($block.find('.run-icon').length === 0) {
-      const index2 = $block.attr('data-lesson') || $block.attr('data-name');
-      const $icon = $('<span></span>')
-        .addClass('run-icon')
-        .attr('data-index2', index2)
-        .text('🔄')
-        .attr('title', 'Pokaż zdanie')
-        .css({
-          cursor: 'pointer',
-          fontSize: '24px',
-          marginLeft: '6px',
-          userSelect: 'none',
-          display: 'inline-block',
-          verticalAlign: 'middle'
-        });
-
-      // znajdź ostatni <br> w bloku
-      const $lastBr = $block.contents().filter(function () { return this.nodeName === 'BR'; }).last();
-      if ($lastBr.length) {
-        $lastBr.before($icon);
-      } else {
-        $block.append($icon);
-      }
-    }
-  });
-}
 $('body').off('click', '.run-icon').on('click', '.run-icon', function () {
   const indexDiv = $(this).attr('data-index2');
   const link = linkMap[indexDiv] || `demo1angielski.html?category=${selectedCategory}&data=${indexDiv}`;
@@ -679,14 +815,17 @@ setTimeout(startup, 0);
     $sentenceDiv.html(`
 <div class="sentence-block" data-name="${id1}">
     ${sentence10}${sentence11}<br>
+        ${sentence10b}${sentence11b}<br>
 </div>
 
 <div class="sentence-block" data-name="${id2}">
     ${sentence20}${sentence22}<br>
+            ${sentence20b}${sentence22b}<br>
 </div>
 
 <div class="sentence-block" data-name="${id3}">
     ${sentence30}${sentence33}<br>
+                ${sentence30b}${sentence33b}<br>
 </div>
 `);
 

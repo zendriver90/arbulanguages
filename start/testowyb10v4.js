@@ -11,6 +11,9 @@ fiszki10.push(
         sentence1: [
             "movie"
         ],
+                    sentence1b: [
+            "film"
+        ],
         sentence: [
             "The",
             "movie",
@@ -68,6 +71,9 @@ fiszki10.push(
                 sentence1: [
                         "just"
                 ],
+                            sentence2b: [
+            "właśnie"
+        ],
                 sentence: [
                         "just",
                         "started"
@@ -87,6 +93,9 @@ id: [
         desc: "started[started] - wystartowało",
         sentence1: [
                 "started"
+        ],
+                    sentence2b: [
+            "wystartował"
         ],
         sentence: [
                 "just",
@@ -117,7 +126,10 @@ id: [
         story: "<u><b>Ona</u></b> - Patrycja ma ri<u><b>szi</u></b> to naturalny antyoksydant",
         desc: "she[szi] - niebieski/niebieskie",
         sentence1: [
-                "She"
+                ""
+        ],
+        sentence1b: [
+            ""
         ],
         sentence: [
                 "She",
@@ -157,7 +169,7 @@ id: [
         ],
         desc: "has[hes]/have[hew] - mieć(on/ona/oni)/mieć(ja/ty)",
         sentence1: [
-                "has"
+                ""
         ],
         sentence: [
                 "She",
@@ -181,7 +193,10 @@ id: [
         story: "Floryda to stan w USA, który powinien być czytany Flo<b><u>rid</b></u>a",
         desc: "read[rid] - czytać",
         sentence1: [
-                "read"
+                "She has read"
+        ],
+        sentence1b: [
+            "Ona przeczytała"
         ],
         sentence: [
                 "She",
@@ -219,6 +234,9 @@ id: [
         sentence1: [
                 "this"
         ],
+        sentence1b: [
+            "tą"
+        ],
         sentence: [
                 "The",
                 "has",
@@ -243,6 +261,9 @@ id: [
         sentence1: [
                 "book"
         ],
+        sentence1b: [
+            "książkę"
+        ],
         sentence: [
                 "The",
                 "has",
@@ -266,6 +287,9 @@ id: [
         desc: "twice[tłajs] - podwójny/podwójna/dwukrotnie",
         sentence1: [
                 "twice"
+        ],
+        sentence1b: [
+            "dwa razy"
         ],
         sentence: [
                 "The",
@@ -302,6 +326,9 @@ id: [
         sentence1: [
                 "We"
         ],
+        sentence1b: [
+            ""
+        ],
         sentence: [
                 "We",
                 "have",
@@ -323,7 +350,7 @@ id: [
         story: "<b><u>Mam</b></u> fajne spodnie, ale puścił sz<b><u>ew</b></u>, <b><u>ch</b></u>yba go zaceruje",
         desc: "have[hew] - mam",
         sentence1: [
-                "have"
+                ""
         ],
         sentence: [
                 "We",
@@ -345,7 +372,10 @@ id: [
         story: "Producent odwiedził naukowców z proszkiem <u><b>wizi</u></b>r, aby go przetestowali. Jeden naukowiec ma <u><b>ti</u></b>ki i myli się przy badaniach. <u><b>Id</u></b>zie mu słabo",
         desc: "visited[wizitid] - odwiedził/odwiedziła",
         sentence1: [
-                "visited"
+                "We have visited"
+        ],
+                sentence1b: [
+            "(My) odwiedziliśmy"
         ],
         sentence: [
                 "We",
@@ -369,6 +399,9 @@ id: [
         sentence1: [
                 "London"
         ],
+                sentence1b: [
+            "Londyn"
+        ],
         sentence: [
                 "We",
                 "have",
@@ -390,6 +423,9 @@ id: [
         desc: "many times[meni tajms] - wiele razy",
         sentence2: [
                 "many times"
+        ],
+                sentence2b: [
+            "wiele razy"
         ],
         sentence: [
                 "many times"
@@ -429,6 +465,9 @@ id: [
         sentence1: [
                 "My"
         ],
+                        sentence1b: [
+            "Mój"
+        ],
         sentence: [
                 "My",
                 "brother",
@@ -455,6 +494,9 @@ id: [
         sentence1: [
                 "brother"
         ],
+                        sentence1b: [
+            "brat"
+        ],
         sentence: [
                 "My",
                 "brother",
@@ -478,6 +520,9 @@ id: [
         sentence1: [
                 "plays"
         ],
+                        sentence1b: [
+            "gra"
+        ],
         sentence: [
                 "My",
                 "brother",
@@ -500,6 +545,9 @@ id: [
         desc: "football[futbol] - piłka nożna",
         sentence1: [
                 "football"
+        ],
+                        sentence1b: [
+            "w piłkę"
         ],
         sentence: [
                 "My",
@@ -525,6 +573,9 @@ id: [
         sentence2: [
                 "on"
         ],
+                        sentence2b: [
+            "w"
+        ],
         sentence: [
                 "on",
                 "weekends"
@@ -544,6 +595,9 @@ id: [
         desc: "KOGNATY - weekends[łikends] - weekend",
         sentence2: [
                 "weekends"
+        ],
+                        sentence2b: [
+            "weekendy"
         ],
         sentence: [
                 "on",
@@ -574,7 +628,10 @@ id: [
         story: "<u><b>Ona</u></b> - Patrycja ma ri<u><b>szi</u></b> to naturalny antyoksydant",
         desc: "she[szi] - ona",
         sentence1: [
-                "She"
+                ""
+        ],
+                                sentence1b: [
+            ""
         ],
         sentence: [
                 "She",
@@ -596,7 +653,10 @@ id: [
         story: "KOGANTY - DRINK - DRINKS",
         desc: "drinks[drinks] - pić",
         sentence1: [
-                "drinks"
+                "She drinks"
+        ],
+                                sentence1b: [
+            "Ona pije"
         ],
         sentence: [
                 "She",
@@ -620,6 +680,9 @@ id: [
         sentence1: [
                 "coffe"
         ],
+                                sentence1b: [
+            "kawę"
+        ],
         sentence: [
                 "She",
                 "drinks",
@@ -640,6 +703,9 @@ id: [
         desc: "every[ewry] - każdy",
         sentence2: [
                 "every"
+        ],
+                                sentence2b: [
+            "każdego"
         ],
         sentence: [
                 "every",
@@ -665,6 +731,9 @@ id: [
         sentence2: [
                 "single"
         ],
+                                sentence2b: [
+            "pojedyńczego"
+        ],
         sentence: [
                 "every",
                 "single",
@@ -685,6 +754,9 @@ id: [
         desc: "day[dej] - dzień",
         sentence2: [
                 "day"
+        ],
+                                sentence2b: [
+            "dnia"
         ],
         sentence: [
                 "every",

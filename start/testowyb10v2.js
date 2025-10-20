@@ -11,6 +11,9 @@ fiszki10.push(
         sentence2: [
             "bow"
         ],
+                                                sentence2b: [
+            "łuku"
+        ],
         sentence: [
             "to",
             "his",
@@ -50,6 +53,9 @@ fiszki10.push(
         sentence1: [
             "He"
         ],
+        sentence1b: [
+            "On"
+        ],
         sentence: [
             "He",
             "does",
@@ -77,7 +83,10 @@ fiszki10.push(
         story: "Leoni<b><u>das</b></u> król spartan odpala k<b><u>not</b></u> świeczki, bo <b><u>nie jest</b></u> odpalona",
         desc: "does[das] - nie jest",
         sentence1: [
-            "does"
+            ""
+        ],
+                sentence1b: [
+            ""
         ],
         sentence: [
             "He",
@@ -100,7 +109,10 @@ fiszki10.push(
         story: "Leoni<b><u>das</b></u> król spartan odpala k<b><u>not</b></u> świeczki, bo <b><u>nie jest</b></u> odpalona",
         desc: "not[not] - nie",
         sentence1: [
-            "not"
+            "does not"
+        ],
+                        sentence1b: [
+            "nie jest"
         ],
         sentence: [
             "He",
@@ -125,6 +137,9 @@ fiszki10.push(
         desc: "obey[obej] - posłuszny",
         sentence1: [
             "obey"
+        ],
+                                sentence1b: [
+            "posłuszny"
         ],
         sentence: [
             "He",
@@ -161,6 +176,9 @@ fiszki10.push(
         sentence2: [
             "to"
         ],
+                                        sentence2b: [
+            "do (dla)"
+        ],
         sentence: [
             "to",
             "his",
@@ -194,6 +212,9 @@ fiszki10.push(
         sentence2: [
             "his"
         ],
+                                                sentence2b: [
+            "swojego (jego)"
+        ],
         sentence: [
             "to",
             "his",
@@ -216,6 +237,9 @@ fiszki10.push(
         desc: "trainer[trejner] - trener",
         sentence2: [
             "trainer"
+        ],
+                                                        sentence2b: [
+            "trenera"
         ],
         sentence: [
             "to",
@@ -256,6 +280,9 @@ fiszki10.push(
         sentence1: [
             "This"
         ],
+                                                                sentence1b: [
+            "To"
+        ],
         sentence: [
             "This",
             "city",
@@ -282,6 +309,9 @@ fiszki10.push(
         desc: "city[siti] - miasto",
         sentence1: [
             "city"
+        ],
+                                                                        sentence1b: [
+            "miasto"
         ],
         sentence: [
             "This",
@@ -321,6 +351,9 @@ fiszki10.push(
         sentence1: [
             "is"
         ],
+                                                                                sentence1b: [
+            "jest"
+        ],
         sentence: [
             "This",
             "city",
@@ -351,6 +384,9 @@ fiszki10.push(
         sentence2: [
             "full"
         ],
+        sentence2b: [
+            "pełne"
+        ],
         sentence: [
             "full",
             "of",
@@ -378,6 +414,9 @@ fiszki10.push(
         sentence2: [
             "of"
         ],
+                sentence2b: [
+            "(czegoś)"
+        ],
         sentence: [
             "full",
             "of",
@@ -401,6 +440,9 @@ fiszki10.push(
         desc: "people[pipul] - ludzie",
         sentence2: [
             "people"
+        ],
+                        sentence2b: [
+            "ludzi"
         ],
         sentence: [
             "full",
@@ -441,6 +483,9 @@ fiszki10.push(
         sentence1: [
             "Our"
         ],
+                                sentence1b: [
+            "Nasi"
+        ],
         sentence: [
             "Our",
             "students",
@@ -469,6 +514,9 @@ fiszki10.push(
         sentence1: [
             "students"
         ],
+                                        sentence1b: [
+            "studenci"
+        ],
         sentence: [
             "Our",
             "students",
@@ -496,6 +544,9 @@ fiszki10.push(
             "students",
             "have to"
         ],
+                                                sentence1b: [
+            "muszą"
+        ],
         key: "have to",
         category1: "nauka",
         category2: ["czasownik", "podmiot+czas"],
@@ -512,6 +563,9 @@ fiszki10.push(
         desc: "study[stadi] - studiować",
         sentence2: [
             "study"
+        ],
+        sentence2b: [
+            "studiować"
         ],
         sentence: [
             "study",
@@ -534,6 +588,9 @@ fiszki10.push(
         sentence2: [
             "very"
         ],
+                sentence2b: [
+            "bardzo"
+        ],
         sentence: [
             "study",
             "very",
@@ -554,6 +611,9 @@ fiszki10.push(
         desc: "hard[hard] - trudne/cieżkie/mocne",
         sentence2: [
             "hard"
+        ],
+                        sentence2b: [
+            "ciężko"
         ],
         sentence: [
             "study",
@@ -594,6 +654,9 @@ fiszki10.push(
         sentence1: [
             "I"
         ],
+                                sentence1b: [
+            "(Ja)"
+        ],
         sentence: [
             "I",
             "don't",
@@ -622,6 +685,9 @@ fiszki10.push(
         sentence1: [
             "don't"
         ],
+                                        sentence1b: [
+            "nie"
+        ],
         sentence: [
             "I",
             "don't",
@@ -644,6 +710,9 @@ fiszki10.push(
         sentence1: [
             "have"
         ],
+                                                sentence1b: [
+            "mam"
+        ],
         sentence: [
             "I",
             "don't",
@@ -665,6 +734,9 @@ fiszki10.push(
         desc: "time[tajm] - czas",
         sentence2: [
             "time"
+        ],
+            sentence2b: [
+            "czasu"
         ],
         sentence: [
             "time",
@@ -699,6 +771,9 @@ fiszki10.push(
         sentence2: [
             "to"
         ],
+                    sentence2b: [
+            "(żeby)"
+        ],
         sentence: [
             "time",
             "to",
@@ -725,6 +800,9 @@ fiszki10.push(
         desc: "read[rid] - czytać",
         sentence2: [
             "read"
+        ],
+                            sentence2b: [
+            "czytać"
         ],
         sentence: [
             "time",
@@ -753,6 +831,9 @@ fiszki10.push(
         sentence1: [
             "People"
         ],
+                                    sentence1b: [
+            "Ludzie"
+        ],
         sentence: [
             "People",
             "think",
@@ -774,6 +855,9 @@ fiszki10.push(
         desc: "think[fink] - myśleć",
         sentence1: [
             "think"
+        ],
+                                            sentence1b: [
+            "myślą"
         ],
         sentence: [
             "People",
@@ -797,6 +881,9 @@ fiszki10.push(
         sentence1: [
             "that"
         ],
+                                            sentence1b: [
+            "że"
+        ],
         sentence: [
             "People",
             "think",
@@ -817,6 +904,9 @@ fiszki10.push(
         desc: "he's[his] - on jest(skrót gramatyczny)",
         sentence2: [
             "he's"
+        ],
+                                            sentence2b: [
+            "on ma (on jest)"
         ],
         sentence: [
             "he's",
@@ -844,6 +934,9 @@ fiszki10.push(
         sentence2: [
             "right"
         ],
+                                                    sentence2b: [
+            "rację (prawidłowy)"
+        ],
         sentence: [
             "he's",
             "right"
@@ -870,6 +963,9 @@ fiszki10.push(
         sentence1: [
             "We"
         ],
+        sentence1b: [
+            "My"
+        ],
         sentence: [
             "We",
             "should",
@@ -892,6 +988,9 @@ fiszki10.push(
         sentence1: [
             "should"
         ],
+                sentence1b: [
+            "powinniśmy"
+        ],
         sentence: [
             "We",
             "should",
@@ -913,6 +1012,9 @@ fiszki10.push(
         sentence1: [
             "care"
         ],
+                        sentence1b: [
+            "dbać"
+        ],
         sentence: [
             "We",
             "should",
@@ -933,6 +1035,9 @@ fiszki10.push(
         desc: "about[ebałt] - o tym/o czymś",
         sentence2: [
             "about"
+        ],
+                                sentence2b: [
+            "o (na temat)"
         ],
         sentence: [
             "about",
@@ -969,6 +1074,9 @@ fiszki10.push(
         sentence2: [
             "our"
         ],
+                                        sentence2b: [
+            "naszą"
+        ],
         sentence: [
             "about",
             "our",
@@ -996,6 +1104,9 @@ fiszki10.push(
         desc: "future[fjuczer] - przyszłość",
         sentence2: [
             "future"
+        ],
+        sentence2b: [
+            "przyszłość"
         ],
         sentence: [
             "about",
@@ -1036,6 +1147,9 @@ fiszki10.push(
         sentence1: [
             "The"
         ],
+        sentence1b: [
+            "(Ta)"
+        ],
         sentence: [
             "The",
             "price",
@@ -1067,6 +1181,9 @@ fiszki10.push(
         sentence1: [
             "price"
         ],
+                sentence1b: [
+            "cena"
+        ],
         sentence: [
             "The",
             "price",
@@ -1092,6 +1209,9 @@ fiszki10.push(
         sentence1: [
             "for"
         ],
+                sentence1b: [
+            "za (dla)"
+        ],
         sentence: [
             "The",
             "price",
@@ -1115,6 +1235,9 @@ fiszki10.push(
         desc: "breaking[brejkin] - złamać",
         sentence1: [
             "breaking"
+        ],
+                        sentence1b: [
+            "złamanie"
         ],
         sentence: [
             "The",
@@ -1152,6 +1275,9 @@ fiszki10.push(
         sentence1: [
             "the"
         ],
+                                sentence1b: [
+            "(tych)"
+        ],
         sentence: [
             "The",
             "price",
@@ -1181,6 +1307,9 @@ fiszki10.push(
         desc: "rules[ruls] - przyszłość",
         sentence1: [
             "rules"
+        ],
+                                        sentence1b: [
+            "zasad"
         ],
         sentence: [
             "The",
@@ -1225,6 +1354,9 @@ fiszki10.push(
         sentence2: [
             "is"
         ],
+                                                sentence2b: [
+            "jest"
+        ],
         sentence: [
             "is",
             "high"
@@ -1253,6 +1385,9 @@ fiszki10.push(
         desc: "high[haj] - dużo/wysoko",
         sentence2: [
             "high"
+        ],
+                                                sentence2b: [
+            "wysoka"
         ],
         sentence: [
             "is",
@@ -1293,6 +1428,9 @@ fiszki10.push(
         sentence1: [
             "He"
         ],
+                                                sentence1b: [
+            "On"
+        ],
         sentence: [
             "He",
             "thinks",
@@ -1323,6 +1461,9 @@ fiszki10.push(
         sentence1: [
             "thinks"
         ],
+                                                sentence1b: [
+            "myśli"
+        ],
         sentence: [
             "He",
             "thinks",
@@ -1347,6 +1488,9 @@ fiszki10.push(
         sentence1: [
             "it's"
         ],
+                                                sentence1b: [
+            "(że) to jest"
+        ],
         sentence: [
             "He",
             "thinks",
@@ -1370,6 +1514,9 @@ fiszki10.push(
         sentence1: [
             "only"
         ],
+                                                        sentence1b: [
+            "jedyny"
+        ],
         sentence: [
             "He",
             "thinks",
@@ -1392,6 +1539,9 @@ fiszki10.push(
         desc: "way[łej] - droga",
         sentence1: [
             "way"
+        ],
+                                                                sentence1b: [
+            "sposób"
         ],
         sentence: [
             "He",
@@ -1428,6 +1578,9 @@ fiszki10.push(
         sentence2: [
             "to"
         ],
+        sentence2b: [
+            "żeby"
+        ],
         sentence: [
             "to",
             "avoid",
@@ -1456,6 +1609,9 @@ fiszki10.push(
         sentence2: [
             "avoid"
         ],
+                sentence2b: [
+            "uniknąć"
+        ],
         sentence: [
             "to",
             "avoid",
@@ -1478,6 +1634,9 @@ fiszki10.push(
         sentence2: [
             "another"
         ],
+                        sentence2b: [
+            "kolejnej"
+        ],
         sentence: [
             "to",
             "avoid",
@@ -1499,6 +1658,9 @@ fiszki10.push(
         desc: "war[łor] - wojna",
         sentence2: [
             "war"
+        ],
+                                sentence2b: [
+            "wojny"
         ],
         sentence: [
             "to",
@@ -1540,6 +1702,9 @@ fiszki10.push(
         sentence1: [
             "The"
         ],
+                                sentence1b: [
+            "(Ta)"
+        ],
         sentence: [
             "The",
             "idea",
@@ -1569,6 +1734,9 @@ fiszki10.push(
         story: "Sociolog K<u><b>aj</u></b>tek ma świetne pomysły, jednym z nich jest obliczenie me<u><b>dia</u></b>ny wieku bezrobotnych",
         desc: "idea[ajdia] - idea",
         sentence1: [
+            "idea"
+        ],
+                                sentence1b: [
             "idea"
         ],
         sentence: [
@@ -1601,6 +1769,9 @@ fiszki10.push(
         sentence1: [
             "of"
         ],
+                                        sentence1b: [
+            "(tego)"
+        ],
         sentence: [
             "The",
             "idea",
@@ -1627,6 +1798,9 @@ fiszki10.push(
         desc: "leaving[living] - opuścić",
         sentence1: [
             "leaving"
+        ],                                        
+        sentence1b: [
+            "opuszczenia"
         ],
         sentence: [
             "The",
@@ -1657,6 +1831,9 @@ fiszki10.push(
         desc: "his[his] - jego",
         sentence1: [
             "his"
+        ],
+                sentence1b: [
+            "jego"
         ],
         sentence: [
             "The",
@@ -1696,6 +1873,9 @@ fiszki10.push(
         sentence1: [
             "school"
         ],
+                sentence1b: [
+            "szkoły"
+        ],
         sentence: [
             "The",
             "idea",
@@ -1726,6 +1906,9 @@ fiszki10.push(
         sentence2: [
             "was"
         ],
+                sentence2b: [
+            "była"
+        ],
         sentence: [
             "was",
             "also",
@@ -1747,6 +1930,9 @@ fiszki10.push(
         desc: "also[olso] - także",
         sentence2: [
             "also"
+        ],
+                sentence2b: [
+            "także"
         ],
         sentence: [
             "was",
@@ -1770,6 +1956,9 @@ fiszki10.push(
         sentence2: [
             "very"
         ],
+                        sentence2b: [
+            "bardzo"
+        ],
         sentence: [
             "was",
             "also",
@@ -1791,6 +1980,9 @@ fiszki10.push(
         desc: "painful[peinful] - bolesny/bolesne/bolesna",
         sentence2: [
             "painful"
+        ],
+                        sentence2b: [
+            "bolesna"
         ],
         sentence: [
             "was",
@@ -1832,6 +2024,9 @@ fiszki10.push(
         sentence1: [
             "The"
         ],
+                                sentence1b: [
+            "(Ten)"
+        ],
         sentence: [
             "The",
             "invention",
@@ -1863,6 +2058,9 @@ fiszki10.push(
         sentence1: [
             "invention"
         ],
+                                sentence1b: [
+            "wynalazek"
+        ],
         sentence: [
             "The",
             "invention",
@@ -1892,6 +2090,9 @@ fiszki10.push(
         desc: "of[of] - bolesny/bolesne/bolesna",
         sentence1: [
             "of"
+        ],
+                                        sentence1b: [
+            "(czegoś)"
         ],
         sentence: [
             "The",
@@ -1932,6 +2133,9 @@ fiszki10.push(
         sentence1: [
             "the"
         ],
+                                        sentence1b: [
+            "(takiego czegoś jak)"
+        ],
         sentence: [
             "The",
             "invention",
@@ -1962,6 +2166,9 @@ fiszki10.push(
         sentence1: [
             "wheel"
         ],
+                                                sentence1b: [
+            "koła"
+        ],
         sentence: [
             "The",
             "invention",
@@ -1985,6 +2192,9 @@ fiszki10.push(
         desc: "was[łos] - było",
         sentence1: [
             "was"
+        ],
+                                                        sentence1b: [
+            "było"
         ],
         sentence: [
             "The",
@@ -2016,6 +2226,9 @@ fiszki10.push(
         sentence2: [
             "(a) big"
         ],
+                sentence2b: [
+            "wielkim"
+        ],
         sentence: [
             "(a) big",
             "step",
@@ -2037,6 +2250,9 @@ fiszki10.push(
         sentence2: [
             "step"
         ],
+                                                        sentence2b: [
+            "krokiem"
+        ],
         sentence: [
             "(a) big",
             "step",
@@ -2057,6 +2273,9 @@ fiszki10.push(
         desc: "forward[fułerd] - naprzód",
         sentence2: [
             "forward"
+        ],
+                                                        sentence2b: [
+            "naprzód"
         ],
         sentence: [
             "(a) big",
@@ -2085,6 +2304,9 @@ fiszki10.push(
         sentence1: [
             "Tell"
         ],
+                                                        sentence1b: [
+            "Powiedz"
+        ],
         sentence: [
             "Tell",
             "me",
@@ -2109,6 +2331,9 @@ fiszki10.push(
         sentence1: [
             "me"
         ],
+                                                        sentence1b: [
+            "mi"
+        ],
         sentence: [
             "Tell",
             "me",
@@ -2131,6 +2356,9 @@ fiszki10.push(
         desc: "why[łaj] - dlaczego",
         sentence1: [
             "why"
+        ],
+          sentence1b: [
+            "dlaczego"
         ],
         sentence: [
             "Tell",
@@ -2167,6 +2395,9 @@ fiszki10.push(
         sentence1: [
             "this"
         ],
+                  sentence1b: [
+            "ten"
+        ],
         sentence: [
             "Tell",
             "me",
@@ -2194,6 +2425,9 @@ fiszki10.push(
         desc: "bridge[brydź] - most",
         sentence1: [
             "bridge"
+        ],
+                  sentence1b: [
+            "most"
         ],
         sentence: [
             "Tell",
@@ -2237,6 +2471,9 @@ fiszki10.push(
         sentence2: [
             "is"
         ],
+                  sentence2b: [
+            "jest"
+        ],
         sentence: [
             "is",
             "so",
@@ -2268,6 +2505,9 @@ fiszki10.push(
         sentence2: [
             "so"
         ],
+                          sentence2b: [
+            "tak bardzo"
+        ],
         sentence: [
             "is",
             "so",
@@ -2290,6 +2530,9 @@ fiszki10.push(
         desc: "important[important] - ważne/ważny",
         sentence2: [
             "important"
+        ],
+                          sentence2b: [
+            "ważny (znaczący)"
         ],
         sentence: [
             "is",
@@ -2326,6 +2569,9 @@ fiszki10.push(
         sentence2: [
             "to"
         ],
+                                  sentence2b: [
+            "dla"
+        ],
         sentence: [
             "is",
             "so",
@@ -2354,6 +2600,9 @@ fiszki10.push(
         desc: "you[ju] - ty",
         sentence2: [
             "you"
+        ],
+                                          sentence2b: [
+            "Ciebie"
         ],
         sentence: [
             "is",
@@ -2384,6 +2633,9 @@ fiszki10.push(
         sentence1: [
             "(A) user"
         ],
+        sentence1b: [
+            "(Ten konkretny) użytkownik"
+        ],
         sentence: [
             "(A) user",
             "may",
@@ -2410,6 +2662,9 @@ fiszki10.push(
         sentence1: [
             "may"
         ],
+                sentence1b: [
+            "może"
+        ],
         sentence: [
             "(A) user",
             "may",
@@ -2434,6 +2689,9 @@ fiszki10.push(
         desc: "add[ad] - dodać",
         sentence1: [
             "add"
+        ],
+                sentence1b: [
+            "dodać"
         ],
         sentence: [
             "(A) user",
@@ -2460,6 +2718,9 @@ fiszki10.push(
         sentence1: [
             "or"
         ],
+                sentence1b: [
+            "albo"
+        ],
         sentence: [
             "(A) user",
             "may",
@@ -2484,6 +2745,9 @@ fiszki10.push(
         desc: "remove[remuw] - usunąć",
         sentence1: [
             "remove"
+        ],
+                sentence1b: [
+            "usunąć"
         ],
         sentence: [
             "(A) user",
@@ -2510,6 +2774,9 @@ fiszki10.push(
         sentence1: [
             "those"
         ],
+                sentence1b: [
+            "te"
+        ],
         sentence: [
             "(A) user",
             "may",
@@ -2534,6 +2801,9 @@ fiszki10.push(
         desc: "accounts[ekaunts] - konta",
         sentence1: [
             "accounts"
+        ],
+                sentence1b: [
+            "konta"
         ],
         sentence: [
             "(A) user",
@@ -2574,6 +2844,9 @@ fiszki10.push(
         sentence2: [
             "with"
         ],
+                sentence2b: [
+            "z"
+        ],
         sentence: [
             "with",
             "ease"
@@ -2593,6 +2866,9 @@ fiszki10.push(
         desc: "ease[izz] - łatwość/łatwością",
         sentence2: [
             "ease"
+        ],
+                        sentence2b: [
+            "łatwością"
         ],
         sentence: [
             "with",
@@ -2620,6 +2896,9 @@ fiszki10.push(
         sentence1: [
             "She"
         ],
+                         sentence1b: [
+            "Ona"
+        ],
         sentence: [
             "She",
             "offers",
@@ -2643,6 +2922,9 @@ fiszki10.push(
         desc: "offers[ofers] - oferuje",
         sentence1: [
             "offers"
+        ],
+                                 sentence1b: [
+            "oferuje"
         ],
         sentence: [
             "She",
@@ -2668,6 +2950,9 @@ fiszki10.push(
         sentence1: [
             "some"
         ],
+                                         sentence1b: [
+            "jakąś"
+        ],
         sentence: [
             "She",
             "offers",
@@ -2690,6 +2975,9 @@ fiszki10.push(
         desc: "advice[edwajs] - rada/porada",
         sentence1: [
             "advice"
+        ],
+                                         sentence1b: [
+            "radę"
         ],
         sentence: [
             "She",
@@ -2720,6 +3008,9 @@ fiszki10.push(
         sentence1: [
             "about"
         ],
+                                         sentence1b: [
+            "wobec (na temat)"
+        ],
         sentence: [
             "She",
             "offers",
@@ -2742,6 +3033,9 @@ fiszki10.push(
         desc: "how[hał] - jak",
         sentence2: [
             "how"
+        ],
+                                         sentence2b: [
+            "jak"
         ],
         sentence: [
             "how",
@@ -2776,7 +3070,10 @@ fiszki10.push(
         ],
         desc: "to[tu] - do, ku",
         sentence2: [
-            "to"
+            ""
+        ],
+                                         sentence2b: [
+            ""
         ],
         sentence: [
             "how",
@@ -2805,7 +3102,10 @@ fiszki10.push(
         story: "<u><b>Hel</u></b> to taki gaz w <u><b>p</u></b>owieetrzu, który <u><b>pomaga</u></b> zmienić barwę głosu",
         desc: "help[help] - pomagać",
         sentence2: [
-            "help"
+            "to help"
+        ],
+                                         sentence2b: [
+            "pomóc"
         ],
         sentence: [
             "how",
