@@ -2154,12 +2154,7 @@ $(document).on("click", "#startButton", function () {
     przekazArgument0('all', 'all', '', false, 'fiszki', true, true, tablica3[1], tablica3[4], false, '', '', '', '', '100', '', '', '', true, false, true);
     console.log("✅ Flaga przycisku ustawiona na TRUE");
 });
-  // Pokaż tylko raz
-  window.addEventListener('DOMContentLoaded', () => {
-    if (!localStorage.getItem('adblockMessageClosed')) {
-      document.getElementById('adblockMessage').style.display = 'block';
-    }
-  });
+
 
   function closeAdblockMessage() {
     document.getElementById('adblockMessage').style.display = 'none';
