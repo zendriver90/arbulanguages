@@ -802,6 +802,9 @@ id: [
         sentence1: [
                 "The"
         ],
+                                sentence1b: [
+            "(Ten)"
+        ],
         sentence: [
                 "The",
                 "cat",
@@ -843,6 +846,9 @@ id: [
         sentence2: [
                 "cat"
         ],
+                                        sentence1b: [
+            "kot"
+        ],
         sentence: [
                 "The",
                 "cat",
@@ -871,6 +877,9 @@ id: [
         sentence2: [
                 "runs"
         ],
+                                                sentence1b: [
+            "biega"
+        ],
         sentence: [
                 "The",
                 "cat",
@@ -892,6 +901,9 @@ id: [
         desc: "fast[fast] - szybko",
         sentence2: [
                 "fast"
+        ],
+                                                        sentence1b: [
+            "szybko"
         ],
         sentence: [
                 "The",
@@ -915,6 +927,9 @@ id: [
         sentence2: [
                 "every"
         ],
+                                                        sentence2b: [
+            "każdego"
+        ],
         sentence: [
                 "every",
                 "morning"
@@ -934,6 +949,9 @@ id: [
         desc: "morning[morning] - rano",
         sentence2: [
                 "morning"
+        ],
+                                                                sentence2b: [
+            "poranka"
         ],
         sentence: [
                 "every",
@@ -978,6 +996,9 @@ id: [
         sentence1: [
                 "I"
         ],
+                                                                        sentence1b: [
+            "(Ja)"
+        ],
         sentence: [
                 "I",
                 "need"
@@ -1005,6 +1026,9 @@ id: [
         sentence2: [
                 "need"
         ],
+                                                                                sentence1b: [
+            "potrzebuję"
+        ],
         sentence: [
                 "I",
                 "need"
@@ -1025,6 +1049,9 @@ id: [
         desc: "a new[nju] - nowy/nowa/nowe",
         sentence2: [
                 "a new"
+        ],
+                                                                                        sentence2b: [
+            "(konkretnie) nową"
         ],
         sentence: [
                 "a new",
@@ -1047,6 +1074,9 @@ id: [
         sentence2: [
                 "pair"
         ],
+                                                                                                sentence2b: [
+            "parę"
+        ],
         sentence: [
                 "a new",
                 "pair",
@@ -1067,6 +1097,9 @@ id: [
         desc: "of shoes[of szu] - butów",
         sentence2: [
                 "of shoes"
+        ],
+                                                                                                sentence2b: [
+            "butów"
         ],
         sentence: [
                 "a new",
@@ -1100,6 +1133,9 @@ id: [
         sentence1: [
                 "They"
         ],
+                    sentence1b: [
+            "Oni"
+        ],
         sentence: [
                 "They",
                 "went"
@@ -1119,6 +1155,9 @@ id: [
         desc: "went[łent] - poszedł (zakończone w przeszłości)",
         sentence2: [
                 "went"
+        ],
+                            sentence1b: [
+            "poszli"
         ],
         sentence: [
                 "They",
@@ -1141,6 +1180,9 @@ id: [
         sentence2: [
                 "to the store"
         ],
+                                    sentence2b: [
+            "do sklepu"
+        ],
         sentence: [
                 "to the store",
                 "today"
@@ -1160,6 +1202,9 @@ id: [
         desc: "today[tudej] - dziś",
         sentence2: [
                 "today"
+        ],
+                                    sentence2b: [
+            "dzisiaj"
         ],
         sentence: [
                 "to the store",
@@ -1204,6 +1249,9 @@ id: [
         sentence1: [
                 "Our"
         ],
+                                            sentence1b: [
+            "Nasz"
+        ],
         sentence: [
                 "Our",
                 "teacher"
@@ -1223,6 +1271,9 @@ id: [
         desc: "teacher[ticzer] - nauczyciel",
         sentence1: [
                 "teacher"
+        ],
+                                                    sentence1b: [
+            "nauczyciel"
         ],
         sentence: [
                 "Our",
@@ -1245,6 +1296,9 @@ id: [
         sentence2: [
                 "helps"
         ],
+                                                            sentence2b: [
+            "pomaga"
+        ],
         sentence: [
                 "helps",
                 "us",
@@ -1266,6 +1320,9 @@ id: [
         desc: "us[as] - my, nam",
         sentence2: [
                 "us"
+        ],
+                                                                    sentence2b: [
+            "nam"
         ],
         sentence: [
                 "helps",
@@ -1304,6 +1361,9 @@ id: [
         sentence2: [
                 "with"
         ],
+                                                                    sentence2b: [
+            "z"
+        ],
         sentence: [
                 "helps",
                 "us",
@@ -1325,6 +1385,9 @@ id: [
         desc: "homework[hołmłork] - praca domowa",
         sentence2: [
                 "homework"
+        ],
+                                                                    sentence2b: [
+            "pracą domową"
         ],
         sentence: [
                 "helps",
@@ -1371,6 +1434,9 @@ id: [
         sentence1: [
                 "The"
         ],
+                                                                    sentence1b: [
+            "(Ten)"
+        ],
         sentence: [
                 "The",
                 "dog",
@@ -1391,6 +1457,9 @@ id: [
         desc: "dog[dog] - pies",
         sentence2: [
                 "dog"
+        ],
+                                                                            sentence1b: [
+            "pies"
         ],
         sentence: [
                 "The",
@@ -1413,6 +1482,9 @@ id: [
         desc: "sleeps[slips] - śpi(on, ona, ono)",
         sentence2: [
                 "sleeps"
+        ],
+                                                                                    sentence1b: [
+            "śpi"
         ],
         sentence: [
                 "The",
@@ -1440,6 +1512,9 @@ id: [
         desc: "under[ande(r)] - pod",
         sentence2: [
                 "under"
+        ],
+                                                                                    sentence2b: [
+            "pod"
         ],
         sentence: [
                 "under",
@@ -1475,6 +1550,9 @@ id: [
         sentence2: [
                 "the"
         ],
+                                                                                    sentence2b: [
+            "(tym)"
+        ],
         sentence: [
                 "under",
                 "the",
@@ -1503,6 +1581,9 @@ id: [
         sentence2: [
                 "big"
         ],
+                                                                                    sentence2b: [
+            "dużym"
+        ],
         sentence: [
                 "under",
                 "the",
@@ -1528,6 +1609,9 @@ id: [
         desc: "tree[tri] - drzewo",
         sentence2: [
                 "tree"
+        ],
+                                                                                    sentence2b: [
+            "drzewem"
         ],
         sentence: [
                 "under",

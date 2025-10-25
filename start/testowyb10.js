@@ -45,6 +45,9 @@ const fiszki10 = [
         sentence1b: [
             "Wszyscy"
         ],
+                sentence1c: [
+            "Ewrybody"
+        ],
         sentence: [
             "Everybody",
             "has",
@@ -95,6 +98,9 @@ const fiszki10 = [
                 sentence1b: [
             "mają"
         ],
+                        sentence1c: [
+            "hes"
+        ],
         sentence: [
             "Everybody",
             "has",
@@ -141,6 +147,9 @@ const fiszki10 = [
         ],
                 sentence1b: [
             "ubaw"
+        ],
+                                sentence1c: [
+            "fan"
         ],
         sentence: [
             "Everybody",
@@ -192,6 +201,9 @@ const fiszki10 = [
                 sentence2b: [
             "na"
         ],
+                                        sentence2c: [
+            "at"
+        ],
         sentence: [
             "at",
             "the",
@@ -240,6 +252,9 @@ const fiszki10 = [
                         sentence2b: [
             "(tej)"
         ],
+                                        sentence2c: [
+            "de"
+        ],
         sentence: [
             "at",
             "the",
@@ -285,6 +300,9 @@ const fiszki10 = [
         ],
                         sentence2b: [
             "zabawie"
+        ],
+                                        sentence2c: [
+            "party"
         ],
         sentence: [
             "at",
@@ -344,6 +362,9 @@ const fiszki10 = [
         sentence1b: [
             "On"
         ],
+                        sentence1c: [
+            "Hi"
+        ],
         sentence: [
             "He",
             "is",
@@ -396,6 +417,9 @@ const fiszki10 = [
         sentence1b: [
             "jest"
         ],
+                                sentence1c: [
+            "is"
+        ],
         sentence: [
             "He",
             "is",
@@ -445,6 +469,9 @@ const fiszki10 = [
                                         sentence1b: [
             "posłuszny"
         ],
+                                sentence1c: [
+            "obidient"
+        ],
         sentence: [
             "He",
             "is",
@@ -493,6 +520,9 @@ const fiszki10 = [
                                                 sentence2b: [
             "wobec"
         ],
+                                sentence2c: [
+            "tu"
+        ],
         sentence: [
             "to",
             "scientific",
@@ -539,6 +569,9 @@ const fiszki10 = [
         ],
                                                 sentence2b: [
             "naukowych"
+        ],
+                                        sentence2c: [
+            "sajentifik"
         ],
         sentence: [
             "to",
@@ -587,6 +620,9 @@ const fiszki10 = [
                                                 sentence2b: [
             "procedur"
         ],
+                                                sentence2c: [
+            "prosidzers"
+        ],
         sentence: [
             "to",
             "scientific",
@@ -633,6 +669,9 @@ const fiszki10 = [
         ],
                                                 sentence1b: [
             "Bądź"
+        ],
+                                                        sentence1c: [
+            "Bi"
         ],
         sentence: [
             "Be",
@@ -685,6 +724,9 @@ const fiszki10 = [
                                                         sentence1b: [
             "bardziej"
         ],
+                                                                sentence1c: [
+            "mor"
+        ],
         sentence: [
             "Be",
             "more",
@@ -731,6 +773,9 @@ const fiszki10 = [
         ],
                                                         sentence1b: [
             "obecny"
+        ],
+                                                                sentence1c: [
+            "prezent"
         ],
         sentence: [
             "Be",
@@ -785,6 +830,9 @@ const fiszki10 = [
                                                         sentence2b: [
             "wobec"
         ],
+                                                                sentence2c: [
+            "łiz"
+        ],
         sentence: [
             "with",
             "your",
@@ -833,6 +881,9 @@ const fiszki10 = [
                                                         sentence2b: [
             "Twoich"
         ],
+                                                                sentence2c: [
+            "jor"
+        ],
         sentence: [
             "with",
             "your",
@@ -880,6 +931,9 @@ const fiszki10 = [
         ],
                                                                 sentence2b: [
             "emocji"
+        ],
+                                                                sentence2c: [
+            "imołszyns"
         ],
         sentence: [
             "with",
@@ -3771,7 +3825,6 @@ const fiszki10 = [
     }                           
 ];
 
-
 function addToTrainingList(idFiszki) {
     // dodaj do local storage do treningu
     addFiszkaToLesson(idFiszki);
@@ -3781,19 +3834,19 @@ function activateFiszka(idFiszki, znam) {
     let parametr = '';
 
     if (Array.isArray(idFiszki)) {
-        // Połącz wartości z tablicy id w jeden ciąg znaków oddzielony przecinkami
+        // PoĹÄcz wartoĹci z tablicy id w jeden ciÄg znakĂłw oddzielony przecinkami
         id = idFiszki.slice(0, 3).join(',');
-        // Obsługa ewentualnego dodatkowego parametru (np. czwartego elementu w tablicy)
+        // ObsĹuga ewentualnego dodatkowego parametru (np. czwartego elementu w tablicy)
         parametr = idFiszki.length > 3 ? idFiszki[3] : '';
     }
 
-    // Tworzenie klasy CSS z odpowiednim formatowaniem (poprawione usunięcie przecinków w CSS)
+    // Tworzenie klasy CSS z odpowiednim formatowaniem (poprawione usuniÄcie przecinkĂłw w CSS)
     const className = `fiszka-${id}${parametr ? '\\,' + parametr : ''}`;
     const selector = `.${className.replace(/,/g, '\\,')}`;
     console.log(selector);
 
     if (znam) {
-        // Zapisz klasę 'active' lub zmień z 'active2' na 'active'
+        // Zapisz klasÄ 'active' lub zmieĹ z 'active2' na 'active'
         if ($(selector).hasClass('active2')) {
             $(selector).removeClass('active2').addClass('active');
             updateLearnedClass(className, 'active');
@@ -3804,7 +3857,7 @@ function activateFiszka(idFiszki, znam) {
         setAsLearned(id);
         console.log(`Set fiszka with ID ${id} as learned.`);
     } else {
-        // Zapisz klasę 'active2' lub usuń 'active'
+        // Zapisz klasÄ 'active2' lub usuĹ 'active'
         $(selector).removeClass('active').addClass('active2');
         saveLearnedClass(className, 'active2');
         addToTrainingList(id);
@@ -3821,7 +3874,7 @@ function saveLearnedClass(className, classToAdd) {
     const existingEntryIndex = learnedClasses.findIndex(entry => entry.className === className);
 
     if (existingEntryIndex !== -1) {
-        // Jeśli już istnieje, zaktualizuj klasę
+        // JeĹli juĹź istnieje, zaktualizuj klasÄ
         learnedClasses[existingEntryIndex].classToAdd = classToAdd;
     } else {
         // W przeciwnym razie dodaj nowy wpis
@@ -3838,7 +3891,7 @@ function updateLearnedClass(className, classToUpdate) {
     const existingEntryIndex = learnedClasses.findIndex(entry => entry.className === className);
 
     if (existingEntryIndex !== -1) {
-        // Jeśli już istnieje, zaktualizuj klasę
+        // JeĹli juĹź istnieje, zaktualizuj klasÄ
         learnedClasses[existingEntryIndex].classToAdd = classToUpdate;
         localStorage.setItem('ColorClass', JSON.stringify(learnedClasses));
         console.log('ColorClass', learnedClasses);
@@ -3851,7 +3904,7 @@ function getLearned2() {
     return storedColorClass ? JSON.parse(storedColorClass) : [];
 }
 
-// Wywołanie klas po odświeżeniu strony
+// WywoĹanie klas po odĹwieĹźeniu strony
 $(document).ready(function () {
     const learnedClasses = getLearned2();
     learnedClasses.forEach(function (entry) {
@@ -3872,14 +3925,14 @@ function loadFromLocalStorage() {
 }
 
 
-// Sprawdzanie zawartości lessons2b po załadowaniu danych
+// Sprawdzanie zawartoĹci lessons2b po zaĹadowaniu danych
 function printLessons2b() {
     console.log('hej555', lessons2b[2]);
 }
 
-// Wywołaj tę funkcję, gdy masz pewność, że dane zostały załadowane
+// WywoĹaj tÄ funkcjÄ, gdy masz pewnoĹÄ, Ĺźe dane zostaĹy zaĹadowane
 document.addEventListener('DOMContentLoaded', function () {
-    setTimeout(printLessons2b, 2000);  // Opóźnienie dla pewności
+    setTimeout(printLessons2b, 2000);  // OpĂłĹşnienie dla pewnoĹci
 });
 
 function generateFiszkaBlock(fiszka, lessonId2) {
@@ -3897,21 +3950,21 @@ function generateFiszkaBlock(fiszka, lessonId2) {
 
             var music = document.getElementById(audioId);
             var pButton = document.getElementById(pButtonId);
-            // Dodajemy style bezpośrednio w kodzie JavaScript
+            // Dodajemy style bezpoĹrednio w kodzie JavaScript
             if (window.matchMedia("(max-width: 999px)").matches) {
-                pButton.style.height = '100px';  // Zwiększenie wysokości
-                pButton.style.width = '100px';   // Zwiększenie szerokości
+                pButton.style.height = '100px';  // ZwiÄkszenie wysokoĹci
+                pButton.style.width = '100px';   // ZwiÄkszenie szerokoĹci
             } else {
-                pButton.style.height = '60px';  // Zwiększenie wysokości
-                pButton.style.width = '60px';   // Zwiększenie szerokości
+                pButton.style.height = '60px';  // ZwiÄkszenie wysokoĹci
+                pButton.style.width = '60px';   // ZwiÄkszenie szerokoĹci
             }
-            pButton.style.border = 'none';   // Usunięcie ramki
-            pButton.style.backgroundSize = '80%';  // Rozmiar obrazka tła
+            pButton.style.border = 'none';   // UsuniÄcie ramki
+            pButton.style.backgroundSize = '80%';  // Rozmiar obrazka tĹa
             pButton.style.backgroundRepeat = 'no-repeat';
             pButton.style.backgroundPosition = 'center';
-            pButton.style.borderRadius = '8px';   // Zaokrąglenie rogów
-            pButton.style.outline = 'none';       // Usunięcie obramowania
-            pButton.style.display = 'flex';       // Wyśrodkowanie zawartości
+            pButton.style.borderRadius = '8px';   // ZaokrÄglenie rogĂłw
+            pButton.style.outline = 'none';       // UsuniÄcie obramowania
+            pButton.style.display = 'flex';       // WyĹrodkowanie zawartoĹci
             pButton.style.alignItems = 'center';
             pButton.style.justifyContent = 'center';
             pButton.style.overflow = 'hidden';    // Ukrycie nadmiarowego kontentu
@@ -3963,7 +4016,7 @@ console.log('Hej4442', fiszkaContainer);
                 }
             });
         } else if (typeof fiszka.img === 'string') {
-            // Jeśli jest tylko jedno zdjęcie, dodajemy je do imgContainer dla każdej fiszki
+            // JeĹli jest tylko jedno zdjÄcie, dodajemy je do imgContainer dla kaĹźdej fiszki
             const imgElement = $('<img class="fiszka_img">').attr('src', fiszka.img);
             imgContainer.append(imgElement);
         }
@@ -3972,13 +4025,13 @@ console.log('Hej4442', fiszkaContainer);
         const selectedLikes = [];
         console.log('hej10', selectedLikes);
 
-// Funkcja do obsługi kliknięcia na przycisk "likeButton"
+// Funkcja do obsĹugi klikniÄcia na przycisk "likeButton"
         function handleLikeButtonClick(index) {
             const likeButton = $(this);
             const storyButton = fiszkaContainer.find('.story_button').eq(index);
             const selectedLike = likeButton.text();
             console.log('Zaktualizowano przycisk dla indeksu:', index);
-            console.log('Aktualne wartości selectedLikes:', selectedLikes);
+            console.log('Aktualne wartoĹci selectedLikes:', selectedLikes);
         }
         const likeButton = $('<a>').addClass('like').attr('href', '#');
         const likeText = $('<span>').text('Śmieszna historia');
@@ -3987,9 +4040,9 @@ console.log('Hej4442', fiszkaContainer);
 
         // Tworzymy kontener opcji "like" i dodajemy opcje do kontenera
         const likeOptionsContainer = $('<div>').attr('id', 'likeOptionsContainer');
-        const likeOption1 = createLikeOption('thumbsUp', '👍 Śmieszne');
-        const likeOption2 = createLikeOption('heart', '❤️ Miłe');
-        const likeOption3 = createLikeOption('star', '⭐ Pamiętliwe');
+        const likeOption1 = createLikeOption('thumbsUp', 'đ Ĺmieszne');
+        const likeOption2 = createLikeOption('heart', 'â¤ď¸ MiĹe');
+        const likeOption3 = createLikeOption('star', 'â­ PamiÄtliwe');
         likeOptionsContainer.append(likeOption1, likeOption2, likeOption3);
 
         // Dodajemy kontener opcji "like" do docelowego kontenera
@@ -3998,7 +4051,7 @@ console.log('Hej4442', fiszkaContainer);
         // Ukrywamy kontener opcji "like"
         likeOptionsContainer.hide();
 
-        // Obsługa zdarzenia hover na przycisku "like"
+        // ObsĹuga zdarzenia hover na przycisku "like"
         likeButton.hover(function () {
             const buttonPosition = likeButton.offset();
             const buttonWidth = likeButton.outerWidth();
@@ -4007,7 +4060,7 @@ console.log('Hej4442', fiszkaContainer);
             likeOptionsContainer.css({
                 top: buttonPosition.top - likeOptionsContainer.outerHeight() - 10,
                 left: buttonPosition.left + (buttonWidth / 2) - (likeOptionsContainer.outerWidth() / 2),
-                backgroundColor: '#f0f0f0', // Dodajemy szary kolor tła
+                backgroundColor: '#f0f0f0', // Dodajemy szary kolor tĹa
             }).fadeIn('fast');
         }, function () {
             // Ukrywamy kontener opcji "like" po zjechaniu z przycisku
@@ -4022,36 +4075,36 @@ console.log('Hej4442', fiszkaContainer);
                 return;
             }
 
-            // Tworzymy kontener dla ikony i dodajemy ikonę
+            // Tworzymy kontener dla ikony i dodajemy ikonÄ
             const iconContainer = $('<div>').addClass('likeIconContainer');
             const likeIcon = getLikeIcon(like);
             iconContainer.append(likeIcon);
 
-            // Usuwamy wcześniej dodaną ikonę, jeśli istnieje
+            // Usuwamy wczeĹniej dodanÄ ikonÄ, jeĹli istnieje
             storyButton.find('.likeIconContainer').remove();
 
-            // Dodajemy kontener z ikoną do przycisku "story_button"
+            // Dodajemy kontener z ikonÄ do przycisku "story_button"
             storyButton.append(iconContainer);
         }
 
         function createLikeOption(like, text) {
             const likeOption = $('<div>').addClass('likeOption').attr('data-like', like).text(text);
 
-            // Dodajemy efekt zmiany koloru na lekko ciemniejszy szary po najechaniu myszką na pojedynczą opcję "like"
+            // Dodajemy efekt zmiany koloru na lekko ciemniejszy szary po najechaniu myszkÄ na pojedynczÄ opcjÄ "like"
             likeOption.hover(
                     function () {
-                        likeOption.css('background-color', '#dcdcdc'); // Lekko ciemniejszy szary kolor tła dla opcji "like"
+                        likeOption.css('background-color', '#dcdcdc'); // Lekko ciemniejszy szary kolor tĹa dla opcji "like"
                     },
                     function () {
-                        likeOption.css('background-color', ''); // Usuwamy styl, aby wrócić do domyślnego tła opcji "like"
+                        likeOption.css('background-color', ''); // Usuwamy styl, aby wrĂłciÄ do domyĹlnego tĹa opcji "like"
                     }
             );
 
-            let likeCounter = 0; // Dodajemy licznik polubień dla każdej opcji "like"
+            let likeCounter = 0; // Dodajemy licznik polubieĹ dla kaĹźdej opcji "like"
 
             const counterDiv = $('<div>').addClass('likeCounterDiv'); // Nowy div na licznik
 
-            // Dodajemy ikonę do licznika
+            // Dodajemy ikonÄ do licznika
             const likeIcon = getLikeIcon(like);
             const iconContainer = $('<span>').addClass('likeIconContainer').append(likeIcon);
             counterDiv.append(iconContainer);
@@ -4059,12 +4112,12 @@ console.log('Hej4442', fiszkaContainer);
             const likeCounterSpan = $('<span>').addClass('likeCounter').text(` ${likeCounter} `);
             counterDiv.append(likeCounterSpan); // Licznik jest dodany po ikonie
 
-            imgContainer.append(counterDiv); // Dodajemy licznik na zewnątrz kontenera przycisków
+            imgContainer.append(counterDiv); // Dodajemy licznik na zewnÄtrz kontenera przyciskĂłw
 
             likeOption.click(function (event) {
-                event.preventDefault(); // Zapobiegamy domyślnej akcji przycisku
+                event.preventDefault(); // Zapobiegamy domyĹlnej akcji przycisku
 
-                // Inkrementujemy licznik polubień za każdym razem, gdy opcja "like" zostanie wybrana
+                // Inkrementujemy licznik polubieĹ za kaĹźdym razem, gdy opcja "like" zostanie wybrana
                 likeCounter++;
                 likeCounterSpan.text(` ${likeCounter} `);
 
@@ -4072,20 +4125,20 @@ console.log('Hej4442', fiszkaContainer);
                 const selectedIcon = getLikeIcon(selectedLike);
                 likeText.text(text);
                 likeButton.removeClass('liked');
-                addLikeIconToStoryButton(lastClickedIndex, selectedLike); // Dodaj ikonę do story_button na podstawie wybranej opcji "like"
+                addLikeIconToStoryButton(lastClickedIndex, selectedLike); // Dodaj ikonÄ do story_button na podstawie wybranej opcji "like"
 
-                // Sprawdź, czy index już istnieje w tablicy
+                // SprawdĹş, czy index juĹź istnieje w tablicy
                 const existingIndex = selectedLikes.findIndex(item => item.index === lastClickedIndex);
                 if (existingIndex !== -1) {
-                    // Jeśli index istnieje, zaktualizuj wartość
+                    // JeĹli index istnieje, zaktualizuj wartoĹÄ
                     selectedLikes[existingIndex].like = selectedLike;
                 } else {
-                    // Jeśli index nie istnieje, dodaj nowy wpis
-                    selectedLikes.push({index: lastClickedIndex, like: text}); // Dodaj tylko nazwę "like"
+                    // JeĹli index nie istnieje, dodaj nowy wpis
+                    selectedLikes.push({index: lastClickedIndex, like: text}); // Dodaj tylko nazwÄ "like"
                 }
 
                 likeOptionsContainer.fadeOut('fast');
-                saveSelectedLike(selectedLike, text); // Przekazujemy nazwę "like" i tekst do funkcji saveSelectedLike
+                saveSelectedLike(selectedLike, text); // Przekazujemy nazwÄ "like" i tekst do funkcji saveSelectedLike
             });
 
             return likeOption;
@@ -4093,10 +4146,10 @@ console.log('Hej4442', fiszkaContainer);
 
 // Funkcja do zapisywania wybranego "like"
         function saveSelectedLike(selectedLike, text) {
-            // Tutaj możesz zapisać wybrany "like" w odpowiednim kontekście, np. wysłać go na serwer, zapisać w lokalnym magazynie itp.
+            // Tutaj moĹźesz zapisaÄ wybrany "like" w odpowiednim kontekĹcie, np. wysĹaÄ go na serwer, zapisaÄ w lokalnym magazynie itp.
             console.log('Wybrany like:', text);
             console.log('Tekst:', text);
-            // Jeśli chcesz użyć go w innych miejscach, możesz przekazać go jako argument do innych funkcji lub zmiennych.
+            // JeĹli chcesz uĹźyÄ go w innych miejscach, moĹźesz przekazaÄ go jako argument do innych funkcji lub zmiennych.
         }
 
         // Funkcja do pobierania ikony dla wybranego "like"
@@ -4104,16 +4157,16 @@ console.log('Hej4442', fiszkaContainer);
             let icon;
             switch (like) {
                 case 'thumbsUp':
-                    icon = $('<span class="likeIcon">👍</span>');
+                    icon = $('<span class="likeIcon">đ</span>');
                     break;
                 case 'heart':
-                    icon = $('<span class="likeIcon">❤️</span>');
+                    icon = $('<span class="likeIcon">â¤ď¸</span>');
                     break;
                 case 'star':
-                    icon = $('<span class="likeIcon">⭐</span>');
+                    icon = $('<span class="likeIcon">â­</span>');
                     break;
                 default:
-                    icon = $('<span class="likeIcon">👍</span>');
+                    icon = $('<span class="likeIcon">đ</span>');
             }
             return icon;
         }
@@ -4127,7 +4180,7 @@ console.log('Hej4442', fiszkaContainer);
             // Ukrywamy wszystkie historie w tej konkretnej fiszce
             currentFiszka.find('.fiszka_story').hide();
 
-            // Obsługa mnemoniki
+            // ObsĹuga mnemoniki
             if (Array.isArray(fiszka.story)) {
                 if (index >= 0 && index < fiszka.story.length) {
                     currentFiszka.find('.story-' + index).show();
@@ -4139,7 +4192,7 @@ console.log('Hej4442', fiszkaContainer);
             // Ukrywamy wszystkie obrazy
             currentFiszka.find('.fiszka_img').hide();
 
-            // Obsługa obrazów
+            // ObsĹuga obrazĂłw
             let imgIndex; // Zmienna do przechowywania indeksu obrazka
 
             if (Array.isArray(fiszka.img)) {
@@ -4148,7 +4201,7 @@ console.log('Hej4442', fiszkaContainer);
                 specificLesson2Ref = fiszka.img[imgIndex];
                 console.log("Index obrazka:", imgIndex);
             } else {
-                imgIndex = 0; // Ustawienie imgIndex na 0, gdy fiszka.img nie jest tablicą
+                imgIndex = 0; // Ustawienie imgIndex na 0, gdy fiszka.img nie jest tablicÄ
                 currentFiszka.find('.fiszka_img').eq(imgIndex).show();
                 specificLesson2Ref = fiszka.img;
                 console.log("Index obrazka:", imgIndex);
@@ -4156,7 +4209,7 @@ console.log('Hej4442', fiszkaContainer);
 
             lastClickedIndex = index;
 
-            // Obsługa hashtagów
+            // ObsĹuga hashtagĂłw
             const selectedCategoryIndex = index * 2;
             const value = fiszka.category1[selectedCategoryIndex];
             const hashtag = fiszka.category1[selectedCategoryIndex + 1];
@@ -4170,7 +4223,7 @@ console.log('Hej4442', fiszkaContainer);
         }
 
         function selectLikeButton(index) {
-            console.log("Wybór likeButton dla indeksu:", index);
+            console.log("WybĂłr likeButton dla indeksu:", index);
             const storyButton = $('.story_button').eq(index);
             if (!storyButton.length) {
                 console.error('Nie znaleziono przycisku dla indeksu:', index);
@@ -4181,21 +4234,21 @@ console.log('Hej4442', fiszkaContainer);
             likeText.find('span').remove();
             likeText.text('Śmieszna historia');
 
-            // Sprawdź, czy index jest zawarty w tablicy selectedLikes
+            // SprawdĹş, czy index jest zawarty w tablicy selectedLikes
             const selectedLike = selectedLikes.find(item => item.index === index);
             if (selectedLike) {
-                // Jeśli index istnieje w tablicy, ustaw ikonę przycisku na wartość z tablicy
+                // JeĹli index istnieje w tablicy, ustaw ikonÄ przycisku na wartoĹÄ z tablicy
                 console.log("Wybrano like dla indeksu:", index, "- Like:", selectedLike.like);
-                const selectedIcon = getLikeIcon(selectedLike.like); // Przekazujemy tylko nazwę ikony
+                const selectedIcon = getLikeIcon(selectedLike.like); // Przekazujemy tylko nazwÄ ikony
                 console.log('hej5', selectedIcon);
-                likeText.html(selectedLike.like); // Ustawiamy ikonę
+                likeText.html(selectedLike.like); // Ustawiamy ikonÄ
             } else {
-                // Jeśli index nie istnieje, ustaw domyślny tekst
-                console.log("Brak wyboru like dla indeksu:", index, "- Ustawianie domyślnego tekstu");
+                // JeĹli index nie istnieje, ustaw domyĹlny tekst
+                console.log("Brak wyboru like dla indeksu:", index, "- Ustawianie domyĹlnego tekstu");
                 likeButton.text('Śmieszna historia');
             }
         }
-        // NIEZNACZĄCE WYJAŚNIENIE SŁOWA
+        // NIEZNACZÄCE WYJAĹNIENIE SĹOWA
         const sentenceDiv = $('<div>').attr('id', 'part');
         fiszka.sentence.forEach(word => {
             sentenceDiv.append($('<button>').text(word));
@@ -4212,7 +4265,7 @@ console.log('Hej4442', fiszkaContainer);
         });
         const source = $('<source>').attr('src', fiszka.word);
         audio.append(source);
-        const audioplayerDiv = $('<div>').attr('id', 'audioplayer' + fiszka.id).addClass('audioplayer'); // Dodano klasę 'audioplayer'
+        const audioplayerDiv = $('<div>').attr('id', 'audioplayer' + fiszka.id).addClass('audioplayer'); // Dodano klasÄ 'audioplayer'
         const pButton = $('<button>').attr('id', 'pButton' + fiszka.id).addClass('pButton play').click(function () {
             console.log('playb called for fiszka.id:', fiszka.id);
             window['playb' + fiszka.id]();
@@ -4241,21 +4294,21 @@ console.log('Hej4442', fiszkaContainer);
 
 // DODANIE MNEMOTECHNIKI
         if (Array.isArray(fiszka.story)) {
-            // Jeśli story jest tablicą, iterujemy przez wszystkie jej elementy
+            // JeĹli story jest tablicÄ, iterujemy przez wszystkie jej elementy
             fiszka.story.forEach((story, index) => {
                 const storyContainer = $('<div>').addClass('fiszka_story story-' + index).html(story);
                 fiszkaContainer.append(storyContainer);
                 console.log("Dodano story: ", story);  // Debugowanie
             });
         } else if (fiszka.story) {
-            // Jeśli story jest pojedynczym stringiem, dodajemy go bezpośrednio
+            // JeĹli story jest pojedynczym stringiem, dodajemy go bezpoĹrednio
             const storyContainer = $('<div>').addClass('fiszka_story story-0').html(fiszka.story);
             fiszkaContainer.append(storyContainer);
             console.log("Dodano story: ", fiszka.story);  // Debugowanie
         }
         console.log('Przed utworzeniem wordDiv');
 
-// Utworzenie reszty elementów zgodnie z istniejącym kodem
+// Utworzenie reszty elementĂłw zgodnie z istniejÄcym kodem
         const wordDiv2 = $('<div>').attr('id', 'word2');
         const audio2 = $('<audio>').attr({
             id: 'music2' + fiszka.id,
@@ -4263,20 +4316,20 @@ console.log('Hej4442', fiszkaContainer);
         });
         const source2 = $('<source>').attr('src', fiszka.word);
         audio2.append(source2);
-        const audioplayerDiv2 = $('<div>').attr('id', 'audioplayer2' + fiszka.id).addClass('audioplayer2'); // Dodano klasę 'audioplayer'
+        const audioplayerDiv2 = $('<div>').attr('id', 'audioplayer2' + fiszka.id).addClass('audioplayer2'); // Dodano klasÄ 'audioplayer'
         const pButton2 = $('<button>').attr('id', 'pButton2' + fiszka.id).addClass('pButton play').click(function () {
             console.log('playb called for fiszka.id:', fiszka.id);
             window['playb' + fiszka.id]();
         });
 
-// Utworzenie elementów za pomocą jQuery
+// Utworzenie elementĂłw za pomocÄ jQuery
         const timelineDiv = $('<div>').attr('id', 'timeline' + fiszka.id);
         const playheadDiv = $('<div>').attr('id', 'playhead' + fiszka.id);
 
 // Dodanie playhead do timeline
         timelineDiv.append(playheadDiv);
 
-// Dodanie elementów do odpowiednich kontenerów
+// Dodanie elementĂłw do odpowiednich kontenerĂłw
         audioplayerDiv.append(pButton2);
         wordDiv2.append(audio2);
         wordDiv2.append(audioplayerDiv2);
@@ -4284,22 +4337,22 @@ console.log('Hej4442', fiszkaContainer);
         fiszkaContainer.append(wordDiv2);
 
         console.log('Po utworzeniu wordDiv');
-        // Zdefiniuj zmienną początkową na poziomie wyższym
+        // Zdefiniuj zmiennÄ poczÄtkowÄ na poziomie wyĹźszym
         let initialSpecificLesson2Ref;
         let specificLesson2Ref;
         let lastClickedIndex = null;
         let lastApprovedIndex = null; // Zmienna do przechowywania ostatnio zatwierdzonego indeksu
-        let approvedIndexes = []; // Tablica przechowująca zatwierdzone indeksy
+        let approvedIndexes = []; // Tablica przechowujÄca zatwierdzone indeksy
         let approvedColors = [];
 
-// DODANIE PRZYCISKÓW
+// DODANIE PRZYCISKĂW
         if (Array.isArray(fiszka.category1)) {
             const storyButtonContainer = $('<div>'); // Kontener na przyciski
             const randomIndex = Math.floor(Math.random() * fiszka.category1.length / 2);
-            let lastClickedButton; // Zmienna do przechowywania ostatnio klikniętego przycisku w danej fiszce
+            let lastClickedButton; // Zmienna do przechowywania ostatnio klikniÄtego przycisku w danej fiszce
 
             fiszka.category1.slice(0, 5).forEach((category1, index) => {
-                const valueIndex = index * 2; // Indeks wartości w tablicy, zaczynając od 0
+                const valueIndex = index * 2; // Indeks wartoĹci w tablicy, zaczynajÄc od 0
                 const hashtagIndex = valueIndex + 1; // Indeks hashtagu w tablicy
 
                 const value = fiszka.category1[valueIndex];
@@ -4314,17 +4367,17 @@ console.log('Hej4442', fiszkaContainer);
                             showStory(index);
                             lastClickedIndex = index;
 
-                            // Usuwamy zieloną klasę tylko z poprzedniego przycisku w danej fiszce
+                            // Usuwamy zielonÄ klasÄ tylko z poprzedniego przycisku w danej fiszce
                             if (lastClickedButton) {
                                 lastClickedButton.removeClass('green-button');
                             }
 
-                            // Usuwamy klasę imgIndex z poprzedniego przycisku w danej fiszce
+                            // Usuwamy klasÄ imgIndex z poprzedniego przycisku w danej fiszce
                             $('.story_button').removeClass((index, className) => (className.match(/imgIndex-\d+/g) || []).join(' '));
-                            // Dodajemy klasę imgIndexNull do przycisków, które nie zostały jeszcze zatwierdzone
+                            // Dodajemy klasÄ imgIndexNull do przyciskĂłw, ktĂłre nie zostaĹy jeszcze zatwierdzone
                             $('.fiszka').addClass('imgIndexNull').removeClass('imgIndex-0 imgIndex-1 imgIndex-2 imgIndex-3 imgIndex-4 ');
 
-                            // Dodajemy zieloną klasę tylko dla aktualnie klikniętego przycisku w danej fiszce
+                            // Dodajemy zielonÄ klasÄ tylko dla aktualnie klikniÄtego przycisku w danej fiszce
                             $(this).addClass('green-button');
                             $('.story_button').removeClass('active-button');
                             $(this).addClass('active-button');
@@ -4335,25 +4388,25 @@ console.log('Hej4442', fiszkaContainer);
                                 }
                             });
 
-                            // Jeśli przycisk został wcześniej zatwierdzony, przywróć jego zatwierdzoną klasę
+                            // JeĹli przycisk zostaĹ wczeĹniej zatwierdzony, przywrĂłÄ jego zatwierdzonÄ klasÄ
                             if (approvedIndexes.includes(lastClickedIndex)) {
                                 fiszkaContainer.addClass('imgIndex-' + lastClickedIndex);
                             }
 
-                            // Zapisujemy ostatnio kliknięty przycisk w danej fiszce
+                            // Zapisujemy ostatnio klikniÄty przycisk w danej fiszce
                             lastClickedButton = $(this);
                             handleLikeButtonClick();
                         });
 
                 if (index === randomIndex) {
-                    // Sprawdzamy, czy fiszka.img jest tablicą czy pojedynczą wartością
+                    // Sprawdzamy, czy fiszka.img jest tablicÄ czy pojedynczÄ wartoĹciÄ
                     if (Array.isArray(fiszka.img)) {
                         newImgIndex = Math.min(index, fiszka.img.length - 1); // Aktualizacja zmiennej globalnej imgIndex
                         specificLesson2Ref = fiszka.img[newImgIndex];
                         console.log('hej432', specificLesson2Ref);
                     } else if (fiszka.img) {
-                        newImgIndex = 0; // Przypisanie domyślnego indeksu dla pojedynczego obrazka
-                        specificLesson2Ref = fiszka.img; // Przypisanie pojedynczej wartości do specificLesson2Ref
+                        newImgIndex = 0; // Przypisanie domyĹlnego indeksu dla pojedynczego obrazka
+                        specificLesson2Ref = fiszka.img; // Przypisanie pojedynczej wartoĹci do specificLesson2Ref
                         console.log('hej432', specificLesson2Ref);
                     }
                     initialSpecificLesson2Ref = specificLesson2Ref;
@@ -4369,30 +4422,30 @@ console.log('Hej4442', fiszkaContainer);
 
             fiszkaContainer.append(storyButtonContainer);
 
-            // WYWOŁANIE TABLICY
+            // WYWOĹANIE TABLICY
             showStory(randomIndex);
             console.log(randomIndex);
 
-            // Użycie specificLesson2Ref po załadowaniu strony
-            console.log("Początkowy specificLesson2Ref:", initialSpecificLesson2Ref);
+            // UĹźycie specificLesson2Ref po zaĹadowaniu strony
+            console.log("PoczÄtkowy specificLesson2Ref:", initialSpecificLesson2Ref);
 
         } else if (fiszka.category1) {
-            // Jeśli fiszka.category1 nie jest tablicą
-            newImgIndex = 0; // Przypisanie domyślnego indeksu dla pojedynczego obrazka
-            specificLesson2Ref = fiszka.img; // Przypisanie pojedynczej wartości do specificLesson2Ref
+            // JeĹli fiszka.category1 nie jest tablicÄ
+            newImgIndex = 0; // Przypisanie domyĹlnego indeksu dla pojedynczego obrazka
+            specificLesson2Ref = fiszka.img; // Przypisanie pojedynczej wartoĹci do specificLesson2Ref
             initialSpecificLesson2Ref = specificLesson2Ref;
             console.log('Hej7', specificLesson2Ref);
 
-            // Stwórz pojedynczy przycisk dla pojedynczej wartości category1
+            // StwĂłrz pojedynczy przycisk dla pojedynczej wartoĹci category1
             const displayText = `${fiszka.category1} #${fiszka.category1}`;
             const storyButton = $('<button>')
                     .text(displayText)
-                    .addClass('story_button2 green-button') // Od razu przypisz zieloną klasę
+                    .addClass('story_button2 green-button') // Od razu przypisz zielonÄ klasÄ
                     .click(function () {
-                        showStory(0); // Przekazujemy 0 jako indeks, ponieważ jest to pojedyncza wartość
+                        showStory(0); // Przekazujemy 0 jako indeks, poniewaĹź jest to pojedyncza wartoĹÄ
                         lastClickedIndex = 0;
 
-                        // Zapisujemy ostatnio kliknięty przycisk
+                        // Zapisujemy ostatnio klikniÄty przycisk
                         lastClickedButton = $(this);
                         handleLikeButtonClick();
                     });
@@ -4401,12 +4454,12 @@ console.log('Hej4442', fiszkaContainer);
             lastClickedButton = storyButton;
             lastApprovedIndex = 0; // Ustaw ostatnio zatwierdzony indeks na 0
 
-            // WYWOŁANIE POJEDYNCZEJ HISTORII
+            // WYWOĹANIE POJEDYNCZEJ HISTORII
             showStory(0);
-            console.log("Pojedyncza wartość dla category1, specificLesson2Ref:", specificLesson2Ref);
+            console.log("Pojedyncza wartoĹÄ dla category1, specificLesson2Ref:", specificLesson2Ref);
         }
         $('.fiszka_button_trening').click(function () {
-            // Dodaj klasę pomarańczową tylko dla przycisku zatwierdzonego
+            // Dodaj klasÄ pomaraĹczowÄ tylko dla przycisku zatwierdzonego
             $('.story_button').each(function (index) {
                 if ($(this).hasClass('green-button')) {
                     $(this).removeClass('green-button');
@@ -4423,10 +4476,10 @@ console.log('Hej4442', fiszkaContainer);
             let id = fiszka.id;
             let parametr = '';
 
-            // Sprawdzenie, czy idFiszki jest tablicą
+            // Sprawdzenie, czy idFiszki jest tablicÄ
             if (Array.isArray(fiszka.id)) {
                 id = fiszka.id[0];         // Pierwszy element tablicy jako id
-                parametr = fiszka.id[1] || ''; // Drugi element tablicy jako parametr, jeśli istnieje
+                parametr = fiszka.id[1] || ''; // Drugi element tablicy jako parametr, jeĹli istnieje
             }
 
             // Tworzenie selektora na podstawie id i parametru
@@ -4434,21 +4487,21 @@ console.log('Hej4442', fiszkaContainer);
             const selector = `.${className}`;
             console.log('hej201', parametr);
             let first = false;
-            // Jeśli parametr jest równy lessons2b[0], uruchom aktywujObrazek
+            // JeĹli parametr jest rĂłwny lessons2b[0], uruchom aktywujObrazek
             if (parametr === lessons2b[0]) {
                 first = true;
                 console.log('hej200', first);
 
             }
             let second = false;
-            // Jeśli parametr jest równy lessons2b[0], uruchom aktywujObrazek
+            // JeĹli parametr jest rĂłwny lessons2b[0], uruchom aktywujObrazek
             if (parametr === lessons2b[1]) {
                 second = true;
                 console.log('hej200', second);
 
             }
             let third = false;
-            // Jeśli parametr jest równy lessons2b[0], uruchom aktywujObrazek
+            // JeĹli parametr jest rĂłwny lessons2b[0], uruchom aktywujObrazek
             if (parametr === lessons2b[2]) {
                 third = true;
                 console.log('hej200', third);
@@ -4458,21 +4511,21 @@ console.log('Hej4442', fiszkaContainer);
             console.log("Trening clicked on fiszka nr " + fiszka.id);
             console.log("lessonId2:", lessonId2);
             console.log("nazwa", lessons2b[2]);
-            // Wyswietlenie danej wartości img dla danej fiszka.id
+            // Wyswietlenie danej wartoĹci img dla danej fiszka.id
             const specificLesson2 = specificLesson2Ref || initialSpecificLesson2Ref;
             console.log("img dla fiszki o id", fiszka.id, ":", specificLesson2);
             specificLesson2Ref = fiszka.img;
-            // Znajdź indeks dla danej fiszki w tablicy lessons2[lessonId2]
+            // ZnajdĹş indeks dla danej fiszki w tablicy lessons2[lessonId2]
             console.log('story55', specificLesson2Ref);
-            // Używamy lastClickedIndex zamiast index
-            imgIndex = showStory(lastClickedIndex); // Wywołanie funkcji showStory i zapisanie zwróconego indeksu obrazka
-            console.log('działa', specificLesson2Ref);
+            // UĹźywamy lastClickedIndex zamiast index
+            imgIndex = showStory(lastClickedIndex); // WywoĹanie funkcji showStory i zapisanie zwrĂłconego indeksu obrazka
+            console.log('dziaĹa', specificLesson2Ref);
             aktywujObrazek(first, second, third, specificLesson2, 'obrazek-container2b', true, fiszka, imgIndex); // Przekazanie imgIndex do funkcji aktywujObrazek
             // Dodajemy zatwierdzony indeks do tablicy
             approvedIndexes.push(lastClickedIndex);
             console.log(approvedIndexes);
 
-            // Dodanie zatwierdzonej klasy imgIndex do fiszkaContainer po kliknięciu przycisku "TRENING"
+            // Dodanie zatwierdzonej klasy imgIndex do fiszkaContainer po klikniÄciu przycisku "TRENING"
             fiszkaContainer.addClass('imgIndex-' + lastClickedIndex);
         }));
 
@@ -4481,12 +4534,12 @@ console.log('Hej4442', fiszkaContainer);
             activateFiszka(fiszka.id, true);
         }));
 
-        // WYWOŁANIE HASHTAGU
+        // WYWOĹANIE HASHTAGU
         function updateButtonName(buttonName, fiszkaContainer) {
-            // Usuń poprzednią nazwę, jeśli istnieje
+            // UsuĹ poprzedniÄ nazwÄ, jeĹli istnieje
             fiszkaContainer.find('.fiszka_button_name').remove();
 
-            // Ustaw nazwę w prawym dolnym rogu fiszki
+            // Ustaw nazwÄ w prawym dolnym rogu fiszki
             const fiszkaButtonNameContainer = $('<div>').addClass('fiszka_button_name').text(buttonName);
             fiszkaContainer.append(fiszkaButtonNameContainer);
         }
@@ -4511,21 +4564,21 @@ function generateFiszkaBlock2(fiszka, lessonId2) {
 
             var music = document.getElementById(audioId);
             var pButton = document.getElementById(pButtonId);
-            // Dodajemy style bezpośrednio w kodzie JavaScript
+            // Dodajemy style bezpoĹrednio w kodzie JavaScript
             if (window.matchMedia("(max-width: 999px)").matches) {
-                pButton.style.height = '100px';  // Zwiększenie wysokości
-                pButton.style.width = '100px';   // Zwiększenie szerokości
+                pButton.style.height = '100px';  // ZwiÄkszenie wysokoĹci
+                pButton.style.width = '100px';   // ZwiÄkszenie szerokoĹci
             } else {
-                pButton.style.height = '60px';  // Zwiększenie wysokości
-                pButton.style.width = '60px';   // Zwiększenie szerokości
+                pButton.style.height = '60px';  // ZwiÄkszenie wysokoĹci
+                pButton.style.width = '60px';   // ZwiÄkszenie szerokoĹci
             }
-            pButton.style.border = 'none';   // Usunięcie ramki
-            pButton.style.backgroundSize = '80%';  // Rozmiar obrazka tła
+            pButton.style.border = 'none';   // UsuniÄcie ramki
+            pButton.style.backgroundSize = '80%';  // Rozmiar obrazka tĹa
             pButton.style.backgroundRepeat = 'no-repeat';
             pButton.style.backgroundPosition = 'center';
-            pButton.style.borderRadius = '8px';   // Zaokrąglenie rogów
-            pButton.style.outline = 'none';       // Usunięcie obramowania
-            pButton.style.display = 'flex';       // Wyśrodkowanie zawartości
+            pButton.style.borderRadius = '8px';   // ZaokrÄglenie rogĂłw
+            pButton.style.outline = 'none';       // UsuniÄcie obramowania
+            pButton.style.display = 'flex';       // WyĹrodkowanie zawartoĹci
             pButton.style.alignItems = 'center';
             pButton.style.justifyContent = 'center';
             pButton.style.overflow = 'hidden';    // Ukrycie nadmiarowego kontentu
@@ -4563,38 +4616,38 @@ function generateFiszkaBlock2(fiszka, lessonId2) {
 
 // TWORZENIE KONTENERA FISZKI
         let fiszkaContainer = $('<div>').addClass('fiszka fiszka-' + fiszka.id);
-    // Dodanie klasy parzysta, jeśli warunki są spełnione
+    // Dodanie klasy parzysta, jeĹli warunki sÄ speĹnione
     if (window.matchMedia("(max-width: 999px)").matches && lessonId2 % 2 === 0) {
         fiszkaContainer.addClass('parzysta');
     }
-    // Tworzenie ikony krzyżyka
+    // Tworzenie ikony krzyĹźyka
     let closeIcon = $('<span>')
         .addClass('close-icon')
-    .html('&times;') // HTML kod krzyżyka
+    .html('&times;') // HTML kod krzyĹźyka
     .css({
         position: 'absolute',
-        top: 'px', // Możesz dostosować pozycję
+        top: 'px', // MoĹźesz dostosowaÄ pozycjÄ
         right: '5px',
-        width: '30px', // Szerokość kontenera
-        height: '30px', // Wysokość kontenera (równa szerokości)
+        width: '30px', // SzerokoĹÄ kontenera
+        height: '30px', // WysokoĹÄ kontenera (rĂłwna szerokoĹci)
         cursor: 'pointer',
         color: 'red',
-        fontSize: '40px', // Rozmiar fontu (zmniejszony dla lepszej czytelności)
+        fontSize: '40px', // Rozmiar fontu (zmniejszony dla lepszej czytelnoĹci)
         background: 'grey',
         border: '2px solid black',
-        textAlign: 'center', // Wyrównanie tekstu w poziomie
-        lineHeight: '30px', // Wyrównanie tekstu w pionie (równe wysokości kontenera)
+        textAlign: 'center', // WyrĂłwnanie tekstu w poziomie
+        lineHeight: '30px', // WyrĂłwnanie tekstu w pionie (rĂłwne wysokoĹci kontenera)
         zIndex: 1000000
     });
 
-    // Zdarzenie kliknięcia na krzyżyk
+    // Zdarzenie klikniÄcia na krzyĹźyk
     closeIcon.on('click', function () {
         setTimeout(function () {
         removeFiszka(fiszka.id, lessonId2);
-        }, 1000); // Opóźnienie w milisekundach (tu: 1 sekunda)
+        }, 1000); // OpĂłĹşnienie w milisekundach (tu: 1 sekunda)
     });
 
-    // Dodanie krzyżyka do fiszki
+    // Dodanie krzyĹźyka do fiszki
     fiszkaContainer.append(closeIcon);
 
         // DODANIE OBRAZKA
@@ -4608,7 +4661,7 @@ function generateFiszkaBlock2(fiszka, lessonId2) {
                 }
             });
         } else if (typeof fiszka.img === 'string') {
-            // Jeśli jest tylko jedno zdjęcie, dodajemy je do imgContainer dla każdej fiszki
+            // JeĹli jest tylko jedno zdjÄcie, dodajemy je do imgContainer dla kaĹźdej fiszki
             const imgElement = $('<img class="fiszka_img">').attr('src', fiszka.img);
             imgContainer.append(imgElement);
         }
@@ -4617,13 +4670,13 @@ function generateFiszkaBlock2(fiszka, lessonId2) {
         const selectedLikes = [];
         console.log('hej10', selectedLikes);
 
-// Funkcja do obsługi kliknięcia na przycisk "likeButton"
+// Funkcja do obsĹugi klikniÄcia na przycisk "likeButton"
         function handleLikeButtonClick(index) {
             const likeButton = $(this);
             const storyButton = fiszkaContainer.find('.story_button').eq(index);
             const selectedLike = likeButton.text();
             console.log('Zaktualizowano przycisk dla indeksu:', index);
-            console.log('Aktualne wartości selectedLikes:', selectedLikes);
+            console.log('Aktualne wartoĹci selectedLikes:', selectedLikes);
         }
         const likeButton = $('<a>').addClass('like').attr('href', '#');
         const likeText = $('<span>').text('Śmieszna historia');
@@ -4632,9 +4685,9 @@ function generateFiszkaBlock2(fiszka, lessonId2) {
 
         // Tworzymy kontener opcji "like" i dodajemy opcje do kontenera
         const likeOptionsContainer = $('<div>').attr('id', 'likeOptionsContainer');
-        const likeOption1 = createLikeOption('thumbsUp', '👍 Śmieszne');
-        const likeOption2 = createLikeOption('heart', '❤️ Miłe');
-        const likeOption3 = createLikeOption('star', '⭐ Pamiętliwe');
+        const likeOption1 = createLikeOption('thumbsUp', 'đ Ĺmieszne');
+        const likeOption2 = createLikeOption('heart', 'â¤ď¸ MiĹe');
+        const likeOption3 = createLikeOption('star', 'â­ PamiÄtliwe');
         likeOptionsContainer.append(likeOption1, likeOption2, likeOption3);
 
         // Dodajemy kontener opcji "like" do docelowego kontenera
@@ -4643,7 +4696,7 @@ function generateFiszkaBlock2(fiszka, lessonId2) {
         // Ukrywamy kontener opcji "like"
         likeOptionsContainer.hide();
 
-        // Obsługa zdarzenia hover na przycisku "like"
+        // ObsĹuga zdarzenia hover na przycisku "like"
         likeButton.hover(function () {
             const buttonPosition = likeButton.offset();
             const buttonWidth = likeButton.outerWidth();
@@ -4652,7 +4705,7 @@ function generateFiszkaBlock2(fiszka, lessonId2) {
             likeOptionsContainer.css({
                 top: buttonPosition.top - likeOptionsContainer.outerHeight() - 10,
                 left: buttonPosition.left + (buttonWidth / 2) - (likeOptionsContainer.outerWidth() / 2),
-                backgroundColor: '#f0f0f0', // Dodajemy szary kolor tła
+                backgroundColor: '#f0f0f0', // Dodajemy szary kolor tĹa
             }).fadeIn('fast');
         }, function () {
             // Ukrywamy kontener opcji "like" po zjechaniu z przycisku
@@ -4667,36 +4720,36 @@ function generateFiszkaBlock2(fiszka, lessonId2) {
                 return;
             }
 
-            // Tworzymy kontener dla ikony i dodajemy ikonę
+            // Tworzymy kontener dla ikony i dodajemy ikonÄ
             const iconContainer = $('<div>').addClass('likeIconContainer');
             const likeIcon = getLikeIcon(like);
             iconContainer.append(likeIcon);
 
-            // Usuwamy wcześniej dodaną ikonę, jeśli istnieje
+            // Usuwamy wczeĹniej dodanÄ ikonÄ, jeĹli istnieje
             storyButton.find('.likeIconContainer').remove();
 
-            // Dodajemy kontener z ikoną do przycisku "story_button"
+            // Dodajemy kontener z ikonÄ do przycisku "story_button"
             storyButton.append(iconContainer);
         }
 
         function createLikeOption(like, text) {
             const likeOption = $('<div>').addClass('likeOption').attr('data-like', like).text(text);
 
-            // Dodajemy efekt zmiany koloru na lekko ciemniejszy szary po najechaniu myszką na pojedynczą opcję "like"
+            // Dodajemy efekt zmiany koloru na lekko ciemniejszy szary po najechaniu myszkÄ na pojedynczÄ opcjÄ "like"
             likeOption.hover(
                     function () {
-                        likeOption.css('background-color', '#dcdcdc'); // Lekko ciemniejszy szary kolor tła dla opcji "like"
+                        likeOption.css('background-color', '#dcdcdc'); // Lekko ciemniejszy szary kolor tĹa dla opcji "like"
                     },
                     function () {
-                        likeOption.css('background-color', ''); // Usuwamy styl, aby wrócić do domyślnego tła opcji "like"
+                        likeOption.css('background-color', ''); // Usuwamy styl, aby wrĂłciÄ do domyĹlnego tĹa opcji "like"
                     }
             );
 
-            let likeCounter = 0; // Dodajemy licznik polubień dla każdej opcji "like"
+            let likeCounter = 0; // Dodajemy licznik polubieĹ dla kaĹźdej opcji "like"
 
             const counterDiv = $('<div>').addClass('likeCounterDiv'); // Nowy div na licznik
 
-            // Dodajemy ikonę do licznika
+            // Dodajemy ikonÄ do licznika
             const likeIcon = getLikeIcon(like);
             const iconContainer = $('<span>').addClass('likeIconContainer').append(likeIcon);
             counterDiv.append(iconContainer);
@@ -4704,12 +4757,12 @@ function generateFiszkaBlock2(fiszka, lessonId2) {
             const likeCounterSpan = $('<span>').addClass('likeCounter').text(` ${likeCounter} `);
             counterDiv.append(likeCounterSpan); // Licznik jest dodany po ikonie
 
-            imgContainer.append(counterDiv); // Dodajemy licznik na zewnątrz kontenera przycisków
+            imgContainer.append(counterDiv); // Dodajemy licznik na zewnÄtrz kontenera przyciskĂłw
 
             likeOption.click(function (event) {
-                event.preventDefault(); // Zapobiegamy domyślnej akcji przycisku
+                event.preventDefault(); // Zapobiegamy domyĹlnej akcji przycisku
 
-                // Inkrementujemy licznik polubień za każdym razem, gdy opcja "like" zostanie wybrana
+                // Inkrementujemy licznik polubieĹ za kaĹźdym razem, gdy opcja "like" zostanie wybrana
                 likeCounter++;
                 likeCounterSpan.text(` ${likeCounter} `);
 
@@ -4717,20 +4770,20 @@ function generateFiszkaBlock2(fiszka, lessonId2) {
                 const selectedIcon = getLikeIcon(selectedLike);
                 likeText.text(text);
                 likeButton.removeClass('liked');
-                addLikeIconToStoryButton(lastClickedIndex, selectedLike); // Dodaj ikonę do story_button na podstawie wybranej opcji "like"
+                addLikeIconToStoryButton(lastClickedIndex, selectedLike); // Dodaj ikonÄ do story_button na podstawie wybranej opcji "like"
 
-                // Sprawdź, czy index już istnieje w tablicy
+                // SprawdĹş, czy index juĹź istnieje w tablicy
                 const existingIndex = selectedLikes.findIndex(item => item.index === lastClickedIndex);
                 if (existingIndex !== -1) {
-                    // Jeśli index istnieje, zaktualizuj wartość
+                    // JeĹli index istnieje, zaktualizuj wartoĹÄ
                     selectedLikes[existingIndex].like = selectedLike;
                 } else {
-                    // Jeśli index nie istnieje, dodaj nowy wpis
-                    selectedLikes.push({index: lastClickedIndex, like: text}); // Dodaj tylko nazwę "like"
+                    // JeĹli index nie istnieje, dodaj nowy wpis
+                    selectedLikes.push({index: lastClickedIndex, like: text}); // Dodaj tylko nazwÄ "like"
                 }
 
                 likeOptionsContainer.fadeOut('fast');
-                saveSelectedLike(selectedLike, text); // Przekazujemy nazwę "like" i tekst do funkcji saveSelectedLike
+                saveSelectedLike(selectedLike, text); // Przekazujemy nazwÄ "like" i tekst do funkcji saveSelectedLike
             });
 
             return likeOption;
@@ -4738,10 +4791,10 @@ function generateFiszkaBlock2(fiszka, lessonId2) {
 
 // Funkcja do zapisywania wybranego "like"
         function saveSelectedLike(selectedLike, text) {
-            // Tutaj możesz zapisać wybrany "like" w odpowiednim kontekście, np. wysłać go na serwer, zapisać w lokalnym magazynie itp.
+            // Tutaj moĹźesz zapisaÄ wybrany "like" w odpowiednim kontekĹcie, np. wysĹaÄ go na serwer, zapisaÄ w lokalnym magazynie itp.
             console.log('Wybrany like:', text);
             console.log('Tekst:', text);
-            // Jeśli chcesz użyć go w innych miejscach, możesz przekazać go jako argument do innych funkcji lub zmiennych.
+            // JeĹli chcesz uĹźyÄ go w innych miejscach, moĹźesz przekazaÄ go jako argument do innych funkcji lub zmiennych.
         }
 
         // Funkcja do pobierania ikony dla wybranego "like"
@@ -4749,16 +4802,16 @@ function generateFiszkaBlock2(fiszka, lessonId2) {
             let icon;
             switch (like) {
                 case 'thumbsUp':
-                    icon = $('<span class="likeIcon">👍</span>');
+                    icon = $('<span class="likeIcon">đ</span>');
                     break;
                 case 'heart':
-                    icon = $('<span class="likeIcon">❤️</span>');
+                    icon = $('<span class="likeIcon">â¤ď¸</span>');
                     break;
                 case 'star':
-                    icon = $('<span class="likeIcon">⭐</span>');
+                    icon = $('<span class="likeIcon">â­</span>');
                     break;
                 default:
-                    icon = $('<span class="likeIcon">👍</span>');
+                    icon = $('<span class="likeIcon">đ</span>');
             }
             return icon;
         }
@@ -4772,7 +4825,7 @@ function generateFiszkaBlock2(fiszka, lessonId2) {
             // Ukrywamy wszystkie historie w tej konkretnej fiszce
             currentFiszka.find('.fiszka_story').hide();
 
-            // Obsługa mnemoniki
+            // ObsĹuga mnemoniki
             if (Array.isArray(fiszka.story)) {
                 if (index >= 0 && index < fiszka.story.length) {
                     currentFiszka.find('.story-' + index).show();
@@ -4784,7 +4837,7 @@ function generateFiszkaBlock2(fiszka, lessonId2) {
             // Ukrywamy wszystkie obrazy
             currentFiszka.find('.fiszka_img').hide();
 
-            // Obsługa obrazów
+            // ObsĹuga obrazĂłw
             let imgIndex; // Zmienna do przechowywania indeksu obrazka
 
             if (Array.isArray(fiszka.img)) {
@@ -4793,7 +4846,7 @@ function generateFiszkaBlock2(fiszka, lessonId2) {
                 specificLesson2Ref = fiszka.img[imgIndex];
                 console.log("Index obrazka:", imgIndex);
             } else {
-                imgIndex = 0; // Ustawienie imgIndex na 0, gdy fiszka.img nie jest tablicą
+                imgIndex = 0; // Ustawienie imgIndex na 0, gdy fiszka.img nie jest tablicÄ
                 currentFiszka.find('.fiszka_img').eq(imgIndex).show();
                 specificLesson2Ref = fiszka.img;
                 console.log("Index obrazka:", imgIndex);
@@ -4801,7 +4854,7 @@ function generateFiszkaBlock2(fiszka, lessonId2) {
 
             lastClickedIndex = index;
 
-            // Obsługa hashtagów
+            // ObsĹuga hashtagĂłw
             const selectedCategoryIndex = index * 2;
             const value = fiszka.category1[selectedCategoryIndex];
             const hashtag = fiszka.category1[selectedCategoryIndex + 1];
@@ -4815,7 +4868,7 @@ function generateFiszkaBlock2(fiszka, lessonId2) {
         }
 
         function selectLikeButton(index) {
-            console.log("Wybór likeButton dla indeksu:", index);
+            console.log("WybĂłr likeButton dla indeksu:", index);
             const storyButton = $('.story_button').eq(index);
             if (!storyButton.length) {
                 console.error('Nie znaleziono przycisku dla indeksu:', index);
@@ -4826,21 +4879,21 @@ function generateFiszkaBlock2(fiszka, lessonId2) {
             likeText.find('span').remove();
             likeText.text('Śmieszna historia');
 
-            // Sprawdź, czy index jest zawarty w tablicy selectedLikes
+            // SprawdĹş, czy index jest zawarty w tablicy selectedLikes
             const selectedLike = selectedLikes.find(item => item.index === index);
             if (selectedLike) {
-                // Jeśli index istnieje w tablicy, ustaw ikonę przycisku na wartość z tablicy
+                // JeĹli index istnieje w tablicy, ustaw ikonÄ przycisku na wartoĹÄ z tablicy
                 console.log("Wybrano like dla indeksu:", index, "- Like:", selectedLike.like);
-                const selectedIcon = getLikeIcon(selectedLike.like); // Przekazujemy tylko nazwę ikony
+                const selectedIcon = getLikeIcon(selectedLike.like); // Przekazujemy tylko nazwÄ ikony
                 console.log('hej5', selectedIcon);
-                likeText.html(selectedLike.like); // Ustawiamy ikonę
+                likeText.html(selectedLike.like); // Ustawiamy ikonÄ
             } else {
-                // Jeśli index nie istnieje, ustaw domyślny tekst
-                console.log("Brak wyboru like dla indeksu:", index, "- Ustawianie domyślnego tekstu");
+                // JeĹli index nie istnieje, ustaw domyĹlny tekst
+                console.log("Brak wyboru like dla indeksu:", index, "- Ustawianie domyĹlnego tekstu");
                 likeButton.text('Śmieszna historia');
             }
         }
-        // NIEZNACZĄCE WYJAŚNIENIE SŁOWA
+        // NIEZNACZÄCE WYJAĹNIENIE SĹOWA
         const sentenceDiv = $('<div>').attr('id', 'part');
         fiszka.sentence.forEach(word => {
             sentenceDiv.append($('<button>').text(word));
@@ -4857,7 +4910,7 @@ function generateFiszkaBlock2(fiszka, lessonId2) {
         });
         const source = $('<source>').attr('src', fiszka.word);
         audio.append(source);
-        const audioplayerDiv = $('<div>').attr('id', 'audioplayer' + fiszka.id).addClass('audioplayer'); // Dodano klasę 'audioplayer'
+        const audioplayerDiv = $('<div>').attr('id', 'audioplayer' + fiszka.id).addClass('audioplayer'); // Dodano klasÄ 'audioplayer'
         const pButton = $('<button>').attr('id', 'pButton' + fiszka.id).addClass('pButton play').click(function () {
             console.log('playb called for fiszka.id:', fiszka.id);
             window['playb' + fiszka.id]();
@@ -4886,21 +4939,21 @@ function generateFiszkaBlock2(fiszka, lessonId2) {
 
 // DODANIE MNEMOTECHNIKI
         if (Array.isArray(fiszka.story)) {
-            // Jeśli story jest tablicą, iterujemy przez wszystkie jej elementy
+            // JeĹli story jest tablicÄ, iterujemy przez wszystkie jej elementy
             fiszka.story.forEach((story, index) => {
                 const storyContainer = $('<div>').addClass('fiszka_story story-' + index).html(story);
                 fiszkaContainer.append(storyContainer);
                 console.log("Dodano story: ", story);  // Debugowanie
             });
         } else if (fiszka.story) {
-            // Jeśli story jest pojedynczym stringiem, dodajemy go bezpośrednio
+            // JeĹli story jest pojedynczym stringiem, dodajemy go bezpoĹrednio
             const storyContainer = $('<div>').addClass('fiszka_story story-0').html(fiszka.story);
             fiszkaContainer.append(storyContainer);
             console.log("Dodano story: ", fiszka.story);  // Debugowanie
         }
         console.log('Przed utworzeniem wordDiv');
 
-// Utworzenie reszty elementów zgodnie z istniejącym kodem
+// Utworzenie reszty elementĂłw zgodnie z istniejÄcym kodem
         const wordDiv2 = $('<div>').attr('id', 'word2');
         const audio2 = $('<audio>').attr({
             id: 'music2' + fiszka.id,
@@ -4908,20 +4961,20 @@ function generateFiszkaBlock2(fiszka, lessonId2) {
         });
         const source2 = $('<source>').attr('src', fiszka.word);
         audio2.append(source2);
-        const audioplayerDiv2 = $('<div>').attr('id', 'audioplayer2' + fiszka.id).addClass('audioplayer2'); // Dodano klasę 'audioplayer'
+        const audioplayerDiv2 = $('<div>').attr('id', 'audioplayer2' + fiszka.id).addClass('audioplayer2'); // Dodano klasÄ 'audioplayer'
         const pButton2 = $('<button>').attr('id', 'pButton2' + fiszka.id).addClass('pButton play').click(function () {
             console.log('playb called for fiszka.id:', fiszka.id);
             window['playb' + fiszka.id]();
         });
 
-// Utworzenie elementów za pomocą jQuery
+// Utworzenie elementĂłw za pomocÄ jQuery
         const timelineDiv = $('<div>').attr('id', 'timeline' + fiszka.id);
         const playheadDiv = $('<div>').attr('id', 'playhead' + fiszka.id);
 
 // Dodanie playhead do timeline
         timelineDiv.append(playheadDiv);
 
-// Dodanie elementów do odpowiednich kontenerów
+// Dodanie elementĂłw do odpowiednich kontenerĂłw
         audioplayerDiv.append(pButton2);
         wordDiv2.append(audio2);
         wordDiv2.append(audioplayerDiv2);
@@ -4929,22 +4982,22 @@ function generateFiszkaBlock2(fiszka, lessonId2) {
         fiszkaContainer.append(wordDiv2);
 
         console.log('Po utworzeniu wordDiv');
-        // Zdefiniuj zmienną początkową na poziomie wyższym
+        // Zdefiniuj zmiennÄ poczÄtkowÄ na poziomie wyĹźszym
         let initialSpecificLesson2Ref;
         let specificLesson2Ref;
         let lastClickedIndex = null;
         let lastApprovedIndex = null; // Zmienna do przechowywania ostatnio zatwierdzonego indeksu
-        let approvedIndexes = []; // Tablica przechowująca zatwierdzone indeksy
+        let approvedIndexes = []; // Tablica przechowujÄca zatwierdzone indeksy
         let approvedColors = [];
 
-// DODANIE PRZYCISKÓW
+// DODANIE PRZYCISKĂW
         if (Array.isArray(fiszka.category1)) {
             const storyButtonContainer = $('<div>'); // Kontener na przyciski
             const randomIndex = Math.floor(Math.random() * fiszka.category1.length / 2);
-            let lastClickedButton; // Zmienna do przechowywania ostatnio klikniętego przycisku w danej fiszce
+            let lastClickedButton; // Zmienna do przechowywania ostatnio klikniÄtego przycisku w danej fiszce
 
             fiszka.category1.slice(0, 5).forEach((category1, index) => {
-                const valueIndex = index * 2; // Indeks wartości w tablicy, zaczynając od 0
+                const valueIndex = index * 2; // Indeks wartoĹci w tablicy, zaczynajÄc od 0
                 const hashtagIndex = valueIndex + 1; // Indeks hashtagu w tablicy
 
                 const value = fiszka.category1[valueIndex];
@@ -4959,17 +5012,17 @@ function generateFiszkaBlock2(fiszka, lessonId2) {
                             showStory(index);
                             lastClickedIndex = index;
 
-                            // Usuwamy zieloną klasę tylko z poprzedniego przycisku w danej fiszce
+                            // Usuwamy zielonÄ klasÄ tylko z poprzedniego przycisku w danej fiszce
                             if (lastClickedButton) {
                                 lastClickedButton.removeClass('green-button');
                             }
 
-                            // Usuwamy klasę imgIndex z poprzedniego przycisku w danej fiszce
+                            // Usuwamy klasÄ imgIndex z poprzedniego przycisku w danej fiszce
                             $('.story_button').removeClass((index, className) => (className.match(/imgIndex-\d+/g) || []).join(' '));
-                            // Dodajemy klasę imgIndexNull do przycisków, które nie zostały jeszcze zatwierdzone
+                            // Dodajemy klasÄ imgIndexNull do przyciskĂłw, ktĂłre nie zostaĹy jeszcze zatwierdzone
                             $('.fiszka').addClass('imgIndexNull').removeClass('imgIndex-0 imgIndex-1 imgIndex-2 imgIndex-3 imgIndex-4 ');
 
-                            // Dodajemy zieloną klasę tylko dla aktualnie klikniętego przycisku w danej fiszce
+                            // Dodajemy zielonÄ klasÄ tylko dla aktualnie klikniÄtego przycisku w danej fiszce
                             $(this).addClass('green-button');
                             $('.story_button').removeClass('active-button');
                             $(this).addClass('active-button');
@@ -4980,25 +5033,25 @@ function generateFiszkaBlock2(fiszka, lessonId2) {
                                 }
                             });
 
-                            // Jeśli przycisk został wcześniej zatwierdzony, przywróć jego zatwierdzoną klasę
+                            // JeĹli przycisk zostaĹ wczeĹniej zatwierdzony, przywrĂłÄ jego zatwierdzonÄ klasÄ
                             if (approvedIndexes.includes(lastClickedIndex)) {
                                 fiszkaContainer.addClass('imgIndex-' + lastClickedIndex);
                             }
 
-                            // Zapisujemy ostatnio kliknięty przycisk w danej fiszce
+                            // Zapisujemy ostatnio klikniÄty przycisk w danej fiszce
                             lastClickedButton = $(this);
                             handleLikeButtonClick();
                         });
 
                 if (index === randomIndex) {
-                    // Sprawdzamy, czy fiszka.img jest tablicą czy pojedynczą wartością
+                    // Sprawdzamy, czy fiszka.img jest tablicÄ czy pojedynczÄ wartoĹciÄ
                     if (Array.isArray(fiszka.img)) {
                         newImgIndex = Math.min(index, fiszka.img.length - 1); // Aktualizacja zmiennej globalnej imgIndex
                         specificLesson2Ref = fiszka.img[newImgIndex];
                         console.log('hej432', specificLesson2Ref);
                     } else if (fiszka.img) {
-                        newImgIndex = 0; // Przypisanie domyślnego indeksu dla pojedynczego obrazka
-                        specificLesson2Ref = fiszka.img; // Przypisanie pojedynczej wartości do specificLesson2Ref
+                        newImgIndex = 0; // Przypisanie domyĹlnego indeksu dla pojedynczego obrazka
+                        specificLesson2Ref = fiszka.img; // Przypisanie pojedynczej wartoĹci do specificLesson2Ref
                         console.log('hej432', specificLesson2Ref);
                     }
                     initialSpecificLesson2Ref = specificLesson2Ref;
@@ -5014,30 +5067,30 @@ function generateFiszkaBlock2(fiszka, lessonId2) {
 
             fiszkaContainer.append(storyButtonContainer);
 
-            // WYWOŁANIE TABLICY
+            // WYWOĹANIE TABLICY
             showStory(randomIndex);
             console.log(randomIndex);
 
-            // Użycie specificLesson2Ref po załadowaniu strony
-            console.log("Początkowy specificLesson2Ref:", initialSpecificLesson2Ref);
+            // UĹźycie specificLesson2Ref po zaĹadowaniu strony
+            console.log("PoczÄtkowy specificLesson2Ref:", initialSpecificLesson2Ref);
 
         } else if (fiszka.category1) {
-            // Jeśli fiszka.category1 nie jest tablicą
-            newImgIndex = 0; // Przypisanie domyślnego indeksu dla pojedynczego obrazka
-            specificLesson2Ref = fiszka.img; // Przypisanie pojedynczej wartości do specificLesson2Ref
+            // JeĹli fiszka.category1 nie jest tablicÄ
+            newImgIndex = 0; // Przypisanie domyĹlnego indeksu dla pojedynczego obrazka
+            specificLesson2Ref = fiszka.img; // Przypisanie pojedynczej wartoĹci do specificLesson2Ref
             initialSpecificLesson2Ref = specificLesson2Ref;
             console.log('Hej7', specificLesson2Ref);
 
-            // Stwórz pojedynczy przycisk dla pojedynczej wartości category1
+            // StwĂłrz pojedynczy przycisk dla pojedynczej wartoĹci category1
             const displayText = `${fiszka.category1} #${fiszka.category1}`;
             const storyButton = $('<button>')
                     .text(displayText)
-                    .addClass('story_button2 green-button') // Od razu przypisz zieloną klasę
+                    .addClass('story_button2 green-button') // Od razu przypisz zielonÄ klasÄ
                     .click(function () {
-                        showStory(0); // Przekazujemy 0 jako indeks, ponieważ jest to pojedyncza wartość
+                        showStory(0); // Przekazujemy 0 jako indeks, poniewaĹź jest to pojedyncza wartoĹÄ
                         lastClickedIndex = 0;
 
-                        // Zapisujemy ostatnio kliknięty przycisk
+                        // Zapisujemy ostatnio klikniÄty przycisk
                         lastClickedButton = $(this);
                         handleLikeButtonClick();
                     });
@@ -5046,12 +5099,12 @@ function generateFiszkaBlock2(fiszka, lessonId2) {
             lastClickedButton = storyButton;
             lastApprovedIndex = 0; // Ustaw ostatnio zatwierdzony indeks na 0
 
-            // WYWOŁANIE POJEDYNCZEJ HISTORII
+            // WYWOĹANIE POJEDYNCZEJ HISTORII
             showStory(0);
-            console.log("Pojedyncza wartość dla category1, specificLesson2Ref:", specificLesson2Ref);
+            console.log("Pojedyncza wartoĹÄ dla category1, specificLesson2Ref:", specificLesson2Ref);
         }
         $('.fiszka_button_trening').click(function () {
-            // Dodaj klasę pomarańczową tylko dla przycisku zatwierdzonego
+            // Dodaj klasÄ pomaraĹczowÄ tylko dla przycisku zatwierdzonego
             $('.story_button').each(function (index) {
                 if ($(this).hasClass('green-button')) {
                     $(this).removeClass('green-button');
@@ -5068,10 +5121,10 @@ function generateFiszkaBlock2(fiszka, lessonId2) {
             let id = fiszka.id;
             let parametr = '';
 
-            // Sprawdzenie, czy idFiszki jest tablicą
+            // Sprawdzenie, czy idFiszki jest tablicÄ
             if (Array.isArray(fiszka.id)) {
                 id = fiszka.id[0];         // Pierwszy element tablicy jako id
-                parametr = fiszka.id[1] || ''; // Drugi element tablicy jako parametr, jeśli istnieje
+                parametr = fiszka.id[1] || ''; // Drugi element tablicy jako parametr, jeĹli istnieje
             }
 
             // Tworzenie selektora na podstawie id i parametru
@@ -5079,21 +5132,21 @@ function generateFiszkaBlock2(fiszka, lessonId2) {
             const selector = `.${className}`;
             console.log('hej201', parametr);
             let first = false;
-            // Jeśli parametr jest równy lessons2b[0], uruchom aktywujObrazek
+            // JeĹli parametr jest rĂłwny lessons2b[0], uruchom aktywujObrazek
             if (parametr === lessons2b[0]) {
                 first = true;
                 console.log('hej200', first);
 
             }
             let second = false;
-            // Jeśli parametr jest równy lessons2b[0], uruchom aktywujObrazek
+            // JeĹli parametr jest rĂłwny lessons2b[0], uruchom aktywujObrazek
             if (parametr === lessons2b[1]) {
                 second = true;
                 console.log('hej200', second);
 
             }
             let third = false;
-            // Jeśli parametr jest równy lessons2b[0], uruchom aktywujObrazek
+            // JeĹli parametr jest rĂłwny lessons2b[0], uruchom aktywujObrazek
             if (parametr === lessons2b[2]) {
                 third = true;
                 console.log('hej200', third);
@@ -5103,21 +5156,21 @@ function generateFiszkaBlock2(fiszka, lessonId2) {
             console.log("Trening clicked on fiszka nr " + fiszka.id);
             console.log("lessonId2:", lessonId2);
             console.log("nazwa", lessons2b[2]);
-            // Wyswietlenie danej wartości img dla danej fiszka.id
+            // Wyswietlenie danej wartoĹci img dla danej fiszka.id
             const specificLesson2 = specificLesson2Ref || initialSpecificLesson2Ref;
             console.log("img dla fiszki o id", fiszka.id, ":", specificLesson2);
             specificLesson2Ref = fiszka.img;
-            // Znajdź indeks dla danej fiszki w tablicy lessons2[lessonId2]
+            // ZnajdĹş indeks dla danej fiszki w tablicy lessons2[lessonId2]
             console.log('story55', specificLesson2Ref);
-            // Używamy lastClickedIndex zamiast index
-            imgIndex = showStory(lastClickedIndex); // Wywołanie funkcji showStory i zapisanie zwróconego indeksu obrazka
-            console.log('działa', specificLesson2Ref);
+            // UĹźywamy lastClickedIndex zamiast index
+            imgIndex = showStory(lastClickedIndex); // WywoĹanie funkcji showStory i zapisanie zwrĂłconego indeksu obrazka
+            console.log('dziaĹa', specificLesson2Ref);
             aktywujObrazek(first, second, third, specificLesson2, 'obrazek-container2b', true, fiszka, imgIndex); // Przekazanie imgIndex do funkcji aktywujObrazek
             // Dodajemy zatwierdzony indeks do tablicy
             approvedIndexes.push(lastClickedIndex);
             console.log(approvedIndexes);
 
-            // Dodanie zatwierdzonej klasy imgIndex do fiszkaContainer po kliknięciu przycisku "TRENING"
+            // Dodanie zatwierdzonej klasy imgIndex do fiszkaContainer po klikniÄciu przycisku "TRENING"
             fiszkaContainer.addClass('imgIndex-' + lastClickedIndex);
         }));
 
@@ -5126,17 +5179,17 @@ function generateFiszkaBlock2(fiszka, lessonId2) {
             activateFiszka(fiszka.id, true);
         }));
 
-        // WYWOŁANIE HASHTAGU
+        // WYWOĹANIE HASHTAGU
         function updateButtonName(buttonName, fiszkaContainer) {
-            // Usuń poprzednią nazwę, jeśli istnieje
+            // UsuĹ poprzedniÄ nazwÄ, jeĹli istnieje
             fiszkaContainer.find('.fiszka_button_name').remove();
 
-            // Ustaw nazwę w prawym dolnym rogu fiszki
+            // Ustaw nazwÄ w prawym dolnym rogu fiszki
             const fiszkaButtonNameContainer = $('<div>').addClass('fiszka_button_name').text(buttonName);
             fiszkaContainer.append(fiszkaButtonNameContainer);
         }
         // Dodanie kontenera fiszki do body
-        $(`.image-container4[data-lesson="${lessonId2}"]`).append(fiszkaContainer);
+        $(`.image-container3b[data-lesson="${lessonId2}"]`).append(fiszkaContainer);
         console.log(`Generated fiszka block for ID: [${fiszka.id.join(', ')}]`);
         initAudio(fiszka.id);
     });
@@ -5157,21 +5210,21 @@ $('.grid-container .image-container4').remove();
 
             var music = document.getElementById(audioId);
             var pButton = document.getElementById(pButtonId);
-            // Dodajemy style bezpośrednio w kodzie JavaScript
+            // Dodajemy style bezpoĹrednio w kodzie JavaScript
             if (window.matchMedia("(max-width: 999px)").matches) {
-                pButton.style.height = '100px';  // Zwiększenie wysokości
-                pButton.style.width = '100px';   // Zwiększenie szerokości
+                pButton.style.height = '100px';  // ZwiÄkszenie wysokoĹci
+                pButton.style.width = '100px';   // ZwiÄkszenie szerokoĹci
             } else {
-                pButton.style.height = '60px';  // Zwiększenie wysokości
-                pButton.style.width = '60px';   // Zwiększenie szerokości
+                pButton.style.height = '60px';  // ZwiÄkszenie wysokoĹci
+                pButton.style.width = '60px';   // ZwiÄkszenie szerokoĹci
             }
-            pButton.style.border = 'none';   // Usunięcie ramki
-            pButton.style.backgroundSize = '80%';  // Rozmiar obrazka tła
+            pButton.style.border = 'none';   // UsuniÄcie ramki
+            pButton.style.backgroundSize = '80%';  // Rozmiar obrazka tĹa
             pButton.style.backgroundRepeat = 'no-repeat';
             pButton.style.backgroundPosition = 'center';
-            pButton.style.borderRadius = '8px';   // Zaokrąglenie rogów
-            pButton.style.outline = 'none';       // Usunięcie obramowania
-            pButton.style.display = 'flex';       // Wyśrodkowanie zawartości
+            pButton.style.borderRadius = '8px';   // ZaokrÄglenie rogĂłw
+            pButton.style.outline = 'none';       // UsuniÄcie obramowania
+            pButton.style.display = 'flex';       // WyĹrodkowanie zawartoĹci
             pButton.style.alignItems = 'center';
             pButton.style.justifyContent = 'center';
             pButton.style.overflow = 'hidden';    // Ukrycie nadmiarowego kontentu
@@ -5222,7 +5275,7 @@ console.log('Hej4442', fiszkaContainer);
                 }
             });
         } else if (typeof fiszka.img === 'string') {
-            // Jeśli jest tylko jedno zdjęcie, dodajemy je do imgContainer dla każdej fiszki
+            // JeĹli jest tylko jedno zdjÄcie, dodajemy je do imgContainer dla kaĹźdej fiszki
             const imgElement = $('<img class="fiszka_img">').attr('src', fiszka.img);
             imgContainer.append(imgElement);
         }
@@ -5231,13 +5284,13 @@ console.log('Hej4442', fiszkaContainer);
         const selectedLikes = [];
         console.log('hej10', selectedLikes);
 
-// Funkcja do obsługi kliknięcia na przycisk "likeButton"
+// Funkcja do obsĹugi klikniÄcia na przycisk "likeButton"
         function handleLikeButtonClick(index) {
             const likeButton = $(this);
             const storyButton = fiszkaContainer.find('.story_button').eq(index);
             const selectedLike = likeButton.text();
             console.log('Zaktualizowano przycisk dla indeksu:', index);
-            console.log('Aktualne wartości selectedLikes:', selectedLikes);
+            console.log('Aktualne wartoĹci selectedLikes:', selectedLikes);
         }
         const likeButton = $('<a>').addClass('like').attr('href', '#');
         const likeText = $('<span>').text('Śmieszna historia');
@@ -5246,9 +5299,9 @@ console.log('Hej4442', fiszkaContainer);
 
         // Tworzymy kontener opcji "like" i dodajemy opcje do kontenera
         const likeOptionsContainer = $('<div>').attr('id', 'likeOptionsContainer');
-        const likeOption1 = createLikeOption('thumbsUp', '👍 Śmieszne');
-        const likeOption2 = createLikeOption('heart', '❤️ Miłe');
-        const likeOption3 = createLikeOption('star', '⭐ Pamiętliwe');
+        const likeOption1 = createLikeOption('thumbsUp', 'đ Ĺmieszne');
+        const likeOption2 = createLikeOption('heart', 'â¤ď¸ MiĹe');
+        const likeOption3 = createLikeOption('star', 'â­ PamiÄtliwe');
         likeOptionsContainer.append(likeOption1, likeOption2, likeOption3);
 
         // Dodajemy kontener opcji "like" do docelowego kontenera
@@ -5257,7 +5310,7 @@ console.log('Hej4442', fiszkaContainer);
         // Ukrywamy kontener opcji "like"
         likeOptionsContainer.hide();
 
-        // Obsługa zdarzenia hover na przycisku "like"
+        // ObsĹuga zdarzenia hover na przycisku "like"
         likeButton.hover(function () {
             const buttonPosition = likeButton.offset();
             const buttonWidth = likeButton.outerWidth();
@@ -5266,7 +5319,7 @@ console.log('Hej4442', fiszkaContainer);
             likeOptionsContainer.css({
                 top: buttonPosition.top - likeOptionsContainer.outerHeight() - 10,
                 left: buttonPosition.left + (buttonWidth / 2) - (likeOptionsContainer.outerWidth() / 2),
-                backgroundColor: '#f0f0f0', // Dodajemy szary kolor tła
+                backgroundColor: '#f0f0f0', // Dodajemy szary kolor tĹa
             }).fadeIn('fast');
         }, function () {
             // Ukrywamy kontener opcji "like" po zjechaniu z przycisku
@@ -5281,36 +5334,36 @@ console.log('Hej4442', fiszkaContainer);
                 return;
             }
 
-            // Tworzymy kontener dla ikony i dodajemy ikonę
+            // Tworzymy kontener dla ikony i dodajemy ikonÄ
             const iconContainer = $('<div>').addClass('likeIconContainer');
             const likeIcon = getLikeIcon(like);
             iconContainer.append(likeIcon);
 
-            // Usuwamy wcześniej dodaną ikonę, jeśli istnieje
+            // Usuwamy wczeĹniej dodanÄ ikonÄ, jeĹli istnieje
             storyButton.find('.likeIconContainer').remove();
 
-            // Dodajemy kontener z ikoną do przycisku "story_button"
+            // Dodajemy kontener z ikonÄ do przycisku "story_button"
             storyButton.append(iconContainer);
         }
 
         function createLikeOption(like, text) {
             const likeOption = $('<div>').addClass('likeOption').attr('data-like', like).text(text);
 
-            // Dodajemy efekt zmiany koloru na lekko ciemniejszy szary po najechaniu myszką na pojedynczą opcję "like"
+            // Dodajemy efekt zmiany koloru na lekko ciemniejszy szary po najechaniu myszkÄ na pojedynczÄ opcjÄ "like"
             likeOption.hover(
                     function () {
-                        likeOption.css('background-color', '#dcdcdc'); // Lekko ciemniejszy szary kolor tła dla opcji "like"
+                        likeOption.css('background-color', '#dcdcdc'); // Lekko ciemniejszy szary kolor tĹa dla opcji "like"
                     },
                     function () {
-                        likeOption.css('background-color', ''); // Usuwamy styl, aby wrócić do domyślnego tła opcji "like"
+                        likeOption.css('background-color', ''); // Usuwamy styl, aby wrĂłciÄ do domyĹlnego tĹa opcji "like"
                     }
             );
 
-            let likeCounter = 0; // Dodajemy licznik polubień dla każdej opcji "like"
+            let likeCounter = 0; // Dodajemy licznik polubieĹ dla kaĹźdej opcji "like"
 
             const counterDiv = $('<div>').addClass('likeCounterDiv'); // Nowy div na licznik
 
-            // Dodajemy ikonę do licznika
+            // Dodajemy ikonÄ do licznika
             const likeIcon = getLikeIcon(like);
             const iconContainer = $('<span>').addClass('likeIconContainer').append(likeIcon);
             counterDiv.append(iconContainer);
@@ -5318,12 +5371,12 @@ console.log('Hej4442', fiszkaContainer);
             const likeCounterSpan = $('<span>').addClass('likeCounter').text(` ${likeCounter} `);
             counterDiv.append(likeCounterSpan); // Licznik jest dodany po ikonie
 
-            imgContainer.append(counterDiv); // Dodajemy licznik na zewnątrz kontenera przycisków
+            imgContainer.append(counterDiv); // Dodajemy licznik na zewnÄtrz kontenera przyciskĂłw
 
             likeOption.click(function (event) {
-                event.preventDefault(); // Zapobiegamy domyślnej akcji przycisku
+                event.preventDefault(); // Zapobiegamy domyĹlnej akcji przycisku
 
-                // Inkrementujemy licznik polubień za każdym razem, gdy opcja "like" zostanie wybrana
+                // Inkrementujemy licznik polubieĹ za kaĹźdym razem, gdy opcja "like" zostanie wybrana
                 likeCounter++;
                 likeCounterSpan.text(` ${likeCounter} `);
 
@@ -5331,20 +5384,20 @@ console.log('Hej4442', fiszkaContainer);
                 const selectedIcon = getLikeIcon(selectedLike);
                 likeText.text(text);
                 likeButton.removeClass('liked');
-                addLikeIconToStoryButton(lastClickedIndex, selectedLike); // Dodaj ikonę do story_button na podstawie wybranej opcji "like"
+                addLikeIconToStoryButton(lastClickedIndex, selectedLike); // Dodaj ikonÄ do story_button na podstawie wybranej opcji "like"
 
-                // Sprawdź, czy index już istnieje w tablicy
+                // SprawdĹş, czy index juĹź istnieje w tablicy
                 const existingIndex = selectedLikes.findIndex(item => item.index === lastClickedIndex);
                 if (existingIndex !== -1) {
-                    // Jeśli index istnieje, zaktualizuj wartość
+                    // JeĹli index istnieje, zaktualizuj wartoĹÄ
                     selectedLikes[existingIndex].like = selectedLike;
                 } else {
-                    // Jeśli index nie istnieje, dodaj nowy wpis
-                    selectedLikes.push({index: lastClickedIndex, like: text}); // Dodaj tylko nazwę "like"
+                    // JeĹli index nie istnieje, dodaj nowy wpis
+                    selectedLikes.push({index: lastClickedIndex, like: text}); // Dodaj tylko nazwÄ "like"
                 }
 
                 likeOptionsContainer.fadeOut('fast');
-                saveSelectedLike(selectedLike, text); // Przekazujemy nazwę "like" i tekst do funkcji saveSelectedLike
+                saveSelectedLike(selectedLike, text); // Przekazujemy nazwÄ "like" i tekst do funkcji saveSelectedLike
             });
 
             return likeOption;
@@ -5352,10 +5405,10 @@ console.log('Hej4442', fiszkaContainer);
 
 // Funkcja do zapisywania wybranego "like"
         function saveSelectedLike(selectedLike, text) {
-            // Tutaj możesz zapisać wybrany "like" w odpowiednim kontekście, np. wysłać go na serwer, zapisać w lokalnym magazynie itp.
+            // Tutaj moĹźesz zapisaÄ wybrany "like" w odpowiednim kontekĹcie, np. wysĹaÄ go na serwer, zapisaÄ w lokalnym magazynie itp.
             console.log('Wybrany like:', text);
             console.log('Tekst:', text);
-            // Jeśli chcesz użyć go w innych miejscach, możesz przekazać go jako argument do innych funkcji lub zmiennych.
+            // JeĹli chcesz uĹźyÄ go w innych miejscach, moĹźesz przekazaÄ go jako argument do innych funkcji lub zmiennych.
         }
 
         // Funkcja do pobierania ikony dla wybranego "like"
@@ -5363,16 +5416,16 @@ console.log('Hej4442', fiszkaContainer);
             let icon;
             switch (like) {
                 case 'thumbsUp':
-                    icon = $('<span class="likeIcon">👍</span>');
+                    icon = $('<span class="likeIcon">đ</span>');
                     break;
                 case 'heart':
-                    icon = $('<span class="likeIcon">❤️</span>');
+                    icon = $('<span class="likeIcon">â¤ď¸</span>');
                     break;
                 case 'star':
-                    icon = $('<span class="likeIcon">⭐</span>');
+                    icon = $('<span class="likeIcon">â­</span>');
                     break;
                 default:
-                    icon = $('<span class="likeIcon">👍</span>');
+                    icon = $('<span class="likeIcon">đ</span>');
             }
             return icon;
         }
@@ -5386,7 +5439,7 @@ console.log('Hej4442', fiszkaContainer);
             // Ukrywamy wszystkie historie w tej konkretnej fiszce
             currentFiszka.find('.fiszka_story').hide();
 
-            // Obsługa mnemoniki
+            // ObsĹuga mnemoniki
             if (Array.isArray(fiszka.story)) {
                 if (index >= 0 && index < fiszka.story.length) {
                     currentFiszka.find('.story-' + index).show();
@@ -5398,7 +5451,7 @@ console.log('Hej4442', fiszkaContainer);
             // Ukrywamy wszystkie obrazy
             currentFiszka.find('.fiszka_img').hide();
 
-            // Obsługa obrazów
+            // ObsĹuga obrazĂłw
             let imgIndex; // Zmienna do przechowywania indeksu obrazka
 
             if (Array.isArray(fiszka.img)) {
@@ -5407,7 +5460,7 @@ console.log('Hej4442', fiszkaContainer);
                 specificLesson2Ref = fiszka.img[imgIndex];
                 console.log("Index obrazka:", imgIndex);
             } else {
-                imgIndex = 0; // Ustawienie imgIndex na 0, gdy fiszka.img nie jest tablicą
+                imgIndex = 0; // Ustawienie imgIndex na 0, gdy fiszka.img nie jest tablicÄ
                 currentFiszka.find('.fiszka_img').eq(imgIndex).show();
                 specificLesson2Ref = fiszka.img;
                 console.log("Index obrazka:", imgIndex);
@@ -5415,7 +5468,7 @@ console.log('Hej4442', fiszkaContainer);
 
             lastClickedIndex = index;
 
-            // Obsługa hashtagów
+            // ObsĹuga hashtagĂłw
             const selectedCategoryIndex = index * 2;
             const value = fiszka.category1[selectedCategoryIndex];
             const hashtag = fiszka.category1[selectedCategoryIndex + 1];
@@ -5429,7 +5482,7 @@ console.log('Hej4442', fiszkaContainer);
         }
 
         function selectLikeButton(index) {
-            console.log("Wybór likeButton dla indeksu:", index);
+            console.log("WybĂłr likeButton dla indeksu:", index);
             const storyButton = $('.story_button').eq(index);
             if (!storyButton.length) {
                 console.error('Nie znaleziono przycisku dla indeksu:', index);
@@ -5440,21 +5493,21 @@ console.log('Hej4442', fiszkaContainer);
             likeText.find('span').remove();
             likeText.text('Śmieszna historia');
 
-            // Sprawdź, czy index jest zawarty w tablicy selectedLikes
+            // SprawdĹş, czy index jest zawarty w tablicy selectedLikes
             const selectedLike = selectedLikes.find(item => item.index === index);
             if (selectedLike) {
-                // Jeśli index istnieje w tablicy, ustaw ikonę przycisku na wartość z tablicy
+                // JeĹli index istnieje w tablicy, ustaw ikonÄ przycisku na wartoĹÄ z tablicy
                 console.log("Wybrano like dla indeksu:", index, "- Like:", selectedLike.like);
-                const selectedIcon = getLikeIcon(selectedLike.like); // Przekazujemy tylko nazwę ikony
+                const selectedIcon = getLikeIcon(selectedLike.like); // Przekazujemy tylko nazwÄ ikony
                 console.log('hej5', selectedIcon);
-                likeText.html(selectedLike.like); // Ustawiamy ikonę
+                likeText.html(selectedLike.like); // Ustawiamy ikonÄ
             } else {
-                // Jeśli index nie istnieje, ustaw domyślny tekst
-                console.log("Brak wyboru like dla indeksu:", index, "- Ustawianie domyślnego tekstu");
+                // JeĹli index nie istnieje, ustaw domyĹlny tekst
+                console.log("Brak wyboru like dla indeksu:", index, "- Ustawianie domyĹlnego tekstu");
                 likeButton.text('Śmieszna historia');
             }
         }
-        // NIEZNACZĄCE WYJAŚNIENIE SŁOWA
+        // NIEZNACZÄCE WYJAĹNIENIE SĹOWA
         const sentenceDiv = $('<div>').attr('id', 'part');
         fiszka.sentence.forEach(word => {
             sentenceDiv.append($('<button>').text(word));
@@ -5471,7 +5524,7 @@ console.log('Hej4442', fiszkaContainer);
         });
         const source = $('<source>').attr('src', fiszka.word);
         audio.append(source);
-        const audioplayerDiv = $('<div>').attr('id', 'audioplayer' + fiszka.id).addClass('audioplayer'); // Dodano klasę 'audioplayer'
+        const audioplayerDiv = $('<div>').attr('id', 'audioplayer' + fiszka.id).addClass('audioplayer'); // Dodano klasÄ 'audioplayer'
         const pButton = $('<button>').attr('id', 'pButton' + fiszka.id).addClass('pButton play').click(function () {
             console.log('playb called for fiszka.id:', fiszka.id);
             window['playb' + fiszka.id]();
@@ -5500,21 +5553,21 @@ console.log('Hej4442', fiszkaContainer);
 
 // DODANIE MNEMOTECHNIKI
         if (Array.isArray(fiszka.story)) {
-            // Jeśli story jest tablicą, iterujemy przez wszystkie jej elementy
+            // JeĹli story jest tablicÄ, iterujemy przez wszystkie jej elementy
             fiszka.story.forEach((story, index) => {
                 const storyContainer = $('<div>').addClass('fiszka_story story-' + index).html(story);
                 fiszkaContainer.append(storyContainer);
                 console.log("Dodano story: ", story);  // Debugowanie
             });
         } else if (fiszka.story) {
-            // Jeśli story jest pojedynczym stringiem, dodajemy go bezpośrednio
+            // JeĹli story jest pojedynczym stringiem, dodajemy go bezpoĹrednio
             const storyContainer = $('<div>').addClass('fiszka_story story-0').html(fiszka.story);
             fiszkaContainer.append(storyContainer);
             console.log("Dodano story: ", fiszka.story);  // Debugowanie
         }
         console.log('Przed utworzeniem wordDiv');
 
-// Utworzenie reszty elementów zgodnie z istniejącym kodem
+// Utworzenie reszty elementĂłw zgodnie z istniejÄcym kodem
         const wordDiv2 = $('<div>').attr('id', 'word2');
         const audio2 = $('<audio>').attr({
             id: 'music2' + fiszka.id,
@@ -5522,20 +5575,20 @@ console.log('Hej4442', fiszkaContainer);
         });
         const source2 = $('<source>').attr('src', fiszka.word);
         audio2.append(source2);
-        const audioplayerDiv2 = $('<div>').attr('id', 'audioplayer2' + fiszka.id).addClass('audioplayer2'); // Dodano klasę 'audioplayer'
+        const audioplayerDiv2 = $('<div>').attr('id', 'audioplayer2' + fiszka.id).addClass('audioplayer2'); // Dodano klasÄ 'audioplayer'
         const pButton2 = $('<button>').attr('id', 'pButton2' + fiszka.id).addClass('pButton play').click(function () {
             console.log('playb called for fiszka.id:', fiszka.id);
             window['playb' + fiszka.id]();
         });
 
-// Utworzenie elementów za pomocą jQuery
+// Utworzenie elementĂłw za pomocÄ jQuery
         const timelineDiv = $('<div>').attr('id', 'timeline' + fiszka.id);
         const playheadDiv = $('<div>').attr('id', 'playhead' + fiszka.id);
 
 // Dodanie playhead do timeline
         timelineDiv.append(playheadDiv);
 
-// Dodanie elementów do odpowiednich kontenerów
+// Dodanie elementĂłw do odpowiednich kontenerĂłw
         audioplayerDiv.append(pButton2);
         wordDiv2.append(audio2);
         wordDiv2.append(audioplayerDiv2);
@@ -5543,22 +5596,22 @@ console.log('Hej4442', fiszkaContainer);
         fiszkaContainer.append(wordDiv2);
 
         console.log('Po utworzeniu wordDiv');
-        // Zdefiniuj zmienną początkową na poziomie wyższym
+        // Zdefiniuj zmiennÄ poczÄtkowÄ na poziomie wyĹźszym
         let initialSpecificLesson2Ref;
         let specificLesson2Ref;
         let lastClickedIndex = null;
         let lastApprovedIndex = null; // Zmienna do przechowywania ostatnio zatwierdzonego indeksu
-        let approvedIndexes = []; // Tablica przechowująca zatwierdzone indeksy
+        let approvedIndexes = []; // Tablica przechowujÄca zatwierdzone indeksy
         let approvedColors = [];
 
-// DODANIE PRZYCISKÓW
+// DODANIE PRZYCISKĂW
         if (Array.isArray(fiszka.category1)) {
             const storyButtonContainer = $('<div>'); // Kontener na przyciski
             const randomIndex = Math.floor(Math.random() * fiszka.category1.length / 2);
-            let lastClickedButton; // Zmienna do przechowywania ostatnio klikniętego przycisku w danej fiszce
+            let lastClickedButton; // Zmienna do przechowywania ostatnio klikniÄtego przycisku w danej fiszce
 
             fiszka.category1.slice(0, 5).forEach((category1, index) => {
-                const valueIndex = index * 2; // Indeks wartości w tablicy, zaczynając od 0
+                const valueIndex = index * 2; // Indeks wartoĹci w tablicy, zaczynajÄc od 0
                 const hashtagIndex = valueIndex + 1; // Indeks hashtagu w tablicy
 
                 const value = fiszka.category1[valueIndex];
@@ -5573,17 +5626,17 @@ console.log('Hej4442', fiszkaContainer);
                             showStory(index);
                             lastClickedIndex = index;
 
-                            // Usuwamy zieloną klasę tylko z poprzedniego przycisku w danej fiszce
+                            // Usuwamy zielonÄ klasÄ tylko z poprzedniego przycisku w danej fiszce
                             if (lastClickedButton) {
                                 lastClickedButton.removeClass('green-button');
                             }
 
-                            // Usuwamy klasę imgIndex z poprzedniego przycisku w danej fiszce
+                            // Usuwamy klasÄ imgIndex z poprzedniego przycisku w danej fiszce
                             $('.story_button').removeClass((index, className) => (className.match(/imgIndex-\d+/g) || []).join(' '));
-                            // Dodajemy klasę imgIndexNull do przycisków, które nie zostały jeszcze zatwierdzone
+                            // Dodajemy klasÄ imgIndexNull do przyciskĂłw, ktĂłre nie zostaĹy jeszcze zatwierdzone
                             $('.fiszka').addClass('imgIndexNull').removeClass('imgIndex-0 imgIndex-1 imgIndex-2 imgIndex-3 imgIndex-4 ');
 
-                            // Dodajemy zieloną klasę tylko dla aktualnie klikniętego przycisku w danej fiszce
+                            // Dodajemy zielonÄ klasÄ tylko dla aktualnie klikniÄtego przycisku w danej fiszce
                             $(this).addClass('green-button');
                             $('.story_button').removeClass('active-button');
                             $(this).addClass('active-button');
@@ -5594,25 +5647,25 @@ console.log('Hej4442', fiszkaContainer);
                                 }
                             });
 
-                            // Jeśli przycisk został wcześniej zatwierdzony, przywróć jego zatwierdzoną klasę
+                            // JeĹli przycisk zostaĹ wczeĹniej zatwierdzony, przywrĂłÄ jego zatwierdzonÄ klasÄ
                             if (approvedIndexes.includes(lastClickedIndex)) {
                                 fiszkaContainer.addClass('imgIndex-' + lastClickedIndex);
                             }
 
-                            // Zapisujemy ostatnio kliknięty przycisk w danej fiszce
+                            // Zapisujemy ostatnio klikniÄty przycisk w danej fiszce
                             lastClickedButton = $(this);
                             handleLikeButtonClick();
                         });
 
                 if (index === randomIndex) {
-                    // Sprawdzamy, czy fiszka.img jest tablicą czy pojedynczą wartością
+                    // Sprawdzamy, czy fiszka.img jest tablicÄ czy pojedynczÄ wartoĹciÄ
                     if (Array.isArray(fiszka.img)) {
                         newImgIndex = Math.min(index, fiszka.img.length - 1); // Aktualizacja zmiennej globalnej imgIndex
                         specificLesson2Ref = fiszka.img[newImgIndex];
                         console.log('hej432', specificLesson2Ref);
                     } else if (fiszka.img) {
-                        newImgIndex = 0; // Przypisanie domyślnego indeksu dla pojedynczego obrazka
-                        specificLesson2Ref = fiszka.img; // Przypisanie pojedynczej wartości do specificLesson2Ref
+                        newImgIndex = 0; // Przypisanie domyĹlnego indeksu dla pojedynczego obrazka
+                        specificLesson2Ref = fiszka.img; // Przypisanie pojedynczej wartoĹci do specificLesson2Ref
                         console.log('hej432', specificLesson2Ref);
                     }
                     initialSpecificLesson2Ref = specificLesson2Ref;
@@ -5628,30 +5681,30 @@ console.log('Hej4442', fiszkaContainer);
 
             fiszkaContainer.append(storyButtonContainer);
 
-            // WYWOŁANIE TABLICY
+            // WYWOĹANIE TABLICY
             showStory(randomIndex);
             console.log(randomIndex);
 
-            // Użycie specificLesson2Ref po załadowaniu strony
-            console.log("Początkowy specificLesson2Ref:", initialSpecificLesson2Ref);
+            // UĹźycie specificLesson2Ref po zaĹadowaniu strony
+            console.log("PoczÄtkowy specificLesson2Ref:", initialSpecificLesson2Ref);
 
         } else if (fiszka.category1) {
-            // Jeśli fiszka.category1 nie jest tablicą
-            newImgIndex = 0; // Przypisanie domyślnego indeksu dla pojedynczego obrazka
-            specificLesson2Ref = fiszka.img; // Przypisanie pojedynczej wartości do specificLesson2Ref
+            // JeĹli fiszka.category1 nie jest tablicÄ
+            newImgIndex = 0; // Przypisanie domyĹlnego indeksu dla pojedynczego obrazka
+            specificLesson2Ref = fiszka.img; // Przypisanie pojedynczej wartoĹci do specificLesson2Ref
             initialSpecificLesson2Ref = specificLesson2Ref;
             console.log('Hej7', specificLesson2Ref);
 
-            // Stwórz pojedynczy przycisk dla pojedynczej wartości category1
+            // StwĂłrz pojedynczy przycisk dla pojedynczej wartoĹci category1
             const displayText = `${fiszka.category1} #${fiszka.category1}`;
             const storyButton = $('<button>')
                     .text(displayText)
-                    .addClass('story_button2 green-button') // Od razu przypisz zieloną klasę
+                    .addClass('story_button2 green-button') // Od razu przypisz zielonÄ klasÄ
                     .click(function () {
-                        showStory(0); // Przekazujemy 0 jako indeks, ponieważ jest to pojedyncza wartość
+                        showStory(0); // Przekazujemy 0 jako indeks, poniewaĹź jest to pojedyncza wartoĹÄ
                         lastClickedIndex = 0;
 
-                        // Zapisujemy ostatnio kliknięty przycisk
+                        // Zapisujemy ostatnio klikniÄty przycisk
                         lastClickedButton = $(this);
                         handleLikeButtonClick();
                     });
@@ -5660,12 +5713,12 @@ console.log('Hej4442', fiszkaContainer);
             lastClickedButton = storyButton;
             lastApprovedIndex = 0; // Ustaw ostatnio zatwierdzony indeks na 0
 
-            // WYWOŁANIE POJEDYNCZEJ HISTORII
+            // WYWOĹANIE POJEDYNCZEJ HISTORII
             showStory(0);
-            console.log("Pojedyncza wartość dla category1, specificLesson2Ref:", specificLesson2Ref);
+            console.log("Pojedyncza wartoĹÄ dla category1, specificLesson2Ref:", specificLesson2Ref);
         }
         $('.fiszka_button_trening').click(function () {
-            // Dodaj klasę pomarańczową tylko dla przycisku zatwierdzonego
+            // Dodaj klasÄ pomaraĹczowÄ tylko dla przycisku zatwierdzonego
             $('.story_button').each(function (index) {
                 if ($(this).hasClass('green-button')) {
                     $(this).removeClass('green-button');
@@ -5682,10 +5735,10 @@ console.log('Hej4442', fiszkaContainer);
             let id = fiszka.id;
             let parametr = '';
 
-            // Sprawdzenie, czy idFiszki jest tablicą
+            // Sprawdzenie, czy idFiszki jest tablicÄ
             if (Array.isArray(fiszka.id)) {
                 id = fiszka.id[0];         // Pierwszy element tablicy jako id
-                parametr = fiszka.id[1] || ''; // Drugi element tablicy jako parametr, jeśli istnieje
+                parametr = fiszka.id[1] || ''; // Drugi element tablicy jako parametr, jeĹli istnieje
             }
 
             // Tworzenie selektora na podstawie id i parametru
@@ -5693,21 +5746,21 @@ console.log('Hej4442', fiszkaContainer);
             const selector = `.${className}`;
             console.log('hej201', parametr);
             let first = false;
-            // Jeśli parametr jest równy lessons2b[0], uruchom aktywujObrazek
+            // JeĹli parametr jest rĂłwny lessons2b[0], uruchom aktywujObrazek
             if (parametr === lessons2b[0]) {
                 first = true;
                 console.log('hej200', first);
 
             }
             let second = false;
-            // Jeśli parametr jest równy lessons2b[0], uruchom aktywujObrazek
+            // JeĹli parametr jest rĂłwny lessons2b[0], uruchom aktywujObrazek
             if (parametr === lessons2b[1]) {
                 second = true;
                 console.log('hej200', second);
 
             }
             let third = false;
-            // Jeśli parametr jest równy lessons2b[0], uruchom aktywujObrazek
+            // JeĹli parametr jest rĂłwny lessons2b[0], uruchom aktywujObrazek
             if (parametr === lessons2b[2]) {
                 third = true;
                 console.log('hej200', third);
@@ -5717,21 +5770,21 @@ console.log('Hej4442', fiszkaContainer);
             console.log("Trening clicked on fiszka nr " + fiszka.id);
             console.log("lessonId2:", lessonId2);
             console.log("nazwa", lessons2b[2]);
-            // Wyswietlenie danej wartości img dla danej fiszka.id
+            // Wyswietlenie danej wartoĹci img dla danej fiszka.id
             const specificLesson2 = specificLesson2Ref || initialSpecificLesson2Ref;
             console.log("img dla fiszki o id", fiszka.id, ":", specificLesson2);
             specificLesson2Ref = fiszka.img;
-            // Znajdź indeks dla danej fiszki w tablicy lessons2[lessonId2]
+            // ZnajdĹş indeks dla danej fiszki w tablicy lessons2[lessonId2]
             console.log('story55', specificLesson2Ref);
-            // Używamy lastClickedIndex zamiast index
-            imgIndex = showStory(lastClickedIndex); // Wywołanie funkcji showStory i zapisanie zwróconego indeksu obrazka
-            console.log('działa', specificLesson2Ref);
+            // UĹźywamy lastClickedIndex zamiast index
+            imgIndex = showStory(lastClickedIndex); // WywoĹanie funkcji showStory i zapisanie zwrĂłconego indeksu obrazka
+            console.log('dziaĹa', specificLesson2Ref);
             aktywujObrazek(first, second, third, specificLesson2, 'obrazek-container2b', true, fiszka, imgIndex); // Przekazanie imgIndex do funkcji aktywujObrazek
             // Dodajemy zatwierdzony indeks do tablicy
             approvedIndexes.push(lastClickedIndex);
             console.log(approvedIndexes);
 
-            // Dodanie zatwierdzonej klasy imgIndex do fiszkaContainer po kliknięciu przycisku "TRENING"
+            // Dodanie zatwierdzonej klasy imgIndex do fiszkaContainer po klikniÄciu przycisku "TRENING"
             fiszkaContainer.addClass('imgIndex-' + lastClickedIndex);
         }));
 
@@ -5768,19 +5821,19 @@ function removeFiszka(idFiszki, lessonId2) {
     let parametr = '';
 
     if (Array.isArray(idFiszki)) {
-        // Połącz wartości z tablicy id w jeden ciąg znaków oddzielony przecinkami
+        // PoĹÄcz wartoĹci z tablicy id w jeden ciÄg znakĂłw oddzielony przecinkami
         id = idFiszki.slice(0, 3).join(',');
-        // Obsługa ewentualnego dodatkowego parametru (np. czwartego elementu w tablicy)
+        // ObsĹuga ewentualnego dodatkowego parametru (np. czwartego elementu w tablicy)
         parametr = idFiszki.length > 3 ? idFiszki[3] : '';
     }
 
-    // Tworzenie klasy CSS z odpowiednim formatowaniem (poprawione usunięcie przecinków w CSS)
+    // Tworzenie klasy CSS z odpowiednim formatowaniem (poprawione usuniÄcie przecinkĂłw w CSS)
     const className = `fiszka-${id}${parametr ? '\\,' + parametr : ''}`;
     const selector = `.${className.replace(/,/g, '\\,')}`;
     console.log(selector);
     const $fiszkaToRemove = $(selector);
     if ($fiszkaToRemove.length) {
-        console.log('Element znaleziony po opóźnieniu, usuwam...');
+        console.log('Element znaleziony po opĂłĹşnieniu, usuwam...');
         $fiszkaToRemove.remove();
     } else {
         console.log('Element nadal nie znaleziony.');
