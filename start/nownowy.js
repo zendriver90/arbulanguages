@@ -1481,3 +1481,36 @@ $container.css('z-index', 102); // Podniesienie z-index tylko dla aktywnego
                                                         console.log('Koniec fiszek!'); // Informacja o koĹcu fiszek
                                                     }
                                                 });
+                                                        }
+                displayWords(currentWordIndex, indexDiv); // WywoĹanie z indeksem
+                
+                // Dostosuj rozmiar czcionki
+                updateWordDisplay(currentWordIndex);
+            } else {
+                console.log('Nie znaleziono sĹĂłw w sentence10.');
+            }
+        } else {
+            console.log('Nie znaleziono elementu .sentence10 w kontenerze.');
+        }
+    } else {
+        console.log('Nie znaleziono kontenera o data-lesson = ' + indexDiv);
+    }
+
+}
+
+// --- Obsługa kliknięcia na przycisk NEXT (>)
+$(document).on('click', '.next-button', function () {
+    const $container = $(this).closest('.image-container3b');
+    const indexDiv = $container.data('lesson');
+    const $sentence10 = $container.find('.sentence-block').first();
+
+    currentHighlightIndex++;
+    if (currentHighlightIndex >= 6) currentHighlightIndex = 0; // zapętlenie
+
+    updateHighlight(
+        indexDiv,
+        $sentence10,
+        currentHighlightIndex,
+        firstWord, secondWord, thirdWord, forthWord, fifthWord, sixthWord
+    );
+});

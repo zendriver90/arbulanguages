@@ -1081,21 +1081,43 @@ function updateHighlight(indexDiv, $sentence10, index, firstWord, secondWord, th
         });
 
 }
-// --- Obsługa kliknięcia na przycisk NEXT (>)
+// Obsługa kliknięcia na przycisk NEXT
 $(document).on('click', '.next-button', function () {
     const $container = $(this).closest('.image-container3b');
     const indexDiv = $container.data('lesson');
     const $sentence10 = $container.find('.sentence-block').first();
 
-    currentHighlightIndex++;
-    if (currentHighlightIndex >= 6) currentHighlightIndex = 0; // zapętlenie
+    // Zwiększamy indeks fiszki
+    currentFiszkaIndex++;
+    if (currentFiszkaIndex >= matchingFiszki1.length) {
+        currentFiszkaIndex = 0; // zapętlenie, jeśli chcemy
+    }
 
-    updateHighlight(
-        indexDiv,
-        $sentence10,
-        currentHighlightIndex,
-        firstWord, secondWord, thirdWord, forthWord, fifthWord, sixthWord
-    );
+    // Pobierz nową fiszkę
+    const fiszka = matchingFiszki1[currentFiszkaIndex];
+
+    if (fiszka) {
+        // Aktualizacja podświetlonych słów (przyjmując, że fiszka ma sentence1)
+        const words = fiszka.sentence1 || [];
+        const words2 = fiszka.sentence2 ? fiszka.sentence2.map(w => w.toUpperCase()) : [];
+        const words3 = fiszka.sentence3 || [];
+
+        // Aktualizujemy widok słów
+        updateHighlight(
+            indexDiv,
+            $sentence10,
+            0, // podświetlamy pierwsze słowo nowej fiszki
+            words[0] || '', words[1] || '', words[2] || '', words[3] || '', words[4] || '', words[5] || '',
+            words2[0] || '', words2[1] || '', words2[2] || '', words2[3] || '', words2[4] || '', words2[5] || '',
+            words3[0] || '', words3[1] || '', words3[2] || '', words3[3] || '', words3[4] || '', words3[5] || ''
+        );
+
+        // Wyświetlamy fiszkę
+        showFiszkiForLesson5(indexDiv, fiszki, currentFiszkaIndex, matchingFiszki1);
+
+        // Aktualizacja wyświetlanego słowa w wordDisplay
+        updateWordDisplay(0); // wyświetlamy pierwsze słowo fiszki
+    }
 });
 
 // --- Obsługa kliknięcia na przycisk PREV (<)
