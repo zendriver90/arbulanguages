@@ -1658,6 +1658,9 @@ id: [
         sentence1: [
                 "The"
         ],
+                                                                            sentence1b: [
+            "(Ten)"
+        ],
         sentence: [
                 "The",
                 "man",
@@ -1678,6 +1681,9 @@ id: [
         desc: "man[men] - mężczyzna",
         sentence1: [
                 "man"
+        ],
+                                                                            sentence1b: [
+            "mężczyzna"
         ],
         sentence: [
                 "The",
@@ -1700,6 +1706,9 @@ id: [
         desc: "drives[drajws] - jechać (on, ona, ono)",
         sentence1: [
                 "drives"
+        ],
+                                                                            sentence1b: [
+            "prowadzi"
         ],
         sentence: [
                 "The",
@@ -1728,6 +1737,9 @@ id: [
         sentence2: [
                 "his"
         ],
+                                                                                    sentence2b: [
+            "swój"
+        ],
         sentence: [
                 "his",
                 "car",
@@ -1753,6 +1765,9 @@ id: [
         sentence2: [
                 "car"
         ],
+                                                                                            sentence2b: [
+            "samochód"
+        ],
         sentence: [
                 "his",
                 "car",
@@ -1773,6 +1788,9 @@ id: [
         desc: "fast[fast] - szybko",
         sentence2: [
                 "fast"
+        ],
+                                                                                                    sentence2b: [
+            "szybko"
         ],
         sentence: [
                 "his",
@@ -1818,6 +1836,9 @@ id: [
         sentence1: [
                 "The"
         ],
+                sentence1b: [
+            "(Te)"
+        ],
         sentence: [
                 "The",
                 "children",
@@ -1839,6 +1860,9 @@ id: [
         desc: "children[czildren] - dzieci",
         sentence1: [
                 "children"
+        ],
+                        sentence1b: [
+            "dzieci"
         ],
         sentence: [
                 "The",
@@ -1869,6 +1893,9 @@ id: [
                 "play",
                 "outside"
         ],
+                        sentence1b: [
+            "bawią się"
+        ],
         key: "play",
         category1: "nauka",
         category2: ["czasownik"]
@@ -1888,6 +1915,9 @@ id: [
         desc: "outside[autsajd] - poza",
         sentence1: [
                 "outside"
+        ],
+                                sentence1b: [
+            "na zewnątrz"
         ],
         sentence: [
                 "The",
@@ -1914,6 +1944,9 @@ id: [
         desc: "after[after] - po",
         sentence2: [
                 "after"
+        ],
+                                        sentence2b: [
+            "po"
         ],
         sentence: [
                 "after",
@@ -1948,6 +1981,9 @@ id: [
         sentence2: [
                 "the"
         ],
+                                                sentence2b: [
+            "(tej)"
+        ],
         sentence: [
                 "after",
                 "the",
@@ -1980,6 +2016,9 @@ id: [
         desc: "school[skul] - szkoła",
         sentence2: [
                 "school"
+        ],
+                                                        sentence2b: [
+            "szkole"
         ],
         sentence: [
                 "after",
@@ -2025,6 +2064,9 @@ id: [
         sentence1: [
                 "The"
         ],
+                                                                sentence1b: [
+            "(Ten)"
+        ],
         sentence: [
                 "The",
                 "men",
@@ -2047,6 +2089,9 @@ id: [
         desc: "men[men] - mężczyzna",
         sentence1: [
                 "men"
+        ],
+                                                                        sentence1b: [
+            "mężczyzna"
         ],
         sentence: [
                 "The",
@@ -2071,6 +2116,9 @@ id: [
         desc: "likes[lajks] - ",
         sentence1: [
                 "likes"
+        ],
+                                                                                sentence1b: [
+            "lubi"
         ],
         sentence: [
                 "The",
@@ -2099,6 +2147,9 @@ id: [
         sentence1: [
                 "to read"
         ],
+                                                                                        sentence1b: [
+            "czytać"
+        ],
         sentence: [
                 "The",
                 "men",
@@ -2123,6 +2174,9 @@ id: [
         desc: "book[buk] - książka, books[buks] - książki (liczba mnoga dodanie s - na końcu)",
         sentence2: [
                 "books"
+        ],
+                                                                                                sentence1b: [
+            "książki"
         ],
         sentence: [
                 "The",
@@ -2169,6 +2223,9 @@ id: [
         sentence1: [
                 "He"
         ],
+                                                                                                        sentence1b: [
+            "On"
+        ],
         sentence: [
                 "He",
                 "runs",
@@ -2190,6 +2247,9 @@ id: [
         desc: "runs[rans] - biegnie",
         sentence1: [
                 "runs"
+        ],
+                                                                                                                sentence1b: [
+            "biega"
         ],
         sentence: [
                 "He",
@@ -2213,6 +2273,9 @@ id: [
         desc: "in the park[in de park] - w parku",
         sentence1: [
                 "in the park"
+        ],
+                                                                                                                        sentence1b: [
+            "w parku"
         ],
         sentence: [
                 "He",
@@ -2239,6 +2302,9 @@ id: [
         desc: "daily[dejli] - codziennie",
         sentence1: [
                 "daily"
+        ],
+                                                                                                                                sentence1b: [
+            "codziennie"
         ],
         sentence: [
                 "He",
@@ -2284,6 +2350,9 @@ id: [
         sentence1: [
                 "He"
         ],
+                    sentence1b: [
+            "On"
+        ],
         sentence: [
                 "He",
                 "sings",
@@ -2304,6 +2373,9 @@ id: [
         desc: "sings[sings] - śpiewa",
         sentence1: [
                 "sings"
+        ],
+                                                                                                                                        sentence1b: [
+            "śpiewa"
         ],
         sentence: [
                 "He",
@@ -2326,6 +2398,9 @@ id: [
         desc: "beautifully[bjutlifuli] - pięknie",
         sentence1: [
                 "beautifully"
+        ],
+                                                                                                                                                sentence1b: [
+            "pięknie"
         ],
         sentence: [
                 "He",
@@ -2351,6 +2426,9 @@ id: [
         desc: "in the shower[in de szołer] - pod prysznicem",
         sentence2: [
                 "in the shower"
+        ],
+                sentence2b: [
+            "pod prysznicem"
         ],
         sentence: [
                 "in the shower"
@@ -2390,6 +2468,9 @@ id: [
         sentence1: [
                 "My"
         ],
+                        sentence1b: [
+            "Mój"
+        ],
         sentence: [
                 "My",
                 "friend",
@@ -2415,6 +2496,9 @@ id: [
         sentence1: [
                 "friend"
         ],
+                                sentence1b: [
+            "przyjaciel"
+        ],
         sentence: [
                 "My",
                 "friend",
@@ -2436,9 +2520,12 @@ id: [
         story: [
                 "Pracodawca kazał mi ma<b><u>low</b></u>ać pokój. Musze to <b><u>z</b></u>robić, ale <b><u>kocham</b></u> swoją pracę"
         ],
-        desc: "loves[lowz] - przyjaciel",
+        desc: "loves[lowz] - kocha",
         sentence1: [
                 "loves"
+        ],
+                                sentence1b: [
+            "kocha"
         ],
         sentence: [
                 "My",
@@ -2461,9 +2548,12 @@ id: [
         story: [
                 "W Champions League <b><u>grają</b></u> najlepsi zawodnicy. <b><u>Tu</b></u> jest pełna koncentracja i każdy obrońca <b><u>j</b></u>est na <b><u>ple</b></u>cach napastnika"
         ],
-        desc: "to play[tu plej] - przyjaciel",
+        desc: "to play[tu plej] - grać",
         sentence1: [
                 "to play"
+        ],
+                                        sentence2b: [
+            "grać"
         ],
         sentence: [
                 "to play",
@@ -2488,6 +2578,9 @@ id: [
         desc: "tennis[tenis] - tenis",
         sentence1: [
                 "tennis"
+        ],
+                                                sentence2b: [
+            "w tenisa"
         ],
         sentence: [
                 "to play",
@@ -2524,6 +2617,9 @@ id: [
         sentence1: [
                 "We"
         ],
+        sentence1b: [
+            "My"
+        ],
         sentence: [
                 "We",
                 "visit",
@@ -2549,6 +2645,9 @@ id: [
         desc: "visit[wizit] - odwiedzać",
         sentence1: [
                 "visit"
+        ],
+                sentence1b: [
+            "wizytujemy"
         ],
         sentence: [
                 "We",
@@ -2584,6 +2683,9 @@ id: [
         sentence1: [
                 "our"
         ],
+                        sentence1b: [
+            "naszych"
+        ],
         sentence: [
                 "We",
                 "visit",
@@ -2609,6 +2711,9 @@ id: [
         desc: "grandparents[grandparents] - dziadkowie",
         sentence1: [
                 "grandparents"
+        ],
+                        sentence1b: [
+            "dziadków"
         ],
         sentence: [
                 "We",
@@ -2636,6 +2741,9 @@ id: [
         sentence1: [
                 "every"
         ],
+                                sentence2b: [
+            "w każdą"
+        ],
         sentence: [
                 "every",
                 "Sunday"
@@ -2659,6 +2767,9 @@ id: [
         esc: "sunday[sandej] - niedziela",
         sentence1: [
                 "Sunday"
+        ],
+                                        sentence2b: [
+            "niedzielę"
         ],
         sentence: [
                 "every",
@@ -2695,6 +2806,9 @@ id: [
         sentence1: [
                 "The"
         ],
+                                                sentence1b: [
+            "(Ten)"
+        ],
         sentence: [
                 "The",
                 "car",
@@ -2721,6 +2835,9 @@ id: [
         desc: "car[kar] - auto, samochód",
         sentence1: [
                 "car"
+        ],
+                                                        sentence1b: [
+            "samochód"
         ],
         sentence: [
                 "The",
@@ -2761,6 +2878,9 @@ id: [
         sentence1: [
                 "is"
         ],
+                                                                sentence1b: [
+            "jest"
+        ],
         sentence: [
                 "The",
                 "car",
@@ -2788,6 +2908,9 @@ id: [
         sentence1: [
                 "parked"
         ],
+                                                                sentence1b: [
+            "zaparkowany"
+        ],
         sentence: [
                 "The",
                 "car",
@@ -2814,6 +2937,9 @@ id: [
         desc: "nearby[nirbaj, nierbaj] - w pobliżu",
         sentence2: [
                 "nearby"
+        ],
+                                                                        sentence1b: [
+            "w pobliżu"
         ],
         sentence: [
                 "The",
@@ -2860,6 +2986,9 @@ id: [
         sentence1: [
                 "I"
         ],
+                                                                                sentence1b: [
+            "(Ja)"
+        ],
         sentence: [
                 "I",
                 "have",
@@ -2881,6 +3010,9 @@ id: [
         desc: "have[hew] - mam",
         sentence1: [
                 "have"
+        ],
+                                                                                        sentence1b: [
+            "mam"
         ],
         sentence: [
                 "I",
@@ -2907,6 +3039,9 @@ id: [
         desc: "two[tu] - dwa",
         sentence1: [
                 "two"
+        ],
+                                                                                                sentence1b: [
+            "dwa"
         ],
         sentence: [
                 "I",

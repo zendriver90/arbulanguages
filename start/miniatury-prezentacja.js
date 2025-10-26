@@ -813,84 +813,86 @@ let sentenceText3 = globalSentence10c + " " + globalSentence11c;
                         let words3 = tempDiv3.innerText.trim().split(/\s+/);
             console.log('tutaj dociera kod', words);
 
-            if (words.length > 0 && words2.length > 0 && words3.length > 0) {
-                console.log('tutaj dociera kod2', words3);
-                let firstWord = words[0];
-                let secondWord = words[1] || '';
-                let thirdWord = words[2] || '';
-                let forthWord = words[3] || '';
-                let fifthWord = words[4] || '';
-                let sixthWord = words[5] || '';
-                                let firstWord2 = words2[0];
-                let secondWord2 = words2[1] || '';
-                let thirdWord2 = words2[2] || '';
-                let forthWord2 = words2[3] || '';
-                let fifthWord2 = words2[4] || '';
-                let sixthWord2 = words2[5] || '';
-                                                let firstWord3 = words3[0];
-                let secondWord3 = words3[1] || '';
-                let thirdWord3 = words3[2] || '';
-                let forthWord3 = words3[3] || '';
-                let fifthWord3 = words3[4] || '';
-                let sixthWord3 = words3[5] || '';
-                        // --- WYWOŁAJ TUTAJ updateHighlight, żeby od razu zbudować linie ---
+if (words.length > 0 && words2.length > 0 && words3.length > 0) {
+    console.log('tutaj dociera kod2', words3);
 
-                let highlightedSpan = `<span class="highlighted">${firstWord}</span>`;
-                let highlightedSpan2 = `<span class="highlighted" style="display:none;">${secondWord}</span>`;
-                let highlightedSpan3 = `<span class="highlighted" style="display:none;">${thirdWord}</span>`;
-                let highlightedSpan4 = `<span class="highlighted" style="display:none;">${forthWord}</span>`;
-                let highlightedSpan5 = `<span class="highlighted" style="display:none;">${fifthWord}</span>`;
-                let highlightedSpan6 = `<span class="highlighted" style="display:none;">${sixthWord}</span>`;
-                                let highlightedSpan2b = `<span class="highlighted">${firstWord2}</span>`;
-                let highlightedSpan22 = `<span class="highlighted" style="display:none;">${secondWord2}</span>`;
-                let highlightedSpan33 = `<span class="highlighted" style="display:none;">${thirdWord2}</span>`;
-                let highlightedSpan44 = `<span class="highlighted" style="display:none;">${forthWord2}</span>`;
-                let highlightedSpan55 = `<span class="highlighted" style="display:none;">${fifthWord2}</span>`;
-                let highlightedSpan66 = `<span class="highlighted" style="display:none;">${sixthWord2}</span>`;
-                                                let highlightedSpan3b = `<span class="highlighted">${firstWord3}</span>`;
-                let highlightedSpan22b = `<span class="highlighted" style="display:none;">${secondWord3}</span>`;
-                let highlightedSpan33b = `<span class="highlighted" style="display:none;">${thirdWord3}</span>`;
-                let highlightedSpan44b = `<span class="highlighted" style="display:none;">${forthWord3}</span>`;
-                let highlightedSpan55b = `<span class="highlighted" style="display:none;">${fifthWord3}</span>`;
-                let highlightedSpan66b = `<span class="highlighted" style="display:none;">${sixthWord3}</span>`;
-                
-                
-                let button1 = `<button class="prev-button" id="prev-button">&lt;</button>`;
-                let button2 = `<button class="next-button" id="next-button">&gt;</button>`;
+    // --- Konwersja wszystkich słów na DUŻE LITERY ---
+    let [firstWord, secondWord, thirdWord, forthWord, fifthWord, sixthWord] = words.map(w => (w || ''));
+    let [firstWord2, secondWord2, thirdWord2, forthWord2, fifthWord2, sixthWord2] = words2.map(w => (w || '').toUpperCase());
+    let [firstWord3, secondWord3, thirdWord3, forthWord3, fifthWord3, sixthWord3] = words3.map(w => (w || ''));
 
-                $sentence10.html(`
-                    ${button1} 
-                    <span class="word-span" style="cursor: pointer;">${highlightedSpan}</span> 
-                    <span class="word-span" style="cursor: pointer;">${secondWord}</span> 
-                    <span class="word-span" style="cursor: pointer;">${thirdWord}</span> 
-                    <span class="word-span" style="cursor: pointer;">${forthWord}</span> 
-                    <span class="word-span" style="cursor: pointer;">${fifthWord}</span> 
-                    <span class="word-span" style="cursor: pointer;">${sixthWord}</span>
-                    ${button2}
-                    <br>
-                `);
-                                $sentence10b.html(`
-                    ${button1} 
-                    <span class="word-span2" style="cursor: pointer;">${highlightedSpan2b}</span> 
-                    <span class="word-span2" style="cursor: pointer;">${secondWord2}</span> 
-                    <span class="word-span2" style="cursor: pointer;">${thirdWord2}</span> 
-                    <span class="word-span2" style="cursor: pointer;">${forthWord2}</span> 
-                    <span class="word-span2" style="cursor: pointer;">${fifthWord2}</span> 
-                    <span class="word-span2" style="cursor: pointer;">${sixthWord2}</span>
-                    ${button2}
-                    <br>
-                `);
-                                                $sentence10c.html(`
-                    ${button1} 
-                    <span class="word-span3" style="cursor: pointer;">${highlightedSpan3b}</span> 
-                    <span class="word-span3" style="cursor: pointer;">${secondWord3}</span> 
-                    <span class="word-span3" style="cursor: pointer;">${thirdWord3}</span> 
-                    <span class="word-span3" style="cursor: pointer;">${forthWord3}</span> 
-                    <span class="word-span3" style="cursor: pointer;">${fifthWord3}</span> 
-                    <span class="word-span3" style="cursor: pointer;">${sixthWord3}</span>
-                    ${button2}
-                    <br>
-                `);
+    // --- Highlightowane wersje ---
+    let highlightedSpan  = `<span class="highlighted">${firstWord}</span>`;
+    let highlightedSpan2 = `<span class="highlighted" style="display:none;">${secondWord}</span>`;
+    let highlightedSpan3 = `<span class="highlighted" style="display:none;">${thirdWord}</span>`;
+    let highlightedSpan4 = `<span class="highlighted" style="display:none;">${forthWord}</span>`;
+    let highlightedSpan5 = `<span class="highlighted" style="display:none;">${fifthWord}</span>`;
+    let highlightedSpan6 = `<span class="highlighted" style="display:none;">${sixthWord}</span>`;
+
+    let highlightedSpan2b = `<span class="highlighted">${firstWord2}</span>`;
+    let highlightedSpan22 = `<span class="highlighted" style="display:none;">${secondWord2}</span>`;
+    let highlightedSpan33 = `<span class="highlighted" style="display:none;">${thirdWord2}</span>`;
+    let highlightedSpan44 = `<span class="highlighted" style="display:none;">${forthWord2}</span>`;
+    let highlightedSpan55 = `<span class="highlighted" style="display:none;">${fifthWord2}</span>`;
+    let highlightedSpan66 = `<span class="highlighted" style="display:none;">${sixthWord2}</span>`;
+
+    let highlightedSpan3b = `<span class="highlighted">${firstWord3}</span>`;
+    let highlightedSpan22b = `<span class="highlighted" style="display:none;">${secondWord3}</span>`;
+    let highlightedSpan33b = `<span class="highlighted" style="display:none;">${thirdWord3}</span>`;
+    let highlightedSpan44b = `<span class="highlighted" style="display:none;">${forthWord3}</span>`;
+    let highlightedSpan55b = `<span class="highlighted" style="display:none;">${fifthWord3}</span>`;
+    let highlightedSpan66b = `<span class="highlighted" style="display:none;">${sixthWord3}</span>`;
+
+// --- LINIA 1 ---
+let button1 = `<button class="prev-button prev-button1">&lt;</button>`;
+let button2 = `<button class="next-button next-button1">&gt;</button>`;
+
+// --- LINIA 2 ---
+let button1b = `<button class="prev-button prev-button2">&lt;</button>`;
+let button2b = `<button class="next-button next-button2">&gt;</button>`;
+
+// --- LINIA 3 ---
+let button1c = `<button class="prev-button prev-button3">&lt;</button>`;
+let button2c = `<button class="next-button next-button3">&gt;</button>`;
+
+// --- LINIA 1 ---
+$sentence10.html(`
+    ${button1} 
+    <span class="word-span" style="cursor: pointer;">${highlightedSpan}</span> 
+    <span class="word-span" style="cursor: pointer;">${secondWord}</span> 
+    <span class="word-span" style="cursor: pointer;">${thirdWord}</span> 
+    <span class="word-span" style="cursor: pointer;">${forthWord}</span> 
+    <span class="word-span" style="cursor: pointer;">${fifthWord}</span> 
+    <span class="word-span" style="cursor: pointer;">${sixthWord}</span>
+    ${button2}
+    <br>
+`);
+
+// --- LINIA 2 ---
+$sentence10b.html(`
+    ${button1b} 
+    <span class="word-span2" style="cursor: pointer;">${highlightedSpan2b}</span> 
+    <span class="word-span2" style="cursor: pointer;">${secondWord2}</span> 
+    <span class="word-span2" style="cursor: pointer;">${thirdWord2}</span> 
+    <span class="word-span2" style="cursor: pointer;">${forthWord2}</span> 
+    <span class="word-span2" style="cursor: pointer;">${fifthWord2}</span> 
+    <span class="word-span2" style="cursor: pointer;">${sixthWord2}</span>
+    ${button2b}
+    <br>
+`);
+
+// --- LINIA 3 ---
+$sentence10c.html(`
+    ${button1c} 
+    <span class="word-span3" style="cursor: pointer;">${highlightedSpan3b}</span> 
+    <span class="word-span3" style="cursor: pointer;">${secondWord3}</span> 
+    <span class="word-span3" style="cursor: pointer;">${thirdWord3}</span> 
+    <span class="word-span3" style="cursor: pointer;">${forthWord3}</span> 
+    <span class="word-span3" style="cursor: pointer;">${fifthWord3}</span> 
+    <span class="word-span3" style="cursor: pointer;">${sixthWord3}</span>
+    ${button2c}
+    <br>
+`);
 
 $("<style>")
   .prop("type", "text/css")
@@ -1032,58 +1034,85 @@ function handleNextClick2(indexDiv, $sentence10, currentFiszkaIndex, firstWord, 
 function updateHighlight(indexDiv, $sentence10, index, firstWord, secondWord, thirdWord, forthWord, fifthWord, sixthWord) {
     const words = [firstWord, secondWord, thirdWord, forthWord, fifthWord, sixthWord];
     const words2 = [firstWord2, secondWord2, thirdWord2, forthWord2, fifthWord2, sixthWord2];
-        const words3 = [firstWord3, secondWord3, thirdWord3, forthWord3, fifthWord3, sixthWord3];
+    const words3 = [firstWord3, secondWord3, thirdWord3, forthWord3, fifthWord3, sixthWord3];
 
-    // --- Główna linia słów (word-span)
-    const highlightedWords = words.map((word, i) => {
-        return i === index
-            ? `<span class="highlighted word-span" data-index="${i}" style="cursor: pointer;">${word}</span>`
-            : `<span class="word-span" data-index="${i}" style="cursor: pointer;">${word}</span>`;
-    });
+    // --- Główna linia słów
+    const highlightedWords = words.map((word, i) => 
+        `<span class="word-span${i === index ? ' highlighted' : ''}" data-index="${i}" style="cursor: pointer;">${word}</span>`
+    );
 
-    // --- Druga linia słów (word-span2)
-    const highlightedWords2 = words2.map((word, i2) => {
-        return i2 === index
-            ? `<span class="highlighted word-span2" data-index="${i2}" style="cursor: pointer;">${word}</span>`
-            : `<span class="word-span2" data-index="${i2}" style="cursor: pointer;">${word}</span>`;
-    });
-        // --- Trzecoa linia słów (word-span2)
-    const highlightedWords3 = words3.map((word, i3) => {
-        return i3 === index
-            ? `<span class="highlighted word-span3" data-index="${i3}" style="cursor: pointer;">${word}</span>`
-            : `<span class="word-span3" data-index="${i3}" style="cursor: pointer;">${word}</span>`;
-    });
+    // --- Druga linia
+    const highlightedWords2 = words2.map((word, i) => 
+        `<span class="word-span2${i === index ? ' highlighted' : ''}" data-index="${i}" style="cursor: pointer;">${word}</span>`
+    );
 
-$sentence10.html(`
-  <button class="prev-button" id="prev-button">&lt;</button>
-  ${highlightedWords.join(' ')}
-  <br>
-  ${highlightedWords2.join(' ')}
-  <br>
-     ${highlightedWords3.join(' ')}
-  <button class="next-button" id="next-button">&gt;</button>
-`);
+    // --- Trzecia linia
+    const highlightedWords3 = words3.map((word, i) => 
+        `<span class="word-span3${i === index ? ' highlighted' : ''}" data-index="${i}" style="cursor: pointer;">${word}</span>`
+    );
 
-    // --- Obsługa kliknięć word-span
-    $sentence10.find('.word-span').off('click').on('click', function () {
-        const clickedIndex = $(this).data('index');
-        handleWordClick(clickedIndex, indexDiv, matchingFiszki1);
-        updateHighlight(indexDiv, $sentence10, clickedIndex, firstWord, secondWord, thirdWord, forthWord, fifthWord, sixthWord);
-    });
+    // --- HTML z przyciskami (z unikalnymi klasami!)
+    $sentence10.html(`
+        <div class="sentence-line">
+            <button class="prev-button prev-button1">&lt;</button>
+            ${highlightedWords.join(' ')}
+            <button class="next-button next-button1">&gt;</button>
+        </div>
+        <div class="sentence-line">
+            <button class="prev-button prev-button2">&lt;</button>
+            ${highlightedWords2.join(' ')}
+            <button class="next-button next-button2">&gt;</button>
+        </div>
+        <div class="sentence-line">
+            <button class="prev-button prev-button3">&lt;</button>
+            ${highlightedWords3.join(' ')}
+            <button class="next-button next-button3">&gt;</button>
+        </div>
+    `);
 
-    // --- Obsługa kliknięć word-span2
-    $sentence10b.find('.word-span2').off('click').on('click', function () {
-        const clickedIndex = $(this).data('index');
-        handleWordClick(clickedIndex, indexDiv, matchingFiszki1);
-        updateHighlight(indexDiv, $sentence10, clickedIndex, firstWord, secondWord, thirdWord, forthWord, fifthWord, sixthWord);
-    });
-        // --- Obsługa kliknięć word-span2
-    $sentence10c.find('.word-span3').off('click').on('click', function () {
-        const clickedIndex = $(this).data('index');
-        handleWordClick(clickedIndex, indexDiv, matchingFiszki1);
-        updateHighlight(indexDiv, $sentence10, clickedIndex, firstWord, secondWord, thirdWord, forthWord, fifthWord, sixthWord);
-    });
+    // --- Obsługa kliknięć w słowa
+    $sentence10.find('.word-span, .word-span2, .word-span3')
+        .off('click')
+        .on('click', function () {
+            const clickedIndex = $(this).data('index');
+            handleWordClick(clickedIndex, indexDiv, matchingFiszki1);
+            currentHighlightIndex = clickedIndex;
+            updateHighlight(indexDiv, $sentence10, clickedIndex, firstWord, secondWord, thirdWord, forthWord, fifthWord, sixthWord);
+        });
+
 }
+// --- Obsługa kliknięcia na przycisk NEXT (>)
+$(document).on('click', '.next-button', function () {
+    const $container = $(this).closest('.image-container3b');
+    const indexDiv = $container.data('lesson');
+    const $sentence10 = $container.find('.sentence-block').first();
+
+    currentHighlightIndex++;
+    if (currentHighlightIndex >= 6) currentHighlightIndex = 0; // zapętlenie
+
+    updateHighlight(
+        indexDiv,
+        $sentence10,
+        currentHighlightIndex,
+        firstWord, secondWord, thirdWord, forthWord, fifthWord, sixthWord
+    );
+});
+
+// --- Obsługa kliknięcia na przycisk PREV (<)
+$(document).off('click', '.prev-button').on('click', '.prev-button', function () {
+    const $container = $(this).closest('.image-container3b');
+    const indexDiv = $container.data('lesson');
+
+    currentHighlightIndex--;
+    if (currentHighlightIndex < 0) currentHighlightIndex = 5; // cofanie w pętli
+
+    updateHighlight(
+        indexDiv,
+        $container.find('.sentence-block').first(),
+        currentHighlightIndex,
+        firstWord, secondWord, thirdWord, forthWord, fifthWord, sixthWord
+    );
+});
        let currentFiszkaIndex = 0;
     function updateWordDisplay(currentWordIndex) {
         const fiszka = matchingFiszki1[currentFiszkaIndex];
