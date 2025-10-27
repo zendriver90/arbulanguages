@@ -1095,21 +1095,36 @@ $(document).on('click', '.next-button', function () {
 
     // Pobierz nową fiszkę
     const fiszka = matchingFiszki1[currentFiszkaIndex];
-
+    const index = currentFiszkaIndex;
     if (fiszka) {
+        /// ???? Dlaczego wyświetlane jest tylko podświetlone słowo a nie wszystkie słowa
+        ///// ???? zamiast zero w updatehighlight powinna być cała tablica words z updatehighlight:
         // Aktualizacja podświetlonych słów (przyjmując, że fiszka ma sentence1)
-        const words = fiszka.sentence1 || [];
-        const words2 = fiszka.sentence2 ? fiszka.sentence2.map(w => w.toUpperCase()) : [];
-        const words3 = fiszka.sentence3 || [];
+    const words = [firstWord, secondWord, thirdWord, forthWord, fifthWord, sixthWord];
+    const words2 = [firstWord2, secondWord2, thirdWord2, forthWord2, fifthWord2, sixthWord2];
+    const words3 = [firstWord3, secondWord3, thirdWord3, forthWord3, fifthWord3, sixthWord3];
+
+    // --- Główna linia słów
+    const highlightedWords = words.map((word, i) => 
+        `<span class="word-span${i === index ? ' highlighted' : ''}" data-index="${i}" style="cursor: pointer;">${word}</span>`
+    );
+
+    // --- Druga linia
+    const highlightedWords2 = words2.map((word, i) => 
+        `<span class="word-span2${i === index ? ' highlighted' : ''}" data-index="${i}" style="cursor: pointer;">${word}</span>`
+    );
+
+    // --- Trzecia linia
+    const highlightedWords3 = words3.map((word, i) => 
+        `<span class="word-span3${i === index ? ' highlighted' : ''}" data-index="${i}" style="cursor: pointer;">${word}</span>`
+    );
 
         // Aktualizujemy widok słów
         updateHighlight(
             indexDiv,
             $sentence10,
-            0, // podświetlamy pierwsze słowo nowej fiszki
-            words[0] || '', words[1] || '', words[2] || '', words[3] || '', words[4] || '', words[5] || '',
-            words2[0] || '', words2[1] || '', words2[2] || '', words2[3] || '', words2[4] || '', words2[5] || '',
-            words3[0] || '', words3[1] || '', words3[2] || '', words3[3] || '', words3[4] || '', words3[5] || ''
+            index,
+            words[0] || '', words[1] || '', words[2] || '', words[3] || '', words[4] || '', words[5] || ''
         );
 
         // Wyświetlamy fiszkę
