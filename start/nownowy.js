@@ -1514,3 +1514,16 @@ $(document).on('click', '.next-button', function () {
         firstWord, secondWord, thirdWord, forthWord, fifthWord, sixthWord
     );
 });
+
+
+    function updateWordDisplay(currentWordIndex) {
+        const fiszka = matchingFiszki1[currentFiszkaIndex];
+        console.log('hej11d', fiszka);
+        if (fiszka && fiszka.sentence1) {
+            const currentWord = fiszka.sentence1[currentWordIndex] || "";
+            $currentWordDisplay.text(currentWord); // Aktualizujemy tylko tekst w osobnym elemencie
+        } else if (fiszka && fiszka.sentence2) {
+            const currentWord = fiszka.sentence2[currentWordIndex] || "";
+            $currentWordDisplay.text(currentWord); // Aktualizujemy tylko tekst w osobnym elemencie
+        }
+    }

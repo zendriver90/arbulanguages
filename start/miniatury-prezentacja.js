@@ -469,7 +469,7 @@ let currentPos = 0;
 // ---------- STYLE (dodawane raz) ----------
 if ($('#lessonContainer-style').length === 0) {
   $('<style id="lessonContainer-style">').text(`
-    .media-container { position: relative; height: 310px; width: 100%; margin-bottom: 10px; }
+    .media-container { position: relative; width: 100%; margin-bottom: 10px; }
     .preview-img { width:100%; border-radius:15px; display:block; cursor:pointer; }
     .thumb-row { display:flex; justify-content:center; gap:10px; margin-top:-40px; position: relative; z-index: 2; }
     .thumb-item { display:flex; flex-direction:column; align-items:center; cursor:pointer; width:70px; transition: transform 0.2s ease, filter 0.2s ease; }
@@ -655,9 +655,7 @@ function renderLesson(matchingFiszki1, matchingFiszki2) {
 
     $container.empty();
     $('.image-container3b .sentence').css('display', 'none');
-    if (matchingFiszki1.length > 0) {
-        console.log('Zawartość kontenera5:', matchingFiszki1);
-    }
+
                                 const $buttonb = $('<img>').attr({
                                 'src': 'https://www.arbulang.com/img/startsystem.png', // WzglÄdna ĹcieĹźka do pliku PNG
                                 'class': 'overlay-button' // Klasa dla stylĂłw CSS
@@ -845,15 +843,15 @@ if (words.length > 0 && words2.length > 0 && words3.length > 0) {
 
 // --- LINIA 1 ---
 let button1 = `<button class="prev-button prev-button1">&lt;</button>`;
-let button2 = `<button class="next-button next-button1">&gt;</button>`;
+let button2 = `<button class="next-buttonv next-button1">&gt;</button>`;
 
 // --- LINIA 2 ---
 let button1b = `<button class="prev-button prev-button2">&lt;</button>`;
-let button2b = `<button class="next-button next-button2">&gt;</button>`;
+let button2b = `<button class="next-buttonv next-button2">&gt;</button>`;
 
 // --- LINIA 3 ---
 let button1c = `<button class="prev-button prev-button3">&lt;</button>`;
-let button2c = `<button class="next-button next-button3">&gt;</button>`;
+let button2c = `<button class="next-buttonv next-button3">&gt;</button>`;
 
 // --- LINIA 1 ---
 $sentence10.html(`
@@ -1056,17 +1054,17 @@ function updateHighlight(indexDiv, $sentence10, index, firstWord, secondWord, th
         <div class="sentence-line">
             <button class="prev-button prev-button1">&lt;</button>
             ${highlightedWords.join(' ')}
-            <button class="next-button next-button1">&gt;</button>
+            <button class="next-buttonv next-button1">&gt;</button>
         </div>
         <div class="sentence-line">
             <button class="prev-button prev-button2">&lt;</button>
             ${highlightedWords2.join(' ')}
-            <button class="next-button next-button2">&gt;</button>
+            <button class="next-buttonv next-button2">&gt;</button>
         </div>
         <div class="sentence-line">
             <button class="prev-button prev-button3">&lt;</button>
             ${highlightedWords3.join(' ')}
-            <button class="next-button next-button3">&gt;</button>
+            <button class="next-buttonv next-button3">&gt;</button>
         </div>
     `);
 
@@ -1081,57 +1079,43 @@ function updateHighlight(indexDiv, $sentence10, index, firstWord, secondWord, th
         });
 
 }
-// Obsługa kliknięcia na przycisk NEXT
-$(document).on('click', '.next-button', function () {
+$(document).off('click', '.next-buttonv').on('click', '.next-buttonv', function () {
     const $container = $(this).closest('.image-container3b');
     const indexDiv = $container.data('lesson');
     const $sentence10 = $container.find('.sentence-block').first();
 
-    // Zwiększamy indeks fiszki
-    currentFiszkaIndex++;
-    if (currentFiszkaIndex >= matchingFiszki1.length) {
-        currentFiszkaIndex = 0; // zapętlenie, jeśli chcemy
+    // jeśli indeks nie istnieje — ustaw na -1
+    // (dzięki temu pierwsze kliknięcie zrobi -1 + 1 = 0 → 1)
+    if (typeof currentFiszkaIndex === "undefined") {
+        currentFiszkaIndex = -1;
+        console.warn("⚠️ currentFiszkaIndex był niezdefiniowany — ustawiono -1");
     }
 
-    // Pobierz nową fiszkę
+    // 👇 teraz dopiero inkrementujemy
+    currentFiszkaIndex++;
+
+    console.log("🔥 Kliknięto NEXT, aktualny indeks:", currentFiszkaIndex);
+
+    // jeśli przekroczy zakres — wróć do 0
+    if (currentFiszkaIndex >= matchingFiszki1.length) {
+        currentFiszkaIndex = 0;
+    }
+
     const fiszka = matchingFiszki1[currentFiszkaIndex];
     const index = currentFiszkaIndex;
+
     if (fiszka) {
-        /// ???? Dlaczego wyświetlane jest tylko podświetlone słowo a nie wszystkie słowa
-        ///// ???? zamiast zero w updatehighlight powinna być cała tablica words z updatehighlight:
-        // Aktualizacja podświetlonych słów (przyjmując, że fiszka ma sentence1)
-    const words = [firstWord, secondWord, thirdWord, forthWord, fifthWord, sixthWord];
-    const words2 = [firstWord2, secondWord2, thirdWord2, forthWord2, fifthWord2, sixthWord2];
-    const words3 = [firstWord3, secondWord3, thirdWord3, forthWord3, fifthWord3, sixthWord3];
-
-    // --- Główna linia słów
-    const highlightedWords = words.map((word, i) => 
-        `<span class="word-span${i === index ? ' highlighted' : ''}" data-index="${i}" style="cursor: pointer;">${word}</span>`
-    );
-
-    // --- Druga linia
-    const highlightedWords2 = words2.map((word, i) => 
-        `<span class="word-span2${i === index ? ' highlighted' : ''}" data-index="${i}" style="cursor: pointer;">${word}</span>`
-    );
-
-    // --- Trzecia linia
-    const highlightedWords3 = words3.map((word, i) => 
-        `<span class="word-span3${i === index ? ' highlighted' : ''}" data-index="${i}" style="cursor: pointer;">${word}</span>`
-    );
-
-        // Aktualizujemy widok słów
-        updateHighlight(
-            indexDiv,
-            $sentence10,
-            index,
-            words[0] || '', words[1] || '', words[2] || '', words[3] || '', words[4] || '', words[5] || ''
-        );
-
-        // Wyświetlamy fiszkę
+    // --- aktualizacja tekstu słowa ---
+    if (fiszka && fiszka.sentence1) {
+        const currentWord = fiszka.sentence1[currentWordIndex] || "";
+        $currentWordDisplay.text(currentWord);
+    } else if (fiszka && fiszka.sentence2) {
+        const currentWord = fiszka.sentence2[currentWordIndex] || "";
+        $currentWordDisplay.text(currentWord);
+    }
+        updateHighlight(indexDiv, $sentence10, index, firstWord, secondWord, thirdWord, forthWord, fifthWord, sixthWord);
         showFiszkiForLesson5(indexDiv, fiszki, currentFiszkaIndex, matchingFiszki1);
-
-        // Aktualizacja wyświetlanego słowa w wordDisplay
-        updateWordDisplay(0); // wyświetlamy pierwsze słowo fiszki
+        updateWordDisplay(currentFiszkaIndex);
     }
 });
 
@@ -1151,17 +1135,39 @@ $(document).off('click', '.prev-button').on('click', '.prev-button', function ()
     );
 });
        let currentFiszkaIndex = 0;
-    function updateWordDisplay(currentWordIndex) {
-        const fiszka = matchingFiszki1[currentFiszkaIndex];
-        console.log('hej11d', fiszka);
-        if (fiszka && fiszka.sentence1) {
-            const currentWord = fiszka.sentence1[currentWordIndex] || "";
-            $currentWordDisplay.text(currentWord); // Aktualizujemy tylko tekst w osobnym elemencie
-        } else if (fiszka && fiszka.sentence2) {
-            const currentWord = fiszka.sentence2[currentWordIndex] || "";
-            $currentWordDisplay.text(currentWord); // Aktualizujemy tylko tekst w osobnym elemencie
-        }
+function updateWordDisplay(currentWordIndex) {
+    const fiszka = matchingFiszki1[currentFiszkaIndex];
+    console.log('hej11d', fiszka);
+
+    // --- aktualny index wyświetlany w konsoli i w widoku ---
+    console.log('Aktualny index fiszki:', currentFiszkaIndex);
+
+    // Jeśli chcesz wyświetlać go też w interfejsie (np. w rogu kontenera):
+    let $indexDisplay = $('#indexDisplay');
+    if ($indexDisplay.length === 0) {
+        $indexDisplay = $('<div id="indexDisplay"></div>').css({
+            position: 'absolute',
+            top: '5px',
+            right: '10px',
+            background: 'rgba(0,0,0,0.6)',
+            color: 'white',
+            padding: '4px 8px',
+            borderRadius: '6px',
+            fontSize: '14px',
+            zIndex: 9999
+        }).appendTo('body');
     }
+    $indexDisplay.text(`Index: ${currentFiszkaIndex}`);
+
+    // --- aktualizacja tekstu słowa ---
+    if (fiszka && fiszka.sentence1) {
+        const currentWord = fiszka.sentence1[currentWordIndex] || "";
+        $currentWordDisplay.text(currentWord);
+    } else if (fiszka && fiszka.sentence2) {
+        const currentWord = fiszka.sentence2[currentWordIndex] || "";
+        $currentWordDisplay.text(currentWord);
+    }
+}
                                                 
                 // Funkcja displayWords przyjmuje teraz currentWordIndex
                 function displayWords(nowy, indexDiv) {
@@ -2461,28 +2467,49 @@ if (currentFiszkaIndex === 0) {
     }
     $mediaContainer.append($media);
 
-    // --- Pasek miniatur ---
-    const $thumbContainer = $('<div>').addClass('thumb-row');
-    currentTriplet.forEach((dataName, pos) => {
-        const $item = $('<div>').addClass('thumb-item');
-        if (pos === currentPos) $item.addClass('activeItem');
+// --- Pasek miniatur ze strzałkami ---
+const $thumbContainer = $('<div>').addClass('thumb-row');
+currentTriplet.forEach((dataName, pos) => {
+    const $item = $('<div>').addClass('thumb-item');
+    if (pos === currentPos) $item.addClass('activeItem');
 
-        const $img = $('<img>').addClass('thumb-img').attr('data-pos', pos);
-        setImgSrcForce($img, miniaturka[pos]);
-        $img.off('click.thumb').on('click.thumb', function () {
-            const p = Number($(this).attr('data-pos'));
-            if (!Number.isNaN(p)) { currentPos = p; videoVisible = false; renderLesson(); }
-        });
-
-        const $desc = $('<div>').addClass('thumb-desc').text(thumbDescriptions[pos] || '');
-
-        const linkForThumb = linkMap[dataName] || `demo1angielski.html?category=${selectedCategory}&data=${dataName}`;
-        const $link = $('<a>').attr({ href: linkForThumb, target: '_blank' }).addClass('thumb-link').text('Otwórz pojedyńczą lekcję');
-
-        $item.append($img, $desc, $link);
-        $thumbContainer.append($item);
+    const $img = $('<img>').addClass('thumb-img').attr('data-pos', pos);
+    setImgSrcForce($img, miniaturka[pos]);
+    $img.off('click.thumb').on('click.thumb', function () {
+        const p = Number($(this).attr('data-pos'));
+        if (!Number.isNaN(p)) { currentPos = p; videoVisible = false; renderLesson(); }
     });
-    $mediaContainer.append($thumbContainer);
+
+    const $desc = $('<div>').addClass('thumb-desc').text(thumbDescriptions[pos] || '');
+
+    const linkForThumb = linkMap[dataName] || `demo1angielski.html?category=${selectedCategory}&data=${dataName}`;
+    const $link = $('<a>').attr({ href: linkForThumb, target: '_blank' }).addClass('thumb-link').text('Otwórz pojedyńczą lekcję');
+
+    $item.append($img, $desc, $link);
+    $thumbContainer.append($item);
+});
+
+// --- Strzałki po bokach miniatur ---
+const $thumbWrapper = $('<div>').addClass('thumb-wrapper');
+
+const $leftArrow = $('<button>')
+  .addClass('thumb-arrow left-arrow')
+  .html('←')
+  .on('click', () => {
+      currentPos = (currentPos - 1 + currentTriplet.length) % currentTriplet.length;
+      renderLesson(matchingFiszki1, matchingFiszki2);
+  });
+
+const $rightArrow = $('<button>')
+  .addClass('thumb-arrow right-arrow')
+  .html('→')
+  .on('click', () => {
+      currentPos = (currentPos + 1) % currentTriplet.length;
+      renderLesson(matchingFiszki1, matchingFiszki2);
+  });
+
+$thumbWrapper.append($leftArrow, $thumbContainer, $rightArrow);
+$mediaContainer.append($thumbWrapper);
 // --- Teksty / zdania ---
     const $textContainer = $('<div>').addClass('text-block');
     let currentSentenceHtml = "";
@@ -2524,7 +2551,7 @@ if (currentPos === 0 && typeof addBackgroundToText1b === 'function') {
                 const { sentence20, sentence22 } = addBackgroundToText2b(matchingFiszki2, matchingIndexes, currentPos, 0, matchingIndexes2, rodzaj, matchingIndexes3, matchingLessons5b);
 
     // zapis globalny, by highlightFirstWord miało dostęp
-    globalSentence20 = sentence20
+    globalSentence20 = sentence20;
     globalSentence22 = sentence22;
     globalSentence20b = sentence20b;
     globalSentence22b = sentence22b;
@@ -2576,20 +2603,21 @@ const $tripletLinkA = $('<a>')
 
 $textContainer.append($singleLinkA, $tripletLinkA);
 
-    // Nawigacja
+    // --- Nawigacja w obrębie trójki ---
     const $nav = $('<div>').addClass('nav-buttons');
-const $left = $('<button>').text('←').on('click', () => {
-    currentPos = (currentPos - 1 + currentTriplet.length) % currentTriplet.length;
-    renderLesson(matchingFiszki1, matchingFiszki2);
-});
-const $right = $('<button>').text('→').on('click', () => {
-    currentPos = (currentPos + 1) % currentTriplet.length;
-    renderLesson(matchingFiszki1, matchingFiszki2);
-});
+    const $left = $('<button>').text('←').on('click', () => {
+        currentPos = (currentPos - 1 + currentTriplet.length) % currentTriplet.length;
+        videoVisible = false;
+        renderLesson();
+    });
+    const $right = $('<button>').text('→').on('click', () => {
+        currentPos = (currentPos + 1) % currentTriplet.length;
+        videoVisible = false;
+        renderLesson();
+    });
     $nav.append($left, $right);
 
     $container.append($mediaContainer, $textContainer, $nav);
-    
 }
 
 $('body').off('click', '.run-icon').on('click', '.run-icon', function () {
@@ -2598,7 +2626,61 @@ $('body').off('click', '.run-icon').on('click', '.run-icon', function () {
   window.open(link, '_blank');
 });
 
-renderLesson(matchingFiszki1, matchingFiszki2); // jeśli chcesz drugie zdanie
+// ---------- STARTUP: synchronizacja trojek, linkMap i ustawienia currentTriplet ----------
+function startup() {
+  // najpierw wypełnij tablica60, trojkiGlobal i linkMap
+  updateButtonColors();
+
+  // spróbuj odczytać parametry z URL
+  const parsed = parseDataParamFromURL();
+  if (parsed && parsed.length > 0) {
+    if (parsed.length === 1) {
+      // pojedynczy numer - spróbuj odnaleźć odpowiadającą trójkę
+      // jeśli trojkiGlobal jest pusty (np. updateButtonColors jeszcze nie wrócił) - poczekaj krótko
+      if (trojkiGlobal.length === 0) {
+        // odczekaj i spróbuj ponownie
+        setTimeout(() => {
+          if (!chooseTripletFromSingleNumber(parsed[0])) {
+            // fallback: ustaw pojedynczy numer jako trójkę z nim samym
+            currentTriplet = [parsed[0]];
+            currentPos = 0;
+          }
+          renderLesson();
+        }, 60);
+        return;
+      } else {
+        if (!chooseTripletFromSingleNumber(parsed[0])) {
+          currentTriplet = [parsed[0]];
+          currentPos = 0;
+        }
+      }
+    } else {
+      // jeżeli mamy już listę (np. 5,6,7) -> ustaw currentTriplet bezpośrednio
+      currentTriplet = parsed.slice();
+      currentPos = 0;
+    }
+  } else {
+    // brak parametru w URL -> użyj pierwszej trojki (jeśli jest), inaczej fallback
+    if (trojkiGlobal.length > 0) {
+      currentTriplet = trojkiGlobal[0].slice();
+      currentPos = 0;
+    } else {
+      // fallback: zwykła sekwencja 0..miniaturka.length-1
+      currentTriplet = miniaturka.map((_, i) => i);
+      currentPos = 0;
+    }
+  }
+
+  // render initial
+  renderLesson();
+
+  // dodaj run icons (jeśli chcesz)
+  setTimeout(addRunIconsForVisible, 50);
+}
+
+// Uruchom startup po krótkim delay (daje czas updateButtonColors)
+setTimeout(startup, 0);
+
 
 
                     if (selectedCategory === 'all') {

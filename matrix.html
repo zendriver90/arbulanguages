@@ -27,6 +27,58 @@
         <meta name="keywords" content="naucz się angielskiego, 1000 angielskich słów, szybka nauka angielskiego, jak nauczyć się angielskiego, jak szybko nauczyć się języka, nauka angielskiego z przyjemnością" />
         <style>
             @media (min-width: 999px) {
+                .thumb-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.thumb-row {
+  display: flex;
+  gap: 10px;
+  overflow-x: auto;
+  padding: 5px 0;
+  scroll-behavior: smooth;
+  overflow: hidden;
+  flex: 1;
+}
+
+.thumb-arrow {
+  background-color: #f0f0f0;
+  border: none;
+          margin-bottom: 100px;
+  border-radius: 50%;
+  height: 40px;
+  font-size: 20px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+.thumb-arrow:hover {
+  background-color: #ddd;
+  transform: scale(1.1);
+}
+
+.thumb-item {
+  flex-shrink: 0;
+  text-align: center;
+}
+
+.thumb-img {
+  width: 80px;
+  height: 60px;
+  border-radius: 10px;
+  object-fit: cover;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+.thumb-img:hover {
+  transform: scale(1.1);
+}
                 .text-intro {
     margin: 5px 0 8px 0;
     font-weight: bold;

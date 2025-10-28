@@ -1114,7 +1114,7 @@ id: [
         srcWord: ["https://www.arbulang.com/filmy/fruits.mp4", "Anioł Nowej Nadziei (2014)"],
         srcWordimage: "https://www.arbulang.com/filmy/fruits.png",
         story: "<u><b>Oni</u></b> z<u><b>dej</u></b>mują jabłka z jabłoni",
-        desc: "day[dej] - dzień",
+        desc: "day[dej] - oni",
         sentence1: [
             "They"
         ],
@@ -2381,7 +2381,7 @@ id: [
             "practices",
             "yoga"
         ],
-        key: "she",
+        key: "he",
         category2: ["osoby"],
         category3: ["PresenttSimple", "PresentSimplePodmiot"]
     },

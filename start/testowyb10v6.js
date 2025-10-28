@@ -1703,10 +1703,10 @@ fiszki10.push(
             165
         ],
         img: [
-            "https://www.arbulang.com/img/fiszki1/364a.jpg"
+            "https://www.arbulang.com/img/fiszki1/554a.jpg"
         ],
         story: [
-            ""
+            "Trzy<u><b>mej</u></b> mnie, bo nie wiem co <u><b>k</u></b>urde <u><b>robić</u></b>"
         ],
         desc: "make[mejk] - robić",
         sentence2: [
@@ -1839,10 +1839,10 @@ fiszki10.push(
             165
         ],
         img: [
-            "https://www.arbulang.com/img/fiszki1/364a.jpg"
+            "https://www.arbulang.com/img/fiszki1/558a.jpg"
         ],
         story: [
-            ""
+            "P<u><b>lan</u></b> na <u><b>obiad</u></b> jest taki, że jem kiedy <u><b>cz</u></b>uje się głodny"
         ],
         desc: "lunch[lancz] - obiad",
         sentence2: [
@@ -1870,13 +1870,7 @@ fiszki10.push(
             93,
             166
         ],
-        img: [
-            "https://www.arbulang.com/img/fiszki1/7a.jpg",
-            "https://www.arbulang.com/img/fiszki1/7b.jpg",
-            "https://www.arbulang.com/img/fiszki1/7c.jpg",
-            "https://www.arbulang.com/img/fiszki1/7d.jpg",
-            "https://www.arbulang.com/img/fiszki1/7e.jpg"
-        ],
+        img: "https://www.arbulang.com/img/fiszki1/207b.jpg",
         translate: "Oni idą wzdłuż cichej ulicy",
         translateb: "[Dej łok elong de kłajet strit]",
         translateb2: "[Dej łok elong]",
@@ -1886,8 +1880,8 @@ fiszki10.push(
         word: [
             "https://www.arbulang.com/voice/bike.mp4"
         ],
-        story: "<u><b>Ona</u></b> - Patrycja ma ri<u><b>szi</u></b> to naturalny antyoksydant",
-        desc: "they[] - niebieski/niebieskie",
+        story: "<u><b>Oni</u></b> z<u><b>dej</u></b>mują jabłka z jabłoni",
+        desc: "they[] - oni",
         sentence1: [
             "They"
         ],
@@ -1910,7 +1904,7 @@ fiszki10.push(
             "https://www.arbulang.com/img/fiszki1/560a.jpg"
         ],
         story: [
-            "Patelnia łok spowodowała, że po zgotowanym obiedzie chodzę tanecznym krokiem"
+            "Patelnia <u><b>łok</u></b> spowodowała, że po zgotowanym obiedzie <u><b>chodzę</u></b> tanecznym krokiem"
         ],
         desc: "walk[łok] - iść, chodzić",
         sentence2: [
@@ -1932,7 +1926,7 @@ fiszki10.push(
             166
         ],
         img: [
-            "https://www.arbulang.com/img/fiszki1/364a.jpg"
+            "https://www.arbulang.com/img/fiszki1/561a.jpg"
         ],
         story: [
             ""
@@ -1989,7 +1983,7 @@ fiszki10.push(
             167
         ],
         img: [
-            "https://www.arbulang.com/img/fiszki1/364a.jpg"
+            "https://www.arbulang.com/img/fiszki1/563a.jpg"
         ],
         story: [
             ""
@@ -2013,7 +2007,7 @@ fiszki10.push(
             167
         ],
         img: [
-            "https://www.arbulang.com/img/fiszki1/364a.jpg"
+            "https://www.arbulang.com/img/fiszki1/564a.jpg"
         ],
         story: [
             ""
@@ -2082,7 +2076,7 @@ fiszki10.push(
             168
         ],
         img: [
-            "https://www.arbulang.com/img/fiszki1/364a.jpg"
+            "https://www.arbulang.com/img/fiszki1/566a.jpg"
         ],
         story: [
             ""
@@ -2245,7 +2239,7 @@ fiszki10.push(
         word: [
             "https://www.arbulang.com/voice/bike.mp4"
         ],
-        desc: "we[aur] - nasz/nasze",
+        desc: "we[łi] - nasz/nasze",
         sentence1: [
             "We"
         ],
@@ -2542,7 +2536,7 @@ fiszki10.push(
             173
         ],
         img: [
-            "https://www.arbulang.com/img/fiszki1/364a.jpg"
+            "https://www.arbulang.com/img/fiszki1/582a.jpg"
         ],
         story: [
             "Pan <u><b>Hil</u></b>ary w okularach wchodzi na <u><b>wzgórze</u></b>, słońce <u><b>chyl</u></b>i się ku zachodowi"
@@ -2581,7 +2575,7 @@ fiszki10.push(
         story: "W <b><u>Ken</b></u>ii każdy <b><u>może</b></u> ubierać się na ciepłą pogodę",
         desc: "can[ken] - może, móc",
         sentence1: [
-            "The"
+            "Can"
         ],
         sentence: [
             "Can",
@@ -2602,7 +2596,7 @@ fiszki10.push(
             "https://www.arbulang.com/img/fiszki1/95aa.jpg"
         ],
         story: "<u><b>Ona</u></b> - Patrycja ma ri<u><b>szi</u></b> to naturalny antyoksydant",
-        desc: "she[szi] - niebieski/niebieskie",
+        desc: "she[szi] - ona",
         sentence2: [
             "she"
         ],
