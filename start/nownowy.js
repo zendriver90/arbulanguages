@@ -1527,3 +1527,205 @@ $(document).on('click', '.next-button', function () {
             $currentWordDisplay.text(currentWord); // Aktualizujemy tylko tekst w osobnym elemencie
         }
     }
+    
+    
+    
+// ---------- GLOBAL STATE ----------
+let videoVisible = false;
+
+// mapa data-name -> link (wypełniana w updateButtonColors)
+const linkMap = {};
+// tablica data-name (np. [1,2,3,4,5,6...]) z DOM
+const tablica60 = [];
+// trojki wygenerowane z tablica60 (np. [[1,2,3],[4,5,6],...])
+let trojkiGlobal = [];
+
+// currentTriplet: rzeczywiste data-name aktualnej trójki (np. [5,6,7])
+let currentTriplet = [];
+// currentPos: pozycja w currentTriplet (0..currentTriplet.length-1)
+let currentPos = 0;
+
+
+
+// ---------- STYLE (dodawane raz) ----------
+if ($('#lessonContainer-style').length === 0) {
+  $('<style id="lessonContainer-style">').text(`
+    .media-container { position: relative; width: 100%; margin-bottom: 10px; }
+    .preview-img { width:100%; border-radius:15px; display:block; cursor:pointer; }
+    .thumb-row { display:flex; justify-content:center; gap:10px; margin-top:-40px; position: relative; z-index: 2; }
+    .thumb-item { display:flex; flex-direction:column; align-items:center; cursor:pointer; width:70px; transition: transform 0.2s ease, filter 0.2s ease; }
+    .thumb-img { width:70px; height:auto; border:2px solid white; border-radius:10px; box-shadow:0 2px 6px rgba(0,0,0,0.3); filter: brightness(0.85); transition: all 0.18s ease; }
+    .thumb-desc { font-size:0.75rem; color:#ccc; text-align:center; margin-top:3px; filter: brightness(0.85); transition: all 0.18s ease; }
+    .thumb-item:hover .thumb-img, .thumb-item:hover .thumb-desc { transform: scale(1.05); filter: brightness(1); }
+    .thumb-item.activeItem .thumb-img, .thumb-item.activeItem .thumb-desc { border:3px solid limegreen; transform: scale(1.07); filter: brightness(1); }
+    .thumb-link { font-size:0.72rem; color:#66ccff; text-align:center; margin-top:4px; text-decoration:underline; display:block; }
+    .text-block { font-size:13px; color:white; text-align:center; line-height:1.6; margin-top:8px; }
+    .text-link { display:block; margin-top:8px; color:#00bfff; text-decoration:underline; font-size:0.9rem; }
+    .nav-buttons { display:flex; justify-content:center; gap:20px; margin-top:10px; }
+  `).appendTo('head');
+}
+
+// ---------- HELPER: wymuszenie zmiany src obrazka ----------
+function setImgSrcForce($img, src) {
+  if (!$img || !$img.length) return;
+  const current = $img.attr('src') || '';
+  if (current === src) {
+    $img.attr('src', '');
+    requestAnimationFrame(() => requestAnimationFrame(() => $img.attr('src', src)));
+  } else {
+    $img.attr('src', src);
+  }
+}
+
+let previousTrojkiJSON = '';
+function updateButtonColors() {
+  tablica60.length = 0;
+  for (let key in linkMap) delete linkMap[key];
+
+  const color = (typeof colorMapping !== 'undefined' && colorMapping[selectedCategory])
+    ? colorMapping[selectedCategory]
+    : '#800080';
+
+  document.querySelectorAll('.sentence-block, .sentence-blockB').forEach(block => {
+    const raw = block.getAttribute('data-name');
+    const dataName = parseInt(raw, 10);
+    if (!Number.isNaN(dataName)) tablica60.push(dataName);
+
+    if (typeof startRange2 !== 'undefined' && typeof endRange2 !== 'undefined') {
+      const dataNameSafe = parseInt(block.getAttribute('data-name'), 10);
+      if (!Number.isNaN(dataNameSafe) && dataNameSafe >= startRange2 && dataNameSafe <= endRange2) {
+        const button = block.querySelector('button.left-button, button.left-buttonb, button.left-buttonbb');
+        if (button) {
+          button.style.backgroundColor = color;
+          button.style.color = 'white';
+        }
+      }
+    }
+  });
+
+  const trojki = [];
+  for (let i = 0; i < tablica60.length; i += 3) {
+    trojki.push(tablica60.slice(i, i + 3));
+  }
+
+  if (typeof newIndex !== 'undefined' && typeof newIndex5 !== 'undefined' &&
+      typeof newIndex10 !== 'undefined' && typeof index50 !== 'undefined') {
+    if (newIndex === 0 || newIndex5 === 0 || newIndex10 === 0) {
+      for (let i = 0; i < trojki.length; i++) {
+        trojki[i] = trojki[i].map(num => (num > index50 ? num - 3 : num));
+      }
+    }
+  }
+
+  const currentTrojkiJSON = JSON.stringify(trojki);
+  if (currentTrojkiJSON !== previousTrojkiJSON) {
+    previousTrojkiJSON = currentTrojkiJSON;
+    $('.hidden-link').remove();
+    $('.run-button3').remove();
+
+    trojkiGlobal = trojki.slice();
+
+    trojki.forEach((trojka, i) => {
+      const lessonNumber = i + 1;
+
+      // 🔹 Link do całej lekcji (3 zdania)
+      const tripletLink = `demo1angielski.html?category=${selectedCategory}&data=${trojka.join(',')}`;
+
+      // 🔹 Dla każdego zdania z osobna:
+      trojka.forEach(indexDiv => {
+        // pojedynczy link do zdania
+        const singleLink = `demo1angielski.html?category=${selectedCategory}&data=${indexDiv}`;
+        linkMap[indexDiv] = singleLink; // teraz każde zdanie ma własny link
+
+        const $containerBlock = $(`.sentence-block[data-name="${indexDiv}"]`);
+        if ($containerBlock.length) {
+          // 🔸 przycisk pojedynczej lekcji
+          const $buttonSingle = $('<a></a>')
+            .attr({
+              href: singleLink,
+              target: '_blank',
+              rel: 'noopener noreferrer'
+            })
+            .css({
+              position: 'absolute',
+              top: '60px',
+              right: '5px',
+              'z-index': 2000,
+              color: 'white',
+              'background-color': '#007bff',
+              border: 'none',
+              'border-radius': '4px',
+              padding: '5px 10px',
+              'text-decoration': 'none',
+              cursor: 'pointer'
+            })
+            .addClass('run-button3')
+            .text('➡ Otwórz pojedynczą lekcję');
+
+          $containerBlock.append($buttonSingle);
+        }
+      });
+
+      // 🔸 Dodatkowo – przycisk do całej lekcji (3 zdania)
+      const firstIndex = trojka[0];
+      const $containerFirst = $(`.sentence-block[data-name="${firstIndex}"]`);
+      if ($containerFirst.length) {
+        const $buttonTriplet = $('<a></a>')
+          .attr({
+            href: tripletLink,
+            target: '_blank',
+            rel: 'noopener noreferrer'
+          })
+          .css({
+            position: 'absolute',
+            top: '95px',
+            right: '5px',
+            'z-index': 2000,
+            color: 'white',
+            'background-color': '#28a745',
+            border: 'none',
+            'border-radius': '4px',
+            padding: '5px 10px',
+            'text-decoration': 'none',
+            cursor: 'pointer'
+          })
+          .addClass('run-button3')
+          .text('📘 Otwórz całą lekcję');
+
+        $containerFirst.append($buttonTriplet);
+      }
+    });
+  }
+}
+
+// Delegacja zdarzeń dla run-button3 (otwieranie linku)
+$('body').off('click', '.run-button3').on('click', '.run-button3', function () {
+  const indexDiv = $(this).attr('data-index2');
+  const lessonLink = linkMap[indexDiv];
+  if (lessonLink) window.open(lessonLink, '_blank');
+});
+
+// ---------- FUNKCJE POMOCNICZE: Parsowanie parametru data z URL ----------
+function parseDataParamFromURL() {
+  if (typeof window === 'undefined') return null;
+  const dataParam = new URLSearchParams(window.location.search).get('data');
+  if (!dataParam) return null;
+  const parts = dataParam.split(',').map(s => parseInt(s, 10)).filter(n => !Number.isNaN(n));
+  if (parts.length === 0) return null;
+  return parts;
+}
+
+// Jeśli mamy pojedynczy numer (np. ?data=5) i trojkiGlobal jest już zbudowane,
+// znajdź trójkę, która zawiera ten numer i ustaw currentTriplet oraz currentPos.
+function chooseTripletFromSingleNumber(singleNumber) {
+  for (let t = 0; t < trojkiGlobal.length; t++) {
+    const tri = trojkiGlobal[t];
+    const idx = tri.indexOf(singleNumber);
+    if (idx !== -1) {
+      currentTriplet = tri.slice(); // przypisz
+      currentPos = idx;
+      return true;
+    }
+  }
+  return false;
+}

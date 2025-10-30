@@ -81,7 +81,7 @@
 let sentence10 = "", sentence11 = "", sentence10b = "", sentence11b = "", sentence10c = "", sentence11c = "";
 function addBackgroundToText1b(matchingFiszki1, matchingIndexes, aktualny, lesson1PartLength, matchingIndexes2, rodzaj, matchingIndexes3, matchingLessons5b) {
 
-
+console.log('hej155', matchingFiszki1);
     for (let i = 0; i < matchingFiszki1.length; i++) {
         const fiszka = matchingFiszki1[i];
         if (!fiszka.sentence1) continue;
@@ -785,6 +785,7 @@ function renderLesson(matchingFiszki1, matchingFiszki2) {
 
 function highlightFirstWord(indexDiv) {
     const $container = $(`.image-container3b[data-lesson="${indexDiv}"]`);
+    const matchingFiszki1 = fiszki.filter(fiszka => fiszka.id[1] === indexDiv);
     $(`.image-container3b`).css('z-index', 100); 
     $container.css('z-index', 102); 
 
@@ -2514,10 +2515,14 @@ $mediaContainer.append($thumbWrapper);
     const $textContainer = $('<div>').addClass('text-block');
     let currentSentenceHtml = "";
 
-    // --- Sprawdzenie cache ---
-    if (!sentenceCache[currentPos]) {
-        let currentSentenceHtml = "";
-        try {
+// --- Sprawdzenie cache ---
+if (!sentenceCache[currentPos]) {
+    let currentSentenceHtml = "";
+    try {
+        // Tutaj dodaj definicje matchingFiszki
+        const matchingFiszki1 = fiszki.filter(fiszka => fiszka.id[1] === currentDataName);
+        const matchingFiszki2 = fiszki.filter(fiszka => fiszka.id[1] === currentTriplet[1]);
+        const matchingFiszki3 = fiszki.filter(fiszka => fiszka.id[1] === currentTriplet[2]);
 if (currentPos === 0 && typeof addBackgroundToText1b === 'function') {
     const { sentence10, sentence11, sentence10b, sentence11b } = addBackgroundToText1b(
         matchingFiszki1,
@@ -2673,9 +2678,6 @@ function startup() {
 
   // render initial
   renderLesson();
-
-  // dodaj run icons (jeśli chcesz)
-  setTimeout(addRunIconsForVisible, 50);
 }
 
 // Uruchom startup po krótkim delay (daje czas updateButtonColors)
