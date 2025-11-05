@@ -6,11 +6,11 @@ id: [
         117
 ],
         img: [
-            "https://www.arbulang.com/img/fiszki1/28aa.jpg",
-            "https://www.arbulang.com/img/fiszki1/28bb.jpg",
-            "https://www.arbulang.com/img/fiszki1/28cc.jpg",
-            "https://www.arbulang.com/img/fiszki1/28dd.jpg",
-            "https://www.arbulang.com/img/fiszki1/28ee.jpg"
+            "http://localhost/arbulanguage.com/img/fiszki1/28aa.jpg",
+            "http://localhost/arbulanguage.com/img/fiszki1/28bb.jpg",
+            "http://localhost/arbulanguage.com/img/fiszki1/28cc.jpg",
+            "http://localhost/arbulanguage.com/img/fiszki1/28dd.jpg",
+            "http://localhost/arbulanguage.com/img/fiszki1/28ee.jpg"
         ],
         story: [
             "Na mojej łodzi <u><b>kat</u></b>amaran <u><b>kot</u></b> pomaga mi wiosłować",
@@ -43,7 +43,7 @@ id: [
             118
         ],
         img: [
-            "https://www.arbulang.com/img/fiszki1/401a.jpg"
+            "http://localhost/arbulanguage.com/img/fiszki1/401a.jpg"
         ],
         story: [
             "Ktoś mówi po wiejsku: 'ja mu ma<u><b>choł</u></b> z <u><b>domu</u></b>, o <u><b>m</u></b>nie nie widział'"
@@ -69,22 +69,22 @@ id: [
             119
         ],
         img: [
-                "https://www.arbulang.com/img/fiszki1/5a.jpg",
-                "https://www.arbulang.com/img/fiszki1/5b.jpg",
-                "https://www.arbulang.com/img/fiszki1/5c.jpg",
-                "https://www.arbulang.com/img/fiszki1/5d.jpg",
-                "https://www.arbulang.com/img/fiszki1/5e.jpg"
+                "http://localhost/arbulanguage.com/img/fiszki1/5a.jpg",
+                "http://localhost/arbulanguage.com/img/fiszki1/5b.jpg",
+                "http://localhost/arbulanguage.com/img/fiszki1/5c.jpg",
+                "http://localhost/arbulanguage.com/img/fiszki1/5d.jpg",
+                "http://localhost/arbulanguage.com/img/fiszki1/5e.jpg"
         ],
         translate: "Ptaki latają nad ziemią",
         translateb: "[De byrds flajs ołwer de graund]",
         translateb2: "[De byrds flajs ołwer de graund]",
         translateb3: "The birds flies over the ground",
-        srcWord: ["https://www.arbulang.com/filmy/cat2.mp4", "Kot w butach: Ostatnie życzenie (2022)"],
-        srcWord2: ["https://www.arbulang.com/filmy/procedure.mp4", ""],
-        srcWordimage: "https://www.arbulang.com/filmy/cat2.png",
+        srcWord: ["http://localhost/arbulanguage.com/filmy/lekcja22/birds.mp4", "Kot w butach: Ostatnie życzenie (2022)"],
+        srcWord2: ["http://localhost/arbulanguage.com/filmy/procedure.mp4", ""],
+        srcWordimage: "http://localhost/arbulanguage.com/filmy/lekcja22/birds.png",
         opis: "Zdziwienie kota w animowanym filmie",
         word: [
-                "https://www.arbulang.com/voice/bike.mp4"
+                "http://localhost/arbulanguage.com/voice/bike.mp4"
         ],
         story: [
                 'Piłki do gry w kosza są twar<span class="adannotation" data-annotation="1"><u><b>de</u></b></span>. Sam ten sport <u><b>to</u></b> twarda gra',
@@ -118,7 +118,7 @@ id: [
             119
         ],
         img: [
-            "https://www.arbulang.com/img/fiszki1/403a.jpg"
+            "http://localhost/arbulanguage.com/img/fiszki1/403a.jpg"
         ],
         story: [
             "<u><b>By</u></b> zobaczyć <u><b>ptaka</u></b> - jastrzębia trzeba się ba<u><b>rd</u></b>zo natrudzić"
@@ -148,7 +148,7 @@ id: [
             119
         ],
         img: [
-            "https://www.arbulang.com/img/fiszki1/364a.jpg"
+            "http://localhost/arbulanguage.com/img/fiszki1/364a.jpg"
         ],
         story: [
             "<u><b>Fla</u></b>ming lata sobie nad T<u><b>ajs</u></b>kim jeziorem"
@@ -178,7 +178,7 @@ id: [
             119
         ],
         img: [
-            "https://www.arbulang.com/img/fiszki1/405a.jpg"
+            "http://localhost/arbulanguage.com/img/fiszki1/405a.jpg"
         ],
         story: [
             "'Ooooł <u><b>nad</u></b> naszym domem leci orzeł taki jakiego mam wygra<u><b>wer</u></b>owanego na bryloku przy kluczach"
@@ -208,7 +208,7 @@ id: [
             120
         ],
         img: [
-            "https://www.arbulang.com/img/fiszki1/406a.jpg"
+            "http://localhost/arbulanguage.com/img/fiszki1/406a.jpg"
         ],
         story: [
             ""
@@ -237,12 +237,12 @@ id: [
             66,
             121
         ],
-        img: "https://www.arbulang.com/img/fiszki1/95aa.jpg",
+        img: "http://localhost/arbulanguage.com/img/fiszki1/95aa.jpg",
         translate: "Ona mówi po angielsku bardzo płynnie teraz",
         translateb: "[Szi spiks inglisz wery fluentli nał]",
         translateb3: "She speaks English very fluently now",
-        srcWord: ["https://www.arbulang.com/filmy/.mp4", ""],
-        srcWordimage: "https://www.arbulang.com/filmy/.png",
+        srcWord: ["http://localhost/arbulanguage.com/filmy/lekcja22/english.mp4", ""],
+        srcWordimage: "http://localhost/arbulanguage.com/filmy/lekcja22/english.png",
         opis: "",
         story: "<u><b>Ona</u></b> - Patrycja ma ri<u><b>szi</u></b> to naturalny antyoksydant",
         desc: "she[szi] - ona",
@@ -271,7 +271,7 @@ id: [
             121
         ],
         img: [
-            "https://www.arbulang.com/img/fiszki1/364a.jpg"
+            "http://localhost/arbulanguage.com/img/fiszki1/364a.jpg"
         ],
         story: [
             "<u><b>Spik</u></b>er coś tam <u><b>s</u></b>obie <u><b>mówi</u></b> w tle meczu na żywo"
@@ -301,7 +301,7 @@ id: [
             66,
             121
         ],
-        img: "https://www.arbulang.com/img/fiszki1/277a.jpg",
+        img: "http://localhost/arbulanguage.com/img/fiszki1/277a.jpg",
         story: "<u><b>In</u></b>nowacyjna metoda nauki językow, to jak lepienie <u><b>gli</u></b>ny - bardzo łatwe i <u><b>sz</u></b>ybkie",
         desc: "english[TRUDNOŚĆ JĘZYKOWA - inglisz(30%), ynglish(30%), english(30%)] - coś angielskiego np. język angielski",
         sentence2: [
@@ -328,7 +328,7 @@ id: [
             66,
             121
         ],
-        img: "https://www.arbulang.com/img/fiszki1/42aa.jpg",
+        img: "http://localhost/arbulanguage.com/img/fiszki1/42aa.jpg",
         story: "<b><u>Wery</b></u>fikacja przebiegła poprawnie dla tej osoby i ona jest <b><u>bardzo</b></u> zadowolona",
         desc: "very[wery] - bardzo",
         sentence2: [
@@ -356,7 +356,7 @@ id: [
             121
         ],
         img: [
-            "https://www.arbulang.com/img/fiszki1/411a.jpg"
+            "http://localhost/arbulanguage.com/img/fiszki1/411a.jpg"
         ],
         story: [
             "<b><u>Flu</b></u>orescencyjny brylok <b><u>płynnie</b></u> przypomina mi jak ważny jest dla mnie dom, mam do niego s<b><u>ent</b></u>yment i nie li</b></u>czę, że kiedyś się przeprowadzę"
@@ -386,7 +386,7 @@ id: [
             66,
             121
         ],
-        img: "https://www.arbulang.com/img/fiszki1/228a.jpg",
+        img: "http://localhost/arbulanguage.com/img/fiszki1/228a.jpg",
         story: "<u><b>Teraz</u></b> moja ulubiona woda - to <u><b>Nał</u></b>ęczowska",
         desc: "now[nał] - teraz",
         sentence2: [
@@ -414,20 +414,20 @@ id: [
             122
         ],
         img: [
-            "https://www.arbulang.com/img/fiszki1/7a.jpg",
-            "https://www.arbulang.com/img/fiszki1/7b.jpg",
-            "https://www.arbulang.com/img/fiszki1/7c.jpg",
-            "https://www.arbulang.com/img/fiszki1/7d.jpg",
-            "https://www.arbulang.com/img/fiszki1/7e.jpg"
+            "http://localhost/arbulanguage.com/img/fiszki1/7a.jpg",
+            "http://localhost/arbulanguage.com/img/fiszki1/7b.jpg",
+            "http://localhost/arbulanguage.com/img/fiszki1/7c.jpg",
+            "http://localhost/arbulanguage.com/img/fiszki1/7d.jpg",
+            "http://localhost/arbulanguage.com/img/fiszki1/7e.jpg"
         ],
         translate: "Drzewo jest wysokie i zielone",
         translateb: "[De tri is tol and grin]",
         translateb2: "[De tri is tol and grin]",
         translateb3: "The tree is tall and green",
-        srcWord: ["https://www.arbulang.com/filmy/tree.mp4", "300 ()"],
-        srcWordimage: "https://www.arbulang.com/filmy/tree.png",
+        srcWord: ["http://localhost/arbulanguage.com/filmy/lekcja23/tree.mp4", "300 ()"],
+        srcWordimage: "http://localhost/arbulanguage.com/filmy/lekcja23/tree.png",
         word: [
-            "https://www.arbulang.com/voice/bike.mp4"
+            "http://localhost/arbulanguage.com/voice/bike.mp4"
         ],
         story: "",
         desc: "the[de] - ",
@@ -456,7 +456,7 @@ id: [
             122
         ],
         img: [
-            "https://www.arbulang.com/img/fiszki1/414a.jpg"
+            "http://localhost/arbulanguage.com/img/fiszki1/414a.jpg"
         ],
         story: [
             "Mam tatułaż złożony z <b><u>drzewa</b></u> i <b><u>tri</b></u>bala. Taki <b><u>tri</b></u>k"
@@ -487,13 +487,13 @@ id: [
             122
         ],
         img: [
-            "https://www.arbulang.com/img/fiszki1/8a.jpg",
-            "https://www.arbulang.com/img/fiszki1/8b.jpg",
-            "https://www.arbulang.com/img/fiszki1/8c.jpg",
-            "https://www.arbulang.com/img/fiszki1/8d.jpg",
-            "https://www.arbulang.com/img/fiszki1/8e.jpg",
-            "https://www.arbulang.com/img/fiszki1/8f.jpg",
-            "https://www.arbulang.com/img/fiszki1/8g.jpg"
+            "http://localhost/arbulanguage.com/img/fiszki1/8a.jpg",
+            "http://localhost/arbulanguage.com/img/fiszki1/8b.jpg",
+            "http://localhost/arbulanguage.com/img/fiszki1/8c.jpg",
+            "http://localhost/arbulanguage.com/img/fiszki1/8d.jpg",
+            "http://localhost/arbulanguage.com/img/fiszki1/8e.jpg",
+            "http://localhost/arbulanguage.com/img/fiszki1/8f.jpg",
+            "http://localhost/arbulanguage.com/img/fiszki1/8g.jpg"
         ],
         story: [
             "Gdy ktoś szybko biega obok nas to <u><b>jest</u></b> w popłochu, słyszymy tylko św<u><b>is</u></b>t",
@@ -530,7 +530,7 @@ id: [
             122
         ],
         img: [
-            "https://www.arbulang.com/img/fiszki1/416a.jpg"
+            "http://localhost/arbulanguage.com/img/fiszki1/416a.jpg"
         ],
         story: [
             "<b><u>Tol</b></u>a jest bardzo <b><u>wysoka</b></u>"
@@ -561,13 +561,13 @@ id: [
             122
         ],
         img: [
-            "https://www.arbulang.com/img/fiszki1/29aa.jpg",
-            "https://www.arbulang.com/img/fiszki1/29bb.jpg",
-            "https://www.arbulang.com/img/fiszki1/29cc.jpg",
-            "https://www.arbulang.com/img/fiszki1/29dd.jpg",
-            "https://www.arbulang.com/img/fiszki1/29ee.jpg"
+            "http://localhost/arbulanguage.com/img/fiszki1/29aa.jpg",
+            "http://localhost/arbulanguage.com/img/fiszki1/29bb.jpg",
+            "http://localhost/arbulanguage.com/img/fiszki1/29cc.jpg",
+            "http://localhost/arbulanguage.com/img/fiszki1/29dd.jpg",
+            "http://localhost/arbulanguage.com/img/fiszki1/29ee.jpg"
         ],
-        srcWord2: ["https://www.arbulang.com/filmy/procedure.mp4", "Breaking Bad"],
+        srcWord2: ["http://localhost/arbulanguage.com/filmy/procedure.mp4", "Breaking Bad"],
         translateb2: "[end hags it]",
         story: [
             "<u><b>End</u></b>riu wydziela <u><b>end</u></b>orfiny i ćwiczy: to <u><b>i</u></b> to, <u><b>i</u></b> to, aby było więcej endorfin i wyczekuje <u><b>końca</u></b> treningu",
@@ -602,7 +602,7 @@ id: [
             122
         ],
         img: [
-            "https://www.arbulang.com/img/fiszki1/418a.jpg"
+            "http://localhost/arbulanguage.com/img/fiszki1/418a.jpg"
         ],
         story: [
             "<u><b>Gr</u></b>a w piłę nożną na zielonej trawie to <u><b>in</u></b>tratna rozrywka"
@@ -633,21 +633,21 @@ id: [
             123
         ],
         img: [
-            "https://www.arbulang.com/img/fiszki1/7a.jpg",
-            "https://www.arbulang.com/img/fiszki1/7b.jpg",
-            "https://www.arbulang.com/img/fiszki1/7c.jpg",
-            "https://www.arbulang.com/img/fiszki1/7d.jpg",
-            "https://www.arbulang.com/img/fiszki1/7e.jpg"
+            "http://localhost/arbulanguage.com/img/fiszki1/7a.jpg",
+            "http://localhost/arbulanguage.com/img/fiszki1/7b.jpg",
+            "http://localhost/arbulanguage.com/img/fiszki1/7c.jpg",
+            "http://localhost/arbulanguage.com/img/fiszki1/7d.jpg",
+            "http://localhost/arbulanguage.com/img/fiszki1/7e.jpg"
         ],
         translate: "On uczy matematyki w lokalnej szkole",
         translateb: "[Hi ticzes matf at lokal skul]]",
         translateb2: "[Hi ticzes matf]",
         translateb3: "He teaches math at local school",
         opis: "",
-        srcWord: ["https://www.arbulang.com/filmy/math.mp4", "Piękny umysł"],
-        srcWordimage: "https://www.arbulang.com/filmy/math.png",
+        srcWord: ["http://localhost/arbulanguage.com/filmy/lekcja23/math.mp4", "Piękny umysł"],
+        srcWordimage: "http://localhost/arbulanguage.com/filmy/lekcja23/math.png",
         word: [
-            "https://www.arbulang.com/voice/bike.mp4"
+            "http://localhost/arbulanguage.com/voice/bike.mp4"
         ],
         story: [
             'To właśnie <u><b>on</u></b> jest <span class="adannotation" data-annotation="1"><b><u>hi</b></u></span>tem tego sezonu piłkarskiego',
@@ -679,7 +679,7 @@ id: [
             123
         ],
         img: [
-            "https://www.arbulang.com/img/fiszki1/420a.jpg"
+            "http://localhost/arbulanguage.com/img/fiszki1/420a.jpg"
         ],
         story: [
             "<u><b>Ti</u></b>ffany(Tifany) <u><b>uczy</u></b> w interenetowej szkole. Brała udział w wyznaczaniu <u><b>czes<u></b>nego"
@@ -707,7 +707,7 @@ id: [
             123
         ],
         img: [
-            "https://www.arbulang.com/img/fiszki1/421a.jpg"
+            "http://localhost/arbulanguage.com/img/fiszki1/421a.jpg"
         ],
         story: [
             "<u><b>Mat</u></b>eusz to <u><b>Tw</u></b>ój jan<u><b>f</u></b>ajniejszy geniusz od <u><b>matematyki</u></b>"
@@ -735,8 +735,8 @@ id: [
             124
         ],
         img: [
-            "https://www.arbulang.com/img/fiszki1/422a.jpg",
-            "https://www.arbulang.com/img/fiszki1/422b.jpg"
+            "http://localhost/arbulanguage.com/img/fiszki1/422a.jpg",
+            "http://localhost/arbulanguage.com/img/fiszki1/422b.jpg"
         ],
         story: [
             "<u><b>Lokal</u></b>izacja <u><b>szkoły</u></b> brata je<u><b>s</u></b>t bardzo <u><b>cool(kul)</u></b>",
@@ -763,17 +763,17 @@ id: [
             125
         ],
         img: [
-            "https://www.arbulang.com/img/fiszki1/5a.jpg",
-            "https://www.arbulang.com/img/fiszki1/5b.jpg",
-            "https://www.arbulang.com/img/fiszki1/5c.jpg",
-            "https://www.arbulang.com/img/fiszki1/5d.jpg",
-            "https://www.arbulang.com/img/fiszki1/5e.jpg"
+            "http://localhost/arbulanguage.com/img/fiszki1/5a.jpg",
+            "http://localhost/arbulanguage.com/img/fiszki1/5b.jpg",
+            "http://localhost/arbulanguage.com/img/fiszki1/5c.jpg",
+            "http://localhost/arbulanguage.com/img/fiszki1/5d.jpg",
+            "http://localhost/arbulanguage.com/img/fiszki1/5e.jpg"
         ],
         translate: "Autobus wkrótce przyjeżdża na stację",
         translateb: "[De bas erajws at de stejszyn sun]",
         translateb3: "The bus arrives at the station soon",
-        srcWord: ["https://www.arbulang.com/filmy/.mp4", ""],
-        srcWordimage: "https://www.arbulang.com/filmy/.png",
+        srcWord: ["http://localhost/arbulanguage.com/filmy/lekcja23/bus.mp4", ""],
+        srcWordimage: "http://localhost/arbulanguage.com/filmy/lekcja23/bus.png",
                                         opis: "",
         story: [
             "Piłki do gry w kosza są twar<u><b>de</u></b>. Sam ten sport <u><b>to</u></b> twarda gra",
@@ -805,8 +805,8 @@ id: [
             125
         ],
         img: [
-            "https://www.arbulang.com/img/fiszki1/424a.jpg",
-            "https://www.arbulang.com/img/fiszki1/424b.jpg"
+            "http://localhost/arbulanguage.com/img/fiszki1/424a.jpg",
+            "http://localhost/arbulanguage.com/img/fiszki1/424b.jpg"
         ],
         story: [
             "Odgłos silnika tego <u><b>autobusu</u></b> jest bardzo <u><b>bas</u></b>owy",
@@ -835,7 +835,7 @@ id: [
             126
         ],
         img: [
-            "https://www.arbulang.com/img/fiszki1/425a.jpg"
+            "http://localhost/arbulanguage.com/img/fiszki1/425a.jpg"
         ],
         story: [
             "T<u><b>era</u></b>z jest <u><b>raj</u></b> dla korzystających z internetu ze względu na <u><b>pojawienie się (przybycie)</u></b> sztucznej inteligencji. To <u><b>ws</u></b>chodzący trend"
@@ -863,7 +863,7 @@ id: [
             126
         ],
         img: [
-            "https://www.arbulang.com/img/fiszki1/426a.jpg"
+            "http://localhost/arbulanguage.com/img/fiszki1/426a.jpg"
         ],
         story: [
             "Br<u><b>at</u></b> czeka na mnie <u><b>na stacji</u></b>. Denerwuje się bo pociąg się spóźnia. Później będziemy jeść <u><b>stej</u></b>ki i kanapki z <u><b>szyn</u></b>ką"
@@ -890,7 +890,7 @@ id: [
             126
         ],
         img: [
-            "https://www.arbulang.com/img/fiszki1/427a.jpg"
+            "http://localhost/arbulanguage.com/img/fiszki1/427a.jpg"
         ],
         story: [
             "Mam <u><b>s</u></b>uper motor <u><b>jun</u></b>ak. <u><b>Wkrótce</u></b> pojadę nim na przejażdźkę"
@@ -917,17 +917,17 @@ id: [
             127
         ],
         img: [
-            "https://www.arbulang.com/img/fiszki1/19a.jpg",
-            "https://www.arbulang.com/img/fiszki1/19b.jpg",
-            "https://www.arbulang.com/img/fiszki1/19c.jpg",
-            "https://www.arbulang.com/img/fiszki1/19d.jpg",
-            "https://www.arbulang.com/img/fiszki1/19e.jpg"
+            "http://localhost/arbulanguage.com/img/fiszki1/19a.jpg",
+            "http://localhost/arbulanguage.com/img/fiszki1/19b.jpg",
+            "http://localhost/arbulanguage.com/img/fiszki1/19c.jpg",
+            "http://localhost/arbulanguage.com/img/fiszki1/19d.jpg",
+            "http://localhost/arbulanguage.com/img/fiszki1/19e.jpg"
         ],
         translate: "Noszę okulary, kiedy czytam",
         translateb: "[Aj łer glases łen i rid]",
         translateb3: "I wear glasses when I read",
-        srcWord: ["https://www.arbulang.com/filmy/glasses2.mp4", ""],
-        srcWordimage: "https://www.arbulang.com/filmy/glasses2.png",
+        srcWord: ["http://localhost/arbulanguage.com/filmy/lekcja24/glasses2.mp4", ""],
+        srcWordimage: "http://localhost/arbulanguage.com/filmy/lekcja24/glasses2.png",
                                                 opis: "Scena pływania w morzu - głównych bohaterów",
         story: [
             "<u><b>Ja</u></b> jestem Piotrek, mam okulary ochronne, gdy jechałem rowerem wleciała mi mucha do <u><b>oka</u></b>, krzyczałem <u><b>ajjj</u></b> - dlaczego to <u><b>mi</u></b> wleciała mucha do <u><b>oka</u></b>, <u><b>ajjj</u></b>",
@@ -959,7 +959,7 @@ id: [
             127
         ],
         img: [
-            "https://www.arbulang.com/img/fiszki1/429a.jpg"
+            "http://localhost/arbulanguage.com/img/fiszki1/429a.jpg"
         ],
         story: [
             "P<u><b>łer</u></b>to Riko czyli Portoryko produkuje dużo ubrań do <u><b>noszenia</u></b>"
@@ -987,7 +987,7 @@ id: [
             127
         ],
         img: [
-            "https://www.arbulang.com/img/fiszki1/430a.jpg"
+            "http://localhost/arbulanguage.com/img/fiszki1/430a.jpg"
         ],
         story: [
             "<u><b>Gla</u></b>ny to takie buty skórzane. Do nich pasują ciemne <u><b>okulary</u></b>. W takim przebraniu mam <u><b>ses</u></b>ję zdjęciową"
@@ -1015,7 +1015,7 @@ id: [
             128
         ],
         img: [
-            "https://www.arbulang.com/img/fiszki1/431a.jpg"
+            "http://localhost/arbulanguage.com/img/fiszki1/431a.jpg"
         ],
         story: [
             "<u><b>Kiedy</u></b> pojedziemy do <u><b>Łe</u></b>by pyta sy<u><b>n</u></b>?"
@@ -1043,11 +1043,11 @@ id: [
             128
         ],
         img: [
-            "https://www.arbulang.com/img/fiszki1/19a.jpg",
-            "https://www.arbulang.com/img/fiszki1/19b.jpg",
-            "https://www.arbulang.com/img/fiszki1/19c.jpg",
-            "https://www.arbulang.com/img/fiszki1/19d.jpg",
-            "https://www.arbulang.com/img/fiszki1/19e.jpg"
+            "http://localhost/arbulanguage.com/img/fiszki1/19a.jpg",
+            "http://localhost/arbulanguage.com/img/fiszki1/19b.jpg",
+            "http://localhost/arbulanguage.com/img/fiszki1/19c.jpg",
+            "http://localhost/arbulanguage.com/img/fiszki1/19d.jpg",
+            "http://localhost/arbulanguage.com/img/fiszki1/19e.jpg"
         ],
         story: [
             "<u><b>Ja</u></b> jestem Piotrek, mam okulary ochronne, gdy jechałem rowerem wleciała mi mucha do <u><b>oka</u></b>, krzyczałem <u><b>ajjj</u></b> - dlaczego to <u><b>mi</u></b> wleciała mucha do <u><b>oka</u></b>, <u><b>ajjj</u></b>",
@@ -1079,7 +1079,7 @@ id: [
             128
         ],
         img: [
-            "https://www.arbulang.com/img/fiszki1/125a.jpg"
+            "http://localhost/arbulanguage.com/img/fiszki1/125a.jpg"
         ],
         story: [
             "Floryda to stan w USA, który powinien być czytany Flo<b><u>rid</b></u>a"
@@ -1106,13 +1106,13 @@ id: [
             71,
             129
         ],
-        img: "https://www.arbulang.com/img/fiszki1/207b.jpg",
+        img: "http://localhost/arbulanguage.com/img/fiszki1/207b.jpg",
         translate: "Oni kupują owoce na targu",
         translateb: "[Dej baj frjuts from de market]",
         translateb2: "[Dej baj frjuts]",
         translateb3: "They buy fruits from the market",
-        srcWord: ["https://www.arbulang.com/filmy/fruits.mp4", "Anioł Nowej Nadziei (2014)"],
-        srcWordimage: "https://www.arbulang.com/filmy/fruits.png",
+        srcWord: ["http://localhost/arbulanguage.com/filmy/lekcja24/fruits.mp4", "Anioł Nowej Nadziei (2014)"],
+        srcWordimage: "http://localhost/arbulanguage.com/filmy/lekcja24/fruits.png",
         story: "<u><b>Oni</u></b> z<u><b>dej</u></b>mują jabłka z jabłoni",
         desc: "day[dej] - oni",
         sentence1: [
@@ -1137,7 +1137,7 @@ id: [
             129
         ],
         img: [
-            "https://www.arbulang.com/img/fiszki1/435a.jpg"
+            "http://localhost/arbulanguage.com/img/fiszki1/435a.jpg"
         ],
         story: [
             "Ktoś <u><b>kupił</u></b> nowe auto. A staremu powiedział <u><b>'baj'</u></b>"
@@ -1165,7 +1165,7 @@ id: [
             129
         ],
         img: [
-            "https://www.arbulang.com/img/fiszki1/436a.jpg"
+            "http://localhost/arbulanguage.com/img/fiszki1/436a.jpg"
         ],
         story: [
             "<u><b>Fru</u></b>go to fajny napój z owoców. <u><b>T</u></b>o <u><b>s</u></b>uper napój"
@@ -1193,7 +1193,7 @@ id: [
             130
         ],
         img: [
-            "https://www.arbulang.com/img/fiszki1/437a.jpg"
+            "http://localhost/arbulanguage.com/img/fiszki1/437a.jpg"
         ],
         story: [
             "Erik <u><b>Fromm</u></b> <u><b>pochodził</u></b> z Niemiec"
@@ -1221,14 +1221,14 @@ id: [
             130
         ],
         img: [
-            "https://www.arbulang.com/img/fiszki1/5a.jpg",
-            "https://www.arbulang.com/img/fiszki1/5b.jpg",
-            "https://www.arbulang.com/img/fiszki1/5c.jpg",
-            "https://www.arbulang.com/img/fiszki1/5d.jpg",
-            "https://www.arbulang.com/img/fiszki1/5e.jpg"
+            "http://localhost/arbulanguage.com/img/fiszki1/5a.jpg",
+            "http://localhost/arbulanguage.com/img/fiszki1/5b.jpg",
+            "http://localhost/arbulanguage.com/img/fiszki1/5c.jpg",
+            "http://localhost/arbulanguage.com/img/fiszki1/5d.jpg",
+            "http://localhost/arbulanguage.com/img/fiszki1/5e.jpg"
         ],
         word: [
-            "https://www.arbulang.com/src/the.wav"
+            "http://localhost/arbulanguage.com/src/the.wav"
         ],
         story: [
             'Piłki do gry w kosza są twar<span class="adannotation" data-annotation="1"><u><b>de</u></b></span>. Sam ten sport <u><b>to</u></b> twarda gra',
@@ -1260,7 +1260,7 @@ id: [
             130
         ],
         img: [
-            "https://www.arbulang.com/img/fiszki1/439a.jpg"
+            "http://localhost/arbulanguage.com/img/fiszki1/439a.jpg"
         ],
         story: [
             "<u><b>Mar</u></b>ynowane ogórki z <u><b>rynku</u></b> dobre dla diety <u><b>ket</u></b>o"
@@ -1287,13 +1287,13 @@ id: [
             72,
             131
         ],
-        img: "https://www.arbulang.com/img/fiszki1/207b.jpg",
+        img: "http://localhost/arbulanguage.com/img/fiszki1/207b.jpg",
         translate: "Często odwiedzają muzea w czasie świąt/wakacji",
         translateb: "[Dej ofen wizyt mjuziems on holidejs]",
         translateb2: "[Dej ofen wizyt mjuziems]",
         translateb3: "They often visit museums on holidays",
-        srcWord: ["https://www.arbulang.com/filmy/museums.mp4", "Noc w muzeum 2 (2009)"],
-        srcWordimage: "https://www.arbulang.com/filmy/museums.png",
+        srcWord: ["http://localhost/arbulanguage.com/filmy/lekcja24/museums.mp4", "Noc w muzeum 2 (2009)"],
+        srcWordimage: "http://localhost/arbulanguage.com/filmy/lekcja24/museums.png",
                                                 opis: "Scena podczas meczu głównego bohatera",
         story: "<u><b>Oni</u></b> z<u><b>dej</u></b>mują jabłka z jabłoni",
         desc: "they[dej] - oni",
@@ -1320,7 +1320,7 @@ id: [
             131
         ],
         img: [
-            "https://www.arbulang.com/img/fiszki1/441a.jpg"
+            "http://localhost/arbulanguage.com/img/fiszki1/441a.jpg"
         ],
         story: [
             "David<u><b>off</u></b>y to fajne papierosy. <u><b>Często</u></b> je palę z sentym<u><b>en</u></b>tu"
@@ -1349,7 +1349,7 @@ id: [
             131
         ],
         img: [
-            "https://www.arbulang.com/img/fiszki1/442a.jpg"
+            "http://localhost/arbulanguage.com/img/fiszki1/442a.jpg"
         ],
         story: [
             "KOGNATY - VIZIT(WIZIT) - WIZYTA"
@@ -1378,7 +1378,7 @@ id: [
             131
         ],
         img: [
-            "https://www.arbulang.com/img/fiszki1/443a.jpg"
+            "http://localhost/arbulanguage.com/img/fiszki1/443a.jpg"
         ],
         story: [
             "<u><b>Mjuzi</u></b>k czyli muzyka ma także swoje <u><b>muzeum</u></b> myzyki. Odwiedziłem takie muzeum a późneij kupiłem w sklepie cukierki Emen<u><b>ems</u></b>y"
@@ -1407,7 +1407,7 @@ id: [
             132
         ],
         img: [
-            "https://www.arbulang.com/img/fiszki1/444a.jpg"
+            "http://localhost/arbulanguage.com/img/fiszki1/444a.jpg"
         ],
         story: [
             "On - Piotrek nie lubi melan<u><b>choli</u></b> w jesień dlatego pojechał <u><b>na wakacje</u></b>. Dobrze mu na nich jest. <u><b>D</u></b>zisiaj ma r<u><b>ejs</u></b> statkiem"
@@ -1433,17 +1433,17 @@ id: [
             133
         ],
         img: [
-            "https://www.arbulang.com/img/fiszki1/32aa.jpg",
-            "https://www.arbulang.com/img/fiszki1/32bb.jpg",
-            "https://www.arbulang.com/img/fiszki1/32cc.jpg",
-            "https://www.arbulang.com/img/fiszki1/32dd.jpg",
-            "https://www.arbulang.com/img/fiszki1/32ee.jpg"
+            "http://localhost/arbulanguage.com/img/fiszki1/32aa.jpg",
+            "http://localhost/arbulanguage.com/img/fiszki1/32bb.jpg",
+            "http://localhost/arbulanguage.com/img/fiszki1/32cc.jpg",
+            "http://localhost/arbulanguage.com/img/fiszki1/32dd.jpg",
+            "http://localhost/arbulanguage.com/img/fiszki1/32ee.jpg"
         ],
         translate: "Nasza drużyna wygrała mecz wczoraj",
         translateb: "[Aur tim łon de macz jesterdej]",
         translateb3: "Our team won the match yesterday",
-        srcWord: ["https://www.arbulang.com/filmy/studyhard.mp4", "Marsjanin(2015)", "Akcja"],
-        srcWordimage: "https://www.arbulang.com/filmy/studyhard.png",
+        srcWord: ["http://localhost/arbulanguage.com/filmy/lekcja25/ourteam.mp4", ""],
+        srcWordimage: "http://localhost/arbulanguage.com/filmy/lekcja25/ourteam.png",
                         opis: "Zapowiedź filmu",
         story: [
             "<u><b>Aur</u></b>a zawodnika z <u><b>naszego</u></b> zespołu jest niesamowita",
@@ -1477,7 +1477,7 @@ id: [
             133
         ],
         img: [
-            "https://www.arbulang.com/img/fiszki1/446a.jpg"
+            "http://localhost/arbulanguage.com/img/fiszki1/446a.jpg"
         ],
         story: [
             "Tymoteusz czyli <u><b>Tim</u></b>i jest częścią <u><b>zespołu</u></b>"
@@ -1507,7 +1507,7 @@ id: [
             133
         ],
         img: [
-            "https://www.arbulang.com/img/fiszki1/447a.jpg"
+            "http://localhost/arbulanguage.com/img/fiszki1/447a.jpg"
         ],
         story: [
             "Zaczynają się igrzyska. P<u><b>łon</u></b>ie pochodnia olimpijska - którą niesie ktoś kto kiedyś <u><b>wygrał</u></b> w ważnych zawodach"
@@ -1537,7 +1537,7 @@ id: [
             133
         ],
         img: [
-            "https://www.arbulang.com/img/fiszki1/448a.jpg"
+            "http://localhost/arbulanguage.com/img/fiszki1/448a.jpg"
         ],
         story: [
             "W tym <u><b>meczu</u></b> <u><b>de</u></b>rbowym trener kilka razy zareagował na styl gry swojej drużyny. Można powiedzieć, że w <u><b>meczu</u></b> dużo <u><b>macz</u></b>ał palce"
@@ -1567,7 +1567,7 @@ id: [
             133
         ],
         img: [
-            "https://www.arbulang.com/img/fiszki1/449a.jpg"
+            "http://localhost/arbulanguage.com/img/fiszki1/449a.jpg"
         ],
         story: [
             ""
@@ -1596,15 +1596,15 @@ id: [
             74,
             134
         ],
-        img: "https://www.arbulang.com/img/fiszki1/131a.jpg",
+        img: "http://localhost/arbulanguage.com/img/fiszki1/131a.jpg",
         translate: "Oglądaliśmy gwiazdy zeszłej nocy",
         translateb: "[Łi łocztd de stars last najt]",
         translateb2: "[Łi łocztd de stars last najt]",
         translateb3: "We watched the stars last night",
-        srcWord: ["https://www.arbulang.com/filmy/tennis.mp4", "V for Vendetta (2005)"],
-        srcWordimage: "https://www.arbulang.com/filmy/tennis.png",
+        srcWord: ["http://localhost/arbulanguage.com/filmy/lekcja25/stars.mp4", "Prometeusz (2012)"],
+        srcWordimage: "http://localhost/arbulanguage.com/filmy/lekcja25/stars.png",
         word: [
-            "https://www.arbulang.com/voice/bike.mp4"
+            "http://localhost/arbulanguage.com/voice/bike.mp4"
         ],
         story: "<b><u>Wi</b></u>ll Smith oznajmił, że <b><u>my</b></u> jako ludzkość mamy się dobrze",
         desc: "we[łi] - my",
@@ -1633,7 +1633,7 @@ id: [
             134
         ],
         img: [
-            "https://www.arbulang.com/img/fiszki1/451a.jpg"
+            "http://localhost/arbulanguage.com/img/fiszki1/451a.jpg"
         ],
         story: "Ostatnio ma<u><b>ło</u></b> <u><b>oglądam</u></b> seriali, bo - po<u><b>czt</u></b>a - tam gdzie pracuje dała mi na<u><b>d</u></b>godziny",
         desc: "watched[łocztd] - ",
@@ -1662,11 +1662,11 @@ id: [
             134
         ],
         img: [
-                "https://www.arbulang.com/img/fiszki1/5a.jpg",
-                "https://www.arbulang.com/img/fiszki1/5b.jpg",
-                "https://www.arbulang.com/img/fiszki1/5c.jpg",
-                "https://www.arbulang.com/img/fiszki1/5d.jpg",
-                "https://www.arbulang.com/img/fiszki1/5e.jpg"
+                "http://localhost/arbulanguage.com/img/fiszki1/5a.jpg",
+                "http://localhost/arbulanguage.com/img/fiszki1/5b.jpg",
+                "http://localhost/arbulanguage.com/img/fiszki1/5c.jpg",
+                "http://localhost/arbulanguage.com/img/fiszki1/5d.jpg",
+                "http://localhost/arbulanguage.com/img/fiszki1/5e.jpg"
         ],
         story: [
                 'Piłki do gry w kosza są twar<span class="adannotation" data-annotation="1"><u><b>de</u></b></span>. Sam ten sport <u><b>to</u></b> twarda gra',
@@ -1701,7 +1701,7 @@ id: [
             134
         ],
         img: [
-            "https://www.arbulang.com/img/fiszki1/453a.jpg"
+            "http://localhost/arbulanguage.com/img/fiszki1/453a.jpg"
         ],
         story: [
             "Samochód ciężarowy <u><b>Star</u></b> jedzie nad <u><b>gwieździstym-gwiazdy</u></b> niebem"
@@ -1732,7 +1732,7 @@ id: [
             134
         ],
         img: [
-            "https://www.arbulang.com/img/fiszki1/454a.jpg"
+            "http://localhost/arbulanguage.com/img/fiszki1/454a.jpg"
         ],
         story: [
             "Na zajęciach p<u><b>last</u></b>yki jest <u><b>ostatnio</u></b> fajna atmosfera"
@@ -1763,7 +1763,7 @@ id: [
             134
         ],
         img: [
-            "https://www.arbulang.com/img/fiszki1/455a.jpg"
+            "http://localhost/arbulanguage.com/img/fiszki1/455a.jpg"
         ],
         story: [
             "<u><b>Naj</u></b>lepszy <u><b>t</u></b>owarzysz dla snu to <u><b>noc</u></b>"
@@ -1794,21 +1794,21 @@ id: [
             135
         ],
         img: [
-                "https://www.arbulang.com/img/fiszki1/5a.jpg",
-                "https://www.arbulang.com/img/fiszki1/5b.jpg",
-                "https://www.arbulang.com/img/fiszki1/5c.jpg",
-                "https://www.arbulang.com/img/fiszki1/5d.jpg",
-                "https://www.arbulang.com/img/fiszki1/5e.jpg"
+                "http://localhost/arbulanguage.com/img/fiszki1/5a.jpg",
+                "http://localhost/arbulanguage.com/img/fiszki1/5b.jpg",
+                "http://localhost/arbulanguage.com/img/fiszki1/5c.jpg",
+                "http://localhost/arbulanguage.com/img/fiszki1/5d.jpg",
+                "http://localhost/arbulanguage.com/img/fiszki1/5e.jpg"
         ],
         translate: "Ryby pływają w czystym jeziorze",
         translateb: "[De fisz słim in de klir lejk]",
         translateb2: "[De fisz słim]",
         translateb3: "The fish swim in the clear lake",
-        srcWord: ["https://www.arbulang.com/filmy/fish.mp4", "The Meg (2018)"],
-        srcWordimage: "https://www.arbulang.com/filmy/fish.png",
+        srcWord: ["http://localhost/arbulanguage.com/filmy/lekcja25/fish.mp4", "The Meg (2018)"],
+        srcWordimage: "http://localhost/arbulanguage.com/filmy/lekcja25/fish.png",
         opis: "Zdziwienie kota w animowanym filmie",
         word: [
-                "https://www.arbulang.com/voice/bike.mp4"
+                "http://localhost/arbulanguage.com/voice/bike.mp4"
         ],
         story: [
                 'Piłki do gry w kosza są twar<span class="adannotation" data-annotation="1"><u><b>de</u></b></span>. Sam ten sport <u><b>to</u></b> twarda gra',
@@ -1840,7 +1840,7 @@ id: [
             135
         ],
         img: [
-            "https://www.arbulang.com/img/fiszki1/457a.jpg"
+            "http://localhost/arbulanguage.com/img/fiszki1/457a.jpg"
         ],
         story: [
             "Dzięki tym <u><b>fisz</u></b>kom łowię słowa do pamięci jak <u><b>ryby</u></b>"
@@ -1868,8 +1868,8 @@ id: [
             136
         ],
         img: [
-            "https://www.arbulang.com/img/fiszki1/458a.jpg",
-            "https://www.arbulang.com/img/fiszki1/458b.jpg"
+            "http://localhost/arbulanguage.com/img/fiszki1/458a.jpg",
+            "http://localhost/arbulanguage.com/img/fiszki1/458b.jpg"
         ],
         story: [
             "Swing (<u><b>słi</u></b>ng) to <u><b>m</u></b>uzyka, do której się wręcz <u><b>pływa</u></b> - nie tańczy",
@@ -1898,7 +1898,7 @@ id: [
             137
         ],
         img: [
-            "https://www.arbulang.com/img/fiszki1/254a.jpg"
+            "http://localhost/arbulanguage.com/img/fiszki1/254a.jpg"
         ],
         story: [
             "<u><b>In</u></b>trowertyk lubi przesiadywać <u><b>w</u></b> swoim umyśle"
@@ -1927,11 +1927,11 @@ id: [
             137
         ],
         img: [
-                "https://www.arbulang.com/img/fiszki1/5a.jpg",
-                "https://www.arbulang.com/img/fiszki1/5b.jpg",
-                "https://www.arbulang.com/img/fiszki1/5c.jpg",
-                "https://www.arbulang.com/img/fiszki1/5d.jpg",
-                "https://www.arbulang.com/img/fiszki1/5e.jpg"
+                "http://localhost/arbulanguage.com/img/fiszki1/5a.jpg",
+                "http://localhost/arbulanguage.com/img/fiszki1/5b.jpg",
+                "http://localhost/arbulanguage.com/img/fiszki1/5c.jpg",
+                "http://localhost/arbulanguage.com/img/fiszki1/5d.jpg",
+                "http://localhost/arbulanguage.com/img/fiszki1/5e.jpg"
         ],
         story: [
                 'Piłki do gry w kosza są twar<span class="adannotation" data-annotation="1"><u><b>de</u></b></span>. Sam ten sport <u><b>to</u></b> twarda gra',
@@ -1964,7 +1964,7 @@ id: [
             137
         ],
         img: [
-            "https://www.arbulang.com/img/fiszki1/461a.jpg"
+            "http://localhost/arbulanguage.com/img/fiszki1/461a.jpg"
         ],
         story: [
             "<u><b>Lir</u></b>yka <u><b>K</u></b>ochanowskiego to <u><b>czysta</u></b> sztuka literacka"
@@ -1993,7 +1993,7 @@ id: [
             137
         ],
         img: [
-            "https://www.arbulang.com/img/fiszki1/462a.jpg"
+            "http://localhost/arbulanguage.com/img/fiszki1/462a.jpg"
         ],
         story: [
             "Na tym jeziorze jest umiejscowiony <u><b>'lej</u></b>e<u><b>k</u></b>' w systemie tamy wodnej"
@@ -2022,21 +2022,21 @@ id: [
             138
         ],
         img: [
-                "https://www.arbulang.com/img/fiszki1/5a.jpg",
-                "https://www.arbulang.com/img/fiszki1/5b.jpg",
-                "https://www.arbulang.com/img/fiszki1/5c.jpg",
-                "https://www.arbulang.com/img/fiszki1/5d.jpg",
-                "https://www.arbulang.com/img/fiszki1/5e.jpg"
+                "http://localhost/arbulanguage.com/img/fiszki1/5a.jpg",
+                "http://localhost/arbulanguage.com/img/fiszki1/5b.jpg",
+                "http://localhost/arbulanguage.com/img/fiszki1/5c.jpg",
+                "http://localhost/arbulanguage.com/img/fiszki1/5d.jpg",
+                "http://localhost/arbulanguage.com/img/fiszki1/5e.jpg"
         ],
         translate: "Chłopiec kopie piłkę daleko",
         translateb: "[De boj kiks de bal far]",
         translateb2: "[De boj kiks de bal far]",
         translateb3: "The boy kicks the ball far",
-        srcWord: ["https://www.arbulang.com/filmy/ballfar.mp4", "Pele. Narodziny legendy (2016)"],
-        srcWordimage: "https://www.arbulang.com/filmy/ballfar.png",
+        srcWord: ["http://localhost/arbulanguage.com/filmy/lekcja26/ballfar.mp4", "Pele. Narodziny legendy (2016)"],
+        srcWordimage: "http://localhost/arbulanguage.com/filmy/lekcja26/ballfar.png",
         opis: "",
         word: [
-                "https://www.arbulang.com/voice/bike.mp4"
+                "http://localhost/arbulanguage.com/voice/bike.mp4"
         ],
         story: [
                 'Piłki do gry w kosza są twar<span class="adannotation" data-annotation="1"><u><b>de</u></b></span>. Sam ten sport <u><b>to</u></b> twarda gra',
@@ -2071,7 +2071,7 @@ id: [
             138
         ],
         img: [
-            "https://www.arbulang.com/img/fiszki1/464a.jpg"
+            "http://localhost/arbulanguage.com/img/fiszki1/464a.jpg"
         ],
         story: [
             "Ten <u><b>chłopiec</u></b> ze względu na wiek może dopłynąć do tej <u><b>boj</u></b>i"
@@ -2102,7 +2102,7 @@ id: [
             138
         ],
         img: [
-            "https://www.arbulang.com/img/fiszki1/465a.jpg"
+            "http://localhost/arbulanguage.com/img/fiszki1/465a.jpg"
         ],
         story: [
             "Te <u><b>kopnięcie</u></b> okazało się piłkarskim <u><b>kiksem</u></b>"
@@ -2133,11 +2133,11 @@ id: [
             138
         ],
         img: [
-                "https://www.arbulang.com/img/fiszki1/5a.jpg",
-                "https://www.arbulang.com/img/fiszki1/5b.jpg",
-                "https://www.arbulang.com/img/fiszki1/5c.jpg",
-                "https://www.arbulang.com/img/fiszki1/5d.jpg",
-                "https://www.arbulang.com/img/fiszki1/5e.jpg"
+                "http://localhost/arbulanguage.com/img/fiszki1/5a.jpg",
+                "http://localhost/arbulanguage.com/img/fiszki1/5b.jpg",
+                "http://localhost/arbulanguage.com/img/fiszki1/5c.jpg",
+                "http://localhost/arbulanguage.com/img/fiszki1/5d.jpg",
+                "http://localhost/arbulanguage.com/img/fiszki1/5e.jpg"
         ],
         story: [
                 'Piłki do gry w kosza są twar<span class="adannotation" data-annotation="1"><u><b>de</u></b></span>. Sam ten sport <u><b>to</u></b> twarda gra',
@@ -2172,7 +2172,7 @@ id: [
             138
         ],
         img: [
-            "https://www.arbulang.com/img/fiszki1/467a.jpg"
+            "http://localhost/arbulanguage.com/img/fiszki1/467a.jpg"
         ],
         story: [
             "<u><b>Bol</u></b>ek ma wreszcie swoją własną <u><b>piłkę</u></b>"
@@ -2203,7 +2203,7 @@ id: [
             138
         ],
         img: [
-            "https://www.arbulang.com/img/fiszki1/468a.jpg"
+            "http://localhost/arbulanguage.com/img/fiszki1/468a.jpg"
         ],
         story: [
             "<u><b>Far</u></b>ma naszej rodziny jest <u><b>daleko</u></b> od miasta"
@@ -2233,16 +2233,16 @@ id: [
             77,
             139
         ],
-        img: "https://www.arbulang.com/img/fiszki1/207b.jpg",
+        img: "http://localhost/arbulanguage.com/img/fiszki1/207b.jpg",
         translate: "Oni zwiedzają las w weekendy",
         translateb: "[Dej eksplo forest on de wikends]",
         translateb2: "[Dej eksplo forest]",
         translateb3: "They explore forest on the weekends",
-        srcWord: ["https://www.arbulang.com/filmy/jungle.mp4", "Jumanji: Przygoda w dżungli (2017)"],
-        srcWordimage: "https://www.arbulang.com/filmy/jungle.png",
+        srcWord: ["http://localhost/arbulanguage.com/filmy/lekcja26/jungle.mp4", "Jumanji: Przygoda w dżungli (2017)"],
+        srcWordimage: "http://localhost/arbulanguage.com/filmy/lekcja26/jungle.png",
         opis: "",
         word: [
-                "https://www.arbulang.com/voice/music.mp4"
+                "http://localhost/arbulanguage.com/voice/music.mp4"
         ],
         story: "<u><b>Oni</u></b> z<u><b>dej</u></b>mują jabłka z jabłoni",
         desc: "they[dej] - oni",
@@ -2268,7 +2268,7 @@ id: [
             139
         ],
         img: [
-            "https://www.arbulang.com/img/fiszki1/470a.jpg"
+            "http://localhost/arbulanguage.com/img/fiszki1/470a.jpg"
         ],
         story: [
             "<u><b>Eksplo</u></b>racja kosmosu odbywa się poprzez <u><b>badania</u></b> z danych dostarczonych przez teleskop Hubbla"
@@ -2296,7 +2296,7 @@ id: [
             139
         ],
         img: [
-            "https://www.arbulang.com/img/fiszki1/471a.jpg"
+            "http://localhost/arbulanguage.com/img/fiszki1/471a.jpg"
         ],
         story: [
             "<u><b>For</u></b>mę sportową robię w <u><b>lesie</u></b>, w którym j<u><b>est</u></b> dużo czystego powietrza"
@@ -2324,7 +2324,7 @@ id: [
             140
         ],
         img: [
-            "https://www.arbulang.com/img/fiszki1/472a.jpg"
+            "http://localhost/arbulanguage.com/img/fiszki1/472a.jpg"
         ],
         story: [
             "KOGNATY - WEEKEND"
@@ -2350,18 +2350,18 @@ id: [
             141
         ],
         img: [
-                "https://www.arbulang.com/img/fiszki1/7a.jpg",
-                "https://www.arbulang.com/img/fiszki1/7b.jpg",
-                "https://www.arbulang.com/img/fiszki1/7c.jpg",
-                "https://www.arbulang.com/img/fiszki1/7d.jpg",
-                "https://www.arbulang.com/img/fiszki1/7e.jpg"
+                "http://localhost/arbulanguage.com/img/fiszki1/7a.jpg",
+                "http://localhost/arbulanguage.com/img/fiszki1/7b.jpg",
+                "http://localhost/arbulanguage.com/img/fiszki1/7c.jpg",
+                "http://localhost/arbulanguage.com/img/fiszki1/7d.jpg",
+                "http://localhost/arbulanguage.com/img/fiszki1/7e.jpg"
         ],
         translate: "On ćwiczy jogę każdego popołudnia",
         translateb: "[Hi praktisis joga ewry afternju]",
         translateb2: "[Hi praktisis joga]",
         translateb3: "He practices yoga every afternoon",
-        srcWord: ["https://www.arbulang.com/filmy/yoga.mp4", "Faster (2010)"],
-        srcWordimage: "https://www.arbulang.com/filmy/yoga.png",
+        srcWord: ["http://localhost/arbulanguage.com/filmy/lekcja26/yoga.mp4", "Faster (2010)"],
+        srcWordimage: "http://localhost/arbulanguage.com/filmy/lekcja26/yoga.png",
         story: [
                 'To właśnie <u><b>on</u></b> jest <span class="adannotation" data-annotation="1"><b><u>hi</b></u></span>tem tego sezonu piłkarskiego',
                 'Samiec czyli <u><b>on</u></b> - <span class="adannotation" data-annotation="1"><b><u>hi</b></u></span>popotam',
@@ -2392,7 +2392,7 @@ id: [
             140
         ],
         img: [
-            "https://www.arbulang.com/img/fiszki1/474a.jpg"
+            "http://localhost/arbulanguage.com/img/fiszki1/474a.jpg"
         ],
         story: [
             ""
@@ -2420,7 +2420,7 @@ id: [
             140
         ],
         img: [
-            "https://www.arbulang.com/img/fiszki1/475a.jpg"
+            "http://localhost/arbulanguage.com/img/fiszki1/475a.jpg"
         ],
         story: [
             "KOGNATY YOGA - JOGA"
@@ -2448,7 +2448,7 @@ id: [
             141
         ],
         img: [
-                "https://www.arbulang.com/img/fiszki1/324a.jpg"
+                "http://localhost/arbulanguage.com/img/fiszki1/324a.jpg"
         ],
         story: [
                 "Prawie <u><b>każdy</u></b> robi błąd na tym zagraniu. <u><b>Ew</u></b>identnie trudny element gry w piłkę. Dobrze potrafi to zrobić tylko dob<u><b>ry</u></b> zawodnik"
@@ -2475,7 +2475,7 @@ id: [
             142
         ],
         img: [
-            "https://www.arbulang.com/img/fiszki1/477a.jpg"
+            "http://localhost/arbulanguage.com/img/fiszki1/477a.jpg"
         ],
         story: [
             "Po <u><b>południu</u></b> na stacje przyjeżdza n<u><b>aft</u></b>a. Kierowcą jest <u><b>Ern</u></b>i i <u><b>ju</u></b>ż długo tam pracuje"
@@ -2502,19 +2502,19 @@ id: [
             143
         ],
         img: [
-                "https://www.arbulang.com/img/fiszki1/50aa.jpg",
-                "https://www.arbulang.com/img/fiszki1/50bb.jpg",
-                "https://www.arbulang.com/img/fiszki1/50cc.jpg"
+                "http://localhost/arbulanguage.com/img/fiszki1/50aa.jpg",
+                "http://localhost/arbulanguage.com/img/fiszki1/50bb.jpg",
+                "http://localhost/arbulanguage.com/img/fiszki1/50cc.jpg"
         ],
         translate: "Moja siostra maluje obrazki zwierząt",
         translateb: "[Maj sister peints pikczur of animals]",
         translateb2: "[Maj sister peints pikczur of animals]",
         translateb3: "My sister paints pictures of animals",
-        srcWord: ["https://www.arbulang.com/filmy/painting.mp4", "Most do Terabithii (2007)"],
-        srcWordimage: "https://www.arbulang.com/filmy/painting.png",
+        srcWord: ["http://localhost/arbulanguage.com/filmy/lekcja27/painting.mp4", "Most do Terabithii (2007)"],
+        srcWordimage: "http://localhost/arbulanguage.com/filmy/lekcja27/painting.png",
         opis: "",
         word: [
-                "https://www.arbulang.com/voice/bike.mp4"
+                "http://localhost/arbulanguage.com/voice/bike.mp4"
         ],
         story: [
                 "W <b><u>maj</b></u>u kwitną <b><u>moje</b></u> ulubione kwiaty",
@@ -2547,7 +2547,7 @@ id: [
             143
         ],
         img: [
-            "https://www.arbulang.com/img/fiszki1/479a.jpg"
+            "http://localhost/arbulanguage.com/img/fiszki1/479a.jpg"
         ],
         story: [
             "<b><u>Siiii</b></u>, moja <b><u>siostra</b></u> <b><u>ster</b></u>uje łodzią motorową"
@@ -2578,7 +2578,7 @@ id: [
             143
         ],
         img: [
-            "https://www.arbulang.com/img/fiszki1/480a.jpg"
+            "http://localhost/arbulanguage.com/img/fiszki1/480a.jpg"
         ],
         story: [
             ""
@@ -2609,8 +2609,8 @@ id: [
             143
         ],
         img: [
-            "https://www.arbulang.com/img/fiszki1/481a.jpg",
-            "https://www.arbulang.com/img/fiszki1/481b.jpg"
+            "http://localhost/arbulanguage.com/img/fiszki1/481a.jpg",
+            "http://localhost/arbulanguage.com/img/fiszki1/481b.jpg"
         ],
         story: [
             "W ten wie<b><u>czór</b></u> gramy w pokera. Fotograf robi <b><u>zdjęcia</b></u>. Na spotkaniu mam kartę <b><u>pik</b></u>"
@@ -2641,8 +2641,8 @@ id: [
             143
         ],
         img: [
-            "https://www.arbulang.com/img/fiszki1/89a.jpg",
-            "https://www.arbulang.com/img/fiszki1/112b.jpg"
+            "http://localhost/arbulanguage.com/img/fiszki1/89a.jpg",
+            "http://localhost/arbulanguage.com/img/fiszki1/112b.jpg"
         ],
         story: [
             "Tą <b><u>of</b></u>ensywę podjął każdy żołnierz z <b><u>tego</b></u> plutonu",
@@ -2674,8 +2674,8 @@ id: [
             143
         ],
         img: [
-            "https://www.arbulang.com/img/fiszki1/483a.jpg",
-            "https://www.arbulang.com/img/fiszki1/483b.jpg"
+            "http://localhost/arbulanguage.com/img/fiszki1/483a.jpg",
+            "http://localhost/arbulanguage.com/img/fiszki1/483b.jpg"
         ],
         story: [
             "<b><u>A</b></u> na polowaniu w po<b><u>ls</b></u>kim lesie zwięrząt <b><u>nima</b></u> niestety",
@@ -2706,15 +2706,15 @@ id: [
             80,
             144
         ],
-        img: "https://www.arbulang.com/img/fiszki1/207b.jpg",
+        img: "http://localhost/arbulanguage.com/img/fiszki1/207b.jpg",
         translate: "Oni podróżują do Europy każdego lata",
         translateb: "[Dej trawel tu Jurop ewry samer]",
         translateb2: "[Dej trawel tu Jurop]",
         translateb3: "They travel to Europe every summer",
-        srcWord: ["https://www.arbulang.com/filmy/europe.mp4", "Eurotrip (2004)"],
-        srcWordimage: "https://www.arbulang.com/filmy/europe.png",
+        srcWord: ["http://localhost/arbulanguage.com/filmy/lekcja27/europe.mp4", "Eurotrip (2004)"],
+        srcWordimage: "http://localhost/arbulanguage.com/filmy/lekcja27/europe.png",
         word: [
-            "https://www.arbulang.com/voice/bike.mp4"
+            "http://localhost/arbulanguage.com/voice/bike.mp4"
         ],
         story: "<u><b>Oni</u></b> z<u><b>dej</u></b>mują jabłka z jabłoni",
         desc: "they[dej] - oni",
@@ -2741,8 +2741,8 @@ id: [
             144
         ],
         img: [
-            "https://www.arbulang.com/img/fiszki1/485b.jpg",
-            "https://www.arbulang.com/img/fiszki1/485a.jpg"
+            "http://localhost/arbulanguage.com/img/fiszki1/485b.jpg",
+            "http://localhost/arbulanguage.com/img/fiszki1/485a.jpg"
         ],
         story: [
             "Oni <u><b>podróżują</u></b> do Holandii, żeby zapalić <u><b>traw</u></b>ę-marihuanę. <u><b>L</u></b>ubią tą roślinę",
@@ -2772,11 +2772,11 @@ id: [
             144
         ],
         img: [
-            "https://www.arbulang.com/img/fiszki1/10a.jpg",
-            "https://www.arbulang.com/img/fiszki1/10b.jpg",
-            "https://www.arbulang.com/img/fiszki1/10c.jpg",
-            "https://www.arbulang.com/img/fiszki1/10d.jpg",
-            "https://www.arbulang.com/img/fiszki1/10e.jpg"
+            "http://localhost/arbulanguage.com/img/fiszki1/10a.jpg",
+            "http://localhost/arbulanguage.com/img/fiszki1/10b.jpg",
+            "http://localhost/arbulanguage.com/img/fiszki1/10c.jpg",
+            "http://localhost/arbulanguage.com/img/fiszki1/10d.jpg",
+            "http://localhost/arbulanguage.com/img/fiszki1/10e.jpg"
         ],
         story: [
             '<u><b>Dla</u></b> spor<span class="adannotation" data-annotation="1"><u><b>tu</b></u></span> przeszedłem się pieszo <u><b>ku</u></b> parku',
@@ -2809,8 +2809,8 @@ id: [
             144
         ],
         img: [
-            "https://www.arbulang.com/img/fiszki1/487b.jpg",
-            "https://www.arbulang.com/img/fiszki1/487a.jpg"
+            "http://localhost/arbulanguage.com/img/fiszki1/487b.jpg",
+            "http://localhost/arbulanguage.com/img/fiszki1/487a.jpg"
         ],
         story: [
             "<b><u>Jur</b></u>ek ze Stanów podróżuje po <b><u>Europie</b></u> i lubi sklepy C<b><u>ropp</b></u>",
@@ -2840,7 +2840,7 @@ id: [
             144
         ],
         img: [
-                "https://www.arbulang.com/img/fiszki1/324a.jpg"
+                "http://localhost/arbulanguage.com/img/fiszki1/324a.jpg"
         ],
         story: [
                 "Prawie <u><b>każdy</u></b> robi błąd na tym zagraniu. <u><b>Ew</u></b>identnie trudny element gry w piłkę. Dobrze potrafi to zrobić tylko dob<u><b>ry</u></b> zawodnik"
@@ -2867,7 +2867,7 @@ id: [
             144
         ],
         img: [
-            "https://www.arbulang.com/img/fiszki1/489a.jpg"
+            "http://localhost/arbulanguage.com/img/fiszki1/489a.jpg"
         ],
         story: [
             "<u><b>Same</u></b> przyjemne wrażenia tego <u><b>lata</u></b>"
@@ -2894,20 +2894,20 @@ id: [
             145
         ],
         img: [
-                "https://www.arbulang.com/img/fiszki1/5a.jpg",
-                "https://www.arbulang.com/img/fiszki1/5b.jpg",
-                "https://www.arbulang.com/img/fiszki1/5c.jpg",
-                "https://www.arbulang.com/img/fiszki1/5d.jpg",
-                "https://www.arbulang.com/img/fiszki1/5e.jpg"
+                "http://localhost/arbulanguage.com/img/fiszki1/5a.jpg",
+                "http://localhost/arbulanguage.com/img/fiszki1/5b.jpg",
+                "http://localhost/arbulanguage.com/img/fiszki1/5c.jpg",
+                "http://localhost/arbulanguage.com/img/fiszki1/5d.jpg",
+                "http://localhost/arbulanguage.com/img/fiszki1/5e.jpg"
         ],
         translate: "Wiatr wieje mocno zimą",
         translateb: "[De łind blołs hard during łinter]",
         translateb2: "[De łind blołs hard]",
         translateb3: "The wind blows hard during winter",
-        srcWord: ["https://www.arbulang.com/filmy/winter.mp4", "Incepcja (2010)"],
-        srcWordimage: "https://www.arbulang.com/filmy/winter.png",
+        srcWord: ["http://localhost/arbulanguage.com/filmy/lekcja27/winter.mp4", "Incepcja (2010)"],
+        srcWordimage: "http://localhost/arbulanguage.com/filmy/lekcja27/winter.png",
         word: [
-            "https://www.arbulang.com/voice/bike.mp4"
+            "http://localhost/arbulanguage.com/voice/bike.mp4"
         ],
         story: [
                 'Piłki do gry w kosza są twar<span class="adannotation" data-annotation="1"><u><b>de</u></b></span>. Sam ten sport <u><b>to</u></b> twarda gra',
@@ -2940,7 +2940,7 @@ id: [
             145
         ],
         img: [
-            "https://www.arbulang.com/img/fiszki1/491a.jpg"
+            "http://localhost/arbulanguage.com/img/fiszki1/491a.jpg"
         ],
         story: [
             "Kolor nieba ma kolor <u><b>ind</u></b>ygo, <u><b>ł</u></b>agodny <u><b>wiatr</u></b> sprawia że ten widok jest cudowny"
@@ -2969,7 +2969,7 @@ id: [
             145
         ],
         img: [
-            "https://www.arbulang.com/img/fiszki1/492a.jpg"
+            "http://localhost/arbulanguage.com/img/fiszki1/492a.jpg"
         ],
         story: [
             "<u><b>Blo</u></b>kada anty ha<u><b>ł</u></b>a<u><b>s</u></b>owa obok drogi szybkiego ruchu powoduje że <u><b>uderzenie</u></b> dzwiękami jest mniej nieznośne"
@@ -2998,7 +2998,7 @@ id: [
             145
         ],
         img: [
-            "https://www.arbulang.com/img/fiszki1/493a.jpg"
+            "http://localhost/arbulanguage.com/img/fiszki1/493a.jpg"
         ],
         story: [
             "On jest bardzo <u><b>hard</u></b>y czyli jest <u><b>twardym</u></b> zawodnikiem"
@@ -3027,7 +3027,7 @@ id: [
             146
         ],
         img: [
-            "https://www.arbulang.com/img/fiszki1/494a.jpg"
+            "http://localhost/arbulanguage.com/img/fiszki1/494a.jpg"
         ],
         story: [
             "Akord <u><b>Dur</u></b> <u><b>podczas</u></b> gry na fortepianie daje 'przyjazne' dźwięki. Na pewno umiejętności muzyczne przydają się przy l<u><b>ing</u></b>wistyce"
@@ -3054,7 +3054,7 @@ id: [
             146
         ],
         img: [
-            "https://www.arbulang.com/img/fiszki1/495a.jpg"
+            "http://localhost/arbulanguage.com/img/fiszki1/495a.jpg"
         ],
         story: [
             ""
@@ -3080,16 +3080,16 @@ id: [
             82,
             147
         ],
-        img: "https://www.arbulang.com/img/fiszki1/207b.jpg",
+        img: "http://localhost/arbulanguage.com/img/fiszki1/207b.jpg",
         translate: "Oni chodzą na ryby do rzeki",
         translateb: "[Dej goł fiszing in de riwer]",
         translateb2: "[Dej goł fiszing]",
         translateb3: "They go fishing in the river",
-        srcWord: ["https://www.arbulang.com/filmy/fishing.mp4", "Nie wierzcie bliźniaczkom (1998)"],
-        srcWordimage: "https://www.arbulang.com/filmy/fishing.png",
+        srcWord: ["http://localhost/arbulanguage.com/filmy/lekcja28/fishing.mp4", "Nie wierzcie bliźniaczkom (1998)"],
+        srcWordimage: "http://localhost/arbulanguage.com/filmy/lekcja28/fishing.png",
         opis: "Scena nad jeziorem",
         word: [
-                "https://www.arbulang.com/voice/music.mp4"
+                "http://localhost/arbulanguage.com/voice/music.mp4"
         ],
         story: "<u><b>Oni</u></b> z<u><b>dej</u></b>mują jabłka z jabłoni",
         desc: "they[dej] - oni",
@@ -3115,7 +3115,7 @@ id: [
             147
         ],
         img: [
-            "https://www.arbulang.com/img/fiszki1/497a.jpg"
+            "http://localhost/arbulanguage.com/img/fiszki1/497a.jpg"
         ],
         story: [
             "Na plaży nudystów ludzie <u><b>idą</u></b> <u><b>goł</u></b>o po piasku"
@@ -3143,7 +3143,7 @@ id: [
             147
         ],
         img: [
-            "https://www.arbulang.com/img/fiszki1/498a.jpg"
+            "http://localhost/arbulanguage.com/img/fiszki1/498a.jpg"
         ],
         story: [
             "<u><b>Fisz</u></b>ki pomagają w nauce angielskiego. Jeśli jesteś s<u><b>ing</u></b>lem to można <u><b>wędkować</u></b> w pojedynkę i uczyć się angielskiego"
@@ -3171,7 +3171,7 @@ id: [
             148
         ],
         img: [
-            "https://www.arbulang.com/img/fiszki1/499a.jpg"
+            "http://localhost/arbulanguage.com/img/fiszki1/499a.jpg"
         ],
         story: [
             ""

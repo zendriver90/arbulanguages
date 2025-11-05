@@ -6,7 +6,7 @@ fiszki10.push(
             181
         ],
         img: [
-            "https://www.arbulang.com/img/fiszki1/364a.jpg"
+            "http://localhost/arbulanguage.com/img/fiszki1/364a.jpg"
         ],
         story: [
             "Ten zestaw przebrania zawiera ciachy w jakich chodził model Kena. Czyli spodnie dzinsy i koszula"
@@ -31,7 +31,7 @@ fiszki10.push(
             181
         ],
         img: [
-            "https://www.arbulang.com/img/fiszki1/364a.jpg"
+            "http://localhost/arbulanguage.com/img/fiszki1/364a.jpg"
         ],
         story: [
             "S"
@@ -56,7 +56,7 @@ fiszki10.push(
             181
         ],
         img: [
-            "https://www.arbulang.com/img/fiszki1/364a.jpg"
+            "http://localhost/arbulanguage.com/img/fiszki1/364a.jpg"
         ],
         story: [
             ""
@@ -81,19 +81,19 @@ fiszki10.push(
             182
         ],
         img: [
-            "https://www.arbulang.com/img/fiszki1/7a.jpg",
-            "https://www.arbulang.com/img/fiszki1/7b.jpg",
-            "https://www.arbulang.com/img/fiszki1/7c.jpg",
-            "https://www.arbulang.com/img/fiszki1/7d.jpg",
-            "https://www.arbulang.com/img/fiszki1/7e.jpg"
+            "http://localhost/arbulanguage.com/img/fiszki1/7a.jpg",
+            "http://localhost/arbulanguage.com/img/fiszki1/7b.jpg",
+            "http://localhost/arbulanguage.com/img/fiszki1/7c.jpg",
+            "http://localhost/arbulanguage.com/img/fiszki1/7d.jpg",
+            "http://localhost/arbulanguage.com/img/fiszki1/7e.jpg"
         ],
         translate: "",
         translateb: "[]",
         translateb2: "[]",
-        srcWord: ["https://www.arbulang.com/filmy/tennis.mp4", "V for Vendetta (2005)"],
-        srcWordimage: "https://www.arbulang.com/filmy/tennis.png",
+        srcWord: ["http://localhost/arbulanguage.com/filmy/tennis.mp4", "V for Vendetta (2005)"],
+        srcWordimage: "http://localhost/arbulanguage.com/filmy/tennis.png",
         word: [
-            "https://www.arbulang.com/voice/bike.mp4"
+            "http://localhost/arbulanguage.com/voice/bike.mp4"
         ],
         story: "<u><b>Ona</u></b> - Patrycja ma ri<u><b>szi</u></b> to naturalny antyoksydant",
         desc: "the[] - niebieski/niebieskie",
@@ -116,7 +116,7 @@ fiszki10.push(
             182
         ],
         img: [
-            "https://www.arbulang.com/img/fiszki1/364a.jpg"
+            "http://localhost/arbulanguage.com/img/fiszki1/364a.jpg"
         ],
         story: [
             ""
@@ -141,7 +141,7 @@ fiszki10.push(
             182
         ],
         img: [
-            "https://www.arbulang.com/img/fiszki1/364a.jpg"
+            "http://localhost/arbulanguage.com/img/fiszki1/364a.jpg"
         ],
         story: [
             "Zawodnika Herty Berlin boli noga"
@@ -166,7 +166,7 @@ fiszki10.push(
             183
         ],
         img: [
-            "https://www.arbulang.com/img/fiszki1/364a.jpg"
+            "http://localhost/arbulanguage.com/img/fiszki1/364a.jpg"
         ],
         story: [
             ""
@@ -190,7 +190,7 @@ fiszki10.push(
             183
         ],
         img: [
-            "https://www.arbulang.com/img/fiszki1/364a.jpg"
+            "http://localhost/arbulanguage.com/img/fiszki1/364a.jpg"
         ],
         story: [
             ""
@@ -214,19 +214,19 @@ fiszki10.push(
             184
         ],
         img: [
-            "https://www.arbulang.com/img/fiszki1/7a.jpg",
-            "https://www.arbulang.com/img/fiszki1/7b.jpg",
-            "https://www.arbulang.com/img/fiszki1/7c.jpg",
-            "https://www.arbulang.com/img/fiszki1/7d.jpg",
-            "https://www.arbulang.com/img/fiszki1/7e.jpg"
+            "http://localhost/arbulanguage.com/img/fiszki1/7a.jpg",
+            "http://localhost/arbulanguage.com/img/fiszki1/7b.jpg",
+            "http://localhost/arbulanguage.com/img/fiszki1/7c.jpg",
+            "http://localhost/arbulanguage.com/img/fiszki1/7d.jpg",
+            "http://localhost/arbulanguage.com/img/fiszki1/7e.jpg"
         ],
         translate: "",
         translateb: "[]",
         translateb2: "[]",
-        srcWord: ["https://www.arbulang.com/filmy/tennis.mp4", "V for Vendetta (2005)"],
-        srcWordimage: "https://www.arbulang.com/filmy/tennis.png",
+        srcWord: ["http://localhost/arbulanguage.com/filmy/tennis.mp4", "V for Vendetta (2005)"],
+        srcWordimage: "http://localhost/arbulanguage.com/filmy/tennis.png",
         word: [
-            "https://www.arbulang.com/voice/bike.mp4"
+            "http://localhost/arbulanguage.com/voice/bike.mp4"
         ],
         story: "<u><b>Ona</u></b> - Patrycja ma ri<u><b>szi</u></b> to naturalny antyoksydant",
         desc: "the[] - niebieski/niebieskie",
@@ -248,7 +248,7 @@ fiszki10.push(
             184
         ],
         img: [
-            "https://www.arbulang.com/img/fiszki1/364a.jpg"
+            "http://localhost/arbulanguage.com/img/fiszki1/364a.jpg"
         ],
         story: [
             ""
@@ -272,7 +272,7 @@ fiszki10.push(
             185
         ],
         img: [
-            "https://www.arbulang.com/img/fiszki1/364a.jpg"
+            "http://localhost/arbulanguage.com/img/fiszki1/364a.jpg"
         ],
         story: [
             ""
@@ -297,7 +297,7 @@ fiszki10.push(
             185
         ],
         img: [
-            "https://www.arbulang.com/img/fiszki1/364a.jpg"
+            "http://localhost/arbulanguage.com/img/fiszki1/364a.jpg"
         ],
         story: [
             ""
@@ -322,7 +322,7 @@ fiszki10.push(
             185
         ],
         img: [
-            "https://www.arbulang.com/img/fiszki1/364a.jpg"
+            "http://localhost/arbulanguage.com/img/fiszki1/364a.jpg"
         ],
         story: [
             ""
@@ -347,19 +347,19 @@ fiszki10.push(
             186
         ],
         img: [
-            "https://www.arbulang.com/img/fiszki1/7a.jpg",
-            "https://www.arbulang.com/img/fiszki1/7b.jpg",
-            "https://www.arbulang.com/img/fiszki1/7c.jpg",
-            "https://www.arbulang.com/img/fiszki1/7d.jpg",
-            "https://www.arbulang.com/img/fiszki1/7e.jpg"
+            "http://localhost/arbulanguage.com/img/fiszki1/7a.jpg",
+            "http://localhost/arbulanguage.com/img/fiszki1/7b.jpg",
+            "http://localhost/arbulanguage.com/img/fiszki1/7c.jpg",
+            "http://localhost/arbulanguage.com/img/fiszki1/7d.jpg",
+            "http://localhost/arbulanguage.com/img/fiszki1/7e.jpg"
         ],
         translate: "",
         translateb: "[]",
         translateb2: "[]",
-        srcWord: ["https://www.arbulang.com/filmy/tennis.mp4", "V for Vendetta (2005)"],
-        srcWordimage: "https://www.arbulang.com/filmy/tennis.png",
+        srcWord: ["http://localhost/arbulanguage.com/filmy/tennis.mp4", "V for Vendetta (2005)"],
+        srcWordimage: "http://localhost/arbulanguage.com/filmy/tennis.png",
         word: [
-            "https://www.arbulang.com/voice/bike.mp4"
+            "http://localhost/arbulanguage.com/voice/bike.mp4"
         ],
         story: "<u><b>Ona</u></b> - Patrycja ma ri<u><b>szi</u></b> to naturalny antyoksydant",
         desc: "her[] - niebieski/niebieskie",
@@ -382,7 +382,7 @@ fiszki10.push(
             186
         ],
         img: [
-            "https://www.arbulang.com/img/fiszki1/364a.jpg"
+            "http://localhost/arbulanguage.com/img/fiszki1/364a.jpg"
         ],
         story: [
             ""
@@ -407,7 +407,7 @@ fiszki10.push(
             186
         ],
         img: [
-            "https://www.arbulang.com/img/fiszki1/364a.jpg"
+            "http://localhost/arbulanguage.com/img/fiszki1/364a.jpg"
         ],
         story: [
             ""
@@ -432,7 +432,7 @@ fiszki10.push(
             187
         ],
         img: [
-            "https://www.arbulang.com/img/fiszki1/364a.jpg"
+            "http://localhost/arbulanguage.com/img/fiszki1/364a.jpg"
         ],
         story: [
             ""
@@ -457,7 +457,7 @@ fiszki10.push(
             187
         ],
         img: [
-            "https://www.arbulang.com/img/fiszki1/364a.jpg"
+            "http://localhost/arbulanguage.com/img/fiszki1/364a.jpg"
         ],
         story: [
             ""
@@ -482,7 +482,7 @@ fiszki10.push(
             187
         ],
         img: [
-            "https://www.arbulang.com/img/fiszki1/364a.jpg"
+            "http://localhost/arbulanguage.com/img/fiszki1/364a.jpg"
         ],
         story: [
             ""
@@ -507,19 +507,19 @@ fiszki10.push(
             188
         ],
         img: [
-            "https://www.arbulang.com/img/fiszki1/7a.jpg",
-            "https://www.arbulang.com/img/fiszki1/7b.jpg",
-            "https://www.arbulang.com/img/fiszki1/7c.jpg",
-            "https://www.arbulang.com/img/fiszki1/7d.jpg",
-            "https://www.arbulang.com/img/fiszki1/7e.jpg"
+            "http://localhost/arbulanguage.com/img/fiszki1/7a.jpg",
+            "http://localhost/arbulanguage.com/img/fiszki1/7b.jpg",
+            "http://localhost/arbulanguage.com/img/fiszki1/7c.jpg",
+            "http://localhost/arbulanguage.com/img/fiszki1/7d.jpg",
+            "http://localhost/arbulanguage.com/img/fiszki1/7e.jpg"
         ],
         translate: "",
         translateb: "[]",
         translateb2: "[]",
-        srcWord: ["https://www.arbulang.com/filmy/tennis.mp4", "V for Vendetta (2005)"],
-        srcWordimage: "https://www.arbulang.com/filmy/tennis.png",
+        srcWord: ["http://localhost/arbulanguage.com/filmy/tennis.mp4", "V for Vendetta (2005)"],
+        srcWordimage: "http://localhost/arbulanguage.com/filmy/tennis.png",
         word: [
-            "https://www.arbulang.com/voice/bike.mp4"
+            "http://localhost/arbulanguage.com/voice/bike.mp4"
         ],
         story: "<u><b>Ona</u></b> - Patrycja ma ri<u><b>szi</u></b> to naturalny antyoksydant",
         desc: "the boy[] - niebieski/niebieskie",
@@ -542,7 +542,7 @@ fiszki10.push(
             188
         ],
         img: [
-            "https://www.arbulang.com/img/fiszki1/364a.jpg"
+            "http://localhost/arbulanguage.com/img/fiszki1/364a.jpg"
         ],
         story: [
             ""
@@ -567,7 +567,7 @@ fiszki10.push(
             188
         ],
         img: [
-            "https://www.arbulang.com/img/fiszki1/364a.jpg"
+            "http://localhost/arbulanguage.com/img/fiszki1/364a.jpg"
         ],
         story: [
             ""
@@ -592,7 +592,7 @@ fiszki10.push(
             189
         ],
         img: [
-            "https://www.arbulang.com/img/fiszki1/364a.jpg"
+            "http://localhost/arbulanguage.com/img/fiszki1/364a.jpg"
         ],
         story: [
             ""
@@ -616,7 +616,7 @@ fiszki10.push(
             189
         ],
         img: [
-            "https://www.arbulang.com/img/fiszki1/364a.jpg"
+            "http://localhost/arbulanguage.com/img/fiszki1/364a.jpg"
         ],
         story: [
             ""
@@ -640,19 +640,19 @@ fiszki10.push(
             190
         ],
         img: [
-            "https://www.arbulang.com/img/fiszki1/7a.jpg",
-            "https://www.arbulang.com/img/fiszki1/7b.jpg",
-            "https://www.arbulang.com/img/fiszki1/7c.jpg",
-            "https://www.arbulang.com/img/fiszki1/7d.jpg",
-            "https://www.arbulang.com/img/fiszki1/7e.jpg"
+            "http://localhost/arbulanguage.com/img/fiszki1/7a.jpg",
+            "http://localhost/arbulanguage.com/img/fiszki1/7b.jpg",
+            "http://localhost/arbulanguage.com/img/fiszki1/7c.jpg",
+            "http://localhost/arbulanguage.com/img/fiszki1/7d.jpg",
+            "http://localhost/arbulanguage.com/img/fiszki1/7e.jpg"
         ],
         translate: "",
         translateb: "[]",
         translateb2: "[]",
-        srcWord: ["https://www.arbulang.com/filmy/tennis.mp4", "V for Vendetta (2005)"],
-        srcWordimage: "https://www.arbulang.com/filmy/tennis.png",
+        srcWord: ["http://localhost/arbulanguage.com/filmy/tennis.mp4", "V for Vendetta (2005)"],
+        srcWordimage: "http://localhost/arbulanguage.com/filmy/tennis.png",
         word: [
-            "https://www.arbulang.com/voice/bike.mp4"
+            "http://localhost/arbulanguage.com/voice/bike.mp4"
         ],
         story: "<u><b>Ona</u></b> - Patrycja ma ri<u><b>szi</u></b> to naturalny antyoksydant",
         desc: "my[] - moja, moje",
@@ -675,7 +675,7 @@ fiszki10.push(
             190
         ],
         img: [
-            "https://www.arbulang.com/img/fiszki1/364a.jpg"
+            "http://localhost/arbulanguage.com/img/fiszki1/364a.jpg"
         ],
         story: [
             ""
@@ -700,7 +700,7 @@ fiszki10.push(
             190
         ],
         img: [
-            "https://www.arbulang.com/img/fiszki1/364a.jpg"
+            "http://localhost/arbulanguage.com/img/fiszki1/364a.jpg"
         ],
         story: [
             ""
@@ -725,7 +725,7 @@ fiszki10.push(
             191
         ],
         img: [
-            "https://www.arbulang.com/img/fiszki1/364a.jpg"
+            "http://localhost/arbulanguage.com/img/fiszki1/364a.jpg"
         ],
         story: [
             ""
@@ -750,7 +750,7 @@ fiszki10.push(
             191
         ],
         img: [
-            "https://www.arbulang.com/img/fiszki1/364a.jpg"
+            "http://localhost/arbulanguage.com/img/fiszki1/364a.jpg"
         ],
         story: [
             ""
@@ -775,7 +775,7 @@ fiszki10.push(
             191
         ],
         img: [
-            "https://www.arbulang.com/img/fiszki1/364a.jpg"
+            "http://localhost/arbulanguage.com/img/fiszki1/364a.jpg"
         ],
         story: [
             ""
@@ -800,19 +800,19 @@ fiszki10.push(
             192
         ],
         img: [
-            "https://www.arbulang.com/img/fiszki1/7a.jpg",
-            "https://www.arbulang.com/img/fiszki1/7b.jpg",
-            "https://www.arbulang.com/img/fiszki1/7c.jpg",
-            "https://www.arbulang.com/img/fiszki1/7d.jpg",
-            "https://www.arbulang.com/img/fiszki1/7e.jpg"
+            "http://localhost/arbulanguage.com/img/fiszki1/7a.jpg",
+            "http://localhost/arbulanguage.com/img/fiszki1/7b.jpg",
+            "http://localhost/arbulanguage.com/img/fiszki1/7c.jpg",
+            "http://localhost/arbulanguage.com/img/fiszki1/7d.jpg",
+            "http://localhost/arbulanguage.com/img/fiszki1/7e.jpg"
         ],
         translate: "",
         translateb: "[]",
         translateb2: "[]",
-        srcWord: ["https://www.arbulang.com/filmy/tennis.mp4", "V for Vendetta (2005)"],
-        srcWordimage: "https://www.arbulang.com/filmy/tennis.png",
+        srcWord: ["http://localhost/arbulanguage.com/filmy/tennis.mp4", "V for Vendetta (2005)"],
+        srcWordimage: "http://localhost/arbulanguage.com/filmy/tennis.png",
         word: [
-            "https://www.arbulang.com/voice/bike.mp4"
+            "http://localhost/arbulanguage.com/voice/bike.mp4"
         ],
         story: "<u><b>Ona</u></b> - Patrycja ma ri<u><b>szi</u></b> to naturalny antyoksydant",
         desc: "wolf[] - moja, moje",
@@ -834,7 +834,7 @@ fiszki10.push(
             192
         ],
         img: [
-            "https://www.arbulang.com/img/fiszki1/364a.jpg"
+            "http://localhost/arbulanguage.com/img/fiszki1/364a.jpg"
         ],
         story: [
             ""
@@ -858,7 +858,7 @@ fiszki10.push(
             193
         ],
         img: [
-            "https://www.arbulang.com/img/fiszki1/364a.jpg"
+            "http://localhost/arbulanguage.com/img/fiszki1/364a.jpg"
         ],
         story: [
             ""
@@ -883,7 +883,7 @@ fiszki10.push(
             193
         ],
         img: [
-            "https://www.arbulang.com/img/fiszki1/364a.jpg"
+            "http://localhost/arbulanguage.com/img/fiszki1/364a.jpg"
         ],
         story: [
             ""
@@ -908,7 +908,7 @@ fiszki10.push(
             193
         ],
         img: [
-            "https://www.arbulang.com/img/fiszki1/364a.jpg"
+            "http://localhost/arbulanguage.com/img/fiszki1/364a.jpg"
         ],
         story: [
             ""
@@ -933,19 +933,19 @@ fiszki10.push(
             194
         ],
         img: [
-            "https://www.arbulang.com/img/fiszki1/7a.jpg",
-            "https://www.arbulang.com/img/fiszki1/7b.jpg",
-            "https://www.arbulang.com/img/fiszki1/7c.jpg",
-            "https://www.arbulang.com/img/fiszki1/7d.jpg",
-            "https://www.arbulang.com/img/fiszki1/7e.jpg"
+            "http://localhost/arbulanguage.com/img/fiszki1/7a.jpg",
+            "http://localhost/arbulanguage.com/img/fiszki1/7b.jpg",
+            "http://localhost/arbulanguage.com/img/fiszki1/7c.jpg",
+            "http://localhost/arbulanguage.com/img/fiszki1/7d.jpg",
+            "http://localhost/arbulanguage.com/img/fiszki1/7e.jpg"
         ],
         translate: "",
         translateb: "[]",
         translateb2: "[]",
-        srcWord: ["https://www.arbulang.com/filmy/tennis.mp4", "V for Vendetta (2005)"],
-        srcWordimage: "https://www.arbulang.com/filmy/tennis.png",
+        srcWord: ["http://localhost/arbulanguage.com/filmy/tennis.mp4", "V for Vendetta (2005)"],
+        srcWordimage: "http://localhost/arbulanguage.com/filmy/tennis.png",
         word: [
-            "https://www.arbulang.com/voice/bike.mp4"
+            "http://localhost/arbulanguage.com/voice/bike.mp4"
         ],
         story: "<u><b>Ona</u></b> - Patrycja ma ri<u><b>szi</u></b> to naturalny antyoksydant",
         desc: "take[] - moja, moje",
@@ -967,7 +967,7 @@ fiszki10.push(
             194
         ],
         img: [
-            "https://www.arbulang.com/img/fiszki1/364a.jpg"
+            "http://localhost/arbulanguage.com/img/fiszki1/364a.jpg"
         ],
         story: [
             ""
@@ -991,7 +991,7 @@ fiszki10.push(
             195
         ],
         img: [
-            "https://www.arbulang.com/img/fiszki1/364a.jpg"
+            "http://localhost/arbulanguage.com/img/fiszki1/364a.jpg"
         ],
         story: [
             ""
@@ -1016,7 +1016,7 @@ fiszki10.push(
             195
         ],
         img: [
-            "https://www.arbulang.com/img/fiszki1/364a.jpg"
+            "http://localhost/arbulanguage.com/img/fiszki1/364a.jpg"
         ],
         story: [
             ""
@@ -1041,7 +1041,7 @@ fiszki10.push(
             195
         ],
         img: [
-            "https://www.arbulang.com/img/fiszki1/364a.jpg"
+            "http://localhost/arbulanguage.com/img/fiszki1/364a.jpg"
         ],
         story: [
             ""
@@ -1066,19 +1066,19 @@ fiszki10.push(
             196
         ],
         img: [
-            "https://www.arbulang.com/img/fiszki1/7a.jpg",
-            "https://www.arbulang.com/img/fiszki1/7b.jpg",
-            "https://www.arbulang.com/img/fiszki1/7c.jpg",
-            "https://www.arbulang.com/img/fiszki1/7d.jpg",
-            "https://www.arbulang.com/img/fiszki1/7e.jpg"
+            "http://localhost/arbulanguage.com/img/fiszki1/7a.jpg",
+            "http://localhost/arbulanguage.com/img/fiszki1/7b.jpg",
+            "http://localhost/arbulanguage.com/img/fiszki1/7c.jpg",
+            "http://localhost/arbulanguage.com/img/fiszki1/7d.jpg",
+            "http://localhost/arbulanguage.com/img/fiszki1/7e.jpg"
         ],
         translate: "",
         translateb: "[]",
         translateb2: "[]",
-        srcWord: ["https://www.arbulang.com/filmy/tennis.mp4", "V for Vendetta (2005)"],
-        srcWordimage: "https://www.arbulang.com/filmy/tennis.png",
+        srcWord: ["http://localhost/arbulanguage.com/filmy/tennis.mp4", "V for Vendetta (2005)"],
+        srcWordimage: "http://localhost/arbulanguage.com/filmy/tennis.png",
         word: [
-            "https://www.arbulang.com/voice/bike.mp4"
+            "http://localhost/arbulanguage.com/voice/bike.mp4"
         ],
         story: "<u><b>Ona</u></b> - Patrycja ma ri<u><b>szi</u></b> to naturalny antyoksydant",
         desc: "I[] - moja, moje",
@@ -1102,7 +1102,7 @@ fiszki10.push(
             196
         ],
         img: [
-            "https://www.arbulang.com/img/fiszki1/364a.jpg"
+            "http://localhost/arbulanguage.com/img/fiszki1/364a.jpg"
         ],
         story: [
             "Super jest ten mały silnik. Ma moc kilku moli"
@@ -1128,7 +1128,7 @@ fiszki10.push(
             196
         ],
         img: [
-            "https://www.arbulang.com/img/fiszki1/364a.jpg"
+            "http://localhost/arbulanguage.com/img/fiszki1/364a.jpg"
         ],
         story: [
             "Super jest ten mały silnik. Ma moc kilku moli"
@@ -1154,7 +1154,7 @@ fiszki10.push(
             196
         ],
         img: [
-            "https://www.arbulang.com/img/fiszki1/364a.jpg"
+            "http://localhost/arbulanguage.com/img/fiszki1/364a.jpg"
         ],
         story: [
             "Super jest ten mały silnik. Ma moc kilku moli"
@@ -1180,7 +1180,7 @@ fiszki10.push(
             197
         ],
         img: [
-            "https://www.arbulang.com/img/fiszki1/364a.jpg"
+            "http://localhost/arbulanguage.com/img/fiszki1/364a.jpg"
         ],
         story: [
             "Super jest ten mały silnik. Ma moc kilku moli"
@@ -1204,7 +1204,7 @@ fiszki10.push(
             197
         ],
         img: [
-            "https://www.arbulang.com/img/fiszki1/364a.jpg"
+            "http://localhost/arbulanguage.com/img/fiszki1/364a.jpg"
         ],
         story: [
             "Super jest ten mały silnik. Ma moc kilku moli"
@@ -1228,19 +1228,19 @@ fiszki10.push(
             198
         ],
         img: [
-            "https://www.arbulang.com/img/fiszki1/7a.jpg",
-            "https://www.arbulang.com/img/fiszki1/7b.jpg",
-            "https://www.arbulang.com/img/fiszki1/7c.jpg",
-            "https://www.arbulang.com/img/fiszki1/7d.jpg",
-            "https://www.arbulang.com/img/fiszki1/7e.jpg"
+            "http://localhost/arbulanguage.com/img/fiszki1/7a.jpg",
+            "http://localhost/arbulanguage.com/img/fiszki1/7b.jpg",
+            "http://localhost/arbulanguage.com/img/fiszki1/7c.jpg",
+            "http://localhost/arbulanguage.com/img/fiszki1/7d.jpg",
+            "http://localhost/arbulanguage.com/img/fiszki1/7e.jpg"
         ],
         translate: "",
         translateb: "[]",
         translateb2: "[]",
-        srcWord: ["https://www.arbulang.com/filmy/tennis.mp4", "V for Vendetta (2005)"],
-        srcWordimage: "https://www.arbulang.com/filmy/tennis.png",
+        srcWord: ["http://localhost/arbulanguage.com/filmy/tennis.mp4", "V for Vendetta (2005)"],
+        srcWordimage: "http://localhost/arbulanguage.com/filmy/tennis.png",
         word: [
-            "https://www.arbulang.com/voice/bike.mp4"
+            "http://localhost/arbulanguage.com/voice/bike.mp4"
         ],
         story: "<u><b>Ona</u></b> - Patrycja ma ri<u><b>szi</u></b> to naturalny antyoksydant",
         desc: "she[] - moja, moje",
@@ -1263,7 +1263,7 @@ fiszki10.push(
             198
         ],
         img: [
-            "https://www.arbulang.com/img/fiszki1/364a.jpg"
+            "http://localhost/arbulanguage.com/img/fiszki1/364a.jpg"
         ],
         story: [
             "Super jest ten mały silnik. Ma moc kilku moli"
@@ -1288,7 +1288,7 @@ fiszki10.push(
             198
         ],
         img: [
-            "https://www.arbulang.com/img/fiszki1/364a.jpg"
+            "http://localhost/arbulanguage.com/img/fiszki1/364a.jpg"
         ],
         story: [
             "Super jest ten mały silnik. Ma moc kilku moli"
@@ -1313,7 +1313,7 @@ fiszki10.push(
             199
         ],
         img: [
-            "https://www.arbulang.com/img/fiszki1/364a.jpg"
+            "http://localhost/arbulanguage.com/img/fiszki1/364a.jpg"
         ],
         story: [
             "Super jest ten mały silnik. Ma moc kilku moli"
@@ -1337,7 +1337,7 @@ fiszki10.push(
             199
         ],
         img: [
-            "https://www.arbulang.com/img/fiszki1/364a.jpg"
+            "http://localhost/arbulanguage.com/img/fiszki1/364a.jpg"
         ],
         story: [
             "Super jest ten mały silnik. Ma moc kilku moli"
@@ -1362,7 +1362,7 @@ fiszki10.push(
             199
         ],
         img: [
-            "https://www.arbulang.com/img/fiszki1/364a.jpg"
+            "http://localhost/arbulanguage.com/img/fiszki1/364a.jpg"
         ],
         story: [
             "Super jest ten mały silnik. Ma moc kilku moli"
@@ -1387,19 +1387,19 @@ fiszki10.push(
             200
         ],
         img: [
-            "https://www.arbulang.com/img/fiszki1/7a.jpg",
-            "https://www.arbulang.com/img/fiszki1/7b.jpg",
-            "https://www.arbulang.com/img/fiszki1/7c.jpg",
-            "https://www.arbulang.com/img/fiszki1/7d.jpg",
-            "https://www.arbulang.com/img/fiszki1/7e.jpg"
+            "http://localhost/arbulanguage.com/img/fiszki1/7a.jpg",
+            "http://localhost/arbulanguage.com/img/fiszki1/7b.jpg",
+            "http://localhost/arbulanguage.com/img/fiszki1/7c.jpg",
+            "http://localhost/arbulanguage.com/img/fiszki1/7d.jpg",
+            "http://localhost/arbulanguage.com/img/fiszki1/7e.jpg"
         ],
         translate: "",
         translateb: "[]",
         translateb2: "[]",
-        srcWord: ["https://www.arbulang.com/filmy/tennis.mp4", "V for Vendetta (2005)"],
-        srcWordimage: "https://www.arbulang.com/filmy/tennis.png",
+        srcWord: ["http://localhost/arbulanguage.com/filmy/tennis.mp4", "V for Vendetta (2005)"],
+        srcWordimage: "http://localhost/arbulanguage.com/filmy/tennis.png",
         word: [
-            "https://www.arbulang.com/voice/bike.mp4"
+            "http://localhost/arbulanguage.com/voice/bike.mp4"
         ],
         story: "<u><b>Ona</u></b> - Patrycja ma ri<u><b>szi</u></b> to naturalny antyoksydant",
         desc: "don't[] - moja, moje",
@@ -1422,7 +1422,7 @@ fiszki10.push(
             200
         ],
         img: [
-            "https://www.arbulang.com/img/fiszki1/364a.jpg"
+            "http://localhost/arbulanguage.com/img/fiszki1/364a.jpg"
         ],
         story: [
             "Super jest ten mały silnik. Ma moc kilku moli"
@@ -1447,7 +1447,7 @@ fiszki10.push(
             200
         ],
         img: [
-            "https://www.arbulang.com/img/fiszki1/364a.jpg"
+            "http://localhost/arbulanguage.com/img/fiszki1/364a.jpg"
         ],
         story: [
             "Super jest ten mały silnik. Ma moc kilku moli"
@@ -1472,7 +1472,7 @@ fiszki10.push(
             201
         ],
         img: [
-            "https://www.arbulang.com/img/fiszki1/364a.jpg"
+            "http://localhost/arbulanguage.com/img/fiszki1/364a.jpg"
         ],
         story: [
             "Super jest ten mały silnik. Ma moc kilku moli"
@@ -1496,7 +1496,7 @@ fiszki10.push(
             201
         ],
         img: [
-            "https://www.arbulang.com/img/fiszki1/364a.jpg"
+            "http://localhost/arbulanguage.com/img/fiszki1/364a.jpg"
         ],
         story: [
             "Super jest ten mały silnik. Ma moc kilku moli"
@@ -1520,19 +1520,19 @@ fiszki10.push(
             202
         ],
         img: [
-            "https://www.arbulang.com/img/fiszki1/7a.jpg",
-            "https://www.arbulang.com/img/fiszki1/7b.jpg",
-            "https://www.arbulang.com/img/fiszki1/7c.jpg",
-            "https://www.arbulang.com/img/fiszki1/7d.jpg",
-            "https://www.arbulang.com/img/fiszki1/7e.jpg"
+            "http://localhost/arbulanguage.com/img/fiszki1/7a.jpg",
+            "http://localhost/arbulanguage.com/img/fiszki1/7b.jpg",
+            "http://localhost/arbulanguage.com/img/fiszki1/7c.jpg",
+            "http://localhost/arbulanguage.com/img/fiszki1/7d.jpg",
+            "http://localhost/arbulanguage.com/img/fiszki1/7e.jpg"
         ],
         translate: "",
         translateb: "[]",
         translateb2: "[]",
-        srcWord: ["https://www.arbulang.com/filmy/tennis.mp4", "V for Vendetta (2005)"],
-        srcWordimage: "https://www.arbulang.com/filmy/tennis.png",
+        srcWord: ["http://localhost/arbulanguage.com/filmy/tennis.mp4", "V for Vendetta (2005)"],
+        srcWordimage: "http://localhost/arbulanguage.com/filmy/tennis.png",
         word: [
-            "https://www.arbulang.com/voice/bike.mp4"
+            "http://localhost/arbulanguage.com/voice/bike.mp4"
         ],
         story: "<u><b>Ona</u></b> - Patrycja ma ri<u><b>szi</u></b> to naturalny antyoksydant",
         desc: "put[] - moja, moje",
@@ -1554,7 +1554,7 @@ fiszki10.push(
             202
         ],
         img: [
-            "https://www.arbulang.com/img/fiszki1/364a.jpg"
+            "http://localhost/arbulanguage.com/img/fiszki1/364a.jpg"
         ],
         story: [
             "Super jest ten mały silnik. Ma moc kilku moli"
@@ -1578,7 +1578,7 @@ fiszki10.push(
             202
         ],
         img: [
-            "https://www.arbulang.com/img/fiszki1/364a.jpg"
+            "http://localhost/arbulanguage.com/img/fiszki1/364a.jpg"
         ],
         story: [
             "Super jest ten mały silnik. Ma moc kilku moli"
@@ -1602,7 +1602,7 @@ fiszki10.push(
             203
         ],
         img: [
-            "https://www.arbulang.com/img/fiszki1/364a.jpg"
+            "http://localhost/arbulanguage.com/img/fiszki1/364a.jpg"
         ],
         story: [
             "Super jest ten mały silnik. Ma moc kilku moli"
@@ -1626,7 +1626,7 @@ fiszki10.push(
             203
         ],
         img: [
-            "https://www.arbulang.com/img/fiszki1/364a.jpg"
+            "http://localhost/arbulanguage.com/img/fiszki1/364a.jpg"
         ],
         story: [
             "Super jest ten mały silnik. Ma moc kilku moli"
@@ -1650,19 +1650,19 @@ fiszki10.push(
             204
         ],
         img: [
-            "https://www.arbulang.com/img/fiszki1/7a.jpg",
-            "https://www.arbulang.com/img/fiszki1/7b.jpg",
-            "https://www.arbulang.com/img/fiszki1/7c.jpg",
-            "https://www.arbulang.com/img/fiszki1/7d.jpg",
-            "https://www.arbulang.com/img/fiszki1/7e.jpg"
+            "http://localhost/arbulanguage.com/img/fiszki1/7a.jpg",
+            "http://localhost/arbulanguage.com/img/fiszki1/7b.jpg",
+            "http://localhost/arbulanguage.com/img/fiszki1/7c.jpg",
+            "http://localhost/arbulanguage.com/img/fiszki1/7d.jpg",
+            "http://localhost/arbulanguage.com/img/fiszki1/7e.jpg"
         ],
         translate: "",
         translateb: "[]",
         translateb2: "[]",
-        srcWord: ["https://www.arbulang.com/filmy/tennis.mp4", "V for Vendetta (2005)"],
-        srcWordimage: "https://www.arbulang.com/filmy/tennis.png",
+        srcWord: ["http://localhost/arbulanguage.com/filmy/tennis.mp4", "V for Vendetta (2005)"],
+        srcWordimage: "http://localhost/arbulanguage.com/filmy/tennis.png",
         word: [
-            "https://www.arbulang.com/voice/bike.mp4"
+            "http://localhost/arbulanguage.com/voice/bike.mp4"
         ],
         story: "<u><b>Ona</u></b> - Patrycja ma ri<u><b>szi</u></b> to naturalny antyoksydant",
         desc: "put[] - moja, moje",
@@ -1685,7 +1685,7 @@ fiszki10.push(
             204
         ],
         img: [
-            "https://www.arbulang.com/img/fiszki1/364a.jpg"
+            "http://localhost/arbulanguage.com/img/fiszki1/364a.jpg"
         ],
         story: [
             "Super jest ten mały silnik. Ma moc kilku moli"
@@ -1710,7 +1710,7 @@ fiszki10.push(
             204
         ],
         img: [
-            "https://www.arbulang.com/img/fiszki1/364a.jpg"
+            "http://localhost/arbulanguage.com/img/fiszki1/364a.jpg"
         ],
         story: [
             "Super jest ten mały silnik. Ma moc kilku moli"
@@ -1735,7 +1735,7 @@ fiszki10.push(
             205
         ],
         img: [
-            "https://www.arbulang.com/img/fiszki1/364a.jpg"
+            "http://localhost/arbulanguage.com/img/fiszki1/364a.jpg"
         ],
         story: [
             "Super jest ten mały silnik. Ma moc kilku moli"
@@ -1760,7 +1760,7 @@ fiszki10.push(
             205
         ],
         img: [
-            "https://www.arbulang.com/img/fiszki1/364a.jpg"
+            "http://localhost/arbulanguage.com/img/fiszki1/364a.jpg"
         ],
         story: [
             "Super jest ten mały silnik. Ma moc kilku moli"
@@ -1785,7 +1785,7 @@ fiszki10.push(
             205
         ],
         img: [
-            "https://www.arbulang.com/img/fiszki1/364a.jpg"
+            "http://localhost/arbulanguage.com/img/fiszki1/364a.jpg"
         ],
         story: [
             "Super jest ten mały silnik. Ma moc kilku moli"
@@ -1810,19 +1810,19 @@ fiszki10.push(
             206
         ],
         img: [
-            "https://www.arbulang.com/img/fiszki1/7a.jpg",
-            "https://www.arbulang.com/img/fiszki1/7b.jpg",
-            "https://www.arbulang.com/img/fiszki1/7c.jpg",
-            "https://www.arbulang.com/img/fiszki1/7d.jpg",
-            "https://www.arbulang.com/img/fiszki1/7e.jpg"
+            "http://localhost/arbulanguage.com/img/fiszki1/7a.jpg",
+            "http://localhost/arbulanguage.com/img/fiszki1/7b.jpg",
+            "http://localhost/arbulanguage.com/img/fiszki1/7c.jpg",
+            "http://localhost/arbulanguage.com/img/fiszki1/7d.jpg",
+            "http://localhost/arbulanguage.com/img/fiszki1/7e.jpg"
         ],
         translate: "",
         translateb: "[]",
         translateb2: "[]",
-        srcWord: ["https://www.arbulang.com/filmy/tennis.mp4", "V for Vendetta (2005)"],
-        srcWordimage: "https://www.arbulang.com/filmy/tennis.png",
+        srcWord: ["http://localhost/arbulanguage.com/filmy/tennis.mp4", "V for Vendetta (2005)"],
+        srcWordimage: "http://localhost/arbulanguage.com/filmy/tennis.png",
         word: [
-            "https://www.arbulang.com/voice/bike.mp4"
+            "http://localhost/arbulanguage.com/voice/bike.mp4"
         ],
         story: "<u><b>Ona</u></b> - Patrycja ma ri<u><b>szi</u></b> to naturalny antyoksydant",
         desc: "put[] - moja, moje",
@@ -1845,7 +1845,7 @@ fiszki10.push(
             206
         ],
         img: [
-            "https://www.arbulang.com/img/fiszki1/364a.jpg"
+            "http://localhost/arbulanguage.com/img/fiszki1/364a.jpg"
         ],
         story: [
             "Super jest ten mały silnik. Ma moc kilku moli"
@@ -1870,7 +1870,7 @@ fiszki10.push(
             206
         ],
         img: [
-            "https://www.arbulang.com/img/fiszki1/364a.jpg"
+            "http://localhost/arbulanguage.com/img/fiszki1/364a.jpg"
         ],
         story: [
             "Super jest ten mały silnik. Ma moc kilku moli"
@@ -1895,7 +1895,7 @@ fiszki10.push(
             207
         ],
         img: [
-            "https://www.arbulang.com/img/fiszki1/364a.jpg"
+            "http://localhost/arbulanguage.com/img/fiszki1/364a.jpg"
         ],
         story: [
             "Super jest ten mały silnik. Ma moc kilku moli"
@@ -1919,7 +1919,7 @@ fiszki10.push(
             207
         ],
         img: [
-            "https://www.arbulang.com/img/fiszki1/364a.jpg"
+            "http://localhost/arbulanguage.com/img/fiszki1/364a.jpg"
         ],
         story: [
             "Super jest ten mały silnik. Ma moc kilku moli"
@@ -1943,19 +1943,19 @@ fiszki10.push(
             208
         ],
         img: [
-            "https://www.arbulang.com/img/fiszki1/7a.jpg",
-            "https://www.arbulang.com/img/fiszki1/7b.jpg",
-            "https://www.arbulang.com/img/fiszki1/7c.jpg",
-            "https://www.arbulang.com/img/fiszki1/7d.jpg",
-            "https://www.arbulang.com/img/fiszki1/7e.jpg"
+            "http://localhost/arbulanguage.com/img/fiszki1/7a.jpg",
+            "http://localhost/arbulanguage.com/img/fiszki1/7b.jpg",
+            "http://localhost/arbulanguage.com/img/fiszki1/7c.jpg",
+            "http://localhost/arbulanguage.com/img/fiszki1/7d.jpg",
+            "http://localhost/arbulanguage.com/img/fiszki1/7e.jpg"
         ],
         translate: "",
         translateb: "[]",
         translateb2: "[]",
-        srcWord: ["https://www.arbulang.com/filmy/tennis.mp4", "V for Vendetta (2005)"],
-        srcWordimage: "https://www.arbulang.com/filmy/tennis.png",
+        srcWord: ["http://localhost/arbulanguage.com/filmy/tennis.mp4", "V for Vendetta (2005)"],
+        srcWordimage: "http://localhost/arbulanguage.com/filmy/tennis.png",
         word: [
-            "https://www.arbulang.com/voice/bike.mp4"
+            "http://localhost/arbulanguage.com/voice/bike.mp4"
         ],
         story: "<u><b>Ona</u></b> - Patrycja ma ri<u><b>szi</u></b> to naturalny antyoksydant",
         desc: "put[] - moja, moje",
@@ -1980,7 +1980,7 @@ fiszki10.push(
             208
         ],
         img: [
-            "https://www.arbulang.com/img/fiszki1/364a.jpg"
+            "http://localhost/arbulanguage.com/img/fiszki1/364a.jpg"
         ],
         story: [
             "Super jest ten mały silnik. Ma moc kilku moli"
@@ -2007,7 +2007,7 @@ fiszki10.push(
             208
         ],
         img: [
-            "https://www.arbulang.com/img/fiszki1/364a.jpg"
+            "http://localhost/arbulanguage.com/img/fiszki1/364a.jpg"
         ],
         story: [
             "Super jest ten mały silnik. Ma moc kilku moli"
@@ -2034,7 +2034,7 @@ fiszki10.push(
             208
         ],
         img: [
-            "https://www.arbulang.com/img/fiszki1/364a.jpg"
+            "http://localhost/arbulanguage.com/img/fiszki1/364a.jpg"
         ],
         story: [
             "Super jest ten mały silnik. Ma moc kilku moli"
@@ -2061,7 +2061,7 @@ fiszki10.push(
             208
         ],
         img: [
-            "https://www.arbulang.com/img/fiszki1/364a.jpg"
+            "http://localhost/arbulanguage.com/img/fiszki1/364a.jpg"
         ],
         story: [
             "Super jest ten mały silnik. Ma moc kilku moli"
@@ -2088,19 +2088,19 @@ fiszki10.push(
             209
         ],
         img: [
-            "https://www.arbulang.com/img/fiszki1/7a.jpg",
-            "https://www.arbulang.com/img/fiszki1/7b.jpg",
-            "https://www.arbulang.com/img/fiszki1/7c.jpg",
-            "https://www.arbulang.com/img/fiszki1/7d.jpg",
-            "https://www.arbulang.com/img/fiszki1/7e.jpg"
+            "http://localhost/arbulanguage.com/img/fiszki1/7a.jpg",
+            "http://localhost/arbulanguage.com/img/fiszki1/7b.jpg",
+            "http://localhost/arbulanguage.com/img/fiszki1/7c.jpg",
+            "http://localhost/arbulanguage.com/img/fiszki1/7d.jpg",
+            "http://localhost/arbulanguage.com/img/fiszki1/7e.jpg"
         ],
         translate: "",
         translateb: "[]",
         translateb2: "[]",
-        srcWord: ["https://www.arbulang.com/filmy/tennis.mp4", "V for Vendetta (2005)"],
-        srcWordimage: "https://www.arbulang.com/filmy/tennis.png",
+        srcWord: ["http://localhost/arbulanguage.com/filmy/tennis.mp4", "V for Vendetta (2005)"],
+        srcWordimage: "http://localhost/arbulanguage.com/filmy/tennis.png",
         word: [
-            "https://www.arbulang.com/voice/bike.mp4"
+            "http://localhost/arbulanguage.com/voice/bike.mp4"
         ],
         story: "<u><b>Ona</u></b> - Patrycja ma ri<u><b>szi</u></b> to naturalny antyoksydant",
         desc: "put[] - moja, moje",
@@ -2122,7 +2122,7 @@ fiszki10.push(
             209
         ],
         img: [
-            "https://www.arbulang.com/img/fiszki1/364a.jpg"
+            "http://localhost/arbulanguage.com/img/fiszki1/364a.jpg"
         ],
         story: [
             "Super jest ten mały silnik. Ma moc kilku moli"
@@ -2146,7 +2146,7 @@ fiszki10.push(
             210
         ],
         img: [
-            "https://www.arbulang.com/img/fiszki1/532a.jpg"
+            "http://localhost/arbulanguage.com/img/fiszki1/532a.jpg"
         ],
         story: [
             "<b><u>Red</b></u>aktor programu ma <b><u>czerwony</b></u> długopis"
@@ -2171,7 +2171,7 @@ fiszki10.push(
             210
         ],
         img: [
-            "https://www.arbulang.com/img/fiszki1/364a.jpg"
+            "http://localhost/arbulanguage.com/img/fiszki1/364a.jpg"
         ],
         story: [
             "Super jest ten mały silnik. Ma moc kilku moli"
@@ -2196,7 +2196,7 @@ fiszki10.push(
             210
         ],
         img: [
-            "https://www.arbulang.com/img/fiszki1/364a.jpg"
+            "http://localhost/arbulanguage.com/img/fiszki1/364a.jpg"
         ],
         story: [
             "Super jest ten mały silnik. Ma moc kilku moli"
@@ -2221,19 +2221,19 @@ fiszki10.push(
             211
         ],
         img: [
-                "https://www.arbulang.com/img/fiszki1/7a.jpg",
-                "https://www.arbulang.com/img/fiszki1/7b.jpg",
-                "https://www.arbulang.com/img/fiszki1/7c.jpg",
-                "https://www.arbulang.com/img/fiszki1/7d.jpg",
-                "https://www.arbulang.com/img/fiszki1/7e.jpg"
+                "http://localhost/arbulanguage.com/img/fiszki1/7a.jpg",
+                "http://localhost/arbulanguage.com/img/fiszki1/7b.jpg",
+                "http://localhost/arbulanguage.com/img/fiszki1/7c.jpg",
+                "http://localhost/arbulanguage.com/img/fiszki1/7d.jpg",
+                "http://localhost/arbulanguage.com/img/fiszki1/7e.jpg"
         ],
         translate: "",
         translateb: "[]",
         translateb2: "[]",
-        srcWord: ["https://www.arbulang.com/filmy/newspaper.mp4", "Kevin sam w domu (1990)"],
-        srcWordimage: "https://www.arbulang.com/filmy/newspaper.png",
+        srcWord: ["http://localhost/arbulanguage.com/filmy/newspaper.mp4", "Kevin sam w domu (1990)"],
+        srcWordimage: "http://localhost/arbulanguage.com/filmy/newspaper.png",
         word: [
-            "https://www.arbulang.com/voice/bike.mp4"
+            "http://localhost/arbulanguage.com/voice/bike.mp4"
         ],
         story: [
                 'To właśnie <u><b>on</u></b> jest <span class="adannotation" data-annotation="1"><b><u>hi</b></u></span>tem tego sezonu piłkarskiego',
@@ -2262,7 +2262,7 @@ fiszki10.push(
             211
         ],
         img: [
-            "https://www.arbulang.com/img/fiszki1/364a.jpg"
+            "http://localhost/arbulanguage.com/img/fiszki1/364a.jpg"
         ],
         story: [
             ""
@@ -2287,7 +2287,7 @@ fiszki10.push(
             211
         ],
         img: [
-            "https://www.arbulang.com/img/fiszki1/364a.jpg"
+            "http://localhost/arbulanguage.com/img/fiszki1/364a.jpg"
         ],
         story: [
             ""
@@ -2312,7 +2312,7 @@ fiszki10.push(
             212
         ],
         img: [
-            "https://www.arbulang.com/img/fiszki1/364a.jpg"
+            "http://localhost/arbulanguage.com/img/fiszki1/364a.jpg"
         ],
         story: [
             ""
@@ -2337,7 +2337,7 @@ fiszki10.push(
             212
         ],
         img: [
-            "https://www.arbulang.com/img/fiszki1/364a.jpg"
+            "http://localhost/arbulanguage.com/img/fiszki1/364a.jpg"
         ],
         story: [
             ""
@@ -2362,7 +2362,7 @@ fiszki10.push(
             212
         ],
         img: [
-            "https://www.arbulang.com/img/fiszki1/364a.jpg"
+            "http://localhost/arbulanguage.com/img/fiszki1/364a.jpg"
         ],
         story: [
             ""
@@ -2387,19 +2387,19 @@ fiszki10.push(
             213
         ],
         img: [
-                "https://www.arbulang.com/img/fiszki1/7a.jpg",
-                "https://www.arbulang.com/img/fiszki1/7b.jpg",
-                "https://www.arbulang.com/img/fiszki1/7c.jpg",
-                "https://www.arbulang.com/img/fiszki1/7d.jpg",
-                "https://www.arbulang.com/img/fiszki1/7e.jpg"
+                "http://localhost/arbulanguage.com/img/fiszki1/7a.jpg",
+                "http://localhost/arbulanguage.com/img/fiszki1/7b.jpg",
+                "http://localhost/arbulanguage.com/img/fiszki1/7c.jpg",
+                "http://localhost/arbulanguage.com/img/fiszki1/7d.jpg",
+                "http://localhost/arbulanguage.com/img/fiszki1/7e.jpg"
         ],
         translate: "",
         translateb: "[]",
         translateb2: "[]",
-        srcWord: ["https://www.arbulang.com/filmy/newspaper.mp4", "Kevin sam w domu (1990)"],
-        srcWordimage: "https://www.arbulang.com/filmy/newspaper.png",
+        srcWord: ["http://localhost/arbulanguage.com/filmy/newspaper.mp4", "Kevin sam w domu (1990)"],
+        srcWordimage: "http://localhost/arbulanguage.com/filmy/newspaper.png",
         word: [
-            "https://www.arbulang.com/voice/bike.mp4"
+            "http://localhost/arbulanguage.com/voice/bike.mp4"
         ],
         story: [
                 'To właśnie <u><b>on</u></b> jest <span class="adannotation" data-annotation="1"><b><u>hi</b></u></span>tem tego sezonu piłkarskiego',
@@ -2428,7 +2428,7 @@ fiszki10.push(
             213
         ],
         img: [
-            "https://www.arbulang.com/img/fiszki1/364a.jpg"
+            "http://localhost/arbulanguage.com/img/fiszki1/364a.jpg"
         ],
         story: [
             ""
@@ -2453,7 +2453,7 @@ fiszki10.push(
             213
         ],
         img: [
-            "https://www.arbulang.com/img/fiszki1/364a.jpg"
+            "http://localhost/arbulanguage.com/img/fiszki1/364a.jpg"
         ],
         story: [
             ""
@@ -2478,7 +2478,7 @@ fiszki10.push(
             214
         ],
         img: [
-            "https://www.arbulang.com/img/fiszki1/364a.jpg"
+            "http://localhost/arbulanguage.com/img/fiszki1/364a.jpg"
         ],
         story: [
             ""
@@ -2503,7 +2503,7 @@ fiszki10.push(
             214
         ],
         img: [
-            "https://www.arbulang.com/img/fiszki1/364a.jpg"
+            "http://localhost/arbulanguage.com/img/fiszki1/364a.jpg"
         ],
         story: [
             ""
@@ -2528,7 +2528,7 @@ fiszki10.push(
             214
         ],
         img: [
-            "https://www.arbulang.com/img/fiszki1/364a.jpg"
+            "http://localhost/arbulanguage.com/img/fiszki1/364a.jpg"
         ],
         story: [
             ""
@@ -2553,19 +2553,19 @@ fiszki10.push(
             215
         ],
         img: [
-                "https://www.arbulang.com/img/fiszki1/7a.jpg",
-                "https://www.arbulang.com/img/fiszki1/7b.jpg",
-                "https://www.arbulang.com/img/fiszki1/7c.jpg",
-                "https://www.arbulang.com/img/fiszki1/7d.jpg",
-                "https://www.arbulang.com/img/fiszki1/7e.jpg"
+                "http://localhost/arbulanguage.com/img/fiszki1/7a.jpg",
+                "http://localhost/arbulanguage.com/img/fiszki1/7b.jpg",
+                "http://localhost/arbulanguage.com/img/fiszki1/7c.jpg",
+                "http://localhost/arbulanguage.com/img/fiszki1/7d.jpg",
+                "http://localhost/arbulanguage.com/img/fiszki1/7e.jpg"
         ],
         translate: "",
         translateb: "[]",
         translateb2: "[]",
-        srcWord: ["https://www.arbulang.com/filmy/newspaper.mp4", "Kevin sam w domu (1990)"],
-        srcWordimage: "https://www.arbulang.com/filmy/newspaper.png",
+        srcWord: ["http://localhost/arbulanguage.com/filmy/newspaper.mp4", "Kevin sam w domu (1990)"],
+        srcWordimage: "http://localhost/arbulanguage.com/filmy/newspaper.png",
         word: [
-            "https://www.arbulang.com/voice/bike.mp4"
+            "http://localhost/arbulanguage.com/voice/bike.mp4"
         ],
         story: [
                 'To właśnie <u><b>on</u></b> jest <span class="adannotation" data-annotation="1"><b><u>hi</b></u></span>tem tego sezonu piłkarskiego',
@@ -2594,7 +2594,7 @@ fiszki10.push(
             215
         ],
         img: [
-            "https://www.arbulang.com/img/fiszki1/364a.jpg"
+            "http://localhost/arbulanguage.com/img/fiszki1/364a.jpg"
         ],
         story: [
             ""
@@ -2619,7 +2619,7 @@ fiszki10.push(
             215
         ],
         img: [
-            "https://www.arbulang.com/img/fiszki1/364a.jpg"
+            "http://localhost/arbulanguage.com/img/fiszki1/364a.jpg"
         ],
         story: [
             ""
@@ -2644,7 +2644,7 @@ fiszki10.push(
             216
         ],
         img: [
-            "https://www.arbulang.com/img/fiszki1/364a.jpg"
+            "http://localhost/arbulanguage.com/img/fiszki1/364a.jpg"
         ],
         story: [
             ""
@@ -2668,7 +2668,7 @@ fiszki10.push(
             216
         ],
         img: [
-            "https://www.arbulang.com/img/fiszki1/364a.jpg"
+            "http://localhost/arbulanguage.com/img/fiszki1/364a.jpg"
         ],
         story: [
             ""

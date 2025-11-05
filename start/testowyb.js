@@ -28073,12 +28073,20 @@ const fiszki10 = [
             91,
             164
         ],
-        img: [
-            "https://www.arbulang.com/img/fiszki1/551a.jpg"
-        ],
-        story: [
-            "G<u><b>le</u></b>n to <u><b>syn</u></b> Państwa Simpsonów, który przyszedł dzisiaj na <u><b>lekcję</u></b> pianina"
-        ],
+            entries: [
+        {
+            id: 1,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/551a.jpg",
+                alt: "Wygenerowane przez AI."
+            },
+            story: {
+                text: "G<u><b>le</u></b>n to <u><b>syn</u></b> Państwa Simpsonów, który przyszedł dzisiaj na <u><b>lekcję</u></b> pianina",
+                alt: ""
+            },
+            category: ["", ""]
+        }
+            ],
         desc: "lesson[lesyn] - lekcja",
         sentence2: [
             "lesson"
@@ -28191,12 +28199,20 @@ const fiszki10 = [
             92,
             165
         ],
-        img: [
-            "https://www.arbulang.com/img/fiszki1/364a.jpg"
-        ],
-        story: [
-            ""
-        ],
+            entries: [
+        {
+            id: 1,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/553a.jpg",
+                alt: "Wygenerowane przez AI."
+            },
+            story: {
+                text: "Na dzisiejszych zawodach <u><b>Grand</u></b> Pri w <u><b>ma</u></b>lowniczej miejscowości kibicuje mi moja <u><b>babcia</u></b>",
+                alt: ""
+            },
+            category: ["", ""]
+        }
+            ],
         desc: "grandma[] - ",
         sentence2: [
             "grandma"
@@ -28220,13 +28236,21 @@ const fiszki10 = [
             92,
             165
         ],
-        img: [
-            "https://www.arbulang.com/img/fiszki1/364a.jpg"
-        ],
-        story: [
-            ""
-        ],
-        desc: "make[] - ",
+            entries: [
+        {
+            id: 1,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/554a.jpg",
+                alt: "Wygenerowane przez AI."
+            },
+            story: {
+                text: "Trzy<u><b>mej</u></b> mnie, bo nie wiem co <u><b>k</u></b>urde <u><b>robić</u></b>",
+                alt: ""
+            },
+            category: ["", ""]
+        }
+            ],
+        desc: "make[mejk] - robić",
         sentence2: [
             "make"
         ],
@@ -28249,13 +28273,21 @@ const fiszki10 = [
             92,
             165
         ],
-        img: [
-            "https://www.arbulang.com/img/fiszki1/364a.jpg"
-        ],
-        story: [
-            "<u><b>Sup</u></b>er jest ta <u><b>zupa</u></b>"
-        ],
-        desc: "soup[] - ",
+            entries: [
+        {
+            id: 1,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/555a.jpg",
+                alt: "Wygenerowane przez AI."
+            },
+            story: {
+                text: "<u><b>Sup</u></b>er jest ta <u><b>zupa</u></b>",
+                alt: ""
+            },
+            category: ["", ""]
+        }
+            ],
+        desc: "soup[sup] - zupa",
         sentence2: [
             "soup"
         ],
@@ -28278,13 +28310,21 @@ const fiszki10 = [
             92,
             165
         ],
-        img: [
-            "https://www.arbulang.com/img/fiszki1/364a.jpg"
-        ],
-        story: [
-            ""
-        ],
-        desc: "for[] - ",
+            entries: [
+        {
+            id: 1,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/139a.jpg",
+                alt: "Wygenerowane przez AI."
+            },
+            story: {
+                text: "<b><u>For</b></u>est Gump jest filmem <b><u>dla</b></u> każdego",
+                alt: ""
+            },
+            category: ["sztuka", "film"]
+        }
+            ],
+        desc: "for[for] - dla",
         sentence2: [
             "for"
         ],
@@ -28392,13 +28432,21 @@ const fiszki10 = [
             92,
             165
         ],
-        img: [
-            "https://www.arbulang.com/img/fiszki1/364a.jpg"
-        ],
-        story: [
-            ""
-        ],
-        desc: "lunch[] - ",
+            entries: [
+        {
+            id: 1,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/558a.jpg",
+                alt: "Wygenerowane przez AI."
+            },
+            story: {
+                text: "P<u><b>lan</u></b> na <u><b>obiad</u></b> jest taki, że jem kiedy <u><b>cz</u></b>uje się głodny",
+                alt: ""
+            },
+            category: ["sztuka", "film"]
+        }
+            ],
+        desc: "lunch[lancz] - obiad",
         sentence2: [
             "lunch"
         ],
@@ -28421,7 +28469,20 @@ const fiszki10 = [
             93,
             166
         ],
-
+                    entries: [
+        {
+            id: 1,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/207b.jpg",
+                alt: "Wygenerowane przez AI."
+            },
+            story: {
+                text: "<u><b>Oni</u></b> z<u><b>dej</u></b>mują jabłka z jabłoni",
+                alt: ""
+            },
+            category: ["", ""]
+        }
+            ],
         translate: "",
         translateb: "[]",
         translateb2: "[]",
@@ -28430,8 +28491,7 @@ const fiszki10 = [
         word: [
             "https://www.arbulang.com/voice/bike.mp4"
         ],
-        story: "<u><b>Ona</u></b> - Patrycja ma ri<u><b>szi</u></b> to naturalny antyoksydant",
-        desc: "they[] - ",
+        desc: "they[dej] - oni",
         sentence1: [
             "They"
         ],
@@ -28450,13 +28510,21 @@ const fiszki10 = [
             93,
             166
         ],
-        img: [
-            "https://www.arbulang.com/img/fiszki1/364a.jpg"
-        ],
-        story: [
-            ""
-        ],
-        desc: "walk[] - ",
+                    entries: [
+        {
+            id: 1,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/560a.jpg",
+                alt: "Wygenerowane przez AI."
+            },
+            story: {
+                text: "Patelnia <u><b>łok</u></b> spowodowała, że po zgotowanym obiedzie <u><b>chodzę</u></b> tanecznym krokiem",
+                alt: ""
+            },
+            category: ["", ""]
+        }
+            ],
+        desc: "walk[łok] - iść, chodzić",
         sentence2: [
             "walk"
         ],
@@ -28475,13 +28543,21 @@ const fiszki10 = [
             93,
             166
         ],
-        img: [
-            "https://www.arbulang.com/img/fiszki1/364a.jpg"
-        ],
-        story: [
-            ""
-        ],
-        desc: "along[] - ",
+                    entries: [
+        {
+            id: 1,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/561a.jpg",
+                alt: "Wygenerowane przez AI."
+            },
+            story: {
+                text: "<u><b>Elon</u></b> Musk idzie <u><b>wzdłuż</u></b> wybrzeża",
+                alt: ""
+            },
+            category: ["", ""]
+        }
+            ],
+        desc: "along[elon] - wzdłuż, przed siebie",
         sentence2: [
             "along"
         ],
@@ -28580,13 +28656,21 @@ const fiszki10 = [
             93,
             167
         ],
-        img: [
-            "https://www.arbulang.com/img/fiszki1/364a.jpg"
-        ],
-        story: [
-            ""
-        ],
-        desc: "quiet[] - ",
+                    entries: [
+        {
+            id: 1,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/563a.jpg",
+                alt: "Wygenerowane przez AI."
+            },
+            story: {
+                text: "Nauczyciel <u><b>kła</u></b>dzie duży nacisk, ze w klasie było <u><b>cicho</u></b> i <u><b>je</u></b>st cicho. Ta m<u><b>et</u></b>ododa jest dobra.",
+                alt: ""
+            },
+            category: ["", ""]
+        }
+            ],
+        desc: "quiet[kłajet] - cichy",
         sentence2: [
             "quiet"
         ],

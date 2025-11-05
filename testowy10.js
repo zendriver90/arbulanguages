@@ -4084,8 +4084,8 @@ id: [
         img: [
                 "https://www.arbulang.com/img/fiszkiespanol/121a.jpg"
         ],
-        translate: "Zaprzeczać kłamstwom i zawsze mówić prawdę",
-        translateb: "[Negar mentiras i desir siempre berdad]",
+        translate: "Tańczyć powoli przy delikatnej, romantycznej muzyce",
+        translateb: "[Bajlar lento kon musika ro-man-tika sławe]",
         srcWord: ["https://www.arbulang.com/filmy/esp/truth.mp4", 'Matrix 1999'],
         srcWordimage: "https://www.arbulang.com/filmy/esp/truth.png",
         word: [
@@ -4096,7 +4096,7 @@ id: [
             "<u><b>Ba</u></b>rtek <u><b>i Lar</u></b>a Croft lubią razem <u><b>tańczyć</u></b>"
         ],
         // opis
-        desc: "bailar[] - tańczyć",
+        desc: "bailar[bajlar] - tańczyć",
         //zdanie
         sentence1: [
                 "Bailar"
@@ -4203,7 +4203,7 @@ id: [
             "KOGNATY: MUZYKA - MUSICA"
         ],
         // opis
-        desc: "musica[] - muzyka",
+        desc: "musica[musika] - muzyka",
         //zdanie
         sentence1: [
                 "musica"
@@ -4238,7 +4238,7 @@ id: [
             "KOGNATY: ROMANTYCZNY - ROMANTICA"
         ],
         // opis
-        desc: "romántica[] - romantyczny",
+        desc: "romántica[ro-man-tika] - romantyczny",
         //zdanie
         sentence1: [
                 "romántica"
@@ -4300,8 +4300,8 @@ id: [
         img: [
                 "https://www.arbulang.com/img/fiszkiespanol/127a.jpg"
         ],
-        translate: "Zaprzeczać kłamstwom i zawsze mówić prawdę",
-        translateb: "[Negar mentiras i desir siempre berdad]",
+        translate: "Utrzymywać pokój i harmonię",
+        translateb: "[Mantener la pas y armonia]",
         srcWord: ["https://www.arbulang.com/filmy/esp/truth.mp4", 'Matrix 1999'],
         srcWordimage: "https://www.arbulang.com/filmy/esp/truth.png",
         word: [
@@ -4312,7 +4312,7 @@ id: [
             "Filmowy a<u><b>mant</u></b> <u><b>zachowuje</u></b> wizerunek bardzo <u><b>ener</u></b>gicznego"
         ],
         // opis
-        desc: "mantener[] - zachować",
+        desc: "mantener[mantener] - zachować",
         //zdanie
         sentence1: [
                 "Mantener"
@@ -4444,8 +4444,8 @@ id: [
         img: [
                 "https://www.arbulang.com/img/fiszkiespanol/131a.jpg"
         ],
-        translate: "Zaprzeczać kłamstwom i zawsze mówić prawdę",
-        translateb: "[Negar mentiras i desir siempre berdad]",
+        translate: "Podróżować razem w ładnym samochodzie",
+        translateb: "[Biahar huntos en un kocze]",
         srcWord: ["https://www.arbulang.com/filmy/esp/truth.mp4", 'Matrix 1999'],
         srcWordimage: "https://www.arbulang.com/filmy/esp/truth.png",
         word: [
@@ -4546,7 +4546,7 @@ id: [
 ],
         // obrazek
         img: [
-                "https://www.arbulang.com/img/fiszkiespanol/120a.jpg"
+                "https://www.arbulang.com/img/fiszkiespanol/134a.jpg"
         ],
         word: [
                 "https://www.arbulang.com/voice/music.mp4"
@@ -4556,7 +4556,7 @@ id: [
             "Br<u><b>un</u></b>o czasami mówi: s<u><b>kocze</u></b> do sklepu, ma na myśli: pojechanie <u><b>autem</u></b>"
         ],
         // opis
-        desc: "un coche[] - ",
+        desc: "un coche[un kocze] - samochód",
         //zdanie
         sentence1: [
                 "un coche"
@@ -4580,17 +4580,17 @@ id: [
 ],
         // obrazek
         img: [
-                "https://www.arbulang.com/img/fiszkiespanol/120a.jpg"
+                "https://www.arbulang.com/img/fiszkiespanol/135a.jpg"
         ],
         word: [
                 "https://www.arbulang.com/voice/music.mp4"
         ],
         // historia
         story: [
-            ""
+            "Ten model jest ładny, bo nie da się go sklasyfikować pod żadny styl uberania. Ni to elegant, ni to sportowiec"
         ],
         // opis
-        desc: "bonito[] - ",
+        desc: "bonito[bonito] - ładny",
         //zdanie
         sentence1: [
                 "bonito"
@@ -4614,10 +4614,10 @@ id: [
 ],
         // obrazek
         img: [
-                "https://www.arbulang.com/img/fiszkiespanol/115a.jpg"
+                "https://www.arbulang.com/img/fiszkiespanol/136a.jpg"
         ],
-        translate: "Zaprzeczać kłamstwom i zawsze mówić prawdę",
-        translateb: "[Negar mentiras i desir siempre berdad]",
+        translate: "Używać ładnego makijażu, żeby dobrze się czuć",
+        translateb: "[Usar makijahe bonito para sentire bien]",
         srcWord: ["https://www.arbulang.com/filmy/esp/truth.mp4", 'Matrix 1999'],
         srcWordimage: "https://www.arbulang.com/filmy/esp/truth.png",
         word: [
@@ -4625,10 +4625,10 @@ id: [
         ],
         // historia
         story: [
-            ""
+            "Tego busa używa arystorkacja"
         ],
         // opis
-        desc: "usar[] - ",
+        desc: "usar[usar] - nosić, używać",
         //zdanie
         sentence1: [
                 "Usar"
@@ -4652,7 +4652,7 @@ id: [
 ],
         // obrazek
         img: [
-                "https://www.arbulang.com/img/fiszkiespanol/130a.jpg"
+                "https://www.arbulang.com/img/fiszkiespanol/137a.jpg"
         ],
         word: [
                 "https://www.arbulang.com/voice/music.mp4"
@@ -4662,7 +4662,7 @@ id: [
             "<u><b>Mak</u></b>s kocha swoją dziewczynę, nie ważne czy ma ma<u><b>kija</u></b>ż czy nie. Ona - <u><b>He</u></b>lena jest bardzo szczęśliwa"
         ],
         // opis
-        desc: "maquillaje[] - makijaż",
+        desc: "maquillaje[makijahe] - makijaż",
         //zdanie
         sentence1: [
                 "maquillaje"
@@ -4686,17 +4686,17 @@ id: [
 ],
         // obrazek
         img: [
-                "https://www.arbulang.com/img/fiszkiespanol/120a.jpg"
+                "https://www.arbulang.com/img/fiszkiespanol/135a.jpg"
         ],
         word: [
                 "https://www.arbulang.com/voice/music.mp4"
         ],
         // historia
         story: [
-            ""
+            "Ten model jest <u><b>ładny</u></b>, <u><b>bo</u></b> nie da się go sklasyfikować pod żadny styl uberania. <u><b>Ni to</u></b> elegant, ni to sportowiec"
         ],
         // opis
-        desc: "bonito[] - ",
+        desc: "bonito[bonito] - ładny",
         //zdanie
         sentence1: [
                 "bonito"
@@ -4720,24 +4720,24 @@ id: [
 ],
         // obrazek
         img: [
-                "https://www.arbulang.com/img/fiszkiespanol/120a.jpg"
+                "https://www.arbulang.com/img/fiszkiespanol/95a.jpg"
         ],
         word: [
                 "https://www.arbulang.com/voice/music.mp4"
         ],
         // historia
         story: [
-            ""
+            "Wszsycy chcą bić brawo <u><b>dla</u></b> tej <u><b>para</u></b>dy cyrkowca"
         ],
         // opis
-        desc: "para[] - ",
+        desc: "para[para] - dla/żeby",
         //zdanie
         sentence1: [
                 "para"
         ],
         sentence: [
                 "para",
-                "sentire",
+                "sentirse",
                 "bien"
         ],
         //  slowo do nauki
@@ -4754,24 +4754,24 @@ id: [
 ],
         // obrazek
         img: [
-                "https://www.arbulang.com/img/fiszkiespanol/120a.jpg"
+                "https://www.arbulang.com/img/fiszkiespanol/140a.jpg"
         ],
         word: [
                 "https://www.arbulang.com/voice/music.mp4"
         ],
         // historia
         story: [
-            ""
+            "Czuję <u><b>sent</u></b>yment kiedy oglądam <u><b>irr</u></b>acjonalne obrazki sztucznej inteligencji np. przedstawiające rzekę <u><b>Se</u></b>kwanę"
         ],
         // opis
-        desc: "sentire[] - ",
+        desc: "sentirse[sentirse] - czuć (w jakiś sposób)",
         //zdanie
         sentence1: [
-                "sentire"
+                "sentirse"
         ],
         sentence: [
                 "para",
-                "sentire",
+                "sentirse",
                 "bien"
         ],
         //  slowo do nauki
@@ -4788,24 +4788,24 @@ id: [
 ],
         // obrazek
         img: [
-                "https://www.arbulang.com/img/fiszkiespanol/120a.jpg"
+                "https://www.arbulang.com/img/fiszkiespanol/141a.jpg"
         ],
         word: [
                 "https://www.arbulang.com/voice/music.mp4"
         ],
         // historia
         story: [
-            ""
+            "O<u><b>bie</u></b> piłki <u><b>n</u></b>ożne są dobre do gry"
         ],
         // opis
-        desc: "bien[] - ",
+        desc: "bien[bien] - dobry",
         //zdanie
         sentence1: [
                 "bien"
         ],
         sentence: [
                 "para",
-                "sentire",
+                "sentirse",
                 "bien"
         ],
         //  slowo do nauki
