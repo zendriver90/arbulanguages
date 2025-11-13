@@ -4999,7 +4999,7 @@ id: [
 ],
         // obrazek
         img: [
-                "https://www.arbulang.com/img/fiszkiespanol/131a.jpg"
+                "https://www.arbulang.com/img/fiszkiespanol/147a.jpg"
         ],
         translate: "Zaprzeczać kłamstwom i zawsze mówić prawdę",
         translateb: "[Negar mentiras i desir siempre berdad]",
@@ -5010,7 +5010,7 @@ id: [
         ],
         // historia
         story: [
-            ""
+            "<u><b>Tra</u></b>ktor dobrze sobie <u><b>radzi</u></b> w mokrym polu. A po pracy rolnik je ta<u><b>tar</u></b>a"
         ],
         // opis
         desc: "tratar[tratar] - traktować, radzić sobie",
@@ -5035,7 +5035,7 @@ id: [
         30
 ],
         img: [
-                "https://www.arbulang.com/img/fiszkiespanol/146a.jpg"
+                "https://www.arbulang.com/img/fiszkiespanol/148a.jpg"
         ],
         word: [
                 "https://www.arbulang.com/voice/music.mp4"
@@ -5048,7 +5048,7 @@ id: [
         desc: "la ansiedad[la ansiedad] - lęk, niepokój",
         //zdanie
         sentence1: [
-                "siempre"
+                "la ansiedad"
         ],
         sentence: [
                 "Tratar",
@@ -5066,18 +5066,25 @@ id: [
         149,
         30
 ],
+        // obrazek
         img: [
-                "https://www.arbulang.com/img/fiszkiespanol/146a.jpg"
+            "https://www.arbulang.com/img/fiszkiespanol/17a.jpg",
+                "https://www.arbulang.com/img/fiszkiespanol/31a.jpg",
+                "https://www.arbulang.com/img/fiszkiespanol/59a.jpg",
+                "https://www.arbulang.com/img/fiszkiespanol/75a.jpg"
         ],
         word: [
                 "https://www.arbulang.com/voice/music.mp4"
         ],
         // historia
         story: [
-            "P<u><b>an</u></b> <u><b>Sie</u></b>rgiej czuje <u><b>niepokój</u></b>, gdy wspomina mu się o mieście Bag<u><b>dad</u></b> gdzie był na misji wojennej"
+                "<u><b>Z</u></b> <u><b>kon</u></b>opiami jest niezły ubaw",
+                "<u><b>Z</u></b> takimi <u><b>kon</u></b>taktami jakie mam, lepiej jest mi podołać obowiązkom",
+                "<u><b>Z</u></b> <u><b>kon</u></b>sernacją przyjąłem tę decyzję",
+                "<u><b>Z</u></b> <u><b>kon</u></b>taktami w branży u mnie słabo..."
         ],
         // opis
-        desc: "la ansiedad[la ansiedad] - lęk, niepokój",
+        desc: "con[kon] - z",
         //zdanie
         sentence1: [
                 "con"
@@ -5100,20 +5107,20 @@ id: [
         30
 ],
         img: [
-                "https://www.arbulang.com/img/fiszkiespanol/146a.jpg"
+                "https://www.arbulang.com/img/fiszkiespanol/150a.jpg"
         ],
         word: [
                 "https://www.arbulang.com/voice/music.mp4"
         ],
         // historia
         story: [
-            "P<u><b>an</u></b> <u><b>Sie</u></b>rgiej czuje <u><b>niepokój</u></b>, gdy wspomina mu się o mieście Bag<u><b>dad</u></b> gdzie był na misji wojennej"
+            "KOGNATY: RESPIRACION - ODDECHOWY"
         ],
         // opis
-        desc: "la ansiedad[la ansiedad] - lęk, niepokój",
+        desc: "respiracion[respirasion] - oddech, oddechowy",
         //zdanie
         sentence1: [
-                "con"
+                "respiracion"
         ],
         sentence: [
                 "con",
@@ -5133,17 +5140,17 @@ id: [
         30
 ],
         img: [
-                "https://www.arbulang.com/img/fiszkiespanol/146a.jpg"
+                "https://www.arbulang.com/img/fiszkiespanol/151a.jpg"
         ],
         word: [
                 "https://www.arbulang.com/voice/music.mp4"
         ],
         // historia
         story: [
-            ""
+            "Na medytacji organizowanej przez <u><b>Funda</u></b>cję - dostaliśmy <u><b>pro</u></b>pozycję <u><b>głębokiego</u></b> oddechu"
         ],
         // opis
-        desc: "profunda[la ansiedad] - głęboki, głęboka, głęboko",
+        desc: "profunda[profunda] - głęboki, głęboka, głęboko",
         //zdanie
         sentence1: [
                 "profunda"
@@ -5167,10 +5174,10 @@ id: [
 ],
         // obrazek
         img: [
-                "https://www.arbulang.com/img/fiszkiespanol/131a.jpg"
+                "https://www.arbulang.com/img/fiszkiespanol/152a.jpg"
         ],
-        translate: "Zaprzeczać kłamstwom i zawsze mówić prawdę",
-        translateb: "[Negar mentiras i desir siempre berdad]",
+        translate: "",
+        translateb: "[]",
         srcWord: ["https://www.arbulang.com/filmy/esp/truth.mp4", 'Matrix 1999'],
         srcWordimage: "https://www.arbulang.com/filmy/esp/truth.png",
         word: [
@@ -5178,10 +5185,10 @@ id: [
         ],
         // historia
         story: [
-            ""
+            "<u><b>Lar</u></b>a Croft zabrała <u><b>Anie</u></b> na zwiedzanie architektury miasta. Ania tego bardzo <u><b>pragnęła</u></b>"
         ],
         // opis
-        desc: "anhelar[anielar] - traktować, radzić sobie",
+        desc: "anhelar[anielar] - pragnąć",
         //zdanie
         sentence1: [
                 "Anhelar"
@@ -5203,17 +5210,17 @@ id: [
         32
 ],
         img: [
-                "https://www.arbulang.com/img/fiszkiespanol/146a.jpg"
+                "https://www.arbulang.com/img/fiszkiespanol/153a.jpg"
         ],
         word: [
                 "https://www.arbulang.com/voice/music.mp4"
         ],
         // historia
         story: [
-            ""
+            "To<u><b>paz</u></b> to minerał, który zapewnił wzrost gospodarczy krajowi i <u><b>pokój</u></b>"
         ],
         // opis
-        desc: "paz[paz] - ",
+        desc: "paz[paz] - pokój",
         //zdanie
         sentence1: [
                 "paz"
@@ -5234,18 +5241,19 @@ id: [
         154,
         32
 ],
+        // obrazek
         img: [
-                "https://www.arbulang.com/img/fiszkiespanol/146a.jpg"
+                "https://www.arbulang.com/img/fiszkiespanol/12a.jpg"
         ],
         word: [
                 "https://www.arbulang.com/voice/music.mp4"
         ],
         // historia
         story: [
-            ""
+                "Nie zabieramy całego <u><b>mien</u></b>ia <u><b>kiedy</u></b> jedziemy w </u></b>tras<u><b>ę"
         ],
         // opis
-        desc: "mientras[] - ",
+        desc: "mientras[mientras] - gdy/podczas gdy",
         //zdanie
         sentence1: [
                 "mientras"
@@ -5269,17 +5277,17 @@ id: [
         32
 ],
         img: [
-                "https://www.arbulang.com/img/fiszkiespanol/146a.jpg"
+                "https://www.arbulang.com/img/fiszkiespanol/155a.jpg"
         ],
         word: [
                 "https://www.arbulang.com/voice/music.mp4"
         ],
         // historia
         story: [
-            ""
+            "<u><b>Ajjj</u></b>, ta passa zespołu hokejowego <u><b>trwa</u></b> naprawdę długo"
         ],
         // opis
-        desc: "hay[] - ",
+        desc: "hay[] - jest, trwać",
         //zdanie
         sentence1: [
                 "hay"
@@ -5303,17 +5311,17 @@ id: [
         32
 ],
         img: [
-                "https://www.arbulang.com/img/fiszkiespanol/146a.jpg"
+                "https://www.arbulang.com/img/fiszkiespanol/156a.jpg"
         ],
         word: [
                 "https://www.arbulang.com/voice/music.mp4"
         ],
         // historia
         story: [
-            ""
+            "KOGNATY: CONFLICTOS - KONFLIKTY"
         ],
         // opis
-        desc: "conflictos[] - ",
+        desc: "conflictos[konfliktos] - konflikty",
         //zdanie
         sentence1: [
                 "conflictos"
@@ -5337,17 +5345,17 @@ id: [
         32
 ],
         img: [
-                "https://www.arbulang.com/img/fiszkiespanol/146a.jpg"
+                "https://www.arbulang.com/img/fiszkiespanol/157a.jpg"
         ],
         word: [
                 "https://www.arbulang.com/voice/music.mp4"
         ],
         // historia
         story: [
-            ""
+            "<u><b>Duża</u></b> <u><b>grand</u></b>a zazwyczaj wynika z <u><b>des</u></b>peracji"
         ],
         // opis
-        desc: "grandes[] - ",
+        desc: "grandes[grandes] - duży",
         //zdanie
         sentence1: [
                 "grandes"
@@ -5372,7 +5380,7 @@ id: [
 ],
         // obrazek
         img: [
-                "https://www.arbulang.com/img/fiszkiespanol/131a.jpg"
+                "https://www.arbulang.com/img/fiszkiespanol/57a.jpg"
         ],
         translate: "Zaprzeczać kłamstwom i zawsze mówić prawdę",
         translateb: "[Negar mentiras i desir siempre berdad]",
@@ -5383,7 +5391,7 @@ id: [
         ],
         // historia
         story: [
-            ""
+            "<u><b>Kamb</u></b>odźa ma nadm<u><b>iar</u></b> <u><b>zmian</u></b> klimatycznych"
         ],
         // opis
         desc: "cambiar[kambiar] - zmieniać",
@@ -5408,17 +5416,17 @@ id: [
         33
 ],
         img: [
-                "https://www.arbulang.com/img/fiszkiespanol/146a.jpg"
+                "https://www.arbulang.com/img/fiszkiespanol/159a.jpg"
         ],
         word: [
                 "https://www.arbulang.com/voice/music.mp4"
         ],
         // historia
         story: [
-            ""
+            "<u><b>Oooo</u></b>, <u><b>el</u></b>iminacje do <u><b>mund</u></b>ialu czyli mistrzost <u><b>świata</u></b> były zacięte"
         ],
         // opis
-        desc: "el mundo[] - ",
+        desc: "el mundo[el mundo] - świat",
         //zdanie
         sentence1: [
                 "el mundo"
@@ -5439,18 +5447,25 @@ id: [
         160,
         33
 ],
+        // obrazek
         img: [
-                "https://www.arbulang.com/img/fiszkiespanol/146a.jpg"
+            "https://www.arbulang.com/img/fiszkiespanol/17a.jpg",
+                "https://www.arbulang.com/img/fiszkiespanol/31a.jpg",
+                "https://www.arbulang.com/img/fiszkiespanol/59a.jpg",
+                "https://www.arbulang.com/img/fiszkiespanol/75a.jpg"
         ],
         word: [
                 "https://www.arbulang.com/voice/music.mp4"
         ],
         // historia
         story: [
-            ""
+                "<u><b>Z</u></b> <u><b>kon</u></b>opiami jest niezły ubaw",
+                "<u><b>Z</u></b> takimi <u><b>kon</u></b>taktami jakie mam, lepiej jest mi podołać obowiązkom",
+                "<u><b>Z</u></b> <u><b>kon</u></b>sernacją przyjąłem tę decyzję",
+                "<u><b>Z</u></b> <u><b>kon</u></b>taktami w branży u mnie słabo..."
         ],
         // opis
-        desc: "con[] - ",
+        desc: "con[kon] - z",
         //zdanie
         sentence1: [
                 "con"
@@ -5473,17 +5488,17 @@ id: [
         33
 ],
         img: [
-                "https://www.arbulang.com/img/fiszkiespanol/146a.jpg"
+                "https://www.arbulang.com/img/fiszkiespanol/161a.jpg"
         ],
         word: [
                 "https://www.arbulang.com/voice/music.mp4"
         ],
         // historia
         story: [
-            ""
+            "Dzisiaj <u><b>pek</u></b>luję <u><b>małe</u></b> papry<u><b>ki</u></b> dla H<u><b>enia</u></b>. Będą <u><b>s</u></b>uper"
         ],
         // opis
-        desc: "pequeñas[] - ",
+        desc: "pequeñas[pekienias] - mały",
         //zdanie
         sentence1: [
                 "pequeñas"
@@ -5506,17 +5521,17 @@ id: [
         33
 ],
         img: [
-                "https://www.arbulang.com/img/fiszkiespanol/146a.jpg"
+                "https://www.arbulang.com/img/fiszkiespanol/162a.jpg"
         ],
         word: [
                 "https://www.arbulang.com/voice/music.mp4"
         ],
         // historia
         story: [
-            ""
+            "KOGNATY: ACCTIONES - AKCJE"
         ],
         // opis
-        desc: "acciones[] - ",
+        desc: "acciones[aktiones] - akcje",
         //zdanie
         sentence1: [
                 "acciones"
@@ -5540,10 +5555,10 @@ id: [
 ],
         // obrazek
         img: [
-                "https://www.arbulang.com/img/fiszkiespanol/131a.jpg"
+                "https://www.arbulang.com/img/fiszkiespanol/163a.jpg"
         ],
-        translate: "Zaprzeczać kłamstwom i zawsze mówić prawdę",
-        translateb: "[Negar mentiras i desir siempre berdad]",
+        translate: "",
+        translateb: "[]",
         srcWord: ["https://www.arbulang.com/filmy/esp/truth.mp4", 'Matrix 1999'],
         srcWordimage: "https://www.arbulang.com/filmy/esp/truth.png",
         word: [
@@ -5554,7 +5569,7 @@ id: [
             ""
         ],
         // opis
-        desc: "lograr[] - zmieniać",
+        desc: "lograr[lograr] - osiągnąć",
         //zdanie
         sentence1: [
                 "Lograr"
@@ -5610,17 +5625,17 @@ id: [
         34
 ],
         img: [
-                "https://www.arbulang.com/img/fiszkiespanol/146a.jpg"
+                "https://www.arbulang.com/img/fiszkiespanol/157a.jpg"
         ],
         word: [
                 "https://www.arbulang.com/voice/music.mp4"
         ],
         // historia
         story: [
-            ""
+            "<u><b>Duża</u></b> <u><b>grand</u></b>a zazwyczaj wynika z <u><b>des</u></b>peracji"
         ],
         // opis
-        desc: "grandes[] - ",
+        desc: "grandes[grandes] - duży",
         //zdanie
         sentence1: [
                 "grandes"
@@ -5642,18 +5657,25 @@ id: [
         166,
         34
 ],
+        // obrazek
         img: [
-                "https://www.arbulang.com/img/fiszkiespanol/146a.jpg"
+            "https://www.arbulang.com/img/fiszkiespanol/17a.jpg",
+                "https://www.arbulang.com/img/fiszkiespanol/31a.jpg",
+                "https://www.arbulang.com/img/fiszkiespanol/59a.jpg",
+                "https://www.arbulang.com/img/fiszkiespanol/75a.jpg"
         ],
         word: [
                 "https://www.arbulang.com/voice/music.mp4"
         ],
         // historia
         story: [
-            ""
+                "<u><b>Z</u></b> <u><b>kon</u></b>opiami jest niezły ubaw",
+                "<u><b>Z</u></b> takimi <u><b>kon</u></b>taktami jakie mam, lepiej jest mi podołać obowiązkom",
+                "<u><b>Z</u></b> <u><b>kon</u></b>sernacją przyjąłem tę decyzję",
+                "<u><b>Z</u></b> <u><b>kon</u></b>taktami w branży u mnie słabo..."
         ],
         // opis
-        desc: "con[] - ",
+        desc: "con[kon] - z",
         //zdanie
         sentence1: [
                 "con"
@@ -5676,17 +5698,17 @@ id: [
         34
 ],
         img: [
-                "https://www.arbulang.com/img/fiszkiespanol/146a.jpg"
+                "https://www.arbulang.com/img/fiszkiespanol/161a.jpg"
         ],
         word: [
                 "https://www.arbulang.com/voice/music.mp4"
         ],
         // historia
         story: [
-            ""
+            "Dzisiaj <u><b>pek</u></b>luję <u><b>małe</u></b> papry<u><b>ki</u></b>. He<u><b>nio</u></b> będzie się cieszył, będą <u><b>s</u></b>uper"
         ],
         // opis
-        desc: "pequeños[] - ",
+        desc: "pequeños[pekienios] - mały",
         //zdanie
         sentence1: [
                 "pequeños"
@@ -5709,17 +5731,17 @@ id: [
         34
 ],
         img: [
-                "https://www.arbulang.com/img/fiszkiespanol/146a.jpg"
+                "https://www.arbulang.com/img/fiszkiespanol/168a.jpg"
         ],
         word: [
                 "https://www.arbulang.com/voice/music.mp4"
         ],
         // historia
         story: [
-            ""
+            "W kilku <u><b>krokach</u></b> gotujemy obiad. Najpierw zu<u><b>pa</u></b>, a później drugie: czyli mięso i do tego <u><b>sos</u></b>"
         ],
         // opis
-        desc: "pasos[] - ",
+        desc: "pasos[pasos] - kroki",
         //zdanie
         sentence1: [
                 "pasos"
@@ -5780,7 +5802,7 @@ id: [
         34
 ],
         img: [
-                "https://www.arbulang.com/img/fiszkiespanol/146a.jpg"
+                "https://www.arbulang.com/img/fiszkiespanol/168a.jpg"
         ],
         word: [
                 "https://www.arbulang.com/voice/music.mp4"
@@ -5790,7 +5812,7 @@ id: [
             ""
         ],
         // opis
-        desc: "palabras[] - ",
+        desc: "palabras[palawras] - słowa",
         //zdanie
         sentence1: [
                 "palabras"
@@ -5845,18 +5867,19 @@ id: [
         168,
         34
 ],
+        // obrazek
         img: [
-                "https://www.arbulang.com/img/fiszkiespanol/146a.jpg"
+                "https://www.arbulang.com/img/fiszkiespanol/95a.jpg"
         ],
         word: [
                 "https://www.arbulang.com/voice/music.mp4"
         ],
         // historia
         story: [
-            ""
+            "Wszsycy chcą bić brawo <u><b>dla</u></b> tej <u><b>para</u></b>dy cyrkowca"
         ],
         // opis
-        desc: "para[] - ",
+        desc: "para[para] - dla/żeby",
         //zdanie
         sentence1: [
                 "para"
@@ -5946,7 +5969,7 @@ id: [
 ],
         // obrazek
         img: [
-                "https://www.arbulang.com/img/fiszkiespanol/131a.jpg"
+                "https://www.arbulang.com/img/fiszkiespanol/127a.jpg"
         ],
         translate: "Zaprzeczać kłamstwom i zawsze mówić prawdę",
         translateb: "[Negar mentiras i desir siempre berdad]",
@@ -5957,10 +5980,10 @@ id: [
         ],
         // historia
         story: [
-            ""
+            "Filmowy a<u><b>mant</u></b> <u><b>zachowuje</u></b> wizerunek bardzo <u><b>ener</u></b>gicznego"
         ],
         // opis
-        desc: "mantener[] - powtarzać",
+        desc: "mantener[mantener] - zachować",
         //zdanie
         sentence1: [
                 "Mantener"
@@ -6013,18 +6036,19 @@ id: [
         171,
         35
 ],
+        // obrazek
         img: [
-                "https://www.arbulang.com/img/fiszkiespanol/146a.jpg"
+                "https://www.arbulang.com/img/fiszkiespanol/26a.jpg"
         ],
         word: [
                 "https://www.arbulang.com/voice/music.mp4"
         ],
         // historia
         story: [
-            ""
+                "<u><b>I</u></b> tak dalej.."
         ],
         // opis
-        desc: "y[] - ",
+        desc: "y[i] - i",
         //zdanie
         sentence1: [
                 "y"
@@ -6046,18 +6070,19 @@ id: [
         172,
         35
 ],
+        // obrazek
         img: [
-                "https://www.arbulang.com/img/fiszkiespanol/146a.jpg"
+                "https://www.arbulang.com/img/fiszkiespanol/86a.jpg"
         ],
         word: [
                 "https://www.arbulang.com/voice/music.mp4"
         ],
         // historia
         story: [
-            ""
+            "Na tym <u><b>dis</u></b>co normalnie <u><b>fru</u></b>wam z radości. <u><b>Cieszę się</u></b> z muzyki, a na <u><b>tar</u></b>asie są piękne dziewczyny"
         ],
         // opis
-        desc: "disfrutar[] - ",
+        desc: "disfrutar[disfrutar] - cieszyć się",
         //zdanie
         sentence1: [
                 "disfrutar"
@@ -6885,7 +6910,7 @@ id: [
         40
 ],
         img: [
-                "https://www.arbulang.com/img/fiszkiespanol/146a.jpg"
+                "https://www.arbulang.com/img/fiszkiespanol/197a.jpg"
         ],
         word: [
                 "https://www.arbulang.com/voice/music.mp4"
@@ -6895,7 +6920,7 @@ id: [
             ""
         ],
         // opis
-        desc: "el dia[] - ",
+        desc: "el dia[el dia] - dzień",
         //zdanie
         sentence1: [
                 "el dia"
@@ -6956,17 +6981,17 @@ id: [
         40
 ],
         img: [
-                "https://www.arbulang.com/img/fiszkiespanol/146a.jpg"
+                "https://www.arbulang.com/img/fiszkiespanol/199a.jpg"
         ],
         word: [
                 "https://www.arbulang.com/voice/music.mp4"
         ],
         // historia
         story: [
-            ""
+            "Fruuu, te ptaki w lato obgryzają owoce. Fantastyczny widok"
         ],
         // opis
-        desc: "frutas[] - ",
+        desc: "frutas[frutas] - owoc",
         //zdanie
         sentence1: [
                 "frutas"
@@ -7022,17 +7047,17 @@ id: [
         40
 ],
         img: [
-                "https://www.arbulang.com/img/fiszkiespanol/146a.jpg"
+                "https://www.arbulang.com/img/fiszkiespanol/201a.jpg"
         ],
         word: [
                 "https://www.arbulang.com/voice/music.mp4"
         ],
         // historia
         story: [
-            ""
+            "Blokada przejazdu w tym kierunku jest w każdym wjeździe na tą drogę"
         ],
         // opis
-        desc: "cada[] - ",
+        desc: "cada[kada] - każdy",
         //zdanie
         sentence1: [
                 "cada"
@@ -7075,6 +7100,175 @@ id: [
         ],
         //  slowo do nauki
         key: "manana",
+        category1: [
+        ],
+        category2: ["osoby", "osoby+czas"],
+                category3: ["Infinitive"]
+},
+{
+id: [
+        203,
+        41
+],
+        // obrazek
+        img: [
+                "https://www.arbulang.com/img/fiszkiespanol/131a.jpg"
+        ],
+        translate: "Zaprzeczać kłamstwom i zawsze mówić prawdę",
+        translateb: "[Negar mentiras i desir siempre berdad]",
+        srcWord: ["https://www.arbulang.com/filmy/esp/truth.mp4", 'Matrix 1999'],
+        srcWordimage: "https://www.arbulang.com/filmy/esp/truth.png",
+        word: [
+                "https://www.arbulang.com/voice/music.mp4"
+        ],
+        // historia
+        story: [
+            ""
+        ],
+        // opis
+        desc: "caminar[komer] - jeśc",
+        //zdanie
+        sentence1: [
+                "Caminar"
+        ],
+        sentence: [
+                "Caminar",
+                "juntos"
+        ],
+        //  slowo do nauki
+        key: "caminar",
+        category1: [
+        ],
+        category2: ["osoby", "osoby+czas"],
+                category3: ["Infinitive"]
+},
+{
+id: [
+        204,
+        41
+],
+        img: [
+                "https://www.arbulang.com/img/fiszkiespanol/146a.jpg"
+        ],
+        word: [
+                "https://www.arbulang.com/voice/music.mp4"
+        ],
+        // historia
+        story: [
+            ""
+        ],
+        // opis
+        desc: "juntos[] - ",
+        //zdanie
+        sentence1: [
+                "juntos"
+        ],
+        sentence: [
+                "Caminar",
+                "juntos"
+        ],
+        //  slowo do nauki
+        key: "juntos",
+        category1: [
+        ],
+        category2: ["osoby", "osoby+czas"],
+                category3: ["Infinitive"]
+},
+{
+id: [
+        205,
+        41
+],
+        img: [
+                "https://www.arbulang.com/img/fiszkiespanol/146a.jpg"
+        ],
+        word: [
+                "https://www.arbulang.com/voice/music.mp4"
+        ],
+        // historia
+        story: [
+            ""
+        ],
+        // opis
+        desc: "bajo[] - ",
+        //zdanie
+        sentence2: [
+                "bajo"
+        ],
+        sentence: [
+                "bajo",
+                "el sol",
+                "suave"
+        ],
+        //  slowo do nauki
+        key: "bajo",
+        category1: [
+        ],
+        category2: ["osoby", "osoby+czas"],
+                category3: ["Infinitive"]
+},
+{
+id: [
+        206,
+        41
+],
+        img: [
+                "https://www.arbulang.com/img/fiszkiespanol/146a.jpg"
+        ],
+        word: [
+                "https://www.arbulang.com/voice/music.mp4"
+        ],
+        // historia
+        story: [
+            ""
+        ],
+        // opis
+        desc: "el sol[] - ",
+        //zdanie
+        sentence1: [
+                "el sol"
+        ],
+        sentence: [
+                "bajo",
+                "el sol",
+                "suave"
+        ],
+        //  slowo do nauki
+        key: "el sol",
+        category1: [
+        ],
+        category2: ["osoby", "osoby+czas"],
+                category3: ["Infinitive"]
+},
+{
+id: [
+        207,
+        41
+],
+        // obrazek
+        img: [
+                "https://www.arbulang.com/img/fiszkiespanol/126a.jpg"
+        ],
+        word: [
+                "https://www.arbulang.com/voice/music.mp4"
+        ],
+        // historia
+        story: [
+            "<u><b>Sławe</u></b>tny jest ten mój <u><b>delikatny</u></b> perfum"
+        ],
+        // opis
+        desc: "suave[sławe] - delikatny",
+        //zdanie
+        sentence1: [
+                "suave"
+        ],
+        sentence: [
+                "bajo",
+                "el sol",
+                "suave"
+        ],
+        //  slowo do nauki
+        key: "el sol",
         category1: [
         ],
         category2: ["osoby", "osoby+czas"],

@@ -1,17 +1,25 @@
-fiszki10.push(
-                                            {
+const fiszki10_part7 = [
+{
         id: [
             600,
             100,
             181
         ],
-        img: [
-            "http://localhost/arbulanguage.com/img/fiszki1/600a.jpg"
-        ],
-        story: [
-            "<u><b>Te</u></b>n zestaw przebrania <u><b>zawiera</u></b> ciachy w jakich chodził model <u><b>Ken</u></b>a. Czyli spodnie dz<u><b>ins</u></b>y i koszula"
-        ],
-        desc: "contains[kenteins] - zawiera",
+            entries: [
+        {
+            id: 1,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/600a.jpg",
+                alt: "Wygenerowane przez AI."
+            },
+            story: {
+                text: "<u><b>Te</u></b>n zestaw przebrania <u><b>zawiera</u></b> ciachy w jakich chodził model <u><b>Ken</u></b>a. Czyli spodnie dz<u><b>ins</u></b>y i koszula",
+                alt: ""
+            },
+            category: ["kraje", "klimat"]
+        }
+            ],
+        desc: "contains[kenteins] - prawdziwa, prawdziwe",
         sentence2: [
             "contains"
         ],
@@ -31,12 +39,12 @@ fiszki10.push(
             181
         ],
         img: [
-            "http://localhost/arbulanguage.com/img/fiszki1/601a.jpg"
+            "https://www.arbulang.com/img/fiszki1/364a.jpg"
         ],
         story: [
-            "<u><b>Ol</u></b>af jest już starym aktorem, ale bardzo <u><b>d</u></b>obrym"
+            "Super jest ten mały silnik. Ma moc kilku moli"
         ],
-        desc: "old[old] - stary",
+        desc: "true[tru] - prawdziwa, prawdziwe",
         sentence2: [
             "old"
         ],
@@ -56,10 +64,12 @@ fiszki10.push(
             181
         ],
         img: [
-                "http://localhost/arbulanguage.com/img/fiszki1/365a.jpg"
+            "https://www.arbulang.com/img/fiszki1/364a.jpg"
         ],
-        story: "Z drzewa <b><u>buk</b></u>owego jest najlepszy papier na <b><u>książki</b></u>",
-        desc: "book[buk] - książka, books[buks] - książki (liczba mnoga dodanie s - na końcu)",
+        story: [
+            "Super jest ten mały silnik. Ma moc kilku moli"
+        ],
+        desc: "books[tru] - książki",
         sentence2: [
             "books"
         ],
@@ -79,24 +89,22 @@ fiszki10.push(
             182
         ],
         img: [
-                "http://localhost/arbulanguage.com/img/fiszki1/50aa.jpg",
-                "http://localhost/arbulanguage.com/img/fiszki1/50bb.jpg",
-                "http://localhost/arbulanguage.com/img/fiszki1/50cc.jpg"
+            "https://www.arbulang.com/img/fiszki1/7a.jpg",
+            "https://www.arbulang.com/img/fiszki1/7b.jpg",
+            "https://www.arbulang.com/img/fiszki1/7c.jpg",
+            "https://www.arbulang.com/img/fiszki1/7d.jpg",
+            "https://www.arbulang.com/img/fiszki1/7e.jpg"
         ],
         translate: "",
         translateb: "[]",
         translateb2: "[]",
-        srcWord: ["http://localhost/arbulanguage.com/filmy/tennis.mp4", ""],
-        srcWordimage: "http://localhost/arbulanguage.com/filmy/tennis.png",
+        srcWord: ["https://www.arbulang.com/filmy/tennis.mp4", "V for Vendetta (2005)"],
+        srcWordimage: "https://www.arbulang.com/filmy/tennis.png",
         word: [
-            "http://localhost/arbulanguage.com/voice/bike.mp4"
+            "https://www.arbulang.com/voice/bike.mp4"
         ],
-        story: [
-                "W <b><u>maj</b></u>u kwitną <b><u>moje</b></u> ulubione kwiaty",
-                "Przetrzy<b><u>maj</b></u> mi na pare dni <b><u>moje</b></u> auto na placu",
-                "W <b><u>maj</b></u>u na <b><u>moje</b></u> rośliny w ogrodzie pada deszcz"
-        ],
-        desc: "my[maj] - mój",
+        story: "<u><b>Ona</u></b> - Patrycja ma ri<u><b>szi</u></b> to naturalny antyoksydant",
+        desc: "the[] - niebieski/niebieskie",
         sentence1: [
             "My"
         ],
@@ -116,10 +124,10 @@ fiszki10.push(
             182
         ],
         img: [
-            "http://localhost/arbulanguage.com/img/fiszki1/604a.jpg"
+            "https://www.arbulang.com/img/fiszki1/364a.jpg"
         ],
         story: [
-            "<b><u>Leg</b></u>itymacja medyczna uprawnia mnie do rehabilitacji <b><u>nogi</b></u>, która jest nadwyrężona"
+            "Super jest ten mały silnik. Ma moc kilku moli"
         ],
         desc: "leg[leg] - noga",
         sentence2: [
@@ -141,10 +149,10 @@ fiszki10.push(
             182
         ],
         img: [
-            "http://localhost/arbulanguage.com/img/fiszki1/605a.jpg"
+            "https://www.arbulang.com/img/fiszki1/364a.jpg"
         ],
         story: [
-            "Zawodnika <b><u>Hert</b></u>y Berlin <b><u>boli</b></u> noga"
+            "Zawodnika Herty Berlin boli noga"
         ],
         desc: "hurts[hert] - boli, boleć, zranić, urazić",
         sentence2: [
@@ -166,12 +174,12 @@ fiszki10.push(
             183
         ],
         img: [
-            "http://localhost/arbulanguage.com/img/fiszki1/606a.jpg"
+            "https://www.arbulang.com/img/fiszki1/364a.jpg"
         ],
         story: [
-            "Czcionka <b><u>lit</b></u>er w notatniku <b><u>trochę</b></u> poprawia widoczność całego tekstu - jeśli jest go duża <b><u>il</b></u>ość"
+            "Super jest ten mały silnik. Ma moc kilku moli"
         ],
-        desc: "a little[e litil] - trochę, troszkę",
+        desc: "a little[tru] - książki",
         sentence2: [
             "a little"
         ],
@@ -189,9 +197,13 @@ fiszki10.push(
             101,
             183
         ],
-        img: "http://localhost/arbulanguage.com/img/fiszki1/212a.jpg",
-        story: "<b><u>Dziś</b></u> muszę zbierać na piwo, stoje <b><u>tu</b></u> pod sklepem i mówię <b><u>dej</b></u>",
-        desc: "today[tudej] - dziś",
+        img: [
+            "https://www.arbulang.com/img/fiszki1/364a.jpg"
+        ],
+        story: [
+            "Super jest ten mały silnik. Ma moc kilku moli"
+        ],
+        desc: "today[tudej] - dzisiaj",
         sentence2: [
             "today"
         ],
@@ -210,28 +222,22 @@ fiszki10.push(
             184
         ],
         img: [
-                "http://localhost/arbulanguage.com/img/fiszki1/7a.jpg",
-                "http://localhost/arbulanguage.com/img/fiszki1/7b.jpg",
-                "http://localhost/arbulanguage.com/img/fiszki1/7c.jpg",
-                "http://localhost/arbulanguage.com/img/fiszki1/7d.jpg",
-                "http://localhost/arbulanguage.com/img/fiszki1/7e.jpg"
+            "https://www.arbulang.com/img/fiszki1/7a.jpg",
+            "https://www.arbulang.com/img/fiszki1/7b.jpg",
+            "https://www.arbulang.com/img/fiszki1/7c.jpg",
+            "https://www.arbulang.com/img/fiszki1/7d.jpg",
+            "https://www.arbulang.com/img/fiszki1/7e.jpg"
         ],
         translate: "",
         translateb: "[]",
         translateb2: "[]",
-        srcWord: ["http://localhost/arbulanguage.com/filmy/tennis.mp4", "V for Vendetta (2005)"],
-        srcWordimage: "http://localhost/arbulanguage.com/filmy/tennis.png",
+        srcWord: ["https://www.arbulang.com/filmy/tennis.mp4", "V for Vendetta (2005)"],
+        srcWordimage: "https://www.arbulang.com/filmy/tennis.png",
         word: [
-            "http://localhost/arbulanguage.com/voice/bike.mp4"
+            "https://www.arbulang.com/voice/bike.mp4"
         ],
-        story: [
-                'To właśnie <u><b>on</u></b> jest <span class="adannotation" data-annotation="1"><b><u>hi</b></u></span>tem tego sezonu piłkarskiego',
-                'Samiec czyli <u><b>on</u></b> - <span class="adannotation" data-annotation="1"><b><u>hi</b></u></span>popotam',
-                '<u><b>On</b></u> - <span class="adannotation" data-annotation="1"><u><b>Hi</b></u></span>eronim odleciał balonem',
-                'Ma<span class="adannotation" data-annotation="1"><u><b>chi</u></b></span>nę do tortur wymyślił <u><b>on</u></b> - jest <span class="adannotation" data-annotation="1"><u><b>Hi</u></b></span>ndusem',
-                '<u><b>On</u></b> je ciastka <span class="adannotation" data-annotation="1"><u><b>hi</u></b></span>ty'
-        ],
-        desc: "he[hi] - on",
+        story: "<u><b>Ona</u></b> - Patrycja ma ri<u><b>szi</u></b> to naturalny antyoksydant",
+        desc: "the[] - niebieski/niebieskie",
         sentence1: [
             "He"
         ],
@@ -250,12 +256,12 @@ fiszki10.push(
             184
         ],
         img: [
-            "http://localhost/arbulanguage.com/img/fiszki1/609a.jpg"
+            "https://www.arbulang.com/img/fiszki1/364a.jpg"
         ],
         story: [
-            "Pracownik twierdził wcześniej, że klej ma trzymać - jednak przecenił swoje możliwości oceny"
+            "Super jest ten mały silnik. Ma moc kilku moli"
         ],
-        desc: "claimed[kleimt] - twierdził",
+        desc: "claimed[kleimd] - dzisiaj",
         sentence2: [
             "claimed"
         ],
@@ -274,20 +280,12 @@ fiszki10.push(
             185
         ],
         img: [
-                "http://localhost/arbulanguage.com/img/fiszki1/7a.jpg",
-                "http://localhost/arbulanguage.com/img/fiszki1/7b.jpg",
-                "http://localhost/arbulanguage.com/img/fiszki1/7c.jpg",
-                "http://localhost/arbulanguage.com/img/fiszki1/7d.jpg",
-                "http://localhost/arbulanguage.com/img/fiszki1/7e.jpg"
+            "https://www.arbulang.com/img/fiszki1/364a.jpg"
         ],
         story: [
-                'To właśnie <u><b>on</u></b> jest <span class="adannotation" data-annotation="1"><b><u>hi</b></u></span>tem tego sezonu piłkarskiego',
-                'Samiec czyli <u><b>on</u></b> - <span class="adannotation" data-annotation="1"><b><u>hi</b></u></span>popotam',
-                '<u><b>On</b></u> - <span class="adannotation" data-annotation="1"><u><b>Hi</b></u></span>eronim odleciał balonem',
-                'Ma<span class="adannotation" data-annotation="1"><u><b>chi</u></b></span>nę do tortur wymyślił <u><b>on</u></b> - jest <span class="adannotation" data-annotation="1"><u><b>Hi</u></b></span>ndusem',
-                '<u><b>On</u></b> je ciastka <span class="adannotation" data-annotation="1"><u><b>hi</u></b></span>ty'
+            "Super jest ten mały silnik. Ma moc kilku moli"
         ],
-        desc: "he[hi] - on",
+        desc: "he[hi] - dzisiaj",
         sentence2: [
             "he"
         ],
@@ -306,9 +304,13 @@ fiszki10.push(
             102,
             185
         ],
-        img: "http://localhost/arbulanguage.com/img/fiszki1/160a.jpg",
-        story: "Ten w<b><u>łos</b></u> w jedzeniu <b><u>był</b></u> bardzo obrzydliwy",
-        desc: "was[łos] - była/było",
+        img: [
+            "https://www.arbulang.com/img/fiszki1/364a.jpg"
+        ],
+        story: [
+            "Super jest ten mały silnik. Ma moc kilku moli"
+        ],
+        desc: "was[kleimd] -",
         sentence2: [
             "was"
         ],
@@ -328,12 +330,12 @@ fiszki10.push(
             185
         ],
         img: [
-            "http://localhost/arbulanguage.com/img/fiszki1/612a.jpg"
+            "https://www.arbulang.com/img/fiszki1/364a.jpg"
         ],
         story: [
-            "Gro ludzi ma złą wiedzę o podstawowych kwestiach takich jak np. gdzie leży na mapie Mongolia"
+            "Super jest ten mały silnik. Ma moc kilku moli"
         ],
-        desc: "wrong[rong] - źle",
+        desc: "wrong[] -",
         sentence2: [
             "wrong"
         ],
@@ -352,18 +354,23 @@ fiszki10.push(
             103,
             186
         ],
-        img: "http://localhost/arbulanguage.com/img/fiszki1/94aa.jpg",
+        img: [
+            "https://www.arbulang.com/img/fiszki1/7a.jpg",
+            "https://www.arbulang.com/img/fiszki1/7b.jpg",
+            "https://www.arbulang.com/img/fiszki1/7c.jpg",
+            "https://www.arbulang.com/img/fiszki1/7d.jpg",
+            "https://www.arbulang.com/img/fiszki1/7e.jpg"
+        ],
         translate: "",
         translateb: "[]",
         translateb2: "[]",
-        srcWord: ["http://localhost/arbulanguage.com/filmy/tennis.mp4", "V for Vendetta (2005)"],
-        srcWordimage: "http://localhost/arbulanguage.com/filmy/tennis.png",
+        srcWord: ["https://www.arbulang.com/filmy/tennis.mp4", "V for Vendetta (2005)"],
+        srcWordimage: "https://www.arbulang.com/filmy/tennis.png",
         word: [
-            "http://localhost/arbulanguage.com/voice/bike.mp4"
+            "https://www.arbulang.com/voice/bike.mp4"
         ],
-
-        story: "<b><u>Jej</b></u> <b><u>her</b></u>bata jest słodka",
-        desc: "her[her] - jej",
+        story: "<u><b>Ona</u></b> - Patrycja ma ri<u><b>szi</u></b> to naturalny antyoksydant",
+        desc: "her[] - niebieski/niebieskie",
         sentence1: [
             "Her"
         ],
@@ -383,12 +390,12 @@ fiszki10.push(
             186
         ],
         img: [
-            "http://localhost/arbulanguage.com/img/fiszki1/614a.jpg"
+            "https://www.arbulang.com/img/fiszki1/364a.jpg"
         ],
         story: [
-            ""
+            "Super jest ten mały silnik. Ma moc kilku moli"
         ],
-        desc: "dress[] - ",
+        desc: "dress[] -",
         sentence2: [
             "dress"
         ],
@@ -408,10 +415,10 @@ fiszki10.push(
             186
         ],
         img: [
-            "http://localhost/arbulanguage.com/img/fiszki1/364a.jpg"
+            "https://www.arbulang.com/img/fiszki1/364a.jpg"
         ],
         story: [
-            ""
+            "Super jest ten mały silnik. Ma moc kilku moli"
         ],
         desc: "is[] -",
         sentence2: [
@@ -433,10 +440,10 @@ fiszki10.push(
             187
         ],
         img: [
-            "http://localhost/arbulanguage.com/img/fiszki1/364a.jpg"
+            "https://www.arbulang.com/img/fiszki1/364a.jpg"
         ],
         story: [
-            ""
+            "Super jest ten mały silnik. Ma moc kilku moli"
         ],
         desc: "pink[] -",
         sentence2: [
@@ -458,10 +465,10 @@ fiszki10.push(
             187
         ],
         img: [
-            "http://localhost/arbulanguage.com/img/fiszki1/364a.jpg"
+            "https://www.arbulang.com/img/fiszki1/364a.jpg"
         ],
         story: [
-            ""
+            "Super jest ten mały silnik. Ma moc kilku moli"
         ],
         desc: "and[] -",
         sentence2: [
@@ -483,10 +490,10 @@ fiszki10.push(
             187
         ],
         img: [
-            "http://localhost/arbulanguage.com/img/fiszki1/364a.jpg"
+            "https://www.arbulang.com/img/fiszki1/364a.jpg"
         ],
         story: [
-            ""
+            "Super jest ten mały silnik. Ma moc kilku moli"
         ],
         desc: "pretty[] -",
         sentence2: [
@@ -508,19 +515,19 @@ fiszki10.push(
             188
         ],
         img: [
-            "http://localhost/arbulanguage.com/img/fiszki1/7a.jpg",
-            "http://localhost/arbulanguage.com/img/fiszki1/7b.jpg",
-            "http://localhost/arbulanguage.com/img/fiszki1/7c.jpg",
-            "http://localhost/arbulanguage.com/img/fiszki1/7d.jpg",
-            "http://localhost/arbulanguage.com/img/fiszki1/7e.jpg"
+            "https://www.arbulang.com/img/fiszki1/7a.jpg",
+            "https://www.arbulang.com/img/fiszki1/7b.jpg",
+            "https://www.arbulang.com/img/fiszki1/7c.jpg",
+            "https://www.arbulang.com/img/fiszki1/7d.jpg",
+            "https://www.arbulang.com/img/fiszki1/7e.jpg"
         ],
         translate: "",
         translateb: "[]",
         translateb2: "[]",
-        srcWord: ["http://localhost/arbulanguage.com/filmy/tennis.mp4", "V for Vendetta (2005)"],
-        srcWordimage: "http://localhost/arbulanguage.com/filmy/tennis.png",
+        srcWord: ["https://www.arbulang.com/filmy/tennis.mp4", "V for Vendetta (2005)"],
+        srcWordimage: "https://www.arbulang.com/filmy/tennis.png",
         word: [
-            "http://localhost/arbulanguage.com/voice/bike.mp4"
+            "https://www.arbulang.com/voice/bike.mp4"
         ],
         story: "<u><b>Ona</u></b> - Patrycja ma ri<u><b>szi</u></b> to naturalny antyoksydant",
         desc: "the boy[] - niebieski/niebieskie",
@@ -543,12 +550,12 @@ fiszki10.push(
             188
         ],
         img: [
-            "http://localhost/arbulanguage.com/img/fiszki1/364a.jpg"
+            "https://www.arbulang.com/img/fiszki1/364a.jpg"
         ],
         story: [
-            ""
+            "Super jest ten mały silnik. Ma moc kilku moli"
         ],
-        desc: "can[ken, kan] -",
+        desc: "can[] -",
         sentence2: [
             "can"
         ],
@@ -568,10 +575,10 @@ fiszki10.push(
             188
         ],
         img: [
-            "http://localhost/arbulanguage.com/img/fiszki1/364a.jpg"
+            "https://www.arbulang.com/img/fiszki1/364a.jpg"
         ],
         story: [
-            ""
+            "Super jest ten mały silnik. Ma moc kilku moli"
         ],
         desc: "jump[] -",
         sentence2: [
@@ -593,10 +600,10 @@ fiszki10.push(
             189
         ],
         img: [
-            "http://localhost/arbulanguage.com/img/fiszki1/364a.jpg"
+            "https://www.arbulang.com/img/fiszki1/364a.jpg"
         ],
         story: [
-            ""
+            "Super jest ten mały silnik. Ma moc kilku moli"
         ],
         desc: "very[] -",
         sentence2: [
@@ -617,10 +624,10 @@ fiszki10.push(
             189
         ],
         img: [
-            "http://localhost/arbulanguage.com/img/fiszki1/364a.jpg"
+            "https://www.arbulang.com/img/fiszki1/364a.jpg"
         ],
         story: [
-            ""
+            "Super jest ten mały silnik. Ma moc kilku moli"
         ],
         desc: "high[] -",
         sentence2: [
@@ -641,19 +648,19 @@ fiszki10.push(
             190
         ],
         img: [
-            "http://localhost/arbulanguage.com/img/fiszki1/7a.jpg",
-            "http://localhost/arbulanguage.com/img/fiszki1/7b.jpg",
-            "http://localhost/arbulanguage.com/img/fiszki1/7c.jpg",
-            "http://localhost/arbulanguage.com/img/fiszki1/7d.jpg",
-            "http://localhost/arbulanguage.com/img/fiszki1/7e.jpg"
+            "https://www.arbulang.com/img/fiszki1/7a.jpg",
+            "https://www.arbulang.com/img/fiszki1/7b.jpg",
+            "https://www.arbulang.com/img/fiszki1/7c.jpg",
+            "https://www.arbulang.com/img/fiszki1/7d.jpg",
+            "https://www.arbulang.com/img/fiszki1/7e.jpg"
         ],
         translate: "",
         translateb: "[]",
         translateb2: "[]",
-        srcWord: ["http://localhost/arbulanguage.com/filmy/tennis.mp4", "V for Vendetta (2005)"],
-        srcWordimage: "http://localhost/arbulanguage.com/filmy/tennis.png",
+        srcWord: ["https://www.arbulang.com/filmy/tennis.mp4", "V for Vendetta (2005)"],
+        srcWordimage: "https://www.arbulang.com/filmy/tennis.png",
         word: [
-            "http://localhost/arbulanguage.com/voice/bike.mp4"
+            "https://www.arbulang.com/voice/bike.mp4"
         ],
         story: "<u><b>Ona</u></b> - Patrycja ma ri<u><b>szi</u></b> to naturalny antyoksydant",
         desc: "my[] - moja, moje",
@@ -676,10 +683,10 @@ fiszki10.push(
             190
         ],
         img: [
-            "http://localhost/arbulanguage.com/img/fiszki1/364a.jpg"
+            "https://www.arbulang.com/img/fiszki1/364a.jpg"
         ],
         story: [
-            ""
+            "Super jest ten mały silnik. Ma moc kilku moli"
         ],
         desc: "heart[] -",
         sentence2: [
@@ -701,10 +708,10 @@ fiszki10.push(
             190
         ],
         img: [
-            "http://localhost/arbulanguage.com/img/fiszki1/364a.jpg"
+            "https://www.arbulang.com/img/fiszki1/364a.jpg"
         ],
         story: [
-            ""
+            "Super jest ten mały silnik. Ma moc kilku moli"
         ],
         desc: "feels[] -",
         sentence2: [
@@ -726,10 +733,10 @@ fiszki10.push(
             191
         ],
         img: [
-            "http://localhost/arbulanguage.com/img/fiszki1/364a.jpg"
+            "https://www.arbulang.com/img/fiszki1/364a.jpg"
         ],
         story: [
-            ""
+            "Super jest ten mały silnik. Ma moc kilku moli"
         ],
         desc: "warm[] -",
         sentence2: [
@@ -751,10 +758,10 @@ fiszki10.push(
             191
         ],
         img: [
-            "http://localhost/arbulanguage.com/img/fiszki1/364a.jpg"
+            "https://www.arbulang.com/img/fiszki1/364a.jpg"
         ],
         story: [
-            ""
+            "Super jest ten mały silnik. Ma moc kilku moli"
         ],
         desc: "and[] -",
         sentence2: [
@@ -776,10 +783,10 @@ fiszki10.push(
             191
         ],
         img: [
-            "http://localhost/arbulanguage.com/img/fiszki1/364a.jpg"
+            "https://www.arbulang.com/img/fiszki1/364a.jpg"
         ],
         story: [
-            ""
+            "Super jest ten mały silnik. Ma moc kilku moli"
         ],
         desc: "happy[] -",
         sentence2: [
@@ -801,19 +808,19 @@ fiszki10.push(
             192
         ],
         img: [
-            "http://localhost/arbulanguage.com/img/fiszki1/7a.jpg",
-            "http://localhost/arbulanguage.com/img/fiszki1/7b.jpg",
-            "http://localhost/arbulanguage.com/img/fiszki1/7c.jpg",
-            "http://localhost/arbulanguage.com/img/fiszki1/7d.jpg",
-            "http://localhost/arbulanguage.com/img/fiszki1/7e.jpg"
+            "https://www.arbulang.com/img/fiszki1/7a.jpg",
+            "https://www.arbulang.com/img/fiszki1/7b.jpg",
+            "https://www.arbulang.com/img/fiszki1/7c.jpg",
+            "https://www.arbulang.com/img/fiszki1/7d.jpg",
+            "https://www.arbulang.com/img/fiszki1/7e.jpg"
         ],
         translate: "",
         translateb: "[]",
         translateb2: "[]",
-        srcWord: ["http://localhost/arbulanguage.com/filmy/tennis.mp4", "V for Vendetta (2005)"],
-        srcWordimage: "http://localhost/arbulanguage.com/filmy/tennis.png",
+        srcWord: ["https://www.arbulang.com/filmy/tennis.mp4", "V for Vendetta (2005)"],
+        srcWordimage: "https://www.arbulang.com/filmy/tennis.png",
         word: [
-            "http://localhost/arbulanguage.com/voice/bike.mp4"
+            "https://www.arbulang.com/voice/bike.mp4"
         ],
         story: "<u><b>Ona</u></b> - Patrycja ma ri<u><b>szi</u></b> to naturalny antyoksydant",
         desc: "wolf[] - moja, moje",
@@ -835,10 +842,10 @@ fiszki10.push(
             192
         ],
         img: [
-            "http://localhost/arbulanguage.com/img/fiszki1/364a.jpg"
+            "https://www.arbulang.com/img/fiszki1/364a.jpg"
         ],
         story: [
-            ""
+            "Super jest ten mały silnik. Ma moc kilku moli"
         ],
         desc: "lives[] -",
         sentence2: [
@@ -859,10 +866,10 @@ fiszki10.push(
             193
         ],
         img: [
-            "http://localhost/arbulanguage.com/img/fiszki1/364a.jpg"
+            "https://www.arbulang.com/img/fiszki1/364a.jpg"
         ],
         story: [
-            ""
+            "Super jest ten mały silnik. Ma moc kilku moli"
         ],
         desc: "deep[] -",
         sentence2: [
@@ -884,10 +891,10 @@ fiszki10.push(
             193
         ],
         img: [
-            "http://localhost/arbulanguage.com/img/fiszki1/364a.jpg"
+            "https://www.arbulang.com/img/fiszki1/364a.jpg"
         ],
         story: [
-            ""
+            "Super jest ten mały silnik. Ma moc kilku moli"
         ],
         desc: "in[] -",
         sentence2: [
@@ -909,10 +916,10 @@ fiszki10.push(
             193
         ],
         img: [
-            "http://localhost/arbulanguage.com/img/fiszki1/364a.jpg"
+            "https://www.arbulang.com/img/fiszki1/364a.jpg"
         ],
         story: [
-            ""
+            "Super jest ten mały silnik. Ma moc kilku moli"
         ],
         desc: "forest[] -",
         sentence2: [
@@ -934,19 +941,19 @@ fiszki10.push(
             194
         ],
         img: [
-            "http://localhost/arbulanguage.com/img/fiszki1/7a.jpg",
-            "http://localhost/arbulanguage.com/img/fiszki1/7b.jpg",
-            "http://localhost/arbulanguage.com/img/fiszki1/7c.jpg",
-            "http://localhost/arbulanguage.com/img/fiszki1/7d.jpg",
-            "http://localhost/arbulanguage.com/img/fiszki1/7e.jpg"
+            "https://www.arbulang.com/img/fiszki1/7a.jpg",
+            "https://www.arbulang.com/img/fiszki1/7b.jpg",
+            "https://www.arbulang.com/img/fiszki1/7c.jpg",
+            "https://www.arbulang.com/img/fiszki1/7d.jpg",
+            "https://www.arbulang.com/img/fiszki1/7e.jpg"
         ],
         translate: "",
         translateb: "[]",
         translateb2: "[]",
-        srcWord: ["http://localhost/arbulanguage.com/filmy/tennis.mp4", "V for Vendetta (2005)"],
-        srcWordimage: "http://localhost/arbulanguage.com/filmy/tennis.png",
+        srcWord: ["https://www.arbulang.com/filmy/tennis.mp4", "V for Vendetta (2005)"],
+        srcWordimage: "https://www.arbulang.com/filmy/tennis.png",
         word: [
-            "http://localhost/arbulanguage.com/voice/bike.mp4"
+            "https://www.arbulang.com/voice/bike.mp4"
         ],
         story: "<u><b>Ona</u></b> - Patrycja ma ri<u><b>szi</u></b> to naturalny antyoksydant",
         desc: "take[] - moja, moje",
@@ -968,10 +975,10 @@ fiszki10.push(
             194
         ],
         img: [
-            "http://localhost/arbulanguage.com/img/fiszki1/364a.jpg"
+            "https://www.arbulang.com/img/fiszki1/364a.jpg"
         ],
         story: [
-            ""
+            "Super jest ten mały silnik. Ma moc kilku moli"
         ],
         desc: "a towel[] -",
         sentence2: [
@@ -992,10 +999,10 @@ fiszki10.push(
             195
         ],
         img: [
-            "http://localhost/arbulanguage.com/img/fiszki1/364a.jpg"
+            "https://www.arbulang.com/img/fiszki1/364a.jpg"
         ],
         story: [
-            ""
+            "Super jest ten mały silnik. Ma moc kilku moli"
         ],
         desc: "after[] -",
         sentence2: [
@@ -1017,10 +1024,10 @@ fiszki10.push(
             195
         ],
         img: [
-            "http://localhost/arbulanguage.com/img/fiszki1/364a.jpg"
+            "https://www.arbulang.com/img/fiszki1/364a.jpg"
         ],
         story: [
-            ""
+            "Super jest ten mały silnik. Ma moc kilku moli"
         ],
         desc: "your[] -",
         sentence2: [
@@ -1042,10 +1049,10 @@ fiszki10.push(
             195
         ],
         img: [
-            "http://localhost/arbulanguage.com/img/fiszki1/364a.jpg"
+            "https://www.arbulang.com/img/fiszki1/364a.jpg"
         ],
         story: [
-            ""
+            "Super jest ten mały silnik. Ma moc kilku moli"
         ],
         desc: "shower[] -",
         sentence2: [
@@ -1067,19 +1074,19 @@ fiszki10.push(
             196
         ],
         img: [
-            "http://localhost/arbulanguage.com/img/fiszki1/7a.jpg",
-            "http://localhost/arbulanguage.com/img/fiszki1/7b.jpg",
-            "http://localhost/arbulanguage.com/img/fiszki1/7c.jpg",
-            "http://localhost/arbulanguage.com/img/fiszki1/7d.jpg",
-            "http://localhost/arbulanguage.com/img/fiszki1/7e.jpg"
+            "https://www.arbulang.com/img/fiszki1/7a.jpg",
+            "https://www.arbulang.com/img/fiszki1/7b.jpg",
+            "https://www.arbulang.com/img/fiszki1/7c.jpg",
+            "https://www.arbulang.com/img/fiszki1/7d.jpg",
+            "https://www.arbulang.com/img/fiszki1/7e.jpg"
         ],
         translate: "",
         translateb: "[]",
         translateb2: "[]",
-        srcWord: ["http://localhost/arbulanguage.com/filmy/tennis.mp4", "V for Vendetta (2005)"],
-        srcWordimage: "http://localhost/arbulanguage.com/filmy/tennis.png",
+        srcWord: ["https://www.arbulang.com/filmy/tennis.mp4", "V for Vendetta (2005)"],
+        srcWordimage: "https://www.arbulang.com/filmy/tennis.png",
         word: [
-            "http://localhost/arbulanguage.com/voice/bike.mp4"
+            "https://www.arbulang.com/voice/bike.mp4"
         ],
         story: "<u><b>Ona</u></b> - Patrycja ma ri<u><b>szi</u></b> to naturalny antyoksydant",
         desc: "I[] - moja, moje",
@@ -1103,7 +1110,7 @@ fiszki10.push(
             196
         ],
         img: [
-            "http://localhost/arbulanguage.com/img/fiszki1/364a.jpg"
+            "https://www.arbulang.com/img/fiszki1/364a.jpg"
         ],
         story: [
             "Super jest ten mały silnik. Ma moc kilku moli"
@@ -1129,7 +1136,7 @@ fiszki10.push(
             196
         ],
         img: [
-            "http://localhost/arbulanguage.com/img/fiszki1/364a.jpg"
+            "https://www.arbulang.com/img/fiszki1/364a.jpg"
         ],
         story: [
             "Super jest ten mały silnik. Ma moc kilku moli"
@@ -1155,7 +1162,7 @@ fiszki10.push(
             196
         ],
         img: [
-            "http://localhost/arbulanguage.com/img/fiszki1/364a.jpg"
+            "https://www.arbulang.com/img/fiszki1/364a.jpg"
         ],
         story: [
             "Super jest ten mały silnik. Ma moc kilku moli"
@@ -1181,7 +1188,7 @@ fiszki10.push(
             197
         ],
         img: [
-            "http://localhost/arbulanguage.com/img/fiszki1/364a.jpg"
+            "https://www.arbulang.com/img/fiszki1/364a.jpg"
         ],
         story: [
             "Super jest ten mały silnik. Ma moc kilku moli"
@@ -1205,7 +1212,7 @@ fiszki10.push(
             197
         ],
         img: [
-            "http://localhost/arbulanguage.com/img/fiszki1/364a.jpg"
+            "https://www.arbulang.com/img/fiszki1/364a.jpg"
         ],
         story: [
             "Super jest ten mały silnik. Ma moc kilku moli"
@@ -1229,19 +1236,19 @@ fiszki10.push(
             198
         ],
         img: [
-            "http://localhost/arbulanguage.com/img/fiszki1/7a.jpg",
-            "http://localhost/arbulanguage.com/img/fiszki1/7b.jpg",
-            "http://localhost/arbulanguage.com/img/fiszki1/7c.jpg",
-            "http://localhost/arbulanguage.com/img/fiszki1/7d.jpg",
-            "http://localhost/arbulanguage.com/img/fiszki1/7e.jpg"
+            "https://www.arbulang.com/img/fiszki1/7a.jpg",
+            "https://www.arbulang.com/img/fiszki1/7b.jpg",
+            "https://www.arbulang.com/img/fiszki1/7c.jpg",
+            "https://www.arbulang.com/img/fiszki1/7d.jpg",
+            "https://www.arbulang.com/img/fiszki1/7e.jpg"
         ],
         translate: "",
         translateb: "[]",
         translateb2: "[]",
-        srcWord: ["http://localhost/arbulanguage.com/filmy/tennis.mp4", "V for Vendetta (2005)"],
-        srcWordimage: "http://localhost/arbulanguage.com/filmy/tennis.png",
+        srcWord: ["https://www.arbulang.com/filmy/tennis.mp4", "V for Vendetta (2005)"],
+        srcWordimage: "https://www.arbulang.com/filmy/tennis.png",
         word: [
-            "http://localhost/arbulanguage.com/voice/bike.mp4"
+            "https://www.arbulang.com/voice/bike.mp4"
         ],
         story: "<u><b>Ona</u></b> - Patrycja ma ri<u><b>szi</u></b> to naturalny antyoksydant",
         desc: "she[] - moja, moje",
@@ -1264,7 +1271,7 @@ fiszki10.push(
             198
         ],
         img: [
-            "http://localhost/arbulanguage.com/img/fiszki1/364a.jpg"
+            "https://www.arbulang.com/img/fiszki1/364a.jpg"
         ],
         story: [
             "Super jest ten mały silnik. Ma moc kilku moli"
@@ -1289,7 +1296,7 @@ fiszki10.push(
             198
         ],
         img: [
-            "http://localhost/arbulanguage.com/img/fiszki1/364a.jpg"
+            "https://www.arbulang.com/img/fiszki1/364a.jpg"
         ],
         story: [
             "Super jest ten mały silnik. Ma moc kilku moli"
@@ -1314,7 +1321,7 @@ fiszki10.push(
             199
         ],
         img: [
-            "http://localhost/arbulanguage.com/img/fiszki1/364a.jpg"
+            "https://www.arbulang.com/img/fiszki1/364a.jpg"
         ],
         story: [
             "Super jest ten mały silnik. Ma moc kilku moli"
@@ -1338,7 +1345,7 @@ fiszki10.push(
             199
         ],
         img: [
-            "http://localhost/arbulanguage.com/img/fiszki1/364a.jpg"
+            "https://www.arbulang.com/img/fiszki1/364a.jpg"
         ],
         story: [
             "Super jest ten mały silnik. Ma moc kilku moli"
@@ -1363,7 +1370,7 @@ fiszki10.push(
             199
         ],
         img: [
-            "http://localhost/arbulanguage.com/img/fiszki1/364a.jpg"
+            "https://www.arbulang.com/img/fiszki1/364a.jpg"
         ],
         story: [
             "Super jest ten mały silnik. Ma moc kilku moli"
@@ -1388,19 +1395,19 @@ fiszki10.push(
             200
         ],
         img: [
-            "http://localhost/arbulanguage.com/img/fiszki1/7a.jpg",
-            "http://localhost/arbulanguage.com/img/fiszki1/7b.jpg",
-            "http://localhost/arbulanguage.com/img/fiszki1/7c.jpg",
-            "http://localhost/arbulanguage.com/img/fiszki1/7d.jpg",
-            "http://localhost/arbulanguage.com/img/fiszki1/7e.jpg"
+            "https://www.arbulang.com/img/fiszki1/7a.jpg",
+            "https://www.arbulang.com/img/fiszki1/7b.jpg",
+            "https://www.arbulang.com/img/fiszki1/7c.jpg",
+            "https://www.arbulang.com/img/fiszki1/7d.jpg",
+            "https://www.arbulang.com/img/fiszki1/7e.jpg"
         ],
         translate: "",
         translateb: "[]",
         translateb2: "[]",
-        srcWord: ["http://localhost/arbulanguage.com/filmy/tennis.mp4", "V for Vendetta (2005)"],
-        srcWordimage: "http://localhost/arbulanguage.com/filmy/tennis.png",
+        srcWord: ["https://www.arbulang.com/filmy/tennis.mp4", "V for Vendetta (2005)"],
+        srcWordimage: "https://www.arbulang.com/filmy/tennis.png",
         word: [
-            "http://localhost/arbulanguage.com/voice/bike.mp4"
+            "https://www.arbulang.com/voice/bike.mp4"
         ],
         story: "<u><b>Ona</u></b> - Patrycja ma ri<u><b>szi</u></b> to naturalny antyoksydant",
         desc: "don't[] - moja, moje",
@@ -1423,7 +1430,7 @@ fiszki10.push(
             200
         ],
         img: [
-            "http://localhost/arbulanguage.com/img/fiszki1/364a.jpg"
+            "https://www.arbulang.com/img/fiszki1/364a.jpg"
         ],
         story: [
             "Super jest ten mały silnik. Ma moc kilku moli"
@@ -1448,7 +1455,7 @@ fiszki10.push(
             200
         ],
         img: [
-            "http://localhost/arbulanguage.com/img/fiszki1/364a.jpg"
+            "https://www.arbulang.com/img/fiszki1/364a.jpg"
         ],
         story: [
             "Super jest ten mały silnik. Ma moc kilku moli"
@@ -1473,7 +1480,7 @@ fiszki10.push(
             201
         ],
         img: [
-            "http://localhost/arbulanguage.com/img/fiszki1/364a.jpg"
+            "https://www.arbulang.com/img/fiszki1/364a.jpg"
         ],
         story: [
             "Super jest ten mały silnik. Ma moc kilku moli"
@@ -1497,7 +1504,7 @@ fiszki10.push(
             201
         ],
         img: [
-            "http://localhost/arbulanguage.com/img/fiszki1/364a.jpg"
+            "https://www.arbulang.com/img/fiszki1/364a.jpg"
         ],
         story: [
             "Super jest ten mały silnik. Ma moc kilku moli"
@@ -1521,19 +1528,19 @@ fiszki10.push(
             202
         ],
         img: [
-            "http://localhost/arbulanguage.com/img/fiszki1/7a.jpg",
-            "http://localhost/arbulanguage.com/img/fiszki1/7b.jpg",
-            "http://localhost/arbulanguage.com/img/fiszki1/7c.jpg",
-            "http://localhost/arbulanguage.com/img/fiszki1/7d.jpg",
-            "http://localhost/arbulanguage.com/img/fiszki1/7e.jpg"
+            "https://www.arbulang.com/img/fiszki1/7a.jpg",
+            "https://www.arbulang.com/img/fiszki1/7b.jpg",
+            "https://www.arbulang.com/img/fiszki1/7c.jpg",
+            "https://www.arbulang.com/img/fiszki1/7d.jpg",
+            "https://www.arbulang.com/img/fiszki1/7e.jpg"
         ],
         translate: "",
         translateb: "[]",
         translateb2: "[]",
-        srcWord: ["http://localhost/arbulanguage.com/filmy/tennis.mp4", "V for Vendetta (2005)"],
-        srcWordimage: "http://localhost/arbulanguage.com/filmy/tennis.png",
+        srcWord: ["https://www.arbulang.com/filmy/tennis.mp4", "V for Vendetta (2005)"],
+        srcWordimage: "https://www.arbulang.com/filmy/tennis.png",
         word: [
-            "http://localhost/arbulanguage.com/voice/bike.mp4"
+            "https://www.arbulang.com/voice/bike.mp4"
         ],
         story: "<u><b>Ona</u></b> - Patrycja ma ri<u><b>szi</u></b> to naturalny antyoksydant",
         desc: "put[] - moja, moje",
@@ -1555,7 +1562,7 @@ fiszki10.push(
             202
         ],
         img: [
-            "http://localhost/arbulanguage.com/img/fiszki1/364a.jpg"
+            "https://www.arbulang.com/img/fiszki1/364a.jpg"
         ],
         story: [
             "Super jest ten mały silnik. Ma moc kilku moli"
@@ -1579,7 +1586,7 @@ fiszki10.push(
             202
         ],
         img: [
-            "http://localhost/arbulanguage.com/img/fiszki1/364a.jpg"
+            "https://www.arbulang.com/img/fiszki1/364a.jpg"
         ],
         story: [
             "Super jest ten mały silnik. Ma moc kilku moli"
@@ -1603,7 +1610,7 @@ fiszki10.push(
             203
         ],
         img: [
-            "http://localhost/arbulanguage.com/img/fiszki1/364a.jpg"
+            "https://www.arbulang.com/img/fiszki1/364a.jpg"
         ],
         story: [
             "Super jest ten mały silnik. Ma moc kilku moli"
@@ -1627,7 +1634,7 @@ fiszki10.push(
             203
         ],
         img: [
-            "http://localhost/arbulanguage.com/img/fiszki1/364a.jpg"
+            "https://www.arbulang.com/img/fiszki1/364a.jpg"
         ],
         story: [
             "Super jest ten mały silnik. Ma moc kilku moli"
@@ -1644,7 +1651,7 @@ fiszki10.push(
         category1: "nauka",
         category2: ["okresleniaMiejsca"]
     },
-                                                                                                                {
+{
         id: [
             662,
             112,
@@ -2686,4 +2693,4 @@ fiszki10.push(
         category1: "nauka",
         category2: ["okresleniaMiejsca"]
     }
-);
+];

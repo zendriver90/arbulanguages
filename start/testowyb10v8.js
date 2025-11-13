@@ -266,8 +266,8 @@ fiszki10.push(
         translate: "",
         translateb: "[]",
         translateb2: "[]",
-        srcWord: ["http://localhost/arbulanguage.com/filmy/newspaper.mp4", "Kevin sam w domu (1990)"],
-        srcWordimage: "http://localhost/arbulanguage.com/filmy/newspaper.png",
+        srcWord: ["http://localhost/arbulanguage.com/filmy/openwindow.mp4", "Dwunastu gniewnych ludzi (1957)"],
+        srcWordimage: "http://localhost/arbulanguage.com/filmy/openwindow.png",
         word: [
             "http://localhost/arbulanguage.com/voice/bike.mp4"
         ],
@@ -280,10 +280,10 @@ fiszki10.push(
         ],
         desc: "she[szi] - ona",
         sentence1: [
-            "She"
+            "He"
         ],
         sentence: [
-            "She",
+            "He",
             "opens",
             "the window"
         ],
@@ -308,7 +308,7 @@ fiszki10.push(
             "opens"
         ],
         sentence: [
-            "She",
+            "He",
             "opens",
             "the window"
         ],
@@ -333,7 +333,7 @@ fiszki10.push(
             "the window"
         ],
         sentence: [
-            "She",
+            "He",
             "opens",
             "the window"
         ],
@@ -1238,7 +1238,7 @@ fiszki10.push(
         ],
         desc: "sleeping[] - ",
         sentence2: [
-            "the door"
+            "sleeping"
         ],
         sentence: [
             "before",

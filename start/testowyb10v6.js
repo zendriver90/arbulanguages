@@ -2010,7 +2010,7 @@ fiszki10.push(
             "http://localhost/arbulanguage.com/img/fiszki1/564a.jpg"
         ],
         story: [
-            ""
+            "<u><b>Str</u></b>aszne są te chodniki na tej <u><b>ulicy</u></b> </u></b>i t<u><b>a mała ilość miejsca"
         ],
         desc: "street[strit] - ulica",
         sentence2: [
@@ -2032,12 +2032,9 @@ fiszki10.push(
             168
         ],
         img: [
-            "http://localhost/arbulanguage.com/img/fiszki1/32aa.jpg",
-            "http://localhost/arbulanguage.com/img/fiszki1/32bb.jpg",
-            "http://localhost/arbulanguage.com/img/fiszki1/32cc.jpg",
-            "http://localhost/arbulanguage.com/img/fiszki1/32dd.jpg",
-            "http://localhost/arbulanguage.com/img/fiszki1/32ee.jpg",
-            "http://localhost/arbulanguage.com/img/fiszki1/32ff.jpg"
+                "http://localhost/arbulanguage.com/img/fiszki1/50aa.jpg",
+                "http://localhost/arbulanguage.com/img/fiszki1/50bb.jpg",
+                "http://localhost/arbulanguage.com/img/fiszki1/50cc.jpg"
         ],
         translate: "Moje łóżko jest blisko okna",
         translateb: "[Maj bed is nir de łindoł]",
@@ -2049,14 +2046,11 @@ fiszki10.push(
             "http://localhost/arbulanguage.com/voice/bike.mp4"
         ],
         story: [
-            "<u><b>Aur</u></b>a zawodnika z <u><b>naszego</u></b> zespołu jest niesamowita",
-            "M<u><b>aur</u></b>ycy to jest <u><b>nasz</u></b> ogrodnik",
-            "<u><b>Nasz</u></b> dostawca prądu to <u><b>Taur</u></b>on",
-            "Władcy pierścieni.. najniebezpieczniejsze dla <u><b>naszego</u></b> bezpieczeństwa było oko S<u><b>aur</u></b>ona",
-            "<u><b>Nasza</u></b> mama dostała l<u><b>aur</u></b>kę na dzień mamy",
-            "<u><b>Nasi</u></b> spartanie krzyczą <u><b>AAAUUU!!!</u></b> wszyscy razem przed walką"
+                "W <b><u>maj</b></u>u kwitną <b><u>moje</b></u> ulubione kwiaty",
+                "Przetrzy<b><u>maj</b></u> mi na pare dni <b><u>moje</b></u> auto na placu",
+                "W <b><u>maj</b></u>u na <b><u>moje</b></u> rośliny w ogrodzie pada deszcz"
         ],
-        desc: "our[aur] - nasz/nasze",
+        desc: "my[maj] - mój",
         sentence1: [
             "My"
         ],
@@ -2079,9 +2073,9 @@ fiszki10.push(
             "http://localhost/arbulanguage.com/img/fiszki1/566a.jpg"
         ],
         story: [
-            ""
+            "<b><u>Bed</b></u>narz czyli rzemieślnik, który wyrabia beczki po pracy wysypia się w swoim <b><u>łóżku</b></u>"
         ],
-        desc: "bed[] - ",
+        desc: "bed[bed] - łóżko",
         sentence2: [
             "bed"
         ],
@@ -2138,7 +2132,7 @@ fiszki10.push(
             169
         ],
         img: [
-            "http://localhost/arbulanguage.com/img/fiszki1/364a.jpg"
+            "http://localhost/arbulanguage.com/img/fiszki1/568a.jpg"
         ],
         story: [
             "<u><b>Ni</u></b>na i <u><b>R</u></b>obert są <u><b>w pobliżu</u></b> pasma górskiego"
@@ -2311,12 +2305,8 @@ fiszki10.push(
             95,
             170
         ],
-        img: [
-            "http://localhost/arbulanguage.com/img/fiszki1/364a.jpg"
-        ],
-        story: [
-            "<u><b>Tu</u></b> razem pracujemy przy, żniwach.. Jest <u><b>ge</u></b>nialnie... Kombajnista ustwia h<u><b>eder</u></b> do koszenia zboża"
-        ],
+        img: "http://localhost/arbulanguage.com/img/fiszki1/272a.jpg",
+        story: "<u><b>Tu</u></b> razem pracujemy przy, żniwach.. Jest <u><b>ge</u></b>nialnie... Kombajnista ustwia h<u><b>eder</u></b> do koszenia zboża",
         desc: "together[tugeder] - razem",
         sentence2: [
             "together"
@@ -2567,8 +2557,8 @@ fiszki10.push(
         translateb: "[Ken szi ołpen de smol windoł]",
         translateb2: "[Ken szi ołpen]",
         translateb3: "Can she open the small window",
-        srcWord: ["http://localhost/arbulanguage.com/filmy/tennis.mp4", "V for Vendetta (2005)"],
-        srcWordimage: "http://localhost/arbulanguage.com/filmy/tennis.png",
+        srcWord: ["http://localhost/arbulanguage.com/filmy/lekcja33/openwindow.mp4", "Dwunastu gniewnych ludzi (1957)"],
+        srcWordimage: "http://localhost/arbulanguage.com/filmy/lekcja33/openwindow.png",
         word: [
             "http://localhost/arbulanguage.com/voice/bike.mp4"
         ],
@@ -2579,7 +2569,7 @@ fiszki10.push(
         ],
         sentence: [
             "Can",
-            "she",
+            "he",
             "open"
         ],
         key: "can",
@@ -2598,11 +2588,11 @@ fiszki10.push(
         story: "<u><b>Ona</u></b> - Patrycja ma ri<u><b>szi</u></b> to naturalny antyoksydant",
         desc: "she[szi] - ona",
         sentence2: [
-            "she"
+            "he"
         ],
         sentence: [
             "Can",
-            "she",
+            "he",
             "open"
         ],
         key: "she",
@@ -2627,7 +2617,7 @@ fiszki10.push(
         ],
         sentence: [
             "Can",
-            "she",
+            "he",
             "open"
         ],
         key: "open",
@@ -2677,7 +2667,7 @@ fiszki10.push(
             "http://localhost/arbulanguage.com/img/fiszki1/587a.jpg"
         ],
         story: [
-            "Super jest ten mały silnik. Ma moc kilku moli"
+            "<u><b>S</u></b>uper jest ten <u><b>mały</u></b> silnik. Ma moc kilku <u><b>mol</u></b>i"
         ],
         desc: "small[smol] - mały",
         sentence2: [
@@ -2704,8 +2694,8 @@ fiszki10.push(
             "http://localhost/arbulanguage.com/img/fiszki1/570c.jpg"
         ],
         story: [
-            "Mój windows (<u><b>łindow</u></b>s) jest na biórku przy oknie",
-            "Quin (K<u><b>łin</u></b>) dołożyła jeszcze większy budżet na wojsko. Wyszła przed okno w pałacu",
+            "Mój windows (<u><b>łindow</u></b>s) jest na biórku przy <u><b>oknie</u></b>",
+            "Queen (K<u><b>łin</u></b>) <u><b>doł</u></b>ożyła jeszcze większy budżet na wojsko. Wyszła przed <u><b>okno</u></b> w pałacu",
             "Winterfresh (<u><b>łin</u></b>terfresz) to rodzaj odświeżającej gumy do żucia. Do zamówienia gumy dołączyłem jeszcze kupon loterii, a kupiłem to w okienku w kiosku"
         ],
         desc: "window[łindoł] - okno",
@@ -2752,7 +2742,7 @@ fiszki10.push(
                 "Ten <u><b>kot</u></b> to <u><b>kat</u></b>astrofa",
                 "W <u><b>kat</u></b>egori zwierząt moja dziewczyna lubi najbardziej <u><b>koty</u></b>"
         ],
-        desc: "{the) cat[kat] - kot",
+        desc: "{the) cat[de kat] - (ten) kot",
         sentence1: [
             "The cat"
         ],
@@ -2795,7 +2785,7 @@ fiszki10.push(
             177
         ],
         img: [
-            "http://localhost/arbulanguage.com/img/fiszki1/364a.jpg"
+            "http://localhost/arbulanguage.com/img/fiszki1/591a.jpg"
         ],
         story: [
             "<u><b>Dża</u></b>ga wyskoczyła z k<u><b>amp</u></b>era kiedy przyszli fani"
@@ -2901,7 +2891,7 @@ fiszki10.push(
             "http://localhost/arbulanguage.com/img/fiszki1/595a.jpg"
         ],
         story: [
-            "Poetka misze poemat-<u><b>historię</u></b> o tym kwiecie <u><b>stor</u></b>czyku. Ciekawy jst żywot poet<u><b>y</u></b>"
+            "Poetka misze poemat-<u><b>historię</u></b> o tym kwiecie <u><b>stor</u></b>czyku. Ciekawy jest żywot poet<u><b>y</u></b>"
         ],
         desc: "the story[de story] - historia, opowieść",
         sentence2: [
@@ -2994,8 +2984,8 @@ fiszki10.push(
         translate: "",
         translateb: "[]",
         translateb2: "[]",
-        srcWord: ["http://localhost/arbulanguage.com/filmy/tennis.mp4", "V for Vendetta (2005)"],
-        srcWordimage: "http://localhost/arbulanguage.com/filmy/tennis.png",
+        srcWord: ["http://localhost/arbulanguage.com/filmy/lekcja34/shebook.mp4", "V for Vendetta (2005)"],
+        srcWordimage: "http://localhost/arbulanguage.com/filmy/lekcja34/shebook.png",
         word: [
             "http://localhost/arbulanguage.com/voice/bike.mp4"
         ],

@@ -1097,6 +1097,17 @@ span.highlight {
 }
             }
             @media (max-width: 999px) {
+                .overlay-button {
+                    position: absolute;
+                    z-index: 1000;
+                    white-space: nowrap; /* Zapobiega zawijaniu tekstu */
+                    bottom: 10px;
+                    right: 10px;
+    width: 40px; /* mniejszy rozmiar */
+    height: auto;
+                    cursor: pointer;
+                    border-radius: 8px;
+  }
                                 .grid-containera {
                     display: grid;
                     max-width: 100%;
@@ -2445,7 +2456,7 @@ function showFiszkiForLesson5d(matchingFiszki1v, tablica41) {
 <div id="konsola">
     <div id="title">WIDOK</div>
 <button id="inne" class="rodzaj-button" data-rodzaj="osoby">SPOŁECZNOŚCIOWY</button>        
-        <button class="charakter-button" onclick="ustawTryb(tablica3[0]); przekazArgument0(globalCategory, '', '', 'fiszki', false, false, 'losowyuklad')">WYGENEROWANY JEDNORAZOWO</button>
+        <button class="charakter-button" onclick="ustawTryb(tablica3[0]); przekazArgument0('all', 'all', '', '', false, 'fiszki', 'losowyuklad', true, tablica3[1], tablica3[4], false, '', '', '', '', '100', '', '', '', false, true, false)">WYGENEROWANY JEDNORAZOWO</button>
             <div id="title">RODZAJ SŁOWNICTWA</div>
                     <button id="inne" class="rodzaj-button" data-rodzaj="osoby">KOGNATY</button>
     <button id="osoby" class="rodzaj-button" data-rodzaj="osoby" onclick="przekazArgument0('', 'all', '', '', '', '', '', tablica3[1], 'other', false, '', '', '', '', '100')">Wszystkie</button>
@@ -2662,7 +2673,7 @@ $gridContainer2.css('margin-top', flashcardContainerHeight + 100 + 'px');
                 tablica15.length = 0;
                 globalIdTranslate = idtranslate;
                 // Wywołaj funkcję wybierzCharakter na podstawie trybu
-                wybierzCharakter(selectedCategory, category, tablica3[0], index55, index77, buttonindex, tablica3[1], tablica3[3], rodzaj, isSearching, matchingLessons5, matchingLessons5b, isSearching2, staraTablica40, indexDivRange, indexDiv0, indexDiv0b, indexDiv0d, number, flagaPrzycisku2, flagaPrzycisku);
+                wybierzCharakter(selectedCategory, category, tablica3[0], index55, index77, buttonindex, idpolski, tablica3[1], rodzaj, isSearching, matchingLessons5, matchingLessons5b, isSearching2, staraTablica40, indexDivRange, indexDiv0, indexDiv0b, indexDiv0d, number, flagaPrzycisku2, flagaPrzycisku);
 
             }
 
@@ -2983,7 +2994,10 @@ function findMatchingFiszkiCount(category, fiszki) {
                 console.log("Wybrany rodzaj słownictwa:vv ", selectedCategory);
                 console.log('hej5b', index55);
                 console.log('hej755', matchingIndexes);
-
+    let cumulativeFirstPartLength1 = 0;
+    let cumulativeFirstPartLength2 = 0;
+    let cumulativeFirstPartLength3 = 0;
+    let newIndex = 0;
                 const matchingLessons = new Set();
                 const matchingLessons1b = new Set(matchingLessons5);
                 const matchingLessons2 = new Set();
@@ -3416,8 +3430,11 @@ if (myVariable.length > 0) {
 
                     myVariable = validLessons;
                 }
+                console.log('hej129 idpolski:', idpolski);
                                 if (idpolski === 'losowyuklad') {
+                                    console.log('hej130: wyswietla się');
     console.log('Warunek czas === "fiszki" jest spełniony');
+    $('.grid-container .image-container3b').remove();
                     $('.grid-container .image-container4').remove();
                     $('.grid-container .image-container5').remove();
 
@@ -3453,48 +3470,68 @@ if (myVariable.length > 0) {
 
         shuffleArray(lessonsGroups);
         console.log('Grupy po tasowaniu:', lessonsGroups);
+let newIndex = 0;
 
-        lessonsGroups.forEach((group, index) => {
-            console.log(`Grupa ${index}:`, group);
 
-            const lesson1Sentences = correlationsCount.find(item => item[0] === group.lessonId1) || [group.lessonId1, 0];
-            const lesson2Sentences = correlationsCount.find(item => item[0] === group.lessonId2) || [group.lessonId2, 0];
-            const lesson3Sentences = correlationsCount.find(item => item[0] === group.lessonId3) || [group.lessonId3, 0];
+lessonsGroups.forEach((group, idx) => {
+    console.log(`Grupa ${idx}:`, group);
 
-            const lesson1SecondPartLength = partLengths2.find(item => item.id === group.lessonId1)?.count2 || 0;
-            const lesson2SecondPartLength = partLengths2.find(item => item.id === group.lessonId2)?.count2 || 0;
-            const lesson3SecondPartLength = partLengths2.find(item => item.id === group.lessonId3)?.count2 || 0;
+    // Destrukturyzacja — teraz możesz używać lessonId1, lessonId2, lessonId3 lokalnie
+    const { lessonId1, lessonId2, lessonId3, indexDiv: groupIndexDiv } = group;
 
-            const lesson1FirstPartLength = partLengths1.find(item => item.id === group.lessonId1)?.count2 || 0;
-            const lesson2FirstPartLength = partLengths1.find(item => item.id === group.lessonId2)?.count2 || 0;
-            const lesson3FirstPartLength = partLengths1.find(item => item.id === group.lessonId3)?.count2 || 0;
+    // Teraz używaj tych lokalnych zmiennych:
+    const lesson1Sentences = correlationsCount.find(item => item[0] === lessonId1) || [lessonId1, 0];
+    const lesson2Sentences = correlationsCount.find(item => item[0] === lessonId2) || [lessonId2, 0];
+    const lesson3Sentences = correlationsCount.find(item => item[0] === lessonId3) || [lessonId3, 0];
 
-            const lesson1PartLength = partLengths3.find(item => item.id === group.lessonId1)?.cumulativeCount || 0;
-            const lesson2PartLength = partLengths3.find(item => item.id === group.lessonId2)?.cumulativeCount || 0;
-            const lesson3PartLength = partLengths3.find(item => item.id === group.lessonId3)?.cumulativeCount || 0;
+    const lesson1SecondPartLength = partLengths2.find(item => item.id === lessonId1)?.count2 || 0;
+    const lesson2SecondPartLength = partLengths2.find(item => item.id === lessonId2)?.count2 || 0;
+    const lesson3SecondPartLength = partLengths2.find(item => item.id === lessonId3)?.count2 || 0;
 
-            console.log('Dane dla grupy:', {
-                lesson1PartLength,
-                lesson2PartLength,
-                lesson3PartLength,
-                lesson1Sentences,
-                lesson2Sentences,
-                lesson3Sentences
-            });
+    const lesson1FirstPartLength = partLengths1.find(item => item.id === lessonId1)?.count2 || 0;
+    const lesson2FirstPartLength = partLengths1.find(item => item.id === lessonId2)?.count2 || 0;
+    const lesson3FirstPartLength = partLengths1.find(item => item.id === lessonId3)?.count2 || 0;
+
+    const lesson1PartLength = partLengths3.find(item => item.id === lessonId1)?.cumulativeCount || 0;
+    const lesson2PartLength = partLengths3.find(item => item.id === lessonId2)?.cumulativeCount || 0;
+    const lesson3PartLength = partLengths3.find(item => item.id === lessonId3)?.cumulativeCount || 0;
+
+    // Jeśli chcesz akumulować:
+    cumulativeFirstPartLength1 += lesson1PartLength;
+    cumulativeFirstPartLength2 += lesson2PartLength;
+    cumulativeFirstPartLength3 += lesson3PartLength;
+
+    console.log('Dane dla grupy:', {
+        lesson1PartLength,
+        lesson2PartLength,
+        lesson3PartLength,
+        lesson1Sentences,
+        lesson2Sentences,
+        lesson3Sentences
+    });
 
     try {
-        showCombinedSentenceForLesson(
-            matchingIndexes3, rodzaj, matchingIndexes2, buttonindex, group.indexDiv,
-            group.lessonId1, group.lessonId2, group.lessonId3, fiszki, matchingIndexes,
-            startIndex, index, lessonsGroups, lesson1PartLength, lesson2PartLength, lesson3PartLength,
-            lesson1Sentences, lesson2Sentences, lesson3Sentences, lesson1FirstPartLength,
-            lesson2FirstPartLength, lesson3FirstPartLength, lesson1SecondPartLength,
-            lesson2SecondPartLength, lesson3SecondPartLength
+        showCombinedSentenceForLesson22b(
+            selectedCategory, matchingIndexes3, rodzaj, matchingIndexes2,
+            buttonindex, index55, index77,
+            lessonId1, lessonId2, lessonId3, // lokalne zmienne
+            fiszki, matchingIndexes,
+            startIndex, newIndex, groupIndexDiv, // używaj groupIndexDiv zamiast ogólnego indexDiv
+            lessonsArray, lesson1PartLength, lesson2PartLength, lesson3PartLength,
+            lesson1Sentences, lesson2Sentences, lesson3Sentences,
+            lesson1FirstPartLength, lesson2FirstPartLength, lesson3FirstPartLength,
+            lesson1SecondPartLength, lesson2SecondPartLength, lesson3SecondPartLength,
+            cumulativeFirstPartLength1, cumulativeFirstPartLength2, cumulativeFirstPartLength3,
+            lessonsArrayZ, matchingLessons5, matchingLessons5b, isSearching
         );
     } catch (error) {
         console.error("Błąd w showCombinedSentenceForLesson dla grupy:", group, "Błąd:", error);
     }
-        });
+
+    // Przykład: jeśli newIndex ma zwiększać się z każdą iteracją:
+    // newIndex += lesson1PartLength + lesson2PartLength + lesson3PartLength;
+    // lub: newIndex += 1;
+});
 
         console.log('Zawartość lessonsGroups:', lessonsGroups);
         const numberOfContainers = $('.image-container3').length;
@@ -4074,7 +4111,7 @@ if (window.matchMedia("(min-width: 999px)").matches) {
             flagaPrzycisku2[0] = true;
                 flagaPrzycisku[0] = false;
                     console.log('hej110b', number, flagaPrzycisku, flagaPrzycisku2);
-                    przekazArgument0('all', 'all', '', '', false, 'fiszki', true, true, tablica3[1], tablica3[4], false, '', '', '', '', '100', '', '', '', false, true, false); 
+                    przekazArgument0('all', 'all', '', '', false, 'fiszki', true, true, tablica3[1], tablica3[4], false, '', '', '', '', '100', '', '', '', false, true, false);
         </script>
     </body>
 </html>

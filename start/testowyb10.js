@@ -967,7 +967,7 @@ const fiszki10 = [
         translate: "Ja jestem nieśmiały, ale czasami bywam odważny",
         translateb: "[Aj em szaj bat samtajms dering]",
         translateb2: "[Aj em szaj]",
-                translateb3: "I am shy but sometimes daring",
+                translateb3: "I am shy but sometimes dering",
         opis: "scena 'prawdziwego' pocałunku",
         srcWord: ["http://localhost/arbulanguage.com/filmy/lekcja2/shy.mp4", 'The Matrix Reloaded (2003)'],
         srcWord2: ["http://localhost/arbulanguage.com/filmy/procedure.mp4", "Breaking Bad"],
@@ -988,6 +988,9 @@ const fiszki10 = [
         ],
         sentence1b: [
             "Ja"
+        ],
+                sentence1c: [
+            "Aj"
         ],
         sentence: [
             "I",
@@ -1033,6 +1036,9 @@ const fiszki10 = [
         ],
                 sentence1b: [
             "jestem"
+        ],
+                        sentence1c: [
+            "em"
         ],
         sentence: [
             "I",
@@ -1080,6 +1086,9 @@ const fiszki10 = [
         ],
                         sentence1b: [
             "nieśmiały"
+        ],
+                        sentence1c: [
+            "szaj"
         ],
         sentence: [
             "I",
@@ -1130,6 +1139,9 @@ const fiszki10 = [
                                 sentence2b: [
             ", ale"
         ],
+                                        sentence2c: [
+            "bat"
+        ],
         sentence: [
             "but",
             "sometimes",
@@ -1174,6 +1186,9 @@ const fiszki10 = [
         ],
                                         sentence2b: [
             "czasami"
+        ],
+                                sentence2c: [
+            "samtajms"
         ],
         sentence: [
             "but",
@@ -1224,6 +1239,9 @@ const fiszki10 = [
             "but",
             "sometimes",
             "daring"
+        ],
+                                        sentence2c: [
+            "dering"
         ],
         key: "daring",
                 key2: ["śmiały"],
@@ -1276,6 +1294,9 @@ const fiszki10 = [
         sentence1b: [
             "(Ten)"
         ],
+                                                sentence1c: [
+            "(De)"
+        ],
         sentence: [
             "The",
             "guy",
@@ -1322,6 +1343,9 @@ const fiszki10 = [
         ],
                 sentence1b: [
             "chłopak (gościu)"
+        ],
+                                                        sentence1c: [
+            "gaj"
         ],
         sentence: [
             "The",
@@ -1370,6 +1394,9 @@ const fiszki10 = [
                         sentence1b: [
             "złapał"
         ],
+                                                                sentence1c: [
+            "kaczes"
+        ],
         sentence: [
             "The",
             "guy",
@@ -1415,8 +1442,11 @@ const fiszki10 = [
         sentence1: [
             "(the) cat"
         ],
-                                sentence2b: [
+                                sentence1b: [
             "(tego) kota"
+        ],
+                                                                        sentence1c: [
+            "de kat"
         ],
         sentence: [
             "The",
@@ -1466,6 +1496,9 @@ const fiszki10 = [
                                         sentence2b: [
             "i"
         ],
+                                                                                sentence2c: [
+            "end"
+        ],
         sentence: [
             "and",
             "hugs",
@@ -1511,6 +1544,9 @@ const fiszki10 = [
                                                 sentence2b: [
             "przytulił"
         ],
+                                                                                        sentence2c: [
+            "hags"
+        ],
         sentence: [
             "and",
             "hugs",
@@ -1547,6 +1583,9 @@ const fiszki10 = [
         ],
                                                 sentence2b: [
             "go"
+        ],
+                                                                                                sentence2c: [
+            "it"
         ],
         sentence: [
             "and",
@@ -1601,6 +1640,9 @@ const fiszki10 = [
                                                 sentence1b: [
             "Nasza"
         ],
+            sentence1c: [
+            "Aur"
+        ],
         sentence: [
             "Our",
             "school",
@@ -1648,6 +1690,9 @@ const fiszki10 = [
                                                         sentence1b: [
             "szkoła"
         ],
+                    sentence1c: [
+            "skul"
+        ],
         sentence: [
             "Our",
             "school",
@@ -1684,6 +1729,9 @@ const fiszki10 = [
         sentence1b: [
             "organizuje"
         ],
+                            sentence1c: [
+            "organajz"
+        ],
         sentence: [
             "Our",
             "school",
@@ -1715,6 +1763,9 @@ const fiszki10 = [
         ],
                 sentence2b: [
             "całkiem"
+        ],
+                                    sentence2c: [
+            "kłajt"
         ],
         sentence: [
             "quite",
@@ -1749,6 +1800,9 @@ const fiszki10 = [
                         sentence2b: [
             "interesujące (ciekawe)"
         ],
+                                            sentence2c: [
+            "interesting"
+        ],
         sentence: [
             "quite",
             "interesting",
@@ -1776,6 +1830,9 @@ const fiszki10 = [
         ],
                                 sentence2b: [
             "wydarzenie"
+        ],
+                                                    sentence2c: [
+            "iwents"
         ],
         sentence: [
             "quite",
@@ -1819,6 +1876,9 @@ const fiszki10 = [
                                         sentence1b: [
             "Moja"
         ],
+        sentence1c: [
+            "Maj"
+        ],
         sentence: [
             "My",
             "company",
@@ -1846,6 +1906,9 @@ const fiszki10 = [
         ],
                                                 sentence1b: [
             "firma"
+        ],
+                sentence1c: [
+            "kampany"
         ],
         sentence: [
             "My",
@@ -1891,6 +1954,9 @@ const fiszki10 = [
                                                         sentence1b: [
             "(jest)"
         ],
+                        sentence1c: [
+            "is"
+        ],
         sentence: [
             "My",
             "company",
@@ -1916,6 +1982,9 @@ const fiszki10 = [
         ],
                                                                 sentence2b: [
             "rozwijająca się"
+        ],
+                                sentence2c: [
+            "deweloping"
         ],
         sentence: [
             "developing",
@@ -1945,6 +2014,9 @@ const fiszki10 = [
                                                                         sentence2b: [
             "bardzo"
         ],
+                                        sentence2c: [
+            "wery"
+        ],
         sentence: [
             "developing",
             "very",
@@ -1971,6 +2043,9 @@ const fiszki10 = [
         ],
                                                                                 sentence2b: [
             "intensywnie"
+        ],
+                                                sentence2c: [
+            "intensiwli"
         ],
         sentence: [
             "developing",
@@ -2018,6 +2093,9 @@ const fiszki10 = [
                                                                                         sentence1b: [
             "Ta"
         ],
+                                                        sentence1c: [
+            "Dis"
+        ],
         sentence: [
             "This",
             "book",
@@ -2048,6 +2126,9 @@ const fiszki10 = [
                                                                                                 sentence1b: [
             "książka"
         ],
+                                                                sentence1c: [
+            "buk"
+        ],
         sentence: [
             "This",
             "book",
@@ -2072,6 +2153,9 @@ const fiszki10 = [
         ],
                                                                                                         sentence1b: [
             "należy"
+        ],
+                                                                        sentence1c: [
+            "belongs"
         ],
         sentence: [
             "This",
@@ -2110,6 +2194,9 @@ const fiszki10 = [
         ],
         sentence2b: [
             "do"
+        ],
+                                                                                sentence2c: [
+            "tu"
         ],
         sentence: [
             "to",
@@ -2154,6 +2241,9 @@ const fiszki10 = [
                 sentence2b: [
             "jego"
         ],
+                                                                                        sentence2c: [
+            "his"
+        ],
         sentence: [
             "to",
             "his",
@@ -2179,6 +2269,9 @@ const fiszki10 = [
         ],
                 sentence2b: [
             "dziadka"
+        ],
+                                                                                                sentence2c: [
+            "grandfader"
         ],
         sentence: [
             "to",
@@ -2219,6 +2312,9 @@ const fiszki10 = [
                         sentence1b: [
             "Moi"
         ],
+            sentence1c: [
+            "Maj"
+        ],
         sentence: [
             "My",
             "neighbours",
@@ -2248,6 +2344,9 @@ const fiszki10 = [
                                 sentence1b: [
             "sąsiedzi"
         ],
+                    sentence1c: [
+            "nejbours"
+        ],
         sentence: [
             "My",
             "neighbours",
@@ -2274,10 +2373,13 @@ const fiszki10 = [
         ],
         desc: "are[ar] - jest/są - gramatyka",
         sentence1: [
-            ""
+            "are"
         ],
                                         sentence1b: [
-            ""
+            "są"
+        ],
+                            sentence1c: [
+            "ar"
         ],
         sentence: [
             "My",
@@ -2299,10 +2401,13 @@ const fiszki10 = [
         story: "Ten <b><u>sel</b></u>er łatwo jest <b><u>sprzedać</b></u> na targu, a kupujący robią <b><u>g</b></u>roźne m<b><u>in</b></u>y",
         desc: "selling[seling] - sprzedają",
         sentence1: [
-            "are selling"
+            "selling"
         ],
                                         sentence1b: [
             "sprzedali"
+        ],
+                                    sentence1c: [
+            "seling"
         ],
         sentence: [
             "My",
@@ -2330,6 +2435,9 @@ const fiszki10 = [
         ],
         sentence2b: [
             "ich"
+        ],
+                                            sentence2c: [
+            "deir"
         ],
         sentence: [
             "their",
@@ -2361,6 +2469,9 @@ const fiszki10 = [
                 sentence2b: [
             "duży"
         ],
+                                                    sentence2c: [
+            "big"
+        ],
         sentence: [
             "their",
             "big",
@@ -2384,6 +2495,9 @@ const fiszki10 = [
         ],                
         sentence2b: [
             "dom"
+        ],
+                                                            sentence2c: [
+            "hałs"
         ],
         sentence: [
             "their",
@@ -2427,6 +2541,9 @@ const fiszki10 = [
                 sentence1b: [
             "Mój"
         ],
+                                                                    sentence1c: [
+            "Maj"
+        ],
         sentence: [
             "My",
             "dog",
@@ -2454,6 +2571,9 @@ const fiszki10 = [
         ],
                         sentence1b: [
             "pies"
+        ],
+                                                                            sentence1c: [
+            "dog"
         ],
         sentence: [
             "My",
@@ -2496,6 +2616,9 @@ const fiszki10 = [
                                 sentence1b: [
             "jest"
         ],
+                                                                                    sentence1c: [
+            "is"
+        ],
         sentence: [
             "My",
             "dog",
@@ -2530,6 +2653,9 @@ const fiszki10 = [
                                         sentence2b: [
             "(takim)"
         ],
+                                                                                            sentence2c: [
+            "e"
+        ],
         sentence: [
             "a",
             "good",
@@ -2554,6 +2680,9 @@ const fiszki10 = [
                                                 sentence2b: [
             "dobrym"
         ],
+                                                                                                    sentence2c: [
+            "gud"
+        ],
         sentence: [
             "a",
             "good",
@@ -2577,6 +2706,9 @@ const fiszki10 = [
         ],
                                                         sentence2b: [
             "przyjacielem"
+        ],
+                                                sentence2c: [
+            "frend"
         ],
         sentence: [
             "a",
@@ -2624,6 +2756,9 @@ const fiszki10 = [
                                                                 sentence1b: [
             "(Ten)"
         ],
+                                                        sentence1c: [
+            "De"
+        ],
         sentence: [
             "The",
             "teacher",
@@ -2655,6 +2790,9 @@ const fiszki10 = [
                                                                         sentence1b: [
             "nauczyciel"
         ],
+                                                                sentence1c: [
+            "ticzer"
+        ],
         sentence: [
             "The",
             "teacher",
@@ -2681,6 +2819,9 @@ const fiszki10 = [
         ],
         sentence1b: [
             "stara się"
+        ],
+                                                                        sentence1c: [
+            "trajs"
         ],
         sentence: [
             "The",
@@ -2720,6 +2861,9 @@ const fiszki10 = [
                 sentence2b: [
             "żeby"
         ],
+                                                                                sentence2c: [
+            "tu"
+        ],
         sentence: [
             "to",
             "help",
@@ -2750,6 +2894,9 @@ const fiszki10 = [
                         sentence2b: [
             "pomóc"
         ],
+                                                                                        sentence2c: [
+            "help"
+        ],
         sentence: [
             "to",
             "help",
@@ -2773,6 +2920,9 @@ const fiszki10 = [
         ],
                                 sentence2b: [
             "nam"
+        ],
+                                                                                                sentence2c: [
+            "as"
         ],
         sentence: [
             "to",
@@ -2820,6 +2970,9 @@ const fiszki10 = [
         sentence1b: [
             "Twoi"
         ],
+                                                                                                        sentence1c: [
+            "Jor"
+        ],
         sentence: [
             "Your",
             "parents",
@@ -2851,6 +3004,9 @@ const fiszki10 = [
                 sentence1b: [
             "rodzice"
         ],
+                                                                                                                sentence1c: [
+            "parents"
+        ],
         sentence: [
             "Your",
             "parents",
@@ -2875,6 +3031,9 @@ const fiszki10 = [
         ],
                 sentence1b: [
             "wydają się"
+        ],
+                                                                                                                        sentence1c: [
+            "sim"
         ],
         sentence: [
             "Your",
@@ -2918,12 +3077,15 @@ const fiszki10 = [
             "<u><b>Być</u></b> <u><b>bi</u></b>ednym to nie to samo co być początkującym milionerem",
             "<u><b>Bi</u></b>lion dollarów musi <u><b>być</u></b> dużą kwotą"
         ],
-        desc: "to[tu] - do, ku",
+        desc: "to be[tu bi] - do, ku",
         sentence2: [
             "to be"
         ],
                         sentence2b: [
             "być"
+        ],
+                                                                                                                                sentence2c: [
+            "tu bi"
         ],
         sentence: [
             "to be",
@@ -2959,6 +3121,9 @@ const fiszki10 = [
         ],
                                 sentence2b: [
             "przyjaźni"
+        ],
+                                                                                                                                        sentence2c: [
+            "frendli"
         ],
         sentence: [
             "to",
@@ -3005,6 +3170,9 @@ const fiszki10 = [
                                         sentence1b: [
             "(Te)"
         ],
+                                                                                                                                                sentence1c: [
+            "De"
+        ],
         sentence: [
             "The",
             "dogs",
@@ -3043,6 +3211,9 @@ const fiszki10 = [
                                                 sentence1b: [
             "psy"
         ],
+                                    sentence1c: [
+            "dogs"
+        ],
         sentence: [
             "The",
             "dogs",
@@ -3071,6 +3242,9 @@ const fiszki10 = [
                                                         sentence1b: [
             "mogą"
         ],
+                                            sentence1c: [
+            "ken"
+        ],
         sentence: [
             "The",
             "dogs",
@@ -3097,6 +3271,9 @@ const fiszki10 = [
         sentence2b: [
             "biec"
         ],
+                                                    sentence2c: [
+            "ran"
+        ],
         sentence: [
             "run",
             "really",
@@ -3121,6 +3298,9 @@ const fiszki10 = [
                 sentence2b: [
             "naprawdę"
         ],
+                                                            sentence2c: [
+            "rily"
+        ],
         sentence: [
             "run",
             "really",
@@ -3144,6 +3324,9 @@ const fiszki10 = [
         ],        
         sentence2b: [
             "szybko"
+        ],
+                                                                    sentence2c: [
+            "fast"
         ],
         sentence: [
             "run",
@@ -3191,6 +3374,9 @@ const fiszki10 = [
                 sentence1b: [
             "Ta"
         ],
+                                                                            sentence1c: [
+            "Dis"
+        ],
         sentence: [
             "This",
             "edition",
@@ -3221,6 +3407,9 @@ const fiszki10 = [
                         sentence1b: [
             "edycja"
         ],
+                                                                                    sentence1c: [
+            "ediszyn"
+        ],
         sentence: [
             "This",
             "edition",
@@ -3245,6 +3434,9 @@ const fiszki10 = [
         ],
                                 sentence1b: [
             "traci ważność"
+        ],
+                                                                                            sentence1c: [
+            "ikspajers"
         ],
         sentence: [
             "This",
@@ -3283,6 +3475,9 @@ const fiszki10 = [
                                         sentence2b: [
             "w tym"
         ],
+                                                                                                    sentence2c: [
+            "dis"
+        ],
         sentence: [
             "this",
             "week"
@@ -3314,6 +3509,9 @@ const fiszki10 = [
         ],
                                                 sentence2b: [
             "tygodniu"
+        ],
+                                                                                                            sentence2c: [
+            "łik"
         ],
         sentence: [
             "this",
@@ -3355,6 +3553,9 @@ const fiszki10 = [
         ],
                                                         sentence1b: [
             "On"
+        ],
+                                                                                                                    sentence1c: [
+            "Hi"
         ],
         sentence: [
             "He",
@@ -3399,6 +3600,9 @@ const fiszki10 = [
                                                                 sentence1b: [
             "ma"
         ],
+                                                                                                                            sentence1c: [
+            "hes"
+        ],
         sentence: [
             "He",
             "has",
@@ -3430,6 +3634,9 @@ const fiszki10 = [
           sentence1b: [
             "szeroki"
         ],
+                                                                                                                                    sentence1c: [
+            "łajd"
+        ],
         sentence: [
             "He",
             "has",
@@ -3453,6 +3660,9 @@ const fiszki10 = [
         ],
                   sentence2b: [
             "zakres"
+        ],
+                    sentence2c: [
+            "reindź"
         ],
         sentence: [
             "range",
@@ -3484,6 +3694,9 @@ const fiszki10 = [
                           sentence2b: [
             "(tego swojego)"
         ],
+                            sentence2c: [
+            "of"
+        ],
         sentence: [
             "range",
             "of",
@@ -3503,13 +3716,16 @@ const fiszki10 = [
             30
         ],
         img: "http://localhost/arbulanguage.com/img/fiszki1/90a.jpg",
-        story: "Bra<b><u>wo</b></u>, szerokie <b><u>słownictwo</b></u>, <b><u>ka</b></u>żdy szczegół wystąpienia dopracowany na temat <b><u>ból</b></u>ów kręgosłupa, brawo dla tej p<b><u>ary</b></u>",
-        desc: "vocabulary[wokabulary] - słownictwo",
+        story: "Bra<b><u>wo</b></u>, <b><u>ł</b></u>adne, szerokie <b><u>słownictwo</b></u>, <b><u>ka</b></u>żdy szczegół wystąpienia dopracowany na temat pracy <b><u>biu</b></u>rowej - tak żeby póżniej nie bolały p<b><u>lery</b></u> (plecy)",
+        desc: "vocabulary[wołkabiulery] - słownictwo",
         sentence2: [
             "vocabulary"
         ],
                                   sentence2b: [
             "słownictwa"
+        ],
+                                    sentence2c: [
+            "wołkabiulery"
         ],
         sentence: [
             "range",
@@ -3556,6 +3772,9 @@ const fiszki10 = [
                                           sentence1b: [
             "On"
         ],
+                                            sentence1c: [
+            "Hi"
+        ],
         sentence: [
             "He",
             "dares to"
@@ -3592,9 +3811,12 @@ const fiszki10 = [
                                                   sentence1b: [
             "odważył się"
         ],
+                                                    sentence1c: [
+            "ders tu"
+        ],
         sentence: [
             "He",
-            "dares"
+            "dares to"
         ],
         key: "dares to",
         category1: [
@@ -3619,6 +3841,9 @@ const fiszki10 = [
         sentence2b: [
             "podejść do"
         ],
+                                                            sentence2c: [
+            "eprołcz"
+        ],
         sentence: [
             "approach",
             "her"
@@ -3641,6 +3866,9 @@ const fiszki10 = [
         ],
                 sentence2b: [
             "niej"
+        ],
+                                                                    sentence2c: [
+            "her"
         ],
         sentence: [
             "approach",
@@ -3670,6 +3898,9 @@ const fiszki10 = [
         ],        
         sentence1b: [
             "Ona"
+        ],
+                                                                            sentence1c: [
+            "Szi"
         ],
         sentence: [
             "She",
@@ -3712,6 +3943,9 @@ const fiszki10 = [
                 sentence1b: [
             "jest"
         ],
+                                                                                    sentence1c: [
+            "is"
+        ],
         sentence: [
             "She",
             "is",
@@ -3744,6 +3978,9 @@ const fiszki10 = [
         ],
                         sentence1b: [
             "przywiązana"
+        ],
+                                                                                            sentence1c: [
+            "ataczt"
         ],
         sentence: [
             "She",
@@ -3782,6 +4019,9 @@ const fiszki10 = [
                                 sentence2b: [
             "do"
         ],
+                                                                                                    sentence2c: [
+            "tu"
+        ],
         sentence: [
             "to",
             "her",
@@ -3813,6 +4053,9 @@ const fiszki10 = [
         ],
                                         sentence2b: [
             "swojego (jej)"
+        ],
+                                                                                                            sentence2c: [
+            "her"
         ],
         sentence: [
             "to",

@@ -2206,9 +2206,9 @@ id: [
         translateb: "[Hi rans in de park dejli]",
         translateb2: "[Hi rans in de park dejli]",
         translateb3: "He runs in the park daily",
-        srcWord: ["http://localhost/arbulanguage.com/filmy/lekcja20/running2.mp4", "Adrenalina (2009)"],
-        srcWord2: ["http://localhost/arbulanguage.com/filmy/running2.mp4", "Breaking Bad"],
-        srcWordimage: "http://localhost/arbulanguage.com/filmy/lekcja20/procedure.png",
+        srcWord: ["http://localhost/arbulanguage.com/filmy/lekcja20/running.mp4", "Forrest Gump (1994)"],
+        srcWord2: ["http://localhost/arbulanguage.com/filmy/running.mp4", "Breaking Bad"],
+        srcWordimage: "http://localhost/arbulanguage.com/filmy/lekcja20/running.png",
         word: [
                 "http://localhost/arbulanguage.com/voice/bike.mp4"
         ],
