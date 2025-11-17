@@ -3888,7 +3888,7 @@ const fiszki10_part5 = [
                 alt: "Wygenerowane przez AI."
             },
             story: {
-                text: "W ten wie<b><u>czór</b></u> gramy w pokera. Fotograf robi <b><u>zdjęcia</b></u>. Na spoktaniu mam kartę <b><u>pik</b></u>",
+                text: "W ten wie<b><u>czór</b></u> gramy w pokera. Fotograf robi <b><u>zdjęcia</b></u>. Na spotkaniu mam kartę <b><u>pik</b></u>",
                 alt: ""
             },
             category: ["piłka nożna", "technika"]

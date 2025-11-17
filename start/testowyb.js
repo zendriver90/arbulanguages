@@ -2305,7 +2305,7 @@ const fiszki10_part1 = [
         {
             id: 5,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/26e.jpg",
+                src: "https://www.arbulang.com/img/fiszki1/26ee.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -21033,7 +21033,8 @@ const fiszki10 = [
   ...fiszki10_part1,
   ...fiszki10_part5,
     ...fiszki10_part6,
-      ...fiszki10_part7
+      ...fiszki10_part7,
+            ...fiszki10_part8
 ];
 let totalTrainingFiszkaCount = 0;
   let trainingFiszkaCount = 0;

@@ -2,7 +2,8 @@ const fiszki10 = [
   ...fiszki10_part1,
   ...fiszki10_part5,
     ...fiszki10_part6,
-      ...fiszki10_part7
+      ...fiszki10_part7,
+            ...fiszki10_part8
 ];
 let totalTrainingFiszkaCount = 0;
   let trainingFiszkaCount = 0;

@@ -27,6 +27,15 @@
         <meta name="keywords" content="naucz się angielskiego, 1000 angielskich słów, szybka nauka angielskiego, jak nauczyć się angielskiego, jak szybko nauczyć się języka, nauka angielskiego z przyjemnością" />
         <style>
             @media (min-width: 999px) {
+                .big-video-desc {
+    margin-top: 8px;
+    font-size: 16px;
+    color: white;
+    background: rgba(0,0,0,0.45);
+    padding: 6px 10px;
+    border-radius: 8px;
+    text-align: center;
+}
                 .thumb-wrapper {
   display: flex;
   align-items: center;
@@ -62,10 +71,6 @@
   transform: scale(1.1);
 }
 
-.thumb-item {
-  flex-shrink: 0;
-  text-align: center;
-}
 
 .thumb-img {
   width: 80px;
@@ -1097,6 +1102,13 @@ span.highlight {
 }
             }
             @media (max-width: 999px) {
+
+                    .search-container {
+        width: 100%;
+        margin: 0 auto; /* wyśrodkowanie kontenera */
+        padding: 10px;
+        box-sizing: border-box;
+    }
                 .overlay-button {
                     position: absolute;
                     z-index: 1000;
@@ -1121,6 +1133,7 @@ span.highlight {
 
                 .grid-container {
                     display: grid;
+                                        max-width: 100%;
                     box-sizing: border-box; /* Ustawienie box-sizing */
                     grid-template-columns: repeat(2, 1fr);
                     gap: 3px; /* Można dostosować zgodnie z potrzebami */
@@ -1390,17 +1403,19 @@ input {
     width: 100%;
     z-index: 9999;
 }
-                .image-container3b {
-                    display: flex;
-                    flex-direction: column;
-                    justify-content: center;
-                    background-color: blue;
-                    position: relative;
-                    box-sizing: border-box;
-                    align-items: center;
-                    font-size: 20px;
-                    z-index: 10000
-}
+    .image-container3b {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        max-width: 100%;
+        box-sizing: border-box;
+        background-color: blue;
+        font-size: 16px;
+        z-index: 10000;
+        overflow: visible !important;
+    }
                 .run-button4 {
     position: absolute;
     z-index: 99999;
@@ -2070,6 +2085,120 @@ input {
     padding: 10px 15px;
     font-size: 16px;
   }
+.media-container {
+    position: relative;
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.preview-img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+/* wrapper dla miniatur i strzałek */
+.thumb-wrapper {
+    position: relative; /* kontekst dla strzałek */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+/* rząd miniatur */
+.thumb-row {
+    display: flex;
+    gap: 10px;
+    overflow-x: auto;
+    padding: 5px 0;
+    scroll-behavior: smooth;
+    flex: 1;
+    position: relative;
+    z-index: 100; /* miniatury nad strzałkami */
+}
+
+/* pojedyńcza miniatura */
+.thumb-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+    width: 40px;
+}
+
+.thumb-item.activeItem .thumb-img {
+    border: 2px solid #00b300; /* podświetlenie aktywnej miniatury */
+}
+
+/* miniatury */
+.thumb-img {
+    width: 50px;
+    height: auto;
+    border-radius: 10px;
+    object-fit: cover;
+    cursor: pointer;
+    transition: transform 0.2s ease;
+}
+
+/* opis pod miniaturą */
+.thumb-desc {
+    font-size: 12px;
+    text-align: center;
+    margin-top: 2px;
+}
+
+/* link pod miniaturą */
+.thumb-link {
+    display: block;
+    font-size: 11px;
+    text-align: center;
+    margin-top: 2px;
+    text-decoration: none;
+    color: #007bff;
+}
+
+/* strzałki */
+.thumb-arrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    border: none;
+    border-radius: 50%;
+    height: 20px;
+    width: 20px;
+    font-size: 10px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    background-color: rgba(255,255,255,0.8);
+    box-shadow: 0 0 5px rgba(0,0,0,0.2);
+    z-index: 50; /* pod miniaturami */
+}
+
+.thumb-arrow:hover {
+    background-color: #ddd;
+    transform: translateY(-50%) scale(1.1);
+}
+
+/* lewa strzałka */
+.left-arrow {
+    left: 0px;
+}
+
+/* prawa strzałka */
+.right-arrow {
+    right: 0px;
+}
+
+/* scroll bez pasków */
+.thumb-row::-webkit-scrollbar {
+    display: none;
+}
+.thumb-row {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+}
             }
 </style>
 </head>
@@ -2134,18 +2263,7 @@ input {
                 <p id="key3Result"></p>
                 <button class="left-button2">+<br></button>TE LEKCJE MAJĄ DOSTĘPNE SKOJARZENIA W WIĘKSZYM ZAKRESIE TEMATÓW (DZIAŁA)
 <div class="user-cards" data-user-cards-container></div>
-                <div id="category-buttons">
-  <button class="category-btn5" data-category="wszystkie"
-    onclick="przekazArgument0(tablica7[0], tablica3[2], '', false, 'fiszki', true, true, tablica3[1], 'other', false, '', '', '', '', 100)">
-    Wszystkie
-  </button>
-  <button class="category-btn" data-category="all">Losowo</button>
-  <button class="category-btn" data-category="sport">Sport</button>
-  <button class="category-btn" data-category="natura">Natura</button>
-  <button class="category-btn" data-category="nauka">Nauka</button>
-  <button class="category-btn" data-category="czarny humor">Czarny humor</button>
-  <button class="category-btn" data-category="zwiazki">Związki</button>
-</div>
+
 
 <template data-user-template>
     <div class="card">

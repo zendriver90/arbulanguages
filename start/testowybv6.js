@@ -2951,7 +2951,7 @@ const fiszki10_part6 = [
                 alt: "Wygenerowane przez AI."
             },
             story: {
-                text: "Nauczyciel <u><b>kła</u></b>dzie duży nacisk, ze w klasie było <u><b>cicho</u></b> i <u><b>je</u></b>st cicho. Ta m<u><b>et</u></b>ododa jest dobra.",
+                text: "Nauczyciel <u><b>kła</u></b>dzie duży nacisk, ze w klasie było <u><b>cicho</u></b> i <u><b>je</u></b>st cicho. Ta m<u><b>et</u></b>ododa jest dobra",
                 alt: ""
             },
             category: ["", ""]
@@ -3763,12 +3763,20 @@ const fiszki10_part6 = [
             96,
             172
         ],
-        img: [
-            "https://www.arbulang.com/img/fiszki1/364a.jpg"
-        ],
-        story: [
-            "W <u><b>raj</u></b>u gdzie <u><b>wznoszą się</u></b> posągi aniołów - ktoś naprawdę się <u><b>zes</u></b>tarzeje"
-        ],
+            entries: [
+        {
+            id: 1,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/579a.jpg",
+                alt: "Wygenerowane przez AI."
+            },
+            story: {
+                text: "W <u><b>raj</u></b>u gdzie <u><b>wznoszą się</u></b> posągi aniołów - ktoś naprawdę się <u><b>zes</u></b>tarzeje",
+                alt: ""
+            },
+            category: ["piłka nożna", "technika"]
+        }
+            ],
         desc: "rises[rajzes] - wznosi się",
         sentence2: [
             "rises"
@@ -3788,12 +3796,20 @@ const fiszki10_part6 = [
             96,
             173
         ],
-        img: [
-            "https://www.arbulang.com/img/fiszki1/364a.jpg"
-        ],
-        story: [
-            "Niosę <u><b>ponad</u></b> mną r<u><b>ower</u></b>, <u><b>ołł</u></b> ale ciężki"
-        ],
+            entries: [
+        {
+            id: 1,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/580a.jpg",
+                alt: "Wygenerowane przez AI."
+            },
+            story: {
+                text: "Niosę <u><b>ponad</u></b> mną r<u><b>ower</u></b>, <u><b>ołł</u></b> ale ciężki",
+                alt: ""
+            },
+            category: ["piłka nożna", "technika"]
+        }
+            ],
         desc: "over[ołwer] - ponad",
         sentence2: [
             "over"
@@ -3812,13 +3828,72 @@ const fiszki10_part6 = [
             96,
             173
         ],
-        img: [
-            "https://www.arbulang.com/img/fiszki1/364a.jpg"
+    entries: [
+        {
+            id: 1,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/5a.jpg",
+                alt: "Piłki koszykarskie. Wygenerowane przez AI."
+            },
+            story: {
+                text: 'Piłki do gry w kosza są twar<span class="adannotation" data-annotation="1"><u><b>de</u></b></span>. Sam ten sport <u><b>to</u></b> twarda gra',
+                alt: "Sport i przedmioty do sportu. Czy piłka do koszykówki jest twarda?"
+            },
+            category: ["sport", "koszykówka"]
+        },
+        {
+            id: 2,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/5b.jpg",
+                alt: "Deptak dla mieszkańców. Wygenerowane przez AI."
+            },
+            story: {
+                text: 'Na tym <span class="adannotation" data-annotation="1"><u><b>de</u></b></span>ptaku jest sporo drzewek, <u><b>to</u></b> urocze miejsce',
+                alt: "Miejsce do spacerowania. Czy na deptaku zazwyczaj rosną drzewka?"
+            },
+             category: ["natura", "czas wolny"]
+        },
+        {
+            id: 3,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/5c.jpg",
+                alt: "Politycy na posiedzeniu. Wygenerowane przez AI."
+            },
+            story: {
+                text: '<u><b>To</u></b> ten <span class="adannotation" data-annotation="1"><u><b>De</u></b></span>partament Stanu prowadzi badania nad społecznym problemem',
+                alt: "Insytucje rządowe w służbie ludziom. Czy państwo pomaga w rozwiązywaniu problemów społecznych?"
+            },
+           category: ["nauka", "rząd"]
+        },
+        {
+            id: 4,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/5d.jpg",
+                alt: "Wystąpienia polityków. Wygenerowane przez AI."
+            },
+            story: {
+                text: 'Czasami politycy stosują <span class="adannotation" data-annotation="1"><u><b>de</u></b></span>magogię. Czyli co stosują? <u><b>Tę</u></b> <span class="adannotation" data-annotation="1"><u><b>de</u></b></span>magogię',
+                alt: "Polityka i sztuka rozmawiania. Czy politycy przekonują etycznie?"
+            },
+            category: ["czarny humor", "polityka"]
+        },
+        {
+            id: 5,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/5e.jpg",
+                alt: "Zasady w rodzinie. Wygenerowane przez AI."
+            },
+            story: {
+                text: '<u><b>To</u></b> co w naszej rodzinie istnieje to <span class="adannotation" data-annotation="1"><u><b>de</u></b></span>mokracja',
+                alt: "Życie rodzinne i więź rodzinna. Czy w rodzinie może istnieć demokracja?"
+            },
+            category: ["związki", "rodzina"]
+        }
+    ],
+        word: [
+            "https://www.arbulang.com/src/the.wav"
         ],
-        story: [
-            ""
-        ],
-        desc: "the[] - ",
+        desc: "TRUDNOŚĆ JĘZYKOWA: the[de]-33%, [ze]-33%, [d-ze]-33% - ta",
         sentence2: [
             "the"
         ],
@@ -3837,12 +3912,20 @@ const fiszki10_part6 = [
             96,
             173
         ],
-        img: [
-            "https://www.arbulang.com/img/fiszki1/582a.jpg"
-        ],
-        story: [
-            "Pan <u><b>Hil</u></b>ary w okularach wchodzi na <u><b>wzgórze</u></b>, słońce <u><b>chyl</u></b>i się ku zachodowi"
-        ],
+            entries: [
+        {
+            id: 1,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/582a.jpg",
+                alt: "Wygenerowane przez AI."
+            },
+            story: {
+                text: "Pan <u><b>Hil</u></b>ary w okularach wchodzi na <u><b>wzgórze</u></b>, słońce <u><b>chyl</u></b>i się ku zachodowi",
+                alt: ""
+            },
+            category: ["piłka nożna", "technika"]
+        }
+            ],
         desc: "hill[hil, hyl] - wzgórze",
         sentence2: [
             "hill"
@@ -3862,13 +3945,20 @@ const fiszki10_part6 = [
             97,
             174
         ],
-        img: [
-            "https://www.arbulang.com/img/fiszki1/7a.jpg",
-            "https://www.arbulang.com/img/fiszki1/7b.jpg",
-            "https://www.arbulang.com/img/fiszki1/7c.jpg",
-            "https://www.arbulang.com/img/fiszki1/7d.jpg",
-            "https://www.arbulang.com/img/fiszki1/7e.jpg"
-        ],
+            entries: [
+        {
+            id: 1,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/76a.jpg",
+                alt: "Wygenerowane przez AI."
+            },
+            story: {
+                text: "W <b><u>Ken</b></u>ii każdy <b><u>może</b></u> ubierać się na ciepłą pogodę",
+                alt: ""
+            },
+            category: ["kraje", "klimat"]
+        }
+            ],
         translate: "",
         translateb: "[]",
         translateb2: "[]",
@@ -3878,13 +3968,13 @@ const fiszki10_part6 = [
             "https://www.arbulang.com/voice/bike.mp4"
         ],
         story: "<u><b>Ona</u></b> - Patrycja ma ri<u><b>szi</u></b> to naturalny antyoksydant",
-        desc: "the[] - niebieski/niebieskie",
+        desc: "can[ken] - może",
         sentence1: [
-            "The"
+            "Can"
         ],
         sentence: [
             "Can",
-            "she",
+            "he",
             "open"
         ],
         key: "can",
@@ -3897,19 +3987,75 @@ const fiszki10_part6 = [
             97,
             174
         ],
-        img: [
-            "https://www.arbulang.com/img/fiszki1/364a.jpg"
-        ],
-        story: [
-            ""
-        ],
-        desc: "she[] - ",
+    entries: [
+        {
+            id: 1,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/7a.jpg",
+                alt: "Gracz Rugby. Wygenerowane przez AI."
+            },
+            story: {
+                text: 'To właśnie <u><b>on</u></b> jest <span class="adannotation" data-annotation="1"><b><u>hi</b></u></span>tem tego sezonu piłkarskiego',
+                alt: "Niesamowite wydarzenie w SuperLidze. Jak się plasuje nasza drużyna w tabeli?"
+            },
+            category: ["sport", "piłka nożna"]
+        },
+        {
+            id: 2,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/7b.jpg",
+                alt: "Hipopotam w wodzie. Wygenerowane przez AI."
+            },
+            story: {
+                text: 'Samiec czyli <u><b>on</u></b> - <span class="adannotation" data-annotation="1"><b><u>hi</b></u></span>popotam',
+               alt: "Życie hipopotamów. Czy samiec hipopotama jest groźniejszy czy samica?"
+            },
+             category: ["natura", "zoologia"]
+        },
+        {
+            id: 3,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/7c.jpg",
+                alt: "Loty balonowe. Wygenerowane przez AI."
+            },
+            story: {
+                text: '<u><b>On</b></u> - <span class="adannotation" data-annotation="1"><u><b>Hi</b></u></span>eronim odleciał balonem',
+                alt: "Loty balonowe. Jak daleko można podróżować balonem?"
+            },
+           category: ["nauka", "czas wolny"]
+        },
+        {
+            id: 4,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/7d.jpg",
+                alt: "Wygenerowane przez AI."
+            },
+            story: {
+                text: 'Ma<span class="adannotation" data-annotation="1"><u><b>chi</u></b></span>nę do tortur wymyślił <u><b>on</u></b> - jest <span class="adannotation" data-annotation="1"><u><b>Hi</u></b></span>ndusem',
+                alt: "Starodawne metody przesłuchań. Gdzie wymyślono tortury?"
+            },
+            category: ["czarny humor", "historia"]
+        },
+        {
+            id: 5,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/7e.jpg",
+                alt: "Smakowanie przysmaków. Wygenerowane przez AI."
+            },
+            story: {
+                text: '<u><b>On</u></b> je ciastka <span class="adannotation" data-annotation="1"><u><b>hi</u></b></span>ty',
+               alt: "Kulinaria i przysmaki. Jakie są najlepsze ciastka?"
+            },
+            category: ["związki", "kulinaria"]
+        }
+    ],
+        desc: "he[hi] - on",
         sentence2: [
-            "she"
+            "he"
         ],
         sentence: [
             "Can",
-            "she",
+            "he",
             "open"
         ],
         key: "she",
@@ -3922,19 +4068,27 @@ const fiszki10_part6 = [
             97,
             174
         ],
-        img: [
-            "https://www.arbulang.com/img/fiszki1/364a.jpg"
-        ],
-        story: [
-            "<u><b>Ołł</u></b> <u><b>pen</u></b>tagon otwiera nowy wydział detektywistyczny"
-        ],
-        desc: "open[ołpen] - ",
+            entries: [
+        {
+            id: 1,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/76a.jpg",
+                alt: "Wygenerowane przez AI."
+            },
+            story: {
+                text: "<u><b>Ołł</u></b> <u><b>pen</u></b>tagon otwiera nowy wydział detektywistyczny",
+                alt: ""
+            },
+            category: ["kraje", "klimat"]
+        }
+            ],
+        desc: "open[ołpen] - otworzyć",
         sentence2: [
             "open"
         ],
         sentence: [
             "Can",
-            "she",
+            "he",
             "open"
         ],
         key: "open",
@@ -3947,13 +4101,69 @@ const fiszki10_part6 = [
             97,
             175
         ],
-        img: [
-            "https://www.arbulang.com/img/fiszki1/364a.jpg"
-        ],
-        story: [
-            ""
-        ],
-        desc: "the[] - ",
+    entries: [
+        {
+            id: 1,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/5a.jpg",
+                alt: "Piłki koszykarskie. Wygenerowane przez AI."
+            },
+            story: {
+                text: 'Piłki do gry w kosza są twar<span class="adannotation" data-annotation="1"><u><b>de</u></b></span>. Sam ten sport <u><b>to</u></b> twarda gra',
+                alt: "Sport i przedmioty do sportu. Czy piłka do koszykówki jest twarda?"
+            },
+            category: ["sport", "koszykówka"]
+        },
+        {
+            id: 2,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/5b.jpg",
+                alt: "Deptak dla mieszkańców. Wygenerowane przez AI."
+            },
+            story: {
+                text: 'Na tym <span class="adannotation" data-annotation="1"><u><b>de</u></b></span>ptaku jest sporo drzewek, <u><b>to</u></b> urocze miejsce',
+                alt: "Miejsce do spacerowania. Czy na deptaku zazwyczaj rosną drzewka?"
+            },
+             category: ["natura", "czas wolny"]
+        },
+        {
+            id: 3,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/5c.jpg",
+                alt: "Politycy na posiedzeniu. Wygenerowane przez AI."
+            },
+            story: {
+                text: '<u><b>To</u></b> ten <span class="adannotation" data-annotation="1"><u><b>De</u></b></span>partament Stanu prowadzi badania nad społecznym problemem',
+                alt: "Insytucje rządowe w służbie ludziom. Czy państwo pomaga w rozwiązywaniu problemów społecznych?"
+            },
+           category: ["nauka", "rząd"]
+        },
+        {
+            id: 4,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/5d.jpg",
+                alt: "Wystąpienia polityków. Wygenerowane przez AI."
+            },
+            story: {
+                text: 'Czasami politycy stosują <span class="adannotation" data-annotation="1"><u><b>de</u></b></span>magogię. Czyli co stosują? <u><b>Tę</u></b> <span class="adannotation" data-annotation="1"><u><b>de</u></b></span>magogię',
+                alt: "Polityka i sztuka rozmawiania. Czy politycy przekonują etycznie?"
+            },
+            category: ["czarny humor", "polityka"]
+        },
+        {
+            id: 5,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/5e.jpg",
+                alt: "Zasady w rodzinie. Wygenerowane przez AI."
+            },
+            story: {
+                text: '<u><b>To</u></b> co w naszej rodzinie istnieje to <span class="adannotation" data-annotation="1"><u><b>de</u></b></span>mokracja',
+                alt: "Życie rodzinne i więź rodzinna. Czy w rodzinie może istnieć demokracja?"
+            },
+            category: ["związki", "rodzina"]
+        }
+    ],
+        desc: "TRUDNOŚĆ JĘZYKOWA: the[de]-33%, [ze]-33%, [d-ze]-33% - ta",
         sentence2: [
             "the"
         ],
@@ -3972,12 +4182,20 @@ const fiszki10_part6 = [
             97,
             175
         ],
-        img: [
-            "https://www.arbulang.com/img/fiszki1/364a.jpg"
-        ],
-        story: [
-            "Super jest ten mały silnik. Ma moc kilku moli"
-        ],
+            entries: [
+        {
+            id: 1,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/587a.jpg",
+                alt: "Wygenerowane przez AI."
+            },
+            story: {
+                text: "Super jest ten mały silnik. Ma moc kilku moli",
+                alt: ""
+            },
+            category: ["kraje", "klimat"]
+        }
+            ],
         desc: "small[smol] - mały",
         sentence2: [
             "small"
@@ -4056,13 +4274,68 @@ const fiszki10_part6 = [
             98,
             176
         ],
-        img: [
-            "https://www.arbulang.com/img/fiszki1/7a.jpg",
-            "https://www.arbulang.com/img/fiszki1/7b.jpg",
-            "https://www.arbulang.com/img/fiszki1/7c.jpg",
-            "https://www.arbulang.com/img/fiszki1/7d.jpg",
-            "https://www.arbulang.com/img/fiszki1/7e.jpg"
-        ],
+    entries: [
+        {
+            id: 1,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/28aa.jpg",
+                alt: "Kot na łodzi. Wygenerowane przez AI."
+            },
+            story: {
+                text: "Na mojej łodzi <u><b>kat</u></b>amaran <u><b>kot</u></b> pomaga mi wiosłować",
+                alt: "Wyobraźnia w tworzeniu historii. Czy w mojej opowieści kot może mówić?"
+            },
+            category: ["sport", "humor"]
+        },
+        {
+            id: 2,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/28bb.jpg",
+                alt: "Kot na spacerze. Wygenerowane przez AI."
+            },
+            story: {
+                text: "<u><b>Kat</u></b>arzyna idzie na spacer z <u><b>kotem</u></b>",
+                alt: "Spacer z kotem. Czy kota można wyprowadzać na spacer/"
+            },
+             category: ["natura", "czas wolny"]
+        },
+        {
+            id: 3,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/28cc.jpg",
+                alt: "Kot w egzotycznym kraju. Wygenerowane przez AI."
+            },
+            story: {
+                text: "W państwie <u><b>Kat</u></b>ar, <u><b>kot</u></b> ma szczególne uznanie wśród ludzi",
+                alt: "Traktowanie kotów. Gdzie koty są dobrze traktowane?"
+            },
+           category: ["nauka", "miasta"]
+        },
+        {
+            id: 4,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/28dd.jpg",
+                alt: "Kot rozciągający się. Wygenerowane przez AI."
+            },
+            story: {
+                text: "Ten <u><b>kot</u></b> to <u><b>kat</u></b>astrofa",
+                alt: "Zadowolenie ze zwierzęcia domowego. Czy kot może się nauczyć z nami komunikować?"
+            },
+            category: ["czarny humor", "zwierzęta"]
+        },
+        {
+            id: 5,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/28ee.jpg",
+                alt: "Moje zdjęcie z kotem. Wygenerowane przez AI."
+            },
+            story: {
+                text: "W <u><b>kat</u></b>egori zwierząt moja dziewczyna lubi najbardziej <u><b>koty</u></b>",
+                alt: "Upodobania do zwierząt w życiu pary. Czy kot może poprawić nastrój parze?"
+            },
+            category: ["związki", "zwierzęta domowe"]
+        }
+    ],
         translate: "",
         translateb: "[]",
         translateb2: "[]",
@@ -4071,8 +4344,7 @@ const fiszki10_part6 = [
         word: [
             "https://www.arbulang.com/voice/bike.mp4"
         ],
-        story: "<u><b>Ona</u></b> - Patrycja ma ri<u><b>szi</u></b> to naturalny antyoksydant",
-        desc: "the[] - niebieski/niebieskie",
+        desc: "{the) cat[kat] - kot",
         sentence1: [
             "The cat"
         ],
@@ -4122,12 +4394,20 @@ const fiszki10_part6 = [
             98,
             177
         ],
-        img: [
-            "https://www.arbulang.com/img/fiszki1/591a.jpg"
-        ],
-        story: [
-            "<u><b>Dża</u></b>ga wyskoczyła z k<u><b>amp</u></b>era kiedy przyszli fani"
-        ],
+            entries: [
+        {
+            id: 1,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/591a.jpg",
+                alt: "Wygenerowane przez AI."
+            },
+            story: {
+                text: "<u><b>Dża</u></b>ga wyskoczyła z k<u><b>amp</u></b>era kiedy przyszli fani",
+                alt: ""
+            },
+            category: ["kraje", "klimat"]
+        }
+            ],
         desc: "jump[dżamp] - skakać, skoczyć",
         sentence2: [
             "jump"
@@ -4146,11 +4426,22 @@ const fiszki10_part6 = [
             98,
             177
         ],
-        img: [
-            "https://www.arbulang.com/img/fiszki1/364a.jpg"
-        ],
+            entries: [
+        {
+            id: 1,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/144a.jpg",
+                alt: "Wygenerowane przez AI."
+            },
+            story: {
+                text: "Lider i jego żona ma<b><u>chaj</b></u>ą <b><u>wysoko</b></u> rękoma i wszystkich pozdrawiają. Są w telewizji więc ilość osób go oglądająca jest <b><u>duża</b></u>",
+                alt: ""
+            },
+            category: ["kraje", "klimat"]
+        }
+            ],
         story: [
-            "Super jest ten mały silnik. Ma moc kilku moli"
+            ""
         ],
         desc: "high[haj] - wysoko",
         sentence2: [
@@ -4170,23 +4461,26 @@ const fiszki10_part6 = [
             99,
             178
         ],
-        img: [
-            "https://www.arbulang.com/img/fiszki1/7a.jpg",
-            "https://www.arbulang.com/img/fiszki1/7b.jpg",
-            "https://www.arbulang.com/img/fiszki1/7c.jpg",
-            "https://www.arbulang.com/img/fiszki1/7d.jpg",
-            "https://www.arbulang.com/img/fiszki1/7e.jpg"
-        ],
-        translate: "",
-        translateb: "[]",
-        translateb2: "[]",
-        srcWord: ["https://www.arbulang.com/filmy/tennis.mp4", "V for Vendetta (2005)"],
-        srcWordimage: "https://www.arbulang.com/filmy/tennis.png",
-        word: [
-            "https://www.arbulang.com/voice/bike.mp4"
-        ],
-        story: "<u><b>Ona</u></b> - Patrycja ma ri<u><b>szi</u></b> to naturalny antyoksydant",
-        desc: "the[] - niebieski/niebieskie",
+            entries: [
+        {
+            id: 1,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/207b.jpg",
+                alt: "Wygenerowane przez AI."
+            },
+            story: {
+                text: "<u><b>Oni</u></b> z<u><b>dej</u></b>mują jabłka z jabłoni",
+                alt: ""
+            },
+            category: ["sezon", "prace ogrodowe"]
+        }
+            ],
+        translate: "Oni grają w piłkę nożną w tym momencie",
+        translateb: "[Dej ar pleing futbol at de moment]",
+        translateb2: "[Ewrybody hes fan]",
+        srcWord: ["https://www.arbulang.com/filmy/football.mp4", "Pelé. Narodziny legendy (2016)"],
+        srcWordimage: "https://www.arbulang.com/filmy/football.png",
+        desc: "they[dej] - oni",
         sentence1: [
             "They"
         ],
@@ -4204,13 +4498,21 @@ const fiszki10_part6 = [
             99,
             178
         ],
-        img: [
-            "https://www.arbulang.com/img/fiszki1/364a.jpg"
-        ],
-        story: [
-            "Super jest ten mały silnik. Ma moc kilku moli"
-        ],
-        desc: "claim[kleim] - ",
+            entries: [
+        {
+            id: 1,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/594a.jpg",
+                alt: "Wygenerowane przez AI."
+            },
+            story: {
+                text: "Pracownik <u><b>twierdzi</u></b>, że ten <u><b>klej</u></b> dobrze się <u><b>im</u></b>a ściany",
+                alt: ""
+            },
+            category: ["kraje", "klimat"]
+        }
+            ],
+        desc: "claim[klejm] - twierdzić, twierdzenie",
         sentence2: [
             "claim"
         ],
@@ -4228,12 +4530,20 @@ const fiszki10_part6 = [
             99,
             179
         ],
-        img: [
-            "https://www.arbulang.com/img/fiszki1/364a.jpg"
-        ],
-        story: [
-            ""
-        ],
+            entries: [
+        {
+            id: 1,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/595a.jpg",
+                alt: "Wygenerowane przez AI."
+            },
+            story: {
+                text: "Poetka misze poemat-<u><b>historię</u></b> o tym kwiecie <u><b>stor</u></b>czyku. Ciekawy jest żywot poet<u><b>y</u></b>",
+                alt: ""
+            },
+            category: ["kraje", "klimat"]
+        }
+            ],
         desc: "the story[de story] - historia, opowieść",
         sentence2: [
             "the story"
@@ -4253,11 +4563,94 @@ const fiszki10_part6 = [
             99,
             179
         ],
-        img: [
-            "https://www.arbulang.com/img/fiszki1/364a.jpg"
-        ],
-        story: [
-            "Super jest ten mały silnik. Ma moc kilku moli"
+    entries: [
+        {
+            id: 1,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/8a.jpg",
+                alt: "Biegacze w biegu. Wygenerowane przez AI."
+            },
+            story: {
+                text: 'Gdy ktoś szybko biega obok nas to <u><b>jest</u></b> w popłochu, słyszymy tylko św<span class="adannotation" data-annotation="1"><u><b>is</u></b></span>t',
+                alt: "Styl życia. Czy życie w popłochu może męczyć?"
+            },
+            category: ["sport", "bieganie"]
+        },
+        {
+            id: 2,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/8b.jpg",
+                alt: "Karykatura lisa jako listonosza. Wygenerowane przez AI."
+            },
+            story: {
+                text: 'L<span class="adannotation" data-annotation="1"><u><b>is</u></b></span> <u><b>jest</u></b> dzisiaj listonoszem',
+               alt: "Zawód życiowy a charakter. Jak wygląda praca listonosza?"
+            },
+             category: ["natura", "zawód"]
+        },
+        {
+            id: 3,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/8c.jpg",
+                alt: "Wystąpienie przed klasą. Wygenerowane przez AI."
+            },
+            story: {
+                text: '<span class="adannotation" data-annotation="1"><b><u>Is</b></u></span>tota tego przekazu <b><u>jest</b></u> bardzo ważna',
+                alt: "Wiedza i wykłady w szkole jak i na studiach. Czy zawsze prezentacja zawiera puentę?"
+            },
+           category: ["nauka", "definicje"]
+        },
+        {
+            id: 4,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/8d.jpg",
+                alt: "Bawiące się ze sobą lisy. Wygenerowane przez AI."
+            },
+            story: {
+                text: 'L<span class="adannotation" data-annotation="1"><b><u>is</b></u></span> jest bardzo przebiegły, ale <b><u>jest</b></u> też wilk, który go zje',
+                alt: "Łańcuch pokarmowy u zwierząt. Kto może zjeść lisa?"
+            },
+            category: ["czarny humor", "zoologia"]
+        },
+        {
+            id: 5,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/8e.jpg",
+                alt: "Johny Bravo z kreskówki. Wygenerowane przez AI."
+            },
+            story: {
+                text: 'Johny Bravo <u><b>jest</b></u> m<span class="adannotation" data-annotation="1"><u><b>is</b></u></span>trzem relacji damsko-męskich',
+               alt: "Bohater kreskówki a wiedza na temat związków. Czy można uczyć się o związkach od Johny Brawo?"
+            },
+            category: ["związki", "kreskówki"]
+        },
+                {
+            id: 6,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/8f.jpg",
+                alt: "Chwalenie się dyplomem uczestnictwa w szkoleniu. Wygenerowane przez AI."
+            },
+            story: {
+                text: 'Lu<span class="adannotation" data-annotation="1"><b><u>is</b></u></span> <b><u>jest</b></u> bardzo zadowolony ze swojej pracy',
+                alt: "Satysfakcja z życia zawodowego. Jak wybrać odpowiednią pracę?"
+            },
+            category: ["lifestyle", "sukces"]
+        },
+        {
+            id: 7,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/8g.jpg",
+                alt: "Widok z brzegu ze statkami. Wygenerowane przez AI."
+            },
+            story: {
+                text: '<span class="adannotation" data-annotation="1"><b><u>Is</b></u></span>tambuł <b><u>jest</b></u> fajnym miastem',
+               alt: "Podróże i turystyka. Jakie miasto lubisz najbardziej?"
+            },
+            category: ["geografia", "miasta"]
+        }
+    ],
+        word: [
+            "https://www.arbulang.com/src/is.wav"
         ],
         desc: "is[is] - jest",
         sentence2: [
@@ -4278,13 +4671,21 @@ const fiszki10_part6 = [
             99,
             179
         ],
-        img: [
-            "https://www.arbulang.com/img/fiszki1/364a.jpg"
-        ],
-        story: [
-            "Super jest ten mały silnik. Ma moc kilku moli"
-        ],
-        desc: "true[tru] - prawdziwa, prawdziwe",
+            entries: [
+        {
+            id: 1,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/597a.jpg",
+                alt: "Wygenerowane przez AI."
+            },
+            story: {
+                text: "<b><u>Prawda</b></u> to kwestia, którą czasami <b><u>tru</b></u>dno opisać",
+                alt: ""
+            },
+            category: ["kraje", "klimat"]
+        }
+            ],
+        desc: "true[tru] - prawda",
         sentence2: [
             "true"
         ],
@@ -4303,23 +4704,77 @@ const fiszki10_part6 = [
             100,
             180
         ],
-        img: [
-            "https://www.arbulang.com/img/fiszki1/7a.jpg",
-            "https://www.arbulang.com/img/fiszki1/7b.jpg",
-            "https://www.arbulang.com/img/fiszki1/7c.jpg",
-            "https://www.arbulang.com/img/fiszki1/7d.jpg",
-            "https://www.arbulang.com/img/fiszki1/7e.jpg"
+            entries: [
+                        {
+            id: 1,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/44b.jpg",
+                alt: "Zawodniczka i trener. Wygenerowane przez AI."
+            },
+            story: {
+                text: "Ma<b><u>dis</b></u>on jest świetnym sportowcem a to jej trener",
+                alt: "Opowieść Quo vadis. Czy warto czytać Quo Vadis?"
+            },
+            category: ["sport", "trener"]
+        },
+        {
+            id: 2,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/44a.jpg",
+                alt: "Kraina w starożytności. Wygenerowane przez AI."
+            },
+            story: {
+                text: "Quo va<b><u>dis</b></u> <b><u>to</b></u> cytat bardzo znany i kojarzy się ze starożytnym Rzymem",
+                alt: "Opowieść Quo vadis. Czy warto czytać Quo Vadis?"
+            },
+            category: ["natura", "dawna kraina"]
+        },
+        {
+                            id: 3,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/83c.jpg",
+                alt: "Dawny geniusz. Wygenerowane przez AI."
+            },
+            story: {
+                text: "E<b><u>dis</b></u>on to geniusz",
+                alt: "Dawny geniusz. Kto wymyślił żarówkę?"
+            },
+            category: ["nauka", "geniusze"]
+        },
+                {
+                    id: 4,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/80b.jpg",
+                alt: "Układanka słowna. Wygenerowane przez AI."
+            },
+            story: {
+                text: "To słówko distant - czytamy <b><u>dis</b></u>tant",
+                alt: "Układanka słowna. Czy scrabble jest ciekawe?"
+            },
+            category: ["czarny humor", "języki"]
+        },
+                {
+                            id: 5,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/108d.jpg",
+                alt: "Diva operowa. Wygenerowane przez AI."
+            },
+            story: {
+                text: "<b><u>Di</b></u>va operowa jest <b><u>s</b></u>ławna",
+                alt: "Śpiew operowy. Czy w operze można się dobrze bawić?"
+            },
+            category: ["związki", "muzyka klasyczna"]
+        }
+            ],
+        word: [
+            "https://www.arbulang.com/voice/music.mp4"
         ],
         translate: "",
         translateb: "[]",
         translateb2: "[]",
         srcWord: ["https://www.arbulang.com/filmy/tennis.mp4", "V for Vendetta (2005)"],
         srcWordimage: "https://www.arbulang.com/filmy/tennis.png",
-        word: [
-            "https://www.arbulang.com/voice/bike.mp4"
-        ],
-        story: "<u><b>Ona</u></b> - Patrycja ma ri<u><b>szi</u></b> to naturalny antyoksydant",
-        desc: "the[] - niebieski/niebieskie",
+        desc: "this[dis] - ta rzecz/osoba",
         sentence1: [
             "This"
         ],
@@ -4337,9 +4792,20 @@ const fiszki10_part6 = [
             100,
             180
         ],
-        img: [
-            "https://www.arbulang.com/img/fiszki1/364a.jpg"
-        ],
+            entries: [
+        {
+            id: 1,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/599a.jpg",
+                alt: "Wygenerowane przez AI."
+            },
+            story: {
+                text: "Ring do <b><u>boks</b></u>u to taka <b><u>skrzynia</b></u> na pole walki",
+                alt: ""
+            },
+            category: ["kraje", "klimat"]
+        }
+            ],
         story: [
             "Super jest ten mały silnik. Ma moc kilku moli"
         ],

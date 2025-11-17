@@ -104,7 +104,7 @@
 .fiszka_story {
     display: block;
     margin-bottom: 10px;
-    font-size: 10px;
+    font-size: 15px;
 }
 .fiszka_story2 {
     display: block;
@@ -234,7 +234,7 @@ story_button {
                 .fiszka {
     position: absolute;
     padding: 10px;
-    left: 110px;
+    left: 170px;
     top: 145px;
     margin: 5px;
     background-color: white;
@@ -364,8 +364,8 @@ img.fiszka_img {
 
 .fiszka_button.fiszka_button_trening {
     border-radius: 20px;
-  width: 130px;  /* Dostosuj szerokoĹÄ wedĹug wĹasnych preferencji */
-  height: 40px;  /* Dostosuj wysokoĹÄ wedĹug wĹasnych preferencji */
+  width: 100px;  /* Dostosuj szerokoĹÄ wedĹug wĹasnych preferencji */
+  height: 20px;  /* Dostosuj wysokoĹÄ wedĹug wĹasnych preferencji */
   font-size: 8px;
   /* Dodaj inne wĹaĹciwoĹci CSS, jeĹli sÄ potrzebne */
 }
