@@ -38,52 +38,73 @@
 }
                 .thumb-wrapper {
   display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 10px;
+  gap: 0px;
   margin-top: 10px;
+  z-index: 2;
 }
 
 .thumb-row {
   display: flex;
   gap: 10px;
   overflow-x: auto;
-  padding: 5px 0;
+  padding: 0px 0;
   scroll-behavior: smooth;
-  overflow: hidden;
   flex: 1;
 }
 
 .thumb-arrow {
-  background-color: #f0f0f0;
-  border: none;
-          margin-bottom: 100px;
-  border-radius: 50%;
-  height: 40px;
-  font-size: 20px;
-  cursor: pointer;
-  transition: all 0.2s ease;
-  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    background-color: #f0f0f0;
+    border: none;
+    margin-bottom: 100px;
+    border-radius: 50%;
+    height: 40px;
+    font-size: 20px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+
+    position: relative; 
+    z-index: 1; /* PRZYCISK POD SPOD */
 }
 
 .thumb-arrow:hover {
   background-color: #ddd;
-  transform: scale(1.1);
 }
 
+/* lewa strzałka */
+.left-arrow {
+    position: relative;
+    left: 0px;
+}
 
+/* prawa strzałka */
+.right-arrow {
+    right: 0px;
+}
+
+/* scroll bez pasków */
+.thumb-row::-webkit-scrollbar {
+    display: none;
+}
+.thumb-row {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+}
 .thumb-img {
+        position: relative;
   width: 80px;
   height: 60px;
   border-radius: 10px;
   object-fit: cover;
   cursor: pointer;
   transition: transform 0.2s ease;
+  z-index: 999999;
 }
 
 .thumb-img:hover {
   transform: scale(1.1);
 }
+
                 .text-intro {
     margin: 5px 0 8px 0;
     font-weight: bold;
@@ -209,6 +230,7 @@
 }
                 #container {
     padding: 20px;
+    max-width: 100%;
 }
 
 .background-video {
@@ -443,11 +465,6 @@ span.highlight {
                     margin: 0 5px; /* Marginesy między przyciskami a tekstem */
                 }
 
-                .highlighted {
-                    color: green; /* Kolor dla wyróżnionego słowa */
-                    font-weight: bold; /* Opcjonalnie: pogrubienie dla wyróżnionego słowa */
-                }
-
                 .blink {
                     animation: blink-animation 1s steps(5, start) infinite; /* Przykład animacji mrugania */
                 }
@@ -500,13 +517,14 @@ span.highlight {
                     bottom: 60px; /* Strzałka przesuwa się do góry gdy pasek jest widoczny */
                 }
                 /* Styl dla głównego kontenera */
-                .container {
-                    position: relative;
-                    display: flex;
-                    align-items: flex-start; /* Ustawienie wyrównania elementów wertykalnie */
-                    justify-content: space-between;
-                    z-index: 99999999;
-                }
+.container {
+    position: relative;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    max-width: 100%;
+    overflow-x: hidden;
+}
                 .content-container {
                     max-width: 100%;
                     position: relative;
@@ -596,20 +614,20 @@ span.highlight {
                     font-size: 20px;
                     margin-top: 10px;
                 }
-                                .image-container3b {
-                    display: flex;
-                    flex-direction: column;
-                    justify-content: center;
-                    background-color: blue;
-                    width: 100%;
-                    position: relative;
-                    min-height: 220px;
-                    height: auto;
-                    margin-bottom: 0px;
-                    align-items: center;
-                    font-size: 10px;
-                    margin-top: 10px;
-                }
+.image-container3b {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: blue;
+    max-width: 100%;
+    position: relative;
+    min-height: 220px;
+    height: auto;
+    margin-bottom: 0px;
+    align-items: center;
+    font-size: 10px;
+    margin-top: 10px;
+}
                 .background-overlay {
                     position: absolute;
                     top: 0;
@@ -878,7 +896,7 @@ span.highlight {
                 }
                 .highlighted {
                     background-color: #2ecc71;
-                    color: red; /* Lub dowolny styl */
+                    color: black; /* Lub dowolny styl */
                 }
                 .yellow {
                     color: yellow;
@@ -929,7 +947,7 @@ span.highlight {
                     cursor: pointer;
                 }
                 .grid-containera {
-                    width: 0px;
+                    max-width: 100%;
                     height: 0px;
                     display: grid;
                     grid-template-columns: repeat(4, 1fr);
@@ -1491,10 +1509,10 @@ input {
                 }
                                 #wordDisplay {
     position: absolute;
-    bottom: -20px;
+    bottom: 370px;
     cursor: pointer;
     font-size: 18px;
-    left: 20px;
+    left: 200px;
     width: 130px;
     height: 27px;
     text-align: center;
@@ -1504,6 +1522,15 @@ input {
     background-color: lightgray;
     border-radius: 8px;
     border: 2px solid black;
+}
+/* Parzyste → lewa strona kontenera */
+.word-left {
+    margin-left: -350px;
+}
+
+/* Nieparzyste → prawa strona */
+.word-right {
+    right: 0;
 }
                 .image-container5 {
                     display: flex;
@@ -2173,7 +2200,7 @@ input {
     transition: all 0.2s ease;
     background-color: rgba(255,255,255,0.8);
     box-shadow: 0 0 5px rgba(0,0,0,0.2);
-    z-index: 50; /* pod miniaturami */
+    z-index: 9999999; /* pod miniaturami */
 }
 
 .thumb-arrow:hover {
@@ -2198,6 +2225,22 @@ input {
 .thumb-row {
     -ms-overflow-style: none;  /* IE and Edge */
     scrollbar-width: none;  /* Firefox */
+}
+.overlay-button {
+    position: absolute;
+    width: 48px;
+    height: 48px;
+    cursor: pointer;
+}
+
+/* parzyste */
+.left-side-button {
+    left: 5px;
+}
+
+/* nieparzyste */
+.right-side-button {
+    right: 5px;
 }
             }
 </style>

@@ -2089,7 +2089,7 @@ fiszki10.push(
         img: [
             "https://www.arbulang.com/img/fiszki1/207b.jpg"
         ],
-        translate: "",
+        translate: "Oni teraz jedzą razem obiad",
         translateb: "[Dej ar hewing diner tugeder nał]",
         translateb2: "[Dej ar hewing diner tugeder nał]",
         translateb3: "We are watching a movie right now",
@@ -2105,7 +2105,7 @@ fiszki10.push(
         sentence1: [
             "They"
         ],
-        sentence2b: [
+        sentence1b: [
             "Oni"
         ],
         sentence: [
@@ -2137,7 +2137,10 @@ fiszki10.push(
         ],
         desc: "are[ar] - jest/są - gramatyka",
         sentence1: [
-            ""
+            "are"
+        ],
+                sentence1b: [
+            "(wykonują)"
         ],
         sentence: [
             "They",
@@ -2162,7 +2165,7 @@ fiszki10.push(
         story: "Oni <b><u>mają</b></u> mar<b><u>chew</b></u> i to jest ich naturalny dop<b><u>ing</b></u> w sporcie",
         desc: "having[hewing] - mają",
         sentence1: [
-            "are having"
+            "having"
         ],
                                                     sentence1b: [
             "mają"
@@ -2193,7 +2196,7 @@ fiszki10.push(
             "dinner"
         ],
                                                     sentence1b: [
-            "kolację"
+            "obiad"
         ],
         sentence: [
             "They",

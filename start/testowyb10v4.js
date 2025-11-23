@@ -310,7 +310,7 @@ id: [
         89
 ],
         img: "https://www.arbulang.com/img/fiszki1/131a.jpg",
-        translate: "",
+        translate: "Odwiedziliśmy Londyn wiele razy",
         translateb: "[Łi hew wisitid London meni tajms]",
         translateb2: "[Łi hew visitid London]",
         translateb3: "We have visited London many times",
@@ -350,7 +350,7 @@ id: [
         story: "<b><u>Mam</b></u> fajne spodnie, ale puścił sz<b><u>ew</b></u>, <b><u>ch</b></u>yba go zaceruje",
         desc: "have[hew] - mam",
         sentence1: [
-                ""
+                "have"
         ],
         sentence: [
                 "We",
@@ -372,7 +372,7 @@ id: [
         story: "Producent odwiedził naukowców z proszkiem <u><b>wizi</u></b>r, aby go przetestowali. Jeden naukowiec ma <u><b>ti</u></b>ki i myli się przy badaniach. <u><b>Id</u></b>zie mu słabo",
         desc: "visited[wizitid] - odwiedził/odwiedziła",
         sentence1: [
-                "We have visited"
+                "visited"
         ],
                 sentence1b: [
             "(My) odwiedziliśmy"

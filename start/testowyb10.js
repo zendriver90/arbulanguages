@@ -18,7 +18,7 @@ const fiszki10 = [
         translateb2: "[Ewrybody hes fan]",
                         translateb3: "Everybody has fun at the party",
         opis: "Meksykański 'pass' po wejściu na imprezę",
-        srcWord: ["https://www.arbulang.com/filmy/lekcja1/party.mp4", "The Matrix Reloaded"],
+        srcWord: ["https://www.arbulang.com/filmy/lekcja1/party.mp4", "The Matrix Reloaded (2003)"],
         srcWord2: ["https://www.arbulang.com/filmy/procedure.mp4", "Breaking Bad"],
         srcWordimage: "https://www.arbulang.com/filmy/lekcja1/party.png",
         word: [

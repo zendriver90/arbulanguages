@@ -95,8 +95,8 @@ fiszki10.push(
         translate: "Moja noga trochę boli dzisiaj",
         translateb: "[Maj leg herts e litil tudej]",
         translateb2: "[]",
-        srcWord: ["http://localhost/arbulanguage.com/filmy/lekcja34/forrestgump.mp4", "Forrest Gump (1994)"],
-        srcWordimage: "http://localhost/arbulanguage.com/filmy/lekcja34/forrestgump.png",
+        srcWord: ["https://www.arbulang.com/filmy/lekcja34/forrestgump.mp4", "Forrest Gump (1994)"],
+        srcWordimage: "https://www.arbulang.com/filmy/lekcja34/forrestgump.png",
         word: [
             "https://www.arbulang.com/voice/bike.mp4"
         ],
@@ -243,8 +243,8 @@ fiszki10.push(
         translate: "On twierdził, że się mylił",
         translateb: "[Hi kleimt he wos rong]",
         translateb2: "[]",
-        srcWord: ["http://localhost/arbulanguage.com/filmy/lekcja34/wrong.mp4", "Piękny umysł (2001)"],
-        srcWordimage: "http://localhost/arbulanguage.com/filmy/lekcja34/wrong.png",
+        srcWord: ["https://www.arbulang.com/filmy/lekcja34/wrong.mp4", "Piękny umysł (2001)"],
+        srcWordimage: "https://www.arbulang.com/filmy/lekcja34/wrong.png",
         word: [
             "https://www.arbulang.com/voice/bike.mp4"
         ],
@@ -395,8 +395,8 @@ fiszki10.push(
         translate: "Jej sukienka jest różowa i ładna",
         translateb: "[Her dres is pink and priti]",
         translateb2: "[]",
-        srcWord: ["http://localhost/arbulanguage.com/filmy/lekcja35/dress.mp4", "Wredne dziewczyny - Mean Girls (2004)"],
-        srcWordimage: "http://localhost/arbulanguage.com/filmy/lekcja35/dress.png",
+        srcWord: ["https://www.arbulang.com/filmy/lekcja35/dress.mp4", "Wredne dziewczyny - Mean Girls (2004)"],
+        srcWordimage: "https://www.arbulang.com/filmy/lekcja35/dress.png",
         word: [
             "https://www.arbulang.com/voice/bike.mp4"
         ],
@@ -1416,7 +1416,7 @@ fiszki10.push(
             198
         ],
         img: "https://www.arbulang.com/img/fiszki1/95aa.jpg",
-        translate: "",
+        translate: "Ona nosi złoto na szyi",
         translateb: "[]",
         translateb2: "[]",
         srcWord: ["https://www.arbulang.com/filmy/tennis.mp4", "V for Vendetta (2005)"],
@@ -1569,7 +1569,7 @@ fiszki10.push(
         img: [
             "https://www.arbulang.com/img/fiszki1/652a.jpg"
         ],
-        translate: "",
+        translate: "Nie stłucz szkła, bądź ostrożny",
         translateb: "[]",
         translateb2: "[]",
         srcWord: ["https://www.arbulang.com/filmy/tennis.mp4", "V for Vendetta (2005)"],
@@ -1630,7 +1630,7 @@ fiszki10.push(
         ],
         desc: "glass[glas] - szkło",
         sentence2: [
-            "The glass"
+            "the glass"
         ],
         sentence: [
             "Don't",
@@ -1706,7 +1706,7 @@ fiszki10.push(
         img: [
             "https://www.arbulang.com/img/fiszki1/657a.jpg"
         ],
-        translate: "",
+        translate: "Postaw krzesło blisko stołu",
         translateb: "[]",
         translateb2: "[]",
         srcWord: ["https://www.arbulang.com/filmy/tennis.mp4", "V for Vendetta (2005)"],
@@ -1811,8 +1811,8 @@ fiszki10.push(
         translate: "Dzielimy się jedzeniem z naszymi przyjaciółmi",
         translateb: "[Łi szer fud wiz aur friends]",
         translateb2: "[]",
-        srcWord: ["http://localhost/arbulanguage.com/filmy/lekcja38/eats.mp4", "Szybcy i Wściekli 6 (2013)"],
-        srcWordimage: "http://localhost/arbulanguage.com/filmy/lekcja38/eats.png",
+        srcWord: ["https://www.arbulang.com/filmy/lekcja38/eats.mp4", "Szybcy i Wściekli 6 (2013)"],
+        srcWordimage: "https://www.arbulang.com/filmy/lekcja38/eats.png",
         word: [
             "https://www.arbulang.com/voice/bike.mp4"
         ],
@@ -1979,7 +1979,7 @@ fiszki10.push(
         img: [
             "https://www.arbulang.com/img/fiszki1/667a.jpg"
         ],
-        translate: "",
+        translate: "Rolnicy uprawiają kukurydzę latem",
         translateb: "[]",
         translateb2: "[]",
         srcWord: ["https://www.arbulang.com/filmy/tennis.mp4", "V for Vendetta (2005)"],
@@ -2106,7 +2106,7 @@ fiszki10.push(
             208
         ],
         img: "https://www.arbulang.com/img/fiszki1/55aa.jpg",
-        translate: "",
+        translate: "Dom jest zrobiony z drewna",
         translateb: "[]",
         translateb2: "[]",
         srcWord: ["https://www.arbulang.com/filmy/tennis.mp4", "V for Vendetta (2005)"],
@@ -2261,11 +2261,11 @@ fiszki10.push(
         img: [
             "https://www.arbulang.com/img/fiszki1/7a.jpg"
         ],
-        translate: "",
+        translate: "Ona kupiła czerwoną letnią sukienkę",
         translateb: "[]",
         translateb2: "[]",
-        srcWord: ["https://www.arbulang.com/filmy/tennis.mp4", "V for Vendetta (2005)"],
-        srcWordimage: "https://www.arbulang.com/filmy/tennis.png",
+        srcWord: ["http://localhost/arbulanguage.com/filmy/lekcja39/approach.mp4", "V for Vendetta (2005)"],
+        srcWordimage: "http://localhost/arbulanguage.com/filmy/lekcja39/approach.png",
         word: [
             "https://www.arbulang.com/voice/bike.mp4"
         ],
@@ -2397,7 +2397,7 @@ fiszki10.push(
                 "https://www.arbulang.com/img/fiszki1/7d.jpg",
                 "https://www.arbulang.com/img/fiszki1/7e.jpg"
         ],
-        translate: "",
+        translate: "On czyta gazety co tydzień",
         translateb: "[]",
         translateb2: "[]",
         srcWord: ["https://www.arbulang.com/filmy/newspaper.mp4", "Kevin sam w domu (1990)"],
@@ -2568,7 +2568,7 @@ fiszki10.push(
                 "https://www.arbulang.com/img/fiszki1/7d.jpg",
                 "https://www.arbulang.com/img/fiszki1/7e.jpg"
         ],
-        translate: "",
+        translate: "Zapraszam cię na moje urodziny",
         translateb: "[]",
         translateb2: "[]",
         srcWord: ["https://www.arbulang.com/filmy/newspaper.mp4", "Kevin sam w domu (1990)"],
@@ -2738,7 +2738,7 @@ fiszki10.push(
         img: [
                 "https://www.arbulang.com/img/fiszki1/694a.jpg"
         ],
-        translate: "",
+        translate: "Rekin pływa szybko w wodzie",
         translateb: "[]",
         translateb2: "[]",
         srcWord: ["https://www.arbulang.com/filmy/newspaper.mp4", "Kevin sam w domu (1990)"],
@@ -2867,7 +2867,7 @@ fiszki10.push(
         img: [
                 "https://www.arbulang.com/img/fiszki1/700a.jpg"
         ],
-        translate: "",
+        translate: "Dziecko śpi w łóżeczku",
         translateb: "[]",
         translateb2: "[]",
         srcWord: ["https://www.arbulang.com/filmy/newspaper.mp4", "Kevin sam w domu (1990)"],

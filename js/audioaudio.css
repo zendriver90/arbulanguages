@@ -199,32 +199,40 @@
 /* Kolory dla tekstu i potęg */
 .adannotation[data-annotation="1"] {
   color: blue; /* Kolor niebieski dla tekstu i potęgi */
+          font-size: 15px;
 }
 
 .adannotation[data-annotation="1"]::after {
   color: blue; /* Kolor niebieski dla potęgi */
+          font-size: 10px;
 }
 
 .adannotation[data-annotation="2"] {
   color: orange; /* Kolor pomarańczowy dla tekstu i potęgi */
+          font-size: 15px;
 }
 
 .adannotation[data-annotation="2"]::after {
   color: orange; /* Kolor pomarańczowy dla potęgi */
+          font-size: 10px;
 }
 
 .adannotation[data-annotation="3"] {
   color: green; /* Kolor zielony dla tekstu i potęgi */
+          font-size: 15px;
 }
 
 .adannotation[data-annotation="3"]::after {
   color: green; /* Kolor zielony dla potęgi */
+          font-size: 10px;
 }
 .adannotation[data-annotation="4"] {
   color: gray; /* Kolor zielony dla tekstu i potęgi */
+          font-size: 15px;
 }
 
 .adannotation[data-annotation="4"]::after {
   color: gray; /* Kolor zielony dla potęgi */
+            font-size: 10px;
 }
                             }

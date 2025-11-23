@@ -84,7 +84,7 @@ fiszki10.push(
                 "https://www.arbulang.com/img/fiszki1/7d.jpg",
                 "https://www.arbulang.com/img/fiszki1/7e.jpg"
         ],
-        translate: "",
+        translate: "Kupiłem mleko w sklepie",
         translateb: "[]",
         translateb2: "[]",
         srcWord: ["https://www.arbulang.com/filmy/newspaper.mp4", "Kevin sam w domu (1990)"],
@@ -236,11 +236,11 @@ fiszki10.push(
                 "https://www.arbulang.com/img/fiszki1/7d.jpg",
                 "https://www.arbulang.com/img/fiszki1/7e.jpg"
         ],
-        translate: "",
+        translate: "On otwiera okno każdego ranka",
         translateb: "[]",
         translateb2: "[]",
-        srcWord: ["https://www.arbulang.com/filmy/openwindow.mp4", "Dwunastu gniewnych ludzi (1957)"],
-        srcWordimage: "https://www.arbulang.com/filmy/openwindow.png",
+        srcWord: ["https://www.arbulang.com/filmy/lekcja41/openwindow.mp4", "Dwunastu gniewnych ludzi (1957)"],
+        srcWordimage: "https://www.arbulang.com/filmy/lekcja41/openwindow.png",
         word: [
             "https://www.arbulang.com/voice/bike.mp4"
         ],
@@ -371,7 +371,7 @@ fiszki10.push(
         img: [
                 "https://www.arbulang.com/img/fiszki1/499a.jpg"
         ],
-        translate: "",
+        translate: "Rzeka płynie w pobliżu mojego domu",
         translateb: "[]",
         translateb2: "[]",
         srcWord: ["https://www.arbulang.com/filmy/newspaper.mp4", "Kevin sam w domu (1990)"],
@@ -425,7 +425,7 @@ fiszki10.push(
             224
         ],
         img: [
-            "https://www.arbulang.com/img/fiszki1/569a.jpg"
+            "https://www.arbulang.com/img/fiszki1/568a.jpg"
         ],
         story: [
             "<u><b>Ni</u></b>na i <u><b>R</u></b>obert są <u><b>w pobliżu</u></b> pasma górskiego"
@@ -503,8 +503,8 @@ fiszki10.push(
         translateb: "[Łi łocztd de stars last najt]",
         translateb2: "[Łi łocztd de stars last najt]",
         translateb3: "We watched the stars last night",
-        srcWord: ["https://www.arbulang.com/filmy/lekcja25/stars.mp4", ""],
-        srcWordimage: "https://www.arbulang.com/filmy/lekcja25/stars.png",
+        srcWord: ["https://www.arbulang.com/filmy/lekcja41/stars.mp4", ""],
+        srcWordimage: "https://www.arbulang.com/filmy/lekcja41/stars.png",
         word: [
             "https://www.arbulang.com/voice/bike.mp4"
         ],
@@ -559,7 +559,7 @@ fiszki10.push(
         story: [
             ""
         ],
-        desc: "slowly[slołli] - ",
+        desc: "slowly[slołli] - powoli, powolnie",
         sentence2: [
             "slowly"
         ],
@@ -582,9 +582,9 @@ fiszki10.push(
             "https://www.arbulang.com/img/fiszki1/721a.jpg"
         ],
         story: [
-            "Poprzez wiarę w truizmy przechodzimy przez proces przemiany wewnętrznej"
+            "Poprzez wiarę w <u><b>tru</u></b>izmy przechodzimy <u><b>przez</u></b> proces przemiany wewnętrznej"
         ],
-        desc: "through[tru] - ",
+        desc: "through[tru] - poprzez, przez",
         sentence2: [
             "through"
         ],
@@ -603,7 +603,7 @@ fiszki10.push(
             226
         ],
         img: [
-            "https://www.arbulang.com/img/fiszki1/364a.jpg"
+            "https://www.arbulang.com/img/fiszki1/722a.jpg"
         ],
         story: [
             "KOGNATY PARK (PL) - PARK (ENG)"
@@ -810,7 +810,7 @@ fiszki10.push(
             "Przetrzy<b><u>maj</b></u> mi na pare dni <b><u>moje</b></u> auto na placu",
             "W <b><u>maj</b></u>u na <b><u>moje</b></u> rośliny w ogrodzie pada deszcz"
         ],
-        translate: "",
+        translate: "Moja ciocia gotuje bardzo smaczną zupę",
         translateb: "[]",
         translateb2: "[]",
         srcWord: ["https://www.arbulang.com/filmy/newspaper.mp4", "Kevin sam w domu (1990)"],
@@ -838,12 +838,12 @@ fiszki10.push(
             229
         ],
         img: [
-            "https://www.arbulang.com/img/fiszki1/364a.jpg"
+            "https://www.arbulang.com/img/fiszki1/730a.jpg"
         ],
         story: [
-            "KOGNATY PARK (PL) - PARK (ENG)"
+            "Kiedy <b><u>ciotka</b></u> coś zgubi modli się do Świętego <b><u>Ant</b></u>oniego"
         ],
-        desc: "aunt[] - ",
+        desc: "aunt[ant] - ciotka",
         sentence2: [
             "aunt"
         ],
@@ -863,12 +863,12 @@ fiszki10.push(
             229
         ],
         img: [
-            "https://www.arbulang.com/img/fiszki1/364a.jpg"
+            "https://www.arbulang.com/img/fiszki1/731a.jpg"
         ],
         story: [
-            "KOGNATY PARK (PL) - PARK (ENG)"
+            "Ptak <u><b>kuk</u></b>ułka nie je <u><b>gotowanego</u></b>, je <u><b>s</u></b>urowe"
         ],
-        desc: "cooks[] - ",
+        desc: "cooks[kuks] - gotuje",
         sentence2: [
             "cooks"
         ],
@@ -887,13 +887,9 @@ fiszki10.push(
             125,
             230
         ],
-        img: [
-            "https://www.arbulang.com/img/fiszki1/364a.jpg"
-        ],
-        story: [
-            "KOGNATY PARK (PL) - PARK (ENG)"
-        ],
-        desc: "very[] - ",
+        img: "https://www.arbulang.com/img/fiszki1/118a.jpg",
+        story: "Chcąc jechać <b><u>ri</b></u>kszą, kierowca zawsze bardzo <b><u>wer</b></u>yfikuje czy osoba nie jest za gruba, żeby jechać z nim",
+        desc: "very[weri] - bardzo",
         sentence2: [
             "very"
         ],
@@ -913,7 +909,7 @@ fiszki10.push(
             230
         ],
         img: [
-            "https://www.arbulang.com/img/fiszki1/364a.jpg"
+            "https://www.arbulang.com/img/fiszki1/733a.jpg"
         ],
         story: [
             "KOGNATY PARK (PL) - PARK (ENG)"
@@ -969,7 +965,7 @@ fiszki10.push(
                 "https://www.arbulang.com/img/fiszki1/7d.jpg",
                 "https://www.arbulang.com/img/fiszki1/7e.jpg"
         ],
-        translate: "",
+        translate: "Kot chowa się pod stołem.",
         translateb: "[]",
         translateb2: "[]",
         srcWord: ["https://www.arbulang.com/filmy/newspaper.mp4", "Kevin sam w domu (1990)"],
@@ -1081,7 +1077,7 @@ fiszki10.push(
                 "https://www.arbulang.com/img/fiszki1/7d.jpg",
                 "https://www.arbulang.com/img/fiszki1/7e.jpg"
         ],
-        translate: "",
+        translate: "Zamykam drzwi przed snem",
         translateb: "[]",
         translateb2: "[]",
         srcWord: ["https://www.arbulang.com/filmy/newspaper.mp4", "Kevin sam w domu (1990)"],
@@ -1219,7 +1215,7 @@ fiszki10.push(
                 "https://www.arbulang.com/img/fiszki1/7d.jpg",
                 "https://www.arbulang.com/img/fiszki1/7e.jpg"
         ],
-        translate: "",
+        translate: "Oni sadzą kwiaty w ogrodzie",
         translateb: "[]",
         translateb2: "[]",
         srcWord: ["https://www.arbulang.com/filmy/newspaper.mp4", "Kevin sam w domu (1990)"],
@@ -1354,11 +1350,11 @@ fiszki10.push(
         img: [
                 "https://www.arbulang.com/img/fiszki1/7a.jpg"
         ],
-        translate: "",
+        translate: "Zegar pokazuje teraz dziesiątą",
         translateb: "[]",
         translateb2: "[]",
-        srcWord: ["https://www.arbulang.com/filmy/newspaper.mp4", "Kevin sam w domu (1990)"],
-        srcWordimage: "https://www.arbulang.com/filmy/newspaper.png",
+        srcWord: ["http://localhost/arbulanguage.com/filmy/lekcja43/counting.mp4", "Kevin sam w domu (1990)"],
+        srcWordimage: "http://localhost/arbulanguage.com/filmy/lekcja43/counting.png",
         word: [
             "https://www.arbulang.com/voice/bike.mp4"
         ],
@@ -1487,5 +1483,144 @@ fiszki10.push(
         key: "now",
         category1: "nauka",
         category2: ["okresleniaMiejsca"]
-    }
+    },
+                                                {
+        id: [
+            752,
+            130,
+            238
+        ],
+        img: [
+                "https://www.arbulang.com/img/fiszki1/7a.jpg",
+                "https://www.arbulang.com/img/fiszki1/7b.jpg",
+                "https://www.arbulang.com/img/fiszki1/7c.jpg",
+                "https://www.arbulang.com/img/fiszki1/7d.jpg",
+                "https://www.arbulang.com/img/fiszki1/7e.jpg"
+        ],
+        translate: "Rysuję zwierzęta na papierze",
+        translateb: "[]",
+        translateb2: "[]",
+        srcWord: ["http://localhost/arbulanguage.com/filmy/lekcja44/drawing.mp4", "Kevin sam w domu (1990)"],
+        srcWordimage: "http://localhost/arbulanguage.com/filmy/lekcja44/drawing.png",
+        word: [
+            "https://www.arbulang.com/voice/bike.mp4"
+        ],
+        story: [
+                'To właśnie <u><b>on</u></b> jest <span class="adannotation" data-annotation="1"><b><u>hi</b></u></span>tem tego sezonu piłkarskiego',
+                'Samiec czyli <u><b>on</u></b> - <span class="adannotation" data-annotation="1"><b><u>hi</b></u></span>popotam',
+                '<u><b>On</b></u> - <span class="adannotation" data-annotation="1"><u><b>Hi</b></u></span>eronim odleciał balonem',
+                'Ma<span class="adannotation" data-annotation="1"><u><b>chi</u></b></span>nę do tortur wymyślił <u><b>on</u></b> - jest <span class="adannotation" data-annotation="1"><u><b>Hi</u></b></span>ndusem',
+                '<u><b>On</u></b> je ciastka <span class="adannotation" data-annotation="1"><u><b>hi</u></b></span>ty'
+        ],
+        desc: "I[aj] - ja",
+        sentence1: [
+            "I"
+        ],
+        sentence: [
+            "I",
+            "draw",
+            "animals"
+        ],
+        key: "i",
+        category2: ["osoby"],
+        category3: ["PresenttSimple", "PresentSimplePodmiot"]
+    },
+                                    {
+        id: [
+            753,
+            130,
+            238
+        ],
+        img: [
+            "https://www.arbulang.com/img/fiszki1/364a.jpg"
+        ],
+        story: [
+            "KOGNATY PARK (PL) - PARK (ENG)"
+        ],
+        desc: "sleeping[] - ",
+        sentence2: [
+            "draw"
+        ],
+        sentence: [
+            "I",
+            "draw",
+            "animals"
+        ],
+        key: "draw",
+        category1: "nauka",
+        category2: ["okresleniaMiejsca"]
+    },
+                                    {
+        id: [
+            754,
+            130,
+            238
+        ],
+        img: [
+            "https://www.arbulang.com/img/fiszki1/364a.jpg"
+        ],
+        story: [
+            "KOGNATY PARK (PL) - PARK (ENG)"
+        ],
+        desc: "sleeping[] - ",
+        sentence2: [
+            "animals"
+        ],
+        sentence: [
+            "I",
+            "draw",
+            "animals"
+        ],
+        key: "animals",
+        category1: "nauka",
+        category2: ["okresleniaMiejsca"]
+    },
+                                        {
+        id: [
+            755,
+            130,
+            239
+        ],
+        img: [
+            "https://www.arbulang.com/img/fiszki1/364a.jpg"
+        ],
+        story: [
+            "KOGNATY PARK (PL) - PARK (ENG)"
+        ],
+        desc: "sleeping[] - ",
+        sentence2: [
+            "on"
+        ],
+        sentence: [
+            "on",
+            "the paper"
+        ],
+        key: "on",
+        category1: "nauka",
+        category2: ["okresleniaMiejsca"]
+    },
+                                        {
+        id: [
+            756,
+            130,
+            239
+        ],
+        img: [
+            "https://www.arbulang.com/img/fiszki1/364a.jpg"
+        ],
+        story: [
+            "KOGNATY PARK (PL) - PARK (ENG)"
+        ],
+        desc: "sleeping[] - ",
+        sentence2: [
+            "the paper"
+        ],
+        sentence: [
+            "on",
+            "the paper"
+        ],
+        key: "paper",
+        category1: "nauka",
+        category2: ["okresleniaMiejsca"]
+    },
     );

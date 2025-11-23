@@ -235,7 +235,8 @@ story_button {
     position: absolute;
     padding: 10px;
     left: 170px;
-    top: 145px;
+    top: 205px;
+        width: 160px;
     margin: 5px;
     background-color: white;
     border: 1px solid #dddddd;
@@ -248,8 +249,9 @@ story_button {
                 .parzysta {
     position: absolute;
     padding: 10px;
-    left: -70px;
-    top: 145px;
+    left: -190px;
+        top: 165px;
+    width: 170px;
     margin: 5px;
     background-color: white;
     border: 1px solid #dddddd;

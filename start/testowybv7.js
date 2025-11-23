@@ -2973,7 +2973,6 @@ const fiszki10_part7 = [
             112,
             205
         ],
-        ],
     entries: [
         {
             id: 1,
