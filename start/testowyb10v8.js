@@ -912,9 +912,9 @@ fiszki10.push(
             "https://www.arbulang.com/img/fiszki1/733a.jpg"
         ],
         story: [
-            "KOGNATY PARK (PL) - PARK (ENG)"
+            "<b><u>Tej</b></u> ziomewej wieczornej <b><u>sty</b></u>czniowej pory jem bardzo <b><u>smaczną</b></u> kolację"
         ],
-        desc: "tasty[] - ",
+        desc: "tasty[tejsty] - smaczny",
         sentence2: [
             "tasty"
         ],
@@ -934,12 +934,12 @@ fiszki10.push(
             230
         ],
         img: [
-            "https://www.arbulang.com/img/fiszki1/364a.jpg"
+            "https://www.arbulang.com/img/fiszki1/555a.jpg"
         ],
         story: [
-            "KOGNATY PARK (PL) - PARK (ENG)"
+            "<u><b>Sup</u></b>er jest ta <u><b>zupa</u></b>"
         ],
-        desc: "soup[] - ",
+        desc: "soup[sup] - zupa",
         sentence2: [
             "soup"
         ],
@@ -959,11 +959,11 @@ fiszki10.push(
             231
         ],
         img: [
-                "https://www.arbulang.com/img/fiszki1/7a.jpg",
-                "https://www.arbulang.com/img/fiszki1/7b.jpg",
-                "https://www.arbulang.com/img/fiszki1/7c.jpg",
-                "https://www.arbulang.com/img/fiszki1/7d.jpg",
-                "https://www.arbulang.com/img/fiszki1/7e.jpg"
+                "https://www.arbulang.com/img/fiszki1/28aa.jpg",
+                "https://www.arbulang.com/img/fiszki1/28bb.jpg",
+                "https://www.arbulang.com/img/fiszki1/28cc.jpg",
+                "https://www.arbulang.com/img/fiszki1/28dd.jpg",
+                "https://www.arbulang.com/img/fiszki1/28ee.jpg"
         ],
         translate: "Kot chowa się pod stołem.",
         translateb: "[]",
@@ -974,13 +974,13 @@ fiszki10.push(
             "https://www.arbulang.com/voice/bike.mp4"
         ],
         story: [
-                'To właśnie <u><b>on</u></b> jest <span class="adannotation" data-annotation="1"><b><u>hi</b></u></span>tem tego sezonu piłkarskiego',
-                'Samiec czyli <u><b>on</u></b> - <span class="adannotation" data-annotation="1"><b><u>hi</b></u></span>popotam',
-                '<u><b>On</b></u> - <span class="adannotation" data-annotation="1"><u><b>Hi</b></u></span>eronim odleciał balonem',
-                'Ma<span class="adannotation" data-annotation="1"><u><b>chi</u></b></span>nę do tortur wymyślił <u><b>on</u></b> - jest <span class="adannotation" data-annotation="1"><u><b>Hi</u></b></span>ndusem',
-                '<u><b>On</u></b> je ciastka <span class="adannotation" data-annotation="1"><u><b>hi</u></b></span>ty'
+                "Na mojej łodzi <u><b>kat</u></b>amaran <u><b>kot</u></b> pomaga mi wiosłować",
+                "<u><b>Kat</u></b>arzyna idzie na spacer z <u><b>kotem</u></b>",
+                "W państwie <u><b>Kat</u></b>ar, <u><b>kot</u></b> ma szczególne uznanie wśród ludzi",
+                "Ten <u><b>kot</u></b> to <u><b>kat</u></b>astrofa",
+                "W <u><b>kat</u></b>egori zwierząt moja dziewczyna lubi najbardziej <u><b>koty</u></b>"
         ],
-        desc: "cat[kat] - kot",
+        desc: "{the) cat[de kat] - (ten) kot",
         sentence1: [
             "The cat"
         ],
@@ -999,12 +999,12 @@ fiszki10.push(
             231
         ],
         img: [
-            "https://www.arbulang.com/img/fiszki1/364a.jpg"
+            "https://www.arbulang.com/img/fiszki1/736a.jpg"
         ],
         story: [
-            "KOGNATY PARK (PL) - PARK (ENG)"
+            "<u><b>Haj</u></b>er przodowy - czyli górnik <u><b>ukrywa</u></b> swoje zarobki, ale często chodzi <u><b>d</u></b>o <u><b>s</u></b>klepu"
         ],
-        desc: "hides[] - ",
+        desc: "hides[hajds] - ukrywać",
         sentence2: [
             "hides"
         ],
@@ -1023,12 +1023,14 @@ fiszki10.push(
             232
         ],
         img: [
-            "https://www.arbulang.com/img/fiszki1/364a.jpg"
+                "https://www.arbulang.com/img/fiszki1/351a.jpg",
+                "https://www.arbulang.com/img/fiszki1/351b.jpg"
         ],
         story: [
-            "KOGNATY PARK (PL) - PARK (ENG)"
+                "<u><b>Pod</u></b> tym hasłem czyli R<u><b>ande</u></b> Wu kryje się pójście na randkę",
+                "Te maszyny są zrobione <u><b>pod</u></b> kraj Ug<u><b>ande</u></b>. Czyli tam będzie wydobycie węgla"
         ],
-        desc: "under[] - ",
+        desc: "under[ande(r)] - pod",
         sentence2: [
             "under"
         ],
@@ -1047,12 +1049,12 @@ fiszki10.push(
             232
         ],
         img: [
-            "https://www.arbulang.com/img/fiszki1/364a.jpg"
+            "https://www.arbulang.com/img/fiszki1/660a.jpg"
         ],
         story: [
-            "KOGNATY PARK (PL) - PARK (ENG)"
+            "Z <u><b>tej</u></b> choroby jest najgorszy <u><b>ból</u></b>. Lekarz pokazał mi to na <u><b>tablicy</u></b>"
         ],
-        desc: "table[] - ",
+        desc: "table[tejbul] - tablica, tabela",
         sentence2: [
             "the table"
         ],
@@ -1071,11 +1073,11 @@ fiszki10.push(
             233
         ],
         img: [
-                "https://www.arbulang.com/img/fiszki1/7a.jpg",
-                "https://www.arbulang.com/img/fiszki1/7b.jpg",
-                "https://www.arbulang.com/img/fiszki1/7c.jpg",
-                "https://www.arbulang.com/img/fiszki1/7d.jpg",
-                "https://www.arbulang.com/img/fiszki1/7e.jpg"
+            "https://www.arbulang.com/img/fiszki1/19a.jpg",
+            "https://www.arbulang.com/img/fiszki1/19b.jpg",
+            "https://www.arbulang.com/img/fiszki1/19c.jpg",
+            "https://www.arbulang.com/img/fiszki1/19d.jpg",
+            "https://www.arbulang.com/img/fiszki1/19e.jpg"
         ],
         translate: "Zamykam drzwi przed snem",
         translateb: "[]",
@@ -1086,11 +1088,11 @@ fiszki10.push(
             "https://www.arbulang.com/voice/bike.mp4"
         ],
         story: [
-                'To właśnie <u><b>on</u></b> jest <span class="adannotation" data-annotation="1"><b><u>hi</b></u></span>tem tego sezonu piłkarskiego',
-                'Samiec czyli <u><b>on</u></b> - <span class="adannotation" data-annotation="1"><b><u>hi</b></u></span>popotam',
-                '<u><b>On</b></u> - <span class="adannotation" data-annotation="1"><u><b>Hi</b></u></span>eronim odleciał balonem',
-                'Ma<span class="adannotation" data-annotation="1"><u><b>chi</u></b></span>nę do tortur wymyślił <u><b>on</u></b> - jest <span class="adannotation" data-annotation="1"><u><b>Hi</u></b></span>ndusem',
-                '<u><b>On</u></b> je ciastka <span class="adannotation" data-annotation="1"><u><b>hi</u></b></span>ty'
+            "<u><b>Ja</u></b> jestem Piotrek, mam okulary ochronne, gdy jechałem rowerem wleciała mi mucha do <u><b>oka</u></b>, krzyczałem <u><b>ajjj</u></b> - dlaczego to <u><b>mi</u></b> wleciała mucha do <u><b>oka</u></b>, <u><b>ajjj</u></b>",
+            "M<u><b>aj</u></b>a ma zezowate <u><b>oko</u></b> i mówi, no <u><b>JA</u></b> widzę ciebie podwójnie",
+            "Nauka o mitach, takich jak królowa G</u></b>aj</u></b>a to ten temat, gdzie <u><b>ja</u></b> mam największą wiedze",
+            "Teraz <u><b>ja</u></b> występuję na weselu jako wodzirej i śpiewam <u><b>Aj</u></b>-ja-jaj tak słodko jest tu z wami być..",
+            "Mo<u><b>ja</u></b> babcia idzie do kurnika po jaja, a <u><b>ja</u></b> będę za chwilę jadł jajecznice"
         ],
         desc: "I[aj] - ja",
         sentence1: [

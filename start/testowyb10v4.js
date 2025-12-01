@@ -50,6 +50,9 @@ fiszki10.push(
                 sentence1: [
                         "has"
                 ],
+                                                            sentence1b: [
+            "funkcja_pomocnicza"
+        ],
                 sentence: [
                         "The",
                         "movie",

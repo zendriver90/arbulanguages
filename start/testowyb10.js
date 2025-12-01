@@ -1981,7 +1981,7 @@ const fiszki10 = [
             "developing"
         ],
                                                                 sentence2b: [
-            "rozwijająca się"
+            "rozwijająca_się"
         ],
                                 sentence2c: [
             "deweloping"
@@ -3839,7 +3839,7 @@ const fiszki10 = [
             "approach"
         ],
         sentence2b: [
-            "podejść do"
+            "podejść_do"
         ],
                                                             sentence2c: [
             "eprołcz"

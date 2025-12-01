@@ -1486,7 +1486,7 @@ fiszki10.push(
                                                 sentence2b: [
             "jest"
         ],
-                                                                                                                    sentence1c: [
+                                                                                                                    sentence2c: [
             "is"
         ],
         sentence: [
@@ -1521,7 +1521,7 @@ fiszki10.push(
                                                 sentence2b: [
             "wysoka"
         ],
-                                                                                                                            sentence1c: [
+                                                                                                                            sentence2c: [
             "haj"
         ],
         sentence: [
@@ -1563,8 +1563,11 @@ fiszki10.push(
         sentence1: [
             "He"
         ],
-                                                sentence1b: [
+        sentence1b: [
             "On"
+        ],
+        sentence1c: [
+            "Hi"
         ],
         sentence: [
             "He",
@@ -1599,6 +1602,9 @@ fiszki10.push(
                                                 sentence1b: [
             "myśli"
         ],
+                sentence1c: [
+            "finks"
+        ],
         sentence: [
             "He",
             "thinks",
@@ -1626,6 +1632,9 @@ fiszki10.push(
                                                 sentence1b: [
             "(że) to jest"
         ],
+                        sentence1c: [
+            "its"
+        ],
         sentence: [
             "He",
             "thinks",
@@ -1652,6 +1661,9 @@ fiszki10.push(
                                                         sentence1b: [
             "jedyny"
         ],
+                                sentence1c: [
+            "onli"
+        ],
         sentence: [
             "He",
             "thinks",
@@ -1677,6 +1689,9 @@ fiszki10.push(
         ],
                                                                 sentence1b: [
             "sposób"
+        ],
+                                sentence1c: [
+            "lej"
         ],
         sentence: [
             "He",
@@ -1716,6 +1731,9 @@ fiszki10.push(
         sentence2b: [
             "żeby"
         ],
+                                        sentence2c: [
+            "tu"
+        ],
         sentence: [
             "to",
             "avoid",
@@ -1747,6 +1765,9 @@ fiszki10.push(
                 sentence2b: [
             "uniknąć"
         ],
+                                                sentence2c: [
+            "ewoid"
+        ],
         sentence: [
             "to",
             "avoid",
@@ -1772,6 +1793,9 @@ fiszki10.push(
                         sentence2b: [
             "kolejnej"
         ],
+                                                        sentence2c: [
+            "enader"
+        ],
         sentence: [
             "to",
             "avoid",
@@ -1796,6 +1820,9 @@ fiszki10.push(
         ],
                                 sentence2b: [
             "wojny"
+        ],
+                                                                sentence2c: [
+            "łor"
         ],
         sentence: [
             "to",
@@ -1840,6 +1867,9 @@ fiszki10.push(
                                 sentence1b: [
             "(Ta)"
         ],
+                                                                        sentence1c: [
+            "De"
+        ],
         sentence: [
             "The",
             "idea",
@@ -1874,6 +1904,9 @@ fiszki10.push(
                                 sentence1b: [
             "idea"
         ],
+                                                                                sentence1c: [
+            "ajdia"
+        ],
         sentence: [
             "The",
             "idea",
@@ -1907,6 +1940,9 @@ fiszki10.push(
                                         sentence1b: [
             "(tego)"
         ],
+                                                                                        sentence1c: [
+            "of"
+        ],
         sentence: [
             "The",
             "idea",
@@ -1930,12 +1966,15 @@ fiszki10.push(
         ],
         img: "https://www.arbulang.com/img/fiszki1/157a.jpg",
         story: "Szkod<b><u>liwi</b></u> nauczyciele nie chcą <b><u>opuścić</b></u> naszej szkoły w Mo<b><u>ng</b></u>olii",
-        desc: "leaving[living] - opuścić",
+        desc: "leaving[liwing] - opuścić",
         sentence1: [
             "leaving"
         ],                                        
         sentence1b: [
             "opuszczenia"
+        ],
+                                                                                                sentence1c: [
+            "liwing"
         ],
         sentence: [
             "The",
@@ -1969,6 +2008,9 @@ fiszki10.push(
         ],
                 sentence1b: [
             "jego"
+        ],
+                                                                                                        sentence1c: [
+            "his"
         ],
         sentence: [
             "The",
@@ -2011,6 +2053,9 @@ fiszki10.push(
                 sentence1b: [
             "szkoły"
         ],
+                                                                                                                sentence1c: [
+            "skul"
+        ],
         sentence: [
             "The",
             "idea",
@@ -2044,6 +2089,9 @@ fiszki10.push(
                 sentence2b: [
             "była"
         ],
+                                                                                                                        sentence2c: [
+            "łos"
+        ],
         sentence: [
             "was",
             "also",
@@ -2068,6 +2116,9 @@ fiszki10.push(
         ],
                 sentence2b: [
             "także"
+        ],
+                                                                                                                                sentence2c: [
+            "olso"
         ],
         sentence: [
             "was",
@@ -2094,6 +2145,9 @@ fiszki10.push(
                         sentence2b: [
             "bardzo"
         ],
+            sentence2c: [
+            "wery"
+        ],
         sentence: [
             "was",
             "also",
@@ -2118,6 +2172,9 @@ fiszki10.push(
         ],
                         sentence2b: [
             "bolesna"
+        ],
+                    sentence2c: [
+            "peinful"
         ],
         sentence: [
             "was",
@@ -2162,6 +2219,9 @@ fiszki10.push(
                                 sentence1b: [
             "(Ten)"
         ],
+                            sentence1c: [
+            "De"
+        ],
         sentence: [
             "The",
             "invention",
@@ -2196,6 +2256,9 @@ fiszki10.push(
                                 sentence1b: [
             "wynalazek"
         ],
+                                    sentence1c: [
+            "inwenszyn"
+        ],
         sentence: [
             "The",
             "invention",
@@ -2228,6 +2291,9 @@ fiszki10.push(
         ],
                                         sentence1b: [
             "(czegoś)"
+        ],
+                                            sentence1c: [
+            "of"
         ],
         sentence: [
             "The",
@@ -2271,6 +2337,9 @@ fiszki10.push(
                                         sentence1b: [
             "(takiego czegoś jak)"
         ],
+                                                    sentence1c: [
+            "de"
+        ],
         sentence: [
             "The",
             "invention",
@@ -2304,6 +2373,9 @@ fiszki10.push(
                                                 sentence1b: [
             "koła"
         ],
+                                                            sentence1c: [
+            "łil"
+        ],
         sentence: [
             "The",
             "invention",
@@ -2330,6 +2402,9 @@ fiszki10.push(
         ],
                                                         sentence1b: [
             "było"
+        ],
+                                                                    sentence1c: [
+            "łos"
         ],
         sentence: [
             "The",
@@ -2364,6 +2439,9 @@ fiszki10.push(
                 sentence2b: [
             "wielkim"
         ],
+                                                                            sentence2c: [
+            "e big"
+        ],
         sentence: [
             "(a) big",
             "step",
@@ -2388,6 +2466,9 @@ fiszki10.push(
                                                         sentence2b: [
             "krokiem"
         ],
+                                                                                    sentence2c: [
+            "step"
+        ],
         sentence: [
             "(a) big",
             "step",
@@ -2411,6 +2492,9 @@ fiszki10.push(
         ],
                                                         sentence2b: [
             "naprzód"
+        ],
+                                                                                            sentence2c: [
+            "fułerd"
         ],
         sentence: [
             "(a) big",
@@ -2442,6 +2526,9 @@ fiszki10.push(
                                                         sentence1b: [
             "Powiedz"
         ],
+                    sentence1c: [
+            "Tel"
+        ],
         sentence: [
             "Tell",
             "me",
@@ -2469,6 +2556,9 @@ fiszki10.push(
                                                         sentence1b: [
             "mi"
         ],
+                            sentence1c: [
+            "mi"
+        ],
         sentence: [
             "Tell",
             "me",
@@ -2494,6 +2584,9 @@ fiszki10.push(
         ],
           sentence1b: [
             "dlaczego"
+        ],
+                                    sentence1c: [
+            "łaj"
         ],
         sentence: [
             "Tell",
@@ -2533,6 +2626,9 @@ fiszki10.push(
                   sentence1b: [
             "ten"
         ],
+                                            sentence1c: [
+            "dis"
+        ],
         sentence: [
             "Tell",
             "me",
@@ -2563,6 +2659,9 @@ fiszki10.push(
         ],
                   sentence1b: [
             "most"
+        ],
+                                                    sentence1c: [
+            "brydź"
         ],
         sentence: [
             "Tell",
@@ -2609,6 +2708,9 @@ fiszki10.push(
                   sentence2b: [
             "jest"
         ],
+                                                            sentence2c: [
+            "is"
+        ],
         sentence: [
             "is",
             "so",
@@ -2643,6 +2745,9 @@ fiszki10.push(
                           sentence2b: [
             "tak bardzo"
         ],
+                                                                    sentence2c: [
+            "soł"
+        ],
         sentence: [
             "is",
             "so",
@@ -2668,6 +2773,9 @@ fiszki10.push(
         ],
                           sentence2b: [
             "ważny (znaczący)"
+        ],
+                                                                            sentence2c: [
+            "important"
         ],
         sentence: [
             "is",
@@ -2707,6 +2815,9 @@ fiszki10.push(
                                   sentence2b: [
             "dla"
         ],
+                                                                                    sentence2c: [
+            "tu"
+        ],
         sentence: [
             "is",
             "so",
@@ -2738,6 +2849,9 @@ fiszki10.push(
         ],
                                           sentence2b: [
             "Ciebie"
+        ],
+                                                                                            sentence2c: [
+            "ju"
         ],
         sentence: [
             "is",
@@ -2771,6 +2885,9 @@ fiszki10.push(
         sentence1b: [
             "(Ten konkretny) użytkownik"
         ],
+                                                                                                    sentence1c: [
+            "E juzer"
+        ],
         sentence: [
             "(A) user",
             "may",
@@ -2800,6 +2917,9 @@ fiszki10.push(
                 sentence1b: [
             "może"
         ],
+                                                                                                            sentence1c: [
+            "mej"
+        ],
         sentence: [
             "(A) user",
             "may",
@@ -2827,6 +2947,9 @@ fiszki10.push(
         ],
                 sentence1b: [
             "dodać"
+        ],
+                                                                                                                    sentence1c: [
+            "ad"
         ],
         sentence: [
             "(A) user",
@@ -2856,6 +2979,9 @@ fiszki10.push(
                 sentence1b: [
             "albo"
         ],
+                sentence1c: [
+            "or"
+        ],
         sentence: [
             "(A) user",
             "may",
@@ -2876,13 +3002,16 @@ fiszki10.push(
             57
         ],
         img: "https://www.arbulang.com/img/fiszki1/187a.jpg",
-        story: "Na <u><b>re</u></b>sztę towaru mam już za<u><b>mów</u></b>ienie, to co pozostanie wyrzucę/usunę z magazynu",
-        desc: "remove[remuw] - usunąć",
+        story: "Na <u><b>re</u></b>sztę towaru mam już za<u><b>mów</u></b>ienie, to co pozostanie wyrzucę/usunę z magazynu. Towar do klienta zawiozę <u><b>ri</u></b>kszą",
+        desc: "remove[rimuw/remuw] - usunąć",
         sentence1: [
             "remove"
         ],
                 sentence1b: [
             "usunąć"
+        ],
+                        sentence1c: [
+            "rimuw"
         ],
         sentence: [
             "(A) user",
@@ -2912,6 +3041,9 @@ fiszki10.push(
                 sentence1b: [
             "te"
         ],
+                                sentence1c: [
+            "douz"
+        ],
         sentence: [
             "(A) user",
             "may",
@@ -2939,6 +3071,9 @@ fiszki10.push(
         ],
                 sentence1b: [
             "konta"
+        ],
+                                        sentence1c: [
+            "ekaunts"
         ],
         sentence: [
             "(A) user",
@@ -2982,6 +3117,9 @@ fiszki10.push(
                 sentence2b: [
             "z"
         ],
+                                                sentence2c: [
+            "łiz"
+        ],
         sentence: [
             "with",
             "ease"
@@ -3009,6 +3147,9 @@ fiszki10.push(
             "with",
             "ease"
         ],
+                                                        sentence2c: [
+            "izz"
+        ],
         key: "ease",
         category1: "nauka",
         category2: [""]
@@ -3033,6 +3174,9 @@ fiszki10.push(
         ],
                          sentence1b: [
             "Ona"
+        ],
+                                                                sentence1c: [
+            "Szi"
         ],
         sentence: [
             "She",
@@ -3061,6 +3205,9 @@ fiszki10.push(
                                  sentence1b: [
             "oferuje"
         ],
+                                                                        sentence1c: [
+            "ofers"
+        ],
         sentence: [
             "She",
             "offers",
@@ -3088,6 +3235,9 @@ fiszki10.push(
                                          sentence1b: [
             "jakąś"
         ],
+                                                                                sentence1c: [
+            "sam"
+        ],
         sentence: [
             "She",
             "offers",
@@ -3113,6 +3263,9 @@ fiszki10.push(
         ],
                                          sentence1b: [
             "radę"
+        ],
+                                                                                        sentence1c: [
+            "edwajs"
         ],
         sentence: [
             "She",
@@ -3146,6 +3299,9 @@ fiszki10.push(
                                          sentence1b: [
             "wobec (na temat)"
         ],
+                                                                                                sentence1c: [
+            "ebałt"
+        ],
         sentence: [
             "She",
             "offers",
@@ -3171,6 +3327,9 @@ fiszki10.push(
         ],
                                          sentence2b: [
             "jak"
+        ],
+                   sentence2c: [
+            "hał"
         ],
         sentence: [
             "how",
@@ -3210,6 +3369,9 @@ fiszki10.push(
                                          sentence2b: [
             ""
         ],
+                           sentence2c: [
+            ""
+        ],
         sentence: [
             "how",
             "to",
@@ -3241,6 +3403,9 @@ fiszki10.push(
         ],
                                          sentence2b: [
             "pomóc"
+        ],
+                                   sentence2c: [
+            "help"
         ],
         sentence: [
             "how",

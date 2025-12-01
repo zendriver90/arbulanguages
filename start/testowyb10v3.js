@@ -26,6 +26,9 @@ fiszki10.push(
                                                  sentence2b: [
             "Twojemu"
         ],
+                                           sentence2c: [
+            "jor"
+        ],
         sentence: [
             "how",
             "to",
@@ -57,6 +60,9 @@ fiszki10.push(
         ],
                                                  sentence2b: [
             "dziecku"
+        ],
+                                                   sentence2c: [
+            "czaild"
         ],
         sentence: [
             "how",
@@ -102,6 +108,9 @@ fiszki10.push(
                             sentence1b: [
             "Twoje"
         ],
+                                                           sentence1c: [
+            "Jor"
+        ],
         sentence: [
             "Your",
             "kind",
@@ -133,6 +142,9 @@ fiszki10.push(
                                     sentence1b: [
             "miłe"
         ],
+                                                                   sentence1c: [
+            "kaind"
+        ],
         sentence: [
             "Your",
             "kind",
@@ -157,6 +169,9 @@ fiszki10.push(
                                     sentence1b: [
             "słowa"
         ],
+                                                                           sentence1c: [
+            "łerds"
+        ],
         sentence: [
             "Your",
             "kind",
@@ -180,6 +195,9 @@ fiszki10.push(
         ],
                                     sentence2b: [
             "zrobiły"
+        ],
+                                sentence2c: [
+            "mejd"
         ],
         sentence: [
             "made",
@@ -213,6 +231,9 @@ fiszki10.push(
                                     sentence2b: [
             "mój"
         ],
+                                        sentence2c: [
+            "maj"
+        ],
         sentence: [
             "made",
             "my",
@@ -239,6 +260,9 @@ fiszki10.push(
         ],
                                     sentence2b: [
             "dzień"
+        ],
+                                                sentence2c: [
+            "dej"
         ],
         sentence: [
             "made",
@@ -282,6 +306,9 @@ fiszki10.push(
                                     sentence1b: [
             "(Ja)"
         ],
+                                                        sentence1c: [
+            "Aj"
+        ],
         sentence: [
             "I",
             "appreciate"
@@ -311,6 +338,9 @@ fiszki10.push(
         ],
                                     sentence1b: [
             "doceniam"
+        ],
+                                                                sentence1c: [
+            "eprisziejt"
         ],
         sentence: [
             "I",
@@ -348,6 +378,9 @@ fiszki10.push(
                                     sentence2b: [
             "Twoją"
         ],
+                                                                        sentence2c: [
+            "jor"
+        ],
         sentence: [
             "your",
             "assistance",
@@ -378,6 +411,9 @@ fiszki10.push(
                                     sentence2b: [
             "pomoc (asystę)"
         ],
+                                                                                sentence2c: [
+            "esistens"
+        ],
         sentence: [
             "your",
             "assistance",
@@ -401,6 +437,9 @@ fiszki10.push(
         ],
                                             sentence2b: [
             "dzisiaj"
+        ],
+                                                                                        sentence2c: [
+            "tudej"
         ],
         sentence: [
             "your",
@@ -444,6 +483,9 @@ fiszki10.push(
                                             sentence1b: [
             "(Ten)"
         ],
+                sentence1c: [
+            "Dis"
+        ],
         sentence: [
             "This",
             "flower",
@@ -474,6 +516,9 @@ fiszki10.push(
         ],
                                             sentence1b: [
             "kwiat"
+        ],
+                        sentence1c: [
+            "flałer"
         ],
         sentence: [
             "This",
@@ -517,6 +562,9 @@ fiszki10.push(
                                             sentence1b: [
             "jest"
         ],
+                                sentence1c: [
+            "is"
+        ],
         sentence: [
             "This",
             "flower",
@@ -550,6 +598,9 @@ fiszki10.push(
         ],
                                             sentence1b: [
             "żółty"
+        ],
+                                        sentence1c: [
+            "jeloł"
         ],
         sentence: [
             "This",
@@ -588,6 +639,9 @@ fiszki10.push(
                                             sentence2b: [
             "ale"
         ],
+                                                sentence2c: [
+            "bat"
+        ],
         sentence: [
             "but",
             "all",
@@ -614,6 +668,9 @@ fiszki10.push(
                                             sentence2b: [
             "wszystkie"
         ],
+                                                        sentence2c: [
+            "ol"
+        ],
         sentence: [
             "but",
             "all",
@@ -639,6 +696,9 @@ fiszki10.push(
         ],
                                             sentence2b: [
             "inne"
+        ],
+                                                                sentence2c: [
+            "de aders"
         ],
         sentence: [
             "but",
@@ -672,6 +732,9 @@ fiszki10.push(
                                             sentence2b: [
             "są"
         ],
+                                                                        sentence2c: [
+            "ar"
+        ],
         sentence: [
             "but",
             "all",
@@ -697,6 +760,9 @@ fiszki10.push(
         ],
                                             sentence2b: [
             "niebieskie"
+        ],
+                                                                                sentence2c: [
+            "blu"
         ],
         sentence: [
             "but",
@@ -730,6 +796,9 @@ fiszki10.push(
         ],
                                             sentence1b: [
             "Ona"
+        ],
+                                                                                        sentence1c: [
+            "Szi"
         ],
         sentence: [
             "She",
@@ -772,6 +841,12 @@ fiszki10.push(
         sentence1: [
             "is"
         ],
+                                                    sentence1b: [
+            "(jest_w_trakcie)-czasownik_to-be"
+        ],
+                                                                                                sentence1c: [
+            "is"
+        ],
         sentence: [
             "She",
             "is",
@@ -791,10 +866,13 @@ fiszki10.push(
         story: "Franek czyta o stanie Flo<b><u>rid</b></u>a i cieszy sie nauką. Do Florydy czasami wyjeżdza na wakacje Ewa M<u><b>ing</u></b>e",
         desc: "reading[riding] - czyta",
         sentence1: [
-            "is reading"
+            "reading"
         ],
         sentence1b: [
             "czyta"
+        ],
+                                                                                                        sentence1c: [
+            "riding"
         ],
         sentence: [
             "She",
@@ -819,6 +897,9 @@ fiszki10.push(
         ],
                 sentence2b: [
             "(tę)"
+        ],
+                                                                                                                sentence2c: [
+            "e"
         ],
         sentence: [
             "a",
@@ -845,6 +926,9 @@ fiszki10.push(
                 sentence2b: [
             "nową"
         ],
+                                                                                                                        sentence2c: [
+            "nju"
+        ],
         sentence: [
             "a",
             "new",
@@ -870,6 +954,9 @@ fiszki10.push(
                         sentence2b: [
             "książkę"
         ],
+                                                                                                                                sentence2c: [
+            "buk"
+        ],
         sentence: [
             "a",
             "new",
@@ -894,6 +981,9 @@ fiszki10.push(
         ],
                         sentence2b: [
             "teraz"
+        ],
+                                                                                                                                        sentence2c: [
+            "nał"
         ],
         sentence: [
             "a",
@@ -927,6 +1017,9 @@ fiszki10.push(
                         sentence1b: [
             "Oni"
         ],
+            sentence1c: [
+            "Dej"
+        ],
         sentence: [
             "They",
             "are",
@@ -956,8 +1049,11 @@ fiszki10.push(
         sentence1: [
             "are"
         ],
-                                sentence1b: [
-            ""
+                                                    sentence1b: [
+            "(jest_w_trakcie)-czasownik_to-be"
+        ],
+                    sentence1c: [
+            "ar"
         ],
         sentence: [
             "They",
@@ -979,10 +1075,13 @@ fiszki10.push(
         story: "<u><b>Gram</u></b> w piłke tak szybko jakbym był Bo<u><b>ing</u></b>iem i odebrałem piłkę nawet <u><b>ple</u></b>cami",
         desc: "playing[pleing] - grać",
         sentence1: [
-            "are playing"
+            "playing"
         ],
                                 sentence1b: [
             "grają"
+        ],
+                            sentence1c: [
+            "pleing"
         ],
         sentence: [
             "They",
@@ -1008,6 +1107,9 @@ fiszki10.push(
         ],
                                         sentence1b: [
             "w piłkę"
+        ],
+                                    sentence1c: [
+            "futbol"
         ],
         sentence: [
             "They",
@@ -1053,6 +1155,9 @@ fiszki10.push(
                                         sentence2b: [
             "w"
         ],
+                                            sentence2c: [
+            "at"
+        ],
         sentence: [
             "at",
             "the",
@@ -1092,6 +1197,9 @@ fiszki10.push(
                                         sentence2b: [
             "tym"
         ],
+                                                    sentence2c: [
+            "de"
+        ],
         sentence: [
             "at",
             "the",
@@ -1121,6 +1229,9 @@ fiszki10.push(
         ],
                                         sentence2b: [
             "momencie"
+        ],
+                                                            sentence2c: [
+            "mołment"
         ],
         sentence: [
             "at",
@@ -1168,6 +1279,9 @@ fiszki10.push(
                                         sentence1b: [
             "On"
         ],
+                                                                    sentence1c: [
+            "Hi"
+        ],
         sentence: [
             "He",
             "is",
@@ -1208,7 +1322,13 @@ fiszki10.push(
         ],
         desc: "is[is] - jest",
         sentence1: [
-            ""
+            "is"
+        ],
+                                                            sentence1b: [
+            "(jest_w_trakcie)-czasownik_to-be"
+        ],
+                                                                            sentence1c: [
+            "is"
         ],
         sentence: [
             "He",
@@ -1230,10 +1350,13 @@ fiszki10.push(
         story: "<u><b>Ku</u></b>charz ze mnie jest <u><b>king</u></b>, gotuję fajne potrawy",
         desc: "cooking[kuking] - teraz",
         sentence1: [
-            "is cooking"
+            "cooking"
         ],
                                         sentence1b: [
             "gotuje"
+        ],
+                                                                            sentence1c: [
+            "kuking"
         ],
         sentence: [
             "He",
@@ -1260,6 +1383,9 @@ fiszki10.push(
                                         sentence1b: [
             "kolację"
         ],
+                                                                            sentence1c: [
+            "diner"
+        ],
         sentence: [
             "He",
             "is",
@@ -1285,6 +1411,9 @@ fiszki10.push(
                                                 sentence2b: [
             "dla"
         ],
+                                                                            sentence2c: [
+            "for"
+        ],
         sentence: [
             "for",
             "us",
@@ -1309,6 +1438,9 @@ fiszki10.push(
                                         sentence2b: [
             "nas"
         ],
+                                                                                    sentence2c: [
+            "as"
+        ],
         sentence: [
             "for",
             "us",
@@ -1331,7 +1463,10 @@ fiszki10.push(
             "tonight"
         ],
                                                 sentence2b: [
-            "dziś wieczorem"
+            "dziś_wieczorem"
+        ],
+                                                                                            sentence2c: [
+            "tunajt"
         ],
         sentence: [
             "for",
@@ -1373,10 +1508,13 @@ fiszki10.push(
         ],
         desc: "i[aj] - ja",
         sentence1: [
-            ""
+            "I"
         ],
                             sentence1b: [
-            ""
+            "(Ja)"
+        ],
+                            sentence1c: [
+            "Aj"
         ],
         sentence: [
             "I",
@@ -1411,7 +1549,13 @@ fiszki10.push(
         ],
         desc: "am[em] - jestem",
         sentence1: [
-            ""
+            "am"
+        ],
+                                                    sentence1b: [
+            "(jest_w_trakcie)-czasownik_to-be"
+        ],
+                                    sentence1c: [
+            "em"
         ],
         sentence: [
             "I",
@@ -1432,10 +1576,13 @@ fiszki10.push(
         story: "Kiedy <u><b>pracuje</u></b> mam taki swoisty pa<u><b>łer</u></b>(power) i czuje się jak <u><b>king</u></b>(król)",
         desc: "working[łerking] - pracować",
         sentence1: [
-            "I am working"
+            "working"
         ],
                             sentence1b: [
-            "(Ja) pracuję"
+            "pracuję"
+        ],
+                                            sentence1c: [
+            "łerking"
         ],
         sentence: [
             "I",
@@ -1460,6 +1607,9 @@ fiszki10.push(
         ],
                                     sentence2b: [
             "nad"
+        ],
+                                                    sentence2c: [
+            "on"
         ],
         sentence: [
             "on",
@@ -1486,6 +1636,9 @@ fiszki10.push(
         ],
                                             sentence2b: [
             "(takim)"
+        ],
+                                                            sentence2c: [
+            "e"
         ],
         sentence: [
             "on",
@@ -1519,6 +1672,9 @@ fiszki10.push(
                                             sentence2b: [
             "dużym"
         ],
+                                                                    sentence2c: [
+            "big"
+        ],
         sentence: [
             "on",
             "a",
@@ -1545,6 +1701,9 @@ fiszki10.push(
                                             sentence2b: [
             "projektem"
         ],
+                                                                            sentence2c: [
+            "prodźekt"
+        ],
         sentence: [
             "on",
             "a",
@@ -1570,6 +1729,9 @@ fiszki10.push(
         ],
                                             sentence2b: [
             "dzisiaj"
+        ],
+                                                                                    sentence2c: [
+            "tudej"
         ],
         sentence: [
             "on",
@@ -1610,6 +1772,9 @@ fiszki10.push(
                                             sentence1b: [
             "Nastolatkowie"
         ],
+            sentence1c: [
+            "de tinejdźers"
+        ],
         sentence: [
             "The teenagers",
             "are",
@@ -1636,7 +1801,13 @@ fiszki10.push(
         ],
         desc: "are[ar] - jest/są - gramatyka",
         sentence1: [
-            ""
+            "are"
+        ],
+                                                            sentence1b: [
+            "(są_w_trakcie)-czasownik_to-be"
+        ],
+                    sentence1c: [
+            "ar"
         ],
         sentence: [
             "The teenagers",
@@ -1657,10 +1828,13 @@ fiszki10.push(
         story: "Na słowo <b><u>s</b></u>tart wszyscy do basenu - p<b><u>ły</b></u>wać zapowiada trener. Trening wychodzi <b><u>mi</b></u> na dobre i czasami jestem najlepszy, więc b<b><u>ing</b></u>o!",
         desc: "swimming[słyming] - pływać",
         sentence1: [
-            "are swimming"
+            "swimming"
         ],
                                                     sentence1b: [
             "pływają"
+        ],
+                            sentence1c: [
+            "słyming"
         ],
         sentence: [
             "The teenagers",
@@ -1686,6 +1860,9 @@ fiszki10.push(
                                                     sentence2b: [
             "w"
         ],
+                                    sentence2c: [
+            "in"
+        ],
         sentence: [
             "in",
             "the pool"
@@ -1708,6 +1885,9 @@ fiszki10.push(
         ],
                                                     sentence2b: [
             "basenie"
+        ],
+                                            sentence2c: [
+            "de pul"
         ],
         sentence: [
             "in",
@@ -1741,6 +1921,9 @@ fiszki10.push(
                                                     sentence1b: [
             "(My)"
         ],
+                                                    sentence1c: [
+            "Łi"
+        ],
         sentence: [
             "We",
             "are",
@@ -1770,7 +1953,13 @@ fiszki10.push(
         ],
         desc: "are[ar] - jest/są - gramatyka",
         sentence1: [
-            ""
+            "are"
+        ],
+                                                            sentence1b: [
+            "(są_w_trakcie)-czasownik_to-be"
+        ],
+                                                            sentence1c: [
+            "ar"
         ],
         sentence: [
             "We",
@@ -1794,10 +1983,13 @@ fiszki10.push(
         story: "Ostatnio ma<u><b>ło</u></b> <u><b>oglądam</u></b> seriali, najczęściej o chińskiej dynastii <u><b>Ching</u></b>",
         desc: "watching[łoczing] - oglądać",
         sentence1: [
-            "are watching"
+            "watching"
         ],
                                                     sentence1b: [
             "oglądamy"
+        ],
+                                                                    sentence1c: [
+            "łoczing"
         ],
         sentence: [
             "We",
@@ -1826,6 +2018,9 @@ fiszki10.push(
                                                     sentence1b: [
             "(taki) film"
         ],
+                                                                            sentence1c: [
+            "e muwi"
+        ],
         sentence: [
             "We",
             "are",
@@ -1852,11 +2047,13 @@ fiszki10.push(
             "<b><u>Dobrze</b></u> żyłeś. A <b><u>t</b></u>o jest <b><u>raj</b></u> dla ciebie",
             "Swoje <u><b>rajt</u></b>uzy na zimę zawsze zaczynam od <u><b>prawej</u></b> strony, <u><b>teraz</u></b> kiedy jest zimno muszę je ubrać"
         ],
-        desc: "right[] - right(prawo, right now(teraz)",
+        desc: "right[rajt] - right(prawo, right now(teraz)",
         sentence1: [
-            ""
+            "right"
         ],
-        
+                                                                                    sentence1c: [
+            "rajt"
+        ],
         sentence: [
             "We",
             "are",
@@ -1879,10 +2076,13 @@ fiszki10.push(
         story: "<u><b>Teraz</u></b> moja ulubiona woda - to <u><b>Nał</u></b>ęczowska",
         desc: "now[nał] - teraz",
         sentence1: [
-            "right now"
+            "now"
         ],
                                                     sentence1b: [
             "teraz"
+        ],
+                                                                                            sentence1c: [
+            "nał"
         ],
         sentence: [
             "We",
@@ -1934,6 +2134,9 @@ fiszki10.push(
                                                     sentence1b: [
             "On"
         ],
+                                                                                                    sentence1c: [
+            "Hi"
+        ],
         sentence: [
             "He",
             "is ",
@@ -1973,7 +2176,13 @@ fiszki10.push(
         ],
         desc: "is[is] - jest",
         sentence1: [
-            ""
+            "is"
+        ],
+                                                            sentence1b: [
+            "(jest_w_trakcie)-czasownik_to-be"
+        ],
+                                                                                                            sentence1c: [
+            "is"
         ],
         sentence: [
             "He",
@@ -1994,10 +2203,13 @@ fiszki10.push(
         story: "W grze komputerowej, podczas tej bitwy obniosłem wiele <u><b>ran</u></b>, nie mogę <u><b>biegać</u></b>, tylko strzelam z okopu i mam dobry tajm<u><b>ing</u></b>",
         desc: "running[raning] - biegać",
         sentence1: [
-            "is running"
+            "running"
         ],
                                                     sentence1b: [
             "biega"
+        ],
+                                                                                                            sentence1c: [
+            "raning"
         ],
         sentence: [
             "He",
@@ -2023,6 +2235,9 @@ fiszki10.push(
                                                     sentence2b: [
             "w"
         ],
+                    sentence2c: [
+            "in"
+        ],
         sentence: [
             "in",
             "the park",
@@ -2047,6 +2262,9 @@ fiszki10.push(
                                                     sentence2b: [
             "tym parku"
         ],
+                            sentence2c: [
+            "de park"
+        ],
         sentence: [
             "in",
             "the park",
@@ -2070,6 +2288,9 @@ fiszki10.push(
         ],
                                             sentence2b: [
             "dzisiaj"
+        ],
+                                    sentence2c: [
+            "tudej"
         ],
         sentence: [
             "in",
@@ -2108,6 +2329,9 @@ fiszki10.push(
         sentence1b: [
             "Oni"
         ],
+                                            sentence1c: [
+            "Dej"
+        ],
         sentence: [
             "They",
             "are ",
@@ -2139,8 +2363,11 @@ fiszki10.push(
         sentence1: [
             "are"
         ],
-                sentence1b: [
-            "(wykonują)"
+                                                    sentence1b: [
+            "(są_w_trakcie)-czasownik_to-be"
+        ],
+                                                    sentence1c: [
+            "are"
         ],
         sentence: [
             "They",
@@ -2170,6 +2397,9 @@ fiszki10.push(
                                                     sentence1b: [
             "mają"
         ],
+                                                            sentence1c: [
+            "hewing"
+        ],
         sentence: [
             "They",
             "are ",
@@ -2191,12 +2421,15 @@ fiszki10.push(
         ],
         img: "https://www.arbulang.com/img/fiszki1/239a.jpg",
         story: "Wal<u><b>di</u></b> je <u><b>kolacje</u></b>, która pomaga mu uzdrowić <u><b>ner</u></b>kę",
-        desc: "dinner[diner] - kolacja",
+        desc: "dinner[diner] - obiad (główny posiłek dnia - czasami kolacja)",
         sentence1: [
             "dinner"
         ],
                                                     sentence1b: [
             "obiad"
+        ],
+                                                                    sentence1c: [
+            "diner"
         ],
         sentence: [
             "They",
@@ -2225,6 +2458,9 @@ fiszki10.push(
                                                     sentence1b: [
             "razem"
         ],
+                                                                            sentence1c: [
+            "tugeder"
+        ],
         sentence: [
             "They",
             "are ",
@@ -2251,6 +2487,9 @@ fiszki10.push(
         ],
                                                     sentence1b: [
             "teraz"
+        ],
+                                                                                    sentence1c: [
+            "nał"
         ],
         sentence: [
             "They",
@@ -2297,10 +2536,13 @@ fiszki10.push(
         ],
         desc: "I[aj] - ja",
         sentence1: [
-            ""
+            "I"
         ],
                                                     sentence1b: [
-            ""
+            "(Ja)"
+        ],
+                                                                                            sentence1c: [
+            "Aj"
         ],
         sentence: [
             "I",
@@ -2336,7 +2578,13 @@ fiszki10.push(
         ],
         desc: "am[em] - jestem",
         sentence1: [
-            ""
+            "am"
+        ],
+                                                            sentence1b: [
+            "(jest_w_trakcie)-czasownik_to-be"
+        ],
+                                                                                                    sentence1c: [
+            "em"
         ],
         sentence: [
             "I",
@@ -2358,10 +2606,13 @@ fiszki10.push(
         story: "K<u><b>ler</u></b> kościelny uczy się grać w <u><b>Nin</u></b>tendo i grę <u><b>G</u></b>o",
         desc: "learning[lerning] - uczę się",
         sentence1: [
-            "I am learning"
+            "learning"
         ],
                                                     sentence1b: [
-            "(Ja) uczę się"
+            "uczę się"
+        ],
+                                                                                                            sentence1c: [
+            "lerning"
         ],
         sentence: [
             "I",
@@ -2387,6 +2638,9 @@ fiszki10.push(
         ],
                                                             sentence1b: [
             "angielskiego"
+        ],
+                                                                                                                    sentence1c: [
+            "inglisz"
         ],
         sentence: [
             "I",
@@ -2425,6 +2679,9 @@ fiszki10.push(
                                                             sentence2b: [
             "w tym (tego)"
         ],
+                                                                                                                            sentence2c: [
+            "dis"
+        ],
         sentence: [
             "this",
             "year"
@@ -2447,6 +2704,9 @@ fiszki10.push(
         ],
          sentence2b: [
             "roku"
+        ],
+                                                                                                                                    sentence2c: [
+            "jer"
         ],
         sentence: [
             "this",
@@ -2479,10 +2739,13 @@ fiszki10.push(
         story: "<u><b>Ona</u></b> - Patrycja ma ri<u><b>szi</u></b> to naturalny antyoksydant",
         desc: "she[szi] - ona",
         sentence1: [
-            ""
+            "She"
         ],
                  sentence1b: [
-            ""
+            "(Ona)"
+        ],
+            sentence1c: [
+            "Szi"
         ],
         sentence: [
             "She",
@@ -2520,10 +2783,13 @@ fiszki10.push(
         ],
         desc: "has[hes]/have[hew] - mieć(on/ona/oni)/mieć(ja/ty)",
         sentence1: [
-            ""
+            "has"
         ],
                  sentence1b: [
-            ""
+            "funkcja_pomocnicza"
+        ],
+                    sentence1c: [
+            "hes"
         ],
         sentence: [
             "She",
@@ -2545,10 +2811,13 @@ fiszki10.push(
         story: "Prodecent odwiedził naukowców z proszkiem <u><b>wizi</u></b>r, aby go przetestowali. Jeden naukowiec ma <u><b>ti</u></b>ki i myli się przy badaniach. <u><b>Id</u></b>zie mu słabo",
         desc: "visited[wizitid] - odwiedził/odwiedziła",
         sentence1: [
-            "She has visited"
+            "visited"
         ],
                  sentence1b: [
-            "Ona odwiedziła"
+            "odwiedziła"
+        ],
+                    sentence1c: [
+            "wizitid"
         ],
         sentence: [
             "She",
@@ -2575,6 +2844,9 @@ fiszki10.push(
                  sentence1b: [
             "Paryż"
         ],
+                            sentence1c: [
+            "Paris"
+        ],
         sentence: [
             "She",
             "has",
@@ -2600,6 +2872,9 @@ fiszki10.push(
                  sentence2b: [
             "wiele"
         ],
+                                    sentence2c: [
+            "meni"
+        ],
         sentence: [
             "many",
             "times"
@@ -2622,6 +2897,9 @@ fiszki10.push(
         ],
                  sentence2b: [
             "razy"
+        ],
+                                            sentence2c: [
+            "tajms"
         ],
         sentence: [
             "many",
@@ -2664,10 +2942,13 @@ fiszki10.push(
         ],
         desc: "I[aj] - ja",
         sentence1: [
-            ""
+            "I"
         ],
                  sentence1b: [
-            ""
+            "(Ja)"
+        ],
+                                                    sentence1c: [
+            "Aj"
         ],
         sentence: [
             "I",
@@ -2691,7 +2972,10 @@ fiszki10.push(
         story: "<b><u>Mam</b></u> fajne spodnie, ale puścił sz<b><u>ew</b></u>, <b><u>ch</b></u>yba go zaceruje",
         desc: "have[hew] - mam",
         sentence1: [
-            ""
+            "have"
+        ],
+                                                            sentence1c: [
+            "hew"
         ],
         sentence: [
             "I",
@@ -2714,10 +2998,13 @@ fiszki10.push(
         story: "<b><u>Fin</b></u> zdaje magisterke i jest na końcu drogi kształcenia się czyli <b><u>finiszuje</b></u>. Zdał <b><u>i</b></u> jest <b><u>szt</b></u>os",
         desc: "finished[finiszt] - ukończyć",
         sentence1: [
-            "I have finished"
+            "finished"
         ],
                  sentence1b: [
-            "(Ja) skończyłem"
+            "skończyłem"
+        ],
+                                                                    sentence1c: [
+            "finiszt"
         ],
         sentence: [
             "I",
@@ -2753,6 +3040,9 @@ fiszki10.push(
                  sentence1b: [
             "moje"
         ],
+                                                                            sentence1c: [
+            "maj"
+        ],
         sentence: [
             "I",
             "have",
@@ -2781,6 +3071,9 @@ fiszki10.push(
         ],
                  sentence1b: [
             "zadanie domowe"
+        ],
+                                                                                    sentence1c: [
+            "hołmłork"
         ],
         sentence: [
             "I",
@@ -2819,7 +3112,10 @@ fiszki10.push(
             "They"
         ],
                  sentence1b: [
-            ""
+            "(Oni)"
+        ],
+                                                                                            sentence1c: [
+            "Dej"
         ],
         sentence: [
             "They",
@@ -2844,7 +3140,10 @@ fiszki10.push(
         story: "<b><u>Mam</b></u> fajne spodnie, ale puścił sz<b><u>ew</b></u>, <b><u>ch</b></u>yba go zaceruje",
         desc: "have[hew] - mam",
         sentence1: [
-            ""
+            "have"
+        ],
+                                                                                                    sentence1c: [
+            "hew"
         ],
         sentence: [
             "They",
@@ -2868,10 +3167,13 @@ fiszki10.push(
         story: "O<u><b>liw</u></b>ka i <u><b>D</u></b>amian żyją ze sobą szczęśliwie",
         desc: "lived[liwd] - żyją",
         sentence1: [
-            "They have lived"
+            "lived"
         ],
                          sentence1b: [
-            "Oni żyją"
+            "żyją"
+        ],
+                                                                                                    sentence1c: [
+            "liwd"
         ],
         sentence: [
             "They",
@@ -2899,6 +3201,9 @@ fiszki10.push(
         ],
                                  sentence1b: [
             "w"
+        ],
+            sentence1c: [
+            "in"
         ],
         sentence: [
             "They",
@@ -2939,6 +3244,9 @@ fiszki10.push(
                                  sentence1b: [
             "tym"
         ],
+                    sentence1c: [
+            "dis"
+        ],
         sentence: [
             "They",
             "have",
@@ -2965,6 +3273,9 @@ fiszki10.push(
         ],
                                  sentence1b: [
             "domu"
+        ],
+                    sentence1c: [
+            "hałs"
         ],
         sentence: [
             "They",
@@ -2993,6 +3304,9 @@ fiszki10.push(
                                 sentence2b: [
             "przez"
         ],
+                            sentence2c: [
+            "for"
+        ],
         sentence: [
             "for",
             "years"
@@ -3015,6 +3329,9 @@ fiszki10.push(
         ],
                                         sentence2b: [
             "lata"
+        ],
+                                    sentence2c: [
+            "jers"
         ],
         sentence: [
             "for",
@@ -3066,6 +3383,9 @@ fiszki10.push(
         ],
             sentence1b: [
             "(Ten)"
+        ],
+                                            sentence1c: [
+            "De"
         ],
         key: "the",
         category1: [

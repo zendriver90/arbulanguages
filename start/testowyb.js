@@ -18593,7 +18593,7 @@ const fiszki10 = [
                 alt: "Mały piesek. Wygenerowane przez AI."
             },
             story: {
-                text: "Te maszyny są zrobione pod kraj Ugande. Czyli tam będzie wydobycie węgla",
+                text: "Te maszyny są zrobione <u><b>pod</u></b> kraj Ug<u><b>ande</u></b>. Czyli tam będzie wydobycie węgla",
                 alt: ""
             },
             category: [""]
@@ -36649,12 +36649,20 @@ const fiszki10 = [
             125,
             230
         ],
-        img: [
-            "https://www.arbulang.com/img/fiszki1/733a.jpg"
-        ],
-        story: [
-            ""
-        ],
+            entries: [
+        {
+            id: 1,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/733a.jpg",
+                alt: "Wygenerowane przez AI."
+            },
+            story: {
+                text: "b><u>Tej</b></u> ziomewej wieczornej <b><u>sty</b></u>czniowej pory jem bardzo <b><u>smaczną</b></u> kolację",
+                alt: ""
+            },
+            category: ["zawody", "kucharz"]
+        }
+            ],
         desc: "tasty[tejsti] - smaczny",
         sentence2: [
             "tasty"
@@ -36674,13 +36682,21 @@ const fiszki10 = [
             125,
             230
         ],
-        img: [
-            "https://www.arbulang.com/img/fiszki1/364a.jpg"
-        ],
-        story: [
-            "KOGNATY PARK (PL) - PARK (ENG)"
-        ],
-        desc: "soup[] - ",
+            entries: [
+        {
+            id: 1,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/555a.jpg",
+                alt: "Wygenerowane przez AI."
+            },
+            story: {
+                text: "<u><b>Sup</u></b>er jest ta <u><b>zupa</u></b>",
+                alt: ""
+            },
+            category: ["", ""]
+        }
+            ],
+        desc: "soup[sup] - zupa",
         sentence2: [
             "soup"
         ],
@@ -36699,13 +36715,68 @@ const fiszki10 = [
             126,
             231
         ],
-        img: [
-                "https://www.arbulang.com/img/fiszki1/7a.jpg",
-                "https://www.arbulang.com/img/fiszki1/7b.jpg",
-                "https://www.arbulang.com/img/fiszki1/7c.jpg",
-                "https://www.arbulang.com/img/fiszki1/7d.jpg",
-                "https://www.arbulang.com/img/fiszki1/7e.jpg"
-        ],
+    entries: [
+        {
+            id: 1,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/28aa.jpg",
+                alt: "Kot na łodzi. Wygenerowane przez AI."
+            },
+            story: {
+                text: "Na mojej łodzi <u><b>kat</u></b>amaran <u><b>kot</u></b> pomaga mi wiosłować",
+                alt: "Wyobraźnia w tworzeniu historii. Czy w mojej opowieści kot może mówić?"
+            },
+            category: ["sport", "humor"]
+        },
+        {
+            id: 2,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/28bb.jpg",
+                alt: "Kot na spacerze. Wygenerowane przez AI."
+            },
+            story: {
+                text: "<u><b>Kat</u></b>arzyna idzie na spacer z <u><b>kotem</u></b>",
+                alt: "Spacer z kotem. Czy kota można wyprowadzać na spacer/"
+            },
+             category: ["natura", "czas wolny"]
+        },
+        {
+            id: 3,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/28cc.jpg",
+                alt: "Kot w egzotycznym kraju. Wygenerowane przez AI."
+            },
+            story: {
+                text: "W państwie <u><b>Kat</u></b>ar, <u><b>kot</u></b> ma szczególne uznanie wśród ludzi",
+                alt: "Traktowanie kotów. Gdzie koty są dobrze traktowane?"
+            },
+           category: ["nauka", "miasta"]
+        },
+        {
+            id: 4,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/28dd.jpg",
+                alt: "Kot rozciągający się. Wygenerowane przez AI."
+            },
+            story: {
+                text: "Ten <u><b>kot</u></b> to <u><b>kat</u></b>astrofa",
+                alt: "Zadowolenie ze zwierzęcia domowego. Czy kot może się nauczyć z nami komunikować?"
+            },
+            category: ["czarny humor", "zwierzęta"]
+        },
+        {
+            id: 5,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/28ee.jpg",
+                alt: "Moje zdjęcie z kotem. Wygenerowane przez AI."
+            },
+            story: {
+                text: "W <u><b>kat</u></b>egori zwierząt moja dziewczyna lubi najbardziej <u><b>koty</u></b>",
+                alt: "Upodobania do zwierząt w życiu pary. Czy kot może poprawić nastrój parze?"
+            },
+            category: ["związki", "zwierzęta domowe"]
+        }
+    ],
         translate: "",
         translateb: "[]",
         translateb2: "[]",
@@ -36713,13 +36784,6 @@ const fiszki10 = [
         srcWordimage: "https://www.arbulang.com/filmy/newspaper.png",
         word: [
             "https://www.arbulang.com/voice/bike.mp4"
-        ],
-        story: [
-                'To właśnie <u><b>on</u></b> jest <span class="adannotation" data-annotation="1"><b><u>hi</b></u></span>tem tego sezonu piłkarskiego',
-                'Samiec czyli <u><b>on</u></b> - <span class="adannotation" data-annotation="1"><b><u>hi</b></u></span>popotam',
-                '<u><b>On</b></u> - <span class="adannotation" data-annotation="1"><u><b>Hi</b></u></span>eronim odleciał balonem',
-                'Ma<span class="adannotation" data-annotation="1"><u><b>chi</u></b></span>nę do tortur wymyślił <u><b>on</u></b> - jest <span class="adannotation" data-annotation="1"><u><b>Hi</u></b></span>ndusem',
-                '<u><b>On</u></b> je ciastka <span class="adannotation" data-annotation="1"><u><b>hi</u></b></span>ty'
         ],
         desc: "cat[kat] - kot",
         sentence1: [
@@ -36739,13 +36803,21 @@ const fiszki10 = [
             126,
             231
         ],
-        img: [
-            "https://www.arbulang.com/img/fiszki1/364a.jpg"
-        ],
-        story: [
-            "KOGNATY PARK (PL) - PARK (ENG)"
-        ],
-        desc: "hides[] - ",
+            entries: [
+        {
+            id: 1,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/736a.jpg",
+                alt: "Wygenerowane przez AI."
+            },
+            story: {
+                text: "<u><b>Haj</u></b>er przodowy - czyli górnik <u><b>ukrywa</u></b> swoje zarobki, ale często chodzi <u><b>d</u></b>o <u><b>s</u></b>klepu",
+                alt: ""
+            },
+            category: ["", ""]
+        }
+            ],
+        desc: "hides[hajds] - ukrywać",
         sentence2: [
             "hides"
         ],
@@ -36763,13 +36835,33 @@ const fiszki10 = [
             126,
             232
         ],
-        img: [
-            "https://www.arbulang.com/img/fiszki1/364a.jpg"
-        ],
-        story: [
-            "KOGNATY PARK (PL) - PARK (ENG)"
-        ],
-        desc: "under[] - ",
+            entries: [
+        {
+            id: 1,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/351a.jpg",
+                alt: "Mały piesek. Wygenerowane przez AI."
+            },
+            story: {
+                text: "<u><b>Pod</u></b> tym hasłem czyli R<u><b>ande</u></b> Wu kryje się pójście na randkę",
+                alt: ""
+            },
+            category: [""]
+        },
+                {
+            id: 2,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/351b.jpg",
+                alt: "Mały piesek. Wygenerowane przez AI."
+            },
+            story: {
+                text: "Te maszyny są zrobione <u><b>pod</u></b> kraj Ug<u><b>ande</u></b>. Czyli tam będzie wydobycie węgla",
+                alt: ""
+            },
+            category: [""]
+        }
+            ],
+        desc: "under[ande(r)] - pod",
         sentence2: [
             "under"
         ],
@@ -36787,13 +36879,21 @@ const fiszki10 = [
             126,
             232
         ],
-        img: [
-            "https://www.arbulang.com/img/fiszki1/364a.jpg"
-        ],
-        story: [
-            "KOGNATY PARK (PL) - PARK (ENG)"
-        ],
-        desc: "table[] - ",
+            entries: [
+        {
+            id: 1,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/660a.jpg",
+                alt: "Picie herbaty. Wygenerowane przez AI."
+            },
+            story: {
+                text: "Z <u><b>tej</u></b> choroby jest najgorszy <u><b>ból</u></b>. Lekarz pokazał mi to na <u><b>tablicy</u></b>",
+                alt: ""
+            },
+            category: [""]
+        }
+            ],
+        desc: "table[tejbul] - tablica, tabela",
         sentence2: [
             "the table"
         ],
@@ -36811,13 +36911,68 @@ const fiszki10 = [
             127,
             233
         ],
-        img: [
-                "https://www.arbulang.com/img/fiszki1/7a.jpg",
-                "https://www.arbulang.com/img/fiszki1/7b.jpg",
-                "https://www.arbulang.com/img/fiszki1/7c.jpg",
-                "https://www.arbulang.com/img/fiszki1/7d.jpg",
-                "https://www.arbulang.com/img/fiszki1/7e.jpg"
-        ],
+    entries: [
+        {
+            id: 1,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/19a.jpg",
+                alt: "Odzież ochronna dla jazdy rowerem. Wygenerowane przez AI."
+            },
+            story: {
+                text: "<u><b>Ja</u></b> jestem Piotrek, mam okulary ochronne, gdy jechałem rowerem wleciała mi mucha do <u><b>oka</u></b>, krzyczałem <u><b>ajjj</u></b> - dlaczego to <u><b>mi</u></b> wleciała mucha do <u><b>oka</u></b>, <u><b>ajjj</u></b>",
+                alt: "Bezpieczna jazda rowerem. Czy do jazdy rowerem potrzebne jest przygotowanie?"
+            },
+            category: ["sport", "rowery"]
+        },
+        {
+            id: 2,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/19b.jpg",
+                alt: "Portret kobiety. Wygenerowane przez AI."
+            },
+            story: {
+                text: "M<u><b>aj</u></b>a ma zezowate <u><b>oko</u></b> i mówi, no <u><b>JA</u></b> widzę ciebie podwójnie",
+               alt: "Świadomość wady wzroku. Czy wadę wzroku można wyleczyć?"
+            },
+            category: ["natura", "zdrowie"]
+        },
+        {
+            id: 3,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/19c.jpg",
+                alt: "Boginii Gaja. Wygenerowane przez AI."
+            },
+            story: {
+                text: "Nauka o mitach, takich jak królowa G</u></b>aj</u></b>a to ten temat, gdzie <u><b>ja</u></b> mam największą wiedze",
+                alt: "Mitologia Boginii Gai. Kto to jest Boginii Gaja?"
+            },
+           category: ["nauka", "mitologia"]
+        },
+        {
+            id: 4,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/19d.jpg",
+                alt: "Wesele pary młodej. Wygenerowane przez AI."
+            },
+            story: {
+                text: "Teraz <u><b>ja</u></b> występuję na weselu jako wodzirej i śpiewam <u><b>Aj</u></b>-ja-jaj tak słodko jest tu z wami być..",
+                alt: "Przyjecie weselne. Kto może zostać wodzirejem?"
+            },
+            category: ["czarny humor", "muzyka"]
+        },
+        {
+            id: 5,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/19e.jpg",
+                alt: "Zajmowanie się kurami. Wygenerowane przez AI."
+            },
+            story: {
+                text: "Mo<u><b>ja</u></b> babcia idzie do kurnika po jaja, a <u><b>ja</u></b> będę za chwilę jadł jajecznice",
+               alt: "Gospodarstwo domowe ze zwierzętami. Czy hodowla zwierząt jest trudna?"
+            },
+            category: ["związki", "rodzina"]
+        }
+    ],
         translate: "",
         translateb: "[]",
         translateb2: "[]",
@@ -36825,13 +36980,6 @@ const fiszki10 = [
         srcWordimage: "https://www.arbulang.com/filmy/newspaper.png",
         word: [
             "https://www.arbulang.com/voice/bike.mp4"
-        ],
-        story: [
-                'To właśnie <u><b>on</u></b> jest <span class="adannotation" data-annotation="1"><b><u>hi</b></u></span>tem tego sezonu piłkarskiego',
-                'Samiec czyli <u><b>on</u></b> - <span class="adannotation" data-annotation="1"><b><u>hi</b></u></span>popotam',
-                '<u><b>On</b></u> - <span class="adannotation" data-annotation="1"><u><b>Hi</b></u></span>eronim odleciał balonem',
-                'Ma<span class="adannotation" data-annotation="1"><u><b>chi</u></b></span>nę do tortur wymyślił <u><b>on</u></b> - jest <span class="adannotation" data-annotation="1"><u><b>Hi</u></b></span>ndusem',
-                '<u><b>On</u></b> je ciastka <span class="adannotation" data-annotation="1"><u><b>hi</u></b></span>ty'
         ],
         desc: "I[aj] - ja",
         sentence1: [
@@ -36852,13 +37000,21 @@ const fiszki10 = [
             127,
             233
         ],
-        img: [
-            "https://www.arbulang.com/img/fiszki1/364a.jpg"
-        ],
-        story: [
-            "KOGNATY PARK (PL) - PARK (ENG)"
-        ],
-        desc: "close[] - ",
+            entries: [
+        {
+            id: 1,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/740a.jpg",
+                alt: "Picie herbaty. Wygenerowane przez AI."
+            },
+            story: {
+                text: "Tym ostatnim dodanym <u><b>klo</u></b>ckiem <u><b>zamykam</u></b> budowę zamku. <u><b>Ł</u></b>adna budowlna i <u><b>s</u></b>tarannie budowana",
+                alt: ""
+            },
+            category: [""]
+        }
+            ],
+        desc: "close[klołs] - zamknąć",
         sentence2: [
             "close"
         ],
@@ -36877,19 +37033,28 @@ const fiszki10 = [
             127,
             233
         ],
-        img: [
-            "https://www.arbulang.com/img/fiszki1/364a.jpg"
-        ],
-        story: [
-            "KOGNATY PARK (PL) - PARK (ENG)"
-        ],
-        desc: "door[] - ",
+            entries: [
+        {
+            id: 1,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/741a.jpg",
+                alt: "Picie herbaty. Wygenerowane przez AI."
+            },
+            story: {
+                text: "<u><b>Dor</u></b>ota zawsze zamyka cicho <u><b>drzwi</u></b>",
+                alt: ""
+            },
+            category: [""]
+        }
+            ],
+        desc: "door[dor] - drzwi",
         sentence2: [
             "the door"
         ],
         sentence: [
-            "under",
-            "the table"
+            "I",
+            "close",
+            "the door"
         ],
         key: "door",
         category1: "nauka",
@@ -36901,13 +37066,21 @@ const fiszki10 = [
             127,
             234
         ],
-        img: [
-            "https://www.arbulang.com/img/fiszki1/364a.jpg"
-        ],
-        story: [
-            "KOGNATY PARK (PL) - PARK (ENG)"
-        ],
-        desc: "before[] - ",
+            entries: [
+        {
+            id: 1,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/742a.jpg",
+                alt: "Picie herbaty. Wygenerowane przez AI."
+            },
+            story: {
+                text: "<u><b>Bi</u></b>ologia musi być dobrze zdana na maturze zanim ktoś pójdzie na studia medyczne. Tam żaden profesor nie daje studentom <u><b>for</u></b>y",
+                alt: ""
+            },
+            category: [""]
+        }
+            ],
+        desc: "before[bifor] - zanim, przed",
         sentence2: [
             "before"
         ],
@@ -36925,13 +37098,21 @@ const fiszki10 = [
             127,
             234
         ],
-        img: [
-            "https://www.arbulang.com/img/fiszki1/364a.jpg"
-        ],
-        story: [
-            "KOGNATY PARK (PL) - PARK (ENG)"
-        ],
-        desc: "sleeping[] - ",
+            entries: [
+        {
+            id: 1,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/743a.jpg",
+                alt: "Picie herbaty. Wygenerowane przez AI."
+            },
+            story: {
+                text: "Oni <u><b>sli</u></b> (szli) do spania po tym jak grali w <u><b>ping</u></b>-ponga",
+                alt: ""
+            },
+            category: [""]
+        }
+            ],
+        desc: "sleeping[sliping] - spanie",
         sentence2: [
             "sleeping"
         ],
@@ -36949,13 +37130,20 @@ const fiszki10 = [
             128,
             235
         ],
-        img: [
-                "https://www.arbulang.com/img/fiszki1/7a.jpg",
-                "https://www.arbulang.com/img/fiszki1/7b.jpg",
-                "https://www.arbulang.com/img/fiszki1/7c.jpg",
-                "https://www.arbulang.com/img/fiszki1/7d.jpg",
-                "https://www.arbulang.com/img/fiszki1/7e.jpg"
-        ],
+            entries: [
+        {
+            id: 1,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/207b.jpg",
+                alt: "Wygenerowane przez AI."
+            },
+            story: {
+                text: "<u><b>Oni</u></b> z<u><b>dej</u></b>mują jabłka z jabłoni",
+                alt: ""
+            },
+            category: ["sezon", "prace ogrodowe"]
+        }
+            ],
         translate: "",
         translateb: "[]",
         translateb2: "[]",
@@ -36964,14 +37152,7 @@ const fiszki10 = [
         word: [
             "https://www.arbulang.com/voice/bike.mp4"
         ],
-        story: [
-                'To właśnie <u><b>on</u></b> jest <span class="adannotation" data-annotation="1"><b><u>hi</b></u></span>tem tego sezonu piłkarskiego',
-                'Samiec czyli <u><b>on</u></b> - <span class="adannotation" data-annotation="1"><b><u>hi</b></u></span>popotam',
-                '<u><b>On</b></u> - <span class="adannotation" data-annotation="1"><u><b>Hi</b></u></span>eronim odleciał balonem',
-                'Ma<span class="adannotation" data-annotation="1"><u><b>chi</u></b></span>nę do tortur wymyślił <u><b>on</u></b> - jest <span class="adannotation" data-annotation="1"><u><b>Hi</u></b></span>ndusem',
-                '<u><b>On</u></b> je ciastka <span class="adannotation" data-annotation="1"><u><b>hi</u></b></span>ty'
-        ],
-        desc: "I[aj] - ja",
+        desc: "they[dej] - oni",
         sentence1: [
             "They"
         ],
@@ -36990,13 +37171,21 @@ const fiszki10 = [
             128,
             235
         ],
-        img: [
-            "https://www.arbulang.com/img/fiszki1/364a.jpg"
-        ],
-        story: [
-            "KOGNATY PARK (PL) - PARK (ENG)"
-        ],
-        desc: "sleeping[] - ",
+            entries: [
+        {
+            id: 1,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/207b.jpg",
+                alt: "Wygenerowane przez AI."
+            },
+            story: {
+                text: "Ten <u><b>plan</u></b>, żeby zasadzić <u><b>rośliny</u></b> koło domu to <u><b>t</u></b>worzenie pięknego ogrodu",
+                alt: ""
+            },
+            category: ["sezon", "prace ogrodowe"]
+        }
+            ],
+        desc: "plant[plant] - roślina",
         sentence2: [
             "plant"
         ],
@@ -37011,17 +37200,25 @@ const fiszki10 = [
     },
                 {
         id: [
-            746,
-            128,
+            746, 
+           128,
             235
         ],
-        img: [
-            "https://www.arbulang.com/img/fiszki1/364a.jpg"
-        ],
-        story: [
-            "KOGNATY PARK (PL) - PARK (ENG)"
-        ],
-        desc: "sleeping[] - ",
+            entries: [
+        {
+            id: 1,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/214a.jpg",
+                alt: "Wygenerowane przez AI."
+            },
+            story: {
+                text: "Moim <u><b>fla</u></b>mastrem potrafie narysować fajnego <u><b>kwiatka</u></b> i wtedy mam pa<u><b>łer</u></b>a(power)",
+                alt: ""
+            },
+            category: ["sztuka", "artyzm"]
+        }
+            ],
+        desc: "flower[flałer] - flower + s = kwiatki",
         sentence2: [
             "flowers"
         ],
@@ -37040,13 +37237,21 @@ const fiszki10 = [
             128,
             236
         ],
-        img: [
-            "https://www.arbulang.com/img/fiszki1/364a.jpg"
-        ],
-        story: [
-            "KOGNATY PARK (PL) - PARK (ENG)"
-        ],
-        desc: "sleeping[] - ",
+            entries: [
+        {
+            id: 1,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/254a.jpg",
+                alt: "Wygenerowane przez AI."
+            },
+            story: {
+                text: "<u><b>In</u></b>trowertyk lubi przesiadywać <u><b>w</u></b> swoim umyśle",
+                alt: ""
+            },
+            category: ["umysł", "myślenie"]
+        }
+            ],
+        desc: "in[in] - w",
         sentence2: [
             "in"
         ],
@@ -37064,13 +37269,21 @@ const fiszki10 = [
             128,
             236
         ],
-        img: [
-            "https://www.arbulang.com/img/fiszki1/364a.jpg"
-        ],
-        story: [
-            "KOGNATY PARK (PL) - PARK (ENG)"
-        ],
-        desc: "sleeping[] - ",
+            entries: [
+        {
+            id: 1,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/521a.jpg",
+                alt: "Wygenerowane przez AI."
+            },
+            story: {
+                text: "Po pracy w <b><u>ogrodzie</b></u>, jem mięso z dzika (to był o<b><u>dy</b></u>niec), które to mięso ugotowałem w <b><u>gar</b></u>ku",
+                alt: ""
+            },
+            category: ["", ""]
+        }
+            ],
+        desc: "garden[gardyn] - ogród",
         sentence2: [
             "the garden"
         ],
@@ -37088,9 +37301,20 @@ const fiszki10 = [
             129,
             237
         ],
-        img: [
-                "https://www.arbulang.com/img/fiszki1/7a.jpg"
-        ],
+            entries: [
+        {
+            id: 1,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/749a.jpg",
+                alt: "Wygenerowane przez AI."
+            },
+            story: {
+                text: "<b><u>Kl</b></u>emens ma <b><u>lok</b></u>i na czole, które zasłaniają mu czasami widok gdy patrzy na swój <b><u>zegarek</b></u>",
+                alt: ""
+            },
+            category: ["", ""]
+        }
+            ],
         translate: "",
         translateb: "[]",
         translateb2: "[]",
@@ -37099,10 +37323,7 @@ const fiszki10 = [
         word: [
             "https://www.arbulang.com/voice/bike.mp4"
         ],
-        story: [
-                'To właśnie <u><b>on</u></b> jest <span class="adannotation" data-annotation="1"><b><u>hi</b></u></span>tem tego sezonu piłkarskiego'
-        ],
-        desc: "I[aj] - ja",
+        desc: "clock[klok] - zegar",
         sentence1: [
             "The clock"
         ],
@@ -37124,12 +37345,12 @@ const fiszki10 = [
             237
         ],
         img: [
-            "https://www.arbulang.com/img/fiszki1/364a.jpg"
+            "https://www.arbulang.com/img/fiszki1/750a.jpg"
         ],
         story: [
-            "KOGNATY PARK (PL) - PARK (ENG)"
+            ""
         ],
-        desc: "sleeping[] - ",
+        desc: "shows[szołs] - pokazać, widać",
         sentence2: [
             "shows"
         ],
@@ -37151,12 +37372,12 @@ const fiszki10 = [
             237
         ],
         img: [
-            "https://www.arbulang.com/img/fiszki1/364a.jpg"
+            "https://www.arbulang.com/img/fiszki1/751a.jpg"
         ],
         story: [
-            "KOGNATY PARK (PL) - PARK (ENG)"
+            "<b><u>Ten</b></u> zegar pokazuje godzinę <b><u>dziesiątą</b></u> rano"
         ],
-        desc: "sleeping[] - ",
+        desc: "ten[] - ",
         sentence2: [
             "ten"
         ],
@@ -37204,13 +37425,21 @@ const fiszki10 = [
             129,
             237
         ],
-        img: [
-            "https://www.arbulang.com/img/fiszki1/364a.jpg"
-        ],
-        story: [
-            "KOGNATY PARK (PL) - PARK (ENG)"
-        ],
-        desc: "sleeping[] - ",
+            entries: [
+        {
+            id: 1,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/228a.jpg",
+                alt: "Wygenerowane przez AI."
+            },
+            story: {
+                text: "<u><b>Teraz</u></b> moja ulubiona woda - to <u><b>Nał</u></b>ęczowska",
+                alt: ""
+            },
+            category: ["produkty", "woda do picia"]
+        }
+            ],
+        desc: "now[nał] - teraz",
         sentence2: [
             "now"
         ],
@@ -37222,6 +37451,145 @@ const fiszki10 = [
             "now"
         ],
         key: "now",
+        category1: "nauka",
+        category2: ["okresleniaMiejsca"]
+    },
+    {
+        id: [
+            752,
+            130,
+            238
+        ],
+        img: [
+                "https://www.arbulang.com/img/fiszki1/7a.jpg",
+                "https://www.arbulang.com/img/fiszki1/7b.jpg",
+                "https://www.arbulang.com/img/fiszki1/7c.jpg",
+                "https://www.arbulang.com/img/fiszki1/7d.jpg",
+                "https://www.arbulang.com/img/fiszki1/7e.jpg"
+        ],
+        translate: "Rysuję zwierzęta na papierze",
+        translateb: "[]",
+        translateb2: "[]",
+        srcWord: ["http://localhost/arbulanguage.com/filmy/lekcja44/drawing.mp4", "Kevin sam w domu (1990)"],
+        srcWordimage: "http://localhost/arbulanguage.com/filmy/lekcja44/drawing.png",
+        word: [
+            "https://www.arbulang.com/voice/bike.mp4"
+        ],
+        story: [
+                'To właśnie <u><b>on</u></b> jest <span class="adannotation" data-annotation="1"><b><u>hi</b></u></span>tem tego sezonu piłkarskiego',
+                'Samiec czyli <u><b>on</u></b> - <span class="adannotation" data-annotation="1"><b><u>hi</b></u></span>popotam',
+                '<u><b>On</b></u> - <span class="adannotation" data-annotation="1"><u><b>Hi</b></u></span>eronim odleciał balonem',
+                'Ma<span class="adannotation" data-annotation="1"><u><b>chi</u></b></span>nę do tortur wymyślił <u><b>on</u></b> - jest <span class="adannotation" data-annotation="1"><u><b>Hi</u></b></span>ndusem',
+                '<u><b>On</u></b> je ciastka <span class="adannotation" data-annotation="1"><u><b>hi</u></b></span>ty'
+        ],
+        desc: "I[aj] - ja",
+        sentence1: [
+            "I"
+        ],
+        sentence: [
+            "I",
+            "draw",
+            "animals"
+        ],
+        key: "i",
+        category2: ["osoby"],
+        category3: ["PresenttSimple", "PresentSimplePodmiot"]
+    },
+                                    {
+        id: [
+            753,
+            130,
+            238
+        ],
+        img: [
+            "https://www.arbulang.com/img/fiszki1/364a.jpg"
+        ],
+        story: [
+            "KOGNATY PARK (PL) - PARK (ENG)"
+        ],
+        desc: "sleeping[] - ",
+        sentence2: [
+            "draw"
+        ],
+        sentence: [
+            "I",
+            "draw",
+            "animals"
+        ],
+        key: "draw",
+        category1: "nauka",
+        category2: ["okresleniaMiejsca"]
+    },
+                                    {
+        id: [
+            754,
+            130,
+            238
+        ],
+        img: [
+            "https://www.arbulang.com/img/fiszki1/364a.jpg"
+        ],
+        story: [
+            "KOGNATY PARK (PL) - PARK (ENG)"
+        ],
+        desc: "sleeping[] - ",
+        sentence2: [
+            "animals"
+        ],
+        sentence: [
+            "I",
+            "draw",
+            "animals"
+        ],
+        key: "animals",
+        category1: "nauka",
+        category2: ["okresleniaMiejsca"]
+    },
+                                        {
+        id: [
+            755,
+            130,
+            239
+        ],
+        img: [
+            "https://www.arbulang.com/img/fiszki1/364a.jpg"
+        ],
+        story: [
+            "KOGNATY PARK (PL) - PARK (ENG)"
+        ],
+        desc: "sleeping[] - ",
+        sentence2: [
+            "on"
+        ],
+        sentence: [
+            "on",
+            "the paper"
+        ],
+        key: "on",
+        category1: "nauka",
+        category2: ["okresleniaMiejsca"]
+    },
+                                        {
+        id: [
+            756,
+            130,
+            239
+        ],
+        img: [
+            "https://www.arbulang.com/img/fiszki1/364a.jpg"
+        ],
+        story: [
+            "KOGNATY PARK (PL) - PARK (ENG)"
+        ],
+        desc: "sleeping[] - ",
+        sentence2: [
+            "the paper"
+        ],
+        sentence: [
+            "on",
+            "the paper"
+        ],
+        key: "paper",
         category1: "nauka",
         category2: ["okresleniaMiejsca"]
     }
