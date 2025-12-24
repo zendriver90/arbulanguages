@@ -2,6 +2,7 @@ const fiszki = [
 {
 id: [
         1,
+        1,
         1
 ],
         // obrazek
@@ -20,10 +21,16 @@ id: [
                 "I am from New <u><b>Yo</u></b>rk, so wherever <u><b>I</u></b> am, <u><b>I</u></b> represent New <u><b>Yo</u></b>rk"
         ],
         // opis
-        desc: "yo[yoh] - i",
+        desc: "yo[yoh] - I",
         //zdanie
         sentence1: [
                 "Yo"
+        ],
+                sentence1b: [
+            "I"
+        ],
+                sentence1c: [
+            "Yoh"
         ],
         sentence: [
                 "Yo",
@@ -41,6 +48,7 @@ id: [
 {
 id: [
         2,
+        1,
         1
 ],
         // obrazek
@@ -60,6 +68,12 @@ id: [
         sentence1: [
                 "quiero"
         ],
+                        sentence1b: [
+            "want"
+        ],
+                sentence1c: [
+            "kee-eh-roh"
+        ],
         sentence: [
                 "Yo",
                 "quiero",
@@ -76,6 +90,7 @@ id: [
 {
 id: [
         3,
+        1,
         1
 ],
         // obrazek
@@ -95,6 +110,12 @@ id: [
                 sentence1: [
                 "aprender"
         ],
+                                sentence1b: [
+            "learn"
+        ],
+                sentence1c: [
+            "ah-pren-dehr"
+        ],
                 sentence: [
                 "Yo",
                 "quiero",
@@ -111,6 +132,7 @@ id: [
 {
 id: [
         4,
+        1,
         1
 ],
         // obrazek
@@ -130,6 +152,12 @@ id: [
                 sentence1: [
                 "espanol"
         ],
+                                        sentence1b: [
+            "spanish"
+        ],
+                sentence1c: [
+            "es-pah-nyol"
+        ],
                 sentence: [
                 "Yo",
                 "quiero",
@@ -146,7 +174,8 @@ id: [
 {
 id: [
         5,
-        1
+        1,
+        2
 ],
         // obrazek
         img: [
@@ -165,6 +194,12 @@ id: [
         sentence2: [
                 "muy"
         ],
+                                                sentence2b: [
+            "very"
+        ],
+                sentence2c: [
+            "moo-ee"
+        ],
         sentence: [
                 "muy",
                 "rapido"
@@ -179,7 +214,8 @@ id: [
 {
 id: [
         6,
-        1
+        1,
+        2
 ],
         // obrazek
         img: [
@@ -198,6 +234,12 @@ id: [
         sentence2: [
                 "rapido"
         ],
+                                                        sentence2b: [
+            "fast"
+        ],
+                sentence2c: [
+            "rah-pee-doh"
+        ],
         sentence: [
                 "muy",
                 "rapido"
@@ -212,7 +254,8 @@ id: [
 {
 id: [
         7,
-        2
+        2,
+        3
 ],
         // obrazek
         img: [
@@ -235,6 +278,12 @@ id: [
         sentence1: [
                 "Un plan"
         ],
+                                                sentence1b: [
+            "plan"
+        ],
+                sentence1c: [
+            "oon plahn"
+        ],
         sentence: [
                 "Un plan",
                 "es",
@@ -254,7 +303,8 @@ id: [
 {
 id: [
         8,
-        2
+        2,
+        3
 ],
         // obrazek
         img: [
@@ -274,6 +324,12 @@ id: [
         //zdanie
         sentence1: [
                 "is"
+        ],
+                                                        sentence1b: [
+            "is"
+        ],
+                sentence1c: [
+            "es"
         ],
         sentence: [
                 "Un plan",
@@ -295,7 +351,8 @@ id: [
 {
 id: [
         9,
-        2
+        2,
+        3
 ],
         // obrazek
         img: [
@@ -313,6 +370,12 @@ id: [
         //zdanie
         sentence1: [
                 "un metodo"
+        ],
+                                                                sentence1b: [
+            "method"
+        ],
+                sentence1c: [
+            "oon meh-toh-doh"
         ],
         sentence: [
                 "Un plan",
@@ -333,7 +396,8 @@ id: [
 {
 id: [
         10,
-        2
+        2,
+        3
 ],
         // obrazek
         img: [
@@ -351,6 +415,12 @@ id: [
         //zdanie
         sentence1: [
                 "o manera"
+        ],
+                                                                        sentence1b: [
+            "or_way"
+        ],
+                sentence1c: [
+            "oh mah-neh-rah"
         ],
         sentence: [
                 "Un plan",
@@ -371,7 +441,8 @@ id: [
 {
 id: [
         11,
-        2
+        2,
+        3
 ],
         // obrazek
         img: [
@@ -389,6 +460,12 @@ id: [
         //zdanie
         sentence1: [
                 "de"
+        ],
+                                                                                sentence1b: [
+            "of"
+        ],
+                sentence1c: [
+            "deh"
         ],
         sentence: [
                 "Un plan",
@@ -409,7 +486,8 @@ id: [
 {
 id: [
         12,
-        2
+        2,
+        3
 ],
         // obrazek
         img: [
@@ -427,6 +505,12 @@ id: [
         //zdanie
         sentence1: [
                 "hacer"
+        ],
+                                                                                        sentence1b: [
+            "make"
+        ],
+                sentence1c: [
+            "ah-ser"
         ],
         sentence: [
                 "Un plan",
@@ -447,7 +531,8 @@ id: [
 {
 id: [
         13,
-        2
+        2,
+        3
 ],
         // obrazek
         img: [
@@ -465,6 +550,12 @@ id: [
         //zdanie
         sentence1: [
                 "algo"
+        ],
+                                                                                                sentence1b: [
+            "something"
+        ],
+                sentence1c: [
+            "ahl-goh"
         ],
         sentence: [
                 "Un plan",
@@ -485,7 +576,8 @@ id: [
 {
 id: [
         14,
-        3
+        3,
+        4
 ],
         // obrazek
         img: [
@@ -508,6 +600,12 @@ id: [
         sentence1: [
                 "Ella"
         ],
+                                                                                                        sentence1b: [
+            "She"
+        ],
+                sentence1c: [
+            "eh-yah"
+        ],
         sentence: [
                 "Ella",
                 "esta",
@@ -526,7 +624,8 @@ id: [
 {
 id: [
         15,
-        3
+        3,
+        4
 ],
         // obrazek
         img: [
@@ -544,6 +643,12 @@ id: [
         //zdanie
         sentence1: [
                 "está"
+        ],
+                                                                                                                sentence1b: [
+            "is"
+        ],
+                sentence1c: [
+            "es-tah"
         ],
         sentence: [
                 "Ella",
@@ -563,7 +668,8 @@ id: [
 {
 id: [
         16,
-        3
+        3,
+        4
 ],
         // obrazek
         img: [
@@ -581,6 +687,12 @@ id: [
         //zdanie
         sentence1: [
                 "leyendo"
+        ],
+                                                                                                                        sentence1b: [
+            "reading"
+        ],
+                sentence1c: [
+            "leh-yen-doh"
         ],
         sentence: [
                 "Ella",
@@ -600,7 +712,8 @@ id: [
 {
 id: [
         17,
-        3
+        3,
+        4
 ],
         // obrazek
         img: [
@@ -618,6 +731,12 @@ id: [
         //zdanie
         sentence1: [
                 "un libro"
+        ],
+                                                                                                                                sentence1b: [
+            "book"
+        ],
+                sentence1c: [
+            "oon lee-broh"
         ],
         sentence: [
                 "Ella",
@@ -637,7 +756,8 @@ id: [
 {
 id: [
         18,
-        3
+        3,
+        4
 ],
         // obrazek
         img: [
@@ -655,6 +775,12 @@ id: [
         //zdanie
         sentence1: [
                 "interesting"
+        ],
+             sentence1b: [
+            "interesting"
+        ],
+                sentence1c: [
+            "in-teh-reh-sahn-teh"
         ],
         sentence: [
                 "Ella",
@@ -674,7 +800,8 @@ id: [
 {
 id: [
         19,
-        3
+        3,
+        4
 ],
         // obrazek
         img: [
@@ -692,6 +819,12 @@ id: [
         //zdanie
         sentence1: [
                 "ahora"
+        ],
+                     sentence1b: [
+            "now"
+        ],
+                sentence1c: [
+            "ah-oh-rah"
         ],
         sentence: [
                 "Ella",
@@ -711,7 +844,8 @@ id: [
 {
 id: [
         20,
-        4
+        4,
+        5
 ],
         // obrazek
         img: [
@@ -734,6 +868,12 @@ id: [
         sentence1: [
                 "Mi"
         ],
+                             sentence1b: [
+            "My"
+        ],
+                sentence1c: [
+            "mee"
+        ],
         sentence: [
                 "Mi",
                 "caffe",
@@ -751,7 +891,8 @@ id: [
 {
 id: [
         21,
-        4
+        4,
+        5
 ],
         // obrazek
         img: [
@@ -770,6 +911,12 @@ id: [
         sentence1: [
                 "café"
         ],
+                                     sentence1b: [
+            "coffee"
+        ],
+                sentence1c: [
+            "kah-feh"
+        ],
         sentence: [
                 "Mi",
                 "cafe",
@@ -787,7 +934,8 @@ id: [
 {
 id: [
         22,
-        4
+        4,
+        5
 ],
         // obrazek
         img: [
@@ -807,6 +955,12 @@ id: [
         //zdanie
         sentence1: [
                 "es"
+        ],                                     
+        sentence1b: [
+            "is"
+        ],
+                sentence1c: [
+            "es"
         ],
         sentence: [
                 "Mi",
@@ -826,7 +980,8 @@ id: [
 {
 id: [
         23,
-        4
+        4,
+        5
 ],
         // obrazek
         img: [
@@ -845,6 +1000,12 @@ id: [
         sentence1: [
                 "tan"
         ],
+                sentence1b: [
+            "so"
+        ],
+                sentence1c: [
+            "tahn"
+        ],
         sentence: [
                 "Mi",
                 "cafe",
@@ -862,7 +1023,8 @@ id: [
 {
 id: [
         24,
-        4
+        4,
+        5
 ],
         // obrazek
         img: [
@@ -881,6 +1043,12 @@ id: [
         sentence1: [
                 "perezoso"
         ],
+                        sentence1b: [
+            "lazy"
+        ],
+                sentence1c: [
+            "peh-reh-TOH-soh"
+        ],
         sentence: [
                 "Mi",
                 "cafe",
@@ -898,7 +1066,8 @@ id: [
 {
 id: [
         25,
-        4
+        4,
+        6
 ],
         // obrazek
         img: [
@@ -932,7 +1101,8 @@ id: [
 {
 id: [
         26,
-        4
+        4,
+        6
 ],
         // obrazek
         img: [
@@ -966,7 +1136,8 @@ id: [
 {
 id: [
         27,
-        4
+        4,
+        6
 ],
         // obrazek
         img: [
@@ -1000,7 +1171,8 @@ id: [
 {
 id: [
         28,
-        5
+        5,
+        7
 ],
         // obrazek
         img: [
@@ -1037,7 +1209,8 @@ id: [
 {
 id: [
         29,
-        5
+        5,
+        7
 ],
         // obrazek
         img: [
@@ -1070,7 +1243,8 @@ id: [
 {
 id: [
         30,
-        5
+        5,
+        8
 ],
         // obrazek
         img: [
@@ -1104,7 +1278,8 @@ id: [
 {
 id: [
         31,
-        5
+        5,
+        8
 ],
         // obrazek
         img: [
@@ -1138,7 +1313,8 @@ id: [
 {
 id: [
         32,
-        5
+        5,
+        8
 ],
         // obrazek
         img: [
@@ -1172,7 +1348,8 @@ id: [
 {
 id: [
         33,
-        6
+        6,
+        9
 ],
         // obrazek
         img: [
@@ -1210,7 +1387,8 @@ id: [
 {
 id: [
         34,
-        6
+        6,
+        9
 ],
         // obrazek
         img: [
@@ -1247,7 +1425,8 @@ id: [
 {
 id: [
         35,
-        6
+        6,
+        9
 ],
         // obrazek
         img: [
@@ -1281,7 +1460,8 @@ id: [
 {
 id: [
         36,
-        6
+        6,
+        10
 ],
         // obrazek
         img: [
@@ -1319,7 +1499,8 @@ id: [
 {
 id: [
         37,
-        6
+        6,
+        10
 ],
         // obrazek
         img: [
@@ -1354,7 +1535,8 @@ id: [
 {
 id: [
         38,
-        6
+        6,
+        10
 ],
         // obrazek
         img: [
@@ -1389,7 +1571,8 @@ id: [
 {
 id: [
         39,
-        6
+        6,
+        10
 ],
         // obrazek
         img: [
@@ -1424,7 +1607,8 @@ id: [
 {
 id: [
         40,
-        7
+        7,
+        11
 ],
         // obrazek
         img: [
@@ -1462,7 +1646,8 @@ id: [
 {
 id: [
         41,
-        7
+        7,
+        11
 ],
         // obrazek
         img: [
@@ -1495,7 +1680,8 @@ id: [
 {
 id: [
         42,
-        7
+        7,
+        12
 ],
         // obrazek
         img: [
@@ -1528,7 +1714,8 @@ id: [
 {
 id: [
         43,
-        7
+        7,
+        12
 ],
         // obrazek
         img: [
@@ -1561,7 +1748,8 @@ id: [
 {
 id: [
         44,
-        8
+        8,
+        13
 ],
         // obrazek
         img: [
@@ -1599,7 +1787,8 @@ id: [
 {
 id: [
         45,
-        8
+        8,
+        13
 ],
         // obrazek
         img: [
@@ -1632,7 +1821,8 @@ id: [
 {
 id: [
         46,
-        8
+        8,
+        14
 ],
         // obrazek
         img: [
@@ -1665,7 +1855,8 @@ id: [
 {
 id: [
         47,
-        8
+        8,
+        14
 ],
         // obrazek
         img: [
@@ -1698,7 +1889,8 @@ id: [
 {
 id: [
         48,
-        9
+        9,
+        15
 ],
         // obrazek
         img: [
@@ -1737,7 +1929,8 @@ id: [
 {
 id: [
         49,
-        9
+        9,
+        15
 ],
         // obrazek
         img: [
@@ -1771,7 +1964,8 @@ id: [
 {
 id: [
         50,
-        9
+        9,
+        15
 ],
         // obrazek
         img: [
@@ -1805,7 +1999,8 @@ id: [
 {
 id: [
         51,
-        9
+        9,
+        16
 ],
         // obrazek
         img: [
@@ -1839,7 +2034,8 @@ id: [
 {
 id: [
         52,
-        9
+        9,
+        16
 ],
         // obrazek
         img: [
@@ -1873,7 +2069,8 @@ id: [
 {
 id: [
         53,
-        9
+        9,
+        16
 ],
         // obrazek
         img: [
@@ -1907,7 +2104,8 @@ id: [
 {
 id: [
         54,
-        10
+        10,
+        17
 ],
         // obrazek
         img: [
@@ -1946,7 +2144,8 @@ id: [
 {
 id: [
         55,
-        10
+        10,
+        17
 ],
         // obrazek
         img: [
@@ -1982,7 +2181,8 @@ id: [
 {
 id: [
         56,
-        10
+        10,
+        17
 ],
         // obrazek
         img: [
@@ -2016,7 +2216,8 @@ id: [
 {
 id: [
         57,
-        10
+        10,
+        18
 ],
         // obrazek
         img: [
@@ -2049,7 +2250,8 @@ id: [
 {
 id: [
         58,
-        10
+        10,
+        18
 ],
         // obrazek
         img: [
@@ -2082,7 +2284,8 @@ id: [
 {
 id: [
         59,
-        11
+        11,
+        19
 ],
         // obrazek
         img: [
@@ -2120,7 +2323,8 @@ id: [
 {
 id: [
         60,
-        11
+        11,
+        19
 ],
         // obrazek
         img: [
@@ -2153,7 +2357,8 @@ id: [
 {
 id: [
         61,
-        11
+        11,
+        20
 ],
         // obrazek
         img: [
@@ -2186,7 +2391,8 @@ id: [
 {
 id: [
         62,
-        11
+        11,
+        20
 ],
         // obrazek
         img: [
@@ -2219,7 +2425,8 @@ id: [
 {
 id: [
         63,
-        12
+        12,
+        21
 ],
         // obrazek
         img: [
@@ -2257,7 +2464,8 @@ id: [
 {
 id: [
         64,
-        12
+        12,
+        21
 ],
         // obrazek
         img: [
@@ -2290,7 +2498,8 @@ id: [
 {
 id: [
         65,
-        12
+        12,
+        22
 ],
         // obrazek
         img: [
@@ -2327,7 +2536,8 @@ id: [
 {
 id: [
         66,
-        12
+        12,
+        22
 ],
         // obrazek
         img: [
@@ -2361,7 +2571,8 @@ id: [
 {
 id: [
         67,
-        12
+        12,
+        22
 ],
         // obrazek
         img: [
@@ -2395,7 +2606,8 @@ id: [
 {
 id: [
         68,
-        13
+        13,
+        23
 ],
         // obrazek
         img: [
@@ -2434,7 +2646,8 @@ id: [
 {
 id: [
         69,
-        13
+        13,
+        23
 ],
         // obrazek
         img: [
@@ -2468,7 +2681,8 @@ id: [
 {
 id: [
         70,
-        13
+        13,
+        23
 ],
         // obrazek
         img: [
@@ -2502,7 +2716,8 @@ id: [
 {
 id: [
         71,
-        13
+        13,
+        24
 ],
         // obrazek
         img: [
@@ -2536,7 +2751,8 @@ id: [
 {
 id: [
         72,
-        13
+        13,
+        24
 ],
         // obrazek
         img: [
@@ -2573,7 +2789,8 @@ id: [
 {
 id: [
         73,
-        13
+        13,
+        24
 ],
         // obrazek
         img: [
@@ -2607,7 +2824,8 @@ id: [
 {
 id: [
         74,
-        14
+        14,
+        25
 ],
         // obrazek
         img: [
@@ -2646,7 +2864,8 @@ id: [
 {
 id: [
         75,
-        14
+        14,
+        25
 ],
         // obrazek
         img: [
@@ -2680,7 +2899,8 @@ id: [
 {
 id: [
         76,
-        14
+        14,
+        25
 ],
         // obrazek
         img: [
@@ -2714,7 +2934,8 @@ id: [
 {
 id: [
         77,
-        14
+        14,
+        26
 ],
         // obrazek
         img: [
@@ -2747,7 +2968,8 @@ id: [
 {
 id: [
         78,
-        14
+        14,
+        26
 ],
         // obrazek
         img: [
@@ -2780,7 +3002,8 @@ id: [
 {
 id: [
         79,
-        15
+        15,
+        27
 ],
         // obrazek
         img: [
@@ -2819,7 +3042,8 @@ id: [
 {
 id: [
         80,
-        15
+        15,
+        27
 ],
         // obrazek
         img: [
@@ -2852,7 +3076,8 @@ id: [
 {
 id: [
         81,
-        15
+        15,
+        28
 ],
         // obrazek
         img: [
@@ -2886,7 +3111,8 @@ id: [
 {
 id: [
         82,
-        15
+        15,
+        28
 ],
         // obrazek
         img: [
@@ -2919,7 +3145,8 @@ id: [
 {
 id: [
         83,
-        16
+        16,
+        29
 ],
         // obrazek
         img: [
@@ -2957,7 +3184,8 @@ id: [
 {
 id: [
         84,
-        16
+        16,
+        29
 ],
         // obrazek
         img: [
@@ -2990,7 +3218,8 @@ id: [
 {
 id: [
         85,
-        16
+        16,
+        30
 ],
         // obrazek
         img: [
@@ -3023,7 +3252,8 @@ id: [
 {
 id: [
         86,
-        16
+        16,
+        30
 ],
         // obrazek
         img: [
@@ -3056,7 +3286,8 @@ id: [
 {
 id: [
         87,
-        17
+        17,
+        31
 ],
         // obrazek
         img: [
@@ -3095,7 +3326,8 @@ id: [
 {
 id: [
         88,
-        17
+        17,
+        31
 ],
         // obrazek
         img: [
@@ -3129,7 +3361,8 @@ id: [
 {
 id: [
         89,
-        17
+        17,
+        31
 ],
         // obrazek
         img: [
@@ -3163,7 +3396,8 @@ id: [
 {
 id: [
         90,
-        17
+        17,
+        32
 ],
         // obrazek
         img: [
@@ -3196,7 +3430,8 @@ id: [
 {
 id: [
         91,
-        17
+        17,
+        32
 ],
         // obrazek
         img: [
@@ -3229,7 +3464,8 @@ id: [
 {
 id: [
         92,
-        18
+        18,
+        33
 ],
         // obrazek
         img: [
@@ -3268,7 +3504,8 @@ id: [
 {
 id: [
         93,
-        18
+        18,
+        33
 ],
         // obrazek
         img: [
@@ -3302,7 +3539,8 @@ id: [
 {
 id: [
         94,
-        18
+        18,
+        33
 ],
         // obrazek
         img: [
@@ -3336,7 +3574,8 @@ id: [
 {
 id: [
         95,
-        18
+        18,
+        33
 ],
         // obrazek
         img: [
@@ -3370,7 +3609,8 @@ id: [
 {
 id: [
         96,
-        19
+        19,
+        34
 ],
         // obrazek
         img: [
@@ -3407,7 +3647,8 @@ id: [
 {
 id: [
         97,
-        19
+        19,
+        34
 ],
         // obrazek
         img: [
@@ -3439,7 +3680,8 @@ id: [
 {
 id: [
         98,
-        19
+        19,
+        35
 ],
         // obrazek
         img: [
@@ -3472,7 +3714,8 @@ id: [
 {
 id: [
         99,
-        19
+        19,
+        35
 ],
         // obrazek
         img: [
@@ -3505,7 +3748,8 @@ id: [
 {
 id: [
         100,
-        19
+        19,
+        35
 ],
         // obrazek
         img: [
@@ -3538,7 +3782,8 @@ id: [
 {
 id: [
         101,
-        20
+        20,
+        36
 ],
         // obrazek
         img: [
@@ -3575,7 +3820,8 @@ id: [
 {
 id: [
         102,
-        20
+        20,
+        36
 ],
         // obrazek
         img: [
@@ -3607,7 +3853,8 @@ id: [
 {
 id: [
         103,
-        20
+        20,
+        37
 ],
         // obrazek
         img: [
@@ -3643,7 +3890,8 @@ id: [
 {
 id: [
         104,
-        20
+        20,
+        37
 ],
         // obrazek
         img: [
@@ -3677,7 +3925,8 @@ id: [
 {
 id: [
         105,
-        20
+        20,
+        37
 ],
         // obrazek
         img: [
@@ -3711,7 +3960,8 @@ id: [
 {
 id: [
         106,
-        20
+        20,
+        37
 ],
         // obrazek
         img: [
@@ -3747,7 +3997,8 @@ id: [
 {
 id: [
         107,
-        21
+        21,
+        38
 ],
         // obrazek
         img: [
@@ -3786,7 +4037,8 @@ id: [
 {
 id: [
         108,
-        21
+        21,
+        38
 ],
         // obrazek
         img: [
@@ -3820,7 +4072,8 @@ id: [
 {
 id: [
         109,
-        21
+        21,
+        38
 ],
         // obrazek
         img: [
@@ -3854,7 +4107,8 @@ id: [
 {
 id: [
         110,
-        21
+        21,
+        38
 ],
         // obrazek
         img: [
@@ -3890,7 +4144,8 @@ id: [
 {
 id: [
         111,
-        22
+        22,
+        39
 ],
         // obrazek
         img: [
@@ -3928,7 +4183,8 @@ id: [
 {
 id: [
         112,
-        22
+        22,
+        39
 ],
         // obrazek
         img: [
@@ -3961,7 +4217,8 @@ id: [
 {
 id: [
         113,
-        22
+        22,
+        39
 ],
         // obrazek
         img: [
@@ -3994,7 +4251,8 @@ id: [
 {
 id: [
         114,
-        22
+        22,
+        40
 ],
         // obrazek
         img: [
@@ -4027,7 +4285,8 @@ id: [
 {
 id: [
         115,
-        22
+        22,
+        40
 ],
         // obrazek
         img: [
@@ -4060,7 +4319,8 @@ id: [
 {
 id: [
         116,
-        22
+        22,
+        40
 ],
         // obrazek
         img: [
@@ -4093,7 +4353,8 @@ id: [
 {
 id: [
         117,
-        23
+        23,
+        41
 ],
         // obrazek
         img: [
@@ -4131,7 +4392,8 @@ id: [
 {
 id: [
         118,
-        23
+        23,
+        41
 ],
         // obrazek
         img: [
@@ -4164,7 +4426,8 @@ id: [
 {
 id: [
         119,
-        23
+        23,
+        41
 ],
         // obrazek
         img: [
@@ -4197,7 +4460,8 @@ id: [
 {
 id: [
         120,
-        23
+        23,
+        42
 ],
         // obrazek
         img: [
@@ -4229,7 +4493,8 @@ id: [
 {
 id: [
         121,
-        23
+        23,
+        42
 ],
         // obrazek
         img: [
@@ -4261,7 +4526,8 @@ id: [
 {
 id: [
         122,
-        24
+        24,
+        43
 ],
         // obrazek
         img: [
@@ -4298,7 +4564,8 @@ id: [
 {
 id: [
         123,
-        24
+        24,
+        43
 ],
         // obrazek
         img: [
@@ -4330,7 +4597,8 @@ id: [
 {
 id: [
         124,
-        24
+        24,
+        44
 ],
         // obrazek
         img: [
@@ -4365,7 +4633,8 @@ id: [
 {
 id: [
         125,
-        24
+        24,
+        44
 ],
         // obrazek
         img: [
@@ -4398,7 +4667,8 @@ id: [
 {
 id: [
         126,
-        24
+        24,
+        44
 ],
         // obrazek
         img: [
@@ -4432,7 +4702,8 @@ id: [
 {
 id: [
         127,
-        25
+        25,
+        45
 ],
         // obrazek
         img: [
@@ -4470,7 +4741,8 @@ id: [
 {
 id: [
         128,
-        25
+        25,
+        45
 ],
         // obrazek
         img: [
@@ -4503,7 +4775,8 @@ id: [
 {
 id: [
         129,
-        25
+        25,
+        45
 ],
         // obrazek
         img: [
@@ -4536,7 +4809,8 @@ id: [
 {
 id: [
         130,
-        25
+        25,
+        46
 ],
         // obrazek
         img: [
@@ -4568,7 +4842,8 @@ id: [
 {
 id: [
         131,
-        25
+        25,
+        46
 ],
         // obrazek
         img: [
@@ -4600,7 +4875,8 @@ id: [
 {
 id: [
         132,
-        26
+        26,
+        47
 ],
         // obrazek
         img: [
@@ -4637,7 +4913,8 @@ id: [
 {
 id: [
         133,
-        26
+        26,
+        47
 ],
         // obrazek
         img: [
@@ -4669,7 +4946,8 @@ id: [
 {
 id: [
         134,
-        26
+        26,
+        48
 ],
         // obrazek
         img: [
@@ -4702,7 +4980,8 @@ id: [
 {
 id: [
         135,
-        26
+        26,
+        48
 ],
         // obrazek
         img: [
@@ -4735,7 +5014,8 @@ id: [
 {
 id: [
         136,
-        26
+        26,
+        48
 ],
         // obrazek
         img: [
@@ -4768,7 +5048,8 @@ id: [
 {
 id: [
         137,
-        27
+        27,
+        49
 ],
         // obrazek
         img: [
@@ -4809,7 +5090,8 @@ id: [
 {
 id: [
         138,
-        27
+        27,
+        49
 ],
         // obrazek
         img: [
@@ -4845,7 +5127,8 @@ id: [
 {
 id: [
         139,
-        27
+        27,
+        49
 ],
         // obrazek
         img: [
@@ -4880,7 +5163,8 @@ id: [
 {
 id: [
         140,
-        27
+        27,
+        49
 ],
         // obrazek
         img: [
@@ -4915,7 +5199,8 @@ id: [
 {
 id: [
         141,
-        28
+        28,
+        50
 ],
         // obrazek
         img: [
@@ -4953,7 +5238,8 @@ id: [
 {
 id: [
         142,
-        28
+        28,
+        50
 ],
         // obrazek
         img: [
@@ -4987,7 +5273,8 @@ id: [
 {
 id: [
         143,
-        28
+        28,
+        50
 ],
         // obrazek
         img: [
@@ -5021,7 +5308,8 @@ id: [
 {
 id: [
         144,
-        28
+        28,
+        51
 ],
         // obrazek
         img: [
@@ -5056,7 +5344,8 @@ id: [
 {
 id: [
         145,
-        28
+        28,
+        51
 ],
         // obrazek
         img: [
@@ -5090,7 +5379,8 @@ id: [
 {
 id: [
         146,
-        28
+        28,
+        51
 ],
         // obrazek
         img: [
@@ -5124,7 +5414,8 @@ id: [
 {
 id: [
         147,
-        29
+        29,
+        52
 ],
         // obrazek
         img: [
@@ -5161,7 +5452,8 @@ id: [
 {
 id: [
         148,
-        29
+        29,
+        52
 ],
         // obrazek
         img: [
@@ -5194,7 +5486,8 @@ id: [
 {
 id: [
         149,
-        29
+        29,
+        53
 ],
         // obrazek
         img: [

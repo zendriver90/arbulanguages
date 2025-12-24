@@ -1085,7 +1085,7 @@ const fiszki10 = [
             "shy"
         ],
                         sentence1b: [
-            "nieśmiały"
+            "nieśmiały,"
         ],
                         sentence1c: [
             "szaj"
@@ -1137,7 +1137,7 @@ const fiszki10 = [
             "but"
         ],
                                 sentence2b: [
-            ", ale"
+            "ale"
         ],
                                         sentence2c: [
             "bat"
@@ -1342,7 +1342,7 @@ const fiszki10 = [
             "guy"
         ],
                 sentence1b: [
-            "chłopak (gościu)"
+            "chłopak_(gościu)"
         ],
                                                         sentence1c: [
             "gaj"
@@ -1798,7 +1798,7 @@ const fiszki10 = [
             "interesting"
         ],
                         sentence2b: [
-            "interesujące (ciekawe)"
+            "interesujące_(ciekawe)"
         ],
                                             sentence2c: [
             "interesting"
@@ -3806,10 +3806,10 @@ const fiszki10 = [
         ],
         desc: "dares[ders] - odważyć się",
         sentence1: [
-            "dares to"
+            "dares_to"
         ],
                                                   sentence1b: [
-            "odważył się"
+            "odważył_się"
         ],
                                                     sentence1c: [
             "ders tu"
@@ -4710,6 +4710,25 @@ console.log('Hej4442', fiszkaContainer);
                 }
             });
         });
+if ('serviceWorker' in navigator && 'PushManager' in window) {
+  navigator.serviceWorker.register('/sw.js').then(() => {
+    console.log("SW zarejestrowany");
+  });
+}
+
+// Request periodic sync
+navigator.serviceWorker.ready.then(async (reg) => {
+  try {
+    await reg.periodicSync.register("fiszka-sync", {
+      minInterval: 60 * 1000 // 1 min
+    });
+
+    console.log("Periodic Sync OK");
+
+  } catch (e) {
+    console.log("Brak wsparcia dla Periodic Sync");
+  }
+});
         console.log('hej555ax', lessons2b[2]);
 // DODANIE PRZYCISKU TRENING
         fiszkaContainer.append($('<button>').text('TRENING').addClass('fiszka_button fiszka_button_trening').click(function () {

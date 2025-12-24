@@ -37501,13 +37501,21 @@ const fiszki10 = [
             130,
             238
         ],
-        img: [
-            "https://www.arbulang.com/img/fiszki1/364a.jpg"
-        ],
-        story: [
-            "KOGNATY PARK (PL) - PARK (ENG)"
-        ],
-        desc: "sleeping[] - ",
+            entries: [
+        {
+            id: 1,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/753a.jpg",
+                alt: "Wygenerowane przez AI."
+            },
+            story: {
+                text: "<u><b>Narysowałem</u></b> mój <u><b>dru</u></b>gi krajobraz jesienny w życiu",
+                alt: ""
+            },
+            category: ["", ""]
+        }
+            ],
+        desc: "draw[dru] - rysować",
         sentence2: [
             "draw"
         ],
@@ -37526,13 +37534,33 @@ const fiszki10 = [
             130,
             238
         ],
-        img: [
-            "https://www.arbulang.com/img/fiszki1/364a.jpg"
-        ],
-        story: [
-            "KOGNATY PARK (PL) - PARK (ENG)"
-        ],
-        desc: "sleeping[] - ",
+            entries: [
+                        {
+            id: 1,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/483a.jpg",
+                alt: "Wygenerowane przez AI."
+            },
+            story: {
+                text: "<b><u>A</b></u> na polowaniu w po<b><u>ls</b></u>kim lesie zwięrząt <b><u>nima</b></u> niestety",
+                alt: ""
+            },
+            category: ["", ""]
+        },
+        {
+            id: 2,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/483a.jpg",
+                alt: "Wygenerowane przez AI."
+            },
+            story: {
+                text: "<b><u>Ani</b></u>a się nie <b><u>myl</b></u>i i wie, że <b><u>zwierzęta</b></u> hodowlane są bardzo przydatne dla go<b><u>s</b></u>podarstwa",
+                alt: ""
+            },
+            category: ["", ""]
+        }
+            ],
+        desc: "animals[animyls] - zwierzęta",
         sentence2: [
             "animals"
         ],
@@ -37551,13 +37579,21 @@ const fiszki10 = [
             130,
             239
         ],
-        img: [
-            "https://www.arbulang.com/img/fiszki1/364a.jpg"
-        ],
-        story: [
-            "KOGNATY PARK (PL) - PARK (ENG)"
-        ],
-        desc: "sleeping[] - ",
+            entries: [
+        {
+            id: 1,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/246a.jpg",
+                alt: "Wygenerowane przez AI."
+            },
+            story: {
+                text: "<u><b>On</u></b> jest <u><b>na</u></b> wakacjach. Nie odbiera telefonu",
+                alt: ""
+            },
+            category: ["wakacje", "odpoczynek"]
+        }
+            ],
+        desc: "on[on] - na",
         sentence2: [
             "on"
         ],
@@ -37575,13 +37611,21 @@ const fiszki10 = [
             130,
             239
         ],
-        img: [
-            "https://www.arbulang.com/img/fiszki1/364a.jpg"
-        ],
-        story: [
-            "KOGNATY PARK (PL) - PARK (ENG)"
-        ],
-        desc: "sleeping[] - ",
+            entries: [
+        {
+            id: 1,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/756a.jpg",
+                alt: "Wygenerowane przez AI."
+            },
+            story: {
+                text: "Tai Pei to duże miasto. Gęstość ludności per osoba na kilometr kwadratowy jest bardzo duża. Urzędnicy już nie notują tych danych na papierze",
+                alt: ""
+            },
+            category: ["wakacje", "odpoczynek"]
+        }
+            ],
+        desc: "paper[pejper] - papier",
         sentence2: [
             "the paper"
         ],
@@ -37902,7 +37946,6 @@ function printLessons2b() {
 document.addEventListener('DOMContentLoaded', function () {
     setTimeout(printLessons2b, 1000);  // Opóźnienie dla pewności
 });
-
 function generateFiszkaBlock(fiszka, lessonId2, category) {
 
     var currentStoryButtonName = ''; // Zmienna lokalna
@@ -38488,15 +38531,46 @@ if (Array.isArray(fiszka.entries) && fiszka.entries.length > 0) {
             showStory(0);
             console.log("Pojedyncza wartość dla category1, specificLesson2Ref:", specificLesson2Ref);
         }
-        $('.fiszka_button_trening').click(function () {
-            // Dodaj klasę pomarańczową tylko dla przycisku zatwierdzonego
-            $('.story_button').each(function (index) {
-                if ($(this).hasClass('green-button')) {
-                    $(this).removeClass('green-button');
-                    $(this).addClass('orange-button');
-                }
-            });
-        });
+
+
+let selectedFiszka = null; // Przechowuje wybraną fiszkę
+
+$('.fiszka_button_trening').click(function () {
+  const fiszka = $(this).data('fiszka'); // Pobierz dane fiszki z elementu
+  selectedFiszka = fiszka; // Zapisz wybraną fiszkę
+  scheduleNotification(); // Uruchom pierwsze powiadomienie od razu
+});
+
+// Funkcja do wyświetlania powiadomienia
+function showNotification(fiszka) {
+  const title = `Przypomnienie: Fiszka ${fiszka.id}`;
+  const body = `
+    <img src="${fiszka.img}" alt="Obrazek fiszki">
+    <p>${fiszka.translate}</p>
+    <p>${fiszka.opis}</p>
+  `;
+
+  const notification = new Notification(title, {
+    body: body,
+    icon: 'https://www.arbulang.com/img/fiszki1/1a.jpg', // Opcjonalnie, jeśli masz ikonę
+  });
+
+  notification.onclose = function () {
+    clearInterval(intervalId); // Zatrzymaj interwał po zamknięciu powiadomienia
+  };
+}
+
+// Funkcja do wyświetlania powiadomienia co minutę
+function scheduleNotification() {
+  if (selectedFiszka) {
+    showNotification(selectedFiszka);
+  }
+}
+
+// Ustawienie interwału co 60 sekund (1 minuta)
+const intervalId = setInterval(scheduleNotification, 60000);
+
+
         console.log('hej555ax', lessons2b[2]);
 // DODANIE PRZYCISKU TRENING
         fiszkaContainer.append($('<button>').text('TRENING').addClass('fiszka_button fiszka_button_trening').click(function () {
@@ -38557,6 +38631,7 @@ if (Array.isArray(fiszka.entries) && fiszka.entries.length > 0) {
 
             // Dodanie zatwierdzonej klasy imgIndex do fiszkaContainer po kliknięciu przycisku "TRENING"
             fiszkaContainer.addClass('imgIndex-' + lastClickedIndex);
+            
         }));
 
         fiszkaContainer.append($('<button>').text('ZNAM').addClass('fiszka_button fiszka_button_znam').click(function () {
@@ -39134,15 +39209,22 @@ function generateFiszkaBlock2(fiszka, lessonId2) {
             showStory(0);
             console.log("Pojedyncza wartość dla category1, specificLesson2Ref:", specificLesson2Ref);
         }
-        $('.fiszka_button_trening').click(function () {
-            // Dodaj klasę pomarańczową tylko dla przycisku zatwierdzonego
-            $('.story_button').each(function (index) {
-                if ($(this).hasClass('green-button')) {
-                    $(this).removeClass('green-button');
-                    $(this).addClass('orange-button');
-                }
-            });
-        });
+// Kliknięcie trening
+// Przy kliknięciu przycisku wyślij fiszkę
+$('.fiszka_button_trening').click(async function () {
+  const wybranaFiszka = fiszki10[0].entries[0]; // Pierwsza fiszka
+  const fiszka = {
+    title: "Powtórka słówek!",
+    body: wybranaFiszka.story.text,
+    icon: wybranaFiszka.img.src
+  };
+
+  const reg = await navigator.serviceWorker.ready;
+  if (reg.active) {
+    console.log("Wysyłam fiszkę do SW");
+    reg.active.postMessage({ type: "SHOW_FISZKA", fiszka });
+  }
+});
         console.log('hej555ax', lessons2b[2]);
 // DODANIE PRZYCISKU TRENING
         fiszkaContainer.append($('<button>').text('TRENING').addClass('fiszka_button fiszka_button_trening').click(function () {
@@ -39748,15 +39830,23 @@ console.log('Hej4442', fiszkaContainer);
             showStory(0);
             console.log("Pojedyncza wartość dla category1, specificLesson2Ref:", specificLesson2Ref);
         }
-        $('.fiszka_button_trening').click(function () {
-            // Dodaj klasę pomarańczową tylko dla przycisku zatwierdzonego
-            $('.story_button').each(function (index) {
-                if ($(this).hasClass('green-button')) {
-                    $(this).removeClass('green-button');
-                    $(this).addClass('orange-button');
-                }
-            });
-        });
+// Kliknięcie trening
+// Kliknięcie trening
+// Przy kliknięciu przycisku wyślij fiszkę
+$('.fiszka_button_trening').click(async function () {
+  const wybranaFiszka = fiszki10[0].entries[0]; // Pierwsza fiszka
+  const fiszka = {
+    title: "Powtórka słówek!",
+    body: wybranaFiszka.story.text,
+    icon: wybranaFiszka.img.src
+  };
+
+  const reg = await navigator.serviceWorker.ready;
+  if (reg.active) {
+    console.log("Wysyłam fiszkę do SW");
+    reg.active.postMessage({ type: "SHOW_FISZKA", fiszka });
+  }
+});
         console.log('hej555ax', lessons2b[2]);
 // DODANIE PRZYCISKU TRENING
         fiszkaContainer.append($('<button>').text('TRENING').addClass('fiszka_button fiszka_button_trening').click(function () {
@@ -39876,3 +39966,32 @@ $('<style>.green-button { background-color: green; color: white; }</style>').app
 $('<style>.active-button { border: 2px solid red; }</style>').appendTo('head');
 
 window.fiszki = fiszki10;
+
+// Funkcja do wyświetlania powiadomienia
+function showNotification(fiszka) {
+  const title = `Fiszka ${fiszka.id}`;
+  const body = `
+    <img src="${fiszka.img}" alt="Obrazek fiszki">
+    <p>${fiszka.translate}</p>
+    <p>${fiszka.opis}</p>
+  `;
+
+  const notification = new Notification(title, {
+    body: body,
+    icon: 'https://www.arbulang.com/img/fiszki1/1a.jpg', // Opcjonalnie, jeśli masz ikonę
+  });
+}
+// Załóżmy, że wybrana fiszka jest w zmiennej `selectedFiszka`
+let selectedFiszka = null; // Przechowuj tutaj wybraną fiszkę
+
+// Funkcja do wyświetlania powiadomienia co minutę
+function scheduleNotification() {
+  if (selectedFiszka) {
+    showNotification(selectedFiszka);
+  }
+}
+
+// Ustawienie interwału co 60 sekund (1 minuta)
+const intervalId = setInterval(scheduleNotification, 60000);
+
+// Aby zatrzymać interwał, użyj `clearInterval(intervalId)`
