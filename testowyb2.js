@@ -5,20 +5,26 @@ id: [
         1,
         1
 ],
-        // obrazek
-        img: [
-                "https://www.arbulang.com/img/fiszki1en-esp/1a.jpg"
-        ],
+    entries: [
+        {
+            id: 1,
+            img: {
+                src: "http://localhost/arbulanguage.com/img/fiszki1en-esp/1a.jpg",
+                alt: ""
+            },
+            story: {
+                text: 'I am from New <u><b>Yo</u></b>rk, so wherever <u><b>I</u></b> am, <u><b>I</u></b> represent New <u><b>Yo</u></b>rk',
+                alt: ""
+            },
+            category: ["", ""]
+        }
+    ],
         translate: "I want to learn Spanish very quickly",
         translateb: "[yoh kee-eh-roh ah-pren-dehr es-pah-nyol moo-ee rah-pee-doh]",
         srcWord: ["https://www.arbulang.com/filmy/eng-esp/language2.mp4", 'Crank 2 (2009)'],
         srcWordimage: "https://www.arbulang.com/filmy/eng-esp/language2.png",
         word: [
                 "https://www.arbulang.com/voice/music.mp4"
-        ],
-        // historia
-        story: [
-                "I am from New <u><b>Yo</u></b>rk, so wherever <u><b>I</u></b> am, <u><b>I</u></b> represent New <u><b>Yo</u></b>rk"
         ],
         // opis
         desc: "yo[yoh] - I",
@@ -51,16 +57,22 @@ id: [
         1,
         1
 ],
-        // obrazek
-        img: [
-                "https://www.arbulang.com/img/fiszki1en-esp/2a.jpg"
-        ],
+    entries: [
+        {
+            id: 1,
+            img: {
+                src: "http://localhost/arbulanguage.com/img/fiszki1en-esp/2a.jpg",
+                alt: ""
+            },
+            story: {
+                text: 'I <u><b>want</u></b> to bake cookies and find a <u><b>key</u></b>, which is the recipe, but the oven has an <u><b>er</u></b>ror, so I need to buy an oven <u><b>ro</u></b>bot',
+                alt: ""
+            },
+            category: ["", ""]
+        }
+    ],
         word: [
                 "https://www.arbulang.com/voice/music.mp4"
-        ],
-        // historia
-        story: [
-                "I <u><b>want</u></b> to bake cookies and find a <u><b>key</u></b>, which is the recipe, but the oven has an <u><b>er</u></b>ror, so I need to buy an oven <u><b>ro</u></b>bot"
         ],
         // opis
         desc: "quiero[kee-eh-roh] - want",
@@ -93,16 +105,26 @@ id: [
         1,
         1
 ],
-        // obrazek
-        img: [
-                "https://www.arbulang.com/img/fiszki1en-esp/3a.jpg"
-        ],
+    entries: [
+        {
+            id: 1,
+            img: {
+                src: "http://localhost/arbulanguage.com/img/fiszki1en-esp/3a.jpg",
+                alt: ""
+            },
+            story: {
+                text: "I bought an <u><b>app</u></b>lication to <u><b>ren</u></b>t a house, and I am <u><b>learning</u></b> how to use it. I'm old, but I still <u><b>dare</u></b> to use new technologies",
+                alt: ""
+            },
+            category: ["", ""]
+        }
+    ],
         word: [
                 "https://www.arbulang.com/voice/music.mp4"
         ],
         // historia
         story: [
-                "I bought an <u><b>app</u></b>lication to <u><b>ren</u></b>t a house, and I am <u><b>learning</u></b> how to use it. I'm old, but I still <u><b>dare</u></b> to use new technologies"
+                ""
         ],
         // opis
         desc: "aprender[ah-pren-dehr] - learn",
@@ -135,16 +157,22 @@ id: [
         1,
         1
 ],
-        // obrazek
-        img: [
-                "https://www.arbulang.com/img/fiszki1en-esp/4a.jpg"
-        ],
+    entries: [
+        {
+            id: 1,
+            img: {
+                src: "http://localhost/arbulanguage.com/img/fiszki1en-esp/4a.jpg",
+                alt: ""
+            },
+            story: {
+                text: "I have a <u><b>Spanish</u></b> girlfriend, her presence is <u><b>ess</u></b>ential and a part of my life. I like her as a compa<u><b>nio</u></b>n, and <u><b>all</u></b> of it makes me happy",
+                alt: ""
+            },
+            category: ["", ""]
+        }
+    ],
         word: [
                 "https://www.arbulang.com/voice/music.mp4"
-        ],
-        // historia
-        story: [
-                "I have a <u><b>Spanish</u></b> girlfriend, her presence is <u><b>ess</u></b>ential and a part of my life. I like her as a compa<u><b>nio</u></b>n, and <u><b>all</u></b> of it makes me happy"
         ],
         // opis
         desc: "espanol[es-pah-nyol] - spanish",
@@ -177,16 +205,22 @@ id: [
         1,
         2
 ],
-        // obrazek
-        img: [
-                "https://www.arbulang.com/img/fiszki1en-esp/5a.jpg"
-        ],
+    entries: [
+        {
+            id: 1,
+            img: {
+                src: "http://localhost/arbulanguage.com/img/fiszki1en-esp/5a.jpg",
+                alt: ""
+            },
+            story: {
+                text: "The cow ate a lot of <u><b>very</u></b> good chocolate and made a lot of <u><b>'moo'</u></b> sounds in the b<u><b>ui</u></b>lding",
+                alt: ""
+            },
+            category: ["", ""]
+        }
+    ],
         word: [
                 "https://www.arbulang.com/voice/music.mp4"
-        ],
-        // historia
-        story: [
-                "The cow ate a lot of <u><b>very</u></b> good chocolate and made a lot of <u><b>'moo'</u></b> sounds in the b<u><b>ui</u></b>lding"
         ],
         // opis
         desc: "muy[moo-ee] - very",
@@ -217,16 +251,22 @@ id: [
         1,
         2
 ],
-        // obrazek
-        img: [
-                "https://www.arbulang.com/img/fiszki1en-esp/6a.jpg"
-        ],
+    entries: [
+        {
+            id: 1,
+            img: {
+                src: "http://localhost/arbulanguage.com/img/fiszki1en-esp/6a.jpg",
+                alt: ""
+            },
+            story: {
+                text: "<u><b>Ra</u></b>mses in the <u><b>pi</u></b>cture is going through the bathroom <u><b>doo</u></b>r very <u><b>fast</u></b> because he needs to pee",
+                alt: ""
+            },
+            category: ["", ""]
+        }
+    ],
         word: [
                 "https://www.arbulang.com/voice/music.mp4"
-        ],
-        // historia
-        story: [
-                "<u><b>Ra</u></b>mses in the <u><b>pi</u></b>cture is going through the bathroom <u><b>doo</u></b>r very <u><b>fast</u></b> because he needs to pee"
         ],
         // opis
         desc: "rapido[rah-pee-doh] - fast",
@@ -257,20 +297,26 @@ id: [
         2,
         3
 ],
-        // obrazek
-        img: [
-                "https://www.arbulang.com/img/fiszki1en-esp/7a.jpg"
-        ],
+    entries: [
+        {
+            id: 1,
+            img: {
+                src: "http://localhost/arbulanguage.com/img/fiszki1en-esp/7a.jpg",
+                alt: ""
+            },
+            story: {
+                text: "The gr<u><b>ou</u></b>nd is a good <u><b>plan</u></b>",
+                alt: ""
+            },
+            category: ["", ""]
+        }
+    ],
         translate: "A plan is a method or way of doing something",
         translateb: "[oon plahn es oon meh-toh-doh oh mah-neh-rah deh ah-ser ahl-goh]",
         srcWord: ["https://www.arbulang.com/filmy/eng-esp/planning.mp4", 'A Beautiful Mind (2001)'],
         srcWordimage: "https://www.arbulang.com/filmy/eng-esp/planning.png",
         word: [
                 "https://www.arbulang.com/voice/music.mp4"
-        ],
-        // historia
-        story: [
-                "The gr<u><b>ou</u></b>nd is a good <u><b>plan</u></b>"
         ],
         // opis
         desc: "un plan[oon plahn] - plan",
@@ -306,18 +352,34 @@ id: [
         2,
         3
 ],
-        // obrazek
-        img: [
-                            "https://www.arbulang.com/img/fiszki1en-esp/22a.jpg",
-                "https://www.arbulang.com/img/fiszki1en-esp/8a.jpg"
-        ],
+    entries: [
+        {
+            id: 1,
+            img: {
+                src: "http://localhost/arbulanguage.com/img/fiszki1en-esp/22a.jpg",
+                alt: ""
+            },
+            story: {
+                text: "Y<b><u>es</b></u>, it <b><u>is</b></u> a good place",
+                alt: ""
+            },
+            category: ["", ""]
+        },
+                {
+            id: 2,
+            img: {
+                src: "http://localhost/arbulanguage.com/img/fiszki1en-esp/8a.jpg",
+                alt: ""
+            },
+            story: {
+                text: "Style of dr<b><u>ess</b></u>ing is a way of expr<b><u>ess</b></u>ing personality",
+                alt: ""
+            },
+            category: ["", ""]
+        }
+    ],
         word: [
                 "https://www.arbulang.com/voice/music.mp4"
-        ],
-        // historia
-        story: [
-                            "Y<b><u>es</b></u>, it <b><u>is</b></u> a good place",
-                "Style of dr<b><u>ess</b></u>ing is a way of expr<b><u>ess</b></u>ing personality"
         ],
         // opis
         desc: "es[es] - is",
@@ -354,16 +416,22 @@ id: [
         2,
         3
 ],
-        // obrazek
-        img: [
-                "https://www.arbulang.com/img/fiszki1en-esp/9a.jpg"
-        ],
+    entries: [
+        {
+            id: 1,
+            img: {
+                src: "http://localhost/arbulanguage.com/img/fiszki1en-esp/9a.jpg",
+                alt: ""
+            },
+            story: {
+                text: "Listening to so<b><u>un</b></u>ds is a <b><u>method</b></u> of staying calm, so dont w<b><u>o</b></u>rry",
+                alt: ""
+            },
+            category: ["", ""]
+        }
+    ],
         word: [
                 "https://www.arbulang.com/voice/music.mp4"
-        ],
-        // historia
-        story: [
-                "Listening to so<b><u>un</b></u>ds is a <b><u>method</b></u> of staying calm, so dont w<b><u>o</b></u>rry"
         ],
         // opis
         desc: "un metodo[oon meh-toh-doh] - method",
@@ -399,16 +467,22 @@ id: [
         2,
         3
 ],
-        // obrazek
-        img: [
-                "https://www.arbulang.com/img/fiszki1en-esp/10a.jpg"
-        ],
+    entries: [
+        {
+            id: 1,
+            img: {
+                src: "http://localhost/arbulanguage.com/img/fiszki1en-esp/10a.jpg",
+                alt: ""
+            },
+            story: {
+                text: "A <b><u>way</b></u> to <b><u>man</b></u>ifest skills is to work hard without being int<b><u>err</b></u>upted, <b><u>or</b></u> to just sit on the sof<b><u>a</b></u>",
+                alt: ""
+            },
+            category: ["", ""]
+        }
+    ],
         word: [
                 "https://www.arbulang.com/voice/music.mp4"
-        ],
-        // historia
-        story: [
-                "A <b><u>way</b></u> to <b><u>man</b></u>ifest skills is to work hard without being int<b><u>err</b></u>upted, <b><u>or</b></u> to just sit on the sof<b><u>a</b></u>"
         ],
         // opis
         desc: "o manera[oh mah-neh-rah] - or way",
@@ -444,16 +518,22 @@ id: [
         2,
         3
 ],
-        // obrazek
-        img: [
-                "https://www.arbulang.com/img/fiszki1en-esp/11a.jpg"
-        ],
+    entries: [
+        {
+            id: 1,
+            img: {
+                src: "http://localhost/arbulanguage.com/img/fiszki1en-esp/11a.jpg",
+                alt: ""
+            },
+            story: {
+                text: "<b><u>The</b></u> act of doing is a form <b><u>of</b></u> meditation",
+                alt: ""
+            },
+            category: ["", ""]
+        }
+    ],
         word: [
                 "https://www.arbulang.com/voice/music.mp4"
-        ],
-        // historia
-        story: [
-                "<b><u>The</b></u> act of doing is a form <b><u>of</b></u> meditation"
         ],
         // opis
         desc: "de[deh] - of",
@@ -489,16 +569,22 @@ id: [
         2,
         3
 ],
-        // obrazek
-        img: [
-                "https://www.arbulang.com/img/fiszki1en-esp/12a.jpg"
-        ],
+    entries: [
+        {
+            id: 1,
+            img: {
+                src: "http://localhost/arbulanguage.com/img/fiszki1en-esp/12a.jpg",
+                alt: ""
+            },
+            story: {
+                text: "<b><u>As</b></u> i learned from <b><u>Sir</b></u> Robert, I <b><u>make</b></u> the same effort",
+                alt: ""
+            },
+            category: ["", ""]
+        }
+    ],
         word: [
                 "https://www.arbulang.com/voice/music.mp4"
-        ],
-        // historia
-        story: [
-                "<b><u>As</b></u> i learned from <b><u>Sir</b></u> Robert, I <b><u>make</b></u> the same effort"
         ],
         // opis
         desc: "hacer[ah-ser] - do/make",
@@ -534,16 +620,22 @@ id: [
         2,
         3
 ],
-        // obrazek
-        img: [
-                "https://www.arbulang.com/img/fiszki1en-esp/13a.jpg"
-        ],
+    entries: [
+        {
+            id: 1,
+            img: {
+                src: "http://localhost/arbulanguage.com/img/fiszki1en-esp/13a.jpg",
+                alt: ""
+            },
+            story: {
+                text: "<b><u>A</b></u>nn uses <b><u>something</b></u> like the element g<b><u>all</b></u>ium to prepare for <b><u>go</b></u>ing to space",
+                alt: ""
+            },
+            category: ["", ""]
+        }
+    ],
         word: [
                 "https://www.arbulang.com/voice/music.mp4"
-        ],
-        // historia
-        story: [
-                "<b><u>A</b></u>nn uses <b><u>something</b></u> like the element g<b><u>all</b></u>ium to prepare for <b><u>go</b></u>ing to space"
         ],
         // opis
         desc: "algo[ahl-goh] - something",
@@ -579,20 +671,26 @@ id: [
         3,
         4
 ],
-        // obrazek
-        img: [
-                "https://www.arbulang.com/img/fiszki1en-esp/14a.jpg"
-        ],
+    entries: [
+        {
+            id: 1,
+            img: {
+                src: "http://localhost/arbulanguage.com/img/fiszki1en-esp/14a.jpg",
+                alt: ""
+            },
+            story: {
+                text: "Sens<b><u>ei</b></u> s<b><u>o</b></u>mehow manages to meet a beautiful girl. <b><u>She</b></u> is happy",
+                alt: ""
+            },
+            category: ["", ""]
+        }
+    ],
         translate: "She is reading an interesting book now",
         translateb: "[eh-yah es-tah leh-yen-doh oon lee-broh in-teh-reh-sahn-teh ah-oh-rah]",
         srcWord: ["https://www.arbulang.com/filmy/eng-esp/interestingbook.mp4", 'The Book of Eli (2010)'],
         srcWordimage: "https://www.arbulang.com/filmy/eng-esp/interestingbook.png",
         word: [
                 "https://www.arbulang.com/voice/music.mp4"
-        ],
-        // historia
-        story: [
-                "Sens<b><u>ei</b></u> s<b><u>o</b></u>mehow manages to meet a beautiful girl. <b><u>She</b></u> is happy"
         ],
         // opis
         desc: "Ella[eh-yah] - she",
@@ -627,16 +725,22 @@ id: [
         3,
         4
 ],
-        // obrazek
-        img: [
-                "https://www.arbulang.com/img/fiszki1en-esp/15a.jpg"
-        ],
+    entries: [
+        {
+            id: 1,
+            img: {
+                src: "http://localhost/arbulanguage.com/img/fiszki1en-esp/15a.jpg",
+                alt: ""
+            },
+            story: {
+                text: "The <b><u>esta</b></u>blishment <b><u>is</b></u> planning a new order for the people",
+                alt: ""
+            },
+            category: ["", ""]
+        }
+    ],
         word: [
                 "https://www.arbulang.com/voice/lee.mp4"
-        ],
-        // historia
-        story: [
-                "The <b><u>esta</b></u>blishment <b><u>is</b></u> planning a new order for the people."
         ],
         // opis
         desc: "está[es-tah] - is",
@@ -671,16 +775,22 @@ id: [
         3,
         4
 ],
-        // obrazek
-        img: [
-                "https://www.arbulang.com/img/fiszki1en-esp/16a.jpg"
-        ],
+    entries: [
+        {
+            id: 1,
+            img: {
+                src: "http://localhost/arbulanguage.com/img/fiszki1en-esp/16a.jpg",
+                alt: ""
+            },
+            story: {
+                text: "I'm p<b><u>lay</b></u>ing a movie-game, and I'm at the <b><u>end</b></u> of the game... <b><u>O</b></u>h, it was great!",
+                alt: ""
+            },
+            category: ["", ""]
+        }
+    ],
         word: [
                 "https://www.arbulang.com/voice/lee.mp4"
-        ],
-        // historia
-        story: [
-                "I'm p<b><u>lay</b></u>ing a movie-game, and I'm at the <b><u>end</b></u> of the game... <b><u>O</b></u>h, it was great!"
         ],
         // opis
         desc: "leyendo[leh-yen-doh] - read",
@@ -715,16 +825,22 @@ id: [
         3,
         4
 ],
-        // obrazek
-        img: [
-                "https://www.arbulang.com/img/fiszki1en-esp/17a.jpg"
-        ],
+    entries: [
+        {
+            id: 1,
+            img: {
+                src: "http://localhost/arbulanguage.com/img/fiszki1en-esp/17a.jpg",
+                alt: ""
+            },
+            story: {
+                text: "On a moon<b><u>ly</b></u> Saturday, I read a great <b><u>book</b></u> about it. I recommended it to my <b><u>bro</b></u>ther",
+                alt: ""
+            },
+            category: ["", ""]
+        }
+    ],
         word: [
                 "https://www.arbulang.com/voice/lee.mp4"
-        ],
-        // historia
-        story: [
-                "On a moon<b><u>ly</b></u> Saturday, I read a great <b><u>book</b></u> about it. I recommended it to my <b><u>bro</b></u>ther"
         ],
         // opis
         desc: "un libro[oon lee-broh] - book",
@@ -759,16 +875,22 @@ id: [
         3,
         4
 ],
-        // obrazek
-        img: [
-                "https://www.arbulang.com/img/fiszki1en-esp/18a.jpg"
-        ],
+    entries: [
+        {
+            id: 1,
+            img: {
+                src: "http://localhost/arbulanguage.com/img/fiszki1en-esp/18a.jpg",
+                alt: ""
+            },
+            story: {
+                text: "COGNATS - INTERESANTE - INTERESTING",
+                alt: ""
+            },
+            category: ["", ""]
+        }
+    ],
         word: [
                 "https://www.arbulang.com/voice/lee.mp4"
-        ],
-        // historia
-        story: [
-                "COGNATS - INTERESANTE - INTERESTING"
         ],
         // opis
         desc: "interesante[in-teh-reh-sahn-teh] - interesting",
@@ -803,16 +925,22 @@ id: [
         3,
         4
 ],
-        // obrazek
-        img: [
-                "https://www.arbulang.com/img/fiszki1en-esp/19a.jpg"
-        ],
+    entries: [
+        {
+            id: 1,
+            img: {
+                src: "http://localhost/arbulanguage.com/img/fiszki1en-esp/19a.jpg",
+                alt: ""
+            },
+            story: {
+                text: "And <b><u>now</u></b> we have <b><u>flora</u></b> that gives us food",
+                alt: ""
+            },
+            category: ["", ""]
+        }
+    ],
         word: [
                 "https://www.arbulang.com/voice/lee.mp4"
-        ],
-        // historia
-        story: [
-                "And <b><u>now</u></b> we have <b><u>flora</u></b> that gives us food"
         ],
         // opis
         desc: "ahora[ah-oh-rah] - now",
@@ -847,20 +975,26 @@ id: [
         4,
         5
 ],
-        // obrazek
-        img: [
-                "https://www.arbulang.com/img/fiszki1en-esp/20a.jpg"
-        ],
+    entries: [
+        {
+            id: 1,
+            img: {
+                src: "http://localhost/arbulanguage.com/img/fiszki1en-esp/20a.jpg",
+                alt: ""
+            },
+            story: {
+                text: "<b><u>My</b></u> <b><u>Mi</b></u>ni Cooper is crazy fast!",
+                alt: ""
+            },
+            category: ["", ""]
+        }
+    ],
         translate: "My coffee is so lazy, it walks to the cup",
         translateb: "[mee kah-feh es tahn peh-reh-soh, kah-mee-nah ah lah tah-sah]",
         srcWord: ["https://www.arbulang.com/filmy/eng-esp/coffe2.mp4", 'Series: Dexter(2006-)'],
         srcWordimage: "https://www.arbulang.com/filmy/eng-esp/coffe2.png",
         word: [
                 "https://www.arbulang.com/voice/music.mp4"
-        ],
-        // historia
-        story: [
-                "<b><u>My</b></u> <b><u>Mi</b></u>ni Cooper is crazy fast!"
         ],
         // opis
         desc: "Mi[mee] - my",
@@ -894,16 +1028,22 @@ id: [
         4,
         5
 ],
-        // obrazek
-        img: [
-                "https://www.arbulang.com/img/fiszki1en-esp/21a.jpg"
-        ],
+    entries: [
+        {
+            id: 1,
+            img: {
+                src: "http://localhost/arbulanguage.com/img/fiszki1en-esp/21a.jpg",
+                alt: ""
+            },
+            story: {
+                text: "COGNATS - CAFÉ - COFFEE",
+                alt: ""
+            },
+            category: ["", ""]
+        }
+    ],
         word: [
                 "https://www.arbulang.com/voice/lee.mp4"
-        ],
-        // historia
-        story: [
-                "COGNATS - CAFÉ - COFFEE"
         ],
         // opis
         desc: "café[kah-feh] - coffee",
@@ -937,18 +1077,34 @@ id: [
         4,
         5
 ],
-        // obrazek
-        img: [
-            "https://www.arbulang.com/img/fiszki1en-esp/22a.jpg",
-                "https://www.arbulang.com/img/fiszki1en-esp/8a.jpg"
-        ],
+    entries: [
+        {
+            id: 1,
+            img: {
+                src: "http://localhost/arbulanguage.com/img/fiszki1en-esp/22a.jpg",
+                alt: ""
+            },
+            story: {
+                text: "Y<b><u>es</b></u>, it <b><u>is</b></u> a good place",
+                alt: ""
+            },
+            category: ["", ""]
+        },
+                {
+            id: 2,
+            img: {
+                src: "http://localhost/arbulanguage.com/img/fiszki1en-esp/8a.jpg",
+                alt: ""
+            },
+            story: {
+                text: "Style of dr<b><u>ess</b></u>ing is a way of expr<b><u>ess</b></u>ing personality",
+                alt: ""
+            },
+            category: ["", ""]
+        }
+    ],
         word: [
                 "https://www.arbulang.com/voice/lee.mp4"
-        ],
-        // historia
-        story: [
-                "Y<b><u>es</b></u>, it <b><u>is</b></u> a good place",
-                "Style of dr<b><u>ess</b></u>ing is a way of expr<b><u>ess</b></u>ing personality"
         ],
         // opis
         desc: "es[es] - is",
@@ -983,16 +1139,22 @@ id: [
         4,
         5
 ],
-        // obrazek
-        img: [
-                "https://www.arbulang.com/img/fiszki1en-esp/23a.jpg"
-        ],
+    entries: [
+        {
+            id: 1,
+            img: {
+                src: "http://localhost/arbulanguage.com/img/fiszki1en-esp/23a.jpg",
+                alt: ""
+            },
+            story: {
+                text: "My friend Na<b><u>tan</b></u> is <b><u>so</b></u> inteligent",
+                alt: ""
+            },
+            category: ["", ""]
+        }
+    ],
         word: [
                 "https://www.arbulang.com/voice/lee.mp4"
-        ],
-        // historia
-        story: [
-                "My friend Na<b><u>tan</b></u> is <b><u>so</b></u> inteligent"
         ],
         // opis
         desc: "tan[tahn] - so",
@@ -1026,16 +1188,22 @@ id: [
         4,
         5
 ],
-        // obrazek
-        img: [
-                "https://www.arbulang.com/img/fiszki1en-esp/24a.jpg"
-        ],
+    entries: [
+        {
+            id: 1,
+            img: {
+                src: "http://localhost/arbulanguage.com/img/fiszki1en-esp/24a.jpg",
+                alt: ""
+            },
+            story: {
+                text: "I'm not <b><u>lazy</b></u>. I do <b><u>so</b></u> much work <b><u>per</b></u> hour. I use my secr<b><u>et</b></u> to it. Less <b><u>ta</b></u>lk",
+                alt: ""
+            },
+            category: ["", ""]
+        }
+    ],
         word: [
                 "https://www.arbulang.com/voice/lee.mp4"
-        ],
-        // historia
-        story: [
-                "I'm not <b><u>lazy</b></u>. I do <b><u>so</b></u> much work <b><u>per</b></u> hour. I use my secr<b><u>et</b></u> to it. Less <b><u>ta</b></u>lk"
         ],
         // opis
         desc: "perezoso[peh-reh-TOH-soh] - lazy",
@@ -1069,16 +1237,26 @@ id: [
         4,
         6
 ],
-        // obrazek
-        img: [
-                "https://www.arbulang.com/img/fiszki1en-esp/25a.jpg"
-        ],
+    entries: [
+        {
+            id: 1,
+            img: {
+                src: "http://localhost/arbulanguage.com/img/fiszki1en-esp/25a.jpg",
+                alt: ""
+            },
+            story: {
+                text: "My <b><u>cam</u></b>era in the phone had internal damage. After the repair, I can <b><u>walk</u></b> and talk with my friend",
+                alt: ""
+            },
+            category: ["", ""]
+        }
+    ],
         word: [
                 "https://www.arbulang.com/voice/lee.mp4"
         ],
         // historia
         story: [
-                "My <b><u>cam</u></b>era in the phone had internal damage. After the repair, I can <b><u>walk</u></b> and talk with my friend"
+                ""
         ],
         // opis
         desc: "camina[kah-mee-nah] - walk",
@@ -1110,16 +1288,22 @@ id: [
         4,
         6
 ],
-        // obrazek
-        img: [
-                "https://www.arbulang.com/img/fiszki1en-esp/26a.jpg"
-        ],
+    entries: [
+        {
+            id: 1,
+            img: {
+                src: "http://localhost/arbulanguage.com/img/fiszki1en-esp/26a.jpg",
+                alt: ""
+            },
+            story: {
+                text: "<b><u>A</b></u> car is to travel",
+                alt: ""
+            },
+            category: ["", ""]
+        }
+    ],
         word: [
                 "https://www.arbulang.com/voice/lee.mp4"
-        ],
-        // historia
-        story: [
-                "<b><u>A</b></u> car is to travel"
         ],
         // opis
         desc: "a[a] - to",
@@ -1151,22 +1335,28 @@ id: [
         4,
         6
 ],
-        // obrazek
-        img: [
-                "https://www.arbulang.com/img/fiszki1en-esp/27a.jpg"
-        ],
+    entries: [
+        {
+            id: 1,
+            img: {
+                src: "http://localhost/arbulanguage.com/img/fiszki1en-esp/27a.jpg",
+                alt: ""
+            },
+            story: {
+                text: "P<b><u>lan</u></b> was to make <b><u>task</u></b>, and drink one coffee <b><u>cup</u></b> after that",
+                alt: ""
+            },
+            category: ["", ""]
+        }
+    ],
         word: [
                 "https://www.arbulang.com/voice/lee.mp4"
-        ],
-        // historia
-        story: [
-                "P<b><u>lan</u></b> was to make <b><u>task</u></b>, and drink one coffee <b><u>cup</u></b> after that"
         ],
         // opis
         desc: "la taza[lah tah-sah] - the cup",
         //zdanie
         sentence2: [
-                "la_taza"
+                "la taza"
         ],
                                                 sentence2b: [
             "the_cup"
@@ -1192,20 +1382,26 @@ id: [
         5,
         7
 ],
-        // obrazek
-        img: [
-                "https://www.arbulang.com/img/fiszki1en-esp/28a.jpg"
-        ],
+    entries: [
+        {
+            id: 1,
+            img: {
+                src: "http://localhost/arbulanguage.com/img/fiszki1en-esp/28a.jpg",
+                alt: ""
+            },
+            story: {
+                text: "My b<b><u>ell</b></u>y is sunbathe in the sun. I mean just me - <b><u>sol</b></u>o and the <b><u>sun</b></u>",
+                alt: ""
+            },
+            category: ["", ""]
+        }
+    ],
         translate: "The sun shines in the blue sky",
         translateb: "[El sohl bree-yah en el see-eh-loh ah-sool]",
         srcWord: ["https://www.arbulang.com/filmy/eng-esp/sky.mp4", 'Matrix (1997)'],
         srcWordimage: "https://www.arbulang.com/filmy/eng-esp/sky.png",
         word: [
                 "https://www.arbulang.com/voice/music.mp4"
-        ],
-        // historia
-        story: [
-                "My b<b><u>ell</b></u>y is sunbathe in the sun. I mean just me - <b><u>sol</b></u>o and the <b><u>sun</b></u>"
         ],
         // opis
         desc: "El sol[el sohl] - sun",
@@ -1236,16 +1432,22 @@ id: [
         5,
         7
 ],
-        // obrazek
-        img: [
-                "https://www.arbulang.com/img/fiszki1en-esp/29a.jpg"
-        ],
+    entries: [
+        {
+            id: 1,
+            img: {
+                src: "http://localhost/arbulanguage.com/img/fiszki1en-esp/29a.jpg",
+                alt: ""
+            },
+            story: {
+                text: "New <b><u>bree</b></u>ze make my skin <b><u>shines</b></u> from sun. Dont you see <b><u>ya</b></u>",
+                alt: ""
+            },
+            category: ["", ""]
+        }
+    ],
         word: [
                 "https://www.arbulang.com/voice/lee.mp4"
-        ],
-        // historia
-        story: [
-                "New <b><u>bree</b></u>ze make my skin <b><u>shines</b></u> from sun. Dont you see <b><u>ya</b></u>"
         ],
         // opis
         desc: "brilla[bree-yah] - shines",
@@ -1276,16 +1478,22 @@ id: [
         5,
         8
 ],
-        // obrazek
-        img: [
-                "https://www.arbulang.com/img/fiszki1en-esp/30a.jpg"
-        ],
+    entries: [
+        {
+            id: 1,
+            img: {
+                src: "http://localhost/arbulanguage.com/img/fiszki1en-esp/30a.jpg",
+                alt: ""
+            },
+            story: {
+                text: "New m<b><u>en</b></u> are on board",
+                alt: ""
+            },
+            category: ["", ""]
+        }
+    ],
         word: [
                 "https://www.arbulang.com/voice/lee.mp4"
-        ],
-        // historia
-        story: [
-                "New m<b><u>en</b></u> are on board"
         ],
         // opis
         desc: "en[en] - on/in",
@@ -1317,16 +1525,22 @@ id: [
         5,
         8
 ],
-        // obrazek
-        img: [
-                "https://www.arbulang.com/img/fiszki1en-esp/31a.jpg"
-        ],
+    entries: [
+        {
+            id: 1,
+            img: {
+                src: "http://localhost/arbulanguage.com/img/fiszki1en-esp/31a.jpg",
+                alt: ""
+            },
+            story: {
+                text: "S<b><u>ell</b></u> me this <b><u>yell</b></u>ow book, i need to see your selling <b><u>s</b></u>kills",
+                alt: ""
+            },
+            category: ["", ""]
+        }
+    ],
         word: [
                 "https://www.arbulang.com/voice/lee.mp4"
-        ],
-        // historia
-        story: [
-                "S<b><u>ell</b></u> me this <b><u>yell</b></u>ow book, i need to see your selling <b><u>s</b></u>kills"
         ],
         // opis
         desc: "el cielo[el see-eh-loh] - sky",
@@ -1358,16 +1572,22 @@ id: [
         5,
         8
 ],
-        // obrazek
-        img: [
-                "https://www.arbulang.com/img/fiszki1en-esp/32a.jpg"
-        ],
+    entries: [
+        {
+            id: 1,
+            img: {
+                src: "http://localhost/arbulanguage.com/img/fiszki1en-esp/32a.jpg",
+                alt: ""
+            },
+            story: {
+                text: "The g<b><u>as</b></u> from the blue cylinder is transferred to a t<b><u>ool</b></u> in our workshop",
+                alt: ""
+            },
+            category: ["", ""]
+        }
+    ],
         word: [
                 "https://www.arbulang.com/voice/lee.mp4"
-        ],
-        // historia
-        story: [
-                "The g<b><u>as</b></u> from the blue cylinder is transferred to a t<b><u>ool</b></u> in our workshop."
         ],
         // opis
         desc: "azul[ah-sool] - blue",
@@ -1399,20 +1619,26 @@ id: [
         6,
         9
 ],
-        // obrazek
-        img: [
-                "https://www.arbulang.com/img/fiszki1en-esp/33a.jpg"
-        ],
+    entries: [
+        {
+            id: 1,
+            img: {
+                src: "http://localhost/arbulanguage.com/img/fiszki1en-esp/33a.jpg",
+                alt: ""
+            },
+            story: {
+                text: "P<b><u>la</b></u>ns for my doughter Cassandra birthday (which will happen in our <b><u>house</b></u>) are so unbelivable",
+                alt: ""
+            },
+            category: ["", ""]
+        }
+    ],
         translate: "The house is big, and it has a beautiful garden",
         translateb: "[lah kah-sah es grahn-deh ee tee-eh-neh oon har-deen boh-nee-toh]",
         srcWord: ["https://www.arbulang.com/filmy/eng-esp/garden.mp4", 'Elylsium (2013)'],
         srcWordimage: "https://www.arbulang.com/filmy/eng-esp/garden.png",
         word: [
                 "https://www.arbulang.com/voice/music.mp4"
-        ],
-        // historia
-        story: [
-                "P<b><u>la</b></u>ns for my doughter Cassandra birthday (which will happen in our <b><u>house</b></u>) are so unbelivable"
         ],
         // opis
         desc: "La casa[lah kah-sah] - house",
@@ -1444,18 +1670,34 @@ id: [
         6,
         9
 ],
-        // obrazek
-        img: [
-            "https://www.arbulang.com/img/fiszki1en-esp/22a.jpg",
-                "https://www.arbulang.com/img/fiszki1en-esp/8a.jpg"
-        ],
+    entries: [
+        {
+            id: 1,
+            img: {
+                src: "http://localhost/arbulanguage.com/img/fiszki1en-esp/22a.jpg",
+                alt: ""
+            },
+            story: {
+                text: "Y<b><u>es</b></u>, it <b><u>is</b></u> a good place",
+                alt: ""
+            },
+            category: ["", ""]
+        },
+                {
+            id: 2,
+            img: {
+                src: "http://localhost/arbulanguage.com/img/fiszki1en-esp/8a.jpg",
+                alt: ""
+            },
+            story: {
+                text: "Style of dr<b><u>ess</b></u>ing is a way of expr<b><u>ess</b></u>ing personality",
+                alt: ""
+            },
+            category: ["", ""]
+        }
+    ],
         word: [
                 "https://www.arbulang.com/voice/lee.mp4"
-        ],
-        // historia
-        story: [
-                "Y<b><u>es</b></u>, it <b><u>is</b></u> a good place",
-                "Style of dr<b><u>ess</b></u>ing is a way of expr<b><u>ess</b></u>ing personality"
         ],
         // opis
         desc: "es[es] - is",
@@ -1488,16 +1730,22 @@ id: [
         6,
         9
 ],
-        // obrazek
-        img: [
-                "https://www.arbulang.com/img/fiszki1en-esp/35a.jpg"
-        ],
+    entries: [
+        {
+            id: 1,
+            img: {
+                src: "http://localhost/arbulanguage.com/img/fiszki1en-esp/35a.jpg",
+                alt: ""
+            },
+            story: {
+                text: "We had <b><u>gr</b></u>eat journey to the <b><u>Ande</b></u>s Mountains. They are so <b><u>big</b></u>",
+                alt: ""
+            },
+            category: ["", ""]
+        }
+    ],
         word: [
                 "https://www.arbulang.com/voice/lee.mp4"
-        ],
-        // historia
-        story: [
-                "We had <b><u>gr</b></u>eat journey to the <b><u>Ande</b></u>s Mountains. They are so <b><u>big</b></u>"
         ],
         // opis
         desc: "grande[grahn-deh] - big",
@@ -1529,18 +1777,34 @@ id: [
         6,
         10
 ],
-        // obrazek
-        img: [
-                "https://www.arbulang.com/img/fiszki1en-esp/65a.jpg",
-                 "https://www.arbulang.com/img/fiszki1en-esp/36a.jpg"
-        ],
+    entries: [
+        {
+            id: 1,
+            img: {
+                src: "http://localhost/arbulanguage.com/img/fiszki1en-esp/65a.jpg",
+                alt: ""
+            },
+            story: {
+                text: "<b><u>And</b></u> this is <b><u>i</b></u>t",
+                alt: ""
+            },
+            category: ["", ""]
+        },
+                {
+            id: 1,
+            img: {
+                src: "http://localhost/arbulanguage.com/img/fiszki1en-esp/36a.jpg",
+                alt: ""
+            },
+            story: {
+                text: "<b><u>I</b></u>nternet <b><u>and</b></u> computer were great inventions",
+                alt: ""
+            },
+            category: ["", ""]
+        }
+    ],
         word: [
                 "https://www.arbulang.com/voice/music.mp4"
-        ],
-        // historia
-        story: [
-                "<b><u>And</b></u> this is <b><u>i</b></u>t",
-                "<b><u>I</b></u>nternet <b><u>and</b></u> computer were great inventions"
         ],
         // opis
         desc: "y[ee] - and",
@@ -1574,16 +1838,22 @@ id: [
         6,
         10
 ],
-        // obrazek
-        img: [
-                "https://www.arbulang.com/img/fiszki1en-esp/37a.jpg"
-        ],
+    entries: [
+        {
+            id: 1,
+            img: {
+                src: "http://localhost/arbulanguage.com/img/fiszki1en-esp/37a.jpg",
+                alt: ""
+            },
+            story: {
+                text: "He has climbed to the <b><u>ti</b></u>er of conclusion like S<b><u>ene</b></u>ca",
+                alt: ""
+            },
+            category: ["", ""]
+        }
+    ],
         word: [
                 "https://www.arbulang.com/voice/lee.mp4"
-        ],
-        // historia
-        story: [
-                "He has climbed to the <b><u>ti</b></u>er of conclusion like S<b><u>ene</b></u>ca"
         ],
         // opis
         desc: "tiene[tee-eh-neh] - has",
@@ -1616,16 +1886,22 @@ id: [
         6,
         10
 ],
-        // obrazek
-        img: [
-                "https://www.arbulang.com/img/fiszki1en-esp/38a.jpg"
-        ],
+    entries: [
+        {
+            id: 1,
+            img: {
+                src: "http://localhost/arbulanguage.com/img/fiszki1en-esp/38a.jpg",
+                alt: ""
+            },
+            story: {
+                text: "The m<b><u>oon</b></u> in my <b><u>garden</b></u> is so <b><u>har</b></u>d and we have <b><u>dinn</b></u>er",
+                alt: ""
+            },
+            category: ["", ""]
+        }
+    ],
         word: [
                 "https://www.arbulang.com/voice/lee.mp4"
-        ],
-        // historia
-        story: [
-                "The m<b><u>oon</b></u> in my <b><u>garden</b></u> is so <b><u>har</b></u>d and we have <b><u>dinn</b></u>er"
         ],
         // opis
         desc: "un jardin[oon har-deen] - garden",
@@ -1658,16 +1934,22 @@ id: [
         6,
         10
 ],
-        // obrazek
-        img: [
-                "https://www.arbulang.com/img/fiszki1en-esp/39a.jpg"
-        ],
+    entries: [
+        {
+            id: 1,
+            img: {
+                src: "http://localhost/arbulanguage.com/img/fiszki1en-esp/39a.jpg",
+                alt: ""
+            },
+            story: {
+                text: "Ro<b><u>bo</b></u>cop is a woman and she is <b><u>beautiful</b></u>, she has a ma<b><u>ni</b></u>cure to the <b><u>to</b></u>p of her steel nails",
+                alt: ""
+            },
+            category: ["", ""]
+        }
+    ],
         word: [
                 "https://www.arbulang.com/voice/lee.mp4"
-        ],
-        // historia
-        story: [
-                "Ro<b><u>bo</b></u>cop is a woman and she is <b><u>beautiful</b></u>, she has a ma<b><u>ni</b></u>cure to the <b><u>to</b></u>p of her steel nails"
         ],
         // opis
         desc: "bonito[boh-nee-toh] - beautiful",
@@ -1700,20 +1982,26 @@ id: [
         7,
         11
 ],
-        // obrazek
-        img: [
-                "https://www.arbulang.com/img/fiszki1en-esp/40a.jpg"
-        ],
+    entries: [
+        {
+            id: 1,
+            img: {
+                src: "http://localhost/arbulanguage.com/img/fiszki1en-esp/40a.jpg",
+                alt: ""
+            },
+            story: {
+                text: "Ban<b><u>di</b></u> <b><u>bu</b></u>ild a house and that was very <b><u>har</b></u>d work. He <b><u>drew</b></u> the plans for everything before",
+                alt: ""
+            },
+            category: ["", ""]
+        }
+    ],
         translate: "To draw a flower in the notebook.",
         translateb: "[dee-boo-har oo-nah flor ehn el kwah-dehr-noh]",
         srcWord: ["https://www.arbulang.com/filmy/esp/drawing.mp4", 'Titanic (1997)'],
         srcWordimage: "https://www.arbulang.com/filmy/esp/drawing.png",
         word: [
                 "https://www.arbulang.com/voice/music.mp4"
-        ],
-        // historia
-        story: [
-            "Ban<b><u>di</b></u> <b><u>bu</b></u>ild a house and that was very <b><u>har</b></u>d work. He <b><u>drew</b></u> the plans for everything before"
         ],
         // opis
         desc: "dibujar[dee-boo-har] - draw",
@@ -1745,16 +2033,22 @@ id: [
         7,
         11
 ],
-        // obrazek
-        img: [
-            "https://www.arbulang.com/img/fiszki1en-esp/41a.jpg"
-        ],
+    entries: [
+        {
+            id: 1,
+            img: {
+                src: "http://localhost/arbulanguage.com/img/fiszki1en-esp/41a.jpg",
+                alt: ""
+            },
+            story: {
+                text: "L<b><u>una</b></u> has a beautiful <b><u>flower</b></u> on the <b><u>floor</b></u> from her husband",
+                alt: ""
+            },
+            category: ["", ""]
+        }
+    ],
         word: [
                 "https://www.arbulang.com/voice/music.mp4"
-        ],
-        // historia
-        story: [
-                "L<b><u>una</b></u> has a beautiful <b><u>flower</b></u> on the <b><u>floor</b></u> from her husband"
         ],
         // opis
         desc: "una flor[oo-nah flor] - flower",
@@ -1785,16 +2079,22 @@ id: [
         7,
         12
 ],
-        // obrazek
-        img: [
-                "https://www.arbulang.com/img/fiszki1en-esp/42a.jpg"
-        ],
+    entries: [
+        {
+            id: 1,
+            img: {
+                src: "http://localhost/arbulanguage.com/img/fiszki1en-esp/42a.jpg",
+                alt: ""
+            },
+            story: {
+                text: "M<b><u>en</b></u> has everything <b><u>in</b></u> their head",
+                alt: ""
+            },
+            category: ["", ""]
+        }
+    ],
         word: [
                 "https://www.arbulang.com/voice/music.mp4"
-        ],
-        // historia
-        story: [
-                "M<b><u>en</b></u> has everything <b><u>in</b></u> their head"
         ],
         // opis
         desc: "en[ehn] - in",
@@ -1819,16 +2119,22 @@ id: [
         7,
         12
 ],
-        // obrazek
-        img: [
-                "https://www.arbulang.com/img/fiszki1en-esp/43a.jpg"
-        ],
+    entries: [
+        {
+            id: 1,
+            img: {
+                src: "http://localhost/arbulanguage.com/img/fiszki1en-esp/43a.jpg",
+                alt: ""
+            },
+            story: {
+                text: "Scott h<b><u>as</b></u> a d<b><u>ua</b></u>l drive in his car and <b><u>Derr</b></u>eck has <b><u>no</b></u> dual drive but Derreck counts gasoline consumption in his <b><u>notebook</b></u>",
+                alt: ""
+            },
+            category: ["", ""]
+        }
+    ],
         word: [
                 "https://www.arbulang.com/voice/music.mp4"
-        ],
-        // historia
-        story: [
-                "Scott h<b><u>as</b></u> a d<b><u>ua</b></u>l drive in his car and <b><u>Derr</b></u>eck has <b><u>no</b></u> dual drive but Derreck counts gasoline consumption in his <b><u>notebook</b></u>"
         ],
         // opis
         desc: "el cuaderno[el kwah-dehr-noh] - the notebook",
@@ -1853,20 +2159,26 @@ id: [
         8,
         13
 ],
-        // obrazek
-        img: [
-                "https://www.arbulang.com/img/fiszki1en-esp/44a.jpg"
-        ],
+    entries: [
+        {
+            id: 1,
+            img: {
+                src: "http://localhost/arbulanguage.com/img/fiszki1en-esp/44a.jpg",
+                alt: ""
+            },
+            story: {
+                text: "He h<b><u>as</b></u> <b><u>waited</b></u> for his loading <b><u>per</b></u>iscope, which is very r<b><u>ar</b></u>e",
+                alt: ""
+            },
+            category: ["", ""]
+        }
+    ],
         translate: "To wait alone inside the house",
         translateb: "[es-peh-rahr soh-loh den-troh deh lah kah-sah]",
         srcWord: ["https://www.arbulang.com/filmy/esp/home.mp4", 'Mechanic: Resurrection (2016)'],
         srcWordimage: "https://www.arbulang.com/filmy/esp/home.png",
         word: [
                 "https://www.arbulang.com/voice/music.mp4"
-        ],
-        // historia
-        story: [
-                "He h<b><u>as</b></u> <b><u>waited</b></u> for his loading <b><u>per</b></u>iscope, which is very r<b><u>ar</b></u>e"
         ],
         // opis
         desc: "esperar[es-peh-rahr] - to wait",
@@ -1892,16 +2204,22 @@ id: [
         8,
         13
 ],
-        // obrazek
-        img: [
-                "https://www.arbulang.com/img/fiszkiespanol/6a.jpg"
-        ],
+    entries: [
+        {
+            id: 1,
+            img: {
+                src: "http://localhost/arbulanguage.com/img/fiszki1en-esp/6a.jpg",
+                alt: ""
+            },
+            story: {
+                text: "COGNATS: solo - solo",
+                alt: ""
+            },
+            category: ["", ""]
+        }
+    ],
         word: [
                 "https://www.arbulang.com/voice/music.mp4"
-        ],
-        // historia
-        story: [
-                "COGNATS: solo - solo"
         ],
         // opis
         desc: "solo[soh-loh] - alone",
@@ -1926,16 +2244,22 @@ id: [
         8,
         14
 ],
-        // obrazek
-        img: [
-                "https://www.arbulang.com/img/fiszki1en-esp/46a.jpg"
-        ],
+    entries: [
+        {
+            id: 1,
+            img: {
+                src: "http://localhost/arbulanguage.com/img/fiszki1en-esp/46a.jpg",
+                alt: ""
+            },
+            story: {
+                text: ""My <b><u>dent</b></u>ist found hole <b><u>in</b></u> my teeth and i have <b><u>tr</b></u>ouble, <b><u>o</b></u>hhhhhh",
+                alt: ""
+            },
+            category: ["", ""]
+        }
+    ],
         word: [
                 "https://www.arbulang.com/voice/music.mp4"
-        ],
-        // historia
-        story: [
-                "My <b><u>dent</b></u>ist found hole <b><u>in</b></u> my teeth and i have <b><u>tr</b></u>ouble, <b><u>o</b></u>hhhhhh"
         ],
         // opis
         desc: "dentro de[den-troh deh] - inside",
@@ -1960,16 +2284,22 @@ id: [
         8,
         14
 ],
-        // obrazek
-        img: [
-                "https://www.arbulang.com/fiszki1en-esp/47a.jpg"
-        ],
+    entries: [
+        {
+            id: 1,
+            img: {
+                src: "http://localhost/arbulanguage.com/img/fiszki1en-esp/47a.jpg",
+                alt: ""
+            },
+            story: {
+                text: "My c<b><u>la</b></u>ssmate has big <b><u>house</b></u> and lives there with wife <b><u>Cassa</b></u>ndra",
+                alt: ""
+            },
+            category: ["", ""]
+        }
+    ],
         word: [
                 "https://www.arbulang.com/voice/music.mp4"
-        ],
-        // historia
-        story: [
-                "My c<b><u>la</b></u>ssmate has big <b><u>house</b></u> and lives there with wife <b><u>Cassa</b></u>ndra"
         ],
         // opis
         desc: "la casa[lah kah-sah] - the house",
@@ -1994,20 +2324,26 @@ id: [
         9,
         15
 ],
-        // obrazek
-        img: [
-                "https://www.arbulang.com/img/fiszki1en-esp/48a.jpg"
-        ],
+    entries: [
+        {
+            id: 1,
+            img: {
+                src: "http://localhost/arbulanguage.com/img/fiszki1en-esp/48a.jpg",
+                alt: ""
+            },
+            story: {
+                text: "<b><u>Ab</b></u>igail <b><u>talks</b></u> with <b><u>La</b></u>na and they are h<b><u>ar</b></u>d excited",
+                alt: ""
+            },
+            category: ["", ""]
+        }
+    ],
         translate: "To talk without tension while we walk together",
         translateb: "[ah-blar seen ten-syohn myen-trahs kah-mee-nah-mos hoon-tos]",
         srcWord: ["https://www.arbulang.com/filmy/esp/conversation.mp4", 'Inception (2010)'],
         srcWordimage: "https://www.arbulang.com/filmy/esp/conversation.png",
         word: [
                 "https://www.arbulang.com/voice/music.mp4"
-        ],
-        // historia
-        story: [
-                "<b><u>Ab</b></u>igail <b><u>talks</b></u> with <b><u>La</b></u>na and they are h<b><u>ar</b></u>d excited"
         ],
         // opis
         desc: "hablar[ah-blar] - to talk",
@@ -2034,16 +2370,22 @@ id: [
         9,
         15
 ],
-        // obrazek
-        img: [
-                "https://www.arbulang.com/img/fiszki1en-esp/49a.jpg"
-        ],
+    entries: [
+        {
+            id: 1,
+            img: {
+                src: "http://localhost/arbulanguage.com/img/fiszki1en-esp/49a.jpg",
+                alt: ""
+            },
+            story: {
+                text: "They are <b><u>sin</b></u>king, though they are <b><u>without</b></u> a lifeboat",
+                alt: ""
+            },
+            category: ["", ""]
+        }
+    ],
         word: [
                 "https://www.arbulang.com/voice/music.mp4"
-        ],
-        // historia
-        story: [
-                "They are <b><u>sin</b></u>king, though they are <b><u>without</b></u> a lifeboat"
         ],
         // opis
         desc: "sin[seen] - without",
@@ -2069,16 +2411,22 @@ id: [
         9,
         15
 ],
-        // obrazek
-        img: [
-                "https://www.arbulang.com/img/fiszki1en-esp/50a.jpg"
-        ],
+    entries: [
+        {
+            id: 1,
+            img: {
+                src: "http://localhost/arbulanguage.com/img/fiszki1en-esp/50a.jpg",
+                alt: ""
+            },
+            story: {
+                text: "COGNATS: tension - tension",
+                alt: ""
+            },
+            category: ["", ""]
+        }
+    ],
         word: [
                 "https://www.arbulang.com/voice/music.mp4"
-        ],
-        // historia
-        story: [
-                "COGNATS: tension - tension"
         ],
         // opis
         desc: "tension[ten-syohn] - napięcie",
@@ -2104,16 +2452,22 @@ id: [
         9,
         16
 ],
-        // obrazek
-        img: [
-                "https://www.arbulang.com/img/fiszki1en-esp/51a.jpg"
-        ],
+    entries: [
+        {
+            id: 1,
+            img: {
+                src: "http://localhost/arbulanguage.com/img/fiszki1en-esp/51a.jpg",
+                alt: ""
+            },
+            story: {
+                text: "<b><u>While</b></u> we have some rumor in market, <b><u>m</b></u>y <b><u>Yen</b></u> is in <b><u>trou</b></u>ble, the game isnt <b><u>s</b></u>uper easy",
+                alt: ""
+            },
+            category: ["", ""]
+        }
+    ],
         word: [
                 "https://www.arbulang.com/voice/music.mp4"
-        ],
-        // historia
-        story: [
-                "<b><u>While</b></u> we have some rumor in market, <b><u>m</b></u>y <b><u>Yen</b></u> is in <b><u>trou</b></u>ble, the game isnt <b><u>s</b></u>uper easy"
         ],
         // opis
         desc: "mientras[myen-trahs] - while",
@@ -2139,16 +2493,22 @@ id: [
         9,
         16
 ],
-        // obrazek
-        img: [
-                "https://www.arbulang.com/img/fiszki1en-esp/52a.jpg"
-        ],
+    entries: [
+        {
+            id: 1,
+            img: {
+                src: "http://localhost/arbulanguage.com/img/fiszki1en-esp/52a.jpg",
+                alt: ""
+            },
+            story: {
+                text: "My <b><u>ca</b></u>t and i, <b><u>we walked</b></u> through the <b><u>mi</b></u>nt. We singing word of the song 'me <b><u>amo</b></u>' and thats the <b><u>s</b></u>tory",
+                alt: ""
+            },
+            category: ["", ""]
+        }
+    ],
         word: [
                 "https://www.arbulang.com/voice/music.mp4"
-        ],
-        // historia
-        story: [
-                "My <b><u>ca</b></u>t and i, <b><u>we walked</b></u> through the <b><u>mi</b></u>nt. We singing word of the song 'me <b><u>amo</b></u>' and thats the <b><u>s</b></u>tory"
         ],
         // opis
         desc: "caminamos[kah-mee-nah-mos] - we walked",
@@ -2174,16 +2534,22 @@ id: [
         9,
         16
 ],
-        // obrazek
-        img: [
-                "https://www.arbulang.com/img/fiszki1en-esp/53a.jpg"
-        ],
+    entries: [
+        {
+            id: 1,
+            img: {
+                src: "http://localhost/arbulanguage.com/img/fiszki1en-esp/53a.jpg",
+                alt: ""
+            },
+            story: {
+                text: "They <b><u>hun</b></u>t <b><u>to</b></u>gether like a b<b><u>oss</b></u>",
+                alt: ""
+            },
+            category: ["", ""]
+        }
+    ],
         word: [
                 "https://www.arbulang.com/voice/music.mp4"
-        ],
-        // historia
-        story: [
-                "They <b><u>hun</b></u>t <b><u>to</b></u>gether like a b<b><u>oss</b></u>"
         ],
         // opis
         desc: "juntos[hoon-tos] - together",
@@ -2209,10 +2575,20 @@ id: [
         10,
         17
 ],
-        // obrazek
-        img: [
-                "https://www.arbulang.com/img/fiszki1en-esp/54a.jpg"
-        ],
+    entries: [
+        {
+            id: 1,
+            img: {
+                src: "http://localhost/arbulanguage.com/img/fiszki1en-esp/54a.jpg",
+                alt: ""
+            },
+            story: {
+                text: "My b<b><u>ro</b></u> put his dirty CD to CD-<b><u>ROM</b></u>, and he <b><u>broke</b></u> the rule by doing this. <b><u>Per</b></u> hour he couldn't open a CD",
+                alt: ""
+            },
+            category: ["", ""]
+        }
+    ],
         translate: "To break the silence with beautiful words",
         translateb: "[rom-pehr el see-len-syoh kohn pah-lah-brahs boh-nee-tahs]",
         srcWord: ["https://www.arbulang.com/filmy/esp/beautiful-words.mp4", '300 (2006)'],
@@ -2222,7 +2598,7 @@ id: [
         ],
         // historia
         story: [
-                "My b<b><u>ro</b></u> put his dirty CD to CD-<b><u>ROM</b></u>, and he <b><u>broke</b></u> the rule by doing this. <b><u>Per</b></u> hour he couldn't open a CD"
+                ""
         ],
         // opis
         desc: "romper[rom-pehr] - break",
@@ -2249,17 +2625,34 @@ id: [
         10,
         17
 ],
-        // obrazek
-        img: [
-                "https://www.arbulang.com/img/fiszki1en-esp/55a.jpg"
-        ],
+    entries: [
+        {
+            id: 1,
+            img: {
+                src: "http://localhost/arbulanguage.com/img/fiszki1en-esp/.jpg",
+                alt: ""
+            },
+            story: {
+                text: "COGNATS: silence - el silencio",
+                alt: ""
+            },
+            category: ["", ""]
+        },
+                {
+            id: 2,
+            img: {
+                src: "http://localhost/arbulanguage.com/img/fiszki1en-esp/55a.jpg",
+                alt: ""
+            },
+            story: {
+                text: "We are in Africa and seeing an <b><u>el</b></u>efant. There is a big <b><u>silence</b></u> and <b><u>siiiii</b></u> there are a p<b><u>len</b></u>ty of other elephants there.. so everybody says <b><u>Ooooo</b></u>",
+                alt: ""
+            },
+            category: ["", ""]
+        }
+    ],
         word: [
                 "https://www.arbulang.com/voice/music.mp4"
-        ],
-        // historia
-        story: [
-                "COGNATS: silence - el silencio",
-                "We are in Africa and seeing an <b><u>el</b></u>efant. There is a big <b><u>silence</b></u> and <b><u>siiiii</b></u> there are a p<b><u>len</b></u>ty of other elephants there.. so everybody says <b><u>Ooooo</b></u>"
         ],
         // opis
         desc: "el silencio[el see-len-syoh] - the silence",
@@ -2286,16 +2679,22 @@ id: [
         10,
         17
 ],
-        // obrazek
-        img: [
-                "https://www.arbulang.com/img/fiszki1en-esp/56a.jpg"
-        ],
+    entries: [
+        {
+            id: 1,
+            img: {
+                src: "http://localhost/arbulanguage.com/img/fiszki1en-esp/56a.jpg",
+                alt: ""
+            },
+            story: {
+                text: "<b><u>With</b></u> that button, we <b><u>con</b></u>trol everything",
+                alt: ""
+            },
+            category: ["", ""]
+        }
+    ],
         word: [
                 "https://www.arbulang.com/voice/music.mp4"
-        ],
-        // historia
-        story: [
-                "<b><u>With</b></u> that button, we <b><u>con</b></u>trol everything"
         ],
         // opis
         desc: "con[kohn] - with",
@@ -2321,16 +2720,22 @@ id: [
         10,
         18
 ],
-        // obrazek
-        img: [
-                "https://www.arbulang.com/img/fiszki1en-esp/57a.jpg"
-        ],
+    entries: [
+        {
+            id: 1,
+            img: {
+                src: "http://localhost/arbulanguage.com/img/fiszki1en-esp/57a.jpg",
+                alt: ""
+            },
+            story: {
+                text: "My <b><u>po</b></u>wer is in choosing <b><u>words</b></u> for my speech... i train my mouth before speaking by <b><u>la la la</b></u> and <b><u>wra wra wra</b></u>, and my speech is always <b><u>s</b></u>uper",
+                alt: ""
+            },
+            category: ["", ""]
+        }
+    ],
         word: [
                 "https://www.arbulang.com/voice/music.mp4"
-        ],
-        // historia
-        story: [
-                "My <b><u>po</b></u>wer is in choosing <b><u>words</b></u> for my speech... i train my mouth before speaking by <b><u>la la la</b></u> and <b><u>wra wra wra</b></u>, and my speech is always <b><u>s</b></u>uper"
         ],
         // opis
         desc: "palabras[pah-lah-brahs] - words",
@@ -2355,16 +2760,22 @@ id: [
         10,
         18
 ],
-        // obrazek
-        img: [
-                "https://www.arbulang.com/img/fiszki1en-esp/58a.jpg"
-        ],
+    entries: [
+        {
+            id: 1,
+            img: {
+                src: "http://localhost/arbulanguage.com/img/fiszki1en-esp/58a.jpg",
+                alt: ""
+            },
+            story: {
+                text: "The new James <b><u>Bon</b></u>d seduces <b><u>beautiful</b></u> women. <b><u>It</b></u> is his mission <b><u>as</b></u> always",
+                alt: ""
+            },
+            category: ["", ""]
+        }
+    ],
         word: [
                 "https://www.arbulang.com/voice/music.mp4"
-        ],
-        // historia
-        story: [
-                "The new James <b><u>Bon</b></u>d seduces <b><u>beautiful</b></u> women. <b><u>It</b></u> is his mission <b><u>as</b></u> always"
         ],
         // opis
         desc: "bonitas[boh-nee-tahs] - beautiful",
@@ -2389,10 +2800,20 @@ id: [
         11,
         19
 ],
-        // obrazek
-        img: [
-                "https://www.arbulang.com/img/fiszki1en-esp/59a.jpg"
-        ],
+    entries: [
+        {
+            id: 1,
+            img: {
+                src: "http://localhost/arbulanguage.com/img/fiszki1en-esp/59a.jpg",
+                alt: ""
+            },
+            story: {
+                text: "<b><u>As</b></u> always i <b><u>protect</b></u> my computer with a firewall, it's a <b><u>goo</b></u>d practice and it should be so <b><u>rar</b></u>ely",
+                alt: ""
+            },
+            category: ["", ""]
+        }
+    ],
         translate: "To secure the doors before sleeping",
         translateb: "[ah-seh-goo-rahr lahs pwer-tSecureahs ahn-tes de dor-meer]",
         srcWord: ["https://www.arbulang.com/filmy/esp/door.mp4", 'The Matrix Reloaded (2003)'],
@@ -2402,7 +2823,7 @@ id: [
         ],
         // historia
         story: [
-                "<b><u>As</b></u> always i <b><u>protect</b></u> my computer with a firewall, it's a <b><u>goo</b></u>d practice and it should be so <b><u>rar</b></u>ely"
+                ""
         ],
         // opis
         desc: "asegurar[ah-seh-goo-rahr] - secure",
@@ -2428,16 +2849,22 @@ id: [
         11,
         19
 ],
-        // obrazek
-        img: [
-                "https://www.arbulang.com/img/fiszki1en-esp/60a.jpg"
-        ],
+    entries: [
+        {
+            id: 1,
+            img: {
+                src: "http://localhost/arbulanguage.com/img/fiszki1en-esp/60a.jpg",
+                alt: ""
+            },
+            story: {
+                text: "I enter the c<b><u>la</b></u>ss through the <b><u>door</b></u>. I <b><u>pu</b></u>rchase new pencils for notes, v<b><u>er</b></u>y expensive and i want do the <b><u>tas</b></u>k from the teacher",
+                alt: ""
+            },
+            category: ["", ""]
+        }
+    ],
         word: [
                 "https://www.arbulang.com/voice/music.mp4"
-        ],
-        // historia
-        story: [
-                "I enter the c<b><u>la</b></u>ss through the <b><u>door</b></u>. I <b><u>pu</b></u>rchase new pencils for notes, v<b><u>er</b></u>y expensive and i want do the <b><u>tas</b></u>k from the teacher"
         ],
         // opis
         desc: "la puerta[pwer-tahs] - door",
@@ -3846,30 +4273,2529 @@ id: [
         category1: [
         ],
         category2: ["osoby", "osoby+czas"]
-}
+},
+{
+id: [
+        100,
+        19,
+        35
+],
+        // obrazek
+        img: [
+                "https://www.arbulang.com/img/fiszki1en-esp/100a.jpg"
+        ],
+        word: [
+                "https://www.arbulang.com/voice/music.mp4"
+        ],
+        // historia
+        story: [
+            "COGNATS: ideas - ideas"
+        ],
+        // opis
+        desc: "ideas[ideas] - ideas",
+        //zdanie
+        sentence2: [
+                "ideas"
+        ],
+        sentence: [
+                "con",
+                "nuevas",
+                "ideas"
+        ],
+        //  slowo do nauki
+        key: "ideas",
+        category1: [
+        ],
+        category2: ["osoby", "osoby+czas"]
+},
+{
+id: [
+        101,
+        20,
+        36
+],
+        // obrazek
+        img: [
+                "https://www.arbulang.com/img/fiszki1en-esp/101a.jpg"
+        ],
+        translate: "To foresee problems and always be prepared",
+        translateb: "[preh-veh-EHR proh-BLEH-mahs ee ehs-TAR preh-pah-RAH-doh SYEM-preh]",
+        srcWord: ["https://www.arbulang.com/filmy/esp/predict.mp4", 'Resident Evil: The Final Chapter (2016)'],
+        srcWordimage: "https://www.arbulang.com/filmy/esp/predict.png",
+        word: [
+                "https://www.arbulang.com/voice/music.mp4"
+        ],
+        // historia
+        story: [
+            "<b><u>Pre</u></b>diction is actually <b><u>foresee</u></b>able and depends on <b><u>ver</u></b>y detailed observation"
+        ],
+        // opis
+        desc: "prever[preh-veh-EHR] - foresee",
+        //zdanie
+        sentence1: [
+                "Prever"
+        ],
+        sentence: [
+                "Prever",
+                "problemas"
+        ],
+        //  slowo do nauki
+        key: "prever",
+        category1: [
+        ],
+        category2: ["osoby", "osoby+czas"],
+                category3: ["Infinitive"]
+},
+{
+id: [
+        102,
+        20,
+        36
+],
+        // obrazek
+        img: [
+                "https://www.arbulang.com/img/fiszki1en-esp/102a.jpg"
+        ],
+        word: [
+                "https://www.arbulang.com/voice/music.mp4"
+        ],
+        // historia
+        story: [
+            "COGNAT: problems - problemas"
+        ],
+        // opis
+        desc: "problemans[proh-BLEH-mahs] - problems",
+        //zdanie
+        sentence1: [
+                "problemas"
+        ],
+        sentence: [
+                "Prever",
+                "problemas"
+        ],
+        //  slowo do nauki
+        key: "problemas",
+        category1: [
+        ],
+        category2: ["osoby", "osoby+czas"]
+},
+{
+id: [
+        103,
+        20,
+        37
+],
+        // obrazek
+        img: [
+                "https://www.arbulang.com/img/fiszki1en-esp/65a.jpg",
+                 "https://www.arbulang.com/img/fiszki1en-esp/36a.jpg"
+        ],
+        word: [
+                "https://www.arbulang.com/voice/music.mp4"
+        ],
+        // historia
+        story: [
+                "<b><u>And</b></u> this is <b><u>i</b></u>t",
+                "<b><u>I</b></u>nternet <b><u>and</b></u> computer were great inventions"
+        ],
+        // opis
+        desc: "y[ee] - and",
+        //zdanie
+        sentence2: [
+                "y"
+        ],
+        sentence: [
+                "y",
+                "estar",
+                "preparado",
+                "siempre"
+        ],
+        //  slowo do nauki
+        key: "y",
+        category1: [
+        ],
+        category2: ["osoby", "osoby+czas"]
+},
+{
+id: [
+        104,
+        20,
+        37
+],
+        // obrazek
+        img: [
+                "https://www.arbulang.com/img/fiszki1en-esp/104a.jpg"
+        ],
+        word: [
+                "https://www.arbulang.com/voice/music.mp4"
+        ],
+        // historia
+        story: [
+            "The <b><u>best</u></b> moment in action movies is <b><u>to be</b></u> the main character, sometimes drinking at a b<b><u>ar</u></b>"
+        ],
+        // opis
+        desc: "estar[ehs-TAR] - to be",
+        //zdanie
+        sentence2: [
+                "estar"
+        ],
+        sentence: [
+                "y",
+                "estar",
+                "preparado",
+                "siempre"
+        ],
+        //  slowo do nauki
+        key: "estar",
+        category1: [
+        ],
+        category2: ["osoby", "osoby+czas"]
+},
+{
+id: [
+        105,
+        20,
+        37
+],
+        // obrazek
+        img: [
+                "https://www.arbulang.com/img/fiszki1en-esp/105a.jpg"
+        ],
+        word: [
+                "https://www.arbulang.com/voice/music.mp4"
+        ],
+        // historia
+        story: [
+            "COGNATS - PREPARADO - PREPARED"
+        ],
+        // opis
+        desc: "preparado[preh-pah-RAH-doh] - prepared",
+        //zdanie
+        sentence2: [
+                "preparado"
+        ],
+        sentence: [
+                "y",
+                "estar",
+                "preparado",
+                "siempre"
+        ],
+        //  slowo do nauki
+        key: "preparado",
+        category1: [
+        ],
+        category2: ["osoby", "osoby+czas"]
+},
+{
+id: [
+        106,
+        20,
+        37
+],
+        // obrazek
+        img: [
+                "https://www.arbulang.com/img/fiszki1en-esp/106a.jpg",
+                "https://www.arbulang.com/img/fiszki1en-esp/110a.jpg"
+        ],
+        word: [
+                "https://www.arbulang.com/voice/music.mp4"
+        ],
+        // historia
+        story: [
+            "<b><u>Siii</b></u> im <b><u>always</b></u> saying <b><u>yeah</b></u> to good <b><u>pre</b></u>paration to journey",
+            "<b><u>S</b></u>port is good, <b><u>yeee</b></u> — and I <b><u>always</b></u> measure my skills on the co<b><u>mp</b></u>uter and <b><u>re</b></u>peat with better motivation"
+        ],
+        // opis
+        desc: "siempre[SYEM-preh] - always",
+        //zdanie
+        sentence2: [
+                "siempre"
+        ],
+        sentence: [
+                "y",
+                "estar",
+                "preparado",
+                "siempre"
+        ],
+        //  slowo do nauki
+        key: "siempre",
+        category1: [
+        ],
+        category2: ["osoby", "osoby+czas"]
+},
+{
+id: [
+        107,
+        21,
+        38
+],
+        // obrazek
+        img: [
+                "https://www.arbulang.com/img/fiszkiespanol/107a.jpg"
+        ],
+        translate: "To protect everyone's rights always",
+        translateb: "[pro-teh-HEHR los deh-REH-chohs deh TOH-dohs SYEM-preh]",
+        srcWord: ["https://www.arbulang.com/filmy/esp/protect.mp4", 'Constantine (2005)'],
+        srcWordimage: "https://www.arbulang.com/filmy/esp/protect.png",
+        word: [
+                "https://www.arbulang.com/voice/music.mp4"
+        ],
+        // historia
+        story: [
+            "<b><u>Pro</b></u>blem in security and <b><u>protecting</b></u> your property depend on <b><u>te</b></u>rrible predictions and mental <b><u>her</b></u>itage"
+        ],
+        // opis
+        desc: "proteger[pro-teh-HEHR] - protect",
+        //zdanie
+        sentence1: [
+                "Proteger"
+        ],
+        sentence: [
+                "Proteger",
+                "los derechos",
+                "de todos",
+                "siempre"
+        ],
+        //  slowo do nauki
+        key: "proteger",
+        category1: [
+        ],
+        category2: ["osoby", "osoby+czas"],
+                category3: ["Infinitive"]
+},
+{
+id: [
+        108,
+        21,
+        38
+],
+        // obrazek
+        img: [
+                "https://www.arbulang.com/img/fiszkiespanol/108a.jpg"
+        ],
+        word: [
+                "https://www.arbulang.com/voice/music.mp4"
+        ],
+        // historia
+        story: [
+            "It was c<b><u>los</b></u>e to ignoring my seller’s <b><u>rights</b></u> because <b><u>the</b></u> <b><u>re</b></u>nt money from other houses was not enough to cover the expenses, and I needed to get a loan and make a <b><u>cho</b></u>ice for the correct agreement (not so fast). It was <b><u>sss</b></u>uper decision"
+        ],
+        // opis
+        desc: "los derechos[los deh-REH-chohs] - the rights",
+        //zdanie
+        sentence1: [
+                "los derechos"
+        ],
+        sentence: [
+                "Proteger",
+                "los derechos",
+                "de todos",
+                "siempre"
+        ],
+        //  slowo do nauki
+        key: "derechos",
+        category1: [
+        ],
+        category2: ["osoby", "osoby+czas"]
+},
+{
+id: [
+        109,
+        21,
+        38
+],
+        // obrazek
+        img: [
+                "https://www.arbulang.com/img/fiszkiespanol/109a.jpg"
+        ],
+        word: [
+                "https://www.arbulang.com/voice/music.mp4"
+        ],
+        // historia
+        story: [
+            "<b><u>The</b></u> camera was constructed for the pho<b><u>to</b></u>graphy, as <b><u>does</b></u> everything of all that is designed for the purpose"
+        ],
+        // opis
+        desc: "de todos[deh TOH-dohs] - of all",
+        //zdanie
+        sentence1: [
+                "de todos"
+        ],
+        sentence: [
+                "Proteger",
+                "los derechos",
+                "de todos",
+                "siempre"
+        ],
+        //  slowo do nauki
+        key: "todos",
+        category1: [
+        ],
+        category2: ["osoby", "osoby+czas"]
+},
+{
+id: [
+        110,
+        21,
+        38
+],
+        // obrazek
+        img: [
+                "https://www.arbulang.com/img/fiszki1en-esp/106a.jpg",
+                "https://www.arbulang.com/img/fiszki1en-esp/110a.jpg"
+        ],
+        word: [
+                "https://www.arbulang.com/voice/music.mp4"
+        ],
+        // historia
+        story: [
+            "<b><u>Siii</b></u> im <b><u>always</b></u> saying <b><u>yeah</b></u> to good <b><u>pre</b></u>paration to journey",
+            "<b><u>S</b></u>port is good, <b><u>yeee</b></u> — and I <b><u>always</b></u> measure my skills on the co<b><u>mp</b></u>uter and <b><u>re</b></u>peat with better motivation"
+        ],
+        // opis
+        desc: "siempre[SYEM-preh] - always",
+        //zdanie
+        sentence1: [
+                "siempre"
+        ],
+        sentence: [
+                "Proteger",
+                "los derechos",
+                "de todos",
+                "siempre"
+        ],
+        //  slowo do nauki
+        key: "siempre",
+        category1: [
+        ],
+        category2: ["osoby", "osoby+czas"]
+},
+{
+id: [
+        111,
+        22,
+        39
+],
+        // obrazek
+        img: [
+                "https://www.arbulang.com/img/fiszki1en-esp/111a.jpg"
+        ],
+        translate: "To tell funny stories with good friends",
+        translateb: "[kohn-TAR ees-TOH-ryahs dee-behr-TEE-dahs kohn BWEH-nohs ah-MEE-gohs]",
+        srcWord: ["https://www.arbulang.com/filmy/esp/stories.mp4", 'Jestem na tak (2008)'],
+        srcWordimage: "https://www.arbulang.com/filmy/esp/stories.png",
+        word: [
+                "https://www.arbulang.com/voice/music.mp4"
+        ],
+        // historia
+        story: [
+            "<b><u>Cont</b></u>rol of this <b><u>ar</b></u>tist's art depends on what everybody is <b><u>telling</b></u> about"
+        ],
+        // opis
+        desc: "contar[kohn-TAR] - tell",
+        //zdanie
+        sentence1: [
+                "Contar"
+        ],
+        sentence: [
+                "Contar",
+                "historias",
+                "divertidas"
+        ],
+        //  slowo do nauki
+        key: "contar",
+        category1: [
+        ],
+        category2: ["osoby", "osoby+czas"],
+                category3: ["Infinitive"]
+},
+{
+id: [
+        112,
+        22,
+        39
+],
+        // obrazek
+        img: [
+                "https://www.arbulang.com/img/fiszki1en-esp/112a.jpg"
+        ],
+        word: [
+                "https://www.arbulang.com/voice/music.mp4"
+        ],
+        // historia
+        story: [
+            "COGNATS: historie - (h)istorias"
+        ],
+        // opis
+        desc: "historias[ees-TOH-ryahs] - stories",
+        //zdanie
+        sentence1: [
+                "historias"
+        ],
+        sentence: [
+                "Contar",
+                "historias",
+                "divertidas"
+        ],
+        //  slowo do nauki
+        key: "historias",
+        category1: [
+        ],
+        category2: ["osoby", "osoby+czas"]
+},
+{
+id: [
+        113,
+        22,
+        39
+],
+        // obrazek
+        img: [
+                "https://www.arbulang.com/img/fiszki1en-esp/113a.jpg"
+        ],
+        word: [
+                "https://www.arbulang.com/voice/music.mp4"
+        ],
+        // historia
+        story: [
+            "<b><u>Bert</u></b> and Ban<b><u>di</u></b> go together fishing. They iden<b><u>ti</u></b>fy <b><u>th</u></b>eir fish <b><u>as</u></b> simply as they can"
+        ],
+        // opis
+        desc: "divertidas[dee-behr-TEE-dahs] - funny",
+        //zdanie
+        sentence1: [
+                "divertidas"
+        ],
+        sentence: [
+                "Contar",
+                "historias",
+                "divertidas"
+        ],
+        //  slowo do nauki
+        key: "divertidas",
+        category1: [
+        ],
+        category2: ["osoby", "osoby+czas"]
+},
+{
+id: [
+        114,
+        22,
+        40
+],
+        // obrazek
+        img: [
+                "https://www.arbulang.com/img/fiszki1en-esp/56a.jpg"
+        ],
+        word: [
+                "https://www.arbulang.com/voice/music.mp4"
+        ],
+        // historia
+        story: [
+                "<b><u>With</b></u> that button, we <b><u>con</b></u>trol everything"
+        ],
+        // opis
+        desc: "con[kohn] - with",
+        //zdanie
+        sentence2: [
+                "con"
+        ],
+        sentence: [
+                "con",
+                "buenos",
+                "amigos"
+        ],
+        //  slowo do nauki
+        key: "con",
+        category1: [
+        ],
+        category2: ["osoby", "osoby+czas"]
+},
+{
+id: [
+        115,
+        22,
+        40
+],
+        // obrazek
+        img: [
+                "https://www.arbulang.com/img/fiszki1en-esp/115a.jpg"
+        ],
+        word: [
+                "https://www.arbulang.com/voice/music.mp4"
+        ],
+        // historia
+        story: [
+            "Cardi <u><b>B</b></u> is very <u><b>good</b></u> <u><b>whe</b></u>n she is singing. Even <u><b>Nos</b></u>tradamus, if he were alive, would adore her"
+        ],
+        // opis
+        desc: "bueons[BWEH-nohs] - good",
+        //zdanie
+        sentence2: [
+                "buenos"
+        ],
+        sentence: [
+                "con",
+                "buenos",
+                "amigos"
+        ],
+        //  slowo do nauki
+        key: "buenos",
+        category1: [
+        ],
+        category2: ["osoby", "osoby+czas"]
+},
+{
+id: [
+        116,
+        22,
+        40
+],
+        // obrazek
+        img: [
+                "https://www.arbulang.com/img/fiszki1en-esp/116a.jpg"
+        ],
+        word: [
+                "https://www.arbulang.com/voice/music.mp4"
+        ],
+        // historia
+        story: [
+            "Paloma M<u><b>ami</b></u> heard many <u><b>goss</b></u>ips about her and her <u><b>friends</b></u>"
+        ],
+        // opis
+        desc: "amigos[ah-MEE-gohs] - friends",
+        //zdanie
+        sentence2: [
+                "amigos"
+        ],
+        sentence: [
+                "Contar",
+                "buenos",
+                "amigos"
+        ],
+        //  slowo do nauki
+        key: "amigos",
+        category1: [
+        ],
+        category2: ["osoby", "osoby+czas"]
+},
+{
+id: [
+        117,
+        23,
+        41
+],
+        // obrazek
+        img: [
+                "https://www.arbulang.com/img/fiszki1en-esp/117a.jpg"
+        ],
+        translate: "To listen to cheerful music in the car",
+        translateb: "[ehs-koo-CHAR MOO-see-kah ah-LEH-greh ehn ehl KOH-cheh]",
+        srcWord: ["https://www.arbulang.com/filmy/eng-esp/musicincar2.mp4", 'Baby Driver (2005)'],
+        srcWordimage: "https://www.arbulang.com/filmy/eng-esp/musicincar2.png",
+        word: [
+                "https://www.arbulang.com/voice/music.mp4"
+        ],
+        // historia
+        story: [
+            "This d<u><b>esk</b></u> is <u><b>u</b></u>ltra practical and <u><b>char</b></u>ming, and from here, I hear voices from the kitchen."
+        ],
+        // opis
+        desc: "escuchar[ehs-koo-CHAR] - hear",
+        //zdanie
+        sentence1: [
+                "Escuchar"
+        ],
+        sentence: [
+                "Escuchar",
+                "música",
+                "alegre"
+        ],
+        //  slowo do nauki
+        key: "escuchar",
+        category1: [
+        ],
+        category2: ["osoby", "osoby+czas"],
+                category3: ["Infinitive"]
+},
+{
+id: [
+        118,
+        23,
+        41
+],
+        // obrazek
+        img: [
+                "https://www.arbulang.com/img/fiszki1en-esp/118a.jpg"
+        ],
+        word: [
+                "https://www.arbulang.com/voice/music.mp4"
+        ],
+        // historia
+        story: [
+            "COGNATS: muzyka - música"
+        ],
+        // opis
+        desc: "música[MOO-see-kah] - music",
+        //zdanie
+        sentence1: [
+                "música"
+        ],
+        sentence: [
+                "Escuchar",
+                "música",
+                "alegre"
+        ],
+        //  slowo do nauki
+        key: "musica",
+        category1: [
+        ],
+        category2: ["osoby", "osoby+czas"]
+},
+{
+id: [
+        119,
+        23,
+        41
+],
+        // obrazek
+        img: [
+                "https://www.arbulang.com/img/fiszki1en-esp/119a.jpg"
+        ],
+        word: [
+                "https://www.arbulang.com/voice/music.mp4"
+        ],
+        // historia
+        story: [
+            "<u><b>Ale</b></u>xander is <u><b>cheerful</b></u> when he sees his <u><b>gr</b></u>een lawn. <u><b>Eh</b></u>, beautiful lawn!"
+        ],
+        // opis
+        desc: "alegre[ah-LEH-greh] - cheerful",
+        //zdanie
+        sentence1: [
+                "alegre"
+        ],
+        sentence: [
+                "Escuchar",
+                "música",
+                "alegre"
+        ],
+        //  slowo do nauki
+        key: "alegre",
+        category1: [
+        ],
+        category2: ["osoby", "osoby+czas"]
+},
+{
+id: [
+        120,
+        23,
+        42
+],
+        // obrazek
+        img: [
+                "https://www.arbulang.com/img/fiszki1en-esp/30a.jpg"
+        ],
+        word: [
+                "https://www.arbulang.com/voice/lee.mp4"
+        ],
+        // historia
+        story: [
+                "New m<b><u>en</b></u> are on board"
+        ],
+        // opis
+        desc: "en[ehn] - in",
+        //zdanie
+        sentence2: [
+                "en"
+        ],
+        sentence: [
+                "en",
+                "el coche"
+        ],
+        //  slowo do nauki
+        key: "en",
+        category1: [
+        ],
+        category2: ["osoby", "osoby+czas"]
+},
+{
+id: [
+        121,
+        23,
+        42
+],
+        // obrazek
+        img: [
+                "https://www.arbulang.com/img/fiszki1en-esp/93a.jpg"
+        ],
+        word: [
+                "https://www.arbulang.com/voice/music.mp4"
+        ],
+        // historia
+        story: [
+            "<b><u>El</u></b>iot <b><u>co</u></b>pied his keys to the <b><u>car</u></b> and <b><u>che</b></u>cked if they really worked"
+        ],
+        // opis
+        desc: "el coche[ehl KOH-cheh] - car",
+        //zdanie
+        sentence2: [
+                "el coche"
+        ],
+        sentence: [
+                "en",
+                "el coche"
+        ],
+        //  slowo do nauki
+        key: "coche",
+        category1: [
+        ],
+        category2: ["osoby", "osoby+czas"]
+},
+{
+id: [
+        122,
+        24,
+        43
+],
+        // obrazek
+        img: [
+                "https://www.arbulang.com/img/fiszki1en-esp/122a.jpg"
+        ],
+        translate: "To arrive early and enjoy the morning",
+        translateb: "[yeh-GAHR tehm-PRAH-noh ee dees-froo-TAHR lah mahn-YAH-nah]",
+        srcWord: ["https://www.arbulang.com/filmy/eng-esp/morning4.mp4", 'Hobbs and Shaw (2019)'],
+        srcWordimage: "https://www.arbulang.com/filmy/eng-esp/morning4.png",
+        word: [
+                "https://www.arbulang.com/voice/music.mp4"
+        ],
+        // historia
+        story: [
+            "<b><u>Je</u></b>ssica <b><u>arrive</u></b>d to the <b><u>gar</u></b>den"
+        ],
+        // opis
+        desc: "llegar[yeh-GAHR] - arrive",
+        //zdanie
+        sentence1: [
+                "Llegar"
+        ],
+        sentence: [
+                "Llegar",
+                "temprano"
+        ],
+        //  slowo do nauki
+        key: "llegar",
+        category1: [
+        ],
+        category2: ["osoby", "osoby+czas"],
+                category3: ["Infinitive"]
+},
+{
+id: [
+        123,
+        24,
+        43
+],
+        // obrazek
+        img: [
+                "https://www.arbulang.com/img/fiszki1en-esp/123a.jpg"
+        ],
+        word: [
+                "https://www.arbulang.com/voice/music.mp4"
+        ],
+        // historia
+        story: [
+            "<b><u>Temp</u></b>erature in the <b><u>early</u></b> morning was low. <b><u>Oh</u></b>, I started <b><u>runn</u></b>ing to my duties"
+        ],
+        // opis
+        desc: "temprano[tehm-PRAH-noh] - early",
+        //zdanie
+        sentence1: [
+                "temprano"
+        ],
+        sentence: [
+                "Llegar",
+                "temprano"
+        ],
+        //  slowo do nauki
+        key: "temprano",
+        category1: [
+        ],
+        category2: ["osoby", "osoby+czas"]
+},
+{
+id: [
+        124,
+        24,
+        44
+],
+        // obrazek
+        img: [
+                "https://www.arbulang.com/img/fiszki1en-esp/65a.jpg",
+                 "https://www.arbulang.com/img/fiszki1en-esp/36a.jpg"
+        ],
+        word: [
+                "https://www.arbulang.com/voice/music.mp4"
+        ],
+        // historia
+        story: [
+                "<b><u>And</b></u> this is <b><u>i</b></u>t",
+                "<b><u>I</b></u>nternet <b><u>and</b></u> computer were great inventions"
+        ],
+        // opis
+        desc: "y[ee] - and",
+        //zdanie
+        sentence2: [
+                "y"
+        ],
+        sentence: [
+                "y",
+                "disfrutar",
+                "la mañana"
+        ],
+        //  slowo do nauki
+        key: "y",
+        category1: [
+        ],
+        category2: ["osoby", "osoby+czas"]
+},
+{
+id: [
+        125,
+        24,
+        44
+],
+        // obrazek
+        img: [
+                "https://www.arbulang.com/img/fiszki1en-esp/79a.jpg"
+        ],
+        word: [
+                "https://www.arbulang.com/voice/music.mp4"
+        ],
+        // historia
+        story: [
+              "This <b><u>dis</b></u>trict is <b><u>to enjoy</b></u> every <b><u>fru</b></u>it and we have every fruit as a <b><u>tar</b></u>get"
+        ],
+        // opis
+        desc: "disfrutar[deh-seh-froo-TAHR] - to enjoy",
+        //zdanie
+        sentence2: [
+                "disfrutar"
+        ],
+        sentence: [
+                "y",
+                "disfrutar",
+                "la mañana"
+        ],
+        //  slowo do nauki
+        key: "disfrutar",
+        category1: [
+        ],
+        category2: ["osoby", "osoby+czas"]
+},
+{
+id: [
+        126,
+        24,
+        44
+],
+        // obrazek
+        img: [
+                "https://www.arbulang.com/img/fiszki1en-esp/126a.jpg"
+        ],
+        word: [
+                "https://www.arbulang.com/voice/music.mp4"
+        ],
+        // historia
+        story: [
+            "There is a place where I sit in the <b><u>morning</u></b> – <b><u>man</u></b>datory... I have g<b><u>ia</u></b>nt pleasure and I always wa<b><u>nna</u></b> drink coffee then"
+        ],
+        // opis
+        desc: "la mañana[lah mahn-YAH-nah] - the morning",
+        //zdanie
+        sentence2: [
+                "la mañana"
+        ],
+        sentence: [
+                "y",
+                "disfrutar",
+                "la mañana"
+        ],
+        //  slowo do nauki
+        key: "manana",
+        category1: [
+                "związki", "wychowanie"
+        ],
+        category2: ["osoby", "osoby+czas"]
+},
+{
+id: [
+        127,
+        25,
+        45
+],
+        // obrazek
+        img: [
+                "https://www.arbulang.com/img/fiszki1en-esp/127a.jpg"
+        ],
+        translate: "To refuse offers that you don't like",
+        translateb: "[reh-oo-SAHR oh-FEHR-tahs keh noh teh GOOS-tehn]",
+        srcWord: ["https://www.arbulang.com/filmy/esp/offert.mp4", 'Yes Man'],
+        srcWordimage: "https://www.arbulang.com/filmy/esp/offert.png",
+        word: [
+                "https://www.arbulang.com/voice/music.mp4"
+        ],
+        // historia
+        story: [
+            "<b><u>Re</u></b>ply to my offer was <b><u>refused</u></b> <b><u>UUUUU</u></b>, my wife <b><u>Sar</u></b>a couldn't be happy"
+        ],
+        // opis
+        desc: "rehusar[reh-oo-SAHR] - refuse",
+        //zdanie
+        sentence1: [
+                "Rehusar"
+        ],
+        sentence: [
+                "Rehusar",
+                "ofertas",
+                "que"
+        ],
+        //  slowo do nauki
+        key: "rehusar",
+        category1: [
+        ],
+        category2: ["osoby", "osoby+czas"],
+                category3: ["Infinitive"]
+},
+{
+id: [
+        128,
+        25,
+        45
+],
+        // obrazek
+        img: [
+                "https://www.arbulang.com/img/fiszki1en-esp/128a.jpg"
+        ],
+        word: [
+                "https://www.arbulang.com/voice/music.mp4"
+        ],
+        // historia
+        story: [
+            "COGNATS - ofertas - offers"
+        ],
+        // opis
+        desc: "ofertas[oh-FEHR-tahs] - offers",
+        //zdanie
+        sentence1: [
+                "ofertas"
+        ],
+        sentence: [
+                "Rehusar",
+                "ofertas",
+                "que"
+        ],
+        //  slowo do nauki
+        key: "ofertas",
+        category1: [
+        ],
+        category2: ["osoby", "osoby+czas"]
+},
+{
+id: [
+        129,
+        25,
+        45
+],
+        // obrazek
+        img: [
+                "https://www.arbulang.com/img/fiszki1en-esp/129a.jpg"
+        ],
+        word: [
+                "https://www.arbulang.com/voice/music.mp4"
+        ],
+        // historia
+        story: [
+            "I <b><u>ca</b></u>nt do <b><u>that</b></u>"
+        ],
+        // opis
+        desc: "que[keh] - that",
+        //zdanie
+        sentence1: [
+                "que"
+        ],
+        sentence: [
+                "Rehusar",
+                "ofertas",
+                "que"
+        ],
+        //  slowo do nauki
+        key: "que",
+        category1: [
+        ],
+        category2: ["osoby", "osoby+czas"]
+},
+{
+id: [
+        130,
+        25,
+        46
+],
+        // obrazek
+        img: [
+                "https://www.arbulang.com/img/fiszki1en-esp/130a.jpg"
+        ],
+        word: [
+                "https://www.arbulang.com/voice/music.mp4"
+        ],
+        // historia
+        story: [
+            "COGNATS - NO - NO"
+        ],
+        // opis
+        desc: "no[noh] - no",
+        //zdanie
+        sentence2: [
+                "no"
+        ],
+        sentence: [
+                "no",
+                "te gusten"
+        ],
+        //  slowo do nauki
+        key: "no",
+        category1: [
+        ],
+        category2: ["osoby", "osoby+czas"]
+},
+{
+id: [
+        131,
+        25,
+        46
+],
+        // obrazek
+        img: [
+                "https://www.arbulang.com/img/fiszki1en-esp/131a.jpg"
+        ],
+        word: [
+                "https://www.arbulang.com/voice/music.mp4"
+        ],
+        // historia
+        story: [
+            "I know <b><u>you like</b></u> <b><u>Te</b></u>quilla and i have some <b><u>g</b></u>reat Tequilla. We need to l<b><u>os</b></u>e some of the formality and <b><u>ten</b></u>sion"
+        ],
+        // opis
+        desc: "te gusten[teh GOOS-tehn] - you like",
+        //zdanie
+        sentence2: [
+                "te gusten"
+        ],
+        sentence: [
+                "no",
+                "te gusten"
+        ],
+        //  slowo do nauki
+        key: "te gusten",
+        category1: [
+        ],
+        category2: ["osoby", "osoby+czas"]
+},
+{
+id: [
+        132,
+        26,
+        47
+],
+        // obrazek
+        img: [
+                "https://www.arbulang.com/img/fiszki1en-esp/132a.jpg"
+        ],
+        translate: "To train hard to feel better",
+        translateb: "[en-treh-NAR FWER-teh PAH-rah sen-TEER-teh meh-KHOR]",
+        srcWord: ["https://www.arbulang.com/filmy/esp/training2.mp4", 'Pain and Gain'],
+        srcWordimage: "https://www.arbulang.com/filmy/esp/training2.png",
+        word: [
+                "https://www.arbulang.com/voice/music.mp4"
+        ],
+        // historia
+        story: [
+            "I <b><u>ent</b></u>er to the room <b><u>to train</b></u> my muscles. I train and <b><u>re</b></u>peat every day - that's my <b><u>narr</b></u>ative"
+        ],
+        // opis
+        desc: "entrenar[en-treh-NAR] - to train",
+        //zdanie
+        sentence1: [
+                "Entrenar"
+        ],
+        sentence: [
+                "Entrenar",
+                "fuerte"
+        ],
+        //  slowo do nauki
+        key: "entrenar",
+        category1: [
+        ],
+        category2: ["osoby", "osoby+czas"],
+                category3: ["Infinitive"]
+},
+{
+id: [
+        133,
+        26,
+        47
+],
+        // obrazek
+        img: [
+                "https://www.arbulang.com/img/fiszki1en-esp/133a.jpg"
+        ],
+        word: [
+                "https://www.arbulang.com/voice/music.mp4"
+        ],
+        // historia
+        story: [
+            "B<b><u>ert</b></u>... your to<b><u>fu</b></u> was great also becouse. <b><u>E</b></u>hhh i was <b><u>strongly</b></u> hungry"
+        ],
+        // opis
+        desc: "fuerte[FWER-teh] - strong",
+        //zdanie
+        sentence1: [
+                "fuerte"
+        ],
+        sentence: [
+                "Entrenar",
+                "fuerte"
+        ],
+        //  slowo do nauki
+        key: "fuerte",
+        category1: [
+        ],
+        category2: ["osoby", "osoby+czas"]
+},
+{
+id: [
+        134,
+        26,
+        48
+],
+        // obrazek
+        img: [
+                "https://www.arbulang.com/img/fiszkiespanol/134a.jpg"
+        ],
+        word: [
+                "https://www.arbulang.com/voice/music.mp4"
+        ],
+        // historia
+        story: [
+            "People can do a lot <u><b>for</u></b> <u><b>para</u></b>dise"
+        ],
+        // opis
+        desc: "para[PAH-rah] - for",
+        //zdanie
+        sentence2: [
+                "para"
+        ],
+        sentence: [
+                "para",
+                "sentirte",
+                "mejor"
+        ],
+        //  slowo do nauki
+        key: "para",
+        category1: [
+        ],
+        category2: ["osoby", "osoby+czas"]
+},
+{
+id: [
+        135,
+        26,
+        48
+],
+        // obrazek
+        img: [
+                "https://www.arbulang.com/img/fiszki1en-esp/135a.jpg"
+        ],
+        word: [
+                "https://www.arbulang.com/voice/music.mp4"
+        ],
+        // historia
+        story: [
+            "I <u><b>feel you</u></b> with every sense. I have <u><b>tea</u></b>rs in my eyes, and I need to go to the <u><b>te</u></b>mplate"
+        ],
+        // opis
+        desc: "sentirte[sen-TEER-teh] - feel you",
+        //zdanie
+        sentence2: [
+                "sentirte"
+        ],
+        sentence: [
+                "para",
+                "sentirte",
+                "mejor"
+        ],
+        //  slowo do nauki
+        key: "sentirte",
+        category1: [
+        ],
+        category2: ["osoby", "osoby+czas"]
+},
+{
+id: [
+        136,
+        26,
+        48
+],
+        // obrazek
+        img: [
+                "https://www.arbulang.com/img/fiszki1en-esp/136a.jpg"
+        ],
+        word: [
+                "https://www.arbulang.com/voice/music.mp4"
+        ],
+        // historia
+        story: [
+            "Pam<u><b>el</u></b>a watched <u><b>hor</u></b>rible movie. The last one was <u><b>better</u></b>"
+        ],
+        // opis
+        desc: "mejor[meh-KHOR] - better",
+        //zdanie
+        sentence2: [
+                "mejor"
+        ],
+        sentence: [
+                "para",
+                "sentirte",
+                "mejor"
+        ],
+        //  slowo do nauki
+        key: "mejor",
+        category1: [
+        ],
+        category2: ["osoby", "osoby+czas"]
+},
+{
+id: [
+        137,
+        27,
+        49
+],
+        // obrazek
+        img: [
+                "https://www.arbulang.com/img/fiszki1en-esp/137a.jpg"
+        ],
+        translate: "To explain clear answers to children",
+        translateb: "[ehks-plee-KAR rehs-PWEHS-tahs KLAH-rahs ah lohs NEEN-yohs]",
+        srcWord: ["https://www.arbulang.com/filmy/esp/children.mp4", 'Ip Man'],
+        srcWordimage: "https://www.arbulang.com/filmy/esp/children.png",
+        word: [
+                "https://www.arbulang.com/voice/music.mp4"
+        ],
+        // historia
+        // historia
+        story: [
+            "COGNATS - EXPLICAR - EXPLAIN"
+        ],
+        // opis
+        desc: "explicar[ehks-plee-KAR] - explain",
+        //zdanie
+        sentence1: [
+                "Explicar"
+        ],
+        sentence: [
+                "Explicar",
+                "respuestas",
+                "claras",
+                "a los niños"
+        ],
+        //  slowo do nauki
+        key: "explicar",
+        category1: [
+                "sport", "gaming"
+        ],
+        category2: ["osoby", "osoby+czas"],
+                category3: ["Infinitive"]
+},
+{
+id: [
+        138,
+        27,
+        49
+],
+        // obrazek
+        img: [
+                "https://www.arbulang.com/img/fiszki1en-esp/138a.jpg"
+        ],
+        word: [
+                "https://www.arbulang.com/voice/music.mp4"
+        ],
+        // historia
+        story: [
+            "<u><b>Whe</u></b>n you receive my words, your <u><b>resp</u></b>onse, your <u><b>answers</u></b> was to <u><b>sta</u></b>rt just by <u><b>s</u></b>aying 'i'm fine'"
+        ],
+        // opis
+        desc: "respuestas[rehs-PWEHS-tahs] - answers",
+        //zdanie
+        sentence1: [
+                "respuestas"
+        ],
+        sentence: [
+                "Explicar",
+                "respuestas",
+                "claras",
+                "a los niños"
+        ],
+        //  slowo do nauki
+        key: "respuestas",
+        category1: [
+                "sport", "gaming"
+        ],
+        category2: ["osoby", "osoby+czas"],
+                category3: ["Infinitive"]
+},
+{
+id: [
+        139,
+        27,
+        49
+],
+        // obrazek
+        img: [
+                "https://www.arbulang.com/img/fiszki1en-esp/139a.jpg"
+        ],
+        word: [
+                "https://www.arbulang.com/voice/music.mp4"
+        ],
+        // historia
+        story: [
+            ""
+        ],
+        // opis
+        desc: "claras[KLAH-rahs] - clear",
+        //zdanie
+        sentence1: [
+                "claras"
+        ],
+        sentence: [
+                "Explicar",
+                "respuestas",
+                "claras",
+                "a los niños"
+        ],
+        //  slowo do nauki
+        key: "claras",
+        category1: [
+        ],
+        category2: ["osoby", "osoby+czas"],
+                category3: ["Infinitive"]
+},
+{
+id: [
+        140,
+        27,
+        49
+],
+        // obrazek
+        img: [
+                "https://www.arbulang.com/img/fiszki1en-esp/140a.jpg"
+        ],
+        word: [
+                "https://www.arbulang.com/voice/music.mp4"
+        ],
+        // historia
+        story: [
+            ""
+        ],
+        // opis
+        desc: "a los niños[ah lohs NEEN-yohs] - to the children",
+        //zdanie
+        sentence1: [
+                "a los niños"
+        ],
+        sentence: [
+                "Explicar",
+                "respuestas",
+                "claras",
+                "a los niños"
+        ],
+        //  slowo do nauki
+        key: "ninos",
+        category1: [
+        ],
+        category2: ["osoby", "osoby+czas"],
+                category3: ["Infinitive"]
+},
+{
+id: [
+        141,
+        28,
+        50
+],
+        // obrazek
+        img: [
+                "https://www.arbulang.com/img/fiszki1en-esp/141a.jpg"
+        ],
+        translate: "To try delicious food in new places",
+        translateb: "[proh-BAR koh-MEE-dah deh-lee-SYOH-sah ehn NWEH-bohs loo-GAH-rehs]",
+        srcWord: ["https://www.arbulang.com/filmy/esp/restaurant.mp4", 'Matrix 1999'],
+        srcWordimage: "https://www.arbulang.com/filmy/esp/restaurant.png",
+        word: [
+                "https://www.arbulang.com/voice/music.mp4"
+        ],
+        // historia
+        story: [
+            "My <b><u>pro</b></u>ject <b><u>proves</b></u> that imposibble is nothing. His <b><u>va</b></u>lue and business <b><u>r</b></u>ank is high"
+        ],
+        // opis
+        desc: "probar[proh-BAR] - prove",
+        //zdanie
+        sentence1: [
+                "Probar"
+        ],
+        sentence: [
+                "Probar",
+                "comida",
+                "deliciosa"
+        ],
+        //  slowo do nauki
+        key: "probar",
+        category1: [
+        ],
+        category2: ["osoby", "osoby+czas"],
+                category3: ["Infinitive"]
+},
+{
+id: [
+        142,
+        28,
+        50
+],
+        // obrazek
+        img: [
+                "https://www.arbulang.com/img/fiszki1en-esp/142a.jpg"
+        ],
+        word: [
+                "https://www.arbulang.com/voice/music.mp4"
+        ],
+        // historia
+        story: [
+            "We watching a <b><u>comi</b></u>c movie and eating our favourite <b><u>meal</b></u>"
+        ],
+        // opis
+        desc: "comida[koh-MEE-dah] - meal",
+        //zdanie
+        sentence1: [
+                "comida"
+        ],
+        sentence: [
+                "Probar",
+                "comida",
+                "deliciosa"
+        ],
+        //  slowo do nauki
+        key: "comida",
+        category1: [
+        ],
+        category2: ["osoby", "osoby+czas"],
+                category3: ["Infinitive"]
+},
+{
+id: [
+        143,
+        28,
+        50
+],
+        // obrazek
+        img: [
+                "https://www.arbulang.com/img/fiszki1en-esp/143a.jpg"
+        ],
+        word: [
+                "https://www.arbulang.com/voice/music.mp4"
+        ],
+        // historia
+        story: [
+            "COGNATS - DELICIOSA - DELICIOUS"
+        ],
+        // opis
+        desc: "deliciosa[deh-lee-SYOH-sah] - delicious",
+        //zdanie
+        sentence1: [
+                "deliciosa"
+        ],
+        sentence: [
+                "Probar",
+                "comida",
+                "deliciosa"
+        ],
+        //  slowo do nauki
+        key: "deliciosa",
+        category1: [
+        ],
+        category2: ["osoby", "osoby+czas"],
+                category3: ["Infinitive"]
+},
+{
+id: [
+        144,
+        28,
+        51
+],
+        // obrazek
+        img: [
+                "https://www.arbulang.com/img/fiszki1en-esp/30a.jpg"
+        ],
+        word: [
+                "https://www.arbulang.com/voice/lee.mp4"
+        ],
+        // historia
+        story: [
+                "New m<b><u>en</b></u> are on board"
+        ],
+        // opis
+        desc: "en[ehn] - on/in",
+        //zdanie
+        sentence2: [
+                "en"
+        ],
+        sentence: [
+                "en",
+                "nuevos",
+                "lugares"
+        ],
+        //  slowo do nauki
+        key: "en",
+        category1: [
+                "sport", "gaming"
+        ],
+        category2: ["osoby", "osoby+czas"],
+                category3: ["Infinitive"]
+},
+{
+id: [
+        145,
+        28,
+        51
+],
+        // obrazek
+        img: [
+                "https://www.arbulang.com/img/fiszki1en-esp/145a.jpg"
+        ],
+        word: [
+                "https://www.arbulang.com/voice/music.mp4"
+        ],
+        // historia
+        story: [
+            "A <b><u>new</u></b> <b><u>nu</u></b>trition plan in a sportsman's life gives him energy. <b><u>Ev</u></b>entually he is like a sport b<b><u>oss</b></u>"
+        ],
+        // opis
+        desc: "nuevos[NWEH-bohs] - new(nuevas/nuevos)",
+        //zdanie
+        sentence2: [
+                "nuevos"
+        ],
+        sentence: [
+                "en",
+                "nuevos",
+                "lugares"
+        ],
+        //  slowo do nauki
+        key: "nuevos",
+        category1: [
+        ],
+        category2: ["osoby", "osoby+czas"],
+                category3: ["Infinitive"]
+},
+{
+id: [
+        146,
+        28,
+        51
+],
+        // obrazek
+        img: [
+                "https://www.arbulang.com/img/fiszki1en-esp/146a.jpg"
+        ],
+        word: [
+                "https://www.arbulang.com/voice/music.mp4"
+        ],
+        // historia
+        story: [
+            ""
+        ],
+        // opis
+        desc: "lugares[loo-GAH-rehs] - places",
+        //zdanie
+        sentence2: [
+                "lugares"
+        ],
+        sentence: [
+                "en",
+                "nuevos",
+                "lugares"
+        ],
+        //  slowo do nauki
+        key: "lugares",
+        category1: [
+        ],
+        category2: ["osoby", "osoby+czas"],
+                category3: ["Infinitive"]
+},
+{
+id: [
+        147,
+        29,
+        52
+],
+        // obrazek
+        img: [
+                "https://www.arbulang.com/img/fiszki1en-esp/147a.jpg"
+        ],
+        translate: "To laugh together while watching funny movies",
+        translateb: "[reh-EER HOON-tohs MYEN-trahs mee-RAH-mohs peh-LEE-koo-lahs KOH-mee-kahs]",
+        srcWord: ["https://www.arbulang.com/filmy/esp/tv.mp4", 'Lord of War (2005)'],
+        srcWordimage: "https://www.arbulang.com/filmy/esp/tv.png",
+        word: [
+                "https://www.arbulang.com/voice/music.mp4"
+        ],
+        // historia
+        story: [
+            "I am <u><b>laughing</u></b> at my friend <u><b>irr</u></b>ational <u><b>re</u></b>sponse"
+        ],
+        // opis
+        desc: "reir[reh-EER] - laugh",
+        //zdanie
+        sentence1: [
+                "Reir"
+        ],
+        sentence: [
+                "Reir",
+                "juntos"
+        ],
+        //  slowo do nauki
+        key: "reir",
+        category1: [
+        ],
+        category2: ["osoby", "osoby+czas"],
+                category3: ["Infinitive"]
+},
+{
+id: [
+        148,
+        29,
+        52
+],
+        // obrazek
+        img: [
+                "https://www.arbulang.com/img/fiszki1en-esp/148a.jpg"
+        ],
+        word: [
+                "https://www.arbulang.com/voice/music.mp4"
+        ],
+        // historia
+        story: [
+                "They <b><u>hun</b></u>t <b><u>to</b></u>gether like a b<b><u>oss</b></u>"
+        ],
+        // opis
+        desc: "juntos[HOON-tohs] - together",
+        //zdanie
+        sentence1: [
+                "juntos"
+        ],
+        sentence: [
+                "Reir",
+                "juntos"
+        ],
+        //  slowo do nauki
+        key: "juntos",
+        category1: [
+        ],
+        category2: ["osoby", "osoby+czas"],
+                category3: ["Infinitive"]
+},
+{
+id: [
+        149,
+        29,
+        53
+],
+        // obrazek
+        img: [
+                "https://www.arbulang.com/img/fiszki1en-esp/51a.jpg"
+        ],
+        word: [
+                "https://www.arbulang.com/voice/music.mp4"
+        ],
+        // historia
+        story: [
+                "<b><u>While</b></u> we have some rumor in market, <b><u>m</b></u>y <b><u>Yen</b></u> is in <b><u>trou</b></u>ble, the game isnt <b><u>s</b></u>uper easy",
+                "In my science report i contain a lot. Then i go with friend to celebrate Rastafari cult"
+        ],
+        // opis
+        desc: "mientras[MYEN-trahs] - while",
+        //zdanie
+        sentence2: [
+                "mientras"
+        ],
+        sentence: [
+                "mientras",
+                "miramos",
+                "películas",
+                "cómicas"
+        ],
+        //  slowo do nauki
+        key: "mientras",
+        category1: [
+        ],
+        category2: ["osoby", "osoby+czas"],
+                category3: ["Infinitive"]
+},
+{
+id: [
+        150,
+        29,
+        53
+],
+        // obrazek
+        img: [
+                "https://www.arbulang.com/img/fiszki1en-esp/150a.jpg"
+        ],
+        word: [
+                "https://www.arbulang.com/voice/music.mp4"
+        ],
+        // historia
+        story: [
+            "<b><u>We look</b></u> at the <b><u>mir</b></u>racle which was seeing in reality <b><u>a</b></u>n actress Carrie-Anne <b><u>Moss</b></u>"
+        ],
+        // opis
+        desc: "miramos[mee-RAH-mohs] - we look",
+        //zdanie
+        sentence2: [
+                "miramos"
+        ],
+        sentence: [
+                "mientras",
+                "miramos",
+                "películas",
+                "cómicas"
+        ],
+        //  slowo do nauki
+        key: "miramos",
+        category1: [
+        ],
+        category2: ["osoby", "osoby+czas"],
+                category3: ["Infinitive"]
+},
+{
+id: [
+        151,
+        29,
+        53
+],
+        // obrazek
+        img: [
+                "https://www.arbulang.com/img/fiszki1en-esp/151a.jpg"
+        ],
+        word: [
+                "https://www.arbulang.com/voice/music.mp4"
+        ],
+        // historia
+        story: [
+            "<b><u>Pelic</b></u>an look at his TV on <b><u>movies</b></u> in his home <b><u>as</b></u> always... His TV is f<b><u>ull</b></u> of channels"
+        ],
+        // opis
+        desc: "películas[peh-LEE-koo-lahs] - movies",
+        //zdanie
+        sentence2: [
+                "películas"
+        ],
+        sentence: [
+                "mientras",
+                "miramos",
+                "películas",
+                "cómicas"
+        ],
+        //  slowo do nauki
+        key: "peliculas",
+        category1: [
+        ],
+        category2: ["osoby", "osoby+czas"],
+                category3: ["Infinitive"]
+},
+{
+id: [
+        152,
+        29,
+        53
+],
+        // obrazek
+        img: [
+                "https://www.arbulang.com/img/fiszki1en-esp/152a.jpg"
+        ],
+        word: [
+                "https://www.arbulang.com/voice/music.mp4"
+        ],
+        // historia
+        story: [
+            "COGNATS - COMICAS - COMICS"
+        ],
+        // opis
+        desc: "cómicas[KOH-mee-kahs] - comics",
+        //zdanie
+        sentence2: [
+                "cómicas"
+        ],
+        sentence: [
+                "mientras",
+                "miramos",
+                "películas",
+                "cómicas"
+        ],
+        //  slowo do nauki
+        key: "comicas",
+        category1: [
+        ],
+        category2: ["osoby", "osoby+czas"],
+                category3: ["Infinitive"]
+},
+{
+id: [
+        153,
+        30,
+        54
+],
+        // obrazek
+        img: [
+                "https://www.arbulang.com/img/fiszki1en-esp/153a.jpg"
+        ],
+        translate: "To deny lies and always tell the truth",
+        translateb: "[neh-GAR men-TEE-rahs ee deh-SEER SYEM-preh ber-DAHD]",
+        srcWord: ["https://www.arbulang.com/filmy/esp/truth.mp4", 'Matrix 1999'],
+        srcWordimage: "https://www.arbulang.com/filmy/esp/truth.png",
+        word: [
+                "https://www.arbulang.com/voice/music.mp4"
+        ],
+        // historia
+        story: [
+            "We <b><u>deny</b></u> that this factor has <b><u>neg</b></u>ative influence in h<b><u>ar</b></u>d effort of sportsmen"
+        ],
+        // opis
+        desc: "negar[neh-GAR] - deny",
+        //zdanie
+        sentence1: [
+                "Negar"
+        ],
+        sentence: [
+                "Negar",
+                "mentiras"
+        ],
+        //  slowo do nauki
+        key: "negar",
+        category1: [
+        ],
+        category2: ["osoby", "osoby+czas"],
+                category3: ["Infinitive"]
+},
+{
+id: [
+        154,
+        30,
+        54
+],
+        // obrazek
+        img: [
+                "https://www.arbulang.com/img/fiszki1en-esp/154a.jpg"
+        ],
+        word: [
+                "https://www.arbulang.com/voice/music.mp4"
+        ],
+        // historia
+        story: [
+            ""
+        ],
+        // opis
+        desc: "mentiras[men-TEE-rahs] - lies",
+        //zdanie
+        sentence1: [
+                "mentiras"
+        ],
+        sentence: [
+                "Negar",
+                "mentiras"
+        ],
+        //  slowo do nauki
+        key: "mentiras",
+        category1: [
+        ],
+        category2: ["osoby", "osoby+czas"],
+                category3: ["Infinitive"]
+},
+{
+id: [
+        155,
+        30,
+        55
+],
+        // obrazek
+        img: [
+                "https://www.arbulang.com/img/fiszki1en-esp/65a.jpg",
+                 "https://www.arbulang.com/img/fiszki1en-esp/36a.jpg"
+        ],
+        word: [
+                "https://www.arbulang.com/voice/music.mp4"
+        ],
+        // historia
+        story: [
+                "<b><u>And</b></u> this is <b><u>i</b></u>t",
+                "<b><u>I</b></u>nternet <b><u>and</b></u> computer were great inventions"
+        ],
+        // opis
+        desc: "y[ee] - and",
+        //zdanie
+        sentence2: [
+                "y"
+        ],
+        sentence: [
+                "y",
+                "decir",
+                "siempre",
+                "verdad"
+        ],
+        //  slowo do nauki
+        key: "y",
+        category1: [
+                "sport", "gaming"
+        ],
+        category2: ["osoby", "osoby+czas"],
+                category3: ["Infinitive"]
+},
+{
+id: [
+        156,
+        30,
+        55
+],
+        // obrazek
+        img: [
+                "https://www.arbulang.com/img/fiszki1en-esp/156a.jpg"
+        ],
+        word: [
+                "https://www.arbulang.com/voice/music.mp4"
+        ],
+        // historia
+        story: [
+            "<b><u>The</b></u> best thing in my presents on show was autograf of <b><u>Sir</b></u> Alex. And he <b><u>say</b></u> something to me"
+        ],
+        // opis
+        desc: "decir[deh-SEER] - say",
+        //zdanie
+        sentence2: [
+                "decir"
+        ],
+        sentence: [
+                "y",
+                "decir",
+                "siempre",
+                "verdad"
+        ],
+        //  slowo do nauki
+        key: "decir",
+        category1: [
+        ],
+        category2: ["osoby", "osoby+czas"],
+                category3: ["Infinitive"]
+},
+{
+id: [
+        157,
+        30,
+        55
+],
+        // obrazek
+        img: [
+                "https://www.arbulang.com/img/fiszki1en-esp/106a.jpg",
+                "https://www.arbulang.com/img/fiszki1en-esp/110a.jpg"
+        ],
+        word: [
+                "https://www.arbulang.com/voice/music.mp4"
+        ],
+        // historia
+        story: [
+            "<b><u>Siii</b></u> im <b><u>always</b></u> saying <b><u>yeah</b></u> to good <b><u>pre</b></u>paration to journey",
+            "<b><u>S</b></u>port is good, <b><u>yeee</b></u> — and I <b><u>always</b></u> measure my skills on the co<b><u>mp</b></u>uter and <b><u>re</b></u>peat with better motivation"
+        ],
+        // opis
+        desc: "siempre[SYEM-preh] - always",
+        //zdanie
+        sentence2: [
+                "siempre"
+        ],
+        sentence: [
+                "y",
+                "decir",
+                "siempre",
+                "verdad"
+        ],
+        //  slowo do nauki
+        key: "simepre",
+        category1: [
+                "sport", "gaming"
+        ],
+        category2: ["osoby", "osoby+czas"],
+                category3: ["Infinitive"]
+},
+{
+id: [
+        158,
+        30,
+        55
+],
+        // obrazek
+        img: [
+                "https://www.arbulang.com/img/fiszki1en-esp/158a.jpg"
+        ],
+        word: [
+                "https://www.arbulang.com/voice/music.mp4"
+        ],
+        // historia
+        story: [
+            "<b><u>Ber</b></u>t is a dad. He always tells <b><u>truth</b></u> his children"
+        ],
+        // opis
+        desc: "verdad[ber-DAHD] - truth",
+        //zdanie
+        sentence2: [
+                "verdad"
+        ],
+        sentence: [
+                "y",
+                "decir",
+                "siempre",
+                "verdad"
+        ],
+        //  slowo do nauki
+        key: "verdad",
+        category1: [
+                "sport", "gaming"
+        ],
+        category2: ["osoby", "osoby+czas"],
+                category3: ["Infinitive"]
+},
+{
+id: [
+        159,
+        31,
+        56
+],
+        // obrazek
+        img: [
+                "https://www.arbulang.com/img/fiszki1en-esp/159a.jpg"
+        ],
+        translate: "To dance slowly to soft romantic music",
+        translateb: "[bai-LAHR LEN-toh kon MOO-see-kah roh-MAN-tee-kah SWAH-veh]",
+        srcWord: ["https://www.arbulang.com/filmy/esp/dance.mp4", 'Titanic (1997)'],
+        srcWordimage: "https://www.arbulang.com/filmy/esp/dance.png",
+        word: [
+                "https://www.arbulang.com/voice/music.mp4"
+        ],
+        // historia
+        story: [
+            "Tender <b><u>Lar</b></u>a say good <b><u>bye</b></u> to lover after <b><u>dancing</b></u>"
+        ],
+        // opis
+        desc: "bailar[] - to dance",
+        //zdanie
+        sentence1: [
+                "Bailar"
+        ],
+        sentence: [
+                "Bailar",
+                "lento"
+        ],
+        //  slowo do nauki
+        key: "bailar",
+        category1: [
+        ],
+        category2: ["osoby", "osoby+czas"],
+                category3: ["Infinitive"]
+},
+{
+id: [
+        160,
+        31,
+        56
+],
+        // obrazek
+        img: [
+                "https://www.arbulang.com/img/fiszki1en-esp/160a.jpg"
+        ],
+        word: [
+                "https://www.arbulang.com/voice/music.mp4"
+        ],
+        // historia
+        story: [
+            "P<b><u>len</b></u>ty of wheels in that tank move <b><u>slowly</b></u>. The tank has big mo<b><u>to</b></u>r"
+        ],
+        // opis
+        desc: "lento[] - slowly",
+        //zdanie
+        sentence2: [
+                "lento"
+        ],
+        sentence: [
+                "Bailar",
+                "lento"
+        ],
+        //  slowo do nauki
+        key: "lento",
+        category1: [
+                "sport", "gaming"
+        ],
+        category2: ["osoby", "osoby+czas"],
+                category3: ["Infinitive"]
+},
+{
+id: [
+        161,
+        31,
+        57
+],
+        // obrazek
+        img: [
+                "https://www.arbulang.com/img/fiszki1en-esp/56a.jpg"
+        ],
+        word: [
+                "https://www.arbulang.com/voice/music.mp4"
+        ],
+        // historia
+        story: [
+                "<b><u>With</b></u> that button, we <b><u>con</b></u>trol everything"
+        ],
+        // opis
+        desc: "con[kohn] - with",
+        //zdanie
+        sentence2: [
+                "con"
+        ],
+        sentence: [
+                "con",
+                "música",
+                "romántica",
+                "suave"
+        ],
+        //  slowo do nauki
+        key: "con",
+        category1: [
+                "sport", "gaming"
+        ],
+        category2: ["osoby", "osoby+czas"],
+                category3: ["Infinitive"]
+},
+{
+id: [
+        162,
+        31,
+        57
+],
+        // obrazek
+        img: [
+                "https://www.arbulang.com/img/fiszki1en-esp/158a.jpg"
+        ],
+        word: [
+                "https://www.arbulang.com/voice/music.mp4"
+        ],
+        // historia
+        story: [
+            "COGNATS - MUSIC - MUSICA"
+        ],
+        // opis
+        desc: "música[] - music",
+        //zdanie
+        sentence2: [
+                "música"
+        ],
+        sentence: [
+                "con",
+                "música",
+                "romántica",
+                "suave"
+        ],
+        //  slowo do nauki
+        key: "musica",
+        category1: [
+                "sport", "gaming"
+        ],
+        category2: ["osoby", "osoby+czas"],
+                category3: ["Infinitive"]
+},
+{
+id: [
+        163,
+        31,
+        57
+],
+        // obrazek
+        img: [
+                "https://www.arbulang.com/img/fiszki1en-esp/158a.jpg"
+        ],
+        word: [
+                "https://www.arbulang.com/voice/music.mp4"
+        ],
+        // historia
+        story: [
+            "COGNATS - ROMANTICA - ROMANTIC"
+        ],
+        // opis
+        desc: "romántica[] - romantic",
+        //zdanie
+        sentence2: [
+                "romántica"
+        ],
+        sentence: [
+                "con",
+                "música",
+                "romántica",
+                "suave"
+        ],
+        //  slowo do nauki
+        key: "romantica",
+        category1: [
+                "sport", "gaming"
+        ],
+        category2: ["osoby", "osoby+czas"],
+                category3: ["Infinitive"]
+},
+{
+id: [
+        164,
+        31,
+        57
+],
+        // obrazek
+        img: [
+                "https://www.arbulang.com/img/fiszki1en-esp/158a.jpg"
+        ],
+        word: [
+                "https://www.arbulang.com/voice/music.mp4"
+        ],
+        // historia
+        story: [
+            "I swallow my saliva after a soft drink and that drink is in my veins now"
+        ],
+        // opis
+        desc: "suave[SWAH-veh] - gentle, soft",
+        //zdanie
+        sentence2: [
+                "suave"
+        ],
+        sentence: [
+                "con",
+                "música",
+                "romántica",
+                "suave"
+        ],
+        //  slowo do nauki
+        key: "suave",
+        category1: [
+                "sport", "gaming"
+        ],
+        category2: ["osoby", "osoby+czas"],
+                category3: ["Infinitive"]
+    }
 ];
-function addToTrainingList(idFiszki) {
-    // dodaj do local storage do treningu
-    addFiszkaToLesson(idFiszki);
+let totalTrainingFiszkaCount = 0;
+  let trainingFiszkaCount = 0;
+  let badgeProgressCount = 0;
+  let badgeLevel = 1;
+  const maxBadgeLevel = 5;
+  let badgeAlreadyGiven = false;
+
+  function getCurrentBadgeLimit(){ return 4; }
+
+  function updateFloatingCounter(){
+    const lim = getCurrentBadgeLimit();
+    $('#floatingCounter').text(`${trainingFiszkaCount}/${lim}`);
+  }
+function updateBadgeOverlayText() {
+  const lim = getCurrentBadgeLimit();
+
+  if (badgeLevel >= 4) {
+    $('#badgeOverlayText').hide(); // 🔒 Ukryj tekst dla poziomu 4+
+    return;
+  }
+
+  console.log('[DBG] badgeProgressCount=', badgeProgressCount, '/', lim);
+  $('#badgeOverlayText').text(`${badgeProgressCount}/${lim}`);
+  $('#badgeOverlayText').show(); // Upewnij się, że jest widoczny poniżej 4
+}
+function addEarnedBadge(level) {
+    if (level > 3) return; // 🔒 NIE dodawaj odznak poziomu >3
+  const badgeName = getBadgeName(level);
+  const progressText = `${getCurrentBadgeLimit()}/${getCurrentBadgeLimit()}`;
+
+  const badgeElement = $(`
+    <div class="earned-badge-wrapper" style="
+      position: relative; 
+      display: inline-block; 
+      width: 100px; 
+      height: 100px; 
+      margin: 5px;
+      overflow: hidden;
+      border-radius: 6px;
+    ">
+      <img src="img/songo${level}.jpg" class="earned-badge" style="
+        width: 100%; 
+        height: 100%; 
+        object-fit: cover; 
+        border-radius: 6px;
+        display: block;
+      ">
+      <div style="
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        background: rgba(0,0,0,0.6);
+        color: #fff;
+        font-size: 11px;
+        text-align: center;
+        padding: 2px 4px;
+        box-sizing: border-box;
+        line-height: 1.2;
+      ">
+        <div style="font-weight: bold;">${badgeName}</div>
+        <div>${progressText}</div>
+      </div>
+    </div>
+  `);
+
+  $('#earnedBadgesContainer').append(badgeElement);
+}
+function restoreBadgeState(){
+  totalTrainingFiszkaCount = parseInt(localStorage.getItem('totalTrainingFiszkaCount')) || 0;
+  trainingFiszkaCount = parseInt(localStorage.getItem('trainingFiszkaCount')) || 0;
+  badgeProgressCount   = parseInt(localStorage.getItem('badgeProgressCount'))   || 0;
+  badgeLevel           = parseInt(localStorage.getItem('badgeLevel'))           || 1;
+
+for (let i = 1; i < badgeLevel && i < 4; i++) {
+  addEarnedBadge(i);
+}
+
+  $('#currentBadgeContainer').show();
+  $('#floatingCounter').show();
+
+  updateFloatingCounter();
+  updateBadgeOverlayText();
+  updateMainCounter();
+}
+
+
+  function updateLearningNotification() {
+    const złWartość = totalTrainingFiszkaCount * 2;
+    const progressPercent = Math.min(100, Math.round((totalTrainingFiszkaCount / 18) * 100));
+
+    $('#learningNotification').html(`
+      <div style="background: #ffffff; color: black; padding: 6px; border-radius: 6px;">
+        📚 Każde słowo = <strong>2 zł</strong> wartości nauki.<br>
+        🧩 Postęp lekcji: <strong>${progressPercent}%</strong> (${totalTrainingFiszkaCount}/18) – wartość: <strong>${złWartość} zł</strong>
+      </div>
+    `);
+
+    console.log('[DBG] Notyfikacja:', totalTrainingFiszkaCount);
+  }
+
+  // Ważne: poczekaj na załadowanie DOM
+  $(document).ready(function() {
+    updateLearningNotification();
+  });
+function giveBadge(){
+    if (badgeLevel >= 4) return; // 🔒 NIE pozwól wejść na poziom 4+
+  badgeAlreadyGiven = true;
+  setTimeout(() => {
+    const previousLevel = badgeLevel;
+    badgeLevel++; // zwiększ najpierw poziom
+    addEarnedBadge(previousLevel); // dodaj odznakę za poprzedni poziom
+
+    badgeProgressCount = 0;
+    trainingFiszkaCount = 0;
+
+    updateFloatingCounter();
+    updateBadgeOverlayText();
+    updateBadgeImage();
+
+    localStorage.setItem('trainingFiszkaCount', trainingFiszkaCount);
+    localStorage.setItem('badgeProgressCount', badgeProgressCount);
+    localStorage.setItem('badgeLevel', badgeLevel);
+
+    badgeAlreadyGiven = false;
+  }, 1000);
+}
+
+function addToTrainingList(id){
+  trainingFiszkaCount++;
+  totalTrainingFiszkaCount++;
+  badgeProgressCount++;
+
+  localStorage.setItem('totalTrainingFiszkaCount', totalTrainingFiszkaCount);
+  localStorage.setItem('trainingFiszkaCount', trainingFiszkaCount);
+  localStorage.setItem('badgeProgressCount', badgeProgressCount);
+
+  updateMainCounter();
+  updateFloatingCounter();
+  updateBadgeOverlayText();
+  updateLearningNotification(); // <- to tu
+
+  if(badgeProgressCount >= getCurrentBadgeLimit() && !badgeAlreadyGiven){
+    giveBadge();
+  }
+}
+
+  // symulacja Twojego activateFiszka:
+  function activateFiszka(id, znam){
+    if(!znam) addToTrainingList(id);
+  }
+  
+function updateMainCounter(){
+  $('#totalValue').text(totalTrainingFiszkaCount);
+}
+$(function(){
+  restoreBadgeState();
+  updateBadgeImage(); // ← to jest ważne
+  $('.train-btn').on('click', ()=> activateFiszka('f1', false));
+});
+function getBadgeName(level) {
+  switch(level) {
+    case 1: return 'Mistrz Pamięci';
+    case 2: return 'Eksploracja Świata Arbu';
+    case 3: return 'Intensywna Nauka';
+    default: return ''; // lub np. return null;
+  }
+}
+
+function updateBadgeImage() {
+  if (badgeLevel >= 4) {
+    $('#badgeImage').hide();            // Ukryj grafikę
+    $('#badgeOverlayText').hide();      // Ukryj overlay z punktami
+    $('#currentBadgeName').hide();      // Ukryj nazwę odznaki, jeśli masz ten element
+    return;
+  }
+
+  const clampedLevel = Math.min(badgeLevel, maxBadgeLevel);
+  $('#badgeImage').attr('src', `img/songo${clampedLevel}.jpg`).show();
+  $('#badgeOverlayText').show();
+  $('#currentBadgeName').text(getBadgeName(clampedLevel)).show();
 }
 function activateFiszka(idFiszki, znam) {
     let id = idFiszki;
     let parametr = '';
 
     if (Array.isArray(idFiszki)) {
-        // PoĹÄcz wartoĹci z tablicy id w jeden ciÄg znakĂłw oddzielony przecinkami
         id = idFiszki.slice(0, 3).join(',');
-        // ObsĹuga ewentualnego dodatkowego parametru (np. czwartego elementu w tablicy)
         parametr = idFiszki.length > 3 ? idFiszki[3] : '';
     }
 
-    // Tworzenie klasy CSS z odpowiednim formatowaniem (poprawione usuniÄcie przecinkĂłw w CSS)
     const className = `fiszka-${id}${parametr ? '\\,' + parametr : ''}`;
     const selector = `.${className.replace(/,/g, '\\,')}`;
-    console.log(selector);
 
     if (znam) {
-        // Zapisz klasÄ 'active' lub zmieĹ z 'active2' na 'active'
         if ($(selector).hasClass('active2')) {
             $(selector).removeClass('active2').addClass('active');
             updateLearnedClass(className, 'active');
@@ -3878,26 +6804,35 @@ function activateFiszka(idFiszki, znam) {
             saveLearnedClass(className, 'active');
         }
         setAsLearned(id);
-        console.log(`Set fiszka with ID ${id} as learned.`);
     } else {
-        // Zapisz klasÄ 'active2' lub usuĹ 'active'
         $(selector).removeClass('active').addClass('active2');
         saveLearnedClass(className, 'active2');
         addToTrainingList(id);
-        console.log(`Clicked - fiszka with ID ${id} added to training list.`);
-        console.log('Clicked', $(selector));
     }
 }
 
+function incrementBadgeProgress() {
+    badgeProgressCount++;
+    trainingFiszkaCount++;
 
+    updateFloatingCounter();
+    updateBadgeOverlayText();
 
+    localStorage.setItem('trainingFiszkaCount', trainingFiszkaCount);
+    localStorage.setItem('badgeProgressCount', badgeProgressCount);
+
+    const currentLimit = getCurrentBadgeLimit();
+    if (badgeProgressCount >= currentLimit && !badgeAlreadyGiven) {
+        giveBadge();
+    }
+}
 // Funkcja do zapisywania klasy w Local Storage
 function saveLearnedClass(className, classToAdd) {
     let learnedClasses = getLearned2();
     const existingEntryIndex = learnedClasses.findIndex(entry => entry.className === className);
 
     if (existingEntryIndex !== -1) {
-        // JeĹli juĹź istnieje, zaktualizuj klasÄ
+        // Jeśli już istnieje, zaktualizuj klasę
         learnedClasses[existingEntryIndex].classToAdd = classToAdd;
     } else {
         // W przeciwnym razie dodaj nowy wpis
@@ -3914,20 +6849,34 @@ function updateLearnedClass(className, classToUpdate) {
     const existingEntryIndex = learnedClasses.findIndex(entry => entry.className === className);
 
     if (existingEntryIndex !== -1) {
-        // JeĹli juĹź istnieje, zaktualizuj klasÄ
+        // Jeśli już istnieje, zaktualizuj klasę
         learnedClasses[existingEntryIndex].classToAdd = classToUpdate;
         localStorage.setItem('ColorClass', JSON.stringify(learnedClasses));
         console.log('ColorClass', learnedClasses);
     }
 }
-
-// Funkcja do odzyskiwania klas z Local Storage
 function getLearned2() {
-    const storedColorClass = localStorage.getItem('ColorClass');
-    return storedColorClass ? JSON.parse(storedColorClass) : [];
+    const stored = localStorage.getItem('ColorClass');
+    return stored ? JSON.parse(stored) : [];
 }
 
-// WywoĹanie klas po odĹwieĹźeniu strony
+function restoreLearnedClasses() {
+    const learnedClasses = getLearned2();
+
+    learnedClasses.forEach(entry => {
+        const selector = '.' + entry.className.replace(/,/g, '\\,'); // lub '\\\\,'
+        console.log('Przywracam:', selector, '->', entry.classToAdd);
+
+        $(selector).addClass(entry.classToAdd);
+    });
+}
+
+// Wywołanie po załadowaniu DOM
+document.addEventListener("DOMContentLoaded", function() {
+    restoreLearnedClasses();
+});
+
+// Wywołanie klas po odświeżeniu strony
 $(document).ready(function () {
     const learnedClasses = getLearned2();
     learnedClasses.forEach(function (entry) {
@@ -3947,21 +6896,23 @@ function loadFromLocalStorage() {
     return storedData ? JSON.parse(storedData) : null;
 }
 
+const storedLessons = loadFromLocalStorage();
 
-// Sprawdzanie zawartoĹci lessons2b po zaĹadowaniu danych
+
+
+// Sprawdzanie zawartości lessons2b po załadowaniu danych
 function printLessons2b() {
     console.log('hej555', lessons2b[2]);
 }
 
-// WywoĹaj tÄ funkcjÄ, gdy masz pewnoĹÄ, Ĺźe dane zostaĹy zaĹadowane
+// Wywołaj tę funkcję, gdy masz pewność, że dane zostały załadowane
 document.addEventListener('DOMContentLoaded', function () {
-    setTimeout(printLessons2b, 2000);  // OpĂłĹşnienie dla pewnoĹci
+    setTimeout(printLessons2b, 1000);  // Opóźnienie dla pewności
 });
-
-function generateFiszkaBlock(fiszka, lessonId2) {
+function generateFiszkaBlock(fiszka, lessonId2, category) {
 
     var currentStoryButtonName = ''; // Zmienna lokalna
-    console.log(`Generating fiszka block for ID: [${fiszka}]`);
+    console.log(`Generating fiszka block for ID100`, category);
 
     // Tworzenie kontenera fiszki
 
@@ -3973,21 +6924,21 @@ function generateFiszkaBlock(fiszka, lessonId2) {
 
             var music = document.getElementById(audioId);
             var pButton = document.getElementById(pButtonId);
-            // Dodajemy style bezpoĹrednio w kodzie JavaScript
+            // Dodajemy style bezpośrednio w kodzie JavaScript
             if (window.matchMedia("(max-width: 999px)").matches) {
-                pButton.style.height = '100px';  // ZwiÄkszenie wysokoĹci
-                pButton.style.width = '100px';   // ZwiÄkszenie szerokoĹci
+                pButton.style.height = '100px';  // Zwiększenie wysokości
+                pButton.style.width = '100px';   // Zwiększenie szerokości
             } else {
-                pButton.style.height = '60px';  // ZwiÄkszenie wysokoĹci
-                pButton.style.width = '60px';   // ZwiÄkszenie szerokoĹci
+                pButton.style.height = '60px';  // Zwiększenie wysokości
+                pButton.style.width = '60px';   // Zwiększenie szerokości
             }
-            pButton.style.border = 'none';   // UsuniÄcie ramki
-            pButton.style.backgroundSize = '80%';  // Rozmiar obrazka tĹa
+            pButton.style.border = 'none';   // Usunięcie ramki
+            pButton.style.backgroundSize = '80%';  // Rozmiar obrazka tła
             pButton.style.backgroundRepeat = 'no-repeat';
             pButton.style.backgroundPosition = 'center';
-            pButton.style.borderRadius = '8px';   // ZaokrÄglenie rogĂłw
-            pButton.style.outline = 'none';       // UsuniÄcie obramowania
-            pButton.style.display = 'flex';       // WyĹrodkowanie zawartoĹci
+            pButton.style.borderRadius = '8px';   // Zaokrąglenie rogów
+            pButton.style.outline = 'none';       // Usunięcie obramowania
+            pButton.style.display = 'flex';       // Wyśrodkowanie zawartości
             pButton.style.alignItems = 'center';
             pButton.style.justifyContent = 'center';
             pButton.style.overflow = 'hidden';    // Ukrycie nadmiarowego kontentu
@@ -4027,34 +6978,47 @@ function generateFiszkaBlock(fiszka, lessonId2) {
         let fiszkaContainer = $('<div>').addClass('fiszka fiszka-' + fiszka.id);
 console.log('Hej4442', fiszkaContainer);
 
+const imgContainer = $('<div>').addClass('fiszka_img_container');
+        fiszka.entries.forEach(entry => {
+            // Tworzymy kontener dla zdjęć
 
-        // DODANIE OBRAZKA
-        const imgContainer = $('<div>').addClass('fiszka_img_container');
-        if (Array.isArray(fiszka.img) && fiszka.img.length > 0) {
-            fiszka.img.forEach((imgSrc, index) => {
-                const imgElement = $('<img class="fiszka_img">').attr('src', imgSrc);
+            // Sprawdzamy, czy img to tablica (może być więcej niż jedno zdjęcie)
+            if (Array.isArray(entry.img)) {
+                entry.img.forEach((imgObj, index) => {
+                    const imgElement = $('<img class="fiszka_img">')
+                        .attr('src', imgObj.src)  // Dodanie URL obrazka
+                        .attr('alt', imgObj.alt); // Dodanie ALT
+                    imgContainer.append(imgElement);
+                    if (index > 0) {
+                        imgElement.hide(); // Ukrywanie dodatkowych zdjęć
+                    }
+                });
+            } else if (typeof entry.img === 'object' && entry.img !== null) {
+                // Jeśli img to pojedynczy obiekt
+                const imgElement = $('<img class="fiszka_img">')
+                    .attr('src', entry.img.src)
+                    .attr('alt', entry.img.alt);
                 imgContainer.append(imgElement);
-                if (index > 0) {
-                    imgElement.hide();
-                }
-            });
-        } else if (typeof fiszka.img === 'string') {
-            // JeĹli jest tylko jedno zdjÄcie, dodajemy je do imgContainer dla kaĹźdej fiszki
-            const imgElement = $('<img class="fiszka_img">').attr('src', fiszka.img);
-            imgContainer.append(imgElement);
-        }
-        fiszkaContainer.append(imgContainer); //DODANIE OBRAZKA
+            }
 
+            // Tworzymy kontener dla historii
+            const storyContainer = $('<div>').addClass('story').html(entry.story.text);
+
+            // Dodajemy kontener obrazków i historii do kontenera fiszki
+            const fiszkaContainer = $('<div>').addClass('fiszka');
+
+        });
+            fiszkaContainer.append(imgContainer);
         const selectedLikes = [];
         console.log('hej10', selectedLikes);
 
-// Funkcja do obsĹugi klikniÄcia na przycisk "likeButton"
+// Funkcja do obsługi kliknięcia na przycisk "likeButton"
         function handleLikeButtonClick(index) {
             const likeButton = $(this);
             const storyButton = fiszkaContainer.find('.story_button').eq(index);
             const selectedLike = likeButton.text();
             console.log('Zaktualizowano przycisk dla indeksu:', index);
-            console.log('Aktualne wartoĹci selectedLikes:', selectedLikes);
+            console.log('Aktualne wartości selectedLikes:', selectedLikes);
         }
         const likeButton = $('<a>').addClass('like').attr('href', '#');
         const likeText = $('<span>').text('Śmieszna historia');
@@ -4063,9 +7027,9 @@ console.log('Hej4442', fiszkaContainer);
 
         // Tworzymy kontener opcji "like" i dodajemy opcje do kontenera
         const likeOptionsContainer = $('<div>').attr('id', 'likeOptionsContainer');
-        const likeOption1 = createLikeOption('thumbsUp', 'đ Ĺmieszne');
-        const likeOption2 = createLikeOption('heart', 'â¤ď¸ MiĹe');
-        const likeOption3 = createLikeOption('star', 'â­ PamiÄtliwe');
+        const likeOption1 = createLikeOption('thumbsUp', '👍 Śmieszne');
+        const likeOption2 = createLikeOption('heart', '❤️ Miłe');
+        const likeOption3 = createLikeOption('star', '⭐ Pamiętliwe');
         likeOptionsContainer.append(likeOption1, likeOption2, likeOption3);
 
         // Dodajemy kontener opcji "like" do docelowego kontenera
@@ -4074,7 +7038,7 @@ console.log('Hej4442', fiszkaContainer);
         // Ukrywamy kontener opcji "like"
         likeOptionsContainer.hide();
 
-        // ObsĹuga zdarzenia hover na przycisku "like"
+        // Obsługa zdarzenia hover na przycisku "like"
         likeButton.hover(function () {
             const buttonPosition = likeButton.offset();
             const buttonWidth = likeButton.outerWidth();
@@ -4083,7 +7047,7 @@ console.log('Hej4442', fiszkaContainer);
             likeOptionsContainer.css({
                 top: buttonPosition.top - likeOptionsContainer.outerHeight() - 10,
                 left: buttonPosition.left + (buttonWidth / 2) - (likeOptionsContainer.outerWidth() / 2),
-                backgroundColor: '#f0f0f0', // Dodajemy szary kolor tĹa
+                backgroundColor: '#f0f0f0', // Dodajemy szary kolor tła
             }).fadeIn('fast');
         }, function () {
             // Ukrywamy kontener opcji "like" po zjechaniu z przycisku
@@ -4098,36 +7062,36 @@ console.log('Hej4442', fiszkaContainer);
                 return;
             }
 
-            // Tworzymy kontener dla ikony i dodajemy ikonÄ
+            // Tworzymy kontener dla ikony i dodajemy ikonę
             const iconContainer = $('<div>').addClass('likeIconContainer');
             const likeIcon = getLikeIcon(like);
             iconContainer.append(likeIcon);
 
-            // Usuwamy wczeĹniej dodanÄ ikonÄ, jeĹli istnieje
+            // Usuwamy wcześniej dodaną ikonę, jeśli istnieje
             storyButton.find('.likeIconContainer').remove();
 
-            // Dodajemy kontener z ikonÄ do przycisku "story_button"
+            // Dodajemy kontener z ikoną do przycisku "story_button"
             storyButton.append(iconContainer);
         }
 
         function createLikeOption(like, text) {
             const likeOption = $('<div>').addClass('likeOption').attr('data-like', like).text(text);
 
-            // Dodajemy efekt zmiany koloru na lekko ciemniejszy szary po najechaniu myszkÄ na pojedynczÄ opcjÄ "like"
+            // Dodajemy efekt zmiany koloru na lekko ciemniejszy szary po najechaniu myszką na pojedynczą opcję "like"
             likeOption.hover(
                     function () {
-                        likeOption.css('background-color', '#dcdcdc'); // Lekko ciemniejszy szary kolor tĹa dla opcji "like"
+                        likeOption.css('background-color', '#dcdcdc'); // Lekko ciemniejszy szary kolor tła dla opcji "like"
                     },
                     function () {
-                        likeOption.css('background-color', ''); // Usuwamy styl, aby wrĂłciÄ do domyĹlnego tĹa opcji "like"
+                        likeOption.css('background-color', ''); // Usuwamy styl, aby wrócić do domyślnego tła opcji "like"
                     }
             );
 
-            let likeCounter = 0; // Dodajemy licznik polubieĹ dla kaĹźdej opcji "like"
+            let likeCounter = 0; // Dodajemy licznik polubień dla każdej opcji "like"
 
             const counterDiv = $('<div>').addClass('likeCounterDiv'); // Nowy div na licznik
 
-            // Dodajemy ikonÄ do licznika
+            // Dodajemy ikonę do licznika
             const likeIcon = getLikeIcon(like);
             const iconContainer = $('<span>').addClass('likeIconContainer').append(likeIcon);
             counterDiv.append(iconContainer);
@@ -4135,12 +7099,12 @@ console.log('Hej4442', fiszkaContainer);
             const likeCounterSpan = $('<span>').addClass('likeCounter').text(` ${likeCounter} `);
             counterDiv.append(likeCounterSpan); // Licznik jest dodany po ikonie
 
-            imgContainer.append(counterDiv); // Dodajemy licznik na zewnÄtrz kontenera przyciskĂłw
+            imgContainer.append(counterDiv); // Dodajemy licznik na zewnątrz kontenera przycisków
 
             likeOption.click(function (event) {
-                event.preventDefault(); // Zapobiegamy domyĹlnej akcji przycisku
+                event.preventDefault(); // Zapobiegamy domyślnej akcji przycisku
 
-                // Inkrementujemy licznik polubieĹ za kaĹźdym razem, gdy opcja "like" zostanie wybrana
+                // Inkrementujemy licznik polubień za każdym razem, gdy opcja "like" zostanie wybrana
                 likeCounter++;
                 likeCounterSpan.text(` ${likeCounter} `);
 
@@ -4148,20 +7112,20 @@ console.log('Hej4442', fiszkaContainer);
                 const selectedIcon = getLikeIcon(selectedLike);
                 likeText.text(text);
                 likeButton.removeClass('liked');
-                addLikeIconToStoryButton(lastClickedIndex, selectedLike); // Dodaj ikonÄ do story_button na podstawie wybranej opcji "like"
+                addLikeIconToStoryButton(lastClickedIndex, selectedLike); // Dodaj ikonę do story_button na podstawie wybranej opcji "like"
 
-                // SprawdĹş, czy index juĹź istnieje w tablicy
+                // Sprawdź, czy index już istnieje w tablicy
                 const existingIndex = selectedLikes.findIndex(item => item.index === lastClickedIndex);
                 if (existingIndex !== -1) {
-                    // JeĹli index istnieje, zaktualizuj wartoĹÄ
+                    // Jeśli index istnieje, zaktualizuj wartość
                     selectedLikes[existingIndex].like = selectedLike;
                 } else {
-                    // JeĹli index nie istnieje, dodaj nowy wpis
-                    selectedLikes.push({index: lastClickedIndex, like: text}); // Dodaj tylko nazwÄ "like"
+                    // Jeśli index nie istnieje, dodaj nowy wpis
+                    selectedLikes.push({index: lastClickedIndex, like: text}); // Dodaj tylko nazwę "like"
                 }
 
                 likeOptionsContainer.fadeOut('fast');
-                saveSelectedLike(selectedLike, text); // Przekazujemy nazwÄ "like" i tekst do funkcji saveSelectedLike
+                saveSelectedLike(selectedLike, text); // Przekazujemy nazwę "like" i tekst do funkcji saveSelectedLike
             });
 
             return likeOption;
@@ -4169,10 +7133,10 @@ console.log('Hej4442', fiszkaContainer);
 
 // Funkcja do zapisywania wybranego "like"
         function saveSelectedLike(selectedLike, text) {
-            // Tutaj moĹźesz zapisaÄ wybrany "like" w odpowiednim kontekĹcie, np. wysĹaÄ go na serwer, zapisaÄ w lokalnym magazynie itp.
+            // Tutaj możesz zapisać wybrany "like" w odpowiednim kontekście, np. wysłać go na serwer, zapisać w lokalnym magazynie itp.
             console.log('Wybrany like:', text);
             console.log('Tekst:', text);
-            // JeĹli chcesz uĹźyÄ go w innych miejscach, moĹźesz przekazaÄ go jako argument do innych funkcji lub zmiennych.
+            // Jeśli chcesz użyć go w innych miejscach, możesz przekazać go jako argument do innych funkcji lub zmiennych.
         }
 
         // Funkcja do pobierania ikony dla wybranego "like"
@@ -4180,16 +7144,16 @@ console.log('Hej4442', fiszkaContainer);
             let icon;
             switch (like) {
                 case 'thumbsUp':
-                    icon = $('<span class="likeIcon">đ</span>');
+                    icon = $('<span class="likeIcon">👍</span>');
                     break;
                 case 'heart':
-                    icon = $('<span class="likeIcon">â¤ď¸</span>');
+                    icon = $('<span class="likeIcon">❤️</span>');
                     break;
                 case 'star':
-                    icon = $('<span class="likeIcon">â­</span>');
+                    icon = $('<span class="likeIcon">⭐</span>');
                     break;
                 default:
-                    icon = $('<span class="likeIcon">đ</span>');
+                    icon = $('<span class="likeIcon">👍</span>');
             }
             return icon;
         }
@@ -4197,56 +7161,74 @@ console.log('Hej4442', fiszkaContainer);
         const hashtagContainer = $('<a>').addClass('hashtag-container').attr('href', '#');
         fiszkaContainer.append(hashtagContainer);
 
-        function showStory(index) {
-            const currentFiszka = fiszkaContainer;
+// Funkcja showStory z obsługą id.fiszki
+function showStory(idFiszki) {
+    console.log('Wywołano showStory:', idFiszki);
 
-            // Ukrywamy wszystkie historie w tej konkretnej fiszce
-            currentFiszka.find('.fiszka_story').hide();
+    const currentFiszka = fiszkaContainer;
+    console.log('Aktualny kontener:', currentFiszka);
 
-            // ObsĹuga mnemoniki
-            if (Array.isArray(fiszka.story)) {
-                if (index >= 0 && index < fiszka.story.length) {
-                    currentFiszka.find('.story-' + index).show();
-                }
-            } else if (fiszka.story) {
-                currentFiszka.find('.story-0').show();
+    // Ukrywamy wszystkie historie i obrazy w tej konkretnej fiszce
+    currentFiszka.find('.fiszka_img').hide();
+
+    // Pobieramy odpowiednią fiszkę z tablicy fiszki na podstawie idFiszki
+    const currentEntry = fiszka.entries[idFiszki];
+    
+    if (!currentEntry) {
+        console.error("Nie znaleziono fiszki dla id:", idFiszki);
+        return;
+    }
+
+    console.log("Wybrana fiszka:", currentEntry);
+
+    let imgIndex = 0; // Domyślny indeks, jeśli coś pójdzie nie tak
+
+    if (Array.isArray(fiszka.entries) && fiszka.entries.length > 0) {
+        // Wybór losowego indeksu dla obrazka
+        imgIndex = Math.floor(Math.random() * fiszka.entries.length);
+        console.log("Wylosowany indeks obrazka:", imgIndex);
+    }
+
+    // Pobieramy wylosowany obrazek
+    const selectedImg = currentEntry.img;
+    
+    if (selectedImg) {
+        // Ustawiamy obrazek, który ma być widoczny
+        currentFiszka.find('.fiszka_img').each(function() {
+            if ($(this).attr('src') === selectedImg.src) {
+                $(this).show(); // Pokazujemy wybrany obrazek
             }
+        });
+        
+        // Ustawienie specificLesson2Ref z pełnymi danymi
+        specificLesson2Ref = {
+            src: selectedImg.src,
+            alt: selectedImg.alt
+        };
 
-            // Ukrywamy wszystkie obrazy
-            currentFiszka.find('.fiszka_img').hide();
+        console.log("Losowy obrazek:", specificLesson2Ref);
+    } else {
+        console.warn("Brak obrazka w fiszce:", currentEntry);
+    }
 
-            // ObsĹuga obrazĂłw
-            let imgIndex; // Zmienna do przechowywania indeksu obrazka
+    // Obsługa `story`, jeśli istnieje
+    if (currentEntry.story) {
+        const storyText = currentEntry.story.text;
+        const storyElement = $('<div>').addClass('fiszka_story story-' + imgIndex).html(storyText);
 
-            if (Array.isArray(fiszka.img)) {
-                imgIndex = Math.min(index, fiszka.img.length - 1);
-                currentFiszka.find('.fiszka_img').eq(imgIndex).show();
-                specificLesson2Ref = fiszka.img[imgIndex];
-                console.log("Index obrazka:", imgIndex);
-            } else {
-                imgIndex = 0; // Ustawienie imgIndex na 0, gdy fiszka.img nie jest tablicÄ
-                currentFiszka.find('.fiszka_img').eq(imgIndex).show();
-                specificLesson2Ref = fiszka.img;
-                console.log("Index obrazka:", imgIndex);
-            }
+        // Usunięcie starych historii i dodanie nowej
+        currentFiszka.find('.fiszka_story').remove();
+        currentFiszka.append(storyElement);
+        storyElement.show();
+    }
 
-            lastClickedIndex = index;
+    lastClickedIndex = idFiszki;
 
-            // ObsĹuga hashtagĂłw
-            const selectedCategoryIndex = index * 2;
-            const value = fiszka.category1[selectedCategoryIndex];
-            const hashtag = fiszka.category1[selectedCategoryIndex + 1];
-
-            hashtagContainer.empty();
-            hashtagContainer.text(`${value} #${hashtag}`);
-
-            console.log('Calculated imgIndex:', imgIndex);
-
-            return imgIndex;
-        }
+    return imgIndex;
+}
 
         function selectLikeButton(index) {
-            console.log("WybĂłr likeButton dla indeksu:", index);
+            console.log("Wybór likeButton dla indeksu:", index);
             const storyButton = $('.story_button').eq(index);
             if (!storyButton.length) {
                 console.error('Nie znaleziono przycisku dla indeksu:', index);
@@ -4257,21 +7239,21 @@ console.log('Hej4442', fiszkaContainer);
             likeText.find('span').remove();
             likeText.text('Śmieszna historia');
 
-            // SprawdĹş, czy index jest zawarty w tablicy selectedLikes
+            // Sprawdź, czy index jest zawarty w tablicy selectedLikes
             const selectedLike = selectedLikes.find(item => item.index === index);
             if (selectedLike) {
-                // JeĹli index istnieje w tablicy, ustaw ikonÄ przycisku na wartoĹÄ z tablicy
+                // Jeśli index istnieje w tablicy, ustaw ikonę przycisku na wartość z tablicy
                 console.log("Wybrano like dla indeksu:", index, "- Like:", selectedLike.like);
-                const selectedIcon = getLikeIcon(selectedLike.like); // Przekazujemy tylko nazwÄ ikony
+                const selectedIcon = getLikeIcon(selectedLike.like); // Przekazujemy tylko nazwę ikony
                 console.log('hej5', selectedIcon);
-                likeText.html(selectedLike.like); // Ustawiamy ikonÄ
+                likeText.html(selectedLike.like); // Ustawiamy ikonę
             } else {
-                // JeĹli index nie istnieje, ustaw domyĹlny tekst
-                console.log("Brak wyboru like dla indeksu:", index, "- Ustawianie domyĹlnego tekstu");
+                // Jeśli index nie istnieje, ustaw domyślny tekst
+                console.log("Brak wyboru like dla indeksu:", index, "- Ustawianie domyślnego tekstu");
                 likeButton.text('Śmieszna historia');
             }
         }
-        // NIEZNACZÄCE WYJAĹNIENIE SĹOWA
+        // NIEZNACZĄCE WYJAŚNIENIE SŁOWA
         const sentenceDiv = $('<div>').attr('id', 'part');
         fiszka.sentence.forEach(word => {
             sentenceDiv.append($('<button>').text(word));
@@ -4288,7 +7270,7 @@ console.log('Hej4442', fiszkaContainer);
         });
         const source = $('<source>').attr('src', fiszka.word);
         audio.append(source);
-        const audioplayerDiv = $('<div>').attr('id', 'audioplayer' + fiszka.id).addClass('audioplayer'); // Dodano klasÄ 'audioplayer'
+        const audioplayerDiv = $('<div>').attr('id', 'audioplayer' + fiszka.id).addClass('audioplayer'); // Dodano klasę 'audioplayer'
         const pButton = $('<button>').attr('id', 'pButton' + fiszka.id).addClass('pButton play').click(function () {
             console.log('playb called for fiszka.id:', fiszka.id);
             window['playb' + fiszka.id]();
@@ -4316,22 +7298,17 @@ console.log('Hej4442', fiszkaContainer);
         console.log('Po utworzeniu wordDiv');
 
 // DODANIE MNEMOTECHNIKI
-        if (Array.isArray(fiszka.story)) {
-            // JeĹli story jest tablicÄ, iterujemy przez wszystkie jej elementy
-            fiszka.story.forEach((story, index) => {
-                const storyContainer = $('<div>').addClass('fiszka_story story-' + index).html(story);
+if (Array.isArray(fiszka.entries) && fiszka.entries.length > 0) {
+            // Jeśli story jest tablicą, iterujemy przez wszystkie jej elementy
+    fiszka.entries.forEach((story, index) => {
+                const storyContainer = $('<div>').addClass('fiszka_story story-' + index).html(index);
                 fiszkaContainer.append(storyContainer);
-                console.log("Dodano story: ", story);  // Debugowanie
+                console.log("Dodano story: ", index);  // Debugowanie
             });
-        } else if (fiszka.story) {
-            // JeĹli story jest pojedynczym stringiem, dodajemy go bezpoĹrednio
-            const storyContainer = $('<div>').addClass('fiszka_story story-0').html(fiszka.story);
-            fiszkaContainer.append(storyContainer);
-            console.log("Dodano story: ", fiszka.story);  // Debugowanie
         }
         console.log('Przed utworzeniem wordDiv');
 
-// Utworzenie reszty elementĂłw zgodnie z istniejÄcym kodem
+// Utworzenie reszty elementów zgodnie z istniejącym kodem
         const wordDiv2 = $('<div>').attr('id', 'word2');
         const audio2 = $('<audio>').attr({
             id: 'music2' + fiszka.id,
@@ -4339,20 +7316,20 @@ console.log('Hej4442', fiszkaContainer);
         });
         const source2 = $('<source>').attr('src', fiszka.word);
         audio2.append(source2);
-        const audioplayerDiv2 = $('<div>').attr('id', 'audioplayer2' + fiszka.id).addClass('audioplayer2'); // Dodano klasÄ 'audioplayer'
+        const audioplayerDiv2 = $('<div>').attr('id', 'audioplayer2' + fiszka.id).addClass('audioplayer2'); // Dodano klasę 'audioplayer'
         const pButton2 = $('<button>').attr('id', 'pButton2' + fiszka.id).addClass('pButton play').click(function () {
             console.log('playb called for fiszka.id:', fiszka.id);
             window['playb' + fiszka.id]();
         });
 
-// Utworzenie elementĂłw za pomocÄ jQuery
+// Utworzenie elementów za pomocą jQuery
         const timelineDiv = $('<div>').attr('id', 'timeline' + fiszka.id);
         const playheadDiv = $('<div>').attr('id', 'playhead' + fiszka.id);
 
 // Dodanie playhead do timeline
         timelineDiv.append(playheadDiv);
 
-// Dodanie elementĂłw do odpowiednich kontenerĂłw
+// Dodanie elementów do odpowiednich kontenerów
         audioplayerDiv.append(pButton2);
         wordDiv2.append(audio2);
         wordDiv2.append(audioplayerDiv2);
@@ -4360,115 +7337,151 @@ console.log('Hej4442', fiszkaContainer);
         fiszkaContainer.append(wordDiv2);
 
         console.log('Po utworzeniu wordDiv');
-        // Zdefiniuj zmiennÄ poczÄtkowÄ na poziomie wyĹźszym
-        let initialSpecificLesson2Ref;
-        let specificLesson2Ref;
-        let lastClickedIndex = null;
-        let lastApprovedIndex = null; // Zmienna do przechowywania ostatnio zatwierdzonego indeksu
-        let approvedIndexes = []; // Tablica przechowujÄca zatwierdzone indeksy
-        let approvedColors = [];
+    let initialSpecificLesson2Ref;
+    let specificLesson2Ref;
+    let lastClickedIndex = null;
+    let lastApprovedIndex = null;
+    let approvedIndexes = [];
+    let approvedColors = [];
 
-// DODANIE PRZYCISKĂW
-        if (Array.isArray(fiszka.category1)) {
-            const storyButtonContainer = $('<div>'); // Kontener na przyciski
-            const randomIndex = Math.floor(Math.random() * fiszka.category1.length / 2);
-            let lastClickedButton; // Zmienna do przechowywania ostatnio klikniÄtego przycisku w danej fiszce
+    let index10 = [];
 
-            fiszka.category1.slice(0, 5).forEach((category1, index) => {
-                const valueIndex = index * 2; // Indeks wartoĹci w tablicy, zaczynajÄc od 0
-                const hashtagIndex = valueIndex + 1; // Indeks hashtagu w tablicy
+    if (Array.isArray(fiszka.entries) && fiszka.entries.length > 0) {
+        console.log("Znaleziono fiszki, liczba wpisów:", fiszka.entries.length);
 
-                const value = fiszka.category1[valueIndex];
-                const hashtag = fiszka.category1[hashtagIndex];
+        const storyButtonContainer = $('<div>');
+        let lastClickedButton;
 
-                const displayText = `${value} #${hashtag}`;
+        // Wybór indeksów na podstawie kategorii
+        let selectedIndexes = [];
 
-                const storyButton = $('<button>')
-                        .text(displayText)
-                        .addClass('story_button')
-                        .click(function () {
-                            showStory(index);
-                            lastClickedIndex = index;
+        if (category === "sport") {
+            selectedIndexes = fiszka.entries
+                .map((entry, index) => ({ entry, index }))
+                .filter(({ entry }) => entry.category.includes("sport"))
+                .slice(0, 7)
+                .map(obj => obj.index);
+        } else if (category === "natura") {
+            selectedIndexes = fiszka.entries
+                .map((entry, index) => ({ entry, index }))
+                .filter(({ entry }) => entry.category.includes("natura"))
+                .slice(0, 7)
+                .map(obj => obj.index);
+        } else if (category === "nauka") {
+            selectedIndexes = fiszka.entries
+                .map((entry, index) => ({ entry, index }))
+                .filter(({ entry }) => entry.category.includes("nauka"))
+                .slice(0, 7)
+                .map(obj => obj.index);
+        } else if (category === 'czarny humor' || category === 'czarnyhumor') {
+    selectedIndexes = fiszka.entries
+        .map((entry, index) => ({ entry, index }))
+        .filter(({ entry }) => 
+            entry.category.includes('czarnyhumor') || 
+            entry.category.includes('czarny humor')
+        )
+        .slice(0, 7)
+        .map(obj => obj.index);
+        } else if (category === "zwiazki") {
+            selectedIndexes = fiszka.entries
+                .map((entry, index) => ({ entry, index }))
+                .filter(({ entry }) => entry.category.includes("zwiazki"))
+                .slice(0, 7)
+                .map(obj => obj.index);
+} else if (category === "all") {
+            // Losowo wybieramy do 3 unikalnych indeksów
+            const allIndexes = [...Array(fiszka.entries.length).keys()];
+            selectedIndexes = allIndexes
+                .sort(() => 0.5 - Math.random()) // losowe przetasowanie
+                .slice(0, 7);
+        } else {
+            // Losowo wybieramy do 3 unikalnych indeksów
+            const allIndexes = [...Array(fiszka.entries.length).keys()];
+            selectedIndexes = allIndexes
+                .sort(() => 0.5 - Math.random()) // losowe przetasowanie
+                .slice(0, 7);
+        }
 
-                            // Usuwamy zielonÄ klasÄ tylko z poprzedniego przycisku w danej fiszce
-                            if (lastClickedButton) {
-                                lastClickedButton.removeClass('green-button');
-                            }
+        const randomButtonIndex = selectedIndexes[0] || 0;
+        index10.push(randomButtonIndex);
 
-                            // Usuwamy klasÄ imgIndex z poprzedniego przycisku w danej fiszce
-                            $('.story_button').removeClass((index, className) => (className.match(/imgIndex-\d+/g) || []).join(' '));
-                            // Dodajemy klasÄ imgIndexNull do przyciskĂłw, ktĂłre nie zostaĹy jeszcze zatwierdzone
-                            $('.fiszka').addClass('imgIndexNull').removeClass('imgIndex-0 imgIndex-1 imgIndex-2 imgIndex-3 imgIndex-4 ');
+        fiszka.entries.forEach((entry, index) => {
+            const displayText = entry.category.join(", ");
+            const isIncluded = selectedIndexes.includes(index);
 
-                            // Dodajemy zielonÄ klasÄ tylko dla aktualnie klikniÄtego przycisku w danej fiszce
-                            $(this).addClass('green-button');
-                            $('.story_button').removeClass('active-button');
-                            $(this).addClass('active-button');
-                            $('.story_button').each(function (index) {
-                                if ($(this).hasClass('orange-button')) {
-                                    $(this).removeClass('green-button');
-                                    $(this).addClass('orange-button');
-                                }
-                            });
+            const storyButton = $('<button>')
+                .text(displayText)
+                .addClass('story_button');
 
-                            // JeĹli przycisk zostaĹ wczeĹniej zatwierdzony, przywrĂłÄ jego zatwierdzonÄ klasÄ
-                            if (approvedIndexes.includes(lastClickedIndex)) {
-                                fiszkaContainer.addClass('imgIndex-' + lastClickedIndex);
-                            }
+            if (isIncluded) {
+                storyButton.click(function () {
+                    console.log("Kliknięto przycisk dla fiszki nr:", index);
 
-                            // Zapisujemy ostatnio klikniÄty przycisk w danej fiszce
-                            lastClickedButton = $(this);
-                            handleLikeButtonClick();
-                        });
+                    const idFiszki = entry.id || index;
 
-                if (index === randomIndex) {
-                    // Sprawdzamy, czy fiszka.img jest tablicÄ czy pojedynczÄ wartoĹciÄ
-                    if (Array.isArray(fiszka.img)) {
-                        newImgIndex = Math.min(index, fiszka.img.length - 1); // Aktualizacja zmiennej globalnej imgIndex
-                        specificLesson2Ref = fiszka.img[newImgIndex];
-                        console.log('hej432', specificLesson2Ref);
-                    } else if (fiszka.img) {
-                        newImgIndex = 0; // Przypisanie domyĹlnego indeksu dla pojedynczego obrazka
-                        specificLesson2Ref = fiszka.img; // Przypisanie pojedynczej wartoĹci do specificLesson2Ref
-                        console.log('hej432', specificLesson2Ref);
+                    showStory(index, idFiszki);
+                    lastClickedIndex = index;
+
+                    if (lastClickedButton) {
+                        lastClickedButton.removeClass('green-button');
                     }
-                    initialSpecificLesson2Ref = specificLesson2Ref;
-                    console.log('Hej7', specificLesson2Ref);
+
+                    $('.story_button').removeClass((index, className) => (className.match(/imgIndex-\d+/g) || []).join(' '));
+                    $('.fiszka').addClass('imgIndexNull').removeClass('imgIndex-0 imgIndex-1 imgIndex-2 imgIndex-3 imgIndex-4 ');
+
+                    $(this).addClass('green-button');
+                    $('.story_button').removeClass('active-button');
+                    $(this).addClass('active-button');
+
+                    $('.story_button').each(function () {
+                        if ($(this).hasClass('orange-button')) {
+                            $(this).removeClass('green-button').addClass('orange-button');
+                        }
+                    });
+
+                    if (approvedIndexes.includes(lastClickedIndex)) {
+                        fiszkaContainer.addClass('imgIndex-' + lastClickedIndex);
+                    }
+
+                    lastClickedButton = $(this);
+                    handleLikeButtonClick();
+                });
+
+                // Domyślnie pierwszy z zaznaczonych ma zielony kolor
+                if (index === randomButtonIndex) {
+                    specificLesson2Ref = entry.img[index];
+                    console.log('Zaktualizowano specificLesson2Ref:', specificLesson2Ref);
                     storyButton.addClass('green-button');
                     lastClickedButton = storyButton;
-                    lastApprovedIndex = index; // Ustaw ostatnio zatwierdzony indeks na indeks losowego przycisku
+                    lastApprovedIndex = index;
                 }
+            }
 
-                // Dodaj typ "like" dla tej fiszki do tablicy
-                storyButtonContainer.append(storyButton);
-            });
+            storyButtonContainer.append(storyButton);
+        });
 
-            fiszkaContainer.append(storyButtonContainer);
+        fiszkaContainer.append(storyButtonContainer);
 
-            // WYWOĹANIE TABLICY
-            showStory(randomIndex);
-            console.log(randomIndex);
-
-            // UĹźycie specificLesson2Ref po zaĹadowaniu strony
-            console.log("PoczÄtkowy specificLesson2Ref:", initialSpecificLesson2Ref);
-
-        } else if (fiszka.category1) {
-            // JeĹli fiszka.category1 nie jest tablicÄ
-            newImgIndex = 0; // Przypisanie domyĹlnego indeksu dla pojedynczego obrazka
-            specificLesson2Ref = fiszka.img; // Przypisanie pojedynczej wartoĹci do specificLesson2Ref
+        const idFiszki = fiszka.entries[randomButtonIndex].id || randomButtonIndex;
+        showStory(index10, idFiszki);
+        console.log(`Wywołano showStory dla przycisku: ${randomButtonIndex} z id.fiszki: ${idFiszki}`);
+} else if (Array.isArray(fiszka.entries) && fiszka.entries.length > 0) {
+            // Jeśli fiszka.category1 nie jest tablicą
+            newImgIndex = 0; // Przypisanie domyślnego indeksu dla pojedynczego obrazka
+            specificLesson2Ref = fiszka.img; // Przypisanie pojedynczej wartości do specificLesson2Ref
             initialSpecificLesson2Ref = specificLesson2Ref;
             console.log('Hej7', specificLesson2Ref);
 
-            // StwĂłrz pojedynczy przycisk dla pojedynczej wartoĹci category1
+            // Stwórz pojedynczy przycisk dla pojedynczej wartości category1
             const displayText = `${fiszka.category1} #${fiszka.category1}`;
             const storyButton = $('<button>')
                     .text(displayText)
-                    .addClass('story_button2 green-button') // Od razu przypisz zielonÄ klasÄ
+                    .addClass('story_button2 green-button') // Od razu przypisz zieloną klasę
                     .click(function () {
-                        showStory(0); // Przekazujemy 0 jako indeks, poniewaĹź jest to pojedyncza wartoĹÄ
+                        showStory(0); // Przekazujemy 0 jako indeks, ponieważ jest to pojedyncza wartość
                         lastClickedIndex = 0;
 
-                        // Zapisujemy ostatnio klikniÄty przycisk
+                        // Zapisujemy ostatnio kliknięty przycisk
                         lastClickedButton = $(this);
                         handleLikeButtonClick();
                     });
@@ -4477,38 +7490,50 @@ console.log('Hej4442', fiszkaContainer);
             lastClickedButton = storyButton;
             lastApprovedIndex = 0; // Ustaw ostatnio zatwierdzony indeks na 0
 
-            // WYWOĹANIE POJEDYNCZEJ HISTORII
+            // WYWOŁANIE POJEDYNCZEJ HISTORII
             showStory(0);
-            console.log("Pojedyncza wartoĹÄ dla category1, specificLesson2Ref:", specificLesson2Ref);
+            console.log("Pojedyncza wartość dla category1, specificLesson2Ref:", specificLesson2Ref);
         }
-        $('.fiszka_button_trening').click(function () {
-            // Dodaj klasÄ pomaraĹczowÄ tylko dla przycisku zatwierdzonego
-            $('.story_button').each(function (index) {
-                if ($(this).hasClass('green-button')) {
-                    $(this).removeClass('green-button');
-                    $(this).addClass('orange-button');
-                }
-            });
-        });
-if ('serviceWorker' in navigator && 'PushManager' in window) {
-  navigator.serviceWorker.register('/sw.js').then(() => {
-    console.log("SW zarejestrowany");
+
+
+let selectedFiszka = null; // Przechowuje wybraną fiszkę
+
+$('.fiszka_button_trening').click(function () {
+  const fiszka = $(this).data('fiszka'); // Pobierz dane fiszki z elementu
+  selectedFiszka = fiszka; // Zapisz wybraną fiszkę
+  scheduleNotification(); // Uruchom pierwsze powiadomienie od razu
+});
+
+// Funkcja do wyświetlania powiadomienia
+function showNotification(fiszka) {
+  const title = `Przypomnienie: Fiszka ${fiszka.id}`;
+  const body = `
+    <img src="${fiszka.img}" alt="Obrazek fiszki">
+    <p>${fiszka.translate}</p>
+    <p>${fiszka.opis}</p>
+  `;
+
+  const notification = new Notification(title, {
+    body: body,
+    icon: 'https://www.arbulang.com/img/fiszki1/1a.jpg', // Opcjonalnie, jeśli masz ikonę
   });
+
+  notification.onclose = function () {
+    clearInterval(intervalId); // Zatrzymaj interwał po zamknięciu powiadomienia
+  };
 }
 
-// Request periodic sync
-navigator.serviceWorker.ready.then(async (reg) => {
-  try {
-    await reg.periodicSync.register("fiszka-sync", {
-      minInterval: 60 * 1000 // 1 min
-    });
-
-    console.log("Periodic Sync OK");
-
-  } catch (e) {
-    console.log("Brak wsparcia dla Periodic Sync");
+// Funkcja do wyświetlania powiadomienia co minutę
+function scheduleNotification() {
+  if (selectedFiszka) {
+    showNotification(selectedFiszka);
   }
-});
+}
+
+// Ustawienie interwału co 60 sekund (1 minuta)
+const intervalId = setInterval(scheduleNotification, 60000);
+
+
         console.log('hej555ax', lessons2b[2]);
 // DODANIE PRZYCISKU TRENING
         fiszkaContainer.append($('<button>').text('TRENING').addClass('fiszka_button fiszka_button_trening').click(function () {
@@ -4518,10 +7543,10 @@ navigator.serviceWorker.ready.then(async (reg) => {
             let id = fiszka.id;
             let parametr = '';
 
-            // Sprawdzenie, czy idFiszki jest tablicÄ
+            // Sprawdzenie, czy idFiszki jest tablicą
             if (Array.isArray(fiszka.id)) {
                 id = fiszka.id[0];         // Pierwszy element tablicy jako id
-                parametr = fiszka.id[1] || ''; // Drugi element tablicy jako parametr, jeĹli istnieje
+                parametr = fiszka.id[1] || ''; // Drugi element tablicy jako parametr, jeśli istnieje
             }
 
             // Tworzenie selektora na podstawie id i parametru
@@ -4529,21 +7554,21 @@ navigator.serviceWorker.ready.then(async (reg) => {
             const selector = `.${className}`;
             console.log('hej201', parametr);
             let first = false;
-            // JeĹli parametr jest rĂłwny lessons2b[0], uruchom aktywujObrazek
+            // Jeśli parametr jest równy lessons2b[0], uruchom aktywujObrazek
             if (parametr === lessons2b[0]) {
                 first = true;
                 console.log('hej200', first);
 
             }
             let second = false;
-            // JeĹli parametr jest rĂłwny lessons2b[0], uruchom aktywujObrazek
+            // Jeśli parametr jest równy lessons2b[0], uruchom aktywujObrazek
             if (parametr === lessons2b[1]) {
                 second = true;
                 console.log('hej200', second);
 
             }
             let third = false;
-            // JeĹli parametr jest rĂłwny lessons2b[0], uruchom aktywujObrazek
+            // Jeśli parametr jest równy lessons2b[0], uruchom aktywujObrazek
             if (parametr === lessons2b[2]) {
                 third = true;
                 console.log('hej200', third);
@@ -4553,22 +7578,23 @@ navigator.serviceWorker.ready.then(async (reg) => {
             console.log("Trening clicked on fiszka nr " + fiszka.id);
             console.log("lessonId2:", lessonId2);
             console.log("nazwa", lessons2b[2]);
-            // Wyswietlenie danej wartoĹci img dla danej fiszka.id
+            // Wyswietlenie danej wartości img dla danej fiszka.id
             const specificLesson2 = specificLesson2Ref || initialSpecificLesson2Ref;
             console.log("img dla fiszki o id", fiszka.id, ":", specificLesson2);
             specificLesson2Ref = fiszka.img;
-            // ZnajdĹş indeks dla danej fiszki w tablicy lessons2[lessonId2]
+            // Znajdź indeks dla danej fiszki w tablicy lessons2[lessonId2]
             console.log('story55', specificLesson2Ref);
-            // UĹźywamy lastClickedIndex zamiast index
-            imgIndex = showStory(lastClickedIndex); // WywoĹanie funkcji showStory i zapisanie zwrĂłconego indeksu obrazka
-            console.log('dziaĹa', specificLesson2Ref);
+            // Używamy lastClickedIndex zamiast index
+            imgIndex = showStory(lastClickedIndex); // Wywołanie funkcji showStory i zapisanie zwróconego indeksu obrazka
+            console.log('działa', specificLesson2Ref);
             aktywujObrazek(first, second, third, specificLesson2, 'obrazek-container2b', true, fiszka, imgIndex); // Przekazanie imgIndex do funkcji aktywujObrazek
             // Dodajemy zatwierdzony indeks do tablicy
             approvedIndexes.push(lastClickedIndex);
             console.log(approvedIndexes);
 
-            // Dodanie zatwierdzonej klasy imgIndex do fiszkaContainer po klikniÄciu przycisku "TRENING"
+            // Dodanie zatwierdzonej klasy imgIndex do fiszkaContainer po kliknięciu przycisku "TRENING"
             fiszkaContainer.addClass('imgIndex-' + lastClickedIndex);
+            
         }));
 
         fiszkaContainer.append($('<button>').text('ZNAM').addClass('fiszka_button fiszka_button_znam').click(function () {
@@ -4576,12 +7602,12 @@ navigator.serviceWorker.ready.then(async (reg) => {
             activateFiszka(fiszka.id, true);
         }));
 
-        // WYWOĹANIE HASHTAGU
+        // WYWOŁANIE HASHTAGU
         function updateButtonName(buttonName, fiszkaContainer) {
-            // UsuĹ poprzedniÄ nazwÄ, jeĹli istnieje
+            // Usuń poprzednią nazwę, jeśli istnieje
             fiszkaContainer.find('.fiszka_button_name').remove();
 
-            // Ustaw nazwÄ w prawym dolnym rogu fiszki
+            // Ustaw nazwę w prawym dolnym rogu fiszki
             const fiszkaButtonNameContainer = $('<div>').addClass('fiszka_button_name').text(buttonName);
             fiszkaContainer.append(fiszkaButtonNameContainer);
         }
@@ -4589,6 +7615,7 @@ navigator.serviceWorker.ready.then(async (reg) => {
         $('.grid-containerb').append(fiszkaContainer);
         console.log(`Generated fiszka block for ID: [${fiszka.id.join(', ')}]`);
         initAudio(fiszka.id);
+        restoreLearnedClasses();
     });
 }
 function generateFiszkaBlock2(fiszka, lessonId2) {
@@ -4606,21 +7633,21 @@ function generateFiszkaBlock2(fiszka, lessonId2) {
 
             var music = document.getElementById(audioId);
             var pButton = document.getElementById(pButtonId);
-            // Dodajemy style bezpoĹrednio w kodzie JavaScript
+            // Dodajemy style bezpośrednio w kodzie JavaScript
             if (window.matchMedia("(max-width: 999px)").matches) {
-                pButton.style.height = '100px';  // ZwiÄkszenie wysokoĹci
-                pButton.style.width = '100px';   // ZwiÄkszenie szerokoĹci
+                pButton.style.height = '100px';  // Zwiększenie wysokości
+                pButton.style.width = '100px';   // Zwiększenie szerokości
             } else {
-                pButton.style.height = '60px';  // ZwiÄkszenie wysokoĹci
-                pButton.style.width = '60px';   // ZwiÄkszenie szerokoĹci
+                pButton.style.height = '60px';  // Zwiększenie wysokości
+                pButton.style.width = '60px';   // Zwiększenie szerokości
             }
-            pButton.style.border = 'none';   // UsuniÄcie ramki
-            pButton.style.backgroundSize = '80%';  // Rozmiar obrazka tĹa
+            pButton.style.border = 'none';   // Usunięcie ramki
+            pButton.style.backgroundSize = '80%';  // Rozmiar obrazka tła
             pButton.style.backgroundRepeat = 'no-repeat';
             pButton.style.backgroundPosition = 'center';
-            pButton.style.borderRadius = '8px';   // ZaokrÄglenie rogĂłw
-            pButton.style.outline = 'none';       // UsuniÄcie obramowania
-            pButton.style.display = 'flex';       // WyĹrodkowanie zawartoĹci
+            pButton.style.borderRadius = '8px';   // Zaokrąglenie rogów
+            pButton.style.outline = 'none';       // Usunięcie obramowania
+            pButton.style.display = 'flex';       // Wyśrodkowanie zawartości
             pButton.style.alignItems = 'center';
             pButton.style.justifyContent = 'center';
             pButton.style.overflow = 'hidden';    // Ukrycie nadmiarowego kontentu
@@ -4658,38 +7685,38 @@ function generateFiszkaBlock2(fiszka, lessonId2) {
 
 // TWORZENIE KONTENERA FISZKI
         let fiszkaContainer = $('<div>').addClass('fiszka fiszka-' + fiszka.id);
-    // Dodanie klasy parzysta, jeĹli warunki sÄ speĹnione
+    // Dodanie klasy parzysta, jeśli warunki są spełnione
     if (window.matchMedia("(max-width: 999px)").matches && lessonId2 % 2 === 0) {
         fiszkaContainer.addClass('parzysta');
     }
-    // Tworzenie ikony krzyĹźyka
+    // Tworzenie ikony krzyżyka
     let closeIcon = $('<span>')
         .addClass('close-icon')
-    .html('&times;') // HTML kod krzyĹźyka
+    .html('&times;') // HTML kod krzyżyka
     .css({
         position: 'absolute',
-        top: 'px', // MoĹźesz dostosowaÄ pozycjÄ
+        top: 'px', // Możesz dostosować pozycję
         right: '5px',
-        width: '30px', // SzerokoĹÄ kontenera
-        height: '30px', // WysokoĹÄ kontenera (rĂłwna szerokoĹci)
+        width: '30px', // Szerokość kontenera
+        height: '30px', // Wysokość kontenera (równa szerokości)
         cursor: 'pointer',
         color: 'red',
-        fontSize: '40px', // Rozmiar fontu (zmniejszony dla lepszej czytelnoĹci)
+        fontSize: '40px', // Rozmiar fontu (zmniejszony dla lepszej czytelności)
         background: 'grey',
         border: '2px solid black',
-        textAlign: 'center', // WyrĂłwnanie tekstu w poziomie
-        lineHeight: '30px', // WyrĂłwnanie tekstu w pionie (rĂłwne wysokoĹci kontenera)
+        textAlign: 'center', // Wyrównanie tekstu w poziomie
+        lineHeight: '30px', // Wyrównanie tekstu w pionie (równe wysokości kontenera)
         zIndex: 1000000
     });
 
-    // Zdarzenie klikniÄcia na krzyĹźyk
+    // Zdarzenie kliknięcia na krzyżyk
     closeIcon.on('click', function () {
         setTimeout(function () {
         removeFiszka(fiszka.id, lessonId2);
-        }, 1000); // OpĂłĹşnienie w milisekundach (tu: 1 sekunda)
+        }, 1000); // Opóźnienie w milisekundach (tu: 1 sekunda)
     });
 
-    // Dodanie krzyĹźyka do fiszki
+    // Dodanie krzyżyka do fiszki
     fiszkaContainer.append(closeIcon);
 
         // DODANIE OBRAZKA
@@ -4703,7 +7730,7 @@ function generateFiszkaBlock2(fiszka, lessonId2) {
                 }
             });
         } else if (typeof fiszka.img === 'string') {
-            // JeĹli jest tylko jedno zdjÄcie, dodajemy je do imgContainer dla kaĹźdej fiszki
+            // Jeśli jest tylko jedno zdjęcie, dodajemy je do imgContainer dla każdej fiszki
             const imgElement = $('<img class="fiszka_img">').attr('src', fiszka.img);
             imgContainer.append(imgElement);
         }
@@ -4712,13 +7739,13 @@ function generateFiszkaBlock2(fiszka, lessonId2) {
         const selectedLikes = [];
         console.log('hej10', selectedLikes);
 
-// Funkcja do obsĹugi klikniÄcia na przycisk "likeButton"
+// Funkcja do obsługi kliknięcia na przycisk "likeButton"
         function handleLikeButtonClick(index) {
             const likeButton = $(this);
             const storyButton = fiszkaContainer.find('.story_button').eq(index);
             const selectedLike = likeButton.text();
             console.log('Zaktualizowano przycisk dla indeksu:', index);
-            console.log('Aktualne wartoĹci selectedLikes:', selectedLikes);
+            console.log('Aktualne wartości selectedLikes:', selectedLikes);
         }
         const likeButton = $('<a>').addClass('like').attr('href', '#');
         const likeText = $('<span>').text('Śmieszna historia');
@@ -4727,9 +7754,9 @@ function generateFiszkaBlock2(fiszka, lessonId2) {
 
         // Tworzymy kontener opcji "like" i dodajemy opcje do kontenera
         const likeOptionsContainer = $('<div>').attr('id', 'likeOptionsContainer');
-        const likeOption1 = createLikeOption('thumbsUp', 'đ Ĺmieszne');
-        const likeOption2 = createLikeOption('heart', 'â¤ď¸ MiĹe');
-        const likeOption3 = createLikeOption('star', 'â­ PamiÄtliwe');
+        const likeOption1 = createLikeOption('thumbsUp', '👍 Śmieszne');
+        const likeOption2 = createLikeOption('heart', '❤️ Miłe');
+        const likeOption3 = createLikeOption('star', '⭐ Pamiętliwe');
         likeOptionsContainer.append(likeOption1, likeOption2, likeOption3);
 
         // Dodajemy kontener opcji "like" do docelowego kontenera
@@ -4738,7 +7765,7 @@ function generateFiszkaBlock2(fiszka, lessonId2) {
         // Ukrywamy kontener opcji "like"
         likeOptionsContainer.hide();
 
-        // ObsĹuga zdarzenia hover na przycisku "like"
+        // Obsługa zdarzenia hover na przycisku "like"
         likeButton.hover(function () {
             const buttonPosition = likeButton.offset();
             const buttonWidth = likeButton.outerWidth();
@@ -4747,7 +7774,7 @@ function generateFiszkaBlock2(fiszka, lessonId2) {
             likeOptionsContainer.css({
                 top: buttonPosition.top - likeOptionsContainer.outerHeight() - 10,
                 left: buttonPosition.left + (buttonWidth / 2) - (likeOptionsContainer.outerWidth() / 2),
-                backgroundColor: '#f0f0f0', // Dodajemy szary kolor tĹa
+                backgroundColor: '#f0f0f0', // Dodajemy szary kolor tła
             }).fadeIn('fast');
         }, function () {
             // Ukrywamy kontener opcji "like" po zjechaniu z przycisku
@@ -4762,36 +7789,36 @@ function generateFiszkaBlock2(fiszka, lessonId2) {
                 return;
             }
 
-            // Tworzymy kontener dla ikony i dodajemy ikonÄ
+            // Tworzymy kontener dla ikony i dodajemy ikonę
             const iconContainer = $('<div>').addClass('likeIconContainer');
             const likeIcon = getLikeIcon(like);
             iconContainer.append(likeIcon);
 
-            // Usuwamy wczeĹniej dodanÄ ikonÄ, jeĹli istnieje
+            // Usuwamy wcześniej dodaną ikonę, jeśli istnieje
             storyButton.find('.likeIconContainer').remove();
 
-            // Dodajemy kontener z ikonÄ do przycisku "story_button"
+            // Dodajemy kontener z ikoną do przycisku "story_button"
             storyButton.append(iconContainer);
         }
 
         function createLikeOption(like, text) {
             const likeOption = $('<div>').addClass('likeOption').attr('data-like', like).text(text);
 
-            // Dodajemy efekt zmiany koloru na lekko ciemniejszy szary po najechaniu myszkÄ na pojedynczÄ opcjÄ "like"
+            // Dodajemy efekt zmiany koloru na lekko ciemniejszy szary po najechaniu myszką na pojedynczą opcję "like"
             likeOption.hover(
                     function () {
-                        likeOption.css('background-color', '#dcdcdc'); // Lekko ciemniejszy szary kolor tĹa dla opcji "like"
+                        likeOption.css('background-color', '#dcdcdc'); // Lekko ciemniejszy szary kolor tła dla opcji "like"
                     },
                     function () {
-                        likeOption.css('background-color', ''); // Usuwamy styl, aby wrĂłciÄ do domyĹlnego tĹa opcji "like"
+                        likeOption.css('background-color', ''); // Usuwamy styl, aby wrócić do domyślnego tła opcji "like"
                     }
             );
 
-            let likeCounter = 0; // Dodajemy licznik polubieĹ dla kaĹźdej opcji "like"
+            let likeCounter = 0; // Dodajemy licznik polubień dla każdej opcji "like"
 
             const counterDiv = $('<div>').addClass('likeCounterDiv'); // Nowy div na licznik
 
-            // Dodajemy ikonÄ do licznika
+            // Dodajemy ikonę do licznika
             const likeIcon = getLikeIcon(like);
             const iconContainer = $('<span>').addClass('likeIconContainer').append(likeIcon);
             counterDiv.append(iconContainer);
@@ -4799,12 +7826,12 @@ function generateFiszkaBlock2(fiszka, lessonId2) {
             const likeCounterSpan = $('<span>').addClass('likeCounter').text(` ${likeCounter} `);
             counterDiv.append(likeCounterSpan); // Licznik jest dodany po ikonie
 
-            imgContainer.append(counterDiv); // Dodajemy licznik na zewnÄtrz kontenera przyciskĂłw
+            imgContainer.append(counterDiv); // Dodajemy licznik na zewnątrz kontenera przycisków
 
             likeOption.click(function (event) {
-                event.preventDefault(); // Zapobiegamy domyĹlnej akcji przycisku
+                event.preventDefault(); // Zapobiegamy domyślnej akcji przycisku
 
-                // Inkrementujemy licznik polubieĹ za kaĹźdym razem, gdy opcja "like" zostanie wybrana
+                // Inkrementujemy licznik polubień za każdym razem, gdy opcja "like" zostanie wybrana
                 likeCounter++;
                 likeCounterSpan.text(` ${likeCounter} `);
 
@@ -4812,20 +7839,20 @@ function generateFiszkaBlock2(fiszka, lessonId2) {
                 const selectedIcon = getLikeIcon(selectedLike);
                 likeText.text(text);
                 likeButton.removeClass('liked');
-                addLikeIconToStoryButton(lastClickedIndex, selectedLike); // Dodaj ikonÄ do story_button na podstawie wybranej opcji "like"
+                addLikeIconToStoryButton(lastClickedIndex, selectedLike); // Dodaj ikonę do story_button na podstawie wybranej opcji "like"
 
-                // SprawdĹş, czy index juĹź istnieje w tablicy
+                // Sprawdź, czy index już istnieje w tablicy
                 const existingIndex = selectedLikes.findIndex(item => item.index === lastClickedIndex);
                 if (existingIndex !== -1) {
-                    // JeĹli index istnieje, zaktualizuj wartoĹÄ
+                    // Jeśli index istnieje, zaktualizuj wartość
                     selectedLikes[existingIndex].like = selectedLike;
                 } else {
-                    // JeĹli index nie istnieje, dodaj nowy wpis
-                    selectedLikes.push({index: lastClickedIndex, like: text}); // Dodaj tylko nazwÄ "like"
+                    // Jeśli index nie istnieje, dodaj nowy wpis
+                    selectedLikes.push({index: lastClickedIndex, like: text}); // Dodaj tylko nazwę "like"
                 }
 
                 likeOptionsContainer.fadeOut('fast');
-                saveSelectedLike(selectedLike, text); // Przekazujemy nazwÄ "like" i tekst do funkcji saveSelectedLike
+                saveSelectedLike(selectedLike, text); // Przekazujemy nazwę "like" i tekst do funkcji saveSelectedLike
             });
 
             return likeOption;
@@ -4833,10 +7860,10 @@ function generateFiszkaBlock2(fiszka, lessonId2) {
 
 // Funkcja do zapisywania wybranego "like"
         function saveSelectedLike(selectedLike, text) {
-            // Tutaj moĹźesz zapisaÄ wybrany "like" w odpowiednim kontekĹcie, np. wysĹaÄ go na serwer, zapisaÄ w lokalnym magazynie itp.
+            // Tutaj możesz zapisać wybrany "like" w odpowiednim kontekście, np. wysłać go na serwer, zapisać w lokalnym magazynie itp.
             console.log('Wybrany like:', text);
             console.log('Tekst:', text);
-            // JeĹli chcesz uĹźyÄ go w innych miejscach, moĹźesz przekazaÄ go jako argument do innych funkcji lub zmiennych.
+            // Jeśli chcesz użyć go w innych miejscach, możesz przekazać go jako argument do innych funkcji lub zmiennych.
         }
 
         // Funkcja do pobierania ikony dla wybranego "like"
@@ -4844,16 +7871,16 @@ function generateFiszkaBlock2(fiszka, lessonId2) {
             let icon;
             switch (like) {
                 case 'thumbsUp':
-                    icon = $('<span class="likeIcon">đ</span>');
+                    icon = $('<span class="likeIcon">👍</span>');
                     break;
                 case 'heart':
-                    icon = $('<span class="likeIcon">â¤ď¸</span>');
+                    icon = $('<span class="likeIcon">❤️</span>');
                     break;
                 case 'star':
-                    icon = $('<span class="likeIcon">â­</span>');
+                    icon = $('<span class="likeIcon">⭐</span>');
                     break;
                 default:
-                    icon = $('<span class="likeIcon">đ</span>');
+                    icon = $('<span class="likeIcon">👍</span>');
             }
             return icon;
         }
@@ -4867,7 +7894,7 @@ function generateFiszkaBlock2(fiszka, lessonId2) {
             // Ukrywamy wszystkie historie w tej konkretnej fiszce
             currentFiszka.find('.fiszka_story').hide();
 
-            // ObsĹuga mnemoniki
+            // Obsługa mnemoniki
             if (Array.isArray(fiszka.story)) {
                 if (index >= 0 && index < fiszka.story.length) {
                     currentFiszka.find('.story-' + index).show();
@@ -4879,7 +7906,7 @@ function generateFiszkaBlock2(fiszka, lessonId2) {
             // Ukrywamy wszystkie obrazy
             currentFiszka.find('.fiszka_img').hide();
 
-            // ObsĹuga obrazĂłw
+            // Obsługa obrazów
             let imgIndex; // Zmienna do przechowywania indeksu obrazka
 
             if (Array.isArray(fiszka.img)) {
@@ -4888,7 +7915,7 @@ function generateFiszkaBlock2(fiszka, lessonId2) {
                 specificLesson2Ref = fiszka.img[imgIndex];
                 console.log("Index obrazka:", imgIndex);
             } else {
-                imgIndex = 0; // Ustawienie imgIndex na 0, gdy fiszka.img nie jest tablicÄ
+                imgIndex = 0; // Ustawienie imgIndex na 0, gdy fiszka.img nie jest tablicą
                 currentFiszka.find('.fiszka_img').eq(imgIndex).show();
                 specificLesson2Ref = fiszka.img;
                 console.log("Index obrazka:", imgIndex);
@@ -4896,7 +7923,7 @@ function generateFiszkaBlock2(fiszka, lessonId2) {
 
             lastClickedIndex = index;
 
-            // ObsĹuga hashtagĂłw
+            // Obsługa hashtagów
             const selectedCategoryIndex = index * 2;
             const value = fiszka.category1[selectedCategoryIndex];
             const hashtag = fiszka.category1[selectedCategoryIndex + 1];
@@ -4910,7 +7937,7 @@ function generateFiszkaBlock2(fiszka, lessonId2) {
         }
 
         function selectLikeButton(index) {
-            console.log("WybĂłr likeButton dla indeksu:", index);
+            console.log("Wybór likeButton dla indeksu:", index);
             const storyButton = $('.story_button').eq(index);
             if (!storyButton.length) {
                 console.error('Nie znaleziono przycisku dla indeksu:', index);
@@ -4921,21 +7948,21 @@ function generateFiszkaBlock2(fiszka, lessonId2) {
             likeText.find('span').remove();
             likeText.text('Śmieszna historia');
 
-            // SprawdĹş, czy index jest zawarty w tablicy selectedLikes
+            // Sprawdź, czy index jest zawarty w tablicy selectedLikes
             const selectedLike = selectedLikes.find(item => item.index === index);
             if (selectedLike) {
-                // JeĹli index istnieje w tablicy, ustaw ikonÄ przycisku na wartoĹÄ z tablicy
+                // Jeśli index istnieje w tablicy, ustaw ikonę przycisku na wartość z tablicy
                 console.log("Wybrano like dla indeksu:", index, "- Like:", selectedLike.like);
-                const selectedIcon = getLikeIcon(selectedLike.like); // Przekazujemy tylko nazwÄ ikony
+                const selectedIcon = getLikeIcon(selectedLike.like); // Przekazujemy tylko nazwę ikony
                 console.log('hej5', selectedIcon);
-                likeText.html(selectedLike.like); // Ustawiamy ikonÄ
+                likeText.html(selectedLike.like); // Ustawiamy ikonę
             } else {
-                // JeĹli index nie istnieje, ustaw domyĹlny tekst
-                console.log("Brak wyboru like dla indeksu:", index, "- Ustawianie domyĹlnego tekstu");
+                // Jeśli index nie istnieje, ustaw domyślny tekst
+                console.log("Brak wyboru like dla indeksu:", index, "- Ustawianie domyślnego tekstu");
                 likeButton.text('Śmieszna historia');
             }
         }
-        // NIEZNACZÄCE WYJAĹNIENIE SĹOWA
+        // NIEZNACZĄCE WYJAŚNIENIE SŁOWA
         const sentenceDiv = $('<div>').attr('id', 'part');
         fiszka.sentence.forEach(word => {
             sentenceDiv.append($('<button>').text(word));
@@ -4952,7 +7979,7 @@ function generateFiszkaBlock2(fiszka, lessonId2) {
         });
         const source = $('<source>').attr('src', fiszka.word);
         audio.append(source);
-        const audioplayerDiv = $('<div>').attr('id', 'audioplayer' + fiszka.id).addClass('audioplayer'); // Dodano klasÄ 'audioplayer'
+        const audioplayerDiv = $('<div>').attr('id', 'audioplayer' + fiszka.id).addClass('audioplayer'); // Dodano klasę 'audioplayer'
         const pButton = $('<button>').attr('id', 'pButton' + fiszka.id).addClass('pButton play').click(function () {
             console.log('playb called for fiszka.id:', fiszka.id);
             window['playb' + fiszka.id]();
@@ -4981,21 +8008,21 @@ function generateFiszkaBlock2(fiszka, lessonId2) {
 
 // DODANIE MNEMOTECHNIKI
         if (Array.isArray(fiszka.story)) {
-            // JeĹli story jest tablicÄ, iterujemy przez wszystkie jej elementy
+            // Jeśli story jest tablicą, iterujemy przez wszystkie jej elementy
             fiszka.story.forEach((story, index) => {
                 const storyContainer = $('<div>').addClass('fiszka_story story-' + index).html(story);
                 fiszkaContainer.append(storyContainer);
                 console.log("Dodano story: ", story);  // Debugowanie
             });
         } else if (fiszka.story) {
-            // JeĹli story jest pojedynczym stringiem, dodajemy go bezpoĹrednio
+            // Jeśli story jest pojedynczym stringiem, dodajemy go bezpośrednio
             const storyContainer = $('<div>').addClass('fiszka_story story-0').html(fiszka.story);
             fiszkaContainer.append(storyContainer);
             console.log("Dodano story: ", fiszka.story);  // Debugowanie
         }
         console.log('Przed utworzeniem wordDiv');
 
-// Utworzenie reszty elementĂłw zgodnie z istniejÄcym kodem
+// Utworzenie reszty elementów zgodnie z istniejącym kodem
         const wordDiv2 = $('<div>').attr('id', 'word2');
         const audio2 = $('<audio>').attr({
             id: 'music2' + fiszka.id,
@@ -5003,20 +8030,20 @@ function generateFiszkaBlock2(fiszka, lessonId2) {
         });
         const source2 = $('<source>').attr('src', fiszka.word);
         audio2.append(source2);
-        const audioplayerDiv2 = $('<div>').attr('id', 'audioplayer2' + fiszka.id).addClass('audioplayer2'); // Dodano klasÄ 'audioplayer'
+        const audioplayerDiv2 = $('<div>').attr('id', 'audioplayer2' + fiszka.id).addClass('audioplayer2'); // Dodano klasę 'audioplayer'
         const pButton2 = $('<button>').attr('id', 'pButton2' + fiszka.id).addClass('pButton play').click(function () {
             console.log('playb called for fiszka.id:', fiszka.id);
             window['playb' + fiszka.id]();
         });
 
-// Utworzenie elementĂłw za pomocÄ jQuery
+// Utworzenie elementów za pomocą jQuery
         const timelineDiv = $('<div>').attr('id', 'timeline' + fiszka.id);
         const playheadDiv = $('<div>').attr('id', 'playhead' + fiszka.id);
 
 // Dodanie playhead do timeline
         timelineDiv.append(playheadDiv);
 
-// Dodanie elementĂłw do odpowiednich kontenerĂłw
+// Dodanie elementów do odpowiednich kontenerów
         audioplayerDiv.append(pButton2);
         wordDiv2.append(audio2);
         wordDiv2.append(audioplayerDiv2);
@@ -5024,22 +8051,22 @@ function generateFiszkaBlock2(fiszka, lessonId2) {
         fiszkaContainer.append(wordDiv2);
 
         console.log('Po utworzeniu wordDiv');
-        // Zdefiniuj zmiennÄ poczÄtkowÄ na poziomie wyĹźszym
+        // Zdefiniuj zmienną początkową na poziomie wyższym
         let initialSpecificLesson2Ref;
         let specificLesson2Ref;
         let lastClickedIndex = null;
         let lastApprovedIndex = null; // Zmienna do przechowywania ostatnio zatwierdzonego indeksu
-        let approvedIndexes = []; // Tablica przechowujÄca zatwierdzone indeksy
+        let approvedIndexes = []; // Tablica przechowująca zatwierdzone indeksy
         let approvedColors = [];
 
-// DODANIE PRZYCISKĂW
+// DODANIE PRZYCISKÓW
         if (Array.isArray(fiszka.category1)) {
             const storyButtonContainer = $('<div>'); // Kontener na przyciski
             const randomIndex = Math.floor(Math.random() * fiszka.category1.length / 2);
-            let lastClickedButton; // Zmienna do przechowywania ostatnio klikniÄtego przycisku w danej fiszce
+            let lastClickedButton; // Zmienna do przechowywania ostatnio klikniętego przycisku w danej fiszce
 
             fiszka.category1.slice(0, 5).forEach((category1, index) => {
-                const valueIndex = index * 2; // Indeks wartoĹci w tablicy, zaczynajÄc od 0
+                const valueIndex = index * 2; // Indeks wartości w tablicy, zaczynając od 0
                 const hashtagIndex = valueIndex + 1; // Indeks hashtagu w tablicy
 
                 const value = fiszka.category1[valueIndex];
@@ -5054,17 +8081,17 @@ function generateFiszkaBlock2(fiszka, lessonId2) {
                             showStory(index);
                             lastClickedIndex = index;
 
-                            // Usuwamy zielonÄ klasÄ tylko z poprzedniego przycisku w danej fiszce
+                            // Usuwamy zieloną klasę tylko z poprzedniego przycisku w danej fiszce
                             if (lastClickedButton) {
                                 lastClickedButton.removeClass('green-button');
                             }
 
-                            // Usuwamy klasÄ imgIndex z poprzedniego przycisku w danej fiszce
+                            // Usuwamy klasę imgIndex z poprzedniego przycisku w danej fiszce
                             $('.story_button').removeClass((index, className) => (className.match(/imgIndex-\d+/g) || []).join(' '));
-                            // Dodajemy klasÄ imgIndexNull do przyciskĂłw, ktĂłre nie zostaĹy jeszcze zatwierdzone
+                            // Dodajemy klasę imgIndexNull do przycisków, które nie zostały jeszcze zatwierdzone
                             $('.fiszka').addClass('imgIndexNull').removeClass('imgIndex-0 imgIndex-1 imgIndex-2 imgIndex-3 imgIndex-4 ');
 
-                            // Dodajemy zielonÄ klasÄ tylko dla aktualnie klikniÄtego przycisku w danej fiszce
+                            // Dodajemy zieloną klasę tylko dla aktualnie klikniętego przycisku w danej fiszce
                             $(this).addClass('green-button');
                             $('.story_button').removeClass('active-button');
                             $(this).addClass('active-button');
@@ -5075,25 +8102,25 @@ function generateFiszkaBlock2(fiszka, lessonId2) {
                                 }
                             });
 
-                            // JeĹli przycisk zostaĹ wczeĹniej zatwierdzony, przywrĂłÄ jego zatwierdzonÄ klasÄ
+                            // Jeśli przycisk został wcześniej zatwierdzony, przywróć jego zatwierdzoną klasę
                             if (approvedIndexes.includes(lastClickedIndex)) {
                                 fiszkaContainer.addClass('imgIndex-' + lastClickedIndex);
                             }
 
-                            // Zapisujemy ostatnio klikniÄty przycisk w danej fiszce
+                            // Zapisujemy ostatnio kliknięty przycisk w danej fiszce
                             lastClickedButton = $(this);
                             handleLikeButtonClick();
                         });
 
                 if (index === randomIndex) {
-                    // Sprawdzamy, czy fiszka.img jest tablicÄ czy pojedynczÄ wartoĹciÄ
+                    // Sprawdzamy, czy fiszka.img jest tablicą czy pojedynczą wartością
                     if (Array.isArray(fiszka.img)) {
                         newImgIndex = Math.min(index, fiszka.img.length - 1); // Aktualizacja zmiennej globalnej imgIndex
                         specificLesson2Ref = fiszka.img[newImgIndex];
                         console.log('hej432', specificLesson2Ref);
                     } else if (fiszka.img) {
-                        newImgIndex = 0; // Przypisanie domyĹlnego indeksu dla pojedynczego obrazka
-                        specificLesson2Ref = fiszka.img; // Przypisanie pojedynczej wartoĹci do specificLesson2Ref
+                        newImgIndex = 0; // Przypisanie domyślnego indeksu dla pojedynczego obrazka
+                        specificLesson2Ref = fiszka.img; // Przypisanie pojedynczej wartości do specificLesson2Ref
                         console.log('hej432', specificLesson2Ref);
                     }
                     initialSpecificLesson2Ref = specificLesson2Ref;
@@ -5109,30 +8136,30 @@ function generateFiszkaBlock2(fiszka, lessonId2) {
 
             fiszkaContainer.append(storyButtonContainer);
 
-            // WYWOĹANIE TABLICY
+            // WYWOŁANIE TABLICY
             showStory(randomIndex);
             console.log(randomIndex);
 
-            // UĹźycie specificLesson2Ref po zaĹadowaniu strony
-            console.log("PoczÄtkowy specificLesson2Ref:", initialSpecificLesson2Ref);
+            // Użycie specificLesson2Ref po załadowaniu strony
+            console.log("Początkowy specificLesson2Ref:", initialSpecificLesson2Ref);
 
         } else if (fiszka.category1) {
-            // JeĹli fiszka.category1 nie jest tablicÄ
-            newImgIndex = 0; // Przypisanie domyĹlnego indeksu dla pojedynczego obrazka
-            specificLesson2Ref = fiszka.img; // Przypisanie pojedynczej wartoĹci do specificLesson2Ref
+            // Jeśli fiszka.category1 nie jest tablicą
+            newImgIndex = 0; // Przypisanie domyślnego indeksu dla pojedynczego obrazka
+            specificLesson2Ref = fiszka.img; // Przypisanie pojedynczej wartości do specificLesson2Ref
             initialSpecificLesson2Ref = specificLesson2Ref;
             console.log('Hej7', specificLesson2Ref);
 
-            // StwĂłrz pojedynczy przycisk dla pojedynczej wartoĹci category1
+            // Stwórz pojedynczy przycisk dla pojedynczej wartości category1
             const displayText = `${fiszka.category1} #${fiszka.category1}`;
             const storyButton = $('<button>')
                     .text(displayText)
-                    .addClass('story_button2 green-button') // Od razu przypisz zielonÄ klasÄ
+                    .addClass('story_button2 green-button') // Od razu przypisz zieloną klasę
                     .click(function () {
-                        showStory(0); // Przekazujemy 0 jako indeks, poniewaĹź jest to pojedyncza wartoĹÄ
+                        showStory(0); // Przekazujemy 0 jako indeks, ponieważ jest to pojedyncza wartość
                         lastClickedIndex = 0;
 
-                        // Zapisujemy ostatnio klikniÄty przycisk
+                        // Zapisujemy ostatnio kliknięty przycisk
                         lastClickedButton = $(this);
                         handleLikeButtonClick();
                     });
@@ -5141,19 +8168,26 @@ function generateFiszkaBlock2(fiszka, lessonId2) {
             lastClickedButton = storyButton;
             lastApprovedIndex = 0; // Ustaw ostatnio zatwierdzony indeks na 0
 
-            // WYWOĹANIE POJEDYNCZEJ HISTORII
+            // WYWOŁANIE POJEDYNCZEJ HISTORII
             showStory(0);
-            console.log("Pojedyncza wartoĹÄ dla category1, specificLesson2Ref:", specificLesson2Ref);
+            console.log("Pojedyncza wartość dla category1, specificLesson2Ref:", specificLesson2Ref);
         }
-        $('.fiszka_button_trening').click(function () {
-            // Dodaj klasÄ pomaraĹczowÄ tylko dla przycisku zatwierdzonego
-            $('.story_button').each(function (index) {
-                if ($(this).hasClass('green-button')) {
-                    $(this).removeClass('green-button');
-                    $(this).addClass('orange-button');
-                }
-            });
-        });
+// Kliknięcie trening
+// Przy kliknięciu przycisku wyślij fiszkę
+$('.fiszka_button_trening').click(async function () {
+  const wybranaFiszka = fiszki10[0].entries[0]; // Pierwsza fiszka
+  const fiszka = {
+    title: "Powtórka słówek!",
+    body: wybranaFiszka.story.text,
+    icon: wybranaFiszka.img.src
+  };
+
+  const reg = await navigator.serviceWorker.ready;
+  if (reg.active) {
+    console.log("Wysyłam fiszkę do SW");
+    reg.active.postMessage({ type: "SHOW_FISZKA", fiszka });
+  }
+});
         console.log('hej555ax', lessons2b[2]);
 // DODANIE PRZYCISKU TRENING
         fiszkaContainer.append($('<button>').text('TRENING').addClass('fiszka_button fiszka_button_trening').click(function () {
@@ -5163,10 +8197,10 @@ function generateFiszkaBlock2(fiszka, lessonId2) {
             let id = fiszka.id;
             let parametr = '';
 
-            // Sprawdzenie, czy idFiszki jest tablicÄ
+            // Sprawdzenie, czy idFiszki jest tablicą
             if (Array.isArray(fiszka.id)) {
                 id = fiszka.id[0];         // Pierwszy element tablicy jako id
-                parametr = fiszka.id[1] || ''; // Drugi element tablicy jako parametr, jeĹli istnieje
+                parametr = fiszka.id[1] || ''; // Drugi element tablicy jako parametr, jeśli istnieje
             }
 
             // Tworzenie selektora na podstawie id i parametru
@@ -5174,21 +8208,21 @@ function generateFiszkaBlock2(fiszka, lessonId2) {
             const selector = `.${className}`;
             console.log('hej201', parametr);
             let first = false;
-            // JeĹli parametr jest rĂłwny lessons2b[0], uruchom aktywujObrazek
+            // Jeśli parametr jest równy lessons2b[0], uruchom aktywujObrazek
             if (parametr === lessons2b[0]) {
                 first = true;
                 console.log('hej200', first);
 
             }
             let second = false;
-            // JeĹli parametr jest rĂłwny lessons2b[0], uruchom aktywujObrazek
+            // Jeśli parametr jest równy lessons2b[0], uruchom aktywujObrazek
             if (parametr === lessons2b[1]) {
                 second = true;
                 console.log('hej200', second);
 
             }
             let third = false;
-            // JeĹli parametr jest rĂłwny lessons2b[0], uruchom aktywujObrazek
+            // Jeśli parametr jest równy lessons2b[0], uruchom aktywujObrazek
             if (parametr === lessons2b[2]) {
                 third = true;
                 console.log('hej200', third);
@@ -5198,21 +8232,21 @@ function generateFiszkaBlock2(fiszka, lessonId2) {
             console.log("Trening clicked on fiszka nr " + fiszka.id);
             console.log("lessonId2:", lessonId2);
             console.log("nazwa", lessons2b[2]);
-            // Wyswietlenie danej wartoĹci img dla danej fiszka.id
+            // Wyswietlenie danej wartości img dla danej fiszka.id
             const specificLesson2 = specificLesson2Ref || initialSpecificLesson2Ref;
             console.log("img dla fiszki o id", fiszka.id, ":", specificLesson2);
             specificLesson2Ref = fiszka.img;
-            // ZnajdĹş indeks dla danej fiszki w tablicy lessons2[lessonId2]
+            // Znajdź indeks dla danej fiszki w tablicy lessons2[lessonId2]
             console.log('story55', specificLesson2Ref);
-            // UĹźywamy lastClickedIndex zamiast index
-            imgIndex = showStory(lastClickedIndex); // WywoĹanie funkcji showStory i zapisanie zwrĂłconego indeksu obrazka
-            console.log('dziaĹa', specificLesson2Ref);
+            // Używamy lastClickedIndex zamiast index
+            imgIndex = showStory(lastClickedIndex); // Wywołanie funkcji showStory i zapisanie zwróconego indeksu obrazka
+            console.log('działa', specificLesson2Ref);
             aktywujObrazek(first, second, third, specificLesson2, 'obrazek-container2b', true, fiszka, imgIndex); // Przekazanie imgIndex do funkcji aktywujObrazek
             // Dodajemy zatwierdzony indeks do tablicy
             approvedIndexes.push(lastClickedIndex);
             console.log(approvedIndexes);
 
-            // Dodanie zatwierdzonej klasy imgIndex do fiszkaContainer po klikniÄciu przycisku "TRENING"
+            // Dodanie zatwierdzonej klasy imgIndex do fiszkaContainer po kliknięciu przycisku "TRENING"
             fiszkaContainer.addClass('imgIndex-' + lastClickedIndex);
         }));
 
@@ -5221,17 +8255,17 @@ function generateFiszkaBlock2(fiszka, lessonId2) {
             activateFiszka(fiszka.id, true);
         }));
 
-        // WYWOĹANIE HASHTAGU
+        // WYWOŁANIE HASHTAGU
         function updateButtonName(buttonName, fiszkaContainer) {
-            // UsuĹ poprzedniÄ nazwÄ, jeĹli istnieje
+            // Usuń poprzednią nazwę, jeśli istnieje
             fiszkaContainer.find('.fiszka_button_name').remove();
 
-            // Ustaw nazwÄ w prawym dolnym rogu fiszki
+            // Ustaw nazwę w prawym dolnym rogu fiszki
             const fiszkaButtonNameContainer = $('<div>').addClass('fiszka_button_name').text(buttonName);
             fiszkaContainer.append(fiszkaButtonNameContainer);
         }
         // Dodanie kontenera fiszki do body
-        $(`.image-container3b[data-lesson="${lessonId2}"]`).append(fiszkaContainer);
+        $(`.image-container4[data-lesson="${lessonId2}"]`).append(fiszkaContainer);
         console.log(`Generated fiszka block for ID: [${fiszka.id.join(', ')}]`);
         initAudio(fiszka.id);
     });
@@ -5252,21 +8286,21 @@ $('.grid-container .image-container4').remove();
 
             var music = document.getElementById(audioId);
             var pButton = document.getElementById(pButtonId);
-            // Dodajemy style bezpoĹrednio w kodzie JavaScript
+            // Dodajemy style bezpośrednio w kodzie JavaScript
             if (window.matchMedia("(max-width: 999px)").matches) {
-                pButton.style.height = '100px';  // ZwiÄkszenie wysokoĹci
-                pButton.style.width = '100px';   // ZwiÄkszenie szerokoĹci
+                pButton.style.height = '100px';  // Zwiększenie wysokości
+                pButton.style.width = '100px';   // Zwiększenie szerokości
             } else {
-                pButton.style.height = '60px';  // ZwiÄkszenie wysokoĹci
-                pButton.style.width = '60px';   // ZwiÄkszenie szerokoĹci
+                pButton.style.height = '60px';  // Zwiększenie wysokości
+                pButton.style.width = '60px';   // Zwiększenie szerokości
             }
-            pButton.style.border = 'none';   // UsuniÄcie ramki
-            pButton.style.backgroundSize = '80%';  // Rozmiar obrazka tĹa
+            pButton.style.border = 'none';   // Usunięcie ramki
+            pButton.style.backgroundSize = '80%';  // Rozmiar obrazka tła
             pButton.style.backgroundRepeat = 'no-repeat';
             pButton.style.backgroundPosition = 'center';
-            pButton.style.borderRadius = '8px';   // ZaokrÄglenie rogĂłw
-            pButton.style.outline = 'none';       // UsuniÄcie obramowania
-            pButton.style.display = 'flex';       // WyĹrodkowanie zawartoĹci
+            pButton.style.borderRadius = '8px';   // Zaokrąglenie rogów
+            pButton.style.outline = 'none';       // Usunięcie obramowania
+            pButton.style.display = 'flex';       // Wyśrodkowanie zawartości
             pButton.style.alignItems = 'center';
             pButton.style.justifyContent = 'center';
             pButton.style.overflow = 'hidden';    // Ukrycie nadmiarowego kontentu
@@ -5317,7 +8351,7 @@ console.log('Hej4442', fiszkaContainer);
                 }
             });
         } else if (typeof fiszka.img === 'string') {
-            // JeĹli jest tylko jedno zdjÄcie, dodajemy je do imgContainer dla kaĹźdej fiszki
+            // Jeśli jest tylko jedno zdjęcie, dodajemy je do imgContainer dla każdej fiszki
             const imgElement = $('<img class="fiszka_img">').attr('src', fiszka.img);
             imgContainer.append(imgElement);
         }
@@ -5326,13 +8360,13 @@ console.log('Hej4442', fiszkaContainer);
         const selectedLikes = [];
         console.log('hej10', selectedLikes);
 
-// Funkcja do obsĹugi klikniÄcia na przycisk "likeButton"
+// Funkcja do obsługi kliknięcia na przycisk "likeButton"
         function handleLikeButtonClick(index) {
             const likeButton = $(this);
             const storyButton = fiszkaContainer.find('.story_button').eq(index);
             const selectedLike = likeButton.text();
             console.log('Zaktualizowano przycisk dla indeksu:', index);
-            console.log('Aktualne wartoĹci selectedLikes:', selectedLikes);
+            console.log('Aktualne wartości selectedLikes:', selectedLikes);
         }
         const likeButton = $('<a>').addClass('like').attr('href', '#');
         const likeText = $('<span>').text('Śmieszna historia');
@@ -5341,9 +8375,9 @@ console.log('Hej4442', fiszkaContainer);
 
         // Tworzymy kontener opcji "like" i dodajemy opcje do kontenera
         const likeOptionsContainer = $('<div>').attr('id', 'likeOptionsContainer');
-        const likeOption1 = createLikeOption('thumbsUp', 'đ Ĺmieszne');
-        const likeOption2 = createLikeOption('heart', 'â¤ď¸ MiĹe');
-        const likeOption3 = createLikeOption('star', 'â­ PamiÄtliwe');
+        const likeOption1 = createLikeOption('thumbsUp', '👍 Śmieszne');
+        const likeOption2 = createLikeOption('heart', '❤️ Miłe');
+        const likeOption3 = createLikeOption('star', '⭐ Pamiętliwe');
         likeOptionsContainer.append(likeOption1, likeOption2, likeOption3);
 
         // Dodajemy kontener opcji "like" do docelowego kontenera
@@ -5352,7 +8386,7 @@ console.log('Hej4442', fiszkaContainer);
         // Ukrywamy kontener opcji "like"
         likeOptionsContainer.hide();
 
-        // ObsĹuga zdarzenia hover na przycisku "like"
+        // Obsługa zdarzenia hover na przycisku "like"
         likeButton.hover(function () {
             const buttonPosition = likeButton.offset();
             const buttonWidth = likeButton.outerWidth();
@@ -5361,7 +8395,7 @@ console.log('Hej4442', fiszkaContainer);
             likeOptionsContainer.css({
                 top: buttonPosition.top - likeOptionsContainer.outerHeight() - 10,
                 left: buttonPosition.left + (buttonWidth / 2) - (likeOptionsContainer.outerWidth() / 2),
-                backgroundColor: '#f0f0f0', // Dodajemy szary kolor tĹa
+                backgroundColor: '#f0f0f0', // Dodajemy szary kolor tła
             }).fadeIn('fast');
         }, function () {
             // Ukrywamy kontener opcji "like" po zjechaniu z przycisku
@@ -5376,36 +8410,36 @@ console.log('Hej4442', fiszkaContainer);
                 return;
             }
 
-            // Tworzymy kontener dla ikony i dodajemy ikonÄ
+            // Tworzymy kontener dla ikony i dodajemy ikonę
             const iconContainer = $('<div>').addClass('likeIconContainer');
             const likeIcon = getLikeIcon(like);
             iconContainer.append(likeIcon);
 
-            // Usuwamy wczeĹniej dodanÄ ikonÄ, jeĹli istnieje
+            // Usuwamy wcześniej dodaną ikonę, jeśli istnieje
             storyButton.find('.likeIconContainer').remove();
 
-            // Dodajemy kontener z ikonÄ do przycisku "story_button"
+            // Dodajemy kontener z ikoną do przycisku "story_button"
             storyButton.append(iconContainer);
         }
 
         function createLikeOption(like, text) {
             const likeOption = $('<div>').addClass('likeOption').attr('data-like', like).text(text);
 
-            // Dodajemy efekt zmiany koloru na lekko ciemniejszy szary po najechaniu myszkÄ na pojedynczÄ opcjÄ "like"
+            // Dodajemy efekt zmiany koloru na lekko ciemniejszy szary po najechaniu myszką na pojedynczą opcję "like"
             likeOption.hover(
                     function () {
-                        likeOption.css('background-color', '#dcdcdc'); // Lekko ciemniejszy szary kolor tĹa dla opcji "like"
+                        likeOption.css('background-color', '#dcdcdc'); // Lekko ciemniejszy szary kolor tła dla opcji "like"
                     },
                     function () {
-                        likeOption.css('background-color', ''); // Usuwamy styl, aby wrĂłciÄ do domyĹlnego tĹa opcji "like"
+                        likeOption.css('background-color', ''); // Usuwamy styl, aby wrócić do domyślnego tła opcji "like"
                     }
             );
 
-            let likeCounter = 0; // Dodajemy licznik polubieĹ dla kaĹźdej opcji "like"
+            let likeCounter = 0; // Dodajemy licznik polubień dla każdej opcji "like"
 
             const counterDiv = $('<div>').addClass('likeCounterDiv'); // Nowy div na licznik
 
-            // Dodajemy ikonÄ do licznika
+            // Dodajemy ikonę do licznika
             const likeIcon = getLikeIcon(like);
             const iconContainer = $('<span>').addClass('likeIconContainer').append(likeIcon);
             counterDiv.append(iconContainer);
@@ -5413,12 +8447,12 @@ console.log('Hej4442', fiszkaContainer);
             const likeCounterSpan = $('<span>').addClass('likeCounter').text(` ${likeCounter} `);
             counterDiv.append(likeCounterSpan); // Licznik jest dodany po ikonie
 
-            imgContainer.append(counterDiv); // Dodajemy licznik na zewnÄtrz kontenera przyciskĂłw
+            imgContainer.append(counterDiv); // Dodajemy licznik na zewnątrz kontenera przycisków
 
             likeOption.click(function (event) {
-                event.preventDefault(); // Zapobiegamy domyĹlnej akcji przycisku
+                event.preventDefault(); // Zapobiegamy domyślnej akcji przycisku
 
-                // Inkrementujemy licznik polubieĹ za kaĹźdym razem, gdy opcja "like" zostanie wybrana
+                // Inkrementujemy licznik polubień za każdym razem, gdy opcja "like" zostanie wybrana
                 likeCounter++;
                 likeCounterSpan.text(` ${likeCounter} `);
 
@@ -5426,20 +8460,20 @@ console.log('Hej4442', fiszkaContainer);
                 const selectedIcon = getLikeIcon(selectedLike);
                 likeText.text(text);
                 likeButton.removeClass('liked');
-                addLikeIconToStoryButton(lastClickedIndex, selectedLike); // Dodaj ikonÄ do story_button na podstawie wybranej opcji "like"
+                addLikeIconToStoryButton(lastClickedIndex, selectedLike); // Dodaj ikonę do story_button na podstawie wybranej opcji "like"
 
-                // SprawdĹş, czy index juĹź istnieje w tablicy
+                // Sprawdź, czy index już istnieje w tablicy
                 const existingIndex = selectedLikes.findIndex(item => item.index === lastClickedIndex);
                 if (existingIndex !== -1) {
-                    // JeĹli index istnieje, zaktualizuj wartoĹÄ
+                    // Jeśli index istnieje, zaktualizuj wartość
                     selectedLikes[existingIndex].like = selectedLike;
                 } else {
-                    // JeĹli index nie istnieje, dodaj nowy wpis
-                    selectedLikes.push({index: lastClickedIndex, like: text}); // Dodaj tylko nazwÄ "like"
+                    // Jeśli index nie istnieje, dodaj nowy wpis
+                    selectedLikes.push({index: lastClickedIndex, like: text}); // Dodaj tylko nazwę "like"
                 }
 
                 likeOptionsContainer.fadeOut('fast');
-                saveSelectedLike(selectedLike, text); // Przekazujemy nazwÄ "like" i tekst do funkcji saveSelectedLike
+                saveSelectedLike(selectedLike, text); // Przekazujemy nazwę "like" i tekst do funkcji saveSelectedLike
             });
 
             return likeOption;
@@ -5447,10 +8481,10 @@ console.log('Hej4442', fiszkaContainer);
 
 // Funkcja do zapisywania wybranego "like"
         function saveSelectedLike(selectedLike, text) {
-            // Tutaj moĹźesz zapisaÄ wybrany "like" w odpowiednim kontekĹcie, np. wysĹaÄ go na serwer, zapisaÄ w lokalnym magazynie itp.
+            // Tutaj możesz zapisać wybrany "like" w odpowiednim kontekście, np. wysłać go na serwer, zapisać w lokalnym magazynie itp.
             console.log('Wybrany like:', text);
             console.log('Tekst:', text);
-            // JeĹli chcesz uĹźyÄ go w innych miejscach, moĹźesz przekazaÄ go jako argument do innych funkcji lub zmiennych.
+            // Jeśli chcesz użyć go w innych miejscach, możesz przekazać go jako argument do innych funkcji lub zmiennych.
         }
 
         // Funkcja do pobierania ikony dla wybranego "like"
@@ -5458,16 +8492,16 @@ console.log('Hej4442', fiszkaContainer);
             let icon;
             switch (like) {
                 case 'thumbsUp':
-                    icon = $('<span class="likeIcon">đ</span>');
+                    icon = $('<span class="likeIcon">👍</span>');
                     break;
                 case 'heart':
-                    icon = $('<span class="likeIcon">â¤ď¸</span>');
+                    icon = $('<span class="likeIcon">❤️</span>');
                     break;
                 case 'star':
-                    icon = $('<span class="likeIcon">â­</span>');
+                    icon = $('<span class="likeIcon">⭐</span>');
                     break;
                 default:
-                    icon = $('<span class="likeIcon">đ</span>');
+                    icon = $('<span class="likeIcon">👍</span>');
             }
             return icon;
         }
@@ -5481,7 +8515,7 @@ console.log('Hej4442', fiszkaContainer);
             // Ukrywamy wszystkie historie w tej konkretnej fiszce
             currentFiszka.find('.fiszka_story').hide();
 
-            // ObsĹuga mnemoniki
+            // Obsługa mnemoniki
             if (Array.isArray(fiszka.story)) {
                 if (index >= 0 && index < fiszka.story.length) {
                     currentFiszka.find('.story-' + index).show();
@@ -5493,7 +8527,7 @@ console.log('Hej4442', fiszkaContainer);
             // Ukrywamy wszystkie obrazy
             currentFiszka.find('.fiszka_img').hide();
 
-            // ObsĹuga obrazĂłw
+            // Obsługa obrazów
             let imgIndex; // Zmienna do przechowywania indeksu obrazka
 
             if (Array.isArray(fiszka.img)) {
@@ -5502,7 +8536,7 @@ console.log('Hej4442', fiszkaContainer);
                 specificLesson2Ref = fiszka.img[imgIndex];
                 console.log("Index obrazka:", imgIndex);
             } else {
-                imgIndex = 0; // Ustawienie imgIndex na 0, gdy fiszka.img nie jest tablicÄ
+                imgIndex = 0; // Ustawienie imgIndex na 0, gdy fiszka.img nie jest tablicą
                 currentFiszka.find('.fiszka_img').eq(imgIndex).show();
                 specificLesson2Ref = fiszka.img;
                 console.log("Index obrazka:", imgIndex);
@@ -5510,7 +8544,7 @@ console.log('Hej4442', fiszkaContainer);
 
             lastClickedIndex = index;
 
-            // ObsĹuga hashtagĂłw
+            // Obsługa hashtagów
             const selectedCategoryIndex = index * 2;
             const value = fiszka.category1[selectedCategoryIndex];
             const hashtag = fiszka.category1[selectedCategoryIndex + 1];
@@ -5524,7 +8558,7 @@ console.log('Hej4442', fiszkaContainer);
         }
 
         function selectLikeButton(index) {
-            console.log("WybĂłr likeButton dla indeksu:", index);
+            console.log("Wybór likeButton dla indeksu:", index);
             const storyButton = $('.story_button').eq(index);
             if (!storyButton.length) {
                 console.error('Nie znaleziono przycisku dla indeksu:', index);
@@ -5535,21 +8569,21 @@ console.log('Hej4442', fiszkaContainer);
             likeText.find('span').remove();
             likeText.text('Śmieszna historia');
 
-            // SprawdĹş, czy index jest zawarty w tablicy selectedLikes
+            // Sprawdź, czy index jest zawarty w tablicy selectedLikes
             const selectedLike = selectedLikes.find(item => item.index === index);
             if (selectedLike) {
-                // JeĹli index istnieje w tablicy, ustaw ikonÄ przycisku na wartoĹÄ z tablicy
+                // Jeśli index istnieje w tablicy, ustaw ikonę przycisku na wartość z tablicy
                 console.log("Wybrano like dla indeksu:", index, "- Like:", selectedLike.like);
-                const selectedIcon = getLikeIcon(selectedLike.like); // Przekazujemy tylko nazwÄ ikony
+                const selectedIcon = getLikeIcon(selectedLike.like); // Przekazujemy tylko nazwę ikony
                 console.log('hej5', selectedIcon);
-                likeText.html(selectedLike.like); // Ustawiamy ikonÄ
+                likeText.html(selectedLike.like); // Ustawiamy ikonę
             } else {
-                // JeĹli index nie istnieje, ustaw domyĹlny tekst
-                console.log("Brak wyboru like dla indeksu:", index, "- Ustawianie domyĹlnego tekstu");
+                // Jeśli index nie istnieje, ustaw domyślny tekst
+                console.log("Brak wyboru like dla indeksu:", index, "- Ustawianie domyślnego tekstu");
                 likeButton.text('Śmieszna historia');
             }
         }
-        // NIEZNACZÄCE WYJAĹNIENIE SĹOWA
+        // NIEZNACZĄCE WYJAŚNIENIE SŁOWA
         const sentenceDiv = $('<div>').attr('id', 'part');
         fiszka.sentence.forEach(word => {
             sentenceDiv.append($('<button>').text(word));
@@ -5566,7 +8600,7 @@ console.log('Hej4442', fiszkaContainer);
         });
         const source = $('<source>').attr('src', fiszka.word);
         audio.append(source);
-        const audioplayerDiv = $('<div>').attr('id', 'audioplayer' + fiszka.id).addClass('audioplayer'); // Dodano klasÄ 'audioplayer'
+        const audioplayerDiv = $('<div>').attr('id', 'audioplayer' + fiszka.id).addClass('audioplayer'); // Dodano klasę 'audioplayer'
         const pButton = $('<button>').attr('id', 'pButton' + fiszka.id).addClass('pButton play').click(function () {
             console.log('playb called for fiszka.id:', fiszka.id);
             window['playb' + fiszka.id]();
@@ -5595,21 +8629,21 @@ console.log('Hej4442', fiszkaContainer);
 
 // DODANIE MNEMOTECHNIKI
         if (Array.isArray(fiszka.story)) {
-            // JeĹli story jest tablicÄ, iterujemy przez wszystkie jej elementy
+            // Jeśli story jest tablicą, iterujemy przez wszystkie jej elementy
             fiszka.story.forEach((story, index) => {
                 const storyContainer = $('<div>').addClass('fiszka_story story-' + index).html(story);
                 fiszkaContainer.append(storyContainer);
                 console.log("Dodano story: ", story);  // Debugowanie
             });
         } else if (fiszka.story) {
-            // JeĹli story jest pojedynczym stringiem, dodajemy go bezpoĹrednio
+            // Jeśli story jest pojedynczym stringiem, dodajemy go bezpośrednio
             const storyContainer = $('<div>').addClass('fiszka_story story-0').html(fiszka.story);
             fiszkaContainer.append(storyContainer);
             console.log("Dodano story: ", fiszka.story);  // Debugowanie
         }
         console.log('Przed utworzeniem wordDiv');
 
-// Utworzenie reszty elementĂłw zgodnie z istniejÄcym kodem
+// Utworzenie reszty elementów zgodnie z istniejącym kodem
         const wordDiv2 = $('<div>').attr('id', 'word2');
         const audio2 = $('<audio>').attr({
             id: 'music2' + fiszka.id,
@@ -5617,20 +8651,20 @@ console.log('Hej4442', fiszkaContainer);
         });
         const source2 = $('<source>').attr('src', fiszka.word);
         audio2.append(source2);
-        const audioplayerDiv2 = $('<div>').attr('id', 'audioplayer2' + fiszka.id).addClass('audioplayer2'); // Dodano klasÄ 'audioplayer'
+        const audioplayerDiv2 = $('<div>').attr('id', 'audioplayer2' + fiszka.id).addClass('audioplayer2'); // Dodano klasę 'audioplayer'
         const pButton2 = $('<button>').attr('id', 'pButton2' + fiszka.id).addClass('pButton play').click(function () {
             console.log('playb called for fiszka.id:', fiszka.id);
             window['playb' + fiszka.id]();
         });
 
-// Utworzenie elementĂłw za pomocÄ jQuery
+// Utworzenie elementów za pomocą jQuery
         const timelineDiv = $('<div>').attr('id', 'timeline' + fiszka.id);
         const playheadDiv = $('<div>').attr('id', 'playhead' + fiszka.id);
 
 // Dodanie playhead do timeline
         timelineDiv.append(playheadDiv);
 
-// Dodanie elementĂłw do odpowiednich kontenerĂłw
+// Dodanie elementów do odpowiednich kontenerów
         audioplayerDiv.append(pButton2);
         wordDiv2.append(audio2);
         wordDiv2.append(audioplayerDiv2);
@@ -5638,22 +8672,22 @@ console.log('Hej4442', fiszkaContainer);
         fiszkaContainer.append(wordDiv2);
 
         console.log('Po utworzeniu wordDiv');
-        // Zdefiniuj zmiennÄ poczÄtkowÄ na poziomie wyĹźszym
+        // Zdefiniuj zmienną początkową na poziomie wyższym
         let initialSpecificLesson2Ref;
         let specificLesson2Ref;
         let lastClickedIndex = null;
         let lastApprovedIndex = null; // Zmienna do przechowywania ostatnio zatwierdzonego indeksu
-        let approvedIndexes = []; // Tablica przechowujÄca zatwierdzone indeksy
+        let approvedIndexes = []; // Tablica przechowująca zatwierdzone indeksy
         let approvedColors = [];
 
-// DODANIE PRZYCISKĂW
+// DODANIE PRZYCISKÓW
         if (Array.isArray(fiszka.category1)) {
             const storyButtonContainer = $('<div>'); // Kontener na przyciski
             const randomIndex = Math.floor(Math.random() * fiszka.category1.length / 2);
-            let lastClickedButton; // Zmienna do przechowywania ostatnio klikniÄtego przycisku w danej fiszce
+            let lastClickedButton; // Zmienna do przechowywania ostatnio klikniętego przycisku w danej fiszce
 
             fiszka.category1.slice(0, 5).forEach((category1, index) => {
-                const valueIndex = index * 2; // Indeks wartoĹci w tablicy, zaczynajÄc od 0
+                const valueIndex = index * 2; // Indeks wartości w tablicy, zaczynając od 0
                 const hashtagIndex = valueIndex + 1; // Indeks hashtagu w tablicy
 
                 const value = fiszka.category1[valueIndex];
@@ -5668,17 +8702,17 @@ console.log('Hej4442', fiszkaContainer);
                             showStory(index);
                             lastClickedIndex = index;
 
-                            // Usuwamy zielonÄ klasÄ tylko z poprzedniego przycisku w danej fiszce
+                            // Usuwamy zieloną klasę tylko z poprzedniego przycisku w danej fiszce
                             if (lastClickedButton) {
                                 lastClickedButton.removeClass('green-button');
                             }
 
-                            // Usuwamy klasÄ imgIndex z poprzedniego przycisku w danej fiszce
+                            // Usuwamy klasę imgIndex z poprzedniego przycisku w danej fiszce
                             $('.story_button').removeClass((index, className) => (className.match(/imgIndex-\d+/g) || []).join(' '));
-                            // Dodajemy klasÄ imgIndexNull do przyciskĂłw, ktĂłre nie zostaĹy jeszcze zatwierdzone
+                            // Dodajemy klasę imgIndexNull do przycisków, które nie zostały jeszcze zatwierdzone
                             $('.fiszka').addClass('imgIndexNull').removeClass('imgIndex-0 imgIndex-1 imgIndex-2 imgIndex-3 imgIndex-4 ');
 
-                            // Dodajemy zielonÄ klasÄ tylko dla aktualnie klikniÄtego przycisku w danej fiszce
+                            // Dodajemy zieloną klasę tylko dla aktualnie klikniętego przycisku w danej fiszce
                             $(this).addClass('green-button');
                             $('.story_button').removeClass('active-button');
                             $(this).addClass('active-button');
@@ -5689,25 +8723,25 @@ console.log('Hej4442', fiszkaContainer);
                                 }
                             });
 
-                            // JeĹli przycisk zostaĹ wczeĹniej zatwierdzony, przywrĂłÄ jego zatwierdzonÄ klasÄ
+                            // Jeśli przycisk został wcześniej zatwierdzony, przywróć jego zatwierdzoną klasę
                             if (approvedIndexes.includes(lastClickedIndex)) {
                                 fiszkaContainer.addClass('imgIndex-' + lastClickedIndex);
                             }
 
-                            // Zapisujemy ostatnio klikniÄty przycisk w danej fiszce
+                            // Zapisujemy ostatnio kliknięty przycisk w danej fiszce
                             lastClickedButton = $(this);
                             handleLikeButtonClick();
                         });
 
                 if (index === randomIndex) {
-                    // Sprawdzamy, czy fiszka.img jest tablicÄ czy pojedynczÄ wartoĹciÄ
+                    // Sprawdzamy, czy fiszka.img jest tablicą czy pojedynczą wartością
                     if (Array.isArray(fiszka.img)) {
                         newImgIndex = Math.min(index, fiszka.img.length - 1); // Aktualizacja zmiennej globalnej imgIndex
                         specificLesson2Ref = fiszka.img[newImgIndex];
                         console.log('hej432', specificLesson2Ref);
                     } else if (fiszka.img) {
-                        newImgIndex = 0; // Przypisanie domyĹlnego indeksu dla pojedynczego obrazka
-                        specificLesson2Ref = fiszka.img; // Przypisanie pojedynczej wartoĹci do specificLesson2Ref
+                        newImgIndex = 0; // Przypisanie domyślnego indeksu dla pojedynczego obrazka
+                        specificLesson2Ref = fiszka.img; // Przypisanie pojedynczej wartości do specificLesson2Ref
                         console.log('hej432', specificLesson2Ref);
                     }
                     initialSpecificLesson2Ref = specificLesson2Ref;
@@ -5723,30 +8757,30 @@ console.log('Hej4442', fiszkaContainer);
 
             fiszkaContainer.append(storyButtonContainer);
 
-            // WYWOĹANIE TABLICY
+            // WYWOŁANIE TABLICY
             showStory(randomIndex);
             console.log(randomIndex);
 
-            // UĹźycie specificLesson2Ref po zaĹadowaniu strony
-            console.log("PoczÄtkowy specificLesson2Ref:", initialSpecificLesson2Ref);
+            // Użycie specificLesson2Ref po załadowaniu strony
+            console.log("Początkowy specificLesson2Ref:", initialSpecificLesson2Ref);
 
         } else if (fiszka.category1) {
-            // JeĹli fiszka.category1 nie jest tablicÄ
-            newImgIndex = 0; // Przypisanie domyĹlnego indeksu dla pojedynczego obrazka
-            specificLesson2Ref = fiszka.img; // Przypisanie pojedynczej wartoĹci do specificLesson2Ref
+            // Jeśli fiszka.category1 nie jest tablicą
+            newImgIndex = 0; // Przypisanie domyślnego indeksu dla pojedynczego obrazka
+            specificLesson2Ref = fiszka.img; // Przypisanie pojedynczej wartości do specificLesson2Ref
             initialSpecificLesson2Ref = specificLesson2Ref;
             console.log('Hej7', specificLesson2Ref);
 
-            // StwĂłrz pojedynczy przycisk dla pojedynczej wartoĹci category1
+            // Stwórz pojedynczy przycisk dla pojedynczej wartości category1
             const displayText = `${fiszka.category1} #${fiszka.category1}`;
             const storyButton = $('<button>')
                     .text(displayText)
-                    .addClass('story_button2 green-button') // Od razu przypisz zielonÄ klasÄ
+                    .addClass('story_button2 green-button') // Od razu przypisz zieloną klasę
                     .click(function () {
-                        showStory(0); // Przekazujemy 0 jako indeks, poniewaĹź jest to pojedyncza wartoĹÄ
+                        showStory(0); // Przekazujemy 0 jako indeks, ponieważ jest to pojedyncza wartość
                         lastClickedIndex = 0;
 
-                        // Zapisujemy ostatnio klikniÄty przycisk
+                        // Zapisujemy ostatnio kliknięty przycisk
                         lastClickedButton = $(this);
                         handleLikeButtonClick();
                     });
@@ -5755,19 +8789,27 @@ console.log('Hej4442', fiszkaContainer);
             lastClickedButton = storyButton;
             lastApprovedIndex = 0; // Ustaw ostatnio zatwierdzony indeks na 0
 
-            // WYWOĹANIE POJEDYNCZEJ HISTORII
+            // WYWOŁANIE POJEDYNCZEJ HISTORII
             showStory(0);
-            console.log("Pojedyncza wartoĹÄ dla category1, specificLesson2Ref:", specificLesson2Ref);
+            console.log("Pojedyncza wartość dla category1, specificLesson2Ref:", specificLesson2Ref);
         }
-        $('.fiszka_button_trening').click(function () {
-            // Dodaj klasÄ pomaraĹczowÄ tylko dla przycisku zatwierdzonego
-            $('.story_button').each(function (index) {
-                if ($(this).hasClass('green-button')) {
-                    $(this).removeClass('green-button');
-                    $(this).addClass('orange-button');
-                }
-            });
-        });
+// Kliknięcie trening
+// Kliknięcie trening
+// Przy kliknięciu przycisku wyślij fiszkę
+$('.fiszka_button_trening').click(async function () {
+  const wybranaFiszka = fiszki10[0].entries[0]; // Pierwsza fiszka
+  const fiszka = {
+    title: "Powtórka słówek!",
+    body: wybranaFiszka.story.text,
+    icon: wybranaFiszka.img.src
+  };
+
+  const reg = await navigator.serviceWorker.ready;
+  if (reg.active) {
+    console.log("Wysyłam fiszkę do SW");
+    reg.active.postMessage({ type: "SHOW_FISZKA", fiszka });
+  }
+});
         console.log('hej555ax', lessons2b[2]);
 // DODANIE PRZYCISKU TRENING
         fiszkaContainer.append($('<button>').text('TRENING').addClass('fiszka_button fiszka_button_trening').click(function () {
@@ -5777,10 +8819,10 @@ console.log('Hej4442', fiszkaContainer);
             let id = fiszka.id;
             let parametr = '';
 
-            // Sprawdzenie, czy idFiszki jest tablicÄ
+            // Sprawdzenie, czy idFiszki jest tablicą
             if (Array.isArray(fiszka.id)) {
                 id = fiszka.id[0];         // Pierwszy element tablicy jako id
-                parametr = fiszka.id[1] || ''; // Drugi element tablicy jako parametr, jeĹli istnieje
+                parametr = fiszka.id[1] || ''; // Drugi element tablicy jako parametr, jeśli istnieje
             }
 
             // Tworzenie selektora na podstawie id i parametru
@@ -5788,21 +8830,21 @@ console.log('Hej4442', fiszkaContainer);
             const selector = `.${className}`;
             console.log('hej201', parametr);
             let first = false;
-            // JeĹli parametr jest rĂłwny lessons2b[0], uruchom aktywujObrazek
+            // Jeśli parametr jest równy lessons2b[0], uruchom aktywujObrazek
             if (parametr === lessons2b[0]) {
                 first = true;
                 console.log('hej200', first);
 
             }
             let second = false;
-            // JeĹli parametr jest rĂłwny lessons2b[0], uruchom aktywujObrazek
+            // Jeśli parametr jest równy lessons2b[0], uruchom aktywujObrazek
             if (parametr === lessons2b[1]) {
                 second = true;
                 console.log('hej200', second);
 
             }
             let third = false;
-            // JeĹli parametr jest rĂłwny lessons2b[0], uruchom aktywujObrazek
+            // Jeśli parametr jest równy lessons2b[0], uruchom aktywujObrazek
             if (parametr === lessons2b[2]) {
                 third = true;
                 console.log('hej200', third);
@@ -5812,21 +8854,21 @@ console.log('Hej4442', fiszkaContainer);
             console.log("Trening clicked on fiszka nr " + fiszka.id);
             console.log("lessonId2:", lessonId2);
             console.log("nazwa", lessons2b[2]);
-            // Wyswietlenie danej wartoĹci img dla danej fiszka.id
+            // Wyswietlenie danej wartości img dla danej fiszka.id
             const specificLesson2 = specificLesson2Ref || initialSpecificLesson2Ref;
             console.log("img dla fiszki o id", fiszka.id, ":", specificLesson2);
             specificLesson2Ref = fiszka.img;
-            // ZnajdĹş indeks dla danej fiszki w tablicy lessons2[lessonId2]
+            // Znajdź indeks dla danej fiszki w tablicy lessons2[lessonId2]
             console.log('story55', specificLesson2Ref);
-            // UĹźywamy lastClickedIndex zamiast index
-            imgIndex = showStory(lastClickedIndex); // WywoĹanie funkcji showStory i zapisanie zwrĂłconego indeksu obrazka
-            console.log('dziaĹa', specificLesson2Ref);
+            // Używamy lastClickedIndex zamiast index
+            imgIndex = showStory(lastClickedIndex); // Wywołanie funkcji showStory i zapisanie zwróconego indeksu obrazka
+            console.log('działa', specificLesson2Ref);
             aktywujObrazek(first, second, third, specificLesson2, 'obrazek-container2b', true, fiszka, imgIndex); // Przekazanie imgIndex do funkcji aktywujObrazek
             // Dodajemy zatwierdzony indeks do tablicy
             approvedIndexes.push(lastClickedIndex);
             console.log(approvedIndexes);
 
-            // Dodanie zatwierdzonej klasy imgIndex do fiszkaContainer po klikniÄciu przycisku "TRENING"
+            // Dodanie zatwierdzonej klasy imgIndex do fiszkaContainer po kliknięciu przycisku "TRENING"
             fiszkaContainer.addClass('imgIndex-' + lastClickedIndex);
         }));
 
@@ -5863,19 +8905,19 @@ function removeFiszka(idFiszki, lessonId2) {
     let parametr = '';
 
     if (Array.isArray(idFiszki)) {
-        // PoĹÄcz wartoĹci z tablicy id w jeden ciÄg znakĂłw oddzielony przecinkami
+        // Połącz wartości z tablicy id w jeden ciąg znaków oddzielony przecinkami
         id = idFiszki.slice(0, 3).join(',');
-        // ObsĹuga ewentualnego dodatkowego parametru (np. czwartego elementu w tablicy)
+        // Obsługa ewentualnego dodatkowego parametru (np. czwartego elementu w tablicy)
         parametr = idFiszki.length > 3 ? idFiszki[3] : '';
     }
 
-    // Tworzenie klasy CSS z odpowiednim formatowaniem (poprawione usuniÄcie przecinkĂłw w CSS)
+    // Tworzenie klasy CSS z odpowiednim formatowaniem (poprawione usunięcie przecinków w CSS)
     const className = `fiszka-${id}${parametr ? '\\,' + parametr : ''}`;
     const selector = `.${className.replace(/,/g, '\\,')}`;
     console.log(selector);
     const $fiszkaToRemove = $(selector);
     if ($fiszkaToRemove.length) {
-        console.log('Element znaleziony po opĂłĹşnieniu, usuwam...');
+        console.log('Element znaleziony po opóźnieniu, usuwam...');
         $fiszkaToRemove.remove();
     } else {
         console.log('Element nadal nie znaleziony.');
@@ -5887,3 +8929,32 @@ $('<style>.green-button { background-color: green; color: white; }</style>').app
 $('<style>.active-button { border: 2px solid red; }</style>').appendTo('head');
 
 window.fiszki = fiszki10;
+
+// Funkcja do wyświetlania powiadomienia
+function showNotification(fiszka) {
+  const title = `Fiszka ${fiszka.id}`;
+  const body = `
+    <img src="${fiszka.img}" alt="Obrazek fiszki">
+    <p>${fiszka.translate}</p>
+    <p>${fiszka.opis}</p>
+  `;
+
+  const notification = new Notification(title, {
+    body: body,
+    icon: 'https://www.arbulang.com/img/fiszki1/1a.jpg', // Opcjonalnie, jeśli masz ikonę
+  });
+}
+// Załóżmy, że wybrana fiszka jest w zmiennej `selectedFiszka`
+let selectedFiszka = null; // Przechowuj tutaj wybraną fiszkę
+
+// Funkcja do wyświetlania powiadomienia co minutę
+function scheduleNotification() {
+  if (selectedFiszka) {
+    showNotification(selectedFiszka);
+  }
+}
+
+// Ustawienie interwału co 60 sekund (1 minuta)
+const intervalId = setInterval(scheduleNotification, 60000);
+
+// Aby zatrzymać interwał, użyj `clearInterval(intervalId)`

@@ -4472,3 +4472,130 @@ console.log('wykonuje siÄ teraz');
                 console.log('Zawartość kontenera55:', matchingFiszki2);
 
                 if (matchingFiszki2.length > 0) {
+                    
+                        </style>
+    </head>
+    <body>
+
+  <!-- Tekst obok reklamy -->
+<div style="display: flex; justify-content: space-between; align-items: center;">
+  <div>
+    <h1 style="margin-left: 0px;">arbulang.com</h1>
+    <h2 style="margin-left: 0px;">ARBU WORLD</h2>
+  </div>
+  <div style="font-weight: bold; font-size: 20px; color: #333; margin-right: 770px;">
+    133 WORDS AVAILABLE
+  </div>
+</div>
+
+        <div class="horizontal-bar" id="horizontalBar2">
+        </div>
+        <div class="container">
+            <div class="side-menu">
+                <button onclick="showImages('set1')">PRZEBYTE LEKCJE</button>
+                <button onclick="showImages('set2')">LEKCJE STWORZONE INDYWIDUALNIE</button>
+                <button onclick="showImages('set3')">SŁÓWKA KTÓRE ZNAM</button>
+                <button onclick="showImages('set4')">SŁÓWKA TRENING</button>
+                <button onclick="showImages('set2')">SŁÓWKA NAUCZONE</button>
+                <button onclick="showImages('set1')">POLUBIONE SŁOWKA</button>
+                <button onclick="showImages('set2')">SŁÓWKA TEMATYCZNE</button>
+            </div>
+            <div class="content-container">
+                <div class="grid-containera">
+                    <div class="image-container2b">Standard<button onclick="showImages('set1')">DRAW LESSONS</button>
+                    </div>
+                    <div class="image-container2" id="buttoncreate">Generating a flashcard<button id="flashcardButton" onclick="addFlashcardContainer()">OPEN CONSOLES</button>
+                    </div>
+                    <div class="image-container2b">EXAM<button onclick="showImages('set1')">START</button>
+                    </div>
+                    <div class="image-container2b">TRANSLATE TEXT<button onclick="showImages('set1')">START</button>
+                    </div>
+                </div>
+                <div class="grid-container">
+                </div>
+            </div>
+        </div>
+        <div class="bottom-bar" id="bottomBar">
+    <button class="bottom-button" onclick="ustawTryb('zdania', undefined); przekazArgument0(globalCategory, '', '', 'zdania', false, false, tablica3[1])">1 SENTENCE / LESSON</button>
+    <button class="bottom-button" onclick="ustawTryb('fiszki', undefined); przekazArgument0(globalCategory, '', '', 'fiszki', false, false, tablica3[1])">3 SENTENCE / LESSON</button>
+    <button class="bottom-button" onclick="ustawTryb(tablica3[0], 'frazy'); przekazArgument0(globalCategory, '', '', tablica3[0], true, true, tablica3[1])">FHRASES</button>
+    <button class="bottom-button">WORDS</button>
+    <img src="img/lupka3b.png" alt="Szukaj" class="lupka">
+</div>
+        <div class="toggle-button" id="toggleButton">
+    <span id="arrow">&#9660;</span> <!-- Strzałka skierowana w dół -->
+</div>
+            <script>
+            
+                        function addFlashcardContainer() {
+                var $flashcardContainer = $('<div>', {class: 'flashcard-container'});
+                $('#buttoncreate').addClass('active');
+
+                // Dodaj buttony do diva
+                $flashcardContainer.append(`
+<div id="konsola">
+    <div id="title">WIDOK</div>
+<button class="rodzaj-button" data-rodzaj="osoby">SPOŁECZNOŚCIOWY</button>        
+    <button class="rodzaj-button" data-rodzaj="osoby">WYGENEROWANY JEDNORAZOWO</button>
+            <div id="title">RODZAJ SŁOWNICTWA</div>
+                    <button class="rodzaj-button" data-rodzaj="osoby">COGNATES</button>
+    <button id="osoby" class="rodzaj-button" data-rodzaj="osoby" onclick="przekazArgument0('all', '', '', '', '', '', tablica3[1])">All</button>
+    <button class="rodzaj-button" data-rodzaj="zaimki osobowe" onclick="przekazArgument0('zaimkiosobowe', '', '', '', '', '', tablica3[1])">Personal pronouns</button>
+    <button id="inne" onclick="przekazArgument0('emocje', '', '', '', '', '', tablica3[1])">Emotions</button>
+    <button class="rodzaj-button" data-rodzaj="zaimki" onclick="przekazArgument0('spojniki', '', '', '', '', '', tablica3[1])">Conjunctions</button>
+    <button id="inne" onclick="przekazArgument0('kolory', '', '', '', '', '', tablica3[1])">Kolory</button>
+    <button id="inne" class="rodzaj-button" data-rodzaj="zwierzeta" onclick="przekazArgument0('zwierzeta', '', '', '', '', '', tablica3[1])">Animals</button>
+    <button class="rodzaj-button" data-rodzaj="czasownik" onclick="przekazArgument0('czasownik', '', '', '', '', '', tablica3[1])">Verbs</button>
+    <br>ILOŚĆ MATERIAŁU NA LEKCJE<br>
+<button class="czas" onclick="ustawTryb('zdania', undefined); przekazArgument0(globalCategory, '', '', 'zdania', false, false, tablica3[1])">5 MINUTES (ONE SENTENCE)</button>
+<button id="english" class="czas" onclick="ustawTryb('fiszki', undefined); przekazArgument0(globalCategory, '', '', 'fiszki', true, true, tablica3[1])">10 MINUTES (3 SENTENCES) - OPCJONALNIE</button>
+<br>TRYB LEKCJI<br>
+<button id="english" class="czas" onclick="ustawTryb(tablica3[0], ''); przekazArgument0(globalCategory, '', '', tablica3[0], false, false, tablica3[1])">ZDANIA</button>
+<button class="czas" onclick="ustawTryb(tablica3[0], 'frazy'); przekazArgument0(globalCategory, '', '', tablica3[0], true, true, tablica3[1])">FRAZY</button>
+    <button id="inne" class="czas">POJEDYŃCZE SŁOWA</button>
+    <br>DOSTĘPNE WERSJE TŁUMACZENIA<br>
+    <button id="english" class="charakter-button" onclick="wybierzCharakter()">NA ŻADANIE-OPCJONALNIE</button>
+    <button id="inne" class="charakter-button" onclick="wybierzCharakter('fiszki')">TYLKO PO ANGIELSKU</button>
+    <button id="inne" class="charakter-button" onclick="przekazArgument0('', '', '', 'zdania', true)">TYLKO PO POLSKU</button>
+</div>
+<div id="konsola">
+            <div id="title">CZASY</div>
+<button class="charakter-button" onclick="przekazArgument0('PresentSimple', '', '', '', '', '', tablica3[1])">OZNACZ CZAS</button>
+<br>
+<button class="charakter-button" onclick="przekazArgument0('Infinitive', '', '', '', '', '', tablica3[1])">INFINITIVE</button>
+    <button id="inne">PAST SIMPLE</button>
+    <br>
+    <div id="title">OPCJE ZDANIA</div>
+    <button id="inne" class="charakter-button">PODZIEL ZDANIA NA CZĘŚCI</button>
+    <button id="inne" class="czas">WYSUŃ JEDNOCZEŚNIE W DANEJ LEKCJI</button>
+    <br>
+    <div id="title">CHARAKTER ZDANIA</div>
+    <button class="charakter-button" onclick="ustawTryb(tablica3[0]); przekazArgument0(globalCategory, '', '', 'fiszki', false, false, 'krotkie')">Krótkie</button>
+    <button class="charakter-button" onclick="ustawTryb(tablica3[0]); przekazArgument0(globalCategory, '', '', 'fiszki', false, false, 'dlugie')">Długie(złożone)</button>
+    <button class="charakter-button" onclick="ustawTryb(tablica3[0]); przekazArgument0(globalCategory, '', '', 'fiszki', false, false, '')">Dowolne</button>
+    <div id="title">PRIORYTETY LINGWISTYCZNE</div>
+    <button id="inne" onclick="wybierzCharakter('krotkie')">Wymowa</button>
+<button class="charakter-button" onclick="wybierzCharakter('krotkie')">Pisownia</button>
+<button id="inne" onclick="wybierzCharakter('krotkie')">Sens zdania</button>
+    <button id="dowolne" onclick="wybierzCharakter('dowolne')">WSZYSTKIE</button>
+</div>
+<div id="konsola2">
+            <div id="title">ULUBIONA TEMATYKA FISZEK</div>
+    <button onclick="wybierzTematyke('nauka')">Nauka</button>
+    <button onclick="wybierzTematyke('podroze')">Podróże</button>
+    <button onclick="wybierzTematyke('historia')">Historia</button>
+    <button onclick="wybierzTematyke('sztuka')">Sztuka</button>
+    <button onclick="wybierzTematyke('technologia')">Technologia</button>
+</div>
+<div id="konsola3">
+    <h2>Ulubione Fiszki</h2>
+    <button onclick="wplecUlubioneFiszki()">Ulubione Fiszki</button>
+</div>
+<div id="konsola4">
+    <h2>Generuj intuicyjnie z pokrewną tematyką</h2>
+    <button onclick="wybierzTematyke('nauka')">Podobne</button>
+    <button onclick="wybierzTematyke('podroze')">Eksporuj moją nową pasje</button>
+    <button onclick="wybierzTematyke('podroze')">Odkryj moją nową pasje</button>
+</div>
+</div>
+`);
