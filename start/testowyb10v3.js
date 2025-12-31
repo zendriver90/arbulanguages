@@ -3355,7 +3355,7 @@ fiszki10.push(
             "https://www.arbulang.com/img/fiszki1/5e.jpg"
         ],
         translate: "Film właśnie się rozpoczął",
-        translateb: "[De mówi hes dzast started]",
+        translateb: "[De mówi hes dżast started]",
         translateb2: "[De mówi hes]",
         translateb3: "The movie has just started",
         srcWord: ["https://www.arbulang.com/filmy/lekcja16/movie.mp4", "Matrix (1999)"],

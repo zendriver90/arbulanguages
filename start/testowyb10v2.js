@@ -118,7 +118,7 @@ fiszki10.push(
         story: "Leoni<b><u>das</b></u> król spartan odpala k<b><u>not</b></u> świeczki, bo <b><u>nie jest</b></u> odpalona",
         desc: "not[not] - nie",
         sentence1: [
-            "does not"
+            "not"
         ],
                         sentence1b: [
             "nie"
@@ -192,7 +192,7 @@ fiszki10.push(
             "to"
         ],
                                         sentence2b: [
-            "do (dla)"
+            "dla"
         ],
                                         sentence2c: [
             "tu"
@@ -231,7 +231,7 @@ fiszki10.push(
             "his"
         ],
                                                 sentence2b: [
-            "swojego (jego)"
+            "swojego"
         ],
                                                 sentence2c: [
             "his"
@@ -585,7 +585,7 @@ fiszki10.push(
         story: "Mar<b><u>chew</b></u> <b><u>musi</b></u> być zjedzona. Bo <b><u>tu</b></u> jest najlepsza marchew w mieście..",
         desc: "have to[hew to] - musi/muszą",
         sentence1: [
-            "have to"
+            "have_to"
         ],
         sentence: [
             "Our",
@@ -993,7 +993,7 @@ fiszki10.push(
             "he's"
         ],
                                             sentence2b: [
-            "on ma (on jest)"
+            "on_ma"
         ],
                                                                                                                                 sentence2c: [
             "his"
@@ -1025,7 +1025,7 @@ fiszki10.push(
             "right"
         ],
                                                     sentence2b: [
-            "rację (prawidłowy)"
+            "rację"
         ],
                                                                                                                                         sentence2c: [
             "rajt"
@@ -1630,7 +1630,7 @@ fiszki10.push(
             "it's"
         ],
                                                 sentence1b: [
-            "(że) to jest"
+            "(że)_to_jest"
         ],
                         sentence1c: [
             "its"
@@ -2335,7 +2335,7 @@ fiszki10.push(
             "the"
         ],
                                         sentence1b: [
-            "(takiego czegoś jak)"
+            "(takiego_czegoś_jak)"
         ],
                                                     sentence1c: [
             "de"
@@ -2434,13 +2434,13 @@ fiszki10.push(
         ],
         desc: "big[big] - duży/duża/duże",
         sentence2: [
-            "(a) big"
+            "(a)_big"
         ],
                 sentence2b: [
-            "wielkim"
+            "(tym)_wielkim"
         ],
                                                                             sentence2c: [
-            "e big"
+            "e_big"
         ],
         sentence: [
             "(a) big",
@@ -2743,7 +2743,7 @@ fiszki10.push(
             "so"
         ],
                           sentence2b: [
-            "tak bardzo"
+            "tak_bardzo"
         ],
                                                                     sentence2c: [
             "soł"
@@ -2772,7 +2772,7 @@ fiszki10.push(
             "important"
         ],
                           sentence2b: [
-            "ważny (znaczący)"
+            "ważny_(znaczący)"
         ],
                                                                             sentence2c: [
             "important"
@@ -2880,13 +2880,13 @@ fiszki10.push(
         story: "<u><b>Ju</u></b>ż wielu <u><b>użytkowników</u></b> wykupiło płatne subskrypcje, bo darmowa wersja jest mi<u><b>zer</u></b>na",
         desc: "user[juzer] - użytkownik",
         sentence1: [
-            "(A) user"
+            "(A)_user"
         ],
         sentence1b: [
-            "(Ten konkretny) użytkownik"
+            "(Ten_konkretny)_użytkownik"
         ],
                                                                                                     sentence1c: [
-            "E juzer"
+            "E_juzer"
         ],
         sentence: [
             "(A) user",

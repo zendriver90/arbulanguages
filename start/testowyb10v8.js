@@ -1625,4 +1625,548 @@ fiszki10.push(
         category1: "nauka",
         category2: ["okresleniaMiejsca"]
     },
+        {
+        id: [
+            757,
+            131,
+            240
+        ],
+        img: [
+            "https://www.arbulang.com/img/fiszki1/364a.jpg"
+        ],
+        story: [
+            "KOGNATY PARK (PL) - PARK (ENG)"
+        ],
+        translate: "Rysuję zwierzęta na papierze",
+        translateb: "[]",
+        translateb2: "[]",
+        srcWord: ["http://localhost/arbulanguage.com/filmy/lekcja44/drawing.mp4", "Kevin sam w domu (1990)"],
+        srcWordimage: "http://localhost/arbulanguage.com/filmy/lekcja44/drawing.png",
+        word: [
+            "https://www.arbulang.com/voice/bike.mp4"
+        ],
+        desc: "I[aj] - ja",
+        sentence1: [
+            "He"
+        ],
+        sentence: [
+            "He",
+            "climbs",
+            "the tree"
+        ],
+        key: "he",
+        category2: ["osoby"],
+        category3: ["PresenttSimple", "PresentSimplePodmiot"]
+    },
+                                            {
+        id: [
+            758,
+            131,
+            239
+        ],
+        img: [
+            "https://www.arbulang.com/img/fiszki1/364a.jpg"
+        ],
+        story: [
+            "KOGNATY PARK (PL) - PARK (ENG)"
+        ],
+        desc: "paper[pejper] - papier",
+        sentence2: [
+            "the paper"
+        ],
+        sentence: [
+            "He",
+            "climbs",
+            "the tree"
+        ],
+        key: "climbs",
+        category1: "nauka",
+        category2: ["okresleniaMiejsca"]
+    },
+                                                {
+        id: [
+            759,
+            131,
+            239
+        ],
+        img: [
+            "https://www.arbulang.com/img/fiszki1/759a.jpg"
+        ],
+        story: [
+            "Zrobiłem sobie tatuaż w formie tribala na ręce"
+        ],
+        desc: "the tree[tri] - papier",
+        sentence2: [
+            "the tree"
+        ],
+        sentence: [
+            "He",
+            "climbs",
+            "the tree"
+        ],
+        key: "tree",
+        category1: "nauka",
+        category2: ["okresleniaMiejsca"]
+    },
+                                                    {
+        id: [
+            760,
+            131,
+            240
+        ],
+        img: [
+            "https://www.arbulang.com/img/fiszki1/364a.jpg"
+        ],
+        story: [
+            "KOGNATY PARK (PL) - PARK (ENG)"
+        ],
+        desc: "very[pejper] - papier",
+        sentence2: [
+            "very"
+        ],
+        sentence: [
+            "very",
+            "fast"
+        ],
+        key: "very",
+        category1: "nauka",
+        category2: ["okresleniaMiejsca"]
+    },
+                                                        {
+        id: [
+            761,
+            131,
+            240
+        ],
+        img: [
+            "https://www.arbulang.com/img/fiszki1/364a.jpg"
+        ],
+        story: [
+            "KOGNATY PARK (PL) - PARK (ENG)"
+        ],
+        desc: "very[pejper] - papier",
+        sentence2: [
+            "fast"
+        ],
+        sentence: [
+            "very",
+            "fast"
+        ],
+        key: "fast",
+        category1: "nauka",
+        category2: ["okresleniaMiejsca"]
+    },
+        {
+        id: [
+            762,
+            132,
+            241
+        ],
+        img: [
+                "https://www.arbulang.com/img/fiszki1/7a.jpg",
+                "https://www.arbulang.com/img/fiszki1/7b.jpg",
+                "https://www.arbulang.com/img/fiszki1/7c.jpg",
+                "https://www.arbulang.com/img/fiszki1/7d.jpg",
+                "https://www.arbulang.com/img/fiszki1/7e.jpg"
+        ],
+        translate: "Rysuję zwierzęta na papierze",
+        translateb: "[]",
+        translateb2: "[]",
+        srcWord: ["http://localhost/arbulanguage.com/filmy/lekcja44/drawing.mp4", "Kevin sam w domu (1990)"],
+        srcWordimage: "http://localhost/arbulanguage.com/filmy/lekcja44/drawing.png",
+        word: [
+            "https://www.arbulang.com/voice/bike.mp4"
+        ],
+        story: [
+                'To właśnie <u><b>on</u></b> jest <span class="adannotation" data-annotation="1"><b><u>hi</b></u></span>tem tego sezonu piłkarskiego',
+                'Samiec czyli <u><b>on</u></b> - <span class="adannotation" data-annotation="1"><b><u>hi</b></u></span>popotam',
+                '<u><b>On</b></u> - <span class="adannotation" data-annotation="1"><u><b>Hi</b></u></span>eronim odleciał balonem',
+                'Ma<span class="adannotation" data-annotation="1"><u><b>chi</u></b></span>nę do tortur wymyślił <u><b>on</u></b> - jest <span class="adannotation" data-annotation="1"><u><b>Hi</u></b></span>ndusem',
+                '<u><b>On</u></b> je ciastka <span class="adannotation" data-annotation="1"><u><b>hi</u></b></span>ty'
+        ],
+        desc: "we[aj] - ja",
+        sentence1: [
+            "We"
+        ],
+        sentence: [
+            "We",
+            "eat",
+            "pizza"
+        ],
+        key: "we",
+        category2: ["osoby"],
+        category3: ["PresenttSimple", "PresentSimplePodmiot"]
+    },
+                                                            {
+        id: [
+            763,
+            132,
+            241
+        ],
+        img: [
+            "https://www.arbulang.com/img/fiszki1/763a.jpg"
+        ],
+        story: [
+            "To mit, że grubemu chce się cały czas jeść"
+        ],
+        desc: "eat[it] - jeść",
+        sentence2: [
+            "eat"
+        ],
+        sentence: [
+            "We",
+            "eat",
+            "pizza"
+        ],
+        key: "eat",
+        category1: "nauka",
+        category2: ["okresleniaMiejsca"]
+    },
+                                                                {
+        id: [
+            764,
+            132,
+            241
+        ],
+         img: [
+            "https://www.arbulang.com/img/fiszki1/364a.jpg"
+        ],
+        story: [
+            "Piotrek kręci śrubę i urwał takiego pica od klucza"
+        ],
+        desc: "pizza[pica] - pizza",
+        sentence2: [
+            "pizza"
+        ],
+        sentence: [
+            "We",
+            "eat",
+            "pizza"
+        ],
+        key: "pizza",
+        category1: "nauka",
+        category2: ["okresleniaMiejsca"]
+    },
+                                                                    {
+        id: [
+            765,
+            132,
+            242
+        ],
+        img: [
+            "https://www.arbulang.com/img/fiszki1/364a.jpg"
+        ],
+        story: [
+            "KOGNATY PARK (PL) - PARK (ENG)"
+        ],
+        desc: "with[] - papier",
+        sentence2: [
+            "with"
+        ],
+        sentence: [
+            "with",
+            "our",
+            "friends"
+        ],
+        key: "with",
+        category1: "nauka",
+        category2: ["okresleniaMiejsca"]
+    },
+                                                                        {
+        id: [
+            766,
+            132,
+            242
+        ],
+        img: [
+            "https://www.arbulang.com/img/fiszki1/364a.jpg"
+        ],
+        story: [
+            "KOGNATY PARK (PL) - PARK (ENG)"
+        ],
+        desc: "our[] - papier",
+        sentence2: [
+            "our"
+        ],
+        sentence: [
+            "with",
+            "our",
+            "friends"
+        ],
+        key: "our",
+        category1: "nauka",
+        category2: ["okresleniaMiejsca"]
+    },
+                                                                        {
+        id: [
+            767,
+            132,
+            242
+        ],
+        img: [
+            "https://www.arbulang.com/img/fiszki1/364a.jpg"
+        ],
+        story: [
+            "KOGNATY PARK (PL) - PARK (ENG)"
+        ],
+        desc: "friends[] - papier",
+        sentence2: [
+            "friends"
+        ],
+        sentence: [
+            "with",
+            "our",
+            "friends"
+        ],
+        key: "friends",
+        category1: "nauka",
+        category2: ["okresleniaMiejsca"]
+    },
+            {
+        id: [
+            768,
+            133,
+            243
+        ],
+        img: [
+                "https://www.arbulang.com/img/fiszki1/7a.jpg",
+                "https://www.arbulang.com/img/fiszki1/7b.jpg",
+                "https://www.arbulang.com/img/fiszki1/7c.jpg",
+                "https://www.arbulang.com/img/fiszki1/7d.jpg",
+                "https://www.arbulang.com/img/fiszki1/7e.jpg"
+        ],
+        translate: "Rysuję zwierzęta na papierze",
+        translateb: "[]",
+        translateb2: "[]",
+        srcWord: ["http://localhost/arbulanguage.com/filmy/lekcja44/drawing.mp4", "Kevin sam w domu (1990)"],
+        srcWordimage: "http://localhost/arbulanguage.com/filmy/lekcja44/drawing.png",
+        word: [
+            "https://www.arbulang.com/voice/bike.mp4"
+        ],
+        story: [
+                'Fonia w tym smartfonie jest wyjątkowo słaba'
+        ],
+        desc: "the phone[fon] - telefon",
+        sentence1: [
+            "The phone"
+        ],
+        sentence: [
+            "The phone",
+            "rings"
+        ],
+        key: "phone",
+        category2: ["osoby"],
+        category3: ["PresenttSimple", "PresentSimplePodmiot"]
+    },
+                                                                            {
+        id: [
+            769,
+            133,
+            243
+        ],
+        img: [
+            "https://www.arbulang.com/img/fiszki1/769a.jpg"
+        ],
+        story: [
+            "Koło ringu jest specjalny gong"
+        ],
+        desc: "rings[rings] - dzwoni",
+        sentence2: [
+            "rings"
+        ],
+        sentence: [
+            "The phone",
+            "rings"
+        ],
+        key: "rings",
+        category1: "nauka",
+        category2: ["okresleniaMiejsca"]
+    },
+                                                                                {
+        id: [
+            770,
+            133,
+            244
+        ],
+        img: [
+            "https://www.arbulang.com/img/fiszki1/254a.jpg"
+        ],
+        story: [
+            "<u><b>In</u></b>trowertyk lubi przesiadywać <u><b>w</u></b> swoim umyśle"
+        ],
+        desc: "in[in] - w",
+        sentence2: [
+            "in"
+        ],
+        sentence: [
+            "in",
+            "the kitchen"
+        ],
+        key: "in",
+        category1: "nauka",
+        category2: ["okresleniaMiejsca"]
+    },
+                                                                                {
+        id: [
+            771,
+            133,
+            244
+        ],
+        img: [
+            "https://www.arbulang.com/img/fiszki1/771a.jpg"
+        ],
+        story: [
+            "W kuchni mam zapałki, żeby rozpalić pod piecem i zrobić obiad. Później nim kogoś poczenstuje"
+        ],
+        desc: "the kitchen[kiczen] - (ta) kuchnia",
+        sentence2: [
+            "the kitchen"
+        ],
+        sentence: [
+            "in",
+            "the kitchen"
+        ],
+        key: "kitchen",
+        category1: "nauka",
+        category2: ["okresleniaMiejsca"]
+    },
+                {
+        id: [
+            772,
+            134,
+            245
+        ],
+        img: [
+                "https://www.arbulang.com/img/fiszki1/7a.jpg",
+                "https://www.arbulang.com/img/fiszki1/7b.jpg",
+                "https://www.arbulang.com/img/fiszki1/7c.jpg",
+                "https://www.arbulang.com/img/fiszki1/7d.jpg",
+                "https://www.arbulang.com/img/fiszki1/7e.jpg"
+        ],
+        translate: "Rysuję zwierzęta na papierze",
+        translateb: "[]",
+        translateb2: "[]",
+        srcWord: ["http://localhost/arbulanguage.com/filmy/lekcja44/drawing.mp4", "Kevin sam w domu (1990)"],
+        srcWordimage: "http://localhost/arbulanguage.com/filmy/lekcja44/drawing.png",
+        word: [
+            "https://www.arbulang.com/voice/bike.mp4"
+        ],
+        story: [
+                'To właśnie <u><b>on</u></b> jest <span class="adannotation" data-annotation="1"><b><u>hi</b></u></span>tem tego sezonu piłkarskiego',
+                'Samiec czyli <u><b>on</u></b> - <span class="adannotation" data-annotation="1"><b><u>hi</b></u></span>popotam',
+                '<u><b>On</b></u> - <span class="adannotation" data-annotation="1"><u><b>Hi</b></u></span>eronim odleciał balonem',
+                'Ma<span class="adannotation" data-annotation="1"><u><b>chi</u></b></span>nę do tortur wymyślił <u><b>on</u></b> - jest <span class="adannotation" data-annotation="1"><u><b>Hi</u></b></span>ndusem',
+                '<u><b>On</u></b> je ciastka <span class="adannotation" data-annotation="1"><u><b>hi</u></b></span>ty'
+        ],
+        desc: "she[aj] - ja",
+        sentence1: [
+            "She"
+        ],
+        sentence: [
+            "She",
+            "cleans",
+            "the floor"
+        ],
+        key: "she",
+        category2: ["osoby"],
+        category3: ["PresenttSimple", "PresentSimplePodmiot"]
+    },
+                                                                                    {
+        id: [
+            773,
+            134,
+            245
+        ],
+        img: [
+            "https://www.arbulang.com/img/fiszki1/364a.jpg"
+        ],
+        story: [
+            "KOGNATY PARK (PL) - PARK (ENG)"
+        ],
+        desc: "cleans[] - (ta) kuchnia",
+        sentence2: [
+            "cleans"
+        ],
+        sentence: [
+            "She",
+            "cleans",
+            "the floor"
+        ],
+        key: "cleans",
+        category1: "nauka",
+        category2: ["okresleniaMiejsca"]
+    },
+                                                                                        {
+        id: [
+            774,
+            134,
+            245
+        ],
+        img: [
+            "https://www.arbulang.com/img/fiszki1/364a.jpg"
+        ],
+        story: [
+            "KOGNATY PARK (PL) - PARK (ENG)"
+        ],
+        desc: "the floor[] - (ta) kuchnia",
+        sentence2: [
+            "the floor"
+        ],
+        sentence: [
+            "She",
+            "cleans",
+            "the floor"
+        ],
+        key: "floor",
+        category1: "nauka",
+        category2: ["okresleniaMiejsca"]
+    },
+                                                                                            {
+        id: [
+            775,
+            134,
+            245
+        ],
+        img: [
+            "https://www.arbulang.com/img/fiszki1/364a.jpg"
+        ],
+        story: [
+            "KOGNATY PARK (PL) - PARK (ENG)"
+        ],
+        desc: "every[] - (ta) kuchnia",
+        sentence2: [
+            "every"
+        ],
+        sentence: [
+            "every",
+            "day"
+        ],
+        key: "every",
+        category1: "nauka",
+        category2: ["okresleniaMiejsca"]
+    },
+                                                                                                {
+        id: [
+            776,
+            134,
+            245
+        ],
+        img: [
+            "https://www.arbulang.com/img/fiszki1/364a.jpg"
+        ],
+        story: [
+            "KOGNATY PARK (PL) - PARK (ENG)"
+        ],
+        desc: "day[] - dzień",
+        sentence2: [
+            "day"
+        ],
+        sentence: [
+            "every",
+            "day"
+        ],
+        key: "day",
+        category1: "nauka",
+        category2: ["okresleniaMiejsca"]
+    }
     );

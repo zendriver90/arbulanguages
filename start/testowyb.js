@@ -37636,6 +37636,690 @@ const fiszki10 = [
         key: "paper",
         category1: "nauka",
         category2: ["okresleniaMiejsca"]
+    },
+    {
+        id: [
+            757,
+            131,
+            240
+        ],
+        img: [
+                "https://www.arbulang.com/img/fiszki1/7a.jpg",
+                "https://www.arbulang.com/img/fiszki1/7b.jpg",
+                "https://www.arbulang.com/img/fiszki1/7c.jpg",
+                "https://www.arbulang.com/img/fiszki1/7d.jpg",
+                "https://www.arbulang.com/img/fiszki1/7e.jpg"
+        ],
+        translate: "Rysuję zwierzęta na papierze",
+        translateb: "[]",
+        translateb2: "[]",
+        srcWord: ["http://localhost/arbulanguage.com/filmy/lekcja44/drawing.mp4", "Kevin sam w domu (1990)"],
+        srcWordimage: "http://localhost/arbulanguage.com/filmy/lekcja44/drawing.png",
+        word: [
+            "https://www.arbulang.com/voice/bike.mp4"
+        ],
+        story: [
+                'To właśnie <u><b>on</u></b> jest <span class="adannotation" data-annotation="1"><b><u>hi</b></u></span>tem tego sezonu piłkarskiego',
+                'Samiec czyli <u><b>on</u></b> - <span class="adannotation" data-annotation="1"><b><u>hi</b></u></span>popotam',
+                '<u><b>On</b></u> - <span class="adannotation" data-annotation="1"><u><b>Hi</b></u></span>eronim odleciał balonem',
+                'Ma<span class="adannotation" data-annotation="1"><u><b>chi</u></b></span>nę do tortur wymyślił <u><b>on</u></b> - jest <span class="adannotation" data-annotation="1"><u><b>Hi</u></b></span>ndusem',
+                '<u><b>On</u></b> je ciastka <span class="adannotation" data-annotation="1"><u><b>hi</u></b></span>ty'
+        ],
+        desc: "I[aj] - ja",
+        sentence1: [
+            "He"
+        ],
+        sentence: [
+            "He",
+            "climbs",
+            "the tree"
+        ],
+        key: "he",
+        category2: ["osoby"],
+        category3: ["PresenttSimple", "PresentSimplePodmiot"]
+    },
+                                            {
+        id: [
+            758,
+            131,
+            239
+        ],
+            entries: [
+        {
+            id: 1,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/756a.jpg",
+                alt: "Wygenerowane przez AI."
+            },
+            story: {
+                text: "Tai Pei to duże miasto. Gęstość ludności per osoba na kilometr kwadratowy jest bardzo duża. Urzędnicy już nie notują tych danych na papierze",
+                alt: ""
+            },
+            category: ["wakacje", "odpoczynek"]
+        }
+            ],
+        desc: "paper[pejper] - papier",
+        sentence2: [
+            "the paper"
+        ],
+        sentence: [
+            "He",
+            "climbs",
+            "the tree"
+        ],
+        key: "climbs",
+        category1: "nauka",
+        category2: ["okresleniaMiejsca"]
+    },
+                                                {
+        id: [
+            759,
+            131,
+            239
+        ],
+            entries: [
+        {
+            id: 1,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/756a.jpg",
+                alt: "Wygenerowane przez AI."
+            },
+            story: {
+                text: "Tai Pei to duże miasto. Gęstość ludności per osoba na kilometr kwadratowy jest bardzo duża. Urzędnicy już nie notują tych danych na papierze",
+                alt: ""
+            },
+            category: ["wakacje", "odpoczynek"]
+        }
+            ],
+        desc: "the tree[pejper] - papier",
+        sentence2: [
+            "the tree"
+        ],
+        sentence: [
+            "He",
+            "climbs",
+            "the tree"
+        ],
+        key: "climbs",
+        category1: "nauka",
+        category2: ["okresleniaMiejsca"]
+    },
+                                                    {
+        id: [
+            760,
+            131,
+            240
+        ],
+            entries: [
+        {
+            id: 1,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/756a.jpg",
+                alt: "Wygenerowane przez AI."
+            },
+            story: {
+                text: "Tai Pei to duże miasto. Gęstość ludności per osoba na kilometr kwadratowy jest bardzo duża. Urzędnicy już nie notują tych danych na papierze",
+                alt: ""
+            },
+            category: ["wakacje", "odpoczynek"]
+        }
+            ],
+        desc: "very[pejper] - papier",
+        sentence2: [
+            "very"
+        ],
+        sentence: [
+            "very",
+            "fast"
+        ],
+        key: "climbs",
+        category1: "nauka",
+        category2: ["okresleniaMiejsca"]
+    },
+                                                        {
+        id: [
+            761,
+            131,
+            240
+        ],
+            entries: [
+        {
+            id: 1,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/756a.jpg",
+                alt: "Wygenerowane przez AI."
+            },
+            story: {
+                text: "Tai Pei to duże miasto. Gęstość ludności per osoba na kilometr kwadratowy jest bardzo duża. Urzędnicy już nie notują tych danych na papierze",
+                alt: ""
+            },
+            category: ["wakacje", "odpoczynek"]
+        }
+            ],
+        desc: "very[pejper] - papier",
+        sentence2: [
+            "fast"
+        ],
+        sentence: [
+            "very",
+            "fast"
+        ],
+        key: "fast",
+        category1: "nauka",
+        category2: ["okresleniaMiejsca"]
+    },
+        {
+        id: [
+            762,
+            132,
+            241
+        ],
+        img: [
+                "https://www.arbulang.com/img/fiszki1/7a.jpg",
+                "https://www.arbulang.com/img/fiszki1/7b.jpg",
+                "https://www.arbulang.com/img/fiszki1/7c.jpg",
+                "https://www.arbulang.com/img/fiszki1/7d.jpg",
+                "https://www.arbulang.com/img/fiszki1/7e.jpg"
+        ],
+        translate: "Rysuję zwierzęta na papierze",
+        translateb: "[]",
+        translateb2: "[]",
+        srcWord: ["http://localhost/arbulanguage.com/filmy/lekcja44/drawing.mp4", "Kevin sam w domu (1990)"],
+        srcWordimage: "http://localhost/arbulanguage.com/filmy/lekcja44/drawing.png",
+        word: [
+            "https://www.arbulang.com/voice/bike.mp4"
+        ],
+        story: [
+                'To właśnie <u><b>on</u></b> jest <span class="adannotation" data-annotation="1"><b><u>hi</b></u></span>tem tego sezonu piłkarskiego',
+                'Samiec czyli <u><b>on</u></b> - <span class="adannotation" data-annotation="1"><b><u>hi</b></u></span>popotam',
+                '<u><b>On</b></u> - <span class="adannotation" data-annotation="1"><u><b>Hi</b></u></span>eronim odleciał balonem',
+                'Ma<span class="adannotation" data-annotation="1"><u><b>chi</u></b></span>nę do tortur wymyślił <u><b>on</u></b> - jest <span class="adannotation" data-annotation="1"><u><b>Hi</u></b></span>ndusem',
+                '<u><b>On</u></b> je ciastka <span class="adannotation" data-annotation="1"><u><b>hi</u></b></span>ty'
+        ],
+        desc: "we[aj] - ja",
+        sentence1: [
+            "We"
+        ],
+        sentence: [
+            "We",
+            "eat",
+            "pizza"
+        ],
+        key: "he",
+        category2: ["osoby"],
+        category3: ["PresenttSimple", "PresentSimplePodmiot"]
+    },
+                                                            {
+        id: [
+            763,
+            132,
+            241
+        ],
+            entries: [
+        {
+            id: 1,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/756a.jpg",
+                alt: "Wygenerowane przez AI."
+            },
+            story: {
+                text: "Tai Pei to duże miasto. Gęstość ludności per osoba na kilometr kwadratowy jest bardzo duża. Urzędnicy już nie notują tych danych na papierze",
+                alt: ""
+            },
+            category: ["wakacje", "odpoczynek"]
+        }
+            ],
+        desc: "eat[] - papier",
+        sentence2: [
+            "eat"
+        ],
+        sentence: [
+            "We",
+            "eat",
+            "pizza"
+        ],
+        key: "fast",
+        category1: "nauka",
+        category2: ["okresleniaMiejsca"]
+    },
+                                                                {
+        id: [
+            764,
+            132,
+            241
+        ],
+            entries: [
+        {
+            id: 1,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/756a.jpg",
+                alt: "Wygenerowane przez AI."
+            },
+            story: {
+                text: "Tai Pei to duże miasto. Gęstość ludności per osoba na kilometr kwadratowy jest bardzo duża. Urzędnicy już nie notują tych danych na papierze",
+                alt: ""
+            },
+            category: ["wakacje", "odpoczynek"]
+        }
+            ],
+        desc: "pizza[] - papier",
+        sentence2: [
+            "pizza"
+        ],
+        sentence: [
+            "We",
+            "eat",
+            "pizza"
+        ],
+        key: "fast",
+        category1: "nauka",
+        category2: ["okresleniaMiejsca"]
+    },
+                                                                    {
+        id: [
+            765,
+            132,
+            242
+        ],
+            entries: [
+        {
+            id: 1,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/756a.jpg",
+                alt: "Wygenerowane przez AI."
+            },
+            story: {
+                text: "Tai Pei to duże miasto. Gęstość ludności per osoba na kilometr kwadratowy jest bardzo duża. Urzędnicy już nie notują tych danych na papierze",
+                alt: ""
+            },
+            category: ["wakacje", "odpoczynek"]
+        }
+            ],
+        desc: "with[] - papier",
+        sentence2: [
+            "with"
+        ],
+        sentence: [
+            "with",
+            "our",
+            "friends"
+        ],
+        key: "fast",
+        category1: "nauka",
+        category2: ["okresleniaMiejsca"]
+    },
+                                                                        {
+        id: [
+            766,
+            132,
+            242
+        ],
+            entries: [
+        {
+            id: 1,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/756a.jpg",
+                alt: "Wygenerowane przez AI."
+            },
+            story: {
+                text: "Tai Pei to duże miasto. Gęstość ludności per osoba na kilometr kwadratowy jest bardzo duża. Urzędnicy już nie notują tych danych na papierze",
+                alt: ""
+            },
+            category: ["wakacje", "odpoczynek"]
+        }
+            ],
+        desc: "our[] - papier",
+        sentence2: [
+            "our"
+        ],
+        sentence: [
+            "with",
+            "our",
+            "friends"
+        ],
+        key: "fast",
+        category1: "nauka",
+        category2: ["okresleniaMiejsca"]
+    },
+                                                                        {
+        id: [
+            767,
+            132,
+            242
+        ],
+            entries: [
+        {
+            id: 1,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/756a.jpg",
+                alt: "Wygenerowane przez AI."
+            },
+            story: {
+                text: "Tai Pei to duże miasto. Gęstość ludności per osoba na kilometr kwadratowy jest bardzo duża. Urzędnicy już nie notują tych danych na papierze",
+                alt: ""
+            },
+            category: ["wakacje", "odpoczynek"]
+        }
+            ],
+        desc: "friends[] - papier",
+        sentence2: [
+            "friends"
+        ],
+        sentence: [
+            "with",
+            "our",
+            "friends"
+        ],
+        key: "fast",
+        category1: "nauka",
+        category2: ["okresleniaMiejsca"]
+    },
+            {
+        id: [
+            768,
+            133,
+            243
+        ],
+        img: [
+                "https://www.arbulang.com/img/fiszki1/7a.jpg",
+                "https://www.arbulang.com/img/fiszki1/7b.jpg",
+                "https://www.arbulang.com/img/fiszki1/7c.jpg",
+                "https://www.arbulang.com/img/fiszki1/7d.jpg",
+                "https://www.arbulang.com/img/fiszki1/7e.jpg"
+        ],
+        translate: "Rysuję zwierzęta na papierze",
+        translateb: "[]",
+        translateb2: "[]",
+        srcWord: ["http://localhost/arbulanguage.com/filmy/lekcja44/drawing.mp4", "Kevin sam w domu (1990)"],
+        srcWordimage: "http://localhost/arbulanguage.com/filmy/lekcja44/drawing.png",
+        word: [
+            "https://www.arbulang.com/voice/bike.mp4"
+        ],
+        story: [
+                'To właśnie <u><b>on</u></b> jest <span class="adannotation" data-annotation="1"><b><u>hi</b></u></span>tem tego sezonu piłkarskiego',
+                'Samiec czyli <u><b>on</u></b> - <span class="adannotation" data-annotation="1"><b><u>hi</b></u></span>popotam',
+                '<u><b>On</b></u> - <span class="adannotation" data-annotation="1"><u><b>Hi</b></u></span>eronim odleciał balonem',
+                'Ma<span class="adannotation" data-annotation="1"><u><b>chi</u></b></span>nę do tortur wymyślił <u><b>on</u></b> - jest <span class="adannotation" data-annotation="1"><u><b>Hi</u></b></span>ndusem',
+                '<u><b>On</u></b> je ciastka <span class="adannotation" data-annotation="1"><u><b>hi</u></b></span>ty'
+        ],
+        desc: "we[aj] - ja",
+        sentence1: [
+            "The phone"
+        ],
+        sentence: [
+            "The phone",
+            "rings"
+        ],
+        key: "he",
+        category2: ["osoby"],
+        category3: ["PresenttSimple", "PresentSimplePodmiot"]
+    },
+                                                                            {
+        id: [
+            769,
+            133,
+            243
+        ],
+            entries: [
+        {
+            id: 1,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/756a.jpg",
+                alt: "Wygenerowane przez AI."
+            },
+            story: {
+                text: "Tai Pei to duże miasto. Gęstość ludności per osoba na kilometr kwadratowy jest bardzo duża. Urzędnicy już nie notują tych danych na papierze",
+                alt: ""
+            },
+            category: ["wakacje", "odpoczynek"]
+        }
+            ],
+        desc: "rings[] - papier",
+        sentence2: [
+            "rings"
+        ],
+        sentence: [
+            "The phone",
+            "rings"
+        ],
+        key: "fast",
+        category1: "nauka",
+        category2: ["okresleniaMiejsca"]
+    },
+                                                                                {
+        id: [
+            770,
+            133,
+            244
+        ],
+            entries: [
+        {
+            id: 1,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/756a.jpg",
+                alt: "Wygenerowane przez AI."
+            },
+            story: {
+                text: "Tai Pei to duże miasto. Gęstość ludności per osoba na kilometr kwadratowy jest bardzo duża. Urzędnicy już nie notują tych danych na papierze",
+                alt: ""
+            },
+            category: ["wakacje", "odpoczynek"]
+        }
+            ],
+        desc: "in[] - papier",
+        sentence2: [
+            "in"
+        ],
+        sentence: [
+            "in",
+            "the kitchen"
+        ],
+        key: "fast",
+        category1: "nauka",
+        category2: ["okresleniaMiejsca"]
+    },
+                                                                                {
+        id: [
+            771,
+            133,
+            244
+        ],
+            entries: [
+        {
+            id: 1,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/756a.jpg",
+                alt: "Wygenerowane przez AI."
+            },
+            story: {
+                text: "Tai Pei to duże miasto. Gęstość ludności per osoba na kilometr kwadratowy jest bardzo duża. Urzędnicy już nie notują tych danych na papierze",
+                alt: ""
+            },
+            category: ["wakacje", "odpoczynek"]
+        }
+            ],
+        desc: "the kitchen[] - (ta) kuchnia",
+        sentence2: [
+            "the kitchen"
+        ],
+        sentence: [
+            "in",
+            "the kitchen"
+        ],
+        key: "fast",
+        category1: "nauka",
+        category2: ["okresleniaMiejsca"]
+    },
+                {
+        id: [
+            772,
+            134,
+            245
+        ],
+        img: [
+                "https://www.arbulang.com/img/fiszki1/7a.jpg",
+                "https://www.arbulang.com/img/fiszki1/7b.jpg",
+                "https://www.arbulang.com/img/fiszki1/7c.jpg",
+                "https://www.arbulang.com/img/fiszki1/7d.jpg",
+                "https://www.arbulang.com/img/fiszki1/7e.jpg"
+        ],
+        translate: "Rysuję zwierzęta na papierze",
+        translateb: "[]",
+        translateb2: "[]",
+        srcWord: ["http://localhost/arbulanguage.com/filmy/lekcja44/drawing.mp4", "Kevin sam w domu (1990)"],
+        srcWordimage: "http://localhost/arbulanguage.com/filmy/lekcja44/drawing.png",
+        word: [
+            "https://www.arbulang.com/voice/bike.mp4"
+        ],
+        story: [
+                'To właśnie <u><b>on</u></b> jest <span class="adannotation" data-annotation="1"><b><u>hi</b></u></span>tem tego sezonu piłkarskiego',
+                'Samiec czyli <u><b>on</u></b> - <span class="adannotation" data-annotation="1"><b><u>hi</b></u></span>popotam',
+                '<u><b>On</b></u> - <span class="adannotation" data-annotation="1"><u><b>Hi</b></u></span>eronim odleciał balonem',
+                'Ma<span class="adannotation" data-annotation="1"><u><b>chi</u></b></span>nę do tortur wymyślił <u><b>on</u></b> - jest <span class="adannotation" data-annotation="1"><u><b>Hi</u></b></span>ndusem',
+                '<u><b>On</u></b> je ciastka <span class="adannotation" data-annotation="1"><u><b>hi</u></b></span>ty'
+        ],
+        desc: "she[aj] - ja",
+        sentence1: [
+            "She"
+        ],
+        sentence: [
+            "She",
+            "cleans",
+            "the floor"
+        ],
+        key: "he",
+        category2: ["osoby"],
+        category3: ["PresenttSimple", "PresentSimplePodmiot"]
+    },
+                                                                                    {
+        id: [
+            773,
+            134,
+            245
+        ],
+            entries: [
+        {
+            id: 1,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/756a.jpg",
+                alt: "Wygenerowane przez AI."
+            },
+            story: {
+                text: "Tai Pei to duże miasto. Gęstość ludności per osoba na kilometr kwadratowy jest bardzo duża. Urzędnicy już nie notują tych danych na papierze",
+                alt: ""
+            },
+            category: ["wakacje", "odpoczynek"]
+        }
+            ],
+        desc: "cleans[] - (ta) kuchnia",
+        sentence2: [
+            "cleans"
+        ],
+        sentence: [
+            "She",
+            "cleans",
+            "the floor"
+        ],
+        key: "fast",
+        category1: "nauka",
+        category2: ["okresleniaMiejsca"]
+    },
+                                                                                        {
+        id: [
+            774,
+            134,
+            245
+        ],
+            entries: [
+        {
+            id: 1,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/756a.jpg",
+                alt: "Wygenerowane przez AI."
+            },
+            story: {
+                text: "Tai Pei to duże miasto. Gęstość ludności per osoba na kilometr kwadratowy jest bardzo duża. Urzędnicy już nie notują tych danych na papierze",
+                alt: ""
+            },
+            category: ["wakacje", "odpoczynek"]
+        }
+            ],
+        desc: "the floor[] - (ta) kuchnia",
+        sentence2: [
+            "the floor"
+        ],
+        sentence: [
+            "She",
+            "cleans",
+            "the floor"
+        ],
+        key: "fast",
+        category1: "nauka",
+        category2: ["okresleniaMiejsca"]
+    },
+                                                                                            {
+        id: [
+            775,
+            134,
+            245
+        ],
+            entries: [
+        {
+            id: 1,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/756a.jpg",
+                alt: "Wygenerowane przez AI."
+            },
+            story: {
+                text: "Tai Pei to duże miasto. Gęstość ludności per osoba na kilometr kwadratowy jest bardzo duża. Urzędnicy już nie notują tych danych na papierze",
+                alt: ""
+            },
+            category: ["wakacje", "odpoczynek"]
+        }
+            ],
+        desc: "every[] - (ta) kuchnia",
+        sentence2: [
+            "every"
+        ],
+        sentence: [
+            "every",
+            "day"
+        ],
+        key: "fast",
+        category1: "nauka",
+        category2: ["okresleniaMiejsca"]
+    },
+                                                                                                {
+        id: [
+            776,
+            134,
+            245
+        ],
+            entries: [
+        {
+            id: 1,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/756a.jpg",
+                alt: "Wygenerowane przez AI."
+            },
+            story: {
+                text: "Tai Pei to duże miasto. Gęstość ludności per osoba na kilometr kwadratowy jest bardzo duża. Urzędnicy już nie notują tych danych na papierze",
+                alt: ""
+            },
+            category: ["wakacje", "odpoczynek"]
+        }
+            ],
+        desc: "day[] - dzień",
+        sentence2: [
+            "day"
+        ],
+        sentence: [
+            "every",
+            "day"
+        ],
+        key: "fast",
+        category1: "nauka",
+        category2: ["okresleniaMiejsca"]
     }
 ];
 

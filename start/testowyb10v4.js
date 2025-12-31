@@ -14,6 +14,9 @@ fiszki10.push(
                     sentence1b: [
             "film"
         ],
+                                            sentence1c: [
+            "mówi"
+        ],
         sentence: [
             "The",
             "movie",
@@ -53,6 +56,9 @@ fiszki10.push(
                                                             sentence1b: [
             "funkcja_pomocnicza"
         ],
+                                                    sentence1c: [
+            "hes"
+        ],
                 sentence: [
                         "The",
                         "movie",
@@ -77,6 +83,9 @@ fiszki10.push(
                             sentence2b: [
             "właśnie"
         ],
+                                                            sentence2c: [
+            "dżast"
+        ],
                 sentence: [
                         "just",
                         "started"
@@ -99,6 +108,9 @@ id: [
         ],
                     sentence2b: [
             "wystartował"
+        ],
+                                                                    sentence2c: [
+            "started"
         ],
         sentence: [
                 "just",

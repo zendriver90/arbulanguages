@@ -4599,3 +4599,5 @@ console.log('wykonuje siÄ teraz');
 </div>
 </div>
 `);
+                    
+                    pronunciation:

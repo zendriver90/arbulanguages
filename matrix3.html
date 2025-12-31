@@ -2260,13 +2260,13 @@ input {
             </div>
             <div class="content-container">
                 <div class="grid-containera">
-                    <div class="image-container2b">Standard<button onclick="showImages('set1')"> LOSUJ LEKCJE</button>
+                    <div class="image-container2b">Standard<button onclick="showImages('set1')">DRAW LESSONS</button>
                     </div>
-                    <div class="image-container2" id="buttoncreate">Generowanie fiszki<button id="flashcardButton" onclick="addFlashcardContainer()">OTWÓRZ KONSOLE</button>
+                    <div class="image-container2" id="buttoncreate">Generating a flashcard<button id="flashcardButton" onclick="addFlashcardContainer()">OPEN CONSOLES</button>
                     </div>
-                    <div class="image-container2b">Kartkówka<button onclick="showImages('set1')">START</button>
+                    <div class="image-container2b">EXAM<button onclick="showImages('set1')">START</button>
                     </div>
-                    <div class="image-container2b">Tłumacz tekst<button onclick="showImages('set1')">START</button>
+                    <div class="image-container2b">TRANSLATE TEXT<button onclick="showImages('set1')">START</button>
                     </div>
                 </div>
 
@@ -2304,13 +2304,11 @@ input {
         </div>
 
         <div class="bottom-bar" id="bottomBar">
-            <button class="bottom-button" onclick="ustawTryb('zdania', undefined); przekazArgument0(globalCategory, '', '', 'zdania', false, false, tablica3[1])">1 ZDANIE / LEKCJA</button>
-            <button class="bottom-button" onclick="ustawTryb('fiszki', undefined); przekazArgument0(globalCategory, '', '', 'fiszki', false, false, tablica3[1])">3 ZDANIA / LEKCJA</button>
-            <button class="bottom-button" onclick="ustawTryb(tablica3[0], 'frazy'); przekazArgument0(globalCategory, '', '', tablica3[0], true, true, tablica3[1])">FRAZY</button>
-            <button class="bottom-button">SŁOWA</button>
-            <button id="searchButton" class="bottom-button2" onclick="zmienLupke()">
-                <img src="img/lupki3fa.png" alt="Szukaj" class="lupka" id="lupkaImage">
-            </button>
+    <button class="bottom-button" onclick="ustawTryb('zdania', undefined); przekazArgument0(globalCategory, '', '', 'zdania', false, false, tablica3[1])">1 SENTENCE / LESSON</button>
+    <button class="bottom-button" onclick="ustawTryb('fiszki', undefined); przekazArgument0(globalCategory, '', '', 'fiszki', false, false, tablica3[1])">3 SENTENCE / LESSON</button>
+    <button class="bottom-button" onclick="ustawTryb(tablica3[0], 'frazy'); przekazArgument0(globalCategory, '', '', tablica3[0], true, true, tablica3[1])">FHRASES</button>
+    <button class="bottom-button">WORDS</button>
+    <img src="img/lupka3b.png" alt="Szukaj" class="lupka">
         </div>
           
         <div class="toggle-button" id="toggleButton">
@@ -2591,7 +2589,7 @@ function showFiszkiForLesson5d(matchingFiszki1v, tablica41) {
                 highlightButton('myButton2', 'horizontalBar1');
             });
 
-            function addFlashcardContainer() {
+function addFlashcardContainer() {
                 var $flashcardContainer = $('<div>', {class: 'flashcard-container'});
                 $('#buttoncreate').addClass('active');
 
@@ -2599,46 +2597,20 @@ function showFiszkiForLesson5d(matchingFiszki1v, tablica41) {
                 $flashcardContainer.append(`
 <div id="konsola">
     <div id="title">WIDOK</div>
-<button id="inne" class="rodzaj-button" data-rodzaj="osoby">SPOŁECZNOŚCIOWY</button>        
-        <button class="charakter-button" onclick="ustawTryb(tablica3[0]); przekazArgument0('all', 'all', '', '', false, 'fiszki', 'losowyuklad', true, tablica3[1], tablica3[4], false, '', '', '', '', '100', '', '', '', false, true, false)">WYGENEROWANY JEDNORAZOWO</button>
+<button class="rodzaj-button" data-rodzaj="osoby">SPOŁECZNOŚCIOWY</button>        
+    <button class="rodzaj-button" data-rodzaj="osoby">WYGENEROWANY JEDNORAZOWO</button>
             <div id="title">RODZAJ SŁOWNICTWA</div>
-                    <button id="inne" class="rodzaj-button" data-rodzaj="osoby">KOGNATY</button>
-    <button id="osoby" class="rodzaj-button" data-rodzaj="osoby" onclick="przekazArgument0('', 'all', '', '', '', '', '', tablica3[1], 'other', false, '', '', '', '', '100')">Wszystkie</button>
-<button id="osobyButton" class="rodzaj-button" data-rodzaj="osoby"
-  onclick="przekazArgument0('', 'osoby', '', '', '', '', '', tablica3[1], 'other', false, '', '', '', '', '100')">
-  <span>Osoby (Rodzina, zaimki, zawody)</span>
-  <span id="liczbaOsoby" style="margin-left: 8px; font-weight: bold;"></span>
-</button>
-<button id="zaimkiButton" class="rodzaj-button" data-rodzaj="osoby"
-  onclick="przekazArgument0('', 'zaimkiosobowe', '', '', '', '', '', tablica3[1], 'other', false, '', '', '', '', '100')">
-  <span>Zaimki osobowe</span>
-  <span id="liczbaZaimki" style="margin-left: 8px; font-weight: bold;"></span>
-</button>
-            <button id="spojnikiButton" class="rodzaj-button" data-rodzaj="osoby"
-  onclick="przekazArgument0('', 'spojniki', '', '', '', '', '', tablica3[1], 'other', false, '', '', '', '', '100')">
-  <span>Spójniki</span>
-  <span id="liczbaSpojniki" style="margin-left: 8px; font-weight: bold;"></span>
-</button>
-                    <button id="czasownikButton" class="rodzaj-button" data-rodzaj="czasownik"
-  onclick="przekazArgument0('', 'czasownik', '', '', '', '', '', tablica3[1], 'other', false, '', '', '', '', '100')">
-  <span>Czasowniki</span>
-  <span id="liczbaCzasownik" style="margin-left: 8px; font-weight: bold;"></span>
-</button>
-                            <button id="czasButton" class="rodzaj-button" data-rodzaj="czasownik"
-  onclick="przekazArgument0('', 'czas', '', '', '', '', '', tablica3[1], 'other', false, '', '', '', '', '100')">
-  <span>Czas</span>
-  <span id="liczbaCzas" style="margin-left: 8px; font-weight: bold;"></span>
-</button>
-                                        <button id="zwierzetaButton" class="rodzaj-button" data-rodzaj="czasownik"
-  onclick="przekazArgument0('', 'zwierzeta', '', '', '', '', '', tablica3[1], 'other', false, '', '', '', '', '100')">
-  <span>Zwierzęta</span>
-  <span id="liczbaZwierzeta" style="margin-left: 8px; font-weight: bold;"></span>
-</button>
-            <button id="inne" onclick="przekazArgument0('emocje', '', '', '', '', '', tablica3[1])">Emocje</button>
-    <button id="inne" onclick="przekazArgument0('', 'kolory', '', '', '', '', '', tablica3[1], 'other', false, '', '', '', '', '100')">Kolory</button>
+                    <button class="rodzaj-button" data-rodzaj="osoby">COGNATES</button>
+    <button id="osoby" class="rodzaj-button" data-rodzaj="osoby" onclick="przekazArgument0('all', '', '', '', '', '', tablica3[1])">All</button>
+    <button class="rodzaj-button" data-rodzaj="zaimki osobowe" onclick="przekazArgument0('zaimkiosobowe', '', '', '', '', '', tablica3[1])">Personal pronouns</button>
+    <button id="inne" onclick="przekazArgument0('emocje', '', '', '', '', '', tablica3[1])">Emotions</button>
+    <button class="rodzaj-button" data-rodzaj="zaimki" onclick="przekazArgument0('spojniki', '', '', '', '', '', tablica3[1])">Conjunctions</button>
+    <button id="inne" onclick="przekazArgument0('kolory', '', '', '', '', '', tablica3[1])">Kolory</button>
+    <button id="inne" class="rodzaj-button" data-rodzaj="zwierzeta" onclick="przekazArgument0('zwierzeta', '', '', '', '', '', tablica3[1])">Animals</button>
+    <button class="rodzaj-button" data-rodzaj="czasownik" onclick="przekazArgument0('czasownik', '', '', '', '', '', tablica3[1])">Verbs</button>
     <br>ILOŚĆ MATERIAŁU NA LEKCJE<br>
-<button class="czas" onclick="ustawTryb('zdania', undefined); przekazArgument0('', globalCategory, '', '', 'zdania', false, false, tablica3[1])">5 MINUT (JEDNO ZDANIE)</button>
-<button id="english" class="czas" onclick="ustawTryb('fiszki', undefined); przekazArgument0('', globalCategory, '', '', 'fiszki', true, true, tablica3[1])">10 MINUT (3 ZDANIA) - OPCJONALNIE</button>
+<button class="czas" onclick="ustawTryb('zdania', undefined); przekazArgument0(globalCategory, '', '', 'zdania', false, false, tablica3[1])">5 MINUTES (ONE SENTENCE)</button>
+<button id="english" class="czas" onclick="ustawTryb('fiszki', undefined); przekazArgument0(globalCategory, '', '', 'fiszki', true, true, tablica3[1])">10 MINUTES (3 SENTENCES) - OPCJONALNIE</button>
 <br>TRYB LEKCJI<br>
 <button id="english" class="czas" onclick="ustawTryb(tablica3[0], ''); przekazArgument0(globalCategory, '', '', tablica3[0], false, false, tablica3[1])">ZDANIA</button>
 <button class="czas" onclick="ustawTryb(tablica3[0], 'frazy'); przekazArgument0(globalCategory, '', '', tablica3[0], true, true, tablica3[1])">FRAZY</button>
@@ -2650,11 +2622,9 @@ function showFiszkiForLesson5d(matchingFiszki1v, tablica41) {
 </div>
 <div id="konsola">
             <div id="title">CZASY</div>
-<button class="charakter-button" onclick="przekazArgument0(globalCategory, '', '', '', '', '', tablica3[1], 'play')">OZNACZ CZAS</button>
+<button class="charakter-button" onclick="przekazArgument0('PresentSimple', '', '', '', '', '', tablica3[1])">OZNACZ CZAS</button>
 <br>
-    <button class="charakter-button" onclick="przekazArgument0('PresentSimple', '', '', '', '', '', tablica3[1], 'play')">PRESENT SIMPLE</button>
-            <button class="charakter-button" onclick="przekazArgument0('PresentContinous', '', '', '', '', '', tablica3[1], 'other')">PRESENT CONTINOUS</button>
-                    <button class="charakter-button" onclick="przekazArgument0('PastSimple', '', '', '', '', '', tablica3[1])">PAST SIMPLE</button>
+<button class="charakter-button" onclick="przekazArgument0('Infinitive', '', '', '', '', '', tablica3[1])">INFINITIVE</button>
     <button id="inne">PAST SIMPLE</button>
     <br>
     <div id="title">OPCJE ZDANIA</div>
@@ -2667,9 +2637,17 @@ function showFiszkiForLesson5d(matchingFiszki1v, tablica41) {
     <button class="charakter-button" onclick="ustawTryb(tablica3[0]); przekazArgument0(globalCategory, '', '', 'fiszki', false, false, '')">Dowolne</button>
     <div id="title">PRIORYTETY LINGWISTYCZNE</div>
     <button id="inne" onclick="wybierzCharakter('krotkie')">Wymowa</button>
-<button id="inne" class="charakter-button" onclick="wybierzCharakter('krotkie')">Pisownia</button>
+<button class="charakter-button" onclick="wybierzCharakter('krotkie')">Pisownia</button>
 <button id="inne" onclick="wybierzCharakter('krotkie')">Sens zdania</button>
-    <button id="inne" id="dowolne" onclick="wybierzCharakter('dowolne')">WSZYSTKIE</button>
+    <button id="dowolne" onclick="wybierzCharakter('dowolne')">WSZYSTKIE</button>
+</div>
+<div id="konsola2">
+            <div id="title">ULUBIONA TEMATYKA FISZEK</div>
+    <button onclick="wybierzTematyke('nauka')">Nauka</button>
+    <button onclick="wybierzTematyke('podroze')">Podróże</button>
+    <button onclick="wybierzTematyke('historia')">Historia</button>
+    <button onclick="wybierzTematyke('sztuka')">Sztuka</button>
+    <button onclick="wybierzTematyke('technologia')">Technologia</button>
 </div>
 <div id="konsola3">
     <h2>Ulubione Fiszki</h2>

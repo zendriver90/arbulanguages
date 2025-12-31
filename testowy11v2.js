@@ -17,10 +17,16 @@ id: [
             "COGNATS: ideas - ideas"
         ],
         // opis
-        desc: "ideas[ideas] - ideas",
+        desc: "ideas[ee-DEH-ahs] - ideas",
         //zdanie
         sentence2: [
                 "ideas"
+        ],
+                                                                            sentence2b: [
+            "ideas"
+        ],
+                sentence2c: [
+            "NWAY-bahs"
         ],
         sentence: [
                 "con",
@@ -60,6 +66,12 @@ id: [
         sentence1: [
                 "Prever"
         ],
+                                                                                    sentence1b: [
+            "To_foresee"
+        ],
+                sentence1c: [
+            "preh-veh-EHR"
+        ],
         sentence: [
                 "Prever",
                 "problemas"
@@ -93,6 +105,12 @@ id: [
         //zdanie
         sentence1: [
                 "problemas"
+        ],
+                                                                                            sentence1b: [
+            "problems"
+        ],
+                sentence1c: [
+            "proh-BLEH-mahs"
         ],
         sentence: [
                 "Prever",
@@ -129,6 +147,12 @@ id: [
         sentence2: [
                 "y"
         ],
+        sentence2b: [
+            "and"
+        ],
+                sentence2c: [
+            "ee"
+        ],
         sentence: [
                 "y",
                 "estar",
@@ -164,6 +188,12 @@ id: [
         sentence2: [
                 "estar"
         ],
+                sentence2b: [
+            "be"
+        ],
+                sentence2c: [
+            "ehs-TAR"
+        ],
         sentence: [
                 "y",
                 "estar",
@@ -198,6 +228,12 @@ id: [
         //zdanie
         sentence2: [
                 "preparado"
+        ],
+                        sentence2b: [
+            "prepared"
+        ],
+                sentence2c: [
+            "preh-pah-RAH-doh"
         ],
         sentence: [
                 "y",
@@ -235,6 +271,12 @@ id: [
         //zdanie
         sentence2: [
                 "siempre"
+        ],
+                                sentence2b: [
+            "always"
+        ],
+                sentence2c: [
+            "SYEM-preh"
         ],
         sentence: [
                 "y",
@@ -275,6 +317,12 @@ id: [
         sentence1: [
                 "Proteger"
         ],
+                                        sentence1b: [
+            "To_protect"
+        ],
+                sentence1c: [
+            "pro-teh-HEHR"
+        ],
         sentence: [
                 "Proteger",
                 "los derechos",
@@ -311,6 +359,12 @@ id: [
         sentence1: [
                 "los derechos"
         ],
+                                                sentence1b: [
+            "rights"
+        ],
+                sentence1c: [
+            "los_deh-REH-chohs"
+        ],
         sentence: [
                 "Proteger",
                 "los derechos",
@@ -345,6 +399,12 @@ id: [
         //zdanie
         sentence1: [
                 "de todos"
+        ],
+                                                        sentence1b: [
+            "of_all"
+        ],
+                sentence1c: [
+            "deh_TOH-dohss"
         ],
         sentence: [
                 "Proteger",
@@ -382,6 +442,12 @@ id: [
         //zdanie
         sentence1: [
                 "siempre"
+        ],
+                                                                sentence1b: [
+            "always"
+        ],
+                sentence1c: [
+            "SYEM-prehs"
         ],
         sentence: [
                 "Proteger",
@@ -422,6 +488,12 @@ id: [
         sentence1: [
                 "Contar"
         ],
+                                                                        sentence1b: [
+            "To_tell"
+        ],
+                sentence1c: [
+            "kohn-TAR"
+        ],
         sentence: [
                 "Contar",
                 "historias",
@@ -457,6 +529,12 @@ id: [
         sentence1: [
                 "historias"
         ],
+                                                                                sentence1b: [
+            "stories"
+        ],
+                sentence1c: [
+            "ees-TOH-ryahs"
+        ],
         sentence: [
                 "Contar",
                 "historias",
@@ -490,6 +568,12 @@ id: [
         //zdanie
         sentence1: [
                 "divertidas"
+        ],
+                                                                                        sentence1b: [
+            "funny"
+        ],
+                sentence1c: [
+            "dee-behr-TEE-dahs"
         ],
         sentence: [
                 "Contar",
@@ -525,6 +609,12 @@ id: [
         sentence2: [
                 "con"
         ],
+                                                                                                sentence1b: [
+            "with"
+        ],
+                sentence1c: [
+            "kohn"
+        ],
         sentence: [
                 "con",
                 "buenos",
@@ -559,6 +649,12 @@ id: [
         sentence2: [
                 "buenos"
         ],
+                sentence1b: [
+            "good"
+        ],
+                sentence1c: [
+            "BWEH-nohs"
+        ],
         sentence: [
                 "con",
                 "buenos",
@@ -592,6 +688,12 @@ id: [
         //zdanie
         sentence2: [
                 "amigos"
+        ],
+                        sentence1b: [
+            "friends"
+        ],
+                sentence1c: [
+            "ah-MEE-gohs"
         ],
         sentence: [
                 "Contar",
@@ -631,6 +733,12 @@ id: [
         sentence1: [
                 "Escuchar"
         ],
+                                sentence1b: [
+            "To_listen"
+        ],
+                sentence1c: [
+            "ehs-koo-CHAR"
+        ],
         sentence: [
                 "Escuchar",
                 "música",
@@ -666,6 +774,12 @@ id: [
         sentence1: [
                 "música"
         ],
+                                        sentence1b: [
+            "music"
+        ],
+                sentence1c: [
+            "MOO-see-kah"
+        ],
         sentence: [
                 "Escuchar",
                 "música",
@@ -699,6 +813,12 @@ id: [
         //zdanie
         sentence1: [
                 "alegre"
+        ],
+                                                sentence1b: [
+            "cheerful"
+        ],
+                sentence1c: [
+            "ah-LEH-greh"
         ],
         sentence: [
                 "Escuchar",
@@ -734,6 +854,12 @@ id: [
         sentence2: [
                 "en"
         ],
+                                                        sentence2b: [
+            "in"
+        ],
+                sentence2c: [
+            "ehn"
+        ],
         sentence: [
                 "en",
                 "el coche"
@@ -766,6 +892,12 @@ id: [
         //zdanie
         sentence2: [
                 "el coche"
+        ],
+                                                                sentence2b: [
+            "car"
+        ],
+                sentence2c: [
+            "ehl_KOH-cheh"
         ],
         sentence: [
                 "en",
@@ -803,6 +935,12 @@ id: [
         //zdanie
         sentence1: [
                 "Llegar"
+        ],
+                                                                        sentence1b: [
+            "To_arrive"
+        ],
+                sentence1c: [
+            "ehl_KOH-cheh"
         ],
         sentence: [
                 "Llegar",
@@ -2107,7 +2245,7 @@ id: [
         ],
         translate: "To dance slowly to soft romantic music",
         translateb: "[bai-LAHR LEN-toh kon MOO-see-kah roh-MAN-tee-kah SWAH-veh]",
-        srcWord: ["https://www.arbulang.com/filmy/esp/dance.mp4", 'Titanic (1997)'],
+        srcWord: ["https://www.arbulang.com/filmy/esp/.mp4", ''],
         srcWordimage: "https://www.arbulang.com/filmy/esp/dance.png",
         word: [
                 "https://www.arbulang.com/voice/music.mp4"
@@ -2275,21 +2413,22 @@ id: [
         category2: ["osoby", "osoby+czas"],
                 category3: ["Infinitive"]
 },
-{
+    {
 id: [
         164,
-        31
+        31,
+        57
 ],
         // obrazek
         img: [
-                "https://www.arbulang.com/img/fiszki1en-esp/158a.jpg"
+                "https://www.arbulang.com/img/fiszki1en-esp/164a.jpg"
         ],
         word: [
                 "https://www.arbulang.com/voice/music.mp4"
         ],
         // historia
         story: [
-            "I swallow my saliva after a soft drink and that drink is in my veins now"
+            "I <b><u>swa</b></u>llow my saliva after a <b><u>soft</b></u> drink and that drink is in my <b><u>ve</b></u>ins now"
         ],
         // opis
         desc: "suave[SWAH-veh] - gentle, soft",
@@ -2310,5 +2449,636 @@ id: [
         ],
         category2: ["osoby", "osoby+czas"],
                 category3: ["Infinitive"]
-    }
+    },
+    {
+id: [
+        165,
+        32,
+        58
+],
+        // obrazek
+        img: [
+                "https://www.arbulang.com/img/fiszki1en-esp/165a.jpg"
+        ],
+        translate: "To maintain peace and harmony at home",
+        translateb: "[bai-LAHR LEN-toh kon MOO-see-kah roh-MAN-tee-kah SWAH-veh]",
+        srcWord: ["https://www.arbulang.com/filmy/esp/.mp4", ''],
+        srcWordimage: "https://www.arbulang.com/filmy/esp/dance.png",
+        word: [
+                "https://www.arbulang.com/voice/music.mp4"
+        ],
+        // historia
+        story: [
+            "Ro<b><u>man</b></u> <b><u>te</b></u>lls me that i can <b><u>keep</b></u> the rest of cash for ba<b><u>nner</b></u> on screen"
+        ],
+        // opis
+        desc: "mantener[] - keep",
+        //zdanie
+        sentence1: [
+                "Mantener"
+        ],
+        sentence: [
+                "Mantener",
+                "la paz",
+                "y",
+                "armonia",
+                "en",
+                "casa"
+        ],
+        //  slowo do nauki
+        key: "mantener",
+        category1: [
+        ],
+        category2: ["osoby", "osoby+czas"],
+                category3: ["Infinitive"]
+},
+{
+id: [
+        166,
+        32,
+        58
+],
+        // obrazek
+        img: [
+                "https://www.arbulang.com/img/fiszki1en-esp/166a.jpg"
+        ],
+        word: [
+                "https://www.arbulang.com/voice/music.mp4"
+        ],
+        // historia
+        story: [
+            "P<b><u>la</b></u>n for <b><u>peace</b></u> is <b><u>pass</b></u> through all what divide us"
+        ],
+        // opis
+        desc: "la paz[] - peace",
+        //zdanie
+        sentence2: [
+                "la paz"
+        ],
+        sentence: [
+                "Mantener",
+                "la paz",
+                "y",
+                "armonia",
+                "en",
+                "casa"
+        ],
+        //  slowo do nauki
+        key: "la paz",
+        category1: [
+                "sport", "gaming"
+        ],
+        category2: ["osoby", "osoby+czas"],
+                category3: ["Infinitive"]
+},
+{
+id: [
+        167,
+        32,
+        58
+],
+        // obrazek
+        img: [
+                "https://www.arbulang.com/img/fiszki1en-esp/65a.jpg",
+                 "https://www.arbulang.com/img/fiszki1en-esp/36a.jpg"
+        ],
+        word: [
+                "https://www.arbulang.com/voice/music.mp4"
+        ],
+        // historia
+        story: [
+                "<b><u>And</b></u> this is <b><u>i</b></u>t",
+                "<b><u>I</b></u>nternet <b><u>and</b></u> computer were great inventions"
+        ],
+        // opis
+        desc: "y[ee] - and",
+        //zdanie
+        sentence1: [
+                "y"
+        ],
+        sentence: [
+                "Mantener",
+                "la paz",
+                "y",
+                "armonia",
+                "en",
+                "casa"
+        ],
+        //  slowo do nauki
+        key: "y",
+        category1: [
+                "sport", "gaming"
+        ],
+        category2: ["osoby", "osoby+czas"],
+                category3: ["Infinitive"]
+    },
+    {
+id: [
+        168,
+        32,
+        58
+],
+        // obrazek
+        img: [
+                "https://www.arbulang.com/img/fiszki1en-esp/168a.jpg"
+        ],
+        word: [
+                "https://www.arbulang.com/voice/music.mp4"
+        ],
+        // historia
+        story: [
+            "COGNATS: armonia - harmony"
+        ],
+        // opis
+        desc: "armonia[] - harmony",
+        //zdanie
+        sentence1: [
+                "armonia"
+        ],
+        sentence: [
+                "Mantener",
+                "la paz",
+                "y",
+                "armonia",
+                "en",
+                "casa"
+        ],
+        //  slowo do nauki
+        key: "armonia",
+        category1: [
+                "sport", "gaming"
+        ],
+        category2: ["osoby", "osoby+czas"],
+                category3: ["Infinitive"]
+    },
+        {
+id: [
+        169,
+        32,
+        58
+],
+        // obrazek
+        img: [
+                "https://www.arbulang.com/img/fiszki1en-esp/30a.jpg"
+        ],
+        word: [
+                "https://www.arbulang.com/voice/lee.mp4"
+        ],
+        // historia
+        story: [
+                "New m<b><u>en</b></u> are on board"
+        ],
+        // opis
+        desc: "en[ehn] - on/in",
+        //zdanie
+        sentence1: [
+                "en"
+        ],
+        sentence: [
+                "Mantener",
+                "la paz",
+                "y",
+                "armonia",
+                "en",
+                "casa"
+        ],
+        //  slowo do nauki
+        key: "en",
+        category1: [
+                "sport", "gaming"
+        ],
+        category2: ["osoby", "osoby+czas"],
+                category3: ["Infinitive"]
+    },
+        {
+id: [
+        170,
+        32,
+        58
+],
+        // obrazek
+        img: [
+                "https://www.arbulang.com/img/fiszki1en-esp/170a.jpg"
+        ],
+        word: [
+                "https://www.arbulang.com/voice/music.mp4"
+        ],
+        // historia
+        story: [
+            "My <b><u>home</b></u> is a <b><u>cas</b></u>tle and have many <b><u>a</b></u>partments"
+        ],
+        // opis
+        desc: "casa[] - home",
+        //zdanie
+        sentence1: [
+                "casa"
+        ],
+        sentence: [
+                "Mantener",
+                "la paz",
+                "y",
+                "armonia",
+                "en",
+                "casa"
+        ],
+        //  slowo do nauki
+        key: "casa",
+        category1: [
+                "sport", "gaming"
+        ],
+        category2: ["osoby", "osoby+czas"],
+                category3: ["Infinitive"]
+    },
+        {
+id: [
+        171,
+        33,
+        59
+],
+        // obrazek
+        img: [
+                "https://www.arbulang.com/img/fiszki1en-esp/171a.jpg"
+        ],
+        translate: "To travel together in a nice car",
+        translateb: "[bai-LAHR LEN-toh kon MOO-see-kah roh-MAN-tee-kah SWAH-veh]",
+        srcWord: ["https://www.arbulang.com/filmy/esp/.mp4", ''],
+        srcWordimage: "https://www.arbulang.com/filmy/esp/dance.png",
+        word: [
+                "https://www.arbulang.com/voice/music.mp4"
+        ],
+        // historia
+        story: [
+            "<b><u>Bee</b></u> is tr<b><u>a</b></u>ver from flower to flower very <b><u>har</b></u>d"
+        ],
+        // opis
+        desc: "viajar[] - travel",
+        //zdanie
+        sentence1: [
+                "Viajar"
+        ],
+        sentence: [
+                "Viajar",
+                "juntos"
+        ],
+        //  slowo do nauki
+        key: "viajar",
+        category1: [
+        ],
+        category2: ["osoby", "osoby+czas"],
+                category3: ["Infinitive"]
+},
+        {
+id: [
+        172,
+        33,
+        59
+],
+        // obrazek
+        img: [
+                "https://www.arbulang.com/img/fiszki1en-esp/148a.jpg"
+        ],
+        word: [
+                "https://www.arbulang.com/voice/music.mp4"
+        ],
+        // historia
+        story: [
+                "They <b><u>hun</b></u>t <b><u>to</b></u>gether like a b<b><u>oss</b></u>"
+        ],
+        // opis
+        desc: "juntos[HOON-tohs] - together",
+        //zdanie
+        sentence1: [
+                "juntos"
+        ],
+        sentence: [
+                "Viajar",
+                "juntos"
+        ],
+        //  slowo do nauki
+        key: "juntos",
+        category1: [
+                "sport", "gaming"
+        ],
+        category2: ["osoby", "osoby+czas"],
+                category3: ["Infinitive"]
+    },
+    {
+id: [
+        173,
+        33,
+        60
+],
+        // obrazek
+        img: [
+                "https://www.arbulang.com/img/fiszki1en-esp/30a.jpg"
+        ],
+        word: [
+                "https://www.arbulang.com/voice/lee.mp4"
+        ],
+        // historia
+        story: [
+                "New m<b><u>en</b></u> are on board"
+        ],
+        // opis
+        desc: "en[ehn] - on/in",
+        //zdanie
+        sentence2: [
+                "en"
+        ],
+        sentence: [
+                "en",
+                "un coche",
+                "bonito"
+        ],
+        //  slowo do nauki
+        key: "en",
+        category1: [
+        ],
+        category2: ["osoby", "osoby+czas"],
+                category3: ["Infinitive"]
+},
+    {
+id: [
+        174,
+        33,
+        60
+],
+        // obrazek
+        img: [
+                "https://www.arbulang.com/img/fiszki1en-esp/93a.jpg"
+        ],
+        word: [
+                "https://www.arbulang.com/voice/music.mp4"
+        ],
+        // historia
+        story: [
+            "Br<b><u>un</b></u>o <b><u>co</u></b>pied his keys to the <b><u>car</u></b> and <b><u>che</b></u>cked if they really worked"
+        ],
+        // opis
+        desc: "un coche[] - a car (some/one)",
+        //zdanie
+        sentence2: [
+                "un_coche"
+        ],
+        sentence: [
+                "en",
+                "un coche",
+                "bonito"
+        ],
+        //  slowo do nauki
+        key: "coche",
+        category1: [
+        ],
+        category2: ["osoby", "osoby+czas"],
+                category3: ["Infinitive"]
+},
+    {
+id: [
+        175,
+        33,
+        60
+],
+        // obrazek
+        img: [
+                "https://www.arbulang.com/img/fiszki1en-esp/150a.jpg"
+        ],
+        word: [
+                "https://www.arbulang.com/voice/music.mp4"
+        ],
+        // historia
+        story: [
+            ""
+        ],
+        // opis
+        desc: "bonito[] - pretty",
+        //zdanie
+        sentence2: [
+                "bonito"
+        ],
+        sentence: [
+                "en",
+                "un coche",
+                "bonito"
+        ],
+        //  slowo do nauki
+        key: "bonito",
+        category1: [
+        ],
+        category2: ["osoby", "osoby+czas"],
+                category3: ["Infinitive"]
+},
+        {
+id: [
+        176,
+        34,
+        61
+],
+        // obrazek
+        img: [
+                "https://www.arbulang.com/img/fiszki1en-esp/176a.jpg"
+        ],
+        translate: "To wear nice makeup to feel good",
+        translateb: "[bai-LAHR LEN-toh kon MOO-see-kah roh-MAN-tee-kah SWAH-veh]",
+        srcWord: ["https://www.arbulang.com/filmy/esp/.mp4", ''],
+        srcWordimage: "https://www.arbulang.com/filmy/esp/dance.png",
+        word: [
+                "https://www.arbulang.com/voice/music.mp4"
+        ],
+        // historia
+        story: [
+            "This music 'op<b><u>us</b></u>' is <b><u>use</b></u> by others music st<b><u>ar</b></u>s"
+        ],
+        // opis
+        desc: "usar[] - use",
+        //zdanie
+        sentence1: [
+                "Usar"
+        ],
+        sentence: [
+                "Usar",
+                "maquillaje",
+                "bonito"
+        ],
+        //  slowo do nauki
+        key: "usar",
+        category1: [
+        ],
+        category2: ["osoby", "osoby+czas"],
+                category3: ["Infinitive"]
+},
+    {
+id: [
+        177,
+        34,
+        61
+],
+        // obrazek
+        img: [
+                "https://www.arbulang.com/img/fiszki1en-esp/150a.jpg"
+        ],
+        word: [
+                "https://www.arbulang.com/voice/music.mp4"
+        ],
+        // historia
+        story: [
+            ""
+        ],
+        // opis
+        desc: "maquillaje[] - ",
+        //zdanie
+        sentence1: [
+                "maquillaje"
+        ],
+        sentence: [
+                "Usar",
+                "maquillaje",
+                "bonito"
+        ],
+        //  slowo do nauki
+        key: "maquillaje",
+        category1: [
+        ],
+        category2: ["osoby", "osoby+czas"],
+                category3: ["Infinitive"]
+},
+    {
+id: [
+        178,
+        34,
+        61
+],
+        // obrazek
+        img: [
+                "https://www.arbulang.com/img/fiszki1en-esp/150a.jpg"
+        ],
+        word: [
+                "https://www.arbulang.com/voice/music.mp4"
+        ],
+        // historia
+        story: [
+            "<b><u>We look</b></u> at the <b><u>mir</b></u>racle which was seeing in reality <b><u>a</b></u>n actress Carrie-Anne <b><u>Moss</b></u>"
+        ],
+        // opis
+        desc: "bonito[] - ",
+        //zdanie
+        sentence1: [
+                "bonito"
+        ],
+        sentence: [
+                "Usar",
+                "maquillaje",
+                "bonito"
+        ],
+        //  slowo do nauki
+        key: "bonito",
+        category1: [
+        ],
+        category2: ["osoby", "osoby+czas"],
+                category3: ["Infinitive"]
+},
+    {
+id: [
+        179,
+        34,
+        62
+],
+        // obrazek
+        img: [
+                "https://www.arbulang.com/img/fiszkiespanol/134a.jpg"
+        ],
+        word: [
+                "https://www.arbulang.com/voice/music.mp4"
+        ],
+        // historia
+        story: [
+            "People can do a lot <u><b>for</u></b> <u><b>para</u></b>dise"
+        ],
+        // opis
+        desc: "para[PAH-rah] - for",
+        //zdanie
+        sentence2: [
+                "para"
+        ],
+        sentence: [
+                "para",
+                "sentirse",
+                "bien"
+        ],
+        //  slowo do nauki
+        key: "para",
+        category1: [
+        ],
+        category2: ["osoby", "osoby+czas"],
+                category3: ["Infinitive"]
+},
+    {
+id: [
+        180,
+        34,
+        62
+],
+        // obrazek
+        img: [
+                "https://www.arbulang.com/img/fiszki1en-esp/180a.jpg"
+        ],
+        word: [
+                "https://www.arbulang.com/voice/music.mp4"
+        ],
+        // historia
+        story: [
+            ""
+        ],
+        // opis
+        desc: "sentirse[] - feel",
+        //zdanie
+        sentence2: [
+                "sentirse"
+        ],
+        sentence: [
+                "para",
+                "sentirse",
+                "bien"
+        ],
+        //  slowo do nauki
+        key: "sentirse",
+        category1: [
+        ],
+        category2: ["osoby", "osoby+czas"],
+                category3: ["Infinitive"]
+},
+    {
+id: [
+        181,
+        34,
+        62
+],
+        // obrazek
+        img: [
+                "https://www.arbulang.com/img/fiszki1en-esp/150a.jpg"
+        ],
+        word: [
+                "https://www.arbulang.com/voice/music.mp4"
+        ],
+        // historia
+        story: [
+            ""
+        ],
+        // opis
+        desc: "bien[] - ",
+        //zdanie
+        sentence2: [
+                "bien"
+        ],
+        sentence: [
+                "para",
+                "sentirse",
+                "bien"
+        ],
+        //  slowo do nauki
+        key: "bien",
+        category1: [
+        ],
+        category2: ["osoby", "osoby+czas"],
+                category3: ["Infinitive"]
+}
 );

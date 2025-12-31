@@ -375,7 +375,7 @@ id: [
             "a_method"
         ],
                 sentence1c: [
-            "oon meh-toh-doh"
+            "oon_meh-toh-doh"
         ],
         sentence: [
                 "Un plan",
@@ -1172,7 +1172,7 @@ id: [
             "the_cup"
         ],
                 sentence2c: [
-            "lah tah-sah"
+            "lah_tah-sah"
         ],
         sentence: [
                 "camina",
@@ -1760,13 +1760,13 @@ id: [
         desc: "una flor[oo-nah flor] - flower",
         //zdanie
         sentence1: [
-                "una flor"
+                "una_flor"
         ],
                                                                                     sentence1b: [
             "a_flower"
         ],
                 sentence1c: [
-            "oo-nah flor"
+            "oo-nah_flor"
         ],
         sentence: [
                 "Dibujar",
@@ -1802,6 +1802,12 @@ id: [
         sentence2: [
                 "en"
         ],
+                                                                                            sentence2b: [
+            "in"
+        ],
+                sentence2c: [
+            "ehn"
+        ],
         sentence: [
                 "en",
                 "el cuaderno"
@@ -1834,7 +1840,13 @@ id: [
         desc: "el cuaderno[el kwah-dehr-noh] - the notebook",
         //zdanie
         sentence2: [
-                "el cuaderno"
+                "el_cuaderno"
+        ],
+                                                                                            sentence2b: [
+            "the_notebbok"
+        ],
+                sentence2c: [
+            "el_kwah-dehr-noh"
         ],
         sentence: [
                 "en",
@@ -1874,6 +1886,12 @@ id: [
         sentence1: [
                 "Esperar"
         ],
+            sentence1b: [
+            "To wait"
+        ],
+                sentence1c: [
+            "es-peh-rahr"
+        ],
         sentence: [
                 "Esperar",
                 "solo"
@@ -1909,6 +1927,12 @@ id: [
         sentence1: [
                 "solo"
         ],
+                    sentence1b: [
+            "alone"
+        ],
+                sentence1c: [
+            "soh-loh"
+        ],
         sentence: [
                 "Esperar",
                 "solo"
@@ -1943,6 +1967,12 @@ id: [
         sentence2: [
                 "dentro de"
         ],
+                    sentence2b: [
+            "inside"
+        ],
+                sentence2c: [
+            "den-troh deh"
+        ],
         sentence: [
                 "dentro de",
                 "la casa"
@@ -1976,6 +2006,12 @@ id: [
         //zdanie
         sentence2: [
                 "la casa"
+        ],
+                            sentence2b: [
+            "the house"
+        ],
+                sentence2c: [
+            "lah_kah-sah"
         ],
         sentence: [
                 "dentro de",
@@ -2015,6 +2051,12 @@ id: [
         sentence1: [
                 "Hablar"
         ],
+                            sentence1b: [
+            "To talk"
+        ],
+                sentence1c: [
+            "ah-blar"
+        ],
         sentence: [
                 "Hablar",
                 "sin",
@@ -2051,6 +2093,12 @@ id: [
         sentence1: [
                 "sin"
         ],
+                                    sentence1b: [
+            "without"
+        ],
+                sentence1c: [
+            "seen"
+        ],
         sentence: [
                 "Hablar",
                 "sin",
@@ -2085,6 +2133,12 @@ id: [
         //zdanie
         sentence1: [
                 "tension"
+        ],
+                                            sentence1b: [
+            "tension"
+        ],
+                sentence1c: [
+            "ten-syohn"
         ],
         sentence: [
                 "Hablar",
@@ -2121,6 +2175,12 @@ id: [
         sentence2: [
                 "mientras"
         ],
+        sentence2b: [
+            "while"
+        ],
+                sentence2c: [
+            "myen-trahs"
+        ],
         sentence: [
                 "mientras",
                 "caminamos",
@@ -2151,10 +2211,16 @@ id: [
                 "My <b><u>ca</b></u>t and i, <b><u>we walked</b></u> through the <b><u>mi</b></u>nt. We singing word of the song 'me <b><u>amo</b></u>' and thats the <b><u>s</b></u>tory"
         ],
         // opis
-        desc: "caminamos[kah-mee-nah-mos] - we walked",
+        desc: "caminamos[kah-mee-nah-mos] - we walk",
         //zdanie
         sentence2: [
                 "caminamos"
+        ],
+                sentence2b: [
+            "we walk"
+        ],
+                sentence2c: [
+            "kah-mee-nah-mos"
         ],
         sentence: [
                 "mientras",
@@ -2190,6 +2256,12 @@ id: [
         //zdanie
         sentence2: [
                 "juntos"
+        ],
+                        sentence2b: [
+            "together"
+        ],
+                sentence2c: [
+            "hoon-tos"
         ],
         sentence: [
                 "mientras",
@@ -2230,6 +2302,12 @@ id: [
         sentence1: [
                 "Romper"
         ],
+                                sentence1b: [
+            "To_break"
+        ],
+                sentence1c: [
+            "rom-pehr"
+        ],
         sentence: [
                 "Romper",
                 "el silencio",
@@ -2265,7 +2343,13 @@ id: [
         desc: "el silencio[el see-len-syoh] - the silence",
         //zdanie
         sentence1: [
-                "el silencio"
+                "el_silencio"
+        ],
+                                        sentence1b: [
+            "the_silence"
+        ],
+                sentence1c: [
+            "el_see-len-syoh"
         ],
         sentence: [
                 "Romper",
@@ -2303,6 +2387,12 @@ id: [
         sentence1: [
                 "con"
         ],
+                                                sentence1b: [
+            "with"
+        ],
+                sentence1c: [
+            "kohn"
+        ],
         sentence: [
                 "Romper",
                 "el silencio",
@@ -2338,6 +2428,12 @@ id: [
         sentence2: [
                 "palabras"
         ],
+                                                        sentence2b: [
+            "words"
+        ],
+                sentence2c: [
+            "pah-lah-brahs"
+        ],
         sentence: [
                 "palabras",
                 "bonitas"
@@ -2371,6 +2467,12 @@ id: [
         //zdanie
         sentence2: [
                 "bonitas"
+        ],
+                                                                sentence2b: [
+            "beautiful"
+        ],
+                sentence2c: [
+            "boh-nee-tahs"
         ],
         sentence: [
                 "palabras",
@@ -2410,6 +2512,12 @@ id: [
         sentence1: [
                 "Asegurar"
         ],
+                                                        sentence1b: [
+            "To_secure"
+        ],
+                sentence1c: [
+            "ah-seh-goo-rahr"
+        ],
         sentence: [
                 "Asegurar",
                 "las puertas"
@@ -2443,7 +2551,13 @@ id: [
         desc: "la puerta[pwer-tahs] - door",
         //zdanie
         sentence1: [
-                "las puertas"
+                "las_puertas"
+        ],
+                                                                sentence1b: [
+            "the_doors"
+        ],
+                sentence1c: [
+            "pwer-tahs"
         ],
         sentence: [
                 "Asegurar",
@@ -2477,7 +2591,13 @@ id: [
         desc: "antes de[ahn-tes de] - before",
         //zdanie
         sentence2: [
-                "antes de"
+                "antes_de"
+        ],
+                                                                        sentence2b: [
+            "before"
+        ],
+                sentence2c: [
+            "ahn-tes_de"
         ],
         sentence: [
                 "antes de",
@@ -2508,10 +2628,16 @@ id: [
                 "I enter my house <b><u>door</b></u> ang go to <b><u>sleep</b></u> every night, my dreams are often <b><u>mir</b></u>acles"
         ],
         // opis
-        desc: "dormir[dormir] - sleep",
+        desc: "dormir[dor-meer] - sleep",
         //zdanie
         sentence2: [
                 "dormir"
+        ],
+                                                                                sentence2b: [
+            "sleeping"
+        ],
+                sentence2c: [
+            "dor-meer"
         ],
         sentence: [
                 "antes de",
@@ -2551,6 +2677,12 @@ id: [
         sentence1: [
                 "Mantener"
         ],
+                                                                                sentence1b: [
+            "To_stay"
+        ],
+                sentence1c: [
+            "mahn-teh-nehr"
+        ],
         sentence: [
                 "Mantener",
                 "la calma"
@@ -2584,7 +2716,13 @@ id: [
         desc: "la calma[lah kahl-mah] - calm",
         //zdanie
         sentence1: [
-                "la calma"
+                "la_calma"
+        ],
+                                                                                        sentence1b: [
+            "calm"
+        ],
+                sentence1c: [
+            "lah_kahl-mah"
         ],
         sentence: [
                 "Mantener",
@@ -2622,6 +2760,12 @@ id: [
         sentence2: [
                 "y"
         ],
+                                                                                                sentence2b: [
+            "and"
+        ],
+                sentence2c: [
+            "ee"
+        ],
         sentence: [
                 "y",
                 "disfrutar",
@@ -2658,6 +2802,12 @@ id: [
         sentence2: [
                 "disfrutar"
         ],
+                                                                                                sentence2b: [
+            "enjoy"
+        ],
+                sentence2c: [
+            "dees-froo-tahr"
+        ],
         sentence: [
                 "y",
                 "disfrutar",
@@ -2688,10 +2838,16 @@ id: [
                 "<b><u>H</b></u>enry plays the game <b><u>together</b></u> with friend <b><u>unt</b></u>il they win... They are <b><u>toss</b></u>ing the ball in basketball"
         ],
         // opis
-        desc: "juntos[hoon-tohs] - razem",
+        desc: "juntos[hoon-tohs] - together",
         //zdanie
         sentence2: [
                 "juntos"
+        ],
+                                                                                                        sentence2b: [
+            "together"
+        ],
+                sentence2c: [
+            "hoon-tohs"
         ],
         sentence: [
                 "y",
@@ -2732,6 +2888,12 @@ id: [
         sentence1: [
                 "Lograr"
         ],
+                                                                                                sentence1b: [
+            "To_achive"
+        ],
+                sentence1c: [
+            "loh-grahr"
+        ],
         sentence: [
                 "Lograr",
                 "sueños",
@@ -2768,6 +2930,12 @@ id: [
         sentence1: [
                 "sueños"
         ],
+                                                                                                        sentence1b: [
+            "dreams"
+        ],
+                sentence1c: [
+            "sweh-nyos"
+        ],
         sentence: [
                 "Lograr",
                 "sueños",
@@ -2803,6 +2971,12 @@ id: [
         sentence1: [
                 "con"
         ],
+                                                                                                                sentence1b: [
+            "through"
+        ],
+                sentence1c: [
+            "kohn"
+        ],
         sentence: [
                 "Lograr",
                 "sueños",
@@ -2837,6 +3011,12 @@ id: [
         //zdanie
         sentence2: [
                 "esfuerzo"
+        ],
+        sentence2b: [
+            "effort"
+        ],
+                sentence2c: [
+            "ehs-fwehr-soh"
         ],
         sentence: [
                 "esfuerzo",
@@ -2875,6 +3055,12 @@ id: [
         sentence2: [
                 "y"
         ],
+                sentence2b: [
+            "end"
+        ],
+                sentence2c: [
+            "ee"
+        ],
         sentence: [
                 "esfuerzo",
                 "y",
@@ -2910,6 +3096,12 @@ id: [
         //zdanie
         sentence2: [
                 "dedication"
+        ],
+                        sentence2b: [
+            "dedication"
+        ],
+                sentence2c: [
+            "deh-dee-kah-syohn"
         ],
         sentence: [
                 "esfuerzo",
@@ -2950,6 +3142,12 @@ id: [
         sentence1: [
                 "Recordar"
         ],
+                                sentence1b: [
+            "To_remember"
+        ],
+                sentence1c: [
+            "reh-kor-dahr"
+        ],
         sentence: [
                 "Recordar",
                 "momentos",
@@ -2986,6 +3184,12 @@ id: [
         sentence1: [
                 "momentos"
         ],
+                                        sentence1b: [
+            "moments"
+        ],
+                sentence1c: [
+            "mo-men-tohs"
+        ],
         sentence: [
                 "Recordar",
                 "momentos",
@@ -3016,10 +3220,16 @@ id: [
                 "He <b><u>fel</b></u>t <b><u>happy</b></u> couse of Kserk<b><u>ses</b></u>"
         ],
         // opis
-        desc: "felices[felises] - happy",
+        desc: "felices[feh-lee-sehs] - happy",
         //zdanie
         sentence1: [
                 "felices"
+        ],
+                                                sentence1b: [
+            "happy"
+        ],
+                sentence1c: [
+            "feh-lee-sehs"
         ],
         sentence: [
                 "Recordar",
@@ -3056,6 +3266,12 @@ id: [
         sentence2: [
                 "con"
         ],
+                                                        sentence2b: [
+            "with"
+        ],
+                sentence2c: [
+            "kohn"
+        ],
         sentence: [
                 "con",
                 "la familia"
@@ -3085,10 +3301,16 @@ id: [
                 "COGNATS - LA FAMILIA - FAMILY"
         ],
         // opis
-        desc: "la familia[la familia] - family",
+        desc: "la familia[lah fah-mee-lyah] - family",
         //zdanie
         sentence2: [
                 "la familia"
+        ],
+                                                                sentence2b: [
+            "family"
+        ],
+                sentence2c: [
+            "lah_fah-mee-lyah"
         ],
         sentence: [
                 "con",
@@ -3129,6 +3351,12 @@ id: [
         sentence1: [
                 "Disfrutar"
         ],
+                                                                        sentence1b: [
+            "To_enjoy"
+        ],
+                sentence1c: [
+            "deh-seh-froo-TAHR"
+        ],
         sentence: [
                 "Disfrutar",
                 "del maquillaje"
@@ -3162,7 +3390,13 @@ id: [
         desc: "maquillaje[del mah-kee-YAH-heh] - make up",
         //zdanie
         sentence1: [
-                "del maquillaje"
+                "del_maquillaje"
+        ],
+                                                                                sentence1b: [
+            "make_up"
+        ],
+                sentence1c: [
+            "del_mah-kee-YAH-heh"
         ],
         sentence: [
                 "Disfrutar",
@@ -3197,7 +3431,13 @@ id: [
         //zdanie
         //zdanie
         sentence2: [
-                "antes de"
+                "antes_de"
+        ],
+                                                                                        sentence2b: [
+            "before"
+        ],
+                sentence2c: [
+            "AHN-tehs_deh"
         ],
         sentence: [
                 "antes de",
@@ -3228,10 +3468,16 @@ id: [
                 "I need a <b><u>sal</b></u>ary to <b><u>go out</b></u> and drink b<b><u>eer</b></u>"
         ],
         // opis
-        desc: "salir[sah-LEER] - go out",
+        desc: "salir[sah-LEER] - going out",
         //zdanie
         sentence2: [
                 "salir"
+        ],
+                                                                                                sentence2b: [
+            "going_out"
+        ],
+                sentence2c: [
+            "sah-LEER"
         ],
         sentence: [
                 "antes de",
@@ -3271,6 +3517,12 @@ id: [
         sentence1: [
                 "Olvidar"
         ],
+                        sentence1b: [
+            "To_forget"
+        ],
+                sentence1c: [
+            "ohl-vee-DAR"
+        ],
         sentence: [
                 "Olvidar",
                 "la ansiedad"
@@ -3306,6 +3558,12 @@ id: [
         sentence1: [
                 "la ansiedad"
         ],
+                                sentence1b: [
+            "anxiety"
+        ],
+                sentence1c: [
+            "lah_ahn-syeh-DAHD"
+        ],
         sentence: [
                 "Olvidar",
                 "la ansiedad"
@@ -3340,6 +3598,12 @@ id: [
         sentence2: [
                 "mirando"
         ],
+                                        sentence2b: [
+            "by_looking"
+        ],
+                sentence2c: [
+            "mee-RAHN-doh"
+        ],
         sentence: [
                 "mirando",
                 "las estrellas"
@@ -3373,6 +3637,12 @@ id: [
         //zdanie
         sentence2: [
                 "las estrellas"
+        ],
+                                                sentence2b: [
+            "at_the_stars"
+        ],
+                sentence2c: [
+            "lahs_es-TRAY-yahs"
         ],
         sentence: [
                 "mirando",
@@ -3412,6 +3682,12 @@ id: [
         sentence1: [
                 "Extender"
         ],
+                                                        sentence1b: [
+            "To_stretch"
+        ],
+                sentence1c: [
+            "ehks-tehn-DAIR"
+        ],
         sentence: [
                 "Extender",
                 "los brazos",
@@ -3448,6 +3724,12 @@ id: [
         sentence1: [
                 "los brazos"
         ],
+                                                                sentence1b: [
+            "arms"
+        ],
+                sentence1c: [
+            "lohs_BRAH-sohs"
+        ],
         sentence: [
                 "Extender",
                 "los brazos",
@@ -3482,6 +3764,12 @@ id: [
         //zdanie
         sentence1: [
                 "al"
+        ],
+                                                                        sentence1b: [
+            "toward"
+        ],
+                sentence1c: [
+            "ahl"
         ],
         sentence: [
                 "Extender",
@@ -3518,6 +3806,12 @@ id: [
         sentence2: [
                 "cielo"
         ],
+                                                                                sentence2b: [
+            "sky"
+        ],
+                sentence2c: [
+            "SYEH-loh"
+        ],
         sentence: [
                 "cielo",
                 "azul"
@@ -3551,6 +3845,12 @@ id: [
         //zdanie
         sentence2: [
                 "azul"
+        ],
+                                                                                        sentence2b: [
+            "blue"
+        ],
+                sentence2c: [
+            "ah-SOOL"
         ],
         sentence: [
                 "cielo",
@@ -3590,6 +3890,12 @@ id: [
         sentence1: [
                 "Cubrir"
         ],
+            sentence1b: [
+            "To_cover"
+        ],
+                sentence1c: [
+            "koo-BREER"
+        ],
         sentence: [
                 "Cubrir",
                 "el coche",
@@ -3626,6 +3932,12 @@ id: [
         sentence1: [
                 "el coche"
         ],
+                    sentence1b: [
+            "the_car"
+        ],
+                sentence1c: [
+            "el_KO-cheh"
+        ],
         sentence: [
                 "Cubrir",
                 "el coche",
@@ -3661,6 +3973,12 @@ id: [
         sentence1: [
                 "antes de"
         ],
+                            sentence1b: [
+            "before"
+        ],
+                sentence1c: [
+            "AHN-tehs_deh"
+        ],
         sentence: [
                 "Cubrir",
                 "el coche",
@@ -3695,6 +4013,12 @@ id: [
         //zdanie
         sentence1: [
                 "la lluvia"
+        ],
+                                    sentence1b: [
+            "rain"
+        ],
+                sentence1c: [
+            "lah_YOO-byah"
         ],
         sentence: [
                 "Cubrir",
@@ -3735,6 +4059,12 @@ id: [
         sentence1: [
                 "Cambiar"
         ],
+                                            sentence1b: [
+            "To_change"
+        ],
+                sentence1c: [
+            "kahm-BYAR"
+        ],
         sentence: [
                 "Cambiar",
                 "la mente"
@@ -3769,6 +4099,12 @@ id: [
         sentence1: [
                 "la mente"
         ],
+                                                    sentence1b: [
+            "the_mind"
+        ],
+                sentence1c: [
+            "lah_MEN-teh"
+        ],
         sentence: [
                 "Cambiar",
                 "la mente"
@@ -3801,6 +4137,12 @@ id: [
         //zdanie
         sentence2: [
                 "con"
+        ],
+                                                            sentence2b: [
+            "with"
+        ],
+                sentence2c: [
+            "kohn"
         ],
         sentence: [
                 "con",
@@ -3835,6 +4177,12 @@ id: [
         //zdanie
         sentence2: [
                 "nuevas"
+        ],
+                                                                    sentence2b: [
+            "new"
+        ],
+                sentence2c: [
+            "NWAY-bahs"
         ],
         sentence: [
                 "con",

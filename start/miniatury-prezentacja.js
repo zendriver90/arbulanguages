@@ -37,18 +37,21 @@ function showCombinedSentenceForLesson22b(
         const srcWord1 = pobierzSrcWordDlaLekcji(lessonIdToShow1, fiszki);
         const srcWord1a = pobierzSrcWordDlaLekcji2(lessonIdToShow1, fiszki);
         const srcWord1b = pobierzSrcWordDlaLekcji3(lessonIdToShow1, fiszki);
+                const srcWord1c = pobierzSrcWordDlaLekcji3b(lessonIdToShow1, fiszki);
         const srcWord1d = pobierzSrcWordDlaLekcji4(lessonIdToShow1, fiszki);
         const srcWord1f = pobierzSrcWordDlaLekcji5(lessonIdToShow1, fiszki);
         const srcWord1v = pobierzSrcWordDlaLekcji6(lessonIdToShow1, fiszki);
         const srcWord2 = pobierzSrcWordDlaLekcji(lessonIdToShow2, fiszki);
         const srcWord2a = pobierzSrcWordDlaLekcji2(lessonIdToShow2, fiszki);
         const srcWord2b = pobierzSrcWordDlaLekcji3(lessonIdToShow2, fiszki);
+                        const srcWord2c = pobierzSrcWordDlaLekcji3b(lessonIdToShow2, fiszki);
         const srcWord2d = pobierzSrcWordDlaLekcji4(lessonIdToShow2, fiszki);
         const srcWord2f = pobierzSrcWordDlaLekcji5(lessonIdToShow2, fiszki);
         const srcWord2v = pobierzSrcWordDlaLekcji6(lessonIdToShow2, fiszki);
         const srcWord3 = pobierzSrcWordDlaLekcji(lessonIdToShow3, fiszki);
         const srcWord3a = pobierzSrcWordDlaLekcji2(lessonIdToShow3, fiszki);
         const srcWord3b = pobierzSrcWordDlaLekcji3(lessonIdToShow3, fiszki);
+                        const srcWord3c = pobierzSrcWordDlaLekcji3b(lessonIdToShow3, fiszki);
         const srcWord3d = pobierzSrcWordDlaLekcji4(lessonIdToShow3, fiszki);
         const srcWord3f = pobierzSrcWordDlaLekcji5(lessonIdToShow3, fiszki);
         const srcWord3v = pobierzSrcWordDlaLekcji6(lessonIdToShow3, fiszki);
@@ -64,6 +67,10 @@ function showCombinedSentenceForLesson22b(
         function pobierzSrcWordDlaLekcji3(lessonId, fiszki) {
             const matchingFiszka = fiszki.find(fiszka => fiszka.id[1] === lessonId);
             return matchingFiszka ? matchingFiszka.srcWord[1] : null; // Zwracamy srcWord[1] zamiast srcWord
+        }
+                function pobierzSrcWordDlaLekcji3b(lessonId, fiszki) {
+            const matchingFiszka = fiszki.find(fiszka => fiszka.id[1] === lessonId);
+            return matchingFiszka ? matchingFiszka.srcWord[0] : null; // Zwracamy srcWord[1] zamiast srcWord
         }
         function pobierzSrcWordDlaLekcji4(lessonId, fiszki) {
             const matchingFiszka = fiszki.find(fiszka => fiszka.id[1] === lessonId);
@@ -573,6 +580,7 @@ function showCombinedSentenceForLesson22b(
         const srcWords = [srcWord1, srcWord2, srcWord3];        // linki do wideo odpowiadają pozycji 0..2
         const srcWordsb = [srcWord1v, srcWord2v, srcWord3v];
         const srcWords2 = [srcWord1b, srcWord2b, srcWord3b];
+                const srcWords2b = [srcWord1c, srcWord2c, srcWord3c];
         const miniaturka = [srcWord1a, srcWord2a, srcWord3a];   // preview obrazy odpowiadają pozycji 0..2
         const thumbDescriptions = [srcWord1f, srcWord2f, srcWord3f];
         const sentences = [matchingFiszki1[0], matchingFiszki2[0], matchingFiszki3[0]];
@@ -3702,70 +3710,92 @@ console.log('hej68ll', mojeidWordIndex);
 
             let $media;
 
-            const previewImgSrc = miniaturka[currentPos];
+const previewImgSrc = miniaturka[currentPos];
 
-// 🔥 Pobranie pierwszego filmu dla tej lekcji
-            const videoSrc = srcWords2[currentPos]
-                    ? srcWords2[currentPos][0]
-                    : null;
+// --- Bezpieczne pobranie videoSrc ---
+let videoSrc = null;
+if (Array.isArray(srcWords2b[currentPos])) {
+    videoSrc = srcWords2b[currentPos][0];
+} else if (typeof srcWords2b[currentPos] === 'string') {
+    videoSrc = srcWords2b[currentPos];
+}
 
-// Wideo lub miniaturka
-            if (videoVisible && videoSrc) {
-                $media = $('<video>')
-                        .attr({src: videoSrc, controls: true, autoplay: true})
-                        .css({width: '100%', borderRadius: '15px', display: 'block'})
-                        .on('ended', () => {
-                            videoVisible = false;
-                            renderLesson();
-                        });
-            } else {
-                $media = $('<img>').addClass('preview-img');
-                setImgSrcForce($media, previewImgSrc);
-                $media.off('click.preview').on('click.preview', () => {
-                    videoVisible = true;
-                    renderLesson();
-                });
-            }
+// --- WIDEO lub MINIATURA ---
+if (videoVisible && videoSrc) {
 
-            $mediaContainer.append($media);
+    $media = $('<video>')
+        .attr({
+            src: videoSrc,
+            controls: true,
+            autoplay: true,
+            muted: true,        // 🔥 wymagane dla autoplay
+            playsinline: true,
+            preload: 'auto'
+        })
+        .css({
+            width: '100%',
+            borderRadius: '15px',
+            display: 'block'
+        })
+        .on('loadeddata', () => console.log('VIDEO READY'))
+        .on('play', () => console.log('VIDEO PLAYING'))
+        .on('ended', () => {
+            videoVisible = false;
+            renderLesson();
+        });
 
-// --- Kontener na nazwy filmów ---
-            const $textContainer2 = $('<div></div>').css({
-                position: 'absolute',
-                top: '20px',
-                left: '0',
-                right: '0',
-                bottom: '0',
-                overflowY: 'auto',
-                padding: '10px',
-                color: 'white',
-                fontSize: '12px',
-                textAlign: 'center',
-                borderRadius: '10px',
-                pointerEvents: 'none' // opcjonalnie, jeśli chcesz przepuszczać kliknięcia
-            });
+} else {
 
-// 🔥 ukryj gdy wideo leci
-            if (videoVisible) {
-                $textContainer2.hide();
-            } else {
-                $textContainer2.show();
-            }
+    $media = $('<img>')
+        .addClass('preview-img')
+        .css({
+            width: '100%',
+            borderRadius: '15px',
+            cursor: 'pointer',
+            display: 'block'
+        });
 
-// Pobranie tablicy filmów, jeśli to string zamieniamy na tablicę
-            const currentVideos = Array.isArray(srcWords2[currentPos])
-                    ? srcWords2[currentPos]
-                    : (srcWords2[currentPos] ? [srcWords2[currentPos]] : []);
+    setImgSrcForce($media, previewImgSrc);
 
-// Dodaj nazwy filmów
-            currentVideos.forEach(src => {
-                const fileName = src.split('/').pop().replace('.mp4', '');
-                const $videoName = $('<p>').text(fileName).css({
-                    fontWeight: 'bold',
-                    margin: '4px 0'
-                });
-                $textContainer2.append($videoName);
-            });
+    $media.off('click.preview').on('click.preview', () => {
+        videoVisible = true;
+        renderLesson();
+    });
+}
+
+$mediaContainer.append($media);
+
+// --- Overlay z nazwami filmów ---
+const $textContainer2 = $('<div>').css({
+    position: 'absolute',
+    top: '20px',
+    left: '0',
+    right: '0',
+    bottom: '0',
+    overflowY: 'auto',
+    padding: '10px',
+    color: 'white',
+    fontSize: '12px',
+    textAlign: 'center',
+    borderRadius: '10px',
+    pointerEvents: 'none'
+});
+
+if (videoVisible) {
+    $textContainer2.hide();
+} else {
+    $textContainer2.show();
+}
+
+const currentVideos = Array.isArray(srcWords2[currentPos])
+    ? [srcWords2[currentPos][0]]  // URL do wideo
+    : (srcWords2[currentPos] ? [srcWords2[currentPos]] : []);
+
+currentVideos.forEach(src => {
+    const fileName = Array.isArray(srcWords2[currentPos]) ? srcWords2[currentPos][1] : src.split('/').pop();
+    const $videoName = $('<p>').text(fileName).css({ fontWeight: 'bold', margin: '4px 0' });
+    $textContainer2.append($videoName);
+});
 
             $mediaContainer.append($textContainer2);
 

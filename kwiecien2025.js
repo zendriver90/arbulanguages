@@ -1,4 +1,4 @@
-const fiszki10_part1 = [
+window.fiszki10_part1 = [
     {
         id: [
             1
@@ -232,7 +232,7 @@ const fiszki10_part1 = [
             person react with hate and disagrement to things like that. Court by the way need to 'claim', that some person depends of 'voices' - irrelevant to whom \n\
             was the person which coused this 'inner dialog' - person which install this kind of narration - parents, partner, group on facebbok, school. The Catolic \n\
             Church needs to climb to narration of possesion as a justification of some kind of act which when this act is 'located' then needs to pass through the \n\
-            moral channel and from that is a step to invigilate human being by the fully faith or parted faith.""
+            moral channel and from that is a step to invigilate human being by the fully faith or parted faith."
         ],
                 AItranslation: [
             "You can also pray with the intention that the 'world'—in the form of people you meet—speaks to you like your beloved man or woman... The only question \n\
