@@ -976,6 +976,12 @@ id: [
         sentence1: [
                 "temprano"
         ],
+                                                                                sentence1b: [
+            "early"
+        ],
+                sentence1c: [
+            "tehm-PRAH-noh"
+        ],
         sentence: [
                 "Llegar",
                 "temprano"
@@ -1011,6 +1017,12 @@ id: [
         sentence2: [
                 "y"
         ],
+                sentence2b: [
+            "and"
+        ],
+                sentence2c: [
+            "ee"
+        ],
         sentence: [
                 "y",
                 "disfrutar",
@@ -1045,6 +1057,12 @@ id: [
         sentence2: [
                 "disfrutar"
         ],
+                        sentence2b: [
+            "enjoy"
+        ],
+                sentence2c: [
+            "deh-seh-froo-TAHR"
+        ],
         sentence: [
                 "y",
                 "disfrutar",
@@ -1077,7 +1095,13 @@ id: [
         desc: "la mañana[lah mahn-YAH-nah] - the morning",
         //zdanie
         sentence2: [
-                "la mañana"
+                "la_mañana"
+        ],
+                                sentence2b: [
+            "the_morning"
+        ],
+                sentence2c: [
+            "lah_mahn-YAH-nah"
         ],
         sentence: [
                 "y",
@@ -1118,6 +1142,12 @@ id: [
         sentence1: [
                 "Rehusar"
         ],
+                                        sentence1b: [
+            "To_refuse"
+        ],
+                sentence1c: [
+            "reh-oo-SAHR"
+        ],
         sentence: [
                 "Rehusar",
                 "ofertas",
@@ -1153,6 +1183,12 @@ id: [
         sentence1: [
                 "ofertas"
         ],
+                                                sentence1b: [
+            "offers"
+        ],
+                sentence1c: [
+            "oh-FEHR-tahs"
+        ],
         sentence: [
                 "Rehusar",
                 "ofertas",
@@ -1186,6 +1222,12 @@ id: [
         //zdanie
         sentence1: [
                 "que"
+        ],
+                                                        sentence1b: [
+            "that"
+        ],
+                sentence1c: [
+            "keh"
         ],
         sentence: [
                 "Rehusar",
@@ -1221,6 +1263,12 @@ id: [
         sentence2: [
                 "no"
         ],
+            sentence2b: [
+            "don't"
+        ],
+                sentence2c: [
+            "noh"
+        ],
         sentence: [
                 "no",
                 "te gusten"
@@ -1253,6 +1301,12 @@ id: [
         //zdanie
         sentence2: [
                 "te gusten"
+        ],
+                    sentence2b: [
+            "you like"
+        ],
+                sentence2c: [
+            "teh_GOOS-tehn"
         ],
         sentence: [
                 "no",
@@ -1291,6 +1345,12 @@ id: [
         sentence1: [
                 "Entrenar"
         ],
+                            sentence1b: [
+            "To_train"
+        ],
+                sentence1c: [
+            "en-treh-NAR"
+        ],
         sentence: [
                 "Entrenar",
                 "fuerte"
@@ -1325,6 +1385,12 @@ id: [
         sentence1: [
                 "fuerte"
         ],
+                                    sentence1b: [
+            "hard"
+        ],
+                sentence1c: [
+            "FWER-teh"
+        ],
         sentence: [
                 "Entrenar",
                 "fuerte"
@@ -1357,6 +1423,12 @@ id: [
         //zdanie
         sentence2: [
                 "para"
+        ],
+                                            sentence2b: [
+            "for"
+        ],
+                sentence2c: [
+            "PAH-rah"
         ],
         sentence: [
                 "para",
@@ -1392,6 +1464,12 @@ id: [
         sentence2: [
                 "sentirte"
         ],
+                                                    sentence2b: [
+            "feel"
+        ],
+                sentence2c: [
+            "sen-TEER-teh"
+        ],
         sentence: [
                 "para",
                 "sentirte",
@@ -1425,6 +1503,12 @@ id: [
         //zdanie
         sentence2: [
                 "mejor"
+        ],
+                                                            sentence2b: [
+            "better"
+        ],
+                sentence2c: [
+            "meh-KHOR"
         ],
         sentence: [
                 "para",
@@ -1465,6 +1549,12 @@ id: [
         sentence1: [
                 "Explicar"
         ],
+        sentence1b: [
+            "To_explain"
+        ],
+                sentence1c: [
+            "ehks-plee-KAR"
+        ],
         sentence: [
                 "Explicar",
                 "respuestas",
@@ -1501,6 +1591,12 @@ id: [
         //zdanie
         sentence1: [
                 "respuestas"
+        ],
+                sentence1b: [
+            "answers"
+        ],
+                sentence1c: [
+            "rehs-PWEHS-tahs"
         ],
         sentence: [
                 "Explicar",
@@ -1539,6 +1635,12 @@ id: [
         sentence1: [
                 "claras"
         ],
+                        sentence1b: [
+            "clear"
+        ],
+                sentence1c: [
+            "KLAH-rahs"
+        ],
         sentence: [
                 "Explicar",
                 "respuestas",
@@ -1574,6 +1676,12 @@ id: [
         //zdanie
         sentence1: [
                 "a los niños"
+        ],
+                                sentence1b: [
+            "to children"
+        ],
+                sentence1c: [
+            "ah_lohs NEEN-yohs"
         ],
         sentence: [
                 "Explicar",
@@ -1615,6 +1723,12 @@ id: [
         sentence1: [
                 "Probar"
         ],
+                                        sentence1b: [
+            "To_try"
+        ],
+                sentence1c: [
+            "proh-BAR"
+        ],
         sentence: [
                 "Probar",
                 "comida",
@@ -1649,6 +1763,12 @@ id: [
         //zdanie
         sentence1: [
                 "comida"
+        ],
+                                                sentence1b: [
+            "food"
+        ],
+                sentence1c: [
+            "koh-MEE-dah"
         ],
         sentence: [
                 "Probar",
@@ -1685,6 +1805,12 @@ id: [
         sentence1: [
                 "deliciosa"
         ],
+                                                        sentence1b: [
+            "delicious"
+        ],
+                sentence1c: [
+            "deh-lee-SYOH-sah"
+        ],
         sentence: [
                 "Probar",
                 "comida",
@@ -1719,6 +1845,12 @@ id: [
         //zdanie
         sentence2: [
                 "en"
+        ],
+                                                                sentence2b: [
+            "in"
+        ],
+                sentence2c: [
+            "ehn"
         ],
         sentence: [
                 "en",
@@ -1756,6 +1888,12 @@ id: [
         sentence2: [
                 "nuevos"
         ],
+                                                                        sentence2b: [
+            "new"
+        ],
+                sentence2c: [
+            "NWEH-bohs"
+        ],
         sentence: [
                 "en",
                 "nuevos",
@@ -1783,13 +1921,19 @@ id: [
         ],
         // historia
         story: [
-            ""
+            "The b<b><u>lue</b></u> carpet makes me feel good in this <b><u>place</b></u>, <b><u>es</b></u>pecially with the nearby <b><u>gar</b></u>den so beautiful."
         ],
         // opis
         desc: "lugares[loo-GAH-rehs] - places",
         //zdanie
         sentence2: [
                 "lugares"
+        ],
+                                                                                sentence2b: [
+            "places"
+        ],
+                sentence2c: [
+            "loo-GAH-rehs"
         ],
         sentence: [
                 "en",
@@ -1830,6 +1974,12 @@ id: [
         sentence1: [
                 "Reir"
         ],
+        sentence1b: [
+            "To_laugh"
+        ],
+                sentence1c: [
+            "reh-EER"
+        ],
         sentence: [
                 "Reir",
                 "juntos"
@@ -1863,6 +2013,12 @@ id: [
         //zdanie
         sentence1: [
                 "juntos"
+        ],
+                sentence1b: [
+            "together"
+        ],
+                sentence1c: [
+            "HOON-tohs"
         ],
         sentence: [
                 "Reir",
@@ -1899,6 +2055,12 @@ id: [
         sentence2: [
                 "mientras"
         ],
+                        sentence2b: [
+            "while"
+        ],
+                sentence2c: [
+            "MYEN-trahs"
+        ],
         sentence: [
                 "mientras",
                 "miramos",
@@ -1915,7 +2077,8 @@ id: [
 {
 id: [
         150,
-        29
+        29,
+        53
 ],
         // obrazek
         img: [
@@ -1934,6 +2097,12 @@ id: [
         sentence2: [
                 "miramos"
         ],
+                                sentence2b: [
+            "watching"
+        ],
+                sentence2c: [
+            "mee-RAH-mohs"
+        ],
         sentence: [
                 "mientras",
                 "miramos",
@@ -1950,7 +2119,8 @@ id: [
 {
 id: [
         151,
-        29
+        29,
+        53
 ],
         // obrazek
         img: [
@@ -1969,6 +2139,12 @@ id: [
         sentence2: [
                 "películas"
         ],
+                                        sentence2b: [
+            "movies"
+        ],
+                sentence2c: [
+            "peh-LEE-koo-lahs"
+        ],
         sentence: [
                 "mientras",
                 "miramos",
@@ -1985,7 +2161,8 @@ id: [
 {
 id: [
         152,
-        29
+        29,
+        53
 ],
         // obrazek
         img: [
@@ -2004,6 +2181,12 @@ id: [
         sentence2: [
                 "cómicas"
         ],
+                                                sentence2b: [
+            "comics"
+        ],
+                sentence2c: [
+            "KOH-mee-kahs"
+        ],
         sentence: [
                 "mientras",
                 "miramos",
@@ -2020,7 +2203,8 @@ id: [
 {
 id: [
         153,
-        30
+        30,
+        54
 ],
         // obrazek
         img: [
@@ -2043,6 +2227,12 @@ id: [
         sentence1: [
                 "Negar"
         ],
+                                                        sentence1b: [
+            "To_deny"
+        ],
+                sentence1c: [
+            "neh-GAR"
+        ],
         sentence: [
                 "Negar",
                 "mentiras"
@@ -2057,7 +2247,8 @@ id: [
 {
 id: [
         154,
-        30
+        30,
+        54
 ],
         // obrazek
         img: [
@@ -2076,6 +2267,12 @@ id: [
         sentence1: [
                 "mentiras"
         ],
+                                                                sentence1b: [
+            "lies"
+        ],
+                sentence1c: [
+            "men-TEE-rahs"
+        ],
         sentence: [
                 "Negar",
                 "mentiras"
@@ -2090,7 +2287,8 @@ id: [
 {
 id: [
         155,
-        30
+        30,
+        55
 ],
         // obrazek
         img: [
@@ -2111,6 +2309,12 @@ id: [
         sentence2: [
                 "y"
         ],
+                                                                        sentence2b: [
+            "and"
+        ],
+                sentence2c: [
+            "ee"
+        ],
         sentence: [
                 "y",
                 "decir",
@@ -2128,7 +2332,8 @@ id: [
 {
 id: [
         156,
-        30
+        30,
+        55
 ],
         // obrazek
         img: [
@@ -2147,6 +2352,12 @@ id: [
         sentence2: [
                 "decir"
         ],
+                                                                                sentence2b: [
+            "tell"
+        ],
+                sentence2c: [
+            "deh-SEER"
+        ],
         sentence: [
                 "y",
                 "decir",
@@ -2163,7 +2374,8 @@ id: [
 {
 id: [
         157,
-        30
+        30,
+        55
 ],
         // obrazek
         img: [
@@ -2184,6 +2396,12 @@ id: [
         sentence2: [
                 "siempre"
         ],
+                                                                                        sentence2b: [
+            "always"
+        ],
+                sentence2c: [
+            "SYEM-preh"
+        ],
         sentence: [
                 "y",
                 "decir",
@@ -2201,7 +2419,8 @@ id: [
 {
 id: [
         158,
-        30
+        30,
+        55
 ],
         // obrazek
         img: [
@@ -2220,6 +2439,12 @@ id: [
         sentence2: [
                 "verdad"
         ],
+                                                                                                sentence2b: [
+            "truth"
+        ],
+                sentence2c: [
+            "ber-DAHD"
+        ],
         sentence: [
                 "y",
                 "decir",
@@ -2237,7 +2462,8 @@ id: [
 {
 id: [
         159,
-        31
+        31,
+        56
 ],
         // obrazek
         img: [
@@ -2255,10 +2481,16 @@ id: [
             "Tender <b><u>Lar</b></u>a say good <b><u>bye</b></u> to lover after <b><u>dancing</b></u>"
         ],
         // opis
-        desc: "bailar[] - to dance",
+        desc: "bailar[bai-LAHR] - to dance",
         //zdanie
         sentence1: [
                 "Bailar"
+        ],
+        sentence1b: [
+            "To_dance"
+        ],
+                sentence1c: [
+            "bai-LAHR"
         ],
         sentence: [
                 "Bailar",
@@ -2274,7 +2506,8 @@ id: [
 {
 id: [
         160,
-        31
+        31,
+        56
 ],
         // obrazek
         img: [
@@ -2288,10 +2521,16 @@ id: [
             "P<b><u>len</b></u>ty of wheels in that tank move <b><u>slowly</b></u>. The tank has big mo<b><u>to</b></u>r"
         ],
         // opis
-        desc: "lento[] - slowly",
+        desc: "lento[LEN-toh] - slowly",
         //zdanie
         sentence2: [
                 "lento"
+        ],
+                sentence1b: [
+            "slowly"
+        ],
+                sentence1c: [
+            "LEN-toh"
         ],
         sentence: [
                 "Bailar",
@@ -2308,7 +2547,8 @@ id: [
 {
 id: [
         161,
-        31
+        31,
+        57
 ],
         // obrazek
         img: [
@@ -2326,6 +2566,12 @@ id: [
         //zdanie
         sentence2: [
                 "con"
+        ],                
+        sentence2b: [
+            "with"
+        ],
+                sentence2c: [
+            "kohn"
         ],
         sentence: [
                 "con",
@@ -2344,7 +2590,8 @@ id: [
 {
 id: [
         162,
-        31
+        31,
+        57
 ],
         // obrazek
         img: [
@@ -2358,10 +2605,16 @@ id: [
             "COGNATS - MUSIC - MUSICA"
         ],
         // opis
-        desc: "música[] - music",
+        desc: "música[MOO-see-kah] - music",
         //zdanie
         sentence2: [
                 "música"
+        ],
+                sentence2b: [
+            "music"
+        ],
+                sentence2c: [
+            "MOO-see-kah"
         ],
         sentence: [
                 "con",
@@ -2380,7 +2633,8 @@ id: [
 {
 id: [
         163,
-        31
+        31,
+        57
 ],
         // obrazek
         img: [
@@ -2394,10 +2648,16 @@ id: [
             "COGNATS - ROMANTICA - ROMANTIC"
         ],
         // opis
-        desc: "romántica[] - romantic",
+        desc: "romántica[roh-MAN-tee-kah] - romantic",
         //zdanie
         sentence2: [
                 "romántica"
+        ],
+                        sentence2b: [
+            "romantic"
+        ],
+                sentence2c: [
+            "roh-MAN-tee-kah"
         ],
         sentence: [
                 "con",
@@ -2436,6 +2696,12 @@ id: [
         sentence2: [
                 "suave"
         ],
+                                sentence2b: [
+            "soft"
+        ],
+                sentence2c: [
+            "SWAH-veh"
+        ],
         sentence: [
                 "con",
                 "música",
@@ -2461,7 +2727,7 @@ id: [
                 "https://www.arbulang.com/img/fiszki1en-esp/165a.jpg"
         ],
         translate: "To maintain peace and harmony at home",
-        translateb: "[bai-LAHR LEN-toh kon MOO-see-kah roh-MAN-tee-kah SWAH-veh]",
+        translateb: "[man-teh-NEHR lah pahs ee lah ar-moh-NEE-ah en KAH-sah]",
         srcWord: ["https://www.arbulang.com/filmy/esp/.mp4", ''],
         srcWordimage: "https://www.arbulang.com/filmy/esp/dance.png",
         word: [
@@ -2472,16 +2738,22 @@ id: [
             "Ro<b><u>man</b></u> <b><u>te</b></u>lls me that i can <b><u>keep</b></u> the rest of cash for ba<b><u>nner</b></u> on screen"
         ],
         // opis
-        desc: "mantener[] - keep",
+        desc: "mantener[man-teh-NEHR] - keep",
         //zdanie
         sentence1: [
                 "Mantener"
+        ],
+                                        sentence1b: [
+            "To_maintain"
+        ],
+                sentence1c: [
+            "man-teh-NEHR"
         ],
         sentence: [
                 "Mantener",
                 "la paz",
                 "y",
-                "armonia",
+                "la armonia",
                 "en",
                 "casa"
         ],
@@ -2510,16 +2782,22 @@ id: [
             "P<b><u>la</b></u>n for <b><u>peace</b></u> is <b><u>pass</b></u> through all what divide us"
         ],
         // opis
-        desc: "la paz[] - peace",
+        desc: "la paz[lah pahs] - peace",
         //zdanie
         sentence2: [
                 "la paz"
+        ],
+                                                sentence1b: [
+            "peace"
+        ],
+                sentence1c: [
+            "lah pahs"
         ],
         sentence: [
                 "Mantener",
                 "la paz",
                 "y",
-                "armonia",
+                "la armonia",
                 "en",
                 "casa"
         ],
@@ -2556,11 +2834,17 @@ id: [
         sentence1: [
                 "y"
         ],
+                                                        sentence1b: [
+            "and"
+        ],
+                sentence1c: [
+            "ee"
+        ],
         sentence: [
                 "Mantener",
                 "la paz",
                 "y",
-                "armonia",
+                "la armonia",
                 "en",
                 "casa"
         ],
@@ -2590,16 +2874,22 @@ id: [
             "COGNATS: armonia - harmony"
         ],
         // opis
-        desc: "armonia[] - harmony",
+        desc: "la armonia[lah ar-moh-NEE-ah] - harmony",
         //zdanie
         sentence1: [
-                "armonia"
+                "la_armonia"
+        ],
+                                                                sentence1b: [
+            "harmony"
+        ],
+                sentence1c: [
+            "lah_ar-moh-NEE-ah"
         ],
         sentence: [
                 "Mantener",
                 "la paz",
                 "y",
-                "armonia",
+                "la armonia",
                 "en",
                 "casa"
         ],
@@ -2634,11 +2924,17 @@ id: [
         sentence1: [
                 "en"
         ],
+                                                                        sentence1b: [
+            "in"
+        ],
+                sentence1c: [
+            "ehn"
+        ],
         sentence: [
                 "Mantener",
                 "la paz",
                 "y",
-                "armonia",
+                "la armonia",
                 "en",
                 "casa"
         ],
@@ -2668,16 +2964,22 @@ id: [
             "My <b><u>home</b></u> is a <b><u>cas</b></u>tle and have many <b><u>a</b></u>partments"
         ],
         // opis
-        desc: "casa[] - home",
+        desc: "casa[KAH-sah] - home",
         //zdanie
         sentence1: [
                 "casa"
+        ],
+                                                                                sentence1b: [
+            "home"
+        ],
+                sentence1c: [
+            "KAH-sah"
         ],
         sentence: [
                 "Mantener",
                 "la paz",
                 "y",
-                "armonia",
+                "la armonia",
                 "en",
                 "casa"
         ],
@@ -2700,7 +3002,7 @@ id: [
                 "https://www.arbulang.com/img/fiszki1en-esp/171a.jpg"
         ],
         translate: "To travel together in a nice car",
-        translateb: "[bai-LAHR LEN-toh kon MOO-see-kah roh-MAN-tee-kah SWAH-veh]",
+        translateb: "[bee-ah-HAR HOON-tos en oon KOH-cheh boh-NEE-toh]",
         srcWord: ["https://www.arbulang.com/filmy/esp/.mp4", ''],
         srcWordimage: "https://www.arbulang.com/filmy/esp/dance.png",
         word: [
@@ -2711,10 +3013,16 @@ id: [
             "<b><u>Bee</b></u> is tr<b><u>a</b></u>ver from flower to flower very <b><u>har</b></u>d"
         ],
         // opis
-        desc: "viajar[] - travel",
+        desc: "viajar[bee-ah-HAR] - travel",
         //zdanie
         sentence1: [
                 "Viajar"
+        ],
+            sentence1b: [
+            "To_travel"
+        ],
+                sentence1c: [
+            "bee-ah-HAR"
         ],
         sentence: [
                 "Viajar",
@@ -2735,7 +3043,7 @@ id: [
 ],
         // obrazek
         img: [
-                "https://www.arbulang.com/img/fiszki1en-esp/148a.jpg"
+                "https://www.arbulang.com/img/fiszki1en-esp/53a.jpg"
         ],
         word: [
                 "https://www.arbulang.com/voice/music.mp4"
@@ -2749,6 +3057,12 @@ id: [
         //zdanie
         sentence1: [
                 "juntos"
+        ],
+                    sentence1b: [
+            "together"
+        ],
+                sentence1c: [
+            "HOON-tohs"
         ],
         sentence: [
                 "Viajar",
@@ -2785,6 +3099,12 @@ id: [
         sentence2: [
                 "en"
         ],
+                            sentence2b: [
+            "in"
+        ],
+                sentence2c: [
+            "ehn"
+        ],
         sentence: [
                 "en",
                 "un coche",
@@ -2815,10 +3135,16 @@ id: [
             "Br<b><u>un</b></u>o <b><u>co</u></b>pied his keys to the <b><u>car</u></b> and <b><u>che</b></u>cked if they really worked"
         ],
         // opis
-        desc: "un coche[] - a car (some/one)",
+        desc: "un coche[oon KOH-cheh] - a car (some/one)",
         //zdanie
         sentence2: [
                 "un_coche"
+        ],
+                                    sentence2b: [
+            "a_car"
+        ],
+                sentence2c: [
+            "oon KOH-cheh"
         ],
         sentence: [
                 "en",
@@ -2840,20 +3166,26 @@ id: [
 ],
         // obrazek
         img: [
-                "https://www.arbulang.com/img/fiszki1en-esp/150a.jpg"
+                "https://www.arbulang.com/img/fiszki1en-esp/39a.jpg"
         ],
         word: [
-                "https://www.arbulang.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/lee.mp4"
         ],
         // historia
         story: [
-            ""
+                "Ro<b><u>bo</b></u>cop is a woman and she is <b><u>beautiful</b></u>, she has a ma<b><u>ni</b></u>cure to the <b><u>to</b></u>p of her steel nails"
         ],
         // opis
-        desc: "bonito[] - pretty",
+        desc: "bonito[boh-nee-toh] - beautiful",
         //zdanie
         sentence2: [
                 "bonito"
+        ],
+                                            sentence2b: [
+            "nice"
+        ],
+                sentence2c: [
+            "boh-NEE-toh"
         ],
         sentence: [
                 "en",
@@ -2878,7 +3210,7 @@ id: [
                 "https://www.arbulang.com/img/fiszki1en-esp/176a.jpg"
         ],
         translate: "To wear nice makeup to feel good",
-        translateb: "[bai-LAHR LEN-toh kon MOO-see-kah roh-MAN-tee-kah SWAH-veh]",
+        translateb: "[oo-SAR mah-kee-YAH-heh boh-NEE-toh PAH-rah sen-TEER-seh byen]",
         srcWord: ["https://www.arbulang.com/filmy/esp/.mp4", ''],
         srcWordimage: "https://www.arbulang.com/filmy/esp/dance.png",
         word: [
@@ -2886,13 +3218,19 @@ id: [
         ],
         // historia
         story: [
-            "This music 'op<b><u>us</b></u>' is <b><u>use</b></u> by others music st<b><u>ar</b></u>s"
+            "This 'op<b><u>us</b></u>' is <b><u>use</b></u>d by other music st<b><u>ar</b></u>s"
         ],
         // opis
-        desc: "usar[] - use",
+        desc: "usar[oo-SAR] - use",
         //zdanie
         sentence1: [
                 "Usar"
+        ],
+                                                    sentence1b: [
+            "To_wear"
+        ],
+                sentence1c: [
+            "oo-SAR"
         ],
         sentence: [
                 "Usar",
@@ -2924,10 +3262,16 @@ id: [
             ""
         ],
         // opis
-        desc: "maquillaje[] - ",
+        desc: "maquillaje[mah-kee-YAH-heh] - make up",
         //zdanie
         sentence1: [
                 "maquillaje"
+        ],
+                                                            sentence1b: [
+            "make_up"
+        ],
+                sentence1c: [
+            "mah-kee-YAH-heh"
         ],
         sentence: [
                 "Usar",
@@ -2949,20 +3293,26 @@ id: [
 ],
         // obrazek
         img: [
-                "https://www.arbulang.com/img/fiszki1en-esp/150a.jpg"
+                "https://www.arbulang.com/img/fiszki1en-esp/39a.jpg"
         ],
         word: [
-                "https://www.arbulang.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/lee.mp4"
         ],
         // historia
         story: [
-            "<b><u>We look</b></u> at the <b><u>mir</b></u>racle which was seeing in reality <b><u>a</b></u>n actress Carrie-Anne <b><u>Moss</b></u>"
+                "Ro<b><u>bo</b></u>cop is a woman and she is <b><u>beautiful</b></u>, she has a ma<b><u>ni</b></u>cure to the <b><u>to</b></u>p of her steel nails"
         ],
         // opis
-        desc: "bonito[] - ",
+        desc: "bonito[boh-nee-toh] - beautiful",
         //zdanie
         sentence1: [
                 "bonito"
+        ],
+                                                                    sentence1b: [
+            "nice"
+        ],
+                sentence1c: [
+            "boh-NEE-toh"
         ],
         sentence: [
                 "Usar",
@@ -2999,6 +3349,12 @@ id: [
         sentence2: [
                 "para"
         ],
+            sentence2b: [
+            "for"
+        ],
+                sentence2c: [
+            "PAH-rah"
+        ],
         sentence: [
                 "para",
                 "sentirse",
@@ -3026,13 +3382,19 @@ id: [
         ],
         // historia
         story: [
-            ""
+            "I <u><b>feel</u></b> <u><b>sen</u></b>timental and have a special feeling, and <u><b>tear</u></b>s come to my eyes when I think about this <u><b>se</u></b>t of memories."
         ],
         // opis
-        desc: "sentirse[] - feel",
+        desc: "sentirse[sen-TEER-seh] - feel",
         //zdanie
         sentence2: [
                 "sentirse"
+        ],
+                    sentence2b: [
+            "feel"
+        ],
+                sentence2c: [
+            "sen-TEER-seh"
         ],
         sentence: [
                 "para",
@@ -3064,10 +3426,16 @@ id: [
             ""
         ],
         // opis
-        desc: "bien[] - ",
+        desc: "bien[byen] - good",
         //zdanie
         sentence2: [
                 "bien"
+        ],
+                    sentence2b: [
+            "good"
+        ],
+                sentence2c: [
+            "byen"
         ],
         sentence: [
                 "para",

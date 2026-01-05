@@ -9,7 +9,7 @@ id: [
         {
             id: 1,
             img: {
-                src: "http://localhost/arbulanguage.com/img/fiszki1en-esp/1a.jpg",
+                src: "https://www.arbulang.com/img/fiszki1en-esp/1a.jpg",
                 alt: ""
             },
             story: {
@@ -61,7 +61,7 @@ id: [
         {
             id: 1,
             img: {
-                src: "http://localhost/arbulanguage.com/img/fiszki1en-esp/2a.jpg",
+                src: "https://www.arbulang.com/img/fiszki1en-esp/2a.jpg",
                 alt: ""
             },
             story: {
@@ -109,7 +109,7 @@ id: [
         {
             id: 1,
             img: {
-                src: "http://localhost/arbulanguage.com/img/fiszki1en-esp/3a.jpg",
+                src: "https://www.arbulang.com/img/fiszki1en-esp/3a.jpg",
                 alt: ""
             },
             story: {
@@ -161,7 +161,7 @@ id: [
         {
             id: 1,
             img: {
-                src: "http://localhost/arbulanguage.com/img/fiszki1en-esp/4a.jpg",
+                src: "https://www.arbulang.com/img/fiszki1en-esp/4a.jpg",
                 alt: ""
             },
             story: {
@@ -209,7 +209,7 @@ id: [
         {
             id: 1,
             img: {
-                src: "http://localhost/arbulanguage.com/img/fiszki1en-esp/5a.jpg",
+                src: "https://www.arbulang.com/img/fiszki1en-esp/5a.jpg",
                 alt: ""
             },
             story: {
@@ -255,7 +255,7 @@ id: [
         {
             id: 1,
             img: {
-                src: "http://localhost/arbulanguage.com/img/fiszki1en-esp/6a.jpg",
+                src: "https://www.arbulang.com/img/fiszki1en-esp/6a.jpg",
                 alt: ""
             },
             story: {
@@ -301,7 +301,7 @@ id: [
         {
             id: 1,
             img: {
-                src: "http://localhost/arbulanguage.com/img/fiszki1en-esp/7a.jpg",
+                src: "https://www.arbulang.com/img/fiszki1en-esp/7a.jpg",
                 alt: ""
             },
             story: {
@@ -356,7 +356,7 @@ id: [
         {
             id: 1,
             img: {
-                src: "http://localhost/arbulanguage.com/img/fiszki1en-esp/22a.jpg",
+                src: "https://www.arbulang.com/img/fiszki1en-esp/22a.jpg",
                 alt: ""
             },
             story: {
@@ -368,7 +368,7 @@ id: [
                 {
             id: 2,
             img: {
-                src: "http://localhost/arbulanguage.com/img/fiszki1en-esp/8a.jpg",
+                src: "https://www.arbulang.com/img/fiszki1en-esp/8a.jpg",
                 alt: ""
             },
             story: {
@@ -420,7 +420,7 @@ id: [
         {
             id: 1,
             img: {
-                src: "http://localhost/arbulanguage.com/img/fiszki1en-esp/9a.jpg",
+                src: "https://www.arbulang.com/img/fiszki1en-esp/9a.jpg",
                 alt: ""
             },
             story: {
@@ -471,7 +471,7 @@ id: [
         {
             id: 1,
             img: {
-                src: "http://localhost/arbulanguage.com/img/fiszki1en-esp/10a.jpg",
+                src: "https://www.arbulang.com/img/fiszki1en-esp/10a.jpg",
                 alt: ""
             },
             story: {
@@ -522,7 +522,7 @@ id: [
         {
             id: 1,
             img: {
-                src: "http://localhost/arbulanguage.com/img/fiszki1en-esp/11a.jpg",
+                src: "https://www.arbulang.com/img/fiszki1en-esp/11a.jpg",
                 alt: ""
             },
             story: {
@@ -573,7 +573,7 @@ id: [
         {
             id: 1,
             img: {
-                src: "http://localhost/arbulanguage.com/img/fiszki1en-esp/12a.jpg",
+                src: "https://www.arbulang.com/img/fiszki1en-esp/12a.jpg",
                 alt: ""
             },
             story: {
@@ -624,7 +624,7 @@ id: [
         {
             id: 1,
             img: {
-                src: "http://localhost/arbulanguage.com/img/fiszki1en-esp/13a.jpg",
+                src: "https://www.arbulang.com/img/fiszki1en-esp/13a.jpg",
                 alt: ""
             },
             story: {
@@ -675,7 +675,7 @@ id: [
         {
             id: 1,
             img: {
-                src: "http://localhost/arbulanguage.com/img/fiszki1en-esp/14a.jpg",
+                src: "https://www.arbulang.com/img/fiszki1en-esp/14a.jpg",
                 alt: ""
             },
             story: {
@@ -729,7 +729,7 @@ id: [
         {
             id: 1,
             img: {
-                src: "http://localhost/arbulanguage.com/img/fiszki1en-esp/15a.jpg",
+                src: "https://www.arbulang.com/img/fiszki1en-esp/15a.jpg",
                 alt: ""
             },
             story: {
@@ -779,7 +779,7 @@ id: [
         {
             id: 1,
             img: {
-                src: "http://localhost/arbulanguage.com/img/fiszki1en-esp/16a.jpg",
+                src: "https://www.arbulang.com/img/fiszki1en-esp/16a.jpg",
                 alt: ""
             },
             story: {
@@ -829,7 +829,7 @@ id: [
         {
             id: 1,
             img: {
-                src: "http://localhost/arbulanguage.com/img/fiszki1en-esp/17a.jpg",
+                src: "https://www.arbulang.com/img/fiszki1en-esp/17a.jpg",
                 alt: ""
             },
             story: {
@@ -879,7 +879,7 @@ id: [
         {
             id: 1,
             img: {
-                src: "http://localhost/arbulanguage.com/img/fiszki1en-esp/18a.jpg",
+                src: "https://www.arbulang.com/img/fiszki1en-esp/18a.jpg",
                 alt: ""
             },
             story: {
@@ -929,7 +929,7 @@ id: [
         {
             id: 1,
             img: {
-                src: "http://localhost/arbulanguage.com/img/fiszki1en-esp/19a.jpg",
+                src: "https://www.arbulang.com/img/fiszki1en-esp/19a.jpg",
                 alt: ""
             },
             story: {
@@ -979,7 +979,7 @@ id: [
         {
             id: 1,
             img: {
-                src: "http://localhost/arbulanguage.com/img/fiszki1en-esp/20a.jpg",
+                src: "https://www.arbulang.com/img/fiszki1en-esp/20a.jpg",
                 alt: ""
             },
             story: {
@@ -1032,7 +1032,7 @@ id: [
         {
             id: 1,
             img: {
-                src: "http://localhost/arbulanguage.com/img/fiszki1en-esp/21a.jpg",
+                src: "https://www.arbulang.com/img/fiszki1en-esp/21a.jpg",
                 alt: ""
             },
             story: {
@@ -1081,7 +1081,7 @@ id: [
         {
             id: 1,
             img: {
-                src: "http://localhost/arbulanguage.com/img/fiszki1en-esp/22a.jpg",
+                src: "https://www.arbulang.com/img/fiszki1en-esp/22a.jpg",
                 alt: ""
             },
             story: {
@@ -1093,7 +1093,7 @@ id: [
                 {
             id: 2,
             img: {
-                src: "http://localhost/arbulanguage.com/img/fiszki1en-esp/8a.jpg",
+                src: "https://www.arbulang.com/img/fiszki1en-esp/8a.jpg",
                 alt: ""
             },
             story: {
@@ -1143,7 +1143,7 @@ id: [
         {
             id: 1,
             img: {
-                src: "http://localhost/arbulanguage.com/img/fiszki1en-esp/23a.jpg",
+                src: "https://www.arbulang.com/img/fiszki1en-esp/23a.jpg",
                 alt: ""
             },
             story: {
@@ -1192,7 +1192,7 @@ id: [
         {
             id: 1,
             img: {
-                src: "http://localhost/arbulanguage.com/img/fiszki1en-esp/24a.jpg",
+                src: "https://www.arbulang.com/img/fiszki1en-esp/24a.jpg",
                 alt: ""
             },
             story: {
@@ -1241,7 +1241,7 @@ id: [
         {
             id: 1,
             img: {
-                src: "http://localhost/arbulanguage.com/img/fiszki1en-esp/25a.jpg",
+                src: "https://www.arbulang.com/img/fiszki1en-esp/25a.jpg",
                 alt: ""
             },
             story: {
@@ -1292,7 +1292,7 @@ id: [
         {
             id: 1,
             img: {
-                src: "http://localhost/arbulanguage.com/img/fiszki1en-esp/26a.jpg",
+                src: "https://www.arbulang.com/img/fiszki1en-esp/26a.jpg",
                 alt: ""
             },
             story: {
@@ -1339,7 +1339,7 @@ id: [
         {
             id: 1,
             img: {
-                src: "http://localhost/arbulanguage.com/img/fiszki1en-esp/27a.jpg",
+                src: "https://www.arbulang.com/img/fiszki1en-esp/27a.jpg",
                 alt: ""
             },
             story: {
@@ -1386,7 +1386,7 @@ id: [
         {
             id: 1,
             img: {
-                src: "http://localhost/arbulanguage.com/img/fiszki1en-esp/28a.jpg",
+                src: "https://www.arbulang.com/img/fiszki1en-esp/28a.jpg",
                 alt: ""
             },
             story: {
@@ -1436,7 +1436,7 @@ id: [
         {
             id: 1,
             img: {
-                src: "http://localhost/arbulanguage.com/img/fiszki1en-esp/29a.jpg",
+                src: "https://www.arbulang.com/img/fiszki1en-esp/29a.jpg",
                 alt: ""
             },
             story: {
@@ -1482,7 +1482,7 @@ id: [
         {
             id: 1,
             img: {
-                src: "http://localhost/arbulanguage.com/img/fiszki1en-esp/30a.jpg",
+                src: "https://www.arbulang.com/img/fiszki1en-esp/30a.jpg",
                 alt: ""
             },
             story: {
@@ -1529,7 +1529,7 @@ id: [
         {
             id: 1,
             img: {
-                src: "http://localhost/arbulanguage.com/img/fiszki1en-esp/31a.jpg",
+                src: "https://www.arbulang.com/img/fiszki1en-esp/31a.jpg",
                 alt: ""
             },
             story: {
@@ -1576,7 +1576,7 @@ id: [
         {
             id: 1,
             img: {
-                src: "http://localhost/arbulanguage.com/img/fiszki1en-esp/32a.jpg",
+                src: "https://www.arbulang.com/img/fiszki1en-esp/32a.jpg",
                 alt: ""
             },
             story: {
@@ -1623,7 +1623,7 @@ id: [
         {
             id: 1,
             img: {
-                src: "http://localhost/arbulanguage.com/img/fiszki1en-esp/33a.jpg",
+                src: "https://www.arbulang.com/img/fiszki1en-esp/33a.jpg",
                 alt: ""
             },
             story: {
@@ -1674,7 +1674,7 @@ id: [
         {
             id: 1,
             img: {
-                src: "http://localhost/arbulanguage.com/img/fiszki1en-esp/22a.jpg",
+                src: "https://www.arbulang.com/img/fiszki1en-esp/22a.jpg",
                 alt: ""
             },
             story: {
@@ -1686,7 +1686,7 @@ id: [
                 {
             id: 2,
             img: {
-                src: "http://localhost/arbulanguage.com/img/fiszki1en-esp/8a.jpg",
+                src: "https://www.arbulang.com/img/fiszki1en-esp/8a.jpg",
                 alt: ""
             },
             story: {
@@ -1734,7 +1734,7 @@ id: [
         {
             id: 1,
             img: {
-                src: "http://localhost/arbulanguage.com/img/fiszki1en-esp/35a.jpg",
+                src: "https://www.arbulang.com/img/fiszki1en-esp/35a.jpg",
                 alt: ""
             },
             story: {
@@ -1781,7 +1781,7 @@ id: [
         {
             id: 1,
             img: {
-                src: "http://localhost/arbulanguage.com/img/fiszki1en-esp/65a.jpg",
+                src: "https://www.arbulang.com/img/fiszki1en-esp/65a.jpg",
                 alt: ""
             },
             story: {
@@ -1793,7 +1793,7 @@ id: [
                 {
             id: 1,
             img: {
-                src: "http://localhost/arbulanguage.com/img/fiszki1en-esp/36a.jpg",
+                src: "https://www.arbulang.com/img/fiszki1en-esp/36a.jpg",
                 alt: ""
             },
             story: {
@@ -1842,7 +1842,7 @@ id: [
         {
             id: 1,
             img: {
-                src: "http://localhost/arbulanguage.com/img/fiszki1en-esp/37a.jpg",
+                src: "https://www.arbulang.com/img/fiszki1en-esp/37a.jpg",
                 alt: ""
             },
             story: {
@@ -1890,7 +1890,7 @@ id: [
         {
             id: 1,
             img: {
-                src: "http://localhost/arbulanguage.com/img/fiszki1en-esp/38a.jpg",
+                src: "https://www.arbulang.com/img/fiszki1en-esp/38a.jpg",
                 alt: ""
             },
             story: {
@@ -1938,7 +1938,7 @@ id: [
         {
             id: 1,
             img: {
-                src: "http://localhost/arbulanguage.com/img/fiszki1en-esp/39a.jpg",
+                src: "https://www.arbulang.com/img/fiszki1en-esp/39a.jpg",
                 alt: ""
             },
             story: {
@@ -1986,7 +1986,7 @@ id: [
         {
             id: 1,
             img: {
-                src: "http://localhost/arbulanguage.com/img/fiszki1en-esp/40a.jpg",
+                src: "https://www.arbulang.com/img/fiszki1en-esp/40a.jpg",
                 alt: ""
             },
             story: {
@@ -2037,7 +2037,7 @@ id: [
         {
             id: 1,
             img: {
-                src: "http://localhost/arbulanguage.com/img/fiszki1en-esp/41a.jpg",
+                src: "https://www.arbulang.com/img/fiszki1en-esp/41a.jpg",
                 alt: ""
             },
             story: {
@@ -2083,7 +2083,7 @@ id: [
         {
             id: 1,
             img: {
-                src: "http://localhost/arbulanguage.com/img/fiszki1en-esp/42a.jpg",
+                src: "https://www.arbulang.com/img/fiszki1en-esp/42a.jpg",
                 alt: ""
             },
             story: {
@@ -2123,7 +2123,7 @@ id: [
         {
             id: 1,
             img: {
-                src: "http://localhost/arbulanguage.com/img/fiszki1en-esp/43a.jpg",
+                src: "https://www.arbulang.com/img/fiszki1en-esp/43a.jpg",
                 alt: ""
             },
             story: {
@@ -2163,7 +2163,7 @@ id: [
         {
             id: 1,
             img: {
-                src: "http://localhost/arbulanguage.com/img/fiszki1en-esp/44a.jpg",
+                src: "https://www.arbulang.com/img/fiszki1en-esp/44a.jpg",
                 alt: ""
             },
             story: {
@@ -2208,7 +2208,7 @@ id: [
         {
             id: 1,
             img: {
-                src: "http://localhost/arbulanguage.com/img/fiszki1en-esp/6a.jpg",
+                src: "https://www.arbulang.com/img/fiszki1en-esp/6a.jpg",
                 alt: ""
             },
             story: {
@@ -2248,7 +2248,7 @@ id: [
         {
             id: 1,
             img: {
-                src: "http://localhost/arbulanguage.com/img/fiszki1en-esp/46a.jpg",
+                src: "https://www.arbulang.com/img/fiszki1en-esp/46a.jpg",
                 alt: ""
             },
             story: {
@@ -2288,7 +2288,7 @@ id: [
         {
             id: 1,
             img: {
-                src: "http://localhost/arbulanguage.com/img/fiszki1en-esp/47a.jpg",
+                src: "https://www.arbulang.com/img/fiszki1en-esp/47a.jpg",
                 alt: ""
             },
             story: {
@@ -2328,7 +2328,7 @@ id: [
         {
             id: 1,
             img: {
-                src: "http://localhost/arbulanguage.com/img/fiszki1en-esp/48a.jpg",
+                src: "https://www.arbulang.com/img/fiszki1en-esp/48a.jpg",
                 alt: ""
             },
             story: {
@@ -2374,7 +2374,7 @@ id: [
         {
             id: 1,
             img: {
-                src: "http://localhost/arbulanguage.com/img/fiszki1en-esp/49a.jpg",
+                src: "https://www.arbulang.com/img/fiszki1en-esp/49a.jpg",
                 alt: ""
             },
             story: {
@@ -2415,7 +2415,7 @@ id: [
         {
             id: 1,
             img: {
-                src: "http://localhost/arbulanguage.com/img/fiszki1en-esp/50a.jpg",
+                src: "https://www.arbulang.com/img/fiszki1en-esp/50a.jpg",
                 alt: ""
             },
             story: {
@@ -2456,7 +2456,7 @@ id: [
         {
             id: 1,
             img: {
-                src: "http://localhost/arbulanguage.com/img/fiszki1en-esp/51a.jpg",
+                src: "https://www.arbulang.com/img/fiszki1en-esp/51a.jpg",
                 alt: ""
             },
             story: {
@@ -2497,7 +2497,7 @@ id: [
         {
             id: 1,
             img: {
-                src: "http://localhost/arbulanguage.com/img/fiszki1en-esp/52a.jpg",
+                src: "https://www.arbulang.com/img/fiszki1en-esp/52a.jpg",
                 alt: ""
             },
             story: {
@@ -2538,7 +2538,7 @@ id: [
         {
             id: 1,
             img: {
-                src: "http://localhost/arbulanguage.com/img/fiszki1en-esp/53a.jpg",
+                src: "https://www.arbulang.com/img/fiszki1en-esp/53a.jpg",
                 alt: ""
             },
             story: {
@@ -2579,7 +2579,7 @@ id: [
         {
             id: 1,
             img: {
-                src: "http://localhost/arbulanguage.com/img/fiszki1en-esp/54a.jpg",
+                src: "https://www.arbulang.com/img/fiszki1en-esp/54a.jpg",
                 alt: ""
             },
             story: {
@@ -2629,7 +2629,7 @@ id: [
         {
             id: 1,
             img: {
-                src: "http://localhost/arbulanguage.com/img/fiszki1en-esp/.jpg",
+                src: "https://www.arbulang.com/img/fiszki1en-esp/.jpg",
                 alt: ""
             },
             story: {
@@ -2641,7 +2641,7 @@ id: [
                 {
             id: 2,
             img: {
-                src: "http://localhost/arbulanguage.com/img/fiszki1en-esp/55a.jpg",
+                src: "https://www.arbulang.com/img/fiszki1en-esp/55a.jpg",
                 alt: ""
             },
             story: {
@@ -2683,7 +2683,7 @@ id: [
         {
             id: 1,
             img: {
-                src: "http://localhost/arbulanguage.com/img/fiszki1en-esp/56a.jpg",
+                src: "https://www.arbulang.com/img/fiszki1en-esp/56a.jpg",
                 alt: ""
             },
             story: {
@@ -2724,7 +2724,7 @@ id: [
         {
             id: 1,
             img: {
-                src: "http://localhost/arbulanguage.com/img/fiszki1en-esp/57a.jpg",
+                src: "https://www.arbulang.com/img/fiszki1en-esp/57a.jpg",
                 alt: ""
             },
             story: {
@@ -2764,7 +2764,7 @@ id: [
         {
             id: 1,
             img: {
-                src: "http://localhost/arbulanguage.com/img/fiszki1en-esp/58a.jpg",
+                src: "https://www.arbulang.com/img/fiszki1en-esp/58a.jpg",
                 alt: ""
             },
             story: {
@@ -2804,7 +2804,7 @@ id: [
         {
             id: 1,
             img: {
-                src: "http://localhost/arbulanguage.com/img/fiszki1en-esp/59a.jpg",
+                src: "https://www.arbulang.com/img/fiszki1en-esp/59a.jpg",
                 alt: ""
             },
             story: {
@@ -2853,7 +2853,7 @@ id: [
         {
             id: 1,
             img: {
-                src: "http://localhost/arbulanguage.com/img/fiszki1en-esp/60a.jpg",
+                src: "https://www.arbulang.com/img/fiszki1en-esp/60a.jpg",
                 alt: ""
             },
             story: {
@@ -2893,7 +2893,7 @@ id: [
         {
             id: 1,
             img: {
-                src: "http://localhost/arbulanguage.com/img/fiszki1en-esp/61a.jpg",
+                src: "https://www.arbulang.com/img/fiszki1en-esp/61a.jpg",
                 alt: ""
             },
             story: {
@@ -2932,7 +2932,7 @@ id: [
         {
             id: 1,
             img: {
-                src: "http://localhost/arbulanguage.com/img/fiszki1en-esp/62a.jpg",
+                src: "https://www.arbulang.com/img/fiszki1en-esp/62a.jpg",
                 alt: ""
             },
             story: {
@@ -2972,7 +2972,7 @@ id: [
         {
             id: 1,
             img: {
-                src: "http://localhost/arbulanguage.com/img/fiszki1en-esp/63a.jpg",
+                src: "https://www.arbulang.com/img/fiszki1en-esp/63a.jpg",
                 alt: ""
             },
             story: {
@@ -3017,7 +3017,7 @@ id: [
         {
             id: 1,
             img: {
-                src: "http://localhost/arbulanguage.com/img/fiszki1en-esp/64a.jpg",
+                src: "https://www.arbulang.com/img/fiszki1en-esp/64a.jpg",
                 alt: ""
             },
             story: {
@@ -3057,7 +3057,7 @@ id: [
         {
             id: 1,
             img: {
-                src: "http://localhost/arbulanguage.com/img/fiszki1en-esp/65a.jpg",
+                src: "https://www.arbulang.com/img/fiszki1en-esp/65a.jpg",
                 alt: ""
             },
             story: {
@@ -3069,7 +3069,7 @@ id: [
                 {
             id: 1,
             img: {
-                src: "http://localhost/arbulanguage.com/img/fiszki1en-esp/36a.jpg",
+                src: "https://www.arbulang.com/img/fiszki1en-esp/36a.jpg",
                 alt: ""
             },
             story: {
@@ -3111,7 +3111,7 @@ id: [
         {
             id: 1,
             img: {
-                src: "http://localhost/arbulanguage.com/img/fiszki1en-esp/66a.jpg",
+                src: "https://www.arbulang.com/img/fiszki1en-esp/66a.jpg",
                 alt: ""
             },
             story: {
@@ -3152,7 +3152,7 @@ id: [
         {
             id: 1,
             img: {
-                src: "http://localhost/arbulanguage.com/img/fiszki1en-esp/67a.jpg",
+                src: "https://www.arbulang.com/img/fiszki1en-esp/67a.jpg",
                 alt: ""
             },
             story: {
@@ -3193,7 +3193,7 @@ id: [
         {
             id: 1,
             img: {
-                src: "http://localhost/arbulanguage.com/img/fiszki1en-esp/68a.jpg",
+                src: "https://www.arbulang.com/img/fiszki1en-esp/68a.jpg",
                 alt: ""
             },
             story: {
@@ -3239,7 +3239,7 @@ id: [
         {
             id: 1,
             img: {
-                src: "http://localhost/arbulanguage.com/img/fiszki1en-esp/69a.jpg",
+                src: "https://www.arbulang.com/img/fiszki1en-esp/69a.jpg",
                 alt: ""
             },
             story: {
@@ -3280,7 +3280,7 @@ id: [
         {
             id: 1,
             img: {
-                src: "http://localhost/arbulanguage.com/img/fiszki1en-esp/56a.jpg",
+                src: "https://www.arbulang.com/img/fiszki1en-esp/56a.jpg",
                 alt: ""
             },
             story: {
@@ -3321,7 +3321,7 @@ id: [
         {
             id: 1,
             img: {
-                src: "http://localhost/arbulanguage.com/img/fiszki1en-esp/71a.jpg",
+                src: "https://www.arbulang.com/img/fiszki1en-esp/71a.jpg",
                 alt: ""
             },
             story: {
@@ -3362,7 +3362,7 @@ id: [
         {
             id: 1,
             img: {
-                src: "http://localhost/arbulanguage.com/img/fiszki1en-esp/65a.jpg",
+                src: "https://www.arbulang.com/img/fiszki1en-esp/65a.jpg",
                 alt: ""
             },
             story: {
@@ -3374,7 +3374,7 @@ id: [
                 {
             id: 1,
             img: {
-                src: "http://localhost/arbulanguage.com/img/fiszki1en-esp/36a.jpg",
+                src: "https://www.arbulang.com/img/fiszki1en-esp/36a.jpg",
                 alt: ""
             },
             story: {
@@ -3416,7 +3416,7 @@ id: [
         {
             id: 1,
             img: {
-                src: "http://localhost/arbulanguage.com/img/fiszki1en-esp/73a.jpg",
+                src: "https://www.arbulang.com/img/fiszki1en-esp/73a.jpg",
                 alt: ""
             },
             story: {
@@ -3461,7 +3461,7 @@ id: [
         {
             id: 1,
             img: {
-                src: "http://localhost/arbulanguage.com/img/fiszki1en-esp/74a.jpg",
+                src: "https://www.arbulang.com/img/fiszki1en-esp/74a.jpg",
                 alt: ""
             },
             story: {
@@ -3511,7 +3511,7 @@ id: [
         {
             id: 1,
             img: {
-                src: "http://localhost/arbulanguage.com/img/fiszki1en-esp/75a.jpg",
+                src: "https://www.arbulang.com/img/fiszki1en-esp/75a.jpg",
                 alt: ""
             },
             story: {
@@ -3552,7 +3552,7 @@ id: [
         {
             id: 1,
             img: {
-                src: "http://localhost/arbulanguage.com/img/fiszki1en-esp/75a.jpg",
+                src: "https://www.arbulang.com/img/fiszki1en-esp/75a.jpg",
                 alt: ""
             },
             story: {
@@ -3593,7 +3593,7 @@ id: [
         {
             id: 1,
             img: {
-                src: "http://localhost/arbulanguage.com/img/fiszki1en-esp/56a.jpg",
+                src: "https://www.arbulang.com/img/fiszki1en-esp/56a.jpg",
                 alt: ""
             },
             story: {
@@ -3633,7 +3633,7 @@ id: [
         {
             id: 1,
             img: {
-                src: "http://localhost/arbulanguage.com/img/fiszki1en-esp/78a.jpg",
+                src: "https://www.arbulang.com/img/fiszki1en-esp/78a.jpg",
                 alt: ""
             },
             story: {

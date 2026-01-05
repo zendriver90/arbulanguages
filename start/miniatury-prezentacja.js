@@ -4111,81 +4111,91 @@ currentVideos.forEach(src => {
                     $inner.html(rebuilt);
                 });
             }
-            function attachArrowNavigation($sentenceBlock, indexDiv) {
-                console.log('attachArrowNavigation start', {indexDiv, hasBlock: !!$sentenceBlock.length});
+function attachArrowNavigation($sentenceBlock, indexDiv) {
 
-                if (!$sentenceBlock || $sentenceBlock.length === 0) {
-                    console.warn('Brak $sentenceBlock dla indexDiv:', indexDiv);
-                    return;
+    let currentWordIndex = 0;
+    let lastForwardIndex = 0; // 🔴 KLUCZOWE
+
+    function updateHighlightAllLines() {
+
+        $sentenceBlock.find('.sentence-line').each(function () {
+
+            const $inner = $(this).find('.sentence-inner');
+            const text = $inner.text().trim();
+            if (!text) return;
+
+            const words = text.split(/\s+/);
+
+            const html = words.map((word, wi) => {
+                if (wi === currentWordIndex) {
+                    return `<span class="highlighted" data-word-index="${wi}">${word}</span>`;
                 }
+                return `<span data-word-index="${wi}">${word}</span>`;
+            }).join(" ");
 
+            $inner.html(html);
+        });
 
-                $sentenceBlock.find('.sentence-line').each(function (lineIndex) {
-                    const $line = $(this);
-                    const $inner = $line.find('.sentence-inner');
-                    let currentWordIndex = 0;
+        window.mojeidGlobal = currentWordIndex;
+        window.mojeidGlobal2 = indexDiv;
 
-                    const updateHighlight = () => {
-                        let raw = $inner.text().trim();
-                        let words = raw ? raw.split(/\s+/) : [];
-                        if (words.length === 0)
-                            return;
+        if (window.systemStarted) {
+            sendHighlightToFiszki(indexDiv, currentWordIndex);
+        }
+    }
 
-                        const id = indexDiv + "-" + lineIndex + "-" + currentWordIndex;
-                        console.log('hej130', id);
-                        let html = words.map((word, wi) => {
-                            if (wi === currentWordIndex) {
-                                return `<span class="highlighted" data-word-index="${wi}" data-mojeid="${id}">${word}</span>`;
-                            }
-                            return `<span data-word-index="${wi}" data-mojeid="${id}">${word}</span>`;
-                        }).join(" ");
+    // ▶ NEXT
+$sentenceBlock.find('.next-buttonvv')
+  .off('click.attachNav')
+  .on('click.attachNav', function (e) {
 
-                        $inner.html(html);
-                const firstSentenceId = (indexDiv - 1) * 3 + 1;
-                const secondSentenceId = (indexDiv - 1) * 3 + 2;
-                const thirdSentenceId = (indexDiv - 1) * 3 + 3;
-                        // zapis do globalnych zmiennych słów
-window.mojeidGlobal = currentWordIndex;
-window.mojeidGlobalb = currentWordIndex;
-window.mojeidGlobalc = currentWordIndex;
+      e.stopImmediatePropagation(); // 🔴 KLUCZ
+      e.preventDefault();
 
-                        window.mojeidGlobal2 = indexDiv;
-                        window.mojeidGlobal3 = currentPos;
-                        console.log('hej100', currentPos);
-                        if (window.systemStarted) {
-                            sendHighlightToFiszki(window.mojeidGlobal2, window.mojeidGlobal);
-                        }
-                    };
+      const wordsCount = $sentenceBlock
+        .find('.sentence-inner')
+        .first()
+        .text()
+        .trim()
+        .split(/\s+/).length;
 
-                    // NEXT → słowo
-                    $line.find('.next-buttonvv').off('click.attachNav').on('click.attachNav', function () {
-                        const wordsCount = $inner.text().trim().split(/\s+/).length;
-                        if (currentWordIndex < wordsCount - 1) {
-                            currentWordIndex++;
-                            updateHighlight();
-                        }
-                    });
+      if (currentWordIndex < wordsCount - 1) {
+          currentWordIndex++;
+          updateHighlightAllLines();
+      }
+});
 
-                    // PREV ← słowo
-                    $line.find('.prev-button').off('click.attachNav').on('click.attachNav', function () {
-                        if (currentWordIndex > 0) {
-                            currentWordIndex--;
-                            updateHighlight();
-                        }
-                    });
+    // ◀ PREV
+$sentenceBlock.find('.prev-button')
+  .off('click.attachNav')
+  .on('click.attachNav', function (e) {
 
-                    // CLICK NA SŁOWO
-                    $inner.off('click.attachNav', 'span').on('click.attachNav', 'span', function () {
-                        const wi = Number($(this).data('word-index'));
-                        if (!isNaN(wi)) {
-                            currentWordIndex = wi;
-                            updateHighlight();
-                        }
-                    });
+      e.stopImmediatePropagation(); // 🔴 KLUCZ
+      e.preventDefault();
 
-                    updateHighlight();
-                });
-            }
+      if (currentWordIndex > 0) {
+          currentWordIndex--;
+          updateHighlightAllLines();
+      }
+});
+
+    // 🖱️ klik w słowo
+$sentenceBlock
+  .off('click.attachNav', '.sentence-inner span')
+  .on('click.attachNav', '.sentence-inner span', function (e) {
+
+      e.stopImmediatePropagation(); // 🔴
+      e.preventDefault();
+
+      const wi = Number($(this).data('word-index'));
+      if (!isNaN(wi)) {
+          currentWordIndex = wi;
+          updateHighlightAllLines();
+      }
+});
+
+    updateHighlightAllLines();
+}
             function sendHighlightToFiszki(indexDiv, mojeidGlobal) {
                 highlightFirstWord(indexDiv, currentPosCache[indexDiv], mojeidGlobal);
             }

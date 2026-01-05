@@ -517,7 +517,7 @@ span.highlight {
     align-items: flex-start;
     justify-content: space-between;
     max-width: 100%;
-    overflow-x: hidden;
+    overflow: hidden;
 }
                 .content-container {
                     max-width: 100%;
@@ -958,7 +958,7 @@ span.highlight {
                     gap: 20px;
                     position: relative;
                     margin-right: 0px;
-                    top: 0px;
+                    top: 100px;
                 }
                 .spacer {
                     height: 20px; /* Dostosuj wysokość przestrzeni spacerowej */
@@ -2242,22 +2242,18 @@ input {
     <body>
 <h1>arbulang.com</h1>
     <h2>ARBU ŚWIAT</h2>
-        <div class="horizontal-bar" id="horizontalBar1">
-            <button id="myButton">ANGIELSKI</button>
-            <button id="myButton2">HISZPAŃSKI</button>
-        </div>
         <div class="horizontal-bar" id="horizontalBar2">
         </div>
         <div class="container">
-            <div class="side-menu">
-                <button onclick="showImages('set1')">PRZEBYTE LEKCJE</button>
-                <button onclick="showImages('set2')">LEKCJE STWORZONE INDYWIDUALNIE</button>
-                <button onclick="showImages('set3')">SŁÓWKA KTÓRE ZNAM</button>
-                <button onclick="showImages('set4')">SŁÓWKA TRENING</button>
-                <button onclick="showImages('set2')">SŁÓWKA NAUCZONE</button>
-                <button onclick="showImages('set1')">POLUBIONE SŁOWKA</button>
-                <button onclick="showImages('set2')">SŁÓWKA TEMATYCZNE</button>
-            </div>
+<div class="side-menu">
+    <button onclick="showImages('set1')">COMPLETED LESSONS</button>
+    <button onclick="showImages('set2')">CUSTOM-MADE LESSONS</button>
+    <button onclick="showImages('set3')">WORDS I KNOW</button>
+    <button onclick="showImages('set4')">WORD PRACTICE</button>
+    <button onclick="showImages('set2')">LEARNED WORDS</button>
+    <button onclick="showImages('set1')">LIKED WORDS</button>
+    <button onclick="showImages('set2')">THEMATIC WORDS</button>
+</div>
             <div class="content-container">
                 <div class="grid-containera">
                     <div class="image-container2b">Standard<button onclick="showImages('set1')">DRAW LESSONS</button>
@@ -2269,28 +2265,8 @@ input {
                     <div class="image-container2b">TRANSLATE TEXT<button onclick="showImages('set1')">START</button>
                     </div>
                 </div>
-
-<div class="search-container">
-    <div class="search-wrapper">
-        <label for="search">Search Word</label>
-        <input type="search" id="search" data-search>
-    </div>
-    <div class="button-container">
-        <button id="polski" class="rodzaj-button2">Polski</button>
-        <button id="angielski" class="rodzaj-button2">Angielski</button>
-    </div>
-</div>
-                <div>
-    <button id="singleSentenceBtn" class="rodzaj-button">Jedno zdanie (DZIAŁA)</button>
-    <button id="threeSentencesBtn" class="rodzaj-button">Trzy zdania (DZIAŁA)</button>
-    <button id="singleWordBtn" class="rodzaj-button">Pojedyncze słowo</button>
-                </div><br>
                 <div id="matchingButtonsContainer" style="margin-top: 10px;"></div>
                 <p id="key3Result"></p>
-                <button class="left-button2">+<br></button>TE LEKCJE MAJĄ DOSTĘPNE SKOJARZENIA W WIĘKSZYM ZAKRESIE TEMATÓW (DZIAŁA)
-<div class="user-cards" data-user-cards-container></div>
-
-
 <template data-user-template>
     <div class="card">
         <div class="header" data-header></div>
@@ -2554,17 +2530,6 @@ function showFiszkiForLesson5d(matchingFiszki1v, tablica41) {
                 }, 200); // 300 ms przerwy pomiędzy mignięciami
             }
 
-// Uruchomienie mignięcia po załadowaniu strony
-            window.onload = function () {
-                blinkButton();
-            };
-            document.getElementById('myButton').addEventListener('click', function () {
-                window.location.href = 'https://www.arbulang.com//matrix.html';
-            });
-            document.getElementById('myButton2').addEventListener('click', function () {
-                window.location.href = 'https://www.arbulang.com//matrix2.html';
-            });
-
 
 
 
@@ -2577,17 +2542,6 @@ function showFiszkiForLesson5d(matchingFiszki1v, tablica41) {
                 // Highlight the clicked button
                 document.getElementById(buttonId).classList.add('green-button');
             }
-
-            // Add event listeners to buttons in the first horizontal bar
-            document.getElementById('myButton').addEventListener('click', function () {
-                showVideos('set2');
-                highlightButton('myButton', 'horizontalBar1');
-            });
-
-            document.getElementById('myButton2').addEventListener('click', function () {
-                showVideos('set3');
-                highlightButton('myButton2', 'horizontalBar1');
-            });
 
 function addFlashcardContainer() {
                 var $flashcardContainer = $('<div>', {class: 'flashcard-container'});
@@ -3519,7 +3473,7 @@ if (myVariable.length > 0) {
                             console.log('Liczba losowań:', losowaniaCounter); // Dodano log licznika losowań
 
 
-                            if ((tablica15.length <= 51 || tablica15.length === 0)) {
+                            if ((tablica15.length <= 100 || tablica15.length === 0)) {
                                 console.log('wykonuje się 8');
 
                                 showCombinedSentenceForLesson2(isSearching, selectedCategory, polski, index50, matchingIndexes, lessonId1, newIndex, indexDiv, lesson1PartLength, matchingLessons5b);
@@ -4070,7 +4024,7 @@ if (flagaPrzycisku2 && !flagaPrzycisku && (tablica10.length <= indexDivRange) &&
                                     break; // Przerwanie pętli, jeśli użytkownik nie chce kontynuować
                                 }
                             }
-                            if ((tablica15.length <= 57 || tablica15.length === 0)) {
+                            if ((tablica15.length <= 100 || tablica15.length === 0)) {
                                 console.log('wykonuje się 8');
 
                                 showCombinedSentenceForLesson2(isSearching, selectedCategory, polski, index50, matchingIndexes, lessonId1, newIndex, indexDiv, lesson1PartLength, matchingLessons5b);

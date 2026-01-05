@@ -6997,18 +6997,34 @@ id: [
         30,
         55
 ],
-        // obrazek
-        img: [
-                "https://www.arbulang.com/img/fiszki1en-esp/106a.jpg",
-                "https://www.arbulang.com/img/fiszki1en-esp/110a.jpg"
-        ],
+    entries: [
+        {
+            id: 1,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1en-esp/106a.jpg",
+                alt: ""
+            },
+            story: {
+                text: "<b><u>Siii</b></u> im <b><u>always</b></u> saying <b><u>yeah</b></u> to good <b><u>pre</b></u>paration to journey",
+                alt: ""
+            },
+            category: ["", ""]
+        },
+                {
+            id: 2,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1en-esp/110a.jpg",
+                alt: ""
+            },
+            story: {
+                text: "<b><u>S</b></u>port is good, <b><u>yeee</b></u> — and I <b><u>always</b></u> measure my skills on the co<b><u>mp</b></u>uter and <b><u>re</b></u>peat with better motivation",
+                alt: ""
+            },
+            category: ["", ""]
+        }
+    ],
         word: [
                 "https://www.arbulang.com/voice/music.mp4"
-        ],
-        // historia
-        story: [
-            "<b><u>Siii</b></u> im <b><u>always</b></u> saying <b><u>yeah</b></u> to good <b><u>pre</b></u>paration to journey",
-            "<b><u>S</b></u>port is good, <b><u>yeee</b></u> — and I <b><u>always</b></u> measure my skills on the co<b><u>mp</b></u>uter and <b><u>re</b></u>peat with better motivation"
         ],
         // opis
         desc: "siempre[SYEM-preh] - always",
@@ -7036,17 +7052,20 @@ id: [
         30,
         55
 ],
-        // obrazek
-        img: [
-                "https://www.arbulang.com/img/fiszki1en-esp/158a.jpg"
-        ],
-        word: [
-                "https://www.arbulang.com/voice/music.mp4"
-        ],
-        // historia
-        story: [
-            "<b><u>Ber</b></u>t is a dad. He always tells <b><u>truth</b></u> his children"
-        ],
+    entries: [
+        {
+            id: 1,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1en-esp/158a.jpg",
+                alt: ""
+            },
+            story: {
+                text: "<b><u>Ber</b></u>t is a dad. He always tells <b><u>truth</b></u> his children",
+                alt: ""
+            },
+            category: ["", ""]
+        }
+    ],
         // opis
         desc: "verdad[ber-DAHD] - truth",
         //zdanie

@@ -685,12 +685,12 @@ function showCombinedSentenceForLesson22b(
                     const lessonNumber = i + 1;
 
                     // 🔹 Link do całej lekcji (3 zdania)
-                    const tripletLink = `demo1angielski.html?category=${selectedCategory}&data=${trojka.join(',')}`;
+                    const tripletLink = `demo1espanol.html?category=${selectedCategory}&data=${trojka.join(',')}`;
 
                     // 🔹 Dla każdego zdania z osobna:
                     trojka.forEach(indexDiv => {
                         // pojedynczy link do zdania
-                        const singleLink = `demo1angielski.html?category=${selectedCategory}&data=${indexDiv}`;
+                        const singleLink = `demo1espanol.html?category=${selectedCategory}&data=${indexDiv}`;
                         linkMap[indexDiv] = singleLink; // teraz każde zdanie ma własny link
 
                         const $containerBlock = $(`.sentence-block[data-name="${indexDiv}"]`);
@@ -3819,7 +3819,7 @@ currentVideos.forEach(src => {
 
                 const $desc = $('<div>').addClass('thumb-desc').text(thumbDescriptions[pos] || '');
 
-                const linkForThumb = linkMap[dataName] || `demo1angielski.html?category=${selectedCategory}&data=${dataName}`;
+                const linkForThumb = linkMap[dataName] || `demo1espanol.html?category=${selectedCategory}&data=${dataName}`;
                 const $link = $('<a>').attr({href: linkForThumb, target: '_blank'}).addClass('thumb-link').text('Otwórz pojedyńczą lekcję');
 
                 $item.append($img, $desc, $link);
@@ -4193,18 +4193,18 @@ window.mojeidGlobalc = currentWordIndex;
             attachArrowNavigation($sentenceDiv, indexDiv);
 
             // --- Linki do lekcji ---
-            const singleLink = `demo1angielski.html?category=${selectedCategory}&data=${currentDataName}`;
-            const tripletLink = `demo1angielski.html?category=${selectedCategory}&data=${currentTriplet.join(',')}`;
+            const singleLink = `demo1espanol.html?category=${selectedCategory}&data=${currentDataName}`;
+            const tripletLink = `demo1espanol.html?category=${selectedCategory}&data=${currentTriplet.join(',')}`;
 
             const $singleLinkA = $('<a>')
                     .attr({href: singleLink, target: '_blank', rel: 'noopener noreferrer'})
                     .addClass('text-link')
-                    .text('➡ Otwórz lekcję z wybranym zdaniem');
+                    .text('➡ Open the lesson with the selected sentence');
 
             const $tripletLinkA = $('<a>')
                     .attr({href: tripletLink, target: '_blank', rel: 'noopener noreferrer'})
                     .addClass('text-link')
-                    .text('➡ Otwórz całą lekcję (3 zdania)');
+                    .text('➡ Open the full lesson (3 sentences)');
 
             $textContainer.append($singleLinkA, $tripletLinkA);
 
@@ -4227,7 +4227,7 @@ window.mojeidGlobalc = currentWordIndex;
 
         $('body').off('click', '.run-icon').on('click', '.run-icon', function () {
             const indexDiv = $(this).attr('data-index2');
-            const link = linkMap[indexDiv] || `demo1angielski.html?category=${selectedCategory}&data=${indexDiv}`;
+            const link = linkMap[indexDiv] || `demo1espanol.html?category=${selectedCategory}&data=${indexDiv}`;
             window.open(link, '_blank');
         });
 
