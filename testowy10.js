@@ -1,4 +1,4 @@
-const fiszki = [
+const fiszki10 = [
 {
 id: [
         1,
@@ -6,17 +6,17 @@ id: [
 ],
         // obrazek
         img: [
-                "https://www.arbulang.com/img/fiszkiespanol/1a.jpg",
-                "https://www.arbulang.com/img/fiszkiespanol/1b.jpg",
-                "https://www.arbulang.com/img/fiszkiespanol/1c.jpg",
-                "https://www.arbulang.com/img/fiszkiespanol/1d.jpg"
+                "http://localhost/arbulanguage.com/img/fiszkiespanol/1a.jpg",
+                "http://localhost/arbulanguage.com/img/fiszkiespanol/1b.jpg",
+                "http://localhost/arbulanguage.com/img/fiszkiespanol/1c.jpg",
+                "http://localhost/arbulanguage.com/img/fiszkiespanol/1d.jpg"
         ],
         translate: "Rysować kwiat w zeszycie",
         translateb: "[Dibuhar una flor en el kuaderno]",
-        srcWord: ["https://www.arbulang.com/filmy/esp/drawing.mp4", 'Titanic'],
-        srcWordimage: "https://www.arbulang.com/filmy/esp/drawing.png",
+        srcWord: ["http://localhost/arbulanguage.com/filmy/esp/drawing.mp4", 'Titanic'],
+        srcWordimage: "http://localhost/arbulanguage.com/filmy/esp/drawing.png",
         word: [
-                "https://www.arbulang.com/voice/music.mp4"
+                "http://localhost/arbulanguage.com/voice/music.mp4"
         ],
         // historia
         story: [
@@ -31,6 +31,12 @@ id: [
         //zdanie
         sentence1: [
                 "Dibujar"
+        ],
+                        sentence1b: [
+            "Rywować"
+        ],
+                sentence1c: [
+            "Dibuhar"
         ],
         sentence: [
                 "Dibujar",
@@ -55,10 +61,10 @@ id: [
 ],
         // obrazek
         img: [
-            "https://www.arbulang.com/img/fiszkiespanol/2a.jpg"
+            "http://localhost/arbulanguage.com/img/fiszkiespanol/2a.jpg"
         ],
         word: [
-                "https://www.arbulang.com/voice/music.mp4"
+                "http://localhost/arbulanguage.com/voice/music.mp4"
         ],
         // historia
         story: [
@@ -68,7 +74,13 @@ id: [
         desc: "una flor[una flor] - kwiat",
         //zdanie
         sentence1: [
-                "una flor"
+                "una_flor"
+        ],
+                                sentence1b: [
+            "kwiat"
+        ],
+                sentence1c: [
+            "una_flor"
         ],
         sentence: [
                 "Dibujar",
@@ -85,10 +97,10 @@ id: [
 ],
         // obrazek
         img: [
-                "https://www.arbulang.com/img/fiszkiespanol/3a.jpg"
+                "http://localhost/arbulanguage.com/img/fiszkiespanol/3a.jpg"
         ],
         word: [
-                "https://www.arbulang.com/arbulanguage.com/voice/music.mp4"
+                "http://localhost/arbulanguage.com/arbulanguage.com/voice/music.mp4"
         ],
         // historia
         story: [
@@ -99,6 +111,12 @@ id: [
         //zdanie
         sentence2: [
                 "en"
+        ],
+                                sentence2b: [
+            "w"
+        ],
+                sentence2c: [
+            "en"
         ],
         sentence: [
                 "en",
@@ -117,10 +135,10 @@ id: [
 ],
         // obrazek
         img: [
-                "https://www.arbulang.com/img/fiszkiespanol/4a.jpg"
+                "http://localhost/arbulanguage.com/img/fiszkiespanol/4a.jpg"
         ],
         word: [
-                "https://www.arbulang.com/voice/music.mp4"
+                "http://localhost/arbulanguage.com/voice/music.mp4"
         ],
         // historia
         story: [
@@ -130,7 +148,13 @@ id: [
         desc: "el cuaderno[en cuaderno] - zeszyt",
         //zdanie
         sentence2: [
-                "el cuaderno"
+                "el_cuaderno"
+        ],
+                                sentence2b: [
+            "zeszycie"
+        ],
+                sentence2c: [
+            "el_cuaderno"
         ],
         sentence: [
                 "en",
@@ -150,14 +174,14 @@ id: [
 ],
         // obrazek
         img: [
-                "https://www.arbulang.com/img/fiszkiespanol/5a.jpg"
+                "http://localhost/arbulanguage.com/img/fiszkiespanol/5a.jpg"
         ],
         translate: "Czekać samemu w domu",
         translateb: "[Esperar solo dentro de la kasa]",
-        srcWord: ["https://www.arbulang.com/filmy/esp/home.mp4", 'Mechanik. Konfrontacja'],
-        srcWordimage: "https://www.arbulang.com/filmy/esp/home.png",
+        srcWord: ["http://localhost/arbulanguage.com/filmy/esp/home.mp4", 'Mechanik. Konfrontacja'],
+        srcWordimage: "http://localhost/arbulanguage.com/filmy/esp/home.png",
         word: [
-                "https://www.arbulang.com/voice/music.mp4"
+                "http://localhost/arbulanguage.com/voice/music.mp4"
         ],
         // historia
         story: [
@@ -168,6 +192,12 @@ id: [
         //zdanie
         sentence1: [
                 "Esperar"
+        ],
+                                        sentence1b: [
+            "Czekać"
+        ],
+                sentence1c: [
+            "Esperar"
         ],
         sentence: [
                 "Esperar",
@@ -187,10 +217,10 @@ id: [
 ],
         // obrazek
         img: [
-                "https://www.arbulang.com/img/fiszkiespanol/6a.jpg"
+                "http://localhost/arbulanguage.com/img/fiszkiespanol/6a.jpg"
         ],
         word: [
-                "https://www.arbulang.com/voice/music.mp4"
+                "http://localhost/arbulanguage.com/voice/music.mp4"
         ],
         // historia
         story: [
@@ -201,6 +231,12 @@ id: [
         //zdanie
         sentence1: [
                 "solo"
+        ],
+                                                sentence1b: [
+            "samemu"
+        ],
+                sentence1c: [
+            "solo"
         ],
         sentence: [
                 "Esperar",
@@ -221,12 +257,12 @@ id: [
         img: [
                 "",
                 "",
-                "https://www.arbulang.com/img/fiszkiespanol/7a.jpg",
+                "http://localhost/arbulanguage.com/img/fiszkiespanol/7a.jpg",
                 "",
                 ""
         ],
         word: [
-                "https://www.arbulang.com/voice/music.mp4"
+                "http://localhost/arbulanguage.com/voice/music.mp4"
         ],
         // historia
         story: [
@@ -236,7 +272,13 @@ id: [
         desc: "dentro de[dentro de] - w",
         //zdanie
         sentence2: [
-                "dentro de"
+                "dentro_de"
+        ],
+                                                        sentence2b: [
+            "w"
+        ],
+                sentence2c: [
+            "dentro_de"
         ],
         sentence: [
                 "dentro de",
@@ -255,10 +297,10 @@ id: [
 ],
         // obrazek
         img: [
-                "https://www.arbulang.com/fiszkiespanol/8a.jpg"
+                "http://localhost/arbulanguage.com/fiszkiespanol/8a.jpg"
         ],
         word: [
-                "https://www.arbulang.com/voice/music.mp4"
+                "http://localhost/arbulanguage.com/voice/music.mp4"
         ],
         // historia
         story: [
@@ -268,7 +310,13 @@ id: [
         desc: "la casa[la kasa] - dom",
         //zdanie
         sentence2: [
-                "la casa"
+                "la_casa"
+        ],
+                                                        sentence2b: [
+            "domu"
+        ],
+                sentence2c: [
+            "la_kasa"
         ],
         sentence: [
                 "dentro de",
@@ -287,14 +335,14 @@ id: [
 ],
         // obrazek
         img: [
-                "https://www.arbulang.com/img/fiszkiespanol/9a.jpg"
+                "http://localhost/arbulanguage.com/img/fiszkiespanol/9a.jpg"
         ],
         translate: "Rozmawiać bez napięcia, idąc razem",
         translateb: "[Ablar sin tensión mientras kaminamos huntos]",
-        srcWord: ["https://www.arbulang.com/filmy/esp/conversation.mp4", 'Incepcja'],
-        srcWordimage: "https://www.arbulang.com/filmy/esp/conversation.png",
+        srcWord: ["http://localhost/arbulanguage.com/filmy/esp/conversation.mp4", 'Incepcja'],
+        srcWordimage: "http://localhost/arbulanguage.com/filmy/esp/conversation.png",
         word: [
-                "https://www.arbulang.com/voice/music.mp4"
+                "http://localhost/arbulanguage.com/voice/music.mp4"
         ],
         // historia
         story: [
@@ -305,6 +353,12 @@ id: [
         //zdanie
         sentence1: [
                 "Hablar"
+        ],
+                                                                sentence1b: [
+            "Rozmawiać"
+        ],
+                sentence1c: [
+            "ablar"
         ],
         sentence: [
                 "Hablar",
@@ -325,10 +379,10 @@ id: [
 ],
         // obrazek
         img: [
-                "https://www.arbulang.com/img/fiszkiespanol/10a.jpg"
+                "http://localhost/arbulanguage.com/img/fiszkiespanol/10a.jpg"
         ],
         word: [
-                "https://www.arbulang.com/voice/music.mp4"
+                "http://localhost/arbulanguage.com/voice/music.mp4"
         ],
         // historia
         story: [
@@ -339,6 +393,12 @@ id: [
         //zdanie
         sentence1: [
                 "sin"
+        ],
+                                                                        sentence1b: [
+            "bez"
+        ],
+                sentence1c: [
+            "sin"
         ],
         sentence: [
                 "Hablar",
@@ -358,10 +418,10 @@ id: [
 ],
         // obrazek
         img: [
-                "https://www.arbulang.com/img/fiszkiespanol/11a.jpg"
+                "http://localhost/arbulanguage.com/img/fiszkiespanol/11a.jpg"
         ],
         word: [
-                "https://www.arbulang.com/voice/music.mp4"
+                "http://localhost/arbulanguage.com/voice/music.mp4"
         ],
         // historia
         story: [
@@ -372,6 +432,12 @@ id: [
         //zdanie
         sentence1: [
                 "tension"
+        ],
+                                                                                sentence1b: [
+            "napięcia"
+        ],
+                sentence1c: [
+            "tension"
         ],
         sentence: [
                 "Hablar",
@@ -391,10 +457,10 @@ id: [
 ],
         // obrazek
         img: [
-                "https://www.arbulang.com/img/fiszkiespanol/12a.jpg"
+                "http://localhost/arbulanguage.com/img/fiszkiespanol/12a.jpg"
         ],
         word: [
-                "https://www.arbulang.com/voice/music.mp4"
+                "http://localhost/arbulanguage.com/voice/music.mp4"
         ],
         // historia
         story: [
@@ -405,6 +471,12 @@ id: [
         //zdanie
         sentence2: [
                 "mientras"
+        ],
+            sentence2b: [
+            "podczas_gdy"
+        ],
+                sentence2c: [
+            "mientras"
         ],
         sentence: [
                 "mientras",
@@ -424,10 +496,10 @@ id: [
 ],
         // obrazek
         img: [
-                "https://www.arbulang.com/img/fiszkiespanol/13a.jpg"
+                "http://localhost/arbulanguage.com/img/fiszkiespanol/13a.jpg"
         ],
         word: [
-                "https://www.arbulang.com/voice/music.mp4"
+                "http://localhost/arbulanguage.com/voice/music.mp4"
         ],
         // historia
         story: [
@@ -438,6 +510,12 @@ id: [
         //zdanie
         sentence2: [
                 "caminamos"
+        ],
+                    sentence2b: [
+            "idziemy"
+        ],
+                sentence2c: [
+            "kaminamos"
         ],
         sentence: [
                 "mientras",
@@ -457,10 +535,10 @@ id: [
 ],
         // obrazek
         img: [
-                "https://www.arbulang.com/img/fiszkiespanol/14a.jpg"
+                "http://localhost/arbulanguage.com/img/fiszkiespanol/14a.jpg"
         ],
         word: [
-                "https://www.arbulang.com/voice/music.mp4"
+                "http://localhost/arbulanguage.com/voice/music.mp4"
         ],
         // historia
         story: [
@@ -471,6 +549,12 @@ id: [
         //zdanie
         sentence2: [
                 "juntos"
+        ],
+                            sentence2b: [
+            "razem"
+        ],
+                sentence2c: [
+            "huntos"
         ],
         sentence: [
                 "mientras",
@@ -490,14 +574,14 @@ id: [
 ],
         // obrazek
         img: [
-                "https://www.arbulang.com/img/fiszkiespanol/15a.jpg"
+                "http://localhost/arbulanguage.com/img/fiszkiespanol/15a.jpg"
         ],
         translate: "Przerywać ciszę pięknymi słowami",
         translateb: "[Romper el silensio kon palawras bonitas]",
-        srcWord: ["https://www.arbulang.com/filmy/esp/beautiful-words.mp4", '300'],
-        srcWordimage: "https://www.arbulang.com/filmy/esp/beautiful-words.png",
+        srcWord: ["http://localhost/arbulanguage.com/filmy/esp/beautiful-words.mp4", '300'],
+        srcWordimage: "http://localhost/arbulanguage.com/filmy/esp/beautiful-words.png",
         word: [
-                "https://www.arbulang.com/voice/music.mp4"
+                "http://localhost/arbulanguage.com/voice/music.mp4"
         ],
         // historia
         story: [
@@ -508,6 +592,12 @@ id: [
         //zdanie
         sentence1: [
                 "Romper"
+        ],
+                                    sentence1b: [
+            "Przerywać"
+        ],
+                sentence1c: [
+            "romper"
         ],
         sentence: [
                 "Romper",
@@ -528,10 +618,10 @@ id: [
 ],
         // obrazek
         img: [
-                "https://www.arbulang.com/img/fiszkiespanol/16a.jpg"
+                "http://localhost/arbulanguage.com/img/fiszkiespanol/16a.jpg"
         ],
         word: [
-                "https://www.arbulang.com/voice/music.mp4"
+                "http://localhost/arbulanguage.com/voice/music.mp4"
         ],
         // historia
         story: [
@@ -541,7 +631,13 @@ id: [
         desc: "el silencio[el silensio] - cisza",
         //zdanie
         sentence1: [
-                "el silencio"
+                "el_silencio"
+        ],
+                                            sentence1b: [
+            "ciszę"
+        ],
+                sentence1c: [
+            "el_silensio"
         ],
         sentence: [
                 "Romper",
@@ -561,10 +657,10 @@ id: [
 ],
         // obrazek
         img: [
-                "https://www.arbulang.com/img/fiszkiespanol/17a.jpg"
+                "http://localhost/arbulanguage.com/img/fiszkiespanol/17a.jpg"
         ],
         word: [
-                "https://www.arbulang.com/voice/music.mp4"
+                "http://localhost/arbulanguage.com/voice/music.mp4"
         ],
         // historia
         story: [
@@ -575,6 +671,12 @@ id: [
         //zdanie
         sentence1: [
                 "con"
+        ],
+                                            sentence1b: [
+            "z"
+        ],
+                sentence1c: [
+            "kon"
         ],
         sentence: [
                 "Romper",
@@ -594,10 +696,10 @@ id: [
 ],
         // obrazek
         img: [
-                "https://www.arbulang.com/img/fiszkiespanol/18a.jpg"
+                "http://localhost/arbulanguage.com/img/fiszkiespanol/18a.jpg"
         ],
         word: [
-                "https://www.arbulang.com/voice/music.mp4"
+                "http://localhost/arbulanguage.com/voice/music.mp4"
         ],
         // historia
         story: [
@@ -608,6 +710,12 @@ id: [
         //zdanie
         sentence2: [
                 "palabras"
+        ],
+                                                    sentence2b: [
+            "słowami"
+        ],
+                sentence2c: [
+            "palawras"
         ],
         sentence: [
                 "palabras",
@@ -626,10 +734,10 @@ id: [
 ],
         // obrazek
         img: [
-                "https://www.arbulang.com/img/fiszkiespanol/19a.jpg"
+                "http://localhost/arbulanguage.com/img/fiszkiespanol/19a.jpg"
         ],
         word: [
-                "https://www.arbulang.com/voice/music.mp4"
+                "http://localhost/arbulanguage.com/voice/music.mp4"
         ],
         // historia
         story: [
@@ -640,6 +748,12 @@ id: [
         //zdanie
         sentence2: [
                 "bonitas"
+        ],
+                                                            sentence2b: [
+            "pięknymi"
+        ],
+                sentence2c: [
+            "bonitas"
         ],
         sentence: [
                 "palabras",
@@ -658,14 +772,14 @@ id: [
 ],
         // obrazek
         img: [
-                "https://www.arbulang.com/img/fiszkiespanol/20a.jpg"
+                "http://localhost/arbulanguage.com/img/fiszkiespanol/20a.jpg"
         ],
         translate: "Zabezpieczać drzwi przed snem",
         translateb: "[Asegurar las puertas antes de dormir]",
-        srcWord: ["https://www.arbulang.com/filmy/esp/door.mp4", 'The Matrix Reloaded'],
-        srcWordimage: "https://www.arbulang.com/filmy/esp/door.png",
+        srcWord: ["http://localhost/arbulanguage.com/filmy/esp/door.mp4", 'The Matrix Reloaded'],
+        srcWordimage: "http://localhost/arbulanguage.com/filmy/esp/door.png",
         word: [
-                "https://www.arbulang.com/voice/music.mp4"
+                "http://localhost/arbulanguage.com/voice/music.mp4"
         ],
         // historia
         story: [
@@ -695,10 +809,10 @@ id: [
 ],
         // obrazek
         img: [
-                "https://www.arbulang.com/img/fiszkiespanol/21a.jpg"
+                "http://localhost/arbulanguage.com/img/fiszkiespanol/21a.jpg"
         ],
         word: [
-                "https://www.arbulang.com/voice/music.mp4"
+                "http://localhost/arbulanguage.com/voice/music.mp4"
         ],
         // historia
         story: [
@@ -727,10 +841,10 @@ id: [
 ],
         // obrazek
         img: [
-                "https://www.arbulang.com/img/fiszkiespanol/22a.jpg"
+                "http://localhost/arbulanguage.com/img/fiszkiespanol/22a.jpg"
         ],
         word: [
-                "https://www.arbulang.com/voice/music.mp4"
+                "http://localhost/arbulanguage.com/voice/music.mp4"
         ],
         // historia
         story: [
@@ -759,10 +873,10 @@ id: [
 ],
         // obrazek
         img: [
-                "https://www.arbulang.com/img/fiszkiespanol/23a.jpg"
+                "http://localhost/arbulanguage.com/img/fiszkiespanol/23a.jpg"
         ],
         word: [
-                "https://www.arbulang.com/voice/music.mp4"
+                "http://localhost/arbulanguage.com/voice/music.mp4"
         ],
         // historia
         story: [
@@ -791,14 +905,14 @@ id: [
 ],
         // obrazek
         img: [
-                "https://www.arbulang.com/img/fiszkiespanol/24a.jpg"
+                "http://localhost/arbulanguage.com/img/fiszkiespanol/24a.jpg"
         ],
         translate: "Zachować spokój i cieszyć się razem",
         translateb: "[Mantener la kalma i disfrutar huntos]",
-        srcWord: ["https://www.arbulang.com/filmy/esp/smiling.mp4", '300'],
-        srcWordimage: "https://www.arbulang.com/filmy/esp/smiling.png",
+        srcWord: ["http://localhost/arbulanguage.com/filmy/esp/smiling.mp4", '300'],
+        srcWordimage: "http://localhost/arbulanguage.com/filmy/esp/smiling.png",
         word: [
-                "https://www.arbulang.com/voice/music.mp4"
+                "http://localhost/arbulanguage.com/voice/music.mp4"
         ],
         // historia
         story: [
@@ -828,10 +942,10 @@ id: [
 ],
         // obrazek
         img: [
-                "https://www.arbulang.com/img/fiszkiespanol/25a.jpg"
+                "http://localhost/arbulanguage.com/img/fiszkiespanol/25a.jpg"
         ],
         word: [
-                "https://www.arbulang.com/voice/music.mp4"
+                "http://localhost/arbulanguage.com/voice/music.mp4"
         ],
         // historia
         story: [
@@ -860,10 +974,10 @@ id: [
 ],
         // obrazek
         img: [
-                "https://www.arbulang.com/img/fiszkiespanol/26a.jpg"
+                "http://localhost/arbulanguage.com/img/fiszkiespanol/26a.jpg"
         ],
         word: [
-                "https://www.arbulang.com/voice/music.mp4"
+                "http://localhost/arbulanguage.com/voice/music.mp4"
         ],
         // historia
         story: [
@@ -893,10 +1007,10 @@ id: [
 ],
         // obrazek
         img: [
-                "https://www.arbulang.com/img/fiszkiespanol/27a.jpg"
+                "http://localhost/arbulanguage.com/img/fiszkiespanol/27a.jpg"
         ],
         word: [
-                "https://www.arbulang.com/voice/music.mp4"
+                "http://localhost/arbulanguage.com/voice/music.mp4"
         ],
         // historia
         story: [
@@ -926,10 +1040,10 @@ id: [
 ],
         // obrazek
         img: [
-                "https://www.arbulang.com/img/fiszkiespanol/14a.jpg"
+                "http://localhost/arbulanguage.com/img/fiszkiespanol/14a.jpg"
         ],
         word: [
-                "https://www.arbulang.com/voice/music.mp4"
+                "http://localhost/arbulanguage.com/voice/music.mp4"
         ],
         // historia
         story: [
@@ -959,14 +1073,14 @@ id: [
 ],
         // obrazek
         img: [
-                "https://www.arbulang.com/img/fiszkiespanol/29a.jpg"
+                "http://localhost/arbulanguage.com/img/fiszkiespanol/29a.jpg"
         ],
         translate: "Osiągać marzenia przez wysiłek i poświęcenie",
         translateb: "[Lograr sueños con esfuerzo y dedicación]",
-        srcWord: ["https://www.arbulang.com/filmy/esp/dreams.mp4", 'Pain And Gain'],
-        srcWordimage: "https://www.arbulang.com/filmy/esp/dreams.png",
+        srcWord: ["http://localhost/arbulanguage.com/filmy/esp/dreams.mp4", 'Pain And Gain'],
+        srcWordimage: "http://localhost/arbulanguage.com/filmy/esp/dreams.png",
         word: [
-                "https://www.arbulang.com/voice/music.mp4"
+                "http://localhost/arbulanguage.com/voice/music.mp4"
         ],
         // historia
         story: [
@@ -997,10 +1111,10 @@ id: [
 ],
         // obrazek
         img: [
-                "https://www.arbulang.com/img/fiszkiespanol/30a.jpg"
+                "http://localhost/arbulanguage.com/img/fiszkiespanol/30a.jpg"
         ],
         word: [
-                "https://www.arbulang.com/voice/music.mp4"
+                "http://localhost/arbulanguage.com/voice/music.mp4"
         ],
         // historia
         story: [
@@ -1030,11 +1144,11 @@ id: [
 ],
         // obrazek
         img: [
-            "https://www.arbulang.com/img/fiszkiespanol/17a.jpg",
-                "https://www.arbulang.com/img/fiszkiespanol/31a.jpg"
+            "http://localhost/arbulanguage.com/img/fiszkiespanol/17a.jpg",
+                "http://localhost/arbulanguage.com/img/fiszkiespanol/31a.jpg"
         ],
         word: [
-                "https://www.arbulang.com/voice/music.mp4"
+                "http://localhost/arbulanguage.com/voice/music.mp4"
         ],
         // historia
         story: [
@@ -1065,10 +1179,10 @@ id: [
 ],
         // obrazek
         img: [
-                "https://www.arbulang.com/img/fiszkiespanol/32a.jpg"
+                "http://localhost/arbulanguage.com/img/fiszkiespanol/32a.jpg"
         ],
         word: [
-                "https://www.arbulang.com/voice/music.mp4"
+                "http://localhost/arbulanguage.com/voice/music.mp4"
         ],
         // historia
         story: [
@@ -1098,10 +1212,10 @@ id: [
 ],
         // obrazek
         img: [
-                "https://www.arbulang.com/img/fiszkiespanol/26a.jpg"
+                "http://localhost/arbulanguage.com/img/fiszkiespanol/26a.jpg"
         ],
         word: [
-                "https://www.arbulang.com/voice/music.mp4"
+                "http://localhost/arbulanguage.com/voice/music.mp4"
         ],
         // historia
         story: [
@@ -1131,10 +1245,10 @@ id: [
 ],
         // obrazek
         img: [
-                "https://www.arbulang.com/img/fiszkiespanol/34a.jpg"
+                "http://localhost/arbulanguage.com/img/fiszkiespanol/34a.jpg"
         ],
         word: [
-                "https://www.arbulang.com/voice/music.mp4"
+                "http://localhost/arbulanguage.com/voice/music.mp4"
         ],
         // historia
         story: [
@@ -1164,14 +1278,14 @@ id: [
 ],
         // obrazek
         img: [
-                "https://www.arbulang.com/img/fiszki1/35a.jpg"
+                "http://localhost/arbulanguage.com/img/fiszki1/35a.jpg"
         ],
         translate: "Pamiętać szczęśliwe chwile z rodziną",
         translateb: "[Recordar momentos felices con la familia]",
-        srcWord: ["https://www.arbulang.com/filmy/esp/timewithfamily.mp4", 'Fast and Furious'],
-        srcWordimage: "https://www.arbulang.com/filmy/esp/timewithfamily.png",
+        srcWord: ["http://localhost/arbulanguage.com/filmy/esp/timewithfamily.mp4", 'Fast and Furious'],
+        srcWordimage: "http://localhost/arbulanguage.com/filmy/esp/timewithfamily.png",
         word: [
-                "https://www.arbulang.com/voice/music.mp4"
+                "http://localhost/arbulanguage.com/voice/music.mp4"
         ],
         // historia
         story: [
@@ -1202,10 +1316,10 @@ id: [
 ],
         // obrazek
         img: [
-                "https://www.arbulang.com/img/fiszki1/36a.jpg"
+                "http://localhost/arbulanguage.com/img/fiszki1/36a.jpg"
         ],
         word: [
-                "https://www.arbulang.com/voice/music.mp4"
+                "http://localhost/arbulanguage.com/voice/music.mp4"
         ],
         // historia
         story: [
@@ -1236,10 +1350,10 @@ id: [
 ],
         // obrazek
         img: [
-                "https://www.arbulang.com/img/fiszki1/37a.jpg"
+                "http://localhost/arbulanguage.com/img/fiszki1/37a.jpg"
         ],
         word: [
-                "https://www.arbulang.com/voice/music.mp4"
+                "http://localhost/arbulanguage.com/voice/music.mp4"
         ],
         // historia
         story: [
@@ -1269,11 +1383,11 @@ id: [
 ],
         // obrazek
         img: [
-            "https://www.arbulang.com/img/fiszkiespanol/17a.jpg",
-                "https://www.arbulang.com/img/fiszkiespanol/31a.jpg"
+            "http://localhost/arbulanguage.com/img/fiszkiespanol/17a.jpg",
+                "http://localhost/arbulanguage.com/img/fiszkiespanol/31a.jpg"
         ],
         word: [
-                "https://www.arbulang.com/voice/music.mp4"
+                "http://localhost/arbulanguage.com/voice/music.mp4"
         ],
         // historia
         story: [
@@ -1303,10 +1417,10 @@ id: [
 ],
         // obrazek
         img: [
-                "https://www.arbulang.com/img/fiszki1/39a.jpg"
+                "http://localhost/arbulanguage.com/img/fiszki1/39a.jpg"
         ],
         word: [
-                "https://www.arbulang.com/voice/music.mp4"
+                "http://localhost/arbulanguage.com/voice/music.mp4"
         ],
         // historia
         story: [
@@ -1336,14 +1450,14 @@ id: [
 ],
         // obrazek
         img: [
-                "https://www.arbulang.com/img/fiszkiespanol/27a.jpg"
+                "http://localhost/arbulanguage.com/img/fiszkiespanol/27a.jpg"
         ],
         translate: "Cieszyć się makijażem przed wyjściem",
         translateb: "[Disfrutar del maquillaje antes de salir]",
-        srcWord: ["https://www.arbulang.com/filmy/esp/make-up.mp4", 'Piosenka: 10 minutes - Inna'],
-        srcWordimage: "https://www.arbulang.com/filmy/esp/make-up.png",
+        srcWord: ["http://localhost/arbulanguage.com/filmy/esp/make-up.mp4", 'Piosenka: 10 minutes - Inna'],
+        srcWordimage: "http://localhost/arbulanguage.com/filmy/esp/make-up.png",
         word: [
-                "https://www.arbulang.com/voice/music.mp4"
+                "http://localhost/arbulanguage.com/voice/music.mp4"
         ],
         // historia
         story: [
@@ -1374,10 +1488,10 @@ id: [
 ],
         // obrazek
         img: [
-                "https://www.arbulang.com/img/fiszki1/41a.jpg"
+                "http://localhost/arbulanguage.com/img/fiszki1/41a.jpg"
         ],
         word: [
-                "https://www.arbulang.com/voice/music.mp4"
+                "http://localhost/arbulanguage.com/voice/music.mp4"
         ],
         // historia
         story: [
@@ -1406,10 +1520,10 @@ id: [
 ],
         // obrazek
         img: [
-                "https://www.arbulang.com/img/fiszkiespanol/22a.jpg"
+                "http://localhost/arbulanguage.com/img/fiszkiespanol/22a.jpg"
         ],
         word: [
-                "https://www.arbulang.com/voice/music.mp4"
+                "http://localhost/arbulanguage.com/voice/music.mp4"
         ],
         // historia
         story: [
@@ -1439,10 +1553,10 @@ id: [
 ],
         // obrazek
         img: [
-                "https://www.arbulang.com/img/fiszkiespanol/43a.jpg"
+                "http://localhost/arbulanguage.com/img/fiszkiespanol/43a.jpg"
         ],
         word: [
-                "https://www.arbulang.com/voice/music.mp4"
+                "http://localhost/arbulanguage.com/voice/music.mp4"
         ],
         // historia
         story: [
@@ -1471,14 +1585,14 @@ id: [
 ],
         // obrazek
         img: [
-                "https://www.arbulang.com/img/fiszkiespanol/44a.jpg"
+                "http://localhost/arbulanguage.com/img/fiszkiespanol/44a.jpg"
         ],
         translate: "Zapomnieć o niepokoju, patrząc na gwiazdy",
         translateb: "[Olvidar la ansiedad mirando las estrellas]",
-        srcWord: ["https://www.arbulang.com/filmy/esp/gwiazdy.mp4", 'Pasażerowie (2016)'],
-        srcWordimage: "https://www.arbulang.com/filmy/esp/gwiazdy.png",
+        srcWord: ["http://localhost/arbulanguage.com/filmy/esp/gwiazdy.mp4", 'Pasażerowie (2016)'],
+        srcWordimage: "http://localhost/arbulanguage.com/filmy/esp/gwiazdy.png",
         word: [
-                "https://www.arbulang.com/voice/music.mp4"
+                "http://localhost/arbulanguage.com/voice/music.mp4"
         ],
         // historia
         story: [
@@ -1508,10 +1622,10 @@ id: [
 ],
         // obrazek
         img: [
-                "https://www.arbulang.com/img/fiszkiespanol/45a.jpg"
+                "http://localhost/arbulanguage.com/img/fiszkiespanol/45a.jpg"
         ],
         word: [
-                "https://www.arbulang.com/voice/music.mp4"
+                "http://localhost/arbulanguage.com/voice/music.mp4"
         ],
         // historia
         story: [
@@ -1540,10 +1654,10 @@ id: [
 ],
         // obrazek
         img: [
-                "https://www.arbulang.com/img/fiszkiespanol/46a.jpg"
+                "http://localhost/arbulanguage.com/img/fiszkiespanol/46a.jpg"
         ],
         word: [
-                "https://www.arbulang.com/voice/music.mp4"
+                "http://localhost/arbulanguage.com/voice/music.mp4"
         ],
         // historia
         story: [
@@ -1572,10 +1686,10 @@ id: [
 ],
         // obrazek
         img: [
-                "https://www.arbulang.com/img/fiszkiespanol/47a.jpg"
+                "http://localhost/arbulanguage.com/img/fiszkiespanol/47a.jpg"
         ],
         word: [
-                "https://www.arbulang.com/voice/music.mp4"
+                "http://localhost/arbulanguage.com/voice/music.mp4"
         ],
         // historia
         story: [
@@ -1604,14 +1718,14 @@ id: [
 ],
         // obrazek
         img: [
-                "https://www.arbulang.com/img/fiszkiespanol/48a.jpg"
+                "http://localhost/arbulanguage.com/img/fiszkiespanol/48a.jpg"
         ],
         translate: "Rozciągać ramiona ku błękitnemu niebu",
         translateb: "[Extender los brazos al cielo azul]",
-        srcWord: ["https://www.arbulang.com/filmy/esp/niebo.mp4", 'Skazani na Shawshank (1994)'],
-        srcWordimage: "https://www.arbulang.com/filmy/esp/niebo.png",
+        srcWord: ["http://localhost/arbulanguage.com/filmy/esp/niebo.mp4", 'Skazani na Shawshank (1994)'],
+        srcWordimage: "http://localhost/arbulanguage.com/filmy/esp/niebo.png",
         word: [
-                "https://www.arbulang.com/voice/music.mp4"
+                "http://localhost/arbulanguage.com/voice/music.mp4"
         ],
         // historia
         story: [
@@ -1642,10 +1756,10 @@ id: [
 ],
         // obrazek
         img: [
-                "https://www.arbulang.com/img/fiszkiespanol/49a.jpg"
+                "http://localhost/arbulanguage.com/img/fiszkiespanol/49a.jpg"
         ],
         word: [
-                "https://www.arbulang.com/voice/music.mp4"
+                "http://localhost/arbulanguage.com/voice/music.mp4"
         ],
         // historia
         story: [
@@ -1675,10 +1789,10 @@ id: [
 ],
         // obrazek
         img: [
-                "https://www.arbulang.com/img/fiszkiespanol/50a.jpg"
+                "http://localhost/arbulanguage.com/img/fiszkiespanol/50a.jpg"
         ],
         word: [
-                "https://www.arbulang.com/voice/music.mp4"
+                "http://localhost/arbulanguage.com/voice/music.mp4"
         ],
         // historia
         story: [
@@ -1708,10 +1822,10 @@ id: [
 ],
         // obrazek
         img: [
-                "https://www.arbulang.com/img/fiszkiespanol/51a.jpg"
+                "http://localhost/arbulanguage.com/img/fiszkiespanol/51a.jpg"
         ],
         word: [
-                "https://www.arbulang.com/voice/music.mp4"
+                "http://localhost/arbulanguage.com/voice/music.mp4"
         ],
         // historia
         story: [
@@ -1740,10 +1854,10 @@ id: [
 ],
         // obrazek
         img: [
-                "https://www.arbulang.com/img/fiszkiespanol/52a.jpg"
+                "http://localhost/arbulanguage.com/img/fiszkiespanol/52a.jpg"
         ],
         word: [
-                "https://www.arbulang.com/voice/music.mp4"
+                "http://localhost/arbulanguage.com/voice/music.mp4"
         ],
         // historia
         story: [
@@ -1772,14 +1886,14 @@ id: [
 ],
         // obrazek
         img: [
-                "https://www.arbulang.com/img/fiszkiespanol/53a.jpg"
+                "http://localhost/arbulanguage.com/img/fiszkiespanol/53a.jpg"
         ],
         translate: "Pokryć samochód przed deszczem",
         translateb: "[Kubrir el coche antes de la lluvia]",
-        srcWord: ["https://www.arbulang.com/filmy/esp/showingcar.mp4", 'W pogodni za zemstą (2010)'],
-        srcWordimage: "https://www.arbulang.com/filmy/esp/showingcar.png",
+        srcWord: ["http://localhost/arbulanguage.com/filmy/esp/showingcar.mp4", 'W pogodni za zemstą (2010)'],
+        srcWordimage: "http://localhost/arbulanguage.com/filmy/esp/showingcar.png",
         word: [
-                "https://www.arbulang.com/voice/music.mp4"
+                "http://localhost/arbulanguage.com/voice/music.mp4"
         ],
         // historia
         story: [
@@ -1811,10 +1925,10 @@ id: [
 ],
         // obrazek
         img: [
-                "https://www.arbulang.com/img/fiszkiespanol/54a.jpg"
+                "http://localhost/arbulanguage.com/img/fiszkiespanol/54a.jpg"
         ],
         word: [
-                "https://www.arbulang.com/voice/music.mp4"
+                "http://localhost/arbulanguage.com/voice/music.mp4"
         ],
         // historia
         story: [
@@ -1845,10 +1959,10 @@ id: [
 ],
         // obrazek
         img: [
-                "https://www.arbulang.com/img/fiszkiespanol/55a.jpg"
+                "http://localhost/arbulanguage.com/img/fiszkiespanol/55a.jpg"
         ],
         word: [
-                "https://www.arbulang.com/voice/music.mp4"
+                "http://localhost/arbulanguage.com/voice/music.mp4"
         ],
         // historia
         story: [
@@ -1879,10 +1993,10 @@ id: [
 ],
         // obrazek
         img: [
-                "https://www.arbulang.com/img/fiszkiespanol/56a.jpg"
+                "http://localhost/arbulanguage.com/img/fiszkiespanol/56a.jpg"
         ],
         word: [
-                "https://www.arbulang.com/voice/music.mp4"
+                "http://localhost/arbulanguage.com/voice/music.mp4"
         ],
         // historia
         story: [
@@ -1913,14 +2027,14 @@ id: [
 ],
         // obrazek
         img: [
-                "https://www.arbulang.com/img/fiszkiespanol/57a.jpg"
+                "http://localhost/arbulanguage.com/img/fiszkiespanol/57a.jpg"
         ],
         translate: "Zmieniać umysł nowymi pomysłami",
         translateb: "[Cambiar la mente con nuevas ideas]",
-        srcWord: ["https://www.arbulang.com/filmy/esp/planning.mp4", 'Piękny Umysł (2001)'],
-        srcWordimage: "https://www.arbulang.com/filmy/esp/planning.png",
+        srcWord: ["http://localhost/arbulanguage.com/filmy/esp/planning.mp4", 'Piękny Umysł (2001)'],
+        srcWordimage: "http://localhost/arbulanguage.com/filmy/esp/planning.png",
         word: [
-                "https://www.arbulang.com/voice/music.mp4"
+                "http://localhost/arbulanguage.com/voice/music.mp4"
         ],
         // historia
         story: [
@@ -1950,10 +2064,10 @@ id: [
 ],
         // obrazek
         img: [
-                "https://www.arbulang.com/img/fiszkiespanol/58a.jpg"
+                "http://localhost/arbulanguage.com/img/fiszkiespanol/58a.jpg"
         ],
         word: [
-                "https://www.arbulang.com/voice/music.mp4"
+                "http://localhost/arbulanguage.com/voice/music.mp4"
         ],
         // historia
         story: [
@@ -1982,12 +2096,12 @@ id: [
 ],
         // obrazek
         img: [
-            "https://www.arbulang.com/img/fiszkiespanol/17a.jpg",
-                "https://www.arbulang.com/img/fiszkiespanol/31a.jpg",
-                "https://www.arbulang.com/img/fiszkiespanol/59a.jpg"
+            "http://localhost/arbulanguage.com/img/fiszkiespanol/17a.jpg",
+                "http://localhost/arbulanguage.com/img/fiszkiespanol/31a.jpg",
+                "http://localhost/arbulanguage.com/img/fiszkiespanol/59a.jpg"
         ],
         word: [
-                "https://www.arbulang.com/voice/music.mp4"
+                "http://localhost/arbulanguage.com/voice/music.mp4"
         ],
         // historia
         story: [
@@ -2019,10 +2133,10 @@ id: [
 ],
         // obrazek
         img: [
-                "https://www.arbulang.com/img/fiszkiespanol/60a.jpg"
+                "http://localhost/arbulanguage.com/img/fiszkiespanol/60a.jpg"
         ],
         word: [
-                "https://www.arbulang.com/voice/music.mp4"
+                "http://localhost/arbulanguage.com/voice/music.mp4"
         ],
         // historia
         story: [
@@ -2052,10 +2166,10 @@ id: [
 ],
         // obrazek
         img: [
-                "https://www.arbulang.com/img/fiszkiespanol/61a.jpg"
+                "http://localhost/arbulanguage.com/img/fiszkiespanol/61a.jpg"
         ],
         word: [
-                "https://www.arbulang.com/voice/music.mp4"
+                "http://localhost/arbulanguage.com/voice/music.mp4"
         ],
         // historia
         story: [
@@ -2086,14 +2200,14 @@ id: [
 ],
         // obrazek
         img: [
-                "https://www.arbulang.com/img/fiszkiespanol/62a.jpg"
+                "http://localhost/arbulanguage.com/img/fiszkiespanol/62a.jpg"
         ],
         translate: "Przewidywać problemy i być zawsze przygotowanym",
         translateb: "[Prever problemas y estar preparado siempre]",
-        srcWord: ["https://www.arbulang.com/filmy/esp/predict.mp4", 'Resident Evil: The Final Chapter (2016)'],
-        srcWordimage: "https://www.arbulang.com/filmy/esp/predict.png",
+        srcWord: ["http://localhost/arbulanguage.com/filmy/esp/predict.mp4", 'Resident Evil: The Final Chapter (2016)'],
+        srcWordimage: "http://localhost/arbulanguage.com/filmy/esp/predict.png",
         word: [
-                "https://www.arbulang.com/voice/music.mp4"
+                "http://localhost/arbulanguage.com/voice/music.mp4"
         ],
         // historia
         story: [
@@ -2123,10 +2237,10 @@ id: [
 ],
         // obrazek
         img: [
-                "https://www.arbulang.com/img/fiszkiespanol/63a.jpg"
+                "http://localhost/arbulanguage.com/img/fiszkiespanol/63a.jpg"
         ],
         word: [
-                "https://www.arbulang.com/voice/music.mp4"
+                "http://localhost/arbulanguage.com/voice/music.mp4"
         ],
         // historia
         story: [
@@ -2155,10 +2269,10 @@ id: [
 ],
         // obrazek
         img: [
-                "https://www.arbulang.com/img/fiszkiespanol/64a.jpg"
+                "http://localhost/arbulanguage.com/img/fiszkiespanol/64a.jpg"
         ],
         word: [
-                "https://www.arbulang.com/voice/music.mp4"
+                "http://localhost/arbulanguage.com/voice/music.mp4"
         ],
         // historia
         story: [
@@ -2189,10 +2303,10 @@ id: [
 ],
         // obrazek
         img: [
-                "https://www.arbulang.com/img/fiszkiespanol/65a.jpg"
+                "http://localhost/arbulanguage.com/img/fiszkiespanol/65a.jpg"
         ],
         word: [
-                "https://www.arbulang.com/voice/music.mp4"
+                "http://localhost/arbulanguage.com/voice/music.mp4"
         ],
         // historia
         story: [
@@ -2223,10 +2337,10 @@ id: [
 ],
         // obrazek
         img: [
-                "https://www.arbulang.com/img/fiszkiespanol/66a.jpg"
+                "http://localhost/arbulanguage.com/img/fiszkiespanol/66a.jpg"
         ],
         word: [
-                "https://www.arbulang.com/voice/music.mp4"
+                "http://localhost/arbulanguage.com/voice/music.mp4"
         ],
         // historia
         story: [
@@ -2257,10 +2371,10 @@ id: [
 ],
         // obrazek
         img: [
-                "https://www.arbulang.com/img/fiszkiespanol/67a.jpg"
+                "http://localhost/arbulanguage.com/img/fiszkiespanol/67a.jpg"
         ],
         word: [
-                "https://www.arbulang.com/voice/music.mp4"
+                "http://localhost/arbulanguage.com/voice/music.mp4"
         ],
         // historia
         story: [
@@ -2291,14 +2405,14 @@ id: [
 ],
         // obrazek
         img: [
-                "https://www.arbulang.com/img/fiszkiespanol/68a.jpg"
+                "http://localhost/arbulanguage.com/img/fiszkiespanol/68a.jpg"
         ],
         translate: "Chronić prawa wszystkich zawsze",
         translateb: "[Proteher los derechos de todos siempre]",
-        srcWord: ["https://www.arbulang.com/filmy/esp/protect.mp4", 'Constantine (2005)'],
-        srcWordimage: "https://www.arbulang.com/filmy/esp/protect.png",
+        srcWord: ["http://localhost/arbulanguage.com/filmy/esp/protect.mp4", 'Constantine (2005)'],
+        srcWordimage: "http://localhost/arbulanguage.com/filmy/esp/protect.png",
         word: [
-                "https://www.arbulang.com/voice/music.mp4"
+                "http://localhost/arbulanguage.com/voice/music.mp4"
         ],
         // historia
         story: [
@@ -2330,10 +2444,10 @@ id: [
 ],
         // obrazek
         img: [
-                "https://www.arbulang.com/img/fiszkiespanol/69a.jpg"
+                "http://localhost/arbulanguage.com/img/fiszkiespanol/69a.jpg"
         ],
         word: [
-                "https://www.arbulang.com/voice/music.mp4"
+                "http://localhost/arbulanguage.com/voice/music.mp4"
         ],
         // historia
         story: [
@@ -2364,10 +2478,10 @@ id: [
 ],
         // obrazek
         img: [
-                "https://www.arbulang.com/img/fiszkiespanol/70a.jpg"
+                "http://localhost/arbulanguage.com/img/fiszkiespanol/70a.jpg"
         ],
         word: [
-                "https://www.arbulang.com/voice/music.mp4"
+                "http://localhost/arbulanguage.com/voice/music.mp4"
         ],
         // historia
         story: [
@@ -2398,10 +2512,10 @@ id: [
 ],
         // obrazek
         img: [
-                "https://www.arbulang.com/img/fiszkiespanol/71a.jpg"
+                "http://localhost/arbulanguage.com/img/fiszkiespanol/71a.jpg"
         ],
         word: [
-                "https://www.arbulang.com/voice/music.mp4"
+                "http://localhost/arbulanguage.com/voice/music.mp4"
         ],
         // historia
         story: [
@@ -2432,14 +2546,14 @@ id: [
 ],
         // obrazek
         img: [
-                "https://www.arbulang.com/img/fiszkiespanol/72a.jpg"
+                "http://localhost/arbulanguage.com/img/fiszkiespanol/72a.jpg"
         ],
         translate: "Opowiadać zabawne historie z dobrymi przyjaciółmi",
         translateb: "[Contar historias divertidas con buenos amigos]",
-        srcWord: ["https://www.arbulang.com/filmy/esp/stories.mp4", 'Jestem na tak (2008)'],
-        srcWordimage: "https://www.arbulang.com/filmy/esp/stories.png",
+        srcWord: ["http://localhost/arbulanguage.com/filmy/esp/stories.mp4", 'Jestem na tak (2008)'],
+        srcWordimage: "http://localhost/arbulanguage.com/filmy/esp/stories.png",
         word: [
-                "https://www.arbulang.com/voice/music.mp4"
+                "http://localhost/arbulanguage.com/voice/music.mp4"
         ],
         // historia
         story: [
@@ -2470,10 +2584,10 @@ id: [
 ],
         // obrazek
         img: [
-                "https://www.arbulang.com/img/fiszkiespanol/73a.jpg"
+                "http://localhost/arbulanguage.com/img/fiszkiespanol/73a.jpg"
         ],
         word: [
-                "https://www.arbulang.com/voice/music.mp4"
+                "http://localhost/arbulanguage.com/voice/music.mp4"
         ],
         // historia
         story: [
@@ -2503,10 +2617,10 @@ id: [
 ],
         // obrazek
         img: [
-                "https://www.arbulang.com/img/fiszkiespanol/74a.jpg"
+                "http://localhost/arbulanguage.com/img/fiszkiespanol/74a.jpg"
         ],
         word: [
-                "https://www.arbulang.com/voice/music.mp4"
+                "http://localhost/arbulanguage.com/voice/music.mp4"
         ],
         // historia
         story: [
@@ -2536,13 +2650,13 @@ id: [
 ],
         // obrazek
         img: [
-            "https://www.arbulang.com/img/fiszkiespanol/17a.jpg",
-                "https://www.arbulang.com/img/fiszkiespanol/31a.jpg",
-                "https://www.arbulang.com/img/fiszkiespanol/59a.jpg",
-                "https://www.arbulang.com/img/fiszkiespanol/75a.jpg"
+            "http://localhost/arbulanguage.com/img/fiszkiespanol/17a.jpg",
+                "http://localhost/arbulanguage.com/img/fiszkiespanol/31a.jpg",
+                "http://localhost/arbulanguage.com/img/fiszkiespanol/59a.jpg",
+                "http://localhost/arbulanguage.com/img/fiszkiespanol/75a.jpg"
         ],
         word: [
-                "https://www.arbulang.com/voice/music.mp4"
+                "http://localhost/arbulanguage.com/voice/music.mp4"
         ],
         // historia
         story: [
@@ -2575,10 +2689,10 @@ id: [
 ],
         // obrazek
         img: [
-                "https://www.arbulang.com/img/fiszkiespanol/76a.jpg"
+                "http://localhost/arbulanguage.com/img/fiszkiespanol/76a.jpg"
         ],
         word: [
-                "https://www.arbulang.com/voice/music.mp4"
+                "http://localhost/arbulanguage.com/voice/music.mp4"
         ],
         // historia
         story: [
@@ -2608,10 +2722,10 @@ id: [
 ],
         // obrazek
         img: [
-                "https://www.arbulang.com/img/fiszkiespanol/77a.jpg"
+                "http://localhost/arbulanguage.com/img/fiszkiespanol/77a.jpg"
         ],
         word: [
-                "https://www.arbulang.com/voice/music.mp4"
+                "http://localhost/arbulanguage.com/voice/music.mp4"
         ],
         // historia
         story: [
@@ -2641,14 +2755,14 @@ id: [
 ],
         // obrazek
         img: [
-                "https://www.arbulang.com/img/fiszkiespanol/78a.jpg"
+                "http://localhost/arbulanguage.com/img/fiszkiespanol/78a.jpg"
         ],
         translate: "Słuchać wesołej muzyki w samochodzie",
         translateb: "[Escuchar música alegre en el coche]",
-        srcWord: ["https://www.arbulang.com/filmy/esp/carmusic.mp4", 'Czas surferów (2005)'],
-        srcWordimage: "https://www.arbulang.com/filmy/esp/carmusic.png",
+        srcWord: ["http://localhost/arbulanguage.com/filmy/esp/carmusic.mp4", 'Czas surferów (2005)'],
+        srcWordimage: "http://localhost/arbulanguage.com/filmy/esp/carmusic.png",
         word: [
-                "https://www.arbulang.com/voice/music.mp4"
+                "http://localhost/arbulanguage.com/voice/music.mp4"
         ],
         // historia
         story: [
@@ -2679,10 +2793,10 @@ id: [
 ],
         // obrazek
         img: [
-                "https://www.arbulang.com/img/fiszkiespanol/79a.jpg"
+                "http://localhost/arbulanguage.com/img/fiszkiespanol/79a.jpg"
         ],
         word: [
-                "https://www.arbulang.com/voice/music.mp4"
+                "http://localhost/arbulanguage.com/voice/music.mp4"
         ],
         // historia
         story: [
@@ -2712,10 +2826,10 @@ id: [
 ],
         // obrazek
         img: [
-                "https://www.arbulang.com/img/fiszkiespanol/80a.jpg"
+                "http://localhost/arbulanguage.com/img/fiszkiespanol/80a.jpg"
         ],
         word: [
-                "https://www.arbulang.com/voice/music.mp4"
+                "http://localhost/arbulanguage.com/voice/music.mp4"
         ],
         // historia
         story: [
@@ -2745,10 +2859,10 @@ id: [
 ],
         // obrazek
         img: [
-                "https://www.arbulang.com/img/fiszkiespanol/81a.jpg"
+                "http://localhost/arbulanguage.com/img/fiszkiespanol/81a.jpg"
         ],
         word: [
-                "https://www.arbulang.com/voice/music.mp4"
+                "http://localhost/arbulanguage.com/voice/music.mp4"
         ],
         // historia
         story: [
@@ -2777,10 +2891,10 @@ id: [
 ],
         // obrazek
         img: [
-                "https://www.arbulang.com/img/fiszkiespanol/53a.jpg"
+                "http://localhost/arbulanguage.com/img/fiszkiespanol/53a.jpg"
         ],
         word: [
-                "https://www.arbulang.com/voice/music.mp4"
+                "http://localhost/arbulanguage.com/voice/music.mp4"
         ],
         // historia
         story: [
@@ -2809,14 +2923,14 @@ id: [
 ],
         // obrazek
         img: [
-                "https://www.arbulang.com/img/fiszkiespanol/83a.jpg"
+                "http://localhost/arbulanguage.com/img/fiszkiespanol/83a.jpg"
         ],
         translate: "Przybywać wcześnie i cieszyć się porankiem",
         translateb: "[Llegar temprano y disfrutar la mañana]",
-        srcWord: ["https://www.arbulang.com/filmy/esp/morning.mp4", 'Szybcy i wściekli: Hobbs i Shaw (2019)'],
-        srcWordimage: "https://www.arbulang.com/filmy/esp/morning.png",
+        srcWord: ["http://localhost/arbulanguage.com/filmy/esp/morning.mp4", 'Szybcy i wściekli: Hobbs i Shaw (2019)'],
+        srcWordimage: "http://localhost/arbulanguage.com/filmy/esp/morning.png",
         word: [
-                "https://www.arbulang.com/voice/music.mp4"
+                "http://localhost/arbulanguage.com/voice/music.mp4"
         ],
         // historia
         story: [
@@ -2846,10 +2960,10 @@ id: [
 ],
         // obrazek
         img: [
-                "https://www.arbulang.com/img/fiszkiespanol/84a.jpg"
+                "http://localhost/arbulanguage.com/img/fiszkiespanol/84a.jpg"
         ],
         word: [
-                "https://www.arbulang.com/voice/music.mp4"
+                "http://localhost/arbulanguage.com/voice/music.mp4"
         ],
         // historia
         story: [
@@ -2877,10 +2991,10 @@ id: [
         18
 ],
         img: [
-                "https://www.arbulang.com/img/fiszkiespanol/64a.jpg"
+                "http://localhost/arbulanguage.com/img/fiszkiespanol/64a.jpg"
         ],
         word: [
-                "https://www.arbulang.com/voice/music.mp4"
+                "http://localhost/arbulanguage.com/voice/music.mp4"
         ],
         // historia
         story: [
@@ -2910,10 +3024,10 @@ id: [
 ],
         // obrazek
         img: [
-                "https://www.arbulang.com/img/fiszkiespanol/86a.jpg"
+                "http://localhost/arbulanguage.com/img/fiszkiespanol/86a.jpg"
         ],
         word: [
-                "https://www.arbulang.com/voice/music.mp4"
+                "http://localhost/arbulanguage.com/voice/music.mp4"
         ],
         // historia
         story: [
@@ -2943,10 +3057,10 @@ id: [
 ],
         // obrazek
         img: [
-                "https://www.arbulang.com/img/fiszkiespanol/87a.jpg"
+                "http://localhost/arbulanguage.com/img/fiszkiespanol/87a.jpg"
         ],
         word: [
-                "https://www.arbulang.com/voice/music.mp4"
+                "http://localhost/arbulanguage.com/voice/music.mp4"
         ],
         // historia
         story: [
@@ -2976,14 +3090,14 @@ id: [
 ],
         // obrazek
         img: [
-                "https://www.arbulang.com/img/fiszkiespanol/88a.jpg"
+                "http://localhost/arbulanguage.com/img/fiszkiespanol/88a.jpg"
         ],
         translate: "Odrzucać oferty, które ci się nie podobają",
         translateb: "[Rehusar ofertas que no te gusten]",
-        srcWord: ["https://www.arbulang.com/filmy/esp/offert.mp4", 'Yes Man'],
-        srcWordimage: "https://www.arbulang.com/filmy/esp/offert.png",
+        srcWord: ["http://localhost/arbulanguage.com/filmy/esp/offert.mp4", 'Yes Man'],
+        srcWordimage: "http://localhost/arbulanguage.com/filmy/esp/offert.png",
         word: [
-                "https://www.arbulang.com/voice/music.mp4"
+                "http://localhost/arbulanguage.com/voice/music.mp4"
         ],
         // historia
         story: [
@@ -3014,10 +3128,10 @@ id: [
 ],
         // obrazek
         img: [
-                "https://www.arbulang.com/img/fiszkiespanol/89a.jpg"
+                "http://localhost/arbulanguage.com/img/fiszkiespanol/89a.jpg"
         ],
         word: [
-                "https://www.arbulang.com/voice/music.mp4"
+                "http://localhost/arbulanguage.com/voice/music.mp4"
         ],
         // historia
         story: [
@@ -3047,10 +3161,10 @@ id: [
 ],
         // obrazek
         img: [
-                "https://www.arbulang.com/img/fiszkiespanol/90a.jpg"
+                "http://localhost/arbulanguage.com/img/fiszkiespanol/90a.jpg"
         ],
         word: [
-                "https://www.arbulang.com/voice/music.mp4"
+                "http://localhost/arbulanguage.com/voice/music.mp4"
         ],
         // historia
         story: [
@@ -3080,10 +3194,10 @@ id: [
 ],
         // obrazek
         img: [
-                "https://www.arbulang.com/img/fiszkiespanol/91a.jpg"
+                "http://localhost/arbulanguage.com/img/fiszkiespanol/91a.jpg"
         ],
         word: [
-                "https://www.arbulang.com/voice/music.mp4"
+                "http://localhost/arbulanguage.com/voice/music.mp4"
         ],
         // historia
         story: [
@@ -3112,10 +3226,10 @@ id: [
 ],
         // obrazek
         img: [
-                "https://www.arbulang.com/img/fiszkiespanol/92a.jpg"
+                "http://localhost/arbulanguage.com/img/fiszkiespanol/92a.jpg"
         ],
         word: [
-                "https://www.arbulang.com/voice/music.mp4"
+                "http://localhost/arbulanguage.com/voice/music.mp4"
         ],
         // historia
         story: [
@@ -3144,14 +3258,14 @@ id: [
 ],
         // obrazek
         img: [
-                "https://www.arbulang.com/img/fiszkiespanol/93a.jpg"
+                "http://localhost/arbulanguage.com/img/fiszkiespanol/93a.jpg"
         ],
         translate: "Trenować mocno, aby czuć się lepiej",
         translateb: "[Entrenar fuerte para sentirte mejor]",
-        srcWord: ["https://www.arbulang.com/filmy/esp/training2.mp4", 'Pain and Gain'],
-        srcWordimage: "https://www.arbulang.com/filmy/esp/training2.png",
+        srcWord: ["http://localhost/arbulanguage.com/filmy/esp/training2.mp4", 'Pain and Gain'],
+        srcWordimage: "http://localhost/arbulanguage.com/filmy/esp/training2.png",
         word: [
-                "https://www.arbulang.com/voice/music.mp4"
+                "http://localhost/arbulanguage.com/voice/music.mp4"
         ],
         // historia
         story: [
@@ -3181,10 +3295,10 @@ id: [
 ],
         // obrazek
         img: [
-                "https://www.arbulang.com/img/fiszkiespanol/94a.jpg"
+                "http://localhost/arbulanguage.com/img/fiszkiespanol/94a.jpg"
         ],
         word: [
-                "https://www.arbulang.com/voice/music.mp4"
+                "http://localhost/arbulanguage.com/voice/music.mp4"
         ],
         // historia
         story: [
@@ -3213,10 +3327,10 @@ id: [
 ],
         // obrazek
         img: [
-                "https://www.arbulang.com/img/fiszkiespanol/95a.jpg"
+                "http://localhost/arbulanguage.com/img/fiszkiespanol/95a.jpg"
         ],
         word: [
-                "https://www.arbulang.com/voice/music.mp4"
+                "http://localhost/arbulanguage.com/voice/music.mp4"
         ],
         // historia
         story: [
@@ -3246,10 +3360,10 @@ id: [
 ],
         // obrazek
         img: [
-                "https://www.arbulang.com/img/fiszkiespanol/2a.jpg"
+                "http://localhost/arbulanguage.com/img/fiszkiespanol/2a.jpg"
         ],
         word: [
-                "https://www.arbulang.com/voice/music.mp4"
+                "http://localhost/arbulanguage.com/voice/music.mp4"
         ],
         // historia
         story: [
@@ -3279,10 +3393,10 @@ id: [
 ],
         // obrazek
         img: [
-                "https://www.arbulang.com/img/fiszkiespanol/98a.jpg"
+                "http://localhost/arbulanguage.com/img/fiszkiespanol/98a.jpg"
         ],
         word: [
-                "https://www.arbulang.com/voice/music.mp4"
+                "http://localhost/arbulanguage.com/voice/music.mp4"
         ],
         // historia
         story: [
@@ -3312,14 +3426,14 @@ id: [
 ],
         // obrazek
         img: [
-                "https://www.arbulang.com/img/fiszkiespanol/99a.jpg"
+                "http://localhost/arbulanguage.com/img/fiszkiespanol/99a.jpg"
         ],
         translate: "Wyjaśniać jasne odpowiedzi dzieciom",
         translateb: "[Explicar respuestas claras a los niños]",
-        srcWord: ["https://www.arbulang.com/filmy/esp/children.mp4", 'Ip Man'],
-        srcWordimage: "https://www.arbulang.com/filmy/esp/children.png",
+        srcWord: ["http://localhost/arbulanguage.com/filmy/esp/children.mp4", 'Ip Man'],
+        srcWordimage: "http://localhost/arbulanguage.com/filmy/esp/children.png",
         word: [
-                "https://www.arbulang.com/voice/music.mp4"
+                "http://localhost/arbulanguage.com/voice/music.mp4"
         ],
         // historia
         story: [
@@ -3351,10 +3465,10 @@ id: [
 ],
         // obrazek
         img: [
-                "https://www.arbulang.com/img/fiszkiespanol/100a.jpg"
+                "http://localhost/arbulanguage.com/img/fiszkiespanol/100a.jpg"
         ],
         word: [
-                "https://www.arbulang.com/voice/music.mp4"
+                "http://localhost/arbulanguage.com/voice/music.mp4"
         ],
         // historia
         story: [
@@ -3386,10 +3500,10 @@ id: [
 ],
         // obrazek
         img: [
-                "https://www.arbulang.com/img/fiszkiespanol/101a.jpg"
+                "http://localhost/arbulanguage.com/img/fiszkiespanol/101a.jpg"
         ],
         word: [
-                "https://www.arbulang.com/voice/music.mp4"
+                "http://localhost/arbulanguage.com/voice/music.mp4"
         ],
         // historia
         story: [
@@ -3421,10 +3535,10 @@ id: [
 ],
         // obrazek
         img: [
-                "https://www.arbulang.com/img/fiszkiespanol/102a.jpg"
+                "http://localhost/arbulanguage.com/img/fiszkiespanol/102a.jpg"
         ],
         word: [
-                "https://www.arbulang.com/voice/music.mp4"
+                "http://localhost/arbulanguage.com/voice/music.mp4"
         ],
         // historia
         story: [
@@ -3456,14 +3570,14 @@ id: [
 ],
         // obrazek
         img: [
-                "https://www.arbulang.com/img/fiszkiespanol/103a.jpg"
+                "http://localhost/arbulanguage.com/img/fiszkiespanol/103a.jpg"
         ],
         translate: "Próbować pysznego jedzenia w nowych miejscach",
         translateb: "[Probar comida deliciosa en nuevos lugares]",
-        srcWord: ["https://www.arbulang.com/filmy/esp/restaurant.mp4", 'Matrix 1999'],
-        srcWordimage: "https://www.arbulang.com/filmy/esp/restaurant.png",
+        srcWord: ["http://localhost/arbulanguage.com/filmy/esp/restaurant.mp4", 'Matrix 1999'],
+        srcWordimage: "http://localhost/arbulanguage.com/filmy/esp/restaurant.png",
         word: [
-                "https://www.arbulang.com/voice/music.mp4"
+                "http://localhost/arbulanguage.com/voice/music.mp4"
         ],
         // historia
         story: [
@@ -3494,10 +3608,10 @@ id: [
 ],
         // obrazek
         img: [
-                "https://www.arbulang.com/img/fiszkiespanol/104a.jpg"
+                "http://localhost/arbulanguage.com/img/fiszkiespanol/104a.jpg"
         ],
         word: [
-                "https://www.arbulang.com/voice/music.mp4"
+                "http://localhost/arbulanguage.com/voice/music.mp4"
         ],
         // historia
         story: [
@@ -3528,10 +3642,10 @@ id: [
 ],
         // obrazek
         img: [
-                "https://www.arbulang.com/img/fiszkiespanol/105a.jpg"
+                "http://localhost/arbulanguage.com/img/fiszkiespanol/105a.jpg"
         ],
         word: [
-                "https://www.arbulang.com/voice/music.mp4"
+                "http://localhost/arbulanguage.com/voice/music.mp4"
         ],
         // historia
         story: [
@@ -3562,10 +3676,10 @@ id: [
 ],
         // obrazek
         img: [
-                "https://www.arbulang.com/img/fiszkiespanol/3a.jpg"
+                "http://localhost/arbulanguage.com/img/fiszkiespanol/3a.jpg"
         ],
         word: [
-                "https://www.arbulang.com/voice/music.mp4"
+                "http://localhost/arbulanguage.com/voice/music.mp4"
         ],
         // historia
         story: [
@@ -3596,10 +3710,10 @@ id: [
 ],
         // obrazek
         img: [
-                "https://www.arbulang.com/img/fiszkiespanol/107a.jpg"
+                "http://localhost/arbulanguage.com/img/fiszkiespanol/107a.jpg"
         ],
         word: [
-                "https://www.arbulang.com/voice/music.mp4"
+                "http://localhost/arbulanguage.com/voice/music.mp4"
         ],
         // historia
         story: [
@@ -3630,10 +3744,10 @@ id: [
 ],
         // obrazek
         img: [
-                "https://www.arbulang.com/img/fiszkiespanol/108a.jpg"
+                "http://localhost/arbulanguage.com/img/fiszkiespanol/108a.jpg"
         ],
         word: [
-                "https://www.arbulang.com/voice/music.mp4"
+                "http://localhost/arbulanguage.com/voice/music.mp4"
         ],
         // historia
         story: [
@@ -3664,14 +3778,14 @@ id: [
 ],
         // obrazek
         img: [
-                "https://www.arbulang.com/img/fiszkiespanol/103a.jpg"
+                "http://localhost/arbulanguage.com/img/fiszkiespanol/103a.jpg"
         ],
         translate: "Śmiać się razem, oglądając filmy komediowe",
         translateb: "[Reír huntos mientras miramos pelíkulas komikas]",
-        srcWord: ["https://www.arbulang.com/filmy/esp/comicas.mp4", 'Matrix 1999'],
-        srcWordimage: "https://www.arbulang.com/filmy/esp/comicas.png",
+        srcWord: ["http://localhost/arbulanguage.com/filmy/esp/comicas.mp4", 'Matrix 1999'],
+        srcWordimage: "http://localhost/arbulanguage.com/filmy/esp/comicas.png",
         word: [
-                "https://www.arbulang.com/voice/music.mp4"
+                "http://localhost/arbulanguage.com/voice/music.mp4"
         ],
         // historia
         story: [
@@ -3701,10 +3815,10 @@ id: [
 ],
         // obrazek
         img: [
-                "https://www.arbulang.com/img/fiszkiespanol/14a.jpg"
+                "http://localhost/arbulanguage.com/img/fiszkiespanol/14a.jpg"
         ],
         word: [
-                "https://www.arbulang.com/voice/music.mp4"
+                "http://localhost/arbulanguage.com/voice/music.mp4"
         ],
         // historia
         story: [
@@ -3734,10 +3848,10 @@ id: [
 ],
         // obrazek
         img: [
-                "https://www.arbulang.com/img/fiszkiespanol/12a.jpg"
+                "http://localhost/arbulanguage.com/img/fiszkiespanol/12a.jpg"
         ],
         word: [
-                "https://www.arbulang.com/voice/music.mp4"
+                "http://localhost/arbulanguage.com/voice/music.mp4"
         ],
         // historia
         story: [
@@ -3772,7 +3886,7 @@ id: [
                 ""
         ],
         word: [
-                "https://www.arbulang.com/voice/music.mp4"
+                "http://localhost/arbulanguage.com/voice/music.mp4"
         ],
         // historia
         story: [
@@ -3807,7 +3921,7 @@ id: [
                 ""
         ],
         word: [
-                "https://www.arbulang.com/voice/music.mp4"
+                "http://localhost/arbulanguage.com/voice/music.mp4"
         ],
         // historia
         story: [
@@ -3842,7 +3956,7 @@ id: [
                 ""
         ],
         word: [
-                "https://www.arbulang.com/voice/music.mp4"
+                "http://localhost/arbulanguage.com/voice/music.mp4"
         ],
         // historia
         story: [
@@ -3874,14 +3988,14 @@ id: [
 ],
         // obrazek
         img: [
-                "https://www.arbulang.com/img/fiszkiespanol/115a.jpg"
+                "http://localhost/arbulanguage.com/img/fiszkiespanol/115a.jpg"
         ],
         translate: "Zaprzeczać kłamstwom i zawsze mówić prawdę",
         translateb: "[Negar mentiras i desir siempre berdad]",
-        srcWord: ["https://www.arbulang.com/filmy/esp/truth.mp4", 'Matrix 1999'],
-        srcWordimage: "https://www.arbulang.com/filmy/esp/truth.png",
+        srcWord: ["http://localhost/arbulanguage.com/filmy/esp/truth.mp4", 'Matrix 1999'],
+        srcWordimage: "http://localhost/arbulanguage.com/filmy/esp/truth.png",
         word: [
-                "https://www.arbulang.com/voice/music.mp4"
+                "http://localhost/arbulanguage.com/voice/music.mp4"
         ],
         // historia
         story: [
@@ -3911,10 +4025,10 @@ id: [
 ],
         // obrazek
         img: [
-                "https://www.arbulang.com/img/fiszkiespanol/116a.jpg"
+                "http://localhost/arbulanguage.com/img/fiszkiespanol/116a.jpg"
         ],
         word: [
-                "https://www.arbulang.com/voice/music.mp4"
+                "http://localhost/arbulanguage.com/voice/music.mp4"
         ],
         // historia
         story: [
@@ -3943,10 +4057,10 @@ id: [
         24
 ],
         img: [
-                "https://www.arbulang.com/img/fiszkiespanol/64a.jpg"
+                "http://localhost/arbulanguage.com/img/fiszkiespanol/64a.jpg"
         ],
         word: [
-                "https://www.arbulang.com/voice/music.mp4"
+                "http://localhost/arbulanguage.com/voice/music.mp4"
         ],
         // historia
         story: [
@@ -3978,10 +4092,10 @@ id: [
 ],
         // obrazek
         img: [
-                "https://www.arbulang.com/img/fiszki1/2a.jpg"
+                "http://localhost/arbulanguage.com/img/fiszki1/2a.jpg"
         ],
         word: [
-                "https://www.arbulang.com/voice/music.mp4"
+                "http://localhost/arbulanguage.com/voice/music.mp4"
         ],
         // historia
         story: [
@@ -4012,10 +4126,10 @@ id: [
         24
 ],
         img: [
-                "https://www.arbulang.com/img/fiszkiespanol/71a.jpg"
+                "http://localhost/arbulanguage.com/img/fiszkiespanol/71a.jpg"
         ],
         word: [
-                "https://www.arbulang.com/voice/music.mp4"
+                "http://localhost/arbulanguage.com/voice/music.mp4"
         ],
         // historia
         story: [
@@ -4047,10 +4161,10 @@ id: [
 ],
         // obrazek
         img: [
-                "https://www.arbulang.com/img/fiszkiespanol/120a.jpg"
+                "http://localhost/arbulanguage.com/img/fiszkiespanol/120a.jpg"
         ],
         word: [
-                "https://www.arbulang.com/voice/music.mp4"
+                "http://localhost/arbulanguage.com/voice/music.mp4"
         ],
         // historia
         story: [
@@ -4082,14 +4196,14 @@ id: [
 ],
         // obrazek
         img: [
-                "https://www.arbulang.com/img/fiszkiespanol/121a.jpg"
+                "http://localhost/arbulanguage.com/img/fiszkiespanol/121a.jpg"
         ],
         translate: "Tańczyć powoli przy delikatnej, romantycznej muzyce",
         translateb: "[Bajlar lento kon musika ro-man-tika sławe]",
-        srcWord: ["https://www.arbulang.com/filmy/esp/truth.mp4", 'Matrix 1999'],
-        srcWordimage: "https://www.arbulang.com/filmy/esp/truth.png",
+        srcWord: ["http://localhost/arbulanguage.com/filmy/esp/truth.mp4", 'Matrix 1999'],
+        srcWordimage: "http://localhost/arbulanguage.com/filmy/esp/truth.png",
         word: [
-                "https://www.arbulang.com/voice/music.mp4"
+                "http://localhost/arbulanguage.com/voice/music.mp4"
         ],
         // historia
         story: [
@@ -4119,10 +4233,10 @@ id: [
 ],
         // obrazek
         img: [
-                "https://www.arbulang.com/img/fiszkiespanol/122a.jpg"
+                "http://localhost/arbulanguage.com/img/fiszkiespanol/122a.jpg"
         ],
         word: [
-                "https://www.arbulang.com/voice/music.mp4"
+                "http://localhost/arbulanguage.com/voice/music.mp4"
         ],
         // historia
         story: [
@@ -4152,13 +4266,13 @@ id: [
 ],
         // obrazek
         img: [
-            "https://www.arbulang.com/img/fiszkiespanol/17a.jpg",
-                "https://www.arbulang.com/img/fiszkiespanol/31a.jpg",
-                "https://www.arbulang.com/img/fiszkiespanol/59a.jpg",
-                "https://www.arbulang.com/img/fiszkiespanol/75a.jpg"
+            "http://localhost/arbulanguage.com/img/fiszkiespanol/17a.jpg",
+                "http://localhost/arbulanguage.com/img/fiszkiespanol/31a.jpg",
+                "http://localhost/arbulanguage.com/img/fiszkiespanol/59a.jpg",
+                "http://localhost/arbulanguage.com/img/fiszkiespanol/75a.jpg"
         ],
         word: [
-                "https://www.arbulang.com/voice/music.mp4"
+                "http://localhost/arbulanguage.com/voice/music.mp4"
         ],
         // historia
         story: [
@@ -4193,10 +4307,10 @@ id: [
 ],
         // obrazek
         img: [
-                "https://www.arbulang.com/img/fiszkiespanol/124a.jpg"
+                "http://localhost/arbulanguage.com/img/fiszkiespanol/124a.jpg"
         ],
         word: [
-                "https://www.arbulang.com/voice/music.mp4"
+                "http://localhost/arbulanguage.com/voice/music.mp4"
         ],
         // historia
         story: [
@@ -4228,10 +4342,10 @@ id: [
 ],
         // obrazek
         img: [
-                "https://www.arbulang.com/img/fiszkiespanol/125a.jpg"
+                "http://localhost/arbulanguage.com/img/fiszkiespanol/125a.jpg"
         ],
         word: [
-                "https://www.arbulang.com/voice/music.mp4"
+                "http://localhost/arbulanguage.com/voice/music.mp4"
         ],
         // historia
         story: [
@@ -4263,10 +4377,10 @@ id: [
 ],
         // obrazek
         img: [
-                "https://www.arbulang.com/img/fiszkiespanol/126a.jpg"
+                "http://localhost/arbulanguage.com/img/fiszkiespanol/126a.jpg"
         ],
         word: [
-                "https://www.arbulang.com/voice/music.mp4"
+                "http://localhost/arbulanguage.com/voice/music.mp4"
         ],
         // historia
         story: [
@@ -4298,14 +4412,14 @@ id: [
 ],
         // obrazek
         img: [
-                "https://www.arbulang.com/img/fiszkiespanol/127a.jpg"
+                "http://localhost/arbulanguage.com/img/fiszkiespanol/127a.jpg"
         ],
         translate: "Utrzymywać pokój i harmonię",
         translateb: "[Mantener la pas y armonia]",
-        srcWord: ["https://www.arbulang.com/filmy/esp/truth.mp4", 'Matrix 1999'],
-        srcWordimage: "https://www.arbulang.com/filmy/esp/truth.png",
+        srcWord: ["http://localhost/arbulanguage.com/filmy/esp/truth.mp4", 'Matrix 1999'],
+        srcWordimage: "http://localhost/arbulanguage.com/filmy/esp/truth.png",
         word: [
-                "https://www.arbulang.com/voice/music.mp4"
+                "http://localhost/arbulanguage.com/voice/music.mp4"
         ],
         // historia
         story: [
@@ -4337,10 +4451,10 @@ id: [
 ],
         // obrazek
         img: [
-                "https://www.arbulang.com/img/fiszkiespanol/128a.jpg"
+                "http://localhost/arbulanguage.com/img/fiszkiespanol/128a.jpg"
         ],
         word: [
-                "https://www.arbulang.com/voice/music.mp4"
+                "http://localhost/arbulanguage.com/voice/music.mp4"
         ],
         // historia
         story: [
@@ -4372,10 +4486,10 @@ id: [
 ],
         // obrazek
         img: [
-                "https://www.arbulang.com/img/fiszkiespanol/26a.jpg"
+                "http://localhost/arbulanguage.com/img/fiszkiespanol/26a.jpg"
         ],
         word: [
-                "https://www.arbulang.com/voice/music.mp4"
+                "http://localhost/arbulanguage.com/voice/music.mp4"
         ],
         // historia
         story: [
@@ -4407,10 +4521,10 @@ id: [
 ],
         // obrazek
         img: [
-                "https://www.arbulang.com/img/fiszkiespanol/130a.jpg"
+                "http://localhost/arbulanguage.com/img/fiszkiespanol/130a.jpg"
         ],
         word: [
-                "https://www.arbulang.com/voice/music.mp4"
+                "http://localhost/arbulanguage.com/voice/music.mp4"
         ],
         // historia
         story: [
@@ -4442,14 +4556,14 @@ id: [
 ],
         // obrazek
         img: [
-                "https://www.arbulang.com/img/fiszkiespanol/131a.jpg"
+                "http://localhost/arbulanguage.com/img/fiszkiespanol/131a.jpg"
         ],
         translate: "Podróżować razem w ładnym samochodzie",
         translateb: "[Biahar huntos en un kocze]",
-        srcWord: ["https://www.arbulang.com/filmy/esp/truth.mp4", 'Matrix 1999'],
-        srcWordimage: "https://www.arbulang.com/filmy/esp/truth.png",
+        srcWord: ["http://localhost/arbulanguage.com/filmy/esp/truth.mp4", 'Matrix 1999'],
+        srcWordimage: "http://localhost/arbulanguage.com/filmy/esp/truth.png",
         word: [
-                "https://www.arbulang.com/voice/music.mp4"
+                "http://localhost/arbulanguage.com/voice/music.mp4"
         ],
         // historia
         story: [
@@ -4479,10 +4593,10 @@ id: [
 ],
         // obrazek
         img: [
-                "https://www.arbulang.com/img/fiszkiespanol/14a.jpg"
+                "http://localhost/arbulanguage.com/img/fiszkiespanol/14a.jpg"
         ],
         word: [
-                "https://www.arbulang.com/voice/music.mp4"
+                "http://localhost/arbulanguage.com/voice/music.mp4"
         ],
         // historia
         story: [
@@ -4512,10 +4626,10 @@ id: [
 ],
         // obrazek
         img: [
-                "https://www.arbulang.com/img/fiszkiespanol/3a.jpg"
+                "http://localhost/arbulanguage.com/img/fiszkiespanol/3a.jpg"
         ],
         word: [
-                "https://www.arbulang.com/voice/music.mp4"
+                "http://localhost/arbulanguage.com/voice/music.mp4"
         ],
         // historia
         story: [
@@ -4546,10 +4660,10 @@ id: [
 ],
         // obrazek
         img: [
-                "https://www.arbulang.com/img/fiszkiespanol/134a.jpg"
+                "http://localhost/arbulanguage.com/img/fiszkiespanol/134a.jpg"
         ],
         word: [
-                "https://www.arbulang.com/voice/music.mp4"
+                "http://localhost/arbulanguage.com/voice/music.mp4"
         ],
         // historia
         story: [
@@ -4580,10 +4694,10 @@ id: [
 ],
         // obrazek
         img: [
-                "https://www.arbulang.com/img/fiszkiespanol/135a.jpg"
+                "http://localhost/arbulanguage.com/img/fiszkiespanol/135a.jpg"
         ],
         word: [
-                "https://www.arbulang.com/voice/music.mp4"
+                "http://localhost/arbulanguage.com/voice/music.mp4"
         ],
         // historia
         story: [
@@ -4614,14 +4728,14 @@ id: [
 ],
         // obrazek
         img: [
-                "https://www.arbulang.com/img/fiszkiespanol/136a.jpg"
+                "http://localhost/arbulanguage.com/img/fiszkiespanol/136a.jpg"
         ],
         translate: "Używać ładnego makijażu, żeby dobrze się czuć",
         translateb: "[Usar makijahe bonito para sentire bien]",
-        srcWord: ["https://www.arbulang.com/filmy/esp/truth.mp4", 'Matrix 1999'],
-        srcWordimage: "https://www.arbulang.com/filmy/esp/truth.png",
+        srcWord: ["http://localhost/arbulanguage.com/filmy/esp/truth.mp4", 'Matrix 1999'],
+        srcWordimage: "http://localhost/arbulanguage.com/filmy/esp/truth.png",
         word: [
-                "https://www.arbulang.com/voice/music.mp4"
+                "http://localhost/arbulanguage.com/voice/music.mp4"
         ],
         // historia
         story: [
@@ -4652,10 +4766,10 @@ id: [
 ],
         // obrazek
         img: [
-                "https://www.arbulang.com/img/fiszkiespanol/137a.jpg"
+                "http://localhost/arbulanguage.com/img/fiszkiespanol/137a.jpg"
         ],
         word: [
-                "https://www.arbulang.com/voice/music.mp4"
+                "http://localhost/arbulanguage.com/voice/music.mp4"
         ],
         // historia
         story: [
@@ -4686,10 +4800,10 @@ id: [
 ],
         // obrazek
         img: [
-                "https://www.arbulang.com/img/fiszkiespanol/135a.jpg"
+                "http://localhost/arbulanguage.com/img/fiszkiespanol/135a.jpg"
         ],
         word: [
-                "https://www.arbulang.com/voice/music.mp4"
+                "http://localhost/arbulanguage.com/voice/music.mp4"
         ],
         // historia
         story: [
@@ -4720,10 +4834,10 @@ id: [
 ],
         // obrazek
         img: [
-                "https://www.arbulang.com/img/fiszkiespanol/95a.jpg"
+                "http://localhost/arbulanguage.com/img/fiszkiespanol/95a.jpg"
         ],
         word: [
-                "https://www.arbulang.com/voice/music.mp4"
+                "http://localhost/arbulanguage.com/voice/music.mp4"
         ],
         // historia
         story: [
@@ -4754,10 +4868,10 @@ id: [
 ],
         // obrazek
         img: [
-                "https://www.arbulang.com/img/fiszkiespanol/140a.jpg"
+                "http://localhost/arbulanguage.com/img/fiszkiespanol/140a.jpg"
         ],
         word: [
-                "https://www.arbulang.com/voice/music.mp4"
+                "http://localhost/arbulanguage.com/voice/music.mp4"
         ],
         // historia
         story: [
@@ -4788,10 +4902,10 @@ id: [
 ],
         // obrazek
         img: [
-                "https://www.arbulang.com/img/fiszkiespanol/141a.jpg"
+                "http://localhost/arbulanguage.com/img/fiszkiespanol/141a.jpg"
         ],
         word: [
-                "https://www.arbulang.com/voice/music.mp4"
+                "http://localhost/arbulanguage.com/voice/music.mp4"
         ],
         // historia
         story: [
@@ -4822,14 +4936,14 @@ id: [
 ],
         // obrazek
         img: [
-                "https://www.arbulang.com/img/fiszkiespanol/142a.jpg"
+                "http://localhost/arbulanguage.com/img/fiszkiespanol/142a.jpg"
         ],
         translate: "Zaprzeczać kłamstwom i zawsze mówić prawdę",
         translateb: "[Negar mentiras i desir siempre berdad]",
-        srcWord: ["https://www.arbulang.com/filmy/esp/truth.mp4", 'Matrix 1999'],
-        srcWordimage: "https://www.arbulang.com/filmy/esp/truth.png",
+        srcWord: ["http://localhost/arbulanguage.com/filmy/esp/truth.mp4", 'Matrix 1999'],
+        srcWordimage: "http://localhost/arbulanguage.com/filmy/esp/truth.png",
         word: [
-                "https://www.arbulang.com/voice/music.mp4"
+                "http://localhost/arbulanguage.com/voice/music.mp4"
         ],
         // historia
         story: [
@@ -4859,10 +4973,10 @@ id: [
 ],
         // obrazek
         img: [
-                "https://www.arbulang.com/img/fiszkiespanol/143a.jpg"
+                "http://localhost/arbulanguage.com/img/fiszkiespanol/143a.jpg"
         ],
         word: [
-                "https://www.arbulang.com/voice/music.mp4"
+                "http://localhost/arbulanguage.com/voice/music.mp4"
         ],
         // historia
         story: [
@@ -4892,13 +5006,13 @@ id: [
 ],
         // obrazek
         img: [
-            "https://www.arbulang.com/img/fiszkiespanol/17a.jpg",
-                "https://www.arbulang.com/img/fiszkiespanol/31a.jpg",
-                "https://www.arbulang.com/img/fiszkiespanol/59a.jpg",
-                "https://www.arbulang.com/img/fiszkiespanol/75a.jpg"
+            "http://localhost/arbulanguage.com/img/fiszkiespanol/17a.jpg",
+                "http://localhost/arbulanguage.com/img/fiszkiespanol/31a.jpg",
+                "http://localhost/arbulanguage.com/img/fiszkiespanol/59a.jpg",
+                "http://localhost/arbulanguage.com/img/fiszkiespanol/75a.jpg"
         ],
         word: [
-                "https://www.arbulang.com/voice/music.mp4"
+                "http://localhost/arbulanguage.com/voice/music.mp4"
         ],
         // historia
         story: [
@@ -4932,10 +5046,10 @@ id: [
 ],
         // obrazek
         img: [
-                "https://www.arbulang.com/img/fiszkiespanol/145a.jpg"
+                "http://localhost/arbulanguage.com/img/fiszkiespanol/145a.jpg"
         ],
         word: [
-                "https://www.arbulang.com/voice/music.mp4"
+                "http://localhost/arbulanguage.com/voice/music.mp4"
         ],
         // historia
         story: [
@@ -4965,10 +5079,10 @@ id: [
         29
 ],
         img: [
-                "https://www.arbulang.com/img/fiszkiespanol/71a.jpg"
+                "http://localhost/arbulanguage.com/img/fiszkiespanol/71a.jpg"
         ],
         word: [
-                "https://www.arbulang.com/voice/music.mp4"
+                "http://localhost/arbulanguage.com/voice/music.mp4"
         ],
         // historia
         story: [
@@ -4999,14 +5113,14 @@ id: [
 ],
         // obrazek
         img: [
-                "https://www.arbulang.com/img/fiszkiespanol/147a.jpg"
+                "http://localhost/arbulanguage.com/img/fiszkiespanol/147a.jpg"
         ],
         translate: "Zaprzeczać kłamstwom i zawsze mówić prawdę",
         translateb: "[Negar mentiras i desir siempre berdad]",
-        srcWord: ["https://www.arbulang.com/filmy/esp/truth.mp4", 'Matrix 1999'],
-        srcWordimage: "https://www.arbulang.com/filmy/esp/truth.png",
+        srcWord: ["http://localhost/arbulanguage.com/filmy/esp/truth.mp4", 'Matrix 1999'],
+        srcWordimage: "http://localhost/arbulanguage.com/filmy/esp/truth.png",
         word: [
-                "https://www.arbulang.com/voice/music.mp4"
+                "http://localhost/arbulanguage.com/voice/music.mp4"
         ],
         // historia
         story: [
@@ -5035,10 +5149,10 @@ id: [
         30
 ],
         img: [
-                "https://www.arbulang.com/img/fiszkiespanol/148a.jpg"
+                "http://localhost/arbulanguage.com/img/fiszkiespanol/148a.jpg"
         ],
         word: [
-                "https://www.arbulang.com/voice/music.mp4"
+                "http://localhost/arbulanguage.com/voice/music.mp4"
         ],
         // historia
         story: [
@@ -5068,13 +5182,13 @@ id: [
 ],
         // obrazek
         img: [
-            "https://www.arbulang.com/img/fiszkiespanol/17a.jpg",
-                "https://www.arbulang.com/img/fiszkiespanol/31a.jpg",
-                "https://www.arbulang.com/img/fiszkiespanol/59a.jpg",
-                "https://www.arbulang.com/img/fiszkiespanol/75a.jpg"
+            "http://localhost/arbulanguage.com/img/fiszkiespanol/17a.jpg",
+                "http://localhost/arbulanguage.com/img/fiszkiespanol/31a.jpg",
+                "http://localhost/arbulanguage.com/img/fiszkiespanol/59a.jpg",
+                "http://localhost/arbulanguage.com/img/fiszkiespanol/75a.jpg"
         ],
         word: [
-                "https://www.arbulang.com/voice/music.mp4"
+                "http://localhost/arbulanguage.com/voice/music.mp4"
         ],
         // historia
         story: [
@@ -5107,10 +5221,10 @@ id: [
         30
 ],
         img: [
-                "https://www.arbulang.com/img/fiszkiespanol/150a.jpg"
+                "http://localhost/arbulanguage.com/img/fiszkiespanol/150a.jpg"
         ],
         word: [
-                "https://www.arbulang.com/voice/music.mp4"
+                "http://localhost/arbulanguage.com/voice/music.mp4"
         ],
         // historia
         story: [
@@ -5140,10 +5254,10 @@ id: [
         30
 ],
         img: [
-                "https://www.arbulang.com/img/fiszkiespanol/151a.jpg"
+                "http://localhost/arbulanguage.com/img/fiszkiespanol/151a.jpg"
         ],
         word: [
-                "https://www.arbulang.com/voice/music.mp4"
+                "http://localhost/arbulanguage.com/voice/music.mp4"
         ],
         // historia
         story: [
@@ -5174,14 +5288,14 @@ id: [
 ],
         // obrazek
         img: [
-                "https://www.arbulang.com/img/fiszkiespanol/152a.jpg"
+                "http://localhost/arbulanguage.com/img/fiszkiespanol/152a.jpg"
         ],
         translate: "",
         translateb: "[]",
-        srcWord: ["https://www.arbulang.com/filmy/esp/truth.mp4", 'Matrix 1999'],
-        srcWordimage: "https://www.arbulang.com/filmy/esp/truth.png",
+        srcWord: ["http://localhost/arbulanguage.com/filmy/esp/truth.mp4", 'Matrix 1999'],
+        srcWordimage: "http://localhost/arbulanguage.com/filmy/esp/truth.png",
         word: [
-                "https://www.arbulang.com/voice/music.mp4"
+                "http://localhost/arbulanguage.com/voice/music.mp4"
         ],
         // historia
         story: [
@@ -5210,10 +5324,10 @@ id: [
         32
 ],
         img: [
-                "https://www.arbulang.com/img/fiszkiespanol/153a.jpg"
+                "http://localhost/arbulanguage.com/img/fiszkiespanol/153a.jpg"
         ],
         word: [
-                "https://www.arbulang.com/voice/music.mp4"
+                "http://localhost/arbulanguage.com/voice/music.mp4"
         ],
         // historia
         story: [
@@ -5243,10 +5357,10 @@ id: [
 ],
         // obrazek
         img: [
-                "https://www.arbulang.com/img/fiszkiespanol/12a.jpg"
+                "http://localhost/arbulanguage.com/img/fiszkiespanol/12a.jpg"
         ],
         word: [
-                "https://www.arbulang.com/voice/music.mp4"
+                "http://localhost/arbulanguage.com/voice/music.mp4"
         ],
         // historia
         story: [
@@ -5277,10 +5391,10 @@ id: [
         32
 ],
         img: [
-                "https://www.arbulang.com/img/fiszkiespanol/155a.jpg"
+                "http://localhost/arbulanguage.com/img/fiszkiespanol/155a.jpg"
         ],
         word: [
-                "https://www.arbulang.com/voice/music.mp4"
+                "http://localhost/arbulanguage.com/voice/music.mp4"
         ],
         // historia
         story: [
@@ -5311,10 +5425,10 @@ id: [
         32
 ],
         img: [
-                "https://www.arbulang.com/img/fiszkiespanol/156a.jpg"
+                "http://localhost/arbulanguage.com/img/fiszkiespanol/156a.jpg"
         ],
         word: [
-                "https://www.arbulang.com/voice/music.mp4"
+                "http://localhost/arbulanguage.com/voice/music.mp4"
         ],
         // historia
         story: [
@@ -5345,10 +5459,10 @@ id: [
         32
 ],
         img: [
-                "https://www.arbulang.com/img/fiszkiespanol/157a.jpg"
+                "http://localhost/arbulanguage.com/img/fiszkiespanol/157a.jpg"
         ],
         word: [
-                "https://www.arbulang.com/voice/music.mp4"
+                "http://localhost/arbulanguage.com/voice/music.mp4"
         ],
         // historia
         story: [
@@ -5380,14 +5494,14 @@ id: [
 ],
         // obrazek
         img: [
-                "https://www.arbulang.com/img/fiszkiespanol/57a.jpg"
+                "http://localhost/arbulanguage.com/img/fiszkiespanol/57a.jpg"
         ],
         translate: "Zaprzeczać kłamstwom i zawsze mówić prawdę",
         translateb: "[Negar mentiras i desir siempre berdad]",
-        srcWord: ["https://www.arbulang.com/filmy/esp/truth.mp4", 'Matrix 1999'],
-        srcWordimage: "https://www.arbulang.com/filmy/esp/truth.png",
+        srcWord: ["http://localhost/arbulanguage.com/filmy/esp/truth.mp4", 'Matrix 1999'],
+        srcWordimage: "http://localhost/arbulanguage.com/filmy/esp/truth.png",
         word: [
-                "https://www.arbulang.com/voice/music.mp4"
+                "http://localhost/arbulanguage.com/voice/music.mp4"
         ],
         // historia
         story: [
@@ -5416,10 +5530,10 @@ id: [
         33
 ],
         img: [
-                "https://www.arbulang.com/img/fiszkiespanol/159a.jpg"
+                "http://localhost/arbulanguage.com/img/fiszkiespanol/159a.jpg"
         ],
         word: [
-                "https://www.arbulang.com/voice/music.mp4"
+                "http://localhost/arbulanguage.com/voice/music.mp4"
         ],
         // historia
         story: [
@@ -5449,13 +5563,13 @@ id: [
 ],
         // obrazek
         img: [
-            "https://www.arbulang.com/img/fiszkiespanol/17a.jpg",
-                "https://www.arbulang.com/img/fiszkiespanol/31a.jpg",
-                "https://www.arbulang.com/img/fiszkiespanol/59a.jpg",
-                "https://www.arbulang.com/img/fiszkiespanol/75a.jpg"
+            "http://localhost/arbulanguage.com/img/fiszkiespanol/17a.jpg",
+                "http://localhost/arbulanguage.com/img/fiszkiespanol/31a.jpg",
+                "http://localhost/arbulanguage.com/img/fiszkiespanol/59a.jpg",
+                "http://localhost/arbulanguage.com/img/fiszkiespanol/75a.jpg"
         ],
         word: [
-                "https://www.arbulang.com/voice/music.mp4"
+                "http://localhost/arbulanguage.com/voice/music.mp4"
         ],
         // historia
         story: [
@@ -5488,10 +5602,10 @@ id: [
         33
 ],
         img: [
-                "https://www.arbulang.com/img/fiszkiespanol/161a.jpg"
+                "http://localhost/arbulanguage.com/img/fiszkiespanol/161a.jpg"
         ],
         word: [
-                "https://www.arbulang.com/voice/music.mp4"
+                "http://localhost/arbulanguage.com/voice/music.mp4"
         ],
         // historia
         story: [
@@ -5521,10 +5635,10 @@ id: [
         33
 ],
         img: [
-                "https://www.arbulang.com/img/fiszkiespanol/162a.jpg"
+                "http://localhost/arbulanguage.com/img/fiszkiespanol/162a.jpg"
         ],
         word: [
-                "https://www.arbulang.com/voice/music.mp4"
+                "http://localhost/arbulanguage.com/voice/music.mp4"
         ],
         // historia
         story: [
@@ -5555,14 +5669,14 @@ id: [
 ],
         // obrazek
         img: [
-                "https://www.arbulang.com/img/fiszkiespanol/163a.jpg"
+                "http://localhost/arbulanguage.com/img/fiszkiespanol/163a.jpg"
         ],
         translate: "",
         translateb: "[]",
-        srcWord: ["https://www.arbulang.com/filmy/esp/truth.mp4", 'Matrix 1999'],
-        srcWordimage: "https://www.arbulang.com/filmy/esp/truth.png",
+        srcWord: ["http://localhost/arbulanguage.com/filmy/esp/truth.mp4", 'Matrix 1999'],
+        srcWordimage: "http://localhost/arbulanguage.com/filmy/esp/truth.png",
         word: [
-                "https://www.arbulang.com/voice/music.mp4"
+                "http://localhost/arbulanguage.com/voice/music.mp4"
         ],
         // historia
         story: [
@@ -5592,10 +5706,10 @@ id: [
         34
 ],
         img: [
-                "https://www.arbulang.com/img/fiszkiespanol/146a.jpg"
+                "http://localhost/arbulanguage.com/img/fiszkiespanol/146a.jpg"
         ],
         word: [
-                "https://www.arbulang.com/voice/music.mp4"
+                "http://localhost/arbulanguage.com/voice/music.mp4"
         ],
         // historia
         story: [
@@ -5625,10 +5739,10 @@ id: [
         34
 ],
         img: [
-                "https://www.arbulang.com/img/fiszkiespanol/157a.jpg"
+                "http://localhost/arbulanguage.com/img/fiszkiespanol/157a.jpg"
         ],
         word: [
-                "https://www.arbulang.com/voice/music.mp4"
+                "http://localhost/arbulanguage.com/voice/music.mp4"
         ],
         // historia
         story: [
@@ -5659,13 +5773,13 @@ id: [
 ],
         // obrazek
         img: [
-            "https://www.arbulang.com/img/fiszkiespanol/17a.jpg",
-                "https://www.arbulang.com/img/fiszkiespanol/31a.jpg",
-                "https://www.arbulang.com/img/fiszkiespanol/59a.jpg",
-                "https://www.arbulang.com/img/fiszkiespanol/75a.jpg"
+            "http://localhost/arbulanguage.com/img/fiszkiespanol/17a.jpg",
+                "http://localhost/arbulanguage.com/img/fiszkiespanol/31a.jpg",
+                "http://localhost/arbulanguage.com/img/fiszkiespanol/59a.jpg",
+                "http://localhost/arbulanguage.com/img/fiszkiespanol/75a.jpg"
         ],
         word: [
-                "https://www.arbulang.com/voice/music.mp4"
+                "http://localhost/arbulanguage.com/voice/music.mp4"
         ],
         // historia
         story: [
@@ -5698,10 +5812,10 @@ id: [
         34
 ],
         img: [
-                "https://www.arbulang.com/img/fiszkiespanol/161a.jpg"
+                "http://localhost/arbulanguage.com/img/fiszkiespanol/161a.jpg"
         ],
         word: [
-                "https://www.arbulang.com/voice/music.mp4"
+                "http://localhost/arbulanguage.com/voice/music.mp4"
         ],
         // historia
         story: [
@@ -5731,10 +5845,10 @@ id: [
         34
 ],
         img: [
-                "https://www.arbulang.com/img/fiszkiespanol/168a.jpg"
+                "http://localhost/arbulanguage.com/img/fiszkiespanol/168a.jpg"
         ],
         word: [
-                "https://www.arbulang.com/voice/music.mp4"
+                "http://localhost/arbulanguage.com/voice/music.mp4"
         ],
         // historia
         story: [
@@ -5765,14 +5879,14 @@ id: [
 ],
         // obrazek
         img: [
-                "https://www.arbulang.com/img/fiszkiespanol/131a.jpg"
+                "http://localhost/arbulanguage.com/img/fiszkiespanol/131a.jpg"
         ],
         translate: "Zaprzeczać kłamstwom i zawsze mówić prawdę",
         translateb: "[Negar mentiras i desir siempre berdad]",
-        srcWord: ["https://www.arbulang.com/filmy/esp/truth.mp4", 'Matrix 1999'],
-        srcWordimage: "https://www.arbulang.com/filmy/esp/truth.png",
+        srcWord: ["http://localhost/arbulanguage.com/filmy/esp/truth.mp4", 'Matrix 1999'],
+        srcWordimage: "http://localhost/arbulanguage.com/filmy/esp/truth.png",
         word: [
-                "https://www.arbulang.com/voice/music.mp4"
+                "http://localhost/arbulanguage.com/voice/music.mp4"
         ],
         // historia
         story: [
@@ -5802,10 +5916,10 @@ id: [
         34
 ],
         img: [
-                "https://www.arbulang.com/img/fiszkiespanol/168a.jpg"
+                "http://localhost/arbulanguage.com/img/fiszkiespanol/168a.jpg"
         ],
         word: [
-                "https://www.arbulang.com/voice/music.mp4"
+                "http://localhost/arbulanguage.com/voice/music.mp4"
         ],
         // historia
         story: [
@@ -5835,10 +5949,10 @@ id: [
         34
 ],
         img: [
-                "https://www.arbulang.com/img/fiszkiespanol/146a.jpg"
+                "http://localhost/arbulanguage.com/img/fiszkiespanol/146a.jpg"
         ],
         word: [
-                "https://www.arbulang.com/voice/music.mp4"
+                "http://localhost/arbulanguage.com/voice/music.mp4"
         ],
         // historia
         story: [
@@ -5869,10 +5983,10 @@ id: [
 ],
         // obrazek
         img: [
-                "https://www.arbulang.com/img/fiszkiespanol/95a.jpg"
+                "http://localhost/arbulanguage.com/img/fiszkiespanol/95a.jpg"
         ],
         word: [
-                "https://www.arbulang.com/voice/music.mp4"
+                "http://localhost/arbulanguage.com/voice/music.mp4"
         ],
         // historia
         story: [
@@ -5902,10 +6016,10 @@ id: [
         34
 ],
         img: [
-                "https://www.arbulang.com/img/fiszkiespanol/146a.jpg"
+                "http://localhost/arbulanguage.com/img/fiszkiespanol/146a.jpg"
         ],
         word: [
-                "https://www.arbulang.com/voice/music.mp4"
+                "http://localhost/arbulanguage.com/voice/music.mp4"
         ],
         // historia
         story: [
@@ -5935,10 +6049,10 @@ id: [
         34
 ],
         img: [
-                "https://www.arbulang.com/img/fiszkiespanol/146a.jpg"
+                "http://localhost/arbulanguage.com/img/fiszkiespanol/146a.jpg"
         ],
         word: [
-                "https://www.arbulang.com/voice/music.mp4"
+                "http://localhost/arbulanguage.com/voice/music.mp4"
         ],
         // historia
         story: [
@@ -5969,14 +6083,14 @@ id: [
 ],
         // obrazek
         img: [
-                "https://www.arbulang.com/img/fiszkiespanol/127a.jpg"
+                "http://localhost/arbulanguage.com/img/fiszkiespanol/127a.jpg"
         ],
         translate: "Zaprzeczać kłamstwom i zawsze mówić prawdę",
         translateb: "[Negar mentiras i desir siempre berdad]",
-        srcWord: ["https://www.arbulang.com/filmy/esp/truth.mp4", 'Matrix 1999'],
-        srcWordimage: "https://www.arbulang.com/filmy/esp/truth.png",
+        srcWord: ["http://localhost/arbulanguage.com/filmy/esp/truth.mp4", 'Matrix 1999'],
+        srcWordimage: "http://localhost/arbulanguage.com/filmy/esp/truth.png",
         word: [
-                "https://www.arbulang.com/voice/music.mp4"
+                "http://localhost/arbulanguage.com/voice/music.mp4"
         ],
         // historia
         story: [
@@ -6005,10 +6119,10 @@ id: [
         35
 ],
         img: [
-                "https://www.arbulang.com/img/fiszkiespanol/146a.jpg"
+                "http://localhost/arbulanguage.com/img/fiszkiespanol/146a.jpg"
         ],
         word: [
-                "https://www.arbulang.com/voice/music.mp4"
+                "http://localhost/arbulanguage.com/voice/music.mp4"
         ],
         // historia
         story: [
@@ -6038,10 +6152,10 @@ id: [
 ],
         // obrazek
         img: [
-                "https://www.arbulang.com/img/fiszkiespanol/26a.jpg"
+                "http://localhost/arbulanguage.com/img/fiszkiespanol/26a.jpg"
         ],
         word: [
-                "https://www.arbulang.com/voice/music.mp4"
+                "http://localhost/arbulanguage.com/voice/music.mp4"
         ],
         // historia
         story: [
@@ -6072,10 +6186,10 @@ id: [
 ],
         // obrazek
         img: [
-                "https://www.arbulang.com/img/fiszkiespanol/86a.jpg"
+                "http://localhost/arbulanguage.com/img/fiszkiespanol/86a.jpg"
         ],
         word: [
-                "https://www.arbulang.com/voice/music.mp4"
+                "http://localhost/arbulanguage.com/voice/music.mp4"
         ],
         // historia
         story: [
@@ -6105,10 +6219,10 @@ id: [
         35
 ],
         img: [
-                "https://www.arbulang.com/img/fiszkiespanol/146a.jpg"
+                "http://localhost/arbulanguage.com/img/fiszkiespanol/146a.jpg"
         ],
         word: [
-                "https://www.arbulang.com/voice/music.mp4"
+                "http://localhost/arbulanguage.com/voice/music.mp4"
         ],
         // historia
         story: [
@@ -6139,14 +6253,14 @@ id: [
 ],
         // obrazek
         img: [
-                "https://www.arbulang.com/img/fiszkiespanol/131a.jpg"
+                "http://localhost/arbulanguage.com/img/fiszkiespanol/131a.jpg"
         ],
         translate: "Zaprzeczać kłamstwom i zawsze mówić prawdę",
         translateb: "[Negar mentiras i desir siempre berdad]",
-        srcWord: ["https://www.arbulang.com/filmy/esp/truth.mp4", 'Matrix 1999'],
-        srcWordimage: "https://www.arbulang.com/filmy/esp/truth.png",
+        srcWord: ["http://localhost/arbulanguage.com/filmy/esp/truth.mp4", 'Matrix 1999'],
+        srcWordimage: "http://localhost/arbulanguage.com/filmy/esp/truth.png",
         word: [
-                "https://www.arbulang.com/voice/music.mp4"
+                "http://localhost/arbulanguage.com/voice/music.mp4"
         ],
         // historia
         story: [
@@ -6175,10 +6289,10 @@ id: [
         36
 ],
         img: [
-                "https://www.arbulang.com/img/fiszkiespanol/146a.jpg"
+                "http://localhost/arbulanguage.com/img/fiszkiespanol/146a.jpg"
         ],
         word: [
-                "https://www.arbulang.com/voice/music.mp4"
+                "http://localhost/arbulanguage.com/voice/music.mp4"
         ],
         // historia
         story: [
@@ -6207,10 +6321,10 @@ id: [
         36
 ],
         img: [
-                "https://www.arbulang.com/img/fiszkiespanol/146a.jpg"
+                "http://localhost/arbulanguage.com/img/fiszkiespanol/146a.jpg"
         ],
         word: [
-                "https://www.arbulang.com/voice/music.mp4"
+                "http://localhost/arbulanguage.com/voice/music.mp4"
         ],
         // historia
         story: [
@@ -6240,10 +6354,10 @@ id: [
         36
 ],
         img: [
-                "https://www.arbulang.com/img/fiszkiespanol/146a.jpg"
+                "http://localhost/arbulanguage.com/img/fiszkiespanol/146a.jpg"
         ],
         word: [
-                "https://www.arbulang.com/voice/music.mp4"
+                "http://localhost/arbulanguage.com/voice/music.mp4"
         ],
         // historia
         story: [
@@ -6273,10 +6387,10 @@ id: [
         36
 ],
         img: [
-                "https://www.arbulang.com/img/fiszkiespanol/146a.jpg"
+                "http://localhost/arbulanguage.com/img/fiszkiespanol/146a.jpg"
         ],
         word: [
-                "https://www.arbulang.com/voice/music.mp4"
+                "http://localhost/arbulanguage.com/voice/music.mp4"
         ],
         // historia
         story: [
@@ -6307,14 +6421,14 @@ id: [
 ],
         // obrazek
         img: [
-                "https://www.arbulang.com/img/fiszkiespanol/131a.jpg"
+                "http://localhost/arbulanguage.com/img/fiszkiespanol/131a.jpg"
         ],
         translate: "Zaprzeczać kłamstwom i zawsze mówić prawdę",
         translateb: "[Negar mentiras i desir siempre berdad]",
-        srcWord: ["https://www.arbulang.com/filmy/esp/truth.mp4", 'Matrix 1999'],
-        srcWordimage: "https://www.arbulang.com/filmy/esp/truth.png",
+        srcWord: ["http://localhost/arbulanguage.com/filmy/esp/truth.mp4", 'Matrix 1999'],
+        srcWordimage: "http://localhost/arbulanguage.com/filmy/esp/truth.png",
         word: [
-                "https://www.arbulang.com/voice/music.mp4"
+                "http://localhost/arbulanguage.com/voice/music.mp4"
         ],
         // historia
         story: [
@@ -6343,10 +6457,10 @@ id: [
         37
 ],
         img: [
-                "https://www.arbulang.com/img/fiszkiespanol/146a.jpg"
+                "http://localhost/arbulanguage.com/img/fiszkiespanol/146a.jpg"
         ],
         word: [
-                "https://www.arbulang.com/voice/music.mp4"
+                "http://localhost/arbulanguage.com/voice/music.mp4"
         ],
         // historia
         story: [
@@ -6375,10 +6489,10 @@ id: [
         37
 ],
         img: [
-                "https://www.arbulang.com/img/fiszkiespanol/146a.jpg"
+                "http://localhost/arbulanguage.com/img/fiszkiespanol/146a.jpg"
         ],
         word: [
-                "https://www.arbulang.com/voice/music.mp4"
+                "http://localhost/arbulanguage.com/voice/music.mp4"
         ],
         // historia
         story: [
@@ -6408,10 +6522,10 @@ id: [
         37
 ],
         img: [
-                "https://www.arbulang.com/img/fiszkiespanol/146a.jpg"
+                "http://localhost/arbulanguage.com/img/fiszkiespanol/146a.jpg"
         ],
         word: [
-                "https://www.arbulang.com/voice/music.mp4"
+                "http://localhost/arbulanguage.com/voice/music.mp4"
         ],
         // historia
         story: [
@@ -6441,10 +6555,10 @@ id: [
         37
 ],
         img: [
-                "https://www.arbulang.com/img/fiszkiespanol/146a.jpg"
+                "http://localhost/arbulanguage.com/img/fiszkiespanol/146a.jpg"
         ],
         word: [
-                "https://www.arbulang.com/voice/music.mp4"
+                "http://localhost/arbulanguage.com/voice/music.mp4"
         ],
         // historia
         story: [
@@ -6475,14 +6589,14 @@ id: [
 ],
         // obrazek
         img: [
-                "https://www.arbulang.com/img/fiszkiespanol/131a.jpg"
+                "http://localhost/arbulanguage.com/img/fiszkiespanol/131a.jpg"
         ],
         translate: "Zaprzeczać kłamstwom i zawsze mówić prawdę",
         translateb: "[Negar mentiras i desir siempre berdad]",
-        srcWord: ["https://www.arbulang.com/filmy/esp/truth.mp4", 'Matrix 1999'],
-        srcWordimage: "https://www.arbulang.com/filmy/esp/truth.png",
+        srcWord: ["http://localhost/arbulanguage.com/filmy/esp/truth.mp4", 'Matrix 1999'],
+        srcWordimage: "http://localhost/arbulanguage.com/filmy/esp/truth.png",
         word: [
-                "https://www.arbulang.com/voice/music.mp4"
+                "http://localhost/arbulanguage.com/voice/music.mp4"
         ],
         // historia
         story: [
@@ -6511,10 +6625,10 @@ id: [
         38
 ],
         img: [
-                "https://www.arbulang.com/img/fiszkiespanol/146a.jpg"
+                "http://localhost/arbulanguage.com/img/fiszkiespanol/146a.jpg"
         ],
         word: [
-                "https://www.arbulang.com/voice/music.mp4"
+                "http://localhost/arbulanguage.com/voice/music.mp4"
         ],
         // historia
         story: [
@@ -6543,10 +6657,10 @@ id: [
         38
 ],
         img: [
-                "https://www.arbulang.com/img/fiszkiespanol/146a.jpg"
+                "http://localhost/arbulanguage.com/img/fiszkiespanol/146a.jpg"
         ],
         word: [
-                "https://www.arbulang.com/voice/music.mp4"
+                "http://localhost/arbulanguage.com/voice/music.mp4"
         ],
         // historia
         story: [
@@ -6575,10 +6689,10 @@ id: [
         38
 ],
         img: [
-                "https://www.arbulang.com/img/fiszkiespanol/146a.jpg"
+                "http://localhost/arbulanguage.com/img/fiszkiespanol/146a.jpg"
         ],
         word: [
-                "https://www.arbulang.com/voice/music.mp4"
+                "http://localhost/arbulanguage.com/voice/music.mp4"
         ],
         // historia
         story: [
@@ -6608,14 +6722,14 @@ id: [
 ],
         // obrazek
         img: [
-                "https://www.arbulang.com/img/fiszkiespanol/131a.jpg"
+                "http://localhost/arbulanguage.com/img/fiszkiespanol/131a.jpg"
         ],
         translate: "Zaprzeczać kłamstwom i zawsze mówić prawdę",
         translateb: "[Negar mentiras i desir siempre berdad]",
-        srcWord: ["https://www.arbulang.com/filmy/esp/truth.mp4", 'Matrix 1999'],
-        srcWordimage: "https://www.arbulang.com/filmy/esp/truth.png",
+        srcWord: ["http://localhost/arbulanguage.com/filmy/esp/truth.mp4", 'Matrix 1999'],
+        srcWordimage: "http://localhost/arbulanguage.com/filmy/esp/truth.png",
         word: [
-                "https://www.arbulang.com/voice/music.mp4"
+                "http://localhost/arbulanguage.com/voice/music.mp4"
         ],
         // historia
         story: [
@@ -6644,10 +6758,10 @@ id: [
         39
 ],
         img: [
-                "https://www.arbulang.com/img/fiszkiespanol/146a.jpg"
+                "http://localhost/arbulanguage.com/img/fiszkiespanol/146a.jpg"
         ],
         word: [
-                "https://www.arbulang.com/voice/music.mp4"
+                "http://localhost/arbulanguage.com/voice/music.mp4"
         ],
         // historia
         story: [
@@ -6676,10 +6790,10 @@ id: [
         39
 ],
         img: [
-                "https://www.arbulang.com/img/fiszkiespanol/146a.jpg"
+                "http://localhost/arbulanguage.com/img/fiszkiespanol/146a.jpg"
         ],
         word: [
-                "https://www.arbulang.com/voice/music.mp4"
+                "http://localhost/arbulanguage.com/voice/music.mp4"
         ],
         // historia
         story: [
@@ -6709,10 +6823,10 @@ id: [
         39
 ],
         img: [
-                "https://www.arbulang.com/img/fiszkiespanol/146a.jpg"
+                "http://localhost/arbulanguage.com/img/fiszkiespanol/146a.jpg"
         ],
         word: [
-                "https://www.arbulang.com/voice/music.mp4"
+                "http://localhost/arbulanguage.com/voice/music.mp4"
         ],
         // historia
         story: [
@@ -6742,10 +6856,10 @@ id: [
         39
 ],
         img: [
-                "https://www.arbulang.com/img/fiszkiespanol/146a.jpg"
+                "http://localhost/arbulanguage.com/img/fiszkiespanol/146a.jpg"
         ],
         word: [
-                "https://www.arbulang.com/voice/music.mp4"
+                "http://localhost/arbulanguage.com/voice/music.mp4"
         ],
         // historia
         story: [
@@ -6776,14 +6890,14 @@ id: [
 ],
         // obrazek
         img: [
-                "https://www.arbulang.com/img/fiszkiespanol/131a.jpg"
+                "http://localhost/arbulanguage.com/img/fiszkiespanol/131a.jpg"
         ],
         translate: "Zaprzeczać kłamstwom i zawsze mówić prawdę",
         translateb: "[Negar mentiras i desir siempre berdad]",
-        srcWord: ["https://www.arbulang.com/filmy/esp/truth.mp4", 'Matrix 1999'],
-        srcWordimage: "https://www.arbulang.com/filmy/esp/truth.png",
+        srcWord: ["http://localhost/arbulanguage.com/filmy/esp/truth.mp4", 'Matrix 1999'],
+        srcWordimage: "http://localhost/arbulanguage.com/filmy/esp/truth.png",
         word: [
-                "https://www.arbulang.com/voice/music.mp4"
+                "http://localhost/arbulanguage.com/voice/music.mp4"
         ],
         // historia
         story: [
@@ -6812,10 +6926,10 @@ id: [
         40
 ],
         img: [
-                "https://www.arbulang.com/img/fiszkiespanol/146a.jpg"
+                "http://localhost/arbulanguage.com/img/fiszkiespanol/146a.jpg"
         ],
         word: [
-                "https://www.arbulang.com/voice/music.mp4"
+                "http://localhost/arbulanguage.com/voice/music.mp4"
         ],
         // historia
         story: [
@@ -6844,10 +6958,10 @@ id: [
         40
 ],
         img: [
-                "https://www.arbulang.com/img/fiszkiespanol/146a.jpg"
+                "http://localhost/arbulanguage.com/img/fiszkiespanol/146a.jpg"
         ],
         word: [
-                "https://www.arbulang.com/voice/music.mp4"
+                "http://localhost/arbulanguage.com/voice/music.mp4"
         ],
         // historia
         story: [
@@ -6877,10 +6991,10 @@ id: [
         40
 ],
         img: [
-                "https://www.arbulang.com/img/fiszkiespanol/146a.jpg"
+                "http://localhost/arbulanguage.com/img/fiszkiespanol/146a.jpg"
         ],
         word: [
-                "https://www.arbulang.com/voice/music.mp4"
+                "http://localhost/arbulanguage.com/voice/music.mp4"
         ],
         // historia
         story: [
@@ -6910,10 +7024,10 @@ id: [
         40
 ],
         img: [
-                "https://www.arbulang.com/img/fiszkiespanol/197a.jpg"
+                "http://localhost/arbulanguage.com/img/fiszkiespanol/197a.jpg"
         ],
         word: [
-                "https://www.arbulang.com/voice/music.mp4"
+                "http://localhost/arbulanguage.com/voice/music.mp4"
         ],
         // historia
         story: [
@@ -6944,14 +7058,14 @@ id: [
 ],
         // obrazek
         img: [
-                "https://www.arbulang.com/img/fiszkiespanol/131a.jpg"
+                "http://localhost/arbulanguage.com/img/fiszkiespanol/131a.jpg"
         ],
         translate: "Zaprzeczać kłamstwom i zawsze mówić prawdę",
         translateb: "[Negar mentiras i desir siempre berdad]",
-        srcWord: ["https://www.arbulang.com/filmy/esp/truth.mp4", 'Matrix 1999'],
-        srcWordimage: "https://www.arbulang.com/filmy/esp/truth.png",
+        srcWord: ["http://localhost/arbulanguage.com/filmy/esp/truth.mp4", 'Matrix 1999'],
+        srcWordimage: "http://localhost/arbulanguage.com/filmy/esp/truth.png",
         word: [
-                "https://www.arbulang.com/voice/music.mp4"
+                "http://localhost/arbulanguage.com/voice/music.mp4"
         ],
         // historia
         story: [
@@ -6981,10 +7095,10 @@ id: [
         40
 ],
         img: [
-                "https://www.arbulang.com/img/fiszkiespanol/199a.jpg"
+                "http://localhost/arbulanguage.com/img/fiszkiespanol/199a.jpg"
         ],
         word: [
-                "https://www.arbulang.com/voice/music.mp4"
+                "http://localhost/arbulanguage.com/voice/music.mp4"
         ],
         // historia
         story: [
@@ -7014,10 +7128,10 @@ id: [
         40
 ],
         img: [
-                "https://www.arbulang.com/img/fiszkiespanol/146a.jpg"
+                "http://localhost/arbulanguage.com/img/fiszkiespanol/146a.jpg"
         ],
         word: [
-                "https://www.arbulang.com/voice/music.mp4"
+                "http://localhost/arbulanguage.com/voice/music.mp4"
         ],
         // historia
         story: [
@@ -7047,10 +7161,10 @@ id: [
         40
 ],
         img: [
-                "https://www.arbulang.com/img/fiszkiespanol/201a.jpg"
+                "http://localhost/arbulanguage.com/img/fiszkiespanol/201a.jpg"
         ],
         word: [
-                "https://www.arbulang.com/voice/music.mp4"
+                "http://localhost/arbulanguage.com/voice/music.mp4"
         ],
         // historia
         story: [
@@ -7079,10 +7193,10 @@ id: [
         40
 ],
         img: [
-                "https://www.arbulang.com/img/fiszkiespanol/146a.jpg"
+                "http://localhost/arbulanguage.com/img/fiszkiespanol/146a.jpg"
         ],
         word: [
-                "https://www.arbulang.com/voice/music.mp4"
+                "http://localhost/arbulanguage.com/voice/music.mp4"
         ],
         // historia
         story: [
@@ -7112,14 +7226,14 @@ id: [
 ],
         // obrazek
         img: [
-                "https://www.arbulang.com/img/fiszkiespanol/131a.jpg"
+                "http://localhost/arbulanguage.com/img/fiszkiespanol/131a.jpg"
         ],
         translate: "Zaprzeczać kłamstwom i zawsze mówić prawdę",
         translateb: "[Negar mentiras i desir siempre berdad]",
-        srcWord: ["https://www.arbulang.com/filmy/esp/truth.mp4", 'Matrix 1999'],
-        srcWordimage: "https://www.arbulang.com/filmy/esp/truth.png",
+        srcWord: ["http://localhost/arbulanguage.com/filmy/esp/truth.mp4", 'Matrix 1999'],
+        srcWordimage: "http://localhost/arbulanguage.com/filmy/esp/truth.png",
         word: [
-                "https://www.arbulang.com/voice/music.mp4"
+                "http://localhost/arbulanguage.com/voice/music.mp4"
         ],
         // historia
         story: [
@@ -7148,10 +7262,10 @@ id: [
         41
 ],
         img: [
-                "https://www.arbulang.com/img/fiszkiespanol/146a.jpg"
+                "http://localhost/arbulanguage.com/img/fiszkiespanol/146a.jpg"
         ],
         word: [
-                "https://www.arbulang.com/voice/music.mp4"
+                "http://localhost/arbulanguage.com/voice/music.mp4"
         ],
         // historia
         story: [
@@ -7180,10 +7294,10 @@ id: [
         41
 ],
         img: [
-                "https://www.arbulang.com/img/fiszkiespanol/146a.jpg"
+                "http://localhost/arbulanguage.com/img/fiszkiespanol/146a.jpg"
         ],
         word: [
-                "https://www.arbulang.com/voice/music.mp4"
+                "http://localhost/arbulanguage.com/voice/music.mp4"
         ],
         // historia
         story: [
@@ -7213,10 +7327,10 @@ id: [
         41
 ],
         img: [
-                "https://www.arbulang.com/img/fiszkiespanol/146a.jpg"
+                "http://localhost/arbulanguage.com/img/fiszkiespanol/146a.jpg"
         ],
         word: [
-                "https://www.arbulang.com/voice/music.mp4"
+                "http://localhost/arbulanguage.com/voice/music.mp4"
         ],
         // historia
         story: [
@@ -7247,10 +7361,10 @@ id: [
 ],
         // obrazek
         img: [
-                "https://www.arbulang.com/img/fiszkiespanol/126a.jpg"
+                "http://localhost/arbulanguage.com/img/fiszkiespanol/126a.jpg"
         ],
         word: [
-                "https://www.arbulang.com/voice/music.mp4"
+                "http://localhost/arbulanguage.com/voice/music.mp4"
         ],
         // historia
         story: [
@@ -7285,19 +7399,19 @@ function activateFiszka(idFiszki, znam) {
     let parametr = '';
 
     if (Array.isArray(idFiszki)) {
-        // Połącz wartości z tablicy id w jeden ciąg znaków oddzielony przecinkami
+        // PoĹÄcz wartoĹci z tablicy id w jeden ciÄg znakĂłw oddzielony przecinkami
         id = idFiszki.slice(0, 3).join(',');
-        // Obsługa ewentualnego dodatkowego parametru (np. czwartego elementu w tablicy)
+        // ObsĹuga ewentualnego dodatkowego parametru (np. czwartego elementu w tablicy)
         parametr = idFiszki.length > 3 ? idFiszki[3] : '';
     }
 
-    // Tworzenie klasy CSS z odpowiednim formatowaniem (poprawione usunięcie przecinków w CSS)
+    // Tworzenie klasy CSS z odpowiednim formatowaniem (poprawione usuniÄcie przecinkĂłw w CSS)
     const className = `fiszka-${id}${parametr ? '\\,' + parametr : ''}`;
     const selector = `.${className.replace(/,/g, '\\,')}`;
     console.log(selector);
 
     if (znam) {
-        // Zapisz klasę 'active' lub zmień z 'active2' na 'active'
+        // Zapisz klasÄ 'active' lub zmieĹ z 'active2' na 'active'
         if ($(selector).hasClass('active2')) {
             $(selector).removeClass('active2').addClass('active');
             updateLearnedClass(className, 'active');
@@ -7308,7 +7422,7 @@ function activateFiszka(idFiszki, znam) {
         setAsLearned(id);
         console.log(`Set fiszka with ID ${id} as learned.`);
     } else {
-        // Zapisz klasę 'active2' lub usuń 'active'
+        // Zapisz klasÄ 'active2' lub usuĹ 'active'
         $(selector).removeClass('active').addClass('active2');
         saveLearnedClass(className, 'active2');
         addToTrainingList(id);
@@ -7325,7 +7439,7 @@ function saveLearnedClass(className, classToAdd) {
     const existingEntryIndex = learnedClasses.findIndex(entry => entry.className === className);
 
     if (existingEntryIndex !== -1) {
-        // Jeśli już istnieje, zaktualizuj klasę
+        // JeĹli juĹź istnieje, zaktualizuj klasÄ
         learnedClasses[existingEntryIndex].classToAdd = classToAdd;
     } else {
         // W przeciwnym razie dodaj nowy wpis
@@ -7342,7 +7456,7 @@ function updateLearnedClass(className, classToUpdate) {
     const existingEntryIndex = learnedClasses.findIndex(entry => entry.className === className);
 
     if (existingEntryIndex !== -1) {
-        // Jeśli już istnieje, zaktualizuj klasę
+        // JeĹli juĹź istnieje, zaktualizuj klasÄ
         learnedClasses[existingEntryIndex].classToAdd = classToUpdate;
         localStorage.setItem('ColorClass', JSON.stringify(learnedClasses));
         console.log('ColorClass', learnedClasses);
@@ -7355,7 +7469,7 @@ function getLearned2() {
     return storedColorClass ? JSON.parse(storedColorClass) : [];
 }
 
-// Wywołanie klas po odświeżeniu strony
+// WywoĹanie klas po odĹwieĹźeniu strony
 $(document).ready(function () {
     const learnedClasses = getLearned2();
     learnedClasses.forEach(function (entry) {
@@ -7375,49 +7489,21 @@ function loadFromLocalStorage() {
     return storedData ? JSON.parse(storedData) : null;
 }
 
-const storedLessons = loadFromLocalStorage();
 
-if (storedLessons) {
-    lessons2b = storedLessons;
-    console.log('Wczytane dane z localStorage:', lessons2b);
-    console.log('hejlekcje', lessons2b[2]);
-
-    // Wywołanie funkcji showFiszki2 po wczytaniu danych
-    setTimeout(() => {
-        console.log('Wywołanie showFiszki2 z wczytanymi danymi');
-        showFiszki2();  // Upewnij się, że ta funkcja jest zdefiniowana
-    }, 0);
-} else {
-    // Jeśli nie ma zapisanych danych, losuj i zapisz
-    for (let i = 1; i <= 30; i++) {
-        lessons2b[i] = [];
-    }
-
-    // Zapisz dane do localStorage
-    saveToLocalStorage(lessons2b);
-
-    // Wywołanie showFiszki2 po zapisaniu nowych danych
-    setTimeout(() => {
-        console.log('Wywołanie showFiszki2 z nowo wygenerowanymi danymi');
-        showFiszki2();  // Upewnij się, że ta funkcja jest zdefiniowana
-    }, 0);
-}
-
-
-// Sprawdzanie zawartości lessons2b po załadowaniu danych
+// Sprawdzanie zawartoĹci lessons2b po zaĹadowaniu danych
 function printLessons2b() {
     console.log('hej555', lessons2b[2]);
 }
 
-// Wywołaj tę funkcję, gdy masz pewność, że dane zostały załadowane
+// WywoĹaj tÄ funkcjÄ, gdy masz pewnoĹÄ, Ĺźe dane zostaĹy zaĹadowane
 document.addEventListener('DOMContentLoaded', function () {
-    setTimeout(printLessons2b, 1000);  // Opóźnienie dla pewności
+    setTimeout(printLessons2b, 2000);  // OpĂłĹşnienie dla pewnoĹci
 });
 
 function generateFiszkaBlock(fiszka, lessonId2) {
-    console.log('hej555c', lessons2b[2]);
+
     var currentStoryButtonName = ''; // Zmienna lokalna
-    console.log(`Generating fiszka block for ID: [${fiszka.id.join(', ')}]`);
+    console.log(`Generating fiszka block for ID: [${fiszka}]`);
 
     // Tworzenie kontenera fiszki
 
@@ -7429,21 +7515,21 @@ function generateFiszkaBlock(fiszka, lessonId2) {
 
             var music = document.getElementById(audioId);
             var pButton = document.getElementById(pButtonId);
-            // Dodajemy style bezpośrednio w kodzie JavaScript
+            // Dodajemy style bezpoĹrednio w kodzie JavaScript
             if (window.matchMedia("(max-width: 999px)").matches) {
-                pButton.style.height = '100px';  // Zwiększenie wysokości
-                pButton.style.width = '100px';   // Zwiększenie szerokości
+                pButton.style.height = '100px';  // ZwiÄkszenie wysokoĹci
+                pButton.style.width = '100px';   // ZwiÄkszenie szerokoĹci
             } else {
-                pButton.style.height = '60px';  // Zwiększenie wysokości
-                pButton.style.width = '60px';   // Zwiększenie szerokości
+                pButton.style.height = '60px';  // ZwiÄkszenie wysokoĹci
+                pButton.style.width = '60px';   // ZwiÄkszenie szerokoĹci
             }
-            pButton.style.border = 'none';   // Usunięcie ramki
-            pButton.style.backgroundSize = '80%';  // Rozmiar obrazka tła
+            pButton.style.border = 'none';   // UsuniÄcie ramki
+            pButton.style.backgroundSize = '80%';  // Rozmiar obrazka tĹa
             pButton.style.backgroundRepeat = 'no-repeat';
             pButton.style.backgroundPosition = 'center';
-            pButton.style.borderRadius = '8px';   // Zaokrąglenie rogów
-            pButton.style.outline = 'none';       // Usunięcie obramowania
-            pButton.style.display = 'flex';       // Wyśrodkowanie zawartości
+            pButton.style.borderRadius = '8px';   // ZaokrÄglenie rogĂłw
+            pButton.style.outline = 'none';       // UsuniÄcie obramowania
+            pButton.style.display = 'flex';       // WyĹrodkowanie zawartoĹci
             pButton.style.alignItems = 'center';
             pButton.style.justifyContent = 'center';
             pButton.style.overflow = 'hidden';    // Ukrycie nadmiarowego kontentu
@@ -7481,7 +7567,7 @@ function generateFiszkaBlock(fiszka, lessonId2) {
 
 // TWORZENIE KONTENERA FISZKI
         let fiszkaContainer = $('<div>').addClass('fiszka fiszka-' + fiszka.id);
-
+console.log('Hej4442', fiszkaContainer);
 
 
         // DODANIE OBRAZKA
@@ -7495,7 +7581,7 @@ function generateFiszkaBlock(fiszka, lessonId2) {
                 }
             });
         } else if (typeof fiszka.img === 'string') {
-            // Jeśli jest tylko jedno zdjęcie, dodajemy je do imgContainer dla każdej fiszki
+            // JeĹli jest tylko jedno zdjÄcie, dodajemy je do imgContainer dla kaĹźdej fiszki
             const imgElement = $('<img class="fiszka_img">').attr('src', fiszka.img);
             imgContainer.append(imgElement);
         }
@@ -7504,13 +7590,13 @@ function generateFiszkaBlock(fiszka, lessonId2) {
         const selectedLikes = [];
         console.log('hej10', selectedLikes);
 
-// Funkcja do obsługi kliknięcia na przycisk "likeButton"
+// Funkcja do obsĹugi klikniÄcia na przycisk "likeButton"
         function handleLikeButtonClick(index) {
             const likeButton = $(this);
             const storyButton = fiszkaContainer.find('.story_button').eq(index);
             const selectedLike = likeButton.text();
             console.log('Zaktualizowano przycisk dla indeksu:', index);
-            console.log('Aktualne wartości selectedLikes:', selectedLikes);
+            console.log('Aktualne wartoĹci selectedLikes:', selectedLikes);
         }
         const likeButton = $('<a>').addClass('like').attr('href', '#');
         const likeText = $('<span>').text('Śmieszna historia');
@@ -7519,9 +7605,9 @@ function generateFiszkaBlock(fiszka, lessonId2) {
 
         // Tworzymy kontener opcji "like" i dodajemy opcje do kontenera
         const likeOptionsContainer = $('<div>').attr('id', 'likeOptionsContainer');
-        const likeOption1 = createLikeOption('thumbsUp', '👍 Śmieszne');
-        const likeOption2 = createLikeOption('heart', '❤️ Miłe');
-        const likeOption3 = createLikeOption('star', '⭐ Pamiętliwe');
+        const likeOption1 = createLikeOption('thumbsUp', 'đ Ĺmieszne');
+        const likeOption2 = createLikeOption('heart', 'â¤ď¸ MiĹe');
+        const likeOption3 = createLikeOption('star', 'â­ PamiÄtliwe');
         likeOptionsContainer.append(likeOption1, likeOption2, likeOption3);
 
         // Dodajemy kontener opcji "like" do docelowego kontenera
@@ -7530,7 +7616,7 @@ function generateFiszkaBlock(fiszka, lessonId2) {
         // Ukrywamy kontener opcji "like"
         likeOptionsContainer.hide();
 
-        // Obsługa zdarzenia hover na przycisku "like"
+        // ObsĹuga zdarzenia hover na przycisku "like"
         likeButton.hover(function () {
             const buttonPosition = likeButton.offset();
             const buttonWidth = likeButton.outerWidth();
@@ -7539,7 +7625,7 @@ function generateFiszkaBlock(fiszka, lessonId2) {
             likeOptionsContainer.css({
                 top: buttonPosition.top - likeOptionsContainer.outerHeight() - 10,
                 left: buttonPosition.left + (buttonWidth / 2) - (likeOptionsContainer.outerWidth() / 2),
-                backgroundColor: '#f0f0f0', // Dodajemy szary kolor tła
+                backgroundColor: '#f0f0f0', // Dodajemy szary kolor tĹa
             }).fadeIn('fast');
         }, function () {
             // Ukrywamy kontener opcji "like" po zjechaniu z przycisku
@@ -7554,36 +7640,36 @@ function generateFiszkaBlock(fiszka, lessonId2) {
                 return;
             }
 
-            // Tworzymy kontener dla ikony i dodajemy ikonę
+            // Tworzymy kontener dla ikony i dodajemy ikonÄ
             const iconContainer = $('<div>').addClass('likeIconContainer');
             const likeIcon = getLikeIcon(like);
             iconContainer.append(likeIcon);
 
-            // Usuwamy wcześniej dodaną ikonę, jeśli istnieje
+            // Usuwamy wczeĹniej dodanÄ ikonÄ, jeĹli istnieje
             storyButton.find('.likeIconContainer').remove();
 
-            // Dodajemy kontener z ikoną do przycisku "story_button"
+            // Dodajemy kontener z ikonÄ do przycisku "story_button"
             storyButton.append(iconContainer);
         }
 
         function createLikeOption(like, text) {
             const likeOption = $('<div>').addClass('likeOption').attr('data-like', like).text(text);
 
-            // Dodajemy efekt zmiany koloru na lekko ciemniejszy szary po najechaniu myszką na pojedynczą opcję "like"
+            // Dodajemy efekt zmiany koloru na lekko ciemniejszy szary po najechaniu myszkÄ na pojedynczÄ opcjÄ "like"
             likeOption.hover(
                     function () {
-                        likeOption.css('background-color', '#dcdcdc'); // Lekko ciemniejszy szary kolor tła dla opcji "like"
+                        likeOption.css('background-color', '#dcdcdc'); // Lekko ciemniejszy szary kolor tĹa dla opcji "like"
                     },
                     function () {
-                        likeOption.css('background-color', ''); // Usuwamy styl, aby wrócić do domyślnego tła opcji "like"
+                        likeOption.css('background-color', ''); // Usuwamy styl, aby wrĂłciÄ do domyĹlnego tĹa opcji "like"
                     }
             );
 
-            let likeCounter = 0; // Dodajemy licznik polubień dla każdej opcji "like"
+            let likeCounter = 0; // Dodajemy licznik polubieĹ dla kaĹźdej opcji "like"
 
             const counterDiv = $('<div>').addClass('likeCounterDiv'); // Nowy div na licznik
 
-            // Dodajemy ikonę do licznika
+            // Dodajemy ikonÄ do licznika
             const likeIcon = getLikeIcon(like);
             const iconContainer = $('<span>').addClass('likeIconContainer').append(likeIcon);
             counterDiv.append(iconContainer);
@@ -7591,12 +7677,12 @@ function generateFiszkaBlock(fiszka, lessonId2) {
             const likeCounterSpan = $('<span>').addClass('likeCounter').text(` ${likeCounter} `);
             counterDiv.append(likeCounterSpan); // Licznik jest dodany po ikonie
 
-            imgContainer.append(counterDiv); // Dodajemy licznik na zewnątrz kontenera przycisków
+            imgContainer.append(counterDiv); // Dodajemy licznik na zewnÄtrz kontenera przyciskĂłw
 
             likeOption.click(function (event) {
-                event.preventDefault(); // Zapobiegamy domyślnej akcji przycisku
+                event.preventDefault(); // Zapobiegamy domyĹlnej akcji przycisku
 
-                // Inkrementujemy licznik polubień za każdym razem, gdy opcja "like" zostanie wybrana
+                // Inkrementujemy licznik polubieĹ za kaĹźdym razem, gdy opcja "like" zostanie wybrana
                 likeCounter++;
                 likeCounterSpan.text(` ${likeCounter} `);
 
@@ -7604,20 +7690,20 @@ function generateFiszkaBlock(fiszka, lessonId2) {
                 const selectedIcon = getLikeIcon(selectedLike);
                 likeText.text(text);
                 likeButton.removeClass('liked');
-                addLikeIconToStoryButton(lastClickedIndex, selectedLike); // Dodaj ikonę do story_button na podstawie wybranej opcji "like"
+                addLikeIconToStoryButton(lastClickedIndex, selectedLike); // Dodaj ikonÄ do story_button na podstawie wybranej opcji "like"
 
-                // Sprawdź, czy index już istnieje w tablicy
+                // SprawdĹş, czy index juĹź istnieje w tablicy
                 const existingIndex = selectedLikes.findIndex(item => item.index === lastClickedIndex);
                 if (existingIndex !== -1) {
-                    // Jeśli index istnieje, zaktualizuj wartość
+                    // JeĹli index istnieje, zaktualizuj wartoĹÄ
                     selectedLikes[existingIndex].like = selectedLike;
                 } else {
-                    // Jeśli index nie istnieje, dodaj nowy wpis
-                    selectedLikes.push({index: lastClickedIndex, like: text}); // Dodaj tylko nazwę "like"
+                    // JeĹli index nie istnieje, dodaj nowy wpis
+                    selectedLikes.push({index: lastClickedIndex, like: text}); // Dodaj tylko nazwÄ "like"
                 }
 
                 likeOptionsContainer.fadeOut('fast');
-                saveSelectedLike(selectedLike, text); // Przekazujemy nazwę "like" i tekst do funkcji saveSelectedLike
+                saveSelectedLike(selectedLike, text); // Przekazujemy nazwÄ "like" i tekst do funkcji saveSelectedLike
             });
 
             return likeOption;
@@ -7625,10 +7711,10 @@ function generateFiszkaBlock(fiszka, lessonId2) {
 
 // Funkcja do zapisywania wybranego "like"
         function saveSelectedLike(selectedLike, text) {
-            // Tutaj możesz zapisać wybrany "like" w odpowiednim kontekście, np. wysłać go na serwer, zapisać w lokalnym magazynie itp.
+            // Tutaj moĹźesz zapisaÄ wybrany "like" w odpowiednim kontekĹcie, np. wysĹaÄ go na serwer, zapisaÄ w lokalnym magazynie itp.
             console.log('Wybrany like:', text);
             console.log('Tekst:', text);
-            // Jeśli chcesz użyć go w innych miejscach, możesz przekazać go jako argument do innych funkcji lub zmiennych.
+            // JeĹli chcesz uĹźyÄ go w innych miejscach, moĹźesz przekazaÄ go jako argument do innych funkcji lub zmiennych.
         }
 
         // Funkcja do pobierania ikony dla wybranego "like"
@@ -7636,16 +7722,16 @@ function generateFiszkaBlock(fiszka, lessonId2) {
             let icon;
             switch (like) {
                 case 'thumbsUp':
-                    icon = $('<span class="likeIcon">👍</span>');
+                    icon = $('<span class="likeIcon">đ</span>');
                     break;
                 case 'heart':
-                    icon = $('<span class="likeIcon">❤️</span>');
+                    icon = $('<span class="likeIcon">â¤ď¸</span>');
                     break;
                 case 'star':
-                    icon = $('<span class="likeIcon">⭐</span>');
+                    icon = $('<span class="likeIcon">â­</span>');
                     break;
                 default:
-                    icon = $('<span class="likeIcon">👍</span>');
+                    icon = $('<span class="likeIcon">đ</span>');
             }
             return icon;
         }
@@ -7659,7 +7745,7 @@ function generateFiszkaBlock(fiszka, lessonId2) {
             // Ukrywamy wszystkie historie w tej konkretnej fiszce
             currentFiszka.find('.fiszka_story').hide();
 
-            // Obsługa mnemoniki
+            // ObsĹuga mnemoniki
             if (Array.isArray(fiszka.story)) {
                 if (index >= 0 && index < fiszka.story.length) {
                     currentFiszka.find('.story-' + index).show();
@@ -7671,7 +7757,7 @@ function generateFiszkaBlock(fiszka, lessonId2) {
             // Ukrywamy wszystkie obrazy
             currentFiszka.find('.fiszka_img').hide();
 
-            // Obsługa obrazów
+            // ObsĹuga obrazĂłw
             let imgIndex; // Zmienna do przechowywania indeksu obrazka
 
             if (Array.isArray(fiszka.img)) {
@@ -7680,7 +7766,7 @@ function generateFiszkaBlock(fiszka, lessonId2) {
                 specificLesson2Ref = fiszka.img[imgIndex];
                 console.log("Index obrazka:", imgIndex);
             } else {
-                imgIndex = 0; // Ustawienie imgIndex na 0, gdy fiszka.img nie jest tablicą
+                imgIndex = 0; // Ustawienie imgIndex na 0, gdy fiszka.img nie jest tablicÄ
                 currentFiszka.find('.fiszka_img').eq(imgIndex).show();
                 specificLesson2Ref = fiszka.img;
                 console.log("Index obrazka:", imgIndex);
@@ -7688,7 +7774,7 @@ function generateFiszkaBlock(fiszka, lessonId2) {
 
             lastClickedIndex = index;
 
-            // Obsługa hashtagów
+            // ObsĹuga hashtagĂłw
             const selectedCategoryIndex = index * 2;
             const value = fiszka.category1[selectedCategoryIndex];
             const hashtag = fiszka.category1[selectedCategoryIndex + 1];
@@ -7702,7 +7788,7 @@ function generateFiszkaBlock(fiszka, lessonId2) {
         }
 
         function selectLikeButton(index) {
-            console.log("Wybór likeButton dla indeksu:", index);
+            console.log("WybĂłr likeButton dla indeksu:", index);
             const storyButton = $('.story_button').eq(index);
             if (!storyButton.length) {
                 console.error('Nie znaleziono przycisku dla indeksu:', index);
@@ -7713,21 +7799,21 @@ function generateFiszkaBlock(fiszka, lessonId2) {
             likeText.find('span').remove();
             likeText.text('Śmieszna historia');
 
-            // Sprawdź, czy index jest zawarty w tablicy selectedLikes
+            // SprawdĹş, czy index jest zawarty w tablicy selectedLikes
             const selectedLike = selectedLikes.find(item => item.index === index);
             if (selectedLike) {
-                // Jeśli index istnieje w tablicy, ustaw ikonę przycisku na wartość z tablicy
+                // JeĹli index istnieje w tablicy, ustaw ikonÄ przycisku na wartoĹÄ z tablicy
                 console.log("Wybrano like dla indeksu:", index, "- Like:", selectedLike.like);
-                const selectedIcon = getLikeIcon(selectedLike.like); // Przekazujemy tylko nazwę ikony
+                const selectedIcon = getLikeIcon(selectedLike.like); // Przekazujemy tylko nazwÄ ikony
                 console.log('hej5', selectedIcon);
-                likeText.html(selectedLike.like); // Ustawiamy ikonę
+                likeText.html(selectedLike.like); // Ustawiamy ikonÄ
             } else {
-                // Jeśli index nie istnieje, ustaw domyślny tekst
-                console.log("Brak wyboru like dla indeksu:", index, "- Ustawianie domyślnego tekstu");
+                // JeĹli index nie istnieje, ustaw domyĹlny tekst
+                console.log("Brak wyboru like dla indeksu:", index, "- Ustawianie domyĹlnego tekstu");
                 likeButton.text('Śmieszna historia');
             }
         }
-        // NIEZNACZĄCE WYJAŚNIENIE SŁOWA
+        // NIEZNACZÄCE WYJAĹNIENIE SĹOWA
         const sentenceDiv = $('<div>').attr('id', 'part');
         fiszka.sentence.forEach(word => {
             sentenceDiv.append($('<button>').text(word));
@@ -7744,7 +7830,7 @@ function generateFiszkaBlock(fiszka, lessonId2) {
         });
         const source = $('<source>').attr('src', fiszka.word);
         audio.append(source);
-        const audioplayerDiv = $('<div>').attr('id', 'audioplayer' + fiszka.id).addClass('audioplayer'); // Dodano klasę 'audioplayer'
+        const audioplayerDiv = $('<div>').attr('id', 'audioplayer' + fiszka.id).addClass('audioplayer'); // Dodano klasÄ 'audioplayer'
         const pButton = $('<button>').attr('id', 'pButton' + fiszka.id).addClass('pButton play').click(function () {
             console.log('playb called for fiszka.id:', fiszka.id);
             window['playb' + fiszka.id]();
@@ -7773,21 +7859,21 @@ function generateFiszkaBlock(fiszka, lessonId2) {
 
 // DODANIE MNEMOTECHNIKI
         if (Array.isArray(fiszka.story)) {
-            // Jeśli story jest tablicą, iterujemy przez wszystkie jej elementy
+            // JeĹli story jest tablicÄ, iterujemy przez wszystkie jej elementy
             fiszka.story.forEach((story, index) => {
                 const storyContainer = $('<div>').addClass('fiszka_story story-' + index).html(story);
                 fiszkaContainer.append(storyContainer);
                 console.log("Dodano story: ", story);  // Debugowanie
             });
         } else if (fiszka.story) {
-            // Jeśli story jest pojedynczym stringiem, dodajemy go bezpośrednio
+            // JeĹli story jest pojedynczym stringiem, dodajemy go bezpoĹrednio
             const storyContainer = $('<div>').addClass('fiszka_story story-0').html(fiszka.story);
             fiszkaContainer.append(storyContainer);
             console.log("Dodano story: ", fiszka.story);  // Debugowanie
         }
         console.log('Przed utworzeniem wordDiv');
 
-// Utworzenie reszty elementów zgodnie z istniejącym kodem
+// Utworzenie reszty elementĂłw zgodnie z istniejÄcym kodem
         const wordDiv2 = $('<div>').attr('id', 'word2');
         const audio2 = $('<audio>').attr({
             id: 'music2' + fiszka.id,
@@ -7795,20 +7881,20 @@ function generateFiszkaBlock(fiszka, lessonId2) {
         });
         const source2 = $('<source>').attr('src', fiszka.word);
         audio2.append(source2);
-        const audioplayerDiv2 = $('<div>').attr('id', 'audioplayer2' + fiszka.id).addClass('audioplayer2'); // Dodano klasę 'audioplayer'
+        const audioplayerDiv2 = $('<div>').attr('id', 'audioplayer2' + fiszka.id).addClass('audioplayer2'); // Dodano klasÄ 'audioplayer'
         const pButton2 = $('<button>').attr('id', 'pButton2' + fiszka.id).addClass('pButton play').click(function () {
             console.log('playb called for fiszka.id:', fiszka.id);
             window['playb' + fiszka.id]();
         });
 
-// Utworzenie elementów za pomocą jQuery
+// Utworzenie elementĂłw za pomocÄ jQuery
         const timelineDiv = $('<div>').attr('id', 'timeline' + fiszka.id);
         const playheadDiv = $('<div>').attr('id', 'playhead' + fiszka.id);
 
 // Dodanie playhead do timeline
         timelineDiv.append(playheadDiv);
 
-// Dodanie elementów do odpowiednich kontenerów
+// Dodanie elementĂłw do odpowiednich kontenerĂłw
         audioplayerDiv.append(pButton2);
         wordDiv2.append(audio2);
         wordDiv2.append(audioplayerDiv2);
@@ -7816,22 +7902,22 @@ function generateFiszkaBlock(fiszka, lessonId2) {
         fiszkaContainer.append(wordDiv2);
 
         console.log('Po utworzeniu wordDiv');
-        // Zdefiniuj zmienną początkową na poziomie wyższym
+        // Zdefiniuj zmiennÄ poczÄtkowÄ na poziomie wyĹźszym
         let initialSpecificLesson2Ref;
         let specificLesson2Ref;
         let lastClickedIndex = null;
         let lastApprovedIndex = null; // Zmienna do przechowywania ostatnio zatwierdzonego indeksu
-        let approvedIndexes = []; // Tablica przechowująca zatwierdzone indeksy
+        let approvedIndexes = []; // Tablica przechowujÄca zatwierdzone indeksy
         let approvedColors = [];
 
-// DODANIE PRZYCISKÓW
+// DODANIE PRZYCISKĂW
         if (Array.isArray(fiszka.category1)) {
             const storyButtonContainer = $('<div>'); // Kontener na przyciski
             const randomIndex = Math.floor(Math.random() * fiszka.category1.length / 2);
-            let lastClickedButton; // Zmienna do przechowywania ostatnio klikniętego przycisku w danej fiszce
+            let lastClickedButton; // Zmienna do przechowywania ostatnio klikniÄtego przycisku w danej fiszce
 
             fiszka.category1.slice(0, 5).forEach((category1, index) => {
-                const valueIndex = index * 2; // Indeks wartości w tablicy, zaczynając od 0
+                const valueIndex = index * 2; // Indeks wartoĹci w tablicy, zaczynajÄc od 0
                 const hashtagIndex = valueIndex + 1; // Indeks hashtagu w tablicy
 
                 const value = fiszka.category1[valueIndex];
@@ -7846,17 +7932,17 @@ function generateFiszkaBlock(fiszka, lessonId2) {
                             showStory(index);
                             lastClickedIndex = index;
 
-                            // Usuwamy zieloną klasę tylko z poprzedniego przycisku w danej fiszce
+                            // Usuwamy zielonÄ klasÄ tylko z poprzedniego przycisku w danej fiszce
                             if (lastClickedButton) {
                                 lastClickedButton.removeClass('green-button');
                             }
 
-                            // Usuwamy klasę imgIndex z poprzedniego przycisku w danej fiszce
+                            // Usuwamy klasÄ imgIndex z poprzedniego przycisku w danej fiszce
                             $('.story_button').removeClass((index, className) => (className.match(/imgIndex-\d+/g) || []).join(' '));
-                            // Dodajemy klasę imgIndexNull do przycisków, które nie zostały jeszcze zatwierdzone
+                            // Dodajemy klasÄ imgIndexNull do przyciskĂłw, ktĂłre nie zostaĹy jeszcze zatwierdzone
                             $('.fiszka').addClass('imgIndexNull').removeClass('imgIndex-0 imgIndex-1 imgIndex-2 imgIndex-3 imgIndex-4 ');
 
-                            // Dodajemy zieloną klasę tylko dla aktualnie klikniętego przycisku w danej fiszce
+                            // Dodajemy zielonÄ klasÄ tylko dla aktualnie klikniÄtego przycisku w danej fiszce
                             $(this).addClass('green-button');
                             $('.story_button').removeClass('active-button');
                             $(this).addClass('active-button');
@@ -7867,25 +7953,25 @@ function generateFiszkaBlock(fiszka, lessonId2) {
                                 }
                             });
 
-                            // Jeśli przycisk został wcześniej zatwierdzony, przywróć jego zatwierdzoną klasę
+                            // JeĹli przycisk zostaĹ wczeĹniej zatwierdzony, przywrĂłÄ jego zatwierdzonÄ klasÄ
                             if (approvedIndexes.includes(lastClickedIndex)) {
                                 fiszkaContainer.addClass('imgIndex-' + lastClickedIndex);
                             }
 
-                            // Zapisujemy ostatnio kliknięty przycisk w danej fiszce
+                            // Zapisujemy ostatnio klikniÄty przycisk w danej fiszce
                             lastClickedButton = $(this);
                             handleLikeButtonClick();
                         });
 
                 if (index === randomIndex) {
-                    // Sprawdzamy, czy fiszka.img jest tablicą czy pojedynczą wartością
+                    // Sprawdzamy, czy fiszka.img jest tablicÄ czy pojedynczÄ wartoĹciÄ
                     if (Array.isArray(fiszka.img)) {
                         newImgIndex = Math.min(index, fiszka.img.length - 1); // Aktualizacja zmiennej globalnej imgIndex
                         specificLesson2Ref = fiszka.img[newImgIndex];
                         console.log('hej432', specificLesson2Ref);
                     } else if (fiszka.img) {
-                        newImgIndex = 0; // Przypisanie domyślnego indeksu dla pojedynczego obrazka
-                        specificLesson2Ref = fiszka.img; // Przypisanie pojedynczej wartości do specificLesson2Ref
+                        newImgIndex = 0; // Przypisanie domyĹlnego indeksu dla pojedynczego obrazka
+                        specificLesson2Ref = fiszka.img; // Przypisanie pojedynczej wartoĹci do specificLesson2Ref
                         console.log('hej432', specificLesson2Ref);
                     }
                     initialSpecificLesson2Ref = specificLesson2Ref;
@@ -7901,30 +7987,30 @@ function generateFiszkaBlock(fiszka, lessonId2) {
 
             fiszkaContainer.append(storyButtonContainer);
 
-            // WYWOŁANIE TABLICY
+            // WYWOĹANIE TABLICY
             showStory(randomIndex);
             console.log(randomIndex);
 
-            // Użycie specificLesson2Ref po załadowaniu strony
-            console.log("Początkowy specificLesson2Ref:", initialSpecificLesson2Ref);
+            // UĹźycie specificLesson2Ref po zaĹadowaniu strony
+            console.log("PoczÄtkowy specificLesson2Ref:", initialSpecificLesson2Ref);
 
         } else if (fiszka.category1) {
-            // Jeśli fiszka.category1 nie jest tablicą
-            newImgIndex = 0; // Przypisanie domyślnego indeksu dla pojedynczego obrazka
-            specificLesson2Ref = fiszka.img; // Przypisanie pojedynczej wartości do specificLesson2Ref
+            // JeĹli fiszka.category1 nie jest tablicÄ
+            newImgIndex = 0; // Przypisanie domyĹlnego indeksu dla pojedynczego obrazka
+            specificLesson2Ref = fiszka.img; // Przypisanie pojedynczej wartoĹci do specificLesson2Ref
             initialSpecificLesson2Ref = specificLesson2Ref;
             console.log('Hej7', specificLesson2Ref);
 
-            // Stwórz pojedynczy przycisk dla pojedynczej wartości category1
+            // StwĂłrz pojedynczy przycisk dla pojedynczej wartoĹci category1
             const displayText = `${fiszka.category1} #${fiszka.category1}`;
             const storyButton = $('<button>')
                     .text(displayText)
-                    .addClass('story_button2 green-button') // Od razu przypisz zieloną klasę
+                    .addClass('story_button2 green-button') // Od razu przypisz zielonÄ klasÄ
                     .click(function () {
-                        showStory(0); // Przekazujemy 0 jako indeks, ponieważ jest to pojedyncza wartość
+                        showStory(0); // Przekazujemy 0 jako indeks, poniewaĹź jest to pojedyncza wartoĹÄ
                         lastClickedIndex = 0;
 
-                        // Zapisujemy ostatnio kliknięty przycisk
+                        // Zapisujemy ostatnio klikniÄty przycisk
                         lastClickedButton = $(this);
                         handleLikeButtonClick();
                     });
@@ -7933,12 +8019,12 @@ function generateFiszkaBlock(fiszka, lessonId2) {
             lastClickedButton = storyButton;
             lastApprovedIndex = 0; // Ustaw ostatnio zatwierdzony indeks na 0
 
-            // WYWOŁANIE POJEDYNCZEJ HISTORII
+            // WYWOĹANIE POJEDYNCZEJ HISTORII
             showStory(0);
-            console.log("Pojedyncza wartość dla category1, specificLesson2Ref:", specificLesson2Ref);
+            console.log("Pojedyncza wartoĹÄ dla category1, specificLesson2Ref:", specificLesson2Ref);
         }
         $('.fiszka_button_trening').click(function () {
-            // Dodaj klasę pomarańczową tylko dla przycisku zatwierdzonego
+            // Dodaj klasÄ pomaraĹczowÄ tylko dla przycisku zatwierdzonego
             $('.story_button').each(function (index) {
                 if ($(this).hasClass('green-button')) {
                     $(this).removeClass('green-button');
@@ -7946,6 +8032,25 @@ function generateFiszkaBlock(fiszka, lessonId2) {
                 }
             });
         });
+if ('serviceWorker' in navigator && 'PushManager' in window) {
+  navigator.serviceWorker.register('/sw.js').then(() => {
+    console.log("SW zarejestrowany");
+  });
+}
+
+// Request periodic sync
+navigator.serviceWorker.ready.then(async (reg) => {
+  try {
+    await reg.periodicSync.register("fiszka-sync", {
+      minInterval: 60 * 1000 // 1 min
+    });
+
+    console.log("Periodic Sync OK");
+
+  } catch (e) {
+    console.log("Brak wsparcia dla Periodic Sync");
+  }
+});
         console.log('hej555ax', lessons2b[2]);
 // DODANIE PRZYCISKU TRENING
         fiszkaContainer.append($('<button>').text('TRENING').addClass('fiszka_button fiszka_button_trening').click(function () {
@@ -7955,10 +8060,10 @@ function generateFiszkaBlock(fiszka, lessonId2) {
             let id = fiszka.id;
             let parametr = '';
 
-            // Sprawdzenie, czy idFiszki jest tablicą
+            // Sprawdzenie, czy idFiszki jest tablicÄ
             if (Array.isArray(fiszka.id)) {
                 id = fiszka.id[0];         // Pierwszy element tablicy jako id
-                parametr = fiszka.id[1] || ''; // Drugi element tablicy jako parametr, jeśli istnieje
+                parametr = fiszka.id[1] || ''; // Drugi element tablicy jako parametr, jeĹli istnieje
             }
 
             // Tworzenie selektora na podstawie id i parametru
@@ -7966,21 +8071,21 @@ function generateFiszkaBlock(fiszka, lessonId2) {
             const selector = `.${className}`;
             console.log('hej201', parametr);
             let first = false;
-            // Jeśli parametr jest równy lessons2b[0], uruchom aktywujObrazek
+            // JeĹli parametr jest rĂłwny lessons2b[0], uruchom aktywujObrazek
             if (parametr === lessons2b[0]) {
                 first = true;
                 console.log('hej200', first);
 
             }
             let second = false;
-            // Jeśli parametr jest równy lessons2b[0], uruchom aktywujObrazek
+            // JeĹli parametr jest rĂłwny lessons2b[0], uruchom aktywujObrazek
             if (parametr === lessons2b[1]) {
                 second = true;
                 console.log('hej200', second);
 
             }
             let third = false;
-            // Jeśli parametr jest równy lessons2b[0], uruchom aktywujObrazek
+            // JeĹli parametr jest rĂłwny lessons2b[0], uruchom aktywujObrazek
             if (parametr === lessons2b[2]) {
                 third = true;
                 console.log('hej200', third);
@@ -7990,21 +8095,21 @@ function generateFiszkaBlock(fiszka, lessonId2) {
             console.log("Trening clicked on fiszka nr " + fiszka.id);
             console.log("lessonId2:", lessonId2);
             console.log("nazwa", lessons2b[2]);
-            // Wyswietlenie danej wartości img dla danej fiszka.id
+            // Wyswietlenie danej wartoĹci img dla danej fiszka.id
             const specificLesson2 = specificLesson2Ref || initialSpecificLesson2Ref;
             console.log("img dla fiszki o id", fiszka.id, ":", specificLesson2);
             specificLesson2Ref = fiszka.img;
-            // Znajdź indeks dla danej fiszki w tablicy lessons2[lessonId2]
+            // ZnajdĹş indeks dla danej fiszki w tablicy lessons2[lessonId2]
             console.log('story55', specificLesson2Ref);
-            // Używamy lastClickedIndex zamiast index
-            imgIndex = showStory(lastClickedIndex); // Wywołanie funkcji showStory i zapisanie zwróconego indeksu obrazka
-            console.log('działa', specificLesson2Ref);
+            // UĹźywamy lastClickedIndex zamiast index
+            imgIndex = showStory(lastClickedIndex); // WywoĹanie funkcji showStory i zapisanie zwrĂłconego indeksu obrazka
+            console.log('dziaĹa', specificLesson2Ref);
             aktywujObrazek(first, second, third, specificLesson2, 'obrazek-container2b', true, fiszka, imgIndex); // Przekazanie imgIndex do funkcji aktywujObrazek
             // Dodajemy zatwierdzony indeks do tablicy
             approvedIndexes.push(lastClickedIndex);
             console.log(approvedIndexes);
 
-            // Dodanie zatwierdzonej klasy imgIndex do fiszkaContainer po kliknięciu przycisku "TRENING"
+            // Dodanie zatwierdzonej klasy imgIndex do fiszkaContainer po klikniÄciu przycisku "TRENING"
             fiszkaContainer.addClass('imgIndex-' + lastClickedIndex);
         }));
 
@@ -8013,12 +8118,12 @@ function generateFiszkaBlock(fiszka, lessonId2) {
             activateFiszka(fiszka.id, true);
         }));
 
-        // WYWOŁANIE HASHTAGU
+        // WYWOĹANIE HASHTAGU
         function updateButtonName(buttonName, fiszkaContainer) {
-            // Usuń poprzednią nazwę, jeśli istnieje
+            // UsuĹ poprzedniÄ nazwÄ, jeĹli istnieje
             fiszkaContainer.find('.fiszka_button_name').remove();
 
-            // Ustaw nazwę w prawym dolnym rogu fiszki
+            // Ustaw nazwÄ w prawym dolnym rogu fiszki
             const fiszkaButtonNameContainer = $('<div>').addClass('fiszka_button_name').text(buttonName);
             fiszkaContainer.append(fiszkaButtonNameContainer);
         }
@@ -8029,7 +8134,7 @@ function generateFiszkaBlock(fiszka, lessonId2) {
     });
 }
 function generateFiszkaBlock2(fiszka, lessonId2) {
-    console.log('hej555c', lessons2b[2]);
+    console.log('hej555xxv', fiszka);
     var currentStoryButtonName = ''; // Zmienna lokalna
     console.log(`Generating fiszka block for ID: [${fiszka.id.join(', ')}]`);
 
@@ -8043,21 +8148,21 @@ function generateFiszkaBlock2(fiszka, lessonId2) {
 
             var music = document.getElementById(audioId);
             var pButton = document.getElementById(pButtonId);
-            // Dodajemy style bezpośrednio w kodzie JavaScript
+            // Dodajemy style bezpoĹrednio w kodzie JavaScript
             if (window.matchMedia("(max-width: 999px)").matches) {
-                pButton.style.height = '100px';  // Zwiększenie wysokości
-                pButton.style.width = '100px';   // Zwiększenie szerokości
+                pButton.style.height = '100px';  // ZwiÄkszenie wysokoĹci
+                pButton.style.width = '100px';   // ZwiÄkszenie szerokoĹci
             } else {
-                pButton.style.height = '60px';  // Zwiększenie wysokości
-                pButton.style.width = '60px';   // Zwiększenie szerokości
+                pButton.style.height = '60px';  // ZwiÄkszenie wysokoĹci
+                pButton.style.width = '60px';   // ZwiÄkszenie szerokoĹci
             }
-            pButton.style.border = 'none';   // Usunięcie ramki
-            pButton.style.backgroundSize = '80%';  // Rozmiar obrazka tła
+            pButton.style.border = 'none';   // UsuniÄcie ramki
+            pButton.style.backgroundSize = '80%';  // Rozmiar obrazka tĹa
             pButton.style.backgroundRepeat = 'no-repeat';
             pButton.style.backgroundPosition = 'center';
-            pButton.style.borderRadius = '8px';   // Zaokrąglenie rogów
-            pButton.style.outline = 'none';       // Usunięcie obramowania
-            pButton.style.display = 'flex';       // Wyśrodkowanie zawartości
+            pButton.style.borderRadius = '8px';   // ZaokrÄglenie rogĂłw
+            pButton.style.outline = 'none';       // UsuniÄcie obramowania
+            pButton.style.display = 'flex';       // WyĹrodkowanie zawartoĹci
             pButton.style.alignItems = 'center';
             pButton.style.justifyContent = 'center';
             pButton.style.overflow = 'hidden';    // Ukrycie nadmiarowego kontentu
@@ -8095,38 +8200,38 @@ function generateFiszkaBlock2(fiszka, lessonId2) {
 
 // TWORZENIE KONTENERA FISZKI
         let fiszkaContainer = $('<div>').addClass('fiszka fiszka-' + fiszka.id);
-    // Dodanie klasy parzysta, jeśli warunki są spełnione
+    // Dodanie klasy parzysta, jeĹli warunki sÄ speĹnione
     if (window.matchMedia("(max-width: 999px)").matches && lessonId2 % 2 === 0) {
         fiszkaContainer.addClass('parzysta');
     }
-    // Tworzenie ikony krzyżyka
+    // Tworzenie ikony krzyĹźyka
     let closeIcon = $('<span>')
         .addClass('close-icon')
-    .html('&times;') // HTML kod krzyżyka
+    .html('&times;') // HTML kod krzyĹźyka
     .css({
         position: 'absolute',
-        top: 'px', // Możesz dostosować pozycję
+        top: 'px', // MoĹźesz dostosowaÄ pozycjÄ
         right: '5px',
-        width: '30px', // Szerokość kontenera
-        height: '30px', // Wysokość kontenera (równa szerokości)
+        width: '30px', // SzerokoĹÄ kontenera
+        height: '30px', // WysokoĹÄ kontenera (rĂłwna szerokoĹci)
         cursor: 'pointer',
         color: 'red',
-        fontSize: '40px', // Rozmiar fontu (zmniejszony dla lepszej czytelności)
+        fontSize: '40px', // Rozmiar fontu (zmniejszony dla lepszej czytelnoĹci)
         background: 'grey',
         border: '2px solid black',
-        textAlign: 'center', // Wyrównanie tekstu w poziomie
-        lineHeight: '30px', // Wyrównanie tekstu w pionie (równe wysokości kontenera)
+        textAlign: 'center', // WyrĂłwnanie tekstu w poziomie
+        lineHeight: '30px', // WyrĂłwnanie tekstu w pionie (rĂłwne wysokoĹci kontenera)
         zIndex: 1000000
     });
 
-    // Zdarzenie kliknięcia na krzyżyk
+    // Zdarzenie klikniÄcia na krzyĹźyk
     closeIcon.on('click', function () {
         setTimeout(function () {
         removeFiszka(fiszka.id, lessonId2);
-        }, 1000); // Opóźnienie w milisekundach (tu: 1 sekunda)
+        }, 1000); // OpĂłĹşnienie w milisekundach (tu: 1 sekunda)
     });
 
-    // Dodanie krzyżyka do fiszki
+    // Dodanie krzyĹźyka do fiszki
     fiszkaContainer.append(closeIcon);
 
         // DODANIE OBRAZKA
@@ -8140,7 +8245,7 @@ function generateFiszkaBlock2(fiszka, lessonId2) {
                 }
             });
         } else if (typeof fiszka.img === 'string') {
-            // Jeśli jest tylko jedno zdjęcie, dodajemy je do imgContainer dla każdej fiszki
+            // JeĹli jest tylko jedno zdjÄcie, dodajemy je do imgContainer dla kaĹźdej fiszki
             const imgElement = $('<img class="fiszka_img">').attr('src', fiszka.img);
             imgContainer.append(imgElement);
         }
@@ -8149,13 +8254,13 @@ function generateFiszkaBlock2(fiszka, lessonId2) {
         const selectedLikes = [];
         console.log('hej10', selectedLikes);
 
-// Funkcja do obsługi kliknięcia na przycisk "likeButton"
+// Funkcja do obsĹugi klikniÄcia na przycisk "likeButton"
         function handleLikeButtonClick(index) {
             const likeButton = $(this);
             const storyButton = fiszkaContainer.find('.story_button').eq(index);
             const selectedLike = likeButton.text();
             console.log('Zaktualizowano przycisk dla indeksu:', index);
-            console.log('Aktualne wartości selectedLikes:', selectedLikes);
+            console.log('Aktualne wartoĹci selectedLikes:', selectedLikes);
         }
         const likeButton = $('<a>').addClass('like').attr('href', '#');
         const likeText = $('<span>').text('Śmieszna historia');
@@ -8164,9 +8269,9 @@ function generateFiszkaBlock2(fiszka, lessonId2) {
 
         // Tworzymy kontener opcji "like" i dodajemy opcje do kontenera
         const likeOptionsContainer = $('<div>').attr('id', 'likeOptionsContainer');
-        const likeOption1 = createLikeOption('thumbsUp', '👍 Śmieszne');
-        const likeOption2 = createLikeOption('heart', '❤️ Miłe');
-        const likeOption3 = createLikeOption('star', '⭐ Pamiętliwe');
+        const likeOption1 = createLikeOption('thumbsUp', 'đ Ĺmieszne');
+        const likeOption2 = createLikeOption('heart', 'â¤ď¸ MiĹe');
+        const likeOption3 = createLikeOption('star', 'â­ PamiÄtliwe');
         likeOptionsContainer.append(likeOption1, likeOption2, likeOption3);
 
         // Dodajemy kontener opcji "like" do docelowego kontenera
@@ -8175,7 +8280,7 @@ function generateFiszkaBlock2(fiszka, lessonId2) {
         // Ukrywamy kontener opcji "like"
         likeOptionsContainer.hide();
 
-        // Obsługa zdarzenia hover na przycisku "like"
+        // ObsĹuga zdarzenia hover na przycisku "like"
         likeButton.hover(function () {
             const buttonPosition = likeButton.offset();
             const buttonWidth = likeButton.outerWidth();
@@ -8184,7 +8289,7 @@ function generateFiszkaBlock2(fiszka, lessonId2) {
             likeOptionsContainer.css({
                 top: buttonPosition.top - likeOptionsContainer.outerHeight() - 10,
                 left: buttonPosition.left + (buttonWidth / 2) - (likeOptionsContainer.outerWidth() / 2),
-                backgroundColor: '#f0f0f0', // Dodajemy szary kolor tła
+                backgroundColor: '#f0f0f0', // Dodajemy szary kolor tĹa
             }).fadeIn('fast');
         }, function () {
             // Ukrywamy kontener opcji "like" po zjechaniu z przycisku
@@ -8199,36 +8304,36 @@ function generateFiszkaBlock2(fiszka, lessonId2) {
                 return;
             }
 
-            // Tworzymy kontener dla ikony i dodajemy ikonę
+            // Tworzymy kontener dla ikony i dodajemy ikonÄ
             const iconContainer = $('<div>').addClass('likeIconContainer');
             const likeIcon = getLikeIcon(like);
             iconContainer.append(likeIcon);
 
-            // Usuwamy wcześniej dodaną ikonę, jeśli istnieje
+            // Usuwamy wczeĹniej dodanÄ ikonÄ, jeĹli istnieje
             storyButton.find('.likeIconContainer').remove();
 
-            // Dodajemy kontener z ikoną do przycisku "story_button"
+            // Dodajemy kontener z ikonÄ do przycisku "story_button"
             storyButton.append(iconContainer);
         }
 
         function createLikeOption(like, text) {
             const likeOption = $('<div>').addClass('likeOption').attr('data-like', like).text(text);
 
-            // Dodajemy efekt zmiany koloru na lekko ciemniejszy szary po najechaniu myszką na pojedynczą opcję "like"
+            // Dodajemy efekt zmiany koloru na lekko ciemniejszy szary po najechaniu myszkÄ na pojedynczÄ opcjÄ "like"
             likeOption.hover(
                     function () {
-                        likeOption.css('background-color', '#dcdcdc'); // Lekko ciemniejszy szary kolor tła dla opcji "like"
+                        likeOption.css('background-color', '#dcdcdc'); // Lekko ciemniejszy szary kolor tĹa dla opcji "like"
                     },
                     function () {
-                        likeOption.css('background-color', ''); // Usuwamy styl, aby wrócić do domyślnego tła opcji "like"
+                        likeOption.css('background-color', ''); // Usuwamy styl, aby wrĂłciÄ do domyĹlnego tĹa opcji "like"
                     }
             );
 
-            let likeCounter = 0; // Dodajemy licznik polubień dla każdej opcji "like"
+            let likeCounter = 0; // Dodajemy licznik polubieĹ dla kaĹźdej opcji "like"
 
             const counterDiv = $('<div>').addClass('likeCounterDiv'); // Nowy div na licznik
 
-            // Dodajemy ikonę do licznika
+            // Dodajemy ikonÄ do licznika
             const likeIcon = getLikeIcon(like);
             const iconContainer = $('<span>').addClass('likeIconContainer').append(likeIcon);
             counterDiv.append(iconContainer);
@@ -8236,12 +8341,12 @@ function generateFiszkaBlock2(fiszka, lessonId2) {
             const likeCounterSpan = $('<span>').addClass('likeCounter').text(` ${likeCounter} `);
             counterDiv.append(likeCounterSpan); // Licznik jest dodany po ikonie
 
-            imgContainer.append(counterDiv); // Dodajemy licznik na zewnątrz kontenera przycisków
+            imgContainer.append(counterDiv); // Dodajemy licznik na zewnÄtrz kontenera przyciskĂłw
 
             likeOption.click(function (event) {
-                event.preventDefault(); // Zapobiegamy domyślnej akcji przycisku
+                event.preventDefault(); // Zapobiegamy domyĹlnej akcji przycisku
 
-                // Inkrementujemy licznik polubień za każdym razem, gdy opcja "like" zostanie wybrana
+                // Inkrementujemy licznik polubieĹ za kaĹźdym razem, gdy opcja "like" zostanie wybrana
                 likeCounter++;
                 likeCounterSpan.text(` ${likeCounter} `);
 
@@ -8249,20 +8354,20 @@ function generateFiszkaBlock2(fiszka, lessonId2) {
                 const selectedIcon = getLikeIcon(selectedLike);
                 likeText.text(text);
                 likeButton.removeClass('liked');
-                addLikeIconToStoryButton(lastClickedIndex, selectedLike); // Dodaj ikonę do story_button na podstawie wybranej opcji "like"
+                addLikeIconToStoryButton(lastClickedIndex, selectedLike); // Dodaj ikonÄ do story_button na podstawie wybranej opcji "like"
 
-                // Sprawdź, czy index już istnieje w tablicy
+                // SprawdĹş, czy index juĹź istnieje w tablicy
                 const existingIndex = selectedLikes.findIndex(item => item.index === lastClickedIndex);
                 if (existingIndex !== -1) {
-                    // Jeśli index istnieje, zaktualizuj wartość
+                    // JeĹli index istnieje, zaktualizuj wartoĹÄ
                     selectedLikes[existingIndex].like = selectedLike;
                 } else {
-                    // Jeśli index nie istnieje, dodaj nowy wpis
-                    selectedLikes.push({index: lastClickedIndex, like: text}); // Dodaj tylko nazwę "like"
+                    // JeĹli index nie istnieje, dodaj nowy wpis
+                    selectedLikes.push({index: lastClickedIndex, like: text}); // Dodaj tylko nazwÄ "like"
                 }
 
                 likeOptionsContainer.fadeOut('fast');
-                saveSelectedLike(selectedLike, text); // Przekazujemy nazwę "like" i tekst do funkcji saveSelectedLike
+                saveSelectedLike(selectedLike, text); // Przekazujemy nazwÄ "like" i tekst do funkcji saveSelectedLike
             });
 
             return likeOption;
@@ -8270,10 +8375,10 @@ function generateFiszkaBlock2(fiszka, lessonId2) {
 
 // Funkcja do zapisywania wybranego "like"
         function saveSelectedLike(selectedLike, text) {
-            // Tutaj możesz zapisać wybrany "like" w odpowiednim kontekście, np. wysłać go na serwer, zapisać w lokalnym magazynie itp.
+            // Tutaj moĹźesz zapisaÄ wybrany "like" w odpowiednim kontekĹcie, np. wysĹaÄ go na serwer, zapisaÄ w lokalnym magazynie itp.
             console.log('Wybrany like:', text);
             console.log('Tekst:', text);
-            // Jeśli chcesz użyć go w innych miejscach, możesz przekazać go jako argument do innych funkcji lub zmiennych.
+            // JeĹli chcesz uĹźyÄ go w innych miejscach, moĹźesz przekazaÄ go jako argument do innych funkcji lub zmiennych.
         }
 
         // Funkcja do pobierania ikony dla wybranego "like"
@@ -8281,16 +8386,16 @@ function generateFiszkaBlock2(fiszka, lessonId2) {
             let icon;
             switch (like) {
                 case 'thumbsUp':
-                    icon = $('<span class="likeIcon">👍</span>');
+                    icon = $('<span class="likeIcon">đ</span>');
                     break;
                 case 'heart':
-                    icon = $('<span class="likeIcon">❤️</span>');
+                    icon = $('<span class="likeIcon">â¤ď¸</span>');
                     break;
                 case 'star':
-                    icon = $('<span class="likeIcon">⭐</span>');
+                    icon = $('<span class="likeIcon">â­</span>');
                     break;
                 default:
-                    icon = $('<span class="likeIcon">👍</span>');
+                    icon = $('<span class="likeIcon">đ</span>');
             }
             return icon;
         }
@@ -8304,7 +8409,7 @@ function generateFiszkaBlock2(fiszka, lessonId2) {
             // Ukrywamy wszystkie historie w tej konkretnej fiszce
             currentFiszka.find('.fiszka_story').hide();
 
-            // Obsługa mnemoniki
+            // ObsĹuga mnemoniki
             if (Array.isArray(fiszka.story)) {
                 if (index >= 0 && index < fiszka.story.length) {
                     currentFiszka.find('.story-' + index).show();
@@ -8316,7 +8421,7 @@ function generateFiszkaBlock2(fiszka, lessonId2) {
             // Ukrywamy wszystkie obrazy
             currentFiszka.find('.fiszka_img').hide();
 
-            // Obsługa obrazów
+            // ObsĹuga obrazĂłw
             let imgIndex; // Zmienna do przechowywania indeksu obrazka
 
             if (Array.isArray(fiszka.img)) {
@@ -8325,7 +8430,7 @@ function generateFiszkaBlock2(fiszka, lessonId2) {
                 specificLesson2Ref = fiszka.img[imgIndex];
                 console.log("Index obrazka:", imgIndex);
             } else {
-                imgIndex = 0; // Ustawienie imgIndex na 0, gdy fiszka.img nie jest tablicą
+                imgIndex = 0; // Ustawienie imgIndex na 0, gdy fiszka.img nie jest tablicÄ
                 currentFiszka.find('.fiszka_img').eq(imgIndex).show();
                 specificLesson2Ref = fiszka.img;
                 console.log("Index obrazka:", imgIndex);
@@ -8333,7 +8438,7 @@ function generateFiszkaBlock2(fiszka, lessonId2) {
 
             lastClickedIndex = index;
 
-            // Obsługa hashtagów
+            // ObsĹuga hashtagĂłw
             const selectedCategoryIndex = index * 2;
             const value = fiszka.category1[selectedCategoryIndex];
             const hashtag = fiszka.category1[selectedCategoryIndex + 1];
@@ -8347,7 +8452,7 @@ function generateFiszkaBlock2(fiszka, lessonId2) {
         }
 
         function selectLikeButton(index) {
-            console.log("Wybór likeButton dla indeksu:", index);
+            console.log("WybĂłr likeButton dla indeksu:", index);
             const storyButton = $('.story_button').eq(index);
             if (!storyButton.length) {
                 console.error('Nie znaleziono przycisku dla indeksu:', index);
@@ -8358,21 +8463,21 @@ function generateFiszkaBlock2(fiszka, lessonId2) {
             likeText.find('span').remove();
             likeText.text('Śmieszna historia');
 
-            // Sprawdź, czy index jest zawarty w tablicy selectedLikes
+            // SprawdĹş, czy index jest zawarty w tablicy selectedLikes
             const selectedLike = selectedLikes.find(item => item.index === index);
             if (selectedLike) {
-                // Jeśli index istnieje w tablicy, ustaw ikonę przycisku na wartość z tablicy
+                // JeĹli index istnieje w tablicy, ustaw ikonÄ przycisku na wartoĹÄ z tablicy
                 console.log("Wybrano like dla indeksu:", index, "- Like:", selectedLike.like);
-                const selectedIcon = getLikeIcon(selectedLike.like); // Przekazujemy tylko nazwę ikony
+                const selectedIcon = getLikeIcon(selectedLike.like); // Przekazujemy tylko nazwÄ ikony
                 console.log('hej5', selectedIcon);
-                likeText.html(selectedLike.like); // Ustawiamy ikonę
+                likeText.html(selectedLike.like); // Ustawiamy ikonÄ
             } else {
-                // Jeśli index nie istnieje, ustaw domyślny tekst
-                console.log("Brak wyboru like dla indeksu:", index, "- Ustawianie domyślnego tekstu");
+                // JeĹli index nie istnieje, ustaw domyĹlny tekst
+                console.log("Brak wyboru like dla indeksu:", index, "- Ustawianie domyĹlnego tekstu");
                 likeButton.text('Śmieszna historia');
             }
         }
-        // NIEZNACZĄCE WYJAŚNIENIE SŁOWA
+        // NIEZNACZÄCE WYJAĹNIENIE SĹOWA
         const sentenceDiv = $('<div>').attr('id', 'part');
         fiszka.sentence.forEach(word => {
             sentenceDiv.append($('<button>').text(word));
@@ -8389,7 +8494,7 @@ function generateFiszkaBlock2(fiszka, lessonId2) {
         });
         const source = $('<source>').attr('src', fiszka.word);
         audio.append(source);
-        const audioplayerDiv = $('<div>').attr('id', 'audioplayer' + fiszka.id).addClass('audioplayer'); // Dodano klasę 'audioplayer'
+        const audioplayerDiv = $('<div>').attr('id', 'audioplayer' + fiszka.id).addClass('audioplayer'); // Dodano klasÄ 'audioplayer'
         const pButton = $('<button>').attr('id', 'pButton' + fiszka.id).addClass('pButton play').click(function () {
             console.log('playb called for fiszka.id:', fiszka.id);
             window['playb' + fiszka.id]();
@@ -8418,21 +8523,21 @@ function generateFiszkaBlock2(fiszka, lessonId2) {
 
 // DODANIE MNEMOTECHNIKI
         if (Array.isArray(fiszka.story)) {
-            // Jeśli story jest tablicą, iterujemy przez wszystkie jej elementy
+            // JeĹli story jest tablicÄ, iterujemy przez wszystkie jej elementy
             fiszka.story.forEach((story, index) => {
                 const storyContainer = $('<div>').addClass('fiszka_story story-' + index).html(story);
                 fiszkaContainer.append(storyContainer);
                 console.log("Dodano story: ", story);  // Debugowanie
             });
         } else if (fiszka.story) {
-            // Jeśli story jest pojedynczym stringiem, dodajemy go bezpośrednio
+            // JeĹli story jest pojedynczym stringiem, dodajemy go bezpoĹrednio
             const storyContainer = $('<div>').addClass('fiszka_story story-0').html(fiszka.story);
             fiszkaContainer.append(storyContainer);
             console.log("Dodano story: ", fiszka.story);  // Debugowanie
         }
         console.log('Przed utworzeniem wordDiv');
 
-// Utworzenie reszty elementów zgodnie z istniejącym kodem
+// Utworzenie reszty elementĂłw zgodnie z istniejÄcym kodem
         const wordDiv2 = $('<div>').attr('id', 'word2');
         const audio2 = $('<audio>').attr({
             id: 'music2' + fiszka.id,
@@ -8440,20 +8545,20 @@ function generateFiszkaBlock2(fiszka, lessonId2) {
         });
         const source2 = $('<source>').attr('src', fiszka.word);
         audio2.append(source2);
-        const audioplayerDiv2 = $('<div>').attr('id', 'audioplayer2' + fiszka.id).addClass('audioplayer2'); // Dodano klasę 'audioplayer'
+        const audioplayerDiv2 = $('<div>').attr('id', 'audioplayer2' + fiszka.id).addClass('audioplayer2'); // Dodano klasÄ 'audioplayer'
         const pButton2 = $('<button>').attr('id', 'pButton2' + fiszka.id).addClass('pButton play').click(function () {
             console.log('playb called for fiszka.id:', fiszka.id);
             window['playb' + fiszka.id]();
         });
 
-// Utworzenie elementów za pomocą jQuery
+// Utworzenie elementĂłw za pomocÄ jQuery
         const timelineDiv = $('<div>').attr('id', 'timeline' + fiszka.id);
         const playheadDiv = $('<div>').attr('id', 'playhead' + fiszka.id);
 
 // Dodanie playhead do timeline
         timelineDiv.append(playheadDiv);
 
-// Dodanie elementów do odpowiednich kontenerów
+// Dodanie elementĂłw do odpowiednich kontenerĂłw
         audioplayerDiv.append(pButton2);
         wordDiv2.append(audio2);
         wordDiv2.append(audioplayerDiv2);
@@ -8461,22 +8566,22 @@ function generateFiszkaBlock2(fiszka, lessonId2) {
         fiszkaContainer.append(wordDiv2);
 
         console.log('Po utworzeniu wordDiv');
-        // Zdefiniuj zmienną początkową na poziomie wyższym
+        // Zdefiniuj zmiennÄ poczÄtkowÄ na poziomie wyĹźszym
         let initialSpecificLesson2Ref;
         let specificLesson2Ref;
         let lastClickedIndex = null;
         let lastApprovedIndex = null; // Zmienna do przechowywania ostatnio zatwierdzonego indeksu
-        let approvedIndexes = []; // Tablica przechowująca zatwierdzone indeksy
+        let approvedIndexes = []; // Tablica przechowujÄca zatwierdzone indeksy
         let approvedColors = [];
 
-// DODANIE PRZYCISKÓW
+// DODANIE PRZYCISKĂW
         if (Array.isArray(fiszka.category1)) {
             const storyButtonContainer = $('<div>'); // Kontener na przyciski
             const randomIndex = Math.floor(Math.random() * fiszka.category1.length / 2);
-            let lastClickedButton; // Zmienna do przechowywania ostatnio klikniętego przycisku w danej fiszce
+            let lastClickedButton; // Zmienna do przechowywania ostatnio klikniÄtego przycisku w danej fiszce
 
             fiszka.category1.slice(0, 5).forEach((category1, index) => {
-                const valueIndex = index * 2; // Indeks wartości w tablicy, zaczynając od 0
+                const valueIndex = index * 2; // Indeks wartoĹci w tablicy, zaczynajÄc od 0
                 const hashtagIndex = valueIndex + 1; // Indeks hashtagu w tablicy
 
                 const value = fiszka.category1[valueIndex];
@@ -8491,17 +8596,17 @@ function generateFiszkaBlock2(fiszka, lessonId2) {
                             showStory(index);
                             lastClickedIndex = index;
 
-                            // Usuwamy zieloną klasę tylko z poprzedniego przycisku w danej fiszce
+                            // Usuwamy zielonÄ klasÄ tylko z poprzedniego przycisku w danej fiszce
                             if (lastClickedButton) {
                                 lastClickedButton.removeClass('green-button');
                             }
 
-                            // Usuwamy klasę imgIndex z poprzedniego przycisku w danej fiszce
+                            // Usuwamy klasÄ imgIndex z poprzedniego przycisku w danej fiszce
                             $('.story_button').removeClass((index, className) => (className.match(/imgIndex-\d+/g) || []).join(' '));
-                            // Dodajemy klasę imgIndexNull do przycisków, które nie zostały jeszcze zatwierdzone
+                            // Dodajemy klasÄ imgIndexNull do przyciskĂłw, ktĂłre nie zostaĹy jeszcze zatwierdzone
                             $('.fiszka').addClass('imgIndexNull').removeClass('imgIndex-0 imgIndex-1 imgIndex-2 imgIndex-3 imgIndex-4 ');
 
-                            // Dodajemy zieloną klasę tylko dla aktualnie klikniętego przycisku w danej fiszce
+                            // Dodajemy zielonÄ klasÄ tylko dla aktualnie klikniÄtego przycisku w danej fiszce
                             $(this).addClass('green-button');
                             $('.story_button').removeClass('active-button');
                             $(this).addClass('active-button');
@@ -8512,25 +8617,25 @@ function generateFiszkaBlock2(fiszka, lessonId2) {
                                 }
                             });
 
-                            // Jeśli przycisk został wcześniej zatwierdzony, przywróć jego zatwierdzoną klasę
+                            // JeĹli przycisk zostaĹ wczeĹniej zatwierdzony, przywrĂłÄ jego zatwierdzonÄ klasÄ
                             if (approvedIndexes.includes(lastClickedIndex)) {
                                 fiszkaContainer.addClass('imgIndex-' + lastClickedIndex);
                             }
 
-                            // Zapisujemy ostatnio kliknięty przycisk w danej fiszce
+                            // Zapisujemy ostatnio klikniÄty przycisk w danej fiszce
                             lastClickedButton = $(this);
                             handleLikeButtonClick();
                         });
 
                 if (index === randomIndex) {
-                    // Sprawdzamy, czy fiszka.img jest tablicą czy pojedynczą wartością
+                    // Sprawdzamy, czy fiszka.img jest tablicÄ czy pojedynczÄ wartoĹciÄ
                     if (Array.isArray(fiszka.img)) {
                         newImgIndex = Math.min(index, fiszka.img.length - 1); // Aktualizacja zmiennej globalnej imgIndex
                         specificLesson2Ref = fiszka.img[newImgIndex];
                         console.log('hej432', specificLesson2Ref);
                     } else if (fiszka.img) {
-                        newImgIndex = 0; // Przypisanie domyślnego indeksu dla pojedynczego obrazka
-                        specificLesson2Ref = fiszka.img; // Przypisanie pojedynczej wartości do specificLesson2Ref
+                        newImgIndex = 0; // Przypisanie domyĹlnego indeksu dla pojedynczego obrazka
+                        specificLesson2Ref = fiszka.img; // Przypisanie pojedynczej wartoĹci do specificLesson2Ref
                         console.log('hej432', specificLesson2Ref);
                     }
                     initialSpecificLesson2Ref = specificLesson2Ref;
@@ -8546,30 +8651,30 @@ function generateFiszkaBlock2(fiszka, lessonId2) {
 
             fiszkaContainer.append(storyButtonContainer);
 
-            // WYWOŁANIE TABLICY
+            // WYWOĹANIE TABLICY
             showStory(randomIndex);
             console.log(randomIndex);
 
-            // Użycie specificLesson2Ref po załadowaniu strony
-            console.log("Początkowy specificLesson2Ref:", initialSpecificLesson2Ref);
+            // UĹźycie specificLesson2Ref po zaĹadowaniu strony
+            console.log("PoczÄtkowy specificLesson2Ref:", initialSpecificLesson2Ref);
 
         } else if (fiszka.category1) {
-            // Jeśli fiszka.category1 nie jest tablicą
-            newImgIndex = 0; // Przypisanie domyślnego indeksu dla pojedynczego obrazka
-            specificLesson2Ref = fiszka.img; // Przypisanie pojedynczej wartości do specificLesson2Ref
+            // JeĹli fiszka.category1 nie jest tablicÄ
+            newImgIndex = 0; // Przypisanie domyĹlnego indeksu dla pojedynczego obrazka
+            specificLesson2Ref = fiszka.img; // Przypisanie pojedynczej wartoĹci do specificLesson2Ref
             initialSpecificLesson2Ref = specificLesson2Ref;
             console.log('Hej7', specificLesson2Ref);
 
-            // Stwórz pojedynczy przycisk dla pojedynczej wartości category1
+            // StwĂłrz pojedynczy przycisk dla pojedynczej wartoĹci category1
             const displayText = `${fiszka.category1} #${fiszka.category1}`;
             const storyButton = $('<button>')
                     .text(displayText)
-                    .addClass('story_button2 green-button') // Od razu przypisz zieloną klasę
+                    .addClass('story_button2 green-button') // Od razu przypisz zielonÄ klasÄ
                     .click(function () {
-                        showStory(0); // Przekazujemy 0 jako indeks, ponieważ jest to pojedyncza wartość
+                        showStory(0); // Przekazujemy 0 jako indeks, poniewaĹź jest to pojedyncza wartoĹÄ
                         lastClickedIndex = 0;
 
-                        // Zapisujemy ostatnio kliknięty przycisk
+                        // Zapisujemy ostatnio klikniÄty przycisk
                         lastClickedButton = $(this);
                         handleLikeButtonClick();
                     });
@@ -8578,12 +8683,12 @@ function generateFiszkaBlock2(fiszka, lessonId2) {
             lastClickedButton = storyButton;
             lastApprovedIndex = 0; // Ustaw ostatnio zatwierdzony indeks na 0
 
-            // WYWOŁANIE POJEDYNCZEJ HISTORII
+            // WYWOĹANIE POJEDYNCZEJ HISTORII
             showStory(0);
-            console.log("Pojedyncza wartość dla category1, specificLesson2Ref:", specificLesson2Ref);
+            console.log("Pojedyncza wartoĹÄ dla category1, specificLesson2Ref:", specificLesson2Ref);
         }
         $('.fiszka_button_trening').click(function () {
-            // Dodaj klasę pomarańczową tylko dla przycisku zatwierdzonego
+            // Dodaj klasÄ pomaraĹczowÄ tylko dla przycisku zatwierdzonego
             $('.story_button').each(function (index) {
                 if ($(this).hasClass('green-button')) {
                     $(this).removeClass('green-button');
@@ -8600,10 +8705,10 @@ function generateFiszkaBlock2(fiszka, lessonId2) {
             let id = fiszka.id;
             let parametr = '';
 
-            // Sprawdzenie, czy idFiszki jest tablicą
+            // Sprawdzenie, czy idFiszki jest tablicÄ
             if (Array.isArray(fiszka.id)) {
                 id = fiszka.id[0];         // Pierwszy element tablicy jako id
-                parametr = fiszka.id[1] || ''; // Drugi element tablicy jako parametr, jeśli istnieje
+                parametr = fiszka.id[1] || ''; // Drugi element tablicy jako parametr, jeĹli istnieje
             }
 
             // Tworzenie selektora na podstawie id i parametru
@@ -8611,21 +8716,21 @@ function generateFiszkaBlock2(fiszka, lessonId2) {
             const selector = `.${className}`;
             console.log('hej201', parametr);
             let first = false;
-            // Jeśli parametr jest równy lessons2b[0], uruchom aktywujObrazek
+            // JeĹli parametr jest rĂłwny lessons2b[0], uruchom aktywujObrazek
             if (parametr === lessons2b[0]) {
                 first = true;
                 console.log('hej200', first);
 
             }
             let second = false;
-            // Jeśli parametr jest równy lessons2b[0], uruchom aktywujObrazek
+            // JeĹli parametr jest rĂłwny lessons2b[0], uruchom aktywujObrazek
             if (parametr === lessons2b[1]) {
                 second = true;
                 console.log('hej200', second);
 
             }
             let third = false;
-            // Jeśli parametr jest równy lessons2b[0], uruchom aktywujObrazek
+            // JeĹli parametr jest rĂłwny lessons2b[0], uruchom aktywujObrazek
             if (parametr === lessons2b[2]) {
                 third = true;
                 console.log('hej200', third);
@@ -8635,21 +8740,21 @@ function generateFiszkaBlock2(fiszka, lessonId2) {
             console.log("Trening clicked on fiszka nr " + fiszka.id);
             console.log("lessonId2:", lessonId2);
             console.log("nazwa", lessons2b[2]);
-            // Wyswietlenie danej wartości img dla danej fiszka.id
+            // Wyswietlenie danej wartoĹci img dla danej fiszka.id
             const specificLesson2 = specificLesson2Ref || initialSpecificLesson2Ref;
             console.log("img dla fiszki o id", fiszka.id, ":", specificLesson2);
             specificLesson2Ref = fiszka.img;
-            // Znajdź indeks dla danej fiszki w tablicy lessons2[lessonId2]
+            // ZnajdĹş indeks dla danej fiszki w tablicy lessons2[lessonId2]
             console.log('story55', specificLesson2Ref);
-            // Używamy lastClickedIndex zamiast index
-            imgIndex = showStory(lastClickedIndex); // Wywołanie funkcji showStory i zapisanie zwróconego indeksu obrazka
-            console.log('działa', specificLesson2Ref);
+            // UĹźywamy lastClickedIndex zamiast index
+            imgIndex = showStory(lastClickedIndex); // WywoĹanie funkcji showStory i zapisanie zwrĂłconego indeksu obrazka
+            console.log('dziaĹa', specificLesson2Ref);
             aktywujObrazek(first, second, third, specificLesson2, 'obrazek-container2b', true, fiszka, imgIndex); // Przekazanie imgIndex do funkcji aktywujObrazek
             // Dodajemy zatwierdzony indeks do tablicy
             approvedIndexes.push(lastClickedIndex);
             console.log(approvedIndexes);
 
-            // Dodanie zatwierdzonej klasy imgIndex do fiszkaContainer po kliknięciu przycisku "TRENING"
+            // Dodanie zatwierdzonej klasy imgIndex do fiszkaContainer po klikniÄciu przycisku "TRENING"
             fiszkaContainer.addClass('imgIndex-' + lastClickedIndex);
         }));
 
@@ -8658,18 +8763,623 @@ function generateFiszkaBlock2(fiszka, lessonId2) {
             activateFiszka(fiszka.id, true);
         }));
 
-        // WYWOŁANIE HASHTAGU
+        // WYWOĹANIE HASHTAGU
         function updateButtonName(buttonName, fiszkaContainer) {
-            // Usuń poprzednią nazwę, jeśli istnieje
+            // UsuĹ poprzedniÄ nazwÄ, jeĹli istnieje
             fiszkaContainer.find('.fiszka_button_name').remove();
 
-            // Ustaw nazwę w prawym dolnym rogu fiszki
+            // Ustaw nazwÄ w prawym dolnym rogu fiszki
             const fiszkaButtonNameContainer = $('<div>').addClass('fiszka_button_name').text(buttonName);
             fiszkaContainer.append(fiszkaButtonNameContainer);
         }
         // Dodanie kontenera fiszki do body
-        $(`.image-container4[data-lesson="${lessonId2}"]`).append(fiszkaContainer);
+        $(`.image-container3b[data-lesson="${lessonId2}"]`).append(fiszkaContainer);
         console.log(`Generated fiszka block for ID: [${fiszka.id.join(', ')}]`);
+        initAudio(fiszka.id);
+    });
+}
+function generateFiszkaBlock3(fiszka, lessonId2) {
+    console.log('hej555x', fiszka.id);
+$('.grid-container .image-container3').remove();
+$('.grid-container .image-container4').remove();
+    console.log(`Generating: [${fiszka}]`);
+
+    // Tworzenie kontenera fiszki
+
+    $(document).ready(function () {
+
+        function initAudio(fiszkaId) {
+            var audioId = 'music' + fiszkaId;
+            var pButtonId = 'pButton' + fiszkaId;
+
+            var music = document.getElementById(audioId);
+            var pButton = document.getElementById(pButtonId);
+            // Dodajemy style bezpoĹrednio w kodzie JavaScript
+            if (window.matchMedia("(max-width: 999px)").matches) {
+                pButton.style.height = '100px';  // ZwiÄkszenie wysokoĹci
+                pButton.style.width = '100px';   // ZwiÄkszenie szerokoĹci
+            } else {
+                pButton.style.height = '60px';  // ZwiÄkszenie wysokoĹci
+                pButton.style.width = '60px';   // ZwiÄkszenie szerokoĹci
+            }
+            pButton.style.border = 'none';   // UsuniÄcie ramki
+            pButton.style.backgroundSize = '80%';  // Rozmiar obrazka tĹa
+            pButton.style.backgroundRepeat = 'no-repeat';
+            pButton.style.backgroundPosition = 'center';
+            pButton.style.borderRadius = '8px';   // ZaokrÄglenie rogĂłw
+            pButton.style.outline = 'none';       // UsuniÄcie obramowania
+            pButton.style.display = 'flex';       // WyĹrodkowanie zawartoĹci
+            pButton.style.alignItems = 'center';
+            pButton.style.justifyContent = 'center';
+            pButton.style.overflow = 'hidden';    // Ukrycie nadmiarowego kontentu
+            console.log('Initialized audio element with ID:', audioId);
+            console.log('Initialized play/pause button with ID:', pButtonId);
+
+            // Play and Pause
+            function playb() {
+                // start music
+                if (music.paused) {
+                    music.play();
+                    // remove play, add pause
+                    pButton.classList.remove("play");
+                    pButton.classList.add("pause");
+                } else { // pause music
+                    music.pause();
+                    // remove pause, add play
+                    pButton.classList.remove("pause");
+                    pButton.classList.add("play");
+                }
+                console.log('Audio playback status:', music.paused ? 'Paused' : 'Playing');
+            }
+
+            // Gets audio file duration
+            music.addEventListener("canplaythrough", function () {
+                var duration = music.duration;
+                console.log('Audio duration:', duration);
+            }, false);
+
+            // Dodajemy event listener do przycisku play/pause
+            pButton.addEventListener('click', playb);
+
+            console.log('Audio initialization completed.');
+        }
+// TWORZENIE KONTENERA FISZKI
+        let fiszkaContainer = $('<div>').addClass('fiszka5 fiszka-' + fiszka.id);
+
+
+console.log('Hej4442', fiszkaContainer);
+        // DODANIE OBRAZKA
+        const imgContainer = $('<div>').addClass('fiszka_img_container');
+        if (Array.isArray(fiszka.img) && fiszka.img.length > 0) {
+            fiszka.img.forEach((imgSrc, index) => {
+                const imgElement = $('<img class="fiszka_img">').attr('src', imgSrc);
+                imgContainer.append(imgElement);
+                if (index > 0) {
+                    imgElement.hide();
+                }
+            });
+        } else if (typeof fiszka.img === 'string') {
+            // JeĹli jest tylko jedno zdjÄcie, dodajemy je do imgContainer dla kaĹźdej fiszki
+            const imgElement = $('<img class="fiszka_img">').attr('src', fiszka.img);
+            imgContainer.append(imgElement);
+        }
+        fiszkaContainer.append(imgContainer); //DODANIE OBRAZKA
+
+        const selectedLikes = [];
+        console.log('hej10', selectedLikes);
+
+// Funkcja do obsĹugi klikniÄcia na przycisk "likeButton"
+        function handleLikeButtonClick(index) {
+            const likeButton = $(this);
+            const storyButton = fiszkaContainer.find('.story_button').eq(index);
+            const selectedLike = likeButton.text();
+            console.log('Zaktualizowano przycisk dla indeksu:', index);
+            console.log('Aktualne wartoĹci selectedLikes:', selectedLikes);
+        }
+        const likeButton = $('<a>').addClass('like').attr('href', '#');
+        const likeText = $('<span>').text('Śmieszna historia');
+        likeButton.append(likeText);
+        fiszkaContainer.append(likeButton);
+
+        // Tworzymy kontener opcji "like" i dodajemy opcje do kontenera
+        const likeOptionsContainer = $('<div>').attr('id', 'likeOptionsContainer');
+        const likeOption1 = createLikeOption('thumbsUp', 'đ Ĺmieszne');
+        const likeOption2 = createLikeOption('heart', 'â¤ď¸ MiĹe');
+        const likeOption3 = createLikeOption('star', 'â­ PamiÄtliwe');
+        likeOptionsContainer.append(likeOption1, likeOption2, likeOption3);
+
+        // Dodajemy kontener opcji "like" do docelowego kontenera
+        likeButton.append(likeOptionsContainer);
+
+        // Ukrywamy kontener opcji "like"
+        likeOptionsContainer.hide();
+
+        // ObsĹuga zdarzenia hover na przycisku "like"
+        likeButton.hover(function () {
+            const buttonPosition = likeButton.offset();
+            const buttonWidth = likeButton.outerWidth();
+
+            // Pozycjonujemy kontener opcji "like" nad przyciskiem
+            likeOptionsContainer.css({
+                top: buttonPosition.top - likeOptionsContainer.outerHeight() - 10,
+                left: buttonPosition.left + (buttonWidth / 2) - (likeOptionsContainer.outerWidth() / 2),
+                backgroundColor: '#f0f0f0', // Dodajemy szary kolor tĹa
+            }).fadeIn('fast');
+        }, function () {
+            // Ukrywamy kontener opcji "like" po zjechaniu z przycisku
+            likeOptionsContainer.fadeOut('fast');
+        });
+
+// Funkcja do umieszczania ikony obok przycisku "story_button" w odpowiedniej fiszce
+        function addLikeIconToStoryButton(index, like) {
+            const storyButton = fiszkaContainer.find('.story_button').eq(index);
+            if (storyButton.length === 0) {
+                console.error('Nie znaleziono przycisku dla indeksu:', index);
+                return;
+            }
+
+            // Tworzymy kontener dla ikony i dodajemy ikonÄ
+            const iconContainer = $('<div>').addClass('likeIconContainer');
+            const likeIcon = getLikeIcon(like);
+            iconContainer.append(likeIcon);
+
+            // Usuwamy wczeĹniej dodanÄ ikonÄ, jeĹli istnieje
+            storyButton.find('.likeIconContainer').remove();
+
+            // Dodajemy kontener z ikonÄ do przycisku "story_button"
+            storyButton.append(iconContainer);
+        }
+
+        function createLikeOption(like, text) {
+            const likeOption = $('<div>').addClass('likeOption').attr('data-like', like).text(text);
+
+            // Dodajemy efekt zmiany koloru na lekko ciemniejszy szary po najechaniu myszkÄ na pojedynczÄ opcjÄ "like"
+            likeOption.hover(
+                    function () {
+                        likeOption.css('background-color', '#dcdcdc'); // Lekko ciemniejszy szary kolor tĹa dla opcji "like"
+                    },
+                    function () {
+                        likeOption.css('background-color', ''); // Usuwamy styl, aby wrĂłciÄ do domyĹlnego tĹa opcji "like"
+                    }
+            );
+
+            let likeCounter = 0; // Dodajemy licznik polubieĹ dla kaĹźdej opcji "like"
+
+            const counterDiv = $('<div>').addClass('likeCounterDiv'); // Nowy div na licznik
+
+            // Dodajemy ikonÄ do licznika
+            const likeIcon = getLikeIcon(like);
+            const iconContainer = $('<span>').addClass('likeIconContainer').append(likeIcon);
+            counterDiv.append(iconContainer);
+
+            const likeCounterSpan = $('<span>').addClass('likeCounter').text(` ${likeCounter} `);
+            counterDiv.append(likeCounterSpan); // Licznik jest dodany po ikonie
+
+            imgContainer.append(counterDiv); // Dodajemy licznik na zewnÄtrz kontenera przyciskĂłw
+
+            likeOption.click(function (event) {
+                event.preventDefault(); // Zapobiegamy domyĹlnej akcji przycisku
+
+                // Inkrementujemy licznik polubieĹ za kaĹźdym razem, gdy opcja "like" zostanie wybrana
+                likeCounter++;
+                likeCounterSpan.text(` ${likeCounter} `);
+
+                const selectedLike = $(this).data('like');
+                const selectedIcon = getLikeIcon(selectedLike);
+                likeText.text(text);
+                likeButton.removeClass('liked');
+                addLikeIconToStoryButton(lastClickedIndex, selectedLike); // Dodaj ikonÄ do story_button na podstawie wybranej opcji "like"
+
+                // SprawdĹş, czy index juĹź istnieje w tablicy
+                const existingIndex = selectedLikes.findIndex(item => item.index === lastClickedIndex);
+                if (existingIndex !== -1) {
+                    // JeĹli index istnieje, zaktualizuj wartoĹÄ
+                    selectedLikes[existingIndex].like = selectedLike;
+                } else {
+                    // JeĹli index nie istnieje, dodaj nowy wpis
+                    selectedLikes.push({index: lastClickedIndex, like: text}); // Dodaj tylko nazwÄ "like"
+                }
+
+                likeOptionsContainer.fadeOut('fast');
+                saveSelectedLike(selectedLike, text); // Przekazujemy nazwÄ "like" i tekst do funkcji saveSelectedLike
+            });
+
+            return likeOption;
+        }
+
+// Funkcja do zapisywania wybranego "like"
+        function saveSelectedLike(selectedLike, text) {
+            // Tutaj moĹźesz zapisaÄ wybrany "like" w odpowiednim kontekĹcie, np. wysĹaÄ go na serwer, zapisaÄ w lokalnym magazynie itp.
+            console.log('Wybrany like:', text);
+            console.log('Tekst:', text);
+            // JeĹli chcesz uĹźyÄ go w innych miejscach, moĹźesz przekazaÄ go jako argument do innych funkcji lub zmiennych.
+        }
+
+        // Funkcja do pobierania ikony dla wybranego "like"
+        function getLikeIcon(like) {
+            let icon;
+            switch (like) {
+                case 'thumbsUp':
+                    icon = $('<span class="likeIcon">đ</span>');
+                    break;
+                case 'heart':
+                    icon = $('<span class="likeIcon">â¤ď¸</span>');
+                    break;
+                case 'star':
+                    icon = $('<span class="likeIcon">â­</span>');
+                    break;
+                default:
+                    icon = $('<span class="likeIcon">đ</span>');
+            }
+            return icon;
+        }
+
+        const hashtagContainer = $('<a>').addClass('hashtag-container').attr('href', '#');
+        fiszkaContainer.append(hashtagContainer);
+
+        function showStory(index) {
+            const currentFiszka = fiszkaContainer;
+
+            // Ukrywamy wszystkie historie w tej konkretnej fiszce
+            currentFiszka.find('.fiszka_story').hide();
+
+            // ObsĹuga mnemoniki
+            if (Array.isArray(fiszka.story)) {
+                if (index >= 0 && index < fiszka.story.length) {
+                    currentFiszka.find('.story-' + index).show();
+                }
+            } else if (fiszka.story) {
+                currentFiszka.find('.story-0').show();
+            }
+
+            // Ukrywamy wszystkie obrazy
+            currentFiszka.find('.fiszka_img').hide();
+
+            // ObsĹuga obrazĂłw
+            let imgIndex; // Zmienna do przechowywania indeksu obrazka
+
+            if (Array.isArray(fiszka.img)) {
+                imgIndex = Math.min(index, fiszka.img.length - 1);
+                currentFiszka.find('.fiszka_img').eq(imgIndex).show();
+                specificLesson2Ref = fiszka.img[imgIndex];
+                console.log("Index obrazka:", imgIndex);
+            } else {
+                imgIndex = 0; // Ustawienie imgIndex na 0, gdy fiszka.img nie jest tablicÄ
+                currentFiszka.find('.fiszka_img').eq(imgIndex).show();
+                specificLesson2Ref = fiszka.img;
+                console.log("Index obrazka:", imgIndex);
+            }
+
+            lastClickedIndex = index;
+
+            // ObsĹuga hashtagĂłw
+            const selectedCategoryIndex = index * 2;
+            const value = fiszka.category1[selectedCategoryIndex];
+            const hashtag = fiszka.category1[selectedCategoryIndex + 1];
+
+            hashtagContainer.empty();
+            hashtagContainer.text(`${value} #${hashtag}`);
+
+            console.log('Calculated imgIndex:', imgIndex);
+
+            return imgIndex;
+        }
+
+        function selectLikeButton(index) {
+            console.log("WybĂłr likeButton dla indeksu:", index);
+            const storyButton = $('.story_button').eq(index);
+            if (!storyButton.length) {
+                console.error('Nie znaleziono przycisku dla indeksu:', index);
+                return;
+            }
+
+            const likeButton = storyButton.find('.like');
+            likeText.find('span').remove();
+            likeText.text('Śmieszna historia');
+
+            // SprawdĹş, czy index jest zawarty w tablicy selectedLikes
+            const selectedLike = selectedLikes.find(item => item.index === index);
+            if (selectedLike) {
+                // JeĹli index istnieje w tablicy, ustaw ikonÄ przycisku na wartoĹÄ z tablicy
+                console.log("Wybrano like dla indeksu:", index, "- Like:", selectedLike.like);
+                const selectedIcon = getLikeIcon(selectedLike.like); // Przekazujemy tylko nazwÄ ikony
+                console.log('hej5', selectedIcon);
+                likeText.html(selectedLike.like); // Ustawiamy ikonÄ
+            } else {
+                // JeĹli index nie istnieje, ustaw domyĹlny tekst
+                console.log("Brak wyboru like dla indeksu:", index, "- Ustawianie domyĹlnego tekstu");
+                likeButton.text('Śmieszna historia');
+            }
+        }
+        // NIEZNACZÄCE WYJAĹNIENIE SĹOWA
+        const sentenceDiv = $('<div>').attr('id', 'part');
+        fiszka.sentence.forEach(word => {
+            sentenceDiv.append($('<button>').text(word));
+        });
+        // Dodanie diva z przyciskami do kontenera fiszki
+        fiszkaContainer.append(sentenceDiv);
+
+        console.log('Przed utworzeniem wordDiv');
+        const wordDiv = $('<div>').attr('id', 'word');
+        const button = $('<button>').attr('id', 'storyone').html('<b>' + fiszka.desc + '</b>');
+        const audio = $('<audio>').attr({
+            id: 'music' + fiszka.id,
+            preload: 'true'
+        });
+        const source = $('<source>').attr('src', fiszka.word);
+        audio.append(source);
+        const audioplayerDiv = $('<div>').attr('id', 'audioplayer' + fiszka.id).addClass('audioplayer'); // Dodano klasÄ 'audioplayer'
+        const pButton = $('<button>').attr('id', 'pButton' + fiszka.id).addClass('pButton play').click(function () {
+            console.log('playb called for fiszka.id:', fiszka.id);
+            window['playb' + fiszka.id]();
+        });
+
+        pButton.css({
+            height: '60px',
+            width: '60px',
+            backgroundSize: 'cover',
+            backgroundRepeat: 'no-repeat',
+            backgroundPosition: 'center',
+            float: 'left',
+            outline: 'none',
+            display: 'flex',
+            alignItems: 'center',
+            justifyContent: 'center',
+            overflow: 'hidden'
+        });
+
+        audioplayerDiv.append(pButton);
+        wordDiv.append(button);
+        wordDiv.append(audio);
+        wordDiv.append(audioplayerDiv);
+        fiszkaContainer.append(wordDiv);
+        console.log('Po utworzeniu wordDiv');
+
+// DODANIE MNEMOTECHNIKI
+        if (Array.isArray(fiszka.story)) {
+            // JeĹli story jest tablicÄ, iterujemy przez wszystkie jej elementy
+            fiszka.story.forEach((story, index) => {
+                const storyContainer = $('<div>').addClass('fiszka_story story-' + index).html(story);
+                fiszkaContainer.append(storyContainer);
+                console.log("Dodano story: ", story);  // Debugowanie
+            });
+        } else if (fiszka.story) {
+            // JeĹli story jest pojedynczym stringiem, dodajemy go bezpoĹrednio
+            const storyContainer = $('<div>').addClass('fiszka_story story-0').html(fiszka.story);
+            fiszkaContainer.append(storyContainer);
+            console.log("Dodano story: ", fiszka.story);  // Debugowanie
+        }
+        console.log('Przed utworzeniem wordDiv');
+
+// Utworzenie reszty elementĂłw zgodnie z istniejÄcym kodem
+        const wordDiv2 = $('<div>').attr('id', 'word2');
+        const audio2 = $('<audio>').attr({
+            id: 'music2' + fiszka.id,
+            preload: 'true'
+        });
+        const source2 = $('<source>').attr('src', fiszka.word);
+        audio2.append(source2);
+        const audioplayerDiv2 = $('<div>').attr('id', 'audioplayer2' + fiszka.id).addClass('audioplayer2'); // Dodano klasÄ 'audioplayer'
+        const pButton2 = $('<button>').attr('id', 'pButton2' + fiszka.id).addClass('pButton play').click(function () {
+            console.log('playb called for fiszka.id:', fiszka.id);
+            window['playb' + fiszka.id]();
+        });
+
+// Utworzenie elementĂłw za pomocÄ jQuery
+        const timelineDiv = $('<div>').attr('id', 'timeline' + fiszka.id);
+        const playheadDiv = $('<div>').attr('id', 'playhead' + fiszka.id);
+
+// Dodanie playhead do timeline
+        timelineDiv.append(playheadDiv);
+
+// Dodanie elementĂłw do odpowiednich kontenerĂłw
+        audioplayerDiv.append(pButton2);
+        wordDiv2.append(audio2);
+        wordDiv2.append(audioplayerDiv2);
+        wordDiv2.append(timelineDiv); // Dodano timeline do wordDiv
+        fiszkaContainer.append(wordDiv2);
+
+        console.log('Po utworzeniu wordDiv');
+        // Zdefiniuj zmiennÄ poczÄtkowÄ na poziomie wyĹźszym
+        let initialSpecificLesson2Ref;
+        let specificLesson2Ref;
+        let lastClickedIndex = null;
+        let lastApprovedIndex = null; // Zmienna do przechowywania ostatnio zatwierdzonego indeksu
+        let approvedIndexes = []; // Tablica przechowujÄca zatwierdzone indeksy
+        let approvedColors = [];
+
+// DODANIE PRZYCISKĂW
+        if (Array.isArray(fiszka.category1)) {
+            const storyButtonContainer = $('<div>'); // Kontener na przyciski
+            const randomIndex = Math.floor(Math.random() * fiszka.category1.length / 2);
+            let lastClickedButton; // Zmienna do przechowywania ostatnio klikniÄtego przycisku w danej fiszce
+
+            fiszka.category1.slice(0, 5).forEach((category1, index) => {
+                const valueIndex = index * 2; // Indeks wartoĹci w tablicy, zaczynajÄc od 0
+                const hashtagIndex = valueIndex + 1; // Indeks hashtagu w tablicy
+
+                const value = fiszka.category1[valueIndex];
+                const hashtag = fiszka.category1[hashtagIndex];
+
+                const displayText = `${value} #${hashtag}`;
+
+                const storyButton = $('<button>')
+                        .text(displayText)
+                        .addClass('story_button')
+                        .click(function () {
+                            showStory(index);
+                            lastClickedIndex = index;
+
+                            // Usuwamy zielonÄ klasÄ tylko z poprzedniego przycisku w danej fiszce
+                            if (lastClickedButton) {
+                                lastClickedButton.removeClass('green-button');
+                            }
+
+                            // Usuwamy klasÄ imgIndex z poprzedniego przycisku w danej fiszce
+                            $('.story_button').removeClass((index, className) => (className.match(/imgIndex-\d+/g) || []).join(' '));
+                            // Dodajemy klasÄ imgIndexNull do przyciskĂłw, ktĂłre nie zostaĹy jeszcze zatwierdzone
+                            $('.fiszka').addClass('imgIndexNull').removeClass('imgIndex-0 imgIndex-1 imgIndex-2 imgIndex-3 imgIndex-4 ');
+
+                            // Dodajemy zielonÄ klasÄ tylko dla aktualnie klikniÄtego przycisku w danej fiszce
+                            $(this).addClass('green-button');
+                            $('.story_button').removeClass('active-button');
+                            $(this).addClass('active-button');
+                            $('.story_button').each(function (index) {
+                                if ($(this).hasClass('orange-button')) {
+                                    $(this).removeClass('green-button');
+                                    $(this).addClass('orange-button');
+                                }
+                            });
+
+                            // JeĹli przycisk zostaĹ wczeĹniej zatwierdzony, przywrĂłÄ jego zatwierdzonÄ klasÄ
+                            if (approvedIndexes.includes(lastClickedIndex)) {
+                                fiszkaContainer.addClass('imgIndex-' + lastClickedIndex);
+                            }
+
+                            // Zapisujemy ostatnio klikniÄty przycisk w danej fiszce
+                            lastClickedButton = $(this);
+                            handleLikeButtonClick();
+                        });
+
+                if (index === randomIndex) {
+                    // Sprawdzamy, czy fiszka.img jest tablicÄ czy pojedynczÄ wartoĹciÄ
+                    if (Array.isArray(fiszka.img)) {
+                        newImgIndex = Math.min(index, fiszka.img.length - 1); // Aktualizacja zmiennej globalnej imgIndex
+                        specificLesson2Ref = fiszka.img[newImgIndex];
+                        console.log('hej432', specificLesson2Ref);
+                    } else if (fiszka.img) {
+                        newImgIndex = 0; // Przypisanie domyĹlnego indeksu dla pojedynczego obrazka
+                        specificLesson2Ref = fiszka.img; // Przypisanie pojedynczej wartoĹci do specificLesson2Ref
+                        console.log('hej432', specificLesson2Ref);
+                    }
+                    initialSpecificLesson2Ref = specificLesson2Ref;
+                    console.log('Hej7', specificLesson2Ref);
+                    storyButton.addClass('green-button');
+                    lastClickedButton = storyButton;
+                    lastApprovedIndex = index; // Ustaw ostatnio zatwierdzony indeks na indeks losowego przycisku
+                }
+
+                // Dodaj typ "like" dla tej fiszki do tablicy
+                storyButtonContainer.append(storyButton);
+            });
+
+            fiszkaContainer.append(storyButtonContainer);
+
+            // WYWOĹANIE TABLICY
+            showStory(randomIndex);
+            console.log(randomIndex);
+
+            // UĹźycie specificLesson2Ref po zaĹadowaniu strony
+            console.log("PoczÄtkowy specificLesson2Ref:", initialSpecificLesson2Ref);
+
+        } else if (fiszka.category1) {
+            // JeĹli fiszka.category1 nie jest tablicÄ
+            newImgIndex = 0; // Przypisanie domyĹlnego indeksu dla pojedynczego obrazka
+            specificLesson2Ref = fiszka.img; // Przypisanie pojedynczej wartoĹci do specificLesson2Ref
+            initialSpecificLesson2Ref = specificLesson2Ref;
+            console.log('Hej7', specificLesson2Ref);
+
+            // StwĂłrz pojedynczy przycisk dla pojedynczej wartoĹci category1
+            const displayText = `${fiszka.category1} #${fiszka.category1}`;
+            const storyButton = $('<button>')
+                    .text(displayText)
+                    .addClass('story_button2 green-button') // Od razu przypisz zielonÄ klasÄ
+                    .click(function () {
+                        showStory(0); // Przekazujemy 0 jako indeks, poniewaĹź jest to pojedyncza wartoĹÄ
+                        lastClickedIndex = 0;
+
+                        // Zapisujemy ostatnio klikniÄty przycisk
+                        lastClickedButton = $(this);
+                        handleLikeButtonClick();
+                    });
+
+            fiszkaContainer.append(storyButton);
+            lastClickedButton = storyButton;
+            lastApprovedIndex = 0; // Ustaw ostatnio zatwierdzony indeks na 0
+
+            // WYWOĹANIE POJEDYNCZEJ HISTORII
+            showStory(0);
+            console.log("Pojedyncza wartoĹÄ dla category1, specificLesson2Ref:", specificLesson2Ref);
+        }
+        $('.fiszka_button_trening').click(function () {
+            // Dodaj klasÄ pomaraĹczowÄ tylko dla przycisku zatwierdzonego
+            $('.story_button').each(function (index) {
+                if ($(this).hasClass('green-button')) {
+                    $(this).removeClass('green-button');
+                    $(this).addClass('orange-button');
+                }
+            });
+        });
+        console.log('hej555ax', lessons2b[2]);
+// DODANIE PRZYCISKU TRENING
+        fiszkaContainer.append($('<button>').text('TRENING').addClass('fiszka_button fiszka_button_trening').click(function () {
+
+            activateFiszka(fiszka.id, false);
+
+            let id = fiszka.id;
+            let parametr = '';
+
+            // Sprawdzenie, czy idFiszki jest tablicÄ
+            if (Array.isArray(fiszka.id)) {
+                id = fiszka.id[0];         // Pierwszy element tablicy jako id
+                parametr = fiszka.id[1] || ''; // Drugi element tablicy jako parametr, jeĹli istnieje
+            }
+
+            // Tworzenie selektora na podstawie id i parametru
+            const className = `fiszka-${id}\\,${parametr}`;
+            const selector = `.${className}`;
+            console.log('hej201', parametr);
+            let first = false;
+            // JeĹli parametr jest rĂłwny lessons2b[0], uruchom aktywujObrazek
+            if (parametr === lessons2b[0]) {
+                first = true;
+                console.log('hej200', first);
+
+            }
+            let second = false;
+            // JeĹli parametr jest rĂłwny lessons2b[0], uruchom aktywujObrazek
+            if (parametr === lessons2b[1]) {
+                second = true;
+                console.log('hej200', second);
+
+            }
+            let third = false;
+            // JeĹli parametr jest rĂłwny lessons2b[0], uruchom aktywujObrazek
+            if (parametr === lessons2b[2]) {
+                third = true;
+                console.log('hej200', third);
+
+            }
+
+            console.log("Trening clicked on fiszka nr " + fiszka.id);
+            console.log("lessonId2:", lessonId2);
+            console.log("nazwa", lessons2b[2]);
+            // Wyswietlenie danej wartoĹci img dla danej fiszka.id
+            const specificLesson2 = specificLesson2Ref || initialSpecificLesson2Ref;
+            console.log("img dla fiszki o id", fiszka.id, ":", specificLesson2);
+            specificLesson2Ref = fiszka.img;
+            // ZnajdĹş indeks dla danej fiszki w tablicy lessons2[lessonId2]
+            console.log('story55', specificLesson2Ref);
+            // UĹźywamy lastClickedIndex zamiast index
+            imgIndex = showStory(lastClickedIndex); // WywoĹanie funkcji showStory i zapisanie zwrĂłconego indeksu obrazka
+            console.log('dziaĹa', specificLesson2Ref);
+            aktywujObrazek(first, second, third, specificLesson2, 'obrazek-container2b', true, fiszka, imgIndex); // Przekazanie imgIndex do funkcji aktywujObrazek
+            // Dodajemy zatwierdzony indeks do tablicy
+            approvedIndexes.push(lastClickedIndex);
+            console.log(approvedIndexes);
+
+            // Dodanie zatwierdzonej klasy imgIndex do fiszkaContainer po klikniÄciu przycisku "TRENING"
+            fiszkaContainer.addClass('imgIndex-' + lastClickedIndex);
+        }));
+
+        fiszkaContainer.append($('<button>').text('ZNAM').addClass('fiszka_button fiszka_button_znam').click(function () {
+            console.log("Znam clicked on fiszka nr " + fiszka.id);
+            activateFiszka(fiszka.id, true);
+        }));
+
+        // Dodanie kontenera fiszki do body
+        $('.grid-container').append(fiszkaContainer);
+        console.log(`Generated2: [${fiszka}]`);
         initAudio(fiszka.id);
     });
 }
@@ -8695,19 +9405,19 @@ function removeFiszka(idFiszki, lessonId2) {
     let parametr = '';
 
     if (Array.isArray(idFiszki)) {
-        // Połącz wartości z tablicy id w jeden ciąg znaków oddzielony przecinkami
+        // PoĹÄcz wartoĹci z tablicy id w jeden ciÄg znakĂłw oddzielony przecinkami
         id = idFiszki.slice(0, 3).join(',');
-        // Obsługa ewentualnego dodatkowego parametru (np. czwartego elementu w tablicy)
+        // ObsĹuga ewentualnego dodatkowego parametru (np. czwartego elementu w tablicy)
         parametr = idFiszki.length > 3 ? idFiszki[3] : '';
     }
 
-    // Tworzenie klasy CSS z odpowiednim formatowaniem (poprawione usunięcie przecinków w CSS)
+    // Tworzenie klasy CSS z odpowiednim formatowaniem (poprawione usuniÄcie przecinkĂłw w CSS)
     const className = `fiszka-${id}${parametr ? '\\,' + parametr : ''}`;
     const selector = `.${className.replace(/,/g, '\\,')}`;
     console.log(selector);
     const $fiszkaToRemove = $(selector);
     if ($fiszkaToRemove.length) {
-        console.log('Element znaleziony po opóźnieniu, usuwam...');
+        console.log('Element znaleziony po opĂłĹşnieniu, usuwam...');
         $fiszkaToRemove.remove();
     } else {
         console.log('Element nadal nie znaleziony.');
@@ -8718,4 +9428,4 @@ $('<style>.green-button { background-color: green; color: white; }</style>').app
 // Dodajemy styl dla aktywnego przycisku
 $('<style>.active-button { border: 2px solid red; }</style>').appendTo('head');
 
-window.fiszki = fiszki;
+window.fiszki = fiszki10;

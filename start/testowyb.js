@@ -38647,9 +38647,9 @@ function generateFiszkaBlock(fiszka, lessonId2, category) {
             var pButton = document.getElementById(pButtonId);
             // Dodajemy style bezpośrednio w kodzie JavaScript
             if (window.matchMedia("(max-width: 999px)").matches) {
-                pButton.style.height = '100px';  // Zwiększenie wysokości
-                pButton.style.width = '100px';   // Zwiększenie szerokości
-            } else {
+                pButton.style.height = '150px';  // Zwiększenie wysokości
+                pButton.style.width = '150px';   // Zwiększenie szerokości
+            } else if (window.matchMedia("(min-width: 999px)").matches) {
                 pButton.style.height = '60px';  // Zwiększenie wysokości
                 pButton.style.width = '60px';   // Zwiększenie szerokości
             }

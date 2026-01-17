@@ -568,5 +568,60 @@ window.fiszki10_part1 = [
                 comment1: [
             `Tego obrazu z Matrixa nie da się wymazać. On jest i jest widoczny, dostępny.`
         ]
+    },
+                                                                                            {
+        id: [
+            25
+        ],
+        data: [
+            "28 kwiecień"
+        ],
+        textPL: [
+            `Człowiek, który nie toleruje bałaganu nie może spać. To właśnie mamy globalnie - nie możemy spać gdy wszystko jest ułożone. Lepiej tolerować minimalny 
+            bałagan - wtedy ten w naszej głowie pozwoli nam spać. A gdy wszystko posprzątamy - wtedy chcemy sprzątać ludzi, ustawiać - wtedy moglibyśmy spać. Sęk w tym, 
+            że nigdy nie będziemy kontrolowali wszystkiego (i piszę to jako kosmita) a iluzja spowodowana kontrolą nad drugim człowiekiem da nam kłamstwo w postaci 
+            lepszego wtedy snu. Z czasem im bardziej po naszemu - tym bardziej śpimy - dosłownie i w przenośni i uważamy, że 'odpuszczenie', pogodzenie się z tym 
+            lub tamtym będzie bolesne i nie warte zapłacenia. Stąd zmysłowość władzy - ta pokusa - nie jest spowodowana władzą stricte a to jakie nadajemy jej 
+            korelacyjne znaczenie.`
+        ],
+                comment1: [
+            `A na naszej planecie jest większy syf nawet gdy była II wojna światowa. Dlatego żyjemy w naszych mieszkaniach obok gówienek równo ułożonych...`
+        ]
+    },
+                                                                                                {
+        id: [
+            26
+        ],
+        data: [
+            "29 kwiecień"
+        ],
+        textPL: [
+            `Jak bezpański pies - wchodzę do sklepu jakbym nie miał pieniędzy i tak się właśnie czuję bogaty po jakimś czasie - jakby nie miał pieniędzy - wchodzi 
+            do sklepu i tak go traktują. Biją go - tak jak bije gospodarka, kiedyś ojciec, kolega, szkoła, czy Kościół. Robią to i negocjują na ile mogą sobie 
+            pozwolić - zarówno prawnie jak i w sumieniu. Ponoć sąsiad nie bije, ale dziecko płacze. Tak - jesteśmy takimi płaczącymi dziećmi. Negocjujemy na ile 
+            sobie możemy pozwolić - im, ktoś inteligentniejszy tym bardziej chcemy go nagiąć: batem, kijem, Sądem, spojrzeniem, honorem czy areną wojenną jaka 
+            staje się jego klatką. Tak jak w Gladiatorze (2000) - walka nie jest równa, ale on zawsze wygrywa. Tak nie może być (a jest) i chcielibyśmy choć trochę 
+            tak inteligentnie cierpieć (choć sami to cierpienie wywołujemy).`
+        ],
+                comment1: [
+            `Byłem wolny - daliście mi niewolę. Byłem bez zmartwień - daliście mi udrękę. Byłem nieustraszony - daliście mi ból.`
+        ]
+    },
+                                                                                                    {
+        id: [
+            27
+        ],
+        data: [
+            "29 kwiecień"
+        ],
+        textPL: [
+            `Zazdroszczą mi tej pogody - nie słońca - tej wewnętrznej. Zanim ono - słońce minie - muszą mieć igrzyska - 'Igrzyska Śmierci (2012)' bo inaczej by się 
+            okazało, że tego słońca nie mają. Te słońce potrzebują odwiedzać w Szpitalu - karmić się nim - jeść moje ciało - mojego ducha.`
+        ],
+                comment1: [
+            `To tylko "boty" którym ktoś wgrał "system" - jaka powinna być kobietą, jaki mężczyzna. Tego boją się przez moją aplikację - że są tylko maszynami, którym 
+            ktoś wgrał nowy język komunikacji. Że jak nie muszą się denerwować - to woleli by musieć - bo się zmienili a myśleli, że to oni - wolą wojnę - przynajmniej 
+            są sobą.`
+        ]
     }
 ];

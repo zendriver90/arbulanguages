@@ -110,7 +110,7 @@ fiszki10.push(
         ],
         key: "I",
         category2: ["osoby"],
-        category3: ["PresenttSimple", "PresentSimplePodmiot"]
+        category3: ["PastSimple", "PresentSimplePodmiot"]
     },
                                                 {
         id: [
@@ -262,7 +262,7 @@ fiszki10.push(
         ],
         key: "she",
         category2: ["osoby"],
-        category3: ["PresenttSimple", "PresentSimplePodmiot"]
+        category3: ["PresentSimple", "PresentSimplePodmiot"]
     },
                                                             {
         id: [
@@ -392,7 +392,7 @@ fiszki10.push(
         ],
         key: "river",
         category2: ["osoby"],
-        category3: ["PresenttSimple", "PresentSimplePodmiot"]
+        category3: ["PresentSimple", "PresentSimplePodmiot"]
     },
                                                                     {
         id: [
@@ -520,7 +520,7 @@ fiszki10.push(
         ],
         key: "we",
         category2: ["osoby"],
-        category3: ["PresenttSimple", "PresentSimplePodmiot"]
+        category3: ["PresentSimple", "PresentSimplePodmiot"]
     },
     {
         id: [
@@ -659,7 +659,7 @@ fiszki10.push(
         ],
         key: "he",
         category2: ["osoby"],
-        category3: ["PresenttSimple", "PresentSimplePodmiot"]
+        category3: ["PresentSimple", "PresentSimplePodmiot"]
     },
                     {
         id: [
@@ -829,7 +829,7 @@ fiszki10.push(
         ],
         key: "my",
         category2: ["osoby"],
-        category3: ["PresenttSimple", "PresentSimplePodmiot"]
+        category3: ["PresentSimple", "PresentSimplePodmiot"]
     },
                             {
         id: [
@@ -990,7 +990,7 @@ fiszki10.push(
         ],
         key: "cat",
         category2: ["osoby"],
-        category3: ["PresenttSimple", "PresentSimplePodmiot"]
+        category3: ["PresentSimple", "PresentSimplePodmiot"]
     },
     {
         id: [
@@ -1105,7 +1105,7 @@ fiszki10.push(
         ],
         key: "cat",
         category2: ["osoby"],
-        category3: ["PresenttSimple", "PresentSimplePodmiot"]
+        category3: ["PresentSimple", "PresentSimplePodmiot"]
     },
     {
         id: [
@@ -1149,8 +1149,9 @@ fiszki10.push(
             "the door"
         ],
         sentence: [
-            "under",
-            "the table"
+            "I",
+            "close",
+            "the door"
         ],
         key: "door",
         category1: "nauka",
@@ -1232,7 +1233,7 @@ fiszki10.push(
                 'Ma<span class="adannotation" data-annotation="1"><u><b>chi</u></b></span>nę do tortur wymyślił <u><b>on</u></b> - jest <span class="adannotation" data-annotation="1"><u><b>Hi</u></b></span>ndusem',
                 '<u><b>On</u></b> je ciastka <span class="adannotation" data-annotation="1"><u><b>hi</u></b></span>ty'
         ],
-        desc: "I[aj] - ja",
+        desc: "they[dej] - oni",
         sentence1: [
             "They"
         ],
@@ -1243,7 +1244,7 @@ fiszki10.push(
         ],
         key: "they",
         category2: ["osoby"],
-        category3: ["PresenttSimple", "PresentSimplePodmiot"]
+        category3: ["PresentSimple", "PresentSimplePodmiot"]
     },
             {
         id: [
@@ -1257,7 +1258,7 @@ fiszki10.push(
         story: [
             "KOGNATY PARK (PL) - PARK (ENG)"
         ],
-        desc: "sleeping[] - ",
+        desc: "plant[] - ",
         sentence2: [
             "plant"
         ],
@@ -1282,7 +1283,7 @@ fiszki10.push(
         story: [
             "KOGNATY PARK (PL) - PARK (ENG)"
         ],
-        desc: "sleeping[] - ",
+        desc: "flowers[] - ",
         sentence2: [
             "flowers"
         ],
@@ -1307,7 +1308,7 @@ fiszki10.push(
         story: [
             "KOGNATY PARK (PL) - PARK (ENG)"
         ],
-        desc: "sleeping[] - ",
+        desc: "in[] - ",
         sentence2: [
             "in"
         ],
@@ -1331,7 +1332,7 @@ fiszki10.push(
         story: [
             "KOGNATY PARK (PL) - PARK (ENG)"
         ],
-        desc: "sleeping[] - ",
+        desc: "the garden[] - ",
         sentence2: [
             "the garden"
         ],
@@ -1363,7 +1364,7 @@ fiszki10.push(
         story: [
                 'To właśnie <u><b>on</u></b> jest <span class="adannotation" data-annotation="1"><b><u>hi</b></u></span>tem tego sezonu piłkarskiego'
         ],
-        desc: "I[aj] - ja",
+        desc: "clock[] - ",
         sentence1: [
             "The clock"
         ],
@@ -1376,7 +1377,7 @@ fiszki10.push(
         ],
         key: "clock",
         category2: ["osoby"],
-        category3: ["PresenttSimple", "PresentSimplePodmiot"]
+        category3: ["PresentSimple", "PresentSimplePodmiot"]
     },
                         {
         id: [
@@ -1390,7 +1391,7 @@ fiszki10.push(
         story: [
             "KOGNATY PARK (PL) - PARK (ENG)"
         ],
-        desc: "sleeping[] - ",
+        desc: "shows[] - ",
         sentence2: [
             "shows"
         ],
@@ -1417,7 +1418,7 @@ fiszki10.push(
         story: [
             "KOGNATY PARK (PL) - PARK (ENG)"
         ],
-        desc: "sleeping[] - ",
+        desc: "ten[] - ",
         sentence2: [
             "ten"
         ],
@@ -1444,7 +1445,7 @@ fiszki10.push(
         story: [
             "KOGNATY PARK (PL) - PARK (ENG)"
         ],
-        desc: "sleeping[] - ",
+        desc: "o'clock[] - ",
         sentence2: [
             "o'clock"
         ],
@@ -1471,7 +1472,7 @@ fiszki10.push(
         story: [
             "KOGNATY PARK (PL) - PARK (ENG)"
         ],
-        desc: "sleeping[] - ",
+        desc: "now[] - ",
         sentence2: [
             "now"
         ],
@@ -1525,7 +1526,7 @@ fiszki10.push(
         ],
         key: "i",
         category2: ["osoby"],
-        category3: ["PresenttSimple", "PresentSimplePodmiot"]
+        category3: ["PresentSimple", "PresentSimplePodmiot"]
     },
                                     {
         id: [
@@ -1539,7 +1540,7 @@ fiszki10.push(
         story: [
             "KOGNATY PARK (PL) - PARK (ENG)"
         ],
-        desc: "sleeping[] - ",
+        desc: "draw[] - ",
         sentence2: [
             "draw"
         ],
@@ -1564,7 +1565,7 @@ fiszki10.push(
         story: [
             "KOGNATY PARK (PL) - PARK (ENG)"
         ],
-        desc: "sleeping[] - ",
+        desc: "animals[] - ",
         sentence2: [
             "animals"
         ],
@@ -1589,7 +1590,7 @@ fiszki10.push(
         story: [
             "KOGNATY PARK (PL) - PARK (ENG)"
         ],
-        desc: "sleeping[] - ",
+        desc: "on[] - ",
         sentence2: [
             "on"
         ],
@@ -1613,7 +1614,7 @@ fiszki10.push(
         story: [
             "KOGNATY PARK (PL) - PARK (ENG)"
         ],
-        desc: "sleeping[] - ",
+        desc: "the paper[] - ",
         sentence2: [
             "the paper"
         ],
@@ -1656,7 +1657,7 @@ fiszki10.push(
         ],
         key: "he",
         category2: ["osoby"],
-        category3: ["PresenttSimple", "PresentSimplePodmiot"]
+        category3: ["PresentSimple", "PresentSimplePodmiot"]
     },
                                             {
         id: [
@@ -1795,7 +1796,7 @@ fiszki10.push(
         ],
         key: "we",
         category2: ["osoby"],
-        category3: ["PresenttSimple", "PresentSimplePodmiot"]
+        category3: ["PresentSimple", "PresentSimplePodmiot"]
     },
                                                             {
         id: [
@@ -1956,7 +1957,7 @@ fiszki10.push(
         ],
         key: "phone",
         category2: ["osoby"],
-        category3: ["PresenttSimple", "PresentSimplePodmiot"]
+        category3: ["PresentSimple", "PresentSimplePodmiot"]
     },
                                                                             {
         id: [
@@ -2069,7 +2070,7 @@ fiszki10.push(
         ],
         key: "she",
         category2: ["osoby"],
-        category3: ["PresenttSimple", "PresentSimplePodmiot"]
+        category3: ["PresentSimple", "PresentSimplePodmiot"]
     },
                                                                                     {
         id: [

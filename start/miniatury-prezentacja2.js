@@ -716,7 +716,7 @@ function showCombinedSentenceForLesson22b(
                                         cursor: 'pointer'
                                     })
                                     .addClass('run-button3')
-                                    .text('➡ Otwórz pojedynczą lekcję');
+                                    .text('➡ Open a single lesson');
 
                             $containerBlock.append($buttonSingle);
                         }
@@ -746,7 +746,7 @@ function showCombinedSentenceForLesson22b(
                                     cursor: 'pointer'
                                 })
                                 .addClass('run-button3')
-                                .text('📘 Otwórz całą lekcję');
+                                .text('📘 Open a single lesson');
 
                         $containerFirst.append($buttonTriplet);
                     }
@@ -3820,7 +3820,7 @@ currentVideos.forEach(src => {
                 const $desc = $('<div>').addClass('thumb-desc').text(thumbDescriptions[pos] || '');
 
                 const linkForThumb = linkMap[dataName] || `demo1espanol.html?category=${selectedCategory}&data=${dataName}`;
-                const $link = $('<a>').attr({href: linkForThumb, target: '_blank'}).addClass('thumb-link').text('Otwórz pojedyńczą lekcję');
+                const $link = $('<a>').attr({href: linkForThumb, target: '_blank'}).addClass('thumb-link').text('Open a single lesson');
 
                 $item.append($img, $desc, $link);
                 $thumbContainer.append($item);
@@ -4111,81 +4111,103 @@ currentVideos.forEach(src => {
                     $inner.html(rebuilt);
                 });
             }
-            function attachArrowNavigation($sentenceBlock, indexDiv) {
-                console.log('attachArrowNavigation start', {indexDiv, hasBlock: !!$sentenceBlock.length});
+function attachArrowNavigation($sentenceBlock, indexDiv) {
 
-                if (!$sentenceBlock || $sentenceBlock.length === 0) {
-                    console.warn('Brak $sentenceBlock dla indexDiv:', indexDiv);
-                    return;
+    console.log('attachArrowNavigation start', { indexDiv, hasBlock: !!$sentenceBlock.length });
+
+    if (!$sentenceBlock || $sentenceBlock.length === 0) {
+        console.warn('Brak $sentenceBlock dla indexDiv:', indexDiv);
+        return;
+    }
+
+    // ✅ JEDEN WSPÓLNY INDEKS DLA 3 ZDAŃ
+    let currentWordIndex = 0;
+
+    // 🔄 Aktualizacja zaznaczenia we WSZYSTKICH liniach
+    const updateHighlightAll = () => {
+
+        $sentenceBlock.find('.sentence-line').each(function (lineIndex) {
+
+            const $inner = $(this).find('.sentence-inner');
+            const raw = $inner.text().trim();
+            const words = raw ? raw.split(/\s+/) : [];
+            if (!words.length) return;
+
+            const id = indexDiv + "-" + lineIndex + "-" + currentWordIndex;
+
+            const html = words.map((word, wi) => {
+                if (wi === currentWordIndex) {
+                    return `<span class="highlighted" data-word-index="${wi}" data-mojeid="${id}">${word}</span>`;
                 }
+                return `<span data-word-index="${wi}" data-mojeid="${id}">${word}</span>`;
+            }).join(" ");
 
+            $inner.html(html);
+        });
 
-                $sentenceBlock.find('.sentence-line').each(function (lineIndex) {
-                    const $line = $(this);
-                    const $inner = $line.find('.sentence-inner');
-                    let currentWordIndex = 0;
+        // 🌍 global (jak miałeś)
+        window.mojeidGlobal = currentWordIndex;
+        window.mojeidGlobalb = currentWordIndex;
+        window.mojeidGlobalc = currentWordIndex;
 
-                    const updateHighlight = () => {
-                        let raw = $inner.text().trim();
-                        let words = raw ? raw.split(/\s+/) : [];
-                        if (words.length === 0)
-                            return;
+        window.mojeidGlobal2 = indexDiv;
+        window.mojeidGlobal3 = currentPos;
 
-                        const id = indexDiv + "-" + lineIndex + "-" + currentWordIndex;
-                        console.log('hej130', id);
-                        let html = words.map((word, wi) => {
-                            if (wi === currentWordIndex) {
-                                return `<span class="highlighted" data-word-index="${wi}" data-mojeid="${id}">${word}</span>`;
-                            }
-                            return `<span data-word-index="${wi}" data-mojeid="${id}">${word}</span>`;
-                        }).join(" ");
+        if (window.systemStarted) {
+            sendHighlightToFiszki(indexDiv, currentWordIndex);
+        }
+    };
 
-                        $inner.html(html);
-                const firstSentenceId = (indexDiv - 1) * 3 + 1;
-                const secondSentenceId = (indexDiv - 1) * 3 + 2;
-                const thirdSentenceId = (indexDiv - 1) * 3 + 3;
-                        // zapis do globalnych zmiennych słów
-window.mojeidGlobal = currentWordIndex;
-window.mojeidGlobalb = currentWordIndex;
-window.mojeidGlobalc = currentWordIndex;
+    // ▶ NEXT — WSZYSTKIE 3 LINIE
+    $sentenceBlock.find('.next-buttonvv')
+        .off('click.attachNav')
+        .on('click.attachNav', function (e) {
 
-                        window.mojeidGlobal2 = indexDiv;
-                        window.mojeidGlobal3 = currentPos;
-                        console.log('hej100', currentPos);
-                        if (window.systemStarted) {
-                            sendHighlightToFiszki(window.mojeidGlobal2, window.mojeidGlobal);
-                        }
-                    };
+            e.stopImmediatePropagation();
 
-                    // NEXT → słowo
-                    $line.find('.next-buttonvv').off('click.attachNav').on('click.attachNav', function () {
-                        const wordsCount = $inner.text().trim().split(/\s+/).length;
-                        if (currentWordIndex < wordsCount - 1) {
-                            currentWordIndex++;
-                            updateHighlight();
-                        }
-                    });
+            const wordsCount = $sentenceBlock
+                .find('.sentence-inner')
+                .first()
+                .text()
+                .trim()
+                .split(/\s+/).length;
 
-                    // PREV ← słowo
-                    $line.find('.prev-button').off('click.attachNav').on('click.attachNav', function () {
-                        if (currentWordIndex > 0) {
-                            currentWordIndex--;
-                            updateHighlight();
-                        }
-                    });
-
-                    // CLICK NA SŁOWO
-                    $inner.off('click.attachNav', 'span').on('click.attachNav', 'span', function () {
-                        const wi = Number($(this).data('word-index'));
-                        if (!isNaN(wi)) {
-                            currentWordIndex = wi;
-                            updateHighlight();
-                        }
-                    });
-
-                    updateHighlight();
-                });
+            if (currentWordIndex < wordsCount - 1) {
+                currentWordIndex++;
+                updateHighlightAll();
             }
+        });
+
+    // ◀ PREV — WSZYSTKIE 3 LINIE
+    $sentenceBlock.find('.prev-button')
+        .off('click.attachNav')
+        .on('click.attachNav', function (e) {
+
+            e.stopImmediatePropagation();
+
+            if (currentWordIndex > 0) {
+                currentWordIndex--;
+                updateHighlightAll();
+            }
+        });
+
+    // 🖱️ KLIK W SŁOWO — synchronizacja
+    $sentenceBlock
+        .off('click.attachNav', '.sentence-inner span')
+        .on('click.attachNav', '.sentence-inner span', function (e) {
+
+            e.stopImmediatePropagation();
+
+            const wi = Number($(this).data('word-index'));
+            if (!isNaN(wi)) {
+                currentWordIndex = wi;
+                updateHighlightAll();
+            }
+        });
+
+    // 🚀 START
+    updateHighlightAll();
+}
             function sendHighlightToFiszki(indexDiv, mojeidGlobal) {
                 highlightFirstWord(indexDiv, currentPosCache[indexDiv], mojeidGlobal);
             }
@@ -4197,12 +4219,12 @@ window.mojeidGlobalc = currentWordIndex;
             const tripletLink = `demo1espanol.html?category=${selectedCategory}&data=${currentTriplet.join(',')}`;
 
             const $singleLinkA = $('<a>')
-                    .attr({href: singleLink, target: '_blank', rel: 'noopener noreferrer'})
+                    .attr({href: singleLink})
                     .addClass('text-link')
                     .text('➡ Open the lesson with the selected sentence');
 
             const $tripletLinkA = $('<a>')
-                    .attr({href: tripletLink, target: '_blank', rel: 'noopener noreferrer'})
+                    .attr({href: tripletLink})
                     .addClass('text-link')
                     .text('➡ Open the full lesson (3 sentences)');
 

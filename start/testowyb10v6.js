@@ -46,7 +46,7 @@ fiszki10.push(
         ],
         key: "the",
         category2: ["osoby"],
-        category3: ["PresenttSimple", "PresentSimplePodmiot"]
+        category3: ["PresentSimple", "PresentSimplePodmiot"]
     },
 {
         id: [
@@ -280,7 +280,7 @@ fiszki10.push(
         ],
         key: "they",
         category2: ["osoby"],
-        category3: ["PresenttSimple", "PresentSimplePodmiot"]
+        category3: ["PresentSimple", "PresentSimplePodmiot"]
     },
 {
         id: [
@@ -400,7 +400,7 @@ fiszki10.push(
         ],
         key: "he",
         category2: ["osoby"],
-        category3: ["PresenttSimple", "PresentSimplePodmiot"]
+        category3: ["PresentSimple", "PresentSimplePodmiot"]
     },
 {
         id: [
@@ -551,7 +551,7 @@ fiszki10.push(
         ],
         key: "he",
         category2: ["osoby"],
-        category3: ["PresenttSimple", "PresentSimplePodmiot"]
+        category3: ["PresentSimple", "PresentSimplePodmiot"]
     },
                                                              {
         id: [
@@ -734,7 +734,7 @@ fiszki10.push(
         ],
         key: "we",
         category2: ["osoby"],
-        category3: ["PresenttSimple", "PresentSimplePodmiot"]
+        category3: ["PresentSimple", "PresentSimplePodmiot"]
     },
 {
         id: [
@@ -913,7 +913,7 @@ fiszki10.push(
         ],
         key: "do",
         category2: ["osoby"],
-        category3: ["PresenttSimple", "PresentSimplePodmiot"]
+        category3: ["Present Simple (pytanie)", "PresentSimplePodmiot"]
     },
      {
         id: [
@@ -1114,7 +1114,7 @@ fiszki10.push(
         ],
         key: "does",
         category2: ["osoby"],
-        category3: ["PresenttSimple", "PresentSimplePodmiot"]
+        category3: ["PresentSimple", "PresentSimplePodmiot"]
     },
          {
         id: [
@@ -1153,7 +1153,8 @@ fiszki10.push(
         ],
         key: "your",
         category1: "nauka",
-        category2: ["okresleniaMiejsca"]
+        category2: ["okresleniaMiejsca"],
+                category3: ["Present Simple (pytanie)", "PresentSimplePodmiot"]
     },     
     {
         id: [
@@ -1294,7 +1295,7 @@ fiszki10.push(
         ],
         key: "can",
         category2: ["osoby"],
-        category3: ["PresenttSimple", "PresentSimplePodmiot"]
+        category3: ["Czasownik modalny „can” (czas teraźniejszy)", "PresentSimplePodmiot"]
     },
             {
         id: [
@@ -1471,7 +1472,7 @@ fiszki10.push(
         ],
         key: "are",
         category2: ["osoby"],
-        category3: ["PresenttSimple", "PresentSimplePodmiot"]
+        category3: ["Present Simple (czasownik „to be”, pytanie)", "PresentSimplePodmiot"]
     },
                     {
         id: [
@@ -1661,7 +1662,7 @@ fiszki10.push(
         ],
         key: "our",
         category2: ["osoby"],
-        category3: ["PresenttSimple", "PresentSimplePodmiot"]
+        category3: ["PresentSimple", "PresentSimplePodmiot"]
     },
                             {
         id: [
@@ -1894,7 +1895,7 @@ fiszki10.push(
         ],
         key: "they",
         category2: ["osoby"],
-        category3: ["PresenttSimple", "PresentSimplePodmiot"]
+        category3: ["PresentSimple", "PresentSimplePodmiot"]
     },
             {
         id: [
@@ -2081,7 +2082,7 @@ fiszki10.push(
         ],
         key: "my",
         category2: ["osoby"],
-        category3: ["PresenttSimple", "PresentSimplePodmiot"]
+        category3: ["Present Simple – „to be”", "PresentSimplePodmiot"]
     },
             {
         id: [
@@ -2284,7 +2285,7 @@ fiszki10.push(
         ],
         key: "we",
         category2: ["osoby"],
-        category3: ["PresenttSimple", "PresentSimplePodmiot"]
+        category3: ["PresentSimple", "PresentSimplePodmiot"]
     },
                         {
         id: [
@@ -2467,7 +2468,7 @@ fiszki10.push(
         ],
         key: "the",
         category2: ["osoby"],
-        category3: ["PresenttSimple", "PresentSimplePodmiot"]
+        category3: ["PresentSimple", "PresentSimplePodmiot"]
     },
     {
         id: [
@@ -2649,7 +2650,7 @@ fiszki10.push(
         ],
         key: "can",
         category2: ["osoby"],
-        category3: ["PresenttSimple", "PresentSimplePodmiot"]
+        category3: ["PresentSimple", "PresentSimplePodmiot"]
     },
             {
         id: [
@@ -2685,7 +2686,8 @@ fiszki10.push(
         ],
         key: "she",
         category1: "nauka",
-        category2: ["okresleniaMiejsca"]
+        category2: ["okresleniaMiejsca"],
+                category3: ["Czasownik modalny „can” (teraźniejszy)", "PresentSimplePodmiot"]
     },
                 {
         id: [
@@ -2855,7 +2857,7 @@ fiszki10.push(
         ],
         key: "the cat",
         category2: ["osoby"],
-        category3: ["PresenttSimple", "PresentSimplePodmiot"]
+        category3: ["Czasownik modalny „can” (teraźniejszy)", "PresentSimplePodmiot"]
     },
                         {
         id: [
@@ -2970,7 +2972,7 @@ fiszki10.push(
         ],
         key: "they",
         category2: ["osoby"],
-        category3: ["PresenttSimple", "PresentSimplePodmiot"]
+        category3: ["PresentSimple", "PresentSimplePodmiot"]
     },
                             {
         id: [
@@ -3136,7 +3138,7 @@ fiszki10.push(
         ],
         key: "this",
         category2: ["osoby"],
-        category3: ["PresenttSimple", "PresentSimplePodmiot"]
+        category3: ["PresentSimple", "PresentSimplePodmiot"]
     },
                                         {
         id: [

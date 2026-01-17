@@ -77,7 +77,7 @@ fiszki10.push(
             "związki", "kulinaria"
         ],
         category2: ["osoby"],
-        category3: ["PresentSimple", "PresentSimplePodmiot"]
+        category3: ["Present Simple (negative)", "PresentSimplePodmiot"]
     },
     {
         id: [
@@ -323,7 +323,7 @@ fiszki10.push(
             "pasje", "muzyka klasyczna"
         ],
         category2: [""],
-        category3: ["PresentSimple", "PresentSimplePodmiot"]
+        category3: ["Present Simple (to be)", "PresentSimplePodmiot"]
     },
     {
         id: [
@@ -545,7 +545,7 @@ fiszki10.push(
             "związki", "okazje"
         ],
         category2: ["zaimkiosobowe"],
-        category3: ["PresentSimple", "PresentSimplePodmiot"]
+        category3: ["Present Simple (have to)", "PresentSimplePodmiot"]
     },
     {
         id: [
@@ -596,7 +596,7 @@ fiszki10.push(
             "muszą"
         ],
                         sentence1c: [
-            "hew tu"
+            "hew_tu"
         ],
         key: "have to",
         category1: "nauka",
@@ -734,7 +734,7 @@ fiszki10.push(
             "związki", "rodzina"
         ],
         category2: ["osoby"],
-        category3: ["PresentSimple", "PresentSimplePodmiot"]
+        category3: ["Present Simple (negative)", "PresentSimplePodmiot"]
     },
     {
         id: [
@@ -1070,7 +1070,7 @@ fiszki10.push(
         key: "we",
         category1: "nauka",
         category2: ["osoby"],
-        category3: ["Modal + Base Verb (Present Simple)"]
+        category3: ["Modal verb: should"]
     },
     {
         id: [
@@ -1139,7 +1139,7 @@ fiszki10.push(
             "about"
         ],
                                 sentence2b: [
-            "o (na temat)"
+            "o_(na_temat)"
         ],
                                             sentence2c: [
             "ebałt"
@@ -1281,7 +1281,7 @@ fiszki10.push(
             "związki", "rodzina"
         ],
         category2: ["podmiot+czas"],
-        category3: ["PresentSimple", "PresentSimplePodmiot"]
+        category3: ["Present Simple (to be)", "PresentSimplePodmiot"]
     },
     {
         id: [
@@ -1327,7 +1327,7 @@ fiszki10.push(
             "for"
         ],
                 sentence1b: [
-            "za (dla)"
+            "za_(dla)"
         ],
                                                                                     sentence1c: [
             "for"
@@ -1887,7 +1887,7 @@ fiszki10.push(
             "związki", "rodzina"
         ],
         category2: [""],
-        category3: ["PastSimple"]
+        category3: ["Past Simple (to be)"]
     },
     {
         id: [
@@ -2239,7 +2239,7 @@ fiszki10.push(
             "związki", "rodzina"
         ],
         category2: "transport",
-        category3: ["PastSimple"]
+        category3: ["Past Simple (to be)"]
     },
     {
         id: [
@@ -2539,7 +2539,7 @@ fiszki10.push(
         key: "tell",
         category1: "nauka",
         category2: ["czasownik"],
-        category3: ["Imperative (Main clause), Present Simple (Subordinate clause)"]
+        category3: ["Imperative + Present Simple"]
     },
     {
         id: [
@@ -2900,7 +2900,7 @@ fiszki10.push(
         key: "user",
         category1: "nauka",
         category2: ["osoby"],
-        category3: ["Modal + Base Verb (Present Simple)"]
+        category3: ["Modal verb: may"]
     },
     {
         id: [
@@ -3188,7 +3188,7 @@ fiszki10.push(
         key: "she",
         category1: "nauka",
         category2: ["osoby"],
-        category3: ["PresentSimple", "PresentSimplePodmiot"]
+        category3: ["Present Simple", "PresentSimplePodmiot"]
     },
     {
         id: [
@@ -3297,7 +3297,7 @@ fiszki10.push(
             "about"
         ],
                                          sentence1b: [
-            "wobec (na temat)"
+            "wobec_(na_temat)"
         ],
                                                                                                 sentence1c: [
             "ebałt"
@@ -3399,7 +3399,7 @@ fiszki10.push(
         story: "<u><b>Hel</u></b> to taki gaz w <u><b>p</u></b>owieetrzu, który <u><b>pomaga</u></b> zmienić barwę głosu",
         desc: "help[help] - pomagać",
         sentence2: [
-            "to help"
+            "to_help"
         ],
                                          sentence2b: [
             "pomóc"

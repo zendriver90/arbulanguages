@@ -21,11 +21,11 @@
 }
 
 .play {
-    background: url('http://arbu-1dcc9.web.app/img/play.png');
+    background: url('https://www.arbulang.com/img/play.png');
 }
 
 .pause {
-    background: url('http://arbu-1dcc9.web.app/img/stop.jpg');
+    background: url('https://www.arbulang.com/img/stop.jpg');
 }
 
 #word {
@@ -106,10 +106,10 @@
                             }
                             @media (max-width: 999px) {
                                 .audioplayer{
-    width: 30px;
-    height: 30px;
+    width: 150px;
+    height: 150px;
     border: solid;
-    border-radius: 8px;
+    border-radius: 10px;
 }
 
 .pButton {
@@ -129,12 +129,15 @@
 }
 
 .play {
-    background: url('http://arbu-1dcc9.web.app/img/play.png');
-        max-height: 30px;
-        max-width: 30px;
+    background: url('https://www.arbulang.com/img/play.png');
+            max-height: 150px;
+        max-width: 150px;
 }
+
 .pause {
-    background: url('http://arbu-1dcc9.web.app/img/stop.jpg');
+    background: url('https://www.arbulang.com/img/stop.jpg');
+                max-height: 150px;
+        max-width: 150px;
 }
 
 #word {
@@ -172,7 +175,7 @@
 }
 
     #storyone {
-        font-size: 10px;
+        font-size: 40px;
         line-height: 1.2;
         padding: 10px;
         box-sizing: border-box;

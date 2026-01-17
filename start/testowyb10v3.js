@@ -409,7 +409,7 @@ fiszki10.push(
             "assistance"
         ],
                                     sentence2b: [
-            "pomoc (asystę)"
+            "pomoc_(asystę)"
         ],
                                                                                 sentence2c: [
             "esistens"
@@ -500,7 +500,7 @@ fiszki10.push(
             "pasje", "muzyka klasyczna"
         ],
         category2: [""],
-        category3: ["PresentSimple", "PresentSimplePodmiot"]
+        category3: ["Present Simple (to be)", "PresentSimplePodmiot"]
     },
     {
         id: [
@@ -692,13 +692,13 @@ fiszki10.push(
         story: "<u><b>Inni</u></b> n<u><b>a-de-r</u></b> rzadko mnie denerwują więc czuję się w<u><b>s</u></b>paniale",
         desc: "the others[de aders] - inny/inne",
         sentence2: [
-            "the others"
+            "the_others"
         ],
                                             sentence2b: [
             "inne"
         ],
                                                                 sentence2c: [
-            "de aders"
+            "de_aders"
         ],
         sentence: [
             "but",
@@ -1106,7 +1106,7 @@ fiszki10.push(
             "football"
         ],
                                         sentence1b: [
-            "w piłkę"
+            "w_piłkę"
         ],
                                     sentence1c: [
             "futbol"
@@ -1291,7 +1291,7 @@ fiszki10.push(
         key: "he",
         category1: "nauka",
         category2: ["osoby"],
-        category3: ["PresentContinous", "PresentContinousPodmiot"]
+        category3: ["Present Continuous (future meaning)", "PresentContinousPodmiot"]
     },
     {
         id: [
@@ -1767,13 +1767,13 @@ fiszki10.push(
         ],
         desc: "the teenagers[de tinejdźers] - nastolatkowie",
         sentence1: [
-            "The teenagers"
+            "The_teenagers"
         ],
                                             sentence1b: [
             "Nastolatkowie"
         ],
             sentence1c: [
-            "de tinejdźers"
+            "de_tinejdźers"
         ],
         sentence: [
             "The teenagers",
@@ -1881,13 +1881,13 @@ fiszki10.push(
         story: "<u><b>Pul</u></b>a zgromadzonych osób przy <u><b>basenie</u></b> jest wysoka",
         desc: "the pool[de pul] - basen",
         sentence2: [
-            "the pool"
+            "the_pool"
         ],
                                                     sentence2b: [
-            "basenie"
+            "(tym)_basenie"
         ],
                                             sentence2c: [
-            "de pul"
+            "de_pul"
         ],
         sentence: [
             "in",
@@ -2050,6 +2050,9 @@ fiszki10.push(
         desc: "right[rajt] - right(prawo, right now(teraz)",
         sentence1: [
             "right"
+        ],
+                                                            sentence1b: [
+            "właśnie"
         ],
                                                                                     sentence1c: [
             "rajt"
@@ -2553,7 +2556,7 @@ fiszki10.push(
         key: "i",
         category1: "nauka",
         category2: ["osoby"],
-        category3: ["PresentContinous", "PresentContinousPodmiot"]
+        category3: ["Present Continuous (longer period)", "PresentContinousPodmiot"]
     },
     {
         id: [
@@ -2609,7 +2612,7 @@ fiszki10.push(
             "learning"
         ],
                                                     sentence1b: [
-            "uczę się"
+            "uczę_się"
         ],
                                                                                                             sentence1c: [
             "lerning"
@@ -2677,7 +2680,7 @@ fiszki10.push(
             "this"
         ],
                                                             sentence2b: [
-            "w tym (tego)"
+            "w_tym_(tego)"
         ],
                                                                                                                             sentence2c: [
             "dis"
@@ -2756,7 +2759,7 @@ fiszki10.push(
         key: "she",
         category1: "nauka",
         category2: ["osoby"],
-        category3: ["PresentContinous", "PresentContinousPodmiot"]
+        category3: ["PresentPerfect", "PresentContinousPodmiot"]
     },
     {
         id: [
@@ -2771,25 +2774,31 @@ fiszki10.push(
             "https://www.arbulang.com/img/fiszki1/2d.jpg",
             "https://www.arbulang.com/img/fiszki1/2e.jpg"
         ],
+                img: "https://www.arbulang.com/img/fiszki1/282a.jpg",
         word: [
             "https://www.arbulang.com/src/has.wav"
         ],
         story: [
-            'W niemieckim mieście <span class="adannotation" data-annotation="1"><u><b>Hess</u></b></span>en Jurek <u><b>ma</u></b> bilet na mecze jego drużyny',
-            '<span class="adannotation" data-annotation="1"><u><b>H</u></b></span>ipopotam występuje w cyrku na <span class="adannotation" data-annotation="2"><u><b>es</u></b></span>tradzie, <u><b>ma</u></b> duże umiejętności',
-            'Naukowiec nagle się zapomniał i zapytał: <span class="adannotation" data-annotation="1"><u><b>he</u></b></span>?, a wtedy jego kolega <u><b>ma</u></b> niezłą zabawę, <span class="adannotation" data-annotation="2"><u><b>s</u></b></span>prawa oczywista..',
-            '<span class="adannotation" data-annotation="1"><u><b>He</u></b></span>gemonia konsumpcjonizmu doprowadziła do tego, że "ON"-dyrektor ma problemy, bo nikt nie chce chodzić na <span class="adannotation" data-annotation="2"><u><b>s</u></b></span>pektakle teatralne',
-            'Moja koleżanka <u><b>ma</u></b> nowy klarnet z drzewa <span class="adannotation" data-annotation="1"><u><b>he</u></b></span>banowego. <span class="adannotation" data-annotation="2"><u><b>S</u></b></span>....uper sprawa'
+            '1) W niemieckim mieście <span class="adannotation" data-annotation="1"><u><b>Hess</u></b></span>en Jurek <u><b>ma</u></b> bilet na mecze jego drużyny\n\
+    2) Prodecent odwiedził naukowców z proszkiem <u><b>wizi</u></b>r, aby go przetestowali. Jeden naukowiec ma <u><b>ti</u></b>ki i myli się przy badaniach. <u><b>Id</u></b>zie mu słabo',
+            '<span class="adannotation" data-annotation="1"><u><b>H</u></b></span>ipopotam występuje w cyrku na <span class="adannotation" data-annotation="2"><u><b>es</u></b></span>tradzie, <u><b>ma</u></b> duże umiejętności\n\
+    2) Prodecent odwiedził naukowców z proszkiem <u><b>wizi</u></b>r, aby go przetestowali. Jeden naukowiec ma <u><b>ti</u></b>ki i myli się przy badaniach. <u><b>Id</u></b>zie mu słabo',
+            'Naukowiec nagle się zapomniał i zapytał: <span class="adannotation" data-annotation="1"><u><b>he</u></b></span>?, a wtedy jego kolega <u><b>ma</u></b> niezłą zabawę, <span class="adannotation" data-annotation="2"><u><b>s</u></b></span>prawa oczywista..\n\
+    2) Prodecent odwiedził naukowców z proszkiem <u><b>wizi</u></b>r, aby go przetestowali. Jeden naukowiec ma <u><b>ti</u></b>ki i myli się przy badaniach. <u><b>Id</u></b>zie mu słabo',
+            '<span class="adannotation" data-annotation="1"><u><b>He</u></b></span>gemonia konsumpcjonizmu doprowadziła do tego, że "ON"-dyrektor ma problemy, bo nikt nie chce chodzić na <span class="adannotation" data-annotation="2"><u><b>s</u></b></span>pektakle teatralne\n\
+    v',
+            'Moja koleżanka <u><b>ma</u></b> nowy klarnet z drzewa <span class="adannotation" data-annotation="1"><u><b>he</u></b></span>banowego. <span class="adannotation" data-annotation="2"><u><b>S</u></b></span>....uper sprawa\n\
+    2) Prodecent odwiedził naukowców z proszkiem <u><b>wizi</u></b>r, aby go przetestowali. Jeden naukowiec ma <u><b>ti</u></b>ki i myli się przy badaniach. <u><b>Id</u></b>zie mu słabo'
         ],
-        desc: "has[hes]/have[hew] - mieć(on/ona/oni)/mieć(ja/ty)",
+        desc: "has visited[hes wizitid]/have[hew] - odwiedziła",
         sentence1: [
-            "has"
+            "has_visited"
         ],
                  sentence1b: [
-            "funkcja_pomocnicza"
+            "odwiedziła"
         ],
                     sentence1c: [
-            "hes"
+            "hes_wizitid"
         ],
         sentence: [
             "She",
@@ -2798,34 +2807,6 @@ fiszki10.push(
             "Paris"
         ],
         key: "has",
-        category1: "nauka",
-        category2: ["czasownik"]
-    },
-    {
-        id: [
-            282,
-            43,
-            82
-        ],
-        img: "https://www.arbulang.com/img/fiszki1/282a.jpg",
-        story: "Prodecent odwiedził naukowców z proszkiem <u><b>wizi</u></b>r, aby go przetestowali. Jeden naukowiec ma <u><b>ti</u></b>ki i myli się przy badaniach. <u><b>Id</u></b>zie mu słabo",
-        desc: "visited[wizitid] - odwiedził/odwiedziła",
-        sentence1: [
-            "visited"
-        ],
-                 sentence1b: [
-            "odwiedziła"
-        ],
-                    sentence1c: [
-            "wizitid"
-        ],
-        sentence: [
-            "She",
-            "has",
-            "visited",
-            "Paris"
-        ],
-        key: "visited",
         category1: "nauka",
         category2: ["czasownik"]
     },
@@ -2960,7 +2941,7 @@ fiszki10.push(
         key: "i",
         category1: "nauka",
         category2: ["osoby"],
-        category3: ["PresentContinous", "PresentContinousPodmiot"]
+        category3: ["PresentPerfect", "PresentContinousPodmiot"]
     },
     {
         id: [
@@ -2969,13 +2950,17 @@ fiszki10.push(
             84
         ],
         img: "https://www.arbulang.com/img/fiszki1/122a.jpg",
-        story: "<b><u>Mam</b></u> fajne spodnie, ale puścił sz<b><u>ew</b></u>, <b><u>ch</b></u>yba go zaceruje",
-        desc: "have[hew] - mam",
+        story: "1) <b><u>Mam</b></u> fajne spodnie, ale puścił sz<b><u>ew</b></u>, <b><u>ch</b></u>yba go zaceruje\n\
+    \n\2) <b><u>Fin</b></u> zdaje magisterke i jest na końcu drogi kształcenia się czyli <b><u>finiszuje</b></u>. Zdał <b><u>i</b></u> jest <b><u>szt</b></u>os",
+        desc: "have finished[hew finiszt] - skończyłem",
         sentence1: [
-            "have"
+            "have_finished"
+        ],
+                         sentence1b: [
+            "skończyłem"
         ],
                                                             sentence1c: [
-            "hew"
+            "hew_finiszt"
         ],
         sentence: [
             "I",
@@ -2985,35 +2970,6 @@ fiszki10.push(
             "homework"
         ],
         key: "have",
-        category1: "nauka",
-        category2: ["czasownik"]
-    },
-    {
-        id: [
-            288,
-            44,
-            84
-        ],
-        img: "https://www.arbulang.com/img/fiszki1/288a.jpg",
-        story: "<b><u>Fin</b></u> zdaje magisterke i jest na końcu drogi kształcenia się czyli <b><u>finiszuje</b></u>. Zdał <b><u>i</b></u> jest <b><u>szt</b></u>os",
-        desc: "finished[finiszt] - ukończyć",
-        sentence1: [
-            "finished"
-        ],
-                 sentence1b: [
-            "skończyłem"
-        ],
-                                                                    sentence1c: [
-            "finiszt"
-        ],
-        sentence: [
-            "I",
-            "have",
-            "finished",
-            "my",
-            "homework"
-        ],
-        key: "finished",
         category1: "nauka",
         category2: ["czasownik"]
     },
@@ -3070,7 +3026,7 @@ fiszki10.push(
             "homework"
         ],
                  sentence1b: [
-            "zadanie domowe"
+            "zadanie_domowe"
         ],
                                                                                     sentence1c: [
             "hołmłork"
@@ -3137,13 +3093,17 @@ fiszki10.push(
             85
         ],
         img: "https://www.arbulang.com/img/fiszki1/292a.jpg",
-        story: "<b><u>Mam</b></u> fajne spodnie, ale puścił sz<b><u>ew</b></u>, <b><u>ch</b></u>yba go zaceruje",
-        desc: "have[hew] - mam",
+        story: "1) <b><u>Mam</b></u> fajne spodnie, ale puścił sz<b><u>ew</b></u>, <b><u>ch</b></u>yba go zaceruje\n\
+    \n\2) O<u><b>liw</u></b>ka i <u><b>D</u></b>amian żyją ze sobą szczęśliwie",
+        desc: "have lived[hew liwd] - mieszkają",
         sentence1: [
-            "have"
+            "have_lived"
+        ],
+                                         sentence1b: [
+            "mieszkają"
         ],
                                                                                                     sentence1c: [
-            "hew"
+            "hew_liwd"
         ],
         sentence: [
             "They",
@@ -3154,36 +3114,6 @@ fiszki10.push(
             "house"
         ],
         key: "have",
-        category1: "nauka",
-        category2: ["czasownik"]
-    },
-            {
-        id: [
-            293,
-            45,
-            85
-        ],
-        img: "https://www.arbulang.com/img/fiszki1/293a.jpg",
-        story: "O<u><b>liw</u></b>ka i <u><b>D</u></b>amian żyją ze sobą szczęśliwie",
-        desc: "lived[liwd] - żyją",
-        sentence1: [
-            "lived"
-        ],
-                         sentence1b: [
-            "żyją"
-        ],
-                                                                                                    sentence1c: [
-            "liwd"
-        ],
-        sentence: [
-            "They",
-            "have",
-            "lived",
-            "in",
-            "this",
-            "house"
-        ],
-        key: "lived",
         category1: "nauka",
         category2: ["czasownik"]
     },

@@ -3188,7 +3188,7 @@ const fiszki10 = [
             "socjologia", "statystyki"
         ],
         category2: [""],
-        category3: ["PresentSimple", "PresentSimplePodmiot"]
+        category3: ["Modal verb: can (Present)", "PresentSimplePodmiot"]
     },
     {
         id: [
@@ -3433,7 +3433,7 @@ const fiszki10 = [
             "expires"
         ],
                                 sentence1b: [
-            "traci ważność"
+            "traci_ważność"
         ],
                                                                                             sentence1c: [
             "ikspajers"
@@ -3473,7 +3473,7 @@ const fiszki10 = [
             "this"
         ],
                                         sentence2b: [
-            "w tym"
+            "w_tym"
         ],
                                                                                                     sentence2c: [
             "dis"
@@ -3571,7 +3571,7 @@ const fiszki10 = [
             "związki", "kulinaria"
         ],
         category2: ["osoby"],
-        category3: ["PresentSimple", "PresentSimplePodmiot"]
+        category3: ["Present Simple (have)", "PresentSimplePodmiot"]
     },
     {
         id: [
@@ -3910,7 +3910,7 @@ const fiszki10 = [
         key: "she",
         category1: "nauka",
         category2: ["osoby"],
-        category3: ["PresentSimple", "PresentSimplePodmiot"]
+        category3: ["Present Simple (to be)", "PresentSimplePodmiot"]
     },
     {
         id: [
@@ -4052,7 +4052,7 @@ const fiszki10 = [
             "her"
         ],
                                         sentence2b: [
-            "swojego (jej)"
+            "swojego_(jej)"
         ],
                                                                                                             sentence2c: [
             "her"

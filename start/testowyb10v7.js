@@ -119,7 +119,7 @@ fiszki10.push(
         ],
         key: "my",
         category2: ["osoby"],
-        category3: ["PresenttSimple", "PresentSimplePodmiot"]
+        category3: ["PresentSimple", "PresentSimplePodmiot"]
     },
                                                     {
         id: [
@@ -268,7 +268,7 @@ fiszki10.push(
         ],
         key: "he",
         category2: ["osoby"],
-        category3: ["PresenttSimple", "PresentSimplePodmiot"]
+        category3: ["PastSimple", "PresentSimplePodmiot"]
     },
                                                         {
         id: [
@@ -415,7 +415,7 @@ fiszki10.push(
         ],
         key: "her",
         category2: ["osoby"],
-        category3: ["PresenttSimple", "PresentSimplePodmiot"]
+        category3: ["Present Simple – „to be”", "PresentSimplePodmiot"]
     },
                                                                 {
         id: [
@@ -612,7 +612,7 @@ fiszki10.push(
         ],
         key: "boy",
         category2: ["osoby"],
-        category3: ["PresenttSimple", "PresentSimplePodmiot"]
+        category3: ["Czasownik modalny „can” (teraźniejszy)", "PresentSimplePodmiot"]
     },
                                                                             {
         id: [
@@ -752,7 +752,7 @@ fiszki10.push(
         ],
         key: "my",
         category2: ["osoby"],
-        category3: ["PresenttSimple", "PresentSimplePodmiot"]
+        category3: ["PresentSimple", "PresentSimplePodmiot"]
     },
         {
         id: [
@@ -935,7 +935,7 @@ fiszki10.push(
         ],
         key: "wolf",
         category2: ["osoby"],
-        category3: ["PresenttSimple", "PresentSimplePodmiot"]
+        category3: ["PresentSimple", "PresentSimplePodmiot"]
     },
                 {
         id: [
@@ -1079,7 +1079,7 @@ fiszki10.push(
         ],
         key: "take",
         category2: ["osoby"],
-        category3: ["PresenttSimple", "PresentSimplePodmiot"]
+        category3: ["Tryb rozkazujący – Imperative", "PresentSimplePodmiot"]
     },
                         {
         id: [
@@ -1246,7 +1246,7 @@ fiszki10.push(
         ],
         key: "I",
         category2: ["osoby"],
-        category3: ["PresenttSimple", "PresentSimplePodmiot"]
+        category3: ["PresentSimple", "PresentSimplePodmiot"]
     },
                                 {
         id: [
@@ -1436,7 +1436,7 @@ fiszki10.push(
         ],
         key: "she",
         category2: ["osoby"],
-        category3: ["PresenttSimple", "PresentSimplePodmiot"]
+        category3: ["PresentSimple", "PresentSimplePodmiot"]
     },
                                         {
         id: [
@@ -1589,7 +1589,7 @@ fiszki10.push(
         ],
         key: "don't",
         category2: ["osoby"],
-        category3: ["PresenttSimple", "PresentSimplePodmiot"]
+        category3: ["Tryb rozkazujący – Imperative", "PresentSimplePodmiot"]
     },
         {
         id: [
@@ -1725,7 +1725,7 @@ fiszki10.push(
         ],
         key: "put",
         category2: ["osoby"],
-        category3: ["PresenttSimple", "PresentSimplePodmiot"]
+        category3: ["Tryb rozkazujący – Imperative", "PresentSimplePodmiot"]
     },
                 {
         id: [
@@ -1828,7 +1828,7 @@ fiszki10.push(
         ],
         key: "we",
         category2: ["osoby"],
-        category3: ["PresenttSimple", "PresentSimplePodmiot"]
+        category3: ["PresentSimple", "PresentSimplePodmiot"]
     },
                             {
         id: [
@@ -1999,7 +1999,7 @@ fiszki10.push(
         ],
         key: "put",
         category2: ["osoby"],
-        category3: ["PresenttSimple", "PresentSimplePodmiot"]
+        category3: ["PresentSimple", "PresentSimplePodmiot"]
     },
                                         {
         id: [
@@ -2128,7 +2128,7 @@ fiszki10.push(
         ],
         key: "house",
         category2: ["osoby"],
-        category3: ["PresenttSimple", "PresentSimplePodmiot"]
+        category3: ["Present Simple – strona bierna (Passive)", "PresentSimplePodmiot"]
     },
         {
         id: [
@@ -2280,7 +2280,7 @@ fiszki10.push(
         ],
         key: "she",
         category2: ["osoby"],
-        category3: ["PresenttSimple", "PresentSimplePodmiot"]
+        category3: ["Past Simple", "PresentSimplePodmiot"]
     },
                         {
         id: [
@@ -2423,7 +2423,7 @@ fiszki10.push(
         ],
         key: "he",
         category2: ["osoby"],
-        category3: ["PresenttSimple", "PresentSimplePodmiot"]
+        category3: ["PresentSimple", "PresentSimplePodmiot"]
     },
                                                              {
         id: [
@@ -2594,7 +2594,7 @@ fiszki10.push(
         ],
         key: "I",
         category2: ["osoby"],
-        category3: ["PresenttSimple", "PresentSimplePodmiot"]
+        category3: ["PresentSimple", "PresentSimplePodmiot"]
     },
             {
         id: [
@@ -2760,7 +2760,7 @@ fiszki10.push(
         ],
         key: "shark",
         category2: ["osoby"],
-        category3: ["PresenttSimple", "PresentSimplePodmiot"]
+        category3: ["PresentSimple", "PresentSimplePodmiot"]
     },
                     {
         id: [
@@ -2888,6 +2888,6 @@ fiszki10.push(
         ],
         key: "baby",
         category2: ["osoby"],
-        category3: ["PresenttSimple", "PresentSimplePodmiot"]
+        category3: ["PresentSimple", "PresentSimplePodmiot"]
     }
 );

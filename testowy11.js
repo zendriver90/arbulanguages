@@ -323,7 +323,7 @@ id: [
         desc: "es[es] - is",
         //zdanie
         sentence1: [
-                "is"
+                "es"
         ],
                                                         sentence1b: [
             "is"
@@ -774,7 +774,7 @@ id: [
         desc: "interesante[in-teh-reh-sahn-teh] - interesting",
         //zdanie
         sentence1: [
-                "interesting"
+                "interestante"
         ],
              sentence1b: [
             "interesting"
@@ -1211,13 +1211,13 @@ id: [
         desc: "El sol[el sohl] - sun",
         //zdanie
         sentence1: [
-                "El sol"
+                "El_sol"
         ],
                                                         sentence1b: [
             "The_sun"
         ],
                 sentence1c: [
-            "el sohl"
+            "el_sohl"
         ],
         sentence: [
                 "El sol",
@@ -1332,13 +1332,13 @@ id: [
         desc: "el cielo[el see-eh-loh] - sky",
         //zdanie
         sentence2: [
-                "el cielo"
+                "el_cielo"
         ],
                                                                                 sentence2b: [
             "sky"
         ],
                 sentence2c: [
-            "el see-eh-loh"
+            "el_see-eh-loh"
         ],
         sentence: [
                 "en",
@@ -1418,7 +1418,7 @@ id: [
         desc: "La casa[lah kah-sah] - house",
         //zdanie
         sentence1: [
-                "La casa"
+                "La_casa"
         ],
                     sentence1b: [
             "The_house"
@@ -1631,10 +1631,10 @@ id: [
         desc: "un jardin[oon har-deen] - garden",
         //zdanie
         sentence2: [
-                "un jardin"
+                "un_jardin"
         ],
                                                             sentence2b: [
-            "garden"
+            "a_garden"
         ],
                 sentence2c: [
             "oon har-deen"
@@ -1676,7 +1676,7 @@ id: [
                 "bonito"
         ],
                                                                     sentence2b: [
-            "a_beautiful"
+            "beautiful"
         ],
                 sentence2c: [
             "boh-nee-toh"
@@ -1887,7 +1887,7 @@ id: [
                 "Esperar"
         ],
             sentence1b: [
-            "To wait"
+            "To_wait"
         ],
                 sentence1c: [
             "es-peh-rahr"
@@ -1965,7 +1965,7 @@ id: [
         desc: "dentro de[den-troh deh] - inside",
         //zdanie
         sentence2: [
-                "dentro de"
+                "dentro_de"
         ],
                     sentence2b: [
             "inside"
@@ -2005,10 +2005,10 @@ id: [
         desc: "la casa[lah kah-sah] - the house",
         //zdanie
         sentence2: [
-                "la casa"
+                "la_casa"
         ],
                             sentence2b: [
-            "the house"
+            "the_house"
         ],
                 sentence2c: [
             "lah_kah-sah"
@@ -2052,7 +2052,7 @@ id: [
                 "Hablar"
         ],
                             sentence1b: [
-            "To talk"
+            "To_talk"
         ],
                 sentence1c: [
             "ah-blar"
@@ -2217,7 +2217,7 @@ id: [
                 "caminamos"
         ],
                 sentence2b: [
-            "we walk"
+            "we_walk"
         ],
                 sentence2c: [
             "kah-mee-nah-mos"

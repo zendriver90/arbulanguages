@@ -109,7 +109,7 @@ id: [
         ],
         key: "the",
         category2: ["osoby"],
-        category3: ["PresenttSimple", "PresentSimplePodmiot"]
+        category3: ["PresentSimple", "PresentSimplePodmiot"]
     },
                                                                                                                                 {
         id: [
@@ -262,7 +262,7 @@ id: [
         ],
         key: "she",
         category2: ["osoby"],
-        category3: ["PresenttSimple", "PresentSimplePodmiot"]
+        category3: ["PresentSimple", "PresentSimplePodmiot"]
     },
                                                                                                                                                 {
         id: [
@@ -447,7 +447,7 @@ id: [
         ],
         key: "the",
         category2: ["osoby"],
-        category3: ["PresenttSimple", "PresentSimplePodmiot"]
+        category3: ["Present Simple (to be)", "PresentSimplePodmiot"]
     },
                                                                                                                                                                     {
         id: [
@@ -670,7 +670,7 @@ id: [
         ],
         key: "he",
         category2: ["osoby"],
-        category3: ["PresenttSimple", "PresentSimplePodmiot"]
+        category3: ["PresentSimple", "PresentSimplePodmiot"]
     },
                                                                                                                                                                                         {
         id: [
@@ -796,7 +796,7 @@ id: [
         ],
         key: "the",
         category2: ["osoby"],
-        category3: ["PresenttSimple", "PresentSimplePodmiot"]
+        category3: ["Present Simple (future meaning – timetable)", "PresentSimplePodmiot"]
     },
                                                                                                                                                                                                     {
         id: [
@@ -950,7 +950,7 @@ id: [
         ],
         key: "I",
         category2: ["osoby"],
-        category3: ["PresenttSimple", "PresentSimplePodmiot"]
+        category3: ["PresentSimple", "PresentSimplePodmiot"]
     },
                                                                                                                                                                                                                     {
         id: [
@@ -1128,7 +1128,7 @@ id: [
         ],
         key: "they",
         category2: ["osoby"],
-        category3: ["PresenttSimple", "PresentSimplePodmiot"]
+        category3: ["PresentSimple", "PresentSimplePodmiot"]
     },
                                                                                                                                                                                                                                         {
         id: [
@@ -1311,7 +1311,7 @@ id: [
         ],
         key: "they",
         category2: ["osoby"],
-        category3: ["PresenttSimple", "PresentSimplePodmiot"]
+        category3: ["PresentSimple", "PresentSimplePodmiot"]
     },
                                                                                                                                                                                                                                                             {
         id: [
@@ -1468,7 +1468,7 @@ id: [
         ],
         key: "our",
         category2: ["osoby"],
-        category3: ["PresenttSimple", "PresentSimplePodmiot"]
+        category3: ["Past Simple", "PresentSimplePodmiot"]
     },
     {
         id: [
@@ -1624,7 +1624,7 @@ id: [
         ],
         key: "we",
         category2: ["osoby"],
-        category3: ["PresenttSimple", "PresentSimplePodmiot"]
+        category3: ["Past Simple", "PresentSimplePodmiot"]
     },
                     {
         id: [
@@ -1831,7 +1831,7 @@ id: [
         ],
         key: "the",
         category2: ["osoby"],
-        category3: ["PresenttSimple", "PresentSimplePodmiot"]
+        category3: ["PresentSimple", "PresentSimplePodmiot"]
     },
                                         {
         id: [
@@ -2062,7 +2062,7 @@ id: [
         ],
         key: "the",
         category2: ["osoby"],
-        category3: ["PresenttSimple", "PresentSimplePodmiot"]
+        category3: ["PresentSimple", "PresentSimplePodmiot"]
     },
                                                             {
         id: [
@@ -2259,7 +2259,7 @@ id: [
         ],
         key: "they",
         category2: ["osoby"],
-        category3: ["PresenttSimple", "PresentSimplePodmiot"]
+        category3: ["PresentSimple", "PresentSimplePodmiot"]
     },
                                                                         {
         id: [
@@ -2383,7 +2383,7 @@ id: [
         ],
         key: "he",
         category2: ["osoby"],
-        category3: ["PresenttSimple", "PresentSimplePodmiot"]
+        category3: ["PresentSimple", "PresentSimplePodmiot"]
     },
                                                                                         {
         id: [
@@ -2538,7 +2538,7 @@ id: [
         ],
         key: "my",
         category2: ["osoby"],
-        category3: ["PresenttSimple", "PresentSimplePodmiot"]
+        category3: ["PresentSimple", "PresentSimplePodmiot"]
     },
                                                                                                 {
         id: [
@@ -2731,7 +2731,7 @@ id: [
         ],
         key: "they",
         category2: ["osoby"],
-        category3: ["PresenttSimple", "PresentSimplePodmiot"]
+        category3: ["PresentSimple", "PresentSimplePodmiot"]
     },
                                                                                                         {
         id: [
@@ -2930,7 +2930,7 @@ id: [
         ],
         key: "the",
         category2: ["osoby"],
-        category3: ["PresenttSimple", "PresentSimplePodmiot"]
+        category3: ["PresentSimple", "PresentSimplePodmiot"]
     },
                                                                                                                         {
         id: [
@@ -3105,7 +3105,7 @@ id: [
         ],
         key: "they",
         category2: ["osoby"],
-        category3: ["PresenttSimple", "PresentSimplePodmiot"]
+        category3: ["PresentSimple", "PresentSimplePodmiot"]
     },
                                                                                                                                         {
         id: [

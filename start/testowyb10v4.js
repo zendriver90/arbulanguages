@@ -141,10 +141,13 @@ id: [
         story: "<u><b>Ona</u></b> - Patrycja ma ri<u><b>szi</u></b> to naturalny antyoksydant",
         desc: "she[szi] - niebieski/niebieskie",
         sentence1: [
-                ""
+                "She"
         ],
         sentence1b: [
-            ""
+            "Ona"
+        ],
+                sentence1c: [
+            "Szi"
         ],
         sentence: [
                 "She",
@@ -172,19 +175,31 @@ id: [
                 "https://www.arbulang.com/img/fiszki1/2d.jpg",
                 "https://www.arbulang.com/img/fiszki1/2e.jpg"
         ],
+                img: "https://www.arbulang.com/img/fiszki1/125a.jpg",
         word: [
                 "https://www.arbulang.com/src/has.wav"
         ],
         story: [
-                'W niemieckim mieście <span class="adannotation" data-annotation="1"><u><b>Hess</u></b></span>en Jurek <u><b>ma</u></b> bilet na mecze jego drużyny',
-                '<span class="adannotation" data-annotation="1"><u><b>H</u></b></span>ipopotam występuje w cyrku na <span class="adannotation" data-annotation="2"><u><b>es</u></b></span>tradzie, <u><b>ma</u></b> duże umiejętności',
-                'Naukowiec nagle się zapomniał i zapytał: <span class="adannotation" data-annotation="1"><u><b>he</u></b></span>?, a wtedy jego kolega <u><b>ma</u></b> niezłą zabawę, <span class="adannotation" data-annotation="2"><u><b>s</u></b></span>prawa oczywista..',
-                '<span class="adannotation" data-annotation="1"><u><b>He</u></b></span>gemonia konsumpcjonizmu doprowadziła do tego, że "ON"-dyrektor ma problemy, bo nikt nie chce chodzić na <span class="adannotation" data-annotation="2"><u><b>s</u></b></span>pektakle teatralne',
-                'Moja koleżanka <u><b>ma</u></b> nowy klarnet z drzewa <span class="adannotation" data-annotation="1"><u><b>he</u></b></span>banowego. <span class="adannotation" data-annotation="2"><u><b>S</u></b></span>....uper sprawa'
+                'W niemieckim mieście <span class="adannotation" data-annotation="1"><u><b>Hess</u></b></span>en Jurek <u><b>ma</u></b> bilet na mecze jego drużyny\n\
+        2) Floryda to stan w USA, który powinien być czytany Flo<b><u>rid</b></u>a',
+                '<span class="adannotation" data-annotation="1"><u><b>H</u></b></span>ipopotam występuje w cyrku na <span class="adannotation" data-annotation="2"><u><b>es</u></b></span>tradzie, <u><b>ma</u></b> duże umiejętności\n\
+        2) Floryda to stan w USA, który powinien być czytany Flo<b><u>rid</b></u>a',
+                'Naukowiec nagle się zapomniał i zapytał: <span class="adannotation" data-annotation="1"><u><b>he</u></b></span>?, a wtedy jego kolega <u><b>ma</u></b> niezłą zabawę, <span class="adannotation" data-annotation="2"><u><b>s</u></b></span>prawa oczywista..\n\
+        2) Floryda to stan w USA, który powinien być czytany Flo<b><u>rid</b></u>a',
+                '<span class="adannotation" data-annotation="1"><u><b>He</u></b></span>gemonia konsumpcjonizmu doprowadziła do tego, że "ON"-dyrektor ma problemy, bo nikt nie chce chodzić na <span class="adannotation" data-annotation="2"><u><b>s</u></b></span>pektakle teatralne\n\
+        2) Floryda to stan w USA, który powinien być czytany Flo<b><u>rid</b></u>a',
+                'Moja koleżanka <u><b>ma</u></b> nowy klarnet z drzewa <span class="adannotation" data-annotation="1"><u><b>he</u></b></span>banowego. <span class="adannotation" data-annotation="2"><u><b>S</u></b></span>....uper sprawa\n\
+        2) Floryda to stan w USA, który powinien być czytany Flo<b><u>rid</b></u>a'
         ],
-        desc: "has[hes]/have[hew] - mieć(on/ona/oni)/mieć(ja/ty)",
+        desc: "has read[hes rid]/have[hew] - przeczytała",
         sentence1: [
-                ""
+                "has_read"
+        ],
+                sentence1b: [
+            "przeczytała"
+        ],
+                sentence1c: [
+            "hes_rid"
         ],
         sentence: [
                 "She",
@@ -195,33 +210,6 @@ id: [
                 "twice"
         ],
         key: "has",
-        category1: "nauka",
-        category2: ["czasownik"]
-},
-{
-id: [
-        306,
-        47,
-        88
-],
-        img: "https://www.arbulang.com/img/fiszki1/125a.jpg",
-        story: "Floryda to stan w USA, który powinien być czytany Flo<b><u>rid</b></u>a",
-        desc: "read[rid] - czytać",
-        sentence1: [
-                "She has read"
-        ],
-        sentence1b: [
-            "Ona przeczytała"
-        ],
-        sentence: [
-                "She",
-                "has",
-                "read",
-                "this",
-                "book",
-                "twice"
-        ],
-        key: "read",
         category1: "nauka",
         category2: ["czasownik"]
 },
@@ -252,6 +240,9 @@ id: [
         sentence1b: [
             "tą"
         ],
+                sentence1c: [
+            "dis"
+        ],
         sentence: [
                 "The",
                 "has",
@@ -279,6 +270,9 @@ id: [
         sentence1b: [
             "książkę"
         ],
+                        sentence1c: [
+            "buk"
+        ],
         sentence: [
                 "The",
                 "has",
@@ -304,7 +298,10 @@ id: [
                 "twice"
         ],
         sentence1b: [
-            "dwa razy"
+            "dwa_razy"
+        ],
+                                sentence1c: [
+            "tłajs"
         ],
         sentence: [
                 "The",
@@ -342,7 +339,10 @@ id: [
                 "We"
         ],
         sentence1b: [
-            ""
+            "My"
+        ],
+                                        sentence1c: [
+            "łi"
         ],
         sentence: [
                 "We",
@@ -362,10 +362,18 @@ id: [
         89
 ],
         img: "https://www.arbulang.com/img/fiszki1/122a.jpg",
-        story: "<b><u>Mam</b></u> fajne spodnie, ale puścił sz<b><u>ew</b></u>, <b><u>ch</b></u>yba go zaceruje",
-        desc: "have[hew] - mam",
+                img: "https://www.arbulang.com/img/fiszki1/282a.jpg",
+        story: "1) <b><u>Mam</b></u> fajne spodnie, ale puścił sz<b><u>ew</b></u>, <b><u>ch</b></u>yba go zaceruje\n\
+    2) Producent odwiedził naukowców z proszkiem <u><b>wizi</u></b>r, aby go przetestowali. Jeden naukowiec ma <u><b>ti</u></b>ki i myli się przy badaniach. <u><b>Id</u></b>zie mu słabo",
+        desc: "have visitid[hew wizitid] - odwiedziliśmy",
         sentence1: [
-                "have"
+                "have_visited"
+        ],
+                sentence1b: [
+            "odwiedziliśmy"
+        ],
+                                        sentence1c: [
+            "hew_wizitid"
         ],
         sentence: [
                 "We",
@@ -374,31 +382,6 @@ id: [
                 "London"
         ],
         key: "have",
-        category1: "nauka",
-        category2: ["czasownik"]
-},
-{
-id: [
-        312,
-        48,
-        89
-],
-        img: "https://www.arbulang.com/img/fiszki1/282a.jpg",
-        story: "Producent odwiedził naukowców z proszkiem <u><b>wizi</u></b>r, aby go przetestowali. Jeden naukowiec ma <u><b>ti</u></b>ki i myli się przy badaniach. <u><b>Id</u></b>zie mu słabo",
-        desc: "visited[wizitid] - odwiedził/odwiedziła",
-        sentence1: [
-                "visited"
-        ],
-                sentence1b: [
-            "(My) odwiedziliśmy"
-        ],
-        sentence: [
-                "We",
-                "have",
-                "visited",
-                "London"
-        ],
-        key: "visited",
         category1: "nauka",
         category2: ["czasownik"]
 },
@@ -416,6 +399,9 @@ id: [
         ],
                 sentence1b: [
             "Londyn"
+        ],
+                                                        sentence1c: [
+            "London"
         ],
         sentence: [
                 "We",
@@ -440,7 +426,10 @@ id: [
                 "many times"
         ],
                 sentence2b: [
-            "wiele razy"
+            "wiele_razy"
+        ],
+                                                                sentence2c: [
+            "meni_tajms"
         ],
         sentence: [
                 "many times"
@@ -483,6 +472,9 @@ id: [
                         sentence1b: [
             "Mój"
         ],
+                                                                        sentence1c: [
+            "Maj"
+        ],
         sentence: [
                 "My",
                 "brother",
@@ -512,6 +504,9 @@ id: [
                         sentence1b: [
             "brat"
         ],
+                                                                                sentence1c: [
+            "broder"
+        ],
         sentence: [
                 "My",
                 "brother",
@@ -538,6 +533,9 @@ id: [
                         sentence1b: [
             "gra"
         ],
+                                                                                        sentence1c: [
+            "plejs"
+        ],
         sentence: [
                 "My",
                 "brother",
@@ -562,7 +560,10 @@ id: [
                 "football"
         ],
                         sentence1b: [
-            "w piłkę"
+            "w_piłkę"
+        ],
+                                                                                                sentence1c: [
+            "futbol"
         ],
         sentence: [
                 "My",
@@ -591,6 +592,9 @@ id: [
                         sentence2b: [
             "w"
         ],
+                                                                                                        sentence1c: [
+            "on"
+        ],
         sentence: [
                 "on",
                 "weekends"
@@ -613,6 +617,9 @@ id: [
         ],
                         sentence2b: [
             "weekendy"
+        ],
+                                                                                                        sentence1c: [
+            "łikends"
         ],
         sentence: [
                 "on",
@@ -1157,7 +1164,7 @@ id: [
         ],
         key: "they",
         category2: ["osoby"],
-        category3: ["PresentSimple", "PresentSimplePodmiot"]
+        category3: ["Past Simple", "PresentSimplePodmiot"]
 },
 {
 id: [
@@ -1683,7 +1690,7 @@ id: [
         ],
         key: "the",
         category2: ["zaimki"],
-        category3: ["PresenttSimple", "PresentSimplePodmiot"]
+        category3: ["PresentSimple", "PresentSimplePodmiot"]
 },
 {
 id: [
@@ -1862,7 +1869,7 @@ id: [
         ],
         key: "the",
         category2: ["osoby"],
-        category3: ["PresenttSimple", "PresentSimplePodmiot"]
+        category3: ["PresentSimple", "PresentSimplePodmiot"]
 },
 {
 id: [
@@ -2091,7 +2098,7 @@ id: [
         ],
         key: "the",
         category2: ["osoby"],
-        category3: ["PresenttSimple", "PresentSimplePodmiot"]
+        category3: ["PresentSimple", "PresentSimplePodmiot"]
 },
 {
 id: [
@@ -2249,7 +2256,7 @@ id: [
         ],
         key: "he",
         category2: ["osoby"],
-        category3: ["PresenttSimple", "PresentSimplePodmiot"]
+        category3: ["PresentSimple", "PresentSimplePodmiot"]
 },
 {
 id: [
@@ -2375,7 +2382,7 @@ id: [
         ],
         key: "he",
         category2: ["osoby"],
-        category3: ["PresenttSimple", "PresentSimplePodmiot"]
+        category3: ["PresentSimple", "PresentSimplePodmiot"]
 },
 {
 id: [
@@ -2493,7 +2500,7 @@ id: [
         ],
         key: "my",
         category2: ["osoby"],
-        category3: ["PresenttSimple", "PresentSimplePodmiot"]
+        category3: ["PresentSimple", "PresentSimplePodmiot"]
 },
 {
 id: [
@@ -2627,8 +2634,8 @@ id: [
         word: [
                 "https://www.arbulang.com/voice/bike.mp4"
         ],
-        story: "<u><b>Ona</u></b> - Patrycja ma ri<u><b>szi</u></b> to naturalny antyoksydant",
-        desc: "she[szi] - niebieski/niebieskie",
+        story: "<b><u>Wi</b></u>ll Smith oznajmił, że <b><u>my</b></u> jako ludzkość mamy się dobrze",
+        desc: "we[łi] - my",
         sentence1: [
                 "We"
         ],
@@ -2643,7 +2650,7 @@ id: [
         ],
         key: "we",
         category2: ["osoby"],
-        category3: ["PresenttSimple", "PresentSimplePodmiot"]
+        category3: ["PresentSimple", "PresentSimplePodmiot"]
 },
 {
 id: [
@@ -2816,8 +2823,14 @@ id: [
         word: [
                 "https://www.arbulang.com/voice/bike.mp4"
         ],
-        story: "<u><b>Ona</u></b> - Patrycja ma ri<u><b>szi</u></b> to naturalny antyoksydant",
-        desc: "she[szi] - niebieski/niebieskie",
+        story: [
+                'Piłki do gry w kosza są twar<span class="adannotation" data-annotation="1"><u><b>de</u></b></span>. Sam ten sport <u><b>to</u></b> twarda gra',
+                'Na tym <span class="adannotation" data-annotation="1"><u><b>de</u></b></span>ptaku jest sporo drzewek, <u><b>to</u></b> urocze miejsce',
+                '<u><b>To</u></b> ten <span class="adannotation" data-annotation="1"><u><b>De</u></b></span>partament Stanu prowadzi badania nad społecznym problemem',
+                'Czasami politycy stosują <span class="adannotation" data-annotation="1"><u><b>de</u></b></span>magogię. Czyli co stosują? <u><b>Tę</u></b> <span class="adannotation" data-annotation="1"><u><b>de</u></b></span>magogię',
+                '<u><b>To</u></b> co w naszej rodzinie istnieje to <span class="adannotation" data-annotation="1"><u><b>de</u></b></span>mokracja'
+        ],
+        desc: "TRUDNOŚĆ JĘZYKOWA: the[de]-33%, [ze]-33%, [d-ze]-33% - ta",
         sentence1: [
                 "The"
         ],
@@ -2833,7 +2846,7 @@ id: [
         ],
         key: "the",
         category2: ["osoby"],
-        category3: ["PresenttSimple", "PresentSimplePodmiot"]
+        category3: ["Present Simple (passive adjective)", "PresentSimplePodmiot"]
 },
 {
 id: [
@@ -3012,7 +3025,7 @@ id: [
         ],
         key: "i",
         category2: ["osoby"],
-        category3: ["PresenttSimple", "PresentSimplePodmiot"]
+        category3: ["PresentSimple", "PresentSimplePodmiot"]
 },
 {
 id: [
