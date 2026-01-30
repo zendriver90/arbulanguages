@@ -718,7 +718,7 @@ id: [
         ],
         translate: "To listen to cheerful music in the car",
         translateb: "[ehs-koo-CHAR MOO-see-kah ah-LEH-greh ehn ehl KOH-cheh]",
-        srcWord: ["https://www.arbulang.com/filmy/eng-esp/musicincar2.mp4", 'Baby Driver (2005)'],
+        srcWord: ["https://www.arbulang.com/filmy/eng-esp/musicincar2.mp4", 'Baby Driver (2017)'],
         srcWordimage: "https://www.arbulang.com/filmy/eng-esp/musicincar2.png",
         word: [
                 "https://www.arbulang.com/voice/music.mp4"
@@ -2471,8 +2471,8 @@ id: [
         ],
         translate: "To dance slowly to soft romantic music",
         translateb: "[bai-LAHR LEN-toh kon MOO-see-kah roh-MAN-tee-kah SWAH-veh]",
-        srcWord: ["http://localhost/arbulanguage.com/filmy/esp/danceslow.mp4", 'La La Land (2016)'],
-        srcWordimage: "http://localhost/arbulanguage.com/filmy/esp/danceslow.png",
+        srcWord: ["https://www.arbulang.com/filmy/esp/danceslow.mp4", 'La La Land (2016)'],
+        srcWordimage: "https://www.arbulang.com/filmy/esp/danceslow.png",
         word: [
                 "https://www.arbulang.com/voice/music.mp4"
         ],
@@ -2728,8 +2728,8 @@ id: [
         ],
         translate: "To maintain peace and harmony at home",
         translateb: "[man-teh-NEHR lah pahs ee lah ar-moh-NEE-ah en KAH-sah]",
-        srcWord: ["https://www.arbulang.com/filmy/esp/.mp4", ''],
-        srcWordimage: "https://www.arbulang.com/filmy/esp/dance.png",
+        srcWord: ["https://www.arbulang.com/filmy/esp/peace.mp4", ''],
+        srcWordimage: "https://www.arbulang.com/filmy/esp/peace.png",
         word: [
                 "https://www.arbulang.com/voice/music.mp4"
         ],
@@ -3003,8 +3003,8 @@ id: [
         ],
         translate: "To travel together in a nice car",
         translateb: "[bee-ah-HAR HOON-tos en oon KOH-cheh boh-NEE-toh]",
-        srcWord: ["https://www.arbulang.com/filmy/esp/.mp4", ''],
-        srcWordimage: "https://www.arbulang.com/filmy/esp/dance.png",
+        srcWord: ["https://www.arbulang.com/filmy/esp/redcar.mp4", 'Baby Driver (2017)'],
+        srcWordimage: "https://www.arbulang.com/filmy/esp/redcar.png",
         word: [
                 "https://www.arbulang.com/voice/music.mp4"
         ],
@@ -3211,8 +3211,8 @@ id: [
         ],
         translate: "To wear nice makeup to feel good",
         translateb: "[oo-SAR mah-kee-YAH-heh boh-NEE-toh PAH-rah sen-TEER-seh byen]",
-        srcWord: ["https://www.arbulang.com/filmy/esp/.mp4", ''],
-        srcWordimage: "https://www.arbulang.com/filmy/esp/dance.png",
+        srcWord: ["https://www.arbulang.com/filmy/esp/make-up.mp4", 'Song: 11 minutes'],
+        srcWordimage: "https://www.arbulang.com/filmy/esp/make-up.png",
         word: [
                 "https://www.arbulang.com/voice/music.mp4"
         ],
@@ -3461,8 +3461,8 @@ id: [
         ],
         translate: "To take care of the garden with love always",
         translateb: "[kwee-DAR el har-DEEN kon ah-MOR see-EM-preh]",
-        srcWord: ["https://www.arbulang.com/filmy/esp/.mp4", ''],
-        srcWordimage: "https://www.arbulang.com/filmy/esp/dance.png",
+        srcWord: ["https://www.arbulang.com/filmy/esp/garden.mp4", 'Elizjum (2013)'],
+        srcWordimage: "https://www.arbulang.com/filmy/esp/garden.png",
         word: [
                 "https://www.arbulang.com/voice/music.mp4"
         ],
@@ -3666,7 +3666,7 @@ id: [
         img: [
                 "https://www.arbulang.com/img/fiszki1en-esp/176a.jpg"
         ],
-        translate: "To wear nice makeup to feel good",
+        translate: "To manage anxiety with deep breathing",
         translateb: "[oo-SAR mah-kee-YAH-heh boh-NEE-toh PAH-rah sen-TEER-seh byen]",
         srcWord: ["https://www.arbulang.com/filmy/esp/.mp4", ''],
         srcWordimage: "https://www.arbulang.com/filmy/esp/dance.png",
@@ -3875,8 +3875,8 @@ id: [
         ],
         translate: "To long for peace all over the world",
         translateb: "[ahn-eh-LAHR pahs en TOH-doh el MOON-doh]",
-        srcWord: ["https://www.arbulang.com/filmy/esp/.mp4", ''],
-        srcWordimage: "https://www.arbulang.com/filmy/esp/dance.png",
+        srcWord: ["https://www.arbulang.com/filmy/esp/longforpeace.mp4", ''],
+        srcWordimage: "https://www.arbulang.com/filmy/esp/longforpeace.png",
         word: [
                 "https://www.arbulang.com/voice/music.mp4"
         ],

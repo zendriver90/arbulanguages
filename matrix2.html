@@ -13,6 +13,8 @@
         <script src="js/story.js"></script>
         <script src="js/storage.js"></script>
         <script src="testowy10.js"></script>
+                <script src="testowy10v2.js"></script>
+                        <script src="testowy10v3.js"></script>
         <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
         <meta charset="UTF-8">
         <title>arbulang.com</title>
@@ -20,6 +22,21 @@
         <meta name="keywords" content="naucz się angielskiego, 1000 angielskich słów, szybka nauka angielskiego, jak nauczyć się angielskiego, jak szybko nauczyć się języka, nauka angielskiego z przyjemnością" />
         <style>
             @media (min-width: 999px) {
+.tts-word {
+    padding: 2px 4px;
+    border-radius: 4px;
+}
+
+.tts-active {
+    background: #7CFF7C;
+}
+                .thumb-czas {
+    font-size: 12px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 4px;
+        color: white;
+}
                 .big-video-desc {
     margin-top: 8px;
     font-size: 16px;
@@ -29,50 +46,68 @@
     border-radius: 8px;
     text-align: center;
 }
-                .thumb-wrapper {
+.thumb-wrapper {
   display: flex;
-  gap: 0px;
+  align-items: center; /* wyśrodkowanie strzałek i row */
+  gap: 10px;
   margin-top: 10px;
-  z-index: 2;
+  position: relative;
 }
 
 .thumb-row {
   display: flex;
   gap: 10px;
   overflow-x: auto;
-  padding: 0px 0;
   scroll-behavior: smooth;
   flex: 1;
+  position: relative; /* ważne dla stacking context */
+  padding: 0 50px; /* zostaw miejsce po bokach na strzałki */
+  z-index: 2; /* miniatury nad strzałkami */
 }
 
+/* miniaturki */
+.thumb-img {
+  height: 50px;
+  border-radius: 10px;
+  object-fit: cover;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+  position: relative;
+  z-index: 3; /* zawsze nad strzałkami */
+}
+
+.thumb-img:hover {
+  transform: scale(1.1);
+}
+
+/* strzałki */
 .thumb-arrow {
     background-color: #f0f0f0;
     border: none;
-    margin-bottom: 100px;
     border-radius: 50%;
-    height: 40px;
+    height: 30px;
+    width: 30px;
     font-size: 20px;
     cursor: pointer;
     transition: all 0.2s ease;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
-
-    position: relative; 
-    z-index: 1; /* PRZYCISK POD SPOD */
+    position: absolute; /* przyklejone po bokach */
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 100; /* pod miniaturami */
 }
 
 .thumb-arrow:hover {
   background-color: #ddd;
 }
 
-/* lewa strzałka */
+/* lewa/prawa strzałka */
 .left-arrow {
-    position: relative;
-    left: 0px;
+    left: -10px;
 }
 
-/* prawa strzałka */
 .right-arrow {
-    right: 0px;
+    right: -10px;
 }
 
 /* scroll bez pasków */
@@ -82,20 +117,6 @@
 .thumb-row {
     -ms-overflow-style: none;  /* IE and Edge */
     scrollbar-width: none;  /* Firefox */
-}
-.thumb-img {
-        position: relative;
-  width: 80px;
-  height: 60px;
-  border-radius: 10px;
-  object-fit: cover;
-  cursor: pointer;
-  transition: transform 0.2s ease;
-  z-index: 999999;
-}
-
-.thumb-img:hover {
-  transform: scale(1.1);
 }
 
                 .text-intro {
@@ -610,11 +631,10 @@ span.highlight {
 .image-container3b {
     display: flex;
     flex-direction: column;
-    justify-content: center;
     background-color: blue;
     max-width: 100%;
     position: relative;
-    min-height: 220px;
+    min-height: 620px;
     height: auto;
     margin-bottom: 0px;
     align-items: center;
@@ -652,12 +672,12 @@ span.highlight {
                     margin-top: 10px;
                     order: -1; /* Kolejność odwrotna - spycha w dół */
                 }
-                #wordDisplay {
+                .wordDisplay.nieparzysty {
     position: absolute;
-    bottom: 200px;
+    bottom: 340px;
     cursor: pointer;
     font-size: 22px;
-    right: -150px;
+    left: -200px;
     width: 130px;
     height: 30px;
     text-align: center;
@@ -667,6 +687,24 @@ span.highlight {
     background-color: lightgray;
     border-radius: 8px;
     border: 2px solid black;
+}
+
+.wordDisplay.parzysty {
+    position: absolute;
+    top: 120px;
+    left: 360px;       /* start poza ekranem */
+    cursor: pointer;
+    font-size: 22px;
+    width: 130px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    color: black;
+    z-index: 101;
+    background-color: lightgray;
+    border-radius: 8px;
+    border: 2px solid black;
+    transition: left 0.5s ease;   /* animacja */
 }
                 .image-container5 {
                     display: flex;
@@ -777,19 +815,18 @@ span.highlight {
                     display: none; /* Ukrycie przycisku */
                     z-index: 99999; /* Wyższy z-index, aby przycisk był na wierzchu */
                 }
-                .dynamic-div {
-                    position: absolute;
-                    bottom: 5px; /* Ustawienie w dowolnym miejscu w kontenerze */
-                    left: 10px;
-                    font-size: 15px;
-                    width: 150px; /* Szerokość dynamicznego div-a */
-                    height: 20px; /* Wysokość dynamicznego div-a */
-                    background-color: rgba(255, 0, 0, 0.5); /* Przezroczyste tło */
-                    color: white;
-                    z-index: 1000; /* Wyższy z-index, aby był nad overlay */
-                    display: none; /* Początkowo ukryty */
-                    font-size: 10px;
-                }
+.dynamic-div {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    background-color: #1e90ff; /* niebieski */
+    color: white;
+    padding: 8px 12px;
+    border-radius: 6px;
+    font-size: 14px;
+    font-weight: 600;
+    z-index: 5;
+}
                                                 .dynamic-div2 {
                     position: absolute;
                     bottom: 5px; /* Ustawienie w dowolnym miejscu w kontenerze */
@@ -940,7 +977,6 @@ span.highlight {
                     cursor: pointer;
                 }
                 .grid-containera {
-                    max-width: 100%;
                     height: 0px;
                     display: grid;
                     grid-template-columns: repeat(4, 1fr);
@@ -950,15 +986,14 @@ span.highlight {
                     align-items: center;
                 }
 
-                .grid-container {
-                    display: grid;
-                    grid-template-columns: repeat(4, 1fr);
-                    margin-bottom: 20px;
-                    gap: 20px;
-                    position: relative;
-                    margin-right: 0px;
-                    top: 0px;
-                }
+.grid-container {
+    display: grid;
+    max-width: 100%;
+    width: 100%;
+    box-sizing: border-box;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 20px;
+}
                 .spacer {
                     height: 20px; /* Dostosuj wysokość przestrzeni spacerowej */
                 }
@@ -1111,9 +1146,31 @@ span.highlight {
     user-select: none;
     text-transform: none;     /* normalne litery */
 }
+/* parzyste */
+.left-side-button {
+    left: 20px;
+}
+
+/* nieparzyste */
+.right-side-button {
+    right: 10px;
+}
             }
             @media (max-width: 999px) {
-
+                .sentence-line {
+    font-size: 7px;
+    color: white;
+    text-align: center;
+    line-height: 1.6;
+    margin-top: 8px;
+}
+                .thumb-czas {
+    font-size: 7px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 4px;
+        color: white;
+}
                     .search-container {
         width: 100%;
         margin: 0 auto; /* wyśrodkowanie kontenera */
@@ -1417,15 +1474,13 @@ input {
     .image-container3b {
         display: flex;
         flex-direction: column;
-        justify-content: center;
         align-items: center;
         width: 100%;
-        max-width: 100%;
+        min-height: 620px;
         box-sizing: border-box;
         background-color: blue;
         font-size: 16px;
         z-index: 10000;
-        overflow: visible !important;
     }
                 .run-button4 {
     position: absolute;
@@ -1500,14 +1555,14 @@ input {
                     order: -1; /* Kolejność odwrotna - spycha w dół */
                     z-index: 110;
                 }
-                                #wordDisplay {
+                .wordDisplay.nieparzysty {
     position: absolute;
-    bottom: 370px;
+    bottom: 200px;
     cursor: pointer;
-    font-size: 18px;
-    left: 200px;
+    font-size: 22px;
+    right: -150px;
     width: 130px;
-    height: 27px;
+    height: 30px;
     text-align: center;
     line-height: 30px;
     color: black;
@@ -1515,6 +1570,20 @@ input {
     background-color: lightgray;
     border-radius: 8px;
     border: 2px solid black;
+}
+
+.wordDisplay.parzysty {
+    position: absolute;
+    top: 120px;
+    left: -160px;
+    width: 130px;
+    height: 27px;
+    line-height: 30px;
+    text-align: center;
+    background-color: lightgray;
+    border-radius: 8px;
+    border: 2px solid black;
+    z-index: 101;
 }
 /* Parzyste → lewa strona kontenera */
 .word-left {
@@ -1643,18 +1712,18 @@ input {
                     margin-bottom: -140px;
                     z-index: 9999999;
                 }
-                .dynamic-div {
-                    position: absolute;
-                    top: 10px; /* Ustawienie w dowolnym miejscu w kontenerze */
-                    left: 10px;
-                    font-size: 10px;
-                    width: 70px; /* Szerokość dynamicznego div-a */
-                    height: 20px; /* Wysokość dynamicznego div-a */
-                    background-color: rgba(255, 0, 0, 0.5); /* Przezroczyste tło */
-                    color: white;
-                    z-index: 1000; /* Wyższy z-index, aby był nad overlay */
-                    display: none; /* Początkowo ukryty */
-                }
+.dynamic-div {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    background-color: #1e90ff; /* niebieski */
+    color: white;
+    padding: 8px 12px;
+    border-radius: 6px;
+    font-size: 14px;
+    font-weight: 600;
+    z-index: 5;
+}
                                 .dynamic-div2 {
                     position: absolute;
                     top: 10px; /* Ustawienie w dowolnym miejscu w kontenerze */
@@ -2143,7 +2212,6 @@ input {
 .thumb-item {
     display: flex;
     flex-direction: column;
-    align-items: center;
     cursor: pointer;
     width: 40px;
 }
@@ -2154,7 +2222,6 @@ input {
 
 /* miniatury */
 .thumb-img {
-    width: 50px;
     height: auto;
     border-radius: 10px;
     object-fit: cover;
@@ -2164,9 +2231,10 @@ input {
 
 /* opis pod miniaturą */
 .thumb-desc {
-    font-size: 12px;
+    font-size: 10px;
     text-align: center;
     margin-top: 2px;
+    border-radius: 8px;
 }
 
 /* link pod miniaturą */
@@ -2228,7 +2296,7 @@ input {
 
 /* parzyste */
 .left-side-button {
-    left: 5px;
+    left: 100px;
 }
 
 /* nieparzyste */
@@ -2332,10 +2400,7 @@ input {
                         const tablica10 = [];
                         const tablica10a = [];
                         const tablica11 = [];
-// Dodaj przycisk do kontenera
-$(".grid-container").append(`
-    <button id="startButton" class="floating-btn">▶ Start Arbu świat</button>
-`);
+
 
 // Nadaj mu styl, żeby był "pływający"
 $(".floating-btn").css({
@@ -4114,7 +4179,7 @@ if (flagaPrzycisku2 && !flagaPrzycisku && (tablica10.length <= indexDivRange) &&
 
             }
             </script>
-                                                                                        <script src="start/miniatury-prezentacja.js"></script>
+                                                                                        <script src="start/miniatury-prezentacja3.js"></script>
                                 <script src="displayx3.js"></script>
                                     <script src="nowydzialajacy.js"></script>
         <script src="displayx1.js"></script>

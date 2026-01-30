@@ -1,7 +1,53 @@
 @media (min-width: 999px) {
+    .phrases-button {
+    height: 60px;
+    margin-left: 10px;
+    padding: 0 16px;
+
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+
+    color: #333;
+    background: linear-gradient(180deg, #f5f5f5, #e6e6e6);
+    border: 1px solid #bdbdbd;
+    border-radius: 10px;
+
+    cursor: pointer;
+    user-select: none;
+
+    box-shadow: 
+        0 2px 4px rgba(0,0,0,0.15),
+        inset 0 1px 0 rgba(255,255,255,0.8);
+
+    transition: 
+        background 0.2s ease,
+        box-shadow 0.2s ease,
+        transform 0.1s ease;
+}
 .fiszka {
-    top: 380px;
-    left: 370px;
+    top: 280px;
+    left: 330px;
+    position: absolute;
+    border: 1px solid #999;
+    background: #eee;
+    border-radius: 5px;
+    text-align: center;
+    width: 100%;
+    height: auto;
+    margin-right: 200px; /* Ustaw margines prawy */
+    box-sizing: border-box; /* Wlicz marginesy w szerokoĹÄ i wysokoĹÄ */
+    z-index: 10000000;
+    margin-top: 20px;
+}
+                .nieparzysta {
+    top: 280px;
+    left: -300px;
     position: absolute;
     border: 1px solid #999;
     background: #eee;
@@ -231,10 +277,41 @@ story_button {
 
             }
             @media (max-width: 999px) {
+                    .phrases-button {
+    height: 60px;
+    margin-left: 10px;
+    padding: 0 16px;
+
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+
+    color: #333;
+    background: linear-gradient(180deg, #f5f5f5, #e6e6e6);
+    border: 1px solid #bdbdbd;
+    border-radius: 10px;
+
+    cursor: pointer;
+    user-select: none;
+
+    box-shadow: 
+        0 2px 4px rgba(0,0,0,0.15),
+        inset 0 1px 0 rgba(255,255,255,0.8);
+
+    transition: 
+        background 0.2s ease,
+        box-shadow 0.2s ease,
+        transform 0.1s ease;
+}
                 .fiszka {
     position: absolute;
     padding: 10px;
-    left: 170px;
+    left: 180px;
     top: 205px;
         width: 160px;
     margin: 5px;
@@ -250,7 +327,7 @@ story_button {
     position: absolute;
     padding: 10px;
     left: -190px;
-        top: 165px;
+        top: 250px;
     width: 170px;
     margin: 5px;
     background-color: white;
@@ -261,11 +338,12 @@ story_button {
     font-family: Arial, sans-serif;
     color: #333;
 }
-.fiszka_story {
-    display: block;
-    margin-top: 65px;
-    font-size: 15px;
-}
+    .fiszka_story {
+        display: block;
+        margin-top: 15px;
+        font-size: 40px;
+        text-align: center;
+    }
 .fiszka.active2 {
     border: 1px solid #999;
     background: green;
@@ -365,15 +443,17 @@ img.fiszka_img {
 }
 
 .fiszka_button.fiszka_button_trening {
+    margin-top: 10px;
     border-radius: 20px;
-  width: 100px;  /* Dostosuj szerokoĹÄ wedĹug wĹasnych preferencji */
+  width: 80px;  /* Dostosuj szerokoĹÄ wedĹug wĹasnych preferencji */
   height: 20px;  /* Dostosuj wysokoĹÄ wedĹug wĹasnych preferencji */
   font-size: 8px;
   /* Dodaj inne wĹaĹciwoĹci CSS, jeĹli sÄ potrzebne */
 }
 .fiszka_button.fiszka_button_znam {
+    margin-top: 10px;
         border-radius: 20px;
-  width: 100px;  /* Dostosuj szerokoĹÄ wedĹug wĹasnych preferencji */
+  width: 80px;  /* Dostosuj szerokoĹÄ wedĹug wĹasnych preferencji */
   height: 20px;  /* Dostosuj wysokoĹÄ wedĹug wĹasnych preferencji */
     font-size: 8px;
   /* Dodaj inne wĹaĹciwoĹci CSS, jeĹli sÄ potrzebne */
@@ -387,7 +467,7 @@ button.fiszka_button {
 button.story_button {
     border-radius: 15px;
     padding: 5px 5px;
-    font-size: 10px;
+    font-size: 5px;
     width: auto;
     max-width: 100%;
     box-sizing: border-box;

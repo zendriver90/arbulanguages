@@ -6,22 +6,22 @@ id: [
 ],
         // obrazek
         img: [
-                "http://localhost/arbulanguage.com/img/fiszkiespanol/1a.jpg",
-                "http://localhost/arbulanguage.com/img/fiszkiespanol/1b.jpg",
-                "http://localhost/arbulanguage.com/img/fiszkiespanol/1c.jpg",
-                "http://localhost/arbulanguage.com/img/fiszkiespanol/1d.jpg"
+                "https://www.arbulang.com/img/fiszkiespanol/1a.jpg",
+                "https://www.arbulang.com/img/fiszkiespanol/1b.jpg",
+                "https://www.arbulang.com/img/fiszkiespanol/1c.jpg",
+                "https://www.arbulang.com/img/fiszkiespanol/1d.jpg"
         ],
         translate: "Rysować kwiat w zeszycie",
         translateb: "[Dibuhar una flor en el kuaderno]",
-        srcWord: ["http://localhost/arbulanguage.com/filmy/esp/drawing.mp4", 'Titanic'],
-        srcWordimage: "http://localhost/arbulanguage.com/filmy/esp/drawing.png",
+        srcWord: ["https://www.arbulang.com/filmy/esp/drawing.mp4", 'Titanic'],
+        srcWordimage: "https://www.arbulang.com/filmy/esp/drawing.png",
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // historia
         story: [
                 "Malarz <u><b>Di</u></b>no z kreskówki <u><b>rysuje</u></b> piękne obrazy. Namalował piechura, który ma śmieszne <u><b>bu</u></b>ty. Piechur ma silny <u><b>har</u></b>t ducha",
-                "W kreskówce <u><b>Di</u></b>sneya czasie wiosny natura <u><b>bu</u></b>dzi się do życia.. jest prawie ciepło tak jak gdzie Sa<u><b>har</u></b>a",
+                "W kreskówce <u><b>Di</u></b>sneya - w czasie wiosny natura <u><b>bu</u></b>dzi się do życia.. jest prawie ciepło tak jak gdzie Sa<u><b>har</u></b>a",
                 "W <u><b>bu</u></b>dce festiwalowej można kupić watę cukrową. Ten produkt to inaczej sa<u><b>har</u></b>oza. Naukowiec Wal<u><b>di</u></b> lubi watę cukrową",
                 "Ban<u><b>di</u></b> się <u><b>bu</u></b>dzi i jest za<u><b>har</u></b>towany, bo w domu jest zimno. Ciężko pracuje jako rysownik(rysować), żeby zarobić na dom",
                 ""
@@ -61,10 +61,10 @@ id: [
 ],
         // obrazek
         img: [
-            "http://localhost/arbulanguage.com/img/fiszkiespanol/2a.jpg"
+            "https://www.arbulang.com/img/fiszkiespanol/2a.jpg"
         ],
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // historia
         story: [
@@ -97,14 +97,14 @@ id: [
 ],
         // obrazek
         img: [
-                "http://localhost/arbulanguage.com/img/fiszkiespanol/3a.jpg"
+                "https://www.arbulang.com/img/fiszkiespanol/3a.jpg"
         ],
         word: [
-                "http://localhost/arbulanguage.com/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/arbulanguage.com/voice/music.mp4"
         ],
         // historia
         story: [
-                "W <u><b>en</u></b>cykopedi jest podstawowa wiedza"
+                "W <u><b>en</u></b>cyklopedi jest podstawowa wiedza"
         ],
         // opis
         desc: "en[en] - w",
@@ -135,17 +135,17 @@ id: [
 ],
         // obrazek
         img: [
-                "http://localhost/arbulanguage.com/img/fiszkiespanol/4a.jpg"
+                "https://www.arbulang.com/img/fiszkiespanol/4a.jpg"
         ],
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // historia
         story: [
                 "<u><b>Kłade</u></b> zeszyt na biurko i zaczynam się uczyć o mo<u><b>der</u></b>nistycznych budowlach... <u><b>No</u></b> ciekawa wiedza"
         ],
         // opis
-        desc: "el cuaderno[en cuaderno] - zeszyt",
+        desc: "el cuaderno[en kuaderno] - zeszyt",
         //zdanie
         sentence2: [
                 "el_cuaderno"
@@ -154,7 +154,7 @@ id: [
             "zeszycie"
         ],
                 sentence2c: [
-            "el_cuaderno"
+            "el_kuaderno"
         ],
         sentence: [
                 "en",
@@ -174,14 +174,14 @@ id: [
 ],
         // obrazek
         img: [
-                "http://localhost/arbulanguage.com/img/fiszkiespanol/5a.jpg"
+                "https://www.arbulang.com/img/fiszkiespanol/5a.jpg"
         ],
         translate: "Czekać samemu w domu",
         translateb: "[Esperar solo dentro de la kasa]",
-        srcWord: ["http://localhost/arbulanguage.com/filmy/esp/home.mp4", 'Mechanik. Konfrontacja'],
-        srcWordimage: "http://localhost/arbulanguage.com/filmy/esp/home.png",
+        srcWord: ["https://www.arbulang.com/filmy/esp/home.mp4", 'Mechanik. Konfrontacja'],
+        srcWordimage: "https://www.arbulang.com/filmy/esp/home.png",
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // historia
         story: [
@@ -217,17 +217,17 @@ id: [
 ],
         // obrazek
         img: [
-                "http://localhost/arbulanguage.com/img/fiszkiespanol/6a.jpg"
+                "https://www.arbulang.com/img/fiszkiespanol/6a.jpg"
         ],
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // historia
         story: [
                 "<u><b>Solo</u></b>wy album jest <u><b>po prostu</u></b> najlepszą promocja dla artysty"
         ],
         // opis
-        desc: "solo[solo] - samemu",
+        desc: "solo[solo] - samemu/tylko",
         //zdanie
         sentence1: [
                 "solo"
@@ -257,12 +257,12 @@ id: [
         img: [
                 "",
                 "",
-                "http://localhost/arbulanguage.com/img/fiszkiespanol/7a.jpg",
+                "https://www.arbulang.com/img/fiszkiespanol/7a.jpg",
                 "",
                 ""
         ],
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // historia
         story: [
@@ -297,10 +297,10 @@ id: [
 ],
         // obrazek
         img: [
-                "http://localhost/arbulanguage.com/fiszkiespanol/8a.jpg"
+                "https://www.arbulang.com/fiszkiespanol/8a.jpg"
         ],
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // historia
         story: [
@@ -335,14 +335,14 @@ id: [
 ],
         // obrazek
         img: [
-                "http://localhost/arbulanguage.com/img/fiszkiespanol/9a.jpg"
+                "https://www.arbulang.com/img/fiszkiespanol/9a.jpg"
         ],
         translate: "Rozmawiać bez napięcia, idąc razem",
         translateb: "[Ablar sin tensión mientras kaminamos huntos]",
-        srcWord: ["http://localhost/arbulanguage.com/filmy/esp/conversation.mp4", 'Incepcja'],
-        srcWordimage: "http://localhost/arbulanguage.com/filmy/esp/conversation.png",
+        srcWord: ["https://www.arbulang.com/filmy/esp/conversation.mp4", 'Incepcja'],
+        srcWordimage: "https://www.arbulang.com/filmy/esp/conversation.png",
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // historia
         story: [
@@ -379,10 +379,10 @@ id: [
 ],
         // obrazek
         img: [
-                "http://localhost/arbulanguage.com/img/fiszkiespanol/10a.jpg"
+                "https://www.arbulang.com/img/fiszkiespanol/10a.jpg"
         ],
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // historia
         story: [
@@ -418,10 +418,10 @@ id: [
 ],
         // obrazek
         img: [
-                "http://localhost/arbulanguage.com/img/fiszkiespanol/11a.jpg"
+                "https://www.arbulang.com/img/fiszkiespanol/11a.jpg"
         ],
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // historia
         story: [
@@ -457,10 +457,10 @@ id: [
 ],
         // obrazek
         img: [
-                "http://localhost/arbulanguage.com/img/fiszkiespanol/12a.jpg"
+                "https://www.arbulang.com/img/fiszkiespanol/12a.jpg"
         ],
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // historia
         story: [
@@ -496,10 +496,10 @@ id: [
 ],
         // obrazek
         img: [
-                "http://localhost/arbulanguage.com/img/fiszkiespanol/13a.jpg"
+                "https://www.arbulang.com/img/fiszkiespanol/13a.jpg"
         ],
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // historia
         story: [
@@ -535,10 +535,10 @@ id: [
 ],
         // obrazek
         img: [
-                "http://localhost/arbulanguage.com/img/fiszkiespanol/14a.jpg"
+                "https://www.arbulang.com/img/fiszkiespanol/14a.jpg"
         ],
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // historia
         story: [
@@ -574,14 +574,14 @@ id: [
 ],
         // obrazek
         img: [
-                "http://localhost/arbulanguage.com/img/fiszkiespanol/15a.jpg"
+                "https://www.arbulang.com/img/fiszkiespanol/15a.jpg"
         ],
         translate: "Przerywać ciszę pięknymi słowami",
         translateb: "[Romper el silensio kon palawras bonitas]",
-        srcWord: ["http://localhost/arbulanguage.com/filmy/esp/beautiful-words.mp4", '300'],
-        srcWordimage: "http://localhost/arbulanguage.com/filmy/esp/beautiful-words.png",
+        srcWord: ["https://www.arbulang.com/filmy/esp/beautiful-words.mp4", '300'],
+        srcWordimage: "https://www.arbulang.com/filmy/esp/beautiful-words.png",
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // historia
         story: [
@@ -618,10 +618,10 @@ id: [
 ],
         // obrazek
         img: [
-                "http://localhost/arbulanguage.com/img/fiszkiespanol/16a.jpg"
+                "https://www.arbulang.com/img/fiszkiespanol/16a.jpg"
         ],
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // historia
         story: [
@@ -657,10 +657,10 @@ id: [
 ],
         // obrazek
         img: [
-                "http://localhost/arbulanguage.com/img/fiszkiespanol/17a.jpg"
+                "https://www.arbulang.com/img/fiszkiespanol/17a.jpg"
         ],
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // historia
         story: [
@@ -696,10 +696,10 @@ id: [
 ],
         // obrazek
         img: [
-                "http://localhost/arbulanguage.com/img/fiszkiespanol/18a.jpg"
+                "https://www.arbulang.com/img/fiszkiespanol/18a.jpg"
         ],
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // historia
         story: [
@@ -734,10 +734,10 @@ id: [
 ],
         // obrazek
         img: [
-                "http://localhost/arbulanguage.com/img/fiszkiespanol/19a.jpg"
+                "https://www.arbulang.com/img/fiszkiespanol/19a.jpg"
         ],
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // historia
         story: [
@@ -772,14 +772,14 @@ id: [
 ],
         // obrazek
         img: [
-                "http://localhost/arbulanguage.com/img/fiszkiespanol/20a.jpg"
+                "https://www.arbulang.com/img/fiszkiespanol/20a.jpg"
         ],
         translate: "Zabezpieczać drzwi przed snem",
         translateb: "[Asegurar las puertas antes de dormir]",
-        srcWord: ["http://localhost/arbulanguage.com/filmy/esp/door.mp4", 'The Matrix Reloaded'],
-        srcWordimage: "http://localhost/arbulanguage.com/filmy/esp/door.png",
+        srcWord: ["https://www.arbulang.com/filmy/esp/door.mp4", 'The Matrix Reloaded'],
+        srcWordimage: "https://www.arbulang.com/filmy/esp/door.png",
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // historia
         story: [
@@ -790,6 +790,12 @@ id: [
         //zdanie
         sentence1: [
                 "Asegurar"
+        ],
+                                sentence1b: [
+            "Zabezpieczać"
+        ],
+                sentence1c: [
+            "Asegurar"
         ],
         sentence: [
                 "Asegurar",
@@ -809,20 +815,26 @@ id: [
 ],
         // obrazek
         img: [
-                "http://localhost/arbulanguage.com/img/fiszkiespanol/21a.jpg"
+                "https://www.arbulang.com/img/fiszkiespanol/21a.jpg"
         ],
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // historia
         story: [
                 "Wchodzę do k<u><b>las</u></b>y, po tym jak s<u><b>pó</u></b>źiłem się na lekcję, otwieram <u><b>drzwi</u></b>, a na biórku nauczyciela st<u><b>erta</u></b> książek"
         ],
         // opis
-        desc: "la puerta[las puerta] - drzwi",
+        desc: "la puertas[las puertas] - drzwi",
         //zdanie
         sentence1: [
-                "las puertas"
+                "las_puertas"
+        ],
+                                        sentence1b: [
+            "drzwi"
+        ],
+                sentence1c: [
+            "las_puerta"
         ],
         sentence: [
                 "Asegurar",
@@ -841,10 +853,10 @@ id: [
 ],
         // obrazek
         img: [
-                "http://localhost/arbulanguage.com/img/fiszkiespanol/22a.jpg"
+                "https://www.arbulang.com/img/fiszkiespanol/22a.jpg"
         ],
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // historia
         story: [
@@ -854,7 +866,13 @@ id: [
         desc: "antes de[antes de] - przed",
         //zdanie
         sentence2: [
-                "antes de"
+                "antes_de"
+        ],
+                                                sentence2b: [
+            "przed"
+        ],
+                sentence2c: [
+            "antes_de"
         ],
         sentence: [
                 "antes de",
@@ -873,10 +891,10 @@ id: [
 ],
         // obrazek
         img: [
-                "http://localhost/arbulanguage.com/img/fiszkiespanol/23a.jpg"
+                "https://www.arbulang.com/img/fiszkiespanol/23a.jpg"
         ],
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // historia
         story: [
@@ -887,6 +905,12 @@ id: [
         //zdanie
         sentence2: [
                 "dormir"
+        ],
+                                                        sentence2b: [
+            "snem"
+        ],
+                sentence2c: [
+            "dormir"
         ],
         sentence: [
                 "antes de",
@@ -905,14 +929,14 @@ id: [
 ],
         // obrazek
         img: [
-                "http://localhost/arbulanguage.com/img/fiszkiespanol/24a.jpg"
+                "https://www.arbulang.com/img/fiszkiespanol/24a.jpg"
         ],
         translate: "Zachować spokój i cieszyć się razem",
         translateb: "[Mantener la kalma i disfrutar huntos]",
-        srcWord: ["http://localhost/arbulanguage.com/filmy/esp/smiling.mp4", '300'],
-        srcWordimage: "http://localhost/arbulanguage.com/filmy/esp/smiling.png",
+        srcWord: ["https://www.arbulang.com/filmy/esp/smiling.mp4", '300'],
+        srcWordimage: "https://www.arbulang.com/filmy/esp/smiling.png",
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // historia
         story: [
@@ -923,6 +947,12 @@ id: [
         //zdanie
         sentence1: [
                 "Mantener"
+        ],
+                                                                sentence1b: [
+            "Zachować"
+        ],
+                sentence1c: [
+            "Mantener"
         ],
         sentence: [
                 "Mantener",
@@ -942,10 +972,10 @@ id: [
 ],
         // obrazek
         img: [
-                "http://localhost/arbulanguage.com/img/fiszkiespanol/25a.jpg"
+                "https://www.arbulang.com/img/fiszkiespanol/25a.jpg"
         ],
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // historia
         story: [
@@ -955,7 +985,13 @@ id: [
         desc: "la calma[la kalma] - spokój",
         //zdanie
         sentence1: [
-                "la calma"
+                "la_calma"
+        ],
+                                                                        sentence1b: [
+            "spokój"
+        ],
+                sentence1c: [
+            "la_kalma"
         ],
         sentence: [
                 "Mantener",
@@ -974,10 +1010,10 @@ id: [
 ],
         // obrazek
         img: [
-                "http://localhost/arbulanguage.com/img/fiszkiespanol/26a.jpg"
+                "https://www.arbulang.com/img/fiszkiespanol/26a.jpg"
         ],
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // historia
         story: [
@@ -988,6 +1024,12 @@ id: [
         //zdanie
         sentence2: [
                 "y"
+        ],
+                                                                                sentence2b: [
+            "i"
+        ],
+                sentence2c: [
+            "i"
         ],
         sentence: [
                 "y",
@@ -1007,10 +1049,10 @@ id: [
 ],
         // obrazek
         img: [
-                "http://localhost/arbulanguage.com/img/fiszkiespanol/27a.jpg"
+                "https://www.arbulang.com/img/fiszkiespanol/27a.jpg"
         ],
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // historia
         story: [
@@ -1021,6 +1063,12 @@ id: [
         //zdanie
         sentence2: [
                 "disfrutar"
+        ],
+                                                                                        sentence2b: [
+            "cieszyć_się"
+        ],
+                sentence2c: [
+            "disfrutar"
         ],
         sentence: [
                 "y",
@@ -1040,10 +1088,10 @@ id: [
 ],
         // obrazek
         img: [
-                "http://localhost/arbulanguage.com/img/fiszkiespanol/14a.jpg"
+                "https://www.arbulang.com/img/fiszkiespanol/14a.jpg"
         ],
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // historia
         story: [
@@ -1054,6 +1102,12 @@ id: [
         //zdanie
         sentence2: [
                 "juntos"
+        ],
+                                                                                                sentence2b: [
+            "razem"
+        ],
+                sentence2c: [
+            "huntos"
         ],
         sentence: [
                 "y",
@@ -1073,14 +1127,14 @@ id: [
 ],
         // obrazek
         img: [
-                "http://localhost/arbulanguage.com/img/fiszkiespanol/29a.jpg"
+                "https://www.arbulang.com/img/fiszkiespanol/29a.jpg"
         ],
         translate: "Osiągać marzenia przez wysiłek i poświęcenie",
         translateb: "[Lograr sueños con esfuerzo y dedicación]",
-        srcWord: ["http://localhost/arbulanguage.com/filmy/esp/dreams.mp4", 'Pain And Gain'],
-        srcWordimage: "http://localhost/arbulanguage.com/filmy/esp/dreams.png",
+        srcWord: ["https://www.arbulang.com/filmy/esp/dreams.mp4", 'Pain And Gain'],
+        srcWordimage: "https://www.arbulang.com/filmy/esp/dreams.png",
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // historia
         story: [
@@ -1091,6 +1145,12 @@ id: [
         //zdanie
         sentence1: [
                 "Lograr"
+        ],
+                                                                                                        sentence1b: [
+            "Osiągać"
+        ],
+                sentence1c: [
+            "Lograr"
         ],
         sentence: [
                 "Lograr",
@@ -1111,10 +1171,10 @@ id: [
 ],
         // obrazek
         img: [
-                "http://localhost/arbulanguage.com/img/fiszkiespanol/30a.jpg"
+                "https://www.arbulang.com/img/fiszkiespanol/30a.jpg"
         ],
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // historia
         story: [
@@ -1125,6 +1185,12 @@ id: [
         //zdanie
         sentence1: [
                 "sueños"
+        ],
+                                                                                                                sentence1b: [
+            "marzenia"
+        ],
+                sentence1c: [
+            "słenios"
         ],
         sentence: [
                 "Lograr",
@@ -1144,11 +1210,11 @@ id: [
 ],
         // obrazek
         img: [
-            "http://localhost/arbulanguage.com/img/fiszkiespanol/17a.jpg",
-                "http://localhost/arbulanguage.com/img/fiszkiespanol/31a.jpg"
+            "https://www.arbulang.com/img/fiszkiespanol/17a.jpg",
+                "https://www.arbulang.com/img/fiszkiespanol/31a.jpg"
         ],
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // historia
         story: [
@@ -1160,6 +1226,12 @@ id: [
         //zdanie
         sentence1: [
                 "con"
+        ],
+                                                                                                                        sentence1b: [
+            "przez"
+        ],
+                sentence1c: [
+            "kon"
         ],
         sentence: [
                 "Lograr",
@@ -1179,10 +1251,10 @@ id: [
 ],
         // obrazek
         img: [
-                "http://localhost/arbulanguage.com/img/fiszkiespanol/32a.jpg"
+                "https://www.arbulang.com/img/fiszkiespanol/32a.jpg"
         ],
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // historia
         story: [
@@ -1193,6 +1265,12 @@ id: [
         //zdanie
         sentence2: [
                 "esfuerzo"
+        ],
+            sentence2b: [
+            "wysiłek"
+        ],
+                sentence2c: [
+            "esfłerto"
         ],
         sentence: [
                 "esfuerzo",
@@ -1212,10 +1290,10 @@ id: [
 ],
         // obrazek
         img: [
-                "http://localhost/arbulanguage.com/img/fiszkiespanol/26a.jpg"
+                "https://www.arbulang.com/img/fiszkiespanol/26a.jpg"
         ],
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // historia
         story: [
@@ -1226,6 +1304,12 @@ id: [
         //zdanie
         sentence2: [
                 "y"
+        ],
+                    sentence2b: [
+            "i"
+        ],
+                sentence2c: [
+            "i"
         ],
         sentence: [
                 "esfuerzo",
@@ -1245,10 +1329,10 @@ id: [
 ],
         // obrazek
         img: [
-                "http://localhost/arbulanguage.com/img/fiszkiespanol/34a.jpg"
+                "https://www.arbulang.com/img/fiszkiespanol/34a.jpg"
         ],
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // historia
         story: [
@@ -1259,6 +1343,12 @@ id: [
         //zdanie
         sentence2: [
                 "dedication"
+        ],
+                    sentence2b: [
+            "poświęcenie"
+        ],
+                sentence2c: [
+            "dedikasion"
         ],
         sentence: [
                 "esfuerzo",
@@ -1278,14 +1368,14 @@ id: [
 ],
         // obrazek
         img: [
-                "http://localhost/arbulanguage.com/img/fiszki1/35a.jpg"
+                "https://www.arbulang.com/img/fiszki1/35a.jpg"
         ],
         translate: "Pamiętać szczęśliwe chwile z rodziną",
         translateb: "[Recordar momentos felices con la familia]",
-        srcWord: ["http://localhost/arbulanguage.com/filmy/esp/timewithfamily.mp4", 'Fast and Furious'],
-        srcWordimage: "http://localhost/arbulanguage.com/filmy/esp/timewithfamily.png",
+        srcWord: ["https://www.arbulang.com/filmy/esp/timewithfamily.mp4", 'Fast and Furious'],
+        srcWordimage: "https://www.arbulang.com/filmy/esp/timewithfamily.png",
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // historia
         story: [
@@ -1296,6 +1386,12 @@ id: [
         //zdanie
         sentence1: [
                 "Recordar"
+        ],
+                            sentence1b: [
+            "Pamiętać"
+        ],
+                sentence1c: [
+            "rekordar"
         ],
         sentence: [
                 "Recordar",
@@ -1316,10 +1412,10 @@ id: [
 ],
         // obrazek
         img: [
-                "http://localhost/arbulanguage.com/img/fiszki1/36a.jpg"
+                "https://www.arbulang.com/img/fiszki1/36a.jpg"
         ],
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // historia
         story: [
@@ -1331,6 +1427,12 @@ id: [
         //zdanie
         sentence1: [
                 "momentos"
+        ],
+                                    sentence1b: [
+            "momenty"
+        ],
+                sentence1c: [
+            "momentos"
         ],
         sentence: [
                 "Recordar",
@@ -1350,10 +1452,10 @@ id: [
 ],
         // obrazek
         img: [
-                "http://localhost/arbulanguage.com/img/fiszki1/37a.jpg"
+                "https://www.arbulang.com/img/fiszki1/37a.jpg"
         ],
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // historia
         story: [
@@ -1364,6 +1466,12 @@ id: [
         //zdanie
         sentence1: [
                 "felices"
+        ],
+                                            sentence1b: [
+            "szczęśliwe"
+        ],
+                sentence1c: [
+            "felises"
         ],
         sentence: [
                 "Recordar",
@@ -1383,11 +1491,11 @@ id: [
 ],
         // obrazek
         img: [
-            "http://localhost/arbulanguage.com/img/fiszkiespanol/17a.jpg",
-                "http://localhost/arbulanguage.com/img/fiszkiespanol/31a.jpg"
+            "https://www.arbulang.com/img/fiszkiespanol/17a.jpg",
+                "https://www.arbulang.com/img/fiszkiespanol/31a.jpg"
         ],
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // historia
         story: [
@@ -1399,6 +1507,12 @@ id: [
         //zdanie
         sentence2: [
                 "con"
+        ],
+                                                    sentence2b: [
+            "z"
+        ],
+                sentence2c: [
+            "kon"
         ],
         sentence: [
                 "con",
@@ -1417,10 +1531,10 @@ id: [
 ],
         // obrazek
         img: [
-                "http://localhost/arbulanguage.com/img/fiszki1/39a.jpg"
+                "https://www.arbulang.com/img/fiszki1/39a.jpg"
         ],
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // historia
         story: [
@@ -1431,7 +1545,13 @@ id: [
         desc: "la familia[la familia] - rodzina",
         //zdanie
         sentence2: [
-                "la familia"
+                "la_familia"
+        ],
+                                                            sentence2b: [
+            "rodziną"
+        ],
+                sentence2c: [
+            "la_familia"
         ],
         sentence: [
                 "con",
@@ -1450,14 +1570,14 @@ id: [
 ],
         // obrazek
         img: [
-                "http://localhost/arbulanguage.com/img/fiszkiespanol/27a.jpg"
+                "https://www.arbulang.com/img/fiszkiespanol/27a.jpg"
         ],
         translate: "Cieszyć się makijażem przed wyjściem",
         translateb: "[Disfrutar del maquillaje antes de salir]",
-        srcWord: ["http://localhost/arbulanguage.com/filmy/esp/make-up.mp4", 'Piosenka: 10 minutes - Inna'],
-        srcWordimage: "http://localhost/arbulanguage.com/filmy/esp/make-up.png",
+        srcWord: ["https://www.arbulang.com/filmy/esp/make-up.mp4", 'Piosenka: 10 minutes - Inna'],
+        srcWordimage: "https://www.arbulang.com/filmy/esp/make-up.png",
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // historia
         story: [
@@ -1469,6 +1589,12 @@ id: [
         //zdanie
         sentence1: [
                 "Disfrutar"
+        ],
+                                                                    sentence1b: [
+            "Cieszyć_się"
+        ],
+                sentence1c: [
+            "disfrutar"
         ],
         sentence: [
                 "Disfrutar",
@@ -1488,10 +1614,10 @@ id: [
 ],
         // obrazek
         img: [
-                "http://localhost/arbulanguage.com/img/fiszki1/41a.jpg"
+                "https://www.arbulang.com/img/fiszki1/41a.jpg"
         ],
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // historia
         story: [
@@ -1501,7 +1627,13 @@ id: [
         desc: "maquillaje[makijahe] - makijaż",
         //zdanie
         sentence1: [
-                "del maquillaje"
+                "maquillaje"
+        ],
+                                                                            sentence1b: [
+            "makijażem"
+        ],
+                sentence1c: [
+            "makijahe"
         ],
         sentence: [
                 "Disfrutar",
@@ -1520,10 +1652,10 @@ id: [
 ],
         // obrazek
         img: [
-                "http://localhost/arbulanguage.com/img/fiszkiespanol/22a.jpg"
+                "https://www.arbulang.com/img/fiszkiespanol/22a.jpg"
         ],
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // historia
         story: [
@@ -1534,7 +1666,13 @@ id: [
         //zdanie
         //zdanie
         sentence2: [
-                "antes de"
+                "antes_de"
+        ],
+                                                                                    sentence2b: [
+            "przed"
+        ],
+                sentence2c: [
+            "antes_de"
         ],
         sentence: [
                 "antes de",
@@ -1553,10 +1691,10 @@ id: [
 ],
         // obrazek
         img: [
-                "http://localhost/arbulanguage.com/img/fiszkiespanol/43a.jpg"
+                "https://www.arbulang.com/img/fiszkiespanol/43a.jpg"
         ],
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // historia
         story: [
@@ -1567,6 +1705,12 @@ id: [
         //zdanie
         sentence2: [
                 "salir"
+        ],
+                                                                                            sentence2b: [
+            "wyjściem"
+        ],
+                sentence2c: [
+            "salir"
         ],
         sentence: [
                 "antes de",
@@ -1585,14 +1729,14 @@ id: [
 ],
         // obrazek
         img: [
-                "http://localhost/arbulanguage.com/img/fiszkiespanol/44a.jpg"
+                "https://www.arbulang.com/img/fiszkiespanol/44a.jpg"
         ],
         translate: "Zapomnieć o niepokoju, patrząc na gwiazdy",
         translateb: "[Olvidar la ansiedad mirando las estrellas]",
-        srcWord: ["http://localhost/arbulanguage.com/filmy/esp/gwiazdy.mp4", 'Pasażerowie (2016)'],
-        srcWordimage: "http://localhost/arbulanguage.com/filmy/esp/gwiazdy.png",
+        srcWord: ["https://www.arbulang.com/filmy/esp/gwiazdy.mp4", 'Pasażerowie (2016)'],
+        srcWordimage: "https://www.arbulang.com/filmy/esp/gwiazdy.png",
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // historia
         story: [
@@ -1603,6 +1747,12 @@ id: [
         //zdanie
         sentence1: [
                 "Olvidar"
+        ],
+                                                                                    sentence1b: [
+            "Zapomnieć"
+        ],
+                sentence1c: [
+            "olwidar"
         ],
         sentence: [
                 "Olvidar",
@@ -1622,10 +1772,10 @@ id: [
 ],
         // obrazek
         img: [
-                "http://localhost/arbulanguage.com/img/fiszkiespanol/45a.jpg"
+                "https://www.arbulang.com/img/fiszkiespanol/45a.jpg"
         ],
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // historia
         story: [
@@ -1635,7 +1785,13 @@ id: [
         desc: "la ansiedad[la ansiedad] - niepokój",
         //zdanie
         sentence1: [
-                "la ansiedad"
+                "la_ansiedad"
+        ],
+                                                                                            sentence1b: [
+            "o_niepokoju"
+        ],
+                sentence1c: [
+            "la_ansiedad"
         ],
         sentence: [
                 "Olvidar",
@@ -1654,10 +1810,10 @@ id: [
 ],
         // obrazek
         img: [
-                "http://localhost/arbulanguage.com/img/fiszkiespanol/46a.jpg"
+                "https://www.arbulang.com/img/fiszkiespanol/46a.jpg"
         ],
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // historia
         story: [
@@ -1668,6 +1824,12 @@ id: [
         //zdanie
         sentence2: [
                 "mirando"
+        ],
+                                                                                                    sentence2b: [
+            "patrząc"
+        ],
+                sentence2c: [
+            "mirando"
         ],
         sentence: [
                 "mirando",
@@ -1686,10 +1848,10 @@ id: [
 ],
         // obrazek
         img: [
-                "http://localhost/arbulanguage.com/img/fiszkiespanol/47a.jpg"
+                "https://www.arbulang.com/img/fiszkiespanol/47a.jpg"
         ],
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // historia
         story: [
@@ -1699,7 +1861,13 @@ id: [
         desc: "las estrellas[las estrejas] - gwiazdy",
         //zdanie
         sentence2: [
-                "las estrellas"
+                "las_estrellas"
+        ],
+                                                                                                            sentence2b: [
+            "w_gwiazdy"
+        ],
+                sentence2c: [
+            "las_estrejas"
         ],
         sentence: [
                 "mirando",
@@ -1718,14 +1886,14 @@ id: [
 ],
         // obrazek
         img: [
-                "http://localhost/arbulanguage.com/img/fiszkiespanol/48a.jpg"
+                "https://www.arbulang.com/img/fiszkiespanol/48a.jpg"
         ],
         translate: "Rozciągać ramiona ku błękitnemu niebu",
         translateb: "[Extender los brazos al cielo azul]",
-        srcWord: ["http://localhost/arbulanguage.com/filmy/esp/niebo.mp4", 'Skazani na Shawshank (1994)'],
-        srcWordimage: "http://localhost/arbulanguage.com/filmy/esp/niebo.png",
+        srcWord: ["https://www.arbulang.com/filmy/esp/niebo.mp4", 'Skazani na Shawshank (1994)'],
+        srcWordimage: "https://www.arbulang.com/filmy/esp/niebo.png",
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // historia
         story: [
@@ -1736,6 +1904,12 @@ id: [
         //zdanie
         sentence1: [
                 "Extender"
+        ],
+                                        sentence1b: [
+            "Rozciągać"
+        ],
+                sentence1c: [
+            "ekstender"
         ],
         sentence: [
                 "Extender",
@@ -1756,10 +1930,10 @@ id: [
 ],
         // obrazek
         img: [
-                "http://localhost/arbulanguage.com/img/fiszkiespanol/49a.jpg"
+                "https://www.arbulang.com/img/fiszkiespanol/49a.jpg"
         ],
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // historia
         story: [
@@ -1769,7 +1943,13 @@ id: [
         desc: "los brazos[los brazos] - ramiona",
         //zdanie
         sentence1: [
-                "los brazos"
+                "los_brazos"
+        ],
+                                                sentence1b: [
+            "ramiona"
+        ],
+                sentence1c: [
+            "los_brazos"
         ],
         sentence: [
                 "Extender",
@@ -1789,10 +1969,10 @@ id: [
 ],
         // obrazek
         img: [
-                "http://localhost/arbulanguage.com/img/fiszkiespanol/50a.jpg"
+                "https://www.arbulang.com/img/fiszkiespanol/50a.jpg"
         ],
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // historia
         story: [
@@ -1803,6 +1983,12 @@ id: [
         //zdanie
         sentence1: [
                 "al"
+        ],
+                                                        sentence1b: [
+            "ku"
+        ],
+                sentence1c: [
+            "al"
         ],
         sentence: [
                 "Extender",
@@ -1822,10 +2008,10 @@ id: [
 ],
         // obrazek
         img: [
-                "http://localhost/arbulanguage.com/img/fiszkiespanol/51a.jpg"
+                "https://www.arbulang.com/img/fiszkiespanol/51a.jpg"
         ],
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // historia
         story: [
@@ -1836,6 +2022,12 @@ id: [
         //zdanie
         sentence2: [
                 "cielo"
+        ],
+                                                                sentence2b: [
+            "błękitnemu"
+        ],
+                sentence2c: [
+            "sielo"
         ],
         sentence: [
                 "cielo",
@@ -1854,10 +2046,10 @@ id: [
 ],
         // obrazek
         img: [
-                "http://localhost/arbulanguage.com/img/fiszkiespanol/52a.jpg"
+                "https://www.arbulang.com/img/fiszkiespanol/52a.jpg"
         ],
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // historia
         story: [
@@ -1868,6 +2060,12 @@ id: [
         //zdanie
         sentence2: [
                 "azul"
+        ],
+                                                                        sentence2b: [
+            "niebu"
+        ],
+                sentence2c: [
+            "azul"
         ],
         sentence: [
                 "cielo",
@@ -1886,14 +2084,14 @@ id: [
 ],
         // obrazek
         img: [
-                "http://localhost/arbulanguage.com/img/fiszkiespanol/53a.jpg"
+                "https://www.arbulang.com/img/fiszkiespanol/53a.jpg"
         ],
         translate: "Pokryć samochód przed deszczem",
         translateb: "[Kubrir el coche antes de la lluvia]",
-        srcWord: ["http://localhost/arbulanguage.com/filmy/esp/showingcar.mp4", 'W pogodni za zemstą (2010)'],
-        srcWordimage: "http://localhost/arbulanguage.com/filmy/esp/showingcar.png",
+        srcWord: ["https://www.arbulang.com/filmy/esp/showingcar.mp4", 'W pogodni za zemstą (2010)'],
+        srcWordimage: "https://www.arbulang.com/filmy/esp/showingcar.png",
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // historia
         story: [
@@ -1904,6 +2102,12 @@ id: [
         //zdanie
         sentence1: [
                 "Cubrir"
+        ],
+                                                                                sentence1b: [
+            "Pokryć"
+        ],
+                sentence1c: [
+            "kubrir"
         ],
         sentence: [
                 "Cubrir",
@@ -1925,10 +2129,10 @@ id: [
 ],
         // obrazek
         img: [
-                "http://localhost/arbulanguage.com/img/fiszkiespanol/54a.jpg"
+                "https://www.arbulang.com/img/fiszkiespanol/54a.jpg"
         ],
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // historia
         story: [
@@ -1938,7 +2142,13 @@ id: [
         desc: "el coche[kocze] - samochód",
         //zdanie
         sentence1: [
-                "el coche"
+                "el_coche"
+        ],
+                                                                                        sentence1b: [
+            "samochód"
+        ],
+                sentence1c: [
+            "el_kocze"
         ],
         sentence: [
                 "Cubrir",
@@ -1959,10 +2169,10 @@ id: [
 ],
         // obrazek
         img: [
-                "http://localhost/arbulanguage.com/img/fiszkiespanol/55a.jpg"
+                "https://www.arbulang.com/img/fiszkiespanol/55a.jpg"
         ],
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // historia
         story: [
@@ -1972,7 +2182,13 @@ id: [
         desc: "antes de[antes de] - przed",
         //zdanie
         sentence1: [
-                "antes de"
+                "antes_de"
+        ],
+                                                                                                sentence1b: [
+            "przed"
+        ],
+                sentence1c: [
+            "antes_de"
         ],
         sentence: [
                 "Cubrir",
@@ -1993,10 +2209,10 @@ id: [
 ],
         // obrazek
         img: [
-                "http://localhost/arbulanguage.com/img/fiszkiespanol/56a.jpg"
+                "https://www.arbulang.com/img/fiszkiespanol/56a.jpg"
         ],
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // historia
         story: [
@@ -2006,7 +2222,13 @@ id: [
         desc: "la lluvia[la dziubia] - deszcz",
         //zdanie
         sentence1: [
-                "la lluvia"
+                "la_lluvia"
+        ],
+                                                                                                        sentence1b: [
+            "przed"
+        ],
+                sentence1c: [
+            "la_dzubia"
         ],
         sentence: [
                 "Cubrir",
@@ -2027,14 +2249,14 @@ id: [
 ],
         // obrazek
         img: [
-                "http://localhost/arbulanguage.com/img/fiszkiespanol/57a.jpg"
+                "https://www.arbulang.com/img/fiszkiespanol/57a.jpg"
         ],
         translate: "Zmieniać umysł nowymi pomysłami",
         translateb: "[Cambiar la mente con nuevas ideas]",
-        srcWord: ["http://localhost/arbulanguage.com/filmy/esp/planning.mp4", 'Piękny Umysł (2001)'],
-        srcWordimage: "http://localhost/arbulanguage.com/filmy/esp/planning.png",
+        srcWord: ["https://www.arbulang.com/filmy/esp/planning.mp4", 'Piękny Umysł (2001)'],
+        srcWordimage: "https://www.arbulang.com/filmy/esp/planning.png",
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // historia
         story: [
@@ -2045,6 +2267,12 @@ id: [
         //zdanie
         sentence1: [
                 "Cambiar"
+        ],
+                                                                                                                sentence1b: [
+            "Zmieniać"
+        ],
+                sentence1c: [
+            "kambiar"
         ],
         sentence: [
                 "Cambiar",
@@ -2064,10 +2292,10 @@ id: [
 ],
         // obrazek
         img: [
-                "http://localhost/arbulanguage.com/img/fiszkiespanol/58a.jpg"
+                "https://www.arbulang.com/img/fiszkiespanol/58a.jpg"
         ],
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // historia
         story: [
@@ -2077,7 +2305,13 @@ id: [
         desc: "la mente[la mente] - umysł",
         //zdanie
         sentence1: [
-                "la mente"
+                "la_mente"
+        ],
+                                                                                                                        sentence1b: [
+            "umysł"
+        ],
+                sentence1c: [
+            "la_mente"
         ],
         sentence: [
                 "Cambiar",
@@ -2096,12 +2330,12 @@ id: [
 ],
         // obrazek
         img: [
-            "http://localhost/arbulanguage.com/img/fiszkiespanol/17a.jpg",
-                "http://localhost/arbulanguage.com/img/fiszkiespanol/31a.jpg",
-                "http://localhost/arbulanguage.com/img/fiszkiespanol/59a.jpg"
+            "https://www.arbulang.com/img/fiszkiespanol/17a.jpg",
+                "https://www.arbulang.com/img/fiszkiespanol/31a.jpg",
+                "https://www.arbulang.com/img/fiszkiespanol/59a.jpg"
         ],
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // historia
         story: [
@@ -2114,6 +2348,12 @@ id: [
         //zdanie
         sentence2: [
                 "con"
+        ],
+            sentence2b: [
+            "z"
+        ],
+                sentence2c: [
+            "kon"
         ],
         sentence: [
                 "con",
@@ -2133,10 +2373,10 @@ id: [
 ],
         // obrazek
         img: [
-                "http://localhost/arbulanguage.com/img/fiszkiespanol/60a.jpg"
+                "https://www.arbulang.com/img/fiszkiespanol/60a.jpg"
         ],
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // historia
         story: [
@@ -2147,6 +2387,12 @@ id: [
         //zdanie
         sentence2: [
                 "nuevas"
+        ],
+                    sentence2b: [
+            "nowymi"
+        ],
+                sentence2c: [
+            "nuewas"
         ],
         sentence: [
                 "con",
@@ -2166,10 +2412,10 @@ id: [
 ],
         // obrazek
         img: [
-                "http://localhost/arbulanguage.com/img/fiszkiespanol/61a.jpg"
+                "https://www.arbulang.com/img/fiszkiespanol/61a.jpg"
         ],
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // historia
         story: [
@@ -2181,6 +2427,12 @@ id: [
         //zdanie
         sentence2: [
                 "ideas"
+        ],
+                            sentence2b: [
+            "pomysłami"
+        ],
+                sentence2c: [
+            "ideas"
         ],
         sentence: [
                 "con",
@@ -2200,14 +2452,14 @@ id: [
 ],
         // obrazek
         img: [
-                "http://localhost/arbulanguage.com/img/fiszkiespanol/62a.jpg"
+                "https://www.arbulang.com/img/fiszkiespanol/62a.jpg"
         ],
         translate: "Przewidywać problemy i być zawsze przygotowanym",
         translateb: "[Prever problemas y estar preparado siempre]",
-        srcWord: ["http://localhost/arbulanguage.com/filmy/esp/predict.mp4", 'Resident Evil: The Final Chapter (2016)'],
-        srcWordimage: "http://localhost/arbulanguage.com/filmy/esp/predict.png",
+        srcWord: ["https://www.arbulang.com/filmy/esp/predict.mp4", 'Resident Evil: The Final Chapter (2016)'],
+        srcWordimage: "https://www.arbulang.com/filmy/esp/predict.png",
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // historia
         story: [
@@ -2218,6 +2470,12 @@ id: [
         //zdanie
         sentence1: [
                 "Prever"
+        ],
+                                    sentence1b: [
+            "Przewidywać"
+        ],
+                sentence1c: [
+            "preber"
         ],
         sentence: [
                 "Prever",
@@ -2237,10 +2495,10 @@ id: [
 ],
         // obrazek
         img: [
-                "http://localhost/arbulanguage.com/img/fiszkiespanol/63a.jpg"
+                "https://www.arbulang.com/img/fiszkiespanol/63a.jpg"
         ],
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // historia
         story: [
@@ -2251,6 +2509,12 @@ id: [
         //zdanie
         sentence1: [
                 "problemas"
+        ],
+                                            sentence1b: [
+            "problemy"
+        ],
+                sentence1c: [
+            "problemas"
         ],
         sentence: [
                 "Prever",
@@ -2269,10 +2533,10 @@ id: [
 ],
         // obrazek
         img: [
-                "http://localhost/arbulanguage.com/img/fiszkiespanol/64a.jpg"
+                "https://www.arbulang.com/img/fiszkiespanol/64a.jpg"
         ],
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // historia
         story: [
@@ -2283,6 +2547,12 @@ id: [
         //zdanie
         sentence2: [
                 "y"
+        ],
+                                                    sentence2b: [
+            "i"
+        ],
+                sentence2c: [
+            "i"
         ],
         sentence: [
                 "y",
@@ -2303,10 +2573,10 @@ id: [
 ],
         // obrazek
         img: [
-                "http://localhost/arbulanguage.com/img/fiszkiespanol/65a.jpg"
+                "https://www.arbulang.com/img/fiszkiespanol/65a.jpg"
         ],
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // historia
         story: [
@@ -2317,6 +2587,12 @@ id: [
         //zdanie
         sentence2: [
                 "estar"
+        ],
+                                                            sentence2b: [
+            "być"
+        ],
+                sentence2c: [
+            "estar"
         ],
         sentence: [
                 "y",
@@ -2337,10 +2613,10 @@ id: [
 ],
         // obrazek
         img: [
-                "http://localhost/arbulanguage.com/img/fiszkiespanol/66a.jpg"
+                "https://www.arbulang.com/img/fiszkiespanol/66a.jpg"
         ],
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // historia
         story: [
@@ -2351,6 +2627,12 @@ id: [
         //zdanie
         sentence2: [
                 "preparado"
+        ],
+                                                                    sentence2b: [
+            "przygotowany"
+        ],
+                sentence2c: [
+            "preparado"
         ],
         sentence: [
                 "y",
@@ -2371,10 +2653,10 @@ id: [
 ],
         // obrazek
         img: [
-                "http://localhost/arbulanguage.com/img/fiszkiespanol/67a.jpg"
+                "https://www.arbulang.com/img/fiszkiespanol/67a.jpg"
         ],
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // historia
         story: [
@@ -2385,6 +2667,12 @@ id: [
         //zdanie
         sentence2: [
                 "siempre"
+        ],
+                                                                            sentence2b: [
+            "zawsze"
+        ],
+                sentence2c: [
+            "siempre"
         ],
         sentence: [
                 "y",
@@ -2405,14 +2693,14 @@ id: [
 ],
         // obrazek
         img: [
-                "http://localhost/arbulanguage.com/img/fiszkiespanol/68a.jpg"
+                "https://www.arbulang.com/img/fiszkiespanol/68a.jpg"
         ],
         translate: "Chronić prawa wszystkich zawsze",
         translateb: "[Proteher los derechos de todos siempre]",
-        srcWord: ["http://localhost/arbulanguage.com/filmy/esp/protect.mp4", 'Constantine (2005)'],
-        srcWordimage: "http://localhost/arbulanguage.com/filmy/esp/protect.png",
+        srcWord: ["https://www.arbulang.com/filmy/esp/protect.mp4", 'Constantine (2005)'],
+        srcWordimage: "https://www.arbulang.com/filmy/esp/protect.png",
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // historia
         story: [
@@ -2423,6 +2711,12 @@ id: [
         //zdanie
         sentence1: [
                 "Proteger"
+        ],
+                                                                                    sentence1b: [
+            "Chronić"
+        ],
+                sentence1c: [
+            "proteher"
         ],
         sentence: [
                 "Proteger",
@@ -2444,10 +2738,10 @@ id: [
 ],
         // obrazek
         img: [
-                "http://localhost/arbulanguage.com/img/fiszkiespanol/69a.jpg"
+                "https://www.arbulang.com/img/fiszkiespanol/69a.jpg"
         ],
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // historia
         story: [
@@ -2457,7 +2751,13 @@ id: [
         desc: "los derechos[los dereczos] - prawa(liczba mnoga)",
         //zdanie
         sentence1: [
-                "los derechos"
+                "los_derechos"
+        ],
+                                                                                            sentence1b: [
+            "prawa"
+        ],
+                sentence1c: [
+            "los_dereczos"
         ],
         sentence: [
                 "Proteger",
@@ -2478,10 +2778,10 @@ id: [
 ],
         // obrazek
         img: [
-                "http://localhost/arbulanguage.com/img/fiszkiespanol/70a.jpg"
+                "https://www.arbulang.com/img/fiszkiespanol/70a.jpg"
         ],
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // historia
         story: [
@@ -2491,7 +2791,13 @@ id: [
         desc: "de todos[de todos] - wszystkich",
         //zdanie
         sentence1: [
-                "de todos"
+                "de_todos"
+        ],
+                                                                                                    sentence1b: [
+            "wszystkich"
+        ],
+                sentence1c: [
+            "de_todos"
         ],
         sentence: [
                 "Proteger",
@@ -2512,10 +2818,10 @@ id: [
 ],
         // obrazek
         img: [
-                "http://localhost/arbulanguage.com/img/fiszkiespanol/71a.jpg"
+                "https://www.arbulang.com/img/fiszkiespanol/71a.jpg"
         ],
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // historia
         story: [
@@ -2526,6 +2832,12 @@ id: [
         //zdanie
         sentence1: [
                 "siempre"
+        ],
+                                                                                                            sentence1b: [
+            "zawsze"
+        ],
+                sentence1c: [
+            "siempre"
         ],
         sentence: [
                 "Proteger",
@@ -2546,14 +2858,14 @@ id: [
 ],
         // obrazek
         img: [
-                "http://localhost/arbulanguage.com/img/fiszkiespanol/72a.jpg"
+                "https://www.arbulang.com/img/fiszkiespanol/72a.jpg"
         ],
         translate: "Opowiadać zabawne historie z dobrymi przyjaciółmi",
         translateb: "[Contar historias divertidas con buenos amigos]",
-        srcWord: ["http://localhost/arbulanguage.com/filmy/esp/stories.mp4", 'Jestem na tak (2008)'],
-        srcWordimage: "http://localhost/arbulanguage.com/filmy/esp/stories.png",
+        srcWord: ["https://www.arbulang.com/filmy/esp/stories.mp4", 'Jestem na tak (2008)'],
+        srcWordimage: "https://www.arbulang.com/filmy/esp/stories.png",
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // historia
         story: [
@@ -2564,6 +2876,12 @@ id: [
         //zdanie
         sentence1: [
                 "Contar"
+        ],
+                                                                                                                    sentence1b: [
+            "Opowiadać"
+        ],
+                sentence1c: [
+            "kontar"
         ],
         sentence: [
                 "Contar",
@@ -2584,10 +2902,10 @@ id: [
 ],
         // obrazek
         img: [
-                "http://localhost/arbulanguage.com/img/fiszkiespanol/73a.jpg"
+                "https://www.arbulang.com/img/fiszkiespanol/73a.jpg"
         ],
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // historia
         story: [
@@ -2598,6 +2916,12 @@ id: [
         //zdanie
         sentence1: [
                 "historias"
+        ],
+                                                                                                                    sentence1b: [
+            "historie"
+        ],
+                sentence1c: [
+            "istorias"
         ],
         sentence: [
                 "Contar",
@@ -2617,10 +2941,10 @@ id: [
 ],
         // obrazek
         img: [
-                "http://localhost/arbulanguage.com/img/fiszkiespanol/74a.jpg"
+                "https://www.arbulang.com/img/fiszkiespanol/74a.jpg"
         ],
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // historia
         story: [
@@ -2631,6 +2955,12 @@ id: [
         //zdanie
         sentence1: [
                 "divertidas"
+        ],
+                                                                                                                            sentence1b: [
+            "zabawne"
+        ],
+                sentence1c: [
+            "dibertidas"
         ],
         sentence: [
                 "Contar",
@@ -2650,13 +2980,13 @@ id: [
 ],
         // obrazek
         img: [
-            "http://localhost/arbulanguage.com/img/fiszkiespanol/17a.jpg",
-                "http://localhost/arbulanguage.com/img/fiszkiespanol/31a.jpg",
-                "http://localhost/arbulanguage.com/img/fiszkiespanol/59a.jpg",
-                "http://localhost/arbulanguage.com/img/fiszkiespanol/75a.jpg"
+            "https://www.arbulang.com/img/fiszkiespanol/17a.jpg",
+                "https://www.arbulang.com/img/fiszkiespanol/31a.jpg",
+                "https://www.arbulang.com/img/fiszkiespanol/59a.jpg",
+                "https://www.arbulang.com/img/fiszkiespanol/75a.jpg"
         ],
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // historia
         story: [
@@ -2670,6 +3000,12 @@ id: [
         //zdanie
         sentence2: [
                 "con"
+        ],
+                sentence2b: [
+            "z"
+        ],
+                sentence2c: [
+            "kon"
         ],
         sentence: [
                 "con",
@@ -2689,10 +3025,10 @@ id: [
 ],
         // obrazek
         img: [
-                "http://localhost/arbulanguage.com/img/fiszkiespanol/76a.jpg"
+                "https://www.arbulang.com/img/fiszkiespanol/76a.jpg"
         ],
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // historia
         story: [
@@ -2703,6 +3039,12 @@ id: [
         //zdanie
         sentence2: [
                 "buenos"
+        ],
+            sentence2b: [
+            "dobrymi"
+        ],
+                sentence2c: [
+            "błenos"
         ],
         sentence: [
                 "con",
@@ -2722,10 +3064,10 @@ id: [
 ],
         // obrazek
         img: [
-                "http://localhost/arbulanguage.com/img/fiszkiespanol/77a.jpg"
+                "https://www.arbulang.com/img/fiszkiespanol/77a.jpg"
         ],
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // historia
         story: [
@@ -2736,6 +3078,12 @@ id: [
         //zdanie
         sentence2: [
                 "amigos"
+        ],
+                    sentence2b: [
+            "przyjaciółmi"
+        ],
+                sentence2c: [
+            "amigos"
         ],
         sentence: [
                 "Contar",
@@ -2755,14 +3103,14 @@ id: [
 ],
         // obrazek
         img: [
-                "http://localhost/arbulanguage.com/img/fiszkiespanol/78a.jpg"
+                "https://www.arbulang.com/img/fiszkiespanol/78a.jpg"
         ],
         translate: "Słuchać wesołej muzyki w samochodzie",
         translateb: "[Escuchar música alegre en el coche]",
-        srcWord: ["http://localhost/arbulanguage.com/filmy/esp/carmusic.mp4", 'Czas surferów (2005)'],
-        srcWordimage: "http://localhost/arbulanguage.com/filmy/esp/carmusic.png",
+        srcWord: ["https://www.arbulang.com/filmy/esp/carmusic.mp4", 'Czas surferów (2005)'],
+        srcWordimage: "https://www.arbulang.com/filmy/esp/carmusic.png",
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // historia
         story: [
@@ -2793,10 +3141,10 @@ id: [
 ],
         // obrazek
         img: [
-                "http://localhost/arbulanguage.com/img/fiszkiespanol/79a.jpg"
+                "https://www.arbulang.com/img/fiszkiespanol/79a.jpg"
         ],
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // historia
         story: [
@@ -2826,10 +3174,10 @@ id: [
 ],
         // obrazek
         img: [
-                "http://localhost/arbulanguage.com/img/fiszkiespanol/80a.jpg"
+                "https://www.arbulang.com/img/fiszkiespanol/80a.jpg"
         ],
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // historia
         story: [
@@ -2859,10 +3207,10 @@ id: [
 ],
         // obrazek
         img: [
-                "http://localhost/arbulanguage.com/img/fiszkiespanol/81a.jpg"
+                "https://www.arbulang.com/img/fiszkiespanol/81a.jpg"
         ],
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // historia
         story: [
@@ -2891,10 +3239,10 @@ id: [
 ],
         // obrazek
         img: [
-                "http://localhost/arbulanguage.com/img/fiszkiespanol/53a.jpg"
+                "https://www.arbulang.com/img/fiszkiespanol/53a.jpg"
         ],
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // historia
         story: [
@@ -2923,14 +3271,14 @@ id: [
 ],
         // obrazek
         img: [
-                "http://localhost/arbulanguage.com/img/fiszkiespanol/83a.jpg"
+                "https://www.arbulang.com/img/fiszkiespanol/83a.jpg"
         ],
         translate: "Przybywać wcześnie i cieszyć się porankiem",
         translateb: "[Llegar temprano y disfrutar la mañana]",
-        srcWord: ["http://localhost/arbulanguage.com/filmy/esp/morning.mp4", 'Szybcy i wściekli: Hobbs i Shaw (2019)'],
-        srcWordimage: "http://localhost/arbulanguage.com/filmy/esp/morning.png",
+        srcWord: ["https://www.arbulang.com/filmy/esp/morning.mp4", 'Szybcy i wściekli: Hobbs i Shaw (2019)'],
+        srcWordimage: "https://www.arbulang.com/filmy/esp/morning.png",
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // historia
         story: [
@@ -2960,10 +3308,10 @@ id: [
 ],
         // obrazek
         img: [
-                "http://localhost/arbulanguage.com/img/fiszkiespanol/84a.jpg"
+                "https://www.arbulang.com/img/fiszkiespanol/84a.jpg"
         ],
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // historia
         story: [
@@ -2991,10 +3339,10 @@ id: [
         18
 ],
         img: [
-                "http://localhost/arbulanguage.com/img/fiszkiespanol/64a.jpg"
+                "https://www.arbulang.com/img/fiszkiespanol/64a.jpg"
         ],
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // historia
         story: [
@@ -3024,10 +3372,10 @@ id: [
 ],
         // obrazek
         img: [
-                "http://localhost/arbulanguage.com/img/fiszkiespanol/86a.jpg"
+                "https://www.arbulang.com/img/fiszkiespanol/86a.jpg"
         ],
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // historia
         story: [
@@ -3057,10 +3405,10 @@ id: [
 ],
         // obrazek
         img: [
-                "http://localhost/arbulanguage.com/img/fiszkiespanol/87a.jpg"
+                "https://www.arbulang.com/img/fiszkiespanol/87a.jpg"
         ],
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // historia
         story: [
@@ -3090,14 +3438,14 @@ id: [
 ],
         // obrazek
         img: [
-                "http://localhost/arbulanguage.com/img/fiszkiespanol/88a.jpg"
+                "https://www.arbulang.com/img/fiszkiespanol/88a.jpg"
         ],
         translate: "Odrzucać oferty, które ci się nie podobają",
         translateb: "[Rehusar ofertas que no te gusten]",
-        srcWord: ["http://localhost/arbulanguage.com/filmy/esp/offert.mp4", 'Yes Man'],
-        srcWordimage: "http://localhost/arbulanguage.com/filmy/esp/offert.png",
+        srcWord: ["https://www.arbulang.com/filmy/esp/offert.mp4", 'Yes Man'],
+        srcWordimage: "https://www.arbulang.com/filmy/esp/offert.png",
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // historia
         story: [
@@ -3128,10 +3476,10 @@ id: [
 ],
         // obrazek
         img: [
-                "http://localhost/arbulanguage.com/img/fiszkiespanol/89a.jpg"
+                "https://www.arbulang.com/img/fiszkiespanol/89a.jpg"
         ],
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // historia
         story: [
@@ -3161,10 +3509,10 @@ id: [
 ],
         // obrazek
         img: [
-                "http://localhost/arbulanguage.com/img/fiszkiespanol/90a.jpg"
+                "https://www.arbulang.com/img/fiszkiespanol/90a.jpg"
         ],
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // historia
         story: [
@@ -3194,10 +3542,10 @@ id: [
 ],
         // obrazek
         img: [
-                "http://localhost/arbulanguage.com/img/fiszkiespanol/91a.jpg"
+                "https://www.arbulang.com/img/fiszkiespanol/91a.jpg"
         ],
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // historia
         story: [
@@ -3226,10 +3574,10 @@ id: [
 ],
         // obrazek
         img: [
-                "http://localhost/arbulanguage.com/img/fiszkiespanol/92a.jpg"
+                "https://www.arbulang.com/img/fiszkiespanol/92a.jpg"
         ],
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // historia
         story: [
@@ -3258,14 +3606,14 @@ id: [
 ],
         // obrazek
         img: [
-                "http://localhost/arbulanguage.com/img/fiszkiespanol/93a.jpg"
+                "https://www.arbulang.com/img/fiszkiespanol/93a.jpg"
         ],
         translate: "Trenować mocno, aby czuć się lepiej",
         translateb: "[Entrenar fuerte para sentirte mejor]",
-        srcWord: ["http://localhost/arbulanguage.com/filmy/esp/training2.mp4", 'Pain and Gain'],
-        srcWordimage: "http://localhost/arbulanguage.com/filmy/esp/training2.png",
+        srcWord: ["https://www.arbulang.com/filmy/esp/training2.mp4", 'Pain and Gain'],
+        srcWordimage: "https://www.arbulang.com/filmy/esp/training2.png",
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // historia
         story: [
@@ -3295,10 +3643,10 @@ id: [
 ],
         // obrazek
         img: [
-                "http://localhost/arbulanguage.com/img/fiszkiespanol/94a.jpg"
+                "https://www.arbulang.com/img/fiszkiespanol/94a.jpg"
         ],
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // historia
         story: [
@@ -3327,10 +3675,10 @@ id: [
 ],
         // obrazek
         img: [
-                "http://localhost/arbulanguage.com/img/fiszkiespanol/95a.jpg"
+                "https://www.arbulang.com/img/fiszkiespanol/95a.jpg"
         ],
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // historia
         story: [
@@ -3360,10 +3708,10 @@ id: [
 ],
         // obrazek
         img: [
-                "http://localhost/arbulanguage.com/img/fiszkiespanol/2a.jpg"
+                "https://www.arbulang.com/img/fiszkiespanol/2a.jpg"
         ],
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // historia
         story: [
@@ -3393,10 +3741,10 @@ id: [
 ],
         // obrazek
         img: [
-                "http://localhost/arbulanguage.com/img/fiszkiespanol/98a.jpg"
+                "https://www.arbulang.com/img/fiszkiespanol/98a.jpg"
         ],
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // historia
         story: [
@@ -3426,14 +3774,14 @@ id: [
 ],
         // obrazek
         img: [
-                "http://localhost/arbulanguage.com/img/fiszkiespanol/99a.jpg"
+                "https://www.arbulang.com/img/fiszkiespanol/99a.jpg"
         ],
         translate: "Wyjaśniać jasne odpowiedzi dzieciom",
         translateb: "[Explicar respuestas claras a los niños]",
-        srcWord: ["http://localhost/arbulanguage.com/filmy/esp/children.mp4", 'Ip Man'],
-        srcWordimage: "http://localhost/arbulanguage.com/filmy/esp/children.png",
+        srcWord: ["https://www.arbulang.com/filmy/esp/children.mp4", 'Ip Man'],
+        srcWordimage: "https://www.arbulang.com/filmy/esp/children.png",
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // historia
         story: [
@@ -3453,3936 +3801,6 @@ id: [
         ],
         //  slowo do nauki
         key: "explicar",
-        category1: [
-        ],
-        category2: ["osoby", "osoby+czas"],
-                category3: ["Infinitive"]
-},
-{
-id: [
-        100,
-        21
-],
-        // obrazek
-        img: [
-                "http://localhost/arbulanguage.com/img/fiszkiespanol/100a.jpg"
-        ],
-        word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
-        ],
-        // historia
-        story: [
-            "Stadion <u><b>Res</u></b>ovi jest super - jest <u><b>pó</u></b>źno i odbywa sie mecz. Są <u><b>odpowiedzi</u></b> publiczności i jest organizowana kw<u><b>esta</u></b>"
-        ],
-        // opis
-        desc: "respuestas[] - odpowiedzi",
-        //zdanie
-        sentence1: [
-                "respuestas"
-        ],
-        sentence: [
-                "Explicar",
-                "respuestas",
-                "claras",
-                "a los niños"
-        ],
-        //  slowo do nauki
-        key: "respuestas",
-        category1: [
-        ],
-        category2: ["osoby", "osoby+czas"],
-                category3: ["Infinitive"]
-},
-{
-id: [
-        101,
-        21
-],
-        // obrazek
-        img: [
-                "http://localhost/arbulanguage.com/img/fiszkiespanol/101a.jpg"
-        ],
-        word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
-        ],
-        // historia
-        story: [
-            "Jest j<u><b>as</u></b>ne i <u><b>klar</u></b>owne, że warto uczyć się języków"
-        ],
-        // opis
-        desc: "claras[klaras] - ",
-        //zdanie
-        sentence1: [
-                "claras"
-        ],
-        sentence: [
-                "Explicar",
-                "respuestas",
-                "claras",
-                "a los niños"
-        ],
-        //  slowo do nauki
-        key: "claras",
-        category1: [
-        ],
-        category2: ["osoby", "osoby+czas"],
-                category3: ["Infinitive"]
-},
-{
-id: [
-        102,
-        21
-],
-        // obrazek
-        img: [
-                "http://localhost/arbulanguage.com/img/fiszkiespanol/102a.jpg"
-        ],
-        word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
-        ],
-        // historia
-        story: [
-            ""
-        ],
-        // opis
-        desc: "a los niños[a los ninios] - ",
-        //zdanie
-        sentence1: [
-                "a los niños"
-        ],
-        sentence: [
-                "Explicar",
-                "respuestas",
-                "claras",
-                "a los niños"
-        ],
-        //  slowo do nauki
-        key: "ninos",
-        category1: [
-        ],
-        category2: ["osoby", "osoby+czas"],
-                category3: ["Infinitive"]
-},
-{
-id: [
-        103,
-        22
-],
-        // obrazek
-        img: [
-                "http://localhost/arbulanguage.com/img/fiszkiespanol/103a.jpg"
-        ],
-        translate: "Próbować pysznego jedzenia w nowych miejscach",
-        translateb: "[Probar comida deliciosa en nuevos lugares]",
-        srcWord: ["http://localhost/arbulanguage.com/filmy/esp/restaurant.mp4", 'Matrix 1999'],
-        srcWordimage: "http://localhost/arbulanguage.com/filmy/esp/restaurant.png",
-        word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
-        ],
-        // historia
-        story: [
-            "Przewodnik <u><b>prowa</u></b>dzi wycieczkę i <u><b>wyjaśnia</u></b> wszystko turystom, prześlinił sobie lekko <u><b>war</u></b>gę"
-        ],
-        // opis
-        desc: "probar[prowar] - wyjaśniać",
-        //zdanie
-        sentence1: [
-                "Probar"
-        ],
-        sentence: [
-                "Probar",
-                "comida",
-                "deliciosa"
-        ],
-        //  slowo do nauki
-        key: "probar",
-        category1: [
-        ],
-        category2: ["osoby", "osoby+czas"],
-                category3: ["Infinitive"]
-},
-{
-id: [
-        104,
-        22
-],
-        // obrazek
-        img: [
-                "http://localhost/arbulanguage.com/img/fiszkiespanol/104a.jpg"
-        ],
-        word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
-        ],
-        // historia
-        story: [
-            "Jest zima, zjedliśmy <u><b>posiłek</u></b> i palimy w piecu, z <u><b>komi</u></b>na <u><b>da</u></b>je czarny dym"
-        ],
-        // opis
-        desc: "comida[komida] - posiłek",
-        //zdanie
-        sentence1: [
-                "comida"
-        ],
-        sentence: [
-                "Probar",
-                "comida",
-                "deliciosa"
-        ],
-        //  slowo do nauki
-        key: "comida",
-        category1: [
-        ],
-        category2: ["osoby", "osoby+czas"],
-                category3: ["Infinitive"]
-},
-{
-id: [
-        105,
-        22
-],
-        // obrazek
-        img: [
-                "http://localhost/arbulanguage.com/img/fiszkiespanol/105a.jpg"
-        ],
-        word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
-        ],
-        // historia
-        story: [
-            "<u><b>Deli</u></b>cje są <u><b>pyszne</u></b>, tylko patrzeć na zegarek ca<u><b>sio</u></b> - kiedy będą zjedzone i to <u><b>sa</u></b>motnie"
-        ],
-        // opis
-        desc: "deliciosa[delisiosa] - pyszne",
-        //zdanie
-        sentence1: [
-                "deliciosa"
-        ],
-        sentence: [
-                "Probar",
-                "comida",
-                "deliciosa"
-        ],
-        //  slowo do nauki
-        key: "deliciosa",
-        category1: [
-        ],
-        category2: ["osoby", "osoby+czas"],
-                category3: ["Infinitive"]
-},
-{
-id: [
-        106,
-        22
-],
-        // obrazek
-        img: [
-                "http://localhost/arbulanguage.com/img/fiszkiespanol/3a.jpg"
-        ],
-        word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
-        ],
-        // historia
-        story: [
-                "W <u><b>en</u></b>cykopedi jest podstawowa wiedza"
-        ],
-        // opis
-        desc: "en[en] - w",
-        //zdanie
-        sentence2: [
-                "en"
-        ],
-        sentence: [
-                "en",
-                "nuevos",
-                "lugares"
-        ],
-        //  slowo do nauki
-        key: "en",
-        category1: [
-        ],
-        category2: ["osoby", "osoby+czas"],
-                category3: ["Infinitive"]
-},
-{
-id: [
-        107,
-        22
-],
-        // obrazek
-        img: [
-                "http://localhost/arbulanguage.com/img/fiszkiespanol/107a.jpg"
-        ],
-        word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
-        ],
-        // historia
-        story: [
-            "<u><b>Ewa</u></b> uważa, że kiedy jest <u><b>nu</u></b>ll do zrobienia wtedy jest relaks. Nauczyciel mówi, że to dla <u><b>was</u></b> dobrze, bo są <u><b>nowe</u></b> pomysły"
-        ],
-        // opis
-        desc: "nuevas[nuewas] - nowe",
-        //zdanie
-        sentence2: [
-                "nuevos"
-        ],
-        sentence: [
-                "en",
-                "nuevos",
-                "lugares"
-        ],
-        //  slowo do nauki
-        key: "nuevos",
-        category1: [
-        ],
-        category2: ["osoby", "osoby+czas"],
-                category3: ["Infinitive"]
-},
-{
-id: [
-        108,
-        22
-],
-        // obrazek
-        img: [
-                "http://localhost/arbulanguage.com/img/fiszkiespanol/108a.jpg"
-        ],
-        word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
-        ],
-        // historia
-        story: [
-            "<u><b>Lu</u></b>bimy te miejsca, w których możemy za<u><b>gar</u></b>ażować swoje auto. Bo wtedy j<u><b>es</u></b>t bezpieczne"
-        ],
-        // opis
-        desc: "lugares[lugares] - miejsca",
-        //zdanie
-        sentence2: [
-                "lugares"
-        ],
-        sentence: [
-                "en",
-                "nuevos",
-                "lugares"
-        ],
-        //  slowo do nauki
-        key: "lugares",
-        category1: [
-        ],
-        category2: ["osoby", "osoby+czas"],
-                category3: ["Infinitive"]
-},
-{
-id: [
-        109,
-        23
-],
-        // obrazek
-        img: [
-                "http://localhost/arbulanguage.com/img/fiszkiespanol/103a.jpg"
-        ],
-        translate: "Śmiać się razem, oglądając filmy komediowe",
-        translateb: "[Reír huntos mientras miramos pelíkulas komikas]",
-        srcWord: ["http://localhost/arbulanguage.com/filmy/esp/comicas.mp4", 'Matrix 1999'],
-        srcWordimage: "http://localhost/arbulanguage.com/filmy/esp/comicas.png",
-        word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
-        ],
-        // historia
-        story: [
-            "Moją <u><b>re</u></b>akcją na <u><b>ir</u></b>racjonalny argument był <u><b>śmiech</u></b>"
-        ],
-        // opis
-        desc: "reir[reir] - śmiać się",
-        //zdanie
-        sentence1: [
-                "Reir"
-        ],
-        sentence: [
-                "Reir",
-                "juntos"
-        ],
-        //  slowo do nauki
-        key: "reir",
-        category1: [
-        ],
-        category2: ["osoby", "osoby+czas"],
-                category3: ["Infinitive"]
-},
-{
-id: [
-        110,
-        23
-],
-        // obrazek
-        img: [
-                "http://localhost/arbulanguage.com/img/fiszkiespanol/14a.jpg"
-        ],
-        word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
-        ],
-        // historia
-        story: [
-                "<u><b>Hu</u></b>ra jesteśmy w <u><b>Un</u></b>ii, <u><b>razem</u></b> z innymi krajami i jest sz<u><b>tos</u></b>"
-        ],
-        // opis
-        desc: "juntos[hunots] - razem",
-        //zdanie
-        sentence1: [
-                "juntos"
-        ],
-        sentence: [
-                "Reir",
-                "juntos"
-        ],
-        //  slowo do nauki
-        key: "juntos",
-        category1: [
-        ],
-        category2: ["osoby", "osoby+czas"],
-                category3: ["Infinitive"]
-},
-{
-id: [
-        111,
-        23
-],
-        // obrazek
-        img: [
-                "http://localhost/arbulanguage.com/img/fiszkiespanol/12a.jpg"
-        ],
-        word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
-        ],
-        // historia
-        story: [
-                "Nie zabieramy całego <u><b>mien</u></b>ia <u><b>kiedy</u></b> jedziemy w </u></b>tras<u><b>ę"
-        ],
-        // opis
-        desc: "mientras[mientras] - gdy/podczas gdy",
-        //zdanie
-        sentence2: [
-                "mientras"
-        ],
-        sentence: [
-                "mientras",
-                "miramos",
-                "películas",
-                "cómicas"
-        ],
-        //  slowo do nauki
-        key: "mientras",
-        category1: [
-        ],
-        category2: ["osoby", "osoby+czas"],
-                category3: ["Infinitive"]
-},
-{
-id: [
-        112,
-        23
-],
-        // obrazek
-        img: [
-                ""
-        ],
-        word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
-        ],
-        // historia
-        story: [
-            ""
-        ],
-        // opis
-        desc: "miramos[miramos] - oglądać",
-        //zdanie
-        sentence2: [
-                "miramos"
-        ],
-        sentence: [
-                "mientras",
-                "miramos",
-                "películas",
-                "cómicas"
-        ],
-        //  slowo do nauki
-        key: "miramos",
-        category1: [
-        ],
-        category2: ["osoby", "osoby+czas"],
-                category3: ["Infinitive"]
-},
-{
-id: [
-        113,
-        23
-],
-        // obrazek
-        img: [
-                ""
-        ],
-        word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
-        ],
-        // historia
-        story: [
-            ""
-        ],
-        // opis
-        desc: "películas[pelikulas] - filmy",
-        //zdanie
-        sentence2: [
-                "películas"
-        ],
-        sentence: [
-                "mientras",
-                "miramos",
-                "películas",
-                "cómicas"
-        ],
-        //  slowo do nauki
-        key: "peliculas",
-        category1: [
-        ],
-        category2: ["osoby", "osoby+czas"],
-                category3: ["Infinitive"]
-},
-{
-id: [
-        114,
-        23
-],
-        // obrazek
-        img: [
-                ""
-        ],
-        word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
-        ],
-        // historia
-        story: [
-            "KOGNATY - KOMICZNE - COMICAS"
-        ],
-        // opis
-        desc: "cómicas[comicas] - komediowe",
-        //zdanie
-        sentence2: [
-                "cómicas"
-        ],
-        sentence: [
-                "mientras",
-                "miramos",
-                "películas",
-                "cómicas"
-        ],
-        //  slowo do nauki
-        key: "comicas",
-        category1: [
-        ],
-        category2: ["osoby", "osoby+czas"],
-                category3: ["Infinitive"]
-},
-{
-id: [
-        115,
-        24
-],
-        // obrazek
-        img: [
-                "http://localhost/arbulanguage.com/img/fiszkiespanol/115a.jpg"
-        ],
-        translate: "Zaprzeczać kłamstwom i zawsze mówić prawdę",
-        translateb: "[Negar mentiras i desir siempre berdad]",
-        srcWord: ["http://localhost/arbulanguage.com/filmy/esp/truth.mp4", 'Matrix 1999'],
-        srcWordimage: "http://localhost/arbulanguage.com/filmy/esp/truth.png",
-        word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
-        ],
-        // historia
-        story: [
-            "<u><b>Nega</u></b>tywnym rzeczom częściej się <u><b>zaprzecza</u></b>... Tak robi <u><b>Ar</u></b>tek"
-        ],
-        // opis
-        desc: "negar[negar] - zaprzeczać",
-        //zdanie
-        sentence1: [
-                "Negar"
-        ],
-        sentence: [
-                "Negar",
-                "mentiras"
-        ],
-        //  slowo do nauki
-        key: "negar",
-        category1: [
-        ],
-        category2: ["osoby", "osoby+czas"],
-                category3: ["Infinitive"]
-},
-{
-id: [
-        116,
-        24
-],
-        // obrazek
-        img: [
-                "http://localhost/arbulanguage.com/img/fiszkiespanol/116a.jpg"
-        ],
-        word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
-        ],
-        // historia
-        story: [
-            "Prawda jest jak A<u><b>men</u></b> w pacierzu. Natomiast <u><b>kłamstwo0</u></b> szybko wychodzi. <u><b>Ti</u></b>na jest k<u><b>ras</u></b>nej urody i nie kłamie"
-        ],
-        // opis
-        desc: "mentiras[mentiras] - kłamstwa",
-        //zdanie
-        sentence1: [
-                "mentiras"
-        ],
-        sentence: [
-                "Negar",
-                "mentiras"
-        ],
-        //  slowo do nauki
-        key: "mentiras",
-        category1: [
-        ],
-        category2: ["osoby", "osoby+czas"],
-                category3: ["Infinitive"]
-},
-{
-id: [
-        117,
-        24
-],
-        img: [
-                "http://localhost/arbulanguage.com/img/fiszkiespanol/64a.jpg"
-        ],
-        word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
-        ],
-        // historia
-        story: [
-            "<u><b>I</u></b>dealne <u><b>i</u></b> piękne"
-        ],
-        // opis
-        desc: "y[i] - i",
-        //zdanie
-        sentence2: [
-                "y"
-        ],
-        sentence: [
-                "y",
-                "decir",
-                "siempre",
-                "verdad"
-        ],
-        //  slowo do nauki
-        key: "y",
-        category1: [
-        ],
-        category2: ["osoby", "osoby+czas"],
-                category3: ["Infinitive"]
-},
-{
-id: [
-        118,
-        24
-],
-        // obrazek
-        img: [
-                "http://localhost/arbulanguage.com/img/fiszki1/2a.jpg"
-        ],
-        word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
-        ],
-        // historia
-        story: [
-            ""
-        ],
-        // opis
-        desc: "decir[desir] - mówić",
-        //zdanie
-        sentence2: [
-                "decir"
-        ],
-        sentence: [
-                "y",
-                "decir",
-                "siempre",
-                "verdad"
-        ],
-        //  slowo do nauki
-        key: "decir",
-        category1: [
-        ],
-        category2: ["osoby", "osoby+czas"],
-                category3: ["Infinitive"]
-},
-{
-id: [
-        119,
-        24
-],
-        img: [
-                "http://localhost/arbulanguage.com/img/fiszkiespanol/71a.jpg"
-        ],
-        word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
-        ],
-        // historia
-        story: [
-            "O<u><b>siem</u></b> dni to długo okres na obóz. Obóz robimy <u><b>zawsze</u></b> w <u><b>sie</u></b>rpniu. Obóz nazywa się - <u><b>Pre</u></b>dator"
-        ],
-        // opis
-        desc: "siempre[siempre] - zawsze",
-        //zdanie
-        sentence2: [
-                "siempre"
-        ],
-        sentence: [
-                "y",
-                "decir",
-                "siempre",
-                "verdad"
-        ],
-        //  slowo do nauki
-        key: "siempre",
-        category1: [
-        ],
-        category2: ["osoby", "osoby+czas"],
-                category3: ["Infinitive"]
-},
-{
-id: [
-        120,
-        24
-],
-        // obrazek
-        img: [
-                "http://localhost/arbulanguage.com/img/fiszkiespanol/120a.jpg"
-        ],
-        word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
-        ],
-        // historia
-        story: [
-            "<u><b>Ber</u></b>t to znany naukowiec. <u><b>Prawda</u></b> dla niego to za<u><b>da</u></b>nie najważniejsze. Dla <u><b>Ad</u></b>y też."
-        ],
-        // opis
-        desc: "verdad[berdad] - prawda",
-        //zdanie
-        sentence2: [
-                "verdad"
-        ],
-        sentence: [
-                "y",
-                "decir",
-                "siempre",
-                "verdad"
-        ],
-        //  slowo do nauki
-        key: "verdad",
-        category1: [
-        ],
-        category2: ["osoby", "osoby+czas"],
-                category3: ["Infinitive"]
-},
-{
-id: [
-        121,
-        25
-],
-        // obrazek
-        img: [
-                "http://localhost/arbulanguage.com/img/fiszkiespanol/121a.jpg"
-        ],
-        translate: "Tańczyć powoli przy delikatnej, romantycznej muzyce",
-        translateb: "[Bajlar lento kon musika ro-man-tika sławe]",
-        srcWord: ["http://localhost/arbulanguage.com/filmy/esp/truth.mp4", 'Matrix 1999'],
-        srcWordimage: "http://localhost/arbulanguage.com/filmy/esp/truth.png",
-        word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
-        ],
-        // historia
-        story: [
-            "<u><b>Ba</u></b>rtek <u><b>i Lar</u></b>a Croft lubią razem <u><b>tańczyć</u></b>"
-        ],
-        // opis
-        desc: "bailar[bajlar] - tańczyć",
-        //zdanie
-        sentence1: [
-                "Bailar"
-        ],
-        sentence: [
-                "Bailar",
-                "lento"
-        ],
-        //  slowo do nauki
-        key: "bailar",
-        category1: [
-        ],
-        category2: ["osoby", "osoby+czas"],
-                category3: ["Infinitive"]
-},
-{
-id: [
-        122,
-        25
-],
-        // obrazek
-        img: [
-                "http://localhost/arbulanguage.com/img/fiszkiespanol/122a.jpg"
-        ],
-        word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
-        ],
-        // historia
-        story: [
-            "Roślina <u><b>len</u></b> <u><b>to</u></b> najlepszy sposób aby zaprzestać pogoni w życiu i żyć <u><b>powoli</u></b>"
-        ],
-        // opis
-        desc: "lento[lento] - powoli",
-        //zdanie
-        sentence1: [
-                "lento"
-        ],
-        sentence: [
-                "Bailar",
-                "lento"
-        ],
-        //  slowo do nauki
-        key: "lento",
-        category1: [
-        ],
-        category2: ["osoby", "osoby+czas"],
-                category3: ["Infinitive"]
-},
-{
-id: [
-        123,
-        25
-],
-        // obrazek
-        img: [
-            "http://localhost/arbulanguage.com/img/fiszkiespanol/17a.jpg",
-                "http://localhost/arbulanguage.com/img/fiszkiespanol/31a.jpg",
-                "http://localhost/arbulanguage.com/img/fiszkiespanol/59a.jpg",
-                "http://localhost/arbulanguage.com/img/fiszkiespanol/75a.jpg"
-        ],
-        word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
-        ],
-        // historia
-        story: [
-                "<u><b>Z</u></b> <u><b>kon</u></b>opiami jest niezły ubaw",
-                "<u><b>Z</u></b> takimi <u><b>kon</u></b>taktami jakie mam, lepiej jest mi podołać obowiązkom",
-                "<u><b>Z</u></b> <u><b>kon</u></b>sernacją przyjąłem tę decyzję",
-                "<u><b>Z</u></b> <u><b>kon</u></b>taktami w branży u mnie słabo..."
-        ],
-        // opis
-        desc: "con[kon] - z",
-        //zdanie
-        sentence1: [
-                "con"
-        ],
-        sentence: [
-                "con",
-                "musica",
-                "romántica",
-                "suave"
-        ],
-        //  slowo do nauki
-        key: "con",
-        category1: [
-        ],
-        category2: ["osoby", "osoby+czas"],
-                category3: ["Infinitive"]
-},
-{
-id: [
-        124,
-        25
-],
-        // obrazek
-        img: [
-                "http://localhost/arbulanguage.com/img/fiszkiespanol/124a.jpg"
-        ],
-        word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
-        ],
-        // historia
-        story: [
-            "KOGNATY: MUZYKA - MUSICA"
-        ],
-        // opis
-        desc: "musica[musika] - muzyka",
-        //zdanie
-        sentence1: [
-                "musica"
-        ],
-        sentence: [
-                "con",
-                "musica",
-                "romántica",
-                "suave"
-        ],
-        //  slowo do nauki
-        key: "musica",
-        category1: [
-        ],
-        category2: ["osoby", "osoby+czas"],
-                category3: ["Infinitive"]
-},
-{
-id: [
-        125,
-        25
-],
-        // obrazek
-        img: [
-                "http://localhost/arbulanguage.com/img/fiszkiespanol/125a.jpg"
-        ],
-        word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
-        ],
-        // historia
-        story: [
-            "KOGNATY: ROMANTYCZNY - ROMANTICA"
-        ],
-        // opis
-        desc: "romántica[ro-man-tika] - romantyczny",
-        //zdanie
-        sentence1: [
-                "romántica"
-        ],
-        sentence: [
-                "con",
-                "musica",
-                "romántica",
-                "suave"
-        ],
-        //  slowo do nauki
-        key: "romantica",
-        category1: [
-        ],
-        category2: ["osoby", "osoby+czas"],
-                category3: ["Infinitive"]
-},
-{
-id: [
-        126,
-        25
-],
-        // obrazek
-        img: [
-                "http://localhost/arbulanguage.com/img/fiszkiespanol/126a.jpg"
-        ],
-        word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
-        ],
-        // historia
-        story: [
-            "<u><b>Sławe</u></b>tny jest ten mój <u><b>delikatny</u></b> perfum"
-        ],
-        // opis
-        desc: "suave[sławe] - delikatny",
-        //zdanie
-        sentence1: [
-                "suave"
-        ],
-        sentence: [
-                "con",
-                "musica",
-                "romántica",
-                "suave"
-        ],
-        //  slowo do nauki
-        key: "suave",
-        category1: [
-        ],
-        category2: ["osoby", "osoby+czas"],
-                category3: ["Infinitive"]
-},
-{
-id: [
-        127,
-        26
-],
-        // obrazek
-        img: [
-                "http://localhost/arbulanguage.com/img/fiszkiespanol/127a.jpg"
-        ],
-        translate: "Utrzymywać pokój i harmonię",
-        translateb: "[Mantener la pas y armonia]",
-        srcWord: ["http://localhost/arbulanguage.com/filmy/esp/truth.mp4", 'Matrix 1999'],
-        srcWordimage: "http://localhost/arbulanguage.com/filmy/esp/truth.png",
-        word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
-        ],
-        // historia
-        story: [
-            "Filmowy a<u><b>mant</u></b> <u><b>zachowuje</u></b> wizerunek bardzo <u><b>ener</u></b>gicznego"
-        ],
-        // opis
-        desc: "mantener[mantener] - zachować",
-        //zdanie
-        sentence1: [
-                "Mantener"
-        ],
-        sentence: [
-                "Mantener",
-                "la paz",
-                "y",
-                "armonia"
-        ],
-        //  slowo do nauki
-        key: "mantener",
-        category1: [
-        ],
-        category2: ["osoby", "osoby+czas"],
-                category3: ["Infinitive"]
-},
-{
-id: [
-        128,
-        26
-],
-        // obrazek
-        img: [
-                "http://localhost/arbulanguage.com/img/fiszkiespanol/128a.jpg"
-        ],
-        word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
-        ],
-        // historia
-        story: [
-            "P<u><b>la</u></b>n jest całkowity <u><b>pokój</u></b> na świecie. Większości to <u><b>pas</u></b>uje"
-        ],
-        // opis
-        desc: "la paz[la pas(Meksyk, Kolumia)] - pokój",
-        //zdanie
-        sentence1: [
-                "la paz"
-        ],
-        sentence: [
-                "Mantener",
-                "la paz",
-                "y",
-                "armonia"
-        ],
-        //  slowo do nauki
-        key: "paz",
-        category1: [
-        ],
-        category2: ["osoby", "osoby+czas"],
-                category3: ["Infinitive"]
-},
-{
-id: [
-        129,
-        26
-],
-        // obrazek
-        img: [
-                "http://localhost/arbulanguage.com/img/fiszkiespanol/26a.jpg"
-        ],
-        word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
-        ],
-        // historia
-        story: [
-                "<u><b>I</u></b> tak dalej.."
-        ],
-        // opis
-        desc: "y[i] - i",
-        //zdanie
-        sentence1: [
-                "y"
-        ],
-        sentence: [
-                "Mantener",
-                "la paz",
-                "y",
-                "armonia"
-        ],
-        //  slowo do nauki
-        key: "y",
-        category1: [
-        ],
-        category2: ["osoby", "osoby+czas"],
-                category3: ["Infinitive"]
-},
-{
-id: [
-        130,
-        26
-],
-        // obrazek
-        img: [
-                "http://localhost/arbulanguage.com/img/fiszkiespanol/130a.jpg"
-        ],
-        word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
-        ],
-        // historia
-        story: [
-            "KOGNATY: HARMONIA - ARMONIA (HA NIEME)"
-        ],
-        // opis
-        desc: "armonia[armonia] - harmonia",
-        //zdanie
-        sentence1: [
-                "armonia"
-        ],
-        sentence: [
-                "Mantener",
-                "la paz",
-                "y",
-                "armonia"
-        ],
-        //  slowo do nauki
-        key: "armonia",
-        category1: [
-        ],
-        category2: ["osoby", "osoby+czas"],
-                category3: ["Infinitive"]
-},
-{
-id: [
-        131,
-        27
-],
-        // obrazek
-        img: [
-                "http://localhost/arbulanguage.com/img/fiszkiespanol/131a.jpg"
-        ],
-        translate: "Podróżować razem w ładnym samochodzie",
-        translateb: "[Biahar huntos en un kocze]",
-        srcWord: ["http://localhost/arbulanguage.com/filmy/esp/truth.mp4", 'Matrix 1999'],
-        srcWordimage: "http://localhost/arbulanguage.com/filmy/esp/truth.png",
-        word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
-        ],
-        // historia
-        story: [
-            "<u><b>Bia</u></b>ły samolot pozwala <u><b>podróżować</u></b>, jednak trzeba <u><b>har</u></b>ować na bilet"
-        ],
-        // opis
-        desc: "viajar[biahar] - podróżować",
-        //zdanie
-        sentence1: [
-                "Viajar"
-        ],
-        sentence: [
-                "Viajar",
-                "junots"
-        ],
-        //  slowo do nauki
-        key: "viajar",
-        category1: [
-        ],
-        category2: ["osoby", "osoby+czas"],
-                category3: ["Infinitive"]
-},
-{
-id: [
-        132,
-        27
-],
-        // obrazek
-        img: [
-                "http://localhost/arbulanguage.com/img/fiszkiespanol/14a.jpg"
-        ],
-        word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
-        ],
-        // historia
-        story: [
-                "<u><b>Hu</u></b>ra jesteśmy w <u><b>Un</u></b>ii, <u><b>razem</u></b> z innymi krajami i jest sz<u><b>tos</u></b>"
-        ],
-        // opis
-        desc: "juntos[hunots] - razem",
-        //zdanie
-        sentence1: [
-                "juntos"
-        ],
-        sentence: [
-                "Viajar",
-                "junots"
-        ],
-        //  slowo do nauki
-        key: "juntos",
-        category1: [
-        ],
-        category2: ["osoby", "osoby+czas"],
-                category3: ["Infinitive"]
-},
-{
-id: [
-        133,
-        27
-],
-        // obrazek
-        img: [
-                "http://localhost/arbulanguage.com/img/fiszkiespanol/3a.jpg"
-        ],
-        word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
-        ],
-        // historia
-        story: [
-                "W <u><b>en</u></b>cykopedi jest podstawowa wiedza"
-        ],
-        // opis
-        desc: "en[en] - w",
-        //zdanie
-        sentence1: [
-                "en"
-        ],
-        sentence: [
-                "en",
-                "un coche",
-                "bonito"
-        ],
-        //  slowo do nauki
-        key: "en",
-        category1: [
-        ],
-        category2: ["osoby", "osoby+czas"],
-                category3: ["Infinitive"]
-},
-{
-id: [
-        134,
-        27
-],
-        // obrazek
-        img: [
-                "http://localhost/arbulanguage.com/img/fiszkiespanol/134a.jpg"
-        ],
-        word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
-        ],
-        // historia
-        story: [
-            "Br<u><b>un</u></b>o czasami mówi: s<u><b>kocze</u></b> do sklepu, ma na myśli: pojechanie <u><b>autem</u></b>"
-        ],
-        // opis
-        desc: "un coche[un kocze] - samochód",
-        //zdanie
-        sentence1: [
-                "un coche"
-        ],
-        sentence: [
-                "en",
-                "un coche",
-                "bonito"
-        ],
-        //  slowo do nauki
-        key: "coche",
-        category1: [
-        ],
-        category2: ["osoby", "osoby+czas"],
-                category3: ["Infinitive"]
-},
-{
-id: [
-        135,
-        27
-],
-        // obrazek
-        img: [
-                "http://localhost/arbulanguage.com/img/fiszkiespanol/135a.jpg"
-        ],
-        word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
-        ],
-        // historia
-        story: [
-            "Ten model jest ładny, bo nie da się go sklasyfikować pod żadny styl uberania. Ni to elegant, ni to sportowiec"
-        ],
-        // opis
-        desc: "bonito[bonito] - ładny",
-        //zdanie
-        sentence1: [
-                "bonito"
-        ],
-        sentence: [
-                "en",
-                "un coche",
-                "bonito"
-        ],
-        //  slowo do nauki
-        key: "bonito",
-        category1: [
-        ],
-        category2: ["osoby", "osoby+czas"],
-                category3: ["Infinitive"]
-},
-{
-id: [
-        136,
-        28
-],
-        // obrazek
-        img: [
-                "http://localhost/arbulanguage.com/img/fiszkiespanol/136a.jpg"
-        ],
-        translate: "Używać ładnego makijażu, żeby dobrze się czuć",
-        translateb: "[Usar makijahe bonito para sentire bien]",
-        srcWord: ["http://localhost/arbulanguage.com/filmy/esp/truth.mp4", 'Matrix 1999'],
-        srcWordimage: "http://localhost/arbulanguage.com/filmy/esp/truth.png",
-        word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
-        ],
-        // historia
-        story: [
-            "Tego busa używa arystorkacja"
-        ],
-        // opis
-        desc: "usar[usar] - nosić, używać",
-        //zdanie
-        sentence1: [
-                "Usar"
-        ],
-        sentence: [
-                "Usar",
-                "maquillaje",
-                "bonito"
-        ],
-        //  slowo do nauki
-        key: "usar",
-        category1: [
-        ],
-        category2: ["osoby", "osoby+czas"],
-                category3: ["Infinitive"]
-},
-{
-id: [
-        137,
-        28
-],
-        // obrazek
-        img: [
-                "http://localhost/arbulanguage.com/img/fiszkiespanol/137a.jpg"
-        ],
-        word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
-        ],
-        // historia
-        story: [
-            "<u><b>Mak</u></b>s kocha swoją dziewczynę, nie ważne czy ma ma<u><b>kija</u></b>ż czy nie. Ona - <u><b>He</u></b>lena jest bardzo szczęśliwa"
-        ],
-        // opis
-        desc: "maquillaje[makijahe] - makijaż",
-        //zdanie
-        sentence1: [
-                "maquillaje"
-        ],
-        sentence: [
-                "Usar",
-                "maquillaje",
-                "bonito"
-        ],
-        //  slowo do nauki
-        key: "maquillaje",
-        category1: [
-        ],
-        category2: ["osoby", "osoby+czas"],
-                category3: ["Infinitive"]
-},
-{
-id: [
-        138,
-        28
-],
-        // obrazek
-        img: [
-                "http://localhost/arbulanguage.com/img/fiszkiespanol/135a.jpg"
-        ],
-        word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
-        ],
-        // historia
-        story: [
-            "Ten model jest <u><b>ładny</u></b>, <u><b>bo</u></b> nie da się go sklasyfikować pod żadny styl uberania. <u><b>Ni to</u></b> elegant, ni to sportowiec"
-        ],
-        // opis
-        desc: "bonito[bonito] - ładny",
-        //zdanie
-        sentence1: [
-                "bonito"
-        ],
-        sentence: [
-                "Usar",
-                "maquillaje",
-                "bonito"
-        ],
-        //  slowo do nauki
-        key: "bonito",
-        category1: [
-        ],
-        category2: ["osoby", "osoby+czas"],
-                category3: ["Infinitive"]
-},
-{
-id: [
-        139,
-        28
-],
-        // obrazek
-        img: [
-                "http://localhost/arbulanguage.com/img/fiszkiespanol/95a.jpg"
-        ],
-        word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
-        ],
-        // historia
-        story: [
-            "Wszsycy chcą bić brawo <u><b>dla</u></b> tej <u><b>para</u></b>dy cyrkowca"
-        ],
-        // opis
-        desc: "para[para] - dla/żeby",
-        //zdanie
-        sentence1: [
-                "para"
-        ],
-        sentence: [
-                "para",
-                "sentirse",
-                "bien"
-        ],
-        //  slowo do nauki
-        key: "para",
-        category1: [
-        ],
-        category2: ["osoby", "osoby+czas"],
-                category3: ["Infinitive"]
-},
-{
-id: [
-        140,
-        28
-],
-        // obrazek
-        img: [
-                "http://localhost/arbulanguage.com/img/fiszkiespanol/140a.jpg"
-        ],
-        word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
-        ],
-        // historia
-        story: [
-            "Czuję <u><b>sent</u></b>yment kiedy oglądam <u><b>irr</u></b>acjonalne obrazki sztucznej inteligencji np. przedstawiające rzekę <u><b>Se</u></b>kwanę"
-        ],
-        // opis
-        desc: "sentirse[sentirse] - czuć (w jakiś sposób)",
-        //zdanie
-        sentence1: [
-                "sentirse"
-        ],
-        sentence: [
-                "para",
-                "sentirse",
-                "bien"
-        ],
-        //  slowo do nauki
-        key: "sentire",
-        category1: [
-        ],
-        category2: ["osoby", "osoby+czas"],
-                category3: ["Infinitive"]
-},
-{
-id: [
-        141,
-        28
-],
-        // obrazek
-        img: [
-                "http://localhost/arbulanguage.com/img/fiszkiespanol/141a.jpg"
-        ],
-        word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
-        ],
-        // historia
-        story: [
-            "O<u><b>bie</u></b> piłki <u><b>n</u></b>ożne są dobre do gry"
-        ],
-        // opis
-        desc: "bien[bien] - dobry",
-        //zdanie
-        sentence1: [
-                "bien"
-        ],
-        sentence: [
-                "para",
-                "sentirse",
-                "bien"
-        ],
-        //  slowo do nauki
-        key: "bien",
-        category1: [
-        ],
-        category2: ["osoby", "osoby+czas"],
-                category3: ["Infinitive"]
-},
-{
-id: [
-        142,
-        29
-],
-        // obrazek
-        img: [
-                "http://localhost/arbulanguage.com/img/fiszkiespanol/142a.jpg"
-        ],
-        translate: "Zaprzeczać kłamstwom i zawsze mówić prawdę",
-        translateb: "[Negar mentiras i desir siempre berdad]",
-        srcWord: ["http://localhost/arbulanguage.com/filmy/esp/truth.mp4", 'Matrix 1999'],
-        srcWordimage: "http://localhost/arbulanguage.com/filmy/esp/truth.png",
-        word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
-        ],
-        // historia
-        story: [
-            "<u><b>Dar</u></b>mowe <u><b>qui</u></b>z'y o kotach są po to, by dowiedzieć się więcej jak się nimi <u><b>opiekować</u></b>"
-        ],
-        // opis
-        desc: "cuidar[] - opiekować się",
-        //zdanie
-        sentence1: [
-                "Cuidar"
-        ],
-        sentence: [
-                "Cuidar",
-                "el jardin"
-        ],
-        //  slowo do nauki
-        key: "cuidar",
-        category1: [
-        ],
-        category2: ["osoby", "osoby+czas"],
-                category3: ["Infinitive"]
-},
-{
-id: [
-        143,
-        29
-],
-        // obrazek
-        img: [
-                "http://localhost/arbulanguage.com/img/fiszkiespanol/143a.jpg"
-        ],
-        word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
-        ],
-        // historia
-        story: [
-            "<u><b>Har</u></b>t ducha trzeba mieć, aby jeździć na mecze <u><b>Din</u></b>amo Zagrzeb i uprawiać wielki <u><b>ogród</u></b>"
-        ],
-        // opis
-        desc: "el jardin[] - ogród",
-        //zdanie
-        sentence1: [
-                "el jardin"
-        ],
-        sentence: [
-                "Cuidar",
-                "el jardin"
-        ],
-        //  slowo do nauki
-        key: "jardin",
-        category1: [
-        ],
-        category2: ["osoby", "osoby+czas"],
-                category3: ["Infinitive"]
-},
-{
-id: [
-        144,
-        29
-],
-        // obrazek
-        img: [
-            "http://localhost/arbulanguage.com/img/fiszkiespanol/17a.jpg",
-                "http://localhost/arbulanguage.com/img/fiszkiespanol/31a.jpg",
-                "http://localhost/arbulanguage.com/img/fiszkiespanol/59a.jpg",
-                "http://localhost/arbulanguage.com/img/fiszkiespanol/75a.jpg"
-        ],
-        word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
-        ],
-        // historia
-        story: [
-                "<u><b>Z</u></b> <u><b>kon</u></b>opiami jest niezły ubaw",
-                "<u><b>Z</u></b> takimi <u><b>kon</u></b>taktami jakie mam, lepiej jest mi podołać obowiązkom",
-                "<u><b>Z</u></b> <u><b>kon</u></b>sernacją przyjąłem tę decyzję",
-                "<u><b>Z</u></b> <u><b>kon</u></b>taktami w branży u mnie słabo..."
-        ],
-        // opis
-        desc: "con[kon] - z",
-        //zdanie
-        sentence1: [
-                "con"
-        ],
-        sentence: [
-                "con",
-                "amor",
-                "siempre"
-        ],
-        //  slowo do nauki
-        key: "con",
-        category1: [
-        ],
-        category2: ["osoby", "osoby+czas"],
-                category3: ["Infinitive"]
-},
-{
-id: [
-        145,
-        29
-],
-        // obrazek
-        img: [
-                "http://localhost/arbulanguage.com/img/fiszkiespanol/145a.jpg"
-        ],
-        word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
-        ],
-        // historia
-        story: [
-            "KOGNATY AMORY - AMOR (MIŁOŚĆ)"
-        ],
-        // opis
-        desc: "amor[amor] - miłość",
-        //zdanie
-        sentence1: [
-                "amor"
-        ],
-        sentence: [
-                "con",
-                "amor",
-                "siempre"
-        ],
-        //  slowo do nauki
-        key: "amor",
-        category1: [
-        ],
-        category2: ["osoby", "osoby+czas"],
-                category3: ["Infinitive"]
-},
-{
-id: [
-        146,
-        29
-],
-        img: [
-                "http://localhost/arbulanguage.com/img/fiszkiespanol/71a.jpg"
-        ],
-        word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
-        ],
-        // historia
-        story: [
-            "O<u><b>siem</u></b> dni to długo okres na obóz. Obóz robimy <u><b>zawsze</u></b> w <u><b>sie</u></b>rpniu. Obóz nazywa się - <u><b>Pre</u></b>dator"
-        ],
-        // opis
-        desc: "siempre[siempre] - zawsze",
-        //zdanie
-        sentence1: [
-                "siempre"
-        ],
-        sentence: [
-                "con",
-                "amor",
-                "siempre"
-        ],
-        //  slowo do nauki
-        key: "siempre",
-        category1: [
-        ],
-        category2: ["osoby", "osoby+czas"],
-                category3: ["Infinitive"]
-},
-{
-id: [
-        147,
-        30
-],
-        // obrazek
-        img: [
-                "http://localhost/arbulanguage.com/img/fiszkiespanol/147a.jpg"
-        ],
-        translate: "Zaprzeczać kłamstwom i zawsze mówić prawdę",
-        translateb: "[Negar mentiras i desir siempre berdad]",
-        srcWord: ["http://localhost/arbulanguage.com/filmy/esp/truth.mp4", 'Matrix 1999'],
-        srcWordimage: "http://localhost/arbulanguage.com/filmy/esp/truth.png",
-        word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
-        ],
-        // historia
-        story: [
-            "<u><b>Tra</u></b>ktor dobrze sobie <u><b>radzi</u></b> w mokrym polu. A po pracy rolnik je ta<u><b>tar</u></b>a"
-        ],
-        // opis
-        desc: "tratar[tratar] - traktować, radzić sobie",
-        //zdanie
-        sentence1: [
-                "Tratar"
-        ],
-        sentence: [
-                "Tratar",
-                "la ansiedad"
-        ],
-        //  slowo do nauki
-        key: "tratar",
-        category1: [
-        ],
-        category2: ["osoby", "osoby+czas"],
-                category3: ["Infinitive"]
-},
-{
-id: [
-        148,
-        30
-],
-        img: [
-                "http://localhost/arbulanguage.com/img/fiszkiespanol/148a.jpg"
-        ],
-        word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
-        ],
-        // historia
-        story: [
-            "P<u><b>an</u></b> <u><b>Sie</u></b>rgiej czuje <u><b>niepokój</u></b>, gdy wspomina mu się o mieście Bag<u><b>dad</u></b> gdzie był na misji wojennej"
-        ],
-        // opis
-        desc: "la ansiedad[la ansiedad] - lęk, niepokój",
-        //zdanie
-        sentence1: [
-                "la ansiedad"
-        ],
-        sentence: [
-                "Tratar",
-                "la ansiedad"
-        ],
-        //  slowo do nauki
-        key: "ansiedad",
-        category1: [
-        ],
-        category2: ["osoby", "osoby+czas"],
-                category3: ["Infinitive"]
-},
-{
-id: [
-        149,
-        30
-],
-        // obrazek
-        img: [
-            "http://localhost/arbulanguage.com/img/fiszkiespanol/17a.jpg",
-                "http://localhost/arbulanguage.com/img/fiszkiespanol/31a.jpg",
-                "http://localhost/arbulanguage.com/img/fiszkiespanol/59a.jpg",
-                "http://localhost/arbulanguage.com/img/fiszkiespanol/75a.jpg"
-        ],
-        word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
-        ],
-        // historia
-        story: [
-                "<u><b>Z</u></b> <u><b>kon</u></b>opiami jest niezły ubaw",
-                "<u><b>Z</u></b> takimi <u><b>kon</u></b>taktami jakie mam, lepiej jest mi podołać obowiązkom",
-                "<u><b>Z</u></b> <u><b>kon</u></b>sernacją przyjąłem tę decyzję",
-                "<u><b>Z</u></b> <u><b>kon</u></b>taktami w branży u mnie słabo..."
-        ],
-        // opis
-        desc: "con[kon] - z",
-        //zdanie
-        sentence1: [
-                "con"
-        ],
-        sentence: [
-                "con",
-                "respiracion",
-                "profunda"
-        ],
-        //  slowo do nauki
-        key: "con",
-        category1: [
-        ],
-        category2: ["osoby", "osoby+czas"],
-                category3: ["Infinitive"]
-},
-{
-id: [
-        150,
-        30
-],
-        img: [
-                "http://localhost/arbulanguage.com/img/fiszkiespanol/150a.jpg"
-        ],
-        word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
-        ],
-        // historia
-        story: [
-            "KOGNATY: RESPIRACION - ODDECHOWY"
-        ],
-        // opis
-        desc: "respiracion[respirasion] - oddech, oddechowy",
-        //zdanie
-        sentence1: [
-                "respiracion"
-        ],
-        sentence: [
-                "con",
-                "respiracion",
-                "profunda"
-        ],
-        //  slowo do nauki
-        key: "respiracion",
-        category1: [
-        ],
-        category2: ["osoby", "osoby+czas"],
-                category3: ["Infinitive"]
-},
-{
-id: [
-        151,
-        30
-],
-        img: [
-                "http://localhost/arbulanguage.com/img/fiszkiespanol/151a.jpg"
-        ],
-        word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
-        ],
-        // historia
-        story: [
-            "Na medytacji organizowanej przez <u><b>Funda</u></b>cję - dostaliśmy <u><b>pro</u></b>pozycję <u><b>głębokiego</u></b> oddechu"
-        ],
-        // opis
-        desc: "profunda[profunda] - głęboki, głęboka, głęboko",
-        //zdanie
-        sentence1: [
-                "profunda"
-        ],
-        sentence: [
-                "con",
-                "respiracion",
-                "profunda"
-        ],
-        //  slowo do nauki
-        key: "profunda",
-        category1: [
-        ],
-        category2: ["osoby", "osoby+czas"],
-                category3: ["Infinitive"]
-},
-{
-id: [
-        152,
-        31
-],
-        // obrazek
-        img: [
-                "http://localhost/arbulanguage.com/img/fiszkiespanol/152a.jpg"
-        ],
-        translate: "",
-        translateb: "[]",
-        srcWord: ["http://localhost/arbulanguage.com/filmy/esp/truth.mp4", 'Matrix 1999'],
-        srcWordimage: "http://localhost/arbulanguage.com/filmy/esp/truth.png",
-        word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
-        ],
-        // historia
-        story: [
-            "<u><b>Lar</u></b>a Croft zabrała <u><b>Anie</u></b> na zwiedzanie architektury miasta. Ania tego bardzo <u><b>pragnęła</u></b>"
-        ],
-        // opis
-        desc: "anhelar[anielar] - pragnąć",
-        //zdanie
-        sentence1: [
-                "Anhelar"
-        ],
-        sentence: [
-                "Anhelar",
-                "paz"
-        ],
-        //  slowo do nauki
-        key: "Anhelar",
-        category1: [
-        ],
-        category2: ["osoby", "osoby+czas"],
-                category3: ["Infinitive"]
-},
-{
-id: [
-        153,
-        32
-],
-        img: [
-                "http://localhost/arbulanguage.com/img/fiszkiespanol/153a.jpg"
-        ],
-        word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
-        ],
-        // historia
-        story: [
-            "To<u><b>paz</u></b> to minerał, który zapewnił wzrost gospodarczy krajowi i <u><b>pokój</u></b>"
-        ],
-        // opis
-        desc: "paz[paz] - pokój",
-        //zdanie
-        sentence1: [
-                "paz"
-        ],
-        sentence: [
-                "Anhelar",
-                "paz"
-        ],
-        //  slowo do nauki
-        key: "paz",
-        category1: [
-        ],
-        category2: ["osoby", "osoby+czas"],
-                category3: ["Infinitive"]
-},
-{
-id: [
-        154,
-        32
-],
-        // obrazek
-        img: [
-                "http://localhost/arbulanguage.com/img/fiszkiespanol/12a.jpg"
-        ],
-        word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
-        ],
-        // historia
-        story: [
-                "Nie zabieramy całego <u><b>mien</u></b>ia <u><b>kiedy</u></b> jedziemy w </u></b>tras<u><b>ę"
-        ],
-        // opis
-        desc: "mientras[mientras] - gdy/podczas gdy",
-        //zdanie
-        sentence1: [
-                "mientras"
-        ],
-        sentence: [
-                "mientras",
-                "hay",
-                "conflictos",
-                "grandes"
-        ],
-        //  slowo do nauki
-        key: "mientras",
-        category1: [
-        ],
-        category2: ["osoby", "osoby+czas"],
-                category3: ["Infinitive"]
-},
-{
-id: [
-        155,
-        32
-],
-        img: [
-                "http://localhost/arbulanguage.com/img/fiszkiespanol/155a.jpg"
-        ],
-        word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
-        ],
-        // historia
-        story: [
-            "<u><b>Ajjj</u></b>, ta passa zespołu hokejowego <u><b>trwa</u></b> naprawdę długo"
-        ],
-        // opis
-        desc: "hay[] - jest, trwać",
-        //zdanie
-        sentence1: [
-                "hay"
-        ],
-        sentence: [
-                "mientras",
-                "hay",
-                "conflictos",
-                "grandes"
-        ],
-        //  slowo do nauki
-        key: "hay",
-        category1: [
-        ],
-        category2: ["osoby", "osoby+czas"],
-                category3: ["Infinitive"]
-},
-{
-id: [
-        156,
-        32
-],
-        img: [
-                "http://localhost/arbulanguage.com/img/fiszkiespanol/156a.jpg"
-        ],
-        word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
-        ],
-        // historia
-        story: [
-            "KOGNATY: CONFLICTOS - KONFLIKTY"
-        ],
-        // opis
-        desc: "conflictos[konfliktos] - konflikty",
-        //zdanie
-        sentence1: [
-                "conflictos"
-        ],
-        sentence: [
-                "mientras",
-                "hay",
-                "conflictos",
-                "grandes"
-        ],
-        //  slowo do nauki
-        key: "conflictos",
-        category1: [
-        ],
-        category2: ["osoby", "osoby+czas"],
-                category3: ["Infinitive"]
-},
-{
-id: [
-        157,
-        32
-],
-        img: [
-                "http://localhost/arbulanguage.com/img/fiszkiespanol/157a.jpg"
-        ],
-        word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
-        ],
-        // historia
-        story: [
-            "<u><b>Duża</u></b> <u><b>grand</u></b>a zazwyczaj wynika z <u><b>des</u></b>peracji"
-        ],
-        // opis
-        desc: "grandes[grandes] - duży",
-        //zdanie
-        sentence1: [
-                "grandes"
-        ],
-        sentence: [
-                "mientras",
-                "hay",
-                "conflictos",
-                "grandes"
-        ],
-        //  slowo do nauki
-        key: "grandes",
-        category1: [
-        ],
-        category2: ["osoby", "osoby+czas"],
-                category3: ["Infinitive"]
-},
-{
-id: [
-        158,
-        33
-],
-        // obrazek
-        img: [
-                "http://localhost/arbulanguage.com/img/fiszkiespanol/57a.jpg"
-        ],
-        translate: "Zaprzeczać kłamstwom i zawsze mówić prawdę",
-        translateb: "[Negar mentiras i desir siempre berdad]",
-        srcWord: ["http://localhost/arbulanguage.com/filmy/esp/truth.mp4", 'Matrix 1999'],
-        srcWordimage: "http://localhost/arbulanguage.com/filmy/esp/truth.png",
-        word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
-        ],
-        // historia
-        story: [
-            "<u><b>Kamb</u></b>odźa ma nadm<u><b>iar</u></b> <u><b>zmian</u></b> klimatycznych"
-        ],
-        // opis
-        desc: "cambiar[kambiar] - zmieniać",
-        //zdanie
-        sentence1: [
-                "Cambiar"
-        ],
-        sentence: [
-                "Cambiar",
-                "el mundo"
-        ],
-        //  slowo do nauki
-        key: "cambiar",
-        category1: [
-        ],
-        category2: ["osoby", "osoby+czas"],
-                category3: ["Infinitive"]
-},
-{
-id: [
-        159,
-        33
-],
-        img: [
-                "http://localhost/arbulanguage.com/img/fiszkiespanol/159a.jpg"
-        ],
-        word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
-        ],
-        // historia
-        story: [
-            "<u><b>Oooo</u></b>, <u><b>el</u></b>iminacje do <u><b>mund</u></b>ialu czyli mistrzost <u><b>świata</u></b> były zacięte"
-        ],
-        // opis
-        desc: "el mundo[el mundo] - świat",
-        //zdanie
-        sentence1: [
-                "el mundo"
-        ],
-        sentence: [
-                "Cambiar",
-                "el mundo"
-        ],
-        //  slowo do nauki
-        key: "mundo",
-        category1: [
-        ],
-        category2: ["osoby", "osoby+czas"],
-                category3: ["Infinitive"]
-},
-{
-id: [
-        160,
-        33
-],
-        // obrazek
-        img: [
-            "http://localhost/arbulanguage.com/img/fiszkiespanol/17a.jpg",
-                "http://localhost/arbulanguage.com/img/fiszkiespanol/31a.jpg",
-                "http://localhost/arbulanguage.com/img/fiszkiespanol/59a.jpg",
-                "http://localhost/arbulanguage.com/img/fiszkiespanol/75a.jpg"
-        ],
-        word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
-        ],
-        // historia
-        story: [
-                "<u><b>Z</u></b> <u><b>kon</u></b>opiami jest niezły ubaw",
-                "<u><b>Z</u></b> takimi <u><b>kon</u></b>taktami jakie mam, lepiej jest mi podołać obowiązkom",
-                "<u><b>Z</u></b> <u><b>kon</u></b>sernacją przyjąłem tę decyzję",
-                "<u><b>Z</u></b> <u><b>kon</u></b>taktami w branży u mnie słabo..."
-        ],
-        // opis
-        desc: "con[kon] - z",
-        //zdanie
-        sentence1: [
-                "con"
-        ],
-        sentence: [
-                "con",
-                "pequeñas",
-                "acciones"
-        ],
-        //  slowo do nauki
-        key: "con",
-        category1: [
-        ],
-        category2: ["osoby", "osoby+czas"],
-                category3: ["Infinitive"]
-},
-{
-id: [
-        161,
-        33
-],
-        img: [
-                "http://localhost/arbulanguage.com/img/fiszkiespanol/161a.jpg"
-        ],
-        word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
-        ],
-        // historia
-        story: [
-            "Dzisiaj <u><b>pek</u></b>luję <u><b>małe</u></b> papry<u><b>ki</u></b> dla H<u><b>enia</u></b>. Będą <u><b>s</u></b>uper"
-        ],
-        // opis
-        desc: "pequeñas[pekienias] - mały",
-        //zdanie
-        sentence1: [
-                "pequeñas"
-        ],
-        sentence: [
-                "con",
-                "pequeñas",
-                "acciones"
-        ],
-        //  slowo do nauki
-        key: "pequenas",
-        category1: [
-        ],
-        category2: ["osoby", "osoby+czas"],
-                category3: ["Infinitive"]
-},
-{
-id: [
-        162,
-        33
-],
-        img: [
-                "http://localhost/arbulanguage.com/img/fiszkiespanol/162a.jpg"
-        ],
-        word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
-        ],
-        // historia
-        story: [
-            "KOGNATY: ACCTIONES - AKCJE"
-        ],
-        // opis
-        desc: "acciones[aktiones] - akcje",
-        //zdanie
-        sentence1: [
-                "acciones"
-        ],
-        sentence: [
-                "con",
-                "pequeñas",
-                "acciones"
-        ],
-        //  slowo do nauki
-        key: "acciones",
-        category1: [
-        ],
-        category2: ["osoby", "osoby+czas"],
-                category3: ["Infinitive"]
-},
-{
-id: [
-        163,
-        34
-],
-        // obrazek
-        img: [
-                "http://localhost/arbulanguage.com/img/fiszkiespanol/163a.jpg"
-        ],
-        translate: "",
-        translateb: "[]",
-        srcWord: ["http://localhost/arbulanguage.com/filmy/esp/truth.mp4", 'Matrix 1999'],
-        srcWordimage: "http://localhost/arbulanguage.com/filmy/esp/truth.png",
-        word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
-        ],
-        // historia
-        story: [
-            ""
-        ],
-        // opis
-        desc: "lograr[lograr] - osiągnąć",
-        //zdanie
-        sentence1: [
-                "Lograr"
-        ],
-        sentence: [
-                "Lograr",
-                "sueños",
-                "grandes"
-        ],
-        //  slowo do nauki
-        key: "lograr",
-        category1: [
-        ],
-        category2: ["osoby", "osoby+czas"],
-                category3: ["Infinitive"]
-},
-{
-id: [
-        164,
-        34
-],
-        img: [
-                "http://localhost/arbulanguage.com/img/fiszkiespanol/146a.jpg"
-        ],
-        word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
-        ],
-        // historia
-        story: [
-            ""
-        ],
-        // opis
-        desc: "sueños[] - ",
-        //zdanie
-        sentence1: [
-                "sueños"
-        ],
-        sentence: [
-                "Lograr",
-                "sueños",
-                "grandes"
-        ],
-        //  slowo do nauki
-        key: "suenos",
-        category1: [
-        ],
-        category2: ["osoby", "osoby+czas"],
-                category3: ["Infinitive"]
-},
-{
-id: [
-        165,
-        34
-],
-        img: [
-                "http://localhost/arbulanguage.com/img/fiszkiespanol/157a.jpg"
-        ],
-        word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
-        ],
-        // historia
-        story: [
-            "<u><b>Duża</u></b> <u><b>grand</u></b>a zazwyczaj wynika z <u><b>des</u></b>peracji"
-        ],
-        // opis
-        desc: "grandes[grandes] - duży",
-        //zdanie
-        sentence1: [
-                "grandes"
-        ],
-        sentence: [
-                "Lograr",
-                "sueños",
-                "grandes"
-        ],
-        //  slowo do nauki
-        key: "grandes",
-        category1: [
-        ],
-        category2: ["osoby", "osoby+czas"],
-                category3: ["Infinitive"]
-},
-{
-id: [
-        166,
-        34
-],
-        // obrazek
-        img: [
-            "http://localhost/arbulanguage.com/img/fiszkiespanol/17a.jpg",
-                "http://localhost/arbulanguage.com/img/fiszkiespanol/31a.jpg",
-                "http://localhost/arbulanguage.com/img/fiszkiespanol/59a.jpg",
-                "http://localhost/arbulanguage.com/img/fiszkiespanol/75a.jpg"
-        ],
-        word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
-        ],
-        // historia
-        story: [
-                "<u><b>Z</u></b> <u><b>kon</u></b>opiami jest niezły ubaw",
-                "<u><b>Z</u></b> takimi <u><b>kon</u></b>taktami jakie mam, lepiej jest mi podołać obowiązkom",
-                "<u><b>Z</u></b> <u><b>kon</u></b>sernacją przyjąłem tę decyzję",
-                "<u><b>Z</u></b> <u><b>kon</u></b>taktami w branży u mnie słabo..."
-        ],
-        // opis
-        desc: "con[kon] - z",
-        //zdanie
-        sentence1: [
-                "con"
-        ],
-        sentence: [
-                "con",
-                "pequeños",
-                "pasos"
-        ],
-        //  slowo do nauki
-        key: "con",
-        category1: [
-        ],
-        category2: ["osoby", "osoby+czas"],
-                category3: ["Infinitive"]
-},
-{
-id: [
-        167,
-        34
-],
-        img: [
-                "http://localhost/arbulanguage.com/img/fiszkiespanol/161a.jpg"
-        ],
-        word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
-        ],
-        // historia
-        story: [
-            "Dzisiaj <u><b>pek</u></b>luję <u><b>małe</u></b> papry<u><b>ki</u></b>. He<u><b>nio</u></b> będzie się cieszył, będą <u><b>s</u></b>uper"
-        ],
-        // opis
-        desc: "pequeños[pekienios] - mały",
-        //zdanie
-        sentence1: [
-                "pequeños"
-        ],
-        sentence: [
-                "con",
-                "pequeños",
-                "pasos"
-        ],
-        //  slowo do nauki
-        key: "pequenos",
-        category1: [
-        ],
-        category2: ["osoby", "osoby+czas"],
-                category3: ["Infinitive"]
-},
-{
-id: [
-        168,
-        34
-],
-        img: [
-                "http://localhost/arbulanguage.com/img/fiszkiespanol/168a.jpg"
-        ],
-        word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
-        ],
-        // historia
-        story: [
-            "W kilku <u><b>krokach</u></b> gotujemy obiad. Najpierw zu<u><b>pa</u></b>, a później drugie: czyli mięso i do tego <u><b>sos</u></b>"
-        ],
-        // opis
-        desc: "pasos[pasos] - kroki",
-        //zdanie
-        sentence1: [
-                "pasos"
-        ],
-        sentence: [
-                "con",
-                "pequeños",
-                "pasos"
-        ],
-        //  slowo do nauki
-        key: "pasos",
-        category1: [
-        ],
-        category2: ["osoby", "osoby+czas"],
-                category3: ["Infinitive"]
-},
-{
-id: [
-        169,
-        35
-],
-        // obrazek
-        img: [
-                "http://localhost/arbulanguage.com/img/fiszkiespanol/131a.jpg"
-        ],
-        translate: "Zaprzeczać kłamstwom i zawsze mówić prawdę",
-        translateb: "[Negar mentiras i desir siempre berdad]",
-        srcWord: ["http://localhost/arbulanguage.com/filmy/esp/truth.mp4", 'Matrix 1999'],
-        srcWordimage: "http://localhost/arbulanguage.com/filmy/esp/truth.png",
-        word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
-        ],
-        // historia
-        story: [
-            ""
-        ],
-        // opis
-        desc: "repetir[] - powtarzać",
-        //zdanie
-        sentence1: [
-                "Repetir"
-        ],
-        sentence: [
-                "Repetir",
-                "palabras",
-                "bontias"
-        ],
-        //  slowo do nauki
-        key: "repetir",
-        category1: [
-        ],
-        category2: ["osoby", "osoby+czas"],
-                category3: ["Infinitive"]
-},
-{
-id: [
-        168,
-        34
-],
-        img: [
-                "http://localhost/arbulanguage.com/img/fiszkiespanol/168a.jpg"
-        ],
-        word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
-        ],
-        // historia
-        story: [
-            ""
-        ],
-        // opis
-        desc: "palabras[palawras] - słowa",
-        //zdanie
-        sentence1: [
-                "palabras"
-        ],
-        sentence: [
-                "Repetir",
-                "palabras",
-                "bontias"
-        ],
-        //  slowo do nauki
-        key: "palabras",
-        category1: [
-        ],
-        category2: ["osoby", "osoby+czas"],
-                category3: ["Infinitive"]
-},
-{
-id: [
-        168,
-        34
-],
-        img: [
-                "http://localhost/arbulanguage.com/img/fiszkiespanol/146a.jpg"
-        ],
-        word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
-        ],
-        // historia
-        story: [
-            ""
-        ],
-        // opis
-        desc: "bonitas[] - ",
-        //zdanie
-        sentence1: [
-                "bonitas"
-        ],
-        sentence: [
-                "Repetir",
-                "palabras",
-                "bontias"
-        ],
-        //  slowo do nauki
-        key: "siempre",
-        category1: [
-        ],
-        category2: ["osoby", "osoby+czas"],
-                category3: ["Infinitive"]
-},
-{
-id: [
-        168,
-        34
-],
-        // obrazek
-        img: [
-                "http://localhost/arbulanguage.com/img/fiszkiespanol/95a.jpg"
-        ],
-        word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
-        ],
-        // historia
-        story: [
-            "Wszsycy chcą bić brawo <u><b>dla</u></b> tej <u><b>para</u></b>dy cyrkowca"
-        ],
-        // opis
-        desc: "para[para] - dla/żeby",
-        //zdanie
-        sentence1: [
-                "para"
-        ],
-        sentence: [
-                "para",
-                "sentirse",
-                "bien"
-        ],
-        //  slowo do nauki
-        key: "para",
-        category1: [
-        ],
-        category2: ["osoby", "osoby+czas"],
-                category3: ["Infinitive"]
-},
-{
-id: [
-        168,
-        34
-],
-        img: [
-                "http://localhost/arbulanguage.com/img/fiszkiespanol/146a.jpg"
-        ],
-        word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
-        ],
-        // historia
-        story: [
-            ""
-        ],
-        // opis
-        desc: "sentirse[] - ",
-        //zdanie
-        sentence1: [
-                "sentirse"
-        ],
-        sentence: [
-                "para",
-                "sentirse",
-                "bien"
-        ],
-        //  slowo do nauki
-        key: "sentirse",
-        category1: [
-        ],
-        category2: ["osoby", "osoby+czas"],
-                category3: ["Infinitive"]
-},
-{
-id: [
-        168,
-        34
-],
-        img: [
-                "http://localhost/arbulanguage.com/img/fiszkiespanol/146a.jpg"
-        ],
-        word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
-        ],
-        // historia
-        story: [
-            ""
-        ],
-        // opis
-        desc: "bien[] - ",
-        //zdanie
-        sentence1: [
-                "bien"
-        ],
-        sentence: [
-                "para",
-                "sentirse",
-                "bien"
-        ],
-        //  slowo do nauki
-        key: "bien",
-        category1: [
-        ],
-        category2: ["osoby", "osoby+czas"],
-                category3: ["Infinitive"]
-},
-{
-id: [
-        169,
-        35
-],
-        // obrazek
-        img: [
-                "http://localhost/arbulanguage.com/img/fiszkiespanol/127a.jpg"
-        ],
-        translate: "Zaprzeczać kłamstwom i zawsze mówić prawdę",
-        translateb: "[Negar mentiras i desir siempre berdad]",
-        srcWord: ["http://localhost/arbulanguage.com/filmy/esp/truth.mp4", 'Matrix 1999'],
-        srcWordimage: "http://localhost/arbulanguage.com/filmy/esp/truth.png",
-        word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
-        ],
-        // historia
-        story: [
-            "Filmowy a<u><b>mant</u></b> <u><b>zachowuje</u></b> wizerunek bardzo <u><b>ener</u></b>gicznego"
-        ],
-        // opis
-        desc: "mantener[mantener] - zachować",
-        //zdanie
-        sentence1: [
-                "Mantener"
-        ],
-        sentence: [
-                "Mantener",
-                "la calma"
-        ],
-        //  slowo do nauki
-        key: "mantener",
-        category1: [
-        ],
-        category2: ["osoby", "osoby+czas"],
-                category3: ["Infinitive"]
-},
-{
-id: [
-        170,
-        35
-],
-        img: [
-                "http://localhost/arbulanguage.com/img/fiszkiespanol/146a.jpg"
-        ],
-        word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
-        ],
-        // historia
-        story: [
-            ""
-        ],
-        // opis
-        desc: "la calma[] - ",
-        //zdanie
-        sentence1: [
-                "la calma"
-        ],
-        sentence: [
-                "Mantener",
-                "la calma"
-        ],
-        //  slowo do nauki
-        key: "calma",
-        category1: [
-        ],
-        category2: ["osoby", "osoby+czas"],
-                category3: ["Infinitive"]
-},
-{
-id: [
-        171,
-        35
-],
-        // obrazek
-        img: [
-                "http://localhost/arbulanguage.com/img/fiszkiespanol/26a.jpg"
-        ],
-        word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
-        ],
-        // historia
-        story: [
-                "<u><b>I</u></b> tak dalej.."
-        ],
-        // opis
-        desc: "y[i] - i",
-        //zdanie
-        sentence1: [
-                "y"
-        ],
-        sentence: [
-                "y",
-                "disfrutar",
-                "el momento"
-        ],
-        //  slowo do nauki
-        key: "y",
-        category1: [
-        ],
-        category2: ["osoby", "osoby+czas"],
-                category3: ["Infinitive"]
-},
-{
-id: [
-        172,
-        35
-],
-        // obrazek
-        img: [
-                "http://localhost/arbulanguage.com/img/fiszkiespanol/86a.jpg"
-        ],
-        word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
-        ],
-        // historia
-        story: [
-            "Na tym <u><b>dis</u></b>co normalnie <u><b>fru</u></b>wam z radości. <u><b>Cieszę się</u></b> z muzyki, a na <u><b>tar</u></b>asie są piękne dziewczyny"
-        ],
-        // opis
-        desc: "disfrutar[disfrutar] - cieszyć się",
-        //zdanie
-        sentence1: [
-                "disfrutar"
-        ],
-        sentence: [
-                "y",
-                "disfrutar",
-                "el momento"
-        ],
-        //  slowo do nauki
-        key: "disfrutar",
-        category1: [
-        ],
-        category2: ["osoby", "osoby+czas"],
-                category3: ["Infinitive"]
-},
-{
-id: [
-        173,
-        35
-],
-        img: [
-                "http://localhost/arbulanguage.com/img/fiszkiespanol/146a.jpg"
-        ],
-        word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
-        ],
-        // historia
-        story: [
-            ""
-        ],
-        // opis
-        desc: "el momento[] - ",
-        //zdanie
-        sentence1: [
-                "el momento"
-        ],
-        sentence: [
-                "y",
-                "disfrutar",
-                "el momento"
-        ],
-        //  slowo do nauki
-        key: "momento",
-        category1: [
-        ],
-        category2: ["osoby", "osoby+czas"],
-                category3: ["Infinitive"]
-},
-{
-id: [
-        174,
-        36
-],
-        // obrazek
-        img: [
-                "http://localhost/arbulanguage.com/img/fiszkiespanol/131a.jpg"
-        ],
-        translate: "Zaprzeczać kłamstwom i zawsze mówić prawdę",
-        translateb: "[Negar mentiras i desir siempre berdad]",
-        srcWord: ["http://localhost/arbulanguage.com/filmy/esp/truth.mp4", 'Matrix 1999'],
-        srcWordimage: "http://localhost/arbulanguage.com/filmy/esp/truth.png",
-        word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
-        ],
-        // historia
-        story: [
-            ""
-        ],
-        // opis
-        desc: "cuidar[] - powtarzać",
-        //zdanie
-        sentence1: [
-                "Cuidar"
-        ],
-        sentence: [
-                "Cuidar",
-                "la salud"
-        ],
-        //  slowo do nauki
-        key: "cuidar",
-        category1: [
-        ],
-        category2: ["osoby", "osoby+czas"],
-                category3: ["Infinitive"]
-},
-{
-id: [
-        175,
-        36
-],
-        img: [
-                "http://localhost/arbulanguage.com/img/fiszkiespanol/146a.jpg"
-        ],
-        word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
-        ],
-        // historia
-        story: [
-            ""
-        ],
-        // opis
-        desc: "la salud[] - ",
-        //zdanie
-        sentence1: [
-                "la salud"
-        ],
-        sentence: [
-                "Cuidar",
-                "la salud"
-        ],
-        //  slowo do nauki
-        key: "salud",
-        category1: [
-        ],
-        category2: ["osoby", "osoby+czas"],
-                category3: ["Infinitive"]
-},
-{
-id: [
-        176,
-        36
-],
-        img: [
-                "http://localhost/arbulanguage.com/img/fiszkiespanol/146a.jpg"
-        ],
-        word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
-        ],
-        // historia
-        story: [
-            ""
-        ],
-        // opis
-        desc: "con[] - ",
-        //zdanie
-        sentence1: [
-                "con"
-        ],
-        sentence: [
-                "con",
-                "ejercicio",
-                "diario"
-        ],
-        //  slowo do nauki
-        key: "con",
-        category1: [
-        ],
-        category2: ["osoby", "osoby+czas"],
-                category3: ["Infinitive"]
-},
-{
-id: [
-        177,
-        36
-],
-        img: [
-                "http://localhost/arbulanguage.com/img/fiszkiespanol/146a.jpg"
-        ],
-        word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
-        ],
-        // historia
-        story: [
-            ""
-        ],
-        // opis
-        desc: "ejercicio[] - ",
-        //zdanie
-        sentence1: [
-                "ejercicio"
-        ],
-        sentence: [
-                "con",
-                "ejercicio",
-                "diario"
-        ],
-        //  slowo do nauki
-        key: "ejercicio",
-        category1: [
-        ],
-        category2: ["osoby", "osoby+czas"],
-                category3: ["Infinitive"]
-},
-{
-id: [
-        178,
-        36
-],
-        img: [
-                "http://localhost/arbulanguage.com/img/fiszkiespanol/146a.jpg"
-        ],
-        word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
-        ],
-        // historia
-        story: [
-            ""
-        ],
-        // opis
-        desc: "diario[] - ",
-        //zdanie
-        sentence1: [
-                "diario"
-        ],
-        sentence: [
-                "con",
-                "ejercicio",
-                "diario"
-        ],
-        //  slowo do nauki
-        key: "diario",
-        category1: [
-        ],
-        category2: ["osoby", "osoby+czas"],
-                category3: ["Infinitive"]
-},
-{
-id: [
-        179,
-        37
-],
-        // obrazek
-        img: [
-                "http://localhost/arbulanguage.com/img/fiszkiespanol/131a.jpg"
-        ],
-        translate: "Zaprzeczać kłamstwom i zawsze mówić prawdę",
-        translateb: "[Negar mentiras i desir siempre berdad]",
-        srcWord: ["http://localhost/arbulanguage.com/filmy/esp/truth.mp4", 'Matrix 1999'],
-        srcWordimage: "http://localhost/arbulanguage.com/filmy/esp/truth.png",
-        word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
-        ],
-        // historia
-        story: [
-            ""
-        ],
-        // opis
-        desc: "proteger[] - chronić",
-        //zdanie
-        sentence1: [
-                "Proteger"
-        ],
-        sentence: [
-                "Proteger",
-                "el cuerpo"
-        ],
-        //  slowo do nauki
-        key: "proteger",
-        category1: [
-        ],
-        category2: ["osoby", "osoby+czas"],
-                category3: ["Infinitive"]
-},
-{
-id: [
-        180,
-        37
-],
-        img: [
-                "http://localhost/arbulanguage.com/img/fiszkiespanol/146a.jpg"
-        ],
-        word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
-        ],
-        // historia
-        story: [
-            ""
-        ],
-        // opis
-        desc: "el cuerpo[] - ",
-        //zdanie
-        sentence1: [
-                "el cuerpo"
-        ],
-        sentence: [
-                "Proteger",
-                "el cuerpo"
-        ],
-        //  slowo do nauki
-        key: "cuerpo",
-        category1: [
-        ],
-        category2: ["osoby", "osoby+czas"],
-                category3: ["Infinitive"]
-},
-{
-id: [
-        181,
-        37
-],
-        img: [
-                "http://localhost/arbulanguage.com/img/fiszkiespanol/146a.jpg"
-        ],
-        word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
-        ],
-        // historia
-        story: [
-            ""
-        ],
-        // opis
-        desc: "con[] - ",
-        //zdanie
-        sentence1: [
-                "con"
-        ],
-        sentence: [
-                "con",
-                "ropa",
-                "cómoda"
-        ],
-        //  slowo do nauki
-        key: "con",
-        category1: [
-        ],
-        category2: ["osoby", "osoby+czas"],
-                category3: ["Infinitive"]
-},
-{
-id: [
-        182,
-        37
-],
-        img: [
-                "http://localhost/arbulanguage.com/img/fiszkiespanol/146a.jpg"
-        ],
-        word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
-        ],
-        // historia
-        story: [
-            ""
-        ],
-        // opis
-        desc: "ropa[] - ",
-        //zdanie
-        sentence1: [
-                "ropa"
-        ],
-        sentence: [
-                "con",
-                "ropa",
-                "cómoda"
-        ],
-        //  slowo do nauki
-        key: "ropa",
-        category1: [
-        ],
-        category2: ["osoby", "osoby+czas"],
-                category3: ["Infinitive"]
-},
-{
-id: [
-        183,
-        37
-],
-        img: [
-                "http://localhost/arbulanguage.com/img/fiszkiespanol/146a.jpg"
-        ],
-        word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
-        ],
-        // historia
-        story: [
-            ""
-        ],
-        // opis
-        desc: "cómoda[] - ",
-        //zdanie
-        sentence1: [
-                "cómoda"
-        ],
-        sentence: [
-                "con",
-                "ropa",
-                "cómoda"
-        ],
-        //  slowo do nauki
-        key: "comoda",
-        category1: [
-        ],
-        category2: ["osoby", "osoby+czas"],
-                category3: ["Infinitive"]
-},
-{
-id: [
-        184,
-        38
-],
-        // obrazek
-        img: [
-                "http://localhost/arbulanguage.com/img/fiszkiespanol/131a.jpg"
-        ],
-        translate: "Zaprzeczać kłamstwom i zawsze mówić prawdę",
-        translateb: "[Negar mentiras i desir siempre berdad]",
-        srcWord: ["http://localhost/arbulanguage.com/filmy/esp/truth.mp4", 'Matrix 1999'],
-        srcWordimage: "http://localhost/arbulanguage.com/filmy/esp/truth.png",
-        word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
-        ],
-        // historia
-        story: [
-            ""
-        ],
-        // opis
-        desc: "cambiar[] - chronić",
-        //zdanie
-        sentence1: [
-                "Cmabiar"
-        ],
-        sentence: [
-                "Cambiar",
-                "el plan"
-        ],
-        //  slowo do nauki
-        key: "cambiar",
-        category1: [
-        ],
-        category2: ["osoby", "osoby+czas"],
-                category3: ["Infinitive"]
-},
-{
-id: [
-        185,
-        38
-],
-        img: [
-                "http://localhost/arbulanguage.com/img/fiszkiespanol/146a.jpg"
-        ],
-        word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
-        ],
-        // historia
-        story: [
-            ""
-        ],
-        // opis
-        desc: "el plan[] - ",
-        //zdanie
-        sentence1: [
-                "el plan"
-        ],
-        sentence: [
-                "Cambiar",
-                "el plan"
-        ],
-        //  slowo do nauki
-        key: "plan",
-        category1: [
-        ],
-        category2: ["osoby", "osoby+czas"],
-                category3: ["Infinitive"]
-},
-{
-id: [
-        186,
-        38
-],
-        img: [
-                "http://localhost/arbulanguage.com/img/fiszkiespanol/146a.jpg"
-        ],
-        word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
-        ],
-        // historia
-        story: [
-            ""
-        ],
-        // opis
-        desc: "si es[] - ",
-        //zdanie
-        sentence1: [
-                "si es"
-        ],
-        sentence: [
-                "si es",
-                "necasario"
-        ],
-        //  slowo do nauki
-        key: "si es",
-        category1: [
-        ],
-        category2: ["osoby", "osoby+czas"],
-                category3: ["Infinitive"]
-},
-{
-id: [
-        187,
-        38
-],
-        img: [
-                "http://localhost/arbulanguage.com/img/fiszkiespanol/146a.jpg"
-        ],
-        word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
-        ],
-        // historia
-        story: [
-            ""
-        ],
-        // opis
-        desc: "necesario[] - ",
-        //zdanie
-        sentence1: [
-                "necasario"
-        ],
-        sentence: [
-                "si es",
-                "necasario"
-        ],
-        //  slowo do nauki
-        key: "necesario",
-        category1: [
-        ],
-        category2: ["osoby", "osoby+czas"],
-                category3: ["Infinitive"]
-},
-{
-id: [
-        188,
-        39
-],
-        // obrazek
-        img: [
-                "http://localhost/arbulanguage.com/img/fiszkiespanol/131a.jpg"
-        ],
-        translate: "Zaprzeczać kłamstwom i zawsze mówić prawdę",
-        translateb: "[Negar mentiras i desir siempre berdad]",
-        srcWord: ["http://localhost/arbulanguage.com/filmy/esp/truth.mp4", 'Matrix 1999'],
-        srcWordimage: "http://localhost/arbulanguage.com/filmy/esp/truth.png",
-        word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
-        ],
-        // historia
-        story: [
-            ""
-        ],
-        // opis
-        desc: "prever[] - chronić",
-        //zdanie
-        sentence1: [
-                "Prever"
-        ],
-        sentence: [
-                "Prever",
-                "el futuro"
-        ],
-        //  slowo do nauki
-        key: "prever",
-        category1: [
-        ],
-        category2: ["osoby", "osoby+czas"],
-                category3: ["Infinitive"]
-},
-{
-id: [
-        189,
-        39
-],
-        img: [
-                "http://localhost/arbulanguage.com/img/fiszkiespanol/146a.jpg"
-        ],
-        word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
-        ],
-        // historia
-        story: [
-            ""
-        ],
-        // opis
-        desc: "el futuro[] - ",
-        //zdanie
-        sentence1: [
-                "el futuro"
-        ],
-        sentence: [
-                "Prever",
-                "el futuro"
-        ],
-        //  slowo do nauki
-        key: "futuro",
-        category1: [
-        ],
-        category2: ["osoby", "osoby+czas"],
-                category3: ["Infinitive"]
-},
-{
-id: [
-        190,
-        39
-],
-        img: [
-                "http://localhost/arbulanguage.com/img/fiszkiespanol/146a.jpg"
-        ],
-        word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
-        ],
-        // historia
-        story: [
-            ""
-        ],
-        // opis
-        desc: "con[] - ",
-        //zdanie
-        sentence1: [
-                "con"
-        ],
-        sentence: [
-                "con",
-                "pensamientos",
-                "positivos"
-        ],
-        //  slowo do nauki
-        key: "con",
-        category1: [
-        ],
-        category2: ["osoby", "osoby+czas"],
-                category3: ["Infinitive"]
-},
-{
-id: [
-        191,
-        39
-],
-        img: [
-                "http://localhost/arbulanguage.com/img/fiszkiespanol/146a.jpg"
-        ],
-        word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
-        ],
-        // historia
-        story: [
-            ""
-        ],
-        // opis
-        desc: "pensamientos[] - ",
-        //zdanie
-        sentence1: [
-                "pensamientos"
-        ],
-        sentence: [
-                "con",
-                "pensamientos",
-                "positivos"
-        ],
-        //  slowo do nauki
-        key: "pensamientos",
-        category1: [
-        ],
-        category2: ["osoby", "osoby+czas"],
-                category3: ["Infinitive"]
-},
-{
-id: [
-        192,
-        39
-],
-        img: [
-                "http://localhost/arbulanguage.com/img/fiszkiespanol/146a.jpg"
-        ],
-        word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
-        ],
-        // historia
-        story: [
-            ""
-        ],
-        // opis
-        desc: "positivos[] - ",
-        //zdanie
-        sentence1: [
-                "positivos"
-        ],
-        sentence: [
-                "con",
-                "pensamientos",
-                "positivos"
-        ],
-        //  slowo do nauki
-        key: "positivos",
-        category1: [
-        ],
-        category2: ["osoby", "osoby+czas"],
-                category3: ["Infinitive"]
-},
-{
-id: [
-        193,
-        40
-],
-        // obrazek
-        img: [
-                "http://localhost/arbulanguage.com/img/fiszkiespanol/131a.jpg"
-        ],
-        translate: "Zaprzeczać kłamstwom i zawsze mówić prawdę",
-        translateb: "[Negar mentiras i desir siempre berdad]",
-        srcWord: ["http://localhost/arbulanguage.com/filmy/esp/truth.mp4", 'Matrix 1999'],
-        srcWordimage: "http://localhost/arbulanguage.com/filmy/esp/truth.png",
-        word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
-        ],
-        // historia
-        story: [
-            ""
-        ],
-        // opis
-        desc: "despertar[] - chronić",
-        //zdanie
-        sentence1: [
-                "Despertar"
-        ],
-        sentence: [
-                "Despertar",
-                "temprano"
-        ],
-        //  slowo do nauki
-        key: "despertar",
-        category1: [
-        ],
-        category2: ["osoby", "osoby+czas"],
-                category3: ["Infinitive"]
-},
-{
-id: [
-        194,
-        40
-],
-        img: [
-                "http://localhost/arbulanguage.com/img/fiszkiespanol/146a.jpg"
-        ],
-        word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
-        ],
-        // historia
-        story: [
-            ""
-        ],
-        // opis
-        desc: "temprano[] - ",
-        //zdanie
-        sentence1: [
-                "temprano"
-        ],
-        sentence: [
-                "Despertar",
-                "temprano"
-        ],
-        //  slowo do nauki
-        key: "temprano",
-        category1: [
-        ],
-        category2: ["osoby", "osoby+czas"],
-                category3: ["Infinitive"]
-},
-{
-id: [
-        195,
-        40
-],
-        img: [
-                "http://localhost/arbulanguage.com/img/fiszkiespanol/146a.jpg"
-        ],
-        word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
-        ],
-        // historia
-        story: [
-            ""
-        ],
-        // opis
-        desc: "para[] - ",
-        //zdanie
-        sentence1: [
-                "para"
-        ],
-        sentence: [
-                "para",
-                "disfrutar",
-                "el dia"
-        ],
-        //  slowo do nauki
-        key: "para",
-        category1: [
-        ],
-        category2: ["osoby", "osoby+czas"],
-                category3: ["Infinitive"]
-},
-{
-id: [
-        196,
-        40
-],
-        img: [
-                "http://localhost/arbulanguage.com/img/fiszkiespanol/146a.jpg"
-        ],
-        word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
-        ],
-        // historia
-        story: [
-            ""
-        ],
-        // opis
-        desc: "disfrutar[] - ",
-        //zdanie
-        sentence1: [
-                "disfrutar"
-        ],
-        sentence: [
-                "para",
-                "disfrutar",
-                "el dia"
-        ],
-        //  slowo do nauki
-        key: "disfrutar",
-        category1: [
-        ],
-        category2: ["osoby", "osoby+czas"],
-                category3: ["Infinitive"]
-},
-{
-id: [
-        197,
-        40
-],
-        img: [
-                "http://localhost/arbulanguage.com/img/fiszkiespanol/197a.jpg"
-        ],
-        word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
-        ],
-        // historia
-        story: [
-            ""
-        ],
-        // opis
-        desc: "el dia[el dia] - dzień",
-        //zdanie
-        sentence1: [
-                "el dia"
-        ],
-        sentence: [
-                "para",
-                "disfrutar",
-                "el dia"
-        ],
-        //  slowo do nauki
-        key: "dia",
-        category1: [
-        ],
-        category2: ["osoby", "osoby+czas"],
-                category3: ["Infinitive"]
-},
-{
-id: [
-        198,
-        40
-],
-        // obrazek
-        img: [
-                "http://localhost/arbulanguage.com/img/fiszkiespanol/131a.jpg"
-        ],
-        translate: "Zaprzeczać kłamstwom i zawsze mówić prawdę",
-        translateb: "[Negar mentiras i desir siempre berdad]",
-        srcWord: ["http://localhost/arbulanguage.com/filmy/esp/truth.mp4", 'Matrix 1999'],
-        srcWordimage: "http://localhost/arbulanguage.com/filmy/esp/truth.png",
-        word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
-        ],
-        // historia
-        story: [
-            ""
-        ],
-        // opis
-        desc: "comer[komer] - jeśc",
-        //zdanie
-        sentence1: [
-                "Comer"
-        ],
-        sentence: [
-                "Comer",
-                "frutas",
-                "frescas"
-        ],
-        //  slowo do nauki
-        key: "comer",
-        category1: [
-        ],
-        category2: ["osoby", "osoby+czas"],
-                category3: ["Infinitive"]
-},
-{
-id: [
-        199,
-        40
-],
-        img: [
-                "http://localhost/arbulanguage.com/img/fiszkiespanol/199a.jpg"
-        ],
-        word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
-        ],
-        // historia
-        story: [
-            "Fruuu, te ptaki w lato obgryzają owoce. Fantastyczny widok"
-        ],
-        // opis
-        desc: "frutas[frutas] - owoc",
-        //zdanie
-        sentence1: [
-                "frutas"
-        ],
-        sentence: [
-                "Comer",
-                "frutas",
-                "frescas"
-        ],
-        //  slowo do nauki
-        key: "frutas",
-        category1: [
-        ],
-        category2: ["osoby", "osoby+czas"],
-                category3: ["Infinitive"]
-},
-{
-id: [
-        200,
-        40
-],
-        img: [
-                "http://localhost/arbulanguage.com/img/fiszkiespanol/146a.jpg"
-        ],
-        word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
-        ],
-        // historia
-        story: [
-            ""
-        ],
-        // opis
-        desc: "frescas[] - ",
-        //zdanie
-        sentence1: [
-                "frescas"
-        ],
-        sentence: [
-                "Comer",
-                "frutas",
-                "frescas"
-        ],
-        //  slowo do nauki
-        key: "frescas",
-        category1: [
-        ],
-        category2: ["osoby", "osoby+czas"],
-                category3: ["Infinitive"]
-},
-{
-id: [
-        201,
-        40
-],
-        img: [
-                "http://localhost/arbulanguage.com/img/fiszkiespanol/201a.jpg"
-        ],
-        word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
-        ],
-        // historia
-        story: [
-            "Blokada przejazdu w tym kierunku jest w każdym wjeździe na tą drogę"
-        ],
-        // opis
-        desc: "cada[kada] - każdy",
-        //zdanie
-        sentence1: [
-                "cada"
-        ],
-        sentence: [
-                "cada",
-                "mañana"
-        ],
-        //  slowo do nauki
-        key: "cada",
-        category1: [
-        ],
-        category2: ["osoby", "osoby+czas"],
-                category3: ["Infinitive"]
-},
-{
-id: [
-        202,
-        40
-],
-        img: [
-                "http://localhost/arbulanguage.com/img/fiszkiespanol/146a.jpg"
-        ],
-        word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
-        ],
-        // historia
-        story: [
-            ""
-        ],
-        // opis
-        desc: "mañana[] - ",
-        //zdanie
-        sentence1: [
-                "mañana"
-        ],
-        sentence: [
-                "cada",
-                "mañana"
-        ],
-        //  slowo do nauki
-        key: "manana",
-        category1: [
-        ],
-        category2: ["osoby", "osoby+czas"],
-                category3: ["Infinitive"]
-},
-{
-id: [
-        203,
-        41
-],
-        // obrazek
-        img: [
-                "http://localhost/arbulanguage.com/img/fiszkiespanol/131a.jpg"
-        ],
-        translate: "Zaprzeczać kłamstwom i zawsze mówić prawdę",
-        translateb: "[Negar mentiras i desir siempre berdad]",
-        srcWord: ["http://localhost/arbulanguage.com/filmy/esp/truth.mp4", 'Matrix 1999'],
-        srcWordimage: "http://localhost/arbulanguage.com/filmy/esp/truth.png",
-        word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
-        ],
-        // historia
-        story: [
-            ""
-        ],
-        // opis
-        desc: "caminar[komer] - jeśc",
-        //zdanie
-        sentence1: [
-                "Caminar"
-        ],
-        sentence: [
-                "Caminar",
-                "juntos"
-        ],
-        //  slowo do nauki
-        key: "caminar",
-        category1: [
-        ],
-        category2: ["osoby", "osoby+czas"],
-                category3: ["Infinitive"]
-},
-{
-id: [
-        204,
-        41
-],
-        img: [
-                "http://localhost/arbulanguage.com/img/fiszkiespanol/146a.jpg"
-        ],
-        word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
-        ],
-        // historia
-        story: [
-            ""
-        ],
-        // opis
-        desc: "juntos[] - ",
-        //zdanie
-        sentence1: [
-                "juntos"
-        ],
-        sentence: [
-                "Caminar",
-                "juntos"
-        ],
-        //  slowo do nauki
-        key: "juntos",
-        category1: [
-        ],
-        category2: ["osoby", "osoby+czas"],
-                category3: ["Infinitive"]
-},
-{
-id: [
-        205,
-        41
-],
-        img: [
-                "http://localhost/arbulanguage.com/img/fiszkiespanol/146a.jpg"
-        ],
-        word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
-        ],
-        // historia
-        story: [
-            ""
-        ],
-        // opis
-        desc: "bajo[] - ",
-        //zdanie
-        sentence2: [
-                "bajo"
-        ],
-        sentence: [
-                "bajo",
-                "el sol",
-                "suave"
-        ],
-        //  slowo do nauki
-        key: "bajo",
-        category1: [
-        ],
-        category2: ["osoby", "osoby+czas"],
-                category3: ["Infinitive"]
-},
-{
-id: [
-        206,
-        41
-],
-        img: [
-                "http://localhost/arbulanguage.com/img/fiszkiespanol/146a.jpg"
-        ],
-        word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
-        ],
-        // historia
-        story: [
-            ""
-        ],
-        // opis
-        desc: "el sol[] - ",
-        //zdanie
-        sentence1: [
-                "el sol"
-        ],
-        sentence: [
-                "bajo",
-                "el sol",
-                "suave"
-        ],
-        //  slowo do nauki
-        key: "el sol",
-        category1: [
-        ],
-        category2: ["osoby", "osoby+czas"],
-                category3: ["Infinitive"]
-},
-{
-id: [
-        207,
-        41
-],
-        // obrazek
-        img: [
-                "http://localhost/arbulanguage.com/img/fiszkiespanol/126a.jpg"
-        ],
-        word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
-        ],
-        // historia
-        story: [
-            "<u><b>Sławe</u></b>tny jest ten mój <u><b>delikatny</u></b> perfum"
-        ],
-        // opis
-        desc: "suave[sławe] - delikatny",
-        //zdanie
-        sentence1: [
-                "suave"
-        ],
-        sentence: [
-                "bajo",
-                "el sol",
-                "suave"
-        ],
-        //  slowo do nauki
-        key: "el sol",
         category1: [
         ],
         category2: ["osoby", "osoby+czas"],
@@ -8150,13 +4568,14 @@ function generateFiszkaBlock2(fiszka, lessonId2) {
             var pButton = document.getElementById(pButtonId);
             // Dodajemy style bezpoĹrednio w kodzie JavaScript
             if (window.matchMedia("(max-width: 999px)").matches) {
-                pButton.style.height = '100px';  // ZwiÄkszenie wysokoĹci
-                pButton.style.width = '100px';   // ZwiÄkszenie szerokoĹci
+                pButton.style.height = '60px';  // ZwiÄkszenie wysokoĹci
+                pButton.style.width = '60px';   // ZwiÄkszenie szerokoĹci
             } else {
                 pButton.style.height = '60px';  // ZwiÄkszenie wysokoĹci
                 pButton.style.width = '60px';   // ZwiÄkszenie szerokoĹci
             }
             pButton.style.border = 'none';   // UsuniÄcie ramki
+            pButton.style.borderRadius = '8px';
             pButton.style.backgroundSize = '80%';  // Rozmiar obrazka tĹa
             pButton.style.backgroundRepeat = 'no-repeat';
             pButton.style.backgroundPosition = 'center';
@@ -8203,6 +4622,9 @@ function generateFiszkaBlock2(fiszka, lessonId2) {
     // Dodanie klasy parzysta, jeĹli warunki sÄ speĹnione
     if (window.matchMedia("(max-width: 999px)").matches && lessonId2 % 2 === 0) {
         fiszkaContainer.addClass('parzysta');
+    }
+        if (window.matchMedia("(min-width: 999px)").matches && lessonId2 % 4 === 0) {
+        fiszkaContainer.addClass('nieparzysta');
     }
     // Tworzenie ikony krzyĹźyka
     let closeIcon = $('<span>')
@@ -8477,24 +4899,80 @@ function generateFiszkaBlock2(fiszka, lessonId2) {
                 likeButton.text('Śmieszna historia');
             }
         }
-        // NIEZNACZÄCE WYJAĹNIENIE SĹOWA
-        const sentenceDiv = $('<div>').attr('id', 'part');
-        fiszka.sentence.forEach(word => {
-            sentenceDiv.append($('<button>').text(word));
-        });
-        // Dodanie diva z przyciskami do kontenera fiszki
-        fiszkaContainer.append(sentenceDiv);
+// NIEZNACZĄCE WYJAŚNIENIE SŁOWA
+const sentenceDiv = $('<div>')
+    .attr('id', 'part')
+    .css({
+        position: 'relative',
+        height: 'auto',
+        fontSize: '10px',
+        display: 'flex',
+        flexWrap: 'wrap',
+        justifyContent: 'center',
+        gap: '10px',
+        marginTop: '40px',
+        width: '100%',
+        zIndex: 10
+    });
 
-        console.log('Przed utworzeniem wordDiv');
-        const wordDiv = $('<div>').attr('id', 'word');
-        const button = $('<button>').attr('id', 'storyone').html('<b>' + fiszka.desc + '</b>');
-        const audio = $('<audio>').attr({
-            id: 'music' + fiszka.id,
-            preload: 'true'
-        });
+fiszka.sentence.forEach(word => {
+    sentenceDiv.append(
+        $('<button>')
+            .text(word)
+            .css({
+                flex: '0 0 auto',
+                margin: '0px',
+                fontSize: '10px'
+            })
+    );
+});
+
+// Dodanie diva z przyciskami do kontenera fiszki
+fiszkaContainer.append(sentenceDiv);
+
+console.log('Przed utworzeniem wordDiv');
+
+// WORD
+const wordDiv = $('<div>')
+    .attr('id', 'word')
+    .css({
+        fontSize: '20px',
+        display: 'grid',
+        textAlign: 'center',
+        justifyContent: 'center',
+        alignItems: 'center',
+        gridTemplateColumns: 'auto auto',
+        gridTemplateRows: 'auto',
+        marginBottom: '0px',
+        width: '100%',
+        gridColumn: 'span 2',
+        zIndex: 10
+    });
+
+// STORYONE
+const button = $('<button>')
+    .attr('id', 'storyone')
+    .html('<b>' + fiszka.desc + '</b>')
+    .css({
+        fontSize: '10px',
+        lineHeight: '1.2',
+        padding: '10px',
+        boxSizing: 'border-box',
+        borderRadius: '20px'
+    });
+
+// AUDIO
+const audio = $('<audio>').attr({
+    id: 'music' + fiszka.id,
+    preload: 'true'
+});
+
+// Składanie
+wordDiv.append(button);
+fiszkaContainer.append(wordDiv);
         const source = $('<source>').attr('src', fiszka.word);
         audio.append(source);
-        const audioplayerDiv = $('<div>').attr('id', 'audioplayer' + fiszka.id).addClass('audioplayer'); // Dodano klasÄ 'audioplayer'
+        const audioplayerDiv = $('<div>').attr('id', 'audioplayer2' + fiszka.id).addClass('audioplayer2'); // Dodano klasÄ 'audioplayer'
         const pButton = $('<button>').attr('id', 'pButton' + fiszka.id).addClass('pButton play').click(function () {
             console.log('playb called for fiszka.id:', fiszka.id);
             window['playb' + fiszka.id]();
@@ -8522,34 +5000,48 @@ function generateFiszkaBlock2(fiszka, lessonId2) {
         console.log('Po utworzeniu wordDiv');
 
 // DODANIE MNEMOTECHNIKI
-        if (Array.isArray(fiszka.story)) {
-            // JeĹli story jest tablicÄ, iterujemy przez wszystkie jej elementy
-            fiszka.story.forEach((story, index) => {
-                const storyContainer = $('<div>').addClass('fiszka_story story-' + index).html(story);
-                fiszkaContainer.append(storyContainer);
-                console.log("Dodano story: ", story);  // Debugowanie
+if (Array.isArray(fiszka.story)) {
+    fiszka.story.forEach((story, index) => {
+        const storyContainer = $('<div>')
+            .addClass('fiszka_story story-' + index)
+            .html(story)
+            .css({
+                textAlign: 'center',
+                fontSize: '20px',
+                padding: '15px',
+                marginTop: '15px',
+                lineHeight: '1.4',
+                color: 'black',
+                backgroundColor: 'white',
+                borderRadius: '12px',
+                maxWidth: '90%'
             });
-        } else if (fiszka.story) {
-            // JeĹli story jest pojedynczym stringiem, dodajemy go bezpoĹrednio
-            const storyContainer = $('<div>').addClass('fiszka_story story-0').html(fiszka.story);
-            fiszkaContainer.append(storyContainer);
-            console.log("Dodano story: ", fiszka.story);  // Debugowanie
-        }
-        console.log('Przed utworzeniem wordDiv');
 
-// Utworzenie reszty elementĂłw zgodnie z istniejÄcym kodem
-        const wordDiv2 = $('<div>').attr('id', 'word2');
-        const audio2 = $('<audio>').attr({
-            id: 'music2' + fiszka.id,
-            preload: 'true'
+        fiszkaContainer.append(storyContainer);
+        console.log("Dodano story: ", story);
+    });
+} else if (fiszka.story) {
+    const storyContainer = $('<div>')
+        .addClass('fiszka_story story-0')
+        .html(fiszka.story)
+        .css({
+            textAlign: 'center',
+            fontSize: '10px',
+            padding: '15px',
+            marginTop: '15px',
+            lineHeight: '1.4',
+            color: 'black',
+            backgroundColor: 'white',
+            borderRadius: '12px',
+            maxWidth: '90%'
         });
-        const source2 = $('<source>').attr('src', fiszka.word);
-        audio2.append(source2);
-        const audioplayerDiv2 = $('<div>').attr('id', 'audioplayer2' + fiszka.id).addClass('audioplayer2'); // Dodano klasÄ 'audioplayer'
-        const pButton2 = $('<button>').attr('id', 'pButton2' + fiszka.id).addClass('pButton play').click(function () {
-            console.log('playb called for fiszka.id:', fiszka.id);
-            window['playb' + fiszka.id]();
-        });
+
+    fiszkaContainer.append(storyContainer);
+    console.log("Dodano story: ", fiszka.story);
+}
+
+console.log('Przed utworzeniem wordDiv');
+
 
 // Utworzenie elementĂłw za pomocÄ jQuery
         const timelineDiv = $('<div>').attr('id', 'timeline' + fiszka.id);
@@ -8558,12 +5050,6 @@ function generateFiszkaBlock2(fiszka, lessonId2) {
 // Dodanie playhead do timeline
         timelineDiv.append(playheadDiv);
 
-// Dodanie elementĂłw do odpowiednich kontenerĂłw
-        audioplayerDiv.append(pButton2);
-        wordDiv2.append(audio2);
-        wordDiv2.append(audioplayerDiv2);
-        wordDiv2.append(timelineDiv); // Dodano timeline do wordDiv
-        fiszkaContainer.append(wordDiv2);
 
         console.log('Po utworzeniu wordDiv');
         // Zdefiniuj zmiennÄ poczÄtkowÄ na poziomie wyĹźszym

@@ -608,7 +608,7 @@ function showCombinedSentenceForLesson22b(
     .media-container { position: relative; width: 100%; margin-bottom: 10px; }
     .preview-img { width:100%; border-radius:15px; display:block; cursor:pointer; }
     .thumb-row { display:flex; justify-content:center; gap:10px; margin-top:-40px; position: relative; z-index: 2; }
-    .thumb-desc { font-size:0.75rem; color:#ccc; text-align:center; margin-top:3px; filter: brightness(0.85); transition: all 0.18s ease; }
+    .thumb-desc { font-size:10px; color:#ccc; text-align:center; margin-top:3px; filter: brightness(0.85); transition: all 0.18s ease; border-radius: 8px;}
     .thumb-item:hover .thumb-img, .thumb-item:hover .thumb-desc { transform: scale(1.05); filter: brightness(1); }
     .thumb-item.activeItem .thumb-img, .thumb-item.activeItem .thumb-desc { border:3px solid limegreen; transform: scale(1.07); filter: brightness(1); }
     .thumb-link { font-size:0.72rem; color:#66ccff; text-align:center; margin-top:4px; text-decoration:underline; display:block; }
@@ -3830,40 +3830,37 @@ currentVideos.forEach(src => {
             const $thumbWrapper = $('<div>').addClass('thumb-wrapper');
 
 // LEWA STRZAŁKA
-            const $leftArrow = $('<button>')
-                    .addClass('thumb-arrow left-arrow')
-                    .html('←')
-                    .on('click', () => {
-                        if (currentIndexDivGlobal === null)
-                            return;
+// --- Strzałki ---
+const $leftArrow = $('<button>')
+    .addClass('thumb-arrow left-arrow')
+    .html('←')
+    .on('click', () => {
+        if (currentTriplet.length === 0) return;
 
-                        currentPosGlobal = (currentPosGlobal - 1 + currentTriplet.length) % currentTriplet.length;
+        // zmiana globalnego indeksu
+        currentPosGlobal = (currentPosGlobal - 1 + currentTriplet.length) % currentTriplet.length;
 
-                        currentPosCache[currentIndexDivGlobal] = currentPosGlobal;
+        // zsynchronizowanie z aktualną pozycją
+        currentPos = currentPosGlobal;
+        videoVisible = false;
 
-                        // reset podświetlenia słowa
-                        globalWordIndex = 0;
+        renderLesson();
+    });
 
-                        renderLesson();
-                    });
+const $rightArrow = $('<button>')
+    .addClass('thumb-arrow right-arrow')
+    .html('→')
+    .on('click', () => {
+        if (currentTriplet.length === 0) return;
 
-// PRAWA STRZAŁKA
-            const $rightArrow = $('<button>')
-                    .addClass('thumb-arrow right-arrow')
-                    .html('→')
-                    .on('click', () => {
-                        if (currentIndexDivGlobal === null)
-                            return;
+        currentPosGlobal = (currentPosGlobal + 1) % currentTriplet.length;
 
-                        currentPosGlobal = (currentPosGlobal + 1) % currentTriplet.length;
+        currentPos = currentPosGlobal;
+        videoVisible = false;
 
-                        currentPosCache[currentIndexDivGlobal] = currentPosGlobal;
+        renderLesson();
+    });
 
-                        // reset podświetlenia słowa
-                        globalWordIndex = 0;
-
-                        renderLesson();
-                    });
 
             $thumbWrapper.append($leftArrow, $thumbContainer, $rightArrow);
             $mediaContainer.append($thumbWrapper);

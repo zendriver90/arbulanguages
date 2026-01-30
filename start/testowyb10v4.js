@@ -650,10 +650,13 @@ id: [
         story: "<u><b>Ona</u></b> - Patrycja ma ri<u><b>szi</u></b> to naturalny antyoksydant",
         desc: "she[szi] - ona",
         sentence1: [
-                ""
+                "She"
         ],
-                                sentence1b: [
-            ""
+                        sentence1b: [
+            "Ona"
+        ],
+                                                                                                sentence1c: [
+            "Szi"
         ],
         sentence: [
                 "She",
@@ -675,10 +678,13 @@ id: [
         story: "KOGANTY - DRINK - DRINKS",
         desc: "drinks[drinks] - pić",
         sentence1: [
-                "She drinks"
+                "drinks"
         ],
                                 sentence1b: [
-            "Ona pije"
+            "pije"
+        ],
+                                                                                                        sentence1c: [
+            "drinks"
         ],
         sentence: [
                 "She",
@@ -705,6 +711,9 @@ id: [
                                 sentence1b: [
             "kawę"
         ],
+                                                                                                                sentence1c: [
+            "kofi"
+        ],
         sentence: [
                 "She",
                 "drinks",
@@ -728,6 +737,9 @@ id: [
         ],
                                 sentence2b: [
             "każdego"
+        ],
+                                                                                                                        sentence1c: [
+            "ewry"
         ],
         sentence: [
                 "every",
@@ -756,6 +768,9 @@ id: [
                                 sentence2b: [
             "pojedyńczego"
         ],
+                                                                                                                                sentence1c: [
+            "singel"
+        ],
         sentence: [
                 "every",
                 "single",
@@ -779,6 +794,9 @@ id: [
         ],
                                 sentence2b: [
             "dnia"
+        ],
+                                                                                                                                sentence1c: [
+            "dej"
         ],
         sentence: [
                 "every",
@@ -827,6 +845,9 @@ id: [
                                 sentence1b: [
             "(Ten)"
         ],
+                                                                                                                sentence1c: [
+            "de"
+        ],
         sentence: [
                 "The",
                 "cat",
@@ -871,6 +892,9 @@ id: [
                                         sentence1b: [
             "kot"
         ],
+                                                                                                                sentence1c: [
+            "kat"
+        ],
         sentence: [
                 "The",
                 "cat",
@@ -902,6 +926,9 @@ id: [
                                                 sentence1b: [
             "biega"
         ],
+                                                                                                                        sentence1c: [
+            "rans"
+        ],
         sentence: [
                 "The",
                 "cat",
@@ -926,6 +953,9 @@ id: [
         ],
                                                         sentence1b: [
             "szybko"
+        ],
+                                                                                                                                sentence1c: [
+            "fast"
         ],
         sentence: [
                 "The",
@@ -952,6 +982,9 @@ id: [
                                                         sentence2b: [
             "każdego"
         ],
+            sentence2c: [
+            "ewry"
+        ],
         sentence: [
                 "every",
                 "morning"
@@ -974,6 +1007,9 @@ id: [
         ],
                                                                 sentence2b: [
             "poranka"
+        ],
+                    sentence2c: [
+            "morning"
         ],
         sentence: [
                 "every",
@@ -1021,6 +1057,9 @@ id: [
                                                                         sentence1b: [
             "(Ja)"
         ],
+                            sentence1c: [
+            "Aj"
+        ],
         sentence: [
                 "I",
                 "need"
@@ -1051,6 +1090,9 @@ id: [
                                                                                 sentence1b: [
             "potrzebuję"
         ],
+                                    sentence1c: [
+            "nid"
+        ],
         sentence: [
                 "I",
                 "need"
@@ -1070,10 +1112,13 @@ id: [
         story: "He<u><b>nju</u></b> ma <u><b>nowy</u></b> telefon",
         desc: "a new[nju] - nowy/nowa/nowe",
         sentence2: [
-                "a new"
+                "a_new"
         ],
                                                                                         sentence2b: [
-            "(konkretnie) nową"
+            "(konkretnie)_nową"
+        ],
+                                            sentence2c: [
+            "a_nju"
         ],
         sentence: [
                 "a new",
@@ -1099,6 +1144,9 @@ id: [
                                                                                                 sentence2b: [
             "parę"
         ],
+                                                    sentence2c: [
+            "per"
+        ],
         sentence: [
                 "a new",
                 "pair",
@@ -1118,10 +1166,13 @@ id: [
         story: "Wielki <u><b>szu</u></b> pilnuje swoich <u><b>butów</u></b>",
         desc: "of shoes[of szu] - butów",
         sentence2: [
-                "of shoes"
+                "of_shoes"
         ],
                                                                                                 sentence2b: [
             "butów"
+        ],
+                                                    sentence2c: [
+            "of_szu"
         ],
         sentence: [
                 "a new",
@@ -1158,6 +1209,9 @@ id: [
                     sentence1b: [
             "Oni"
         ],
+                                                            sentence1c: [
+            "Dej"
+        ],
         sentence: [
                 "They",
                 "went"
@@ -1181,6 +1235,9 @@ id: [
                             sentence1b: [
             "poszli"
         ],
+                                                                    sentence1c: [
+            "łent"
+        ],
         sentence: [
                 "They",
                 "went"
@@ -1200,10 +1257,13 @@ id: [
         story: "Naukowiec mierzy ampli<u><b>tude</u></b> z jaką shop chodzi do jego <u><b>sklepu</u></b> czyli musi zakręcić kókiem do biegania i wtedy dostaje jedzenie. Koło jego norki rostną <u><b>stor</u></b>czyki",
         desc: "to the store[tu de stor] - do sklepu",
         sentence2: [
-                "to the store"
+                "to_the_store"
         ],
                                     sentence2b: [
-            "do sklepu"
+            "do_sklepu"
+        ],
+                                                                    sentence2c: [
+            "tu_de_stor"
         ],
         sentence: [
                 "to the store",
@@ -1227,6 +1287,9 @@ id: [
         ],
                                     sentence2b: [
             "dzisiaj"
+        ],
+                                                                            sentence2c: [
+            "tudej"
         ],
         sentence: [
                 "to the store",
@@ -1274,6 +1337,9 @@ id: [
                                             sentence1b: [
             "Nasz"
         ],
+                                                                                    sentence1c: [
+            "Aur"
+        ],
         sentence: [
                 "Our",
                 "teacher"
@@ -1296,6 +1362,9 @@ id: [
         ],
                                                     sentence1b: [
             "nauczyciel"
+        ],
+                                                                                            sentence1c: [
+            "ticzer"
         ],
         sentence: [
                 "Our",
@@ -1321,6 +1390,9 @@ id: [
                                                             sentence2b: [
             "pomaga"
         ],
+                                                                                                    sentence2c: [
+            "helps"
+        ],
         sentence: [
                 "helps",
                 "us",
@@ -1345,6 +1417,9 @@ id: [
         ],
                                                                     sentence2b: [
             "nam"
+        ],
+                                                                                                            sentence2c: [
+            "as"
         ],
         sentence: [
                 "helps",
@@ -1386,6 +1461,9 @@ id: [
                                                                     sentence2b: [
             "z"
         ],
+                                                                                                            sentence2c: [
+            "łiz"
+        ],
         sentence: [
                 "helps",
                 "us",
@@ -1409,7 +1487,10 @@ id: [
                 "homework"
         ],
                                                                     sentence2b: [
-            "pracą domową"
+            "pracą_domową"
+        ],
+                                                                                                            sentence2c: [
+            "hołmłork"
         ],
         sentence: [
                 "helps",

@@ -26,9 +26,9 @@ id: [
         word: [
                 "https://www.arbulang.com/voice/espanol/sentence1/yo.mp3"
         ],
-                word2: [ "Sometimes, yo have no idea", "https://www.arbulang.com/voice/espanol/sentence1/yo1.mp3"],
-                word3: [ "Right now, yo feel good", "https://www.arbulang.com/voice/espanol/sentence1/yo2.mp3"],
-                word4: [ "In this moment, yo want more", "https://www.arbulang.com/voice/espanol/sentence1/yo3.mp3"],
+                word2: [ 'Sometimes, <span class="adannotation2">yo</span> have no idea', "http://localhost/arbulanguage.com/voice/espanol/sentence1/yo1.mp3"],
+                word3: [ 'Right now, <span class="adannotation2">yo</span> feel good', "http://localhost/arbulanguage.com/voice/espanol/sentence1/yo2.mp3"],
+                word4: [ 'In this moment, <span class="adannotation2">yo</span> want more', "http://localhost/arbulanguage.com/voice/espanol/sentence1/yo3.mp3"],
         // opis
         desc: "yo[yoh] - I",
         //zdanie
@@ -77,9 +77,9 @@ id: [
         word: [
                 "https://www.arbulang.com/voice/espanol/sentence1/quiero.mp3"
         ],
-                        word2: [ "Sometimes, quiero more", "https://www.arbulang.com/voice/espanol/sentence1/quiero1.mp3"],
-                word3: [ "Right now, quiero rest", "https://www.arbulang.com/voice/espanol/sentence1/quiero2.mp3"],
-                word4: [ "In this moment, quiero change.", "https://www.arbulang.com/voice/espanol/sentence1/quiero3.mp3"],
+                        word2: [ 'Sometimes, <span class="adannotation2">quiero</span> more', "http://localhost/arbulanguage.com/voice/espanol/sentence2/quiero1.mp3"],
+                word3: [ 'Right now, <span class="adannotation2">quiero</span> rest', "http://localhost/arbulanguage.com/voice/espanol/sentence2/quiero2.mp3"],
+                word4: [ 'In this moment, <span class="adannotation2">quiero</span> change', "http://localhost/arbulanguage.com/voice/espanol/sentence2/quiero3.mp3"],
         // opis
         desc: "quiero[kee-eh-roh] - want",
         //zdanie
@@ -1356,7 +1356,7 @@ id: [
         }
     ],
         word: [
-//                "https://www.arbulang.com/voice/espanol/sentence4/la_taza.mp3"
+                "https://www.arbulang.com/voice/espanol/sentence4/la_taza.mp3"
         ],
         // opis
         desc: "la taza[lah tah-sah] - the cup",
@@ -8583,7 +8583,7 @@ id: [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1en-esp/192a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1en-esp/192a.jpg",
                 alt: ""
             },
             story: {
@@ -8595,8 +8595,8 @@ id: [
     ],
         translate: "To long for peace all over the world",
         translateb: "[ahn-eh-LAHR pahs en TOH-doh el MOON-doh]",
-        srcWord: ["https://www.arbulang.com/filmy/esp/.mp4", ''],
-        srcWordimage: "https://www.arbulang.com/filmy/esp/dance.png",
+        srcWord: ["https://localhost/arbulanguage.com/filmy/esp/.mp4", ''],
+        srcWordimage: "https://localhost/arbulanguage.com/filmy/esp/dance.png",
         word: [
                 "https://www.arbulang.com/voice/espanol/sentence37/anhelar.mp3"
         ],
@@ -8629,19 +8629,25 @@ id: [
         37,
         66
 ],
-        // obrazek
-        img: [
-                "https://www.arbulang.com/img/fiszki1en-esp/188a.jpg"
-        ],
+    entries: [
+        {
+            id: 1,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1en-esp/166a.jpg",
+                alt: ""
+            },
+            story: {
+                text: "The p<b><u>la</b></u>n for <b><u>peace</b></u> is to <b><u>pass</b></u> through everything that divides us",
+                alt: ""
+            },
+            category: ["", ""]
+        }
+    ],
         word: [
-                "https://www.arbulang.com/voice/espanol/sentence37/paz.mp3"
-        ],
-        // historia
-        story: [
-            "New pro-life govermant give special fundation and it change deeply the sector"
+                "https://www.arbulang.com/voice/espanol/sentence32/la_paz.mp3"
         ],
         // opis
-        desc: "paz[pahs] – peace",
+        desc: "la paz[lah pahs] - peace",
         //zdanie
         sentence2: [
                 "paz"
@@ -8669,16 +8675,22 @@ id: [
         37,
         67
 ],
-        // obrazek
-        img: [
-                "https://www.arbulang.com/img/fiszki1en-esp/188a.jpg"
-        ],
+    entries: [
+        {
+            id: 1,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1en-esp/30a.jpg",
+                alt: ""
+            },
+            story: {
+                text: "New m<b><u>en</b></u> are <b><u>on</b></u> board",
+                alt: ""
+            },
+            category: ["", ""]
+        }
+    ],
         word: [
                 "https://www.arbulang.com/voice/espanol/sentence37/en.mp3"
-        ],
-        // historia
-        story: [
-            "New pro-life govermant give special fundation and it change deeply the sector"
         ],
         // opis
         desc: "en[en] – in",
@@ -8710,16 +8722,22 @@ id: [
         37,
         67
 ],
-        // obrazek
-        img: [
-                "https://www.arbulang.com/img/fiszki1en-esp/188a.jpg"
-        ],
+    entries: [
+        {
+            id: 1,
+            img: {
+                src: "http://localhost/arbulanguage.com/img/fiszki1en-esp/195a.jpg",
+                alt: ""
+            },
+            story: {
+                text: "Por<b><u>to</b></u> is for all tourists who want to <b><u>do</b></u> fun things",
+                alt: ""
+            },
+            category: ["", ""]
+        }
+    ],
         word: [
                 "https://www.arbulang.com/voice/espanol/sentence37/todo.mp3"
-        ],
-        // historia
-        story: [
-            "New pro-life govermant give special fundation and it change deeply the sector"
         ],
         // opis
         desc: "todo[TOH-doh] – all",
@@ -8760,7 +8778,7 @@ id: [
         ],
         // historia
         story: [
-            "New pro-life govermant give special fundation and it change deeply the sector"
+            ""
         ],
         // opis
         desc: "el mundo[el MOON-doh] – world",
@@ -9117,7 +9135,7 @@ function generateFiszkaBlock(fiszka, lessonId2, category) {
                 pButton.style.height = '60px';  // Zwiększenie wysokości
                 pButton.style.width = '60px';   // Zwiększenie szerokości
             }
-            pButton.style.border = 'none';   // Usunięcie ramki
+            pButton.style.border = '1px solid';   // Usunięcie ramki
             pButton.style.backgroundSize = '80%';  // Rozmiar obrazka tła
             pButton.style.backgroundRepeat = 'no-repeat';
             pButton.style.backgroundPosition = 'center';
@@ -9194,6 +9212,7 @@ const imgContainer = $('<div>').addClass('fiszka_img_container');
 
         });
             fiszkaContainer.append(imgContainer);
+            
         const selectedLikes = [];
         console.log('hej10', selectedLikes);
 
@@ -9472,7 +9491,8 @@ function showStory(idFiszki) {
             display: 'flex',
             alignItems: 'center',
             justifyContent: 'center',
-            overflow: 'hidden'
+            overflow: 'hidden',
+            border: '1px solid'
         });
 
         audioplayerDiv.append(pButton);
@@ -9502,10 +9522,6 @@ if (Array.isArray(fiszka.entries) && fiszka.entries.length > 0) {
         const source2 = $('<source>').attr('src', fiszka.word);
         audio2.append(source2);
         const audioplayerDiv2 = $('<div>').attr('id', 'audioplayer2' + fiszka.id).addClass('audioplayer2'); // Dodano klasę 'audioplayer'
-        const pButton2 = $('<button>').attr('id', 'pButton2' + fiszka.id).addClass('pButton play').click(function () {
-            console.log('playb called for fiszka.id:', fiszka.id);
-            window['playb' + fiszka.id]();
-        });
 
 // Utworzenie elementów za pomocą jQuery
         const timelineDiv = $('<div>').attr('id', 'timeline' + fiszka.id);
@@ -9514,8 +9530,7 @@ if (Array.isArray(fiszka.entries) && fiszka.entries.length > 0) {
 // Dodanie playhead do timeline
         timelineDiv.append(playheadDiv);
 
-// Dodanie elementów do odpowiednich kontenerów
-        audioplayerDiv.append(pButton2);
+
         wordDiv2.append(audio2);
         wordDiv2.append(audioplayerDiv2);
         wordDiv2.append(timelineDiv); // Dodano timeline do wordDiv
@@ -9786,7 +9801,117 @@ const intervalId = setInterval(scheduleNotification, 60000);
             console.log("Znam clicked on fiszka nr " + fiszka.id);
             activateFiszka(fiszka.id, true);
         }));
+// ================= AUDIO + FRAZY =================
+if (fiszka.word2 || fiszka.word3 || fiszka.word4) {
 
+    console.log('Ładuję frazy dla fiszki ID:', fiszka.id);
+
+    const phrasesButton = $('<button>')
+        .addClass('phrases-button')
+        .text('PHRASES')
+        .css({
+            height: '60px',
+            marginLeft: '10px',
+            padding: '0 12px',
+            cursor: 'pointer'
+        });
+
+    const phrasesContainer = $('<div>')
+        .addClass('phrases-container')
+        .css({
+            display: 'none',
+            marginTop: '10px',
+            padding: '10px',
+            border: '1px solid #ccc',
+            borderRadius: '8px',
+            backgroundColor: '#f9f9f9'
+        });
+
+    async function createPhrase(wordArray, index, fiszkaId) {
+        if (!wordArray || wordArray.length < 2) {
+            console.log(`Brak frazy lub niepoprawny format dla fiszki ${fiszkaId}, index ${index}`);
+            return;
+        }
+
+        const phraseText = wordArray[0];
+        const phraseAudioSrc = wordArray[1];
+
+        const audioId = `phrase-audio-${fiszkaId}-${index}`.replace(/,/g, '-');
+        const buttonId = `phrase-btn-${fiszkaId}-${index}`.replace(/,/g, '-');
+
+        console.log(`Tworzę frazę #${index} dla fiszki ${fiszkaId}:`, phraseText, phraseAudioSrc);
+
+        const phraseRow = $('<div>').css({
+            display: 'flex',
+            alignItems: 'center',
+            gap: '10px',
+            marginBottom: '6px'
+        });
+
+        const phraseLabel = $('<span>').html(phraseText).css({ fontWeight: 'bold' });
+
+        const phraseAudio = $('<audio>')
+            .attr({ id: audioId, preload: 'auto', controls: false });
+
+        const phrasePlayButton = $('<button>')
+            .attr('id', buttonId)
+            .addClass('pButton play')
+            .css({
+                width: '40px',
+                height: '40px',
+                backgroundSize: '70%',
+                backgroundRepeat: 'no-repeat',
+                backgroundPosition: 'center',
+                border: '1px solid'
+            })
+            .on('click', async function () {
+                const audioEl = document.getElementById(audioId);
+                if (!audioEl) {
+                    console.log('Nie znaleziono elementu audio:', audioId);
+                    return;
+                }
+
+                if (!audioEl.src) {
+                    console.log('Ładuję audio z URL:', phraseAudioSrc);
+                    try {
+                        const res = await fetch(phraseAudioSrc);
+                        const blob = await res.blob();
+                        const blobUrl = URL.createObjectURL(blob);
+                        audioEl.src = blobUrl;
+                        await audioEl.load();
+                        console.log('Audio załadowane dla:', audioId);
+                    } catch (err) {
+                        console.log('Błąd fetch audio dla:', phraseAudioSrc, err);
+                        return;
+                    }
+                }
+
+                audioEl.play().catch(err => console.log('Błąd odtwarzania audio:', err));
+                $(this).toggleClass('play pause');
+                console.log('Kliknięto play dla frazy:', audioId);
+            });
+
+        phraseRow.prepend(phrasePlayButton);
+        phraseRow.append(phraseLabel, phraseAudio);
+        phrasesContainer.append(phraseRow);
+        console.log('Dodano frazę do kontenera:', phraseText);
+    }
+
+    // Tworzymy wszystkie frazy, jeśli istnieją i przekazujemy ID fiszki
+    createPhrase(fiszka.word2, 1, fiszka.id);
+    createPhrase(fiszka.word3, 2, fiszka.id);
+    createPhrase(fiszka.word4, 3, fiszka.id);
+
+    phrasesButton.on('click', function () {
+        console.log('Kliknięto przycisk PHRASES dla fiszki:', fiszka.id);
+        $(this).toggleClass('active');
+        phrasesContainer.slideToggle(200);
+    });
+
+    audioplayerDiv.append(phrasesButton);
+    fiszkaContainer.append(phrasesContainer);
+    console.log('Kontener fraz dodany do fiszki:', fiszka.id);
+}
         // WYWOŁANIE HASHTAGU
         function updateButtonName(buttonName, fiszkaContainer) {
             // Usuń poprzednią nazwę, jeśli istnieje
@@ -9820,13 +9945,13 @@ function generateFiszkaBlock2(fiszka, lessonId2) {
             var pButton = document.getElementById(pButtonId);
             // Dodajemy style bezpośrednio w kodzie JavaScript
             if (window.matchMedia("(max-width: 999px)").matches) {
-                pButton.style.height = '150px';  // Zwiększenie wysokości
-                pButton.style.width = '150px';   // Zwiększenie szerokości
+                pButton.style.height = '60px';  // Zwiększenie wysokości
+                pButton.style.width = '60px';   // Zwiększenie szerokości
             } else {
                 pButton.style.height = '60px';  // Zwiększenie wysokości
                 pButton.style.width = '60px';   // Zwiększenie szerokości
             }
-            pButton.style.border = 'none';   // Usunięcie ramki
+            pButton.style.border = '1px solid';   // Usunięcie ramki
             pButton.style.backgroundSize = '80%';  // Rozmiar obrazka tła
             pButton.style.backgroundRepeat = 'no-repeat';
             pButton.style.backgroundPosition = 'center';
@@ -10173,6 +10298,7 @@ function generateFiszkaBlock2(fiszka, lessonId2) {
         pButton.css({
             height: '60px',
             width: '60px',
+                        border: '1px solid',
             backgroundSize: 'cover',
             backgroundRepeat: 'no-repeat',
             backgroundPosition: 'center',
@@ -10837,10 +10963,7 @@ console.log('Hej4442', fiszkaContainer);
         const source2 = $('<source>').attr('src', fiszka.word);
         audio2.append(source2);
         const audioplayerDiv2 = $('<div>').attr('id', 'audioplayer2' + fiszka.id).addClass('audioplayer2'); // Dodano klasę 'audioplayer'
-        const pButton2 = $('<button>').attr('id', 'pButton2' + fiszka.id).addClass('pButton play').click(function () {
-            console.log('playb called for fiszka.id:', fiszka.id);
-            window['playb' + fiszka.id]();
-        });
+
 
 // Utworzenie elementów za pomocą jQuery
         const timelineDiv = $('<div>').attr('id', 'timeline' + fiszka.id);
@@ -10849,8 +10972,6 @@ console.log('Hej4442', fiszkaContainer);
 // Dodanie playhead do timeline
         timelineDiv.append(playheadDiv);
 
-// Dodanie elementów do odpowiednich kontenerów
-        audioplayerDiv.append(pButton2);
         wordDiv2.append(audio2);
         wordDiv2.append(audioplayerDiv2);
         wordDiv2.append(timelineDiv); // Dodano timeline do wordDiv

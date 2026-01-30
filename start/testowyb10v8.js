@@ -813,8 +813,8 @@ fiszki10.push(
         translate: "Moja ciocia gotuje bardzo smaczną zupę",
         translateb: "[]",
         translateb2: "[]",
-        srcWord: ["https://www.arbulang.com/filmy/newspaper.mp4", "Kevin sam w domu (1990)"],
-        srcWordimage: "https://www.arbulang.com/filmy/newspaper.png",
+        srcWord: ["http://localhost/arbulanguage.com/filmy/lekcja42/grandma.mp4", "Kevin sam w domu (1990)"],
+        srcWordimage: "http://localhost/arbulanguage.com/filmy/lekcja42/grandma.png",
         word: [
             "https://www.arbulang.com/voice/bike.mp4"
         ],
@@ -1082,8 +1082,8 @@ fiszki10.push(
         translate: "Zamykam drzwi przed snem",
         translateb: "[]",
         translateb2: "[]",
-        srcWord: ["https://www.arbulang.com/filmy/newspaper.mp4", "Kevin sam w domu (1990)"],
-        srcWordimage: "https://www.arbulang.com/filmy/newspaper.png",
+        srcWord: ["http://localhost/arbulanguage.com/filmy/lekcja43/door.mp4", "Matrix Reaktywacja (2003)"],
+        srcWordimage: "http://localhost/arbulanguage.com/filmy/lekcja43/door.png",
         word: [
             "https://www.arbulang.com/voice/bike.mp4"
         ],

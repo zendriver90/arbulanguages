@@ -95,8 +95,8 @@ fiszki10.push(
         translate: "Moja noga trochę boli dzisiaj",
         translateb: "[Maj leg herts e litil tudej]",
         translateb2: "[]",
-        srcWord: ["https://www.arbulang.com/filmy/lekcja34/forrestgump.mp4", "Forrest Gump (1994)"],
-        srcWordimage: "https://www.arbulang.com/filmy/lekcja34/forrestgump.png",
+        srcWord: ["http://localhost/arbulanguage.com/filmy/lekcja34/leg.mp4", "Faster (2010)"],
+        srcWordimage: "http://localhost/arbulanguage.com/filmy/lekcja34/leg.png",
         word: [
             "https://www.arbulang.com/voice/bike.mp4"
         ],
@@ -2264,7 +2264,7 @@ fiszki10.push(
         translate: "Ona kupiła czerwoną letnią sukienkę",
         translateb: "[]",
         translateb2: "[]",
-        srcWord: ["http://localhost/arbulanguage.com/filmy/lekcja39/approach.mp4", "V for Vendetta (2005)"],
+        srcWord: ["http://localhost/arbulanguage.com/filmy/lekcja39/approach.mp4", "Matrix (1999)"],
         srcWordimage: "http://localhost/arbulanguage.com/filmy/lekcja39/approach.png",
         word: [
             "https://www.arbulang.com/voice/bike.mp4"

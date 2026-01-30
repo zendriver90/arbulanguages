@@ -21,6 +21,19 @@
         <meta name="keywords" content="naucz się angielskiego, 1000 angielskich słów, szybka nauka angielskiego, jak nauczyć się angielskiego, jak szybko nauczyć się języka, nauka angielskiego z przyjemnością" />
         <style>
             @media (min-width: 999px) {
+.thumb-desc {
+    font-size: 12px;
+    text-align: center;
+    margin-top: 2px;
+    border-radius: 8px;
+}
+                .thumb-czas {
+    font-size: 12px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 4px;
+        color: white;
+}
                 .big-video-desc {
     margin-top: 8px;
     font-size: 16px;
@@ -30,50 +43,68 @@
     border-radius: 8px;
     text-align: center;
 }
-                .thumb-wrapper {
+.thumb-wrapper {
   display: flex;
-  gap: 0px;
+  align-items: center; /* wyśrodkowanie strzałek i row */
+  gap: 10px;
   margin-top: 10px;
-  z-index: 2;
+  position: relative;
 }
 
 .thumb-row {
   display: flex;
   gap: 10px;
   overflow-x: auto;
-  padding: 0px 0;
   scroll-behavior: smooth;
   flex: 1;
+  position: relative; /* ważne dla stacking context */
+  padding: 0 50px; /* zostaw miejsce po bokach na strzałki */
+  z-index: 2; /* miniatury nad strzałkami */
 }
 
+/* miniaturki */
+.thumb-img {
+  height: 50px;
+  border-radius: 10px;
+  object-fit: cover;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+  position: relative;
+  z-index: 3; /* zawsze nad strzałkami */
+}
+
+.thumb-img:hover {
+  transform: scale(1.1);
+}
+
+/* strzałki */
 .thumb-arrow {
     background-color: #f0f0f0;
     border: none;
-    margin-bottom: 100px;
     border-radius: 50%;
-    height: 40px;
+    height: 30px;
+    width: 30px;
     font-size: 20px;
     cursor: pointer;
     transition: all 0.2s ease;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
-
-    position: relative; 
-    z-index: 1; /* PRZYCISK POD SPOD */
+    position: absolute; /* przyklejone po bokach */
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 100; /* pod miniaturami */
 }
 
 .thumb-arrow:hover {
   background-color: #ddd;
 }
 
-/* lewa strzałka */
+/* lewa/prawa strzałka */
 .left-arrow {
-    position: relative;
-    left: 0px;
+    left: -10px;
 }
 
-/* prawa strzałka */
 .right-arrow {
-    right: 0px;
+    right: -10px;
 }
 
 /* scroll bez pasków */
@@ -83,20 +114,6 @@
 .thumb-row {
     -ms-overflow-style: none;  /* IE and Edge */
     scrollbar-width: none;  /* Firefox */
-}
-.thumb-img {
-        position: relative;
-  width: 80px;
-  height: 60px;
-  border-radius: 10px;
-  object-fit: cover;
-  cursor: pointer;
-  transition: transform 0.2s ease;
-  z-index: 999999;
-}
-
-.thumb-img:hover {
-  transform: scale(1.1);
 }
 
                 .text-intro {
@@ -512,13 +529,12 @@ span.highlight {
                 }
                 /* Styl dla głównego kontenera */
 .container {
-    padding-bottom: 120px;
     position: relative;
     display: flex;
     align-items: flex-start;
     justify-content: space-between;
     max-width: 100%;
-    overflow: hidden;
+    overflow-x: hidden;
 }
                 .content-container {
                     max-width: 100%;
@@ -612,7 +628,6 @@ span.highlight {
 .image-container3b {
     display: flex;
     flex-direction: column;
-    justify-content: center;
     background-color: blue;
     max-width: 100%;
     position: relative;
@@ -942,8 +957,7 @@ span.highlight {
                     cursor: pointer;
                 }
                 .grid-containera {
-                    max-width: 100%;
-                    height: 0px;
+                    height: 200px;
                     display: grid;
                     grid-template-columns: repeat(4, 1fr);
                     gap: 10px;
@@ -952,15 +966,14 @@ span.highlight {
                     align-items: center;
                 }
 
-                .grid-container {
-                    display: grid;
-                    grid-template-columns: repeat(4, 1fr);
-                    margin-bottom: 20px;
-                    gap: 20px;
-                    position: relative;
-                    margin-right: 0px;
-                    top: 100px;
-                }
+.grid-container {
+    display: grid;
+    max-width: 100%;
+    width: 100%;
+    box-sizing: border-box;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 20px;
+}
                 .spacer {
                     height: 20px; /* Dostosuj wysokość przestrzeni spacerowej */
                 }
@@ -1115,7 +1128,13 @@ span.highlight {
 }
             }
             @media (max-width: 999px) {
-
+                .thumb-czas {
+    font-size: 7px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 4px;
+        color: white;
+}
                     .search-container {
         width: 100%;
         margin: 0 auto; /* wyśrodkowanie kontenera */
@@ -1419,15 +1438,12 @@ input {
     .image-container3b {
         display: flex;
         flex-direction: column;
-        justify-content: center;
         align-items: center;
         width: 100%;
-        max-width: 100%;
         box-sizing: border-box;
         background-color: blue;
         font-size: 16px;
         z-index: 10000;
-        overflow: visible !important;
     }
                 .run-button4 {
     position: absolute;
@@ -2145,7 +2161,6 @@ input {
 .thumb-item {
     display: flex;
     flex-direction: column;
-    align-items: center;
     cursor: pointer;
     width: 40px;
 }
@@ -2156,7 +2171,6 @@ input {
 
 /* miniatury */
 .thumb-img {
-    width: 50px;
     height: auto;
     border-radius: 10px;
     object-fit: cover;
@@ -2166,9 +2180,10 @@ input {
 
 /* opis pod miniaturą */
 .thumb-desc {
-    font-size: 12px;
+    font-size: 10px;
     text-align: center;
     margin-top: 2px;
+    border-radius: 8px;
 }
 
 /* link pod miniaturą */
