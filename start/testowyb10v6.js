@@ -1250,7 +1250,7 @@ fiszki10.push(
         ],
         desc: "evening[ivnin] - wieczór",
         sentence2: [
-            "evening"
+            "evening?"
         ],
                                                 sentence2b: [
             "wieczora"
@@ -1421,7 +1421,7 @@ fiszki10.push(
         story: "Ten chw<b><u>ast</b></u> szybko rośnie, bo to <b><u>f</b></u>uriat wśród chwastów",
         desc: "fast[fast] - szybko",
         sentence2: [
-            "fast"
+            "fast?"
         ],
                                                                                 sentence2b: [
             "szybko"
@@ -1600,7 +1600,7 @@ fiszki10.push(
         ],
         desc: "lesson[lesyn] - lekcja",
         sentence2: [
-            "lesson"
+            "lesson?"
         ],
                                                                                                 sentence2b: [
             "lekcję"

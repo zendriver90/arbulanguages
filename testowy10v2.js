@@ -16,10 +16,16 @@ id: [
             "Stadion <u><b>Res</u></b>ovi jest super - jest <u><b>pó</u></b>źno i odbywa sie mecz. Są <u><b>odpowiedzi</u></b> publiczności i jest organizowana kw<u><b>esta</u></b>"
         ],
         // opis
-        desc: "respuestas[] - odpowiedzi",
+        desc: "respuestas[respłestas] - odpowiedzi",
         //zdanie
         sentence1: [
                 "respuestas"
+        ],
+                                                                             sentence1b: [
+            "odpowiedzi"
+        ],
+                sentence1c: [
+            "respłestas"
         ],
         sentence: [
                 "Explicar",
@@ -51,10 +57,16 @@ id: [
             "Jest j<u><b>as</u></b>ne i <u><b>klar</u></b>owne, że warto uczyć się języków"
         ],
         // opis
-        desc: "claras[klaras] - ",
+        desc: "claras[klaras] - dobre/jasne",
         //zdanie
         sentence1: [
                 "claras"
+        ],
+                                                                                     sentence1b: [
+            "jasne"
+        ],
+                sentence1c: [
+            "klaras"
         ],
         sentence: [
                 "Explicar",
@@ -86,10 +98,16 @@ id: [
             ""
         ],
         // opis
-        desc: "a los niños[a los ninios] - ",
+        desc: "a los niños[a los ninios] - dzieci",
         //zdanie
         sentence1: [
-                "a los niños"
+                "a_los_niños"
+        ],
+                                                                                             sentence1b: [
+            "dzieciom"
+        ],
+                sentence1c: [
+            "a_los_ninios"
         ],
         sentence: [
                 "Explicar",
@@ -125,10 +143,16 @@ id: [
             "Przewodnik <u><b>prowa</u></b>dzi wycieczkę i <u><b>wyjaśnia</u></b> wszystko turystom, prześlinił sobie lekko <u><b>war</u></b>gę"
         ],
         // opis
-        desc: "probar[prowar] - wyjaśniać",
+        desc: "probar[prowar] - próbowac",
         //zdanie
         sentence1: [
                 "Probar"
+        ],
+                                                                                                     sentence1b: [
+            "Próbować"
+        ],
+                sentence1c: [
+            "Prowar"
         ],
         sentence: [
                 "Probar",
@@ -164,6 +188,12 @@ id: [
         sentence1: [
                 "comida"
         ],
+                                                                                                             sentence1b: [
+            "jedzenia"
+        ],
+                sentence1c: [
+            "komida"
+        ],
         sentence: [
                 "Probar",
                 "comida",
@@ -197,6 +227,12 @@ id: [
         //zdanie
         sentence1: [
                 "deliciosa"
+        ],
+                                                                                                                     sentence1b: [
+            "pysznego"
+        ],
+                sentence1c: [
+            "delisiosa"
         ],
         sentence: [
                 "Probar",
@@ -232,6 +268,12 @@ id: [
         sentence2: [
                 "en"
         ],
+                sentence2b: [
+            "w"
+        ],
+                sentence2c: [
+            "en"
+        ],
         sentence: [
                 "en",
                 "nuevos",
@@ -266,6 +308,12 @@ id: [
         sentence2: [
                 "nuevos"
         ],
+                        sentence2b: [
+            "nowych"
+        ],
+                sentence2c: [
+            "nuewas"
+        ],
         sentence: [
                 "en",
                 "nuevos",
@@ -299,6 +347,12 @@ id: [
         //zdanie
         sentence2: [
                 "lugares"
+        ],
+                                sentence2b: [
+            "miejscach"
+        ],
+                sentence2c: [
+            "lugares"
         ],
         sentence: [
                 "en",
@@ -338,6 +392,12 @@ id: [
         sentence1: [
                 "Reir"
         ],
+                                        sentence1b: [
+            "Śmiać_się"
+        ],
+                sentence1c: [
+            "Reir"
+        ],
         sentence: [
                 "Reir",
                 "juntos"
@@ -371,6 +431,12 @@ id: [
         sentence1: [
                 "juntos"
         ],
+                                                sentence1b: [
+            "razem"
+        ],
+                sentence1c: [
+            "huntos"
+        ],
         sentence: [
                 "Reir",
                 "juntos"
@@ -403,6 +469,12 @@ id: [
         //zdanie
         sentence2: [
                 "mientras"
+        ],
+                                                        sentence2b: [
+            "podczas"
+        ],
+                sentence2c: [
+            "mientras"
         ],
         sentence: [
                 "mientras",
@@ -439,6 +511,12 @@ id: [
         sentence2: [
                 "miramos"
         ],
+                                                                sentence2b: [
+            "oglądania"
+        ],
+                sentence2c: [
+            "miramos"
+        ],
         sentence: [
                 "mientras",
                 "miramos",
@@ -474,6 +552,12 @@ id: [
         sentence2: [
                 "películas"
         ],
+                                                                        sentence2b: [
+            "filmów"
+        ],
+                sentence2c: [
+            "pelikulas"
+        ],
         sentence: [
                 "mientras",
                 "miramos",
@@ -504,10 +588,16 @@ id: [
             "KOGNATY - KOMICZNE - COMICAS"
         ],
         // opis
-        desc: "cómicas[comicas] - komediowe",
+        desc: "cómicas[komikas] - komediowe",
         //zdanie
         sentence2: [
                 "cómicas"
+        ],
+                                                                                sentence2b: [
+            "komediowych"
+        ],
+                sentence2c: [
+            "komikas"
         ],
         sentence: [
                 "mientras",
@@ -548,6 +638,12 @@ id: [
         sentence1: [
                 "Negar"
         ],
+                                                                                        sentence1b: [
+            "Zaprzeczać"
+        ],
+                sentence1c: [
+            "Negar"
+        ],
         sentence: [
                 "Negar",
                 "mentiras"
@@ -581,6 +677,12 @@ id: [
         sentence1: [
                 "mentiras"
         ],
+                                                                                                sentence1b: [
+            "kłamstwom"
+        ],
+                sentence1c: [
+            "mentiras"
+        ],
         sentence: [
                 "Negar",
                 "mentiras"
@@ -612,6 +714,12 @@ id: [
         //zdanie
         sentence2: [
                 "y"
+        ],
+            sentence2b: [
+            "i"
+        ],
+                sentence2c: [
+            "i"
         ],
         sentence: [
                 "y",
@@ -648,6 +756,12 @@ id: [
         sentence2: [
                 "decir"
         ],
+                    sentence2b: [
+            "mówić"
+        ],
+                sentence2c: [
+            "desir"
+        ],
         sentence: [
                 "y",
                 "decir",
@@ -681,6 +795,12 @@ id: [
         //zdanie
         sentence2: [
                 "siempre"
+        ],
+                            sentence2b: [
+            "zawsze"
+        ],
+                sentence2c: [
+            "siempre"
         ],
         sentence: [
                 "y",
@@ -717,6 +837,12 @@ id: [
         sentence2: [
                 "verdad"
         ],
+                                    sentence2b: [
+            "prawdę"
+        ],
+                sentence2c: [
+            "berdad"
+        ],
         sentence: [
                 "y",
                 "decir",
@@ -741,8 +867,8 @@ id: [
         ],
         translate: "Tańczyć powoli przy delikatnej, romantycznej muzyce",
         translateb: "[Bajlar lento kon musika ro-man-tika sławe]",
-        srcWord: ["https://www.arbulang.com/filmy/esp/truth.mp4", 'Matrix 1999'],
-        srcWordimage: "https://www.arbulang.com/filmy/esp/truth.png",
+        srcWord: ["https://www.arbulang.com/filmy/esp/.mp4", ''],
+        srcWordimage: "https://www.arbulang.com/filmy/esp/.png",
         word: [
                 "https://www.arbulang.com/voice/music.mp4"
         ],
@@ -755,6 +881,12 @@ id: [
         //zdanie
         sentence1: [
                 "Bailar"
+        ],
+                                            sentence1b: [
+            "Tańczyć"
+        ],
+                sentence1c: [
+            "Bajlar"
         ],
         sentence: [
                 "Bailar",
@@ -788,6 +920,12 @@ id: [
         //zdanie
         sentence1: [
                 "lento"
+        ],
+                                                    sentence1b: [
+            "powoli"
+        ],
+                sentence1c: [
+            "lento"
         ],
         sentence: [
                 "Bailar",
@@ -828,6 +966,12 @@ id: [
         sentence1: [
                 "con"
         ],
+                                                            sentence2b: [
+            "z"
+        ],
+                sentence2c: [
+            "kon"
+        ],
         sentence: [
                 "con",
                 "musica",
@@ -862,6 +1006,12 @@ id: [
         //zdanie
         sentence1: [
                 "musica"
+        ],
+                                                                    sentence2b: [
+            "muzyką"
+        ],
+                sentence2c: [
+            "musika"
         ],
         sentence: [
                 "con",
@@ -898,6 +1048,12 @@ id: [
         sentence1: [
                 "romántica"
         ],
+                                                                            sentence2b: [
+            "romantyczną"
+        ],
+                sentence2c: [
+            "romantika"
+        ],
         sentence: [
                 "con",
                 "musica",
@@ -932,6 +1088,12 @@ id: [
         //zdanie
         sentence1: [
                 "suave"
+        ],
+                                                                                    sentence2b: [
+            "delikatną"
+        ],
+                sentence2c: [
+            "sławe"
         ],
         sentence: [
                 "con",
@@ -972,6 +1134,12 @@ id: [
         sentence1: [
                 "Mantener"
         ],
+                sentence1b: [
+            "Utrzymywać"
+        ],
+                sentence1c: [
+            "Mantener"
+        ],
         sentence: [
                 "Mantener",
                 "la paz",
@@ -1002,10 +1170,16 @@ id: [
             "P<u><b>la</u></b>n jest całkowity <u><b>pokój</u></b> na świecie. Większości to <u><b>pas</u></b>uje"
         ],
         // opis
-        desc: "la paz[la pas(Meksyk, Kolumia)] - pokój",
+        desc: "la paz[la pas(Meksyk, Kolumbia)] - pokój",
         //zdanie
         sentence1: [
-                "la paz"
+                "la_paz"
+        ],
+                        sentence1b: [
+            "pokój"
+        ],
+                sentence1c: [
+            "la_pas"
         ],
         sentence: [
                 "Mantener",
@@ -1042,6 +1216,12 @@ id: [
         sentence1: [
                 "y"
         ],
+                                sentence1b: [
+            "i"
+        ],
+                sentence1c: [
+            "i"
+        ],
         sentence: [
                 "Mantener",
                 "la paz",
@@ -1076,6 +1256,12 @@ id: [
         //zdanie
         sentence1: [
                 "armonia"
+        ],
+                                        sentence1b: [
+            "harmonię"
+        ],
+                sentence1c: [
+            "armonia"
         ],
         sentence: [
                 "Mantener",
@@ -1116,6 +1302,12 @@ id: [
         sentence1: [
                 "Viajar"
         ],
+                                                sentence1b: [
+            "Podróżować"
+        ],
+                sentence1c: [
+            "Biahar"
+        ],
         sentence: [
                 "Viajar",
                 "junots"
@@ -1148,6 +1340,12 @@ id: [
         //zdanie
         sentence1: [
                 "juntos"
+        ],
+                                                        sentence1b: [
+            "razem"
+        ],
+                sentence1c: [
+            "huntos"
         ],
         sentence: [
                 "Viajar",
@@ -1182,6 +1380,12 @@ id: [
         sentence1: [
                 "en"
         ],
+                                                                sentence2b: [
+            "w"
+        ],
+                sentence2c: [
+            "en"
+        ],
         sentence: [
                 "en",
                 "un coche",
@@ -1214,7 +1418,13 @@ id: [
         desc: "un coche[un kocze] - samochód",
         //zdanie
         sentence1: [
-                "un coche"
+                "un_coche"
+        ],
+                                                                        sentence2b: [
+            "samochodzie"
+        ],
+                sentence2c: [
+            "un_kocze"
         ],
         sentence: [
                 "en",
@@ -1249,6 +1459,12 @@ id: [
         //zdanie
         sentence1: [
                 "bonito"
+        ],
+                                                                                sentence2b: [
+            "ładnym"
+        ],
+                sentence2c: [
+            "bonito"
         ],
         sentence: [
                 "en",
@@ -1288,6 +1504,12 @@ id: [
         sentence1: [
                 "Usar"
         ],
+                                sentence1b: [
+            "Używać"
+        ],
+                sentence1c: [
+            "Usar"
+        ],
         sentence: [
                 "Usar",
                 "maquillaje",
@@ -1321,6 +1543,12 @@ id: [
         //zdanie
         sentence1: [
                 "maquillaje"
+        ],
+                                        sentence1b: [
+            "makijażu"
+        ],
+                sentence1c: [
+            "makijahe"
         ],
         sentence: [
                 "Usar",
@@ -1356,6 +1584,12 @@ id: [
         sentence1: [
                 "bonito"
         ],
+                                                sentence1b: [
+            "ładnego"
+        ],
+                sentence1c: [
+            "bonito"
+        ],
         sentence: [
                 "Usar",
                 "maquillaje",
@@ -1389,6 +1623,12 @@ id: [
         //zdanie
         sentence1: [
                 "para"
+        ],
+                                                        sentence2b: [
+            "dla(żeby)"
+        ],
+                sentence2c: [
+            "para"
         ],
         sentence: [
                 "para",
@@ -1424,6 +1664,12 @@ id: [
         sentence1: [
                 "sentirse"
         ],
+                                                                sentence2b: [
+            "czuć się"
+        ],
+                sentence2c: [
+            "sentirse"
+        ],
         sentence: [
                 "para",
                 "sentirse",
@@ -1457,6 +1703,12 @@ id: [
         //zdanie
         sentence1: [
                 "bien"
+        ],
+                                                                        sentence2b: [
+            "dobrze"
+        ],
+                sentence2c: [
+            "bien"
         ],
         sentence: [
                 "para",
@@ -1496,6 +1748,12 @@ id: [
         sentence1: [
                 "Cuidar"
         ],
+                                                                                        sentence1b: [
+            "Dbać_o"
+        ],
+                sentence1c: [
+            "Kłidar"
+        ],
         sentence: [
                 "Cuidar",
                 "el jardin"
@@ -1524,10 +1782,16 @@ id: [
             "<u><b>Har</u></b>t ducha trzeba mieć, aby jeździć na mecze <u><b>Din</u></b>amo Zagrzeb i uprawiać wielki <u><b>ogród</u></b>"
         ],
         // opis
-        desc: "el jardin[] - ogród",
+        desc: "el jardin[el hardin] - ogród",
         //zdanie
         sentence1: [
-                "el jardin"
+                "el_jardin"
+        ],
+                                                                                                sentence1b: [
+            "ogród"
+        ],
+                sentence1c: [
+            "el_hardin"
         ],
         sentence: [
                 "Cuidar",
@@ -1568,6 +1832,12 @@ id: [
         sentence1: [
                 "con"
         ],
+            sentence2b: [
+            "z"
+        ],
+                sentence2c: [
+            "kon"
+        ],
         sentence: [
                 "con",
                 "amor",
@@ -1602,6 +1872,12 @@ id: [
         sentence1: [
                 "amor"
         ],
+                    sentence2b: [
+            "miłością"
+        ],
+                sentence2c: [
+            "amor"
+        ],
         sentence: [
                 "con",
                 "amor",
@@ -1635,6 +1911,12 @@ id: [
         sentence1: [
                 "siempre"
         ],
+                            sentence2b: [
+            "zawsze"
+        ],
+                sentence2c: [
+            "siempre"
+        ],
         sentence: [
                 "con",
                 "amor",
@@ -1658,8 +1940,8 @@ id: [
         ],
         translate: "Radzić sobie z lękiem dzięki głębokiemu oddychaniu.",
         translateb: "[Negar mentiras i desir siempre berdad]",
-        srcWord: ["https://www.arbulang.com/filmy/esp/truth.mp4", 'Matrix 1999'],
-        srcWordimage: "https://www.arbulang.com/filmy/esp/truth.png",
+        srcWord: ["https://www.arbulang.com/filmy/esp/.mp4", ''],
+        srcWordimage: "https://www.arbulang.com/filmy/esp/.png",
         word: [
                 "https://www.arbulang.com/voice/music.mp4"
         ],
@@ -1672,6 +1954,12 @@ id: [
         //zdanie
         sentence1: [
                 "Tratar"
+        ],
+                                    sentence1b: [
+            "Radzić_sobie_z"
+        ],
+                sentence1c: [
+            "Tratar"
         ],
         sentence: [
                 "Tratar",
@@ -1703,7 +1991,13 @@ id: [
         desc: "la ansiedad[la ansiedad] - lęk, niepokój",
         //zdanie
         sentence1: [
-                "la ansiedad"
+                "la_ansiedad"
+        ],
+                                            sentence1b: [
+            "lękiem"
+        ],
+                sentence1c: [
+            "la_ansiedad"
         ],
         sentence: [
                 "Tratar",
@@ -1744,6 +2038,12 @@ id: [
         sentence1: [
                 "con"
         ],
+                                                    sentence2b: [
+            "z(poprzez)"
+        ],
+                sentence2c: [
+            "kon"
+        ],
         sentence: [
                 "con",
                 "respiracion",
@@ -1777,6 +2077,12 @@ id: [
         sentence1: [
                 "respiracion"
         ],
+                                                            sentence2b: [
+            "oddychanie"
+        ],
+                sentence2c: [
+            "respirasion"
+        ],
         sentence: [
                 "con",
                 "respiracion",
@@ -1809,6 +2115,12 @@ id: [
         //zdanie
         sentence1: [
                 "profunda"
+        ],
+                                                                    sentence2b: [
+            "głębokie"
+        ],
+                sentence2c: [
+            "profunda"
         ],
         sentence: [
                 "con",
@@ -1848,6 +2160,12 @@ id: [
         sentence1: [
                 "Anhelar"
         ],
+                                                                            sentence1b: [
+            "Pragnąć"
+        ],
+                sentence1c: [
+            "Anielar"
+        ],
         sentence: [
                 "Anhelar",
                 "paz"
@@ -1879,6 +2197,12 @@ id: [
         //zdanie
         sentence1: [
                 "paz"
+        ],
+                                                                                    sentence1b: [
+            "pokoju"
+        ],
+                sentence1c: [
+            "paz"
         ],
         sentence: [
                 "Anhelar",
@@ -1912,6 +2236,12 @@ id: [
         //zdanie
         sentence1: [
                 "mientras"
+        ],
+                                                                                            sentence2b: [
+            "gdy"
+        ],
+                sentence2c: [
+            "mientras"
         ],
         sentence: [
                 "mientras",
@@ -1947,6 +2277,12 @@ id: [
         sentence1: [
                 "hay"
         ],
+                                                                                                    sentence2b: [
+            "trwają"
+        ],
+                sentence2c: [
+            "aj"
+        ],
         sentence: [
                 "mientras",
                 "hay",
@@ -1980,6 +2316,12 @@ id: [
         //zdanie
         sentence1: [
                 "conflictos"
+        ],
+                                                                                                            sentence2b: [
+            "konflikty"
+        ],
+                sentence2c: [
+            "konfliktos"
         ],
         sentence: [
                 "mientras",
@@ -2015,6 +2357,12 @@ id: [
         sentence1: [
                 "grandes"
         ],
+                                                                                                                    sentence2b: [
+            "wielkie"
+        ],
+                sentence2c: [
+            "grandes"
+        ],
         sentence: [
                 "mientras",
                 "hay",
@@ -2039,8 +2387,8 @@ id: [
         ],
         translate: "Zmieniać świat małymi działaniami",
         translateb: "[Kambiar]",
-        srcWord: ["http://localhost/arbulanguage.com/filmy/esp/changetheworld.mp4", 'Podaj dalej (2000)'],
-        srcWordimage: "http://localhost/arbulanguage.com/filmy/esp/changetheworld.png",
+        srcWord: ["https://www.arbulang.com/filmy/esp/changetheworld.mp4", 'Podaj dalej (2000)'],
+        srcWordimage: "https://www.arbulang.com/filmy/esp/changetheworld.png",
         word: [
                 "https://www.arbulang.com/voice/music.mp4"
         ],
@@ -2053,6 +2401,12 @@ id: [
         //zdanie
         sentence1: [
                 "Cambiar"
+        ],
+                                                                                            sentence1b: [
+            "Zmieniać"
+        ],
+                sentence1c: [
+            "kambiar"
         ],
         sentence: [
                 "Cambiar",
@@ -2084,7 +2438,13 @@ id: [
         desc: "el mundo[el mundo] - świat",
         //zdanie
         sentence1: [
-                "el mundo"
+                "el_mundo"
+        ],
+                                                                                                    sentence1b: [
+            "świat"
+        ],
+                sentence1c: [
+            "el_mundo"
         ],
         sentence: [
                 "Cambiar",
@@ -2125,6 +2485,12 @@ id: [
         sentence1: [
                 "con"
         ],
+            sentence2b: [
+            "z"
+        ],
+                sentence2c: [
+            "kon"
+        ],
         sentence: [
                 "con",
                 "pequeñas",
@@ -2158,6 +2524,12 @@ id: [
         sentence1: [
                 "pequeñas"
         ],
+                    sentence2b: [
+            "małymi"
+        ],
+                sentence2c: [
+            "pekienias"
+        ],
         sentence: [
                 "con",
                 "pequeñas",
@@ -2190,6 +2562,12 @@ id: [
         //zdanie
         sentence1: [
                 "acciones"
+        ],
+                            sentence2b: [
+            "działaniami"
+        ],
+                sentence2c: [
+            "aktiones"
         ],
         sentence: [
                 "con",
@@ -2229,6 +2607,12 @@ id: [
         sentence1: [
                 "Lograr"
         ],
+                                                                                                            sentence1b: [
+            "Osiągać"
+        ],
+                sentence1c: [
+            "Lograr"
+        ],
         sentence: [
                 "Lograr",
                 "sueños",
@@ -2257,10 +2641,16 @@ id: [
             ""
         ],
         // opis
-        desc: "sueños[] - ",
+        desc: "sueños[słenios] - marzenia/sny",
         //zdanie
         sentence1: [
                 "sueños"
+        ],
+                                                                                                                    sentence1b: [
+            "marzenia"
+        ],
+                sentence1c: [
+            "słenios"
         ],
         sentence: [
                 "Lograr",
@@ -2294,6 +2684,12 @@ id: [
         //zdanie
         sentence1: [
                 "grandes"
+        ],
+                                                                                                                            sentence1b: [
+            "wielkie"
+        ],
+                sentence1c: [
+            "grandes"
         ],
         sentence: [
                 "Lograr",
@@ -2335,6 +2731,12 @@ id: [
         sentence1: [
                 "con"
         ],
+                                    sentence2b: [
+            "z"
+        ],
+                sentence2c: [
+            "kon"
+        ],
         sentence: [
                 "con",
                 "pequeños",
@@ -2367,6 +2769,12 @@ id: [
         //zdanie
         sentence1: [
                 "pequeños"
+        ],
+                                            sentence2b: [
+            "małymi"
+        ],
+                sentence2c: [
+            "pekienios"
         ],
         sentence: [
                 "con",
@@ -2401,6 +2809,12 @@ id: [
         sentence1: [
                 "pasos"
         ],
+                                                    sentence2b: [
+            "krokami"
+        ],
+                sentence2c: [
+            "pasos"
+        ],
         sentence: [
                 "con",
                 "pequeños",
@@ -2424,8 +2838,8 @@ id: [
         ],
         translate: "Powtarzać piękne słowa, żeby czuć się dobrze",
         translateb: "[Repetir palawras bonitas para sentirse bien]",
-        srcWord: ["https://www.arbulang.com/filmy/esp/truth.mp4", 'Matrix 1999'],
-        srcWordimage: "https://www.arbulang.com/filmy/esp/truth.png",
+        srcWord: ["https://www.arbulang.com/filmy/esp/beautiful-words.mp4", 'Matrix 1999'],
+        srcWordimage: "https://www.arbulang.com/filmy/esp/beautiful-words.png",
         word: [
                 "https://www.arbulang.com/voice/music.mp4"
         ],
@@ -2438,6 +2852,12 @@ id: [
         //zdanie
         sentence1: [
                 "Repetir"
+        ],
+                                                            sentence1b: [
+            "Powtarzać"
+        ],
+                sentence1c: [
+            "Repetir"
         ],
         sentence: [
                 "Repetir",
@@ -2472,6 +2892,12 @@ id: [
         sentence1: [
                 "palabras"
         ],
+                                                                    sentence1b: [
+            "słowa"
+        ],
+                sentence1c: [
+            "palawras"
+        ],
         sentence: [
                 "Repetir",
                 "palabras",
@@ -2504,6 +2930,12 @@ id: [
         //zdanie
         sentence1: [
                 "bonitas"
+        ],
+                                                                            sentence1b: [
+            "piękne"
+        ],
+                sentence1c: [
+            "bonitas"
         ],
         sentence: [
                 "Repetir",
@@ -2539,6 +2971,12 @@ id: [
         sentence1: [
                 "para"
         ],
+                                                                                    sentence2b: [
+            "żyby"
+        ],
+                sentence2c: [
+            "para"
+        ],
         sentence: [
                 "para",
                 "sentirse",
@@ -2571,6 +3009,12 @@ id: [
         //zdanie
         sentence1: [
                 "sentirse"
+        ],
+                                                                                            sentence2b: [
+            "czuć_się"
+        ],
+                sentence2c: [
+            "sentirse"
         ],
         sentence: [
                 "para",
@@ -2605,6 +3049,12 @@ id: [
         sentence1: [
                 "bien"
         ],
+                                                                                                    sentence2b: [
+            "dobrze"
+        ],
+                sentence2c: [
+            "bien"
+        ],
         sentence: [
                 "para",
                 "sentirse",
@@ -2627,7 +3077,7 @@ id: [
                 "https://www.arbulang.com/img/fiszkiespanol/127a.jpg"
         ],
         translate: "Zachować spokój i cieszyć się chwilą",
-        translateb: "[Negar mentiras i desir siempre berdad]",
+        translateb: "[]",
         srcWord: ["https://www.arbulang.com/filmy/esp/peace.mp4", 'Avatar'],
         srcWordimage: "https://www.arbulang.com/filmy/esp/peace.png",
         word: [
@@ -2642,6 +3092,12 @@ id: [
         //zdanie
         sentence1: [
                 "Mantener"
+        ],
+        sentence1b: [
+            "Zachować"
+        ],
+                sentence1c: [
+            "Mantener"
         ],
         sentence: [
                 "Mantener",
@@ -2670,10 +3126,16 @@ id: [
             ""
         ],
         // opis
-        desc: "la calma[] - ",
+        desc: "la calma[la kalma] - spokój",
         //zdanie
         sentence1: [
-                "la calma"
+                "la_calma"
+        ],
+                sentence1b: [
+            "spokój"
+        ],
+                sentence1c: [
+            "la_kalma"
         ],
         sentence: [
                 "Mantener",
@@ -2707,6 +3169,12 @@ id: [
         //zdanie
         sentence1: [
                 "y"
+        ],
+                        sentence2b: [
+            "i"
+        ],
+                sentence2c: [
+            "i"
         ],
         sentence: [
                 "y",
@@ -2742,6 +3210,12 @@ id: [
         sentence1: [
                 "disfrutar"
         ],
+                                sentence2b: [
+            "cieszyć_się"
+        ],
+                sentence2c: [
+            "disfrutar"
+        ],
         sentence: [
                 "y",
                 "disfrutar",
@@ -2773,7 +3247,13 @@ id: [
         desc: "el momento[] - ",
         //zdanie
         sentence1: [
-                "el momento"
+                "el_momento"
+        ],
+                                        sentence2b: [
+            "momentem"
+        ],
+                sentence2c: [
+            "el_momento"
         ],
         sentence: [
                 "y",
@@ -2798,8 +3278,8 @@ id: [
         ],
         translate: "Dbać o zdrowie poprzez codzienne ćwiczenia",
         translateb: "[Kjudar]",
-        srcWord: ["http://localhost/arbulanguage.com/filmy/esp/morning.mp4", 'Szybcy i wściekli'],
-        srcWordimage: "http://localhost/arbulanguage.com/filmy/esp/morning.png",
+        srcWord: ["https://www.arbulang.com/filmy/esp/morning.mp4", 'Szybcy i wściekli'],
+        srcWordimage: "https://www.arbulang.com/filmy/esp/morning.png",
         word: [
                 "https://www.arbulang.com/voice/music.mp4"
         ],
@@ -2812,6 +3292,12 @@ id: [
         //zdanie
         sentence1: [
                 "Cuidar"
+        ],
+                                                sentence1b: [
+            "Dbać_o"
+        ],
+                sentence1c: [
+            "Kjudar"
         ],
         sentence: [
                 "Cuidar",
@@ -2845,6 +3331,12 @@ id: [
         sentence1: [
                 "la_salud"
         ],
+                                                        sentence1b: [
+            "zdrowie"
+        ],
+                sentence1c: [
+            "la_salud"
+        ],
         sentence: [
                 "Cuidar",
                 "la salud"
@@ -2861,21 +3353,34 @@ id: [
         182,
         36
 ],
+        // obrazek
         img: [
-                "https://www.arbulang.com/img/fiszkiespanol/146a.jpg"
+            "https://www.arbulang.com/img/fiszkiespanol/17a.jpg",
+                "https://www.arbulang.com/img/fiszkiespanol/31a.jpg",
+                "https://www.arbulang.com/img/fiszkiespanol/59a.jpg",
+                "https://www.arbulang.com/img/fiszkiespanol/75a.jpg"
         ],
         word: [
                 "https://www.arbulang.com/voice/music.mp4"
         ],
         // historia
         story: [
-            ""
+                "<u><b>Z</u></b> <u><b>kon</u></b>opiami jest niezły ubaw",
+                "<u><b>Z</u></b> takimi <u><b>kon</u></b>taktami jakie mam, lepiej jest mi podołać obowiązkom",
+                "<u><b>Z</u></b> <u><b>kon</u></b>sernacją przyjąłem tę decyzję",
+                "<u><b>Z</u></b> <u><b>kon</u></b>taktami w branży u mnie słabo..."
         ],
         // opis
-        desc: "con[] - ",
+        desc: "con[kon] - z",
         //zdanie
         sentence1: [
                 "con"
+        ],
+                                                                sentence2b: [
+            "poprzez"
+        ],
+                sentence2c: [
+            "kon"
         ],
         sentence: [
                 "con",
@@ -2905,10 +3410,16 @@ id: [
             ""
         ],
         // opis
-        desc: "ejercicio[] - ",
+        desc: "ejercicio[ehersisio] - ćwiczenia",
         //zdanie
         sentence1: [
                 "ejercicio"
+        ],
+                                                                        sentence2b: [
+            "ćwiczenia"
+        ],
+                sentence2c: [
+            "ehersisio"
         ],
         sentence: [
                 "con",
@@ -2938,10 +3449,16 @@ id: [
             ""
         ],
         // opis
-        desc: "diario[] - ",
+        desc: "diario[djario] - codzienne/dziennik",
         //zdanie
         sentence1: [
                 "diario"
+        ],
+                                                                                sentence2b: [
+            "codzienne"
+        ],
+                sentence2c: [
+            "djario"
         ],
         sentence: [
                 "con",
@@ -2966,8 +3483,8 @@ id: [
         ],
         translate: "Chronić ciało wygodnym ubraniem",
         translateb: "[Proteher el kłerpo kon ropa komoda]",
-        srcWord: ["http://localhost/arbulanguage.com/filmy/esp/clothes.mp4", 'Spectre'],
-        srcWordimage: "http://localhost/arbulanguage.com/filmy/esp/clothes.png",
+        srcWord: ["https://www.arbulang.com/filmy/esp/clothes.mp4", 'Spectre'],
+        srcWordimage: "https://www.arbulang.com/filmy/esp/clothes.png",
         word: [
                 "https://www.arbulang.com/voice/music.mp4"
         ],
@@ -3164,8 +3681,8 @@ id: [
         ],
         translate: "Zmienić plan, jeśli to konieczne",
         translateb: "[Negar mentiras i desir siempre berdad]",
-        srcWord: ["https://www.arbulang.com/filmy/esp/truth.mp4", 'Matrix 1999'],
-        srcWordimage: "https://www.arbulang.com/filmy/esp/truth.png",
+        srcWord: ["https://www.arbulang.com/filmy/eng-esp/predict.mp4", 'Resident Evil: Ostatni Rozdział (2016)'],
+        srcWordimage: "https://www.arbulang.com/filmy/eng-esp/predict.png",
         word: [
                 "https://www.arbulang.com/voice/music.mp4"
         ],
@@ -3174,10 +3691,16 @@ id: [
             ""
         ],
         // opis
-        desc: "cambiar[] - chronić",
+        desc: "cambiar[kambiar] - zmieniać",
         //zdanie
         sentence1: [
                 "Cambiar"
+        ],
+                                                sentence1b: [
+            "Zmieniać"
+        ],
+                sentence1c: [
+            "kambiar"
         ],
         sentence: [
                 "Cambiar",
@@ -3211,6 +3734,12 @@ id: [
         sentence1: [
                 "el plan"
         ],
+                                                        sentence1b: [
+            "plan"
+        ],
+                sentence1c: [
+            "el_plan"
+        ],
         sentence: [
                 "Cambiar",
                 "el plan"
@@ -3227,28 +3756,36 @@ id: [
         192,
         38
 ],
+        // obrazek
         img: [
-                "https://www.arbulang.com/img/fiszkiespanol/146a.jpg"
+                "https://www.arbulang.com/img/fiszkiespanol/126a.jpg"
         ],
         word: [
                 "https://www.arbulang.com/voice/music.mp4"
         ],
         // historia
         story: [
-            ""
+            "<u><b>To</u></b> <u><b>wszystko</u></b> <u><b>dos</u></b>taniecie w naszym sklepie"
         ],
         // opis
-        desc: "si es[] - ",
+        desc: "si[si] - jeśli",
         //zdanie
         sentence1: [
-                "si es"
+                "si"
+        ],
+                                                                sentence2b: [
+            "jeśli"
+        ],
+                sentence2c: [
+            "si"
         ],
         sentence: [
-                "si es",
+                "si",
+                "es",
                 "necesario"
         ],
         //  slowo do nauki
-        key: "si es",
+        key: "si",
         category1: [
         ],
         category2: ["osoby", "osoby+czas"],
@@ -3257,6 +3794,46 @@ id: [
 {
 id: [
         193,
+        38
+],
+        // obrazek
+        img: [
+                "https://www.arbulang.com/img/fiszkiespanol/126a.jpg"
+        ],
+        word: [
+                "https://www.arbulang.com/voice/music.mp4"
+        ],
+        // historia
+        story: [
+            "<u><b>To</u></b> <u><b>wszystko</u></b> <u><b>dos</u></b>taniecie w naszym sklepie"
+        ],
+        // opis
+        desc: "es[es] - jest",
+        //zdanie
+        sentence1: [
+                "es"
+        ],
+                                                                        sentence2b: [
+            "jest_(to)"
+        ],
+                sentence2c: [
+            "es"
+        ],
+        sentence: [
+                "si",
+                "es",
+                "necesario"
+        ],
+        //  slowo do nauki
+        key: "es",
+        category1: [
+        ],
+        category2: ["osoby", "osoby+czas"],
+                category3: ["Infinitive"]
+},
+{
+id: [
+        194,
         38
 ],
         img: [
@@ -3270,10 +3847,16 @@ id: [
             ""
         ],
         // opis
-        desc: "necesario[] - ",
+        desc: "necesario[nesesario] - potrzebne",
         //zdanie
         sentence1: [
                 "necesario"
+        ],
+                                                                                sentence2b: [
+            "potrzebne"
+        ],
+                sentence2c: [
+            "nesesario"
         ],
         sentence: [
                 "si es",
@@ -3288,7 +3871,7 @@ id: [
 },
 {
 id: [
-        194,
+        195,
         39
 ],
         // obrazek
@@ -3312,44 +3895,18 @@ id: [
         sentence1: [
                 "Prever"
         ],
+            sentence1b: [
+            "Przewidywać"
+        ],
+                sentence1c: [
+            "Preber"
+        ],
         sentence: [
                 "Prever",
                 "el futuro"
         ],
         //  slowo do nauki
         key: "prever",
-        category1: [
-        ],
-        category2: ["osoby", "osoby+czas"],
-                category3: ["Infinitive"]
-},
-{
-id: [
-        195,
-        39
-],
-        img: [
-                "https://www.arbulang.com/img/fiszkiespanol/146a.jpg"
-        ],
-        word: [
-                "https://www.arbulang.com/voice/music.mp4"
-        ],
-        // historia
-        story: [
-            ""
-        ],
-        // opis
-        desc: "el futuro[] - ",
-        //zdanie
-        sentence1: [
-                "el futuro"
-        ],
-        sentence: [
-                "Prever",
-                "el futuro"
-        ],
-        //  slowo do nauki
-        key: "futuro",
         category1: [
         ],
         category2: ["osoby", "osoby+czas"],
@@ -3371,18 +3928,23 @@ id: [
             ""
         ],
         // opis
-        desc: "con[] - ",
+        desc: "el futuro[] - ",
         //zdanie
         sentence1: [
-                "con"
+                "el_futuro"
+        ],
+                    sentence1b: [
+            "przyszłość"
+        ],
+                sentence1c: [
+            "el_futuro"
         ],
         sentence: [
-                "con",
-                "pensamientos",
-                "positivos"
+                "Prever",
+                "el futuro"
         ],
         //  slowo do nauki
-        key: "con",
+        key: "futuro",
         category1: [
         ],
         category2: ["osoby", "osoby+czas"],
@@ -3404,10 +3966,16 @@ id: [
             ""
         ],
         // opis
-        desc: "pensamientos[] - ",
+        desc: "con[] - ",
         //zdanie
         sentence1: [
-                "pensamientos"
+                "con"
+        ],
+                            sentence2b: [
+            "z"
+        ],
+                sentence2c: [
+            "kon"
         ],
         sentence: [
                 "con",
@@ -3415,7 +3983,7 @@ id: [
                 "positivos"
         ],
         //  slowo do nauki
-        key: "pensamientos",
+        key: "con",
         category1: [
         ],
         category2: ["osoby", "osoby+czas"],
@@ -3437,10 +4005,16 @@ id: [
             ""
         ],
         // opis
-        desc: "positivos[] - ",
+        desc: "pensamientos[pensamientos] - myśli",
         //zdanie
         sentence1: [
-                "positivos"
+                "pensamientos"
+        ],
+                                    sentence2b: [
+            "myślami"
+        ],
+                sentence2c: [
+            "pensamientos"
         ],
         sentence: [
                 "con",
@@ -3448,7 +4022,7 @@ id: [
                 "positivos"
         ],
         //  slowo do nauki
-        key: "positivos",
+        key: "pensamientos",
         category1: [
         ],
         category2: ["osoby", "osoby+czas"],
@@ -3457,16 +4031,11 @@ id: [
 {
 id: [
         199,
-        40
+        39
 ],
-        // obrazek
         img: [
-                "https://www.arbulang.com/img/fiszkiespanol/131a.jpg"
+                "https://www.arbulang.com/img/fiszkiespanol/146a.jpg"
         ],
-        translate: "Budzić się wcześnie, aby cieszyć się dniem",
-        translateb: "[]",
-        srcWord: ["https://www.arbulang.com/filmy/esp/truth.mp4", 'Matrix 1999'],
-        srcWordimage: "https://www.arbulang.com/filmy/esp/truth.png",
         word: [
                 "https://www.arbulang.com/voice/music.mp4"
         ],
@@ -3475,17 +4044,24 @@ id: [
             ""
         ],
         // opis
-        desc: "despertar[] - chronić",
+        desc: "positivos[positiwos] - pozytywne/pozytywny",
         //zdanie
         sentence1: [
-                "Despertar"
+                "positivos"
+        ],
+                                            sentence2b: [
+            "pozytywnymi"
+        ],
+                sentence2c: [
+            "positiwos"
         ],
         sentence: [
-                "Despertar",
-                "temprano"
+                "con",
+                "pensamientos",
+                "positivos"
         ],
         //  slowo do nauki
-        key: "despertar",
+        key: "positivos",
         category1: [
         ],
         category2: ["osoby", "osoby+czas"],

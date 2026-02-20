@@ -77,9 +77,9 @@ id: [
         word: [
                 "https://www.arbulang.com/voice/espanol/sentence1/quiero.mp3"
         ],
-                        word2: [ 'Sometimes, <span class="adannotation2">quiero</span> more', "http://localhost/arbulanguage.com/voice/espanol/sentence2/quiero1.mp3"],
-                word3: [ 'Right now, <span class="adannotation2">quiero</span> rest', "http://localhost/arbulanguage.com/voice/espanol/sentence2/quiero2.mp3"],
-                word4: [ 'In this moment, <span class="adannotation2">quiero</span> change', "http://localhost/arbulanguage.com/voice/espanol/sentence2/quiero3.mp3"],
+                        word2: [ 'Sometimes, <span class="adannotation2">quiero</span> more', "http://localhost/arbulanguage.com/voice/espanol/sentence1/quiero1.mp3"],
+                word3: [ 'Right now, <span class="adannotation2">quiero</span> rest', "http://localhost/arbulanguage.com/voice/espanol/sentence1/quiero2.mp3"],
+                word4: [ 'In this moment, <span class="adannotation2">quiero</span> change', "http://localhost/arbulanguage.com/voice/espanol/sentence1/quiero3.mp3"],
         // opis
         desc: "quiero[kee-eh-roh] - want",
         //zdanie
@@ -128,10 +128,9 @@ id: [
         word: [
                 "https://www.arbulang.com/voice/espanol/sentence1/aprender.mp3"
         ],
-        // historia
-        story: [
-                ""
-        ],
+                                word2: [ '', "http://localhost/arbulanguage.com/voice/espanol/sentence1/aprender1.mp3"],
+                word3: [ '', "http://localhost/arbulanguage.com/voice/espanol/sentence1/aprender2.mp3"],
+                word4: [ '', "http://localhost/arbulanguage.com/voice/espanol/sentence1/aprender3.mp3"],
         // opis
         desc: "aprender[ah-pren-dehr] - learn",
         //zdanie
@@ -180,6 +179,9 @@ id: [
         word: [
                 "https://www.arbulang.com/voice/espanol/sentence1/espanol.mp3"
         ],
+                                                word2: [ '', "http://localhost/arbulanguage.com/voice/espanol/sentence1/espanol1.mp3"],
+                word3: [ '', "http://localhost/arbulanguage.com/voice/espanol/sentence1/espanol2.mp3"],
+                word4: [ '', "http://localhost/arbulanguage.com/voice/espanol/sentence1/espanol3.mp3"],
         // opis
         desc: "espanol[es-pah-nyol] - spanish",
         //zdanie
@@ -228,6 +230,9 @@ id: [
         word: [
                 "https://www.arbulang.com/voice/espanol/sentence1/muy.mp3"
         ],
+                                        word2: [ '', "http://localhost/arbulanguage.com/voice/espanol/sentence1/muy1.mp3"],
+                word3: [ '', "http://localhost/arbulanguage.com/voice/espanol/sentence1/muy2.mp3"],
+                word4: [ '', "http://localhost/arbulanguage.com/voice/espanol/sentence1/muy3.mp3"],
         // opis
         desc: "muy[moo-ee] - very",
         //zdanie
@@ -9801,117 +9806,230 @@ const intervalId = setInterval(scheduleNotification, 60000);
             console.log("Znam clicked on fiszka nr " + fiszka.id);
             activateFiszka(fiszka.id, true);
         }));
-// ================= AUDIO + FRAZY =================
-if (fiszka.word2 || fiszka.word3 || fiszka.word4) {
+(async () => {
+  // Load WaveSurfer dynamically if not present
+  async function ensureWaveSurfer() {
+    if (typeof window.WaveSurfer !== 'undefined') return;
+    await new Promise((resolve, reject) => {
+      const s = document.createElement('script');
+      s.src = 'https://unpkg.com/wavesurfer.js@6.6.4/dist/wavesurfer.min.js';
+      s.onload = resolve;
+      s.onerror = () => reject(new Error('Failed to load WaveSurfer.js'));
+      document.head.appendChild(s);
+    });
+  }
 
-    console.log('Ładuję frazy dla fiszki ID:', fiszka.id);
+  try { await ensureWaveSurfer(); } 
+  catch (e) { console.error('WaveSurfer load failed', e); return; }
 
-    const phrasesButton = $('<button>')
-        .addClass('phrases-button')
-        .text('PHRASES')
-        .css({
-            height: '60px',
-            marginLeft: '10px',
-            padding: '0 12px',
-            cursor: 'pointer'
-        });
+  window._wsPlayers = window._wsPlayers || [];
 
-    const phrasesContainer = $('<div>')
-        .addClass('phrases-container')
-        .css({
-            display: 'none',
-            marginTop: '10px',
-            padding: '10px',
-            border: '1px solid #ccc',
-            borderRadius: '8px',
-            backgroundColor: '#f9f9f9'
-        });
+  if (!(fiszka && (fiszka.word2 || fiszka.word3 || fiszka.word4))) return;
+  console.log('Ładuję frazy dla fiszki ID:', fiszka.id);
 
-    async function createPhrase(wordArray, index, fiszkaId) {
-        if (!wordArray || wordArray.length < 2) {
-            console.log(`Brak frazy lub niepoprawny format dla fiszki ${fiszkaId}, index ${index}`);
-            return;
-        }
+  const phrasesButton = $('<button>')
+    .addClass('phrases-button')
+    .text('PHRASES')
+    .css({ height: '60px', marginLeft: '10px', padding: '0 12px', cursor: 'pointer' });
 
-        const phraseText = wordArray[0];
-        const phraseAudioSrc = wordArray[1];
-
-        const audioId = `phrase-audio-${fiszkaId}-${index}`.replace(/,/g, '-');
-        const buttonId = `phrase-btn-${fiszkaId}-${index}`.replace(/,/g, '-');
-
-        console.log(`Tworzę frazę #${index} dla fiszki ${fiszkaId}:`, phraseText, phraseAudioSrc);
-
-        const phraseRow = $('<div>').css({
-            display: 'flex',
-            alignItems: 'center',
-            gap: '10px',
-            marginBottom: '6px'
-        });
-
-        const phraseLabel = $('<span>').html(phraseText).css({ fontWeight: 'bold' });
-
-        const phraseAudio = $('<audio>')
-            .attr({ id: audioId, preload: 'auto', controls: false });
-
-        const phrasePlayButton = $('<button>')
-            .attr('id', buttonId)
-            .addClass('pButton play')
-            .css({
-                width: '40px',
-                height: '40px',
-                backgroundSize: '70%',
-                backgroundRepeat: 'no-repeat',
-                backgroundPosition: 'center',
-                border: '1px solid'
-            })
-            .on('click', async function () {
-                const audioEl = document.getElementById(audioId);
-                if (!audioEl) {
-                    console.log('Nie znaleziono elementu audio:', audioId);
-                    return;
-                }
-
-                if (!audioEl.src) {
-                    console.log('Ładuję audio z URL:', phraseAudioSrc);
-                    try {
-                        const res = await fetch(phraseAudioSrc);
-                        const blob = await res.blob();
-                        const blobUrl = URL.createObjectURL(blob);
-                        audioEl.src = blobUrl;
-                        await audioEl.load();
-                        console.log('Audio załadowane dla:', audioId);
-                    } catch (err) {
-                        console.log('Błąd fetch audio dla:', phraseAudioSrc, err);
-                        return;
-                    }
-                }
-
-                audioEl.play().catch(err => console.log('Błąd odtwarzania audio:', err));
-                $(this).toggleClass('play pause');
-                console.log('Kliknięto play dla frazy:', audioId);
-            });
-
-        phraseRow.prepend(phrasePlayButton);
-        phraseRow.append(phraseLabel, phraseAudio);
-        phrasesContainer.append(phraseRow);
-        console.log('Dodano frazę do kontenera:', phraseText);
-    }
-
-    // Tworzymy wszystkie frazy, jeśli istnieją i przekazujemy ID fiszki
-    createPhrase(fiszka.word2, 1, fiszka.id);
-    createPhrase(fiszka.word3, 2, fiszka.id);
-    createPhrase(fiszka.word4, 3, fiszka.id);
-
-    phrasesButton.on('click', function () {
-        console.log('Kliknięto przycisk PHRASES dla fiszki:', fiszka.id);
-        $(this).toggleClass('active');
-        phrasesContainer.slideToggle(200);
+  const phrasesContainer = $('<div>')
+    .addClass('phrases-container')
+    .css({
+      display: 'none', marginTop: '10px', padding: '10px',
+      border: '1px solid #ccc', borderRadius: '8px', backgroundColor: '#f9f9f9'
     });
 
-    audioplayerDiv.append(phrasesButton);
-    fiszkaContainer.append(phrasesContainer);
-    console.log('Kontener fraz dodany do fiszki:', fiszka.id);
-}
+  function pauseAllExcept(exceptWs) {
+    window._wsPlayers.forEach(ws => {
+      try {
+        if (ws && ws !== exceptWs && typeof ws.isPlaying === 'function' && ws.isPlaying()) ws.pause();
+      } catch (e) {}
+    });
+  }
+
+  function toSeconds(val) {
+    if (val == null) return 0;
+    if (typeof val === 'number') return val > 10 ? val / 1000 : val;
+    const n = parseFloat(val);
+    if (isNaN(n)) return 0;
+    return n > 10 ? n / 1000 : n;
+  }
+
+  // ----------------- NOWA FUNKCJA: Wczytywanie timestampów -----------------
+  async function loadTimestamps(audioFileName) {
+    const jsonFile = audioFileName.replace(/\.mp3$/i, '.json');
+    try {
+      const res = await fetch(jsonFile);
+      if (!res.ok) throw new Error('Nie można wczytać JSON: ' + jsonFile);
+      const data = await res.json();
+      return data.map(w => ({
+        text: w.word,
+        start: parseFloat(w.start),
+        end: parseFloat(w.end)
+      }));
+    } catch (e) {
+      console.warn(e);
+      return null;
+    }
+  }
+
+  // ----------------- FUNKCJA TWORZENIA FRAZY -----------------
+  function createPhraseDOM(wordArray, index, fiszkaId) {
+    if (!wordArray || wordArray.length < 2) return null;
+
+    const phraseText = wordArray[0];
+    const audioUrl = wordArray[1];
+    const waveId = `wave-${fiszkaId}-${index}`.replace(/,/g, '-');
+    const btnId = `phrase-btn-${fiszkaId}-${index}`.replace(/,/g, '-');
+
+    const phraseRow = $('<div>').css({
+      display: 'flex', alignItems: 'center', gap: '10px', marginBottom: '6px', width: '100%'
+    });
+
+    const playBtn = $('<button>')
+      .attr('id', btnId)
+      .addClass('pButton play')
+      .html('⏳')
+      .prop('disabled', true)
+      .css({ width: '40px', height: '40px', fontSize: '18px', cursor: 'pointer', flexShrink: 0 });
+
+    const labelWrap = $('<div>').css({ flex: '1', minWidth: '0', lineHeight: '1.3' }).html(phraseText);
+    const wavePlaceholder = $('<div>').attr('id', waveId).css({ width: '220px', height: '40px', flexShrink: 0 });
+
+    phraseRow.append(playBtn, labelWrap, wavePlaceholder);
+    phrasesContainer.append(phraseRow);
+
+    return {
+      audioUrl,
+      waveId,
+      playBtn,
+      labelWrap,
+      phraseText,
+      timestamps: null,
+      ws: null,
+      initialized: false,
+      blobUrl: null
+    };
+  }
+
+  // ----------------- INICJALIZACJA WAVESURFER DLA FRAZY -----------------
+  async function initWaveForEntry(entry) {
+    if (entry.initialized) return;
+    entry.initialized = true;
+
+    const { audioUrl, waveId, playBtn, labelWrap } = entry;
+
+    // ----------------- Wczytaj timestampy z JSON -----------------
+    if (!entry.timestamps || !entry.timestamps.length) {
+      const ts = await loadTimestamps(audioUrl);
+      if (ts && ts.length) entry.timestamps = ts;
+    }
+
+    // Render spany
+    labelWrap.empty();
+    if (entry.timestamps && entry.timestamps.length) {
+      entry.timestamps.forEach(t => {
+        const text = (t.text || '').toString().trim();
+        const start = toSeconds(t.start || t.s || t.t0 || 0);
+        const end = toSeconds(t.end || t.e || 0);
+        const span = $('<span>').addClass('ws-word').text(text + ' ').css({ cursor: 'pointer' }).data({ start, end, wordText: text });
+        labelWrap.append(span);
+      });
+    } else {
+      const words = (entry.phraseText || '').replace(/<[^>]*>/g,'').split(/\s+/).filter(Boolean);
+      words.forEach((w,i) => labelWrap.append($('<span>').addClass('ws-word').text(w + (i<words.length-1?' ':'')).css({ cursor:'default' }).data({ start:0, end:0 })));
+    }
+
+    // ----------------- Utwórz WaveSurfer -----------------
+    const ws = WaveSurfer.create({
+      container: `#${waveId}`,
+      waveColor: '#ddd',
+      progressColor: '#4caf50',
+      height: 36,
+      normalize: true,
+      interact: false,
+      backend: 'WebAudio'
+    });
+    entry.ws = ws;
+    window._wsPlayers.push(ws);
+    ws.load(audioUrl);
+
+    ws.on('ready', () => {
+      // Build segment mapping
+      const spans = labelWrap.find('span.ws-word');
+      spans.each((i, el) => {
+        if (entry.timestamps && entry.timestamps[i]) {
+          $(el).data({ start: entry.timestamps[i].start, end: entry.timestamps[i].end });
+        }
+      });
+
+      function startHighlightLoop() {
+        if (entry._rafId) return;
+        let lastHighlighted = -1;
+        function loop() {
+          const cur = ws.getCurrentTime ? ws.getCurrentTime() : 0;
+          let activeIndex = -1;
+          spans.each((i, el) => {
+            const s = $(el).data();
+            if (cur >= s.start && cur <= s.end) activeIndex = i;
+          });
+          if (activeIndex !== lastHighlighted) {
+            if (lastHighlighted !== -1) spans.eq(lastHighlighted).removeClass('highlight');
+            if (activeIndex !== -1) spans.eq(activeIndex).addClass('highlight');
+            lastHighlighted = activeIndex;
+          }
+          entry._rafId = requestAnimationFrame(loop);
+        }
+        entry._rafId = requestAnimationFrame(loop);
+      }
+
+      function stopHighlightLoop() {
+        if(entry._rafId){cancelAnimationFrame(entry._rafId);entry._rafId=null;}
+        labelWrap.find('span.ws-word').removeClass('highlight');
+      }
+
+      playBtn.prop('disabled', false).html('▶');
+      playBtn.off('click').on('click', () => {
+        pauseAllExcept(ws);
+        if(ws.isPlaying && ws.isPlaying()){ws.pause(); playBtn.html('▶'); stopHighlightLoop();}
+        else {ws.play(); playBtn.html('⏸'); startHighlightLoop();}
+      });
+
+      ws.on('finish', ()=>{stopHighlightLoop(); playBtn.html('▶');});
+
+      labelWrap.off('click').on('click','span.ws-word', function(){
+        const span=$(this); const start=toSeconds(span.data('start')||0); if(!start) return;
+        const duration = ws.getDuration()||1; ws.seekTo(Math.min(Math.max(start/duration,0),1));
+        pauseAllExcept(ws); ws.play(); startHighlightLoop(); playBtn.html('⏸');
+      });
+    });
+  }
+
+  // ----------------- Stwórz frazy -----------------
+  const entries = [];
+  [2,3,4].forEach(n => {
+    const e = createPhraseDOM(fiszka['word'+n], n, fiszka.id);
+    if (e) entries.push(e);
+  });
+
+  let wavesInitialized=false;
+  phrasesButton.on('click', async function(){
+    $(this).toggleClass('active');
+    if(!phrasesContainer.is(':visible')) {
+      phrasesContainer.stop(true,true).slideDown(200, async ()=> {
+        if(!wavesInitialized){
+          for(const entry of entries) await initWaveForEntry(entry);
+          wavesInitialized=true;
+        }
+      });
+    } else phrasesContainer.stop(true,true).slideUp(200);
+  });
+
+  audioplayerDiv.append(phrasesButton);
+  fiszkaContainer.append(phrasesContainer);
+  console.log('Kontener fraz dodany do fiszki:', fiszka.id);
+})();
+
         // WYWOŁANIE HASHTAGU
         function updateButtonName(buttonName, fiszkaContainer) {
             // Usuń poprzednią nazwę, jeśli istnieje

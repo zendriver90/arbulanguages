@@ -1,4 +1,19 @@
 @media (min-width: 999px) {
+.ws-word.highlight {
+  background-color: yellow;
+  transition: background-color 0.05s linear;
+}
+.phrases-button.active {
+  background-color: #4caf50;
+  color: #fff;
+}
+.phrases-button {
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+.phrases-container {
+  max-width: 100%;
+}
 .tts-active {
     background-color: rgba(46, 204, 113, 0.5);
     transition: background-color 0.2s;
@@ -279,7 +294,48 @@ story_button {
 
             }
                         @media (max-width: 999px) {
-                                .phrases-button {
+.ws-word.highlight {
+  background-color: yellow;
+  transition: background-color 0.05s linear;
+}
+.phrases-button.active {
+  background-color: #4caf50;
+  color: #fff;
+}
+.phrases-button {
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+.phrases-container {
+  max-width: 100%;
+}
+.tts-active {
+    background-color: rgba(46, 204, 113, 0.5);
+    transition: background-color 0.2s;
+}
+    .tts-button {
+    width: 60px;
+    height: 60px;
+    border-radius: 8px;
+    padding: 0;
+}
+
+.tts-icon {
+    width: 70%;
+    height: 70%;
+    object-fit: contain;
+}
+.fiszka_story {
+    display: inline; /* zachowujemy ciągłość tekstu */
+}
+
+.tts-word {
+    padding: 0;       /* brak paddingu */
+    margin: 0;        /* brak marginesów */
+    display: inline;  /* spany są w jednej linii */
+    border-radius: 0; /* brak zaokrągleń (opcjonalnie) */
+}
+    .phrases-button {
     height: 60px;
     margin-left: 10px;
     padding: 0 16px;
@@ -324,7 +380,6 @@ story_button {
                 .fiszka {
     position: relative;
     padding: 10px;
-    bottom: 100px;
     margin: 5px;
     background-color: white;
     border: 1px solid #dddddd;
@@ -438,22 +493,26 @@ img.fiszka_img {
     font-size: 15px;
 }
 
-.fiszka_button.fiszka_button_trening {
-    padding-top: 20px;
-    border-radius: 20px;
-  width: 130px;  /* Dostosuj szerokoĹÄ wedĹug wĹasnych preferencji */
-  height: 40px;  /* Dostosuj wysokoĹÄ wedĹug wĹasnych preferencji */
-  font-size: 8px;
-  /* Dodaj inne wĹaĹciwoĹci CSS, jeĹli sÄ potrzebne */
-}
-.fiszka_button.fiszka_button_znam {
-    padding-top: 20px;
+    .fiszka_button.fiszka_button_trening {
+        display: flex;              /* ważne */
+        margin: 0 auto;             /* 👈 CENTRUM */
         border-radius: 20px;
-  width: 100px;  /* Dostosuj szerokoĹÄ wedĹug wĹasnych preferencji */
-  height: 40px;  /* Dostosuj wysokoĹÄ wedĹug wĹasnych preferencji */
-    font-size: 8px;
-  /* Dodaj inne wĹaĹciwoĹci CSS, jeĹli sÄ potrzebne */
-}
+        width: 160px;
+        height: 60px;
+        font-size: 30px;
+        align-items: center;
+        justify-content: center;
+    }
+    .fiszka_button.fiszka_button_znam {
+        display: flex;              /* ważne */
+        margin: 0 auto;             /* 👈 CENTRUM */
+        border-radius: 20px;
+        width: 160px;
+        height: 60px;
+        font-size: 30px;
+        align-items: center;
+        justify-content: center;
+    }
 
 
 button.fiszka_button {
@@ -466,7 +525,7 @@ button.story_button {
     margin: 0 5px 5px 5px; /* góra 0, boki 5px, dół 5px dla odstępów między przyciskami */
     border-radius: 15px;
     padding: 10px 20px;
-    font-size: 25px;
+    font-size: 20px;
     width: auto;
     max-width: 100%;
     box-sizing: border-box;

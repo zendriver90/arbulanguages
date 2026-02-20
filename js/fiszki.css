@@ -31,7 +31,7 @@
         transform 0.1s ease;
 }
 .fiszka {
-    top: 280px;
+    top: 140px;
     left: 330px;
     position: absolute;
     border: 1px solid #999;
@@ -47,7 +47,7 @@
 }
                 .nieparzysta {
     top: 280px;
-    left: -300px;
+    left: -310px;
     position: absolute;
     border: 1px solid #999;
     background: #eee;

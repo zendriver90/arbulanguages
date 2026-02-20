@@ -162,9 +162,7 @@ id: [
         ],
         //  slowo do nauki
         key: "cuaderno",
-        category1: [
-                "sport", "gaming"
-        ],
+        category1: ["nauka", "budownictwo"],
         category2: ["osoby", "osoby+czas"]
 },
 {
@@ -940,7 +938,7 @@ id: [
         ],
         // historia
         story: [
-                ""
+                "Filmowy a<u><b>mant</u></b> <u><b>zachowuje</u></b> wizerunek bardzo <u><b>ener</u></b>gicznego"
         ],
         // opis
         desc: "mantener[mantener] - zachować/utrzymać",
@@ -2111,9 +2109,7 @@ id: [
         ],
         sentence: [
                 "Cubrir",
-                "el coche",
-                "antes de",
-                "la lluvia"
+                "el coche"
         ],
         //  slowo do nauki
         key: "cubrir",
@@ -2152,9 +2148,7 @@ id: [
         ],
         sentence: [
                 "Cubrir",
-                "el coche",
-                "antes de",
-                "la lluvia"
+                "el coche"
         ],
         //  slowo do nauki
         key: "coche",
@@ -2181,7 +2175,7 @@ id: [
         // opis
         desc: "antes de[antes de] - przed",
         //zdanie
-        sentence1: [
+        sentence2: [
                 "antes_de"
         ],
                                                                                                 sentence1b: [
@@ -2191,8 +2185,6 @@ id: [
             "antes_de"
         ],
         sentence: [
-                "Cubrir",
-                "el coche",
                 "antes de",
                 "la lluvia"
         ],
@@ -2221,7 +2213,7 @@ id: [
         // opis
         desc: "la lluvia[la dziubia] - deszcz",
         //zdanie
-        sentence1: [
+        sentence2: [
                 "la_lluvia"
         ],
                                                                                                         sentence1b: [
@@ -2231,8 +2223,6 @@ id: [
             "la_dzubia"
         ],
         sentence: [
-                "Cubrir",
-                "el coche",
                 "antes de",
                 "la lluvia"
         ],
@@ -3122,6 +3112,12 @@ id: [
         sentence1: [
                 "Escuchar"
         ],
+                                sentence1b: [
+            "słuchać"
+        ],
+                sentence1c: [
+            "eskuczar"
+        ],
         sentence: [
                 "Escuchar",
                 "música",
@@ -3156,6 +3152,12 @@ id: [
         sentence1: [
                 "música"
         ],
+                                        sentence1b: [
+            "muzyki"
+        ],
+                sentence1c: [
+            "muzika"
+        ],
         sentence: [
                 "Escuchar",
                 "música",
@@ -3188,6 +3190,12 @@ id: [
         //zdanie
         sentence1: [
                 "alegre"
+        ],
+                                                sentence1b: [
+            "wesołej"
+        ],
+                sentence1c: [
+            "alegre"
         ],
         sentence: [
                 "Escuchar",
@@ -3222,6 +3230,12 @@ id: [
         sentence2: [
                 "en"
         ],
+                                                        sentence2b: [
+            "w"
+        ],
+                sentence2c: [
+            "en"
+        ],
         sentence: [
                 "en",
                 "el coche"
@@ -3253,6 +3267,12 @@ id: [
         //zdanie
         sentence2: [
                 "el coche"
+        ],
+                                                                sentence2b: [
+            "somochodzie"
+        ],
+                sentence2c: [
+            "el_kocze"
         ],
         sentence: [
                 "en",
@@ -3290,6 +3310,12 @@ id: [
         sentence1: [
                 "Llegar"
         ],
+        sentence1b: [
+            "Przybywać"
+        ],
+                sentence1c: [
+            "Dźegar"
+        ],
         sentence: [
                 "Llegar",
                 "temprano"
@@ -3323,6 +3349,12 @@ id: [
         sentence1: [
                 "temprano"
         ],
+                sentence1b: [
+            "wcześnie"
+        ],
+                sentence1c: [
+            "temprano"
+        ],
         sentence: [
                 "Llegar",
                 "temprano"
@@ -3353,6 +3385,12 @@ id: [
         //zdanie
         sentence2: [
                 "y"
+        ],
+                        sentence2b: [
+            "i"
+        ],
+                sentence2c: [
+            "y"
         ],
         sentence: [
                 "y",
@@ -3387,6 +3425,12 @@ id: [
         sentence2: [
                 "disfrutar"
         ],
+                                sentence2b: [
+            "cieszyć_się"
+        ],
+                sentence2c: [
+            "disfrutar"
+        ],
         sentence: [
                 "y",
                 "disfrutar",
@@ -3418,7 +3462,13 @@ id: [
         desc: "la mañana[la maniana] - poranek",
         //zdanie
         sentence2: [
-                "la mañana"
+                "la_mañana"
+        ],
+                                        sentence2b: [
+            "porankiem"
+        ],
+                sentence2c: [
+            "la_maniana"
         ],
         sentence: [
                 "y",
@@ -3457,6 +3507,12 @@ id: [
         sentence1: [
                 "Rehusar"
         ],
+                                                sentence1b: [
+            "Odrzucać"
+        ],
+                sentence1c: [
+            "Reusar"
+        ],
         sentence: [
                 "Rehusar",
                 "ofertas",
@@ -3491,6 +3547,12 @@ id: [
         sentence1: [
                 "ofertas"
         ],
+                                                        sentence1b: [
+            "oferty"
+        ],
+                sentence1c: [
+            "ofertas"
+        ],
         sentence: [
                 "Rehusar",
                 "ofertas",
@@ -3523,6 +3585,12 @@ id: [
         //zdanie
         sentence1: [
                 "que"
+        ],
+                                                                sentence1b: [
+            "które"
+        ],
+                sentence1c: [
+            "ke"
         ],
         sentence: [
                 "Rehusar",
@@ -3557,6 +3625,12 @@ id: [
         sentence2: [
                 "no"
         ],
+             sentence2b: [
+            "nie"
+        ],
+                sentence2c: [
+            "no"
+        ],
         sentence: [
                 "no",
                 "te gusten"
@@ -3588,6 +3662,12 @@ id: [
         //zdanie
         sentence2: [
                 "te gusten"
+        ],
+                     sentence2b: [
+            "podobają_się"
+        ],
+                sentence2c: [
+            "te_gusten"
         ],
         sentence: [
                 "no",
@@ -3625,6 +3705,12 @@ id: [
         sentence1: [
                 "Entrenar"
         ],
+                             sentence1b: [
+            "Trenować"
+        ],
+                sentence1c: [
+            "Entrenar"
+        ],
         sentence: [
                 "Entrenar",
                 "fuerte"
@@ -3658,6 +3744,12 @@ id: [
         sentence1: [
                 "fuerte"
         ],
+                                     sentence1b: [
+            "mocno"
+        ],
+                sentence1c: [
+            "fłerte"
+        ],
         sentence: [
                 "Entrenar",
                 "fuerte"
@@ -3689,6 +3781,12 @@ id: [
         //zdanie
         sentence2: [
                 "para"
+        ],
+                                             sentence2b: [
+            "dla"
+        ],
+                sentence2c: [
+            "para"
         ],
         sentence: [
                 "para",
@@ -3723,6 +3821,12 @@ id: [
         sentence2: [
                 "sentirte"
         ],
+                                                     sentenc2b: [
+            "czuć_się"
+        ],
+                sentence2c: [
+            "sentirte"
+        ],
         sentence: [
                 "para",
                 "sentirte",
@@ -3755,6 +3859,12 @@ id: [
         //zdanie
         sentence2: [
                 "mejor"
+        ],
+                                                             sentence2b: [
+            "lepiej"
+        ],
+                sentence2c: [
+            "mehor"
         ],
         sentence: [
                 "para",
@@ -3792,6 +3902,12 @@ id: [
         //zdanie
         sentence1: [
                 "Explicar"
+        ],
+                                                                     sentence1b: [
+            "Wyjaśniać"
+        ],
+                sentence1c: [
+            "Eksplikar"
         ],
         sentence: [
                 "Explicar",
