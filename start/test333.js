@@ -1,3 +1,5 @@
+// Tablica do przechowywania wylosowanych fiszek
+const selectedFiszkiHistory = [];
 function generateFiszkaBlock(fiszka, lessonId2, category) {
 
     var currentStoryButtonName = ''; // Zmienna lokalna
@@ -77,11 +79,73 @@ const imgContainer = $('<div>').addClass('fiszka_img_container');
         const hashtagContainer = $('<a>').addClass('hashtag-container').attr('href', '#');
         fiszkaContainer.append(hashtagContainer);
 
-// Funkcja showStory z obsługą id.fiszki
+// Funkcja showStory z zapisem wylosowanej fiszki
+// Funkcja showStory z zapisem wylosowanej fiszki
 function showStory(idFiszki) {
+    console.log('Wywołano showStory:', idFiszki);
 
+    const currentFiszka = fiszkaContainer;
+    console.log('Aktualny kontener:', currentFiszka);
+
+    // Ukrywamy wszystkie historie i obrazy w tej konkretnej fiszce
+    currentFiszka.find('.fiszka_img').hide();
+
+    const currentEntry = fiszka.entries[idFiszki];
+    if (!currentEntry) {
+        console.error("Nie znaleziono fiszki dla id:", idFiszki);
+        return;
+    }
+
+    console.log("Wybrana fiszka:", currentEntry);
+
+    let imgIndex = 0;
+
+    if (Array.isArray(fiszka.entries) && fiszka.entries.length > 0) {
+        imgIndex = Math.floor(Math.random() * fiszka.entries.length);
+        console.log("Wylosowany indeks obrazka:", imgIndex);
+    }
+
+    const selectedImg = currentEntry.img;
+    if (selectedImg) {
+        currentFiszka.find('.fiszka_img').each(function() {
+            if ($(this).attr('src') === selectedImg.src) {
+                $(this).show();
+            }
+        });
+
+        specificLesson2Ref = {
+            src: selectedImg.src,
+            alt: selectedImg.alt
+        };
+
+        console.log("Losowy obrazek:", specificLesson2Ref);
+
+        // --- PUSH do historii wylosowanych fiszek ---
+        selectedFiszkiHistory.push({
+            idFiszki: idFiszki,
+            img: selectedImg,
+            story: currentEntry.story ? currentEntry.story.text : null,
+            timestamp: new Date().toISOString()
+        });
+        console.log("Zapisana w historii fiszka:", selectedFiszkiHistory[selectedFiszkiHistory.length - 1]);
+    } else {
+        console.warn("Brak obrazka w fiszce:", currentEntry);
+    }
+
+    if (currentEntry.story) {
+        const storyText = currentEntry.story.text;
+        const storyElement = $('<div>')
+            .addClass('fiszka_story story-' + imgIndex)
+            .html(storyText);
+
+        currentFiszka.find('.fiszka_story').remove();
+        currentFiszka.append(storyElement);
+        storyElement.show();
+    }
+
+    lastClickedIndex = idFiszki;
+    return imgIndex;
 }
-
         function selectLikeButton(index) {
         }
         // NIEZNACZĄCE WYJAŚNIENIE SŁOWA
@@ -243,6 +307,12 @@ fiszkaContainer.append(ttsWrapper);
 
 // DODANIE MNEMOTECHNIKI
 if (Array.isArray(fiszka.entries) && fiszka.entries.length > 0) {
+            // Jeśli story jest tablicą, iterujemy przez wszystkie jej elementy
+    fiszka.entries.forEach((story, index) => {
+                const storyContainer = $('<div>').addClass('fiszka_story story-' + index).html(index);
+                fiszkaContainer.append(storyContainer);
+                console.log("Dodano story: ", index);  // Debugowanie
+            });
         }
         console.log('Przed utworzeniem wordDiv');
 
@@ -258,7 +328,152 @@ if (Array.isArray(fiszka.entries) && fiszka.entries.length > 0) {
     let index10 = [];
 
     if (Array.isArray(fiszka.entries) && fiszka.entries.length > 0) {
+        console.log("Znaleziono fiszki, liczba wpisów:", fiszka.entries.length);
+
+        const storyButtonContainer = $('<div>');
+        let lastClickedButton;
+
+        // Wybór indeksów na podstawie kategorii
+        let selectedIndexes = [];
+
+        if (category === "sport") {
+            selectedIndexes = fiszka.entries
+                .map((entry, index) => ({ entry, index }))
+                .filter(({ entry }) => entry.category.includes("sport"))
+                .slice(0, 7)
+                .map(obj => obj.index);
+        } else if (category === "natura") {
+            selectedIndexes = fiszka.entries
+                .map((entry, index) => ({ entry, index }))
+                .filter(({ entry }) => entry.category.includes("natura"))
+                .slice(0, 7)
+                .map(obj => obj.index);
+        } else if (category === "nauka") {
+            selectedIndexes = fiszka.entries
+                .map((entry, index) => ({ entry, index }))
+                .filter(({ entry }) => entry.category.includes("nauka"))
+                .slice(0, 7)
+                .map(obj => obj.index);
+        } else if (category === 'czarny humor' || category === 'czarnyhumor') {
+    selectedIndexes = fiszka.entries
+        .map((entry, index) => ({ entry, index }))
+        .filter(({ entry }) => 
+            entry.category.includes('czarnyhumor') || 
+            entry.category.includes('czarny humor')
+        )
+        .slice(0, 7)
+        .map(obj => obj.index);
+        } else if (category === "zwiazki") {
+            selectedIndexes = fiszka.entries
+                .map((entry, index) => ({ entry, index }))
+                .filter(({ entry }) => entry.category.includes("zwiazki"))
+                .slice(0, 7)
+                .map(obj => obj.index);
+} else if (category === "all") {
+            // Losowo wybieramy do 3 unikalnych indeksów
+            const allIndexes = [...Array(fiszka.entries.length).keys()];
+            selectedIndexes = allIndexes
+                .sort(() => 0.5 - Math.random()) // losowe przetasowanie
+                .slice(0, 7);
+        } else {
+            // Losowo wybieramy do 3 unikalnych indeksów
+            const allIndexes = [...Array(fiszka.entries.length).keys()];
+            selectedIndexes = allIndexes
+                .sort(() => 0.5 - Math.random()) // losowe przetasowanie
+                .slice(0, 7);
+        }
+
+        const randomButtonIndex = selectedIndexes[0] || 0;
+        index10.push(randomButtonIndex);
+
+        fiszka.entries.forEach((entry, index) => {
+            const displayText = entry.category.join(", ");
+            const isIncluded = selectedIndexes.includes(index);
+
+            const storyButton = $('<button>')
+                .text(displayText)
+                .addClass('story_button');
+
+            if (isIncluded) {
+                storyButton.click(function () { /// jeśli zmienię obrazek kliknięciem!!!!
+                    console.log("Kliknięto przycisk dla fiszki nr:", index);
+
+                    const idFiszki = entry.id || index;
+
+                    showStory(index, idFiszki);
+                    lastClickedIndex = index;
+
+                    if (lastClickedButton) {
+                        lastClickedButton.removeClass('green-button');
+                    }
+
+                    $('.story_button').removeClass((index, className) => (className.match(/imgIndex-\d+/g) || []).join(' '));
+                    $('.fiszka').addClass('imgIndexNull').removeClass('imgIndex-0 imgIndex-1 imgIndex-2 imgIndex-3 imgIndex-4 ');
+
+                    $(this).addClass('green-button');
+                    $('.story_button').removeClass('active-button');
+                    $(this).addClass('active-button');
+
+                    $('.story_button').each(function () {
+                        if ($(this).hasClass('orange-button')) {
+                            $(this).removeClass('green-button').addClass('orange-button');
+                        }
+                    });
+
+                    if (approvedIndexes.includes(lastClickedIndex)) {
+                        fiszkaContainer.addClass('imgIndex-' + lastClickedIndex);
+                    }
+
+                    lastClickedButton = $(this);
+                    handleLikeButtonClick();
+                });
+
+                // Domyślnie pierwszy z zaznaczonych ma zielony kolor
+                if (index === randomButtonIndex) {
+                    specificLesson2Ref = entry.img[index];
+                    console.log('Zaktualizowano specificLesson2Ref:', specificLesson2Ref);
+                    storyButton.addClass('green-button');
+                    lastClickedButton = storyButton;
+                    lastApprovedIndex = index;
+                }
+            }
+
+            storyButtonContainer.append(storyButton);
+        });
+
+        fiszkaContainer.append(storyButtonContainer);
+
+        const idFiszki = fiszka.entries[randomButtonIndex].id || randomButtonIndex;
+        showStory(index10, idFiszki);
+        console.log(`Wywołano showStory dla przycisku: ${randomButtonIndex} z id.fiszki: ${idFiszki}`);
 } else if (Array.isArray(fiszka.entries) && fiszka.entries.length > 0) {
+            // Jeśli fiszka.category1 nie jest tablicą
+            newImgIndex = 0; // Przypisanie domyślnego indeksu dla pojedynczego obrazka
+            specificLesson2Ref = fiszka.img; // Przypisanie pojedynczej wartości do specificLesson2Ref
+            initialSpecificLesson2Ref = specificLesson2Ref;
+            console.log('Hej7', specificLesson2Ref);
+
+            // Stwórz pojedynczy przycisk dla pojedynczej wartości category1
+            const displayText = `${fiszka.category1} #${fiszka.category1}`;
+            const storyButton = $('<button>')
+                    .text(displayText)
+                    .addClass('story_button2 green-button') // Od razu przypisz zieloną klasę
+                    .click(function () {
+                        showStory(0); // Przekazujemy 0 jako indeks, ponieważ jest to pojedyncza wartość
+                        lastClickedIndex = 0;
+
+                        // Zapisujemy ostatnio kliknięty przycisk
+                        lastClickedButton = $(this);
+                        handleLikeButtonClick();
+                    });
+
+            fiszkaContainer.append(storyButton);
+            lastClickedButton = storyButton;
+            lastApprovedIndex = 0; // Ustaw ostatnio zatwierdzony indeks na 0
+
+            // WYWOŁANIE POJEDYNCZEJ HISTORII
+            showStory(0);
+            console.log("Pojedyncza wartość dla category1, specificLesson2Ref:", specificLesson2Ref);
         }
 
 
@@ -310,9 +525,24 @@ const intervalId = setInterval(scheduleNotification, 60000);
             console.log("Znam clicked on fiszka nr " + fiszka.id);
             activateFiszka(fiszka.id, true);
         }));
-        // Dodanie kontenera fiszki do body
-        $('.grid-containerb').append(fiszkaContainer);
-        generateSentenceMatrixForSingleSentence(fiszki10, lessonId2, '.grid-containerb');
+// Dodajemy fiszkę do DOM
+$('.grid-containerb').append(fiszkaContainer);
+
+// Ładujemy WSZYSTKIE obrazki
+const imagePromises = fiszka.entries.map((entry, i) =>
+    loadImage(entry.img.src)
+        .then(img => {
+            selectedFiszkiHistory.push({
+                img: entry.img,
+                word: fiszka.sentence[i] || null
+            });
+        })
+        .catch(err => console.error('Błąd wczytania obrazka:', err))
+);
+
+        Promise.all(imagePromises).then(() => {
+            generateOrUpdateMatrix(fiszki10, lessonId2, selectedFiszkiHistoryByLesson[lessonId2], fiszkaContainer);
+        });
         console.log(`Generated fiszka block for ID: [${fiszka.id.join(', ')}]`);
         initAudio(fiszka.id);
         restoreLearnedClasses();
@@ -445,4 +675,155 @@ if (entry2) {
     const $bottomRow = createRow(bottomWords, '#ffecec', topWords.length);
 
     $container.append($topRow, $bottomRow);
+}
+
+
+// Tablica do przechowywania wylosowanych fiszek
+const selectedFiszkiHistory = [];
+console.log('hej222', selectedFiszkiHistory);
+function generateSentenceMatrixForSingleSentence(
+    fiszkiArray,
+    sentenceId,
+    containerSelector,
+    selectedFiszkiHistory
+) {
+    const fiszki = fiszkiArray.filter(f => f.id[1] === sentenceId);
+    if (!fiszki.length || !selectedFiszkiHistory.length) return;
+
+    let topWords = [];
+    let bottomWords = [];
+
+    const $container = $('<div>')
+        .addClass('fiszka-matrix-container')
+        .css({
+            width: '100%',
+            display: 'flex',
+            flexDirection: 'column',
+            alignItems: 'center',
+            gap: '12px'
+        });
+
+    $(containerSelector).append($container);
+
+    // 🔹 Tablica obrazków z historii
+    const imageEntries = selectedFiszkiHistory.map(f => f.img);
+
+    // 🔹 Zbieramy słowa do dwóch wierszy
+    fiszki.forEach(f => {
+        if (Array.isArray(f.sentence1)) topWords.push(...f.sentence1);
+        if (Array.isArray(f.sentence2)) bottomWords.push(...f.sentence2);
+    });
+
+    const GAP = 6;
+    const ORIG_W = 768;
+    const ORIG_H = 512;
+    const containerWidth = $container.width() || $(window).width();
+    const maxWordsCount = Math.max(topWords.length, bottomWords.length);
+    const scale = Math.min(
+        1,
+        (containerWidth - (maxWordsCount - 1) * GAP) / (ORIG_W * maxWordsCount)
+    );
+
+    const cellWidth = ORIG_W * scale;
+    const cellHeight = ORIG_H * scale;
+
+    // 🔹 Funkcja tworząca wiersz
+    function createRow(words, startImageIndex = 0) {
+        const $row = $('<div>').css({ display: 'flex', gap: GAP + 'px' });
+
+        words.forEach((word, i) => {
+            const imgIndex = (startImageIndex + i) % imageEntries.length;
+            const imgObj = imageEntries[imgIndex];
+
+            const $cell = $('<div>').css({
+                width: cellWidth,
+                height: cellHeight,
+                border: '2px solid #000',
+                display: 'flex',
+                flexDirection: 'column',
+                alignItems: 'center',
+                justifyContent: 'center',
+                cursor: 'pointer'
+            });
+
+            if (imgObj?.src) {
+                $('<img>')
+                    .attr('src', imgObj.src)
+                    .css({ maxWidth: '100%', maxHeight: '60%' })
+                    .appendTo($cell);
+            }
+
+            $('<div>').html(word).appendTo($cell);
+
+            // 🔹 Kliknięcie zmienia obrazek w tej komórce
+            let currentIndex = imgIndex;
+            $cell.on('click', () => {
+                currentIndex = (currentIndex + 1) % imageEntries.length;
+                $cell.find('img').attr('src', imageEntries[currentIndex].src);
+            });
+
+            $row.append($cell);
+        });
+
+        return $row;
+    }
+
+    // 🔹 Obliczamy startowy indeks dla dolnego wiersza
+    const topRowLength = topWords.length;
+    const $topRow = createRow(topWords, 0);
+    const $bottomRow = createRow(bottomWords, topRowLength);
+
+    $container.append($topRow, $bottomRow);
+}
+
+const selectedFiszkiHistory = [];
+
+// Funkcja do wczytania obrazka jako Promise
+function loadImage(src) {
+    return new Promise((resolve, reject) => {
+        const img = new Image();
+        img.onload = () => resolve(img);
+        img.onerror = reject;
+        img.src = src;
+    });
+}
+
+function generateOrUpdateMatrix(selectedFiszkiHistory, fiszkaContainer) {
+    if (!selectedFiszkiHistory.length || !fiszkaContainer) return;
+
+    // Tworzymy kontener matrycy tylko raz w fiszce
+    let $matrixContainer = fiszkaContainer.find('.fiszka-matrix-container');
+    if (!$matrixContainer.length) {
+        $matrixContainer = $('<div>').addClass('fiszka-matrix-container').css({
+            display: 'flex',
+            flexDirection: 'row', // obrazki obok fiszki
+            alignItems: 'flex-start',
+            gap: '12px',
+            marginTop: '10px'
+        });
+        fiszkaContainer.append($matrixContainer);
+    }
+
+    $matrixContainer.empty(); // Czyścimy poprzednie mini-obrazki
+
+    const cellSize = 100; // wielkość obrazka mini-matrycy
+    const GAP = 6;
+
+    // Pozostałe 4 obrazki po prawej stronie
+    selectedFiszkiHistory.slice(0, 5).forEach(entry => {
+        const $cell = $('<div>').css({
+            width: cellSize,
+            height: cellSize,
+            border: '2px solid #ccc',
+            borderRadius: '6px',
+            backgroundColor: '#fff',
+            display: 'flex',
+            alignItems: 'center',
+            justifyContent: 'center',
+            cursor: 'pointer'
+        });
+
+        $('<img>').attr('src', entry.img.src).css({ maxWidth: '100%', maxHeight: '100%' }).appendTo($cell);
+        $matrixContainer.append($cell);
+    });
 }

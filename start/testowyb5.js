@@ -12049,132 +12049,104 @@ document.addEventListener('click', function once() {
     warmUpSpanishVoice();
     document.removeEventListener('click', once);
 });
-function generateSentenceMatrixForSingleSentence(fiszkiArray, sentenceId, containerSelector) {
+// Obiekt do przechowywania historii fiszek dla każdej lekcji
+const selectedFiszkiHistoryByLesson = {};
+console.log(`Generating100`, selectedFiszkiHistoryByLesson);
+// ==============================
+// ŁADOWANIE OBRAZKA (Promise)
+// ==============================
+function loadImage(src) {
+    return new Promise((resolve, reject) => {
+        const img = new Image();
+        img.onload = () => resolve(img);
+        img.onerror = reject;
+        img.src = src;
+    });
+}
 
+// ==============================
+// GENEROWANIE / AKTUALIZACJA MATRIXA
+function generateOrUpdateMatrix(fiszkiArray, sentenceId, selectedFiszkiHistory, fiszkaContainer) {
     const fiszki = fiszkiArray.filter(f => f.id[1] === sentenceId);
-    if (!fiszki.length) return;
+    if (!fiszki.length || !selectedFiszkiHistory.length || !fiszkaContainer) return;
 
     let topWords = [];
     let bottomWords = [];
     let images = [];
-    let desc = [];
 
     fiszki.forEach(f => {
         if (Array.isArray(f.sentence1)) topWords.push(...f.sentence1);
         if (Array.isArray(f.sentence2)) bottomWords.push(...f.sentence2);
         if (Array.isArray(f.entries)) images.push(...f.entries);
-        if (f.desc) desc.push(f.desc);
     });
 
-    if (!topWords.length && !bottomWords.length) return;
+    let $matrixContainer = fiszkaContainer.find('.fiszka-matrix-container');
 
-    const ORIG_W = 768;
-    const ORIG_H = 512;
-    const GAP = 6;
+    if (!$matrixContainer.length) {
+        $matrixContainer = $('<div>')
+            .addClass('fiszka-matrix-container')
+            .css({
+                width: '100%',
+                display: 'flex',
+                flexDirection: 'column', // dwa rzędy
+                gap: '12px',
+                marginTop: '12px'
+            });
 
-    const $container = $('<div>').addClass('fiszka-matrix-container').css({
-        width: '100%',
-        margin: '12px 0',
-        display: 'flex',
-        flexDirection: 'column',
-        alignItems: 'center',
-        gap: '12px',
-        boxSizing: 'border-box',
-        overflow: 'hidden'
-    });
-
-    $(containerSelector).append($container);
-
-    let containerWidth = $container.width();
-    if (!containerWidth) {
-        containerWidth = $(containerSelector).width() || $(window).width();
+        fiszkaContainer.after($matrixContainer);
     }
 
-    const maxWordsCount = Math.max(topWords.length, bottomWords.length);
-    const totalGap = (maxWordsCount - 1) * GAP;
-    const scale = Math.min(1, (containerWidth - totalGap) / (ORIG_W * maxWordsCount));
+    $matrixContainer.empty();
 
-    const cellWidth = ORIG_W * scale;
-    const cellHeight = ORIG_H * scale;
-    const fontSize = 24 * scale;
-function createRow(words, bgColor, startImageIndex) {
-    const $row = $('<div>').css({
-        display: 'flex',
-        justifyContent: 'center',
-        gap: GAP + 'px',
-        width: '100%',
-        boxSizing: 'border-box'
-    });
-
-    words.forEach((word, i) => {
-        const entry = images[startImageIndex + i];
-        const entry2 = desc[startImageIndex + i];
-
-        const $cell = $('<div>').css({
-            width: cellWidth + 'px',
-            height: cellHeight + 'px',
-            border: '2px solid #000',
-            borderRadius: '4px',
-            background: bgColor,
-            boxSizing: 'border-box',
+    // Funkcja do tworzenia rzędu
+    function createRow(rowHistory, rowLength) {
+        const $row = $('<div>').css({
             display: 'flex',
-            flexDirection: 'column',
-            alignItems: 'center',
             justifyContent: 'center',
-            overflow: 'hidden',
-            padding: '4px'
+            gap: '12px'
         });
 
-        // ===== OBRAZEK =====
-        if (entry && entry.img && entry.img.src) {
+        // Dobieramy tyle obrazków, ile słów w wierszu
+        for (let i = 0; i < rowLength; i++) {
+            const entry = rowHistory[i % rowHistory.length]; // powtarzamy jeśli za mało obrazków
+            const $cell = $('<div>').css({
+                width: '100px',
+                height: '100px',
+                border: '2px solid #ccc',
+                borderRadius: '6px',
+                backgroundColor: '#fff',
+                display: 'flex',
+                alignItems: 'center',
+                justifyContent: 'center',
+                cursor: 'pointer'
+            });
+
             $('<img>')
                 .attr('src', entry.img.src)
-                .attr('alt', entry.img.alt || '')
                 .css({
                     maxWidth: '100%',
-                    maxHeight: '60%',
+                    maxHeight: '100%',
                     objectFit: 'contain'
                 })
                 .appendTo($cell);
+
+            $row.append($cell);
         }
 
-        // ===== TEKST (word) =====
-        $('<div>')
-            .html(word) // używamy html(), bo czasem masz span w słowie
-            .css({
-                marginTop: '4px',
-                whiteSpace: 'nowrap',
-                overflow: 'hidden',
-                textOverflow: 'ellipsis',
-                textAlign: 'center'
-            })
-            .appendTo($cell);
+        return $row;
+    }
+// Tworzymy dwa rzędy, dopasowując długość do sentence1 i sentence2
+// topRowHistory = obrazki powiązane z sentence1
+const topRowHistory = selectedFiszkiHistory.filter((entry, i) => i < topWords.length);
 
-if (entry2) {
-    $('<div>')
-        .html(entry2) // entry2 to Twój opis
-        .css({
-            marginTop: '4px',
-            fontSize: '12px',
-            textAlign: 'center',
-            color: '#333',
-            overflow: 'hidden',
-            textOverflow: 'ellipsis'
-        })
-        .appendTo($cell);
+// bottomRowHistory = obrazki powiązane z sentence2
+const bottomRowHistory = selectedFiszkiHistory.filter((entry, i) => i >= topWords.length && i < topWords.length + bottomWords.length);
+
+$matrixContainer.append(createRow(topRowHistory, topWords.length));
+$matrixContainer.append(createRow(bottomRowHistory, bottomWords.length));
 }
 
-        $row.append($cell);
-    });
 
-    return $row;
-}
-
-    const $topRow = createRow(topWords, '#e8f3ff', 0);
-    const $bottomRow = createRow(bottomWords, '#ffecec', topWords.length);
-
-    $container.append($topRow, $bottomRow);
-}
 function generateFiszkaBlock(fiszka, lessonId2, category) {
 
     var currentStoryButtonName = ''; // Zmienna lokalna
@@ -12183,7 +12155,11 @@ function generateFiszkaBlock(fiszka, lessonId2, category) {
     // Tworzenie kontenera fiszki
 
     $(document).ready(function () {
-
+    // Upewniamy się, że historia dla tej lekcji istnieje
+    if (!selectedFiszkiHistoryByLesson[lessonId2]) {
+        selectedFiszkiHistoryByLesson[lessonId2] = [];
+    }
+    const selectedFiszkiHistory = selectedFiszkiHistoryByLesson[lessonId2];
         function initAudio(fiszkaId) {
             var audioId = 'music' + fiszkaId;
             var pButtonId = 'pButton' + fiszkaId;
@@ -12652,7 +12628,8 @@ const imgContainer = $('<div>').addClass('fiszka_img_container');
         const hashtagContainer = $('<a>').addClass('hashtag-container').attr('href', '#');
         fiszkaContainer.append(hashtagContainer);
 
-// Funkcja showStory z obsługą id.fiszki
+
+// Funkcja showStory z zapisem wylosowanej fiszki
 function showStory(idFiszki) {
     console.log('Wywołano showStory:', idFiszki);
 
@@ -12662,9 +12639,7 @@ function showStory(idFiszki) {
     // Ukrywamy wszystkie historie i obrazy w tej konkretnej fiszce
     currentFiszka.find('.fiszka_img').hide();
 
-    // Pobieramy odpowiednią fiszkę z tablicy fiszki na podstawie idFiszki
     const currentEntry = fiszka.entries[idFiszki];
-    
     if (!currentEntry) {
         console.error("Nie znaleziono fiszki dla id:", idFiszki);
         return;
@@ -12672,52 +12647,54 @@ function showStory(idFiszki) {
 
     console.log("Wybrana fiszka:", currentEntry);
 
-    let imgIndex = 0; // Domyślny indeks, jeśli coś pójdzie nie tak
+    let imgIndex = 0;
 
     if (Array.isArray(fiszka.entries) && fiszka.entries.length > 0) {
-        // Wybór losowego indeksu dla obrazka
         imgIndex = Math.floor(Math.random() * fiszka.entries.length);
         console.log("Wylosowany indeks obrazka:", imgIndex);
     }
 
-    // Pobieramy wylosowany obrazek
     const selectedImg = currentEntry.img;
-    
     if (selectedImg) {
-        // Ustawiamy obrazek, który ma być widoczny
         currentFiszka.find('.fiszka_img').each(function() {
             if ($(this).attr('src') === selectedImg.src) {
-                $(this).show(); // Pokazujemy wybrany obrazek
+                $(this).show();
             }
         });
-        
-        // Ustawienie specificLesson2Ref z pełnymi danymi
+
         specificLesson2Ref = {
             src: selectedImg.src,
             alt: selectedImg.alt
         };
 
         console.log("Losowy obrazek:", specificLesson2Ref);
+
+        // --- PUSH do historii wylosowanych fiszek ---
+        selectedFiszkiHistory.push({
+            idFiszki: idFiszki,
+            img: selectedImg,
+            story: currentEntry.story ? currentEntry.story.text : null,
+            timestamp: new Date().toISOString()
+        });
+        console.log("Zapisana w historii fiszka:", selectedFiszkiHistory[selectedFiszkiHistory.length - 1]);
     } else {
         console.warn("Brak obrazka w fiszce:", currentEntry);
     }
 
-    // Obsługa `story`, jeśli istnieje
     if (currentEntry.story) {
         const storyText = currentEntry.story.text;
-        const storyElement = $('<div>').addClass('fiszka_story story-' + imgIndex).html(storyText);
+        const storyElement = $('<div>')
+            .addClass('fiszka_story story-' + imgIndex)
+            .html(storyText);
 
-        // Usunięcie starych historii i dodanie nowej
         currentFiszka.find('.fiszka_story').remove();
         currentFiszka.append(storyElement);
         storyElement.show();
     }
 
     lastClickedIndex = idFiszki;
-
     return imgIndex;
 }
-
         function selectLikeButton(index) {
             console.log("Wybór likeButton dla indeksu:", index);
             const storyButton = $('.story_button').eq(index);
@@ -13413,9 +13390,24 @@ const intervalId = setInterval(scheduleNotification, 60000);
             const fiszkaButtonNameContainer = $('<div>').addClass('fiszka_button_name').text(buttonName);
             fiszkaContainer.append(fiszkaButtonNameContainer);
         }
-        // Dodanie kontenera fiszki do body
-        $('.grid-containerb').append(fiszkaContainer);
-generateSentenceMatrixForSingleSentence(fiszki10, lessonId2, '.grid-containerb');
+// Dodajemy fiszkę do DOM
+$('.grid-containerb').append(fiszkaContainer);
+
+// Ładujemy WSZYSTKIE obrazki
+const imagePromises = fiszka.entries.map((entry, i) =>
+    loadImage(entry.img.src)
+        .then(img => {
+            selectedFiszkiHistory.push({
+                img: entry.img,
+                word: fiszka.sentence[i] || null
+            });
+        })
+        .catch(err => console.error('Błąd wczytania obrazka:', err))
+);
+
+        Promise.all(imagePromises).then(() => {
+            generateOrUpdateMatrix(fiszki10, lessonId2, selectedFiszkiHistoryByLesson[lessonId2], fiszkaContainer);
+        });
         console.log(`Generated fiszka block for ID: [${fiszka.id.join(', ')}]`);
         initAudio(fiszka.id);
         restoreLearnedClasses();
