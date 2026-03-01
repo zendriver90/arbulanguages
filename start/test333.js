@@ -1,5 +1,98 @@
-// Tablica do przechowywania wylosowanych fiszek
-const selectedFiszkiHistory = [];
+const selectedFiszkiHistoryByLesson = {};
+console.log(`Generating100`, selectedFiszkiHistoryByLesson);
+// ==============================
+// ŁADOWANIE OBRAZKA (Promise)
+// ==============================
+function loadImage(src) {
+    return new Promise((resolve, reject) => {
+        const img = new Image();
+        img.onload = () => resolve(img);
+        img.onerror = reject;
+        img.src = src;
+    });
+}
+
+// ==============================
+// GENEROWANIE / AKTUALIZACJA MATRIXA
+function generateOrUpdateMatrix(fiszkiArray, sentenceId, selectedFiszkiHistory, fiszkaContainer) {
+    const fiszki = fiszkiArray.filter(f => f.id[1] === sentenceId);
+    if (!fiszki.length || !selectedFiszkiHistory.length || !fiszkaContainer) return;
+
+    let topWords = [];
+    let bottomWords = [];
+    let images = [];
+
+    fiszki.forEach(f => {
+        if (Array.isArray(f.sentence1)) topWords.push(...f.sentence1);
+        if (Array.isArray(f.sentence2)) bottomWords.push(...f.sentence2);
+        if (Array.isArray(f.entries)) images.push(...f.entries);
+    });
+
+    let $matrixContainer = fiszkaContainer.find('.fiszka-matrix-container');
+
+    if (!$matrixContainer.length) {
+        $matrixContainer = $('<div>')
+            .addClass('fiszka-matrix-container')
+            .css({
+                width: '100%',
+                display: 'flex',
+                flexDirection: 'column', // dwa rzędy
+                gap: '12px',
+                marginTop: '12px'
+            });
+
+        fiszkaContainer.after($matrixContainer);
+    }
+
+    $matrixContainer.empty();
+
+    // Funkcja do tworzenia rzędu
+    function createRow(rowHistory, rowLength) {
+        const $row = $('<div>').css({
+            display: 'flex',
+            justifyContent: 'center',
+            gap: '12px'
+        });
+
+        // Dobieramy tyle obrazków, ile słów w wierszu
+        for (let i = 0; i < rowLength; i++) {
+            const entry = rowHistory[i % rowHistory.length]; // powtarzamy jeśli za mało obrazków
+            const $cell = $('<div>').css({
+                width: '100px',
+                height: '100px',
+                border: '2px solid #ccc',
+                borderRadius: '6px',
+                backgroundColor: '#fff',
+                display: 'flex',
+                alignItems: 'center',
+                justifyContent: 'center',
+                cursor: 'pointer'
+            });
+
+            $('<img>')
+                .attr('src', entry.img.src)
+                .css({
+                    maxWidth: '100%',
+                    maxHeight: '100%',
+                    objectFit: 'contain'
+                })
+                .appendTo($cell);
+
+            $row.append($cell);
+        }
+
+        return $row;
+    }
+// Tworzymy dwa rzędy, dopasowując długość do sentence1 i sentence2
+// topRowHistory = obrazki powiązane z sentence1
+const topRowHistory = selectedFiszkiHistory.filter((entry, i) => i < topWords.length);
+
+// bottomRowHistory = obrazki powiązane z sentence2
+const bottomRowHistory = selectedFiszkiHistory.filter((entry, i) => i >= topWords.length && i < topWords.length + bottomWords.length);
+
+$matrixContainer.append(createRow(topRowHistory, topWords.length));
+$matrixContainer.append(createRow(bottomRowHistory, bottomWords.length));
+}
 function generateFiszkaBlock(fiszka, lessonId2, category) {
 
     var currentStoryButtonName = ''; // Zmienna lokalna
@@ -385,6 +478,15 @@ if (Array.isArray(fiszka.entries) && fiszka.entries.length > 0) {
 
         const randomButtonIndex = selectedIndexes[0] || 0;
         index10.push(randomButtonIndex);
+    // jeśli to pierwsze wywołanie, zapisujemy id fiszki
+    if (firstFiszkaId === null) {
+        firstFiszkaId = fiszka.id[0];
+        console.log("Pierwsze wywołanie, ID fiszki:", firstFiszkaId);
+    }
+
+    const startIndex2 = fiszka.id[0];
+    console.log('startIndex for lesson5', startIndex2);
+console.log('startIndex for lesson', startIndex);
 
         fiszka.entries.forEach((entry, index) => {
             const displayText = entry.category.join(", ");
@@ -395,14 +497,37 @@ if (Array.isArray(fiszka.entries) && fiszka.entries.length > 0) {
                 .addClass('story_button');
 
             if (isIncluded) {
-                storyButton.click(function () { /// jeśli zmienię obrazek kliknięciem!!!!
-                    console.log("Kliknięto przycisk dla fiszki nr:", index);
+                storyButton.click(function () {
+                    console.log('hej444y', entry, index);
 
+            // ✅ Ustawiamy idFiszki dynamicznie
                     const idFiszki = entry.id || index;
 
                     showStory(index, idFiszki);
                     lastClickedIndex = index;
 
+            // Obliczamy indeks relatywny od pierwszej fiszki w lekcji
+            const relativeIndex = startIndex2 - firstFiszkaId;
+console.log('hej444yx', relativeIndex);
+            // Aktualizujemy historię dla tej lekcji
+            if (!selectedFiszkiHistoryByLesson[lessonId2]) {
+                selectedFiszkiHistoryByLesson[lessonId2] = [];
+            }
+
+            selectedFiszkiHistoryByLesson[lessonId2][relativeIndex] = {
+                idFiszki: idFiszki,
+                img: entry.img,
+                word: fiszka.sentence?.[index] || null
+            };
+
+
+    // 🔥 USUŃ WSZYSTKIE ISTNIEJĄCE MATRYCE Z DOM
+    $('.fiszka-matrix-container').remove();
+console.log('hej444yxz', selectedFiszkiHistoryByLesson);
+            // Wywołanie funkcji showStory z aktualnym idFiszki
+
+            // Aktualizacja matrycy
+            generateOrUpdateMatrix(fiszki10, lessonId2, selectedFiszkiHistoryByLesson[lessonId2], fiszkaContainer);
                     if (lastClickedButton) {
                         lastClickedButton.removeClass('green-button');
                     }

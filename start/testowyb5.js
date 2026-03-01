@@ -819,7 +819,7 @@ id: [
                 {
             id: 3,
             img: {
-                src: "https://www.arbulang.com/img/fiszkiespanol/31b.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszkiespanol/31b.jpg",
                 alt: ""
             },
             story: {
@@ -1133,7 +1133,7 @@ id: [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszkiespanol/24a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszkiespanol/24a.jpg",
                 alt: ""
             },
             story: {
@@ -1480,7 +1480,7 @@ id: [
                 {
             id: 3,
             img: {
-                src: "https://www.arbulang.com/img/fiszkiespanol/31b.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszkiespanol/31b.jpg",
                 alt: ""
             },
             story: {
@@ -1836,7 +1836,7 @@ id: [
                 {
             id: 3,
             img: {
-                src: "https://www.arbulang.com/img/fiszkiespanol/31b.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszkiespanol/31b.jpg",
                 alt: ""
             },
             story: {
@@ -2826,7 +2826,7 @@ id: [
                 {
             id: 3,
             img: {
-                src: "https://www.arbulang.com/img/fiszkiespanol/31b.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszkiespanol/31b.jpg",
                 alt: ""
             },
             story: {
@@ -3603,7 +3603,7 @@ id: [
                 {
             id: 3,
             img: {
-                src: "https://www.arbulang.com/img/fiszkiespanol/31b.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszkiespanol/31b.jpg",
                 alt: ""
             },
             story: {
@@ -5697,7 +5697,7 @@ id: [
                 {
             id: 3,
             img: {
-                src: "https://www.arbulang.com/img/fiszkiespanol/31b.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszkiespanol/31b.jpg",
                 alt: ""
             },
             story: {
@@ -12049,6 +12049,26 @@ document.addEventListener('click', function once() {
     warmUpSpanishVoice();
     document.removeEventListener('click', once);
 });
+function countMultiVersionFiszkiForLesson(fiszkiArray, lessonId2) {
+    let count = 0;
+
+    fiszkiArray.forEach(fiszka => {
+        // Sprawdzenie, czy fiszka należy do tej lekcji
+        if (!Array.isArray(fiszka.id) || fiszka.id[1] !== lessonId2) {
+            return; // pomijamy fiszki z innych lekcji
+        }
+
+        // Sprawdzenie entries
+        if (Array.isArray(fiszka.entries) && fiszka.entries.length > 1) {
+            count++;
+            console.log(`✅ Fiszka ID ${fiszka.id[0]} ma wiele wersji (${fiszka.entries.length})`);
+        }
+    });
+
+    return count;
+}
+
+
 // Obiekt do przechowywania historii fiszek dla każdej lekcji
 const selectedFiszkiHistoryByLesson = {};
 console.log(`Generating100`, selectedFiszkiHistoryByLesson);
@@ -12064,90 +12084,116 @@ function loadImage(src) {
     });
 }
 
-// ==============================
-// GENEROWANIE / AKTUALIZACJA MATRIXA
+const matrixCountBySentence = {};
+
 function generateOrUpdateMatrix(fiszkiArray, sentenceId, selectedFiszkiHistory, fiszkaContainer) {
     const fiszki = fiszkiArray.filter(f => f.id[1] === sentenceId);
     if (!fiszki.length || !selectedFiszkiHistory.length || !fiszkaContainer) return;
 
     let topWords = [];
     let bottomWords = [];
-    let images = [];
-
     fiszki.forEach(f => {
         if (Array.isArray(f.sentence1)) topWords.push(...f.sentence1);
         if (Array.isArray(f.sentence2)) bottomWords.push(...f.sentence2);
-        if (Array.isArray(f.entries)) images.push(...f.entries);
     });
 
-    let $matrixContainer = fiszkaContainer.find('.fiszka-matrix-container');
-
+    let $matrixContainer = fiszkaContainer.next('.fiszka-matrix-container');
     if (!$matrixContainer.length) {
         $matrixContainer = $('<div>')
             .addClass('fiszka-matrix-container')
             .css({
                 width: '100%',
                 display: 'flex',
-                flexDirection: 'column', // dwa rzędy
+                flexDirection: 'column',
+                alignItems: 'center',
                 gap: '12px',
                 marginTop: '12px'
             });
-
         fiszkaContainer.after($matrixContainer);
     }
 
     $matrixContainer.empty();
 
-    // Funkcja do tworzenia rzędu
-    function createRow(rowHistory, rowLength) {
-        const $row = $('<div>').css({
-            display: 'flex',
-            justifyContent: 'center',
-            gap: '12px'
-        });
+    const GAP = 12;
+    const ORIG_W = 768;
+    const ORIG_H = 512;
+    const containerWidth = $matrixContainer.width() || 800;
 
-        // Dobieramy tyle obrazków, ile słów w wierszu
-        for (let i = 0; i < rowLength; i++) {
-            const entry = rowHistory[i % rowHistory.length]; // powtarzamy jeśli za mało obrazków
+    const maxWords = Math.max(topWords.length, bottomWords.length);
+    const scale = Math.min(1, (containerWidth - (maxWords - 1) * GAP) / (ORIG_W * maxWords));
+    const cellWidth = ORIG_W * scale;
+    const cellHeight = ORIG_H * scale;
+
+    // licznik matryc dla tego zdania
+    if (!matrixCountBySentence[sentenceId]) matrixCountBySentence[sentenceId] = 0;
+    const matrixIndex = matrixCountBySentence[sentenceId]++;
+    const highlightedImgIndex = matrixIndex % selectedFiszkiHistory.length;
+
+    function createRow(words, startIndex) {
+        const $row = $('<div>').css({ display: 'flex', justifyContent: 'center', gap: GAP + 'px' });
+
+        words.forEach((word, i) => {
+            const imgIndex = (startIndex + i) % selectedFiszkiHistory.length;
+            const imgObj = selectedFiszkiHistory[imgIndex];
+
             const $cell = $('<div>').css({
-                width: '100px',
-                height: '100px',
-                border: '2px solid #ccc',
-                borderRadius: '6px',
-                backgroundColor: '#fff',
+                width: cellWidth + 'px',
+                height: cellHeight + 'px',
+                border: '2px solid #000',
                 display: 'flex',
+                flexDirection: 'column',
                 alignItems: 'center',
-                justifyContent: 'center',
-                cursor: 'pointer'
+                justifyContent: 'center'
             });
 
-            $('<img>')
-                .attr('src', entry.img.src)
-                .css({
+            if (imgObj?.img?.src) {
+                $('<img>').attr('src', imgObj.img.src).css({
                     maxWidth: '100%',
-                    maxHeight: '100%',
+                    maxHeight: '60%',
                     objectFit: 'contain'
-                })
-                .appendTo($cell);
+                }).appendTo($cell);
+            }
+
+            $('<div>').html(word).appendTo($cell);
+
+            // podświetlamy komórkę, która odpowiada highlightedImgIndex
+            if (imgIndex === highlightedImgIndex) {
+                $cell.css({ border: '4px solid red' });
+            }
 
             $row.append($cell);
-        }
+        });
 
         return $row;
     }
-// Tworzymy dwa rzędy, dopasowując długość do sentence1 i sentence2
-// topRowHistory = obrazki powiązane z sentence1
-const topRowHistory = selectedFiszkiHistory.filter((entry, i) => i < topWords.length);
 
-// bottomRowHistory = obrazki powiązane z sentence2
-const bottomRowHistory = selectedFiszkiHistory.filter((entry, i) => i >= topWords.length && i < topWords.length + bottomWords.length);
+    const $topRow = createRow(topWords, 0);
+    const $bottomRow = createRow(bottomWords, topWords.length);
 
-$matrixContainer.append(createRow(topRowHistory, topWords.length));
-$matrixContainer.append(createRow(bottomRowHistory, bottomWords.length));
+    $matrixContainer.append($topRow, $bottomRow);
 }
-
+let firstFiszkaId = null; // zmienna globalna lub w wyższym scope
 
 function generateFiszkaBlock(fiszka, lessonId2, category) {
+    
+    const multiCount = countMultiVersionFiszkiForLesson(fiszki10, lessonId2);
+
+    if (multiCount > 0) {
+        $('#multiVersionText').text(
+            `Jest ${multiCount} fiszki z wieloma wersjami. Jak chcesz pracować?`
+        );
+        $('#multiVersionOverlay').fadeIn();
+    }
+    $('#modeRandom').on('click', function () {
+        MATRIX_MODE = 'RANDOM';
+        $('#multiVersionOverlay').fadeOut();
+    });
+
+    $('#modeApprove').on('click', function () {
+        MATRIX_MODE = 'APPROVE';
+        $('#multiVersionOverlay').fadeOut();
+    });
+    // dalsza logika tworzenia bloku fiszki...
 
     var currentStoryButtonName = ''; // Zmienna lokalna
     console.log(`Generating fiszka block for ID100`, category);
@@ -12159,6 +12205,7 @@ function generateFiszkaBlock(fiszka, lessonId2, category) {
     if (!selectedFiszkiHistoryByLesson[lessonId2]) {
         selectedFiszkiHistoryByLesson[lessonId2] = [];
     }
+    
     const selectedFiszkiHistory = selectedFiszkiHistoryByLesson[lessonId2];
         function initAudio(fiszkaId) {
             var audioId = 'music' + fiszkaId;
@@ -12676,7 +12723,7 @@ function showStory(idFiszki) {
             story: currentEntry.story ? currentEntry.story.text : null,
             timestamp: new Date().toISOString()
         });
-        console.log("Zapisana w historii fiszka:", selectedFiszkiHistory[selectedFiszkiHistory.length - 1]);
+        console.log("hej333", selectedFiszkiHistory[selectedFiszkiHistory.length - 1]);
     } else {
         console.warn("Brak obrazka w fiszce:", currentEntry);
     }
@@ -12901,9 +12948,10 @@ if (Array.isArray(fiszka.entries) && fiszka.entries.length > 0) {
     let approvedColors = [];
 
     let index10 = [];
-
+    const startIndex = fiszka.id[0];
+    console.log("hej1000", fiszka.id[0]); 
     if (Array.isArray(fiszka.entries) && fiszka.entries.length > 0) {
-        console.log("Znaleziono fiszki, liczba wpisów:", fiszka.entries.length);
+
 
         const storyButtonContainer = $('<div>');
         let lastClickedButton;
@@ -12960,6 +13008,15 @@ if (Array.isArray(fiszka.entries) && fiszka.entries.length > 0) {
 
         const randomButtonIndex = selectedIndexes[0] || 0;
         index10.push(randomButtonIndex);
+    // jeśli to pierwsze wywołanie, zapisujemy id fiszki
+    if (firstFiszkaId === null) {
+        firstFiszkaId = fiszka.id[0];
+        console.log("Pierwsze wywołanie, ID fiszki:", firstFiszkaId);
+    }
+
+    const startIndex2 = fiszka.id[0];
+    console.log('startIndex for lesson5', startIndex2);
+console.log('startIndex for lesson', startIndex);
 
         fiszka.entries.forEach((entry, index) => {
             const displayText = entry.category.join(", ");
@@ -12971,13 +13028,47 @@ if (Array.isArray(fiszka.entries) && fiszka.entries.length > 0) {
 
             if (isIncluded) {
                 storyButton.click(function () {
-                    console.log("Kliknięto przycisk dla fiszki nr:", index);
+                    console.log('hej444y', entry, index);
 
+            // ✅ Ustawiamy idFiszki dynamicznie
                     const idFiszki = entry.id || index;
 
                     showStory(index, idFiszki);
                     lastClickedIndex = index;
 
+            // Obliczamy indeks relatywny od pierwszej fiszki w lekcji
+            const relativeIndex = startIndex2 - firstFiszkaId;
+console.log('hej444yx', relativeIndex);
+            // Aktualizujemy historię dla tej lekcji
+            if (!selectedFiszkiHistoryByLesson[lessonId2]) {
+                selectedFiszkiHistoryByLesson[lessonId2] = [];
+            }
+
+            selectedFiszkiHistoryByLesson[lessonId2][relativeIndex] = {
+                idFiszki: idFiszki,
+                img: entry.img,
+                word: fiszka.sentence?.[index] || null
+            };
+
+            // Wywołanie funkcji showStory z aktualnym idFiszki
+$('.fiszka-matrix-container').each(function () {
+    $(this).remove();
+});
+            // Aktualizacja matrycy
+// 🔄 PRZERYSUJ MATRYCE DLA WSZYSTKICH FISZEK
+$('.grid-containerb .fiszka').each(function () {
+    const $container = $(this);
+
+
+
+    // wygeneruj nową matrycę dla tej fiszki
+    generateOrUpdateMatrix(
+        fiszki10,
+        lessonId2,
+        selectedFiszkiHistoryByLesson[lessonId2],
+        $container
+    );
+});
                     if (lastClickedButton) {
                         lastClickedButton.removeClass('green-button');
                     }
@@ -13050,8 +13141,6 @@ if (Array.isArray(fiszka.entries) && fiszka.entries.length > 0) {
             showStory(0);
             console.log("Pojedyncza wartość dla category1, specificLesson2Ref:", specificLesson2Ref);
         }
-
-
 let selectedFiszka = null; // Przechowuje wybraną fiszkę
 
 $('.fiszka_button_trening').click(function () {

@@ -76,7 +76,9 @@ const fiszki10 = [
         word: [
             "https://www.arbulang.com/src/everybody.wav"
         ],
-
+                word2: [ '<span class="adannotation2">Everybody</span> wie, że to prawda', "https://www.arbulang.com/voice/espanol/sentence1/dibujar1.mp3"],
+                word3: [ '<span class="adannotation2">Everybody</span> chce być szczęśliwy', "https://www.arbulang.com/voice/espanol/sentence1/dibujar2.mp3"],
+                word4: [ 'Czasami <span class="adannotation2">everybody</span> popełnia błędy', "https://www.arbulang.com/voice/espanol/sentence1/dibujar3.mp3"],
         // opis
         desc: "everybody[e-wry-bo-dy] - wszyscy",
 
@@ -38653,7 +38655,7 @@ function generateFiszkaBlock(fiszka, lessonId2, category) {
                 pButton.style.height = '60px';  // Zwiększenie wysokości
                 pButton.style.width = '60px';   // Zwiększenie szerokości
             }
-            pButton.style.border = 'none';   // Usunięcie ramki
+            pButton.style.border = '1px solid';   // Usunięcie ramki
             pButton.style.backgroundSize = '80%';  // Rozmiar obrazka tła
             pButton.style.backgroundRepeat = 'no-repeat';
             pButton.style.backgroundPosition = 'center';
@@ -38730,6 +38732,7 @@ const imgContainer = $('<div>').addClass('fiszka_img_container');
 
         });
             fiszkaContainer.append(imgContainer);
+            
         const selectedLikes = [];
         console.log('hej10', selectedLikes);
 
@@ -39008,7 +39011,8 @@ function showStory(idFiszki) {
             display: 'flex',
             alignItems: 'center',
             justifyContent: 'center',
-            overflow: 'hidden'
+            overflow: 'hidden',
+            border: '1px solid'
         });
 
         audioplayerDiv.append(pButton);
@@ -39038,10 +39042,6 @@ if (Array.isArray(fiszka.entries) && fiszka.entries.length > 0) {
         const source2 = $('<source>').attr('src', fiszka.word);
         audio2.append(source2);
         const audioplayerDiv2 = $('<div>').attr('id', 'audioplayer2' + fiszka.id).addClass('audioplayer2'); // Dodano klasę 'audioplayer'
-        const pButton2 = $('<button>').attr('id', 'pButton2' + fiszka.id).addClass('pButton play').click(function () {
-            console.log('playb called for fiszka.id:', fiszka.id);
-            window['playb' + fiszka.id]();
-        });
 
 // Utworzenie elementów za pomocą jQuery
         const timelineDiv = $('<div>').attr('id', 'timeline' + fiszka.id);
@@ -39050,8 +39050,7 @@ if (Array.isArray(fiszka.entries) && fiszka.entries.length > 0) {
 // Dodanie playhead do timeline
         timelineDiv.append(playheadDiv);
 
-// Dodanie elementów do odpowiednich kontenerów
-        audioplayerDiv.append(pButton2);
+
         wordDiv2.append(audio2);
         wordDiv2.append(audioplayerDiv2);
         wordDiv2.append(timelineDiv); // Dodano timeline do wordDiv
@@ -39322,6 +39321,229 @@ const intervalId = setInterval(scheduleNotification, 60000);
             console.log("Znam clicked on fiszka nr " + fiszka.id);
             activateFiszka(fiszka.id, true);
         }));
+(async () => {
+  // Load WaveSurfer dynamically if not present
+  async function ensureWaveSurfer() {
+    if (typeof window.WaveSurfer !== 'undefined') return;
+    await new Promise((resolve, reject) => {
+      const s = document.createElement('script');
+      s.src = 'https://unpkg.com/wavesurfer.js@6.6.4/dist/wavesurfer.min.js';
+      s.onload = resolve;
+      s.onerror = () => reject(new Error('Failed to load WaveSurfer.js'));
+      document.head.appendChild(s);
+    });
+  }
+
+  try { await ensureWaveSurfer(); } 
+  catch (e) { console.error('WaveSurfer load failed', e); return; }
+
+  window._wsPlayers = window._wsPlayers || [];
+
+  if (!(fiszka && (fiszka.word2 || fiszka.word3 || fiszka.word4))) return;
+  console.log('Ładuję frazy dla fiszki ID:', fiszka.id);
+
+  const phrasesButton = $('<button>')
+    .addClass('phrases-button')
+    .text('PHRASES')
+    .css({ height: '60px', marginLeft: '10px', padding: '0 12px', cursor: 'pointer' });
+
+  const phrasesContainer = $('<div>')
+    .addClass('phrases-container')
+    .css({
+      display: 'none', marginTop: '10px', padding: '10px',
+      border: '1px solid #ccc', borderRadius: '8px', backgroundColor: '#f9f9f9'
+    });
+
+  function pauseAllExcept(exceptWs) {
+    window._wsPlayers.forEach(ws => {
+      try {
+        if (ws && ws !== exceptWs && typeof ws.isPlaying === 'function' && ws.isPlaying()) ws.pause();
+      } catch (e) {}
+    });
+  }
+
+  function toSeconds(val) {
+    if (val == null) return 0;
+    if (typeof val === 'number') return val > 10 ? val / 1000 : val;
+    const n = parseFloat(val);
+    if (isNaN(n)) return 0;
+    return n > 10 ? n / 1000 : n;
+  }
+
+  // ----------------- NOWA FUNKCJA: Wczytywanie timestampów -----------------
+  async function loadTimestamps(audioFileName) {
+    const jsonFile = audioFileName.replace(/\.mp3$/i, '.json');
+    try {
+      const res = await fetch(jsonFile);
+      if (!res.ok) throw new Error('Nie można wczytać JSON: ' + jsonFile);
+      const data = await res.json();
+      return data.map(w => ({
+        text: w.word,
+        start: parseFloat(w.start),
+        end: parseFloat(w.end)
+      }));
+    } catch (e) {
+      console.warn(e);
+      return null;
+    }
+  }
+
+  // ----------------- FUNKCJA TWORZENIA FRAZY -----------------
+  function createPhraseDOM(wordArray, index, fiszkaId) {
+    if (!wordArray || wordArray.length < 2) return null;
+
+    const phraseText = wordArray[0];
+    const audioUrl = wordArray[1];
+    const waveId = `wave-${fiszkaId}-${index}`.replace(/,/g, '-');
+    const btnId = `phrase-btn-${fiszkaId}-${index}`.replace(/,/g, '-');
+
+    const phraseRow = $('<div>').css({
+      display: 'flex', alignItems: 'center', gap: '10px', marginBottom: '6px', width: '100%'
+    });
+
+    const playBtn = $('<button>')
+      .attr('id', btnId)
+      .addClass('pButton play')
+      .html('⏳')
+      .prop('disabled', true)
+      .css({ width: '40px', height: '40px', fontSize: '18px', cursor: 'pointer', flexShrink: 0 });
+
+    const labelWrap = $('<div>').css({ flex: '1', minWidth: '0', lineHeight: '1.3' }).html(phraseText);
+    const wavePlaceholder = $('<div>').attr('id', waveId).css({ width: '220px', height: '40px', flexShrink: 0 });
+
+    phraseRow.append(playBtn, labelWrap, wavePlaceholder);
+    phrasesContainer.append(phraseRow);
+
+    return {
+      audioUrl,
+      waveId,
+      playBtn,
+      labelWrap,
+      phraseText,
+      timestamps: null,
+      ws: null,
+      initialized: false,
+      blobUrl: null
+    };
+  }
+
+  // ----------------- INICJALIZACJA WAVESURFER DLA FRAZY -----------------
+  async function initWaveForEntry(entry) {
+    if (entry.initialized) return;
+    entry.initialized = true;
+
+    const { audioUrl, waveId, playBtn, labelWrap } = entry;
+
+    // ----------------- Wczytaj timestampy z JSON -----------------
+    if (!entry.timestamps || !entry.timestamps.length) {
+      const ts = await loadTimestamps(audioUrl);
+      if (ts && ts.length) entry.timestamps = ts;
+    }
+
+    // Render spany
+    labelWrap.empty();
+    if (entry.timestamps && entry.timestamps.length) {
+      entry.timestamps.forEach(t => {
+        const text = (t.text || '').toString().trim();
+        const start = toSeconds(t.start || t.s || t.t0 || 0);
+        const end = toSeconds(t.end || t.e || 0);
+        const span = $('<span>').addClass('ws-word').text(text + ' ').css({ cursor: 'pointer' }).data({ start, end, wordText: text });
+        labelWrap.append(span);
+      });
+    } else {
+      const words = (entry.phraseText || '').replace(/<[^>]*>/g,'').split(/\s+/).filter(Boolean);
+      words.forEach((w,i) => labelWrap.append($('<span>').addClass('ws-word').text(w + (i<words.length-1?' ':'')).css({ cursor:'default' }).data({ start:0, end:0 })));
+    }
+
+    // ----------------- Utwórz WaveSurfer -----------------
+    const ws = WaveSurfer.create({
+      container: `#${waveId}`,
+      waveColor: '#ddd',
+      progressColor: '#4caf50',
+      height: 36,
+      normalize: true,
+      interact: false,
+      backend: 'WebAudio'
+    });
+    entry.ws = ws;
+    window._wsPlayers.push(ws);
+    ws.load(audioUrl);
+
+    ws.on('ready', () => {
+      // Build segment mapping
+      const spans = labelWrap.find('span.ws-word');
+      spans.each((i, el) => {
+        if (entry.timestamps && entry.timestamps[i]) {
+          $(el).data({ start: entry.timestamps[i].start, end: entry.timestamps[i].end });
+        }
+      });
+
+      function startHighlightLoop() {
+        if (entry._rafId) return;
+        let lastHighlighted = -1;
+        function loop() {
+          const cur = ws.getCurrentTime ? ws.getCurrentTime() : 0;
+          let activeIndex = -1;
+          spans.each((i, el) => {
+            const s = $(el).data();
+            if (cur >= s.start && cur <= s.end) activeIndex = i;
+          });
+          if (activeIndex !== lastHighlighted) {
+            if (lastHighlighted !== -1) spans.eq(lastHighlighted).removeClass('highlight');
+            if (activeIndex !== -1) spans.eq(activeIndex).addClass('highlight');
+            lastHighlighted = activeIndex;
+          }
+          entry._rafId = requestAnimationFrame(loop);
+        }
+        entry._rafId = requestAnimationFrame(loop);
+      }
+
+      function stopHighlightLoop() {
+        if(entry._rafId){cancelAnimationFrame(entry._rafId);entry._rafId=null;}
+        labelWrap.find('span.ws-word').removeClass('highlight');
+      }
+
+      playBtn.prop('disabled', false).html('▶');
+      playBtn.off('click').on('click', () => {
+        pauseAllExcept(ws);
+        if(ws.isPlaying && ws.isPlaying()){ws.pause(); playBtn.html('▶'); stopHighlightLoop();}
+        else {ws.play(); playBtn.html('⏸'); startHighlightLoop();}
+      });
+
+      ws.on('finish', ()=>{stopHighlightLoop(); playBtn.html('▶');});
+
+      labelWrap.off('click').on('click','span.ws-word', function(){
+        const span=$(this); const start=toSeconds(span.data('start')||0); if(!start) return;
+        const duration = ws.getDuration()||1; ws.seekTo(Math.min(Math.max(start/duration,0),1));
+        pauseAllExcept(ws); ws.play(); startHighlightLoop(); playBtn.html('⏸');
+      });
+    });
+  }
+
+  // ----------------- Stwórz frazy -----------------
+  const entries = [];
+  [2,3,4].forEach(n => {
+    const e = createPhraseDOM(fiszka['word'+n], n, fiszka.id);
+    if (e) entries.push(e);
+  });
+
+  let wavesInitialized=false;
+  phrasesButton.on('click', async function(){
+    $(this).toggleClass('active');
+    if(!phrasesContainer.is(':visible')) {
+      phrasesContainer.stop(true,true).slideDown(200, async ()=> {
+        if(!wavesInitialized){
+          for(const entry of entries) await initWaveForEntry(entry);
+          wavesInitialized=true;
+        }
+      });
+    } else phrasesContainer.stop(true,true).slideUp(200);
+  });
+
+  audioplayerDiv.append(phrasesButton);
+  fiszkaContainer.append(phrasesContainer);
+  console.log('Kontener fraz dodany do fiszki:', fiszka.id);
+})();
 
         // WYWOŁANIE HASHTAGU
         function updateButtonName(buttonName, fiszkaContainer) {
@@ -39356,13 +39578,13 @@ function generateFiszkaBlock2(fiszka, lessonId2) {
             var pButton = document.getElementById(pButtonId);
             // Dodajemy style bezpośrednio w kodzie JavaScript
             if (window.matchMedia("(max-width: 999px)").matches) {
-                pButton.style.height = '100px';  // Zwiększenie wysokości
-                pButton.style.width = '100px';   // Zwiększenie szerokości
+                pButton.style.height = '60px';  // Zwiększenie wysokości
+                pButton.style.width = '60px';   // Zwiększenie szerokości
             } else {
                 pButton.style.height = '60px';  // Zwiększenie wysokości
                 pButton.style.width = '60px';   // Zwiększenie szerokości
             }
-            pButton.style.border = 'none';   // Usunięcie ramki
+            pButton.style.border = '1px solid';   // Usunięcie ramki
             pButton.style.backgroundSize = '80%';  // Rozmiar obrazka tła
             pButton.style.backgroundRepeat = 'no-repeat';
             pButton.style.backgroundPosition = 'center';
@@ -39709,6 +39931,7 @@ function generateFiszkaBlock2(fiszka, lessonId2) {
         pButton.css({
             height: '60px',
             width: '60px',
+                        border: '1px solid',
             backgroundSize: 'cover',
             backgroundRepeat: 'no-repeat',
             backgroundPosition: 'center',
@@ -40009,8 +40232,8 @@ $('.grid-container .image-container4').remove();
             var pButton = document.getElementById(pButtonId);
             // Dodajemy style bezpośrednio w kodzie JavaScript
             if (window.matchMedia("(max-width: 999px)").matches) {
-                pButton.style.height = '100px';  // Zwiększenie wysokości
-                pButton.style.width = '100px';   // Zwiększenie szerokości
+                pButton.style.height = '150px';  // Zwiększenie wysokości
+                pButton.style.width = '150px';   // Zwiększenie szerokości
             } else {
                 pButton.style.height = '60px';  // Zwiększenie wysokości
                 pButton.style.width = '60px';   // Zwiększenie szerokości
@@ -40373,10 +40596,7 @@ console.log('Hej4442', fiszkaContainer);
         const source2 = $('<source>').attr('src', fiszka.word);
         audio2.append(source2);
         const audioplayerDiv2 = $('<div>').attr('id', 'audioplayer2' + fiszka.id).addClass('audioplayer2'); // Dodano klasę 'audioplayer'
-        const pButton2 = $('<button>').attr('id', 'pButton2' + fiszka.id).addClass('pButton play').click(function () {
-            console.log('playb called for fiszka.id:', fiszka.id);
-            window['playb' + fiszka.id]();
-        });
+
 
 // Utworzenie elementów za pomocą jQuery
         const timelineDiv = $('<div>').attr('id', 'timeline' + fiszka.id);
@@ -40385,8 +40605,6 @@ console.log('Hej4442', fiszkaContainer);
 // Dodanie playhead do timeline
         timelineDiv.append(playheadDiv);
 
-// Dodanie elementów do odpowiednich kontenerów
-        audioplayerDiv.append(pButton2);
         wordDiv2.append(audio2);
         wordDiv2.append(audioplayerDiv2);
         wordDiv2.append(timelineDiv); // Dodano timeline do wordDiv

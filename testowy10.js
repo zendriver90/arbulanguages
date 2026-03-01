@@ -1208,8 +1208,9 @@ id: [
 ],
         // obrazek
         img: [
-            "https://www.arbulang.com/img/fiszkiespanol/17a.jpg",
-                "https://www.arbulang.com/img/fiszkiespanol/31a.jpg"
+            "http://localhost/arbulanguage.com/img/fiszkiespanol/17a.jpg",
+                "http://localhost/arbulanguage.com/img/fiszkiespanol/31a.jpg",
+                "http://localhost/arbulanguage.com/img/fiszkiespanol/31b.jpg"
         ],
         word: [
                 "https://www.arbulang.com/voice/music.mp4"
@@ -1217,7 +1218,8 @@ id: [
         // historia
         story: [
                 "<u><b>Z</u></b> <u><b>kon</u></b>opiami jest niezły ubaw",
-                "<u><b>Z</u></b> takimi <u><b>kon</u></b>taktami jakie mam, lepiej jest mi podołać obowiązkom"
+                "<u><b>Z</u></b> takimi <u><b>kon</u></b>taktami jakie mam, lepiej jest mi podołać obowiązkom",
+                "Z</u></b> <u><b>kon</u></b>sternacją przyjąłem tę decyzję"
         ],
         // opis
         desc: "con[kon] - z/przez",
