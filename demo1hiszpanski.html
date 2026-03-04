@@ -232,32 +232,7 @@ const three = selectedData[2];
 
 // Wywołaj funkcję z dodatkowymi parametrami
 wybierzRodzaj(category, one, two, three);
-let MATRIX_MODE = 'RANDOM';
 
-$(document).ready(function () {
-
-    const multiCount = countMultiVersionFiszki(fiszki10);
-
-    if (multiCount > 0) {
-        $('#multiVersionText').text(
-            `Jest ${multiCount} fiszek z wieloma wersjami. 
-            Jak chcesz pracować?`
-        );
-
-        $('#multiVersionOverlay').fadeIn();
-    }
-
-    $('#modeRandom').on('click', function () {
-        MATRIX_MODE = 'RANDOM';
-        $('#multiVersionOverlay').fadeOut();
-    });
-
-    $('#modeApprove').on('click', function () {
-        MATRIX_MODE = 'APPROVE';
-        $('#multiVersionOverlay').fadeOut();
-    });
-
-});
 function showFiszkiForLesson(lessonIdToShow, fiszki, category) {
     const matchingFiszki = fiszki.filter(fiszka => fiszka.id[1] === lessonIdToShow);
 

@@ -12085,11 +12085,12 @@ function loadImage(src) {
 }
 
 const matrixCountBySentence = {};
-
+console.log(`Generating100+`, matrixCountBySentence);
+const matrixQueueByLesson = {};
 function generateOrUpdateMatrix(fiszkiArray, sentenceId, selectedFiszkiHistory, fiszkaContainer) {
     const fiszki = fiszkiArray.filter(f => f.id[1] === sentenceId);
     if (!fiszki.length || !selectedFiszkiHistory.length || !fiszkaContainer) return;
-
+console.log(`Generating1002`, selectedFiszkiHistory);
     let topWords = [];
     let bottomWords = [];
     fiszki.forEach(f => {
@@ -12127,24 +12128,28 @@ function generateOrUpdateMatrix(fiszkiArray, sentenceId, selectedFiszkiHistory, 
     // licznik matryc dla tego zdania
     if (!matrixCountBySentence[sentenceId]) matrixCountBySentence[sentenceId] = 0;
     const matrixIndex = matrixCountBySentence[sentenceId]++;
+    console.log(`Generating100+1`, matrixCountBySentence[sentenceId]);
+        console.log(`Generating100+2`, matrixIndex);
     const highlightedImgIndex = matrixIndex % selectedFiszkiHistory.length;
-
+        console.log(`Generating100+22`, highlightedImgIndex);
     function createRow(words, startIndex) {
         const $row = $('<div>').css({ display: 'flex', justifyContent: 'center', gap: GAP + 'px' });
 
         words.forEach((word, i) => {
             const imgIndex = (startIndex + i) % selectedFiszkiHistory.length;
             const imgObj = selectedFiszkiHistory[imgIndex];
-
-            const $cell = $('<div>').css({
-                width: cellWidth + 'px',
-                height: cellHeight + 'px',
-                border: '2px solid #000',
-                display: 'flex',
-                flexDirection: 'column',
-                alignItems: 'center',
-                justifyContent: 'center'
-            });
+            
+console.log('hej1100', imgObj);
+const $cell = $('<div>').css({
+    width: cellWidth + 'px',
+    height: cellHeight + 'px',
+    border: '2px solid #000',
+    borderRadius: '12px',   // 👈 tutaj dodany border-radius
+    display: 'flex',
+    flexDirection: 'column',
+    alignItems: 'center',
+    justifyContent: 'center'
+});
 
             if (imgObj?.img?.src) {
                 $('<img>').attr('src', imgObj.img.src).css({
@@ -12184,14 +12189,21 @@ function generateFiszkaBlock(fiszka, lessonId2, category) {
         );
         $('#multiVersionOverlay').fadeIn();
     }
+
+    // 🔴 najpierw usuwamy stare eventy (ważne!)
+    $('#modeRandom').off('click');
+    $('#modeApprove').off('click');
+
     $('#modeRandom').on('click', function () {
         MATRIX_MODE = 'RANDOM';
         $('#multiVersionOverlay').fadeOut();
+        console.log("TRYB:", MATRIX_MODE);
     });
 
     $('#modeApprove').on('click', function () {
         MATRIX_MODE = 'APPROVE';
         $('#multiVersionOverlay').fadeOut();
+        console.log("TRYB:", MATRIX_MODE);
     });
     // dalsza logika tworzenia bloku fiszki...
 
@@ -13494,9 +13506,23 @@ const imagePromises = fiszka.entries.map((entry, i) =>
         .catch(err => console.error('Błąd wczytania obrazka:', err))
 );
 
-        Promise.all(imagePromises).then(() => {
-            generateOrUpdateMatrix(fiszki10, lessonId2, selectedFiszkiHistoryByLesson[lessonId2], fiszkaContainer);
-        });
+// jeśli nie ma kolejki dla tej lekcji → startujemy pustym resolved Promise
+if (!matrixQueueByLesson[lessonId2]) {
+    matrixQueueByLesson[lessonId2] = Promise.resolve();
+}
+
+// dodajemy nowe zadanie do kolejki
+matrixQueueByLesson[lessonId2] = matrixQueueByLesson[lessonId2]
+    .then(() => Promise.all(imagePromises))
+    .then(() => {
+        return generateOrUpdateMatrix(
+            fiszki10,
+            lessonId2,
+            selectedFiszkiHistoryByLesson[lessonId2],
+            fiszkaContainer
+        );
+    })
+    .catch(err => console.error(err));
         console.log(`Generated fiszka block for ID: [${fiszka.id.join(', ')}]`);
         initAudio(fiszka.id);
         restoreLearnedClasses();
