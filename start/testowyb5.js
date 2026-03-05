@@ -12067,8 +12067,6 @@ function countMultiVersionFiszkiForLesson(fiszkiArray, lessonId2) {
 
     return count;
 }
-
-
 // Obiekt do przechowywania historii fiszek dla każdej lekcji
 const selectedFiszkiHistoryByLesson = {};
 console.log(`Generating100`, selectedFiszkiHistoryByLesson);
@@ -12151,7 +12149,13 @@ const $cell = $('<div>').css({
     justifyContent: 'center'
 });
 
-            if (imgObj?.img?.src) {
+            // 🔥 TRYB APPROVE
+            if (MATRIX_MODE === 'APPROVE' && imgObj?.multiVersion) {
+                $('<div>').text('❓').css({
+                    fontSize: cellHeight * 0.4 + 'px',
+                    fontWeight: 'bold'
+                }).appendTo($cell);
+            } else if (imgObj?.img?.src) {
                 $('<img>').attr('src', imgObj.img.src).css({
                     maxWidth: '100%',
                     maxHeight: '60%',
@@ -12180,31 +12184,7 @@ const $cell = $('<div>').css({
 let firstFiszkaId = null; // zmienna globalna lub w wyższym scope
 
 function generateFiszkaBlock(fiszka, lessonId2, category) {
-    
-    const multiCount = countMultiVersionFiszkiForLesson(fiszki10, lessonId2);
 
-    if (multiCount > 0) {
-        $('#multiVersionText').text(
-            `Jest ${multiCount} fiszki z wieloma wersjami. Jak chcesz pracować?`
-        );
-        $('#multiVersionOverlay').fadeIn();
-    }
-
-    // 🔴 najpierw usuwamy stare eventy (ważne!)
-    $('#modeRandom').off('click');
-    $('#modeApprove').off('click');
-
-    $('#modeRandom').on('click', function () {
-        MATRIX_MODE = 'RANDOM';
-        $('#multiVersionOverlay').fadeOut();
-        console.log("TRYB:", MATRIX_MODE);
-    });
-
-    $('#modeApprove').on('click', function () {
-        MATRIX_MODE = 'APPROVE';
-        $('#multiVersionOverlay').fadeOut();
-        console.log("TRYB:", MATRIX_MODE);
-    });
     // dalsza logika tworzenia bloku fiszki...
 
     var currentStoryButtonName = ''; // Zmienna lokalna
@@ -12727,12 +12707,16 @@ function showStory(idFiszki) {
         };
 
         console.log("Losowy obrazek:", specificLesson2Ref);
-
+        // --- PUSH do historii per lekcja ---
+        const isMultiVersion =
+            Array.isArray(fiszka.entries) &&
+            fiszka.entries.length > 1;
         // --- PUSH do historii wylosowanych fiszek ---
         selectedFiszkiHistory.push({
             idFiszki: idFiszki,
             img: selectedImg,
             story: currentEntry.story ? currentEntry.story.text : null,
+            multiVersion: isMultiVersion,
             timestamp: new Date().toISOString()
         });
         console.log("hej333", selectedFiszkiHistory[selectedFiszkiHistory.length - 1]);
@@ -13526,9 +13510,6 @@ matrixQueueByLesson[lessonId2] = matrixQueueByLesson[lessonId2]
         console.log(`Generated fiszka block for ID: [${fiszka.id.join(', ')}]`);
         initAudio(fiszka.id);
         restoreLearnedClasses();
-        
-    // ⬇⬇⬇ DOKŁADNIE TUTAJ ⬇⬇⬇
-    fiszkaContainer.after(createSentenceMatrix(fiszka));
     });
 
 }
