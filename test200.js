@@ -4601,3 +4601,55 @@ console.log('wykonuje siÄ teraz');
 `);
                     
                     pronunciation:
+                            
+                            
+                            wybierzRodzaj(category, one, two, three); // wywołanie dopiero po wyborze trybu
+let MATRIX_MODE = 'APPROVE';
+function showFiszkiForLesson(lessonIdToShow, fiszki, category) {
+
+    // --- 1️⃣ Natychmiastowe ładowanie fiszek w tle ---
+    const matchingFiszki = fiszki.filter(fiszka => fiszka.id[1] === lessonIdToShow);
+
+    matchingFiszki.forEach(fiszka => {
+        generateFiszkaBlock(fiszka, lessonIdToShow, category);
+    });
+
+    // --- 2️⃣ Jeśli są fiszki z multi-wersjami, pokaz overlay ---
+    const multiCount = countMultiVersionFiszkiForLesson(fiszki, lessonIdToShow);
+    if (multiCount > 0) {
+        $('#multiVersionText').text(`Jest ${multiCount} fiszki z wieloma wersjami. Jak chcesz pracować?`);
+        $('#multiVersionOverlay').fadeIn();
+
+        $('#modeRandom').off('click').on('click', function () {
+            MATRIX_MODE = 'RANDOM';
+            $('#multiVersionOverlay').fadeOut();
+
+            // przeładuj matryce w wybranym trybie
+            reloadMatricesRandom(lessonIdToShow);
+        });
+
+        $('#modeApprove').off('click').on('click', function () {
+            MATRIX_MODE = 'APPROVE';
+            $('#multiVersionOverlay').fadeOut();
+
+            // przeładuj matryce w wybranym trybie
+            reloadMatricesRandom(lessonIdToShow);
+        });
+    }
+}
+// === reloadMatricesRandom ===
+function reloadMatricesRandom(lessonId) {
+    $('.fiszka-matrix-container').each(function () {
+        const lId = $(this).data('lesson');
+        const fiszkaContainer = $(this).prev();
+        const history = selectedFiszkiHistoryByLesson[lId];
+        if (!history || !history.length) return;
+
+        generateOrUpdateMatrix(
+            fiszki10,
+            lId,
+            history,
+            fiszkaContainer
+        );
+    });
+}

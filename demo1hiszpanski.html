@@ -87,38 +87,6 @@
     </div>
   <script src="start\testowyb5.js"></script>
 <script>
-let MATRIX_MODE = null; // globalnie ustawiany tryb
-
-function chooseMatrixModeIfNeeded() {
-    return new Promise((resolve) => {
-        $('#multiVersionText').text(
-            `Jest fiszki z wieloma wersjami. Jak chcesz pracować?`
-        );
-        $('#multiVersionOverlay').fadeIn();
-
-        $('#modeRandom').off('click').on('click', function () {
-            MATRIX_MODE = 'RANDOM';
-            $('#multiVersionOverlay').fadeOut();
-            console.log("TRYB:", MATRIX_MODE);
-            resolve(MATRIX_MODE); // rozwiąż promise
-        });
-
-        $('#modeApprove').off('click').on('click', function () {
-            MATRIX_MODE = 'APPROVE';
-            $('#multiVersionOverlay').fadeOut();
-            console.log("TRYB:", MATRIX_MODE);
-            resolve(MATRIX_MODE); // rozwiąż promise
-        });
-    });
-}
-
-// funkcja asynchroniczna, która czeka na wybór trybu
-async function start() {
-    await chooseMatrixModeIfNeeded(); // czeka, aż użytkownik wybierze
-    wybierzRodzaj(category, one, two, three); // wywołanie dopiero po wyborze trybu
-}
-
-start();
 // Wywołaj funkcję z otrzymaną wartością
 function wybierzRodzaj(category, one, two, three) {
     
@@ -262,20 +230,137 @@ const one = selectedData[0];
 const two = selectedData[1];
 const three = selectedData[2];
 
+wybierzRodzaj(category, one, two, three); // wywołanie dopiero po wyborze trybu
+let MATRIX_MODE = 'APPROVE';
 
 function showFiszkiForLesson(lessonIdToShow, fiszki, category) {
-    const matchingFiszki = fiszki.filter(fiszka => fiszka.id[1] === lessonIdToShow);
+
+    function chooseMatrixModeIfNeeded() {
+        return new Promise((resolve) => {
+
+            const multiCount = countMultiVersionFiszkiForLesson(fiszki, lessonIdToShow);
+
+            if (multiCount === 0) {
+                MATRIX_MODE = 'RANDOM';
+                resolve(MATRIX_MODE);
+                return;
+            }
+
+            $('#multiVersionText').text(
+                `Jest ${multiCount} fiszki z wieloma wersjami. Jak chcesz pracować?`
+            );
+
+            $('#multiVersionOverlay').fadeIn();
+
+            $('#modeRandom').off('click').on('click', function () {
+
+                MATRIX_MODE = 'RANDOM';
+
+                $('#multiVersionOverlay').fadeOut();
+
+                console.log("TRYB:", MATRIX_MODE);
+
+                reloadMatricesRandom();
+
+                resolve(MATRIX_MODE);
+
+            });
+
+            $('#modeApprove').off('click').on('click', function () {
+
+                MATRIX_MODE = 'APPROVE';
+
+                $('#multiVersionOverlay').fadeOut();
+
+                console.log("TRYB:", MATRIX_MODE);
+
+                reloadMatricesRandom();
+
+                resolve(MATRIX_MODE);
+
+            });
+
+        });
+    }
+
+    chooseMatrixModeIfNeeded().then((mode) => {
+
+        console.log("Tryb wybrany:", mode);
+
+        reloadMatricesRandom();
+
+    });
+
+    function reloadMatricesRandom() {
+
+        $('.fiszka-matrix-container').each(function () {
+
+            const lessonId = $(this).data('lesson');
+            const fiszkaContainer = $(this).prev();
+
+            const history = selectedFiszkiHistoryByLesson[lessonId];
+
+            if (!history || !history.length) {
+                console.log("Brak historii dla lekcji:", lessonId);
+                return;
+            }
+
+            // 🔹 Ładowanie obrazków z historii
+            const imagePromises = history
+                .filter(h => h.img && h.img.src)
+                .map(h => loadImage(h.img.src));
+
+            if (!matrixQueueByLesson[lessonId]) {
+                matrixQueueByLesson[lessonId] = Promise.resolve();
+            }
+
+            matrixQueueByLesson[lessonId] = matrixQueueByLesson[lessonId]
+                .then(() => Promise.all(imagePromises))
+                .then(() => {
+
+                    generateOrUpdateMatrix(
+                        fiszki10,
+                        lessonId,
+                        history,
+                        fiszkaContainer
+                    );
+
+                })
+                .catch(err => console.error(err));
+
+        });
+
+    }
+
+    // 🔹 Fiszki ładują się od razu w tle
+    const matchingFiszki = fiszki.filter(
+        fiszka => fiszka.id[1] === lessonIdToShow
+    );
 
     if (matchingFiszki.length > 0) {
+
         console.log(`Fiszki dla lekcji ${lessonIdToShow}:`);
+
         matchingFiszki.forEach(fiszka => {
-            console.log(`Processing fiszka with ID: [${fiszka.id.join(', ')}]`);
-            generateFiszkaBlock(fiszka, lessonIdToShow, category); // Upewnij się, że funkcja generateFiszkaBlock() jest zdefiniowana
-            console.log(`Generated fiszka with ID: [${fiszka.id.join(', ')}]`);
+
+            console.log(
+                `Processing fiszka with ID: [${fiszka.id.join(', ')}]`
+            );
+
+            generateFiszkaBlock(fiszka, lessonIdToShow, category);
+
+            console.log(
+                `Generated fiszka with ID: [${fiszka.id.join(', ')}]`
+            );
+
         });
+
     } else {
+
         console.log(`No fiszki found for Lesson ${lessonIdToShow}.`);
+
     }
+
 }
 </script>
 <script src="js/scroll.js"></script>

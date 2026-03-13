@@ -12087,7 +12087,7 @@ const matrixCountBySentence = {};
 console.log(`Generating100+`, matrixCountBySentence);
 const matrixQueueByLesson = {};
 
-    function generateOrUpdateMatrix(fiszkiArray, sentenceId, selectedFiszkiHistory, fiszkaContainer, highlightedIdFiszki) {
+function generateOrUpdateMatrix(fiszkiArray, sentenceId, selectedFiszkiHistory, fiszkaContainer) {
     
 console.log("START MATRIX");
 console.log("sentenceId:", sentenceId);
@@ -12132,11 +12132,8 @@ const cellWidth = 220;
 const cellHeight = 150;
 
     // licznik matryc dla tego zdania
-const key = sentenceId + "_" + sentenceId;
-
-if (!matrixCountBySentence[key]) matrixCountBySentence[key] = 0;
-
-const matrixIndex = matrixCountBySentence[key]++;
+    if (!matrixCountBySentence[sentenceId]) matrixCountBySentence[sentenceId] = 0;
+    const matrixIndex = matrixCountBySentence[sentenceId]++;
     console.log(`Generating100+1`, matrixCountBySentence[sentenceId]);
         console.log(`Generating100+2`, matrixIndex);
     const highlightedImgIndex = matrixIndex % selectedFiszkiHistory.length;
@@ -12176,13 +12173,10 @@ const $cell = $('<div>').css({
 
             $('<div>').html(word).appendTo($cell);
 
-if (imgObj.idFiszki === highlightedIdFiszki) {
-    $cell.css({ border: '4px solid red' });
-} else if (imgIndex === highlightedImgIndex && !highlightedIdFiszki) {
+            // podświetlamy komórkę, która odpowiada highlightedImgIndex
+            if (imgIndex === highlightedImgIndex) {
                 $cell.css({ border: '4px solid red' });
-            } else {
-    $cell.css({ border: '2px solid #000' });
-}
+            }
 
             $row.append($cell);
         });
@@ -12195,8 +12189,7 @@ if (imgObj.idFiszki === highlightedIdFiszki) {
 
     $matrixContainer.append($topRow, $bottomRow);
 }
-const startIndexByLesson = {};
-const startIndexByLesson2 = {};
+let firstFiszkaId = null;
 let lastLessonId = null;
 
 let isLessonLoading = false;
@@ -13022,21 +13015,25 @@ if (Array.isArray(fiszka.entries) && fiszka.entries.length > 0) {
         const randomButtonIndex = selectedIndexes[0] || 0;
         index10.push(randomButtonIndex);
     // jeśli to pierwsze wywołanie, zapisujemy id fiszki
-// --- 1️⃣ Sprawdzamy, czy zmieniła się lekcja → jeśli tak, resetujemy firstFiszkaId
-// Ustawiamy startIndex dla lekcji, jeśli jeszcze nie został ustawiony
-if (startIndexByLesson[lessonId2] === undefined) {
-    startIndexByLesson[lessonId2] = fiszka.id[0];
-    console.log("StartIndex dla lekcji", lessonId2, startIndexByLesson[lessonId2]);
+// jeśli zmieniła się lekcja → resetujemy firstFiszkaId
+if (lastLessonId === lessonId2) {
+    firstFiszkaId = null;
+    lastLessonId = lessonId2;
+    console.log("Nowa lekcja – reset firstFiszkaId");
 }
 
-const startIndex2 = startIndexByLesson[lessonId2];
-console.log('start100', startIndexByLesson[lessonId2]);
+if (firstFiszkaId === null) {
+    firstFiszkaId = fiszka.id[0];
+    console.log("Pierwsza fiszka lekcji:", firstFiszkaId);
+}
+
+const startIndex2 = fiszka.id[0];
 console.log('startIndex for lesson5', startIndex2);
+    console.log('startIndex for lesson5', startIndex2);
 console.log('startIndex for lesson', startIndex);
 
-// --- 4️⃣ Tworzymy przyciski dla każdego wpisu w fiszce
-fiszka.entries.forEach((entry, index) => {
-    const displayText = entry.category.join(", ");
+        fiszka.entries.forEach((entry, index) => {
+           const displayText = entry.category.join(", ");
     const isIncluded = selectedIndexes.includes(index);
 
     const storyButton = $('<button>')
@@ -13049,39 +13046,31 @@ fiszka.entries.forEach((entry, index) => {
 
             // ✅ Ustawiamy idFiszki dynamicznie
             const idFiszki = entry.id || index;
+
             showStory(index, idFiszki);
             lastClickedIndex = index;
 
-            const idFiszki2 = fiszka.id ? fiszka.id[0] : index;
-            console.log("idFiszki2:", idFiszki2);
-            console.log("idFiszki2:", startIndex2);
-            // 🔹 Obliczamy indeks relatywny względem pierwszej fiszki w lekcji
-            const relativeIndex = idFiszki2 - startIndex2;
-            console.log('relativeIndex', relativeIndex);
-
-            // 🔹 Aktualizujemy historię dla tej lekcji
+            // Obliczamy indeks relatywny od pierwszej fiszki w lekcji
+            const relativeIndex = startIndex2 - firstFiszkaId;
+console.log('startIndex55 for lesson', relativeIndex);
+            // 🔄 Aktualizujemy historię dla tej lekcji z nowym obrazkiem
             if (!selectedFiszkiHistoryByLesson[lessonId2]) {
                 selectedFiszkiHistoryByLesson[lessonId2] = [];
             }
 
             selectedFiszkiHistoryByLesson[lessonId2][relativeIndex] = {
                 idFiszki: idFiszki,
-                img: entry.img,
+                img: entry.img, // <-- nowe zdjęcie
                 word: fiszka.sentence?.[index] || null
             };
 
-            // 🔹 Pobranie historii dla lekcji
             const history = selectedFiszkiHistoryByLesson[lessonId2];
 
-            // 🔹 Jeśli kolejka dla lekcji nie istnieje, tworzymy pustą Promise
             if (!matrixQueueByLesson[lessonId2]) {
                 matrixQueueByLesson[lessonId2] = Promise.resolve();
             }
 
-            // 🔹 Przekazujemy bezpośrednio kontener klikanej fiszki
-            const idFiszki2Container = $(this).closest('.fiszka');
-
-            // 🔹 Dodajemy zadanie do kolejki
+            // 🔹 Dodajemy zadanie do kolejki, aby poczekać na załadowanie obrazków
             matrixQueueByLesson[lessonId2] = matrixQueueByLesson[lessonId2]
                 .then(() => Promise.all(
                     history
@@ -13089,13 +13078,13 @@ fiszka.entries.forEach((entry, index) => {
                         .map(h => loadImage(h.img.src))
                 ))
                 .then(() => {
-                    console.log('Container dla tej fiszki:', idFiszki2Container);
-                    generateOrUpdateMatrix(fiszki10, lessonId2, history, idFiszki2Container, idFiszki);
+                    // Znajdujemy dokładnie kontener tej fiszki
+                    const $container = $('.grid-containerb .fiszka').eq(relativeIndex);
+
+                    // Odświeżamy matrycę tylko dla tej fiszki
+                    generateOrUpdateMatrix(fiszki10, lessonId2, history, $container);
                 })
                 .catch(err => console.error(err));
-        
-
-
                     if (lastClickedButton) {
                         lastClickedButton.removeClass('green-button');
                     }
@@ -14905,3 +14894,26 @@ function readStory(id) {
     speechSynthesis.cancel();
     speechSynthesis.speak(utterance);
 }
+
+
+    if (firstFiszkaId === null) {
+        firstFiszkaId = fiszka.id[0];
+        console.log("Pierwsze wywołanie, ID fiszki:", firstFiszkaId);
+    }
+function generateFiszkaBlock(fiszka, lessonId2, category) {
+    const startIndex2 = fiszka.id[0];
+dodaj startIndex2 dla następnego lessonId2...
+    if (firstFiszkaId === null) {
+        firstFiszkaId = fiszka.id[0];
+        console.log("Pierwsze wywołanie, ID fiszki:", firstFiszkaId);
+    }
+
+    const startIndex2 = fiszka.id[0];
+
+    if (!startIndexByLesson[lessonId2]) {
+        startIndexByLesson[lessonId2] = fiszka.id[0];
+        console.log("StartIndex dla lekcji", lessonId2, startIndexByLesson[lessonId2]);
+    }
+
+    const startIndex2 = startIndexByLesson[lessonId2];
+console.log('startIndex for lesson5', startIndex2);
