@@ -3890,7 +3890,7 @@ $textContainer.append($czasNameP);
             let currentSentenceHtml = "";
             // --- Inicjalizacja cache dla indexDiv ---
 
-if (indexDiv < 13) {
+if (indexDiv < 19) {
     // pokaż overlay na stałe
     $('.overlay', $container).css('transform', 'translateX(0)');
 

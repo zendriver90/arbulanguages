@@ -19,33 +19,54 @@
     crossorigin="anonymous"></script>
 </head>
 <body>
-    <div id="multiVersionOverlay" style="
-    position: fixed;
-    inset: 0;
-    background: rgba(0,0,0,0.7);
-    z-index: 9999;
-    display: none;
-    align-items: center;
-    justify-content: center;
+<div id="multiVersionOverlay" style="
+position: fixed;
+inset: 0;
+background: rgba(0,0,0,0.7);
+z-index: 9999;
+display: none;
+align-items: center;
+justify-content: center;
 ">
-  <div style="
-      background: #fff;
-      padding: 24px;
-      border-radius: 12px;
-      max-width: 420px;
-      text-align: center;
-  ">
-    <h2>🧠 Tryb nauki</h2>
-    <p id="multiVersionText"></p>
 
-    <button id="modeRandom" style="margin-top:10px;width:100%">
-      🎲 Załaduj losowe wersje
-    </button>
+<div style="
+background: #fff;
+padding: 24px;
+border-radius: 12px;
+max-width: 420px;
+text-align: center;
+position: relative;
+">
 
-    <button id="modeApprove" style="margin-top:10px;width:100%">
-      ✅ Zatwierdzaj wersje ręcznie
-    </button>
-  </div>
+<button id="closeModeOverlay" style="
+position:absolute;
+top:8px;
+right:10px;
+border:none;
+background:none;
+font-size:20px;
+cursor:pointer;
+">
+✖
+</button>
+
+<h2>🧠 Tryb nauki</h2>
+
+<p id="multiVersionText"></p>
+
+<button id="modeRandom" style="margin-top:10px;width:100%">
+🎲 Załaduj losowe wersje do matrycy
+</button>
+
+<button id="modeApprove" style="margin-top:10px;width:100%">
+✅ Zatwierdzaj wersje ręcznie - po przeglądnięciu dostępnych
+</button>
+
+<button id="modeSkip" style="margin-top:10px;width:220px">
+⏭️ Pomiń wybór i rozglądnij się
+</button>
+
+</div>
 </div>
     <div id="kontenery">
         <div id='karta1'>
@@ -235,53 +256,82 @@ let MATRIX_MODE = 'APPROVE';
 
 function showFiszkiForLesson(lessonIdToShow, fiszki, category) {
 
-    function chooseMatrixModeIfNeeded() {
-        return new Promise((resolve) => {
+function chooseMatrixModeIfNeeded() {
 
-            const multiCount = countMultiVersionFiszkiForLesson(fiszki, lessonIdToShow);
+    return new Promise((resolve) => {
 
-            if (multiCount === 0) {
-                MATRIX_MODE = 'RANDOM';
-                resolve(MATRIX_MODE);
-                return;
-            }
+        const multiCount = countMultiVersionFiszkiForLesson(fiszki, lessonIdToShow);
 
-            $('#multiVersionText').text(
-                `Jest ${multiCount} fiszki z wieloma wersjami. Jak chcesz pracować?`
-            );
+        if (multiCount === 0) {
+            MATRIX_MODE = 'RANDOM';
+            resolve(MATRIX_MODE);
+            return;
+        }
 
-            $('#multiVersionOverlay').fadeIn();
+        $('#multiVersionText').text(
+            `Jest ${multiCount} fiszki z wieloma wersjami. Jak chcesz pracować?`
+        );
 
-            $('#modeRandom').off('click').on('click', function () {
+        $('#multiVersionOverlay').fadeIn();
 
-                MATRIX_MODE = 'RANDOM';
+        $('#modeRandom').off('click').on('click', function () {
 
-                $('#multiVersionOverlay').fadeOut();
+            MATRIX_MODE = 'RANDOM';
 
-                console.log("TRYB:", MATRIX_MODE);
+            $('#multiVersionOverlay').fadeOut();
 
-                reloadMatricesRandom();
+            console.log("TRYB:", MATRIX_MODE);
 
-                resolve(MATRIX_MODE);
+            reloadMatricesRandom();
 
-            });
-
-            $('#modeApprove').off('click').on('click', function () {
-
-                MATRIX_MODE = 'APPROVE';
-
-                $('#multiVersionOverlay').fadeOut();
-
-                console.log("TRYB:", MATRIX_MODE);
-
-                reloadMatricesRandom();
-
-                resolve(MATRIX_MODE);
-
-            });
+            resolve(MATRIX_MODE);
 
         });
-    }
+
+        $('#modeApprove').off('click').on('click', function () {
+
+            MATRIX_MODE = 'APPROVE';
+
+            $('#multiVersionOverlay').fadeOut();
+
+            console.log("TRYB:", MATRIX_MODE);
+
+            reloadMatricesRandom();
+
+            resolve(MATRIX_MODE);
+
+        });
+
+        $('#closeModeOverlay').off('click').on('click', function () {
+
+            MATRIX_MODE = 'APPROVE';
+
+            $('#multiVersionOverlay').fadeOut();
+
+            console.log("TRYB (zamknięcie):", MATRIX_MODE);
+
+            reloadMatricesRandom();
+
+
+            resolve(MATRIX_MODE);
+
+        });
+        $('#modeSkip').off('click').on('click', function () {
+
+    MATRIX_MODE = 'APPROVE';
+
+    $('#multiVersionOverlay').fadeOut();
+
+    console.log("TRYB: POMINIĘTO WYBÓR →", MATRIX_MODE);
+
+    reloadMatricesRandom();
+
+    resolve(MATRIX_MODE);
+
+});
+
+    });
+}
 
     chooseMatrixModeIfNeeded().then((mode) => {
 

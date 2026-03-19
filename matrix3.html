@@ -1,19 +1,3 @@
-if (imgObj.idFiszki === highlightedIdFiszki) {
-    $cell.css({ border: '4px solid red' });
-} else if (imgIndex === highlightedImgIndex && !highlightedIdFiszki) {
-                $cell.css({ border: '4px solid red' });
-            } else {
-    $cell.css({ border: '2px solid #000' });
-}
-    if (firstFiszkaId === null) {
-        firstFiszkaId = fiszka.id[0];
-        console.log("Pierwsze wywołanie, ID fiszki:", firstFiszkaId);
-    }
-
-    const startIndex2 = fiszka.id[0];
-    generateOrUpdateMatrix(fiszki10, lessonId2, history, $container, idFiszki);
-    function generateOrUpdateMatrix(fiszkiArray, sentenceId, selectedFiszkiHistory, fiszkaContainer, highlightedIdFiszki) {
-
 <!DOCTYPE html>
 <html>
     <head>
