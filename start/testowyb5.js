@@ -9367,7 +9367,7 @@ id: [
                 "http://localhost/arbulanguage.com/voice/music.mp4"
         ],
         // opis
-        desc: "con[] - ",
+        desc: "con[kon] - z",
         //zdanie
         sentence1: [
                 "con"
@@ -12479,10 +12479,20 @@ id: [
         267,
         55
 ],
-        // obrazek
-        img: [
-                "http://localhost/arbulanguage.com/img/fiszkiespanol/131a.jpg"
-        ],
+    entries: [
+        {
+            id: 1,
+            img: {
+                src: "http://localhost/arbulanguage.com/img/fiszkiespanol/267a.jpg",
+                alt: ""
+            },
+            story: {
+                text: 'Telefon do ojca dzwoni, a bateria mu padła w telefonie a miał kreślić plany na następny dzień',
+                alt: ""
+            },
+            category: ["", ""]
+        }
+    ],
         translate: "Ojciec pracuje dziś tutaj",
         translateb: "[]",
         srcWord: ["http://localhost/arbulanguage.com/filmy/esp/.mp4", ''],
@@ -12492,7 +12502,7 @@ id: [
         ],
         // historia
         story: [
-            "<u><b>Kier</u></b>ownik <u><b>chce</u></b> od pracowników dobrej pracy - z<u><b>er</u></b>o wymówek"
+            ""
         ],
         // opis
         desc: "el padre[el padre] - ojciec",
@@ -12518,16 +12528,22 @@ id: [
         268,
         55
 ],
-        // obrazek
-        img: [
-                "http://localhost/arbulanguage.com/img/fiszkiespanol/126a.jpg"
-        ],
+    entries: [
+        {
+            id: 1,
+            img: {
+                src: "http://localhost/arbulanguage.com/img/fiszkiespanol/268a.jpg",
+                alt: ""
+            },
+            story: {
+                text: 'Na lotnisku tragaż pomylił moje bagaże, bardzo trudna jest jego praca i nie może być chaotyczny',
+                alt: ""
+            },
+            category: ["", ""]
+        }
+    ],
         word: [
                 "http://localhost/arbulanguage.com/voice/music.mp4"
-        ],
-        // historia
-        story: [
-            "<u><b>To</u></b> <u><b>wszystko</u></b> <u><b>dos</u></b>taniecie w naszym sklepie"
         ],
         // opis
         desc: "trabaja[] - ",
@@ -12553,16 +12569,22 @@ id: [
         269,
         55
 ],
-        // obrazek
-        img: [
-                "http://localhost/arbulanguage.com/img/fiszkiespanol/126a.jpg"
-        ],
+    entries: [
+        {
+            id: 1,
+            img: {
+                src: "http://localhost/arbulanguage.com/img/fiszkiespanol/269a.jpg",
+                alt: ""
+            },
+            story: {
+                text: 'Ooj, dzisiaj wykręcimy dobry wynik',
+                alt: ""
+            },
+            category: ["", ""]
+        }
+    ],
         word: [
                 "http://localhost/arbulanguage.com/voice/music.mp4"
-        ],
-        // historia
-        story: [
-            "<u><b>To</u></b> <u><b>wszystko</u></b> <u><b>dos</u></b>taniecie w naszym sklepie"
         ],
         // opis
         desc: "hoy[] - ",
@@ -12588,19 +12610,25 @@ id: [
         270,
         55
 ],
-        // obrazek
-        img: [
-                "http://localhost/arbulanguage.com/img/fiszkiespanol/126a.jpg"
-        ],
+    entries: [
+        {
+            id: 1,
+            img: {
+                src: "http://localhost/arbulanguage.com/img/fiszkiespanol/270a.jpg",
+                alt: ""
+            },
+            story: {
+                text: 'A taki tutaj jest bajzel',
+                alt: ""
+            },
+            category: ["", ""]
+        }
+    ],
         word: [
                 "http://localhost/arbulanguage.com/voice/music.mp4"
         ],
-        // historia
-        story: [
-            "<u><b>To</u></b> <u><b>wszystko</u></b> <u><b>dos</u></b>taniecie w naszym sklepie"
-        ],
         // opis
-        desc: "aqui[] - ",
+        desc: "aqui[aki] - tutaj",
         //zdanie
         sentence1: [
                 "aqui"
@@ -12623,20 +12651,26 @@ id: [
         271,
         56
 ],
-        // obrazek
-        img: [
-                "http://localhost/arbulanguage.com/img/fiszkiespanol/131a.jpg"
-        ],
+    entries: [
+        {
+            id: 1,
+            img: {
+                src: "http://localhost/arbulanguage.com/img/fiszkiespanol/271a.jpg",
+                alt: ""
+            },
+            story: {
+                text: 'Super jest ten pies, rozmawia się z nim śmiesznie',
+                alt: ""
+            },
+            category: ["", ""]
+        }
+    ],
         translate: "Pies bawi się piłką",
         translateb: "[]",
         srcWord: ["http://localhost/arbulanguage.com/filmy/eng-esp/widckdog.mp4", 'Matrix 1999'],
         srcWordimage: "http://localhost/arbulanguage.com/filmy/eng-esp/wickdog.png",
         word: [
                 "http://localhost/arbulanguage.com/voice/music.mp4"
-        ],
-        // historia
-        story: [
-            "<u><b>Kier</u></b>ownik <u><b>chce</u></b> od pracowników dobrej pracy - z<u><b>er</u></b>o wymówek"
         ],
         // opis
         desc: "el perro[] - ",
@@ -12662,19 +12696,25 @@ id: [
         272,
         56
 ],
-        // obrazek
-        img: [
-                "http://localhost/arbulanguage.com/img/fiszkiespanol/126a.jpg"
-        ],
+    entries: [
+        {
+            id: 1,
+            img: {
+                src: "http://localhost/arbulanguage.com/img/fiszkiespanol/272a.jpg",
+                alt: ""
+            },
+            story: {
+                text: 'Hulam z kolegą, gramy w piłkę nożną, jest mega',
+                alt: ""
+            },
+            category: ["", ""]
+        }
+    ],
         word: [
                 "http://localhost/arbulanguage.com/voice/music.mp4"
         ],
-        // historia
-        story: [
-            "<u><b>To</u></b> <u><b>wszystko</u></b> <u><b>dos</u></b>taniecie w naszym sklepie"
-        ],
         // opis
-        desc: "juega[] - ",
+        desc: "juega[juega] - grać (w coś)",
         //zdanie
         sentence1: [
                 "juega"
@@ -12697,19 +12737,49 @@ id: [
         273,
         56
 ],
-        // obrazek
-        img: [
-                "http://localhost/arbulanguage.com/img/fiszkiespanol/126a.jpg"
-        ],
+    entries: [
+        {
+            id: 1,
+            img: {
+                src: "http://localhost/arbulanguage.com/img/fiszkiespanol/17a.jpg",
+                alt: ""
+            },
+            story: {
+                text: '<span class="x"><u><b>Z</u></b></span> <span class="a"><u><b>kon</u></b></span>opiami jest niezły ubaw',
+                alt: ""
+            },
+            category: ["przemysł", "medycyna"]
+        },
+        {
+            id: 2,
+            img: {
+                src: "http://localhost/arbulanguage.com/img/fiszkiespanol/31a.jpg",
+                alt: ""
+            },
+            story: {
+                text: '<span class="x"><u><b>Z</u></b></span> takimi <span class="a"><u><b>kon</u></b></span>taktami jakie mam, lepiej jest mi podołać obowiązkom',
+                alt: ""
+            },
+            category: ["praca", "znajmomości"]
+        },
+                {
+            id: 3,
+            img: {
+                src: "http://localhost/arbulanguage.com/img/fiszkiespanol/31b.jpg",
+                alt: ""
+            },
+            story: {
+                text: '<span class="x"><u><b>Z</u></b></span> <span class="a"><u><b>kon</u></b></span>sternacją przyjąłem tę decyzję',
+                alt: ""
+            },
+            category: ["życie", "akceptacja"]
+        }
+    ],
         word: [
                 "http://localhost/arbulanguage.com/voice/music.mp4"
         ],
-        // historia
-        story: [
-            "<u><b>To</u></b> <u><b>wszystko</u></b> <u><b>dos</u></b>taniecie w naszym sklepie"
-        ],
         // opis
-        desc: "con[] - ",
+        desc: "con[kon] - z",
         //zdanie
         sentence1: [
                 "con"
@@ -12732,19 +12802,25 @@ id: [
         274,
         56
 ],
-        // obrazek
-        img: [
-                "http://localhost/arbulanguage.com/img/fiszkiespanol/126a.jpg"
-        ],
+    entries: [
+        {
+            id: 1,
+            img: {
+                src: "http://localhost/arbulanguage.com/img/fiszkiespanol/274a.jpg",
+                alt: ""
+            },
+            story: {
+                text: 'Pelikan gra w piłkę nożną i jest cała gablota jego pucharów',
+                alt: ""
+            },
+            category: ["", ""]
+        }
+    ],
         word: [
                 "http://localhost/arbulanguage.com/voice/music.mp4"
         ],
-        // historia
-        story: [
-            "<u><b>To</u></b> <u><b>wszystko</u></b> <u><b>dos</u></b>taniecie w naszym sklepie"
-        ],
         // opis
-        desc: "pelota[] - ",
+        desc: "pelota[pelota] - piłka",
         //zdanie
         sentence1: [
                 "pelota"
@@ -12767,10 +12843,20 @@ id: [
         275,
         57
 ],
-        // obrazek
-        img: [
-                "http://localhost/arbulanguage.com/img/fiszkiespanol/131a.jpg"
-        ],
+    entries: [
+        {
+            id: 1,
+            img: {
+                src: "http://localhost/arbulanguage.com/img/fiszkiespanol/275a.jpg",
+                alt: ""
+            },
+            story: {
+                text: 'Telewizor przedstawia mężczyznę dzwoniącego przez komórkę i opidadającego dobre historie',
+                alt: ""
+            },
+            category: ["", ""]
+        }
+    ],
         translate: "Mężczyzna otwiera swoją książkę",
         translateb: "[]",
         srcWord: ["http://localhost/arbulanguage.com/filmy/esp/fatherbook.mp4", 'Finding Forrester 1999'],
@@ -12778,12 +12864,8 @@ id: [
         word: [
                 "http://localhost/arbulanguage.com/voice/music.mp4"
         ],
-        // historia
-        story: [
-            "<u><b>Kier</u></b>ownik <u><b>chce</u></b> od pracowników dobrej pracy - z<u><b>er</u></b>o wymówek"
-        ],
         // opis
-        desc: "el hombre[el ombre] - człowiek",
+        desc: "el hombre[el ombre] - mężczyzna",
         //zdanie
         sentence1: [
                 "El hombre"
@@ -12806,19 +12888,25 @@ id: [
         276,
         57
 ],
-        // obrazek
-        img: [
-                "http://localhost/arbulanguage.com/img/fiszkiespanol/126a.jpg"
-        ],
+    entries: [
+        {
+            id: 1,
+            img: {
+                src: "http://localhost/arbulanguage.com/img/fiszkiespanol/276a.jpg",
+                alt: ""
+            },
+            story: {
+                text: 'A to dobre wieści, że sklep jest otwarty',
+                alt: ""
+            },
+            category: ["", ""]
+        }
+    ],
         word: [
                 "http://localhost/arbulanguage.com/voice/music.mp4"
         ],
-        // historia
-        story: [
-            "<u><b>To</u></b> <u><b>wszystko</u></b> <u><b>dos</u></b>taniecie w naszym sklepie"
-        ],
         // opis
-        desc: "abre[] - ",
+        desc: "abre[abre] - otwarte",
         //zdanie
         sentence1: [
                 "abre"
@@ -12841,19 +12929,25 @@ id: [
         277,
         57
 ],
-        // obrazek
-        img: [
-                "http://localhost/arbulanguage.com/img/fiszkiespanol/126a.jpg"
-        ],
+    entries: [
+        {
+            id: 1,
+            img: {
+                src: "http://localhost/arbulanguage.com/img/fiszkiespanol/277a.jpg",
+                alt: ""
+            },
+            story: {
+                text: 'Super jest ta jego książka',
+                alt: ""
+            },
+            category: ["", ""]
+        }
+    ],
         word: [
                 "http://localhost/arbulanguage.com/voice/music.mp4"
         ],
-        // historia
-        story: [
-            "<u><b>To</u></b> <u><b>wszystko</u></b> <u><b>dos</u></b>taniecie w naszym sklepie"
-        ],
         // opis
-        desc: "su[] - ",
+        desc: "su[su] - jego",
         //zdanie
         sentence1: [
                 "su"
@@ -12876,19 +12970,37 @@ id: [
         278,
         57
 ],
-        // obrazek
-        img: [
-                "http://localhost/arbulanguage.com/img/fiszkiespanol/126a.jpg"
-        ],
+    entries: [
+        {
+            id: 1,
+            img: {
+                src: "http://localhost/arbulanguage.com/img/fiszkiespanol/278a.jpg",
+                alt: ""
+            },
+            story: {
+                text: 'Kaliber przemyśleń w tej książce jest niesamowity, rozmyślam po przeczytaniu rozdziału',
+                alt: ""
+            },
+            category: ["", ""]
+        },
+                {
+            id: 2,
+            img: {
+                src: "http://localhost/arbulanguage.com/img/fiszkiespanol/278b.jpg",
+                alt: ""
+            },
+            story: {
+                text: 'Tablib czyta książkę, rozmyśla o tym co przeczytał',
+                alt: ""
+            },
+            category: ["", ""]
+        }
+    ],
         word: [
                 "http://localhost/arbulanguage.com/voice/music.mp4"
         ],
-        // historia
-        story: [
-            "<u><b>To</u></b> <u><b>wszystko</u></b> <u><b>dos</u></b>taniecie w naszym sklepie"
-        ],
         // opis
-        desc: "libro[] - ",
+        desc: "libro[libro] - książka",
         //zdanie
         sentence1: [
                 "libro"
@@ -12911,20 +13023,26 @@ id: [
         279,
         58
 ],
-        // obrazek
-        img: [
-                "http://localhost/arbulanguage.com/img/fiszkiespanol/131a.jpg"
-        ],
+    entries: [
+        {
+            id: 1,
+            img: {
+                src: "http://localhost/arbulanguage.com/img/fiszkiespanol/279a.jpg",
+                alt: ""
+            },
+            story: {
+                text: 'Mama piecze placek, ja szykuje drewno do pieca',
+                alt: ""
+            },
+            category: ["", ""]
+        }
+    ],
         translate: "Matka uśmiecha się do swojego syna",
         translateb: "[]",
         srcWord: ["http://localhost/arbulanguage.com/filmy/esp/.mp4", ''],
         srcWordimage: "http://localhost/arbulanguage.com/filmy/esp/.png",
         word: [
                 "http://localhost/arbulanguage.com/voice/music.mp4"
-        ],
-        // historia
-        story: [
-            "<u><b>Kier</u></b>ownik <u><b>chce</u></b> od pracowników dobrej pracy - z<u><b>er</u></b>o wymówek"
         ],
         // opis
         desc: "la madre[la madre] - mama",
@@ -12950,19 +13068,25 @@ id: [
         280,
         58
 ],
-        // obrazek
-        img: [
-                "http://localhost/arbulanguage.com/img/fiszkiespanol/126a.jpg"
-        ],
+    entries: [
+        {
+            id: 1,
+            img: {
+                src: "http://localhost/arbulanguage.com/img/fiszkiespanol/280a.jpg",
+                alt: ""
+            },
+            story: {
+                text: 'Koś się uśmichnął na moje kalesony, są prima sort, eee nawet fajne',
+                alt: ""
+            },
+            category: ["", ""]
+        }
+    ],
         word: [
                 "http://localhost/arbulanguage.com/voice/music.mp4"
         ],
-        // historia
-        story: [
-            "<u><b>To</u></b> <u><b>wszystko</u></b> <u><b>dos</u></b>taniecie w naszym sklepie"
-        ],
         // opis
-        desc: "sonrie[] - ",
+        desc: "sonrie[sonri-e] - uśmiech",
         //zdanie
         sentence1: [
                 "sonrie"
@@ -12985,19 +13109,49 @@ id: [
         281,
         58
 ],
-        // obrazek
-        img: [
-                "http://localhost/arbulanguage.com/img/fiszkiespanol/126a.jpg"
-        ],
+    entries: [
+        {
+            id: 1,
+            img: {
+                src: "http://localhost/arbulanguage.com/img/fiszkiespanol/17a.jpg",
+                alt: ""
+            },
+            story: {
+                text: '<span class="x"><u><b>Z</u></b></span> <span class="a"><u><b>kon</u></b></span>opiami jest niezły ubaw',
+                alt: ""
+            },
+            category: ["przemysł", "medycyna"]
+        },
+        {
+            id: 2,
+            img: {
+                src: "http://localhost/arbulanguage.com/img/fiszkiespanol/31a.jpg",
+                alt: ""
+            },
+            story: {
+                text: '<span class="x"><u><b>Z</u></b></span> takimi <span class="a"><u><b>kon</u></b></span>taktami jakie mam, lepiej jest mi podołać obowiązkom',
+                alt: ""
+            },
+            category: ["praca", "znajmomości"]
+        },
+                {
+            id: 3,
+            img: {
+                src: "http://localhost/arbulanguage.com/img/fiszkiespanol/31b.jpg",
+                alt: ""
+            },
+            story: {
+                text: '<span class="x"><u><b>Z</u></b></span> <span class="a"><u><b>kon</u></b></span>sternacją przyjąłem tę decyzję',
+                alt: ""
+            },
+            category: ["życie", "akceptacja"]
+        }
+    ],
         word: [
                 "http://localhost/arbulanguage.com/voice/music.mp4"
         ],
-        // historia
-        story: [
-            "<u><b>To</u></b> <u><b>wszystko</u></b> <u><b>dos</u></b>taniecie w naszym sklepie"
-        ],
         // opis
-        desc: "con[] - ",
+        desc: "con[kon] - z",
         //zdanie
         sentence1: [
                 "con"
@@ -13020,19 +13174,25 @@ id: [
         282,
         58
 ],
-        // obrazek
-        img: [
-                "http://localhost/arbulanguage.com/img/fiszkiespanol/126a.jpg"
-        ],
+    entries: [
+        {
+            id: 1,
+            img: {
+                src: "http://localhost/arbulanguage.com/img/fiszkiespanol/282a.jpg",
+                alt: ""
+            },
+            story: {
+                text: 'Syn jest przy mamie cicho, a przy ojcu wrzeszczy',
+                alt: ""
+            },
+            category: ["", ""]
+        }
+    ],
         word: [
                 "http://localhost/arbulanguage.com/voice/music.mp4"
         ],
-        // historia
-        story: [
-            "<u><b>To</u></b> <u><b>wszystko</u></b> <u><b>dos</u></b>taniecie w naszym sklepie"
-        ],
         // opis
-        desc: "hijo[] - ",
+        desc: "hijo[iho] - syn",
         //zdanie
         sentence1: [
                 "hijo"
@@ -13055,10 +13215,20 @@ id: [
         283,
         59
 ],
-        // obrazek
-        img: [
-                "http://localhost/arbulanguage.com/img/fiszkiespanol/131a.jpg"
-        ],
+    entries: [
+        {
+            id: 1,
+            img: {
+                src: "http://localhost/arbulanguage.com/img/fiszkiespanol/283a.jpg",
+                alt: ""
+            },
+            story: {
+                text: 'Oni mówią do siebie, gdy zaczynają rozmawiać: te... a słyszałeś to?',
+                alt: ""
+            },
+            category: ["", ""]
+        }
+    ],
         translate: "Zadzwonię do ciebie później",
         translateb: "[]",
         srcWord: ["http://localhost/arbulanguage.com/filmy/eng-esp/callback.mp4", 'Matrix 1999'],
@@ -13066,12 +13236,8 @@ id: [
         word: [
                 "http://localhost/arbulanguage.com/voice/music.mp4"
         ],
-        // historia
-        story: [
-            "<u><b>Kier</u></b>ownik <u><b>chce</u></b> od pracowników dobrej pracy - z<u><b>er</u></b>o wymówek"
-        ],
         // opis
-        desc: "te[te] - ",
+        desc: "te[te] - ty",
         //zdanie
         sentence1: [
                 "Te"
@@ -13094,19 +13260,25 @@ id: [
         284,
         59
 ],
-        // obrazek
-        img: [
-                "http://localhost/arbulanguage.com/img/fiszkiespanol/126a.jpg"
-        ],
+    entries: [
+        {
+            id: 1,
+            img: {
+                src: "http://localhost/arbulanguage.com/img/fiszkiespanol/284a.jpg",
+                alt: ""
+            },
+            story: {
+                text: 'Dżem jest słodki, a popijam winem amarena, muszę jeszcze gdzieś zadzwonić',
+                alt: ""
+            },
+            category: ["", ""]
+        }
+    ],
         word: [
                 "http://localhost/arbulanguage.com/voice/music.mp4"
         ],
-        // historia
-        story: [
-            "<u><b>To</u></b> <u><b>wszystko</u></b> <u><b>dos</u></b>taniecie w naszym sklepie"
-        ],
         // opis
-        desc: "llamaré[] - ",
+        desc: "llamaré[dżamare] - zadzwonię",
         //zdanie
         sentence1: [
                 "llamaré"
@@ -13129,19 +13301,25 @@ id: [
         285,
         59
 ],
-        // obrazek
-        img: [
-                "http://localhost/arbulanguage.com/img/fiszkiespanol/126a.jpg"
-        ],
+    entries: [
+        {
+            id: 1,
+            img: {
+                src: "http://localhost/arbulanguage.com/img/fiszkiespanol/285a.jpg",
+                alt: ""
+            },
+            story: {
+                text: 'Masło jest bardziej wartościowe niż margaryna - na chleb',
+                alt: ""
+            },
+            category: ["", ""]
+        }
+    ],
         word: [
                 "http://localhost/arbulanguage.com/voice/music.mp4"
         ],
-        // historia
-        story: [
-            "<u><b>To</u></b> <u><b>wszystko</u></b> <u><b>dos</u></b>taniecie w naszym sklepie"
-        ],
         // opis
-        desc: "más[] - ",
+        desc: "más[mas] - bardziej, więcej",
         //zdanie
         sentence1: [
                 "más"
@@ -13164,19 +13342,25 @@ id: [
         286,
         59
 ],
-        // obrazek
-        img: [
-                "http://localhost/arbulanguage.com/img/fiszkiespanol/126a.jpg"
-        ],
+    entries: [
+        {
+            id: 1,
+            img: {
+                src: "http://localhost/arbulanguage.com/img/fiszkiespanol/286a.jpg",
+                alt: ""
+            },
+            story: {
+                text: 'Póżniej będę tarł jabłko na tarce do deseru - na wieczórs',
+                alt: ""
+            },
+            category: ["", ""]
+        }
+    ],
         word: [
                 "http://localhost/arbulanguage.com/voice/music.mp4"
         ],
-        // historia
-        story: [
-            "<u><b>To</u></b> <u><b>wszystko</u></b> <u><b>dos</u></b>taniecie w naszym sklepie"
-        ],
         // opis
-        desc: "tarde[] - ",
+        desc: "tarde[tarde] - póżniej, wieczór",
         //zdanie
         sentence1: [
                 "tarde"
@@ -13199,10 +13383,20 @@ id: [
         287,
         60
 ],
-        // obrazek
-        img: [
-                "http://localhost/arbulanguage.com/img/fiszkiespanol/131a.jpg"
-        ],
+    entries: [
+        {
+            id: 1,
+            img: {
+                src: "http://localhost/arbulanguage.com/img/fiszkiespanol/287a.jpg",
+                alt: ""
+            },
+            story: {
+                text: 'Podróżowałem po Włoszech i jadełem tam obiady - te obiady mają charakter',
+                alt: ""
+            },
+            category: ["", ""]
+        }
+    ],
         translate: "Podróżowałbym więcej, gdybym miał czas",
         translateb: "[]",
         srcWord: ["http://localhost/arbulanguage.com/filmy/esp/.mp4", ''],
@@ -13210,12 +13404,8 @@ id: [
         word: [
                 "http://localhost/arbulanguage.com/voice/music.mp4"
         ],
-        // historia
-        story: [
-            "<u><b>Kier</u></b>ownik <u><b>chce</u></b> od pracowników dobrej pracy - z<u><b>er</u></b>o wymówek"
-        ],
         // opis
-        desc: "viajaria[] - ",
+        desc: "viajaria[biahara] - podróżował",
         //zdanie
         sentence1: [
                 "Viajaría"
@@ -13236,19 +13426,25 @@ id: [
         288,
         60
 ],
-        // obrazek
-        img: [
-                "http://localhost/arbulanguage.com/img/fiszkiespanol/126a.jpg"
-        ],
+    entries: [
+        {
+            id: 1,
+            img: {
+                src: "http://localhost/arbulanguage.com/img/fiszkiespanol/285a.jpg",
+                alt: ""
+            },
+            story: {
+                text: 'Masło jest bardziej wartościowe niż margaryna - na chleb',
+                alt: ""
+            },
+            category: ["", ""]
+        }
+    ],
         word: [
                 "http://localhost/arbulanguage.com/voice/music.mp4"
         ],
-        // historia
-        story: [
-            "<u><b>To</u></b> <u><b>wszystko</u></b> <u><b>dos</u></b>taniecie w naszym sklepie"
-        ],
         // opis
-        desc: "más[] - ",
+        desc: "más[mas] - bardziej, więcej",
         //zdanie
         sentence1: [
                 "más"
@@ -13269,19 +13465,25 @@ id: [
         289,
         60
 ],
-        // obrazek
-        img: [
-                "http://localhost/arbulanguage.com/img/fiszkiespanol/126a.jpg"
-        ],
+    entries: [
+        {
+            id: 1,
+            img: {
+                src: "http://localhost/arbulanguage.com/img/fiszkiespanol/289a.jpg",
+                alt: ""
+            },
+            story: {
+                text: 'Siii oznacza tak po hiszpańsku, gdybym to wiedział, lepiej by mi się podróżowało',
+                alt: ""
+            },
+            category: ["", ""]
+        }
+    ],
         word: [
                 "http://localhost/arbulanguage.com/voice/music.mp4"
         ],
-        // historia
-        story: [
-            "<u><b>To</u></b> <u><b>wszystko</u></b> <u><b>dos</u></b>taniecie w naszym sklepie"
-        ],
         // opis
-        desc: "si[] - ",
+        desc: "si[si] - gdybym",
         //zdanie
         sentence1: [
                 "si"
@@ -13303,19 +13505,25 @@ id: [
         290,
         60
 ],
-        // obrazek
-        img: [
-                "http://localhost/arbulanguage.com/img/fiszkiespanol/126a.jpg"
-        ],
+    entries: [
+        {
+            id: 1,
+            img: {
+                src: "http://localhost/arbulanguage.com/img/fiszkiespanol/290a.jpg",
+                alt: ""
+            },
+            story: {
+                text: 'Tu w poczekalni miałem przybierzyć ciuchy ale wszystkich nie przymierzyłem, bo ubierałem się za wolno',
+                alt: ""
+            },
+            category: ["", ""]
+        }
+    ],
         word: [
                 "http://localhost/arbulanguage.com/voice/music.mp4"
         ],
-        // historia
-        story: [
-            "<u><b>To</u></b> <u><b>wszystko</u></b> <u><b>dos</u></b>taniecie w naszym sklepie"
-        ],
         // opis
-        desc: "tuviera[] - ",
+        desc: "tuviera[tubiera] - miałem",
         //zdanie
         sentence1: [
                 "tuviera"
@@ -13337,19 +13545,25 @@ id: [
         291,
         60
 ],
-        // obrazek
-        img: [
-                "http://localhost/arbulanguage.com/img/fiszkiespanol/126a.jpg"
-        ],
+    entries: [
+        {
+            id: 1,
+            img: {
+                src: "http://localhost/arbulanguage.com/img/fiszkiespanol/291a.jpg",
+                alt: ""
+            },
+            story: {
+                text: 'Po pierwsze tantiemy za czas antenowy są wysokie',
+                alt: ""
+            },
+            category: ["", ""]
+        }
+    ],
         word: [
                 "http://localhost/arbulanguage.com/voice/music.mp4"
         ],
-        // historia
-        story: [
-            "<u><b>To</u></b> <u><b>wszystko</u></b> <u><b>dos</u></b>taniecie w naszym sklepie"
-        ],
         // opis
-        desc: "tiempo[] - ",
+        desc: "tiempo[tiempo] - czas",
         //zdanie
         sentence1: [
                 "tiempo"
@@ -13371,20 +13585,26 @@ id: [
         292,
         61
 ],
-        // obrazek
-        img: [
-                "http://localhost/arbulanguage.com/img/fiszkiespanol/131a.jpg"
-        ],
+    entries: [
+        {
+            id: 1,
+            img: {
+                src: "http://localhost/arbulanguage.com/img/fiszkiespanol/292a.jpg",
+                alt: ""
+            },
+            story: {
+                text: 'KOGANTY - EL RESULATAD0 - RESULTAT',
+                alt: ""
+            },
+            category: ["kognaty", "resultado"]
+        }
+    ],
         translate: "Wynik przerósł nasze oczekiwania",
         translateb: "[]",
         srcWord: ["http://localhost/arbulanguage.com/filmy/esp/.mp4", ''],
         srcWordimage: "http://localhost/arbulanguage.com/filmy/esp/.png",
         word: [
                 "http://localhost/arbulanguage.com/voice/music.mp4"
-        ],
-        // historia
-        story: [
-            "<u><b>Kier</u></b>ownik <u><b>chce</u></b> od pracowników dobrej pracy - z<u><b>er</u></b>o wymówek"
         ],
         // opis
         desc: "el resultado[] - ",
@@ -13408,19 +13628,25 @@ id: [
         293,
         61
 ],
-        // obrazek
-        img: [
-                "http://localhost/arbulanguage.com/img/fiszkiespanol/126a.jpg"
-        ],
+    entries: [
+        {
+            id: 1,
+            img: {
+                src: "http://localhost/arbulanguage.com/img/fiszkiespanol/293a.jpg",
+                alt: ""
+            },
+            story: {
+                text: 'Super, że jedziesz przepisowo, nie przekraczasz prędkości',
+                alt: ""
+            },
+            category: ["kognaty", "resultado"]
+        }
+    ],
         word: [
                 "http://localhost/arbulanguage.com/voice/music.mp4"
         ],
-        // historia
-        story: [
-            "<u><b>To</u></b> <u><b>wszystko</u></b> <u><b>dos</u></b>taniecie w naszym sklepie"
-        ],
         // opis
-        desc: "superó[] - ",
+        desc: "superó[supero] - przkroczony",
         //zdanie
         sentence1: [
                 "superó"
@@ -13441,19 +13667,25 @@ id: [
         294,
         61
 ],
-        // obrazek
-        img: [
-                "http://localhost/arbulanguage.com/img/fiszkiespanol/126a.jpg"
-        ],
+    entries: [
+        {
+            id: 1,
+            img: {
+                src: "http://localhost/arbulanguage.com/img/fiszkiespanol/294a.jpg",
+                alt: ""
+            },
+            story: {
+                text: 'A nuż nasze akcje na giełdzie pójdą ekstra w górę, super by było',
+                alt: ""
+            },
+            category: ["kognaty", "resultado"]
+        }
+    ],
         word: [
                 "http://localhost/arbulanguage.com/voice/music.mp4"
         ],
-        // historia
-        story: [
-            "<u><b>To</u></b> <u><b>wszystko</u></b> <u><b>dos</u></b>taniecie w naszym sklepie"
-        ],
         // opis
-        desc: "nuestras[] - ",
+        desc: "nuestras[nuestras] - nasz/nasze",
         //zdanie
         sentence1: [
                 "nuestras"
@@ -13474,19 +13706,25 @@ id: [
         295,
         61
 ],
-        // obrazek
-        img: [
-                "http://localhost/arbulanguage.com/img/fiszkiespanol/126a.jpg"
-        ],
+    entries: [
+        {
+            id: 1,
+            img: {
+                src: "http://localhost/arbulanguage.com/img/fiszkiespanol/294a.jpg",
+                alt: ""
+            },
+            story: {
+                text: '',
+                alt: ""
+            },
+            category: ["kognaty", "resultado"]
+        }
+    ],
         word: [
                 "http://localhost/arbulanguage.com/voice/music.mp4"
         ],
-        // historia
-        story: [
-            "<u><b>To</u></b> <u><b>wszystko</u></b> <u><b>dos</u></b>taniecie w naszym sklepie"
-        ],
         // opis
-        desc: "expectativas[] - ",
+        desc: "expectativas[ekspektatiwas] - oczekiwania",
         //zdanie
         sentence1: [
                 "expectativas"
@@ -14045,7 +14283,6 @@ function countMultiVersionFiszkiForLesson(fiszkiArray, lessonId2) {
 
 // Obiekt do przechowywania historii fiszek dla każdej lekcji
 const selectedFiszkiHistoryByLesson = {};
-console.log(`Generating100`, selectedFiszkiHistoryByLesson);
 // ==============================
 // ŁADOWANIE OBRAZKA (Promise)
 // ==============================
@@ -14063,18 +14300,10 @@ console.log(`Generating100+`, matrixCountBySentence);
 const matrixQueueByLesson = {};
 
     function generateOrUpdateMatrix(fiszkiArray, sentenceId, selectedFiszkiHistory, fiszkaContainer, highlightedIdFiszki) {
-    
-console.log("START MATRIX");
-console.log("sentenceId:", sentenceId);
-console.log("selectedFiszkiHistory:", selectedFiszkiHistory);
-console.log("fiszkaContainer:", fiszkaContainer);
-    console.log("lessonId:", sentenceId);
-console.log("history:", selectedFiszkiHistory);
-console.log("container:", fiszkaContainer);
 
     const fiszki = fiszkiArray.filter(f => f.id[1] === sentenceId);
     if (!fiszki.length || !selectedFiszkiHistory.length || !fiszkaContainer) return;
-console.log(`Generating1002`, selectedFiszkiHistory);
+
     let topWords = [];
     let bottomWords = [];
     let desc = [];
@@ -14114,10 +14343,8 @@ const key = sentenceId + "_" + sentenceId;
 if (!matrixCountBySentence[key]) matrixCountBySentence[key] = 0;
 
 const matrixIndex = matrixCountBySentence[key]++;
-    console.log(`Generating100+1`, matrixCountBySentence[sentenceId]);
-        console.log(`Generating100+2`, matrixIndex);
     const highlightedImgIndex = matrixIndex % selectedFiszkiHistory.length;
-        console.log(`Generating100+22`, highlightedImgIndex);
+    
     function createRow(words, startIndex) {
         const $row = $('<div>').css({ display: 'flex', justifyContent: 'center', gap: GAP + 'px' });
 
@@ -14126,7 +14353,6 @@ const matrixIndex = matrixCountBySentence[key]++;
             const imgObj = selectedFiszkiHistory[imgIndex];
             const entry = desc[startIndex + i];
 
-console.log('hej1100', imgObj);
 const $cell = $('<div>').css({
     width: cellWidth + 'px',
     height: cellHeight + 'px',
@@ -14195,7 +14421,6 @@ function generateFiszkaBlock(fiszka, lessonId2, category) {
     // dalsza logika tworzenia bloku fiszki...
 
     var currentStoryButtonName = ''; // Zmienna lokalna
-    console.log(`Generating fiszka block for ID100`, category);
 
     // Tworzenie kontenera fiszki
 
@@ -14230,8 +14455,6 @@ function generateFiszkaBlock(fiszka, lessonId2, category) {
             pButton.style.alignItems = 'center';
             pButton.style.justifyContent = 'center';
             pButton.style.overflow = 'hidden';    // Ukrycie nadmiarowego kontentu
-            console.log('Initialized audio element with ID:', audioId);
-            console.log('Initialized play/pause button with ID:', pButtonId);
 
             // Play and Pause
             function playb() {
@@ -14247,7 +14470,6 @@ function generateFiszkaBlock(fiszka, lessonId2, category) {
                     pButton.classList.remove("pause");
                     pButton.classList.add("play");
                 }
-                console.log('Audio playback status:', music.paused ? 'Paused' : 'Playing');
             }
 
             // Gets audio file duration
@@ -14258,15 +14480,13 @@ function generateFiszkaBlock(fiszka, lessonId2, category) {
 
             // Dodajemy event listener do przycisku play/pause
             pButton.addEventListener('click', playb);
-
-            console.log('Audio initialization completed.');
         }
 
 // TWORZENIE KONTENERA FISZKI
 let fiszkaContainer = $('<div>')
     .addClass('fiszka fiszka-' + fiszka.id)
     .attr('data-lesson-id', lessonId2);
-console.log('Hej4442', fiszkaContainer);
+
 // Łączy tylko fragmenty słowa przylegające do span.a/b/c/d/x
 function wrapLogicalWords(storyElement) {
     if (!storyElement) return;
@@ -14525,15 +14745,12 @@ const imgContainer = $('<div>').addClass('fiszka_img_container');
             fiszkaContainer.append(imgContainer);
             
         const selectedLikes = [];
-        console.log('hej10', selectedLikes);
 
 // Funkcja do obsługi kliknięcia na przycisk "likeButton"
         function handleLikeButtonClick(index) {
             const likeButton = $(this);
             const storyButton = fiszkaContainer.find('.story_button').eq(index);
             const selectedLike = likeButton.text();
-            console.log('Zaktualizowano przycisk dla indeksu:', index);
-            console.log('Aktualne wartości selectedLikes:', selectedLikes);
         }
         const likeButton = $('<a>').addClass('like').attr('href', '#');
         const likeText = $('<span>').text('Śmieszna historia');
@@ -14648,9 +14865,6 @@ const imgContainer = $('<div>').addClass('fiszka_img_container');
 
 // Funkcja do zapisywania wybranego "like"
         function saveSelectedLike(selectedLike, text) {
-            // Tutaj możesz zapisać wybrany "like" w odpowiednim kontekście, np. wysłać go na serwer, zapisać w lokalnym magazynie itp.
-            console.log('Wybrany like:', text);
-            console.log('Tekst:', text);
             // Jeśli chcesz użyć go w innych miejscach, możesz przekazać go jako argument do innych funkcji lub zmiennych.
         }
 
@@ -14678,28 +14892,22 @@ const imgContainer = $('<div>').addClass('fiszka_img_container');
 
 
 function showStory(idFiszki) {
-    console.log('Wywołano showStory:', idFiszki);
 
     const currentFiszka = fiszkaContainer;
-    console.log('Aktualny kontener:', currentFiszka);
 
     // Ukrywamy wszystkie obrazy
     currentFiszka.find('.fiszka_img').hide();
 
     const currentEntry = fiszka.entries[idFiszki];
     if (!currentEntry) {
-        console.error("Nie znaleziono fiszki dla id:", idFiszki);
         return;
     }
-
-    console.log("Wybrana fiszka:", currentEntry);
 
     let imgIndex = idFiszki;
 
     // 🔹 RANDOM tylko gdy jest wiele wersji
     if (Array.isArray(fiszka.entries) && fiszka.entries.length > 1) {
         imgIndex = Math.floor(Math.random() * fiszka.entries.length);
-        console.log("Wylosowany indeks obrazka:", imgIndex);
     }
 
     // 🔹 ZAPIS wylosowanej wersji w kontenerze (kluczowe dla APPROVE)
@@ -14737,11 +14945,6 @@ function showStory(idFiszki) {
             multiVersion: isMultiVersion,
             timestamp: new Date().toISOString()
         });
-
-        console.log(
-            "hej333",
-            selectedFiszkiHistory[selectedFiszkiHistory.length - 1]
-        );
 
     } else {
         console.warn("Brak obrazka w fiszce:", currentEntry);
@@ -15054,13 +15257,8 @@ if (Array.isArray(fiszka.entries) && fiszka.entries.length > 0) {
     fiszka.entries.forEach((story, index) => {
                 const storyContainer = $('<div>').addClass('fiszka_story story-' + index).html(index);
                 fiszkaContainer.append(storyContainer);
-                console.log("Dodano story: ", index);  // Debugowanie
             });
         }
-        console.log('Przed utworzeniem wordDiv');
-
-
-        console.log('Po utworzeniu wordDiv');
     let initialSpecificLesson2Ref;
     let specificLesson2Ref;
     let lastClickedIndex = null;
@@ -15069,8 +15267,7 @@ if (Array.isArray(fiszka.entries) && fiszka.entries.length > 0) {
     let approvedColors = [];
 
     let index10 = [];
-    const startIndex = fiszka.id[0];
-    console.log("hej1000", fiszka.id[0]); 
+    const startIndex = fiszka.id[0]; 
     if (Array.isArray(fiszka.entries) && fiszka.entries.length > 0) {
 
 
@@ -15134,13 +15331,9 @@ if (Array.isArray(fiszka.entries) && fiszka.entries.length > 0) {
 // Ustawiamy startIndex dla lekcji, jeśli jeszcze nie został ustawiony
 if (startIndexByLesson[lessonId2] === undefined) {
     startIndexByLesson[lessonId2] = fiszka.id[0];
-    console.log("StartIndex dla lekcji", lessonId2, startIndexByLesson[lessonId2]);
 }
 
 const startIndex2 = startIndexByLesson[lessonId2];
-console.log('start100', startIndexByLesson[lessonId2]);
-console.log('startIndex for lesson5', startIndex2);
-console.log('startIndex for lesson', startIndex);
 
 // --- 4️⃣ Tworzymy przyciski dla każdego wpisu w fiszce
 fiszka.entries.forEach((entry, index) => {
@@ -15157,16 +15350,15 @@ if (isIncluded) {
 
         // ✅ Ustawiamy idFiszki dynamicznie
         const idFiszki = entry.id || index;
-        showStory(index, idFiszki);
+        showStory(index);
         lastClickedIndex = index;
 
         // zapamiętujemy wersję
         const idFiszki2 = fiszka.id ? fiszka.id[0] : index;
         console.log("idFiszki2:", idFiszki2);
-        console.log("startIndex2:", startIndex2);
 
         // 🔹 Obliczamy indeks relatywny względem pierwszej fiszki w lekcji
-        const relativeIndex = idFiszki2 - startIndex2;
+        const relativeIndex = startIndex2 + idFiszki2;
         console.log('relativeIndex', relativeIndex);
 
         // 🔹 Aktualizujemy historię dla tej lekcji
@@ -15256,13 +15448,11 @@ if (isIncluded) {
 
         const idFiszki = fiszka.entries[randomButtonIndex].id || randomButtonIndex;
         showStory(index10, idFiszki);
-        console.log(`Wywołano showStory dla przycisku: ${randomButtonIndex} z id.fiszki: ${idFiszki}`);
 } else if (Array.isArray(fiszka.entries) && fiszka.entries.length > 0) {
             // Jeśli fiszka.category1 nie jest tablicą
             newImgIndex = 0; // Przypisanie domyślnego indeksu dla pojedynczego obrazka
             specificLesson2Ref = fiszka.img; // Przypisanie pojedynczej wartości do specificLesson2Ref
             initialSpecificLesson2Ref = specificLesson2Ref;
-            console.log('Hej7', specificLesson2Ref);
 
             // Stwórz pojedynczy przycisk dla pojedynczej wartości category1
             const displayText = `${fiszka.category1} #${fiszka.category1}`;
@@ -15365,19 +15555,13 @@ const intervalId = setInterval(scheduleNotification, 60000);
                 console.log('hej200', third);
 
             }
-
-            console.log("Trening clicked on fiszka nr " + fiszka.id);
-            console.log("lessonId2:", lessonId2);
-            console.log("nazwa", lessons2b[2]);
             // Wyswietlenie danej wartości img dla danej fiszka.id
             const specificLesson2 = specificLesson2Ref || initialSpecificLesson2Ref;
             console.log("img dla fiszki o id", fiszka.id, ":", specificLesson2);
             specificLesson2Ref = fiszka.img;
-            // Znajdź indeks dla danej fiszki w tablicy lessons2[lessonId2]
-            console.log('story55', specificLesson2Ref);
             // Używamy lastClickedIndex zamiast index
             imgIndex = showStory(lastClickedIndex); // Wywołanie funkcji showStory i zapisanie zwróconego indeksu obrazka
-            console.log('działa', specificLesson2Ref);
+
             aktywujObrazek(first, second, third, specificLesson2, 'obrazek-container2b', true, fiszka, imgIndex); // Przekazanie imgIndex do funkcji aktywujObrazek
             // Dodajemy zatwierdzony indeks do tablicy
             approvedIndexes.push(lastClickedIndex);
@@ -15412,7 +15596,6 @@ const intervalId = setInterval(scheduleNotification, 60000);
   window._wsPlayers = window._wsPlayers || [];
 
   if (!(fiszka && (fiszka.word2 || fiszka.word3 || fiszka.word4))) return;
-  console.log('Ładuję frazy dla fiszki ID:', fiszka.id);
 
   const phrasesButton = $('<button>')
     .addClass('phrases-button')
@@ -15654,9 +15837,7 @@ $('.grid-containerb').append(fiszkaContainer);
 
 }
 function generateFiszkaBlock2(fiszka, lessonId2) {
-    console.log('hej555xxv', fiszka);
     var currentStoryButtonName = ''; // Zmienna lokalna
-    console.log(`Generating fiszka block for ID: [${fiszka.id.join(', ')}]`);
 
     // Tworzenie kontenera fiszki
 
@@ -15686,8 +15867,6 @@ function generateFiszkaBlock2(fiszka, lessonId2) {
             pButton.style.alignItems = 'center';
             pButton.style.justifyContent = 'center';
             pButton.style.overflow = 'hidden';    // Ukrycie nadmiarowego kontentu
-            console.log('Initialized audio element with ID:', audioId);
-            console.log('Initialized play/pause button with ID:', pButtonId);
 
             // Play and Pause
             function playb() {
@@ -15709,13 +15888,10 @@ function generateFiszkaBlock2(fiszka, lessonId2) {
             // Gets audio file duration
             music.addEventListener("canplaythrough", function () {
                 var duration = music.duration;
-                console.log('Audio duration:', duration);
             }, false);
 
             // Dodajemy event listener do przycisku play/pause
             pButton.addEventListener('click', playb);
-
-            console.log('Audio initialization completed.');
         }
 
 // TWORZENIE KONTENERA FISZKI
@@ -15772,7 +15948,6 @@ function generateFiszkaBlock2(fiszka, lessonId2) {
         fiszkaContainer.append(imgContainer); //DODANIE OBRAZKA
 
         const selectedLikes = [];
-        console.log('hej10', selectedLikes);
 
 // Funkcja do obsługi kliknięcia na przycisk "likeButton"
         function handleLikeButtonClick(index) {
@@ -15896,8 +16071,7 @@ function generateFiszkaBlock2(fiszka, lessonId2) {
 // Funkcja do zapisywania wybranego "like"
         function saveSelectedLike(selectedLike, text) {
             // Tutaj możesz zapisać wybrany "like" w odpowiednim kontekście, np. wysłać go na serwer, zapisać w lokalnym magazynie itp.
-            console.log('Wybrany like:', text);
-            console.log('Tekst:', text);
+
             // Jeśli chcesz użyć go w innych miejscach, możesz przekazać go jako argument do innych funkcji lub zmiennych.
         }
 
@@ -15948,12 +16122,10 @@ function generateFiszkaBlock2(fiszka, lessonId2) {
                 imgIndex = Math.min(index, fiszka.img.length - 1);
                 currentFiszka.find('.fiszka_img').eq(imgIndex).show();
                 specificLesson2Ref = fiszka.img[imgIndex];
-                console.log("Index obrazka:", imgIndex);
             } else {
                 imgIndex = 0; // Ustawienie imgIndex na 0, gdy fiszka.img nie jest tablicą
                 currentFiszka.find('.fiszka_img').eq(imgIndex).show();
                 specificLesson2Ref = fiszka.img;
-                console.log("Index obrazka:", imgIndex);
             }
 
             lastClickedIndex = index;

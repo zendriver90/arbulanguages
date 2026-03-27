@@ -110,10 +110,6 @@ cursor:pointer;
 <script>
 // Wywołaj funkcję z otrzymaną wartością
 function wybierzRodzaj(category, one, two, three) {
-    
-        console.log("Wybrany rodzaj słownictwa: " + category);
-    console.log("Parametry data -> one:", one, "two:", two, "three:", three);
-    console.log("Wybrany rodzaj słownictwa: " + category);
 
     const matchingLessons = [];
 
@@ -121,7 +117,6 @@ function wybierzRodzaj(category, one, two, three) {
     if (category === 'all') {
         // Dodaj wszystkie lekcje do matchingLessons
         for (const fiszka of fiszki) {
-            console.log(`Przetwarzanie fiszki: ${JSON.stringify(fiszka)}`);
             // Sprawdzanie, czy fiszka ma poprawne id
             if (fiszka.id && fiszka.id[1]) {
                 // Sprawdzanie, czy id już jest w matchingLessons, aby uniknąć duplikatów
@@ -133,7 +128,6 @@ function wybierzRodzaj(category, one, two, three) {
     } else if (category === 'sport') {
         // Dodaj wszystkie lekcje do matchingLessons
         for (const fiszka of fiszki) {
-            console.log(`Przetwarzanie fiszki: ${JSON.stringify(fiszka)}`);
             // Sprawdzanie, czy fiszka ma poprawne id
             if (fiszka.id && fiszka.id[1]) {
                 // Sprawdzanie, czy id już jest w matchingLessons, aby uniknąć duplikatów
@@ -145,7 +139,6 @@ function wybierzRodzaj(category, one, two, three) {
     } else if (category === 'natura') {
         // Dodaj wszystkie lekcje do matchingLessons
         for (const fiszka of fiszki) {
-            console.log(`Przetwarzanie fiszki: ${JSON.stringify(fiszka)}`);
             // Sprawdzanie, czy fiszka ma poprawne id
             if (fiszka.id && fiszka.id[1]) {
                 // Sprawdzanie, czy id już jest w matchingLessons, aby uniknąć duplikatów
@@ -157,7 +150,6 @@ function wybierzRodzaj(category, one, two, three) {
     } else if (category === 'nauka') {
         // Dodaj wszystkie lekcje do matchingLessons
         for (const fiszka of fiszki) {
-            console.log(`Przetwarzanie fiszki: ${JSON.stringify(fiszka)}`);
             // Sprawdzanie, czy fiszka ma poprawne id
             if (fiszka.id && fiszka.id[1]) {
                 // Sprawdzanie, czy id już jest w matchingLessons, aby uniknąć duplikatów
@@ -169,7 +161,6 @@ function wybierzRodzaj(category, one, two, three) {
     } else if (category === 'czarny humor' || category === 'czarnyhumor') {
         // Dodaj wszystkie lekcje do matchingLessons
         for (const fiszka of fiszki) {
-            console.log(`Przetwarzanie fiszki: ${JSON.stringify(fiszka)}`);
             // Sprawdzanie, czy fiszka ma poprawne id
             if (fiszka.id && fiszka.id[1]) {
                 // Sprawdzanie, czy id już jest w matchingLessons, aby uniknąć duplikatów
@@ -181,7 +172,6 @@ function wybierzRodzaj(category, one, two, three) {
     } else if (category === 'zwiazki') {
         // Dodaj wszystkie lekcje do matchingLessons
         for (const fiszka of fiszki) {
-            console.log(`Przetwarzanie fiszki: ${JSON.stringify(fiszka)}`);
             // Sprawdzanie, czy fiszka ma poprawne id
             if (fiszka.id && fiszka.id[1]) {
                 // Sprawdzanie, czy id już jest w matchingLessons, aby uniknąć duplikatów
@@ -193,7 +183,6 @@ function wybierzRodzaj(category, one, two, three) {
     } else {
     // Iteracja przez fiszki
     for (const fiszka of fiszki) {
-        console.log(`Przetwarzanie fiszki: ${JSON.stringify(fiszka)}`);
 if (fiszka.category !== 'all') {
         // Sprawdzenie, czy kategoria fiszki nie jest równa 'all'
         if (fiszka.category !== 'all') {

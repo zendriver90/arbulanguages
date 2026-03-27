@@ -2867,7 +2867,7 @@ id: [
             "<u><b>To</u></b> <u><b>wszystko</u></b> <u><b>dos</u></b>taniecie w naszym sklepie"
         ],
         // opis
-        desc: "aqui[] - ",
+        desc: "aqui[aki] - tutaj",
         //zdanie
         sentence1: [
                 "aqui"

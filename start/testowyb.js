@@ -555,7 +555,7 @@ const fiszki10 = [
         {
             id: 3,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/7c.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/7c.jpg",
                 alt: "Loty balonowe. Wygenerowane przez AI."
             },
             story: {
@@ -567,7 +567,7 @@ const fiszki10 = [
         {
             id: 4,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/7d.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/7d.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -579,7 +579,7 @@ const fiszki10 = [
         {
             id: 5,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/7e.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/7e.jpg",
                 alt: "Smakowanie przysmaków. Wygenerowane przez AI."
             },
             story: {
@@ -1888,18 +1888,6 @@ const fiszki10 = [
                 alt: "Rodzaje warzyw. Czy trudno jest kupić ziemniak batat?"
             },
             category: ["czarny humor", "zakupy"]
-        },
-        {
-            id: 5,
-            img: {
-                src: "https://www.arbulang.com/img/fiszki1/22e.jpg",
-                alt: "Wygenerowane przez AI."
-            },
-            story: {
-                text: "",
-               alt: ""
-            },
-            category: ["związki", "wystąpienia publiczne"]
         }
     ],
         srcWord2: ["https://www.arbulang.com/filmy/procedure.mp4", "Breaking Bad"],
@@ -38324,7 +38312,22 @@ const fiszki10 = [
         category2: ["okresleniaMiejsca"]
     }
 ];
+console.log('✅ createSentenceMatrix loaded');
 
+function createMatrix() {
+    console.log('🔥 MATRIX START');
+
+    const matrix = $('<div class="matrix">');
+
+    const row = $('<div class="matrix-row">');
+
+    for (let i = 0; i < 5; i++) {
+        row.append('<div class="cell"></div>');
+    }
+
+    matrix.append(row);
+    return matrix;
+}
 let totalTrainingFiszkaCount = 0;
   let trainingFiszkaCount = 0;
   let badgeProgressCount = 0;
@@ -38632,7 +38635,217 @@ function printLessons2b() {
 document.addEventListener('DOMContentLoaded', function () {
     setTimeout(printLessons2b, 1000);  // Opóźnienie dla pewności
 });
+// --- wrapWords: owijanie tokenów w .tts-word (robione tylko raz) ---
+function wrapWords(storyEl) {
+  if (!storyEl || storyEl.dataset.ttsWrapped === "1") return;
+  // Elementy które chcesz traktować jako jednen "fonem/sylabę"
+  const specialSelector = ".a, .b, .c, .x";
+
+  // 1) Oznacz specjalne elementy jako .tts-word (nie zmieniamy ich struktury)
+  storyEl.querySelectorAll(specialSelector).forEach(el => {
+    el.classList.add("tts-word");
+  });
+
+  // 2) Przetwórz drzewa potomne - tekstowe węzły dzielimy na tokeny (zachowujemy spacje)
+  function processNode(node) {
+    if (node.nodeType === Node.TEXT_NODE) {
+      const text = node.textContent;
+      if (!text || !text.trim()) return; // same spacje/puste - zachowaj jako text node
+      // rozbijamy, ale zachowujemy spacje jako osobne elementy
+      const parts = text.split(/(\s+)/); // przechwytuje spacje
+      const frag = document.createDocumentFragment();
+      parts.forEach(part => {
+        if (part === "") return;
+        if (part.match(/^\s+$/)) {
+          frag.appendChild(document.createTextNode(part));
+        } else {
+          const span = document.createElement("span");
+          span.className = "tts-word";
+          span.textContent = part;
+          frag.appendChild(span);
+        }
+      });
+      node.parentNode.replaceChild(frag, node);
+    } else if (node.nodeType === Node.ELEMENT_NODE) {
+      // Jeśli element już jest .tts-word (np. .a .b itd.), nie wchodzimy w jego wnętrze
+      if (node.classList && node.classList.contains("tts-word")) return;
+      // Przetwarzamy kopię childNodes, bo będziemy je modyfikować
+      Array.from(node.childNodes).forEach(child => processNode(child));
+    }
+  }
+
+  Array.from(storyEl.childNodes).forEach(child => processNode(child));
+  storyEl.dataset.ttsWrapped = "1";
+}
+function warmUpSpanishVoice() {
+    const u = new SpeechSynthesisUtterance(' ');
+    u.lang = 'es-ES';
+    u.volume = 0; // 🔇 cisza
+    speechSynthesis.speak(u);
+}
+
+// wywołaj po pierwszej interakcji użytkownika
+document.addEventListener('click', function once() {
+    warmUpSpanishVoice();
+    document.removeEventListener('click', once);
+});
+function countMultiVersionFiszkiForLesson(fiszkiArray, lessonId2) {
+    let count = 0;
+
+    fiszkiArray.forEach(fiszka => {
+        // Sprawdzenie, czy fiszka należy do tej lekcji
+        if (!Array.isArray(fiszka.id) || fiszka.id[1] !== lessonId2) {
+            return; // pomijamy fiszki z innych lekcji
+        }
+
+        // Sprawdzenie entries
+        if (Array.isArray(fiszka.entries) && fiszka.entries.length > 1) {
+            count++;
+            console.log(`✅ Fiszka ID ${fiszka.id[0]} ma wiele wersji (${fiszka.entries.length})`);
+        }
+    });
+
+    return count;
+}
+
+// Obiekt do przechowywania historii fiszek dla każdej lekcji
+const selectedFiszkiHistoryByLesson = {};
+console.log(`Generating100`, selectedFiszkiHistoryByLesson);
+// ==============================
+// ŁADOWANIE OBRAZKA (Promise)
+// ==============================
+function loadImage(src) {
+    return new Promise((resolve, reject) => {
+        const img = new Image();
+        img.onload = () => resolve(img);
+        img.onerror = reject;
+        img.src = src;
+    });
+}
+
+const matrixCountBySentence = {};
+console.log(`Generating100+`, matrixCountBySentence);
+const matrixQueueByLesson = {};
+
+    function generateOrUpdateMatrix(fiszkiArray, sentenceId, selectedFiszkiHistory, fiszkaContainer, highlightedIdFiszki) {
+
+    const fiszki = fiszkiArray.filter(f => f.id[1] === sentenceId);
+    if (!fiszki.length || !selectedFiszkiHistory.length || !fiszkaContainer) return;
+    let topWords = [];
+    let bottomWords = [];
+    let desc = [];
+    fiszki.forEach(f => {
+        if (Array.isArray(f.sentence1)) topWords.push(...f.sentence1);
+        if (Array.isArray(f.sentence2)) bottomWords.push(...f.sentence2);
+        if (f.desc) desc.push(f.desc); // ✅ poprawnie pobiera desc
+    });
+
+    let $matrixContainer = fiszkaContainer.next('.fiszka-matrix-container');
+    if (!$matrixContainer.length) {
+        $matrixContainer = $('<div>')
+            .addClass('fiszka-matrix-container')
+            .attr('data-lesson', sentenceId)
+            .css({
+                width: '100%',
+                display: 'flex',
+                flexDirection: 'column',
+                alignItems: 'center',
+                gap: '12px',
+                marginTop: '12px'
+            });
+        fiszkaContainer.after($matrixContainer);
+    }
+
+    $matrixContainer.empty();
+
+const GAP = 12;
+
+// 🔒 stały rozmiar komórki matrycy
+const cellWidth = 220;
+const cellHeight = 150;
+
+    // licznik matryc dla tego zdania
+const key = sentenceId + "_" + sentenceId;
+
+if (!matrixCountBySentence[key]) matrixCountBySentence[key] = 0;
+
+const matrixIndex = matrixCountBySentence[key]++;
+
+    const highlightedImgIndex = matrixIndex % selectedFiszkiHistory.length;
+    
+    function createRow(words, startIndex) {
+        const $row = $('<div>').css({ display: 'flex', justifyContent: 'center', gap: GAP + 'px' });
+
+        words.forEach((word, i) => {
+            const imgIndex = (startIndex + i) % selectedFiszkiHistory.length;
+            const imgObj = selectedFiszkiHistory[imgIndex];
+            const entry = desc[startIndex + i];
+const $cell = $('<div>').css({
+    width: cellWidth + 'px',
+    height: cellHeight + 'px',
+    border: '2px solid #000',
+    borderRadius: '12px',   // 👈 tutaj dodany border-radius
+    display: 'flex',
+    flexDirection: 'column',
+    alignItems: 'center',
+    justifyContent: 'center'
+});
+
+            // 🔥 TRYB APPROVE
+            if (MATRIX_MODE === 'APPROVE' && imgObj?.multiVersion) {
+                $('<div>').text('❓').css({
+                    fontSize: cellHeight * 0.4 + 'px',
+                    fontWeight: 'bold'
+                }).appendTo($cell);
+            } else if (imgObj?.img?.src) {
+                $('<img>').attr('src', imgObj.img.src).css({
+                    maxWidth: '100%',
+                    maxHeight: '60%',
+                    objectFit: 'contain'
+                }).appendTo($cell);
+            }
+// ===== DESC =====
+if (entry) {
+    $('<div>')
+        .html(entry) // entry2 to Twój opis
+        .css({
+            marginTop: '4px',
+            fontSize: '12px',
+            textAlign: 'center',
+            color: '#333',
+            overflow: 'hidden',
+            textOverflow: 'ellipsis'
+        })
+        .appendTo($cell);
+}
+if (imgObj.idFiszki === highlightedIdFiszki) {
+    $cell.css({ border: '4px solid red' });
+} else if (imgIndex === highlightedImgIndex && !highlightedIdFiszki) {
+                $cell.css({ border: '4px solid red' });
+            } else {
+    $cell.css({ border: '2px solid #000' });
+}
+
+            $row.append($cell);
+        });
+
+        return $row;
+    }
+
+    const $topRow = createRow(topWords, 0);
+    const $bottomRow = createRow(bottomWords, topWords.length);
+
+    $matrixContainer.append($topRow, $bottomRow);
+}
+const startIndexByLesson = {};
+const startIndexByLesson2 = {};
+let lastLessonId = null;
+
+let isLessonLoading = false;
+let lastClickedIndex = 0;
 function generateFiszkaBlock(fiszka, lessonId2, category) {
+    
+    // dalsza logika tworzenia bloku fiszki...
 
     var currentStoryButtonName = ''; // Zmienna lokalna
     console.log(`Generating fiszka block for ID100`, category);
@@ -38640,10 +38853,13 @@ function generateFiszkaBlock(fiszka, lessonId2, category) {
     // Tworzenie kontenera fiszki
 
     $(document).ready(function () {
-
+    // Upewniamy się, że historia dla tej lekcji istnieje
+    if (!selectedFiszkiHistoryByLesson[lessonId2]) {
+        selectedFiszkiHistoryByLesson[lessonId2] = [];
+    }
+    
+    const selectedFiszkiHistory = selectedFiszkiHistoryByLesson[lessonId2];
         function initAudio(fiszkaId) {
-            var audioId = 'music' + fiszkaId;
-            var pButtonId = 'pButton' + fiszkaId;
 
             var music = document.getElementById(audioId);
             var pButton = document.getElementById(pButtonId);
@@ -38698,9 +38914,235 @@ function generateFiszkaBlock(fiszka, lessonId2, category) {
         }
 
 // TWORZENIE KONTENERA FISZKI
-        let fiszkaContainer = $('<div>').addClass('fiszka fiszka-' + fiszka.id);
+let fiszkaContainer = $('<div>')
+    .addClass('fiszka fiszka-' + fiszka.id)
+    .attr('data-lesson-id', lessonId2);
 console.log('Hej4442', fiszkaContainer);
+// Łączy tylko fragmenty słowa przylegające do span.a/b/c/d/x
+function wrapLogicalWords(storyElement) {
+    if (!storyElement) return;
 
+    // Znajdź wszystkie logiczne spany (statyczna NodeList)
+    const logicalSpans = Array.from(storyElement.querySelectorAll('span.a, span.b, span.c, span.d, span.x'));
+
+    logicalSpans.forEach(originalSpan => {
+        // Jeśli span już został przerobiony (np. ma już klasę tts-word wewnątrz), pomiń
+        if (originalSpan.closest('.tts-word')) return;
+
+        // 1) Wyciągnij ewentualne końcówkowe znaki słowa z poprzedniego textNode (np. "H" przed spanem)
+        let prefix = '';
+        const prev = originalSpan.previousSibling;
+        if (prev && prev.nodeType === Node.TEXT_NODE) {
+            const m = prev.textContent.match(/(\S+)$/); // trailing non-space
+            if (m) {
+                prefix = m[1]; // np. "H"
+                // usuń tę końcówkę z prev
+                prev.textContent = prev.textContent.slice(0, prev.textContent.length - prefix.length);
+                if (prev.textContent === '') prev.remove();
+            }
+        }
+
+        // 2) Wyciągnij ewentualne początkujące znaki słowa z next textNode (np. "ra" po spanie)
+        let suffix = '';
+        const next = originalSpan.nextSibling;
+        if (next && next.nodeType === Node.TEXT_NODE) {
+            const m2 = next.textContent.match(/^(\S+)/); // leading non-space
+            if (m2) {
+                suffix = m2[1];
+                // usuń tę część z next (zostaw resztę, w tym spacje)
+                next.textContent = next.textContent.slice(suffix.length);
+                if (next.textContent === '') next.remove();
+            }
+        }
+
+        // 3) Stwórz wrapper .tts-word i wstaw: prefix (jako text), originalSpan (clone), suffix (text)
+        const wrapper = document.createElement('span');
+        wrapper.className = 'tts-word';
+
+        if (prefix) wrapper.appendChild(document.createTextNode(prefix));
+        // przenosimy oryginalny span do wrapper (zachowa swoje klasy i <u>/<b>)
+        wrapper.appendChild(originalSpan.cloneNode(true));
+        if (suffix) wrapper.appendChild(document.createTextNode(suffix));
+
+        // Zamień oryginalny span (który został sklonowany) — usuń oryginał i wstaw wrapper w jego miejscu
+        originalSpan.parentNode.insertBefore(wrapper, originalSpan);
+        originalSpan.remove();
+    });
+
+    // 4) Teraz zamieniamy pozostałe textNode (te, które nie były częścią spanów) na pojedyncze .tts-word słowa
+    // (zachowujemy rozdzielenie spacjami/punktacją)
+    const childNodes = Array.from(storyElement.childNodes);
+    childNodes.forEach(node => {
+        if (node.nodeType !== Node.TEXT_NODE) return;
+        const parts = node.textContent.split(/(\s+)/); // zachowaj spacje jako osobne tokeny
+        if (parts.length === 1) return; // najpewniej pusty lub tylko jedno słowo — i tak je obsłużymy poniżej
+
+        const frag = document.createDocumentFragment();
+        parts.forEach(part => {
+            if (part.match(/^\s+$/)) {
+                // wstaw jako zwykły textNode (spacje)
+                frag.appendChild(document.createTextNode(part));
+            } else if (part.length > 0) {
+                const s = document.createElement('span');
+                s.className = 'tts-word';
+                s.textContent = part;
+                frag.appendChild(s);
+            }
+        });
+        node.parentNode.replaceChild(frag, node);
+    });
+
+    // Na koniec — jeśli zostają pojedyncze textNode (np. cały tekst bez spacji), zamienimy je na span.tts-word
+    Array.from(storyElement.childNodes).forEach(node => {
+        if (node.nodeType === Node.TEXT_NODE && /\S/.test(node.textContent)) {
+            const s = document.createElement('span');
+            s.className = 'tts-word';
+            s.textContent = node.textContent.trim();
+            node.parentNode.replaceChild(s, node);
+        }
+    });
+
+    storyElement.dataset.ttsReady = 'true';
+}
+
+function readStoryFromFiszka(fiszkaElement) {
+    const story = fiszkaElement.querySelector('.fiszka_story');
+    if (!story) return;
+
+    if (!story.dataset.ttsReady) {
+        wrapLogicalWords(story);
+    }
+
+    // pobierz wszystkie tts-word w porządku występowania
+    const words = Array.from(story.querySelectorAll('.tts-word'));
+
+    // scalony tekst dla TTS (oddzielamy spacją)
+    const textForTTS = words.map(w => w.textContent).join(' ');
+
+    const utterance = new SpeechSynthesisUtterance(textForTTS);
+    utterance.lang = 'pl-PL';
+    utterance.rate = 1;
+
+    speechSynthesis.cancel();
+
+    // proste podświetlanie wg charIndex
+    utterance.onboundary = function(event) {
+        words.forEach(w => w.classList.remove('tts-active'));
+        let cumulative = 0;
+        for (let i = 0; i < words.length; i++) {
+            const len = words[i].textContent.length + 1; // +1 dla spacji użytej w textForTTS
+            if (event.charIndex >= cumulative && event.charIndex < cumulative + len) {
+                words[i].classList.add('tts-active');
+                break;
+            }
+            cumulative += len;
+        }
+    };
+
+    speechSynthesis.speak(utterance);
+}
+function readOnlyZlepkiABCD(fiszkaElement) {
+    if (!fiszkaElement) return;
+
+    const story = fiszkaElement.querySelector(".fiszka_story");
+    if (!story) return;
+
+    // 🔹 kolejność a → b → c → d
+    const abcdOrder = ['a', 'b', 'c', 'd'];
+    let abcdZlepki = [];
+
+    abcdOrder.forEach(cls => {
+        const el = story.querySelector(`.${cls}`);
+        if (el) abcdZlepki.push(el);
+    });
+
+    // 🔹 x ZAWSZE NA KOŃCU
+    const xZlepek = story.querySelector('.x');
+    const zlepki = abcdZlepki.slice();
+    if (xZlepek) zlepki.push(xZlepek);
+
+    if (!zlepki.length) return;
+
+    // ===== PODŚWIETLANIE =====
+    function addActive(el) {
+        if (!el) return;
+        el.classList.add("tts-active");
+        el.querySelectorAll("*").forEach(c => c.classList.add("tts-active"));
+    }
+
+    function removeActive(el) {
+        if (!el) return;
+        el.classList.remove("tts-active");
+        el.querySelectorAll("*").forEach(c => c.classList.remove("tts-active"));
+    }
+
+    let index = 0;
+    speechSynthesis.cancel();
+
+    function speakNext() {
+        if (index >= zlepki.length) return;
+
+        const el = zlepki[index];
+        const text = el.textContent.trim();
+
+        if (!text) {
+            index++;
+            setTimeout(speakNext, 30);
+            return;
+        }
+
+        // usuń stare podświetlenia
+        zlepki.forEach(removeActive);
+        addActive(el);
+
+        // 🔹 możliwość WŁASNEJ wymowy
+        const textToSpeak = el.dataset.say || text;
+        const u = new SpeechSynthesisUtterance(textToSpeak);
+
+        // =========================
+        // 🔊 WYBÓR JĘZYKA (PRIORYTET)
+        // =========================
+
+        // 1️⃣ jawnie ustawiony język
+        if (el.dataset.lang) {
+            u.lang = el.dataset.lang === 'pl' ? 'pl-PL' : 'es-ES';
+        }
+
+        // 2️⃣ x zawsze po polsku
+        else if (el.classList.contains('x')) {
+            u.lang = "pl-PL";
+        }
+
+        // 3️⃣ heurystyka – polskie litery lub h
+        else if (/h|[ąćęłńóśżź]/i.test(textToSpeak)) {
+            u.lang = "pl-PL";
+        }
+
+        // 4️⃣ domyślnie hiszpański
+        else {
+            u.lang = "es-ES";
+        }
+
+        // tempo
+        u.rate = 1;
+
+        u.onend = () => {
+            removeActive(el);
+            index++;
+            setTimeout(speakNext, 40);
+        };
+
+        u.onerror = () => {
+            removeActive(el);
+            index++;
+            setTimeout(speakNext, 40);
+        };
+
+        speechSynthesis.speak(u);
+    }
+
+    speakNext();
+}
 const imgContainer = $('<div>').addClass('fiszka_img_container');
         fiszka.entries.forEach(entry => {
             // Tworzymy kontener dla zdjęć
@@ -38885,19 +39327,17 @@ const imgContainer = $('<div>').addClass('fiszka_img_container');
         const hashtagContainer = $('<a>').addClass('hashtag-container').attr('href', '#');
         fiszkaContainer.append(hashtagContainer);
 
-// Funkcja showStory z obsługą id.fiszki
+
 function showStory(idFiszki) {
     console.log('Wywołano showStory:', idFiszki);
 
     const currentFiszka = fiszkaContainer;
     console.log('Aktualny kontener:', currentFiszka);
 
-    // Ukrywamy wszystkie historie i obrazy w tej konkretnej fiszce
+    // Ukrywamy wszystkie obrazy
     currentFiszka.find('.fiszka_img').hide();
 
-    // Pobieramy odpowiednią fiszkę z tablicy fiszki na podstawie idFiszki
     const currentEntry = fiszka.entries[idFiszki];
-    
     if (!currentEntry) {
         console.error("Nie znaleziono fiszki dla id:", idFiszki);
         return;
@@ -38905,52 +39345,79 @@ function showStory(idFiszki) {
 
     console.log("Wybrana fiszka:", currentEntry);
 
-    let imgIndex = 0; // Domyślny indeks, jeśli coś pójdzie nie tak
+let imgIndex = idFiszki;
 
-    if (Array.isArray(fiszka.entries) && fiszka.entries.length > 0) {
-        // Wybór losowego indeksu dla obrazka
+// 🔹 RANDOM tylko jeśli NIE MA wymuszonego indexu
+if (imgIndex === undefined || imgIndex === null) {
+    if (Array.isArray(fiszka.entries) && fiszka.entries.length > 1) {
         imgIndex = Math.floor(Math.random() * fiszka.entries.length);
-        console.log("Wylosowany indeks obrazka:", imgIndex);
     }
+}
 
-    // Pobieramy wylosowany obrazek
-    const selectedImg = currentEntry.img;
-    
+    // 🔹 ZAPIS wylosowanej wersji w kontenerze (kluczowe dla APPROVE)
+    currentFiszka.data('selectedIndex', imgIndex);
+
+    const entry = fiszka.entries[imgIndex];
+    if (!entry) return;
+
+    const selectedImg = entry.img;
+
     if (selectedImg) {
-        // Ustawiamy obrazek, który ma być widoczny
-        currentFiszka.find('.fiszka_img').each(function() {
+
+        currentFiszka.find('.fiszka_img').each(function () {
             if ($(this).attr('src') === selectedImg.src) {
-                $(this).show(); // Pokazujemy wybrany obrazek
+                $(this).show();
             }
         });
-        
-        // Ustawienie specificLesson2Ref z pełnymi danymi
+
         specificLesson2Ref = {
             src: selectedImg.src,
             alt: selectedImg.alt
         };
 
         console.log("Losowy obrazek:", specificLesson2Ref);
+
+        const isMultiVersion =
+            Array.isArray(fiszka.entries) &&
+            fiszka.entries.length > 1;
+
+        // --- zapis do historii ---
+        selectedFiszkiHistory.push({
+            idFiszki: imgIndex,
+            img: selectedImg,
+            story: currentEntry.story ? currentEntry.story.text : null,
+            multiVersion: isMultiVersion,
+            timestamp: new Date().toISOString()
+        });
+
+        console.log(
+            "hej333",
+            selectedFiszkiHistory[selectedFiszkiHistory.length - 1]
+        );
+
     } else {
         console.warn("Brak obrazka w fiszce:", currentEntry);
     }
 
-    // Obsługa `story`, jeśli istnieje
+    // --- STORY ---
     if (currentEntry.story) {
-        const storyText = currentEntry.story.text;
-        const storyElement = $('<div>').addClass('fiszka_story story-' + imgIndex).html(storyText);
 
-        // Usunięcie starych historii i dodanie nowej
+        const storyText = currentEntry.story.text;
+
+        const storyElement = $('<div>')
+            .addClass('fiszka_story story-' + imgIndex)
+            .html(storyText);
+
         currentFiszka.find('.fiszka_story').remove();
         currentFiszka.append(storyElement);
+
         storyElement.show();
     }
 
-    lastClickedIndex = idFiszki;
+    lastClickedIndex = imgIndex;
 
     return imgIndex;
 }
-
         function selectLikeButton(index) {
             console.log("Wybór likeButton dla indeksu:", index);
             const storyButton = $('.story_button').eq(index);
@@ -39011,8 +39478,7 @@ function showStory(idFiszki) {
             display: 'flex',
             alignItems: 'center',
             justifyContent: 'center',
-            overflow: 'hidden',
-            border: '1px solid'
+            overflow: 'hidden'
         });
 
         audioplayerDiv.append(pButton);
@@ -39020,8 +39486,222 @@ function showStory(idFiszki) {
         wordDiv.append(audio);
         wordDiv.append(audioplayerDiv);
         fiszkaContainer.append(wordDiv);
-        console.log('Po utworzeniu wordDiv');
+// WRAPPER główny dla wszystkich zestawów przycisków
+// WRAPPER główny dla wszystkich zestawów przycisków
+let ttsWrapper = $('<div>').css({
+    display: 'flex',
+    justifyContent: 'center'
+});
 
+// ===== PIERWSZY ZESTAW: przycisk + napis =====
+let firstItem = $('<div>').css({
+    display: 'inline-flex',
+    alignItems: 'center',
+    gap: '6px',
+    border: '1px solid rgb(0, 0, 0)',
+    padding: '4px 8px',
+    borderRadius: '6px',
+    marginBottom: '10px',
+    marginTop: '10px',
+    cursor: 'pointer',
+    height: '36px',
+    transition: 'background-color 0.2s'
+});
+
+// hover działający w jQuery
+firstItem.on('mouseenter', function() {
+    $(this).css('background-color', 'green');
+}).on('mouseleave', function() {
+    $(this).css('background-color', '');
+});
+
+// kliknięcie całego zestawu
+firstItem.on('click', function() {
+    console.log("CLICK - TTS Play (cały zestaw)");
+    readOnlyZlepkiABCD(fiszkaContainer[0]);
+});
+
+// Ikona
+let ttsImg = $('<img>')
+    .attr('src', 'http://localhost/arbulanguage.com/img/play.png')
+    .attr('alt', 'Czytaj')
+    .addClass('tts-icon')
+    .css({
+        width: '24px',
+        height: '24px'
+    });
+
+// Label
+let ttsLabel = $('<span>')
+    .text('Połącz zlepki')
+    .css({
+        fontSize: '14px',
+        fontWeight: '600',
+        color: '#000',
+        whiteSpace: 'nowrap'
+    });
+
+// składamy pierwszy zestaw
+firstItem.append(ttsImg, ttsLabel);
+
+// ===== DRUGI ZESTAW: przycisk + napis =====
+let secondItem = $('<div>').css({
+    display: 'inline-flex',
+    alignItems: 'center',
+    gap: '6px',
+    border: '1px solid rgb(0, 0, 0)',
+    padding: '4px 8px',
+    borderRadius: '6px',
+    marginBottom: '10px',
+        marginBottom: '10px',
+    marginTop: '10px',
+    cursor: 'pointer',
+    height: '36px',
+    transition: 'background-color 0.2s'
+});
+
+// hover dla drugiego zestawu
+secondItem.on('mouseenter', function() {
+    $(this).css('background-color', 'green');
+}).on('mouseleave', function() {
+    $(this).css('background-color', '');
+});
+
+// kliknięcie całego zestawu
+secondItem.on('click', function() {
+    console.log("CLICK - Odczytaj historyjkę (cały zestaw)");
+    readStoryFromFiszka(fiszkaContainer[0]);
+});
+
+// Ikona
+let storyImg = $('<img>')
+    .attr('src', 'http://localhost/arbulanguage.com/img/play.png')
+    .attr('alt', 'Odczytaj historyjkę')
+    .addClass('tts-icon')
+    .css({
+        width: '24px',
+        height: '24px'
+    });
+
+// Label
+let storyLabel = $('<span>')
+    .text('Odczytaj historyjkę')
+    .css({
+        fontSize: '14px',
+        fontWeight: '600',
+        color: '#000',
+        whiteSpace: 'nowrap'
+    });
+
+// składamy drugi zestaw
+secondItem.append(storyImg, storyLabel);
+
+// dodajemy oba zestawy do głównego wrappera
+ttsWrapper.append(firstItem, secondItem);
+
+// dodajemy do kontenera fiszki
+fiszkaContainer.append(ttsWrapper);
+// --- Tworzenie przycisku Zatwierdź ---
+const isMultiVersion = Array.isArray(fiszka.entries) && fiszka.entries.length > 1;
+// Tworzymy przycisk Zatwierdź tylko jeśli jest wiele wersji
+if (isMultiVersion) {
+    const $btnApprove = $('<button>')
+        .text('Zatwierdź')
+        .addClass('btnApprove')
+        .css({
+            marginRight: '6px',
+            padding: '10px 18px',
+            fontSize: '16px',
+            fontWeight: 'bold',
+            backgroundColor: '#1e90ff',
+            color: '#fff',
+            border: 'none',
+            borderRadius: '6px',
+            cursor: 'pointer'
+        });
+
+    // 🔹 Zapisujemy w kontenerze fiszki wszystkie potrzebne dane
+    fiszkaContainer.data({
+        fiszkaObj: fiszka,         // obiekt fiszki
+        fiszki10Obj: fiszki10,     // cała tablica do generateOrUpdateMatrix
+        startIndex2: startIndexByLesson[lessonId2] || 0 // 🔹 zapisujemy startIndex dla lekcji
+    });
+
+    fiszkaContainer.append($btnApprove);
+}
+
+$(document).on('click', '.btnApprove', function() {
+
+    if (MATRIX_MODE !== 'APPROVE') return;
+
+    const $fiszkaContainer = $(this).closest('.fiszka');
+
+    const lessonIdLocal = $fiszkaContainer.data('lessonId'); // ✅ KLUCZOWE
+    const selectedIndex = parseInt($fiszkaContainer.data('selectedIndex')) || 0;
+
+    const fiszkaObj = $fiszkaContainer.data('fiszkaObj');
+    const fiszki10Obj = $fiszkaContainer.data('fiszki10Obj');
+    const startIndex2 = $fiszkaContainer.data('startIndex2');
+
+    if (!fiszkaObj || !fiszki10Obj) {
+        console.log("Brak danych w kontenerze fiszki");
+        return;
+    }
+
+    const entry = fiszkaObj.entries[selectedIndex];
+    if (!entry) return;
+
+    const idFiszki = entry.id || selectedIndex;
+    const idFiszki2 = fiszkaObj.id ? fiszkaObj.id[0] : selectedIndex;
+const relativeIndex = startIndex2 === 0 
+    ? 0 
+    : idFiszki2 - startIndex2;
+console.log('relativeIndex33', relativeIndex);
+    if (!selectedFiszkiHistoryByLesson[lessonIdLocal]) {
+        selectedFiszkiHistoryByLesson[lessonIdLocal] = [];
+    }
+
+    selectedFiszkiHistoryByLesson[lessonIdLocal][relativeIndex] = {
+        idFiszki: idFiszki,
+        img: entry.img,
+        word: fiszkaObj.sentence?.[selectedIndex] || null
+    };
+
+    const history = selectedFiszkiHistoryByLesson[lessonIdLocal];
+
+    if (!matrixQueueByLesson[lessonIdLocal]) {
+        matrixQueueByLesson[lessonIdLocal] = Promise.resolve();
+    }
+
+    matrixQueueByLesson[lessonIdLocal] = matrixQueueByLesson[lessonIdLocal]
+        .then(() =>
+            Promise.all(
+                history
+                    .filter(h => h?.img?.src)
+                    .map(h => loadImage(h.img.src))
+            )
+        )
+        .then(() => {
+
+            // ✅ aktualizujemy TYLKO matryce tej lekcji
+            $(`.fiszka[data-lesson-id="${lessonIdLocal}"]`).each(function() {
+
+                const container = $(this);
+
+                generateOrUpdateMatrix(
+                    fiszki10Obj,
+                    lessonIdLocal,
+                    history,
+                    container
+                );
+
+            });
+
+        })
+        .catch(err => console.error(err));
+
+    console.log('Zatwierdzono wersję:', selectedIndex);
+});
 // DODANIE MNEMOTECHNIKI
 if (Array.isArray(fiszka.entries) && fiszka.entries.length > 0) {
             // Jeśli story jest tablicą, iterujemy przez wszystkie jej elementy
@@ -39033,28 +39713,6 @@ if (Array.isArray(fiszka.entries) && fiszka.entries.length > 0) {
         }
         console.log('Przed utworzeniem wordDiv');
 
-// Utworzenie reszty elementów zgodnie z istniejącym kodem
-        const wordDiv2 = $('<div>').attr('id', 'word2');
-        const audio2 = $('<audio>').attr({
-            id: 'music2' + fiszka.id,
-            preload: 'true'
-        });
-        const source2 = $('<source>').attr('src', fiszka.word);
-        audio2.append(source2);
-        const audioplayerDiv2 = $('<div>').attr('id', 'audioplayer2' + fiszka.id).addClass('audioplayer2'); // Dodano klasę 'audioplayer'
-
-// Utworzenie elementów za pomocą jQuery
-        const timelineDiv = $('<div>').attr('id', 'timeline' + fiszka.id);
-        const playheadDiv = $('<div>').attr('id', 'playhead' + fiszka.id);
-
-// Dodanie playhead do timeline
-        timelineDiv.append(playheadDiv);
-
-
-        wordDiv2.append(audio2);
-        wordDiv2.append(audioplayerDiv2);
-        wordDiv2.append(timelineDiv); // Dodano timeline do wordDiv
-        fiszkaContainer.append(wordDiv2);
 
         console.log('Po utworzeniu wordDiv');
     let initialSpecificLesson2Ref;
@@ -39065,9 +39723,10 @@ if (Array.isArray(fiszka.entries) && fiszka.entries.length > 0) {
     let approvedColors = [];
 
     let index10 = [];
-
+    const startIndex = fiszka.id[0];
+    console.log("hej1000", fiszka.id[0]); 
     if (Array.isArray(fiszka.entries) && fiszka.entries.length > 0) {
-        console.log("Znaleziono fiszki, liczba wpisów:", fiszka.entries.length);
+
 
         const storyButtonContainer = $('<div>');
         let lastClickedButton;
@@ -39124,23 +39783,89 @@ if (Array.isArray(fiszka.entries) && fiszka.entries.length > 0) {
 
         const randomButtonIndex = selectedIndexes[0] || 0;
         index10.push(randomButtonIndex);
+    // jeśli to pierwsze wywołanie, zapisujemy id fiszki
+// --- 1️⃣ Sprawdzamy, czy zmieniła się lekcja → jeśli tak, resetujemy firstFiszkaId
+// Ustawiamy startIndex dla lekcji, jeśli jeszcze nie został ustawiony
+if (startIndexByLesson[lessonId2] === undefined) {
+    startIndexByLesson[lessonId2] = fiszka.id[0];
+    console.log("StartIndex dla lekcji", lessonId2, startIndexByLesson[lessonId2]);
+}
 
-        fiszka.entries.forEach((entry, index) => {
-            const displayText = entry.category.join(", ");
-            const isIncluded = selectedIndexes.includes(index);
+const startIndex2 = startIndexByLesson[lessonId2];
+console.log('start100', startIndexByLesson[lessonId2]);
+console.log('startIndex for lesson5', startIndex2);
+console.log('startIndex for lesson', startIndex);
 
-            const storyButton = $('<button>')
-                .text(displayText)
-                .addClass('story_button');
+// --- 4️⃣ Tworzymy przyciski dla każdego wpisu w fiszce
+fiszka.entries.forEach((entry, index) => {
+    const displayText = entry.category.join(", ");
+    const isIncluded = selectedIndexes.includes(index);
 
-            if (isIncluded) {
-                storyButton.click(function () {
-                    console.log("Kliknięto przycisk dla fiszki nr:", index);
+    const storyButton = $('<button>')
+        .text(displayText)
+        .addClass('story_button');
 
-                    const idFiszki = entry.id || index;
+if (isIncluded) {
+    storyButton.click(function () {
+        console.log('Clicked entry', entry, index);
 
-                    showStory(index, idFiszki);
-                    lastClickedIndex = index;
+        // ✅ Ustawiamy idFiszki dynamicznie
+        const idFiszki = entry.id || index;
+        showStory(index);
+        lastClickedIndex = index;
+
+        // zapamiętujemy wersję
+        const idFiszki2 = fiszka.id ? fiszka.id[0] : index;
+        console.log("startIndex4:", startIndex2);
+
+        // 🔹 Obliczamy indeks relatywny względem pierwszej fiszki w lekcji
+        const relativeIndex = startIndex2;
+        console.log('relativeIndex', relativeIndex);
+
+        // 🔹 Aktualizujemy historię dla tej lekcji
+        if (!selectedFiszkiHistoryByLesson[lessonId2]) {
+            selectedFiszkiHistoryByLesson[lessonId2] = [];
+        }
+        selectedFiszkiHistoryByLesson[lessonId2][relativeIndex] = {
+            idFiszki: idFiszki,
+            img: entry.img,
+            word: fiszka.sentence?.[index] || null
+        };
+
+        // 🔹 Pobranie historii dla lekcji
+        const history = selectedFiszkiHistoryByLesson[lessonId2];
+        if (MATRIX_MODE === 'RANDOM') {
+        // 🔹 Jeśli kolejka dla lekcji nie istnieje, tworzymy pustą Promise
+        if (!matrixQueueByLesson[lessonId2]) {
+            matrixQueueByLesson[lessonId2] = Promise.resolve();
+        }
+
+        // 🔹 Przekazujemy bezpośrednio kontener klikanej fiszki
+        const idFiszki2Container = $(this).closest('.fiszka');
+        const $fiszkaContainer = $(this).closest('.fiszka');
+
+        // ✅ zapamiętujemy wybraną wersję w kontenerze fiszki
+        $fiszkaContainer.data('selectedIndex', index);
+
+        // 🔹 Dodajemy zadanie do kolejki
+        matrixQueueByLesson[lessonId2] = matrixQueueByLesson[lessonId2]
+            .then(() =>
+                Promise.all(
+                    history
+                        .filter(h => h?.img?.src)
+                        .map(h => loadImage(h.img.src))
+                )
+            )
+            .then(() => {
+                console.log('Container dla tej fiszki:', idFiszki2Container);
+                generateOrUpdateMatrix(fiszki10, lessonId2, history, idFiszki2Container, idFiszki);
+            })
+            .catch(err => console.error(err));
+} else if (MATRIX_MODE === 'APPROVE') {
+            // 🔹 Tryb APPROVE – nic nie wgrywamy, czekamy na kliknięcie przycisku "Zatwierdź"
+            console.log('Wybrano wersję w APPROVE. Obrazki zostaną wgrane po kliknięciu Zatwierdź.');
+        }
+
 
                     if (lastClickedButton) {
                         lastClickedButton.removeClass('green-button');
@@ -39214,8 +39939,7 @@ if (Array.isArray(fiszka.entries) && fiszka.entries.length > 0) {
             showStory(0);
             console.log("Pojedyncza wartość dla category1, specificLesson2Ref:", specificLesson2Ref);
         }
-
-
+        
 let selectedFiszka = null; // Przechowuje wybraną fiszkę
 
 $('.fiszka_button_trening').click(function () {
@@ -39235,7 +39959,7 @@ function showNotification(fiszka) {
 
   const notification = new Notification(title, {
     body: body,
-    icon: 'https://www.arbulang.com/img/fiszki1/1a.jpg', // Opcjonalnie, jeśli masz ikonę
+    icon: 'http://localhost/arbulanguage.com/img/fiszki1/1a.jpg', // Opcjonalnie, jeśli masz ikonę
   });
 
   notification.onclose = function () {
@@ -39321,6 +40045,7 @@ const intervalId = setInterval(scheduleNotification, 60000);
             console.log("Znam clicked on fiszka nr " + fiszka.id);
             activateFiszka(fiszka.id, true);
         }));
+
 (async () => {
   // Load WaveSurfer dynamically if not present
   async function ensureWaveSurfer() {
@@ -39544,7 +40269,6 @@ const intervalId = setInterval(scheduleNotification, 60000);
   fiszkaContainer.append(phrasesContainer);
   console.log('Kontener fraz dodany do fiszki:', fiszka.id);
 })();
-
         // WYWOŁANIE HASHTAGU
         function updateButtonName(buttonName, fiszkaContainer) {
             // Usuń poprzednią nazwę, jeśli istnieje
@@ -39554,12 +40278,33 @@ const intervalId = setInterval(scheduleNotification, 60000);
             const fiszkaButtonNameContainer = $('<div>').addClass('fiszka_button_name').text(buttonName);
             fiszkaContainer.append(fiszkaButtonNameContainer);
         }
-        // Dodanie kontenera fiszki do body
-        $('.grid-containerb').append(fiszkaContainer);
+// Dodajemy fiszkę do DOM
+$('.grid-containerb').append(fiszkaContainer);
+
+// Ładujemy WSZYSTKIE obrazki
+    const imagePromises = fiszka.entries.map(entry => loadImage(entry.img.src));
+
+    if (!matrixQueueByLesson[lessonId2]) {
+        matrixQueueByLesson[lessonId2] = Promise.resolve();
+    }
+
+    // dodajemy fiszkę do kolejki, aby matryce ładowały się dopiero po obrazkach
+    matrixQueueByLesson[lessonId2] = matrixQueueByLesson[lessonId2]
+        .then(() => Promise.all(imagePromises))
+        .then(() => {
+            return generateOrUpdateMatrix(
+                fiszki10,
+                lessonId2,
+                selectedFiszkiHistoryByLesson[lessonId2],
+                fiszkaContainer
+            );
+        })
+        .catch(err => console.error(err));
         console.log(`Generated fiszka block for ID: [${fiszka.id.join(', ')}]`);
         initAudio(fiszka.id);
         restoreLearnedClasses();
     });
+
 }
 function generateFiszkaBlock2(fiszka, lessonId2) {
     console.log('hej555xxv', fiszka);
@@ -39950,6 +40695,9 @@ function generateFiszkaBlock2(fiszka, lessonId2) {
         fiszkaContainer.append(wordDiv);
         console.log('Po utworzeniu wordDiv');
 
+// ⬇️ TU DOPIERO
+const matrix = createSentenceMatrix(fiszka);
+fiszkaContainer.append(matrix);
 // DODANIE MNEMOTECHNIKI
         if (Array.isArray(fiszka.story)) {
             // Jeśli story jest tablicą, iterujemy przez wszystkie jej elementy
@@ -40880,7 +41628,7 @@ function showNotification(fiszka) {
 
   const notification = new Notification(title, {
     body: body,
-    icon: 'https://www.arbulang.com/img/fiszki1/1a.jpg', // Opcjonalnie, jeśli masz ikonę
+    icon: 'http://localhost/arbulanguage.com/img/fiszki1/1a.jpg', // Opcjonalnie, jeśli masz ikonę
   });
 }
 // Załóżmy, że wybrana fiszka jest w zmiennej `selectedFiszka`
@@ -40896,4 +41644,36 @@ function scheduleNotification() {
 // Ustawienie interwału co 60 sekund (1 minuta)
 const intervalId = setInterval(scheduleNotification, 60000);
 
-// Aby zatrzymać interwał, użyj `clearInterval(intervalId)`
+
+
+function readStory(id) {
+    const container = document.getElementById(id);
+
+    if (!container.dataset.wrapped) {
+        wrapWords(container);
+        container.dataset.wrapped = 'true';
+    }
+
+    const words = container.querySelectorAll('.tts-word');
+    const text = Array.from(words).map(w => w.innerText).join(' ');
+
+    const utterance = new SpeechSynthesisUtterance(text);
+    utterance.lang = 'pl-PL';
+    utterance.rate = 1;
+
+    let index = 0;
+
+    utterance.onboundary = function (event) {
+        if (event.name === 'word') {
+            words.forEach(w => w.classList.remove('tts-active'));
+
+            if (words[index]) {
+                words[index].classList.add('tts-active');
+                index++;
+            }
+        }
+    };
+
+    speechSynthesis.cancel();
+    speechSynthesis.speak(utterance);
+}
