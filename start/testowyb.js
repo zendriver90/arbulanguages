@@ -39682,20 +39682,20 @@ console.log('relativeIndex33', relativeIndex);
             )
         )
         .then(() => {
+$(`.fiszka[data-lesson-id="${lessonIdLocal}"]`).each(function(index) {
 
-            // ✅ aktualizujemy TYLKO matryce tej lekcji
-            $(`.fiszka[data-lesson-id="${lessonIdLocal}"]`).each(function() {
+    const container = $(this);
+    const historyItem = history[index];
 
-                const container = $(this);
+    generateOrUpdateMatrix(
+        fiszki10Obj,
+        lessonIdLocal,
+        history,
+        container,
+        historyItem?.idFiszki   // 👈 KAŻDA MATRYCA MA SWÓJ
+    );
 
-                generateOrUpdateMatrix(
-                    fiszki10Obj,
-                    lessonIdLocal,
-                    history,
-                    container
-                );
-
-            });
+});
 
         })
         .catch(err => console.error(err));
@@ -39818,8 +39818,9 @@ if (isIncluded) {
         const idFiszki2 = fiszka.id ? fiszka.id[0] : index;
         console.log("startIndex4:", startIndex2);
 
-        // 🔹 Obliczamy indeks relatywny względem pierwszej fiszki w lekcji
-        const relativeIndex = startIndex2;
+const relativeIndex = startIndex2 === 0 
+    ? 0 
+    : idFiszki2 - startIndex2;
         console.log('relativeIndex', relativeIndex);
 
         // 🔹 Aktualizujemy historię dla tej lekcji
@@ -39834,33 +39835,33 @@ if (isIncluded) {
 
         // 🔹 Pobranie historii dla lekcji
         const history = selectedFiszkiHistoryByLesson[lessonId2];
-        if (MATRIX_MODE === 'RANDOM') {
-        // 🔹 Jeśli kolejka dla lekcji nie istnieje, tworzymy pustą Promise
-        if (!matrixQueueByLesson[lessonId2]) {
-            matrixQueueByLesson[lessonId2] = Promise.resolve();
-        }
+if (MATRIX_MODE === 'RANDOM') {
+    if (!matrixQueueByLesson[lessonId2]) {
+        matrixQueueByLesson[lessonId2] = Promise.resolve();
+    }
 
-        // 🔹 Przekazujemy bezpośrednio kontener klikanej fiszki
-        const idFiszki2Container = $(this).closest('.fiszka');
-        const $fiszkaContainer = $(this).closest('.fiszka');
+    // Pobieramy wszystkie kontenery dla tej lekcji
+    const $allFiszkaContainers = $(`.fiszka[data-lesson-id='${lessonId2}']`);
 
-        // ✅ zapamiętujemy wybraną wersję w kontenerze fiszki
-        $fiszkaContainer.data('selectedIndex', index);
-
-        // 🔹 Dodajemy zadanie do kolejki
-        matrixQueueByLesson[lessonId2] = matrixQueueByLesson[lessonId2]
-            .then(() =>
-                Promise.all(
-                    history
-                        .filter(h => h?.img?.src)
-                        .map(h => loadImage(h.img.src))
-                )
+    matrixQueueByLesson[lessonId2] = matrixQueueByLesson[lessonId2]
+        .then(() =>
+            Promise.all(
+                history
+                    .filter(h => h?.img?.src)
+                    .map(h => loadImage(h.img.src))
             )
-            .then(() => {
-                console.log('Container dla tej fiszki:', idFiszki2Container);
-                generateOrUpdateMatrix(fiszki10, lessonId2, history, idFiszki2Container, idFiszki);
-            })
-            .catch(err => console.error(err));
+        )
+        .then(() => {
+            $allFiszkaContainers.each(function(containerIndex) {
+                const $container = $(this);
+                // Pobierz index wybranej wersji fiszki dla tego kontenera
+                const selectedIndexForContainer = $container.data('selectedIndex') ?? 0;
+                const selectedEntry = fiszka.entries[selectedIndexForContainer];
+                
+                generateOrUpdateMatrix(fiszki10, lessonId2, history, $container, selectedEntry?.id ?? 0);
+            });
+        })
+        .catch(err => console.error(err));
 } else if (MATRIX_MODE === 'APPROVE') {
             // 🔹 Tryb APPROVE – nic nie wgrywamy, czekamy na kliknięcie przycisku "Zatwierdź"
             console.log('Wybrano wersję w APPROVE. Obrazki zostaną wgrane po kliknięciu Zatwierdź.');
