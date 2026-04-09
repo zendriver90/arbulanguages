@@ -693,12 +693,12 @@ function showCombinedSentenceForLesson22b(
                     const lessonNumber = i + 1;
 
                     // 🔹 Link do całej lekcji (3 zdania)
-                    const tripletLink = `demo1hiszpanski.html?category=${selectedCategory}&data=${trojka.join(',')}`;
+                    const tripletLink = `demo1angielski.html?category=${selectedCategory}&data=${trojka.join(',')}`;
 
                     // 🔹 Dla każdego zdania z osobna:
                     trojka.forEach(indexDiv => {
                         // pojedynczy link do zdania
-                        const singleLink = `demo1hiszpanski.html?category=${selectedCategory}&data=${indexDiv}`;
+                        const singleLink = `demo1angielski.html?category=${selectedCategory}&data=${indexDiv}`;
                         linkMap[indexDiv] = singleLink; // teraz każde zdanie ma własny link
 
                         const $containerBlock = $(`.sentence-block[data-name="${indexDiv}"]`);
@@ -819,32 +819,18 @@ function showCombinedSentenceForLesson22b(
 
 
 
-const $buttonb = $('<img>').attr({
-    src: 'https://www.arbulang.com/img/startsystem.png',
-    class: 'overlay-button'
-}).appendTo($container);
-
-// dodajemy początkową klasę do animacji
-$buttonb.addClass('button-start'); // opcjonalna klasa CSS do animacji
-
-// sprawdzamy szerokość ekranu
-if (window.matchMedia("(max-width: 999px)").matches) {
-    // MOBILE
-    if (indexDiv % 2 === 0) {
-        $buttonb.addClass('left-side-button');
-        $buttonb.css({ left: '-150px', transition: 'left 0.5s ease' });
-    } else {
-        $buttonb.addClass('right-side-button');
-        $buttonb.css({ right: '-150px', transition: 'right 0.5s ease' });
-    }
-} else {
-    // DESKTOP (min-width: 1000px)
-    if (indexDiv % 4 === 0) {
-        $buttonb.addClass('left-side-button');
-    } else {
-        $buttonb.addClass('right-side-button');
-    }
-}
+            const $buttonb = $('<img>').attr({
+                src: 'https://www.arbulang.com/img/startsystem.png',
+                class: 'overlay-button'
+            });
+// jeśli index jest parzysty → dodaj klasę left-side
+            if (indexDiv % 2 === 0) {
+                // parzyste → lewa strona
+                $buttonb.addClass('left-side-button');
+            } else {
+                // nieparzyste → prawa strona
+                $buttonb.addClass('right-side-button');
+            }
             $buttonb.appendTo($container);
 // ObsĹuga klikniÄcia przycisku overlay
             $buttonb.on('click', function () {
@@ -891,7 +877,70 @@ if (window.matchMedia("(max-width: 999px)").matches) {
                 console.log('index44bc', indexDiv);
                 console.log('Button clicked');
 
+                // UtwĂłrz nowy przycisk "Szybka lekcja"
+                const $loadButton = $('<button>')
+                        .text('Szybka lekcja')
+                        .addClass('slide-button')
+                        .on('click', function () {
+                            // PÄtla po wszystkich elementach wideo i zatrzymywanie kaĹźdego z nich
+                            $('video').each(function () {
+                                const video = $(this).get(0); // Pobiera element wideo jako obiekt DOM
+                                if (video && !video.paused) {
+                                    video.pause();
+                                }
+                            });
+                        });
+                // Funkcja zatrzymujÄca wszystkie wideo w activeVideos
 
+                $loadButton.css({
+                    'position': 'absolute',
+                    'bottom': '10px',
+                    'right': '30px', // PoczÄtkowa pozycja przycisku na prawo od kontenera
+                    'width': '120px', // SzerokoĹÄ przycisku
+                    'height': '30px',
+                    'cursor': 'pointer',
+                    'border-radius': '8px',
+                    'background-color': 'green', // Kolor przycisku
+                    'color': 'white',
+                    'display': 'block', // Pokazuje przycisk od razu
+                    'z-index': '1000001', // Z-index wiÄkszy niĹź startsystem
+                    'text-align': 'left', // WyrĂłwnanie tekstu do lewej (jeĹli to potrzebne)
+                    'overflow': 'hidden' // Ukrywa nadmiar tekstu
+                }).appendTo($container); // Dodaj do kontenera
+
+                // Animacja: zwijanie przycisku "Szybka lekcja" w lewo
+                $loadButton.animate({
+                    width: '0px', // Zmniejszenie szerokoĹci do 0
+                    right: '10px'
+                }, {
+                    duration: 1500, // Czas trwania animacji
+                    complete: function () {
+                        $(this).remove(); // Opcjonalnie: usuĹ przycisk po zakoĹczeniu animacji
+                    }
+                });
+                // UtwĂłrz nowy przycisk "Szybka lekcja"
+                const $newButton = $('<button>').text('Wybierz sĹowo').addClass('slide-button');
+                $newButton.css({
+                    'position': 'absolute',
+                    'bottom': '35px',
+                    'right': '30px',
+                    'width': '120px',
+                    'height': '30px',
+                    'cursor': 'pointer',
+                    'border-radius': '8px',
+                    'background-color': 'blue',
+                    'color': 'white',
+                    'display': 'block',
+                    'z-index': '1000000' // Bardzo wysoki z-index, aby byĹ nad innymi elementami
+                });
+                $newButton.appendTo($container);
+
+                // Animacja: chowanie przycisku "Szybka lekcja" w lewo
+                $newButton.animate({
+                    right: '-110px'
+                }, 500, function () {
+                    console.log('Szybka lekcja button hidden');
+                });
                 // SprawdĹş, czy kontener ma odpowiedni z-index i position
                 $container.css({
                     'position': 'relative', // Ustawienie position na relative, aby z-index dziaĹaĹ
@@ -934,9 +983,7 @@ if (window.matchMedia("(max-width: 999px)").matches) {
                 const $container = $(`.image-container3b[data-lesson="${indexDiv}"]`);
 
                 const firstSentenceId = (indexDiv - 1) * 3 + 1;
-function normalizeWords(words, max = 6) {
-    return Array.from({ length: max }, (_, i) => words[i] ?? '');
-}
+
                 // Pobieramy fiszkÄ, ktĂłra jest pierwszym zdaniem w lekcji
                 const matchingFiszki1 = fiszki.filter(fiszka => fiszka.id[1] === firstSentenceId);
                 $(`.image-container3b`).css('z-index', 100);
@@ -962,9 +1009,9 @@ function normalizeWords(words, max = 6) {
                         tempDiv.innerHTML = sentenceText;
                         tempDiv2.innerHTML = sentenceText2;
                         tempDiv3.innerHTML = sentenceText3;
-let words  = normalizeWords(tempDiv.innerText.trim().split(/\s+/));
-let words2 = normalizeWords(tempDiv2.innerText.trim().split(/\s+/));
-let words3 = normalizeWords(tempDiv3.innerText.trim().split(/\s+/));
+                        let words = tempDiv.innerText.trim().split(/\s+/);
+                        let words2 = tempDiv2.innerText.trim().split(/\s+/);
+                        let words3 = tempDiv3.innerText.trim().split(/\s+/);
                         console.log('tutaj dociera kod', words);
 
                         if (words.length > 0 && words2.length > 0 && words3.length > 0) {
@@ -1092,47 +1139,34 @@ let words3 = normalizeWords(tempDiv3.innerText.trim().split(/\s+/));
                                 showFiszkiForLesson5(indexDiv, fiszki, mojeidWordIndex, matchingFiszki1);
 
                             }
-// 1️⃣ Tworzenie elementu z ID, żeby selektor działał
-const $wordContainer = $('<div>')
-    .attr('id', 'wordDisplay')  // teraz selektor #wordDisplay zadziała
-    .addClass('wordDisplay')
-    .appendTo($container);
+                            const $wordContainer = $('<div>').attr('id', 'wordDisplay').css({
+                            }).appendTo($container);
+                            let ostatniElement2 = tablica11b[tablica11b.length - 2];
+                            console.log('hej55', ostatniElement2);
+                            // SprawdÄšĹ, czy element 'wordDisplay' juÄšĹş istnieje
+// SprawdÄšĹ, czy element 'wordDisplay' juÄšĹş istnieje w odpowiednim kontenerze
+                            if (ostatniElement2) {
+                                // ZnajdÄšĹ kontener na podstawie data-lesson
+                                const $container = $(`.image-container3b[data-lesson="${ostatniElement2}"]`);
 
-// 2️⃣ Pobranie numeru lekcji
-const lesson = Number($wordContainer.closest('.image-container3b').data('lesson'));
+                                // Szukamy 'wordDisplay' w tym kontenerze
+                                const $wordContainer = $container.find('#wordDisplay');
 
-// 3️⃣ Dodanie klasy parzysty/nieparzysty i stanu początkowego
-if (window.matchMedia("(max-width: 999px)").matches) {
-    if (lesson % 2 === 0) {
-        $wordContainer.addClass('parzysty').css({ left: '-150px', transition: 'left 0.5s ease' });
-    } else {
-        $wordContainer.addClass('nieparzysty').css({ right: '-150px', transition: 'right 0.5s ease' });
-    }
-} else {
-    if (lesson % 4 === 0) {
-        $wordContainer.addClass('nieparzysty').css({ right: '150px', transition: 'right 0.5s ease' });
-    } else {
-        $wordContainer.addClass('parzysty').css({ left: '350px', transition: 'left 0.5s ease' });
-    }
-}
+                                // JeÄšÂli 'wordDisplay' istnieje, wykonaj coÄšÂ z tym elementem
+                                if ($wordContainer.length > 0) {
+                                    console.log('Znaleziono wordDisplay:', $wordContainer);
 
-// 4️⃣ Animacja – zmiana wartości po krótkim timeout
-let ostatniElement2 = tablica11b[tablica11b.length - 2];
-if (ostatniElement2) {
-    const $container2 = $(`.image-container3b[data-lesson="${ostatniElement2}"]`);
-    const $wordContainer2 = $container2.find('#wordDisplay');
-
-    if ($wordContainer2.length > 0) {
-        setTimeout(() => {
-            if ($wordContainer2.hasClass('nieparzysty')) {
-                $wordContainer2.css('right', '350px');  // celowa pozycja
-            }
-            if ($wordContainer2.hasClass('parzysty')) {
-                $wordContainer2.css('left', '200px');   // celowa pozycja
-            }
-        }, 20);  // krótkie opóźnienie, żeby przeglądarka zarejestrowała start
-    }
-}
+                                    // Tutaj moÄšĹşesz wykonaĂÂ akcje na $wordContainer, np. przesuniĂÂcie
+                                    $wordContainer.css({
+                                        'right': '0px', // PrzesuÄšÂ w lewo
+                                        'transition': 'right 0.5s ease' // Animacja
+                                    });
+                                } else {
+                                    console.log('wordDisplay nie znaleziono w kontenerze');
+                                }
+                            } else {
+                                console.log('Brak ostatniego elementu w tablica11b');
+                            }
 
 // ObsÄšÂuga klikniĂÂcia na indexDiv
                             $('.indexDiv').on('click', function () {
@@ -1859,9 +1893,7 @@ currentWordIndex = currentFiszkaIndex;
 
                 $(`.image-container3b`).css('z-index', 100);
                 $container.css('z-index', 102);
-function normalizeWords(words, max = 6) {
-    return Array.from({ length: max }, (_, i) => words[i] ?? '');
-}
+
                 console.log('ZawartoĹÄ kontenera:', matchingFiszki2);
 
                 if (matchingFiszki2.length > 0) {
@@ -1880,9 +1912,9 @@ function normalizeWords(words, max = 6) {
                         tempDiv.innerHTML = sentenceText;
                         tempDiv2.innerHTML = sentenceText2;
                         tempDiv3.innerHTML = sentenceText3;
-let words  = normalizeWords(tempDiv.innerText.trim().split(/\s+/));
-let words2 = normalizeWords(tempDiv2.innerText.trim().split(/\s+/));
-let words3 = normalizeWords(tempDiv3.innerText.trim().split(/\s+/));
+                        let words = tempDiv.innerText.trim().split(/\s+/);
+                        let words2 = tempDiv2.innerText.trim().split(/\s+/);
+                        let words3 = tempDiv3.innerText.trim().split(/\s+/);
                         console.log('tutaj dociera kod', words);
 
                         if (words.length > 0 && words2.length > 0 && words3.length > 0) {
@@ -2010,47 +2042,35 @@ let words3 = normalizeWords(tempDiv3.innerText.trim().split(/\s+/));
                                 showFiszkiForLesson5(indexDiv, fiszki, mojeidWordIndex, matchingFiszki2);
 
                             }
-// 1️⃣ Tworzenie elementu z ID, żeby selektor działał
-const $wordContainer = $('<div>')
-    .attr('id', 'wordDisplay')  // teraz selektor #wordDisplay zadziała
-    .addClass('wordDisplay')
-    .appendTo($container);
+                            const $wordContainer = $('<div>').attr('id', 'wordDisplay').css({
+                            }).appendTo($container);
+                            let ostatniElement2 = tablica11b[tablica11b.length - 2];
+                            console.log('hej55', ostatniElement2);
+                            // SprawdÄšĹ, czy element 'wordDisplay' juÄšĹş istnieje
+// SprawdÄšĹ, czy element 'wordDisplay' juÄšĹş istnieje w odpowiednim kontenerze
+                            if (ostatniElement2) {
+                                // ZnajdÄšĹ kontener na podstawie data-lesson
+                                const $container = $(`.image-container3b[data-lesson="${ostatniElement2}"]`);
 
-// 2️⃣ Pobranie numeru lekcji
-const lesson = Number($wordContainer.closest('.image-container3b').data('lesson'));
+                                // Szukamy 'wordDisplay' w tym kontenerze
+                                const $wordContainer = $container.find('#wordDisplay');
 
-// 3️⃣ Dodanie klasy parzysty/nieparzysty i stanu początkowego
-if (window.matchMedia("(max-width: 999px)").matches) {
-    if (lesson % 2 === 0) {
-        $wordContainer.addClass('parzysty').css({ left: '-150px', transition: 'left 0.5s ease' });
-    } else {
-        $wordContainer.addClass('nieparzysty').css({ right: '-150px', transition: 'right 0.5s ease' });
-    }
-} else {
-    if (lesson % 4 === 0) {
-        $wordContainer.addClass('nieparzysty').css({ right: '150px', transition: 'right 0.5s ease' });
-    } else {
-        $wordContainer.addClass('parzysty').css({ left: '350px', transition: 'left 0.5s ease' });
-    }
-}
+                                // JeÄšÂli 'wordDisplay' istnieje, wykonaj coÄšÂ z tym elementem
+                                if ($wordContainer.length > 0) {
+                                    console.log('Znaleziono wordDisplay:', $wordContainer);
 
-// 4️⃣ Animacja – zmiana wartości po krótkim timeout
-let ostatniElement2 = tablica11b[tablica11b.length - 2];
-if (ostatniElement2) {
-    const $container2 = $(`.image-container3b[data-lesson="${ostatniElement2}"]`);
-    const $wordContainer2 = $container2.find('#wordDisplay');
+                                    // Tutaj moÄšĹşesz wykonaĂÂ akcje na $wordContainer, np. przesuniĂÂcie
+                                    $wordContainer.css({
+                                        'right': '0px', // PrzesuÄšÂ w lewo
+                                        'transition': 'right 0.5s ease' // Animacja
+                                    });
+                                } else {
+                                    console.log('wordDisplay nie znaleziono w kontenerze');
+                                }
+                            } else {
+                                console.log('Brak ostatniego elementu w tablica11b');
+                            }
 
-    if ($wordContainer2.length > 0) {
-        setTimeout(() => {
-            if ($wordContainer2.hasClass('nieparzysty')) {
-                $wordContainer2.css('right', '350px');  // celowa pozycja
-            }
-            if ($wordContainer2.hasClass('parzysty')) {
-                $wordContainer2.css('left', '200px');   // celowa pozycja
-            }
-        }, 20);  // krótkie opóźnienie, żeby przeglądarka zarejestrowała start
-    }
-}
 // ObsÄšÂuga klikniĂÂcia na indexDiv
                             $('.indexDiv').on('click', function () {
                                 const indexDiv = $(this).data('lesson'); // Pobierz atrybut data-lesson dla klikniĂÂtego indexDiv
@@ -2923,19 +2943,8 @@ console.log('hej68ll', mojeidWordIndex);
                                 showFiszkiForLesson5(indexDiv, fiszki, mojeidWordIndex, matchingFiszki3);
 
                             }
-const $wordContainer = $('<div>')
-    .addClass('wordDisplay')
-    .appendTo($container);
-    const lesson = Number(
-    $wordContainer.closest('.image-container3b').data('lesson')
-);
-
-if (
-    window.matchMedia("(max-width: 999px)").matches &&
-    lesson % 2 === 0
-) {
-    $wordContainer.addClass('parzysty');
-}
+                            const $wordContainer = $('<div>').attr('id', 'wordDisplay').css({
+                            }).appendTo($container);
                             let ostatniElement2 = tablica11b[tablica11b.length - 2];
                             console.log('hej55', ostatniElement2);
                             // SprawdÄšĹ, czy element 'wordDisplay' juÄšĹş istnieje
@@ -3832,7 +3841,7 @@ if (!videoVisible) {
 
                 const $desc = $('<div>').addClass('thumb-desc').text(thumbDescriptions[pos] || '');
 
-                const linkForThumb = linkMap[dataName] || `demo1hiszpanski.html?category=${selectedCategory}&data=${dataName}`;
+                const linkForThumb = linkMap[dataName] || `demo1angielski.html?category=${selectedCategory}&data=${dataName}`;
                 const $link = $('<a>').attr({href: linkForThumb, target: '_blank'}).addClass('thumb-link').text('Otwórz pojedyńczą lekcję');
 
                 $item.append($czasLabel, $img, $desc, $link);
@@ -3889,8 +3898,7 @@ const $czasNameP = $('<p>').text(currentCzasName || '')
 $textContainer.append($czasNameP);
             let currentSentenceHtml = "";
             // --- Inicjalizacja cache dla indexDiv ---
-
-if (indexDiv < 19) {
+if (indexDiv < 20) {
     // pokaż overlay na stałe
     $('.overlay', $container).css('transform', 'translateX(0)');
 
@@ -3903,6 +3911,7 @@ if (indexDiv < 19) {
         $container.append($dynamicDiv);
     }
 }
+
 // --- Sprawdzenie cache ---
             if (!sentenceCache[indexDiv][currentPos]) {
                 let currentSentenceHtml = "";
@@ -4245,8 +4254,8 @@ function attachArrowNavigation($sentenceBlock, indexDiv) {
             attachArrowNavigation($sentenceDiv, indexDiv);
 
             // --- Linki do lekcji ---
-            const singleLink = `demo1hiszpanski.html?category=${selectedCategory}&data=${currentDataName}`;
-            const tripletLink = `demo1hiszpanski.html?category=${selectedCategory}&data=${currentTriplet.join(',')}`;
+            const singleLink = `demo1angielski.html?category=${selectedCategory}&data=${currentDataName}`;
+            const tripletLink = `demo1angielski.html?category=${selectedCategory}&data=${currentTriplet.join(',')}`;
 
             const $singleLinkA = $('<a>')
                     .attr({href: singleLink})
@@ -4260,47 +4269,26 @@ function attachArrowNavigation($sentenceBlock, indexDiv) {
 
             $textContainer.append($singleLinkA, $tripletLinkA);
 
-const $nav = $('<div>').addClass('nav-buttons');
-
-// ← strzałka
-const $left = $('<button>').text('←').on('click', () => {
-    currentPos = (currentPos - 1 + currentTriplet.length) % currentTriplet.length;
-    videoVisible = false;
-    renderLesson();
-});
-
-$nav.append($left);
-
-// 🔢 przyciski lekcji (1 / 2 / 3 – zależne od indexDiv)
-currentTriplet.forEach((lessonIndexDiv, i) => {
-    const $btn = $('<button>')
-        .addClass('lesson-indicator')
-        .toggleClass('active', i === currentPos)
-        .text(lessonIndexDiv) // ← tu masz cyfrę zależną od indexDiv
-        .on('click', () => {
-            currentPos = i;
-            videoVisible = false;
-            renderLesson();
-        });
-
-    $nav.append($btn);
-});
-
-// → strzałka
-const $right = $('<button>').text('→').on('click', () => {
-    currentPos = (currentPos + 1) % currentTriplet.length;
-    videoVisible = false;
-    renderLesson();
-});
-
-$nav.append($right);
+            // --- Nawigacja w obrębie trójki ---
+            const $nav = $('<div>').addClass('nav-buttons');
+            const $left = $('<button>').text('←').on('click', () => {
+                currentPos = (currentPos - 1 + currentTriplet.length) % currentTriplet.length;
+                videoVisible = false;
+                renderLesson();
+            });
+            const $right = $('<button>').text('→').on('click', () => {
+                currentPos = (currentPos + 1) % currentTriplet.length;
+                videoVisible = false;
+                renderLesson();
+            });
+            $nav.append($left, $right);
 
             $container.append($mediaContainer, $textContainer, $nav);
         }
 
         $('body').off('click', '.run-icon').on('click', '.run-icon', function () {
             const indexDiv = $(this).attr('data-index2');
-            const link = linkMap[indexDiv] || `demo1hiszpanski.html?category=${selectedCategory}&data=${indexDiv}`;
+            const link = linkMap[indexDiv] || `demo1angielski.html?category=${selectedCategory}&data=${indexDiv}`;
             window.open(link, '_blank');
         });
 

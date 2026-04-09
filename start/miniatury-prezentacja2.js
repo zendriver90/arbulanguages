@@ -35,6 +35,7 @@ function showCombinedSentenceForLesson22b(
     if (matchingFiszki1.length > 0 || matchingFiszki2.length > 0 || matchingFiszki3.length > 0) {
 
         const srcWord1 = pobierzSrcWordDlaLekcji(lessonIdToShow1, fiszki);
+                const srcWord1q = pobierzSrcWordDlaLekcji1v(lessonIdToShow1, fiszki);
         const srcWord1a = pobierzSrcWordDlaLekcji2(lessonIdToShow1, fiszki);
         const srcWord1b = pobierzSrcWordDlaLekcji3(lessonIdToShow1, fiszki);
                 const srcWord1c = pobierzSrcWordDlaLekcji3b(lessonIdToShow1, fiszki);
@@ -42,6 +43,7 @@ function showCombinedSentenceForLesson22b(
         const srcWord1f = pobierzSrcWordDlaLekcji5(lessonIdToShow1, fiszki);
         const srcWord1v = pobierzSrcWordDlaLekcji6(lessonIdToShow1, fiszki);
         const srcWord2 = pobierzSrcWordDlaLekcji(lessonIdToShow2, fiszki);
+                        const srcWord2q = pobierzSrcWordDlaLekcji1v(lessonIdToShow2, fiszki);
         const srcWord2a = pobierzSrcWordDlaLekcji2(lessonIdToShow2, fiszki);
         const srcWord2b = pobierzSrcWordDlaLekcji3(lessonIdToShow2, fiszki);
                         const srcWord2c = pobierzSrcWordDlaLekcji3b(lessonIdToShow2, fiszki);
@@ -49,6 +51,7 @@ function showCombinedSentenceForLesson22b(
         const srcWord2f = pobierzSrcWordDlaLekcji5(lessonIdToShow2, fiszki);
         const srcWord2v = pobierzSrcWordDlaLekcji6(lessonIdToShow2, fiszki);
         const srcWord3 = pobierzSrcWordDlaLekcji(lessonIdToShow3, fiszki);
+                                const srcWord3q = pobierzSrcWordDlaLekcji1v(lessonIdToShow3, fiszki);
         const srcWord3a = pobierzSrcWordDlaLekcji2(lessonIdToShow3, fiszki);
         const srcWord3b = pobierzSrcWordDlaLekcji3(lessonIdToShow3, fiszki);
                         const srcWord3c = pobierzSrcWordDlaLekcji3b(lessonIdToShow3, fiszki);
@@ -59,6 +62,10 @@ function showCombinedSentenceForLesson22b(
         function pobierzSrcWordDlaLekcji(lessonId, fiszki) {
             const matchingFiszka = fiszki.find(fiszka => fiszka.id[1] === lessonId);
             return matchingFiszka ? matchingFiszka.srcWord[0] : null;
+        }
+                function pobierzSrcWordDlaLekcji1v(lessonId, fiszki) {
+            const matchingFiszka = fiszki.find(fiszka => fiszka.id[1] === lessonId);
+            return matchingFiszka ? matchingFiszka.category3[0] : null;
         }
         function pobierzSrcWordDlaLekcji2(lessonId, fiszki) {
             const matchingFiszka = fiszki.find(fiszka => fiszka.id[1] === lessonId);
@@ -578,6 +585,7 @@ function showCombinedSentenceForLesson22b(
         observer.observe(document.body, {childList: true, subtree: true});
 // --- TABLICE ---
         const srcWords = [srcWord1, srcWord2, srcWord3];        // linki do wideo odpowiadają pozycji 0..2
+                const srcWordsq = [srcWord1q, srcWord2q, srcWord3q];        // linki do wideo odpowiadają pozycji 0..2
         const srcWordsb = [srcWord1v, srcWord2v, srcWord3v];
         const srcWords2 = [srcWord1b, srcWord2b, srcWord3b];
                 const srcWords2b = [srcWord1c, srcWord2c, srcWord3c];
@@ -685,12 +693,12 @@ function showCombinedSentenceForLesson22b(
                     const lessonNumber = i + 1;
 
                     // 🔹 Link do całej lekcji (3 zdania)
-                    const tripletLink = `demo1espanol.html?category=${selectedCategory}&data=${trojka.join(',')}`;
+                    const tripletLink = `demo1angielski.html?category=${selectedCategory}&data=${trojka.join(',')}`;
 
                     // 🔹 Dla każdego zdania z osobna:
                     trojka.forEach(indexDiv => {
                         // pojedynczy link do zdania
-                        const singleLink = `demo1espanol.html?category=${selectedCategory}&data=${indexDiv}`;
+                        const singleLink = `demo1angielski.html?category=${selectedCategory}&data=${indexDiv}`;
                         linkMap[indexDiv] = singleLink; // teraz każde zdanie ma własny link
 
                         const $containerBlock = $(`.sentence-block[data-name="${indexDiv}"]`);
@@ -716,7 +724,7 @@ function showCombinedSentenceForLesson22b(
                                         cursor: 'pointer'
                                     })
                                     .addClass('run-button3')
-                                    .text('➡ Open a single lesson');
+                                    .text('➡ Otwórz pojedynczą lekcję');
 
                             $containerBlock.append($buttonSingle);
                         }
@@ -746,7 +754,7 @@ function showCombinedSentenceForLesson22b(
                                     cursor: 'pointer'
                                 })
                                 .addClass('run-button3')
-                                .text('📘 Open a single lesson');
+                                .text('📘 Otwórz całą lekcję');
 
                         $containerFirst.append($buttonTriplet);
                     }
@@ -1131,8 +1139,43 @@ function showCombinedSentenceForLesson22b(
                                 showFiszkiForLesson5(indexDiv, fiszki, mojeidWordIndex, matchingFiszki1);
 
                             }
-                            const $wordContainer = $('<div>').attr('id', 'wordDisplay').css({
-                            }).appendTo($container);
+const isEven = indexDiv % 2 === 0;
+
+const baseStyles = {
+    position: 'absolute',
+    bottom: '200px',
+    cursor: 'pointer',
+    fontSize: '22px',
+    width: '130px',
+    height: '30px',
+    textAlign: 'center',
+    lineHeight: '30px',
+    color: 'black',
+    zIndex: '101',
+    borderRadius: '8px',
+    border: '2px solid black'
+};
+
+const evenStyles = {
+    right: '-150px',
+    top: '100px',
+    backgroundColor: 'lightblue'
+};
+
+const oddStyles = {
+    right: '-180px',
+        top: '100px',
+    backgroundColor: 'lightgreen'
+};
+
+const $wordContainer = $('<div>')
+    .attr('id', 'wordDisplay')
+    .addClass(isEven ? 'wordDisplay-even' : 'wordDisplay-odd')
+    .css({
+        ...baseStyles,
+        ...(isEven ? evenStyles : oddStyles)
+    })
+    .appendTo($container);
                             let ostatniElement2 = tablica11b[tablica11b.length - 2];
                             console.log('hej55', ostatniElement2);
                             // SprawdÄšĹ, czy element 'wordDisplay' juÄšĹş istnieje
@@ -1789,6 +1832,7 @@ currentWordIndex = currentFiszkaIndex;
                                             const fiszka = matchingFiszki2[currentFiszkaIndex];
                                             console.log('Ĺadowana fiszka:', selector);
                                             const fiszkaBlock = generateFiszkaBlock2(fiszka, indexDiv);
+                                            updateWordDisplay(mojeidWordIndex);
                                             return fiszkaBlock;
                                         }
                                     } else if (currentFiszkaIndex === 0) {
@@ -3699,6 +3743,11 @@ console.log('hej68ll', mojeidWordIndex);
             const matchingLessons5b = [];
 
             const fiszka = sentences[currentPos] || {};
+            // --- Wybór nazwy czasu dla aktualnego zdania ---
+let currentCzasName = '';
+if (currentPos === 0) currentCzasName = srcWord1q;
+else if (currentPos === 1) currentCzasName = srcWord2q;
+else if (currentPos === 2) currentCzasName = srcWord3q;
             console.log('hej140', fiszka);
 // --- Duża miniaturka / wideo ---
             const $mediaContainer = $('<div>').addClass('media-container').css({
@@ -3796,7 +3845,13 @@ currentVideos.forEach(src => {
     const $videoName = $('<p>').text(fileName).css({ fontWeight: 'bold', margin: '4px 0' });
     $textContainer2.append($videoName);
 });
-
+if (!videoVisible) {
+    const $czasName = $('<p>').text(currentCzasName || '').css({ fontWeight: 'bold', margin: '4px 0' });
+    $textContainer2.append($czasName);
+    $textContainer2.show();
+} else {
+    $textContainer2.hide();
+}
             $mediaContainer.append($textContainer2);
 
 // --- Pasek miniatur ze strzałkami ---
@@ -3808,6 +3863,9 @@ currentVideos.forEach(src => {
 
                 const $img = $('<img>').addClass('thumb-img').attr('data-pos', pos);
                 setImgSrcForce($img, miniaturka[pos]);
+                    const $czasLabel = $('<div>')
+        .addClass('thumb-czas')
+        .text(srcWordsq[pos] || '');
                 $img.off('click.thumb').on('click.thumb', function () {
                     const p = Number($(this).attr('data-pos'));
                     if (!Number.isNaN(p)) {
@@ -3819,10 +3877,10 @@ currentVideos.forEach(src => {
 
                 const $desc = $('<div>').addClass('thumb-desc').text(thumbDescriptions[pos] || '');
 
-                const linkForThumb = linkMap[dataName] || `demo1espanol.html?category=${selectedCategory}&data=${dataName}`;
-                const $link = $('<a>').attr({href: linkForThumb, target: '_blank'}).addClass('thumb-link').text('Open a single lesson');
+                const linkForThumb = linkMap[dataName] || `demo1angielski.html?category=${selectedCategory}&data=${dataName}`;
+                const $link = $('<a>').attr({href: linkForThumb, target: '_blank'}).addClass('thumb-link').text('Otwórz pojedyńczą lekcję');
 
-                $item.append($img, $desc, $link);
+                $item.append($czasLabel, $img, $desc, $link);
                 $thumbContainer.append($item);
             });
             let globalWordIndex = 0; // wszystkie trzy zdania przesuwają się razem
@@ -3861,11 +3919,19 @@ const $rightArrow = $('<button>')
         renderLesson();
     });
 
-
             $thumbWrapper.append($leftArrow, $thumbContainer, $rightArrow);
             $mediaContainer.append($thumbWrapper);
 // --- Teksty / zdania ---
             const $textContainer = $('<div>').addClass('text-block');
+            // --- Nazwa czasu nad zdaniem ---
+const $czasNameP = $('<p>').text(currentCzasName || '')
+    .css({
+        fontWeight: 'bold',
+        fontSize: '14px',
+        margin: '8px 0',
+        color: '#ffffff' // lub inny kolor pasujący do tła
+    });
+$textContainer.append($czasNameP);
             let currentSentenceHtml = "";
             // --- Inicjalizacja cache dla indexDiv ---
 
@@ -3905,7 +3971,7 @@ const $rightArrow = $('<button>')
                                 (sentence10b || "").toUpperCase() +
                                 (sentence11b || "").toUpperCase() +
                                 "<br>" +
-                                "pronunciation:" +
+                                "wymowa:" +
                                 (sentence10c || "").toUpperCase() +
                                 (sentence11c || "").toUpperCase();
                     } else if (currentPos === 1 && typeof addBackgroundToText2b === 'function') {
@@ -3926,7 +3992,7 @@ const $rightArrow = $('<button>')
                                 (sentence20b || "").toUpperCase() +
                                 (sentence22b || "").toUpperCase() +
                                 "<br>" +
-                                "pronunciation:" +
+                                "wymowa:" +
                                 (sentence20c || "").toUpperCase() +
                                 (sentence22c || "").toUpperCase();
                     } else if (currentPos === 2 && typeof addBackgroundToText3b === 'function') {
@@ -3946,7 +4012,7 @@ const $rightArrow = $('<button>')
                                 (sentence30b || "").toUpperCase() +
                                 (sentence33b || "").toUpperCase() +
                                 "<br>" +
-                                "pronunciation:" +
+                                "wymowa:" +
                                 (sentence30c || "").toUpperCase() +
                                 (sentence33c || "").toUpperCase();
                     } else {
@@ -4212,18 +4278,18 @@ function attachArrowNavigation($sentenceBlock, indexDiv) {
             attachArrowNavigation($sentenceDiv, indexDiv);
 
             // --- Linki do lekcji ---
-            const singleLink = `demo1espanol.html?category=${selectedCategory}&data=${currentDataName}`;
-            const tripletLink = `demo1espanol.html?category=${selectedCategory}&data=${currentTriplet.join(',')}`;
+            const singleLink = `demo1angielski.html?category=${selectedCategory}&data=${currentDataName}`;
+            const tripletLink = `demo1angielski.html?category=${selectedCategory}&data=${currentTriplet.join(',')}`;
 
             const $singleLinkA = $('<a>')
                     .attr({href: singleLink})
                     .addClass('text-link')
-                    .text('➡ Open the lesson with the selected sentence');
+                    .text('➡ Otwórz lekcję z wybranym zdaniem');
 
             const $tripletLinkA = $('<a>')
                     .attr({href: tripletLink})
                     .addClass('text-link')
-                    .text('➡ Open the full lesson (3 sentences)');
+                    .text('➡ Otwórz całą lekcję (3 zdania)');
 
             $textContainer.append($singleLinkA, $tripletLinkA);
 
@@ -4246,7 +4312,7 @@ function attachArrowNavigation($sentenceBlock, indexDiv) {
 
         $('body').off('click', '.run-icon').on('click', '.run-icon', function () {
             const indexDiv = $(this).attr('data-index2');
-            const link = linkMap[indexDiv] || `demo1espanol.html?category=${selectedCategory}&data=${indexDiv}`;
+            const link = linkMap[indexDiv] || `demo1angielski.html?category=${selectedCategory}&data=${indexDiv}`;
             window.open(link, '_blank');
         });
 

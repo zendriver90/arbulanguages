@@ -12,10 +12,62 @@
         <link rel="stylesheet" type="text/css" href="js/audioaudio.css">
     <link rel="stylesheet" type="text/css" href="css/1nowe-pc.css">
             <script src="js/story.js"></script>
+            <!-- jQuery -->
+<script src="https://unpkg.com/jquery@3.6.4/dist/jquery.min.js"></script>
+<script src="https://unpkg.com/wavesurfer.js"></script>
     <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2654094815555460"
     crossorigin="anonymous"></script>
 </head>
 <body>
+<div id="multiVersionOverlay" style="
+position: fixed;
+inset: 0;
+background: rgba(0,0,0,0.7);
+z-index: 9999;
+display: none;
+align-items: center;
+justify-content: center;
+">
+
+<div style="
+background: #fff;
+padding: 24px;
+border-radius: 12px;
+max-width: 420px;
+text-align: center;
+position: relative;
+">
+
+<button id="closeModeOverlay" style="
+position:absolute;
+top:8px;
+right:10px;
+border:none;
+background:none;
+font-size:20px;
+cursor:pointer;
+">
+✖
+</button>
+
+<h2>🧠 Tryb nauki</h2>
+
+<p id="multiVersionText"></p>
+
+<button id="modeRandom" style="margin-top:10px;width:100%">
+🎲 Załaduj losowe wersje do matrycy
+</button>
+
+<button id="modeApprove" style="margin-top:10px;width:100%">
+✅ Zatwierdzaj wersje ręcznie - po przeglądnięciu dostępnych
+</button>
+
+<button id="modeSkip" style="margin-top:10px;width:220px">
+⏭️ Pomiń wybór i rozglądnij się
+</button>
+
+</div>
+</div>
     <div id="kontenery">
         <div id='karta1'>
             <p>Zdanie 1sze</p><img id="as" src="img/karty/as.jpg">
@@ -56,9 +108,9 @@
     </div>
   <script src="testowyb4.js"></script>
 <script>
-
 // Wywołaj funkcję z otrzymaną wartością
 function wybierzRodzaj(category, one, two, three) {
+    
         console.log("Wybrany rodzaj słownictwa: " + category);
     console.log("Parametry data -> one:", one, "two:", two, "three:", three);
     console.log("Wybrany rodzaj słownictwa: " + category);
@@ -69,7 +121,6 @@ function wybierzRodzaj(category, one, two, three) {
     if (category === 'all') {
         // Dodaj wszystkie lekcje do matchingLessons
         for (const fiszka of fiszki) {
-            console.log(`Przetwarzanie fiszki: ${JSON.stringify(fiszka)}`);
             // Sprawdzanie, czy fiszka ma poprawne id
             if (fiszka.id && fiszka.id[1]) {
                 // Sprawdzanie, czy id już jest w matchingLessons, aby uniknąć duplikatów
@@ -81,7 +132,6 @@ function wybierzRodzaj(category, one, two, three) {
     } else if (category === 'sport') {
         // Dodaj wszystkie lekcje do matchingLessons
         for (const fiszka of fiszki) {
-            console.log(`Przetwarzanie fiszki: ${JSON.stringify(fiszka)}`);
             // Sprawdzanie, czy fiszka ma poprawne id
             if (fiszka.id && fiszka.id[1]) {
                 // Sprawdzanie, czy id już jest w matchingLessons, aby uniknąć duplikatów
@@ -93,7 +143,6 @@ function wybierzRodzaj(category, one, two, three) {
     } else if (category === 'natura') {
         // Dodaj wszystkie lekcje do matchingLessons
         for (const fiszka of fiszki) {
-            console.log(`Przetwarzanie fiszki: ${JSON.stringify(fiszka)}`);
             // Sprawdzanie, czy fiszka ma poprawne id
             if (fiszka.id && fiszka.id[1]) {
                 // Sprawdzanie, czy id już jest w matchingLessons, aby uniknąć duplikatów
@@ -105,7 +154,6 @@ function wybierzRodzaj(category, one, two, three) {
     } else if (category === 'nauka') {
         // Dodaj wszystkie lekcje do matchingLessons
         for (const fiszka of fiszki) {
-            console.log(`Przetwarzanie fiszki: ${JSON.stringify(fiszka)}`);
             // Sprawdzanie, czy fiszka ma poprawne id
             if (fiszka.id && fiszka.id[1]) {
                 // Sprawdzanie, czy id już jest w matchingLessons, aby uniknąć duplikatów
@@ -117,7 +165,6 @@ function wybierzRodzaj(category, one, two, three) {
     } else if (category === 'czarny humor' || category === 'czarnyhumor') {
         // Dodaj wszystkie lekcje do matchingLessons
         for (const fiszka of fiszki) {
-            console.log(`Przetwarzanie fiszki: ${JSON.stringify(fiszka)}`);
             // Sprawdzanie, czy fiszka ma poprawne id
             if (fiszka.id && fiszka.id[1]) {
                 // Sprawdzanie, czy id już jest w matchingLessons, aby uniknąć duplikatów
@@ -129,7 +176,6 @@ function wybierzRodzaj(category, one, two, three) {
     } else if (category === 'zwiazki') {
         // Dodaj wszystkie lekcje do matchingLessons
         for (const fiszka of fiszki) {
-            console.log(`Przetwarzanie fiszki: ${JSON.stringify(fiszka)}`);
             // Sprawdzanie, czy fiszka ma poprawne id
             if (fiszka.id && fiszka.id[1]) {
                 // Sprawdzanie, czy id już jest w matchingLessons, aby uniknąć duplikatów
@@ -141,7 +187,6 @@ function wybierzRodzaj(category, one, two, three) {
     } else {
     // Iteracja przez fiszki
     for (const fiszka of fiszki) {
-        console.log(`Przetwarzanie fiszki: ${JSON.stringify(fiszka)}`);
 if (fiszka.category !== 'all') {
         // Sprawdzenie, czy kategoria fiszki nie jest równa 'all'
         if (fiszka.category !== 'all') {
@@ -168,7 +213,6 @@ if (fiszka.category !== 'all') {
             console.log(`➕ Dodano lekcję z parametru data: ${val}`);
         }
     });
-
     // Wyświetl fiszki tylko dla lessonId: one, two, three
     if (one) {
         console.log("📘 Wyświetlam lekcję dla one:", one);
@@ -200,22 +244,166 @@ const one = selectedData[0];
 const two = selectedData[1];
 const three = selectedData[2];
 
-// Wywołaj funkcję z dodatkowymi parametrami
-wybierzRodzaj(category, one, two, three);
+wybierzRodzaj(category, one, two, three); // wywołanie dopiero po wyborze trybu
+let MATRIX_MODE = 'APPROVE';
 
 function showFiszkiForLesson(lessonIdToShow, fiszki, category) {
-    const matchingFiszki = fiszki.filter(fiszka => fiszka.id[1] === lessonIdToShow);
+
+function chooseMatrixModeIfNeeded() {
+
+    return new Promise((resolve) => {
+
+        const multiCount = countMultiVersionFiszkiForLesson(fiszki, lessonIdToShow);
+
+        if (multiCount === 0) {
+            MATRIX_MODE = 'RANDOM';
+            resolve(MATRIX_MODE);
+            return;
+        }
+
+        $('#multiVersionText').text(
+            `Jest ${multiCount} fiszki z wieloma wersjami. Jak chcesz pracować?`
+        );
+
+        $('#multiVersionOverlay').fadeIn();
+
+        $('#modeRandom').off('click').on('click', function () {
+$('.btnApprove').remove();
+            MATRIX_MODE = 'RANDOM';
+
+            $('#multiVersionOverlay').fadeOut();
+
+            console.log("TRYB:", MATRIX_MODE);
+
+            reloadMatricesRandom();
+
+            resolve(MATRIX_MODE);
+
+        });
+
+        $('#modeApprove').off('click').on('click', function () {
+
+            MATRIX_MODE = 'APPROVE';
+
+            $('#multiVersionOverlay').fadeOut();
+
+            console.log("TRYB:", MATRIX_MODE);
+
+            reloadMatricesRandom();
+
+            resolve(MATRIX_MODE);
+
+        });
+
+        $('#closeModeOverlay').off('click').on('click', function () {
+
+            MATRIX_MODE = 'APPROVE';
+
+            $('#multiVersionOverlay').fadeOut();
+
+            console.log("TRYB (zamknięcie):", MATRIX_MODE);
+
+            reloadMatricesRandom();
+
+
+            resolve(MATRIX_MODE);
+
+        });
+        $('#modeSkip').off('click').on('click', function () {
+
+    MATRIX_MODE = 'APPROVE';
+
+    $('#multiVersionOverlay').fadeOut();
+
+    console.log("TRYB: POMINIĘTO WYBÓR →", MATRIX_MODE);
+
+    reloadMatricesRandom();
+
+    resolve(MATRIX_MODE);
+
+});
+
+    });
+}
+
+    chooseMatrixModeIfNeeded().then((mode) => {
+
+        console.log("Tryb wybrany:", mode);
+
+        reloadMatricesRandom();
+
+    });
+
+    function reloadMatricesRandom() {
+
+        $('.fiszka-matrix-container').each(function () {
+
+            const lessonId = $(this).data('lesson');
+            const fiszkaContainer = $(this).prev();
+
+            const history = selectedFiszkiHistoryByLesson[lessonId];
+
+            if (!history || !history.length) {
+                console.log("Brak historii dla lekcji:", lessonId);
+                return;
+            }
+
+            // 🔹 Ładowanie obrazków z historii
+            const imagePromises = history
+                .filter(h => h.img && h.img.src)
+                .map(h => loadImage(h.img.src));
+
+            if (!matrixQueueByLesson[lessonId]) {
+                matrixQueueByLesson[lessonId] = Promise.resolve();
+            }
+
+            matrixQueueByLesson[lessonId] = matrixQueueByLesson[lessonId]
+                .then(() => Promise.all(imagePromises))
+                .then(() => {
+
+                    generateOrUpdateMatrix(
+                        fiszki10,
+                        lessonId,
+                        history,
+                        fiszkaContainer
+                    );
+
+                })
+                .catch(err => console.error(err));
+
+        });
+
+    }
+
+    // 🔹 Fiszki ładują się od razu w tle
+    const matchingFiszki = fiszki.filter(
+        fiszka => fiszka.id[1] === lessonIdToShow
+    );
 
     if (matchingFiszki.length > 0) {
+
         console.log(`Fiszki dla lekcji ${lessonIdToShow}:`);
+
         matchingFiszki.forEach(fiszka => {
-            console.log(`Processing fiszka with ID: [${fiszka.id.join(', ')}]`);
-            generateFiszkaBlock(fiszka, lessonIdToShow, category); // Upewnij się, że funkcja generateFiszkaBlock() jest zdefiniowana
-            console.log(`Generated fiszka with ID: [${fiszka.id.join(', ')}]`);
+
+            console.log(
+                `Processing fiszka with ID: [${fiszka.id.join(', ')}]`
+            );
+
+            generateFiszkaBlock(fiszka, lessonIdToShow, category);
+
+            console.log(
+                `Generated fiszka with ID: [${fiszka.id.join(', ')}]`
+            );
+
         });
+
     } else {
+
         console.log(`No fiszki found for Lesson ${lessonIdToShow}.`);
+
     }
+
 }
 </script>
 <script src="js/scroll.js"></script>

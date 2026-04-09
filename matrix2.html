@@ -10,13 +10,8 @@
         <link rel="stylesheet" type="text/css" href="css/styl7.css">
         <link rel="stylesheet" type="text/css" href="js/audioaudio.css">
         <link rel="stylesheet" type="text/css" href="css/1nowe-pc.css">
-<!-- jQuery -->
-<script src="https://unpkg.com/jquery@3.6.4/dist/jquery.min.js"></script>
-
-<!-- WaveSurfer -->
-<script src="https://unpkg.com/wavesurfer.js"></script>
-
-<!-- Twój JS -->
+        <script src="js/story.js"></script>
+        <script src="js/storage.js"></script>
 <script src="testowyb5.js"></script>
         <script src="js/story.js"></script>
         <script src="js/storage.js"></script>
@@ -31,64 +26,6 @@
         <meta name="keywords" content="naucz się angielskiego, 1000 angielskich słów, szybka nauka angielskiego, jak nauczyć się angielskiego, jak szybko nauczyć się języka, nauka angielskiego z przyjemnością" />
         <style>
             @media (min-width: 999px) {
-                .nav-buttons {
-    display: flex;
-    gap: 6px;
-    align-items: center;
-}
-
-.lesson-indicator {
-    padding: 4px 8px;
-    border: 1px solid #999;
-    background: #eee;
-    cursor: pointer;
-    font-weight: bold;
-}
-
-.lesson-indicator.active {
-    background: #4caf50;
-    color: white;
-    border-color: #4caf50;
-}
-.fiszka-block {
-    display: flex;
-    flex-direction: column;   /* DWA RZĘDY */
-    gap: 6px;
-}
-
-.fiszka-row {
-    display: flex;
-    flex-direction: row;      /* OBOK SIEBIE */
-    gap: 6px;
-    justify-content: flex-start; /* NIE rozciągaj */
-}
-
-.fiszka-rect {
-    width: 120px;             /* STAŁA szerokość */
-    height: 40px;
-    border-radius: 6px;
-    background: #eaeaea;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-weight: bold;
-    white-space: nowrap;
-}
-.ws-word.highlight {
-  background-color: yellow;
-  transition: background-color 0.05s linear;
-}
-.phrases-button.active {
-  background-color: #4caf50;
-  color: #fff;
-}
-.phrases-button {
-  border: 1px solid #ccc;
-  border-radius: 6px;
-}
-.phrases-container {
-  max-width: 100%;
-}
 .tts-word {
     padding: 2px 4px;
     border-radius: 4px;
@@ -701,7 +638,7 @@ span.highlight {
     background-color: blue;
     max-width: 100%;
     position: relative;
-    min-height: 620px;
+    min-height: 220px;
     height: auto;
     margin-bottom: 0px;
     align-items: center;
@@ -739,40 +676,7 @@ span.highlight {
                     margin-top: 10px;
                     order: -1; /* Kolejność odwrotna - spycha w dół */
                 }
-                .wordDisplay.nieparzysty {
-    position: absolute;
-    bottom: 340px;
-    cursor: pointer;
-    font-size: 22px;
-    left: -200px;
-    width: 130px;
-    height: 30px;
-    text-align: center;
-    line-height: 30px;
-    color: black;
-    z-index: 101;
-    background-color: lightgray;
-    border-radius: 8px;
-    border: 2px solid black;
-}
 
-.wordDisplay.parzysty {
-    position: absolute;
-    top: 120px;
-    left: 360px;       /* start poza ekranem */
-    cursor: pointer;
-    font-size: 22px;
-    width: 130px;
-    height: 30px;
-    text-align: center;
-    line-height: 30px;
-    color: black;
-    z-index: 101;
-    background-color: lightgray;
-    border-radius: 8px;
-    border: 2px solid black;
-    transition: left 0.5s ease;   /* animacja */
-}
                 .image-container5 {
                     display: flex;
                     flex-direction: column;
@@ -882,18 +786,19 @@ span.highlight {
                     display: none; /* Ukrycie przycisku */
                     z-index: 99999; /* Wyższy z-index, aby przycisk był na wierzchu */
                 }
-.dynamic-div {
-    position: absolute;
-    bottom: 10px;
-    left: 10px;
-    background-color: #1e90ff; /* niebieski */
-    color: white;
-    padding: 8px 12px;
-    border-radius: 6px;
-    font-size: 14px;
-    font-weight: 600;
-    z-index: 5;
-}
+                .dynamic-div {
+                    position: absolute;
+                    bottom: 5px; /* Ustawienie w dowolnym miejscu w kontenerze */
+                    left: 10px;
+                    font-size: 15px;
+                    width: 150px; /* Szerokość dynamicznego div-a */
+                    height: 20px; /* Wysokość dynamicznego div-a */
+                    background-color: rgba(255, 0, 0, 0.5); /* Przezroczyste tło */
+                    color: white;
+                    z-index: 1000; /* Wyższy z-index, aby był nad overlay */
+                    display: none; /* Początkowo ukryty */
+                    font-size: 10px;
+                }
                                                 .dynamic-div2 {
                     position: absolute;
                     bottom: 5px; /* Ustawienie w dowolnym miejscu w kontenerze */
@@ -1213,24 +1118,8 @@ span.highlight {
     user-select: none;
     text-transform: none;     /* normalne litery */
 }
-/* parzyste */
-.left-side-button {
-    left: 20px;
-}
-
-/* nieparzyste */
-.right-side-button {
-    right: 10px;
-}
             }
             @media (max-width: 999px) {
-                .sentence-line {
-    font-size: 7px;
-    color: white;
-    text-align: center;
-    line-height: 1.6;
-    margin-top: 8px;
-}
                 .thumb-czas {
     font-size: 7px;
     font-weight: bold;
@@ -1538,17 +1427,18 @@ input {
     width: 100%;
     z-index: 9999;
 }
-    .image-container3b {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        width: 100%;
-        min-height: 620px;
-        box-sizing: border-box;
-        background-color: blue;
-        font-size: 16px;
-        z-index: 10000;
-    }
+.image-container3b {
+    position: relative;            /* aby absolutne elementy wewnątrz były względem tego kontenera */
+    display: flex;
+    flex-direction: column;        /* kolumnowo, ale nie wpływa na absolutne elementy */
+    align-items: center;
+    width: 100%;
+    box-sizing: border-box;
+    background-color: blue;
+    font-size: 16px;
+    z-index: 10000;
+    overflow: visible;             /* 🔑 pozwala wychodzić absolutnym elementom poza kontener */
+}
                 .run-button4 {
     position: absolute;
     z-index: 99999;
@@ -1622,36 +1512,7 @@ input {
                     order: -1; /* Kolejność odwrotna - spycha w dół */
                     z-index: 110;
                 }
-                .wordDisplay.nieparzysty {
-    position: absolute;
-    bottom: 200px;
-    cursor: pointer;
-    font-size: 22px;
-    right: -150px;
-    width: 130px;
-    height: 30px;
-    text-align: center;
-    line-height: 30px;
-    color: black;
-    z-index: 101;
-    background-color: lightgray;
-    border-radius: 8px;
-    border: 2px solid black;
-}
 
-.wordDisplay.parzysty {
-    position: absolute;
-    top: 120px;
-    left: -160px;
-    width: 130px;
-    height: 27px;
-    line-height: 30px;
-    text-align: center;
-    background-color: lightgray;
-    border-radius: 8px;
-    border: 2px solid black;
-    z-index: 101;
-}
 /* Parzyste → lewa strona kontenera */
 .word-left {
     margin-left: -350px;
@@ -1779,18 +1640,18 @@ input {
                     margin-bottom: -140px;
                     z-index: 9999999;
                 }
-.dynamic-div {
-    position: absolute;
-    bottom: 10px;
-    left: 10px;
-    background-color: #1e90ff; /* niebieski */
-    color: white;
-    padding: 8px 12px;
-    border-radius: 6px;
-    font-size: 14px;
-    font-weight: 600;
-    z-index: 5;
-}
+                .dynamic-div {
+                    position: absolute;
+                    top: 10px; /* Ustawienie w dowolnym miejscu w kontenerze */
+                    left: 10px;
+                    font-size: 10px;
+                    width: 70px; /* Szerokość dynamicznego div-a */
+                    height: 20px; /* Wysokość dynamicznego div-a */
+                    background-color: rgba(255, 0, 0, 0.5); /* Przezroczyste tło */
+                    color: white;
+                    z-index: 1000; /* Wyższy z-index, aby był nad overlay */
+                    display: none; /* Początkowo ukryty */
+                }
                                 .dynamic-div2 {
                     position: absolute;
                     top: 10px; /* Ustawienie w dowolnym miejscu w kontenerze */
@@ -2363,7 +2224,7 @@ input {
 
 /* parzyste */
 .left-side-button {
-    left: 100px;
+    left: 5px;
 }
 
 /* nieparzyste */
@@ -2467,7 +2328,10 @@ input {
                         const tablica10 = [];
                         const tablica10a = [];
                         const tablica11 = [];
-
+// Dodaj przycisk do kontenera
+$(".grid-container").append(`
+    <button id="startButton" class="floating-btn">▶ Start Arbu świat</button>
+`);
 
 // Nadaj mu styl, żeby był "pływający"
 $(".floating-btn").css({
@@ -3683,7 +3547,7 @@ if (myVariable.length > 0) {
                             console.log('Liczba losowań:', losowaniaCounter); // Dodano log licznika losowań
 
 
-                            if ((tablica15.length <= 51 || tablica15.length === 0)) {
+                            if ((tablica15.length <= 5 || tablica15.length === 0)) {
                                 console.log('wykonuje się 8');
 
                                 showCombinedSentenceForLesson2(isSearching, selectedCategory, polski, index50, matchingIndexes, lessonId1, newIndex, indexDiv, lesson1PartLength, matchingLessons5b);
@@ -4016,11 +3880,7 @@ console.log('wykonuje się12b', index50, index70, number);
                             }
                           
 
-// ... Twój warunek i logika dalej
-if (flagaPrzycisku2 && !flagaPrzycisku && (tablica10.length <= indexDivRange) && selectedCategory === 'all' && ostatniaWartosc < 2 && ostatniaWartosc > 0 && !number) {
-    console.log('działa 77');
-    if (newIndex !== 0) {
-        // --- LEKCJA INTERAKTYWNA ---
+                            if (indexDiv <= 6) {
         showCombinedSentenceForLesson22b(
             selectedCategory, matchingIndexes3, rodzaj, matchingIndexes2,
             buttonindex, index55, index77, lessonId1, lessonId2, lessonId3, fiszki, matchingIndexes,
@@ -4032,69 +3892,6 @@ if (flagaPrzycisku2 && !flagaPrzycisku && (tablica10.length <= indexDivRange) &&
             cumulativeFirstPartLength1, cumulativeFirstPartLength2, cumulativeFirstPartLength3,
             lessonsArrayZ, matchingLessons5, matchingLessons5b, isSearching
         );
-    }
-    if (newIndex === 0) {
-        // --- LEKCJA INTERAKTYWNA ---
-        showCombinedSentenceForLesson22b(
-            selectedCategory, matchingIndexes3, rodzaj, matchingIndexes2,
-            buttonindex, index55, index77, lessonId1, lessonId2, lessonId3, fiszki, matchingIndexes,
-            startIndex, newIndex, indexDiv,
-            lessonsArray, lesson1PartLength, lesson2PartLength, lesson3PartLength,
-            lesson1Sentences, lesson2Sentences, lesson3Sentences,
-            lesson1FirstPartLength, lesson2FirstPartLength, lesson3FirstPartLength,
-            lesson1SecondPartLength, lesson2SecondPartLength, lesson3SecondPartLength,
-            cumulativeFirstPartLength1, cumulativeFirstPartLength2, cumulativeFirstPartLength3,
-            lessonsArrayZ, matchingLessons5, matchingLessons5b, isSearching
-        );
-    }
-    console.log('działa 77b');
-} else if (flagaPrzycisku2 && !flagaPrzycisku && (tablica10.length <= indexDivRange) && selectedCategory === 'all' && ostatniaWartosc < 3 && ostatniaWartosc > 1 && !number) {
-    if (index55 === indexDiv) {
-            console.log('wykonuje się12bvv', index50, index70, number);
-            showCombinedSentenceForLesson(
-        selectedCategory, matchingIndexes3, rodzaj, matchingIndexes2,
-        buttonindex, index55, index77, lessonId1, lessonId2, lessonId3, fiszki, matchingIndexes,
-        startIndex, newIndex, indexDiv,
-        lessonsArray, lesson1PartLength, lesson2PartLength, lesson3PartLength,
-        lesson1Sentences, lesson2Sentences, lesson3Sentences,
-        lesson1FirstPartLength, lesson2FirstPartLength, lesson3FirstPartLength,
-        lesson1SecondPartLength, lesson2SecondPartLength, lesson3SecondPartLength,
-        cumulativeFirstPartLength1, cumulativeFirstPartLength2, cumulativeFirstPartLength3,
-        lessonsArrayZ, matchingLessons5, matchingLessons5b, isSearching
-        );
-                    }
-                    } else if (flagaPrzycisku2 && !flagaPrzycisku && (tablica10.length <= indexDivRange) && selectedCategory === 'all' && ostatniaWartosc < 4 && ostatniaWartosc > 2 && !number) {
-        if (index77 === indexDiv) {
-            console.log('wykonuje się12bvvv', index55, index77, number);
-        showCombinedSentenceForLesson22b(
-            selectedCategory, matchingIndexes3, rodzaj, matchingIndexes2,
-            buttonindex, index55, index77, lessonId1, lessonId2, lessonId3, fiszki, matchingIndexes,
-            startIndex, newIndex, indexDiv,
-            lessonsArray, lesson1PartLength, lesson2PartLength, lesson3PartLength,
-            lesson1Sentences, lesson2Sentences, lesson3Sentences,
-            lesson1FirstPartLength, lesson2FirstPartLength, lesson3FirstPartLength,
-            lesson1SecondPartLength, lesson2SecondPartLength, lesson3SecondPartLength,
-            cumulativeFirstPartLength1, cumulativeFirstPartLength2, cumulativeFirstPartLength3,
-            lessonsArrayZ, matchingLessons5, matchingLessons5b, isSearching
-        );
-                    }
-            if (index55 === indexDiv) {
-            console.log('wykonuje się12bvv', index50, index70, number);
-            showCombinedSentenceForLesson(
-        selectedCategory, matchingIndexes3, rodzaj, matchingIndexes2,
-        buttonindex, index55, index77, lessonId1, lessonId2, lessonId3, fiszki, matchingIndexes,
-        startIndex, newIndex, indexDiv,
-        lessonsArray, lesson1PartLength, lesson2PartLength, lesson3PartLength,
-        lesson1Sentences, lesson2Sentences, lesson3Sentences,
-        lesson1FirstPartLength, lesson2FirstPartLength, lesson3FirstPartLength,
-        lesson1SecondPartLength, lesson2SecondPartLength, lesson3SecondPartLength,
-        cumulativeFirstPartLength1, cumulativeFirstPartLength2, cumulativeFirstPartLength3,
-        lessonsArrayZ, matchingLessons5, matchingLessons5b, isSearching
-        );
-                    }
-                        losowaniaCounter = 2;
-    tablica33.push(losowaniaCounter);
-    const ostatniaWartosc = 2; 
                     }
                     }
                         console.log('Aktualna zawartość tablicy lessonsArray:', lessonsArray);
@@ -4246,7 +4043,7 @@ if (flagaPrzycisku2 && !flagaPrzycisku && (tablica10.length <= indexDivRange) &&
 
             }
             </script>
-                                                                                        <script src="start/miniatury-prezentacja3.js"></script>
+                                                                                        <script src="start/miniatury-prezentacja.js"></script>
                                 <script src="displayx3.js"></script>
                                     <script src="nowydzialajacy.js"></script>
         <script src="displayx1.js"></script>

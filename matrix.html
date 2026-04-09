@@ -1,5 +1,6 @@
 
 
+
 <!DOCTYPE html>
 <html>
     <head>
@@ -27,13 +28,15 @@
         <meta name="keywords" content="naucz się angielskiego, 1000 angielskich słów, szybka nauka angielskiego, jak nauczyć się angielskiego, jak szybko nauczyć się języka, nauka angielskiego z przyjemnością" />
         <style>
             @media (min-width: 999px) {
-.tts-word {
-    padding: 2px 4px;
-    border-radius: 4px;
-}
+                .word-fiszka-wrapper {
+    position: absolute;
+    bottom: 0;
+    right: -140px;
 
-.tts-active {
-    background: #7CFF7C;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px; /* odstęp między word a fiszką */
 }
                 .thumb-czas {
     font-size: 12px;
@@ -677,22 +680,7 @@ span.highlight {
                     margin-top: 10px;
                     order: -1; /* Kolejność odwrotna - spycha w dół */
                 }
-                #wordDisplay {
-    position: absolute;
-    bottom: 200px;
-    cursor: pointer;
-    font-size: 22px;
-    right: -150px;
-    width: 130px;
-    height: 30px;
-    text-align: center;
-    line-height: 30px;
-    color: black;
-    z-index: 101;
-    background-color: lightgray;
-    border-radius: 8px;
-    border: 2px solid black;
-}
+
                 .image-container5 {
                     display: flex;
                     flex-direction: column;
@@ -1136,6 +1124,11 @@ span.highlight {
 }
             }
             @media (max-width: 999px) {
+.word-fiszka-wrapper {
+    position: relative;
+    min-height: 120px; /* albo tyle, ile potrzebujesz dla fiszek */
+    width: 100%;       /* zajmuje całą szerokość container */
+}
                 .thumb-czas {
     font-size: 7px;
     font-weight: bold;
@@ -1526,21 +1519,29 @@ input {
                     order: -1; /* Kolejność odwrotna - spycha w dół */
                     z-index: 110;
                 }
-                                #wordDisplay {
+.wordDisplay {
     position: absolute;
     bottom: 370px;
     cursor: pointer;
     font-size: 18px;
-    left: 200px;
     width: 130px;
     height: 27px;
     text-align: center;
     line-height: 30px;
     color: black;
     z-index: 101;
-    background-color: lightgray;
     border-radius: 8px;
     border: 2px solid black;
+}
+
+.wordDisplay-even {
+    left: -200px;
+    background-color: lightgray;
+}
+
+.wordDisplay-odd {
+    left: 200px; /* inna pozycja dla nieparzystych */
+    background-color: lightblue;
 }
 /* Parzyste → lewa strona kontenera */
 .word-left {
@@ -2357,10 +2358,6 @@ input {
                         const tablica10 = [];
                         const tablica10a = [];
                         const tablica11 = [];
-// Dodaj przycisk do kontenera
-$(".grid-container").append(`
-    <button id="startButton" class="floating-btn">▶ Start Arbu świat</button>
-`);
 
 // Nadaj mu styl, żeby był "pływający"
 $(".floating-btn").css({

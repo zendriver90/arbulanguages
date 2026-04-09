@@ -9,7 +9,7 @@ let tablica12b = [];
 let tablica12bu = [];
 let tablica15a = [];
 const fiszkaobject = {
-    data: [] // Inicjalizacja tablicy wewnątrz obiektu
+    data: [] // Inicjalizacja tablicy wewnÄtrz obiektu
 };
 let tablica24 = [];
         let tablica20aa = [];
@@ -98,10 +98,10 @@ function showCombinedSentenceForLesson22b(
 
             function isFiszkaActive2(className) {
                 const learned = getLearned2();
-                console.log('[📦 ZAWARTOŚĆ ColorClass]', learned);
+                console.log('[đŚ ZAWARTOĹÄ ColorClass]', learned);
 
                 const entry = learned.find(e => e.className === className);
-                console.log('[🔍 SZUKAM]', className, '->', entry);
+                console.log('[đ SZUKAM]', className, '->', entry);
 
                 return entry && entry.classToAdd === "active2";
             }
@@ -114,10 +114,10 @@ function showCombinedSentenceForLesson22b(
                 for (let ki = 0; ki < fiszka.sentence1.length; ki++) {
                     let sentencePart = fiszka.sentence1[ki];
                     const classNameToCheck = `fiszka-${fiszka.id}`;
-                    console.log('[🟢 SPRAWDZAM FISZKĘ]', classNameToCheck);
+                    console.log('[đ˘ SPRAWDZAM FISZKÄ]', classNameToCheck);
 
                     const isActive = isFiszkaActive2(classNameToCheck);
-                    console.log('[🟢 Czy aktywna (active2)?]', isActive);
+                    console.log('[đ˘ Czy aktywna (active2)?]', isActive);
 
                     if (isActive) {
                         const spanGreen = document.createElement('span');
@@ -125,7 +125,7 @@ function showCombinedSentenceForLesson22b(
                         spanGreen.classList.add('orange');
                         sentencePart = spanGreen.outerHTML;
 
-                        console.log('[✅ PODŚWIETLONO NA ZIELONO]', sentencePart);
+                        console.log('[â PODĹWIETLONO NA ZIELONO]', sentencePart);
                     }
                     const indexToCheck = i + lesson1PartLength + 1;
 
@@ -252,10 +252,10 @@ function showCombinedSentenceForLesson22b(
         function addBackgroundToText2b(matchingFiszki2, matchingIndexes, aktualny, lesson1PartLength, matchingIndexes2, rodzaj, matchingIndexes3, matchingLessons5b) {
             function isFiszkaActive2(className) {
                 const learned = getLearned2();
-                console.log('[📦 ZAWARTOŚĆ ColorClass]', learned);
+                console.log('[đŚ ZAWARTOĹÄ ColorClass]', learned);
 
                 const entry = learned.find(e => e.className === className);
-                console.log('[🔍 SZUKAM]', className, '->', entry);
+                console.log('[đ SZUKAM]', className, '->', entry);
 
                 return entry && entry.classToAdd === "active2";
             }
@@ -269,10 +269,10 @@ function showCombinedSentenceForLesson22b(
                     let sentencePart = fiszka.sentence1[k];
 
                     const classNameToCheck = `fiszka-${fiszka.id}`;
-                    console.log('[🟢 SPRAWDZAM FISZKĘ]', classNameToCheck);
+                    console.log('[đ˘ SPRAWDZAM FISZKÄ]', classNameToCheck);
 
                     const isActive = isFiszkaActive2(classNameToCheck);
-                    console.log('[🟢 Czy aktywna (active2)?]', isActive);
+                    console.log('[đ˘ Czy aktywna (active2)?]', isActive);
 
                     if (isActive) {
                         const spanGreen = document.createElement('span');
@@ -280,7 +280,7 @@ function showCombinedSentenceForLesson22b(
                         spanGreen.classList.add('orange');
                         sentencePart = spanGreen.outerHTML;
 
-                        console.log('[✅ PODŚWIETLONO NA ZIELONO]', sentencePart);
+                        console.log('[â PODĹWIETLONO NA ZIELONO]', sentencePart);
                     }
                     const indexToCheck = j + lesson1PartLength + 1;
 
@@ -406,10 +406,10 @@ function showCombinedSentenceForLesson22b(
         function addBackgroundToText3b(matchingFiszki3, matchingIndexes, aktualny, lesson1PartLength, matchingIndexes2, rodzaj, matchingIndexes3, matchingLessons5b) {
             function isFiszkaActive2(className) {
                 const learned = getLearned2();
-                console.log('[📦 ZAWARTOŚĆ ColorClass]', learned);
+                console.log('[đŚ ZAWARTOĹÄ ColorClass]', learned);
 
                 const entry = learned.find(e => e.className === className);
-                console.log('[🔍 SZUKAM]', className, '->', entry);
+                console.log('[đ SZUKAM]', className, '->', entry);
 
                 return entry && entry.classToAdd === "active2";
             }
@@ -423,10 +423,10 @@ function showCombinedSentenceForLesson22b(
                     let sentencePart = fiszka.sentence1[k];
 
                     const classNameToCheck = `fiszka-${fiszka.id}`;
-                    console.log('[🟢 SPRAWDZAM FISZKĘ]', classNameToCheck);
+                    console.log('[đ˘ SPRAWDZAM FISZKÄ]', classNameToCheck);
 
                     const isActive = isFiszkaActive2(classNameToCheck);
-                    console.log('[🟢 Czy aktywna (active2)?]', isActive);
+                    console.log('[đ˘ Czy aktywna (active2)?]', isActive);
 
                     if (isActive) {
                         const spanGreen = document.createElement('span');
@@ -434,7 +434,7 @@ function showCombinedSentenceForLesson22b(
                         spanGreen.classList.add('orange');
                         sentencePart = spanGreen.outerHTML;
 
-                        console.log('[✅ PODŚWIETLONO NA ZIELONO]', sentencePart);
+                        console.log('[â PODĹWIETLONO NA ZIELONO]', sentencePart);
                     }
                     const indexToCheck = j + lesson1PartLength + 1;
 
@@ -557,53 +557,53 @@ function showCombinedSentenceForLesson22b(
         }
 
 
-        const $container = $('<div></div>'); // Tworzymy nowy element div za pomocą jQuery
-        $container.addClass('image-container3b'); // Dodajemy klasę do nowego diva
-        $container.css('position', 'relative'); // Ustawiamy pozycję diva na relative
+        const $container = $('<div></div>'); // Tworzymy nowy element div za pomocÄ jQuery
+        $container.addClass('image-container3b'); // Dodajemy klasÄ do nowego diva
+        $container.css('position', 'relative'); // Ustawiamy pozycjÄ diva na relative
 
-        // Możesz również dodać dodatkowe atrybuty, takie jak 'data-lesson'
+        // MoĹźesz rĂłwnieĹź dodaÄ dodatkowe atrybuty, takie jak 'data-lesson'
         $container.attr('data-lesson', indexDiv);
         $('.grid-container').append($container);
 
         const observer = new MutationObserver(() => {
-            // 🔹 Szukamy kontenerów powiązanych z indexDiv0b
+            // đš Szukamy kontenerĂłw powiÄzanych z indexDiv0b
             const container3b = document.querySelector(`.image-container3b[data-lesson="${index77 + 1}"]`);
             const container3bCur = document.querySelector(`.image-container3b[data-lesson="${index77}"]`);
             // --- pierwszy warunek: indexDiv0b ---
             if (container3b && container3bCur) {
                 container3bCur.parentNode.insertBefore(container3bCur, container3b);
-                console.log(`✅ Wstawiono5 container3 (data-lesson=${index77}) przed container3b (data-lesson=${index77 + 1})`);
+                console.log(`â Wstawiono5 container3 (data-lesson=${index77}) przed container3b (data-lesson=${index77 + 1})`);
 
-                console.log(`🗑️ Usunięto container3b o data-lesson=${index77}`);
+                console.log(`đď¸ UsuniÄto container3b o data-lesson=${index77}`);
 
                 observer.disconnect();
                 return;
             }
         });
 
-// obserwuj cały body i wszystkie poddrzewa
+// obserwuj caĹy body i wszystkie poddrzewa
         observer.observe(document.body, {childList: true, subtree: true});
 // --- TABLICE ---
-        const srcWords = [srcWord1, srcWord2, srcWord3];        // linki do wideo odpowiadają pozycji 0..2
-                const srcWordsq = [srcWord1q, srcWord2q, srcWord3q];        // linki do wideo odpowiadają pozycji 0..2
+        const srcWords = [srcWord1, srcWord2, srcWord3];        // linki do wideo odpowiadajÄ pozycji 0..2
+                const srcWordsq = [srcWord1q, srcWord2q, srcWord3q];        // linki do wideo odpowiadajÄ pozycji 0..2
         const srcWordsb = [srcWord1v, srcWord2v, srcWord3v];
         const srcWords2 = [srcWord1b, srcWord2b, srcWord3b];
                 const srcWords2b = [srcWord1c, srcWord2c, srcWord3c];
-        const miniaturka = [srcWord1a, srcWord2a, srcWord3a];   // preview obrazy odpowiadają pozycji 0..2
+        const miniaturka = [srcWord1a, srcWord2a, srcWord3a];   // preview obrazy odpowiadajÄ pozycji 0..2
         const thumbDescriptions = [srcWord1f, srcWord2f, srcWord3f];
         const sentences = [matchingFiszki1[0], matchingFiszki2[0], matchingFiszki3[0]];
 
 // ---------- GLOBAL STATE ----------
         let videoVisible = false;
 
-// mapa data-name -> link (wypełniana w updateButtonColors)
+// mapa data-name -> link (wypeĹniana w updateButtonColors)
         const linkMap = {};
 // tablica data-name (np. [1,2,3,4,5,6...]) z DOM
         const tablica60 = [];
 // trojki wygenerowane z tablica60 (np. [[1,2,3],[4,5,6],...])
         let trojkiGlobal = [];
 
-// currentTriplet: rzeczywiste data-name aktualnej trójki (np. [5,6,7])
+// currentTriplet: rzeczywiste data-name aktualnej trĂłjki (np. [5,6,7])
         let currentTriplet = [];
 // currentPos: pozycja w currentTriplet (0..currentTriplet.length-1)
         let currentPos = 0;
@@ -692,18 +692,18 @@ function showCombinedSentenceForLesson22b(
                 trojki.forEach((trojka, i) => {
                     const lessonNumber = i + 1;
 
-                    // 🔹 Link do całej lekcji (3 zdania)
+                    // đš Link do caĹej lekcji (3 zdania)
                     const tripletLink = `demo1angielski.html?category=${selectedCategory}&data=${trojka.join(',')}`;
 
-                    // 🔹 Dla każdego zdania z osobna:
+                    // đš Dla kaĹźdego zdania z osobna:
                     trojka.forEach(indexDiv => {
                         // pojedynczy link do zdania
                         const singleLink = `demo1angielski.html?category=${selectedCategory}&data=${indexDiv}`;
-                        linkMap[indexDiv] = singleLink; // teraz każde zdanie ma własny link
+                        linkMap[indexDiv] = singleLink; // teraz kaĹźde zdanie ma wĹasny link
 
                         const $containerBlock = $(`.sentence-block[data-name="${indexDiv}"]`);
                         if ($containerBlock.length) {
-                            // 🔸 przycisk pojedynczej lekcji
+                            // đ¸ przycisk pojedynczej lekcji
                             const $buttonSingle = $('<a></a>')
                                     .attr({
                                         href: singleLink,
@@ -724,13 +724,13 @@ function showCombinedSentenceForLesson22b(
                                         cursor: 'pointer'
                                     })
                                     .addClass('run-button3')
-                                    .text('➡ Otwórz pojedynczą lekcję');
+                                    .text('âĄ OtwĂłrz pojedynczÄ lekcjÄ');
 
                             $containerBlock.append($buttonSingle);
                         }
                     });
 
-                    // 🔸 Dodatkowo – przycisk do całej lekcji (3 zdania)
+                    // đ¸ Dodatkowo â przycisk do caĹej lekcji (3 zdania)
                     const firstIndex = trojka[0];
                     const $containerFirst = $(`.sentence-block[data-name="${firstIndex}"]`);
                     if ($containerFirst.length) {
@@ -754,7 +754,7 @@ function showCombinedSentenceForLesson22b(
                                     cursor: 'pointer'
                                 })
                                 .addClass('run-button3')
-                                .text('📘 Otwórz całą lekcję');
+                                .text('đ OtwĂłrz caĹÄ lekcjÄ');
 
                         $containerFirst.append($buttonTriplet);
                     }
@@ -762,7 +762,7 @@ function showCombinedSentenceForLesson22b(
             }
         }
 
-// Delegacja zdarzeń dla run-button3 (otwieranie linku)
+// Delegacja zdarzeĹ dla run-button3 (otwieranie linku)
         $('body').off('click', '.run-button3').on('click', '.run-button3', function () {
             const indexDiv = $(this).attr('data-index2');
             const lessonLink = linkMap[indexDiv];
@@ -783,8 +783,8 @@ function showCombinedSentenceForLesson22b(
             return parts;
         }
 
-// Jeśli mamy pojedynczy numer (np. ?data=5) i trojkiGlobal jest już zbudowane,
-// znajdź trójkę, która zawiera ten numer i ustaw currentTriplet oraz currentPos.
+// JeĹli mamy pojedynczy numer (np. ?data=5) i trojkiGlobal jest juĹź zbudowane,
+// znajdĹş trĂłjkÄ, ktĂłra zawiera ten numer i ustaw currentTriplet oraz currentPos.
         function chooseTripletFromSingleNumber(singleNumber) {
             for (let t = 0; t < trojkiGlobal.length; t++) {
                 const tri = trojkiGlobal[t];
@@ -797,20 +797,20 @@ function showCombinedSentenceForLesson22b(
             }
             return false;
         }
-        const sentenceCache = {}; // klucz: currentPos, wartość: HTML zdań
+        const sentenceCache = {}; // klucz: currentPos, wartoĹÄ: HTML zdaĹ
         if (!sentenceCache[indexDiv]) {
             sentenceCache[indexDiv] = {};
         }
-        const currentPosCache = {}; // klucz: indexDiv, wartość: currentPos
+        const currentPosCache = {}; // klucz: indexDiv, wartoĹÄ: currentPos
         let globalSentence10 = "", globalSentence11 = "", globalSentence10b = "", globalSentence11b = "", globalSentence10c = "", globalSentence11c = "";
         let globalSentence20 = "", globalSentence22 = "", globalSentence20b = "", globalSentence22b = "", globalSentence20c = "", globalSentence22c = "";
         let globalSentence30 = "", globalSentence33 = "", globalSentence30b = "", globalSentence33b = "", globalSentence30c = "", globalSentence33c = "";
         console.log('index88:', currentPosCache);
         let mojeidGlobal;
-// Globalne zmienne do śledzenia aktualnej lekcji i zdania
+// Globalne zmienne do Ĺledzenia aktualnej lekcji i zdania
         let currentIndexDivGlobal = null;  // aktualna lekcja
         let currentPosGlobal = 0;          // aktualne zdanie w lekcji
-        let systemStarted = false; // flaga do kontroli kliknięcia "startsystem"
+        let systemStarted = false; // flaga do kontroli klikniÄcia "startsystem"
 
         function renderLesson(matchingFiszki1, matchingFiszki2) {
 
@@ -823,16 +823,16 @@ function showCombinedSentenceForLesson22b(
                 src: 'https://www.arbulang.com/img/startsystem.png',
                 class: 'overlay-button'
             });
-// jeśli index jest parzysty → dodaj klasę left-side
+// jeĹli index jest parzysty â dodaj klasÄ left-side
             if (indexDiv % 2 === 0) {
-                // parzyste → lewa strona
+                // parzyste â lewa strona
                 $buttonb.addClass('left-side-button');
             } else {
-                // nieparzyste → prawa strona
+                // nieparzyste â prawa strona
                 $buttonb.addClass('right-side-button');
             }
             $buttonb.appendTo($container);
-// ObsĹuga klikniÄcia przycisku overlay
+// ObsÄšÂuga klikniĂÂcia przycisku overlay
             $buttonb.on('click', function () {
                 console.log("STARTSYSTEM indexDiv=", indexDiv);
                 console.log("STARTSYSTEM currentPosCache=", JSON.stringify(currentPosCache));
@@ -841,24 +841,24 @@ function showCombinedSentenceForLesson22b(
                     currentPosCache[indexDiv] = 0;
                 }
                 currentPosGlobal = currentPosCache[indexDiv]; // synchronizacja z globalnym currentPosGlobal
-                currentIndexDivGlobal = indexDiv; // aktualizujemy globalną lekcję
+                currentIndexDivGlobal = indexDiv; // aktualizujemy globalnÄ lekcjÄ
 
                 systemStarted = true;
                 $('.run-button3').css({
                     'margin-top': '65px'
                 });
                 console.log('hej140', systemStarted);
-                // Dodaj kopiÄ wartoĹci indexDiv do tablicy
-                // PrzykĹad nowej wartoĹci indexDiv
+                // Dodaj kopiĂÂ wartoÄšÂci indexDiv do tablicy
+                // PrzykÄšÂad nowej wartoÄšÂci indexDiv
                 let nowaWartosc = indexDiv;
 
-                // SprawdĹş, czy wartoĹÄ juĹź nie istnieje w tablicy (opcjonalnie)
+                // SprawdÄšĹ, czy wartoÄšÂĂÂ juÄšĹş nie istnieje w tablicy (opcjonalnie)
                 if (!tablica11b.includes(nowaWartosc)) {
-                    tablica11b.push(nowaWartosc); // Dodaj nowÄ wartoĹÄ na koĹcu tablicy
-                    console.log('Dodano wartoĹÄ:', nowaWartosc);
-                    console.log('Dodano wartoĹÄ:', tablica11b);
+                    tablica11b.push(nowaWartosc); // Dodaj nowĂÂ wartoÄšÂĂÂ na koÄšÂcu tablicy
+                    console.log('Dodano wartoÄšÂĂÂ:', nowaWartosc);
+                    console.log('Dodano wartoÄšÂĂÂ:', tablica11b);
                 } else {
-                    console.log('WartoĹÄ juĹź istnieje w tablicy:', nowaWartosc);
+                    console.log('WartoÄšÂĂÂ juÄšĹş istnieje w tablicy:', nowaWartosc);
                 }
 
                 let ostatniElement2 = tablica11b[tablica11b.length - 2];
@@ -877,12 +877,12 @@ function showCombinedSentenceForLesson22b(
                 console.log('index44bc', indexDiv);
                 console.log('Button clicked');
 
-                // UtwĂłrz nowy przycisk "Szybka lekcja"
+                // UtwÄĹrz nowy przycisk "Szybka lekcja"
                 const $loadButton = $('<button>')
                         .text('Szybka lekcja')
                         .addClass('slide-button')
                         .on('click', function () {
-                            // PÄtla po wszystkich elementach wideo i zatrzymywanie kaĹźdego z nich
+                            // PĂÂtla po wszystkich elementach wideo i zatrzymywanie kaÄšĹşdego z nich
                             $('video').each(function () {
                                 const video = $(this).get(0); // Pobiera element wideo jako obiekt DOM
                                 if (video && !video.paused) {
@@ -890,36 +890,36 @@ function showCombinedSentenceForLesson22b(
                                 }
                             });
                         });
-                // Funkcja zatrzymujÄca wszystkie wideo w activeVideos
+                // Funkcja zatrzymujĂÂca wszystkie wideo w activeVideos
 
                 $loadButton.css({
                     'position': 'absolute',
                     'bottom': '10px',
-                    'right': '30px', // PoczÄtkowa pozycja przycisku na prawo od kontenera
-                    'width': '120px', // SzerokoĹÄ przycisku
+                    'right': '30px', // PoczĂÂtkowa pozycja przycisku na prawo od kontenera
+                    'width': '120px', // SzerokoÄšÂĂÂ przycisku
                     'height': '30px',
                     'cursor': 'pointer',
                     'border-radius': '8px',
                     'background-color': 'green', // Kolor przycisku
                     'color': 'white',
                     'display': 'block', // Pokazuje przycisk od razu
-                    'z-index': '1000001', // Z-index wiÄkszy niĹź startsystem
-                    'text-align': 'left', // WyrĂłwnanie tekstu do lewej (jeĹli to potrzebne)
+                    'z-index': '1000001', // Z-index wiĂÂkszy niÄšĹş startsystem
+                    'text-align': 'left', // WyrÄĹwnanie tekstu do lewej (jeÄšÂli to potrzebne)
                     'overflow': 'hidden' // Ukrywa nadmiar tekstu
                 }).appendTo($container); // Dodaj do kontenera
 
                 // Animacja: zwijanie przycisku "Szybka lekcja" w lewo
                 $loadButton.animate({
-                    width: '0px', // Zmniejszenie szerokoĹci do 0
+                    width: '0px', // Zmniejszenie szerokoÄšÂci do 0
                     right: '10px'
                 }, {
                     duration: 1500, // Czas trwania animacji
                     complete: function () {
-                        $(this).remove(); // Opcjonalnie: usuĹ przycisk po zakoĹczeniu animacji
+                        $(this).remove(); // Opcjonalnie: usuÄšÂ przycisk po zakoÄšÂczeniu animacji
                     }
                 });
-                // UtwĂłrz nowy przycisk "Szybka lekcja"
-                const $newButton = $('<button>').text('Wybierz sĹowo').addClass('slide-button');
+                // UtwÄĹrz nowy przycisk "Szybka lekcja"
+                const $newButton = $('<button>').text('Wybierz sÄšÂowo').addClass('slide-button');
                 $newButton.css({
                     'position': 'absolute',
                     'bottom': '35px',
@@ -931,7 +931,7 @@ function showCombinedSentenceForLesson22b(
                     'background-color': 'blue',
                     'color': 'white',
                     'display': 'block',
-                    'z-index': '1000000' // Bardzo wysoki z-index, aby byĹ nad innymi elementami
+                    'z-index': '1000000' // Bardzo wysoki z-index, aby byÄšÂ nad innymi elementami
                 });
                 $newButton.appendTo($container);
 
@@ -941,9 +941,9 @@ function showCombinedSentenceForLesson22b(
                 }, 500, function () {
                     console.log('Szybka lekcja button hidden');
                 });
-                // SprawdĹş, czy kontener ma odpowiedni z-index i position
+                // SprawdÄšĹ, czy kontener ma odpowiedni z-index i position
                 $container.css({
-                    'position': 'relative', // Ustawienie position na relative, aby z-index dziaĹaĹ
+                    'position': 'relative', // Ustawienie position na relative, aby z-index dziaÄšÂaÄšÂ
                     'z-index': '1000003'
                 });
                 window.mojeidGlobal2 = indexDiv;
@@ -984,14 +984,14 @@ function showCombinedSentenceForLesson22b(
 
                 const firstSentenceId = (indexDiv - 1) * 3 + 1;
 
-                // Pobieramy fiszkÄ, ktĂłra jest pierwszym zdaniem w lekcji
+                // Pobieramy fiszkĂÂ, ktÄĹra jest pierwszym zdaniem w lekcji
                 const matchingFiszki1 = fiszki.filter(fiszka => fiszka.id[1] === firstSentenceId);
                 $(`.image-container3b`).css('z-index', 100);
 
                 $(`.image-container3b`).css('z-index', 100);
                 $container.css('z-index', 102);
 
-                console.log('ZawartoĹÄ kontenera:', matchingFiszki1);
+                console.log('ZawartoÄšÂĂÂ kontenera:', matchingFiszki1);
 
                 if (matchingFiszki1.length > 0) {
                     const $sentence10 = $container.find('.sentence-block').first();
@@ -999,7 +999,7 @@ function showCombinedSentenceForLesson22b(
                     const $sentence10c = $container.find('.sentence-block').first();
 
                     if ($sentence10.length > 0 && $sentence10b.length > 0 && $sentence10c.length > 0) {
-                        console.log('funkcja odpala siÄ', $sentence10);
+                        console.log('funkcja odpala siĂÂ', $sentence10);
                         let sentenceText = globalSentence10 + " " + globalSentence11;
                         let sentenceText2 = globalSentence10b + " " + globalSentence11b;
                         let sentenceText3 = globalSentence10c + " " + globalSentence11c;
@@ -1017,7 +1017,7 @@ function showCombinedSentenceForLesson22b(
                         if (words.length > 0 && words2.length > 0 && words3.length > 0) {
                             console.log('tutaj dociera kod2', words3);
 
-                            // --- Konwersja wszystkich sĹĂłw na DUĹťE LITERY ---
+                            // --- Konwersja wszystkich sÄšÂÄĹw na DUÄšĹĽE LITERY ---
                             let [firstWord, secondWord, thirdWord, forthWord, fifthWord, sixthWord] = words.map(w => (w || ''));
                             let [firstWord2, secondWord2, thirdWord2, forthWord2, fifthWord2, sixthWord2] = words2.map(w => (w || '').toUpperCase());
                             let [firstWord3, secondWord3, thirdWord3, forthWord3, fifthWord3, sixthWord3] = words3.map(w => (w || ''));
@@ -1107,58 +1107,75 @@ function showCombinedSentenceForLesson22b(
                                     .prop("type", "text/css")
                                     .html(".word-span3:hover { background-color: #2ecc71; }")
                                     .appendTo("head");
-                            console.log('%c[highlightFirstWord] â wywoĹujÄ updateHighlight', 'color: #ff4444', {
+                            console.log('%c[highlightFirstWord] Ă˘ÂÂ wywoÄšÂujĂÂ updateHighlight', 'color: #ff4444', {
                                 indexDiv,
                                 mojeidWordIndex,
                                 words
                             });
                             updateHighlight(
-                                    indexDiv, $sentence10, mojeidWordIndex, // startowe podĹwietlenie = pierwsze sĹowo
+                                    indexDiv, $sentence10, mojeidWordIndex, // startowe podÄšÂwietlenie = pierwsze sÄšÂowo
                                     firstWord, secondWord, thirdWord, forthWord, fifthWord, sixthWord
                                     );
-                            let currentWordIndex = mojeidWordIndex; // Indeks sÄšÂowa, ktÄĹre ma byĂÂ wyÄšÂwietlane
+                            let currentWordIndex = mojeidWordIndex; // Indeks sĂĹĄĂÂowa, ktĂÂÄšÂre ma byÄÂĂÂ wyĂĹĄĂÂwietlane
                             let currentFiszkaIndex = mojeidWordIndex;
-// Funkcja obsÄšÂugujĂÂca klikniĂÂcia na sÄšÂowa, przyjmujĂÂca clickedIndex
+// Funkcja obsĂĹĄĂÂugujÄÂĂÂca klikniÄÂĂÂcia na sĂĹĄĂÂowa, przyjmujÄÂĂÂca clickedIndex
                             function handleWordClick(mojeidWordIndex, indexDiv, matchingFiszki1) {
                                 console.log("Przekazano clickedIndex:", clickedIndex);
 
-                                // PodÄšÂwietlenie klikniĂÂtego sÄšÂowa na staÄšÂe
+                                // PodĂĹĄĂÂwietlenie klikniÄÂĂÂtego sĂĹĄĂÂowa na staĂĹĄĂÂe
                                 $('.word-span').removeClass('highlighted');
-                                $('.word-span').eq(clickedIndex).addClass('highlighted'); // PodÄšÂwietlenie wedÄšÂug clickedIndex
-                                // PodÄšÂwietlenie klikniĂÂtego sÄšÂowa na staÄšÂe
+                                $('.word-span').eq(clickedIndex).addClass('highlighted'); // PodĂĹĄĂÂwietlenie wedĂĹĄĂÂug clickedIndex
+                                // PodĂĹĄĂÂwietlenie klikniÄÂĂÂtego sĂĹĄĂÂowa na staĂĹĄĂÂe
                                 $('.word-span2').removeClass('highlighted');
-                                $('.word-span2').eq(clickedIndex).addClass('highlighted'); // PodÄšÂwietlenie wedÄšÂug clickedIndex
+                                $('.word-span2').eq(clickedIndex).addClass('highlighted'); // PodĂĹĄĂÂwietlenie wedĂĹĄĂÂug clickedIndex
                                 $('.word-span3').removeClass('highlighted');
-                                $('.word-span3').eq(clickedIndex).addClass('highlighted'); // PodÄšÂwietlenie wedÄšÂug clickedIndex
+                                $('.word-span3').eq(clickedIndex).addClass('highlighted'); // PodĂĹĄĂÂwietlenie wedĂĹĄĂÂug clickedIndex
 
                                 // Zaktualizuj currentHighlightIndex na clickedIndex
                                 currentHighlightIndex = clickedIndex;
-                                console.log("Aktualny indeks podÄšÂwietlenia:", currentHighlightIndex);
+                                console.log("Aktualny indeks podĂĹĄĂÂwietlenia:", currentHighlightIndex);
 
-                                // WywoÄšÂaj funkcjĂÂ wyÄšÂwietlania fiszek
+                                // WywoĂĹĄĂÂaj funkcjÄÂĂÂ wyĂĹĄĂÂwietlania fiszek
                                 showFiszkiForLesson5(indexDiv, fiszki, mojeidWordIndex, matchingFiszki1);
 
                             }
-                            const $wordContainer = $('<div>').attr('id', 'wordDisplay').css({
-                            }).appendTo($container);
+const $container = $(`.image-container3b[data-lesson="${indexDiv}"]`);
+
+// Sprawdź wrapper
+let $wrapper = $container.find('.word-fiszka-wrapper');
+if ($wrapper.length === 0) {
+    $wrapper = $('<div>').addClass('word-fiszka-wrapper').appendTo($container);
+}
+
+// Parzystość
+const isEven = indexDiv % 2 === 0;
+
+// Tworzymy wordDisplay z odpowiednią klasą
+const $wordContainer = $('<div>')
+    .addClass('wordDisplay')
+    .addClass(isEven ? 'wordDisplay-even' : 'wordDisplay-odd');
+
+// Dodajemy do wrappera
+$wrapper.append($wordContainer);
+
                             let ostatniElement2 = tablica11b[tablica11b.length - 2];
                             console.log('hej55', ostatniElement2);
-                            // SprawdÄšĹ, czy element 'wordDisplay' juÄšĹş istnieje
-// SprawdÄšĹ, czy element 'wordDisplay' juÄšĹş istnieje w odpowiednim kontenerze
+                            // SprawdĂĹĄÄšÂ, czy element 'wordDisplay' juĂĹĄÄšĹ istnieje
+// SprawdĂĹĄÄšÂ, czy element 'wordDisplay' juĂĹĄÄšĹ istnieje w odpowiednim kontenerze
                             if (ostatniElement2) {
-                                // ZnajdÄšĹ kontener na podstawie data-lesson
+                                // ZnajdĂĹĄÄšÂ kontener na podstawie data-lesson
                                 const $container = $(`.image-container3b[data-lesson="${ostatniElement2}"]`);
 
                                 // Szukamy 'wordDisplay' w tym kontenerze
                                 const $wordContainer = $container.find('#wordDisplay');
 
-                                // JeÄšÂli 'wordDisplay' istnieje, wykonaj coÄšÂ z tym elementem
+                                // JeĂĹĄĂÂli 'wordDisplay' istnieje, wykonaj coĂĹĄĂÂ z tym elementem
                                 if ($wordContainer.length > 0) {
                                     console.log('Znaleziono wordDisplay:', $wordContainer);
 
-                                    // Tutaj moÄšĹşesz wykonaĂÂ akcje na $wordContainer, np. przesuniĂÂcie
+                                    // Tutaj moĂĹĄÄšĹesz wykonaÄÂĂÂ akcje na $wordContainer, np. przesuniÄÂĂÂcie
                                     $wordContainer.css({
-                                        'right': '0px', // PrzesuÄšÂ w lewo
+                                        'right': '0px', // PrzesuĂĹĄĂÂ w lewo
                                         'transition': 'right 0.5s ease' // Animacja
                                     });
                                 } else {
@@ -1168,10 +1185,10 @@ function showCombinedSentenceForLesson22b(
                                 console.log('Brak ostatniego elementu w tablica11b');
                             }
 
-// ObsÄšÂuga klikniĂÂcia na indexDiv
+// ObsĂĹĄĂÂuga klikniÄÂĂÂcia na indexDiv
                             $('.indexDiv').on('click', function () {
-                                const indexDiv = $(this).data('lesson'); // Pobierz atrybut data-lesson dla klikniĂÂtego indexDiv
-                                handleIndexDivClick(indexDiv); // WywoÄšÂaj funkcjĂÂ przesuwania 'wordDisplay'
+                                const indexDiv = $(this).data('lesson'); // Pobierz atrybut data-lesson dla klikniÄÂĂÂtego indexDiv
+                                handleIndexDivClick(indexDiv); // WywoĂĹĄĂÂaj funkcjÄÂĂÂ przesuwania 'wordDisplay'
                             });
                             const $currentWordDisplay = $('<span>').appendTo($wordContainer);
 
@@ -1181,21 +1198,21 @@ function showCombinedSentenceForLesson22b(
 // Dodanie zdarzenia click
                             $(document).on('click', '.word-span', function () {
                                 const clickedWord = $(this).text();
-                                console.log("KlikniĂÂto:", clickedWord);
+                                console.log("KlikniÄÂĂÂto:", clickedWord);
 
-                                // Ustalanie clickedIndex dla klikniĂÂtego sÄšÂowa
+                                // Ustalanie clickedIndex dla klikniÄÂĂÂtego sĂĹĄĂÂowa
                                 clickedIndex = words.indexOf(clickedWord);
                                 console.log('hej341', clickedIndex);
                                 updateHighlight($sentence10, clickedIndex, firstWord, secondWord, thirdWord, forthWord, fifthWord, sixthWord);
-                                // WywoÄšÂanie handleWordClick z clickedIndex
+                                // WywoĂĹĄĂÂanie handleWordClick z clickedIndex
                                 handleWordClick(clickedIndex, indexDiv, matchingFiszki1);
                             });
                             function showFiszkiForLesson5(indexDiv, fiszki, mojeidWordIndex, matchingFiszki1) {
-                                console.log('ÄšÂaduje siĂÂ');
+                                console.log('ĂĹĄĂÂaduje siÄÂĂÂ');
 
                                 if (mojeidWordIndex >= 0 && mojeidWordIndex < matchingFiszki1.length) {
 
-                                    // Pobierz jednĂÂ fiszkĂÂ na podstawie currentFiszkaIndex
+                                    // Pobierz jednÄÂĂÂ fiszkÄÂĂÂ na podstawie currentFiszkaIndex
                                     const fiszka = matchingFiszki1[mojeidWordIndex];
                                     const fiszkaBlock = generateFiszkaBlock2(fiszka, indexDiv);
 
@@ -1204,21 +1221,21 @@ function showCombinedSentenceForLesson22b(
                                 return fiszkaBlock;
                             }
 
-                            let currentHighlightIndex = 0; // Indeks podÄšÂwietlenia
+                            let currentHighlightIndex = 0; // Indeks podĂĹĄĂÂwietlenia
 
-                            let displayWordsIndex = 0; // Indeks do wyÄšÂwietlania sÄšÂÄĹw (moÄšĹşna dostosowaĂÂ w zaleÄšĹşnoÄšÂci od wymagaÄšÂ)
+                            let displayWordsIndex = 0; // Indeks do wyĂĹĄĂÂwietlania sĂĹĄĂÂĂÂÄšÂw (moĂĹĄÄšĹna dostosowaÄÂĂÂ w zaleĂĹĄÄšĹnoĂĹĄĂÂci od wymagaĂĹĄĂÂ)
 
 
-// ObsÄšÂuga klikniĂÂcia na "next"
+// ObsĂĹĄĂÂuga klikniÄÂĂÂcia na "next"
                             function handleNextClick(indexDiv, $sentence10, currentFiszkaIndex, firstWord, secondWord, thirdWord, forthWord, fifthWord, sixthWord) {
-                                // SprawdÄšĹ, czy moÄšĹşemy zwiĂÂkszyĂÂ indeks podÄšÂwietlenia
+                                // SprawdĂĹĄÄšÂ, czy moĂĹĄÄšĹemy zwiÄÂĂÂkszyÄÂĂÂ indeks podĂĹĄĂÂwietlenia
                                 console.log('hej55d', currentFiszkaIndex);
                                 updateHighlight(indexDiv, $sentence10, currentFiszkaIndex, firstWord, secondWord, thirdWord, forthWord, fifthWord, sixthWord);
                                 currentFiszkaIndex++;
 
                             }
                             function handleNextClick2(indexDiv, $sentence10, currentFiszkaIndex, firstWord, secondWord, thirdWord, forthWord, fifthWord, sixthWord) {
-                                // SprawdÄšĹ, czy moÄšĹşemy zwiĂÂkszyĂÂ indeks podÄšÂwietlenia
+                                // SprawdĂĹĄÄšÂ, czy moĂĹĄÄšĹemy zwiÄÂĂÂkszyÄÂĂÂ indeks podĂĹĄĂÂwietlenia
                                 console.log('hej55d', currentFiszkaIndex);
                                 updateHighlight(indexDiv, $sentence10, currentFiszkaIndex, firstWord, secondWord, thirdWord, forthWord, fifthWord, sixthWord);
                                 currentFiszkaIndex--;
@@ -1231,7 +1248,7 @@ function showCombinedSentenceForLesson22b(
                                 const words2 = [firstWord2, secondWord2, thirdWord2, forthWord2, fifthWord2, sixthWord2];
                                 const words3 = [firstWord3, secondWord3, thirdWord3, forthWord3, fifthWord3, sixthWord3];
 
-                                // --- Główna linia słów
+                                // --- GĹĂłwna linia sĹĂłw
                                 const highlightedWords = words.map((word, i) =>
                                         `<span class="word-span${i === index ? ' highlighted' : ''}" data-index="${i}" style="cursor: pointer;">${word}</span>`
                                 );
@@ -1265,7 +1282,7 @@ function showCombinedSentenceForLesson22b(
         </div>
     `);
 
-                                // --- Obsługa kliknięć w słowa
+                                // --- ObsĹuga klikniÄÄ w sĹowa
                                 $sentence10.find('.word-span, .word-span2, .word-span3')
                                         .off('click')
                                         .on('click', function () {
@@ -1281,24 +1298,24 @@ function showCombinedSentenceForLesson22b(
                                 const indexDiv = $container.data('lesson');
                                 const $sentence10 = $container.find('.sentence-block').first();
 
-                                // jeśli indeks nie istnieje — ustaw na -1
-                                // (dzięki temu pierwsze kliknięcie zrobi -1 + 1 = 0 → 1)
+                                // jeĹli indeks nie istnieje â ustaw na -1
+                                // (dziÄki temu pierwsze klikniÄcie zrobi -1 + 1 = 0 â 1)
                                 if (typeof currentFiszkaIndex === "undefined") {
                                     currentFiszkaIndex = -1;
-                                    console.warn("⚠️ currentFiszkaIndex był niezdefiniowany — ustawiono -1");
+                                    console.warn("â ď¸ currentFiszkaIndex byĹ niezdefiniowany â ustawiono -1");
                                 }
 
-                                // 👇 teraz dopiero inkrementujemy
-    currentFiszkaIndex++;          // 1️⃣ inkrementacja
-    tablica20aa.push(currentFiszkaIndex); // 2️⃣ zapis historii
+                                // đ teraz dopiero inkrementujemy
+    currentFiszkaIndex++;          // 1ď¸âŁ inkrementacja
+    tablica20aa.push(currentFiszkaIndex); // 2ď¸âŁ zapis historii
 
 mojeidWordIndex = tablica20aa.at(-1);
 currentWordIndex = mojeidWordIndex;
 
-updateWordDisplay(mojeidWordIndex); // 🔥 TU
-                                console.log("Kliknięto NEXT, aktualny indeks:", mojeidWordIndex);
+updateWordDisplay(mojeidWordIndex); // đĽ TU
+                                console.log("KlikniÄto NEXT, aktualny indeks:", mojeidWordIndex);
 console.warn("tablica20aa2", tablica20aa[tablica20aa.length - 1]);
-                                // jeśli przekroczy zakres — wróć do 0
+                                // jeĹli przekroczy zakres â wrĂłÄ do 0
                                 if (currentFiszkaIndex >= matchingFiszki1.length) {
                                     currentFiszkaIndex = 0;
                                 }
@@ -1317,23 +1334,23 @@ console.warn("tablica20aa", tablica20aa[tablica20aa.length - 1]);
                                 const indexDiv = $container.data('lesson');
                                 const $sentence10 = $container.find('.sentence-block').first();
 
-                                // jeśli indeks nie istnieje — ustaw na -1
-                                // (dzięki temu pierwsze kliknięcie zrobi -1 + 1 = 0 → 1)
+                                // jeĹli indeks nie istnieje â ustaw na -1
+                                // (dziÄki temu pierwsze klikniÄcie zrobi -1 + 1 = 0 â 1)
                                 if (typeof currentFiszkaIndex === "undefined") {
                                     currentFiszkaIndex = -1;
-                                    console.warn("⚠️ currentFiszkaIndex był niezdefiniowany — ustawiono -1");
+                                    console.warn("â ď¸ currentFiszkaIndex byĹ niezdefiniowany â ustawiono -1");
                                 }
 
-    currentFiszkaIndex--;          // 1️⃣ inkrementacja
-    tablica20aa.push(currentFiszkaIndex); // 2️⃣ zapis historii
+    currentFiszkaIndex--;          // 1ď¸âŁ inkrementacja
+    tablica20aa.push(currentFiszkaIndex); // 2ď¸âŁ zapis historii
 
 mojeidWordIndex = tablica20aa.at(-1);
 currentWordIndex = mojeidWordIndex;
 
-updateWordDisplay(mojeidWordIndex); // 🔥 TU
-                                console.log("🔥 Kliknięto NEXT, aktualny indeks:", currentFiszkaIndex);
+updateWordDisplay(mojeidWordIndex); // đĽ TU
+                                console.log("đĽ KlikniÄto NEXT, aktualny indeks:", currentFiszkaIndex);
 
-                                // jeśli przekroczy zakres — wróć do 0
+                                // jeĹli przekroczy zakres â wrĂłÄ do 0
                                 if (currentFiszkaIndex >= matchingFiszki1.length) {
                                     currentFiszkaIndex = 0;
                                 }
@@ -1355,7 +1372,7 @@ function updateWordDisplay(mojeidWordIndex) {
 
     if (!fiszka) {
         console.warn('Brak fiszki o podanym indexie!');
-        $currentWordDisplay.text('—');
+        $currentWordDisplay.text('â');
         return;
     }
 
@@ -1364,17 +1381,17 @@ function updateWordDisplay(mojeidWordIndex) {
 
     if (!zdanie) {
         console.warn('Brak sentence1 i sentence2!');
-        $currentWordDisplay.text('—');
+        $currentWordDisplay.text('â');
         return;
     }
 
-    // --- wybieramy które słowo pokazać ---
-    const slowo = zdanie[0] || "";  // <-- ZAWSZE pierwsze słowo
+    // --- wybieramy ktĂłre sĹowo pokazaÄ ---
+    const slowo = zdanie[0] || "";  // <-- ZAWSZE pierwsze sĹowo
 
-    console.log('Wyświetlam słowo:', slowo);
+    console.log('WyĹwietlam sĹowo:', slowo);
     $currentWordDisplay.text(slowo);
 
-    // --- wyświetlanie indexu ---
+    // --- wyĹwietlanie indexu ---
     let $indexDisplay = $('#indexDisplay');
     if ($indexDisplay.length === 0) {
         $indexDisplay = $('<div id="indexDisplay"></div>').css({
@@ -1391,7 +1408,7 @@ function updateWordDisplay(mojeidWordIndex) {
     }
     $indexDisplay.text(`Index: ${mojeidWordIndex}`);
 }
-                            console.log('Przed wywołaniem displayWords, mojeidWordIndex =', mojeidWordIndex);
+                            console.log('Przed wywoĹaniem displayWords, mojeidWordIndex =', mojeidWordIndex);
                             // Funkcja displayWords przyjmuje teraz currentWordIndex
                             function displayWords(mojeidWordIndex, indexDiv) {
 
@@ -1399,7 +1416,7 @@ function updateWordDisplay(mojeidWordIndex) {
                                 console.log('hej4433', mojeidWordIndex);
                                 mojeidWordIndex === 0;
 currentFiszkaIndex = mojeidWordIndex;
-currentWordIndex = currentFiszkaIndex;   // 🔥 KLUCZOWA LINIA
+currentWordIndex = currentFiszkaIndex;   // đĽ KLUCZOWA LINIA
 
                                 const $prevButton = $('<button>')
                                         .text('<')
@@ -1436,22 +1453,22 @@ currentWordIndex = currentFiszkaIndex;
                                         $container.css('z-index', 102); // Podniesienie z-index tylko dla aktywnego
                                         let ostatniElement2 = tablica11b[tablica11b.length - 2];
                                         console.log('hej55', ostatniElement2);
-                                        // SprawdĹş, czy element 'wordDisplay' juĹź istnieje
-// SprawdĹş, czy element 'wordDisplay' juĹź istnieje w odpowiednim kontenerze
+                                        // SprawdÄšĹ, czy element 'wordDisplay' juÄšĹş istnieje
+// SprawdÄšĹ, czy element 'wordDisplay' juÄšĹş istnieje w odpowiednim kontenerze
                                         if (ostatniElement2) {
-                                            // ZnajdĹş kontener na podstawie data-lesson
+                                            // ZnajdÄšĹ kontener na podstawie data-lesson
                                             const $container = $(`.image-container4[data-lesson="${ostatniElement2}"]`);
 
                                             // Szukamy 'wordDisplay' w tym kontenerze
                                             const $wordContainer = $container.find('#wordDisplay');
 
-                                            // JeĹli 'wordDisplay' istnieje, wykonaj coĹ z tym elementem
+                                            // JeÄšÂli 'wordDisplay' istnieje, wykonaj coÄšÂ z tym elementem
                                             if ($wordContainer.length > 0) {
                                                 console.log('Znaleziono wordDisplay:', $wordContainer);
 
-                                                // Tutaj moĹźesz wykonaÄ akcje na $wordContainer, np. przesuniÄcie
+                                                // Tutaj moÄšĹşesz wykonaĂÂ akcje na $wordContainer, np. przesuniĂÂcie
                                                 $wordContainer.css({
-                                                    'right': '0px', // PrzesuĹ w lewo
+                                                    'right': '0px', // PrzesuÄšÂ w lewo
                                                     'transition': 'right 0.5s ease' // Animacja
                                                 });
                                             } else {
@@ -1462,7 +1479,7 @@ currentWordIndex = currentFiszkaIndex;
                                         }
                                         tablica12b.push(currentFiszkaIndex);
                                         console.log('hej68cx', fiszkaobject);
-                                        let indeks5; // Zainicjalizuj zmiennÄ przed warunkami
+                                        let indeks5; // Zainicjalizuj zmiennĂÂ przed warunkami
                                         if (currentFiszkaIndex < 4) {
                                             indeks5 = tablica12b[tablica12b.length - 2];
                                         } else if (currentFiszkaIndex === 4) {
@@ -1476,7 +1493,7 @@ currentWordIndex = currentFiszkaIndex;
                                         console.log("indexDiv2", tablica12b);
                                         console.log('hej68c', currentFiszkaIndex);
                                     } else {
-                                        console.log('Koniec fiszek!'); // Informacja o koĹcu fiszek
+                                        console.log('Koniec fiszek!'); // Informacja o koÄšÂcu fiszek
                                     }
                                 });
                                 if (currentFiszkaIndex === 0) {
@@ -1488,7 +1505,7 @@ currentWordIndex = currentFiszkaIndex;
                                 console.log('hej26', tablica12b);
                                 $nextButton.on('click', function () {
                                     console.log('Aktualny index fiszki:', indexDiv);
-                                    console.log('DostÄpne fiszki:', matchingFiszki1);
+                                    console.log('DostĂÂpne fiszki:', matchingFiszki1);
 
                                     console.log('hej303b', fiszkaobject);
                                     if (currentFiszkaIndex <= matchingFiszki1.length - 1) {
@@ -1497,33 +1514,33 @@ currentWordIndex = currentFiszkaIndex;
                                         $(`.image-container4`).css('z-index', 100); // Reset z-index dla wszystkich
                                         $container.css('z-index', 102); // Podniesienie z-index tylko dla aktywnego
 
-                                        console.log('Dodano wartoĹÄ33:', tablica11b);
-                                        // SprawdĹş, czy `indexDiv` juĹź istnieje w `fiszkaobject.data`
+                                        console.log('Dodano wartoÄšÂĂÂ33:', tablica11b);
+                                        // SprawdÄšĹ, czy `indexDiv` juÄšĹş istnieje w `fiszkaobject.data`
                                         const existingIndex = fiszkaobject.data.findIndex(
                                                 (entry) => entry[0] === indexDiv
                                         );
 
                                         if (existingIndex !== -1) {
-                                            // JeĹli istnieje, zastÄp wartoĹÄ
+                                            // JeÄšÂli istnieje, zastĂÂp wartoÄšÂĂÂ
                                             fiszkaobject.data[existingIndex] = [indexDiv, currentFiszkaIndex];
                                         } else {
-                                            // JeĹli nie istnieje, dodaj nowÄ tablicÄ
+                                            // JeÄšÂli nie istnieje, dodaj nowĂÂ tablicĂÂ
                                             fiszkaobject.data.push([indexDiv, currentFiszkaIndex]);
                                         }
 
-                                        // SprawdĹş, czy `indexDiv` juĹź istnieje w `fiszkaobject.data`
+                                        // SprawdÄšĹ, czy `indexDiv` juÄšĹş istnieje w `fiszkaobject.data`
                                         const existingIndex2 = fiszkaobject.data.findIndex(
                                                 (entry) => entry[0] === indexDiv
                                         );
 
                                         if (existingIndex2 !== -1) {
-                                            // JeĹli istnieje, zaktualizuj `currentFiszkaIndex`
+                                            // JeÄšÂli istnieje, zaktualizuj `currentFiszkaIndex`
                                             fiszkaobject.data[existingIndex2][1] = currentFiszkaIndex;
                                             console.log('hej303bb', currentFiszkaIndex);
 
                                             console.log('hej303bbx', fiszkaobject.data[existingIndex2][1]);
                                         } else {
-                                            // JeĹli nie istnieje, dodaj nowÄ tablicÄ
+                                            // JeÄšÂli nie istnieje, dodaj nowĂÂ tablicĂÂ
                                             fiszkaobject.data.push([indexDiv, currentFiszkaIndex]);
                                         }
                                         tablica12b.push(currentFiszkaIndex);
@@ -1535,10 +1552,10 @@ currentWordIndex = currentFiszkaIndex;
                                         handleNextClick(indexDiv, $sentence10, currentFiszkaIndex, firstWord, secondWord, thirdWord, forthWord, fifthWord, sixthWord);
 
                                         updateWordDisplay(currentWordIndex);
-                                        // WywoĹaj funkcjÄ, przekazujÄc zaktualizowany indeks
+                                        // WywoÄšÂaj funkcjĂÂ, przekazujĂÂc zaktualizowany indeks
                                         console.log("indexDiv2", tablica12b);
                                     } else {
-                                        console.log('Koniec fiszek!'); // Informacja o koĹcu fiszek
+                                        console.log('Koniec fiszek!'); // Informacja o koÄšÂcu fiszek
                                     }
                                 });
 
@@ -1546,7 +1563,7 @@ currentWordIndex = currentFiszkaIndex;
 
                                     if (currentFiszkaIndex === 0) {
                                         console.log("indexDiv2x", currentFiszkaIndex);
-                                        let indeks55x; // Zainicjalizuj zmiennÄ przed warunkami
+                                        let indeks55x; // Zainicjalizuj zmiennĂÂ przed warunkami
                                         if (currentFiszkaIndex === 0 || currentFiszkaIndex > 0) {
                                             indeks55x = currentFiszkaIndex;
 
@@ -1559,7 +1576,7 @@ currentWordIndex = currentFiszkaIndex;
 
                                     if (currentFiszkaIndex !== 0) {
                                         console.log("indexDiv2x", mojeidWordIndex);
-                                        let indeks55x; // Zainicjalizuj zmiennÄ przed warunkami
+                                        let indeks55x; // Zainicjalizuj zmiennĂÂ przed warunkami
                                         if (currentFiszkaIndex === 0 || currentFiszkaIndex > 0) {
                                             indeks55x = mojeidWordIndex;
 
@@ -1569,7 +1586,7 @@ currentWordIndex = currentFiszkaIndex;
                                     }
                                 }, 100);
                                 updateWordDisplay(mojeidWordIndex);
-                                // ObsĹuga klikniÄcia na `#wordDisplay`
+                                // ObsÄšÂuga klikniĂÂcia na `#wordDisplay`
                                 $wordContainer.on('click', function () {
                                     const $container = $(`.image-container4[data-lesson="${indexDiv}"]`);
                                     $(`.image-container4`).css('z-index', 100); // Reset z-index dla wszystkich
@@ -1577,22 +1594,22 @@ currentWordIndex = currentFiszkaIndex;
                                     let ostatniElement2 = tablica11b[tablica11b.length - 1];
                                     console.log('hej55aa', ostatniElement2);
                                     wybierzRodzaj2c('all', currentFiszkaIndex, matchingFiszki1, indexDiv);
-                                    // SprawdĹş, czy element 'wordDisplay' juĹź istnieje
-// SprawdĹş, czy element 'wordDisplay' juĹź istnieje w odpowiednim kontenerze
+                                    // SprawdÄšĹ, czy element 'wordDisplay' juÄšĹş istnieje
+// SprawdÄšĹ, czy element 'wordDisplay' juÄšĹş istnieje w odpowiednim kontenerze
                                     if (ostatniElement2 && indexDiv !== ostatniElement2) {
-                                        // ZnajdĹş kontener na podstawie data-lesson
+                                        // ZnajdÄšĹ kontener na podstawie data-lesson
                                         const $container = $(`.image-container4[data-lesson="${ostatniElement2}"]`);
 
                                         // Szukamy 'wordDisplay' w tym kontenerze
                                         const $wordContainer = $container.find('#wordDisplay');
 
-                                        // JeĹli 'wordDisplay' istnieje, wykonaj coĹ z tym elementem
+                                        // JeÄšÂli 'wordDisplay' istnieje, wykonaj coÄšÂ z tym elementem
                                         if ($wordContainer.length > 0) {
                                             console.log('Znaleziono wordDisplay5:', $wordContainer);
 
-                                            // Tutaj moĹźesz wykonaÄ akcje na $wordContainer, np. przesuniÄcie
+                                            // Tutaj moÄšĹşesz wykonaĂÂ akcje na $wordContainer, np. przesuniĂÂcie
                                             $wordContainer.css({
-                                                'right': '0px', // PrzesuĹ w lewo
+                                                'right': '0px', // PrzesuÄšÂ w lewo
                                                 'transition': 'right 0.5s ease' // Animacja
                                             });
                                         } else {
@@ -1602,10 +1619,10 @@ currentWordIndex = currentFiszkaIndex;
                                 });
 
 
-// WywoĹaj funkcjÄ z podanÄ kategoriÄ
+// WywoÄšÂaj funkcjĂÂ z podanĂÂ kategoriĂÂ
                                 function wybierzRodzaj2(category, currentFiszkaIndex, matchingFiszki2, indexDiv) {
 
-                                    console.log("Wybrany rodzaj sĹownictwa: ", currentFiszkaIndex);
+                                    console.log("Wybrany rodzaj sÄšÂownictwa: ", currentFiszkaIndex);
 
                                     const matchingLessons = [];
 
@@ -1616,7 +1633,7 @@ currentWordIndex = currentFiszkaIndex;
                                             console.log(`Przetwarzanie fiszki: ${JSON.stringify(fiszka)}`);
                                             // Sprawdzanie, czy fiszka ma poprawne id
                                             if (fiszka.id && fiszka.id[1]) {
-                                                // Sprawdzanie, czy id juĹź jest w matchingLessons, aby uniknÄÄ duplikatĂłw
+                                                // Sprawdzanie, czy id juÄšĹş jest w matchingLessons, aby uniknĂÂĂÂ duplikatÄĹw
                                                 if (!matchingLessons.includes(fiszka.id[1])) {
                                                     matchingLessons.push(fiszka.id[1]);
                                                 }
@@ -1632,9 +1649,9 @@ currentWordIndex = currentFiszkaIndex;
                                                 const isInCategory2 = fiszka.category2 && fiszka.category2.includes(category);
                                                 const isInCategory3 = fiszka.category3 && fiszka.category3.includes(category);
 
-                                                // JeĹli fiszka pasuje do zadanej kategorii, dodaj numer lekcji do tablicy matchingLessons
+                                                // JeÄšÂli fiszka pasuje do zadanej kategorii, dodaj numer lekcji do tablicy matchingLessons
                                                 if (isInCategory2 || isInCategory3) {
-                                                    console.log(`Znaleziono fiszkÄ z kategoriÄ "${category}" w lekcji ${JSON.stringify(fiszka)}`);
+                                                    console.log(`Znaleziono fiszkĂÂ z kategoriĂÂ "${category}" w lekcji ${JSON.stringify(fiszka)}`);
                                                     if (fiszka.id && fiszka.id[1]) {
                                                         matchingLessons.push(fiszka.id[1]);
                                                     }
@@ -1647,20 +1664,20 @@ currentWordIndex = currentFiszkaIndex;
 
                                     if (matchingLessons.length > 0) {
                                         const nextThreeLessons = matchingLessons.slice(0, 1);
-                                        console.log('WyĹwietlanie kolejnych trzech lekcji:');
+                                        console.log('WyÄšÂwietlanie kolejnych trzech lekcji:');
                                         nextThreeLessons.forEach(lessonId => {
                                             showFiszkiForLesson5(indexDiv, fiszki, currentFiszkaIndex, matchingFiszki2);
                                             console.log('hej68ll', currentFiszkaIndex);
                                         });
                                     } else {
-                                        console.log(`Nie znaleziono fiszek z kategoriÄ "${category}".`);
+                                        console.log(`Nie znaleziono fiszek z kategoriĂÂ "${category}".`);
                                     }
                                 }
 
-// WywoĹaj funkcjÄ z podanÄ kategoriÄ
+// WywoÄšÂaj funkcjĂÂ z podanĂÂ kategoriĂÂ
                                 function wybierzRodzaj2b(category, indeks5, matchingFiszki2, indexDiv) {
 
-                                    console.log("Wybrany rodzaj sĹownictwa: ", currentFiszkaIndex);
+                                    console.log("Wybrany rodzaj sÄšÂownictwa: ", currentFiszkaIndex);
 
                                     const matchingLessons = [];
 
@@ -1671,7 +1688,7 @@ currentWordIndex = currentFiszkaIndex;
                                             console.log(`Przetwarzanie fiszki: ${JSON.stringify(fiszka)}`);
                                             // Sprawdzanie, czy fiszka ma poprawne id
                                             if (fiszka.id && fiszka.id[1]) {
-                                                // Sprawdzanie, czy id juĹź jest w matchingLessons, aby uniknÄÄ duplikatĂłw
+                                                // Sprawdzanie, czy id juÄšĹş jest w matchingLessons, aby uniknĂÂĂÂ duplikatÄĹw
                                                 if (!matchingLessons.includes(fiszka.id[1])) {
                                                     matchingLessons.push(fiszka.id[1]);
                                                 }
@@ -1687,9 +1704,9 @@ currentWordIndex = currentFiszkaIndex;
                                                 const isInCategory2 = fiszka.category2 && fiszka.category2.includes(category);
                                                 const isInCategory3 = fiszka.category3 && fiszka.category3.includes(category);
 
-                                                // JeĹli fiszka pasuje do zadanej kategorii, dodaj numer lekcji do tablicy matchingLessons
+                                                // JeÄšÂli fiszka pasuje do zadanej kategorii, dodaj numer lekcji do tablicy matchingLessons
                                                 if (isInCategory2 || isInCategory3) {
-                                                    console.log(`Znaleziono fiszkÄ z kategoriÄ "${category}" w lekcji ${JSON.stringify(fiszka)}`);
+                                                    console.log(`Znaleziono fiszkĂÂ z kategoriĂÂ "${category}" w lekcji ${JSON.stringify(fiszka)}`);
                                                     if (fiszka.id && fiszka.id[1]) {
                                                         matchingLessons.push(fiszka.id[1]);
                                                     }
@@ -1702,18 +1719,18 @@ currentWordIndex = currentFiszkaIndex;
 
                                     if (matchingLessons.length > 0) {
                                         const nextThreeLessons = matchingLessons.slice(0, 1);
-                                        console.log('WyĹwietlanie kolejnych trzech lekcji:');
+                                        console.log('WyÄšÂwietlanie kolejnych trzech lekcji:');
                                         nextThreeLessons.forEach(lessonId => {
                                             showFiszkiForLesson5b(indexDiv, fiszki, indeks5, matchingFiszki2);
                                             console.log('hej68ll', currentFiszkaIndex);
                                         });
                                     } else {
-                                        console.log(`Nie znaleziono fiszek z kategoriÄ "${category}".`);
+                                        console.log(`Nie znaleziono fiszek z kategoriĂÂ "${category}".`);
                                     }
                                 }
                                 function wybierzRodzaj2c(category, indeks5, matchingFiszki2, indexDiv) {
 
-                                    console.log("Wybrany rodzaj sĹownictwa: ", currentFiszkaIndex);
+                                    console.log("Wybrany rodzaj sÄšÂownictwa: ", currentFiszkaIndex);
 
                                     const matchingLessons = [];
 
@@ -1724,7 +1741,7 @@ currentWordIndex = currentFiszkaIndex;
                                             console.log(`Przetwarzanie fiszki: ${JSON.stringify(fiszka)}`);
                                             // Sprawdzanie, czy fiszka ma poprawne id
                                             if (fiszka.id && fiszka.id[1]) {
-                                                // Sprawdzanie, czy id juĹź jest w matchingLessons, aby uniknÄÄ duplikatĂłw
+                                                // Sprawdzanie, czy id juÄšĹş jest w matchingLessons, aby uniknĂÂĂÂ duplikatÄĹw
                                                 if (!matchingLessons.includes(fiszka.id[1])) {
                                                     matchingLessons.push(fiszka.id[1]);
                                                 }
@@ -1740,9 +1757,9 @@ currentWordIndex = currentFiszkaIndex;
                                                 const isInCategory2 = fiszka.category2 && fiszka.category2.includes(category);
                                                 const isInCategory3 = fiszka.category3 && fiszka.category3.includes(category);
 
-                                                // JeĹli fiszka pasuje do zadanej kategorii, dodaj numer lekcji do tablicy matchingLessons
+                                                // JeÄšÂli fiszka pasuje do zadanej kategorii, dodaj numer lekcji do tablicy matchingLessons
                                                 if (isInCategory2 || isInCategory3) {
-                                                    console.log(`Znaleziono fiszkÄ z kategoriÄ "${category}" w lekcji ${JSON.stringify(fiszka)}`);
+                                                    console.log(`Znaleziono fiszkĂÂ z kategoriĂÂ "${category}" w lekcji ${JSON.stringify(fiszka)}`);
                                                     if (fiszka.id && fiszka.id[1]) {
                                                         matchingLessons.push(fiszka.id[1]);
                                                     }
@@ -1755,18 +1772,18 @@ currentWordIndex = currentFiszkaIndex;
 
                                     if (matchingLessons.length > 0) {
                                         const nextThreeLessons = matchingLessons.slice(0, 1);
-                                        console.log('WyĹwietlanie kolejnych trzech lekcji:');
+                                        console.log('WyÄšÂwietlanie kolejnych trzech lekcji:');
                                         nextThreeLessons.forEach(lessonId => {
                                             showFiszkiForLesson5c(indexDiv, fiszki, indeks5, matchingFiszki2);
                                             console.log('hej68ll', currentFiszkaIndex);
                                         });
                                     } else {
-                                        console.log(`Nie znaleziono fiszek z kategoriÄ "${category}".`);
+                                        console.log(`Nie znaleziono fiszek z kategoriĂÂ "${category}".`);
                                     }
                                 }
 
                                 function showFiszkiForLesson5(indexDiv, fiszki, currentFiszkaIndex, matchingFiszki2) {
-                                    console.log('Ĺaduje siÄ');
+                                    console.log('ÄšÂaduje siĂÂ');
                                     console.log('Obecny indeks fiszki:', currentFiszkaIndex);
 
 
@@ -1775,11 +1792,11 @@ currentWordIndex = currentFiszkaIndex;
                                             let id = matchingFiszki2[currentFiszkaIndex - 1].id;
                                             console.log('hej2x', id);
                                             let parametr = '';
-                                            // SprawdĹş, czy id jest tablicÄ
+                                            // SprawdÄšĹ, czy id jest tablicĂÂ
                                             if (Array.isArray(id)) {
-                                                // PoĹÄcz wartoĹci z tablicy id w jeden ciÄg znakĂłw oddzielony przecinkami
+                                                // PoÄšÂĂÂcz wartoÄšÂci z tablicy id w jeden ciĂÂg znakÄĹw oddzielony przecinkami
                                                 id = id.slice(0, 3).join(',');
-                                                // ObsĹuga ewentualnego dodatkowego parametru (np. czwartego elementu w tablicy)
+                                                // ObsÄšÂuga ewentualnego dodatkowego parametru (np. czwartego elementu w tablicy)
                                                 if (id.length > 3) {
                                                     parametr = matchingFiszki2[currentFiszkaIndex].id[3]; // Pobierz czwarty element z tablicy
                                                 }
@@ -1787,23 +1804,23 @@ currentWordIndex = currentFiszkaIndex;
 // Tworzenie klasy CSS
                                             const className = `fiszka-${id}${parametr ? ',' + parametr : ''}`;
                                             const selector = `.${className.replace(/,/g, '\\,')}`;
-                                            console.log('Usuwam fiszkÄ o klasie5:', className);
-// Znalezienie i usuniÄcie diva z klasÄ `className`
+                                            console.log('Usuwam fiszkĂÂ o klasie5:', className);
+// Znalezienie i usuniĂÂcie diva z klasĂÂ `className`
                                             let $divToRemove = $(selector);
                                             if ($divToRemove.length) {  // Sprawdza, czy element istnieje
-                                                $divToRemove.remove();   // Usuwa caĹy div z DOM
+                                                $divToRemove.remove();   // Usuwa caÄšÂy div z DOM
                                             }
-                                            // Pobierz jednÄ fiszkÄ na podstawie currentFiszkaIndex
+                                            // Pobierz jednĂÂ fiszkĂÂ na podstawie currentFiszkaIndex
                                             const fiszka = matchingFiszki2[currentFiszkaIndex];
-                                            console.log('Ĺadowana fiszka:', selector);
+                                            console.log('ÄšÂadowana fiszka:', selector);
                                             const fiszkaBlock = generateFiszkaBlock2(fiszka, indexDiv);
                                             return fiszkaBlock;
                                         }
                                     } else if (currentFiszkaIndex === 0) {
                                         if (matchingFiszki2.length >= 0) {
-                                            // Pobierz jednÄ fiszkÄ na podstawie currentFiszkaIndex
+                                            // Pobierz jednĂÂ fiszkĂÂ na podstawie currentFiszkaIndex
                                             const fiszka = matchingFiszki2[currentFiszkaIndex];
-                                            console.log('ładowana fiszka5:', currentFiszkaIndex);
+                                            console.log('Ĺadowana fiszka5:', currentFiszkaIndex);
                                             const fiszkaBlock = generateFiszkaBlock2(fiszka, indexDiv);
                                             return fiszkaBlock;
                                         }
@@ -1811,7 +1828,7 @@ currentWordIndex = currentFiszkaIndex;
                                 }
 
                                 function showFiszkiForLesson5b(indexDiv, fiszki, indeks5, matchingFiszki2) {
-                                    console.log('Ĺaduje siÄ');
+                                    console.log('ÄšÂaduje siĂÂ');
                                     console.log('Obecny indeks fiszki:', currentFiszkaIndex);
 
 
@@ -1820,11 +1837,11 @@ currentWordIndex = currentFiszkaIndex;
                                             let id = matchingFiszki2[currentFiszkaIndex + 1].id;
                                             console.log('hej2', id);
                                             let parametr = '';
-                                            // SprawdĹş, czy id jest tablicÄ
+                                            // SprawdÄšĹ, czy id jest tablicĂÂ
                                             if (Array.isArray(id)) {
-                                                // PoĹÄcz wartoĹci z tablicy id w jeden ciÄg znakĂłw oddzielony przecinkami
+                                                // PoÄšÂĂÂcz wartoÄšÂci z tablicy id w jeden ciĂÂg znakÄĹw oddzielony przecinkami
                                                 id = id.slice(0, 3).join(',');
-                                                // ObsĹuga ewentualnego dodatkowego parametru (np. czwartego elementu w tablicy)
+                                                // ObsÄšÂuga ewentualnego dodatkowego parametru (np. czwartego elementu w tablicy)
                                                 if (id.length > 3) {
                                                     parametr = matchingFiszki2[currentFiszkaIndex].id[3]; // Pobierz czwarty element z tablicy
                                                 }
@@ -1832,42 +1849,42 @@ currentWordIndex = currentFiszkaIndex;
 // Tworzenie klasy CSS
                                             const className = `fiszka-${id}${parametr ? '-' + parametr : ''}`;
                                             const selector = `.${className.replace(/,/g, '\\,')}`;
-                                            console.log('Usuwam fiszkÄ o klasie5:', className);
-// Znalezienie i usuniÄcie diva z klasÄ `className`
+                                            console.log('Usuwam fiszkĂÂ o klasie5:', className);
+// Znalezienie i usuniĂÂcie diva z klasĂÂ `className`
                                             let $divToRemove = $(selector);
                                             if ($divToRemove.length) {  // Sprawdza, czy element istnieje
-                                                $divToRemove.remove();   // Usuwa caĹy div z DOM
+                                                $divToRemove.remove();   // Usuwa caÄšÂy div z DOM
                                             }
-                                            // Pobierz jednÄ fiszkÄ na podstawie currentFiszkaIndex
+                                            // Pobierz jednĂÂ fiszkĂÂ na podstawie currentFiszkaIndex
                                             const fiszka = matchingFiszki2[currentFiszkaIndex];
-                                            console.log('Ĺadowana fiszka:', selector);
+                                            console.log('ÄšÂadowana fiszka:', selector);
                                             const fiszkaBlock = generateFiszkaBlock2(fiszka, indexDiv);
                                             return fiszkaBlock;
                                         }
                                     }
                                 }
                                 function showFiszkiForLesson5c(sentenceId2, fiszki, currentFiszkaIndex, matchingFiszki2) {
-                                    console.log('Ĺaduje siÄ');
+                                    console.log('ÄšÂaduje siĂÂ');
                                     console.log('Obecny indeks fiszki:', currentFiszkaIndex);
 
 
                                     if (mojeidWordIndex !== 0 || mojeidWordIndex === 0) {
                                         if (matchingFiszki2.length >= 0) {
-                                            // Pobierz jednÄ fiszkÄ na podstawie currentFiszkaIndex
+                                            // Pobierz jednĂÂ fiszkĂÂ na podstawie currentFiszkaIndex
                                             const fiszka = matchingFiszki2[currentFiszkaIndex];
-                                            console.log('Ĺadowana fiszka5:', currentFiszkaIndex);
+                                            console.log('ÄšÂadowana fiszka5:', currentFiszkaIndex);
                                             const fiszkaBlock = generateFiszkaBlock2(fiszka, sentenceId2);
                                             return fiszkaBlock;
                                         }
                                     }
                                 }
                             }
-                            displayWords(currentWordIndex, indexDiv); // WywoĹanie z indeksem
+                            displayWords(currentWordIndex, indexDiv); // WywoÄšÂanie z indeksem
 
                             // Dostosuj rozmiar czcionki
                             updateWordDisplay(currentWordIndex);
                         } else {
-                            console.log('Nie znaleziono sĹĂłw w sentence20.');
+                            console.log('Nie znaleziono sÄšÂÄĹw w sentence20.');
                         }
                     } else {
                         console.log('Nie znaleziono elementu .sentence20 w kontenerze.');
@@ -1887,14 +1904,14 @@ currentWordIndex = currentFiszkaIndex;
 
                 const secondSentenceId = (indexDiv - 1) * 3 + 2;
 
-                // Pobieramy fiszkÄ, ktĂłra jest pierwszym zdaniem w lekcji
+                // Pobieramy fiszkĂÂ, ktÄĹra jest pierwszym zdaniem w lekcji
                 const matchingFiszki2 = fiszki.filter(fiszka => fiszka.id[1] === secondSentenceId);
                 $(`.image-container3b`).css('z-index', 100);
 
                 $(`.image-container3b`).css('z-index', 100);
                 $container.css('z-index', 102);
 
-                console.log('ZawartoĹÄ kontenera:', matchingFiszki2);
+                console.log('ZawartoÄšÂĂÂ kontenera:', matchingFiszki2);
 
                 if (matchingFiszki2.length > 0) {
                     const $sentence20 = $container.find('.sentence-block').first();
@@ -1902,7 +1919,7 @@ currentWordIndex = currentFiszkaIndex;
                     const $sentence20c = $container.find('.sentence-block').first();
 
                     if ($sentence20.length > 0 && $sentence20b.length > 0 && $sentence20c.length > 0) {
-                        console.log('funkcja odpala siÄ', $sentence20);
+                        console.log('funkcja odpala siĂÂ', $sentence20);
                         let sentenceText = globalSentence20 + " " + globalSentence22;
                         let sentenceText2 = globalSentence20b + " " + globalSentence22b;
                         let sentenceText3 = globalSentence20c + " " + globalSentence22c;
@@ -1920,7 +1937,7 @@ currentWordIndex = currentFiszkaIndex;
                         if (words.length > 0 && words2.length > 0 && words3.length > 0) {
                             console.log('tutaj dociera kod2', words3);
 
-                            // --- Konwersja wszystkich sĹĂłw na DUĹťE LITERY ---
+                            // --- Konwersja wszystkich sÄšÂÄĹw na DUÄšĹĽE LITERY ---
                             let [firstWord, secondWord, thirdWord, forthWord, fifthWord, sixthWord] = words.map(w => (w || ''));
                             let [firstWord2, secondWord2, thirdWord2, forthWord2, fifthWord2, sixthWord2] = words2.map(w => (w || '').toUpperCase());
                             let [firstWord3, secondWord3, thirdWord3, forthWord3, fifthWord3, sixthWord3] = words3.map(w => (w || ''));
@@ -2010,35 +2027,35 @@ currentWordIndex = currentFiszkaIndex;
                                     .prop("type", "text/css")
                                     .html(".word-span3:hover { background-color: #2ecc71; }")
                                     .appendTo("head");
-                            console.log('%c[highlightFirstWord] â wywoĹujÄ updateHighlight', 'color: #ff4444', {
+                            console.log('%c[highlightFirstWord] Ă˘ÂÂ wywoÄšÂujĂÂ updateHighlight', 'color: #ff4444', {
                                 indexDiv,
                                 mojeidWordIndex,
                                 words
                             });
                             updateHighlight(
-                                    indexDiv, $sentence20, mojeidWordIndex, // startowe podĹwietlenie = pierwsze sĹowo
+                                    indexDiv, $sentence20, mojeidWordIndex, // startowe podÄšÂwietlenie = pierwsze sÄšÂowo
                                     firstWord, secondWord, thirdWord, forthWord, fifthWord, sixthWord
                                     );
-                            let currentWordIndex = mojeidWordIndex; // Indeks sÄšÂowa, ktÄĹre ma byĂÂ wyÄšÂwietlane
+                            let currentWordIndex = mojeidWordIndex; // Indeks sĂĹĄĂÂowa, ktĂÂÄšÂre ma byÄÂĂÂ wyĂĹĄĂÂwietlane
                             let currentFiszkaIndex = mojeidWordIndex;
-// Funkcja obsÄšÂugujĂÂca klikniĂÂcia na sÄšÂowa, przyjmujĂÂca clickedIndex
+// Funkcja obsĂĹĄĂÂugujÄÂĂÂca klikniÄÂĂÂcia na sĂĹĄĂÂowa, przyjmujÄÂĂÂca clickedIndex
                             function handleWordClick(mojeidWordIndex, indexDiv, matchingFiszki2) {
                                 console.log("Przekazano clickedIndex:", clickedIndex);
 
-                                // PodÄšÂwietlenie klikniĂÂtego sÄšÂowa na staÄšÂe
+                                // PodĂĹĄĂÂwietlenie klikniÄÂĂÂtego sĂĹĄĂÂowa na staĂĹĄĂÂe
                                 $('.word-span').removeClass('highlighted');
-                                $('.word-span').eq(clickedIndex).addClass('highlighted'); // PodÄšÂwietlenie wedÄšÂug clickedIndex
-                                // PodÄšÂwietlenie klikniĂÂtego sÄšÂowa na staÄšÂe
+                                $('.word-span').eq(clickedIndex).addClass('highlighted'); // PodĂĹĄĂÂwietlenie wedĂĹĄĂÂug clickedIndex
+                                // PodĂĹĄĂÂwietlenie klikniÄÂĂÂtego sĂĹĄĂÂowa na staĂĹĄĂÂe
                                 $('.word-span2').removeClass('highlighted');
-                                $('.word-span2').eq(clickedIndex).addClass('highlighted'); // PodÄšÂwietlenie wedÄšÂug clickedIndex
+                                $('.word-span2').eq(clickedIndex).addClass('highlighted'); // PodĂĹĄĂÂwietlenie wedĂĹĄĂÂug clickedIndex
                                 $('.word-span3').removeClass('highlighted');
-                                $('.word-span3').eq(clickedIndex).addClass('highlighted'); // PodÄšÂwietlenie wedÄšÂug clickedIndex
+                                $('.word-span3').eq(clickedIndex).addClass('highlighted'); // PodĂĹĄĂÂwietlenie wedĂĹĄĂÂug clickedIndex
 
                                 // Zaktualizuj currentHighlightIndex na clickedIndex
                                 currentHighlightIndex = clickedIndex;
-                                console.log("Aktualny indeks podÄšÂwietlenia:", currentHighlightIndex);
+                                console.log("Aktualny indeks podĂĹĄĂÂwietlenia:", currentHighlightIndex);
 
-                                // WywoÄšÂaj funkcjĂÂ wyÄšÂwietlania fiszek
+                                // WywoĂĹĄĂÂaj funkcjÄÂĂÂ wyĂĹĄĂÂwietlania fiszek
                                 showFiszkiForLesson5(indexDiv, fiszki, mojeidWordIndex, matchingFiszki2);
 
                             }
@@ -2046,22 +2063,22 @@ currentWordIndex = currentFiszkaIndex;
                             }).appendTo($container);
                             let ostatniElement2 = tablica11b[tablica11b.length - 2];
                             console.log('hej55', ostatniElement2);
-                            // SprawdÄšĹ, czy element 'wordDisplay' juÄšĹş istnieje
-// SprawdÄšĹ, czy element 'wordDisplay' juÄšĹş istnieje w odpowiednim kontenerze
+                            // SprawdĂĹĄÄšÂ, czy element 'wordDisplay' juĂĹĄÄšĹ istnieje
+// SprawdĂĹĄÄšÂ, czy element 'wordDisplay' juĂĹĄÄšĹ istnieje w odpowiednim kontenerze
                             if (ostatniElement2) {
-                                // ZnajdÄšĹ kontener na podstawie data-lesson
+                                // ZnajdĂĹĄÄšÂ kontener na podstawie data-lesson
                                 const $container = $(`.image-container3b[data-lesson="${ostatniElement2}"]`);
 
                                 // Szukamy 'wordDisplay' w tym kontenerze
                                 const $wordContainer = $container.find('#wordDisplay');
 
-                                // JeÄšÂli 'wordDisplay' istnieje, wykonaj coÄšÂ z tym elementem
+                                // JeĂĹĄĂÂli 'wordDisplay' istnieje, wykonaj coĂĹĄĂÂ z tym elementem
                                 if ($wordContainer.length > 0) {
                                     console.log('Znaleziono wordDisplay:', $wordContainer);
 
-                                    // Tutaj moÄšĹşesz wykonaĂÂ akcje na $wordContainer, np. przesuniĂÂcie
+                                    // Tutaj moĂĹĄÄšĹesz wykonaÄÂĂÂ akcje na $wordContainer, np. przesuniÄÂĂÂcie
                                     $wordContainer.css({
-                                        'right': '0px', // PrzesuÄšÂ w lewo
+                                        'right': '0px', // PrzesuĂĹĄĂÂ w lewo
                                         'transition': 'right 0.5s ease' // Animacja
                                     });
                                 } else {
@@ -2071,10 +2088,10 @@ currentWordIndex = currentFiszkaIndex;
                                 console.log('Brak ostatniego elementu w tablica11b');
                             }
 
-// ObsÄšÂuga klikniĂÂcia na indexDiv
+// ObsĂĹĄĂÂuga klikniÄÂĂÂcia na indexDiv
                             $('.indexDiv').on('click', function () {
-                                const indexDiv = $(this).data('lesson'); // Pobierz atrybut data-lesson dla klikniĂÂtego indexDiv
-                                handleIndexDivClick(indexDiv); // WywoÄšÂaj funkcjĂÂ przesuwania 'wordDisplay'
+                                const indexDiv = $(this).data('lesson'); // Pobierz atrybut data-lesson dla klikniÄÂĂÂtego indexDiv
+                                handleIndexDivClick(indexDiv); // WywoĂĹĄĂÂaj funkcjÄÂĂÂ przesuwania 'wordDisplay'
                             });
                             const $currentWordDisplay = $('<span>').appendTo($wordContainer);
 
@@ -2084,21 +2101,21 @@ currentWordIndex = currentFiszkaIndex;
 // Dodanie zdarzenia click
                             $(document).on('click', '.word-span', function () {
                                 const clickedWord = $(this).text();
-                                console.log("KlikniĂÂto:", clickedWord);
+                                console.log("KlikniÄÂĂÂto:", clickedWord);
 
-                                // Ustalanie clickedIndex dla klikniĂÂtego sÄšÂowa
+                                // Ustalanie clickedIndex dla klikniÄÂĂÂtego sĂĹĄĂÂowa
                                 clickedIndex = words.indexOf(clickedWord);
                                 console.log('hej341', clickedIndex);
                                 updateHighlight($sentence20, clickedIndex, firstWord, secondWord, thirdWord, forthWord, fifthWord, sixthWord);
-                                // WywoÄšÂanie handleWordClick z clickedIndex
+                                // WywoĂĹĄĂÂanie handleWordClick z clickedIndex
                                 handleWordClick(clickedIndex, indexDiv, matchingFiszki2);
                             });
                             function showFiszkiForLesson5(indexDiv, fiszki, mojeidWordIndex, matchingFiszki2) {
-                                console.log('ÄšÂaduje siĂÂ');
+                                console.log('ĂĹĄĂÂaduje siÄÂĂÂ');
 
                                 if (mojeidWordIndex >= 0 && mojeidWordIndex < matchingFiszki2.length) {
 
-                                    // Pobierz jednĂÂ fiszkĂÂ na podstawie currentFiszkaIndex
+                                    // Pobierz jednÄÂĂÂ fiszkÄÂĂÂ na podstawie currentFiszkaIndex
                                     const fiszka = matchingFiszki2[mojeidWordIndex];
                                     const fiszkaBlock = generateFiszkaBlock2(fiszka, indexDiv);
 
@@ -2107,21 +2124,21 @@ currentWordIndex = currentFiszkaIndex;
                                 return fiszkaBlock;
                             }
 
-                            let currentHighlightIndex = 0; // Indeks podÄšÂwietlenia
+                            let currentHighlightIndex = 0; // Indeks podĂĹĄĂÂwietlenia
 
-                            let displayWordsIndex = 0; // Indeks do wyÄšÂwietlania sÄšÂÄĹw (moÄšĹşna dostosowaĂÂ w zaleÄšĹşnoÄšÂci od wymagaÄšÂ)
+                            let displayWordsIndex = 0; // Indeks do wyĂĹĄĂÂwietlania sĂĹĄĂÂĂÂÄšÂw (moĂĹĄÄšĹna dostosowaÄÂĂÂ w zaleĂĹĄÄšĹnoĂĹĄĂÂci od wymagaĂĹĄĂÂ)
 
 
-// ObsÄšÂuga klikniĂÂcia na "next"
+// ObsĂĹĄĂÂuga klikniÄÂĂÂcia na "next"
                             function handleNextClick(indexDiv, $sentence20, currentFiszkaIndex, firstWord, secondWord, thirdWord, forthWord, fifthWord, sixthWord) {
-                                // SprawdÄšĹ, czy moÄšĹşemy zwiĂÂkszyĂÂ indeks podÄšÂwietlenia
+                                // SprawdĂĹĄÄšÂ, czy moĂĹĄÄšĹemy zwiÄÂĂÂkszyÄÂĂÂ indeks podĂĹĄĂÂwietlenia
                                 console.log('hej55d', currentFiszkaIndex);
                                 updateHighlight(indexDiv, $sentence20, currentFiszkaIndex, firstWord, secondWord, thirdWord, forthWord, fifthWord, sixthWord);
                                 currentFiszkaIndex++;
 
                             }
                             function handleNextClick2(indexDiv, $sentence20, currentFiszkaIndex, firstWord, secondWord, thirdWord, forthWord, fifthWord, sixthWord) {
-                                // SprawdÄšĹ, czy moÄšĹşemy zwiĂÂkszyĂÂ indeks podÄšÂwietlenia
+                                // SprawdĂĹĄÄšÂ, czy moĂĹĄÄšĹemy zwiÄÂĂÂkszyÄÂĂÂ indeks podĂĹĄĂÂwietlenia
                                 console.log('hej55d', currentFiszkaIndex);
                                 updateHighlight(indexDiv, $sentence20, currentFiszkaIndex, firstWord, secondWord, thirdWord, forthWord, fifthWord, sixthWord);
                                 currentFiszkaIndex--;
@@ -2134,7 +2151,7 @@ currentWordIndex = currentFiszkaIndex;
                                 const words2 = [firstWord2, secondWord2, thirdWord2, forthWord2, fifthWord2, sixthWord2];
                                 const words3 = [firstWord3, secondWord3, thirdWord3, forthWord3, fifthWord3, sixthWord3];
 
-                                // --- Główna linia słów
+                                // --- GĹĂłwna linia sĹĂłw
                                 const highlightedWords = words.map((word, i) =>
                                         `<span class="word-span${i === index ? ' highlighted' : ''}" data-index="${i}" style="cursor: pointer;">${word}</span>`
                                 );
@@ -2168,7 +2185,7 @@ currentWordIndex = currentFiszkaIndex;
         </div>
     `);
 
-                                // --- Obsługa kliknięć w słowa
+                                // --- ObsĹuga klikniÄÄ w sĹowa
                                 $sentence20.find('.word-span, .word-span2, .word-span3')
                                         .off('click')
                                         .on('click', function () {
@@ -2184,24 +2201,24 @@ currentWordIndex = currentFiszkaIndex;
                                 const indexDiv = $container.data('lesson');
                                 const $sentence20 = $container.find('.sentence-block').first();
 
-                                // jeśli indeks nie istnieje — ustaw na -1
-                                // (dzięki temu pierwsze kliknięcie zrobi -1 + 1 = 0 → 1)
+                                // jeĹli indeks nie istnieje â ustaw na -1
+                                // (dziÄki temu pierwsze klikniÄcie zrobi -1 + 1 = 0 â 1)
                                 if (typeof currentFiszkaIndex === "undefined") {
                                     currentFiszkaIndex = -1;
-                                    console.warn("⚠️ currentFiszkaIndex był niezdefiniowany — ustawiono -1");
+                                    console.warn("â ď¸ currentFiszkaIndex byĹ niezdefiniowany â ustawiono -1");
                                 }
 
-                                // 👇 teraz dopiero inkrementujemy
-    currentFiszkaIndex++;          // 1️⃣ inkrementacja
-    tablica20aa.push(currentFiszkaIndex); // 2️⃣ zapis historii
+                                // đ teraz dopiero inkrementujemy
+    currentFiszkaIndex++;          // 1ď¸âŁ inkrementacja
+    tablica20aa.push(currentFiszkaIndex); // 2ď¸âŁ zapis historii
 
 mojeidWordIndex = tablica20aa.at(-1);
 currentWordIndex = mojeidWordIndex;
 
-updateWordDisplay(mojeidWordIndex); // 🔥 TU
-                                console.log("Kliknięto NEXT, aktualny indeks:", mojeidWordIndex);
+updateWordDisplay(mojeidWordIndex); // đĽ TU
+                                console.log("KlikniÄto NEXT, aktualny indeks:", mojeidWordIndex);
 console.warn("tablica20aa2", tablica20aa[tablica20aa.length - 1]);
-                                // jeśli przekroczy zakres — wróć do 0
+                                // jeĹli przekroczy zakres â wrĂłÄ do 0
                                 if (currentFiszkaIndex >= matchingFiszki2.length) {
                                     currentFiszkaIndex = 0;
                                 }
@@ -2220,23 +2237,23 @@ console.warn("tablica20aa", tablica20aa[tablica20aa.length - 1]);
                                 const indexDiv = $container.data('lesson');
                                 const $sentence20 = $container.find('.sentence-block').first();
 
-                                // jeśli indeks nie istnieje — ustaw na -1
-                                // (dzięki temu pierwsze kliknięcie zrobi -1 + 1 = 0 → 1)
+                                // jeĹli indeks nie istnieje â ustaw na -1
+                                // (dziÄki temu pierwsze klikniÄcie zrobi -1 + 1 = 0 â 1)
                                 if (typeof currentFiszkaIndex === "undefined") {
                                     currentFiszkaIndex = -1;
-                                    console.warn("⚠️ currentFiszkaIndex był niezdefiniowany — ustawiono -1");
+                                    console.warn("â ď¸ currentFiszkaIndex byĹ niezdefiniowany â ustawiono -1");
                                 }
 
-    currentFiszkaIndex--;          // 1️⃣ inkrementacja
-    tablica20aa.push(currentFiszkaIndex); // 2️⃣ zapis historii
+    currentFiszkaIndex--;          // 1ď¸âŁ inkrementacja
+    tablica20aa.push(currentFiszkaIndex); // 2ď¸âŁ zapis historii
 
 mojeidWordIndex = tablica20aa.at(-1);
 currentWordIndex = mojeidWordIndex;
 
-updateWordDisplay(mojeidWordIndex); // 🔥 TU
-                                console.log("🔥 Kliknięto NEXT, aktualny indeks:", currentFiszkaIndex);
+updateWordDisplay(mojeidWordIndex); // đĽ TU
+                                console.log("đĽ KlikniÄto NEXT, aktualny indeks:", currentFiszkaIndex);
 
-                                // jeśli przekroczy zakres — wróć do 0
+                                // jeĹli przekroczy zakres â wrĂłÄ do 0
                                 if (currentFiszkaIndex >= matchingFiszki2.length) {
                                     currentFiszkaIndex = 0;
                                 }
@@ -2258,7 +2275,7 @@ function updateWordDisplay(mojeidWordIndex) {
 
     if (!fiszka) {
         console.warn('Brak fiszki o podanym indexie!');
-        $currentWordDisplay.text('—');
+        $currentWordDisplay.text('â');
         return;
     }
 
@@ -2267,17 +2284,17 @@ function updateWordDisplay(mojeidWordIndex) {
 
     if (!zdanie) {
         console.warn('Brak sentence1 i sentence2!');
-        $currentWordDisplay.text('—');
+        $currentWordDisplay.text('â');
         return;
     }
 
-    // --- wybieramy które słowo pokazać ---
-    const slowo = zdanie[0] || "";  // <-- ZAWSZE pierwsze słowo
+    // --- wybieramy ktĂłre sĹowo pokazaÄ ---
+    const slowo = zdanie[0] || "";  // <-- ZAWSZE pierwsze sĹowo
 
-    console.log('Wyświetlam słowo:', slowo);
+    console.log('WyĹwietlam sĹowo:', slowo);
     $currentWordDisplay.text(slowo);
 
-    // --- wyświetlanie indexu ---
+    // --- wyĹwietlanie indexu ---
     let $indexDisplay = $('#indexDisplay');
     if ($indexDisplay.length === 0) {
         $indexDisplay = $('<div id="indexDisplay"></div>').css({
@@ -2294,7 +2311,7 @@ function updateWordDisplay(mojeidWordIndex) {
     }
     $indexDisplay.text(`Index: ${mojeidWordIndex}`);
 }
-                            console.log('Przed wywołaniem displayWords, mojeidWordIndex =', mojeidWordIndex);
+                            console.log('Przed wywoĹaniem displayWords, mojeidWordIndex =', mojeidWordIndex);
                             // Funkcja displayWords przyjmuje teraz currentWordIndex
                             function displayWords(mojeidWordIndex, indexDiv) {
 
@@ -2302,7 +2319,7 @@ function updateWordDisplay(mojeidWordIndex) {
                                 console.log('hej4433', mojeidWordIndex);
                                 mojeidWordIndex === 0;
 currentFiszkaIndex = mojeidWordIndex;
-currentWordIndex = currentFiszkaIndex;   // 🔥 KLUCZOWA LINIA
+currentWordIndex = currentFiszkaIndex;   // đĽ KLUCZOWA LINIA
 
                                 const $prevButton = $('<button>')
                                         .text('<')
@@ -2339,22 +2356,22 @@ currentWordIndex = currentFiszkaIndex;
                                         $container.css('z-index', 102); // Podniesienie z-index tylko dla aktywnego
                                         let ostatniElement2 = tablica11b[tablica11b.length - 2];
                                         console.log('hej55', ostatniElement2);
-                                        // SprawdĹş, czy element 'wordDisplay' juĹź istnieje
-// SprawdĹş, czy element 'wordDisplay' juĹź istnieje w odpowiednim kontenerze
+                                        // SprawdÄšĹ, czy element 'wordDisplay' juÄšĹş istnieje
+// SprawdÄšĹ, czy element 'wordDisplay' juÄšĹş istnieje w odpowiednim kontenerze
                                         if (ostatniElement2) {
-                                            // ZnajdĹş kontener na podstawie data-lesson
+                                            // ZnajdÄšĹ kontener na podstawie data-lesson
                                             const $container = $(`.image-container4[data-lesson="${ostatniElement2}"]`);
 
                                             // Szukamy 'wordDisplay' w tym kontenerze
                                             const $wordContainer = $container.find('#wordDisplay');
 
-                                            // JeĹli 'wordDisplay' istnieje, wykonaj coĹ z tym elementem
+                                            // JeÄšÂli 'wordDisplay' istnieje, wykonaj coÄšÂ z tym elementem
                                             if ($wordContainer.length > 0) {
                                                 console.log('Znaleziono wordDisplay:', $wordContainer);
 
-                                                // Tutaj moĹźesz wykonaÄ akcje na $wordContainer, np. przesuniÄcie
+                                                // Tutaj moÄšĹşesz wykonaĂÂ akcje na $wordContainer, np. przesuniĂÂcie
                                                 $wordContainer.css({
-                                                    'right': '0px', // PrzesuĹ w lewo
+                                                    'right': '0px', // PrzesuÄšÂ w lewo
                                                     'transition': 'right 0.5s ease' // Animacja
                                                 });
                                             } else {
@@ -2365,7 +2382,7 @@ currentWordIndex = currentFiszkaIndex;
                                         }
                                         tablica12b.push(currentFiszkaIndex);
                                         console.log('hej68cx', fiszkaobject);
-                                        let indeks5; // Zainicjalizuj zmiennÄ przed warunkami
+                                        let indeks5; // Zainicjalizuj zmiennĂÂ przed warunkami
                                         if (currentFiszkaIndex < 4) {
                                             indeks5 = tablica12b[tablica12b.length - 2];
                                         } else if (currentFiszkaIndex === 4) {
@@ -2379,7 +2396,7 @@ currentWordIndex = currentFiszkaIndex;
                                         console.log("indexDiv2", tablica12b);
                                         console.log('hej68c', currentFiszkaIndex);
                                     } else {
-                                        console.log('Koniec fiszek!'); // Informacja o koĹcu fiszek
+                                        console.log('Koniec fiszek!'); // Informacja o koÄšÂcu fiszek
                                     }
                                 });
                                 if (currentFiszkaIndex === 0) {
@@ -2391,7 +2408,7 @@ currentWordIndex = currentFiszkaIndex;
                                 console.log('hej26', tablica12b);
                                 $nextButton.on('click', function () {
                                     console.log('Aktualny index fiszki:', indexDiv);
-                                    console.log('DostÄpne fiszki:', matchingFiszki2);
+                                    console.log('DostĂÂpne fiszki:', matchingFiszki2);
 
                                     console.log('hej303b', fiszkaobject);
                                     if (currentFiszkaIndex <= matchingFiszki2.length - 1) {
@@ -2400,33 +2417,33 @@ currentWordIndex = currentFiszkaIndex;
                                         $(`.image-container4`).css('z-index', 100); // Reset z-index dla wszystkich
                                         $container.css('z-index', 102); // Podniesienie z-index tylko dla aktywnego
 
-                                        console.log('Dodano wartoĹÄ33:', tablica11b);
-                                        // SprawdĹş, czy `indexDiv` juĹź istnieje w `fiszkaobject.data`
+                                        console.log('Dodano wartoÄšÂĂÂ33:', tablica11b);
+                                        // SprawdÄšĹ, czy `indexDiv` juÄšĹş istnieje w `fiszkaobject.data`
                                         const existingIndex = fiszkaobject.data.findIndex(
                                                 (entry) => entry[0] === indexDiv
                                         );
 
                                         if (existingIndex !== -1) {
-                                            // JeĹli istnieje, zastÄp wartoĹÄ
+                                            // JeÄšÂli istnieje, zastĂÂp wartoÄšÂĂÂ
                                             fiszkaobject.data[existingIndex] = [indexDiv, currentFiszkaIndex];
                                         } else {
-                                            // JeĹli nie istnieje, dodaj nowÄ tablicÄ
+                                            // JeÄšÂli nie istnieje, dodaj nowĂÂ tablicĂÂ
                                             fiszkaobject.data.push([indexDiv, currentFiszkaIndex]);
                                         }
 
-                                        // SprawdĹş, czy `indexDiv` juĹź istnieje w `fiszkaobject.data`
+                                        // SprawdÄšĹ, czy `indexDiv` juÄšĹş istnieje w `fiszkaobject.data`
                                         const existingIndex2 = fiszkaobject.data.findIndex(
                                                 (entry) => entry[0] === indexDiv
                                         );
 
                                         if (existingIndex2 !== -1) {
-                                            // JeĹli istnieje, zaktualizuj `currentFiszkaIndex`
+                                            // JeÄšÂli istnieje, zaktualizuj `currentFiszkaIndex`
                                             fiszkaobject.data[existingIndex2][1] = currentFiszkaIndex;
                                             console.log('hej303bb', currentFiszkaIndex);
 
                                             console.log('hej303bbx', fiszkaobject.data[existingIndex2][1]);
                                         } else {
-                                            // JeĹli nie istnieje, dodaj nowÄ tablicÄ
+                                            // JeÄšÂli nie istnieje, dodaj nowĂÂ tablicĂÂ
                                             fiszkaobject.data.push([indexDiv, currentFiszkaIndex]);
                                         }
                                         tablica12b.push(currentFiszkaIndex);
@@ -2438,10 +2455,10 @@ currentWordIndex = currentFiszkaIndex;
                                         handleNextClick(indexDiv, $sentence20, currentFiszkaIndex, firstWord, secondWord, thirdWord, forthWord, fifthWord, sixthWord);
 
                                         updateWordDisplay(currentWordIndex);
-                                        // WywoĹaj funkcjÄ, przekazujÄc zaktualizowany indeks
+                                        // WywoÄšÂaj funkcjĂÂ, przekazujĂÂc zaktualizowany indeks
                                         console.log("indexDiv2", tablica12b);
                                     } else {
-                                        console.log('Koniec fiszek!'); // Informacja o koĹcu fiszek
+                                        console.log('Koniec fiszek!'); // Informacja o koÄšÂcu fiszek
                                     }
                                 });
 
@@ -2449,7 +2466,7 @@ currentWordIndex = currentFiszkaIndex;
 
                                     if (currentFiszkaIndex === 0) {
                                         console.log("indexDiv2x", currentFiszkaIndex);
-                                        let indeks55x; // Zainicjalizuj zmiennÄ przed warunkami
+                                        let indeks55x; // Zainicjalizuj zmiennĂÂ przed warunkami
                                         if (currentFiszkaIndex === 0 || currentFiszkaIndex > 0) {
                                             indeks55x = currentFiszkaIndex;
 
@@ -2462,7 +2479,7 @@ currentWordIndex = currentFiszkaIndex;
 
                                     if (currentFiszkaIndex !== 0) {
                                         console.log("indexDiv2x", mojeidWordIndex);
-                                        let indeks55x; // Zainicjalizuj zmiennÄ przed warunkami
+                                        let indeks55x; // Zainicjalizuj zmiennĂÂ przed warunkami
                                         if (currentFiszkaIndex === 0 || currentFiszkaIndex > 0) {
                                             indeks55x = mojeidWordIndex;
 
@@ -2472,7 +2489,7 @@ currentWordIndex = currentFiszkaIndex;
                                     }
                                 }, 100);
                                 updateWordDisplay(mojeidWordIndex);
-                                // ObsĹuga klikniÄcia na `#wordDisplay`
+                                // ObsÄšÂuga klikniĂÂcia na `#wordDisplay`
                                 $wordContainer.on('click', function () {
                                     const $container = $(`.image-container4[data-lesson="${indexDiv}"]`);
                                     $(`.image-container4`).css('z-index', 100); // Reset z-index dla wszystkich
@@ -2480,22 +2497,22 @@ currentWordIndex = currentFiszkaIndex;
                                     let ostatniElement2 = tablica11b[tablica11b.length - 1];
                                     console.log('hej55aa', ostatniElement2);
                                     wybierzRodzaj2c('all', currentFiszkaIndex, matchingFiszki2, indexDiv);
-                                    // SprawdĹş, czy element 'wordDisplay' juĹź istnieje
-// SprawdĹş, czy element 'wordDisplay' juĹź istnieje w odpowiednim kontenerze
+                                    // SprawdÄšĹ, czy element 'wordDisplay' juÄšĹş istnieje
+// SprawdÄšĹ, czy element 'wordDisplay' juÄšĹş istnieje w odpowiednim kontenerze
                                     if (ostatniElement2 && indexDiv !== ostatniElement2) {
-                                        // ZnajdĹş kontener na podstawie data-lesson
+                                        // ZnajdÄšĹ kontener na podstawie data-lesson
                                         const $container = $(`.image-container4[data-lesson="${ostatniElement2}"]`);
 
                                         // Szukamy 'wordDisplay' w tym kontenerze
                                         const $wordContainer = $container.find('#wordDisplay');
 
-                                        // JeĹli 'wordDisplay' istnieje, wykonaj coĹ z tym elementem
+                                        // JeÄšÂli 'wordDisplay' istnieje, wykonaj coÄšÂ z tym elementem
                                         if ($wordContainer.length > 0) {
                                             console.log('Znaleziono wordDisplay5:', $wordContainer);
 
-                                            // Tutaj moĹźesz wykonaÄ akcje na $wordContainer, np. przesuniÄcie
+                                            // Tutaj moÄšĹşesz wykonaĂÂ akcje na $wordContainer, np. przesuniĂÂcie
                                             $wordContainer.css({
-                                                'right': '0px', // PrzesuĹ w lewo
+                                                'right': '0px', // PrzesuÄšÂ w lewo
                                                 'transition': 'right 0.5s ease' // Animacja
                                             });
                                         } else {
@@ -2505,10 +2522,10 @@ currentWordIndex = currentFiszkaIndex;
                                 });
 
 
-// WywoĹaj funkcjÄ z podanÄ kategoriÄ
+// WywoÄšÂaj funkcjĂÂ z podanĂÂ kategoriĂÂ
                                 function wybierzRodzaj2(category, currentFiszkaIndex, matchingFiszki2, indexDiv) {
 
-                                    console.log("Wybrany rodzaj sĹownictwa: ", currentFiszkaIndex);
+                                    console.log("Wybrany rodzaj sÄšÂownictwa: ", currentFiszkaIndex);
 
                                     const matchingLessons = [];
 
@@ -2519,7 +2536,7 @@ currentWordIndex = currentFiszkaIndex;
                                             console.log(`Przetwarzanie fiszki: ${JSON.stringify(fiszka)}`);
                                             // Sprawdzanie, czy fiszka ma poprawne id
                                             if (fiszka.id && fiszka.id[1]) {
-                                                // Sprawdzanie, czy id juĹź jest w matchingLessons, aby uniknÄÄ duplikatĂłw
+                                                // Sprawdzanie, czy id juÄšĹş jest w matchingLessons, aby uniknĂÂĂÂ duplikatÄĹw
                                                 if (!matchingLessons.includes(fiszka.id[1])) {
                                                     matchingLessons.push(fiszka.id[1]);
                                                 }
@@ -2535,9 +2552,9 @@ currentWordIndex = currentFiszkaIndex;
                                                 const isInCategory2 = fiszka.category2 && fiszka.category2.includes(category);
                                                 const isInCategory3 = fiszka.category3 && fiszka.category3.includes(category);
 
-                                                // JeĹli fiszka pasuje do zadanej kategorii, dodaj numer lekcji do tablicy matchingLessons
+                                                // JeÄšÂli fiszka pasuje do zadanej kategorii, dodaj numer lekcji do tablicy matchingLessons
                                                 if (isInCategory2 || isInCategory3) {
-                                                    console.log(`Znaleziono fiszkÄ z kategoriÄ "${category}" w lekcji ${JSON.stringify(fiszka)}`);
+                                                    console.log(`Znaleziono fiszkĂÂ z kategoriĂÂ "${category}" w lekcji ${JSON.stringify(fiszka)}`);
                                                     if (fiszka.id && fiszka.id[1]) {
                                                         matchingLessons.push(fiszka.id[1]);
                                                     }
@@ -2550,20 +2567,20 @@ currentWordIndex = currentFiszkaIndex;
 
                                     if (matchingLessons.length > 0) {
                                         const nextThreeLessons = matchingLessons.slice(0, 1);
-                                        console.log('WyĹwietlanie kolejnych trzech lekcji:');
+                                        console.log('WyÄšÂwietlanie kolejnych trzech lekcji:');
                                         nextThreeLessons.forEach(lessonId => {
                                             showFiszkiForLesson5(indexDiv, fiszki, currentFiszkaIndex, matchingFiszki2);
                                             console.log('hej68ll', currentFiszkaIndex);
                                         });
                                     } else {
-                                        console.log(`Nie znaleziono fiszek z kategoriÄ "${category}".`);
+                                        console.log(`Nie znaleziono fiszek z kategoriĂÂ "${category}".`);
                                     }
                                 }
 
-// WywoĹaj funkcjÄ z podanÄ kategoriÄ
+// WywoÄšÂaj funkcjĂÂ z podanĂÂ kategoriĂÂ
                                 function wybierzRodzaj2b(category, indeks5, matchingFiszki2, indexDiv) {
 
-                                    console.log("Wybrany rodzaj sĹownictwa: ", currentFiszkaIndex);
+                                    console.log("Wybrany rodzaj sÄšÂownictwa: ", currentFiszkaIndex);
 
                                     const matchingLessons = [];
 
@@ -2574,7 +2591,7 @@ currentWordIndex = currentFiszkaIndex;
                                             console.log(`Przetwarzanie fiszki: ${JSON.stringify(fiszka)}`);
                                             // Sprawdzanie, czy fiszka ma poprawne id
                                             if (fiszka.id && fiszka.id[1]) {
-                                                // Sprawdzanie, czy id juĹź jest w matchingLessons, aby uniknÄÄ duplikatĂłw
+                                                // Sprawdzanie, czy id juÄšĹş jest w matchingLessons, aby uniknĂÂĂÂ duplikatÄĹw
                                                 if (!matchingLessons.includes(fiszka.id[1])) {
                                                     matchingLessons.push(fiszka.id[1]);
                                                 }
@@ -2590,9 +2607,9 @@ currentWordIndex = currentFiszkaIndex;
                                                 const isInCategory2 = fiszka.category2 && fiszka.category2.includes(category);
                                                 const isInCategory3 = fiszka.category3 && fiszka.category3.includes(category);
 
-                                                // JeĹli fiszka pasuje do zadanej kategorii, dodaj numer lekcji do tablicy matchingLessons
+                                                // JeÄšÂli fiszka pasuje do zadanej kategorii, dodaj numer lekcji do tablicy matchingLessons
                                                 if (isInCategory2 || isInCategory3) {
-                                                    console.log(`Znaleziono fiszkÄ z kategoriÄ "${category}" w lekcji ${JSON.stringify(fiszka)}`);
+                                                    console.log(`Znaleziono fiszkĂÂ z kategoriĂÂ "${category}" w lekcji ${JSON.stringify(fiszka)}`);
                                                     if (fiszka.id && fiszka.id[1]) {
                                                         matchingLessons.push(fiszka.id[1]);
                                                     }
@@ -2605,13 +2622,13 @@ currentWordIndex = currentFiszkaIndex;
 
                                     if (matchingLessons.length > 0) {
                                         const nextThreeLessons = matchingLessons.slice(0, 1);
-                                        console.log('WyĹwietlanie kolejnych trzech lekcji:');
+                                        console.log('WyÄšÂwietlanie kolejnych trzech lekcji:');
                                         nextThreeLessons.forEach(lessonId => {
                                             showFiszkiForLesson5b(indexDiv, fiszki, indeks5, matchingFiszki2);
                                             console.log('hej68ll', currentFiszkaIndex);
                                         });
                                     } else {
-                                        console.log(`Nie znaleziono fiszek z kategoriÄ "${category}".`);
+                                        console.log(`Nie znaleziono fiszek z kategoriĂÂ "${category}".`);
                                     }
                                 }
                                 function wybierzRodzaj2c(category, mojeidWordIndex, matchingFiszki2, indexDiv) {
@@ -2626,7 +2643,7 @@ console.log('hej68ll', mojeidWordIndex);
                                             console.log(`Przetwarzanie fiszki: ${JSON.stringify(fiszka)}`);
                                             // Sprawdzanie, czy fiszka ma poprawne id
                                             if (fiszka.id && fiszka.id[1]) {
-                                                // Sprawdzanie, czy id juĹź jest w matchingLessons, aby uniknÄÄ duplikatĂłw
+                                                // Sprawdzanie, czy id juÄšĹş jest w matchingLessons, aby uniknĂÂĂÂ duplikatÄĹw
                                                 if (!matchingLessons.includes(fiszka.id[1])) {
                                                     matchingLessons.push(fiszka.id[1]);
                                                 }
@@ -2642,9 +2659,9 @@ console.log('hej68ll', mojeidWordIndex);
                                                 const isInCategory2 = fiszka.category2 && fiszka.category2.includes(category);
                                                 const isInCategory3 = fiszka.category3 && fiszka.category3.includes(category);
 
-                                                // JeĹli fiszka pasuje do zadanej kategorii, dodaj numer lekcji do tablicy matchingLessons
+                                                // JeÄšÂli fiszka pasuje do zadanej kategorii, dodaj numer lekcji do tablicy matchingLessons
                                                 if (isInCategory2 || isInCategory3) {
-                                                    console.log(`Znaleziono fiszkÄ z kategoriÄ "${category}" w lekcji ${JSON.stringify(fiszka)}`);
+                                                    console.log(`Znaleziono fiszkĂÂ z kategoriĂÂ "${category}" w lekcji ${JSON.stringify(fiszka)}`);
                                                     if (fiszka.id && fiszka.id[1]) {
                                                         matchingLessons.push(fiszka.id[1]);
                                                     }
@@ -2657,17 +2674,17 @@ console.log('hej68ll', mojeidWordIndex);
 
                                     if (matchingLessons.length > 0) {
                                         const nextThreeLessons = matchingLessons.slice(0, 1);
-                                        console.log('WyĹwietlanie kolejnych trzech lekcji:');
+                                        console.log('WyÄšÂwietlanie kolejnych trzech lekcji:');
                                         nextThreeLessons.forEach(lessonId => {
                                             showFiszkiForLesson5c(indexDiv, fiszki, mojeidWordIndex, matchingFiszki2);
                                         });
                                     } else {
-                                        console.log(`Nie znaleziono fiszek z kategoriÄ "${category}".`);
+                                        console.log(`Nie znaleziono fiszek z kategoriĂÂ "${category}".`);
                                     }
                                 }
 
                                 function showFiszkiForLesson5(indexDiv, fiszki, currentFiszkaIndex, matchingFiszki2) {
-                                    console.log('Ĺaduje siÄ');
+                                    console.log('ÄšÂaduje siĂÂ');
                                     console.log('Obecny indeks fiszki:', currentFiszkaIndex);
 
 
@@ -2676,11 +2693,11 @@ console.log('hej68ll', mojeidWordIndex);
                                             let id = matchingFiszki2[currentFiszkaIndex - 1].id;
                                             console.log('hej2x', id);
                                             let parametr = '';
-                                            // SprawdĹş, czy id jest tablicÄ
+                                            // SprawdÄšĹ, czy id jest tablicĂÂ
                                             if (Array.isArray(id)) {
-                                                // PoĹÄcz wartoĹci z tablicy id w jeden ciÄg znakĂłw oddzielony przecinkami
+                                                // PoÄšÂĂÂcz wartoÄšÂci z tablicy id w jeden ciĂÂg znakÄĹw oddzielony przecinkami
                                                 id = id.slice(0, 3).join(',');
-                                                // ObsĹuga ewentualnego dodatkowego parametru (np. czwartego elementu w tablicy)
+                                                // ObsÄšÂuga ewentualnego dodatkowego parametru (np. czwartego elementu w tablicy)
                                                 if (id.length > 3) {
                                                     parametr = matchingFiszki2[currentFiszkaIndex].id[3]; // Pobierz czwarty element z tablicy
                                                 }
@@ -2688,23 +2705,23 @@ console.log('hej68ll', mojeidWordIndex);
 // Tworzenie klasy CSS
                                             const className = `fiszka-${id}${parametr ? ',' + parametr : ''}`;
                                             const selector = `.${className.replace(/,/g, '\\,')}`;
-                                            console.log('Usuwam fiszkÄ o klasie5:', className);
-// Znalezienie i usuniÄcie diva z klasÄ `className`
+                                            console.log('Usuwam fiszkĂÂ o klasie5:', className);
+// Znalezienie i usuniĂÂcie diva z klasĂÂ `className`
                                             let $divToRemove = $(selector);
                                             if ($divToRemove.length) {  // Sprawdza, czy element istnieje
-                                                $divToRemove.remove();   // Usuwa caĹy div z DOM
+                                                $divToRemove.remove();   // Usuwa caÄšÂy div z DOM
                                             }
-                                            // Pobierz jednÄ fiszkÄ na podstawie currentFiszkaIndex
+                                            // Pobierz jednĂÂ fiszkĂÂ na podstawie currentFiszkaIndex
                                             const fiszka = matchingFiszki2[currentFiszkaIndex];
-                                            console.log('Ĺadowana fiszka:', selector);
+                                            console.log('ÄšÂadowana fiszka:', selector);
                                             const fiszkaBlock = generateFiszkaBlock2(fiszka, indexDiv);
                                             return fiszkaBlock;
                                         }
                                     } else if (currentFiszkaIndex === 0) {
                                         if (matchingFiszki2.length >= 0) {
-                                            // Pobierz jednÄ fiszkÄ na podstawie currentFiszkaIndex
+                                            // Pobierz jednĂÂ fiszkĂÂ na podstawie currentFiszkaIndex
                                             const fiszka = matchingFiszki2[currentFiszkaIndex];
-                                            console.log('ładowana fiszka5:', currentFiszkaIndex);
+                                            console.log('Ĺadowana fiszka5:', currentFiszkaIndex);
                                             const fiszkaBlock = generateFiszkaBlock2(fiszka, indexDiv);
                                             return fiszkaBlock;
                                         }
@@ -2712,7 +2729,7 @@ console.log('hej68ll', mojeidWordIndex);
                                 }
 
                                 function showFiszkiForLesson5b(indexDiv, fiszki, indeks5, matchingFiszki2) {
-                                    console.log('Ĺaduje siÄ');
+                                    console.log('ÄšÂaduje siĂÂ');
                                     console.log('Obecny indeks fiszki:', currentFiszkaIndex);
 
 
@@ -2721,11 +2738,11 @@ console.log('hej68ll', mojeidWordIndex);
                                             let id = matchingFiszki2[currentFiszkaIndex + 1].id;
                                             console.log('hej2', id);
                                             let parametr = '';
-                                            // SprawdĹş, czy id jest tablicÄ
+                                            // SprawdÄšĹ, czy id jest tablicĂÂ
                                             if (Array.isArray(id)) {
-                                                // PoĹÄcz wartoĹci z tablicy id w jeden ciÄg znakĂłw oddzielony przecinkami
+                                                // PoÄšÂĂÂcz wartoÄšÂci z tablicy id w jeden ciĂÂg znakÄĹw oddzielony przecinkami
                                                 id = id.slice(0, 3).join(',');
-                                                // ObsĹuga ewentualnego dodatkowego parametru (np. czwartego elementu w tablicy)
+                                                // ObsÄšÂuga ewentualnego dodatkowego parametru (np. czwartego elementu w tablicy)
                                                 if (id.length > 3) {
                                                     parametr = matchingFiszki2[currentFiszkaIndex].id[3]; // Pobierz czwarty element z tablicy
                                                 }
@@ -2733,42 +2750,42 @@ console.log('hej68ll', mojeidWordIndex);
 // Tworzenie klasy CSS
                                             const className = `fiszka-${id}${parametr ? '-' + parametr : ''}`;
                                             const selector = `.${className.replace(/,/g, '\\,')}`;
-                                            console.log('Usuwam fiszkÄ o klasie5:', className);
-// Znalezienie i usuniÄcie diva z klasÄ `className`
+                                            console.log('Usuwam fiszkĂÂ o klasie5:', className);
+// Znalezienie i usuniĂÂcie diva z klasĂÂ `className`
                                             let $divToRemove = $(selector);
                                             if ($divToRemove.length) {  // Sprawdza, czy element istnieje
-                                                $divToRemove.remove();   // Usuwa caĹy div z DOM
+                                                $divToRemove.remove();   // Usuwa caÄšÂy div z DOM
                                             }
-                                            // Pobierz jednÄ fiszkÄ na podstawie currentFiszkaIndex
+                                            // Pobierz jednĂÂ fiszkĂÂ na podstawie currentFiszkaIndex
                                             const fiszka = matchingFiszki2[currentFiszkaIndex];
-                                            console.log('Ĺadowana fiszka:', selector);
+                                            console.log('ÄšÂadowana fiszka:', selector);
                                             const fiszkaBlock = generateFiszkaBlock2(fiszka, indexDiv);
                                             return fiszkaBlock;
                                         }
                                     }
                                 }
                                 function showFiszkiForLesson5c(indexDiv, fiszki, mojeidWordIndex, matchingFiszki2) {
-                                    console.log('Ĺaduje siÄ');
+                                    console.log('ÄšÂaduje siĂÂ');
                                     console.log('Obecny indeks fiszki:', mojeidWordIndex);
 
 
                                     if (mojeidWordIndex !== 0 || mojeidWordIndex === 0) {
                                         if (matchingFiszki2.length >= 0) {
-                                            // Pobierz jednÄ fiszkÄ na podstawie currentFiszkaIndex
+                                            // Pobierz jednĂÂ fiszkĂÂ na podstawie currentFiszkaIndex
                                             const fiszka = matchingFiszki2[mojeidWordIndex];
-                                            console.log('Ĺadowana fiszka5:', mojeidWordIndex);
+                                            console.log('ÄšÂadowana fiszka5:', mojeidWordIndex);
                                             const fiszkaBlock = generateFiszkaBlock2(fiszka, indexDiv);
                                             return fiszkaBlock;
                                         }
                                     }
                                 }
                             }
-                            displayWords(mojeidWordIndex, indexDiv); // WywoĹanie z indeksem
+                            displayWords(mojeidWordIndex, indexDiv); // WywoÄšÂanie z indeksem
 
                             // Dostosuj rozmiar czcionki
                             updateWordDisplay(currentWordIndex);
                         } else {
-                            console.log('Nie znaleziono sĹĂłw w sentence20.');
+                            console.log('Nie znaleziono sÄšÂÄĹw w sentence20.');
                         }
                     } else {
                         console.log('Nie znaleziono elementu .sentence20 w kontenerze.');
@@ -2788,14 +2805,14 @@ console.log('hej68ll', mojeidWordIndex);
 
                 const secondSentenceId = (indexDiv - 1) * 3 + 3;
 
-                // Pobieramy fiszkÄ, ktĂłra jest pierwszym zdaniem w lekcji
+                // Pobieramy fiszkĂÂ, ktÄĹra jest pierwszym zdaniem w lekcji
                 const matchingFiszki3 = fiszki.filter(fiszka => fiszka.id[1] === secondSentenceId);
                 $(`.image-container3b`).css('z-index', 100);
 
                 $(`.image-container3b`).css('z-index', 100);
                 $container.css('z-index', 102);
 
-                console.log('ZawartoĹÄ kontenera:', matchingFiszki3);
+                console.log('ZawartoÄšÂĂÂ kontenera:', matchingFiszki3);
 
                 if (matchingFiszki3.length > 0) {
                     const $sentence30 = $container.find('.sentence-block').first();
@@ -2803,7 +2820,7 @@ console.log('hej68ll', mojeidWordIndex);
                     const $sentence30c = $container.find('.sentence-block').first();
 
                     if ($sentence30.length > 0 && $sentence30b.length > 0 && $sentence30c.length > 0) {
-                        console.log('funkcja odpala siÄ', $sentence30);
+                        console.log('funkcja odpala siĂÂ', $sentence30);
                         let sentenceText = globalSentence30 + " " + globalSentence33;
                         let sentenceText2 = globalSentence30b + " " + globalSentence33b;
                         let sentenceText3 = globalSentence30c + " " + globalSentence33c;
@@ -2821,7 +2838,7 @@ console.log('hej68ll', mojeidWordIndex);
                         if (words.length > 0 && words2.length > 0 && words3.length > 0) {
                             console.log('tutaj dociera kod2', words3);
 
-                            // --- Konwersja wszystkich sĹĂłw na DUĹťE LITERY ---
+                            // --- Konwersja wszystkich sÄšÂÄĹw na DUÄšĹĽE LITERY ---
                             let [firstWord, secondWord, thirdWord, forthWord, fifthWord, sixthWord] = words.map(w => (w || ''));
                             let [firstWord2, secondWord2, thirdWord2, forthWord2, fifthWord2, sixthWord2] = words2.map(w => (w || '').toUpperCase());
                             let [firstWord3, secondWord3, thirdWord3, forthWord3, fifthWord3, sixthWord3] = words3.map(w => (w || ''));
@@ -2911,35 +2928,35 @@ console.log('hej68ll', mojeidWordIndex);
                                     .prop("type", "text/css")
                                     .html(".word-span3:hover { background-color: #2ecc71; }")
                                     .appendTo("head");
-                            console.log('%c[highlightFirstWord] â wywoĹujÄ updateHighlight', 'color: #ff4444', {
+                            console.log('%c[highlightFirstWord] Ă˘ÂÂ wywoÄšÂujĂÂ updateHighlight', 'color: #ff4444', {
                                 indexDiv,
                                 mojeidWordIndex,
                                 words
                             });
                             updateHighlight(
-                                    indexDiv, $sentence30, mojeidWordIndex, // startowe podĹwietlenie = pierwsze sĹowo
+                                    indexDiv, $sentence30, mojeidWordIndex, // startowe podÄšÂwietlenie = pierwsze sÄšÂowo
                                     firstWord, secondWord, thirdWord, forthWord, fifthWord, sixthWord
                                     );
-                            let currentWordIndex = mojeidWordIndex; // Indeks sÄšÂowa, ktÄĹre ma byĂÂ wyÄšÂwietlane
+                            let currentWordIndex = mojeidWordIndex; // Indeks sĂĹĄĂÂowa, ktĂÂÄšÂre ma byÄÂĂÂ wyĂĹĄĂÂwietlane
                             let currentFiszkaIndex = mojeidWordIndex;
-// Funkcja obsÄšÂugujĂÂca klikniĂÂcia na sÄšÂowa, przyjmujĂÂca clickedIndex
+// Funkcja obsĂĹĄĂÂugujÄÂĂÂca klikniÄÂĂÂcia na sĂĹĄĂÂowa, przyjmujÄÂĂÂca clickedIndex
                             function handleWordClick(mojeidWordIndex, indexDiv, matchingFiszki3) {
                                 console.log("Przekazano clickedIndex:", clickedIndex);
 
-                                // PodÄšÂwietlenie klikniĂÂtego sÄšÂowa na staÄšÂe
+                                // PodĂĹĄĂÂwietlenie klikniÄÂĂÂtego sĂĹĄĂÂowa na staĂĹĄĂÂe
                                 $('.word-span').removeClass('highlighted');
-                                $('.word-span').eq(clickedIndex).addClass('highlighted'); // PodÄšÂwietlenie wedÄšÂug clickedIndex
-                                // PodÄšÂwietlenie klikniĂÂtego sÄšÂowa na staÄšÂe
+                                $('.word-span').eq(clickedIndex).addClass('highlighted'); // PodĂĹĄĂÂwietlenie wedĂĹĄĂÂug clickedIndex
+                                // PodĂĹĄĂÂwietlenie klikniÄÂĂÂtego sĂĹĄĂÂowa na staĂĹĄĂÂe
                                 $('.word-span2').removeClass('highlighted');
-                                $('.word-span2').eq(clickedIndex).addClass('highlighted'); // PodÄšÂwietlenie wedÄšÂug clickedIndex
+                                $('.word-span2').eq(clickedIndex).addClass('highlighted'); // PodĂĹĄĂÂwietlenie wedĂĹĄĂÂug clickedIndex
                                 $('.word-span3').removeClass('highlighted');
-                                $('.word-span3').eq(clickedIndex).addClass('highlighted'); // PodÄšÂwietlenie wedÄšÂug clickedIndex
+                                $('.word-span3').eq(clickedIndex).addClass('highlighted'); // PodĂĹĄĂÂwietlenie wedĂĹĄĂÂug clickedIndex
 
                                 // Zaktualizuj currentHighlightIndex na clickedIndex
                                 currentHighlightIndex = clickedIndex;
-                                console.log("Aktualny indeks podÄšÂwietlenia:", currentHighlightIndex);
+                                console.log("Aktualny indeks podĂĹĄĂÂwietlenia:", currentHighlightIndex);
 
-                                // WywoÄšÂaj funkcjĂÂ wyÄšÂwietlania fiszek
+                                // WywoĂĹĄĂÂaj funkcjÄÂĂÂ wyĂĹĄĂÂwietlania fiszek
                                 showFiszkiForLesson5(indexDiv, fiszki, mojeidWordIndex, matchingFiszki3);
 
                             }
@@ -2947,22 +2964,22 @@ console.log('hej68ll', mojeidWordIndex);
                             }).appendTo($container);
                             let ostatniElement2 = tablica11b[tablica11b.length - 2];
                             console.log('hej55', ostatniElement2);
-                            // SprawdÄšĹ, czy element 'wordDisplay' juÄšĹş istnieje
-// SprawdÄšĹ, czy element 'wordDisplay' juÄšĹş istnieje w odpowiednim kontenerze
+                            // SprawdĂĹĄÄšÂ, czy element 'wordDisplay' juĂĹĄÄšĹ istnieje
+// SprawdĂĹĄÄšÂ, czy element 'wordDisplay' juĂĹĄÄšĹ istnieje w odpowiednim kontenerze
                             if (ostatniElement2) {
-                                // ZnajdÄšĹ kontener na podstawie data-lesson
+                                // ZnajdĂĹĄÄšÂ kontener na podstawie data-lesson
                                 const $container = $(`.image-container3b[data-lesson="${ostatniElement2}"]`);
 
                                 // Szukamy 'wordDisplay' w tym kontenerze
                                 const $wordContainer = $container.find('#wordDisplay');
 
-                                // JeÄšÂli 'wordDisplay' istnieje, wykonaj coÄšÂ z tym elementem
+                                // JeĂĹĄĂÂli 'wordDisplay' istnieje, wykonaj coĂĹĄĂÂ z tym elementem
                                 if ($wordContainer.length > 0) {
                                     console.log('Znaleziono wordDisplay:', $wordContainer);
 
-                                    // Tutaj moÄšĹşesz wykonaĂÂ akcje na $wordContainer, np. przesuniĂÂcie
+                                    // Tutaj moĂĹĄÄšĹesz wykonaÄÂĂÂ akcje na $wordContainer, np. przesuniÄÂĂÂcie
                                     $wordContainer.css({
-                                        'right': '0px', // PrzesuÄšÂ w lewo
+                                        'right': '0px', // PrzesuĂĹĄĂÂ w lewo
                                         'transition': 'right 0.5s ease' // Animacja
                                     });
                                 } else {
@@ -2972,10 +2989,10 @@ console.log('hej68ll', mojeidWordIndex);
                                 console.log('Brak ostatniego elementu w tablica11b');
                             }
 
-// ObsÄšÂuga klikniĂÂcia na indexDiv
+// ObsĂĹĄĂÂuga klikniÄÂĂÂcia na indexDiv
                             $('.indexDiv').on('click', function () {
-                                const indexDiv = $(this).data('lesson'); // Pobierz atrybut data-lesson dla klikniĂÂtego indexDiv
-                                handleIndexDivClick(indexDiv); // WywoÄšÂaj funkcjĂÂ przesuwania 'wordDisplay'
+                                const indexDiv = $(this).data('lesson'); // Pobierz atrybut data-lesson dla klikniÄÂĂÂtego indexDiv
+                                handleIndexDivClick(indexDiv); // WywoĂĹĄĂÂaj funkcjÄÂĂÂ przesuwania 'wordDisplay'
                             });
                             const $currentWordDisplay = $('<span>').appendTo($wordContainer);
 
@@ -2985,21 +3002,21 @@ console.log('hej68ll', mojeidWordIndex);
 // Dodanie zdarzenia click
                             $(document).on('click', '.word-span', function () {
                                 const clickedWord = $(this).text();
-                                console.log("KlikniĂÂto:", clickedWord);
+                                console.log("KlikniÄÂĂÂto:", clickedWord);
 
-                                // Ustalanie clickedIndex dla klikniĂÂtego sÄšÂowa
+                                // Ustalanie clickedIndex dla klikniÄÂĂÂtego sĂĹĄĂÂowa
                                 clickedIndex = words.indexOf(clickedWord);
                                 console.log('hej341', clickedIndex);
                                 updateHighlight($sentence30, clickedIndex, firstWord, secondWord, thirdWord, forthWord, fifthWord, sixthWord);
-                                // WywoÄšÂanie handleWordClick z clickedIndex
+                                // WywoĂĹĄĂÂanie handleWordClick z clickedIndex
                                 handleWordClick(clickedIndex, indexDiv, matchingFiszki3);
                             });
                             function showFiszkiForLesson5(indexDiv, fiszki, mojeidWordIndex, matchingFiszki3) {
-                                console.log('ÄšÂaduje siĂÂ');
+                                console.log('ĂĹĄĂÂaduje siÄÂĂÂ');
 
                                 if (mojeidWordIndex >= 0 && mojeidWordIndex < matchingFiszki3.length) {
 
-                                    // Pobierz jednĂÂ fiszkĂÂ na podstawie currentFiszkaIndex
+                                    // Pobierz jednÄÂĂÂ fiszkÄÂĂÂ na podstawie currentFiszkaIndex
                                     const fiszka = matchingFiszki3[mojeidWordIndex];
                                     const fiszkaBlock = generateFiszkaBlock2(fiszka, indexDiv);
 
@@ -3008,21 +3025,21 @@ console.log('hej68ll', mojeidWordIndex);
                                 return fiszkaBlock;
                             }
 
-                            let currentHighlightIndex = 0; // Indeks podÄšÂwietlenia
+                            let currentHighlightIndex = 0; // Indeks podĂĹĄĂÂwietlenia
 
-                            let displayWordsIndex = 0; // Indeks do wyÄšÂwietlania sÄšÂÄĹw (moÄšĹşna dostosowaĂÂ w zaleÄšĹşnoÄšÂci od wymagaÄšÂ)
+                            let displayWordsIndex = 0; // Indeks do wyĂĹĄĂÂwietlania sĂĹĄĂÂĂÂÄšÂw (moĂĹĄÄšĹna dostosowaÄÂĂÂ w zaleĂĹĄÄšĹnoĂĹĄĂÂci od wymagaĂĹĄĂÂ)
 
 
-// ObsÄšÂuga klikniĂÂcia na "next"
+// ObsĂĹĄĂÂuga klikniÄÂĂÂcia na "next"
                             function handleNextClick(indexDiv, $sentence30, currentFiszkaIndex, firstWord, secondWord, thirdWord, forthWord, fifthWord, sixthWord) {
-                                // SprawdÄšĹ, czy moÄšĹşemy zwiĂÂkszyĂÂ indeks podÄšÂwietlenia
+                                // SprawdĂĹĄÄšÂ, czy moĂĹĄÄšĹemy zwiÄÂĂÂkszyÄÂĂÂ indeks podĂĹĄĂÂwietlenia
                                 console.log('hej55d', currentFiszkaIndex);
                                 updateHighlight(indexDiv, $sentence30, currentFiszkaIndex, firstWord, secondWord, thirdWord, forthWord, fifthWord, sixthWord);
                                 currentFiszkaIndex++;
 
                             }
                             function handleNextClick2(indexDiv, $sentence30, currentFiszkaIndex, firstWord, secondWord, thirdWord, forthWord, fifthWord, sixthWord) {
-                                // SprawdÄšĹ, czy moÄšĹşemy zwiĂÂkszyĂÂ indeks podÄšÂwietlenia
+                                // SprawdĂĹĄÄšÂ, czy moĂĹĄÄšĹemy zwiÄÂĂÂkszyÄÂĂÂ indeks podĂĹĄĂÂwietlenia
                                 console.log('hej55d', currentFiszkaIndex);
                                 updateHighlight(indexDiv, $sentence30, currentFiszkaIndex, firstWord, secondWord, thirdWord, forthWord, fifthWord, sixthWord);
                                 currentFiszkaIndex--;
@@ -3035,7 +3052,7 @@ console.log('hej68ll', mojeidWordIndex);
                                 const words2 = [firstWord2, secondWord2, thirdWord2, forthWord2, fifthWord2, sixthWord2];
                                 const words3 = [firstWord3, secondWord3, thirdWord3, forthWord3, fifthWord3, sixthWord3];
 
-                                // --- Główna linia słów
+                                // --- GĹĂłwna linia sĹĂłw
                                 const highlightedWords = words.map((word, i) =>
                                         `<span class="word-span${i === index ? ' highlighted' : ''}" data-index="${i}" style="cursor: pointer;">${word}</span>`
                                 );
@@ -3069,7 +3086,7 @@ console.log('hej68ll', mojeidWordIndex);
         </div>
     `);
 
-                                // --- Obsługa kliknięć w słowa
+                                // --- ObsĹuga klikniÄÄ w sĹowa
                                 $sentence30.find('.word-span, .word-span2, .word-span3')
                                         .off('click')
                                         .on('click', function () {
@@ -3085,24 +3102,24 @@ console.log('hej68ll', mojeidWordIndex);
                                 const indexDiv = $container.data('lesson');
                                 const $sentence30 = $container.find('.sentence-block').first();
 
-                                // jeśli indeks nie istnieje — ustaw na -1
-                                // (dzięki temu pierwsze kliknięcie zrobi -1 + 1 = 0 → 1)
+                                // jeĹli indeks nie istnieje â ustaw na -1
+                                // (dziÄki temu pierwsze klikniÄcie zrobi -1 + 1 = 0 â 1)
                                 if (typeof currentFiszkaIndex === "undefined") {
                                     currentFiszkaIndex = -1;
-                                    console.warn("⚠️ currentFiszkaIndex był niezdefiniowany — ustawiono -1");
+                                    console.warn("â ď¸ currentFiszkaIndex byĹ niezdefiniowany â ustawiono -1");
                                 }
 
-                                // 👇 teraz dopiero inkrementujemy
-    currentFiszkaIndex++;          // 1️⃣ inkrementacja
-    tablica20aa.push(currentFiszkaIndex); // 2️⃣ zapis historii
+                                // đ teraz dopiero inkrementujemy
+    currentFiszkaIndex++;          // 1ď¸âŁ inkrementacja
+    tablica20aa.push(currentFiszkaIndex); // 2ď¸âŁ zapis historii
 
 mojeidWordIndex = tablica20aa.at(-1);
 currentWordIndex = mojeidWordIndex;
 
-updateWordDisplay(mojeidWordIndex); // 🔥 TU
-                                console.log("Kliknięto NEXT, aktualny indeks:", mojeidWordIndex);
+updateWordDisplay(mojeidWordIndex); // đĽ TU
+                                console.log("KlikniÄto NEXT, aktualny indeks:", mojeidWordIndex);
 console.warn("tablica20aa2", tablica20aa[tablica20aa.length - 1]);
-                                // jeśli przekroczy zakres — wróć do 0
+                                // jeĹli przekroczy zakres â wrĂłÄ do 0
                                 if (currentFiszkaIndex >= matchingFiszki3.length) {
                                     currentFiszkaIndex = 0;
                                 }
@@ -3121,23 +3138,23 @@ console.warn("tablica20aa", tablica20aa[tablica20aa.length - 1]);
                                 const indexDiv = $container.data('lesson');
                                 const $sentence30 = $container.find('.sentence-block').first();
 
-                                // jeśli indeks nie istnieje — ustaw na -1
-                                // (dzięki temu pierwsze kliknięcie zrobi -1 + 1 = 0 → 1)
+                                // jeĹli indeks nie istnieje â ustaw na -1
+                                // (dziÄki temu pierwsze klikniÄcie zrobi -1 + 1 = 0 â 1)
                                 if (typeof currentFiszkaIndex === "undefined") {
                                     currentFiszkaIndex = -1;
-                                    console.warn("⚠️ currentFiszkaIndex był niezdefiniowany — ustawiono -1");
+                                    console.warn("â ď¸ currentFiszkaIndex byĹ niezdefiniowany â ustawiono -1");
                                 }
 
-    currentFiszkaIndex--;          // 1️⃣ inkrementacja
-    tablica20aa.push(currentFiszkaIndex); // 2️⃣ zapis historii
+    currentFiszkaIndex--;          // 1ď¸âŁ inkrementacja
+    tablica20aa.push(currentFiszkaIndex); // 2ď¸âŁ zapis historii
 
 mojeidWordIndex = tablica20aa.at(-1);
 currentWordIndex = mojeidWordIndex;
 
-updateWordDisplay(mojeidWordIndex); // 🔥 TU
-                                console.log("🔥 Kliknięto NEXT, aktualny indeks:", currentFiszkaIndex);
+updateWordDisplay(mojeidWordIndex); // đĽ TU
+                                console.log("đĽ KlikniÄto NEXT, aktualny indeks:", currentFiszkaIndex);
 
-                                // jeśli przekroczy zakres — wróć do 0
+                                // jeĹli przekroczy zakres â wrĂłÄ do 0
                                 if (currentFiszkaIndex >= matchingFiszki3.length) {
                                     currentFiszkaIndex = 0;
                                 }
@@ -3159,7 +3176,7 @@ function updateWordDisplay(mojeidWordIndex) {
 
     if (!fiszka) {
         console.warn('Brak fiszki o podanym indexie!');
-        $currentWordDisplay.text('—');
+        $currentWordDisplay.text('â');
         return;
     }
 
@@ -3168,17 +3185,17 @@ function updateWordDisplay(mojeidWordIndex) {
 
     if (!zdanie) {
         console.warn('Brak sentence1 i sentence2!');
-        $currentWordDisplay.text('—');
+        $currentWordDisplay.text('â');
         return;
     }
 
-    // --- wybieramy które słowo pokazać ---
-    const slowo = zdanie[0] || "";  // <-- ZAWSZE pierwsze słowo
+    // --- wybieramy ktĂłre sĹowo pokazaÄ ---
+    const slowo = zdanie[0] || "";  // <-- ZAWSZE pierwsze sĹowo
 
-    console.log('Wyświetlam słowo:', slowo);
+    console.log('WyĹwietlam sĹowo:', slowo);
     $currentWordDisplay.text(slowo);
 
-    // --- wyświetlanie indexu ---
+    // --- wyĹwietlanie indexu ---
     let $indexDisplay = $('#indexDisplay');
     if ($indexDisplay.length === 0) {
         $indexDisplay = $('<div id="indexDisplay"></div>').css({
@@ -3195,7 +3212,7 @@ function updateWordDisplay(mojeidWordIndex) {
     }
     $indexDisplay.text(`Index: ${mojeidWordIndex}`);
 }
-                            console.log('Przed wywołaniem displayWords, mojeidWordIndex =', mojeidWordIndex);
+                            console.log('Przed wywoĹaniem displayWords, mojeidWordIndex =', mojeidWordIndex);
                             // Funkcja displayWords przyjmuje teraz currentWordIndex
                             function displayWords(mojeidWordIndex, indexDiv) {
 
@@ -3203,7 +3220,7 @@ function updateWordDisplay(mojeidWordIndex) {
                                 console.log('hej4433', mojeidWordIndex);
                                 mojeidWordIndex === 0;
 currentFiszkaIndex = mojeidWordIndex;
-currentWordIndex = currentFiszkaIndex;   // 🔥 KLUCZOWA LINIA
+currentWordIndex = currentFiszkaIndex;   // đĽ KLUCZOWA LINIA
 
                                 const $prevButton = $('<button>')
                                         .text('<')
@@ -3240,22 +3257,22 @@ currentWordIndex = currentFiszkaIndex;
                                         $container.css('z-index', 102); // Podniesienie z-index tylko dla aktywnego
                                         let ostatniElement2 = tablica11b[tablica11b.length - 2];
                                         console.log('hej55', ostatniElement2);
-                                        // SprawdĹş, czy element 'wordDisplay' juĹź istnieje
-// SprawdĹş, czy element 'wordDisplay' juĹź istnieje w odpowiednim kontenerze
+                                        // SprawdÄšĹ, czy element 'wordDisplay' juÄšĹş istnieje
+// SprawdÄšĹ, czy element 'wordDisplay' juÄšĹş istnieje w odpowiednim kontenerze
                                         if (ostatniElement2) {
-                                            // ZnajdĹş kontener na podstawie data-lesson
+                                            // ZnajdÄšĹ kontener na podstawie data-lesson
                                             const $container = $(`.image-container4[data-lesson="${ostatniElement2}"]`);
 
                                             // Szukamy 'wordDisplay' w tym kontenerze
                                             const $wordContainer = $container.find('#wordDisplay');
 
-                                            // JeĹli 'wordDisplay' istnieje, wykonaj coĹ z tym elementem
+                                            // JeÄšÂli 'wordDisplay' istnieje, wykonaj coÄšÂ z tym elementem
                                             if ($wordContainer.length > 0) {
                                                 console.log('Znaleziono wordDisplay:', $wordContainer);
 
-                                                // Tutaj moĹźesz wykonaÄ akcje na $wordContainer, np. przesuniÄcie
+                                                // Tutaj moÄšĹşesz wykonaĂÂ akcje na $wordContainer, np. przesuniĂÂcie
                                                 $wordContainer.css({
-                                                    'right': '0px', // PrzesuĹ w lewo
+                                                    'right': '0px', // PrzesuÄšÂ w lewo
                                                     'transition': 'right 0.5s ease' // Animacja
                                                 });
                                             } else {
@@ -3266,7 +3283,7 @@ currentWordIndex = currentFiszkaIndex;
                                         }
                                         tablica12b.push(currentFiszkaIndex);
                                         console.log('hej68cx', fiszkaobject);
-                                        let indeks5; // Zainicjalizuj zmiennÄ przed warunkami
+                                        let indeks5; // Zainicjalizuj zmiennĂÂ przed warunkami
                                         if (currentFiszkaIndex < 4) {
                                             indeks5 = tablica12b[tablica12b.length - 2];
                                         } else if (currentFiszkaIndex === 4) {
@@ -3280,7 +3297,7 @@ currentWordIndex = currentFiszkaIndex;
                                         console.log("indexDiv2", tablica12b);
                                         console.log('hej68c', currentFiszkaIndex);
                                     } else {
-                                        console.log('Koniec fiszek!'); // Informacja o koĹcu fiszek
+                                        console.log('Koniec fiszek!'); // Informacja o koÄšÂcu fiszek
                                     }
                                 });
                                 if (currentFiszkaIndex === 0) {
@@ -3292,7 +3309,7 @@ currentWordIndex = currentFiszkaIndex;
                                 console.log('hej26', tablica12b);
                                 $nextButton.on('click', function () {
                                     console.log('Aktualny index fiszki:', indexDiv);
-                                    console.log('DostÄpne fiszki:', matchingFiszki3);
+                                    console.log('DostĂÂpne fiszki:', matchingFiszki3);
 
                                     console.log('hej303b', fiszkaobject);
                                     if (currentFiszkaIndex <= matchingFiszki3.length - 1) {
@@ -3301,33 +3318,33 @@ currentWordIndex = currentFiszkaIndex;
                                         $(`.image-container4`).css('z-index', 100); // Reset z-index dla wszystkich
                                         $container.css('z-index', 102); // Podniesienie z-index tylko dla aktywnego
 
-                                        console.log('Dodano wartoĹÄ33:', tablica11b);
-                                        // SprawdĹş, czy `indexDiv` juĹź istnieje w `fiszkaobject.data`
+                                        console.log('Dodano wartoÄšÂĂÂ33:', tablica11b);
+                                        // SprawdÄšĹ, czy `indexDiv` juÄšĹş istnieje w `fiszkaobject.data`
                                         const existingIndex = fiszkaobject.data.findIndex(
                                                 (entry) => entry[0] === indexDiv
                                         );
 
                                         if (existingIndex !== -1) {
-                                            // JeĹli istnieje, zastÄp wartoĹÄ
+                                            // JeÄšÂli istnieje, zastĂÂp wartoÄšÂĂÂ
                                             fiszkaobject.data[existingIndex] = [indexDiv, currentFiszkaIndex];
                                         } else {
-                                            // JeĹli nie istnieje, dodaj nowÄ tablicÄ
+                                            // JeÄšÂli nie istnieje, dodaj nowĂÂ tablicĂÂ
                                             fiszkaobject.data.push([indexDiv, currentFiszkaIndex]);
                                         }
 
-                                        // SprawdĹş, czy `indexDiv` juĹź istnieje w `fiszkaobject.data`
+                                        // SprawdÄšĹ, czy `indexDiv` juÄšĹş istnieje w `fiszkaobject.data`
                                         const existingIndex2 = fiszkaobject.data.findIndex(
                                                 (entry) => entry[0] === indexDiv
                                         );
 
                                         if (existingIndex2 !== -1) {
-                                            // JeĹli istnieje, zaktualizuj `currentFiszkaIndex`
+                                            // JeÄšÂli istnieje, zaktualizuj `currentFiszkaIndex`
                                             fiszkaobject.data[existingIndex2][1] = currentFiszkaIndex;
                                             console.log('hej303bb', currentFiszkaIndex);
 
                                             console.log('hej303bbx', fiszkaobject.data[existingIndex2][1]);
                                         } else {
-                                            // JeĹli nie istnieje, dodaj nowÄ tablicÄ
+                                            // JeÄšÂli nie istnieje, dodaj nowĂÂ tablicĂÂ
                                             fiszkaobject.data.push([indexDiv, currentFiszkaIndex]);
                                         }
                                         tablica12b.push(currentFiszkaIndex);
@@ -3339,10 +3356,10 @@ currentWordIndex = currentFiszkaIndex;
                                         handleNextClick(indexDiv, $sentence30, currentFiszkaIndex, firstWord, secondWord, thirdWord, forthWord, fifthWord, sixthWord);
 
                                         updateWordDisplay(currentWordIndex);
-                                        // WywoĹaj funkcjÄ, przekazujÄc zaktualizowany indeks
+                                        // WywoÄšÂaj funkcjĂÂ, przekazujĂÂc zaktualizowany indeks
                                         console.log("indexDiv2", tablica12b);
                                     } else {
-                                        console.log('Koniec fiszek!'); // Informacja o koĹcu fiszek
+                                        console.log('Koniec fiszek!'); // Informacja o koÄšÂcu fiszek
                                     }
                                 });
 
@@ -3350,7 +3367,7 @@ currentWordIndex = currentFiszkaIndex;
 
                                     if (currentFiszkaIndex === 0) {
                                         console.log("indexDiv2x", currentFiszkaIndex);
-                                        let indeks55x; // Zainicjalizuj zmiennÄ przed warunkami
+                                        let indeks55x; // Zainicjalizuj zmiennĂÂ przed warunkami
                                         if (currentFiszkaIndex === 0 || currentFiszkaIndex > 0) {
                                             indeks55x = currentFiszkaIndex;
 
@@ -3363,7 +3380,7 @@ currentWordIndex = currentFiszkaIndex;
 
                                     if (currentFiszkaIndex !== 0) {
                                         console.log("indexDiv2x", mojeidWordIndex);
-                                        let indeks55x; // Zainicjalizuj zmiennÄ przed warunkami
+                                        let indeks55x; // Zainicjalizuj zmiennĂÂ przed warunkami
                                         if (currentFiszkaIndex === 0 || currentFiszkaIndex > 0) {
                                             indeks55x = mojeidWordIndex;
 
@@ -3373,7 +3390,7 @@ currentWordIndex = currentFiszkaIndex;
                                     }
                                 }, 100);
                                 updateWordDisplay(mojeidWordIndex);
-                                // ObsĹuga klikniÄcia na `#wordDisplay`
+                                // ObsÄšÂuga klikniĂÂcia na `#wordDisplay`
                                 $wordContainer.on('click', function () {
                                     const $container = $(`.image-container4[data-lesson="${indexDiv}"]`);
                                     $(`.image-container4`).css('z-index', 100); // Reset z-index dla wszystkich
@@ -3381,22 +3398,22 @@ currentWordIndex = currentFiszkaIndex;
                                     let ostatniElement2 = tablica11b[tablica11b.length - 1];
                                     console.log('hej55aa', ostatniElement2);
                                     wybierzRodzaj2c('all', currentFiszkaIndex, matchingFiszki3, indexDiv);
-                                    // SprawdĹş, czy element 'wordDisplay' juĹź istnieje
-// SprawdĹş, czy element 'wordDisplay' juĹź istnieje w odpowiednim kontenerze
+                                    // SprawdÄšĹ, czy element 'wordDisplay' juÄšĹş istnieje
+// SprawdÄšĹ, czy element 'wordDisplay' juÄšĹş istnieje w odpowiednim kontenerze
                                     if (ostatniElement2 && indexDiv !== ostatniElement2) {
-                                        // ZnajdĹş kontener na podstawie data-lesson
+                                        // ZnajdÄšĹ kontener na podstawie data-lesson
                                         const $container = $(`.image-container4[data-lesson="${ostatniElement2}"]`);
 
                                         // Szukamy 'wordDisplay' w tym kontenerze
                                         const $wordContainer = $container.find('#wordDisplay');
 
-                                        // JeĹli 'wordDisplay' istnieje, wykonaj coĹ z tym elementem
+                                        // JeÄšÂli 'wordDisplay' istnieje, wykonaj coÄšÂ z tym elementem
                                         if ($wordContainer.length > 0) {
                                             console.log('Znaleziono wordDisplay5:', $wordContainer);
 
-                                            // Tutaj moĹźesz wykonaÄ akcje na $wordContainer, np. przesuniÄcie
+                                            // Tutaj moÄšĹşesz wykonaĂÂ akcje na $wordContainer, np. przesuniĂÂcie
                                             $wordContainer.css({
-                                                'right': '0px', // PrzesuĹ w lewo
+                                                'right': '0px', // PrzesuÄšÂ w lewo
                                                 'transition': 'right 0.5s ease' // Animacja
                                             });
                                         } else {
@@ -3406,10 +3423,10 @@ currentWordIndex = currentFiszkaIndex;
                                 });
 
 
-// WywoĹaj funkcjÄ z podanÄ kategoriÄ
+// WywoÄšÂaj funkcjĂÂ z podanĂÂ kategoriĂÂ
                                 function wybierzRodzaj2(category, currentFiszkaIndex, matchingFiszki3, indexDiv) {
 
-                                    console.log("Wybrany rodzaj sĹownictwa: ", currentFiszkaIndex);
+                                    console.log("Wybrany rodzaj sÄšÂownictwa: ", currentFiszkaIndex);
 
                                     const matchingLessons = [];
 
@@ -3420,7 +3437,7 @@ currentWordIndex = currentFiszkaIndex;
                                             console.log(`Przetwarzanie fiszki: ${JSON.stringify(fiszka)}`);
                                             // Sprawdzanie, czy fiszka ma poprawne id
                                             if (fiszka.id && fiszka.id[1]) {
-                                                // Sprawdzanie, czy id juĹź jest w matchingLessons, aby uniknÄÄ duplikatĂłw
+                                                // Sprawdzanie, czy id juÄšĹş jest w matchingLessons, aby uniknĂÂĂÂ duplikatÄĹw
                                                 if (!matchingLessons.includes(fiszka.id[1])) {
                                                     matchingLessons.push(fiszka.id[1]);
                                                 }
@@ -3436,9 +3453,9 @@ currentWordIndex = currentFiszkaIndex;
                                                 const isInCategory2 = fiszka.category2 && fiszka.category2.includes(category);
                                                 const isInCategory3 = fiszka.category3 && fiszka.category3.includes(category);
 
-                                                // JeĹli fiszka pasuje do zadanej kategorii, dodaj numer lekcji do tablicy matchingLessons
+                                                // JeÄšÂli fiszka pasuje do zadanej kategorii, dodaj numer lekcji do tablicy matchingLessons
                                                 if (isInCategory2 || isInCategory3) {
-                                                    console.log(`Znaleziono fiszkÄ z kategoriÄ "${category}" w lekcji ${JSON.stringify(fiszka)}`);
+                                                    console.log(`Znaleziono fiszkĂÂ z kategoriĂÂ "${category}" w lekcji ${JSON.stringify(fiszka)}`);
                                                     if (fiszka.id && fiszka.id[1]) {
                                                         matchingLessons.push(fiszka.id[1]);
                                                     }
@@ -3451,20 +3468,20 @@ currentWordIndex = currentFiszkaIndex;
 
                                     if (matchingLessons.length > 0) {
                                         const nextThreeLessons = matchingLessons.slice(0, 1);
-                                        console.log('WyĹwietlanie kolejnych trzech lekcji:');
+                                        console.log('WyÄšÂwietlanie kolejnych trzech lekcji:');
                                         nextThreeLessons.forEach(lessonId => {
                                             showFiszkiForLesson5(indexDiv, fiszki, currentFiszkaIndex, matchingFiszki3);
                                             console.log('hej68ll', currentFiszkaIndex);
                                         });
                                     } else {
-                                        console.log(`Nie znaleziono fiszek z kategoriÄ "${category}".`);
+                                        console.log(`Nie znaleziono fiszek z kategoriĂÂ "${category}".`);
                                     }
                                 }
 
-// WywoĹaj funkcjÄ z podanÄ kategoriÄ
+// WywoÄšÂaj funkcjĂÂ z podanĂÂ kategoriĂÂ
                                 function wybierzRodzaj2b(category, indeks5, matchingFiszki3, indexDiv) {
 
-                                    console.log("Wybrany rodzaj sĹownictwa: ", currentFiszkaIndex);
+                                    console.log("Wybrany rodzaj sÄšÂownictwa: ", currentFiszkaIndex);
 
                                     const matchingLessons = [];
 
@@ -3475,7 +3492,7 @@ currentWordIndex = currentFiszkaIndex;
                                             console.log(`Przetwarzanie fiszki: ${JSON.stringify(fiszka)}`);
                                             // Sprawdzanie, czy fiszka ma poprawne id
                                             if (fiszka.id && fiszka.id[1]) {
-                                                // Sprawdzanie, czy id juĹź jest w matchingLessons, aby uniknÄÄ duplikatĂłw
+                                                // Sprawdzanie, czy id juÄšĹş jest w matchingLessons, aby uniknĂÂĂÂ duplikatÄĹw
                                                 if (!matchingLessons.includes(fiszka.id[1])) {
                                                     matchingLessons.push(fiszka.id[1]);
                                                 }
@@ -3491,9 +3508,9 @@ currentWordIndex = currentFiszkaIndex;
                                                 const isInCategory2 = fiszka.category2 && fiszka.category2.includes(category);
                                                 const isInCategory3 = fiszka.category3 && fiszka.category3.includes(category);
 
-                                                // JeĹli fiszka pasuje do zadanej kategorii, dodaj numer lekcji do tablicy matchingLessons
+                                                // JeÄšÂli fiszka pasuje do zadanej kategorii, dodaj numer lekcji do tablicy matchingLessons
                                                 if (isInCategory2 || isInCategory3) {
-                                                    console.log(`Znaleziono fiszkÄ z kategoriÄ "${category}" w lekcji ${JSON.stringify(fiszka)}`);
+                                                    console.log(`Znaleziono fiszkĂÂ z kategoriĂÂ "${category}" w lekcji ${JSON.stringify(fiszka)}`);
                                                     if (fiszka.id && fiszka.id[1]) {
                                                         matchingLessons.push(fiszka.id[1]);
                                                     }
@@ -3506,13 +3523,13 @@ currentWordIndex = currentFiszkaIndex;
 
                                     if (matchingLessons.length > 0) {
                                         const nextThreeLessons = matchingLessons.slice(0, 1);
-                                        console.log('WyĹwietlanie kolejnych trzech lekcji:');
+                                        console.log('WyÄšÂwietlanie kolejnych trzech lekcji:');
                                         nextThreeLessons.forEach(lessonId => {
                                             showFiszkiForLesson5b(indexDiv, fiszki, indeks5, matchingFiszki3);
                                             console.log('hej68ll', currentFiszkaIndex);
                                         });
                                     } else {
-                                        console.log(`Nie znaleziono fiszek z kategoriÄ "${category}".`);
+                                        console.log(`Nie znaleziono fiszek z kategoriĂÂ "${category}".`);
                                     }
                                 }
                                 function wybierzRodzaj2c(category, mojeidWordIndex, matchingFiszki3, indexDiv) {
@@ -3527,7 +3544,7 @@ console.log('hej68ll', mojeidWordIndex);
                                             console.log(`Przetwarzanie fiszki: ${JSON.stringify(fiszka)}`);
                                             // Sprawdzanie, czy fiszka ma poprawne id
                                             if (fiszka.id && fiszka.id[1]) {
-                                                // Sprawdzanie, czy id juĹź jest w matchingLessons, aby uniknÄÄ duplikatĂłw
+                                                // Sprawdzanie, czy id juÄšĹş jest w matchingLessons, aby uniknĂÂĂÂ duplikatÄĹw
                                                 if (!matchingLessons.includes(fiszka.id[1])) {
                                                     matchingLessons.push(fiszka.id[1]);
                                                 }
@@ -3543,9 +3560,9 @@ console.log('hej68ll', mojeidWordIndex);
                                                 const isInCategory2 = fiszka.category2 && fiszka.category2.includes(category);
                                                 const isInCategory3 = fiszka.category3 && fiszka.category3.includes(category);
 
-                                                // JeĹli fiszka pasuje do zadanej kategorii, dodaj numer lekcji do tablicy matchingLessons
+                                                // JeÄšÂli fiszka pasuje do zadanej kategorii, dodaj numer lekcji do tablicy matchingLessons
                                                 if (isInCategory2 || isInCategory3) {
-                                                    console.log(`Znaleziono fiszkÄ z kategoriÄ "${category}" w lekcji ${JSON.stringify(fiszka)}`);
+                                                    console.log(`Znaleziono fiszkĂÂ z kategoriĂÂ "${category}" w lekcji ${JSON.stringify(fiszka)}`);
                                                     if (fiszka.id && fiszka.id[1]) {
                                                         matchingLessons.push(fiszka.id[1]);
                                                     }
@@ -3558,17 +3575,17 @@ console.log('hej68ll', mojeidWordIndex);
 
                                     if (matchingLessons.length > 0) {
                                         const nextThreeLessons = matchingLessons.slice(0, 1);
-                                        console.log('WyĹwietlanie kolejnych trzech lekcji:');
+                                        console.log('WyÄšÂwietlanie kolejnych trzech lekcji:');
                                         nextThreeLessons.forEach(lessonId => {
                                             showFiszkiForLesson5c(indexDiv, fiszki, mojeidWordIndex, matchingFiszki3);
                                         });
                                     } else {
-                                        console.log(`Nie znaleziono fiszek z kategoriÄ "${category}".`);
+                                        console.log(`Nie znaleziono fiszek z kategoriĂÂ "${category}".`);
                                     }
                                 }
 
                                 function showFiszkiForLesson5(indexDiv, fiszki, currentFiszkaIndex, matchingFiszki3) {
-                                    console.log('Ĺaduje siÄ');
+                                    console.log('ÄšÂaduje siĂÂ');
                                     console.log('Obecny indeks fiszki:', currentFiszkaIndex);
 
 
@@ -3577,11 +3594,11 @@ console.log('hej68ll', mojeidWordIndex);
                                             let id = matchingFiszki3[currentFiszkaIndex - 1].id;
                                             console.log('hej2x', id);
                                             let parametr = '';
-                                            // SprawdĹş, czy id jest tablicÄ
+                                            // SprawdÄšĹ, czy id jest tablicĂÂ
                                             if (Array.isArray(id)) {
-                                                // PoĹÄcz wartoĹci z tablicy id w jeden ciÄg znakĂłw oddzielony przecinkami
+                                                // PoÄšÂĂÂcz wartoÄšÂci z tablicy id w jeden ciĂÂg znakÄĹw oddzielony przecinkami
                                                 id = id.slice(0, 3).join(',');
-                                                // ObsĹuga ewentualnego dodatkowego parametru (np. czwartego elementu w tablicy)
+                                                // ObsÄšÂuga ewentualnego dodatkowego parametru (np. czwartego elementu w tablicy)
                                                 if (id.length > 3) {
                                                     parametr = matchingFiszki3[currentFiszkaIndex].id[3]; // Pobierz czwarty element z tablicy
                                                 }
@@ -3589,23 +3606,23 @@ console.log('hej68ll', mojeidWordIndex);
 // Tworzenie klasy CSS
                                             const className = `fiszka-${id}${parametr ? ',' + parametr : ''}`;
                                             const selector = `.${className.replace(/,/g, '\\,')}`;
-                                            console.log('Usuwam fiszkÄ o klasie5:', className);
-// Znalezienie i usuniÄcie diva z klasÄ `className`
+                                            console.log('Usuwam fiszkĂÂ o klasie5:', className);
+// Znalezienie i usuniĂÂcie diva z klasĂÂ `className`
                                             let $divToRemove = $(selector);
                                             if ($divToRemove.length) {  // Sprawdza, czy element istnieje
-                                                $divToRemove.remove();   // Usuwa caĹy div z DOM
+                                                $divToRemove.remove();   // Usuwa caÄšÂy div z DOM
                                             }
-                                            // Pobierz jednÄ fiszkÄ na podstawie currentFiszkaIndex
+                                            // Pobierz jednĂÂ fiszkĂÂ na podstawie currentFiszkaIndex
                                             const fiszka = matchingFiszki3[currentFiszkaIndex];
-                                            console.log('Ĺadowana fiszka:', selector);
+                                            console.log('ÄšÂadowana fiszka:', selector);
                                             const fiszkaBlock = generateFiszkaBlock2(fiszka, indexDiv);
                                             return fiszkaBlock;
                                         }
                                     } else if (currentFiszkaIndex === 0) {
                                         if (matchingFiszki3.length >= 0) {
-                                            // Pobierz jednÄ fiszkÄ na podstawie currentFiszkaIndex
+                                            // Pobierz jednĂÂ fiszkĂÂ na podstawie currentFiszkaIndex
                                             const fiszka = matchingFiszki3[currentFiszkaIndex];
-                                            console.log('ładowana fiszka5:', currentFiszkaIndex);
+                                            console.log('Ĺadowana fiszka5:', currentFiszkaIndex);
                                             const fiszkaBlock = generateFiszkaBlock2(fiszka, indexDiv);
                                             return fiszkaBlock;
                                         }
@@ -3613,7 +3630,7 @@ console.log('hej68ll', mojeidWordIndex);
                                 }
 
                                 function showFiszkiForLesson5b(indexDiv, fiszki, indeks5, matchingFiszki3) {
-                                    console.log('Ĺaduje siÄ');
+                                    console.log('ÄšÂaduje siĂÂ');
                                     console.log('Obecny indeks fiszki:', currentFiszkaIndex);
 
 
@@ -3622,11 +3639,11 @@ console.log('hej68ll', mojeidWordIndex);
                                             let id = matchingFiszki3[currentFiszkaIndex + 1].id;
                                             console.log('hej2', id);
                                             let parametr = '';
-                                            // SprawdĹş, czy id jest tablicÄ
+                                            // SprawdÄšĹ, czy id jest tablicĂÂ
                                             if (Array.isArray(id)) {
-                                                // PoĹÄcz wartoĹci z tablicy id w jeden ciÄg znakĂłw oddzielony przecinkami
+                                                // PoÄšÂĂÂcz wartoÄšÂci z tablicy id w jeden ciĂÂg znakÄĹw oddzielony przecinkami
                                                 id = id.slice(0, 3).join(',');
-                                                // ObsĹuga ewentualnego dodatkowego parametru (np. czwartego elementu w tablicy)
+                                                // ObsÄšÂuga ewentualnego dodatkowego parametru (np. czwartego elementu w tablicy)
                                                 if (id.length > 3) {
                                                     parametr = matchingFiszki3[currentFiszkaIndex].id[3]; // Pobierz czwarty element z tablicy
                                                 }
@@ -3634,42 +3651,42 @@ console.log('hej68ll', mojeidWordIndex);
 // Tworzenie klasy CSS
                                             const className = `fiszka-${id}${parametr ? '-' + parametr : ''}`;
                                             const selector = `.${className.replace(/,/g, '\\,')}`;
-                                            console.log('Usuwam fiszkÄ o klasie5:', className);
-// Znalezienie i usuniÄcie diva z klasÄ `className`
+                                            console.log('Usuwam fiszkĂÂ o klasie5:', className);
+// Znalezienie i usuniĂÂcie diva z klasĂÂ `className`
                                             let $divToRemove = $(selector);
                                             if ($divToRemove.length) {  // Sprawdza, czy element istnieje
-                                                $divToRemove.remove();   // Usuwa caĹy div z DOM
+                                                $divToRemove.remove();   // Usuwa caÄšÂy div z DOM
                                             }
-                                            // Pobierz jednÄ fiszkÄ na podstawie currentFiszkaIndex
+                                            // Pobierz jednĂÂ fiszkĂÂ na podstawie currentFiszkaIndex
                                             const fiszka = matchingFiszki3[currentFiszkaIndex];
-                                            console.log('Ĺadowana fiszka:', selector);
+                                            console.log('ÄšÂadowana fiszka:', selector);
                                             const fiszkaBlock = generateFiszkaBlock2(fiszka, indexDiv);
                                             return fiszkaBlock;
                                         }
                                     }
                                 }
                                 function showFiszkiForLesson5c(indexDiv, fiszki, mojeidWordIndex, matchingFiszki3) {
-                                    console.log('Ĺaduje siÄ');
+                                    console.log('ÄšÂaduje siĂÂ');
                                     console.log('Obecny indeks fiszki:', mojeidWordIndex);
 
 
                                     if (mojeidWordIndex !== 0 || mojeidWordIndex === 0) {
                                         if (matchingFiszki3.length >= 0) {
-                                            // Pobierz jednÄ fiszkÄ na podstawie currentFiszkaIndex
+                                            // Pobierz jednĂÂ fiszkĂÂ na podstawie currentFiszkaIndex
                                             const fiszka = matchingFiszki3[mojeidWordIndex];
-                                            console.log('Ĺadowana fiszka5:', mojeidWordIndex);
+                                            console.log('ÄšÂadowana fiszka5:', mojeidWordIndex);
                                             const fiszkaBlock = generateFiszkaBlock2(fiszka, indexDiv);
                                             return fiszkaBlock;
                                         }
                                     }
                                 }
                             }
-                            displayWords(mojeidWordIndex, indexDiv); // WywoĹanie z indeksem
+                            displayWords(mojeidWordIndex, indexDiv); // WywoÄšÂanie z indeksem
 
                             // Dostosuj rozmiar czcionki
                             updateWordDisplay(currentWordIndex);
                         } else {
-                            console.log('Nie znaleziono sĹĂłw w sentence30.');
+                            console.log('Nie znaleziono sÄšÂÄĹw w sentence30.');
                         }
                     } else {
                         console.log('Nie znaleziono elementu .sentence30 w kontenerze.');
@@ -3679,7 +3696,7 @@ console.log('hej68ll', mojeidWordIndex);
                 }
 
             }
-            // --- Bezpieczne domyślne ustawienia currentTriplet ---
+            // --- Bezpieczne domyĹlne ustawienia currentTriplet ---
             if (!Array.isArray(currentTriplet) || currentTriplet.length === 0) {
                 if (trojkiGlobal.length > 0) {
                     currentTriplet = trojkiGlobal[0].slice();
@@ -3695,7 +3712,7 @@ console.log('hej68ll', mojeidWordIndex);
 
             const currentDataName = currentTriplet[currentPos];
 
-            // --- Dopasowanie fiszek do trójki ---
+            // --- Dopasowanie fiszek do trĂłjki ---
             const id1 = currentTriplet[0];
             const id2 = currentTriplet[1];
             const id3 = currentTriplet[2];
@@ -3707,15 +3724,15 @@ console.log('hej68ll', mojeidWordIndex);
             const matchingLessons5b = [];
 
             const fiszka = sentences[currentPos] || {};
-            // --- Wybór nazwy czasu dla aktualnego zdania ---
+            // --- WybĂłr nazwy czasu dla aktualnego zdania ---
 let currentCzasName = '';
 if (currentPos === 0) currentCzasName = srcWord1q;
 else if (currentPos === 1) currentCzasName = srcWord2q;
 else if (currentPos === 2) currentCzasName = srcWord3q;
             console.log('hej140', fiszka);
-// --- Duża miniaturka / wideo ---
+// --- DuĹźa miniaturka / wideo ---
             const $mediaContainer = $('<div>').addClass('media-container').css({
-                position: 'relative', // konieczne, by absolutny tekst był w kontekście tego kontenera
+                position: 'relative', // konieczne, by absolutny tekst byĹ w kontekĹcie tego kontenera
                 width: '100%',
                 maxWidth: '600px',
                 margin: '0 auto'
@@ -3741,7 +3758,7 @@ if (videoVisible && videoSrc) {
             src: videoSrc,
             controls: true,
             autoplay: true,
-            muted: true,        // 🔥 wymagane dla autoplay
+            muted: true,        // đĽ wymagane dla autoplay
             playsinline: true,
             preload: 'auto'
         })
@@ -3778,7 +3795,7 @@ if (videoVisible && videoSrc) {
 
 $mediaContainer.append($media);
 
-// --- Overlay z nazwami filmów ---
+// --- Overlay z nazwami filmĂłw ---
 const $textContainer2 = $('<div>').css({
     position: 'absolute',
     top: '20px',
@@ -3818,7 +3835,7 @@ if (!videoVisible) {
 }
             $mediaContainer.append($textContainer2);
 
-// --- Pasek miniatur ze strzałkami ---
+// --- Pasek miniatur ze strzaĹkami ---
             const $thumbContainer = $('<div>').addClass('thumb-row');
             currentTriplet.forEach((dataName, pos) => {
                 const $item = $('<div>').addClass('thumb-item');
@@ -3842,27 +3859,27 @@ if (!videoVisible) {
                 const $desc = $('<div>').addClass('thumb-desc').text(thumbDescriptions[pos] || '');
 
                 const linkForThumb = linkMap[dataName] || `demo1angielski.html?category=${selectedCategory}&data=${dataName}`;
-                const $link = $('<a>').attr({href: linkForThumb, target: '_blank'}).addClass('thumb-link').text('Otwórz pojedyńczą lekcję');
+                const $link = $('<a>').attr({href: linkForThumb, target: '_blank'}).addClass('thumb-link').text('OtwĂłrz pojedyĹczÄ lekcjÄ');
 
                 $item.append($czasLabel, $img, $desc, $link);
                 $thumbContainer.append($item);
             });
-            let globalWordIndex = 0; // wszystkie trzy zdania przesuwają się razem
+            let globalWordIndex = 0; // wszystkie trzy zdania przesuwajÄ siÄ razem
             const wordIndexCache = {};
             const $thumbWrapper = $('<div>').addClass('thumb-wrapper');
 
-// LEWA STRZAŁKA
-// --- Strzałki ---
+// LEWA STRZAĹKA
+// --- StrzaĹki ---
 const $leftArrow = $('<button>')
     .addClass('thumb-arrow left-arrow')
-    .html('←')
+    .html('â')
     .on('click', () => {
         if (currentTriplet.length === 0) return;
 
         // zmiana globalnego indeksu
         currentPosGlobal = (currentPosGlobal - 1 + currentTriplet.length) % currentTriplet.length;
 
-        // zsynchronizowanie z aktualną pozycją
+        // zsynchronizowanie z aktualnÄ pozycjÄ
         currentPos = currentPosGlobal;
         videoVisible = false;
 
@@ -3871,7 +3888,7 @@ const $leftArrow = $('<button>')
 
 const $rightArrow = $('<button>')
     .addClass('thumb-arrow right-arrow')
-    .html('→')
+    .html('â')
     .on('click', () => {
         if (currentTriplet.length === 0) return;
 
@@ -3893,7 +3910,7 @@ const $czasNameP = $('<p>').text(currentCzasName || '')
         fontWeight: 'bold',
         fontSize: '14px',
         margin: '8px 0',
-        color: '#ffffff' // lub inny kolor pasujący do tła
+        color: '#ffffff' // lub inny kolor pasujÄcy do tĹa
     });
 $textContainer.append($czasNameP);
             let currentSentenceHtml = "";
@@ -3920,7 +3937,7 @@ $textContainer.append($czasNameP);
                                 matchingLessons5b
                                 );
 
-                        // zapis globalny, by highlightFirstWord miało dostęp
+                        // zapis globalny, by highlightFirstWord miaĹo dostÄp
                         globalSentence10 = sentence10;
                         globalSentence11 = sentence11;
                         globalSentence10b = sentence10b;
@@ -3941,7 +3958,7 @@ $textContainer.append($czasNameP);
                     } else if (currentPos === 1 && typeof addBackgroundToText2b === 'function') {
                         const {sentence20, sentence22, sentence20b, sentence22b, sentence20c, sentence22c} = addBackgroundToText2b(matchingFiszki2, matchingIndexes, currentPos, 0, matchingIndexes2, rodzaj, matchingIndexes3, matchingLessons5b);
 
-                        // zapis globalny, by highlightFirstWord miało dostęp
+                        // zapis globalny, by highlightFirstWord miaĹo dostÄp
                         globalSentence20 = sentence20;
                         globalSentence22 = sentence22;
                         globalSentence20b = sentence20b;
@@ -3950,7 +3967,7 @@ $textContainer.append($czasNameP);
                         globalSentence22c = sentence22c;
 
                         currentSentenceHtml =
-                                (sentence20 || "") + // tylko sentence10 na małe litery
+                                (sentence20 || "") + // tylko sentence10 na maĹe litery
                                 (sentence22 || "") +
                                 "<br>" +
                                 (sentence20b || "").toUpperCase() +
@@ -3970,7 +3987,7 @@ $textContainer.append($czasNameP);
                         globalSentence33c = sentence33c;
 
                         currentSentenceHtml =
-                                (sentence30 || "") + // tylko sentence10 na małe litery
+                                (sentence30 || "") + // tylko sentence10 na maĹe litery
                                 (sentence33 || "") +
                                 "<br>" +
                                 (sentence30b || "").toUpperCase() +
@@ -3986,12 +4003,12 @@ $textContainer.append($czasNameP);
                         }
                     }
                 } catch (e) {
-                    console.error('Błąd podczas generowania zdań:', e);
+                    console.error('BĹÄd podczas generowania zdaĹ:', e);
                 }
                 sentenceCache[indexDiv][currentPos] = currentSentenceHtml;
             }
             console.log("currentPos =", currentPos, "currentDataName =", currentDataName);
-// --- Dodanie strzałek do zdania --- 
+// --- Dodanie strzaĹek do zdania --- 
             const arrowsHtml = `
     <button class="prev-buttonvv sentence-prev">&lt;</button>
 
@@ -4007,7 +4024,7 @@ $textContainer.append($czasNameP);
             function syncHighlightForIndexDiv(indexDiv) {
                 const index = wordIndexCache[indexDiv];
 
-                // znajdź wszystkie trzy zdania tylko w tym indexDiv
+                // znajdĹş wszystkie trzy zdania tylko w tym indexDiv
                 const $inners = $(`.sentence-inner[data-indexdiv="${indexDiv}"]`);
 
                 $inners.each(function () {
@@ -4047,22 +4064,22 @@ $textContainer.append($czasNameP);
 
                 syncHighlightForIndexDiv(indexDiv);
             });
-// --- Pobranie bieżącego zdania na podstawie currentPos ---
+// --- Pobranie bieĹźÄcego zdania na podstawie currentPos ---
             const currentSentence = sentenceCache[indexDiv][currentPos];
             console.log('hej160', currentSentence);
 // --- Rozbijamy zdanie na linie po <br> ---
             const lines = currentSentence.split('<br>');
 
-// --- Tworzenie bloków zdań z strzałkami ---
+// --- Tworzenie blokĂłw zdaĹ z strzaĹkami ---
             const processedLines = lines.map((line, lineIndex) => {
                 if (!line.trim())
                     return "";
 
-                // Każda linia może mieć swój własny indexDiv i currentPos, jeśli potrzebne
+                // KaĹźda linia moĹźe mieÄ swĂłj wĹasny indexDiv i currentPos, jeĹli potrzebne
                 const leftBtn = `<button class="prev-button prev-button${lineIndex + 1}" data-pos="${currentPos}">&lt;</button>`;
                 const rightBtn = `<button class="next-buttonvv next-button${lineIndex + 1}" data-pos="${currentPos}">&gt;</button>`;
 
-                // Każde sentence-inner ma teraz treść bieżącej linii i poprawnie przypisane data-pos
+                // KaĹźde sentence-inner ma teraz treĹÄ bieĹźÄcej linii i poprawnie przypisane data-pos
                 return `
         <div class="sentence-line">
             ${leftBtn}
@@ -4071,7 +4088,7 @@ $textContainer.append($czasNameP);
         </div>
     `;
             });
-// --- Funkcja do renderowania zdań dla danego indexDiv i currentPos ---
+// --- Funkcja do renderowania zdaĹ dla danego indexDiv i currentPos ---
             function renderSentenceBlock(indexDiv, currentPos) {
                 const currentSentence = sentenceCache[indexDiv][currentPos];
                 if (!currentSentence)
@@ -4098,16 +4115,16 @@ $textContainer.append($czasNameP);
                 $('#your-container').html($sentenceBlock); // <- wstawiamy do swojego kontenera
             }
 
-// --- Kliknięcie w zdanie otwiera je ---
+// --- KlikniÄcie w zdanie otwiera je ---
             $(document).on('click', '.sentence-inner', function () {
                 const indexDiv = parseInt($(this).attr('data-indexDiv'));
                 const currentPos = parseInt($(this).attr('data-pos'));
 
-                // Renderujemy dokładnie to zdanie
+                // Renderujemy dokĹadnie to zdanie
                 renderSentenceBlock(indexDiv, currentPos);
             });
 
-// --- Obsługa strzałek ---
+// --- ObsĹuga strzaĹek ---
 
 
 
@@ -4124,15 +4141,15 @@ $textContainer.append($czasNameP);
 
                     let text = $inner.html().trim();
 
-                    // rozbijamy na słowa (bez HTML)
+                    // rozbijamy na sĹowa (bez HTML)
                     let words = text.split(/\s+/);
                     if (words.length === 0)
                         return;
 
-                    // podmieniamy pierwsze słowo
+                    // podmieniamy pierwsze sĹowo
                     words[0] = `<span class="highlighted" data-word-index="0">${words[0]}</span>`;
 
-                    // składamy całą linię
+                    // skĹadamy caĹÄ liniÄ
                     const rebuilt = words.join(" ");
 
                     $inner.html(rebuilt);
@@ -4147,10 +4164,10 @@ function attachArrowNavigation($sentenceBlock, indexDiv) {
         return;
     }
 
-    // ✅ JEDEN WSPÓLNY INDEKS DLA 3 ZDAŃ
+    // â JEDEN WSPĂLNY INDEKS DLA 3 ZDAĹ
     let currentWordIndex = 0;
 
-    // 🔄 Aktualizacja zaznaczenia we WSZYSTKICH liniach
+    // đ Aktualizacja zaznaczenia we WSZYSTKICH liniach
     const updateHighlightAll = () => {
 
         $sentenceBlock.find('.sentence-line').each(function (lineIndex) {
@@ -4172,7 +4189,7 @@ function attachArrowNavigation($sentenceBlock, indexDiv) {
             $inner.html(html);
         });
 
-        // 🌍 global (jak miałeś)
+        // đ global (jak miaĹeĹ)
         window.mojeidGlobal = currentWordIndex;
         window.mojeidGlobalb = currentWordIndex;
         window.mojeidGlobalc = currentWordIndex;
@@ -4185,7 +4202,7 @@ function attachArrowNavigation($sentenceBlock, indexDiv) {
         }
     };
 
-    // ▶ NEXT — WSZYSTKIE 3 LINIE
+    // âś NEXT â WSZYSTKIE 3 LINIE
     $sentenceBlock.find('.next-buttonvv')
         .off('click.attachNav')
         .on('click.attachNav', function (e) {
@@ -4205,7 +4222,7 @@ function attachArrowNavigation($sentenceBlock, indexDiv) {
             }
         });
 
-    // ◀ PREV — WSZYSTKIE 3 LINIE
+    // â PREV â WSZYSTKIE 3 LINIE
     $sentenceBlock.find('.prev-button')
         .off('click.attachNav')
         .on('click.attachNav', function (e) {
@@ -4218,7 +4235,7 @@ function attachArrowNavigation($sentenceBlock, indexDiv) {
             }
         });
 
-    // 🖱️ KLIK W SŁOWO — synchronizacja
+    // đąď¸ KLIK W SĹOWO â synchronizacja
     $sentenceBlock
         .off('click.attachNav', '.sentence-inner span')
         .on('click.attachNav', '.sentence-inner span', function (e) {
@@ -4232,7 +4249,7 @@ function attachArrowNavigation($sentenceBlock, indexDiv) {
             }
         });
 
-    // 🚀 START
+    // đ START
     updateHighlightAll();
 }
             function sendHighlightToFiszki(indexDiv, mojeidGlobal) {
@@ -4248,23 +4265,23 @@ function attachArrowNavigation($sentenceBlock, indexDiv) {
             const $singleLinkA = $('<a>')
                     .attr({href: singleLink})
                     .addClass('text-link')
-                    .text('➡ Otwórz lekcję z wybranym zdaniem');
+                    .text('âĄ OtwĂłrz lekcjÄ z wybranym zdaniem');
 
             const $tripletLinkA = $('<a>')
                     .attr({href: tripletLink})
                     .addClass('text-link')
-                    .text('➡ Otwórz całą lekcję (3 zdania)');
+                    .text('âĄ OtwĂłrz caĹÄ lekcjÄ (3 zdania)');
 
             $textContainer.append($singleLinkA, $tripletLinkA);
 
-            // --- Nawigacja w obrębie trójki ---
+            // --- Nawigacja w obrÄbie trĂłjki ---
             const $nav = $('<div>').addClass('nav-buttons');
-            const $left = $('<button>').text('←').on('click', () => {
+            const $left = $('<button>').text('â').on('click', () => {
                 currentPos = (currentPos - 1 + currentTriplet.length) % currentTriplet.length;
                 videoVisible = false;
                 renderLesson();
             });
-            const $right = $('<button>').text('→').on('click', () => {
+            const $right = $('<button>').text('â').on('click', () => {
                 currentPos = (currentPos + 1) % currentTriplet.length;
                 videoVisible = false;
                 renderLesson();
@@ -4282,20 +4299,20 @@ function attachArrowNavigation($sentenceBlock, indexDiv) {
 
 // ---------- STARTUP: synchronizacja trojek, linkMap i ustawienia currentTriplet ----------
         function startup() {
-            // najpierw wypełnij tablica60, trojkiGlobal i linkMap
+            // najpierw wypeĹnij tablica60, trojkiGlobal i linkMap
             updateButtonColors();
 
-            // spróbuj odczytać parametry z URL
+            // sprĂłbuj odczytaÄ parametry z URL
             const parsed = parseDataParamFromURL();
             if (parsed && parsed.length > 0) {
                 if (parsed.length === 1) {
-                    // pojedynczy numer - spróbuj odnaleźć odpowiadającą trójkę
-                    // jeśli trojkiGlobal jest pusty (np. updateButtonColors jeszcze nie wrócił) - poczekaj krótko
+                    // pojedynczy numer - sprĂłbuj odnaleĹşÄ odpowiadajÄcÄ trĂłjkÄ
+                    // jeĹli trojkiGlobal jest pusty (np. updateButtonColors jeszcze nie wrĂłciĹ) - poczekaj krĂłtko
                     if (trojkiGlobal.length === 0) {
-                        // odczekaj i spróbuj ponownie
+                        // odczekaj i sprĂłbuj ponownie
                         setTimeout(() => {
                             if (!chooseTripletFromSingleNumber(parsed[0])) {
-                                // fallback: ustaw pojedynczy numer jako trójkę z nim samym
+                                // fallback: ustaw pojedynczy numer jako trĂłjkÄ z nim samym
                                 currentTriplet = [parsed[0]];
                                 currentPos = 0;
                             }
@@ -4309,17 +4326,17 @@ function attachArrowNavigation($sentenceBlock, indexDiv) {
                         }
                     }
                 } else {
-                    // jeżeli mamy już listę (np. 5,6,7) -> ustaw currentTriplet bezpośrednio
+                    // jeĹźeli mamy juĹź listÄ (np. 5,6,7) -> ustaw currentTriplet bezpoĹrednio
                     currentTriplet = parsed.slice();
                     currentPos = 0;
                 }
             } else {
-                // brak parametru w URL -> użyj pierwszej trojki (jeśli jest), inaczej fallback
+                // brak parametru w URL -> uĹźyj pierwszej trojki (jeĹli jest), inaczej fallback
                 if (trojkiGlobal.length > 0) {
                     currentTriplet = trojkiGlobal[0].slice();
                     currentPos = 0;
                 } else {
-                    // fallback: zwykła sekwencja 0..miniaturka.length-1
+                    // fallback: zwykĹa sekwencja 0..miniaturka.length-1
                     currentTriplet = miniaturka.map((_, i) => i);
                     currentPos = 0;
                 }
@@ -4329,7 +4346,7 @@ function attachArrowNavigation($sentenceBlock, indexDiv) {
             renderLesson();
         }
 
-// Uruchom startup po krótkim delay (daje czas updateButtonColors)
+// Uruchom startup po krĂłtkim delay (daje czas updateButtonColors)
         setTimeout(startup, 0);
 
 
@@ -4338,7 +4355,7 @@ function attachArrowNavigation($sentenceBlock, indexDiv) {
             var $sentenceDiv = $('<div></div>');
             $sentenceDiv.addClass('sentence');
 
-            // Pobieramy nazwy (id[1]) do atrybutów
+            // Pobieramy nazwy (id[1]) do atrybutĂłw
             const id1 = matchingFiszki1[0]?.id[1] || 'unknown1';
             const id2 = matchingFiszki2[0]?.id[1] || 'unknown2';
             const id3 = matchingFiszki3[0]?.id[1] || 'unknown3';
@@ -4394,12 +4411,12 @@ function attachArrowNavigation($sentenceBlock, indexDiv) {
                     console.log('hej2dd', id);
                     let parametr = '';
 
-                    // Sprawdź, czy id jest tablicą
+                    // SprawdĹş, czy id jest tablicÄ
                     if (Array.isArray(id)) {
-                        // Połącz wartości z tablicy id w jeden ciąg znaków oddzielony przecinkami
+                        // PoĹÄcz wartoĹci z tablicy id w jeden ciÄg znakĂłw oddzielony przecinkami
                         id = id.slice(0, 3).join(',');
 
-                        // Obsługa ewentualnego dodatkowego parametru (np. czwartego elementu w tablicy)
+                        // ObsĹuga ewentualnego dodatkowego parametru (np. czwartego elementu w tablicy)
                         if (id.length > 3) {
                             parametr = matchingFiszki1[ostatniElement3].id[3]; // Pobierz czwarty element z tablicy
                         }
@@ -4412,17 +4429,17 @@ function attachArrowNavigation($sentenceBlock, indexDiv) {
                     console.log('Generated selector:', tablica13a);
                     let selector2 = tablica13a[tablica13a.length - 1];
                     setTimeout(() => {
-                        // Znajdź element wewnątrz kontenera
+                        // ZnajdĹş element wewnÄtrz kontenera
                         const $divToRemove = $container.find(selector2);
                         console.log('Element to remove:', $divToRemove);
 
                         if ($divToRemove.length) {
-                            $divToRemove.remove(); // Usunięcie elementu
+                            $divToRemove.remove(); // UsuniÄcie elementu
                             console.log('Removed:', $divToRemove);
                         } else {
                             console.log('Element not found within container:', selector);
                         }
-                    }, 500); // Opóźnienie
+                    }, 500); // OpĂłĹşnienie
 
                 }
                 console.log('hej44d', $container);
@@ -4455,12 +4472,12 @@ function attachArrowNavigation($sentenceBlock, indexDiv) {
                     console.log('hej2dd', id);
                     let parametr = '';
 
-                    // Sprawdź, czy id jest tablicą
+                    // SprawdĹş, czy id jest tablicÄ
                     if (Array.isArray(id)) {
-                        // Połącz wartości z tablicy id w jeden ciąg znaków oddzielony przecinkami
+                        // PoĹÄcz wartoĹci z tablicy id w jeden ciÄg znakĂłw oddzielony przecinkami
                         id = id.slice(0, 3).join(',');
 
-                        // Obsługa ewentualnego dodatkowego parametru (np. czwartego elementu w tablicy)
+                        // ObsĹuga ewentualnego dodatkowego parametru (np. czwartego elementu w tablicy)
                         if (id.length > 3) {
                             parametr = matchingFiszki2[ostatniElement3].id[3]; // Pobierz czwarty element z tablicy
                         }
@@ -4473,17 +4490,17 @@ function attachArrowNavigation($sentenceBlock, indexDiv) {
                     console.log('Generated selector:', tablica13a);
                     let selector2 = tablica13a[tablica13a.length - 1];
                     setTimeout(() => {
-                        // Znajdź element wewnątrz kontenera
+                        // ZnajdĹş element wewnÄtrz kontenera
                         const $divToRemove = $container.find(selector2);
                         console.log('Element to remove:', $divToRemove);
 
                         if ($divToRemove.length) {
-                            $divToRemove.remove(); // Usunięcie elementu
+                            $divToRemove.remove(); // UsuniÄcie elementu
                             console.log('Removed:', $divToRemove);
                         } else {
                             console.log('Element not found within container:', selector);
                         }
-                    }, 500); // Opóźnienie
+                    }, 500); // OpĂłĹşnienie
 
                 }
                 console.log('hej44d', $container);
@@ -4516,12 +4533,12 @@ function attachArrowNavigation($sentenceBlock, indexDiv) {
                     console.log('hej2dd', id);
                     let parametr = '';
 
-                    // Sprawdź, czy id jest tablicą
+                    // SprawdĹş, czy id jest tablicÄ
                     if (Array.isArray(id)) {
-                        // Połącz wartości z tablicy id w jeden ciąg znaków oddzielony przecinkami
+                        // PoĹÄcz wartoĹci z tablicy id w jeden ciÄg znakĂłw oddzielony przecinkami
                         id = id.slice(0, 3).join(',');
 
-                        // Obsługa ewentualnego dodatkowego parametru (np. czwartego elementu w tablicy)
+                        // ObsĹuga ewentualnego dodatkowego parametru (np. czwartego elementu w tablicy)
                         if (id.length > 3) {
                             parametr = matchingFiszki3[ostatniElement3].id[3]; // Pobierz czwarty element z tablicy
                         }
@@ -4534,17 +4551,17 @@ function attachArrowNavigation($sentenceBlock, indexDiv) {
                     console.log('Generated selector:', tablica13a);
                     let selector2 = tablica13a[tablica13a.length - 1];
                     setTimeout(() => {
-                        // Znajdź element wewnątrz kontenera
+                        // ZnajdĹş element wewnÄtrz kontenera
                         const $divToRemove = $container.find(selector2);
                         console.log('Element to remove:', $divToRemove);
 
                         if ($divToRemove.length) {
-                            $divToRemove.remove(); // Usunięcie elementu
+                            $divToRemove.remove(); // UsuniÄcie elementu
                             console.log('Removed:', $divToRemove);
                         } else {
                             console.log('Element not found within container:', selector);
                         }
-                    }, 500); // Opóźnienie
+                    }, 500); // OpĂłĹşnienie
 
                 }
                 console.log('hej44d', $container);
@@ -4555,12 +4572,12 @@ function attachArrowNavigation($sentenceBlock, indexDiv) {
         console.log('Tworzymy przycisk z indexDiv =', indexDiv);
         const $button = $('<button></button>')
                 .addClass('run-button')
-                .text('Uruchom-działa')
+                .text('Uruchom-dziaĹa')
                 .attr('data-index2', indexDiv)
                 .on('click', function () {
                     const index5 = $(this).attr('data-index2');
                     const index55 = parseInt(index5, 10);
-                    console.log('Kliknięto przycisk z data-index2 =', index5, ', index55 =', index55);
+                    console.log('KlikniÄto przycisk z data-index2 =', index5, ', index55 =', index55);
                     kliknieciaHistoria.push(index55);
                     const index77 = (kliknieciaHistoria.length > 1)
                             ? kliknieciaHistoria[kliknieciaHistoria.length - 2]
@@ -4571,28 +4588,28 @@ function attachArrowNavigation($sentenceBlock, indexDiv) {
                         przekazArgument0('all', tablica3[2], index55, index77, true, tablica3[0], true, true, tablica3[1], tablica3[4], false, '', '', '', '', '100', '', '', '', false, true, false);
                     }, 100);
                 });
-// Stylowanie przycisku – widoczny od razu
+// Stylowanie przycisku â widoczny od razu
         $button.css({
             'position': 'absolute',
-            'right': '-200px', // Dopasuj pozycję według potrzeb
+            'right': '-200px', // Dopasuj pozycjÄ wedĹug potrzeb
             'top': '5px',
             'font-size': '10px',
             'height': '30px',
             'width': '170px',
             'color': 'blue',
             'background-color': 'white',
-            'z-index': '12', // Wyższy niż inne elementy
+            'z-index': '12', // WyĹźszy niĹź inne elementy
             'border': '1px solid #aaa',
             'cursor': 'pointer'
         });
 
-// Dodanie przycisku do kontenera – OD RAZU po jego stworzeniu
+// Dodanie przycisku do kontenera â OD RAZU po jego stworzeniu
         $container.append($button);
 
         // Dodanie diva z zdaniem do kontenera
         $container.append($sentenceDiv);
         tablica10a.push(srcWords);
         console.log('hej6', tablica10a);
-        console.log('wykonuje się teraz');
+        console.log('wykonuje siÄ teraz');
     }
 }

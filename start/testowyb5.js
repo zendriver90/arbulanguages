@@ -10099,7 +10099,7 @@ id: [
                 alt: ""
             },
             story: {
-                text: 'Odebrałem t<u><b>el</u></b>efon kiedy jadłem jajecznice i ją prze<u><b>sol</u></b>iłem - jeszcze oślepiło mnie <u><b>słońce</u></b>',
+                text: 'Odebrałam t<u><b>el</u></b>efon kiedy jadłem jajecznice i ją prze<u><b>sol</u></b>iłam - jeszcze oślepiło mnie <u><b>słońce</u></b>',
                 alt: ""
             },
             category: ["", ""]
@@ -10535,21 +10535,21 @@ id: [
         {
             id: 1,
             img: {
-                src: "http://localhost/arbulanguage.com/img/fiszkiespanol/222a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszkiespanol/230a.jpg",
                 alt: ""
             },
             story: {
-                text: '<u><b>A</u></b> <u><b>komu</u></b> - to?',
+                text: '<u><b>A</u></b> <u><b>komu</u></b> to? A <u><b>czemu</u></b> to?',
                 alt: ""
             },
-            category: ["muzyka", "artysta"]
+            category: ["", ""]
         }
     ],
         word: [
                 "http://localhost/arbulanguage.com/voice/music.mp4"
         ],
         // opis
-        desc: "a[a] - komu? czemu?",
+        desc: "a[a] - komu?,czemu?",
         //zdanie
         sentence1: [
                 "a"
@@ -10911,7 +10911,7 @@ id: [
                 alt: ""
             },
             story: {
-                text: 'A komu to? A czemu to?',
+                text: '<u><b>A</u></b> <u><b>komu</u></b> to? A <u><b>czemu</u></b> to?',
                 alt: ""
             },
             category: ["", ""]
@@ -12487,7 +12487,7 @@ id: [
                 alt: ""
             },
             story: {
-                text: 'Telefon do ojca dzwoni, a bateria mu padła w telefonie a miał kreślić plany na następny dzień',
+                text: 'T<u><b>el</u></b>efon do ojca dzwoni, a bateria mu <u><b>pad</u></b>ła w telefonie a miał k<u><b>re</u></b>ślić plany na następny dzień',
                 alt: ""
             },
             category: ["", ""]
@@ -12536,7 +12536,7 @@ id: [
                 alt: ""
             },
             story: {
-                text: 'Na lotnisku tragaż pomylił moje bagaże, bardzo trudna jest jego praca i nie może być chaotyczny',
+                text: 'Na lotnisku <u><b>trag</u></b>aż pomylił moje <u><b>ba</u></b>gaże, bardzo trudna jest jego praca i nie może być <u><b>cha</u></b>otyczny',
                 alt: ""
             },
             category: ["", ""]
@@ -12577,7 +12577,7 @@ id: [
                 alt: ""
             },
             story: {
-                text: 'Ooj, dzisiaj wykręcimy dobry wynik',
+                text: '<u><b>Ooj</u></b>, <u><b>dzisiaj</u></b> wykręcimy dobry wynik',
                 alt: ""
             },
             category: ["", ""]
@@ -12618,7 +12618,7 @@ id: [
                 alt: ""
             },
             story: {
-                text: 'A taki tutaj jest bajzel',
+                text: 'A t<u><b>aki</u></b> <u><b>tutaj</u></b> jest bajzel',
                 alt: ""
             },
             category: ["", ""]
@@ -12659,7 +12659,7 @@ id: [
                 alt: ""
             },
             story: {
-                text: 'Super jest ten pies, rozmawia się z nim śmiesznie',
+                text: 'Su<u><b>per</u></b> jest ten <u><b>pies</u></b>, <u><b>ro</u></b>zmawia się z nim śmiesznie',
                 alt: ""
             },
             category: ["", ""]
@@ -12704,7 +12704,7 @@ id: [
                 alt: ""
             },
             story: {
-                text: 'Hulam z kolegą, gramy w piłkę nożną, jest mega',
+                text: '<u><b>Hu</u></b>lam z kolegą, gramy w piłkę nożną, jest m<u><b>ega</u></b>',
                 alt: ""
             },
             category: ["", ""]
@@ -12810,7 +12810,7 @@ id: [
                 alt: ""
             },
             story: {
-                text: 'Pelikan gra w piłkę nożną i jest cała gablota jego pucharów',
+                text: '<u><b>Pel</u></b>ikan gra w piłkę nożną i jest cała gabl<u><b>ota</u></b> jego pucharów',
                 alt: ""
             },
             category: ["", ""]
@@ -12851,7 +12851,7 @@ id: [
                 alt: ""
             },
             story: {
-                text: 'Telewizor przedstawia mężczyznę dzwoniącego przez komórkę i opidadającego dobre historie',
+                text: 'T<u><b>el</u></b>ewizor przedstawia mężczyznę dzwoniącego przez k<u><b>omó</u></b>rkę i opidadającego do<u><b>bre</u></b> historie',
                 alt: ""
             },
             category: ["", ""]
@@ -12896,7 +12896,7 @@ id: [
                 alt: ""
             },
             story: {
-                text: 'A to dobre wieści, że sklep jest otwarty',
+                text: '<u><b>A</u></b> to do<u><b>bre</u></b> wieści, że sklep jest otwarty',
                 alt: ""
             },
             category: ["", ""]
@@ -12937,7 +12937,7 @@ id: [
                 alt: ""
             },
             story: {
-                text: 'Super jest ta jego książka',
+                text: '<u><b>Su</u></b>per jest ta <u><b>jego</u></b> książka',
                 alt: ""
             },
             category: ["", ""]
@@ -12978,7 +12978,7 @@ id: [
                 alt: ""
             },
             story: {
-                text: 'Kaliber przemyśleń w tej książce jest niesamowity, rozmyślam po przeczytaniu rozdziału',
+                text: 'Ka<u><b>lib</u></b>er przemyśleń w tej książce jest niesamowity, <u><b>ro</u></b>zmyślam po przeczytaniu rozdziału',
                 alt: ""
             },
             category: ["", ""]
@@ -12990,7 +12990,7 @@ id: [
                 alt: ""
             },
             story: {
-                text: 'Tablib czyta książkę, rozmyśla o tym co przeczytał',
+                text: 'Ta<u><b>lib</u></b> czyta książkę, <u><b>ro</u></b>zmyśla o tym co przeczytał',
                 alt: ""
             },
             category: ["", ""]
@@ -13031,7 +13031,7 @@ id: [
                 alt: ""
             },
             story: {
-                text: 'Mama piecze placek, ja szykuje drewno do pieca',
+                text: 'Ma<u><b>ma</u></b> piecze placek, ja szykuje <u><b>dre</u></b>wno do pieca',
                 alt: ""
             },
             category: ["", ""]
@@ -13076,7 +13076,7 @@ id: [
                 alt: ""
             },
             story: {
-                text: 'Koś się uśmichnął na moje kalesony, są prima sort, eee nawet fajne',
+                text: 'Koś się uśmichnął na moje kale<u><b>son</u></b>y, są p<u><b>ri</u></b>ma sort, <u><b>eee</u></b> nawet fajne',
                 alt: ""
             },
             category: ["", ""]
@@ -13085,8 +13085,8 @@ id: [
         word: [
                 "http://localhost/arbulanguage.com/voice/music.mp4"
         ],
-        // opis
-        desc: "sonrie[sonri-e] - uśmiech",
+        // opis 
+       desc: "sonrie[sonri-e] - uśmiech",
         //zdanie
         sentence1: [
                 "sonrie"
@@ -13182,7 +13182,7 @@ id: [
                 alt: ""
             },
             story: {
-                text: 'Syn jest przy mamie cicho, a przy ojcu wrzeszczy',
+                text: '<u><b>Syn</u></b> jest przy mamie c<u><b>icho</u></b>, a przy ojcu wrzeszczy',
                 alt: ""
             },
             category: ["", ""]
@@ -13223,7 +13223,7 @@ id: [
                 alt: ""
             },
             story: {
-                text: 'Oni mówią do siebie, gdy zaczynają rozmawiać: te... a słyszałeś to?',
+                text: 'Mówię do Ciebie: <u><b>te</u></b>... a słyszałeś to? a <u><b>Ty</u></b> odpowiadasz...',
                 alt: ""
             },
             category: ["", ""]
@@ -13268,7 +13268,7 @@ id: [
                 alt: ""
             },
             story: {
-                text: 'Dżem jest słodki, a popijam winem amarena, muszę jeszcze gdzieś zadzwonić',
+                text: '<u><b>Dż</u></b>em jest słodki, a popijam winem <u><b>amare</u></b>na, muszę jeszcze gdzieś zadzwonić',
                 alt: ""
             },
             category: ["", ""]
@@ -13309,7 +13309,7 @@ id: [
                 alt: ""
             },
             story: {
-                text: 'Masło jest bardziej wartościowe niż margaryna - na chleb',
+                text: '<u><b>Mas</u></b>ło jest <u><b>bardziej</u></b> wartościowe niż margaryna - na chleb',
                 alt: ""
             },
             category: ["", ""]
@@ -13350,7 +13350,7 @@ id: [
                 alt: ""
             },
             story: {
-                text: 'Póżniej będę tarł jabłko na tarce do deseru - na wieczórs',
+                text: '<u><b>Póżniej</u></b> będę <u><b>tar</u></b>ł jabłko na tarce do <u><b>de</u></b>seru - na wieczór',
                 alt: ""
             },
             category: ["", ""]
@@ -14283,6 +14283,7 @@ function countMultiVersionFiszkiForLesson(fiszkiArray, lessonId2) {
 
 // Obiekt do przechowywania historii fiszek dla każdej lekcji
 const selectedFiszkiHistoryByLesson = {};
+console.log(`Generating100`, selectedFiszkiHistoryByLesson);
 // ==============================
 // ŁADOWANIE OBRAZKA (Promise)
 // ==============================
@@ -14303,7 +14304,6 @@ const matrixQueueByLesson = {};
 
     const fiszki = fiszkiArray.filter(f => f.id[1] === sentenceId);
     if (!fiszki.length || !selectedFiszkiHistory.length || !fiszkaContainer) return;
-
     let topWords = [];
     let bottomWords = [];
     let desc = [];
@@ -14343,6 +14343,7 @@ const key = sentenceId + "_" + sentenceId;
 if (!matrixCountBySentence[key]) matrixCountBySentence[key] = 0;
 
 const matrixIndex = matrixCountBySentence[key]++;
+
     const highlightedImgIndex = matrixIndex % selectedFiszkiHistory.length;
     
     function createRow(words, startIndex) {
@@ -14352,7 +14353,6 @@ const matrixIndex = matrixCountBySentence[key]++;
             const imgIndex = (startIndex + i) % selectedFiszkiHistory.length;
             const imgObj = selectedFiszkiHistory[imgIndex];
             const entry = desc[startIndex + i];
-
 const $cell = $('<div>').css({
     width: cellWidth + 'px',
     height: cellHeight + 'px',
@@ -14421,6 +14421,7 @@ function generateFiszkaBlock(fiszka, lessonId2, category) {
     // dalsza logika tworzenia bloku fiszki...
 
     var currentStoryButtonName = ''; // Zmienna lokalna
+    console.log(`Generating fiszka block for ID100`, category);
 
     // Tworzenie kontenera fiszki
 
@@ -14432,8 +14433,6 @@ function generateFiszkaBlock(fiszka, lessonId2, category) {
     
     const selectedFiszkiHistory = selectedFiszkiHistoryByLesson[lessonId2];
         function initAudio(fiszkaId) {
-            var audioId = 'music' + fiszkaId;
-            var pButtonId = 'pButton' + fiszkaId;
 
             var music = document.getElementById(audioId);
             var pButton = document.getElementById(pButtonId);
@@ -14455,6 +14454,8 @@ function generateFiszkaBlock(fiszka, lessonId2, category) {
             pButton.style.alignItems = 'center';
             pButton.style.justifyContent = 'center';
             pButton.style.overflow = 'hidden';    // Ukrycie nadmiarowego kontentu
+            console.log('Initialized audio element with ID:', audioId);
+            console.log('Initialized play/pause button with ID:', pButtonId);
 
             // Play and Pause
             function playb() {
@@ -14470,6 +14471,7 @@ function generateFiszkaBlock(fiszka, lessonId2, category) {
                     pButton.classList.remove("pause");
                     pButton.classList.add("play");
                 }
+                console.log('Audio playback status:', music.paused ? 'Paused' : 'Playing');
             }
 
             // Gets audio file duration
@@ -14480,13 +14482,15 @@ function generateFiszkaBlock(fiszka, lessonId2, category) {
 
             // Dodajemy event listener do przycisku play/pause
             pButton.addEventListener('click', playb);
+
+            console.log('Audio initialization completed.');
         }
 
 // TWORZENIE KONTENERA FISZKI
 let fiszkaContainer = $('<div>')
     .addClass('fiszka fiszka-' + fiszka.id)
     .attr('data-lesson-id', lessonId2);
-
+console.log('Hej4442', fiszkaContainer);
 // Łączy tylko fragmenty słowa przylegające do span.a/b/c/d/x
 function wrapLogicalWords(storyElement) {
     if (!storyElement) return;
@@ -14745,12 +14749,15 @@ const imgContainer = $('<div>').addClass('fiszka_img_container');
             fiszkaContainer.append(imgContainer);
             
         const selectedLikes = [];
+        console.log('hej10', selectedLikes);
 
 // Funkcja do obsługi kliknięcia na przycisk "likeButton"
         function handleLikeButtonClick(index) {
             const likeButton = $(this);
             const storyButton = fiszkaContainer.find('.story_button').eq(index);
             const selectedLike = likeButton.text();
+            console.log('Zaktualizowano przycisk dla indeksu:', index);
+            console.log('Aktualne wartości selectedLikes:', selectedLikes);
         }
         const likeButton = $('<a>').addClass('like').attr('href', '#');
         const likeText = $('<span>').text('Śmieszna historia');
@@ -14865,6 +14872,9 @@ const imgContainer = $('<div>').addClass('fiszka_img_container');
 
 // Funkcja do zapisywania wybranego "like"
         function saveSelectedLike(selectedLike, text) {
+            // Tutaj możesz zapisać wybrany "like" w odpowiednim kontekście, np. wysłać go na serwer, zapisać w lokalnym magazynie itp.
+            console.log('Wybrany like:', text);
+            console.log('Tekst:', text);
             // Jeśli chcesz użyć go w innych miejscach, możesz przekazać go jako argument do innych funkcji lub zmiennych.
         }
 
@@ -14892,23 +14902,30 @@ const imgContainer = $('<div>').addClass('fiszka_img_container');
 
 
 function showStory(idFiszki) {
+    console.log('Wywołano showStory:', idFiszki);
 
     const currentFiszka = fiszkaContainer;
+    console.log('Aktualny kontener:', currentFiszka);
 
     // Ukrywamy wszystkie obrazy
     currentFiszka.find('.fiszka_img').hide();
 
     const currentEntry = fiszka.entries[idFiszki];
     if (!currentEntry) {
+        console.error("Nie znaleziono fiszki dla id:", idFiszki);
         return;
     }
 
-    let imgIndex = idFiszki;
+    console.log("Wybrana fiszka:", currentEntry);
 
-    // 🔹 RANDOM tylko gdy jest wiele wersji
+let imgIndex = idFiszki;
+
+// 🔹 RANDOM tylko jeśli NIE MA wymuszonego indexu
+if (imgIndex === undefined || imgIndex === null) {
     if (Array.isArray(fiszka.entries) && fiszka.entries.length > 1) {
         imgIndex = Math.floor(Math.random() * fiszka.entries.length);
     }
+}
 
     // 🔹 ZAPIS wylosowanej wersji w kontenerze (kluczowe dla APPROVE)
     currentFiszka.data('selectedIndex', imgIndex);
@@ -14945,6 +14962,11 @@ function showStory(idFiszki) {
             multiVersion: isMultiVersion,
             timestamp: new Date().toISOString()
         });
+
+        console.log(
+            "hej333",
+            selectedFiszkiHistory[selectedFiszkiHistory.length - 1]
+        );
 
     } else {
         console.warn("Brak obrazka w fiszce:", currentEntry);
@@ -15204,8 +15226,10 @@ $(document).on('click', '.btnApprove', function() {
 
     const idFiszki = entry.id || selectedIndex;
     const idFiszki2 = fiszkaObj.id ? fiszkaObj.id[0] : selectedIndex;
-    const relativeIndex = idFiszki2 - startIndex2;
-
+const relativeIndex = startIndex2 === 0 
+    ? 0 
+    : idFiszki2 - startIndex2;
+console.log('relativeIndex33', relativeIndex);
     if (!selectedFiszkiHistoryByLesson[lessonIdLocal]) {
         selectedFiszkiHistoryByLesson[lessonIdLocal] = [];
     }
@@ -15231,20 +15255,20 @@ $(document).on('click', '.btnApprove', function() {
             )
         )
         .then(() => {
+$(`.fiszka[data-lesson-id="${lessonIdLocal}"]`).each(function(index) {
 
-            // ✅ aktualizujemy TYLKO matryce tej lekcji
-            $(`.fiszka[data-lesson-id="${lessonIdLocal}"]`).each(function() {
+    const container = $(this);
+    const historyItem = history[index];
 
-                const container = $(this);
+    generateOrUpdateMatrix(
+        fiszki10Obj,
+        lessonIdLocal,
+        history,
+        container,
+        historyItem?.idFiszki   // 👈 KAŻDA MATRYCA MA SWÓJ
+    );
 
-                generateOrUpdateMatrix(
-                    fiszki10Obj,
-                    lessonIdLocal,
-                    history,
-                    container
-                );
-
-            });
+});
 
         })
         .catch(err => console.error(err));
@@ -15257,8 +15281,13 @@ if (Array.isArray(fiszka.entries) && fiszka.entries.length > 0) {
     fiszka.entries.forEach((story, index) => {
                 const storyContainer = $('<div>').addClass('fiszka_story story-' + index).html(index);
                 fiszkaContainer.append(storyContainer);
+                console.log("Dodano story: ", index);  // Debugowanie
             });
         }
+        console.log('Przed utworzeniem wordDiv');
+
+
+        console.log('Po utworzeniu wordDiv');
     let initialSpecificLesson2Ref;
     let specificLesson2Ref;
     let lastClickedIndex = null;
@@ -15267,7 +15296,8 @@ if (Array.isArray(fiszka.entries) && fiszka.entries.length > 0) {
     let approvedColors = [];
 
     let index10 = [];
-    const startIndex = fiszka.id[0]; 
+    const startIndex = fiszka.id[0];
+    console.log("hej1000", fiszka.id[0]); 
     if (Array.isArray(fiszka.entries) && fiszka.entries.length > 0) {
 
 
@@ -15331,9 +15361,13 @@ if (Array.isArray(fiszka.entries) && fiszka.entries.length > 0) {
 // Ustawiamy startIndex dla lekcji, jeśli jeszcze nie został ustawiony
 if (startIndexByLesson[lessonId2] === undefined) {
     startIndexByLesson[lessonId2] = fiszka.id[0];
+    console.log("StartIndex dla lekcji", lessonId2, startIndexByLesson[lessonId2]);
 }
 
 const startIndex2 = startIndexByLesson[lessonId2];
+console.log('start100', startIndexByLesson[lessonId2]);
+console.log('startIndex for lesson5', startIndex2);
+console.log('startIndex for lesson', startIndex);
 
 // --- 4️⃣ Tworzymy przyciski dla każdego wpisu w fiszce
 fiszka.entries.forEach((entry, index) => {
@@ -15355,10 +15389,11 @@ if (isIncluded) {
 
         // zapamiętujemy wersję
         const idFiszki2 = fiszka.id ? fiszka.id[0] : index;
-        console.log("idFiszki2:", idFiszki2);
+        console.log("startIndex4:", startIndex2);
 
-        // 🔹 Obliczamy indeks relatywny względem pierwszej fiszki w lekcji
-        const relativeIndex = startIndex2 + idFiszki2;
+const relativeIndex = startIndex2 === 0 
+    ? 0 
+    : idFiszki2 - startIndex2;
         console.log('relativeIndex', relativeIndex);
 
         // 🔹 Aktualizujemy historię dla tej lekcji
@@ -15373,33 +15408,33 @@ if (isIncluded) {
 
         // 🔹 Pobranie historii dla lekcji
         const history = selectedFiszkiHistoryByLesson[lessonId2];
-        if (MATRIX_MODE === 'RANDOM') {
-        // 🔹 Jeśli kolejka dla lekcji nie istnieje, tworzymy pustą Promise
-        if (!matrixQueueByLesson[lessonId2]) {
-            matrixQueueByLesson[lessonId2] = Promise.resolve();
-        }
+if (MATRIX_MODE === 'RANDOM') {
+    if (!matrixQueueByLesson[lessonId2]) {
+        matrixQueueByLesson[lessonId2] = Promise.resolve();
+    }
 
-        // 🔹 Przekazujemy bezpośrednio kontener klikanej fiszki
-        const idFiszki2Container = $(this).closest('.fiszka');
-        const $fiszkaContainer = $(this).closest('.fiszka');
+    // Pobieramy wszystkie kontenery dla tej lekcji
+    const $allFiszkaContainers = $(`.fiszka[data-lesson-id='${lessonId2}']`);
 
-        // ✅ zapamiętujemy wybraną wersję w kontenerze fiszki
-        $fiszkaContainer.data('selectedIndex', index);
-
-        // 🔹 Dodajemy zadanie do kolejki
-        matrixQueueByLesson[lessonId2] = matrixQueueByLesson[lessonId2]
-            .then(() =>
-                Promise.all(
-                    history
-                        .filter(h => h?.img?.src)
-                        .map(h => loadImage(h.img.src))
-                )
+    matrixQueueByLesson[lessonId2] = matrixQueueByLesson[lessonId2]
+        .then(() =>
+            Promise.all(
+                history
+                    .filter(h => h?.img?.src)
+                    .map(h => loadImage(h.img.src))
             )
-            .then(() => {
-                console.log('Container dla tej fiszki:', idFiszki2Container);
-                generateOrUpdateMatrix(fiszki10, lessonId2, history, idFiszki2Container, idFiszki);
-            })
-            .catch(err => console.error(err));
+        )
+        .then(() => {
+            $allFiszkaContainers.each(function(containerIndex) {
+                const $container = $(this);
+                // Pobierz index wybranej wersji fiszki dla tego kontenera
+                const selectedIndexForContainer = $container.data('selectedIndex') ?? 0;
+                const selectedEntry = fiszka.entries[selectedIndexForContainer];
+                
+                generateOrUpdateMatrix(fiszki10, lessonId2, history, $container, selectedEntry?.id ?? 0);
+            });
+        })
+        .catch(err => console.error(err));
 } else if (MATRIX_MODE === 'APPROVE') {
             // 🔹 Tryb APPROVE – nic nie wgrywamy, czekamy na kliknięcie przycisku "Zatwierdź"
             console.log('Wybrano wersję w APPROVE. Obrazki zostaną wgrane po kliknięciu Zatwierdź.');
@@ -15448,11 +15483,13 @@ if (isIncluded) {
 
         const idFiszki = fiszka.entries[randomButtonIndex].id || randomButtonIndex;
         showStory(index10, idFiszki);
+        console.log(`Wywołano showStory dla przycisku: ${randomButtonIndex} z id.fiszki: ${idFiszki}`);
 } else if (Array.isArray(fiszka.entries) && fiszka.entries.length > 0) {
             // Jeśli fiszka.category1 nie jest tablicą
             newImgIndex = 0; // Przypisanie domyślnego indeksu dla pojedynczego obrazka
             specificLesson2Ref = fiszka.img; // Przypisanie pojedynczej wartości do specificLesson2Ref
             initialSpecificLesson2Ref = specificLesson2Ref;
+            console.log('Hej7', specificLesson2Ref);
 
             // Stwórz pojedynczy przycisk dla pojedynczej wartości category1
             const displayText = `${fiszka.category1} #${fiszka.category1}`;
@@ -15555,13 +15592,19 @@ const intervalId = setInterval(scheduleNotification, 60000);
                 console.log('hej200', third);
 
             }
+
+            console.log("Trening clicked on fiszka nr " + fiszka.id);
+            console.log("lessonId2:", lessonId2);
+            console.log("nazwa", lessons2b[2]);
             // Wyswietlenie danej wartości img dla danej fiszka.id
             const specificLesson2 = specificLesson2Ref || initialSpecificLesson2Ref;
             console.log("img dla fiszki o id", fiszka.id, ":", specificLesson2);
             specificLesson2Ref = fiszka.img;
+            // Znajdź indeks dla danej fiszki w tablicy lessons2[lessonId2]
+            console.log('story55', specificLesson2Ref);
             // Używamy lastClickedIndex zamiast index
             imgIndex = showStory(lastClickedIndex); // Wywołanie funkcji showStory i zapisanie zwróconego indeksu obrazka
-
+            console.log('działa', specificLesson2Ref);
             aktywujObrazek(first, second, third, specificLesson2, 'obrazek-container2b', true, fiszka, imgIndex); // Przekazanie imgIndex do funkcji aktywujObrazek
             // Dodajemy zatwierdzony indeks do tablicy
             approvedIndexes.push(lastClickedIndex);
@@ -15596,6 +15639,7 @@ const intervalId = setInterval(scheduleNotification, 60000);
   window._wsPlayers = window._wsPlayers || [];
 
   if (!(fiszka && (fiszka.word2 || fiszka.word3 || fiszka.word4))) return;
+  console.log('Ładuję frazy dla fiszki ID:', fiszka.id);
 
   const phrasesButton = $('<button>')
     .addClass('phrases-button')
@@ -15837,7 +15881,9 @@ $('.grid-containerb').append(fiszkaContainer);
 
 }
 function generateFiszkaBlock2(fiszka, lessonId2) {
+    console.log('hej555xxv', fiszka);
     var currentStoryButtonName = ''; // Zmienna lokalna
+    console.log(`Generating fiszka block for ID: [${fiszka.id.join(', ')}]`);
 
     // Tworzenie kontenera fiszki
 
@@ -15867,6 +15913,8 @@ function generateFiszkaBlock2(fiszka, lessonId2) {
             pButton.style.alignItems = 'center';
             pButton.style.justifyContent = 'center';
             pButton.style.overflow = 'hidden';    // Ukrycie nadmiarowego kontentu
+            console.log('Initialized audio element with ID:', audioId);
+            console.log('Initialized play/pause button with ID:', pButtonId);
 
             // Play and Pause
             function playb() {
@@ -15888,10 +15936,13 @@ function generateFiszkaBlock2(fiszka, lessonId2) {
             // Gets audio file duration
             music.addEventListener("canplaythrough", function () {
                 var duration = music.duration;
+                console.log('Audio duration:', duration);
             }, false);
 
             // Dodajemy event listener do przycisku play/pause
             pButton.addEventListener('click', playb);
+
+            console.log('Audio initialization completed.');
         }
 
 // TWORZENIE KONTENERA FISZKI
@@ -15948,6 +15999,7 @@ function generateFiszkaBlock2(fiszka, lessonId2) {
         fiszkaContainer.append(imgContainer); //DODANIE OBRAZKA
 
         const selectedLikes = [];
+        console.log('hej10', selectedLikes);
 
 // Funkcja do obsługi kliknięcia na przycisk "likeButton"
         function handleLikeButtonClick(index) {
@@ -16071,7 +16123,8 @@ function generateFiszkaBlock2(fiszka, lessonId2) {
 // Funkcja do zapisywania wybranego "like"
         function saveSelectedLike(selectedLike, text) {
             // Tutaj możesz zapisać wybrany "like" w odpowiednim kontekście, np. wysłać go na serwer, zapisać w lokalnym magazynie itp.
-
+            console.log('Wybrany like:', text);
+            console.log('Tekst:', text);
             // Jeśli chcesz użyć go w innych miejscach, możesz przekazać go jako argument do innych funkcji lub zmiennych.
         }
 
@@ -16122,10 +16175,12 @@ function generateFiszkaBlock2(fiszka, lessonId2) {
                 imgIndex = Math.min(index, fiszka.img.length - 1);
                 currentFiszka.find('.fiszka_img').eq(imgIndex).show();
                 specificLesson2Ref = fiszka.img[imgIndex];
+                console.log("Index obrazka:", imgIndex);
             } else {
                 imgIndex = 0; // Ustawienie imgIndex na 0, gdy fiszka.img nie jest tablicą
                 currentFiszka.find('.fiszka_img').eq(imgIndex).show();
                 specificLesson2Ref = fiszka.img;
+                console.log("Index obrazka:", imgIndex);
             }
 
             lastClickedIndex = index;

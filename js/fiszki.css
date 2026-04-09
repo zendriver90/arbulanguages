@@ -307,9 +307,12 @@ story_button {
 }
                 .fiszka {
     position: absolute;
+        top: 0;
+    left: 0;
+    overflow: visible; /* 🔥 zamiast hidden */
     padding: 10px;
+    top: -260px;
     left: 180px;
-    top: 205px;
         width: 160px;
     margin: 5px;
     background-color: white;
@@ -322,9 +325,9 @@ story_button {
 }
                 .parzysta {
     position: absolute;
+    overflow: visible; /* 🔥 zamiast hidden */
     padding: 10px;
     left: -190px;
-        top: 250px;
     width: 170px;
     margin: 5px;
     background-color: white;
@@ -335,10 +338,10 @@ story_button {
     font-family: Arial, sans-serif;
     color: #333;
 }
+
     .fiszka_story {
         display: block;
         margin-top: 15px;
-        font-size: 40px;
         text-align: center;
     }
 .fiszka.active2 {
@@ -462,9 +465,9 @@ button.fiszka_button {
 }
 
 button.story_button {
-    border-radius: 15px;
+    border-radius: 10px;
     padding: 5px 5px;
-    font-size: 5px;
+    font-size: 10px;
     width: auto;
     max-width: 100%;
     box-sizing: border-box;
