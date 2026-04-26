@@ -1,5 +1,6 @@
 
 
+
 <!DOCTYPE html>
 <html>
     <head>
@@ -10,9 +11,6 @@
         <link rel="stylesheet" type="text/css" href="css/styl7.css">
         <link rel="stylesheet" type="text/css" href="js/audioaudio.css">
         <link rel="stylesheet" type="text/css" href="css/1nowe-pc.css">
-        <script src="js/story.js"></script>
-        <script src="js/storage.js"></script>
-<script src="testowyb5.js"></script>
         <script src="js/story.js"></script>
         <script src="js/storage.js"></script>
         <script src="testowy10.js"></script>
@@ -26,13 +24,28 @@
         <meta name="keywords" content="naucz się angielskiego, 1000 angielskich słów, szybka nauka angielskiego, jak nauczyć się angielskiego, jak szybko nauczyć się języka, nauka angielskiego z przyjemnością" />
         <style>
             @media (min-width: 999px) {
-.tts-word {
-    padding: 2px 4px;
-    border-radius: 4px;
+.dynamic-div {
+    cursor: pointer;
+    padding: 10px;
+    background: #e8f5e9;
+    border: 1px solid #81c784;
+    border-radius: 8px;
+    text-align: center;
+    transition: 0.2s;
 }
 
-.tts-active {
-    background: #7CFF7C;
+.dynamic-div:hover {
+    background: #c8e6c9;
+}
+                .word-fiszka-wrapper {
+    position: absolute;
+    bottom: 0;
+    right: -140px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px; /* odstęp między word a fiszką */
 }
                 .thumb-czas {
     font-size: 12px;
@@ -641,7 +654,7 @@ span.highlight {
     min-height: 220px;
     height: auto;
     margin-bottom: 0px;
-    align-items: center;
+    align-items: stretch; /* 🔥 zmiana */
     font-size: 10px;
     margin-top: 10px;
 }
@@ -676,7 +689,30 @@ span.highlight {
                     margin-top: 10px;
                     order: -1; /* Kolejność odwrotna - spycha w dół */
                 }
+.wordDisplay {
+    position: absolute;
+    bottom: 250px;
+    cursor: pointer;
+    font-size: 18px;
+    width: 130px;
+    height: 27px;
+    text-align: center;
+    line-height: 30px;
+    color: black;
+    z-index: 101;
+    border-radius: 8px;
+    border: 2px solid black;
+}
 
+.wordDisplay-even {
+    left: -160px;
+    background-color: lightgray;
+}
+
+.wordDisplay-odd {
+    left: -100px; /* inna pozycja dla nieparzystych */
+    background-color: lightblue;
+}
                 .image-container5 {
                     display: flex;
                     flex-direction: column;
@@ -787,7 +823,7 @@ span.highlight {
                     z-index: 99999; /* Wyższy z-index, aby przycisk był na wierzchu */
                 }
                 .dynamic-div {
-                    position: absolute;
+                    position: relative;
                     bottom: 5px; /* Ustawienie w dowolnym miejscu w kontenerze */
                     left: 10px;
                     font-size: 15px;
@@ -1120,6 +1156,13 @@ span.highlight {
 }
             }
             @media (max-width: 999px) {
+.word-fiszka-wrapper {
+    left: 10px;
+    top: -200px;
+    position: relative;
+    min-height: 0px; /* albo tyle, ile potrzebujesz dla fiszek */
+    width: 100%;       /* zajmuje całą szerokość container */
+}
                 .thumb-czas {
     font-size: 7px;
     font-weight: bold;
@@ -1427,18 +1470,16 @@ input {
     width: 100%;
     z-index: 9999;
 }
-.image-container3b {
-    position: relative;            /* aby absolutne elementy wewnątrz były względem tego kontenera */
-    display: flex;
-    flex-direction: column;        /* kolumnowo, ale nie wpływa na absolutne elementy */
-    align-items: center;
-    width: 100%;
-    box-sizing: border-box;
-    background-color: blue;
-    font-size: 16px;
-    z-index: 10000;
-    overflow: visible;             /* 🔑 pozwala wychodzić absolutnym elementom poza kontener */
-}
+    .image-container3b {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        box-sizing: border-box;
+        background-color: blue;
+        font-size: 16px;
+        z-index: 10000;
+    }
                 .run-button4 {
     position: absolute;
     z-index: 99999;
@@ -1512,7 +1553,30 @@ input {
                     order: -1; /* Kolejność odwrotna - spycha w dół */
                     z-index: 110;
                 }
+.wordDisplay {
+    position: absolute;
+    bottom: 250px;
+    cursor: pointer;
+    font-size: 18px;
+    width: 130px;
+    height: 27px;
+    text-align: center;
+    line-height: 30px;
+    color: black;
+    z-index: 101;
+    border-radius: 8px;
+    border: 2px solid black;
+}
 
+.wordDisplay-even {
+    left: -160px;
+    background-color: lightgray;
+}
+
+.wordDisplay-odd {
+    left: 200px; /* inna pozycja dla nieparzystych */
+    background-color: lightblue;
+}
 /* Parzyste → lewa strona kontenera */
 .word-left {
     margin-left: -350px;
@@ -2293,7 +2357,6 @@ input {
                 </div><br>
                 <div id="matchingButtonsContainer" style="margin-top: 10px;"></div>
                 <p id="key3Result"></p>
-                <button class="left-button2">+<br></button>TE LEKCJE MAJĄ DOSTĘPNE SKOJARZENIA W WIĘKSZYM ZAKRESIE TEMATÓW (DZIAŁA)
 <div class="user-cards" data-user-cards-container></div>
 
 
@@ -2322,16 +2385,25 @@ input {
         <div class="toggle-button" id="toggleButton">
             <span id="arrow">&#9660;</span> <!-- Strzałka skierowana w dół -->
         </div>
-
+<div id="wordCounterBox" style="
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    background: black;
+    color: #00ff7f;
+    padding: 10px 15px;
+    border-radius: 10px;
+    font-size: 18px;
+    z-index: 9999;
+">
+    Przejrzane słowa: <span id="wordCounter">0</span>
+</div>                                                                                        <script src="start/miniatury-prezentacja.js"></script>
+    
         <script>
             const SIGNED_TOKEN = "dummySignedToken";
                         const tablica10 = [];
                         const tablica10a = [];
                         const tablica11 = [];
-// Dodaj przycisk do kontenera
-$(".grid-container").append(`
-    <button id="startButton" class="floating-btn">▶ Start Arbu świat</button>
-`);
 
 // Nadaj mu styl, żeby był "pływający"
 $(".floating-btn").css({
@@ -2388,7 +2460,20 @@ function getUniqueWordArray(fiszkiArray) {
   return words;
 }
 
-const uniqueWords = getUniqueWordArray(fiszki10);
+function showUniqueWordsUpToLesson73() {
+
+  // 🔥 od początku do 73
+  const filtered = fiszki10.filter(f => 
+    f.id && f.id[0] <= 73
+  );
+
+  const uniqueWords = getUniqueWordArray(filtered);
+
+  document.getElementById('wordCounter').textContent = uniqueWords.length;
+
+  console.log("unikalne słowa:", uniqueWords);
+}
+showUniqueWordsUpToLesson73();
 
 // 👇 najczytelniejszy sposób — TABELA
 console.table('słowa', uniqueWords);
@@ -3139,6 +3224,7 @@ function findMatchingFiszkiCount(category, fiszki) {
                 category = category || globalCategory;
                 czasv2 = czas;
                 number;
+
                        console.log('Liczba5', index55, index77); // Dodano log licznika losowań
                 console.log('hej108n', number);
                 console.log("Wybrany rodzaj słownictwa:vv ", selectedCategory);
@@ -3547,7 +3633,7 @@ if (myVariable.length > 0) {
                             console.log('Liczba losowań:', losowaniaCounter); // Dodano log licznika losowań
 
 
-                            if ((tablica15.length <= 5 || tablica15.length === 0)) {
+                            if ((tablica15.length <= 51 || tablica15.length === 0)) {
                                 console.log('wykonuje się 8');
 
                                 showCombinedSentenceForLesson2(isSearching, selectedCategory, polski, index50, matchingIndexes, lessonId1, newIndex, indexDiv, lesson1PartLength, matchingLessons5b);
@@ -3880,24 +3966,28 @@ console.log('wykonuje się12b', index50, index70, number);
                             }
                           
 
-                            if (indexDiv <= 6) {
-        showCombinedSentenceForLesson22b(
-            selectedCategory, matchingIndexes3, rodzaj, matchingIndexes2,
-            buttonindex, index55, index77, lessonId1, lessonId2, lessonId3, fiszki, matchingIndexes,
-            startIndex, newIndex, indexDiv,
-            lessonsArray, lesson1PartLength, lesson2PartLength, lesson3PartLength,
-            lesson1Sentences, lesson2Sentences, lesson3Sentences,
-            lesson1FirstPartLength, lesson2FirstPartLength, lesson3FirstPartLength,
-            lesson1SecondPartLength, lesson2SecondPartLength, lesson3SecondPartLength,
-            cumulativeFirstPartLength1, cumulativeFirstPartLength2, cumulativeFirstPartLength3,
-            lessonsArrayZ, matchingLessons5, matchingLessons5b, isSearching
-        );
-                    }
+if (indexDiv <= 45) {
+
+    showCombinedSentenceForLesson22b(
+        selectedCategory, matchingIndexes3, rodzaj, matchingIndexes2,
+        buttonindex, index55, index77, lessonId1, lessonId2, lessonId3, fiszki, matchingIndexes,
+        startIndex, newIndex, indexDiv,
+        lessonsArray, lesson1PartLength, lesson2PartLength, lesson3PartLength,
+        lesson1Sentences, lesson2Sentences, lesson3Sentences,
+        lesson1FirstPartLength, lesson2FirstPartLength, lesson3FirstPartLength,
+        lesson1SecondPartLength, lesson2SecondPartLength, lesson3SecondPartLength,
+        cumulativeFirstPartLength1, cumulativeFirstPartLength2, cumulativeFirstPartLength3,
+        lessonsArrayZ, matchingLessons5, matchingLessons5b, isSearching,
+        null
+    );
+
+}
                     }
                         console.log('Aktualna zawartość tablicy lessonsArray:', lessonsArray);
                         const numberOfContainers = $('.image-container3').length;
                         console.log('Liczba dodanych divów:', numberOfContainers);
                     }
+
                 }
 
                 if (czas === 'zdania' && czas !== 'fiszki' && !isSearching) {
@@ -4040,10 +4130,56 @@ console.log('wykonuje się12b', index50, index70, number);
                         }
                     }
                 }
+                const viewedLessons = new Set();
+function updateVisibleLessons() {
 
+    $('.image-container3b').each(function () {
+
+        const rect = this.getBoundingClientRect();
+
+        const isVisibleInViewport =
+            rect.bottom > 0 &&
+            rect.top < window.innerHeight &&
+            rect.width > 0 &&
+            rect.height > 0;
+
+        if (!isVisibleInViewport) return;
+
+        const lesson = Number($(this).attr('data-lesson'));
+
+        if (!isNaN(lesson)) {
+            viewedLessons.add(lesson);
+        }
+    });
+
+    const visibleLessonsArr = Array.from(viewedLessons);
+
+    if (visibleLessonsArr.length === 0) return;
+
+    const lastLesson = visibleLessonsArr[visibleLessonsArr.length - 1];
+
+    const endY = lastLesson * 3;
+
+    const lessonFiszki = fiszki10.filter(f => {
+        const y = f.id[1];
+        return y <= endY;
+    });
+
+    // 🔥 KLUCZOWA CZĘŚĆ
+    const uniqueWords = getUniqueWordArray(lessonFiszki);
+    const x = uniqueWords.length;
+
+    console.log('hej33 x =', x);
+
+    $('#wordCounter').text(x);
+}
+                        $(window).on('scroll', function () {
+    updateVisibleLessons();
+});
+updateVisibleLessons();
             }
             </script>
-                                                                                        <script src="start/miniatury-prezentacja.js"></script>
+
                                 <script src="displayx3.js"></script>
                                     <script src="nowydzialajacy.js"></script>
         <script src="displayx1.js"></script>

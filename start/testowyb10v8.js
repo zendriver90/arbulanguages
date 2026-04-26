@@ -6,7 +6,7 @@ fiszki10.push(
             217
         ],
         img: [
-            "https://www.arbulang.com/img/fiszki1/700a.jpg"
+            "http://localhost/arbulanguage.com/img/fiszki1/700a.jpg"
         ],
         story: [
             "W tych <u><b>slip</u></b>ach dobrze się <u><b>śpi</u></b>"
@@ -30,7 +30,7 @@ fiszki10.push(
             218
         ],
         img: [
-            "https://www.arbulang.com/img/fiszki1/254a.jpg"
+            "http://localhost/arbulanguage.com/img/fiszki1/254a.jpg"
         ],
         story: [
             "<u><b>In</u></b>trowertyk lubi przesiadywać <u><b>w</u></b> swoim umyśle"
@@ -54,7 +54,7 @@ fiszki10.push(
             218
         ],
         img: [
-            "https://www.arbulang.com/img/fiszki1/702a.jpg"
+            "http://localhost/arbulanguage.com/img/fiszki1/702a.jpg"
         ],
         story: [
             "Dziecko Kowlaskich <u><b>Kri</u></b>s bardzo lubi być kołysany w <u><b>kołysce</u></b>"
@@ -78,19 +78,19 @@ fiszki10.push(
             219
         ],
         img: [
-                "https://www.arbulang.com/img/fiszki1/7a.jpg",
-                "https://www.arbulang.com/img/fiszki1/7b.jpg",
-                "https://www.arbulang.com/img/fiszki1/7c.jpg",
-                "https://www.arbulang.com/img/fiszki1/7d.jpg",
-                "https://www.arbulang.com/img/fiszki1/7e.jpg"
+                "http://localhost/arbulanguage.com/img/fiszki1/7a.jpg",
+                "http://localhost/arbulanguage.com/img/fiszki1/7b.jpg",
+                "http://localhost/arbulanguage.com/img/fiszki1/7c.jpg",
+                "http://localhost/arbulanguage.com/img/fiszki1/7d.jpg",
+                "http://localhost/arbulanguage.com/img/fiszki1/7e.jpg"
         ],
         translate: "Kupiłem mleko w sklepie",
         translateb: "[]",
         translateb2: "[]",
-        srcWord: ["https://www.arbulang.com/filmy/newspaper.mp4", "Kevin sam w domu (1990)"],
-        srcWordimage: "https://www.arbulang.com/filmy/newspaper.png",
+        srcWord: ["http://localhost/arbulanguage.com/filmy/newspaper.mp4", "Kevin sam w domu (1990)"],
+        srcWordimage: "http://localhost/arbulanguage.com/filmy/newspaper.png",
         word: [
-            "https://www.arbulang.com/voice/bike.mp4"
+            "http://localhost/arbulanguage.com/voice/bike.mp4"
         ],
         story: [
                 'To właśnie <u><b>on</u></b> jest <span class="adannotation" data-annotation="1"><b><u>hi</b></u></span>tem tego sezonu piłkarskiego',
@@ -119,7 +119,7 @@ fiszki10.push(
             219
         ],
         img: [
-            "https://www.arbulang.com/img/fiszki1/678a.jpg"
+            "http://localhost/arbulanguage.com/img/fiszki1/678a.jpg"
         ],
         story: [
             "Kupił, ale się <u><b>'boł'</u></b> <u><b>t</u></b>ak dużo zapłacić"
@@ -144,7 +144,7 @@ fiszki10.push(
             219
         ],
         img: [
-            "https://www.arbulang.com/img/fiszki1/705a.jpg"
+            "http://localhost/arbulanguage.com/img/fiszki1/705a.jpg"
         ],
         story: [
             "Czekolada <u><b>milk</u></b>a z dodatkiem <u><b>mleka</u></b> jest wyjątkowo dobra"
@@ -169,16 +169,16 @@ fiszki10.push(
             220
         ],
         img: [
-            "https://www.arbulang.com/img/fiszki1/4a.jpg",
-            "https://www.arbulang.com/img/fiszki1/4b.jpg",
-            "https://www.arbulang.com/img/fiszki1/4c.jpg",
-            "https://www.arbulang.com/img/fiszki1/4d.jpg",
-            "https://www.arbulang.com/img/fiszki1/4e.jpg"
+            "http://localhost/arbulanguage.com/img/fiszki1/4a.jpg",
+            "http://localhost/arbulanguage.com/img/fiszki1/4b.jpg",
+            "http://localhost/arbulanguage.com/img/fiszki1/4c.jpg",
+            "http://localhost/arbulanguage.com/img/fiszki1/4d.jpg",
+            "http://localhost/arbulanguage.com/img/fiszki1/4e.jpg"
         ],
         word: [
-            "https://www.arbulang.com/src/at.wav"
+            "http://localhost/arbulanguage.com/src/at.wav"
         ],
-        srcWord2: ["https://www.arbulang.com/filmy/procedure.mp4", "Breaking Bad"],
+        srcWord2: ["http://localhost/arbulanguage.com/filmy/procedure.mp4", "Breaking Bad"],
         translateb2: "[at de party]",
         story: [
             '<u><b>W tym</u></b> <span class="adannotation" data-annotation="1"><u><b>at</u></b></span>elcie jest dużo siły',
@@ -206,7 +206,7 @@ fiszki10.push(
             220
         ],
         img: [
-            "https://www.arbulang.com/img/fiszki1/707a.jpg"
+            "http://localhost/arbulanguage.com/img/fiszki1/707a.jpg"
         ],
         story: [
             "<u><b>Szop</u></b> Pracz - tak nazywa się nasz ulubiony <u><b>sklep</u></b>"
@@ -230,19 +230,19 @@ fiszki10.push(
             221
         ],
         img: [
-                "https://www.arbulang.com/img/fiszki1/7a.jpg",
-                "https://www.arbulang.com/img/fiszki1/7b.jpg",
-                "https://www.arbulang.com/img/fiszki1/7c.jpg",
-                "https://www.arbulang.com/img/fiszki1/7d.jpg",
-                "https://www.arbulang.com/img/fiszki1/7e.jpg"
+                "http://localhost/arbulanguage.com/img/fiszki1/7a.jpg",
+                "http://localhost/arbulanguage.com/img/fiszki1/7b.jpg",
+                "http://localhost/arbulanguage.com/img/fiszki1/7c.jpg",
+                "http://localhost/arbulanguage.com/img/fiszki1/7d.jpg",
+                "http://localhost/arbulanguage.com/img/fiszki1/7e.jpg"
         ],
         translate: "On otwiera okno każdego ranka",
         translateb: "[]",
         translateb2: "[]",
-        srcWord: ["https://www.arbulang.com/filmy/lekcja41/openwindow.mp4", "Dwunastu gniewnych ludzi (1957)"],
-        srcWordimage: "https://www.arbulang.com/filmy/lekcja41/openwindow.png",
+        srcWord: ["http://localhost/arbulanguage.com/filmy/lekcja41/openwindow.mp4", "Dwunastu gniewnych ludzi (1957)"],
+        srcWordimage: "http://localhost/arbulanguage.com/filmy/lekcja41/openwindow.png",
         word: [
-            "https://www.arbulang.com/voice/bike.mp4"
+            "http://localhost/arbulanguage.com/voice/bike.mp4"
         ],
         story: [
                 'To właśnie <u><b>on</u></b> jest <span class="adannotation" data-annotation="1"><b><u>hi</b></u></span>tem tego sezonu piłkarskiego',
@@ -271,7 +271,7 @@ fiszki10.push(
             221
         ],
         img: [
-            "https://www.arbulang.com/img/fiszki1/709a.jpg"
+            "http://localhost/arbulanguage.com/img/fiszki1/709a.jpg"
         ],
         story: [
             "<u><b>Oooł</u></b>, ta <u><b>pens</u></b>eta służy do operacji na <u><b>otwartym</u></b> sercu"
@@ -296,9 +296,9 @@ fiszki10.push(
             221
         ],
         img: [
-            "https://www.arbulang.com/img/fiszki1/570a.jpg",
-            "https://www.arbulang.com/img/fiszki1/570b.jpg",
-            "https://www.arbulang.com/img/fiszki1/570c.jpg"
+            "http://localhost/arbulanguage.com/img/fiszki1/570a.jpg",
+            "http://localhost/arbulanguage.com/img/fiszki1/570b.jpg",
+            "http://localhost/arbulanguage.com/img/fiszki1/570c.jpg"
         ],
         story: [
             "Mój windows (<u><b>łindow</u></b>s) jest na biórku przy oknie",
@@ -324,7 +324,7 @@ fiszki10.push(
             121,
             222
         ],
-        img: "https://www.arbulang.com/img/fiszki1/324a.jpg",
+        img: "http://localhost/arbulanguage.com/img/fiszki1/324a.jpg",
         story: "Prawie <u><b>każdy</u></b> robi błąd na tym zagraniu. <u><b>Ew</u></b>identnie trudny element gry w piłkę. Dobrze potrafi to zrobić tylko dob<u><b>ry</u></b> zawodnik",
         desc: "every[ewry] - każdy",
         sentence2: [
@@ -345,7 +345,7 @@ fiszki10.push(
             222
         ],
         img: [
-            "https://www.arbulang.com/img/fiszki1/332a.jpg"
+            "http://localhost/arbulanguage.com/img/fiszki1/332a.jpg"
         ],
         story: [
             "Mój brat, ta z<u><b>mor</u></b>a wstaje najwcześniej <u><b>rano</u></b>. <u><b>Ni</u></b>kogo nie budzi i tańczy swi<u><b>ng</u></b>"
@@ -369,15 +369,15 @@ fiszki10.push(
             223
         ],
         img: [
-                "https://www.arbulang.com/img/fiszki1/499a.jpg"
+                "http://localhost/arbulanguage.com/img/fiszki1/499a.jpg"
         ],
         translate: "Rzeka płynie w pobliżu mojego domu",
         translateb: "[]",
         translateb2: "[]",
-        srcWord: ["https://www.arbulang.com/filmy/newspaper.mp4", "Kevin sam w domu (1990)"],
-        srcWordimage: "https://www.arbulang.com/filmy/newspaper.png",
+        srcWord: ["http://localhost/arbulanguage.com/filmy/newspaper.mp4", "Kevin sam w domu (1990)"],
+        srcWordimage: "http://localhost/arbulanguage.com/filmy/newspaper.png",
         word: [
-            "https://www.arbulang.com/voice/bike.mp4"
+            "http://localhost/arbulanguage.com/voice/bike.mp4"
         ],
         story: [
                 'K<u><b>ri</u></b>s przyjechał sobie nad <u><b>rzekę</u></b> w swoje ulubione miejsce - i siedzi sobie obok rzeki na <u><b>wer</u></b>salce'
@@ -401,7 +401,7 @@ fiszki10.push(
             223
         ],
         img: [
-            "https://www.arbulang.com/img/fiszki1/714a.jpg"
+            "http://localhost/arbulanguage.com/img/fiszki1/714a.jpg"
         ],
         story: [
             "<u><b>Flo</u></b>ta marynarki wojennej przepływa sobie <u><b>ł</u></b>adnie i <u><b>s</u></b>pokojnie"
@@ -425,7 +425,7 @@ fiszki10.push(
             224
         ],
         img: [
-            "https://www.arbulang.com/img/fiszki1/568a.jpg"
+            "http://localhost/arbulanguage.com/img/fiszki1/568a.jpg"
         ],
         story: [
             "<u><b>Ni</u></b>na i <u><b>R</u></b>obert są <u><b>w pobliżu</u></b> pasma górskiego"
@@ -449,9 +449,9 @@ fiszki10.push(
             224
         ],
         img: [
-                "https://www.arbulang.com/img/fiszki1/50aa.jpg",
-                "https://www.arbulang.com/img/fiszki1/50bb.jpg",
-                "https://www.arbulang.com/img/fiszki1/50cc.jpg"
+                "http://localhost/arbulanguage.com/img/fiszki1/50aa.jpg",
+                "http://localhost/arbulanguage.com/img/fiszki1/50bb.jpg",
+                "http://localhost/arbulanguage.com/img/fiszki1/50cc.jpg"
         ],
         story: [
                 "W <b><u>maj</b></u>u kwitną <b><u>moje</b></u> ulubione kwiaty",
@@ -477,7 +477,7 @@ fiszki10.push(
             122,
             224
         ],
-        img: "https://www.arbulang.com/img/fiszki1/296a.jpg",
+        img: "http://localhost/arbulanguage.com/img/fiszki1/296a.jpg",
         story: "Spotkałem kolegę... je<b><u>chał</b></u> pro<b><u>s</b></u>to do domu",
         desc: "house[hałs] - dom",
         sentence2: [
@@ -498,15 +498,15 @@ fiszki10.push(
             123,
             225
         ],
-        img: "https://www.arbulang.com/img/fiszki1/131a.jpg",
+        img: "http://localhost/arbulanguage.com/img/fiszki1/131a.jpg",
         translate: "Oglądaliśmy gwiazdy zeszłej nocy",
         translateb: "[Łi łocztd de stars last najt]",
         translateb2: "[Łi łocztd de stars last najt]",
         translateb3: "We watched the stars last night",
-        srcWord: ["https://www.arbulang.com/filmy/lekcja41/stars.mp4", ""],
-        srcWordimage: "https://www.arbulang.com/filmy/lekcja41/stars.png",
+        srcWord: ["http://localhost/arbulanguage.com/filmy/lekcja41/stars.mp4", ""],
+        srcWordimage: "http://localhost/arbulanguage.com/filmy/lekcja41/stars.png",
         word: [
-            "https://www.arbulang.com/voice/bike.mp4"
+            "http://localhost/arbulanguage.com/voice/bike.mp4"
         ],
         story: "<b><u>Wi</b></u>ll Smith oznajmił, że <b><u>my</b></u> jako ludzkość mamy się dobrze",
         desc: "we[łi] - my",
@@ -529,7 +529,7 @@ fiszki10.push(
             225
         ],
         img: [
-            "https://www.arbulang.com/img/fiszki1/560a.jpg"
+            "http://localhost/arbulanguage.com/img/fiszki1/560a.jpg"
         ],
         story: [
             "Patelnia <u><b>łok</u></b> spowodowała, że po zgotowanym obiedzie <u><b>chodzę</u></b> tanecznym krokiem"
@@ -554,7 +554,7 @@ fiszki10.push(
             225
         ],
         img: [
-            "https://www.arbulang.com/img/fiszki1/720a.jpg"
+            "http://localhost/arbulanguage.com/img/fiszki1/720a.jpg"
         ],
         story: [
             ""
@@ -579,7 +579,7 @@ fiszki10.push(
             226
         ],
         img: [
-            "https://www.arbulang.com/img/fiszki1/721a.jpg"
+            "http://localhost/arbulanguage.com/img/fiszki1/721a.jpg"
         ],
         story: [
             "Poprzez wiarę w <u><b>tru</u></b>izmy przechodzimy <u><b>przez</u></b> proces przemiany wewnętrznej"
@@ -603,7 +603,7 @@ fiszki10.push(
             226
         ],
         img: [
-            "https://www.arbulang.com/img/fiszki1/722a.jpg"
+            "http://localhost/arbulanguage.com/img/fiszki1/722a.jpg"
         ],
         story: [
             "KOGNATY PARK (PL) - PARK (ENG)"
@@ -627,11 +627,11 @@ fiszki10.push(
             227
         ],
         img: [
-                "https://www.arbulang.com/img/fiszki1/7a.jpg",
-                "https://www.arbulang.com/img/fiszki1/7b.jpg",
-                "https://www.arbulang.com/img/fiszki1/7c.jpg",
-                "https://www.arbulang.com/img/fiszki1/7d.jpg",
-                "https://www.arbulang.com/img/fiszki1/7e.jpg"
+                "http://localhost/arbulanguage.com/img/fiszki1/7a.jpg",
+                "http://localhost/arbulanguage.com/img/fiszki1/7b.jpg",
+                "http://localhost/arbulanguage.com/img/fiszki1/7c.jpg",
+                "http://localhost/arbulanguage.com/img/fiszki1/7d.jpg",
+                "http://localhost/arbulanguage.com/img/fiszki1/7e.jpg"
         ],
         translate: "On pije wodę po swoim biegu",
         translateb: "[]",
@@ -639,7 +639,7 @@ fiszki10.push(
         srcWord: ["http://localhost/arbulanguage.com/filmy/lekcja42/water.mp4", "Gazu, mięczaku, gazu! (2007)"],
         srcWordimage: "http://localhost/arbulanguage.com/filmy/lekcja42/water.png",
         word: [
-            "https://www.arbulang.com/voice/bike.mp4"
+            "http://localhost/arbulanguage.com/voice/bike.mp4"
         ],
         story: [
                 'To właśnie <u><b>on</u></b> jest <span class="adannotation" data-annotation="1"><b><u>hi</b></u></span>tem tego sezonu piłkarskiego',
@@ -668,7 +668,7 @@ fiszki10.push(
             227
         ],
         img: [
-            "https://www.arbulang.com/img/fiszki1/724a.jpg"
+            "http://localhost/arbulanguage.com/img/fiszki1/724a.jpg"
         ],
         story: [
             "KOGNATY DRINKOWAĆ (PL) - DRINKS (ENG)"
@@ -693,7 +693,7 @@ fiszki10.push(
             227
         ],
         img: [
-            "https://www.arbulang.com/img/fiszki1/698a.jpg"
+            "http://localhost/arbulanguage.com/img/fiszki1/698a.jpg"
         ],
         story: [
             "Ten postawiony p<u><b>łot</u></b> z worków ziemi (zapora) powoduje, że podczas ulew t<u><b>er</u></b>az nie spływa na posesję <u><b>woda</u></b>"
@@ -718,7 +718,7 @@ fiszki10.push(
             228
         ],
         img: [
-            "https://www.arbulang.com/img/fiszki1/637a.jpg"
+            "http://localhost/arbulanguage.com/img/fiszki1/637a.jpg"
         ],
         story: [
             "Zaraz <u><b>po</u></b> wypaleniu się n<u><b>aft</u></b>y w średniowiecznej lampy - kiedy jej stan był z<u><b>er</u></b>o, była uzupełniana"
@@ -743,11 +743,11 @@ fiszki10.push(
             228
         ],
         img: [
-            "https://www.arbulang.com/img/fiszki1/48aa1.jpg",
-            "https://www.arbulang.com/img/fiszki1/48aa2.jpg",
-            "https://www.arbulang.com/img/fiszki1/48aa.jpg",
-            "https://www.arbulang.com/img/fiszki1/106b.jpg",
-            "https://www.arbulang.com/img/fiszki1/48aa5.jpg"
+            "http://localhost/arbulanguage.com/img/fiszki1/48aa1.jpg",
+            "http://localhost/arbulanguage.com/img/fiszki1/48aa2.jpg",
+            "http://localhost/arbulanguage.com/img/fiszki1/48aa.jpg",
+            "http://localhost/arbulanguage.com/img/fiszki1/106b.jpg",
+            "http://localhost/arbulanguage.com/img/fiszki1/48aa5.jpg"
         ],
         story: [
             "Pre<b><u>his</b></u>toryczny dinozaur z <b><u>jego</b></u> sprawnością mógłby spokojnie pokonać niedźwiedzia",
@@ -776,7 +776,7 @@ fiszki10.push(
             228
         ],
         img: [
-            "https://www.arbulang.com/img/fiszki1/728a.jpg"
+            "http://localhost/arbulanguage.com/img/fiszki1/728a.jpg"
         ],
         story: [
             "Pomimo <b><u>ran</b></u> na stopach zawodnik <b><u>biegnie</b></u> do mety"
@@ -801,9 +801,9 @@ fiszki10.push(
             229
         ],
         img: [
-            "https://www.arbulang.com/img/fiszki1/50aa.jpg",
-            "https://www.arbulang.com/img/fiszki1/50bb.jpg",
-            "https://www.arbulang.com/img/fiszki1/50cc.jpg"
+            "http://localhost/arbulanguage.com/img/fiszki1/50aa.jpg",
+            "http://localhost/arbulanguage.com/img/fiszki1/50bb.jpg",
+            "http://localhost/arbulanguage.com/img/fiszki1/50cc.jpg"
         ],
         story: [
             "W <b><u>maj</b></u>u kwitną <b><u>moje</b></u> ulubione kwiaty",
@@ -816,7 +816,7 @@ fiszki10.push(
         srcWord: ["http://localhost/arbulanguage.com/filmy/lekcja42/grandma.mp4", "Kevin sam w domu (1990)"],
         srcWordimage: "http://localhost/arbulanguage.com/filmy/lekcja42/grandma.png",
         word: [
-            "https://www.arbulang.com/voice/bike.mp4"
+            "http://localhost/arbulanguage.com/voice/bike.mp4"
         ],
         desc: "my[maj] - moje",
         sentence1: [
@@ -838,7 +838,7 @@ fiszki10.push(
             229
         ],
         img: [
-            "https://www.arbulang.com/img/fiszki1/730a.jpg"
+            "http://localhost/arbulanguage.com/img/fiszki1/730a.jpg"
         ],
         story: [
             "Kiedy <b><u>ciotka</b></u> coś zgubi modli się do Świętego <b><u>Ant</b></u>oniego"
@@ -863,7 +863,7 @@ fiszki10.push(
             229
         ],
         img: [
-            "https://www.arbulang.com/img/fiszki1/731a.jpg"
+            "http://localhost/arbulanguage.com/img/fiszki1/731a.jpg"
         ],
         story: [
             "Ptak <u><b>kuk</u></b>ułka nie je <u><b>gotowanego</u></b>, je <u><b>s</u></b>urowe"
@@ -887,7 +887,7 @@ fiszki10.push(
             125,
             230
         ],
-        img: "https://www.arbulang.com/img/fiszki1/118a.jpg",
+        img: "http://localhost/arbulanguage.com/img/fiszki1/118a.jpg",
         story: "Chcąc jechać <b><u>ri</b></u>kszą, kierowca zawsze bardzo <b><u>wer</b></u>yfikuje czy osoba nie jest za gruba, żeby jechać z nim",
         desc: "very[weri] - bardzo",
         sentence2: [
@@ -909,7 +909,7 @@ fiszki10.push(
             230
         ],
         img: [
-            "https://www.arbulang.com/img/fiszki1/733a.jpg"
+            "http://localhost/arbulanguage.com/img/fiszki1/733a.jpg"
         ],
         story: [
             "<b><u>Tej</b></u> ziomewej wieczornej <b><u>sty</b></u>czniowej pory jem bardzo <b><u>smaczną</b></u> kolację"
@@ -934,7 +934,7 @@ fiszki10.push(
             230
         ],
         img: [
-            "https://www.arbulang.com/img/fiszki1/555a.jpg"
+            "http://localhost/arbulanguage.com/img/fiszki1/555a.jpg"
         ],
         story: [
             "<u><b>Sup</u></b>er jest ta <u><b>zupa</u></b>"
@@ -959,19 +959,19 @@ fiszki10.push(
             231
         ],
         img: [
-                "https://www.arbulang.com/img/fiszki1/28aa.jpg",
-                "https://www.arbulang.com/img/fiszki1/28bb.jpg",
-                "https://www.arbulang.com/img/fiszki1/28cc.jpg",
-                "https://www.arbulang.com/img/fiszki1/28dd.jpg",
-                "https://www.arbulang.com/img/fiszki1/28ee.jpg"
+                "http://localhost/arbulanguage.com/img/fiszki1/28aa.jpg",
+                "http://localhost/arbulanguage.com/img/fiszki1/28bb.jpg",
+                "http://localhost/arbulanguage.com/img/fiszki1/28cc.jpg",
+                "http://localhost/arbulanguage.com/img/fiszki1/28dd.jpg",
+                "http://localhost/arbulanguage.com/img/fiszki1/28ee.jpg"
         ],
         translate: "Kot chowa się pod stołem.",
         translateb: "[]",
         translateb2: "[]",
-        srcWord: ["https://www.arbulang.com/filmy/newspaper.mp4", "Kevin sam w domu (1990)"],
-        srcWordimage: "https://www.arbulang.com/filmy/newspaper.png",
+        srcWord: ["http://localhost/arbulanguage.com/filmy/lekcja2/cat.mp4", "Superman (1978)"],
+        srcWordimage: "http://localhost/arbulanguage.com/filmy/lekcja2/cat.png",
         word: [
-            "https://www.arbulang.com/voice/bike.mp4"
+            "http://localhost/arbulanguage.com/voice/bike.mp4"
         ],
         story: [
                 "Na mojej łodzi <u><b>kat</u></b>amaran <u><b>kot</u></b> pomaga mi wiosłować",
@@ -999,7 +999,7 @@ fiszki10.push(
             231
         ],
         img: [
-            "https://www.arbulang.com/img/fiszki1/736a.jpg"
+            "http://localhost/arbulanguage.com/img/fiszki1/736a.jpg"
         ],
         story: [
             "<u><b>Haj</u></b>er przodowy - czyli górnik <u><b>ukrywa</u></b> swoje zarobki, ale często chodzi <u><b>d</u></b>o <u><b>s</u></b>klepu"
@@ -1023,8 +1023,8 @@ fiszki10.push(
             232
         ],
         img: [
-                "https://www.arbulang.com/img/fiszki1/351a.jpg",
-                "https://www.arbulang.com/img/fiszki1/351b.jpg"
+                "http://localhost/arbulanguage.com/img/fiszki1/351a.jpg",
+                "http://localhost/arbulanguage.com/img/fiszki1/351b.jpg"
         ],
         story: [
                 "<u><b>Pod</u></b> tym hasłem czyli R<u><b>ande</u></b> Wu kryje się pójście na randkę",
@@ -1049,7 +1049,7 @@ fiszki10.push(
             232
         ],
         img: [
-            "https://www.arbulang.com/img/fiszki1/660a.jpg"
+            "http://localhost/arbulanguage.com/img/fiszki1/660a.jpg"
         ],
         story: [
             "Z <u><b>tej</u></b> choroby jest najgorszy <u><b>ból</u></b>. Lekarz pokazał mi to na <u><b>tablicy</u></b>"
@@ -1073,11 +1073,11 @@ fiszki10.push(
             233
         ],
         img: [
-            "https://www.arbulang.com/img/fiszki1/19a.jpg",
-            "https://www.arbulang.com/img/fiszki1/19b.jpg",
-            "https://www.arbulang.com/img/fiszki1/19c.jpg",
-            "https://www.arbulang.com/img/fiszki1/19d.jpg",
-            "https://www.arbulang.com/img/fiszki1/19e.jpg"
+            "http://localhost/arbulanguage.com/img/fiszki1/19a.jpg",
+            "http://localhost/arbulanguage.com/img/fiszki1/19b.jpg",
+            "http://localhost/arbulanguage.com/img/fiszki1/19c.jpg",
+            "http://localhost/arbulanguage.com/img/fiszki1/19d.jpg",
+            "http://localhost/arbulanguage.com/img/fiszki1/19e.jpg"
         ],
         translate: "Zamykam drzwi przed snem",
         translateb: "[]",
@@ -1085,7 +1085,7 @@ fiszki10.push(
         srcWord: ["http://localhost/arbulanguage.com/filmy/lekcja43/door.mp4", "Matrix Reaktywacja (2003)"],
         srcWordimage: "http://localhost/arbulanguage.com/filmy/lekcja43/door.png",
         word: [
-            "https://www.arbulang.com/voice/bike.mp4"
+            "http://localhost/arbulanguage.com/voice/bike.mp4"
         ],
         story: [
             "<u><b>Ja</u></b> jestem Piotrek, mam okulary ochronne, gdy jechałem rowerem wleciała mi mucha do <u><b>oka</u></b>, krzyczałem <u><b>ajjj</u></b> - dlaczego to <u><b>mi</u></b> wleciała mucha do <u><b>oka</u></b>, <u><b>ajjj</u></b>",
@@ -1114,7 +1114,7 @@ fiszki10.push(
             233
         ],
         img: [
-            "https://www.arbulang.com/img/fiszki1/364a.jpg"
+            "http://localhost/arbulanguage.com/img/fiszki1/364a.jpg"
         ],
         story: [
             "KOGNATY PARK (PL) - PARK (ENG)"
@@ -1139,7 +1139,7 @@ fiszki10.push(
             233
         ],
         img: [
-            "https://www.arbulang.com/img/fiszki1/364a.jpg"
+            "http://localhost/arbulanguage.com/img/fiszki1/364a.jpg"
         ],
         story: [
             "KOGNATY PARK (PL) - PARK (ENG)"
@@ -1164,7 +1164,7 @@ fiszki10.push(
             234
         ],
         img: [
-            "https://www.arbulang.com/img/fiszki1/364a.jpg"
+            "http://localhost/arbulanguage.com/img/fiszki1/364a.jpg"
         ],
         story: [
             "KOGNATY PARK (PL) - PARK (ENG)"
@@ -1188,7 +1188,7 @@ fiszki10.push(
             234
         ],
         img: [
-            "https://www.arbulang.com/img/fiszki1/364a.jpg"
+            "http://localhost/arbulanguage.com/img/fiszki1/364a.jpg"
         ],
         story: [
             "KOGNATY PARK (PL) - PARK (ENG)"
@@ -1212,19 +1212,19 @@ fiszki10.push(
             235
         ],
         img: [
-                "https://www.arbulang.com/img/fiszki1/7a.jpg",
-                "https://www.arbulang.com/img/fiszki1/7b.jpg",
-                "https://www.arbulang.com/img/fiszki1/7c.jpg",
-                "https://www.arbulang.com/img/fiszki1/7d.jpg",
-                "https://www.arbulang.com/img/fiszki1/7e.jpg"
+                "http://localhost/arbulanguage.com/img/fiszki1/7a.jpg",
+                "http://localhost/arbulanguage.com/img/fiszki1/7b.jpg",
+                "http://localhost/arbulanguage.com/img/fiszki1/7c.jpg",
+                "http://localhost/arbulanguage.com/img/fiszki1/7d.jpg",
+                "http://localhost/arbulanguage.com/img/fiszki1/7e.jpg"
         ],
         translate: "Oni sadzą kwiaty w ogrodzie",
         translateb: "[]",
         translateb2: "[]",
-        srcWord: ["https://www.arbulang.com/filmy/newspaper.mp4", "Kevin sam w domu (1990)"],
-        srcWordimage: "https://www.arbulang.com/filmy/newspaper.png",
+        srcWord: ["http://localhost/arbulanguage.com/filmy/newspaper.mp4", "Kevin sam w domu (1990)"],
+        srcWordimage: "http://localhost/arbulanguage.com/filmy/newspaper.png",
         word: [
-            "https://www.arbulang.com/voice/bike.mp4"
+            "http://localhost/arbulanguage.com/voice/bike.mp4"
         ],
         story: [
                 'To właśnie <u><b>on</u></b> jest <span class="adannotation" data-annotation="1"><b><u>hi</b></u></span>tem tego sezonu piłkarskiego',
@@ -1253,7 +1253,7 @@ fiszki10.push(
             235
         ],
         img: [
-            "https://www.arbulang.com/img/fiszki1/364a.jpg"
+            "http://localhost/arbulanguage.com/img/fiszki1/364a.jpg"
         ],
         story: [
             "KOGNATY PARK (PL) - PARK (ENG)"
@@ -1278,7 +1278,7 @@ fiszki10.push(
             235
         ],
         img: [
-            "https://www.arbulang.com/img/fiszki1/364a.jpg"
+            "http://localhost/arbulanguage.com/img/fiszki1/364a.jpg"
         ],
         story: [
             "KOGNATY PARK (PL) - PARK (ENG)"
@@ -1303,7 +1303,7 @@ fiszki10.push(
             236
         ],
         img: [
-            "https://www.arbulang.com/img/fiszki1/364a.jpg"
+            "http://localhost/arbulanguage.com/img/fiszki1/364a.jpg"
         ],
         story: [
             "KOGNATY PARK (PL) - PARK (ENG)"
@@ -1327,7 +1327,7 @@ fiszki10.push(
             236
         ],
         img: [
-            "https://www.arbulang.com/img/fiszki1/364a.jpg"
+            "http://localhost/arbulanguage.com/img/fiszki1/364a.jpg"
         ],
         story: [
             "KOGNATY PARK (PL) - PARK (ENG)"
@@ -1351,7 +1351,7 @@ fiszki10.push(
             237
         ],
         img: [
-                "https://www.arbulang.com/img/fiszki1/7a.jpg"
+                "http://localhost/arbulanguage.com/img/fiszki1/7a.jpg"
         ],
         translate: "Zegar pokazuje teraz dziesiątą",
         translateb: "[]",
@@ -1359,12 +1359,12 @@ fiszki10.push(
         srcWord: ["http://localhost/arbulanguage.com/filmy/lekcja43/counting.mp4", "Kevin sam w domu (1990)"],
         srcWordimage: "http://localhost/arbulanguage.com/filmy/lekcja43/counting.png",
         word: [
-            "https://www.arbulang.com/voice/bike.mp4"
+            "http://localhost/arbulanguage.com/voice/bike.mp4"
         ],
         story: [
                 'To właśnie <u><b>on</u></b> jest <span class="adannotation" data-annotation="1"><b><u>hi</b></u></span>tem tego sezonu piłkarskiego'
         ],
-        desc: "clock[] - ",
+        desc: "clock[klok] - zegar",
         sentence1: [
             "The clock"
         ],
@@ -1386,10 +1386,10 @@ fiszki10.push(
             237
         ],
         img: [
-            "https://www.arbulang.com/img/fiszki1/364a.jpg"
+            "http://localhost/arbulanguage.com/img/fiszki1/750a.jpg"
         ],
         story: [
-            "KOGNATY PARK (PL) - PARK (ENG)"
+            "Na tym <b><u>szoł</b></u> <b><u>widać</b></u> <b><u>s</b></u>uper gwiazdorów"
         ],
         desc: "shows[] - ",
         sentence2: [
@@ -1413,7 +1413,7 @@ fiszki10.push(
             237
         ],
         img: [
-            "https://www.arbulang.com/img/fiszki1/364a.jpg"
+            "http://localhost/arbulanguage.com/img/fiszki1/751a.jpg"
         ],
         story: [
             "KOGNATY PARK (PL) - PARK (ENG)"
@@ -1435,12 +1435,12 @@ fiszki10.push(
     },
                                 {
         id: [
-            751,
+            752,
             129,
             237
         ],
         img: [
-            "https://www.arbulang.com/img/fiszki1/364a.jpg"
+            "http://localhost/arbulanguage.com/img/fiszki1/364a.jpg"
         ],
         story: [
             "KOGNATY PARK (PL) - PARK (ENG)"
@@ -1462,12 +1462,12 @@ fiszki10.push(
     },
                                 {
         id: [
-            751,
+            753,
             129,
             237
         ],
         img: [
-            "https://www.arbulang.com/img/fiszki1/364a.jpg"
+            "http://localhost/arbulanguage.com/img/fiszki1/364a.jpg"
         ],
         story: [
             "KOGNATY PARK (PL) - PARK (ENG)"
@@ -1489,24 +1489,24 @@ fiszki10.push(
     },
                                                 {
         id: [
-            752,
+            754,
             130,
             238
         ],
         img: [
-                "https://www.arbulang.com/img/fiszki1/7a.jpg",
-                "https://www.arbulang.com/img/fiszki1/7b.jpg",
-                "https://www.arbulang.com/img/fiszki1/7c.jpg",
-                "https://www.arbulang.com/img/fiszki1/7d.jpg",
-                "https://www.arbulang.com/img/fiszki1/7e.jpg"
+                "http://localhost/arbulanguage.com/img/fiszki1/7a.jpg",
+                "http://localhost/arbulanguage.com/img/fiszki1/7b.jpg",
+                "http://localhost/arbulanguage.com/img/fiszki1/7c.jpg",
+                "http://localhost/arbulanguage.com/img/fiszki1/7d.jpg",
+                "http://localhost/arbulanguage.com/img/fiszki1/7e.jpg"
         ],
         translate: "Rysuję zwierzęta na papierze",
         translateb: "[]",
         translateb2: "[]",
-        srcWord: ["http://localhost/arbulanguage.com/filmy/lekcja44/drawing.mp4", "Kevin sam w domu (1990)"],
+        srcWord: ["http://localhost/arbulanguage.com/filmy/lekcja44/drawing.mp4", "Tytanik (2022)"],
         srcWordimage: "http://localhost/arbulanguage.com/filmy/lekcja44/drawing.png",
         word: [
-            "https://www.arbulang.com/voice/bike.mp4"
+            "http://localhost/arbulanguage.com/voice/bike.mp4"
         ],
         story: [
                 'To właśnie <u><b>on</u></b> jest <span class="adannotation" data-annotation="1"><b><u>hi</b></u></span>tem tego sezonu piłkarskiego',
@@ -1530,12 +1530,12 @@ fiszki10.push(
     },
                                     {
         id: [
-            753,
+            755,
             130,
             238
         ],
         img: [
-            "https://www.arbulang.com/img/fiszki1/364a.jpg"
+            "http://localhost/arbulanguage.com/img/fiszki1/364a.jpg"
         ],
         story: [
             "KOGNATY PARK (PL) - PARK (ENG)"
@@ -1555,12 +1555,12 @@ fiszki10.push(
     },
                                     {
         id: [
-            754,
+            756,
             130,
             238
         ],
         img: [
-            "https://www.arbulang.com/img/fiszki1/364a.jpg"
+            "http://localhost/arbulanguage.com/img/fiszki1/364a.jpg"
         ],
         story: [
             "KOGNATY PARK (PL) - PARK (ENG)"
@@ -1580,12 +1580,12 @@ fiszki10.push(
     },
                                         {
         id: [
-            755,
+            757,
             130,
             239
         ],
         img: [
-            "https://www.arbulang.com/img/fiszki1/364a.jpg"
+            "http://localhost/arbulanguage.com/img/fiszki1/364a.jpg"
         ],
         story: [
             "KOGNATY PARK (PL) - PARK (ENG)"
@@ -1604,12 +1604,12 @@ fiszki10.push(
     },
                                         {
         id: [
-            756,
+            758,
             130,
             239
         ],
         img: [
-            "https://www.arbulang.com/img/fiszki1/364a.jpg"
+            "http://localhost/arbulanguage.com/img/fiszki1/364a.jpg"
         ],
         story: [
             "KOGNATY PARK (PL) - PARK (ENG)"
@@ -1628,23 +1628,23 @@ fiszki10.push(
     },
         {
         id: [
-            757,
+            759,
             131,
             240
         ],
         img: [
-            "https://www.arbulang.com/img/fiszki1/364a.jpg"
+            "http://localhost/arbulanguage.com/img/fiszki1/364a.jpg"
         ],
         story: [
             "KOGNATY PARK (PL) - PARK (ENG)"
         ],
-        translate: "Rysuję zwierzęta na papierze",
+        translate: "On wspina się na drzewo bardzo szybko",
         translateb: "[]",
         translateb2: "[]",
-        srcWord: ["http://localhost/arbulanguage.com/filmy/lekcja44/drawing.mp4", "Kevin sam w domu (1990)"],
-        srcWordimage: "http://localhost/arbulanguage.com/filmy/lekcja44/drawing.png",
+        srcWord: ["", ""],
+        srcWordimage: "",
         word: [
-            "https://www.arbulang.com/voice/bike.mp4"
+            "http://localhost/arbulanguage.com/voice/bike.mp4"
         ],
         desc: "I[aj] - ja",
         sentence1: [
@@ -1661,12 +1661,12 @@ fiszki10.push(
     },
                                             {
         id: [
-            758,
+            760,
             131,
             239
         ],
         img: [
-            "https://www.arbulang.com/img/fiszki1/364a.jpg"
+            "http://localhost/arbulanguage.com/img/fiszki1/364a.jpg"
         ],
         story: [
             "KOGNATY PARK (PL) - PARK (ENG)"
@@ -1686,12 +1686,12 @@ fiszki10.push(
     },
                                                 {
         id: [
-            759,
+            761,
             131,
             239
         ],
         img: [
-            "https://www.arbulang.com/img/fiszki1/759a.jpg"
+            "http://localhost/arbulanguage.com/img/fiszki1/759a.jpg"
         ],
         story: [
             "Zrobiłem sobie tatuaż w formie tribala na ręce"
@@ -1711,12 +1711,12 @@ fiszki10.push(
     },
                                                     {
         id: [
-            760,
+            762,
             131,
             240
         ],
         img: [
-            "https://www.arbulang.com/img/fiszki1/364a.jpg"
+            "http://localhost/arbulanguage.com/img/fiszki1/364a.jpg"
         ],
         story: [
             "KOGNATY PARK (PL) - PARK (ENG)"
@@ -1735,12 +1735,12 @@ fiszki10.push(
     },
                                                         {
         id: [
-            761,
+            763,
             131,
             240
         ],
         img: [
-            "https://www.arbulang.com/img/fiszki1/364a.jpg"
+            "http://localhost/arbulanguage.com/img/fiszki1/364a.jpg"
         ],
         story: [
             "KOGNATY PARK (PL) - PARK (ENG)"
@@ -1759,24 +1759,24 @@ fiszki10.push(
     },
         {
         id: [
-            762,
+            764,
             132,
             241
         ],
         img: [
-                "https://www.arbulang.com/img/fiszki1/7a.jpg",
-                "https://www.arbulang.com/img/fiszki1/7b.jpg",
-                "https://www.arbulang.com/img/fiszki1/7c.jpg",
-                "https://www.arbulang.com/img/fiszki1/7d.jpg",
-                "https://www.arbulang.com/img/fiszki1/7e.jpg"
+                "http://localhost/arbulanguage.com/img/fiszki1/7a.jpg",
+                "http://localhost/arbulanguage.com/img/fiszki1/7b.jpg",
+                "http://localhost/arbulanguage.com/img/fiszki1/7c.jpg",
+                "http://localhost/arbulanguage.com/img/fiszki1/7d.jpg",
+                "http://localhost/arbulanguage.com/img/fiszki1/7e.jpg"
         ],
-        translate: "Rysuję zwierzęta na papierze",
+        translate: "Jemy pizzę z naszymi przyjaciółmi",
         translateb: "[]",
         translateb2: "[]",
-        srcWord: ["http://localhost/arbulanguage.com/filmy/lekcja44/drawing.mp4", "Kevin sam w domu (1990)"],
-        srcWordimage: "http://localhost/arbulanguage.com/filmy/lekcja44/drawing.png",
+        srcWord: ["", ""],
+        srcWordimage: "",
         word: [
-            "https://www.arbulang.com/voice/bike.mp4"
+            "http://localhost/arbulanguage.com/voice/bike.mp4"
         ],
         story: [
                 'To właśnie <u><b>on</u></b> jest <span class="adannotation" data-annotation="1"><b><u>hi</b></u></span>tem tego sezonu piłkarskiego',
@@ -1800,12 +1800,12 @@ fiszki10.push(
     },
                                                             {
         id: [
-            763,
+            765,
             132,
             241
         ],
         img: [
-            "https://www.arbulang.com/img/fiszki1/763a.jpg"
+            "http://localhost/arbulanguage.com/img/fiszki1/763a.jpg"
         ],
         story: [
             "To mit, że grubemu chce się cały czas jeść"
@@ -1825,12 +1825,12 @@ fiszki10.push(
     },
                                                                 {
         id: [
-            764,
+            766,
             132,
             241
         ],
          img: [
-            "https://www.arbulang.com/img/fiszki1/364a.jpg"
+            "http://localhost/arbulanguage.com/img/fiszki1/364a.jpg"
         ],
         story: [
             "Piotrek kręci śrubę i urwał takiego pica od klucza"
@@ -1850,12 +1850,12 @@ fiszki10.push(
     },
                                                                     {
         id: [
-            765,
+            767,
             132,
             242
         ],
         img: [
-            "https://www.arbulang.com/img/fiszki1/364a.jpg"
+            "http://localhost/arbulanguage.com/img/fiszki1/364a.jpg"
         ],
         story: [
             "KOGNATY PARK (PL) - PARK (ENG)"
@@ -1875,12 +1875,12 @@ fiszki10.push(
     },
                                                                         {
         id: [
-            766,
+            768,
             132,
             242
         ],
         img: [
-            "https://www.arbulang.com/img/fiszki1/364a.jpg"
+            "http://localhost/arbulanguage.com/img/fiszki1/364a.jpg"
         ],
         story: [
             "KOGNATY PARK (PL) - PARK (ENG)"
@@ -1900,12 +1900,12 @@ fiszki10.push(
     },
                                                                         {
         id: [
-            767,
+            769,
             132,
             242
         ],
         img: [
-            "https://www.arbulang.com/img/fiszki1/364a.jpg"
+            "http://localhost/arbulanguage.com/img/fiszki1/364a.jpg"
         ],
         story: [
             "KOGNATY PARK (PL) - PARK (ENG)"
@@ -1925,24 +1925,24 @@ fiszki10.push(
     },
             {
         id: [
-            768,
+            770,
             133,
             243
         ],
         img: [
-                "https://www.arbulang.com/img/fiszki1/7a.jpg",
-                "https://www.arbulang.com/img/fiszki1/7b.jpg",
-                "https://www.arbulang.com/img/fiszki1/7c.jpg",
-                "https://www.arbulang.com/img/fiszki1/7d.jpg",
-                "https://www.arbulang.com/img/fiszki1/7e.jpg"
+                "http://localhost/arbulanguage.com/img/fiszki1/7a.jpg",
+                "http://localhost/arbulanguage.com/img/fiszki1/7b.jpg",
+                "http://localhost/arbulanguage.com/img/fiszki1/7c.jpg",
+                "http://localhost/arbulanguage.com/img/fiszki1/7d.jpg",
+                "http://localhost/arbulanguage.com/img/fiszki1/7e.jpg"
         ],
-        translate: "Rysuję zwierzęta na papierze",
+        translate: "Telefon dzwoni w kuchni",
         translateb: "[]",
         translateb2: "[]",
-        srcWord: ["http://localhost/arbulanguage.com/filmy/lekcja44/drawing.mp4", "Kevin sam w domu (1990)"],
-        srcWordimage: "http://localhost/arbulanguage.com/filmy/lekcja44/drawing.png",
+        srcWord: ["", ""],
+        srcWordimage: "",
         word: [
-            "https://www.arbulang.com/voice/bike.mp4"
+            "http://localhost/arbulanguage.com/voice/bike.mp4"
         ],
         story: [
                 'Fonia w tym smartfonie jest wyjątkowo słaba'
@@ -1961,12 +1961,12 @@ fiszki10.push(
     },
                                                                             {
         id: [
-            769,
+            771,
             133,
             243
         ],
         img: [
-            "https://www.arbulang.com/img/fiszki1/769a.jpg"
+            "http://localhost/arbulanguage.com/img/fiszki1/769a.jpg"
         ],
         story: [
             "Koło ringu jest specjalny gong"
@@ -1985,12 +1985,12 @@ fiszki10.push(
     },
                                                                                 {
         id: [
-            770,
+            772,
             133,
             244
         ],
         img: [
-            "https://www.arbulang.com/img/fiszki1/254a.jpg"
+            "http://localhost/arbulanguage.com/img/fiszki1/254a.jpg"
         ],
         story: [
             "<u><b>In</u></b>trowertyk lubi przesiadywać <u><b>w</u></b> swoim umyśle"
@@ -2009,12 +2009,12 @@ fiszki10.push(
     },
                                                                                 {
         id: [
-            771,
+            773,
             133,
             244
         ],
         img: [
-            "https://www.arbulang.com/img/fiszki1/771a.jpg"
+            "http://localhost/arbulanguage.com/img/fiszki1/771a.jpg"
         ],
         story: [
             "W kuchni mam zapałki, żeby rozpalić pod piecem i zrobić obiad. Później nim kogoś poczenstuje"
@@ -2033,24 +2033,24 @@ fiszki10.push(
     },
                 {
         id: [
-            772,
+            774,
             134,
             245
         ],
         img: [
-                "https://www.arbulang.com/img/fiszki1/7a.jpg",
-                "https://www.arbulang.com/img/fiszki1/7b.jpg",
-                "https://www.arbulang.com/img/fiszki1/7c.jpg",
-                "https://www.arbulang.com/img/fiszki1/7d.jpg",
-                "https://www.arbulang.com/img/fiszki1/7e.jpg"
+                "http://localhost/arbulanguage.com/img/fiszki1/7a.jpg",
+                "http://localhost/arbulanguage.com/img/fiszki1/7b.jpg",
+                "http://localhost/arbulanguage.com/img/fiszki1/7c.jpg",
+                "http://localhost/arbulanguage.com/img/fiszki1/7d.jpg",
+                "http://localhost/arbulanguage.com/img/fiszki1/7e.jpg"
         ],
-        translate: "Rysuję zwierzęta na papierze",
+        translate: "Ona sprząta podłogę każdego dnia",
         translateb: "[]",
         translateb2: "[]",
-        srcWord: ["http://localhost/arbulanguage.com/filmy/lekcja44/drawing.mp4", "Kevin sam w domu (1990)"],
-        srcWordimage: "http://localhost/arbulanguage.com/filmy/lekcja44/drawing.png",
+        srcWord: ["", ""],
+        srcWordimage: "",
         word: [
-            "https://www.arbulang.com/voice/bike.mp4"
+            "http://localhost/arbulanguage.com/voice/bike.mp4"
         ],
         story: [
                 'To właśnie <u><b>on</u></b> jest <span class="adannotation" data-annotation="1"><b><u>hi</b></u></span>tem tego sezonu piłkarskiego',
@@ -2074,12 +2074,12 @@ fiszki10.push(
     },
                                                                                     {
         id: [
-            773,
+            775,
             134,
             245
         ],
         img: [
-            "https://www.arbulang.com/img/fiszki1/364a.jpg"
+            "http://localhost/arbulanguage.com/img/fiszki1/364a.jpg"
         ],
         story: [
             "KOGNATY PARK (PL) - PARK (ENG)"
@@ -2099,12 +2099,12 @@ fiszki10.push(
     },
                                                                                         {
         id: [
-            774,
+            776,
             134,
             245
         ],
         img: [
-            "https://www.arbulang.com/img/fiszki1/364a.jpg"
+            "http://localhost/arbulanguage.com/img/fiszki1/364a.jpg"
         ],
         story: [
             "KOGNATY PARK (PL) - PARK (ENG)"
@@ -2124,12 +2124,12 @@ fiszki10.push(
     },
                                                                                             {
         id: [
-            775,
+            777,
             134,
             245
         ],
         img: [
-            "https://www.arbulang.com/img/fiszki1/364a.jpg"
+            "http://localhost/arbulanguage.com/img/fiszki1/364a.jpg"
         ],
         story: [
             "KOGNATY PARK (PL) - PARK (ENG)"
@@ -2148,12 +2148,12 @@ fiszki10.push(
     },
                                                                                                 {
         id: [
-            776,
+            778,
             134,
             245
         ],
         img: [
-            "https://www.arbulang.com/img/fiszki1/364a.jpg"
+            "http://localhost/arbulanguage.com/img/fiszki1/364a.jpg"
         ],
         story: [
             "KOGNATY PARK (PL) - PARK (ENG)"

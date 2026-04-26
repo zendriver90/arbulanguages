@@ -550,7 +550,7 @@ button.fiszka_button_trening.fiszka.active { background: orange }
     background-color: white;
     color:gray;
     border-radius:3px;
-    width:150px;
+    width:100px;
     height:40px;
     line-height:40px;
     vertical-align:middle;
@@ -562,11 +562,11 @@ button.fiszka_button_trening.fiszka.active { background: orange }
     z-index: 200;
 }
 
-    .like:hover {
-        background-color: #aaa; /* Dowolny kolor tĹa dla efektu hover */
-    }
+.like:hover {
+    background-color: #90ee90; /* jasnozielony */
+}
 .liked {
-    background-color: white;
+    background-color: #90ee90; /* jasnozielony */
     color: orange;
 }
 
@@ -605,7 +605,7 @@ story_button {
     float: left;
     z-index: 999;
     bottom: 50px;
-    background-color: #dcdcdc;
+    background-color: #90ee90;
 }
 .likeIconContainer {
     font-size: 30px; /* Zmieniaj na poĹźÄdany rozmiar */

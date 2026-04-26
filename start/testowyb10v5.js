@@ -26,6 +26,9 @@ id: [
                                                                                                         sentence1b: [
             "koty"
         ],
+                                                sentence1c: [
+            "kats"
+        ],
         sentence: [
                 "I",
                 "have",
@@ -50,10 +53,13 @@ id: [
         ],
         desc: "at home[at hołm] - w domu",
         sentence2: [
-            "at home"
+            "at_home"
         ],
                                                                                                                 sentence2b: [
-            "w domu"
+            "w_domu"
+        ],
+                                                        sentence2c: [
+            "at_hołm"
         ],
         sentence: [
             "at home"
@@ -100,6 +106,9 @@ id: [
         sentence1b: [
             "(Te)"
         ],
+                                                        sentence1c: [
+            "De"
+        ],
         sentence: [
             "The",
             "birds",
@@ -129,6 +138,9 @@ id: [
         ],
                 sentence1b: [
             "ptaki"
+        ],
+                                                                sentence1c: [
+            "byrds"
         ],
         sentence: [
             "The",
@@ -160,6 +172,9 @@ id: [
                         sentence1b: [
             "latają"
         ],
+                                                                sentence1c: [
+            "flajs"
+        ],
         sentence: [
             "The",
             "birds",
@@ -190,6 +205,9 @@ id: [
                         sentence1b: [
             "nad"
         ],
+                                                                sentence1c: [
+            "ołwer"
+        ],
         sentence: [
             "The",
             "birds",
@@ -215,10 +233,13 @@ id: [
         ],
         desc: "the ground[de graund] - ziemia",
         sentence2: [
-            "the ground"
+            "the_ground"
         ],
                         sentence1b: [
             "ziemią"
+        ],
+                                                                sentence1c: [
+            "de_graund"
         ],
         sentence: [
             "The",
@@ -252,6 +273,9 @@ id: [
                                 sentence1b: [
             "Ona"
         ],
+                                                                sentence1c: [
+            "Szi"
+        ],
         sentence: [
             "She",
             "speaks",
@@ -283,6 +307,9 @@ id: [
                                 sentence1b: [
             "mówi"
         ],
+                                                                sentence1c: [
+            "spiks"
+        ],
         sentence: [
             "She",
             "speaks",
@@ -310,6 +337,9 @@ id: [
                                 sentence1b: [
             "angielskim"
         ],
+                                                                sentence1c: [
+            "inglisz"
+        ],
         sentence: [
             "She",
             "speaks",
@@ -336,6 +366,9 @@ id: [
         ],
                                 sentence1b: [
             "bardzo"
+        ],
+                                                                sentence1c: [
+            "wery"
         ],
         sentence: [
             "She",
@@ -368,6 +401,9 @@ id: [
                                 sentence1b: [
             "płynnie"
         ],
+                                                                sentence1c: [
+            "fluentli"
+        ],
         sentence: [
             "She",
             "speaks",
@@ -394,6 +430,9 @@ id: [
         ],
                                 sentence1b: [
             "teraz"
+        ],
+                                                                        sentence1c: [
+            "nał"
         ],
         sentence: [
             "She",
@@ -430,12 +469,15 @@ id: [
             "https://www.arbulang.com/voice/bike.mp4"
         ],
         story: "",
-        desc: "the[de] - ",
+        desc: "the[de] - ta",
         sentence1: [
             "The"
         ],
                                 sentence1b: [
             "(Te)"
+        ],
+                                                                        sentence1c: [
+            "De"
         ],
         sentence: [
             "The",
@@ -467,6 +509,9 @@ id: [
         ],
                                         sentence1b: [
             "drzewo"
+        ],
+                                                                                sentence1c: [
+            "tri"
         ],
         sentence: [
             "The",
@@ -511,6 +556,9 @@ id: [
                                                 sentence1b: [
             "jest"
         ],
+                                                                                sentence1c: [
+            "is"
+        ],
         sentence: [
             "The",
             "tree",
@@ -541,6 +589,9 @@ id: [
         ],
                                                 sentence1b: [
             "wysokie"
+        ],
+                                                                                sentence1c: [
+            "tol"
         ],
         sentence: [
             "The",
@@ -583,6 +634,9 @@ id: [
                                                 sentence1b: [
             "i"
         ],
+                                                                                sentence1c: [
+            "end"
+        ],
         sentence: [
             "The",
             "tree",
@@ -613,6 +667,9 @@ id: [
         ],
                                                 sentence1b: [
             "zielone"
+        ],
+                                                                                sentence1c: [
+            "grin"
         ],
         sentence: [
             "The",
@@ -663,6 +720,9 @@ id: [
                                                         sentence1b: [
             "On"
         ],
+                                                                                sentence1c: [
+            "Hi"
+        ],
         sentence: [
             "He",
             "teaches",
@@ -690,6 +750,9 @@ id: [
         ],
                                                         sentence1b: [
             "uczy"
+        ],
+                                                                                sentence1c: [
+            "ticzes"
         ],
         sentence: [
             "He",
@@ -719,6 +782,9 @@ id: [
                                                         sentence1b: [
             "matematykę"
         ],
+                                                                                sentence1c: [
+            "matf"
+        ],
         sentence: [
             "He",
             "teaches",
@@ -742,12 +808,15 @@ id: [
             "<u><b>Lokal</u></b>izacja <u><b>szkoły</u></b> brata je<u><b>s</u></b>t bardzo <u><b>cool(kul)</u></b>",
             "Z ch<u><b>at</u></b>y do <u><b>lokal</u></b>nej szkoły mam kilometr. W walkacje robili w niej remont i <u><b>skul</u></b>i tynki"
         ],
-        desc: "at local school[] - ",
+        desc: "at local school[at lokal skul] - ",
         sentence2: [
-            "at local school"
+            "at_local_school"
         ],
                                                         sentence2b: [
-            "w lokalnej szkole"
+            "w_lokalnej_szkole"
+        ],
+                                                                                sentence1c: [
+            "at_lokal_skul"
         ],
         sentence: [
             "at local school"
@@ -789,6 +858,9 @@ id: [
                                                                 sentence1b: [
             "(Ten)"
         ],
+                                                                                sentence1c: [
+            "De"
+        ],
         sentence: [
             "The",
             "bus",
@@ -819,6 +891,9 @@ id: [
                                                                         sentence1b: [
             "autobus"
         ],
+                                                                                sentence1c: [
+            "bas"
+        ],
         sentence: [
             "The",
             "bus",
@@ -847,6 +922,9 @@ id: [
                                                                                 sentence1b: [
             "przybywa"
         ],
+                                                                                sentence1c: [
+            "erajws"
+        ],
         sentence: [
             "The",
             "bus",
@@ -870,10 +948,13 @@ id: [
         ],
         desc: "at the station[at de stejszyn] - na stacji",
         sentence2: [
-            "at the station"
+            "at_the_station"
         ],
                                                                                         sentence1b: [
-            "na stację"
+            "na_stację"
+        ],
+                                                                                sentence2c: [
+            "at_de_stejszyn"
         ],
         sentence: [
             "at the station",
@@ -901,6 +982,9 @@ id: [
         ],
                                                                                                 sentence2b: [
             "wkrótce"
+        ],
+                                                                                sentence2c: [
+            "sjun"
         ],
         sentence: [
             "at the station",
@@ -943,6 +1027,9 @@ id: [
                                                                                                         sentence1b: [
             "(Ja)"
         ],
+                                                                                sentence1c: [
+            "Aj"
+        ],
         sentence: [
             "I",
             "wear",
@@ -970,6 +1057,9 @@ id: [
         ],
                                                                                                                 sentence1b: [
             "noszę"
+        ],
+                                                                                sentence1c: [
+            "łer"
         ],
         sentence: [
             "I",
@@ -999,6 +1089,9 @@ id: [
                                                                                                                         sentence1b: [
             "okulary"
         ],
+                                                                                sentence1c: [
+            "glases"
+        ],
         sentence: [
             "I",
             "wear",
@@ -1026,6 +1119,9 @@ id: [
         ],
                                                                                                                                 sentence2b: [
             "kiedy"
+        ],
+            sentence2c: [
+            "łen"
         ],
         sentence: [
             "when",
@@ -1063,6 +1159,9 @@ id: [
         sentence2b: [
             "(ja)"
         ],
+                    sentence2c: [
+            "aj"
+        ],
         sentence: [
             "when",
             "I",
@@ -1090,6 +1189,9 @@ id: [
         ],
                 sentence2b: [
             "czytam"
+        ],
+                    sentence2c: [
+            "rid"
         ],
         sentence: [
             "when",
@@ -1121,6 +1223,9 @@ id: [
                         sentence1b: [
             "Oni"
         ],
+                            sentence1c: [
+            "Dej"
+        ],
         sentence: [
             "They",
             "buy",
@@ -1148,6 +1253,9 @@ id: [
         ],
                                 sentence1b: [
             "kupują"
+        ],
+                                    sentence1c: [
+            "baj"
         ],
         sentence: [
             "They",
@@ -1177,6 +1285,9 @@ id: [
                                 sentence1b: [
             "owoce"
         ],
+                                    sentence1c: [
+            "frjuts"
+        ],
         sentence: [
             "They",
             "buy",
@@ -1204,6 +1315,9 @@ id: [
         ],
                                         sentence2b: [
             "z"
+        ],
+                                            sentence2c: [
+            "from"
         ],
         sentence: [
             "from",
@@ -1242,7 +1356,10 @@ id: [
             "the"
         ],
                                                 sentence2b: [
-            "pobliskiego"
+            "tego"
+        ],
+                                            sentence2c: [
+            "de"
         ],
         sentence: [
             "from",
@@ -1271,6 +1388,9 @@ id: [
         ],
                                                         sentence2b: [
             "rynku"
+        ],
+                                            sentence2c: [
+            "market"
         ],
         sentence: [
             "from",
@@ -1303,6 +1423,9 @@ id: [
                                                                 sentence1b: [
             "Oni"
         ],
+                                                    sentence1c: [
+            "Dej"
+        ],
         sentence: [
             "They",
             "often",
@@ -1331,6 +1454,9 @@ id: [
         ],
                                                                         sentence1b: [
             "często"
+        ],
+                                                            sentence1c: [
+            "ofen"
         ],
         sentence: [
             "They",
@@ -1361,6 +1487,9 @@ id: [
                                                                                 sentence1b: [
             "wizytują"
         ],
+                                                            sentence1c: [
+            "wizyt"
+        ],
         sentence: [
             "They",
             "often",
@@ -1390,6 +1519,9 @@ id: [
                                                                                         sentence1b: [
             "muzeum"
         ],
+                                                            sentence1c: [
+            "mjuziems"
+        ],
         sentence: [
             "They",
             "often",
@@ -1412,12 +1544,15 @@ id: [
         story: [
             "On - Piotrek nie lubi melan<u><b>choli</u></b> w jesień dlatego pojechał <u><b>na wakacje</u></b>. Dobrze mu na nich jest. <u><b>D</u></b>zisiaj ma r<u><b>ejs</u></b> statkiem"
         ],
-        desc: "on holidays[holidejs] - w święta",
+        desc: "on holidays[on holidejs] - w święta",
         sentence2: [
-            "on holidays"
+            "on_holidays"
         ],
                                                                                                 sentence2b: [
-            "w wakacje"
+            "w_wakacje"
+        ],
+                                                                    sentence2c: [
+            "on_holidejs"
         ],
         sentence: [
             "on holidays"
@@ -1459,6 +1594,9 @@ id: [
                                                                                                         sentence1b: [
             "Nasza"
         ],
+            sentence1c: [
+            "Aur"
+        ],
         sentence: [
             "Our",
             "team",
@@ -1488,6 +1626,9 @@ id: [
         ],
                                                                                                                 sentence1b: [
             "drużyna"
+        ],
+                    sentence1c: [
+            "tim"
         ],
         sentence: [
             "Our",
@@ -1519,6 +1660,9 @@ id: [
                                                                                                                         sentence1b: [
             "wygrała"
         ],
+                            sentence1c: [
+            "łon"
+        ],
         sentence: [
             "Our",
             "team",
@@ -1544,10 +1688,13 @@ id: [
         ],
         desc: "the match[de macz] -mecz ",
         sentence2: [
-            "the match"
+            "the_match"
         ],
                                                                                                                                 sentence1b: [
             "mecz"
+        ],
+                            sentence1c: [
+            "de_macz"
         ],
         sentence: [
             "Our",
@@ -1578,6 +1725,9 @@ id: [
         ],
                                                                                                                                 sentence1b: [
             "wczoraj"
+        ],
+                            sentence1c: [
+            "jesterdej"
         ],
         sentence: [
             "Our",
@@ -1614,6 +1764,9 @@ id: [
                                                                                                                                 sentence1b: [
             "(My)"
         ],
+                                    sentence1c: [
+            "Łi"
+        ],
         sentence: [
             "We",
             "watched",
@@ -1636,12 +1789,15 @@ id: [
             "https://www.arbulang.com/img/fiszki1/451a.jpg"
         ],
         story: "Ostatnio ma<u><b>ło</u></b> <u><b>oglądam</u></b> seriali, bo - po<u><b>czt</u></b>a - tam gdzie pracuje dała mi na<u><b>d</u></b>godziny",
-        desc: "watched[łocztd] - ",
+        desc: "watched[łocztd] - oglądałem",
         sentence2: [
             "watched"
         ],
                                                                                                                                         sentence1b: [
             "oglądaliśmy"
+        ],
+                                    sentence1c: [
+            "łocztd"
         ],
         sentence: [
             "We",
@@ -1682,6 +1838,9 @@ id: [
                                                                                                                                                 sentence1b: [
             "(te)"
         ],
+                                            sentence1c: [
+            "de"
+        ],
         sentence: [
             "We",
             "watched",
@@ -1712,6 +1871,9 @@ id: [
         ],
                                                                                                                             sentence1b: [
             "gwiazdy"
+        ],
+                                            sentence1c: [
+            "stars"
         ],
         sentence: [
             "We",
@@ -1744,6 +1906,9 @@ id: [
                                                                                                                                     sentence1b: [
             "zeszłej"
         ],
+                                            sentence1c: [
+            "last"
+        ],
         sentence: [
             "We",
             "watched",
@@ -1774,6 +1939,9 @@ id: [
         ],
                                                                                                                                     sentence1b: [
             "nocy"
+        ],
+                                            sentence1c: [
+            "najt"
         ],
         sentence: [
             "We",
@@ -1824,6 +1992,9 @@ id: [
                                                                                                                                             sentence1b: [
             "(Te)"
         ],
+                                            sentence1c: [
+            "De"
+        ],
         sentence: [
             "The",
             "fish",
@@ -1851,6 +2022,9 @@ id: [
         ],
                                                                                                                                                     sentence1b: [
             "ryby"
+        ],
+                                            sentence1c: [
+            "fisz"
         ],
         sentence: [
             "The",
@@ -1882,6 +2056,9 @@ id: [
         sentence1b: [
             "pływają"
         ],
+                                            sentence1c: [
+            "słim"
+        ],
         sentence: [
             "The",
             "fish",
@@ -1909,6 +2086,9 @@ id: [
         ],
                 sentence2b: [
             "w"
+        ],
+                                            sentence2c: [
+            "in"
         ],
         sentence: [
             "in",
@@ -1947,6 +2127,9 @@ id: [
                         sentence2b: [
             "(tym)"
         ],
+                                                    sentence2c: [
+            "de"
+        ],
         sentence: [
             "in",
             "the",
@@ -1976,6 +2159,9 @@ id: [
                                 sentence2b: [
             "czystym"
         ],
+                                                    sentence2c: [
+            "klir"
+        ],
         sentence: [
             "in",
             "the",
@@ -2004,6 +2190,9 @@ id: [
         ],
                                         sentence2b: [
             "jeziorze"
+        ],
+                                                    sentence2c: [
+            "lejk"
         ],
         sentence: [
             "in",
@@ -2052,6 +2241,9 @@ id: [
                                                 sentence1b: [
             "(Ten)"
         ],
+                                                    sentence1c: [
+            "De"
+        ],
         sentence: [
             "The",
             "boy",
@@ -2083,6 +2275,9 @@ id: [
                                                         sentence1b: [
             "chłopiec"
         ],
+                                                            sentence1c: [
+            "boj"
+        ],
         sentence: [
             "The",
             "boy",
@@ -2113,6 +2308,9 @@ id: [
         ],
                                                                 sentence1b: [
             "kopie"
+        ],
+                                                            sentence1c: [
+            "kiks"
         ],
         sentence: [
             "The",
@@ -2153,6 +2351,9 @@ id: [
                                                                         sentence1b: [
             "(tą)"
         ],
+                                                            sentence1c: [
+            "de"
+        ],
         sentence: [
             "The",
             "boy",
@@ -2184,6 +2385,9 @@ id: [
                                                                                 sentence1b: [
             "piłkę"
         ],
+                                                            sentence1c: [
+            "bol"
+        ],
         sentence: [
             "The",
             "boy",
@@ -2214,6 +2418,9 @@ id: [
         ],
                                                                                         sentence1b: [
             "daleko"
+        ],
+                                                            sentence1c: [
+            "far"
         ],
         sentence: [
             "The",
@@ -2252,6 +2459,9 @@ id: [
                                                                                                 sentence1b: [
             "Oni"
         ],
+                                                            sentence1c: [
+            "Dej"
+        ],
         sentence: [
             "They",
             "exlore",
@@ -2279,6 +2489,9 @@ id: [
         ],
                                                                                                         sentence1b: [
             "zwiedzają"
+        ],
+                                                            sentence1c: [
+            "explo"
         ],
         sentence: [
             "They",
@@ -2308,6 +2521,9 @@ id: [
         sentence1b: [
             "las"
         ],
+                                                                    sentence1c: [
+            "forest"
+        ],
         sentence: [
             "They",
             "exlore",
@@ -2329,12 +2545,15 @@ id: [
         story: [
             "KOGNATY - WEEKEND"
         ],
-        desc: "on the weekends[on de wikends] - w weekendy",
+        desc: "on the weekends[on de łikends] - w weekendy",
         sentence2: [
-            "on the weekends"
+            "on_the_weekends"
         ],
                 sentence2b: [
-            "w weekendy"
+            "w_weekendy"
+        ],
+                                                                    sentence2c: [
+            "on_de_łikends"
         ],
         sentence: [
             "on the weekends"
@@ -2376,6 +2595,9 @@ id: [
                         sentence1b: [
             "On"
         ],
+                                                                            sentence1c: [
+            "Hi"
+        ],
         sentence: [
             "He",
             "practices",
@@ -2403,6 +2625,9 @@ id: [
         ],
                                 sentence1b: [
             "ćwiczy"
+        ],
+                                                                                    sentence1c: [
+            "praktisis"
         ],
         sentence: [
             "He",
@@ -2432,6 +2657,9 @@ id: [
                                 sentence1b: [
             "jogę"
         ],
+                                                                                            sentence1c: [
+            "jołga"
+        ],
         sentence: [
             "He",
             "practices",
@@ -2460,6 +2688,9 @@ id: [
                                 sentence2b: [
             "każdego"
         ],
+                sentence2c: [
+            "ewry"
+        ],
         sentence: [
             "every",
             "afternoon"
@@ -2486,6 +2717,9 @@ id: [
         ],
                                 sentence2b: [
             "popołudnia"
+        ],
+                        sentence2c: [
+            "afternju"
         ],
         sentence: [
             "every",
@@ -2528,6 +2762,9 @@ id: [
                                         sentence1b: [
             "Moja"
         ],
+                                sentence1c: [
+            "Maj"
+        ],
         sentence: [
             "My",
             "sister",
@@ -2558,6 +2795,9 @@ id: [
         ],
                                                 sentence1b: [
             "siostra"
+        ],
+                                        sentence1c: [
+            "sister"
         ],
         sentence: [
             "My",
@@ -2590,6 +2830,9 @@ id: [
                                                         sentence1b: [
             "maluje"
         ],
+                                                sentence1c: [
+            "peints"
+        ],
         sentence: [
             "My",
             "sister",
@@ -2620,6 +2863,9 @@ id: [
         ],
                                                                 sentence1b: [
             "obrazy"
+        ],
+                                                        sentence1c: [
+            "pikczur"
         ],
         sentence: [
             "My",
@@ -2654,6 +2900,9 @@ id: [
                                                                 sentence1b: [
             "(jakichś)"
         ],
+                                                                sentence1c: [
+            "of"
+        ],
         sentence: [
             "My",
             "sister",
@@ -2686,6 +2935,9 @@ id: [
         ],
                                                                         sentence1b: [
             "zwierząt"
+        ],
+                                                                sentence1c: [
+            "animals"
         ],
         sentence: [
             "My",
@@ -2723,6 +2975,9 @@ id: [
                                                                                 sentence1b: [
             "Oni"
         ],
+                                                                        sentence1c: [
+            "Dej"
+        ],
         sentence: [
             "They",
             "travel",
@@ -2753,6 +3008,9 @@ id: [
         ],
                                                                                         sentence1b: [
             "podróżują"
+        ],
+                                                                        sentence1c: [
+            "trawel"
         ],
         sentence: [
             "They",
@@ -2791,6 +3049,9 @@ id: [
                                                                                         sentence1b: [
             "do"
         ],
+                                                                        sentence1c: [
+            "tu"
+        ],
         sentence: [
             "They",
             "travel",
@@ -2822,6 +3083,9 @@ id: [
                                                                                         sentence1b: [
             "Europy"
         ],
+                                                                        sentence1c: [
+            "Jurop"
+        ],
         sentence: [
             "They",
             "travel",
@@ -2851,6 +3115,9 @@ id: [
                                                                                                 sentence2b: [
             "każdego"
         ],
+                                                                        sentence2c: [
+            "ewry"
+        ],
         sentence: [
             "every",
             "summer"
@@ -2877,6 +3144,9 @@ id: [
         ],
                                                                                                 sentence2b: [
             "lata"
+        ],
+                                                                        sentence2c: [
+            "samer"
         ],
         sentence: [
             "every",
@@ -2922,6 +3192,9 @@ id: [
                                                                                                 sentence1b: [
             "(Ten)"
         ],
+                sentence1c: [
+            "De"
+        ],
         sentence: [
             "The",
             "wind",
@@ -2950,6 +3223,9 @@ id: [
         ],
                                                                                                         sentence1b: [
             "wiatr"
+        ],
+                        sentence1c: [
+            "łind"
         ],
         sentence: [
             "The",
@@ -2980,6 +3256,9 @@ id: [
                                                                                                                 sentence1b: [
             "uderza"
         ],
+                                sentence1c: [
+            "blołs"
+        ],
         sentence: [
             "The",
             "wind",
@@ -3008,6 +3287,9 @@ id: [
         ],
                                                                                                                         sentence1b: [
             "mocno"
+        ],
+                                sentence1c: [
+            "hard"
         ],
         sentence: [
             "The",
@@ -3038,6 +3320,9 @@ id: [
                                                                                                                                 sentence2b: [
             "podczas"
         ],
+                                sentence2c: [
+            "during"
+        ],
         sentence: [
             "during",
             "winter"
@@ -3064,6 +3349,9 @@ id: [
         ],
                                                                                                                                         sentence2b: [
             "zimy"
+        ],
+                                sentence2c: [
+            "łinter"
         ],
         sentence: [
             "during",
@@ -3098,6 +3386,9 @@ id: [
                                                                                                                                                 sentence1b: [
             "Oni"
         ],
+                                        sentence1c: [
+            "Dej"
+        ],
         sentence: [
             "They",
             "go",
@@ -3126,6 +3417,9 @@ id: [
                                                                                                                                                         sentence1b: [
             "chodzą"
         ],
+                                        sentence1c: [
+            "goł"
+        ],
         sentence: [
             "They",
             "go",
@@ -3152,7 +3446,10 @@ id: [
             "fishing"
         ],
                                                                                                                                                 sentence1b: [
-            "łowić ryby"
+            "łowić_ryby"
+        ],
+                                        sentence1c: [
+            "fiszing"
         ],
         sentence: [
             "They",
@@ -3177,10 +3474,13 @@ id: [
         ],
         desc: "in the river[in de riwer] - w rzece",
         sentence2: [
-            "in the river"
+            "in_the_river"
         ],
                                                                                                                                                         sentence2b: [
-            "w rzece"
+            "w_rzece"
+        ],
+                                        sentence2c: [
+            "in_de_riwer"
         ],
         sentence: [
             "in the river"

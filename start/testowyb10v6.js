@@ -35,6 +35,9 @@ fiszki10.push(
                             sentence1b: [
             "(Te)"
         ],
+                                                sentence1c: [
+            "De"
+        ],
         sentence: [
             "The",
             "sky",
@@ -66,6 +69,9 @@ fiszki10.push(
         ],
                                     sentence1b: [
             "niebo"
+        ],
+                                                sentence1c: [
+            "skaj"
         ],
         sentence: [
             "The",
@@ -111,6 +117,9 @@ fiszki10.push(
                                             sentence1b: [
             "jest"
         ],
+                                                        sentence1c: [
+            "is"
+        ],
         sentence: [
             "The",
             "sky",
@@ -142,6 +151,9 @@ fiszki10.push(
         ],
                                                     sentence1b: [
             "czyste"
+        ],
+                                                                sentence1c: [
+            "klir"
         ],
         sentence: [
             "The",
@@ -183,6 +195,9 @@ fiszki10.push(
                                                             sentence1b: [
             "i"
         ],
+                                                                        sentence1c: [
+            "end"
+        ],
         sentence: [
             "The",
             "sky",
@@ -211,6 +226,9 @@ fiszki10.push(
                                                             sentence1b: [
             "niebieskie"
         ],
+                                                                                sentence1c: [
+            "blu"
+        ],
         sentence: [
             "The",
             "sky",
@@ -238,6 +256,9 @@ fiszki10.push(
         ],
                                                             sentence1b: [
             "dzisiaj"
+        ],
+                                                                                        sentence1c: [
+            "tudej"
         ],
         sentence: [
             "The",
@@ -273,6 +294,9 @@ fiszki10.push(
                                                                     sentence1b: [
             "Oni"
         ],
+                                                                                                sentence1c: [
+            "Dej"
+        ],
         sentence: [
             "They",
             "work",
@@ -301,6 +325,9 @@ fiszki10.push(
                                                                     sentence1b: [
             "pracują"
         ],
+                                                                                                        sentence1c: [
+            "łerk"
+        ],
         sentence: [
             "They",
             "work",
@@ -325,6 +352,9 @@ fiszki10.push(
                                                                     sentence1b: [
             "razem"
         ],
+                                                                                                                sentence1c: [
+            "tugeder"
+        ],
         sentence: [
             "They",
             "work",
@@ -348,10 +378,13 @@ fiszki10.push(
         ],
         desc: "in the same office[in de sejm ofis] - w tym samym biurze",
         sentence2: [
-            "in the same office"
+            "in_the_same_office"
         ],
                                                                     sentence2b: [
-            "w tym samym biurze"
+            "w_tym_samym_biurze"
+        ],
+                                                                                                                        sentence2c: [
+            "in_de_sejm_ofis"
         ],
         sentence: [
             "in the same office"
@@ -393,6 +426,9 @@ fiszki10.push(
                                                                             sentence1b: [
             "On"
         ],
+                                                                                                                                sentence1c: [
+            "Hi"
+        ],
         sentence: [
             "He",
             "visits",
@@ -420,6 +456,9 @@ fiszki10.push(
         ],
                                                                             sentence1b: [
             "wizytuje"
+        ],
+                                                                                                                                        sentence1c: [
+            "wizits"
         ],
         sentence: [
             "He",
@@ -449,6 +488,9 @@ fiszki10.push(
                                                                                     sentence1b: [
             "bibliotekę"
         ],
+                                                                                                                                                sentence1c: [
+            "lajbrery"
+        ],
         sentence: [
             "He",
             "visits",
@@ -477,6 +519,9 @@ fiszki10.push(
                                                                                             sentence2b: [
             "w kazdy"
         ],
+            sentence1c: [
+            "ewry"
+        ],
         sentence: [
             "every",
             "week"
@@ -499,6 +544,9 @@ fiszki10.push(
         ],
                                                                                                     sentence2b: [
             "tydzień"
+        ],
+                    sentence1c: [
+            "łik"
         ],
         sentence: [
             "every",
@@ -544,6 +592,9 @@ fiszki10.push(
                                                                                                     sentence1b: [
             "On"
         ],
+                            sentence1c: [
+            "Hi"
+        ],
         sentence: [
             "He",
             "plants",
@@ -571,6 +622,9 @@ fiszki10.push(
         ],
                                                                                                             sentence1b: [
             "uprawia"
+        ],
+                                    sentence1c: [
+            "plants"
         ],
         sentence: [
             "He",
@@ -600,6 +654,9 @@ fiszki10.push(
                                                                                                                     sentence1b: [
             "warzywa"
         ],
+                                            sentence1c: [
+            "wedźtybels"
+        ],
         sentence: [
             "He",
             "plants",
@@ -627,6 +684,9 @@ fiszki10.push(
         ],
                                                                                                                             sentence2b: [
             "w"
+        ],
+                                                    sentence1c: [
+            "in"
         ],
         sentence: [
             "in",
@@ -664,6 +724,9 @@ fiszki10.push(
                                                                                                                             sentence2b: [
             "swoim"
         ],
+                                                            sentence1c: [
+            "his"
+        ],
         sentence: [
             "in",
             "his",
@@ -691,6 +754,9 @@ fiszki10.push(
         ],
                                                                                                                                     sentence2b: [
             "ogrodzie"
+        ],
+                                                                    sentence1c: [
+            "gardyn"
         ],
         sentence: [
             "in",
@@ -726,6 +792,9 @@ fiszki10.push(
                                                                                                                                 sentence1b: [
             "(My)"
         ],
+                                                                            sentence1c: [
+            "Łi"
+        ],
         sentence: [
             "We",
             "explore",
@@ -754,6 +823,9 @@ fiszki10.push(
         ],
                                                                                                                                         sentence1b: [
             "odkrywamy"
+        ],
+                                                                                    sentence1c: [
+            "iksplor"
         ],
         sentence: [
             "We",
@@ -784,6 +856,9 @@ fiszki10.push(
                                                                                                                                         sentence1b: [
             "nowe"
         ],
+                                                                                            sentence1c: [
+            "nju"
+        ],
         sentence: [
             "We",
             "explore",
@@ -812,6 +887,9 @@ fiszki10.push(
         ],
                                                                                                                                         sentence1b: [
             "miasta"
+        ],
+                                                                                                    sentence1c: [
+            "sitiz"
         ],
         sentence: [
             "We",
@@ -842,6 +920,9 @@ fiszki10.push(
                                                                                                                                                 sentence2b: [
             "każdego"
         ],
+                sentence2c: [
+            "ewry"
+        ],
         sentence: [
             "every",
             "year"
@@ -868,6 +949,9 @@ fiszki10.push(
         ],
                                                                                                                                                 sentence2b: [
             "roku"
+        ],
+                        sentence2c: [
+            "jer"
         ],
         sentence: [
             "every",

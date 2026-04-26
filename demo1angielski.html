@@ -19,25 +19,179 @@
     crossorigin="anonymous"></script>
 </head>
 <body>
-<div id="multiVersionOverlay" style="
-position: fixed;
-inset: 0;
-background: rgba(0,0,0,0.7);
-z-index: 9999;
-display: none;
-align-items: center;
-justify-content: center;
-">
+            <style>
+                                 @media (min-width: 999px) {
+/* TŁO (overlay) */
+.overlay {
+    position: fixed;
+    inset: 0;
+    background: rgba(0,0,0,0.7);
+    z-index: 9999;
 
-<div style="
-background: #fff;
-padding: 24px;
-border-radius: 12px;
-max-width: 420px;
-text-align: center;
-position: relative;
-">
+    display: none;
+    align-items: center;
+    justify-content: center;
+}
 
+/* aktywny popup */
+.overlay--active {
+    display: flex;
+}
+
+/* OKNO */
+.overlay__box {
+    background: #fff;
+    padding: 24px;
+    border-radius: 12px;
+    max-width: 420px;
+    width: 90%;
+    text-align: center;
+    position: relative;
+}
+
+/* ZAMKNIĘCIE */
+.overlay__close {
+    position: absolute;
+    top: 8px;
+    right: 10px;
+    border: none;
+    background: none;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+/* TEKST */
+.overlay__title {
+    margin-bottom: 10px;
+}
+
+.overlay__text {
+    margin-bottom: 10px;
+}
+
+/* BUTTONY */
+.overlay__button {
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+/* mniejszy */
+.overlay__button--small {
+    width: 220px;
+}
+
+/* hover */
+.overlay__button:hover {
+    background: #f0f0f0;
+}
+                                 }
+@media (max-width: 999px) {
+#multiVersionOverlay {
+    position: fixed;
+    inset: 0;
+    background: rgba(0,0,0,0.7);
+    z-index: 9999999999999999999;
+font-size: 30px;
+    display: none; /* domyślnie ukryte */
+    align-items: center;
+    justify-content: center;
+}
+
+/* aktywny popup */
+#multiVersionOverlay.overlay--active {
+    display: flex;
+}
+
+/* ===================== */
+/* OKNO POPUP */
+/* ===================== */
+#multiVersionOverlay .overlay__box {
+    background: #fff;
+    width: 90%;
+    max-width: 420px;
+
+    padding: 24px;
+    border-radius: 12px;
+
+    text-align: center;
+    position: relative;
+
+    box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+
+    animation: popupIn 0.2s ease;
+}
+
+/* animacja wejścia */
+@keyframes popupIn {
+    from {
+        opacity: 0;
+        transform: scale(0.9);
+    }
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+/* ===================== */
+/* ZAMKNIĘCIE */
+/* ===================== */
+#multiVersionOverlay .overlay__close {
+    position: absolute;
+    top: 10px;
+    right: 12px;
+
+    border: none;
+    background: none;
+
+    font-size: 22px;
+    cursor: pointer;
+}
+
+/* ===================== */
+/* TEKST */
+/* ===================== */
+#multiVersionOverlay .overlay__title {
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+#multiVersionOverlay .overlay__text {
+    margin-bottom: 15px;
+    color: #555;
+}
+
+/* ===================== */
+/* BUTTONY */
+/* ===================== */
+#multiVersionOverlay .overlay__button {
+    width: 100%;
+    margin-top: 10px;
+        font-size: 30px;
+    padding: 12px;
+    border-radius: 10px;
+
+    border: none;
+    cursor: pointer;
+
+    background: #f3f3f3;
+    transition: 0.2s;
+}
+
+#multiVersionOverlay .overlay__button:hover {
+    background: #e0e0e0;
+}
+
+/* mniejszy button */
+#multiVersionOverlay .overlay__button--small {
+    width: 60%;
+}
+}
+            </style>
 <button id="closeModeOverlay" style="
 position:absolute;
 top:8px;
@@ -50,23 +204,28 @@ cursor:pointer;
 ✖
 </button>
 
-<h2>🧠 Tryb nauki</h2>
+<div id="multiVersionOverlay" class="overlay">
+    <div class="overlay__box">
 
-<p id="multiVersionText"></p>
+        <button id="closeModeOverlay" class="overlay__close">✖</button>
 
-<button id="modeRandom" style="margin-top:10px;width:100%">
-🎲 Załaduj losowe wersje do matrycy
-</button>
+        <h2 class="overlay__title">🧠 Tryb nauki</h2>
 
-<button id="modeApprove" style="margin-top:10px;width:100%">
-✅ Zatwierdzaj wersje ręcznie - po przeglądnięciu dostępnych
-</button>
+        <p id="multiVersionText" class="overlay__text"></p>
 
-<button id="modeSkip" style="margin-top:10px;width:220px">
-⏭️ Pomiń wybór i rozglądnij się
-</button>
+        <button id="modeRandom" class="overlay__button overlay__button--full">
+            🎲 Załaduj losowe wersje do matrycy
+        </button>
 
-</div>
+        <button id="modeApprove" class="overlay__button overlay__button--full">
+            ✅ Zatwierdzaj wersje ręcznie
+        </button>
+
+        <button id="modeSkip" class="overlay__button overlay__button--small">
+            ⏭️ Pomiń wybór
+        </button>
+
+    </div>
 </div>
     <div id="kontenery">
         <div id='karta1'>

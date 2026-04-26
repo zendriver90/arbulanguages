@@ -43,7 +43,8 @@ id: [
         category1: [
                 "place", "cities"
         ],
-        category2: ["osoby", "osoby+czas"]
+        category2: ["osoby", "osoby+czas"],
+                                category3: ["Present Indicative"]
 },
 {
 id: [
@@ -298,7 +299,8 @@ id: [
         category1: [
                 "mindset", "planing"
         ],
-        category2: ["osoby", "osoby+czas"]
+        category2: ["osoby", "osoby+czas"],
+                                        category3: ["Present Indicative"]
 },
 {
 id: [
@@ -619,7 +621,8 @@ id: [
         category1: [
                 "life", "relations"
         ],
-        category2: ["osoby", "osoby+czas"]
+        category2: ["osoby", "osoby+czas"],
+                                                category3: ["Present Progressive"]
 },
 {
 id: [
@@ -886,7 +889,8 @@ id: [
         category1: [
                 "lifestyle", "cars"
         ],
-        category2: ["osoby", "osoby+czas"]
+        category2: ["osoby", "osoby+czas"],
+                                                        category3: ["Present Indicative"]
 },
 {
 id: [
@@ -1228,7 +1232,8 @@ id: [
         category1: [
                 "life", "free time"
         ],
-        category2: ["osoby", "osoby+czas"]
+        category2: ["osoby", "osoby+czas"],
+                        category3: ["Present Indicative"]
 },
 {
 id: [
@@ -1436,7 +1441,8 @@ id: [
         category1: [
                 "life", "party"
         ],
-        category2: ["osoby", "osoby+czas"]
+        category2: ["osoby", "osoby+czas"],
+                                category3: ["Present Indicative"]
 },
 {
 id: [

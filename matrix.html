@@ -28,6 +28,19 @@
         <meta name="keywords" content="naucz się angielskiego, 1000 angielskich słów, szybka nauka angielskiego, jak nauczyć się angielskiego, jak szybko nauczyć się języka, nauka angielskiego z przyjemnością" />
         <style>
             @media (min-width: 999px) {
+.dynamic-div {
+    cursor: pointer;
+    padding: 10px;
+    background: #e8f5e9;
+    border: 1px solid #81c784;
+    border-radius: 8px;
+    text-align: center;
+    transition: 0.2s;
+}
+
+.dynamic-div:hover {
+    background: #c8e6c9;
+}
                 .word-fiszka-wrapper {
     position: absolute;
     bottom: 0;
@@ -645,7 +658,7 @@ span.highlight {
     min-height: 220px;
     height: auto;
     margin-bottom: 0px;
-    align-items: center;
+    align-items: stretch; /* 🔥 zmiana */
     font-size: 10px;
     margin-top: 10px;
 }
@@ -680,7 +693,30 @@ span.highlight {
                     margin-top: 10px;
                     order: -1; /* Kolejność odwrotna - spycha w dół */
                 }
+.wordDisplay {
+    position: absolute;
+    bottom: 250px;
+    cursor: pointer;
+    font-size: 18px;
+    width: 130px;
+    height: 27px;
+    text-align: center;
+    line-height: 30px;
+    color: black;
+    z-index: 101;
+    border-radius: 8px;
+    border: 2px solid black;
+}
 
+.wordDisplay-even {
+    left: -160px;
+    background-color: lightgray;
+}
+
+.wordDisplay-odd {
+    left: -100px; /* inna pozycja dla nieparzystych */
+    background-color: lightblue;
+}
                 .image-container5 {
                     display: flex;
                     flex-direction: column;
@@ -791,7 +827,7 @@ span.highlight {
                     z-index: 99999; /* Wyższy z-index, aby przycisk był na wierzchu */
                 }
                 .dynamic-div {
-                    position: absolute;
+                    position: relative;
                     bottom: 5px; /* Ustawienie w dowolnym miejscu w kontenerze */
                     left: 10px;
                     font-size: 15px;
@@ -1125,8 +1161,10 @@ span.highlight {
             }
             @media (max-width: 999px) {
 .word-fiszka-wrapper {
+    left: 10px;
+    top: -200px;
     position: relative;
-    min-height: 120px; /* albo tyle, ile potrzebujesz dla fiszek */
+    min-height: 0px; /* albo tyle, ile potrzebujesz dla fiszek */
     width: 100%;       /* zajmuje całą szerokość container */
 }
                 .thumb-czas {
@@ -1521,7 +1559,7 @@ input {
                 }
 .wordDisplay {
     position: absolute;
-    bottom: 370px;
+    bottom: 250px;
     cursor: pointer;
     font-size: 18px;
     width: 130px;
@@ -1535,7 +1573,7 @@ input {
 }
 
 .wordDisplay-even {
-    left: -200px;
+    left: -160px;
     background-color: lightgray;
 }
 
@@ -2323,7 +2361,6 @@ input {
                 </div><br>
                 <div id="matchingButtonsContainer" style="margin-top: 10px;"></div>
                 <p id="key3Result"></p>
-                <button class="left-button2">+<br></button>TE LEKCJE MAJĄ DOSTĘPNE SKOJARZENIA W WIĘKSZYM ZAKRESIE TEMATÓW (DZIAŁA)
 <div class="user-cards" data-user-cards-container></div>
 
 
@@ -2352,7 +2389,20 @@ input {
         <div class="toggle-button" id="toggleButton">
             <span id="arrow">&#9660;</span> <!-- Strzałka skierowana w dół -->
         </div>
-
+<div id="wordCounterBox" style="
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    background: black;
+    color: #00ff7f;
+    padding: 10px 15px;
+    border-radius: 10px;
+    font-size: 18px;
+    z-index: 9999;
+">
+    Przejrzane słowa: <span id="wordCounter">0</span>
+</div>                                                                                        <script src="start/miniatury-prezentacja.js"></script>
+    
         <script>
             const SIGNED_TOKEN = "dummySignedToken";
                         const tablica10 = [];
@@ -2414,7 +2464,20 @@ function getUniqueWordArray(fiszkiArray) {
   return words;
 }
 
-const uniqueWords = getUniqueWordArray(fiszki10);
+function showUniqueWordsUpToLesson73() {
+
+  // 🔥 od początku do 73
+  const filtered = fiszki10.filter(f => 
+    f.id && f.id[0] <= 73
+  );
+
+  const uniqueWords = getUniqueWordArray(filtered);
+
+  document.getElementById('wordCounter').textContent = uniqueWords.length;
+
+  console.log("unikalne słowa:", uniqueWords);
+}
+showUniqueWordsUpToLesson73();
 
 // 👇 najczytelniejszy sposób — TABELA
 console.table('słowa', uniqueWords);
@@ -3165,6 +3228,7 @@ function findMatchingFiszkiCount(category, fiszki) {
                 category = category || globalCategory;
                 czasv2 = czas;
                 number;
+
                        console.log('Liczba5', index55, index77); // Dodano log licznika losowań
                 console.log('hej108n', number);
                 console.log("Wybrany rodzaj słownictwa:vv ", selectedCategory);
@@ -3906,42 +3970,9 @@ console.log('wykonuje się12b', index50, index70, number);
                             }
                           
 
-// ... Twój warunek i logika dalej
-if (flagaPrzycisku2 && !flagaPrzycisku && (tablica10.length <= indexDivRange) && selectedCategory === 'all' && ostatniaWartosc < 2 && ostatniaWartosc > 0 && !number) {
-    console.log('działa 77');
-    if (newIndex !== 0) {
-        // --- LEKCJA INTERAKTYWNA ---
-        showCombinedSentenceForLesson22b(
-            selectedCategory, matchingIndexes3, rodzaj, matchingIndexes2,
-            buttonindex, index55, index77, lessonId1, lessonId2, lessonId3, fiszki, matchingIndexes,
-            startIndex, newIndex, indexDiv,
-            lessonsArray, lesson1PartLength, lesson2PartLength, lesson3PartLength,
-            lesson1Sentences, lesson2Sentences, lesson3Sentences,
-            lesson1FirstPartLength, lesson2FirstPartLength, lesson3FirstPartLength,
-            lesson1SecondPartLength, lesson2SecondPartLength, lesson3SecondPartLength,
-            cumulativeFirstPartLength1, cumulativeFirstPartLength2, cumulativeFirstPartLength3,
-            lessonsArrayZ, matchingLessons5, matchingLessons5b, isSearching
-        );
-    }
-    if (newIndex === 0) {
-        // --- LEKCJA INTERAKTYWNA ---
-        showCombinedSentenceForLesson22b(
-            selectedCategory, matchingIndexes3, rodzaj, matchingIndexes2,
-            buttonindex, index55, index77, lessonId1, lessonId2, lessonId3, fiszki, matchingIndexes,
-            startIndex, newIndex, indexDiv,
-            lessonsArray, lesson1PartLength, lesson2PartLength, lesson3PartLength,
-            lesson1Sentences, lesson2Sentences, lesson3Sentences,
-            lesson1FirstPartLength, lesson2FirstPartLength, lesson3FirstPartLength,
-            lesson1SecondPartLength, lesson2SecondPartLength, lesson3SecondPartLength,
-            cumulativeFirstPartLength1, cumulativeFirstPartLength2, cumulativeFirstPartLength3,
-            lessonsArrayZ, matchingLessons5, matchingLessons5b, isSearching
-        );
-    }
-    console.log('działa 77b');
-} else if (flagaPrzycisku2 && !flagaPrzycisku && (tablica10.length <= indexDivRange) && selectedCategory === 'all' && ostatniaWartosc < 3 && ostatniaWartosc > 1 && !number) {
-    if (index55 === indexDiv) {
-            console.log('wykonuje się12bvv', index50, index70, number);
-            showCombinedSentenceForLesson(
+if (indexDiv <= 45) {
+
+    showCombinedSentenceForLesson22b(
         selectedCategory, matchingIndexes3, rodzaj, matchingIndexes2,
         buttonindex, index55, index77, lessonId1, lessonId2, lessonId3, fiszki, matchingIndexes,
         startIndex, newIndex, indexDiv,
@@ -3950,47 +3981,17 @@ if (flagaPrzycisku2 && !flagaPrzycisku && (tablica10.length <= indexDivRange) &&
         lesson1FirstPartLength, lesson2FirstPartLength, lesson3FirstPartLength,
         lesson1SecondPartLength, lesson2SecondPartLength, lesson3SecondPartLength,
         cumulativeFirstPartLength1, cumulativeFirstPartLength2, cumulativeFirstPartLength3,
-        lessonsArrayZ, matchingLessons5, matchingLessons5b, isSearching
-        );
-                    }
-                    } else if (flagaPrzycisku2 && !flagaPrzycisku && (tablica10.length <= indexDivRange) && selectedCategory === 'all' && ostatniaWartosc < 4 && ostatniaWartosc > 2 && !number) {
-        if (index77 === indexDiv) {
-            console.log('wykonuje się12bvvv', index55, index77, number);
-        showCombinedSentenceForLesson22b(
-            selectedCategory, matchingIndexes3, rodzaj, matchingIndexes2,
-            buttonindex, index55, index77, lessonId1, lessonId2, lessonId3, fiszki, matchingIndexes,
-            startIndex, newIndex, indexDiv,
-            lessonsArray, lesson1PartLength, lesson2PartLength, lesson3PartLength,
-            lesson1Sentences, lesson2Sentences, lesson3Sentences,
-            lesson1FirstPartLength, lesson2FirstPartLength, lesson3FirstPartLength,
-            lesson1SecondPartLength, lesson2SecondPartLength, lesson3SecondPartLength,
-            cumulativeFirstPartLength1, cumulativeFirstPartLength2, cumulativeFirstPartLength3,
-            lessonsArrayZ, matchingLessons5, matchingLessons5b, isSearching
-        );
-                    }
-            if (index55 === indexDiv) {
-            console.log('wykonuje się12bvv', index50, index70, number);
-            showCombinedSentenceForLesson(
-        selectedCategory, matchingIndexes3, rodzaj, matchingIndexes2,
-        buttonindex, index55, index77, lessonId1, lessonId2, lessonId3, fiszki, matchingIndexes,
-        startIndex, newIndex, indexDiv,
-        lessonsArray, lesson1PartLength, lesson2PartLength, lesson3PartLength,
-        lesson1Sentences, lesson2Sentences, lesson3Sentences,
-        lesson1FirstPartLength, lesson2FirstPartLength, lesson3FirstPartLength,
-        lesson1SecondPartLength, lesson2SecondPartLength, lesson3SecondPartLength,
-        cumulativeFirstPartLength1, cumulativeFirstPartLength2, cumulativeFirstPartLength3,
-        lessonsArrayZ, matchingLessons5, matchingLessons5b, isSearching
-        );
-                    }
-                        losowaniaCounter = 2;
-    tablica33.push(losowaniaCounter);
-    const ostatniaWartosc = 2; 
-                    }
+        lessonsArrayZ, matchingLessons5, matchingLessons5b, isSearching,
+        null
+    );
+
+}
                     }
                         console.log('Aktualna zawartość tablicy lessonsArray:', lessonsArray);
                         const numberOfContainers = $('.image-container3').length;
                         console.log('Liczba dodanych divów:', numberOfContainers);
                     }
+
                 }
 
                 if (czas === 'zdania' && czas !== 'fiszki' && !isSearching) {
@@ -4133,10 +4134,56 @@ if (flagaPrzycisku2 && !flagaPrzycisku && (tablica10.length <= indexDivRange) &&
                         }
                     }
                 }
+                const viewedLessons = new Set();
+function updateVisibleLessons() {
 
+    $('.image-container3b').each(function () {
+
+        const rect = this.getBoundingClientRect();
+
+        const isVisibleInViewport =
+            rect.bottom > 0 &&
+            rect.top < window.innerHeight &&
+            rect.width > 0 &&
+            rect.height > 0;
+
+        if (!isVisibleInViewport) return;
+
+        const lesson = Number($(this).attr('data-lesson'));
+
+        if (!isNaN(lesson)) {
+            viewedLessons.add(lesson);
+        }
+    });
+
+    const visibleLessonsArr = Array.from(viewedLessons);
+
+    if (visibleLessonsArr.length === 0) return;
+
+    const lastLesson = visibleLessonsArr[visibleLessonsArr.length - 1];
+
+    const endY = lastLesson * 3;
+
+    const lessonFiszki = fiszki10.filter(f => {
+        const y = f.id[1];
+        return y <= endY;
+    });
+
+    // 🔥 KLUCZOWA CZĘŚĆ
+    const uniqueWords = getUniqueWordArray(lessonFiszki);
+    const x = uniqueWords.length;
+
+    console.log('hej33 x =', x);
+
+    $('#wordCounter').text(x);
+}
+                        $(window).on('scroll', function () {
+    updateVisibleLessons();
+});
+updateVisibleLessons();
             }
             </script>
-                                                                                        <script src="start/miniatury-prezentacja.js"></script>
+
                                 <script src="displayx3.js"></script>
                                     <script src="nowydzialajacy.js"></script>
         <script src="displayx1.js"></script>

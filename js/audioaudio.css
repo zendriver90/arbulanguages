@@ -171,6 +171,7 @@
     z-index: 10;
 }
 #part {
+    padding-top: 20px;
     position: relative;
     height: auto;
     font-size: 40px;
@@ -206,7 +207,7 @@
 .adannotation::after {
   content: attr(data-annotation); /* Wyświetla adnotację na podstawie atrybutu */
   position: absolute;
-  font-size: 30px; /* Jeszcze większy rozmiar dla potęgi */
+  font-size: 10px; /* Jeszcze większy rozmiar dla potęgi */
   top: -1.2em; /* Umieszczenie wyżej nad tekstem */
   right: -0.3em; /* Przesunięcie w prawo */
   color: #555; /* Kolor potęgi */
@@ -217,7 +218,7 @@
 /* Kolory dla tekstu i potęg */
 .adannotation[data-annotation="1"] {
   color: blue; /* Kolor niebieski dla tekstu i potęgi */
-          font-size: 30px;
+          font-size: 15px;
 }
 
 .adannotation[data-annotation="1"]::after {
@@ -227,7 +228,7 @@
 
 .adannotation[data-annotation="2"] {
   color: orange; /* Kolor pomarańczowy dla tekstu i potęgi */
-          font-size: 30px;
+          font-size: 15px;
 }
 
 .adannotation[data-annotation="2"]::after {
@@ -237,7 +238,7 @@
 
 .adannotation[data-annotation="3"] {
   color: green; /* Kolor zielony dla tekstu i potęgi */
-          font-size: 30px;
+          font-size: 15px;
 }
 
 .adannotation[data-annotation="3"]::after {

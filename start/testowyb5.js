@@ -8,7 +8,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "http://localhost/arbulanguage.com/img/fiszkiespanol/1a.jpg",
+                src: "https://www.arbulang.com/img/fiszkiespanol/1a.jpg",
                 alt: ""
             },
             story: {
@@ -20,7 +20,7 @@ const fiszki10 = [
         {
             id: 2,
             img: {
-                src: "http://localhost/arbulanguage.com/img/fiszkiespanol/1b.jpg",
+                src: "https://www.arbulang.com/img/fiszkiespanol/1b.jpg",
                 alt: ""
             },
             story: {
@@ -32,7 +32,7 @@ const fiszki10 = [
         {
             id: 3,
             img: {
-                src: "http://localhost/arbulanguage.com/img/fiszkiespanol/1c.jpg",
+                src: "https://www.arbulang.com/img/fiszkiespanol/1c.jpg",
                 alt: ""
             },
             story: {
@@ -44,7 +44,7 @@ const fiszki10 = [
         {
             id: 4,
             img: {
-                src: "http://localhost/arbulanguage.com/img/fiszki1/1d.jpg",
+                src: "https://www.arbulang.com/img/fiszki1/1d.jpg",
                 alt: ""
             },
             story: {
@@ -56,14 +56,14 @@ const fiszki10 = [
     ],
         translate: "Rysować kwiat w zeszycie",
         translateb: "[Dibuhar una flor en el kuaderno]",
-        srcWord: ["http://localhost/arbulanguage.com/filmy/esp/drawing.mp4", 'Titanic'],
-        srcWordimage: "http://localhost/arbulanguage.com/filmy/esp/drawing.png",
+        srcWord: ["https://www.arbulang.com/filmy/esp/drawing.mp4", 'Titanic'],
+        srcWordimage: "https://www.arbulang.com/filmy/esp/drawing.png",
         word: [
-                "http://localhost/arbulanguage.com/voice/hiszpanski/sentence1/dibujar.mp3"
+                "https://www.arbulang.com/voice/hiszpanski/sentence1/dibujar.mp3"
         ],
-                word2: [ 'Czasami lubię <span class="adannotation2">dibujar</span> wieczorem.', "http://localhost/arbulanguage.com/voice/espanol/sentence1/dibujar1.mp3"],
-                word3: [ '<span class="adannotation2">Dibujar</span> pomaga mi się uspokoić', "http://localhost/arbulanguage.com/voice/espanol/sentence1/dibujar2.mp3"],
-                word4: [ 'Chcę <span class="adannotation2">dibujar</span> coś nowego', "http://localhost/arbulanguage.com/voice/espanol/sentence1/dibujar3.mp3"],
+                word2: [ 'Czasami lubię <span class="adannotation2">dibujar</span> wieczorem.', "https://www.arbulang.com/voice/espanol/sentence1/dibujar1.mp3"],
+                word3: [ '<span class="adannotation2">Dibujar</span> pomaga mi się uspokoić', "https://www.arbulang.com/voice/espanol/sentence1/dibujar2.mp3"],
+                word4: [ 'Chcę <span class="adannotation2">dibujar</span> coś nowego', "https://www.arbulang.com/voice/espanol/sentence1/dibujar3.mp3"],
         // opis
         desc: "dibujar[dibuhar] - rysować",
         //zdanie
@@ -101,7 +101,7 @@ id: [
         {
             id: 1,
             img: {
-                src: "http://localhost/arbulanguage.com/img/fiszkiespanol/2a.jpg",
+                src: "https://www.arbulang.com/img/fiszkiespanol/2a.jpg",
                 alt: ""
             },
             story: {
@@ -112,7 +112,7 @@ id: [
         }
     ],
         word: [
-                "http://localhost/arbulanguage.com/voice/hiszpanski/sentence1/una_flor.mp3"
+                "https://www.arbulang.com/voice/hiszpanski/sentence1/una_flor.mp3"
         ],
 word2: [ 'Czasami maluję <span class="adannotation2">una flor</span> w zeszycie' ],
 word3: [ '<span class="adannotation2">Una flor</span> wygląda pięknie w ogrodzie' ],
@@ -148,7 +148,7 @@ id: [
         {
             id: 1,
             img: {
-                src: "http://localhost/arbulanguage.com/img/fiszkiespanol/3a.jpg",
+                src: "https://www.arbulang.com/img/fiszkiespanol/3a.jpg",
                 alt: ""
             },
             story: {
@@ -159,7 +159,7 @@ id: [
         }
     ],
         word: [
-                "http://localhost/arbulanguage.com/voice/hiszpanski/sentence1/en.mp3"
+                "https://www.arbulang.com/voice/hiszpanski/sentence1/en.mp3"
         ],
 word2: [ 'Spotkaliśmy się <span class="adannotation2">en</span> parku' ],
 word3: [ 'Znalazłem list <span class="adannotation2">en</span> szufladzie' ],
@@ -197,7 +197,7 @@ id: [
         {
             id: 1,
             img: {
-                src: "http://localhost/arbulanguage.com/img/fiszkiespanol/4a.jpg",
+                src: "https://www.arbulang.com/img/fiszkiespanol/4a.jpg",
                 alt: ""
             },
             story: {
@@ -208,7 +208,7 @@ id: [
         }
     ],
         word: [
-                "http://localhost/arbulanguage.com/voice/hiszpanski/sentence1/el_cuaderno.mp3"
+                "https://www.arbulang.com/voice/hiszpanski/sentence1/el_cuaderno.mp3"
         ],
         word2: [ 'Położyłem <span class="adannotation2">el cuaderno</span> na biurku' ],
 word3: [ '<span class="adannotation2">El cuaderno</span> jest nowy i czysty' ],
@@ -244,7 +244,7 @@ id: [
         {
             id: 1,
             img: {
-                src: "http://localhost/arbulanguage.com/img/fiszkiespanol/5a.jpg",
+                src: "https://www.arbulang.com/img/fiszkiespanol/5a.jpg",
                 alt: ""
             },
             story: {
@@ -256,10 +256,10 @@ id: [
     ],
         translate: "Czekać samemu w domu",
         translateb: "[Esperar solo dentro de la kasa]",
-        srcWord: ["http://localhost/arbulanguage.com/filmy/esp/home.mp4", 'Mechanik. Konfrontacja'],
-        srcWordimage: "http://localhost/arbulanguage.com/filmy/esp/home.png",
+        srcWord: ["https://www.arbulang.com/filmy/esp/home.mp4", 'Mechanik. Konfrontacja'],
+        srcWordimage: "https://www.arbulang.com/filmy/esp/home.png",
         word: [
-                "http://localhost/arbulanguage.com/voice/hiszpanski/sentence2/esperar.mp3"
+                "https://www.arbulang.com/voice/hiszpanski/sentence2/esperar.mp3"
         ],
         // opis
         desc: "esperar[esperar] - czekać",
@@ -293,7 +293,7 @@ id: [
         {
             id: 1,
             img: {
-                src: "http://localhost/arbulanguage.com/img/fiszkiespanol/6a.jpg",
+                src: "https://www.arbulang.com/img/fiszkiespanol/6a.jpg",
                 alt: ""
             },
             story: {
@@ -304,7 +304,7 @@ id: [
         }
     ],
         word: [
-                "http://localhost/arbulanguage.com/voice/hiszpanski/sentence2/solo.mp3"
+                "https://www.arbulang.com/voice/hiszpanski/sentence2/solo.mp3"
         ],
         // opis
         desc: "solo[solo] - samemu/tylko",
@@ -337,7 +337,7 @@ id: [
         {
             id: 1,
             img: {
-                src: "http://localhost/arbulanguage.com/img/fiszkiespanol/7a.jpg",
+                src: "https://www.arbulang.com/img/fiszkiespanol/7a.jpg",
                 alt: ""
             },
             story: {
@@ -348,7 +348,7 @@ id: [
         }
     ],
         word: [
-                "http://localhost/arbulanguage.com/voice/hiszpanski/sentence2/dentro_de.mp3"
+                "https://www.arbulang.com/voice/hiszpanski/sentence2/dentro_de.mp3"
         ],
         // opis
         desc: "dentro de[dentro de] - w",
@@ -381,7 +381,7 @@ id: [
         {
             id: 1,
             img: {
-                src: "http://localhost/arbulanguage.com/img/fiszkiespanol/8a.jpg",
+                src: "https://www.arbulang.com/img/fiszkiespanol/8a.jpg",
                 alt: ""
             },
             story: {
@@ -392,7 +392,7 @@ id: [
         }
     ],
         word: [
-                "http://localhost/arbulanguage.com/voice/hiszpanski/sentence2/la_casa.mp3"
+                "https://www.arbulang.com/voice/hiszpanski/sentence2/la_casa.mp3"
         ],
         // opis
         desc: "la casa[la kasa] - dom",
@@ -425,7 +425,7 @@ id: [
         {
             id: 1,
             img: {
-                src: "http://localhost/arbulanguage.com/img/fiszkiespanol/9a.jpg",
+                src: "https://www.arbulang.com/img/fiszkiespanol/9a.jpg",
                 alt: ""
             },
             story: {
@@ -437,10 +437,10 @@ id: [
     ],
         translate: "Rozmawiać bez napięcia, idąc razem",
         translateb: "[Ablar sin tensión mientras kaminamos huntos]",
-        srcWord: ["http://localhost/arbulanguage.com/filmy/esp/conversation.mp4", 'Incepcja'],
-        srcWordimage: "http://localhost/arbulanguage.com/filmy/esp/conversation.png",
+        srcWord: ["https://www.arbulang.com/filmy/esp/conversation.mp4", 'Incepcja'],
+        srcWordimage: "https://www.arbulang.com/filmy/esp/conversation.png",
         word: [
-                "http://localhost/arbulanguage.com/voice/hiszpanski/sentence3/hablar.mp3"
+                "https://www.arbulang.com/voice/hiszpanski/sentence3/hablar.mp3"
         ],
         // opis
         desc: "hablar[ablar] - rozmawiać",
@@ -475,7 +475,7 @@ id: [
         {
             id: 1,
             img: {
-                src: "http://localhost/arbulanguage.com/img/fiszkiespanol/10a.jpg",
+                src: "https://www.arbulang.com/img/fiszkiespanol/10a.jpg",
                 alt: ""
             },
             story: {
@@ -486,7 +486,7 @@ id: [
         }
     ],
         word: [
-                "http://localhost/arbulanguage.com/voice/hiszpanski/sentence3/sin.mp3"
+                "https://www.arbulang.com/voice/hiszpanski/sentence3/sin.mp3"
         ],
         // opis
         desc: "sin[sin] - bez",
@@ -520,7 +520,7 @@ id: [
         {
             id: 1,
             img: {
-                src: "http://localhost/arbulanguage.com/img/fiszkiespanol/11a.jpg",
+                src: "https://www.arbulang.com/img/fiszkiespanol/11a.jpg",
                 alt: ""
             },
             story: {
@@ -531,7 +531,7 @@ id: [
         }
     ],
         word: [
-                "http://localhost/arbulanguage.com/voice/hiszpanski/sentence3/tension.mp3"
+                "https://www.arbulang.com/voice/hiszpanski/sentence3/tension.mp3"
         ],
         // opis
         desc: "tensión[tension] - napięcie",
@@ -565,7 +565,7 @@ id: [
         {
             id: 1,
             img: {
-                src: "http://localhost/arbulanguage.com/img/fiszkiespanol/12a.jpg",
+                src: "https://www.arbulang.com/img/fiszkiespanol/12a.jpg",
                 alt: ""
             },
             story: {
@@ -576,7 +576,7 @@ id: [
         }
     ],
         word: [
-                "http://localhost/arbulanguage.com/voice/hiszpanski/sentence3/mientras.mp3"
+                "https://www.arbulang.com/voice/hiszpanski/sentence3/mientras.mp3"
         ],
         // opis
         desc: "mientras[mientras] - gdy/podczas gdy",
@@ -610,7 +610,7 @@ id: [
         {
             id: 1,
             img: {
-                src: "http://localhost/arbulanguage.com/img/fiszkiespanol/13a.jpg",
+                src: "https://www.arbulang.com/img/fiszkiespanol/13a.jpg",
                 alt: ""
             },
             story: {
@@ -621,7 +621,7 @@ id: [
         }
     ],
         word: [
-                "http://localhost/arbulanguage.com/voice/hiszpanski/sentence3/caminamos.mp3"
+                "https://www.arbulang.com/voice/hiszpanski/sentence3/caminamos.mp3"
         ],
         // opis
         desc: "caminamos[kaminamos] - idąc",
@@ -655,7 +655,7 @@ id: [
         {
             id: 1,
             img: {
-                src: "http://localhost/arbulanguage.com/img/fiszkiespanol/14a.jpg",
+                src: "https://www.arbulang.com/img/fiszkiespanol/14a.jpg",
                 alt: ""
             },
             story: {
@@ -666,7 +666,7 @@ id: [
         }
     ],
         word: [
-                "http://localhost/arbulanguage.com/voice/hiszpanski/sentence3/juntos.mp3"
+                "https://www.arbulang.com/voice/hiszpanski/sentence3/juntos.mp3"
         ],
         // opis
         desc: "juntos[hunots] - razem",
@@ -700,7 +700,7 @@ id: [
         {
             id: 1,
             img: {
-                src: "http://localhost/arbulanguage.com/img/fiszkiespanol/15a.jpg",
+                src: "https://www.arbulang.com/img/fiszkiespanol/15a.jpg",
                 alt: ""
             },
             story: {
@@ -712,10 +712,10 @@ id: [
     ],
         translate: "Przerywać ciszę pięknymi słowami",
         translateb: "[Romper el silensio kon palawras bonitas]",
-        srcWord: ["http://localhost/arbulanguage.com/filmy/esp/beautiful-words.mp4", '300'],
-        srcWordimage: "http://localhost/arbulanguage.com/filmy/esp/beautiful-words.png",
+        srcWord: ["https://www.arbulang.com/filmy/esp/beautiful-words.mp4", '300'],
+        srcWordimage: "https://www.arbulang.com/filmy/esp/beautiful-words.png",
         word: [
-                "http://localhost/arbulanguage.com/voice/hiszpanski/sentence4/romper.mp3"
+                "https://www.arbulang.com/voice/hiszpanski/sentence4/romper.mp3"
         ],
         // opis
         desc: "romper[romper] - przełamać",
@@ -750,7 +750,7 @@ id: [
         {
             id: 1,
             img: {
-                src: "http://localhost/arbulanguage.com/img/fiszkiespanol/16a.jpg",
+                src: "https://www.arbulang.com/img/fiszkiespanol/16a.jpg",
                 alt: ""
             },
             story: {
@@ -761,7 +761,7 @@ id: [
         }
     ],
         word: [
-                "http://localhost/arbulanguage.com/voice/hiszpanski/sentence4/el_silencio.mp3"
+                "https://www.arbulang.com/voice/hiszpanski/sentence4/el_silencio.mp3"
         ],
         // opis
         desc: "el silencio[el silensio] - cisza",
@@ -795,7 +795,7 @@ id: [
         {
             id: 1,
             img: {
-                src: "http://localhost/arbulanguage.com/img/fiszkiespanol/17a.jpg",
+                src: "https://www.arbulang.com/img/fiszkiespanol/17a.jpg",
                 alt: ""
             },
             story: {
@@ -807,7 +807,7 @@ id: [
         {
             id: 2,
             img: {
-                src: "http://localhost/arbulanguage.com/img/fiszkiespanol/31a.jpg",
+                src: "https://www.arbulang.com/img/fiszkiespanol/31a.jpg",
                 alt: ""
             },
             story: {
@@ -819,7 +819,7 @@ id: [
                 {
             id: 3,
             img: {
-                src: "http://localhost/arbulanguage.com/img/fiszkiespanol/31b.jpg",
+                src: "https://www.arbulang.com/img/fiszkiespanol/31b.jpg",
                 alt: ""
             },
             story: {
@@ -830,7 +830,7 @@ id: [
         }
     ],
         word: [
-                "http://localhost/arbulanguage.com/voice/hiszpanski/sentence4/con.mp3"
+                "https://www.arbulang.com/voice/hiszpanski/sentence4/con.mp3"
         ],
         // opis
         desc: "con[kon] - z",
@@ -864,7 +864,7 @@ id: [
         {
             id: 1,
             img: {
-                src: "http://localhost/arbulanguage.com/img/fiszkiespanol/18a.jpg",
+                src: "https://www.arbulang.com/img/fiszkiespanol/18a.jpg",
                 alt: ""
             },
             story: {
@@ -875,7 +875,7 @@ id: [
         }
     ],
         word: [
-                "http://localhost/arbulanguage.com/voice/hiszpanski/sentence4/palabras.mp3"
+                "https://www.arbulang.com/voice/hiszpanski/sentence4/palabras.mp3"
         ],
         // opis
         desc: "palabras[palawras] - słowa(liczba mnoga)",
@@ -908,7 +908,7 @@ id: [
         {
             id: 1,
             img: {
-                src: "http://localhost/arbulanguage.com/img/fiszkiespanol/19a.jpg",
+                src: "https://www.arbulang.com/img/fiszkiespanol/19a.jpg",
                 alt: ""
             },
             story: {
@@ -919,7 +919,7 @@ id: [
         }
     ],
         word: [
-                "http://localhost/arbulanguage.com/voice/hiszpanski/sentence4/bonitas.mp3"
+                "https://www.arbulang.com/voice/hiszpanski/sentence4/bonitas.mp3"
         ],
         // opis
         desc: "bonitas[bonitas] - piękne(liczba mnoga)",
@@ -952,7 +952,7 @@ id: [
         {
             id: 1,
             img: {
-                src: "http://localhost/arbulanguage.com/img/fiszkiespanol/20a.jpg",
+                src: "https://www.arbulang.com/img/fiszkiespanol/20a.jpg",
                 alt: ""
             },
             story: {
@@ -964,10 +964,10 @@ id: [
     ],
         translate: "Zabezpieczać drzwi przed snem",
         translateb: "[Asegurar las puertas antes de dormir]",
-        srcWord: ["http://localhost/arbulanguage.com/filmy/esp/door.mp4", 'The Matrix Reloaded'],
-        srcWordimage: "http://localhost/arbulanguage.com/filmy/esp/door.png",
+        srcWord: ["https://www.arbulang.com/filmy/esp/door.mp4", 'The Matrix Reloaded'],
+        srcWordimage: "https://www.arbulang.com/filmy/esp/door.png",
         word: [
-                "http://localhost/arbulanguage.com/voice/hiszpanski/sentence5/asegurar.mp3"
+                "https://www.arbulang.com/voice/hiszpanski/sentence5/asegurar.mp3"
         ],
         // opis
         desc: "asegurar[asegurar] - zabezpieczać",
@@ -1001,7 +1001,7 @@ id: [
         {
             id: 1,
             img: {
-                src: "http://localhost/arbulanguage.com/img/fiszkiespanol/21a.jpg",
+                src: "https://www.arbulang.com/img/fiszkiespanol/21a.jpg",
                 alt: ""
             },
             story: {
@@ -1012,7 +1012,7 @@ id: [
         }
     ],
         word: [
-                "http://localhost/arbulanguage.com/voice/hiszpanski/sentence5/las_puerta.mp3"
+                "https://www.arbulang.com/voice/hiszpanski/sentence5/las_puerta.mp3"
         ],
         // opis
         desc: "las puertas[las puerta] - drzwi-liczba mnoga",
@@ -1045,7 +1045,7 @@ id: [
         {
             id: 1,
             img: {
-                src: "http://localhost/arbulanguage.com/img/fiszkiespanol/22a.jpg",
+                src: "https://www.arbulang.com/img/fiszkiespanol/22a.jpg",
                 alt: ""
             },
             story: {
@@ -1056,7 +1056,7 @@ id: [
         }
     ],
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // opis
         desc: "antes de[antes de] - przed",
@@ -1089,7 +1089,7 @@ id: [
         {
             id: 1,
             img: {
-                src: "http://localhost/arbulanguage.com/img/fiszkiespanol/23a.jpg",
+                src: "https://www.arbulang.com/img/fiszkiespanol/23a.jpg",
                 alt: ""
             },
             story: {
@@ -1100,7 +1100,7 @@ id: [
         }
     ],
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // opis
         desc: "dormir[dormir] - sypiać",
@@ -1133,7 +1133,7 @@ id: [
         {
             id: 1,
             img: {
-                src: "http://localhost/arbulanguage.com/img/fiszkiespanol/24a.jpg",
+                src: "https://www.arbulang.com/img/fiszkiespanol/24a.jpg",
                 alt: ""
             },
             story: {
@@ -1145,10 +1145,10 @@ id: [
     ],
         translate: "Zachować spokój i cieszyć się razem",
         translateb: "[Mantener la kalma i disfrutar huntos]",
-        srcWord: ["http://localhost/arbulanguage.com/filmy/esp/smiling.mp4", '300'],
-        srcWordimage: "http://localhost/arbulanguage.com/filmy/esp/smiling.png",
+        srcWord: ["https://www.arbulang.com/filmy/esp/smiling.mp4", '300'],
+        srcWordimage: "https://www.arbulang.com/filmy/esp/smiling.png",
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // opis
         desc: "mantener[mantener] - zachować/utrzymać",
@@ -1182,7 +1182,7 @@ id: [
         {
             id: 1,
             img: {
-                src: "http://localhost/arbulanguage.com/img/fiszkiespanol/25a.jpg",
+                src: "https://www.arbulang.com/img/fiszkiespanol/25a.jpg",
                 alt: ""
             },
             story: {
@@ -1193,7 +1193,7 @@ id: [
         }
     ],
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // opis
         desc: "la calma[la kalma] - spokój",
@@ -1226,7 +1226,7 @@ id: [
         {
             id: 1,
             img: {
-                src: "http://localhost/arbulanguage.com/img/fiszkiespanol/64a.jpg",
+                src: "https://www.arbulang.com/img/fiszkiespanol/64a.jpg",
                 alt: ""
             },
             story: {
@@ -1237,7 +1237,7 @@ id: [
         }
     ],
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // opis
         desc: "y[i] - i",
@@ -1271,7 +1271,7 @@ id: [
         {
             id: 1,
             img: {
-                src: "http://localhost/arbulanguage.com/img/fiszkiespanol/27a.jpg",
+                src: "https://www.arbulang.com/img/fiszkiespanol/27a.jpg",
                 alt: ""
             },
             story: {
@@ -1282,7 +1282,7 @@ id: [
         }
     ],
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // opis
         desc: "disfrutar[disfrutar] - cieszyć się",
@@ -1316,7 +1316,7 @@ id: [
         {
             id: 1,
             img: {
-                src: "http://localhost/arbulanguage.com/img/fiszkiespanol/14a.jpg",
+                src: "https://www.arbulang.com/img/fiszkiespanol/14a.jpg",
                 alt: ""
             },
             story: {
@@ -1327,7 +1327,7 @@ id: [
         }
     ],
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // opis
         desc: "juntos[hunots] - razem",
@@ -1361,7 +1361,7 @@ id: [
         {
             id: 1,
             img: {
-                src: "http://localhost/arbulanguage.com/img/fiszkiespanol/29a.jpg",
+                src: "https://www.arbulang.com/img/fiszkiespanol/29a.jpg",
                 alt: ""
             },
             story: {
@@ -1373,10 +1373,10 @@ id: [
     ],
         translate: "Osiągać marzenia przez wysiłek i poświęcenie",
         translateb: "[Lograr sueños con esfuerzo y dedicación]",
-        srcWord: ["http://localhost/arbulanguage.com/filmy/esp/dreams.mp4", 'Pain And Gain'],
-        srcWordimage: "http://localhost/arbulanguage.com/filmy/esp/dreams.png",
+        srcWord: ["https://www.arbulang.com/filmy/esp/dreams.mp4", 'Pain And Gain'],
+        srcWordimage: "https://www.arbulang.com/filmy/esp/dreams.png",
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // opis
         desc: "lograr[lograr] - osiągać",
@@ -1411,7 +1411,7 @@ id: [
         {
             id: 1,
             img: {
-                src: "http://localhost/arbulanguage.com/img/fiszkiespanol/30a.jpg",
+                src: "https://www.arbulang.com/img/fiszkiespanol/30a.jpg",
                 alt: ""
             },
             story: {
@@ -1422,7 +1422,7 @@ id: [
         }
     ],
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // opis
         desc: "sueños[słenios] - marzenia",
@@ -1456,7 +1456,7 @@ id: [
         {
             id: 1,
             img: {
-                src: "http://localhost/arbulanguage.com/img/fiszkiespanol/17a.jpg",
+                src: "https://www.arbulang.com/img/fiszkiespanol/17a.jpg",
                 alt: ""
             },
             story: {
@@ -1468,7 +1468,7 @@ id: [
         {
             id: 2,
             img: {
-                src: "http://localhost/arbulanguage.com/img/fiszkiespanol/31a.jpg",
+                src: "https://www.arbulang.com/img/fiszkiespanol/31a.jpg",
                 alt: ""
             },
             story: {
@@ -1480,7 +1480,7 @@ id: [
                 {
             id: 3,
             img: {
-                src: "http://localhost/arbulanguage.com/img/fiszkiespanol/31b.jpg",
+                src: "https://www.arbulang.com/img/fiszkiespanol/31b.jpg",
                 alt: ""
             },
             story: {
@@ -1491,7 +1491,7 @@ id: [
         }
     ],
         word: [
-                "http://localhost/arbulanguage.com/voice/hiszpanski/sentence4/con.mp3"
+                "https://www.arbulang.com/voice/hiszpanski/sentence4/con.mp3"
         ],
         // opis
         desc: "con[kon] - z",
@@ -1525,7 +1525,7 @@ id: [
         {
             id: 1,
             img: {
-                src: "http://localhost/arbulanguage.com/img/fiszkiespanol/32a.jpg",
+                src: "https://www.arbulang.com/img/fiszkiespanol/32a.jpg",
                 alt: ""
             },
             story: {
@@ -1536,7 +1536,7 @@ id: [
         }
     ],
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // opis
         desc: "esfuerzo[esfłerto] - wysiłek",
@@ -1570,7 +1570,7 @@ id: [
         {
             id: 1,
             img: {
-                src: "http://localhost/arbulanguage.com/img/fiszkiespanol/64a.jpg",
+                src: "https://www.arbulang.com/img/fiszkiespanol/64a.jpg",
                 alt: ""
             },
             story: {
@@ -1581,7 +1581,7 @@ id: [
         }
     ],
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // opis
         desc: "y[i] - i",
@@ -1615,7 +1615,7 @@ id: [
         {
             id: 1,
             img: {
-                src: "http://localhost/arbulanguage.com/img/fiszkiespanol/34a.jpg",
+                src: "https://www.arbulang.com/img/fiszkiespanol/34a.jpg",
                 alt: ""
             },
             story: {
@@ -1626,7 +1626,7 @@ id: [
         }
     ],
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // opis
         desc: "dedication[dedikasion] - poświęcenie",
@@ -1660,7 +1660,7 @@ id: [
         {
             id: 1,
             img: {
-                src: "http://localhost/arbulanguage.com/img/fiszkiespanol/35a.jpg",
+                src: "https://www.arbulang.com/img/fiszkiespanol/35a.jpg",
                 alt: ""
             },
             story: {
@@ -1672,10 +1672,10 @@ id: [
     ],
         translate: "Pamiętać szczęśliwe chwile z rodziną",
         translateb: "[Recordar momentos felices con la familia]",
-        srcWord: ["http://localhost/arbulanguage.com/filmy/esp/timewithfamily.mp4", 'Fast and Furious'],
-        srcWordimage: "http://localhost/arbulanguage.com/filmy/esp/timewithfamily.png",
+        srcWord: ["https://www.arbulang.com/filmy/esp/timewithfamily.mp4", 'Fast and Furious'],
+        srcWordimage: "https://www.arbulang.com/filmy/esp/timewithfamily.png",
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // opis
         desc: "recordar[rekordar] - pamiętać",
@@ -1710,7 +1710,7 @@ id: [
         {
             id: 1,
             img: {
-                src: "http://localhost/arbulanguage.com/img/fiszkiespanol/36a.jpg",
+                src: "https://www.arbulang.com/img/fiszkiespanol/36a.jpg",
                 alt: ""
             },
             story: {
@@ -1722,7 +1722,7 @@ id: [
         {
             id: 2,
             img: {
-                src: "http://localhost/arbulanguage.com/img/fiszkiespanol/36b.jpg",
+                src: "https://www.arbulang.com/img/fiszkiespanol/36b.jpg",
                 alt: ""
             },
             story: {
@@ -1733,7 +1733,7 @@ id: [
         }
     ],
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // opis
         desc: "momentos[momentos] - momenty/chwile",
@@ -1767,7 +1767,7 @@ id: [
         {
             id: 1,
             img: {
-                src: "http://localhost/arbulanguage.com/img/fiszkiespanol/37a.jpg",
+                src: "https://www.arbulang.com/img/fiszkiespanol/37a.jpg",
                 alt: ""
             },
             story: {
@@ -1778,7 +1778,7 @@ id: [
         }
     ],
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // opis
         desc: "felices[felises] - szczęsliwe",
@@ -1812,7 +1812,7 @@ id: [
         {
             id: 1,
             img: {
-                src: "http://localhost/arbulanguage.com/img/fiszkiespanol/17a.jpg",
+                src: "https://www.arbulang.com/img/fiszkiespanol/17a.jpg",
                 alt: ""
             },
             story: {
@@ -1824,7 +1824,7 @@ id: [
         {
             id: 2,
             img: {
-                src: "http://localhost/arbulanguage.com/img/fiszkiespanol/31a.jpg",
+                src: "https://www.arbulang.com/img/fiszkiespanol/31a.jpg",
                 alt: ""
             },
             story: {
@@ -1836,7 +1836,7 @@ id: [
                 {
             id: 3,
             img: {
-                src: "http://localhost/arbulanguage.com/img/fiszkiespanol/31b.jpg",
+                src: "https://www.arbulang.com/img/fiszkiespanol/31b.jpg",
                 alt: ""
             },
             story: {
@@ -1847,7 +1847,7 @@ id: [
         }
     ],
         word: [
-                "http://localhost/arbulanguage.com/voice/hiszpanski/sentence4/con.mp3"
+                "https://www.arbulang.com/voice/hiszpanski/sentence4/con.mp3"
         ],
         // opis
         desc: "con[kon] - z",
@@ -1880,7 +1880,7 @@ id: [
         {
             id: 1,
             img: {
-                src: "http://localhost/arbulanguage.com/img/fiszkiespanol/39b.jpg",
+                src: "https://www.arbulang.com/img/fiszkiespanol/39b.jpg",
                 alt: ""
             },
             story: {
@@ -1892,7 +1892,7 @@ id: [
         {
             id: 2,
             img: {
-                src: "http://localhost/arbulanguage.com/img/fiszkiespanol/39a.jpg",
+                src: "https://www.arbulang.com/img/fiszkiespanol/39a.jpg",
                 alt: ""
             },
             story: {
@@ -1903,7 +1903,7 @@ id: [
         }
     ],
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // opis
         desc: "la familia[la familia] - rodzina",
@@ -1936,7 +1936,7 @@ id: [
         {
             id: 1,
             img: {
-                src: "http://localhost/arbulanguage.com/img/fiszkiespanol/27a.jpg",
+                src: "https://www.arbulang.com/img/fiszkiespanol/27a.jpg",
                 alt: ""
             },
             story: {
@@ -1948,10 +1948,10 @@ id: [
     ],
         translate: "Cieszyć się makijażem przed wyjściem",
         translateb: "[Disfrutar del maquillaje antes de salir]",
-        srcWord: ["http://localhost/arbulanguage.com/filmy/esp/make-up.mp4", 'Piosenka: 10 minutes - Inna'],
-        srcWordimage: "http://localhost/arbulanguage.com/filmy/esp/make-up.png",
+        srcWord: ["https://www.arbulang.com/filmy/esp/make-up.mp4", 'Piosenka: 10 minutes - Inna'],
+        srcWordimage: "https://www.arbulang.com/filmy/esp/make-up.png",
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // opis
         desc: "disfrutar[disfrutar] - cieszyć się",
@@ -1986,7 +1986,7 @@ id: [
         {
             id: 1,
             img: {
-                src: "http://localhost/arbulanguage.com/img/fiszkiespanol/41a.jpg",
+                src: "https://www.arbulang.com/img/fiszkiespanol/41a.jpg",
                 alt: ""
             },
             story: {
@@ -1997,7 +1997,7 @@ id: [
         }
     ],
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // opis
         desc: "maquillaje[makijahe] - makijaż",
@@ -2030,7 +2030,7 @@ id: [
         {
             id: 1,
             img: {
-                src: "http://localhost/arbulanguage.com/img/fiszkiespanol/22a.jpg",
+                src: "https://www.arbulang.com/img/fiszkiespanol/22a.jpg",
                 alt: ""
             },
             story: {
@@ -2041,7 +2041,7 @@ id: [
         }
     ],
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // opis
         desc: "antes de[antes de] - przed",
@@ -2075,7 +2075,7 @@ id: [
         {
             id: 1,
             img: {
-                src: "http://localhost/arbulanguage.com/img/fiszkiespanol/43a.jpg",
+                src: "https://www.arbulang.com/img/fiszkiespanol/43a.jpg",
                 alt: ""
             },
             story: {
@@ -2086,7 +2086,7 @@ id: [
         }
     ],
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // opis
         desc: "salir[salir] - wyjście",
@@ -2119,7 +2119,7 @@ id: [
         {
             id: 1,
             img: {
-                src: "http://localhost/arbulanguage.com/img/fiszkiespanol/44a.jpg",
+                src: "https://www.arbulang.com/img/fiszkiespanol/44a.jpg",
                 alt: ""
             },
             story: {
@@ -2131,10 +2131,10 @@ id: [
     ],
         translate: "Zapomnieć o niepokoju, patrząc na gwiazdy",
         translateb: "[Olvidar la ansiedad mirando las estrellas]",
-        srcWord: ["http://localhost/arbulanguage.com/filmy/esp/gwiazdy.mp4", 'Pasażerowie (2016)'],
-        srcWordimage: "http://localhost/arbulanguage.com/filmy/esp/gwiazdy.png",
+        srcWord: ["https://www.arbulang.com/filmy/esp/gwiazdy.mp4", 'Pasażerowie (2016)'],
+        srcWordimage: "https://www.arbulang.com/filmy/esp/gwiazdy.png",
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // opis
         desc: "olvidar[olwidar] - zapomnieć",
@@ -2168,7 +2168,7 @@ id: [
         {
             id: 1,
             img: {
-                src: "http://localhost/arbulanguage.com/img/fiszkiespanol/45a.jpg",
+                src: "https://www.arbulang.com/img/fiszkiespanol/45a.jpg",
                 alt: ""
             },
             story: {
@@ -2179,7 +2179,7 @@ id: [
         }
     ],
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // opis
         desc: "la ansiedad[la ansiedad] - niepokój",
@@ -2212,7 +2212,7 @@ id: [
         {
             id: 1,
             img: {
-                src: "http://localhost/arbulanguage.com/img/fiszkiespanol/46a.jpg",
+                src: "https://www.arbulang.com/img/fiszkiespanol/46a.jpg",
                 alt: ""
             },
             story: {
@@ -2223,7 +2223,7 @@ id: [
         }
     ],
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // opis
         desc: "mirando[mirando] - patrzyć",
@@ -2256,7 +2256,7 @@ id: [
         {
             id: 1,
             img: {
-                src: "http://localhost/arbulanguage.com/img/fiszkiespanol/47a.jpg",
+                src: "https://www.arbulang.com/img/fiszkiespanol/47a.jpg",
                 alt: ""
             },
             story: {
@@ -2267,7 +2267,7 @@ id: [
         }
     ],
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // opis
         desc: "las estrellas[las estrejas] - gwiazdy",
@@ -2300,7 +2300,7 @@ id: [
         {
             id: 1,
             img: {
-                src: "http://localhost/arbulanguage.com/img/fiszkiespanol/48a.jpg",
+                src: "https://www.arbulang.com/img/fiszkiespanol/48a.jpg",
                 alt: ""
             },
             story: {
@@ -2312,10 +2312,10 @@ id: [
     ],
         translate: "Rozciągać ramiona ku błękitnemu niebu",
         translateb: "[Extender los brazos al cielo azul]",
-        srcWord: ["http://localhost/arbulanguage.com/filmy/esp/niebo.mp4", 'Skazani na Shawshank (1994)'],
-        srcWordimage: "http://localhost/arbulanguage.com/filmy/esp/niebo.png",
+        srcWord: ["https://www.arbulang.com/filmy/esp/niebo.mp4", 'Skazani na Shawshank (1994)'],
+        srcWordimage: "https://www.arbulang.com/filmy/esp/niebo.png",
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // opis
         desc: "extender[ekstender] - rozciągać",
@@ -2350,7 +2350,7 @@ id: [
         {
             id: 1,
             img: {
-                src: "http://localhost/arbulanguage.com/img/fiszkiespanol/49a.jpg",
+                src: "https://www.arbulang.com/img/fiszkiespanol/49a.jpg",
                 alt: ""
             },
             story: {
@@ -2361,7 +2361,7 @@ id: [
         }
     ],
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // opis
         desc: "los brazos[los brazos] - ramiona",
@@ -2395,7 +2395,7 @@ id: [
         {
             id: 1,
             img: {
-                src: "http://localhost/arbulanguage.com/img/fiszkiespanol/50a.jpg",
+                src: "https://www.arbulang.com/img/fiszkiespanol/50a.jpg",
                 alt: ""
             },
             story: {
@@ -2406,7 +2406,7 @@ id: [
         }
     ],
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // opis
         desc: "al[al] - ku",
@@ -2440,7 +2440,7 @@ id: [
         {
             id: 1,
             img: {
-                src: "http://localhost/arbulanguage.com/img/fiszkiespanol/51a.jpg",
+                src: "https://www.arbulang.com/img/fiszkiespanol/51a.jpg",
                 alt: ""
             },
             story: {
@@ -2451,7 +2451,7 @@ id: [
         }
     ],
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // opis
         desc: "cielo[sielo] - błękitne",
@@ -2484,7 +2484,7 @@ id: [
         {
             id: 1,
             img: {
-                src: "http://localhost/arbulanguage.com/img/fiszkiespanol/52a.jpg",
+                src: "https://www.arbulang.com/img/fiszkiespanol/52a.jpg",
                 alt: ""
             },
             story: {
@@ -2495,7 +2495,7 @@ id: [
         }
     ],
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // opis
         desc: "azul[azul] - niebo",
@@ -2528,7 +2528,7 @@ id: [
         {
             id: 1,
             img: {
-                src: "http://localhost/arbulanguage.com/img/fiszkiespanol/53a.jpg",
+                src: "https://www.arbulang.com/img/fiszkiespanol/53a.jpg",
                 alt: ""
             },
             story: {
@@ -2540,10 +2540,10 @@ id: [
     ],
         translate: "Pokryć samochód przed deszczem",
         translateb: "[Kubrir el coche antes de la lluvia]",
-        srcWord: ["http://localhost/arbulanguage.com/filmy/esp/showingcar.mp4", 'W pogodni za zemstą (2010)'],
-        srcWordimage: "http://localhost/arbulanguage.com/filmy/esp/showingcar.png",
+        srcWord: ["https://www.arbulang.com/filmy/esp/showingcar.mp4", 'W pogodni za zemstą (2010)'],
+        srcWordimage: "https://www.arbulang.com/filmy/esp/showingcar.png",
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // opis
         desc: "cubrir[kubrir] - pokryć",
@@ -2577,7 +2577,7 @@ id: [
         {
             id: 1,
             img: {
-                src: "http://localhost/arbulanguage.com/img/fiszkiespanol/54a.jpg",
+                src: "https://www.arbulang.com/img/fiszkiespanol/54a.jpg",
                 alt: ""
             },
             story: {
@@ -2588,7 +2588,7 @@ id: [
         }
     ],
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // opis
         desc: "el coche[kocze] - samochód",
@@ -2621,7 +2621,7 @@ id: [
         {
             id: 1,
             img: {
-                src: "http://localhost/arbulanguage.com/img/fiszkiespanol/22a.jpg",
+                src: "https://www.arbulang.com/img/fiszkiespanol/22a.jpg",
                 alt: ""
             },
             story: {
@@ -2632,7 +2632,7 @@ id: [
         }
     ],
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // opis
         desc: "antes de[antes de] - przed",
@@ -2665,7 +2665,7 @@ id: [
         {
             id: 1,
             img: {
-                src: "http://localhost/arbulanguage.com/img/fiszkiespanol/56a.jpg",
+                src: "https://www.arbulang.com/img/fiszkiespanol/56a.jpg",
                 alt: ""
             },
             story: {
@@ -2676,7 +2676,7 @@ id: [
         }
     ],
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // opis
         desc: "la lluvia[la dziubia] - deszcz",
@@ -2709,7 +2709,7 @@ id: [
         {
             id: 1,
             img: {
-                src: "http://localhost/arbulanguage.com/img/fiszkiespanol/57a.jpg",
+                src: "https://www.arbulang.com/img/fiszkiespanol/57a.jpg",
                 alt: ""
             },
             story: {
@@ -2721,10 +2721,10 @@ id: [
     ],
         translate: "Zmieniać umysł nowymi pomysłami",
         translateb: "[Cambiar la mente con nuevas ideas]",
-        srcWord: ["http://localhost/arbulanguage.com/filmy/esp/planning.mp4", 'Piękny Umysł (2001)'],
-        srcWordimage: "http://localhost/arbulanguage.com/filmy/esp/planning.png",
+        srcWord: ["https://www.arbulang.com/filmy/esp/planning.mp4", 'Piękny Umysł (2001)'],
+        srcWordimage: "https://www.arbulang.com/filmy/esp/planning.png",
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // opis
         desc: "cambiar[kambiar] - zmieniać",
@@ -2758,7 +2758,7 @@ id: [
         {
             id: 1,
             img: {
-                src: "http://localhost/arbulanguage.com/img/fiszkiespanol/58a.jpg",
+                src: "https://www.arbulang.com/img/fiszkiespanol/58a.jpg",
                 alt: ""
             },
             story: {
@@ -2769,7 +2769,7 @@ id: [
         }
     ],
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // opis
         desc: "la mente[la mente] - umysł",
@@ -2802,7 +2802,7 @@ id: [
         {
             id: 1,
             img: {
-                src: "http://localhost/arbulanguage.com/img/fiszkiespanol/17a.jpg",
+                src: "https://www.arbulang.com/img/fiszkiespanol/17a.jpg",
                 alt: ""
             },
             story: {
@@ -2814,7 +2814,7 @@ id: [
         {
             id: 2,
             img: {
-                src: "http://localhost/arbulanguage.com/img/fiszkiespanol/31a.jpg",
+                src: "https://www.arbulang.com/img/fiszkiespanol/31a.jpg",
                 alt: ""
             },
             story: {
@@ -2826,7 +2826,7 @@ id: [
                 {
             id: 3,
             img: {
-                src: "http://localhost/arbulanguage.com/img/fiszkiespanol/31b.jpg",
+                src: "https://www.arbulang.com/img/fiszkiespanol/31b.jpg",
                 alt: ""
             },
             story: {
@@ -2837,7 +2837,7 @@ id: [
         }
     ],
         word: [
-                "http://localhost/arbulanguage.com/voice/hiszpanski/sentence4/con.mp3"
+                "https://www.arbulang.com/voice/hiszpanski/sentence4/con.mp3"
         ],
         // opis
         desc: "con[kon] - z",
@@ -2871,7 +2871,7 @@ id: [
         {
             id: 1,
             img: {
-                src: "http://localhost/arbulanguage.com/img/fiszkiespanol/60a.jpg",
+                src: "https://www.arbulang.com/img/fiszkiespanol/60a.jpg",
                 alt: ""
             },
             story: {
@@ -2882,7 +2882,7 @@ id: [
         }
     ],
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // opis
         desc: "nuevas[nuewas] - nowe",
@@ -2916,7 +2916,7 @@ id: [
         {
             id: 1,
             img: {
-                src: "http://localhost/arbulanguage.com/img/fiszkiespanol/61b.jpg",
+                src: "https://www.arbulang.com/img/fiszkiespanol/61b.jpg",
                 alt: ""
             },
             story: {
@@ -2928,7 +2928,7 @@ id: [
         {
             id: 2,
             img: {
-                src: "http://localhost/arbulanguage.com/img/fiszkiespanol/61a.jpg",
+                src: "https://www.arbulang.com/img/fiszkiespanol/61a.jpg",
                 alt: ""
             },
             story: {
@@ -2939,7 +2939,7 @@ id: [
         }
     ],
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // opis
         desc: "ideas[ideas] - pomysły(liczba mnoga)",
@@ -2973,7 +2973,7 @@ id: [
         {
             id: 1,
             img: {
-                src: "http://localhost/arbulanguage.com/img/fiszkiespanol/62a.jpg",
+                src: "https://www.arbulang.com/img/fiszkiespanol/62a.jpg",
                 alt: ""
             },
             story: {
@@ -2985,10 +2985,10 @@ id: [
     ],
         translate: "Przewidywać problemy i być zawsze przygotowanym",
         translateb: "[Prever problemas y estar preparado siempre]",
-        srcWord: ["http://localhost/arbulanguage.com/filmy/esp/predict.mp4", 'Resident Evil: The Final Chapter (2016)'],
-        srcWordimage: "http://localhost/arbulanguage.com/filmy/esp/predict.png",
+        srcWord: ["https://www.arbulang.com/filmy/esp/predict.mp4", 'Resident Evil: The Final Chapter (2016)'],
+        srcWordimage: "https://www.arbulang.com/filmy/esp/predict.png",
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // opis
         desc: "prever[preber] - przewidywać",
@@ -3022,7 +3022,7 @@ id: [
         {
             id: 1,
             img: {
-                src: "http://localhost/arbulanguage.com/img/fiszkiespanol/63a.jpg",
+                src: "https://www.arbulang.com/img/fiszkiespanol/63a.jpg",
                 alt: ""
             },
             story: {
@@ -3033,7 +3033,7 @@ id: [
         }
     ],
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // opis
         desc: "problemans[problemas] - problemy(liczba mnoga)",
@@ -3066,7 +3066,7 @@ id: [
         {
             id: 1,
             img: {
-                src: "http://localhost/arbulanguage.com/img/fiszkiespanol/64a.jpg",
+                src: "https://www.arbulang.com/img/fiszkiespanol/64a.jpg",
                 alt: ""
             },
             story: {
@@ -3077,7 +3077,7 @@ id: [
         }
     ],
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // opis
         desc: "y[i] - i",
@@ -3112,7 +3112,7 @@ id: [
         {
             id: 1,
             img: {
-                src: "http://localhost/arbulanguage.com/img/fiszkiespanol/65a.jpg",
+                src: "https://www.arbulang.com/img/fiszkiespanol/65a.jpg",
                 alt: ""
             },
             story: {
@@ -3123,7 +3123,7 @@ id: [
         }
     ],
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // opis
         desc: "estar[estar] - być",
@@ -3158,7 +3158,7 @@ id: [
         {
             id: 1,
             img: {
-                src: "http://localhost/arbulanguage.com/img/fiszkiespanol/66a.jpg",
+                src: "https://www.arbulang.com/img/fiszkiespanol/66a.jpg",
                 alt: ""
             },
             story: {
@@ -3169,7 +3169,7 @@ id: [
         }
     ],
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // opis
         desc: "preparado[preparado] - przygotowany",
@@ -3204,7 +3204,7 @@ id: [
         {
             id: 1,
             img: {
-                src: "http://localhost/arbulanguage.com/img/fiszkiespanol/67a.jpg",
+                src: "https://www.arbulang.com/img/fiszkiespanol/67a.jpg",
                 alt: ""
             },
             story: {
@@ -3215,7 +3215,7 @@ id: [
         }
     ],
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // opis
         desc: "siempre[siempre] - zawsze",
@@ -3250,7 +3250,7 @@ id: [
         {
             id: 1,
             img: {
-                src: "http://localhost/arbulanguage.com/img/fiszkiespanol/68a.jpg",
+                src: "https://www.arbulang.com/img/fiszkiespanol/68a.jpg",
                 alt: ""
             },
             story: {
@@ -3262,10 +3262,10 @@ id: [
     ],
         translate: "Chronić prawa wszystkich zawsze",
         translateb: "[Proteher los derechos de todos siempre]",
-        srcWord: ["http://localhost/arbulanguage.com/filmy/esp/protect.mp4", 'Constantine (2005)'],
-        srcWordimage: "http://localhost/arbulanguage.com/filmy/esp/protect.png",
+        srcWord: ["https://www.arbulang.com/filmy/esp/protect.mp4", 'Constantine (2005)'],
+        srcWordimage: "https://www.arbulang.com/filmy/esp/protect.png",
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // opis
         desc: "proteger[proteher] - chronić",
@@ -3301,7 +3301,7 @@ id: [
         {
             id: 1,
             img: {
-                src: "http://localhost/arbulanguage.com/img/fiszkiespanol/69a.jpg",
+                src: "https://www.arbulang.com/img/fiszkiespanol/69a.jpg",
                 alt: ""
             },
             story: {
@@ -3312,7 +3312,7 @@ id: [
         }
     ],
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // opis
         desc: "los derechos[los dereczos] - prawa(liczba mnoga)",
@@ -3347,7 +3347,7 @@ id: [
         {
             id: 1,
             img: {
-                src: "http://localhost/arbulanguage.com/img/fiszkiespanol/220a.jpg",
+                src: "https://www.arbulang.com/img/fiszkiespanol/220a.jpg",
                 alt: ""
             },
             story: {
@@ -3359,7 +3359,7 @@ id: [
                 {
             id: 2,
             img: {
-                src: "http://localhost/arbulanguage.com/img/fiszkiespanol/70a.jpg",
+                src: "https://www.arbulang.com/img/fiszkiespanol/70a.jpg",
                 alt: ""
             },
             story: {
@@ -3370,7 +3370,7 @@ id: [
         }
     ],
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // opis
         desc: "de todos[de todos] - wszystkich",
@@ -3405,7 +3405,7 @@ id: [
         {
             id: 1,
             img: {
-                src: "http://localhost/arbulanguage.com/img/fiszkiespanol/67a.jpg",
+                src: "https://www.arbulang.com/img/fiszkiespanol/67a.jpg",
                 alt: ""
             },
             story: {
@@ -3416,7 +3416,7 @@ id: [
         }
     ],
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // opis
         desc: "siempre[siempre] - zawsze",
@@ -3451,7 +3451,7 @@ id: [
         {
             id: 1,
             img: {
-                src: "http://localhost/arbulanguage.com/img/fiszkiespanol/72a.jpg",
+                src: "https://www.arbulang.com/img/fiszkiespanol/72a.jpg",
                 alt: ""
             },
             story: {
@@ -3463,10 +3463,10 @@ id: [
     ],
         translate: "Opowiadać zabawne historie z dobrymi przyjaciółmi",
         translateb: "[Contar historias divertidas con buenos amigos]",
-        srcWord: ["http://localhost/arbulanguage.com/filmy/esp/stories.mp4", 'Jestem na tak (2008)'],
-        srcWordimage: "http://localhost/arbulanguage.com/filmy/esp/stories.png",
+        srcWord: ["https://www.arbulang.com/filmy/esp/stories.mp4", 'Jestem na tak (2008)'],
+        srcWordimage: "https://www.arbulang.com/filmy/esp/stories.png",
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // opis
         desc: "contar[kontar] - opowiadać",
@@ -3501,7 +3501,7 @@ id: [
         {
             id: 1,
             img: {
-                src: "http://localhost/arbulanguage.com/img/fiszkiespanol/73a.jpg",
+                src: "https://www.arbulang.com/img/fiszkiespanol/73a.jpg",
                 alt: ""
             },
             story: {
@@ -3512,7 +3512,7 @@ id: [
         }
     ],
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // opis
         desc: "historias[istorias] - historie",
@@ -3546,7 +3546,7 @@ id: [
         {
             id: 1,
             img: {
-                src: "http://localhost/arbulanguage.com/img/fiszkiespanol/74a.jpg",
+                src: "https://www.arbulang.com/img/fiszkiespanol/74a.jpg",
                 alt: ""
             },
             story: {
@@ -3557,7 +3557,7 @@ id: [
         }
     ],
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // opis
         desc: "divertidas[dibertidas] - zabawne",
@@ -3591,7 +3591,7 @@ id: [
         {
             id: 1,
             img: {
-                src: "http://localhost/arbulanguage.com/img/fiszkiespanol/17a.jpg",
+                src: "https://www.arbulang.com/img/fiszkiespanol/17a.jpg",
                 alt: ""
             },
             story: {
@@ -3603,7 +3603,7 @@ id: [
         {
             id: 2,
             img: {
-                src: "http://localhost/arbulanguage.com/img/fiszkiespanol/31a.jpg",
+                src: "https://www.arbulang.com/img/fiszkiespanol/31a.jpg",
                 alt: ""
             },
             story: {
@@ -3615,7 +3615,7 @@ id: [
                 {
             id: 3,
             img: {
-                src: "http://localhost/arbulanguage.com/img/fiszkiespanol/31b.jpg",
+                src: "https://www.arbulang.com/img/fiszkiespanol/31b.jpg",
                 alt: ""
             },
             story: {
@@ -3626,7 +3626,7 @@ id: [
         }
     ],
         word: [
-                "http://localhost/arbulanguage.com/voice/hiszpanski/sentence4/con.mp3"
+                "https://www.arbulang.com/voice/hiszpanski/sentence4/con.mp3"
         ],
         // opis
         desc: "con[kon] - z",
@@ -3660,7 +3660,7 @@ id: [
         {
             id: 1,
             img: {
-                src: "http://localhost/arbulanguage.com/img/fiszkiespanol/76a.jpg",
+                src: "https://www.arbulang.com/img/fiszkiespanol/76a.jpg",
                 alt: ""
             },
             story: {
@@ -3671,7 +3671,7 @@ id: [
         }
     ],
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // opis
         desc: "buenos[błenos] - dobrzy",
@@ -3705,7 +3705,7 @@ id: [
         {
             id: 1,
             img: {
-                src: "http://localhost/arbulanguage.com/img/fiszkiespanol/77a.jpg",
+                src: "https://www.arbulang.com/img/fiszkiespanol/77a.jpg",
                 alt: ""
             },
             story: {
@@ -3716,7 +3716,7 @@ id: [
         }
     ],
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // opis
         desc: "amigos[amigos] - przyjaciele(liczba mnoga)",
@@ -3750,7 +3750,7 @@ id: [
         {
             id: 1,
             img: {
-                src: "http://localhost/arbulanguage.com/img/fiszkiespanol/78a.jpg",
+                src: "https://www.arbulang.com/img/fiszkiespanol/78a.jpg",
                 alt: ""
             },
             story: {
@@ -3762,10 +3762,10 @@ id: [
     ],
         translate: "Słuchać wesołej muzyki w samochodzie",
         translateb: "[Escuchar música alegre en el coche]",
-        srcWord: ["http://localhost/arbulanguage.com/filmy/esp/carmusic.mp4", 'Czas surferów (2005)'],
-        srcWordimage: "http://localhost/arbulanguage.com/filmy/esp/carmusic.png",
+        srcWord: ["https://www.arbulang.com/filmy/esp/carmusic.mp4", 'Czas surferów (2005)'],
+        srcWordimage: "https://www.arbulang.com/filmy/esp/carmusic.png",
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // opis
         desc: "escuchar[eskuczar] - słuchać",
@@ -3794,7 +3794,7 @@ id: [
         {
             id: 1,
             img: {
-                src: "http://localhost/arbulanguage.com/img/fiszkiespanol/79a.jpg",
+                src: "https://www.arbulang.com/img/fiszkiespanol/79a.jpg",
                 alt: ""
             },
             story: {
@@ -3805,7 +3805,7 @@ id: [
         }
     ],
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // opis
         desc: "música[muzika] - muzyka",
@@ -3833,7 +3833,7 @@ id: [
         {
             id: 1,
             img: {
-                src: "http://localhost/arbulanguage.com/img/fiszkiespanol/80a.jpg",
+                src: "https://www.arbulang.com/img/fiszkiespanol/80a.jpg",
                 alt: ""
             },
             story: {
@@ -3844,7 +3844,7 @@ id: [
         }
     ],
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // opis
         desc: "alegre[alegre] - wesoły/wesoła",
@@ -3872,7 +3872,7 @@ id: [
         {
             id: 1,
             img: {
-                src: "http://localhost/arbulanguage.com/img/fiszkiespanol/3a.jpg",
+                src: "https://www.arbulang.com/img/fiszkiespanol/3a.jpg",
                 alt: ""
             },
             story: {
@@ -3883,7 +3883,7 @@ id: [
         }
     ],
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // opis
         desc: "en[en] - we",
@@ -3910,7 +3910,7 @@ id: [
         {
             id: 1,
             img: {
-                src: "http://localhost/arbulanguage.com/img/fiszkiespanol/54a.jpg",
+                src: "https://www.arbulang.com/img/fiszkiespanol/54a.jpg",
                 alt: ""
             },
             story: {
@@ -3921,7 +3921,7 @@ id: [
         }
     ],
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // opis
         desc: "el coche[el kocze] - samochód",
@@ -3948,7 +3948,7 @@ id: [
         {
             id: 1,
             img: {
-                src: "http://localhost/arbulanguage.com/img/fiszkiespanol/83a.jpg",
+                src: "https://www.arbulang.com/img/fiszkiespanol/83a.jpg",
                 alt: ""
             },
             story: {
@@ -3960,10 +3960,10 @@ id: [
     ],
         translate: "Przybywać wcześnie i cieszyć się porankiem",
         translateb: "[Llegar temprano y disfrutar la mañana]",
-        srcWord: ["http://localhost/arbulanguage.com/filmy/esp/morning.mp4", 'Szybcy i wściekli: Hobbs i Shaw (2019)'],
-        srcWordimage: "http://localhost/arbulanguage.com/filmy/esp/morning.png",
+        srcWord: ["https://www.arbulang.com/filmy/esp/morning.mp4", 'Szybcy i wściekli: Hobbs i Shaw (2019)'],
+        srcWordimage: "https://www.arbulang.com/filmy/esp/morning.png",
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // opis
         desc: "llegar[dźegar] - przybywać",
@@ -3991,7 +3991,7 @@ id: [
         {
             id: 1,
             img: {
-                src: "http://localhost/arbulanguage.com/img/fiszkiespanol/84a.jpg",
+                src: "https://www.arbulang.com/img/fiszkiespanol/84a.jpg",
                 alt: ""
             },
             story: {
@@ -4002,7 +4002,7 @@ id: [
         }
     ],
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],        // opis
         desc: "temprano[temprano] - wcześnie",
         //zdanie
@@ -4028,7 +4028,7 @@ id: [
         {
             id: 1,
             img: {
-                src: "http://localhost/arbulanguage.com/img/fiszkiespanol/64a.jpg",
+                src: "https://www.arbulang.com/img/fiszkiespanol/64a.jpg",
                 alt: ""
             },
             story: {
@@ -4039,7 +4039,7 @@ id: [
         }
     ],
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // opis
         desc: "y[i] - i",
@@ -4067,7 +4067,7 @@ id: [
         {
             id: 1,
             img: {
-                src: "http://localhost/arbulanguage.com/img/fiszkiespanol/27a.jpg",
+                src: "https://www.arbulang.com/img/fiszkiespanol/27a.jpg",
                 alt: ""
             },
             story: {
@@ -4078,7 +4078,7 @@ id: [
         }
     ],
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // opis
         desc: "disfrutar[disfrutar] - cieszyć się",
@@ -4106,7 +4106,7 @@ id: [
         {
             id: 1,
             img: {
-                src: "http://localhost/arbulanguage.com/img/fiszkiespanol/87a.jpg",
+                src: "https://www.arbulang.com/img/fiszkiespanol/87a.jpg",
                 alt: ""
             },
             story: {
@@ -4117,7 +4117,7 @@ id: [
         }
     ],
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // opis
         desc: "la mañana[la maniana] - poranek",
@@ -4145,7 +4145,7 @@ id: [
         {
             id: 1,
             img: {
-                src: "http://localhost/arbulanguage.com/img/fiszkiespanol/88a.jpg",
+                src: "https://www.arbulang.com/img/fiszkiespanol/88a.jpg",
                 alt: ""
             },
             story: {
@@ -4157,10 +4157,10 @@ id: [
     ],
         translate: "Odrzucać oferty, które ci się nie podobają",
         translateb: "[Rehusar ofertas que no te gusten]",
-        srcWord: ["http://localhost/arbulanguage.com/filmy/esp/offert.mp4", 'Yes Man'],
-        srcWordimage: "http://localhost/arbulanguage.com/filmy/esp/offert.png",
+        srcWord: ["https://www.arbulang.com/filmy/esp/offert.mp4", 'Yes Man'],
+        srcWordimage: "https://www.arbulang.com/filmy/esp/offert.png",
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // opis
         desc: "rehusar[reusar] - odrzucać",
@@ -4189,7 +4189,7 @@ id: [
         {
             id: 1,
             img: {
-                src: "http://localhost/arbulanguage.com/img/fiszkiespanol/89a.jpg",
+                src: "https://www.arbulang.com/img/fiszkiespanol/89a.jpg",
                 alt: ""
             },
             story: {
@@ -4200,7 +4200,7 @@ id: [
         }
     ],
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // opis
         desc: "ofertas[ofertas] - oferty(liczba mnoga)",
@@ -4228,7 +4228,7 @@ id: [
         {
             id: 1,
             img: {
-                src: "http://localhost/arbulanguage.com/img/fiszkiespanol/90a.jpg",
+                src: "https://www.arbulang.com/img/fiszkiespanol/90a.jpg",
                 alt: ""
             },
             story: {
@@ -4239,7 +4239,7 @@ id: [
         }
     ],
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // opis
         desc: "que[ke] - które/która/który",
@@ -4267,7 +4267,7 @@ id: [
         {
             id: 1,
             img: {
-                src: "http://localhost/arbulanguage.com/img/fiszkiespanol/91a.jpg",
+                src: "https://www.arbulang.com/img/fiszkiespanol/91a.jpg",
                 alt: ""
             },
             story: {
@@ -4278,7 +4278,7 @@ id: [
         }
     ],
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // opis
         desc: "no[no] - nie",
@@ -4305,7 +4305,7 @@ id: [
         {
             id: 1,
             img: {
-                src: "http://localhost/arbulanguage.com/img/fiszkiespanol/92a.jpg",
+                src: "https://www.arbulang.com/img/fiszkiespanol/92a.jpg",
                 alt: ""
             },
             story: {
@@ -4316,7 +4316,7 @@ id: [
         }
     ],
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // opis
         desc: "te gusten[te gusten] - ci/ciebie.. podobać się",
@@ -4343,7 +4343,7 @@ id: [
         {
             id: 1,
             img: {
-                src: "http://localhost/arbulanguage.com/img/fiszkiespanol/93a.jpg",
+                src: "https://www.arbulang.com/img/fiszkiespanol/93a.jpg",
                 alt: ""
             },
             story: {
@@ -4355,10 +4355,10 @@ id: [
     ],
         translate: "Trenować mocno, aby czuć się lepiej",
         translateb: "[Entrenar fuerte para sentirte mejor]",
-        srcWord: ["http://localhost/arbulanguage.com/filmy/esp/training2.mp4", 'Pain and Gain'],
-        srcWordimage: "http://localhost/arbulanguage.com/filmy/esp/training2.png",
+        srcWord: ["https://www.arbulang.com/filmy/esp/training2.mp4", 'Pain and Gain'],
+        srcWordimage: "https://www.arbulang.com/filmy/esp/training2.png",
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // opis
         desc: "entrenar[entrenar] - trenować",
@@ -4386,7 +4386,7 @@ id: [
         {
             id: 1,
             img: {
-                src: "http://localhost/arbulanguage.com/img/fiszkiespanol/94a.jpg",
+                src: "https://www.arbulang.com/img/fiszkiespanol/94a.jpg",
                 alt: ""
             },
             story: {
@@ -4397,7 +4397,7 @@ id: [
         }
     ],
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // opis
         desc: "fuerte[fłerte] - mocno",
@@ -4424,7 +4424,7 @@ id: [
         {
             id: 1,
             img: {
-                src: "http://localhost/arbulanguage.com/img/fiszkiespanol/95a.jpg",
+                src: "https://www.arbulang.com/img/fiszkiespanol/95a.jpg",
                 alt: ""
             },
             story: {
@@ -4435,7 +4435,7 @@ id: [
         }
     ],
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // opis
         desc: "para[para] - dla/żeby",
@@ -4463,7 +4463,7 @@ id: [
         {
             id: 1,
             img: {
-                src: "http://localhost/arbulanguage.com/img/fiszkiespanol/96a.jpg",
+                src: "https://www.arbulang.com/img/fiszkiespanol/96a.jpg",
                 alt: ""
             },
             story: {
@@ -4474,7 +4474,7 @@ id: [
         }
     ],
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // historia
         story: [
@@ -4506,7 +4506,7 @@ id: [
         {
             id: 1,
             img: {
-                src: "http://localhost/arbulanguage.com/img/fiszkiespanol/98a.jpg",
+                src: "https://www.arbulang.com/img/fiszkiespanol/98a.jpg",
                 alt: ""
             },
             story: {
@@ -4517,7 +4517,7 @@ id: [
         }
     ],
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // opis
         desc: "mejor[mehor] - lepiej",
@@ -4545,7 +4545,7 @@ id: [
         {
             id: 1,
             img: {
-                src: "http://localhost/arbulanguage.com/img/fiszkiespanol/99a.jpg",
+                src: "https://www.arbulang.com/img/fiszkiespanol/99a.jpg",
                 alt: ""
             },
             story: {
@@ -4557,10 +4557,10 @@ id: [
     ],
         translate: "Wyjaśniać jasne odpowiedzi dzieciom",
         translateb: "[Explicar respuestas claras a los niños]",
-        srcWord: ["http://localhost/arbulanguage.com/filmy/esp/children.mp4", 'Ip Man'],
-        srcWordimage: "http://localhost/arbulanguage.com/filmy/esp/children.png",
+        srcWord: ["https://www.arbulang.com/filmy/esp/children.mp4", 'Ip Man'],
+        srcWordimage: "https://www.arbulang.com/filmy/esp/children.png",
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // opis
         desc: "explicar[eksplikar] - wyjaśniać",
@@ -4590,7 +4590,7 @@ id: [
         {
             id: 1,
             img: {
-                src: "http://localhost/arbulanguage.com/img/fiszkiespanol/100a.jpg",
+                src: "https://www.arbulang.com/img/fiszkiespanol/100a.jpg",
                 alt: ""
             },
             story: {
@@ -4601,7 +4601,7 @@ id: [
         }
     ],
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // opis
         desc: "respuestas[respłestas] - odpowiedzi",
@@ -4637,7 +4637,7 @@ id: [
         {
             id: 1,
             img: {
-                src: "http://localhost/arbulanguage.com/img/fiszkiespanol/101a.jpg",
+                src: "https://www.arbulang.com/img/fiszkiespanol/101a.jpg",
                 alt: ""
             },
             story: {
@@ -4648,7 +4648,7 @@ id: [
         }
     ],
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // historia
         story: [
@@ -4688,7 +4688,7 @@ id: [
         {
             id: 1,
             img: {
-                src: "http://localhost/arbulanguage.com/img/fiszkiespanol/102a.jpg",
+                src: "https://www.arbulang.com/img/fiszkiespanol/102a.jpg",
                 alt: ""
             },
             story: {
@@ -4700,7 +4700,7 @@ id: [
                 {
             id: 2,
             img: {
-                src: "http://localhost/arbulanguage.com/img/fiszkiespanol/102b.jpg",
+                src: "https://www.arbulang.com/img/fiszkiespanol/102b.jpg",
                 alt: ""
             },
             story: {
@@ -4711,7 +4711,7 @@ id: [
         }
     ],
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // opis
         desc: "a los niños[a los ninios] - dzieci",
@@ -4747,7 +4747,7 @@ id: [
         {
             id: 1,
             img: {
-                src: "http://localhost/arbulanguage.com/img/fiszkiespanol/103a.jpg",
+                src: "https://www.arbulang.com/img/fiszkiespanol/103a.jpg",
                 alt: ""
             },
             story: {
@@ -4759,10 +4759,10 @@ id: [
     ],
         translate: "Próbować pysznego jedzenia w nowych miejscach",
         translateb: "[Probar comida deliciosa en nuevos lugares]",
-        srcWord: ["http://localhost/arbulanguage.com/filmy/esp/restaurant.mp4", 'Matrix 1999'],
-        srcWordimage: "http://localhost/arbulanguage.com/filmy/esp/restaurant.png",
+        srcWord: ["https://www.arbulang.com/filmy/esp/restaurant.mp4", 'Matrix 1999'],
+        srcWordimage: "https://www.arbulang.com/filmy/esp/restaurant.png",
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // opis
         desc: "probar[prowar] - próbowac",
@@ -4797,7 +4797,7 @@ id: [
         {
             id: 1,
             img: {
-                src: "http://localhost/arbulanguage.com/img/fiszkiespanol/104a.jpg",
+                src: "https://www.arbulang.com/img/fiszkiespanol/104a.jpg",
                 alt: ""
             },
             story: {
@@ -4808,7 +4808,7 @@ id: [
         }
     ],
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // opis
         desc: "comida[komida] - posiłek",
@@ -4843,7 +4843,7 @@ id: [
         {
             id: 1,
             img: {
-                src: "http://localhost/arbulanguage.com/img/fiszkiespanol/105a.jpg",
+                src: "https://www.arbulang.com/img/fiszkiespanol/105a.jpg",
                 alt: ""
             },
             story: {
@@ -4854,7 +4854,7 @@ id: [
         }
     ],
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // opis
         desc: "deliciosa[delisiosa] - pyszne",
@@ -4889,7 +4889,7 @@ id: [
         {
             id: 1,
             img: {
-                src: "http://localhost/arbulanguage.com/img/fiszkiespanol/3a.jpg",
+                src: "https://www.arbulang.com/img/fiszkiespanol/3a.jpg",
                 alt: ""
             },
             story: {
@@ -4900,7 +4900,7 @@ id: [
         }
     ],
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // opis
         desc: "en[en] - we",
@@ -4935,7 +4935,7 @@ id: [
         {
             id: 1,
             img: {
-                src: "http://localhost/arbulanguage.com/img/fiszkiespanol/60a.jpg",
+                src: "https://www.arbulang.com/img/fiszkiespanol/60a.jpg",
                 alt: ""
             },
             story: {
@@ -4946,7 +4946,7 @@ id: [
         }
     ],
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // opis
         desc: "nuevos[nuewas] - nowe",
@@ -4981,7 +4981,7 @@ id: [
         {
             id: 1,
             img: {
-                src: "http://localhost/arbulanguage.com/img/fiszkiespanol/108a.jpg",
+                src: "https://www.arbulang.com/img/fiszkiespanol/108a.jpg",
                 alt: ""
             },
             story: {
@@ -4992,7 +4992,7 @@ id: [
         }
     ],
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // opis
         desc: "lugares[lugares] - miejsca",
@@ -5027,7 +5027,7 @@ id: [
         {
             id: 1,
             img: {
-                src: "http://localhost/arbulanguage.com/img/fiszkiespanol/109a.jpg",
+                src: "https://www.arbulang.com/img/fiszkiespanol/109a.jpg",
                 alt: ""
             },
             story: {
@@ -5039,10 +5039,10 @@ id: [
     ],
         translate: "Śmiać się razem, oglądając filmy komediowe",
         translateb: "[Reír huntos mientras miramos pelíkulas komikas]",
-        srcWord: ["http://localhost/arbulanguage.com/filmy/esp/comicas.mp4", 'Matrix 1999'],
-        srcWordimage: "http://localhost/arbulanguage.com/filmy/esp/comicas.png",
+        srcWord: ["https://www.arbulang.com/filmy/esp/comicas.mp4", 'Matrix 1999'],
+        srcWordimage: "https://www.arbulang.com/filmy/esp/comicas.png",
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // opis
         desc: "reir[reir] - śmiać się",
@@ -5076,7 +5076,7 @@ id: [
         {
             id: 1,
             img: {
-                src: "http://localhost/arbulanguage.com/img/fiszkiespanol/14a.jpg",
+                src: "https://www.arbulang.com/img/fiszkiespanol/14a.jpg",
                 alt: ""
             },
             story: {
@@ -5087,7 +5087,7 @@ id: [
         }
     ],
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // opis
         desc: "juntos[hunots] - razem",
@@ -5121,7 +5121,7 @@ id: [
         {
             id: 1,
             img: {
-                src: "http://localhost/arbulanguage.com/img/fiszkiespanol/12a.jpg",
+                src: "https://www.arbulang.com/img/fiszkiespanol/12a.jpg",
                 alt: ""
             },
             story: {
@@ -5132,7 +5132,7 @@ id: [
         }
     ],
         word: [
-                "http://localhost/arbulanguage.com/voice/hiszpanski/sentence3/mientras.mp3"
+                "https://www.arbulang.com/voice/hiszpanski/sentence3/mientras.mp3"
         ],
         // opis
         desc: "mientras[mientras] - gdy/podczas gdy",
@@ -5168,7 +5168,7 @@ id: [
         {
             id: 1,
             img: {
-                src: "http://localhost/arbulanguage.com/img/fiszkiespanol/112a.jpg",
+                src: "https://www.arbulang.com/img/fiszkiespanol/112a.jpg",
                 alt: ""
             },
             story: {
@@ -5179,7 +5179,7 @@ id: [
         }
     ],
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // opis
         desc: "miramos[miramos] - oglądać",
@@ -5215,7 +5215,7 @@ id: [
         {
             id: 1,
             img: {
-                src: "http://localhost/arbulanguage.com/img/fiszkiespanol/113a.jpg",
+                src: "https://www.arbulang.com/img/fiszkiespanol/113a.jpg",
                 alt: ""
             },
             story: {
@@ -5226,7 +5226,7 @@ id: [
         }
     ],
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // opis
         desc: "películas[pelikulas] - filmy",
@@ -5262,7 +5262,7 @@ id: [
         {
             id: 1,
             img: {
-                src: "http://localhost/arbulanguage.com/img/fiszkiespanol/114a.jpg",
+                src: "https://www.arbulang.com/img/fiszkiespanol/114a.jpg",
                 alt: ""
             },
             story: {
@@ -5273,7 +5273,7 @@ id: [
         }
     ],
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // opis
         desc: "cómicas[komikas] - komediowe",
@@ -5309,7 +5309,7 @@ id: [
         {
             id: 1,
             img: {
-                src: "http://localhost/arbulanguage.com/img/fiszkiespanol/115a.jpg",
+                src: "https://www.arbulang.com/img/fiszkiespanol/115a.jpg",
                 alt: ""
             },
             story: {
@@ -5321,10 +5321,10 @@ id: [
     ],
         translate: "Zaprzeczać kłamstwom i zawsze mówić prawdę",
         translateb: "[Negar mentiras i desir siempre berdad]",
-        srcWord: ["http://localhost/arbulanguage.com/filmy/esp/truth.mp4", 'Matrix 1999'],
-        srcWordimage: "http://localhost/arbulanguage.com/filmy/esp/truth.png",
+        srcWord: ["https://www.arbulang.com/filmy/esp/truth.mp4", 'Matrix 1999'],
+        srcWordimage: "https://www.arbulang.com/filmy/esp/truth.png",
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // opis
         desc: "negar[negar] - zaprzeczać",
@@ -5358,7 +5358,7 @@ id: [
         {
             id: 1,
             img: {
-                src: "http://localhost/arbulanguage.com/img/fiszkiespanol/116a.jpg",
+                src: "https://www.arbulang.com/img/fiszkiespanol/116a.jpg",
                 alt: ""
             },
             story: {
@@ -5369,7 +5369,7 @@ id: [
         }
     ],
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // opis
         desc: "mentiras[mentiras] - kłamstwa",
@@ -5403,7 +5403,7 @@ id: [
         {
             id: 1,
             img: {
-                src: "http://localhost/arbulanguage.com/img/fiszkiespanol/64a.jpg",
+                src: "https://www.arbulang.com/img/fiszkiespanol/64a.jpg",
                 alt: ""
             },
             story: {
@@ -5414,7 +5414,7 @@ id: [
         }
     ],
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // opis
         desc: "y[i] - i",
@@ -5450,7 +5450,7 @@ id: [
         {
             id: 1,
             img: {
-                src: "http://localhost/arbulanguage.com/img/fiszkiespanol/118a.jpg",
+                src: "https://www.arbulang.com/img/fiszkiespanol/118a.jpg",
                 alt: ""
             },
             story: {
@@ -5461,7 +5461,7 @@ id: [
         }
     ],
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // opis
         desc: "decir[desir] - mówić",
@@ -5497,7 +5497,7 @@ id: [
         {
             id: 1,
             img: {
-                src: "http://localhost/arbulanguage.com/img/fiszkiespanol/67a.jpg",
+                src: "https://www.arbulang.com/img/fiszkiespanol/67a.jpg",
                 alt: ""
             },
             story: {
@@ -5508,7 +5508,7 @@ id: [
         }
     ],
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // opis
         desc: "siempre[siempre] - zawsze",
@@ -5544,7 +5544,7 @@ id: [
         {
             id: 1,
             img: {
-                src: "http://localhost/arbulanguage.com/img/fiszkiespanol/120a.jpg",
+                src: "https://www.arbulang.com/img/fiszkiespanol/120a.jpg",
                 alt: ""
             },
             story: {
@@ -5555,7 +5555,7 @@ id: [
         }
     ],
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // opis
         desc: "verdad[berdad] - prawda",
@@ -5591,7 +5591,7 @@ id: [
         {
             id: 1,
             img: {
-                src: "http://localhost/arbulanguage.com/img/fiszkiespanol/121a.jpg",
+                src: "https://www.arbulang.com/img/fiszkiespanol/121a.jpg",
                 alt: ""
             },
             story: {
@@ -5603,10 +5603,10 @@ id: [
     ],
         translate: "Tańczyć powoli przy delikatnej, romantycznej muzyce",
         translateb: "[Bajlar lento kon musika ro-man-tika sławe]",
-        srcWord: ["http://localhost/arbulanguage.com/filmy/esp/truth.mp4", 'Matrix 1999'],
-        srcWordimage: "http://localhost/arbulanguage.com/filmy/esp/truth.png",
+        srcWord: ["https://www.arbulang.com/filmy/esp/truth.mp4", 'Matrix 1999'],
+        srcWordimage: "https://www.arbulang.com/filmy/esp/truth.png",
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // opis
         desc: "bailar[bajlar] - tańczyć",
@@ -5640,7 +5640,7 @@ id: [
         {
             id: 1,
             img: {
-                src: "http://localhost/arbulanguage.com/img/fiszkiespanol/122a.jpg",
+                src: "https://www.arbulang.com/img/fiszkiespanol/122a.jpg",
                 alt: ""
             },
             story: {
@@ -5651,7 +5651,7 @@ id: [
         }
     ],
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // opis
         desc: "lento[lento] - powoli",
@@ -5685,7 +5685,7 @@ id: [
         {
             id: 1,
             img: {
-                src: "http://localhost/arbulanguage.com/img/fiszkiespanol/17a.jpg",
+                src: "https://www.arbulang.com/img/fiszkiespanol/17a.jpg",
                 alt: ""
             },
             story: {
@@ -5697,7 +5697,7 @@ id: [
         {
             id: 2,
             img: {
-                src: "http://localhost/arbulanguage.com/img/fiszkiespanol/31a.jpg",
+                src: "https://www.arbulang.com/img/fiszkiespanol/31a.jpg",
                 alt: ""
             },
             story: {
@@ -5709,7 +5709,7 @@ id: [
                 {
             id: 3,
             img: {
-                src: "http://localhost/arbulanguage.com/img/fiszkiespanol/31b.jpg",
+                src: "https://www.arbulang.com/img/fiszkiespanol/31b.jpg",
                 alt: ""
             },
             story: {
@@ -5720,7 +5720,7 @@ id: [
         }
     ],
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // opis
         desc: "con[kon] - z",
@@ -5756,7 +5756,7 @@ id: [
         {
             id: 1,
             img: {
-                src: "http://localhost/arbulanguage.com/img/fiszkiespanol/124a.jpg",
+                src: "https://www.arbulang.com/img/fiszkiespanol/124a.jpg",
                 alt: ""
             },
             story: {
@@ -5767,7 +5767,7 @@ id: [
         }
     ],
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // opis
         desc: "musica[musika] - muzyka",
@@ -5803,7 +5803,7 @@ id: [
         {
             id: 1,
             img: {
-                src: "http://localhost/arbulanguage.com/img/fiszkiespanol/125a.jpg",
+                src: "https://www.arbulang.com/img/fiszkiespanol/125a.jpg",
                 alt: ""
             },
             story: {
@@ -5814,7 +5814,7 @@ id: [
         }
     ],
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // opis
         desc: "romántica[ro-man-tika] - romantyczny",
@@ -5850,7 +5850,7 @@ id: [
         {
             id: 1,
             img: {
-                src: "http://localhost/arbulanguage.com/img/fiszkiespanol/126a.jpg",
+                src: "https://www.arbulang.com/img/fiszkiespanol/126a.jpg",
                 alt: ""
             },
             story: {
@@ -5861,7 +5861,7 @@ id: [
         }
     ],
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // opis
         desc: "suave[sławe] - delikatny",
@@ -5897,7 +5897,7 @@ id: [
         {
             id: 1,
             img: {
-                src: "http://localhost/arbulanguage.com/img/fiszkiespanol/24a.jpg",
+                src: "https://www.arbulang.com/img/fiszkiespanol/24a.jpg",
                 alt: ""
             },
             story: {
@@ -5909,10 +5909,10 @@ id: [
     ],
         translate: "Utrzymywać pokój i harmonię",
         translateb: "[Mantener la pas y armonia]",
-        srcWord: ["http://localhost/arbulanguage.com/filmy/esp/peace.mp4", 'Matrix 1999'],
-        srcWordimage: "http://localhost/arbulanguage.com/filmy/esp/peace.png",
+        srcWord: ["https://www.arbulang.com/filmy/esp/peace.mp4", 'Matrix 1999'],
+        srcWordimage: "https://www.arbulang.com/filmy/esp/peace.png",
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // opis
         desc: "mantener[mantener] - zachować",
@@ -5948,7 +5948,7 @@ id: [
         {
             id: 1,
             img: {
-                src: "http://localhost/arbulanguage.com/img/fiszkiespanol/128a.jpg",
+                src: "https://www.arbulang.com/img/fiszkiespanol/128a.jpg",
                 alt: ""
             },
             story: {
@@ -5959,7 +5959,7 @@ id: [
         }
     ],
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // opis
         desc: "la paz[la pas(Meksyk, Kolumbia)] - pokój",
@@ -5995,7 +5995,7 @@ id: [
         {
             id: 1,
             img: {
-                src: "http://localhost/arbulanguage.com/img/fiszkiespanol/64a.jpg",
+                src: "https://www.arbulang.com/img/fiszkiespanol/64a.jpg",
                 alt: ""
             },
             story: {
@@ -6006,7 +6006,7 @@ id: [
         }
     ],
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // opis
         desc: "y[i] - i",
@@ -6042,7 +6042,7 @@ id: [
         {
             id: 1,
             img: {
-                src: "http://localhost/arbulanguage.com/img/fiszkiespanol/130a.jpg",
+                src: "https://www.arbulang.com/img/fiszkiespanol/130a.jpg",
                 alt: ""
             },
             story: {
@@ -6053,7 +6053,7 @@ id: [
         }
     ],
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // opis
         desc: "armonia[armonia] - harmonia",
@@ -6089,7 +6089,7 @@ id: [
         {
             id: 1,
             img: {
-                src: "http://localhost/arbulanguage.com/img/fiszkiespanol/131a.jpg",
+                src: "https://www.arbulang.com/img/fiszkiespanol/131a.jpg",
                 alt: ""
             },
             story: {
@@ -6101,10 +6101,10 @@ id: [
     ],
         translate: "Podróżować razem w ładnym samochodzie",
         translateb: "[Biahar huntos en un kocze]",
-        srcWord: ["http://localhost/arbulanguage.com/filmy/lekcja30/redcar.mp4", "Baby driver (2017)"],
-        srcWordimage: "http://localhost/arbulanguage.com/filmy/esp/redcar.png",
+        srcWord: ["https://www.arbulang.com/filmy/lekcja30/redcar.mp4", "Baby driver (2017)"],
+        srcWordimage: "https://www.arbulang.com/filmy/esp/redcar.png",
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // opis
         desc: "viajar[biahar] - podróżować",
@@ -6138,7 +6138,7 @@ id: [
         {
             id: 1,
             img: {
-                src: "http://localhost/arbulanguage.com/img/fiszkiespanol/14a.jpg",
+                src: "https://www.arbulang.com/img/fiszkiespanol/14a.jpg",
                 alt: ""
             },
             story: {
@@ -6149,7 +6149,7 @@ id: [
         }
     ],
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // opis
         desc: "juntos[hunots] - razem",
@@ -6183,7 +6183,7 @@ id: [
         {
             id: 1,
             img: {
-                src: "http://localhost/arbulanguage.com/img/fiszkiespanol/3a.jpg",
+                src: "https://www.arbulang.com/img/fiszkiespanol/3a.jpg",
                 alt: ""
             },
             story: {
@@ -6194,7 +6194,7 @@ id: [
         }
     ],
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // historia
         // opis
@@ -6230,7 +6230,7 @@ id: [
         {
             id: 1,
             img: {
-                src: "http://localhost/arbulanguage.com/img/fiszkiespanol/134a.jpg",
+                src: "https://www.arbulang.com/img/fiszkiespanol/134a.jpg",
                 alt: ""
             },
             story: {
@@ -6241,7 +6241,7 @@ id: [
         }
     ],
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // opis
         desc: "un coche[un kocze] - samochód",
@@ -6276,7 +6276,7 @@ id: [
         {
             id: 1,
             img: {
-                src: "http://localhost/arbulanguage.com/img/fiszkiespanol/135a.jpg",
+                src: "https://www.arbulang.com/img/fiszkiespanol/135a.jpg",
                 alt: ""
             },
             story: {
@@ -6287,7 +6287,7 @@ id: [
         }
     ],
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // opis
         desc: "bonito[bonito] - ładny",
@@ -6322,7 +6322,7 @@ id: [
         {
             id: 1,
             img: {
-                src: "http://localhost/arbulanguage.com/img/fiszkiespanol/136a.jpg",
+                src: "https://www.arbulang.com/img/fiszkiespanol/136a.jpg",
                 alt: ""
             },
             story: {
@@ -6334,10 +6334,10 @@ id: [
     ],
         translate: "Używać ładnego makijażu, żeby dobrze się czuć",
         translateb: "[Usar makijahe bonito para sentire bien]",
-        srcWord: ["http://localhost/arbulanguage.com/filmy/esp/make-up.mp4", 'Song: 11 minutes'],
-        srcWordimage: "http://localhost/arbulanguage.com/filmy/esp/make-up.png",
+        srcWord: ["https://www.arbulang.com/filmy/esp/make-up.mp4", 'Song: 11 minutes'],
+        srcWordimage: "https://www.arbulang.com/filmy/esp/make-up.png",
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // opis
         desc: "usar[usar] - nosić, używać",
@@ -6372,7 +6372,7 @@ id: [
         {
             id: 1,
             img: {
-                src: "http://localhost/arbulanguage.com/img/fiszkiespanol/137a.jpg",
+                src: "https://www.arbulang.com/img/fiszkiespanol/137a.jpg",
                 alt: ""
             },
             story: {
@@ -6383,7 +6383,7 @@ id: [
         }
     ],
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // opis
         desc: "maquillaje[makijahe] - makijaż",
@@ -6418,7 +6418,7 @@ id: [
         {
             id: 1,
             img: {
-                src: "http://localhost/arbulanguage.com/img/fiszkiespanol/135a.jpg",
+                src: "https://www.arbulang.com/img/fiszkiespanol/135a.jpg",
                 alt: ""
             },
             story: {
@@ -6429,7 +6429,7 @@ id: [
         }
     ],
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // opis
         desc: "bonito[bonito] - ładny",
@@ -6464,7 +6464,7 @@ id: [
         {
             id: 1,
             img: {
-                src: "http://localhost/arbulanguage.com/img/fiszkiespanol/95a.jpg",
+                src: "https://www.arbulang.com/img/fiszkiespanol/95a.jpg",
                 alt: ""
             },
             story: {
@@ -6475,7 +6475,7 @@ id: [
         }
     ],
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // opis
         desc: "para[para] - dla/żeby",
@@ -6510,7 +6510,7 @@ id: [
         {
             id: 1,
             img: {
-                src: "http://localhost/arbulanguage.com/img/fiszkiespanol/140a.jpg",
+                src: "https://www.arbulang.com/img/fiszkiespanol/140a.jpg",
                 alt: ""
             },
             story: {
@@ -6521,7 +6521,7 @@ id: [
         }
     ],
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // opis
         desc: "sentirse[sentirse] - czuć (w jakiś sposób)",
@@ -6556,7 +6556,7 @@ id: [
         {
             id: 1,
             img: {
-                src: "http://localhost/arbulanguage.com/img/fiszkiespanol/141a.jpg",
+                src: "https://www.arbulang.com/img/fiszkiespanol/141a.jpg",
                 alt: ""
             },
             story: {
@@ -6567,7 +6567,7 @@ id: [
         }
     ],
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // opis
         desc: "bien[bien] - dobry",
@@ -6602,7 +6602,7 @@ id: [
         {
             id: 1,
             img: {
-                src: "http://localhost/arbulanguage.com/img/fiszkiespanol/142a.jpg",
+                src: "https://www.arbulang.com/img/fiszkiespanol/142a.jpg",
                 alt: ""
             },
             story: {
@@ -6614,10 +6614,10 @@ id: [
     ],
         translate: "Dbać o ogród z miłością zawsze",
         translateb: "[Kłidar el hardin kon amor siempre]",
-        srcWord: ["http://localhost/arbulanguage.com/filmy/esp/garden.mp4", 'Elizjum ()'],
-        srcWordimage: "http://localhost/arbulanguage.com/filmy/esp/garden.png",
+        srcWord: ["https://www.arbulang.com/filmy/esp/garden.mp4", 'Elizjum ()'],
+        srcWordimage: "https://www.arbulang.com/filmy/esp/garden.png",
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // opis
         desc: "cuidar[kłidar] - opiekować się",
@@ -6651,7 +6651,7 @@ id: [
         {
             id: 1,
             img: {
-                src: "http://localhost/arbulanguage.com/img/fiszkiespanol/143a.jpg",
+                src: "https://www.arbulang.com/img/fiszkiespanol/143a.jpg",
                 alt: ""
             },
             story: {
@@ -6662,7 +6662,7 @@ id: [
         }
     ],
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // opis
         desc: "el jardin[el hardin] - ogród",
@@ -6696,7 +6696,7 @@ id: [
         {
             id: 1,
             img: {
-                src: "http://localhost/arbulanguage.com/img/fiszkiespanol/17a.jpg",
+                src: "https://www.arbulang.com/img/fiszkiespanol/17a.jpg",
                 alt: ""
             },
             story: {
@@ -6708,7 +6708,7 @@ id: [
         {
             id: 2,
             img: {
-                src: "http://localhost/arbulanguage.com/img/fiszkiespanol/31a.jpg",
+                src: "https://www.arbulang.com/img/fiszkiespanol/31a.jpg",
                 alt: ""
             },
             story: {
@@ -6720,7 +6720,7 @@ id: [
                 {
             id: 3,
             img: {
-                src: "http://localhost/arbulanguage.com/img/fiszkiespanol/31b.jpg",
+                src: "https://www.arbulang.com/img/fiszkiespanol/31b.jpg",
                 alt: ""
             },
             story: {
@@ -6731,7 +6731,7 @@ id: [
         }
     ],
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // opis
         desc: "con[kon] - z",
@@ -6766,7 +6766,7 @@ id: [
         {
             id: 1,
             img: {
-                src: "http://localhost/arbulanguage.com/img/fiszkiespanol/145a.jpg",
+                src: "https://www.arbulang.com/img/fiszkiespanol/145a.jpg",
                 alt: ""
             },
             story: {
@@ -6777,7 +6777,7 @@ id: [
         }
     ],
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // opis
         desc: "amor[amor] - miłość",
@@ -6812,7 +6812,7 @@ id: [
         {
             id: 1,
             img: {
-                src: "http://localhost/arbulanguage.com/img/fiszkiespanol/67a.jpg",
+                src: "https://www.arbulang.com/img/fiszkiespanol/67a.jpg",
                 alt: ""
             },
             story: {
@@ -6823,7 +6823,7 @@ id: [
         }
     ],
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // opis
         desc: "siempre[siempre] - zawsze",
@@ -6858,7 +6858,7 @@ id: [
         {
             id: 1,
             img: {
-                src: "http://localhost/arbulanguage.com/img/fiszkiespanol/147a.jpg",
+                src: "https://www.arbulang.com/img/fiszkiespanol/147a.jpg",
                 alt: ""
             },
             story: {
@@ -6870,10 +6870,10 @@ id: [
     ],
         translate: "Radzić sobie z lękiem dzięki głębokiemu oddychaniu.",
         translateb: "[Negar mentiras i desir siempre berdad]",
-        srcWord: ["http://localhost/arbulanguage.com/filmy/esp/truth.mp4", 'Matrix 1999'],
-        srcWordimage: "http://localhost/arbulanguage.com/filmy/esp/truth.png",
+        srcWord: ["https://www.arbulang.com/filmy/esp/truth.mp4", 'Matrix 1999'],
+        srcWordimage: "https://www.arbulang.com/filmy/esp/truth.png",
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // opis
         desc: "tratar[tratar] - traktować, radzić sobie",
@@ -6907,7 +6907,7 @@ id: [
         {
             id: 1,
             img: {
-                src: "http://localhost/arbulanguage.com/img/fiszkiespanol/148a.jpg",
+                src: "https://www.arbulang.com/img/fiszkiespanol/148a.jpg",
                 alt: ""
             },
             story: {
@@ -6918,7 +6918,7 @@ id: [
         }
     ],
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // opis
         desc: "la ansiedad[la ansiedad] - lęk, niepokój",
@@ -6952,7 +6952,7 @@ id: [
         {
             id: 1,
             img: {
-                src: "http://localhost/arbulanguage.com/img/fiszkiespanol/17a.jpg",
+                src: "https://www.arbulang.com/img/fiszkiespanol/17a.jpg",
                 alt: ""
             },
             story: {
@@ -6964,7 +6964,7 @@ id: [
         {
             id: 2,
             img: {
-                src: "http://localhost/arbulanguage.com/img/fiszkiespanol/31a.jpg",
+                src: "https://www.arbulang.com/img/fiszkiespanol/31a.jpg",
                 alt: ""
             },
             story: {
@@ -6976,7 +6976,7 @@ id: [
                 {
             id: 3,
             img: {
-                src: "http://localhost/arbulanguage.com/img/fiszkiespanol/31b.jpg",
+                src: "https://www.arbulang.com/img/fiszkiespanol/31b.jpg",
                 alt: ""
             },
             story: {
@@ -6987,7 +6987,7 @@ id: [
         }
     ],
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // opis
         desc: "con[kon] - z",
@@ -7022,7 +7022,7 @@ id: [
         {
             id: 1,
             img: {
-                src: "http://localhost/arbulanguage.com/img/fiszkiespanol/150a.jpg",
+                src: "https://www.arbulang.com/img/fiszkiespanol/150a.jpg",
                 alt: ""
             },
             story: {
@@ -7033,7 +7033,7 @@ id: [
         }
     ],
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // historia
         story: [
@@ -7072,7 +7072,7 @@ id: [
         {
             id: 1,
             img: {
-                src: "http://localhost/arbulanguage.com/img/fiszkiespanol/151a.jpg",
+                src: "https://www.arbulang.com/img/fiszkiespanol/151a.jpg",
                 alt: ""
             },
             story: {
@@ -7083,7 +7083,7 @@ id: [
         }
     ],
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // opis
         desc: "profunda[profunda] - głęboki, głęboka, głęboko",
@@ -7118,7 +7118,7 @@ id: [
         {
             id: 1,
             img: {
-                src: "http://localhost/arbulanguage.com/img/fiszkiespanol/152a.jpg",
+                src: "https://www.arbulang.com/img/fiszkiespanol/152a.jpg",
                 alt: ""
             },
             story: {
@@ -7130,10 +7130,10 @@ id: [
     ],
         translate: "Pragnąć pokoju, gdy trwają wielkie konflikty",
         translateb: "[Anielar paz mientras aj konfliktos grandes]",
-        srcWord: ["http://localhost/arbulanguage.com/filmy/esp/peace.mp4", 'Avatar ()'],
-        srcWordimage: "http://localhost/arbulanguage.com/filmy/esp/peace.png",
+        srcWord: ["https://www.arbulang.com/filmy/esp/peace.mp4", 'Avatar ()'],
+        srcWordimage: "https://www.arbulang.com/filmy/esp/peace.png",
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // historia
         story: [
@@ -7171,7 +7171,7 @@ id: [
         {
             id: 1,
             img: {
-                src: "http://localhost/arbulanguage.com/img/fiszkiespanol/153a.jpg",
+                src: "https://www.arbulang.com/img/fiszkiespanol/153a.jpg",
                 alt: ""
             },
             story: {
@@ -7182,7 +7182,7 @@ id: [
         }
     ],
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // opis
         desc: "paz[paz] - pokój",
@@ -7216,7 +7216,7 @@ id: [
         {
             id: 1,
             img: {
-                src: "http://localhost/arbulanguage.com/img/fiszkiespanol/12a.jpg",
+                src: "https://www.arbulang.com/img/fiszkiespanol/12a.jpg",
                 alt: ""
             },
             story: {
@@ -7227,7 +7227,7 @@ id: [
         }
     ],
         word: [
-                "http://localhost/arbulanguage.com/voice/hiszpanski/sentence3/mientras.mp3"
+                "https://www.arbulang.com/voice/hiszpanski/sentence3/mientras.mp3"
         ],
         // opis
         desc: "mientras[mientras] - gdy/podczas gdy",
@@ -7263,7 +7263,7 @@ id: [
         {
             id: 1,
             img: {
-                src: "http://localhost/arbulanguage.com/img/fiszkiespanol/155a.jpg",
+                src: "https://www.arbulang.com/img/fiszkiespanol/155a.jpg",
                 alt: ""
             },
             story: {
@@ -7274,7 +7274,7 @@ id: [
         }
     ],
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // opis
         desc: "hay[aj] - jest, trwać",
@@ -7310,7 +7310,7 @@ id: [
         {
             id: 1,
             img: {
-                src: "http://localhost/arbulanguage.com/img/fiszkiespanol/156a.jpg",
+                src: "https://www.arbulang.com/img/fiszkiespanol/156a.jpg",
                 alt: ""
             },
             story: {
@@ -7321,7 +7321,7 @@ id: [
         }
     ],
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // opis
         desc: "conflictos[konfliktos] - konflikty",
@@ -7357,7 +7357,7 @@ id: [
         {
             id: 1,
             img: {
-                src: "http://localhost/arbulanguage.com/img/fiszkiespanol/157a.jpg",
+                src: "https://www.arbulang.com/img/fiszkiespanol/157a.jpg",
                 alt: ""
             },
             story: {
@@ -7368,7 +7368,7 @@ id: [
         }
     ],
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // opis
         desc: "grandes[grandes] - duży",
@@ -7404,7 +7404,7 @@ id: [
         {
             id: 1,
             img: {
-                src: "http://localhost/arbulanguage.com/img/fiszkiespanol/57a.jpg",
+                src: "https://www.arbulang.com/img/fiszkiespanol/57a.jpg",
                 alt: ""
             },
             story: {
@@ -7416,10 +7416,10 @@ id: [
     ],
         translate: "Zmieniać świat małymi działaniami",
         translateb: "[Kambiar]",
-        srcWord: ["http://localhost/arbulanguage.com/filmy/esp/changetheworld.mp4", 'Podaj dalej (2000)'],
-        srcWordimage: "http://localhost/arbulanguage.com/filmy/esp/changetheworld.png",
+        srcWord: ["https://www.arbulang.com/filmy/esp/changetheworld.mp4", 'Podaj dalej (2000)'],
+        srcWordimage: "https://www.arbulang.com/filmy/esp/changetheworld.png",
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // opis
         desc: "cambiar[kambiar] - zmieniać",
@@ -7453,7 +7453,7 @@ id: [
         {
             id: 1,
             img: {
-                src: "http://localhost/arbulanguage.com/img/fiszkiespanol/159a.jpg",
+                src: "https://www.arbulang.com/img/fiszkiespanol/159a.jpg",
                 alt: ""
             },
             story: {
@@ -7464,7 +7464,7 @@ id: [
         }
     ],
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // opis
         desc: "el mundo[el mundo] - świat",
@@ -7498,7 +7498,7 @@ id: [
         {
             id: 1,
             img: {
-                src: "http://localhost/arbulanguage.com/img/fiszkiespanol/17a.jpg",
+                src: "https://www.arbulang.com/img/fiszkiespanol/17a.jpg",
                 alt: ""
             },
             story: {
@@ -7510,7 +7510,7 @@ id: [
         {
             id: 2,
             img: {
-                src: "http://localhost/arbulanguage.com/img/fiszkiespanol/31a.jpg",
+                src: "https://www.arbulang.com/img/fiszkiespanol/31a.jpg",
                 alt: ""
             },
             story: {
@@ -7522,7 +7522,7 @@ id: [
                 {
             id: 3,
             img: {
-                src: "http://localhost/arbulanguage.com/img/fiszkiespanol/31b.jpg",
+                src: "https://www.arbulang.com/img/fiszkiespanol/31b.jpg",
                 alt: ""
             },
             story: {
@@ -7533,7 +7533,7 @@ id: [
         }
     ],
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // opis
         desc: "con[kon] - z",
@@ -7568,7 +7568,7 @@ id: [
         {
             id: 1,
             img: {
-                src: "http://localhost/arbulanguage.com/img/fiszkiespanol/161a.jpg",
+                src: "https://www.arbulang.com/img/fiszkiespanol/161a.jpg",
                 alt: ""
             },
             story: {
@@ -7579,7 +7579,7 @@ id: [
         }
     ],
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // opis
         desc: "pequeñas[pekienias] - mały",
@@ -7614,7 +7614,7 @@ id: [
         {
             id: 1,
             img: {
-                src: "http://localhost/arbulanguage.com/img/fiszkiespanol/162a.jpg",
+                src: "https://www.arbulang.com/img/fiszkiespanol/162a.jpg",
                 alt: ""
             },
             story: {
@@ -7625,7 +7625,7 @@ id: [
         }
     ],
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // opis
         desc: "acciones[aktiones] - akcje",
@@ -7660,7 +7660,7 @@ id: [
         {
             id: 1,
             img: {
-                src: "http://localhost/arbulanguage.com/img/fiszkiespanol/163a.jpg",
+                src: "https://www.arbulang.com/img/fiszkiespanol/163a.jpg",
                 alt: ""
             },
             story: {
@@ -7672,10 +7672,10 @@ id: [
     ],
         translate: "Osiągać wielkie marzenia małymi krokami",
         translateb: "[]",
-        srcWord: ["http://localhost/arbulanguage.com/filmy/esp/dreams.mp4", 'Pain and Gain'],
-        srcWordimage: "http://localhost/arbulanguage.com/filmy/esp/dreams.png",
+        srcWord: ["https://www.arbulang.com/filmy/esp/dreams.mp4", 'Pain and Gain'],
+        srcWordimage: "https://www.arbulang.com/filmy/esp/dreams.png",
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // historia
         story: [
@@ -7714,7 +7714,7 @@ id: [
         {
             id: 1,
             img: {
-                src: "http://localhost/arbulanguage.com/img/fiszkiespanol/164a.jpg",
+                src: "https://www.arbulang.com/img/fiszkiespanol/164a.jpg",
                 alt: ""
             },
             story: {
@@ -7725,7 +7725,7 @@ id: [
         }
     ],
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // opis
         desc: "sueños[słenios] - marzenia/sny",
@@ -7760,7 +7760,7 @@ id: [
         {
             id: 1,
             img: {
-                src: "http://localhost/arbulanguage.com/img/fiszkiespanol/157a.jpg",
+                src: "https://www.arbulang.com/img/fiszkiespanol/157a.jpg",
                 alt: ""
             },
             story: {
@@ -7771,7 +7771,7 @@ id: [
         }
     ],
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // opis
         desc: "grandes[grandes] - duży",
@@ -7806,7 +7806,7 @@ id: [
         {
             id: 1,
             img: {
-                src: "http://localhost/arbulanguage.com/img/fiszkiespanol/17a.jpg",
+                src: "https://www.arbulang.com/img/fiszkiespanol/17a.jpg",
                 alt: ""
             },
             story: {
@@ -7818,7 +7818,7 @@ id: [
         {
             id: 2,
             img: {
-                src: "http://localhost/arbulanguage.com/img/fiszkiespanol/31a.jpg",
+                src: "https://www.arbulang.com/img/fiszkiespanol/31a.jpg",
                 alt: ""
             },
             story: {
@@ -7830,7 +7830,7 @@ id: [
                 {
             id: 3,
             img: {
-                src: "http://localhost/arbulanguage.com/img/fiszkiespanol/31b.jpg",
+                src: "https://www.arbulang.com/img/fiszkiespanol/31b.jpg",
                 alt: ""
             },
             story: {
@@ -7841,7 +7841,7 @@ id: [
         }
     ],
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // opis
         desc: "con[kon] - z",
@@ -7876,7 +7876,7 @@ id: [
         {
             id: 1,
             img: {
-                src: "http://localhost/arbulanguage.com/img/fiszkiespanol/161a.jpg",
+                src: "https://www.arbulang.com/img/fiszkiespanol/161a.jpg",
                 alt: ""
             },
             story: {
@@ -7887,7 +7887,7 @@ id: [
         }
     ],
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // opis
         desc: "pequeños[pekienios] - mały",
@@ -7922,7 +7922,7 @@ id: [
         {
             id: 1,
             img: {
-                src: "http://localhost/arbulanguage.com/img/fiszkiespanol/168a.jpg",
+                src: "https://www.arbulang.com/img/fiszkiespanol/168a.jpg",
                 alt: ""
             },
             story: {
@@ -7933,7 +7933,7 @@ id: [
         }
     ],
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // opis
         desc: "pasos[pasos] - kroki",
@@ -7968,7 +7968,7 @@ id: [
         {
             id: 1,
             img: {
-                src: "http://localhost/arbulanguage.com/img/fiszkiespanol/169a.jpg",
+                src: "https://www.arbulang.com/img/fiszkiespanol/169a.jpg",
                 alt: ""
             },
             story: {
@@ -7980,10 +7980,10 @@ id: [
     ],
         translate: "Powtarzać piękne słowa, żeby czuć się dobrze",
         translateb: "[Repetir palawras bonitas para sentirse bien]",
-        srcWord: ["http://localhost/arbulanguage.com/filmy/esp/beautiful-words.mp4", 'Matrix 1999'],
-        srcWordimage: "http://localhost/arbulanguage.com/filmy/esp/beautiful-words.png",
+        srcWord: ["https://www.arbulang.com/filmy/esp/beautiful-words.mp4", 'Matrix 1999'],
+        srcWordimage: "https://www.arbulang.com/filmy/esp/beautiful-words.png",
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // opis
         desc: "repetir[repetir] - powtarzać",
@@ -8018,7 +8018,7 @@ id: [
         {
             id: 1,
             img: {
-                src: "http://localhost/arbulanguage.com/img/fiszkiespanol/18a.jpg",
+                src: "https://www.arbulang.com/img/fiszkiespanol/18a.jpg",
                 alt: ""
             },
             story: {
@@ -8029,7 +8029,7 @@ id: [
         }
     ],
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // historia
         story: [
@@ -8068,7 +8068,7 @@ id: [
         {
             id: 1,
             img: {
-                src: "http://localhost/arbulanguage.com/img/fiszkiespanol/19a.jpg",
+                src: "https://www.arbulang.com/img/fiszkiespanol/19a.jpg",
                 alt: ""
             },
             story: {
@@ -8079,7 +8079,7 @@ id: [
         }
     ],
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // opis
         desc: "bonitas[bonitas] - piękne/ładne",
@@ -8114,7 +8114,7 @@ id: [
         {
             id: 1,
             img: {
-                src: "http://localhost/arbulanguage.com/img/fiszkiespanol/95a.jpg",
+                src: "https://www.arbulang.com/img/fiszkiespanol/95a.jpg",
                 alt: ""
             },
             story: {
@@ -8125,7 +8125,7 @@ id: [
         }
     ],
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // opis
         desc: "para[para] - dla/żeby",
@@ -8160,7 +8160,7 @@ id: [
         {
             id: 1,
             img: {
-                src: "http://localhost/arbulanguage.com/img/fiszkiespanol/140a.jpg",
+                src: "https://www.arbulang.com/img/fiszkiespanol/140a.jpg",
                 alt: ""
             },
             story: {
@@ -8171,7 +8171,7 @@ id: [
         }
     ],
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // opis
         desc: "sentirse[sentirse] - czuć się",
@@ -8206,7 +8206,7 @@ id: [
         {
             id: 1,
             img: {
-                src: "http://localhost/arbulanguage.com/img/fiszkiespanol/141a.jpg",
+                src: "https://www.arbulang.com/img/fiszkiespanol/141a.jpg",
                 alt: ""
             },
             story: {
@@ -8217,7 +8217,7 @@ id: [
         }
     ],
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // opis
         desc: "bien[bien] - dobrze/dobry",
@@ -8252,7 +8252,7 @@ id: [
         {
             id: 1,
             img: {
-                src: "http://localhost/arbulanguage.com/img/fiszkiespanol/24a.jpg",
+                src: "https://www.arbulang.com/img/fiszkiespanol/24a.jpg",
                 alt: ""
             },
             story: {
@@ -8264,10 +8264,10 @@ id: [
     ],
         translate: "Zachować spokój i cieszyć się chwilą",
         translateb: "[]",
-        srcWord: ["http://localhost/arbulanguage.com/filmy/esp/peace.mp4", 'Avatar'],
-        srcWordimage: "http://localhost/arbulanguage.com/filmy/esp/peace.png",
+        srcWord: ["https://www.arbulang.com/filmy/esp/peace.mp4", 'Avatar'],
+        srcWordimage: "https://www.arbulang.com/filmy/esp/peace.png",
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // opis
         desc: "mantener[mantener] - zachować",
@@ -8301,7 +8301,7 @@ id: [
         {
             id: 1,
             img: {
-                src: "http://localhost/arbulanguage.com/img/fiszkiespanol/176a.jpg",
+                src: "https://www.arbulang.com/img/fiszkiespanol/176a.jpg",
                 alt: ""
             },
             story: {
@@ -8312,7 +8312,7 @@ id: [
         }
     ],
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // opis
         desc: "la calma[la kalma] - spokój",
@@ -8346,7 +8346,7 @@ id: [
         {
             id: 1,
             img: {
-                src: "http://localhost/arbulanguage.com/img/fiszkiespanol/64a.jpg",
+                src: "https://www.arbulang.com/img/fiszkiespanol/64a.jpg",
                 alt: ""
             },
             story: {
@@ -8357,7 +8357,7 @@ id: [
         }
     ],
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // opis
         desc: "y[i] - i",
@@ -8392,7 +8392,7 @@ id: [
         {
             id: 1,
             img: {
-                src: "http://localhost/arbulanguage.com/img/fiszkiespanol/86a.jpg",
+                src: "https://www.arbulang.com/img/fiszkiespanol/86a.jpg",
                 alt: ""
             },
             story: {
@@ -8403,7 +8403,7 @@ id: [
         }
     ],
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // opis
         desc: "disfrutar[disfrutar] - cieszyć się",
@@ -8438,7 +8438,7 @@ id: [
         {
             id: 1,
             img: {
-                src: "http://localhost/arbulanguage.com/img/fiszkiespanol/179a.jpg",
+                src: "https://www.arbulang.com/img/fiszkiespanol/179a.jpg",
                 alt: ""
             },
             story: {
@@ -8449,7 +8449,7 @@ id: [
         }
     ],
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // opis
         desc: "el momento[el momento] - moment/chwila",
@@ -8484,7 +8484,7 @@ id: [
         {
             id: 1,
             img: {
-                src: "http://localhost/arbulanguage.com/img/fiszkiespanol/142a.jpg",
+                src: "https://www.arbulang.com/img/fiszkiespanol/142a.jpg",
                 alt: ""
             },
             story: {
@@ -8496,10 +8496,10 @@ id: [
     ],
         translate: "Dbać o zdrowie poprzez codzienne ćwiczenia",
         translateb: "[Kjudar]",
-        srcWord: ["http://localhost/arbulanguage.com/filmy/esp/morning.mp4", 'Szybcy i wściekli'],
-        srcWordimage: "http://localhost/arbulanguage.com/filmy/esp/morning.png",
+        srcWord: ["https://www.arbulang.com/filmy/esp/morning.mp4", 'Szybcy i wściekli'],
+        srcWordimage: "https://www.arbulang.com/filmy/esp/morning.png",
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // opis
         desc: "cuidar[kjudar] - ",
@@ -8533,7 +8533,7 @@ id: [
         {
             id: 1,
             img: {
-                src: "http://localhost/arbulanguage.com/img/fiszkiespanol/181a.jpg",
+                src: "https://www.arbulang.com/img/fiszkiespanol/181a.jpg",
                 alt: ""
             },
             story: {
@@ -8544,7 +8544,7 @@ id: [
         }
     ],
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // opis
         desc: "la salud[la salud] - zdrowie",
@@ -8578,7 +8578,7 @@ id: [
         {
             id: 1,
             img: {
-                src: "http://localhost/arbulanguage.com/img/fiszkiespanol/17a.jpg",
+                src: "https://www.arbulang.com/img/fiszkiespanol/17a.jpg",
                 alt: ""
             },
             story: {
@@ -8590,7 +8590,7 @@ id: [
         {
             id: 2,
             img: {
-                src: "http://localhost/arbulanguage.com/img/fiszkiespanol/31a.jpg",
+                src: "https://www.arbulang.com/img/fiszkiespanol/31a.jpg",
                 alt: ""
             },
             story: {
@@ -8602,7 +8602,7 @@ id: [
                 {
             id: 3,
             img: {
-                src: "http://localhost/arbulanguage.com/img/fiszkiespanol/31b.jpg",
+                src: "https://www.arbulang.com/img/fiszkiespanol/31b.jpg",
                 alt: ""
             },
             story: {
@@ -8613,7 +8613,7 @@ id: [
         }
     ],
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // opis
         desc: "con[kon] - z",
@@ -8648,7 +8648,7 @@ id: [
         {
             id: 1,
             img: {
-                src: "http://localhost/arbulanguage.com/img/fiszkiespanol/183a.jpg",
+                src: "https://www.arbulang.com/img/fiszkiespanol/183a.jpg",
                 alt: ""
             },
             story: {
@@ -8659,7 +8659,7 @@ id: [
         }
     ],
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // opis
         desc: "ejercicio[ehersisio] - ćwiczenia",
@@ -8694,7 +8694,7 @@ id: [
         {
             id: 1,
             img: {
-                src: "http://localhost/arbulanguage.com/img/fiszkiespanol/184a.jpg",
+                src: "https://www.arbulang.com/img/fiszkiespanol/184a.jpg",
                 alt: ""
             },
             story: {
@@ -8705,7 +8705,7 @@ id: [
         }
     ],
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // opis
         desc: "diario[djario] - codzienne/dziennik",
@@ -8740,7 +8740,7 @@ id: [
         {
             id: 1,
             img: {
-                src: "http://localhost/arbulanguage.com/img/fiszkiespanol/68a.jpg",
+                src: "https://www.arbulang.com/img/fiszkiespanol/68a.jpg",
                 alt: ""
             },
             story: {
@@ -8752,10 +8752,10 @@ id: [
     ],
         translate: "Chronić ciało wygodnym ubraniem",
         translateb: "[Proteher el kłerpo kon ropa komoda]",
-        srcWord: ["http://localhost/arbulanguage.com/filmy/esp/clothes.mp4", 'Spectre'],
-        srcWordimage: "http://localhost/arbulanguage.com/filmy/esp/clothes.png",
+        srcWord: ["https://www.arbulang.com/filmy/esp/clothes.mp4", 'Spectre'],
+        srcWordimage: "https://www.arbulang.com/filmy/esp/clothes.png",
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // opis
         desc: "proteger[proteher] - chronić",
@@ -8789,7 +8789,7 @@ id: [
         {
             id: 1,
             img: {
-                src: "http://localhost/arbulanguage.com/img/fiszkiespanol/186a.jpg",
+                src: "https://www.arbulang.com/img/fiszkiespanol/186a.jpg",
                 alt: ""
             },
             story: {
@@ -8800,7 +8800,7 @@ id: [
         }
     ],
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // historia
         story: [
@@ -8838,7 +8838,7 @@ id: [
         {
             id: 1,
             img: {
-                src: "http://localhost/arbulanguage.com/img/fiszkiespanol/17a.jpg",
+                src: "https://www.arbulang.com/img/fiszkiespanol/17a.jpg",
                 alt: ""
             },
             story: {
@@ -8850,7 +8850,7 @@ id: [
         {
             id: 2,
             img: {
-                src: "http://localhost/arbulanguage.com/img/fiszkiespanol/31a.jpg",
+                src: "https://www.arbulang.com/img/fiszkiespanol/31a.jpg",
                 alt: ""
             },
             story: {
@@ -8862,7 +8862,7 @@ id: [
                 {
             id: 3,
             img: {
-                src: "http://localhost/arbulanguage.com/img/fiszkiespanol/31b.jpg",
+                src: "https://www.arbulang.com/img/fiszkiespanol/31b.jpg",
                 alt: ""
             },
             story: {
@@ -8873,7 +8873,7 @@ id: [
         }
     ],
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // opis
         desc: "con[kon] - z",
@@ -8908,7 +8908,7 @@ id: [
         {
             id: 1,
             img: {
-                src: "http://localhost/arbulanguage.com/img/fiszkiespanol/188a.jpg",
+                src: "https://www.arbulang.com/img/fiszkiespanol/188a.jpg",
                 alt: ""
             },
             story: {
@@ -8919,7 +8919,7 @@ id: [
         }
     ],
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // opis
         desc: "ropa[ropa] - odzież",
@@ -8954,7 +8954,7 @@ id: [
         {
             id: 1,
             img: {
-                src: "http://localhost/arbulanguage.com/img/fiszkiespanol/189a.jpg",
+                src: "https://www.arbulang.com/img/fiszkiespanol/189a.jpg",
                 alt: ""
             },
             story: {
@@ -8965,7 +8965,7 @@ id: [
         }
     ],
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // opis
         desc: "cómoda[komoda] - wygodne",
@@ -9000,7 +9000,7 @@ id: [
         {
             id: 1,
             img: {
-                src: "http://localhost/arbulanguage.com/img/fiszkiespanol/57a.jpg",
+                src: "https://www.arbulang.com/img/fiszkiespanol/57a.jpg",
                 alt: ""
             },
             story: {
@@ -9012,10 +9012,10 @@ id: [
     ],
         translate: "Zmienić plan, jeśli to konieczne",
         translateb: "[Negar mentiras i desir siempre berdad]",
-        srcWord: ["http://localhost/arbulanguage.com/filmy/eng-esp/predict.mp4", 'Resident Evil: Ostatni Rozdział (2016)'],
-        srcWordimage: "http://localhost/arbulanguage.com/filmy/eng-esp/predict.png",
+        srcWord: ["https://www.arbulang.com/filmy/eng-esp/predict.mp4", 'Resident Evil: Ostatni Rozdział (2016)'],
+        srcWordimage: "https://www.arbulang.com/filmy/eng-esp/predict.png",
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // opis
         desc: "cambiar[kambiar] - zmieniać",
@@ -9049,7 +9049,7 @@ id: [
         {
             id: 1,
             img: {
-                src: "http://localhost/arbulanguage.com/img/fiszkiespanol/191a.jpg",
+                src: "https://www.arbulang.com/img/fiszkiespanol/191a.jpg",
                 alt: ""
             },
             story: {
@@ -9060,7 +9060,7 @@ id: [
         }
     ],
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // opis
         desc: "el plan[el plan] - plan",
@@ -9094,7 +9094,7 @@ id: [
         {
             id: 1,
             img: {
-                src: "http://localhost/arbulanguage.com/img/fiszkiespanol/192a.jpg",
+                src: "https://www.arbulang.com/img/fiszkiespanol/192a.jpg",
                 alt: ""
             },
             story: {
@@ -9105,7 +9105,7 @@ id: [
         }
     ],
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // opis
         desc: "si[si] - jeśli",
@@ -9140,7 +9140,7 @@ id: [
         {
             id: 1,
             img: {
-                src: "http://localhost/arbulanguage.com/img/fiszkiespanol/193a.jpg",
+                src: "https://www.arbulang.com/img/fiszkiespanol/193a.jpg",
                 alt: ""
             },
             story: {
@@ -9151,7 +9151,7 @@ id: [
         }
     ],
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // historia
         story: [
@@ -9190,7 +9190,7 @@ id: [
         {
             id: 1,
             img: {
-                src: "http://localhost/arbulanguage.com/img/fiszkiespanol/194a.jpg",
+                src: "https://www.arbulang.com/img/fiszkiespanol/194a.jpg",
                 alt: ""
             },
             story: {
@@ -9201,7 +9201,7 @@ id: [
         }
     ],
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // opis
         desc: "necesario[nesesario] - potrzebne",
@@ -9235,7 +9235,7 @@ id: [
         {
             id: 1,
             img: {
-                src: "http://localhost/arbulanguage.com/img/fiszkiespanol/62a.jpg",
+                src: "https://www.arbulang.com/img/fiszkiespanol/62a.jpg",
                 alt: ""
             },
             story: {
@@ -9247,10 +9247,10 @@ id: [
     ],
         translate: "Przewidywać przyszłość za pomocą pozytywnych myśli",
         translateb: "[Preber el futuro]",
-        srcWord: ["http://localhost/arbulanguage.com/filmy/esp/truth.mp4", 'Matrix 1999'],
-        srcWordimage: "http://localhost/arbulanguage.com/filmy/esp/truth.png",
+        srcWord: ["https://www.arbulang.com/filmy/esp/truth.mp4", 'Matrix 1999'],
+        srcWordimage: "https://www.arbulang.com/filmy/esp/truth.png",
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // opis
         desc: "prever[preber] - przewidywać",
@@ -9284,7 +9284,7 @@ id: [
         {
             id: 1,
             img: {
-                src: "http://localhost/arbulanguage.com/img/fiszkiespanol/196a.jpg",
+                src: "https://www.arbulang.com/img/fiszkiespanol/196a.jpg",
                 alt: ""
             },
             story: {
@@ -9295,7 +9295,7 @@ id: [
         }
     ],
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // opis
         desc: "el futuro[el futuro] - przyszłość",
@@ -9329,7 +9329,7 @@ id: [
         {
             id: 1,
             img: {
-                src: "http://localhost/arbulanguage.com/img/fiszkiespanol/17a.jpg",
+                src: "https://www.arbulang.com/img/fiszkiespanol/17a.jpg",
                 alt: ""
             },
             story: {
@@ -9341,7 +9341,7 @@ id: [
         {
             id: 2,
             img: {
-                src: "http://localhost/arbulanguage.com/img/fiszkiespanol/31a.jpg",
+                src: "https://www.arbulang.com/img/fiszkiespanol/31a.jpg",
                 alt: ""
             },
             story: {
@@ -9353,7 +9353,7 @@ id: [
                 {
             id: 3,
             img: {
-                src: "http://localhost/arbulanguage.com/img/fiszkiespanol/31b.jpg",
+                src: "https://www.arbulang.com/img/fiszkiespanol/31b.jpg",
                 alt: ""
             },
             story: {
@@ -9364,7 +9364,7 @@ id: [
         }
     ],
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // opis
         desc: "con[kon] - z",
@@ -9399,7 +9399,7 @@ id: [
         {
             id: 1,
             img: {
-                src: "http://localhost/arbulanguage.com/img/fiszkiespanol/198a.jpg",
+                src: "https://www.arbulang.com/img/fiszkiespanol/198a.jpg",
                 alt: ""
             },
             story: {
@@ -9410,7 +9410,7 @@ id: [
         }
     ],
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // opis
         desc: "pensamientos[pensamientos] - myśli",
@@ -9445,7 +9445,7 @@ id: [
         {
             id: 1,
             img: {
-                src: "http://localhost/arbulanguage.com/img/fiszkiespanol/199a.jpg",
+                src: "https://www.arbulang.com/img/fiszkiespanol/199a.jpg",
                 alt: ""
             },
             story: {
@@ -9456,7 +9456,7 @@ id: [
         }
     ],
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // opis
         desc: "positivos[positiwos] - pozytywne/pozytywny",
@@ -9491,7 +9491,7 @@ id: [
         {
             id: 1,
             img: {
-                src: "http://localhost/arbulanguage.com/img/fiszkiespanol/200a.jpg",
+                src: "https://www.arbulang.com/img/fiszkiespanol/200a.jpg",
                 alt: ""
             },
             story: {
@@ -9503,10 +9503,10 @@ id: [
     ],
         translate: "Wstać wcześnie, aby cieszyć się dniem.",
         translateb: "[]",
-        srcWord: ["http://localhost/arbulanguage.com/filmy/esp/morning.mp4", 'Fast and Furious'],
-        srcWordimage: "http://localhost/arbulanguage.com/filmy/esp/morning.png",
+        srcWord: ["https://www.arbulang.com/filmy/esp/morning.mp4", 'Fast and Furious'],
+        srcWordimage: "https://www.arbulang.com/filmy/esp/morning.png",
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // opis
         desc: "despertar[despertar] - budzić się",
@@ -9540,7 +9540,7 @@ id: [
         {
             id: 1,
             img: {
-                src: "http://localhost/arbulanguage.com/img/fiszkiespanol/201a.jpg",
+                src: "https://www.arbulang.com/img/fiszkiespanol/201a.jpg",
                 alt: ""
             },
             story: {
@@ -9551,7 +9551,7 @@ id: [
         }
     ],
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // opis
         desc: "temprano[temprano] - wczesny",
@@ -9585,7 +9585,7 @@ id: [
         {
             id: 1,
             img: {
-                src: "http://localhost/arbulanguage.com/img/fiszkiespanol/95a.jpg",
+                src: "https://www.arbulang.com/img/fiszkiespanol/95a.jpg",
                 alt: ""
             },
             story: {
@@ -9596,7 +9596,7 @@ id: [
         }
     ],
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // opis
         desc: "para[para] - dla/żeby",
@@ -9631,7 +9631,7 @@ id: [
         {
             id: 1,
             img: {
-                src: "http://localhost/arbulanguage.com/img/fiszkiespanol/86a.jpg",
+                src: "https://www.arbulang.com/img/fiszkiespanol/86a.jpg",
                 alt: ""
             },
             story: {
@@ -9642,7 +9642,7 @@ id: [
         }
     ],
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // opis
         desc: "disfrutar[disfrutar] - cieszyć się",
@@ -9677,7 +9677,7 @@ id: [
         {
             id: 1,
             img: {
-                src: "http://localhost/arbulanguage.com/img/fiszkiespanol/204a.jpg",
+                src: "https://www.arbulang.com/img/fiszkiespanol/204a.jpg",
                 alt: ""
             },
             story: {
@@ -9688,7 +9688,7 @@ id: [
         }
     ],
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // opis
         desc: "el dia[el dija] - dzień",
@@ -9723,7 +9723,7 @@ id: [
         {
             id: 1,
             img: {
-                src: "http://localhost/arbulanguage.com/img/fiszkiespanol/205a.jpg",
+                src: "https://www.arbulang.com/img/fiszkiespanol/205a.jpg",
                 alt: ""
             },
             story: {
@@ -9735,10 +9735,10 @@ id: [
     ],
         translate: "Jeść świeże owoce każdego ranka",
         translateb: "[Komer]",
-        srcWord: ["http://localhost/arbulanguage.com/filmy/eng-esp/fruits.mp4", 'Anioł Nowej Nadziei (2014)'],
-        srcWordimage: "http://localhost/arbulanguage.com/filmy/eng-esp/fruits.png",
+        srcWord: ["https://www.arbulang.com/filmy/eng-esp/fruits.mp4", 'Anioł Nowej Nadziei (2014)'],
+        srcWordimage: "https://www.arbulang.com/filmy/eng-esp/fruits.png",
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // opis
         desc: "comer[komer] - jeść",
@@ -9773,7 +9773,7 @@ id: [
         {
             id: 1,
             img: {
-                src: "http://localhost/arbulanguage.com/img/fiszkiespanol/206a.jpg",
+                src: "https://www.arbulang.com/img/fiszkiespanol/206a.jpg",
                 alt: ""
             },
             story: {
@@ -9784,7 +9784,7 @@ id: [
         }
     ],
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // opis
         desc: "frutas[frutas] - owoc",
@@ -9819,7 +9819,7 @@ id: [
         {
             id: 1,
             img: {
-                src: "http://localhost/arbulanguage.com/img/fiszkiespanol/207a.jpg",
+                src: "https://www.arbulang.com/img/fiszkiespanol/207a.jpg",
                 alt: ""
             },
             story: {
@@ -9830,7 +9830,7 @@ id: [
         }
     ],
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // opis
         desc: "frescas[freskas] - świeży/świeże",
@@ -9865,7 +9865,7 @@ id: [
         {
             id: 1,
             img: {
-                src: "http://localhost/arbulanguage.com/img/fiszkiespanol/208a.jpg",
+                src: "https://www.arbulang.com/img/fiszkiespanol/208a.jpg",
                 alt: ""
             },
             story: {
@@ -9876,7 +9876,7 @@ id: [
         }
     ],
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // opis
         desc: "cada[kada] - każdy",
@@ -9910,7 +9910,7 @@ id: [
         {
             id: 1,
             img: {
-                src: "http://localhost/arbulanguage.com/img/fiszkiespanol/209a.jpg",
+                src: "https://www.arbulang.com/img/fiszkiespanol/209a.jpg",
                 alt: ""
             },
             story: {
@@ -9921,7 +9921,7 @@ id: [
         }
     ],
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // opis
         desc: "mañana[maniana] - poranek",
@@ -9955,7 +9955,7 @@ id: [
         {
             id: 1,
             img: {
-                src: "http://localhost/arbulanguage.com/img/fiszkiespanol/210a.jpg",
+                src: "https://www.arbulang.com/img/fiszkiespanol/210a.jpg",
                 alt: ""
             },
             story: {
@@ -9967,10 +9967,10 @@ id: [
     ],
         translate: "Spacerować razem pod łagodnym słońcem",
         translateb: "[]",
-        srcWord: ["http://localhost/arbulanguage.com/filmy/eng-esp/walking.mp4", 'Matrix 1999'],
-        srcWordimage: "http://localhost/arbulanguage.com/filmy/eng-esp/walking.png",
+        srcWord: ["https://www.arbulang.com/filmy/eng-esp/walking.mp4", 'Matrix 1999'],
+        srcWordimage: "https://www.arbulang.com/filmy/eng-esp/walking.png",
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // opis
         desc: "caminar[kaminar] - spacerować",
@@ -10004,7 +10004,7 @@ id: [
         {
             id: 1,
             img: {
-                src: "http://localhost/arbulanguage.com/img/fiszkiespanol/14a.jpg",
+                src: "https://www.arbulang.com/img/fiszkiespanol/14a.jpg",
                 alt: ""
             },
             story: {
@@ -10015,7 +10015,7 @@ id: [
         }
     ],
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // opis
         desc: "juntos[hunots] - razem",
@@ -10049,7 +10049,7 @@ id: [
         {
             id: 1,
             img: {
-                src: "http://localhost/arbulanguage.com/img/fiszkiespanol/212a.jpg",
+                src: "https://www.arbulang.com/img/fiszkiespanol/212a.jpg",
                 alt: ""
             },
             story: {
@@ -10060,7 +10060,7 @@ id: [
         }
     ],
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // opis
         desc: "bajo[baho] - pod",
@@ -10095,7 +10095,7 @@ id: [
         {
             id: 1,
             img: {
-                src: "http://localhost/arbulanguage.com/img/fiszkiespanol/213a.jpg",
+                src: "https://www.arbulang.com/img/fiszkiespanol/213a.jpg",
                 alt: ""
             },
             story: {
@@ -10106,7 +10106,7 @@ id: [
         }
     ],
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // opis
         desc: "el sol[el sol] - słońce ",
@@ -10141,7 +10141,7 @@ id: [
         {
             id: 1,
             img: {
-                src: "http://localhost/arbulanguage.com/img/fiszkiespanol/126a.jpg",
+                src: "https://www.arbulang.com/img/fiszkiespanol/126a.jpg",
                 alt: ""
             },
             story: {
@@ -10152,7 +10152,7 @@ id: [
         }
     ],
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // opis
         desc: "suave[sławe] - delikatny",
@@ -10187,7 +10187,7 @@ id: [
         {
             id: 1,
             img: {
-                src: "http://localhost/arbulanguage.com/img/fiszkiespanol/215a.jpg",
+                src: "https://www.arbulang.com/img/fiszkiespanol/215a.jpg",
                 alt: ""
             },
             story: {
@@ -10199,10 +10199,10 @@ id: [
     ],
         translate: "Chcieć tylko dobrych rzeczy dla wszystkich",
         translateb: "[]",
-        srcWord: ["http://localhost/arbulanguage.com/filmy/eng-esp/goodthings.mp4", 'Nietykalni (?)'],
-        srcWordimage: "http://localhost/arbulanguage.com/filmy/eng-esp/goodthings.png",
+        srcWord: ["https://www.arbulang.com/filmy/eng-esp/goodthings.mp4", 'Nietykalni (?)'],
+        srcWordimage: "https://www.arbulang.com/filmy/eng-esp/goodthings.png",
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // opis
         desc: "querer[kierer] - chcieć",
@@ -10238,7 +10238,7 @@ id: [
         {
             id: 1,
             img: {
-                src: "http://localhost/arbulanguage.com/img/fiszkiespanol/6a.jpg",
+                src: "https://www.arbulang.com/img/fiszkiespanol/6a.jpg",
                 alt: ""
             },
             story: {
@@ -10249,7 +10249,7 @@ id: [
         }
     ],
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // opis
         desc: "solo[solo] - samemu/tylko",
@@ -10285,7 +10285,7 @@ id: [
         {
             id: 1,
             img: {
-                src: "http://localhost/arbulanguage.com/img/fiszkiespanol/217a.jpg",
+                src: "https://www.arbulang.com/img/fiszkiespanol/217a.jpg",
                 alt: ""
             },
             story: {
@@ -10296,7 +10296,7 @@ id: [
         }
     ],
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // opis
         desc: "cosas[kosas] - rzeczy",
@@ -10332,7 +10332,7 @@ id: [
         {
             id: 1,
             img: {
-                src: "http://localhost/arbulanguage.com/img/fiszkiespanol/218a.jpg",
+                src: "https://www.arbulang.com/img/fiszkiespanol/218a.jpg",
                 alt: ""
             },
             story: {
@@ -10343,7 +10343,7 @@ id: [
         }
     ],
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // opis
         desc: "buenas[błenas] - dobrze",
@@ -10379,7 +10379,7 @@ id: [
         {
             id: 1,
             img: {
-                src: "http://localhost/arbulanguage.com/img/fiszkiespanol/95a.jpg",
+                src: "https://www.arbulang.com/img/fiszkiespanol/95a.jpg",
                 alt: ""
             },
             story: {
@@ -10390,7 +10390,7 @@ id: [
         }
     ],
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // opis
         desc: "para[para] - dla/żeby",
@@ -10424,7 +10424,7 @@ id: [
         {
             id: 1,
             img: {
-                src: "http://localhost/arbulanguage.com/img/fiszkiespanol/220a.jpg",
+                src: "https://www.arbulang.com/img/fiszkiespanol/220a.jpg",
                 alt: ""
             },
             story: {
@@ -10436,7 +10436,7 @@ id: [
                 {
             id: 2,
             img: {
-                src: "http://localhost/arbulanguage.com/img/fiszkiespanol/70a.jpg",
+                src: "https://www.arbulang.com/img/fiszkiespanol/70a.jpg",
                 alt: ""
             },
             story: {
@@ -10447,7 +10447,7 @@ id: [
         }
     ],
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // historia
         story: [
@@ -10485,7 +10485,7 @@ id: [
         {
             id: 1,
             img: {
-                src: "http://localhost/arbulanguage.com/img/fiszkiespanol/221a.jpg",
+                src: "https://www.arbulang.com/img/fiszkiespanol/221a.jpg",
                 alt: ""
             },
             story: {
@@ -10497,10 +10497,10 @@ id: [
     ],
         translate: "Pomagać ludziom, nie oczekując niczego w zamian",
         translateb: "[Ajudar a la hente sin esperar nada]",
-        srcWord: ["http://localhost/arbulanguage.com/filmy/eng-esp/helpothers.mp4", 'Matrix 1999'],
-        srcWordimage: "http://localhost/arbulanguage.com/filmy/eng-esp/helpothers.png",
+        srcWord: ["https://www.arbulang.com/filmy/eng-esp/helpothers.mp4", 'Matrix 1999'],
+        srcWordimage: "https://www.arbulang.com/filmy/eng-esp/helpothers.png",
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // opis
         desc: "ayudar[ajudar] - pomagać",
@@ -10535,7 +10535,7 @@ id: [
         {
             id: 1,
             img: {
-                src: "http://localhost/arbulanguage.com/img/fiszkiespanol/230a.jpg",
+                src: "https://www.arbulang.com/img/fiszkiespanol/230a.jpg",
                 alt: ""
             },
             story: {
@@ -10546,7 +10546,7 @@ id: [
         }
     ],
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // opis
         desc: "a[a] - komu?,czemu?",
@@ -10581,7 +10581,7 @@ id: [
         {
             id: 1,
             img: {
-                src: "http://localhost/arbulanguage.com/img/fiszkiespanol/223a.jpg",
+                src: "https://www.arbulang.com/img/fiszkiespanol/223a.jpg",
                 alt: ""
             },
             story: {
@@ -10592,7 +10592,7 @@ id: [
         }
     ],
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // opis
         desc: "la gente[la hente] - ludziom",
@@ -10627,7 +10627,7 @@ id: [
         {
             id: 1,
             img: {
-                src: "http://localhost/arbulanguage.com/img/fiszkiespanol/10a.jpg",
+                src: "https://www.arbulang.com/img/fiszkiespanol/10a.jpg",
                 alt: ""
             },
             story: {
@@ -10638,7 +10638,7 @@ id: [
         }
     ],
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // opis
         desc: "sin[sin] - bez",
@@ -10673,7 +10673,7 @@ id: [
         {
             id: 1,
             img: {
-                src: "http://localhost/arbulanguage.com/img/fiszkiespanol/225a.jpg",
+                src: "https://www.arbulang.com/img/fiszkiespanol/225a.jpg",
                 alt: ""
             },
             story: {
@@ -10684,7 +10684,7 @@ id: [
         }
     ],
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // opis
         desc: "esparar[esperar] - oczekiwać, czekać",
@@ -10719,7 +10719,7 @@ id: [
         {
             id: 1,
             img: {
-                src: "http://localhost/arbulanguage.com/img/fiszkiespanol/226a.jpg",
+                src: "https://www.arbulang.com/img/fiszkiespanol/226a.jpg",
                 alt: ""
             },
             story: {
@@ -10730,7 +10730,7 @@ id: [
         }
     ],
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // opis
         desc: "nada[nada] - nic, niczego",
@@ -10765,7 +10765,7 @@ id: [
         {
             id: 1,
             img: {
-                src: "http://localhost/arbulanguage.com/img/fiszkiespanol/227a.jpg",
+                src: "https://www.arbulang.com/img/fiszkiespanol/227a.jpg",
                 alt: ""
             },
             story: {
@@ -10777,10 +10777,10 @@ id: [
     ],
         translate: "Przekazywać ludziom jasne informacje",
         translateb: "[Diwulgar informasion]",
-        srcWord: ["http://localhost/arbulanguage.com/filmy/eng-esp/right.mp4", '?? 1999'],
-        srcWordimage: "http://localhost/arbulanguage.com/filmy/eng-esp/right.png",
+        srcWord: ["https://www.arbulang.com/filmy/eng-esp/right.mp4", '?? 1999'],
+        srcWordimage: "https://www.arbulang.com/filmy/eng-esp/right.png",
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // opis
         desc: "divulgar[dibulgar] - przekazywać",
@@ -10815,7 +10815,7 @@ id: [
         {
             id: 1,
             img: {
-                src: "http://localhost/arbulanguage.com/img/fiszkiespanol/228a.jpg",
+                src: "https://www.arbulang.com/img/fiszkiespanol/228a.jpg",
                 alt: ""
             },
             story: {
@@ -10826,7 +10826,7 @@ id: [
         }
     ],
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // opis
         desc: "información[informasion] - informacja",
@@ -10861,7 +10861,7 @@ id: [
         {
             id: 1,
             img: {
-                src: "http://localhost/arbulanguage.com/img/fiszkiespanol/229a.jpg",
+                src: "https://www.arbulang.com/img/fiszkiespanol/229a.jpg",
                 alt: ""
             },
             story: {
@@ -10872,7 +10872,7 @@ id: [
         }
     ],
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // opis
         desc: "clara[klara] -jasne",
@@ -10907,7 +10907,7 @@ id: [
         {
             id: 1,
             img: {
-                src: "http://localhost/arbulanguage.com/img/fiszkiespanol/230a.jpg",
+                src: "https://www.arbulang.com/img/fiszkiespanol/230a.jpg",
                 alt: ""
             },
             story: {
@@ -10918,7 +10918,7 @@ id: [
         }
     ],
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // opis
         desc: "a[a] - komu?,czemu?",
@@ -10952,7 +10952,7 @@ id: [
         {
             id: 1,
             img: {
-                src: "http://localhost/arbulanguage.com/img/fiszkiespanol/223a.jpg",
+                src: "https://www.arbulang.com/img/fiszkiespanol/223a.jpg",
                 alt: ""
             },
             story: {
@@ -10963,7 +10963,7 @@ id: [
         }
     ],
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // opis
         desc: "la gente[la hente] - ludziom",
@@ -10997,7 +10997,7 @@ id: [
         {
             id: 1,
             img: {
-                src: "http://localhost/arbulanguage.com/img/fiszkiespanol/232a.jpg",
+                src: "https://www.arbulang.com/img/fiszkiespanol/232a.jpg",
                 alt: ""
             },
             story: {
@@ -11009,10 +11009,10 @@ id: [
     ],
         translate: "Zebrać dane przed spotkaniem",
         translateb: "[]",
-        srcWord: ["http://localhost/arbulanguage.com/filmy/eng-esp/read.mp4", '??'],
-        srcWordimage: "http://localhost/arbulanguage.com/filmy/eng-esp/read.png",
+        srcWord: ["https://www.arbulang.com/filmy/eng-esp/read.mp4", '??'],
+        srcWordimage: "https://www.arbulang.com/filmy/eng-esp/read.png",
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // historia
         story: [
@@ -11050,7 +11050,7 @@ id: [
         {
             id: 1,
             img: {
-                src: "http://localhost/arbulanguage.com/img/fiszkiespanol/233a.jpg",
+                src: "https://www.arbulang.com/img/fiszkiespanol/233a.jpg",
                 alt: ""
             },
             story: {
@@ -11061,7 +11061,7 @@ id: [
         }
     ],
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // opis
         desc: "datos[datos] - dane",
@@ -11095,7 +11095,7 @@ id: [
         {
             id: 1,
             img: {
-                src: "http://localhost/arbulanguage.com/img/fiszkiespanol/22a.jpg",
+                src: "https://www.arbulang.com/img/fiszkiespanol/22a.jpg",
                 alt: ""
             },
             story: {
@@ -11106,7 +11106,7 @@ id: [
         }
     ],
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // opis
         desc: "antes de[antes de] - przed",
@@ -11140,7 +11140,7 @@ id: [
         {
             id: 1,
             img: {
-                src: "http://localhost/arbulanguage.com/img/fiszkiespanol/235a.jpg",
+                src: "https://www.arbulang.com/img/fiszkiespanol/235a.jpg",
                 alt: ""
             },
             story: {
@@ -11151,7 +11151,7 @@ id: [
         }
     ],
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // opis
         desc: "la reunión[la reunion] - spotkanie",
@@ -11185,7 +11185,7 @@ id: [
         {
             id: 1,
             img: {
-                src: "http://localhost/arbulanguage.com/img/fiszkiespanol/236a.jpg",
+                src: "https://www.arbulang.com/img/fiszkiespanol/236a.jpg",
                 alt: ""
             },
             story: {
@@ -11197,10 +11197,10 @@ id: [
     ],
         translate: "Połączyć idee, aby wykonać dobrą pracę",
         translateb: "[]",
-        srcWord: ["http://localhost/arbulanguage.com/filmy/eng-esp/ideas.mp4", 'Matrix 1999'],
-        srcWordimage: "http://localhost/arbulanguage.com/filmy/eng-esp/ideas.png",
+        srcWord: ["https://www.arbulang.com/filmy/eng-esp/ideas.mp4", 'Matrix 1999'],
+        srcWordimage: "https://www.arbulang.com/filmy/eng-esp/ideas.png",
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // opis
         desc: "unir[unir] - połączyć",
@@ -11234,7 +11234,7 @@ id: [
         {
             id: 1,
             img: {
-                src: "http://localhost/arbulanguage.com/img/fiszkiespanol/237a.jpg",
+                src: "https://www.arbulang.com/img/fiszkiespanol/237a.jpg",
                 alt: ""
             },
             story: {
@@ -11245,7 +11245,7 @@ id: [
         }
     ],
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // opis
         desc: "ideas[ideas] - idee (liczba mnoga)",
@@ -11279,7 +11279,7 @@ id: [
         {
             id: 1,
             img: {
-                src: "http://localhost/arbulanguage.com/img/fiszkiespanol/95a.jpg",
+                src: "https://www.arbulang.com/img/fiszkiespanol/95a.jpg",
                 alt: ""
             },
             story: {
@@ -11290,7 +11290,7 @@ id: [
         }
     ],
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // opis
         desc: "para[para] - dla",
@@ -11325,7 +11325,7 @@ id: [
         {
             id: 1,
             img: {
-                src: "http://localhost/arbulanguage.com/img/fiszkiespanol/239a.jpg",
+                src: "https://www.arbulang.com/img/fiszkiespanol/239a.jpg",
                 alt: ""
             },
             story: {
@@ -11336,7 +11336,7 @@ id: [
         }
     ],
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // opis
         desc: "un buen[un bien] - dobrze",
@@ -11371,7 +11371,7 @@ id: [
         {
             id: 1,
             img: {
-                src: "http://localhost/arbulanguage.com/img/fiszkiespanol/240a.jpg",
+                src: "https://www.arbulang.com/img/fiszkiespanol/240a.jpg",
                 alt: ""
             },
             story: {
@@ -11382,7 +11382,7 @@ id: [
         }
     ],
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // opis
         desc: "trabajo[trabaho] - pracować",
@@ -11417,7 +11417,7 @@ id: [
         {
             id: 1,
             img: {
-                src: "http://localhost/arbulanguage.com/img/fiszkiespanol/241a.jpg",
+                src: "https://www.arbulang.com/img/fiszkiespanol/241a.jpg",
                 alt: ""
             },
             story: {
@@ -11429,10 +11429,10 @@ id: [
     ],
         translate: "Obraz pokazuje rzeczywistość",
         translateb: "[]",
-        srcWord: ["http://localhost/arbulanguage.com/filmy/eng-esp/image.mp4", 'Matrix 1999'],
-        srcWordimage: "http://localhost/arbulanguage.com/filmy/eng-esp/image.png",
+        srcWord: ["https://www.arbulang.com/filmy/eng-esp/image.mp4", 'Matrix 1999'],
+        srcWordimage: "https://www.arbulang.com/filmy/eng-esp/image.png",
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // opis
         desc: "la imagen[la imahen] - obraz",
@@ -11461,7 +11461,7 @@ id: [
         {
             id: 1,
             img: {
-                src: "http://localhost/arbulanguage.com/img/fiszkiespanol/242a.jpg",
+                src: "https://www.arbulang.com/img/fiszkiespanol/242a.jpg",
                 alt: ""
             },
             story: {
@@ -11472,7 +11472,7 @@ id: [
         }
     ],
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // opis
         desc: "muestra[muestra] - próbka",
@@ -11501,7 +11501,7 @@ id: [
         {
             id: 1,
             img: {
-                src: "http://localhost/arbulanguage.com/img/fiszkiespanol/243a.jpg",
+                src: "https://www.arbulang.com/img/fiszkiespanol/243a.jpg",
                 alt: ""
             },
             story: {
@@ -11512,7 +11512,7 @@ id: [
         }
     ],
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // opis
         desc: "realidad[realidad] - rzeczywistość",
@@ -11541,7 +11541,7 @@ id: [
         {
             id: 1,
             img: {
-                src: "http://localhost/arbulanguage.com/img/fiszkiespanol/244a.jpg",
+                src: "https://www.arbulang.com/img/fiszkiespanol/244a.jpg",
                 alt: ""
             },
             story: {
@@ -11553,10 +11553,10 @@ id: [
     ],
         translate: "Sprawiać wrażenie pewnego siebie w miejscach publicznych",
         translateb: "[]",
-        srcWord: ["http://localhost/arbulanguage.com/filmy/eng-esp/approach.mp4", 'Matrix 1999'],
-        srcWordimage: "http://localhost/arbulanguage.com/filmy/eng-esp/approach.png",
+        srcWord: ["https://www.arbulang.com/filmy/eng-esp/approach.mp4", 'Matrix 1999'],
+        srcWordimage: "https://www.arbulang.com/filmy/eng-esp/approach.png",
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // opis
         desc: "parecer[pareser] - wydaje się",
@@ -11584,7 +11584,7 @@ id: [
         {
             id: 1,
             img: {
-                src: "http://localhost/arbulanguage.com/img/fiszkiespanol/245a.jpg",
+                src: "https://www.arbulang.com/img/fiszkiespanol/245a.jpg",
                 alt: ""
             },
             story: {
@@ -11595,7 +11595,7 @@ id: [
         }
     ],
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // opis
         desc: "seguro[seguro] - pewnie, jasne",
@@ -11623,7 +11623,7 @@ id: [
         {
             id: 1,
             img: {
-                src: "http://localhost/arbulanguage.com/img/fiszkiespanol/3a.jpg",
+                src: "https://www.arbulang.com/img/fiszkiespanol/3a.jpg",
                 alt: ""
             },
             story: {
@@ -11634,7 +11634,7 @@ id: [
         }
     ],
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // opis
         desc: "en[en] - we",
@@ -11662,7 +11662,7 @@ id: [
         {
             id: 1,
             img: {
-                src: "http://localhost/arbulanguage.com/img/fiszkiespanol/247a.jpg",
+                src: "https://www.arbulang.com/img/fiszkiespanol/247a.jpg",
                 alt: ""
             },
             story: {
@@ -11673,7 +11673,7 @@ id: [
         }
     ],
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // opis
         desc: "público[publiko] - publicznie",
@@ -11701,7 +11701,7 @@ id: [
         {
             id: 1,
             img: {
-                src: "http://localhost/arbulanguage.com/img/fiszkiespanol/248a.jpg",
+                src: "https://www.arbulang.com/img/fiszkiespanol/248a.jpg",
                 alt: ""
             },
             story: {
@@ -11713,10 +11713,10 @@ id: [
     ],
         translate: "Mieć cierpliwość w oczekiwaniu",
         translateb: "[]",
-        srcWord: ["http://localhost/arbulanguage.com/filmy/eng-esp/coutning.mp4", 'Matrix 1999'],
-        srcWordimage: "http://localhost/arbulanguage.com/filmy/eng-esp/counting.png",
+        srcWord: ["https://www.arbulang.com/filmy/eng-esp/coutning.mp4", 'Matrix 1999'],
+        srcWordimage: "https://www.arbulang.com/filmy/eng-esp/counting.png",
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // opis
         desc: "tener[tener] - mieć",
@@ -11742,10 +11742,10 @@ id: [
 ],
         // obrazek
         img: [
-                "http://localhost/arbulanguage.com/img/fiszkiespanol/249a.jpg"
+                "https://www.arbulang.com/img/fiszkiespanol/249a.jpg"
         ],
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // historia
         story: [
@@ -11777,7 +11777,7 @@ id: [
         {
             id: 1,
             img: {
-                src: "http://localhost/arbulanguage.com/img/fiszkiespanol/3a.jpg",
+                src: "https://www.arbulang.com/img/fiszkiespanol/3a.jpg",
                 alt: ""
             },
             story: {
@@ -11788,7 +11788,7 @@ id: [
         }
     ],
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // opis
         desc: "en[en] - we",
@@ -11816,7 +11816,7 @@ id: [
         {
             id: 1,
             img: {
-                src: "http://localhost/arbulanguage.com/img/fiszkiespanol/251a.jpg",
+                src: "https://www.arbulang.com/img/fiszkiespanol/251a.jpg",
                 alt: ""
             },
             story: {
@@ -11827,7 +11827,7 @@ id: [
         }
     ],
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // opis
         desc: "la espera[la espera] - czekać",
@@ -11855,7 +11855,7 @@ id: [
         {
             id: 1,
             img: {
-                src: "http://localhost/arbulanguage.com/img/fiszkiespanol/252a.jpg",
+                src: "https://www.arbulang.com/img/fiszkiespanol/252a.jpg",
                 alt: ""
             },
             story: {
@@ -11867,10 +11867,10 @@ id: [
     ],
         translate: "Wybrać prostą opcję",
         translateb: "[]",
-        srcWord: ["http://localhost/arbulanguage.com/filmy/eng-esp/option.mp4", 'Matrix 1999'],
-        srcWordimage: "http://localhost/arbulanguage.com/filmy/eng-esp/option.png",
+        srcWord: ["https://www.arbulang.com/filmy/eng-esp/option.mp4", 'Matrix 1999'],
+        srcWordimage: "https://www.arbulang.com/filmy/eng-esp/option.png",
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // opis
         desc: "elegir[elehir] - wybierać",
@@ -11899,7 +11899,7 @@ id: [
         {
             id: 1,
             img: {
-                src: "http://localhost/arbulanguage.com/img/fiszkiespanol/253a.jpg",
+                src: "https://www.arbulang.com/img/fiszkiespanol/253a.jpg",
                 alt: ""
             },
             story: {
@@ -11910,7 +11910,7 @@ id: [
         }
     ],
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // opis
         desc: "una option[una option] - opcja",
@@ -11939,7 +11939,7 @@ id: [
         {
             id: 1,
             img: {
-                src: "http://localhost/arbulanguage.com/img/fiszkiespanol/253a.jpg",
+                src: "https://www.arbulang.com/img/fiszkiespanol/253a.jpg",
                 alt: ""
             },
             story: {
@@ -11950,7 +11950,7 @@ id: [
         }
     ],
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // opis
         desc: "simple[simple] - prosty",
@@ -11979,7 +11979,7 @@ id: [
         {
             id: 1,
             img: {
-                src: "http://localhost/arbulanguage.com/img/fiszkiespanol/255a.jpg",
+                src: "https://www.arbulang.com/img/fiszkiespanol/255a.jpg",
                 alt: ""
             },
             story: {
@@ -11991,10 +11991,10 @@ id: [
     ],
         translate: "Przyjaciel słucha teraz muzyki",
         translateb: "[]",
-        srcWord: ["http://localhost/arbulanguage.com/filmy/esp/home.mp4", 'Mechanik Rezurekcja (?)'],
-        srcWordimage: "http://localhost/arbulanguage.com/filmy/esp/home.png",
+        srcWord: ["https://www.arbulang.com/filmy/esp/home.mp4", 'Mechanik Rezurekcja (?)'],
+        srcWordimage: "https://www.arbulang.com/filmy/esp/home.png",
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // opis
         desc: "el amigo[el amigo] - przyjaciel",
@@ -12024,7 +12024,7 @@ id: [
         {
             id: 1,
             img: {
-                src: "http://localhost/arbulanguage.com/img/fiszkiespanol/256a.jpg",
+                src: "https://www.arbulang.com/img/fiszkiespanol/256a.jpg",
                 alt: ""
             },
             story: {
@@ -12035,7 +12035,7 @@ id: [
         }
     ],
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // opis
         desc: "escucha[eskucza] - słuchać",
@@ -12065,7 +12065,7 @@ id: [
         {
             id: 1,
             img: {
-                src: "http://localhost/arbulanguage.com/img/fiszkiespanol/257a.jpg",
+                src: "https://www.arbulang.com/img/fiszkiespanol/257a.jpg",
                 alt: ""
             },
             story: {
@@ -12076,7 +12076,7 @@ id: [
         }
     ],
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // opis
         desc: "música[muzika] - muzyka",
@@ -12106,7 +12106,7 @@ id: [
         {
             id: 1,
             img: {
-                src: "http://localhost/arbulanguage.com/img/fiszkiespanol/258a.jpg",
+                src: "https://www.arbulang.com/img/fiszkiespanol/258a.jpg",
                 alt: ""
             },
             story: {
@@ -12117,7 +12117,7 @@ id: [
         }
     ],
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // opis
         desc: "ahora[aora] - teraz",
@@ -12147,7 +12147,7 @@ id: [
         {
             id: 1,
             img: {
-                src: "http://localhost/arbulanguage.com/img/fiszkiespanol/259a.jpg",
+                src: "https://www.arbulang.com/img/fiszkiespanol/259a.jpg",
                 alt: ""
             },
             story: {
@@ -12159,10 +12159,10 @@ id: [
     ],
         translate: "Kobieta pije zimną wodę",
         translateb: "[]",
-        srcWord: ["http://localhost/arbulanguage.com/filmy/eng-esp/drinkwater.mp4", 'Erin Brockovich (2000)'],
-        srcWordimage: "http://localhost/arbulanguage.com/filmy/eng-esp/drinkwater.png",
+        srcWord: ["https://www.arbulang.com/filmy/eng-esp/drinkwater.mp4", 'Erin Brockovich (2000)'],
+        srcWordimage: "https://www.arbulang.com/filmy/eng-esp/drinkwater.png",
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // opis
         desc: "la mujer[la muher] - kobieta",
@@ -12192,7 +12192,7 @@ id: [
         {
             id: 1,
             img: {
-                src: "http://localhost/arbulanguage.com/img/fiszkiespanol/260a.jpg",
+                src: "https://www.arbulang.com/img/fiszkiespanol/260a.jpg",
                 alt: ""
             },
             story: {
@@ -12203,7 +12203,7 @@ id: [
         }
     ],
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // opis
         desc: "bebe[bebe] - pije",
@@ -12233,7 +12233,7 @@ id: [
         {
             id: 1,
             img: {
-                src: "http://localhost/arbulanguage.com/img/fiszkiespanol/261a.jpg",
+                src: "https://www.arbulang.com/img/fiszkiespanol/261a.jpg",
                 alt: ""
             },
             story: {
@@ -12244,7 +12244,7 @@ id: [
         }
     ],
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // opis
         desc: "agua[agua] - woda",
@@ -12274,7 +12274,7 @@ id: [
         {
             id: 1,
             img: {
-                src: "http://localhost/arbulanguage.com/img/fiszkiespanol/262a.jpg",
+                src: "https://www.arbulang.com/img/fiszkiespanol/262a.jpg",
                 alt: ""
             },
             story: {
@@ -12285,7 +12285,7 @@ id: [
         }
     ],
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // opis
         desc: "fria[fria] - zimny/zimna",
@@ -12315,7 +12315,7 @@ id: [
         {
             id: 1,
             img: {
-                src: "http://localhost/arbulanguage.com/img/fiszkiespanol/263a.jpg",
+                src: "https://www.arbulang.com/img/fiszkiespanol/263a.jpg",
                 alt: ""
             },
             story: {
@@ -12327,10 +12327,10 @@ id: [
     ],
         translate: "Kot patrzy przez okno",
         translateb: "[]",
-        srcWord: ["http://localhost/arbulanguage.com/filmy/esp/.mp4", ''],
-        srcWordimage: "http://localhost/arbulanguage.com/filmy/esp/.png",
+        srcWord: ["https://www.arbulang.com/filmy/esp/.mp4", ''],
+        srcWordimage: "https://www.arbulang.com/filmy/esp/.png",
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // opis
         desc: "la gato[la gato] - kot",
@@ -12360,7 +12360,7 @@ id: [
         {
             id: 1,
             img: {
-                src: "http://localhost/arbulanguage.com/img/fiszkiespanol/264a.jpg",
+                src: "https://www.arbulang.com/img/fiszkiespanol/264a.jpg",
                 alt: ""
             },
             story: {
@@ -12371,7 +12371,7 @@ id: [
         }
     ],
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // opis
         desc: "mira[] - ",
@@ -12401,7 +12401,7 @@ id: [
         {
             id: 1,
             img: {
-                src: "http://localhost/arbulanguage.com/img/fiszkiespanol/265a.jpg",
+                src: "https://www.arbulang.com/img/fiszkiespanol/265a.jpg",
                 alt: ""
             },
             story: {
@@ -12412,7 +12412,7 @@ id: [
         }
     ],
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // opis
         desc: "por[por] - po, przez",
@@ -12442,7 +12442,7 @@ id: [
         {
             id: 1,
             img: {
-                src: "http://localhost/arbulanguage.com/img/fiszkiespanol/266a.jpg",
+                src: "https://www.arbulang.com/img/fiszkiespanol/266a.jpg",
                 alt: ""
             },
             story: {
@@ -12453,7 +12453,7 @@ id: [
         }
     ],
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // opis
         desc: "ventana[bentana] - okno",
@@ -12483,7 +12483,7 @@ id: [
         {
             id: 1,
             img: {
-                src: "http://localhost/arbulanguage.com/img/fiszkiespanol/267a.jpg",
+                src: "https://www.arbulang.com/img/fiszkiespanol/267a.jpg",
                 alt: ""
             },
             story: {
@@ -12495,10 +12495,10 @@ id: [
     ],
         translate: "Ojciec pracuje dziś tutaj",
         translateb: "[]",
-        srcWord: ["http://localhost/arbulanguage.com/filmy/esp/.mp4", ''],
-        srcWordimage: "http://localhost/arbulanguage.com/filmy/esp/.png",
+        srcWord: ["https://www.arbulang.com/filmy/esp/.mp4", ''],
+        srcWordimage: "https://www.arbulang.com/filmy/esp/.png",
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // historia
         story: [
@@ -12532,7 +12532,7 @@ id: [
         {
             id: 1,
             img: {
-                src: "http://localhost/arbulanguage.com/img/fiszkiespanol/268a.jpg",
+                src: "https://www.arbulang.com/img/fiszkiespanol/268a.jpg",
                 alt: ""
             },
             story: {
@@ -12543,7 +12543,7 @@ id: [
         }
     ],
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // opis
         desc: "trabaja[] - ",
@@ -12573,7 +12573,7 @@ id: [
         {
             id: 1,
             img: {
-                src: "http://localhost/arbulanguage.com/img/fiszkiespanol/269a.jpg",
+                src: "https://www.arbulang.com/img/fiszkiespanol/269a.jpg",
                 alt: ""
             },
             story: {
@@ -12584,7 +12584,7 @@ id: [
         }
     ],
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // opis
         desc: "hoy[] - ",
@@ -12614,7 +12614,7 @@ id: [
         {
             id: 1,
             img: {
-                src: "http://localhost/arbulanguage.com/img/fiszkiespanol/270a.jpg",
+                src: "https://www.arbulang.com/img/fiszkiespanol/270a.jpg",
                 alt: ""
             },
             story: {
@@ -12625,7 +12625,7 @@ id: [
         }
     ],
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // opis
         desc: "aqui[aki] - tutaj",
@@ -12655,7 +12655,7 @@ id: [
         {
             id: 1,
             img: {
-                src: "http://localhost/arbulanguage.com/img/fiszkiespanol/271a.jpg",
+                src: "https://www.arbulang.com/img/fiszkiespanol/271a.jpg",
                 alt: ""
             },
             story: {
@@ -12667,10 +12667,10 @@ id: [
     ],
         translate: "Pies bawi się piłką",
         translateb: "[]",
-        srcWord: ["http://localhost/arbulanguage.com/filmy/eng-esp/widckdog.mp4", 'Matrix 1999'],
-        srcWordimage: "http://localhost/arbulanguage.com/filmy/eng-esp/wickdog.png",
+        srcWord: ["https://www.arbulang.com/filmy/eng-esp/widckdog.mp4", 'Matrix 1999'],
+        srcWordimage: "https://www.arbulang.com/filmy/eng-esp/wickdog.png",
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // opis
         desc: "el perro[] - ",
@@ -12700,7 +12700,7 @@ id: [
         {
             id: 1,
             img: {
-                src: "http://localhost/arbulanguage.com/img/fiszkiespanol/272a.jpg",
+                src: "https://www.arbulang.com/img/fiszkiespanol/272a.jpg",
                 alt: ""
             },
             story: {
@@ -12711,7 +12711,7 @@ id: [
         }
     ],
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // opis
         desc: "juega[juega] - grać (w coś)",
@@ -12741,7 +12741,7 @@ id: [
         {
             id: 1,
             img: {
-                src: "http://localhost/arbulanguage.com/img/fiszkiespanol/17a.jpg",
+                src: "https://www.arbulang.com/img/fiszkiespanol/17a.jpg",
                 alt: ""
             },
             story: {
@@ -12753,7 +12753,7 @@ id: [
         {
             id: 2,
             img: {
-                src: "http://localhost/arbulanguage.com/img/fiszkiespanol/31a.jpg",
+                src: "https://www.arbulang.com/img/fiszkiespanol/31a.jpg",
                 alt: ""
             },
             story: {
@@ -12765,7 +12765,7 @@ id: [
                 {
             id: 3,
             img: {
-                src: "http://localhost/arbulanguage.com/img/fiszkiespanol/31b.jpg",
+                src: "https://www.arbulang.com/img/fiszkiespanol/31b.jpg",
                 alt: ""
             },
             story: {
@@ -12776,7 +12776,7 @@ id: [
         }
     ],
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // opis
         desc: "con[kon] - z",
@@ -12806,7 +12806,7 @@ id: [
         {
             id: 1,
             img: {
-                src: "http://localhost/arbulanguage.com/img/fiszkiespanol/274a.jpg",
+                src: "https://www.arbulang.com/img/fiszkiespanol/274a.jpg",
                 alt: ""
             },
             story: {
@@ -12817,7 +12817,7 @@ id: [
         }
     ],
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // opis
         desc: "pelota[pelota] - piłka",
@@ -12847,7 +12847,7 @@ id: [
         {
             id: 1,
             img: {
-                src: "http://localhost/arbulanguage.com/img/fiszkiespanol/275a.jpg",
+                src: "https://www.arbulang.com/img/fiszkiespanol/275a.jpg",
                 alt: ""
             },
             story: {
@@ -12859,10 +12859,10 @@ id: [
     ],
         translate: "Mężczyzna otwiera swoją książkę",
         translateb: "[]",
-        srcWord: ["http://localhost/arbulanguage.com/filmy/esp/fatherbook.mp4", 'Finding Forrester 1999'],
-        srcWordimage: "http://localhost/arbulanguage.com/filmy/esp/fatherbook.png",
+        srcWord: ["https://www.arbulang.com/filmy/esp/fatherbook.mp4", 'Finding Forrester 1999'],
+        srcWordimage: "https://www.arbulang.com/filmy/esp/fatherbook.png",
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // opis
         desc: "el hombre[el ombre] - mężczyzna",
@@ -12892,7 +12892,7 @@ id: [
         {
             id: 1,
             img: {
-                src: "http://localhost/arbulanguage.com/img/fiszkiespanol/276a.jpg",
+                src: "https://www.arbulang.com/img/fiszkiespanol/276a.jpg",
                 alt: ""
             },
             story: {
@@ -12903,7 +12903,7 @@ id: [
         }
     ],
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // opis
         desc: "abre[abre] - otwarte",
@@ -12933,7 +12933,7 @@ id: [
         {
             id: 1,
             img: {
-                src: "http://localhost/arbulanguage.com/img/fiszkiespanol/277a.jpg",
+                src: "https://www.arbulang.com/img/fiszkiespanol/277a.jpg",
                 alt: ""
             },
             story: {
@@ -12944,7 +12944,7 @@ id: [
         }
     ],
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // opis
         desc: "su[su] - jego",
@@ -12974,7 +12974,7 @@ id: [
         {
             id: 1,
             img: {
-                src: "http://localhost/arbulanguage.com/img/fiszkiespanol/278a.jpg",
+                src: "https://www.arbulang.com/img/fiszkiespanol/278a.jpg",
                 alt: ""
             },
             story: {
@@ -12986,7 +12986,7 @@ id: [
                 {
             id: 2,
             img: {
-                src: "http://localhost/arbulanguage.com/img/fiszkiespanol/278b.jpg",
+                src: "https://www.arbulang.com/img/fiszkiespanol/278b.jpg",
                 alt: ""
             },
             story: {
@@ -12997,7 +12997,7 @@ id: [
         }
     ],
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // opis
         desc: "libro[libro] - książka",
@@ -13027,7 +13027,7 @@ id: [
         {
             id: 1,
             img: {
-                src: "http://localhost/arbulanguage.com/img/fiszkiespanol/279a.jpg",
+                src: "https://www.arbulang.com/img/fiszkiespanol/279a.jpg",
                 alt: ""
             },
             story: {
@@ -13039,10 +13039,10 @@ id: [
     ],
         translate: "Matka uśmiecha się do swojego syna",
         translateb: "[]",
-        srcWord: ["http://localhost/arbulanguage.com/filmy/esp/.mp4", ''],
-        srcWordimage: "http://localhost/arbulanguage.com/filmy/esp/.png",
+        srcWord: ["https://www.arbulang.com/filmy/esp/.mp4", ''],
+        srcWordimage: "https://www.arbulang.com/filmy/esp/.png",
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // opis
         desc: "la madre[la madre] - mama",
@@ -13072,7 +13072,7 @@ id: [
         {
             id: 1,
             img: {
-                src: "http://localhost/arbulanguage.com/img/fiszkiespanol/280a.jpg",
+                src: "https://www.arbulang.com/img/fiszkiespanol/280a.jpg",
                 alt: ""
             },
             story: {
@@ -13083,7 +13083,7 @@ id: [
         }
     ],
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // opis 
        desc: "sonrie[sonri-e] - uśmiech",
@@ -13113,7 +13113,7 @@ id: [
         {
             id: 1,
             img: {
-                src: "http://localhost/arbulanguage.com/img/fiszkiespanol/17a.jpg",
+                src: "https://www.arbulang.com/img/fiszkiespanol/17a.jpg",
                 alt: ""
             },
             story: {
@@ -13125,7 +13125,7 @@ id: [
         {
             id: 2,
             img: {
-                src: "http://localhost/arbulanguage.com/img/fiszkiespanol/31a.jpg",
+                src: "https://www.arbulang.com/img/fiszkiespanol/31a.jpg",
                 alt: ""
             },
             story: {
@@ -13137,7 +13137,7 @@ id: [
                 {
             id: 3,
             img: {
-                src: "http://localhost/arbulanguage.com/img/fiszkiespanol/31b.jpg",
+                src: "https://www.arbulang.com/img/fiszkiespanol/31b.jpg",
                 alt: ""
             },
             story: {
@@ -13148,7 +13148,7 @@ id: [
         }
     ],
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // opis
         desc: "con[kon] - z",
@@ -13178,7 +13178,7 @@ id: [
         {
             id: 1,
             img: {
-                src: "http://localhost/arbulanguage.com/img/fiszkiespanol/282a.jpg",
+                src: "https://www.arbulang.com/img/fiszkiespanol/282a.jpg",
                 alt: ""
             },
             story: {
@@ -13189,7 +13189,7 @@ id: [
         }
     ],
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // opis
         desc: "hijo[iho] - syn",
@@ -13219,7 +13219,7 @@ id: [
         {
             id: 1,
             img: {
-                src: "http://localhost/arbulanguage.com/img/fiszkiespanol/283a.jpg",
+                src: "https://www.arbulang.com/img/fiszkiespanol/283a.jpg",
                 alt: ""
             },
             story: {
@@ -13231,10 +13231,10 @@ id: [
     ],
         translate: "Zadzwonię do ciebie później",
         translateb: "[]",
-        srcWord: ["http://localhost/arbulanguage.com/filmy/eng-esp/callback.mp4", 'Matrix 1999'],
-        srcWordimage: "http://localhost/arbulanguage.com/filmy/eng-esp/callback.png",
+        srcWord: ["https://www.arbulang.com/filmy/eng-esp/callback.mp4", 'Matrix 1999'],
+        srcWordimage: "https://www.arbulang.com/filmy/eng-esp/callback.png",
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // opis
         desc: "te[te] - ty",
@@ -13264,7 +13264,7 @@ id: [
         {
             id: 1,
             img: {
-                src: "http://localhost/arbulanguage.com/img/fiszkiespanol/284a.jpg",
+                src: "https://www.arbulang.com/img/fiszkiespanol/284a.jpg",
                 alt: ""
             },
             story: {
@@ -13275,7 +13275,7 @@ id: [
         }
     ],
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // opis
         desc: "llamaré[dżamare] - zadzwonię",
@@ -13305,7 +13305,7 @@ id: [
         {
             id: 1,
             img: {
-                src: "http://localhost/arbulanguage.com/img/fiszkiespanol/285a.jpg",
+                src: "https://www.arbulang.com/img/fiszkiespanol/285a.jpg",
                 alt: ""
             },
             story: {
@@ -13316,7 +13316,7 @@ id: [
         }
     ],
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // opis
         desc: "más[mas] - bardziej, więcej",
@@ -13346,7 +13346,7 @@ id: [
         {
             id: 1,
             img: {
-                src: "http://localhost/arbulanguage.com/img/fiszkiespanol/286a.jpg",
+                src: "https://www.arbulang.com/img/fiszkiespanol/286a.jpg",
                 alt: ""
             },
             story: {
@@ -13357,7 +13357,7 @@ id: [
         }
     ],
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // opis
         desc: "tarde[tarde] - póżniej, wieczór",
@@ -13387,7 +13387,7 @@ id: [
         {
             id: 1,
             img: {
-                src: "http://localhost/arbulanguage.com/img/fiszkiespanol/287a.jpg",
+                src: "https://www.arbulang.com/img/fiszkiespanol/287a.jpg",
                 alt: ""
             },
             story: {
@@ -13399,10 +13399,10 @@ id: [
     ],
         translate: "Podróżowałbym więcej, gdybym miał czas",
         translateb: "[]",
-        srcWord: ["http://localhost/arbulanguage.com/filmy/esp/.mp4", ''],
-        srcWordimage: "http://localhost/arbulanguage.com/filmy/esp/.png",
+        srcWord: ["https://www.arbulang.com/filmy/esp/.mp4", ''],
+        srcWordimage: "https://www.arbulang.com/filmy/esp/.png",
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // opis
         desc: "viajaria[biahara] - podróżował",
@@ -13430,7 +13430,7 @@ id: [
         {
             id: 1,
             img: {
-                src: "http://localhost/arbulanguage.com/img/fiszkiespanol/285a.jpg",
+                src: "https://www.arbulang.com/img/fiszkiespanol/285a.jpg",
                 alt: ""
             },
             story: {
@@ -13441,7 +13441,7 @@ id: [
         }
     ],
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // opis
         desc: "más[mas] - bardziej, więcej",
@@ -13469,7 +13469,7 @@ id: [
         {
             id: 1,
             img: {
-                src: "http://localhost/arbulanguage.com/img/fiszkiespanol/289a.jpg",
+                src: "https://www.arbulang.com/img/fiszkiespanol/289a.jpg",
                 alt: ""
             },
             story: {
@@ -13480,7 +13480,7 @@ id: [
         }
     ],
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // opis
         desc: "si[si] - gdybym",
@@ -13509,7 +13509,7 @@ id: [
         {
             id: 1,
             img: {
-                src: "http://localhost/arbulanguage.com/img/fiszkiespanol/290a.jpg",
+                src: "https://www.arbulang.com/img/fiszkiespanol/290a.jpg",
                 alt: ""
             },
             story: {
@@ -13520,7 +13520,7 @@ id: [
         }
     ],
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // opis
         desc: "tuviera[tubiera] - miałem",
@@ -13549,7 +13549,7 @@ id: [
         {
             id: 1,
             img: {
-                src: "http://localhost/arbulanguage.com/img/fiszkiespanol/291a.jpg",
+                src: "https://www.arbulang.com/img/fiszkiespanol/291a.jpg",
                 alt: ""
             },
             story: {
@@ -13560,7 +13560,7 @@ id: [
         }
     ],
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // opis
         desc: "tiempo[tiempo] - czas",
@@ -13589,7 +13589,7 @@ id: [
         {
             id: 1,
             img: {
-                src: "http://localhost/arbulanguage.com/img/fiszkiespanol/292a.jpg",
+                src: "https://www.arbulang.com/img/fiszkiespanol/292a.jpg",
                 alt: ""
             },
             story: {
@@ -13601,10 +13601,10 @@ id: [
     ],
         translate: "Wynik przerósł nasze oczekiwania",
         translateb: "[]",
-        srcWord: ["http://localhost/arbulanguage.com/filmy/esp/.mp4", ''],
-        srcWordimage: "http://localhost/arbulanguage.com/filmy/esp/.png",
+        srcWord: ["https://www.arbulang.com/filmy/esp/.mp4", ''],
+        srcWordimage: "https://www.arbulang.com/filmy/esp/.png",
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // opis
         desc: "el resultado[] - ",
@@ -13632,7 +13632,7 @@ id: [
         {
             id: 1,
             img: {
-                src: "http://localhost/arbulanguage.com/img/fiszkiespanol/293a.jpg",
+                src: "https://www.arbulang.com/img/fiszkiespanol/293a.jpg",
                 alt: ""
             },
             story: {
@@ -13643,7 +13643,7 @@ id: [
         }
     ],
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // opis
         desc: "superó[supero] - przkroczony",
@@ -13671,7 +13671,7 @@ id: [
         {
             id: 1,
             img: {
-                src: "http://localhost/arbulanguage.com/img/fiszkiespanol/294a.jpg",
+                src: "https://www.arbulang.com/img/fiszkiespanol/294a.jpg",
                 alt: ""
             },
             story: {
@@ -13682,7 +13682,7 @@ id: [
         }
     ],
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // opis
         desc: "nuestras[nuestras] - nasz/nasze",
@@ -13710,7 +13710,7 @@ id: [
         {
             id: 1,
             img: {
-                src: "http://localhost/arbulanguage.com/img/fiszkiespanol/294a.jpg",
+                src: "https://www.arbulang.com/img/fiszkiespanol/294a.jpg",
                 alt: ""
             },
             story: {
@@ -13721,7 +13721,7 @@ id: [
         }
     ],
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // opis
         desc: "expectativas[ekspektatiwas] - oczekiwania",
@@ -13747,14 +13747,14 @@ id: [
 ],
         // obrazek
         img: [
-                "http://localhost/arbulanguage.com/img/fiszkiespanol/131a.jpg"
+                "https://www.arbulang.com/img/fiszkiespanol/131a.jpg"
         ],
         translate: "Porozumienie przyniesie korzyść firmie",
         translateb: "[]",
-        srcWord: ["http://localhost/arbulanguage.com/filmy/esp/.mp4", ''],
-        srcWordimage: "http://localhost/arbulanguage.com/filmy/esp/.png",
+        srcWord: ["https://www.arbulang.com/filmy/esp/.mp4", ''],
+        srcWordimage: "https://www.arbulang.com/filmy/esp/.png",
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // historia
         story: [
@@ -13786,10 +13786,10 @@ id: [
 ],
         // obrazek
         img: [
-                "http://localhost/arbulanguage.com/img/fiszkiespanol/126a.jpg"
+                "https://www.arbulang.com/img/fiszkiespanol/126a.jpg"
         ],
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // historia
         story: [
@@ -13821,10 +13821,10 @@ id: [
 ],
         // obrazek
         img: [
-                "http://localhost/arbulanguage.com/img/fiszkiespanol/126a.jpg"
+                "https://www.arbulang.com/img/fiszkiespanol/126a.jpg"
         ],
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // historia
         story: [
@@ -13856,10 +13856,10 @@ id: [
 ],
         // obrazek
         img: [
-                "http://localhost/arbulanguage.com/img/fiszkiespanol/299a.jpg"
+                "https://www.arbulang.com/img/fiszkiespanol/299a.jpg"
         ],
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/music.mp4"
         ],
         // historia
         story: [
@@ -15096,7 +15096,7 @@ firstItem.on('click', function() {
 
 // Ikona
 let ttsImg = $('<img>')
-    .attr('src', 'http://localhost/arbulanguage.com/img/play.png')
+    .attr('src', 'https://www.arbulang.com/img/play.png')
     .attr('alt', 'Czytaj')
     .addClass('tts-icon')
     .css({
@@ -15148,7 +15148,7 @@ secondItem.on('click', function() {
 
 // Ikona
 let storyImg = $('<img>')
-    .attr('src', 'http://localhost/arbulanguage.com/img/play.png')
+    .attr('src', 'https://www.arbulang.com/img/play.png')
     .attr('alt', 'Odczytaj historyjkę')
     .addClass('tts-icon')
     .css({
@@ -15533,7 +15533,7 @@ function showNotification(fiszka) {
 
   const notification = new Notification(title, {
     body: body,
-    icon: 'http://localhost/arbulanguage.com/img/fiszki1/1a.jpg', // Opcjonalnie, jeśli masz ikonę
+    icon: 'https://www.arbulang.com/img/fiszki1/1a.jpg', // Opcjonalnie, jeśli masz ikonę
   });
 
   notification.onclose = function () {
@@ -17202,7 +17202,7 @@ function showNotification(fiszka) {
 
   const notification = new Notification(title, {
     body: body,
-    icon: 'http://localhost/arbulanguage.com/img/fiszki1/1a.jpg', // Opcjonalnie, jeśli masz ikonę
+    icon: 'https://www.arbulang.com/img/fiszki1/1a.jpg', // Opcjonalnie, jeśli masz ikonę
   });
 }
 // Załóżmy, że wybrana fiszka jest w zmiennej `selectedFiszka`

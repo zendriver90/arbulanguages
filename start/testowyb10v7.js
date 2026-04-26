@@ -243,8 +243,8 @@ fiszki10.push(
         translate: "On twierdził, że się mylił",
         translateb: "[Hi kleimt he wos rong]",
         translateb2: "[]",
-        srcWord: ["https://www.arbulang.com/filmy/lekcja34/wrong.mp4", "Piękny umysł (2001)"],
-        srcWordimage: "https://www.arbulang.com/filmy/lekcja34/wrong.png",
+        srcWord: ["http://localhost/arbulanguage.com/filmy/lekcja34/error.mp4", "Matrix (1999)"],
+        srcWordimage: "http://localhost/arbulanguage.com/filmy/lekcja34/error.png",
         word: [
             "https://www.arbulang.com/voice/bike.mp4"
         ],
@@ -728,8 +728,8 @@ fiszki10.push(
         translate: "Moje serce czuje się ciepłe i szczęśliwe",
         translateb: "[Maj hart fils łorm and hapi]",
         translateb2: "[]",
-        srcWord: ["https://www.arbulang.com/filmy/tennis.mp4", "V for Vendetta (2005)"],
-        srcWordimage: "https://www.arbulang.com/filmy/tennis.png",
+        srcWord: ["http://localhost/arbulanguage.com/filmy/lekcja35/heart.mp4", "Titanic (1997)"],
+        srcWordimage: "http://localhost/arbulanguage.com/filmy/lekcja35/heart.png",
         word: [
             "https://www.arbulang.com/voice/bike.mp4"
         ],
@@ -916,8 +916,8 @@ fiszki10.push(
         translate: "Wilk żyje głęboko w lesie",
         translateb: "[E łulf lajws dip in forest]",
         translateb2: "[]",
-        srcWord: ["https://www.arbulang.com/filmy/tennis.mp4", "V for Vendetta (2005)"],
-        srcWordimage: "https://www.arbulang.com/filmy/tennis.png",
+        srcWord: ["http://localhost/arbulanguage.com/filmy/lekcja36/wolf.mp4", "300 (2006)"],
+        srcWordimage: "http://localhost/arbulanguage.com/filmy/lekcja36/wolf.png",
         word: [
             "https://www.arbulang.com/voice/bike.mp4"
         ],
@@ -1060,8 +1060,8 @@ fiszki10.push(
         translate: "Weź ręcznik po prysznicu",
         translateb: "[]",
         translateb2: "[]",
-        srcWord: ["https://www.arbulang.com/filmy/tennis.mp4", "V for Vendetta (2005)"],
-        srcWordimage: "https://www.arbulang.com/filmy/tennis.png",
+        srcWord: ["http://localhost/arbulanguage.com/filmy/lekcja36/signingshower.mp4", "V for Vendetta (2005)"],
+        srcWordimage: "http://localhost/arbulanguage.com/filmy/lekcja36/singingshower.png",
         word: [
             "https://www.arbulang.com/voice/bike.mp4"
         ],
@@ -1419,8 +1419,8 @@ fiszki10.push(
         translate: "Ona nosi złoto na szyi",
         translateb: "[]",
         translateb2: "[]",
-        srcWord: ["https://www.arbulang.com/filmy/tennis.mp4", "V for Vendetta (2005)"],
-        srcWordimage: "https://www.arbulang.com/filmy/tennis.png",
+        srcWord: ["http://localhost/arbulanguage.com/filmy/lekcja37/gold.mp4", "Titanic (1997)"],
+        srcWordimage: "http://localhost/arbulanguage.com/filmy/lekcja37/gold.png",
         word: [
             "https://www.arbulang.com/voice/bike.mp4"
         ],
@@ -2400,8 +2400,8 @@ fiszki10.push(
         translate: "On czyta gazety co tydzień",
         translateb: "[]",
         translateb2: "[]",
-        srcWord: ["https://www.arbulang.com/filmy/newspaper.mp4", "Kevin sam w domu (1990)"],
-        srcWordimage: "https://www.arbulang.com/filmy/newspaper.png",
+        srcWord: ["http://localhost/arbulanguage.com/filmy/lekcja39/newspaper.mp4", "Kevin sam w domu (1990)"],
+        srcWordimage: "http://localhost/arbulanguage.com/filmy/lekcja39/newspaper.png",
         word: [
             "https://www.arbulang.com/voice/bike.mp4"
         ],
@@ -2741,8 +2741,8 @@ fiszki10.push(
         translate: "Rekin pływa szybko w wodzie",
         translateb: "[]",
         translateb2: "[]",
-        srcWord: ["https://www.arbulang.com/filmy/newspaper.mp4", "Kevin sam w domu (1990)"],
-        srcWordimage: "https://www.arbulang.com/filmy/newspaper.png",
+        srcWord: ["http://localhost/arbulanguage.com/filmy/lekcja40/fish.mp4", "Kevin sam w domu (1990)"],
+        srcWordimage: "http://localhost/arbulanguage.com/filmy/lekcja40/fish.png",
         word: [
             "https://www.arbulang.com/voice/bike.mp4"
         ],

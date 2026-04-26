@@ -877,70 +877,7 @@ function showCombinedSentenceForLesson22b(
                 console.log('index44bc', indexDiv);
                 console.log('Button clicked');
 
-                // UtwĂłrz nowy przycisk "Szybka lekcja"
-                const $loadButton = $('<button>')
-                        .text('Szybka lekcja')
-                        .addClass('slide-button')
-                        .on('click', function () {
-                            // PÄtla po wszystkich elementach wideo i zatrzymywanie kaĹźdego z nich
-                            $('video').each(function () {
-                                const video = $(this).get(0); // Pobiera element wideo jako obiekt DOM
-                                if (video && !video.paused) {
-                                    video.pause();
-                                }
-                            });
-                        });
-                // Funkcja zatrzymujÄca wszystkie wideo w activeVideos
-
-                $loadButton.css({
-                    'position': 'absolute',
-                    'bottom': '10px',
-                    'right': '30px', // PoczÄtkowa pozycja przycisku na prawo od kontenera
-                    'width': '120px', // SzerokoĹÄ przycisku
-                    'height': '30px',
-                    'cursor': 'pointer',
-                    'border-radius': '8px',
-                    'background-color': 'green', // Kolor przycisku
-                    'color': 'white',
-                    'display': 'block', // Pokazuje przycisk od razu
-                    'z-index': '1000001', // Z-index wiÄkszy niĹź startsystem
-                    'text-align': 'left', // WyrĂłwnanie tekstu do lewej (jeĹli to potrzebne)
-                    'overflow': 'hidden' // Ukrywa nadmiar tekstu
-                }).appendTo($container); // Dodaj do kontenera
-
-                // Animacja: zwijanie przycisku "Szybka lekcja" w lewo
-                $loadButton.animate({
-                    width: '0px', // Zmniejszenie szerokoĹci do 0
-                    right: '10px'
-                }, {
-                    duration: 1500, // Czas trwania animacji
-                    complete: function () {
-                        $(this).remove(); // Opcjonalnie: usuĹ przycisk po zakoĹczeniu animacji
-                    }
-                });
-                // UtwĂłrz nowy przycisk "Szybka lekcja"
-                const $newButton = $('<button>').text('Wybierz sĹowo').addClass('slide-button');
-                $newButton.css({
-                    'position': 'absolute',
-                    'bottom': '35px',
-                    'right': '30px',
-                    'width': '120px',
-                    'height': '30px',
-                    'cursor': 'pointer',
-                    'border-radius': '8px',
-                    'background-color': 'blue',
-                    'color': 'white',
-                    'display': 'block',
-                    'z-index': '1000000' // Bardzo wysoki z-index, aby byĹ nad innymi elementami
-                });
-                $newButton.appendTo($container);
-
-                // Animacja: chowanie przycisku "Szybka lekcja" w lewo
-                $newButton.animate({
-                    right: '-110px'
-                }, 500, function () {
-                    console.log('Szybka lekcja button hidden');
-                });
+                
                 // SprawdĹş, czy kontener ma odpowiedni z-index i position
                 $container.css({
                     'position': 'relative', // Ustawienie position na relative, aby z-index dziaĹaĹ
@@ -1139,43 +1076,24 @@ function showCombinedSentenceForLesson22b(
                                 showFiszkiForLesson5(indexDiv, fiszki, mojeidWordIndex, matchingFiszki1);
 
                             }
+const $container = $(`.image-container3b[data-lesson="${indexDiv}"]`);
+
+// Sprawdź wrapper
+let $wrapper = $container.find('.word-fiszka-wrapper');
+if ($wrapper.length === 0) {
+    $wrapper = $('<div>').addClass('word-fiszka-wrapper').appendTo($container);
+}
+
+// Parzystość
 const isEven = indexDiv % 2 === 0;
 
-const baseStyles = {
-    position: 'absolute',
-    bottom: '200px',
-    cursor: 'pointer',
-    fontSize: '22px',
-    width: '130px',
-    height: '30px',
-    textAlign: 'center',
-    lineHeight: '30px',
-    color: 'black',
-    zIndex: '101',
-    borderRadius: '8px',
-    border: '2px solid black'
-};
-
-const evenStyles = {
-    right: '-150px',
-    top: '100px',
-    backgroundColor: 'lightblue'
-};
-
-const oddStyles = {
-    right: '-180px',
-        top: '100px',
-    backgroundColor: 'lightgreen'
-};
-
+// Tworzymy wordDisplay z odpowiednią klasą
 const $wordContainer = $('<div>')
-    .attr('id', 'wordDisplay')
-    .addClass(isEven ? 'wordDisplay-even' : 'wordDisplay-odd')
-    .css({
-        ...baseStyles,
-        ...(isEven ? evenStyles : oddStyles)
-    })
-    .appendTo($container);
+    .addClass('wordDisplay')
+    .addClass(isEven ? 'wordDisplay-even' : 'wordDisplay-odd');
+
+// Dodajemy do wrappera
+$wrapper.append($wordContainer);
                             let ostatniElement2 = tablica11b[tablica11b.length - 2];
                             console.log('hej55', ostatniElement2);
                             // SprawdÄšĹ, czy element 'wordDisplay' juÄšĹş istnieje
@@ -1832,7 +1750,6 @@ currentWordIndex = currentFiszkaIndex;
                                             const fiszka = matchingFiszki2[currentFiszkaIndex];
                                             console.log('Ĺadowana fiszka:', selector);
                                             const fiszkaBlock = generateFiszkaBlock2(fiszka, indexDiv);
-                                            updateWordDisplay(mojeidWordIndex);
                                             return fiszkaBlock;
                                         }
                                     } else if (currentFiszkaIndex === 0) {
@@ -2078,8 +1995,24 @@ currentWordIndex = currentFiszkaIndex;
                                 showFiszkiForLesson5(indexDiv, fiszki, mojeidWordIndex, matchingFiszki2);
 
                             }
-                            const $wordContainer = $('<div>').attr('id', 'wordDisplay').css({
-                            }).appendTo($container);
+const $container = $(`.image-container3b[data-lesson="${indexDiv}"]`);
+
+// Sprawdź wrapper
+let $wrapper = $container.find('.word-fiszka-wrapper');
+if ($wrapper.length === 0) {
+    $wrapper = $('<div>').addClass('word-fiszka-wrapper').appendTo($container);
+}
+
+// Parzystość
+const isEven = indexDiv % 2 === 0;
+
+// Tworzymy wordDisplay z odpowiednią klasą
+const $wordContainer = $('<div>')
+    .addClass('wordDisplay')
+    .addClass(isEven ? 'wordDisplay-even' : 'wordDisplay-odd');
+
+// Dodajemy do wrappera
+$wrapper.append($wordContainer);
                             let ostatniElement2 = tablica11b[tablica11b.length - 2];
                             console.log('hej55', ostatniElement2);
                             // SprawdÄšĹ, czy element 'wordDisplay' juÄšĹş istnieje
@@ -2979,8 +2912,24 @@ console.log('hej68ll', mojeidWordIndex);
                                 showFiszkiForLesson5(indexDiv, fiszki, mojeidWordIndex, matchingFiszki3);
 
                             }
-                            const $wordContainer = $('<div>').attr('id', 'wordDisplay').css({
-                            }).appendTo($container);
+const $container = $(`.image-container3b[data-lesson="${indexDiv}"]`);
+
+// Sprawdź wrapper
+let $wrapper = $container.find('.word-fiszka-wrapper');
+if ($wrapper.length === 0) {
+    $wrapper = $('<div>').addClass('word-fiszka-wrapper').appendTo($container);
+}
+
+// Parzystość
+const isEven = indexDiv % 2 === 0;
+
+// Tworzymy wordDisplay z odpowiednią klasą
+const $wordContainer = $('<div>')
+    .addClass('wordDisplay')
+    .addClass(isEven ? 'wordDisplay-even' : 'wordDisplay-odd');
+
+// Dodajemy do wrappera
+$wrapper.append($wordContainer);
                             let ostatniElement2 = tablica11b[tablica11b.length - 2];
                             console.log('hej55', ostatniElement2);
                             // SprawdÄšĹ, czy element 'wordDisplay' juÄšĹş istnieje

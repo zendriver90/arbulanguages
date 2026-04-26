@@ -4894,8 +4894,8 @@ if (!$wrapper.length) {
 }
 
 // 2. Tworzymy fiszkę wewnątrz wrappera
-let $fiszkaContainer= $('<div>')
-    .addClass('fiszka fiszka-1') // możesz dopisać dynamiczne ID jeśli trzeba
+let $fiszkaContainer = $('<div>')
+    .addClass('fiszka fiszka-' + fiszka.id)
     .css({
         position: 'absolute',
         margin: '5px',
@@ -5052,27 +5052,27 @@ if (Array.isArray(fiszka.img) && fiszka.img.length > 0) {
 
 $fiszkaContainer.append(imgContainer);
 
-        const selectedLikes = [];
+                const selectedLikes = [];
         console.log('hej10', selectedLikes);
 
-// Funkcja do obsĹugi klikniÄcia na przycisk "likeButton"
+// Funkcja do obsługi kliknięcia na przycisk "likeButton"
         function handleLikeButtonClick(index) {
             const likeButton = $(this);
             const storyButton = $fiszkaContainer.find('.story_button').eq(index);
             const selectedLike = likeButton.text();
             console.log('Zaktualizowano przycisk dla indeksu:', index);
-            console.log('Aktualne wartoĹci selectedLikes:', selectedLikes);
+            console.log('Aktualne wartości selectedLikes:', selectedLikes);
         }
         const likeButton = $('<a>').addClass('like').attr('href', '#');
-        const likeText = $('<span>').text('Śmieszna historia');
+        const likeText = $('<span>').text('Wybierz opinię');
         likeButton.append(likeText);
         $fiszkaContainer.append(likeButton);
 
         // Tworzymy kontener opcji "like" i dodajemy opcje do kontenera
         const likeOptionsContainer = $('<div>').attr('id', 'likeOptionsContainer');
-        const likeOption1 = createLikeOption('thumbsUp', 'đ Ĺmieszne');
-        const likeOption2 = createLikeOption('heart', 'â¤ď¸ MiĹe');
-        const likeOption3 = createLikeOption('star', 'â­ PamiÄtliwe');
+        const likeOption1 = createLikeOption('thumbsUp', '👍 Śmieszne');
+        const likeOption2 = createLikeOption('heart', '❤️ Miłe');
+        const likeOption3 = createLikeOption('star', '⭐ Pamiętliwe');
         likeOptionsContainer.append(likeOption1, likeOption2, likeOption3);
 
         // Dodajemy kontener opcji "like" do docelowego kontenera
@@ -5081,7 +5081,7 @@ $fiszkaContainer.append(imgContainer);
         // Ukrywamy kontener opcji "like"
         likeOptionsContainer.hide();
 
-        // ObsĹuga zdarzenia hover na przycisku "like"
+        // Obsługa zdarzenia hover na przycisku "like"
         likeButton.hover(function () {
             const buttonPosition = likeButton.offset();
             const buttonWidth = likeButton.outerWidth();
@@ -5090,7 +5090,7 @@ $fiszkaContainer.append(imgContainer);
             likeOptionsContainer.css({
                 top: buttonPosition.top - likeOptionsContainer.outerHeight() - 10,
                 left: buttonPosition.left + (buttonWidth / 2) - (likeOptionsContainer.outerWidth() / 2),
-                backgroundColor: '#f0f0f0', // Dodajemy szary kolor tĹa
+                backgroundColor: '#f0f0f0', // Dodajemy szary kolor tła
             }).fadeIn('fast');
         }, function () {
             // Ukrywamy kontener opcji "like" po zjechaniu z przycisku
@@ -5105,36 +5105,36 @@ $fiszkaContainer.append(imgContainer);
                 return;
             }
 
-            // Tworzymy kontener dla ikony i dodajemy ikonÄ
+            // Tworzymy kontener dla ikony i dodajemy ikonę
             const iconContainer = $('<div>').addClass('likeIconContainer');
             const likeIcon = getLikeIcon(like);
             iconContainer.append(likeIcon);
 
-            // Usuwamy wczeĹniej dodanÄ ikonÄ, jeĹli istnieje
+            // Usuwamy wcześniej dodaną ikonę, jeśli istnieje
             storyButton.find('.likeIconContainer').remove();
 
-            // Dodajemy kontener z ikonÄ do przycisku "story_button"
+            // Dodajemy kontener z ikoną do przycisku "story_button"
             storyButton.append(iconContainer);
         }
 
         function createLikeOption(like, text) {
             const likeOption = $('<div>').addClass('likeOption').attr('data-like', like).text(text);
 
-            // Dodajemy efekt zmiany koloru na lekko ciemniejszy szary po najechaniu myszkÄ na pojedynczÄ opcjÄ "like"
+            // Dodajemy efekt zmiany koloru na lekko ciemniejszy szary po najechaniu myszką na pojedynczą opcję "like"
             likeOption.hover(
                     function () {
-                        likeOption.css('background-color', '#dcdcdc'); // Lekko ciemniejszy szary kolor tĹa dla opcji "like"
+                        likeOption.css('background-color', '#dcdcdc'); // Lekko ciemniejszy szary kolor tła dla opcji "like"
                     },
                     function () {
-                        likeOption.css('background-color', ''); // Usuwamy styl, aby wrĂłciÄ do domyĹlnego tĹa opcji "like"
+                        likeOption.css('background-color', ''); // Usuwamy styl, aby wrócić do domyślnego tła opcji "like"
                     }
             );
 
-            let likeCounter = 0; // Dodajemy licznik polubieĹ dla kaĹźdej opcji "like"
+            let likeCounter = 0; // Dodajemy licznik polubień dla każdej opcji "like"
 
             const counterDiv = $('<div>').addClass('likeCounterDiv'); // Nowy div na licznik
 
-            // Dodajemy ikonÄ do licznika
+            // Dodajemy ikonę do licznika
             const likeIcon = getLikeIcon(like);
             const iconContainer = $('<span>').addClass('likeIconContainer').append(likeIcon);
             counterDiv.append(iconContainer);
@@ -5142,12 +5142,12 @@ $fiszkaContainer.append(imgContainer);
             const likeCounterSpan = $('<span>').addClass('likeCounter').text(` ${likeCounter} `);
             counterDiv.append(likeCounterSpan); // Licznik jest dodany po ikonie
 
-            imgContainer.append(counterDiv); // Dodajemy licznik na zewnÄtrz kontenera przyciskĂłw
+            imgContainer.append(counterDiv); // Dodajemy licznik na zewnątrz kontenera przycisków
 
             likeOption.click(function (event) {
-                event.preventDefault(); // Zapobiegamy domyĹlnej akcji przycisku
+                event.preventDefault(); // Zapobiegamy domyślnej akcji przycisku
 
-                // Inkrementujemy licznik polubieĹ za kaĹźdym razem, gdy opcja "like" zostanie wybrana
+                // Inkrementujemy licznik polubień za każdym razem, gdy opcja "like" zostanie wybrana
                 likeCounter++;
                 likeCounterSpan.text(` ${likeCounter} `);
 
@@ -5155,20 +5155,20 @@ $fiszkaContainer.append(imgContainer);
                 const selectedIcon = getLikeIcon(selectedLike);
                 likeText.text(text);
                 likeButton.removeClass('liked');
-                addLikeIconToStoryButton(lastClickedIndex, selectedLike); // Dodaj ikonÄ do story_button na podstawie wybranej opcji "like"
+                addLikeIconToStoryButton(lastClickedIndex, selectedLike); // Dodaj ikonę do story_button na podstawie wybranej opcji "like"
 
-                // SprawdĹş, czy index juĹź istnieje w tablicy
+                // Sprawdź, czy index już istnieje w tablicy
                 const existingIndex = selectedLikes.findIndex(item => item.index === lastClickedIndex);
                 if (existingIndex !== -1) {
-                    // JeĹli index istnieje, zaktualizuj wartoĹÄ
+                    // Jeśli index istnieje, zaktualizuj wartość
                     selectedLikes[existingIndex].like = selectedLike;
                 } else {
-                    // JeĹli index nie istnieje, dodaj nowy wpis
-                    selectedLikes.push({index: lastClickedIndex, like: text}); // Dodaj tylko nazwÄ "like"
+                    // Jeśli index nie istnieje, dodaj nowy wpis
+                    selectedLikes.push({index: lastClickedIndex, like: text}); // Dodaj tylko nazwę "like"
                 }
 
                 likeOptionsContainer.fadeOut('fast');
-                saveSelectedLike(selectedLike, text); // Przekazujemy nazwÄ "like" i tekst do funkcji saveSelectedLike
+                saveSelectedLike(selectedLike, text); // Przekazujemy nazwę "like" i tekst do funkcji saveSelectedLike
             });
 
             return likeOption;
@@ -5176,10 +5176,10 @@ $fiszkaContainer.append(imgContainer);
 
 // Funkcja do zapisywania wybranego "like"
         function saveSelectedLike(selectedLike, text) {
-            // Tutaj moĹźesz zapisaÄ wybrany "like" w odpowiednim kontekĹcie, np. wysĹaÄ go na serwer, zapisaÄ w lokalnym magazynie itp.
+            // Tutaj możesz zapisać wybrany "like" w odpowiednim kontekście, np. wysłać go na serwer, zapisać w lokalnym magazynie itp.
             console.log('Wybrany like:', text);
             console.log('Tekst:', text);
-            // JeĹli chcesz uĹźyÄ go w innych miejscach, moĹźesz przekazaÄ go jako argument do innych funkcji lub zmiennych.
+            // Jeśli chcesz użyć go w innych miejscach, możesz przekazać go jako argument do innych funkcji lub zmiennych.
         }
 
         // Funkcja do pobierania ikony dla wybranego "like"
@@ -5187,16 +5187,16 @@ $fiszkaContainer.append(imgContainer);
             let icon;
             switch (like) {
                 case 'thumbsUp':
-                    icon = $('<span class="likeIcon">đ</span>');
+                    icon = $('<span class="likeIcon">👍</span>');
                     break;
                 case 'heart':
-                    icon = $('<span class="likeIcon">â¤ď¸</span>');
+                    icon = $('<span class="likeIcon">❤️</span>');
                     break;
                 case 'star':
-                    icon = $('<span class="likeIcon">â­</span>');
+                    icon = $('<span class="likeIcon">⭐</span>');
                     break;
                 default:
-                    icon = $('<span class="likeIcon">đ</span>');
+                    icon = $('<span class="likeIcon">👍</span>');
             }
             return icon;
         }
@@ -5338,33 +5338,7 @@ $fiszkaContainer.append(imgContainer);
         }
         console.log('Przed utworzeniem wordDiv');
 
-// Utworzenie reszty elementĂłw zgodnie z istniejÄcym kodem
-        const wordDiv2 = $('<div>').attr('id', 'word2');
-        const audio2 = $('<audio>').attr({
-            id: 'music2' + fiszka.id,
-            preload: 'true'
-        });
-        const source2 = $('<source>').attr('src', fiszka.word);
-        audio2.append(source2);
-        const audioplayerDiv2 = $('<div>').attr('id', 'audioplayer2' + fiszka.id).addClass('audioplayer2'); // Dodano klasÄ 'audioplayer'
-        const pButton2 = $('<button>').attr('id', 'pButton2' + fiszka.id).addClass('pButton play').click(function () {
-            console.log('playb called for fiszka.id:', fiszka.id);
-            window['playb' + fiszka.id]();
-        });
 
-// Utworzenie elementĂłw za pomocÄ jQuery
-        const timelineDiv = $('<div>').attr('id', 'timeline' + fiszka.id);
-        const playheadDiv = $('<div>').attr('id', 'playhead' + fiszka.id);
-
-// Dodanie playhead do timeline
-        timelineDiv.append(playheadDiv);
-
-// Dodanie elementĂłw do odpowiednich kontenerĂłw
-        audioplayerDiv.append(pButton2);
-        wordDiv2.append(audio2);
-        wordDiv2.append(audioplayerDiv2);
-        wordDiv2.append(timelineDiv); // Dodano timeline do wordDiv
-        $fiszkaContainer.append(wordDiv2);
 
         console.log('Po utworzeniu wordDiv');
         // Zdefiniuj zmiennÄ poczÄtkowÄ na poziomie wyĹźszym
@@ -5670,13 +5644,13 @@ console.log('Hej4442', $fiszkaContainer);
         const selectedLikes = [];
         console.log('hej10', selectedLikes);
 
-// Funkcja do obsĹugi klikniÄcia na przycisk "likeButton"
+// Funkcja do obsługi kliknięcia na przycisk "likeButton"
         function handleLikeButtonClick(index) {
             const likeButton = $(this);
             const storyButton = $fiszkaContainer.find('.story_button').eq(index);
             const selectedLike = likeButton.text();
             console.log('Zaktualizowano przycisk dla indeksu:', index);
-            console.log('Aktualne wartoĹci selectedLikes:', selectedLikes);
+            console.log('Aktualne wartości selectedLikes:', selectedLikes);
         }
         const likeButton = $('<a>').addClass('like').attr('href', '#');
         const likeText = $('<span>').text('Śmieszna historia');
@@ -5685,9 +5659,9 @@ console.log('Hej4442', $fiszkaContainer);
 
         // Tworzymy kontener opcji "like" i dodajemy opcje do kontenera
         const likeOptionsContainer = $('<div>').attr('id', 'likeOptionsContainer');
-        const likeOption1 = createLikeOption('thumbsUp', 'đ Ĺmieszne');
-        const likeOption2 = createLikeOption('heart', 'â¤ď¸ MiĹe');
-        const likeOption3 = createLikeOption('star', 'â­ PamiÄtliwe');
+        const likeOption1 = createLikeOption('thumbsUp', '👍 Śmieszne');
+        const likeOption2 = createLikeOption('heart', '❤️ Miłe');
+        const likeOption3 = createLikeOption('star', '⭐ Pamiętliwe');
         likeOptionsContainer.append(likeOption1, likeOption2, likeOption3);
 
         // Dodajemy kontener opcji "like" do docelowego kontenera
@@ -5696,7 +5670,7 @@ console.log('Hej4442', $fiszkaContainer);
         // Ukrywamy kontener opcji "like"
         likeOptionsContainer.hide();
 
-        // ObsĹuga zdarzenia hover na przycisku "like"
+        // Obsługa zdarzenia hover na przycisku "like"
         likeButton.hover(function () {
             const buttonPosition = likeButton.offset();
             const buttonWidth = likeButton.outerWidth();
@@ -5705,7 +5679,7 @@ console.log('Hej4442', $fiszkaContainer);
             likeOptionsContainer.css({
                 top: buttonPosition.top - likeOptionsContainer.outerHeight() - 10,
                 left: buttonPosition.left + (buttonWidth / 2) - (likeOptionsContainer.outerWidth() / 2),
-                backgroundColor: '#f0f0f0', // Dodajemy szary kolor tĹa
+                backgroundColor: '#f0f0f0', // Dodajemy szary kolor tła
             }).fadeIn('fast');
         }, function () {
             // Ukrywamy kontener opcji "like" po zjechaniu z przycisku
@@ -5720,36 +5694,36 @@ console.log('Hej4442', $fiszkaContainer);
                 return;
             }
 
-            // Tworzymy kontener dla ikony i dodajemy ikonÄ
+            // Tworzymy kontener dla ikony i dodajemy ikonę
             const iconContainer = $('<div>').addClass('likeIconContainer');
             const likeIcon = getLikeIcon(like);
             iconContainer.append(likeIcon);
 
-            // Usuwamy wczeĹniej dodanÄ ikonÄ, jeĹli istnieje
+            // Usuwamy wcześniej dodaną ikonę, jeśli istnieje
             storyButton.find('.likeIconContainer').remove();
 
-            // Dodajemy kontener z ikonÄ do przycisku "story_button"
+            // Dodajemy kontener z ikoną do przycisku "story_button"
             storyButton.append(iconContainer);
         }
 
         function createLikeOption(like, text) {
             const likeOption = $('<div>').addClass('likeOption').attr('data-like', like).text(text);
 
-            // Dodajemy efekt zmiany koloru na lekko ciemniejszy szary po najechaniu myszkÄ na pojedynczÄ opcjÄ "like"
+            // Dodajemy efekt zmiany koloru na lekko ciemniejszy szary po najechaniu myszką na pojedynczą opcję "like"
             likeOption.hover(
                     function () {
-                        likeOption.css('background-color', '#dcdcdc'); // Lekko ciemniejszy szary kolor tĹa dla opcji "like"
+                        likeOption.css('background-color', '#dcdcdc'); // Lekko ciemniejszy szary kolor tła dla opcji "like"
                     },
                     function () {
-                        likeOption.css('background-color', ''); // Usuwamy styl, aby wrĂłciÄ do domyĹlnego tĹa opcji "like"
+                        likeOption.css('background-color', ''); // Usuwamy styl, aby wrócić do domyślnego tła opcji "like"
                     }
             );
 
-            let likeCounter = 0; // Dodajemy licznik polubieĹ dla kaĹźdej opcji "like"
+            let likeCounter = 0; // Dodajemy licznik polubień dla każdej opcji "like"
 
             const counterDiv = $('<div>').addClass('likeCounterDiv'); // Nowy div na licznik
 
-            // Dodajemy ikonÄ do licznika
+            // Dodajemy ikonę do licznika
             const likeIcon = getLikeIcon(like);
             const iconContainer = $('<span>').addClass('likeIconContainer').append(likeIcon);
             counterDiv.append(iconContainer);
@@ -5757,12 +5731,12 @@ console.log('Hej4442', $fiszkaContainer);
             const likeCounterSpan = $('<span>').addClass('likeCounter').text(` ${likeCounter} `);
             counterDiv.append(likeCounterSpan); // Licznik jest dodany po ikonie
 
-            imgContainer.append(counterDiv); // Dodajemy licznik na zewnÄtrz kontenera przyciskĂłw
+            imgContainer.append(counterDiv); // Dodajemy licznik na zewnątrz kontenera przycisków
 
             likeOption.click(function (event) {
-                event.preventDefault(); // Zapobiegamy domyĹlnej akcji przycisku
+                event.preventDefault(); // Zapobiegamy domyślnej akcji przycisku
 
-                // Inkrementujemy licznik polubieĹ za kaĹźdym razem, gdy opcja "like" zostanie wybrana
+                // Inkrementujemy licznik polubień za każdym razem, gdy opcja "like" zostanie wybrana
                 likeCounter++;
                 likeCounterSpan.text(` ${likeCounter} `);
 
@@ -5770,20 +5744,20 @@ console.log('Hej4442', $fiszkaContainer);
                 const selectedIcon = getLikeIcon(selectedLike);
                 likeText.text(text);
                 likeButton.removeClass('liked');
-                addLikeIconToStoryButton(lastClickedIndex, selectedLike); // Dodaj ikonÄ do story_button na podstawie wybranej opcji "like"
+                addLikeIconToStoryButton(lastClickedIndex, selectedLike); // Dodaj ikonę do story_button na podstawie wybranej opcji "like"
 
-                // SprawdĹş, czy index juĹź istnieje w tablicy
+                // Sprawdź, czy index już istnieje w tablicy
                 const existingIndex = selectedLikes.findIndex(item => item.index === lastClickedIndex);
                 if (existingIndex !== -1) {
-                    // JeĹli index istnieje, zaktualizuj wartoĹÄ
+                    // Jeśli index istnieje, zaktualizuj wartość
                     selectedLikes[existingIndex].like = selectedLike;
                 } else {
-                    // JeĹli index nie istnieje, dodaj nowy wpis
-                    selectedLikes.push({index: lastClickedIndex, like: text}); // Dodaj tylko nazwÄ "like"
+                    // Jeśli index nie istnieje, dodaj nowy wpis
+                    selectedLikes.push({index: lastClickedIndex, like: text}); // Dodaj tylko nazwę "like"
                 }
 
                 likeOptionsContainer.fadeOut('fast');
-                saveSelectedLike(selectedLike, text); // Przekazujemy nazwÄ "like" i tekst do funkcji saveSelectedLike
+                saveSelectedLike(selectedLike, text); // Przekazujemy nazwę "like" i tekst do funkcji saveSelectedLike
             });
 
             return likeOption;
@@ -5791,10 +5765,10 @@ console.log('Hej4442', $fiszkaContainer);
 
 // Funkcja do zapisywania wybranego "like"
         function saveSelectedLike(selectedLike, text) {
-            // Tutaj moĹźesz zapisaÄ wybrany "like" w odpowiednim kontekĹcie, np. wysĹaÄ go na serwer, zapisaÄ w lokalnym magazynie itp.
+            // Tutaj możesz zapisać wybrany "like" w odpowiednim kontekście, np. wysłać go na serwer, zapisać w lokalnym magazynie itp.
             console.log('Wybrany like:', text);
             console.log('Tekst:', text);
-            // JeĹli chcesz uĹźyÄ go w innych miejscach, moĹźesz przekazaÄ go jako argument do innych funkcji lub zmiennych.
+            // Jeśli chcesz użyć go w innych miejscach, możesz przekazać go jako argument do innych funkcji lub zmiennych.
         }
 
         // Funkcja do pobierania ikony dla wybranego "like"
@@ -5802,16 +5776,16 @@ console.log('Hej4442', $fiszkaContainer);
             let icon;
             switch (like) {
                 case 'thumbsUp':
-                    icon = $('<span class="likeIcon">đ</span>');
+                    icon = $('<span class="likeIcon">👍</span>');
                     break;
                 case 'heart':
-                    icon = $('<span class="likeIcon">â¤ď¸</span>');
+                    icon = $('<span class="likeIcon">❤️</span>');
                     break;
                 case 'star':
-                    icon = $('<span class="likeIcon">â­</span>');
+                    icon = $('<span class="likeIcon">⭐</span>');
                     break;
                 default:
-                    icon = $('<span class="likeIcon">đ</span>');
+                    icon = $('<span class="likeIcon">👍</span>');
             }
             return icon;
         }
