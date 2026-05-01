@@ -13,21 +13,28 @@ const fiszkaobject = {
 };
 let tablica24 = [];
         let tablica20aa = [];
+window.seenFiszki = new Set();
+window.wordCounterTotal = 0;
 function showCombinedSentenceForLesson22b(
-        selectedCategory, matchingIndexes3, rodzaj, matchingIndexes2,
-        buttonindex, index55, index77, lessonIdToShow1, lessonIdToShow2, lessonIdToShow3, fiszki, matchingIndexes,
-        startIndex, newIndex, indexDiv,
-        lessonsArray, lesson1PartLength, lesson2PartLength, lesson3PartLength,
-        lesson1Sentences, lesson2Sentences, lesson3Sentences,
-        lesson1FirstPartLength, lesson2FirstPartLength, lesson3FirstPartLength,
-        lesson1SecondPartLength, lesson2SecondPartLength, lesson3SecondPartLength,
-        cumulativeFirstPartLength1, cumulativeFirstPartLength2, cumulativeFirstPartLength3,
-        lessonsArrayZ, matchingLessons5, matchingLessons5b, isSearching
-        ) {
+    selectedCategory, matchingIndexes3, rodzaj, matchingIndexes2,
+    buttonindex, index55, index77, lessonIdToShow1, lessonIdToShow2, lessonIdToShow3, fiszki, matchingIndexes,
+    startIndex, newIndex, indexDiv,
+    lessonsArray, lesson1PartLength, lesson2PartLength, lesson3PartLength,
+    lesson1Sentences, lesson2Sentences, lesson3Sentences,
+    lesson1FirstPartLength, lesson2FirstPartLength, lesson3FirstPartLength,
+    lesson1SecondPartLength, lesson2SecondPartLength, lesson3SecondPartLength,
+    cumulativeFirstPartLength1, cumulativeFirstPartLength2, cumulativeFirstPartLength3,
+    lessonsArrayZ, matchingLessons5, matchingLessons5b, isSearching,
+    containerEl // 🔥 DODAJ TO
+) {
+    const $target = $(containerEl);
 
+    $target.empty();
     const matchingFiszki1 = fiszki.filter(fiszka => fiszka.id[1] === lessonIdToShow1);
     const matchingFiszki2 = fiszki.filter(fiszka => fiszka.id[1] === lessonIdToShow2);
     const matchingFiszki3 = fiszki.filter(fiszka => fiszka.id[1] === lessonIdToShow3);
+// 🔥 DOPIERO TU
+
     console.log('hej444', newIndex);
     const id1 = matchingFiszki1[0]?.id[1] || 'unknown1';
     const id2 = matchingFiszki2[0]?.id[1] || 'unknown2';
@@ -557,32 +564,19 @@ function showCombinedSentenceForLesson22b(
         }
 
 
-        const $container = $('<div></div>'); // Tworzymy nowy element div za pomocą jQuery
-        $container.addClass('image-container3b'); // Dodajemy klasę do nowego diva
-        $container.css('position', 'relative'); // Ustawiamy pozycję diva na relative
+    // 🔥 WAŻNE: używamy istniejącego kontenera jeśli jest
+    const $container = containerEl
+        ? $(containerEl)
+        : $('<div></div>').addClass('image-container3b');
 
-        // Możesz również dodać dodatkowe atrybuty, takie jak 'data-lesson'
-        $container.attr('data-lesson', indexDiv);
+    $container.attr('data-lesson', indexDiv);
+    $container.css('position', 'relative');
+
+    // ❌ NIE ROBIMY append tutaj jeśli container istnieje
+    if (!containerEl) {
         $('.grid-container').append($container);
+    }
 
-        const observer = new MutationObserver(() => {
-            // 🔹 Szukamy kontenerów powiązanych z indexDiv0b
-            const container3b = document.querySelector(`.image-container3b[data-lesson="${index77 + 1}"]`);
-            const container3bCur = document.querySelector(`.image-container3b[data-lesson="${index77}"]`);
-            // --- pierwszy warunek: indexDiv0b ---
-            if (container3b && container3bCur) {
-                container3bCur.parentNode.insertBefore(container3bCur, container3b);
-                console.log(`✅ Wstawiono5 container3 (data-lesson=${index77}) przed container3b (data-lesson=${index77 + 1})`);
-
-                console.log(`🗑️ Usunięto container3b o data-lesson=${index77}`);
-
-                observer.disconnect();
-                return;
-            }
-        });
-
-// obserwuj cały body i wszystkie poddrzewa
-        observer.observe(document.body, {childList: true, subtree: true});
 // --- TABLICE ---
         const srcWords = [srcWord1, srcWord2, srcWord3];        // linki do wideo odpowiadają pozycji 0..2
                 const srcWordsq = [srcWord1q, srcWord2q, srcWord3q];        // linki do wideo odpowiadają pozycji 0..2
@@ -693,12 +687,12 @@ function showCombinedSentenceForLesson22b(
                     const lessonNumber = i + 1;
 
                     // 🔹 Link do całej lekcji (3 zdania)
-                    const tripletLink = `demo1angielski.html?category=${selectedCategory}&data=${trojka.join(',')}`;
+                    const tripletLink = `demo1hiszpanski.html?category=${selectedCategory}&data=${trojka.join(',')}`;
 
                     // 🔹 Dla każdego zdania z osobna:
                     trojka.forEach(indexDiv => {
                         // pojedynczy link do zdania
-                        const singleLink = `demo1angielski.html?category=${selectedCategory}&data=${indexDiv}`;
+                        const singleLink = `demo1hiszpanski.html?category=${selectedCategory}&data=${indexDiv}`;
                         linkMap[indexDiv] = singleLink; // teraz każde zdanie ma własny link
 
                         const $containerBlock = $(`.sentence-block[data-name="${indexDiv}"]`);
@@ -1084,8 +1078,16 @@ if ($wrapper.length === 0) {
     $wrapper = $('<div>').addClass('word-fiszka-wrapper').appendTo($container);
 }
 
-// Parzystość
-const isEven = indexDiv % 2 === 0;
+// 🔥 sprawdzamy szerokość
+let isEven;
+
+if (window.matchMedia("(min-width: 999px)").matches) {
+    // desktop
+    isEven = indexDiv % 4 === 0;
+} else if (window.matchMedia("(max-width: 999px)").matches) {
+    // mobile
+    isEven = indexDiv % 2 === 0;
+}
 
 // Tworzymy wordDisplay z odpowiednią klasą
 const $wordContainer = $('<div>')
@@ -3826,7 +3828,7 @@ if (!videoVisible) {
 
                 const $desc = $('<div>').addClass('thumb-desc').text(thumbDescriptions[pos] || '');
 
-                const linkForThumb = linkMap[dataName] || `demo1angielski.html?category=${selectedCategory}&data=${dataName}`;
+                const linkForThumb = linkMap[dataName] || `demo1hiszpanski.html?category=${selectedCategory}&data=${dataName}`;
                 const $link = $('<a>').attr({href: linkForThumb, target: '_blank'}).addClass('thumb-link').text('Otwórz pojedyńczą lekcję');
 
                 $item.append($czasLabel, $img, $desc, $link);
@@ -3883,7 +3885,22 @@ const $czasNameP = $('<p>').text(currentCzasName || '')
 $textContainer.append($czasNameP);
             let currentSentenceHtml = "";
             // --- Inicjalizacja cache dla indexDiv ---
+if (indexDiv < 21) {
 
+    // dodaj napis tylko jeśli jeszcze go nie ma
+    if (!$container.find('.dynamic-div').length) {
+const $dynamicDiv = $('<div>')
+    .addClass('dynamic-div')
+    .text('Lekcja dostępna - otwórz link poniżej')
+    .css({
+        display: 'block'
+    });
+
+$container.append($dynamicDiv);
+
+        $container.append($dynamicDiv);
+    }
+}
 
 // --- Sprawdzenie cache ---
             if (!sentenceCache[indexDiv][currentPos]) {
@@ -4227,8 +4244,8 @@ function attachArrowNavigation($sentenceBlock, indexDiv) {
             attachArrowNavigation($sentenceDiv, indexDiv);
 
             // --- Linki do lekcji ---
-            const singleLink = `demo1angielski.html?category=${selectedCategory}&data=${currentDataName}`;
-            const tripletLink = `demo1angielski.html?category=${selectedCategory}&data=${currentTriplet.join(',')}`;
+            const singleLink = `demo1hiszpanski.html?category=${selectedCategory}&data=${currentDataName}`;
+            const tripletLink = `demo1hiszpanski.html?category=${selectedCategory}&data=${currentTriplet.join(',')}`;
 
             const $singleLinkA = $('<a>')
                     .attr({href: singleLink})
@@ -4261,7 +4278,7 @@ function attachArrowNavigation($sentenceBlock, indexDiv) {
 
         $('body').off('click', '.run-icon').on('click', '.run-icon', function () {
             const indexDiv = $(this).attr('data-index2');
-            const link = linkMap[indexDiv] || `demo1angielski.html?category=${selectedCategory}&data=${indexDiv}`;
+            const link = linkMap[indexDiv] || `demo1hiszpanski.html?category=${selectedCategory}&data=${indexDiv}`;
             window.open(link, '_blank');
         });
 

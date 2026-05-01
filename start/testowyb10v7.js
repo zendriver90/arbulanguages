@@ -18,6 +18,9 @@ fiszki10.push(
                                                                 sentence2b: [
             "zawiera"
         ],
+             sentence2c: [
+            "kenteins"
+        ],
         sentence: [
             "contains",
             "old",
@@ -46,6 +49,9 @@ fiszki10.push(
                                                                         sentence2b: [
             "stare"
         ],
+                     sentence2c: [
+            "old"
+        ],
         sentence: [
             "contains",
             "old",
@@ -71,6 +77,9 @@ fiszki10.push(
         ],
                                                                                 sentence2b: [
             "książki"
+        ],
+                     sentence2c: [
+            "buks"
         ],
         sentence: [
             "contains",
@@ -112,6 +121,9 @@ fiszki10.push(
                                                                                         sentence1b: [
             "(Moja)"
         ],
+                     sentence1c: [
+            "Maj"
+        ],
         sentence: [
             "My",
             "leg",
@@ -139,6 +151,9 @@ fiszki10.push(
         ],
                                                                                                 sentence1b: [
             "noga"
+        ],
+                     sentence1c: [
+            "leg"
         ],
         sentence: [
             "My",
@@ -168,6 +183,9 @@ fiszki10.push(
                                                                                                         sentence1b: [
             "boli"
         ],
+                     sentence1c: [
+            "herts"
+        ],
         sentence: [
             "My",
             "leg",
@@ -191,10 +209,13 @@ fiszki10.push(
         ],
         desc: "a little[e litil/e lityl] - trochę, troszkę",
         sentence2: [
-            "a little"
+            "a_little"
         ],
             sentence2b: [
             "trochę"
+        ],
+                             sentence2c: [
+            "e_litil"
         ],
         sentence: [
             "a little",
@@ -218,6 +239,9 @@ fiszki10.push(
         ],
                     sentence2b: [
             "dzisiaj"
+        ],
+                                     sentence2c: [
+            "tudej"
         ],
         sentence: [
             "a little",
@@ -262,6 +286,9 @@ fiszki10.push(
                             sentence1b: [
             "On"
         ],
+        sentence1c: [
+            "Hi"
+        ],
         sentence: [
             "He",
             "claimed"
@@ -288,6 +315,9 @@ fiszki10.push(
         ],
                                     sentence1b: [
             "twierdził"
+        ],
+                sentence1c: [
+            "kleimt"
         ],
         sentence: [
             "He",
@@ -322,7 +352,10 @@ fiszki10.push(
             "he"
         ],
                                     sentence2b: [
-            "(że on)"
+            "(że_on)"
+        ],
+                        sentence2c: [
+            "hi"
         ],
         sentence: [
             "he",
@@ -347,6 +380,9 @@ fiszki10.push(
         ],
                                             sentence2b: [
             "był"
+        ],
+                                sentence2c: [
+            "łos"
         ],
         sentence: [
             "he",
@@ -375,6 +411,9 @@ fiszki10.push(
         ],
                                                     sentence2b: [
             "w błędzie"
+        ],
+                                sentence2c: [
+            "rong"
         ],
         sentence: [
             "he",
@@ -408,6 +447,9 @@ fiszki10.push(
                                                             sentence1b: [
             "Jej"
         ],
+            sentence1c: [
+            "Her"
+        ],
         sentence: [
             "Her",
             "dress",
@@ -435,6 +477,9 @@ fiszki10.push(
         ],
                                                                     sentence1b: [
             "sukienka"
+        ],
+                    sentence1c: [
+            "dres"
         ],
         sentence: [
             "Her",
@@ -476,6 +521,9 @@ fiszki10.push(
                                                                             sentence1b: [
             "jest"
         ],
+                            sentence1c: [
+            "is"
+        ],
         sentence: [
             "Her",
             "dress",
@@ -504,6 +552,9 @@ fiszki10.push(
         ],
                                                                                     sentence2b: [
             "różowa"
+        ],
+        sentence2c: [
+            "pink"
         ],
         sentence: [
             "pink",
@@ -543,6 +594,9 @@ fiszki10.push(
                                                                                             sentence2b: [
             "i"
         ],
+                sentence2c: [
+            "end"
+        ],
         sentence: [
             "pink",
             "and",
@@ -570,6 +624,9 @@ fiszki10.push(
         ],
                                                                                             sentence2b: [
             "ładna"
+        ],
+                sentence2c: [
+            "priti"
         ],
         sentence: [
             "pink",
@@ -600,10 +657,13 @@ fiszki10.push(
         story: "Ten <u><b>chłopiec</u></b> ze względu na wiek może dopłynąć do tej <u><b>boj</u></b>i",
         desc: "the boy[de boj] - chłopiec",
         sentence1: [
-            "The boy"
+            "The_boy"
         ],
                                                                 sentence1b: [
-            "(Ten) chłopiec"
+            "(Ten)_chłopiec"
+        ],
+                sentence1c: [
+            "De_boj"
         ],
         sentence: [
             "The boy",
@@ -630,6 +690,9 @@ fiszki10.push(
         ],
                                                                         sentence1b: [
             "może"
+        ],
+                        sentence1c: [
+            "ken"
         ],
         sentence: [
             "The boy",
@@ -659,6 +722,9 @@ fiszki10.push(
                                                                                 sentence1b: [
             "skakać"
         ],
+                        sentence1c: [
+            "dżamp"
+        ],
         sentence: [
             "The boy",
             "can",
@@ -683,6 +749,9 @@ fiszki10.push(
                                                                                 sentence2b: [
             "bardzo"
         ],
+                                sentence2c: [
+            "weri"
+        ],
         sentence: [
             "very",
             "high"
@@ -705,6 +774,9 @@ fiszki10.push(
         ],
                                                                                         sentence2b: [
             "wysoko"
+        ],
+                                sentence2c: [
+            "haj"
         ],
         sentence: [
             "very",
@@ -745,6 +817,9 @@ fiszki10.push(
                 sentence1b: [
             "Moje"
         ],
+                                        sentence1c: [
+            "Maj"
+        ],
         sentence: [
             "My",
             "heart",
@@ -772,6 +847,9 @@ fiszki10.push(
         ],
                         sentence1b: [
             "serce"
+        ],
+                                        sentence1c: [
+            "hart"
         ],
         sentence: [
             "My",
@@ -801,6 +879,9 @@ fiszki10.push(
                                 sentence1b: [
             "czuje się"
         ],
+                                                sentence1c: [
+            "fils"
+        ],
         sentence: [
             "My",
             "heart",
@@ -828,6 +909,9 @@ fiszki10.push(
         ],
                                         sentence2b: [
             "ciepłe"
+        ],
+                                                sentence2c: [
+            "łorm"
         ],
         sentence: [
             "warm",
@@ -867,6 +951,9 @@ fiszki10.push(
                                                 sentence2b: [
             "i"
         ],
+                                                sentence2c: [
+            "end"
+        ],
         sentence: [
             "warm",
             "and",
@@ -894,6 +981,9 @@ fiszki10.push(
         ],
                                                 sentence2b: [
             "szczęśliwe"
+        ],
+                                                sentence2c: [
+            "hapi"
         ],
         sentence: [
             "warm",

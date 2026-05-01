@@ -693,12 +693,12 @@ function showCombinedSentenceForLesson22b(
                     const lessonNumber = i + 1;
 
                     // 🔹 Link do całej lekcji (3 zdania)
-                    const tripletLink = `demo1angielski.html?category=${selectedCategory}&data=${trojka.join(',')}`;
+                    const tripletLink = `demo1espanol.html?category=${selectedCategory}&data=${trojka.join(',')}`;
 
                     // 🔹 Dla każdego zdania z osobna:
                     trojka.forEach(indexDiv => {
                         // pojedynczy link do zdania
-                        const singleLink = `demo1angielski.html?category=${selectedCategory}&data=${indexDiv}`;
+                        const singleLink = `demo1espanol.html?category=${selectedCategory}&data=${indexDiv}`;
                         linkMap[indexDiv] = singleLink; // teraz każde zdanie ma własny link
 
                         const $containerBlock = $(`.sentence-block[data-name="${indexDiv}"]`);
@@ -724,7 +724,7 @@ function showCombinedSentenceForLesson22b(
                                         cursor: 'pointer'
                                     })
                                     .addClass('run-button3')
-                                    .text('➡ Otwórz pojedynczą lekcję');
+                                    .text('➡ Open a single lesson');
 
                             $containerBlock.append($buttonSingle);
                         }
@@ -754,7 +754,7 @@ function showCombinedSentenceForLesson22b(
                                     cursor: 'pointer'
                                 })
                                 .addClass('run-button3')
-                                .text('📘 Otwórz całą lekcję');
+                                .text('📘 Open the entire lesson (3 sentences)');
 
                         $containerFirst.append($buttonTriplet);
                     }
@@ -3826,8 +3826,8 @@ if (!videoVisible) {
 
                 const $desc = $('<div>').addClass('thumb-desc').text(thumbDescriptions[pos] || '');
 
-                const linkForThumb = linkMap[dataName] || `demo1angielski.html?category=${selectedCategory}&data=${dataName}`;
-                const $link = $('<a>').attr({href: linkForThumb, target: '_blank'}).addClass('thumb-link').text('Otwórz pojedyńczą lekcję');
+                const linkForThumb = linkMap[dataName] || `demo1espanol.html?category=${selectedCategory}&data=${dataName}`;
+                const $link = $('<a>').attr({href: linkForThumb, target: '_blank'}).addClass('thumb-link').text('Open a single lesson');
 
                 $item.append($czasLabel, $img, $desc, $link);
                 $thumbContainer.append($item);
@@ -3883,7 +3883,22 @@ const $czasNameP = $('<p>').text(currentCzasName || '')
 $textContainer.append($czasNameP);
             let currentSentenceHtml = "";
             // --- Inicjalizacja cache dla indexDiv ---
+if (indexDiv < 14) {
 
+    // dodaj napis tylko jeśli jeszcze go nie ma
+    if (!$container.find('.dynamic-div').length) {
+const $dynamicDiv = $('<div>')
+    .addClass('dynamic-div')
+    .text('Lesson available – open the link below')
+    .css({
+        display: 'block'
+    });
+
+$container.append($dynamicDiv);
+
+        $container.append($dynamicDiv);
+    }
+}
 
 // --- Sprawdzenie cache ---
             if (!sentenceCache[indexDiv][currentPos]) {
@@ -4227,18 +4242,18 @@ function attachArrowNavigation($sentenceBlock, indexDiv) {
             attachArrowNavigation($sentenceDiv, indexDiv);
 
             // --- Linki do lekcji ---
-            const singleLink = `demo1angielski.html?category=${selectedCategory}&data=${currentDataName}`;
-            const tripletLink = `demo1angielski.html?category=${selectedCategory}&data=${currentTriplet.join(',')}`;
+            const singleLink = `demo1espanol.html?category=${selectedCategory}&data=${currentDataName}`;
+            const tripletLink = `demo1espanol.html?category=${selectedCategory}&data=${currentTriplet.join(',')}`;
 
             const $singleLinkA = $('<a>')
                     .attr({href: singleLink})
                     .addClass('text-link')
-                    .text('➡ Otwórz lekcję z wybranym zdaniem');
+                    .text('➡ Open the lesson with the selected sentence');
 
             const $tripletLinkA = $('<a>')
                     .attr({href: tripletLink})
                     .addClass('text-link')
-                    .text('➡ Otwórz całą lekcję (3 zdania)');
+                    .text('➡ Open the entire lesson (3 sentences)');
 
             $textContainer.append($singleLinkA, $tripletLinkA);
 
@@ -4261,7 +4276,7 @@ function attachArrowNavigation($sentenceBlock, indexDiv) {
 
         $('body').off('click', '.run-icon').on('click', '.run-icon', function () {
             const indexDiv = $(this).attr('data-index2');
-            const link = linkMap[indexDiv] || `demo1angielski.html?category=${selectedCategory}&data=${indexDiv}`;
+            const link = linkMap[indexDiv] || `demo1espanol.html?category=${selectedCategory}&data=${indexDiv}`;
             window.open(link, '_blank');
         });
 

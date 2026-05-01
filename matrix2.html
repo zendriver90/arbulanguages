@@ -985,7 +985,6 @@ span.highlight {
                     cursor: pointer;
                 }
                 .grid-containera {
-                    height: 0px;
                     display: grid;
                     grid-template-columns: repeat(4, 1fr);
                     gap: 10px;
@@ -2339,22 +2338,6 @@ input {
                     <div class="image-container2b">Tłumacz tekst<button onclick="showImages('set1')">START</button>
                     </div>
                 </div>
-
-<div class="search-container">
-    <div class="search-wrapper">
-        <label for="search">Search Word</label>
-        <input type="search" id="search" data-search>
-    </div>
-    <div class="button-container">
-        <button id="polski" class="rodzaj-button2">Polski</button>
-        <button id="angielski" class="rodzaj-button2">Angielski</button>
-    </div>
-</div>
-                <div>
-    <button id="singleSentenceBtn" class="rodzaj-button">Jedno zdanie (DZIAŁA)</button>
-    <button id="threeSentencesBtn" class="rodzaj-button">Trzy zdania (DZIAŁA)</button>
-    <button id="singleWordBtn" class="rodzaj-button">Pojedyncze słowo</button>
-                </div><br>
                 <div id="matchingButtonsContainer" style="margin-top: 10px;"></div>
                 <p id="key3Result"></p>
 <div class="user-cards" data-user-cards-container></div>
@@ -2397,7 +2380,7 @@ input {
     z-index: 9999;
 ">
     Przejrzane słowa: <span id="wordCounter">0</span>
-</div>                                                                                        <script src="start/miniatury-prezentacja.js"></script>
+</div>                                                                                        <script src="start/miniatury-prezentacja2.js"></script>
     
         <script>
             const SIGNED_TOKEN = "dummySignedToken";
@@ -2464,7 +2447,7 @@ function showUniqueWordsUpToLesson73() {
 
   // 🔥 od początku do 73
   const filtered = fiszki10.filter(f => 
-    f.id && f.id[0] <= 73
+    f.id && f.id[0] <= 294
   );
 
   const uniqueWords = getUniqueWordArray(filtered);

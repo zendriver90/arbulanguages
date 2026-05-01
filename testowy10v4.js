@@ -1717,8 +1717,8 @@ id: [
         ],
         translate: "Pracuję wiele godzin, ponieważ potrzebuję więcej pieniędzy",
         translateb: "[]",
-        srcWord: ["https://www.arbulang.com/filmy/esp/.mp4", ''],
-        srcWordimage: "https://www.arbulang.com/filmy/esp/.png",
+        srcWord: ["https://www.arbulang.com/filmy/eng-esp/work2.mp4", 'Wilk z Wall Street'],
+        srcWordimage: "https://www.arbulang.com/filmy/eng-esp/work2.png",
         word: [
                 "https://www.arbulang.com/voice/music.mp4"
         ],

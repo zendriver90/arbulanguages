@@ -11163,7 +11163,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "http://localhost/arbulanguage.com/img/fiszki1/195a.jpg",
+                src: "https://www.arbulang.com/img/fiszki1/195a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -12322,7 +12322,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "http://localhost/arbulanguage.com/img/fiszki1/216a.jpg",
+                src: "https://www.arbulang.com/img/fiszki1/216a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -12753,9 +12753,21 @@ const fiszki10 = [
             34,
             68
         ],
-        img: "",
-        story: "",
-        desc: "a[e] - ten/tego",
+            entries: [
+        {
+            id: 1,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/247a.jpg",
+                alt: "Wygenerowane przez AI."
+            },
+            story: {
+                text: "<u><b>EEEE</u></b> tam - w <u><b>jakiś</u></b> dzień to zrobię",
+                alt: ""
+            },
+            category: [""]
+        }
+            ],
+        desc: "a[e] - rodzajnik nieokreślony",
         sentence2: [
             "a"
         ],
@@ -13829,9 +13841,21 @@ const fiszki10 = [
             37,
             74
         ],
-        img: "https://www.arbulang.com/img/fiszki1/221a.jpg",
-        story: "",
-        desc: "a[e] - ",
+            entries: [
+        {
+            id: 1,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/247a.jpg",
+                alt: "Wygenerowane przez AI."
+            },
+            story: {
+                text: "<u><b>EEEE</u></b> tam - w <u><b>jakiś</u></b> dzień to zrobię",
+                alt: ""
+            },
+            category: [""]
+        }
+            ],
+        desc: "a[e] - rodzajnik nieokreślony",
         sentence2: [
             "a"
         ],
@@ -16158,7 +16182,7 @@ const fiszki10 = [
         }
             ],
         desc: "for[for] - dla",
-        sentence1: [
+        sentence2: [
             "for"
         ],
         sentence: [
@@ -16190,7 +16214,7 @@ const fiszki10 = [
         }
             ],
         desc: "years[jers] - lata",
-        sentence1: [
+        sentence2: [
             "years"
         ],
         sentence: [
@@ -18257,8 +18281,20 @@ const fiszki10 = [
             54,
             100
         ],
-        img: "https://www.arbulang.com/img/fiszki1/344a.jpg",
-        story: "",
+            entries: [
+        {
+            id: 1,
+            img: {
+                src: "http://localhost/arbulanguage.com/img/fiszki1/344a.jpg",
+                alt: "Wygenerowane przez AI."
+            },
+            story: {
+                text: "Gaz <b><u>hel</b></u> pomaga mi mówić niższym głosem - tak jakby głos się po<b><u>ps</b></u>uł",
+                alt: ""
+            },
+            category: [""]
+        }
+            ],
         desc: "helps[helps] - pomaga(on, ona, ono)",
         sentence2: [
             "helps"
@@ -18546,7 +18582,7 @@ const fiszki10 = [
         }
             ],
         desc: "dog[dog] - pies",
-        sentence2: [
+        sentence1: [
             "dog"
         ],
         sentence: [
@@ -18580,7 +18616,7 @@ const fiszki10 = [
         }
             ],
         desc: "sleeps[slips] - śpi(on, ona, ono)",
-        sentence2: [
+        sentence1: [
             "sleeps"
         ],
         sentence: [
@@ -19260,7 +19296,7 @@ const fiszki10 = [
             category: [""]
         }
             ],
-        desc: "play[drajws] - grać (on, ona, ono)",
+        desc: "play[plej] - grać (on, ona, ono)",
         sentence1: [
             "play"
         ],
@@ -19314,12 +19350,20 @@ const fiszki10 = [
             57,
             106
         ],
-        img: [
-            "https://www.arbulang.com/img/fiszki1/365a.jpg"
-        ],
-        story: [
-            "KOGANTY: AFTER - AFTER PARTY"
-        ],
+            entries: [
+        {
+            id: 1,
+            img: {
+                src: "http://localhost/arbulanguage.com/img/fiszki1/365a.jpg",
+                alt: "Wygenerowane przez AI."
+            },
+            story: {
+                text: "KOGANTY: AFTER - AFTER PARTY",
+                alt: ""
+            },
+            category: [""]
+        }
+            ],
         desc: "after[after] - po",
         sentence2: [
             "after"
@@ -19598,7 +19642,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/369a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/369a.jpg",
                 alt: ""
             },
             story: {
@@ -19716,7 +19760,7 @@ const fiszki10 = [
         }
             ],
         desc: "book[buk] - książka, books[buks] - książki (liczba mnoga dodanie s - na końcu)",
-        sentence2: [
+        sentence1: [
             "books"
         ],
         sentence: [
@@ -19866,7 +19910,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/375a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/375a.jpg",
                 alt: ""
             },
             story: {
@@ -20322,7 +20366,7 @@ const fiszki10 = [
             category: [""]
         }
             ],
-        desc: "tennis[] - tenis",
+        desc: "tennis[tenis] - tenis",
         sentence1: [
             "tennis"
         ],
@@ -20494,12 +20538,20 @@ const fiszki10 = [
             62,
             113
         ],
-        img: [
-            "https://www.arbulang.com/img/fiszki1/389a.jpg"
-        ],
-        story: [
-            "Ale <b><u>grand</b></u>a bo moi dziadkowie <b><u>pare</b></u> lat temu byli sentym<b><u>ent</b></u>alni i chyba <b><u>s</b></u>ą nadal"
-        ],
+            entries: [
+        {
+            id: 1,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/389a.jpg",
+                alt: "Wygenerowane przez AI."
+            },
+            story: {
+                text: "Ale <b><u>grand</b></u>a bo moi dziadkowie <b><u>pare</b></u> lat temu byli sentym<b><u>ent</b></u>alni i chyba <b><u>s</b></u>ą nadal",
+                alt: ""
+            },
+            category: ["show-biznes", "aktor"]
+        }
+            ],
         desc: "grandparents[grandparents] - dziadkowie",
         sentence1: [
             "grandparents"
@@ -20535,7 +20587,7 @@ const fiszki10 = [
         }
             ],
         desc: "every[ewry] - każdy, każda, każde",
-        sentence1: [
+        sentence2: [
             "every"
         ],
         sentence: [
@@ -20566,8 +20618,8 @@ const fiszki10 = [
             category: [""]
         }
             ],
-        esc: "sunday[sandej] - niedziela",
-        sentence1: [
+        desc: "sunday[sandej] - niedziela",
+        sentence2: [
             "Sunday"
         ],
         sentence: [
@@ -20689,7 +20741,7 @@ const fiszki10 = [
                 {
             id: 2,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/359a.jpg",
+                src: "https://www.arbulang.com/img/fiszki1/359b.jpg",
                 alt: "Mały piesek. Wygenerowane przez AI."
             },
             story: {
@@ -21279,7 +21331,7 @@ const fiszki10 = [
         }
     ],
         desc: "bird[byrd] - ptak",
-        sentence2: [
+        sentence1: [
             "bird"
         ],
         sentence: [
@@ -21314,7 +21366,7 @@ const fiszki10 = [
         }
     ],
         desc: "flies[flajs] - przelatuje, lata",
-        sentence2: [
+        sentence1: [
             "flies"
         ],
         sentence: [
@@ -21349,7 +21401,7 @@ const fiszki10 = [
         }
     ],
         desc: "over[ołwer] - nad",
-        sentence2: [
+        sentence1: [
             "over"
         ],
         sentence: [
@@ -21377,14 +21429,14 @@ const fiszki10 = [
                 alt: "Wygenerowane przez AI."
             },
             story: {
-                text: '',
+                text: '<u><b>Gra</u></b> w tenisa toczy się na korcie <u><b>ziemnym</u></b>. Teraz zaczyna się następny gem (r<u><b>und</u></b>a). Kilka razy zawodnik przewrócił się na <u><b>ziemię</u></b>',
                 alt: ""
             },
-            category: ["sport", "koszykówka"]
+            category: [""]
         }
     ],
         desc: "the ground[de graund] - ziemia",
-        sentence2: [
+        sentence1: [
             "the ground"
         ],
         sentence: [
@@ -21449,14 +21501,25 @@ const fiszki10 = [
             66,
             120
         ],
-        img: [
-            "https://www.arbulang.com/img/fiszki1/408a.jpg"
-        ],
+            entries: [
+        {
+            id: 1,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/408a.jpg",
+                alt: "Wygenerowane przez AI."
+            },
+            story: {
+                text: "<u><b>Spik</u></b>er coś tam <u><b>s</u></b>obie <u><b>mówi</u></b> w tle meczu na żywo",
+                alt: ""
+            },
+            category: ["suplementy", "riszi"]
+        }
+            ],
         story: [
-            "<u><b>Spik</u></b>er coś tam <u><b>s</u></b>obie <u><b>mówi</u></b> w tle meczu na żywo"
+            ""
         ],
         desc: "speaks[spiks] - mówić",
-        sentence2: [
+        sentence1: [
             "speaks"
         ],
         sentence: [
@@ -21492,7 +21555,7 @@ const fiszki10 = [
         }
             ],
       desc: "english[TRUDNOŚĆ JĘZYKOWA - inglisz(30%), ynglish(30%), english(30%)] - coś angielskiego np. język angielski",
-        sentence2: [
+        sentence1: [
             "English"
         ],
         sentence: [
@@ -21576,7 +21639,7 @@ const fiszki10 = [
         }
             ],
         desc: "very[wery] - bardzo",
-        sentence2: [
+        sentence1: [
             "very"
         ],
         sentence: [
@@ -21611,8 +21674,8 @@ const fiszki10 = [
             category: ["", ""]
         }
             ],
-        desc: "fluently[] - płynnie, płynny",
-        sentence2: [
+        desc: "fluently[fluentli] - płynnie, płynny",
+        sentence1: [
             "fluently"
         ],
         sentence: [
@@ -21648,7 +21711,7 @@ const fiszki10 = [
         }
             ],
         desc: "now[nał] - teraz",
-        sentence2: [
+        sentence1: [
             "now"
         ],
         sentence: [
@@ -21771,7 +21834,7 @@ const fiszki10 = [
         }
     ],
         desc: "tree[tri] - drzewo",
-        sentence2: [
+        sentence1: [
             "tree"
         ],
         sentence: [
@@ -21882,7 +21945,7 @@ const fiszki10 = [
             "https://www.arbulang.com/src/is.wav"
         ],
         desc: "is[is] - jest",
-        sentence2: [
+        sentence1: [
             "is"
         ],
         sentence: [
@@ -21918,7 +21981,7 @@ const fiszki10 = [
         }
     ],
         desc: "tall[tOOl] - wysoka, wysoki",
-        sentence2: [
+        sentence1: [
             "tall"
         ],
         sentence: [
@@ -22003,7 +22066,7 @@ const fiszki10 = [
     ],
         translateb2: "[end hags it]",
         desc: "and, end[end] - i(and)/koniec(end)",
-        sentence2: [
+        sentence1: [
             "and"
         ],
         sentence: [
@@ -22039,7 +22102,7 @@ const fiszki10 = [
         }
     ],
         desc: "green[grin] - zielony",
-        sentence2: [
+        sentence1: [
             "green"
         ],
         sentence: [
@@ -22164,7 +22227,7 @@ const fiszki10 = [
         }
     ],
         desc: "teaches[ticzes] - uczy",
-        sentence2: [
+        sentence1: [
             "teaches"
         ],
         sentence: [
@@ -22197,7 +22260,7 @@ const fiszki10 = [
         }
     ],
         desc: "math[matf, matw] - matematyka",
-        sentence2: [
+        sentence1: [
             "math"
         ],
         sentence: [
@@ -22368,8 +22431,8 @@ const fiszki10 = [
             category: [""]
         }
     ],
-        desc: "bus[bas] - ",
-        sentence2: [
+        desc: "bus[bas] - autobus",
+        sentence1: [
             "bus"
         ],
         sentence: [
@@ -22402,7 +22465,7 @@ const fiszki10 = [
         }
     ],
         desc: "arrives[erajws] - przybywa",
-        sentence2: [
+        sentence1: [
             "arrives"
         ],
         sentence: [
@@ -22589,7 +22652,7 @@ const fiszki10 = [
         }
     ],
         desc: "wear[łer] - nosić",
-        sentence2: [
+        sentence1: [
             "wear"
         ],
         sentence: [
@@ -22622,7 +22685,7 @@ const fiszki10 = [
         }
     ],
         desc: "glasses[glases] - okulary",
-        sentence2: [
+        sentence1: [
             "glasses"
         ],
         sentence: [
@@ -22844,7 +22907,7 @@ const fiszki10 = [
         }
             ],
         desc: "buy[baj] - kupić",
-        sentence2: [
+        sentence1: [
             "buy"
         ],
         sentence: [
@@ -22877,7 +22940,7 @@ const fiszki10 = [
         }
             ],
         desc: "fruits[fruts] - owoce",
-        sentence2: [
+        sentence1: [
             "fruits"
         ],
         sentence: [
@@ -23103,7 +23166,7 @@ const fiszki10 = [
         }
             ],
         desc: "often[ofen] - często",
-        sentence2: [
+        sentence1: [
             "often"
         ],
         sentence: [
@@ -23137,7 +23200,7 @@ const fiszki10 = [
         }
             ],
         desc: "visit[] - odwiedzać",
-        sentence2: [
+        sentence1: [
             "visit"
         ],
         sentence: [
@@ -23171,7 +23234,7 @@ const fiszki10 = [
         }
             ],
         desc: "museums[mjuziems] - muzeum",
-        sentence2: [
+        sentence1: [
             "museums"
         ],
         sentence: [
@@ -23325,7 +23388,7 @@ const fiszki10 = [
         }
             ],
         desc: "team[tim] - zespół",
-        sentence2: [
+        sentence1: [
             "team"
         ],
         sentence: [
@@ -23360,7 +23423,7 @@ const fiszki10 = [
         }
             ],
         desc: "won[łon, łan] - wygrał",
-        sentence2: [
+        sentence1: [
             "won"
         ],
         sentence: [
@@ -23394,8 +23457,8 @@ const fiszki10 = [
             category: [""]
         }
             ],
-        desc: "the match[de macz] - ",
-        sentence2: [
+        desc: "the match[de macz] - mecz",
+        sentence1: [
             "the match"
         ],
         sentence: [
@@ -23430,7 +23493,7 @@ const fiszki10 = [
         }
             ],
         desc: "yesterday[jesterdej] - wczoraj",
-        sentence2: [
+        sentence1: [
             "yesterday"
         ],
         sentence: [
@@ -23494,7 +23557,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/451.jpg",
+                src: "https://www.arbulang.com/img/fiszki1/451a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -23504,8 +23567,8 @@ const fiszki10 = [
             category: [""]
         }
             ],
-        desc: "watched[łocztd] - ",
-        sentence2: [
+        desc: "watched[łocztd] - oglądałem",
+        sentence1: [
             "watched"
         ],
         sentence: [
@@ -23592,7 +23655,7 @@ const fiszki10 = [
             "https://www.arbulang.com/src/the.wav"
         ],
         desc: "TRUDNOŚĆ JĘZYKOWA: the[de]-33%, [ze]-33%, [d-ze]-33% - ta",
-        sentence2: [
+        sentence1: [
             "the"
         ],
         sentence: [
@@ -23628,7 +23691,7 @@ const fiszki10 = [
         }
             ],
         desc: "stars[stars] - gwiazdy",
-        sentence2: [
+        sentence1: [
             "stars"
         ],
         sentence: [
@@ -23664,7 +23727,7 @@ const fiszki10 = [
         }
             ],
         desc: "last[last] - ostatni",
-        sentence2: [
+        sentence1: [
             "last"
         ],
         sentence: [
@@ -23700,7 +23763,7 @@ const fiszki10 = [
         }
             ],
         desc: "night[najt] - noc",
-        sentence2: [
+        sentence1: [
             "night"
         ],
         sentence: [
@@ -23820,7 +23883,7 @@ const fiszki10 = [
         }
             ],
         desc: "fish[fisz] - ryba",
-        sentence2: [
+        sentence1: [
             "fish"
         ],
         sentence: [
@@ -23865,7 +23928,7 @@ const fiszki10 = [
         },
             ],
         desc: "swim[słim] - pływać",
-        sentence2: [
+        sentence1: [
             "swim"
         ],
         sentence: [
@@ -24172,7 +24235,7 @@ const fiszki10 = [
         }
             ],
         desc: "boy[boj] - chłopiec",
-        sentence2: [
+        sentence1: [
             "boy"
         ],
         sentence: [
@@ -24208,7 +24271,7 @@ const fiszki10 = [
         }
             ],
         desc: "kicks[kiks] - kopnięcia lub kopnąć + s",
-        sentence2: [
+        sentence1: [
             "kicks"
         ],
         sentence: [
@@ -24295,7 +24358,7 @@ const fiszki10 = [
             "https://www.arbulang.com/src/the.wav"
         ],
         desc: "TRUDNOŚĆ JĘZYKOWA: the[de]-33%, [ze]-33%, [d-ze]-33% - ta",
-        sentence2: [
+        sentence1: [
             "the"
         ],
         sentence: [
@@ -24331,7 +24394,7 @@ const fiszki10 = [
         }
             ],
         desc: "ball[bol] - piłka",
-        sentence2: [
+        sentence1: [
             "ball"
         ],
         sentence: [
@@ -24367,7 +24430,7 @@ const fiszki10 = [
         }
             ],
         desc: "far[fa(r)] - daleko",
-        sentence2: [
+        sentence1: [
             "far"
         ],
         sentence: [
@@ -24445,7 +24508,7 @@ const fiszki10 = [
         }
             ],
         desc: "explore[explo] - eksplorować, badać",
-        sentence2: [
+        sentence1: [
             "explore"
         ],
         sentence: [
@@ -24467,7 +24530,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/470a.jpg",
+                src: "https://www.arbulang.com/img/fiszki1/471a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -24478,7 +24541,7 @@ const fiszki10 = [
         }
             ],
         desc: "forest[forest] - las",
-        sentence2: [
+        sentence1: [
             "forest"
         ],
         sentence: [
@@ -24620,11 +24683,11 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/324a.jpg",
+                src: "https://www.arbulang.com/img/fiszki1/474a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
-                text: "",
+                text: "KOGNATY: PRACTICES - PRAKTYKOWAĆ",
                 alt: ""
             },
             category: ["", ""]
@@ -24653,11 +24716,11 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/324a.jpg",
+                src: "https://www.arbulang.com/img/fiszki1/475a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
-                text: "",
+                text: "KOGNATY: YOGA - JOGA",
                 alt: ""
             },
             category: ["", ""]
@@ -24697,7 +24760,7 @@ const fiszki10 = [
         }
             ],
         desc: "every[ewry] - każdy",
-        sentence1: [
+        sentence2: [
             "every"
         ],
         sentence: [
@@ -24718,18 +24781,18 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/324a.jpg",
+                src: "https://www.arbulang.com/img/fiszki1/477a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
-                text: "",
+                text: "Po <u><b>południu</u></b> na stacje przyjeżdza n<u><b>aft</u></b>a. Kierowcą jest <u><b>Ern</u></b>i i <u><b>ju</u></b>ż długo tam pracuje",
                 alt: ""
             },
-            category: ["piłka nożna", "technika"]
+            category: [""]
         }
             ],
-        desc: "afternoon[afternun] - popołudnie",
-        sentence1: [
+        desc: "afternoon[afternju] - popołudnie",
+        sentence2: [
             "afternoon"
         ],
         sentence: [
@@ -25034,7 +25097,7 @@ const fiszki10 = [
         {
             id: 2,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/483a.jpg",
+                src: "https://www.arbulang.com/img/fiszki1/483b.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -25303,14 +25366,12 @@ const fiszki10 = [
         }
             ],
         desc: "every[ewry] - każdy",
-        sentence1: [
+        sentence2: [
             "every"
         ],
         sentence: [
-            "They",
-            "travel",
-            "to",
-            "Europe"
+            "every",
+            "summer"
         ],
         key: "every",
         category1: "nauka",
@@ -25337,14 +25398,12 @@ const fiszki10 = [
         }
             ],
         desc: "summer[same(r)] - lato",
-        sentence1: [
+        sentence2: [
             "summer"
         ],
         sentence: [
-            "They",
-            "travel",
-            "to",
-            "Europe"
+            "every",
+            "summer"
         ],
         key: "summer",
         category1: "nauka",
@@ -25566,7 +25625,7 @@ const fiszki10 = [
         }
             ],
         desc: "during[during-dźuring] - podczas",
-        sentence1: [
+        sentence2: [
             "during"
         ],
         sentence: [
@@ -25591,14 +25650,14 @@ const fiszki10 = [
                 alt: "Wygenerowane przez AI."
             },
             story: {
-                text: "",
+                text: "Ktoś mówi nie wyraźnie p<u><b>łin</u></b> na mrozie w <u><b>zimie</u></b> <u><b>ter</u></b>az zamarza",
                 alt: ""
             },
             category: ["", ""]
         }
             ],
         desc: "winter[łinter] - zima",
-        sentence1: [
+        sentence2: [
             "winter"
         ],
         sentence: [
@@ -25615,9 +25674,20 @@ const fiszki10 = [
             82,
             147
         ],
-        img: [
-            "https://www.arbulang.com/img/fiszki1/7a.jpg"
-        ],
+            entries: [
+        {
+            id: 1,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/207b.jpg",
+                alt: "Wygenerowane przez AI."
+            },
+            story: {
+                text: "<u><b>Oni</u></b> z<u><b>dej</u></b>mują jabłka z jabłoni",
+                alt: ""
+            },
+            category: [""]
+        }
+            ],
         translate: "",
         translateb: "[Hi sings bjutifuli in de szołer]",
         translateb2: "[]",
@@ -25626,8 +25696,7 @@ const fiszki10 = [
         word: [
             "https://www.arbulang.com/voice/bike.mp4"
         ],
-        story: "<u><b>Ona</u></b> - Patrycja ma ri<u><b>szi</u></b> to naturalny antyoksydant",
-        desc: "they[dej] - ",
+        desc: "they[dej] - oni",
         sentence1: [
             "They"
         ],
@@ -25851,7 +25920,7 @@ const fiszki10 = [
         }
             ],
         desc: "sky[skaj] - niebo",
-        sentence2: [
+        sentence1: [
             "sky"
         ],
         sentence: [
@@ -25963,7 +26032,7 @@ const fiszki10 = [
             "https://www.arbulang.com/src/is.wav"
         ],
         desc: "is[is] - jest",
-        sentence2: [
+        sentence1: [
             "is"
         ],
         sentence: [
@@ -26000,7 +26069,7 @@ const fiszki10 = [
         }
             ],
         desc: "clear[klir] - czyste, czysty, czysta",
-        sentence2: [
+        sentence1: [
             "clear"
         ],
         sentence: [
@@ -26086,7 +26155,7 @@ const fiszki10 = [
     ],
         translateb2: "[end hags it]",
         desc: "and, end[end] - i(and)/koniec(end)",
-        sentence2: [
+        sentence1: [
             "and"
         ],
         sentence: [
@@ -26123,7 +26192,7 @@ const fiszki10 = [
         }
             ],
         desc: "blue[blu] - niebieski/niebieskie",
-        sentence2: [
+        sentence1: [
             "blue"
         ],
         sentence: [
@@ -26160,7 +26229,7 @@ const fiszki10 = [
         }
             ],
         desc: "today[tudej] - dziś",
-        sentence2: [
+        sentence1: [
             "today"
         ],
         sentence: [
@@ -26239,7 +26308,7 @@ const fiszki10 = [
         }
             ],
         desc: "work[łerk] - praca, pracować, working[łerking] - pracować",
-        sentence2: [
+        sentence1: [
             "work"
         ],
         sentence: [
@@ -26272,7 +26341,7 @@ const fiszki10 = [
         }
             ],
         desc: "together[tugeder] - razem",
-        sentence2: [
+        sentence1: [
             "together"
         ],
         sentence: [
@@ -26425,7 +26494,7 @@ const fiszki10 = [
         }
             ],
         desc: "visits[wizits] - odwiedzać",
-        sentence2: [
+        sentence1: [
             "visits"
         ],
         sentence: [
@@ -26458,7 +26527,7 @@ const fiszki10 = [
         }
             ],
         desc: "library[lajbrery] - biblioteka",
-        sentence2: [
+        sentence1: [
             "library"
         ],
         sentence: [
@@ -26644,7 +26713,7 @@ const fiszki10 = [
         }
             ],
         desc: "plants[plants] - sadzić, uprawiać",
-        sentence2: [
+        sentence1: [
             "plants"
         ],
         sentence: [
@@ -26677,6 +26746,9 @@ const fiszki10 = [
         }
             ],
         desc: "vegetables[wedźtybels] - warzywa",
+        sentence1: [
+            "vegetables"
+        ],
         sentence: [
             "He",
             "plants",
@@ -26896,7 +26968,7 @@ const fiszki10 = [
         }
             ],
         desc: "explore[iksplor, yksplor] - eksplorować, badać",
-        sentence2: [
+        sentence1: [
             "explore"
         ],
         sentence: [
@@ -26930,7 +27002,7 @@ const fiszki10 = [
         }
             ],
         desc: "a new[nju] - nowy/nowa/nowe",
-        sentence2: [
+        sentence1: [
             "new"
         ],
         sentence: [
@@ -26964,7 +27036,7 @@ const fiszki10 = [
         }
             ],
         desc: "cities[sitiz] - miasta",
-        sentence2: [
+        sentence1: [
             "cities"
         ],
         sentence: [
@@ -27055,7 +27127,7 @@ const fiszki10 = [
                 alt: "Wygenerowane przez AI."
             },
             story: {
-                text: "",
+                text: "Idziemy do przo<u><b>du</u></b> i <u><b>robimy</u></b> jak najwięcej",
                 alt: ""
             },
             category: ["", ""]
@@ -27076,10 +27148,7 @@ const fiszki10 = [
         sentence: [
             "Do",
             "you",
-            "like",
-            "this",
-            "red",
-            "car?"
+            "like"
         ],
         key: "do",
         category2: ["osoby"],
@@ -27106,16 +27175,13 @@ const fiszki10 = [
         }
             ],
         desc: "you[ju] - ty",
-        sentence2: [
+        sentence1: [
             "you"
         ],
         sentence: [
             "Do",
             "you",
-            "like",
-            "this",
-            "red",
-            "car?"
+            "like"
         ],
         key: "you",
         category1: "nauka",
@@ -27142,16 +27208,13 @@ const fiszki10 = [
         }
             ],
         desc: "like[lajk] - lubić",
-        sentence2: [
+        sentence1: [
             "like"
         ],
         sentence: [
             "Do",
             "you",
-            "like",
-            "this",
-            "red",
-            "car?"
+            "like"
         ],
         key: "like",
         category1: "nauka",
@@ -27230,9 +27293,6 @@ const fiszki10 = [
             "this"
         ],
         sentence: [
-            "Do",
-            "you",
-            "like",
             "this",
             "red",
             "car?"
@@ -27278,9 +27338,6 @@ const fiszki10 = [
             "red"
         ],
         sentence: [
-            "Do",
-            "you",
-            "like",
             "this",
             "red",
             "car?"
@@ -27326,9 +27383,6 @@ const fiszki10 = [
             "car?"
         ],
         sentence: [
-            "Do",
-            "you",
-            "like",
             "this",
             "red",
             "car?"
@@ -27447,7 +27501,7 @@ const fiszki10 = [
         }
     ],
         desc: "your[jor] - doceniać",
-        sentence2: [
+        sentence1: [
             "your"
         ],
         sentence: [
@@ -27465,14 +27519,22 @@ const fiszki10 = [
             89,
             159
         ],
-        img: [
-            "https://www.arbulang.com/img/fiszki1/536a.jpg"
-        ],
-        story: [
-            "W tej <u><b>fa</u></b>mili <u><b>ojciec</u></b> się często <b><u>de</b></u>ne<b><u>r</b></u>wuje"
-        ],
+            entries: [
+        {
+            id: 1,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/536a.jpg",
+                alt: "Wygenerowane przez AI."
+            },
+            story: {
+                text: "W tej <u><b>fa</u></b>mili <u><b>ojciec</u></b> się często <b><u>de</b></u>ne<b><u>r</b></u>wuje",
+                alt: ""
+            },
+            category: ["państwa", "USA"]
+        }
+            ],
         desc: "father[fader, fazer] - ojciec",
-        sentence2: [
+        sentence1: [
             "father"
         ],
         sentence: [
@@ -27556,12 +27618,20 @@ const fiszki10 = [
             89,
             160
         ],
-        img: [
-            "https://www.arbulang.com/img/fiszki1/539a.jpg"
-        ],
-        story: [
-            "<u><b>Iw</u></b>an i <u><b>Nin</u></b>a spędzają razem wieczór"
-        ],
+            entries: [
+        {
+            id: 1,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/539a.jpg",
+                alt: "Wygenerowane przez AI."
+            },
+            story: {
+                text: "<u><b>Iw</u></b>an i <u><b>Nin</u></b>a spędzają razem wieczór",
+                alt: ""
+            },
+            category: ["państwa", "USA"]
+        }
+            ],
         desc: "evening[ivnin] - wieczór",
         sentence2: [
             "evening"
@@ -27685,7 +27755,7 @@ const fiszki10 = [
         }
     ],
         desc: "your[jor] - doceniać",
-        sentence2: [
+        sentence1: [
             "your"
         ],
         sentence: [
@@ -27718,7 +27788,7 @@ const fiszki10 = [
         }
             ],
         desc: "friend[frend] - przyjaciel",
-        sentence2: [
+        sentence1: [
             "friend"
         ],
         sentence: [
@@ -27895,9 +27965,20 @@ const fiszki10 = [
             91,
             163
         ],
-        img: [
-            "https://www.arbulang.com/img/fiszki1/546a.jpg"
-        ],
+            entries: [
+        {
+            id: 1,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/546a.jpg",
+                alt: "Wygenerowane przez AI."
+            },
+            story: {
+                text: "<b><u>Czy</b></u> <b><u>Ar</b></u>nold i <b><u>Ar</b></u>ek <b><u>są</b></u> gotowi do zawodów",
+                alt: ""
+            },
+            category: [""]
+        }
+            ],
         translate: "",
         translateb: "[]",
         translateb2: "[]",
@@ -27906,7 +27987,6 @@ const fiszki10 = [
         word: [
             "https://www.arbulang.com/voice/bike.mp4"
         ],
-        story: "<b><u>Czy</b></u> <b><u>Ar</b></u>nold i <b><u>Ar</b></u>ek <b><u>są</b></u> gotowi do zawodów",
         desc: "are[ar] - czy (2. i 3. osoba l. p. i liczba mnoga)",
         sentence1: [
             "Are"
@@ -27941,7 +28021,7 @@ const fiszki10 = [
         }
             ],
         desc: "we[łi] - my",
-        sentence2: [
+        sentence1: [
             "we"
         ],
         sentence: [
@@ -27959,14 +28039,22 @@ const fiszki10 = [
             91,
             163
         ],
-        img: [
-            "https://www.arbulang.com/img/fiszki1/548a.jpg"
-        ],
-        story: [
-            "<u><b>Lej</u></b>e w krzakach. Bo już jes<u><b>t</u></b> zbyt <u><b>poźno</u></b> na dojście do domu"
-        ],
+            entries: [
+        {
+            id: 1,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/548a.jpg",
+                alt: "Wygenerowane przez AI."
+            },
+            story: {
+                text: "<u><b>Lej</u></b>e w krzakach. Bo już jes<u><b>t</u></b> zbyt <u><b>poźno</u></b> na dojście do domu",
+                alt: ""
+            },
+            category: [""]
+        }
+            ],
         desc: "late[lejt] - późno",
-        sentence2: [
+        sentence1: [
             "late"
         ],
         sentence: [
@@ -28209,10 +28297,7 @@ const fiszki10 = [
             "Our",
             "grandma",
             "make",
-            "soup",
-            "for",
-            "the",
-            "lunch"
+            "soup"
         ],
         key: "our",
         category2: ["osoby"],
@@ -28239,17 +28324,14 @@ const fiszki10 = [
         }
             ],
         desc: "grandma[] - ",
-        sentence2: [
+        sentence1: [
             "grandma"
         ],
         sentence: [
             "Our",
             "grandma",
             "make",
-            "soup",
-            "for",
-            "the",
-            "lunch"
+            "soup"
         ],
         key: "grandma",
         category1: "nauka",
@@ -28276,17 +28358,14 @@ const fiszki10 = [
         }
             ],
         desc: "make[mejk] - robić",
-        sentence2: [
+        sentence1: [
             "make"
         ],
         sentence: [
             "Our",
             "grandma",
             "make",
-            "soup",
-            "for",
-            "the",
-            "lunch"
+            "soup"
         ],
         key: "make",
         category1: "nauka",
@@ -28313,17 +28392,14 @@ const fiszki10 = [
         }
             ],
         desc: "soup[sup] - zupa",
-        sentence2: [
+        sentence1: [
             "soup"
         ],
         sentence: [
             "Our",
             "grandma",
             "make",
-            "soup",
-            "for",
-            "the",
-            "lunch"
+            "soup"
         ],
         key: "soup",
         category1: "nauka",
@@ -28354,10 +28430,6 @@ const fiszki10 = [
             "for"
         ],
         sentence: [
-            "Our",
-            "grandma",
-            "make",
-            "soup",
             "for",
             "the",
             "lunch"
@@ -28439,10 +28511,6 @@ const fiszki10 = [
             "the"
         ],
         sentence: [
-            "Our",
-            "grandma",
-            "make",
-            "soup",
             "for",
             "the",
             "lunch"
@@ -28476,10 +28544,6 @@ const fiszki10 = [
             "lunch"
         ],
         sentence: [
-            "Our",
-            "grandma",
-            "make",
-            "soup",
             "for",
             "the",
             "lunch"
@@ -28550,7 +28614,7 @@ const fiszki10 = [
         }
             ],
         desc: "walk[łok] - iść, chodzić",
-        sentence2: [
+        sentence1: [
             "walk"
         ],
         sentence: [
@@ -28583,7 +28647,7 @@ const fiszki10 = [
         }
             ],
         desc: "along[elon] - wzdłuż, przed siebie",
-        sentence2: [
+        sentence1: [
             "along"
         ],
         sentence: [
@@ -28727,7 +28791,7 @@ const fiszki10 = [
             category: ["", ""]
         }
             ],
-        desc: "street[] - ",
+        desc: "street[strit] - ulica",
         sentence2: [
             "street"
         ],
@@ -28874,7 +28938,7 @@ const fiszki10 = [
         }
             ],
         desc: "bed[bed] - łóżko",
-        sentence2: [
+        sentence1: [
             "bed"
         ],
         sentence: [
@@ -28979,7 +29043,7 @@ const fiszki10 = [
         }
     ],
         desc: "is[is] - jest",
-        sentence2: [
+        sentence1: [
             "is"
         ],
         sentence: [
@@ -29351,7 +29415,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/324a.jpg",
+                src: "https://www.arbulang.com/img/fiszki1/332a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -29483,7 +29547,7 @@ const fiszki10 = [
         }
             ],
         desc: "moon[mun] - ",
-        sentence2: [
+        sentence1: [
             "moon"
         ],
         sentence: [
@@ -29516,7 +29580,7 @@ const fiszki10 = [
         }
             ],
         desc: "rises[rajzes] - wznosi się",
-        sentence2: [
+        sentence1: [
             "rises"
         ],
         sentence: [
@@ -29788,7 +29852,7 @@ const fiszki10 = [
         }
     ],
         desc: "he[hi] - on",
-        sentence2: [
+        sentence1: [
             "he"
         ],
         sentence: [
@@ -29821,7 +29885,7 @@ const fiszki10 = [
         }
             ],
         desc: "open[ołpen] - otworzyć",
-        sentence2: [
+        sentence1: [
             "open"
         ],
         sentence: [
@@ -30115,7 +30179,7 @@ const fiszki10 = [
         }
             ],
         desc: "can[ken] - może, móc",
-        sentence2: [
+        sentence1: [
             "can"
         ],
         sentence: [
@@ -30251,7 +30315,7 @@ const fiszki10 = [
         }
             ],
         desc: "claim[klejm] - twierdzić, twierdzenie",
-        sentence2: [
+        sentence1: [
             "claim"
         ],
         sentence: [
@@ -30547,8 +30611,8 @@ const fiszki10 = [
         story: [
             "Super jest ten mały silnik. Ma moc kilku moli"
         ],
-        desc: "true[tru] - prawdziwa, prawdziwe",
-        sentence2: [
+        desc: "box[boks] - pudełko",
+        sentence1: [
             "box"
         ],
         sentence: [
@@ -30580,7 +30644,7 @@ const fiszki10 = [
         }
             ],
         desc: "contains[kenteins] - zawiera",
-        sentence2: [
+        sentence1: [
             "contains"
         ],
         sentence: [
@@ -30612,7 +30676,7 @@ const fiszki10 = [
             category: ["kraje", "klimat"]
         }
             ],
-        desc: "true[tru] - prawdziwa, prawdziwe",
+        desc: "old[old] - stary/stare",
         sentence2: [
             "old"
         ],
@@ -30793,7 +30857,7 @@ const fiszki10 = [
         }
             ],
         desc: "leg[leg] - noga",
-        sentence2: [
+        sentence1: [
             "leg"
         ],
         sentence: [
@@ -30826,7 +30890,7 @@ const fiszki10 = [
         }
             ],
         desc: "hurts[hert] - boli, boleć, zranić, urazić",
-        sentence2: [
+        sentence1: [
             "hurts"
         ],
         sentence: [
@@ -31011,7 +31075,7 @@ const fiszki10 = [
         }
             ],
         desc: "claimed[kleimt] - twierdził",
-        sentence2: [
+        sentence1: [
             "claimed"
         ],
         sentence: [
@@ -31231,7 +31295,7 @@ const fiszki10 = [
         }
             ],
         desc: "dress[dres] - sukienka",
-        sentence2: [
+        sentence1: [
             "dress"
         ],
         sentence: [
@@ -31336,7 +31400,7 @@ const fiszki10 = [
         }
     ],
         desc: "is[is] - jest",
-        sentence2: [
+        sentence1: [
             "is"
         ],
         sentence: [
@@ -31557,7 +31621,7 @@ const fiszki10 = [
         }
             ],
         desc: "can[ken] - może",
-        sentence2: [
+        sentence1: [
             "can"
         ],
         sentence: [
@@ -31590,7 +31654,7 @@ const fiszki10 = [
         }
             ],
         desc: "jump[dżamp] - skakać, skoczyć",
-        sentence2: [
+        sentence1: [
             "jump"
         ],
         sentence: [
@@ -31848,7 +31912,7 @@ const fiszki10 = [
         }
             ],
         desc: "heart[hart] - serce",
-        sentence2: [
+        sentence1: [
             "heart"
         ],
         sentence: [
@@ -31881,7 +31945,7 @@ const fiszki10 = [
         }
             ],
         desc: "feels[fils] - czuje (się)",
-        sentence2: [
+        sentence1: [
             "feels"
         ],
         sentence: [
@@ -34454,7 +34518,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "http://localhost/arbulanguage.com/img/fiszki1/683a.jpg",
+                src: "https://www.arbulang.com/img/fiszki1/683a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -35007,7 +35071,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "http://localhost/arbulanguage.com/img/fiszki1/693a.jpg",
+                src: "https://www.arbulang.com/img/fiszki1/693a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -35839,7 +35903,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/324a.jpg",
+                src: "https://www.arbulang.com/img/fiszki1/332a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -35943,7 +36007,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "http://localhost/arbulanguage.com/img/fiszki1/568a.jpg",
+                src: "https://www.arbulang.com/img/fiszki1/568a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -36154,7 +36218,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "http://localhost/arbulanguage.com/img/fiszki1/564a.jpg",
+                src: "https://www.arbulang.com/img/fiszki1/564a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -36187,7 +36251,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "http://localhost/arbulanguage.com/img/fiszki1/720a.jpg",
+                src: "https://www.arbulang.com/img/fiszki1/720a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -36220,7 +36284,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "http://localhost/arbulanguage.com/img/fiszki1/721a.jpg",
+                src: "https://www.arbulang.com/img/fiszki1/721a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -36252,7 +36316,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "http://localhost/arbulanguage.com/img/fiszki1/722a.jpg",
+                src: "https://www.arbulang.com/img/fiszki1/722a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -37442,7 +37506,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "http://localhost/arbulanguage.com/img/fiszki1/749a.jpg",
+                src: "https://www.arbulang.com/img/fiszki1/749a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -37485,7 +37549,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "http://localhost/arbulanguage.com/img/fiszki1/750a.jpg",
+                src: "https://www.arbulang.com/img/fiszki1/750a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -37520,7 +37584,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "http://localhost/arbulanguage.com/img/fiszki1/751a.jpg",
+                src: "https://www.arbulang.com/img/fiszki1/751a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -37555,7 +37619,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "http://localhost/arbulanguage.com/img/fiszki1/751a.jpg",
+                src: "https://www.arbulang.com/img/fiszki1/751a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -38986,7 +39050,7 @@ if (entry) {
         .html(entry) // entry2 to Twój opis
         .css({
             marginTop: '4px',
-            fontSize: '12px',
+            fontSize: '25px',
             textAlign: 'center',
             color: '#333',
             overflow: 'hidden',

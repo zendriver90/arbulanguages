@@ -8031,10 +8031,6 @@ id: [
         word: [
                 "https://www.arbulang.com/voice/music.mp4"
         ],
-        // historia
-        story: [
-            ""
-        ],
         // opis
         desc: "palabras[palawras] - słowa",
         //zdanie
@@ -8502,7 +8498,7 @@ id: [
                 "https://www.arbulang.com/voice/music.mp4"
         ],
         // opis
-        desc: "cuidar[kjudar] - ",
+        desc: "cuidar[kjudar] - dbać",
         //zdanie
         sentence1: [
                 "Cuidar"
@@ -8801,10 +8797,6 @@ id: [
     ],
         word: [
                 "https://www.arbulang.com/voice/music.mp4"
-        ],
-        // historia
-        story: [
-            ""
         ],
         // opis
         desc: "el cuerpo[el kłerpo] - ciało",
@@ -9152,10 +9144,6 @@ id: [
     ],
         word: [
                 "https://www.arbulang.com/voice/music.mp4"
-        ],
-        // historia
-        story: [
-            "<u><b>To</u></b> <u><b>wszystko</u></b> <u><b>dos</u></b>taniecie w naszym sklepie"
         ],
         // opis
         desc: "es[es] - jest",
@@ -10448,10 +10436,6 @@ id: [
     ],
         word: [
                 "https://www.arbulang.com/voice/music.mp4"
-        ],
-        // historia
-        story: [
-            ""
         ],
         // opis
         desc: "todos[todos] - wszystko",
@@ -11939,11 +11923,11 @@ id: [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszkiespanol/253a.jpg",
+                src: "https://www.arbulang.com/img/fiszkiespanol/254a.jpg",
                 alt: ""
             },
             story: {
-                text: 'KOGNATY: OPTION - OPCJA',
+                text: '',
                 alt: ""
             },
             category: ["", ""]
@@ -12374,7 +12358,7 @@ id: [
                 "https://www.arbulang.com/voice/music.mp4"
         ],
         // opis
-        desc: "mira[] - ",
+        desc: "mira[mira] - patrzy",
         //zdanie
         sentence1: [
                 "mira"
@@ -12546,7 +12530,7 @@ id: [
                 "https://www.arbulang.com/voice/music.mp4"
         ],
         // opis
-        desc: "trabaja[] - ",
+        desc: "trabaja[trabaha] - pracuje",
         //zdanie
         sentence1: [
                 "trabaja"
@@ -12587,7 +12571,7 @@ id: [
                 "https://www.arbulang.com/voice/music.mp4"
         ],
         // opis
-        desc: "hoy[] - ",
+        desc: "hoy[oj] - dzisiaj",
         //zdanie
         sentence1: [
                 "hoy"
@@ -12673,7 +12657,7 @@ id: [
                 "https://www.arbulang.com/voice/music.mp4"
         ],
         // opis
-        desc: "el perro[] - ",
+        desc: "el perro[le perro] - pies",
         //zdanie
         sentence1: [
                 "El perro"
@@ -12714,7 +12698,7 @@ id: [
                 "https://www.arbulang.com/voice/music.mp4"
         ],
         // opis
-        desc: "juega[juega] - grać (w coś)",
+        desc: "juega[huega] - grać (w coś)",
         //zdanie
         sentence1: [
                 "juega"
@@ -13245,8 +13229,7 @@ id: [
         sentence: [
                 "Te",
                 "llamaré",
-                "más",
-                "tarde"
+                "más tarde"
         ],
         //  slowo do nauki
         key: "te",
@@ -13286,8 +13269,7 @@ id: [
         sentence: [
                 "Te",
                 "llamaré",
-                "más",
-                "tarde"
+                "más tarde"
         ],
         //  slowo do nauki
         key: "llamare",
@@ -13312,39 +13294,10 @@ id: [
                 text: '<u><b>Mas</u></b>ło jest <u><b>bardziej</u></b> wartościowe niż margaryna - na chleb',
                 alt: ""
             },
-            category: ["", ""]
-        }
-    ],
-        word: [
-                "https://www.arbulang.com/voice/music.mp4"
-        ],
-        // opis
-        desc: "más[mas] - bardziej, więcej",
-        //zdanie
-        sentence1: [
-                "más"
-        ],
-        sentence: [
-                "Te",
-                "llamaré",
-                "más",
-                "tarde"
-        ],
-        //  slowo do nauki
-        key: "mas",
-        category1: [
-        ],
-        category2: ["osoby", "osoby+czas"],
-                category3: ["Infinitive"]
-},
-{
-id: [
-        286,
-        59
-],
-    entries: [
-        {
-            id: 1,
+            category: ["fraza ze słow", "mas"]
+        },
+                {
+            id: 2,
             img: {
                 src: "https://www.arbulang.com/img/fiszkiespanol/286a.jpg",
                 alt: ""
@@ -13353,26 +13306,25 @@ id: [
                 text: '<u><b>Póżniej</u></b> będę <u><b>tar</u></b>ł jabłko na tarce do <u><b>de</u></b>seru - na wieczór',
                 alt: ""
             },
-            category: ["", ""]
+            category: ["fraza ze słow", "tarde"]
         }
     ],
         word: [
                 "https://www.arbulang.com/voice/music.mp4"
         ],
         // opis
-        desc: "tarde[tarde] - póżniej, wieczór",
+        desc: "más tarde[mas tarde] - później",
         //zdanie
         sentence1: [
-                "tarde"
+                "más tarde"
         ],
         sentence: [
                 "Te",
                 "llamaré",
-                "más",
-                "tarde"
+                "más tarde"
         ],
         //  slowo do nauki
-        key: "tarde",
+        key: "mas tarde",
         category1: [
         ],
         category2: ["osoby", "osoby+czas"],
@@ -13391,7 +13343,7 @@ id: [
                 alt: ""
             },
             story: {
-                text: 'Podróżowałem po Włoszech i jadełem tam obiady - te obiady mają charakter',
+                text: '<u><b>Podróżowałem</u></b> po Włoszech i jadełem tam o<u><b>bia</u></b>dy - te obiady mają <u><b>chara</u></b>kter',
                 alt: ""
             },
             category: ["", ""]
@@ -13430,11 +13382,11 @@ id: [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszkiespanol/285a.jpg",
+                src: "https://www.arbulang.com/img/fiszkiespanol/288a.jpg",
                 alt: ""
             },
             story: {
-                text: 'Masło jest bardziej wartościowe niż margaryna - na chleb',
+                text: '<u><b>Mas</u></b>ło jest <u><b>bardziej</u></b> wartościowe niż margaryna - na chleb',
                 alt: ""
             },
             category: ["", ""]
@@ -13473,7 +13425,7 @@ id: [
                 alt: ""
             },
             story: {
-                text: 'Siii oznacza tak po hiszpańsku, gdybym to wiedział, lepiej by mi się podróżowało',
+                text: '<u><b>Siii</u></b> oznacza tak po hiszpańsku, <u><b>gdybym</u></b> to wiedział, lepiej by mi się podróżowało',
                 alt: ""
             },
             category: ["", ""]
@@ -13513,7 +13465,7 @@ id: [
                 alt: ""
             },
             story: {
-                text: 'Tu w poczekalni miałem przybierzyć ciuchy ale wszystkich nie przymierzyłem, bo ubierałem się za wolno',
+                text: '<u><b>Tu</u></b> w poczekalni <u><b>miałem</u></b> przymierzyć ciuchy ale wszystkich nie przymierzyłem, bo u<u><b>biera</u></b>łem się za wolno',
                 alt: ""
             },
             category: ["", ""]
@@ -13553,7 +13505,7 @@ id: [
                 alt: ""
             },
             story: {
-                text: 'Po pierwsze tantiemy za czas antenowy są wysokie',
+                text: '<u><b>Po</u></b> pierwsze tan<u><b>tiem</u></b>y za <u><b>czas</u></b> antenowy są wysokie',
                 alt: ""
             },
             category: ["", ""]
@@ -13572,7 +13524,7 @@ id: [
                 "si",
                 "tuviera",
                 "tiempo"
-        ],
+        ],f
         //  slowo do nauki
         key: "tiempo",
         category1: [
@@ -13607,7 +13559,7 @@ id: [
                 "https://www.arbulang.com/voice/music.mp4"
         ],
         // opis
-        desc: "el resultado[] - ",
+        desc: "el resultado[el rezultado] - rezultat, wynik",
         //zdanie
         sentence1: [
                 "El resultado"
@@ -13636,7 +13588,7 @@ id: [
                 alt: ""
             },
             story: {
-                text: 'Super, że jedziesz przepisowo, nie przekraczasz prędkości',
+                text: '<u><b>Super</u></b>, że jedziesz przepisowo, nie <u><b>przekraczasz</u></b> prędkości',
                 alt: ""
             },
             category: ["kognaty", "resultado"]
@@ -13646,7 +13598,7 @@ id: [
                 "https://www.arbulang.com/voice/music.mp4"
         ],
         // opis
-        desc: "superó[supero] - przkroczony",
+        desc: "superó[supero] - przekroczył, przerósł",
         //zdanie
         sentence1: [
                 "superó"
@@ -13675,7 +13627,7 @@ id: [
                 alt: ""
             },
             story: {
-                text: 'A nuż nasze akcje na giełdzie pójdą ekstra w górę, super by było',
+                text: 'A <u><b>nu</u></b>ż nasze akcje na gi<u><b>e</u></b>łdzie pójdą ek<u><b>stra</u></b> w górę, <u><b>s</u></b>uper by było',
                 alt: ""
             },
             category: ["kognaty", "resultado"]
@@ -13747,7 +13699,7 @@ id: [
 ],
         // obrazek
         img: [
-                "https://www.arbulang.com/img/fiszkiespanol/131a.jpg"
+                "https://www.arbulang.com/img/fiszkiespanol/296a.jpg"
         ],
         translate: "Porozumienie przyniesie korzyść firmie",
         translateb: "[]",
@@ -13758,10 +13710,10 @@ id: [
         ],
         // historia
         story: [
-            "<u><b>Kier</u></b>ownik <u><b>chce</u></b> od pracowników dobrej pracy - z<u><b>er</u></b>o wymówek"
+            ""
         ],
         // opis
-        desc: "El acuerdo[] - ",
+        desc: "El acuerdo[el akuerdo] - umowa",
         //zdanie
         sentence1: [
                 "El acuerdo"
@@ -14383,7 +14335,7 @@ if (entry) {
         .html(entry) // entry2 to Twój opis
         .css({
             marginTop: '4px',
-            fontSize: '12px',
+            fontSize: '25px',
             textAlign: 'center',
             color: '#333',
             overflow: 'hidden',

@@ -3885,7 +3885,7 @@ const $czasNameP = $('<p>').text(currentCzasName || '')
 $textContainer.append($czasNameP);
             let currentSentenceHtml = "";
             // --- Inicjalizacja cache dla indexDiv ---
-if (indexDiv < 29) {
+if (indexDiv < 36) {
 
     // dodaj napis tylko jeśli jeszcze go nie ma
     if (!$container.find('.dynamic-div').length) {

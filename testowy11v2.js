@@ -4069,5 +4069,324 @@ id: [
         ],
         category2: ["osoby", "osoby+czas"],
                 category3: ["Infinitive"]
-}
+},
+        {
+id: [
+        197,
+        38,
+        68
+],
+        // obrazek
+        img: [
+                "https://www.arbulang.com/img/fiszki1en-esp/187a.jpg"
+        ],
+        translate: "I work many hours because I need more money",
+        translateb: "[]",
+        srcWord: ["", ''],
+        srcWordimage: "",
+        word: [
+                "https://www.arbulang.com/voice/music.mp4"
+        ],
+        // historia
+        story: [
+            ""
+        ],
+        // opis
+        desc: "trabajo[] - work",
+        //zdanie
+        sentence1: [
+                "Trabajo"
+        ],
+                                                    sentence1b: [
+            "Work"
+        ],
+                sentence1c: [
+            ""
+        ],
+        sentence: [
+                "Trabajo",
+                "muchas",
+                "horas"
+        ],
+        //  slowo do nauki
+        key: "Trabajo",
+        category1: [
+        ],
+        category2: ["osoby", "osoby+czas"],
+                category3: ["Present Indicative"]
+},
+        {
+id: [
+        198,
+        38,
+        68
+],
+        // obrazek
+        img: [
+                "https://www.arbulang.com/img/fiszki1en-esp/187a.jpg"
+        ],
+        translate: "I work many hours because I need more money",
+        translateb: "[]",
+        srcWord: ["https://www.arbulang.com/filmy/esp/longforpeace.mp4", ''],
+        srcWordimage: "https://www.arbulang.com/filmy/esp/longforpeace.png",
+        word: [
+                "https://www.arbulang.com/voice/music.mp4"
+        ],
+        // historia
+        story: [
+            ""
+        ],
+        // opis
+        desc: "muchas[] - ",
+        //zdanie
+        sentence1: [
+                "muchas"
+        ],
+                                                    sentence1b: [
+            ""
+        ],
+                sentence1c: [
+            ""
+        ],
+        sentence: [
+                "Trabajo",
+                "muchas",
+                "horas"
+        ],
+        //  slowo do nauki
+        key: "muchas",
+        category1: [
+        ],
+        category2: ["osoby", "osoby+czas"],
+                category3: ["Infinitive"]
+},
+        {
+id: [
+        199,
+        38,
+        68
+],
+        // obrazek
+        img: [
+                "https://www.arbulang.com/img/fiszki1en-esp/187a.jpg"
+        ],
+        translate: "I work many hours because I need more money",
+        translateb: "[]",
+        srcWord: ["https://www.arbulang.com/filmy/esp/longforpeace.mp4", ''],
+        srcWordimage: "https://www.arbulang.com/filmy/esp/longforpeace.png",
+        word: [
+                "https://www.arbulang.com/voice/music.mp4"
+        ],
+        // historia
+        story: [
+            ""
+        ],
+        // opis
+        desc: "horas[] - ",
+        //zdanie
+        sentence1: [
+                "horas"
+        ],
+                                                    sentence1b: [
+            ""
+        ],
+                sentence1c: [
+            ""
+        ],
+        sentence: [
+                "Trabajo",
+                "muchas",
+                "horas"
+        ],
+        //  slowo do nauki
+        key: "horas",
+        category1: [
+        ],
+        category2: ["osoby", "osoby+czas"],
+                category3: ["Infinitive"]
+},
+        {
+id: [
+        200,
+        38,
+        69
+],
+        // obrazek
+        img: [
+                "https://www.arbulang.com/img/fiszki1en-esp/187a.jpg"
+        ],
+        translate: "I work many hours because I need more money",
+        translateb: "[]",
+        srcWord: ["https://www.arbulang.com/filmy/esp/longforpeace.mp4", ''],
+        srcWordimage: "https://www.arbulang.com/filmy/esp/longforpeace.png",
+        word: [
+                "https://www.arbulang.com/voice/music.mp4"
+        ],
+        // historia
+        story: [
+            ""
+        ],
+        // opis
+        desc: "porque[] - ",
+        //zdanie
+        sentence1: [
+                "porque"
+        ],
+                                                    sentence1b: [
+            ""
+        ],
+                sentence1c: [
+            ""
+        ],
+                sentence: [
+                "porque",
+                "necesito",
+                "más",
+                "dinero"
+        ],
+        //  slowo do nauki
+        key: "porque",
+        category1: [
+        ],
+        category2: ["osoby", "osoby+czas"],
+                category3: ["Infinitive"]
+},
+        {
+id: [
+        201,
+        38,
+        69
+],
+        // obrazek
+        img: [
+                "https://www.arbulang.com/img/fiszki1en-esp/187a.jpg"
+        ],
+        translate: "I work many hours because I need more money",
+        translateb: "[]",
+        srcWord: ["https://www.arbulang.com/filmy/esp/longforpeace.mp4", ''],
+        srcWordimage: "https://www.arbulang.com/filmy/esp/longforpeace.png",
+        word: [
+                "https://www.arbulang.com/voice/music.mp4"
+        ],
+        // historia
+        story: [
+            ""
+        ],
+        // opis
+        desc: "necesito[] - ",
+        //zdanie
+        sentence1: [
+                "necesito"
+        ],
+                                                    sentence1b: [
+            ""
+        ],
+                sentence1c: [
+            ""
+        ],
+                sentence: [
+                "porque",
+                "necesito",
+                "más",
+                "dinero"
+        ],
+        //  slowo do nauki
+        key: "necesito",
+        category1: [
+        ],
+        category2: ["osoby", "osoby+czas"],
+                category3: ["Infinitive"]
+},
+        {
+id: [
+        202,
+        38,
+        69
+],
+        // obrazek
+        img: [
+                "https://www.arbulang.com/img/fiszki1en-esp/187a.jpg"
+        ],
+        translate: "I work many hours because I need more money",
+        translateb: "[]",
+        srcWord: ["https://www.arbulang.com/filmy/esp/longforpeace.mp4", ''],
+        srcWordimage: "https://www.arbulang.com/filmy/esp/longforpeace.png",
+        word: [
+                "https://www.arbulang.com/voice/music.mp4"
+        ],
+        // historia
+        story: [
+            ""
+        ],
+        // opis
+        desc: "más[] - ",
+        //zdanie
+        sentence1: [
+                "más"
+        ],
+                                                    sentence1b: [
+            ""
+        ],
+                sentence1c: [
+            ""
+        ],
+                sentence: [
+                "porque",
+                "necesito",
+                "más",
+                "dinero"
+        ],
+        //  slowo do nauki
+        key: "mas",
+        category1: [
+        ],
+        category2: ["osoby", "osoby+czas"],
+                category3: ["Infinitive"]
+},
+        {
+id: [
+        203,
+        38,
+        69
+],
+        // obrazek
+        img: [
+                "https://www.arbulang.com/img/fiszki1en-esp/187a.jpg"
+        ],
+        translate: "I work many hours because I need more money",
+        translateb: "[]",
+        srcWord: ["https://www.arbulang.com/filmy/esp/longforpeace.mp4", ''],
+        srcWordimage: "https://www.arbulang.com/filmy/esp/longforpeace.png",
+        word: [
+                "https://www.arbulang.com/voice/music.mp4"
+        ],
+        // historia
+        story: [
+            ""
+        ],
+        // opis
+        desc: "dinero[] - ",
+        //zdanie
+        sentence1: [
+                "dinero"
+        ],
+                                                    sentence1b: [
+            ""
+        ],
+                sentence1c: [
+            ""
+        ],
+                sentence: [
+                "porque",
+                "necesito",
+                "más",
+                "dinero"
+        ],
+        //  slowo do nauki
+        key: "dinero",
+        category1: [
+        ],
+        category2: ["osoby", "osoby+czas"],
+                category3: ["Infinitive"]
+},
 );

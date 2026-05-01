@@ -83,11 +83,14 @@
     flex-shrink: 0;
 }
 .fiszka {
+        width: 100%;
+    max-width: 100%;
+    box-sizing: border-box;
+    overflow-x: hidden; /* 🔥 blokuje wypychanie */
     border: 1px solid #999;
     background: #eee;
     border-radius: 5px;
     text-align: center;
-    width: 100%;
     height: auto;
     margin-right: 200px; /* Ustaw margines prawy */
     box-sizing: border-box; /* Wlicz marginesy w szerokość i wysokość */

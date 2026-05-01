@@ -2599,7 +2599,7 @@ id: [
         ],
         // historia
         story: [
-            ""
+            "<u><b>Osiągnąłem</u></b> w mojej karierze wiele i osiągnięcia rosły <u><b>log</u></b>arytmicznie. Zawsze świetuje sukces jakimś <u><b>rar</u></b>ytasem kulinarnym"
         ],
         // opis
         desc: "lograr[lograr] - osiągnąć",
@@ -2631,14 +2631,14 @@ id: [
         33
 ],
         img: [
-                "https://www.arbulang.com/img/fiszkiespanol/146a.jpg"
+                "https://www.arbulang.com/img/fiszkiespanol/164a.jpg"
         ],
         word: [
                 "https://www.arbulang.com/voice/music.mp4"
         ],
         // historia
         story: [
-            ""
+            "Wznio<u><b>słe</u></b> idee rodzą się czasami ze <u><b>snów</u></b>. Taki jest mój w<u><b>nios</u></b>ek"
         ],
         // opis
         desc: "sueños[słenios] - marzenia/sny",
@@ -2834,7 +2834,7 @@ id: [
 ],
         // obrazek
         img: [
-                "https://www.arbulang.com/img/fiszkiespanol/131a.jpg"
+                "https://www.arbulang.com/img/fiszkiespanol/169a.jpg"
         ],
         translate: "Powtarzać piękne słowa, żeby czuć się dobrze",
         translateb: "[Repetir palawras bonitas para sentirse bien]",
@@ -2845,7 +2845,7 @@ id: [
         ],
         // historia
         story: [
-            ""
+            "Proszę <u><b>repet</u></b>ę tego dania - mówi M<u><b>ir</u></b>ek i <u><b>powtarza</u></b> do swoich przyjaciół że było dobre"
         ],
         // opis
         desc: "repetir[repetir] - powtarzać",
@@ -2877,14 +2877,14 @@ id: [
         34
 ],
         img: [
-                "https://www.arbulang.com/img/fiszkiespanol/168a.jpg"
+                "https://www.arbulang.com/img/fiszkiespanol/18a.jpg"
         ],
         word: [
                 "https://www.arbulang.com/voice/music.mp4"
         ],
         // historia
         story: [
-            ""
+            'Za<span class="a"><u><b>pala</u></b></span> mi się lampka kiedy słyszę takie proste <span class="x"><u><b>słowa</u></b></span>, <span class="b" data-lang="pl"><u><b>wra</u></b></span>cam do w<span class="c" data-lang="pl" data-say="sss"><u><b>s</u></b></span>pomnień kiedy było miło'
         ],
         // opis
         desc: "palabras[palawras] - słowa",
@@ -2916,14 +2916,14 @@ id: [
         34
 ],
         img: [
-                "https://www.arbulang.com/img/fiszkiespanol/146a.jpg"
+                "https://www.arbulang.com/img/fiszkiespanol/19a.jpg"
         ],
         word: [
                 "https://www.arbulang.com/voice/music.mp4"
         ],
         // historia
         story: [
-            ""
+            '<span class="x"><u><b>Piękne</u></b></span> kiedyś Zbigniew <span class="a"><u><b>Boni</u></b></span>ek strzelał bramki w reprezentacji Polski. <span class="b"><u><b>Tas</u></b></span>ował on zagraniami jak gwiazda'
         ],
         // opis
         desc: "bonitas[bonitas] - piękne/ładne",
@@ -2995,14 +2995,14 @@ id: [
         34
 ],
         img: [
-                "https://www.arbulang.com/img/fiszkiespanol/146a.jpg"
+                "https://www.arbulang.com/img/fiszkiespanol/140a.jpg"
         ],
         word: [
                 "https://www.arbulang.com/voice/music.mp4"
         ],
         // historia
         story: [
-            ""
+            "Czuję <u><b>sent</u></b>yment kiedy oglądam <u><b>irr</u></b>acjonalne obrazki sztucznej inteligencji np. przedstawiające rzekę <u><b>Se</u></b>kwanę"
         ],
         // opis
         desc: "sentirse[sentirse] - czuć się",
@@ -3034,14 +3034,14 @@ id: [
         34
 ],
         img: [
-                "https://www.arbulang.com/img/fiszkiespanol/146a.jpg"
+                "https://www.arbulang.com/img/fiszkiespanol/141a.jpg"
         ],
         word: [
                 "https://www.arbulang.com/voice/music.mp4"
         ],
         // historia
         story: [
-            ""
+            "O<u><b>bie</u></b> piłki <u><b>n</u></b>ożne są dobre do gry"
         ],
         // opis
         desc: "bien[bien] - dobrze/dobry",
@@ -3074,7 +3074,7 @@ id: [
 ],
         // obrazek
         img: [
-                "https://www.arbulang.com/img/fiszkiespanol/127a.jpg"
+                "https://www.arbulang.com/img/fiszkiespanol/24a.jpg"
         ],
         translate: "Zachować spokój i cieszyć się chwilą",
         translateb: "[]",
@@ -3085,7 +3085,7 @@ id: [
         ],
         // historia
         story: [
-            "Filmowy a<u><b>mant</u></b> <u><b>zachowuje</u></b> wizerunek bardzo <u><b>ener</u></b>gicznego"
+            'Filmowy a<span class="a"><u><b>mant</u></b></span> <span class="x"><u><b>zachowuje</u></b></span> wizerunek bardzo <span class="b"><u><b>ener</u></b></span>gicznego'
         ],
         // opis
         desc: "mantener[mantener] - zachować",
@@ -3116,7 +3116,7 @@ id: [
         35
 ],
         img: [
-                "https://www.arbulang.com/img/fiszkiespanol/146a.jpg"
+                "https://www.arbulang.com/img/fiszkiespanol/176a.jpg"
         ],
         word: [
                 "https://www.arbulang.com/voice/music.mp4"
@@ -3155,14 +3155,14 @@ id: [
 ],
         // obrazek
         img: [
-                "https://www.arbulang.com/img/fiszkiespanol/26a.jpg"
+                "https://www.arbulang.com/img/fiszkiespanol/64a.jpg"
         ],
         word: [
                 "https://www.arbulang.com/voice/music.mp4"
         ],
         // historia
         story: [
-                "<u><b>I</u></b> tak dalej.."
+                '<span class="a"><u><b>I</u></b></span>dealne <span class="x"><u><b>i</u></b></span> piękne'
         ],
         // opis
         desc: "y[i] - i",
@@ -3234,17 +3234,17 @@ id: [
         35
 ],
         img: [
-                "https://www.arbulang.com/img/fiszkiespanol/146a.jpg"
+                "https://www.arbulang.com/img/fiszkiespanol/179a.jpg"
         ],
         word: [
                 "https://www.arbulang.com/voice/music.mp4"
         ],
         // historia
         story: [
-            ""
+            "KOGNATY - EL MOMENTO - MOMENT"
         ],
         // opis
-        desc: "el momento[] - ",
+        desc: "el momento[el momento] - moment/chwila",
         //zdanie
         sentence1: [
                 "el_momento"
@@ -3274,7 +3274,7 @@ id: [
 ],
         // obrazek
         img: [
-                "https://www.arbulang.com/img/fiszkiespanol/131a.jpg"
+                "https://www.arbulang.com/img/fiszkiespanol/142a.jpg"
         ],
         translate: "Dbać o zdrowie poprzez codzienne ćwiczenia",
         translateb: "[Kjudar]",
@@ -3285,10 +3285,10 @@ id: [
         ],
         // historia
         story: [
-            ""
+            "<u><b>Dar</u></b>mowe <u><b>qui</u></b>z'y o kotach są po to, by dowiedzieć się więcej jak się nimi <u><b>opiekować</u></b"
         ],
         // opis
-        desc: "cuidar[kjudar] - ",
+        desc: "cuidar[kjudar] - dbać",
         //zdanie
         sentence1: [
                 "Cuidar"
@@ -3316,14 +3316,14 @@ id: [
         36
 ],
         img: [
-                "https://www.arbulang.com/img/fiszkiespanol/146a.jpg"
+                "https://www.arbulang.com/img/fiszkiespanol/181a.jpg"
         ],
         word: [
                 "https://www.arbulang.com/voice/music.mp4"
         ],
         // historia
         story: [
-            ""
+            "<u><b>Dar</u></b>mowe <u><b>qui</u></b>z'y o kotach są po to, by dowiedzieć się więcej jak się nimi <u><b>opiekować</u></b>"
         ],
         // opis
         desc: "la salud[la salud] - zdrowie",
@@ -3400,14 +3400,14 @@ id: [
         36
 ],
         img: [
-                "https://www.arbulang.com/img/fiszkiespanol/146a.jpg"
+                "https://www.arbulang.com/img/fiszkiespanol/183a.jpg"
         ],
         word: [
                 "https://www.arbulang.com/voice/music.mp4"
         ],
         // historia
         story: [
-            ""
+            "W T<u><b>eher</u></b>anie prowadzone są ćwiczenia wojskowe. <u><b>Sis</u></b>tko jest na tip top wypa<u><b>si</u></b>one"
         ],
         // opis
         desc: "ejercicio[ehersisio] - ćwiczenia",
@@ -3439,14 +3439,14 @@ id: [
         36
 ],
         img: [
-                "https://www.arbulang.com/img/fiszkiespanol/146a.jpg"
+                "https://www.arbulang.com/img/fiszkiespanol/184a.jpg"
         ],
         word: [
                 "https://www.arbulang.com/voice/music.mp4"
         ],
         // historia
         story: [
-            ""
+            "Ale dzisiaj był o<u><b>dja</u></b>zd na zabawie - Ma<u><b>rio</u></b>la opisała to w pamietniku"
         ],
         // opis
         desc: "diario[djario] - codzienne/dziennik",
@@ -3479,7 +3479,7 @@ id: [
 ],
         // obrazek
         img: [
-                "https://www.arbulang.com/img/fiszkiespanol/131a.jpg"
+                "https://www.arbulang.com/img/fiszkiespanol/68sa.jpg"
         ],
         translate: "Chronić ciało wygodnym ubraniem",
         translateb: "[Proteher el kłerpo kon ropa komoda]",
@@ -3490,7 +3490,7 @@ id: [
         ],
         // historia
         story: [
-            ""
+            "<u><b>Prote</u></b>iny tego <u><b>her</u></b>batnika <u><b>chronią</u></b> przed zawałem"
         ],
         // opis
         desc: "proteger[proteher] - chronić",
@@ -3521,14 +3521,14 @@ id: [
         37
 ],
         img: [
-                "https://www.arbulang.com/img/fiszkiespanol/146a.jpg"
+                "https://www.arbulang.com/img/fiszkiespanol/186a.jpg"
         ],
         word: [
                 "https://www.arbulang.com/voice/music.mp4"
         ],
         // historia
         story: [
-            ""
+            "Monika B<u><b>ell</u></b>uci ma piękne <u><b>ciało</u></b>. Ogląda z partnerem jej wybla<u><b>kłe</u></b> zdjęcia z przeszłości i wpomina że nigdy nie pracowała w ko<u><b>rpo</u></b>racji"
         ],
         // opis
         desc: "el cuerpo[el kłerpo] - ciało",
@@ -3558,15 +3558,22 @@ id: [
         187,
         37
 ],
+        // obrazek
         img: [
-                "https://www.arbulang.com/img/fiszkiespanol/146a.jpg"
+            "https://www.arbulang.com/img/fiszkiespanol/17a.jpg",
+                "https://www.arbulang.com/img/fiszkiespanol/31a.jpg",
+                "https://www.arbulang.com/img/fiszkiespanol/59a.jpg",
+                "https://www.arbulang.com/img/fiszkiespanol/75a.jpg"
         ],
         word: [
                 "https://www.arbulang.com/voice/music.mp4"
         ],
         // historia
         story: [
-            ""
+                "<u><b>Z</u></b> <u><b>kon</u></b>opiami jest niezły ubaw",
+                "<u><b>Z</u></b> takimi <u><b>kon</u></b>taktami jakie mam, lepiej jest mi podołać obowiązkom",
+                "<u><b>Z</u></b> <u><b>kon</u></b>sernacją przyjąłem tę decyzję",
+                "<u><b>Z</u></b> <u><b>kon</u></b>taktami w branży u mnie słabo..."
         ],
         // opis
         desc: "con[kon] - z",
@@ -3598,17 +3605,17 @@ id: [
         37
 ],
         img: [
-                "https://www.arbulang.com/img/fiszkiespanol/146a.jpg"
+                "https://www.arbulang.com/img/fiszkiespanol/188a.jpg"
         ],
         word: [
                 "https://www.arbulang.com/voice/music.mp4"
         ],
         // historia
         story: [
-            ""
+            "Jadę na stacje innym samochodem - tankuje ropę bo <u><b>ropa</u></b> droga i nie miałbym na markową <u><b>odzież</u></b>"
         ],
         // opis
-        desc: "ropa[ropa] - ropa",
+        desc: "ropa[ropa] - odzież",
         //zdanie
         sentence1: [
                 "ropa"
@@ -3637,14 +3644,14 @@ id: [
         37
 ],
         img: [
-                "https://www.arbulang.com/img/fiszkiespanol/146a.jpg"
+                "https://www.arbulang.com/img/fiszkiespanol/189a.jpg"
         ],
         word: [
                 "https://www.arbulang.com/voice/music.mp4"
         ],
         // historia
         story: [
-            ""
+            "Ta <u><b>komoda</u></b> jest bardzo użyteczna i <u><b>wygodnie</u></b> się wyciąga z niej galanterię"
         ],
         // opis
         desc: "cómoda[komoda] - wygodne",
@@ -3677,7 +3684,7 @@ id: [
 ],
         // obrazek
         img: [
-                "https://www.arbulang.com/img/fiszkiespanol/131a.jpg"
+                "https://www.arbulang.com/img/fiszkiespanol/57a.jpg"
         ],
         translate: "Zmienić plan, jeśli to konieczne",
         translateb: "[Negar mentiras i desir siempre berdad]",
@@ -3688,7 +3695,7 @@ id: [
         ],
         // historia
         story: [
-            ""
+            "<u><b>Kamb</u></b>odźa ma nadm<u><b>iar</u></b> <u><b>zmian</u></b> klimatycznych"
         ],
         // opis
         desc: "cambiar[kambiar] - zmieniać",
@@ -3719,17 +3726,17 @@ id: [
         38
 ],
         img: [
-                "https://www.arbulang.com/img/fiszkiespanol/146a.jpg"
+                "https://www.arbulang.com/img/fiszkiespanol/191a.jpg"
         ],
         word: [
                 "https://www.arbulang.com/voice/music.mp4"
         ],
         // historia
         story: [
-            ""
+            "KOGNATY - PLAN - EL PLAN"
         ],
         // opis
-        desc: "el plan[] - ",
+        desc: "el plan[el plan] - plan",
         //zdanie
         sentence1: [
                 "el plan"
@@ -3758,14 +3765,14 @@ id: [
 ],
         // obrazek
         img: [
-                "https://www.arbulang.com/img/fiszkiespanol/126a.jpg"
+                "https://www.arbulang.com/img/fiszkiespanol/192a.jpg"
         ],
         word: [
                 "https://www.arbulang.com/voice/music.mp4"
         ],
         // historia
         story: [
-            "<u><b>To</u></b> <u><b>wszystko</u></b> <u><b>dos</u></b>taniecie w naszym sklepie"
+            "<u><b>Si</u></b> - <u><b>jeśli</u></b> dobrze wytypujesz wyniki meczów - wtedy kupon będzie wygrany"
         ],
         // opis
         desc: "si[si] - jeśli",
@@ -3798,14 +3805,14 @@ id: [
 ],
         // obrazek
         img: [
-                "https://www.arbulang.com/img/fiszkiespanol/126a.jpg"
+                "https://www.arbulang.com/img/fiszkiespanol/193a.jpg"
         ],
         word: [
                 "https://www.arbulang.com/voice/music.mp4"
         ],
         // historia
         story: [
-            "<u><b>To</u></b> <u><b>wszystko</u></b> <u><b>dos</u></b>taniecie w naszym sklepie"
+            "<u><b>Es</u></b>tetyka to <u><b>jest</u></b> bardzo ważna sprawa w dzisiejszym świecie"
         ],
         // opis
         desc: "es[es] - jest",
@@ -3837,14 +3844,14 @@ id: [
         38
 ],
         img: [
-                "https://www.arbulang.com/img/fiszkiespanol/146a.jpg"
+                "https://www.arbulang.com/img/fiszkiespanol/194a.jpg"
         ],
         word: [
                 "https://www.arbulang.com/voice/music.mp4"
         ],
         // historia
         story: [
-            ""
+            "M<u><b>ario</u></b>la nosi ten <u><b>neses</u></b>er do pracy - bo jest mu - jej, w niej <u><b>potrzebny</u></b>"
         ],
         // opis
         desc: "necesario[nesesario] - potrzebne",
@@ -3876,7 +3883,7 @@ id: [
 ],
         // obrazek
         img: [
-                "https://www.arbulang.com/img/fiszkiespanol/131a.jpg"
+                "https://www.arbulang.com/img/fiszkiespanol/62a.jpg"
         ],
         translate: "Przewidywać przyszłość za pomocą pozytywnych myśli",
         translateb: "[Preber el futuro]",
@@ -3887,7 +3894,7 @@ id: [
         ],
         // historia
         story: [
-            ""
+            "To nie było do <u><b>przewidzenia</u></b>, że świat będzie w o<u><b>pre</u></b>sji i trzeba będzie więcej czasu siedzieć na <u><b>wer</u></b>salce lub sofie, jednak zdarzały się już kryzysy"
         ],
         // opis
         desc: "prever[preber] - przewidywać",
@@ -3918,17 +3925,17 @@ id: [
         39
 ],
         img: [
-                "https://www.arbulang.com/img/fiszkiespanol/146a.jpg"
+                "https://www.arbulang.com/img/fiszkiespanol/196a.jpg"
         ],
         word: [
                 "https://www.arbulang.com/voice/music.mp4"
         ],
         // historia
         story: [
-            ""
+            "<u><b>Futuro</u></b>logia zajmuje się badaniem możliwej <u><b>przyszłości</u></b> ludzkości"
         ],
         // opis
-        desc: "el futuro[] - ",
+        desc: "el futuro[el futuro] - przyszłość",
         //zdanie
         sentence1: [
                 "el_futuro"
@@ -3955,18 +3962,25 @@ id: [
         197,
         39
 ],
+        // obrazek
         img: [
-                "https://www.arbulang.com/img/fiszkiespanol/146a.jpg"
+            "https://www.arbulang.com/img/fiszkiespanol/17a.jpg",
+                "https://www.arbulang.com/img/fiszkiespanol/31a.jpg",
+                "https://www.arbulang.com/img/fiszkiespanol/59a.jpg",
+                "https://www.arbulang.com/img/fiszkiespanol/75a.jpg"
         ],
         word: [
                 "https://www.arbulang.com/voice/music.mp4"
         ],
         // historia
         story: [
-            ""
+                "<u><b>Z</u></b> <u><b>kon</u></b>opiami jest niezły ubaw",
+                "<u><b>Z</u></b> takimi <u><b>kon</u></b>taktami jakie mam, lepiej jest mi podołać obowiązkom",
+                "<u><b>Z</u></b> <u><b>kon</u></b>sernacją przyjąłem tę decyzję",
+                "<u><b>Z</u></b> <u><b>kon</u></b>taktami w branży u mnie słabo..."
         ],
         // opis
-        desc: "con[] - ",
+        desc: "con[kon] - z",
         //zdanie
         sentence1: [
                 "con"
@@ -3995,14 +4009,14 @@ id: [
         39
 ],
         img: [
-                "https://www.arbulang.com/img/fiszkiespanol/146a.jpg"
+                "https://www.arbulang.com/img/fiszkiespanol/198a.jpg"
         ],
         word: [
                 "https://www.arbulang.com/voice/music.mp4"
         ],
         // historia
         story: [
-            ""
+            "Ta specjalistyczna <u><b>pens</u></b>eta służy do obrabiania k<u><b>amien</u></b>ia i często ją stosuję i mam bardzo kreatywne <u><b>myśli</u></b> podczas pracy z nią"
         ],
         // opis
         desc: "pensamientos[pensamientos] - myśli",
@@ -4034,14 +4048,14 @@ id: [
         39
 ],
         img: [
-                "https://www.arbulang.com/img/fiszkiespanol/146a.jpg"
+                "https://www.arbulang.com/img/fiszkiespanol/199a.jpg"
         ],
         word: [
                 "https://www.arbulang.com/voice/music.mp4"
         ],
         // historia
         story: [
-            ""
+            "KOGNATY - POSITYWNY - POSITIVOS"
         ],
         // opis
         desc: "positivos[positiwos] - pozytywne/pozytywny",

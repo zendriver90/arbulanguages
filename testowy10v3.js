@@ -6,7 +6,7 @@ id: [
 ],
         // obrazek
         img: [
-                "https://www.arbulang.com/img/fiszkiespanol/131a.jpg"
+                "https://www.arbulang.com/img/fiszkiespanol/200a.jpg"
         ],
         translate: "Wstać wcześnie, aby cieszyć się dniem.",
         translateb: "[]",
@@ -17,7 +17,7 @@ id: [
         ],
         // historia
         story: [
-            ""
+            "<u><b>Desper</u></b>at <u><b>budzi się</u></b> i jest zmęczony bo musi zamówić <u><b>tar</u></b>yfę do pracy"
         ],
         // opis
         desc: "despertar[despertar] - budzić się",
@@ -48,7 +48,7 @@ id: [
         40
 ],
         img: [
-                "https://www.arbulang.com/img/fiszkiespanol/146a.jpg"
+                "https://www.arbulang.com/img/fiszkiespanol/201a.jpg"
         ],
         word: [
                 "https://www.arbulang.com/voice/music.mp4"
@@ -166,14 +166,14 @@ id: [
         40
 ],
         img: [
-                "https://www.arbulang.com/img/fiszkiespanol/197a.jpg"
+                "https://www.arbulang.com/img/fiszkiespanol/204a.jpg"
         ],
         word: [
                 "https://www.arbulang.com/voice/music.mp4"
         ],
         // historia
         story: [
-            ""
+            "<u><b>Di</u></b>kon <u><b>Ja</u></b>kub jest zapracowany podczas <u><b>dnia</u></b> i odbiera dużo telefonów"
         ],
         // opis
         desc: "el dia[el dia] - dzień",
@@ -206,7 +206,7 @@ id: [
 ],
         // obrazek
         img: [
-                "https://www.arbulang.com/img/fiszkiespanol/131a.jpg"
+                "https://www.arbulang.com/img/fiszkiespanol/205a.jpg"
         ],
         translate: "Jeść świeże owoce każdego ranka",
         translateb: "[Komer]",
@@ -249,7 +249,7 @@ id: [
         41
 ],
         img: [
-                "https://www.arbulang.com/img/fiszkiespanol/199a.jpg"
+                "https://www.arbulang.com/img/fiszkiespanol/206a.jpg"
         ],
         word: [
                 "https://www.arbulang.com/voice/music.mp4"
@@ -288,7 +288,7 @@ id: [
         41
 ],
         img: [
-                "https://www.arbulang.com/img/fiszkiespanol/146a.jpg"
+                "https://www.arbulang.com/img/fiszkiespanol/207a.jpg"
         ],
         word: [
                 "https://www.arbulang.com/voice/music.mp4"
@@ -327,7 +327,7 @@ id: [
         41
 ],
         img: [
-                "https://www.arbulang.com/img/fiszkiespanol/201a.jpg"
+                "https://www.arbulang.com/img/fiszkiespanol/208a.jpg"
         ],
         word: [
                 "https://www.arbulang.com/voice/music.mp4"
@@ -365,14 +365,14 @@ id: [
         41
 ],
         img: [
-                "https://www.arbulang.com/img/fiszkiespanol/146a.jpg"
+                "https://www.arbulang.com/img/fiszkiespanol/209a.jpg"
         ],
         word: [
                 "https://www.arbulang.com/voice/music.mp4"
         ],
         // historia
         story: [
-            ""
+            'To jest jakaś <u><b>"maniana"</u></b> czyli niestworzone historie i to jeszcze podczas <u><b>poranka</u></b>'
         ],
         // opis
         desc: "mañana[maniana] - poranek",
@@ -404,7 +404,7 @@ id: [
 ],
         // obrazek
         img: [
-                "https://www.arbulang.com/img/fiszkiespanol/131a.jpg"
+                "https://www.arbulang.com/img/fiszkiespanol/210a.jpg"
         ],
         translate: "Spacerować razem pod łagodnym słońcem",
         translateb: "[]",
@@ -485,7 +485,7 @@ id: [
         42
 ],
         img: [
-                "https://www.arbulang.com/img/fiszkiespanol/146a.jpg"
+                "https://www.arbulang.com/img/fiszkiespanol/212a.jpg"
         ],
         word: [
                 "https://www.arbulang.com/voice/music.mp4"
@@ -524,7 +524,7 @@ id: [
         42
 ],
         img: [
-                "https://www.arbulang.com/img/fiszkiespanol/146a.jpg"
+                "https://www.arbulang.com/img/fiszkiespanol/213a.jpg"
         ],
         word: [
                 "https://www.arbulang.com/voice/music.mp4"
@@ -604,7 +604,7 @@ id: [
 ],
         // obrazek
         img: [
-                "https://www.arbulang.com/img/fiszkiespanol/131a.jpg"
+                "https://www.arbulang.com/img/fiszkiespanol/215a.jpg"
         ],
         translate: "Chcieć tylko dobrych rzeczy dla wszystkich",
         translateb: "[]",
@@ -690,7 +690,7 @@ id: [
 ],
         // obrazek
         img: [
-                "https://www.arbulang.com/img/fiszkiespanol/126a.jpg"
+                "https://www.arbulang.com/img/fiszkiespanol/217a.jpg"
         ],
         word: [
                 "https://www.arbulang.com/voice/music.mp4"
@@ -731,7 +731,7 @@ id: [
 ],
         // obrazek
         img: [
-                "https://www.arbulang.com/img/fiszkiespanol/126a.jpg"
+                "https://www.arbulang.com/img/fiszkiespanol/218a.jpg"
         ],
         word: [
                 "https://www.arbulang.com/voice/music.mp4"
@@ -811,14 +811,17 @@ id: [
 ],
         // obrazek
         img: [
-                "https://www.arbulang.com/img/fiszkiespanol/126a.jpg"
+                "https://www.arbulang.com/img/fiszkiespanol/220a.jpg",
+                "https://www.arbulang.com/img/fiszkiespanol/70a.jpg"
         ],
         word: [
                 "https://www.arbulang.com/voice/music.mp4"
         ],
         // historia
         story: [
-            "<u><b>To</u></b> <u><b>wszystko</u></b> <u><b>dos</u></b>taniecie w naszym sklepie"
+            "<u><b>To</u></b> <u><b>wszystko</u></b> <u><b>dos</u></b>taniecie w naszym sklepie, tylko - decyzja",
+            "Twarde zasady dla <u><b>wszystkich</u></b> <u><b>to</u></b> <u><b>dos</u></b>łownie wojskowe warunki"
+            
         ],
         // opis
         desc: "todos[todos] - wszystko",
@@ -850,7 +853,7 @@ id: [
 ],
         // obrazek
         img: [
-                "https://www.arbulang.com/img/fiszkiespanol/131a.jpg"
+                "https://www.arbulang.com/img/fiszkiespanol/221a.jpg"
         ],
         translate: "Pomagać ludziom, nie oczekując niczego w zamian",
         translateb: "[Ajudar a la hente sin esperar nada]",
@@ -894,14 +897,14 @@ id: [
 ],
         // obrazek
         img: [
-                "https://www.arbulang.com/img/fiszkiespanol/126a.jpg"
+                "https://www.arbulang.com/img/fiszkiespanol/230a.jpg"
         ],
         word: [
                 "https://www.arbulang.com/voice/music.mp4"
         ],
         // historia
         story: [
-            "<u><b>A</u></b> <u><b>komu</u></b> - to?"
+            "<u><b>A</u></b> <u><b>komu</u></b> to? A <u><b>czemu</u></b> to?"
         ],
         // opis
         desc: "a[a] - komu? czemu?",
@@ -934,7 +937,7 @@ id: [
 ],
         // obrazek
         img: [
-                "https://www.arbulang.com/img/fiszkiespanol/126a.jpg"
+                "https://www.arbulang.com/img/fiszkiespanol/223a.jpg"
         ],
         word: [
                 "https://www.arbulang.com/voice/music.mp4"
@@ -1014,7 +1017,7 @@ id: [
 ],
         // obrazek
         img: [
-                "https://www.arbulang.com/img/fiszkiespanol/126a.jpg"
+                "https://www.arbulang.com/img/fiszkiespanol/225a.jpg"
         ],
         word: [
                 "https://www.arbulang.com/voice/music.mp4"
@@ -1054,7 +1057,7 @@ id: [
 ],
         // obrazek
         img: [
-                "https://www.arbulang.com/img/fiszkiespanol/126a.jpg"
+                "https://www.arbulang.com/img/fiszkiespanol/226a.jpg"
         ],
         word: [
                 "https://www.arbulang.com/voice/music.mp4"
@@ -1094,7 +1097,7 @@ id: [
 ],
         // obrazek
         img: [
-                "https://www.arbulang.com/img/fiszkiespanol/131a.jpg"
+                "https://www.arbulang.com/img/fiszkiespanol/227a.jpg"
         ],
         translate: "Przekazywać ludziom jasne informacje",
         translateb: "[Diwulgar informasion]",
@@ -1138,7 +1141,7 @@ id: [
 ],
         // obrazek
         img: [
-                "https://www.arbulang.com/img/fiszkiespanol/126a.jpg"
+                "https://www.arbulang.com/img/fiszkiespanol/228a.jpg"
         ],
         word: [
                 "https://www.arbulang.com/voice/music.mp4"
@@ -1178,7 +1181,7 @@ id: [
 ],
         // obrazek
         img: [
-                "https://www.arbulang.com/img/fiszkiespanol/126a.jpg"
+                "https://www.arbulang.com/img/fiszkiespanol/229a.jpg"
         ],
         word: [
                 "https://www.arbulang.com/voice/music.mp4"
@@ -1218,17 +1221,17 @@ id: [
 ],
         // obrazek
         img: [
-                "https://www.arbulang.com/img/fiszkiespanol/126a.jpg"
+                "https://www.arbulang.com/img/fiszkiespanol/230a.jpg"
         ],
         word: [
                 "https://www.arbulang.com/voice/music.mp4"
         ],
         // historia
         story: [
-            ""
+            "<u><b>A</u></b> <u><b>komu</u></b> to? A <u><b>czemu</u></b> to?"
         ],
         // opis
-        desc: "a[] - ",
+        desc: "a[a] - komu?,czemu?",
         //zdanie
         sentence1: [
                 "a"
@@ -1257,7 +1260,7 @@ id: [
 ],
         // obrazek
         img: [
-                "https://www.arbulang.com/img/fiszkiespanol/126a.jpg"
+                "https://www.arbulang.com/img/fiszkiespanol/233a.jpg"
         ],
         word: [
                 "https://www.arbulang.com/voice/music.mp4"
@@ -1296,7 +1299,7 @@ id: [
 ],
         // obrazek
         img: [
-                "https://www.arbulang.com/img/fiszkiespanol/131a.jpg"
+                "https://www.arbulang.com/img/fiszkiespanol/232a.jpg"
         ],
         translate: "Zebrać dane przed spotkaniem",
         translateb: "[]",
@@ -1339,14 +1342,14 @@ id: [
 ],
         // obrazek
         img: [
-                "https://www.arbulang.com/img/fiszkiespanol/126a.jpg"
+                "https://www.arbulang.com/img/fiszkiespanol/233a.jpg"
         ],
         word: [
                 "https://www.arbulang.com/voice/music.mp4"
         ],
         // historia
         story: [
-            ""
+            "<u><b>Da</u></b>rek i <u><b>Tos</u></b>iek zbierają <u><b>dane</u></b> w pracy"
         ],
         // opis
         desc: "datos[datos] - dane",
@@ -1378,14 +1381,14 @@ id: [
 ],
         // obrazek
         img: [
-                "https://www.arbulang.com/img/fiszkiespanol/126a.jpg"
+                "https://www.arbulang.com/img/fiszkiespanol/22a.jpg"
         ],
         word: [
                 "https://www.arbulang.com/voice/music.mp4"
         ],
         // historia
         story: [
-            "<u><b>To</u></b> <u><b>wszystko</u></b> <u><b>dos</u></b>taniecie w naszym sklepie"
+                '<span class="x"><u><b>Przed</u></b></span> zamontowaniem <span class="a"><u><b>ante</u></b></span>ny <span class="b" data-lang="pl" data-say="sss"><u><b>s</u></b></span>atelitarnej byłem w sklepie z narzędziami. Przygotowanełem się do naprawy żeby się nie <span class="c"><u><b>de</u></b></span>nerwować'
         ],
         // opis
         desc: "antes de[antes de] - przed",
@@ -1417,14 +1420,14 @@ id: [
 ],
         // obrazek
         img: [
-                "https://www.arbulang.com/img/fiszkiespanol/126a.jpg"
+                "https://www.arbulang.com/img/fiszkiespanol/235a.jpg"
         ],
         word: [
                 "https://www.arbulang.com/voice/music.mp4"
         ],
         // historia
         story: [
-            "<u><b>To</u></b> <u><b>wszystko</u></b> <u><b>dos</u></b>taniecie w naszym sklepie"
+            "K<u><b>la</u></b>ra jest na spotkaniu p<u><b>re</u></b>zesów i debatują na temat leczenia <u><b>reu</u></b>matyzmu i ona prosi o urlop żeby wybrać się nad wielki Ka<u><b>nion</u></b>"
         ],
         // opis
         desc: "la reunión[la reunion] - spotkanie",
@@ -1456,7 +1459,7 @@ id: [
 ],
         // obrazek
         img: [
-                "https://www.arbulang.com/img/fiszkiespanol/131a.jpg"
+                "https://www.arbulang.com/img/fiszkiespanol/236a.jpg"
         ],
         translate: "Połączyć idee, aby wykonać dobrą pracę",
         translateb: "[]",
@@ -1467,7 +1470,7 @@ id: [
         ],
         // historia
         story: [
-            "<u><b>Kier</u></b>ownik <u><b>chce</u></b> od pracowników dobrej pracy - z<u><b>er</u></b>o wymówek"
+            "W <u><b>Unii</u></b> Europejskiej są konflikty inte<u><b>r</u></b>esów, nie jest tak łatwo wszystko <u><b>połączyć</u></b>"
         ],
         // opis
         desc: "unir[unir] - połączyć",
@@ -1499,14 +1502,14 @@ id: [
 ],
         // obrazek
         img: [
-                "https://www.arbulang.com/img/fiszkiespanol/126a.jpg"
+                "https://www.arbulang.com/img/fiszkiespanol/237a.jpg"
         ],
         word: [
                 "https://www.arbulang.com/voice/music.mp4"
         ],
         // historia
         story: [
-            "<u><b>To</u></b> <u><b>wszystko</u></b> <u><b>dos</u></b>taniecie w naszym sklepie"
+            "KOGNATY: IDEAS - IDEE"
         ],
         // opis
         desc: "ideas[ideas] - idee (liczba mnoga)",
@@ -1538,14 +1541,14 @@ id: [
 ],
         // obrazek
         img: [
-                "https://www.arbulang.com/img/fiszkiespanol/126a.jpg"
+                "https://www.arbulang.com/img/fiszkiespanol/95a.jpg"
         ],
         word: [
                 "https://www.arbulang.com/voice/music.mp4"
         ],
         // historia
         story: [
-            "<u><b>To</u></b> <u><b>wszystko</u></b> <u><b>dos</u></b>taniecie w naszym sklepie"
+            "Wszsycy chcą bić brawo <u><b>dla</u></b> tej <u><b>para</u></b>dy cyrkowca"
         ],
         // opis
         desc: "para[para] - dla",
@@ -1578,14 +1581,14 @@ id: [
 ],
         // obrazek
         img: [
-                "https://www.arbulang.com/img/fiszkiespanol/126a.jpg"
+                "https://www.arbulang.com/img/fiszkiespanol/239a.jpg"
         ],
         word: [
                 "https://www.arbulang.com/voice/music.mp4"
         ],
         // historia
         story: [
-            "<u><b>To</u></b> <u><b>wszystko</u></b> <u><b>dos</u></b>taniecie w naszym sklepie"
+            "M<u><b>un</u></b>iek <u><b>bie</u></b>gnie <u><b>n</u></b>a mszę w Kościele. Dobrze, że zdążył"
         ],
         // opis
         desc: "un buen[un bien] - dobrze",
@@ -1618,14 +1621,14 @@ id: [
 ],
         // obrazek
         img: [
-                "https://www.arbulang.com/img/fiszkiespanol/126a.jpg"
+                "https://www.arbulang.com/img/fiszkiespanol/240a.jpg"
         ],
         word: [
                 "https://www.arbulang.com/voice/music.mp4"
         ],
         // historia
         story: [
-            "<u><b>To</u></b> <u><b>wszystko</u></b> <u><b>dos</u></b>taniecie w naszym sklepie"
+            "Na s<u><b>tra</u></b>ganie <u><b>pracuje</u></b> <u><b>Ba</u></b>rbara, która teraz odpoczywa na <u><b>cho</u></b>robowym"
         ],
         // opis
         desc: "trabajo[trabaho] - pracować",
@@ -1658,7 +1661,7 @@ id: [
 ],
         // obrazek
         img: [
-                "https://www.arbulang.com/img/fiszkiespanol/131a.jpg"
+                "https://www.arbulang.com/img/fiszkiespanol/241a.jpg"
         ],
         translate: "Obraz pokazuje rzeczywistość",
         translateb: "[]",
@@ -1669,10 +1672,10 @@ id: [
         ],
         // historia
         story: [
-            "<u><b>Kier</u></b>ownik <u><b>chce</u></b> od pracowników dobrej pracy - z<u><b>er</u></b>o wymówek"
+            "<u><b>Hen</u></b>iek <u><b>ima</u></b> się różnych zajęć, teraz maluje <u><b>obraz</u></b>"
         ],
         // opis
-        desc: "la imagen[] - ",
+        desc: "la imagen[la imahen] - obraz",
         //zdanie
         sentence1: [
                 "La_imagen"
@@ -1702,17 +1705,17 @@ id: [
 ],
         // obrazek
         img: [
-                "https://www.arbulang.com/img/fiszkiespanol/126a.jpg"
+                "https://www.arbulang.com/img/fiszkiespanol/242a.jpg"
         ],
         word: [
                 "https://www.arbulang.com/voice/music.mp4"
         ],
         // historia
         story: [
-            "<u><b>To</u></b> <u><b>wszystko</u></b> <u><b>dos</u></b>taniecie w naszym sklepie"
+            "<u><b>Mu</u></b>szę pobrać <u><b>próbkę</u></b> zboża, to j<u><b>est</u></b> bardzo ważne, żeby później nie było <u><b>tra</u></b>gedi ze sprzedażą"
         ],
         // opis
-        desc: "muestra[] - ",
+        desc: "muestra[muestra] - próbka",
         //zdanie
         sentence1: [
                 "muestra"
@@ -1742,14 +1745,14 @@ id: [
 ],
         // obrazek
         img: [
-                "https://www.arbulang.com/img/fiszkiespanol/126a.jpg"
+                "https://www.arbulang.com/img/fiszkiespanol/243a.jpg"
         ],
         word: [
                 "https://www.arbulang.com/voice/music.mp4"
         ],
         // historia
         story: [
-            "<u><b>To</u></b> <u><b>wszystko</u></b> <u><b>dos</u></b>taniecie w naszym sklepie"
+            "<u><b>Real</u></b> M<u><b>ad</u></b>ryd jest królem ligii w piłce nożnej w Hiszpani, to jest nowa <u><b>rzeczywistość</u></b>, <u><b>id</u></b>ąc po mistrzostwo było parę potknięć"
         ],
         // opis
         desc: "realidad[la realidad] - rzeczywistość",
@@ -1782,7 +1785,7 @@ id: [
 ],
         // obrazek
         img: [
-                "https://www.arbulang.com/img/fiszkiespanol/131a.jpg"
+                "https://www.arbulang.com/img/fiszkiespanol/244a.jpg"
         ],
         translate: "Sprawiać wrażenie pewnego siebie w miejscach publicznych",
         translateb: "[]",
@@ -1793,7 +1796,7 @@ id: [
         ],
         // historia
         story: [
-            "<u><b>Kier</u></b>ownik <u><b>chce</u></b> od pracowników dobrej pracy - z<u><b>er</u></b>o wymówek"
+            "<u><b>Pare</u></b> tych <u><b>ser</u></b>ów w sklepie <u><b>wydaje się</u></b> smacznych"
         ],
         // opis
         desc: "parecer[pareser] - wydawać się",
@@ -1825,14 +1828,14 @@ id: [
 ],
         // obrazek
         img: [
-                "https://www.arbulang.com/img/fiszkiespanol/126a.jpg"
+                "https://www.arbulang.com/img/fiszkiespanol/245a.jpg"
         ],
         word: [
                 "https://www.arbulang.com/voice/music.mp4"
         ],
         // historia
         story: [
-            "<u><b>To</u></b> <u><b>wszystko</u></b> <u><b>dos</u></b>taniecie w naszym sklepie"
+            "<u><b>Seg</u></b>ment tej branży jest trudny w opanowaniu, ale <u><b>pewnie</u></b> prześcigniemy konkurencję bo w tym roku był <u><b>uro</u></b>dzaj"
         ],
         // opis
         desc: "serguro[seguro] - pewny",
@@ -1864,17 +1867,17 @@ id: [
 ],
         // obrazek
         img: [
-                "https://www.arbulang.com/img/fiszkiespanol/126a.jpg"
+                "https://www.arbulang.com/img/fiszkiespanol/246a.jpg"
         ],
         word: [
                 "https://www.arbulang.com/voice/music.mp4"
         ],
         // historia
         story: [
-            "<u><b>To</u></b> <u><b>wszystko</u></b> <u><b>dos</u></b>taniecie w naszym sklepie"
+            '<span class="x"><u><b>We</u></b></span> <span class="a"><u><b>en</u></b></span>cykopedi jest podstawowa wiedza'
         ],
         // opis
-        desc: "en[] - ",
+        desc: "en[en] - we",
         //zdanie
         sentence1: [
                 "en"
@@ -1903,14 +1906,14 @@ id: [
 ],
         // obrazek
         img: [
-                "https://www.arbulang.com/img/fiszkiespanol/126a.jpg"
+                "https://www.arbulang.com/img/fiszkiespanol/247a.jpg"
         ],
         word: [
                 "https://www.arbulang.com/voice/music.mp4"
         ],
         // historia
         story: [
-            "<u><b>To</u></b> <u><b>wszystko</u></b> <u><b>dos</u></b>taniecie w naszym sklepie"
+            "KOGANTY: PUBLICO - PUBLICZNIE"
         ],
         // opis
         desc: "público[publiko] - miejsca publiczne",
@@ -1942,7 +1945,7 @@ id: [
 ],
         // obrazek
         img: [
-                "https://www.arbulang.com/img/fiszkiespanol/131a.jpg"
+                "https://www.arbulang.com/img/fiszkiespanol/248a.jpg"
         ],
         translate: "Mieć cierpliwość w oczekiwaniu",
         translateb: "[]",
@@ -1953,10 +1956,10 @@ id: [
         ],
         // historia
         story: [
-            "<u><b>Kier</u></b>ownik <u><b>chce</u></b> od pracowników dobrej pracy - z<u><b>er</u></b>o wymówek"
+            "<u><b>Mieć</u></b> dom na <u><b>tener</u></b>yfie jest super"
         ],
         // opis
-        desc: "tener[] - ",
+        desc: "tener[tener] - mieć",
         //zdanie
         sentence1: [
                 "Tener"
@@ -1985,17 +1988,17 @@ id: [
 ],
         // obrazek
         img: [
-                "https://www.arbulang.com/img/fiszkiespanol/126a.jpg"
+                "https://www.arbulang.com/img/fiszkiespanol/249a.jpg"
         ],
         word: [
                 "https://www.arbulang.com/voice/music.mp4"
         ],
         // historia
         story: [
-            "<u><b>To</u></b> <u><b>wszystko</u></b> <u><b>dos</u></b>taniecie w naszym sklepie"
+            "<u><b>Paa</u></b> <u><b>siiii</u></b>, będę cierpliwie czekał bo w tym s<u><b>ens</u></b>, m<u><b>ia</u></b>łem duży ubaw"
         ],
         // opis
-        desc: "paciencia[] - ",
+        desc: "paciencia[pasiensia] - cierpliwość",
         //zdanie
         sentence1: [
                 "paciencia"
@@ -2031,10 +2034,10 @@ id: [
         ],
         // historia
         story: [
-            "<u><b>To</u></b> <u><b>wszystko</u></b> <u><b>dos</u></b>taniecie w naszym sklepie"
+            '<span class="x"><u><b>We</u></b></span> <span class="a"><u><b>en</u></b></span>cykopedi jest podstawowa wiedza'
         ],
         // opis
-        desc: "en[] - ",
+        desc: "en[en] - we",
         //zdanie
         sentence1: [
                 "en"
@@ -2063,17 +2066,17 @@ id: [
 ],
         // obrazek
         img: [
-                "https://www.arbulang.com/img/fiszkiespanol/126a.jpg"
+                "https://www.arbulang.com/img/fiszkiespanol/251a.jpg"
         ],
         word: [
                 "https://www.arbulang.com/voice/music.mp4"
         ],
         // historia
         story: [
-            "<u><b>To</u></b> <u><b>wszystko</u></b> <u><b>dos</u></b>taniecie w naszym sklepie"
+            "K<u><b>la</u></b>n rodzinny <u><b>czeka</u></b> na przekazanie firmy dzieciom, j<u><b>es</u></b>t gorąca tem<u><b>pera</u></b>tura z tym związana"
         ],
         // opis
-        desc: "la espera[] - ",
+        desc: "la espera[la espera] - czekać",
         //zdanie
         sentence1: [
                 "la_espera"
@@ -2102,7 +2105,7 @@ id: [
 ],
         // obrazek
         img: [
-                "https://www.arbulang.com/img/fiszkiespanol/131a.jpg"
+                "https://www.arbulang.com/img/fiszkiespanol/252a.jpg"
         ],
         translate: "Wybrać prostą opcję",
         translateb: "[]",
@@ -2113,10 +2116,10 @@ id: [
         ],
         // historia
         story: [
-            "<u><b>Kier</u></b>ownik <u><b>chce</u></b> od pracowników dobrej pracy - z<u><b>er</u></b>o wymówek"
+            "<u><b>Wybieram</u></b> numer na t<u><b>ele</u></b>fonie, dzwonię do <u><b>Hir</u></b>ka"
         ],
         // opis
-        desc: "elegir[] - ",
+        desc: "elegir[elehir] - wybierać",
         //zdanie
         sentence1: [
                 "Elegir"
@@ -2146,17 +2149,17 @@ id: [
 ],
         // obrazek
         img: [
-                "https://www.arbulang.com/img/fiszkiespanol/126a.jpg"
+                "https://www.arbulang.com/img/fiszkiespanol/253a.jpg"
         ],
         word: [
                 "https://www.arbulang.com/voice/music.mp4"
         ],
         // historia
         story: [
-            "<u><b>To</u></b> <u><b>wszystko</u></b> <u><b>dos</u></b>taniecie w naszym sklepie"
+            "KOGNATY: OPTION - OPCJA'"
         ],
         // opis
-        desc: "una option[] - ",
+        desc: "una option[una option] - opcja",
         //zdanie
         sentence1: [
                 "una_option"
@@ -2186,17 +2189,17 @@ id: [
 ],
         // obrazek
         img: [
-                "https://www.arbulang.com/img/fiszkiespanol/126a.jpg"
+                "https://www.arbulang.com/img/fiszkiespanol/254a.jpg"
         ],
         word: [
                 "https://www.arbulang.com/voice/music.mp4"
         ],
         // historia
         story: [
-            "<u><b>To</u></b> <u><b>wszystko</u></b> <u><b>dos</u></b>taniecie w naszym sklepie"
+            ""
         ],
         // opis
-        desc: "simple[] - ",
+        desc: "simple[simple] - prosty",
         //zdanie
         sentence1: [
                 "simple"
@@ -2237,10 +2240,10 @@ id: [
         ],
         // historia
         story: [
-            "<u><b>Kier</u></b>ownik <u><b>chce</u></b> od pracowników dobrej pracy - z<u><b>er</u></b>o wymówek"
+            "T<u><b>el</u></b>efon dzwoni do mojego <u><b>przyjaciela</u></b>, czas<u><b>ami</u></b> <u><b>go</u></b> nie odbiera"
         ],
         // opis
-        desc: "el amigo[] - ",
+        desc: "el amigo[el amigo] - przyjaciel",
         //zdanie
         sentence1: [
                 "El_amigo"
@@ -2271,17 +2274,17 @@ id: [
 ],
         // obrazek
         img: [
-                "https://www.arbulang.com/img/fiszkiespanol/126a.jpg"
+                "https://www.arbulang.com/img/fiszkiespanol/256a.jpg"
         ],
         word: [
                 "https://www.arbulang.com/voice/music.mp4"
         ],
         // historia
         story: [
-            "<u><b>To</u></b> <u><b>wszystko</u></b> <u><b>dos</u></b>taniecie w naszym sklepie"
+            "Kiedy siedzę długo przed telewizorem do<u><b>kucza</u></b> mi ból pleców i wtedy zmieniam na <u><b>słuchanie</u></b> radia <u><b>es</u></b>ka"
         ],
         // opis
-        desc: "escucha[] - ",
+        desc: "escucha[eskucza] - słuchać",
         //zdanie
         sentence1: [
                 "escucha"
@@ -2312,17 +2315,17 @@ id: [
 ],
         // obrazek
         img: [
-                "https://www.arbulang.com/img/fiszkiespanol/126a.jpg"
+                "https://www.arbulang.com/img/fiszkiespanol/257a.jpg"
         ],
         word: [
                 "https://www.arbulang.com/voice/music.mp4"
         ],
         // historia
         story: [
-            "<u><b>To</u></b> <u><b>wszystko</u></b> <u><b>dos</u></b>taniecie w naszym sklepie"
+            "KOGANTY: MUSICA - MUZYKA"
         ],
         // opis
-        desc: "música[] - ",
+        desc: "música[muzika] - muzyka",
         //zdanie
         sentence1: [
                 "música"
@@ -2353,17 +2356,17 @@ id: [
 ],
         // obrazek
         img: [
-                "https://www.arbulang.com/img/fiszkiespanol/126a.jpg"
+                "https://www.arbulang.com/img/fiszkiespanol/258a.jpg"
         ],
         word: [
                 "https://www.arbulang.com/voice/music.mp4"
         ],
         // historia
         story: [
-            "<u><b>To</u></b> <u><b>wszystko</u></b> <u><b>dos</u></b>taniecie w naszym sklepie"
+            "<u><b>A</u></b> <u><b>teraz</u></b> w takim okresie ojciec <u><b>ora</u></b> pole"
         ],
         // opis
-        desc: "ahora[] - ",
+        desc: "ahora[aora] - teraz",
         //zdanie
         sentence1: [
                 "ahora"
@@ -2394,7 +2397,7 @@ id: [
 ],
         // obrazek
         img: [
-                "https://www.arbulang.com/img/fiszkiespanol/131a.jpg"
+                "https://www.arbulang.com/img/fiszkiespanol/259a.jpg"
         ],
         translate: "Kobieta pije zimną wodę",
         translateb: "[]",
@@ -2405,7 +2408,7 @@ id: [
         ],
         // historia
         story: [
-            "<u><b>Kier</u></b>ownik <u><b>chce</u></b> od pracowników dobrej pracy - z<u><b>er</u></b>o wymówek"
+            "<u><b>Kobieta</u></b> robi swojemu facetowi <u><b>her</u></b>batę i podaje p<u><b>la</u></b>cek"
         ],
         // opis
         desc: "la mujer[la muher] - kobieta",
@@ -2439,17 +2442,17 @@ id: [
 ],
         // obrazek
         img: [
-                "https://www.arbulang.com/img/fiszkiespanol/126a.jpg"
+                "https://www.arbulang.com/img/fiszkiespanol/260a.jpg"
         ],
         word: [
                 "https://www.arbulang.com/voice/music.mp4"
         ],
         // historia
         story: [
-            "<u><b>To</u></b> <u><b>wszystko</u></b> <u><b>dos</u></b>taniecie w naszym sklepie"
+            "Biegałem a jest wiatr i przewiało mi <u><b>bebe</u></b>chy, muszę się szybko <u><b>napić</u></b> wody"
         ],
         // opis
-        desc: "bebe[] - ",
+        desc: "bebe[bebe] - pije",
         //zdanie
         sentence1: [
                 "bebe"
@@ -2480,17 +2483,17 @@ id: [
 ],
         // obrazek
         img: [
-                "https://www.arbulang.com/img/fiszkiespanol/126a.jpg"
+                "https://www.arbulang.com/img/fiszkiespanol/261a.jpg"
         ],
         word: [
                 "https://www.arbulang.com/voice/music.mp4"
         ],
         // historia
         story: [
-            "<u><b>To</u></b> <u><b>wszystko</u></b> <u><b>dos</u></b>taniecie w naszym sklepie"
+            "<u><b>A</u></b> ja najpierw się napiłem <u><b>wody</u></b> gazowanej a teraz żuję gumę z <u><b>gua</u></b>raną"
         ],
         // opis
-        desc: "agua[] - ",
+        desc: "agua[agua] - woda",
         //zdanie
         sentence1: [
                 "agua"
@@ -2521,17 +2524,17 @@ id: [
 ],
         // obrazek
         img: [
-                "https://www.arbulang.com/img/fiszkiespanol/126a.jpg"
+                "https://www.arbulang.com/img/fiszkiespanol/262a.jpg"
         ],
         word: [
                 "https://www.arbulang.com/voice/music.mp4"
         ],
         // historia
         story: [
-            "<u><b>To</u></b> <u><b>wszystko</u></b> <u><b>dos</u></b>taniecie w naszym sklepie"
+            "Ten <u><b>fri</u></b>k fight to była bardzo <u><b>zimne</u></b> podejście do walki <u><b>a</u></b> widowisko emocjonujące"
         ],
         // opis
-        desc: "fria[] - ",
+        desc: "fria[fria] - zimny/zimna",
         //zdanie
         sentence1: [
                 "fria"
@@ -2562,7 +2565,7 @@ id: [
 ],
         // obrazek
         img: [
-                "https://www.arbulang.com/img/fiszkiespanol/131a.jpg"
+                "https://www.arbulang.com/img/fiszkiespanol/263a.jpg"
         ],
         translate: "Kot patrzy przez okno",
         translateb: "[]",
@@ -2573,7 +2576,7 @@ id: [
         ],
         // historia
         story: [
-            ""
+            "<u><b>Kot</u></b> <u><b>El</u></b>on zrobił szpa<u><b>gat</u></b> <u><b>Ooo</u></b> to coś niezwykłego"
         ],
         // opis
         desc: "la gato[el gato] - kot",
@@ -2607,14 +2610,14 @@ id: [
 ],
         // obrazek
         img: [
-                "https://www.arbulang.com/img/fiszkiespanol/126a.jpg"
+                "https://www.arbulang.com/img/fiszkiespanol/264a.jpg"
         ],
         word: [
                 "https://www.arbulang.com/voice/music.mp4"
         ],
         // historia
         story: [
-            ""
+            "<u><b>Spojrzenie</u></b> Słowa<u><b>mira</u></b> jest nietypowe"
         ],
         // opis
         desc: "mira[mira] - patrzy",
@@ -2648,17 +2651,17 @@ id: [
 ],
         // obrazek
         img: [
-                "https://www.arbulang.com/img/fiszkiespanol/126a.jpg"
+                "https://www.arbulang.com/img/fiszkiespanol/265a.jpg"
         ],
         word: [
                 "https://www.arbulang.com/voice/music.mp4"
         ],
         // historia
         story: [
-            ""
+            "Poszedłem do sklepu <u><b>po</u></b> <u><b>por</u></b>tki"
         ],
         // opis
-        desc: "por[] - ",
+        desc: "por[por] - po, przez",
         //zdanie
         sentence1: [
                 "por"
@@ -2696,10 +2699,10 @@ id: [
         ],
         // historia
         story: [
-            ""
+            "<u><b>Ben</u></b> patrzy przez <u><b>okno</u></b> i ma koktajl: śmie<u><b>tana</u></b> i truskawki"
         ],
         // opis
-        desc: "ventana[] - ",
+        desc: "ventana[bentana] - okno",
         //zdanie
         sentence1: [
                 "ventana"
@@ -2730,7 +2733,7 @@ id: [
 ],
         // obrazek
         img: [
-                "https://www.arbulang.com/img/fiszkiespanol/131a.jpg"
+                "https://www.arbulang.com/img/fiszkiespanol/267a.jpg"
         ],
         translate: "Ojciec pracuje dziś tutaj",
         translateb: "[]",
@@ -2741,10 +2744,10 @@ id: [
         ],
         // historia
         story: [
-            "<u><b>Kier</u></b>ownik <u><b>chce</u></b> od pracowników dobrej pracy - z<u><b>er</u></b>o wymówek"
+            "T<u><b>el</u></b>efon do ojca dzwoni, a bateria mu <u><b>pad</u></b>ła w telefonie a miał k<u><b>re</u></b>ślić plany na następny dzień"
         ],
         // opis
-        desc: "el padre[] - ",
+        desc: "el padre[el padre] - ojciec",
         //zdanie
         sentence1: [
                 "El_padre"
@@ -2753,7 +2756,7 @@ id: [
             "Ojciec"
         ],
                                                             sentence1c: [
-            "la_padre"
+            "el_padre"
         ],
         sentence: [
                 "El padre",
@@ -2775,17 +2778,17 @@ id: [
 ],
         // obrazek
         img: [
-                "https://www.arbulang.com/img/fiszkiespanol/126a.jpg"
+                "https://www.arbulang.com/img/fiszkiespanol/268a.jpg"
         ],
         word: [
                 "https://www.arbulang.com/voice/music.mp4"
         ],
         // historia
         story: [
-            "<u><b>To</u></b> <u><b>wszystko</u></b> <u><b>dos</u></b>taniecie w naszym sklepie"
+            "Na lotnisku <u><b>trag</u></b>aż pomylił moje <u><b>ba</u></b>gaże, bardzo trudna jest jego praca i nie może być <u><b>cha</u></b>otyczny"
         ],
         // opis
-        desc: "trabaja[] - ",
+        desc: "trabaja[trabaha] - pracuje",
         //zdanie
         sentence1: [
                 "trabaja"
@@ -2816,17 +2819,17 @@ id: [
 ],
         // obrazek
         img: [
-                "https://www.arbulang.com/img/fiszkiespanol/126a.jpg"
+                "https://www.arbulang.com/img/fiszkiespanol/269a.jpg"
         ],
         word: [
                 "https://www.arbulang.com/voice/music.mp4"
         ],
         // historia
         story: [
-            "<u><b>To</u></b> <u><b>wszystko</u></b> <u><b>dos</u></b>taniecie w naszym sklepie"
+            "<u><b>Ooj</u></b>, <u><b>dzisiaj</u></b> wykręcimy dobry wynik"
         ],
         // opis
-        desc: "hoy[] - ",
+        desc: "hoy[oj] - dzisiaj",
         //zdanie
         sentence1: [
                 "hoy"
@@ -2857,14 +2860,14 @@ id: [
 ],
         // obrazek
         img: [
-                "https://www.arbulang.com/img/fiszkiespanol/126a.jpg"
+                "https://www.arbulang.com/img/fiszkiespanol/270a.jpg"
         ],
         word: [
                 "https://www.arbulang.com/voice/music.mp4"
         ],
         // historia
         story: [
-            "<u><b>To</u></b> <u><b>wszystko</u></b> <u><b>dos</u></b>taniecie w naszym sklepie"
+            "A t<u><b>aki</u></b> <u><b>tutaj</u></b> jest bajzel"
         ],
         // opis
         desc: "aqui[aki] - tutaj",
@@ -2898,7 +2901,7 @@ id: [
 ],
         // obrazek
         img: [
-                "https://www.arbulang.com/img/fiszkiespanol/131a.jpg"
+                "https://www.arbulang.com/img/fiszkiespanol/271a.jpg"
         ],
         translate: "Pies bawi się piłką",
         translateb: "[]",
@@ -2909,13 +2912,16 @@ id: [
         ],
         // historia
         story: [
-            "<u><b>Kier</u></b>ownik <u><b>chce</u></b> od pracowników dobrej pracy - z<u><b>er</u></b>o wymówek"
+            "Su<u><b>per</u></b> jest ten <u><b>pies</u></b>, <u><b>ro</u></b>zmawia się z nim śmiesznie"
         ],
         // opis
-        desc: "el perro[] - ",
+        desc: "el perro[el perro] - pies",
         //zdanie
         sentence1: [
                 "El perro"
+        ],
+                                                            sentence1b: [
+            "Pies"
         ],
         sentence: [
                 "El perro",
@@ -2937,20 +2943,23 @@ id: [
 ],
         // obrazek
         img: [
-                "https://www.arbulang.com/img/fiszkiespanol/126a.jpg"
+                "https://www.arbulang.com/img/fiszkiespanol/272a.jpg"
         ],
         word: [
                 "https://www.arbulang.com/voice/music.mp4"
         ],
         // historia
         story: [
-            "<u><b>To</u></b> <u><b>wszystko</u></b> <u><b>dos</u></b>taniecie w naszym sklepie"
+            "<u><b>Hu</u></b>lam z kolegą, gramy w piłkę nożną, jest m<u><b>ega</u></b>"
         ],
         // opis
-        desc: "juega[] - ",
+        desc: "juega[huego] - gra",
         //zdanie
         sentence1: [
                 "juega"
+        ],
+                                                            sentence1b: [
+            "gra_(bawi się)"
         ],
         sentence: [
                 "El perro",
@@ -2972,20 +2981,29 @@ id: [
 ],
         // obrazek
         img: [
-                "https://www.arbulang.com/img/fiszkiespanol/126a.jpg"
+            "https://www.arbulang.com/img/fiszkiespanol/17a.jpg",
+                "https://www.arbulang.com/img/fiszkiespanol/31a.jpg",
+                "https://www.arbulang.com/img/fiszkiespanol/59a.jpg",
+                "https://www.arbulang.com/img/fiszkiespanol/75a.jpg"
         ],
         word: [
                 "https://www.arbulang.com/voice/music.mp4"
         ],
         // historia
         story: [
-            "<u><b>To</u></b> <u><b>wszystko</u></b> <u><b>dos</u></b>taniecie w naszym sklepie"
+                "<u><b>Z</u></b> <u><b>kon</u></b>opiami jest niezły ubaw",
+                "<u><b>Z</u></b> takimi <u><b>kon</u></b>taktami jakie mam, lepiej jest mi podołać obowiązkom",
+                "<u><b>Z</u></b> <u><b>kon</u></b>sernacją przyjąłem tę decyzję",
+                "<u><b>Z</u></b> <u><b>kon</u></b>taktami w branży u mnie słabo..."
         ],
         // opis
-        desc: "con[] - ",
+        desc: "con[kon] - z",
         //zdanie
         sentence1: [
                 "con"
+        ],
+                                                                    sentence1b: [
+            "z"
         ],
         sentence: [
                 "El perro",
@@ -3007,20 +3025,23 @@ id: [
 ],
         // obrazek
         img: [
-                "https://www.arbulang.com/img/fiszkiespanol/126a.jpg"
+                "https://www.arbulang.com/img/fiszkiespanol/274a.jpg"
         ],
         word: [
                 "https://www.arbulang.com/voice/music.mp4"
         ],
         // historia
         story: [
-            "<u><b>To</u></b> <u><b>wszystko</u></b> <u><b>dos</u></b>taniecie w naszym sklepie"
+            "<u><b>Pel</u></b>ikan gra w piłkę nożną i jest cała gabl<u><b>ota</u></b> jego pucharów"
         ],
         // opis
-        desc: "pelota[] - ",
+        desc: "pelota[pelota] - piłka",
         //zdanie
         sentence1: [
                 "pelota"
+        ],
+                                                                    sentence1b: [
+            "piłką"
         ],
         sentence: [
                 "El perro",
@@ -3042,7 +3063,7 @@ id: [
 ],
         // obrazek
         img: [
-                "https://www.arbulang.com/img/fiszkiespanol/131a.jpg"
+                "https://www.arbulang.com/img/fiszkiespanol/275a.jpg"
         ],
         translate: "Mężczyzna otwiera swoją książkę",
         translateb: "[]",
@@ -3053,13 +3074,16 @@ id: [
         ],
         // historia
         story: [
-            "<u><b>Kier</u></b>ownik <u><b>chce</u></b> od pracowników dobrej pracy - z<u><b>er</u></b>o wymówek"
+            "T<u><b>el</u></b>ewizor przedstawia mężczyznę dzwoniącego przez k<u><b>omó</u></b>rkę i opidadającego do<u><b>bre</u></b> historie"
         ],
         // opis
         desc: "el hombre[el ombre] - człowiek",
         //zdanie
         sentence1: [
                 "El hombre"
+        ],
+                                                                    sentence1b: [
+            "Mężczyzna"
         ],
         sentence: [
                 "El hombre",
@@ -3081,20 +3105,23 @@ id: [
 ],
         // obrazek
         img: [
-                "https://www.arbulang.com/img/fiszkiespanol/126a.jpg"
+                "https://www.arbulang.com/img/fiszkiespanol/276a.jpg"
         ],
         word: [
                 "https://www.arbulang.com/voice/music.mp4"
         ],
         // historia
         story: [
-            "<u><b>To</u></b> <u><b>wszystko</u></b> <u><b>dos</u></b>taniecie w naszym sklepie"
+            "<u><b>A</u></b> to do<u><b>bre</u></b> wieści, że sklep jest otwarty"
         ],
         // opis
-        desc: "abre[] - ",
+        desc: "abre[abre] - otwiera",
         //zdanie
         sentence1: [
                 "abre"
+        ],
+                                                                    sentence1b: [
+            "otwiera"
         ],
         sentence: [
                 "El hombre",
@@ -3116,20 +3143,23 @@ id: [
 ],
         // obrazek
         img: [
-                "https://www.arbulang.com/img/fiszkiespanol/126a.jpg"
+                "https://www.arbulang.com/img/fiszkiespanol/277a.jpg"
         ],
         word: [
                 "https://www.arbulang.com/voice/music.mp4"
         ],
         // historia
         story: [
-            "<u><b>To</u></b> <u><b>wszystko</u></b> <u><b>dos</u></b>taniecie w naszym sklepie"
+            "<u><b>Su</u></b>per jest ta <u><b>jego</u></b> książka"
         ],
         // opis
-        desc: "su[] - ",
+        desc: "su[su] - jego (swoją)",
         //zdanie
         sentence1: [
                 "su"
+        ],
+                                                                    sentence1b: [
+            "swoją"
         ],
         sentence: [
                 "El hombre",
@@ -3151,20 +3181,25 @@ id: [
 ],
         // obrazek
         img: [
-                "https://www.arbulang.com/img/fiszkiespanol/126a.jpg"
+            "https://www.arbulang.com/img/fiszkiespanol/278a.jpg",
+                "https://www.arbulang.com/img/fiszkiespanol/278b.jpg"
         ],
         word: [
                 "https://www.arbulang.com/voice/music.mp4"
         ],
         // historia
         story: [
-            "<u><b>To</u></b> <u><b>wszystko</u></b> <u><b>dos</u></b>taniecie w naszym sklepie"
+                "Ka<u><b>lib</u></b>er przemyśleń w tej książce jest niesamowity, <u><b>ro</u></b>zmyślam po przeczytaniu rozdziału",
+                "Ta<u><b>lib</u></b> czyta książkę, <u><b>ro</u></b>zmyśla o tym co przeczytał"
         ],
         // opis
-        desc: "libro[] - ",
+        desc: "libro[libro] - książka",
         //zdanie
         sentence1: [
                 "libro"
+        ],
+                                                                            sentence1b: [
+            "książkę"
         ],
         sentence: [
                 "El hombre",
@@ -3186,7 +3221,7 @@ id: [
 ],
         // obrazek
         img: [
-                "https://www.arbulang.com/img/fiszkiespanol/131a.jpg"
+                "https://www.arbulang.com/img/fiszkiespanol/279a.jpg"
         ],
         translate: "Matka uśmiecha się do swojego syna",
         translateb: "[]",
@@ -3197,13 +3232,16 @@ id: [
         ],
         // historia
         story: [
-            "<u><b>Kier</u></b>ownik <u><b>chce</u></b> od pracowników dobrej pracy - z<u><b>er</u></b>o wymówek"
+            "Ma<u><b>ma</u></b> piecze placek, ja szykuje <u><b>dre</u></b>wno do pieca"
         ],
         // opis
         desc: "la madre[la madre] - mama",
         //zdanie
         sentence1: [
                 "La madre"
+        ],
+                                                                            sentence1b: [
+            "Matka"
         ],
         sentence: [
                 "La madre",
@@ -3225,20 +3263,23 @@ id: [
 ],
         // obrazek
         img: [
-                "https://www.arbulang.com/img/fiszkiespanol/126a.jpg"
+                "https://www.arbulang.com/img/fiszkiespanol/280a.jpg"
         ],
         word: [
                 "https://www.arbulang.com/voice/music.mp4"
         ],
         // historia
         story: [
-            "<u><b>To</u></b> <u><b>wszystko</u></b> <u><b>dos</u></b>taniecie w naszym sklepie"
+            "Koś się uśmichnął na moje kale<u><b>son</u></b>y, są p<u><b>ri</u></b>ma sort, <u><b>eee</u></b> nawet fajne"
         ],
         // opis
-        desc: "sonrie[] - ",
+        desc: "sonrie[sonrie] - uśmiecha się",
         //zdanie
         sentence1: [
                 "sonrie"
+        ],
+                                                                                    sentence1b: [
+            "uśmiecha się"
         ],
         sentence: [
                 "La madre",
@@ -3260,20 +3301,29 @@ id: [
 ],
         // obrazek
         img: [
-                "https://www.arbulang.com/img/fiszkiespanol/126a.jpg"
+            "https://www.arbulang.com/img/fiszkiespanol/17a.jpg",
+                "https://www.arbulang.com/img/fiszkiespanol/31a.jpg",
+                "https://www.arbulang.com/img/fiszkiespanol/59a.jpg",
+                "https://www.arbulang.com/img/fiszkiespanol/75a.jpg"
         ],
         word: [
                 "https://www.arbulang.com/voice/music.mp4"
         ],
         // historia
         story: [
-            "<u><b>To</u></b> <u><b>wszystko</u></b> <u><b>dos</u></b>taniecie w naszym sklepie"
+                "<u><b>Z</u></b> <u><b>kon</u></b>opiami jest niezły ubaw",
+                "<u><b>Z</u></b> takimi <u><b>kon</u></b>taktami jakie mam, lepiej jest mi podołać obowiązkom",
+                "<u><b>Z</u></b> <u><b>kon</u></b>sernacją przyjąłem tę decyzję",
+                "<u><b>Z</u></b> <u><b>kon</u></b>taktami w branży u mnie słabo..."
         ],
         // opis
-        desc: "con[] - ",
+        desc: "con[kon] - z",
         //zdanie
         sentence1: [
                 "con"
+        ],
+                                                                                    sentence1b: [
+            "do"
         ],
         sentence: [
                 "La madre",
@@ -3295,20 +3345,23 @@ id: [
 ],
         // obrazek
         img: [
-                "https://www.arbulang.com/img/fiszkiespanol/126a.jpg"
+                "https://www.arbulang.com/img/fiszkiespanol/282a.jpg"
         ],
         word: [
                 "https://www.arbulang.com/voice/music.mp4"
         ],
         // historia
         story: [
-            "<u><b>To</u></b> <u><b>wszystko</u></b> <u><b>dos</u></b>taniecie w naszym sklepie"
+            "<u><b>Syn</u></b> jest przy mamie c<u><b>icho</u></b>, a przy ojcu wrzeszczy"
         ],
         // opis
-        desc: "hijo[] - ",
+        desc: "hijo[iho] - syn",
         //zdanie
         sentence1: [
                 "hijo"
+        ],
+                                                                                    sentence1b: [
+            "syna"
         ],
         sentence: [
                 "La madre",
@@ -3330,7 +3383,7 @@ id: [
 ],
         // obrazek
         img: [
-                "https://www.arbulang.com/img/fiszkiespanol/131a.jpg"
+                "https://www.arbulang.com/img/fiszkiespanol/283a.jpg"
         ],
         translate: "Zadzwonię do ciebie później",
         translateb: "[]",
@@ -3341,19 +3394,21 @@ id: [
         ],
         // historia
         story: [
-            "<u><b>Kier</u></b>ownik <u><b>chce</u></b> od pracowników dobrej pracy - z<u><b>er</u></b>o wymówek"
+            "Mówię do Ciebie: <u><b>te</u></b>... a słyszałeś to? a <u><b>Ty</u></b> odpowiadasz..."
         ],
         // opis
-        desc: "te[te] - ",
+        desc: "te[te] - ci/tobie",
         //zdanie
         sentence1: [
                 "Te"
         ],
+                                                                                            sentence1b: [
+            "Tobie"
+        ],
         sentence: [
                 "Te",
                 "llamaré",
-                "más",
-                "tarde"
+                "más tarde"
         ],
         //  slowo do nauki
         key: "te",
@@ -3369,26 +3424,28 @@ id: [
 ],
         // obrazek
         img: [
-                "https://www.arbulang.com/img/fiszkiespanol/126a.jpg"
+                "https://www.arbulang.com/img/fiszkiespanol/284a.jpg"
         ],
         word: [
                 "https://www.arbulang.com/voice/music.mp4"
         ],
         // historia
         story: [
-            "<u><b>To</u></b> <u><b>wszystko</u></b> <u><b>dos</u></b>taniecie w naszym sklepie"
+            "<u><b>Dż</u></b>em jest słodki, a popijam winem <u><b>amare</u></b>na, muszę jeszcze gdzieś zadzwonić"
         ],
         // opis
-        desc: "llamaré[] - ",
+        desc: "llamaré[dźamare] - zadzwonię",
         //zdanie
         sentence1: [
                 "llamaré"
         ],
+                                                                                                    sentence1b: [
+            "zadzwonię"
+        ],
         sentence: [
                 "Te",
                 "llamaré",
-                "más",
-                "tarde"
+                "más tarde"
         ],
         //  slowo do nauki
         key: "llamare",
@@ -3404,64 +3461,33 @@ id: [
 ],
         // obrazek
         img: [
-                "https://www.arbulang.com/img/fiszkiespanol/126a.jpg"
+                "https://www.arbulang.com/img/fiszkiespanol/285a.jpg",
+                "https://www.arbulang.com/img/fiszkiespanol/286a.jpg"
         ],
         word: [
                 "https://www.arbulang.com/voice/music.mp4"
         ],
         // historia
         story: [
-            "<u><b>To</u></b> <u><b>wszystko</u></b> <u><b>dos</u></b>taniecie w naszym sklepie"
+            "<u><b>Mas</u></b>ło jest <u><b>bardziej</u></b> wartościowe niż margaryna - na chleb",
+            "<u><b>Póżniej</u></b> będę <u><b>tar</u></b>ł jabłko na tarce do <u><b>de</u></b>seru - na wieczór"
         ],
         // opis
-        desc: "más[] - ",
+        desc: "más tarde[mas] - później",
         //zdanie
         sentence1: [
-                "más"
+                "más_tarde"
+        ],
+                                                                                                            sentence1b: [
+            "póżniej"
         ],
         sentence: [
                 "Te",
                 "llamaré",
-                "más",
-                "tarde"
+                "más tarde"
         ],
         //  slowo do nauki
         key: "mas",
-        category1: [
-        ],
-        category2: ["osoby", "osoby+czas"],
-                category3: ["Infinitive"]
-},
-{
-id: [
-        286,
-        59
-],
-        // obrazek
-        img: [
-                "https://www.arbulang.com/img/fiszkiespanol/126a.jpg"
-        ],
-        word: [
-                "https://www.arbulang.com/voice/music.mp4"
-        ],
-        // historia
-        story: [
-            "<u><b>To</u></b> <u><b>wszystko</u></b> <u><b>dos</u></b>taniecie w naszym sklepie"
-        ],
-        // opis
-        desc: "tarde[] - ",
-        //zdanie
-        sentence1: [
-                "tarde"
-        ],
-        sentence: [
-                "Te",
-                "llamaré",
-                "más",
-                "tarde"
-        ],
-        //  slowo do nauki
-        key: "tarde",
         category1: [
         ],
         category2: ["osoby", "osoby+czas"],
@@ -3474,21 +3500,21 @@ id: [
 ],
         // obrazek
         img: [
-                "https://www.arbulang.com/img/fiszkiespanol/131a.jpg"
+                "https://www.arbulang.com/img/fiszkiespanol/287a.jpg"
         ],
         translate: "Podróżowałbym więcej, gdybym miał czas",
         translateb: "[]",
-        srcWord: ["https://www.arbulang.com/filmy/esp/.mp4", ''],
-        srcWordimage: "https://www.arbulang.com/filmy/esp/.png",
+        srcWord: ["https://www.arbulang.com/filmy/eng-esp/journey.mp4", 'Matrix Reaktywacja (2003)'],
+        srcWordimage: "https://www.arbulang.com/filmy/eng-esp/journey.png",
         word: [
                 "https://www.arbulang.com/voice/music.mp4"
         ],
         // historia
         story: [
-            "<u><b>Kier</u></b>ownik <u><b>chce</u></b> od pracowników dobrej pracy - z<u><b>er</u></b>o wymówek"
+            "<u><b>Podróżowałem</u></b> po Włoszech i jadełem tam o<u><b>bia</u></b>dy - te obiady mają <u><b>chara</u></b>kter"
         ],
         // opis
-        desc: "viajaria[] - ",
+        desc: "viajaria[biahara] - podróżował",
         //zdanie
         sentence1: [
                 "Viajaría"
@@ -3511,17 +3537,17 @@ id: [
 ],
         // obrazek
         img: [
-                "https://www.arbulang.com/img/fiszkiespanol/126a.jpg"
+                "https://www.arbulang.com/img/fiszkiespanol/288a.jpg"
         ],
         word: [
                 "https://www.arbulang.com/voice/music.mp4"
         ],
         // historia
         story: [
-            "<u><b>To</u></b> <u><b>wszystko</u></b> <u><b>dos</u></b>taniecie w naszym sklepie"
+            "<u><b>Mas</u></b>ło jest <u><b>bardziej</u></b> wartościowe niż margaryna - na chleb"
         ],
         // opis
-        desc: "más[] - ",
+        desc: "más[mas] - bardziej, więcej",
         //zdanie
         sentence1: [
                 "más"
@@ -3544,17 +3570,17 @@ id: [
 ],
         // obrazek
         img: [
-                "https://www.arbulang.com/img/fiszkiespanol/126a.jpg"
+                "https://www.arbulang.com/img/fiszkiespanol/289a.jpg"
         ],
         word: [
                 "https://www.arbulang.com/voice/music.mp4"
         ],
         // historia
         story: [
-            "<u><b>To</u></b> <u><b>wszystko</u></b> <u><b>dos</u></b>taniecie w naszym sklepie"
+            "<u><b>Siii</u></b> oznacza tak po hiszpańsku, <u><b>gdybym</u></b> to wiedział, lepiej by mi się podróżowało"
         ],
         // opis
-        desc: "si[] - ",
+        desc: "si[si] - gdybym",
         //zdanie
         sentence1: [
                 "si"
@@ -3578,17 +3604,17 @@ id: [
 ],
         // obrazek
         img: [
-                "https://www.arbulang.com/img/fiszkiespanol/126a.jpg"
+                "https://www.arbulang.com/img/fiszkiespanol/290a.jpg"
         ],
         word: [
                 "https://www.arbulang.com/voice/music.mp4"
         ],
         // historia
         story: [
-            "<u><b>To</u></b> <u><b>wszystko</u></b> <u><b>dos</u></b>taniecie w naszym sklepie"
+            "<u><b>Tu</u></b> w poczekalni <u><b>miałem</u></b> przymierzyć ciuchy ale wszystkich nie przymierzyłem, bo u<u><b>biera</u></b>łem się za wolno"
         ],
         // opis
-        desc: "tuviera[] - ",
+        desc: "tuviera[tubiera] - miałem",
         //zdanie
         sentence1: [
                 "tuviera"
@@ -3612,17 +3638,17 @@ id: [
 ],
         // obrazek
         img: [
-                "https://www.arbulang.com/img/fiszkiespanol/126a.jpg"
+                "https://www.arbulang.com/img/fiszkiespanol/291a.jpg"
         ],
         word: [
                 "https://www.arbulang.com/voice/music.mp4"
         ],
         // historia
         story: [
-            "<u><b>To</u></b> <u><b>wszystko</u></b> <u><b>dos</u></b>taniecie w naszym sklepie"
+            "<u><b>Po</u></b> pierwsze tan<u><b>tiem</u></b>y za <u><b>czas</u></b> antenowy są wysokie"
         ],
         // opis
-        desc: "tiempo[] - ",
+        desc: "tiempo[tiempo] - czas",
         //zdanie
         sentence1: [
                 "tiempo"
@@ -3646,7 +3672,7 @@ id: [
 ],
         // obrazek
         img: [
-                "https://www.arbulang.com/img/fiszkiespanol/131a.jpg"
+                "https://www.arbulang.com/img/fiszkiespanol/292a.jpg"
         ],
         translate: "Wynik przerósł nasze oczekiwania",
         translateb: "[]",
@@ -3657,10 +3683,10 @@ id: [
         ],
         // historia
         story: [
-            "<u><b>Kier</u></b>ownik <u><b>chce</u></b> od pracowników dobrej pracy - z<u><b>er</u></b>o wymówek"
+            "KOGANTY - EL RESULATAD0 - RESULTAT"
         ],
         // opis
-        desc: "el resultado[] - ",
+        desc: "el resultado[el rezultado] - rezultat, wynik",
         //zdanie
         sentence1: [
                 "El resultado"
@@ -3683,17 +3709,17 @@ id: [
 ],
         // obrazek
         img: [
-                "https://www.arbulang.com/img/fiszkiespanol/126a.jpg"
+                "https://www.arbulang.com/img/fiszkiespanol/293a.jpg"
         ],
         word: [
                 "https://www.arbulang.com/voice/music.mp4"
         ],
         // historia
         story: [
-            "<u><b>To</u></b> <u><b>wszystko</u></b> <u><b>dos</u></b>taniecie w naszym sklepie"
+            "<u><b>Super</u></b>, że jedziesz przepisowo, nie <u><b>przekraczasz</u></b> prędkości"
         ],
         // opis
-        desc: "superó[] - ",
+        desc: "superó[supero] - przekroczył, przerósł",
         //zdanie
         sentence1: [
                 "superó"
@@ -3716,17 +3742,17 @@ id: [
 ],
         // obrazek
         img: [
-                "https://www.arbulang.com/img/fiszkiespanol/126a.jpg"
+                "https://www.arbulang.com/img/fiszkiespanol/294a.jpg"
         ],
         word: [
                 "https://www.arbulang.com/voice/music.mp4"
         ],
         // historia
         story: [
-            "<u><b>To</u></b> <u><b>wszystko</u></b> <u><b>dos</u></b>taniecie w naszym sklepie"
+            "A <u><b>nu</u></b>ż nasze akcje na gi<u><b>e</u></b>łdzie pójdą ek<u><b>stra</u></b> w górę, <u><b>s</u></b>uper by było"
         ],
         // opis
-        desc: "nuestras[] - ",
+        desc: "nuestras[nuestras] - nasz/nasze",
         //zdanie
         sentence1: [
                 "nuestras"
@@ -3749,7 +3775,7 @@ id: [
 ],
         // obrazek
         img: [
-                "https://www.arbulang.com/img/fiszkiespanol/126a.jpg"
+                "https://www.arbulang.com/img/fiszkiespanol/295a.jpg"
         ],
         word: [
                 "https://www.arbulang.com/voice/music.mp4"
@@ -3759,7 +3785,7 @@ id: [
             "<u><b>To</u></b> <u><b>wszystko</u></b> <u><b>dos</u></b>taniecie w naszym sklepie"
         ],
         // opis
-        desc: "expectativas[] - ",
+        desc: "expectativas[ekspektatiwas] - oczekiwania",
         //zdanie
         sentence1: [
                 "expectativas"
@@ -3793,10 +3819,10 @@ id: [
         ],
         // historia
         story: [
-            "<u><b>Kier</u></b>ownik <u><b>chce</u></b> od pracowników dobrej pracy - z<u><b>er</u></b>o wymówek"
+            ""
         ],
         // opis
-        desc: "El acuerdo[] - ",
+        desc: "El acuerdo[el akuerdo] - umowa",
         //zdanie
         sentence1: [
                 "El acuerdo"

@@ -21,6 +21,7 @@ id: [
     ],
         translate: "I want to learn Spanish very quickly",
         translateb: "[yoh kee-eh-roh ah-pren-dehr es-pah-nyol moo-ee rah-pee-doh]",
+        translatec: "[zhuh vuh zah-prahn-druh lehs-pah-nyol treh rah-pee-d-mah]",
         srcWord: ["https://www.arbulang.com/filmy/eng-esp/language2.mp4", 'Crank 2 (2009)'],
         srcWordimage: "https://www.arbulang.com/filmy/eng-esp/language2.png",
         word: [
@@ -35,11 +36,17 @@ id: [
         sentence1: [
                 "Yo"
         ],
+                sentence1fr: [
+                "Je"
+        ],
                 sentence1b: [
             "I"
         ],
                 sentence1c: [
             "Yoh"
+        ],
+                        sentence1cfr: [
+            "Zhuh"
         ],
         sentence: [
                 "Yo",
@@ -86,11 +93,17 @@ id: [
         sentence1: [
                 "quiero"
         ],
+                        sentence1fr: [
+                "vuex"
+        ],
                         sentence1b: [
             "want"
         ],
                 sentence1c: [
             "kee-eh-roh"
+        ],
+                        sentence1cfr: [
+            "vuh"
         ],
         sentence: [
                 "Yo",
@@ -136,6 +149,9 @@ id: [
         //zdanie
                 sentence1: [
                 "aprender"
+        ],
+                                sentence1fr: [
+                "apprendre"
         ],
                                 sentence1b: [
             "to_learn"
@@ -2573,7 +2589,19 @@ id: [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1en-esp/53a.jpg",
+                src: "https://www.arbulang.com/img/fiszki1en-esp/67a.jpg",
+                alt: ""
+            },
+            story: {
+                text: "<b><u>H</b></u>enry plays the game <b><u>together</b></u> with friend <b><u>unt</b></u>il they win... They are <b><u>toss</b></u>ing the ball in basketball",
+                alt: ""
+            },
+            category: ["", ""]
+        },
+        {
+            id: 2,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1en-esp/148a.jpg",
                 alt: ""
             },
             story: {
@@ -2660,7 +2688,7 @@ id: [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1en-esp/.jpg",
+                src: "https://www.arbulang.com/img/fiszki1en-esp/55a.jpg",
                 alt: ""
             },
             story: {
@@ -2672,7 +2700,7 @@ id: [
                 {
             id: 2,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1en-esp/55a.jpg",
+                src: "https://www.arbulang.com/img/fiszki1en-esp/55b.jpg",
                 alt: ""
             },
             story: {
@@ -2894,7 +2922,7 @@ id: [
                 "https://www.arbulang.com/voice/espanol/sentence11/las_puertas.mp3"
         ],
         // opis
-        desc: "la puerta[pwer-tahs] - door",
+        desc: "las puertas[pwer-tahs] - la puerta/las puerta+s - Doors — plural",
         //zdanie
         sentence1: [
                 "las puertas"
@@ -3187,6 +3215,18 @@ id: [
                 alt: ""
             },
             category: ["", ""]
+        },
+        {
+            id: 2,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1en-esp/148a.jpg",
+                alt: ""
+            },
+            story: {
+                text: "They <b><u>hun</b></u>t <b><u>to</b></u>gether like a b<b><u>oss</b></u>",
+                alt: ""
+            },
+            category: ["", ""]
         }
     ],
         word: [
@@ -3235,7 +3275,7 @@ id: [
         srcWord: ["https://www.arbulang.com/filmy/esp/dreams.mp4", 'Pain And Gain (2013)'],
         srcWordimage: "https://www.arbulang.com/filmy/esp/dreams.png",
         word: [
-                "https://www.arbulang.com/voice/espanol/sentencd13/lograr.mp3"
+                "https://www.arbulang.com/voice/espanol/sentence13/lograr.mp3"
         ],
         // opis
         desc: "lograr[loh-grahr] - to achieve",
@@ -3277,7 +3317,7 @@ id: [
         }
     ],
         word: [
-                "https://www.arbulang.com/voice/espanol/sentencd13/suenos.mp3"
+                "https://www.arbulang.com/voice/espanol/sentence13/suenos.mp3"
         ],
         // opis
         desc: "sueños[sweh-nyos] - dreams",
@@ -3318,7 +3358,7 @@ id: [
         }
     ],
         word: [
-                "https://www.arbulang.com/voice/espanol/sentencd13/con2.mp3"
+                "https://www.arbulang.com/voice/espanol/sentence13/con2.mp3"
         ],
         // opis
         desc: "con[kohn] - with, through",
@@ -3359,7 +3399,7 @@ id: [
         }
     ],
         word: [
-                "https://www.arbulang.com/voice/espanol/sentencd13/esfuerzo.mp3"
+                "https://www.arbulang.com/voice/espanol/sentence13/esfuerzo.mp3"
         ],
         // opis
         desc: "esfuerzo[ehs-fwehr-soh] - effort",
@@ -3412,7 +3452,7 @@ id: [
         }
     ],
         word: [
-                "https://www.arbulang.com/voice/espanol/sentencd13/y.mp3"
+                "https://www.arbulang.com/voice/espanol/sentence13/y.mp3"
         ],
         // opis
         desc: "y[ee] - and",
@@ -3454,7 +3494,7 @@ id: [
         }
     ],
         word: [
-                "https://www.arbulang.com/voice/espanol/sentencd13/dedication.mp3"
+                "https://www.arbulang.com/voice/espanol/sentence13/dedication.mp3"
         ],
         // historia
         story: [
@@ -3579,7 +3619,7 @@ id: [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1en-esp/75a.jpg",
+                src: "https://www.arbulang.com/img/fiszki1en-esp/76a.jpg",
                 alt: ""
             },
             story: {
@@ -3726,7 +3766,7 @@ id: [
         ],
         sentence: [
                 "Disfrutar",
-                "del maquillaje"
+                "maquillaje"
         ],
         //  slowo do nauki
         key: "disfrutar",
@@ -3757,21 +3797,21 @@ id: [
         }
     ],
         word: [
-                "https://www.arbulang.com/voice/espanol/sentence15/del_maquillaje.mp3"
+                "https://www.arbulang.com/voice/espanol/sentence15/maquillaje.mp3"
         ],
         // historia
         story: [
                 ""
         ],
         // opis
-        desc: "maquillaje[del mah-kee-YAH-heh] - make up",
+        desc: "maquillaje[mah-kee-YAH-heh] - make up",
         //zdanie
         sentence1: [
-                "del maquillaje"
+                "maquillaje"
         ],
         sentence: [
                 "Disfrutar",
-                "del maquillaje"
+                "maquillaje"
         ],
         //  slowo do nauki
         key: "maquillaje",
@@ -4680,7 +4720,7 @@ id: [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1en-esp/102.jpg",
+                src: "https://www.arbulang.com/img/fiszki1en-esp/102a.jpg",
                 alt: ""
             },
             story: {
@@ -4694,7 +4734,7 @@ id: [
                 "https://www.arbulang.com/voice/espanol/sentence20/problemas.mp3"
         ],
         // opis
-        desc: "problemans[proh-BLEH-mahs] - problems",
+        desc: "problemas[proh-BLEH-mahs] - problems",
         //zdanie
         sentence1: [
                 "problemas"
@@ -6252,7 +6292,7 @@ id: [
                 alt: ""
             },
             story: {
-                text: "",
+                text: "The sky without <u><b>clo</u></b>uds is pretty <u><b>clear</u></b>, and I’m eating a <u><b>ras</u></b>pberry",
                 alt: ""
             },
             category: ["", ""]
@@ -6290,11 +6330,11 @@ id: [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1en-esp/.jpg",
+                src: "https://www.arbulang.com/img/fiszki1en-esp/140a.jpg",
                 alt: ""
             },
             story: {
-                text: "",
+                text: "In <u><b>Los</u></b> Angeles, <u><b>Aa</u></b>ron is shopping with <u><b>children</u></b>, and they want a <u><b>Nin</u></b>tendo, which doesn’t c<u><b>os</u></b>t a lot",
                 alt: ""
             },
             category: ["", ""]
@@ -6304,7 +6344,7 @@ id: [
                 "https://www.arbulang.com/voice/espanol/sentence27/a_los_ninos.mp3"
         ],
         // opis
-        desc: "a los niños[ah lohs NEEN-yohs] - to the children",
+        desc: "a los niños[ah lohs NEEN-yohs] - to the childrens",
         //zdanie
         sentence1: [
                 "a los niños"
@@ -6542,11 +6582,11 @@ id: [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1en-esp/.jpg",
+                src: "https://www.arbulang.com/img/fiszki1en-esp/146a.jpg",
                 alt: ""
             },
             story: {
-                text: "",
+                text: "On national holidays, in every city and all <b><u>places</b></u> where people celebrate, the sky is clear and b<b><u>lue</b></u>, and the <b><u>gar</b></u>dens in every park look the b<b><u>es</b></u>t.",
                 alt: ""
             },
             category: ["", ""]
@@ -6626,6 +6666,18 @@ id: [
     entries: [
         {
             id: 1,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1en-esp/67a.jpg",
+                alt: ""
+            },
+            story: {
+                text: "<b><u>H</b></u>enry plays the game <b><u>together</b></u> with friend <b><u>unt</b></u>il they win... They are <b><u>toss</b></u>ing the ball in basketball",
+                alt: ""
+            },
+            category: ["", ""]
+        },
+        {
+            id: 2,
             img: {
                 src: "https://www.arbulang.com/img/fiszki1en-esp/148a.jpg",
                 alt: ""
@@ -6895,7 +6947,7 @@ id: [
                 alt: ""
             },
             story: {
-                text: "",
+                text: "<b><u>Men</b></u> <b><u>lie</b></u> because their <b><u>tea</b></u>m actually lost. They were defeated on this field, on this green g<b><u>rass</b></u>",
                 alt: ""
             },
             category: ["", ""]
@@ -7186,7 +7238,7 @@ id: [
         // opis
         desc: "lento[LEN-toh] - slowly",
         //zdanie
-        sentence2: [
+        sentence1: [
                 "lento"
         ],
         sentence: [
@@ -7544,7 +7596,7 @@ id: [
         }
     ],
         word: [
-                "https://www.arbulang.com/voice/espanol/sentence32/la_harmonia.mp3"
+                "https://www.arbulang.com/voice/espanol/sentence32/la_armonia.mp3"
         ],
         // opis
         desc: "la armonia[lah ar-moh-NEE-ah] - harmony",
@@ -7712,7 +7764,19 @@ id: [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1en-esp/53a.jpg",
+                src: "https://www.arbulang.com/img/fiszki1en-esp/67a.jpg",
+                alt: ""
+            },
+            story: {
+                text: "<b><u>H</b></u>enry plays the game <b><u>together</b></u> with friend <b><u>unt</b></u>il they win... They are <b><u>toss</b></u>ing the ball in basketball",
+                alt: ""
+            },
+            category: ["", ""]
+        },
+        {
+            id: 2,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1en-esp/148a.jpg",
                 alt: ""
             },
             story: {
@@ -8273,7 +8337,7 @@ id: [
                 alt: ""
             },
             story: {
-                text: "<b><u>A</b></u>ds on television often promote the value of <b><u>love</b></u> <b><u>more</b></u> than before",
+                text: "Television <b><u>a</b></u>ds often promote the value of <b><u>love</b></u> <b><u>more</b></u> than before",
                 alt: ""
             },
             category: ["", ""]
@@ -8441,7 +8505,7 @@ id: [
         // opis
         desc: "la ansiedad[lah ahn-syeh-DAHD] - anxiety",
         //zdanie
-        sentence2: [
+        sentence1: [
                 "la_ansiedad"
         ],
                     sentence2b: [
@@ -8678,7 +8742,7 @@ id: [
         // opis
         desc: "la paz[lah pahs] - peace",
         //zdanie
-        sentence2: [
+        sentence1: [
                 "paz"
         ],
                     sentence2b: [
@@ -8798,16 +8862,22 @@ id: [
         37,
         67
 ],
-        // obrazek
-        img: [
-                "https://www.arbulang.com/img/fiszki1en-esp/188a.jpg"
-        ],
+    entries: [
+        {
+            id: 1,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1en-esp/196a.jpg",
+                alt: ""
+            },
+            story: {
+                text: "For this <b><u>do</b></u>g, the full <b><u>moon</b></u> is an important element of its <b><u>world</b></u> tonight",
+                alt: ""
+            },
+            category: ["", ""]
+        }
+    ],
         word: [
                 "https://www.arbulang.com/voice/espanol/sentence37/el_mundo.mp3"
-        ],
-        // historia
-        story: [
-            ""
         ],
         // opis
         desc: "el mundo[el MOON-doh] – world",
@@ -9268,7 +9338,9 @@ const matrixQueueByLesson = {};
             .addClass('fiszka-matrix-container')
             .attr('data-lesson', sentenceId)
             .css({
-                width: '900px',
+width: '100%',
+maxWidth: '100%',
+boxSizing: 'border-box',
                 display: 'flex',
                 flexDirection: 'column',
                 alignItems: 'center',
@@ -9304,12 +9376,15 @@ const matrixIndex = matrixCountBySentence[key]++;
             const entry = desc[startIndex + i];
 const $cell = $('<div>')
     .css({
-    border: '2px solid #000',
-    borderRadius: '12px',   // 👈 tutaj dodany border-radius
-    display: 'flex',
-    flexDirection: 'column',
-    alignItems: 'center',
-    justifyContent: 'center'
+        flex: '1 1 140px',   // 🔥 zamiast stałej szerokości
+        maxWidth: '220px',   // ograniczenie żeby nie rosło za bardzo
+        height: '150px',
+        border: '2px solid #000',
+        borderRadius: '12px',
+        display: 'flex',
+        flexDirection: 'column',
+        alignItems: 'center',
+        justifyContent: 'center'
 });
 
             // 🔥 TRYB APPROVE
@@ -9331,7 +9406,7 @@ if (entry) {
         .html(entry) // entry2 to Twój opis
         .css({
             marginTop: '4px',
-            fontSize: '12px',
+            fontSize: '25px',
             textAlign: 'center',
             color: '#333',
             overflow: 'hidden',
@@ -9371,28 +9446,29 @@ function generateFiszkaBlock(fiszka, lessonId2, category) {
     var currentStoryButtonName = ''; // Zmienna lokalna
     console.log(`Generating fiszka block for ID100`, category);
 
-    // Tworzenie kontenera fiszki
-
-    $(document).ready(function () {
     // Upewniamy się, że historia dla tej lekcji istnieje
     if (!selectedFiszkiHistoryByLesson[lessonId2]) {
         selectedFiszkiHistoryByLesson[lessonId2] = [];
     }
     
     const selectedFiszkiHistory = selectedFiszkiHistoryByLesson[lessonId2];
+    $(document).ready(function () {
+
         function initAudio(fiszkaId) {
+            var audioId = 'music' + fiszkaId;
+            var pButtonId = 'pButton' + fiszkaId;
 
             var music = document.getElementById(audioId);
             var pButton = document.getElementById(pButtonId);
             // Dodajemy style bezpośrednio w kodzie JavaScript
             if (window.matchMedia("(max-width: 999px)").matches) {
-                pButton.style.height = '150px';  // Zwiększenie wysokości
-                pButton.style.width = '150px';   // Zwiększenie szerokości
-            } else if (window.matchMedia("(min-width: 999px)").matches) {
+                pButton.style.height = '100px';  // Zwiększenie wysokości
+                pButton.style.width = '100px';   // Zwiększenie szerokości
+            } else {
                 pButton.style.height = '60px';  // Zwiększenie wysokości
                 pButton.style.width = '60px';   // Zwiększenie szerokości
             }
-            pButton.style.border = '1px solid';   // Usunięcie ramki
+            pButton.style.border = 'none';   // Usunięcie ramki
             pButton.style.backgroundSize = '80%';  // Rozmiar obrazka tła
             pButton.style.backgroundRepeat = 'no-repeat';
             pButton.style.backgroundPosition = 'center';
@@ -10054,9 +10130,9 @@ let ttsImg = $('<img>')
 
 // Label
 let ttsLabel = $('<span>')
-    .text('Połącz zlepki')
+    .text('Combine parts')
     .css({
-        fontSize: '14px',
+        fontSize: '30px',
         fontWeight: '600',
         color: '#000',
         whiteSpace: 'nowrap'
@@ -10106,9 +10182,9 @@ let storyImg = $('<img>')
 
 // Label
 let storyLabel = $('<span>')
-    .text('Odczytaj historyjkę')
+    .text('Read the story')
     .css({
-        fontSize: '14px',
+        fontSize: '30px',
         fontWeight: '600',
         color: '#000',
         whiteSpace: 'nowrap'
@@ -10502,7 +10578,7 @@ const intervalId = setInterval(scheduleNotification, 60000);
 
         console.log('hej555ax', lessons2b[2]);
 // DODANIE PRZYCISKU TRENING
-        fiszkaContainer.append($('<button>').text('TRENING').addClass('fiszka_button fiszka_button_trening').click(function () {
+        fiszkaContainer.append($('<button>').text('TRAINING').addClass('fiszka_button fiszka_button_trening').click(function () {
 
             activateFiszka(fiszka.id, false);
 
@@ -10563,7 +10639,7 @@ const intervalId = setInterval(scheduleNotification, 60000);
             
         }));
 
-        fiszkaContainer.append($('<button>').text('ZNAM').addClass('fiszka_button fiszka_button_znam').click(function () {
+        fiszkaContainer.append($('<button>').text('FAMILIAR').addClass('fiszka_button fiszka_button_znam').click(function () {
             console.log("Znam clicked on fiszka nr " + fiszka.id);
             activateFiszka(fiszka.id, true);
         }));
@@ -12180,7 +12256,7 @@ function readStory(id) {
     const text = Array.from(words).map(w => w.innerText).join(' ');
 
     const utterance = new SpeechSynthesisUtterance(text);
-    utterance.lang = 'pl-PL';
+    utterance.lang = 'en-US';
     utterance.rate = 1;
 
     let index = 0;
