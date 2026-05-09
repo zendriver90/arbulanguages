@@ -10203,7 +10203,7 @@ const isMultiVersion = Array.isArray(fiszka.entries) && fiszka.entries.length > 
 // Tworzymy przycisk Zatwierdź tylko jeśli jest wiele wersji
 if (isMultiVersion) {
     const $btnApprove = $('<button>')
-        .text('Zatwierdź')
+        .text('Approve')
         .addClass('btnApprove')
         .css({
             marginRight: '6px',
@@ -10912,6 +10912,12 @@ function generateFiszkaBlock2(fiszka, lessonId2) {
     // Tworzenie kontenera fiszki
 
     $(document).ready(function () {
+    // Upewniamy się, że historia dla tej lekcji istnieje
+    if (!selectedFiszkiHistoryByLesson[lessonId2]) {
+        selectedFiszkiHistoryByLesson[lessonId2] = [];
+    }
+    
+    const selectedFiszkiHistory = selectedFiszkiHistoryByLesson[lessonId2];
 
         function initAudio(fiszkaId) {
             var audioId = 'music' + fiszkaId;
