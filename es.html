@@ -17,9 +17,6 @@
     <title>Language Selection</title>
     <style>
                     @media (min-width: 999px) {
-                        #nowy {
-                            text-align: center;
-                        }
                         #autor {
         text-align: center;
     margin-top: 0px;
@@ -951,40 +948,16 @@ document.addEventListener("DOMContentLoaded", () => {
 });
 </script>
     <div class="container">
-        📌 <div id="nowy"><span style="font-size: 24px;"><strong>(UPDATE 19.05.26)<br>
-                VIDEO PLAYBACK - FIXED<br>
-ODTWARZANIE WIDEO - POPRAWIONE<br>
-</strong></span><br><br>
                 <div id="learning">
-            Learn <b>one</b> word and reprogram your <b>linguistic memory</b> for the better.<Br>
-            Learn one or several words in an <b>innovative way</b> and notice that your <b>belief about learning</b> languages has changed. 
-            Just one word, <b>60 seconds of your time</b> — and your mindset about learning, motivation, and the amount of effort needed will become much more favorable for learning quickly.<br><br>
             Aprende <b>una sola</b> palabra y reprograma tu <b>memoria lingüística</b> para mejorarla.<br>
             Aprende una o varias palabras de una <b>manera innovadora</b> y nota que tu <b>forma de pensar sobre el aprendizaje</b> de idiomas ha cambiado.<br>
             Solo una palabra — <b>60 segundos de tiempo</b> — y tu actitud hacia el aprendizaje, la motivación y la cantidad de esfuerzo será <b>más favorable</b> para que aprendas rápido.<br><br>
-            Naucz się <b>jednego</b> słowa i przeprogramuj swoją <b>pamięć lingwistyczną</b> na lepszą.<br>
-            Naucz się jednego lub kilka słówek w <b>innowacyjny sposób</b> i zauważ że Twoje <b>przekonanie o uczeniu się</b> języków zmeniło się.<br>
-            Tylko jedno słówko - <b>60 sekund czasu</b> - a Twoje przekonanie o nauce, chęci i ilość wysiłku będzie <b>bardziej korzystna</b> abyś się szybko nauczył.
         </div><br>
         <div id="jezyk">
-            <h2>My mother language: / Mi lengua materna: / Wybierz swój ojczysty język:</h2>
+            <h2>Mi lengua materna: </h2>
         </div>
 
         <div class="flag-container" id="native-language-container">
-                        <div data-language="en">
-                <div id="angielski">American English</div><div id="polski2">Number of unique Spanish words - 171</div>
-                <video autoplay loop muted>
-                    <source src="start/USA.mp4" type="video/mp4">
-                    Twój przeglądarka nie obsługuje elementu video.
-                </video>
-            </div>
-            <div data-language="br">
-                <div id="british">British English</div><div id="polski2">Number of unique Spanish words - 171</div>
-                <video autoplay loop muted>
-                    <source src="start/England.mp4" type="video/mp4">
-                    Twój przeglądarka nie obsługuje elementu video.
-                </video>
-            </div>
                         <div data-language="esp">
                 <div id="ingles">Español de España</div><div id="polski2">Ingles - 11 palabras<br>
                 </div>
@@ -1001,26 +974,10 @@ ODTWARZANIE WIDEO - POPRAWIONE<br>
                     Twój przeglądarka nie obsługuje elementu video.
                 </video>
             </div>
-            <div data-language="pl">
-                <div id="polski">Polski</div><div id="polski2">ANGIELSKI - Liczba unikalnych słów - 421<br>
-                HISZPAŃSKI - Liczba unikalnych słów - 213</div>
-                <video autoplay loop muted>
-                    <source src="start/Poland.mp4" type="video/mp4">
-                    Twój przeglądarka nie obsługuje elementu video.
-                </video>
-            </div>
-                        <div data-language="hu">
-                <div id="polski">Magyar</div><div id="polski2">Angol - 20 szó<br>
-                </div>
-                <video autoplay loop muted>
-                    <source src="start/Hungary.mp4" type="video/mp4">
-                    Twój przeglądarka nie obsługuje elementu video.
-                </video>
-            </div>
         </div>
         <button id="start-btn">START</button>
         <div id="language-options" class="hidden">
-            <div id="nowy"><h2>Wybierz język do nauki: / Select a language to learn:</h2></div>
+            <div id="nowy"><h2>Selecciona un idioma para aprender:</h2></div>
             <div class="flag-container" id="learn-language-container"></div>
             <div id="polski3">(421 słówek)</div>
             <div id="polski5">(213 słówek)</div>
@@ -1059,6 +1016,20 @@ ODTWARZANIE WIDEO - POPRAWIONE<br>
     <img src="img/PawelBabik3.jpg" alt="Obraz 3">
     <img src="img/PawelBabik4.png" alt="Obraz 4">
   </div>
+📌 <span style="font-size: 24px;"><strong>(UPDATE 12.05.25)<br>
+CORRECTED MOVIE TITLES FOR LEARNING SPANISH THROUGH ENGLISH-SPEAKERS' PERSPECTIVE</strong></span><br><br>
+            📌(AKTUALIZACJA 08.06.25
+    DODANE ODZNAKI DO ZDOBYCIA PODCZAS PRZERABIANIA FISZEK<br><br>
+            📌(AKTUALIZACJA 04.06.25
+    AKTUALIZACJA SPOSOBU WYŚWIETLANIA SUGEROWYCH LEKCJI<br><br>
+            📌(AKTUALIZACJA 14.05.25
+    NOWY CZYNNIK - ILOŚĆ SŁÓWEK W KATEGORII<br><br>
+                📌(AKTUALIZACJA 13.05.25
+            WYBRANIE RODZAJU FISZKI - JUŻ DZIAŁA
+    SZYBKA LEKCJA (DLA 5-MINUTOWEJ LEKCJI) DZIAŁA - POPRAWIONY ZASÓB ZDJĘĆ<br><br>
+            📌(AKTUALIZACJA 10.05.25
+            RESZTA LEKCJI DLA ANGIELSKIEGO - JUŻ DZIAŁA
+    SZYBKA LEKCJA (DLA 5-MINUTOWEJ LEKCJI) DZIAŁA - POPRAWIONY ZASÓB ZDJĘĆ<br><br>
 </div>
 <div class="overlay" id="overlay"></div>
 <div class="popup" id="popup">
@@ -1450,12 +1421,9 @@ langToggle.addEventListener('click', () => {
         let selectedLearnLanguage = '';
 
         const flags = {
-            pl: 'start/Poland.mp4',
             en: 'start/USA.mp4',
-            br: 'start/England.mp4',
             es: 'start/Spain.mp4',
-            es2: 'start/Mexico.mp4',
-            hu: 'start/Hungary.mp4'
+            es2: 'start/Mexico.mp4'
         };
 
         nativeLanguageContainer.addEventListener('click', function(e) {

@@ -3933,7 +3933,7 @@ id: [
                 "https://www.arbulang.com/voice/espanol/sentence16/olvidar.mp3"
         ],
         // opis
-        desc: "olvidar[ohl-vee-DAR] - zapomnieć",
+        desc: "olvidar[ohl-vee-DAR] - forget",
         //zdanie
         sentence1: [
                 "Olvidar"
@@ -3984,7 +3984,7 @@ id: [
                 "la ansiedad"
         ],
         //  slowo do nauki
-        key: "asiedad",
+        key: "ansiedad",
         category1: [
                 "love", "family"
         ],
@@ -8244,7 +8244,7 @@ id: [
                 alt: ""
             },
             story: {
-                text: "The moon in my <u><b>garden</u></b> is very <u><b>hard</u></b>, and it is an <u><b>el</u></b>ement of our <u><b>dinn</u></b>er.",
+                text: "The moon in my <u><b>garden</u></b> is very <u><b>hard</u></b>, and it is an <u><b>el</u></b>ement of our <u><b>dinn</u></b>er",
                 alt: ""
             },
             category: ["", ""]
@@ -8902,6 +8902,817 @@ id: [
         ],
         category2: ["osoby", "osoby+czas"],
                 category3: ["Infinitive"]
+},
+{
+id: [
+        197,
+        38,
+        68
+],
+    entries: [
+        {
+            id: 1,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1en-esp/197a.jpg",
+                alt: ""
+            },
+            story: {
+                text: "My <u><b>who</u></b>le new audio <u><b>tra</u></b>ck that I currently <u><b>work</u></b> on is <u><b>ba</u></b>nned by my platform",
+                alt: ""
+            },
+            category: ["", ""]
+        }
+    ],
+        translate: "I work many hours because I need more money",
+        translateb: "[trah-BAH-hoh MOO-chahs OH-rahs POR-keh neh-seh-SEE-toh mahs dee-NEH-roh]",
+        srcWord: ["", ''],
+        srcWordimage: "",
+        word: [
+                "https://www.arbulang.com/voice/music.mp4"
+        ],
+        // opis
+        desc: "trabajo[trah-BAH-hoh] - I work",
+        //zdanie
+        sentence1: [
+                "Trabajo"
+        ],
+                                                    sentence1b: [
+            "Work"
+        ],
+                sentence1c: [
+            "trah-BAH-hoh"
+        ],
+        sentence: [
+                "Trabajo",
+                "muchas",
+                "horas"
+        ],
+        //  slowo do nauki
+        key: "Trabajo",
+        category1: [
+        ],
+        category2: ["osoby", "osoby+czas"],
+                category3: ["Present Indicative"]
+},
+        {
+id: [
+        198,
+        38,
+        68
+],
+    entries: [
+        {
+            id: 1,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1en-esp/198a.jpg",
+                alt: ""
+            },
+            story: {
+                text: "The cow says <u><b>muuuuu</b></u> and I <u><b>cha</b></u>rged her for the milk",
+                alt: ""
+            },
+            category: ["", ""]
+        }
+    ],
+        word: [
+                "https://www.arbulang.com/voice/music.mp4"
+        ],
+        // opis
+        desc: "muchas[MOO-chahs] - many",
+        //zdanie
+        sentence1: [
+                "muchas"
+        ],
+                                                    sentence1b: [
+            "many"
+        ],
+                sentence1c: [
+            "MOO-chahs"
+        ],
+        sentence: [
+                "Trabajo",
+                "muchas",
+                "horas"
+        ],
+        //  slowo do nauki
+        key: "muchas",
+        category1: [
+        ],
+        category2: ["osoby", "osoby+czas"],
+                category3: ["Infinitive"]
+},
+        {
+id: [
+        199,
+        38,
+        68
+],
+    entries: [
+        {
+            id: 1,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1en-esp/199a.jpg",
+                alt: ""
+            },
+            story: {
+                text: "Rita <u><b>Ora</b></u> <u><b>s</b></u>ings in the stadium for many <u><b>hours</b></u>",
+                alt: ""
+            },
+            category: ["", ""]
+        }
+    ],
+        word: [
+                "https://www.arbulang.com/voice/music.mp4"
+        ],
+        // opis
+        desc: "horas[OH-rahs] - hours",
+        //zdanie
+        sentence1: [
+                "horas"
+        ],
+                                                    sentence1b: [
+            "hours"
+        ],
+                sentence1c: [
+            "OH-rahs"
+        ],
+        sentence: [
+                "Trabajo",
+                "muchas",
+                "horas"
+        ],
+        //  slowo do nauki
+        key: "horas",
+        category1: [
+        ],
+        category2: ["osoby", "osoby+czas"],
+                category3: ["Infinitive"]
+},
+        {
+id: [
+        200,
+        38,
+        69
+],
+    entries: [
+        {
+            id: 1,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1en-esp/200a.jpg",
+                alt: ""
+            },
+            story: {
+                text: "<u><b>Por</u></b>to is the best city <u><b>because</u></b> I had the best <u><b>ca</u></b>ke there",
+                alt: ""
+            },
+            category: ["", ""]
+        }
+    ],
+        word: [
+                "https://www.arbulang.com/voice/music.mp4"
+        ],
+        // opis
+        desc: "porque[POR-keh] - because",
+        //zdanie
+        sentence2: [
+                "porque"
+        ],
+                                                    sentence1b: [
+            "becouse"
+        ],
+                sentence1c: [
+            "POR-keh"
+        ],
+                sentence: [
+                "porque",
+                "necesito",
+                "más",
+                "dinero"
+        ],
+        //  slowo do nauki
+        key: "porque",
+        category1: [
+        ],
+        category2: ["osoby", "osoby+czas"],
+                category3: ["Infinitive"]
+},
+        {
+id: [
+        201,
+        38,
+        69
+],
+    entries: [
+        {
+            id: 1,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1en-esp/201a.jpg",
+                alt: ""
+            },
+            story: {
+                text: "A <u><b>ne</u></b>gative feature of suc<u><b>cess</u></b> is that you <u><b>need</u></b> it more, and it is annoying like a mosq<u><b>uito</u></b>",
+                alt: ""
+            },
+            category: ["", ""]
+        }
+    ],
+        word: [
+                "https://www.arbulang.com/voice/music.mp4"
+        ],
+        // opis
+        desc: "necesito[neh-seh-SEE-toh] - need",
+        //zdanie
+        sentence2: [
+                "necesito"
+        ],
+                                                    sentence1b: [
+            "need"
+        ],
+                sentence1c: [
+            "neh-seh-SEE-toh"
+        ],
+                sentence: [
+                "porque",
+                "necesito",
+                "más",
+                "dinero"
+        ],
+        //  slowo do nauki
+        key: "necesito",
+        category1: [
+        ],
+        category2: ["osoby", "osoby+czas"],
+                category3: ["Infinitive"]
+},
+        {
+id: [
+        202,
+        38,
+        69
+],
+    entries: [
+        {
+            id: 1,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1en-esp/202a.jpg",
+                alt: ""
+            },
+            story: {
+                text: "<u><b>Mass</u></b>ive advertising is much <u><b>more</u></b> effective",
+                alt: ""
+            },
+            category: ["", ""]
+        }
+    ],
+        word: [
+                "https://www.arbulang.com/voice/music.mp4"
+        ],
+        // opis
+        desc: "más[mahs] - more",
+        //zdanie
+        sentence2: [
+                "más"
+        ],
+                                                    sentence1b: [
+            "more"
+        ],
+                sentence1c: [
+            "mahs"
+        ],
+                sentence: [
+                "porque",
+                "necesito",
+                "más",
+                "dinero"
+        ],
+        //  slowo do nauki
+        key: "mas",
+        category1: [
+        ],
+        category2: ["osoby", "osoby+czas"],
+                category3: ["Infinitive"]
+},
+        {
+id: [
+        203,
+        38,
+        69
+],
+    entries: [
+        {
+            id: 1,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1en-esp/203a.jpg",
+                alt: ""
+            },
+            story: {
+                text: "I'm J<u><b>ero</u></b>me, I buy <u><b>dinn</u></b>er for my <u><b>money</u></b>",
+                alt: ""
+            },
+            category: ["", ""]
+        }
+    ],
+        word: [
+                "https://www.arbulang.com/voice/music.mp4"
+        ],
+        // opis
+        desc: "dinero[dee-NEH-roh] - money",
+        //zdanie
+        sentence2: [
+                "dinero"
+        ],
+                                                    sentence1b: [
+            "money"
+        ],
+                sentence1c: [
+            "dee-NEH-roh"
+        ],
+                sentence: [
+                "porque",
+                "necesito",
+                "más",
+                "dinero"
+        ],
+        //  slowo do nauki
+        key: "dinero",
+        category1: [
+        ],
+        category2: ["osoby", "osoby+czas"],
+                category3: ["Infinitive"]
+},
+        {
+id: [
+        204,
+        39,
+        70
+],
+    entries: [
+        {
+            id: 1,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1en-esp/204a.jpg",
+                alt: ""
+            },
+            story: {
+                text: "A good strategy for <u><b>emp</b></u>athy is to learn soft skills from a <u><b>company</u></b> that <u><b>re</u></b>gularly improves them and will really <u><b>su</u></b>pport you",
+                alt: ""
+            },
+            category: ["", ""]
+        }
+    ],
+        translate: "The company is going through a difficult time",
+        translateb: "[lah ehm-PREH-sah ah-trah-BYEH-sah oon moh-MEHN-toh dee-FEE-seel]",
+        srcWord: ["", ''],
+        srcWordimage: "",
+        word: [
+                "https://www.arbulang.com/voice/music.mp4"
+        ],
+        // opis
+        desc: "la empresa[lah ehm-PREH-sah] - company",
+        //zdanie
+        sentence1: [
+                "La_empresa"
+        ],
+                                                    sentence1b: [
+            "The_company"
+        ],
+                sentence1c: [
+            "lah ehm-PREH-sah"
+        ],
+        sentence: [
+                "La empresa",
+                "atraviesa"
+        ],
+        //  slowo do nauki
+        key: "empresa",
+        category1: [
+        ],
+        category2: ["osoby", "osoby+czas"],
+                category3: ["Present Indicative"]
+},
+        {
+id: [
+        205,
+        39,
+        70
+],
+    entries: [
+        {
+            id: 1,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1en-esp/205a.jpg",
+                alt: ""
+            },
+            story: {
+                text: "As we go through the process, everyone <u><b>crosses</u></b> difficult times, and we need to <u><b>attra</u></b>ct positivity to <u><b>bea</u></b>t our d<u><b>e</u></b>mons and make <u><b>sa</u></b>crifices.",
+                alt: ""
+            },
+            category: ["", ""]
+        }
+    ],
+        word: [
+                "https://www.arbulang.com/voice/music.mp4"
+        ],
+        // opis
+        desc: "atraviesa[ah-trah-BYEH-sah] - crosses",
+        //zdanie
+        sentence1: [
+                "atraviesa"
+        ],
+                                                    sentence1b: [
+            "crosses"
+        ],
+                sentence1c: [
+            "ah-trah-BYEH-sah"
+        ],
+        sentence: [
+                "La empresa",
+                "atraviesa"
+        ],
+        //  slowo do nauki
+        key: "atraviesa",
+        category1: [
+        ],
+        category2: ["osoby", "osoby+czas"],
+                category3: ["Infinitive"]
+},
+        {
+id: [
+        206,
+        39,
+        71
+],
+    entries: [
+        {
+            id: 1,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1en-esp/205a.jpg",
+                alt: ""
+            },
+            story: {
+                text: "",
+                alt: ""
+            },
+            category: ["", ""]
+        }
+    ],
+        word: [
+                "https://www.arbulang.com/voice/music.mp4"
+        ],
+        // opis
+        desc: "un[oon] - a",
+        //zdanie
+        sentence2: [
+                "un"
+        ],
+                                                    sentence1b: [
+            "a"
+        ],
+                sentence1c: [
+            "oon"
+        ],
+        sentence: [
+                "un",
+                "momento",
+                "dificil"
+        ],
+        //  slowo do nauki
+        key: "un",
+        category1: [
+        ],
+        category2: ["osoby", "osoby+czas"],
+                category3: ["Infinitive"]
+},
+        {
+id: [
+        207,
+        39,
+        71
+],
+    entries: [
+        {
+            id: 1,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1en-esp/207a.jpg",
+                alt: ""
+            },
+            story: {
+                text: "COGNATS - MOMENTO - MOMENT",
+                alt: ""
+            },
+            category: ["", ""]
+        }
+    ],
+        word: [
+                "https://www.arbulang.com/voice/music.mp4"
+        ],
+        // opis
+        desc: "momento[moh-MEHN-toh] - moment",
+        //zdanie
+        sentence2: [
+                "momento"
+        ],
+                                                    sentence1b: [
+            "moment"
+        ],
+                sentence1c: [
+            "moh-MEHN-toh"
+        ],
+        sentence: [
+                "un",
+                "momento",
+                "dificil"
+        ],
+        //  slowo do nauki
+        key: "momento",
+        category1: [
+        ],
+        category2: ["osoby", "osoby+czas"],
+                category3: ["Infinitive"]
+},
+        {
+id: [
+        208,
+        39,
+        71
+],
+    entries: [
+        {
+            id: 1,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1en-esp/208a.jpg",
+                alt: ""
+            },
+            story: {
+                text: "A <u><b>difference</b></u> between a normal soldier and a <u><b>Navy Seal</b></u> is huge",
+                alt: ""
+            },
+            category: ["", ""]
+        }
+    ],
+        word: [
+                "https://www.arbulang.com/voice/music.mp4"
+        ],
+        // opis
+        desc: "dificil[dee-FEE-seel] - diffsicult",
+        //zdanie
+        sentence2: [
+                "dificil"
+        ],
+                                                    sentence1b: [
+            "dificult"
+        ],
+                sentence1c: [
+            "dee-FEE-seel"
+        ],
+        sentence: [
+                "un",
+                "momento",
+                "dificil"
+        ],
+        //  slowo do nauki
+        key: "dificil",
+        category1: [
+        ],
+        category2: ["osoby", "osoby+czas"],
+                category3: ["Infinitive"]
+},
+{
+id: [
+        209,
+        40,
+        72
+],
+    entries: [
+        {
+            id: 1,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1en-esp/209a.jpg",
+                alt: ""
+            },
+            story: {
+                text: "",
+                alt: ""
+            },
+            category: ["", ""]
+        }
+    ],
+        translate: "I was worried about people's reaction",
+        translateb: "[meh preh-oh-koo-PAH-bah lah reh-ahk-SYON deh lah HEN-teh]",
+        srcWord: ["", ''],
+        srcWordimage: "",
+        word: [
+                "https://www.arbulang.com/voice/music.mp4"
+        ],
+        // opis
+        desc: "me[meh] - me",
+        //zdanie
+        sentence1: [
+                "Me"
+        ],
+                                                    sentence1b: [
+            "I"
+        ],
+                sentence1c: [
+            "meh"
+        ],
+        sentence: [
+                "Me",
+                "preocupaba"
+        ],
+        //  slowo do nauki
+        key: "me",
+        category1: [
+        ],
+        category2: ["osoby", "osoby+czas"],
+                category3: ["Present Indicative"]
+},
+        {
+id: [
+        210,
+        40,
+        72
+],
+    entries: [
+        {
+            id: 1,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1en-esp/210a.jpg",
+                alt: ""
+            },
+            story: {
+                text: "",
+                alt: ""
+            },
+            category: ["", ""]
+        }
+    ],
+        word: [
+                "https://www.arbulang.com/voice/music.mp4"
+        ],
+        // opis
+        desc: "preocupaba[preh-oh-koo-PAH-bah] - worried",
+        //zdanie
+        sentence2: [
+                "preocupaba"
+        ],
+                                                    sentence1b: [
+            "was worried"
+        ],
+                sentence1c: [
+            "preh-oh-koo-PAH-bah"
+        ],
+        sentence: [
+                "Me",
+                "preocupaba"
+        ],
+        //  slowo do nauki
+        key: "preocupaba",
+        category1: [
+        ],
+        category2: ["osoby", "osoby+czas"],
+                category3: ["Infinitive"]
+},
+        {
+id: [
+        211,
+        40,
+        73
+],
+    entries: [
+        {
+            id: 1,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1en-esp/211a.jpg",
+                alt: ""
+            },
+            story: {
+                text: "COGNATS: LA REACCION - REACTION",
+                alt: ""
+            },
+            category: ["", ""]
+        }
+    ],
+        word: [
+                "https://www.arbulang.com/voice/music.mp4"
+        ],
+        // opis
+        desc: "la reacción[lah reh-ahk-SYON] - reaction",
+        //zdanie
+        sentence2: [
+                "la reacción"
+        ],
+                                                    sentence1b: [
+            "reaction"
+        ],
+                sentence1c: [
+            "lah reh-ahk-SYON"
+        ],
+        sentence: [
+                "la reacción",
+                "de",
+                "la gente"
+        ],
+        //  slowo do nauki
+        key: "reaccion",
+        category1: [
+        ],
+        category2: ["osoby", "osoby+czas"],
+                category3: ["Infinitive"]
+},
+        {
+id: [
+        212,
+        40,
+        73
+],
+    entries: [
+        {
+            id: 1,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1en-esp/212a.jpg",
+                alt: ""
+            },
+            story: {
+                text: "COGNATS: LA REACCION - REACTION",
+                alt: ""
+            },
+            category: ["", ""]
+        }
+    ],
+        word: [
+                "https://www.arbulang.com/voice/music.mp4"
+        ],
+        // opis
+        desc: "de[] - ",
+        //zdanie
+        sentence2: [
+                "de"
+        ],
+                                                    sentence1b: [
+            ""
+        ],
+                sentence1c: [
+            ""
+        ],
+        sentence: [
+                "la reacción",
+                "de",
+                "la gente"
+        ],
+        //  slowo do nauki
+        key: "de",
+        category1: [
+        ],
+        category2: ["osoby", "osoby+czas"],
+                category3: ["Infinitive"]
+},
+        {
+id: [
+        213,
+        40,
+        73
+],
+    entries: [
+        {
+            id: 1,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1en-esp/213a.jpg",
+                alt: ""
+            },
+            story: {
+                text: "Henderson has many poeple in his factory who creat technology device",
+                alt: ""
+            },
+            category: ["", ""]
+        }
+    ],
+        word: [
+                "https://www.arbulang.com/voice/music.mp4"
+        ],
+        // opis
+        desc: "la gente[lah HEN-teh] - people",
+        //zdanie
+        sentence2: [
+                "la gente"
+        ],
+                                                    sentence1b: [
+            "people"
+        ],
+                sentence1c: [
+            "lah HEN-teh"
+        ],
+        sentence: [
+                "la reacción",
+                "de",
+                "la gente"
+        ],
+        //  slowo do nauki
+        key: "gente",
+        category1: [
+        ],
+        category2: ["osoby", "osoby+czas"],
+                category3: ["Infinitive"]
 }
 ];
 console.log('✅ createSentenceMatrix loaded');
@@ -9376,15 +10187,17 @@ const matrixIndex = matrixCountBySentence[key]++;
             const entry = desc[startIndex + i];
 const $cell = $('<div>')
     .css({
-        flex: '1 1 140px',   // 🔥 zamiast stałej szerokości
-        maxWidth: '220px',   // ograniczenie żeby nie rosło za bardzo
-        height: '150px',
+        flex: '1 1 140px',
+        maxWidth: '220px',
+        minHeight: '150px', // zamiast height
         border: '2px solid #000',
         borderRadius: '12px',
         display: 'flex',
         flexDirection: 'column',
         alignItems: 'center',
-        justifyContent: 'center'
+        justifyContent: 'flex-start', // ważne
+        padding: '10px',
+        boxSizing: 'border-box'
 });
 
             // 🔥 TRYB APPROVE
@@ -9406,7 +10219,7 @@ if (entry) {
         .html(entry) // entry2 to Twój opis
         .css({
             marginTop: '4px',
-            fontSize: '25px',
+            fontSize: '20px',
             textAlign: 'center',
             color: '#333',
             overflow: 'hidden',
@@ -10083,121 +10896,7 @@ if (imgIndex === undefined || imgIndex === null) {
         wordDiv.append(audio);
         wordDiv.append(audioplayerDiv);
         fiszkaContainer.append(wordDiv);
-// WRAPPER główny dla wszystkich zestawów przycisków
-// WRAPPER główny dla wszystkich zestawów przycisków
-let ttsWrapper = $('<div>').css({
-    display: 'flex',
-    justifyContent: 'center'
-});
 
-// ===== PIERWSZY ZESTAW: przycisk + napis =====
-let firstItem = $('<div>').css({
-    display: 'inline-flex',
-    alignItems: 'center',
-    gap: '6px',
-    border: '1px solid rgb(0, 0, 0)',
-    padding: '4px 8px',
-    borderRadius: '6px',
-    marginBottom: '10px',
-    marginTop: '10px',
-    cursor: 'pointer',
-    height: '36px',
-    transition: 'background-color 0.2s'
-});
-
-// hover działający w jQuery
-firstItem.on('mouseenter', function() {
-    $(this).css('background-color', 'green');
-}).on('mouseleave', function() {
-    $(this).css('background-color', '');
-});
-
-// kliknięcie całego zestawu
-firstItem.on('click', function() {
-    console.log("CLICK - TTS Play (cały zestaw)");
-    readOnlyZlepkiABCD(fiszkaContainer[0]);
-});
-
-// Ikona
-let ttsImg = $('<img>')
-    .attr('src', 'https://www.arbulang.com/img/play.png')
-    .attr('alt', 'Czytaj')
-    .addClass('tts-icon')
-    .css({
-        width: '24px',
-        height: '24px'
-    });
-
-// Label
-let ttsLabel = $('<span>')
-    .text('Combine parts')
-    .css({
-        fontSize: '30px',
-        fontWeight: '600',
-        color: '#000',
-        whiteSpace: 'nowrap'
-    });
-
-// składamy pierwszy zestaw
-firstItem.append(ttsImg, ttsLabel);
-
-// ===== DRUGI ZESTAW: przycisk + napis =====
-let secondItem = $('<div>').css({
-    display: 'inline-flex',
-    alignItems: 'center',
-    gap: '6px',
-    border: '1px solid rgb(0, 0, 0)',
-    padding: '4px 8px',
-    borderRadius: '6px',
-    marginBottom: '10px',
-        marginBottom: '10px',
-    marginTop: '10px',
-    cursor: 'pointer',
-    height: '36px',
-    transition: 'background-color 0.2s'
-});
-
-// hover dla drugiego zestawu
-secondItem.on('mouseenter', function() {
-    $(this).css('background-color', 'green');
-}).on('mouseleave', function() {
-    $(this).css('background-color', '');
-});
-
-// kliknięcie całego zestawu
-secondItem.on('click', function() {
-    console.log("CLICK - Odczytaj historyjkę (cały zestaw)");
-    readStoryFromFiszka(fiszkaContainer[0]);
-});
-
-// Ikona
-let storyImg = $('<img>')
-    .attr('src', 'https://www.arbulang.com/img/play.png')
-    .attr('alt', 'Odczytaj historyjkę')
-    .addClass('tts-icon')
-    .css({
-        width: '24px',
-        height: '24px'
-    });
-
-// Label
-let storyLabel = $('<span>')
-    .text('Read the story')
-    .css({
-        fontSize: '30px',
-        fontWeight: '600',
-        color: '#000',
-        whiteSpace: 'nowrap'
-    });
-
-// składamy drugi zestaw
-secondItem.append(storyImg, storyLabel);
-
-// dodajemy oba zestawy do głównego wrappera
-ttsWrapper.append(firstItem, secondItem);
-
-// dodajemy do kontenera fiszki
-fiszkaContainer.append(ttsWrapper);
 // --- Tworzenie przycisku Zatwierdź ---
 const isMultiVersion = Array.isArray(fiszka.entries) && fiszka.entries.length > 1;
 // Tworzymy przycisk Zatwierdź tylko jeśli jest wiele wersji

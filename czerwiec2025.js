@@ -75,5 +75,63 @@ window.fiszki10_part1 = [
         textPL: [
             `Każda kobieta jest w jakiś sposób jaszczurką. Ta, która się z tym identyfikuje może dyktować innym kobietom jakie są trendy. Widać to na etapie gotowania - kobieta: poluje, doskakuje, zjada. Dlatego mózg gadzi może być wychowany, ale nie musi. Spotkanie z dzieckiem następuje nawet kilka lat przed jego narodzinami (nawet 10 lat wcześniej), dlatego kobiety walczą o życie od poczęcia, bowiem intuicyjnie - społecznie możliwości zrozumienia jakie będzie jej dziecko może się skrócić. To znaczy, że kobieta zabijając dziecko pobiera od niego energię w taki sposób, że aż musi je zabić. Oczywiście może wampiryzować nawet jak dziecko jest narodzone - dlatego wiedza o tym jakie będzie miała dziecko jest bardzo ważna - to tworzy jej jakość relacji z partnerem itp. Idealną sytuacją jest kiedy kobieta oddaje energię dziecku a nie ją zabiera. Dlatego sytuację jakie ją spotykają mają na celu troszczyć się zamiast otrzymywać.`
         ]
-    }
+    },
+                {
+            id: [
+            6
+        ],
+        data: [
+            "6 czerwiec"
+        ],
+        textPL: [
+            `Jeśli rodzice mają nadwyżkę energii to oczywiście byli by atakowani przez innych 'za ich młodość' - (mają ją ode mnie). Dlatego idealnym rozwiązaniem 
+            jest 'zaatakowanie' syna - przez to on będzie miał mniej energii a w konsekwencji oni. Widać jak na dłoni, że społeczeństwo radzi sobie z takimi osobami doskonale 
+            i rodzice 'mieli' siłę, aby składać kolejne wnioski do Sądu itp. Dlatego 'obmawianie' drugiej osoby nie jest tylko obmawianiem - to oszacowanie swojej energii 
+            żywotnej - że jest w nadwyżce i może ona posłużyć do ewentualnego ataku. Dlatego 'zlewanie' nie działa prawie wcale - człowiek oszukuje się że się nie przejmuje 
+            a jest bardziej niż zastraszony. Dlatego tak działają mafie - informacja jest na tyle niebezpieczna, że może decydować o kogoś życiu lub śmierci - nawet ta nieprawdziwa. 
+            Dlatego na miłość nie można sobie pozwolić - bo wtedy idzie za tym (dobrą relacją) fizyczność czyli majątki itp. Kobieta łatwiej dostrzega duchowość, ale trudniej jej 
+            jest ją wyzwolić gdy nie jest na poziomie fizycznym zabezpieczona - taki właśnie mechanizm został względem mnie zastosowany - i to zrobiły kobiety (które miały pozycję, 
+            ale jakość ich duchowości w stosunku do mnie pokazywał ich braki). Mężczyzna jest bardziej fizyczny, ale bardziej cierpi (w przeciwieństwie do kobiety) kiedy jego 
+            duchowość nie daje mu spełnienia. To znaczy wtedy ufizycznia się jeszcze bardziej, bo ma zasilanie fizyczne a duchowość kuleje. Jing i Jang.`
+        ]
+    },
+                    {
+            id: [
+            7
+        ],
+        data: [
+            "7 czerwiec"
+        ],
+        textPL: [
+            `Normalnie to wygląda tak, że wpłacamy jakąś ilość energii i zgadzamy się, że będziemy wobec tego ulegli w zamian za taką czy inną wypowiedź polityka, 
+            która sprawi, że egregor do, którego przynależymy - staniemy się wtedy poprzez niego bardziej witalnii, jurni. Dlatego nie chce być tylko Polakiem... (zastanówcie 
+            się dlaczego), ale Światowcem. W ten sposób cały świat należy do mnie a w konsekwencji nie decyduje o moim losie, moim samopoczuciu, moich zarobkach jakiś Anglik 
+            lub Amerykanin, który czerpie satysfakcję z tego - że gdzieś tam w Polsce zarabia się mniej. Dlatego właśnie mam prawo mówić - nie dlatego, że znam angielski, ale 
+            dlatego, że widzę ograniczenia świata - NIE swoje czy Polaków.`
+        ]
+    },
+                        {
+            id: [
+            8
+        ],
+        data: [
+            "7 czerwiec"
+        ],
+        textPL: [
+            `Tak mógł Jezus powiedzieć: wysoki Sądzie - nic na mnie nie macie... tylko przewyższam was inteligencją. W dzisiejszych czasach - adwokat (tak powinien 
+            powiedzieć). Dobry adwokat powie (lub pomyśli): mój klient to jakiś debil i czasami wygra jego sprawę, ale w nadziei, że jego klient przegra kolejną sprawę. O ile 
+            w ogóle dojdzie do procesu.`
+        ]
+    },
+                            {
+            id: [
+            9
+        ],
+        data: [
+            "8 czerwiec"
+        ],
+        textPL: [
+            ``
+        ]
+    },
 ];

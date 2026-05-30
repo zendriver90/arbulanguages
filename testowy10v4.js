@@ -2113,13 +2113,13 @@ id: [
             "<u><b>To</u></b> <u><b>wszystko</u></b> <u><b>dos</u></b>taniecie w naszym sklepie"
         ],
         // opis
-        desc: "donde de[] - ",
+        desc: "donde[] - ",
         //zdanie
         sentence1: [
-                "donde de"
+                "donde"
         ],
         sentence: [
-                "donde de",
+                "donde",
                 "la gente",
                 "se",
                 "conoce",
@@ -2155,7 +2155,7 @@ id: [
                 "la gente"
         ],
         sentence: [
-                "donde de",
+                "donde",
                 "la gente",
                 "se",
                 "conoce",
@@ -2191,7 +2191,7 @@ id: [
                 "se"
         ],
         sentence: [
-                "donde de",
+                "donde",
                 "la gente",
                 "se",
                 "conoce",
@@ -2227,7 +2227,7 @@ id: [
                 "conoce"
         ],
         sentence: [
-                "donde de",
+                "donde",
                 "la gente",
                 "se",
                 "conoce",
@@ -2263,7 +2263,7 @@ id: [
                 "bien"
         ],
         sentence: [
-                "donde de",
+                "donde",
                 "la gente",
                 "se",
                 "conoce",

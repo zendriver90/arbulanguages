@@ -4257,19 +4257,40 @@ function attachArrowNavigation($sentenceBlock, indexDiv) {
 
             $textContainer.append($singleLinkA, $tripletLinkA);
 
-            // --- Nawigacja w obrębie trójki ---
-            const $nav = $('<div>').addClass('nav-buttons');
-            const $left = $('<button>').text('←').on('click', () => {
-                currentPos = (currentPos - 1 + currentTriplet.length) % currentTriplet.length;
-                videoVisible = false;
-                renderLesson();
-            });
-            const $right = $('<button>').text('→').on('click', () => {
-                currentPos = (currentPos + 1) % currentTriplet.length;
-                videoVisible = false;
-                renderLesson();
-            });
-            $nav.append($left, $right);
+const $nav = $('<div>').addClass('nav-buttons');
+
+// ← strzałka
+const $left = $('<button>').text('←').on('click', () => {
+    currentPos = (currentPos - 1 + currentTriplet.length) % currentTriplet.length;
+    videoVisible = false;
+    renderLesson();
+});
+
+$nav.append($left);
+
+// 🔢 przyciski lekcji (1 / 2 / 3 – zależne od indexDiv)
+currentTriplet.forEach((lessonIndexDiv, i) => {
+    const $btn = $('<button>')
+        .addClass('lesson-indicator')
+        .toggleClass('active', i === currentPos)
+        .text(lessonIndexDiv) // ← tu masz cyfrę zależną od indexDiv
+        .on('click', () => {
+            currentPos = i;
+            videoVisible = false;
+            renderLesson();
+        });
+
+    $nav.append($btn);
+});
+
+// → strzałka
+const $right = $('<button>').text('→').on('click', () => {
+    currentPos = (currentPos + 1) % currentTriplet.length;
+    videoVisible = false;
+    renderLesson();
+});
+
+$nav.append($right);
 
             $container.append($mediaContainer, $textContainer, $nav);
         }

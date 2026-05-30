@@ -39021,14 +39021,17 @@ const matrixIndex = matrixCountBySentence[key]++;
             const entry = desc[startIndex + i];
 const $cell = $('<div>')
     .css({
-        width: '100%',
-maxWidth: '900px', // opcjonalnie jeśli chcesz ograniczenie
-    border: '2px solid #000',
-    borderRadius: '12px',   // 👈 tutaj dodany border-radius
-    display: 'flex',
-    flexDirection: 'column',
-    alignItems: 'center',
-    justifyContent: 'center'
+        flex: '1 1 140px',
+        maxWidth: '220px',
+        minHeight: '150px', // zamiast height
+        border: '2px solid #000',
+        borderRadius: '12px',
+        display: 'flex',
+        flexDirection: 'column',
+        alignItems: 'center',
+        justifyContent: 'flex-start', // ważne
+        padding: '10px',
+        boxSizing: 'border-box'
 });
 
             // 🔥 TRYB APPROVE
@@ -39050,7 +39053,7 @@ if (entry) {
         .html(entry) // entry2 to Twój opis
         .css({
             marginTop: '4px',
-            fontSize: '25px',
+            fontSize: '20px',
             textAlign: 'center',
             color: '#333',
             overflow: 'hidden',
@@ -39726,121 +39729,7 @@ if (imgIndex === undefined || imgIndex === null) {
         wordDiv.append(audio);
         wordDiv.append(audioplayerDiv);
         fiszkaContainer.append(wordDiv);
-// WRAPPER główny dla wszystkich zestawów przycisków
-// WRAPPER główny dla wszystkich zestawów przycisków
-let ttsWrapper = $('<div>').css({
-    display: 'flex',
-    justifyContent: 'center'
-});
 
-// ===== PIERWSZY ZESTAW: przycisk + napis =====
-let firstItem = $('<div>').css({
-    display: 'inline-flex',
-    alignItems: 'center',
-    gap: '6px',
-    border: '1px solid rgb(0, 0, 0)',
-    padding: '4px 8px',
-    borderRadius: '6px',
-    marginBottom: '10px',
-    marginTop: '10px',
-    cursor: 'pointer',
-    height: '36px',
-    transition: 'background-color 0.2s'
-});
-
-// hover działający w jQuery
-firstItem.on('mouseenter', function() {
-    $(this).css('background-color', 'green');
-}).on('mouseleave', function() {
-    $(this).css('background-color', '');
-});
-
-// kliknięcie całego zestawu
-firstItem.on('click', function() {
-    console.log("CLICK - TTS Play (cały zestaw)");
-    readOnlyZlepkiABCD(fiszkaContainer[0]);
-});
-
-// Ikona
-let ttsImg = $('<img>')
-    .attr('src', 'https://www.arbulang.com/img/play.png')
-    .attr('alt', 'Czytaj')
-    .addClass('tts-icon')
-    .css({
-        width: '24px',
-        height: '24px'
-    });
-
-// Label
-let ttsLabel = $('<span>')
-    .text('Połącz zlepki')
-    .css({
-        fontSize: '14px',
-        fontWeight: '600',
-        color: '#000',
-        whiteSpace: 'nowrap'
-    });
-
-// składamy pierwszy zestaw
-firstItem.append(ttsImg, ttsLabel);
-
-// ===== DRUGI ZESTAW: przycisk + napis =====
-let secondItem = $('<div>').css({
-    display: 'inline-flex',
-    alignItems: 'center',
-    gap: '6px',
-    border: '1px solid rgb(0, 0, 0)',
-    padding: '4px 8px',
-    borderRadius: '6px',
-    marginBottom: '10px',
-        marginBottom: '10px',
-    marginTop: '10px',
-    cursor: 'pointer',
-    height: '36px',
-    transition: 'background-color 0.2s'
-});
-
-// hover dla drugiego zestawu
-secondItem.on('mouseenter', function() {
-    $(this).css('background-color', 'green');
-}).on('mouseleave', function() {
-    $(this).css('background-color', '');
-});
-
-// kliknięcie całego zestawu
-secondItem.on('click', function() {
-    console.log("CLICK - Odczytaj historyjkę (cały zestaw)");
-    readStoryFromFiszka(fiszkaContainer[0]);
-});
-
-// Ikona
-let storyImg = $('<img>')
-    .attr('src', 'https://www.arbulang.com/img/play.png')
-    .attr('alt', 'Odczytaj historyjkę')
-    .addClass('tts-icon')
-    .css({
-        width: '24px',
-        height: '24px'
-    });
-
-// Label
-let storyLabel = $('<span>')
-    .text('Odczytaj historyjkę')
-    .css({
-        fontSize: '14px',
-        fontWeight: '600',
-        color: '#000',
-        whiteSpace: 'nowrap'
-    });
-
-// składamy drugi zestaw
-secondItem.append(storyImg, storyLabel);
-
-// dodajemy oba zestawy do głównego wrappera
-ttsWrapper.append(firstItem, secondItem);
-
-// dodajemy do kontenera fiszki
-fiszkaContainer.append(ttsWrapper);
 // --- Tworzenie przycisku Zatwierdź ---
 const isMultiVersion = Array.isArray(fiszka.entries) && fiszka.entries.length > 1;
 // Tworzymy przycisk Zatwierdź tylko jeśli jest wiele wersji

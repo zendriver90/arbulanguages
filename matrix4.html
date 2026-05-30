@@ -1,6 +1,3 @@
-
-
-
 <!DOCTYPE html>
 <html>
     <head>
@@ -13,10 +10,7 @@
         <link rel="stylesheet" type="text/css" href="css/1nowe-pc.css">
         <script src="js/story.js"></script>
         <script src="js/storage.js"></script>
-        <script src="testowy10.js"></script>
-                <script src="testowy10v2.js"></script>
-                        <script src="testowy10v3.js"></script>
-                                                <script src="testowy10v4.js"></script>
+                <script src="start/testowy12.js"></script>
         <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
         <meta charset="UTF-8">
         <title>arbulang.com</title>
@@ -2328,23 +2322,19 @@ input {
                 <a href="demo1angielski.html?category=zwiazki&data=4,5,6" class="hidden-link lesson-link-1b" target="_blank" rel="noopener noreferrer">Przejdź do lekcji 2</a>
 
 <h1>arbulang.com</h1>
-    <h2>ARBU ŚWIAT</h2>
-        <div class="horizontal-bar" id="horizontalBar1">
-            <button id="myButton">ANGIELSKI</button>
-            <button id="myButton2">HISZPAŃSKI</button>
-        </div>
+    <h2>ARBU WORLD</h2>
         <div class="horizontal-bar" id="horizontalBar2">
         </div>
         <div class="container">
-            <div class="side-menu">
-                <button onclick="showImages('set1')">PRZEBYTE LEKCJE</button>
-                <button onclick="showImages('set2')">LEKCJE STWORZONE INDYWIDUALNIE</button>
-                <button onclick="showImages('set3')">SŁÓWKA KTÓRE ZNAM</button>
-                <button onclick="showImages('set4')">SŁÓWKA TRENING</button>
-                <button onclick="showImages('set2')">SŁÓWKA NAUCZONE</button>
-                <button onclick="showImages('set1')">POLUBIONE SŁOWKA</button>
-                <button onclick="showImages('set2')">SŁÓWKA TEMATYCZNE</button>
-            </div>
+<div class="side-menu">
+    <button onclick="showImages('set1')">COMPLETED LESSONS</button>
+    <button onclick="showImages('set2')">CUSTOM LESSONS</button>
+    <button onclick="showImages('set3')">WORDS I KNOW</button>
+    <button onclick="showImages('set4')">WORD TRAINING</button>
+    <button onclick="showImages('set2')">LEARNED WORDS</button>
+    <button onclick="showImages('set1')">FAVORITE WORDS</button>
+    <button onclick="showImages('set2')">THEMATIC WORDS</button>
+</div>
             <div class="content-container">
                 <div id="matchingButtonsContainer" style="margin-top: 10px;"></div>
                 <p id="key3Result"></p>
@@ -2387,8 +2377,8 @@ input {
     font-size: 18px;
     z-index: 9999;
 ">
-    Przejrzane słowa: <span id="wordCounter">0</span>
-</div>                                                                                        <script src="start/miniatury-prezentacja2.js"></script>
+    Palabras revisadas: <span id="wordCounter">0</span>
+</div>                                                                                        <script src="miniatury-prezentacja4.js"></script>
     
         <script>
             const SIGNED_TOKEN = "dummySignedToken";
@@ -2411,6 +2401,34 @@ $(".floating-btn").css({
     boxShadow: "0 4px 6px rgba(0,0,0,0.2)",
     zIndex: 999999999999
 });
+function getUniqueWordArray(fiszkiArray) {
+  const seen = new Set();
+  const words = [];
+
+  fiszkiArray.forEach(fiszka => {
+    if (fiszka.key && !seen.has(fiszka.key)) {
+      seen.add(fiszka.key);
+      words.push(fiszka.key);
+    }
+  });
+
+  return words;
+}
+
+function showUniqueWordsUpToLesson73() {
+
+  // 🔥 od początku do 73
+  const filtered = fiszki10.filter(f => 
+    f.id && f.id[0] <= 778
+  );
+
+  const uniqueWords = getUniqueWordArray(filtered);
+
+  document.getElementById('wordCounter').textContent = uniqueWords.length;
+
+  console.log("unikalne słowa:", uniqueWords);
+}
+showUniqueWordsUpToLesson73();
 
 // Flaga globalna
 let flagaPrzycisku = [];
@@ -2437,37 +2455,7 @@ $(document).on("click", "#startButton", function () {
     document.getElementById('adblockMessage').style.display = 'none';
     localStorage.setItem('adblockMessageClosed', 'true');
   }
-function getUniqueWordArray(fiszkiArray) {
-  const seen = new Set();
-  const words = [];
 
-  fiszkiArray.forEach(fiszka => {
-    if (fiszka.key && !seen.has(fiszka.key)) {
-      seen.add(fiszka.key);
-      words.push(fiszka.key);
-    }
-  });
-
-  return words;
-}
-
-function showUniqueWordsUpToLesson73() {
-
-  // 🔥 od początku do 73
-  const filtered = fiszki10.filter(f => 
-    f.id && f.id[0] <= 294
-  );
-
-  const uniqueWords = getUniqueWordArray(filtered);
-
-  document.getElementById('wordCounter').textContent = uniqueWords.length;
-
-  console.log("unikalne słowa:", uniqueWords);
-}
-showUniqueWordsUpToLesson73();
-
-// 👇 najczytelniejszy sposób — TABELA
-console.table('słowa', uniqueWords);
             const tablica20 = [];
             let buttonindex = false;
               // Zaznacz przycisk "Losowo" na początku
@@ -2505,7 +2493,6 @@ $(document).ready(function () {
   });
 });
 </script>
-                                    <script src="wyszukiwarka.js"></script>
             <script>
     
 
@@ -2637,41 +2624,6 @@ function showFiszkiForLesson5d(matchingFiszki1v, tablica41) {
                     }
                 }, 200); // 300 ms przerwy pomiędzy mignięciami
             }
-
-// Uruchomienie mignięcia po załadowaniu strony
-            window.onload = function () {
-                blinkButton();
-            };
-            document.getElementById('myButton').addEventListener('click', function () {
-                window.location.href = 'https://www.arbulang.com//matrix.html';
-            });
-            document.getElementById('myButton2').addEventListener('click', function () {
-                window.location.href = 'https://www.arbulang.com//matrix2.html';
-            });
-
-
-
-
-            function highlightButton(buttonId, horizontalBarId) {
-                // Reset all buttons in the specified horizontal bar to default style
-                document.querySelectorAll(`#${horizontalBarId} button`).forEach(button => {
-                    button.classList.remove('green-button');
-                });
-
-                // Highlight the clicked button
-                document.getElementById(buttonId).classList.add('green-button');
-            }
-
-            // Add event listeners to buttons in the first horizontal bar
-            document.getElementById('myButton').addEventListener('click', function () {
-                showVideos('set2');
-                highlightButton('myButton', 'horizontalBar1');
-            });
-
-            document.getElementById('myButton2').addEventListener('click', function () {
-                showVideos('set3');
-                highlightButton('myButton2', 'horizontalBar1');
-            });
 
 
             idpolski = false;

@@ -3468,7 +3468,7 @@ id: [
         ],
         // historia
         story: [
-            "This quiz is about how to use radar at sea. Everyone should take care of this quiz because it offers additional points"
+            "The <u><b>qui</u></b>z is about how to use a ra<u><b>dar</u></b> and take <u><b>care</u></b> of it"
         ],
         // opis
         desc: "cuidar[kwee-DAR] - care",
@@ -3501,17 +3501,17 @@ id: [
 ],
         // obrazek
         img: [
-                "https://www.arbulang.com/img/fiszki1en-esp/181a.jpg"
+                "https://www.arbulang.com/img/fiszki1en-esp/38a.jpg"
         ],
         word: [
                 "https://www.arbulang.com/voice/music.mp4"
         ],
         // historia
         story: [
-            "To <u><b>b</u></b>e <u><b>good</u></b> means saying “<u><b>yea</u></b>h” to the <u><b>n</u></b>ext opportunity"
+            "The moon in my <u><b>garden</u></b> is very <u><b>hard</u></b>, and it is an <u><b>el</u></b>ement of our <u><b>dinn</u></b>er"
         ],
         // opis
-        desc: "el jardin[] - ",
+        desc: "el jardin[el har-DEEN] - garden",
         //zdanie
         sentence2: [
                 "el_jardin"
@@ -3541,17 +3541,17 @@ id: [
 ],
         // obrazek
         img: [
-                "https://www.arbulang.com/img/fiszki1en-esp/181a.jpg"
+                "https://www.arbulang.com/img/fiszki1en-esp/56a.jpg"
         ],
         word: [
                 "https://www.arbulang.com/voice/music.mp4"
         ],
         // historia
         story: [
-            "To <u><b>b</u></b>e <u><b>good</u></b> means saying “<u><b>yea</u></b>h” to the <u><b>n</u></b>ext opportunity"
+            "<b><u>With</b></u> that button, we <b><u>con</b></u>trol everything"
         ],
         // opis
-        desc: "con[] - with",
+        desc: "con[kohn] - with",
         //zdanie
         sentence2: [
                 "con"
@@ -3582,17 +3582,17 @@ id: [
 ],
         // obrazek
         img: [
-                "https://www.arbulang.com/img/fiszki1en-esp/181a.jpg"
+                "https://www.arbulang.com/img/fiszki1en-esp/185a.jpg"
         ],
         word: [
                 "https://www.arbulang.com/voice/music.mp4"
         ],
         // historia
         story: [
-            "To <u><b>b</u></b>e <u><b>good</u></b> means saying “<u><b>yea</u></b>h” to the <u><b>n</u></b>ext opportunity"
+            "Television <b><u>a</b></u>ds often promote the value of <b><u>love</b></u> <b><u>more</b></u> than before"
         ],
         // opis
-        desc: "amor[] - ",
+        desc: "amor[ah-MOR] - love",
         //zdanie
         sentence2: [
                 "amor"
@@ -3623,17 +3623,19 @@ id: [
 ],
         // obrazek
         img: [
-                "https://www.arbulang.com/img/fiszki1en-esp/181a.jpg"
+                "https://www.arbulang.com/img/fiszki1en-esp/106a.jpg",
+                "https://www.arbulang.com/img/fiszki1en-esp/110a.jpg"
         ],
         word: [
                 "https://www.arbulang.com/voice/music.mp4"
         ],
         // historia
         story: [
-            "To <u><b>b</u></b>e <u><b>good</u></b> means saying “<u><b>yea</u></b>h” to the <u><b>n</u></b>ext opportunity"
+            "<b><u>Siii</b></u> im <b><u>always</b></u> saying <b><u>yeah</b></u> to good <b><u>pre</b></u>paration to journey",
+            "<b><u>S</b></u>port is good, <b><u>yeee</b></u> — and I <b><u>always</b></u> measure my skills on the co<b><u>mp</b></u>uter and <b><u>re</b></u>peat with better motivation"
         ],
         // opis
-        desc: "siempre[] - ",
+        desc: "siempre[SYEM-preh] - always",
         //zdanie
         sentence2: [
                 "siempre"
@@ -3664,7 +3666,7 @@ id: [
 ],
         // obrazek
         img: [
-                "https://www.arbulang.com/img/fiszki1en-esp/176a.jpg"
+                "https://www.arbulang.com/img/fiszki1en-esp/187a.jpg"
         ],
         translate: "To manage anxiety with deep breathing",
         translateb: "[oo-SAR mah-kee-YAH-heh boh-NEE-toh PAH-rah sen-TEER-seh byen]",
@@ -3675,10 +3677,10 @@ id: [
         ],
         // historia
         story: [
-            "This 'op<b><u>us</b></u>' is <b><u>use</b></u>d by other music st<b><u>ar</b></u>s"
+            "Keeping <b><u>tra</b></u>ck in the game causes a <b><u>tra</b></u>nce, and I <b><u>treat</b></u> every track differently because I know the game"
         ],
         // opis
-        desc: "tratar[] - ",
+        desc: "tratar[trah-TAR] - treat",
         //zdanie
         sentence1: [
                 "Tratar"
@@ -3708,17 +3710,17 @@ id: [
 ],
         // obrazek
         img: [
-                "https://www.arbulang.com/img/fiszki1en-esp/181a.jpg"
+                "https://www.arbulang.com/img/fiszki1en-esp/84a.jpg"
         ],
         word: [
                 "https://www.arbulang.com/voice/music.mp4"
         ],
         // historia
         story: [
-            "To <u><b>b</u></b>e <u><b>good</u></b> means saying “<u><b>yea</u></b>h” to the <u><b>n</u></b>ext opportunity"
+            "The plan for a rom<b><u>anc</u></b>e with <b><u>Pietro</u></b> caused a little <b><u>anxiety</u></b> in me, and my dad was nervous"
         ],
         // opis
-        desc: "la ansiedad[] - ",
+        desc: "la ansiedad[lah ahn-syeh-DAHD] - anxiety",
         //zdanie
         sentence2: [
                 "la_ansiedad"
@@ -3748,14 +3750,14 @@ id: [
 ],
         // obrazek
         img: [
-                "https://www.arbulang.com/img/fiszki1en-esp/181a.jpg"
+                "https://www.arbulang.com/img/fiszki1en-esp/56a.jpg"
         ],
         word: [
                 "https://www.arbulang.com/voice/music.mp4"
         ],
         // historia
         story: [
-            "To <u><b>b</u></b>e <u><b>good</u></b> means saying “<u><b>yea</u></b>h” to the <u><b>n</u></b>ext opportunity"
+            "<b><u>With</b></u> that button, we <b><u>con</b></u>trol everything"
         ],
         // opis
         desc: "con[] - with",
@@ -3789,17 +3791,17 @@ id: [
 ],
         // obrazek
         img: [
-                "https://www.arbulang.com/img/fiszki1en-esp/181a.jpg"
+                "https://www.arbulang.com/img/fiszki1en-esp/190a.jpg"
         ],
         word: [
                 "https://www.arbulang.com/voice/music.mp4"
         ],
         // historia
         story: [
-            "To <u><b>b</u></b>e <u><b>good</u></b> means saying “<u><b>yea</u></b>h” to the <u><b>n</u></b>ext opportunity"
+            "COGNATS: RESPIRATION - RESPIRACION"
         ],
         // opis
-        desc: "respiración[] - ",
+        desc: "respiración[reh-speeh-rah-THYON] - respiration",
         //zdanie
         sentence2: [
                 "respiración"
@@ -3830,17 +3832,17 @@ id: [
 ],
         // obrazek
         img: [
-                "https://www.arbulang.com/img/fiszki1en-esp/181a.jpg"
+                "https://www.arbulang.com/img/fiszki1en-esp/191a.jpg"
         ],
         word: [
                 "https://www.arbulang.com/voice/music.mp4"
         ],
         // historia
         story: [
-            "To <u><b>b</u></b>e <u><b>good</u></b> means saying “<u><b>yea</u></b>h” to the <u><b>n</u></b>ext opportunity"
+            "New <b><u>pro</b></u>-life govermant give special <b><u>fund</b></u>ation and it change <b><u>deeply</b></u> the sector"
         ],
         // opis
-        desc: "profunda[] - ",
+        desc: "profunda[] - profunda[proh-FOON-dah] – deep (feminine form; used with feminine nouns, e.g. respiración profunda)",
         //zdanie
         sentence2: [
                 "profunda"
@@ -3871,7 +3873,7 @@ id: [
 ],
         // obrazek
         img: [
-                "https://www.arbulang.com/img/fiszki1en-esp/187a.jpg"
+                "https://www.arbulang.com/img/fiszki1en-esp/192a.jpg"
         ],
         translate: "To long for peace all over the world",
         translateb: "[ahn-eh-LAHR pahs en TOH-doh el MOON-doh]",
@@ -3882,7 +3884,7 @@ id: [
         ],
         // historia
         story: [
-            ""
+            "<b><u>Ann</b></u> says <b><u>yeah</b></u> because he works with <b><u>Lar</b></u>a Croft, and Ann has always <b><u>yearned</b></u> for it"
         ],
         // opis
         desc: "anhelar[ahn-eh-LAHR] - yearn for",
@@ -3915,14 +3917,14 @@ id: [
 ],
         // obrazek
         img: [
-                "https://www.arbulang.com/img/fiszki1en-esp/188a.jpg"
+                "https://www.arbulang.com/img/fiszki1en-esp/166a.jpg"
         ],
         word: [
                 "https://www.arbulang.com/voice/music.mp4"
         ],
         // historia
         story: [
-            "New pro-life govermant give special fundation and it change deeply the sector"
+            "New pro-life goverment give special fundation and it change deeply the sector"
         ],
         // opis
         desc: "paz[pahs] – peace",
@@ -3955,7 +3957,7 @@ id: [
 ],
         // obrazek
         img: [
-                "https://www.arbulang.com/img/fiszki1en-esp/188a.jpg"
+                "https://www.arbulang.com/img/fiszki1en-esp/30a.jpg"
         ],
         word: [
                 "https://www.arbulang.com/voice/music.mp4"
@@ -3996,7 +3998,7 @@ id: [
 ],
         // obrazek
         img: [
-                "https://www.arbulang.com/img/fiszki1en-esp/188a.jpg"
+                "https://www.arbulang.com/img/fiszki1en-esp/195a.jpg"
         ],
         word: [
                 "https://www.arbulang.com/voice/music.mp4"
@@ -4037,7 +4039,7 @@ id: [
 ],
         // obrazek
         img: [
-                "https://www.arbulang.com/img/fiszki1en-esp/188a.jpg"
+                "https://www.arbulang.com/img/fiszki1en-esp/196a.jpg"
         ],
         word: [
                 "https://www.arbulang.com/voice/music.mp4"
@@ -4078,10 +4080,10 @@ id: [
 ],
         // obrazek
         img: [
-                "https://www.arbulang.com/img/fiszki1en-esp/187a.jpg"
+                "https://www.arbulang.com/img/fiszki1en-esp/197a.jpg"
         ],
         translate: "I work many hours because I need more money",
-        translateb: "[]",
+        translateb: "[trah-BAH-hoh MOO-chahs OH-rahs POR-keh neh-seh-SEE-toh mahs dee-NEH-roh]",
         srcWord: ["", ''],
         srcWordimage: "",
         word: [
@@ -4089,10 +4091,10 @@ id: [
         ],
         // historia
         story: [
-            ""
+            "My <u><b>who</u></b>le new audio <u><b>tra</u></b>ck that I currently <u><b>work</u></b> on is <u><b>ba</u></b>nned by my platform"
         ],
         // opis
-        desc: "trabajo[] - work",
+        desc: "trabajo[trah-BAH-hoh] - I work",
         //zdanie
         sentence1: [
                 "Trabajo"
@@ -4101,7 +4103,7 @@ id: [
             "Work"
         ],
                 sentence1c: [
-            ""
+            "trah-BAH-hoh"
         ],
         sentence: [
                 "Trabajo",
@@ -4123,30 +4125,26 @@ id: [
 ],
         // obrazek
         img: [
-                "https://www.arbulang.com/img/fiszki1en-esp/187a.jpg"
+                "https://www.arbulang.com/img/fiszki1en-esp/198a.jpg"
         ],
-        translate: "I work many hours because I need more money",
-        translateb: "[]",
-        srcWord: ["https://www.arbulang.com/filmy/esp/longforpeace.mp4", ''],
-        srcWordimage: "https://www.arbulang.com/filmy/esp/longforpeace.png",
         word: [
                 "https://www.arbulang.com/voice/music.mp4"
         ],
         // historia
         story: [
-            ""
+            "The cow say <u><b>muuuuu</u></b> and i <u><b>cha</u></b>rged from her - the milk"
         ],
         // opis
-        desc: "muchas[] - ",
+        desc: "muchas[MOO-chahs] - many",
         //zdanie
         sentence1: [
                 "muchas"
         ],
                                                     sentence1b: [
-            ""
+            "many"
         ],
                 sentence1c: [
-            ""
+            "MOO-chahs"
         ],
         sentence: [
                 "Trabajo",
@@ -4168,30 +4166,26 @@ id: [
 ],
         // obrazek
         img: [
-                "https://www.arbulang.com/img/fiszki1en-esp/187a.jpg"
+                "https://www.arbulang.com/img/fiszki1en-esp/199a.jpg"
         ],
-        translate: "I work many hours because I need more money",
-        translateb: "[]",
-        srcWord: ["https://www.arbulang.com/filmy/esp/longforpeace.mp4", ''],
-        srcWordimage: "https://www.arbulang.com/filmy/esp/longforpeace.png",
         word: [
                 "https://www.arbulang.com/voice/music.mp4"
         ],
         // historia
         story: [
-            ""
+            "Rita <u><b>Ora</u></b> <u><b>s</u></b>ing on the stadium many <u><b>hours</u></b>"
         ],
         // opis
-        desc: "horas[] - ",
+        desc: "horas[OH-rahs] - hours",
         //zdanie
         sentence1: [
                 "horas"
         ],
                                                     sentence1b: [
-            ""
+            "hours"
         ],
                 sentence1c: [
-            ""
+            "OH-rahs"
         ],
         sentence: [
                 "Trabajo",
@@ -4213,12 +4207,8 @@ id: [
 ],
         // obrazek
         img: [
-                "https://www.arbulang.com/img/fiszki1en-esp/187a.jpg"
+                "https://www.arbulang.com/img/fiszki1en-esp/200a.jpg"
         ],
-        translate: "I work many hours because I need more money",
-        translateb: "[]",
-        srcWord: ["https://www.arbulang.com/filmy/esp/longforpeace.mp4", ''],
-        srcWordimage: "https://www.arbulang.com/filmy/esp/longforpeace.png",
         word: [
                 "https://www.arbulang.com/voice/music.mp4"
         ],
@@ -4227,16 +4217,16 @@ id: [
             ""
         ],
         // opis
-        desc: "porque[] - ",
+        desc: "porque[POR-keh] - becouse",
         //zdanie
         sentence1: [
                 "porque"
         ],
                                                     sentence1b: [
-            ""
+            "becouse"
         ],
                 sentence1c: [
-            ""
+            "POR-keh"
         ],
                 sentence: [
                 "porque",
@@ -4259,12 +4249,8 @@ id: [
 ],
         // obrazek
         img: [
-                "https://www.arbulang.com/img/fiszki1en-esp/187a.jpg"
+                "https://www.arbulang.com/img/fiszki1en-esp/201a.jpg"
         ],
-        translate: "I work many hours because I need more money",
-        translateb: "[]",
-        srcWord: ["https://www.arbulang.com/filmy/esp/longforpeace.mp4", ''],
-        srcWordimage: "https://www.arbulang.com/filmy/esp/longforpeace.png",
         word: [
                 "https://www.arbulang.com/voice/music.mp4"
         ],
@@ -4273,16 +4259,16 @@ id: [
             ""
         ],
         // opis
-        desc: "necesito[] - ",
+        desc: "necesito[neh-seh-SEE-toh] - need",
         //zdanie
         sentence1: [
                 "necesito"
         ],
                                                     sentence1b: [
-            ""
+            "need"
         ],
                 sentence1c: [
-            ""
+            "neh-seh-SEE-toh"
         ],
                 sentence: [
                 "porque",
@@ -4305,12 +4291,8 @@ id: [
 ],
         // obrazek
         img: [
-                "https://www.arbulang.com/img/fiszki1en-esp/187a.jpg"
+                "https://www.arbulang.com/img/fiszki1en-esp/202a.jpg"
         ],
-        translate: "I work many hours because I need more money",
-        translateb: "[]",
-        srcWord: ["https://www.arbulang.com/filmy/esp/longforpeace.mp4", ''],
-        srcWordimage: "https://www.arbulang.com/filmy/esp/longforpeace.png",
         word: [
                 "https://www.arbulang.com/voice/music.mp4"
         ],
@@ -4351,12 +4333,8 @@ id: [
 ],
         // obrazek
         img: [
-                "https://www.arbulang.com/img/fiszki1en-esp/187a.jpg"
+                "https://www.arbulang.com/img/fiszki1en-esp/203a.jpg"
         ],
-        translate: "I work many hours because I need more money",
-        translateb: "[]",
-        srcWord: ["https://www.arbulang.com/filmy/esp/longforpeace.mp4", ''],
-        srcWordimage: "https://www.arbulang.com/filmy/esp/longforpeace.png",
         word: [
                 "https://www.arbulang.com/voice/music.mp4"
         ],
@@ -4389,4 +4367,712 @@ id: [
         category2: ["osoby", "osoby+czas"],
                 category3: ["Infinitive"]
 },
+        {
+id: [
+        204,
+        39,
+        70
+],
+        // obrazek
+        img: [
+                "https://www.arbulang.com/img/fiszki1en-esp/197a.jpg"
+        ],
+        translate: "I work many hours because I need more money",
+        translateb: "[trah-BAH-hoh MOO-chahs OH-rahs POR-keh neh-seh-SEE-toh mahs dee-NEH-roh]",
+        srcWord: ["", ''],
+        srcWordimage: "",
+        word: [
+                "https://www.arbulang.com/voice/music.mp4"
+        ],
+        // historia
+        story: [
+            "My <u><b>who</u></b>le new audio <u><b>tra</u></b>ck that I currently <u><b>work</u></b> on is <u><b>ba</u></b>nned by my platform"
+        ],
+        // opis
+        desc: "la empresa[trah-BAH-hoh] - company",
+        //zdanie
+        sentence1: [
+                "La_empresa"
+        ],
+                                                    sentence1b: [
+            ""
+        ],
+                sentence1c: [
+            ""
+        ],
+        sentence: [
+                "La empresa",
+                "atraviesa"
+        ],
+        //  slowo do nauki
+        key: "empresa",
+        category1: [
+        ],
+        category2: ["osoby", "osoby+czas"],
+                category3: ["Present Indicative"]
+},
+        {
+id: [
+        205,
+        39,
+        70
+],
+        // obrazek
+        img: [
+                "https://www.arbulang.com/img/fiszki1en-esp/203a.jpg"
+        ],
+        word: [
+                "https://www.arbulang.com/voice/music.mp4"
+        ],
+        // historia
+        story: [
+            ""
+        ],
+        // opis
+        desc: "atraviesa[] - ",
+        //zdanie
+        sentence1: [
+                "atraviesa"
+        ],
+                                                    sentence1b: [
+            ""
+        ],
+                sentence1c: [
+            ""
+        ],
+        sentence: [
+                "La empresa",
+                "atraviesa"
+        ],
+        //  slowo do nauki
+        key: "atraviesa",
+        category1: [
+        ],
+        category2: ["osoby", "osoby+czas"],
+                category3: ["Infinitive"]
+},
+        {
+id: [
+        206,
+        39,
+        71
+],
+        // obrazek
+        img: [
+                "https://www.arbulang.com/img/fiszki1en-esp/203a.jpg"
+        ],
+        word: [
+                "https://www.arbulang.com/voice/music.mp4"
+        ],
+        // historia
+        story: [
+            ""
+        ],
+        // opis
+        desc: "un[] - ",
+        //zdanie
+        sentence2: [
+                "un"
+        ],
+                                                    sentence1b: [
+            ""
+        ],
+                sentence1c: [
+            ""
+        ],
+        sentence: [
+                "un",
+                "momento",
+                "dificil"
+        ],
+        //  slowo do nauki
+        key: "un",
+        category1: [
+        ],
+        category2: ["osoby", "osoby+czas"],
+                category3: ["Infinitive"]
+},
+        {
+id: [
+        207,
+        39,
+        71
+],
+        // obrazek
+        img: [
+                "https://www.arbulang.com/img/fiszki1en-esp/203a.jpg"
+        ],
+        word: [
+                "https://www.arbulang.com/voice/music.mp4"
+        ],
+        // historia
+        story: [
+            ""
+        ],
+        // opis
+        desc: "momento[] - ",
+        //zdanie
+        sentence2: [
+                "momento"
+        ],
+                                                    sentence1b: [
+            ""
+        ],
+                sentence1c: [
+            ""
+        ],
+        sentence: [
+                "un",
+                "momento",
+                "dificil"
+        ],
+        //  slowo do nauki
+        key: "momento",
+        category1: [
+        ],
+        category2: ["osoby", "osoby+czas"],
+                category3: ["Infinitive"]
+},
+        {
+id: [
+        208,
+        39,
+        71
+],
+        // obrazek
+        img: [
+                "https://www.arbulang.com/img/fiszki1en-esp/203a.jpg"
+        ],
+        word: [
+                "https://www.arbulang.com/voice/music.mp4"
+        ],
+        // historia
+        story: [
+            ""
+        ],
+        // opis
+        desc: "dificil[] - ",
+        //zdanie
+        sentence2: [
+                "dificil"
+        ],
+                                                    sentence1b: [
+            ""
+        ],
+                sentence1c: [
+            ""
+        ],
+        sentence: [
+                "un",
+                "momento",
+                "dificil"
+        ],
+        //  slowo do nauki
+        key: "dificil",
+        category1: [
+        ],
+        category2: ["osoby", "osoby+czas"],
+                category3: ["Infinitive"]
+},
+        {
+id: [
+        209,
+        40,
+        72
+],
+        // obrazek
+        img: [
+                "https://www.arbulang.com/img/fiszki1en-esp/197a.jpg"
+        ],
+        translate: "I work many hours because I need more money",
+        translateb: "[trah-BAH-hoh MOO-chahs OH-rahs POR-keh neh-seh-SEE-toh mahs dee-NEH-roh]",
+        srcWord: ["", ''],
+        srcWordimage: "",
+        word: [
+                "https://www.arbulang.com/voice/music.mp4"
+        ],
+        // historia
+        story: [
+            "My <u><b>who</u></b>le new audio <u><b>tra</u></b>ck that I currently <u><b>work</u></b> on is <u><b>ba</u></b>nned by my platform"
+        ],
+        // opis
+        desc: "me[] - ",
+        //zdanie
+        sentence1: [
+                "Me"
+        ],
+                                                    sentence1b: [
+            ""
+        ],
+                sentence1c: [
+            ""
+        ],
+        sentence: [
+                "Me",
+                "preocupaba"
+        ],
+        //  slowo do nauki
+        key: "me",
+        category1: [
+        ],
+        category2: ["osoby", "osoby+czas"],
+                category3: ["Present Indicative"]
+},
+        {
+id: [
+        210,
+        40,
+        72
+],
+        // obrazek
+        img: [
+                "https://www.arbulang.com/img/fiszki1en-esp/203a.jpg"
+        ],
+        word: [
+                "https://www.arbulang.com/voice/music.mp4"
+        ],
+        // historia
+        story: [
+            ""
+        ],
+        // opis
+        desc: "preocupaba[] - ",
+        //zdanie
+        sentence2: [
+                "preocupaba"
+        ],
+                                                    sentence1b: [
+            ""
+        ],
+                sentence1c: [
+            ""
+        ],
+        sentence: [
+                "Me",
+                "preocupaba"
+        ],
+        //  slowo do nauki
+        key: "preocupaba",
+        category1: [
+        ],
+        category2: ["osoby", "osoby+czas"],
+                category3: ["Infinitive"]
+},
+        {
+id: [
+        211,
+        40,
+        73
+],
+        // obrazek
+        img: [
+                "https://www.arbulang.com/img/fiszki1en-esp/203a.jpg"
+        ],
+        word: [
+                "https://www.arbulang.com/voice/music.mp4"
+        ],
+        // historia
+        story: [
+            ""
+        ],
+        // opis
+        desc: "la reacción[] - ",
+        //zdanie
+        sentence2: [
+                "la reacción"
+        ],
+                                                    sentence1b: [
+            ""
+        ],
+                sentence1c: [
+            ""
+        ],
+        sentence: [
+                "la reacción",
+                "de",
+                "la gente"
+        ],
+        //  slowo do nauki
+        key: "reaccion",
+        category1: [
+        ],
+        category2: ["osoby", "osoby+czas"],
+                category3: ["Infinitive"]
+},
+        {
+id: [
+        212,
+        40,
+        73
+],
+        // obrazek
+        img: [
+                "https://www.arbulang.com/img/fiszki1en-esp/203a.jpg"
+        ],
+        word: [
+                "https://www.arbulang.com/voice/music.mp4"
+        ],
+        // historia
+        story: [
+            ""
+        ],
+        // opis
+        desc: "de[] - ",
+        //zdanie
+        sentence2: [
+                "de"
+        ],
+                                                    sentence1b: [
+            ""
+        ],
+                sentence1c: [
+            ""
+        ],
+        sentence: [
+                "la reacción",
+                "de",
+                "la gente"
+        ],
+        //  slowo do nauki
+        key: "de",
+        category1: [
+        ],
+        category2: ["osoby", "osoby+czas"],
+                category3: ["Infinitive"]
+},
+        {
+id: [
+        213,
+        40,
+        73
+],
+        // obrazek
+        img: [
+                "https://www.arbulang.com/img/fiszki1en-esp/203a.jpg"
+        ],
+        word: [
+                "https://www.arbulang.com/voice/music.mp4"
+        ],
+        // historia
+        story: [
+            ""
+        ],
+        // opis
+        desc: "la gente[] - ",
+        //zdanie
+        sentence2: [
+                "la gente"
+        ],
+                                                    sentence1b: [
+            ""
+        ],
+                sentence1c: [
+            ""
+        ],
+        sentence: [
+                "la reacción",
+                "de",
+                "la gente"
+        ],
+        //  slowo do nauki
+        key: "gente",
+        category1: [
+        ],
+        category2: ["osoby", "osoby+czas"],
+                category3: ["Infinitive"]
+},
+        {
+id: [
+        214,
+        41,
+        74
+],
+        // obrazek
+        img: [
+                "https://www.arbulang.com/img/fiszki1en-esp/197a.jpg"
+        ],
+        translate: "I work many hours because I need more money",
+        translateb: "[trah-BAH-hoh MOO-chahs OH-rahs POR-keh neh-seh-SEE-toh mahs dee-NEH-roh]",
+        srcWord: ["", ''],
+        srcWordimage: "",
+        word: [
+                "https://www.arbulang.com/voice/music.mp4"
+        ],
+        // historia
+        story: [
+            "My <u><b>who</u></b>le new audio <u><b>tra</u></b>ck that I currently <u><b>work</u></b> on is <u><b>ba</u></b>nned by my platform"
+        ],
+        // opis
+        desc: "vivo[] - work",
+        //zdanie
+        sentence1: [
+                "Vivo"
+        ],
+                                                    sentence1b: [
+            ""
+        ],
+                sentence1c: [
+            ""
+        ],
+        sentence: [
+                "Vivo",
+                "en",
+                "una ciudad"
+        ],
+        //  slowo do nauki
+        key: "vivo",
+        category1: [
+        ],
+        category2: ["osoby", "osoby+czas"],
+                category3: ["Present Indicative"]
+},
+        {
+id: [
+        215,
+        41,
+        74
+],
+        // obrazek
+        img: [
+                "https://www.arbulang.com/img/fiszki1en-esp/203a.jpg"
+        ],
+        word: [
+                "https://www.arbulang.com/voice/music.mp4"
+        ],
+        // historia
+        story: [
+            ""
+        ],
+        // opis
+        desc: "en[] - ",
+        //zdanie
+        sentence2: [
+                "en"
+        ],
+                                                    sentence1b: [
+            ""
+        ],
+                sentence1c: [
+            ""
+        ],
+        sentence: [
+                "Vivo",
+                "en",
+                "una ciudad"
+        ],
+        //  slowo do nauki
+        key: "en",
+        category1: [
+        ],
+        category2: ["osoby", "osoby+czas"],
+                category3: ["Infinitive"]
+},
+        {
+id: [
+        216,
+        41,
+        74
+],
+        // obrazek
+        img: [
+                "https://www.arbulang.com/img/fiszki1en-esp/203a.jpg"
+        ],
+        word: [
+                "https://www.arbulang.com/voice/music.mp4"
+        ],
+        // historia
+        story: [
+            ""
+        ],
+        // opis
+        desc: "una ciudad[] - ",
+        //zdanie
+        sentence2: [
+                "una ciudad"
+        ],
+                                                    sentence1b: [
+            ""
+        ],
+                sentence1c: [
+            ""
+        ],
+        sentence: [
+                "Vivo",
+                "en",
+                "una ciudad"
+        ],
+        //  slowo do nauki
+        key: "ciudad",
+        category1: [
+        ],
+        category2: ["osoby", "osoby+czas"],
+                category3: ["Infinitive"]
+},
+        {
+id: [
+        217,
+        41,
+        75
+],
+        // obrazek
+        img: [
+                "https://www.arbulang.com/img/fiszki1en-esp/203a.jpg"
+        ],
+        word: [
+                "https://www.arbulang.com/voice/music.mp4"
+        ],
+        // historia
+        story: [
+            ""
+        ],
+        // opis
+        desc: "donde[] - ",
+        //zdanie
+        sentence2: [
+                "donde"
+        ],
+                                                    sentence1b: [
+            ""
+        ],
+                sentence1c: [
+            ""
+        ],
+        sentence: [
+                "donde",
+                "la gente",
+                "se",
+                "conoce"
+        ],
+        //  slowo do nauki
+        key: "donde",
+        category1: [
+        ],
+        category2: ["osoby", "osoby+czas"],
+                category3: ["Infinitive"]
+},
+        {
+id: [
+        218,
+        41,
+        75
+],
+        // obrazek
+        img: [
+                "https://www.arbulang.com/img/fiszki1en-esp/203a.jpg"
+        ],
+        word: [
+                "https://www.arbulang.com/voice/music.mp4"
+        ],
+        // historia
+        story: [
+            ""
+        ],
+        // opis
+        desc: "la gente[] - ",
+        //zdanie
+        sentence2: [
+                "la gente"
+        ],
+                                                    sentence1b: [
+            ""
+        ],
+                sentence1c: [
+            ""
+        ],
+        sentence: [
+                "donde",
+                "la gente",
+                "se",
+                "conoce"
+        ],
+        //  slowo do nauki
+        key: "gente",
+        category1: [
+        ],
+        category2: ["osoby", "osoby+czas"],
+                category3: ["Infinitive"]
+},        {
+id: [
+        219,
+        41,
+        75
+],
+        // obrazek
+        img: [
+                "https://www.arbulang.com/img/fiszki1en-esp/203a.jpg"
+        ],
+        word: [
+                "https://www.arbulang.com/voice/music.mp4"
+        ],
+        // historia
+        story: [
+            ""
+        ],
+        // opis
+        desc: "se[] - ",
+        //zdanie
+        sentence2: [
+                "se"
+        ],
+                                                    sentence1b: [
+            ""
+        ],
+                sentence1c: [
+            ""
+        ],
+        sentence: [
+                "donde",
+                "la gente",
+                "se",
+                "conoce"
+        ],
+        //  slowo do nauki
+        key: "se",
+        category1: [
+        ],
+        category2: ["osoby", "osoby+czas"],
+                category3: ["Infinitive"]
+},
+        {
+id: [
+        220,
+        41,
+        75
+],
+        // obrazek
+        img: [
+                "https://www.arbulang.com/img/fiszki1en-esp/203a.jpg"
+        ],
+        word: [
+                "https://www.arbulang.com/voice/music.mp4"
+        ],
+        // historia
+        story: [
+            ""
+        ],
+        // opis
+        desc: "conoce[] - ",
+        //zdanie
+        sentence2: [
+                "conoce"
+        ],
+                                                    sentence1b: [
+            ""
+        ],
+                sentence1c: [
+            ""
+        ],
+        sentence: [
+                "donde",
+                "la gente",
+                "se",
+                "conoce"
+        ],
+        //  slowo do nauki
+        key: "conoce",
+        category1: [
+        ],
+        category2: ["osoby", "osoby+czas"],
+                category3: ["Infinitive"]
+}
 );

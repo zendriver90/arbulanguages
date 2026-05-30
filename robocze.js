@@ -1,0 +1,1722 @@
+<div class="post"
+     data-short-pl="📌 8 czerwiec 2025"
+     data-short-en="📌 June 8, 2025"
+     data-month="czerwiec 2025"
+     data-full-pl="Normalny człowiek z podziwem patrzy na astronautów. Chciałby uciec. Zazdrości ucieczki z Ziemii. Nigdy nie przyjmie do wiadomości, że astronauci, którzy byli na Księżycu chcieli wrócić na Ziemię. Uciec od Prezydenta. Uciec przed prawem. Przed obnażeniem (wtedy się rozbierają). Uciec. Do Boga. Uciec od Boga. Od myślenia. Od swoich ubrań (wtedy kupują nowe). Uciec od obowiązku życia (wtedy głodują). Uciec od podatków (wtedy oszukują). Uciec od oszustwa (wtedy płaczą). Dlatego nasza Planeta jest 'od'. Planetą ucieczki od życia. Dlatego stamtąd gdzie pochodzę... Mówili mi: lepiej zostań wariatem - przynajmniej będziesz miał styl. Twoja głupota będzie wielbiona przez gwiazdy. Obudzisz nadzieję, że Ci mali wariaci, którzy (w 90%) popełniają przestępstwa na psychozach (a skazywani jako świadomi) - oni zrozumieją, że życie jest coś warte. Nie miliarderzy - ale oni"
+       >
+  
+  <p><strong>Paweł Babik napisał:</strong></p>
+    <div class="tags">
+  <button class="tag">#zmysły</button>
+  <button class="tag">#mindset</button>
+</div>
+  <!-- Krótka zapowiedź -->
+  <div class="short-text">📌 8 czerwiec 2025</div>
+  <!-- Pełna treść (z data-full-pl), ukryta na start -->
+  <div class="full-text" style="display: none; margin-top: 10px;"></div>
+    <button class="toggle-btn" style="margin: 10px 0;">Zobacz wpis</button>
+  <!-- Sekcja tłumaczeń -->
+  <div class="translation-controls" style="display:none; margin-top: 10px;">
+    <button onclick="showTranslation('ai', this)">Translate by AI</button>
+    <button onclick="showTranslation('pawel', this)">Translate by Paweł</button>
+  </div>
+  </div>
+<div class="post"
+     data-short-pl="📌 7 czerwiec 2025"
+     data-short-en="📌 June 7, 2025"
+     data-month="czerwiec 2025"
+     data-full-pl="Tak mógł Jezus powiedzieć: wysoki Sądzie - nic na mnie nie macie... tylko przewyższam was inteligencją. W dzisiejszych czasach - adwokat (tak powinien powiedzieć). Dobry adwokat powie (lub pomyśli): mój klient to jakiś debil i czasami wygra jego sprawę, ale w nadziei, że jego klient przegra kolejną sprawę. O ile w ogóle dojdzie do procesu."
+       >
+  
+  <p><strong>Paweł Babik napisał:</strong></p>
+    <div class="tags">
+  <button class="tag">#zmysły</button>
+  <button class="tag">#mindset</button>
+</div>
+  <!-- Krótka zapowiedź -->
+  <div class="short-text">📌 7 czerwiec 2025</div>
+  <!-- Pełna treść (z data-full-pl), ukryta na start -->
+  <div class="full-text" style="display: none; margin-top: 10px;"></div>
+    <button class="toggle-btn" style="margin: 10px 0;">Zobacz wpis</button>
+  <!-- Sekcja tłumaczeń -->
+  <div class="translation-controls" style="display:none; margin-top: 10px;">
+    <button onclick="showTranslation('ai', this)">Translate by AI</button>
+    <button onclick="showTranslation('pawel', this)">Translate by Paweł</button>
+  </div>
+  </div>
+<div class="post"
+     data-short-pl="📌 7 czerwiec 2025"
+     data-short-en="📌 June 7, 2025"
+     data-month="czerwiec 2025"
+     data-full-pl="Normalnie to wygląda tak, że wpłacamy jakąś ilość energii i zgadzamy się, że będziemy wobec tego ulegli w zamian za taką czy inną wypowiedź polityka, która sprawi, że egregor do, którego przynależymy - staniemy się wtedy poprzez niego bardziej witalnii, jurni. Dlatego nie chce być tylko Polakiem... (zastanówcie się dlaczego), ale Światowcem. W ten sposób cały świat należy do mnie a w konsekwencji nie decyduje o moim losie, moim samopoczuciu, moich zarobkach jakiś Anglik lub Amerykanin, który czerpie satysfakcję z tego - że gdzieś tam w Polsce zarabia się mniej. Dlatego właśnie mam prawo mówić - nie dlatego, że znam angielski, ale dlatego, że widzę ograniczenia świata - NIE swoje czy Polaków."
+       >
+  
+  <p><strong>Paweł Babik napisał:</strong></p>
+    <div class="tags">
+  <button class="tag">#zmysły</button>
+  <button class="tag">#mindset</button>
+</div>
+  <!-- Krótka zapowiedź -->
+  <div class="short-text">📌 7 czerwiec 2025</div>
+  <!-- Pełna treść (z data-full-pl), ukryta na start -->
+  <div class="full-text" style="display: none; margin-top: 10px;"></div>
+    <button class="toggle-btn" style="margin: 10px 0;">Zobacz wpis</button>
+  <!-- Sekcja tłumaczeń -->
+  <div class="translation-controls" style="display:none; margin-top: 10px;">
+    <button onclick="showTranslation('ai', this)">Translate by AI</button>
+    <button onclick="showTranslation('pawel', this)">Translate by Paweł</button>
+  </div>
+  </div>
+<div class="post"
+     data-short-pl="📌 6 czerwiec 2025"
+     data-short-en="📌 June 6, 2025"
+     data-month="czerwiec 2025"
+     data-full-pl="Jeśli rodzice mają nadwyżkę energii to oczywiście byli by atakowani przez innych 'za ich młodość' - (mają ją ode mnie). Dlatego idealnym rozwiązaniem jest 'zaatakowanie' syna - przez to on będzie miał mniej energii a w konsekwencji oni. Widać jak na dłoni, że społeczeństwo radzi sobie z takimi osobami doskonale i rodzice 'mieli' siłę, aby składać kolejne wnioski do Sądu itp. Dlatego 'obmawianie' drugiej osoby nie jest tylko obmawianiem - to oszacowanie swojej energii żywotnej - że jest w nadwyżce i może ona posłużyć do ewentualnego ataku. Dlatego 'zlewanie' nie działa prawie wcale - człowiek oszukuje się że się nie przejmuje a jest bardziej niż zastraszony. Dlatego tak działają mafie - informacja jest na tyle niebezpieczna, że może decydować o kogoś życiu lub śmierci - nawet ta nieprawdziwa. Dlatego na miłość nie można sobie pozwolić - bo wtedy idzie za tym (dobrą relacją) fizyczność czyli majątki itp. Kobieta łatwiej dostrzega duchowość, ale trudniej jej jest ją wyzwolić gdy nie jest na poziomie fizycznym zabezpieczona - taki właśnie mechanizm został względem mnie zastosowany - i to zrobiły kobiety (które miały pozycję, ale jakość ich duchowości w stosunku do mnie pokazywał ich braki). Mężczyzna jest bardziej fizyczny, ale bardziej cierpi (w przeciwieństwie do kobiety) kiedy jego duchowość nie daje mu spełnienia. To znaczy wtedy ufizycznia się jeszcze bardziej, bo ma zasilanie fizyczne a duchowość kuleje. Jing i Jang."
+       >
+  
+  <p><strong>Paweł Babik napisał:</strong></p>
+    <div class="tags">
+  <button class="tag">#zmysły</button>
+  <button class="tag">#mindset</button>
+</div>
+  <!-- Krótka zapowiedź -->
+  <div class="short-text">📌 6 czerwiec 2025</div>
+  <!-- Pełna treść (z data-full-pl), ukryta na start -->
+  <div class="full-text" style="display: none; margin-top: 10px;"></div>
+    <button class="toggle-btn" style="margin: 10px 0;">Zobacz wpis</button>
+  <!-- Sekcja tłumaczeń -->
+  <div class="translation-controls" style="display:none; margin-top: 10px;">
+    <button onclick="showTranslation('ai', this)">Translate by AI</button>
+    <button onclick="showTranslation('pawel', this)">Translate by Paweł</button>
+  </div>
+  </div>
+<div class="post"
+     data-short-pl="📌 5 czerwiec 2025"
+     data-short-en="📌 June 5, 2025"
+     data-month="czerwiec 2025"
+     data-full-pl="Każda kobieta jest w jakiś sposób jaszczurką. Ta, która się z tym identyfikuje może dyktować innym kobietom jakie są trendy. Widać to na etapie gotowania - kobieta: poluje, doskakuje, zjada. Dlatego mózg gadzi może być wychowany, ale nie musi. Spotkanie z dzieckiem następuje nawet kilka lat przed jego narodzinami (nawet 10 lat wcześniej), dlatego kobiety walczą o życie od poczęcia, bowiem intuicyjnie - społecznie możliwości zrozumienia jakie będzie jej dziecko może się skrócić. To znaczy, że kobieta zabijając dziecko pobiera od niego energię w taki sposób, że aż musi je zabić. Oczywiście może wampiryzować nawet jak dziecko jest narodzone - dlatego wiedza o tym jakie będzie miała dziecko jest bardzo ważna - to tworzy jej jakość relacji z partnerem itp. Idealną sytuacją jest kiedy kobieta oddaje energię dziecku a nie ją zabiera. Dlatego sytuację jakie ją spotykają mają na celu troszczyć się zamiast otrzymywać."
+       >
+  
+  <p><strong>Paweł Babik napisał:</strong></p>
+    <div class="tags">
+  <button class="tag">#zmysły</button>
+  <button class="tag">#mindset</button>
+</div>
+  <!-- Krótka zapowiedź -->
+  <div class="short-text">📌 5 czerwiec 2025</div>
+  <!-- Pełna treść (z data-full-pl), ukryta na start -->
+  <div class="full-text" style="display: none; margin-top: 10px;"></div>
+    <button class="toggle-btn" style="margin: 10px 0;">Zobacz wpis</button>
+  <!-- Sekcja tłumaczeń -->
+  <div class="translation-controls" style="display:none; margin-top: 10px;">
+    <button onclick="showTranslation('ai', this)">Translate by AI</button>
+    <button onclick="showTranslation('pawel', this)">Translate by Paweł</button>
+  </div>
+  </div>
+<div class="post"
+     data-short-pl="📌 5 czerwiec 2025"
+     data-short-en="📌 June 5, 2025"
+     data-month="czerwiec 2025"
+     data-full-pl="Zazdrość może być zasobem. Przykład: idzie para przez miasto. Zaczepia ich bezdomny, który chce na bułkę lub piwo. Mężczyzna alfa daje temu gościowi parę złotych - 'bo dałby sobie, gdyby był w tej sytuacji'. Jest miły i spontaniczny. To oznacza, że temu mężczyźnie z dziewczyną trudno by było gdyby był w takiej sytuacji, że musi prosić kogoś o parę złotych na ulicy. Tym samym docenia odwagę w bezdomnym jak i w sobie. Jest trochę zazdrosny nawet, że bezdomnemu nie robi różnicy a on denerwuje się błachymi rzeczami. W tej sytuacji partnerka widzi zazdrość mężczyzny alfa o zasób bezdomnego jak i jego charyzmę i zbudowanie sytuacji, ale ta zazdrość nie jest negatywnym zasobem. Więc gdy zazdrościmy komuś - dodajemy mu energii, ale też widzimy jak kruchy jest wybór czy nasza partnerka będzie z nami (chodzi mi o obudzenie wartości w partnerce, którą może nawet wywołać bezdomny - nie chodzi mi o prawdopodobieństwo związku rzecz jasna). W ten sposób nie niedoceniany siebie, ale też nie przeceniamy - a sam mechanizm niedoceniania i przeceniania służy tylko temu, abyśmy potrafili odnaleźć prawdziwa wartość."
+       >
+  
+  <p><strong>Paweł Babik napisał:</strong></p>
+    <div class="tags">
+  <button class="tag">#zmysły</button>
+  <button class="tag">#mindset</button>
+</div>
+  <!-- Krótka zapowiedź -->
+  <div class="short-text">📌 5 czerwiec 2025</div>
+  <!-- Pełna treść (z data-full-pl), ukryta na start -->
+  <div class="full-text" style="display: none; margin-top: 10px;"></div>
+    <button class="toggle-btn" style="margin: 10px 0;">Zobacz wpis</button>
+  <!-- Sekcja tłumaczeń -->
+  <div class="translation-controls" style="display:none; margin-top: 10px;">
+    <button onclick="showTranslation('ai', this)">Translate by AI</button>
+    <button onclick="showTranslation('pawel', this)">Translate by Paweł</button>
+  </div>
+  </div>
+<div class="post"
+     data-short-pl="📌 4 czerwiec 2025"
+     data-short-en="📌 June 4, 2025"
+     data-month="czerwiec 2025"
+     data-full-pl="Pamiętam jak negocjowałem z egregorem Polaków (niniejszym umiejscawiających się w skali świata) o to jaki będę miał wśród nich status. A, że wiedziałem, że często ich pewność siebie wynika z pracy... Pytali mnie: chcesz być fizyczny? (co zakłada, że bycie pracownikiem fizycznym wynika z dysfunkcji intelektu - a ja tak nie uważam tzn. chcesz, żeby remontował Ci ktoś mieszkanie kto nie umie myśleć?). Odpowiadałem chce być 'psychiczny'. Wtedy oni wykazywali się 'mobilizacją' w zrobieniu ze mnie debila. Chciałem być 'psychiczny' czyli intelektualny - tłumaczyłem. Ta sytuacja była już na randze prowokacji - to znaczy już tak kilka razy powiedziałem i to był ten raz kiedy mieli odpowiednich świadków (ewentualnie nagrane). Nabijałem się nie z tego, że ktoś ciężko pracuje - tylko, że otrzymuje status od 'psychicznego', że jest 'fizyczny'. Takich moich negocjacji i w związku z tym prowokacji było bardzo dużo - wszystko prowadziło do tego, że 'nie będę mógł mówić' jeśli zarówno 'psychiczni' jak i 'fizyczni' nie przemielą mnie przez Szpital Psychiatryczny. Nigdy nie chciałbym przestać mówić - i nawet to by oznaczało by, że mnie nie ma - ponieważ mówimy gestami, spojrzeniami itp. 'Widocznie dobrze negocjowałem'."
+       >
+  
+  <p><strong>Paweł Babik napisał:</strong></p>
+    <div class="tags">
+  <button class="tag">#zmysły</button>
+  <button class="tag">#mindset</button>
+</div>
+  <!-- Krótka zapowiedź -->
+  <div class="short-text">📌 4 czerwiec 2025</div>
+  <!-- Pełna treść (z data-full-pl), ukryta na start -->
+  <div class="full-text" style="display: none; margin-top: 10px;"></div>
+    <button class="toggle-btn" style="margin: 10px 0;">Zobacz wpis</button>
+      <div class="comment-box" data-lang="pl" style="display: none; margin-top: 10px;">
+    <div class="comment-author">👤 Komentarz (mój)</div>
+    <div class="comment-content">
+Dlatego mszczą się w sposób "psychiczny" i zabezpieczają się przed "kontaktem fizycznym" to znaczy, że boją się, że coś im za to może grozić. Może wam za każdego. A zemsta "psychiczna" fizycznego jest tylko prośbą o "podregulowanie" jego umysłu.
+    </div>
+    </div>
+  <!-- Sekcja tłumaczeń -->
+  <div class="translation-controls" style="display:none; margin-top: 10px;">
+    <button onclick="showTranslation('ai', this)">Translate by AI</button>
+    <button onclick="showTranslation('pawel', this)">Translate by Paweł</button>
+  </div>
+  
+  </div>
+<div class="post"
+     data-short-pl="📌 4 czerwiec 2025"
+     data-short-en="📌 June 4, 2025"
+     data-month="czerwiec 2025"
+     data-full-pl="Chcąc określić poziom relacji kierowców aut do rowerzystów to powiedziałbym: że chcą udowodnić, że 'są szybsi od rowera'. Już przed 'kontaktem' da się wyczuć że 150m, że oto najeżdża 'Pan', którego stać na benzynę i się śpieszy. Przy czym uwaga rowerzysty jak na Formule 1 a kierowca chce pokazać, że gdzieś ma rowerzystę, bo większość wypadków powodowana przez rowerzystów. Dlatego nie kieruje autem (a często też rowerem) kierowca - tylko jego ego. Przypomina to polowanie - jeśli będę szybszy od rowera to wygram. Często widać to na terenach zabudowanych - auto stoi w korku i rowerzysta mija go chodnikiem. Ja się raczej nie martwię swoją jazdą tylko widzę jak te 'Formuły 1' wjeżdzają do rowu, powodują kolizje, najeżdżają na pieszych. Trudno przełknąć zarówno 20latkowi jak i 60latkowi, że nie wysprzęgla 'młodej dziewczyny' tylko sprzęgło. Nauczy się na zgodzie na operacje na kolano czy innej konsekwencji - biorąc pod uwagę, że nie szanuje prawa - przestrzegając przepisy (statystyki nietrzeźwych kierowców)"
+       >
+  
+  <p><strong>Paweł Babik napisał:</strong></p>
+    <div class="tags">
+  <button class="tag">#zmysły</button>
+  <button class="tag">#mindset</button>
+</div>
+  <!-- Krótka zapowiedź -->
+  <div class="short-text">📌 4 czerwiec 2025</div>
+  <!-- Pełna treść (z data-full-pl), ukryta na start -->
+  <div class="full-text" style="display: none; margin-top: 10px;"></div>
+    <button class="toggle-btn" style="margin: 10px 0;">Zobacz wpis</button>
+
+  <!-- Sekcja tłumaczeń -->
+  <div class="translation-controls" style="display:none; margin-top: 10px;">
+    <button onclick="showTranslation('ai', this)">Translate by AI</button>
+    <button onclick="showTranslation('pawel', this)">Translate by Paweł</button>
+  </div>
+  
+  </div>
+<div class="post"
+     data-short-pl="📌 1 czerwiec 2025"
+     data-short-en="📌 June 1, 2025"
+     data-month="czerwiec 2025"
+     data-full-pl="Kiedy człowiek przywdziewa maski - myśli, że jest ponad, że zna prawdziwą, że ktoś tym zawiaduje. Tymczasem przywdziewanie masek jest 'maską' jaka jest programem. Dowód? Ludzie to widzą - nawet takiemu człowiekowi pozwolą spokojnie żyć i kłamać."
+       >
+  
+  <p><strong>Paweł Babik napisał:</strong></p>
+    <div class="tags">
+  <button class="tag">#zmysły</button>
+  <button class="tag">#mindset</button>
+</div>
+  <!-- Krótka zapowiedź -->
+  <div class="short-text">📌 1 czerwiec 2025</div>
+  <!-- Pełna treść (z data-full-pl), ukryta na start -->
+  <div class="full-text" style="display: none; margin-top: 10px;"></div>
+    <button class="toggle-btn" style="margin: 10px 0;">Zobacz wpis</button>
+
+  <!-- Sekcja tłumaczeń -->
+  <div class="translation-controls" style="display:none; margin-top: 10px;">
+    <button onclick="showTranslation('ai', this)">Translate by AI</button>
+    <button onclick="showTranslation('pawel', this)">Translate by Paweł</button>
+  </div>
+  
+  </div>
+<div class="post"
+     data-short-pl="📌 1 czerwiec 2025"
+     data-short-en="📌 June 1, 2025"
+     data-month="maj 2025"
+     data-full-pl="Kiedy człowiek przywdziewa maski - myśli, że jest ponad, że zna prawdziwą, że ktoś tym zawiaduje. Tymczasem przywdziewanie masek jest 'maską' jaka jest programem. Dowód? Ludzie to widzą - nawet takiemu człowiekowi pozwolą spokojnie żyć i kłamać."
+       >
+  
+  <p><strong>Paweł Babik napisał:</strong></p>
+    <div class="tags">
+  <button class="tag">#zmysły</button>
+  <button class="tag">#mindset</button>
+</div>
+  <!-- Krótka zapowiedź -->
+  <div class="short-text">📌 29 maj 2025</div>
+  <!-- Pełna treść (z data-full-pl), ukryta na start -->
+  <div class="full-text" style="display: none; margin-top: 10px;"></div>
+    <button class="toggle-btn" style="margin: 10px 0;">Zobacz wpis</button>
+
+  <!-- Sekcja tłumaczeń -->
+  <div class="translation-controls" style="display:none; margin-top: 10px;">
+    <button onclick="showTranslation('ai', this)">Translate by AI</button>
+    <button onclick="showTranslation('pawel', this)">Translate by Paweł</button>
+  </div>
+  
+  </div>
+<div class="post"
+     data-short-pl="📌 29 maj 2025"
+     data-short-en="📌 May 29, 2025"
+     data-month="maj 2025"
+     data-full-pl="Bezsensowne cierpienie - to jest dewiza zdrajców. Myślą, że jak ktoś będzie cierpiał tak jak oni - to się nauczy. Przy czym nie wiedzą, że to jest czyn 'zły' i ich odwet jest tylko kolejną reakcją na różnice świadomości. Chcą poprostu wiedzieć czy osoba etyczna też oddaje. Nie chodzi o zadane cierpienie zwrotne - chodzi czy taka osoba jest doprowadzona do sytuacji w której nie panuje nad swoim gniewem - jeśli 'nie panuje' możemy ją spokojnie przyjąć do Kościoła Katolickiego czy Psychiatrycznego. Lekarz, pielęgniarka - budzi respekt większy od księdza a jedno słowo, które pacjent wysłowi z nutą lekceważenia - kończy się dłuższym gojeniem czy odrealnioną diagnozą. "
+       >
+  
+  <p><strong>Paweł Babik napisał:</strong></p>
+    <div class="tags">
+  <button class="tag">#zmysły</button>
+  <button class="tag">#mindset</button>
+</div>
+  <!-- Krótka zapowiedź -->
+  <div class="short-text">📌 29 maj 2025</div>
+  <!-- Pełna treść (z data-full-pl), ukryta na start -->
+  <div class="full-text" style="display: none; margin-top: 10px;"></div>
+    <button class="toggle-btn" style="margin: 10px 0;">Zobacz wpis</button>
+
+  <!-- Sekcja tłumaczeń -->
+  <div class="translation-controls" style="display:none; margin-top: 10px;">
+    <button onclick="showTranslation('ai', this)">Translate by AI</button>
+    <button onclick="showTranslation('pawel', this)">Translate by Paweł</button>
+  </div>
+  
+  </div>
+<div class="post"
+     data-short-pl="📌 26 maj 2025"
+     data-short-en="📌 May 26, 2025"
+     data-month="maj 2025"
+     data-full-pl="Matka, która ma dzieci - najbardziej zabija miłość. Po nieudanym związku miłosnym, z dziećmi na głowie... Tak jakby wie - że to się źle skończy. Mężczyzna zapewnia jej minimalną ilość: duchowości, wiary - dlatego, że właśnie Ci mężczyźni są nastawieni fizycznie co - odpowiada 'inner game' kobiety. Dlatego jeśli mężczyzna ma dużą ilość energii duchowej a nie gardzi kobietami starszymi od niej - to wtedy jest możliwe przekonanie takiej kobiety - że miłość ma jednak sens."
+       >
+  
+  <p><strong>Paweł Babik napisał:</strong></p>
+    <div class="tags">
+  <button class="tag">#zmysły</button>
+  <button class="tag">#mindset</button>
+</div>
+  <!-- Krótka zapowiedź -->
+  <div class="short-text">📌 26 maj 2025</div>
+  <!-- Pełna treść (z data-full-pl), ukryta na start -->
+  <div class="full-text" style="display: none; margin-top: 10px;"></div>
+    <button class="toggle-btn" style="margin: 10px 0;">Zobacz wpis</button>
+
+  <!-- Sekcja tłumaczeń -->
+  <div class="translation-controls" style="display:none; margin-top: 10px;">
+    <button onclick="showTranslation('ai', this)">Translate by AI</button>
+    <button onclick="showTranslation('pawel', this)">Translate by Paweł</button>
+  </div>
+  
+  </div>
+<div class="post"
+     data-short-pl="📌 27 maj 2025"
+     data-short-en="📌 May 27, 2025"
+     data-month="maj 2025"
+     data-full-pl="Matka, która ma dzieci - najbardziej zabija miłość. Po nieudanym związku miłosnym, z dziećmi na głowie... Tak jakby wie - że to się źle skończy. Mężczyzna zapewnia jej minimalną ilość: duchowości, wiary - dlatego, że właśnie Ci mężczyźni są nastawieni fizycznie co - odpowiada 'inner game' kobiety. Dlatego jeśli mężczyzna ma dużą ilość energii duchowej a nie gardzi kobietami starszymi od niej - to wtedy jest możliwe przekonanie takiej kobiety - że miłość ma jednak sens."
+       >
+  
+  <p><strong>Paweł Babik napisał:</strong></p>
+    <div class="tags">
+  <button class="tag">#zmysły</button>
+  <button class="tag">#mindset</button>
+</div>
+  <!-- Krótka zapowiedź -->
+  <div class="short-text">📌 27 maj 2025</div>
+  <!-- Pełna treść (z data-full-pl), ukryta na start -->
+  <div class="full-text" style="display: none; margin-top: 10px;"></div>
+    <button class="toggle-btn" style="margin: 10px 0;">Zobacz wpis</button>
+
+  <!-- Sekcja tłumaczeń -->
+  <div class="translation-controls" style="display:none; margin-top: 10px;">
+    <button onclick="showTranslation('ai', this)">Translate by AI</button>
+    <button onclick="showTranslation('pawel', this)">Translate by Paweł</button>
+  </div>
+  
+  </div>
+<div class="post"
+     data-short-pl="📌 26 maj 2025"
+     data-short-en="📌 May 26, 2025"
+     data-month="maj 2025"
+     data-full-pl="Moje dziecko by tak nie zrobiło - występuje mechanizm wyparcia gdy ktoś jest np. pedofilem. A to zaczyna się od rodziny - pewne cechy są ustalane jak wstrzemięźliwość seksualna - przez co gdy 'uwodziciel' nie potrafi znieść energii kobiecej wtedy ta energia się patologizuje i powstaje takie zachowanie. Dlatego moja babcia często używa słowa 'pomylony' - ponieważ jej dziecko by tak nie zrobiło - czy chodzi o SB, bicie się o papierosa, pijaństwo, agresja fizyczną do partnerki - ten pomylony zrobił ale ten nie pomylony by nie zrobił. Dlatego w moim rodzie matka kontynuuje 'pomylonego' - odgradza się od możliwości kochania mnie i właściwie wszyscy w Szpitalu Psychiatrycznym są posądzeni o jakieś dewiacje energii seksualnej - bo na tym człowiek bazuje - jego energii witalnej. Nawet jeśli wszystko jest w porządku to sam pobyt w 'Szpitalu' naraża taką osobę."
+       >
+  
+  <p><strong>Paweł Babik napisał:</strong></p>
+    <div class="tags">
+  <button class="tag">#zmysły</button>
+  <button class="tag">#mindset</button>
+</div>
+  <!-- Krótka zapowiedź -->
+  <div class="short-text">📌 26 maj 2025</div>
+  <!-- Pełna treść (z data-full-pl), ukryta na start -->
+  <div class="full-text" style="display: none; margin-top: 10px;"></div>
+      <div class="comment-box" data-lang="pl" style="display: none; margin-top: 10px;">
+    <div class="comment-author">👤 Komentarz (mój)</div>
+    <div class="comment-content">
+I niektóre matki zachowują się tak jakby to nie było ich dziecko. Skoro dwoje dzieci w szpitalu jest podobne - i jest to też przestroga, że nie mogą je traktować w kategoriach posiadania. Dlatego lubią detektywów - a zmiana wyglądu jest ich fetyszem. Wiem coś o tym...
+    </div>
+    </div>
+    <button class="toggle-btn" style="margin: 10px 0;">Zobacz wpis</button>
+
+  <!-- Sekcja tłumaczeń -->
+  <div class="translation-controls" style="display:none; margin-top: 10px;">
+    <button onclick="showTranslation('ai', this)">Translate by AI</button>
+    <button onclick="showTranslation('pawel', this)">Translate by Paweł</button>
+  </div>
+  
+  </div>
+<div class="post"
+     data-short-pl="📌 24 maj 2025"
+     data-short-en="📌 May 24, 2025"
+     data-month="maj 2025"
+     data-full-pl="Spójrzmy na zdolności percepcyjne - osoby, która zachowała dziewictwo - dodatkowo pracowała jako niania w żłubku. Jak ona postrzega świat? Tak jak w przypowieści Buddy, gdy adept medytacji przebywał z krowami kilka lat - stał się krową. I ona właśnie się stała dzieckiem. Tylko do tego jeszcze była zaangażowana energią seksualna a dokładniej czakra sakralna - druga po czakrze podstawy. Dlatego te dziecko 'ona' stała się świadoma dziecka w sobie. Czyli ma taką ultra świadomość - ale, żeby było trudniej teraz mieszka z rodzicami. Rodzice zazwyczaj wyczuwają jakie jest dziecko - czy jest latynoskie, afrykańskie itp. I w 100% przypadków okłamują je z jego historii. Np - ja jako detektyw z Kolumbii - zaczęto wmawiać mi, że jestem uparty - przy czym traktowano to jako wadę. Sprawdźmy - uparty detektyw, który wstydzi się swoich podejrzeń - raczej daleko nie zajdzie. Uparty - dążący do celu i znający swoją wartość - już ma szansę. Dlatego moja karma jest taka - że mam dzielić się swoją energią i nie pytać, wypominać - ile dałem. Obdzieliłem całą rodzinę i czasami mam wątpliwości czy nie oddaje za dużo. Oczywiście to są wątpliwości detektywa - ale moim sukcesem jest to - że chcą brać. Dziecko jest okłamywane. Najczęściej jest to jego wybór - tzn. nie chce mieć nic wspólnego z tym co robił? Dlaczego? Dlatego, że nagromadził sobie przez swój zawód grzechów. Dlatego najczęściej rodzi się z nową pasją. Stwórca - tak jak w Matrixie (1999) wgrywa mu jakąś umiejętność - na którą ono (dziecko) nie zapracowało. Dlatego mówię, że 100% bo to nie jest wina rodziców - ono ma mieć pamięć wymazaną, bo inaczej to by nie było następne życie tylko kontynuacja. Dlatego, gdy chciało by pamiętać musiało by przejść przez piekło własnych błędów i dosłownie 'zerzygać' się swoim zawodem. Dlatego nic-nierobienie ma większy szacunek niż pracowanie. Z prostego powodu - wtedy pracujemy na człowieczeństwo a nie na dany sektor gospodarki - czyli nie zależymy od zysku. Okłamane dziecko - nie tylko ma szczepionkę na kłamstwo - ale też da się okłamać jeśli w grę wchodzi jego życie lub jego rodziny. Dlatego przezwyciężenie lęku przed śmiercią ustanawia świat jako rodzinę i z tego powodu są wojny. Tzn. żołnierz jest wystawiany na próbę straty życia i przez ten stan - zaczyna szanować życie samo w sobie, ale żeby było trudniej widząc tak często rozlew krwi - przestaje szanować 'spokój' przez to powoduje on - konflikty - ze względu na sam stan świadomości."
+       >
+  
+  <p><strong>Paweł Babik napisał:</strong></p>
+    <div class="tags">
+  <button class="tag">#zmysły</button>
+  <button class="tag">#mindset</button>
+</div>
+  <!-- Krótka zapowiedź -->
+  <div class="short-text">📌 24 maj 2025</div>
+  <!-- Pełna treść (z data-full-pl), ukryta na start -->
+  <div class="full-text" style="display: none; margin-top: 10px;"></div>
+
+    <button class="toggle-btn" style="margin: 10px 0;">Zobacz wpis</button>
+
+  <!-- Sekcja tłumaczeń -->
+  <div class="translation-controls" style="display:none; margin-top: 10px;">
+    <button onclick="showTranslation('ai', this)">Translate by AI</button>
+    <button onclick="showTranslation('pawel', this)">Translate by Paweł</button>
+  </div>
+  
+  </div>
+<div class="post"
+     data-short-pl="📌 24 maj 2025"
+     data-short-en="📌 May 24, 2025"
+     data-month="maj 2025"
+     data-full-pl="Zastosujmy moją technikę do aktualnej sytuacji w kraju. Technika 'i tak'. I tak jakiś prawicowy kandydat powiedziałby w debacie w 2025 roku przy wyborach na prezydenta 'że bicie dzieci jest ok'. I tak do 2 tury przeszedłby człowiek, który walczył w ustawkach kibicowskich. I tak - ktoś 'napisałby ten post'. I tak 'ktoś by go przeczytał'. I tak samopoczucie tego kogoś 'zmieniłoby świat'. I tak."
+       >
+  
+  <p><strong>Paweł Babik napisał:</strong></p>
+    <div class="tags">
+  <button class="tag">#zmysły</button>
+  <button class="tag">#mindset</button>
+</div>
+  <!-- Krótka zapowiedź -->
+  <div class="short-text">📌 24 maj 2025</div>
+  <!-- Pełna treść (z data-full-pl), ukryta na start -->
+  <div class="full-text" style="display: none; margin-top: 10px;"></div>
+      <div class="comment-box" data-lang="pl" style="display: none; margin-top: 10px;">
+    <div class="comment-author">👤 Komentarz (mój)</div>
+    <div class="comment-content">
+Z tego powodu - jestem tylko "anomalią" - czymś co nie powinno się zdarzyć. "I tak" by była taka anomalią - żeby "budzić ludzi"...
+    </div>
+    </div>
+    <button class="toggle-btn" style="margin: 10px 0;">Zobacz wpis</button>
+
+  <!-- Sekcja tłumaczeń -->
+  <div class="translation-controls" style="display:none; margin-top: 10px;">
+    <button onclick="showTranslation('ai', this)">Translate by AI</button>
+    <button onclick="showTranslation('pawel', this)">Translate by Paweł</button>
+  </div>
+  
+  </div>
+<div class="post"
+     data-short-pl="📌 24 maj 2025"
+     data-short-en="📌 May 24, 2025"
+     data-month="maj 2025"
+     data-full-pl="Ponoć rodziców świadome duszę wybierają - a niektórzy rodzice nie wiedzą jakie dziecko im przyszło na świat - nie mają do tego oczu. Chociaż dziecko łapie za patyk i mierzy tak jakby strzelało z broni - może to był detektyw, gangster czy żołnierz. Tak samo psychiatria - traktuje pacjenta jak dziecko - daje trochę leków na aktywację a trochę na wyciszenie - czyli tak jak dziecko się traktuje - trochę się rodzice cieszą z jego nadwyżki energii a trochę chcą go ustawiać. Dlatego psychiatria to taka współczesna piaskownica - gra w rodzinę (Simsy). Dopiero jak go troszkę poddusimy (nie damy jego ciału oddychać normalnym rytmem) to wtedy wyślemy intencję, że go akceptujemy - i ono fizycznie zacznie zdrowieć. Jest to takie '50 twarzy Greya' - chodzi o to aby rodzice czy lekarze mieli 'wzwód'."
+       >
+  
+  <p><strong>Paweł Babik napisał:</strong></p>
+    <div class="tags">
+  <button class="tag">#zmysły</button>
+  <button class="tag">#mindset</button>
+</div>
+  <!-- Krótka zapowiedź -->
+  <div class="short-text">📌 24 maj 2025</div>
+  <!-- Pełna treść (z data-full-pl), ukryta na start -->
+  <div class="full-text" style="display: none; margin-top: 10px;"></div>
+      <div class="comment-box" data-lang="pl" style="display: none; margin-top: 10px;">
+    <div class="comment-author">👤 Komentarz (mój)</div>
+    <div class="comment-content">
+"Oni" zresztą wiedzą, że mózg, ciało, jelita (które produkują hormony) się broni i stężenie dopaminy, serotoniny wynosi tyle co przed terapią - tylko, że teraz "na lekach". Mają to na papierze, w badaniach. Tylko przy zejściu z leków mózg doznaje szoku dlatego naturalnym jest dla niego, że przyjmuje te substancje. Całe te leczenie jest przysłowiową "piaskownicą", ale co szkodzi mieć pacjenta - tak jak "co szkodzi" - Tuskowi obiecać.
+    </div>
+    </div>
+    <button class="toggle-btn" style="margin: 10px 0;">Zobacz wpis</button>
+
+  <!-- Sekcja tłumaczeń -->
+  <div class="translation-controls" style="display:none; margin-top: 10px;">
+    <button onclick="showTranslation('ai', this)">Translate by AI</button>
+    <button onclick="showTranslation('pawel', this)">Translate by Paweł</button>
+  </div>
+  
+  </div>
+<div class="post"
+     data-short-pl="📌 18 maj 2025"
+     data-short-en="📌 May 18, 2025"
+     data-month="maj 2025"
+     data-full-pl="Geje przyjaźnie patrzą na kobiety, zachwycają się nimi a rozmawiają z mężczyznami. Heteroseksualni odwrotnie - chcą rozwiązać swoje problemy wśród kobiet - wśród ich podziwu - rozmawiając. A 'skanują' - patrząc się na energię innych mężczyzn - niejako dodając sobie odwagi jak powinien wyglądać mężczyzna, aby przyciągać kobiety. Więc tutaj chodzi tylko o dwie rzeczy 'ktoś coś powiedział' i ktoś 'się popatrzył'. Dlatego dla kobiet jest 'zniewagą', że mężczyzna nie ma 'na tyle odwagi', aby być trochę 'gejowaty' - uznają to za oznakę przyjazności. Prawdziwy gej - to co innego - niesie ze sobą ładunek, który jest raz przyjazny a raz wrogi - bo 'energetycznie przypomina kobietę' - dlatego, kłótnie zazwyczaj są o 'te drobne rzeczy' - że, ktoś miał seks gejowski czy mastrubował się do mężczyzny - 'uzany za geja' lub też 'założył coś gejowskiego' wtedy - właśnie poprzez te 'patrzenie' i 'rozmawianie' - zarówno kobiety jak i mężczyźni oceniają swoje szanse relacjonowania się z taką osobą."
+       >
+  
+  <p><strong>Paweł Babik napisał:</strong></p>
+    <div class="tags">
+  <button class="tag">#zmysły</button>
+  <button class="tag">#mindset</button>
+</div>
+  <!-- Krótka zapowiedź -->
+  <div class="short-text">📌 18 maj 2025</div>
+  <!-- Pełna treść (z data-full-pl), ukryta na start -->
+  <div class="full-text" style="display: none; margin-top: 10px;"></div>
+
+    <button class="toggle-btn" style="margin: 10px 0;">Zobacz wpis</button>
+
+  <!-- Sekcja tłumaczeń -->
+  <div class="translation-controls" style="display:none; margin-top: 10px;">
+    <button onclick="showTranslation('ai', this)">Translate by AI</button>
+    <button onclick="showTranslation('pawel', this)">Translate by Paweł</button>
+  </div>
+  
+  </div>
+<div class="post"
+     data-short-pl="📌 15 maj 2025"
+     data-short-en="📌 May 15, 2025"
+     data-month="maj 2025"
+     data-full-pl="Zastanawialiście się kiedyś - dlaczego ktoś kto ma dobrze płacone - jest na diecie? Dodatku, który jest 'ograniczeniem potrzeb' a w kontekście jedzenia - kulinarnym 'deserem'. To ogranicza on potrzeby czy nie? Dobrze zarabia czy nie. Ma co jeść? Wyobrażacie sobie aby politycy Niemieccy czy Amerykańscy dostawali 'dietę'. To bardzo głęboki przekaz podprogowy - który ma oznaczać 'niewystarczające pieniądze'. To hipnoza - nikt się nie zastanawia, bo tak się mówi. Gdybym zatrudniał pracowników i dostawaliby ode mnie dietę - byłoby mi smutno - że moja firma źle im płaci. I nie wzbudzało by we mnie zdziwienia - dlaczego oni kradną w tej firmie - np. przez L4 czy inne sposoby."
+       >
+  
+  <p><strong>Paweł Babik napisał:</strong></p>
+    <div class="tags">
+  <button class="tag">#zmysły</button>
+  <button class="tag">#mindset</button>
+</div>
+  <!-- Krótka zapowiedź -->
+  <div class="short-text">📌 15 maj 2025</div>
+  <!-- Pełna treść (z data-full-pl), ukryta na start -->
+  <div class="full-text" style="display: none; margin-top: 10px;"></div>
+
+    <button class="toggle-btn" style="margin: 10px 0;">Zobacz wpis</button>
+
+  <!-- Sekcja tłumaczeń -->
+  <div class="translation-controls" style="display:none; margin-top: 10px;">
+    <button onclick="showTranslation('ai', this)">Translate by AI</button>
+    <button onclick="showTranslation('pawel', this)">Translate by Paweł</button>
+  </div>
+  
+  </div>
+<div class="post"
+     data-short-pl="📌 15 maj 2025"
+     data-short-en="📌 May 15, 2025"
+     data-month="maj 2025"
+     data-full-pl="Feedback ojca jest zawsze nietrafny. Dlatego jest ojciec chrzestny - on może być bardziej zdystansowany. Niestety zrobiliśmy z tego 'parodię' - bo ojciec chrzestny jest bardziej subiektywny przez krzywdę 'tą z filmu'. Dlatego jest jakby pokazane, że każdy żal powinien być wysłuchany - nawet najbardziej irracjonalny - ma on także testować zdolności ojca chrzestnego (jego chęć zemsty). Niestety ojciec zrobił by jeszcze gorzej tylko dlatego, że ma wrażenie - że ewolucja stoi w miejscu. Dlatego ojciec chrzestny 'testuje' zdolności chrześniaka i reprezentuje chęć zemsty ojca na synu za jego własne braki (czyli braku ojca)."
+       >
+  
+  <p><strong>Paweł Babik napisał:</strong></p>
+    <div class="tags">
+  <button class="tag">#zmysły</button>
+  <button class="tag">#mindset</button>
+</div>
+  <!-- Krótka zapowiedź -->
+  <div class="short-text">📌 15 maj 2025</div>
+  <!-- Pełna treść (z data-full-pl), ukryta na start -->
+  <div class="full-text" style="display: none; margin-top: 10px;"></div>
+
+    <button class="toggle-btn" style="margin: 10px 0;">Zobacz wpis</button>
+
+  <!-- Sekcja tłumaczeń -->
+  <div class="translation-controls" style="display:none; margin-top: 10px;">
+    <button onclick="showTranslation('ai', this)">Translate by AI</button>
+    <button onclick="showTranslation('pawel', this)">Translate by Paweł</button>
+  </div>
+  
+  </div>
+<div class="post"
+     data-short-pl="📌 15 maj 2025"
+     data-short-en="📌 May 15, 2025"
+     data-month="maj 2025"
+     data-full-pl="Tak jak Pan 'Mateusz Grzesiak'... 'nauczył' mnie przejmować Kościół - sam miałem wątpliwości czy to zadziała, ale pomimo mojej walki o etykę takiego zachowania (zrozumiałem, że skuteczność nie równa się wartość) - to zadziałało. Więc 'przejęcie Kościoła' - swoim zachowaniem czy 'nagonka' na jakąś osobę - w imię 'świętej wojny' - to może być ktoś przypadkowy kto poczuł się urażony. Kilka egregorów może 'współpracować' - zgadzać się co do idei. Jeden kuracjusz, który gdzieś tam boksował, może przez swoje opowieści w gronie innych kuracjuszy 'wysłać' mi 'wyzwanie do walki'. To może być ktoś, kto pracuje w służbach... - sprawdźmy - urodził się w 1980 - jako dziecko biedował. Przerwał studia i został zwerbowany do programu operacyjnego w 2000 roku. Dziś ma 45 lat i ma problemy reumatyczne. Był oficerem operacyjnym m.in. dla Wojska w Afganistanie i dla Gromu. Inteligentny człowiek. Taki - nie odpuszcza, gdy chcę osiągnąć wiedzę z 'sytuacji kryzysowej', bowiem z takich sytuacji jest najwięcej wiedzy. Był tydzień w Horyńcu i tak zaaranżował 'otoczenie', że teraz większość kuracjuszy lekceważy mnie i prowokuje. On - 'dzwoni czasem do nich' i pyta o wpływ - czy mam przestraszoną minę, czy waham się gdzie pójść itp. W między czasie kontaktuje się z innym oficerem operacyjnym z Gromu i wdraża rozwiązanie, które pozyskał przez kontakt ze mną. Ktoś z takiego czy innego wydziału dzwoni 'z prośbą' - o informacje jak Paweł reaguje w konkretnej sytuacji - ponieważ pewien polityk będzie 'hejtowany publicznie' z powodu informacji, którą oni muszą wypuścić - dlatego, że dotyczy kogoś bogatego - który doznał szkody. Jeszcze inny 'oficer' kontaktuje się z 'obserwatorem' z zagranicznego wywiadu. Sprawdzają wszystko - mój puls (jeśli dostaną zgodę z góry), czy nawet saturacje płuc - ponieważ jest on (Paweł) - reaktywny jeśli chodzi o 'techniki oddychania'. Takie same zamieszanie mamy w sferze internetu. Czyli komuś można podłączyć 'sztuczny internet' i wtedy ta osoba myśli, że ktoś 'coś' powiedział itp. Takie 'podwodne oddychanie' - 'zanurzenie w takiej sieci' może trwać nawet 2 tygodnie - wszystkie treści generuje AI. Wkrótce pewien oficer trafia na ślad jakiejś znanej osoby ze świata 'showbiznesu' - przelot nie był rejestrowany, lądowanie było w trudno dostępnym dla ludzi terenie. Ta osoba - poinfomowała swoich 'agentów', którzy byli już na miejscu od mniej więcej 2 lat, że 'ma to być nie do wykrycia'. Wcześniej 'maskuje' spotkanie. Ludzie podobnie do tej 'gwiazdy' jeżdzą autem w maskach, które imitują jej wygląd - tak, że 'nie będzie wiadomo' - kiedy spotkanie będzie miało miejsce. Wszystko po to, aby tej 'personie' dać 'strzał' do pracy twórczej - bo jest on uznawany 'za utalentowanego' - jeden z najlepszych w 'docieraniu do sedna'. Takich spotkań 'kontrolowanych' było pare. Próbowano też do tego 'świadomych snów' i hipnozy. Niektóre z gwiazd - nie 'chcą' wysiłku energetycznego, aby docierać na miejsce. Proponują Warszawe lub Jarosław. Niektóre z nich cierpią psychicznie i chcą go (Pawła) - stymulować tylko do 'poczucia się - jakby byli częścią jego otoczenia' - tak aby rozwiązał 'ich' problem, z którym nie dają rady 'czarodzieje' wszelkiej maści. Pieniądze też mają znaczenie i wyrocznie, autorytety, które przecierają oczy ze zdumienia - że ich 'skany aury' czy prorocze sny, których jestem udziałem 'nie sprawdzają się'. Budowane są sekretne pomieszczenia i często 'mierzy sie do niego' bronią - aby wsiadł do 'auta'. Póżniej 'przestawia się mu zegarek'. Niektórzy z decydentów - zostawiają ślady ich działalności 'aby go nie upośledzać' - ponieważ jego inteligencja jest ceniona - w istocie podążają tylko za jego 'sprawczością', której nie potrafią zrozumieć."
+       >
+  
+  <p><strong>Paweł Babik napisał:</strong></p>
+    <div class="tags">
+  <button class="tag">#zmysły</button>
+  <button class="tag">#mindset</button>
+</div>
+  <!-- Krótka zapowiedź -->
+  <div class="short-text">📌 15 maj 2025</div>
+  <!-- Pełna treść (z data-full-pl), ukryta na start -->
+  <div class="full-text" style="display: none; margin-top: 10px;"></div>
+
+    <button class="toggle-btn" style="margin: 10px 0;">Zobacz wpis</button>
+
+  <!-- Sekcja tłumaczeń -->
+  <div class="translation-controls" style="display:none; margin-top: 10px;">
+    <button onclick="showTranslation('ai', this)">Translate by AI</button>
+    <button onclick="showTranslation('pawel', this)">Translate by Paweł</button>
+  </div>
+  <!-- Film, ukryty do momentu rozwinięcia -->
+  <video class="post-video" controls width="100%" style="display: none; margin-top: 10px;">
+    <source src="filmy/wpisy/johnwick.mp4" type="video/mp4">
+    Twoja przeglądarka nie obsługuje odtwarzacza wideo.
+  </video>
+  </div>
+<div class="post"
+     data-short-pl="📌 15 maj 2025"
+     data-short-en="📌 May 15, 2025"
+     data-month="maj 2025"
+     data-full-pl="W takiej sytuacji zostałem postawiony... i to już jako dziecko. Czy chce tu czy tu. Czyli dylemat zamiast wyboru - ten (wybór) zaczyna się przy trzech możliwościach. Inaczej jest to odtwarzany konflikt pomiędzy Bogiem i diabłem - czyli diabeł nie istnieje jeśli się ma większą możliwość wyboru. Pieniądze albo brak pieniędzy. Energia seksualna albo zablokowanie. Joga albo tantra. Zawsze powiększałem tą ilość wyborów. Spójrzmy na sytuacje... Batman ma kontrolę nad ciałem przeciwnika (tak jak w mojej sytuacji psychiatria ma kontrole nad moim mózgiem), ale nie ma kontroli nad otoczeniem (kimś kogo kocha lub chce chronić). Dlatego agresja wynika nie tylko z konkretnej sytuacji, ta sytuacja może wywoływać konflikt wewnętrzny i wtedy 'atakujemy' tego kto go powoduje. 'Ja' jestem obiektem takich ataków - ponieważ mam rozwiązanie - a niektórzy dopiero przy mnie orientują się, że mają problem. Dlatego 'winią' mnie i czynią odpowiedzialnym - za rozwiązanie. Nawet media czy psychiatria. Wtedy myślą, że zwariowałem - tylko dlatego, że nade mną 'mają kontrolę' a nad sytuacją nie. W następnym filmie kontynuacja."
+       >
+  
+  <p><strong>Paweł Babik napisał:</strong></p>
+    <div class="tags">
+  <button class="tag">#zmysły</button>
+  <button class="tag">#mindset</button>
+</div>
+  <!-- Krótka zapowiedź -->
+  <div class="short-text">📌 15 maj 2025</div>
+  <!-- Pełna treść (z data-full-pl), ukryta na start -->
+  <div class="full-text" style="display: none; margin-top: 10px;"></div>
+
+    <button class="toggle-btn" style="margin: 10px 0;">Zobacz wpis</button>
+
+  <!-- Sekcja tłumaczeń -->
+  <div class="translation-controls" style="display:none; margin-top: 10px;">
+    <button onclick="showTranslation('ai', this)">Translate by AI</button>
+    <button onclick="showTranslation('pawel', this)">Translate by Paweł</button>
+  </div>
+  <!-- Film, ukryty do momentu rozwinięcia -->
+  <video class="post-video" controls width="100%" style="display: none; margin-top: 10px;">
+    <source src="filmy/wpisy/batmanDarkKnight.mp4" type="video/mp4">
+    Twoja przeglądarka nie obsługuje odtwarzacza wideo.
+  </video>
+  </div>
+<div class="post"
+     data-short-pl="📌 14 maj 2025"
+     data-short-en="📌 May 14, 2025"
+     data-month="maj 2025"
+     data-full-pl="Pamiętacie taką scenę z Incepcja. Ona popełniła samobójstwo i prześladowała go w snach. Każdy z nas popełnia takie samobójstwo duchowe - młoda, z nadziejami, ładna. Około 25 roku życia. Chce, aby odszedł ktoś z jej klanu. To miłość rodzinna, małżeńska - taką trudno wytrzymać. Często też udowodnieniem, że mogłaby umrzeć dla kogoś ponieważ ten ktoś kocha a wtedy to jest największa obelga dla niedoskonałej duszy."
+       >
+  
+  <p><strong>Paweł Babik napisał:</strong></p>
+    <div class="tags">
+  <button class="tag">#zmysły</button>
+  <button class="tag">#mindset</button>
+</div>
+  <!-- Krótka zapowiedź -->
+  <div class="short-text">📌 14 maj 2025</div>
+  <!-- Pełna treść (z data-full-pl), ukryta na start -->
+  <div class="full-text" style="display: none; margin-top: 10px;"></div>
+
+    <button class="toggle-btn" style="margin: 10px 0;">Zobacz wpis</button>
+
+  <!-- Sekcja tłumaczeń -->
+  <div class="translation-controls" style="display:none; margin-top: 10px;">
+    <button onclick="showTranslation('ai', this)">Translate by AI</button>
+    <button onclick="showTranslation('pawel', this)">Translate by Paweł</button>
+  </div>
+  
+  </div>
+<div class="post"
+     data-short-pl="📌 14 maj 2025"
+     data-short-en="📌 May 14, 2025"
+     data-month="maj 2025"
+     data-full-pl="Nie Dzejson, przełożenie piwa do kartonika na placu zabaw nie zrobi z Ciebie gentelmena. Będzie to widać po Twoim zachowaniu, że jesteś zrobiony i będą wiedzieć w okolicy, że jesteś smakoszem. Ten nowoczesny make-up gładko się rozszedł po Polsce - pytam bezpośrednio - 'czy chcesz, żeby operował Cię lekarz na haju' i kiedy już odwali najtrudniejszą robotę wychodził na papierosa kiedy rana jest jeszcze otwarta. Zastanów się."
+       >
+  
+  <p><strong>Paweł Babik napisał:</strong></p>
+    <div class="tags">
+  <button class="tag">#zmysły</button>
+  <button class="tag">#mindset</button>
+</div>
+  <!-- Krótka zapowiedź -->
+  <div class="short-text">📌 14 maj 2025</div>
+  <!-- Pełna treść (z data-full-pl), ukryta na start -->
+  <div class="full-text" style="display: none; margin-top: 10px;"></div>
+
+    <button class="toggle-btn" style="margin: 10px 0;">Zobacz wpis</button>
+
+  <!-- Sekcja tłumaczeń -->
+  <div class="translation-controls" style="display:none; margin-top: 10px;">
+    <button onclick="showTranslation('ai', this)">Translate by AI</button>
+    <button onclick="showTranslation('pawel', this)">Translate by Paweł</button>
+  </div>
+  
+  </div>
+<div class="post"
+     data-short-pl="📌 13 maj 2025"
+     data-short-en="📌 May 13, 2025"
+     data-month="maj 2025"
+     data-full-pl="Na początku jest tylko idea. Idea bycia dzieckiem, idea bycia dorosłym, seksualnym. Idea bycia mężczyzną czy kobietą. Idea rodziny, bycia w tym świecie jako fizyczność czy jako duchowość. Idea bycia kochankiem - własnej definicji miłości. Dlatego ta idea może stać się fizyczną gdy podejmiemy działanie. Po owocach ich poznacie. Dlatego gdy owoce sąsiada lepiej obrodziły - zazdrościmy mu. Jednak zazdrość występuje niezależnie od fizyczności i duchowej sfery - tzn. można zazdrościć realizowania się w działaniu jak i posiadania pomysłów. Zazdrościmy nie tylko ufizycznienia czy uduchowienia - zazdrościmy również ufizycznionej duchowości i uduchowionej fizyczności. Zazdrościmy balansu - sukcesu. Zazdrość jest uniwersalna tzn. przebywając chwilę z kimś możemy poczuć zazdrość, która jest nieuzasadniona. Żyjemy w Matrixie tzn. zarówno poziom fizyczny jak i duchowy jest kontrolowany - możliwość relaksu (balansu) jest kontrolowana tzn. jeśli chcemy mieć bogatego męża to nie można mu dawać spokoju - wtedy zostanie na etapie 30-40 lat - ale nie bierzemy pod uwagę ciała, które może tego nie wytrzymać. Idee są kontrolowane - pozyskiwanie energii, sił do pracy jest kontrolowana. To znaczy, że jeśli ktoś wejdzie dużo wyżej od innych (na przykład poprzez medytację jako nastolatek) to trzeba go dla jego dobra nauczyć - że nasza planeta nie jest planetą 'szczęścia' - nasza planeta jest - patrząc krytycznie (czyli nie tak że to ma nas odurzać) - nasza planeta jest planetą wojen, wyzysku, niewolnictwa. Boimy się wojny - tzn. zasilamy strach i jest on przeliczalny na myślogodziny itp. Statystycznie Polak myśli o wojnie raz dziennie (najczęściej nieświadomie) i według takich stymulantów podejmuje resztę strategicznych działań. Chce się Ciebie coś zapytać."
+       >
+  
+  <p><strong>Paweł Babik napisał:</strong></p>
+    <div class="tags">
+  <button class="tag">#zmysły</button>
+  <button class="tag">#mindset</button>
+</div>
+  <!-- Krótka zapowiedź -->
+  <div class="short-text">📌 13 maj 2025</div>
+  <!-- Pełna treść (z data-full-pl), ukryta na start -->
+  <div class="full-text" style="display: none; margin-top: 10px;"></div>
+
+    <button class="toggle-btn" style="margin: 10px 0;">Zobacz wpis</button>
+
+  <!-- Sekcja tłumaczeń -->
+  <div class="translation-controls" style="display:none; margin-top: 10px;">
+    <button onclick="showTranslation('ai', this)">Translate by AI</button>
+    <button onclick="showTranslation('pawel', this)">Translate by Paweł</button>
+  </div>
+
+  </div>
+<div class="post"
+     data-short-pl="📌 12 maj 2025"
+     data-short-en="📌 May 12, 2025"
+     data-month="maj 2025"
+     data-full-pl="Ludzie nie pokażą Ci swojej prawdziwej twarzy - jeśli się z Tobą 'relacjonują'. Tą -prawdziwą mogą pokazać tylko egzystencji, Bogu oraz gdy tracą kontrolę. Ta prawdziwa twarz - jak również - ta - wykreowana... 'muszą' odpoczywać... Stąd jest to widoczne w zachowaniach, kompulsjach, skłonnościach czy upodobaniach."
+       >
+  
+  <p><strong>Paweł Babik napisał:</strong></p>
+    <div class="tags">
+  <button class="tag">#zmysły</button>
+  <button class="tag">#mindset</button>
+</div>
+  <!-- Krótka zapowiedź -->
+  <div class="short-text">📌 12 maj 2025</div>
+  <!-- Pełna treść (z data-full-pl), ukryta na start -->
+  <div class="full-text" style="display: none; margin-top: 10px;"></div>
+
+    <button class="toggle-btn" style="margin: 10px 0;">Zobacz wpis</button>
+
+  <!-- Sekcja tłumaczeń -->
+  <div class="translation-controls" style="display:none; margin-top: 10px;">
+    <button onclick="showTranslation('ai', this)">Translate by AI</button>
+    <button onclick="showTranslation('pawel', this)">Translate by Paweł</button>
+  </div>
+  
+
+  </div>
+<div class="post"
+     data-short-pl="📌 10 maj 2025"
+     data-short-en="📌 May 10, 2025"
+     data-month="maj 2025"
+     data-full-pl="Ci co palą - papierosy - nie tylko smrodzą - jest to informacja, że gdzieś ogień może być zapruszony i jest to reakcja niezależna od świadomości. Tak samo można by podejść do gotowania - że możec się zapalić, ALE jest to wpisane w tak zwaną skalę zabezpieczenia. Jeśli na 100 pożarów w domu 40% - przez papierosy i 10% przez zostawienie otwartego palnika... Jest to dowód na to, że ta osoba nie dba o bezpieczeństwo. Dlatego tak psychiatria podkreśla kontrolowanie leków przez lekarza. Biorąc samemu wyrażamy nasz zmniejszony stopień bezpieczeństwa w skali od 1 do 10. Taka osoba, która weźmie lek sama - jest traktowana w zakresie 'samobójczym'. Ale uwaga ta osoba może nad tym świetnie panować - tylko w razie zagrożenia informacyjnego - ta osoba 'nie dowie się' - raczej zemdleje czyli straci świadomość - i jest to robione po to aby osoba 'nie wtykała nosa', 'ma widzieć to co my chcemy' czy 'nie jest zagrożeniem'."
+       >
+  
+  <p><strong>Paweł Babik napisał:</strong></p>
+    <div class="tags">
+  <button class="tag">#zmysły</button>
+  <button class="tag">#mindset</button>
+</div>
+  <!-- Krótka zapowiedź -->
+  <div class="short-text">📌 10 maj 2025</div>
+  <!-- Pełna treść (z data-full-pl), ukryta na start -->
+  <div class="full-text" style="display: none; margin-top: 10px;"></div>
+
+    <button class="toggle-btn" style="margin: 10px 0;">Zobacz wpis</button>
+
+  <!-- Sekcja tłumaczeń -->
+  <div class="translation-controls" style="display:none; margin-top: 10px;">
+    <button onclick="showTranslation('ai', this)">Translate by AI</button>
+    <button onclick="showTranslation('pawel', this)">Translate by Paweł</button>
+  </div>
+  
+
+  </div>
+<div class="post"
+     data-short-pl="📌 9 maj 2025"
+     data-short-en="📌 May 9, 2025"
+     data-month="maj 2025"
+     data-full-pl="Chcą przekonać schizofrenika, że świat zdradza - potem chcą za pomocą kontroli emocji (tym w uproszczeniu jest kontrola chemii mózgu) - przekonać, że nie było zdrady. Chcą to powtarzać w nieskończoność, zamazywać, restartować. Chcą wraz ze Swiadomością Chrystusową pokazać, że tym razem nie było ukrzyżowania - chcą się przekonać, że Jezus nie umarł na krzyżu - tak jak w Bękartach Wojny (2009) - że nie było wojny i ludzie tak nie robili. Tą pamięć, która jest warunkowa - gdy mnie boli - świat mnie zdradza - Nie, nie zdradza - po prostu nie potrafisz kontrolować swoich emocji zwłaszcza wtedy kiedy mógłbyś mieć tą kontrolę i świat od Ciebie jej oczekuje."
+       >
+  
+  <p><strong>Paweł Babik napisał:</strong></p>
+    <div class="tags">
+  <button class="tag">#zmysły</button>
+  <button class="tag">#mindset</button>
+</div>
+  <!-- Krótka zapowiedź -->
+  <div class="short-text">📌 9 maj 2025</div>
+  <!-- Pełna treść (z data-full-pl), ukryta na start -->
+  <div class="full-text" style="display: none; margin-top: 10px;"></div>
+
+    <button class="toggle-btn" style="margin: 10px 0;">Zobacz wpis</button>
+
+  <!-- Sekcja tłumaczeń -->
+  <div class="translation-controls" style="display:none; margin-top: 10px;">
+    <button onclick="showTranslation('ai', this)">Translate by AI</button>
+    <button onclick="showTranslation('pawel', this)">Translate by Paweł</button>
+  </div>
+  
+
+  </div>
+          <div class="post"
+     data-short-pl="📌 9 maj 2025"
+     data-short-en="📌 May 9, 2025"
+     data-month="maj 2025"
+     data-full-pl="Każda matka, każdy ojciec jest hazardzistą - to znaczy nie wie jak jego dziecko się zachowa. I nie miejcie złudzeń - te wpisy też są elementem gry hazardowej tyle, że w tle że społeczeństwem, Jezusem, Sądami itp."
+       >
+  
+  <p><strong>Paweł Babik napisał:</strong></p>
+    <div class="tags">
+  <button class="tag">#zmysły</button>
+  <button class="tag">#mindset</button>
+</div>
+  <!-- Krótka zapowiedź -->
+  <div class="short-text">📌 9 maj 2025</div>
+  <!-- Pełna treść (z data-full-pl), ukryta na start -->
+  <div class="full-text" style="display: none; margin-top: 10px;"></div>
+
+    <button class="toggle-btn" style="margin: 10px 0;">Zobacz wpis</button>
+
+  <!-- Sekcja tłumaczeń -->
+  <div class="translation-controls" style="display:none; margin-top: 10px;">
+    <button onclick="showTranslation('ai', this)">Translate by AI</button>
+    <button onclick="showTranslation('pawel', this)">Translate by Paweł</button>
+  </div>
+
+  </div>
+<div class="post"
+     data-short-pl="📌 8 maj 2025"
+     data-short-en="📌 May 8, 2025"
+     data-month="maj 2025"
+     data-full-pl="Nigdy się nie wie czy jest się na to przygotowanym. Powinienem się tym podzielić 'od razu' jednak forma przekazu też ma znaczenie. Nie mogę być winny - to prawa, które są dostrzegalne, namacalne. Być głosem innych a 'inni' myślą, że 'to' było źle wypowiedziane, źle przekazane. Tylko tyle mi zarzucają, że źle coś 'przekazałem'. Brzemieć donośnie choć nie wiadomo dlaczego. Produkować zrozumienie i być na swój sposób 'trybem' - pszczołą, która zbiera miód, kurą - która znosi jajka. Rodzić 'w bólu' i nikt poza mną nie wie jaki to jest ból - krzyki tego nie opiszą, pot na czole tego nie opisze, świadkowie tego nie opiszą. Nie być na to przygotowanym i nie wiedzieć kiedy to się zdarzy. Chcieć zniszczyć narzędzie, które 'to' dostarczy - komputer czy telefon. Mieć wrażenie jakby się chciało zniszczyć świat. Informacja jest zakodowana, jest 'energią' na pewnym etapie. 'Później' będę wiedział jaki zrobiłem błąd. Kim jestem i co przekazałem. Błądzę po lokalizacji 'etapu' na jakim jestem. Czy to zrozumienie 'przewyższa' czy jest 'ograniczone'. Tak jak Mateusz kiedyś napisał. Gwałcimy własną matkę, która jest Polską - on wtedy ujął to w ten sposób, że 'nie pracujemy' dla niej jak pszczoła. Ja tu widzę więcej - wygodne łono - w którym pływamy - jesteśmy wtedy rybą - nie oddychamy powietrzem. Człowiek jest forsowany, żeby dojrzewać - budzi się energia seksualna i nic nie możemy zrobić - tylko się jej nauczyć. 'Motherfucker' to jest właśnie 'kochanek', który zdysocjował się od matki. Więc przez miłość kochamy matkę tylko ta miłość jest wtedy 'zdysocjowana' a kształtując energię seksualną mamy wrażenie jakby na tą matkę się obrażało i ją gwałciło - tak kształtuje się energia seksualna już z partnerką. Jest to gniew, który wyraża się w postaci napływu energii połączeniu przez konflikt lub seks. Więc dysocjujemy się do całej Ziemii w momencie podniecenia - wtedy następuje proces uziemiania i czujemy całą Ziemię - tym jest orgazm. To jest właśnie dysocjacja czyli łono, Ziemia, matka, ojczyzna  - i na to się gniewamy, tym się podniecamy. Następny proces to 'mieszkanie z rodzicami'. Rodzic, który mieszka w domu z dzieckiem - to ten jego 'dom' jest jego umysłem - więc w swoim umyśle to rodzic - który empatycznie przyjmuje perspektywę dziecka - a często musi - po tej kontemplacji - jego perspektywa pozycji percepcyjnej dziecka jest taka - że on w swoim umyśle - 'mieszka z rodzicami'. Ten rodzic jest obecny w umyśle rodzica i rodzic nie jest tylko sobą, żoną, mężem - dzieli w umyśle przestrzeń 'rodzica' tak, że ten 'rodzic' jest mieszkający z dzieckiem - ale w ułamku sekundy - zmienia się to na 'dziecko mieszkające z rodzicem' - bo uwaga jest skupiona na dziecku - tak jak matka, która karmi dziecko - nie czuje się matką, ale bardziej dzieckiem. Więc ten rodzic mieszka - w umyśle 'z rodzicem' a równocześnie rodzica 'rodzice' mieszkają w nim - dlatego często jest to skorelowane czy rodzica 'rodzice' żyją - może to także powodować przywiązanie do tego (kiedy dorosłe dziecko jest w domu), aby kontynuować relacje rodzicielską - dlatego, że często jest na tej relacji oparta wiara, siła duchowa."
+       >
+  
+  <p><strong>Paweł Babik napisał:</strong></p>
+    <div class="tags">
+  <button class="tag">#zmysły</button>
+  <button class="tag">#mindset</button>
+</div>
+  <!-- Krótka zapowiedź -->
+  <div class="short-text">📌 8 maj 2025</div>
+  <!-- Pełna treść (z data-full-pl), ukryta na start -->
+  <div class="full-text" style="display: none; margin-top: 10px;"></div>
+
+    <button class="toggle-btn" style="margin: 10px 0;">Zobacz wpis</button>
+
+  <!-- Sekcja tłumaczeń -->
+  <div class="translation-controls" style="display:none; margin-top: 10px;">
+    <button onclick="showTranslation('ai', this)">Translate by AI</button>
+    <button onclick="showTranslation('pawel', this)">Translate by Paweł</button>
+  </div>
+  
+
+  </div>
+<!-- Sekcja wpisów -->
+<div class="tablica-container">
+  <div class="tab-title">📝 Moje wpisy na FB</div>
+  <!-- Wpis 1 -->
+          <div class="post"
+     data-short-pl="📌 8 maj 2025"
+     data-short-en="📌 May 8, 2025"
+     data-month="maj 2025"
+     data-full-pl="Informacja zwrotna powinna dotyczyć myślenia kreatywnego - nie zaś osądu. Ten (osąd) jest kompasem w czasie rzeczywistym, który mówi nam, że 'zachowujemy się źle', 'coś jest źle'. Dlatego nosimy w sobie całe potępienie człowieczeństwa, które te potępienie samo w sobie jest pułapką. Ja jestem w 'pułapce', ale ja walczę 'na arenie' podczas gdy inni 'chcą to oglądać', bo w głębi duszy pragną - chcieli by tak żyć."
+       >
+  
+  <p><strong>Paweł Babik napisał:</strong></p>
+    <div class="tags">
+  <button class="tag">#zmysły</button>
+  <button class="tag">#mindset</button>
+</div>
+  <!-- Krótka zapowiedź -->
+  <div class="short-text">📌 8 maj 2025</div>
+  <!-- Pełna treść (z data-full-pl), ukryta na start -->
+  <div class="full-text" style="display: none; margin-top: 10px;"></div>
+
+    <button class="toggle-btn" style="margin: 10px 0;">Zobacz wpis</button>
+
+  <!-- Sekcja tłumaczeń -->
+  <div class="translation-controls" style="display:none; margin-top: 10px;">
+    <button onclick="showTranslation('ai', this)">Translate by AI</button>
+    <button onclick="showTranslation('pawel', this)">Translate by Paweł</button>
+  </div>
+
+  </div>
+        <div class="post"
+     data-short-pl="📌 6 maj 2025"
+     data-short-en="📌 May 6, 2025"
+     data-month="maj 2025"
+     data-full-pl="Ludzie przez swoje osądy reprezentują przynależność do systemu. Dlatego wyzywają w podziemiu przez spojrzenie, minę, gest. Obmawiają (to nie jest zakazane) i wtedy etykietują ale tak żeby nie było wiadomo kogo - ich wróg musi być jednoznacznie znany, scalać ich i nie może być wątpliwości. Gdyby poparli Prawdę wtedy musieliby za nią cierpiec."
+       >
+  
+  <p><strong>Paweł Babik napisał:</strong></p>
+    <div class="tags">
+  <button class="tag">#zmysły</button>
+  <button class="tag">#mindset</button>
+</div>
+  <!-- Krótka zapowiedź -->
+  <div class="short-text">📌 6 maj 2025</div>
+  <!-- Pełna treść (z data-full-pl), ukryta na start -->
+  <div class="full-text" style="display: none; margin-top: 10px;"></div>
+      <div class="comment-box" data-lang="pl" style="display: none; margin-top: 10px;">
+    <div class="comment-author">👤 Komentarz (mój)</div>
+    <div class="comment-content">
+Gdyby poparli kłamstwo to tak jakby poparli inne przestępstwa, dlatego nie "o nich" była mowa itp. Kłamią, żeby ktoś nie uznał ich kłamcami czyli gwałcą moralność, żeby uznać ich za moralnych.
+    </div>
+    </div>
+    <button class="toggle-btn" style="margin: 10px 0;">Zobacz wpis</button>
+
+  <!-- Sekcja tłumaczeń -->
+  <div class="translation-controls" style="display:none; margin-top: 10px;">
+    <button onclick="showTranslation('ai', this)">Translate by AI</button>
+    <button onclick="showTranslation('pawel', this)">Translate by Paweł</button>
+  </div>
+
+  </div>      
+    <div class="post"
+     data-short-pl="📌 6 maj 2025"
+     data-short-en="📌 May 6, 2025"
+     data-month="maj 2025"
+     data-full-pl="Nie da się tego przekazać, żeby nie bolało. Powtarzam - nie da się. Kształtowanie energii seksualnej tylko po to, aby - nie bolało. Kształtowanie energii kochanka. Zawadzanie, blokowanie, przeszkadzanie. Możemy walczyć na przysłowiowe miecze i mieć wysiłek, zagrożenie życia - jeden jak i drugi uniknął śmierci, trudne momenty, słowa i czyny prawdy. W końcu jeden lub dwóch uznało, że - rzeczywiście masz umiejętności - szanuję Cię - odpuszczam Ci. Jest to takie darowanie życia, bo gdyby walka trwała - ponoć u samurajów może to potrwać kilka godzin lub dni. Ktoś może jeszcze uruchomić takie energię i takie - ktoś ma zaplecze za które walczy - ludzie, którzy go kochają i 'walczą z nim'. Darowanie życia - jest nie zabijaniem i jest procesem 'dawania życia' - im ktoś atakuje bardziej nieświadomie - to tylko wzmacnia ego. Mogłem Ci coś zrobić a nie zrobiłem - i iluzję dawania - dałem Ci wolność, spokój itp."
+       >
+  
+  <p><strong>Paweł Babik napisał:</strong></p>
+    <div class="tags">
+  <button class="tag">#zmysły</button>
+  <button class="tag">#mindset</button>
+</div>
+  <!-- Krótka zapowiedź -->
+  <div class="short-text">📌 6 maj 2025</div>
+  <!-- Pełna treść (z data-full-pl), ukryta na start -->
+  <div class="full-text" style="display: none; margin-top: 10px;"></div>
+  <button class="toggle-btn" style="margin: 10px 0;">Zobacz wpis</button>
+
+  <!-- Sekcja tłumaczeń -->
+  <div class="translation-controls" style="display:none; margin-top: 10px;">
+    <button onclick="showTranslation('ai', this)">Translate by AI</button>
+    <button onclick="showTranslation('pawel', this)">Translate by Paweł</button>
+  </div>
+
+  </div>
+  <div class="post"
+     data-short-pl="📌 5 maj 2025"
+     data-short-en="📌 May 5, 2025"
+     data-month="maj 2025"
+     data-full-pl="Niestety, ale piszę - tak... jakbym miał zapomnieć. Na pewnym poziomie wszystko jest medytacją, więc kiedy stajesz się bardziej świadomy inni medytują z Tobą. Cały świat jest jakby medytujący... Inni odczuwają Twój stan świadomości - to nie znaczy, że jest lepszy, ale inny. Ktoś inny wprowadza inne energię itp. Dlatego jeśli inni widzą Cię to pokazuje to na ile Ty widzisz innych. Wtedy jakby ludzie nie zauważają Twoich wibracji - bo są tak zanurzeni w Twoich wibracjach. Poprostu jest tak przyjemnie - a są to na tyle inne energię, że nie ma połączenia między ich światem i Twoim. Dlatego właśnie zapominają i chcą Cię 'spowrotem'. Te zapomnienie jest przyjemne i dzieje się w ułamku sekundy, że przejmujesz czasami 'ich ciężar' - zrozumienia siebie. Każdy schemat, każdy dobry nawyk może mieć swój negatywny przeciwnik a to jak bardzo szczęśliwy jesteś zależy od tego jak bardzo rozumiesz rzeczywistość. Dlatego Ty też wchodzisz w inne energię, zapominasz się i powracasz, ale często robisz z tego model i to odpisujesz."
+       >
+  
+  <p><strong>Paweł Babik napisał:</strong></p>
+    <div class="tags">
+  <button class="tag">#zmysły</button>
+  <button class="tag">#mindset</button>
+</div>
+  <!-- Krótka zapowiedź -->
+  <div class="short-text">📌 5 maj 2025</div>
+  <!-- Pełna treść (z data-full-pl), ukryta na start -->
+  <div class="full-text" style="display: none; margin-top: 10px;"></div>
+  <button class="toggle-btn" style="margin: 10px 0;">Zobacz wpis</button>
+
+  <!-- Sekcja tłumaczeń -->
+  <div class="translation-controls" style="display:none; margin-top: 10px;">
+    <button onclick="showTranslation('ai', this)">Translate by AI</button>
+    <button onclick="showTranslation('pawel', this)">Translate by Paweł</button>
+  </div>
+
+  </div>
+  <div class="post"
+     data-short-pl="📌 5 maj 2025"
+     data-short-en="📌 May 5, 2025"
+     data-month="maj 2025"
+     data-full-pl="Tak jak ta Letty w aucie, która krzyczy na kierowcę w momencie 'krytycznym' - tak jest to metafora presji a bardziej szczegółowo - 'dialogów wewnętrznych' - jakie zostały wgrane jednostkom - Polakom i każdemu kto został wychowywany pod presją. Tak krzyczą matki na swoje dzieci, wcześniej mężowie na żony, żony na mężów. Rodzice na dzieci (np w trakcie zamążpójścia, wcześniej przy wychowaniu). Ten krzyk nie jest prawie słyszalny - widoczny. Ten krzyk obecny jest podczas ciszy. Ten krzyk to taki rodzaj 'nie wiem co robić', 'nie wiem czy mi się uda' czy 'kurde, jeszcze muszę zrobić to i to'. Ten krzyk jest sformatowany, skompresowany (tak jak plik w komputerze). Ten krzyk nie objawia się słyszalną komunikacją. Jest ekspresją podczas gdy tracimy kontrole - pokazuje nasze 'wibracje' - cały system motywacyjny i operacyjny (między innymi to czego się boimy). Boimy się dźwięków, które mogły by do nas dotrzeć (tak jak paranoiczne przestrzeżenie o dźwiękach w więzieniu). Boimy się natężenia - ilości informacji jakie mogą nas osłabić, upośledzić, spowolnić, unieszczęśliwić, zaniżyć wibracje. Kontrola nad tymi dźwiękami często nie jest w naszej odpowiedzialności - 'harmonijność' tego co do nas dociera może być przez nas wywołana - ale 'często' jest to głos naszego pradziadka, który był odpowiednio nazywany przez prusaków czy austryjaków - który musiał im 'płacić i płakać' - który wkurwiał się, że jest niewolnikiem - pracuje dla kogoś. Ale tak nie musiało być - nie wiadomo co dostał od rodziców (wtedy) i czy np. nie denerwował się, że 'jest gorzej' - a już było lepiej. Frustracja na zabory czy system polityczny. Frustracja na dostęp do prądu - sąsiad miał a my jeszcze nie - miał radio a nas nie było stać. Czy nawet nasi dziadkowie - nie mieli telewizora. Ten głos 'żyje' w naszej rzeczywistości - jest czasami 'serdecznością' - którą ktoś nie rozpoznaje jako serdeczności - a dlatego, że główna strategia komuniakcji jest krzykiem i przebrnięciem przez bariery jakie stoją nam na drodze tak jak dla Letty i Dominica Torreto. Dlatego życie w rodzinie będzie sformatowane do 'procesów sądowych' a na sali sądowej skompresujemy nasz gniew - do języka, który jest arogancki - który pokazuje jak głośno krzyczymy, ale wyrażając to w sposób dyplomatyczny, spokojny - językiem prawniczym. Ten krzyk jest sformatowany do tego, że nie czujemy się kochani. Ten krzyk jest sformatowany do szeptu - który ma komuś wyrządzić krzywdę - przez to nasz szept jest tak jakby głosem diabła - cichy, spokojny, ale agresywny. Moment, w którym słyszymy ciszę jest momentem, w którym ściszenie - tego krzyku 'uwalnia nas' - nie powiemy takim szeptem 'kocham Cię', bo to by odsłoniło naszą potrzebę 'kochania' zamiast walczenia i odsłoniło dziecko, które w nas siedzi i jest zranione. Te dziecko słyszało 'dźwięk' ulicy w dzieciństwie - przebywa w tym, pływa w tym i czasami nawet pilnuje, aby ten przeraźliwy ryk nadal trwał..."
+       >
+  
+  <p><strong>Paweł Babik napisał:</strong></p>
+    <div class="tags">
+  <button class="tag">#zmysły</button>
+  <button class="tag">#mindset</button>
+</div>
+  <!-- Krótka zapowiedź -->
+  <div class="short-text">📌 5 maj 2025</div>
+  <!-- Pełna treść (z data-full-pl), ukryta na start -->
+  <div class="full-text" style="display: none; margin-top: 10px;"></div>
+  <button class="toggle-btn" style="margin: 10px 0;">Zobacz wpis</button>
+
+  <!-- Sekcja tłumaczeń -->
+  <div class="translation-controls" style="display:none; margin-top: 10px;">
+    <button onclick="showTranslation('ai', this)">Translate by AI</button>
+    <button onclick="showTranslation('pawel', this)">Translate by Paweł</button>
+  </div>
+  
+  <!-- Film, ukryty do momentu rozwinięcia -->
+  <video class="post-video" controls width="100%" style="display: none; margin-top: 10px;">
+    <source src="filmy/wpisy/fast.mp4" type="video/mp4">
+    Twoja przeglądarka nie obsługuje odtwarzacza wideo.
+  </video>
+  </div>
+                                        <div class="post"
+       data-short-pl="📌 2 maj 2025"
+       data-short-en="📌 May 2, 2025"
+              data-month="maj 2025"
+       data-full-pl="'Muszę' wierzyć w ich iluzję. Bo inaczej okazało by się, że jestem wolny. Pierwszy raz w życiu jestem wolny. Bez pieniędzy, bez TVNu, Polsatu, prawników, firm.">
+        <p><strong>Paweł Babik napisał:</strong></p>
+        <img src="wolny.png" alt="Opis obrazka" width="600" />
+<div class="tags">
+  <button class="tag">#zdrowie</button>
+  <button class="tag">#psychosomatyka</button>
+</div>
+  <!-- Krótka zapowiedź -->
+  <div class="short-text">📌 2 maj 2025</div>
+  
+  <!-- Pełna treść (z data-full-pl), ukryta na start -->
+  <div class="full-text" style="display: none; margin-top: 10px;"></div>
+  <!-- Przycisk do rozwijania/zwijania NA DOLE -->
+  <button class="toggle-btn" style="margin: 10px 0;">Zobacz wpis</button>
+  </div>
+                                      <div class="post"
+       data-short-pl="📌 29 kwiecień 2025"
+       data-short-en="📌 April 29, 2025"
+       data-full-pl="Zazdroszczą mi tej pogody - nie słońca - tej wewnętrznej. Zanim ono - słońce minie - muszą mieć igrzyska - 'Igrzyska Śmierci (2012)' bo inaczej by się okazało, że tego słońca nie mają. Te słońce potrzebują odwiedzać w Szpitalu - karmić się nim - jeść moje ciało - mojego ducha."
+       data-month="kwiecień 2025">
+        <p><strong>Paweł Babik napisał:</strong></p>
+  <!-- Krótka zapowiedź -->
+  <div class="tags">
+  <button class="tag">#mindset</button>
+  <button class="tag">#duchowość</button>
+</div>
+  <div class="short-text">📌 2 maj 2025</div>
+  
+  <!-- Pełna treść (z data-full-pl), ukryta na start -->
+  <div class="full-text" style="display: none; margin-top: 10px;"></div>
+      <div class="comment-box" data-lang="pl" style="display: none; margin-top: 10px;">
+    <div class="comment-author">👤 Komentarz (mój)</div>
+    <div class="comment-content">
+To tylko "boty" którym ktoś wgrał "system" - jaka powinna być kobietą, jaki mężczyzna. Tego boją się przez moją aplikację - że są tylko maszynami, którym ktoś wgrał nowy język komunikacji. Że jak nie muszą się denerwować - to woleli by musieć - bo się zmienili a myśleli, że to oni - wolą wojnę - przynajmniej są sobą.
+    </div>
+    </div>
+  <!-- Przycisk do rozwijania/zwijania NA DOLE -->
+  <button class="toggle-btn" style="margin: 10px 0;">Zobacz wpis</button>
+  </div>
+                                  <div class="post"
+       data-short-pl="📌 29 kwiecień 2025"
+       data-month="kwiecień 2025"
+       data-short-en="📌 April 29, 2025"
+       data-full-pl="Jak bezpański pies - wchodzę do sklepu jakbym nie miał pieniędzy i tak się właśnie czuję bogaty po jakimś czasie - jakby nie miał pieniędzy - wchodzi do sklepu i tak go traktują. Biją go - tak jak bije gospodarka, kiedyś ojciec, kolega, szkoła, czy Kościół. Robią to i negocjują na ile mogą sobie pozwolić - zarówno prawnie jak i w sumieniu. Ponoć sąsiad nie bije, ale dziecko płacze. Tak - jesteśmy takimi płaczącymi dziećmi. Negocjujemy na ile sobie możemy pozwolić - im, ktoś inteligentniejszy tym bardziej chcemy go nagiąć: batem, kijem, Sądem, spojrzeniem, honorem czy areną wojenną jaka staje się jego klatką. Tak jak w Gladiatorze (2000) - walka nie jest równa, ale on zawsze wygrywa. Tak nie może być (a jest) i chcielibyśmy choć trochę tak inteligentnie cierpieć (choć sami to cierpienie wywołujemy).">
+        <p><strong>Paweł Babik napisał:</strong></p>
+  <!-- Krótka zapowiedź -->
+  <div class="tags">
+  <button class="tag">#pieniądze</button>
+  <button class="tag">#wizerunek</button>
+    <button class="tag">#inner-game</button>
+</div>
+  <div class="short-text">📌 29 kwiecień 2025</div>
+  
+  <!-- Pełna treść (z data-full-pl), ukryta na start -->
+  <div class="full-text" style="display: none; margin-top: 10px;"></div>
+      <div class="comment-box" data-lang="pl" style="display: none; margin-top: 10px;">
+    <div class="comment-author">👤 Komentarz (mój)</div>
+    <div class="comment-content">
+Byłem wolny - daliście mi niewolę. Byłem bez zmartwień - daliście mi udrękę. Byłem nieustraszony - daliście mi ból.
+    </div>
+    </div>
+  <!-- Przycisk do rozwijania/zwijania NA DOLE -->
+  <button class="toggle-btn" style="margin: 10px 0;">Zobacz wpis</button>
+  </div>
+                                <div class="post"
+       data-short-pl="📌 28 kwiecień 2025"
+       data-short-en="📌 April 28, 2025"
+       data-month="kwiecień 2025"
+       data-full-pl="Człowiek, który nie toleruje bałaganu nie może spać. To właśnie mamy globalnie - nie możemy spać gdy wszystko jest ułożone. Lepiej tolerować minimalny bałagan - wtedy ten w naszej głowie pozwoli nam spać. A gdy wszystko posprzątamy - wtedy chcemy sprzątać ludzi, ustawiać - wtedy moglibyśmy spać. Sęk w tym, że nigdy nie będziemy kontrolowali wszystkiego (i piszę to jako kosmita) a iluzja spowodowana kontrolą nad drugim człowiekiem da nam kłamstwo w postaci lepszego wtedy snu. Z czasem im bardziej po naszemu - tym bardziej śpimy - dosłownie i w przenośni i uważamy, że 'odpuszczenie', pogodzenie się z tym lub tamtym będzie bolesne i nie warte zapłacenia. Stąd zmysłowość władzy - ta pokusa - nie jest spowodowana władzą stricte a to jakie nadajemy jej korelacyjne znaczenie.">
+        <p><strong>Paweł Babik napisał:</strong></p>
+  <!-- Krótka zapowiedź -->
+    <div class="tags">
+  <button class="tag">#techniki-mentalne</button>
+  <button class="tag">#wewnętrzny-spokój</button>
+    <button class="tag">#relacje</button>
+</div>
+  <div class="short-text">📌 28 kwiecień 2025</div>
+  
+  <!-- Pełna treść (z data-full-pl), ukryta na start -->
+  <div class="full-text" style="display: none; margin-top: 10px;"></div>
+      <div class="comment-box" data-lang="pl" style="display: none; margin-top: 10px;">
+    <div class="comment-author">👤 Komentarz (mój)</div>
+    <div class="comment-content">
+A na naszej planecie jest większy syf nawet gdy była II wojna światowa. Dlatego żyjemy w naszych mieszkaniach obok gówienek równo ułożonych...
+    </div>
+    </div>
+  <!-- Przycisk do rozwijania/zwijania NA DOLE -->
+  <button class="toggle-btn" style="margin: 10px 0;">Zobacz wpis</button>
+  </div>
+                              <div class="post"
+       data-short-pl="📌 28 kwiecień 2025"
+       data-short-en="📌 April 28, 2025"
+       data-month="kwiecień 2025"
+       data-full-pl="Przyglądając się temu z daleka po 5 minutowej rozmowie z Pawłem pomyślałbym, że system uczynił go taką baterią jak w Matrixie (1999). Że jest taką kurwą - jak z 50 twarzy Greya - która piszczy gdy ją boli. Dlatego tak jak Jezus często boję się zegara - po tym poznasz cierpienie psychiczne... Tyle, że uwolnienie się z tego systemu nie uważam za cel - uwolnienie innych razem ze mną - owszem. I tak 99% Polaków boi się 8-mej do pracy, dlatego mają tak wielki fetysz na szpital psychiatryczny - bo tak jakby nie zdążą się zorientować że wstali (świadomość) a już są w pracy, której nienawidzą. Pomożesz mi zanieść te worki?">
+        <p><strong>Paweł Babik napisał:</strong></p>
+  <!-- Krótka zapowiedź -->
+      <div class="tags">
+  <button class="tag">#bycie-Polakiem</button>
+  <button class="tag">#poranek</button>
+    <button class="tag">#praca</button>
+        <button class="tag">#wypalenie-zawodowe</button>
+</div>
+  <div class="short-text">📌 28 kwiecień 2025</div>
+  
+  <!-- Pełna treść (z data-full-pl), ukryta na start -->
+  <div class="full-text" style="display: none; margin-top: 10px;"></div>
+      <div class="comment-box" data-lang="pl" style="display: none; margin-top: 10px;">
+    <div class="comment-author">👤 Komentarz (mój)</div>
+    <div class="comment-content">
+Tego obrazu z Matrixa nie da się wymazać. On jest i jest widoczny, dostępny.
+    </div>
+    </div>
+  <!-- Przycisk do rozwijania/zwijania NA DOLE -->
+  <button class="toggle-btn" style="margin: 10px 0;">Zobacz wpis</button>
+  </div>
+                            <div class="post"
+       data-short-pl="📌 27 kwiecień 2025"
+       data-short-en="📌 April 27, 2025"
+       data-month="kwiecień 2025"
+       data-full-pl="A wzburzali się przeciwko niemu - kim on jest, że uzdrawia. Szemrali przeciwko niemu tamtejsze władze. W końcu się doczekał. Dostęp do świata duchowego nazwali - wybujabym ego, narcystycznym. Zalecali mu wycofać się z życia społecznego. Gdy mówił przypowieści - rzeczywiście zrezygnował z konfrontacji - przyjął język metafory. Jego cuda w tamtych czasach nie były niczym nadzwyczajnym - to samo potrafił Jan, który był bardziej zainteresowany zmianą świadomości. Nie mieli koloseum, ale wiedzieli jak ważny jest to 'proces'. Wabili go niską szkodliwością czynu i zdaniem tłumu: 'że nie da się lubieć'. Zachęcali wręcz do tego, że jeśli 'do nich' dołączy to przynajmniej będzie żył choć to były czcze obietnice. Zastanawiali się po co idzie na pustynię, po co pości - co jest takiego ważnego do zrobienia - idealny model 'psychiatryczny' - posłannictwa. W dzisiejszych czasach dalej niebezpieczne jest odnalezienie sensu, bo uznają Cię za wariata. Przy tym nie pozwolą Ci godnie żyć. Pan u nas pierwszy raz?">
+        <p><strong>Paweł Babik napisał:</strong></p>
+  <!-- Krótka zapowiedź -->
+        <div class="tags">
+  <button class="tag">#religie</button>
+  <button class="tag">#psychiatria</button>
+    <button class="tag">#charyzma</button>
+</div>
+  <div class="short-text">📌 27 kwiecień 2025</div>
+  
+  <!-- Pełna treść (z data-full-pl), ukryta na start -->
+  <div class="full-text" style="display: none; margin-top: 10px;"></div>
+  <!-- Przycisk do rozwijania/zwijania NA DOLE -->
+  <button class="toggle-btn" style="margin: 10px 0;">Zobacz wpis</button>
+  </div>
+                          <div class="post"
+       data-short-pl="📌 27 kwiecień 2025"
+       data-short-en="📌 April 27, 2025"
+       data-full-pl="Chcemy kochać, ale nie mamy kogo. Tak wygląda świat po otwarciu czakry serca. Kochamy zwierzęta a jednocześnie że względu na naszą miłość - przeciwny nurt je torturuje. Odsuń się.">
+        <p><strong>Paweł Babik napisał:</strong></p>
+  <!-- Krótka zapowiedź -->
+          <div class="tags">
+  <button class="tag">#miłowanie</button>
+  <button class="tag">#relacje</button>
+    <button class="tag">#droga-duchowa</button>
+</div>
+  <div class="short-text">📌 27 kwiecień 2025</div>
+  
+  <!-- Pełna treść (z data-full-pl), ukryta na start -->
+  <div class="full-text" style="display: none; margin-top: 10px;"></div>
+    <div class="full-text" style="display: none; margin-top: 10px;"></div>
+    <div class="comment-box" data-lang="pl" style="display: none; margin-top: 10px;">
+    <div class="comment-author">👤 Komentarz (mój)</div>
+    <div class="comment-content">
+Oni na to chorują okresowo tzn. raz im nie przeszkadza nawet palenie w pokoju a raz podążają za tą pokusą (tak jak Ojciec mówi - nie pozwól abyśmy się dopuścili pokusy). Dlatego nie zauważają, że "za tym" podążają a równocześnie nie odblokowują swojej energii seksualnej tylko dlatego, że musiałaby ona służyć do obrony - takiej jaką przechodziła by Polska przed zachodnim kapitałem korporacyjnym gdyby wygrał Mentzen.
+    </div>
+    </div>
+        <div class="full-text" style="display: none; margin-top: 10px;"></div>
+    <div class="comment-box" data-lang="pl" style="display: none; margin-top: 10px;">
+    <div class="comment-author">👤 Komentarz (mój)</div>
+    <div class="comment-content">
+Fajnie by było być tak zahipnotyzowanym, że Szpital Psychiatryczny ma sens. Że tam się czegoś ucze. Tej hipnozie można ulec tak jak ulegają całe kraje a ludzie są prowadzeni na front walki. Tą nieobecność alternatywnej wersji sprawia, że zakochujemy się w rzeczywistości, bólu, smutku. I dobrze, życie trzeba kochać - pokochać swój ból nawet ten związany z brakiem wykształcenia, rozmówcy czy zewnętrznych substancji nałożonych przez wytyczne WHO. Trzeba pokochać WHO zobaczyć co mają dobrego (szczepionki, Xeplion czy procedury), trzeba pokochać wojnę tak jakby ostatni nabój, ostatni łyk wody, ostatnie słowo czy ostatni papieros. Jesteśmy tylko ludźmi a w nich budzi się gniew dopiero wtedy kiedy staną na froncie - wtedy zobaczą, że politycy ich oszukiwali i gdy przeżyją zbudują nowe - zdrowe społeczeństwo. Po II wojnie światowej zmalała ilość chorób psychicznych, tak jak po I-wszej. Potrafimy stworzyć AI a nie potrafimy żyć w społeczności tak aby Bóg się nie gniewał.
+    </div>
+    </div>
+  <!-- Przycisk do rozwijania/zwijania NA DOLE -->
+  <button class="toggle-btn" style="margin: 10px 0;">Zobacz wpis</button>
+  </div>
+                        <div class="post"
+       data-short-pl="📌 26 kwiecień 2025"
+       data-short-en="📌 April 26, 2025"
+       data-month="kwiecień 2025"
+       data-full-pl="Im więcej obłudy i zacofania w seksie tym lepiej. Nie wyrwałem 'na prawdę' jeśli nie skłamie (później w seksie i w życiu się okaże). Dlatego tak tęskno do energii męskiej a kobiety nie mają (większośč) energii kobiecej. Dlatego gdy tak jak Budda wyruszyłem na poszukiwania prawdy (moja żona po prostu mnie naśladowała - przy czym cierpiała katusze). Dlatego tęsknota za prawdziwą egergią męską jest ogromna - kobieta nie powinna podążać za męźczyzną (jego energią męską) tylko być kobieca. Pewnie będzie myślała, że wyrwała Pawła i o nim rozmyślała - porównywała do obecnego faceta. W końcu ta energia stanie się diaboliczną tzn. chęć oszukania, zdradzenia itp. 'Bo nie może tego dostać' a jest tam jakąś Miss według jakiegoś kalendarza. Dziś rodzi się wiele dzieci, których ich przeszłe wcielenia były przesytem energii męskiej przy czym dalej rodzą się mężczyzną (dusza wie, że będzie miał możliwość w danym wcieleniu udawać kobietę). Zdarza się też tak jak było w historii, że mszą się co za epitetowanie ich, że są gejami i stają się agresywni i dążą do władzy. Tak samo z kobietami - możliwość udawania mężczyzny. Dlatego zatracenie się w tym też nie jest zdrowe i powoduje odrazę do siebie - a nie są kształtowane cnoty (płci) tylko zabawki, makijaże, wibratory.">
+        <p><strong>Paweł Babik napisał:</strong></p>
+  <!-- Krótka zapowiedź -->
+            <div class="tags">
+  <button class="tag">#uwodzenie</button>
+  <button class="tag">#energia-męska</button>
+    <button class="tag">#wędrówka-dusz</button>
+</div>
+  <div class="short-text">📌 26 kwiecień 2025</div>
+  
+  <!-- Pełna treść (z data-full-pl), ukryta na start -->
+  <div class="full-text" style="display: none; margin-top: 10px;"></div>
+    <div class="full-text" style="display: none; margin-top: 10px;"></div>
+    <div class="comment-box" data-lang="pl" style="display: none; margin-top: 10px;">
+    <div class="comment-author">👤 Komentarz (mój)</div>
+    <div class="comment-content">
+Zrozumcie psychiatria, polityka, władze - możecie wpływać na mój stan czuwania - co ciekawe nawet na moją czujność, ale nie możecie wpłynąć na moją świadomość, dlatego uczyniliście moim pokarmem nie chleb a waszą spermę, którą muszę łykać. 
+    </div>
+    </div>
+  <!-- Przycisk do rozwijania/zwijania NA DOLE -->
+  <button class="toggle-btn" style="margin: 10px 0;">Zobacz wpis</button>
+  </div>
+                      <div class="post"
+       data-short-pl="📌 26 kwiecień 2025"
+       data-short-en="📌 April 26, 2025"
+       data-month="kwiecień 2025"
+       data-full-pl="Nie zapytają - kogoś kto wie tylko myślą według systemu, który jest drogi w utrzymaniu. To oznacza, że 'ich' myślenie jest tanie, bo żeby wiedzieć to trzeba myśleć lub zapytać kogoś - kto jest drogi (również w myśleniu).">
+        <p><strong>Paweł Babik napisał:</strong></p>
+  <!-- Krótka zapowiedź -->
+              <div class="tags">
+  <button class="tag">#techniki-mentalne</button>
+  <button class="tag">#zdrowie-psychiczne</button>
+</div>
+  <div class="short-text">📌 26 kwiecień 2025</div>
+  
+  <!-- Pełna treść (z data-full-pl), ukryta na start -->
+  <div class="full-text" style="display: none; margin-top: 10px;"></div>
+    <div class="full-text" style="display: none; margin-top: 10px;"></div>
+    <div class="comment-box" data-lang="pl" style="display: none; margin-top: 10px;">
+    <div class="comment-author">👤 Komentarz (mój)</div>
+    <div class="comment-content">
+Ignorują Cię i mają Cię za psa - takie jakie jest ich życie - psie. Psychiatra tylko podziwia obrazy jakie tworzą ludzie - przygląda im się i naśmiewa. Jest takim masturbującym się do dzieł innych. Przy czym jego pragnienie wynika z braku zdolności do tworzenia własnych i niestety rezygnuje z własnej pracy na rzecz "krytyka" czyichś myśląc, że stworzyłby lepsze - przy czym nie tworzy  
+    </div>
+    </div>
+  <!-- Przycisk do rozwijania/zwijania NA DOLE -->
+  <button class="toggle-btn" style="margin: 10px 0;">Zobacz wpis</button>
+  </div>
+                    <div class="post"
+       data-short-pl="📌 26 kwiecień 2025"
+       data-short-en="📌 April 26, 2025"
+       data-month="kwiecień 2025"
+       data-full-pl="Przyjemność z alkoholu jest tylko pozorna - to znieczulenie bólu, którego nie chce się czuć. Takie koło ratunkowe. Więc nie pijący czują więcej bólu, ale go wytrzymują. Dlatego przy takim człowieku wytwarza się 'pole' jakby cierpienie nie istniało - przy czym otoczenie uzależnia się od niego. Wtedy nienawiść jest w większym stopniu produkowana i rozpuszcza się w nim (a jest łatwiejsza). Dlatego, gdy ktoś podnieca się jak piję herbatę znajdzie się armia, która chce mi tą przyjemność zabrać (również dotyczy to pisania tutaj). Oni są 'połączeni' i myślą że 'tak jest' - to samo słyszą na podwórku, w sklepie, w Kościele czy od psychiatry. Tą przyjemność - nie wynika z cierpienia a ich cierpienie nie jest neutralizowane - jest szerokim murem, który oddziela mnie od statystycznej świadomości. Czy koza, włos, lek czy gówienko odpowiednio osadzone robi wrażenie jakby mieli panowanie nad sytuacją. Nie mają - nie radzą sobie z własnymi emocjami i przychodzą z tym do mnie. Jezus i osioł znów się sprawdził.">
+        <p><strong>Paweł Babik napisał:</strong></p>
+  <!-- Krótka zapowiedź -->
+                <div class="tags">
+  <button class="tag">#uzależnienia</button>
+  <button class="tag">#nawyki</button>
+</div>
+  <div class="short-text">📌 26 kwiecień 2025</div>
+  
+  <!-- Pełna treść (z data-full-pl), ukryta na start -->
+  <div class="full-text" style="display: none; margin-top: 10px;"></div>
+    <div class="full-text" style="display: none; margin-top: 10px;"></div>
+    <div class="comment-box" data-lang="pl" style="display: none; margin-top: 10px;">
+    <div class="comment-author">👤 Komentarz (mój)</div>
+    <div class="comment-content">
+A teraz wyobraź sobie jakbyś miał/miała mnie słuchać przez 5 lat - jaka to zmiana musi być w neurochemii    
+    </div>
+    </div>
+        <div class="comment-box" data-lang="pl" style="display: none; margin-top: 10px;">
+    <div class="comment-author">👤 Komentarz (mój)</div>
+    <div class="comment-content">
+W chwilach zazdrości widzą żołnierza - wtedy budzi się w nich oficer, więźnia - wtedy transportują do innego więzienia, miłośnika życia - wtedy plują, kochanka - wtedy zabijają miłość.   
+    </div>
+    </div>
+  <!-- Przycisk do rozwijania/zwijania NA DOLE -->
+  <button class="toggle-btn" style="margin: 10px 0;">Zobacz wpis</button>
+  </div>
+                  <div class="post"
+       data-short-pl="📌 25 kwiecień 2025"
+       data-short-en="📌 April 25, 2025"
+       data-month="kwiecień 2025"
+       data-full-pl="Problem z dostępem do władzy jest taki, że tym bardziej wybrany lider wierzy, że 'taki jest'. Taki się urodził czy został wychowany. Więc ludzie głosują 'na nazwisko' i stawiają się w roli 'wybranego, wybranej' gdyż oni 'też jacyś są'. Nie, że nauczyli się - tak jak wygląda nowoczesna polityka - Nawrocki boksować, Mentzen inwestować, czy Trzaskowski politykować. Oni nie mogą dla niektórej z grup elektoratu wyglądać jakby to zdobyli, nauczyli się. Są od 'rządzenia' a stąd już niedaleko do 'rasy panów' - oczywiście to wyolbrzymiam, zniekształcam itp. Ale chodzi głównie o historię polityki i to 'niedaleką', która dominowała tzn. egregorów medycyny-genetyka, oświaty-nauka i Kościoła-powołanie. Łóżko sobie pościel.">
+        <p><strong>Paweł Babik napisał:</strong></p>
+  <!-- Krótka zapowiedź -->
+                  <div class="tags">
+  <button class="tag">#polityka</button>
+  <button class="tag">#personal-branding</button>
+  <button class="tag">#społeczeństwo</button>
+</div>
+  <div class="short-text">📌 25 kwiecień 2025</div>
+  
+  <!-- Pełna treść (z data-full-pl), ukryta na start -->
+  <div class="full-text" style="display: none; margin-top: 10px;"></div>
+  <!-- Przycisk do rozwijania/zwijania NA DOLE -->
+  <button class="toggle-btn" style="margin: 10px 0;">Zobacz wpis</button>
+  </div>
+                <div class="post"
+       data-short-pl="📌 25 kwiecień 2025"
+       data-short-en="📌 April 25, 2025"
+       data-month="kwiecień 2025"
+       data-full-pl="W pewnego rodzaju snach... Twoja dusza w ogóle się z Tobą nie zgadza. Planuje kiedy zostaniesz zawiedziony, zdradzony, rozczarowany, oszukany i zastanawia się czy wyciągniesz z tego wnioski.">
+        <p><strong>Paweł Babik napisał:</strong></p>
+  <!-- Krótka zapowiedź -->
+                    <div class="tags">
+  <button class="tag">#wgląd</button>
+  <button class="tag">#duchowość</button>
+  <button class="tag">#prawa-duchowe</button>
+</div>
+  <div class="short-text">📌 25 kwiecień 2025</div>
+  
+  <!-- Pełna treść (z data-full-pl), ukryta na start -->
+  <div class="full-text" style="display: none; margin-top: 10px;"></div>
+  <!-- Przycisk do rozwijania/zwijania NA DOLE -->
+  <button class="toggle-btn" style="margin: 10px 0;">Zobacz wpis</button>
+  </div>
+              <div class="post"
+       data-short-pl="📌 22 kwiecień 2025"
+       data-short-en="📌 April 22, 2025"
+       data-month="kwiecień 2025"
+       data-full-pl="'I on wtedy wziął', 'nie ruszaj tego', 'polazł tam'. Dobry detektyw nie widzi tylko tego co jest 'aktualnie'. Widzi co działo się z rodzicami dziecka, którego szukają... Jak ojciec uwodził matkę - jakie tam były relację. Po używanym języku, który opiera się o system w jaki opisują rzeczywistość. Jest to na tyle 'na wierzchu' i nieświadome, że aż absurdalne. Tak wychowują dziecko - bo takie są ich głębokie emocje, uczucia, które zapamiętali - ale sam 'język miłości' pochodził od kultury w jakiej żyli 30 czy 40 lat temu. Jak relacjonowali się wtedy z rodzicami - wiadomo, że nacisk rodziny na wybór partnera był wtedy większy. Więc 'musiał' wziąć i coś zrobić. Teraz po 50 latach - ja odgrywam te sceny z ich życia - które oni uznali za ważne a nie zdystansowali się do nich przez nowy język. Wtedy wziął 'zadzwonił' - teraz telefon jest najbliżej, kiedy możemy zainicjować kontakt - nawet nie odzywając się pierwszym. Ale to później.">
+        <p><strong>Paweł Babik napisał:</strong></p>
+  <!-- Krótka zapowiedź -->
+                      <div class="tags">
+  <button class="tag">#detektywistyka</button>
+  <button class="tag">#nawyki</button>
+</div>
+  <div class="short-text">📌 22 kwiecień 2025</div>
+  
+  <!-- Pełna treść (z data-full-pl), ukryta na start -->
+  <div class="full-text" style="display: none; margin-top: 10px;"></div>
+  <!-- Przycisk do rozwijania/zwijania NA DOLE -->
+  <button class="toggle-btn" style="margin: 10px 0;">Zobacz wpis</button>
+  </div>
+            <div class="post"
+       data-short-pl="📌 22 kwiecień 2025"
+       data-short-en="📌 April 22, 2025"
+       data-month="kwiecień 2025"
+       data-full-pl="Bagatelizujecie sprawę wypicia kawy kiedy jest obiektywnie dostępne, że będzie zarwana noc. Zarwana dlatego, że chcecie coś rozgryźć. To, że jesteście w matrycy - w matriksie. I wasi użytkownicy śmieją się z tego - sami śmiejąc się - i przyznając publicznie, że są pantoflami. Tylko dlatego wasz żart ma sens. Kiedy umiejętność zasypiania jest zerowa - a dostępna (technika zasypiania w dwie minuty). Hejtują więc, dokuczają sobie, godzą się i rozstają, wybierają takiego partnera seksualnego a nie innego - po to tylko żeby dobrze spać. Jeżdżą na wakacje, kupują z uzależnienia itp. Nawet nie śpią po nocach - żeby spać - ich sen jest na jawie. A rzeczywistość która przerywa ten sen jest powodem dla którego nie śpią. To jest właśnie Matrix. Pozdrawiam chłopaki.">
+        <p><strong>Paweł Babik napisał:</strong></p>
+  <!-- Krótka zapowiedź -->
+  <div class="short-text">📌 22 kwiecień 2025</div>
+  
+  <!-- Pełna treść (z data-full-pl), ukryta na start -->
+  <div class="full-text" style="display: none; margin-top: 10px;"></div>
+  <!-- Przycisk do rozwijania/zwijania NA DOLE -->
+  <button class="toggle-btn" style="margin: 10px 0;">Zobacz wpis</button>
+  </div>
+          <div class="post"
+       data-short-pl="📌 21 kwiecień 2025"
+       data-short-en="📌 April 21, 2025"
+       data-month="kwiecień 2025"
+       data-full-pl="Gdzie kucharek sześć - tam nie ma co jeść - jest głodzenie (i nie mówię tego jako człowiek słaby po prostu obserwuje mechanizm). Gdzie psychiatrów sześć - tam pacjent debil - działa siła autorytetu a każdy chce awansować (tylko wtedy jest uważany za dobrego lekarza). Dlatego przychodzą grupą do pacjenta i 'chcą przebywać w swojej energii'. Pojedyńcze wizyty zdarzają się rzadko - kucharka się męczy i sprowadza następne po to, żeby poczuć przewagę nad mężem - mamy zdolność 'gotowania' ale trzeba poprosić itp. W konsekwencji następny posiłek staje się przysłowiowym gównem a z jedzącego wydobywa się 'zasoby' jakie w naturalnym środowisku byłyby niemożliwe. Dlatego wszyscy jesteśmy mistrzami a reguła 'niesmaczności' nie jest wyjątkiem - tak wygląda Master Chew kiedy społeczeństwo jest zniewolone. Ktoś nie ma? Wszyscy mają?">
+        <p><strong>Paweł Babik napisał:</strong></p>
+  <!-- Krótka zapowiedź -->
+  <div class="short-text">📌 21 kwiecień 2025</div>
+  
+  <!-- Pełna treść (z data-full-pl), ukryta na start -->
+  <div class="full-text" style="display: none; margin-top: 10px;"></div>
+    <div class="comment-box" data-lang="pl" style="display: none; margin-top: 10px;">
+    <div class="comment-author">👤 Komentarz (mój)</div>
+    <div class="comment-content">
+Chcą szprycować, podniecają się strzykawką. Jeśli że mnie zrobili debila, odpowiednio "ukoronowali" ilością hospitalizacji. Jeśli mogli to zrobić ze mną - mogą z każdym i rodzice to podświadomie wiedzą - ale oszukują się, że to dotyczy Pawła w Horyńcu. Jakoś polski przestałem być jak się nauczyłem angielskiego i wiem o tej wiosce dużo. Lęk jest duży i nie pozwala im normalnie funkcjonować.    
+      <div class="reply-box" style="margin-left: 20px; margin-top: 10px; padding-left: 10px; border-left: 2px solid #ccc;">
+    <div class="comment-author">👤 Odpowiedź</div>
+    <div class="comment-content">
+      Mówie o pielęgniarkach, zwykłych ludziach - którym zastrzyk kojarzy się z pomocą.    </div>
+  </div>
+    </div>
+    </div>
+  <!-- Przycisk do rozwijania/zwijania NA DOLE -->
+  <button class="toggle-btn" style="margin: 10px 0;">Zobacz wpis</button>
+  </div>
+        <div class="post"
+       data-short-pl="📌 21 kwiecień 2025"
+       data-short-en="📌 April 21, 2025"
+       data-month="kwiecień 2025"
+       data-full-pl="Dawny porządek na temat relacji opartej o to by seks służył prokreacji spowodował mentalność, która dotyczyła posiadania władzy. Po prostu energia władzy. Nie... - można się rozwijać pod kątem seksualnym a seks nie jest niebezpieczny jeśli się ma wiedzę. To uzależnienie od władzy jest niebezpieczne - od ilości wypracowanych godzin, stopni odznaczenia czy kto mówi ostatnie słowo. Dlatego po rewolucji seksualnej - władza jaka była badana przez państwo - straciła na znaczeniu... I co z tego, że mogę głosować w wyborach itp. - jak oni tylko obiecują. Bardziej mi zależy na rozwoju energii seksualnej - a władza w rodzinie (którą reguluje także Kościół) - nie ma już zastosowania, bo wtedy mógłby się wypowiedzieć psycholog, terapeuta, ksiądz czy Sąd. Dlatego jest to przestarzały mechanizm oparty o struktury boomersów - że rodzina jest podstawą tożsamości. Kiedyś może była i zdrowa, ale teraz nie zapewnia bezpieczeństwa jakie chce się uzyskać. Moja 'sprawa' jest dowodem na rozpad tych struktur - dopóki nie możesz decydować o wykluczeniu kogoś z rodziny - czy jaka ma być żona, jakie mają być dzieci... I co chcesz ich szpiegować? Co oglądają, w co wierzą itp.? Więc władza już nie jest o pilota, o program w telewizji czy partie. Mamy internet. Ten też można użyć do diagnozowania zaburzeń itp. Rozmowy możemy nagrywać - więc kiedy struktura upada - to są jej rozpadające się sygnały. Nie dało zadowolenia rodzicielstwo - spowodowało tylko wojnę u zarządcy egregorów - kto ma większy wpływ i czy można użyć rodziny do ograniczania ich ekspresji, przekonań, wiary itp. Pan później przyjdzie bo teraz mamy 'przyjęcie'.">
+        <p><strong>Paweł Babik napisał:</strong></p>
+  <!-- Krótka zapowiedź -->
+  <div class="short-text">📌 21 kwiecień 2025</div>
+  
+  <!-- Pełna treść (z data-full-pl), ukryta na start -->
+  <div class="full-text" style="display: none; margin-top: 10px;"></div>
+    <div class="comment-box" data-lang="pl" style="display: none; margin-top: 10px;">
+    <div class="comment-author">👤 Komentarz (mój)</div>
+    <div class="comment-content">
+Dla młodszego pokolenia często praca jest tylko kupieniem sobie czasu aby ktoś za mną zatęsknił. Dla boomersów też - ale oni mieli wtedy jeszcze głos "w domu".    </div>
+  </div>
+  <!-- Przycisk do rozwijania/zwijania NA DOLE -->
+  <button class="toggle-btn" style="margin: 10px 0;">Zobacz wpis</button>
+  </div>
+      <div class="post"
+       data-short-pl="📌 20 kwiecień 2025"
+       data-short-en="📌 April 20, 2025"
+       data-month="kwiecień 2025"
+       data-full-pl="Kobieta, która nie ukształtowała obrazu mężczyzny jaki daje jej wsparcie i pole do rozwoju (np. chroni i daje poczucie bezpieczeństwa) staje się kimś kto doprowadza do cierpienia mężczyzn w przyszłości. Prowokuje czy upośledza mężczyznę - ze względu na swój lęk, brak - że tego nie ma (mężczyzny) - a jest to zasób wewnętrzny (uczucie). To znaczy, że musi szukać pomimo, że jej koleżanki mają to i ona - ta kobieta jest tak jakby wybrakowana. Również religia wpływa na poczucie, że mężczyzna jest wyżej (przez to nie ma na tyle odwagi, aby korzystać z tej energii) co pokazuje płeć uczniów Jezusa. Gdy taka kobieta popatrzy w stronę religii - tam mężczyźni, gdy w stronę seksualności - tam wiedza o mężczyznach wymagana. Dlatego taka kobieta może nie przejść przez drzwi jakie pozwoliły by jej na równowagę energii - co zapewniłoby jej spokój. Dlatego mówi się o mężczyznach, że są źli - natomiast aranżuje to często kobieta która nie miała szansy zrównoważyć się w procesie dorastania - a później społeczeństwo zapewni jej wygodę w tym braku - tak, że nawet nie będzie musiała nic robić."
+        data-full-en="Woman, who dont develop a image of man who gives
+her suport and field to grow (for example protect
+and gives feeling of secure) becomes somebody
+who coused suffering man in future.
+Provokes and handicaps man - couse of her fear - 
+lack - that she havent it (man) - and this is
+a resource (feeling). That means, she need to looking
+for although her friends have it - and this woman
+with lack is some kind of missing. Religion aslo
+influence for the premonition, that men is higher
+(thats the couse woman havent courage to use
+this Energy) this expose gender of Jesus disciple.
+When that kind of woman sees in the direction
+of religion - there are a mens - in the directions
+of sexuality - there is a knowladge about mens
+required. Thats why this woma cant enter the door
+which coused her of balnce of Energy - which
+would gives her peace. Thats why we says men are
+evel - but this happens often couse of womans which
+havent chances to balance in the process of growing -
+and following - society - gives her comfortable
+place in this lack - she couldnt do anything further."
+>
+          <p><strong>Paweł Babik napisał:</strong></p>
+  <!-- Krótka zapowiedź -->
+  <div class="short-text">📌 20 kwiecień 2025</div>
+  
+  <!-- Pełna treść (z data-full-pl), ukryta na start -->
+  <div class="full-text" style="display: none; margin-top: 10px;"></div>
+  
+  <!-- Przycisk do rozwijania/zwijania NA DOLE -->
+  <button class="toggle-btn" style="margin: 10px 0;">Zobacz wpis</button>
+  </div>
+    <div class="post"
+       data-short-pl="📌 20 kwiecień 2025"
+       data-short-en="📌 April 20, 2025"
+       data-month="kwiecień 2025"
+       data-full-pl="Istnieje taki sposób komunikacji z 'otoczeniem', który testuje już kilka lat i jest jakby prościej. Na razie nie opiszę go w pełni bo muszę mieć więcej informacji a dookoła mnie dzieją się rzeczy szalone. Muszę więc oddzielić 10 czy 20 procesów - przeanalizować jak na siebie wpływają - co zależy od czego itp. Jestem trochę jak taki niewidomy, który trenuje słuch. A technika jest następująca - większość zdarzeń to my generujemy - bo chcemy ich doświadczyć - przy czym zrozumienie tego powoduje, że jesteśmy sami i szukamy połączenia aby sen był przyjemniejszy tzn. ktoś przy nas ożył itp. Wymaga to oczywiście sprawczości której 99.9% ludzi nie ma. Przez to wpis wyda się trochę śmieszny i błahy ale tylko dlatego - właśnie, że patrzysz z ego a tu nie ma dla niego pokarmu. Uważaj na ego."
+        data-full-en="There is a kind of communication with environment
+conditions which i testing many years and it
+seems like everything becomes easier. I dont
+describe widely not yet becouse i need to have
+more information and in my surrounding happens
+crazy thing. So i have to extract 10 or 20
+proces - analyse corelation between them -
+what depends from what ect. I am some kind of
+blider who train his capacity of listening.
+And technics is like - most of the events we
+generate - becouse we want to experience them -
+but understanding that couses, that we are alone -
+and we want share our independence with others,
+connection with others to make our dream more
+cozy and we can make more alive our 'partners'.
+It require of course agency which 99,9% peoples
+dont have. From that couse my statement pretend
+to be funny and not seriously but only thats why -
+you perceive from ego - and here there is not
+food for him. Be aware of ego."
+>
+        <p><strong>Paweł Babik napisał:</strong></p>
+  <!-- Krótka zapowiedź -->
+  <div class="short-text">📌 20 kwiecień 2025</div>
+  
+  <!-- Pełna treść (z data-full-pl), ukryta na start -->
+  <div class="full-text" style="display: none; margin-top: 10px;"></div>
+  
+  <!-- Komentarz – ukryty na start -->
+  <!-- Komentarz – ukryty na start -->
+  <div class="comment-box" data-lang="pl" style="display: none; margin-top: 10px;">
+    <div class="comment-author">👤 Komentarz (mój)</div>
+    <div class="comment-content">
+      Najlepiej stosować tą technikę do niedalekiej przeszłości. Rozpatrywanie na początku tego w daleką przeszłość nie ma sensu. Najtrafniej oddaje to angielski czas Present Perfect czyli:
+a) czynność właśnie się zakończyła
+b) ma związek z teraźniejszością
+c) nie podajemy dokładnego momentu, ale ważny jest efekt
+Przykłady: She has already left (Ona już wyszła), They have finished the project (Oni skończyli projekt).    </div>
+  </div>
+    <div class="comment-box2" style="display: none; margin-top: 10px;">
+    <div class="comment-author">👤 Komentarz (mój)</div>
+    <div class="comment-content">
+Wtedy akceptuje się też chcenie innych, Boga, kosmitów, raczej dobrych ludzi, którzy dobrze nas znają. Można oczywiście dostrzegać omylność ich feedbacku i negocjować z nim.    </div>
+  </div>
+    <div class="comment-box3" style="display: none; margin-top: 10px;">
+    <div class="comment-author">👤 Komentarz (mój)</div>
+    <div class="comment-content">
+A obraz jaki się wytwarza przy praktykowaniu takiego myślenia - samym podejściu... powoduje, że albo go nie stosujemy (przez to nie wiemy) albo jest ono zbyt trudne dla naszego systemu przekonań - i rzeczywiście - niektórzy nie chcą być sprawczy. A argumenty o złym świecie - świecie przemocy - mówią o nas samych (często) - tego jakie praktyki stosujemy czy jak wyobrażamy sobie świat - świat w którym musimy się chronić i grać na jego zasadach - nie wiedząc przy tym, że to my go kreujemy - więc nie robiąc nic - jest to niewolnicza zgoda.  </div>
+  </div>
+      <div class="comment-box4" style="display: none; margin-top: 10px;">
+    <div class="comment-author">👤 Komentarz (mój)</div>
+    <div class="comment-content">
+Miernikiem jaki możemy tutaj zastosować jest - ile możemy stracić - zachowując przy tym szczęście.
+    I nie mówię tutaj o traceniu wibracji duszy - oszukując, tylko o zasobach materialnych... Świat materialny jest tak jakby satanistyczny.</div>
+  </div>
+  <!-- Przycisk do rozwijania/zwijania NA DOLE -->
+  <button class="toggle-btn" style="margin: 10px 0;">Zobacz wpis</button>
+  </div>
+<div class="post"
+     data-short-pl="📌 19 kwiecień 2025"
+     data-short-en="📌 April 19, 2025"
+     data-month="kwiecień 2025"
+     data-full-pl="Można się też pomodlić aby 'świat' pod postacią spotykanych ludzi 'mówił' do nas jak nasza ukochana, nasz ukochany... Pytanie tylko czy znalazłeś miłość czy związek. Tyczy się to też występowania 'głosów' które można, zmieniać, modyfikować, dostrajać, generować - zajmuje się tym zresztą NLP - ale różnica pomiędzy tą 'wiedzą' a wykształceniem statystycznego osobnika powoduje, że przyjmuje on pozycję hejterską do takich wynalazków. Sąd zresztą musi 'podbić', że miał głosy niezależnie od tego kto mu je wgrał - czy rodzice, partner, grupa na fb, czy szkoła. Kościół musi utrzymywać narrację opętania jako usprawiedliwienia czynu, który gdy już 'zlokalizowany' musi przejść przez tunele moralne a stąd już tylko krok aby inwigilować człowieka wiarą pełną bądź niepełną."
+     data-full-en="Also you can pray with the intention for your whole 'world' by the presence of met
+people 'saying' to us like our beloved man or woman… The only question is
+rather you find love or relationship. It contains with occurence 'voices' like
+'inner dialog' or 'inner monologue' which you can change, modify, resonate with, generate -
+this is a field of NLP - but the diffrence with this 'knowledge' and statistic educational level coused that most person react with hate and disagrement to things like that.
+Court by the way need to 'claim', that some person depends of 'voices' - irrelevant
+to whom was the person which coused this 'inner dialog' - person which install this
+kind of narration - parents, partner, group on facebbok, school. The Catolic Church
+needs to climb to narration of possesion as a justification of some kind of act
+which when this act is 'located' then needs to pass through the moral channel and
+from that is a step to invigilate human being by the fully faith or parted faith."
+       >
+  
+  <p><strong>Paweł Babik napisał:</strong></p>
+  
+  <!-- Krótka zapowiedź -->
+  <div class="short-text">📌 19 kwiecień 2025</div>
+  <!-- Pełna treść (z data-full-pl), ukryta na start -->
+  <div class="full-text" style="display: none; margin-top: 10px;"></div>
+    <button class="toggle-btn"></button>
+
+  <!-- Sekcja tłumaczeń -->
+  <div class="translation-controls" style="display:none; margin-top: 10px;">
+    <button onclick="showTranslation('ai', this)">Translate by AI</button>
+    <button onclick="showTranslation('pawel', this)">Translate by Paweł</button>
+  </div>
+
+  <!-- Komentarze -->
+  <div class="comment-box" data-lang="en" style="display:none;">
+    <strong>AI translation correction</strong><br>
+"You can also pray with the intention that the 'world'—in the form of people you meet—speaks to you like your beloved man or woman... The only question is whether you found love or just a relationship.
+
+This also applies to the presence of 'voices'—like inner dialogues or monologues—that can be changed, modified, tuned, or generated. This is, after all, the domain of NLP. But the gap between this kind of 'knowledge' and the statistical level of education often leads people to respond with hate or disbelief toward such ideas.
+
+The court, by the way, must 'confirm' that a person heard voices—regardless of who 'installed' them: parents, a partner, a Facebook group, or school. The Church, meanwhile, needs to uphold the narrative of possession as a justification for certain actions. And once such an act is 'identified', it must pass through moral tunnels, which then becomes just a step away from surveilling a person through full or partial faith."
+  </div>
+  
+  <!-- Film, ukryty do momentu rozwinięcia -->
+  <video class="post-video" controls width="100%" style="display: none; margin-top: 10px;">
+    <source src="filmy/wpisy/wanted.mp4" type="video/mp4">
+    Twoja przeglądarka nie obsługuje odtwarzacza wideo.
+  </video>
+  
+  <!-- Komentarz – ukryty na start -->
+  <div class="comment-box" data-lang="pl" style="display: none; margin-top: 10px;">
+    <div class="comment-author">👤 Komentarz (mój)</div>
+    <div class="comment-content">
+      Czasami jest to (głos) generowany przez uczucie jakiego osoba doświadcza w "środowisku" - jednak jest ona poprostu bardziej świadoma w zakresie doświadczania tego "sygnału". To znaczy, że jej świadomość ma większe szanse przy pewnym oddziaływaniu na zrozumieniem w jakiej jest sytuacji "komunikacyjnej". Przy czym często wynika to z niechęci do "mówienia" w ten sposób - inaczej przepuściła by to przez swoje "filtry" mentalne jak również czakry (doświadczając w ten sposób emocji, które by zanihilowały ten "sposób komunikacji"). Często też osoba umieszczona w pasach bezpieczeństwa "wymyśla sobie" co krzyczeć przez to zataja przed personelem szpitala co rzeczywiście chce wykrzyczeć - jeżeli jest to mężczyzna i krzyczałby "zerżnijcie mnie" to prawdopodobnie ten głos oznaczałby dla kogoś innego "że jest gejem" przy czym byłby to sygnał, że społeczeństwo czy świat traktuje go przedmiotowo. Komunikat "chcę umrzeć" mógłby oznaczać, że chce wykrzyczeć - potrzebuje być sam - więc byłby też reakcją na warunki szpitalne. Często personel "wie", że ludzie w zabezpieczeniu mechanicznym "kłamią" przez co ich praca wydaje się bardziej emocjonująca. W istocie kłamanie do upadłego jest gloryfikowanie przez naszą cywilizację - niestety często dlatego, że wydaje nam się, że robimy to "dla kogoś" i ten ktoś zrozumiałby powody dla których - nawet w takiej sytuacji kłamiemy.
+    </div>
+  </div>
+  <div class="comment-box" data-lang="pl" style="display: none; margin-top: 10px;">
+    <div class="comment-author">👤 Komentarz (mój)</div>
+    <div class="comment-content">
+      Często jest to "dialog wewnętrzny-głos" też reakcją na deprywacje sensoryczną (pozbawienie wrażeń zmysłowych). Dlatego "można" doprowadzić do obłąkania danej osoby przez uznanie ją za "chorą" przez to naznaczenie, stygmatyzowanie i jest to technika władzy jeszcze z czasów plemiennych. Dlatego w "szpitalu" taką osoba dochodzi do siebie - ale nie zawsze (bo psychoza wywołana alienacją jest spowodowana przez środowisko z "zewnątrz" - przez to ich podejście do nas ma kluczowe znaczenie - gdy jesteśmy w szpitalu). Czyli społeczny lincz i brak kontaktu z "duszą" - który to kontakt osoba "świrnięta" ma doskonały - tylko tłum nie chce wypracować sobie podejścia w którym ta osoba byłaby szanowana - bowiem nie chce ona pieniędzy czy władzy - w konsekwencji jest narażona na dyskomfort materialny. Jeszcze większym udziałem staje się zazdrość tych kogo zawiodły pieniądze lub władza - dlatego te zasoby są przeznaczane wtedy na "walkę" z "Buddą" zamiast na służeniu życiu.    </div>
+  </div>
+    <div class="comment-box" data-lang="pl" style="display: none; margin-top: 10px;">
+    <div class="comment-author">👤 Komentarz (mój)</div>
+    <div class="comment-content">
+      Pytanie: czy już do końca życia byś chciał słuchać "tych rozmów-oddziaływań" czy "dialogów wewnętrznych" i niektórzy kierują się do szpitala(przy czym gdy rodzina wysyła to nie może znieść, że nie jesteś szczęśliwy a to jest tylko etap pewien), inni trenują swoje oddziaływanie (nie ważne czy z hospitalizacja mi czy bez). Dlatego nigdy nie zadali sobie pytania czy chcieli, żeby tak było zawsze a im "świętszy" głos tym bardziej nie podejmują wysiłku. Jedną z faz jest dopuszczenie, że tak może być aktualnie co jest po prostu dopuszczeniem cierpienia i chęcią zmiany. Inni chętnie zrezygnowali by z tego głosu, który jest ich myśleniem, ale tylko pozornie - zbyt wiele by stracili przy rezygnacji z "niego" - dlatego jest to taka "telewizja" z której nie chcą zrezygnować - przy czym czasami wiedzą, że ich psuje a rezygnacja była by etapem za który by "według nich" za dużo zapłacili. Jest to takie cierpienie, z którego nie chcą zrezygnować. Jeśli jest kreatywne nawet nie warto rezygnować więc początkowym etapem było by przyjrzenie się jakie zachowania generują, jak budują tożsamość czy wewnętrznego obserwatora - nie podążając za tym... "Zaprzeć się samego siebie" - to nawet jest w religii a inni robią z tego dramat. Chcą się uleczyć (psychiatrzy) przede wszystkim uleczyć siebie - zbudować intuicję lekarską, bycia liderem (tak jak się od nich wymaga) i zbudować karierę... Czasami przy tym pomagając ludziom.  </div>
+  <!-- Komentarz w komentarzu -->
+  <div class="reply-box" style="margin-left: 20px; margin-top: 10px; padding-left: 10px; border-left: 2px solid #ccc;">
+    <div class="comment-author">👤 Odpowiedź</div>
+    <div class="comment-content">
+      Mamy tu nie tylko przeżycie energii seksualnej - gdy wtedy nasza seksualność spadnie do końca życia... czy ochronę prawną kiedy boimy się takiego a nie innego środowiska jakie może być zrealizowane do końca życia. To straszak "świadomościowy" polegający na tym, że jeśli ty naruszasz "przestrzeń" to możesz "tam" trafić... Przy czym im większe "napięcie" tym przestrzeżeniem wywołane tym gorsza jakość życia.    </div>
+  </div>
+    </div>
+    <div class="comment-box" data-lang="pl" style="display: none; margin-top: 10px;">
+    <div class="comment-author">👤 Komentarz (mój)</div>
+    <div class="comment-content">
+      Często też intencją jest ważniejsza od przekazu. Czyli otoczenie ekstraterioryzuje nam monolog wewnętrzny przez to on w jakiś sposób się zapisuje. Ale np. kiedy dialog-monolog nas osłabia - wtedy wydobycie go do świadomości z intencją "oświecenia" może nam pomóc. Ale jeśli intencją jest zła a "mówienie" do nas wrogie, z równoczesną tęsknotą zaszczepienia go w nas - to wtedy w zależności ile mamy siły i argumentów - przejmujemy go, stajemy się na wzór otoczenie. Wystarczy zobaczyć ile jadu jest w "portalach plotkarskich" aby zrozumieć intencje "egregoru śmierci" i jego chęć zaszczepienia tego w ludziach.  </div>
+</div>
+      <div class="comment-box" data-lang="pl" style="display: none; margin-top: 10px;">
+    <div class="comment-author">👤 Komentarz (mój)</div>
+    <div class="comment-content">
+      "On stał się bardziej podejrzliwy" lub "chcą tylko pobudzić Twoją-moją wyobraźnie... To wszystko indykatory psychozy kiedy trzeba obliczyć ile potrzeba wysiłku abyś był sterowany. Ile potrzeba wysiłku aby przewidzieć Twoją nieprzewidywalność. Więc dzielenie się tymi technikami jest takim moim wyzwoleniem... To tak jak zapędzić Jezusa tu czy tam i sprawdzanie co zrobi. A na pewnym etapie ciekawość nie zna granic...
+    </div>
+      </div>
+        <div class="comment-box" data-lang="pl" style="display: none; margin-top: 10px;">
+    <div class="comment-author">👤 Komentarz (mój)</div>
+    <div class="comment-content">
+      Przestrzeżenia: jeszcze będziesz to, jeszcze będziesz tamto... Mają na celu zapewnić kontrolę jak i ograniczenia dla osobnika. Np. "jeszcze będziesz korzonki jadł" czy "jeszcze będziesz z gazety palił" ma na celu sprawienie (najczęściej rodzice), że mają kontrolę nad rzeczywistością i potrafią przewidywać - podczas gdy jest to często budowanie autorytetu jasnowidzącego - ale w ich głosie jest często żal, czy lęk przed tym, że nie mogą tego kontrolować. Przestroga ma na celu wzbudzić lęk - pozytywny - jaka powinna być nasza droga, relacja ze społeczeństwem, na co skierowana powinna być nasza uważność jak i jakie główne blokady widzą nasi rodzice (również społeczeństwo), często z obserwacji nie tylko aurorytetów, losów ludzi (które zapisują się w egregorze społecznym) jak także historii, która pokazuje cierpienie ludzkie. Dobrze, że jest on minimalizowane... nawet gdy bohater musi przekroczyć te granice, które spowodują ból przed którym - docelowo mamy się chronić.    </div>
+      </div>
+          <div class="comment-box" data-lang="pl" style="display: none; margin-top: 10px;">
+    <div class="comment-author">👤 Komentarz (mój)</div>
+    <div class="comment-content">
+      I ty jeszcze coś eliminujesz z wniosków... Tak ktoś zapytał. Czy, że Ci sztuczna inteligencja pisze. Nie to ja Paweł Babik. Mógłbym tak bez końca - z tymi schematami pracowałem całe życie. Żeby przekazać informacje trzeba wiedzieć jak-infornacja zwrotna, kto jest odbiorcą - egregory i jednostki. Moim takim cichym marzeniem jest to, że mógłbym opracować system samodoskonalenia dla rzołnierzy GROMu czy specjalistów w innych dziedzinach. Może programistów albo żeby lepiej się żyło w rodzinach. Jest taki prosty przekaz jaki neutralizuje energię seksualną. Jest to zrozumienie, że nie znając cech płci przeciwnej jaką podziwiam jest to "jakiś sygnał", że dominuje "energią seksualna" - jest wymieniana. Przy czym nie zdajemy sobie sprawy, że zakochujemy się kolejny raz we własnych "żonach" czy pogłębiamy serdeczność z bliskimi, sąsiadami - dzieląc się również wkurzeniem, gniewem czy nastrojami. Przy czym oni na nas oddziałują tak, że wymieniamy się praną - energią życiową - i w tej relacji (jeśli jest zdrowa, a do tego trzeba dojść) po prostu nas wzmacniają. Związek to nie tylko energią seksualną - jest to mechanizm, który ją wyzwala. Dlatego kobieta wie czy mężczyzna ją uruchamia starając się przy tym wzmocnić go - hejtując go. W rezultacie z postępu będzie korzystała ona - jeśli jej na tym zależy. Czyli w rezultacie mężczyzna "nie zakochuje się w innej kobiecie" - chce powtórzyć to co wywołała w nim jego partnerka i świadomość tego dopiero buduje związek.      </div>
+  <!-- Komentarz w komentarzu -->
+  <div class="reply-box" style="margin-left: 20px; margin-top: 10px; padding-left: 10px; border-left: 2px solid #ccc;">
+    <div class="comment-author">👤 Odpowiedź</div>
+    <div class="comment-content">
+      Nie jest to przyzwolenie na zdrady. Całym mózgiem operacyjnym jest przeważnie kobieta tzn. jeśli ma mało energii to wywołuje konflikt - przy czym w przypadku rozwodu - dopiero wtedy miłość mężczyzny, która nie zależy od fizyczności. Jest ona puszczana dalej - tzn. mężczyzna kocha swoją następną partnerkę - przy czym nie kocha już tylko ciała, imienia, kobiety - ale kocha miłość.  
+    </div>
+          </div>
+          </div>
+</div>
+  <div class="post"
+       data-short-pl="📌 19 kwiecień 2025"
+       data-short-en="📌 April 19, 2025"
+       data-month="kwiecień 2025"
+       data-full-pl="Dopóki masz co jeść, pić - nie jest tak źle. Nie jesteś pośród tego szaleństwa. Jeśli Twoje życie nie jest zagrożone przez wojnę. Tam - gdzie indziej - jest dużo gorzej a mój stopień zniewolenia, tożsamości, wizerunku wiąże się z wartościami z hierarchii krajów przodujących w rozwoju. Dlatego - pewnie będę narzekał na Sądy czy jakość relacji. Im większa możliwość wygranej - tym większa presja - nieuczciwe zagrania czy niesprawiedliwość. Stan zdrowia też zależy od szerokości geograficznej więc moje cierpienie można by umieścić w globalnej skali. Te wewnętrzne nie da się opisać dopóki nie byłbym na froncie czy polował dzikie zwierzęta w dżungli, pił przegotowaną wodę z rzeki - o ile miałbym czajnik czy dostęp do ujęcia. Musiałbym przejechać pół świata, aby zobaczyć jak ludzie żyją. Dlatego globalizm wprowadził relatywizm cierpienia tzn. że można je wywołać tak jakby wirtualnie a im mniej cierpienia tym większy stres, że się przydarzy - przy czym stres wirtualny a poziom ochrony jak na wojnie. Tak się czuję cały świat - proszę Państwa a skalę dobrobytu i tak nie mierzy się w pewności - czy jej nie stracimy - bo stracimy - tyle, że - dalej wirtualnie bo musielibyśmy to mierzyć lękiem przed śmiercią a ten jest wyznaczany każdorazowo przez rezygnację z planów na przyszłość. Dlatego poziomu zdrowia nie można zmierzyć uzależnieniami a stresu w sposób medyczny (bowiem gdy cierpi nasza dusza to nawet możemy być szczęśliwi). Nie chciałbym aby doradzał mi człowiek, który ma problem ze stresem czy podwyższony lęk przed śmiercią bowiem te pierwsze by anihilował przez kontakt ze mną a te drugie - łapał się relacji jak deski ratunku."
+       data-full-en="Till you have minimum - what to eat, what to drink - it isnt bad. You arent beside
+this madness. If your life isnt destroy by war... There - somewhere else - is far
+more bad, my grade of slavery, identity, public image is connected with value
+from hierarchy the coutries of develops most. From that reason - certainly i will
+complain on Courtes or level of connections with people. The more certailny you
+can win - the more pressure - not fair actions or injustice. Level of healty depends
+too from the latitude so my suffering can be placed in global scale. This inner (suffering)
+cant be described until i will find myself on war first line or hunter wild animals
+in jungle, drink watered water from river - if i could organize kettle or water
+sourde. i would have to cross half of the world, to see how pepole live. From
+that reason globalism impose relativity of suffering - it means that it can be
+coused virtually - and the less suffering the more stress - that this stress will
+happen - but stress comes virutally (spiritual stress) and the level of protection
+to aviod him - like in the war. Thats feel the whole world - ladies and gentelmen - 
+and the scale of whealthy paradoxically istn meassure by confidence to not lose it -
+couse we lose it - but also (we lose it) virtually. This process we would have to
+measure by scare of death and this scare is processed everytime - time by time by 
+our resignation from plans to future. This is why level of healthy cant be measure
+by addiction and level of stress in medical way (becouse when our soul suffer
+we even can be happy). I wouldnt like to get advice from person, who has problem
+with stress or increase level of scary from death - couse this first could be anihilate
+by contact with me and second - catch the realtion like a last lifline.
+"
+       >  <p><strong>Paweł Babik napisał:</strong></p>
+  
+  <!-- Krótka zapowiedź -->
+  <div class="short-text">📌 19 kwiecień 2025</div>
+  
+  <!-- Pełna treść (z data-full-pl), ukryta na start -->
+  <div class="full-text" style="display: none; margin-top: 10px;"></div>
+    <button class="toggle-btn"></button>
+
+  <!-- Sekcja tłumaczeń -->
+  <div class="translation-controls" style="display:none; margin-top: 10px;">
+    <button onclick="showTranslation('ai', this)">Translate by AI</button>
+    <button onclick="showTranslation('pawel', this)">Translate by Paweł</button>
+  </div>
+
+  <!-- Komentarze -->
+  <div class="comment-box" data-lang="en" style="display:none;">
+    <strong>AI translation correction</strong><br>
+    As long as you have the basics – something to eat and drink – it’s not that bad. You're not caught in the middle of the madness. If your life isn’t threatened by war, then somewhere else, things are much worse.
+My degree of enslavement, sense of identity, and public image are shaped by the values of the most developed countries. That’s why I may complain about the justice system or the quality of human relationships.
+
+The more likely you are to win, the greater the pressure – with unfair tactics or injustice. Health is also tied to geography, so my suffering can be placed on a global scale.
+
+This internal suffering cannot truly be described unless I were on the frontlines of war, hunting wild animals in the jungle, or drinking boiled river water – provided I had a kettle or access to a water source.
+I’d have to travel halfway across the world to see how others live.
+
+That’s why globalism introduced the relativity of suffering – meaning suffering can now be triggered virtually. And the less suffering there is, the more stress we feel that it might happen. Virtual stress – with a level of protection as if we were at war.
+
+That’s how the whole world feels, ladies and gentlemen. Yet the scale of wealth is no longer measured by certainty – because we will lose it – only virtually. We would have to measure it by the fear of death, which is triggered every time we give up on our plans for the future.
+
+That’s why health can’t be measured by addictions, nor stress solely in medical terms – because even when our soul suffers, we may still feel happiness.
+
+I wouldn’t want to take advice from someone who struggles with stress or has an intense fear of death – because the first would try to neutralize their stress through me, and the second would cling to the relationship like a lifeline.
+  </div>
+
+  <div class="comment-box" data-lang="pl-pawel" style="display:none;">
+    <strong>Translation by Paweł and AI:</strong><br>
+    Dopóki masz co jeść, pić - nie jest tak źle... [oryginalny wpis]
+  </div>
+  <!-- Komentarz – ukryty na start -->
+  <div class="comment-box" data-lang="pl" style="display: none; margin-top: 10px;">
+    <div class="comment-author">👤 Komentarz (mój)</div>
+    <div class="comment-content">
+      Cwaniakuje sobie więc taki - jeden czy drugi - ale jego zakres cwaniactwa jest ustalony z góry - tzn. na tym się opiera kapitalizm. A ja cwaniakuję w psychiatrii - czy może być coś trudniejszego czego można się podjąć... Kiedy była ona wymyślona podczas wojen I i II i z każdą kolejną - eksperymentowano z nią.</div>
+  </div>
+<!-- Komentarz po angielsku -->
+<div class="comment-box" data-lang="en" style="display: none; margin-top: 10px;">
+  <div class="comment-author">👤 Comment (mine)</div>
+  <div class="comment-content">
+    So there’s always someone playing dumb not exactly clever – one way or another – but the scope of their cleverness is predetermined. That’s exactly what capitalism is built on. And me? I play clever in psychiatry – is there anything more difficult one could take on? Psychiatry was invented during World War I and II, and with every war, they kept experimenting with it.
+  </div>
+</div>
+  <!-- Przycisk do rozwijania/zwijania NA DOLE -->
+  </div>
+  <!-- Wpis 1 -->
+  <div class="post"
+       data-short-pl="📌 18 kwiecień 2025"
+       data-short-en="📌 April 18, 2025"
+       data-month="kwiecień 2025"
+       data-full-pl="Chciałbym być Polakiem nadal gdy zrobiłem coś wartościowego. Nie Żydem, który jest z Polski. Tak jak auto niemieckie jest niemieckie a nie Żydowską precyzją. Szwajcarską. Czy Francuską finezją. Chciałbym aby to przez nasze bogactwo mój produkt wywodził się z 'doliny' a nie z cierpienia które wyzwoliło niewolniczą pomysłowość. Aby kunszt nie pochodził od 'latynoskiego stylu' tylko był znamieniem - moim, polaków. Aby rządzący ocenili 'wartość rynkową' z Warszawy - nie z Brukseli. Aby akcent był zabawny a nie hamski. Abym na wakacje pojechał nie zaś uchodził za takiego co nie jeździ. Serdecznością się dzielił - nie zaś ją udawał. W dni pracujące - pracował, w sile wieku - produkował, w udręce - pomagał, a w kryzysie - finansował (na przykład moją witrynę: www.arbulang.com). Każdy tyle samo."
+       data-full-en="I would like to be a Polish man even when I do something great. Not a Jew who is from Poland. Just like a German car is German — not with Jewish precision. Nor Swiss. Or French finesse. I would like my product to come from a “Valley” because of our wealth — not from suffering that inspired slave-like ingenuity. Let the craft come not from 'Latin style', but be a mark — mine, of the Polish people. Let the market value be judged from Warsaw — not from Brussels. Let my accent sound funny, not dumb. Let me go on vacation — not be the kind who pretends not to need it. To share warmth — not fake it. To work on working days, to produce in the prime of age, to help in hardship, and to fund in crisis (for example, my site: www.arbulang.com). Everyone gives the same."
+  >
+        <p><strong>Paweł Babik napisał:</strong></p>
+  <!-- Krótka zapowiedź -->
+  <div class="short-text">📌 19 kwiecień 2025</div>
+  
+  <!-- Pełna treść (z data-full-pl), ukryta na start -->
+  <div class="full-text" style="display: none; margin-top: 10px;"></div>
+    <button class="toggle-btn"></button>
+
+  <!-- Sekcja tłumaczeń -->
+  <div class="translation-controls" style="display:none; margin-top: 10px;">
+    <button onclick="showTranslation('ai', this)">Translate by AI</button>
+    <button onclick="showTranslation('pawel', this)">Translate by Paweł</button>
+  </div>
+
+  <!-- Komentarze -->
+  <div class="comment-box" data-lang="en" style="display:none;">
+    <strong>AI translation correction</strong><br>
+I would like to be a Polish man even when I do something great.
+Not a Jew who is from Poland.
+Just like a German car is German — not "Jewish precision", but Swiss. Or French finesse.
+I would like my product to come from a “Valley” because of our wealth — not from suffering that inspired slave-like ingenuity.
+Let the craft come not from "Latin style", but be a mark — mine, of the Polish people.
+Let the market value be judged from Warsaw — not from Brussels.
+Let my accent sound funny, not dumb.
+Let me go on vacation — not be the kind who pretends not to need it.
+To share warmth — not fake it.
+To work on working days, to produce in the prime of age, to help in hardship, and to fund in crisis (for example, my site: www.arbulang.com).
+Everyone gives the same.
+  </div>
+  </div>
+
+
+  <!-- Wpis 2 -->
+  <div class="post"
+       data-short-pl="📌 17 kwiecień 2025"
+       data-short-en="📌 April 17, 2025"
+       data-month="kwiecień 2025"
+       data-full-pl="Modlenie się do wewnętrznego mistrzostwa danej osoby wiąże się z wiedzą (indywidualną), że ktoś zachowuje się mistrzowsko (często bywa, że nam je okazał). Często też wiąże się z aktem pokory jakim jest nasza zgoda, że rzeczy dzieją się należycie. Dlatego jest to takie koło ratunkowe, że zgadzamy się na każdy wyrok (tak jak z moimi hospitalizacja mi) chociaż mogą one w pewnych kontekstach mieć uchybienia. To tak jakby wysłać komuś 100zł na konto - jeśli wyda prawidłowo to znaczy, że wysyłanie ma sens - ale jest także sygnałem od kogo jesteśmy zależni - czyli komu chcemy wysłać pieniądze. A gdzie Twój drugi kapeć?"
+>
+            <p><strong>Paweł Babik napisał:</strong></p>
+    <div class="short-text"></div>
+    <div class="full-text" style="display: none;"></div>
+    <button class="toggle-btn">Zobacz wpis</button>
+  </div>
+
+  <!-- Wpis 3 -->
+  <div class="post"
+       data-short-pl="📌 17 kwiecień 2025"
+       data-short-en="📌 April 17, 2025"
+       data-month="kwiecień 2025"
+       data-full-pl="Jedną z zalet hipnozy jest to, że hipnotyzujemy siebie... Dzieje się to przez lustra i zdjęcia. Gdyby ich nie było (bardziej chodzi o zdjęcia) to ciężko by było uwierzyć, że na zdjęciu to ja... Tym bardziej, że na jednej imprezie było kilka zdjęć i trudno jest uwierzyć, że na reszcie zdjęć to również ja. Dlatego patrzymy w lustro tak, że hipnotyzuje my siebie 'tym idealnym obrazem' - który jest perfekcyjnie nieidealny. Więc narcyzm ma pozytywny potencjał (w kontekście spojrzenia w lustro) jakim jest uwierzenie - za każdym razem - że to ja - przy czym nie ocenianie 'tego kogoś', że nie jest tym którego chce się zobaczyć - tego kogoś kogo zapamiętaliśmy - czy nawet tego kogoś kto 'poprawia nam humor'. Ktoś Cię woła."         >
+          <p><strong>Paweł Babik napisał:</strong></p>
+      <div class="short-text"></div>
+    <div class="full-text" style="display: none;"></div>
+    <button class="toggle-btn">Zobacz wpis</button>
+  </div>
+
+  <!-- Wpis 4 -->
+  <div class="post"
+       data-short-pl="📌 17 kwiecień 2025"
+       data-short-en="📌 April 17, 2025"
+       data-month="kwiecień 2025"
+       data-full-pl="Zdarzenia kryminalne mają to do siebie, że są pragnieniem, które nie zostało legalnie zrealizowane. Jest połączeniem karmicznym, w którym rodzina czy ofiarą przestępcy wybacza mu - a sam kontakt w trakcie przestępstwa często doprowadza do wewnętrznej przemiany sprawcy. Jest to tak zwane oplucie 'Buddy', które oświeca (tego kto pluł) dzięki przyciąganiu bohatera które wyzwala nienaturalne reakcje (często jest to reakcja na brak słów więc możemy tylko opluć lub pobić). Niekoniecznie musi to być związane z brakiem wykształcenia, kultury czy wychowania. Ciężar jaki musi zapłacić sprawca - więzienie - sprawia, że kauzualność - pamięci - wydłuża się. Przy czym wciągani do tego są współwięźniowie, świadkowie, Służba Więzienna. Dlatego pójście do Szpitala Psychiatrycznego jest tak jakby tęsknotą świadków zachowań pacjenta przed szpitalem, aby te czyny zachowały się w pamięci. To tak jakby napisać na kartce zakupy (ale na całe życie) czy namalować na murze wyznanie miłości. Kawa już była.">
+          <p><strong>Paweł Babik napisał:</strong></p>
+      <div class="short-text"></div>
+    <div class="full-text" style="display: none;"></div>
+    <button class="toggle-btn">Zobacz wpis</button>
+  </div>
+
+  <!-- Wpis 5 -->
+  <div class="post"
+       data-short-pl="📌 17 kwiecień 2025"
+       data-short-en="📌 April 17, 2025"
+       data-month="kwiecień 2025"
+       data-full-pl="Skojarzenia z wiatrem jak najbardziej prawidłowe. Kobieta jest jak wiatr - tzn. statystycznie nie potrafi kierować swoją energią seksualną. Te najbardziej doświadczone są same (bo nie chcą cierpieć) - stąd palenie czarownic. Kiedy ma się jakiś zasób np: radość, pogodność - to nie chce się go tracić na wchodzenie w światy, w których logika jest iluzyjna - tzn. trzeba pchnąć kogoś by doświadczył i nauczyć go wyciągać wnioski - a wszystko w świecie - który moglibyśmy nazwać piekłem.
+Mężczyzna nie ma się jak nauczyć tej energii - a on jest kierowany przez kobietę. Dlatego kobieta w mrugnięciu oka może oszaleć a to wywołuje w mężczyźnie napięcie i życie jak na wojnie. Nie może pomóc kobiecie rozwinąć energii seksualnej - bo to domena kobiety w rezultacie zostaje 'kapciem' a jego męska energia nie jest w istocie męską. Stąd już tylko krok do niesprawiedliwych wyroków Sądów, które reagują na rzeczywistość a ta jest zarządzana przez jednostki jakie nie znają powodów swojego istnienia."         >
+          <p><strong>Paweł Babik napisał:</strong></p>
+      <div class="short-text"></div>
+    <div class="full-text" style="display: none;"></div>
+    <button class="toggle-btn">Zobacz wpis</button>
+  </div>
+
+  <!-- Wpis 6 -->
+  <div class="post"
+       data-short-pl="📌 16 kwiecień 2025"
+       data-short-en="📌 April 16, 2025"
+       data-month="kwiecień 2025"
+       data-full-pl="Blokowanie energii seksualnej wiąże się z konsekwencjami a prawie zawsze blokowana jest przez rodziców u dzieci. Nie jest to naturalne a konsekwencją jest np. zgarbienie lub gburowata aperencja. Psychiatrzy im młodsi tym lepsi bo niby gdy zablokujemy energię seksualną to stan się polepsza (tak twierdzą starsi koledzy w fachu). Rzeczywiście blokowanie energii seksualnej ma sens jednak umiejętności w tym zakresie psychiatrów, rodziców, kapłanów, prawa czy wreszcie egregoru społecznego (w Polsce bardziej USA niż nasza nacja) jest znikoma. Jest to cofnięcie miednicy - w konsekwencji oddalamy się - ale wtedy prostujemy i mamy poczucie winy wydobyciem energii seksualnej. Gdy już upatrzyły sobie kogoś - komu możemy ją zabierać - bo ona jest najczęściej zabierana to wynika to stąd, że nie potrafimy nią kierować - tam - gdzie rzeczywiście jest potrzebna. Więc jest to wynik braku konfrontacji przy czym kobieta gdy się konfrontuje to 'traci' - wtedy bardziej jest za to odpowiedzialne bardziej społeczeństwo niż ona sama. Wypowiedzi 'guru' na temat energii seksualnej są 'nietrafione' i mają najczęściej za zadanie wspierać ich 'profesurę' - tak się robi kariery. Psychiatra czy psychoterapeuta błądzi gdzieś pomiędzy analizą sytuacji a poziomem energii żywotnej tak jakby chciał ją wzmocnić, ale nie może bo jest ona 'wysysana' przez egregory a gromadzenie jej jest niekorzystne. Zaraz będzie narada.">
+          <p><strong>Paweł Babik napisał:</strong></p>
+      <div class="short-text"></div>
+    <div class="full-text" style="display: none;"></div>
+    <button class="toggle-btn">Zobacz wpis</button>
+  </div>
+  <!-- Wpis 7 -->
+  <div class="post"
+       data-short-pl="📌 15 kwiecień 2025"
+       data-short-en="📌 April 15, 2025"
+       data-month="kwiecień 2025"
+       data-full-pl="Rzecz w tym, że nasze obawy na 'innej Ziemii' się stały a na lepszej Ziemii (równoległej) nawet nie mamy obaw - tzn. nie wiemy, że nie wiemy (ale tylko dlatego, że z tego wyrośliśmy. Dlatego pewnie przejechało mnie auto na Horyńcu, dziadek dodał kozę do herbaty, ciotka wpakowała leki do czajnika i szydziła z 'produktu' jaki pije wyśmiewając to rozmową (przez telefon) o przepisie takim czy takim (przy czym jej celem był eksperyment - czy pójde zwymiotować czy nabiorę obrzydzenia lub czy zachowanie jakie chciała osiągnąć przez podanie leku jest przeze mnie wyegzekwowane). Dlatego istnieje przeżycie, ale równolegle do tego istnieje lęk o prawdziwość przeżycia jak i samo powtórzenie... Podam to na przykładzie: na najgorszej Ziemii ojciec mnie molestował w dzieciństwie i teraz mam obawy, że to prawda i że się powtórzy ale za to na lepszej ziemi mam tylko obawy co jest celem rodziny, świata - na lepszej Ziemi nie byłem molestowany i nie mam obaw - natomiast jeśli chodzi o powszechność tego zjawiska to 'może mi się to przytrafić', na jeszcze lepszej Ziemii są bardzo małe szanse, że mi się to przytrafi. Natomiast na jeszcze lepszej Ziemii traktowałbym to jak taką 'motywację' - jako wpierdol, który mnie orzeźwia - natomiast wspominam to raczej z ekscytacją. To są te ule.">
+            <p><strong>Paweł Babik napisał:</strong></p> 
+      <div class="short-text"></div>
+    <div class="full-text" style="display: none;"></div>
+    <button class="toggle-btn">Zobacz wpis</button>
+  </div>
+    <!-- Wpis 8 -->
+  <div class="post"
+       data-short-pl="📌 15 kwiecień 2025"
+       data-short-en="📌 April 15, 2025"
+       data-month="kwiecień 2025"
+       data-full-pl="Łajdak czyli why?(łaj) - dlaczego to zrobił i łotr what(łot) - czyli ten, który ma cel jak i ten, który udaje, że nie słyszy - pyta wtedy co? aby oponent zrozumiał, że to co mówisz jest dla niego zbyt mało istotne jak i dawał sobie czas na odpowiedź, również jako obelga na wcześniej zaprezentowane intencje zapytanego co? która jest konsekwencją naszego domniemanego braku szacunku wcześniej okazanego. Dlatego posługujący się co? chce jakby zwolnić czas i przeanalizować - bo nie chce kota w worku. Łaj? Łot?">
+            <p><strong>Paweł Babik napisał:</strong></p> 
+      <div class="short-text"></div>
+    <div class="full-text" style="display: none;"></div>
+    <button class="toggle-btn">Zobacz wpis</button>
+  </div>
+        <!-- Wpis 9 -->
+  <div class="post"
+       data-short-pl="📌 15 kwiecień 2025"
+       data-short-en="📌 April 15, 2025"
+       data-month="kwiecień 2025"
+       data-full-pl="Miałem taki moment, że miałem do wyboru czy chcę być oświecony - podczas medytacji. Moment, w którym skumulowały się moje wysiłki. Jednak 'oświecony' ja - przeżyłbym może tydzień czy dwa tygodnie. Dlatego nawet zrezygnowałem z medytacji - kiedy ją stosuje tak jakby zaczyna wyć syrena strażacka - ktoś się obudził a inni chcą 'spać'. Podjąłem drogę na której dopiero śmierć będzie oświeceniem i doświadczam oporu przed działaniem tak często, że to jest moją medytacją. Skoro 'zachód' by mnie zabił za 'oświecenie' to wyobraźcie sobie jaka jest kondycja zachodu i jak bardzo mają przewalone osoby, które 'chcą żyć', które chcą się wydostać ze 'snu'.">
+            <p><strong>Paweł Babik napisał:</strong></p> 
+      <div class="short-text"></div>
+    <div class="full-text" style="display: none;"></div>
+    <button class="toggle-btn">Zobacz wpis</button>
+  </div>
+                <!-- Wpis 9 -->
+  <div class="post"
+       data-short-pl="📌 6 lipiec 2024"
+       data-short-en="📌 July 6, 2024"
+       data-month="lipiec 2024"
+       data-full-pl="Kiedy, ktoś ma innowacyjne wnioski najczęściej dotyczące energii witalnej wtedy staje się to przedmiotem debaty publicznej. Ponieważ jednostki czują wzmocnienie swojej energii życiowej starają się to analizować a przez błędne wnioski są uzależnieni od dostawcy przekonań. Ten aktywuje energię życiową przez generowanie przekonań, które odblokowują tą płynąca energie, która wcześniej miała przeszkody. Dlatego takie osoby są ubóstwiane pod względem magicznym. To znaczy, że nadaje im się znamiona archetypowe takie jak władca czy wojownik. Wnioski, które płyną już z energii wysyłanej do tych osób, są najpierw chwiejne, a kiedy ziarno wątpliwości zostanie zasiane – te wnioski są często mylne i sprowadzane do przekonań o bylejakości danego wglądu. Wątpliwość jaka się pojawiła jest wykorzystywana do użalania się nad sobą a także do odcięcia się od źródła zasilania, który to proces jest zawsze bolesny – wtedy musi być przetwarzany grupowo i musi konstytuować działania jakie zostaną podjęte względem generatora energii, który to generator jest zabezpieczony przez płaszcz ochronny zawarty w samym systemie przekonań, który zapewniał energię. Dlatego wiedza ta jest tajemna pod względem oczywistości – komentatorzy im bardziej się mylą tym bardziej dochodzą do wniosku, że to sprawa pogody, choroby sprawcy czy innych składników, które wywołało to spotkanie. Więc energia przepływa przez społeczność, rozwiązuje problemy, daje narzędzia do radzenia sobie z emocjami a także nadaje przepływ energii, która później jest bagatelizowana i sprowadzana do zasilania się egregorem (społecznością) grupowym. Niestety zainicjowanie spotkania (rady), aby zrozumieć proces jest nieświadoma. Dlatego inicjator musi być dostępny – to znaczy ma rozwiązać następne problemy tak, aby możliwa była integracja zjawiska i sam proces był niezależny od inicjatora. Przykładem jest seksualność. Inicjator wywołuje energię seksualną – ta, staje się źródłem szczęścia, jednak przekonania na temat niezależności od środowiska powoduje bunt, który wzmacnia energię seksualną. Ta staje się niezależnym tworem od samej przyczyny, to znaczy, że wzmacnia ona właśnie charakter. Wtedy następuje wyrzut dopaminy, która reguluje relacje społeczne. Wtedy stare schematy buntowania się mogą odpocząć, bowiem są one w kontrze do witalności, która została wywołana. Wtedy, człowiek uwalnia się od zła, jednak musi się zmierzyć z sumieniem, które wskazało mu drogę na lepsze tory zasilania. Wtedy człowiek doznaje ulgi i następuje przemiana charakteru, jednak stare schematy są na tyle silne, że kiedy zabraknie energii, człowiek czuje pustkę. Chce być w lepszym nastroju – jednak nie rozumie mechanizmu, ani poziomu mentalnego tego zjawiska ze względu na to, że jego algorytmy myślenia są zbyt uproszczone. Jednym słowem porusza się jak ślepy w labiryncie – miesza ze sobą myślenie synergiczne, dedukcyjne, abdukcyjne i w rezultacie, każdy błędny wniosek traktuje jak skarb, którego musi chronić, bo jest jego produktem, który później musi zachwalać. Inaczej nie wytrzymałby tego, że brak aprobaty zaniża jego energię życiową. Wtedy byłby zdany na tygodnie cierpienia, wywołane brakiem zgody na ingerencje w mechanizmy kłamstwa, które także innym zapewniają wygodę. Ta wygoda jest fałszywa i skazana na mylenie się w podstawowych kwestiach, ale ze względu na brak innego źródła zasilania powoduje ulgę z przebywania w egregorach (siłach), które korygują jego myślenie. Siły zasilające starają się wytłumaczyć co nie jest zgodne z prawami życia, ale często mają motywację do ukrywania prawdziwych symptomów i zależności, bowiem straciły by władzę jaka płynie z komunikacji na poziomie makro. Sama jednostka zapewnia sobie w tym momencie emocje i nieprzewidywalność życia, po to aby energia witalna była mniej intensywna a zatem stonowana względem inicjacji przez nowy światopogląd osoby, która wprowadza sposób myślenia oparty na naturalnych prawach zamiast komunikacji zależnej. Bowiem inicjator energii nie ma na celu relacjonowanie się z opinią danych grup. Zamiast tego podąża za swoimi wartościami, które spowodowały ten gejzer pozytywnej energii i jako, że znalazł swoje miejsce na Ziemii jest uznany za sprawcę danego zjawiska, ale zawsze z bólem, jaki jest kojarzony np. z przyjściem na świat dziecka. Wtedy zasilająca energia przełącza się w grupach na bardziej stonowaną i powoduje regulacje jaką dostarczały mu zazwyczaj siły danego egregoru.">
+            <p><strong>Paweł Babik napisał:</strong></p> 
+      <div class="short-text"></div>
+    <div class="full-text" style="display: none;"></div>
+    <button class="toggle-btn">Zobacz wpis</button>
+  </div>

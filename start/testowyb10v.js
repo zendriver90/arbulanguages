@@ -4934,42 +4934,6 @@ $closeIcon.on('click', function () {
 });
 $fiszkaContainer.append($closeIcon);
 
-// 7. Debug – sprawdzenie DOM
-console.log('Wrapper po append:', $wrapper.html());
-
-    // Dodanie klasy parzysta, jeĹli warunki sÄ speĹnione
-    if (window.matchMedia("(max-width: 999px)").matches && lessonId2 % 2 === 0) {
-        $fiszkaContainer.addClass('parzysta');
-    }
-    // Tworzenie ikony krzyĹźyka
-    let closeIcon = $('<span>')
-        .addClass('close-icon')
-    .html('&times;') // HTML kod krzyĹźyka
-    .css({
-        position: 'absolute',
-        top: 'px', // MoĹźesz dostosowaÄ pozycjÄ
-        right: '5px',
-        width: '30px', // SzerokoĹÄ kontenera
-        height: '30px', // WysokoĹÄ kontenera (rĂłwna szerokoĹci)
-        cursor: 'pointer',
-        color: 'red',
-        fontSize: '40px', // Rozmiar fontu (zmniejszony dla lepszej czytelnoĹci)
-        background: 'grey',
-        border: '2px solid black',
-        textAlign: 'center', // WyrĂłwnanie tekstu w poziomie
-        lineHeight: '30px', // WyrĂłwnanie tekstu w pionie (rĂłwne wysokoĹci kontenera)
-        zIndex: 1000000
-    });
-
-    // Zdarzenie klikniÄcia na krzyĹźyk
-    closeIcon.on('click', function () {
-        setTimeout(function () {
-        removeFiszka(fiszka.id, lessonId2);
-        }, 1000); // OpĂłĹşnienie w milisekundach (tu: 1 sekunda)
-    });
-
-    // Dodanie krzyĹźyka do fiszki
-    $fiszkaContainer.append(closeIcon);
 
 // DODANIE OBRAZKA Z MINIATURKĄ W TLE
 const imgContainer = $('<div>').addClass('fiszka_img_container');
