@@ -148,3 +148,57 @@ function showEntriesForDay(dayNum, monthName) {
     });
   });
 }
+
+$sentence10.find('.word-span, .word-span2')
+    .off('click')
+    .on('click', function () {
+        
+
+        let clickedIndex = $(this).data('index');
+
+        window.mojeidGlobal.push({
+            indexDiv: indexDiv,
+            currentWordIndex: clickedIndex
+        });
+
+        // opcjonalnie nadpisz ostatni stan dla indexDiv
+        window.mojeidGlobal[indexDiv] = {
+            indexDiv: indexDiv,
+            currentWordIndex: clickedIndex
+        };
+
+        isNextClick2 = true;
+
+        currentHighlightIndex = clickedIndex;
+
+        tablica20aa.push(clickedIndex);
+
+
+if (!isNextClick) {
+    currentFiszkaIndex = tablica20aa[tablica20aa.length - 2];
+    console.log('wtedy występuje', isNextClick, isNextClick2, currentFiszkaIndex, clickedIndex);
+}
+        console.log('hej222b', clickedIndex, matchingFiszki1, indexDiv, tablica20aa[tablica20aa.length - 2], tablica20aa[tablica20aa.length - 1], currentWordIndex);
+
+setTimeout(function() {
+    wybierzRodzaj2b('all', currentFiszkaIndex, matchingFiszki1, indexDiv);
+}, 500);
+
+        updateHighlight(
+            indexDiv,
+            $sentence10,
+            clickedIndex,
+            firstWord,
+            secondWord,
+            thirdWord,
+            forthWord,
+            fifthWord,
+            sixthWord
+        );
+
+        requestAnimationFrame(() => {
+            handleWordClick(clickedIndex, indexDiv, matchingFiszki1);
+        });
+
+        console.log('hej100b', tablica20aa[tablica20aa.length - 1]);
+    });
