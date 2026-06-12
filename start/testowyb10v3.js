@@ -2248,7 +2248,7 @@ fiszki10.push(
         ],
         key: "in",
         category1: "nauka",
-        category2: ["kolory"]
+        category2: [""]
     },
     {
         id: [
@@ -2752,8 +2752,7 @@ fiszki10.push(
         ],
         sentence: [
             "She",
-            "has",
-            "visited",
+            "has_visited",
             "Paris"
         ],
         key: "she",
@@ -2768,28 +2767,14 @@ fiszki10.push(
             82
         ],
         img: [
-            "https://www.arbulang.com/img/fiszki1/2a.jpg",
-            "https://www.arbulang.com/img/fiszki1/2b.jpg",
-            "https://www.arbulang.com/img/fiszki1/2c.jpg",
-            "https://www.arbulang.com/img/fiszki1/2d.jpg",
-            "https://www.arbulang.com/img/fiszki1/2e.jpg"
+            "https://www.arbulang.com/img/fiszki1/2a.jpg"
         ],
-                img: "https://www.arbulang.com/img/fiszki1/282a.jpg",
         word: [
             "https://www.arbulang.com/src/has.wav"
         ],
         story: [
-            '1) W niemieckim mieście <span class="adannotation" data-annotation="1"><u><b>Hess</u></b></span>en Jurek <u><b>ma</u></b> bilet na mecze jego drużyny\n\
-    2) Prodecent odwiedził naukowców z proszkiem <u><b>wizi</u></b>r, aby go przetestowali. Jeden naukowiec ma <u><b>ti</u></b>ki i myli się przy badaniach. <u><b>Id</u></b>zie mu słabo',
-            '<span class="adannotation" data-annotation="1"><u><b>H</u></b></span>ipopotam występuje w cyrku na <span class="adannotation" data-annotation="2"><u><b>es</u></b></span>tradzie, <u><b>ma</u></b> duże umiejętności\n\
-    2) Prodecent odwiedził naukowców z proszkiem <u><b>wizi</u></b>r, aby go przetestowali. Jeden naukowiec ma <u><b>ti</u></b>ki i myli się przy badaniach. <u><b>Id</u></b>zie mu słabo',
-            'Naukowiec nagle się zapomniał i zapytał: <span class="adannotation" data-annotation="1"><u><b>he</u></b></span>?, a wtedy jego kolega <u><b>ma</u></b> niezłą zabawę, <span class="adannotation" data-annotation="2"><u><b>s</u></b></span>prawa oczywista..\n\
-    2) Prodecent odwiedził naukowców z proszkiem <u><b>wizi</u></b>r, aby go przetestowali. Jeden naukowiec ma <u><b>ti</u></b>ki i myli się przy badaniach. <u><b>Id</u></b>zie mu słabo',
-            '<span class="adannotation" data-annotation="1"><u><b>He</u></b></span>gemonia konsumpcjonizmu doprowadziła do tego, że "ON"-dyrektor ma problemy, bo nikt nie chce chodzić na <span class="adannotation" data-annotation="2"><u><b>s</u></b></span>pektakle teatralne\n\
-    v',
-            'Moja koleżanka <u><b>ma</u></b> nowy klarnet z drzewa <span class="adannotation" data-annotation="1"><u><b>he</u></b></span>banowego. <span class="adannotation" data-annotation="2"><u><b>S</u></b></span>....uper sprawa\n\
-    2) Prodecent odwiedził naukowców z proszkiem <u><b>wizi</u></b>r, aby go przetestowali. Jeden naukowiec ma <u><b>ti</u></b>ki i myli się przy badaniach. <u><b>Id</u></b>zie mu słabo'
-        ],
+                "Szefowa <u><b>odwiedziła</u></b> naukowców w mieście Hessen z proszkiem <u><b>wizi</u></b>r, aby go przetestowali. Jeden naukowiec ma <u><b>ti</u></b>ki i myli się przy badaniach. <u><b>Id</u></b>zie mu słabo"
+            ],
         desc: "has visited[hes wizitid]/have[hew] - odwiedziła",
         sentence1: [
             "has_visited"
@@ -2802,8 +2787,7 @@ fiszki10.push(
         ],
         sentence: [
             "She",
-            "has",
-            "visited",
+            "has_visited",
             "Paris"
         ],
         key: "has",
@@ -2812,7 +2796,7 @@ fiszki10.push(
     },
     {
         id: [
-            283,
+            282,
             43,
             82
         ],
@@ -2830,8 +2814,7 @@ fiszki10.push(
         ],
         sentence: [
             "She",
-            "has",
-            "visited",
+            "has_visited",
             "Paris"
         ],
         key: "Paris",
@@ -2840,7 +2823,7 @@ fiszki10.push(
     },
     {
         id: [
-            284,
+            283,
             43,
             83
         ],
@@ -2866,7 +2849,7 @@ fiszki10.push(
     },
     {
         id: [
-            285,
+            284,
             43,
             83
         ],
@@ -2892,7 +2875,7 @@ fiszki10.push(
     },
     {
         id: [
-            286,
+            285,
             44,
             84
         ],
@@ -2933,8 +2916,7 @@ fiszki10.push(
         ],
         sentence: [
             "I",
-            "have",
-            "finished",
+            "have_finished",
             "my",
             "homework"
         ],
@@ -2945,13 +2927,12 @@ fiszki10.push(
     },
     {
         id: [
-            287,
+            286,
             44,
             84
         ],
         img: "https://www.arbulang.com/img/fiszki1/122a.jpg",
-        story: "1) <b><u>Mam</b></u> fajne spodnie, ale puścił sz<b><u>ew</b></u>, <b><u>ch</b></u>yba go zaceruje\n\
-    \n\2) <b><u>Fin</b></u> zdaje magisterke i jest na końcu drogi kształcenia się czyli <b><u>finiszuje</b></u>. Zdał <b><u>i</b></u> jest <b><u>szt</b></u>os",
+        story: "<b><u>Fin</b></u> ma  fajne spodnie, ale puścił sz<b><u>ew</b></u>, <b><u>ch</b></u>yba go zaceruje i później pójdę zdawać magisterke. Jest na końcu drogi kształcenia się czyli <b><u>finisz</b></u>. Skończyłem odpowiadać przed gremimum <b><u>i</b></u> jest <b><u>szt</b></u>os",
         desc: "have finished[hew finiszt] - skończyłem",
         sentence1: [
             "have_finished"
@@ -2964,8 +2945,7 @@ fiszki10.push(
         ],
         sentence: [
             "I",
-            "have",
-            "finished",
+            "have_finished",
             "my",
             "homework"
         ],
@@ -2975,7 +2955,7 @@ fiszki10.push(
     },
     {
         id: [
-            289,
+            287,
             44,
             84
         ],
@@ -3001,8 +2981,7 @@ fiszki10.push(
         ],
         sentence: [
             "I",
-            "have",
-            "finished",
+            "have_finished",
             "my",
             "homework"
         ],
@@ -3015,7 +2994,7 @@ fiszki10.push(
     },
     {
         id: [
-            290,
+            288,
             44,
             84
         ],
@@ -3033,8 +3012,7 @@ fiszki10.push(
         ],
         sentence: [
             "I",
-            "have",
-            "finished",
+            "have_finished",
             "my",
             "homework"
         ],
@@ -3044,7 +3022,7 @@ fiszki10.push(
     },
         {
         id: [
-            291,
+            289,
             45,
             85
         ],
@@ -3075,8 +3053,7 @@ fiszki10.push(
         ],
         sentence: [
             "They",
-            "have",
-            "lived",
+            "have_lived",
             "in",
             "this",
             "house"
@@ -3088,14 +3065,13 @@ fiszki10.push(
     },
         {
         id: [
-            292,
+            290,
             45,
             85
         ],
         img: "https://www.arbulang.com/img/fiszki1/292a.jpg",
-        story: "1) <b><u>Mam</b></u> fajne spodnie, ale puścił sz<b><u>ew</b></u>, <b><u>ch</b></u>yba go zaceruje\n\
-    \n\2) O<u><b>liw</u></b>ka i <u><b>D</u></b>amian żyją ze sobą szczęśliwie",
-        desc: "have lived[hew liwd] - mieszkają",
+        story: "O<u><b>liw</u></b>ka i <u><b>D</u></b>amian idą na imprezę (wcześniej <u><b>mieszkali</u></b> na wsi). Damianowi puścił sz<b><u>ew</b></u> w kurtce, <b><u>ch</b></u>yba go zaceruje",
+        desc: "have lived[hew liwd] - mieszkali (oni), mieszkałem/mieszkałam",
         sentence1: [
             "have_lived"
         ],
@@ -3107,8 +3083,7 @@ fiszki10.push(
         ],
         sentence: [
             "They",
-            "have",
-            "lived",
+            "have_lived",
             "in",
             "this",
             "house"
@@ -3119,7 +3094,7 @@ fiszki10.push(
     },
                 {
         id: [
-            294,
+            291,
             45,
             85
         ],
@@ -3137,8 +3112,7 @@ fiszki10.push(
         ],
         sentence: [
             "They",
-            "have",
-            "lived",
+            "have_lived",
             "in",
             "this",
             "house"
@@ -3149,7 +3123,7 @@ fiszki10.push(
     },
                     {
         id: [
-            295,
+            292,
             45,
             85
         ],
@@ -3179,8 +3153,7 @@ fiszki10.push(
         ],
         sentence: [
             "They",
-            "have",
-            "lived",
+            "have_lived",
             "in",
             "this",
             "house"
@@ -3191,7 +3164,7 @@ fiszki10.push(
     },
                     {
         id: [
-            296,
+            293,
             45,
             85
         ],
@@ -3209,8 +3182,7 @@ fiszki10.push(
         ],
         sentence: [
             "They",
-            "have",
-            "lived",
+            "have_lived",
             "in",
             "this",
             "house"
@@ -3221,7 +3193,7 @@ fiszki10.push(
     },
                         {
         id: [
-            297,
+            294,
             45,
             86
         ],
@@ -3247,7 +3219,7 @@ fiszki10.push(
     },
                             {
         id: [
-            298,
+            295,
             45,
             86
         ],
@@ -3273,7 +3245,7 @@ fiszki10.push(
     },
             {
         id: [
-            299,
+            296,
             46,
             87
         ],
@@ -3328,4 +3300,99 @@ fiszki10.push(
         category2: ["zaimki"],
         category3: ["PresentPerfect"]
     },
+    {
+     id: [
+            297,
+            46,
+            87
+        ],
+        img: "https://www.arbulang.com/img/fiszki1/300a.jpg",
+        story: "Ten <u><b>film</u></b> <u><b>mówi</u></b> o perypetiach losu",
+        desc: "movie[muwi] - film",
+        sentence1: [
+            "movie"
+        ],
+                    sentence1b: [
+            "film"
+        ],
+                                            sentence1c: [
+            "mówi"
+        ],
+        sentence: [
+            "The",
+            "movie",
+            "has"
+        ],
+        key: "movie",
+        category1: "nauka",
+        category2: ["zdarzenia"]
+    },
+        {
+        id: [
+                298,
+                46,
+                87
+        ],
+                img: [
+                        "https://www.arbulang.com/img/fiszki1/2a.jpg",
+                        "https://www.arbulang.com/img/fiszki1/2b.jpg",
+                        "https://www.arbulang.com/img/fiszki1/2c.jpg",
+                        "https://www.arbulang.com/img/fiszki1/2d.jpg",
+                        "https://www.arbulang.com/img/fiszki1/2e.jpg"
+                ],
+                word: [
+                        "https://www.arbulang.com/src/has.wav"
+                ],
+                story: [
+                        'W niemieckim mieście <span class="adannotation" data-annotation="1"><u><b>Hess</u></b></span>en Jurek <u><b>ma</u></b> bilet na mecze jego drużyny',
+                        '<span class="adannotation" data-annotation="1"><u><b>H</u></b></span>ipopotam występuje w cyrku na <span class="adannotation" data-annotation="2"><u><b>es</u></b></span>tradzie, <u><b>ma</u></b> duże umiejętności',
+                        'Naukowiec nagle się zapomniał i zapytał: <span class="adannotation" data-annotation="1"><u><b>he</u></b></span>?, a wtedy jego kolega <u><b>ma</u></b> niezłą zabawę, <span class="adannotation" data-annotation="2"><u><b>s</u></b></span>prawa oczywista..',
+                        '<span class="adannotation" data-annotation="1"><u><b>He</u></b></span>gemonia konsumpcjonizmu doprowadziła do tego, że "ON"-dyrektor ma problemy, bo nikt nie chce chodzić na <span class="adannotation" data-annotation="2"><u><b>s</u></b></span>pektakle teatralne',
+                        'Moja koleżanka <u><b>ma</u></b> nowy klarnet z drzewa <span class="adannotation" data-annotation="1"><u><b>he</u></b></span>banowego. <span class="adannotation" data-annotation="2"><u><b>S</u></b></span>....uper sprawa'
+                ],
+                desc: "has[hes]/have[hew] - mieć(on/ona/oni)/mieć(ja/ty)",
+                sentence1: [
+                        "has"
+                ],
+                                                            sentence1b: [
+            "funkcja_pomocnicza"
+        ],
+                                                    sentence1c: [
+            "hes"
+        ],
+                sentence: [
+                        "The",
+                        "movie",
+                        "has"
+                ],
+                key: "has",
+                category1: "nauka",
+                category2: ["czasownik"]
+        },
+        {
+        id: [
+                299,
+                46,
+                88
+        ],
+                img: "https://www.arbulang.com/img/fiszki1/302a.jpg",
+                story: "<u><b>Dzast</u></b>in Bieber <u><b>poprostu</u></b> jest najlepszy",
+                desc: "just[dzast] - poprostu",
+                sentence1: [
+                        "just"
+                ],
+                            sentence2b: [
+            "właśnie"
+        ],
+                                                            sentence2c: [
+            "dżast"
+        ],
+                sentence: [
+                        "just",
+                        "started"
+                ],
+                key: "just",
+                category1: "nauka",
+                category2: ["czas", "ilość"]
+        }
 );

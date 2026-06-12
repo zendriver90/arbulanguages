@@ -1,194 +1,8 @@
 fiszki10.push(
-        {
-id: [
-        400,
-        64,
-        117
-],
-        img: [
-            "https://www.arbulang.com/img/fiszki1/28aa.jpg",
-            "https://www.arbulang.com/img/fiszki1/28bb.jpg",
-            "https://www.arbulang.com/img/fiszki1/28cc.jpg",
-            "https://www.arbulang.com/img/fiszki1/28dd.jpg",
-            "https://www.arbulang.com/img/fiszki1/28ee.jpg"
-        ],
-        story: [
-            "Na mojej łodzi <u><b>kat</u></b>amaran <u><b>kot</u></b> pomaga mi wiosłować",
-            "<u><b>Kat</u></b>arzyna idzie na spacer z <u><b>kotem</u></b>",
-            "W państwie <u><b>Kat</u></b>ar, <u><b>kot</u></b> ma szczególne uznanie wśród ludzi",
-            "Ten <u><b>kot</u></b> to <u><b>kat</u></b>astrofa",
-            "W <u><b>kat</u></b>egori zwierząt moja dziewczyna lubi najbardziej <u><b>koty</u></b>"
-        ],
-        desc: "cats[kats] - cat + s (liczba mnoga) = koty",
-        sentence1: [
-                "cats"
-        ],
-                                                                                                        sentence1b: [
-            "koty"
-        ],
-                                                sentence1c: [
-            "kats"
-        ],
-        sentence: [
-                "I",
-                "have",
-                "two",
-                "cats"
-        ],
-        key: "cats",
-        category1: "nauka",
-        category2: ["okresleniaMiejsca"]
-},
+
 {
         id: [
-            401,
-            64,
-            118
-        ],
-        img: [
-            "https://www.arbulang.com/img/fiszki1/401a.jpg"
-        ],
-        story: [
-            "Ktoś mówi po wiejsku: 'ja mu ma<u><b>choł</u></b> z <u><b>domu</u></b>, o <u><b>m</u></b>nie nie widział'"
-        ],
-        desc: "at home[at hołm] - w domu",
-        sentence2: [
-            "at_home"
-        ],
-                                                                                                                sentence2b: [
-            "w_domu"
-        ],
-                                                        sentence2c: [
-            "at_hołm"
-        ],
-        sentence: [
-            "at home"
-        ],
-        key: "at home",
-        category1: "nauka",
-        category2: ["okresleniaMiejsca"]
-    },
-                                             {
-        id: [
-            402,
-            65,
-            119
-        ],
-        img: [
-                "https://www.arbulang.com/img/fiszki1/5a.jpg",
-                "https://www.arbulang.com/img/fiszki1/5b.jpg",
-                "https://www.arbulang.com/img/fiszki1/5c.jpg",
-                "https://www.arbulang.com/img/fiszki1/5d.jpg",
-                "https://www.arbulang.com/img/fiszki1/5e.jpg"
-        ],
-        translate: "Ptaki latają nad ziemią",
-        translateb: "[De byrds flajs ołwer de graund]",
-        translateb2: "[De byrds flajs ołwer de graund]",
-        translateb3: "The birds flies over the ground",
-        srcWord: ["https://www.arbulang.com/filmy/lekcja22/birds.mp4", "Kot w butach: Ostatnie życzenie (2022)"],
-        srcWord2: ["https://www.arbulang.com/filmy/procedure.mp4", ""],
-        srcWordimage: "https://www.arbulang.com/filmy/lekcja22/birds.png",
-        opis: "Zdziwienie kota w animowanym filmie",
-        word: [
-                "https://www.arbulang.com/voice/bike.mp4"
-        ],
-        story: [
-                'Piłki do gry w kosza są twar<span class="adannotation" data-annotation="1"><u><b>de</u></b></span>. Sam ten sport <u><b>to</u></b> twarda gra',
-                'Na tym <span class="adannotation" data-annotation="1"><u><b>de</u></b></span>ptaku jest sporo drzewek, <u><b>to</u></b> urocze miejsce',
-                '<u><b>To</u></b> ten <span class="adannotation" data-annotation="1"><u><b>De</u></b></span>partament Stanu prowadzi badania nad społecznym problemem',
-                'Czasami politycy stosują <span class="adannotation" data-annotation="1"><u><b>de</u></b></span>magogię. Czyli co stosują? <u><b>Tę</u></b> <span class="adannotation" data-annotation="1"><u><b>de</u></b></span>magogię',
-                '<u><b>To</u></b> co w naszej rodzinie istnieje to <span class="adannotation" data-annotation="1"><u><b>de</u></b></span>mokracja'
-        ],
-        desc: "TRUDNOŚĆ JĘZYKOWA: the[de]-33%, [ze]-33%, [d-ze]-33% - ta",
-        sentence1: [
-            "The"
-        ],
-        sentence1b: [
-            "(Te)"
-        ],
-                                                        sentence1c: [
-            "De"
-        ],
-        sentence: [
-            "The",
-            "birds",
-            "flies",
-            "over",
-            "the ground"
-        ],
-        key: "the",
-        category2: ["osoby"],
-        category3: ["PresentSimple", "PresentSimplePodmiot"]
-    },
-                                                                                                                                {
-        id: [
-            403,
-            65,
-            119
-        ],
-        img: [
-            "https://www.arbulang.com/img/fiszki1/403a.jpg"
-        ],
-        story: [
-            "<u><b>By</u></b> zobaczyć <u><b>ptaka</u></b> - jastrzębia trzeba się ba<u><b>rd</u></b>zo natrudzić"
-        ],
-        desc: "birds[byrds] - ptaki",
-        sentence2: [
-            "birds"
-        ],
-                sentence1b: [
-            "ptaki"
-        ],
-                                                                sentence1c: [
-            "byrds"
-        ],
-        sentence: [
-            "The",
-            "birds",
-            "flies",
-            "over",
-            "the ground"
-        ],
-        key: "bird",
-        category1: "nauka",
-        category2: ["zwierzeta"]
-    },
-                                                                                                                                    {
-        id: [
-            404,
-            65,
-            119
-        ],
-        img: [
-            "https://www.arbulang.com/img/fiszki1/364a.jpg"
-        ],
-        story: [
-            "<u><b>Fla</u></b>ming lata sobie nad T<u><b>ajs</u></b>kim jeziorem"
-        ],
-        desc: "flies[flajs] - przelatuje, lata",
-        sentence2: [
-            "flies"
-        ],
-                        sentence1b: [
-            "latają"
-        ],
-                                                                sentence1c: [
-            "flajs"
-        ],
-        sentence: [
-            "The",
-            "birds",
-            "flies",
-            "over",
-            "the ground"
-        ],
-        key: "flies",
-        category1: "nauka",
-        category2: ["okresleniaMiejsca"]
-    },
-                                                                                                                                        {
-        id: [
-            405,
+            400,
             65,
             119
         ],
@@ -221,7 +35,7 @@ id: [
     },
                                                                                                                                             {
         id: [
-            406,
+            401,
             65,
             120
         ],
@@ -254,7 +68,7 @@ id: [
     },
                                                  {
         id: [
-            407,
+            402,
             66,
             121
         ],
@@ -290,7 +104,7 @@ id: [
     },
                                                                                                                                                 {
         id: [
-            408,
+            403,
             66,
             121
         ],
@@ -324,7 +138,7 @@ id: [
     },
                                                                                                                                                     {
         id: [
-            409,
+            404,
             66,
             121
         ],
@@ -354,7 +168,7 @@ id: [
     },
                                                                                                                                                         {
         id: [
-            410,
+            405,
             66,
             121
         ],
@@ -384,7 +198,7 @@ id: [
     },
                                                                                                                                                             {
         id: [
-            411,
+            406,
             66,
             121
         ],
@@ -418,7 +232,7 @@ id: [
     },
                                                                                                                                                                 {
         id: [
-            412,
+            407,
             66,
             121
         ],
@@ -448,7 +262,7 @@ id: [
     },
                                                      {
         id: [
-            413,
+            408,
             67,
             122
         ],
@@ -493,7 +307,7 @@ id: [
     },
                                                                                                                                                                     {
         id: [
-            414,
+            409,
             67,
             122
         ],
@@ -527,7 +341,7 @@ id: [
     },
                                                                                                                                                                         {
         id: [
-            415,
+            410,
             67,
             122
         ],
@@ -573,7 +387,7 @@ id: [
     },
                                                                                                                                                                             {
         id: [
-            416,
+            411,
             67,
             122
         ],
@@ -607,7 +421,7 @@ id: [
     },
                                                                                                                                                                                 {
         id: [
-            417,
+            412,
             67,
             122
         ],
@@ -651,7 +465,7 @@ id: [
     },
                                                                                                                                                                                     {
         id: [
-            418,
+            413,
             67,
             122
         ],
@@ -685,7 +499,7 @@ id: [
     },
                                                          {
         id: [
-            419,
+            414,
             68,
             123
         ],
@@ -734,7 +548,7 @@ id: [
     },
                                                                                                                                                                                         {
         id: [
-            420,
+            415,
             68,
             123
         ],
@@ -765,7 +579,7 @@ id: [
     },
                                                                                                                                                                                             {
         id: [
-            421,
+            416,
             68,
             123
         ],
@@ -796,7 +610,7 @@ id: [
     },
                                                                                                                                                                                                 {
         id: [
-            422,
+            417,
             68,
             124
         ],
@@ -827,7 +641,7 @@ id: [
     },
                                                              {
         id: [
-            423,
+            418,
             69,
             125
         ],
@@ -872,7 +686,7 @@ id: [
     },
                                                                                                                                                                                                     {
         id: [
-            424,
+            419,
             69,
             125
         ],
@@ -905,7 +719,7 @@ id: [
     },
                                                                                                                                                                                                         {
         id: [
-            425,
+            420,
             69,
             126
         ],
@@ -936,7 +750,7 @@ id: [
     },
                                                                                                                                                                                                             {
         id: [
-            426,
+            421,
             69,
             126
         ],
@@ -966,7 +780,7 @@ id: [
     },
                                                                                                                                                                                                                 {
         id: [
-            427,
+            422,
             69,
             126
         ],
@@ -996,7 +810,7 @@ id: [
     },
                                                                  {
         id: [
-            428,
+            423,
             70,
             127
         ],
@@ -1041,7 +855,7 @@ id: [
     },
                                                                                                                                                                                                                     {
         id: [
-            429,
+            424,
             70,
             127
         ],
@@ -1072,7 +886,7 @@ id: [
     },
                                                                                                                                                                                                                         {
         id: [
-            430,
+            425,
             70,
             127
         ],
@@ -1103,7 +917,7 @@ id: [
     },
                                                                                                                                                                                                                             {
         id: [
-            431,
+            426,
             70,
             128
         ],
@@ -1134,7 +948,7 @@ id: [
     },
                                                                                                                                                                                                                                 {
         id: [
-            432,
+            427,
             70,
             128
         ],
@@ -1173,7 +987,7 @@ id: [
     },
                                                                                                                                                                                                                                     {
         id: [
-            433,
+            428,
             70,
             128
         ],
@@ -1204,7 +1018,7 @@ id: [
     },
                                                                      {
         id: [
-            434,
+            429,
             71,
             129
         ],
@@ -1237,7 +1051,7 @@ id: [
     },
                                                                                                                                                                                                                                         {
         id: [
-            435,
+            430,
             71,
             129
         ],
@@ -1268,7 +1082,7 @@ id: [
     },
                                                                                                                                                                                                                                             {
         id: [
-            436,
+            431,
             71,
             129
         ],
@@ -1299,7 +1113,7 @@ id: [
     },
                                                                                                                                                                                                                                                 {
         id: [
-            437,
+            432,
             71,
             130
         ],
@@ -1330,7 +1144,7 @@ id: [
     },
                                                                                                                                                                                                                                                     {
         id: [
-            438,
+            433,
             71,
             130
         ],
@@ -1372,7 +1186,7 @@ id: [
     },
                                                                                                                                                                                                                                                         {
         id: [
-            439,
+            434,
             71,
             130
         ],
@@ -1403,7 +1217,7 @@ id: [
     },
                                                                          {
         id: [
-            440,
+            435,
             72,
             131
         ],
@@ -1438,7 +1252,7 @@ id: [
     },
                                                                                                                                                                                                                                                             {
         id: [
-            441,
+            436,
             72,
             131
         ],
@@ -1470,7 +1284,7 @@ id: [
     },
                                                                                                                                                                                                                                                                 {
         id: [
-            442,
+            437,
             72,
             131
         ],
@@ -1502,7 +1316,7 @@ id: [
     },
                                                                                                                                                                                                                                                                     {
         id: [
-            443,
+            438,
             72,
             131
         ],
@@ -1534,7 +1348,7 @@ id: [
     },
 {
         id: [
-            444,
+            439,
             72,
             132
         ],
@@ -1563,7 +1377,7 @@ id: [
     },                
     {
         id: [
-            445,
+            440,
             73,
             133
         ],
@@ -1610,7 +1424,7 @@ id: [
     },
     {
         id: [
-            446,
+            441,
             73,
             133
         ],
@@ -1643,7 +1457,7 @@ id: [
     },
         {
         id: [
-            447,
+            442,
             73,
             133
         ],
@@ -1676,7 +1490,7 @@ id: [
     },
             {
         id: [
-            448,
+            443,
             73,
             133
         ],
@@ -1709,7 +1523,7 @@ id: [
     },
                 {
         id: [
-            449,
+            444,
             73,
             133
         ],
@@ -1742,7 +1556,7 @@ id: [
     },
         {
         id: [
-            450,
+            445,
             74,
             134
         ],
@@ -1781,7 +1595,7 @@ id: [
     },
                     {
         id: [
-            451,
+            446,
             74,
             134
         ],
@@ -1813,7 +1627,7 @@ id: [
     },
                         {
         id: [
-            452,
+            447,
             74,
             134
         ],
@@ -1855,7 +1669,7 @@ id: [
     },
                             {
         id: [
-            453,
+            448,
             74,
             134
         ],
@@ -1889,7 +1703,7 @@ id: [
     },
                                 {
         id: [
-            454,
+            449,
             74,
             134
         ],
@@ -1923,7 +1737,7 @@ id: [
     },
                                     {
         id: [
-            455,
+            450,
             74,
             134
         ],
@@ -1957,7 +1771,7 @@ id: [
     },
             {
         id: [
-            456,
+            451,
             75,
             135
         ],
@@ -2006,7 +1820,7 @@ id: [
     },
                                         {
         id: [
-            457,
+            452,
             75,
             135
         ],
@@ -2037,7 +1851,7 @@ id: [
     },
                                             {
         id: [
-            458,
+            453,
             75,
             136
         ],
@@ -2070,7 +1884,7 @@ id: [
     },
                                                 {
         id: [
-            459,
+            454,
             75,
             137
         ],
@@ -2102,7 +1916,7 @@ id: [
     },
                                                     {
         id: [
-            460,
+            455,
             75,
             137
         ],
@@ -2142,7 +1956,7 @@ id: [
     },
                                                     {
         id: [
-            461,
+            456,
             75,
             137
         ],
@@ -2174,7 +1988,7 @@ id: [
     },
                                                         {
         id: [
-            462,
+            457,
             75,
             137
         ],
@@ -2206,7 +2020,7 @@ id: [
     },
                 {
         id: [
-            463,
+            458,
             76,
             138
         ],
@@ -2258,7 +2072,7 @@ id: [
     },
                                                             {
         id: [
-            464,
+            459,
             76,
             138
         ],
@@ -2292,7 +2106,7 @@ id: [
     },
                                                                 {
         id: [
-            465,
+            460,
             76,
             138
         ],
@@ -2326,7 +2140,7 @@ id: [
     },
                                                                     {
         id: [
-            466,
+            461,
             76,
             138
         ],
@@ -2368,7 +2182,7 @@ id: [
     },
                                                                     {
         id: [
-            467,
+            462,
             76,
             138
         ],
@@ -2402,7 +2216,7 @@ id: [
     },
                                                                     {
         id: [
-            468,
+            463,
             76,
             138
         ],
@@ -2436,7 +2250,7 @@ id: [
     },
                     {
         id: [
-            469,
+            464,
             77,
             139
         ],
@@ -2473,7 +2287,7 @@ id: [
     },
                                                                         {
         id: [
-            470,
+            465,
             77,
             139
         ],
@@ -2504,7 +2318,7 @@ id: [
     },
                                                                             {
         id: [
-            471,
+            466,
             77,
             139
         ],
@@ -2535,7 +2349,7 @@ id: [
     },
                                                                                 {
         id: [
-            472,
+            467,
             77,
             140
         ],
@@ -2564,7 +2378,7 @@ id: [
     },
                         {
         id: [
-            473,
+            468,
             78,
             141
         ],
@@ -2609,7 +2423,7 @@ id: [
     },
                                                                                         {
         id: [
-            474,
+            469,
             78,
             140
         ],
@@ -2640,7 +2454,7 @@ id: [
     },
                                                                                     {
         id: [
-            475,
+            470,
             78,
             140
         ],
@@ -2671,7 +2485,7 @@ id: [
     },
                                                                                         {
         id: [
-            476,
+            471,
             78,
             141
         ],
@@ -2701,7 +2515,7 @@ id: [
     },
                                                                                             {
         id: [
-            477,
+            472,
             78,
             142
         ],
@@ -2731,7 +2545,7 @@ id: [
     },
                             {
         id: [
-            478,
+            473,
             79,
             143
         ],
@@ -2779,7 +2593,7 @@ id: [
     },
                                                                                                 {
         id: [
-            479,
+            474,
             79,
             143
         ],
@@ -2813,7 +2627,7 @@ id: [
     },
                                                                                                 {
         id: [
-            480,
+            475,
             79,
             143
         ],
@@ -2847,7 +2661,7 @@ id: [
     },
                                                                                                     {
         id: [
-            481,
+            476,
             79,
             143
         ],
@@ -2881,7 +2695,7 @@ id: [
     },
                                                                                                     {
         id: [
-            482,
+            477,
             79,
             143
         ],
@@ -2917,7 +2731,7 @@ id: [
     },
                                                                                                     {
         id: [
-            483,
+            478,
             79,
             143
         ],
@@ -2953,7 +2767,7 @@ id: [
     },
                                 {
         id: [
-            484,
+            479,
             80,
             144
         ],
@@ -2990,7 +2804,7 @@ id: [
     },
                                                                                                         {
         id: [
-            485,
+            480,
             80,
             144
         ],
@@ -3024,7 +2838,7 @@ id: [
     },
                                                                                                             {
         id: [
-            486,
+            481,
             80,
             144
         ],
@@ -3064,7 +2878,7 @@ id: [
     },
                                                                                                             {
         id: [
-            487,
+            482,
             80,
             144
         ],
@@ -3098,7 +2912,7 @@ id: [
     },
                                                                                                                 {
         id: [
-            488,
+            483,
             80,
             144
         ],
@@ -3128,7 +2942,7 @@ id: [
     },
                                                                                                                     {
         id: [
-            489,
+            484,
             80,
             144
         ],
@@ -3158,7 +2972,7 @@ id: [
     },
                                     {
         id: [
-            490,
+            485,
             81,
             145
         ],
@@ -3207,7 +3021,7 @@ id: [
     },
                                                                                                                         {
         id: [
-            491,
+            486,
             81,
             145
         ],
@@ -3239,7 +3053,7 @@ id: [
     },
                                                                                                                             {
         id: [
-            492,
+            487,
             81,
             145
         ],
@@ -3271,7 +3085,7 @@ id: [
     },
                                                                                                                                 {
         id: [
-            493,
+            488,
             81,
             145
         ],
@@ -3303,7 +3117,7 @@ id: [
     },
                                                                                                                                     {
         id: [
-            494,
+            489,
             81,
             146
         ],
@@ -3333,7 +3147,7 @@ id: [
     },
                                                                                                                                     {
         id: [
-            495,
+            490,
             81,
             146
         ],
@@ -3363,7 +3177,7 @@ id: [
     },
                                         {
         id: [
-            496,
+            491,
             82,
             147
         ],
@@ -3400,7 +3214,7 @@ id: [
     },
                                                                                                                                         {
         id: [
-            497,
+            492,
             82,
             147
         ],
@@ -3431,7 +3245,7 @@ id: [
     },
                                                                                                                                             {
         id: [
-            498,
+            493,
             82,
             147
         ],
@@ -3462,7 +3276,7 @@ id: [
     },
                                                                                                                                             {
         id: [
-            499,
+            494,
             82,
             148
         ],
@@ -3486,6 +3300,218 @@ id: [
             "in the river"
         ],
         key: "in the river",
+        category1: "nauka",
+        category2: ["okresleniaMiejsca"]
+    },
+     {
+        id: [
+            495,
+            83,
+            149
+        ],
+        img: [
+                "https://www.arbulang.com/img/fiszki1/5a.jpg",
+                "https://www.arbulang.com/img/fiszki1/5b.jpg",
+                "https://www.arbulang.com/img/fiszki1/5c.jpg",
+                "https://www.arbulang.com/img/fiszki1/5d.jpg",
+                "https://www.arbulang.com/img/fiszki1/5e.jpg"
+        ],
+        translate: "Niebo jest dzisiaj bezchmurne i niebieskie",
+        translateb: "[De skaj is klir and blu tudej]",
+        translateb2: "[De skaj is klir and blu tudej]",
+        translateb3: "The sky is clear and blue today",
+        srcWord: ["https://www.arbulang.com/filmy/lekcja28/sky2.mp4", "Matrix (2005)"],
+        srcWordimage: "https://www.arbulang.com/filmy/lekcja28/sky2.png",
+        word: [
+            "https://www.arbulang.com/voice/bike.mp4"
+        ],
+        story: [
+                "Piłki do gry w kosza są twar<u><b>de</u></b>. Sam ten sport <u><b>to</u></b> twarda gra",
+                "Na tym <u><b>de</u></b>ptaku jest sporo drzewek, <u><b>to</u></b> urocze miejsce",
+                "<u><b>To</u></b> ten <u><b>De</u></b>partament Stanu prowadzi badania nad społecznym problemem",
+                "Czasami politycy stosują <u><b>de</u></b>magogię. Czyli co stosują? <u><b>Tę</u></b> <u><b>de</u></b>magogię",
+                "<u><b>To</u></b> co w naszej rodzinie istnieje to <u><b>de</u></b>mokracja"
+        ],
+        desc: "TRUDNOŚĆ JĘZYKOWA: the[de]-33%, [ze]-33%, [d-ze]-33% - ta",
+        sentence1: [
+            "The"
+        ],
+                            sentence1b: [
+            "(Te)"
+        ],
+                                                sentence1c: [
+            "De"
+        ],
+        sentence: [
+            "The",
+            "sky",
+            "is",
+            "clear",
+            "and",
+            "blue",
+            "today"
+        ],
+        key: "the",
+        category2: ["osoby"],
+        category3: ["PresentSimple", "PresentSimplePodmiot"]
+    },
+{
+        id: [
+            496,
+            83,
+            149
+        ],
+        img: [
+            "https://www.arbulang.com/img/fiszki1/501a.jpg"
+        ],
+        story: [
+            "Z tego hamaka widzę <u><b>niebo</u></b>. Leżenie na hamaku to tro<u><b>ska</u></b> o relaks i na hamaku jest n<u><b>aj</u></b>lepszy"
+        ],
+        desc: "sky[skaj] - niebo",
+        sentence2: [
+            "sky"
+        ],
+                                    sentence1b: [
+            "niebo"
+        ],
+                                                sentence1c: [
+            "skaj"
+        ],
+        sentence: [
+            "The",
+            "sky",
+            "is",
+            "clear",
+            "and",
+            "blue",
+            "today"
+        ],
+        key: "sky",
+        category1: "nauka",
+        category2: ["okresleniaMiejsca"]
+    },
+                                                                                                                                                    {
+        id: [
+            497,
+            83,
+            149
+        ],
+        img: [
+            "https://www.arbulang.com/img/fiszki1/8a.jpg",
+            "https://www.arbulang.com/img/fiszki1/8b.jpg",
+            "https://www.arbulang.com/img/fiszki1/8c.jpg",
+            "https://www.arbulang.com/img/fiszki1/8d.jpg",
+            "https://www.arbulang.com/img/fiszki1/8e.jpg",
+            "https://www.arbulang.com/img/fiszki1/8f.jpg",
+            "https://www.arbulang.com/img/fiszki1/8g.jpg"
+        ],
+        story: [
+            'Gdy ktoś szybko biega obok nas to <u><b>jest</u></b> w popłochu, słyszymy tylko św<span class="adannotation" data-annotation="1"><u><b>is</u></b></span>t',
+            'L<span class="adannotation" data-annotation="1"><u><b>is</u></b></span> <u><b>jest</u></b> dzisiaj listonoszem',
+            '<span class="adannotation" data-annotation="1"><b><u>Is</b></u></span>tota tego przekazu <b><u>jest</b></u> bardzo ważna',
+            'L<span class="adannotation" data-annotation="1"><b><u>is</b></u></span> jest bardzo przebiegły, ale <b><u>jest</b></u> też wilk, który go zje',
+            'Johny Bravo <u><b>jest</b></u> m<span class="adannotation" data-annotation="1"><u><b>is</b></u></span>trzem relacji damsko-męskich',
+            'Lu<span class="adannotation" data-annotation="1"><b><u>is</b></u></span> <b><u>jest</b></u> bardzo zadowolony ze swojej pracy',
+            '<span class="adannotation" data-annotation="1"><b><u>Is</b></u></span>tambuł <b><u>jest</b></u> fajnym miastem'
+        ],
+        desc: "is[is] - jest",
+        sentence2: [
+            "is"
+        ],
+                                            sentence1b: [
+            "jest"
+        ],
+                                                        sentence1c: [
+            "is"
+        ],
+        sentence: [
+            "The",
+            "sky",
+            "is",
+            "clear",
+            "and",
+            "blue",
+            "today"
+        ],
+        key: "is",
+        category1: "nauka",
+        category2: ["okresleniaMiejsca"]
+    },
+                                                                                                                                                        {
+        id: [
+            498,
+            83,
+            149
+        ],
+        img: [
+            "https://www.arbulang.com/img/fiszki1/503a.jpg"
+        ],
+        story: [
+            "<b><u>Lir</b></u>a to intrument na którym gra <b><u>K</b></u>onstatny. Bardzo profesjonalne i <b><u>czyste</b></u> są to dźwięki"
+        ],
+        desc: "clear[klir] - czyste, czysty, czysta",
+        sentence2: [
+            "clear"
+        ],
+                                                    sentence1b: [
+            "czyste"
+        ],
+                                                                sentence1c: [
+            "klir"
+        ],
+        sentence: [
+            "The",
+            "sky",
+            "is",
+            "clear",
+            "and",
+            "blue",
+            "today"
+        ],
+        key: "clear",
+        category1: "nauka",
+        category2: ["okresleniaMiejsca"]
+    },
+                                                                                                                                                            {
+        id: [
+            499,
+            83,
+            149
+        ],
+        img: [
+            "https://www.arbulang.com/img/fiszki1/29aa.jpg",
+            "https://www.arbulang.com/img/fiszki1/29bb.jpg",
+            "https://www.arbulang.com/img/fiszki1/29cc.jpg",
+            "https://www.arbulang.com/img/fiszki1/29dd.jpg",
+            "https://www.arbulang.com/img/fiszki1/29ee.jpg"
+        ],
+        story: [
+            "<u><b>End</u></b>riu wydziela <u><b>end</u></b>orfiny i ćwiczy: to <u><b>i</u></b> to, <u><b>i</u></b> to, aby było więcej endorfin i wyczekuje <u><b>końca</u></b> treningu",
+            "<u><b>End</u></b>riu w końcu jest na <u><b>końcu</u></b> prac w ogrodzie. Zrobił to <u><b>i</u></b> to <u><b>i</u></b> to..",
+            "Muzyka tego bandu(b<u><b>end</u></b>u) wprowadza mózg w specyficzne fale mózgowe, muzyka nie ma <u><b>końca</u></b> <u><b>i</u></b> jeszcze refren, a na koniec werble",
+            "<u><b>End</u></b>riu jeździ motorem enduro i miał wypadek, to <u><b>koniec</u></b> jego kariery. Pyta: <u><b>i</u></b> co dalej?",
+            "W końcu zapędy <u><b>End</u></b>riu do pewnej dziewczyny na <u><b>koniec</u></b> stały się sukcesem <u><b>i</u></b> para jest szczęśliwa"
+        ],
+        desc: "and, end[end] - i(and)/koniec(end)",
+        sentence2: [
+            "and"
+        ],
+                                                            sentence1b: [
+            "i"
+        ],
+                                                                        sentence1c: [
+            "end"
+        ],
+        sentence: [
+            "The",
+            "sky",
+            "is",
+            "clear",
+            "and",
+            "blue",
+            "today"
+        ],
+        key: "and",
         category1: "nauka",
         category2: ["okresleniaMiejsca"]
     }

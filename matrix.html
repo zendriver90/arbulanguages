@@ -28,6 +28,117 @@
         <meta name="keywords" content="naucz się angielskiego, 1000 angielskich słów, szybka nauka angielskiego, jak nauczyć się angielskiego, jak szybko nauczyć się języka, nauka angielskiego z przyjemnością" />
         <style>
             @media (min-width: 999px) {
+.yellow {
+    background-color: #ffeb3b !important;
+    color: #000 !important;
+    padding: 2px 4px;
+    border-radius: 3px;
+    font-weight: bold;
+}
+
+.orange {
+    background: orange;
+}
+                .rodzaj-buttons-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.rodzaj-button {
+    padding: 10px 15px;
+    cursor: pointer;
+        border-radius: 10px;
+}
+.rodzaj-button[data-rodzaj="osoby"] {
+    background: #1abc9c; /* turkus */
+    color: #fff;
+}
+
+.rodzaj-button[data-rodzaj="zaimki"] {
+    background: #3498db; /* niebieski */
+    color: #fff;
+}
+
+.rodzaj-button[data-rodzaj="spojniki"] {
+    background: #f1c40f; /* żółty */
+    color: #2c3e50;
+}
+
+.rodzaj-button[data-rodzaj="czasowniki"] {
+    background: #e74c3c; /* czerwony */
+    color: #fff;
+}
+
+.rodzaj-button[data-rodzaj="czas"] {
+    background: #9b59b6; /* fiolet */
+    color: #fff;
+}
+
+                 * {
+            -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+
+            }
+            .animation {
+            width: 20px;
+            height: 20px;
+            }
+            .a1,
+			.a2,
+			.a3,
+			.a4,
+			.a5,
+			.a6,
+			.a7
+			.a8,
+			.a9,
+			.a10 {
+            display: inline-block;
+            background-color: green;
+            width: 5px;
+            height: 5px;
+            animation: wave 1s linear infinite;
+            }
+            .a1 {
+            animation-delay: .0s;
+            }
+            .a2 {
+            animation-delay: .2s;
+            }
+            .a3 {
+            animation-delay: .3s;
+            }
+            .a4 {
+            animation-delay: .4s;
+            }
+            .a5 {
+            animation-delay: .5s;
+            }
+            .a6 {
+            animation-delay: .6s;
+            }
+            .a7 {
+            animation-delay: .7s;
+            }
+            .a8 {
+            animation-delay: .8s;
+            }
+            .a9 {
+            animation-delay: .9s;
+            }
+            .a10 {
+            animation-delay: 1.0s;
+            }
+            
+            
+            @keyframes wave {
+            50%{
+                transform: scaleY(80);
+                transform: scaleY(5);
+            }
+            
+            }
                 .pronunciation-block {
     pointer-events: none;
     user-select: none;
@@ -960,8 +1071,11 @@ span.highlight {
                     color: white;
                 }
                 .highlighted {
-                    background-color: #2ecc71;
-                    color: black; /* Lub dowolny styl */
+    background-color: #ffeb3b !important;
+    color: #000 !important;
+    padding: 2px 4px;
+    border-radius: 3px;
+    font-weight: bold;
                 }
                 .yellow {
                     color: yellow;
@@ -2366,7 +2480,48 @@ input {
         <div class="body" data-body></div>
     </div>
 </template>
+<div class="rodzaj-buttons-container">
 
+    <button class="rodzaj-button"
+        data-rodzaj="osoby"
+        onclick="przekazArgument0('', 'osoby', '', '', '', '', '', tablica3[1], 'other', false, '', '', '', '', '100')">
+        <span>Osoby (Rodzina, zaimki, zawody)</span>
+    </button>
+
+    <button class="rodzaj-button"
+        data-rodzaj="zaimkiosobowe"
+        onclick="przekazArgument0('', 'zaimkiosobowe', '', '', '', '', '', tablica3[1], 'other', false, '', '', '', '', '100')">
+        <span>Zaimki osobowe</span>
+    </button>
+
+    <button class="rodzaj-button"
+        data-rodzaj="spojniki"
+        onclick="przekazArgument0('', 'spojniki', '', '', '', '', '', tablica3[1], 'other', false, '', '', '', '', '100')">
+        <span>Spójniki</span>
+    </button>
+
+    <button class="rodzaj-button"
+        data-rodzaj="czasownik"
+        onclick="przekazArgument0('', 'czasownik', '', '', '', '', '', tablica3[1], 'other', false, '', '', '', '', '100')">
+        <span>Czasowniki</span>
+    </button>
+        <button class="rodzaj-button"
+        data-rodzaj="czas"
+        onclick="przekazArgument0('', 'czas', '', '', '', '', '', tablica3[1], 'other', false, '', '', '', '', '100')">
+        <span>Czas</span>
+    </button>
+                <button class="rodzaj-button"
+        data-rodzaj="kolory"
+        onclick="przekazArgument0('', 'kolory', '', '', '', '', '', tablica3[1], 'other', false, '', '', '', '', '100')">
+        <span>Kolory</span>
+    </button>
+            <button class="rodzaj-button"
+        data-rodzaj="zwierzeta"
+        onclick="przekazArgument0('', 'zwierzeta', '', '', '', '', '', tablica3[1], 'other', false, '', '', '', '', '100')">
+        <span>Zwierzęta</span>
+    </button>
+
+</div>
                 <div class="grid-container">
                 </div>
             </div>
@@ -2400,6 +2555,25 @@ input {
 </div>                                                                                        <script src="start/miniatury-prezentacja.js"></script>
     
         <script>
+            for (let i = 1; i < fiszki10.length; i++) {
+    if (fiszki10[i].id[0] !== fiszki10[i-1].id[0] + 1) {
+        console.warn("SKOK ID:", i, fiszki10[i].id[0]);
+    }
+}
+                        function buildSentenceMap() {
+    window.originalSentenceMap = {};
+
+    document.querySelectorAll('.sentence-inner').forEach(span => {
+        const localIndex = parseInt(span.dataset.line, 10);
+        const globalIndex = parseInt(span.dataset.indexdiv, 10);
+
+        if (!Number.isNaN(localIndex) && !Number.isNaN(globalIndex)) {
+            const key = `${globalIndex}-${localIndex}`;
+            window.originalSentenceMap[key] = globalIndex;
+        }
+    });
+}
+            window.originalSentenceMap = window.originalSentenceMap || {};
             const SIGNED_TOKEN = "dummySignedToken";
                         const tablica10 = [];
                         const tablica10a = [];
@@ -2748,13 +2922,17 @@ function showFiszkiForLesson5d(matchingFiszki1v, tablica41) {
                 pulpitstartowy = false;
                 // Aktualizuj matchingIndexes na podstawie nowej kategorii
                 matchingIndexes = findXForMatchingFiszka(globalCategory, fiszki);
-                matchingIndexes2 = findXForMatchingFiszka2(globalCategory, fiszki);
+                matchingIndexes2 = findXForMatchingFiszkab(globalCategory, fiszki);
                 matchingIndexes3 = findXForMatchingFiszka3(globalCategory, fiszki);
-
+console.log('hej111', matchingIndexes2);
                 wybierzRodzaj(selectedCategory, globalCategory, czas, matchingIndexes, index55, index77, buttonindex, idpolski, frazyid, matchingIndexes2, rodzaj, matchingIndexes3, isSearching, matchingLessons5, matchingLessons5b, isSearching2, staraTablica40, indexDivRange, indexDiv0, indexDiv0b, indexDiv0d, number, flagaPrzycisku2, flagaPrzycisku);
                 czasv2 = czas;
             }
-
+function findXForMatchingFiszkab(category, fiszki) {
+    return fiszki
+.filter(f => f.category2.includes(category))
+        .map(f => [f.id[1], f.id[0]]);
+}
 function findXForMatchingFiszka(category, fiszki) {
     const matchingIndexes = [];
 
@@ -3048,7 +3226,7 @@ function findMatchingFiszkiCount(category, fiszki) {
                 czasv2 = czas;
                 number;
 
-                       console.log('Liczba5', index55, index77); // Dodano log licznika losowań
+                       console.log('Test100', matchingIndexes); // Dodano log licznika losowań
                 console.log('hej108n', number);
                 console.log("Wybrany rodzaj słownictwa:vv ", selectedCategory);
                 console.log('hej5b', index55);
@@ -3676,6 +3854,7 @@ lessonsGroups.forEach((group, idx) => {
                     console.log('Warunek czas === "fiszki" jest spełniony');
                     $('.grid-container .image-container4').remove();
                     $('.grid-container .image-container5').remove();
+                    $('.grid-container .image-container3b').remove();
 
                     if (myVariable.length > 1) {
                         let zeroWylosowane = false;
@@ -3728,9 +3907,9 @@ for (let i = 0; i < myVariable.length; i += 3) {
     }
     let index70 = indices3[Math.floor(i / 3)];
 console.log('wykonuje się12b', index50, index70, number);
-    const lesson1Sentences = correlationsCount.find(item => item[0] === lessonId1) || [lessonId1, 0];
-    const lesson2Sentences = correlationsCount.find(item => item[0] === lessonId2) || [lessonId2, 0];
-    const lesson3Sentences = correlationsCount.find(item => item[0] === lessonId3) || [lessonId3, 0];
+const lesson1Sentences = (correlationsCount.find(item => item[0] === lessonId1) || [0, 0])[1];
+const lesson2Sentences = (correlationsCount.find(item => item[0] === lessonId2) || [0, 0])[1];
+const lesson3Sentences = (correlationsCount.find(item => item[0] === lessonId3) || [0, 0])[1];
 
     const lesson1SecondPartLength = partLengths2.find(item => item.id === lessonId1)?.count2 || 0;
     const lesson2SecondPartLength = partLengths2.find(item => item.id === lessonId2)?.count2 || 0;
@@ -3772,7 +3951,7 @@ console.log('wykonuje się12b', index50, index70, number);
 
     lessonsArray.push(lessonObject);
                             // Zwiększenie licznika losowań
-                            console.log('Liczba losowańvv:', lessonObject, ostatniaWartosc); // Dodano log licznika losowań
+                            console.log('Liczba losowańvv:', matchingIndexes2); // Dodano log licznika losowań
 
                             // Sprawdzenie, czy osiągnięto limit losowań
                             if (losowaniaCounter >= 10) {
@@ -3803,8 +3982,25 @@ if (indexDiv <= 45) {
         lessonsArrayZ, matchingLessons5, matchingLessons5b, isSearching,
         null
     );
-
+setTimeout(() => {
+    buildSentenceMap();
+}, 0);
 }
+setTimeout(() => {
+
+    document.querySelectorAll('.sentence-inner').forEach(span => {
+        const localIndex = parseInt(span.dataset.line, 10);
+        const globalIndex = parseInt(span.dataset.indexdiv, 10);
+
+        if (!Number.isNaN(localIndex) && !Number.isNaN(globalIndex)) {
+            const key = `${globalIndex}-${localIndex}`;
+            window.originalSentenceMap = window.originalSentenceMap || {};
+            window.originalSentenceMap[key] = globalIndex;
+        }
+    });
+
+}, 0);
+
                     }
                         console.log('Aktualna zawartość tablicy lessonsArray:', lessonsArray);
                         const numberOfContainers = $('.image-container3').length;
@@ -4001,6 +4197,7 @@ function updateVisibleLessons() {
 });
 updateVisibleLessons();
             }
+
             </script>
 
                                 <script src="displayx3.js"></script>

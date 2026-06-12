@@ -1,3 +1,1326 @@
+
+let tablica12ab2 = [];
+let tablica12ad2 = [];
+let tablica12abc2 = [];
+const kliknieciaHistoria = []; // [przedostatnie, ostatnie]
+const tablica11b = [];
+let tablica13a = [];
+let tablica12b = [];
+let tablica12bu = [];
+let tablica15a = [];
+const fiszkaobject = {
+    data: [] // Inicjalizacja tablicy wewnątrz obiektu
+};
+let tablica24 = [];
+        let tablica20aa = [];
+window.seenFiszki = new Set();
+window.wordCounterTotal = 0;
+const hoverState = {};
+window.globalSentenceOrder = {};
+if (!window.wordIndexCache) window.wordIndexCache = {};
+if (!window.lessonPosCache) window.lessonPosCache = {};
+
+function showCombinedSentenceForLesson22b(
+    selectedCategory, matchingIndexes3, rodzaj, matchingIndexes2,
+    buttonindex, index55, index77, lessonIdToShow1, lessonIdToShow2, lessonIdToShow3, fiszki, matchingIndexes,
+    startIndex, newIndex, indexDiv,
+    lessonsArray, lesson1PartLength, lesson2PartLength, lesson3PartLength,
+    lesson1Sentences, lesson2Sentences, lesson3Sentences,
+    lesson1FirstPartLength, lesson2FirstPartLength, lesson3FirstPartLength,
+    lesson1SecondPartLength, lesson2SecondPartLength, lesson3SecondPartLength,
+    cumulativeFirstPartLength1, cumulativeFirstPartLength2, cumulativeFirstPartLength3,
+    lessonsArrayZ, matchingLessons5, matchingLessons5b, isSearching,
+    containerEl // 🔥 DODAJ TO
+) {
+const lockedMatchingIndexes =
+    matchingIndexes ? [...matchingIndexes] : null;
+const safeMatchingIndexes = lockedMatchingIndexes;
+    const $target = $(containerEl);
+
+    $target.empty();
+    const matchingFiszki1 = fiszki.filter(fiszka => fiszka.id[1] === lessonIdToShow1);
+    const matchingFiszki2 = fiszki.filter(fiszka => fiszka.id[1] === lessonIdToShow2);
+    const matchingFiszki3 = fiszki.filter(fiszka => fiszka.id[1] === lessonIdToShow3);
+
+
+    if (matchingFiszki1.length > 0 || matchingFiszki2.length > 0 || matchingFiszki3.length > 0) {
+
+        const srcWord1 = pobierzSrcWordDlaLekcji(lessonIdToShow1, fiszki);
+                const srcWord1q = pobierzSrcWordDlaLekcji1v(lessonIdToShow1, fiszki);
+        const srcWord1a = pobierzSrcWordDlaLekcji2(lessonIdToShow1, fiszki);
+        const srcWord1b = pobierzSrcWordDlaLekcji3(lessonIdToShow1, fiszki);
+                const srcWord1c = pobierzSrcWordDlaLekcji3b(lessonIdToShow1, fiszki);
+        const srcWord1d = pobierzSrcWordDlaLekcji4(lessonIdToShow1, fiszki);
+        const srcWord1f = pobierzSrcWordDlaLekcji5(lessonIdToShow1, fiszki);
+        const srcWord1v = pobierzSrcWordDlaLekcji6(lessonIdToShow1, fiszki);
+        const srcWord2 = pobierzSrcWordDlaLekcji(lessonIdToShow2, fiszki);
+                        const srcWord2q = pobierzSrcWordDlaLekcji1v(lessonIdToShow2, fiszki);
+        const srcWord2a = pobierzSrcWordDlaLekcji2(lessonIdToShow2, fiszki);
+        const srcWord2b = pobierzSrcWordDlaLekcji3(lessonIdToShow2, fiszki);
+                        const srcWord2c = pobierzSrcWordDlaLekcji3b(lessonIdToShow2, fiszki);
+        const srcWord2d = pobierzSrcWordDlaLekcji4(lessonIdToShow2, fiszki);
+        const srcWord2f = pobierzSrcWordDlaLekcji5(lessonIdToShow2, fiszki);
+        const srcWord2v = pobierzSrcWordDlaLekcji6(lessonIdToShow2, fiszki);
+        const srcWord3 = pobierzSrcWordDlaLekcji(lessonIdToShow3, fiszki);
+                                const srcWord3q = pobierzSrcWordDlaLekcji1v(lessonIdToShow3, fiszki);
+        const srcWord3a = pobierzSrcWordDlaLekcji2(lessonIdToShow3, fiszki);
+        const srcWord3b = pobierzSrcWordDlaLekcji3(lessonIdToShow3, fiszki);
+        const srcWord3c = pobierzSrcWordDlaLekcji3b(lessonIdToShow3, fiszki);
+        const srcWord3d = pobierzSrcWordDlaLekcji4(lessonIdToShow3, fiszki);
+        const srcWord3f = pobierzSrcWordDlaLekcji5(lessonIdToShow3, fiszki);
+        const srcWord3v = pobierzSrcWordDlaLekcji6(lessonIdToShow3, fiszki);
+        const srcWord10 = pobierzSrcWordDlaLekcji2(lessonIdToShow1, fiszki);
+        function pobierzSrcWordDlaLekcji(lessonId, fiszki) {
+            const matchingFiszka = fiszki.find(fiszka => fiszka.id[1] === lessonId);
+            return matchingFiszka ? matchingFiszka.srcWord[0] : null;
+        }
+                function pobierzSrcWordDlaLekcji1v(lessonId, fiszki) {
+            const matchingFiszka = fiszki.find(fiszka => fiszka.id[1] === lessonId);
+            return matchingFiszka ? matchingFiszka.category3[0] : null;
+        }
+        function pobierzSrcWordDlaLekcji2(lessonId, fiszki) {
+            const matchingFiszka = fiszki.find(fiszka => fiszka.id[1] === lessonId);
+            return matchingFiszka ? matchingFiszka.srcWordimage : null;
+        }
+        function pobierzSrcWordDlaLekcji3(lessonId, fiszki) {
+            const matchingFiszka = fiszki.find(fiszka => fiszka.id[1] === lessonId);
+            return matchingFiszka ? matchingFiszka.srcWord[1] : null; // Zwracamy srcWord[1] zamiast srcWord
+        }
+                function pobierzSrcWordDlaLekcji3b(lessonId, fiszki) {
+            const matchingFiszka = fiszki.find(fiszka => fiszka.id[1] === lessonId);
+            return matchingFiszka ? matchingFiszka.srcWord[0] : null; // Zwracamy srcWord[1] zamiast srcWord
+        }
+        function pobierzSrcWordDlaLekcji4(lessonId, fiszki) {
+            const matchingFiszka = fiszki.find(fiszka => fiszka.id[1] === lessonId);
+            return matchingFiszka ? matchingFiszka.opis : null;
+        }
+        function pobierzSrcWordDlaLekcji5(lessonId, fiszki) {
+            const matchingFiszka = fiszki.find(fiszka => fiszka.id[1] === lessonId);
+            return matchingFiszka ? matchingFiszka.translate : null;
+        }
+        function pobierzSrcWordDlaLekcji6(lessonId, fiszki) {
+            const matchingFiszka = fiszki.find(fiszka => fiszka.id[1] === lessonId);
+            return matchingFiszka ? matchingFiszka.translateb3 : null;
+        }
+        console.log(`Fiszki dla lekcji ${lessonIdToShow1}, ${lessonIdToShow2} i ${lessonIdToShow3}:`);
+
+        let sentence10 = "", sentence11 = "", sentence10b = "", sentence11b = "", sentence10c = "", sentence11c = "";
+        const id = matchingFiszki1[0]?.id?.[1] || null;
+        function addBackgroundToText1b(matchingFiszki1, matchingIndexes, aktualny, lesson1PartLength, matchingIndexes2, rodzaj, matchingIndexes3, matchingLessons5b, lesson1FirstPartLength) {
+console.log('matchingIndexes22bww', matchingIndexes, lesson1PartLength, lesson1FirstPartLength); //// tutaj są dane
+console.log('length:', matchingIndexes?.length);
+            sentence10 = "";
+sentence11 = "";
+sentence10b = "";
+sentence11b = "";
+sentence10c = "";
+sentence11c = "";
+
+            function isFiszkaActive2(className) { /// JEŚLI USUNĘ TO
+                const learned = getLearned2();
+                console.log('[📦 ZAWARTOŚĆ ColorClass]', learned);
+
+                const entry = learned.find(e => e.className === className);
+                console.log('[🔍 SZUKAM]', className, '->', entry);
+
+                return entry && entry.classToAdd === "active2";
+            }
+            let lastId = null;
+            console.log('hej155', matchingFiszki1);
+for (let i = 0; i < matchingFiszki1.length; i++) {
+    const fiszka = matchingFiszki1[i];
+    lastId = fiszka.id[1];
+
+    if (!fiszka.sentence1) continue;
+
+    for (let ki = 0; ki < fiszka.sentence1.length; ki++) {
+
+        let sentencePart = fiszka.sentence1[ki];
+
+        const classNameToCheck = `fiszka-${fiszka.id}`;
+        const isActive = isFiszkaActive2(classNameToCheck) === true;
+
+        if (isActive) {
+            const spanGreen = document.createElement('span');
+            spanGreen.textContent = sentencePart;
+            spanGreen.classList.add('orange');
+            sentencePart = spanGreen.outerHTML;
+        }
+
+        const indexToCheck =
+            lesson1PartLength +
+            lesson1FirstPartLength +
+            ki + 1;
+
+        if (
+            Array.isArray(matchingIndexes) &&
+            safeMatchingIndexes.includes(indexToCheck)
+        ) {
+            sentencePart = `<span class="yellow">${sentencePart}</span>`;
+        }
+
+        sentence10 += sentencePart + " ";
+    }
+}
+
+            for (let i = 0; i < matchingFiszki1.length; i++) {
+                const fiszka = matchingFiszki1[i];
+                if (!fiszka.sentence2)
+                    continue;
+
+                for (let ki = 0; ki < fiszka.sentence2.length; ki++) {
+                    let sentencePart2 = fiszka.sentence2[ki];
+
+
+                    sentence11 += sentencePart2 + " ";
+                }
+            }
+
+            for (let i = 0; i < matchingFiszki1.length; i++) {
+                const fiszka = matchingFiszki1[i];
+                if (!fiszka.sentence1b)
+                    continue;
+
+                for (let ki = 0; ki < fiszka.sentence1b.length; ki++) {
+                    let sentencePart = fiszka.sentence1b[ki];
+
+
+                    sentence10b += sentencePart + " ";
+                }
+            }
+
+            for (let i = 0; i < matchingFiszki1.length; i++) {
+                const fiszka = matchingFiszki1[i];
+                if (!fiszka.sentence2b)
+                    continue;
+
+                for (let ki = 0; ki < fiszka.sentence2b.length; ki++) {
+                    let sentencePart2 = fiszka.sentence2b[ki];
+
+
+                    sentence11b += sentencePart2 + " ";
+                }
+            }
+
+sentence10c = "wymowa: ";
+
+for (let i = 0; i < matchingFiszki1.length; i++) {
+    const fiszka = matchingFiszki1[i];
+    if (!fiszka.sentence1c)
+        continue;
+
+    for (let ki = 0; ki < fiszka.sentence1c.length; ki++) {
+        let sentencePart = fiszka.sentence1c[ki];
+
+
+        sentence10c += sentencePart + " ";
+    }
+}
+
+for (let i = 0; i < matchingFiszki1.length; i++) {
+    const fiszka = matchingFiszki1[i];
+    if (!fiszka.sentence2c)
+        continue;
+
+    for (let ki = 0; ki < fiszka.sentence2c.length; ki++) {
+        let sentencePart2 = fiszka.sentence2c[ki];
+
+
+        sentence11c += sentencePart2 + " ";
+    }
+}
+
+return {
+    sentence10,
+    sentence11,
+    sentence10b,
+    sentence11b,
+    sentence10c,
+    sentence11c,
+    id
+};
+        }
+
+        let sentence20 = "", sentence22 = "", sentence20b = "", sentence22b = "", sentence20c = "", sentence22c = "";
+                const id2 = matchingFiszki2[0]?.id?.[1] || null;
+        function addBackgroundToText2b(matchingFiszki2, matchingIndexes, aktualny, lesson2PartLength, matchingIndexes2, rodzaj, matchingIndexes3, matchingLessons5b, lesson2FirstPartLength) {
+        }
+        let sentence30 = "", sentence33 = "", sentence30b = "", sentence33b = "", sentence30c = "", sentence33c = "";
+                        const id3 = matchingFiszki3[0]?.id?.[1] || null;
+        function addBackgroundToText3b(matchingFiszki3, matchingIndexes, aktualny, lesson13PartLength, matchingIndexes2, rodzaj, matchingIndexes3, matchingLessons5b, lesson3FirstPartLength) {
+        }
+
+
+    // 🔥 WAŻNE: używamy istniejącego kontenera jeśli jest
+    const $container = containerEl
+        ? $(containerEl)
+        : $('<div></div>').addClass('image-container3b');
+
+    $container.attr('data-lesson', indexDiv);
+    $container.css('position', 'relative');
+
+    // ❌ NIE ROBIMY append tutaj jeśli container istnieje
+    if (!containerEl) {
+        $('.grid-container').append($container);
+    }
+
+// --- TABLICE ---
+        const srcWords = [srcWord1, srcWord2, srcWord3];        // linki do wideo odpowiadają pozycji 0..2
+                const srcWordsq = [srcWord1q, srcWord2q, srcWord3q];        // linki do wideo odpowiadają pozycji 0..2
+        const srcWordsb = [srcWord1v, srcWord2v, srcWord3v];
+        const srcWords2 = [srcWord1b, srcWord2b, srcWord3b];
+                const srcWords2b = [srcWord1c, srcWord2c, srcWord3c];
+        const miniaturka = [srcWord1a, srcWord2a, srcWord3a];   // preview obrazy odpowiadają pozycji 0..2
+        const thumbDescriptions = [srcWord1f, srcWord2f, srcWord3f];
+        const sentences = [matchingFiszki1[0], matchingFiszki2[0], matchingFiszki3[0]];
+
+// ---------- GLOBAL STATE ----------
+        let videoVisible = false;
+
+// mapa data-name -> link (wypełniana w updateButtonColors)
+        const linkMap = {};
+// tablica data-name (np. [1,2,3,4,5,6...]) z DOM
+        const tablica60 = [];
+        console.log('hej150', tablica60);
+// trojki wygenerowane z tablica60 (np. [[1,2,3],[4,5,6],...])
+        let trojkiGlobal = [];
+
+// currentTriplet: rzeczywiste data-name aktualnej trójki (np. [5,6,7])
+        let currentTriplet = [];
+// currentPos: pozycja w currentTriplet (0..currentTriplet.length-1)
+        let currentPos = 0;
+
+
+
+// ---------- STYLE (dodawane raz) ----------
+        if ($('#lessonContainer-style').length === 0) {
+            $('<style id="lessonContainer-style">').text(`
+    .media-container { position: relative; width: 100%; margin-bottom: 10px; }
+    .preview-img { width:100%; border-radius:15px; display:block; cursor:pointer; }
+    .thumb-row { display:flex; justify-content:center; gap:10px; margin-top:-40px; position: relative; z-index: 2; }
+    .thumb-desc { font-size:10px; color:#ccc; text-align:center; margin-top:3px; filter: brightness(0.85); transition: all 0.18s ease; border-radius: 8px;}
+    .thumb-item:hover .thumb-img, .thumb-item:hover .thumb-desc { transform: scale(1.05); filter: brightness(1); }
+    .thumb-item.activeItem .thumb-img, .thumb-item.activeItem .thumb-desc { border:3px solid limegreen; transform: scale(1.07); filter: brightness(1); }
+    .thumb-link { font-size:0.72rem; color:#66ccff; text-align:center; margin-top:4px; text-decoration:underline; display:block; }
+    .text-block { font-size:13px; color:white; text-align:center; line-height:1.6; margin-top:8px; }
+    .text-link { display:block; margin-top:8px; color:#00bfff; text-decoration:underline; font-size:0.9rem; }
+    .nav-buttons { display:flex; justify-content:center; gap:20px; margin-top:10px; }
+  `).appendTo('head');
+        }
+
+// ---------- HELPER: wymuszenie zmiany src obrazka ----------
+        function setImgSrcForce($img, src) {
+            if (!$img || !$img.length)
+                return;
+            const current = $img.attr('src') || '';
+            if (current === src) {
+                $img.attr('src', '');
+                requestAnimationFrame(() => requestAnimationFrame(() => $img.attr('src', src)));
+            } else {
+                $img.attr('src', src);
+            }
+        }
+
+        let previousTrojkiJSON = '';
+        function updateButtonColors() { ////// zrób coś z tym, nie potrzesbuje jakieś updateColors
+            tablica60.length = 0;
+            for (let key in linkMap)
+                delete linkMap[key];
+
+            const color = (typeof colorMapping !== 'undefined' && colorMapping[selectedCategory])
+                    ? colorMapping[selectedCategory]
+                    : '#800080';
+
+            document.querySelectorAll('.sentence-block, .sentence-blockB').forEach(block => {
+                const raw = block.getAttribute('data-name');
+                const dataName = parseInt(raw, 10);
+                if (!Number.isNaN(dataName))
+                    tablica60.push(dataName);
+
+                if (typeof startRange2 !== 'undefined' && typeof endRange2 !== 'undefined') {
+                    const dataNameSafe = parseInt(block.getAttribute('data-name'), 10);
+                    if (!Number.isNaN(dataNameSafe) && dataNameSafe >= startRange2 && dataNameSafe <= endRange2) {
+                        const button = block.querySelector('button.left-button, button.left-buttonb, button.left-buttonbb');
+                        if (button) {
+                            button.style.backgroundColor = color;
+                            button.style.color = 'white';
+                        }
+                    }
+                }
+            });
+
+            const trojki = [];
+            for (let i = 0; i < tablica60.length; i += 3) {
+                trojki.push(tablica60.slice(i, i + 3));
+            }
+
+            if (typeof newIndex !== 'undefined' && typeof newIndex5 !== 'undefined' &&
+                    typeof newIndex10 !== 'undefined' && typeof index50 !== 'undefined') {
+                if (newIndex === 0 || newIndex5 === 0 || newIndex10 === 0) {
+                    for (let i = 0; i < trojki.length; i++) {
+                        trojki[i] = trojki[i].map(num => (num > index50 ? num - 3 : num));
+                    }
+                }
+            }
+
+            const currentTrojkiJSON = JSON.stringify(trojki);
+            if (currentTrojkiJSON !== previousTrojkiJSON) {
+                previousTrojkiJSON = currentTrojkiJSON;
+                $('.hidden-link').remove();
+                $('.run-button3').remove();
+
+                trojkiGlobal = trojki.slice();
+
+                trojki.forEach((trojka, i) => {
+                    const lessonNumber = i + 1;
+
+                    // 🔹 Link do całej lekcji (3 zdania)
+                    const tripletLink = `demo1angielski.html?category=${selectedCategory}&data=${trojka.join(',')}`;
+
+                    // 🔹 Dla każdego zdania z osobna:
+                    trojka.forEach(indexDiv => {
+                        // pojedynczy link do zdania
+                        const singleLink = `demo1angielski.html?category=${selectedCategory}&data=${indexDiv}`;
+                        linkMap[indexDiv] = singleLink; // teraz każde zdanie ma własny link
+
+                        const $containerBlock = $(`.sentence-block[data-name="${indexDiv}"]`);
+                        if ($containerBlock.length) {
+                            // 🔸 przycisk pojedynczej lekcji
+                            const $buttonSingle = $('<a></a>')
+                                    .attr({
+                                        href: singleLink,
+                                        target: '_blank',
+                                        rel: 'noopener noreferrer'
+                                    })
+                                    .css({
+                                        position: 'absolute',
+                                        top: '60px',
+                                        right: '5px',
+                                        'z-index': 2000,
+                                        color: 'white',
+                                        'background-color': '#007bff',
+                                        border: 'none',
+                                        'border-radius': '4px',
+                                        padding: '5px 10px',
+                                        'text-decoration': 'none',
+                                        cursor: 'pointer'
+                                    })
+                                    .addClass('run-button3')
+                                    .text('➡ Otwórz pojedynczą lekcję');
+
+                            $containerBlock.append($buttonSingle);
+                        }
+                    });
+
+                    // 🔸 Dodatkowo – przycisk do całej lekcji (3 zdania)
+                    const firstIndex = trojka[0];
+                    const $containerFirst = $(`.sentence-block[data-name="${firstIndex}"]`);
+                    if ($containerFirst.length) {
+                        const $buttonTriplet = $('<a></a>')
+                                .attr({
+                                    href: tripletLink,
+                                    target: '_blank',
+                                    rel: 'noopener noreferrer'
+                                })
+                                .css({
+                                    position: 'absolute',
+                                    top: '95px',
+                                    right: '5px',
+                                    'z-index': 2000,
+                                    color: 'white',
+                                    'background-color': '#28a745',
+                                    border: 'none',
+                                    'border-radius': '4px',
+                                    padding: '5px 10px',
+                                    'text-decoration': 'none',
+                                    cursor: 'pointer'
+                                })
+                                .addClass('run-button3')
+                                .text('📘 Otwórz całą lekcję');
+
+                        $containerFirst.append($buttonTriplet);
+                    }
+                });
+            }
+        }
+
+// Delegacja zdarzeń dla run-button3 (otwieranie linku)
+        $('body').off('click', '.run-button3').on('click', '.run-button3', function () {
+            const indexDiv = $(this).attr('data-index2');
+            const lessonLink = linkMap[indexDiv];
+            if (lessonLink)
+                window.open(lessonLink, '_blank');
+        });
+
+// ---------- FUNKCJE POMOCNICZE: Parsowanie parametru data z URL ----------
+        function parseDataParamFromURL() {
+            if (typeof window === 'undefined')
+                return null;
+            const dataParam = new URLSearchParams(window.location.search).get('data');
+            if (!dataParam)
+                return null;
+            const parts = dataParam.split(',').map(s => parseInt(s, 10)).filter(n => !Number.isNaN(n));
+            if (parts.length === 0)
+                return null;
+            return parts;
+        }
+
+// Jeśli mamy pojedynczy numer (np. ?data=5) i trojkiGlobal jest już zbudowane,
+// znajdź trójkę, która zawiera ten numer i ustaw currentTriplet oraz currentPos.
+        function chooseTripletFromSingleNumber(singleNumber) {
+            for (let t = 0; t < trojkiGlobal.length; t++) {
+                const tri = trojkiGlobal[t];
+                const idx = tri.indexOf(singleNumber);
+                if (idx !== -1) {
+                    currentTriplet = tri.slice(); // przypisz
+                    currentPos = idx;
+                    return true;
+                }
+            }
+            return false;
+        }
+        const sentenceCache = {}; // klucz: currentPos, wartość: HTML zdań
+        if (!sentenceCache[indexDiv]) {
+            sentenceCache[indexDiv] = {};
+        }
+        const currentPosCache = {}; // klucz: indexDiv, wartość: currentPos
+        let globalSentence10 = "", globalSentence11 = "", globalSentence10b = "", globalSentence11b = "", globalSentence10c = "", globalSentence11c = "";
+        let globalSentence20 = "", globalSentence22 = "", globalSentence20b = "", globalSentence22b = "", globalSentence20c = "", globalSentence22c = "";
+        let globalSentence30 = "", globalSentence33 = "", globalSentence30b = "", globalSentence33b = "", globalSentence30c = "", globalSentence33c = "";
+        console.log('index88:', sentenceCache);
+        let mojeidGlobal;
+// Globalne zmienne do śledzenia aktualnej lekcji i zdania
+        let currentIndexDivGlobal = null;  // aktualna lekcja
+        let currentPosGlobal = 0;          // aktualne zdanie w lekcji
+        let systemStarted = false; // flaga do kontroli kliknięcia "startsystem"
+let tablica55 = [];
+
+// ===============================
+// 🔥 GLOBAL STATE (KLUCZ FIXA)
+// ===============================
+window.stateByIndexDiv = window.stateByIndexDiv || {};
+
+function getState(indexDiv) {
+    if (!window.stateByIndexDiv[indexDiv]) {
+        window.stateByIndexDiv[indexDiv] = {
+            currentFiszkaIndex: 0,
+            tablica20aa: [],
+            currentHighlightIndex: 0
+        };
+    }
+    return window.stateByIndexDiv[indexDiv];
+}
+        function renderLesson() {
+
+    const state = getState(indexDiv);
+
+    // 🔥 RESET tylko dla tej lekcji
+    state.currentFiszkaIndex = 0;
+    state.tablica20aa = [];
+    state.currentHighlightIndex = 0;
+
+    $container.empty();
+    $('.image-container3b .sentence').css('display', 'none');
+
+    const $buttonb = $('<img>').attr({
+        src: 'https://www.arbulang.com/img/startsystem.png',
+        class: 'overlay-button'
+    });
+
+    if (indexDiv % 2 === 0) {
+        $buttonb.addClass('left-side-button');
+    } else {
+        $buttonb.addClass('right-side-button');
+    }
+
+    $buttonb.appendTo($container);
+
+    // =========================
+    // START BUTTON
+    // =========================
+    $buttonb.on('click', function () {
+                console.log("STARTSYSTEM indexDiv=", indexDiv);
+                console.log("STARTSYSTEM currentPosCache=", JSON.stringify(currentPosCache));
+                console.log("STARTSYSTEM currentPos=", currentPosCache[indexDiv]);
+                if (currentPosCache[indexDiv] === undefined) {
+                    currentPosCache[indexDiv] = 0;
+                }
+                currentPosGlobal = currentPosCache[indexDiv]; // synchronizacja z globalnym currentPosGlobal
+                currentIndexDivGlobal = indexDiv; // aktualizujemy globalną lekcję
+
+                systemStarted = true;
+                $('.run-button3').css({
+                    'margin-top': '65px'
+                });
+                console.log('hej140', systemStarted);
+                // Dodaj kopiÄ wartoĹci indexDiv do tablicy
+                // PrzykĹad nowej wartoĹci indexDiv
+                let nowaWartosc = indexDiv;
+
+                // SprawdĹş, czy wartoĹÄ juĹź nie istnieje w tablicy (opcjonalnie)
+                if (!tablica11b.includes(nowaWartosc)) {
+                    tablica11b.push(nowaWartosc); // Dodaj nowÄ wartoĹÄ na koĹcu tablicy
+                    console.log('Dodano wartoĹÄ:', nowaWartosc);
+                    console.log('Dodano wartoĹÄ:', tablica11b);
+                } else {
+                    console.log('WartoĹÄ juĹź istnieje w tablicy:', nowaWartosc);
+                }
+
+                let ostatniElement2 = tablica11b[tablica11b.length - 2];
+
+                let ostatniElement3 = tablica12b[tablica12b.length - 1];
+
+                console.log('hej55h', tablica11b);
+                console.log('hej55h+', ostatniElement2);
+                $('video').each(function () {
+                    const video = this;
+                    if (!video.paused) {
+                        video.pause(); // Wstrzymaj wideo
+                        console.log('Wideo zatrzymane:', video);
+                    }
+                });
+                console.log('index44bc', indexDiv);
+                console.log('Button clicked');
+
+                
+                // SprawdĹş, czy kontener ma odpowiedni z-index i position
+                $container.css({
+                    'position': 'relative', // Ustawienie position na relative, aby z-index dziaĹaĹ
+                    'z-index': '1000003'
+                });
+                window.mojeidGlobal2 = indexDiv;
+                console.log('hej44f', window.mojeidGlobal);
+                console.log('hej140vv', currentPos);
+if (currentPosCache[indexDiv] === 0) {
+        const state = getState(indexDiv);
+        state.currentFiszkaIndex = 0;
+
+        currentIndexDivGlobal = indexDiv;
+        systemStarted = true;
+
+const lastEntry = [...window.mojeidGlobal]
+    .reverse()
+    .find(x => x && x.indexDiv === indexDiv);
+
+    const currentWordIndex = lastEntry ? lastEntry.currentWordIndex : 0;
+console.log('hej220', currentWordIndex);
+    highlightFirstWord(indexDiv, currentPosCache[indexDiv], currentWordIndex);
+
+    setTimeout(() => {
+        showFiszkiForLesson6(ostatniElement2, ostatniElement3);
+    }, 0);
+}
+                console.log('hej140vvv', indexDiv, currentPosCache[indexDiv], window.mojeidGlobal);
+                if (currentPos === 1) {
+                    highlightFirstWord2(indexDiv, currentPosCache[indexDiv], window.mojeidGlobalb);
+                    setTimeout(() => {
+                        showFiszkiForLesson6b(ostatniElement2, ostatniElement3);
+                    }, 0);
+                }
+                if (currentPos === 2) {
+                    highlightFirstWord3(indexDiv, currentPosCache[indexDiv], window.mojeidGlobalc);
+                    setTimeout(() => {
+                        showFiszkiForLesson6c(ostatniElement2, ostatniElement3);
+                    }, 0);
+                }
+
+
+            });
+
+
+            
+            function highlightFirstWord(indexDiv, currentPos, mojeidWordIndex) {
+            }
+            function highlightFirstWord2(indexDiv, currentPos, mojeidWordIndex) {
+            }
+            function highlightFirstWord3(indexDiv, currentPos, mojeidWordIndex) {
+            }
+            // --- Bezpieczne domyślne ustawienia currentTriplet ---
+            if (!Array.isArray(currentTriplet) || currentTriplet.length === 0) {
+                if (trojkiGlobal.length > 0) {
+                    currentTriplet = trojkiGlobal[0].slice();
+                    currentPos = 0;
+                } else {
+                    currentTriplet = miniaturka.map((_, i) => i);
+                    currentPos = 0;
+                }
+            }
+
+            if (currentPos < 0 || currentPos >= currentTriplet.length)
+                currentPos = 0;
+
+            const currentDataName = currentTriplet[currentPos];
+
+            // --- Dopasowanie fiszek do trójki ---
+            const id1 = currentTriplet[0];
+            const id2 = currentTriplet[1];
+            const id3 = currentTriplet[2];
+
+
+            const matchingIndexes = [];
+            const matchingIndexes2 = [];
+            const matchingIndexes3 = [];
+            const matchingLessons5b = [];
+
+            const fiszka = sentences[currentPos] || {};
+            // --- Wybór nazwy czasu dla aktualnego zdania ---
+let currentCzasName = '';
+if (currentPos === 0) currentCzasName = srcWord1q;
+else if (currentPos === 1) currentCzasName = srcWord2q;
+else if (currentPos === 2) currentCzasName = srcWord3q;
+            console.log('hej140', fiszka);
+// --- Duża miniaturka / wideo ---
+            const $mediaContainer = $('<div>').addClass('media-container').css({
+                position: 'relative', // konieczne, by absolutny tekst był w kontekście tego kontenera
+                width: '100%',
+                maxWidth: '600px',
+                margin: '0 auto'
+            });
+
+            let $media;
+
+const previewImgSrc = miniaturka[currentPos];
+
+// --- Bezpieczne pobranie videoSrc ---
+let videoSrc = null;
+if (Array.isArray(srcWords2b[currentPos])) {
+    videoSrc = srcWords2b[currentPos][0];
+} else if (typeof srcWords2b[currentPos] === 'string') {
+    videoSrc = srcWords2b[currentPos];
+}
+
+// --- WIDEO lub MINIATURA ---
+if (videoVisible && videoSrc) {
+} else {
+}
+
+$mediaContainer.append($media);
+
+// --- Overlay z nazwami filmów ---
+const $textContainer2 = $('<div>').css({
+});
+
+if (videoVisible) {
+    $textContainer2.hide();
+} else {
+    $textContainer2.show();
+}
+
+const currentVideos = Array.isArray(srcWords2[currentPos])
+    ? [srcWords2[currentPos][0]]  // URL do wideo
+    : (srcWords2[currentPos] ? [srcWords2[currentPos]] : []);
+
+currentVideos.forEach(src => {
+    const fileName = Array.isArray(srcWords2[currentPos]) ? srcWords2[currentPos][1] : src.split('/').pop();
+    const $videoName = $('<p>').text(fileName).css({ fontWeight: 'bold', margin: '4px 0' });
+    $textContainer2.append($videoName);
+});
+if (!videoVisible) {
+    const $czasName = $('<p>').text(currentCzasName || '').css({ fontWeight: 'bold', margin: '4px 0' });
+    $textContainer2.append($czasName);
+    $textContainer2.show();
+} else {
+    $textContainer2.hide();
+}
+            $mediaContainer.append($textContainer2);
+
+// --- Pasek miniatur ze strzałkami ---
+            const $thumbContainer = $('<div>').addClass('thumb-row');
+            currentTriplet.forEach((dataName, pos) => {
+                const $item = $('<div>').addClass('thumb-item');
+                if (pos === currentPos)
+                    $item.addClass('activeItem');
+
+                const $img = $('<img>').addClass('thumb-img').attr('data-pos', pos);
+                setImgSrcForce($img, miniaturka[pos]);
+                    const $czasLabel = $('<div>')
+        .addClass('thumb-czas')
+        .text(srcWordsq[pos] || '');
+                $img.off('click.thumb').on('click.thumb', function () {
+                    const p = Number($(this).attr('data-pos'));
+                    if (!Number.isNaN(p)) {
+                        currentPos = p;
+                        videoVisible = false;
+                        renderLesson();
+                    }
+                });
+
+                const $desc = $('<div>').addClass('thumb-desc').text(thumbDescriptions[pos] || '');
+
+                const linkForThumb = linkMap[dataName] || `demo1angielski.html?category=${selectedCategory}&data=${dataName}`;
+                const $link = $('<a>').attr({href: linkForThumb, target: '_blank'}).addClass('thumb-link').text('Otwórz pojedyńczą lekcję');
+
+                $item.append($czasLabel, $img, $desc, $link);
+                $thumbContainer.append($item);
+            });
+            let globalWordIndex = 0; // wszystkie trzy zdania przesuwają się razem
+            const wordIndexCache = {};
+            const $thumbWrapper = $('<div>').addClass('thumb-wrapper');
+
+// LEWA STRZAŁKA
+// --- Strzałki ---
+const $leftArrow = $('<button>')
+    });
+
+const $rightArrow = $('<button>')
+    });
+
+            $thumbWrapper.append($leftArrow, $thumbContainer, $rightArrow);
+            $mediaContainer.append($thumbWrapper);
+// --- Teksty / zdania ---
+            const $textContainer = $('<div>').addClass('text-block');
+            // --- Nazwa czasu nad zdaniem ---
+const $czasNameP = $('<p>').text(currentCzasName || '')
+    .css({
+        fontWeight: 'bold',
+        fontSize: '14px',
+        margin: '8px 0',
+        color: '#ffffff' // lub inny kolor pasujący do tła
+    });
+$textContainer.append($czasNameP);
+            let currentSentenceHtml = "";
+            // --- Inicjalizacja cache dla indexDiv ---
+if (indexDiv < 36) {
+
+    // dodaj napis tylko jeśli jeszcze go nie ma
+    if (!$container.find('.dynamic-div').length) {
+const $dynamicDiv = $('<div>')
+    .addClass('dynamic-div')
+    .text('Lekcja dostępna - otwórz link poniżej')
+    .css({
+        display: 'block'
+    });
+
+$container.append($dynamicDiv);
+
+        $container.append($dynamicDiv);
+    }
+}
+const matchingIndexes = [];
+// ===============================
+// 1. RENDER CAŁEGO TRIPLETA
+// ===============================
+
+const result0 = addBackgroundToText1b(
+    matchingFiszki1,
+    matchingIndexes,
+    0,
+    lesson1PartLength,
+    matchingIndexes2,
+    rodzaj,
+    matchingIndexes3,
+    matchingLessons5b,
+    lesson1FirstPartLength
+);
+
+const result1 = addBackgroundToText2b(
+    matchingFiszki2,
+    matchingIndexes,
+    1,
+    lesson2PartLength,
+    matchingIndexes2,
+    rodzaj,
+    matchingIndexes3,
+    matchingLessons5b,
+    lesson2FirstPartLength
+);
+
+const result2 = addBackgroundToText3b(
+    matchingFiszki3,
+    matchingIndexes,
+    2,
+    lesson3PartLength,
+    matchingIndexes2,
+    rodzaj,
+    matchingIndexes3,
+    matchingLessons5b,
+    lesson3FirstPartLength
+);
+
+
+// ===============================
+// 2. WYCIĄGNIĘCIE ID
+// ===============================
+
+const id0 = result0?.id ?? null;
+const id1 = result1?.id2 ?? null;
+const id2 = result2?.id3 ?? null;
+console.log('hej200', id0, id1);
+const tripletIds = [id0, id1, id2];
+if (!sentenceCache[indexDiv]) {
+    sentenceCache[indexDiv] = {};
+}
+
+if (!sentenceCache[indexDiv][currentPos]) {
+
+    let currentSentenceHtml = "";
+
+    try {
+
+        let data;
+
+        // =========================
+        // POS 0
+        // =========================
+        if (currentPos === 0 && typeof addBackgroundToText1b === "function") {
+
+            data = addBackgroundToText1b(
+                matchingFiszki1,
+                matchingIndexes,
+                0,
+                lesson1PartLength,
+                matchingIndexes2,
+                rodzaj,
+                matchingIndexes3,
+                matchingLessons5b,
+                lesson1FirstPartLength
+            );
+
+            globalSentence10 = data.sentence10;
+            globalSentence11 = data.sentence11;
+            globalSentence10b = data.sentence10b;
+            globalSentence11b = data.sentence11b;
+            globalSentence10c = data.sentence10c;
+            globalSentence11c = data.sentence11c;
+
+            currentSentenceHtml =
+                (data.sentence10 || "") +
+                (data.sentence11 || "") +
+                "<br>" +
+                (data.sentence10b || "").toUpperCase() +
+                (data.sentence11b || "").toUpperCase() +
+                "<br>" +
+                (data.sentence10c || "").toUpperCase() +
+                (data.sentence11c || "").toUpperCase();
+        }
+
+        // =========================
+        // POS 1
+        // =========================
+        else if (currentPos === 1 && typeof addBackgroundToText2b === "function") {
+
+            data = addBackgroundToText2b(
+                matchingFiszki2,
+                matchingIndexes,
+                currentPos,
+                lesson2PartLength,
+                matchingIndexes2,
+                rodzaj,
+                matchingIndexes3,
+                matchingLessons5b,
+                lesson2FirstPartLength
+            );
+
+            globalSentence20 = data.sentence20;
+            globalSentence22 = data.sentence22;
+            globalSentence20b = data.sentence20b;
+            globalSentence22b = data.sentence22b;
+            globalSentence20c = data.sentence20c;
+            globalSentence22c = data.sentence22c;
+
+            currentSentenceHtml =
+                (data.sentence20 || "") +
+                (data.sentence22 || "") +
+                "<br>" +
+                (data.sentence20b || "").toUpperCase() +
+                (data.sentence22b || "").toUpperCase() +
+                "<br>" +
+                "wymowa:" +
+                (data.sentence20c || "").toUpperCase() +
+                (data.sentence22c || "").toUpperCase();
+        }
+
+        // =========================
+        // POS 2
+        // =========================
+        else if (currentPos === 2 && typeof addBackgroundToText3b === "function") {
+
+            data = addBackgroundToText3b(
+                matchingFiszki3,
+                matchingIndexes,
+                currentPos,
+                lesson3PartLength,
+                matchingIndexes2,
+                rodzaj,
+                matchingIndexes3,
+                matchingLessons5b,
+                lesson3FirstPartLength
+            );
+
+            globalSentence30 = data.sentence30;
+            globalSentence33 = data.sentence33;
+            globalSentence30b = data.sentence30b;
+            globalSentence33b = data.sentence33b;
+            globalSentence30c = data.sentence30c;
+            globalSentence33c = data.sentence33c;
+
+            currentSentenceHtml =
+                (data.sentence30 || "") +
+                (data.sentence33 || "") +
+                "<br>" +
+                (data.sentence30b || "").toUpperCase() +
+                (data.sentence33b || "").toUpperCase() +
+                "<br>" +
+                "wymowa:" +
+                (data.sentence30c || "").toUpperCase() +
+                (data.sentence33c || "").toUpperCase();
+        }
+
+        // =========================
+        // FALLBACK
+        // =========================
+        else {
+            if (fiszka && (fiszka.sentence1 || fiszka.sentence2)) {
+
+                currentSentenceHtml =
+                    (Array.isArray(fiszka.sentence1) ? fiszka.sentence1.join(" ") + " " : "") +
+                    (Array.isArray(fiszka.sentence2) ? fiszka.sentence2.join(" ") : "");
+            }
+        }
+
+    } catch (e) {
+        console.error("Błąd podczas generowania zdań:", e);
+    }
+
+    sentenceCache[indexDiv][currentPos] = currentSentenceHtml;
+}
+            console.log("currentPos =", currentPos, "currentDataName =", currentDataName);
+// --- Dodanie strzałek do zdania --- 
+            const arrowsHtml = `
+    <button class="prev-buttonvv sentence-prev">&lt;</button>
+
+    <div class="sentence-lines">
+        <span class="sentence-inner sentence-inner-1">${sentenceCache[indexDiv][0] || ""}</span>
+        <span class="sentence-inner sentence-inner-2">${sentenceCache[indexDiv][1] || ""}</span>
+        <span class="sentence-inner sentence-inner-3">${sentenceCache[indexDiv][2] || ""}</span>
+    </div>
+
+    <button class="next-buttonv sentence-next">&gt;</button>
+`;
+
+function syncHighlightForIndexDiv(indexDiv, $block) {
+}
+            $(document).on("click", ".next-buttonv, .prev-button", function () {
+            });
+
+$(document).on("click", ".next-buttonvv", function () {
+});
+            $(document).on("click", ".prev-buttonv, .prev-button", function () {
+            });
+            $(document).on("click", ".prev-buttonvv", function () {
+            });
+// --- Pobranie bieżącego zdania na podstawie currentPos ---
+            const currentSentence = sentenceCache[indexDiv][currentPos];
+            console.log('hej160', currentSentence);
+// --- Rozbijamy zdanie na linie po <br> ---
+            const lines = currentSentence.split('<br>');
+
+// --- Tworzenie bloków zdań z strzałkami ---
+            const processedLines = lines.map((line, lineIndex) => {
+                if (!line.trim())
+                    return "";
+
+                // Każda linia może mieć swój własny indexDiv i currentPos, jeśli potrzebne
+                const leftBtn = `<button class="prev-buttonvv prev-button${lineIndex + 1}" data-pos="${currentPos}">&lt;</button>`;
+                const rightBtn = `<button class="next-buttonvv next-button${lineIndex + 1}" data-pos="${currentPos}">&gt;</button>`;
+
+                // Każde sentence-inner ma teraz treść bieżącej linii i poprawnie przypisane data-pos
+                return `
+        <div class="sentence-line">
+            ${leftBtn}
+            <span class="sentence-inner" data-pos="${currentPos}" data-line="${lineIndex}" data-indexDiv="${indexDiv}">${line}</span>
+            ${rightBtn}
+        </div>
+    `;
+            });
+// --- Funkcja do renderowania zdań dla danego indexDiv i currentPos ---
+            function renderSentenceBlock(indexDiv, currentPos) {
+            }
+
+// --- Kliknięcie w zdanie otwiera je ---
+            $(document).on('click', '.sentence-inner', function () {
+                const indexDiv = parseInt($(this).attr('data-indexDiv'));
+                const currentPos = parseInt($(this).attr('data-pos'));
+
+                // Renderujemy dokładnie to zdanie
+                renderSentenceBlock(indexDiv, currentPos);
+            });
+
+// --- Obsługa strzałek ---
+
+
+
+            const $sentenceDiv = $('<div>')
+                    .addClass('sentence-block')
+                    .html(processedLines.join(""));
+
+            $textContainer.append($sentenceDiv);
+            function highlightFirstWordsInSentenceBlock($sentenceBlock) {
+
+            }
+            window.mojeidGlobal = window.mojeidGlobal || {};
+function attachArrowNavigation($sentenceBlock, indexDiv) {
+
+}
+
+
+            function sendHighlightToFiszki(indexDiv, mojeidGlobal) {
+                highlightFirstWord(indexDiv, currentPosCache[indexDiv], mojeidGlobal);
+            }
+            highlightFirstWordsInSentenceBlock($sentenceDiv);
+            attachArrowNavigation($sentenceDiv, indexDiv);
+
+            // --- Linki do lekcji ---
+            const singleLink = `demo1angielski.html?category=${selectedCategory}&data=${currentDataName}`;
+            const tripletLink = `demo1angielski.html?category=${selectedCategory}&data=${currentTriplet.join(',')}`;
+
+            const $singleLinkA = $('<a>')
+                    .attr({href: singleLink})
+                    .addClass('text-link')
+                    .text('➡ Otwórz lekcję z wybranym zdaniem');
+
+            const $tripletLinkA = $('<a>')
+                    .attr({href: tripletLink})
+                    .addClass('text-link')
+                    .text('➡ Otwórz całą lekcję (3 zdania)');
+
+            $textContainer.append($singleLinkA, $tripletLinkA);
+const $nav = $('<div>').addClass('nav-buttons');
+
+// ← strzałka
+const $left = $('<button>')
+    .text('←')
+    .on('click', () => {
+        currentPos = (currentPos - 1 + currentTriplet.length) % currentTriplet.length;
+        videoVisible = false;
+        renderLesson();
+    });
+
+$nav.append($left);
+
+currentTriplet.forEach((lessonIndexDiv, i) => {
+
+    const $btn = $('<button>')
+        .addClass('lesson-indicator')
+        .toggleClass('active', i === currentPos)
+        .text(lessonIndexDiv)
+        .on('click', () => {
+
+            currentPos = i;
+            videoVisible = false;
+
+            // RESET słów dla tej lekcji
+            wordIndexCache[indexDiv] = 0;
+
+            // zapisz aktualne zdanie
+            lessonPosCache[indexDiv] = currentPos;
+
+            renderLesson();
+
+            setTimeout(() => {
+
+                const y = currentPos + 1 + (indexDiv - 1) * 3;
+
+                const blockWords = fiszki10.filter(
+                    f => f.id?.[1] === y
+                );
+
+                const firstWord = blockWords[0];
+
+                if (!firstWord?.word?.[0]) return;
+
+                const audio = new Audio(firstWord.word[0]);
+                audio.play().catch(() => {});
+
+                const $container = $(`.image-container3b[data-lesson="${indexDiv}"]`);
+
+                const $target = $container.find('[data-word-index="0"]').first();
+
+                if ($target.length) {
+
+                    $('.word-animation').remove();
+
+                    $target.css({
+                        position: 'relative',
+                        display: 'inline-block'
+                    });
+
+                    $target.append(`
+                        <div class="word-animation">
+                            <span class="a1"></span><span class="a2"></span>
+                            <span class="a3"></span><span class="a4"></span>
+                            <span class="a5"></span><span class="a6"></span>
+                            <span class="a7"></span><span class="a8"></span>
+                            <span class="a9"></span><span class="a10"></span>
+                        </div>
+                    `);
+                }
+
+            }, 80);
+
+        });
+
+    $nav.append($btn);
+});
+
+// → strzałka
+const $right = $('<button>')
+    .text('→')
+    .on('click', () => {
+        currentPos = (currentPos + 1) % currentTriplet.length;
+        videoVisible = false;
+        renderLesson();
+    });
+
+$nav.append($right);
+
+            $container.append($mediaContainer, $textContainer, $nav);
+        }
+
+        $('body').off('click', '.run-icon').on('click', '.run-icon', function () {
+            const indexDiv = $(this).attr('data-index2');
+            const link = linkMap[indexDiv] || `demo1angielski.html?category=${selectedCategory}&data=${indexDiv}`;
+            window.open(link, '_blank');
+        });
+
+// ---------- STARTUP: synchronizacja trojek, linkMap i ustawienia currentTriplet ----------
+        function startup() {
+            // najpierw wypełnij tablica60, trojkiGlobal i linkMap
+            updateButtonColors();
+
+            // spróbuj odczytać parametry z URL
+            const parsed = parseDataParamFromURL();
+            if (parsed && parsed.length > 0) {
+                if (parsed.length === 1) {
+                    // pojedynczy numer - spróbuj odnaleźć odpowiadającą trójkę
+                    // jeśli trojkiGlobal jest pusty (np. updateButtonColors jeszcze nie wrócił) - poczekaj krótko
+                    if (trojkiGlobal.length === 0) {
+                        // odczekaj i spróbuj ponownie
+                        setTimeout(() => {
+                            if (!chooseTripletFromSingleNumber(parsed[0])) {
+                                // fallback: ustaw pojedynczy numer jako trójkę z nim samym
+                                currentTriplet = [parsed[0]];
+                                currentPos = 0;
+                            }
+                            renderLesson();
+                        }, 60);
+                        return;
+                    } else {
+                        if (!chooseTripletFromSingleNumber(parsed[0])) {
+                            currentTriplet = [parsed[0]];
+                            currentPos = 0;
+                        }
+                    }
+                } else {
+                    // jeżeli mamy już listę (np. 5,6,7) -> ustaw currentTriplet bezpośrednio
+                    currentTriplet = parsed.slice();
+                    currentPos = 0;
+                }
+            } else {
+                // brak parametru w URL -> użyj pierwszej trojki (jeśli jest), inaczej fallback
+                if (trojkiGlobal.length > 0) {
+                    currentTriplet = trojkiGlobal[0].slice();
+                    currentPos = 0;
+                } else {
+                    // fallback: zwykła sekwencja 0..miniaturka.length-1
+                    currentTriplet = miniaturka.map((_, i) => i);
+                    currentPos = 0;
+                }
+            }
+
+            // render initial
+            renderLesson();
+        }
+
+// Uruchom startup po krótkim delay (daje czas updateButtonColors)
+        setTimeout(startup, 0);
+
+
+
+        if (selectedCategory === 'all') {
+            var $sentenceDiv = $('<div></div>');
+            $sentenceDiv.addClass('sentence');
+
+            // Pobieramy nazwy (id[1]) do atrybutów
+            const id1 = matchingFiszki1[0]?.id[1] || 'unknown1';
+            const id2 = matchingFiszki2[0]?.id[1] || 'unknown2';
+            const id3 = matchingFiszki3[0]?.id[1] || 'unknown3';
+
+            $sentenceDiv.html(`
+<div class="sentence-block" data-name="${id1}">
+    ${sentence10}${sentence11}<br>
+        ${sentence10b}${sentence11b}<br>
+                ${sentence10c}${sentence11c}<br>
+</div>
+
+<div class="sentence-block" data-name="${id2}">
+    ${sentence20}${sentence22}<br>
+            ${sentence20b}${sentence22b}<br>
+            ${sentence20c}${sentence22c}<br>
+</div>
+
+<div class="sentence-block" data-name="${id3}">
+    ${sentence30}${sentence33}<br>
+                ${sentence30b}${sentence33b}<br>
+</div>
+`);
+
+            $sentenceDiv.css({
+                'position': 'absolute',
+                'margin-top': '-50px',
+                'text-align': 'center',
+                'z-index': '5'
+            });
+        }
+
+
+        console.log('Tworzymy przycisk z indexDiv =', indexDiv);
+        const $button = $('<button></button>')
+                .addClass('run-button')
+                .text('Uruchom-działa')
+                .attr('data-index2', indexDiv)
+                .on('click', function () {
+                    const index5 = $(this).attr('data-index2');
+                    const index55 = parseInt(index5, 10);
+                    console.log('Kliknięto przycisk z data-index2 =', index5, ', index55 =', index55);
+                    kliknieciaHistoria.push(index55);
+                    const index77 = (kliknieciaHistoria.length > 1)
+                            ? kliknieciaHistoria[kliknieciaHistoria.length - 2]
+                            : undefined;
+                    console.log('index77 =', index77);
+
+                    setTimeout(() => {
+                        przekazArgument0('all', tablica3[2], index55, index77, true, tablica3[0], true, true, tablica3[1], tablica3[4], false, '', '', '', '', '100', '', '', '', false, true, false);
+                    }, 100);
+                });
+// Stylowanie przycisku – widoczny od razu
+        $button.css({
+            'position': 'absolute',
+            'right': '-200px', // Dopasuj pozycję według potrzeb
+            'top': '5px',
+            'font-size': '10px',
+            'height': '30px',
+            'width': '170px',
+            'color': 'blue',
+            'background-color': 'white',
+            'z-index': '12', // Wyższy niż inne elementy
+            'border': '1px solid #aaa',
+            'cursor': 'pointer'
+        });
+
+// Dodanie przycisku do kontenera – OD RAZU po jego stworzeniu
+        $container.append($button);
+
+        // Dodanie diva z zdaniem do kontenera
+        $container.append($sentenceDiv);
+        tablica10a.push(srcWords);
+        console.log('hej6', tablica10a);
+        console.log('wykonuje się teraz');
+    }
+    
+}
+
+
 let tablica12ab2 = [];
 let tablica12ad2 = [];
 let tablica12abc2 = [];
@@ -106,13 +1429,25 @@ const safeMatchingIndexes = lockedMatchingIndexes;
         let sentence10 = "", sentence11 = "", sentence10b = "", sentence11b = "", sentence10c = "", sentence11c = "";
         const id = matchingFiszki1[0]?.id?.[1] || null;
         function addBackgroundToText1b(matchingFiszki1, matchingIndexes, aktualny, lesson1PartLength, matchingIndexes2, rodzaj, matchingIndexes3, matchingLessons5b, lesson1Sentences) {
-
-sentence10 = "";
+console.log('matchingIndexes22bww', matchingIndexes, lesson1PartLength, lesson1FirstPartLength); //// tutaj są dane
+console.log('length:', matchingIndexes?.length);
+            sentence10 = "";
 sentence11 = "";
 sentence10b = "";
 sentence11b = "";
 sentence10c = "";
 sentence11c = "";
+let foundWords = [];
+foundWords: matchingIndexes.map(i => Number(i))
+            function isFiszkaActive2(className) { /// JEŚLI USUNĘ TO
+                const learned = getLearned2();
+                console.log('[📦 ZAWARTOŚĆ ColorClass]', learned);
+
+                const entry = learned.find(e => e.className === className);
+                console.log('[🔍 SZUKAM]', className, '->', entry);
+
+                return entry && entry.classToAdd === "active2";
+            }
             let lastId = null;
             console.log('hej155', matchingFiszki1);
 for (let i = 0; i < matchingFiszki1.length; i++) {
@@ -125,6 +1460,29 @@ for (let i = 0; i < matchingFiszki1.length; i++) {
 
         let sentencePart = fiszka.sentence1[ki];
 
+        const classNameToCheck = `fiszka-${fiszka.id}`;
+        const isActive = isFiszkaActive2(classNameToCheck) === true;
+
+        if (isActive) {
+            const spanGreen = document.createElement('span');
+            spanGreen.textContent = sentencePart;
+            spanGreen.classList.add('orange');
+            sentencePart = spanGreen.outerHTML;
+        }
+
+        const indexToCheck =
+            lesson1PartLength + lesson1Sentences;
+console.log('hej220', lesson1PartLength, lesson1Sentences, safeMatchingIndexes);
+if (safeMatchingIndexes.includes(indexToCheck)) {
+    foundWords.push({
+        sentence: i,
+        word: ki,
+        globalIndex: indexToCheck
+    });
+
+    sentencePart = `<span class="yellow">${sentencePart}</span>`;
+}
+
         sentence10 += sentencePart + " ";
     }
 }
@@ -136,6 +1494,19 @@ for (let i = 0; i < matchingFiszki1.length; i++) {
 
                 for (let ki = 0; ki < fiszka.sentence2.length; ki++) {
                     let sentencePart2 = fiszka.sentence2[ki];
+
+        const indexToCheck =
+            lesson1PartLength + lesson1Sentences;
+console.log('hej220', lesson1PartLength, lesson1Sentences, safeMatchingIndexes);
+if (safeMatchingIndexes.includes(indexToCheck)) {
+    foundWords.push({
+        sentence: i,
+        word: ki,
+        globalIndex: indexToCheck
+    });
+
+    sentencePart2 = `<span class="yellow">${sentencePart2}</span>`;
+}
 
         sentence11 += sentencePart2 + " ";
     }
@@ -202,186 +1573,18 @@ return {
     sentence11b,
     sentence10c,
     sentence11c,
-    id
+    id,
+    foundWords   // 🔥 DODAJ
 };
         }
-        const id2= matchingFiszki2[0]?.id?.[1] || null;
+
         let sentence20 = "", sentence22 = "", sentence20b = "", sentence22b = "", sentence20c = "", sentence22c = "";
-        function addBackgroundToText2b(matchingFiszki2, matchingIndexes, aktualny, lesson1PartLength, matchingIndexes2, rodzaj, matchingIndexes3, matchingLessons5b) {
-sentence20 = "";
-sentence22 = "";
-sentence20b = "";
-sentence22b = "";
-sentence20c = "";
-sentence22c = "";
-
-            for (let j = 0; j < matchingFiszki2.length; j++) {
-                const fiszka = matchingFiszki2[j];
-                if (!fiszka.sentence1)
-                    continue;
-
-                for (let k = 0; k < fiszka.sentence1.length; k++) {
-                    let sentencePart = fiszka.sentence1[k];
-
-
-                    sentence20 += sentencePart + " ";
-                }
-            }
-
-            for (let i = 0; i < matchingFiszki2.length; i++) {
-                const fiszka = matchingFiszki2[i];
-                if (!fiszka.sentence2)
-                    continue;
-
-                for (let ki = 0; ki < fiszka.sentence2.length; ki++) {
-                    let sentencePart2 = fiszka.sentence2[ki];
-
-
-                    sentence22 += sentencePart2 + " ";
-                }
-            }
-
-            for (let i = 0; i < matchingFiszki2.length; i++) {
-                const fiszka = matchingFiszki2[i];
-                if (!fiszka.sentence1b)
-                    continue;
-
-                for (let ki = 0; ki < fiszka.sentence1b.length; ki++) {
-                    let sentencePartb = fiszka.sentence1b[ki];
-                    const indexToCheck = i + lesson1PartLength + 1;
-
-
-                    sentence20b += sentencePartb + " ";
-                }
-            }
-
-            for (let i = 0; i < matchingFiszki2.length; i++) {
-                const fiszka = matchingFiszki2[i];
-                if (!fiszka.sentence2b)
-                    continue;
-
-                for (let ki = 0; ki < fiszka.sentence2b.length; ki++) {
-                    let sentencePart2b = fiszka.sentence2b[ki];
-
-
-                    sentence22b += sentencePart2b + " ";
-                }
-            }
-            for (let i = 0; i < matchingFiszki2.length; i++) {
-                const fiszka = matchingFiszki2[i];
-                if (!fiszka.sentence1c)
-                    continue;
-
-                for (let ki = 0; ki < fiszka.sentence1c.length; ki++) {
-                    let sentencePartb = fiszka.sentence1c[ki];
-
-
-                    sentence20c += sentencePartb + " ";
-                }
-            }
-
-            for (let i = 0; i < matchingFiszki2.length; i++) {
-                const fiszka = matchingFiszki2[i];
-                if (!fiszka.sentence2c)
-                    continue;
-
-                for (let ki = 0; ki < fiszka.sentence2c.length; ki++) {
-                    let sentencePart2b = fiszka.sentence2c[ki];
-
-
-                    sentence22c += sentencePart2b + " ";
-                }
-            }
-            return {sentence20, sentence22, sentence20b, sentence22b, sentence20c, sentence22c, id2};
-
+                const id2 = matchingFiszki2[0]?.id?.[1] || null;
+        function addBackgroundToText2b(matchingFiszki2, matchingIndexes, aktualny, lesson2PartLength, matchingIndexes2, rodzaj, matchingIndexes3, matchingLessons5b, lesson2FirstPartLength) {
         }
-                const id3 = matchingFiszki3[0]?.id?.[1] || null;
         let sentence30 = "", sentence33 = "", sentence30b = "", sentence33b = "", sentence30c = "", sentence33c = "";
-        function addBackgroundToText3b(matchingFiszki3, matchingIndexes, aktualny, lesson1PartLength, matchingIndexes2, rodzaj, matchingIndexes3, matchingLessons5b) {
-sentence30 = "";
-sentence33 = "";
-sentence30b = "";
-sentence33b = "";
-sentence30c = "";
-sentence33c = "";
-
-            for (let j = 0; j < matchingFiszki3.length; j++) {
-                const fiszka = matchingFiszki3[j];
-                if (!fiszka.sentence1)
-                    continue;
-
-                for (let k = 0; k < fiszka.sentence1.length; k++) {
-                    let sentencePart = fiszka.sentence1[k];
-
-
-                    sentence30 += sentencePart + " ";
-                }
-            }
-
-            for (let i = 0; i < matchingFiszki3.length; i++) {
-                const fiszka = matchingFiszki3[i];
-                if (!fiszka.sentence2)
-                    continue;
-
-                for (let ki = 0; ki < fiszka.sentence2.length; ki++) {
-                    let sentencePart2 = fiszka.sentence2[ki];
-
-
-                    sentence33 += sentencePart2 + " ";
-                }
-            }
-
-            for (let i = 0; i < matchingFiszki3.length; i++) {
-                const fiszka = matchingFiszki3[i];
-                if (!fiszka.sentence1b)
-                    continue;
-
-                for (let ki = 0; ki < fiszka.sentence1b.length; ki++) {
-                    let sentencePartb = fiszka.sentence1b[ki];
-
-
-                    sentence30b += sentencePartb + " ";
-                }
-            }
-
-            for (let i = 0; i < matchingFiszki3.length; i++) {
-                const fiszka = matchingFiszki3[i];
-                if (!fiszka.sentence2b)
-                    continue;
-
-                for (let ki = 0; ki < fiszka.sentence2b.length; ki++) {
-                    let sentencePart3b = fiszka.sentence2b[ki];
-
-
-                    sentence33b += sentencePart3b + " ";
-                }
-            }
-            for (let i = 0; i < matchingFiszki3.length; i++) {
-                const fiszka = matchingFiszki3[i];
-                if (!fiszka.sentence1c)
-                    continue;
-
-                for (let ki = 0; ki < fiszka.sentence1c.length; ki++) {
-                    let sentencePartb = fiszka.sentence1c[ki];
-
-
-                    sentence30c += sentencePartb + " ";
-                }
-            }
-
-            for (let i = 0; i < matchingFiszki3.length; i++) {
-                const fiszka = matchingFiszki3[i];
-                if (!fiszka.sentence2c)
-                    continue;
-
-                for (let ki = 0; ki < fiszka.sentence2c.length; ki++) {
-                    let sentencePart3b = fiszka.sentence2c[ki];
-
-
-                    sentence33c += sentencePart3b + " ";
-                }
-            }
-            return {sentence30, sentence33, sentence30b, sentence33b, sentence30c, sentence33c, id3};
+                        const id3 = matchingFiszki3[0]?.id?.[1] || null;
+        function addBackgroundToText3b(matchingFiszki3, matchingIndexes, aktualny, lesson13PartLength, matchingIndexes2, rodzaj, matchingIndexes3, matchingLessons5b, lesson3FirstPartLength) {
         }
 
 
@@ -4572,17 +5775,7 @@ console.log('hej120aa', wordIndexCache[indexDiv]);
             console.log('hej160', currentSentence);
 // --- Rozbijamy zdanie na linie po <br> ---
             const lines = currentSentence.split('<br>');
-// 🔥 TU DODAJESZ MAPĘ
-const sentenceMap = currentTriplet.map(id => {
-    return sentences[id]?.id?.[1] ?? id;
-});
-const xMap = currentTriplet.map(id => {
-    return sentences[id]?.id?.[0] ?? id;   // X (np. lesson / group / set)
-});
 
-
-const secondValues = matchingIndexes2.map(item => item[1]);
-console.log('hej100', secondValues);
 // --- Tworzenie bloków zdań z strzałkami ---
             const processedLines = lines.map((line, lineIndex) => {
                 if (!line.trim())
@@ -4593,69 +5786,40 @@ console.log('hej100', secondValues);
                 const rightBtn = `<button class="next-buttonvv next-button${lineIndex + 1}" data-pos="${currentPos}">&gt;</button>`;
 
                 // Każde sentence-inner ma teraz treść bieżącej linii i poprawnie przypisane data-pos
-return `
-    <div class="sentence-line"
-         data-sentence-id="${sentenceMap[lineIndex]}"
-         data-sentence-id2="${xMap[lineIndex]}"
-         data-line="${lineIndex}"
-         data-indexDiv="${indexDiv}">
-
-        ${leftBtn}
-
-        <span class="sentence-inner"
-              data-pos="${currentPos}"
-              data-line="${lineIndex}"
-              data-indexDiv="${indexDiv}">
-            ${line}
-        </span>
-
-        ${rightBtn}
-
-    </div>
-`;
+                return `
+        <div class="sentence-line">
+            ${leftBtn}
+            <span class="sentence-inner" data-pos="${currentPos}" data-line="${lineIndex}" data-indexDiv="${indexDiv}">${line}</span>
+            ${rightBtn}
+        </div>
+    `;
             });
-function renderSentenceBlock(indexDiv, currentPos) {
+// --- Funkcja do renderowania zdań dla danego indexDiv i currentPos ---
+            function renderSentenceBlock(indexDiv, currentPos) {
+                const currentSentence = sentenceCache[indexDiv][currentPos];
+                if (!currentSentence)
+                    return;
 
-    const currentSentence = sentenceCache[indexDiv][currentPos];
-    if (!currentSentence) return;
+                const lines = currentSentence.split('<br>');
 
-    const lines = currentSentence.split('<br>');
-    const sentenceMap = currentTriplet.map(Number);
+                const $sentenceBlock = $('<div>').addClass('sentence-block');
 
-    const $sentenceBlock = $('<div>')
-        .addClass('sentence-block')
-        .attr('data-indexDiv', indexDiv)
-        .attr('data-currentPos', currentPos)
-        .attr('data-sentence-map', JSON.stringify(sentenceMap)); // 🔥 TU
+                lines.forEach((line, lineIndex) => {
+                    if (!line.trim())
+                        return;
 
-    lines.forEach((line, lineIndex) => {
-        if (!line.trim()) return;
-
-        const $lineDiv = $(`
+                    const $lineDiv = $(`
             <div class="sentence-line">
-                <button class="prev-buttonv"
-                        data-pos="${currentPos}"
-                        data-indexDiv="${indexDiv}">&lt;</button>
-
-                <span class="sentence-inner"
-         data-sentence-id2="${xMap[lineIndex]}"
-                    ${line}
-                </span>
-
-                <button class="next-buttonv"
-                        data-pos="${currentPos}"
-                        data-indexDiv="${indexDiv}">&gt;</button>
+                <button class="prev-buttonv" data-pos="${currentPos}" data-indexDiv="${indexDiv}">&lt;</button>
+                <span class="sentence-inner" data-pos="${currentPos}" data-line="${lineIndex}" data-indexDiv="${indexDiv}">${line}</span>
+                <button class="next-buttonv" data-pos="${currentPos}" data-indexDiv="${indexDiv}">&gt;</button>
             </div>
         `);
+                    $sentenceBlock.append($lineDiv);
+                });
 
-        $sentenceBlock.append($lineDiv);
-    });
-
-    // 🔥 WAŻNE: NIE mieszaj z $textContainer
-    $('#your-container').empty().append($sentenceBlock);
-
-    attachArrowNavigation($sentenceBlock, indexDiv, sentenceMap);
-}
+                $('#your-container').html($sentenceBlock); // <- wstawiamy do swojego kontenera
+            }
 
 // --- Kliknięcie w zdanie otwiera je ---
             $(document).on('click', '.sentence-inner', function () {
@@ -4670,10 +5834,9 @@ function renderSentenceBlock(indexDiv, currentPos) {
 
 
 
-const $sentenceDiv = $('<div>')
-    .addClass('sentence-block')
-    .attr('data-sentence-map', JSON.stringify(sentenceMap))
-    .html(processedLines.join(""));
+            const $sentenceDiv = $('<div>')
+                    .addClass('sentence-block')
+                    .html(processedLines.join(""));
 
             $textContainer.append($sentenceDiv);
             function highlightFirstWordsInSentenceBlock($sentenceBlock) {
@@ -4698,9 +5861,9 @@ const $sentenceDiv = $('<div>')
                     $inner.html(rebuilt);
                 });
             }
-            console.log('hej22vvnn', matchingIndexes2);
-
-function attachArrowNavigation($sentenceBlock, indexDiv, sentenceMap) {
+            window.mojeidGlobal = window.mojeidGlobal || {};
+            window.lastFoundWordsByDiv = window.lastFoundWordsByDiv || {};
+function attachArrowNavigation($sentenceBlock, indexDiv) {
 
     console.log('attachArrowNavigation start', { indexDiv, hasBlock: !!$sentenceBlock.length });
 
@@ -4712,53 +5875,85 @@ function attachArrowNavigation($sentenceBlock, indexDiv, sentenceMap) {
     let currentWordIndex = 0;
 
     const updateHighlightAll = () => {
+$sentenceBlock.find('.sentence-inner span').each(function () {
+    const $span = $(this);
+
+    const cleanText = $span.text()
+        .replace(/class="yellow"/g, '')
+        .replace(/&gt;/g, '')
+        .trim();
+
+    $span.text(cleanText);
+});
+const $lines = $sentenceBlock.find('.sentence-line');
+const foundWords =
+    window.lastFoundWordsByDiv?.[String(indexDiv)] ||
+    window.lastFoundWordsByDiv?.[Number(indexDiv)] ||
+    [];
+
+        console.log('🔥 foundWords for indexDiv:', indexDiv, foundWords);
 
         $sentenceBlock.find('.sentence-line').each(function (lineIndex) {
 
-            const $inner = $(this).find('.sentence-inner');
-            const raw = $inner.text().trim();
-            if (!raw) return;
+const $inner = $(this).find('.sentence-inner');
 
-            const tokens = raw.split(/\s+/);
+// 🔥 zawsze czysty tekst
+const raw = $inner
+    .clone()
+    .children()
+    .remove()
+    .end()
+    .text()
+    .replace(/\s+/g, ' ')
+    .trim();
 
+if (!raw) return;
+
+let tokens = raw.split(/\s+/).filter(word =>
+    word &&
+    !word.includes('<') &&
+    !word.includes('>') &&
+    !word.includes('class=') &&
+    !word.includes('&gt;')
+);
             let pronunciationLabel = '';
             let pronunciationFirstWord = '';
-
+console.log('TOKENS:', tokens);
+console.log('FOUND:', foundWords);
             if (tokens.length > 0) {
                 const first = tokens[0];
 
                 if (first.toLowerCase().startsWith('wymowa:')) {
                     pronunciationLabel = 'wymowa:';
-                    pronunciationFirstWord = first.slice('wymowa:'.length); // np. EWRYBODY
-                    tokens.shift(); // usuń pierwszy token z listy słów do highlightu
+                    pronunciationFirstWord = first.slice('wymowa:'.length);
+                    tokens.shift();
                 }
             }
 
             const id = indexDiv + "-" + lineIndex + "-" + currentWordIndex;
-console.log('hej2000', id);
-const secondValues = matchingIndexes2.map(item => Number(item[1]));
-const secondValuesSet = new Set(secondValues);
-const sharedBase = xMap[0];
-const wordsHtml = tokens.map((word, wi) => {
-    const cursorStyle = `style="cursor:pointer;"`;
 
+            const wordsHtml = tokens.map((word, wi) => {
 
-    const currentX = sharedBase + wi;
+                const cursorStyle = `style="cursor:pointer;"`;
 
+const shouldHighlight = foundWords.some(w =>
+    Number(w.sentence ?? w.line) === Number(lineIndex) &&
+    Number(w.word) === Number(wi)
+);
 
-    const shouldHighlight = secondValuesSet.has(Number(currentX));
+                if (shouldHighlight) {
+                    return `<span class="highlighted yellow"
+                                  data-word-index="${wi}"
+                                  data-mojeid="${id}"
+                                  ${cursorStyle}>${word}</span>`;
+                }
 
-    if (shouldHighlight) {
-        return `<span class="highlighted"
-            data-sentence-id2="${currentX}"
-            data-mojeid="${id}"
-            ${cursorStyle}>${word}</span>`;
-    }
+                return `<span data-word-index="${wi}"
+                              data-mojeid="${id}"
+                              ${cursorStyle}>${word}</span>`;
 
-    return `<span data-word-index="${wi}"
-        data-sentence-id2="${currentX}"
-        ${cursorStyle}>${word}</span>`;
-}).join(" ");
+            }).join(" ");
+
             const pronunciationHtml = pronunciationLabel
                 ? `<span class="pronunciation-label">${pronunciationLabel}</span>${pronunciationFirstWord ? ' ' + pronunciationFirstWord : ''} `
                 : '';
@@ -4766,24 +5961,39 @@ const wordsHtml = tokens.map((word, wi) => {
             $inner.html(pronunciationHtml + wordsHtml);
         });
 
+        window.mojeidGlobal = window.mojeidGlobal || [];
 
+        window.mojeidGlobal[indexDiv] = {
+            indexDiv: indexDiv,
+            currentWordIndex: currentWordIndex
+        };
+
+        window.mojeidGlobal.push({
+            indexDiv: indexDiv,
+            currentWordIndex: currentWordIndex
+        });
+
+        console.log('hej110vv', window.mojeidGlobal);
 
         window.mojeidGlobalb = currentWordIndex;
         window.mojeidGlobalc = currentWordIndex;
 
         window.mojeidGlobal2 = indexDiv;
-        window.mojeidGlobal3 = currentPos;
 
         if (window.systemStarted) {
             sendHighlightToFiszki(indexDiv, currentWordIndex);
         }
+        console.log("ALL KEYS:", Object.keys(window.lastFoundWordsByDiv || {}));
+        console.log("indexDiv USED:", indexDiv);
+console.log("AVAILABLE KEYS:", Object.keys(window.lastFoundWordsByDiv));
+console.log("VALUE:", window.lastFoundWordsByDiv[indexDiv]);
+console.log("VALUE2:",Object.keys(window.lastFoundWordsByDiv));
+console.log("VALUE3:",Object.keys(window.lastFoundWordsByDiv).map(Number));
     };
 
     $sentenceBlock.find('.next-buttonvv')
         .off('click.attachNav')
-        .on('click.attachNav', function (e) {
-
-
+        .on('click.attachNav', function () {
 
             const raw = $sentenceBlock
                 .find('.sentence-inner')
@@ -4792,35 +6002,20 @@ const wordsHtml = tokens.map((word, wi) => {
                 .trim();
 
             const tokens = raw ? raw.split(/\s+/) : [];
-
 
             const wordsCount = tokens.length;
 
             if (currentWordIndex < wordsCount - 1) {
                 currentWordIndex++;
                 updateHighlightAll();
-
             }
-            
         });
 
     $sentenceBlock.find('.prev-buttonvv')
         .off('click.attachNav')
-        .on('click.attachNav', function (e) {
+        .on('click.attachNav', function () {
 
-
-            const raw = $sentenceBlock
-                .find('.sentence-inner')
-                .first()
-                .text()
-                .trim();
-
-            const tokens = raw ? raw.split(/\s+/) : [];
-
-
-            const wordsCount = tokens.length;
-
-            if (currentWordIndex < wordsCount - 1) {
+            if (currentWordIndex > 0) {
                 currentWordIndex--;
                 updateHighlightAll();
             }
@@ -4833,10 +6028,14 @@ const wordsHtml = tokens.map((word, wi) => {
             e.stopImmediatePropagation();
 
             const wi = Number($(this).data('word-index'));
+
             if (!isNaN(wi)) {
                 currentWordIndex = wi;
-                                                tablica20aa.push(currentWordIndex); // 2️⃣ zapis historiitablica20aa.push
+
+                tablica20aa.push(currentWordIndex);
+
                 console.log('hej12', tablica20aa[tablica20aa.length - 1]);
+
                 updateHighlightAll();
             }
         });
@@ -5043,7 +6242,24 @@ function startup() {
             const id2 = matchingFiszki2[0]?.id[1] || 'unknown2';
             const id3 = matchingFiszki3[0]?.id[1] || 'unknown3';
 
+            $sentenceDiv.html(`
+<div class="sentence-block" data-name="${id1}">
+    ${sentence10}${sentence11}<br>
+        ${sentence10b}${sentence11b}<br>
+                ${sentence10c}${sentence11c}<br>
+</div>
 
+<div class="sentence-block" data-name="${id2}">
+    ${sentence20}${sentence22}<br>
+            ${sentence20b}${sentence22b}<br>
+            ${sentence20c}${sentence22c}<br>
+</div>
+
+<div class="sentence-block" data-name="${id3}">
+    ${sentence30}${sentence33}<br>
+                ${sentence30b}${sentence33b}<br>
+</div>
+`);
 
             $sentenceDiv.css({
                 'position': 'absolute',

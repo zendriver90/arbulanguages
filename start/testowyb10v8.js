@@ -1,145 +1,7 @@
 fiszki10.push(
-                                {
+{
         id: [
             700,
-            119,
-            217
-        ],
-        img: [
-            "http://localhost/arbulanguage.com/img/fiszki1/700a.jpg"
-        ],
-        story: [
-            "W tych <u><b>slip</u></b>ach dobrze się <u><b>śpi</u></b>"
-        ],
-        desc: "sleeps[slips] - śpi",
-        sentence2: [
-            "sleeps"
-        ],
-        sentence: [
-            "The baby",
-            "sleeps"
-        ],
-        key: "sleeps",
-        category1: "nauka",
-        category2: ["okresleniaMiejsca"]
-    },
-                                    {
-        id: [
-            701,
-            119,
-            218
-        ],
-        img: [
-            "http://localhost/arbulanguage.com/img/fiszki1/254a.jpg"
-        ],
-        story: [
-            "<u><b>In</u></b>trowertyk lubi przesiadywać <u><b>w</u></b> swoim umyśle"
-        ],
-        desc: "in[in] - w",
-        sentence2: [
-            "in"
-        ],
-        sentence: [
-            "in",
-            "the crib"
-        ],
-        key: "in",
-        category1: "nauka",
-        category2: ["okresleniaMiejsca"]
-    },
-                                            {
-        id: [
-            702,
-            119,
-            218
-        ],
-        img: [
-            "http://localhost/arbulanguage.com/img/fiszki1/702a.jpg"
-        ],
-        story: [
-            "Dziecko Kowlaskich <u><b>Kri</u></b>s bardzo lubi być kołysany w <u><b>kołysce</u></b>"
-        ],
-        desc: "crib[krib] - kołyska",
-        sentence2: [
-            "crib"
-        ],
-        sentence: [
-            "in",
-            "the crib"
-        ],
-        key: "crib",
-        category1: "nauka",
-        category2: ["okresleniaMiejsca"]
-    },
-            {
-        id: [
-            703,
-            120,
-            219
-        ],
-        img: [
-                "http://localhost/arbulanguage.com/img/fiszki1/7a.jpg",
-                "http://localhost/arbulanguage.com/img/fiszki1/7b.jpg",
-                "http://localhost/arbulanguage.com/img/fiszki1/7c.jpg",
-                "http://localhost/arbulanguage.com/img/fiszki1/7d.jpg",
-                "http://localhost/arbulanguage.com/img/fiszki1/7e.jpg"
-        ],
-        translate: "Kupiłem mleko w sklepie",
-        translateb: "[]",
-        translateb2: "[]",
-        srcWord: ["http://localhost/arbulanguage.com/filmy/newspaper.mp4", "Kevin sam w domu (1990)"],
-        srcWordimage: "http://localhost/arbulanguage.com/filmy/newspaper.png",
-        word: [
-            "http://localhost/arbulanguage.com/voice/bike.mp4"
-        ],
-        story: [
-                'To właśnie <u><b>on</u></b> jest <span class="adannotation" data-annotation="1"><b><u>hi</b></u></span>tem tego sezonu piłkarskiego',
-                'Samiec czyli <u><b>on</u></b> - <span class="adannotation" data-annotation="1"><b><u>hi</b></u></span>popotam',
-                '<u><b>On</b></u> - <span class="adannotation" data-annotation="1"><u><b>Hi</b></u></span>eronim odleciał balonem',
-                'Ma<span class="adannotation" data-annotation="1"><u><b>chi</u></b></span>nę do tortur wymyślił <u><b>on</u></b> - jest <span class="adannotation" data-annotation="1"><u><b>Hi</u></b></span>ndusem',
-                '<u><b>On</u></b> je ciastka <span class="adannotation" data-annotation="1"><u><b>hi</u></b></span>ty'
-        ],
-        desc: "I[hi] - on",
-        sentence1: [
-            "I"
-        ],
-        sentence: [
-            "I",
-            "bought",
-            "milk"
-        ],
-        key: "I",
-        category2: ["osoby"],
-        category3: ["PastSimple", "PresentSimplePodmiot"]
-    },
-                                                {
-        id: [
-            704,
-            120,
-            219
-        ],
-        img: [
-            "http://localhost/arbulanguage.com/img/fiszki1/678a.jpg"
-        ],
-        story: [
-            "Kupił, ale się <u><b>'boł'</u></b> <u><b>t</u></b>ak dużo zapłacić"
-        ],
-        desc: "bought[but, bout] - kupił",
-        sentence2: [
-            "bought"
-        ],
-        sentence: [
-            "I",
-            "bought",
-            "milk"
-        ],
-        key: "bought",
-        category1: "nauka",
-        category2: ["okresleniaMiejsca"]
-    },
-                                                    {
-        id: [
-            705,
             120,
             219
         ],
@@ -160,11 +22,11 @@ fiszki10.push(
         ],
         key: "milk",
         category1: "nauka",
-        category2: ["okresleniaMiejsca"]
+        category2: ["kuchnia", "jedzenie"]
     },
                                                         {
         id: [
-            706,
+            701,
             120,
             220
         ],
@@ -201,7 +63,7 @@ fiszki10.push(
     },
                                                         {
         id: [
-            707,
+            702,
             120,
             220
         ],
@@ -225,7 +87,7 @@ fiszki10.push(
     },
                 {
         id: [
-            708,
+            703,
             121,
             221
         ],
@@ -266,7 +128,7 @@ fiszki10.push(
     },
                                                             {
         id: [
-            709,
+            704,
             121,
             221
         ],
@@ -287,11 +149,11 @@ fiszki10.push(
         ],
         key: "opens",
         category1: "nauka",
-        category2: ["okresleniaMiejsca"]
+        category2: ["czasownik"]
     },
                                                             {
         id: [
-            710,
+            705,
             121,
             221
         ],
@@ -316,11 +178,11 @@ fiszki10.push(
         ],
         key: "window",
         category1: "nauka",
-        category2: ["okresleniaMiejsca"]
+        category2: ["rzecz", "dom"]
     },
                                                                 {
         id: [
-            711,
+            706,
             121,
             222
         ],
@@ -336,11 +198,11 @@ fiszki10.push(
         ],
         key: "window",
         category1: "nauka",
-        category2: ["okresleniaMiejsca"]
+        category2: ["okresleniaIlosci"]
     },
                                                                 {
         id: [
-            712,
+            707,
             121,
             222
         ],
@@ -360,11 +222,11 @@ fiszki10.push(
         ],
         key: "window",
         category1: "nauka",
-        category2: ["okresleniaMiejsca"]
+        category2: ["czas"]
     },
                     {
         id: [
-            713,
+            708,
             122,
             223
         ],
@@ -384,19 +246,19 @@ fiszki10.push(
         ],
         desc: "river[riwer] - rzeka",
         sentence1: [
-            "The river"
+            "The_river"
         ],
         sentence: [
-            "The river",
+            "The_river",
             "flows"
         ],
         key: "river",
-        category2: ["osoby"],
+        category2: ["natura"],
         category3: ["PresentSimple", "PresentSimplePodmiot"]
     },
                                                                     {
         id: [
-            714,
+            709,
             122,
             223
         ],
@@ -411,16 +273,16 @@ fiszki10.push(
             "flows"
         ],
         sentence: [
-            "The river",
+            "The_river",
             "flows"
         ],
         key: "flows",
         category1: "nauka",
-        category2: ["okresleniaMiejsca"]
+        category2: ["czasownik"]
     },
                                                                         {
         id: [
-            715,
+            710,
             122,
             224
         ],
@@ -444,7 +306,7 @@ fiszki10.push(
         category2: ["okresleniaMiejsca"]
     },                                                                    {
         id: [
-            716,
+            711,
             122,
             224
         ],
@@ -469,11 +331,11 @@ fiszki10.push(
         ],
         key: "my",
         category1: "nauka",
-        category2: ["okresleniaMiejsca"]
+        category2: ["zaimkiosobowe"]
     },                                                                    
     {
         id: [
-            717,
+            712,
             122,
             224
         ],
@@ -490,11 +352,11 @@ fiszki10.push(
         ],
         key: "house",
         category1: "nauka",
-        category2: ["okresleniaMiejsca"]
+        category2: ["dom", "rzecz"]
     },
                         {
         id: [
-            718,
+            713,
             123,
             225
         ],
@@ -524,7 +386,7 @@ fiszki10.push(
     },
     {
         id: [
-            719,
+            714,
             123,
             225
         ],
@@ -545,11 +407,11 @@ fiszki10.push(
         ],
         key: "walk",
         category1: "nauka",
-        category2: ["okresleniaMiejsca"]
+        category2: ["czaswonik", "sport"]
     },
         {
         id: [
-            720,
+            715,
             123,
             225
         ],
@@ -570,11 +432,11 @@ fiszki10.push(
         ],
         key: "slowly",
         category1: "nauka",
-        category2: ["okresleniaMiejsca"]
+        category2: ["czas"]
     },
             {
         id: [
-            721,
+            716,
             123,
             226
         ],
@@ -598,7 +460,7 @@ fiszki10.push(
     },
                 {
         id: [
-            722,
+            717,
             123,
             226
         ],
@@ -618,11 +480,11 @@ fiszki10.push(
         ],
         key: "park",
         category1: "nauka",
-        category2: ["okresleniaMiejsca"]
+        category2: ["okresleniaMiejsca", "natura"]
     },
                             {
         id: [
-            723,
+            718,
             124,
             227
         ],
@@ -663,7 +525,7 @@ fiszki10.push(
     },
                     {
         id: [
-            724,
+            719,
             124,
             227
         ],
@@ -684,11 +546,11 @@ fiszki10.push(
         ],
         key: "drinks",
         category1: "nauka",
-        category2: ["okresleniaMiejsca"]
+        category2: ["czasownik"]
     },
                     {
         id: [
-            725,
+            720,
             124,
             227
         ],
@@ -709,11 +571,11 @@ fiszki10.push(
         ],
         key: "water",
         category1: "nauka",
-        category2: ["okresleniaMiejsca"]
+        category2: ["natura"]
     },
                         {
         id: [
-            726,
+            721,
             124,
             228
         ],
@@ -734,11 +596,11 @@ fiszki10.push(
         ],
         key: "after",
         category1: "nauka",
-        category2: ["okresleniaMiejsca"]
+        category2: ["czas"]
     },
                         {
         id: [
-            727,
+            722,
             124,
             228
         ],
@@ -767,11 +629,11 @@ fiszki10.push(
         ],
         key: "his",
         category1: "nauka",
-        category2: ["okresleniaMiejsca"]
+        category2: ["zaimkiosobowe", "osoby"]
     },
                         {
         id: [
-            728,
+            723,
             124,
             228
         ],
@@ -792,11 +654,11 @@ fiszki10.push(
         ],
         key: "run",
         category1: "nauka",
-        category2: ["okresleniaMiejsca"]
+        category2: ["czasownik", "sport"]
     },
                                 {
         id: [
-            729,
+            724,
             125,
             229
         ],
@@ -828,12 +690,12 @@ fiszki10.push(
             "cooks"
         ],
         key: "my",
-        category2: ["osoby"],
+        category2: ["osoby", "zaimkiosobowe"],
         category3: ["PresentSimple", "PresentSimplePodmiot"]
     },
                             {
         id: [
-            730,
+            725,
             125,
             229
         ],
@@ -854,11 +716,11 @@ fiszki10.push(
         ],
         key: "aunt",
         category1: "nauka",
-        category2: ["okresleniaMiejsca"]
+        category2: ["osoby"]
     },
                             {
         id: [
-            731,
+            726,
             125,
             229
         ],
@@ -879,11 +741,11 @@ fiszki10.push(
         ],
         key: "cooks",
         category1: "nauka",
-        category2: ["okresleniaMiejsca"]
+        category2: ["czasownik", "kuchnia", "dom"]
     },
                             {
         id: [
-            732,
+            727,
             125,
             230
         ],
@@ -900,11 +762,11 @@ fiszki10.push(
         ],
         key: "very",
         category1: "nauka",
-        category2: ["okresleniaMiejsca"]
+        category2: ["okresleniaIlosci"]
     },
                                 {
         id: [
-            733,
+            728,
             125,
             230
         ],
@@ -925,11 +787,11 @@ fiszki10.push(
         ],
         key: "tasty",
         category1: "nauka",
-        category2: ["okresleniaMiejsca"]
+        category2: ["jedzenie"]
     },                            
     {
         id: [
-            734,
+            729,
             125,
             230
         ],
@@ -950,11 +812,11 @@ fiszki10.push(
         ],
         key: "soup",
         category1: "nauka",
-        category2: ["okresleniaMiejsca"]
+        category2: ["kuchnia", "dom", "jedzenie"]
     },
                                     {
         id: [
-            735,
+            730,
             126,
             231
         ],
@@ -989,12 +851,12 @@ fiszki10.push(
             "hides"
         ],
         key: "cat",
-        category2: ["osoby"],
+        category2: ["zwierzeta"],
         category3: ["PresentSimple", "PresentSimplePodmiot"]
     },
     {
         id: [
-            736,
+            731,
             126,
             231
         ],
@@ -1014,11 +876,11 @@ fiszki10.push(
         ],
         key: "hides",
         category1: "nauka",
-        category2: ["okresleniaMiejsca"]
+        category2: ["czasownik"]
     },
         {
         id: [
-            737,
+            732,
             126,
             232
         ],
@@ -1044,7 +906,7 @@ fiszki10.push(
     },    
     {
         id: [
-            738,
+            733,
             126,
             232
         ],
@@ -1064,11 +926,11 @@ fiszki10.push(
         ],
         key: "table",
         category1: "nauka",
-        category2: ["okresleniaMiejsca"]
+        category2: ["rzecz"]
     },
                                         {
         id: [
-            739,
+            734,
             127,
             233
         ],
@@ -1109,7 +971,7 @@ fiszki10.push(
     },
     {
         id: [
-            740,
+            735,
             127,
             233
         ],
@@ -1130,11 +992,11 @@ fiszki10.push(
         ],
         key: "close",
         category1: "nauka",
-        category2: ["okresleniaMiejsca"]
+        category2: ["czasownik"]
     },
     {
         id: [
-            741,
+            736,
             127,
             233
         ],
@@ -1155,11 +1017,11 @@ fiszki10.push(
         ],
         key: "door",
         category1: "nauka",
-        category2: ["okresleniaMiejsca"]
+        category2: ["rzecz", "dom"]
     },
         {
         id: [
-            742,
+            737,
             127,
             234
         ],
@@ -1179,11 +1041,11 @@ fiszki10.push(
         ],
         key: "before",
         category1: "nauka",
-        category2: ["okresleniaMiejsca"]
+        category2: ["czas"]
     },
         {
         id: [
-            743,
+            738,
             127,
             234
         ],
@@ -1203,11 +1065,11 @@ fiszki10.push(
         ],
         key: "sleeping",
         category1: "nauka",
-        category2: ["okresleniaMiejsca"]
+        category2: ["czasownik"]
     },
                                             {
         id: [
-            744,
+            739,
             128,
             235
         ],
@@ -1248,7 +1110,7 @@ fiszki10.push(
     },
             {
         id: [
-            745,
+            740,
             128,
             235
         ],
@@ -1269,11 +1131,11 @@ fiszki10.push(
         ],
         key: "plant",
         category1: "nauka",
-        category2: ["okresleniaMiejsca"]
+        category2: ["natura", "czasownik"]
     },
                 {
         id: [
-            746,
+            741,
             128,
             235
         ],
@@ -1294,11 +1156,11 @@ fiszki10.push(
         ],
         key: "flowers",
         category1: "nauka",
-        category2: ["okresleniaMiejsca"]
+        category2: ["natura"]
     },
                     {
         id: [
-            747,
+            742,
             128,
             236
         ],
@@ -1322,7 +1184,7 @@ fiszki10.push(
     },
                     {
         id: [
-            748,
+            743,
             128,
             236
         ],
@@ -1342,11 +1204,11 @@ fiszki10.push(
         ],
         key: "garden",
         category1: "nauka",
-        category2: ["okresleniaMiejsca"]
+        category2: ["natura"]
     },
                                                 {
         id: [
-            749,
+            744,
             129,
             237
         ],
@@ -1376,12 +1238,12 @@ fiszki10.push(
             "now"
         ],
         key: "clock",
-        category2: ["osoby"],
+        category2: ["czas"],
         category3: ["PresentSimple", "PresentSimplePodmiot"]
     },
                         {
         id: [
-            750,
+            745,
             129,
             237
         ],
@@ -1404,11 +1266,11 @@ fiszki10.push(
         ],
         key: "shows",
         category1: "nauka",
-        category2: ["okresleniaMiejsca"]
+        category2: ["czasownik"]
     },
                             {
         id: [
-            751,
+            746,
             129,
             237
         ],
@@ -1431,11 +1293,11 @@ fiszki10.push(
         ],
         key: "ten",
         category1: "nauka",
-        category2: ["okresleniaMiejsca"]
+        category2: ["okresleniaIlosci"]
     },
                                 {
         id: [
-            752,
+            747,
             129,
             237
         ],
@@ -1458,11 +1320,11 @@ fiszki10.push(
         ],
         key: "o'clock",
         category1: "nauka",
-        category2: ["okresleniaMiejsca"]
+        category2: ["czas"]
     },
                                 {
         id: [
-            753,
+            748,
             129,
             237
         ],
@@ -1485,11 +1347,11 @@ fiszki10.push(
         ],
         key: "now",
         category1: "nauka",
-        category2: ["okresleniaMiejsca"]
+        category2: ["czas"]
     },
                                                 {
         id: [
-            754,
+            749,
             130,
             238
         ],
@@ -1530,7 +1392,7 @@ fiszki10.push(
     },
                                     {
         id: [
-            755,
+            750,
             130,
             238
         ],
@@ -1551,11 +1413,11 @@ fiszki10.push(
         ],
         key: "draw",
         category1: "nauka",
-        category2: ["okresleniaMiejsca"]
+        category2: ["czasownik"]
     },
                                     {
         id: [
-            756,
+            751,
             130,
             238
         ],
@@ -1576,11 +1438,11 @@ fiszki10.push(
         ],
         key: "animals",
         category1: "nauka",
-        category2: ["okresleniaMiejsca"]
+        category2: ["zwierzeta"]
     },
                                         {
         id: [
-            757,
+            752,
             130,
             239
         ],
@@ -1604,7 +1466,7 @@ fiszki10.push(
     },
                                         {
         id: [
-            758,
+            753,
             130,
             239
         ],
@@ -1624,11 +1486,11 @@ fiszki10.push(
         ],
         key: "paper",
         category1: "nauka",
-        category2: ["okresleniaMiejsca"]
+        category2: ["rzecz"]
     },
         {
         id: [
-            759,
+            754,
             131,
             240
         ],
@@ -1661,7 +1523,7 @@ fiszki10.push(
     },
                                             {
         id: [
-            760,
+            755,
             131,
             239
         ],
@@ -1671,9 +1533,9 @@ fiszki10.push(
         story: [
             "KOGNATY PARK (PL) - PARK (ENG)"
         ],
-        desc: "paper[pejper] - papier",
+        desc: "climbs[] - papier",
         sentence2: [
-            "the paper"
+            "climbs"
         ],
         sentence: [
             "He",
@@ -1682,11 +1544,11 @@ fiszki10.push(
         ],
         key: "climbs",
         category1: "nauka",
-        category2: ["okresleniaMiejsca"]
+        category2: ["czasownik"]
     },
                                                 {
         id: [
-            761,
+            756,
             131,
             239
         ],
@@ -1707,11 +1569,11 @@ fiszki10.push(
         ],
         key: "tree",
         category1: "nauka",
-        category2: ["okresleniaMiejsca"]
+        category2: ["natura"]
     },
                                                     {
         id: [
-            762,
+            757,
             131,
             240
         ],
@@ -1731,11 +1593,11 @@ fiszki10.push(
         ],
         key: "very",
         category1: "nauka",
-        category2: ["okresleniaMiejsca"]
+        category2: [""]
     },
                                                         {
         id: [
-            763,
+            758,
             131,
             240
         ],
@@ -1755,11 +1617,11 @@ fiszki10.push(
         ],
         key: "fast",
         category1: "nauka",
-        category2: ["okresleniaMiejsca"]
+        category2: ["czas"]
     },
         {
         id: [
-            764,
+            759,
             132,
             241
         ],
@@ -1800,7 +1662,7 @@ fiszki10.push(
     },
                                                             {
         id: [
-            765,
+            760,
             132,
             241
         ],
@@ -1821,11 +1683,11 @@ fiszki10.push(
         ],
         key: "eat",
         category1: "nauka",
-        category2: ["okresleniaMiejsca"]
+        category2: ["czasownik", "jedzenie"]
     },
                                                                 {
         id: [
-            766,
+            761,
             132,
             241
         ],
@@ -1846,11 +1708,11 @@ fiszki10.push(
         ],
         key: "pizza",
         category1: "nauka",
-        category2: ["okresleniaMiejsca"]
+        category2: ["jedzenie"]
     },
                                                                     {
         id: [
-            767,
+            762,
             132,
             242
         ],
@@ -1871,11 +1733,11 @@ fiszki10.push(
         ],
         key: "with",
         category1: "nauka",
-        category2: ["okresleniaMiejsca"]
+        category2: ["spojniki"]
     },
                                                                         {
         id: [
-            768,
+            763,
             132,
             242
         ],
@@ -1896,11 +1758,11 @@ fiszki10.push(
         ],
         key: "our",
         category1: "nauka",
-        category2: ["okresleniaMiejsca"]
+        category2: ["zaimkiosobowe"]
     },
                                                                         {
         id: [
-            769,
+            764,
             132,
             242
         ],
@@ -1921,11 +1783,11 @@ fiszki10.push(
         ],
         key: "friends",
         category1: "nauka",
-        category2: ["okresleniaMiejsca"]
+        category2: ["osoby"]
     },
             {
         id: [
-            770,
+            765,
             133,
             243
         ],
@@ -1956,12 +1818,12 @@ fiszki10.push(
             "rings"
         ],
         key: "phone",
-        category2: ["osoby"],
+        category2: ["rzecz"],
         category3: ["PresentSimple", "PresentSimplePodmiot"]
     },
                                                                             {
         id: [
-            771,
+            766,
             133,
             243
         ],
@@ -1981,11 +1843,11 @@ fiszki10.push(
         ],
         key: "rings",
         category1: "nauka",
-        category2: ["okresleniaMiejsca"]
+        category2: ["czasownik"]
     },
                                                                                 {
         id: [
-            772,
+            767,
             133,
             244
         ],
@@ -2005,11 +1867,11 @@ fiszki10.push(
         ],
         key: "in",
         category1: "nauka",
-        category2: ["okresleniaMiejsca"]
+        category2: ["okresleniaPrzestrzeni"]
     },
                                                                                 {
         id: [
-            773,
+            768,
             133,
             244
         ],
@@ -2033,7 +1895,7 @@ fiszki10.push(
     },
                 {
         id: [
-            774,
+            769,
             134,
             245
         ],
@@ -2074,7 +1936,7 @@ fiszki10.push(
     },
                                                                                     {
         id: [
-            775,
+            770,
             134,
             245
         ],
@@ -2095,11 +1957,11 @@ fiszki10.push(
         ],
         key: "cleans",
         category1: "nauka",
-        category2: ["okresleniaMiejsca"]
+        category2: ["czasownik"]
     },
                                                                                         {
         id: [
-            776,
+            771,
             134,
             245
         ],
@@ -2120,11 +1982,11 @@ fiszki10.push(
         ],
         key: "floor",
         category1: "nauka",
-        category2: ["okresleniaMiejsca"]
+        category2: ["okresleniaMiejsca", "rzecz"]
     },
                                                                                             {
         id: [
-            777,
+            772,
             134,
             245
         ],
@@ -2144,11 +2006,11 @@ fiszki10.push(
         ],
         key: "every",
         category1: "nauka",
-        category2: ["okresleniaMiejsca"]
+        category2: ["okresleniaIlosci"]
     },
                                                                                                 {
         id: [
-            778,
+            773,
             134,
             245
         ],
@@ -2168,6 +2030,6 @@ fiszki10.push(
         ],
         key: "day",
         category1: "nauka",
-        category2: ["okresleniaMiejsca"]
+        category2: ["czas"]
     }
     );

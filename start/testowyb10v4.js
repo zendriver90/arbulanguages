@@ -1,104 +1,9 @@
 fiszki10.push(
-                                        {
-        id: [
-            300,
-            46,
-            87
-        ],
-        img: "https://www.arbulang.com/img/fiszki1/300a.jpg",
-        story: "Ten <u><b>film</u></b> <u><b>mówi</u></b> o perypetiach losu",
-        desc: "movie[muwi] - film",
-        sentence1: [
-            "movie"
-        ],
-                    sentence1b: [
-            "film"
-        ],
-                                            sentence1c: [
-            "mówi"
-        ],
-        sentence: [
-            "The",
-            "movie",
-            "has"
-        ],
-        key: "movie",
-        category1: "nauka",
-        category2: ["zdarzenia"]
-    },
-        {
-        id: [
-                301,
-                46,
-                87
-        ],
-                img: [
-                        "https://www.arbulang.com/img/fiszki1/2a.jpg",
-                        "https://www.arbulang.com/img/fiszki1/2b.jpg",
-                        "https://www.arbulang.com/img/fiszki1/2c.jpg",
-                        "https://www.arbulang.com/img/fiszki1/2d.jpg",
-                        "https://www.arbulang.com/img/fiszki1/2e.jpg"
-                ],
-                word: [
-                        "https://www.arbulang.com/src/has.wav"
-                ],
-                story: [
-                        'W niemieckim mieście <span class="adannotation" data-annotation="1"><u><b>Hess</u></b></span>en Jurek <u><b>ma</u></b> bilet na mecze jego drużyny',
-                        '<span class="adannotation" data-annotation="1"><u><b>H</u></b></span>ipopotam występuje w cyrku na <span class="adannotation" data-annotation="2"><u><b>es</u></b></span>tradzie, <u><b>ma</u></b> duże umiejętności',
-                        'Naukowiec nagle się zapomniał i zapytał: <span class="adannotation" data-annotation="1"><u><b>he</u></b></span>?, a wtedy jego kolega <u><b>ma</u></b> niezłą zabawę, <span class="adannotation" data-annotation="2"><u><b>s</u></b></span>prawa oczywista..',
-                        '<span class="adannotation" data-annotation="1"><u><b>He</u></b></span>gemonia konsumpcjonizmu doprowadziła do tego, że "ON"-dyrektor ma problemy, bo nikt nie chce chodzić na <span class="adannotation" data-annotation="2"><u><b>s</u></b></span>pektakle teatralne',
-                        'Moja koleżanka <u><b>ma</u></b> nowy klarnet z drzewa <span class="adannotation" data-annotation="1"><u><b>he</u></b></span>banowego. <span class="adannotation" data-annotation="2"><u><b>S</u></b></span>....uper sprawa'
-                ],
-                desc: "has[hes]/have[hew] - mieć(on/ona/oni)/mieć(ja/ty)",
-                sentence1: [
-                        "has"
-                ],
-                                                            sentence1b: [
-            "funkcja_pomocnicza"
-        ],
-                                                    sentence1c: [
-            "hes"
-        ],
-                sentence: [
-                        "The",
-                        "movie",
-                        "has"
-                ],
-                key: "has",
-                category1: "nauka",
-                category2: ["czasownik"]
-        },
-        {
-        id: [
-                302,
-                46,
-                87
-        ],
-                img: "https://www.arbulang.com/img/fiszki1/302a.jpg",
-                story: "<u><b>Dzast</u></b>in Bieber <u><b>poprostu</u></b> jest najlepszy",
-                desc: "just[dzast] - poprostu",
-                sentence1: [
-                        "just"
-                ],
-                            sentence2b: [
-            "właśnie"
-        ],
-                                                            sentence2c: [
-            "dżast"
-        ],
-                sentence: [
-                        "just",
-                        "started"
-                ],
-                key: "just",
-                category1: "nauka",
-                category2: ["czas", "ilość"]
-        },
 {
 id: [
-        303,
+        300,
         46,
-        87
+        88
 ],
         img: "https://www.arbulang.com/img/fiszki1/303a.jpg",
         story: "Samochód dostawczy <u><b>Star</u></b> właśnie wystartował, j<u><b>ed</u></b>zie dozwoloną prędkością",
@@ -122,9 +27,9 @@ id: [
 },
 {
 id: [
-        304,
+        301,
         47,
-        88
+        89
 ],
         img: "https://www.arbulang.com/img/fiszki1/95aa.jpg",
         translate: "Ona przeczytała tę książkę dwa razy",
@@ -151,8 +56,7 @@ id: [
         ],
         sentence: [
                 "She",
-                "has",
-                "read",
+                "has_read",
                 "this",
                 "book",
                 "twice"
@@ -164,32 +68,18 @@ id: [
 },
 {
 id: [
-        305,
+        302,
         47,
         88
 ],
         img: [
-                "https://www.arbulang.com/img/fiszki1/2a.jpg",
-                "https://www.arbulang.com/img/fiszki1/2b.jpg",
-                "https://www.arbulang.com/img/fiszki1/2c.jpg",
-                "https://www.arbulang.com/img/fiszki1/2d.jpg",
-                "https://www.arbulang.com/img/fiszki1/2e.jpg"
+                "https://www.arbulang.com/img/fiszki1/2a.jpg"
         ],
-                img: "https://www.arbulang.com/img/fiszki1/125a.jpg",
         word: [
                 "https://www.arbulang.com/src/has.wav"
         ],
         story: [
-                'W niemieckim mieście <span class="adannotation" data-annotation="1"><u><b>Hess</u></b></span>en Jurek <u><b>ma</u></b> bilet na mecze jego drużyny\n\
-        2) Floryda to stan w USA, który powinien być czytany Flo<b><u>rid</b></u>a',
-                '<span class="adannotation" data-annotation="1"><u><b>H</u></b></span>ipopotam występuje w cyrku na <span class="adannotation" data-annotation="2"><u><b>es</u></b></span>tradzie, <u><b>ma</u></b> duże umiejętności\n\
-        2) Floryda to stan w USA, który powinien być czytany Flo<b><u>rid</b></u>a',
-                'Naukowiec nagle się zapomniał i zapytał: <span class="adannotation" data-annotation="1"><u><b>he</u></b></span>?, a wtedy jego kolega <u><b>ma</u></b> niezłą zabawę, <span class="adannotation" data-annotation="2"><u><b>s</u></b></span>prawa oczywista..\n\
-        2) Floryda to stan w USA, który powinien być czytany Flo<b><u>rid</b></u>a',
-                '<span class="adannotation" data-annotation="1"><u><b>He</u></b></span>gemonia konsumpcjonizmu doprowadziła do tego, że "ON"-dyrektor ma problemy, bo nikt nie chce chodzić na <span class="adannotation" data-annotation="2"><u><b>s</u></b></span>pektakle teatralne\n\
-        2) Floryda to stan w USA, który powinien być czytany Flo<b><u>rid</b></u>a',
-                'Moja koleżanka <u><b>ma</u></b> nowy klarnet z drzewa <span class="adannotation" data-annotation="1"><u><b>he</u></b></span>banowego. <span class="adannotation" data-annotation="2"><u><b>S</u></b></span>....uper sprawa\n\
-        2) Floryda to stan w USA, który powinien być czytany Flo<b><u>rid</b></u>a'
+                'Moja koleżanka ma nowy klarnet z drzewa <span class="adannotation" data-annotation="1"><u><b>he</u></b></span>banowego i <u><bprzeczytała</u></b> w gazecie że są przesłuchania klarnecistów na Florydzie. To stan w USA, który powinien być czytany Flo<b><u>rid</b></u>a. <span class="adannotation" data-annotation="2"><u><b>S</u></b></span>....uper sprawa',
         ],
         desc: "has read[hes rid]/have[hew] - przeczytała",
         sentence1: [
@@ -203,8 +93,7 @@ id: [
         ],
         sentence: [
                 "She",
-                "has",
-                "read",
+                "has_read",
                 "this",
                 "book",
                 "twice"
@@ -215,7 +104,7 @@ id: [
 },
 {
 id: [
-        307,
+        303,
         47,
         88
 ],
@@ -244,9 +133,8 @@ id: [
             "dis"
         ],
         sentence: [
-                "The",
-                "has",
-                "read",
+                "She",
+                "has_read",
                 "this",
                 "book",
                 "twice"
@@ -257,7 +145,7 @@ id: [
 },
 {
 id: [
-        308,
+        304,
         47,
         88
 ],
@@ -274,9 +162,8 @@ id: [
             "buk"
         ],
         sentence: [
-                "The",
-                "has",
-                "read",
+                "She",
+                "has_read",
                 "this",
                 "book",
                 "twice"
@@ -287,7 +174,7 @@ id: [
 },
 {
 id: [
-        309,
+        305,
         47,
         88
 ],
@@ -304,9 +191,8 @@ id: [
             "tłajs"
         ],
         sentence: [
-                "The",
-                "has",
-                "read",
+                "She",
+                "has_read",
                 "this",
                 "book",
                 "twice"
@@ -317,7 +203,7 @@ id: [
 },
 {
 id: [
-        310,
+        306,
         48,
         89
 ],
@@ -357,15 +243,15 @@ id: [
 },
 {
 id: [
-        311,
+        307,
         48,
         89
 ],
         img: "https://www.arbulang.com/img/fiszki1/122a.jpg",
-                img: "https://www.arbulang.com/img/fiszki1/282a.jpg",
-        story: "1) <b><u>Mam</b></u> fajne spodnie, ale puścił sz<b><u>ew</b></u>, <b><u>ch</b></u>yba go zaceruje\n\
-    2) Producent odwiedził naukowców z proszkiem <u><b>wizi</u></b>r, aby go przetestowali. Jeden naukowiec ma <u><b>ti</u></b>ki i myli się przy badaniach. <u><b>Id</u></b>zie mu słabo",
-        desc: "have visitid[hew wizitid] - odwiedziliśmy",
+        story: [
+                "Szefowa <u><b>odwiedziła</u></b> naukowców w mieście Hessen z proszkiem <u><b>wizi</u></b>r, aby go przetestowali. Jeden naukowiec ma <u><b>ti</u></b>ki i myli się przy badaniach. <u><b>Id</u></b>zie mu słabo"
+            ],
+            desc: "have visitid[hew wizitid] - odwiedziliśmy (my), odwiedziłem/odwiedziłam",
         sentence1: [
                 "have_visited"
         ],
@@ -387,7 +273,7 @@ id: [
 },
 {
 id: [
-        313,
+        308,
         48,
         89
 ],
@@ -415,7 +301,7 @@ id: [
 },
 {
 id: [
-        314,
+        309,
         48,
         89
 ],
@@ -423,7 +309,7 @@ id: [
         story: "Sa<u><b>me</u></b> <u><b>ni</u></b>tki odstają w tych <u><b>s</u></b>podniach. <u><b>Wiele razy</u></b> kupiłem <u><b>ta</u></b>kie spodnie. Za<u><b>jm</u></b>ują mi całą szafę",
         desc: "many times[meni tajms] - wiele razy",
         sentence2: [
-                "many times"
+                "many_times"
         ],
                 sentence2b: [
             "wiele_razy"
@@ -440,7 +326,7 @@ id: [
 },
 {
 id: [
-        315,
+        310,
         49,
         90
 ],
@@ -491,7 +377,7 @@ id: [
 },
 {
 id: [
-        316,
+        311,
         49,
         90
 ],
@@ -520,7 +406,7 @@ id: [
 },
 {
 id: [
-        317,
+        312,
         49,
         90
 ],
@@ -549,7 +435,7 @@ id: [
 },
 {
 id: [
-        318,
+        313,
         49,
         90
 ],
@@ -579,7 +465,7 @@ id: [
 },
 {
 id: [
-        319,
+        314,
         49,
         91
 ],
@@ -605,7 +491,7 @@ id: [
 },
 {
 id: [
-        320,
+        315,
         49,
         91
 ],
@@ -631,7 +517,7 @@ id: [
 },
 {
 id: [
-        321,
+        316,
         50,
         92
 ],
@@ -670,7 +556,7 @@ id: [
 },
 {
 id: [
-        322,
+        317,
         50,
         92
 ],
@@ -698,7 +584,7 @@ id: [
 },
 {
 id: [
-        323,
+        318,
         50,
         92
 ],
@@ -725,7 +611,7 @@ id: [
 },
 {
 id: [
-        324,
+        319,
         50,
         93
 ],
@@ -755,7 +641,7 @@ id: [
 },
 {
 id: [
-        325,
+        320,
         50,
         93
 ],
@@ -782,7 +668,7 @@ id: [
 },
 {
 id: [
-        326,
+        321,
         50,
         93
 ],
@@ -809,7 +695,7 @@ id: [
 },
 {
 id: [
-        327,
+        322,
         51,
         94
 ],
@@ -867,7 +753,7 @@ id: [
 },
 {
 id: [
-        328,
+        323,
         51,
         94
 ],
@@ -913,7 +799,7 @@ id: [
 },
 {
 id: [
-        329,
+        324,
         51,
         94
 ],
@@ -941,7 +827,7 @@ id: [
 },
 {
 id: [
-        330,
+        325,
         51,
         94
 ],
@@ -969,7 +855,7 @@ id: [
 },
 {
 id: [
-        331,
+        326,
         51,
         95
 ],
@@ -995,7 +881,7 @@ id: [
 },
 {
 id: [
-        332,
+        327,
         51,
         95
 ],
@@ -1021,7 +907,7 @@ id: [
 },
 {
 id: [
-        333,
+        328,
         52,
         96
 ],
@@ -1077,7 +963,7 @@ id: [
 },
 {
 id: [
-        334,
+        329,
         52,
         96
 ],
@@ -1104,7 +990,7 @@ id: [
 },
 {
 id: [
-        335,
+        330,
         52,
         97
 ],
@@ -1131,7 +1017,7 @@ id: [
 },
 {
 id: [
-        336,
+        331,
         52,
         97
 ],
@@ -1158,7 +1044,7 @@ id: [
 },
 {
 id: [
-        337,
+        332,
         52,
         97
 ],
@@ -1185,7 +1071,7 @@ id: [
 },
 {
 id: [
-        338,
+        333,
         53,
         97
 ],
@@ -1222,7 +1108,7 @@ id: [
 },
 {
 id: [
-        339,
+        334,
         53,
         97
 ],
@@ -1249,7 +1135,7 @@ id: [
 },
 {
 id: [
-        340,
+        335,
         53,
         98
 ],
@@ -1275,7 +1161,7 @@ id: [
 },
 {
 id: [
-        341,
+        336,
         53,
         98
 ],
@@ -1301,7 +1187,7 @@ id: [
 },
 {
 id: [
-        342,
+        337,
         54,
         99
 ],
@@ -1350,7 +1236,7 @@ id: [
 },
 {
 id: [
-        343,
+        338,
         54,
         99
 ],
@@ -1377,7 +1263,7 @@ id: [
 },
 {
 id: [
-        344,
+        339,
         54,
         100
 ],
@@ -1405,7 +1291,7 @@ id: [
 },
 {
 id: [
-        345,
+        340,
         54,
         100
 ],
@@ -1433,7 +1319,7 @@ id: [
 },
 {
 id: [
-        346,
+        341,
         54,
         100
 ],
@@ -1476,7 +1362,7 @@ id: [
 },
 {
 id: [
-        347,
+        342,
         54,
         100
 ],
@@ -1504,7 +1390,7 @@ id: [
 },
 {
 id: [
-        348,
+        343,
         55,
         101
 ],
@@ -1554,7 +1440,7 @@ id: [
 },
 {
 id: [
-        349,
+        344,
         55,
         101
 ],
@@ -1582,7 +1468,7 @@ id: [
 },
 {
 id: [
-        350,
+        345,
         55,
         101
 ],
@@ -1609,7 +1495,7 @@ id: [
 },
 {
 id: [
-        351,
+        346,
         55,
         102
 ],
@@ -1643,7 +1529,7 @@ id: [
 },
 {
 id: [
-        352,
+        347,
         55,
         102
 ],
@@ -1683,7 +1569,7 @@ id: [
 },
 {
 id: [
-        353,
+        348,
         55,
         102
 ],
@@ -1717,7 +1603,7 @@ id: [
 },
 {
 id: [
-        354,
+        349,
         55,
         102
 ],
@@ -1749,7 +1635,7 @@ id: [
 },
 {
 id: [
-        355,
+        350,
         56,
         103
 ],
@@ -1799,7 +1685,7 @@ id: [
 },
 {
 id: [
-        356,
+        351,
         56,
         103
 ],
@@ -1827,7 +1713,7 @@ id: [
 },
 {
 id: [
-        357,
+        352,
         56,
         103
 ],
@@ -1854,7 +1740,7 @@ id: [
 },
 {
 id: [
-        358,
+        353,
         56,
         104
 ],
@@ -1887,7 +1773,7 @@ id: [
 },
 {
 id: [
-        359,
+        354,
         56,
         104
 ],
@@ -1918,7 +1804,7 @@ id: [
 },
 {
 id: [
-        360,
+        355,
         56,
         104
 ],
@@ -1945,7 +1831,7 @@ id: [
 },
 {
 id: [
-        361,
+        356,
         57,
         105
 ],
@@ -1996,7 +1882,7 @@ id: [
 },
 {
 id: [
-        362,
+        357,
         57,
         105
 ],
@@ -2025,7 +1911,7 @@ id: [
 },
 {
 id: [
-        363,
+        358,
         57,
         105
 ],
@@ -2053,7 +1939,7 @@ id: [
 },
 {
 id: [
-        364,
+        359,
         57,
         105
 ],
@@ -2085,7 +1971,7 @@ id: [
 },
 {
 id: [
-        365,
+        360,
         57,
         106
 ],
@@ -2116,7 +2002,7 @@ id: [
 },
 {
 id: [
-        366,
+        361,
         57,
         106
 ],
@@ -2155,7 +2041,7 @@ id: [
 },
 {
 id: [
-        367,
+        362,
         57,
         106
 ],
@@ -2194,7 +2080,7 @@ id: [
 },
 {
 id: [
-        368,
+        363,
         58,
         106
 ],
@@ -2246,7 +2132,7 @@ id: [
 },
 {
 id: [
-        369,
+        364,
         58,
         106
 ],
@@ -2276,7 +2162,7 @@ id: [
 },
 {
 id: [
-        370,
+        365,
         58,
         106
 ],
@@ -2305,7 +2191,7 @@ id: [
 },
 {
 id: [
-        371,
+        366,
         58,
         106
 ],
@@ -2338,7 +2224,7 @@ id: [
 },
 {
 id: [
-        372,
+        367,
         58,
         106
 ],
@@ -2365,11 +2251,11 @@ id: [
         ],
         key: "books",
         category1: "nauka",
-        category2: ["czas"]
+        category2: ["rzeczy"]
 },
 {
 id: [
-        373,
+        368,
         59,
         107
 ],
@@ -2419,7 +2305,7 @@ id: [
 },
 {
 id: [
-        374,
+        369,
         59,
         107
 ],
@@ -2443,12 +2329,12 @@ id: [
         ],
         key: "runs",
         category1: "nauka",
-        category2: ["osoby"],
+        category2: ["czasownik"],
         category3: ["PresentSimple", "PresentSimpleCzasownik"]
 },
 {
 id: [
-        375,
+        370,
         59,
         107
 ],
@@ -2459,7 +2345,7 @@ id: [
                 "in_the_park"
         ],
                                                                                                                         sentence1b: [
-            "w parku"
+            "w_parku"
         ],
                             sentence1c: [
             "in_de_park"
@@ -2472,11 +2358,11 @@ id: [
         ],
         key: "in the park",
         category1: "nauka",
-        category2: ["czasownik"]
+        category2: ["okresleniaMiejsca"]
 },
 {
 id: [
-        376,
+        371,
         59,
         107
 ],
@@ -2504,11 +2390,11 @@ id: [
         ],
         key: "daily",
         category1: "nauka",
-        category2: ["okresleniaMiejsca"]
+        category2: ["czas"]
 },
 {
 id: [
-        377,
+        372,
         60,
         108
 ],
@@ -2557,7 +2443,7 @@ id: [
 },
 {
 id: [
-        378,
+        373,
         60,
         108
 ],
@@ -2585,7 +2471,7 @@ id: [
 },
 {
 id: [
-        379,
+        374,
         60,
         108
 ],
@@ -2612,7 +2498,7 @@ id: [
 },
 {
 id: [
-        380,
+        375,
         60,
         109
 ],
@@ -2641,7 +2527,7 @@ id: [
 },
 {
 id: [
-        381,
+        376,
         61,
         110
 ],
@@ -2687,7 +2573,7 @@ id: [
 },
 {
 id: [
-        382,
+        377,
         61,
         110
 ],
@@ -2718,7 +2604,7 @@ id: [
 },
 {
 id: [
-        383,
+        378,
         61,
         110
 ],
@@ -2749,7 +2635,7 @@ id: [
 },
 {
 id: [
-        384,
+        379,
         61,
         111
 ],
@@ -2779,7 +2665,7 @@ id: [
 },
 {
 id: [
-        385,
+        380,
         61,
         112
 ],
@@ -2809,7 +2695,7 @@ id: [
 },
 {
 id: [
-        386,
+        381,
         62,
         113
 ],
@@ -2852,7 +2738,7 @@ id: [
 },
 {
 id: [
-        387,
+        382,
         62,
         113
 ],
@@ -2884,7 +2770,7 @@ id: [
 },
 {
 id: [
-        388,
+        383,
         62,
         113
 ],
@@ -2924,7 +2810,7 @@ id: [
 },
 {
 id: [
-        389,
+        384,
         62,
         113
 ],
@@ -2956,7 +2842,7 @@ id: [
 },
 {
 id: [
-        390,
+        385,
         62,
         114
 ],
@@ -2986,7 +2872,7 @@ id: [
 },
 {
 id: [
-        391,
+        386,
         62,
         114
 ],
@@ -3012,11 +2898,11 @@ id: [
         ],
         key: "sunday",
         category1: "nauka",
-        category2: ["okresleniaMiejsca"]
+        category2: ["czas"]
 },
 {
 id: [
-        392,
+        387,
         63,
         115
 ],
@@ -3066,7 +2952,7 @@ id: [
 },
 {
 id: [
-        393,
+        388,
         63,
         115
 ],
@@ -3099,7 +2985,7 @@ id: [
 },
 {
 id: [
-        394,
+        389,
         63,
         115
 ],
@@ -3144,7 +3030,7 @@ id: [
 },
 {
 id: [
-        395,
+        390,
         63,
         115
 ],
@@ -3177,7 +3063,7 @@ id: [
 },
 {
 id: [
-        396,
+        391,
         63,
         116
 ],
@@ -3210,7 +3096,7 @@ id: [
 },
 {
 id: [
-        397,
+        392,
         64,
         117
 ],
@@ -3260,7 +3146,7 @@ id: [
 },
 {
 id: [
-        398,
+        393,
         64,
         117
 ],
@@ -3288,7 +3174,7 @@ id: [
 },
 {
 id: [
-        399,
+        394,
         64,
         117
 ],
@@ -3317,5 +3203,192 @@ id: [
         key: "two",
         category1: "nauka",
         category2: ["okresleniaMiejsca"]
-}
+},
+{
+id: [
+        395,
+        64,
+        117
+],
+        img: [
+            "https://www.arbulang.com/img/fiszki1/28aa.jpg",
+            "https://www.arbulang.com/img/fiszki1/28bb.jpg",
+            "https://www.arbulang.com/img/fiszki1/28cc.jpg",
+            "https://www.arbulang.com/img/fiszki1/28dd.jpg",
+            "https://www.arbulang.com/img/fiszki1/28ee.jpg"
+        ],
+        story: [
+            "Na mojej łodzi <u><b>kat</u></b>amaran <u><b>kot</u></b> pomaga mi wiosłować",
+            "<u><b>Kat</u></b>arzyna idzie na spacer z <u><b>kotem</u></b>",
+            "W państwie <u><b>Kat</u></b>ar, <u><b>kot</u></b> ma szczególne uznanie wśród ludzi",
+            "Ten <u><b>kot</u></b> to <u><b>kat</u></b>astrofa",
+            "W <u><b>kat</u></b>egori zwierząt moja dziewczyna lubi najbardziej <u><b>koty</u></b>"
+        ],
+        desc: "cats[kats] - cat + s (liczba mnoga) = koty",
+        sentence1: [
+                "cats"
+        ],
+                                                                                                        sentence1b: [
+            "koty"
+        ],
+                                                sentence1c: [
+            "kats"
+        ],
+        sentence: [
+                "I",
+                "have",
+                "two",
+                "cats"
+        ],
+        key: "cats",
+        category1: "nauka",
+        category2: ["okresleniaMiejsca"]
+},
+{
+        id: [
+            396,
+            64,
+            118
+        ],
+        img: [
+            "https://www.arbulang.com/img/fiszki1/401a.jpg"
+        ],
+        story: [
+            "Ktoś mówi po wiejsku: 'ja mu ma<u><b>choł</u></b> z <u><b>domu</u></b>, o <u><b>m</u></b>nie nie widział'"
+        ],
+        desc: "at home[at hołm] - w domu",
+        sentence2: [
+            "at_home"
+        ],
+                                                                                                                sentence2b: [
+            "w_domu"
+        ],
+                                                        sentence2c: [
+            "at_hołm"
+        ],
+        sentence: [
+            "at home"
+        ],
+        key: "at home",
+        category1: "nauka",
+        category2: ["okresleniaMiejsca"]
+        },
+                {
+        id: [
+            397,
+            65,
+            119
+        ],
+        img: [
+                "https://www.arbulang.com/img/fiszki1/5a.jpg",
+                "https://www.arbulang.com/img/fiszki1/5b.jpg",
+                "https://www.arbulang.com/img/fiszki1/5c.jpg",
+                "https://www.arbulang.com/img/fiszki1/5d.jpg",
+                "https://www.arbulang.com/img/fiszki1/5e.jpg"
+        ],
+        translate: "Ptaki latają nad ziemią",
+        translateb: "[De byrds flajs ołwer de graund]",
+        translateb2: "[De byrds flajs ołwer de graund]",
+        translateb3: "The birds flies over the ground",
+        srcWord: ["https://www.arbulang.com/filmy/lekcja22/birds.mp4", "Kot w butach: Ostatnie życzenie (2022)"],
+        srcWord2: ["https://www.arbulang.com/filmy/procedure.mp4", ""],
+        srcWordimage: "https://www.arbulang.com/filmy/lekcja22/birds.png",
+        opis: "Zdziwienie kota w animowanym filmie",
+        word: [
+                "https://www.arbulang.com/voice/bike.mp4"
+        ],
+        story: [
+                'Piłki do gry w kosza są twar<span class="adannotation" data-annotation="1"><u><b>de</u></b></span>. Sam ten sport <u><b>to</u></b> twarda gra',
+                'Na tym <span class="adannotation" data-annotation="1"><u><b>de</u></b></span>ptaku jest sporo drzewek, <u><b>to</u></b> urocze miejsce',
+                '<u><b>To</u></b> ten <span class="adannotation" data-annotation="1"><u><b>De</u></b></span>partament Stanu prowadzi badania nad społecznym problemem',
+                'Czasami politycy stosują <span class="adannotation" data-annotation="1"><u><b>de</u></b></span>magogię. Czyli co stosują? <u><b>Tę</u></b> <span class="adannotation" data-annotation="1"><u><b>de</u></b></span>magogię',
+                '<u><b>To</u></b> co w naszej rodzinie istnieje to <span class="adannotation" data-annotation="1"><u><b>de</u></b></span>mokracja'
+        ],
+        desc: "TRUDNOŚĆ JĘZYKOWA: the[de]-33%, [ze]-33%, [d-ze]-33% - ta",
+        sentence1: [
+            "The"
+        ],
+        sentence1b: [
+            "(Te)"
+        ],
+                                                        sentence1c: [
+            "De"
+        ],
+        sentence: [
+            "The",
+            "birds",
+            "flies",
+            "over",
+            "the ground"
+        ],
+        key: "the",
+        category2: ["osoby"],
+        category3: ["PresentSimple", "PresentSimplePodmiot"]
+    },
+                                                                                                                                {
+        id: [
+            398,
+            65,
+            119
+        ],
+        img: [
+            "https://www.arbulang.com/img/fiszki1/403a.jpg"
+        ],
+        story: [
+            "<u><b>By</u></b> zobaczyć <u><b>ptaka</u></b> - jastrzębia trzeba się ba<u><b>rd</u></b>zo natrudzić"
+        ],
+        desc: "birds[byrds] - ptaki",
+        sentence2: [
+            "birds"
+        ],
+                sentence1b: [
+            "ptaki"
+        ],
+                                                                sentence1c: [
+            "byrds"
+        ],
+        sentence: [
+            "The",
+            "birds",
+            "flies",
+            "over",
+            "the ground"
+        ],
+        key: "bird",
+        category1: "nauka",
+        category2: ["zwierzeta"]
+    },
+                                                                                                                                    {
+        id: [
+            399,
+            65,
+            119
+        ],
+        img: [
+            "https://www.arbulang.com/img/fiszki1/364a.jpg"
+        ],
+        story: [
+            "<u><b>Fla</u></b>ming lata sobie nad T<u><b>ajs</u></b>kim jeziorem"
+        ],
+        desc: "flies[flajs] - przelatuje, lata",
+        sentence2: [
+            "flies"
+        ],
+                        sentence1b: [
+            "latają"
+        ],
+                                                                sentence1c: [
+            "flajs"
+        ],
+        sentence: [
+            "The",
+            "birds",
+            "flies",
+            "over",
+            "the ground"
+        ],
+        key: "flies",
+        category1: "nauka",
+        category2: ["okresleniaMiejsca"]
+    },
 );
