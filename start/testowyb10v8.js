@@ -15,6 +15,12 @@ fiszki10.push(
         sentence2: [
             "milk"
         ],
+                                                                sentence1b: [
+            "mleko"
+        ],
+                            sentence1c: [
+            "milk"
+        ],
         sentence: [
             "I",
             "bought",
@@ -53,6 +59,12 @@ fiszki10.push(
         sentence2: [
             "at"
         ],
+                                                                        sentence2b: [
+            "w"
+        ],
+                            sentence2c: [
+            "at"
+        ],
         sentence: [
             "at",
             "the shop"
@@ -76,6 +88,12 @@ fiszki10.push(
         desc: "shop[szop] - sklep",
         sentence2: [
             "the shop"
+        ],
+            sentence2b: [
+            "(tym)_sklepie"
+        ],
+                            sentence2c: [
+            "szop"
         ],
         sentence: [
             "at",
@@ -117,6 +135,12 @@ fiszki10.push(
         sentence1: [
             "He"
         ],
+                    sentence1b: [
+            "On"
+        ],
+                            sentence1c: [
+            "hi"
+        ],
         sentence: [
             "He",
             "opens",
@@ -141,6 +165,12 @@ fiszki10.push(
         desc: "opens[ołpens] - otwiera się",
         sentence2: [
             "opens"
+        ],
+                            sentence1b: [
+            "otwiera"
+        ],
+                            sentence1c: [
+            "ołpens"
         ],
         sentence: [
             "He",
@@ -169,7 +199,13 @@ fiszki10.push(
         ],
         desc: "window[łindoł] - okno",
         sentence2: [
-            "the window"
+            "the_window"
+        ],
+                                    sentence1b: [
+            "(te)_okno"
+        ],
+                            sentence1c: [
+            "de_window"
         ],
         sentence: [
             "He",
@@ -191,6 +227,12 @@ fiszki10.push(
         desc: "every[ewry] - każdy",
         sentence2: [
             "every"
+        ],
+                                            sentence2b: [
+            "każdego"
+        ],
+                            sentence2c: [
+            "ewry"
         ],
         sentence: [
             "every",
@@ -214,6 +256,12 @@ fiszki10.push(
         ],
         desc: "morning[morning] - rano",
         sentence2: [
+            "morning"
+        ],
+                                                    sentence2b: [
+            "ranka"
+        ],
+                            sentence2c: [
             "morning"
         ],
         sentence: [
@@ -248,6 +296,12 @@ fiszki10.push(
         sentence1: [
             "The_river"
         ],
+                                                            sentence1b: [
+            "(ta)_rzeka"
+        ],
+                            sentence1c: [
+            "de_riwer"
+        ],
         sentence: [
             "The_river",
             "flows"
@@ -272,6 +326,12 @@ fiszki10.push(
         sentence2: [
             "flows"
         ],
+                                                                    sentence1b: [
+            "płynie"
+        ],
+                            sentence1c: [
+            "flołs"
+        ],
         sentence: [
             "The_river",
             "flows"
@@ -295,6 +355,12 @@ fiszki10.push(
         desc: "near[nir] - w pobliżu",
         sentence2: [
             "near"
+        ],
+            sentence2b: [
+            "w_pobliżu"
+        ],
+                            sentence2c: [
+            "nir"
         ],
         sentence: [
             "near",
@@ -324,6 +390,12 @@ fiszki10.push(
         sentence2: [
             "my"
         ],
+                    sentence2b: [
+            "mojego"
+        ],
+                            sentence2c: [
+            "maj"
+        ],
         sentence: [
             "near",
             "my",
@@ -345,6 +417,12 @@ fiszki10.push(
         sentence2: [
             "house"
         ],
+                    sentence2b: [
+            "domu"
+        ],
+                            sentence2c: [
+            "hałs"
+        ],
         sentence: [
             "near",
             "my",
@@ -361,10 +439,10 @@ fiszki10.push(
             225
         ],
         img: "http://localhost/arbulanguage.com/img/fiszki1/131a.jpg",
-        translate: "Oglądaliśmy gwiazdy zeszłej nocy",
-        translateb: "[Łi łocztd de stars last najt]",
-        translateb2: "[Łi łocztd de stars last najt]",
-        translateb3: "We watched the stars last night",
+        translate: "Idziemy powoli przez park",
+        translateb: "[Łi łok]",
+        translateb2: "[]",
+        translateb3: "We walk slowly",
         srcWord: ["http://localhost/arbulanguage.com/filmy/lekcja41/stars.mp4", ""],
         srcWordimage: "http://localhost/arbulanguage.com/filmy/lekcja41/stars.png",
         word: [
@@ -374,6 +452,12 @@ fiszki10.push(
         desc: "we[łi] - my",
         sentence1: [
             "We"
+        ],
+                            sentence1b: [
+            "my"
+        ],
+                            sentence1c: [
+            "łi"
         ],
         sentence: [
             "We",
@@ -400,6 +484,12 @@ fiszki10.push(
         sentence2: [
             "walk"
         ],
+                                    sentence1b: [
+            "idziemy"
+        ],
+                            sentence1c: [
+            "łok"
+        ],
         sentence: [
             "We",
             "walk",
@@ -424,6 +514,12 @@ fiszki10.push(
         desc: "slowly[slołli] - powoli, powolnie",
         sentence2: [
             "slowly"
+        ],
+                                            sentence1b: [
+            "powoli"
+        ],
+                            sentence1c: [
+            "slołli"
         ],
         sentence: [
             "We",
@@ -450,6 +546,12 @@ fiszki10.push(
         sentence2: [
             "through"
         ],
+                                                    sentence2b: [
+            "przez"
+        ],
+                            sentence2c: [
+            "tru"
+        ],
         sentence: [
             "through",
             "the park"
@@ -472,7 +574,13 @@ fiszki10.push(
         ],
         desc: "park[park] - park",
         sentence2: [
-            "the park"
+            "the_park"
+        ],
+                                                            sentence2b: [
+            "park"
+        ],
+                            sentence2c: [
+            "park"
         ],
         sentence: [
             "through",
@@ -514,6 +622,12 @@ fiszki10.push(
         sentence1: [
             "He"
         ],
+            sentence1b: [
+            "On"
+        ],
+                            sentence1c: [
+            "hi"
+        ],
         sentence: [
             "He",
             "drinks",
@@ -537,6 +651,12 @@ fiszki10.push(
         ],
         desc: "drinks[drinks] - pije \ napoje",
         sentence2: [
+            "drinks"
+        ],
+                    sentence1b: [
+            "pije"
+        ],
+                            sentence1c: [
             "drinks"
         ],
         sentence: [
@@ -564,6 +684,12 @@ fiszki10.push(
         sentence2: [
             "water"
         ],
+                            sentence1b: [
+            "wodę"
+        ],
+                            sentence1c: [
+            "łoter"
+        ],
         sentence: [
             "He",
             "drinks",
@@ -587,6 +713,12 @@ fiszki10.push(
         ],
         desc: "after[after] - później, po",
         sentence2: [
+            "after"
+        ],
+                                    sentence2b: [
+            "po"
+        ],
+                            sentence2c: [
             "after"
         ],
         sentence: [
@@ -622,6 +754,12 @@ fiszki10.push(
         sentence2: [
             "his"
         ],
+                                    sentence2b: [
+            "swoim"
+        ],
+                            sentence2c: [
+            "his"
+        ],
         sentence: [
             "after",
             "his",
@@ -646,6 +784,12 @@ fiszki10.push(
         desc: "run[ran] - biec, uruchomić",
         sentence2: [
             "run"
+        ],
+                                            sentence2b: [
+            "biegu"
+        ],
+                            sentence2c: [
+            "ran"
         ],
         sentence: [
             "after",
@@ -684,6 +828,12 @@ fiszki10.push(
         sentence1: [
             "My"
         ],
+                                                            sentence1b: [
+            "moja"
+        ],
+                            sentence1c: [
+            "maj"
+        ],
         sentence: [
             "My",
             "aunt",
@@ -708,6 +858,12 @@ fiszki10.push(
         desc: "aunt[ant] - ciotka",
         sentence2: [
             "aunt"
+        ],
+                                                                    sentence1b: [
+            "ciotka"
+        ],
+                            sentence1c: [
+            "ant"
         ],
         sentence: [
             "My",
@@ -734,6 +890,12 @@ fiszki10.push(
         sentence2: [
             "cooks"
         ],
+                                                                    sentence1b: [
+            "gotuje"
+        ],
+                            sentence1c: [
+            "kuks"
+        ],
         sentence: [
             "My",
             "aunt",
@@ -754,6 +916,12 @@ fiszki10.push(
         desc: "very[weri] - bardzo",
         sentence2: [
             "very"
+        ],
+                                                                            sentence2b: [
+            "bardzo"
+        ],
+                            sentence2c: [
+            "weri"
         ],
         sentence: [
             "very",
@@ -780,6 +948,12 @@ fiszki10.push(
         sentence2: [
             "tasty"
         ],
+                                                                                    sentence2b: [
+            "smaczną"
+        ],
+                            sentence2c: [
+            "tejsty"
+        ],
         sentence: [
             "very",
             "tasty",
@@ -804,6 +978,12 @@ fiszki10.push(
         desc: "soup[sup] - zupa",
         sentence2: [
             "soup"
+        ],
+                                                                                    sentence2b: [
+            "zupę"
+        ],
+                            sentence2c: [
+            "sup"
         ],
         sentence: [
             "very",
@@ -1008,7 +1188,7 @@ fiszki10.push(
         ],
         desc: "door[] - ",
         sentence2: [
-            "the door"
+            "the_door"
         ],
         sentence: [
             "I",
@@ -1083,8 +1263,8 @@ fiszki10.push(
         translate: "Oni sadzą kwiaty w ogrodzie",
         translateb: "[]",
         translateb2: "[]",
-        srcWord: ["http://localhost/arbulanguage.com/filmy/newspaper.mp4", "Kevin sam w domu (1990)"],
-        srcWordimage: "http://localhost/arbulanguage.com/filmy/newspaper.png",
+        srcWord: ["http://localhost/arbulanguage.com/filmy/lekcja43/flowers.mp4", "Greenfingers (2000)"],
+        srcWordimage: "http://localhost/arbulanguage.com/filmy/lekcja43/flowers.png",
         word: [
             "http://localhost/arbulanguage.com/voice/bike.mp4"
         ],
@@ -1228,7 +1408,7 @@ fiszki10.push(
         ],
         desc: "clock[klok] - zegar",
         sentence1: [
-            "The clock"
+            "The_clock"
         ],
         sentence: [
             "The clock",
@@ -1635,8 +1815,8 @@ fiszki10.push(
         translate: "Jemy pizzę z naszymi przyjaciółmi",
         translateb: "[]",
         translateb2: "[]",
-        srcWord: ["", ""],
-        srcWordimage: "",
+        srcWord: ["http://localhost/arbulanguage.com/filmy/lekcja44/stories.mp4", "Yes Man (1990)"],
+        srcWordimage: "http://localhost/arbulanguage.com/filmy/lekcja44/stories.png",
         word: [
             "http://localhost/arbulanguage.com/voice/bike.mp4"
         ],
@@ -1906,11 +2086,11 @@ fiszki10.push(
                 "http://localhost/arbulanguage.com/img/fiszki1/7d.jpg",
                 "http://localhost/arbulanguage.com/img/fiszki1/7e.jpg"
         ],
-        translate: "Ona sprząta podłogę każdego dnia",
+        translate: "On sprząta podłogę każdego dnia",
         translateb: "[]",
         translateb2: "[]",
-        srcWord: ["", ""],
-        srcWordimage: "",
+        srcWord: ["http://localhost/arbulanguage.com/filmy/lekcja45/cleaning.mp4", "Prawo zemsty (2009)"],
+        srcWordimage: "http://localhost/arbulanguage.com/filmy/lekcja45/cleaning.png",
         word: [
             "http://localhost/arbulanguage.com/voice/bike.mp4"
         ],
@@ -1921,12 +2101,12 @@ fiszki10.push(
                 'Ma<span class="adannotation" data-annotation="1"><u><b>chi</u></b></span>nę do tortur wymyślił <u><b>on</u></b> - jest <span class="adannotation" data-annotation="1"><u><b>Hi</u></b></span>ndusem',
                 '<u><b>On</u></b> je ciastka <span class="adannotation" data-annotation="1"><u><b>hi</u></b></span>ty'
         ],
-        desc: "she[aj] - ja",
+        desc: "he[aj] - ja",
         sentence1: [
-            "She"
+            "He"
         ],
         sentence: [
-            "She",
+            "He",
             "cleans",
             "the floor"
         ],
@@ -1951,7 +2131,7 @@ fiszki10.push(
             "cleans"
         ],
         sentence: [
-            "She",
+            "He",
             "cleans",
             "the floor"
         ],
@@ -1973,10 +2153,10 @@ fiszki10.push(
         ],
         desc: "the floor[] - (ta) kuchnia",
         sentence2: [
-            "the floor"
+            "the_floor"
         ],
         sentence: [
-            "She",
+            "He",
             "cleans",
             "the floor"
         ],
@@ -2031,5 +2211,895 @@ fiszki10.push(
         key: "day",
         category1: "nauka",
         category2: ["czas"]
-    }
+    },
+                    {
+        id: [
+            774,
+            135,
+            246
+        ],
+        img: [
+                "http://localhost/arbulanguage.com/img/fiszki1/7a.jpg",
+                "http://localhost/arbulanguage.com/img/fiszki1/7b.jpg",
+                "http://localhost/arbulanguage.com/img/fiszki1/7c.jpg",
+                "http://localhost/arbulanguage.com/img/fiszki1/7d.jpg",
+                "http://localhost/arbulanguage.com/img/fiszki1/7e.jpg"
+        ],
+        translate: "Uświadomiła sobie, że nic się nie zmieni",
+        translateb: "[]",
+        translateb2: "[]",
+        srcWord: ["http://localhost/arbulanguage.com/filmy/lekcja45/.mp4", ""],
+        srcWordimage: "http://localhost/arbulanguage.com/filmy/lekcja45/.png",
+        word: [
+            "http://localhost/arbulanguage.com/voice/bike.mp4"
+        ],
+        story: [
+                'To właśnie <u><b>on</u></b> jest <span class="adannotation" data-annotation="1"><b><u>hi</b></u></span>tem tego sezonu piłkarskiego',
+        ],
+        desc: "she[szi] - ona",
+        sentence1: [
+            "Shee"
+        ],
+        sentence: [
+            "She",
+            "realized"
+        ],
+        key: "she",
+        category2: ["osoby"],
+        category3: ["PresentSimple", "PresentSimplePodmiot"]
+    },
+                                                                                                    {
+        id: [
+            775,
+            135,
+            246
+        ],
+        img: [
+            "http://localhost/arbulanguage.com/img/fiszki1/364a.jpg"
+        ],
+        story: [
+            ""
+        ],
+        desc: "realized[] - ",
+        sentence1: [
+            "realized"
+        ],
+        sentence: [
+            "She",
+            "realized"
+        ],
+        key: "realized",
+        category1: "nauka",
+        category2: ["czas"]
+    },
+                                                                                                        {
+        id: [
+            776,
+            135,
+            247
+        ],
+        img: [
+            "http://localhost/arbulanguage.com/img/fiszki1/364a.jpg"
+        ],
+        story: [
+            "KOGNATY PARK (PL) - PARK (ENG)"
+        ],
+        desc: "nothing[] - ",
+        sentence2: [
+            "nothing"
+        ],
+        sentence: [
+            "nothing",
+            "would",
+            "change"
+        ],
+        key: "nothing",
+        category1: "nauka",
+        category2: ["czas"]
+    },
+{
+        id: [
+            777,
+            135,
+            247
+        ],
+        img: [
+            "http://localhost/arbulanguage.com/img/fiszki1/364a.jpg"
+        ],
+        story: [
+            "KOGNATY PARK (PL) - PARK (ENG)"
+        ],
+        desc: "would[] - ",
+        sentence2: [
+            "would"
+        ],
+        sentence: [
+            "nothing",
+            "would",
+            "change"
+        ],
+        key: "would",
+        category1: "nauka",
+        category2: ["czas"]
+    },                                                                                                    
+    {
+        id: [
+            778,
+            135,
+            247
+        ],
+        img: [
+            "http://localhost/arbulanguage.com/img/fiszki1/364a.jpg"
+        ],
+        story: [
+            "KOGNATY PARK (PL) - PARK (ENG)"
+        ],
+        desc: "change[] - ",
+        sentence2: [
+            "change"
+        ],
+        sentence: [
+            "nothing",
+            "would",
+            "change"
+        ],
+        key: "change",
+        category1: "nauka",
+        category2: ["czas"]
+    },
+                        {
+        id: [
+            779,
+            136,
+            248
+        ],
+        img: [
+                "http://localhost/arbulanguage.com/img/fiszki1/7a.jpg",
+                "http://localhost/arbulanguage.com/img/fiszki1/7b.jpg",
+                "http://localhost/arbulanguage.com/img/fiszki1/7c.jpg",
+                "http://localhost/arbulanguage.com/img/fiszki1/7d.jpg",
+                "http://localhost/arbulanguage.com/img/fiszki1/7e.jpg"
+        ],
+        translate: "Pokój pozostawał cichy całą noc",
+        translateb: "[]",
+        translateb2: "[]",
+        srcWord: ["http://localhost/arbulanguage.com/filmy/lekcja46/.mp4", ""],
+        srcWordimage: "http://localhost/arbulanguage.com/filmy/lekcja46/.png",
+        word: [
+            "http://localhost/arbulanguage.com/voice/bike.mp4"
+        ],
+        story: [
+                'To właśnie <u><b>on</u></b> jest <span class="adannotation" data-annotation="1"><b><u>hi</b></u></span>tem tego sezonu piłkarskiego',
+        ],
+        desc: "she[szi] - ona",
+        sentence1: [
+            "The_room"
+        ],
+        sentence: [
+            "The room",
+            "stayed",
+            "silent"
+        ],
+        key: "room",
+        category2: ["osoby"],
+        category3: ["PresentSimple", "PresentSimplePodmiot"]
+    },
+        {
+        id: [
+            780,
+            136,
+            248
+        ],
+        img: [
+            "http://localhost/arbulanguage.com/img/fiszki1/364a.jpg"
+        ],
+        story: [
+            "KOGNATY PARK (PL) - PARK (ENG)"
+        ],
+        desc: "stayed[] - ",
+        sentence1: [
+            "stayed"
+        ],
+        sentence: [
+            "The room",
+            "stayed",
+            "silent"
+        ],
+        key: "stayed",
+        category1: "nauka",
+        category2: ["czas"]
+    },    
+    {
+        id: [
+            781,
+            136,
+            248
+        ],
+        img: [
+            "http://localhost/arbulanguage.com/img/fiszki1/364a.jpg"
+        ],
+        story: [
+            "KOGNATY PARK (PL) - PARK (ENG)"
+        ],
+        desc: "silent[] - ",
+        sentence1: [
+            "silent"
+        ],
+        sentence: [
+            "The room",
+            "stayed",
+            "silent"
+        ],
+        key: "silent",
+        category1: "nauka",
+        category2: ["czas"]
+    },
+        {
+        id: [
+            782,
+            136,
+            249
+        ],
+        img: [
+            "http://localhost/arbulanguage.com/img/fiszki1/364a.jpg"
+        ],
+        story: [
+            "KOGNATY PARK (PL) - PARK (ENG)"
+        ],
+        desc: "all[] - ",
+        sentence2: [
+            "all"
+        ],
+        sentence: [
+            "all",
+            "night"
+        ],
+        key: "all",
+        category1: "nauka",
+        category2: ["czas"]
+    },
+        {
+        id: [
+            783,
+            136,
+            249
+        ],
+        img: [
+            "http://localhost/arbulanguage.com/img/fiszki1/364a.jpg"
+        ],
+        story: [
+            "KOGNATY PARK (PL) - PARK (ENG)"
+        ],
+        desc: "night[] - ",
+        sentence2: [
+            "night"
+        ],
+        sentence: [
+            "all",
+            "night"
+        ],
+        key: "night",
+        category1: "nauka",
+        category2: ["czas"]
+    },
+                            {
+        id: [
+            784,
+            137,
+            250
+        ],
+        img: [
+                "http://localhost/arbulanguage.com/img/fiszki1/7a.jpg",
+                "http://localhost/arbulanguage.com/img/fiszki1/7b.jpg",
+                "http://localhost/arbulanguage.com/img/fiszki1/7c.jpg",
+                "http://localhost/arbulanguage.com/img/fiszki1/7d.jpg",
+                "http://localhost/arbulanguage.com/img/fiszki1/7e.jpg"
+        ],
+        translate: "Nigdy nie widział pustego miasta",
+        translateb: "[]",
+        translateb2: "[]",
+        srcWord: ["http://localhost/arbulanguage.com/filmy/lekcja46/.mp4", ""],
+        srcWordimage: "http://localhost/arbulanguage.com/filmy/lekcja46/.png",
+        word: [
+            "http://localhost/arbulanguage.com/voice/bike.mp4"
+        ],
+        story: [
+                'To właśnie <u><b>on</u></b> jest <span class="adannotation" data-annotation="1"><b><u>hi</b></u></span>tem tego sezonu piłkarskiego',
+        ],
+        desc: "he[hi] - on",
+        sentence1: [
+            "He"
+        ],
+        sentence: [
+            "He",
+            "had",
+            "never",
+            "seen"
+        ],
+        key: "he",
+        category2: ["osoby"],
+        category3: ["PastPerfect"]
+    },
+            {
+        id: [
+            785,
+            137,
+            250
+        ],
+        img: [
+            "http://localhost/arbulanguage.com/img/fiszki1/364a.jpg"
+        ],
+        story: [
+            "KOGNATY PARK (PL) - PARK (ENG)"
+        ],
+        desc: "had[] - ",
+        sentence1: [
+            "had"
+        ],
+        sentence: [
+            "He",
+            "had",
+            "never",
+            "seen"
+        ],
+        key: "had",
+        category1: "nauka",
+        category2: ["czas"]
+    },
+                {
+        id: [
+            786,
+            137,
+            250
+        ],
+        img: [
+            "http://localhost/arbulanguage.com/img/fiszki1/364a.jpg"
+        ],
+        story: [
+            "KOGNATY PARK (PL) - PARK (ENG)"
+        ],
+        desc: "never[] - ",
+        sentence1: [
+            "never"
+        ],
+        sentence: [
+            "He",
+            "had",
+            "never",
+            "seen"
+        ],
+        key: "never",
+        category1: "nauka",
+        category2: ["czas"]
+    },
+                    {
+        id: [
+            787,
+            137,
+            250
+        ],
+        img: [
+            "http://localhost/arbulanguage.com/img/fiszki1/364a.jpg"
+        ],
+        story: [
+            "KOGNATY PARK (PL) - PARK (ENG)"
+        ],
+        desc: "seen[] - ",
+        sentence1: [
+            "seen"
+        ],
+        sentence: [
+            "He",
+            "had",
+            "never",
+            "seen"
+        ],
+        key: "seen",
+        category1: "nauka",
+        category2: ["czas"]
+    },
+                        {
+        id: [
+            788,
+            137,
+            251
+        ],
+        img: [
+            "http://localhost/arbulanguage.com/img/fiszki1/364a.jpg"
+        ],
+        story: [
+            "KOGNATY PARK (PL) - PARK (ENG)"
+        ],
+        desc: "empty[] - ",
+        sentence2: [
+            "empty"
+        ],
+        sentence: [
+            "empty",
+            "city"
+        ],
+        key: "empty",
+        category1: "nauka",
+        category2: ["czas"]
+    },
+                        {
+        id: [
+            789,
+            137,
+            251
+        ],
+        img: [
+            "http://localhost/arbulanguage.com/img/fiszki1/364a.jpg"
+        ],
+        story: [
+            "KOGNATY PARK (PL) - PARK (ENG)"
+        ],
+        desc: "city[] - ",
+        sentence2: [
+            "city"
+        ],
+        sentence: [
+            "empty",
+            "city"
+        ],
+        key: "city",
+        category1: "nauka",
+        category2: ["czas"]
+    },
+                                {
+        id: [
+            790,
+            138,
+            260
+        ],
+        img: [
+                "http://localhost/arbulanguage.com/img/fiszki1/7a.jpg",
+                "http://localhost/arbulanguage.com/img/fiszki1/7b.jpg",
+                "http://localhost/arbulanguage.com/img/fiszki1/7c.jpg",
+                "http://localhost/arbulanguage.com/img/fiszki1/7d.jpg",
+                "http://localhost/arbulanguage.com/img/fiszki1/7e.jpg"
+        ],
+        translate: "Deszcz padał na pustą ulicę",
+        translateb: "[]",
+        translateb2: "[]",
+        srcWord: ["http://localhost/arbulanguage.com/filmy/lekcja46/.mp4", ""],
+        srcWordimage: "http://localhost/arbulanguage.com/filmy/lekcja46/.png",
+        word: [
+            "http://localhost/arbulanguage.com/voice/bike.mp4"
+        ],
+        story: [
+                'To właśnie <u><b>on</u></b> jest <span class="adannotation" data-annotation="1"><b><u>hi</b></u></span>tem tego sezonu piłkarskiego',
+        ],
+        desc: "rain[] - ",
+        sentence1: [
+            "Rain"
+        ],
+        sentence: [
+            "Rain",
+            "fell",
+            "across"
+        ],
+        key: "rain",
+        category2: ["osoby"],
+        category3: ["PastPerfect"]
+    },
+                            {
+        id: [
+            791,
+            138,
+            249
+        ],
+        img: [
+            "http://localhost/arbulanguage.com/img/fiszki1/364a.jpg"
+        ],
+        story: [
+            "KOGNATY PARK (PL) - PARK (ENG)"
+        ],
+        desc: "fell[] - ",
+        sentence2: [
+            "fell"
+        ],
+        sentence: [
+            "Rain",
+            "fell",
+            "across"
+        ],
+        key: "fell",
+        category1: "nauka",
+        category2: ["czas"]
+    },
+                            {
+        id: [
+            792,
+            138,
+            249
+        ],
+        img: [
+            "http://localhost/arbulanguage.com/img/fiszki1/364a.jpg"
+        ],
+        story: [
+            "KOGNATY PARK (PL) - PARK (ENG)"
+        ],
+        desc: "across[] - ",
+        sentence2: [
+            "across"
+        ],
+        sentence: [
+            "Rain",
+            "fell",
+            "across"
+        ],
+        key: "across",
+        category1: "nauka",
+        category2: ["czas"]
+    },
+                                {
+        id: [
+            793,
+            138,
+            249
+        ],
+        img: [
+            "http://localhost/arbulanguage.com/img/fiszki1/364a.jpg"
+        ],
+        story: [
+            "KOGNATY PARK (PL) - PARK (ENG)"
+        ],
+        desc: "the[] - ",
+        sentence2: [
+            "the"
+        ],
+        sentence: [
+            "the",
+            "empty",
+            "street"
+        ],
+        key: "the",
+        category1: "nauka",
+        category2: ["czas"]
+    },
+                                {
+        id: [
+            794,
+            138,
+            249
+        ],
+        img: [
+            "http://localhost/arbulanguage.com/img/fiszki1/364a.jpg"
+        ],
+        story: [
+            "KOGNATY PARK (PL) - PARK (ENG)"
+        ],
+        desc: "empty[] - ",
+        sentence2: [
+            "empty"
+        ],
+        sentence: [
+            "the",
+            "empty",
+            "street"
+        ],
+        key: "empty",
+        category1: "nauka",
+        category2: ["czas"]
+    },                            
+    {
+        id: [
+            795,
+            138,
+            249
+        ],
+        img: [
+            "http://localhost/arbulanguage.com/img/fiszki1/364a.jpg"
+        ],
+        story: [
+            "KOGNATY PARK (PL) - PARK (ENG)"
+        ],
+        desc: "street[] - ",
+        sentence2: [
+            "street"
+        ],
+        sentence: [
+            "the",
+            "empty",
+            "street"
+        ],
+        key: "street",
+        category1: "nauka",
+        category2: ["czas"]
+    },
+                                    {
+        id: [
+            790,
+            138,
+            260
+        ],
+        img: [
+                "http://localhost/arbulanguage.com/img/fiszki1/7a.jpg",
+                "http://localhost/arbulanguage.com/img/fiszki1/7b.jpg",
+                "http://localhost/arbulanguage.com/img/fiszki1/7c.jpg",
+                "http://localhost/arbulanguage.com/img/fiszki1/7d.jpg",
+                "http://localhost/arbulanguage.com/img/fiszki1/7e.jpg"
+        ],
+        translate: "Wiedzieli, że czas się kończy",
+        translateb: "[]",
+        translateb2: "[]",
+        srcWord: ["http://localhost/arbulanguage.com/filmy/lekcja46/.mp4", ""],
+        srcWordimage: "http://localhost/arbulanguage.com/filmy/lekcja46/.png",
+        word: [
+            "http://localhost/arbulanguage.com/voice/bike.mp4"
+        ],
+        story: [
+                'To właśnie <u><b>on</u></b> jest <span class="adannotation" data-annotation="1"><b><u>hi</b></u></span>tem tego sezonu piłkarskiego',
+        ],
+        desc: "they[] - ",
+        sentence1: [
+            "They"
+        ],
+        sentence: [
+            "They",
+            "know",
+            "time",
+            "was",
+            "running out"
+        ],
+        key: "they",
+        category2: ["osoby"],
+        category3: ["PastPerfect"]
+    },
+        {
+        id: [
+            795,
+            138,
+            249
+        ],
+        img: [
+            "http://localhost/arbulanguage.com/img/fiszki1/364a.jpg"
+        ],
+        story: [
+            "KOGNATY PARK (PL) - PARK (ENG)"
+        ],
+        desc: "know[] - ",
+        sentence2: [
+            "know"
+        ],
+        sentence: [
+            "They",
+            "know",
+            "time",
+            "was",
+            "running out"
+        ],
+        key: "know",
+        category1: "nauka",
+        category2: ["czas"]
+    },
+            {
+        id: [
+            795,
+            138,
+            249
+        ],
+        img: [
+            "http://localhost/arbulanguage.com/img/fiszki1/364a.jpg"
+        ],
+        story: [
+            "KOGNATY PARK (PL) - PARK (ENG)"
+        ],
+        desc: "time[] - ",
+        sentence2: [
+            "time"
+        ],
+        sentence: [
+            "They",
+            "know",
+            "time",
+            "was",
+            "running out"
+        ],
+        key: "time",
+        category1: "nauka",
+        category2: ["czas"]
+    },
+            {
+        id: [
+            795,
+            138,
+            249
+        ],
+        img: [
+            "http://localhost/arbulanguage.com/img/fiszki1/364a.jpg"
+        ],
+        story: [
+            "KOGNATY PARK (PL) - PARK (ENG)"
+        ],
+        desc: "was[] - ",
+        sentence2: [
+            "was"
+        ],
+        sentence: [
+            "They",
+            "know",
+            "time",
+            "was",
+            "running out"
+        ],
+        key: "was",
+        category1: "nauka",
+        category2: ["czas"]
+    },
+            {
+        id: [
+            795,
+            138,
+            249
+        ],
+        img: [
+            "http://localhost/arbulanguage.com/img/fiszki1/364a.jpg"
+        ],
+        story: [
+            "KOGNATY PARK (PL) - PARK (ENG)"
+        ],
+        desc: "running out[] - ",
+        sentence2: [
+            "running_out"
+        ],
+        sentence: [
+            "They",
+            "know",
+            "time",
+            "was",
+            "running out"
+        ],
+        key: "running out",
+        category1: "nauka",
+        category2: ["czas"]
+    },
+                                        {
+        id: [
+            796,
+            139,
+            260
+        ],
+        img: [
+                "http://localhost/arbulanguage.com/img/fiszki1/7a.jpg",
+                "http://localhost/arbulanguage.com/img/fiszki1/7b.jpg",
+                "http://localhost/arbulanguage.com/img/fiszki1/7c.jpg",
+                "http://localhost/arbulanguage.com/img/fiszki1/7d.jpg",
+                "http://localhost/arbulanguage.com/img/fiszki1/7e.jpg"
+        ],
+        translate: "Wiedzieli, że czas się kończy",
+        translateb: "[]",
+        translateb2: "[]",
+        srcWord: ["http://localhost/arbulanguage.com/filmy/lekcja46/.mp4", ""],
+        srcWordimage: "http://localhost/arbulanguage.com/filmy/lekcja46/.png",
+        word: [
+            "http://localhost/arbulanguage.com/voice/bike.mp4"
+        ],
+        story: [
+                'To właśnie <u><b>on</u></b> jest <span class="adannotation" data-annotation="1"><b><u>hi</b></u></span>tem tego sezonu piłkarskiego',
+        ],
+        desc: "they[] - ",
+        sentence1: [
+            "He"
+        ],
+        sentence: [
+            "He",
+            "opened",
+            "the",
+            "letter",
+            "slowly"
+        ],
+        key: "he",
+        category2: ["osoby"],
+        category3: ["PastPerfect"]
+    },
+                {
+        id: [
+            797,
+            139,
+            249
+        ],
+        img: [
+            "http://localhost/arbulanguage.com/img/fiszki1/364a.jpg"
+        ],
+        story: [
+            "KOGNATY PARK (PL) - PARK (ENG)"
+        ],
+        desc: "opened[] - ",
+        sentence2: [
+            "opened"
+        ],
+        sentence: [
+            "He",
+            "opened",
+            "the",
+            "letter",
+            "slowly"
+        ],
+        key: "opened",
+        category1: "nauka",
+        category2: ["czas"]
+    },
+                    {
+        id: [
+            798,
+            139,
+            249
+        ],
+        img: [
+            "http://localhost/arbulanguage.com/img/fiszki1/364a.jpg"
+        ],
+        story: [
+            "KOGNATY PARK (PL) - PARK (ENG)"
+        ],
+        desc: "the[] - ",
+        sentence2: [
+            "the"
+        ],
+        sentence: [
+            "He",
+            "opened",
+            "the",
+            "letter",
+            "slowly"
+        ],
+        key: "the",
+        category1: "nauka",
+        category2: ["czas"]
+    },
+                    {
+        id: [
+            799,
+            139,
+            249
+        ],
+        img: [
+            "http://localhost/arbulanguage.com/img/fiszki1/364a.jpg"
+        ],
+        story: [
+            "KOGNATY PARK (PL) - PARK (ENG)"
+        ],
+        desc: "letter[] - ",
+        sentence2: [
+            "letter"
+        ],
+        sentence: [
+            "He",
+            "opened",
+            "the",
+            "letter",
+            "slowly"
+        ],
+        key: "letter",
+        category1: "nauka",
+        category2: ["czas"]
+    },
+                    {
+        id: [
+            800,
+            139,
+            249
+        ],
+        img: [
+            "http://localhost/arbulanguage.com/img/fiszki1/364a.jpg"
+        ],
+        story: [
+            "KOGNATY PARK (PL) - PARK (ENG)"
+        ],
+        desc: "slowly[] - ",
+        sentence2: [
+            "slowly"
+        ],
+        sentence: [
+            "He",
+            "opened",
+            "the",
+            "letter",
+            "slowly"
+        ],
+        key: "slowly",
+        category1: "nauka",
+        category2: ["czas"]
+    },
     );

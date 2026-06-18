@@ -166,9 +166,7 @@ for (let i = 0; i < matchingFiszki1.length; i++) {
                     sentence11b += sentencePart2 + " ";
                 }
             }
-
 sentence10c = "wymowa: ";
-
 for (let i = 0; i < matchingFiszki1.length; i++) {
     const fiszka = matchingFiszki1[i];
     if (!fiszka.sentence1c)
@@ -267,6 +265,7 @@ sentence22c = "";
                     sentence22b += sentencePart2b + " ";
                 }
             }
+            sentence20c = "wymowa: ";
             for (let i = 0; i < matchingFiszki2.length; i++) {
                 const fiszka = matchingFiszki2[i];
                 if (!fiszka.sentence1c)
@@ -356,6 +355,7 @@ sentence33c = "";
                     sentence33b += sentencePart3b + " ";
                 }
             }
+            sentence30c = "wymowa: ";
             for (let i = 0; i < matchingFiszki3.length; i++) {
                 const fiszka = matchingFiszki3[i];
                 if (!fiszka.sentence1c)
@@ -4336,50 +4336,27 @@ const id2 = result2?.id3 ?? null;
 console.log('hej200', id0, id1);
 const tripletIds = [id0, id1, id2];
             if (!sentenceCache[indexDiv][currentPos]) {
-                let currentSentenceHtml = "";
-                try {
-const matching = currentTriplet.map(id =>
-    fiszki.filter(f => Number(f.id[1]) === Number(id))
-);
 if (currentPos === 0 && typeof addBackgroundToText1b === 'function') {
+                        const {sentence10, sentence11, sentence10b, sentence11b, sentence10c, sentence11c, id} = addBackgroundToText1b(matchingFiszki1, matchingIndexes, currentPos, lesson1PartLength, matchingIndexes2, rodzaj, matchingIndexes3, matchingLessons5b, lesson1FirstPartLength);
 
-    const result = addBackgroundToText1b(
-        matchingFiszki1,
-        matchingIndexes,
-        0,
-        lesson1PartLength,
-        matchingIndexes2,
-        rodzaj,
-        matchingIndexes3,
-        matchingLessons5b,
-        lesson1FirstPartLength
-    );
-console.log('RESULT FROM addBackgroundToText1b:', result);
-console.log('FOUND WORDS:', result.foundWords);
-    if (!window.lastFoundWordsByDiv) {
-        window.lastFoundWordsByDiv = {};
-    }
+                        // zapis globalny, by highlightFirstWord miało dostęp
+                        globalSentence10 = sentence10;
+                        globalSentence11 = sentence11;
+                        globalSentence10b = sentence10b;
+                        globalSentence11b = sentence11b;
+                        globalSentence10c = sentence10c;
+                        globalSentence11c = sentence11c;
 
-    window.lastFoundWordsByDiv[indexDiv] = result.foundWords;
-
-    const {
-        sentence10,
-        sentence11,
-        sentence10b,
-        sentence11b,
-        sentence10c,
-        sentence11c,
-        id
-    } = result;
-currentSentenceHtml =
-    (sentence10 || "") + /// jak zrobić by tutaj w addBackground1b - żebym mógł tutaj podświetlać
-    (sentence11 || "") +
-    "<br>" +
-    (sentence10b || "").toUpperCase() +
-    (sentence11b || "").toUpperCase() +
-    "<br>" +
-    (sentence10c || "").toUpperCase() +
-    (sentence11c || "").toUpperCase();
+                        currentSentenceHtml =
+                                (sentence10 || "") + // tylko sentence10 na małe litery
+                                (sentence11 || "") +
+                                "<br>" +
+                                (sentence10b || "").toUpperCase() +
+                                (sentence11b || "").toUpperCase() +
+                                "<br>" +
+                                "wymowa:" +
+                                (sentence10c || "").toUpperCase() +
+                                (sentence11c || "").toUpperCase();
                     } else if (currentPos === 1 && typeof addBackgroundToText2b === 'function') {
                         const {sentence20, sentence22, sentence20b, sentence22b, sentence20c, sentence22c, id2} = addBackgroundToText2b(matchingFiszki2, matchingIndexes, currentPos, lesson2PartLength, matchingIndexes2, rodzaj, matchingIndexes3, matchingLessons5b, lesson2FirstPartLength);
 
@@ -4427,9 +4404,7 @@ currentSentenceHtml =
                                     (Array.isArray(fiszka.sentence2) ? fiszka.sentence2.join(' ') : '');
                         }
                     }
-                } catch (e) {
-                    console.error('Błąd podczas generowania zdań:', e);
-                }
+                
                 sentenceCache[indexDiv][currentPos] = currentSentenceHtml;
             }
             console.log("currentPos =", currentPos, "currentDataName =", currentDataName);
@@ -4576,6 +4551,7 @@ console.log('hej120aa', wordIndexCache[indexDiv]);
 const sentenceMap = currentTriplet.map(id => {
     return sentences[id]?.id?.[1] ?? id;
 });
+console.log('hej20', sentenceMap);
 const xMap = currentTriplet.map(id => {
     return sentences[id]?.id?.[0] ?? id;   // X (np. lesson / group / set)
 });
@@ -4595,7 +4571,7 @@ console.log('hej100', secondValues);
                 // Każde sentence-inner ma teraz treść bieżącej linii i poprawnie przypisane data-pos
 return `
     <div class="sentence-line"
-         data-sentence-id="${sentenceMap[lineIndex]}"
+         data-sentence-id="${sentenceMap[currentPos]}-${lineIndex}"
          data-sentence-id2="${xMap[lineIndex]}"
          data-line="${lineIndex}"
          data-indexDiv="${indexDiv}">
@@ -4672,7 +4648,7 @@ function renderSentenceBlock(indexDiv, currentPos) {
 
 const $sentenceDiv = $('<div>')
     .addClass('sentence-block')
-    .attr('data-sentence-map', JSON.stringify(sentenceMap))
+    .attr('data-sentence-map', JSON.stringify(sentenceMap[currentPos]))
     .html(processedLines.join(""));
 
             $textContainer.append($sentenceDiv);
@@ -4699,6 +4675,12 @@ const $sentenceDiv = $('<div>')
                 });
             }
             console.log('hej22vvnn', matchingIndexes2);
+console.log(
+    'currentPos:',
+    currentPos,
+    'sharedBase:',
+    sentenceMap[currentPos]
+);
 
 function attachArrowNavigation($sentenceBlock, indexDiv, sentenceMap) {
 
@@ -4709,62 +4691,84 @@ function attachArrowNavigation($sentenceBlock, indexDiv, sentenceMap) {
         return;
     }
 
-    let currentWordIndex = 0;
+let currentWordIndex = 0;
 
-    const updateHighlightAll = () => {
+const updateHighlightAll = () => {
 
-        $sentenceBlock.find('.sentence-line').each(function (lineIndex) {
+$sentenceBlock.find('.sentence-line').each(function (lineIndex) {
 
-            const $inner = $(this).find('.sentence-inner');
-            const raw = $inner.text().trim();
-            if (!raw) return;
+    const $line = $(this);
+        const $inner = $line.find('.sentence-inner')
+        .attr('data-sentence-map', JSON.stringify(sentenceMap)); // 🔥 TU
 
-            const tokens = raw.split(/\s+/);
+        const raw = $inner.text().trim();
+        if (!raw) return;
 
-            let pronunciationLabel = '';
-            let pronunciationFirstWord = '';
+        const tokens = raw.split(/\s+/);
 
-            if (tokens.length > 0) {
-                const first = tokens[0];
+        let pronunciationLabel = '';
+        let pronunciationFirstWord = '';
 
-                if (first.toLowerCase().startsWith('wymowa:')) {
-                    pronunciationLabel = 'wymowa:';
-                    pronunciationFirstWord = first.slice('wymowa:'.length); // np. EWRYBODY
-                    tokens.shift(); // usuń pierwszy token z listy słów do highlightu
-                }
+        // 🔥 DATA-POS = KLUCZ DO WYBORU ZDANIA
+        const pos = Number($inner.data('pos'));
+
+        // zabezpieczenie
+        const sharedBase = xMap[pos];
+console.log('hej2000', sharedBase);
+        if (tokens.length > 0) {
+            const first = tokens[0];
+
+            if (first.toLowerCase().startsWith('wymowa:')) {
+                pronunciationLabel = 'wymowa:';
+                pronunciationFirstWord = first.slice('wymowa:'.length);
+                tokens.shift();
+            }
+        }
+
+        const id = indexDiv + "-" + lineIndex + "-" + currentWordIndex;
+
+        console.log('hej2000', id);
+
+        const secondValues = matchingIndexes2.map(item => Number(item[1]));
+        const secondValuesSet = new Set(secondValues);
+
+        const wordsHtml = tokens.map((word, wi) => {
+
+            const cursorStyle = `style="cursor:pointer;"`;
+
+const currentX = sharedBase + wi;
+
+            console.log({
+                word,
+                wi,
+                pos,
+                sharedBase,
+                currentX,
+                highlight: secondValuesSet.has(Number(currentX))
+            });
+
+            const shouldHighlight = secondValuesSet.has(Number(currentX));
+
+            if (shouldHighlight) {
+                return `<span class="highlighted"
+                    data-sentence-id2="${currentX}"
+                    data-mojeid="${id}"
+                    ${cursorStyle}>${word}</span>`;
             }
 
-            const id = indexDiv + "-" + lineIndex + "-" + currentWordIndex;
-console.log('hej2000', id);
-const secondValues = matchingIndexes2.map(item => Number(item[1]));
-const secondValuesSet = new Set(secondValues);
-const sharedBase = xMap[0];
-const wordsHtml = tokens.map((word, wi) => {
-    const cursorStyle = `style="cursor:pointer;"`;
+            return `<span
+                data-word-index="${wi}"
+                data-sentence-id2="${currentX}"
+                ${cursorStyle}>${word}</span>`;
+        }).join(" ");
 
+        const pronunciationHtml = pronunciationLabel
+            ? `<span class="pronunciation-label">${pronunciationLabel}</span>${pronunciationFirstWord ? ' ' + pronunciationFirstWord : ''} `
+            : '';
 
-    const currentX = sharedBase + wi;
+        $inner.html(pronunciationHtml + wordsHtml);
+    });
 
-
-    const shouldHighlight = secondValuesSet.has(Number(currentX));
-
-    if (shouldHighlight) {
-        return `<span class="highlighted"
-            data-sentence-id2="${currentX}"
-            data-mojeid="${id}"
-            ${cursorStyle}>${word}</span>`;
-    }
-
-    return `<span data-word-index="${wi}"
-        data-sentence-id2="${currentX}"
-        ${cursorStyle}>${word}</span>`;
-}).join(" ");
-            const pronunciationHtml = pronunciationLabel
-                ? `<span class="pronunciation-label">${pronunciationLabel}</span>${pronunciationFirstWord ? ' ' + pronunciationFirstWord : ''} `
-                : '';
-
-            $inner.html(pronunciationHtml + wordsHtml);
-        });
 
 
 

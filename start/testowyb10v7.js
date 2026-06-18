@@ -849,10 +849,13 @@ fiszki10.push(
         story: "<u><b>Łoooo</u></b>, Ganda<u><b>lf</u></b> z 'Władcy pierścieni' walczy z wilkiem",
         desc: "wolf[łolf/łulf] - wilk",
         sentence1: [
-            "A wolf"
+            "A_wolf"
         ],
                                                                     sentence1b: [
-            "(Ten) wilk"
+            "(Ten)_wilk"
+        ],
+                                                        sentence1c: [
+            "łolf/łulf"
         ],
         sentence: [
             "A wolf",
@@ -881,6 +884,9 @@ fiszki10.push(
                                                                             sentence1b: [
             "żyje"
         ],
+                                                               sentence1c: [
+            "lajws"
+        ],
         sentence: [
             "A wolf",
             "lives"
@@ -907,6 +913,9 @@ fiszki10.push(
         ],
             sentence2b: [
             "głęboko"
+        ],
+                                                               sentence2c: [
+            "dip"
         ],
         sentence: [
             "deep",
@@ -936,6 +945,9 @@ fiszki10.push(
                     sentence2b: [
             "w"
         ],
+                                                                       sentence2c: [
+            "in"
+        ],
         sentence: [
             "deep",
             "in",
@@ -963,6 +975,9 @@ fiszki10.push(
         ],
                             sentence2b: [
             "lesie"
+        ],
+                                                                       sentence2c: [
+            "forest/foryst"
         ],
         sentence: [
             "deep",
@@ -998,6 +1013,9 @@ fiszki10.push(
                                     sentence1b: [
             "Weź"
         ],
+            sentence1c: [
+            "tejk"
+        ],
         sentence: [
             "Take",
             "a towel"
@@ -1022,10 +1040,13 @@ fiszki10.push(
         ],
         desc: "a towel[tałl/taul] - ręcznik",
         sentence2: [
-            "a towel"
+            "a_towel"
         ],
                                             sentence1b: [
             "ręcznik"
+        ],
+                    sentence1c: [
+            "e_tałl/taul"
         ],
         sentence: [
             "Take",
@@ -1053,6 +1074,9 @@ fiszki10.push(
         ],
                                                     sentence2b: [
             "po"
+        ],
+                            sentence2c: [
+            "after"
         ],
         sentence: [
             "after",
@@ -1093,6 +1117,9 @@ fiszki10.push(
                                                             sentence2b: [
             "(Twoim)"
         ],
+                                    sentence2c: [
+            "jor"
+        ],
         sentence: [
             "after",
             "your",
@@ -1121,6 +1148,9 @@ fiszki10.push(
                                                             sentence2b: [
             "prysznicu"
         ],
+                                    sentence2c: [
+            "szołer"
+        ],
         sentence: [
             "after",
             "your",
@@ -1146,8 +1176,8 @@ fiszki10.push(
         translate: "Jadę rowerem do szkoły",
         translateb: "[]",
         translateb3: "I appreciate your assistance today",
-        srcWord: ["https://www.arbulang.com/filmy/lekcja11/tennis.mp4", "Avatar(2022)", "Sci-fi"],
-        srcWordimage: "https://www.arbulang.com/filmy/lekcja11/tennis.png",
+        srcWord: ["http://localhost/arbulanguage.com/filmy/lekcja36/bike.mp4", "Bez hamulców (2012)"],
+        srcWordimage: "http://localhost/arbulanguage.com/filmy/lekcja36/bike.png",
                                                 opis: "Scena pływania w morzu - głównych bohaterów",
         story: [
             "<u><b>Ja</u></b> jestem Piotrek, mam okulary ochronne, gdy jechałem rowerem wleciała mi mucha do <u><b>oka</u></b>, krzyczałem <u><b>ajjj</u></b> - dlaczego to <u><b>mi</u></b> wleciała mucha do <u><b>oka</u></b>, <u><b>ajjj</u></b>",
@@ -1162,6 +1192,9 @@ fiszki10.push(
         ],
         sentence1b: [
             "(Ja)"
+        ],
+            sentence1c: [
+            "aj"
         ],
         sentence: [
             "I",
@@ -1191,6 +1224,9 @@ fiszki10.push(
         ],
                 sentence1b: [
             "jadę"
+        ],
+                    sentence1c: [
+            "rajd"
         ],
         sentence: [
             "I",
@@ -1225,6 +1261,9 @@ fiszki10.push(
                         sentence1b: [
             "moim"
         ],
+                    sentence1c: [
+            "maj"
+        ],
         sentence: [
             "I",
             "ride",
@@ -1253,6 +1292,9 @@ fiszki10.push(
         ],
                                 sentence1b: [
             "rowerem"
+        ],
+                    sentence1c: [
+            "bajk"
         ],
         sentence: [
             "I",
@@ -1291,6 +1333,9 @@ fiszki10.push(
                                         sentence2b: [
             "do"
         ],
+                    sentence2c: [
+            "tu"
+        ],
         sentence: [
             "to",
             "school"
@@ -1326,6 +1371,9 @@ fiszki10.push(
                                                 sentence2b: [
             "szkoły"
         ],
+                            sentence2c: [
+            "skul"
+        ],
         sentence: [
             "to",
             "school"
@@ -1350,9 +1398,15 @@ fiszki10.push(
             "https://www.arbulang.com/voice/bike.mp4"
         ],
         story: "<u><b>Ona</u></b> - Patrycja ma ri<u><b>szi</u></b> to naturalny antyoksydant",
-        desc: "she[] - moja, moje",
+        desc: "she[szi] - ona",
         sentence1: [
             "She"
+        ],
+            sentence1b: [
+            "Ona"
+        ],
+                            sentence1c: [
+            "szi"
         ],
         sentence: [
             "She",
@@ -1379,6 +1433,12 @@ fiszki10.push(
         sentence2: [
             "wears"
         ],
+                    sentence1b: [
+            "nosi"
+        ],
+                            sentence1c: [
+            "łers"
+        ],
         sentence: [
             "She",
             "wears",
@@ -1402,6 +1462,12 @@ fiszki10.push(
         ],
         desc: "gold[gold] - złoto",
         sentence2: [
+            "gold"
+        ],
+                    sentence1b: [
+            "złoto"
+        ],
+                            sentence1c: [
             "gold"
         ],
         sentence: [
@@ -1429,6 +1495,12 @@ fiszki10.push(
         sentence2: [
             "around"
         ],
+                    sentence2b: [
+            "wokół"
+        ],
+                            sentence2c: [
+            "eraund"
+        ],
         sentence: [
             "around",
             "her",
@@ -1449,6 +1521,12 @@ fiszki10.push(
         ],
         desc: "her[her] - swojego",
         sentence2: [
+            "her"
+        ],
+                    sentence2b: [
+            "swojej"
+        ],
+                            sentence2c: [
             "her"
         ],
         sentence: [
@@ -1475,6 +1553,12 @@ fiszki10.push(
         desc: "neck[nek] - szyja",
         sentence2: [
             "neck"
+        ],
+                    sentence2b: [
+            "szyji"
+        ],
+                            sentence12c: [
+            "nek"
         ],
         sentence: [
             "around",
@@ -1503,9 +1587,15 @@ fiszki10.push(
             "https://www.arbulang.com/voice/bike.mp4"
         ],
         story: "Orto<b><u>dont</b></u>a ostatnio mnie <b><u>nie</b></u> przyjął, bo był chory",
-        desc: "don't[] - nie",
+        desc: "don't[dont] - nie",
         sentence1: [
             "Don't"
+        ],
+                    sentence1b: [
+            "Nie"
+        ],
+                            sentence1c: [
+            "dont"
         ],
         sentence: [
             "Don't",
@@ -1532,6 +1622,12 @@ fiszki10.push(
         sentence2: [
             "break"
         ],
+                    sentence1b: [
+            "stłucz(złam)"
+        ],
+                            sentence1c: [
+            "brejk"
+        ],
         sentence: [
             "Don't",
             "break",
@@ -1556,6 +1652,12 @@ fiszki10.push(
         desc: "glass[glas] - szkło",
         sentence2: [
             "the glass"
+        ],
+                    sentence1b: [
+            "szkła"
+        ],
+                            sentence1c: [
+            "glas"
         ],
         sentence: [
             "Don't",
@@ -1590,6 +1692,12 @@ fiszki10.push(
         sentence2: [
             "be"
         ],
+                    sentence2b: [
+            "bądź"
+        ],
+                            sentence2c: [
+            "bi"
+        ],
         sentence: [
             "be",
             "careful"
@@ -1614,6 +1722,12 @@ fiszki10.push(
         sentence2: [
             "careful"
         ],
+                    sentence2b: [
+            "ostrożny/ostrożna"
+        ],
+                            sentence2c: [
+            "kerful"
+        ],
         sentence: [
             "be",
             "careful"
@@ -1634,8 +1748,8 @@ fiszki10.push(
         translate: "Postaw krzesło blisko stołu",
         translateb: "[]",
         translateb2: "[]",
-        srcWord: ["https://www.arbulang.com/filmy/tennis.mp4", "V for Vendetta (2005)"],
-        srcWordimage: "https://www.arbulang.com/filmy/tennis.png",
+        srcWord: ["http://localhost/arbulanguage.com/filmy/lekcja37/chair.mp4", "Dwunastu gniewnych ludzi (1957)"],
+        srcWordimage: "http://localhost/arbulanguage.com/filmy/lekcja37/chair.png",
         word: [
             "https://www.arbulang.com/voice/bike.mp4"
         ],
@@ -1643,6 +1757,12 @@ fiszki10.push(
         desc: "put[put] - umieścić",
         sentence1: [
             "Put"
+        ],
+                    sentence1b: [
+            "postaw/umieść"
+        ],
+                            sentence1c: [
+            "put"
         ],
         sentence: [
             "Put",
@@ -1666,7 +1786,13 @@ fiszki10.push(
         ],
         desc: "chair[czer] - krzesło",
         sentence2: [
-            "the chair"
+            "the_chair"
+        ],
+                    sentence1b: [
+            "(te)krzesło"
+        ],
+                            sentence1c: [
+            "de_czer"
         ],
         sentence: [
             "Put",
@@ -1692,6 +1818,12 @@ fiszki10.push(
         sentence2: [
             "near"
         ],
+                    sentence2b: [
+            "blisko/w_pobliżu"
+        ],
+                            sentence2c: [
+            "nir"
+        ],
         sentence: [
             "near",
             "the table"
@@ -1716,13 +1848,19 @@ fiszki10.push(
         sentence2: [
             "table"
         ],
+                            sentence2b: [
+            "stół/tablica"
+        ],
+                            sentence2c: [
+            "tejbul"
+        ],
         sentence: [
             "near",
             "the table"
         ],
         key: "table",
         category1: "nauka",
-        category2: ["rzecz"]
+        category2: ["rzecz", "szkola"]
     },
                                                                                                                 {
         id: [
@@ -1742,9 +1880,15 @@ fiszki10.push(
             "https://www.arbulang.com/voice/bike.mp4"
         ],
         story: "<b><u>Wi</b></u>ll Smith oznajmił, że <b><u>my</b></u> jako ludzkość mamy się dobrze",
-        desc: "put[] - moja, moje",
+        desc: "we[łi] - my",
         sentence1: [
             "We"
+        ],
+                            sentence1b: [
+            "My"
+        ],
+                            sentence1c: [
+            "łi"
         ],
         sentence: [
             "We",
@@ -1771,6 +1915,12 @@ fiszki10.push(
         sentence2: [
             "share"
         ],
+                                    sentence1b: [
+            "dzielimy_się"
+        ],
+                            sentence1c: [
+            "szer"
+        ],
         sentence: [
             "We",
             "share",
@@ -1795,6 +1945,12 @@ fiszki10.push(
         desc: "food[fud] - żywność",
         sentence2: [
             "food"
+        ],
+                                    sentence1b: [
+            "jedzeniem"
+        ],
+                            sentence1c: [
+            "fud"
         ],
         sentence: [
             "We",
@@ -1832,6 +1988,12 @@ fiszki10.push(
         sentence2: [
             "with"
         ],
+                                    sentence2b: [
+            "z"
+        ],
+                            sentence2c: [
+            "łiz"
+        ],
         sentence: [
             "with",
             "our",
@@ -1865,6 +2027,12 @@ fiszki10.push(
         sentence2: [
             "our"
         ],
+                                    sentence2b: [
+            "naszymi"
+        ],
+                            sentence2c: [
+            "aur"
+        ],
         sentence: [
             "with",
             "our",
@@ -1885,6 +2053,12 @@ fiszki10.push(
         desc: "friends[frends] - - friend+s - przyjaciele",
         sentence2: [
             "friends"
+        ],
+                                            sentence2b: [
+            "przyjaciółmi"
+        ],
+                            sentence2c: [
+            "frends"
         ],
         sentence: [
             "with",
@@ -1917,6 +2091,12 @@ fiszki10.push(
         sentence1: [
             "Farmers"
         ],
+                                            sentence1b: [
+            "Rolnicy"
+        ],
+                            sentence1c: [
+            "farmers"
+        ],
         sentence: [
             "Farmers",
             "grow",
@@ -1940,6 +2120,12 @@ fiszki10.push(
         ],
         desc: "grow[groł] - rosnąć",
         sentence2: [
+            "grow"
+        ],
+                                                    sentence1b: [
+            "uprawiają"
+        ],
+                            sentence1c: [
             "grow"
         ],
         sentence: [
@@ -1967,6 +2153,12 @@ fiszki10.push(
         sentence2: [
             "corn"
         ],
+                                                            sentence1b: [
+            "kukurydzę"
+        ],
+                            sentence1c: [
+            "korn"
+        ],
         sentence: [
             "Farmers",
             "grow",
@@ -1992,6 +2184,12 @@ fiszki10.push(
         sentence2: [
             "in"
         ],
+                                                                    sentence2b: [
+            "w"
+        ],
+                            sentence2c: [
+            "in"
+        ],
         sentence: [
             "in",
             "the summer"
@@ -2014,7 +2212,13 @@ fiszki10.push(
         ],
         desc: "the summer[de same] - lato",
         sentence2: [
-            "the summer"
+            "the_summer"
+        ],
+                                                                    sentence2b: [
+            "lecie"
+        ],
+                            sentence2c: [
+            "de_same"
         ],
         sentence: [
             "in",
@@ -2043,6 +2247,12 @@ fiszki10.push(
         desc: "house[hałs] - dom",
         sentence1: [
             "The house"
+        ],
+                                                                            sentence1b: [
+            "(ten)_dom"
+        ],
+                            sentence1c: [
+            "de_hałs"
         ],
         sentence: [
             "The house",
@@ -2083,6 +2293,12 @@ fiszki10.push(
         sentence2: [
             "is"
         ],
+                                                                                    sentence1b: [
+            "jest"
+        ],
+                            sentence1c: [
+            "is"
+        ],
         sentence: [
             "The house",
             "is",
@@ -2109,6 +2325,12 @@ fiszki10.push(
         desc: "made[mejd] - zrobiony",
         sentence2: [
             "made"
+        ],
+                                                                                    sentence1b: [
+            "zrobiony"
+        ],
+                            sentence1c: [
+            "mejd"
         ],
         sentence: [
             "The house",
@@ -2139,6 +2361,12 @@ fiszki10.push(
         sentence2: [
             "of"
         ],
+                                                                                    sentence1b: [
+            "z_czegoś"
+        ],
+                            sentence1c: [
+            "of"
+        ],
         sentence: [
             "The house",
             "is",
@@ -2165,6 +2393,12 @@ fiszki10.push(
         desc: "wood[łud] - drewno",
         sentence2: [
             "wood"
+        ],
+                                                                                            sentence1b: [
+            "drewna"
+        ],
+                            sentence1c: [
+            "łud"
         ],
         sentence: [
             "The house",
@@ -2199,6 +2433,12 @@ fiszki10.push(
         sentence1: [
             "She"
         ],
+                                                                                                    sentence1b: [
+            "Ona"
+        ],
+                            sentence1c: [
+            "szi"
+        ],
         sentence: [
             "She",
             "bought"
@@ -2222,6 +2462,12 @@ fiszki10.push(
         desc: "bought[but, bout] - kupił",
         sentence2: [
             "bought"
+        ],
+                                                                                                    sentence1b: [
+            "kupiła"
+        ],
+                            sentence1c: [
+            "but/bout"
         ],
         sentence: [
             "She",
@@ -2250,6 +2496,12 @@ fiszki10.push(
         sentence2: [
             "a_red"
         ],
+                            sentence2b: [
+            "tą_czerwoną"
+        ],
+                            sentence2c: [
+            "red"
+        ],
         sentence: [
             "_red",
             "summer",
@@ -2275,6 +2527,12 @@ fiszki10.push(
         sentence2: [
             "summer"
         ],
+                                    sentence2b: [
+            "letnią"
+        ],
+                            sentence2c: [
+            "de_same"
+        ],
         sentence: [
             "a_red",
             "summer",
@@ -2299,6 +2557,12 @@ fiszki10.push(
         desc: "dress[dres] - sukienka",
         sentence2: [
             "dress"
+        ],
+                                    sentence2b: [
+            "sukienkę"
+        ],
+                            sentence2c: [
+            "dres"
         ],
         sentence: [
             "a_red",
@@ -2341,6 +2605,12 @@ fiszki10.push(
         sentence1: [
             "He"
         ],
+                                            sentence1b: [
+            "On"
+        ],
+                            sentence1c: [
+            "hi"
+        ],
         sentence: [
             "He",
             "reads",
@@ -2366,6 +2636,12 @@ fiszki10.push(
         sentence1: [
             "reads"
         ],
+                                                    sentence1b: [
+            "czyta"
+        ],
+                            sentence1c: [
+            "rids"
+        ],
         sentence: [
             "He",
             "reads",
@@ -2390,6 +2666,12 @@ fiszki10.push(
         desc: "newspapers[njus-pejper] - gazeta",
         sentence1: [
             "newspapers"
+        ],
+                                                            sentence1b: [
+            "gazety"
+        ],
+                            sentence1c: [
+            "njus-pejper"
         ],
         sentence: [
             "He",
@@ -2429,6 +2711,12 @@ fiszki10.push(
         sentence2: [
             "at"
         ],
+                            sentence2b: [
+            "w"
+        ],
+                            sentence2c: [
+            "at"
+        ],
         sentence: [
             "at",
             "every",
@@ -2450,6 +2738,12 @@ fiszki10.push(
         sentence2: [
             "every"
         ],
+                                    sentence2b: [
+            "każdy"
+        ],
+                            sentence2c: [
+            "ewry"
+        ],
         sentence: [
             "at",
             "every",
@@ -2470,6 +2764,12 @@ fiszki10.push(
         desc: "week[łik] - tydzień",
         sentence2: [
             "week"
+        ],
+                                            sentence2b: [
+            "tydzień"
+        ],
+                            sentence2c: [
+            "łik"
         ],
         sentence: [
             "at",
@@ -2496,8 +2796,8 @@ fiszki10.push(
         translate: "Zapraszam cię na moje urodziny",
         translateb: "[]",
         translateb2: "[]",
-        srcWord: ["https://www.arbulang.com/filmy/newspaper.mp4", "Kevin sam w domu (1990)"],
-        srcWordimage: "https://www.arbulang.com/filmy/newspaper.png",
+        srcWord: ["http://localhost/arbulanguage.com/filmy/lekcja39/invite.mp4", "Matrix Reaktywacja (2003)"],
+        srcWordimage: "http://localhost/arbulanguage.com/filmy/lekcja39/invite.png",
         word: [
             "https://www.arbulang.com/voice/bike.mp4"
         ],
@@ -2511,6 +2811,12 @@ fiszki10.push(
         desc: "I[hi] - on",
         sentence1: [
             "I"
+        ],
+                                                    sentence1b: [
+            "Ja"
+        ],
+                            sentence1c: [
+            "aj"
         ],
         sentence: [
             "I",
@@ -2537,6 +2843,12 @@ fiszki10.push(
         sentence2: [
             "invite"
         ],
+                                                            sentence1b: [
+            "zapraszam"
+        ],
+                            sentence1c: [
+            "inwajt"
+        ],
         sentence: [
             "I",
             "invite",
@@ -2557,6 +2869,12 @@ fiszki10.push(
         desc: "you[ju] - ty",
         sentence2: [
             "you"
+        ],
+                                                                    sentence1b: [
+            "ciebie"
+        ],
+                            sentence1c: [
+            "ju"
         ],
         sentence: [
             "I",
@@ -2591,6 +2909,12 @@ fiszki10.push(
         sentence2: [
             "to"
         ],
+                                                                            sentence2b: [
+            "na"
+        ],
+                            sentence2c: [
+            "tu"
+        ],
         sentence: [
             "to",
             "my",
@@ -2620,6 +2944,12 @@ fiszki10.push(
         sentence2: [
             "my"
         ],
+        sentence2b: [
+            "moje"
+        ],
+                            sentence2c: [
+            "maj"
+        ],
         sentence: [
             "to",
             "my",
@@ -2643,6 +2973,12 @@ fiszki10.push(
         desc: "birthday[bersdej] - urodziny",
         sentence2: [
             "birthday"
+        ],
+                    sentence2b: [
+            "urodziny"
+        ],
+                            sentence2c: [
+            "bersdej"
         ],
         sentence: [
             "to",
@@ -2677,6 +3013,12 @@ fiszki10.push(
         sentence1: [
             "A_shark"
         ],
+        sentence1b: [
+            "rekin"
+        ],
+                            sentence1c: [
+            "szark"
+        ],
         sentence: [
             "A_shark",
             "swim",
@@ -2704,6 +3046,12 @@ fiszki10.push(
         sentence2: [
             "swim"
         ],
+                sentence1b: [
+            "pływa"
+        ],
+                            sentence1c: [
+            "słim"
+        ],
         sentence: [
             "A_shark",
             "swim",
@@ -2723,6 +3071,12 @@ fiszki10.push(
         story: "Ten chw<b><u>ast</b></u> szybko rośnie, bo to <b><u>f</b></u>uriat wśród chwastów",
         desc: "fast[fast] - szybko",
         sentence2: [
+            "fast"
+        ],
+                sentence1b: [
+            "szybko"
+        ],
+                            sentence1c: [
             "fast"
         ],
         sentence: [
@@ -2750,6 +3104,12 @@ fiszki10.push(
         sentence2: [
             "in"
         ],
+                sentence2b: [
+            "w"
+        ],
+                            sentence2c: [
+            "in"
+        ],
         sentence: [
             "in",
             "water"
@@ -2773,6 +3133,12 @@ fiszki10.push(
         desc: "water[łoter] - woda",
         sentence2: [
             "water"
+        ],
+                        sentence2b: [
+            "wodzie"
+        ],
+                            sentence2c: [
+            "łoter"
         ],
         sentence: [
             "in",
@@ -2806,6 +3172,12 @@ fiszki10.push(
         sentence1: [
             "The baby"
         ],
+                                sentence1b: [
+            "Dziecko"
+        ],
+                            sentence1c: [
+            "bejbi/beibi"
+        ],
         sentence: [
             "The baby",
             "sleeps"
@@ -2829,6 +3201,12 @@ fiszki10.push(
         desc: "sleeps[slips] - śpi",
         sentence2: [
             "sleeps"
+        ],
+                                        sentence1b: [
+            "śpi"
+        ],
+                            sentence1c: [
+            "slips"
         ],
         sentence: [
             "The baby",
@@ -2854,6 +3232,12 @@ fiszki10.push(
         sentence2: [
             "in"
         ],
+                                                sentence2b: [
+            "w"
+        ],
+                            sentence2c: [
+            "in"
+        ],
         sentence: [
             "in",
             "the crib"
@@ -2877,6 +3261,12 @@ fiszki10.push(
         desc: "crib[krib] - kołyska",
         sentence2: [
             "crib"
+        ],
+                                                sentence1b: [
+            "kołysce"
+        ],
+                            sentence1c: [
+            "krib"
         ],
         sentence: [
             "in",
@@ -2908,15 +3298,17 @@ fiszki10.push(
             "http://localhost/arbulanguage.com/voice/bike.mp4"
         ],
         story: [
-                'To właśnie <u><b>on</u></b> jest <span class="adannotation" data-annotation="1"><b><u>hi</b></u></span>tem tego sezonu piłkarskiego',
-                'Samiec czyli <u><b>on</u></b> - <span class="adannotation" data-annotation="1"><b><u>hi</b></u></span>popotam',
-                '<u><b>On</b></u> - <span class="adannotation" data-annotation="1"><u><b>Hi</b></u></span>eronim odleciał balonem',
-                'Ma<span class="adannotation" data-annotation="1"><u><b>chi</u></b></span>nę do tortur wymyślił <u><b>on</u></b> - jest <span class="adannotation" data-annotation="1"><u><b>Hi</u></b></span>ndusem',
-                '<u><b>On</u></b> je ciastka <span class="adannotation" data-annotation="1"><u><b>hi</u></b></span>ty'
+""
         ],
-        desc: "I[hi] - on",
+        desc: "I[aj] - ja",
         sentence1: [
             "I"
+        ],
+                                                sentence1b: [
+            "ja"
+        ],
+                            sentence1c: [
+            "aj"
         ],
         sentence: [
             "I",
@@ -2942,6 +3334,12 @@ fiszki10.push(
         desc: "bought[but, bout] - kupił",
         sentence2: [
             "bought"
+        ],
+                                                        sentence1b: [
+            "kupiłem"
+        ],
+                            sentence1c: [
+            "but/bout"
         ],
         sentence: [
             "I",

@@ -44,7 +44,7 @@ fiszki10.push(
             "czarny humor", "dzieciństwo",
             "związki", "otoczenie"
         ],
-        category2: ["osoby"]
+        category2: ["osoby", "zaimkiosobowe"]
     },
     {
         id: [
@@ -124,7 +124,7 @@ fiszki10.push(
             "czarny humor", "dzieciństwo",
             "związki", "otoczenie"
         ],
-        category2: ["osoby"],
+        category2: ["osoby", "zaimkiosobowe"],
         category3: ["PastSimple"]
     },
     {
@@ -152,7 +152,7 @@ fiszki10.push(
         ],
         key: "kind",
         category1: "nauka",
-        category2: [""]
+        category2: ["przymiotnik"]
     },
     {
         id: [
@@ -179,7 +179,7 @@ fiszki10.push(
         ],
         key: "words",
         category1: "nauka",
-        category2: [""]
+        category2: ["szkola"]
     },
     {
         id: [
@@ -206,7 +206,7 @@ fiszki10.push(
         ],
         key: "made",
         category1: "nauka",
-        category2: [""]
+        category2: ["czasownik"]
     },
     {
         id: [
@@ -244,7 +244,7 @@ fiszki10.push(
             "związki", "przyjaźń",
             "nauka", "pory roku"
         ],
-        category2: ["zaimkiosobowe"]
+        category2: ["zaimkiosobowe", "osoby"]
     },
     {
         id: [
@@ -271,7 +271,7 @@ fiszki10.push(
         ],
         key: "day",
         category1: "nauka",
-        category2: [""]
+        category2: ["czas"]
     },
     {
         id: [
@@ -348,7 +348,7 @@ fiszki10.push(
         ],
         key: "appreciate",
         category1: "nauka",
-        category2: [""],
+        category2: ["czasownik"],
         category3: ["PresentSimple", "PresentSimpleCzasownik"]
     },
     {
@@ -448,7 +448,7 @@ fiszki10.push(
         ],
         key: "today",
         category1: "nauka",
-        category2: [""]
+        category2: ["czas"]
     },
     {
         id: [
@@ -528,7 +528,7 @@ fiszki10.push(
         ],
         key: "flower",
         category1: "nauka",
-        category2: [""],
+        category2: ["natura"],
         category3: ["PresentSimple", "PresentSimplePodmiot"]
     },
     {
@@ -651,7 +651,7 @@ fiszki10.push(
         ],
         key: "but",
         category1: "nauka",
-        category2: [""]
+        category2: ["spojniki"]
     },
     {
         id: [
@@ -680,7 +680,7 @@ fiszki10.push(
         ],
         key: "all",
         category1: "nauka",
-        category2: [""]
+        category2: ["okresleniaIlosci"]
     },
     {
         id: [
@@ -744,7 +744,7 @@ fiszki10.push(
         ],
         key: "are",
         category1: "nauka",
-        category2: [""]
+        category2: ["czasownik"]
     },
     {
         id: [
@@ -854,7 +854,7 @@ fiszki10.push(
         ],
         key: "is",
         category1: "nauka",
-        category2: [""]
+        category2: ["czasownik"]
     },
     {
         id: [
@@ -881,7 +881,7 @@ fiszki10.push(
         ],
         key: "reading",
         category1: "nauka",
-        category2: [""]
+        category2: ["czasownik"]
     },
     {
         id: [
@@ -937,7 +937,7 @@ fiszki10.push(
         ],
         key: "new",
         category1: "nauka",
-        category2: [""]
+        category2: ["przymiotnik"]
     },
     {
         id: [
@@ -965,7 +965,7 @@ fiszki10.push(
         ],
         key: "book",
         category1: "nauka",
-        category2: [""]
+        category2: ["rzecz", "szkola"]
     },
     {
         id: [
@@ -993,7 +993,7 @@ fiszki10.push(
         ],
         key: "now",
         category1: "nauka",
-        category2: [""]
+        category2: ["czas"]
     },
     {
         id: [
@@ -1063,7 +1063,7 @@ fiszki10.push(
         ],
         key: "are",
         category1: "nauka",
-        category2: [""]
+        category2: ["czasownik"]
     },
     {
         id: [
@@ -1091,7 +1091,7 @@ fiszki10.push(
         ],
         key: "playing",
         category1: "nauka",
-        category2: [""]
+        category2: ["czasownik"]
     },
     {
         id: [
@@ -1121,7 +1121,7 @@ fiszki10.push(
         category1: [
             "sport", "piłka nożna"
         ],
-        category2: [""]
+        category2: ["sport"]
     },
     {
         id: [
@@ -1240,7 +1240,7 @@ fiszki10.push(
         ],
         key: "moment",
         category1: "nauka",
-        category2: [""]
+        category2: ["czas"]
     },
     {
         id: [
@@ -1338,7 +1338,7 @@ fiszki10.push(
         ],
         key: "is",
         category1: "nauka",
-        category2: [""]
+        category2: ["czasownik"]
     },
     {
         id: [
@@ -1366,7 +1366,7 @@ fiszki10.push(
         ],
         key: "cooking",
         category1: "nauka",
-        category2: [""]
+        category2: ["jedzenie"]
     },
     {
         id: [
@@ -1394,7 +1394,7 @@ fiszki10.push(
         ],
         key: "dinner",
         category1: "nauka",
-        category2: [""]
+        category2: ["jedzenie"]
     },
     {
         id: [
@@ -1448,7 +1448,7 @@ fiszki10.push(
         ],
         key: "us",
         category1: "nauka",
-        category2: ["osoby"]
+        category2: ["osoby", "zaimkiosobowe"]
     },
     {
         id: [
@@ -1475,7 +1475,7 @@ fiszki10.push(
         ],
         key: "tonight",
         category1: "nauka",
-        category2: [""]
+        category2: ["czas"]
     },
     {
         id: [
@@ -1564,7 +1564,7 @@ fiszki10.push(
         ],
         key: "am",
         category1: "nauka",
-        category2: [""]
+        category2: ["czasownik"]
     },
     {
         id: [
@@ -1591,7 +1591,7 @@ fiszki10.push(
         ],
         key: "working",
         category1: "nauka",
-        category2: [""]
+        category2: ["czasownik"]
     },
     {
         id: [
@@ -1620,7 +1620,7 @@ fiszki10.push(
         ],
         key: "on",
         category1: "nauka",
-        category2: [""]
+        category2: ["okresleniaMiejsca"]
     },
     {
         id: [
@@ -1684,7 +1684,7 @@ fiszki10.push(
         ],
         key: "big",
         category1: "nauka",
-        category2: [""]
+        category2: ["przymiotnik"]
     },
     {
         id: [
@@ -1713,7 +1713,7 @@ fiszki10.push(
         ],
         key: "project",
         category1: "nauka",
-        category2: [""]
+        category2: ["rzecz", "szkola"]
     },
     {
         id: [
@@ -1742,7 +1742,7 @@ fiszki10.push(
         ],
         key: "today",
         category1: "nauka",
-        category2: [""]
+        category2: ["czas"]
     },
     {
         id: [
@@ -1816,7 +1816,7 @@ fiszki10.push(
         ],
         key: "are",
         category1: "nauka",
-        category2: [""]
+        category2: ["czasownik"]
     },
     {
         id: [
@@ -1843,7 +1843,7 @@ fiszki10.push(
         ],
         key: "swimming",
         category1: "nauka",
-        category2: [""]
+        category2: ["czasownik", "sport"]
     },
     {
         id: [
@@ -1869,7 +1869,7 @@ fiszki10.push(
         ],
         key: "in",
         category1: "nauka",
-        category2: [""]
+        category2: ["okresleniaIlosci"]
     },
     {
         id: [
@@ -1895,7 +1895,7 @@ fiszki10.push(
         ],
         key: "pool",
         category1: "nauka",
-        category2: [""]
+        category2: ["miejsca"]
     },
     {
         id: [
@@ -1971,7 +1971,7 @@ fiszki10.push(
         ],
         key: "are",
         category1: "nauka",
-        category2: [""]
+        category2: ["czasownik"]
     },
     {
         id: [
@@ -2001,7 +2001,7 @@ fiszki10.push(
         ],
         key: "watching",
         category1: "nauka",
-        category2: [""]
+        category2: ["czasownik"]
     },
     {
         id: [
@@ -2097,7 +2097,7 @@ fiszki10.push(
         ],
         key: "now",
         category1: "nauka",
-        category2: [""]
+        category2: ["czas"]
     },
     {
         id: [
@@ -2248,7 +2248,7 @@ fiszki10.push(
         ],
         key: "in",
         category1: "nauka",
-        category2: [""]
+        category2: ["okresleniaIlosci"]
     },
     {
         id: [
@@ -2260,13 +2260,13 @@ fiszki10.push(
         story: "Kur<b><u>de</b></u>, jak tutaj teraz za<b><u>park</b></u>ować koło <b><u>tego parku</b></u>",
         desc: "the park[de park] - park",
         sentence2: [
-            "the park"
+            "the_park"
         ],
                                                     sentence2b: [
-            "tym parku"
+            "tym_parku"
         ],
                             sentence2c: [
-            "de park"
+            "de_park"
         ],
         sentence: [
             "in",
@@ -2444,7 +2444,7 @@ fiszki10.push(
         ],
         key: "dinner",
         category1: "nauka",
-        category2: ["zdarzenia"]
+        category2: ["jedzenie"]
     },
     {
         id: [
@@ -2625,7 +2625,7 @@ fiszki10.push(
         ],
         key: "learning",
         category1: "nauka",
-        category2: ["czasownik"]
+        category2: ["czasownik", "szkola"]
     },
     {
         id: [
@@ -2653,7 +2653,7 @@ fiszki10.push(
         ],
         key: "english",
         category1: "nauka",
-        category2: [""]
+        category2: ["szkola"]
     },
     {
         id: [
@@ -2691,7 +2691,7 @@ fiszki10.push(
         ],
         key: "this",
         category1: "nauka",
-        category2: ["zaimki"]
+        category2: [""]
     },
     {
         id: [
@@ -2845,7 +2845,7 @@ fiszki10.push(
         ],
         key: "many",
         category1: "nauka",
-        category2: ["czas", "ilość"]
+        category2: ["czas", "okresleniaIlosci"]
     },
     {
         id: [
@@ -2890,9 +2890,9 @@ fiszki10.push(
         translateb: "[Aj hew finiszt maj hołmłork]",
         translateb2: "[Aj hew finiszt maj hołmłork]",
                 translateb3: "I have finished my homework",
-        srcWord: ["https://www.arbulang.com/filmy/lekcja15/homework.mp4", "Prison Break"],
-        srcWord2: ["https://www.arbulang.com/filmy/lekcja15/procedure.mp4", ""],
-        srcWordimage: "https://www.arbulang.com/filmy/homework.png",
+        srcWord: ["http://localhost/arbulanguage.com/filmy/lekcja15/homework.mp4", "Prison Break"],
+        srcWord2: ["http://localhost/arbulanguage.com/filmy/lekcja15/procedure.mp4", ""],
+        srcWordimage: "https://www.arbulang.com/filmy/lekcja15/homework.png",
                                                         opis: "Przygotowania logistyczne głównego bohatera",
         word: [
             "https://www.arbulang.com/voice/bike.mp4"
@@ -2990,7 +2990,7 @@ fiszki10.push(
             "związki", "przyjaźń",
             "nauka", "pory roku"
         ],
-        category2: ["zaimkiosobowe"]
+        category2: ["zaimkiosobowe", "osoby"]
     },
     {
         id: [
@@ -3018,7 +3018,7 @@ fiszki10.push(
         ],
         key: "homework",
         category1: "nauka",
-        category2: ["zdarzenia"]
+        category2: ["szkola"]
     },
         {
         id: [
@@ -3119,7 +3119,7 @@ fiszki10.push(
         ],
         key: "in",
         category1: "nauka",
-        category2: [""]
+        category2: ["okresleniaMiejsca"]
     },
                     {
         id: [
@@ -3160,7 +3160,7 @@ fiszki10.push(
         ],
         key: "this",
         category1: "nauka",
-        category2: ["zaimki"]
+        category2: [""]
     },
                     {
         id: [
@@ -3189,7 +3189,7 @@ fiszki10.push(
         ],
         key: "house",
         category1: "nauka",
-        category2: ["rzeczy"]
+        category2: ["rzecz", "budynki"]
     },
                         {
         id: [
@@ -3215,7 +3215,7 @@ fiszki10.push(
         ],
         key: "for",
         category1: "nauka",
-        category2: ["zaimki"]
+        category2: [""]
     },
                             {
         id: [
@@ -3297,7 +3297,7 @@ fiszki10.push(
             "czarny humor", "polityka",
             "związki", "rodzina"
         ],
-        category2: ["zaimki"],
+        category2: [""],
         category3: ["PresentPerfect"]
     },
     {
@@ -3325,7 +3325,7 @@ fiszki10.push(
         ],
         key: "movie",
         category1: "nauka",
-        category2: ["zdarzenia"]
+        category2: [""]
     },
         {
         id: [
@@ -3367,7 +3367,7 @@ fiszki10.push(
                 ],
                 key: "has",
                 category1: "nauka",
-                category2: ["czasownik"]
+                category2: [""]
         },
         {
         id: [
@@ -3393,6 +3393,6 @@ fiszki10.push(
                 ],
                 key: "just",
                 category1: "nauka",
-                category2: ["czas", "ilość"]
+                category2: ["przymiotnik"]
         }
 );

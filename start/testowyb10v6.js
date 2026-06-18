@@ -28,7 +28,7 @@ fiszki10.push(
         ],
         key: "blue",
         category1: "nauka",
-        category2: ["okresleniaMiejsca"]
+        category2: ["kolory"]
     },
 {
         id: [
@@ -59,7 +59,7 @@ fiszki10.push(
         ],
         key: "today",
         category1: "nauka",
-        category2: ["okresleniaMiejsca"]
+        category2: ["czas"]
     },
  {
         id: [
@@ -123,7 +123,7 @@ fiszki10.push(
         ],
         key: "work",
         category1: "nauka",
-        category2: ["okresleniaMiejsca"]
+        category2: ["czasownik"]
     },
                                                                                                                                                                             {
         id: [
@@ -150,7 +150,7 @@ fiszki10.push(
         ],
         key: "together",
         category1: "nauka",
-        category2: ["okresleniaMiejsca"]
+        category2: ["zaimkiosobowe"]
     },
 {
         id: [
@@ -179,7 +179,7 @@ fiszki10.push(
         ],
         key: "in the same office",
         category1: "nauka",
-        category2: ["okresleniaMiejsca"]
+        category2: ["okresleniaMiejsca", "budynki", "szkola"]
     },
 {
         id: [
@@ -255,7 +255,7 @@ fiszki10.push(
         ],
         key: "visits",
         category1: "nauka",
-        category2: ["okresleniaMiejsca"]
+        category2: ["czasownik"]
     },
                                   {
         id: [
@@ -286,7 +286,7 @@ fiszki10.push(
         ],
         key: "library",
         category1: "nauka",
-        category2: ["okresleniaMiejsca"]
+        category2: ["szkoła"]
     },
                                                                           {
         id: [
@@ -316,7 +316,7 @@ fiszki10.push(
         ],
         key: "every",
         category1: "nauka",
-        category2: ["okresleniaMiejsca"]
+        category2: ["okresleniaIlosci"]
     },
                                                                                      {
         id: [
@@ -342,7 +342,7 @@ fiszki10.push(
         ],
         key: "week",
         category1: "nauka",
-        category2: ["okresleniaMiejsca"]
+        category2: ["czas"]
     },
                                                                 {
         id: [
@@ -421,7 +421,7 @@ fiszki10.push(
         ],
         key: "plants",
         category1: "nauka",
-        category2: ["okresleniaMiejsca"]
+        category2: ["jedzenie"]
     },   
     {
         id: [
@@ -452,7 +452,7 @@ fiszki10.push(
         ],
         key: "vegetables",
         category1: "nauka",
-        category2: ["okresleniaMiejsca"]
+        category2: ["jedzenie"]
     },
         {
         id: [
@@ -522,7 +522,7 @@ fiszki10.push(
         ],
         key: "his",
         category1: "nauka",
-        category2: ["okresleniaMiejsca"]
+        category2: ["zaimkiosobowe"]
     },
         {
         id: [
@@ -553,7 +553,7 @@ fiszki10.push(
         ],
         key: "garden",
         category1: "nauka",
-        category2: ["okresleniaMiejsca"]
+        category2: ["dom", "natura"]
     },
             {
         id: [
@@ -623,7 +623,7 @@ fiszki10.push(
         ],
         key: "explore",
         category1: "nauka",
-        category2: ["okresleniaMiejsca"]
+        category2: ["czasownik"]
     },
 {
         id: [
@@ -655,7 +655,7 @@ fiszki10.push(
         ],
         key: "new",
         category1: "nauka",
-        category2: ["okresleniaMiejsca"]
+        category2: ["przymiotnik"]
     },
 {
         id: [
@@ -717,7 +717,7 @@ fiszki10.push(
         ],
         key: "every",
         category1: "nauka",
-        category2: ["okresleniaMiejsca"]
+        category2: ["okresleniaIlosci"]
     },
  {
         id: [
@@ -898,7 +898,7 @@ fiszki10.push(
         ],
         key: "this",
         category1: "nauka",
-        category2: ["okresleniaMiejsca"]
+        category2: [""]
     },
      {
         id: [
@@ -2901,10 +2901,10 @@ fiszki10.push(
         ],
         desc: "{the) cat[de kat] - (ten) kot",
         sentence1: [
-            "The cat"
+            "The_cat"
         ],
                                                                     sentence1b: [
-            "(Ten) kot"
+            "(Ten)_kot"
         ],
                     sentence1c: [
             "De_kat"

@@ -141,7 +141,7 @@ id: [
         ],
         key: "this",
         category1: "nauka",
-        category2: ["zaimki"]
+        category2: [""]
 },
 {
 id: [
@@ -170,7 +170,7 @@ id: [
         ],
         key: "book",
         category1: "nauka",
-        category2: ["rzeczy"]
+        category2: ["rzecz"]
 },
 {
 id: [
@@ -199,7 +199,7 @@ id: [
         ],
         key: "twice",
         category1: "nauka",
-        category2: ["ilość"]
+        category2: ["okresleniaIlsoci", "czas"]
 },
 {
 id: [
@@ -461,7 +461,7 @@ id: [
         category1: [
                 "sport", "piłka nożna"
         ],
-        category2: ["sporty"]
+        category2: ["sport"]
 },
 {
 id: [
@@ -637,7 +637,7 @@ id: [
         key3: ["wszelki-any", "każdorazowy-each"],
         key4: ["every-każdy"],
         category1: "nauka",
-        category2: ["czas", "ilość"]
+        category2: ["okresleniaIlosci"]
 },
 {
 id: [
@@ -664,7 +664,7 @@ id: [
         ],
         key: "single",
         category1: "nauka",
-        category2: ["czas", "ilość"]
+        category2: ["okresleniaIlosci"]
 },
 {
 id: [
@@ -748,7 +748,7 @@ id: [
                 "czarny humor", "polityka",
                 "związki", "rodzina"
         ],
-        category2: ["zaimki"],
+        category2: [""],
         category3: ["PresentSimple", "PresentSimplePodmiot"]
 },
 {
@@ -851,7 +851,7 @@ id: [
         ],
         key: "fast",
         category1: "nauka",
-        category2: ["czas"]
+        category2: ["czas", "przymiotnik"]
 },
 {
 id: [
@@ -877,7 +877,7 @@ id: [
         ],
         key: "every",
         category1: "nauka",
-        category2: ["czas", "ilość"]
+        category2: ["okresleniaIlosci"]
 },
 {
 id: [
@@ -1067,7 +1067,7 @@ id: [
         ],
         key: "shoes",
         category1: "nauka",
-        category2: ["rzeczy"]
+        category2: ["rzeczy", "garderoba"]
 },
 {
 id: [
@@ -1157,7 +1157,7 @@ id: [
         ],
         key: "store",
         category1: "nauka",
-        category2: ["okresleniaMiejsca"]
+        category2: ["okresleniaMiejsca", "budynki"]
 },
 {
 id: [
@@ -1231,7 +1231,7 @@ id: [
                 "teacher"
         ],
         key: "our",
-        category2: ["osoby"],
+        category2: ["osoby", "zaimkiosobowe"],
         category3: ["PresentSimple", "PresentSimplePodmiot"]
 },
 {
@@ -1258,7 +1258,7 @@ id: [
         ],
         key: "teacher",
         category1: "nauka",
-        category2: ["osoby"],
+        category2: ["osoby", "szkola"],
         category3: ["PresentSimple", "PresentSimpleCzasownik"]
 },
 {
@@ -1386,7 +1386,7 @@ id: [
         ],
         key: "homework",
         category1: "nauka",
-        category2: [""]
+        category2: ["szkola"]
 },
 {
 id: [
@@ -1435,7 +1435,7 @@ id: [
                 "sleeps"
         ],
         key: "the",
-        category2: ["zaimki"],
+        category2: [""],
         category3: ["PresentSimple", "PresentSimplePodmiot"]
 },
 {
@@ -1463,7 +1463,7 @@ id: [
         ],
         key: "dog",
         category1: "nauka",
-        category2: ["zwierzęta"],
+        category2: ["zwierzeta"],
         category3: ["PresentSimple", "PresentSimpleCzasownik"]
 },
 {
@@ -1565,7 +1565,7 @@ id: [
         ],
         key: "the",
         category1: "nauka",
-        category2: ["zaimki"]
+        category2: [""]
 },
 {
 id: [
@@ -1599,7 +1599,7 @@ id: [
         ],
         key: "big",
         category1: "nauka",
-        category2: ["ilość"]
+        category2: ["ilość", "przymiotnik"]
 },
 {
 id: [
@@ -1631,7 +1631,7 @@ id: [
         ],
         key: "tree",
         category1: "nauka",
-        category2: ["rzeczy"]
+        category2: ["rzeczy", "natura"]
 },
 {
 id: [
@@ -1680,7 +1680,7 @@ id: [
                 "drives"
         ],
         key: "the",
-        category2: ["zaimki"],
+        category2: [""],
         category3: ["PresentSimple", "PresentSimplePodmiot"]
 },
 {
@@ -1827,7 +1827,7 @@ id: [
         ],
         key: "fast",
         category1: "nauka",
-        category2: ["czas", "ilość"]
+        category2: ["przymiotnik"]
 },
 {
 id: [
@@ -1877,7 +1877,7 @@ id: [
                 "outside"
         ],
         key: "the",
-        category2: ["osoby"],
+        category2: [""],
         category3: ["PresentSimple", "PresentSimplePodmiot"]
 },
 {
@@ -2037,7 +2037,7 @@ id: [
         ],
         key: "the",
         category1: "nauka",
-        category2: ["zaimki"]
+        category2: [""]
 },
 {
 id: [
@@ -2076,7 +2076,7 @@ id: [
         ],
         key: "school",
         category1: "nauka",
-        category2: ["rzeczy"]
+        category2: ["budynki", "szkola"]
 },
 {
 id: [
@@ -2127,7 +2127,7 @@ id: [
                 "books"
         ],
         key: "the",
-        category2: ["osoby"],
+        category2: [""],
         category3: ["PresentSimple", "PresentSimplePodmiot"]
 },
 {
@@ -2220,7 +2220,7 @@ id: [
         ],
         key: "to read",
         category1: "nauka",
-        category2: ["okresleniaMiejsca"]
+        category2: ["czasownik"]
 },
 {
 id: [
@@ -2466,7 +2466,7 @@ id: [
         ],
         key: "sings",
         category1: "nauka",
-        category2: ["osoby"],
+        category2: ["czasownik"],
         category3: ["PresentSimple", "PresentSimpleCzasownik"]
 },
 {
@@ -2494,7 +2494,7 @@ id: [
         ],
         key: "beautifuly",
         category1: "nauka",
-        category2: ["czasownik"]
+        category2: ["przymiotnik"]
 },
 {
 id: [
@@ -2568,7 +2568,7 @@ id: [
                 "loves"
         ],
         key: "my",
-        category2: ["osoby"],
+        category2: ["osoby", "zaimkiosobowe"],
         category3: ["PresentSimple", "PresentSimplePodmiot"]
 },
 {
@@ -2600,7 +2600,7 @@ id: [
         ],
         key: "friend",
         category1: "nauka",
-        category2: ["okresleniaMiejsca"]
+        category2: ["osoby"]
 },
 {
 id: [
@@ -2661,7 +2661,7 @@ id: [
         ],
         key: "to play",
         category1: "nauka",
-        category2: ["okresleniaMiejsca"]
+        category2: ["czasownik"]
 },
 {
 id: [
@@ -2691,7 +2691,7 @@ id: [
         ],
         key: "tennis",
         category1: "nauka",
-        category2: ["okresleniaMiejsca"]
+        category2: ["sport"]
 },
 {
 id: [
@@ -2766,7 +2766,7 @@ id: [
         ],
         key: "visit",
         category1: "nauka",
-        category2: ["okresleniaMiejsca"]
+        category2: ["czasownik"]
 },
 {
 id: [
@@ -2806,7 +2806,7 @@ id: [
         ],
         key: "our",
         category1: "nauka",
-        category2: ["okresleniaMiejsca"]
+        category2: ["zaimkiosobowe", "osoby"]
 },
 {
 id: [
@@ -2838,7 +2838,7 @@ id: [
         ],
         key: "grandparents",
         category1: "nauka",
-        category2: ["okresleniaMiejsca"]
+        category2: ["osoby"]
 },
 {
 id: [
@@ -2868,7 +2868,7 @@ id: [
         ],
         key: "every",
         category1: "nauka",
-        category2: ["okresleniaMiejsca"]
+        category2: ["okresleniaIlosci"]
 },
 {
 id: [
@@ -2947,7 +2947,7 @@ id: [
                 "nearby"
         ],
         key: "the",
-        category2: ["osoby"],
+        category2: [""],
         category3: ["Present Simple (passive adjective)", "PresentSimplePodmiot"]
 },
 {
@@ -2981,7 +2981,7 @@ id: [
         ],
         key: "car",
         category1: "sport-nagroda",
-        category2: ["okresleniaMiejsca"]
+        category2: ["rzecz"]
 },
 {
 id: [
@@ -3026,7 +3026,7 @@ id: [
         ],
         key: "is",
         category1: "nauka",
-        category2: ["okresleniaMiejsca"]
+        category2: ["czasownik"]
 },
 {
 id: [
@@ -3059,7 +3059,7 @@ id: [
         ],
         key: "parked",
         category1: "nauka",
-        category2: ["okresleniaMiejsca"]
+        category2: ["czasownik"]
 },
 {
 id: [
@@ -3170,7 +3170,7 @@ id: [
         ],
         key: "have",
         category1: "nauka",
-        category2: ["okresleniaMiejsca"]
+        category2: ["czasownik"]
 },
 {
 id: [
@@ -3202,7 +3202,7 @@ id: [
         ],
         key: "two",
         category1: "nauka",
-        category2: ["okresleniaMiejsca"]
+        category2: ["okresleniaIlosci"]
 },
 {
 id: [
@@ -3242,7 +3242,7 @@ id: [
         ],
         key: "cats",
         category1: "nauka",
-        category2: ["okresleniaMiejsca"]
+        category2: ["zwierzetas"]
 },
 {
         id: [
@@ -3322,7 +3322,7 @@ id: [
             "the ground"
         ],
         key: "the",
-        category2: ["osoby"],
+        category2: [""],
         category3: ["PresentSimple", "PresentSimplePodmiot"]
     },
                                                                                                                                 {
@@ -3389,6 +3389,6 @@ id: [
         ],
         key: "flies",
         category1: "nauka",
-        category2: ["okresleniaMiejsca"]
+        category2: ["czasownik"]
     },
 );
