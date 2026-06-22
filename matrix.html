@@ -39,69 +39,83 @@
 .orange {
     background: orange;
 }
+/* Domyślny wygląd */
 .rodzaj-button {
-    padding: 10px 15px;
-    cursor: pointer;
-    border-radius: 10px;
-    border: 2px solid transparent;
     color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 10px 14px;
+    margin: 4px;
     font-weight: bold;
+    cursor: pointer;
 }
 
-/* Każdy przycisk inny kolor */
+/* Pierwszy rząd */
 .rodzaj-button[data-rodzaj="osoby"] {
-    background: #1abc9c;
+    background: #e74c3c; /* czerwony */
 }
 
 .rodzaj-button[data-rodzaj="zaimkiosobowe"] {
-    background: #3498db;
+    background: #3498db; /* niebieski */
 }
 
 .rodzaj-button[data-rodzaj="spojniki"] {
-    background: #9b59b6;
+    background: #2ecc71; /* zielony */
 }
 
+/* Kategorie */
 .rodzaj-button[data-rodzaj="czasownik"] {
-    background: #e74c3c;
+    background: #9b59b6; /* fiolet */
 }
 
 .rodzaj-button[data-rodzaj="czas"] {
-    background: #f39c12;
+    background: #f39c12; /* pomarańcz */
 }
 
 .rodzaj-button[data-rodzaj="okresleniaIlosci"] {
-    background: #16a085;
+    background: #1abc9c; /* turkus */
 }
 
 .rodzaj-button[data-rodzaj="okresleniaMiejsca"] {
-    background: #2980b9;
+    background: #34495e; /* granat */
 }
 
 .rodzaj-button[data-rodzaj="natura"] {
-    background: #27ae60;
+    background: #27ae60; /* ciemna zieleń */
 }
 
 .rodzaj-button[data-rodzaj="kolory"] {
-    background: #8e44ad;
+    background: #ff1493; /* różowy */
 }
 
 .rodzaj-button[data-rodzaj="zwierzeta"] {
-    background: #d35400;
+    background: #795548; /* brąz */
 }
 
 .rodzaj-button[data-rodzaj="garderoba"] {
-    background: #c0392b;
+    background: #8e44ad; /* śliwkowy */
 }
 
 .rodzaj-button[data-rodzaj="cialo"] {
-    background: #7f8c8d;
+    background: #c0392b; /* ciemna czerwień */
 }
 
-/* Hover */
+.rodzaj-button[data-rodzaj="jedzenie"] {
+    background: #2E7D32; /* ciemna, naturalna zieleń */
+}
+
+.rodzaj-button[data-rodzaj="budynki"] {
+    background: #7f8c8d; /* szary */
+}
+
+.rodzaj-button[data-rodzaj="szkola"] {
+    background: #16a085; /* morski */
+}
+
+/* Efekt po najechaniu */
 .rodzaj-button:hover {
     filter: brightness(1.15);
 }
-
 /* Zaznaczony */
 .rodzaj-button.selected {
     border: 4px solid #000;
@@ -1103,13 +1117,13 @@ span.highlight {
                     background-color: rgba(255, 255, 0, 0.5); /* Kolor tła z opacity */
                     color: white;
                 }
-                .highlighted {
-    background-color: #ffeb3b !important;
+.highlighted {
+    background-color: #76ff03 !important;
     color: #000 !important;
     padding: 2px 4px;
     border-radius: 3px;
     font-weight: bold;
-                }
+}
                 .yellow {
                     color: yellow;
                 }
@@ -2611,10 +2625,22 @@ input {
                                                     <span class="count" id="liczbaCialo">0</span>
     </button>
                     <button class="rodzaj-button"
-        data-rodzaj="jedenie"
+        data-rodzaj="jedzenie"
         onclick="przekazArgument0('', 'jedzenie', '', '', '', '', '', tablica3[1], 'other', false, '', '', '', '', '100')">
         <span>Jedzenie</span>
-                                                            <span class="count" id="liczbaJedzenie">0</span>
+                   <span class="count" id="liczbaJedzenie">0</span>
+    </button>
+                        <button class="rodzaj-button"
+        data-rodzaj="budynki"
+        onclick="przekazArgument0('', 'budynki', '', '', '', '', '', tablica3[1], 'other', false, '', '', '', '', '100')">
+        <span>Budynki</span>
+                   <span class="count" id="liczbaBudynki">0</span>
+    </button>
+                            <button class="rodzaj-button"
+        data-rodzaj="szkola"
+        onclick="przekazArgument0('', 'szkola', '', '', '', '', '', tablica3[1], 'other', false, '', '', '', '', '100')">
+        <span>Szkoła</span>
+                   <span class="count" id="liczbaSzkola">0</span>
     </button>
 </div>
                 <div class="grid-container">
@@ -2675,6 +2701,8 @@ if (typeof fiszki10 !== 'undefined') {
         $('#liczbaGarderoba').text(findMatchingFiszkiCount('garderoba', fiszki10));
             $('#liczbaCialo').text(findMatchingFiszkiCount('cialo', fiszki10));
                         $('#liczbaJedzenie').text(findMatchingFiszkiCount('jedzenie', fiszki10));
+                $('#liczbaBudynki').text(findMatchingFiszkiCount('budynki', fiszki10));
+                $('#liczbaSzkola').text(findMatchingFiszkiCount('szkola', fiszki10));
 }
             for (let i = 1; i < fiszki10.length; i++) {
     if (fiszki10[i].id[0] !== fiszki10[i-1].id[0] + 1) {

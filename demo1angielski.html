@@ -267,6 +267,9 @@ cursor:pointer;
     </div>
   <script src="start\testowyb.js"></script>
 <script>
+    $(document).on('click', '#closeModeOverlay', function () {
+    $('#multiVersionOverlay').hide();
+});
 // Wywołaj funkcję z otrzymaną wartością
 function wybierzRodzaj(category, one, two, three) {
     

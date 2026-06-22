@@ -1,3 +1,4 @@
+
 let tablica12ab2 = [];
 let tablica12ad2 = [];
 let tablica12abc2 = [];
@@ -19,6 +20,16 @@ window.globalSentenceOrder = {};
 if (!window.wordIndexCache) window.wordIndexCache = {};
 if (!window.lessonPosCache) window.lessonPosCache = {};
 window.mojeidGlobal = window.mojeidGlobal || [];
+function getDiffForStart(indexDiv, currentPos) {
+    const entry = [...window.mojeidGlobal]
+        .reverse()
+        .find(x => x && x.indexDiv === indexDiv && x.currentPos === currentPos);
+
+    if (!entry || !Array.isArray(entry.diffs)) return 0;
+
+    const first = entry.diffs[0];
+    return first?.diff ?? 0;
+}
 function showCombinedSentenceForLesson22b(
     selectedCategory, matchingIndexes3, rodzaj, matchingIndexes2,
     buttonindex, index55, index77, lessonIdToShow1, lessonIdToShow2, lessonIdToShow3, fiszki, matchingIndexes,
@@ -40,7 +51,6 @@ const safeMatchingIndexes = lockedMatchingIndexes;
     const matchingFiszki1 = fiszki.filter(fiszka => fiszka.id[1] === lessonIdToShow1);
     const matchingFiszki2 = fiszki.filter(fiszka => fiszka.id[1] === lessonIdToShow2);
     const matchingFiszki3 = fiszki.filter(fiszka => fiszka.id[1] === lessonIdToShow3);
-
 
     if (matchingFiszki1.length > 0 || matchingFiszki2.length > 0 || matchingFiszki3.length > 0) {
 
@@ -64,7 +74,7 @@ const safeMatchingIndexes = lockedMatchingIndexes;
                                 const srcWord3q = pobierzSrcWordDlaLekcji1v(lessonIdToShow3, fiszki);
         const srcWord3a = pobierzSrcWordDlaLekcji2(lessonIdToShow3, fiszki);
         const srcWord3b = pobierzSrcWordDlaLekcji3(lessonIdToShow3, fiszki);
-        const srcWord3c = pobierzSrcWordDlaLekcji3b(lessonIdToShow3, fiszki);
+                        const srcWord3c = pobierzSrcWordDlaLekcji3b(lessonIdToShow3, fiszki);
         const srcWord3d = pobierzSrcWordDlaLekcji4(lessonIdToShow3, fiszki);
         const srcWord3f = pobierzSrcWordDlaLekcji5(lessonIdToShow3, fiszki);
         const srcWord3v = pobierzSrcWordDlaLekcji6(lessonIdToShow3, fiszki);
@@ -166,7 +176,7 @@ for (let i = 0; i < matchingFiszki1.length; i++) {
                     sentence11b += sentencePart2 + " ";
                 }
             }
-sentence10c = "wymowa: ";
+sentence10c = " ";
 for (let i = 0; i < matchingFiszki1.length; i++) {
     const fiszka = matchingFiszki1[i];
     if (!fiszka.sentence1c)
@@ -265,7 +275,7 @@ sentence22c = "";
                     sentence22b += sentencePart2b + " ";
                 }
             }
-            sentence20c = "wymowa: ";
+            sentence20c = " ";
             for (let i = 0; i < matchingFiszki2.length; i++) {
                 const fiszka = matchingFiszki2[i];
                 if (!fiszka.sentence1c)
@@ -355,7 +365,7 @@ sentence33c = "";
                     sentence33b += sentencePart3b + " ";
                 }
             }
-            sentence30c = "wymowa: ";
+            sentence30c = " ";
             for (let i = 0; i < matchingFiszki3.length; i++) {
                 const fiszka = matchingFiszki3[i];
                 if (!fiszka.sentence1c)
@@ -415,7 +425,6 @@ sentence33c = "";
         const linkMap = {};
 // tablica data-name (np. [1,2,3,4,5,6...]) z DOM
         const tablica60 = [];
-        console.log('hej150', tablica60);
 // trojki wygenerowane z tablica60 (np. [[1,2,3],[4,5,6],...])
         let trojkiGlobal = [];
 
@@ -465,12 +474,23 @@ sentence33c = "";
                     ? colorMapping[selectedCategory]
                     : '#800080';
 
-window.originalIndexMap = window.originalIndexMap || {};
+            document.querySelectorAll('.sentence-block, .sentence-blockB').forEach(block => {
+                const raw = block.getAttribute('data-name');
+                const dataName = parseInt(raw, 10);
+                if (!Number.isNaN(dataName))
+                    tablica60.push(dataName);
 
-document.querySelectorAll('.sentence-block').forEach((block, i) => {
-    const id = parseInt(block.dataset.name, 10);
-    window.globalSentenceOrder[id] = i + 1; // albo ORYGINALNY indexDiv
-});
+                if (typeof startRange2 !== 'undefined' && typeof endRange2 !== 'undefined') {
+                    const dataNameSafe = parseInt(block.getAttribute('data-name'), 10);
+                    if (!Number.isNaN(dataNameSafe) && dataNameSafe >= startRange2 && dataNameSafe <= endRange2) {
+                        const button = block.querySelector('button.left-button, button.left-buttonb, button.left-buttonbb');
+                        if (button) {
+                            button.style.backgroundColor = color;
+                            button.style.color = 'white';
+                        }
+                    }
+                }
+            });
 
             const trojki = [];
             for (let i = 0; i < tablica60.length; i += 3) {
@@ -602,7 +622,7 @@ document.querySelectorAll('.sentence-block').forEach((block, i) => {
             }
             return false;
         }
-        const sentenceCache = {}; // klucz: currentPos, wartość: HTML zdań
+         const sentenceCache = {}; // klucz: currentPos, wartość: HTML zdań
         if (!sentenceCache[indexDiv]) {
             sentenceCache[indexDiv] = {};
         }
@@ -633,6 +653,22 @@ function getState(indexDiv) {
     }
     return window.stateByIndexDiv[indexDiv];
 }
+window.highlightMode = 'normal'; // normal | rodzaj
+
+window.updateHighlightAll = null;
+
+
+$(document).on('click', '.rodzaj-button', function () {
+
+    window.highlightMode = 'rodzaj';
+
+    console.log('TRYB =', window.highlightMode);
+
+    if (typeof window.updateHighlightAll === 'function') {
+        window.updateHighlightAll();
+    }
+});
+
         function renderLesson() {
 
     const state = getState(indexDiv);
@@ -641,7 +677,7 @@ function getState(indexDiv) {
     state.currentFiszkaIndex = 0;
     state.tablica20aa = [];
     state.currentHighlightIndex = 0;
-
+console.log('hej100vv', state.tablica20aa);
     $container.empty();
     $('.image-container3b .sentence').css('display', 'none');
 
@@ -715,22 +751,29 @@ function getState(indexDiv) {
                 console.log('hej44f', window.mojeidGlobal);
                 console.log('hej140vv', currentPos);
 if (currentPosCache[indexDiv] === 0) {
-        const state = getState(indexDiv);
-        state.currentFiszkaIndex = 0;
 
-        currentIndexDivGlobal = indexDiv;
-        systemStarted = true;
+    const state = getState(indexDiv);
+    state.currentFiszkaIndex = 0;
 
-const lastEntry = [...window.mojeidGlobal]
-    .reverse()
-    .find(x => x && x.indexDiv === indexDiv);
+    currentIndexDivGlobal = indexDiv;
+    systemStarted = true;
 
-    const currentWordIndex = lastEntry ? lastEntry.currentWordIndex : 0;
-console.log('hej220', currentWordIndex);
-    highlightFirstWord(indexDiv, currentPosCache[indexDiv], currentWordIndex);
+    const lastEntry = [...window.mojeidGlobal]
+        .reverse()
+        .find(x => x && x.indexDiv === indexDiv && x.currentPos === currentPos);
+
+    const diffIndex = getDiffForStart(indexDiv, currentPos);
+
+    console.log('START DIFF INDEX:', diffIndex);
+
+    highlightFirstWord(
+        indexDiv,
+        currentPosCache[indexDiv],
+        diffIndex
+    );
 
     setTimeout(() => {
-        showFiszkiForLesson6(ostatniElement2, ostatniElement3);
+        showFiszkiForLesson6(ostatniElement2, ostatniElement3, diffIndex);
     }, 0);
 }
                 console.log('hej140vvv', indexDiv, currentPosCache[indexDiv], window.mojeidGlobal);
@@ -753,7 +796,7 @@ console.log('hej220', currentWordIndex);
 
             
             function highlightFirstWord(indexDiv, currentPos, mojeidWordIndex) {
-                
+                console.log('hej140vvv', currentPos);
                 console.log('200highlightFirstWord] START', 'color: #ff00aa', {
                     indexDiv,
                     currentPos,
@@ -761,12 +804,10 @@ console.log('hej220', currentWordIndex);
                 });
                 tablica55.push(indexDiv);
                 console.log('x55:', tablica55[tablica55.length - 1]);
-                const $container = $(`.image-container3b[data-lesson="${indexDiv}"]`);
 
-                const firstSentenceId = (indexDiv - 1) * 3 + 1;
+const $container = $(`.image-container3b[data-lesson="${indexDiv}"]`);
 
-                // Pobieramy fiszkÄ, ktĂłra jest pierwszym zdaniem w lekcji
-                const matchingFiszki1 = fiszki.filter(fiszka => fiszka.id[1] === firstSentenceId);
+const activeSentenceId = window.tripletIdsGlobal?.[currentPos];
                 $(`.image-container3b`).css('z-index', 100);
 
                 $(`.image-container3b`).css('z-index', 100);
@@ -4071,11 +4112,6 @@ console.log('hej68ll', mojeidWordIndex);
 
             const currentDataName = currentTriplet[currentPos];
 
-            // --- Dopasowanie fiszek do trójki ---
-
-
-
-
             const fiszka = sentences[currentPos] || {};
             // --- Wybór nazwy czasu dla aktualnego zdania ---
 let currentCzasName = '';
@@ -4285,10 +4321,7 @@ $container.append($dynamicDiv);
     }
 }
 const matchingIndexes = [];
-// ===============================
-// 1. RENDER CAŁEGO TRIPLETA
-// ===============================
-
+console.log('hej105vv', matchingIndexes);
 const result0 = addBackgroundToText1b(
     matchingFiszki1,
     matchingIndexes,
@@ -4335,6 +4368,7 @@ const id1 = result1?.id2 ?? null;
 const id2 = result2?.id3 ?? null;
 console.log('hej200', id0, id1);
 const tripletIds = [id0, id1, id2];
+// --- Sprawdzenie cache ---
             if (!sentenceCache[indexDiv][currentPos]) {
 if (currentPos === 0 && typeof addBackgroundToText1b === 'function') {
                         const {sentence10, sentence11, sentence10b, sentence11b, sentence10c, sentence11c, id} = addBackgroundToText1b(matchingFiszki1, matchingIndexes, currentPos, lesson1PartLength, matchingIndexes2, rodzaj, matchingIndexes3, matchingLessons5b, lesson1FirstPartLength);
@@ -4453,70 +4487,20 @@ function syncHighlightForIndexDiv(indexDiv, $block) {
 
                 // ...
             });
+            $(document).on("click", ".next-buttonvv", function () {
 
-$(document).on("click", ".next-buttonvv", function () {
+                const indexDiv = $(this).closest('.sentence-line')
+                        .find('.sentence-inner')
+                        .data('indexdiv');
 
-    const $line = $(this).closest('.sentence-line');
-    const indexDiv = $line.find('.sentence-inner').data('indexdiv');
+                if (wordIndexCache[indexDiv] === undefined)
+                    wordIndexCache[indexDiv] = 0;
 
-    if (wordIndexCache[indexDiv] === undefined)
-        wordIndexCache[indexDiv] = 0;
-
-    // ➜ następne słowo
-    wordIndexCache[indexDiv]++;
-
-    const currentWordIndex = wordIndexCache[indexDiv];
-
-    // 🔥 SPÓJNE Y (TA SAMA LOGIKA CO W LESSON INDICATOR)
-    const currentPos = lessonPosCache[indexDiv] ?? 0;
-    const y = currentPos + 1 + (indexDiv - 1) * 3;
-
-    const blockWords = fiszki10.filter(
-        f => f.id?.[1] === y
-    );
-
-    const fiszkaAudio = blockWords[currentWordIndex];
-
-    // ======================
-    // 🎯 ANIMACJA
-    // ======================
-    const $nextWord = $line.find(
-        `[data-word-index="${currentWordIndex}"]`
-    ).first();
-
-    if ($nextWord.length) {
-
-        $line.find('.word-animation').remove();
-
-        $nextWord.css({
-            position: 'relative',
-            display: 'inline-block'
-        });
-
-        $nextWord.append(`
-            <div class="word-animation">
-                <span class="a1"></span><span class="a2"></span>
-                <span class="a3"></span><span class="a4"></span>
-                <span class="a5"></span><span class="a6"></span>
-                <span class="a7"></span><span class="a8"></span>
-                <span class="a9"></span><span class="a10"></span>
-            </div>
-        `);
-    }
-
-    // ======================
-    // 🔊 AUDIO
-    // ======================
-    if (fiszkaAudio?.word?.[0]) {
-
-        const audio = new Audio(fiszkaAudio.word[0]);
-        audio.play().catch(err => {
-            console.warn('[audio]', err);
-        });
-    }
-
-    syncHighlightForIndexDiv(indexDiv);
-});
+                wordIndexCache[indexDiv]++;
+                                    tablica20aa.push(wordIndexCache[indexDiv]); // 2️⃣ zapis historii
+console.log('hej120aa', wordIndexCache[indexDiv]);
+                syncHighlightForIndexDiv(indexDiv);
+            });
             $(document).on("click", ".prev-buttonv, .prev-button", function () {
                 const indexDiv = $(this).closest('.sentence-line')
                         .find('.sentence-inner')
@@ -4555,10 +4539,6 @@ console.log('hej20', sentenceMap);
 const xMap = currentTriplet.map(id => {
     return sentences[id]?.id?.[0] ?? id;   // X (np. lesson / group / set)
 });
-
-
-const secondValues = matchingIndexes2.map(item => item[1]);
-console.log('hej100', secondValues);
 // --- Tworzenie bloków zdań z strzałkami ---
             const processedLines = lines.map((line, lineIndex) => {
                 if (!line.trim())
@@ -4569,69 +4549,40 @@ console.log('hej100', secondValues);
                 const rightBtn = `<button class="next-buttonvv next-button${lineIndex + 1}" data-pos="${currentPos}">&gt;</button>`;
 
                 // Każde sentence-inner ma teraz treść bieżącej linii i poprawnie przypisane data-pos
-return `
-    <div class="sentence-line"
-         data-sentence-id="${sentenceMap[currentPos]}-${lineIndex}"
-         data-sentence-id2="${xMap[lineIndex]}"
-         data-line="${lineIndex}"
-         data-indexDiv="${indexDiv}">
-
-        ${leftBtn}
-
-        <span class="sentence-inner"
-              data-pos="${currentPos}"
-              data-line="${lineIndex}"
-              data-indexDiv="${indexDiv}">
-            ${line}
-        </span>
-
-        ${rightBtn}
-
-    </div>
-`;
+                return `
+        <div class="sentence-line">
+            ${leftBtn}
+            <span class="sentence-inner" data-pos="${currentPos}" data-line="${lineIndex}" data-indexDiv="${indexDiv}">${line}</span>
+            ${rightBtn}
+        </div>
+    `;
             });
-function renderSentenceBlock(indexDiv, currentPos) {
+// --- Funkcja do renderowania zdań dla danego indexDiv i currentPos ---
+            function renderSentenceBlock(indexDiv, currentPos) {
+                const currentSentence = sentenceCache[indexDiv][currentPos];
+                if (!currentSentence)
+                    return;
 
-    const currentSentence = sentenceCache[indexDiv][currentPos];
-    if (!currentSentence) return;
+                const lines = currentSentence.split('<br>');
 
-    const lines = currentSentence.split('<br>');
-    const sentenceMap = currentTriplet.map(Number);
+                const $sentenceBlock = $('<div>').addClass('sentence-block');
 
-    const $sentenceBlock = $('<div>')
-        .addClass('sentence-block')
-        .attr('data-indexDiv', indexDiv)
-        .attr('data-currentPos', currentPos)
-        .attr('data-sentence-map', JSON.stringify(sentenceMap)); // 🔥 TU
+                lines.forEach((line, lineIndex) => {
+                    if (!line.trim())
+                        return;
 
-    lines.forEach((line, lineIndex) => {
-        if (!line.trim()) return;
-
-        const $lineDiv = $(`
+                    const $lineDiv = $(`
             <div class="sentence-line">
-                <button class="prev-buttonv"
-                        data-pos="${currentPos}"
-                        data-indexDiv="${indexDiv}">&lt;</button>
-
-                <span class="sentence-inner"
-         data-sentence-id2="${xMap[lineIndex]}"
-                    ${line}
-                </span>
-
-                <button class="next-buttonv"
-                        data-pos="${currentPos}"
-                        data-indexDiv="${indexDiv}">&gt;</button>
+                <button class="prev-buttonv" data-pos="${currentPos}" data-indexDiv="${indexDiv}">&lt;</button>
+                <span class="sentence-inner" data-pos="${currentPos}" data-line="${lineIndex}" data-indexDiv="${indexDiv}">${line}</span>
+                <button class="next-buttonv" data-pos="${currentPos}" data-indexDiv="${indexDiv}">&gt;</button>
             </div>
         `);
+                    $sentenceBlock.append($lineDiv);
+                });
 
-        $sentenceBlock.append($lineDiv);
-    });
-
-    // 🔥 WAŻNE: NIE mieszaj z $textContainer
-    $('#your-container').empty().append($sentenceBlock);
-
-    attachArrowNavigation($sentenceBlock, indexDiv, sentenceMap);
-}
+                $('#your-container').html($sentenceBlock); // <- wstawiamy do swojego kontenera
+            }
 
 // --- Kliknięcie w zdanie otwiera je ---
             $(document).on('click', '.sentence-inner', function () {
@@ -4646,10 +4597,9 @@ function renderSentenceBlock(indexDiv, currentPos) {
 
 
 
-const $sentenceDiv = $('<div>')
-    .addClass('sentence-block')
-    .attr('data-sentence-map', JSON.stringify(sentenceMap[currentPos]))
-    .html(processedLines.join(""));
+            const $sentenceDiv = $('<div>')
+                    .addClass('sentence-block')
+                    .html(processedLines.join(""));
 
             $textContainer.append($sentenceDiv);
             function highlightFirstWordsInSentenceBlock($sentenceBlock) {
@@ -4674,13 +4624,7 @@ const $sentenceDiv = $('<div>')
                     $inner.html(rebuilt);
                 });
             }
-            console.log('hej22vvnn', matchingIndexes2);
-console.log(
-    'currentPos:',
-    currentPos,
-    'sharedBase:',
-    sentenceMap[currentPos]
-);
+            window.mojeidGlobal = window.mojeidGlobal || {};
 
 function attachArrowNavigation($sentenceBlock, indexDiv, sentenceMap) {
 
@@ -4691,87 +4635,182 @@ function attachArrowNavigation($sentenceBlock, indexDiv, sentenceMap) {
         return;
     }
 
-let currentWordIndex = 0;
+    let currentWordIndex = 0;
 
-const updateHighlightAll = () => {
 
-$sentenceBlock.find('.sentence-line').each(function (lineIndex) {
+    const updateHighlightAll = () => {
 
-    const $line = $(this);
-        const $inner = $line.find('.sentence-inner')
-        .attr('data-sentence-map', JSON.stringify(sentenceMap)); // 🔥 TU
+        console.log('UPDATE CALL | MODE =', window.highlightMode);
 
-        const raw = $inner.text().trim();
-        if (!raw) return;
+        // ======================================================
+        // TRYB ROZBUDOWANY
+        // ======================================================
+        if (window.highlightMode === 'rodzaj') {
 
-        const tokens = raw.split(/\s+/);
+            console.log('TRYB 2 (rodzaj)');
 
-        let pronunciationLabel = '';
-        let pronunciationFirstWord = '';
+            $sentenceBlock.find('.sentence-line').each(function (lineIndex) {
 
-        // 🔥 DATA-POS = KLUCZ DO WYBORU ZDANIA
-        const pos = Number($inner.data('pos'));
+                const $line = $(this);
 
-        // zabezpieczenie
-        const sharedBase = xMap[pos];
-console.log('hej2000', sharedBase);
-        if (tokens.length > 0) {
-            const first = tokens[0];
+                const $inner = $line.find('.sentence-inner')
+                    .attr('data-sentence-map', JSON.stringify(sentenceMap));
 
-            if (first.toLowerCase().startsWith('wymowa:')) {
-                pronunciationLabel = 'wymowa:';
-                pronunciationFirstWord = first.slice('wymowa:'.length);
-                tokens.shift();
-            }
-        }
+                const raw = $inner.text().trim();
+                if (!raw) return;
 
-        const id = indexDiv + "-" + lineIndex + "-" + currentWordIndex;
+                const tokens = raw.split(/\s+/);
 
-        console.log('hej2000', id);
+                let pronunciationLabel = '';
+                let pronunciationFirstWord = '';
 
-        const secondValues = matchingIndexes2.map(item => Number(item[1]));
-        const secondValuesSet = new Set(secondValues);
+                const pos = Number($inner.data('pos'));
+                const sharedBase = xMap[pos];
 
-        const wordsHtml = tokens.map((word, wi) => {
+                if (tokens.length > 0) {
+                    const first = tokens[0];
 
-            const cursorStyle = `style="cursor:pointer;"`;
+                    if (first.toLowerCase().startsWith('wymowa:')) {
+                        pronunciationLabel = 'wymowa:';
+                        pronunciationFirstWord = first.slice('wymowa:'.length);
+                        tokens.shift();
+                    }
+                }
 
-const currentX = sharedBase + wi;
+                const id = indexDiv + "-" + lineIndex + "-" + currentWordIndex;
 
-            console.log({
-                word,
-                wi,
-                pos,
-                sharedBase,
-                currentX,
-                highlight: secondValuesSet.has(Number(currentX))
-            });
+                const secondValues = matchingIndexes2.map(item => Number(item[1]));
+                const secondValuesSet = new Set(secondValues);
 
-            const shouldHighlight = secondValuesSet.has(Number(currentX));
+                const wordsHtml = tokens.map((word, wi) => {
 
-            if (shouldHighlight) {
-                return `<span class="highlighted"
-                    data-sentence-id2="${currentX}"
-                    data-mojeid="${id}"
-                    ${cursorStyle}>${word}</span>`;
-            }
+                    const currentX = sharedBase + wi;
+                    const shouldHighlight = secondValuesSet.has(Number(currentX));
 
-            return `<span
-                data-word-index="${wi}"
-                data-sentence-id2="${currentX}"
-                ${cursorStyle}>${word}</span>`;
-        }).join(" ");
+                    if (shouldHighlight) {
+const calculateDiffPerHighlighted = ($scope) => {
 
-        const pronunciationHtml = pronunciationLabel
-            ? `<span class="pronunciation-label">${pronunciationLabel}</span>${pronunciationFirstWord ? ' ' + pronunciationFirstWord : ''} `
-            : '';
+    const $all = $scope.find('[data-sentence-id2]');
+    const $first = $all.first();
 
-        $inner.html(pronunciationHtml + wordsHtml);
+    if (!$first.length) return [];
+
+    const firstId = Number($first.attr('data-sentence-id2'));
+
+    const results = [];
+
+    $scope.find('.highlighted[data-sentence-id2]').each(function () {
+        const $el = $(this);
+
+        const currentId = Number($el.attr('data-sentence-id2'));
+        const diff = currentId - firstId;
+
+        results.push({
+            el: $el,
+            id: currentId,
+            diff: diff
+        });
+
+        console.log('HIGHLIGHT DIFF:', currentId, '-', firstId, '=', diff);
     });
 
+    return results;
+};
+const diffs = calculateDiffPerHighlighted($sentenceBlock);
+console.log('ALL DIFFS:', diffs);
+                                // 🔥 DODAJ TO
+window.mojeidGlobal.push({
+    indexDiv,
+    currentPos,          // 🔥 które zdanie (0/1/2)
+    diffs                // 🔥 tablica diffów dla tego zdania
+});
 
+        console.log('HIGHLIGHT IDS:', window.mojeidGlobal);
+                        return `<span class="highlighted"
+                            data-sentence-id2="${currentX}"
+                            data-mojeid="${id}"
+                            style="cursor:pointer;"
+                        >${word}</span>`;
+                    }
 
+                    return `<span
+                        data-word-index="${wi}"
+                        data-sentence-id2="${currentX}"
+                        style="cursor:pointer;"
+                    >${word}</span>`;
 
+                }).join(" ");
+
+                const pronunciationHtml = pronunciationLabel
+                    ? `<span class="pronunciation-label">${pronunciationLabel}</span>${pronunciationFirstWord ? ' ' + pronunciationFirstWord : ''} `
+                    : '';
+
+                $inner.html(pronunciationHtml + wordsHtml);
+            });
+
+        } else {
+
+            console.log('TRYB 1 (normal)');
+
+            $sentenceBlock.find('.sentence-line').each(function (lineIndex) {
+
+                const $inner = $(this).find('.sentence-inner');
+                const raw = $inner.text().trim();
+                if (!raw) return;
+
+                const tokens = raw.split(/\s+/);
+
+                let pronunciationLabel = '';
+                let pronunciationFirstWord = '';
+
+                if (tokens.length > 0) {
+                    const first = tokens[0];
+
+                    if (first.toLowerCase().startsWith('wymowa:')) {
+                        pronunciationLabel = 'wymowa:';
+                        pronunciationFirstWord = first.slice('wymowa:'.length);
+                        tokens.shift();
+                    }
+                }
+
+                const id = indexDiv + "-" + lineIndex + "-" + currentWordIndex;
+
+                const wordsHtml = tokens.map((word, wi) => {
+
+                    const isActive = wi === currentWordIndex;
+
+                    return `<span
+                        class="${isActive ? 'highlighted' : ''}"
+                        data-word-index="${wi}"
+                        data-mojeid="${id}"
+                        style="cursor:pointer;"
+                    >${word}</span>`;
+
+                }).join(" ");
+
+                const pronunciationHtml = pronunciationLabel
+                    ? `<span class="pronunciation-label">${pronunciationLabel}</span>${pronunciationFirstWord ? ' ' + pronunciationFirstWord : ''} `
+                    : '';
+
+                $inner.html(pronunciationHtml + wordsHtml);
+            });
+        }
+
+        window.mojeidGlobal[indexDiv] = {
+    indexDiv: indexDiv,
+    currentWordIndex: currentWordIndex
+};
+window.mojeidGlobal = window.mojeidGlobal || [];
+
+if (!Array.isArray(window.mojeidGlobal)) {
+    window.mojeidGlobal = [];
+}
+
+window.mojeidGlobal.push({
+    indexDiv: indexDiv,
+    currentWordIndex: currentWordIndex
+});
+console.log('hej110vv', window.mojeidGlobal);
         window.mojeidGlobalb = currentWordIndex;
         window.mojeidGlobalc = currentWordIndex;
 
@@ -4786,8 +4825,11 @@ const currentX = sharedBase + wi;
     $sentenceBlock.find('.next-buttonvv')
         .off('click.attachNav')
         .on('click.attachNav', function (e) {
-
-
+window.mojeidGlobal.push({
+    indexDiv: indexDiv,
+    currentWordIndex: currentWordIndex
+});
+console.log('hej110vv', window.mojeidGlobal)
 
             const raw = $sentenceBlock
                 .find('.sentence-inner')
@@ -4847,7 +4889,6 @@ const currentX = sharedBase + wi;
 
     updateHighlightAll();
 }
-
             function sendHighlightToFiszki(indexDiv, mojeidGlobal) {
                 highlightFirstWord(indexDiv, currentPosCache[indexDiv], mojeidGlobal);
             }
@@ -4855,8 +4896,8 @@ const currentX = sharedBase + wi;
             attachArrowNavigation($sentenceDiv, indexDiv);
 
             // --- Linki do lekcji ---
-            const singleLink = `demo1angielski.html?category=${selectedCategory}&data=${currentDataName}`;
-            const tripletLink = `demo1angielski.html?category=${selectedCategory}&data=${currentTriplet.join(',')}`;
+            const singleLink = `demo1angielski.html?category=${selectedCategory}&data=${tripletIds[currentPos]}`;
+            const tripletLink = `demo1angielski.html?category=${selectedCategory}&data=${tripletIds}`;
 
             const $singleLinkA = $('<a>')
                     .attr({href: singleLink})
@@ -4869,7 +4910,6 @@ const currentX = sharedBase + wi;
                     .text('➡ Otwórz całą lekcję (3 zdania)');
 
             $textContainer.append($singleLinkA, $tripletLinkA);
-
 
 console.log("tripletIds =", tripletIds);
 
@@ -4942,96 +4982,54 @@ $('.nav-container').empty().append($nav);
             window.open(link, '_blank');
         });
 
-function startup() {
+// ---------- STARTUP: synchronizacja trojek, linkMap i ustawienia currentTriplet ----------
+        function startup() {
+            // najpierw wypełnij tablica60, trojkiGlobal i linkMap
+            updateButtonColors();
 
-    updateButtonColors();
-
-    const parsed = parseDataParamFromURL();
-
-    if (parsed && parsed.length > 0) {
-
-        // =========================
-        // CASE 1: pojedynczy numer
-        // =========================
-        if (parsed.length === 1) {
-
-            const num = parsed[0];
-
-            const tryFind = () => {
-
-                // 🔥 znajdź trójkę która zawiera ten numer
-                const tri = trojkiGlobal.find(t =>
-                    t.includes(num)
-                );
-
-                if (tri) {
-                    currentTriplet = tri.slice();
-                    currentPos = tri.indexOf(num);
-                    return true;
-                }
-
-                return false;
-            };
-
-            if (trojkiGlobal.length === 0) {
-
-                setTimeout(() => {
-
-                    if (!tryFind()) {
-                        // fallback: MUSI być trójka
-                        currentTriplet = [num];
-                        currentPos = 0;
+            // spróbuj odczytać parametry z URL
+            const parsed = parseDataParamFromURL();
+            if (parsed && parsed.length > 0) {
+                if (parsed.length === 1) {
+                    // pojedynczy numer - spróbuj odnaleźć odpowiadającą trójkę
+                    // jeśli trojkiGlobal jest pusty (np. updateButtonColors jeszcze nie wrócił) - poczekaj krótko
+                    if (trojkiGlobal.length === 0) {
+                        // odczekaj i spróbuj ponownie
+                        setTimeout(() => {
+                            if (!chooseTripletFromSingleNumber(parsed[0])) {
+                                // fallback: ustaw pojedynczy numer jako trójkę z nim samym
+                                currentTriplet = [parsed[0]];
+                                currentPos = 0;
+                            }
+                            renderLesson();
+                        }, 60);
+                        return;
+                    } else {
+                        if (!chooseTripletFromSingleNumber(parsed[0])) {
+                            currentTriplet = [parsed[0]];
+                            currentPos = 0;
+                        }
                     }
-
-                    renderLesson();
-
-                }, 60);
-
-                return;
-            }
-
-            if (!tryFind()) {
-                currentTriplet = [num];
-                currentPos = 0;
-            }
-
-        }
-
-        // =========================
-        // CASE 2: lista (np. 5,6,7)
-        // =========================
-        else {
-
-            // 🔥 znajdź odpowiadającą trójkę jeśli istnieje
-            const tri = trojkiGlobal.find(t =>
-                parsed.every(p => t.includes(p))
-            );
-
-            if (tri) {
-                currentTriplet = tri.slice();
-                currentPos = 0;
+                } else {
+                    // jeżeli mamy już listę (np. 5,6,7) -> ustaw currentTriplet bezpośrednio
+                    currentTriplet = parsed.slice();
+                    currentPos = 0;
+                }
             } else {
-                currentTriplet = parsed.slice();
-                currentPos = 0;
+                // brak parametru w URL -> użyj pierwszej trojki (jeśli jest), inaczej fallback
+                if (trojkiGlobal.length > 0) {
+                    currentTriplet = trojkiGlobal[0].slice();
+                    currentPos = 0;
+                } else {
+                    // fallback: zwykła sekwencja 0..miniaturka.length-1
+                    currentTriplet = miniaturka.map((_, i) => i);
+                    currentPos = 0;
+                }
             }
+
+            // render initial
+            renderLesson();
         }
-
-    } else {
-
-        // =========================
-        // DEFAULT
-        // =========================
-        if (trojkiGlobal.length > 0) {
-            currentTriplet = trojkiGlobal[0].slice();
-            currentPos = 0;
-        } else {
-            currentTriplet = miniaturka.map((_, i) => i);
-            currentPos = 0;
-        }
-    }
-
-    renderLesson();
-}
 
 // Uruchom startup po krótkim delay (daje czas updateButtonColors)
         setTimeout(startup, 0);
@@ -5047,7 +5045,24 @@ function startup() {
             const id2 = matchingFiszki2[0]?.id[1] || 'unknown2';
             const id3 = matchingFiszki3[0]?.id[1] || 'unknown3';
 
+            $sentenceDiv.html(`
+<div class="sentence-block" data-name="${id1}">
+    ${sentence10}${sentence11}<br>
+        ${sentence10b}${sentence11b}<br>
+                ${sentence10c}${sentence11c}<br>
+</div>
 
+<div class="sentence-block" data-name="${id2}">
+    ${sentence20}${sentence22}<br>
+            ${sentence20b}${sentence22b}<br>
+            ${sentence20c}${sentence22c}<br>
+</div>
+
+<div class="sentence-block" data-name="${id3}">
+    ${sentence30}${sentence33}<br>
+                ${sentence30b}${sentence33b}<br>
+</div>
+`);
 
             $sentenceDiv.css({
                 'position': 'absolute',
@@ -5282,5 +5297,4 @@ function startup() {
         console.log('hej6', tablica10a);
         console.log('wykonuje się teraz');
     }
-    
 }
