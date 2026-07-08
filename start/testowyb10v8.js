@@ -2498,8 +2498,8 @@ fiszki10.push(
         translate: "Nigdy nie widział pustego miasta",
         translateb: "[]",
         translateb2: "[]",
-        srcWord: ["http://localhost/arbulanguage.com/filmy/lekcja46/.mp4", ""],
-        srcWordimage: "http://localhost/arbulanguage.com/filmy/lekcja46/.png",
+        srcWord: ["http://localhost/arbulanguage.com/filmy/lekcja46/emptycity.mp4", "Jestem legendą (2007)"],
+        srcWordimage: "http://localhost/arbulanguage.com/filmy/lekcja46/emptycity.png",
         word: [
             "http://localhost/arbulanguage.com/voice/bike.mp4"
         ],
@@ -2662,8 +2662,8 @@ fiszki10.push(
         translate: "Deszcz padał na pustą ulicę",
         translateb: "[]",
         translateb2: "[]",
-        srcWord: ["http://localhost/arbulanguage.com/filmy/lekcja46/.mp4", ""],
-        srcWordimage: "http://localhost/arbulanguage.com/filmy/lekcja46/.png",
+        srcWord: ["http://localhost/arbulanguage.com/filmy/lekcja46/rainingstreet.mp4", ""],
+        srcWordimage: "http://localhost/arbulanguage.com/filmy/lekcja46/rainingstreet.png",
         word: [
             "http://localhost/arbulanguage.com/voice/bike.mp4"
         ],

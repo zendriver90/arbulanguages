@@ -28,6 +28,16 @@
         <meta name="keywords" content="naucz się angielskiego, 1000 angielskich słów, szybka nauka angielskiego, jak nauczyć się angielskiego, jak szybko nauczyć się języka, nauka angielskiego z przyjemnością" />
         <style>
             @media (min-width: 999px) {
+.first-word {
+    background-color: #00ff00;
+    border-radius: 4px;
+    padding: 2px 4px;
+}
+                .green-word {
+    background-color: #00ff00;
+    border-radius: 4px;
+    padding: 2px 4px;
+}
 .yellow {
     background-color: #ffeb3b !important;
     color: #000 !important;
@@ -40,76 +50,110 @@
     background: orange;
 }
 /* Domyślny wygląd */
-.rodzaj-button {
-    color: white;
-    border: none;
-    border-radius: 8px;
-    padding: 10px 14px;
-    margin: 4px;
-    font-weight: bold;
-    cursor: pointer;
+.rodzaj-button{
+    color:#fff;
+    border:none;
+    border-radius:10px;
+    padding:10px 16px;
+    margin:5px;
+    cursor:pointer;
+    font-weight:600;
+    transition:.25s;
 }
 
-/* Pierwszy rząd */
-.rodzaj-button[data-rodzaj="osoby"] {
-    background: #e74c3c; /* czerwony */
+.rodzaj-button:hover{
+    transform:translateY(-2px);
+    filter:brightness(1.1);
 }
 
-.rodzaj-button[data-rodzaj="zaimkiosobowe"] {
-    background: #3498db; /* niebieski */
+.rodzaj-button .count{
+    margin-left:8px;
+    padding:2px 8px;
+    border-radius:20px;
+    background:rgba(255,255,255,.25);
+    font-size:13px;
 }
 
-.rodzaj-button[data-rodzaj="spojniki"] {
-    background: #2ecc71; /* zielony */
+/* Ustawienia */
+.rodzaj-button[data-rodzaj="osoby"]{
+    background:#e74c3c;
 }
 
-/* Kategorie */
-.rodzaj-button[data-rodzaj="czasownik"] {
-    background: #9b59b6; /* fiolet */
+.rodzaj-button[data-rodzaj="zaimkiosobowe"]{
+    background:#3498db;
 }
 
-.rodzaj-button[data-rodzaj="czas"] {
-    background: #f39c12; /* pomarańcz */
+.rodzaj-button[data-rodzaj="spojniki"]{
+    background:#9b59b6;
 }
 
-.rodzaj-button[data-rodzaj="okresleniaIlosci"] {
-    background: #1abc9c; /* turkus */
+.rodzaj-button[data-rodzaj="czasownik"]{
+    background:#27ae60;
 }
 
-.rodzaj-button[data-rodzaj="okresleniaMiejsca"] {
-    background: #34495e; /* granat */
+.rodzaj-button[data-rodzaj="czas"]{
+    background:#16a085;
 }
 
-.rodzaj-button[data-rodzaj="natura"] {
-    background: #27ae60; /* ciemna zieleń */
+.rodzaj-button[data-rodzaj="okresleniaIlosci"]{
+    background:#f39c12;
 }
 
-.rodzaj-button[data-rodzaj="kolory"] {
-    background: #ff1493; /* różowy */
+.rodzaj-button[data-rodzaj="okresleniaMiejsca"]{
+    background:#d35400;
 }
 
-.rodzaj-button[data-rodzaj="zwierzeta"] {
-    background: #795548; /* brąz */
+.rodzaj-button[data-rodzaj="natura"]{
+    background:#2ecc71;
 }
 
-.rodzaj-button[data-rodzaj="garderoba"] {
-    background: #8e44ad; /* śliwkowy */
+.rodzaj-button[data-rodzaj="kolory"]{
+    background:#8e44ad;
 }
 
-.rodzaj-button[data-rodzaj="cialo"] {
-    background: #c0392b; /* ciemna czerwień */
+.rodzaj-button[data-rodzaj="zwierzeta"]{
+    background:#1abc9c;
 }
 
-.rodzaj-button[data-rodzaj="jedzenie"] {
-    background: #2E7D32; /* ciemna, naturalna zieleń */
+.rodzaj-button[data-rodzaj="garderoba"]{
+    background:#e67e22;
 }
 
-.rodzaj-button[data-rodzaj="budynki"] {
-    background: #7f8c8d; /* szary */
+.rodzaj-button[data-rodzaj="cialo"]{
+    background:#c0392b;
 }
 
-.rodzaj-button[data-rodzaj="szkola"] {
-    background: #16a085; /* morski */
+.rodzaj-button[data-rodzaj="jedzenie"]{
+    background:#f1c40f;
+    color:#222;
+}
+
+.rodzaj-button[data-rodzaj="budynki"]{
+    background:#7f8c8d;
+}
+
+.rodzaj-button[data-rodzaj="szkola"]{
+    background:#2980b9;
+}
+
+.rodzaj-button[data-rodzaj="miejsca"]{
+    background:#27ae60;
+}
+
+.rodzaj-button[data-rodzaj="sport"]{
+    background:#e84393;
+}
+
+.rodzaj-button[data-rodzaj="rzecz"]{
+    background:#34495e;
+}
+
+.rodzaj-button[data-rodzaj="przymiotnik"]{
+    background:#8e44ad;
+}
+
+.rodzaj-button[data-rodzaj="to_be"]{
+    background:#2c3e50;
 }
 
 /* Efekt po najechaniu */
@@ -2533,25 +2577,6 @@ input {
 <button class="rodzaj-button"
     data-rodzaj="osoby"
     onclick="przekazArgument0('', 'osoby', '', '', '', '', '', tablica3[1], 'other', false, '', '', '', '', '100')">
-    <span>Widok dla platformy</span>
-</button>
-
-<button class="rodzaj-button"
-    data-rodzaj="zaimkiosobowe"
-    onclick="przekazArgument0('', 'zaimkiosobowe', '', '', '', '', '', tablica3[1], 'other', false, '', '', '', '', '100')">
-    <span>Widok jednorazowy</span>
-</button>
-
-<button class="rodzaj-button"
-    data-rodzaj="spojniki"
-    onclick="przekazArgument0('', 'spojniki', '', '', '', '', '', tablica3[1], 'other', false, '', '', '', '', '100')">
-    <span>Pokazuj jeszcze nieprzejrzane</span>
-</button>
-</div>
-<div class="rodzaj-buttons-container">
-<button class="rodzaj-button"
-    data-rodzaj="osoby"
-    onclick="przekazArgument0('', 'osoby', '', '', '', '', '', tablica3[1], 'other', false, '', '', '', '', '100')">
     <span>Osoby (Rodzina, zaimki, zawody)</span>
     <span class="count" id="liczbaOsoby">0</span>
 </button>
@@ -2642,6 +2667,36 @@ input {
         <span>Szkoła</span>
                    <span class="count" id="liczbaSzkola">0</span>
     </button>
+                                <button class="rodzaj-button"
+        data-rodzaj="miejsca"
+        onclick="przekazArgument0('', 'miejsca', '', '', '', '', '', tablica3[1], 'other', false, '', '', '', '', '100')">
+        <span>Miejsca</span>
+                   <span class="count" id="liczbaMiejsca">0</span>
+    </button>
+                                <button class="rodzaj-button"
+        data-rodzaj="sport"
+        onclick="przekazArgument0('', 'sport', '', '', '', '', '', tablica3[1], 'other', false, '', '', '', '', '100')">
+        <span>Sport</span>
+                   <span class="count" id="liczbaSport">0</span>
+    </button>
+                                    <button class="rodzaj-button"
+        data-rodzaj="rzecz"
+        onclick="przekazArgument0('', 'rzecz', '', '', '', '', '', tablica3[1], 'other', false, '', '', '', '', '100')">
+        <span>Rzecz</span>
+                   <span class="count" id="liczbaRzecz">0</span>
+    </button>
+                                        <button class="rodzaj-button"
+        data-rodzaj="przymiotnik"
+        onclick="przekazArgument0('', 'przymiotnik', '', '', '', '', '', tablica3[1], 'other', false, '', '', '', '', '100')">
+        <span>Przymiotnik</span>
+                   <span class="count" id="liczbaPrzymiotnik">0</span>
+    </button>
+                                            <button class="rodzaj-button"
+        data-rodzaj="to_be"
+        onclick="przekazArgument0('', 'to_be', '', '', '', '', '', tablica3[1], 'other', false, '', '', '', '', '100')">
+        <span>Odmiana czasownika To Be</span>
+                   <span class="count" id="liczbaToBe">0</span>
+    </button>
 </div>
                 <div class="grid-container">
                 </div>
@@ -2703,6 +2758,11 @@ if (typeof fiszki10 !== 'undefined') {
                         $('#liczbaJedzenie').text(findMatchingFiszkiCount('jedzenie', fiszki10));
                 $('#liczbaBudynki').text(findMatchingFiszkiCount('budynki', fiszki10));
                 $('#liczbaSzkola').text(findMatchingFiszkiCount('szkola', fiszki10));
+                                $('#liczbaMiejsca').text(findMatchingFiszkiCount('miejsca', fiszki10));
+                $('#liczbaSport').text(findMatchingFiszkiCount('sport', fiszki10));
+                                $('#liczbaRzecz').text(findMatchingFiszkiCount('rzecz', fiszki10));
+                                                                $('#liczbaPrzymiotnik').text(findMatchingFiszkiCount('przymiotnik', fiszki10));
+                                $('#liczbaToBe').text(findMatchingFiszkiCount('to_be', fiszki10));
 }
             for (let i = 1; i < fiszki10.length; i++) {
     if (fiszki10[i].id[0] !== fiszki10[i-1].id[0] + 1) {

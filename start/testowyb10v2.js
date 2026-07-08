@@ -24,7 +24,7 @@ fiszki10.push(
         ],
         key: "bow",
         category1: "nauka",
-        category2: ["przedmioty"]
+        category2: ["rzecz"]
     },
     {
         id: [
@@ -105,7 +105,7 @@ fiszki10.push(
         ],
         key: "does",
         category1: "nauka",
-        category2: ["osoby+czas", "podmiot+czas"],
+        category2: [""],
         category3: ["PresentSimple", "PresentSimpleCzasownik"]
     },
     {
@@ -134,7 +134,7 @@ fiszki10.push(
         ],
         key: "not",
         category1: "nauka",
-        category2: ["osoby+czas", "podmiot+czas"],
+        category2: [""],
         category3: ["PresentSimple", "PresentSimpleCzasownik"]
         
     },
@@ -210,7 +210,7 @@ fiszki10.push(
             "czarny humor", "sport",
             "związki", "czas wolny"
         ],
-        category2: "transport, "
+        category2: ""
     },
     {
         id: [
@@ -245,7 +245,7 @@ fiszki10.push(
         category1: ["związki", "autoprezentacja",
             "praca", "technologia"
         ],
-        category2: ["zaimkiosobowe"]
+        category2: ["zaimkiosobowe", "osoby"]
     },
     {
         id: [
@@ -350,7 +350,7 @@ fiszki10.push(
         ],
         key: "city",
         category1: "nauka",
-        category2: ["PresentSimple"],
+        category2: ["miasta"],
                 category3: ["PresentSimple", "PresentSimplePodmiot"]
     },
     {
@@ -402,7 +402,7 @@ fiszki10.push(
             "lifestyle", "sukces",
             "geografia", "miasta"
         ],
-        category2: ["czasownik"],
+        category2: ["to_be"],
                         category3: ["PresentSimple", "PresentSimpleCzasownik"]
     },
     {
@@ -466,7 +466,7 @@ fiszki10.push(
             "wojsko", "gotowość",
             "medycyna", "preparaty"
         ],
-        category2: "transport, "
+        category2: ""
     },
     {
         id: [
@@ -493,7 +493,7 @@ fiszki10.push(
         ],
         key: "people",
         category1: "nauka",
-        category2: "transport, "
+        category2: "osoby"
     },
     {
         id: [
@@ -544,7 +544,7 @@ fiszki10.push(
             "czarny humor", "filmy",
             "związki", "okazje"
         ],
-        category2: ["zaimkiosobowe"],
+        category2: ["zaimkiosobowe", "osoby"],
         category3: ["Present Simple (have to)", "PresentSimplePodmiot"]
     },
     {
@@ -572,7 +572,7 @@ fiszki10.push(
         ],
         key: "students",
         category1: "nauka",
-        category2: ["osoby+czas", "podmiot+czas"],
+        category2: ["osoby"],
         category3: ["PresentSimple", "PresentSimplePodmiot"]
     },
     {
@@ -600,7 +600,7 @@ fiszki10.push(
         ],
         key: "have to",
         category1: "nauka",
-        category2: ["czasownik", "podmiot+czas"],
+        category2: [""],
         category3: ["PresentSimple", "PresentSimpleCzasownik"]
     },
     {
@@ -761,7 +761,7 @@ fiszki10.push(
         ],
         key: "dont",
         category1: "nauka",
-        category2: ["osoby+czas", "podmiot+czas"],
+        category2: [""],
         category3: ["PresentSimple", "PresentSimplePrzeczenie"]
     },
     {
@@ -789,7 +789,7 @@ fiszki10.push(
         ],
         key: "have",
         category1: "nauka",
-        category2: ["osoby+czas", "podmiot+czas"],
+        category2: ["czasownik"],
         category3: ["PresentSimple", "PresentSimpleCzasownik"]
     },
     {
@@ -817,7 +817,7 @@ fiszki10.push(
         ],
         key: "time",
         category1: "nauka",
-        category2: "transport, "
+        category2: "czas"
     },
     {
         id: [
@@ -862,7 +862,7 @@ fiszki10.push(
             "czarny humor", "sport",
             "związki", "czas wolny"
         ],
-        category2: "transport, "
+        category2: ""
     },
     {
         id: [
@@ -950,7 +950,7 @@ fiszki10.push(
         ],
         key: "think",
         category1: "nauka",
-        category2: ["podmiot+czas"],
+        category2: ["szkola"],
         category3: ["PresentSimple", "PresentSimpleCzasownik"]
     },
     {
@@ -978,7 +978,7 @@ fiszki10.push(
         ],
         key: "that",
         category1: "nauka",
-        category2: ["spojniki"]
+        category2: [""]
     },
     {
         id: [
@@ -1004,7 +1004,7 @@ fiszki10.push(
         ],
         key: "he's",
         category1: "nauka",
-        category2: ["osoby", "osoby+czas"]
+        category2: ["to_be"]
     },
     {
         id: [
@@ -1036,7 +1036,7 @@ fiszki10.push(
         ],
         key: "right",
         category1: "nauka",
-        category2: ""
+        category2: "szkola"
     },
     {
         id: [
@@ -1097,7 +1097,7 @@ fiszki10.push(
         ],
         key: "should",
         category1: "nauka",
-        category2: ["podmiot+czas", "osoby+czas"]
+        category2: [""]
     },
     {
         id: [
@@ -1124,7 +1124,7 @@ fiszki10.push(
         ],
         key: "care",
         category1: "nauka",
-        category2: ["czasownik", "podmiot+czas", "osoby+czas"]
+        category2: ["czasownik"]
     },
     {
         id: [
@@ -1226,7 +1226,7 @@ fiszki10.push(
         ],
         key: "future",
         category1: "nauka",
-        category2: "zdarzeniaczasu"
+        category2: "czas"
     },
     {
         id: [
@@ -1280,7 +1280,7 @@ fiszki10.push(
             "czarny humor", "polityka",
             "związki", "rodzina"
         ],
-        category2: ["podmiot+czas"],
+        category2: [""],
         category3: ["Present Simple (to be)", "PresentSimplePodmiot"]
     },
     {
@@ -1311,7 +1311,7 @@ fiszki10.push(
         ],
         key: "price",
         category1: "nauka",
-        category2: "transport",
+        category2: "",
         category3: ["PresentSimple", "PresentSimplePodmiot"]
     },
     {
@@ -1342,7 +1342,7 @@ fiszki10.push(
         ],
         key: "for",
         category1: "nauka",
-        category2: "transport, "
+        category2: ""
     },
     {
         id: [
@@ -1372,7 +1372,7 @@ fiszki10.push(
         ],
         key: "breaking",
         category1: "nauka",
-        category2: "transport, "
+        category2: "czasownik"
     },
     {
         id: [
@@ -1420,7 +1420,7 @@ fiszki10.push(
             "czarny humor", "polityka",
             "związki", "rodzina"
         ],
-        category2: "transport, "
+        category2: ""
     },
     {
         id: [
@@ -1450,7 +1450,7 @@ fiszki10.push(
         ],
         key: "rules",
         category1: "nauka",
-        category2: "transport, "
+        category2: "sport"
     },
     {
         id: [
@@ -1503,7 +1503,7 @@ fiszki10.push(
             "lifestyle", "sukces",
             "geografia", "miasta"
         ],
-        category2: ["podmiot+czas", "czasownik"],
+        category2: ["to_be"],
         category3: ["PresentSimple", "PresentSimpleCzasownik"]
     },
     {
@@ -1530,7 +1530,7 @@ fiszki10.push(
         ],
         key: "high",
         category1: "nauka",
-        category2: [""],
+        category2: ["przymiotnik"],
         category3: ["PresentSimple"]
     },
     {
@@ -1614,7 +1614,7 @@ fiszki10.push(
         ],
         key: "thinks",
         category1: "nauka",
-        category2: ["czasownik", "podmiot+czas", "osoby+czas"],
+        category2: ["szkola"],
         category3: ["PresentSimple", "PresentSimpleCzasownik"]
     },
     {
@@ -1644,7 +1644,7 @@ fiszki10.push(
         ],
         key: "it's",
         category1: "nauka",
-        category2: ["podmiot+czas", "osoby+czas"]
+        category2: ["to_be"]
     },
     {
         id: [
@@ -1673,7 +1673,7 @@ fiszki10.push(
         ],
         key: "only",
         category1: "nauka",
-        category2: "transport, "
+        category2: "okresleniaIlosci"
     },
     {
         id: [
@@ -1702,7 +1702,7 @@ fiszki10.push(
         ],
         key: "way",
         category1: "nauka",
-        category2: "transport, "
+        category2: "sport"
     },
     {
         id: [
@@ -1748,7 +1748,7 @@ fiszki10.push(
             "czarny humor", "sport",
             "związki", "czas wolny"
         ],
-        category2: ["osoby+czas"]
+        category2: [""]
     },
     {
         id: [
@@ -1776,7 +1776,7 @@ fiszki10.push(
         ],
         key: "avoid",
         category1: "nauka",
-        category2: ["czasownik", "osoby+czas"]
+        category2: ["czasownik"]
     },
     {
         id: [
@@ -1804,7 +1804,7 @@ fiszki10.push(
         ],
         key: "another",
         category1: "nauka",
-        category2: "transport, "
+        category2: ""
     },
     {
         id: [
@@ -1832,7 +1832,7 @@ fiszki10.push(
         ],
         key: "war",
         category1: "nauka",
-        category2: "transport, "
+        category2: ""
     },
     {
         id: [
@@ -1917,7 +1917,7 @@ fiszki10.push(
         ],
         key: "idea",
         category1: "nauka",
-        category2: ["podmiot+czas"]
+        category2: ["szkola"]
     },
     {
         id: [
@@ -1956,7 +1956,7 @@ fiszki10.push(
             "wojsko", "gotowość",
             "medycyna", "preparaty"
         ],
-        category2: "transport, "
+        category2: ""
     },
     {
         id: [
@@ -2072,7 +2072,7 @@ fiszki10.push(
             "czarny humor", "filmy",
             "związki", "zabawa"
         ],
-        category2: "transport, "
+        category2: "szkola "
     },
     {
         id: [
@@ -2100,7 +2100,7 @@ fiszki10.push(
         ],
         key: "was",
         category1: "nauka",
-        category2: ["podmiot+czas"]
+        category2: [""]
     },
     {
         id: [
@@ -2128,7 +2128,7 @@ fiszki10.push(
         ],
         key: "also",
         category1: "nauka",
-        category2: "transport, "
+        category2: "spojniki"
     },
     {
         id: [
@@ -2184,7 +2184,7 @@ fiszki10.push(
         ],
         key: "painful",
         category1: "nauka",
-        category2: ["body"]
+        category2: ["cialo"]
     },
     {
         id: [
@@ -2238,7 +2238,7 @@ fiszki10.push(
             "czarny humor", "polityka",
             "związki", "rodzina"
         ],
-        category2: "transport",
+        category2: "",
         category3: ["Past Simple (to be)"]
     },
     {
@@ -2269,7 +2269,7 @@ fiszki10.push(
         ],
         key: "invention",
         category1: "nauka",
-        category2: "transport, "
+        category2: "szkola"
     },
     {
         id: [
@@ -2308,7 +2308,7 @@ fiszki10.push(
             "wojsko", "gotowość",
             "medycyna", "preparaty"
         ],
-        category2: "transport, "
+        category2: ""
     },
     {
         id: [
@@ -2356,7 +2356,7 @@ fiszki10.push(
             "czarny humor", "polityka",
             "związki", "rodzina"
         ],
-        category2: "transport, "
+        category2: ""
     },
     {
         id: [
@@ -2386,7 +2386,7 @@ fiszki10.push(
         ],
         key: "wheel",
         category1: "nauka",
-        category2: "transport, "
+        category2: ""
     },
     {
         id: [
@@ -2416,7 +2416,7 @@ fiszki10.push(
         ],
         key: "was",
         category1: "nauka",
-        category2: "transport, "
+        category2: ""
     },
     {
         id: [
@@ -2476,7 +2476,7 @@ fiszki10.push(
         ],
         key: "step",
         category1: "nauka",
-        category2: ["body"]
+        category2: [""]
     },
     {
         id: [
@@ -2503,7 +2503,7 @@ fiszki10.push(
         ],
         key: "forward",
         category1: "nauka",
-        category2: ["zdarzeniaczasu"]
+        category2: ["czas"]
     },
     {
         id: [
@@ -2643,7 +2643,7 @@ fiszki10.push(
             "nauka", "geniusze",
             "pasje", "muzyka klasyczna"
         ],
-        category2: ["zaimki"]
+        category2: [""]
     },
     {
         id: [
@@ -2672,7 +2672,7 @@ fiszki10.push(
         ],
         key: "bridge",
         category1: ["nauka", "transport"],
-        category2: ["rzeczy"]
+        category2: ["rzeczy", "miejsca"]
     },
     {
         id: [
@@ -2728,7 +2728,7 @@ fiszki10.push(
             "lifestyle", "sukces",
             "geografia", "miasta"
         ],
-        category2: ["czasownik"]
+        category2: ["to_be"]
     },
     {
         id: [
@@ -2757,7 +2757,7 @@ fiszki10.push(
         ],
         key: "so",
         category1: "nauka",
-        category2: "transport, "
+        category2: ""
     },
     {
         id: [
@@ -2833,7 +2833,7 @@ fiszki10.push(
             "czarny humor", "sport",
             "związki", "czas wolny"
         ],
-        category2: "transport, "
+        category2: ""
     },
     {
         id: [
@@ -2931,7 +2931,7 @@ fiszki10.push(
         ],
         key: "may",
         category1: "nauka",
-        category2: ["czasownik", "osoby+czas"]
+        category2: ["czasownik"]
     },
     {
         id: [
@@ -2962,7 +2962,7 @@ fiszki10.push(
         ],
         key: "add",
         category1: "nauka",
-        category2: ["czasownik", "osoby+czas"]
+        category2: ["czasownik"]
     },
     {
         id: [
@@ -3024,7 +3024,7 @@ fiszki10.push(
         ],
         key: "remove",
         category1: "nauka",
-        category2: ["czasownik", "osoby+czas"]
+        category2: ["czasownik"]
     },
     {
         id: [
@@ -3086,7 +3086,7 @@ fiszki10.push(
         ],
         key: "accounts",
         category1: "nauka",
-        category2: [""]
+        category2: ["rzecz"]
     },
     {
         id: [
@@ -3217,7 +3217,7 @@ fiszki10.push(
         ],
         key: "offers",
         category1: "nauka",
-        category2: ["", "osoby+czas"],
+        category2: ["czasownik"],
         category3: ["PresentSimple", "PresentSimpleCzasownik"]
     },
     {
@@ -3247,7 +3247,7 @@ fiszki10.push(
         ],
         key: "some",
         category1: "nauka",
-        category2: [""]
+        category2: ["okresleniaIlosci"]
     },
     {
         id: [
@@ -3387,7 +3387,7 @@ fiszki10.push(
             "czarny humor", "sport",
             "związki", "czas wolny"
         ],
-        category2: ["spojniki"]
+        category2: [""]
     },
     {
         id: [
@@ -3416,6 +3416,6 @@ fiszki10.push(
         ],
         key: "help",
         category1: "nauka",
-        category2: [""]
+        category2: ["czasownik"]
     }
 );

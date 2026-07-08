@@ -2862,7 +2862,7 @@ const fiszki10 = [
         category1: [
             "nauka", "szkoła"
         ],
-        category2: ["podmiot+czas", "osoby", "osoby+czas"],
+        category2: ["szkola"],
         category3: ["PresentSimple", "PresentSimplePodmiot"]
     },
     {
@@ -2937,7 +2937,7 @@ const fiszki10 = [
             "czarny humor", "sport",
             "związki", "czas wolny"
         ],
-        category2: ["określeniaMiejsca"]
+        category2: [""]
     },
     {
         id: [
@@ -2991,7 +2991,7 @@ const fiszki10 = [
         ],
         key: "us",
         category1: "nauka",
-        category2: ["zaimkiosobowe"]
+        category2: ["zaimkiosobowe", "osoby"]
     },
     {
         id: [
@@ -3046,7 +3046,7 @@ const fiszki10 = [
             "czarny humor", "dzieciństwo",
             "związki", "otoczenie"
         ],
-        category2: ["zaimkiosobowe"],
+        category2: ["zaimkiosobowe", "osoby"],
         category3: ["PresentSimple", "PresentSimplePodmiot"]
     },
     {
@@ -3074,7 +3074,7 @@ const fiszki10 = [
         ],
         key: "parents",
         category1: "związki",
-        category2: ["osoby", "podmiot+czas", "osoby+czas"],
+        category2: ["osoby"],
         category3: ["PresentSimple", "PresentSimplePodmiot"]
     },
     {
@@ -3165,7 +3165,7 @@ const fiszki10 = [
             "związki", "jedzenie",
             "sukces", "zarobki"
         ],
-        category2: ["czasownik"]
+        category2: ["czasownik", "to_be"]
     },
     {
         id: [
@@ -3449,7 +3449,7 @@ const fiszki10 = [
             "nauka", "geniusze",
             "pasje", "muzyka klasyczna"
         ],
-        category2: ["zaimki"],
+        category2: [""],
         category3: ["PresentSimple", "PresentSimplePodmiot"]
     },
     {
@@ -3477,7 +3477,7 @@ const fiszki10 = [
         ],
         key: "edition",
         category1: "czarny humor",
-        category2: ["podmiot+czas"],
+        category2: ["czas"],
         category3: ["PresentSimple", "PresentSimplePodmiot"]
     },
     {
@@ -3505,7 +3505,7 @@ const fiszki10 = [
         ],
         key: "expires",
         category1: "czarny humor",
-        category2: ["czasownik"],
+        category2: ["czasownik", "czas"],
         category3: ["PresentSimple", "PresentSimpleCzasownik"]
     },
     {
@@ -3549,7 +3549,7 @@ const fiszki10 = [
             "nauka", "geniusze",
             "pasje", "muzyka klasyczna"
         ],
-        category2: "ogrodnictwo, florystyka",
+        category2: "",
         category1b: "związki",
         category2b: "języki obce",
         category1c: "nauka",
@@ -3676,7 +3676,7 @@ const fiszki10 = [
             "czarny humor", "trendy",
             "związki", "muzyka"
         ],
-        category2: ["czasownik", "podmiot+czas"],
+        category2: [""],
         category3: ["PresentSimple", "PresentSimpleCzasownik"]
     },
     {
@@ -3731,7 +3731,7 @@ const fiszki10 = [
         ],
         key: "range",
         category1: "sport",
-        category2: "zawody, praca"
+        category2: "szkola"
     },
     {
         id: [
@@ -3767,7 +3767,7 @@ const fiszki10 = [
             "wojsko", "gotowość",
             "medycyna", "preparaty"
         ],
-        category2: "zawody"
+        category2: ""
     },
     {
         id: [
@@ -3794,7 +3794,7 @@ const fiszki10 = [
         ],
         key: "vocabulary",
         category1: "nauka",
-        category2: "transport, "
+        category2: "szkola"
     },
     {
         id: [
@@ -3936,7 +3936,7 @@ const fiszki10 = [
         ],
         key: "her",
         category1: "nauka",
-        category2: "transport"
+        category2: ["zaimkiosobowe", "osoby"]
     },
     {
         id: [
@@ -4021,7 +4021,7 @@ const fiszki10 = [
             "lifestyle", "sukces",
             "geografia", "miasta"
         ],
-        category2: ["czasownik", "osoby+czas", "podmiot+czas"],
+        category2: ["to_be"],
         category3: ["PresentSimple", "PresentSimpleCzasownik"]
     },
     {
@@ -4095,7 +4095,7 @@ const fiszki10 = [
             "czarny humor", "sport",
             "związki", "czas wolny"
         ],
-        category2: "transport, "
+        category2: ""
     },
     {
         id: [
@@ -4124,7 +4124,7 @@ const fiszki10 = [
         ],
         key: "her",
         category1: "nauka",
-        category2: ["zaimkiosobowe"]
+        category2: ["zaimkiosobowe", "osoby"]
     }                           
 ];
 

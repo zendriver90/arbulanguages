@@ -581,7 +581,7 @@ fiszki10.push(
             "lifestyle", "sukces",
             "geografia", "miasta"
         ],
-        category2: ["czasownik"],
+        category2: ["to_be"],
         category3: ["PresentSimple", "PresentSimpleCzasownik"]
     },
     {
@@ -744,7 +744,7 @@ fiszki10.push(
         ],
         key: "are",
         category1: "nauka",
-        category2: ["czasownik"]
+        category2: ["to_be"]
     },
     {
         id: [
@@ -854,7 +854,7 @@ fiszki10.push(
         ],
         key: "is",
         category1: "nauka",
-        category2: ["czasownik"]
+        category2: ["to_be"]
     },
     {
         id: [
@@ -1063,7 +1063,7 @@ fiszki10.push(
         ],
         key: "are",
         category1: "nauka",
-        category2: ["czasownik"]
+        category2: ["to_be"]
     },
     {
         id: [
@@ -1338,7 +1338,7 @@ fiszki10.push(
         ],
         key: "is",
         category1: "nauka",
-        category2: ["czasownik"]
+        category2: ["to_be"]
     },
     {
         id: [
@@ -1564,7 +1564,7 @@ fiszki10.push(
         ],
         key: "am",
         category1: "nauka",
-        category2: ["czasownik"]
+        category2: ["to_be"]
     },
     {
         id: [
@@ -1816,7 +1816,7 @@ fiszki10.push(
         ],
         key: "are",
         category1: "nauka",
-        category2: ["czasownik"]
+        category2: ["to_be"]
     },
     {
         id: [
@@ -1971,7 +1971,7 @@ fiszki10.push(
         ],
         key: "are",
         category1: "nauka",
-        category2: ["czasownik"]
+        category2: ["to_be"]
     },
     {
         id: [
@@ -2194,7 +2194,7 @@ fiszki10.push(
         ],
         key: "is",
         category1: "nauka",
-        category2: ["czasownik"]
+        category2: ["to_be"]
     },
     {
         id: [
@@ -2382,7 +2382,7 @@ fiszki10.push(
         ],
         key: "are",
         category1: "nauka",
-        category2: ["czasownik"],
+        category2: ["to_be"],
         category3: ["PresentContinous", "PresentContinousToBe"]
     },
     {
@@ -2597,7 +2597,7 @@ fiszki10.push(
         ],
         key: "am",
         category1: "nauka",
-        category2: ["czasownik"]
+        category2: ["to_be"]
     },
     {
         id: [
@@ -3069,7 +3069,7 @@ fiszki10.push(
             45,
             85
         ],
-        img: "https://www.arbulang.com/img/fiszki1/292a.jpg",
+        img: "https://www.arbulang.com/img/fiszki1/290a.jpg",
         story: "O<u><b>liw</u></b>ka i <u><b>D</u></b>amian idą na imprezę (wcześniej <u><b>mieszkali</u></b> na wsi). Damianowi puścił sz<b><u>ew</b></u> w kurtce, <b><u>ch</b></u>yba go zaceruje",
         desc: "have lived[hew liwd] - mieszkali (oni), mieszkałem/mieszkałam",
         sentence1: [

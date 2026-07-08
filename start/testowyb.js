@@ -15384,88 +15384,6 @@ const fiszki10 = [
             43,
             82
         ],
-    entries: [
-        {
-            id: 1,
-            img: {
-                src: "https://www.arbulang.com/img/fiszki1/2a.jpg",
-                alt: "Kupowanie biletu, zdjęcie z biletem. Wygenerowane przez AI."
-            },
-            story: {
-                text: 'W niemieckim mieście <span class="adannotation" data-annotation="1"><u><b>Hess</u></b></span>en Jurek <u><b>ma</u></b> bilet na mecze jego drużyny',
-                alt: "Przygotowanie do widowiska sportowego"
-            },
-            category: ["sport", "kibic"]
-        },
-        {
-            id: 2,
-            img: {
-                src: "https://www.arbulang.com/img/fiszki1/2b.jpg",
-                alt: "Hipopotam podczas przedstawienia cyrkowego. Wygenerowane przez AI."
-            },
-            story: {
-                text: '<span class="adannotation" data-annotation="1"><u><b>H</u></b></span>ipopotam występuje w cyrku na <span class="adannotation" data-annotation="2"><u><b>es</u></b></span>tradzie, <u><b>ma</u></b> duże umiejętności',
-                alt: "Pokazy cyrkowe. Żart o cyrku"
-            },
-            category: ["natura", "rozrywka"]
-        },
-        {
-            id: 3,
-            img: {
-                src: "https://www.arbulang.com/img/fiszki1/2c.jpg",
-                alt: "Naukowcy podczas pracy. Wygenerowane przez AI."
-            },
-            story: {
-                text: 'Naukowiec nagle się zapomniał i zapytał: <span class="adannotation" data-annotation="1"><u><b>he</u></b></span>?, a wtedy jego kolega <u><b>ma</u></b> niezłą zabawę, <span class="adannotation" data-annotation="2"><u><b>s</u></b></span>prawa oczywista..',
-                alt: "Obyczaje naukowca. Żart o naukowcu"
-            },
-            category: ["nauka", "humor"]
-        },
-        {
-            id: 4,
-            img: {
-                src: "https://www.arbulang.com/img/fiszki1/2d.jpg",
-                alt: "Życie jako polityk. Scena. Wygenerowane przez AI."
-            },
-            story: {
-                text: '<span class="adannotation" data-annotation="1"><u><b>He</u></b></span>gemonia konsumpcjonizmu doprowadziła do tego, że "ON"-dyrektor ma problemy, bo nikt nie chce chodzić na <span class="adannotation" data-annotation="2"><u><b>s</u></b></span>pektakle teatralne',
-                alt: "Życie współczesne i kultura. Żart o teatrze"
-            },
-            category: ["czarny humor", "trendy"]
-        },
-        {
-            id: 5,
-            img: {
-                src: "https://www.arbulang.com/img/fiszki1/2e.jpg",
-                alt: "Muzycy z klarnetami. Wygenerowane przez AI."
-            },
-            story: {
-                text: 'Moja koleżanka <u><b>ma</u></b> nowy klarnet z drzewa <span class="adannotation" data-annotation="1"><u><b>he</u></b></span>banowego. <span class="adannotation" data-annotation="2"><u><b>S</u></b></span>....uper sprawa',
-                alt: "Wychowanie dzieci"
-            },
-            category: ["związki", "muzyka"]
-        }
-    ],
-        desc: "has[hes]/have[hew] - mieć(on/ona/oni)/mieć(ja/ty)",
-        sentence1: [
-            "has"
-        ],
-        sentence: [
-            "She",
-            "has",
-            "visited",
-            "Paris"
-        ],
-        key: "has",
-        category1: "nauka",
-        category2: ["czasownik"]
-    },
-    {
-        id: [
-            282,
-            43,
-            82
-        ],
             entries: [
         {
             id: 1,
@@ -15474,20 +15392,19 @@ const fiszki10 = [
                 alt: "Wygenerowane przez AI."
             },
             story: {
-                text: "Prodecent odwiedził naukowców z proszkiem <u><b>wizi</u></b>r, aby go przetestowali. Jeden naukowiec ma <u><b>ti</u></b>ki i myli się przy badaniach. <u><b>Id</u></b>zie mu słabo",
+                text: "Szefowa <u><b>odwiedziła</u></b> naukowców w mieście Hessen z proszkiem <u><b>wizi</u></b>r, aby go przetestowali. Jeden naukowiec ma <u><b>ti</u></b>ki i myli się przy badaniach. <u><b>Id</u></b>zie mu słabo",
                 alt: ""
             },
             category: ["firmy", "testowanie produktu"]
         }
             ],
-        desc: "visited[wizitid] - odwiedził/odwiedziła",
+        desc: "has visited[wizitid] - odwiedził/odwiedziła",
         sentence1: [
-            "visited"
+            "has visited"
         ],
         sentence: [
             "She",
-            "has",
-            "visited",
+            "has_visited",
             "Paris"
         ],
         key: "visited",
@@ -15496,7 +15413,7 @@ const fiszki10 = [
     },
     {
         id: [
-            283,
+            282,
             43,
             82
         ],
@@ -15520,8 +15437,7 @@ const fiszki10 = [
         ],
         sentence: [
             "She",
-            "has",
-            "visited",
+            "has_visited",
             "Paris"
         ],
         key: "Paris",
@@ -15530,7 +15446,7 @@ const fiszki10 = [
     },
     {
         id: [
-            284,
+            283,
             43,
             83
         ],
@@ -15561,7 +15477,7 @@ const fiszki10 = [
     },
     {
         id: [
-            285,
+            284,
             43,
             83
         ],
@@ -15592,7 +15508,7 @@ const fiszki10 = [
     },
     {
         id: [
-            286,
+            285,
             44,
             84
         ],
@@ -15673,8 +15589,7 @@ const fiszki10 = [
         ],
         sentence: [
             "I",
-            "have",
-            "finished",
+            "have_finished",
             "my",
             "homework"
         ],
@@ -15685,41 +15600,7 @@ const fiszki10 = [
     },
     {
         id: [
-            287,
-            44,
-            84
-        ],
-            entries: [
-        {
-            id: 1,
-            img: {
-                src: "https://www.arbulang.com/img/fiszki1/122a.jpg",
-                alt: "Wygenerowane przez AI."
-            },
-            story: {
-                text: "<b><u>Mam</b></u> fajne spodnie, ale puścił sz<b><u>ew</b></u>, <b><u>ch</b></u>yba go zaceruje",
-                alt: ""
-            },
-            category: ["życie", "ubiór"]
-        }
-            ],
-        desc: "have[hew] - mam",
-        sentence1: [
-            "have"
-        ],
-        sentence: [
-            "I",
-            "have",
-            "finished",
-            "my",
-            "homework"
-        ],
-        key: "have",
-        category2: ["czasownik"]
-    },
-    {
-        id: [
-            288,
+            286,
             44,
             84
         ],
@@ -15731,20 +15612,19 @@ const fiszki10 = [
                 alt: "Wygenerowane przez AI."
             },
             story: {
-                text: "<b><u>Fin</b></u> zdaje magisterke i jest na końcu drogi kształcenia się czyli <b><u>finiszuje</b></u>. Zdał <b><u>i</b></u> jest <b><u>szt</b></u>os",
+                text: "<b><u>Fin</b></u> ma  fajne spodnie, ale puścił sz<b><u>ew</b></u>, <b><u>ch</b></u>yba go zaceruje i później pójdę zdawać magisterke. Jest na końcu drogi kształcenia się czyli <b><u>finisz</b></u>. Skończyłem odpowiadać przed gremimum <b><u>i</b></u> jest <b><u>szt</b></u>os",
                 alt: ""
             },
             category: ["szkoła", "egzamin"]
         }
             ],
-        desc: "finished[finiszt] - ukończyć",
+        desc: "have finished[hew finiszt] - ukończyć",
         sentence1: [
-            "finished"
+            "have finished"
         ],
         sentence: [
             "I",
-            "have",
-            "finished",
+            "have_finished",
             "my",
             "homework"
         ],
@@ -15754,7 +15634,7 @@ const fiszki10 = [
     },
     {
         id: [
-            289,
+            287,
             44,
             84
         ],
@@ -15844,6 +15724,16 @@ const fiszki10 = [
             category: ["czarny humor 2", "majątek"]
         }
             ],
+        desc: "my[maj] - moje/moją",
+        sentence1: [
+            "my"
+        ],
+        sentence: [
+            "I",
+            "have_finished",
+            "my",
+            "homework"
+        ],
         key: "my",
         category1: ["natura", "florystyka",
             "związki", "przyjaźń",
@@ -15853,7 +15743,7 @@ const fiszki10 = [
     },
     {
         id: [
-            290,
+            288,
             44,
             84
         ],
@@ -15861,7 +15751,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/290a.jpg",
+                src: "https://www.arbulang.com/img/fiszki1/288a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -15877,8 +15767,7 @@ const fiszki10 = [
         ],
         sentence: [
             "I",
-            "have",
-            "finished",
+            "have_finished",
             "my",
             "homework"
         ],
@@ -15888,7 +15777,7 @@ const fiszki10 = [
     },
         {
         id: [
-            291,
+            289,
             45,
             85
         ],
@@ -15921,8 +15810,7 @@ const fiszki10 = [
         ],
         sentence: [
             "They",
-            "have",
-            "lived",
+            "have lived",
             "in",
             "this",
             "house"
@@ -15932,45 +15820,9 @@ const fiszki10 = [
         category2: ["osoby"],
         category3: ["PresentPerfect"]
     },
-        {
-        id: [
-            292,
-            45,
-            85
-        ],
-            entries: [
-        {
-            id: 1,
-            img: {
-                src: "https://www.arbulang.com/img/fiszki1/292a.jpg",
-                alt: "Wygenerowane przez AI."
-            },
-            story: {
-                text: "<b><u>Mam</b></u> fajne spodnie, ale puścił sz<b><u>ew</b></u>, <b><u>ch</b></u>yba go zaceruje",
-                alt: ""
-            },
-            category: ["życie", "ubiór"]
-        }
-            ],
-        desc: "have[hew] - mam",
-        sentence1: [
-            "have"
-        ],
-        sentence: [
-            "They",
-            "have",
-            "lived",
-            "in",
-            "this",
-            "house"
-        ],
-        key: "have",
-        category1: "nauka",
-        category2: ["czasownik"]
-    },
             {
         id: [
-            293,
+            290,
             45,
             85
         ],
@@ -15978,24 +15830,23 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/293a.jpg",
+                src: "https://www.arbulang.com/img/fiszki1/290a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
-                text: "O<u><b>liw</u></b>ka i <u><b>D</u></b>amian żyją ze sobą szczęśliwie",
+                text: "O<u><b>liw</u></b>ka i <u><b>D</u></b>amian idą na imprezę (wcześniej <u><b>mieszkali</u></b> na wsi). Damianowi puścił sz<b><u>ew</b></u> w kurtce, <b><u>ch</b></u>yba go zaceruje",
                 alt: ""
             },
             category: ["życie", "związek"]
         }
             ],
-        desc: "lived[liwd] - żyją",
+        desc: "have lived[hew liwd] - żyją",
         sentence1: [
-            "lived"
+            "have lived"
         ],
         sentence: [
             "They",
-            "have",
-            "lived",
+            "have lived",
             "in",
             "this",
             "house"
@@ -16006,7 +15857,7 @@ const fiszki10 = [
     },
                 {
         id: [
-            294,
+            291,
             45,
             85
         ],
@@ -16030,8 +15881,7 @@ const fiszki10 = [
         ],
         sentence: [
             "They",
-            "have",
-            "lived",
+            "have lived",
             "in",
             "this",
             "house"
@@ -16042,7 +15892,7 @@ const fiszki10 = [
     },
                     {
         id: [
-            295,
+            292,
             45,
             85
         ],
@@ -16114,8 +15964,7 @@ const fiszki10 = [
         ],
         sentence: [
             "They",
-            "have",
-            "lived",
+            "have lived",
             "in",
             "this",
             "house"
@@ -16126,7 +15975,7 @@ const fiszki10 = [
     },
                     {
         id: [
-            296,
+            293,
             45,
             85
         ],
@@ -16134,7 +15983,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/296a.jpg",
+                src: "https://www.arbulang.com/img/fiszki1/293a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -16151,8 +16000,7 @@ const fiszki10 = [
         ],
         sentence: [
             "They",
-            "have",
-            "lived",
+            "have lived",
             "in",
             "this",
             "house"
@@ -16163,7 +16011,7 @@ const fiszki10 = [
     },
                         {
         id: [
-            297,
+            294,
             45,
             86
         ],
@@ -16195,7 +16043,7 @@ const fiszki10 = [
     },
                             {
         id: [
-            298,
+            295,
             45,
             86
         ],
@@ -16203,7 +16051,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/298a.jpg",
+                src: "https://www.arbulang.com/img/fiszki1/295a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -16227,7 +16075,7 @@ const fiszki10 = [
     },
             {
         id: [
-            299,
+            296,
             46,
             87
         ],
@@ -16317,7 +16165,7 @@ const fiszki10 = [
     },
                                 {
         id: [
-            300,
+            297,
             46,
             87
         ],
@@ -16325,7 +16173,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/300a.jpg",
+                src: "https://www.arbulang.com/img/fiszki1/297a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -16350,7 +16198,7 @@ const fiszki10 = [
     },
                                 {
         id: [
-            301,
+            298,
             46,
             87
         ],
@@ -16431,7 +16279,7 @@ const fiszki10 = [
     },
                                     {
         id: [
-            302,
+            299,
             46,
             87
         ],
@@ -16439,7 +16287,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/302a.jpg",
+                src: "https://www.arbulang.com/img/fiszki1/299a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -16463,7 +16311,7 @@ const fiszki10 = [
     },
                                         {
         id: [
-            303,
+            300,
             46,
             87
         ],
@@ -16471,7 +16319,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/303a.jpg",
+                src: "https://www.arbulang.com/img/fiszki1/300a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
