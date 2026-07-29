@@ -28,6 +28,27 @@
         <meta name="keywords" content="naucz się angielskiego, 1000 angielskich słów, szybka nauka angielskiego, jak nauczyć się angielskiego, jak szybko nauczyć się języka, nauka angielskiego z przyjemnością" />
         <style>
             @media (min-width: 999px) {
+.thumb-img-wrapper {
+    position: relative;
+    display: inline-block;
+}
+
+.thumb-img {
+    display: block;
+}
+
+.thumb-highlight-word {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 5;
+
+    font-size: 20px;
+    font-weight: bold;
+    color: orange;
+    text-shadow: 1px 1px 3px black;
+}
 .first-word {
     background-color: #00ff00;
     border-radius: 4px;
@@ -880,7 +901,7 @@ span.highlight {
     background-color: blue;
     max-width: 100%;
     position: relative;
-    min-height: 220px;
+    min-height: 650px;
     height: auto;
     margin-bottom: 0px;
     align-items: stretch; /* 🔥 zmiana */
@@ -1706,6 +1727,7 @@ input {
         flex-direction: column;
         align-items: center;
         width: 100%;
+        min-height: 650px;
         box-sizing: border-box;
         background-color: blue;
         font-size: 16px;

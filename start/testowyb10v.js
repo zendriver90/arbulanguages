@@ -2178,6 +2178,9 @@ const fiszki10 = [
             15
         ],
         img: "https://www.arbulang.com/img/fiszki1/45aa.jpg",
+                                                                        word: [
+            "http://localhost/arbulanguage.com/voice/angielski/lekcja8/book.mp3"
+        ],
         story: "Z drzewa <b><u>buk</b></u>owego jest najlepszy papier na <b><u>książki</b></u>",
         desc: "book[buk] - książka",
         sentence1: [
@@ -2206,6 +2209,9 @@ const fiszki10 = [
             15
         ],
         img: "https://www.arbulang.com/img/fiszki1/46aa.jpg",
+                                                                        word: [
+            "http://localhost/arbulanguage.com/voice/angielski/lekcja8/belongs.mp3"
+        ],
         story: "<b><u>Bel</b></u>ki <b><u>przynależą</b></u> do stropu, w Mongoli tak robiono stropy",
         desc: "belongs[belongs] - przynależy",
         sentence1: [
@@ -2239,6 +2245,9 @@ const fiszki10 = [
             "https://www.arbulang.com/img/fiszki1/10c.jpg",
             "https://www.arbulang.com/img/fiszki1/10d.jpg",
             "https://www.arbulang.com/img/fiszki1/10e.jpg"
+        ],
+                                                                        word: [
+            "http://localhost/arbulanguage.com/voice/angielski/lekcja8/to.mp3"
         ],
         translateb2: "[tu his grandfader]",
         story: [
@@ -2287,6 +2296,9 @@ const fiszki10 = [
             "https://www.arbulang.com/img/fiszki1/106b.jpg",
             "https://www.arbulang.com/img/fiszki1/48aa5.jpg"
         ],
+                                                                        word: [
+            "http://localhost/arbulanguage.com/voice/angielski/lekcja8/his.mp3"
+        ],
         story: [
             "Pre<b><u>his</b></u>toryczny dinozaur z <b><u>jego</b></u> sprawnością mógłby spokojnie pokonać niedźwiedzia",
             "Lew nie wpada w <b><u>his</b></u>terię - polegają na instynkcie. Za to <b><u>jego</b></u> natura jest bardzo niebezpieczna dla czowieka",
@@ -2322,6 +2334,9 @@ const fiszki10 = [
             16
         ],
         img: "https://www.arbulang.com/img/fiszki1/49aa.jpg",
+                                                                        word: [
+            "http://localhost/arbulanguage.com/voice/angielski/lekcja8/grandfather.mp3"
+        ],
         story: "Kłóciłem się z <b><u>dziadkeim</b></u> i była <b><u>grand</b></u>a.. ta <b><u>fa</b></u>milia mnie już <b><u>de</b></u>ne<b><u>r</b></u>wuje",
         desc: "grandfather[grandfader] - dziadek",
         sentence2: [
@@ -2351,6 +2366,9 @@ const fiszki10 = [
             "https://www.arbulang.com/img/fiszki1/50aa.jpg",
             "https://www.arbulang.com/img/fiszki1/50bb.jpg",
             "https://www.arbulang.com/img/fiszki1/50cc.jpg"
+        ],
+                                                                                word: [
+            "http://localhost/arbulanguage.com/voice/angielski/lekcja9/my.mp3"
         ],
         translate: "Moi sąsiedzi sprzedali ich duży dom",
         translateb: "[Maj nejburs ar seling deir big hałs]",
@@ -2396,6 +2414,9 @@ const fiszki10 = [
             17
         ],
         img: "https://www.arbulang.com/img/fiszki1/51aa.jpg",
+                                                                                word: [
+            "http://localhost/arbulanguage.com/voice/angielski/lekcja9/neighbours.mp3"
+        ],
         story: "Dla zdol<b><u>nej</b></u> uczennicy <b><u>sąsiedzi</b></u> ułożyli wierszyk, <b><u>bo</b></u> <b><u>s</b></u>ą jej urodziny",
         desc: "neighbours[nejbours] - sąsiedzi",
         sentence1: [
@@ -2426,6 +2447,9 @@ const fiszki10 = [
         img: [
             "https://www.arbulang.com/img/fiszki1/52aa.jpg",
             "https://www.arbulang.com/img/fiszki1/220a.jpg"
+        ],
+                                                                                word: [
+            "http://localhost/arbulanguage.com/voice/angielski/lekcja9/are.mp3"
         ],
         story: [
             "<b><u>Twoje</b></u> <b><u>ar</b></u>gumenty są bardzo przemawiające",
@@ -2458,6 +2482,9 @@ const fiszki10 = [
             17
         ],
         img: "https://www.arbulang.com/img/fiszki1/53aa.jpg",
+                                                                                word: [
+            "http://localhost/arbulanguage.com/voice/angielski/lekcja9/selling.mp3"
+        ],
         story: "Ten <b><u>sel</b></u>er łatwo jest <b><u>sprzedać</b></u> na targu, a kupujący robią <b><u>g</b></u>roźne m<b><u>in</b></u>y",
         desc: "selling[seling] - sprzedają",
         sentence1: [
@@ -2486,6 +2513,9 @@ const fiszki10 = [
             18
         ],
         img: "https://www.arbulang.com/img/fiszki1/54aa.jpg",
+                                                                                word: [
+            "http://localhost/arbulanguage.com/voice/angielski/lekcja9/their.mp3"
+        ],
         translateb2: "[deir big hałs]",
         srcWord2: ["https://www.arbulang.com/filmy/procedure.mp4", "Breaking Bad"],
         story: "<b><u>W</b></u> ten <b><u>de</b></u>seń jest <b><u>i</b></u>ch <b><u>r</b></u>obota",
@@ -2518,6 +2548,9 @@ const fiszki10 = [
             "https://www.arbulang.com/img/fiszki1/55aa.jpg",
             "https://www.arbulang.com/img/fiszki1/170a.jpg"
         ],
+                                                                                        word: [
+            "http://localhost/arbulanguage.com/voice/angielski/lekcja9/big.mp3"
+        ],
         story: [
             "<b><u>B</b></u>ardzo <b><u>duży</b></u> samolot M<b><u>ig</b></u> właśnie przeleciał na niebie",
             "<b><u>Big</b></u>amista ma <b><u>duży</b></u> popęd seksualny"
@@ -2548,6 +2581,9 @@ const fiszki10 = [
             18
         ],
         img: "https://www.arbulang.com/img/fiszki1/55aa.jpg",
+                                                                                        word: [
+            "http://localhost/arbulanguage.com/voice/angielski/lekcja9/house.mp3"
+        ],
         story: "W <b><u>domu</b></u> mamy psa, który robi <b><u>hał</b></u>.. hał.. na sąsiadów i wabi się <b><u>S</b></u>ara",
         desc: "house[hałs] - dom",
         sentence2: [
@@ -2586,8 +2622,8 @@ const fiszki10 = [
         srcWord: ["https://www.arbulang.com/filmy/lekcja4/dog.mp4", "Sztanga i cash (2013)"],
         srcWordimage: "https://www.arbulang.com/filmy/lekcja4/dog.png",
                         opis: "Zapowiedź filmu",
-        word: [
-            "https://www.arbulang.com/voice/music.mp4"
+                                                                                word: [
+            "http://localhost/arbulanguage.com/voice/angielski/lekcja10/my.mp3"
         ],
         story: [
             "W <b><u>maj</b></u>u kwitną <b><u>moje</b></u> ulubione kwiaty",
@@ -2624,6 +2660,9 @@ const fiszki10 = [
             19
         ],
         img: "https://www.arbulang.com/img/fiszki1/58aa.jpg",
+                                                                                        word: [
+            "http://localhost/arbulanguage.com/voice/angielski/lekcja10/dog.mp3"
+        ],
         story: "Mój <b><u>pies</b></u> mnie słucha, <b><u>dog</b></u>aduje się z nim",
         desc: "dog[dog] - pies",
         sentence1: [
@@ -2659,6 +2698,9 @@ const fiszki10 = [
             "https://www.arbulang.com/img/fiszki1/8e.jpg",
             "https://www.arbulang.com/img/fiszki1/8f.jpg",
             "https://www.arbulang.com/img/fiszki1/8g.jpg"
+        ],
+                                                                                        word: [
+            "http://localhost/arbulanguage.com/voice/angielski/lekcja10/is.mp3"
         ],
         story: [
             "Gdy ktoś szybko biega obok nas to <u><b>jest</u></b> w popłochu, słyszymy tylko św<u><b>is</u></b>t",
@@ -2704,6 +2746,9 @@ const fiszki10 = [
             20
         ],
         img: "https://www.arbulang.com/img/fiszki1/60aa.jpg",
+                                                                                        word: [
+            "http://localhost/arbulanguage.com/voice/angielski/lekcja10/a.mp3"
+        ],
         translateb2: "[Maj dog is a gud frend]",
         story: "Zobaczyłem wypłatę.. <b><u>eeeee</b></u> to jest dopiero wypłata",
         desc: "a[e] - coś",
@@ -2732,6 +2777,9 @@ const fiszki10 = [
             20
         ],
         img: "https://www.arbulang.com/img/fiszki1/61aa.jpg",
+                                                                                        word: [
+            "http://localhost/arbulanguage.com/voice/angielski/lekcja10/big.mp3"
+        ],
         story: "Jest <b><u>dobrze</b></u> kiedy jest więcej wy<b><u>gód</b></u>",
         desc: "good[gud] - dobre",
         sentence2: [
@@ -2759,6 +2807,9 @@ const fiszki10 = [
             20
         ],
         img: "https://www.arbulang.com/img/fiszki1/62aa.jpg",
+                                                                                        word: [
+            "http://localhost/arbulanguage.com/voice/angielski/lekcja10/friend.mp3"
+        ],
         story: "<b><u>End</b></u>riu ma <b><u>fr</b></u>ak na zimę, każda pora roku to jego przyjaciel",
         desc: "friend[frend] - przyjaciel",
         sentence2: [

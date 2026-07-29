@@ -1,3 +1,109 @@
+wersja 1.0:
+        $(document).on("click", ".next-buttonvv", function () {
+
+    const $line = $(this).closest('.sentence-line');
+
+    const indexDiv = $line.find('.sentence-inner').data('indexdiv');
+
+    if (wordIndexCache[indexDiv] === undefined)
+        wordIndexCache[indexDiv] = 0;
+
+    // następne słowo
+    wordIndexCache[indexDiv]++;
+
+    tablica20aa.push(wordIndexCache[indexDiv]);
+
+    console.log('hej120aa', wordIndexCache[indexDiv]);
+
+    // 🔥 znajdź nowe słowo po inkrementacji
+    const $nextWord = $line.find(
+        `[data-word-index="${wordIndexCache[indexDiv]}"]`
+    ).first();
+
+    if ($nextWord.length) {
+
+        // usuń tylko animacje w tym bloku
+        $line.find('.word-animation').remove();
+
+        $nextWord.css({
+            position: 'relative',
+            display: 'inline-block'
+        });
+
+        $nextWord.append(`
+            <div class="word-animation">
+                <span class="a1"></span>
+                <span class="a2"></span>
+                <span class="a3"></span>
+                <span class="a4"></span>
+                <span class="a5"></span>
+                <span class="a6"></span>
+                <span class="a7"></span>
+                <span class="a8"></span>
+                <span class="a9"></span>
+                <span class="a10"></span>
+            </div>
+        `);
+    }
+
+    // 5. 🔊 DŹWIĘK PIERWSZEGO SŁOWA
+const currentWordIndex = wordIndexCache[indexDiv];
+
+const y = 1 + (indexDiv - 1) * 3;
+
+const blockWords = fiszki10.filter(
+    f => f.id?.[1] === y
+);
+
+const fiszkaAudio = blockWords[currentWordIndex];
+
+console.log('[audio] currentWordIndex =', currentWordIndex);
+console.log('[audio] y =', y);
+console.log('[audio] fiszkaAudio =', fiszkaAudio);
+
+if (fiszkaAudio?.word?.[0]) {
+
+    console.log('[audio] playing:', fiszkaAudio.word[0]);
+
+    const audio = new Audio(fiszkaAudio.word[0]);
+
+    audio.currentTime = 0;
+
+    audio.play().catch(err => {
+        console.warn('[audio] blocked or failed:', err);
+    });
+}
+    syncHighlightForIndexDiv(indexDiv);
+
+});
+
+$sentenceBlock.find('.next-buttonvv')
+        .off('click.attachNav')
+        .on('click.attachNav', function () {
+
+            const raw = $sentenceBlock.find('.sentence-inner').first().text().trim();
+            const tokens = raw ? raw.split(/\s+/) : [];
+
+            if (currentWordIndex < tokens.length - 1) {
+$(document).on("click", ".next-buttonvv", function () {
+
+    const $sentence = $(this).closest('.sentence-line')
+        .find('.sentence-inner');
+
+    const indexDiv = $sentence.data('indexdiv');
+    const pos = $sentence.data('pos');
+
+    const descKey = indexDiv + "_" + pos;
+
+    if (wordIndexCache[descKey] === undefined)
+        wordIndexCache[descKey] = 0;
+
+    wordIndexCache[descKey]++;
+
+    console.log('klik:', descKey, wordIndexCache[descKey]);
+
+    syncHighlightForIndexDiv(descKey, descCache[descKey]);
+});
 $(document).on('mouseenter', '.image-container3b', function () {
 
     const $block = $(this);

@@ -471,9 +471,13 @@ button {
 }
 
 #start-btn {
-    justify-content: center;
-    align-items: center;
+      width: 50%; /* lub dowolna inna szerokość */
+  margin-left: auto;
+  margin-right: auto;
     text-align: center;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
 }
 #learn-language-container {
             display: grid;
@@ -964,6 +968,8 @@ document.addEventListener("DOMContentLoaded", () => {
         </div>
     <div class="container">
         📌 <div id="nowy"><span style="font-size: 24px;"><strong>(UPDATE 08.07.26)<br>
+                    BAZA DANYCH SZYBKIEJ LEKCJI (CZYLI PRZYSPIESZONEJ WERSJI CZYTANIA FISZEK)<br>
+                    JEST NA RAZIE NIE POPRAWNA<br><br>
                     JESZCZE NIE WSZYSTKO DZIAŁA POPRAWNIE<br><br>
                 VIDEO PLAYBACK - FIXED<br>
 ODTWARZANIE WIDEO - POPRAWIONE<br>
@@ -984,49 +990,11 @@ ODTWARZANIE WIDEO - POPRAWIONE<br>
         </div>
 
         <div class="flag-container" id="native-language-container">
-                        <div data-language="en">
-                <div id="angielski">American English</div><div id="polski2">Number of unique Spanish words - 171</div>
-                <video autoplay loop muted>
-                    <source src="start/USA.mp4" type="video/mp4">
-                    Twój przeglądarka nie obsługuje elementu video.
-                </video>
-            </div>
-            <div data-language="br">
-                <div id="british">British English</div><div id="polski2">Number of unique Spanish words - 171</div>
-                <video autoplay loop muted>
-                    <source src="start/England.mp4" type="video/mp4">
-                    Twój przeglądarka nie obsługuje elementu video.
-                </video>
-            </div>
-                        <div data-language="esp">
-                <div id="ingles">Español de España</div><div id="polski2">Ingles - 11 palabras<br>
-                </div>
-                <video autoplay loop muted>
-                    <source src="start/Spain.mp4" type="video/mp4">
-                    Twój przeglądarka nie obsługuje elementu video.
-                </video>
-            </div>
-                                    <div data-language="esp2">
-                <div id="ingles">Español Mexicano</div><div id="polski2">Ingles - 11 palabras<br>
-                </div>
-                <video autoplay loop muted>
-                    <source src="start/Mexico.mp4" type="video/mp4">
-                    Twój przeglądarka nie obsługuje elementu video.
-                </video>
-            </div>
             <div data-language="pl">
                 <div id="polski">Polski</div><div id="polski2">ANGIELSKI - Liczba unikalnych słów - 421<br>
                 HISZPAŃSKI - Liczba unikalnych słów - 213</div>
                 <video autoplay loop muted>
                     <source src="start/Poland.mp4" type="video/mp4">
-                    Twój przeglądarka nie obsługuje elementu video.
-                </video>
-            </div>
-                        <div data-language="hu">
-                <div id="polski">Magyar</div><div id="polski2">Angol - 20 szó<br>
-                </div>
-                <video autoplay loop muted>
-                    <source src="start/Hungary.mp4" type="video/mp4">
                     Twój przeglądarka nie obsługuje elementu video.
                 </video>
             </div>
@@ -1516,7 +1484,6 @@ langToggle.addEventListener('click', () => {
             if (nativeLanguage === 'pl') {
                 languageOptions = [
                     { value: 'en', text: 'Angielski', video: flags['en'] },
-                    { value: 'es', text: 'Hiszpański', video: flags['es'] }
                 ];
             } else if (nativeLanguage === 'en') {
                 languageOptions = [

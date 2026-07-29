@@ -21,6 +21,7 @@ if (!window.wordIndexCache) window.wordIndexCache = {};
 if (!window.lessonPosCache) window.lessonPosCache = {};
 window.mojeidGlobal = window.mojeidGlobal || [];
 window.mojeidGlobal1b = window.mojeidGlobal1b || [];
+window.thumbHighlightCache = window.thumbHighlightCache || {};
 function getDiffForStart(indexDiv, currentPos) {
     const entry = [...window.mojeidGlobal]
         .reverse()
@@ -677,7 +678,7 @@ $(document).on('click', '.rodzaj-button', function () {
         window.updateHighlightAll();
     }
 });
-
+            const wordIndexCache = {};
         function renderLesson() {
 
 
@@ -1515,7 +1516,9 @@ $sentence10.find('.word-span, .word-span2')
         handleWordClick(clickedIndex, indexDiv, matchingFiszki1);
     });
     const descKey = indexDiv + "_" + currentPos;
-
+// zapamiętujemy pozycję thumb-desc
+window.thumbHighlightCache = window.thumbHighlightCache || {};
+window.thumbHighlightCache[descKey] = clickedIndex;
     // ustawiamy aktualne słowo
     wordIndexCache[descKey] = clickedIndex;
 
@@ -1595,7 +1598,8 @@ isNextClick2 = true;
         handleWordClick(clickedIndex, indexDiv, matchingFiszki1);
     });
         const descKey = indexDiv + "_" + currentPos;
-
+window.thumbHighlightCache = window.thumbHighlightCache || {};
+window.thumbHighlightCache[descKey] = clickedIndex;
     // ustawiamy aktualne słowo
     wordIndexCache[descKey] = clickedIndex;
 
@@ -2332,6 +2336,18 @@ $container.find('.sentence-line').each(function () {
         value: state.currentFiszkaIndex
     });
 });
+    const descKey = indexDiv + "_" + currentPos;
+
+    // ustawiamy aktualne słowo
+    wordIndexCache[descKey] = state.currentFiszkaIndex;
+
+    console.log("Kliknięto słowo:", state.currentFiszkaIndex);
+
+    // przesuwamy podświetlenie
+    syncHighlightForIndexDiv(
+        descKey,
+        descCache[descKey]
+    );
 });
                                 ////////////////////////////////////////////////////////////////////
                                 if (currentFiszkaIndex === 0) {
@@ -2419,6 +2435,18 @@ $container.find('.sentence-line').each(function () {
         value: state.currentFiszkaIndex
     });
 });
+    const descKey = indexDiv + "_" + currentPos;
+
+    // ustawiamy aktualne słowo
+    wordIndexCache[descKey] = state.currentFiszkaIndex;
+
+    console.log("Kliknięto słowo:", state.currentFiszkaIndex);
+
+    // przesuwamy podświetlenie
+    syncHighlightForIndexDiv(
+        descKey,
+        descCache[descKey]
+    );
 });
 
                                 setTimeout(() => {
@@ -3215,7 +3243,8 @@ const sentencePos = $(this)
     .data('pos');
 
 const descKey = indexDiv + "_" + (currentPos - 1);
-
+window.thumbHighlightCache = window.thumbHighlightCache || {};
+window.thumbHighlightCache[descKey] = clickedIndex;
 wordIndexCache[descKey] = clickedIndex;
 
 console.log("WORD CLICK:", {
@@ -3298,7 +3327,8 @@ isNextClick2 = true;
         handleWordClick(clickedIndex, indexDiv, matchingFiszki2);
     });
             const descKey = indexDiv + "_" + currentPos;
-
+window.thumbHighlightCache = window.thumbHighlightCache || {};
+window.thumbHighlightCache[descKey] = clickedIndex;
     // ustawiamy aktualne słowo
     wordIndexCache[descKey] = clickedIndex;
 
@@ -4911,7 +4941,8 @@ $sentence30.find('.word-span, .word-span2')
         handleWordClick(clickedIndex, indexDiv, matchingFiszki3);
     });
 const descKey = indexDiv + "_" + (currentPos - 1);
-
+window.thumbHighlightCache = window.thumbHighlightCache || {};
+window.thumbHighlightCache[descKey] = clickedIndex;
 wordIndexCache[descKey] = clickedIndex;
 
 console.log("WORD CLICK:", {
@@ -4995,7 +5026,8 @@ isNextClick2 = true;
     });
     const savedId = Number($container.attr('data-id'));
 const descKey = indexDiv + "_" + (currentPos - 1);
-
+window.thumbHighlightCache = window.thumbHighlightCache || {};
+window.thumbHighlightCache[descKey] = clickedIndex;
 wordIndexCache[descKey] = clickedIndex;
 
 console.log("WORD CLICK:", {
@@ -6280,7 +6312,28 @@ if (!videoVisible) {
     $textContainer2.hide();
 }
             $mediaContainer.append($textContainer2);
+const sentenceMap = currentTriplet.map(id => {
+    return sentences[id]?.id?.[1] ?? id;
+});
 
+if (
+    sentenceMap.length >= 3 &&
+    sentenceMap[0] === 2 &&
+    sentenceMap[1] === 3 &&
+    sentenceMap[2] === 3
+) {
+    sentenceMap[0] = 1;
+    sentenceMap[1] = 2;
+}
+
+console.log("hej20v", sentenceMap);
+window.sentenceMapCache ??= {};
+window.sentenceMapCache[indexDiv] = sentenceMap;
+console.log('hej20', sentenceMap);
+const xMap = currentTriplet.map(id => {
+    return sentences[id]?.id?.[0] ?? id;   // X (np. lesson / group / set)
+});
+console.log('hej20b', xMap);
 // --- Pasek miniatur ze strzałkami ---
             const $thumbContainer = $('<div>').addClass('thumb-row');
             currentTriplet.forEach((dataName, pos) => {
@@ -6288,31 +6341,73 @@ if (!videoVisible) {
                 if (pos === currentPos)
                     $item.addClass('activeItem');
 
-                const $img = $('<img>').addClass('thumb-img').attr('data-pos', pos);
-                setImgSrcForce($img, miniaturka[pos]);
+
                     const $czasLabel = $('<div>')
         .addClass('thumb-czas')
         .text(srcWordsq[pos] || '');
-                $img.off('click.thumb').on('click.thumb', function () {
-                    const p = Number($(this).attr('data-pos'));
-                    if (!Number.isNaN(p)) {
-                        currentPos = p;
-                        videoVisible = false;
-                        renderLesson();
-                    }
-                });
+
+const $imgWrapper = $('<div>')
+    .addClass('thumb-img-wrapper');
+
+const $img = $('<img>')
+    .addClass('thumb-img')
+    .attr('data-pos', pos);
+
+setImgSrcForce($img, miniaturka[pos]);
+
+
+const $highlightWord = $('<div>')
+    .addClass('thumb-highlight-word')
+    .text('');
+    
+$imgWrapper.append($img, $highlightWord);
 const matchingIndexes = [];
 const text = lessonTranslations[pos] || '';
 
 const words = text.trim().split(' ');
 
+const secondValues = matchingIndexes2.map(item => Number(item[1]));
+const secondValuesSet = new Set(secondValues);
+
+const sharedBase = xMap[pos] ?? 0;
+
+const descKey = indexDiv + "_" + pos;
+
+
+// pobierz zapamiętane słowo
+const savedIndex = window.thumbHighlightCache?.[descKey] ?? 0;
+
+
 const highlightedText = words.map(function(word, index) {
+
+    const currentX = sharedBase + index;
+
+    const shouldHighlight =
+        index === savedIndex;
+
+
+    if (shouldHighlight) {
+        return `
+            <span 
+                class="highlighted"
+                data-word-index="${index}"
+                data-sentence-id2="${currentX}">
+                ${word}
+            </span>
+        `;
+    }
+
     return `
-        <span data-word-index="${index}">
+        <span 
+            data-word-index="${index}"
+            data-sentence-id2="${currentX}">
             ${word}
         </span>
     `;
+
 }).join(' ');
+
+
 
 const $desc = $('<div>')
     .addClass('thumb-desc')
@@ -6324,26 +6419,40 @@ const $desc = $('<div>')
             ${highlightedText}
         </span>
     `);
-const descKey = indexDiv + "_" + pos;
+
 
 descCache[descKey] = $desc;
-                setTimeout(function () {
-    if (wordIndexCache[indexDiv] === undefined) {
-        wordIndexCache[indexDiv] = 0;
-    }
 
-    syncHighlightForIndexDiv(indexDiv, $desc);
+
+setTimeout(function () {
+
+    const $activeWord = $desc.find('span.highlighted').first();
+
+    const word = $activeWord.text().trim();
+
+    console.log("AKTUALNE SŁOWO THUMB:", {
+        indexDiv,
+        word,
+        sentenceId: $activeWord.data('sentence-id2')
+    });
+
+    $highlightWord.text(word);
+
 }, 0);
 
                 const linkForThumb = linkMap[dataName] || `demo1angielski.html?category=${selectedCategory}&data=${dataName}`;
                 const $link = $('<a>').attr({href: linkForThumb, target: '_blank'}).addClass('thumb-link').text('Otwórz pojedyńczą lekcję');
-
-                $item.append($czasLabel, $img, $desc, $link);
+$item.append(
+    $czasLabel,
+    $imgWrapper,
+    $desc,
+    $link
+);
                 console.log('CAŁY ITEM:', $item.html());
                 $thumbContainer.append($item);
             });
             let globalWordIndex = 0; // wszystkie trzy zdania przesuwają się razem
-            const wordIndexCache = {};
+
             const $thumbWrapper = $('<div>').addClass('thumb-wrapper');
 
 // LEWA STRZAŁKA
@@ -6616,24 +6725,107 @@ function syncHighlightForIndexDiv(indexDiv, $block, scroll = false) {
 
                 // ...
             });
+            
 $(document).on("click", ".next-buttonvv", function () {
 
-    const $sentence = $(this).closest('.sentence-line')
-        .find('.sentence-inner');
+    const $line = $(this).closest(".sentence-line");
 
-    const indexDiv = $sentence.data('indexdiv');
-    const pos = $sentence.data('pos');
+    const $sentence = $line.find(".sentence-inner");
 
-    const descKey = indexDiv + "_" + pos;
+    const indexDiv = Number($sentence.data("indexdiv"));
+    const pos = Number($sentence.data("pos"));
 
+    const descKey = `${indexDiv}_${pos}`;
+
+    // inicjalizacja licznika dla konkretnego zdania
     if (wordIndexCache[descKey] === undefined)
         wordIndexCache[descKey] = 0;
 
-    wordIndexCache[descKey]++;
+// następne słowo
+wordIndexCache[descKey]++;
+window.thumbHighlightCache[descKey] = wordIndexCache[descKey] - 1;
 
-    console.log('klik:', descKey, wordIndexCache[descKey]);
 
-    syncHighlightForIndexDiv(descKey, descCache[descKey]);
+const currentWordIndex = indexDiv === 1
+    ? (window.highlightMode === 'rodzaj'
+        ? (wordIndexCache[descKey] ?? - 2)
+        : (wordIndexCache[descKey] ?? 0) - 1)
+    : (wordIndexCache[descKey] ?? 0);
+
+    tablica20aa.push(currentWordIndex);
+
+    console.log("descKey5:", pos);
+    console.log("currentWordIndex:", currentWordIndex);
+
+    // =====================================
+    // ANIMACJA
+    // =====================================
+
+    const $nextWord = $line.find(
+        `[data-word-index="${currentWordIndex}"]`
+    ).first();
+
+    if ($nextWord.length) {
+
+        $line.find(".word-animation").remove();
+
+        $nextWord.css({
+            position: "relative",
+            display: "inline-block"
+        });
+
+        $nextWord.append(`
+            <div class="word-animation">
+                <span class="a1"></span>
+                <span class="a2"></span>
+                <span class="a3"></span>
+                <span class="a4"></span>
+                <span class="a5"></span>
+                <span class="a6"></span>
+                <span class="a7"></span>
+                <span class="a8"></span>
+                <span class="a9"></span>
+                <span class="a10"></span>
+            </div>
+        `);
+    }
+
+    // =====================================
+    // AUDIO
+    // =====================================
+
+const sentenceMap = window.sentenceMapCache?.[indexDiv] ?? [];
+const y = sentenceMap[pos];
+
+const blockWords = fiszki10
+    .filter(f => f.id?.[1] === y)
+    .sort((a, b) => a.id[0] - b.id[0]);
+
+    const fiszkaAudio = blockWords[currentWordIndex];
+
+    console.log("[audio]5 indexDiv =", indexDiv);
+    console.log("[audio] pos =", pos);
+    console.log("[audio] y =", y);
+    console.log("[audio] currentWordIndex =", currentWordIndex);
+    console.log("[audio] fiszkaAudio =", fiszkaAudio);
+
+    if (fiszkaAudio?.word?.[0]) {
+
+        const audio = new Audio(fiszkaAudio.word[0]);
+
+        audio.currentTime = 0;
+
+        audio.play().catch(err => {
+            console.warn(err);
+        });
+    }
+
+    // =====================================
+    // PODŚWIETLENIE
+    // =====================================
+
+    syncHighlightForIndexDiv(indexDiv, pos);
+
 });
             $(document).on("click", ".prev-buttonv, .prev-button", function () {
                 const indexDiv = $(this).closest('.sentence-line')
@@ -6665,14 +6857,7 @@ console.log('hej120aa', wordIndexCache[indexDiv]);
             console.log('hej160', currentSentence);
 // --- Rozbijamy zdanie na linie po <br> ---
             const lines = currentSentence.split('<br>');
-// 🔥 TU DODAJESZ MAPĘ
-const sentenceMap = currentTriplet.map(id => {
-    return sentences[id]?.id?.[1] ?? id;
-});
-console.log('hej20', sentenceMap);
-const xMap = currentTriplet.map(id => {
-    return sentences[id]?.id?.[0] ?? id;   // X (np. lesson / group / set)
-});
+
 // --- Tworzenie bloków zdań z strzałkami ---
             const processedLines = lines.map((line, lineIndex) => {
                 if (!line.trim())
@@ -6774,7 +6959,48 @@ function attachArrowNavigation($sentenceBlock, indexDiv, sentenceMap) {
     }
 
     const savedId = Number($container.attr('data-id'));
+// ======================================================
+// 🔥 ZNAJDŹ KONTENER PO data-id
+// ======================================================
 
+const $lessonContainer = $('.image-container3b')
+    .filter(function () {
+        return Number($(this).attr('data-id')) === savedId;
+    })
+    .first();
+
+
+console.log('ZNALEZIONY LESSON CONTAINER:', {
+    savedId: savedId,
+    found: $lessonContainer.length
+});
+
+
+if (!$lessonContainer.length) {
+    console.warn('Brak image-container3b dla data-id:', savedId);
+    return;
+}
+
+
+// ======================================================
+// 🔥 ZNAJDŹ SENTENCE-BLOCK W TEJ LEKCJI
+// ======================================================
+
+const sentencePos = Number($sentenceBlock.attr('data-pos'));
+
+const $mySentenceBlock = $lessonContainer
+    .find('.sentence-block')
+    .filter(function () {
+        return Number($(this).attr('data-pos')) === sentencePos;
+    })
+    .first();
+
+
+console.log('MOJ SENTENCE BLOCK:', {
+    savedId,
+    sentencePos,
+    found: $mySentenceBlock.length
+});
     // ======================================================
     // 🔥 ODCZYT STANU (RESTORE)
     // ======================================================
@@ -6839,7 +7065,8 @@ function attachArrowNavigation($sentenceBlock, indexDiv, sentenceMap) {
                 const wordsHtml = tokens.map((word, wi) => {
 
                     const currentX = sharedBase + wi;
-                    const shouldHighlight = secondValuesSet.has(Number(currentX));
+const shouldHighlight =
+    Number(currentX) === Number(sharedBase + currentWordIndex);
 
                     if (shouldHighlight) {
 
@@ -6881,11 +7108,12 @@ function attachArrowNavigation($sentenceBlock, indexDiv, sentenceMap) {
                             diffs
                         });
 
-                        return `<span class="highlighted"
-                            data-sentence-id2="${currentX}"
-                            data-mojeid="${id}"
-                            style="cursor:pointer;"
-                        >${word}</span>`;
+return `<span class="highlighted"
+    data-word-index="${wi}"
+    data-sentence-id2="${currentX}"
+    data-mojeid="${id}"
+    style="cursor:pointer;"
+>${word}</span>`;
                     }
 
                     return `<span
@@ -7020,18 +7248,38 @@ if (window.systemStarted) {
     // ======================================================
     // NEXT
     // ======================================================
-    $sentenceBlock.find('.next-buttonvv')
-        .off('click.attachNav')
-        .on('click.attachNav', function () {
+$sentenceBlock.find('.next-buttonvv')
+.off('click.attachNav')
+.on('click.attachNav', function () {
 
-            const raw = $sentenceBlock.find('.sentence-inner').first().text().trim();
-            const tokens = raw ? raw.split(/\s+/) : [];
+    currentWordIndex++;
 
-            if (currentWordIndex < tokens.length - 1) {
-                currentWordIndex++;
-                updateHighlightAll();
-            }
-        });
+const descKey = indexDiv + "_" + currentPos;
+
+// zapis głównej pamięci
+wordIndexCache[descKey] = currentWordIndex;
+
+// zapis dla thumb-desc
+window.thumbHighlightCache = window.thumbHighlightCache || {};
+window.thumbHighlightCache[descKey] = currentWordIndex;
+
+console.log("NEXT SAVE thumb:", {
+    descKey,
+    currentWordIndex
+});
+
+    console.log("NEXT:", {
+        indexDiv,
+        currentWordIndex
+    });
+
+    updateHighlightAll();
+
+    syncHighlightForIndexDiv(
+        descKey,
+        descCache[descKey]
+    );
+});
 
 
     // ======================================================
@@ -7043,6 +7291,27 @@ if (window.systemStarted) {
 
             if (currentWordIndex > 0) {
                 currentWordIndex--;
+const descKey = indexDiv + "_" + currentPos;
+
+// zapis głównej pamięci
+wordIndexCache[descKey] = currentWordIndex;
+
+// zapis dla thumb-desc
+window.thumbHighlightCache = window.thumbHighlightCache || {};
+window.thumbHighlightCache[descKey] = currentWordIndex;
+
+console.log("NEXT SAVE thumb:", {
+    descKey,
+    currentWordIndex
+});
+
+    console.log("Kliknięto słowo:", currentWordIndex);
+
+    // przesuwamy podświetlenie
+    syncHighlightForIndexDiv(
+        descKey,
+        descCache[descKey]
+    );
                 updateHighlightAll();
             }
         });
@@ -7063,6 +7332,27 @@ if (window.systemStarted) {
                 currentWordIndex = wi;
                 updateHighlightAll();
             }
+const descKey = indexDiv + "_" + currentPos;
+
+// zapis głównej pamięci
+wordIndexCache[descKey] = currentWordIndex;
+
+// zapis dla thumb-desc
+window.thumbHighlightCache = window.thumbHighlightCache || {};
+window.thumbHighlightCache[descKey] = currentWordIndex;
+
+console.log("NEXT SAVE thumb:", {
+    descKey,
+    currentWordIndex
+});
+
+    console.log("Kliknięto słowo:", currentWordIndex);
+
+    // przesuwamy podświetlenie
+    syncHighlightForIndexDiv(
+        descKey,
+        descCache[descKey]
+    );
         });
 
 
@@ -7124,7 +7414,283 @@ function sendHighlightToFiszki(indexDiv, currentWordIndex, currentPosCacheValue)
                     .text('➡ Otwórz całą lekcję (3 zdania)');
 
             $textContainer.append($singleLinkA, $tripletLinkA);
+$(document).on('mouseenter', '.image-container3b', function () {
 
+    const $block = $(this);
+
+    console.log('[mouseenter] ENTER image-container3b');
+
+    const $line = $block.find('.sentence-line').first();
+
+    const indexDiv = Number(
+        $line.find('.sentence-inner').data('indexdiv')
+    );
+
+
+const pos = Number(
+    $line.find('.sentence-inner').data('pos')
+);
+
+console.log("pos =", pos);
+
+    const descKey = `${indexDiv}_${pos}`;
+console.log("descKey10", pos);
+    if (wordIndexCache[descKey] === undefined)
+        wordIndexCache[descKey] = 0;
+
+const currentWordIndex = indexDiv === 1
+    ? (wordIndexCache[descKey] ?? 0)
+    : (wordIndexCache[descKey] ?? 0) + 1;
+
+    console.log('[mouseenter] currentWordIndex =', currentWordIndex);
+
+    // znajdź zapamiętane słowo
+    let $target = $line.find(
+        `[data-word-index="${currentWordIndex - 1}"]`
+    ).first();
+
+    // fallback
+    if (!$target.length) {
+        console.warn('[mouseenter] fallback -> word 0');
+
+        wordIndexCache[descKey] = 0;
+
+        $target = $line.find('[data-word-index="0"]').first();
+    }
+
+    if (!$target.length) {
+        console.error('[mouseenter] ❌ NO TARGET WORD FOUND');
+        return;
+    }
+
+    console.log(
+        '[mouseenter] target word:',
+        $target.text(),
+        'index:',
+        $target.attr('data-word-index')
+    );
+
+    // usuń animacje
+    $('.word-animation').remove();
+
+    $target.css({
+        position: 'relative',
+        display: 'inline-block'
+    });
+
+    $target.append(`
+        <div class="word-animation">
+            <span class="a1"></span>
+            <span class="a2"></span>
+            <span class="a3"></span>
+            <span class="a4"></span>
+            <span class="a5"></span>
+            <span class="a6"></span>
+            <span class="a7"></span>
+            <span class="a8"></span>
+            <span class="a9"></span>
+            <span class="a10"></span>
+        </div>
+    `);
+
+    tablica20aa.push(currentWordIndex);
+
+    console.log('hej120aa', currentWordIndex);
+
+const sentenceMap = window.sentenceMapCache?.[indexDiv] ?? [];
+const y = sentenceMap[pos];
+
+const blockWords = fiszki10
+    .filter(f => f.id?.[1] === y)
+    .sort((a, b) => a.id[0] - b.id[0]);
+
+
+const audioIndex = currentWordIndex === 0
+    ? 0
+    : currentWordIndex - 1;
+
+const fiszkaAudio = blockWords[audioIndex];
+
+console.log("currentWordIndex =", currentWordIndex);
+console.log("currentWordIndex - 1 =", currentWordIndex - 1);
+console.log("fiszkaAudio =", fiszkaAudio);
+    if (fiszkaAudio?.word?.[0]) {
+
+        console.log('[audio] playing:', fiszkaAudio.word[0]);
+
+        const audio = new Audio(fiszkaAudio.word[0]);
+
+        audio.currentTime = 0;
+
+        audio.play().catch(err => {
+            console.warn('[audio] blocked or failed:', err);
+        });
+    }
+
+    syncHighlightForIndexDiv(indexDiv, pos);
+
+    console.log('[mouseenter] ✅ animation restored');
+});
+function playCurrentWord($block) {
+
+    console.log('[playCurrentWord] START');
+
+    const $line = $block.find('.sentence-line').first();
+
+    const indexDiv = Number(
+        $line.find('.sentence-inner').data('indexdiv')
+    );
+
+    const pos = currentPosCache[indexDiv] ?? currentPos ?? 0;
+
+    const descKey = `${indexDiv}_${pos}`;
+
+
+    // pamięć słowa
+    if (wordIndexCache[descKey] === undefined) {
+        wordIndexCache[descKey] = 0;
+    }
+
+
+const currentWordIndex = indexDiv === 1
+    ? (wordIndexCache[descKey] ?? 0)
+    : (wordIndexCache[descKey] ?? 0) + 1;
+
+
+    console.log(
+        '[playCurrentWord] indexDiv =',
+        indexDiv,
+        'pos =',
+        pos,
+        'word =',
+        currentWordIndex
+    );
+
+
+    // znajdź zapamiętane słowo
+    let $target = $line.find(
+        `[data-word-index="${currentWordIndex - 1}"]`
+    ).first();
+
+
+    // zabezpieczenie
+    if (!$target.length) {
+
+        console.warn(
+            '[playCurrentWord] brak słowa, ustawiam 0'
+        );
+
+        wordIndexCache[descKey] = 0;
+
+        $target = $line.find(
+            '[data-word-index="0"]'
+        ).first();
+    }
+
+
+    if (!$target.length) {
+        console.error(
+            '[playCurrentWord] ❌ NO WORD'
+        );
+        return;
+    }
+
+
+    console.log(
+        '[playCurrentWord] target:',
+        $target.text(),
+        'index:',
+        $target.attr('data-word-index')
+    );
+
+
+    // usuń stare animacje
+    $('.word-animation').remove();
+
+
+    // animacja
+    $target.css({
+        position: 'relative',
+        display: 'inline-block'
+    });
+
+
+    $target.append(`
+        <div class="word-animation">
+            <span class="a1"></span>
+            <span class="a2"></span>
+            <span class="a3"></span>
+            <span class="a4"></span>
+            <span class="a5"></span>
+            <span class="a6"></span>
+            <span class="a7"></span>
+            <span class="a8"></span>
+            <span class="a9"></span>
+            <span class="a10"></span>
+        </div>
+    `);
+
+
+
+    tablica20aa.push(currentWordIndex);
+
+
+    // ==========================
+    // AUDIO
+    // ==========================
+const sentenceMap = window.sentenceMapCache?.[indexDiv] ?? [];
+const y = sentenceMap[pos];
+
+const blockWords = fiszki10
+    .filter(f => f.id?.[1] === y)
+    .sort((a, b) => a.id[0] - b.id[0]);
+
+
+const audioIndex = currentWordIndex === 0
+    ? 0
+    : currentWordIndex - 1;
+
+const fiszkaAudio = blockWords[audioIndex];
+
+
+    console.log('[audio] y=', y);
+    console.log('[audio] word=', fiszkaAudio);
+
+
+    if (fiszkaAudio?.word?.[0]) {
+
+
+        const audio = new Audio(
+            fiszkaAudio.word[0]
+        );
+
+
+        audio.currentTime = 0;
+
+
+        audio.play()
+        .catch(err => {
+            console.warn(
+                '[audio] error',
+                err
+            );
+        });
+    }
+
+
+
+    // synchronizacja podświetlenia
+    syncHighlightForIndexDiv(
+        indexDiv,
+        pos
+    );
+
+
+    console.log(
+        '[playCurrentWord] ✅ restored word',
+        currentWordIndex
+    );
+}
 console.log("tripletIds =", tripletIds);
 
 
@@ -7160,10 +7726,47 @@ tripletIds.forEach((id, i) => {
         .attr('data-id', id ?? '')
 
 .on('click', () => {
+
     currentPos = i;
-    currentPosCache[indexDiv] = i;   // <-- tego brakuje
-    videoVisible = false;
+
+    currentPosCache[indexDiv] = i;
+
+    const descKey = indexDiv + "_" + (currentPos + 1);
+
+    // 🔥 zapamiętaj descKey
+    window.descKeyCache = window.descKeyCache || {};
+    window.descKeyCache[indexDiv] = descKey;
+
+
+    window.thumbHighlightCache = window.thumbHighlightCache || {};
+
+    if (wordIndexCache[descKey] === undefined) {
+        wordIndexCache[descKey] =
+            window.thumbHighlightCache[descKey] ?? 0;
+    }
+
+
+    console.log("LOAD", {
+        descKey,
+        saved: window.thumbHighlightCache[descKey],
+        wordCache: wordIndexCache,
+        descCache: window.descKeyCache
+    });
+
+
     renderLesson();
+
+    setTimeout(() => {
+
+        const $block = $('.image-container3b')
+            .filter(function () {
+                return Number($(this).attr('data-id')) === tripletIds[currentPos];
+            })
+            .first();
+
+        playCurrentWord($block);
+
+    }, 50);
 });
 
     $nav.append($btn);
@@ -7190,6 +7793,7 @@ $('.nav-container').empty().append($nav);
 
             $container.append($mediaContainer, $textContainer, $nav);
         }
+
 
         $('body').off('click', '.run-icon').on('click', '.run-icon', function () {
             const indexDiv = $(this).attr('data-index2');
