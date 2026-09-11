@@ -2778,7 +2778,7 @@ const fiszki10 = [
         ],
         img: "https://www.arbulang.com/img/fiszki1/61aa.jpg",
                                                                                         word: [
-            "http://localhost/arbulanguage.com/voice/angielski/lekcja10/big.mp3"
+            "http://localhost/arbulanguage.com/voice/angielski/lekcja10/good.mp3"
         ],
         story: "Jest <b><u>dobrze</b></u> kiedy jest więcej wy<b><u>gód</b></u>",
         desc: "good[gud] - dobre",
@@ -2850,8 +2850,8 @@ const fiszki10 = [
         srcWord: ["https://www.arbulang.com/filmy/lekcja4/teacher.mp4", "Yes Man (2008)"],
         srcWordimage: "https://www.arbulang.com/filmy/lekcja4/teacher.png",
                         opis: "Scena przekonania do bohatera filmu przez mentora podczas wystąpienia",
-        word: [
-            "https://www.arbulang.com/voice/music.mp4"
+                                                                                        word: [
+            "http://localhost/arbulanguage.com/voice/angielski/lekcja11/the.mp3"
         ],
         story: [
             "Piłki do gry w kosza są twar<u><b>de</u></b>. Sam ten sport <u><b>to</u></b> twarda gra",
@@ -2893,6 +2893,9 @@ const fiszki10 = [
             21
         ],
         img: "https://www.arbulang.com/img/fiszki1/64aa.jpg",
+                                                                                                word: [
+            "http://localhost/arbulanguage.com/voice/angielski/lekcja11/teacher.mp3"
+        ],
         story: "W tym pa<b><u>ti</b></u>o siedzi nauczyciel w <b><u>czer</b></u>wonej koszuli",
         desc: "teacher[ticzer] - nauczyciel",
         sentence1: [
@@ -2923,6 +2926,9 @@ const fiszki10 = [
             21
         ],
         img: "https://www.arbulang.com/img/fiszki1/65aa.jpg",
+                                                                                                word: [
+            "http://localhost/arbulanguage.com/voice/angielski/lekcja11/tries.mp3"
+        ],
         story: "Nasa <b><u>próbuje</b></u> zmienić <b><u>traj</b></u>ektorie lotu <b><u>s</b></u>atelity",
         desc: "tries[trajs] - próbuje",
         sentence1: [
@@ -2956,6 +2962,9 @@ const fiszki10 = [
             "https://www.arbulang.com/img/fiszki1/10c.jpg",
             "https://www.arbulang.com/img/fiszki1/10d.jpg",
             "https://www.arbulang.com/img/fiszki1/10e.jpg"
+        ],
+                                                                                                word: [
+            "http://localhost/arbulanguage.com/voice/angielski/lekcja11/to.mp3"
         ],
         translateb2: "[tu help as]",
         story: [
@@ -2997,6 +3006,9 @@ const fiszki10 = [
             22
         ],
         img: "https://www.arbulang.com/img/fiszki1/67aa.jpg",
+                                                                                                word: [
+            "http://localhost/arbulanguage.com/voice/angielski/lekcja11/help.mp3"
+        ],
         story: "Gaz - <b><u>hel</b></u>, <b><u>p</b></u>omaga zmieniać ton głosu",
         desc: "help[help] - pomagać",
         sentence2: [
@@ -3024,6 +3036,9 @@ const fiszki10 = [
             22
         ],
         img: "https://www.arbulang.com/img/fiszki1/68aa.jpg",
+                                                                                                word: [
+            "http://localhost/arbulanguage.com/voice/angielski/lekcja11/us.mp3"
+        ],
         story: "<b><u>As</b></u>teroida pod mikroskopem wydaje się <b><u>nam</b></u> niezwykła",
         desc: "us[as] - my, nam",
         sentence2: [
@@ -3064,8 +3079,8 @@ const fiszki10 = [
         srcWord: ["https://www.arbulang.com/filmy/lekcja4/parents.mp4", "Serial: Rodzinka.pl"],
         srcWordimage: "https://www.arbulang.com/filmy/lekcja4/parents.png",
                         opis: "Zapytanie o wspólny posiłek",
-        word: [
-            "https://www.arbulang.com/voice/music.mp4"
+                                                                                                word: [
+            "http://localhost/arbulanguage.com/voice/angielski/lekcja12/your.mp3"
         ],
         story: [
             "W wojsku ma<u><b>jor</u></b> to <u><b>twój</u></b> szef od musztry",
@@ -3107,6 +3122,9 @@ const fiszki10 = [
             23
         ],
         img: "https://www.arbulang.com/img/fiszki1/70aa.jpg",
+                                                                                                        word: [
+            "http://localhost/arbulanguage.com/voice/angielski/lekcja12/parents.mp3"
+        ],
         story: "<b><u>Pare</b></u> lat temu moi <b><u>rodzice</b></u> byli sentym<b><u>ent</b></u>alni i chyba <b><u>s</b></u>ą nadal",
         desc: "parents[parents] - rodzice",
         sentence1: [
@@ -3135,6 +3153,9 @@ const fiszki10 = [
             23
         ],
         img: "https://www.arbulang.com/img/fiszki1/71aa.jpg",
+                                                                                                                word: [
+            "http://localhost/arbulanguage.com/voice/angielski/lekcja12/seem.mp3"
+        ],
         story: "Ta karta <b><u>sim</b></u> nie działa, <b><u>wydaje mi się</b></u>, że uszkodziłem ją wcześniej",
         desc: "seem[sim] - wydaje się",
         sentence1: [
@@ -3173,6 +3194,9 @@ const fiszki10 = [
             "https://www.arbulang.com/img/fiszki1/13c.jpg",
             "https://www.arbulang.com/img/fiszki1/13d.jpg",
             "https://www.arbulang.com/img/fiszki1/13e.jpg"
+        ],
+                                                                                                                word: [
+            "http://localhost/arbulanguage.com/voice/angielski/lekcja12/to_be.mp3"
         ],
         translateb2: "[tu bi frendli]",
         story: [
@@ -3225,6 +3249,9 @@ const fiszki10 = [
             24
         ],
         img: "https://www.arbulang.com/img/fiszki1/73a.jpg",
+                                                                                                                word: [
+            "http://localhost/arbulanguage.com/voice/angielski/lekcja12/friendly.mp3"
+        ],
         story: "Mali <b><u>Fr</b></u>anek i <b><u>End</b></u>riu są <b><u>dl</b></u>a siebie <b><u>przyjacielscy</b></u>",
         desc: "friendly[frendli] - przyjacielski",
         sentence2: [
@@ -3258,6 +3285,9 @@ const fiszki10 = [
             "https://www.arbulang.com/img/fiszki1/5d.jpg",
             "https://www.arbulang.com/img/fiszki1/5e.jpg",
             "https://www.arbulang.com/img/fiszki1/5f.jpg"
+        ],
+                                                                                                                word: [
+            "http://localhost/arbulanguage.com/voice/angielski/lekcja13/the.mp3"
         ],
         translate: "Psy mogą biec naprawdę szybko",
         translateb: "[De dogs ken ran rili fast]",
@@ -3311,6 +3341,9 @@ const fiszki10 = [
         "https://www.arbulang.com/img/fiszki1/75a.jpg",
         "https://www.arbulang.com/img/fiszki1/75b.jpg"
         ],
+                                                                                                                        word: [
+            "http://localhost/arbulanguage.com/voice/angielski/lekcja13/dogs.mp3"
+        ],
         story: [
             "Móje <b><u>psy</b></u> mnie <b><u>s</b></u>łuchają, <b><u>dog</b></u>aduje się z nimi",
             "<b><u>Psom</b></u> łatwo <b><u>dog</b></u>odzić <b><u>s</b></u>maczną karmą"
@@ -3345,6 +3378,9 @@ const fiszki10 = [
             25
         ],
         img: "https://www.arbulang.com/img/fiszki1/76a.jpg",
+                                                                                                                        word: [
+            "http://localhost/arbulanguage.com/voice/angielski/lekcja13/can.mp3"
+        ],
         story: "W <b><u>Ken</b></u>ii każdy <b><u>może</b></u> ubierać się na ciepłą pogodę",
         desc: "can[ken] - może",
         sentence1: [
@@ -3373,6 +3409,9 @@ const fiszki10 = [
             26
         ],
         img: "https://www.arbulang.com/img/fiszki1/77a.jpg",
+                                                                                                                        word: [
+            "http://localhost/arbulanguage.com/voice/angielski/lekcja13/run.mp3"
+        ],
         translateb2: "[ran rili fast]",
         story: "<b><u>Ran</b></u>o zawsze <b><u>biegam</b></u>",
         desc: "run[ran] - biegać",
@@ -3401,6 +3440,9 @@ const fiszki10 = [
             26
         ],
         img: "https://www.arbulang.com/img/fiszki1/78a.jpg",
+                                                                                                                        word: [
+            "http://localhost/arbulanguage.com/voice/angielski/lekcja13/really.mp3"
+        ],
         story: "Na spotkaniu g<b><u>ril</b></u>owym naprawdę można się najeść saszł<b><u>y</b></u>ków",
         desc: "really[rily] - naprawdę",
         sentence2: [
@@ -3428,6 +3470,9 @@ const fiszki10 = [
             26
         ],
         img: "https://www.arbulang.com/img/fiszki1/79a.jpg",
+                                                                                                                        word: [
+            "http://localhost/arbulanguage.com/voice/angielski/lekcja13/fast.mp3"
+        ],
         story: "Ten chw<b><u>ast</b></u> szybko rośnie, bo to <b><u>f</b></u>uriat wśród chwastów",
         desc: "fast[fast] - szybko",
         sentence2: [
@@ -3468,8 +3513,8 @@ const fiszki10 = [
         srcWord: ["https://www.arbulang.com/filmy/lekcja5/counting.mp4", "The Dark Knight(2008)"],
         srcWordimage: "https://www.arbulang.com/filmy/lekcja5/counting.png",
                         opis: "Finał próby Jokera, której poddana została społeczność",
-        word: [
-            "https://www.arbulang.com/voice/music.mp4"
+                                                                                                                        word: [
+            "http://localhost/arbulanguage.com/voice/angielski/lekcja14/this.mp3"
         ],
         story: [
             "Ma<b><u>dis</b></u>on jest świetnym sportowcem a to jej trener",
@@ -3510,6 +3555,9 @@ const fiszki10 = [
             27
         ],
         img: "https://www.arbulang.com/img/fiszki1/81a.jpg",
+                                                                                                                                word: [
+            "http://localhost/arbulanguage.com/voice/angielski/lekcja14/edition.mp3"
+        ],
         story: "Kiedy <b><u>Edi</b></u>son robił przerwe w tworzeniu żarówki jadł bułkę z <b><u>szyn</b></u>ką",
         desc: "edition[ediszyn] - edycja",
         sentence1: [
@@ -3538,6 +3586,9 @@ const fiszki10 = [
             27
         ],
         img: "https://www.arbulang.com/img/fiszki1/82a.jpg",
+                                                                                                                                        word: [
+            "http://localhost/arbulanguage.com/voice/angielski/lekcja14/expires.mp3"
+        ],
         story: "Jedziemy do miejscowości <b><u>X</b></u> na wakacje pod <b><u>pa</b></u>lmy i ze statku <b><u>pa</b></u>trzymy na morze..(pijemy <b><u>s</b></u>obie <b><u>jer</b></u>ba matę) musimy zapłacić X dnia, później okazja się <b><u>przedawnia</b></u>",
         desc: "expires[ikspajers] - przedawnia się/wagasa",
         sentence1: [
@@ -3571,6 +3622,9 @@ const fiszki10 = [
             "https://www.arbulang.com/img/fiszki1/83c.jpg",
             "https://www.arbulang.com/img/fiszki1/83b.jpg",
             "https://www.arbulang.com/img/fiszki1/108d.jpg"
+        ],
+                                                                                                                                        word: [
+            "http://localhost/arbulanguage.com/voice/angielski/lekcja14/this.mp3"
         ],
         story: [
             "Ma<b><u>dis</b></u>on jest świetnym sportowcem a to jej trener",
@@ -3613,6 +3667,9 @@ const fiszki10 = [
             28
         ],
         img: "https://www.arbulang.com/img/fiszki1/84a.jpg",
+                                                                                                                                        word: [
+            "http://localhost/arbulanguage.com/voice/angielski/lekcja14/week.mp3"
+        ],
         story: "Po francusku tak to <b><u>łi</b></u>, w tym <b><u>tygodniu</b></u> mam na studiach egazminy z francuskiego i za<b><u>k</b></u>uwam materiał",
         desc: "week[łik] - tydzień",
         sentence2: [
@@ -3644,6 +3701,9 @@ const fiszki10 = [
             "https://www.arbulang.com/img/fiszki1/7c.jpg",
             "https://www.arbulang.com/img/fiszki1/7d.jpg",
             "https://www.arbulang.com/img/fiszki1/7e.jpg"
+        ],
+                                                                                                                        word: [
+            "http://localhost/arbulanguage.com/voice/angielski/lekcja15/he.mp3"
         ],
         translate: "On ma szeroki zasób słów",
         translateb: "[Hi hes łajd reindź of łords]",
@@ -3697,6 +3757,9 @@ const fiszki10 = [
             "https://www.arbulang.com/img/fiszki1/2d.jpg",
             "https://www.arbulang.com/img/fiszki1/2e.jpg"
         ],
+                                                                                                                                word: [
+            "http://localhost/arbulanguage.com/voice/angielski/lekcja15/has.mp3"
+        ],
         story: [
             "W niemieckim mieście <u><b>Hess</u></b>en Jurek <u><b>ma</u></b> bilet na mecze jego drużyny",
             "<u><b>H</u></b>ipopotam występuje w cyrku na <u><b>es</u></b>tradzie, <u><b>ma</u></b> duże umiejętności",
@@ -3737,6 +3800,9 @@ const fiszki10 = [
             29
         ],
         img: "https://www.arbulang.com/img/fiszki1/87a.jpg",
+                                                                                                                                word: [
+            "http://localhost/arbulanguage.com/voice/angielski/lekcja15/wide.mp3"
+        ],
         story: "Nasza <b><u>łaj</b></u>ba znajduje się na <b><u>szerokim</b></u> morzu, daleko ma <b><u>d</b></u>o lądu",
         desc: "wide[łajd] - szeroki/szeroki/szeroko",
         sentence1: [
@@ -3764,6 +3830,9 @@ const fiszki10 = [
             30
         ],
         img: "https://www.arbulang.com/img/fiszki1/88a.jpg",
+                                                                                                                                word: [
+            "http://localhost/arbulanguage.com/voice/angielski/lekcja15/range.mp3"
+        ],
         story: "Amerykański żołnierz <b><u>Rang</b></u>ers ma szeroki <b><u>zakres</b></u> umiejętności",
         desc: "range[reindź] - zakres",
         sentence2: [
@@ -3793,6 +3862,9 @@ const fiszki10 = [
         img: [
             "https://www.arbulang.com/img/fiszki1/89a.jpg",
             "https://www.arbulang.com/img/fiszki1/112b.jpg"
+        ],
+                                                                                                                                word: [
+            "http://localhost/arbulanguage.com/voice/angielski/lekcja15/of.mp3"
         ],
         story: [
             "Tą <b><u>of</b></u>ensywę podjął każdy żołnierz z <b><u>tego</b></u> plutonu",
@@ -3827,6 +3899,9 @@ const fiszki10 = [
             30
         ],
         img: "https://www.arbulang.com/img/fiszki1/90a.jpg",
+                                                                                                                                word: [
+            "http://localhost/arbulanguage.com/voice/angielski/lekcja15/vocabulary.mp3"
+        ],
         story: "Bra<b><u>wo</b></u>, <b><u>ł</b></u>adne, szerokie <b><u>słownictwo</b></u>, <b><u>ka</b></u>żdy szczegół wystąpienia dopracowany na temat pracy <b><u>biu</b></u>rowej - tak żeby póżniej nie bolały p<b><u>lery</b></u> (plecy)",
         desc: "vocabulary[wołkabiulery] - słownictwo",
         sentence2: [
@@ -3866,8 +3941,8 @@ const fiszki10 = [
         srcWord: ["https://www.arbulang.com/filmy/lekcja6/approach.mp4", "Matrix(1999)"],
         srcWordimage: "https://www.arbulang.com/filmy/lekcja6/approach.png",
                         opis: "Spotkanie dziewczyny w wirtualnym świecie",
-        word: [
-            "https://www.arbulang.com/voice/music.mp4"
+                                                                                                                                word: [
+            "http://localhost/arbulanguage.com/voice/angielski/lekcja16/he.mp3"
         ],
         story: [
             "To właśnie <u><b>on</u></b> jest <b><u>hi</b></u>tem tego sezonu piłkarskiego",
@@ -3911,6 +3986,9 @@ const fiszki10 = [
             "https://www.arbulang.com/img/fiszki1/92a.jpg",
             "https://www.arbulang.com/img/fiszki1/92b.jpg"
         ],
+                                                                                                                                        word: [
+            "http://localhost/arbulanguage.com/voice/angielski/lekcja16/dares_to.mp3"
+        ],
         story: [
             "Pewien imprezowicz <u><b>odważył się</u></b> wejść na duże wia<u><b>der</u></b>ko i kręci bio<u><b>der</u></b>kami w rytm <u><b>s</u></b>uper muzyki",
             "Piłka z <u><b>der</u></b>my może jeszcze odważniej lecieć od tej ze <u><b>s</u></b>kóry"
@@ -3944,6 +4022,9 @@ const fiszki10 = [
             32
         ],
         img: "https://www.arbulang.com/img/fiszki1/93aa.jpg",
+                                                                                                                                                word: [
+            "http://localhost/arbulanguage.com/voice/angielski/lekcja16/approach.mp3"
+        ],
         story: "<b><u>Ep</b></u>oka w której podchodzono do <b><u>ro</b></u>bienia ikon ołówkiem to stare <b><u>cz</b></u>asy",
         desc: "approach[eprołcz] - podejść/podejście",
         sentence2: [
@@ -3970,6 +4051,9 @@ const fiszki10 = [
             32
         ],
         img: "https://www.arbulang.com/img/fiszki1/94aa.jpg",
+                                                                                                                                                word: [
+            "http://localhost/arbulanguage.com/voice/angielski/lekcja16/her.mp3"
+        ],
         story: "<b><u>Jej</b></u> <b><u>her</b></u>bata jest słodka",
         desc: "her[her] - jej",
         sentence2: [
@@ -3996,6 +4080,9 @@ const fiszki10 = [
             33
         ],
         img: "https://www.arbulang.com/img/fiszki1/95aa.jpg",
+                                                                                                                                                word: [
+            "http://localhost/arbulanguage.com/voice/angielski/lekcja17/she.mp3"
+        ],
         translate: "Ona jest przywiązana do swojego łuku",
         translateb: "[Szi is etaczd to her boł]",
                         translateb3: "She is attached to her bow",
@@ -4037,6 +4124,9 @@ const fiszki10 = [
             "https://www.arbulang.com/img/fiszki1/8e.jpg",
             "https://www.arbulang.com/img/fiszki1/8f.jpg",
             "https://www.arbulang.com/img/fiszki1/8g.jpg"
+        ],
+                                                                                                                                                        word: [
+            "http://localhost/arbulanguage.com/voice/angielski/lekcja17/is.mp3"
         ],
         story: [
             "Gdy ktoś szybko biega obok nas to <u><b>jest</u></b> w popłochu, słyszymy tylko św<u><b>is</u></b>t",
@@ -4082,6 +4172,9 @@ const fiszki10 = [
             33
         ],
         img: "https://www.arbulang.com/img/fiszki1/97a.jpg",
+                                                                                                                                                        word: [
+            "http://localhost/arbulanguage.com/voice/angielski/lekcja17/attached.mp3"
+        ],
         story: "Jestem przywiązany do mojego fiata, jadę nim na po</b></u>czt<b><u>ę",
         desc: "attached[ataczt] - przywiązany",
         sentence1: [
@@ -4115,6 +4208,9 @@ const fiszki10 = [
             "https://www.arbulang.com/img/fiszki1/10c.jpg",
             "https://www.arbulang.com/img/fiszki1/10d.jpg",
             "https://www.arbulang.com/img/fiszki1/10e.jpg"
+        ],
+                                                                                                                                                        word: [
+            "http://localhost/arbulanguage.com/voice/angielski/lekcja17/to.mp3"
         ],
         story: [
             '<u><b>Dla</u></b> spor<span class="adannotation" data-annotation="1"><u><b>tu</b></u></span> przeszedłem się pieszo <u><b>ku</u></b> parku',
@@ -4155,6 +4251,9 @@ const fiszki10 = [
             34
         ],
         img: "https://www.arbulang.com/img/fiszki1/94aa.jpg",
+                                                                                                                                                        word: [
+            "http://localhost/arbulanguage.com/voice/angielski/lekcja17/her.mp3"
+        ],
         story: [
             "<b><u>Jej</b></u> <b><u>her</b></u>bata jest słodka"
         ],

@@ -12,6 +12,9 @@ fiszki10.push(
             "https://www.arbulang.com/img/fiszki1/17d.jpg",
             "https://www.arbulang.com/img/fiszki1/17e.jpg"
         ],
+                                                                                                                                                    word: [
+            "http://localhost/arbulanguage.com/voice/angielski/lekcja30/your.mp3"
+        ],
         story: [
             "W wojsku ma<u><b>jor</u></b> to <u><b>twój</u></b> szef od musztry",
             "F<u><b>jor</u></b>d to zatoka, gdzie <u><b>twój</u></b> wypoczynek może być fajny",
@@ -53,6 +56,9 @@ fiszki10.push(
             60
         ],
         img: "https://www.arbulang.com/img/fiszki1/201a.jpg",
+                                                                                                                                                    word: [
+            "http://localhost/arbulanguage.com/voice/angielski/lekcja30/child.mp3"
+        ],
         story: "Bawimy się w chowanego, kolega <u><b>czai</u></b> się za murkiem. Jedno <u><b>dziecko</u></b> Wa<u><b>ld</u></b>iego - zawołała mama",
         desc: "child[czaild] - dziecko",
         sentence2: [
@@ -87,6 +93,9 @@ fiszki10.push(
             "https://www.arbulang.com/img/fiszki1/17c.jpg",
             "https://www.arbulang.com/img/fiszki1/17d.jpg",
             "https://www.arbulang.com/img/fiszki1/17e.jpg"
+        ],
+                                                                                                                                                            word: [
+            "http://localhost/arbulanguage.com/voice/angielski/lekcja31/your.mp3"
         ],
         translate: "Twoje miłe słowa zrobiły mi dzień",
         translateb: "[Jor kaind łerds mejd maj dej]",
@@ -134,6 +143,9 @@ fiszki10.push(
             61
         ],
         img: "https://www.arbulang.com/img/fiszki1/203a.jpg",
+                                                                                                                                                                    word: [
+            "http://localhost/arbulanguage.com/voice/angielski/lekcja31/kind.mp3"
+        ],
         story: "Na moim gospodarstwie stoi chat<u><b>ka</u></b> a obok chatki (gdzie trzymam narzędzia), są <u><b>ind</u></b>yki, które są <u><b>miłe</u></b> jeśli nie widzą czerwonego",
         desc: "kind[kaind] - miłe",
         sentence1: [
@@ -161,6 +173,9 @@ fiszki10.push(
             61
         ],
         img: "https://www.arbulang.com/img/fiszki1/204a.jpg",
+                                                                                                                                                                    word: [
+            "http://localhost/arbulanguage.com/voice/angielski/lekcja31/words.mp3"
+        ],
         story: "Mi<b><u>łe</b></u> słowa, jestem za nie wdzięczny. Na weekend jade <b><u>s</b></u>am na jezioro Śnia<b><u>rd</b></u>wy",
         desc: "words[łerds-50%, łords-50%] - słowa(liczba mnoga od word)",
         sentence1: [
@@ -188,6 +203,9 @@ fiszki10.push(
             62
         ],
         img: "https://www.arbulang.com/img/fiszki1/205a.jpg",
+                                                                                                                                                                    word: [
+            "http://localhost/arbulanguage.com/voice/angielski/lekcja31/made.mp3"
+        ],
         story: "Koś mi <b><u>zrobił</b></u> żart. O<b><u>d</b></u> razu trzy<b><u>mej</b></u> bo nie wytrzymia",
         desc: "made[mejd] - zrobiły/zrobił/zrobiła",
         sentence2: [
@@ -218,6 +236,9 @@ fiszki10.push(
             "https://www.arbulang.com/img/fiszki1/50aa.jpg",
             "https://www.arbulang.com/img/fiszki1/50bb.jpg",
             "https://www.arbulang.com/img/fiszki1/50cc.jpg"
+        ],
+                                                                                                                                                                    word: [
+            "http://localhost/arbulanguage.com/voice/angielski/lekcja31/my.mp3"
         ],
         story: [
             "W <b><u>maj</b></u>u kwitną <b><u>moje</b></u> ulubione kwiaty",
@@ -253,6 +274,9 @@ fiszki10.push(
             62
         ],
         img: "https://www.arbulang.com/img/fiszki1/207b.jpg",
+                                                                                                                                                                    word: [
+            "http://localhost/arbulanguage.com/voice/angielski/lekcja31/day.mp3"
+        ],
         story: "<u><b>Oni</u></b> z<u><b>dej</u></b>mują jabłka z jabłoni",
         desc: "day[dej] - dzień",
         sentence2: [
