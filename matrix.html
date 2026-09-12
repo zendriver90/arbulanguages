@@ -28,6 +28,12 @@
         <meta name="keywords" content="naucz się angielskiego, 1000 angielskich słów, szybka nauka angielskiego, jak nauczyć się angielskiego, jak szybko nauczyć się języka, nauka angielskiego z przyjemnością" />
         <style>
             @media (min-width: 999px) {
+                #word-transaction-window {
+    position: fixed;
+    left: 10px;
+    bottom: 10px;
+    z-index: 1000005;
+}
                 /* =========================================
    🚫 BUTTONY NIE MOGĄ SIĘ ZMNIEJSZAĆ
 ========================================= */
@@ -83,16 +89,17 @@
 
     width: 100%;
 
-    display: flex;
+    position: fixed;
 
     flex-wrap: wrap;
 
     align-items: center;
 
     gap: 8px;
-
+    left: 0px;
+    bottom: 0px;
     margin-bottom: 10px;
-
+    z-index: 999999;
 }
 
 

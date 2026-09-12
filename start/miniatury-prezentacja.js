@@ -6839,14 +6839,6 @@ function getCleanWordText($element) {
     return cleanText;
 }
 $(document).on("click", ".next-buttonvv", function () {
-    // =====================================
-    // ❌ ZAMKNIJ SZCZEGÓŁY POPRZEDNIEGO SŁOWA
-    // =====================================
-
-// =====================================
-// ❌ ZAMKNIJ OTWARTE SZCZEGÓŁY
-// NIE USUWAJ PANELI
-// =====================================
 
 $('#active-word-bar')
     .find('.active-word-details')
@@ -6905,19 +6897,6 @@ const currentWordIndex = indexDiv === 1
     console.log("descKey5:", pos);
     console.log("currentWordIndex55:", currentWordIndex);
 
-    // =====================================
-    // ANIMACJA
-    // =====================================
-
-// =====================================
-// 🧹 TŁUMACZ — NIE MOŻE BYĆ CZĘŚCIĄ SŁOWA
-// =====================================
-
-
-
-// =====================================
-// NASTĘPNE SŁOWO
-// =====================================
 
 const $nextWord = $line.find(
     `[data-word-index="${currentWordIndex}"]`
@@ -7099,8 +7078,6 @@ if ($nextWord.length) {
     wordText = getCleanWordText($nextWord);
 
 }
-
-
 // =====================================
 // FALLBACK Z FISZKI
 // =====================================
@@ -7110,38 +7087,15 @@ if (!wordText && fiszkaAudio?.word?.[1]) {
     wordText = fiszkaAudio.word[1];
 
 }
-
-if (!wordText && fiszkaAudio?.word?.[1]) {
-
-    wordText = fiszkaAudio.word[1];
-}
-
-
-
 // =====================================
 // ZAWSZE TWÓRZ TAG
 // =====================================
 
 {
-
     const lessonId =
         $nextWord
             .closest('.image-container3b')
             .attr('data-id') || '';
-
-
-
-    console.log(
-        'hej100 lessonId =',
-        lessonId
-    );
-
-    console.log(
-        'hej100 target =',
-        $nextWord
-    );
-
-
     const tagKey =
         `${indexDiv}_${pos}_${currentWordIndex}`;
 
@@ -7220,53 +7174,96 @@ $translateMemory.attr(
             .first();
 
 
+// =====================================
+// SŁOWO JUŻ BYŁO ODTWARZANE
+// =====================================
+
+if ($existingTag.length) {
+
+    let playCount =
+        Number(
+            $existingTag.attr(
+                'data-play-count'
+            )
+        ) || 1;
+
+
+    // zwiększ liczbę odtworzeń
+
+    playCount++;
+
+
     // =====================================
-    // SŁOWO JUŻ BYŁO ODTWARZANE
+    // GWIAZDKA — PASKI WG LICZBY ODTWORZEŃ
     // =====================================
 
-    if ($existingTag.length) {
-
-        let playCount =
-            Number(
-                $existingTag.attr('data-play-count')
-            ) || 1;
+    const $starCount =
+        $target
+            .children('.word-play-star')
+            .find('.word-play-star-count');
 
 
-        // zwiększ liczbę odtworzeń
-        playCount++;
+    if ($starCount.length) {
+
+        // usuń stare paski
+
+        $starCount.empty();
 
 
-        // zapisz nową liczbę
-        $existingTag
-            .attr(
-                'data-play-count',
-                playCount
-            );
+        // utwórz dokładnie tyle pasków,
+        // ile wynosi liczba odtworzeń
 
+        for (
+            let i = 0;
+            i < playCount;
+            i++
+        ) {
 
-        // =====================================
-        // DODAJ JEDEN ZIELONY PROSTOKĄT
-        // =====================================
-
-        $existingTag
-            .find('.word-play-count')
-            .append(
+            $starCount.append(
                 $('<span>')
-                    .addClass('word-play-segment')
+                    .addClass(
+                        'word-play-segment'
+                    )
             );
 
-
-        console.log(
-            '[word-tag] ponowne odtworzenie:',
-            wordText,
-            'ilość:',
-            playCount,
-            'lekcja:',
-            lessonId
-        );
+        }
 
     }
 
+
+    // zapisz nową liczbę
+
+    $existingTag
+        .attr(
+            'data-play-count',
+            playCount
+        );
+
+
+    // =====================================
+    // DODAJ JEDEN ZIELONY PROSTOKĄT
+    // =====================================
+
+    $existingTag
+        .find('.word-play-count')
+        .append(
+            $('<span>')
+                .addClass(
+                    'word-play-segment'
+                )
+        );
+
+
+    console.log(
+        '[word-tag] ponowne odtworzenie:',
+        wordText,
+        'ilość:',
+        playCount,
+        'lekcja:',
+        indexDiv
+    );
+
+}
 
     // =====================================
     // NOWE SŁOWO
@@ -10814,11 +10811,6 @@ afterWordTagAdded();
         playCount++;
 
 
-// =====================================
-// TŁUMACZ W ZAPISANEJ PAMIĘCI
-// PRZYPIĘTY DO GWIAZDKI
-// =====================================
-
 
 // =====================================
 // TŁUMACZ W ZAPISANEJ PAMIĘCI
@@ -10996,8 +10988,8 @@ $translateMemory.on('click', function (e) {
             $star
         );
     }
-    
-   // =====================================
+
+// =====================================
 // TŁUMACZ W ZAPISANEJ PAMIĘCI
 // NIE DODAWAJ DO SENTENCE-INNER
 // =====================================
@@ -11054,24 +11046,29 @@ if ($star.length) {
             e.preventDefault();
             e.stopPropagation();
 
+
             console.log(
                 '[translate-memory] KLIK!'
             );
+
 
             console.log(
                 '[translate-memory] słowo:',
                 wordText
             );
 
+
             console.log(
                 '[translate-memory] indexDiv:',
                 indexDiv
             );
 
+
             console.log(
                 '[translate-memory] pos:',
                 pos
             );
+
 
             console.log(
                 '[translate-memory] wordIndex:',
@@ -11079,17 +11076,283 @@ if ($star.length) {
             );
 
 
-            $('.word-tag-text')
-                .each(function () {
+            // =====================================
+            // OCZYŚĆ SŁOWO
+            // =====================================
 
-                    $(this).text('moje');
-
-                });
+            const cleanWord =
+                String(wordText || '')
+                    .trim()
+                    .toLowerCase()
+                    .replace(/[.,!?;:()[\]"']/g, '');
 
 
             console.log(
-                '[translate-memory] word-tag-text ZAKTUALIZOWANE'
+                '[translate-memory] cleanWord:',
+                cleanWord
             );
+
+
+            // =====================================
+            // ZNAJDŹ FISZKĘ W fiszki10
+            // =====================================
+
+            const fiszka =
+                fiszki10.find(
+                    function (item) {
+
+                        if (!item) {
+                            return false;
+                        }
+
+
+                        // -----------------------------
+                        // SZUKANIE PO key
+                        // -----------------------------
+
+                        if (
+                            item.key &&
+                            String(item.key)
+                                .trim()
+                                .toLowerCase() === cleanWord
+                        ) {
+
+                            return true;
+
+                        }
+
+
+                        // -----------------------------
+                        // SZUKANIE PO sentence1
+                        // -----------------------------
+
+                        if (
+                            Array.isArray(item.sentence1) &&
+                            item.sentence1.some(
+                                function (word) {
+
+                                    return String(word)
+                                        .trim()
+                                        .toLowerCase() === cleanWord;
+
+                                }
+                            )
+                        ) {
+
+                            return true;
+
+                        }
+
+
+                        // -----------------------------
+                        // SZUKANIE PO sentence
+                        // -----------------------------
+
+                        if (
+                            Array.isArray(item.sentence) &&
+                            item.sentence.some(
+                                function (word) {
+
+                                    return String(word)
+                                        .trim()
+                                        .toLowerCase() === cleanWord;
+
+                                }
+                            )
+                        ) {
+
+                            return true;
+
+                        }
+
+
+                        return false;
+
+                    }
+                );
+
+
+            // =====================================
+            // NIE ZNALEZIONO FISZKI
+            // =====================================
+
+            if (!fiszka) {
+
+                console.warn(
+                    '[translate-memory] NIE ZNALEZIONO FISZKI DLA:',
+                    cleanWord
+                );
+
+                return;
+            }
+
+
+            console.log(
+                '[translate-memory] ZNALEZIONO FISZKĘ:',
+                fiszka
+            );
+
+
+            // =====================================
+            // POBIERZ DESC
+            // =====================================
+
+            const desc =
+                fiszka.desc;
+
+
+            if (!desc) {
+
+                console.warn(
+                    '[translate-memory] FISZKA NIE MA DESC:',
+                    fiszka
+                );
+
+                return;
+            }
+
+
+            console.log(
+                '[translate-memory] DESC:',
+                desc
+            );
+
+
+            // =====================================
+            // ZNAJDŹ WŁAŚCIWY ACTIVE-WORD-TAG
+            // =====================================
+
+            let $tag =
+                $star.closest(
+                    '.active-word-tag'
+                );
+
+
+            // =====================================
+            // FALLBACK
+            // =====================================
+
+            if (!$tag.length) {
+
+                $tag =
+                    $('.active-word-tag')
+                        .last();
+
+            }
+
+
+            if (!$tag.length) {
+
+                console.warn(
+                    '[translate-memory] BRAK active-word-tag'
+                );
+
+                return;
+            }
+
+
+            console.log(
+                '[translate-memory] ACTIVE-WORD-TAG:',
+                $tag
+            );
+
+
+            // =====================================
+            // ZNAJDŹ ACTIVE-WORD-DETAILS
+            // =====================================
+
+            let $details =
+                $tag
+                    .find(
+                        '.active-word-details'
+                    )
+                    .first();
+
+
+            // =====================================
+            // JEŻELI NIE MA — UTWÓRZ
+            // =====================================
+
+            if (!$details.length) {
+
+                $details =
+                    $('<div>')
+                        .addClass(
+                            'active-word-details'
+                        );
+
+                $tag.append(
+                    $details
+                );
+
+            }
+
+
+            // =====================================
+            // WSTAW DESC
+            // =====================================
+
+            $details.html(
+                desc
+            );
+
+
+            // =====================================
+            // ZAPISZ DESC W PAMIĘCI TAGA
+            // =====================================
+
+            $tag.data(
+                'memory-desc',
+                desc
+            );
+
+
+            // =====================================
+            // POKAŻ DESC
+            // =====================================
+
+            $details
+                .stop(true, true)
+                .slideDown(200);
+
+
+            // =====================================
+            // USTAW STAN OTWARCIA
+            // =====================================
+
+            $tag.addClass(
+                'active-word-details-open'
+            );
+
+
+            // =====================================
+            // AKTYWUJ PRZYCISK SZCZEGÓŁÓW
+            // =====================================
+
+            const $detailsToggle =
+                $tag
+                    .find(
+                        '.active-word-details-toggle'
+                    )
+                    .first();
+
+
+            if ($detailsToggle.length) {
+
+                $detailsToggle
+                    .addClass('active')
+                    .attr(
+                        'aria-expanded',
+                        'true'
+                    );
+
+            }
+
+
+            console.log(
+                '[translate-memory] DESC AKTYWOWANY'
+            );
+
         }
     );
 
@@ -11130,7 +11393,10 @@ if ($star.length) {
             starOffset.top +
             (starHeight / 2)
     });
+
 }
+
+
 
     // =====================================
     // ANIMACJA
@@ -11217,11 +11483,7 @@ if ($star.length) {
         '[mouseenter] ✅ animation restored'
     );
 });
-// ======================================================
-// ======================================================
-// 🧠 SYSTEM TRANSZ SŁÓW
-// ======================================================
-// ======================================================
+
 
 
 // ======================================================
@@ -12528,6 +12790,7 @@ $(document).on(
 // ======================================================
 // ======================================================
 
+
 function openTransactionWindow(transactionId) {
 
 
@@ -12673,17 +12936,97 @@ function openTransactionWindow(transactionId) {
 
 
     // ==================================================
-    // TWORZENIE FISZEK
+    // FISZKI — OD PIERWSZEJ
     // ==================================================
 
-    transaction.words.forEach(
+    const words =
+        Array.isArray(transaction.words)
+            ? transaction.words
+            : [];
 
-        function (wordData) {
 
+    words.forEach(
+
+        function (wordData, index) {
+
+
+            // ==================================================
+            // WSZYSTKIE WERSJE STORY
+            // ==================================================
+
+            const storyVersions = [];
+
+
+            Object.keys(wordData)
+                .forEach(
+
+                    function (key) {
+
+                        if (
+                            key === 'story' ||
+                            /^story\d+$/.test(key)
+                        ) {
+
+                            if (
+                                wordData[key] !==
+                                undefined &&
+                                wordData[key] !==
+                                null &&
+                                String(
+                                    wordData[key]
+                                ).trim() !== ''
+                            ) {
+
+                                storyVersions.push({
+
+                                    key:
+                                        key,
+
+                                    value:
+                                        wordData[key]
+
+                                });
+
+                            }
+
+                        }
+
+                    }
+
+                );
+
+
+            console.log(
+                '[TRANSZA] FISZKA:',
+                index + 1,
+                wordData.word,
+                'STORY:',
+                storyVersions
+            );
+
+
+            // ==================================================
+            // DODAJ STORY DO WORD DATA
+            // ==================================================
+
+            const cardData =
+                Object.assign(
+                    {},
+                    wordData,
+                    {
+                        storyVersions:
+                            storyVersions
+                    }
+                );
+
+
+            // ==================================================
+            // TWORZENIE FISZKI
+            // ==================================================
 
             const $card =
                 createSavedWordCard(
-                    wordData
+                    cardData
                 );
 
 
@@ -12717,6 +13060,8 @@ function openTransactionWindow(transactionId) {
         });
 
 }
+
+
 
 
 // ======================================================
