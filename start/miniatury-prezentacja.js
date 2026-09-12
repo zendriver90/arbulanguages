@@ -6843,11 +6843,19 @@ $(document).on("click", ".next-buttonvv", function () {
     // ❌ ZAMKNIJ SZCZEGÓŁY POPRZEDNIEGO SŁOWA
     // =====================================
 
-    $('#active-word-details').remove();
+// =====================================
+// ❌ ZAMKNIJ OTWARTE SZCZEGÓŁY
+// NIE USUWAJ PANELI
+// =====================================
 
-    $('.active-word-details').remove();
+$('#active-word-bar')
+    .find('.active-word-details')
+    .stop(true, true)
+    .slideUp(150);
 
-    $('[id="active-word-details"]').remove();
+$('#active-word-bar')
+    .find('.active-word-details-toggle')
+    .text('▼');
     const $line = $(this).closest(".sentence-line");
 
     const $sentence = $line.find(".sentence-inner");
@@ -6976,72 +6984,67 @@ if ($nextWord.length) {
 }
 
 // =====================================
-// ⭐ GWIAZDKA — ZACHOWAJ STYL PIERWSZEGO SŁOWA
+    // GWIAZDKA
+    // =====================================
+
+    if (
+        !$target.children(
+            '.word-play-star'
+        ).length
+    ) {
+
+        const $star =
+            $('<span>')
+                .addClass(
+                    'word-play-star'
+                );
+
+
+        $star.append(
+            $('<span>')
+                .addClass(
+                    'word-play-star-symbol'
+                )
+                .text('★')
+        );
+
+
+        const $starCount =
+            $('<span>')
+                .addClass(
+                    'word-play-star-count'
+                );
+
+
+        $starCount.append(
+            $('<span>')
+                .addClass(
+                    'word-play-segment'
+                )
+        );
+
+
+        $star.append(
+            $starCount
+        );
+
+
+        $target.append(
+            $star
+        );
+    }
+    
+   // =====================================
+// TŁUMACZ W ZAPISANEJ PAMIĘCI
+// NIE DODAWAJ DO SENTENCE-INNER
 // =====================================
 
-let $nextStar =
-    $nextWord
+const $star =
+    $target
         .children('.word-play-star')
         .first();
 
-// =====================================
-// JEŚLI GWIAZDKI JESZCZE NIE MA
-// =====================================
 
-if (!$nextStar.length) {
-
-    $nextStar =
-        $('<span>')
-            .addClass('word-play-star');
-
-    // symbol
-    $nextStar.append(
-        $('<span>')
-            .addClass('word-play-star-symbol')
-            .text('★')
-    );
-
-    // licznik
-    $nextStar.append(
-        $('<span>')
-            .addClass('word-play-star-count')
-    );
-
-    $nextWord.append($nextStar);
-
-    console.log(
-        '[NEXT][GWIAZDKA] utworzona:',
-        wordText
-    );
-}
-
-// =====================================
-// ⭐ NIE TWORZYMY NOWEJ GWIAZDKI
-// UŻYWAMY TEJ, KTÓRA JUŻ ISTNIEJE
-// =====================================
-
-const $nextStarCount =
-    $nextStar
-        .children('.word-play-star-count')
-        .first();
-
-
-// =====================================
-// DODAJEMY TYLKO NOWY SEGMENT
-// =====================================
-
-if ($nextStarCount.length) {
-
-    $nextStarCount.append(
-        $('<span>')
-            .addClass('word-play-segment')
-    );
-
-    console.log(
-        '[NEXT][GWIAZDKA] liczba odtworzeń:',
-        $nextStarCount.children('.word-play-segment').length
-    );
-}
 
     // =====================================
     // AUDIO
@@ -7484,6 +7487,10 @@ $tag.append(
 // ACTIVE WORD DETAILS — PANEL
 // =====================================
 
+// =====================================
+// ACTIVE WORD DETAILS — PANEL
+// =====================================
+
 const $details =
     $('<div>')
         .addClass(
@@ -7492,6 +7499,369 @@ const $details =
         .css({
             display: 'none'
         });
+
+
+// =====================================
+// LEKCJA
+// =====================================
+
+$details.append(`
+    <div class="active-word-details-lesson">
+        Lekcja ${lessonId}
+    </div>
+`);
+
+
+// =====================================
+// STORY KEY
+// =====================================
+
+const storyKey =
+    Array.isArray(fiszkaAudio?.id)
+        ? fiszkaAudio.id.join('_')
+        : tagKey;
+
+
+// =====================================
+// STORY COUNT
+// =====================================
+
+let storyCount = 0;
+
+if (
+    Array.isArray(fiszkaAudio?.story)
+) {
+
+    storyCount =
+        fiszkaAudio.story.length;
+
+} else if (
+    fiszkaAudio?.story
+) {
+
+    storyCount = 1;
+}
+
+
+// =====================================
+// WYBRANA WERSJA STORY
+// =====================================
+
+window.activeStoryVersionCache =
+    window.activeStoryVersionCache || {};
+
+let selectedStoryIndex =
+    window.activeStoryVersionCache[
+        storyKey
+    ];
+
+
+if (
+    selectedStoryIndex === undefined
+) {
+
+    selectedStoryIndex = 0;
+}
+
+
+selectedStoryIndex =
+    Number(
+        selectedStoryIndex
+    );
+
+
+// =====================================
+// ZABEZPIECZENIE
+// =====================================
+
+if (
+    storyCount > 0 &&
+    selectedStoryIndex >= storyCount
+) {
+
+    selectedStoryIndex = 0;
+}
+
+
+// =====================================
+// CATEGORY1
+// =====================================
+
+if (
+    Array.isArray(
+        fiszkaAudio?.category1
+    )
+) {
+
+    const $versions =
+        $('<div>')
+            .addClass(
+                'active-word-story-versions'
+            );
+
+
+    for (
+        let i = 0;
+        i < fiszkaAudio.category1.length;
+        i += 2
+    ) {
+
+        const value =
+            fiszkaAudio.category1[i];
+
+        const hashtag =
+            fiszkaAudio.category1[i + 1];
+
+
+        if (
+            value === undefined &&
+            hashtag === undefined
+        ) {
+
+            continue;
+        }
+
+
+        const storyIndex =
+            i / 2;
+
+
+        const $version =
+            $('<button>')
+                .attr({
+                    type: 'button',
+                    'data-story-index':
+                        storyIndex
+                })
+                .addClass(
+                    'active-word-story-version'
+                )
+                .text(
+                    `${value || ''} #${hashtag || ''}`
+                );
+
+
+        if (
+            storyIndex ===
+            selectedStoryIndex
+        ) {
+
+            $version.addClass(
+                'active'
+            );
+        }
+
+
+        // =================================
+        // ZMIANA WERSJI STORY
+        // =================================
+
+        $version.on(
+            'click.activeStoryVersion',
+            function (e) {
+
+                e.preventDefault();
+                e.stopPropagation();
+
+
+                const newStoryIndex =
+                    Number(
+                        $(this).attr(
+                            'data-story-index'
+                        )
+                    );
+
+
+                $versions
+                    .find(
+                        '.active-word-story-version'
+                    )
+                    .removeClass('active');
+
+
+                $(this)
+                    .addClass('active');
+
+
+                window.activeStoryVersionCache[
+                    storyKey
+                ] =
+                    newStoryIndex;
+
+
+                // -----------------------------
+                // STORY
+                // -----------------------------
+
+                let newStory;
+
+                if (
+                    Array.isArray(
+                        fiszkaAudio.story
+                    )
+                ) {
+
+                    newStory =
+                        fiszkaAudio.story[
+                            newStoryIndex
+                        ];
+
+                } else {
+
+                    newStory =
+                        fiszkaAudio.story;
+                }
+
+
+                // -----------------------------
+                // OBRAZ
+                // -----------------------------
+
+                let newImage;
+
+                if (
+                    Array.isArray(
+                        fiszkaAudio.img
+                    )
+                ) {
+
+                    newImage =
+                        fiszkaAudio.img[
+                            newStoryIndex
+                        ];
+
+                } else {
+
+                    newImage =
+                        fiszkaAudio.img;
+                }
+
+
+                const $image =
+                    $details.find(
+                        '.active-word-details-image'
+                    );
+
+
+                if (newImage) {
+
+                    if ($image.length) {
+
+                        $image.attr(
+                            'src',
+                            newImage
+                        );
+
+                    } else {
+
+                        $versions.after(`
+                            <img
+                                src="${newImage}"
+                                alt="Fiszka"
+                                class="active-word-details-image"
+                            >
+                        `);
+                    }
+
+                } else {
+
+                    $image.remove();
+                }
+
+
+                $details
+                    .find(
+                        '.active-word-details-text'
+                    )
+                    .html(
+                        newStory || ''
+                    );
+            }
+        );
+
+
+        $versions.append(
+            $version
+        );
+    }
+
+
+    $details.append(
+        $versions
+    );
+}
+
+
+// =====================================
+// POCZĄTKOWY OBRAZ
+// =====================================
+
+let imageUrl;
+
+if (
+    Array.isArray(
+        fiszkaAudio?.img
+    )
+) {
+
+    imageUrl =
+        fiszkaAudio.img[
+            selectedStoryIndex
+        ];
+
+} else {
+
+    imageUrl =
+        fiszkaAudio?.img;
+}
+
+
+if (imageUrl) {
+
+    $details.append(`
+        <img
+            src="${imageUrl}"
+            alt="Fiszka"
+            class="active-word-details-image"
+        >
+    `);
+}
+
+
+// =====================================
+// POCZĄTKOWY STORY
+// =====================================
+
+let storyText;
+
+if (
+    Array.isArray(
+        fiszkaAudio?.story
+    )
+) {
+
+    storyText =
+        fiszkaAudio.story[
+            selectedStoryIndex
+        ];
+
+} else {
+
+    storyText =
+        fiszkaAudio?.story;
+}
+
+
+$details.append(`
+    <div class="active-word-details-text">
+        ${storyText || ''}
+    </div>
+`);
+
+
+// =====================================
+// DODAJ PANEL DO TAGA
+// =====================================
 
 $tag.append(
     $details
@@ -15137,6 +15507,10 @@ $tag.append(
 // DODAJ DO ACTIVE-WORD-BAR
 // ======================================
 
+// ======================================
+// DODAJ DO ACTIVE-WORD-BAR
+// ======================================
+
 const $bar =
     $('#active-word-bar');
 
@@ -15155,16 +15529,112 @@ if (!$bar.length) {
 // RODZINA
 // ======================================
 //
-// UWAGA:
-// na tym etapie zostawiamy familyKey.
-// W KROKU 2 zmienimy next-buttonvv,
-// żeby korzystał dokładnie z tej wartości.
+// lesson-indicator tworzy PIERWSZE słowo
+// rodziny.
+//
+// next-buttonvv musi później znaleźć
+// dokładnie tę samą rodzinę.
+//
+// np.
+// 3_1 = jedno zdanie
+//
+// This
+// book
+// ...
 // ======================================
 
-$bar.prepend(
-    $tag
-);
+let $family =
+    $bar
+        .children('.active-word-family')
+        .filter(function () {
 
+            return String(
+                $(this).attr('data-family-key')
+            ) === String(familyKey);
+
+        })
+        .first();
+
+
+// ======================================
+// JEŚLI RODZINA JESZCZE NIE ISTNIEJE
+// ======================================
+
+if (!$family.length) {
+
+    console.log(
+        '[LESSON-INDICATOR] TWORZĘ NOWĄ RODZINĘ:',
+        familyKey
+    );
+
+
+    $family =
+        $('<div>')
+            .addClass('active-word-family')
+            .attr(
+                'data-family-key',
+                familyKey
+            )
+            .css({
+                display: 'flex',
+                flexDirection: 'column',
+                alignItems: 'flex-start',
+                justifyContent: 'flex-start',
+                flexWrap: 'nowrap',
+                gap: '3px',
+                whiteSpace: 'normal',
+                width: 'max-content'
+            });
+
+
+    // ======================================
+    // PIERWSZE SŁOWO DO RODZINY
+    // ======================================
+
+    $family.append(
+        $tag
+    );
+
+
+    // ======================================
+    // CAŁA RODZINA DO ACTIVE-WORD-BAR
+    // ======================================
+
+    $bar.prepend(
+        $family
+    );
+
+
+    console.log(
+        '[LESSON-INDICATOR] PIERWSZE SŁOWO W NOWEJ RODZINIE',
+        {
+            familyKey: familyKey,
+            wordText: wordText
+        }
+    );
+
+}
+
+
+// ======================================
+// JEŚLI RODZINA JUŻ ISTNIEJE
+// ======================================
+
+else {
+
+    console.log(
+        '[LESSON-INDICATOR] RODZINA JUŻ ISTNIEJE',
+        {
+            familyKey: familyKey
+        }
+    );
+
+
+    $family.append(
+        $tag
+    );
+
+}
 
 console.log(
     '[LESSON-INDICATOR] NOWY ACTIVE-WORD-TAG',
