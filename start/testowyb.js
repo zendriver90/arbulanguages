@@ -4797,87 +4797,6 @@ const fiszki10 = [
             11,
             22
         ],
-    entries: [
-        {
-            id: 1,
-            img: {
-                src: "https://www.arbulang.com/img/fiszki1/10a.jpg",
-                alt: "Wygenerowane przez AI."
-            },
-            story: {
-                text: '<u><b>Dla</u></b> spor<span class="adannotation" data-annotation="1"><u><b>tu</b></u></span> przeszedłem się pieszo <u><b>ku</u></b> parku',
-                alt: "Droga do pracy. Ile trzeba mieć do pracy, żeby móc pójść na nogach?"
-            },
-            category: ["sport", "czas wolny"]
-        },
-        {
-            id: 2,
-            img: {
-                src: "https://www.arbulang.com/img/fiszki1/10b.jpg",
-                alt: "Wygenerowane przez AI."
-            },
-            story: {
-                text: 'Ra<span class="adannotation" data-annotation="1"><u><b>tu</u></b></span>nku, ta droga poprowadziła nas <u><b>ku</u></b> wężom',
-               alt: "Rzeczywistość dżungli. Czy węże są niebezpieczne?"
-            },
-             category: ["natura", "zoologia"]
-        },
-        {
-            id: 3,
-            img: {
-                src: "https://www.arbulang.com/img/fiszki1/10c.jpg",
-                alt: "Wygenerowane przez AI."
-            },
-            story: {
-                text: '<span class="adannotation" data-annotation="1"><b><u>Tu</b></u></span> w Egipcie Totem Faraona to pamiątka <u><b>ku</u></b> jego czci',
-                alt: "Historia i turystyka. Czy pamiątka Totemu Faraona jest ciekawą zdobyczą?"
-            },
-           category: ["nauka", "historia"]
-        },
-        {
-            id: 4,
-            img: {
-                src: "https://www.arbulang.com/img/fiszki1/10d.jpg",
-                alt: "Wygenerowane przez AI."
-            },
-            story: {
-                text: '<span class="adannotation" data-annotation="1"><b><u>Tu</b></u></span> <u><b>dla</u></b> Ciebie jest bardzo dobra aktywność, <u><b>to</u></b>talnie nie brakuje mi nic w drodze <u><b>ku</u></b>t mistrza',
-                alt: "Sport i dyscyplina. Czy uczeń może prześcignąć mistrza?"
-            },
-            category: ["czarny humor", "sport"]
-        },
-        {
-            id: 5,
-            img: {
-                src: "https://www.arbulang.com/img/fiszki1/10e.jpg",
-                alt: "Wygenerowane przez AI."
-            },
-            story: {
-                text: 'Aaaa.. <span class="adannotation" data-annotation="1"><b><u>tu</b></u></span> to jest, <b><u>ku</b></u> szczęściu znalazłem to..',
-               alt: "Umiejętności praktyczne. Czy trudno jest znaleźć coś gdy się spieszymy?"
-            },
-            category: ["związki", "czas wolny"]
-        }
-    ],
-        translateb2: "[tu help as]",
-        desc: "to[tu] - do, ku",
-        sentence2: [
-            "to"
-        ],
-        sentence: [
-            "to",
-            "help",
-            "us"
-        ],
-        key: "to",
-        category2: ["określeniaMiejsca"]
-    },
-    {
-        id: [
-            67,
-            11,
-            22
-        ],
             entries: [
         {
             id: 1,
@@ -4892,21 +4811,21 @@ const fiszki10 = [
             category: ["nauka", "eksperymenty"]
         }
             ],
-        desc: "help[help] - pomagać",
+        desc: "to help[help] - pomagać",
         sentence2: [
-            "help"
+            "to_help"
         ],
         sentence: [
             "to",
             "help",
             "us"
         ],
-        key: "help",
+        key: "to help",
         category2: ["czasownik"]
     },
     {
         id: [
-            68,
+            67,
             11,
             22
         ],
@@ -4938,7 +4857,7 @@ const fiszki10 = [
     },
     {
         id: [
-            69,
+            68,
             12,
             23
         ],
@@ -5027,7 +4946,7 @@ const fiszki10 = [
     },
     {
         id: [
-            70,
+            69,
             12,
             23
         ],
@@ -5060,7 +4979,7 @@ const fiszki10 = [
     },
     {
         id: [
-            71,
+            70,
             12,
             23
         ],
@@ -5094,7 +5013,7 @@ const fiszki10 = [
     },
     {
         id: [
-            72,
+            71,
             12,
             24
         ],
@@ -5187,7 +5106,7 @@ const fiszki10 = [
     },
     {
         id: [
-            73,
+            72,
             12,
             24
         ],
@@ -5219,7 +5138,7 @@ const fiszki10 = [
     },
     {
         id: [
-            74,
+            73,
             13,
             25
         ],
@@ -5317,7 +5236,7 @@ const fiszki10 = [
     },
     {
         id: [
-            75,
+            74,
             13,
             25
         ],
@@ -5366,7 +5285,7 @@ const fiszki10 = [
     },
     {
         id: [
-            76,
+            75,
             13,
             25
         ],
@@ -5400,7 +5319,7 @@ const fiszki10 = [
     },
     {
         id: [
-            77,
+            76,
             13,
             26
         ],
@@ -5434,7 +5353,7 @@ const fiszki10 = [
     },
     {
         id: [
-            78,
+            77,
             13,
             26
         ],
@@ -5467,7 +5386,7 @@ const fiszki10 = [
     },
     {
         id: [
-            79,
+            78,
             13,
             26
         ],
@@ -5500,7 +5419,7 @@ const fiszki10 = [
     },
     {
         id: [
-            80,
+            79,
             14,
             27
         ],
@@ -5595,7 +5514,7 @@ const fiszki10 = [
     },
     {
         id: [
-            81,
+            80,
             14,
             27
         ],
@@ -5629,7 +5548,7 @@ const fiszki10 = [
     },
     {
         id: [
-            82,
+            81,
             14,
             27
         ],
@@ -5662,7 +5581,7 @@ const fiszki10 = [
     },
     {
         id: [
-            83,
+            82,
             14,
             28
         ],
@@ -5738,15 +5657,11 @@ const fiszki10 = [
             "week"
         ],
         key: "this",
-        category2: "ogrodnictwo, florystyka",
-        category1b: "związki",
-        category2b: "języki obce",
-        category1c: "nauka",
-        category2c: "naukowcy"
+        category2: ["zaimkiosobowe"] 
     },
     {
         id: [
-            84,
+            83,
             14,
             28
         ],
@@ -5778,7 +5693,7 @@ const fiszki10 = [
     },
     {
         id: [
-            85,
+            84,
             15,
             29
         ],
@@ -5863,7 +5778,7 @@ const fiszki10 = [
     },
     {
         id: [
-            86,
+            85,
             15,
             29
         ],
@@ -5951,7 +5866,7 @@ const fiszki10 = [
     },
     {
         id: [
-            87,
+            86,
             15,
             29
         ],
@@ -5984,7 +5899,7 @@ const fiszki10 = [
     },
     {
         id: [
-            88,
+            87,
             15,
             30
         ],
@@ -6017,7 +5932,7 @@ const fiszki10 = [
     },
     {
         id: [
-            89,
+            88,
             15,
             30
         ],
@@ -6061,7 +5976,7 @@ const fiszki10 = [
     },
     {
         id: [
-            90,
+            89,
             15,
             30
         ],
@@ -6093,7 +6008,7 @@ const fiszki10 = [
     },
     {
         id: [
-            91,
+            90,
             16,
             31
         ],
@@ -6180,7 +6095,7 @@ const fiszki10 = [
     },
     {
         id: [
-            92,
+            91,
             16,
             31
         ],
@@ -6224,7 +6139,7 @@ const fiszki10 = [
     },
     {
         id: [
-            93,
+            92,
             16,
             32
         ],
@@ -6255,7 +6170,7 @@ const fiszki10 = [
     },
     {
         id: [
-            94,
+            93,
             16,
             32
         ],
@@ -6287,7 +6202,7 @@ const fiszki10 = [
     },
     {
         id: [
-            95,
+            94,
             17,
             33
         ],
@@ -6325,7 +6240,7 @@ const fiszki10 = [
     },
     {
         id: [
-            96,
+            95,
             17,
             33
         ],
@@ -6430,7 +6345,7 @@ const fiszki10 = [
     },
     {
         id: [
-            97,
+            96,
             17,
             33
         ],
@@ -6464,7 +6379,7 @@ const fiszki10 = [
     },
     {
         id: [
-            98,
+            97,
             17,
             34
         ],
@@ -6551,7 +6466,7 @@ const fiszki10 = [
     },
     {
         id: [
-            99,
+            98,
             17,
             34
         ],
@@ -6583,7 +6498,7 @@ const fiszki10 = [
     },
     {
         id: [
-            100,
+            99,
             17,
             34
         ],
@@ -6615,7 +6530,7 @@ const fiszki10 = [
     },
     {
         id: [
-            101,
+            100,
             18,
             35
         ],
@@ -6701,7 +6616,7 @@ const fiszki10 = [
     },
     {
         id: [
-            102,
+            101,
             18,
             35
         ],
@@ -6735,7 +6650,7 @@ const fiszki10 = [
     },
     {
         id: [
-            103,
+            102,
             18,
             35
         ],
@@ -6771,7 +6686,7 @@ const fiszki10 = [
     },
     {
         id: [
-            104,
+            103,
             18,
             35
         ],
@@ -6805,7 +6720,7 @@ const fiszki10 = [
     },
     {
         id: [
-            105,
+            104,
             18,
             36
         ],
@@ -6885,7 +6800,7 @@ const fiszki10 = [
     },
     {
         id: [
-            106,
+            105,
             18,
             36
         ],
@@ -6965,7 +6880,7 @@ const fiszki10 = [
     },
     {
         id: [
-            107,
+            106,
             18,
             36
         ],
@@ -6997,7 +6912,7 @@ const fiszki10 = [
     },
     {
         id: [
-            108,
+            107,
             19,
             37
         ],
@@ -7082,7 +6997,7 @@ const fiszki10 = [
     },
     {
         id: [
-            109,
+            108,
             19,
             37
         ],
@@ -7116,7 +7031,7 @@ const fiszki10 = [
     },
     {
         id: [
-            110,
+            109,
             19,
             37
         ],
@@ -7230,7 +7145,7 @@ const fiszki10 = [
     },
     {
         id: [
-            111,
+            110,
             19,
             38
         ],
@@ -7263,7 +7178,7 @@ const fiszki10 = [
     },
     {
         id: [
-            112,
+            111,
             19,
             38
         ],
@@ -7311,7 +7226,7 @@ const fiszki10 = [
     },
     {
         id: [
-            113,
+            112,
             19,
             38
         ],
@@ -7344,7 +7259,7 @@ const fiszki10 = [
     },
     {
         id: [
-            114,
+            113,
             20,
             39
         ],
@@ -7429,7 +7344,7 @@ const fiszki10 = [
     },
     {
         id: [
-            115,
+            114,
             20,
             39
         ],
@@ -7462,7 +7377,7 @@ const fiszki10 = [
     },
     {
         id: [
-            116,
+            115,
             20,
             39
         ],
@@ -7495,7 +7410,7 @@ const fiszki10 = [
     },
     {
         id: [
-            117,
+            116,
             20,
             40
         ],
@@ -7527,7 +7442,7 @@ const fiszki10 = [
     },
     {
         id: [
-            118,
+            117,
             20,
             40
         ],
@@ -7559,7 +7474,7 @@ const fiszki10 = [
     },
     {
         id: [
-            119,
+            118,
             20,
             40
         ],
@@ -7591,7 +7506,7 @@ const fiszki10 = [
     },
     {
         id: [
-            120,
+            119,
             21,
             41
         ],
@@ -7676,7 +7591,7 @@ const fiszki10 = [
     },
     {
         id: [
-            121,
+            120,
             21,
             41
         ],
@@ -7709,7 +7624,7 @@ const fiszki10 = [
     },
     {
         id: [
-            122,
+            121,
             21,
             41
         ],
@@ -7742,7 +7657,7 @@ const fiszki10 = [
     },
     {
         id: [
-            123,
+            122,
             21,
             42
         ],
@@ -7774,7 +7689,7 @@ const fiszki10 = [
     },
     {
         id: [
-            124,
+            123,
             21,
             42
         ],
@@ -7854,7 +7769,7 @@ const fiszki10 = [
     },
     {
         id: [
-            125,
+            124,
             21,
             42
         ],
@@ -7886,7 +7801,7 @@ const fiszki10 = [
     },
     {
         id: [
-            126,
+            125,
             22,
             43
         ],
@@ -7923,7 +7838,7 @@ const fiszki10 = [
     },
     {
         id: [
-            127,
+            126,
             22,
             43
         ],
@@ -7956,7 +7871,7 @@ const fiszki10 = [
     },
     {
         id: [
-            128,
+            127,
             22,
             43
         ],
@@ -7988,7 +7903,7 @@ const fiszki10 = [
     },
     {
         id: [
-            129,
+            128,
             22,
             44
         ],
@@ -8020,7 +7935,7 @@ const fiszki10 = [
     },
     {
         id: [
-            130,
+            129,
             22,
             44
         ],
@@ -8063,7 +7978,7 @@ const fiszki10 = [
     },
     {
         id: [
-            131,
+            130,
             23,
             45
         ],
@@ -8100,7 +8015,7 @@ const fiszki10 = [
     },
     {
         id: [
-            132,
+            131,
             23,
             45
         ],
@@ -8132,7 +8047,7 @@ const fiszki10 = [
     },
     {
         id: [
-            133,
+            132,
             23,
             45
         ],
@@ -8165,7 +8080,7 @@ const fiszki10 = [
     },
     {
         id: [
-            134,
+            133,
             23,
             46
         ],
@@ -8197,7 +8112,7 @@ const fiszki10 = [
     },
     {
         id: [
-            135,
+            134,
             23,
             46
         ],
@@ -8289,7 +8204,7 @@ const fiszki10 = [
     },
     {
         id: [
-            136,
+            135,
             23,
             46
         ],
@@ -8321,7 +8236,7 @@ const fiszki10 = [
     },
     {
         id: [
-            137,
+            136,
             24,
             47
         ],
@@ -8409,7 +8324,7 @@ const fiszki10 = [
     },
     {
         id: [
-            138,
+            137,
             24,
             47
         ],
@@ -8445,7 +8360,7 @@ const fiszki10 = [
     },
     {
         id: [
-            139,
+            138,
             24,
             47
         ],
@@ -8481,7 +8396,7 @@ const fiszki10 = [
     },
     {
         id: [
-            140,
+            139,
             24,
             47
         ],
@@ -8517,7 +8432,7 @@ const fiszki10 = [
     },
     {
         id: [
-            141,
+            140,
             24,
             47
         ],
@@ -8600,7 +8515,7 @@ const fiszki10 = [
     },
     {
         id: [
-            142,
+            141,
             24,
             47
         ],
@@ -8635,7 +8550,7 @@ const fiszki10 = [
     },
     {
         id: [
-            143,
+            142,
             24,
             48
         ],
@@ -8742,7 +8657,7 @@ const fiszki10 = [
     },
     {
         id: [
-            144,
+            143,
             24,
             48
         ],
@@ -8774,7 +8689,7 @@ const fiszki10 = [
     },
     {
         id: [
-            145,
+            144,
             25,
             49
         ],
@@ -8861,7 +8776,7 @@ const fiszki10 = [
     },
     {
         id: [
-            146,
+            145,
             25,
             49
         ],
@@ -8896,7 +8811,7 @@ const fiszki10 = [
     },
     {
         id: [
-            147,
+            146,
             25,
             49
         ],
@@ -8930,7 +8845,7 @@ const fiszki10 = [
     },
     {
         id: [
-            148,
+            147,
             25,
             49
         ],
@@ -8964,7 +8879,7 @@ const fiszki10 = [
     },
     {
         id: [
-            149,
+            148,
             25,
             49
         ],
@@ -8999,7 +8914,7 @@ const fiszki10 = [
     },
     {
         id: [
-            150,
+            149,
             25,
             50
         ],
@@ -9080,7 +8995,7 @@ const fiszki10 = [
     },
     {
         id: [
-            151,
+            150,
             25,
             50
         ],
@@ -9113,7 +9028,7 @@ const fiszki10 = [
     },
     {
         id: [
-            152,
+            151,
             25,
             50
         ],
@@ -9146,7 +9061,7 @@ const fiszki10 = [
     },
     {
         id: [
-            153,
+            152,
             25,
             50
         ],
@@ -9179,7 +9094,7 @@ const fiszki10 = [
     },
     {
         id: [
-            154,
+            153,
             26,
             51
         ],
@@ -9267,7 +9182,7 @@ const fiszki10 = [
     },
     {
         id: [
-            155,
+            154,
             26,
             51
         ],
@@ -9302,7 +9217,7 @@ const fiszki10 = [
     },
     {
         id: [
-            156,
+            155,
             26,
             51
         ],
@@ -9349,7 +9264,7 @@ const fiszki10 = [
     },
     {
         id: [
-            157,
+            156,
             26,
             51
         ],
@@ -9385,7 +9300,7 @@ const fiszki10 = [
     },
     {
         id: [
-            158,
+            157,
             26,
             51
         ],
@@ -9468,7 +9383,7 @@ const fiszki10 = [
     },
     {
         id: [
-            159,
+            158,
             26,
             51
         ],
@@ -9551,7 +9466,7 @@ const fiszki10 = [
     },
     {
         id: [
-            160,
+            159,
             26,
             52
         ],
@@ -9584,7 +9499,7 @@ const fiszki10 = [
     },
     {
         id: [
-            161,
+            160,
             26,
             52
         ],
@@ -9617,7 +9532,7 @@ const fiszki10 = [
     },
     {
         id: [
-            162,
+            161,
             26,
             52
         ],
@@ -9651,7 +9566,7 @@ const fiszki10 = [
     },
     {
         id: [
-            163,
+            162,
             26,
             52
         ],
@@ -9685,7 +9600,7 @@ const fiszki10 = [
     },
     {
         id: [
-            164,
+            163,
             27,
             53
         ],
@@ -9780,7 +9695,7 @@ const fiszki10 = [
     },
     {
         id: [
-            165,
+            164,
             27,
             53
         ],
@@ -9816,7 +9731,7 @@ const fiszki10 = [
     },
     {
         id: [
-            166,
+            165,
             27,
             53
         ],
@@ -9867,7 +9782,7 @@ const fiszki10 = [
     },
     {
         id: [
-            167,
+            166,
             27,
             53
         ],
@@ -9957,7 +9872,7 @@ const fiszki10 = [
     },
     {
         id: [
-            168,
+            167,
             27,
             53
         ],
@@ -9993,7 +9908,7 @@ const fiszki10 = [
     },
     {
         id: [
-            169,
+            168,
             27,
             53
         ],
@@ -10029,7 +9944,7 @@ const fiszki10 = [
     },
     {
         id: [
-            170,
+            169,
             27,
             54
         ],
@@ -10074,7 +9989,7 @@ const fiszki10 = [
     },
     {
         id: [
-            171,
+            170,
             27,
             54
         ],
@@ -10106,7 +10021,7 @@ const fiszki10 = [
     },
     {
         id: [
-            172,
+            171,
             27,
             54
         ],
@@ -10138,7 +10053,7 @@ const fiszki10 = [
     },
     {
         id: [
-            173,
+            172,
             28,
             55
         ],
@@ -10178,7 +10093,7 @@ const fiszki10 = [
     },
     {
         id: [
-            174,
+            173,
             28,
             55
         ],
@@ -10213,7 +10128,7 @@ const fiszki10 = [
     },
     {
         id: [
-            175,
+            174,
             28,
             55
         ],
@@ -10247,7 +10162,7 @@ const fiszki10 = [
     },
     {
         id: [
-            176,
+            175,
             28,
             55
         ],
@@ -10329,7 +10244,7 @@ const fiszki10 = [
     },
     {
         id: [
-            177,
+            176,
             28,
             55
         ],
@@ -10364,7 +10279,7 @@ const fiszki10 = [
     },
     {
         id: [
-            178,
+            177,
             28,
             56
         ],
@@ -10473,7 +10388,7 @@ const fiszki10 = [
     },
     {
         id: [
-            179,
+            178,
             28,
             56
         ],
@@ -10508,7 +10423,7 @@ const fiszki10 = [
     },
     {
         id: [
-            180,
+            179,
             28,
             56
         ],
@@ -10543,7 +10458,7 @@ const fiszki10 = [
     },
     {
         id: [
-            181,
+            180,
             28,
             56
         ],
@@ -10625,7 +10540,7 @@ const fiszki10 = [
     },
     {
         id: [
-            182,
+            181,
             28,
             56
         ],
@@ -10660,7 +10575,7 @@ const fiszki10 = [
     },
     {
         id: [
-            183,
+            182,
             29,
             57
         ],
@@ -10702,7 +10617,7 @@ const fiszki10 = [
     },
     {
         id: [
-            184,
+            183,
             29,
             57
         ],
@@ -10738,7 +10653,7 @@ const fiszki10 = [
     },
     {
         id: [
-            185,
+            184,
             29,
             57
         ],
@@ -10775,7 +10690,7 @@ const fiszki10 = [
     },
     {
         id: [
-            186,
+            185,
             29,
             57
         ],
@@ -10811,7 +10726,7 @@ const fiszki10 = [
     },
     {
         id: [
-            187,
+            186,
             29,
             57
         ],
@@ -10848,7 +10763,7 @@ const fiszki10 = [
     },
     {
         id: [
-            188,
+            187,
             29,
             57
         ],
@@ -10885,7 +10800,7 @@ const fiszki10 = [
     },
     {
         id: [
-            189,
+            188,
             29,
             57
         ],
@@ -10922,7 +10837,7 @@ const fiszki10 = [
     },
     {
         id: [
-            190,
+            189,
             29,
             58
         ],
@@ -11013,7 +10928,7 @@ const fiszki10 = [
     },
     {
         id: [
-            191,
+            190,
             29,
             58
         ],
@@ -11045,7 +10960,7 @@ const fiszki10 = [
     },
     {
         id: [
-            192,
+            191,
             30,
             59
         ],
@@ -11085,7 +11000,7 @@ const fiszki10 = [
     },
     {
         id: [
-            193,
+            192,
             30,
             59
         ],
@@ -11120,7 +11035,7 @@ const fiszki10 = [
     },
     {
         id: [
-            194,
+            193,
             30,
             59
         ],
@@ -11155,7 +11070,7 @@ const fiszki10 = [
     },
     {
         id: [
-            195,
+            194,
             30,
             59
         ],
@@ -11190,7 +11105,7 @@ const fiszki10 = [
     },
     {
         id: [
-            196,
+            195,
             30,
             59
         ],
@@ -11237,7 +11152,7 @@ const fiszki10 = [
     },
     {
         id: [
-            197,
+            196,
             30,
             60
         ],
@@ -11271,89 +11186,7 @@ const fiszki10 = [
     },
     {
         id: [
-            198,
-            30,
-            60
-        ],
-    entries: [
-        {
-            id: 1,
-            img: {
-                src: "https://www.arbulang.com/img/fiszki1/10a.jpg",
-                alt: "Spacer po mieście. Wygenerowane przez AI."
-            },
-            story: {
-                text: '<u><b>Dla</u></b> spor<span class="adannotation" data-annotation="1"><u><b>tu</b></u></span> przeszedłem się pieszo <u><b>ku</u></b> parku',
-                alt: "Droga do pracy. Ile trzeba mieć do pracy, żeby móc pójść na nogach?"
-            },
-            category: ["sport", "czas wolny"]
-        },
-        {
-            id: 2,
-            img: {
-                src: "https://www.arbulang.com/img/fiszki1/10b.jpg",
-                alt: "Wąż. Wygenerowane przez AI."
-            },
-            story: {
-                text: 'Ra<span class="adannotation" data-annotation="1"><u><b>tu</u></b></span>nku, ta droga poprowadziła nas <u><b>ku</u></b> wężom',
-               alt: "Rzeczywistość dżungli. Czy węże są niebezpieczne?"
-            },
-             category: ["natura", "zoologia"]
-        },
-        {
-            id: 3,
-            img: {
-                src: "https://www.arbulang.com/img/fiszki1/10c.jpg",
-                alt: "Totem Faraona. Wygenerowane przez AI."
-            },
-            story: {
-                text: '<span class="adannotation" data-annotation="1"><b><u>Tu</b></u></span> w Egipcie Totem Faraona to pamiątka <u><b>ku</u></b> jego czci',
-                alt: "Historia i turystyka. Czy pamiątka Totemu Faraona jest ciekawą zdobyczą?"
-            },
-           category: ["nauka", "historia"]
-        },
-        {
-            id: 4,
-            img: {
-                src: "https://www.arbulang.com/img/fiszki1/10d.jpg",
-                alt: "Trzymanie kciuków za wyniki sportowe. Wygenerowane przez AI."
-            },
-            story: {
-                text: '<span class="adannotation" data-annotation="1"><b><u>Tu</b></u></span> <u><b>dla</u></b> Ciebie jest bardzo dobra aktywność, <u><b>to</u></b>talnie nie brakuje mi nic w drodze <u><b>ku</u></b>t mistrza',
-                alt: "Sport i dyscyplina. Czy uczeń może prześcignąć mistrza?"
-            },
-            category: ["czarny humor", "sport"]
-        },
-        {
-            id: 5,
-            img: {
-                src: "https://www.arbulang.com/img/fiszki1/10e.jpg",
-                alt: "Prezent okolicznościowy. Wygenerowane przez AI."
-            },
-            story: {
-                text: 'Aaaa.. <span class="adannotation" data-annotation="1"><b><u>tu</b></u></span> to jest, <b><u>ku</b></u> szczęściu znalazłem to..',
-               alt: "Umiejętności praktyczne. Czy trudno jest znaleźć coś gdy się spieszymy?"
-            },
-            category: ["związki", "czas wolny"]
-        }
-    ],
-        desc: "to[tu] - do, ku",
-        sentence2: [
-            "to"
-        ],
-        sentence: [
-            "how",
-            "to",
-            "help",
-            "your",
-            "child"
-        ],
-        key: "to",
-        category2: ["spojniki"]
-    },
-    {
-        id: [
-            199,
+            197,
             30,
             60
         ],
@@ -11371,9 +11204,9 @@ const fiszki10 = [
             category: ["chemia", "zabawa"]
         }
             ],
-        desc: "help[help] - pomagać",
+        desc: "to help[help] - pomagać",
         sentence2: [
-            "help"
+            "to help"
         ],
         sentence: [
             "how",
@@ -11382,12 +11215,12 @@ const fiszki10 = [
             "your",
             "child"
         ],
-        key: "help",
+        key: "to help",
         category2: [""]
     },
     {
         id: [
-            200,
+            198,
             30,
             60
         ],
@@ -11469,7 +11302,7 @@ const fiszki10 = [
     },
     {
         id: [
-            201,
+            199,
             30,
             60
         ],
@@ -11503,7 +11336,7 @@ const fiszki10 = [
     },
     {
         id: [
-            202,
+            200,
             31,
             61
         ],
@@ -11588,7 +11421,7 @@ const fiszki10 = [
     },
     {
         id: [
-            203,
+            201,
             31,
             61
         ],
@@ -11621,7 +11454,7 @@ const fiszki10 = [
     },
     {
         id: [
-            204,
+            202,
             31,
             61
         ],
@@ -11654,7 +11487,7 @@ const fiszki10 = [
     },
     {
         id: [
-            205,
+            203,
             31,
             62
         ],
@@ -11687,7 +11520,7 @@ const fiszki10 = [
     },
     {
         id: [
-            206,
+            204,
             31,
             62
         ],
@@ -11791,7 +11624,7 @@ const fiszki10 = [
     },
     {
         id: [
-            207,
+            205,
             31,
             62
         ],
@@ -11824,7 +11657,7 @@ const fiszki10 = [
     },
     {
         id: [
-            208,
+            206,
             32,
             63
         ],
@@ -11908,7 +11741,7 @@ const fiszki10 = [
     },
     {
         id: [
-            209,
+            207,
             32,
             63
         ],
@@ -11941,7 +11774,7 @@ const fiszki10 = [
     },
     {
         id: [
-            210,
+            208,
             32,
             64
         ],
@@ -12021,7 +11854,7 @@ const fiszki10 = [
     },
     {
         id: [
-            211,
+            209,
             32,
             64
         ],
@@ -12054,7 +11887,7 @@ const fiszki10 = [
     },
     {
         id: [
-            212,
+            210,
             32,
             64
         ],
@@ -12087,7 +11920,7 @@ const fiszki10 = [
     },
     {
         id: [
-            213,
+            211,
             33,
             65
         ],
@@ -12173,7 +12006,7 @@ const fiszki10 = [
     },
     {
         id: [
-            214,
+            212,
             33,
             65
         ],
@@ -12208,7 +12041,7 @@ const fiszki10 = [
     },
     {
         id: [
-            215,
+            213,
             33,
             65
         ],
@@ -12314,7 +12147,7 @@ const fiszki10 = [
     },
     {
         id: [
-            216,
+            214,
             33,
             65
         ],
@@ -12348,7 +12181,7 @@ const fiszki10 = [
     },
     {
         id: [
-            217,
+            215,
             33,
             66
         ],
@@ -12418,7 +12251,7 @@ const fiszki10 = [
     },
     {
         id: [
-            218,
+            216,
             33,
             66
         ],
@@ -12453,7 +12286,7 @@ const fiszki10 = [
     },
     {
         id: [
-            219,
+            217,
             33,
             66
         ],
@@ -12488,7 +12321,7 @@ const fiszki10 = [
     },
     {
         id: [
-            220,
+            218,
             33,
             66
         ],
@@ -12535,7 +12368,7 @@ const fiszki10 = [
     },
     {
         id: [
-            221,
+            219,
             33,
             66
         ],
@@ -12570,7 +12403,7 @@ const fiszki10 = [
     },
     {
         id: [
-            222,
+            220,
             34,
             67
         ],
@@ -12609,7 +12442,7 @@ const fiszki10 = [
     },
     {
         id: [
-            223,
+            221,
             34,
             67
         ],
@@ -12716,7 +12549,7 @@ const fiszki10 = [
     },
     {
         id: [
-            224,
+            222,
             34,
             67
         ],
@@ -12749,7 +12582,7 @@ const fiszki10 = [
     },
     {
         id: [
-            225,
+            223,
             34,
             68
         ],
@@ -12783,7 +12616,7 @@ const fiszki10 = [
     },
     {
         id: [
-            226,
+            224,
             34,
             68
         ],
@@ -12816,7 +12649,7 @@ const fiszki10 = [
     },
     {
         id: [
-            227,
+            225,
             34,
             68
         ],
@@ -12850,7 +12683,7 @@ const fiszki10 = [
     },
     {
         id: [
-            228,
+            226,
             34,
             68
         ],
@@ -12884,7 +12717,7 @@ const fiszki10 = [
     },
     {
         id: [
-            229,
+            227,
             35,
             69
         ],
@@ -12924,7 +12757,7 @@ const fiszki10 = [
     },
     {
         id: [
-            230,
+            228,
             35,
             69
         ],
@@ -12954,7 +12787,7 @@ const fiszki10 = [
             category: ["zwierzęta", "przyjaźń"]
         }
             ],
-        desc: "are[ar] - jest/są - gramatyka",
+        desc: "are[ar] - (są) operator/czasownik posiłkowy (Present Continuous)",
         sentence1: [
             "are"
         ],
@@ -12969,7 +12802,7 @@ const fiszki10 = [
     },
     {
         id: [
-            231,
+            229,
             35,
             69
         ],
@@ -13003,7 +12836,7 @@ const fiszki10 = [
     },
     {
         id: [
-            232,
+            230,
             35,
             69
         ],
@@ -13036,7 +12869,7 @@ const fiszki10 = [
     },
     {
         id: [
-            233,
+            231,
             35,
             70
         ],
@@ -13122,7 +12955,7 @@ const fiszki10 = [
     },
     {
         id: [
-            234,
+            232,
             35,
             70
         ],
@@ -13205,7 +13038,7 @@ const fiszki10 = [
     },
     {
         id: [
-            235,
+            233,
             35,
             70
         ],
@@ -13238,7 +13071,7 @@ const fiszki10 = [
     },
     {
         id: [
-            236,
+            234,
             36,
             71
         ],
@@ -13328,7 +13161,7 @@ const fiszki10 = [
     },
     {
         id: [
-            237,
+            235,
             36,
             71
         ],
@@ -13436,7 +13269,7 @@ const fiszki10 = [
     },
     {
         id: [
-            238,
+            236,
             36,
             71
         ],
@@ -13470,7 +13303,7 @@ const fiszki10 = [
     },
     {
         id: [
-            239,
+            237,
             36,
             71
         ],
@@ -13504,7 +13337,7 @@ const fiszki10 = [
     },
     {
         id: [
-            240,
+            238,
             36,
             72
         ],
@@ -13536,7 +13369,7 @@ const fiszki10 = [
     },
     {
         id: [
-            241,
+            239,
             36,
             72
         ],
@@ -13569,7 +13402,7 @@ const fiszki10 = [
     },
     {
         id: [
-            242,
+            240,
             36,
             72
         ],
@@ -13601,7 +13434,7 @@ const fiszki10 = [
     },
     {
         id: [
-            243,
+            241,
             37,
             73
         ],
@@ -13689,7 +13522,7 @@ const fiszki10 = [
     },
     {
         id: [
-            244,
+            242,
             37,
             73
         ],
@@ -13769,7 +13602,7 @@ const fiszki10 = [
     },
     {
         id: [
-            245,
+            243,
             37,
             73
         ],
@@ -13802,7 +13635,7 @@ const fiszki10 = [
     },
     {
         id: [
-            246,
+            244,
             37,
             74
         ],
@@ -13837,7 +13670,7 @@ const fiszki10 = [
     },
     {
         id: [
-            247,
+            245,
             37,
             74
         ],
@@ -13872,7 +13705,7 @@ const fiszki10 = [
     },
     {
         id: [
-            248,
+            246,
             37,
             74
         ],
@@ -13918,7 +13751,7 @@ const fiszki10 = [
     },
     {
         id: [
-            249,
+            247,
             37,
             74
         ],
@@ -13952,7 +13785,7 @@ const fiszki10 = [
     },
     {
         id: [
-            250,
+            248,
             37,
             74
         ],
@@ -13986,7 +13819,7 @@ const fiszki10 = [
     },
     {
         id: [
-            251,
+            249,
             38,
             75
         ],
@@ -14026,7 +13859,7 @@ const fiszki10 = [
     },
     {
         id: [
-            252,
+            250,
             38,
             75
         ],
@@ -14071,7 +13904,7 @@ const fiszki10 = [
     },
     {
         id: [
-            253,
+            251,
             38,
             75
         ],
@@ -14103,7 +13936,7 @@ const fiszki10 = [
     },
     {
         id: [
-            254,
+            252,
             38,
             76
         ],
@@ -14135,7 +13968,7 @@ const fiszki10 = [
     },
     {
         id: [
-            255,
+            253,
             38,
             76
         ],
@@ -14167,7 +14000,7 @@ const fiszki10 = [
     },
     {
         id: [
-            256,
+            254,
             39,
             77
         ],
@@ -14211,7 +14044,7 @@ const fiszki10 = [
     },
     {
         id: [
-            257,
+            255,
             39,
             77
         ],
@@ -14259,7 +14092,7 @@ const fiszki10 = [
     },
     {
         id: [
-            258,
+            256,
             39,
             77
         ],
@@ -14295,7 +14128,7 @@ const fiszki10 = [
     },
     {
         id: [
-            259,
+            257,
             39,
             77
         ],
@@ -14331,7 +14164,7 @@ const fiszki10 = [
     },
     {
         id: [
-            260,
+            258,
             39,
             77
         ],
@@ -14378,7 +14211,7 @@ const fiszki10 = [
     },
     {
         id: [
-            261,
+            259,
             39,
             77
         ],
@@ -14414,7 +14247,7 @@ const fiszki10 = [
     },
     {
         id: [
-            262,
+            260,
             40,
             78
         ],
@@ -14504,7 +14337,7 @@ const fiszki10 = [
     },
     {
         id: [
-            263,
+            261,
             40,
             78
         ],
@@ -14611,7 +14444,7 @@ const fiszki10 = [
     },
     {
         id: [
-            264,
+            262,
             40,
             78
         ],
@@ -14644,7 +14477,7 @@ const fiszki10 = [
     },
     {
         id: [
-            265,
+            263,
             40,
             79
         ],
@@ -14677,7 +14510,7 @@ const fiszki10 = [
     },
     {
         id: [
-            266,
+            264,
             40,
             79
         ],
@@ -14710,7 +14543,7 @@ const fiszki10 = [
     },
     {
         id: [
-            267,
+            265,
             40,
             79
         ],
@@ -14743,7 +14576,7 @@ const fiszki10 = [
     },
     {
         id: [
-            268,
+            266,
             41,
             80
         ],
@@ -14788,7 +14621,7 @@ const fiszki10 = [
     },
     {
         id: [
-            269,
+            267,
             41,
             80
         ],
@@ -14837,7 +14670,7 @@ const fiszki10 = [
     },
     {
         id: [
-            270,
+            268,
             41,
             80
         ],
@@ -14874,7 +14707,7 @@ const fiszki10 = [
     },
     {
         id: [
-            271,
+            269,
             41,
             80
         ],
@@ -14910,7 +14743,7 @@ const fiszki10 = [
     },
     {
         id: [
-            272,
+            270,
             41,
             80
         ],
@@ -14945,7 +14778,7 @@ const fiszki10 = [
     },
     {
         id: [
-            273,
+            271,
             41,
             80
         ],
@@ -14981,7 +14814,7 @@ const fiszki10 = [
     },
     {
         id: [
-            274,
+            272,
             42,
             81
         ],
@@ -15072,7 +14905,7 @@ const fiszki10 = [
     },
     {
         id: [
-            275,
+            273,
             42,
             81
         ],
@@ -15154,7 +14987,7 @@ const fiszki10 = [
     },
     {
         id: [
-            276,
+            274,
             42,
             81
         ],
@@ -15188,7 +15021,7 @@ const fiszki10 = [
     },
     {
         id: [
-            277,
+            275,
             42,
             81
         ],
@@ -15222,7 +15055,7 @@ const fiszki10 = [
     },
     {
         id: [
-            278,
+            276,
             42,
             81
         ],
@@ -15304,7 +15137,7 @@ const fiszki10 = [
     },
     {
         id: [
-            279,
+            277,
             42,
             81
         ],
@@ -15336,7 +15169,7 @@ const fiszki10 = [
     },
     {
         id: [
-            280,
+            278,
             43,
             82
         ],
@@ -15380,7 +15213,7 @@ const fiszki10 = [
     },
     {
         id: [
-            281,
+            279,
             43,
             82
         ],
@@ -15413,7 +15246,7 @@ const fiszki10 = [
     },
     {
         id: [
-            282,
+            280,
             43,
             82
         ],
@@ -15446,7 +15279,7 @@ const fiszki10 = [
     },
     {
         id: [
-            283,
+            281,
             43,
             83
         ],
@@ -15477,7 +15310,7 @@ const fiszki10 = [
     },
     {
         id: [
-            284,
+            282,
             43,
             83
         ],
@@ -15508,7 +15341,7 @@ const fiszki10 = [
     },
     {
         id: [
-            285,
+            283,
             44,
             84
         ],
@@ -15600,7 +15433,7 @@ const fiszki10 = [
     },
     {
         id: [
-            286,
+            284,
             44,
             84
         ],
@@ -15634,7 +15467,7 @@ const fiszki10 = [
     },
     {
         id: [
-            287,
+            285,
             44,
             84
         ],
@@ -15743,7 +15576,7 @@ const fiszki10 = [
     },
     {
         id: [
-            288,
+            286,
             44,
             84
         ],
@@ -15777,7 +15610,7 @@ const fiszki10 = [
     },
         {
         id: [
-            289,
+            287,
             45,
             85
         ],
@@ -15822,7 +15655,7 @@ const fiszki10 = [
     },
             {
         id: [
-            290,
+            288,
             45,
             85
         ],
@@ -15857,7 +15690,7 @@ const fiszki10 = [
     },
                 {
         id: [
-            291,
+            289,
             45,
             85
         ],
@@ -15892,7 +15725,7 @@ const fiszki10 = [
     },
                     {
         id: [
-            292,
+            290,
             45,
             85
         ],
@@ -15975,7 +15808,7 @@ const fiszki10 = [
     },
                     {
         id: [
-            293,
+            291,
             45,
             85
         ],
@@ -16011,7 +15844,7 @@ const fiszki10 = [
     },
                         {
         id: [
-            294,
+            292,
             45,
             86
         ],
@@ -16043,7 +15876,7 @@ const fiszki10 = [
     },
                             {
         id: [
-            295,
+            293,
             45,
             86
         ],
@@ -16075,7 +15908,7 @@ const fiszki10 = [
     },
             {
         id: [
-            296,
+            294,
             46,
             87
         ],
@@ -16165,7 +15998,7 @@ const fiszki10 = [
     },
                                 {
         id: [
-            297,
+            295,
             46,
             87
         ],
@@ -16198,7 +16031,7 @@ const fiszki10 = [
     },
                                 {
         id: [
-            298,
+            296,
             46,
             87
         ],
@@ -16279,7 +16112,7 @@ const fiszki10 = [
     },
                                     {
         id: [
-            299,
+            297,
             46,
             87
         ],
@@ -16311,7 +16144,7 @@ const fiszki10 = [
     },
                                         {
         id: [
-            300,
+            398,
             46,
             87
         ],
@@ -16343,7 +16176,7 @@ const fiszki10 = [
     },
                 {
         id: [
-            304,
+            299,
             47,
             88
         ],
@@ -16376,8 +16209,7 @@ const fiszki10 = [
         ],
         sentence: [
             "She",
-            "has",
-            "read",
+            "has read",
             "this",
             "book",
             "twice"
@@ -16387,93 +16219,9 @@ const fiszki10 = [
         category2: ["osoby"],
         category3: ["PresentPerfect"]
     },
-                                            {
-        id: [
-            305,
-            47,
-            88
-        ],
-    entries: [
-        {
-            id: 1,
-            img: {
-                src: "https://www.arbulang.com/img/fiszki1/2a.jpg",
-                alt: "Kupowanie biletu, zdjęcie z biletem. Wygenerowane przez AI."
-            },
-            story: {
-                text: 'W niemieckim mieście <span class="adannotation" data-annotation="1"><u><b>Hess</u></b></span>en Jurek <u><b>ma</u></b> bilet na mecze jego drużyny',
-                alt: "Przygotowanie do widowiska sportowego"
-            },
-            category: ["sport", "kibic"]
-        },
-        {
-            id: 2,
-            img: {
-                src: "https://www.arbulang.com/img/fiszki1/2b.jpg",
-                alt: "Hipopotam podczas przedstawienia cyrkowego. Wygenerowane przez AI."
-            },
-            story: {
-                text: '<span class="adannotation" data-annotation="1"><u><b>H</u></b></span>ipopotam występuje w cyrku na <span class="adannotation" data-annotation="2"><u><b>es</u></b></span>tradzie, <u><b>ma</u></b> duże umiejętności',
-                alt: "Pokazy cyrkowe. Żart o cyrku"
-            },
-            category: ["natura", "rozrywka"]
-        },
-        {
-            id: 3,
-            img: {
-                src: "https://www.arbulang.com/img/fiszki1/2c.jpg",
-                alt: "Naukowcy podczas pracy. Wygenerowane przez AI."
-            },
-            story: {
-                text: 'Naukowiec nagle się zapomniał i zapytał: <span class="adannotation" data-annotation="1"><u><b>he</u></b></span>?, a wtedy jego kolega <u><b>ma</u></b> niezłą zabawę, <span class="adannotation" data-annotation="2"><u><b>s</u></b></span>prawa oczywista..',
-                alt: "Obyczaje naukowca. Żart o naukowcu"
-            },
-            category: ["nauka", "humor"]
-        },
-        {
-            id: 4,
-            img: {
-                src: "https://www.arbulang.com/img/fiszki1/2d.jpg",
-                alt: "Życie jako polityk. Scena. Wygenerowane przez AI."
-            },
-            story: {
-                text: '<span class="adannotation" data-annotation="1"><u><b>He</u></b></span>gemonia konsumpcjonizmu doprowadziła do tego, że "ON"-dyrektor ma problemy, bo nikt nie chce chodzić na <span class="adannotation" data-annotation="2"><u><b>s</u></b></span>pektakle teatralne',
-                alt: "Życie współczesne i kultura. Żart o teatrze"
-            },
-            category: ["czarny humor", "trendy"]
-        },
-        {
-            id: 5,
-            img: {
-                src: "https://www.arbulang.com/img/fiszki1/2e.jpg",
-                alt: "Muzycy z klarnetami. Wygenerowane przez AI."
-            },
-            story: {
-                text: 'Moja koleżanka <u><b>ma</u></b> nowy klarnet z drzewa <span class="adannotation" data-annotation="1"><u><b>he</u></b></span>banowego. <span class="adannotation" data-annotation="2"><u><b>S</u></b></span>....uper sprawa',
-                alt: "Wychowanie dzieci"
-            },
-            category: ["związki", "muzyka"]
-        }
-    ],
-        desc: "has[hes]/have[hew] - mieć(on/ona/oni)/mieć(ja/ty)",
-        sentence1: [
-            "has"
-        ],
-        sentence: [
-            "She",
-            "has",
-            "read",
-            "this",
-            "book",
-            "twice"
-        ],
-        key: "has",
-        category1: "nauka",
-        category2: ["czasownik"]
-    },
                                                 {
         id: [
-            306,
+            300,
             47,
             88
         ],
@@ -16485,31 +16233,30 @@ const fiszki10 = [
                 alt: "Wygenerowane przez AI."
             },
             story: {
-                text: "Floryda to stan w USA, który powinien być czytany Flo<b><u>rid</b></u>a",
+                text: 'Moja koleżanka ma nowy klarnet z drzewa <u><b>he</u></b>banowego i <u><bprzeczytała</u></b> w gazecie że są przesłuchania klarnecistów na Florydzie. To stan w USA, który powinien być czytany Flo<b><u>rid</b></u>a. <u><b>S</u></b>....uper sprawa',
                 alt: ""
             },
             category: ["państwa", "USA"]
         }
             ],
-        desc: "read[rid] - czytać",
+        desc: "has read[rid] - czytać",
         sentence1: [
-            "read"
+            "has_read"
         ],
         sentence: [
             "She",
-            "has",
-            "read",
+            "has read",
             "this",
             "book",
             "twice"
         ],
-        key: "read",
+        key: "has read",
         category1: "nauka",
         category2: ["czasownik"]
     },
                                                 {
         id: [
-            307,
+            301,
             47,
             88
         ],
@@ -16580,9 +16327,8 @@ const fiszki10 = [
             "this"
         ],
         sentence: [
-            "The",
-            "has",
-            "read",
+            "She",
+            "has read",
             "this",
             "book",
             "twice"
@@ -16593,7 +16339,7 @@ const fiszki10 = [
     },
                                                     {
         id: [
-            308,
+            302,
             47,
             88
         ],
@@ -16616,9 +16362,8 @@ const fiszki10 = [
             "book"
         ],
         sentence: [
-            "The",
-            "has",
-            "read",
+            "She",
+            "has read",
             "this",
             "book",
             "twice"
@@ -16629,7 +16374,7 @@ const fiszki10 = [
     },
                                                     {
         id: [
-            309,
+            303,
             47,
             88
         ],
@@ -16652,9 +16397,8 @@ const fiszki10 = [
             "twice"
         ],
         sentence: [
-            "The",
-            "has",
-            "read",
+            "She",
+            "has read",
             "this",
             "book",
             "twice"
@@ -16665,7 +16409,7 @@ const fiszki10 = [
     },
                     {
         id: [
-            310,
+            304,
             48,
             89
         ],
@@ -16697,10 +16441,9 @@ const fiszki10 = [
             "We"
         ],
         sentence: [
-            "We",
-            "have",
-            "visited",
-            "London"
+                "We",
+                "have visited",
+                "London"
         ],
         key: "we",
         category1: "nauka",
@@ -16709,7 +16452,7 @@ const fiszki10 = [
     },
                                                         {
         id: [
-            311,
+            305,
             48,
             89
         ],
@@ -16721,63 +16464,28 @@ const fiszki10 = [
                 alt: "Wygenerowane przez AI."
             },
             story: {
-                text: "<b><u>Mam</b></u> fajne spodnie, ale puścił sz<b><u>ew</b></u>, <b><u>ch</b></u>yba go zaceruje",
+                text: "Szefowa <u><b>odwiedziła</u></b> naukowców w mieście Hessen z proszkiem <u><b>wizi</u></b>r, aby go przetestowali. Jeden naukowiec ma <u><b>ti</u></b>ki i myli się przy badaniach. <u><b>Id</u></b>zie mu słabo",
                 alt: ""
             },
             category: ["życie", "ubiór"]
         }
             ],
-        desc: "have[hew] - mam",
+        desc: "have visited[hew] - mam",
         sentence1: [
-            "have"
+            "have_visited"
         ],
         sentence: [
-            "We",
-            "have",
-            "visited",
-            "London"
+                "We",
+                "have visited",
+                "London"
         ],
-        key: "have",
-        category1: "nauka",
-        category2: ["czasownik"]
-    },
-                                                            {
-        id: [
-            312,
-            48,
-            89
-        ],
-            entries: [
-        {
-            id: 1,
-            img: {
-                src: "https://www.arbulang.com/img/fiszki1/282a.jpg",
-                alt: "Wygenerowane przez AI."
-            },
-            story: {
-                text: "Producent odwiedził naukowców z proszkiem <u><b>wizi</u></b>r, aby go przetestowali. Jeden naukowiec ma <u><b>ti</u></b>ki i myli się przy badaniach. <u><b>Id</u></b>zie mu słabo",
-                alt: ""
-            },
-            category: ["firmy", "testowanie produktu"]
-        }
-            ],
-        desc: "visited[wizitid] - odwiedził/odwiedziła",
-        sentence1: [
-            "visited"
-        ],
-        sentence: [
-            "We",
-            "have",
-            "visited",
-            "London"
-        ],
-        key: "visited",
+        key: "have visited",
         category1: "nauka",
         category2: ["czasownik"]
     },
                                                                 {
         id: [
-            313,
+            306,
             48,
             89
         ],
@@ -16811,7 +16519,7 @@ const fiszki10 = [
     },
                                                                     {
         id: [
-            314,
+            307,
             48,
             89
         ],
@@ -16842,7 +16550,7 @@ const fiszki10 = [
     },
                         {
         id: [
-            315,
+            308,
             49,
             90
         ],
@@ -16961,7 +16669,7 @@ const fiszki10 = [
     },
                                                                         {
         id: [
-            316,
+            309,
             49,
             90
         ],
@@ -16995,7 +16703,7 @@ const fiszki10 = [
     },
                                                                             {
         id: [
-            317,
+            310,
             49,
             90
         ],
@@ -17030,7 +16738,7 @@ const fiszki10 = [
     },
                                                                                 {
         id: [
-            318,
+            311,
             49,
             90
         ],
@@ -17066,7 +16774,7 @@ const fiszki10 = [
     },
     {
         id: [
-            319,
+            312,
             49,
             91
         ],
@@ -17098,7 +16806,7 @@ const fiszki10 = [
     },
         {
         id: [
-            320,
+            313,
             49,
             91
         ],
@@ -17130,7 +16838,7 @@ const fiszki10 = [
     },
                             {
         id: [
-            321,
+            314,
             50,
             92
         ],
@@ -17172,7 +16880,7 @@ const fiszki10 = [
     },
             {
         id: [
-            322,
+            315,
             50,
             92
         ],
@@ -17205,7 +16913,7 @@ const fiszki10 = [
     },
                 {
         id: [
-            323,
+            316,
             50,
             92
         ],
@@ -17238,7 +16946,7 @@ const fiszki10 = [
     },
                     {
         id: [
-            324,
+            317,
             50,
             93
         ],
@@ -17271,7 +16979,7 @@ const fiszki10 = [
     },
                         {
         id: [
-            325,
+            318,
             50,
             93
         ],
@@ -17304,7 +17012,7 @@ const fiszki10 = [
     },
                             {
         id: [
-            326,
+            319,
             50,
             93
         ],
@@ -17336,7 +17044,7 @@ const fiszki10 = [
     },
                                 {
         id: [
-            327,
+            320,
             51,
             94
         ],
@@ -17427,7 +17135,7 @@ const fiszki10 = [
     },
                                 {
         id: [
-            328,
+            321,
             51,
             94
         ],
@@ -17515,7 +17223,7 @@ const fiszki10 = [
     },
                                 {
         id: [
-            329,
+            322,
             51,
             94
         ],
@@ -17548,7 +17256,7 @@ const fiszki10 = [
     },
                                     {
         id: [
-            330,
+            323,
             51,
             94
         ],
@@ -17582,7 +17290,7 @@ const fiszki10 = [
     },
                                     {
         id: [
-            331,
+            324,
             51,
             95
         ],
@@ -17614,7 +17322,7 @@ const fiszki10 = [
     },
                                         {
         id: [
-            332,
+            325,
             51,
             95
         ],
@@ -17646,7 +17354,7 @@ const fiszki10 = [
     },
                                     {
         id: [
-            333,
+            326,
             52,
             96
         ],
@@ -17735,7 +17443,7 @@ const fiszki10 = [
     },
                                             {
         id: [
-            334,
+            327,
             52,
             96
         ],
@@ -17768,7 +17476,7 @@ const fiszki10 = [
     },
                                             {
         id: [
-            335,
+            328,
             52,
             97
         ],
@@ -17801,7 +17509,7 @@ const fiszki10 = [
     },
                                                 {
         id: [
-            336,
+            329,
             52,
             97
         ],
@@ -17834,7 +17542,7 @@ const fiszki10 = [
     },
                                                 {
         id: [
-            337,
+            330,
             52,
             97
         ],
@@ -17866,7 +17574,7 @@ const fiszki10 = [
     },
     {
         id: [
-            338,
+            331,
             53,
             97
         ],
@@ -17907,7 +17615,7 @@ const fiszki10 = [
     },
                                             {
         id: [
-            339,
+            332,
             53,
             97
         ],
@@ -17940,7 +17648,7 @@ const fiszki10 = [
     },
                                             {
         id: [
-            340,
+            333,
             53,
             98
         ],
@@ -17972,7 +17680,7 @@ const fiszki10 = [
     },
                                                 {
         id: [
-            341,
+            334,
             53,
             98
         ],
@@ -18004,7 +17712,7 @@ const fiszki10 = [
     },
                                             {
         id: [
-            342,
+            335,
             54,
             99
         ],
@@ -18092,7 +17800,7 @@ const fiszki10 = [
     },
                                             {
         id: [
-            343,
+            336,
             54,
             99
         ],
@@ -18125,7 +17833,7 @@ const fiszki10 = [
     },
                                             {
         id: [
-            344,
+            337,
             54,
             100
         ],
@@ -18159,7 +17867,7 @@ const fiszki10 = [
     },
                                                 {
         id: [
-            345,
+            338,
             54,
             100
         ],
@@ -18193,7 +17901,7 @@ const fiszki10 = [
     },
                                                     {
         id: [
-            346,
+            339,
             54,
             100
         ],
@@ -18287,7 +17995,7 @@ const fiszki10 = [
     },
                                                     {
         id: [
-            347,
+            340,
             54,
             100
         ],
@@ -18321,7 +18029,7 @@ const fiszki10 = [
     },
                                                 {
         id: [
-            348,
+            341,
             55,
             101
         ],
@@ -18411,7 +18119,7 @@ const fiszki10 = [
     },
                                             {
         id: [
-            349,
+            342,
             55,
             101
         ],
@@ -18445,7 +18153,7 @@ const fiszki10 = [
     },
                                             {
         id: [
-            350,
+            343,
             55,
             101
         ],
@@ -18478,7 +18186,7 @@ const fiszki10 = [
     },
                                                 {
         id: [
-            351,
+            344,
             55,
             102
         ],
@@ -18524,7 +18232,7 @@ const fiszki10 = [
     },
                                                     {
         id: [
-            352,
+            345,
             55,
             102
         ],
@@ -18605,7 +18313,7 @@ const fiszki10 = [
     },
                                                     {
         id: [
-            353,
+            346,
             55,
             102
         ],
@@ -18651,7 +18359,7 @@ const fiszki10 = [
     },
                                                         {
         id: [
-            354,
+            347,
             55,
             102
         ],
@@ -18685,7 +18393,7 @@ const fiszki10 = [
     },
                                                     {
         id: [
-            355,
+            348,
             56,
             103
         ],
@@ -18774,7 +18482,7 @@ const fiszki10 = [
     },
                                             {
         id: [
-            356,
+            349,
             56,
             103
         ],
@@ -18808,7 +18516,7 @@ const fiszki10 = [
     },
                                             {
         id: [
-            357,
+            350,
             56,
             103
         ],
@@ -18841,7 +18549,7 @@ const fiszki10 = [
     },
                                                     {
         id: [
-            358,
+            351,
             56,
             104
         ],
@@ -18922,7 +18630,7 @@ const fiszki10 = [
     },
                                                     {
         id: [
-            359,
+            352,
             56,
             104
         ],
@@ -18967,7 +18675,7 @@ const fiszki10 = [
     },
                                                         {
         id: [
-            360,
+            353,
             56,
             104
         ],
@@ -19000,7 +18708,7 @@ const fiszki10 = [
     },
                                                         {
         id: [
-            361,
+            354,
             57,
             105
         ],
@@ -19091,7 +18799,7 @@ const fiszki10 = [
     },
                                             {
         id: [
-            362,
+            355,
             57,
             105
         ],
@@ -19126,7 +18834,7 @@ const fiszki10 = [
     },
                                             {
         id: [
-            363,
+            356,
             57,
             105
         ],
@@ -19160,7 +18868,7 @@ const fiszki10 = [
     },
                                                     {
         id: [
-            364,
+            357,
             57,
             105
         ],
@@ -19194,7 +18902,7 @@ const fiszki10 = [
     },
                                                     {
         id: [
-            365,
+            358,
             57,
             106
         ],
@@ -19227,7 +18935,7 @@ const fiszki10 = [
     },
                                                         {
         id: [
-            366,
+            359,
             57,
             106
         ],
@@ -19308,7 +19016,7 @@ const fiszki10 = [
     },
                                                             {
         id: [
-            367,
+            360,
             57,
             106
         ],
@@ -19389,7 +19097,7 @@ const fiszki10 = [
     },
     {
         id: [
-            368,
+            361,
             58,
             106
         ],
@@ -19482,7 +19190,7 @@ const fiszki10 = [
     },
                                             {
         id: [
-            369,
+            362,
             58,
             106
         ],
@@ -19519,7 +19227,7 @@ const fiszki10 = [
     },
                                             {
         id: [
-            370,
+            363,
             58,
             106
         ],
@@ -19554,7 +19262,7 @@ const fiszki10 = [
     },
                                                     {
         id: [
-            371,
+            364,
             58,
             106
         ],
@@ -19589,7 +19297,7 @@ const fiszki10 = [
     },
                                                     {
         id: [
-            372,
+            365,
             58,
             106
         ],
@@ -19624,7 +19332,7 @@ const fiszki10 = [
     },
                      {
         id: [
-            373,
+            366,
             59,
             107
         ],
@@ -19715,7 +19423,7 @@ const fiszki10 = [
     },
                                             {
         id: [
-            374,
+            367,
             59,
             107
         ],
@@ -19750,7 +19458,7 @@ const fiszki10 = [
     },
                                             {
         id: [
-            375,
+            368,
             59,
             107
         ],
@@ -19784,7 +19492,7 @@ const fiszki10 = [
     },
                                                     {
         id: [
-            376,
+            369,
             59,
             107
         ],
@@ -19818,7 +19526,7 @@ const fiszki10 = [
     },
                          {
         id: [
-            377,
+            370,
             60,
             108
         ],
@@ -19907,7 +19615,7 @@ const fiszki10 = [
     },
                                             {
         id: [
-            378,
+            371,
             60,
             108
         ],
@@ -19941,7 +19649,7 @@ const fiszki10 = [
     },
                                             {
         id: [
-            379,
+            372,
             60,
             108
         ],
@@ -19962,7 +19670,7 @@ const fiszki10 = [
     },
                                                     {
         id: [
-            380,
+            373,
             60,
             109
         ],
@@ -19985,7 +19693,7 @@ const fiszki10 = [
     },
                                  {
         id: [
-            381,
+            374,
             61,
             110
         ],
@@ -20098,7 +19806,7 @@ const fiszki10 = [
     },
                                                         {
         id: [
-            382,
+            375,
             61,
             110
         ],
@@ -20131,7 +19839,7 @@ const fiszki10 = [
     },
                                                             {
         id: [
-            383,
+            376,
             61,
             110
         ],
@@ -20164,7 +19872,7 @@ const fiszki10 = [
     },
                                                                 {
         id: [
-            384,
+            377,
             61,
             111
         ],
@@ -20196,7 +19904,7 @@ const fiszki10 = [
     },
                                                                     {
         id: [
-            385,
+            378,
             61,
             112
         ],
@@ -20228,7 +19936,7 @@ const fiszki10 = [
     },
                                  {
         id: [
-            386,
+            379,
             62,
             113
         ],
@@ -20266,7 +19974,7 @@ const fiszki10 = [
     },
                                                                         {
         id: [
-            387,
+            380,
             62,
             113
         ],
@@ -20300,7 +20008,7 @@ const fiszki10 = [
     },
                                                                             {
         id: [
-            388,
+            381,
             62,
             113
         ],
@@ -20382,7 +20090,7 @@ const fiszki10 = [
     },
                                                                                 {
         id: [
-            389,
+            382,
             62,
             113
         ],
@@ -20416,7 +20124,7 @@ const fiszki10 = [
     },
                                                                                     {
         id: [
-            390,
+            383,
             62,
             114
         ],
@@ -20448,7 +20156,7 @@ const fiszki10 = [
     },
                                                                                         {
         id: [
-            391,
+            384,
             62,
             114
         ],
@@ -20480,7 +20188,7 @@ const fiszki10 = [
     },
                                      {
         id: [
-            392,
+            385,
             63,
             115
         ],
@@ -20569,7 +20277,7 @@ const fiszki10 = [
     },
                                                                                             {
         id: [
-            393,
+            386,
             63,
             115
         ],
@@ -20616,7 +20324,7 @@ const fiszki10 = [
     },
                                                                                                 {
         id: [
-            394,
+            387,
             63,
             115
         ],
@@ -20726,7 +20434,7 @@ const fiszki10 = [
     },
                                                                                                     {
         id: [
-            395,
+            388,
             63,
             115
         ],
@@ -20761,7 +20469,7 @@ const fiszki10 = [
     },
                                                                                                         {
         id: [
-            396,
+            389,
             63,
             116
         ],
@@ -20796,7 +20504,7 @@ const fiszki10 = [
     },
                                          {
         id: [
-            397,
+            390,
             64,
             117
         ],
@@ -20887,7 +20595,7 @@ const fiszki10 = [
     },
                                                                                                                 {
         id: [
-            398,
+            391,
             64,
             117
         ],
@@ -20921,7 +20629,7 @@ const fiszki10 = [
     },
                                                                                                                     {
         id: [
-            399,
+            392,
             64,
             117
         ],
@@ -20955,7 +20663,7 @@ const fiszki10 = [
     },
 {
         id: [
-            400,
+            393,
             64,
             117
         ],
@@ -21037,7 +20745,7 @@ const fiszki10 = [
     },
 {
         id: [
-            401,
+            394,
             64,
             118
         ],
@@ -21068,7 +20776,7 @@ const fiszki10 = [
     },
                                              {
         id: [
-            402,
+            395,
             65,
             119
         ],
@@ -21160,7 +20868,7 @@ const fiszki10 = [
     },
                                                                                                                                 {
         id: [
-            403,
+            396,
             65,
             119
         ],
@@ -21195,7 +20903,7 @@ const fiszki10 = [
     },
                                                                                                                                     {
         id: [
-            404,
+            397,
             65,
             119
         ],
@@ -21230,7 +20938,7 @@ const fiszki10 = [
     },
                                                                                                                                         {
         id: [
-            405,
+            398,
             65,
             119
         ],
@@ -21265,7 +20973,7 @@ const fiszki10 = [
     },
                                                                                                                                             {
         id: [
-            406,
+            399,
             65,
             119
         ],
@@ -21300,7 +21008,7 @@ const fiszki10 = [
     },
                                                  {
         id: [
-            407,
+            400,
             66,
             120
         ],
@@ -21345,7 +21053,7 @@ const fiszki10 = [
     },
                                                                                                                                                 {
         id: [
-            408,
+            401,
             66,
             120
         ],
@@ -21384,7 +21092,7 @@ const fiszki10 = [
     },
                                                                                                                                                     {
         id: [
-            409,
+            402,
             66,
             120
         ],
@@ -21420,7 +21128,7 @@ const fiszki10 = [
     },
                                                                                                                                                         {
         id: [
-            410,
+            403,
             66,
             120
         ],
@@ -21504,7 +21212,7 @@ const fiszki10 = [
     },
                                                                                                                                                             {
         id: [
-            411,
+            404,
             66,
             120
         ],
@@ -21540,7 +21248,7 @@ const fiszki10 = [
     },
                                                                                                                                                                 {
         id: [
-            412,
+            405,
             66,
             120
         ],
@@ -21576,7 +21284,7 @@ const fiszki10 = [
     },
                                                      {
         id: [
-            413,
+            406,
             67,
             121
         ],
@@ -21663,7 +21371,7 @@ const fiszki10 = [
     },
                                                                                                                                                                     {
         id: [
-            414,
+            407,
             67,
             121
         ],
@@ -21699,7 +21407,7 @@ const fiszki10 = [
     },
                                                                                                                                                                         {
         id: [
-            415,
+            408,
             67,
             121
         ],
@@ -21810,7 +21518,7 @@ const fiszki10 = [
     },
                                                                                                                                                                             {
         id: [
-            416,
+            409,
             67,
             121
         ],
@@ -21846,7 +21554,7 @@ const fiszki10 = [
     },
                                                                                                                                                                                 {
         id: [
-            417,
+            410,
             67,
             121
         ],
@@ -21931,7 +21639,7 @@ const fiszki10 = [
     },
                                                                                                                                                                                     {
         id: [
-            418,
+            411,
             67,
             121
         ],
@@ -21967,7 +21675,7 @@ const fiszki10 = [
     },
                                                          {
         id: [
-            419,
+            412,
             68,
             122
         ],
@@ -22056,7 +21764,7 @@ const fiszki10 = [
     },
                                                                                                                                                                                         {
         id: [
-            420,
+            413,
             68,
             122
         ],
@@ -22089,7 +21797,7 @@ const fiszki10 = [
     },
                                                                                                                                                                                             {
         id: [
-            421,
+            414,
             68,
             122
         ],
@@ -22122,7 +21830,7 @@ const fiszki10 = [
     },
                                                                                                                                                                                                 {
         id: [
-            422,
+            415,
             68,
             123
         ],
@@ -22165,7 +21873,7 @@ const fiszki10 = [
     },
                                                              {
         id: [
-            423,
+            416,
             69,
             124
         ],
@@ -22249,7 +21957,7 @@ const fiszki10 = [
     },
                                                                                                                                                                                                     {
         id: [
-            424,
+            417,
             69,
             124
         ],
@@ -22294,7 +22002,7 @@ const fiszki10 = [
     },
                                                                                                                                                                                                         {
         id: [
-            425,
+            418,
             69,
             125
         ],
@@ -22327,7 +22035,7 @@ const fiszki10 = [
     },
                                                                                                                                                                                                             {
         id: [
-            426,
+            419,
             69,
             125
         ],
@@ -22359,7 +22067,7 @@ const fiszki10 = [
     },
                                                                                                                                                                                                                 {
         id: [
-            427,
+            420,
             69,
             125
         ],
@@ -22391,7 +22099,7 @@ const fiszki10 = [
     },
                                                                  {
         id: [
-            428,
+            421,
             70,
             126
         ],
@@ -22481,7 +22189,7 @@ const fiszki10 = [
     },
                                                                                                                                                                                                                     {
         id: [
-            429,
+            422,
             70,
             126
         ],
@@ -22514,7 +22222,7 @@ const fiszki10 = [
     },
                                                                                                                                                                                                                         {
         id: [
-            430,
+            423,
             70,
             126
         ],
@@ -22547,7 +22255,7 @@ const fiszki10 = [
     },
                                                                                                                                                                                                                             {
         id: [
-            431,
+            424,
             70,
             127
         ],
@@ -22580,7 +22288,7 @@ const fiszki10 = [
     },
                                                                                                                                                                                                                                 {
         id: [
-            432,
+            425,
             70,
             127
         ],
@@ -22661,7 +22369,7 @@ const fiszki10 = [
     },
                                                                                                                                                                                                                                     {
         id: [
-            433,
+            426,
             70,
             127
         ],
@@ -22694,7 +22402,7 @@ const fiszki10 = [
     },
                                                                      {
         id: [
-            434,
+            427,
             71,
             128
         ],
@@ -22736,7 +22444,7 @@ const fiszki10 = [
     },
                                                                                                                                                                                                                                         {
         id: [
-            435,
+            428,
             71,
             128
         ],
@@ -22769,7 +22477,7 @@ const fiszki10 = [
     },
                                                                                                                                                                                                                                             {
         id: [
-            436,
+            429,
             71,
             128
         ],
@@ -22802,7 +22510,7 @@ const fiszki10 = [
     },
                                                                                                                                                                                                                                                 {
         id: [
-            437,
+            430,
             71,
             129
         ],
@@ -22835,7 +22543,7 @@ const fiszki10 = [
     },
 {
         id: [
-            438,
+            431,
             71,
             129
         ],
@@ -22919,7 +22627,7 @@ const fiszki10 = [
     },
                                                                                                                                                                                                                                                         {
         id: [
-            439,
+            432,
             71,
             129
         ],
@@ -22952,7 +22660,7 @@ const fiszki10 = [
     },
                                                                          {
         id: [
-            440,
+            433,
             72,
             130
         ],
@@ -22995,7 +22703,7 @@ const fiszki10 = [
     },
                                                                                                                                                                                                                                                             {
         id: [
-            441,
+            434,
             72,
             130
         ],
@@ -23029,7 +22737,7 @@ const fiszki10 = [
     },
                                                                                                                                                                                                                                                                 {
         id: [
-            442,
+            435,
             72,
             130
         ],
@@ -23063,7 +22771,7 @@ const fiszki10 = [
     },
                                                                                                                                                                                                                                                                     {
         id: [
-            443,
+            436,
             72,
             130
         ],
@@ -23097,7 +22805,7 @@ const fiszki10 = [
     },
 {
         id: [
-            444,
+            437,
             72,
             131
         ],
@@ -23128,7 +22836,7 @@ const fiszki10 = [
     },                
     {
         id: [
-            445,
+            438,
             73,
             132
         ],
@@ -23217,7 +22925,7 @@ const fiszki10 = [
     },
     {
         id: [
-            446,
+            439,
             73,
             132
         ],
@@ -23252,7 +22960,7 @@ const fiszki10 = [
     },
         {
         id: [
-            447,
+            440,
             73,
             132
         ],
@@ -23287,7 +22995,7 @@ const fiszki10 = [
     },
             {
         id: [
-            448,
+            441,
             73,
             132
         ],
@@ -23322,7 +23030,7 @@ const fiszki10 = [
     },
                 {
         id: [
-            449,
+            442,
             73,
             132
         ],
@@ -23357,7 +23065,7 @@ const fiszki10 = [
     },
         {
         id: [
-            450,
+            443,
             74,
             133
         ],
@@ -23397,7 +23105,7 @@ const fiszki10 = [
     },
                     {
         id: [
-            451,
+            444,
             74,
             133
         ],
@@ -23433,7 +23141,7 @@ const fiszki10 = [
     },
                         {
         id: [
-            452,
+            445,
             74,
             133
         ],
@@ -23520,7 +23228,7 @@ const fiszki10 = [
     },
                             {
         id: [
-            453,
+            446,
             74,
             133
         ],
@@ -23556,7 +23264,7 @@ const fiszki10 = [
     },
                                 {
         id: [
-            454,
+            447,
             74,
             133
         ],
@@ -23592,7 +23300,7 @@ const fiszki10 = [
     },
                                     {
         id: [
-            455,
+            448,
             74,
             133
         ],
@@ -23628,7 +23336,7 @@ const fiszki10 = [
     },
             {
         id: [
-            456,
+            449,
             75,
             134
         ],
@@ -23712,7 +23420,7 @@ const fiszki10 = [
     },
                                         {
         id: [
-            457,
+            450,
             75,
             134
         ],
@@ -23745,7 +23453,7 @@ const fiszki10 = [
     },
                                             {
         id: [
-            458,
+            451,
             75,
             135
         ],
@@ -23790,7 +23498,7 @@ const fiszki10 = [
     },
                                                 {
         id: [
-            459,
+            452,
             75,
             136
         ],
@@ -23824,7 +23532,7 @@ const fiszki10 = [
     },
                                                     {
         id: [
-            460,
+            453,
             75,
             136
         ],
@@ -23909,7 +23617,7 @@ const fiszki10 = [
     },
                                                     {
         id: [
-            461,
+            454,
             75,
             136
         ],
@@ -23943,7 +23651,7 @@ const fiszki10 = [
     },
                                                         {
         id: [
-            462,
+            455,
             75,
             136
         ],
@@ -23977,7 +23685,7 @@ const fiszki10 = [
     },
                 {
         id: [
-            463,
+            456,
             76,
             137
         ],
@@ -24064,7 +23772,7 @@ const fiszki10 = [
     },
                                                             {
         id: [
-            464,
+            457,
             76,
             137
         ],
@@ -24100,7 +23808,7 @@ const fiszki10 = [
     },
                                                                 {
         id: [
-            465,
+            458,
             76,
             137
         ],
@@ -24136,7 +23844,7 @@ const fiszki10 = [
     },
                                                                     {
         id: [
-            466,
+            459,
             76,
             137
         ],
@@ -24223,7 +23931,7 @@ const fiszki10 = [
     },
                                                                     {
         id: [
-            467,
+            460,
             76,
             137
         ],
@@ -24259,7 +23967,7 @@ const fiszki10 = [
     },
                                                                     {
         id: [
-            468,
+            461,
             76,
             137
         ],
@@ -24295,7 +24003,7 @@ const fiszki10 = [
     },
                     {
         id: [
-            469,
+            462,
             77,
             138
         ],
@@ -24337,7 +24045,7 @@ const fiszki10 = [
     },
                                                                         {
         id: [
-            470,
+            463,
             77,
             138
         ],
@@ -24370,7 +24078,7 @@ const fiszki10 = [
     },
                                                                             {
         id: [
-            471,
+            464,
             77,
             138
         ],
@@ -24403,7 +24111,7 @@ const fiszki10 = [
     },
                                                                                 {
         id: [
-            472,
+            465,
             77,
             139
         ],
@@ -24434,7 +24142,7 @@ const fiszki10 = [
     },
     {
         id: [
-            473,
+            466,
             78,
             140
         ],
@@ -24523,7 +24231,7 @@ const fiszki10 = [
     },
                                                                                         {
         id: [
-            474,
+            467,
             78,
             140
         ],
@@ -24556,7 +24264,7 @@ const fiszki10 = [
     },
                                                                                     {
         id: [
-            475,
+            468,
             78,
             140
         ],
@@ -24589,7 +24297,7 @@ const fiszki10 = [
     },
                                                                                         {
         id: [
-            476,
+            469,
             78,
             141
         ],
@@ -24621,7 +24329,7 @@ const fiszki10 = [
     },
                                                                                             {
         id: [
-            477,
+            470,
             78,
             142
         ],
@@ -24653,7 +24361,7 @@ const fiszki10 = [
     },
                             {
         id: [
-            478,
+            471,
             79,
             143
         ],
@@ -24769,7 +24477,7 @@ const fiszki10 = [
     },
                                                                                                 {
         id: [
-            479,
+            472,
             79,
             143
         ],
@@ -24805,7 +24513,7 @@ const fiszki10 = [
     },
                                                                                                 {
         id: [
-            480,
+            473,
             79,
             143
         ],
@@ -24841,7 +24549,7 @@ const fiszki10 = [
     },
                                                                                                     {
         id: [
-            481,
+            474,
             79,
             143
         ],
@@ -24877,7 +24585,7 @@ const fiszki10 = [
     },
                                                                                                     {
         id: [
-            482,
+            475,
             79,
             143
         ],
@@ -24925,7 +24633,7 @@ const fiszki10 = [
     },
                                                                                                     {
         id: [
-            483,
+            476,
             79,
             143
         ],
@@ -24973,7 +24681,7 @@ const fiszki10 = [
     },
                                 {
         id: [
-            484,
+            477,
             80,
             144
         ],
@@ -25016,7 +24724,7 @@ const fiszki10 = [
     },
                                                                                                         {
         id: [
-            485,
+            478,
             80,
             144
         ],
@@ -25062,7 +24770,7 @@ const fiszki10 = [
     },
                                                                                                             {
         id: [
-            486,
+            479,
             80,
             144
         ],
@@ -25149,7 +24857,7 @@ const fiszki10 = [
     },
                                                                                                             {
         id: [
-            487,
+            480,
             80,
             144
         ],
@@ -25195,7 +24903,7 @@ const fiszki10 = [
     },
                                                                                                                 {
         id: [
-            488,
+            481,
             80,
             144
         ],
@@ -25227,7 +24935,7 @@ const fiszki10 = [
     },
                                                                                                                     {
         id: [
-            489,
+            482,
             80,
             144
         ],
@@ -25259,7 +24967,7 @@ const fiszki10 = [
     },
                                     {
         id: [
-            490,
+            483,
             81,
             145
         ],
@@ -25352,7 +25060,7 @@ const fiszki10 = [
     },
                                                                                                                         {
         id: [
-            491,
+            484,
             81,
             145
         ],
@@ -25386,7 +25094,7 @@ const fiszki10 = [
     },
                                                                                                                             {
         id: [
-            492,
+            485,
             81,
             145
         ],
@@ -25420,7 +25128,7 @@ const fiszki10 = [
     },
                                                                                                                                 {
         id: [
-            493,
+            486,
             81,
             145
         ],
@@ -25454,7 +25162,7 @@ const fiszki10 = [
     },
                                                                                                                                     {
         id: [
-            494,
+            487,
             81,
             146
         ],
@@ -25486,7 +25194,7 @@ const fiszki10 = [
     },
                                                                                                                                     {
         id: [
-            495,
+            488,
             81,
             146
         ],
@@ -25518,7 +25226,7 @@ const fiszki10 = [
     },
                                         {
         id: [
-            496,
+            489,
             82,
             147
         ],
@@ -25559,7 +25267,7 @@ const fiszki10 = [
     },
                                                                                                                                         {
         id: [
-            497,
+            490,
             82,
             147
         ],
@@ -25592,7 +25300,7 @@ const fiszki10 = [
     },
                                                                                                                                             {
         id: [
-            498,
+            491,
             82,
             147
         ],
@@ -25625,7 +25333,7 @@ const fiszki10 = [
     },
 {
         id: [
-            499,
+            492,
             82,
             148
         ],
@@ -25656,7 +25364,7 @@ const fiszki10 = [
     },
 {
         id: [
-            500,
+            493,
             83,
             149
         ],
@@ -25749,7 +25457,7 @@ const fiszki10 = [
     },
                                                                                                                                                 {
         id: [
-            501,
+            494,
             83,
             149
         ],
@@ -25786,7 +25494,7 @@ const fiszki10 = [
     },
                                                                                                                                                     {
         id: [
-            502,
+            495,
             83,
             149
         ],
@@ -25898,7 +25606,7 @@ const fiszki10 = [
     },
                                                                                                                                                         {
         id: [
-            503,
+            496,
             83,
             149
         ],
@@ -25935,7 +25643,7 @@ const fiszki10 = [
     },
                                                                                                                                                             {
         id: [
-            504,
+            497,
             83,
             149
         ],
@@ -26021,7 +25729,7 @@ const fiszki10 = [
     },
                                                                                                                                                                 {
         id: [
-            505,
+            498,
             83,
             149
         ],
@@ -26058,7 +25766,7 @@ const fiszki10 = [
     },
                                                                                                                                                                     {
         id: [
-            506,
+            499,
             83,
             149
         ],
@@ -26095,7 +25803,7 @@ const fiszki10 = [
     },
                                                {
         id: [
-            507,
+            500,
             84,
             150
         ],
@@ -26137,7 +25845,7 @@ const fiszki10 = [
     },
 {
         id: [
-            508,
+            501,
             84,
             150
         ],
@@ -26170,7 +25878,7 @@ const fiszki10 = [
     },
                                                                                                                                                                             {
         id: [
-            509,
+            502,
             84,
             150
         ],
@@ -26203,7 +25911,7 @@ const fiszki10 = [
     },
                                                                                                                                                                                 {
         id: [
-            510,
+            503,
             84,
             151
         ],
@@ -26234,7 +25942,7 @@ const fiszki10 = [
     },
 {
         id: [
-            511,
+            504,
             85,
             152
         ],
@@ -26323,7 +26031,7 @@ const fiszki10 = [
     },
                                                                                                                                                                                                     {
         id: [
-            512,
+            505,
             85,
             152
         ],
@@ -26356,7 +26064,7 @@ const fiszki10 = [
     },
                                                                                                                                                                                                     {
         id: [
-            513,
+            506,
             85,
             152
         ],
@@ -26389,7 +26097,7 @@ const fiszki10 = [
     },
                                                                                                                                                                                                         {
         id: [
-            514,
+            507,
             85,
             153
         ],
@@ -26421,7 +26129,7 @@ const fiszki10 = [
     },
                                                                                                                                                                                                         {
         id: [
-            515,
+            508,
             85,
             153
         ],
@@ -26453,7 +26161,7 @@ const fiszki10 = [
     },
     {
         id: [
-            516,
+            509,
             86,
             154
         ],
@@ -26542,7 +26250,7 @@ const fiszki10 = [
     },
                                                                                                                                                                                                             {
         id: [
-            517,
+            510,
             86,
             154
         ],
@@ -26575,7 +26283,7 @@ const fiszki10 = [
     },
                                                                                                                                                                                                             {
         id: [
-            518,
+            511,
             86,
             154
         ],
@@ -26608,7 +26316,7 @@ const fiszki10 = [
     },
                                                                                                                                                                                                                 {
         id: [
-            519,
+            512,
             86,
             155
         ],
@@ -26641,7 +26349,7 @@ const fiszki10 = [
     },
                                                                                                                                                                                                                 {
         id: [
-            520,
+            513,
             86,
             155
         ],
@@ -26722,7 +26430,7 @@ const fiszki10 = [
     },
                                                                                                                                                                                                                 {
         id: [
-            521,
+            514,
             86,
             155
         ],
@@ -26755,7 +26463,7 @@ const fiszki10 = [
     },
         {
         id: [
-            522,
+            515,
             87,
             156
         ],
@@ -26797,7 +26505,7 @@ const fiszki10 = [
     },
                                                                                                                                                                                                                     {
         id: [
-            523,
+            516,
             87,
             156
         ],
@@ -26831,7 +26539,7 @@ const fiszki10 = [
     },
                                                                                                                                                                                                                     {
         id: [
-            524,
+            517,
             87,
             156
         ],
@@ -26865,7 +26573,7 @@ const fiszki10 = [
     },
                                                                                                                                                                                                                         {
         id: [
-            525,
+            518,
             87,
             156
         ],
@@ -26899,7 +26607,7 @@ const fiszki10 = [
     },
                                                                                                                                                                                                                             {
         id: [
-            526,
+            519,
             87,
             157
         ],
@@ -26931,7 +26639,7 @@ const fiszki10 = [
     },
                                                                                                                                                                                                                             {
         id: [
-            527,
+            520,
             87,
             157
         ],
@@ -26963,7 +26671,7 @@ const fiszki10 = [
     },
                     {
         id: [
-            528,
+            521,
             88,
             158
         ],
@@ -27004,7 +26712,7 @@ const fiszki10 = [
     },
      {
         id: [
-            529,
+            522,
             88,
             158
         ],
@@ -27037,7 +26745,7 @@ const fiszki10 = [
     },
      {
         id: [
-            530,
+            523,
             88,
             158
         ],
@@ -27070,7 +26778,7 @@ const fiszki10 = [
     },
      {
         id: [
-            531,
+            524,
             88,
             158
         ],
@@ -27151,7 +26859,7 @@ const fiszki10 = [
     },
      {
         id: [
-            532,
+            525,
             88,
             158
         ],
@@ -27196,7 +26904,7 @@ const fiszki10 = [
     },
      {
         id: [
-            533,
+            526,
             88,
             158
         ],
@@ -27241,7 +26949,7 @@ const fiszki10 = [
     },
                     {
         id: [
-            534,
+            527,
             89,
             159
         ],
@@ -27282,7 +26990,7 @@ const fiszki10 = [
     },
          {
         id: [
-            535,
+            528,
             89,
             159
         ],
@@ -27363,7 +27071,7 @@ const fiszki10 = [
     },     
     {
         id: [
-            536,
+            529,
             89,
             159
         ],
@@ -27396,7 +27104,7 @@ const fiszki10 = [
     },
         {
         id: [
-            537,
+            530,
             89,
             160
         ],
@@ -27429,7 +27137,7 @@ const fiszki10 = [
     },
         {
         id: [
-            538,
+            531,
             89,
             160
         ],
@@ -27462,7 +27170,7 @@ const fiszki10 = [
     },
         {
         id: [
-            539,
+            532,
             89,
             160
         ],
@@ -27495,7 +27203,7 @@ const fiszki10 = [
     },
                         {
         id: [
-            540,
+            533,
             90,
             161
         ],
@@ -27536,7 +27244,7 @@ const fiszki10 = [
     },
             {
         id: [
-            541,
+            534,
             90,
             161
         ],
@@ -27617,7 +27325,7 @@ const fiszki10 = [
     },
             {
         id: [
-            542,
+            535,
             90,
             161
         ],
@@ -27650,7 +27358,7 @@ const fiszki10 = [
     },
                 {
         id: [
-            543,
+            536,
             90,
             162
         ],
@@ -27695,7 +27403,7 @@ const fiszki10 = [
     },
                 {
         id: [
-            544,
+            537,
             90,
             162
         ],
@@ -27776,7 +27484,7 @@ const fiszki10 = [
     },
                 {
         id: [
-            545,
+            538,
             90,
             162
         ],
@@ -27809,7 +27517,7 @@ const fiszki10 = [
     },
     {
         id: [
-            546,
+            539,
             91,
             163
         ],
@@ -27850,7 +27558,7 @@ const fiszki10 = [
     },
                     {
         id: [
-            547,
+            540,
             91,
             163
         ],
@@ -27883,7 +27591,7 @@ const fiszki10 = [
     },
                     {
         id: [
-            548,
+            541,
             91,
             163
         ],
@@ -27916,7 +27624,7 @@ const fiszki10 = [
     },
                         {
         id: [
-            549,
+            542,
             91,
             164
         ],
@@ -27949,7 +27657,7 @@ const fiszki10 = [
     },
                         {
         id: [
-            550,
+            543,
             91,
             164
         ],
@@ -28030,7 +27738,7 @@ const fiszki10 = [
     },
                         {
         id: [
-            551,
+            544,
             91,
             164
         ],
@@ -28063,7 +27771,7 @@ const fiszki10 = [
     },
                                 {
         id: [
-            552,
+            545,
             92,
             165
         ],
@@ -28153,7 +27861,7 @@ const fiszki10 = [
     },
                             {
         id: [
-            553,
+            546,
             92,
             165
         ],
@@ -28187,7 +27895,7 @@ const fiszki10 = [
     },
                             {
         id: [
-            554,
+            547,
             92,
             165
         ],
@@ -28221,7 +27929,7 @@ const fiszki10 = [
     },
                             {
         id: [
-            555,
+            548,
             92,
             165
         ],
@@ -28255,7 +27963,7 @@ const fiszki10 = [
     },
                             {
         id: [
-            556,
+            549,
             92,
             165
         ],
@@ -28288,7 +27996,7 @@ const fiszki10 = [
     },                        
     {
         id: [
-            557,
+            550,
             92,
             165
         ],
@@ -28369,7 +28077,7 @@ const fiszki10 = [
     },
         {
         id: [
-            558,
+            551,
             92,
             165
         ],
@@ -28402,7 +28110,7 @@ const fiszki10 = [
     },
                                     {
         id: [
-            559,
+            552,
             93,
             166
         ],
@@ -28443,7 +28151,7 @@ const fiszki10 = [
     },
             {
         id: [
-            560,
+            553,
             93,
             166
         ],
@@ -28476,7 +28184,7 @@ const fiszki10 = [
     },
             {
         id: [
-            561,
+            554,
             93,
             166
         ],
@@ -28509,7 +28217,7 @@ const fiszki10 = [
     },
                 {
         id: [
-            562,
+            555,
             93,
             167
         ],
@@ -28589,7 +28297,7 @@ const fiszki10 = [
         category2: ["okresleniaMiejsca"]
     },            {
         id: [
-            563,
+            556,
             93,
             167
         ],
@@ -28621,7 +28329,7 @@ const fiszki10 = [
         category2: ["okresleniaMiejsca"]
     },            {
         id: [
-            564,
+            557,
             93,
             167
         ],
@@ -28654,7 +28362,7 @@ const fiszki10 = [
     },
                                         {
         id: [
-            565,
+            558,
             94,
             168
         ],
@@ -28767,7 +28475,7 @@ const fiszki10 = [
     },
             {
         id: [
-            566,
+            559,
             94,
             168
         ],
@@ -28800,7 +28508,7 @@ const fiszki10 = [
     },
                 {
         id: [
-            567,
+            560,
             94,
             168
         ],
@@ -28905,7 +28613,7 @@ const fiszki10 = [
     },
                     {
         id: [
-            568,
+            561,
             94,
             169
         ],
@@ -28939,7 +28647,7 @@ const fiszki10 = [
     },
                     {
         id: [
-            569,
+            562,
             94,
             169
         ],
@@ -29020,7 +28728,7 @@ const fiszki10 = [
     },
                     {
         id: [
-            570,
+            563,
             94,
             169
         ],
@@ -29079,7 +28787,7 @@ const fiszki10 = [
     },
                                             {
         id: [
-            571,
+            564,
             95,
             170
         ],
@@ -29121,7 +28829,7 @@ const fiszki10 = [
     },
                         {
         id: [
-            572,
+            565,
             95,
             170
         ],
@@ -29155,7 +28863,7 @@ const fiszki10 = [
     },
                             {
         id: [
-            573,
+            566,
             95,
             170
         ],
@@ -29189,7 +28897,7 @@ const fiszki10 = [
     },
                             {
         id: [
-            574,
+            567,
             95,
             170
         ],
@@ -29223,7 +28931,7 @@ const fiszki10 = [
     },
                                 {
         id: [
-            575,
+            568,
             95,
             171
         ],
@@ -29255,7 +28963,7 @@ const fiszki10 = [
     },                            
     {
         id: [
-            576,
+            569,
             95,
             171
         ],
@@ -29287,7 +28995,7 @@ const fiszki10 = [
     },
                                                 {
         id: [
-            577,
+            570,
             96,
             172
         ],
@@ -29376,7 +29084,7 @@ const fiszki10 = [
     },
     {
         id: [
-            578,
+            571,
             96,
             172
         ],
@@ -29409,7 +29117,7 @@ const fiszki10 = [
     },
     {
         id: [
-            579,
+            572,
             96,
             172
         ],
@@ -29442,7 +29150,7 @@ const fiszki10 = [
     },
         {
         id: [
-            580,
+            573,
             96,
             173
         ],
@@ -29474,7 +29182,7 @@ const fiszki10 = [
         category2: ["okresleniaMiejsca"]
     },    {
         id: [
-            581,
+            574,
             96,
             173
         ],
@@ -29558,7 +29266,7 @@ const fiszki10 = [
     },
         {
         id: [
-            582,
+            575,
             96,
             173
         ],
@@ -29591,7 +29299,7 @@ const fiszki10 = [
     },
                                                     {
         id: [
-            583,
+            576,
             97,
             174
         ],
@@ -29633,7 +29341,7 @@ const fiszki10 = [
     },
             {
         id: [
-            584,
+            577,
             97,
             174
         ],
@@ -29714,7 +29422,7 @@ const fiszki10 = [
     },
                 {
         id: [
-            585,
+            578,
             97,
             174
         ],
@@ -29747,7 +29455,7 @@ const fiszki10 = [
     },
                 {
         id: [
-            586,
+            579,
             97,
             175
         ],
@@ -29828,7 +29536,7 @@ const fiszki10 = [
     },
                     {
         id: [
-            587,
+            580,
             97,
             175
         ],
@@ -29861,7 +29569,7 @@ const fiszki10 = [
     },
                     {
         id: [
-            588,
+            581,
             97,
             175
         ],
@@ -29920,7 +29628,7 @@ const fiszki10 = [
     },
                                                         {
         id: [
-            589,
+            582,
             98,
             176
         ],
@@ -30008,7 +29716,7 @@ const fiszki10 = [
     },
                         {
         id: [
-            590,
+            583,
             98,
             176
         ],
@@ -30040,7 +29748,7 @@ const fiszki10 = [
     },
                         {
         id: [
-            591,
+            584,
             98,
             177
         ],
@@ -30072,7 +29780,7 @@ const fiszki10 = [
     },
                         {
         id: [
-            592,
+            585,
             98,
             177
         ],
@@ -30107,7 +29815,7 @@ const fiszki10 = [
     },
                                                             {
         id: [
-            593,
+            586,
             99,
             178
         ],
@@ -30144,7 +29852,7 @@ const fiszki10 = [
     },
                             {
         id: [
-            594,
+            587,
             99,
             178
         ],
@@ -30176,7 +29884,7 @@ const fiszki10 = [
     },
                                 {
         id: [
-            595,
+            588,
             99,
             179
         ],
@@ -30209,7 +29917,7 @@ const fiszki10 = [
     },
                                     {
         id: [
-            596,
+            589,
             99,
             179
         ],
@@ -30317,7 +30025,7 @@ const fiszki10 = [
     },
                                     {
         id: [
-            597,
+            590,
             99,
             179
         ],
@@ -30350,7 +30058,7 @@ const fiszki10 = [
     },
                                                                 {
         id: [
-            598,
+            591,
             100,
             180
         ],
@@ -30438,7 +30146,7 @@ const fiszki10 = [
     },
                                         {
         id: [
-            599,
+            592,
             100,
             180
         ],
@@ -30473,7 +30181,7 @@ const fiszki10 = [
     },
 {
         id: [
-            600,
+            593,
             100,
             181
         ],
@@ -30506,7 +30214,7 @@ const fiszki10 = [
     },
                                             {
         id: [
-            601,
+            594,
             100,
             181
         ],
@@ -30539,7 +30247,7 @@ const fiszki10 = [
     },
                                                 {
         id: [
-            602,
+            595,
             100,
             181
         ],
@@ -30572,7 +30280,7 @@ const fiszki10 = [
     },
                                                                     {
         id: [
-            603,
+            596,
             101,
             182
         ],
@@ -30686,7 +30394,7 @@ const fiszki10 = [
     },
                                                     {
         id: [
-            604,
+            597,
             101,
             182
         ],
@@ -30719,7 +30427,7 @@ const fiszki10 = [
     },
                                                     {
         id: [
-            605,
+            598,
             101,
             182
         ],
@@ -30752,7 +30460,7 @@ const fiszki10 = [
     },
                                                     {
         id: [
-            606,
+            599,
             101,
             183
         ],
@@ -30784,7 +30492,7 @@ const fiszki10 = [
     },
                                                     {
         id: [
-            607,
+            600,
             101,
             183
         ],
@@ -30816,7 +30524,7 @@ const fiszki10 = [
     },
                                                                         {
         id: [
-            608,
+            601,
             102,
             184
         ],
@@ -30904,7 +30612,7 @@ const fiszki10 = [
     },
                                                         {
         id: [
-            609,
+            602,
             102,
             184
         ],
@@ -30936,7 +30644,7 @@ const fiszki10 = [
     },
                                                             {
         id: [
-            610,
+            603,
             102,
             185
         ],
@@ -31017,7 +30725,7 @@ const fiszki10 = [
     },
                                                             {
         id: [
-            611,
+            604,
             102,
             185
         ],
@@ -31050,7 +30758,7 @@ const fiszki10 = [
     },
                                                             {
         id: [
-            612,
+            605,
             102,
             185
         ],
@@ -31083,7 +30791,7 @@ const fiszki10 = [
     },
                                                                             {
         id: [
-            613,
+            606,
             103,
             186
         ],
@@ -31124,7 +30832,7 @@ const fiszki10 = [
     },
                                                                 {
         id: [
-            614,
+            607,
             103,
             186
         ],
@@ -31157,7 +30865,7 @@ const fiszki10 = [
     },
                                                                     {
         id: [
-            615,
+            608,
             103,
             186
         ],
@@ -31262,7 +30970,7 @@ const fiszki10 = [
     },
                                                                         {
         id: [
-            616,
+            609,
             103,
             187
         ],
@@ -31295,7 +31003,7 @@ const fiszki10 = [
     },
                                                                         {
         id: [
-            617,
+            610,
             103,
             187
         ],
@@ -31376,7 +31084,7 @@ const fiszki10 = [
     },
                                                                         {
         id: [
-            618,
+            611,
             103,
             187
         ],
@@ -31409,7 +31117,7 @@ const fiszki10 = [
     },
                                                                                 {
         id: [
-            619,
+            612,
             104,
             188
         ],
@@ -31450,7 +31158,7 @@ const fiszki10 = [
     },
                                                                             {
         id: [
-            620,
+            613,
             104,
             188
         ],
@@ -31483,7 +31191,7 @@ const fiszki10 = [
     },
                                                                             {
         id: [
-            621,
+            614,
             104,
             188
         ],
@@ -31516,7 +31224,7 @@ const fiszki10 = [
     },
                                                                                 {
         id: [
-            622,
+            615,
             104,
             189
         ],
@@ -31596,7 +31304,7 @@ const fiszki10 = [
     },                                                                            
     {
         id: [
-            623,
+            616,
             104,
             189
         ],
@@ -31628,7 +31336,7 @@ const fiszki10 = [
     },
                                                                                     {
         id: [
-            624,
+            617,
             105,
             190
         ],
@@ -31741,7 +31449,7 @@ const fiszki10 = [
     },
         {
         id: [
-            625,
+            618,
             105,
             190
         ],
@@ -31774,7 +31482,7 @@ const fiszki10 = [
     },
         {
         id: [
-            626,
+            619,
             105,
             190
         ],
@@ -31807,7 +31515,7 @@ const fiszki10 = [
     },
             {
         id: [
-            627,
+            620,
             105,
             191
         ],
@@ -31840,7 +31548,7 @@ const fiszki10 = [
     },
             {
         id: [
-            628,
+            621,
             105,
             191
         ],
@@ -31923,7 +31631,7 @@ const fiszki10 = [
     },
             {
         id: [
-            629,
+            622,
             105,
             191
         ],
@@ -31956,7 +31664,7 @@ const fiszki10 = [
     },
                                                                                         {
         id: [
-            630,
+            623,
             106,
             192
         ],
@@ -31996,7 +31704,7 @@ const fiszki10 = [
     },
                 {
         id: [
-            631,
+            624,
             106,
             192
         ],
@@ -32028,7 +31736,7 @@ const fiszki10 = [
     },
                     {
         id: [
-            632,
+            625,
             106,
             193
         ],
@@ -32061,7 +31769,7 @@ const fiszki10 = [
     },
                     {
         id: [
-            633,
+            626,
             106,
             193
         ],
@@ -32094,7 +31802,7 @@ const fiszki10 = [
     },
                     {
         id: [
-            634,
+            627,
             106,
             193
         ],
@@ -32127,13 +31835,24 @@ const fiszki10 = [
     },
                                                                                             {
         id: [
-            635,
+            628,
             107,
             194
         ],
-        img: [
-            "https://www.arbulang.com/img/fiszki1/635a.jpg"
-        ],
+                    entries: [
+        {
+            id: 1,
+            img: {
+                src: "https://www.arbulang.com/img/fiszki1/635a.jpg",
+                alt: "Wygenerowane przez AI."
+            },
+            story: {
+                text: "Ten s<u><b>tejk</u></b> smakuje wyśmienicie. Jak będę w sklepie <u><b>wezmę</u></b> ich więcej",
+                alt: ""
+            },
+            category: [""]
+        }
+            ],
         translate: "",
         translateb: "[]",
         translateb2: "[]",
@@ -32142,7 +31861,6 @@ const fiszki10 = [
         word: [
             "https://www.arbulang.com/voice/bike.mp4"
         ],
-        story: "Ten s<u><b>tejk</u></b> smakuje wyśmienicie. Jak będę w sklepie <u><b>wezmę</u></b> ich więcej",
         desc: "take[] - moja, moje",
         sentence1: [
             "Take"
@@ -32157,7 +31875,7 @@ const fiszki10 = [
     },
                         {
         id: [
-            636,
+            629,
             107,
             194
         ],
@@ -32201,7 +31919,7 @@ const fiszki10 = [
     },
                             {
         id: [
-            637,
+            630,
             107,
             195
         ],
@@ -32234,7 +31952,7 @@ const fiszki10 = [
     },
                             {
         id: [
-            638,
+            631,
             107,
             195
         ],
@@ -32315,7 +32033,7 @@ const fiszki10 = [
     },
                             {
         id: [
-            639,
+            632,
             107,
             195
         ],
@@ -32348,7 +32066,7 @@ const fiszki10 = [
     },
                                                                                                 {
         id: [
-            640,
+            633,
             108,
             196
         ],
@@ -32439,7 +32157,7 @@ const fiszki10 = [
     },
                                 {
         id: [
-            641,
+            634,
             108,
             196
         ],
@@ -32473,7 +32191,7 @@ const fiszki10 = [
     },
                                 {
         id: [
-            642,
+            635,
             108,
             196
         ],
@@ -32579,7 +32297,7 @@ const fiszki10 = [
     },
                                 {
         id: [
-            643,
+            636,
             108,
             196
         ],
@@ -32613,7 +32331,7 @@ const fiszki10 = [
     },
                                     {
         id: [
-            644,
+            637,
             108,
             197
         ],
@@ -32693,7 +32411,7 @@ const fiszki10 = [
     },
                                     {
         id: [
-            645,
+            638,
             108,
             197
         ],
@@ -32773,7 +32491,7 @@ const fiszki10 = [
     },
                                                                                                     {
         id: [
-            646,
+            639,
             109,
             198
         ],
@@ -32814,7 +32532,7 @@ const fiszki10 = [
     },
                                         {
         id: [
-            647,
+            640,
             109,
             198
         ],
@@ -32847,7 +32565,7 @@ const fiszki10 = [
     },
                                         {
         id: [
-            648,
+            641,
             109,
             198
         ],
@@ -32880,7 +32598,7 @@ const fiszki10 = [
     },
                                             {
         id: [
-            649,
+            642,
             109,
             199
         ],
@@ -32913,7 +32631,7 @@ const fiszki10 = [
     },                                        
             {
         id: [
-            650,
+            643,
             109,
             199
         ],
@@ -32946,7 +32664,7 @@ const fiszki10 = [
     },                                        
     {
         id: [
-            651,
+            644,
             109,
             199
         ],
@@ -32979,7 +32697,7 @@ const fiszki10 = [
     },
                                                                                                         {
         id: [
-            652,
+            645,
             110,
             200
         ],
@@ -33020,7 +32738,7 @@ const fiszki10 = [
     },
         {
         id: [
-            653,
+            646,
             110,
             200
         ],
@@ -33053,7 +32771,7 @@ const fiszki10 = [
     },
         {
         id: [
-            654,
+            647,
             110,
             200
         ],
@@ -33086,7 +32804,7 @@ const fiszki10 = [
     },
             {
         id: [
-            655,
+            648,
             110,
             201
         ],
@@ -33166,7 +32884,7 @@ const fiszki10 = [
     },
             {
         id: [
-            656,
+            649,
             110,
             201
         ],
@@ -33198,7 +32916,7 @@ const fiszki10 = [
     },
                                                                                                             {
         id: [
-            657,
+            650,
             111,
             202
         ],
@@ -33238,7 +32956,7 @@ const fiszki10 = [
     },
                 {
         id: [
-            658,
+            651,
             111,
             202
         ],
@@ -33270,7 +32988,7 @@ const fiszki10 = [
     },
                     {
         id: [
-            659,
+            652,
             111,
             203
         ],
@@ -33302,7 +33020,7 @@ const fiszki10 = [
     },
                         {
         id: [
-            660,
+            653,
             111,
             203
         ],
@@ -33334,7 +33052,7 @@ const fiszki10 = [
     },
 {
         id: [
-            661,
+            654,
             112,
             204
         ],
@@ -33375,7 +33093,7 @@ const fiszki10 = [
     },
                             {
         id: [
-            662,
+            655,
             112,
             204
         ],
@@ -33408,7 +33126,7 @@ const fiszki10 = [
     },
                                 {
         id: [
-            663,
+            656,
             112,
             204
         ],
@@ -33441,7 +33159,7 @@ const fiszki10 = [
     },
                                     {
         id: [
-            664,
+            657,
             112,
             205
         ],
@@ -33534,7 +33252,7 @@ const fiszki10 = [
     },
                                     {
         id: [
-            665,
+            658,
             112,
             205
         ],
@@ -33615,7 +33333,7 @@ const fiszki10 = [
     },
                                     {
         id: [
-            667,
+            659,
             112,
             205
         ],
@@ -33648,7 +33366,7 @@ const fiszki10 = [
     },
                                                                                                                     {
         id: [
-            667,
+            660,
             113,
             206
         ],
@@ -33689,7 +33407,7 @@ const fiszki10 = [
     },
                                         {
         id: [
-            668,
+            661,
             113,
             206
         ],
@@ -33722,7 +33440,7 @@ const fiszki10 = [
     },                                    
     {
         id: [
-            669,
+            662,
             113,
             206
         ],
@@ -33755,7 +33473,7 @@ const fiszki10 = [
     },
     {
         id: [
-            670,
+            663,
             113,
             207
         ],
@@ -33787,7 +33505,7 @@ const fiszki10 = [
     },
     {
         id: [
-            671,
+            664,
             113,
             207
         ],
@@ -33819,7 +33537,7 @@ const fiszki10 = [
     },
                                                                                                                         {
         id: [
-            672,
+            665,
             114,
             208
         ],
@@ -33862,7 +33580,7 @@ const fiszki10 = [
     },
         {
         id: [
-            673,
+            666,
             114,
             208
         ],
@@ -33969,7 +33687,7 @@ const fiszki10 = [
     },
             {
         id: [
-            674,
+            667,
             114,
             208
         ],
@@ -34004,7 +33722,7 @@ const fiszki10 = [
     },
                 {
         id: [
-            675,
+            668,
             114,
             208
         ],
@@ -34051,7 +33769,7 @@ const fiszki10 = [
     },
                     {
         id: [
-            676,
+            669,
             114,
             208
         ],
@@ -34086,7 +33804,7 @@ const fiszki10 = [
     },
                                                                                                                             {
         id: [
-            677,
+            670,
             115,
             209
         ],
@@ -34126,7 +33844,7 @@ const fiszki10 = [
     },
                         {
         id: [
-            678,
+            671,
             115,
             209
         ],
@@ -34158,7 +33876,7 @@ const fiszki10 = [
     },
                             {
         id: [
-            679,
+            672,
             115,
             210
         ],
@@ -34203,7 +33921,7 @@ const fiszki10 = [
     },
                                 {
         id: [
-            680,
+            673,
             115,
             210
         ],
@@ -34236,7 +33954,7 @@ const fiszki10 = [
     },
                                 {
         id: [
-            681,
+            674,
             115,
             210
         ],
@@ -34269,7 +33987,7 @@ const fiszki10 = [
     },
                                                                     {
         id: [
-            682,
+            675,
             116,
             211
         ],
@@ -34358,7 +34076,7 @@ const fiszki10 = [
     },
                                                              {
         id: [
-            683,
+            676,
             116,
             211
         ],
@@ -34391,7 +34109,7 @@ const fiszki10 = [
     },   
     {
         id: [
-            684,
+            677,
             116,
             211
         ],
@@ -34424,7 +34142,7 @@ const fiszki10 = [
     },
         {
         id: [
-            685,
+            678,
             116,
             212
         ],
@@ -34505,7 +34223,7 @@ const fiszki10 = [
     },
             {
         id: [
-            686,
+            679,
             116,
             212
         ],
@@ -34538,7 +34256,7 @@ const fiszki10 = [
     },
         {
         id: [
-            687,
+            680,
             116,
             212
         ],
@@ -34571,7 +34289,7 @@ const fiszki10 = [
     },
     {
         id: [
-            688,
+            681,
             117,
             213
         ],
@@ -34659,7 +34377,7 @@ const fiszki10 = [
     },
             {
         id: [
-            689,
+            682,
             117,
             213
         ],
@@ -34692,7 +34410,7 @@ const fiszki10 = [
     },
             {
         id: [
-            690,
+            683,
             117,
             213
         ],
@@ -34725,7 +34443,7 @@ const fiszki10 = [
     },
                 {
         id: [
-            691,
+            684,
             117,
             214
         ],
@@ -34806,7 +34524,7 @@ const fiszki10 = [
     },
                 {
         id: [
-            692,
+            685,
             117,
             214
         ],
@@ -34911,7 +34629,7 @@ const fiszki10 = [
     },
                 {
         id: [
-            693,
+            686,
             117,
             214
         ],
@@ -34944,7 +34662,7 @@ const fiszki10 = [
     },
         {
         id: [
-            694,
+            687,
             118,
             215
         ],
@@ -34985,7 +34703,7 @@ const fiszki10 = [
     },
                     {
         id: [
-            695,
+            688,
             118,
             215
         ],
@@ -35030,7 +34748,7 @@ const fiszki10 = [
     },
                         {
         id: [
-            696,
+            689,
             118,
             215
         ],
@@ -35063,7 +34781,7 @@ const fiszki10 = [
     },
                             {
         id: [
-            697,
+            690,
             118,
             216
         ],
@@ -35095,7 +34813,7 @@ const fiszki10 = [
     },
                             {
         id: [
-            698,
+            691,
             118,
             216
         ],
@@ -35127,7 +34845,7 @@ const fiszki10 = [
     },
                 {
         id: [
-            699,
+            692,
             119,
             217
         ],
@@ -35167,7 +34885,7 @@ const fiszki10 = [
     },
                                 {
         id: [
-            700,
+            693,
             119,
             217
         ],
@@ -35199,7 +34917,7 @@ const fiszki10 = [
     },
                                     {
         id: [
-            701,
+            694,
             119,
             218
         ],
@@ -35231,7 +34949,7 @@ const fiszki10 = [
     },
                                             {
         id: [
-            702,
+            695,
             119,
             218
         ],
@@ -35263,7 +34981,7 @@ const fiszki10 = [
     },
             {
         id: [
-            703,
+            696,
             120,
             219
         ],
@@ -35352,7 +35070,7 @@ const fiszki10 = [
     },
                                                 {
         id: [
-            704,
+            697,
             120,
             219
         ],
@@ -35385,7 +35103,7 @@ const fiszki10 = [
     },
                                                     {
         id: [
-            705,
+            698,
             120,
             219
         ],
@@ -35418,7 +35136,7 @@ const fiszki10 = [
     },
                                                         {
         id: [
-            706,
+            699,
             120,
             220
         ],
@@ -35498,7 +35216,7 @@ const fiszki10 = [
     },
                                                         {
         id: [
-            707,
+            700,
             120,
             220
         ],
@@ -35530,7 +35248,7 @@ const fiszki10 = [
     },
                 {
         id: [
-            708,
+            701,
             121,
             221
         ],
@@ -35619,7 +35337,7 @@ const fiszki10 = [
     },
                                                             {
         id: [
-            709,
+            702,
             121,
             221
         ],
@@ -35652,7 +35370,7 @@ const fiszki10 = [
     },
                                                             {
         id: [
-            710,
+            703,
             121,
             221
         ],
@@ -35711,7 +35429,7 @@ const fiszki10 = [
     },
                                                                 {
         id: [
-            711,
+            704,
             121,
             222
         ],
@@ -35743,7 +35461,7 @@ const fiszki10 = [
     },
                                                                 {
         id: [
-            712,
+            705,
             121,
             222
         ],
@@ -35775,7 +35493,7 @@ const fiszki10 = [
     },
                     {
         id: [
-            713,
+            706,
             122,
             223
         ],
@@ -35815,7 +35533,7 @@ const fiszki10 = [
     },
                                                                     {
         id: [
-            714,
+            707,
             122,
             223
         ],
@@ -35847,7 +35565,7 @@ const fiszki10 = [
     },
                                                                         {
         id: [
-            715,
+            708,
             122,
             224
         ],
@@ -35879,7 +35597,7 @@ const fiszki10 = [
         category2: ["okresleniaMiejsca"]
     },                                                                    {
         id: [
-            716,
+            709,
             122,
             224
         ],
@@ -35984,7 +35702,7 @@ const fiszki10 = [
     },                                                                    
     {
         id: [
-            717,
+            710,
             122,
             224
         ],
@@ -36017,7 +35735,7 @@ const fiszki10 = [
     },
                         {
         id: [
-            718,
+            711,
             123,
             225
         ],
@@ -36058,7 +35776,7 @@ const fiszki10 = [
     },
     {
         id: [
-            719,
+            712,
             123,
             225
         ],
@@ -36091,7 +35809,7 @@ const fiszki10 = [
     },
         {
         id: [
-            720,
+            713,
             123,
             225
         ],
@@ -36124,7 +35842,7 @@ const fiszki10 = [
     },
             {
         id: [
-            721,
+            714,
             123,
             226
         ],
@@ -36156,7 +35874,7 @@ const fiszki10 = [
     },
                 {
         id: [
-            722,
+            715,
             123,
             226
         ],
@@ -36188,7 +35906,7 @@ const fiszki10 = [
     },
                             {
         id: [
-            723,
+            716,
             124,
             227
         ],
@@ -36229,7 +35947,7 @@ const fiszki10 = [
     },
                     {
         id: [
-            724,
+            717,
             124,
             227
         ],
@@ -36254,7 +35972,7 @@ const fiszki10 = [
     },
                     {
         id: [
-            725,
+            718,
             124,
             227
         ],
@@ -36287,7 +36005,7 @@ const fiszki10 = [
     },
                         {
         id: [
-            726,
+            719,
             124,
             228
         ],
@@ -36320,7 +36038,7 @@ const fiszki10 = [
     },
                         {
         id: [
-            727,
+            720,
             124,
             228
         ],
@@ -36401,7 +36119,7 @@ const fiszki10 = [
     },
                         {
         id: [
-            728,
+            721,
             124,
             228
         ],
@@ -36434,7 +36152,7 @@ const fiszki10 = [
     },
                                 {
         id: [
-            729,
+            722,
             125,
             229
         ],
@@ -36547,7 +36265,7 @@ const fiszki10 = [
     },
                             {
         id: [
-            730,
+            723,
             125,
             229
         ],
@@ -36580,7 +36298,7 @@ const fiszki10 = [
     },
                             {
         id: [
-            731,
+            724,
             125,
             229
         ],
@@ -36613,7 +36331,7 @@ const fiszki10 = [
     },
                             {
         id: [
-            732,
+            725,
             125,
             230
         ],
@@ -36694,7 +36412,7 @@ const fiszki10 = [
     },
                                 {
         id: [
-            733,
+            726,
             125,
             230
         ],
@@ -36727,7 +36445,7 @@ const fiszki10 = [
     },                            
     {
         id: [
-            734,
+            727,
             125,
             230
         ],
@@ -36760,7 +36478,7 @@ const fiszki10 = [
     },
                                     {
         id: [
-            735,
+            728,
             126,
             231
         ],
@@ -36848,7 +36566,7 @@ const fiszki10 = [
     },
     {
         id: [
-            736,
+            729,
             126,
             231
         ],
@@ -36880,7 +36598,7 @@ const fiszki10 = [
     },
         {
         id: [
-            737,
+            730,
             126,
             232
         ],
@@ -36924,7 +36642,7 @@ const fiszki10 = [
     },    
     {
         id: [
-            738,
+            731,
             126,
             232
         ],
@@ -36956,7 +36674,7 @@ const fiszki10 = [
     },
                                         {
         id: [
-            739,
+            732,
             127,
             233
         ],
@@ -37045,7 +36763,7 @@ const fiszki10 = [
     },
     {
         id: [
-            740,
+            733,
             127,
             233
         ],
@@ -37078,7 +36796,7 @@ const fiszki10 = [
     },
     {
         id: [
-            741,
+            734,
             127,
             233
         ],
@@ -37111,7 +36829,7 @@ const fiszki10 = [
     },
         {
         id: [
-            742,
+            735,
             127,
             234
         ],
@@ -37143,7 +36861,7 @@ const fiszki10 = [
     },
         {
         id: [
-            743,
+            736,
             127,
             234
         ],
@@ -37175,7 +36893,7 @@ const fiszki10 = [
     },
                                             {
         id: [
-            744,
+            737,
             128,
             235
         ],
@@ -37216,7 +36934,7 @@ const fiszki10 = [
     },
             {
         id: [
-            745,
+            738,
             128,
             235
         ],
@@ -37249,7 +36967,7 @@ const fiszki10 = [
     },
                 {
         id: [
-            746, 
+            739, 
            128,
             235
         ],
@@ -37282,7 +37000,7 @@ const fiszki10 = [
     },
                     {
         id: [
-            747,
+            740,
             128,
             236
         ],
@@ -37314,7 +37032,7 @@ const fiszki10 = [
     },
                     {
         id: [
-            748,
+            741,
             128,
             236
         ],
@@ -37346,7 +37064,7 @@ const fiszki10 = [
     },
                                                 {
         id: [
-            749,
+            742,
             129,
             237
         ],
@@ -37389,7 +37107,7 @@ const fiszki10 = [
     },
                         {
         id: [
-            750,
+            743,
             129,
             237
         ],
@@ -37424,7 +37142,7 @@ const fiszki10 = [
     },
                             {
         id: [
-            751,
+            744,
             129,
             237
         ],
@@ -37459,7 +37177,7 @@ const fiszki10 = [
     },
                                 {
         id: [
-            752,
+            745,
             129,
             237
         ],
@@ -37494,7 +37212,7 @@ const fiszki10 = [
     },
                                 {
         id: [
-            753,
+            746,
             129,
             237
         ],
@@ -37529,7 +37247,7 @@ const fiszki10 = [
     },
     {
         id: [
-            754,
+            747,
             130,
             238
         ],
@@ -37570,7 +37288,7 @@ const fiszki10 = [
     },
                                     {
         id: [
-            755,
+            748,
             130,
             238
         ],
@@ -37603,7 +37321,7 @@ const fiszki10 = [
     },
                                     {
         id: [
-            756,
+            749,
             130,
             238
         ],
@@ -37648,7 +37366,7 @@ const fiszki10 = [
     },
                                         {
         id: [
-            757,
+            750,
             130,
             239
         ],
@@ -38934,6 +38652,95 @@ let lastLessonId = null;
 
 let isLessonLoading = false;
 let lastClickedIndex = 0;
+// =====================================================
+// LOCALSTORAGE - ZAPIS / ODCZYT ZATWIERDZONYCH WERSJI
+// =====================================================
+
+const APPROVED_FISZKI_STORAGE_KEY = 'approvedFiszkiVersions';
+
+function getApprovedFiszkiVersions() {
+    try {
+        return JSON.parse(
+            localStorage.getItem(APPROVED_FISZKI_STORAGE_KEY)
+        ) || {};
+    } catch (e) {
+        console.error('Błąd odczytu approvedFiszkiVersions:', e);
+        return {};
+    }
+}
+
+function getFiszkaStorageKey(fiszka, lessonId2) {
+
+    if (!fiszka) {
+        return String(lessonId2);
+    }
+
+    // Najważniejsze: id fiszki + lekcja
+    if (Array.isArray(fiszka.id)) {
+        return lessonId2 + '_' + fiszka.id[0];
+    }
+
+    return lessonId2 + '_' + fiszka.id;
+}
+
+function getApprovedIndex(fiszka, lessonId2) {
+
+    const storage = getApprovedFiszkiVersions();
+    const key = getFiszkaStorageKey(fiszka, lessonId2);
+
+    if (
+        storage[key] !== undefined &&
+        storage[key] !== null
+    ) {
+        const index = parseInt(storage[key], 10);
+
+        if (
+            Array.isArray(fiszka.entries) &&
+            index >= 0 &&
+            index < fiszka.entries.length
+        ) {
+            console.log(
+                '💾 Odczytano zatwierdzoną wersję:',
+                key,
+                'index:',
+                index
+            );
+
+            return index;
+        }
+    }
+
+    return null;
+}
+
+function saveApprovedIndex(fiszka, lessonId2, selectedIndex) {
+
+    const storage = getApprovedFiszkiVersions();
+    const key = getFiszkaStorageKey(fiszka, lessonId2);
+
+    storage[key] = Number(selectedIndex);
+
+    try {
+        localStorage.setItem(
+            APPROVED_FISZKI_STORAGE_KEY,
+            JSON.stringify(storage)
+        );
+
+        console.log(
+            '💾 Zapisano zatwierdzoną wersję:',
+            key,
+            'index:',
+            selectedIndex
+        );
+
+    } catch (e) {
+        console.error(
+            'Błąd zapisu approvedFiszkiVersions:',
+            e
+        );
+    }
+}
+
 function generateFiszkaBlock(fiszka, lessonId2, category) {
     
     // dalsza logika tworzenia bloku fiszki...
@@ -39650,34 +39457,51 @@ console.log('relativeIndex33', relativeIndex);
         matrixQueueByLesson[lessonIdLocal] = Promise.resolve();
     }
 
-    matrixQueueByLesson[lessonIdLocal] = matrixQueueByLesson[lessonIdLocal]
-        .then(() =>
-            Promise.all(
-                history
-                    .filter(h => h?.img?.src)
-                    .map(h => loadImage(h.img.src))
-            )
+matrixQueueByLesson[lessonIdLocal] = matrixQueueByLesson[lessonIdLocal]
+    .then(() =>
+        Promise.all(
+            history
+                .filter(h => h?.img?.src)
+                .map(h => loadImage(h.img.src))
         )
-        .then(() => {
-$(`.fiszka[data-lesson-id="${lessonIdLocal}"]`).each(function(index) {
+    )
+    .then(() => {
 
-    const container = $(this);
-    const historyItem = history[index];
+        $(`.fiszka[data-lesson-id="${lessonIdLocal}"]`).each(function(index) {
 
-    generateOrUpdateMatrix(
-        fiszki10Obj,
-        lessonIdLocal,
-        history,
-        container,
-        historyItem?.idFiszki   // 👈 KAŻDA MATRYCA MA SWÓJ
-    );
+            const container = $(this);
+            const historyItem = history[index];
 
-});
+            generateOrUpdateMatrix(
+                fiszki10Obj,
+                lessonIdLocal,
+                history,
+                container,
+                historyItem?.idFiszki
+            );
 
-        })
-        .catch(err => console.error(err));
+        });
 
-    console.log('Zatwierdzono wersję:', selectedIndex);
+    })
+    .catch(err => console.error(err));
+
+
+// =====================================================
+// ZAPIS ZATWIERDZONEJ WERSJI
+// =====================================================
+
+saveApprovedIndex(
+    fiszkaObj,
+    lessonIdLocal,
+    selectedIndex
+);
+
+console.log(
+    '✅ Zatwierdzono i zapisano wersję:',
+    selectedIndex,
+    'dla fiszki:',
+    fiszkaObj.id
+);
 });
 // DODANIE MNEMOTECHNIKI
 if (Array.isArray(fiszka.entries) && fiszka.entries.length > 0) {
@@ -39758,8 +39582,30 @@ if (Array.isArray(fiszka.entries) && fiszka.entries.length > 0) {
                 .slice(0, 7);
         }
 
-        const randomButtonIndex = selectedIndexes[0] || 0;
-        index10.push(randomButtonIndex);
+// =====================================================
+// WYBÓR WERSJI:
+// 1. najpierw sprawdzamy localStorage
+// 2. jeśli brak zapisu - używamy dotychczasowego wyboru
+// =====================================================
+
+const savedApprovedIndex = getApprovedIndex(fiszka, lessonId2);
+
+const randomButtonIndex =
+    savedApprovedIndex !== null
+        ? savedApprovedIndex
+        : (selectedIndexes[0] || 0);
+
+index10.push(randomButtonIndex);
+
+console.log(
+    '🎯 Wersja dla fiszki:',
+    fiszka.id,
+    'index:',
+    randomButtonIndex,
+    savedApprovedIndex !== null
+        ? '(Z LOCALSTORAGE)'
+        : '(NOWY WYBÓR)'
+);
     // jeśli to pierwsze wywołanie, zapisujemy id fiszki
 // --- 1️⃣ Sprawdzamy, czy zmieniła się lekcja → jeśli tak, resetujemy firstFiszkaId
 // Ustawiamy startIndex dla lekcji, jeśli jeszcze nie został ustawiony
@@ -39886,7 +39732,50 @@ if (MATRIX_MODE === 'RANDOM') {
         fiszkaContainer.append(storyButtonContainer);
 
         const idFiszki = fiszka.entries[randomButtonIndex].id || randomButtonIndex;
-        showStory(index10, idFiszki);
+showStory(randomButtonIndex);
+
+// ============================================
+// ODTWÓRZ ZATWIERDZONĄ WERSJĘ W HISTORII
+// ============================================
+
+if (savedApprovedIndex !== null) {
+
+    const approvedEntry = fiszka.entries[savedApprovedIndex];
+
+    if (approvedEntry) {
+
+        const idFiszki2 = Array.isArray(fiszka.id)
+            ? fiszka.id[0]
+            : savedApprovedIndex;
+
+        const relativeIndex = startIndex2 === 0
+            ? 0
+            : idFiszki2 - startIndex2;
+
+        if (!selectedFiszkiHistoryByLesson[lessonId2]) {
+            selectedFiszkiHistoryByLesson[lessonId2] = [];
+        }
+
+        selectedFiszkiHistoryByLesson[lessonId2][relativeIndex] = {
+            idFiszki: approvedEntry.id || savedApprovedIndex,
+            img: approvedEntry.img,
+            word: fiszka.sentence?.[savedApprovedIndex] || null
+        };
+
+        console.log(
+            '✅ PRZYWRÓCONO ZATWIERDZONĄ FISZKĘ',
+            {
+                lessonId: lessonId2,
+                fiszkaId: fiszka.id,
+                savedApprovedIndex: savedApprovedIndex,
+                relativeIndex: relativeIndex,
+                img: approvedEntry.img?.src,
+                history:
+                    selectedFiszkiHistoryByLesson[lessonId2]
+            }
+        );
+    }
+}
         console.log(`Wywołano showStory dla przycisku: ${randomButtonIndex} z id.fiszki: ${idFiszki}`);
 } else if (Array.isArray(fiszka.entries) && fiszka.entries.length > 0) {
             // Jeśli fiszka.category1 nie jest tablicą

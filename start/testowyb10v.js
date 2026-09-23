@@ -114,7 +114,7 @@ const fiszki10 = [
             "czarny humor", "trendy",
             "związki", "muzyka"
         ],
-        category2: ["czasownik"],
+        category2: [""],
         category3: ["PresentSimple", "PresentSimpleCzasownik"]
     },
     {
@@ -166,7 +166,7 @@ const fiszki10 = [
             "czarny humor", "giełda",
             "związki", "czas wolny"
         ],
-        category2: ["nawa czynności"]
+        category2: ["emocje"]
     },
     {
         id: [
@@ -2956,82 +2956,33 @@ const fiszki10 = [
             11,
             22
         ],
-        img: [
-            "https://www.arbulang.com/img/fiszki1/10a.jpg",
-            "https://www.arbulang.com/img/fiszki1/10b.jpg",
-            "https://www.arbulang.com/img/fiszki1/10c.jpg",
-            "https://www.arbulang.com/img/fiszki1/10d.jpg",
-            "https://www.arbulang.com/img/fiszki1/10e.jpg"
-        ],
-                                                                                                word: [
-            "http://localhost/arbulanguage.com/voice/angielski/lekcja11/to.mp3"
-        ],
-        translateb2: "[tu help as]",
-        story: [
-            '<u><b>Dla</u></b> spor<span class="adannotation" data-annotation="1"><u><b>tu</b></u></span> przeszedłem się pieszo <u><b>ku</u></b> parku',
-            'Ra<span class="adannotation" data-annotation="1"><u><b>tu</u></b></span>nku, ta droga poprowadziła nas <u><b>ku</u></b> wężom',
-            '<span class="adannotation" data-annotation="1"><b><u>Tu</b></u></span> w Egipcie Totem Faraona to pamiątka <u><b>ku</u></b> jego czci',
-            '<span class="adannotation" data-annotation="1"><b><u>Tu</b></u></span> <u><b>dla</u></b> Ciebie jest bardzo dobra aktywność, <u><b>to</u></b>talnie nie brakuje mi nic w drodze <u><b>ku</u></b>t mistrza',
-            'Aaaa.. <span class="adannotation" data-annotation="1"><b><u>tu</b></u></span> to jest, <b><u>ku</b></u> szczęściu znalazłem to..'
-        ],
-        desc: "to[tu] - do, ku",
-        sentence2: [
-            "to"
-        ],
-                sentence2b: [
-            "żeby"
-        ],
-                                                                                sentence2c: [
-            "tu"
-        ],
-        sentence: [
-            "to",
-            "help",
-            "us"
-        ],
-        key: "to",
-        category1: [
-            "sport", "czas wolny",
-            "natura", "zoologia",
-            "nauka", "historia",
-            "czarny humor", "sport",
-            "związki", "czas wolny"
-        ],
-        category2: [""]
-    },
-    {
-        id: [
-            67,
-            11,
-            22
-        ],
         img: "https://www.arbulang.com/img/fiszki1/67aa.jpg",
                                                                                                 word: [
             "http://localhost/arbulanguage.com/voice/angielski/lekcja11/help.mp3"
         ],
         story: "Gaz - <b><u>hel</b></u>, <b><u>p</b></u>omaga zmieniać ton głosu",
-        desc: "help[help] - pomagać",
+        desc: "to help[help] - pomagać",
         sentence2: [
-            "help"
+            "to_help"
         ],
                         sentence2b: [
             "pomóc"
         ],
                                                                                         sentence2c: [
-            "help"
+            "tu_help"
         ],
         sentence: [
             "to",
             "help",
             "us"
         ],
-        key: "help",
+        key: "to help",
         category1: "czarny humor",
         category2: ["czasownik"]
     },
     {
         id: [
-            68,
+            67,
             11,
             22
         ],
@@ -3061,7 +3012,7 @@ const fiszki10 = [
     },
     {
         id: [
-            69,
+            68,
             12,
             23
         ],
@@ -3117,7 +3068,7 @@ const fiszki10 = [
     },
     {
         id: [
-            70,
+            69,
             12,
             23
         ],
@@ -3148,7 +3099,7 @@ const fiszki10 = [
     },
     {
         id: [
-            71,
+            70,
             12,
             23
         ],
@@ -3179,7 +3130,7 @@ const fiszki10 = [
     },
     {
         id: [
-            72,
+            71,
             12,
             24
         ],
@@ -3244,7 +3195,7 @@ const fiszki10 = [
     },
     {
         id: [
-            73,
+            72,
             12,
             24
         ],
@@ -3274,7 +3225,7 @@ const fiszki10 = [
     },
     {
         id: [
-            74,
+            73,
             13,
             25
         ],
@@ -3333,7 +3284,7 @@ const fiszki10 = [
     },
     {
         id: [
-            75,
+            74,
             13,
             25
         ],
@@ -3373,7 +3324,7 @@ const fiszki10 = [
     },
     {
         id: [
-            76,
+            75,
             13,
             25
         ],
@@ -3404,7 +3355,7 @@ const fiszki10 = [
     },
     {
         id: [
-            77,
+            76,
             13,
             26
         ],
@@ -3435,7 +3386,7 @@ const fiszki10 = [
     },
     {
         id: [
-            78,
+            77,
             13,
             26
         ],
@@ -3465,7 +3416,7 @@ const fiszki10 = [
     },
     {
         id: [
-            79,
+            78,
             13,
             26
         ],
@@ -3495,7 +3446,7 @@ const fiszki10 = [
     },
     {
         id: [
-            80,
+            79,
             14,
             27
         ],
@@ -3550,7 +3501,7 @@ const fiszki10 = [
     },
     {
         id: [
-            81,
+            80,
             14,
             27
         ],
@@ -3581,7 +3532,7 @@ const fiszki10 = [
     },
     {
         id: [
-            82,
+            81,
             14,
             27
         ],
@@ -3612,7 +3563,7 @@ const fiszki10 = [
     },
     {
         id: [
-            83,
+            82,
             14,
             28
         ],
@@ -3662,7 +3613,7 @@ const fiszki10 = [
     },
     {
         id: [
-            84,
+            83,
             14,
             28
         ],
@@ -3691,7 +3642,7 @@ const fiszki10 = [
     },
     {
         id: [
-            85,
+            84,
             15,
             29
         ],
@@ -3746,7 +3697,7 @@ const fiszki10 = [
     },
     {
         id: [
-            86,
+            85,
             15,
             29
         ],
@@ -3795,7 +3746,7 @@ const fiszki10 = [
     },
     {
         id: [
-            87,
+            86,
             15,
             29
         ],
@@ -3825,7 +3776,7 @@ const fiszki10 = [
     },
     {
         id: [
-            88,
+            87,
             15,
             30
         ],
@@ -3855,7 +3806,7 @@ const fiszki10 = [
     },
     {
         id: [
-            89,
+            88,
             15,
             30
         ],
@@ -3894,7 +3845,7 @@ const fiszki10 = [
     },
     {
         id: [
-            90,
+            89,
             15,
             30
         ],
@@ -3924,7 +3875,7 @@ const fiszki10 = [
     },
     {
         id: [
-            91,
+            90,
             16,
             31
         ],
@@ -3978,7 +3929,7 @@ const fiszki10 = [
     },
     {
         id: [
-            92,
+            91,
             16,
             31
         ],
@@ -4017,7 +3968,7 @@ const fiszki10 = [
     },
     {
         id: [
-            93,
+            92,
             16,
             32
         ],
@@ -4046,7 +3997,7 @@ const fiszki10 = [
     },
     {
         id: [
-            94,
+            93,
             16,
             32
         ],
@@ -4075,7 +4026,7 @@ const fiszki10 = [
     },
     {
         id: [
-            95,
+            94,
             17,
             33
         ],
@@ -4112,7 +4063,7 @@ const fiszki10 = [
     },
     {
         id: [
-            96,
+            95,
             17,
             33
         ],
@@ -4167,7 +4118,7 @@ const fiszki10 = [
     },
     {
         id: [
-            97,
+            96,
             17,
             33
         ],
@@ -4198,7 +4149,7 @@ const fiszki10 = [
     },
     {
         id: [
-            98,
+            97,
             17,
             34
         ],
@@ -4246,7 +4197,7 @@ const fiszki10 = [
     },
     {
         id: [
-            99,
+            98,
             17,
             34
         ],
@@ -4275,7 +4226,37 @@ const fiszki10 = [
         key: "her",
         category1: "nauka",
         category2: ["zaimkiosobowe", "osoby"]
-    }                           
+    },
+        {
+        id: [
+            99,
+            17,
+            34
+        ],
+        img: "https://www.arbulang.com/img/fiszki1/100a.jpg",
+                                                                                                                                                        word: [
+            "http://localhost/arbulanguage.com/voice/angielski/lekcja17/bow.mp3"
+        ],
+        story: "To jest <b><u>bo</b></u>ski <b><u>łuk</b></u>",
+        desc: "bow[boł] - łuk",
+        sentence2: [
+            "bow"
+        ],
+                                                sentence2b: [
+            "łuku"
+        ],
+                                                                                                                    sentence2c: [
+            "boł"
+        ],
+        sentence: [
+            "to",
+            "his",
+            "bow"
+        ],
+        key: "bow",
+        category1: "nauka",
+        category2: ["rzecz"]
+    }
 ];
 
 function addToTrainingList(idFiszki) {

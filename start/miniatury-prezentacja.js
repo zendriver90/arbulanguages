@@ -9445,10 +9445,394 @@ function updateActiveWordHighlight() {
         );
     }
 }
+// =====================================================
+// START — DODAJ PRZYCISK START DO KAŻDEGO IMAGE-CONTAINER3B
+// =====================================================
 
+function addStartButtonsToImageContainers() {
+
+    $('.image-container3b').each(function () {
+
+        const $block = $(this);
+
+        // Nie dodawaj drugi raz
+        if ($block.find('.start-word-button').length) {
+            return;
+        }
+
+        const $mediaContainer =
+            $block.find('.media-container').first();
+
+        const $textBlock =
+            $block.find('.text-block').first();
+
+        if (!$textBlock.length) {
+            console.warn(
+                '[START] brak .text-block:',
+                $block
+            );
+
+            return;
+        }
+
+        const $startButton =
+            $('<button>')
+                .attr({
+                    type: 'button',
+                    'data-start-word': 'true'
+                })
+                .addClass('start-word-button')
+                .text('START');
+
+        // =================================================
+        // WSTAWIENIE:
+        // media-container
+        // START
+        // text-block
+        // =================================================
+
+        $startButton.insertBefore($textBlock);
+
+        console.log(
+            '[START] dodano przycisk START:',
+            $block.attr('data-id')
+        );
+    });
+}
+
+
+// =====================================================
+// START — OBSŁUGA KLIKNIĘCIA
+// =====================================================
+
+
+
+
+// =====================================
+// START — CAŁKOWICIE UKRYTY NA POCZĄTKU
+// =====================================
+
+window.startButtonsEnabled = false;
+
+
+// =====================================
+// USUŃ START, JEŻELI POJAWI SIĘ ZA WCZEŚNIE
+// =====================================
+
+function removeStartButtonsBeforeThreeTags() {
+
+    if (window.startButtonsEnabled) {
+        return;
+    }
+
+    const $starts =
+        $('.image-container3b')
+            .find('.start-word-button');
+
+    if ($starts.length) {
+
+        console.log(
+            '[START] ❌ USUWAM START — NIE MA JESZCZE 3 TAGÓW:',
+            $starts.length
+        );
+
+        $starts.remove();
+    }
+}
+
+
+// =====================================
+// SPRAWDZAJ NOWO DODANE STARTY
+// =====================================
+
+const startGuardObserver =
+    new MutationObserver(function () {
+
+        removeStartButtonsBeforeThreeTags();
+
+    });
+
+
+startGuardObserver.observe(
+    document.body,
+    {
+        childList: true,
+        subtree: true
+    }
+);
+
+
+// =====================================
+// PIERWSZE CZYSZCZENIE
+// =====================================
+
+$(function () {
+
+    removeStartButtonsBeforeThreeTags();
+
+});
+
+// =====================================
+// START / POWTÓRZ
+// START PO 3 TAGACH
+// =====================================
+
+function addStartButtonsAfterThreeTags() {
+
+    // =====================================
+    // BLOKADA — PRZED 3 TAGAMI NIC NIE DODAJEMY
+    // =====================================
+
+    if (!window.startButtonsEnabled) {
+
+        console.log(
+            '[START] zablokowany — jeszcze nie ma 3 active-word-tag'
+        );
+
+        return;
+    }
+
+
+    $('.image-container3b').each(function () {
+
+        const $block = $(this);
+
+
+        // =====================================
+        // JEŻELI JUŻ JEST START LUB POWTÓRZ
+        // =====================================
+
+        if (
+            $block.find(
+                '.start-word-button, .repeat-word-button'
+            ).length
+        ) {
+
+            return;
+        }
+
+
+        // =====================================
+        // TEXT BLOCK
+        // =====================================
+
+        const $textBlock =
+            $block
+                .find('.text-block')
+                .first();
+
+
+        if (!$textBlock.length) {
+
+            console.warn(
+                '[START] brak .text-block:',
+                $block.attr('data-id')
+            );
+
+            return;
+        }
+
+
+        // =====================================
+        // SPRAWDŹ CZY KONTENER BYŁ JUŻ NAJECHANY
+        // =====================================
+
+        const alreadyHovered =
+            $block.attr(
+                'data-mouseenter-used'
+            ) === 'true';
+
+
+        // =====================================
+        // POWTÓRZ — DLA JUŻ NAJECHANYCH
+        // =====================================
+
+        if (alreadyHovered) {
+
+            const $repeatButton =
+                $('<button>')
+                    .attr({
+                        type: 'button',
+                        'data-repeat-word': 'true'
+                    })
+                    .addClass(
+                        'repeat-word-button'
+                    )
+                    .text('POWTÓRZ...');
+
+
+            $repeatButton.insertBefore(
+                $textBlock
+            );
+
+
+            // =====================================
+            // KLIK — POWTÓRZ PIERWSZE SŁOWO
+            // =====================================
+
+            $repeatButton.on(
+                'click',
+                function (e) {
+
+                    e.preventDefault();
+                    e.stopPropagation();
+
+
+                    console.log(
+                        '[POWTÓRZ] klik:',
+                        $block.attr('data-id')
+                    );
+
+
+                    // ---------------------------------
+                    // WYMUSZ PIERWSZE SŁOWO
+                    // ---------------------------------
+
+                    window.startWordRequest =
+                        $block[0];
+
+
+                    // ---------------------------------
+                    // URUCHOM PONOWNIE MOUSEENTER
+                    // ---------------------------------
+
+                    $block.trigger('mouseenter');
+
+                }
+            );
+
+
+            console.log(
+                '[POWTÓRZ] dodano zamiast START:',
+                $block.attr('data-id')
+            );
+
+
+            return;
+        }
+
+
+        // =====================================
+        // START — DLA JESZCZE NIE NAJECHANYCH
+        // =====================================
+
+        const $startButton =
+            $('<button>')
+                .attr({
+                    type: 'button',
+                    'data-start-word': 'true'
+                })
+                .addClass(
+                    'start-word-button'
+                )
+                .text('START');
+
+
+        // =====================================
+        // KLIK START
+        // =====================================
+
+        $startButton.on(
+            'click',
+            function (e) {
+
+                e.preventDefault();
+                e.stopPropagation();
+
+
+                console.log(
+                    '[START] klik:',
+                    $block.attr('data-id')
+                );
+
+
+                window.startWordRequest =
+                    $block[0];
+
+
+                $block.trigger('mouseenter');
+
+            }
+        );
+
+
+        // =====================================
+        // WSTAW START
+        // =====================================
+
+        $startButton.insertBefore(
+            $textBlock
+        );
+
+
+        console.log(
+            '[START] dodano do:',
+            $block.attr('data-id')
+        );
+
+    });
+}
 $(document).on('mouseenter', '.image-container3b', function () {
 
     const $block = $(this);
+
+
+    // =====================================
+    // TEN KONTENER ZOSTAŁ JUŻ NAJECHANY
+    // =====================================
+
+    $block.attr(
+        'data-mouseenter-used',
+        'true'
+    );
+
+
+    console.log(
+        '[mouseenter] kontener oznaczony jako użyty:',
+        $block.attr('data-id')
+    );
+
+    // =====================================================
+    // CZY MOUSEENTER ZOSTAŁ WYWOŁANY PRZEZ START?
+    // =====================================================
+
+    const isStartAction =
+        window.startWordRequest === $block[0];
+
+    if (isStartAction) {
+
+        // wyczyść żądanie od razu
+        window.startWordRequest = null;
+
+        console.log(
+            '[mouseenter] START → wymuszam pierwsze słowo'
+        );
+    }
+
+    // =====================================================
+    // MOUSEENTER:
+    // TYLKO 3 PIERWSZE ACTIVE-WORD-TAG
+    //
+    // START MOŻE DZIAŁAĆ ZAWSZE
+    // =====================================================
+
+    if (!isStartAction) {
+
+        const mouseenterTagCount =
+            $('#active-word-bar')
+                .find('.active-word-tag')
+                .length;
+
+        if (mouseenterTagCount >= 3) {
+
+            console.log(
+                '[mouseenter] LIMIT 3 TAGÓW — pomijam tworzenie:',
+                mouseenterTagCount
+            );
+
+            return;
+        }
+    }
 
     console.log(
         '[mouseenter] ENTER image-container3b'
@@ -9525,12 +9909,29 @@ console.log(
     // CURRENT WORD INDEX
     // =====================================
 
-    let currentWordIndex;
+let currentWordIndex;
 
 
-    if (
-        window.highlightMode === 'rodzaj'
-    ) {
+// =====================================================
+// START = ZAWSZE PIERWSZE SŁOWO
+// =====================================================
+
+if (isStartAction) {
+
+    currentWordIndex = 1;
+
+    console.log(
+        '[START] currentWordIndex = 1 → pierwsze słowo'
+    );
+
+
+// =====================================================
+// NORMALNY MOUSEENTER
+// =====================================================
+
+} else if (
+    window.highlightMode === 'rodzaj'
+) {
 
         const savedWi =
             window.savedWiCache[wiKey];
@@ -10747,7 +11148,48 @@ else {
             $tag
         );
 afterWordTagAdded();
+// =====================================
+// START — AKTYWUJ PO 3 ACTIVE-WORD-TAG
+// =====================================
 
+const activeWordTagCount =
+    $('#active-word-bar')
+        .find('.active-word-tag')
+        .length;
+
+
+console.log(
+    '[START] aktualna liczba active-word-tag:',
+    activeWordTagCount
+);
+
+
+// =====================================
+// DOKŁADNIE PO TRZECIM TAGU
+// =====================================
+
+if (
+    activeWordTagCount === 3 &&
+    !window.startButtonsEnabled
+) {
+
+    console.log(
+        '[START] 🎯 TRZECI ACTIVE-WORD-TAG UTWORZONY'
+    );
+
+
+    // odblokuj możliwość tworzenia START
+    window.startButtonsEnabled = true;
+
+
+    console.log(
+        '[START] START ZOSTAŁ ODBLOKOWANY'
+    );
+
+
+    // dopiero teraz dodaj START
+    addStartButtonsAfterThreeTags();
+}
         console.log(
             '[word-tag] added:',
             wordText,

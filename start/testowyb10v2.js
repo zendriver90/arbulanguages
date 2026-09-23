@@ -2,36 +2,6 @@ fiszki10.push(
     {
         id: [
             100,
-            17,
-            34
-        ],
-        img: "https://www.arbulang.com/img/fiszki1/100a.jpg",
-                                                                                                                                                        word: [
-            "http://localhost/arbulanguage.com/voice/angielski/lekcja17/bow.mp3"
-        ],
-        story: "To jest <b><u>bo</b></u>ski <b><u>łuk</b></u>",
-        desc: "bow[boł] - łuk",
-        sentence2: [
-            "bow"
-        ],
-                                                sentence2b: [
-            "łuku"
-        ],
-                                                                                                                    sentence2c: [
-            "boł"
-        ],
-        sentence: [
-            "to",
-            "his",
-            "bow"
-        ],
-        key: "bow",
-        category1: "nauka",
-        category2: ["rzecz"]
-    },
-    {
-        id: [
-            101,
             18,
             35
         ],
@@ -87,7 +57,7 @@ fiszki10.push(
     },
     {
         id: [
-            102,
+            101,
             18,
             35
         ],
@@ -119,12 +89,12 @@ fiszki10.push(
     },
     {
         id: [
-            103,
+            102,
             18,
             35
         ],
         img: "https://www.arbulang.com/img/fiszki1/103a.jpg",
-                                                                                                                                                                        word: [
+            word: [
             "http://localhost/arbulanguage.com/voice/angielski/lekcja18/not.mp3"
         ],
         story: "Leoni<b><u>das</b></u> król spartan odpala k<b><u>not</b></u> świeczki, bo <b><u>nie jest</b></u> odpalona",
@@ -152,7 +122,7 @@ fiszki10.push(
     },
     {
         id: [
-            104,
+            103,
             18,
             35
         ],
@@ -184,7 +154,7 @@ fiszki10.push(
     },
     {
         id: [
-            105,
+            104,
             18,
             36
         ],
@@ -232,7 +202,7 @@ fiszki10.push(
     },
     {
         id: [
-            106,
+            105,
             18,
             36
         ],
@@ -270,7 +240,7 @@ fiszki10.push(
     },
     {
         id: [
-            107,
+            106,
             18,
             36
         ],
@@ -300,7 +270,7 @@ fiszki10.push(
     },
     {
         id: [
-            108,
+            107,
             19,
             37
         ],
@@ -354,7 +324,7 @@ fiszki10.push(
     },
     {
         id: [
-            109,
+            108,
             19,
             37
         ],
@@ -385,7 +355,7 @@ fiszki10.push(
     },
     {
         id: [
-            110,
+            109,
             19,
             37
         ],
@@ -440,7 +410,7 @@ fiszki10.push(
     },
     {
         id: [
-            111,
+            110,
             19,
             38
         ],
@@ -470,7 +440,7 @@ fiszki10.push(
     },
     {
         id: [
-            112,
+            111,
             19,
             38
         ],
@@ -509,7 +479,7 @@ fiszki10.push(
     },
     {
         id: [
-            113,
+            112,
             19,
             38
         ],
@@ -539,7 +509,7 @@ fiszki10.push(
     },
     {
         id: [
-            114,
+            113,
             20,
             39
         ],
@@ -594,7 +564,7 @@ fiszki10.push(
     },
     {
         id: [
-            115,
+            114,
             20,
             39
         ],
@@ -625,7 +595,7 @@ fiszki10.push(
     },
     {
         id: [
-            116,
+            115,
             20,
             39
         ],
@@ -656,7 +626,7 @@ fiszki10.push(
     },
     {
         id: [
-            117,
+            116,
             20,
             40
         ],
@@ -686,7 +656,7 @@ fiszki10.push(
     },
     {
         id: [
-            118,
+            117,
             20,
             40
         ],
@@ -716,7 +686,7 @@ fiszki10.push(
     },
     {
         id: [
-            119,
+            118,
             20,
             40
         ],
@@ -746,7 +716,7 @@ fiszki10.push(
     },
     {
         id: [
-            120,
+            119,
             21,
             41
         ],
@@ -801,7 +771,7 @@ fiszki10.push(
     },
     {
         id: [
-            121,
+            120,
             21,
             41
         ],
@@ -832,7 +802,7 @@ fiszki10.push(
     },
     {
         id: [
-            122,
+            121,
             21,
             41
         ],
@@ -863,7 +833,7 @@ fiszki10.push(
     },
     {
         id: [
-            123,
+            122,
             21,
             42
         ],
@@ -893,7 +863,7 @@ fiszki10.push(
     },
     {
         id: [
-            124,
+            123,
             21,
             42
         ],
@@ -941,7 +911,7 @@ fiszki10.push(
     },
     {
         id: [
-            125,
+            124,
             21,
             42
         ],
@@ -971,7 +941,7 @@ fiszki10.push(
     },
     {
         id: [
-            126,
+            125,
             22,
             43
         ],
@@ -1008,7 +978,7 @@ fiszki10.push(
     },
     {
         id: [
-            127,
+            126,
             22,
             43
         ],
@@ -1039,7 +1009,7 @@ fiszki10.push(
     },
     {
         id: [
-            128,
+            127,
             22,
             43
         ],
@@ -1069,7 +1039,7 @@ fiszki10.push(
     },
     {
         id: [
-            129,
+            128,
             22,
             44
         ],
@@ -1098,7 +1068,7 @@ fiszki10.push(
     },
     {
         id: [
-            130,
+            129,
             22,
             44
         ],
@@ -1133,7 +1103,7 @@ fiszki10.push(
     },
     {
         id: [
-            131,
+            130,
             23,
             45
         ],
@@ -1170,7 +1140,7 @@ fiszki10.push(
     },
     {
         id: [
-            132,
+            131,
             23,
             45
         ],
@@ -1200,7 +1170,7 @@ fiszki10.push(
     },
     {
         id: [
-            133,
+            132,
             23,
             45
         ],
@@ -1230,7 +1200,7 @@ fiszki10.push(
     },
     {
         id: [
-            134,
+            133,
             23,
             46
         ],
@@ -1260,7 +1230,7 @@ fiszki10.push(
     },
     {
         id: [
-            135,
+            134,
             23,
             46
         ],
@@ -1311,7 +1281,7 @@ fiszki10.push(
     },
     {
         id: [
-            136,
+            135,
             23,
             46
         ],
@@ -1341,7 +1311,7 @@ fiszki10.push(
     },
     {
         id: [
-            137,
+            136,
             24,
             47
         ],
@@ -1399,7 +1369,7 @@ fiszki10.push(
     },
     {
         id: [
-            138,
+            137,
             24,
             47
         ],
@@ -1433,7 +1403,7 @@ fiszki10.push(
     },
     {
         id: [
-            139,
+            138,
             24,
             47
         ],
@@ -1466,7 +1436,7 @@ fiszki10.push(
     },
     {
         id: [
-            140,
+            139,
             24,
             47
         ],
@@ -1499,7 +1469,7 @@ fiszki10.push(
     },
     {
         id: [
-            141,
+            140,
             24,
             47
         ],
@@ -1550,7 +1520,7 @@ fiszki10.push(
     },
     {
         id: [
-            142,
+            141,
             24,
             47
         ],
@@ -1583,7 +1553,7 @@ fiszki10.push(
     },
     {
         id: [
-            143,
+            142,
             24,
             48
         ],
@@ -1637,7 +1607,7 @@ fiszki10.push(
     },
     {
         id: [
-            144,
+            143,
             24,
             48
         ],
@@ -1667,7 +1637,7 @@ fiszki10.push(
     },
     {
         id: [
-            145,
+            144,
             25,
             49
         ],
@@ -1724,7 +1694,7 @@ fiszki10.push(
     },
     {
         id: [
-            146,
+            145,
             25,
             49
         ],
@@ -1757,7 +1727,7 @@ fiszki10.push(
     },
     {
         id: [
-            147,
+            146,
             25,
             49
         ],
@@ -1789,7 +1759,7 @@ fiszki10.push(
     },
     {
         id: [
-            148,
+            147,
             25,
             49
         ],
@@ -1821,7 +1791,7 @@ fiszki10.push(
     },
     {
         id: [
-            149,
+            148,
             25,
             49
         ],
@@ -1853,7 +1823,7 @@ fiszki10.push(
     },
     {
         id: [
-            150,
+            149,
             25,
             50
         ],
@@ -1902,7 +1872,7 @@ fiszki10.push(
     },
     {
         id: [
-            151,
+            150,
             25,
             50
         ],
@@ -1933,7 +1903,7 @@ fiszki10.push(
     },
     {
         id: [
-            152,
+            151,
             25,
             50
         ],
@@ -1964,7 +1934,7 @@ fiszki10.push(
     },
     {
         id: [
-            153,
+            152,
             25,
             50
         ],
@@ -1995,7 +1965,7 @@ fiszki10.push(
     },
     {
         id: [
-            154,
+            153,
             26,
             51
         ],
@@ -2053,7 +2023,7 @@ fiszki10.push(
     },
     {
         id: [
-            155,
+            154,
             26,
             51
         ],
@@ -2086,7 +2056,7 @@ fiszki10.push(
     },
     {
         id: [
-            156,
+            155,
             26,
             51
         ],
@@ -2128,7 +2098,7 @@ fiszki10.push(
     },
     {
         id: [
-            157,
+            156,
             26,
             51
         ],
@@ -2161,7 +2131,7 @@ fiszki10.push(
     },
     {
         id: [
-            158,
+            157,
             26,
             51
         ],
@@ -2202,7 +2172,7 @@ fiszki10.push(
     },
     {
         id: [
-            159,
+            158,
             26,
             51
         ],
@@ -2253,7 +2223,7 @@ fiszki10.push(
     },
     {
         id: [
-            160,
+            159,
             26,
             52
         ],
@@ -2284,7 +2254,7 @@ fiszki10.push(
     },
     {
         id: [
-            161,
+            160,
             26,
             52
         ],
@@ -2315,7 +2285,7 @@ fiszki10.push(
     },
     {
         id: [
-            162,
+            161,
             26,
             52
         ],
@@ -2346,7 +2316,7 @@ fiszki10.push(
     },
     {
         id: [
-            163,
+            162,
             26,
             52
         ],
@@ -2377,7 +2347,7 @@ fiszki10.push(
     },
     {
         id: [
-            164,
+            163,
             27,
             53
         ],
@@ -2435,7 +2405,7 @@ fiszki10.push(
     },
     {
         id: [
-            165,
+            164,
             27,
             53
         ],
@@ -2468,7 +2438,7 @@ fiszki10.push(
     },
     {
         id: [
-            166,
+            165,
             27,
             53
         ],
@@ -2510,7 +2480,7 @@ fiszki10.push(
     },
     {
         id: [
-            167,
+            166,
             27,
             53
         ],
@@ -2561,7 +2531,7 @@ fiszki10.push(
     },
     {
         id: [
-            168,
+            167,
             27,
             53
         ],
@@ -2594,7 +2564,7 @@ fiszki10.push(
     },
     {
         id: [
-            169,
+            168,
             27,
             53
         ],
@@ -2627,7 +2597,7 @@ fiszki10.push(
     },
     {
         id: [
-            170,
+            169,
             27,
             54
         ],
@@ -2663,7 +2633,7 @@ fiszki10.push(
     },
     {
         id: [
-            171,
+            170,
             27,
             54
         ],
@@ -2693,7 +2663,7 @@ fiszki10.push(
     },
     {
         id: [
-            172,
+            171,
             27,
             54
         ],
@@ -2723,7 +2693,7 @@ fiszki10.push(
     },
     {
         id: [
-            173,
+            172,
             28,
             55
         ],
@@ -2762,7 +2732,7 @@ fiszki10.push(
     },
     {
         id: [
-            174,
+            173,
             28,
             55
         ],
@@ -2794,7 +2764,7 @@ fiszki10.push(
     },
     {
         id: [
-            175,
+            174,
             28,
             55
         ],
@@ -2826,7 +2796,7 @@ fiszki10.push(
     },
     {
         id: [
-            176,
+            175,
             28,
             55
         ],
@@ -2875,7 +2845,7 @@ fiszki10.push(
     },
     {
         id: [
-            177,
+            176,
             28,
             55
         ],
@@ -2907,7 +2877,7 @@ fiszki10.push(
     },
     {
         id: [
-            178,
+            177,
             28,
             56
         ],
@@ -2963,7 +2933,7 @@ fiszki10.push(
     },
     {
         id: [
-            179,
+            178,
             28,
             56
         ],
@@ -2995,7 +2965,7 @@ fiszki10.push(
     },
     {
         id: [
-            180,
+            179,
             28,
             56
         ],
@@ -3027,7 +2997,7 @@ fiszki10.push(
     },
     {
         id: [
-            181,
+            180,
             28,
             56
         ],
@@ -3077,7 +3047,7 @@ fiszki10.push(
     },
     {
         id: [
-            182,
+            181,
             28,
             56
         ],
@@ -3109,7 +3079,7 @@ fiszki10.push(
     },
     {
         id: [
-            183,
+            182,
             29,
             57
         ],
@@ -3150,7 +3120,7 @@ fiszki10.push(
     },
     {
         id: [
-            184,
+            183,
             29,
             57
         ],
@@ -3184,7 +3154,7 @@ fiszki10.push(
     },
     {
         id: [
-            185,
+            184,
             29,
             57
         ],
@@ -3218,7 +3188,7 @@ fiszki10.push(
     },
     {
         id: [
-            186,
+            185,
             29,
             57
         ],
@@ -3252,7 +3222,7 @@ fiszki10.push(
     },
     {
         id: [
-            187,
+            186,
             29,
             57
         ],
@@ -3286,7 +3256,7 @@ fiszki10.push(
     },
     {
         id: [
-            188,
+            187,
             29,
             57
         ],
@@ -3320,7 +3290,7 @@ fiszki10.push(
     },
     {
         id: [
-            189,
+            188,
             29,
             57
         ],
@@ -3354,7 +3324,7 @@ fiszki10.push(
     },
     {
         id: [
-            190,
+            189,
             29,
             58
         ],
@@ -3397,7 +3367,7 @@ fiszki10.push(
     },
     {
         id: [
-            191,
+            190,
             29,
             58
         ],
@@ -3426,7 +3396,7 @@ fiszki10.push(
     },
     {
         id: [
-            192,
+            191,
             30,
             59
         ],
@@ -3465,7 +3435,7 @@ fiszki10.push(
     },
     {
         id: [
-            193,
+            192,
             30,
             59
         ],
@@ -3498,7 +3468,7 @@ fiszki10.push(
     },
     {
         id: [
-            194,
+            193,
             30,
             59
         ],
@@ -3530,7 +3500,7 @@ fiszki10.push(
     },
     {
         id: [
-            195,
+            194,
             30,
             59
         ],
@@ -3562,7 +3532,7 @@ fiszki10.push(
     },
     {
         id: [
-            196,
+            195,
             30,
             59
         ],
@@ -3600,7 +3570,7 @@ fiszki10.push(
     },
     {
         id: [
-            197,
+            196,
             30,
             60
         ],
@@ -3632,7 +3602,7 @@ fiszki10.push(
     },
     {
         id: [
-            198,
+            197,
             30,
             60
         ],
@@ -3649,7 +3619,7 @@ fiszki10.push(
             "pomóc"
         ],
                                    sentence2c: [
-            "help"
+            "tu_help"
         ],
         sentence: [
             "how",
@@ -3658,8 +3628,90 @@ fiszki10.push(
             "your",
             "child"
         ],
-        key: "help",
+        key: "to help",
         category1: "nauka",
         category2: ["czasownik"]
+    },
+    {
+        id: [
+            198,
+            30,
+            60
+        ],
+        img: [
+            "https://www.arbulang.com/img/fiszki1/17a.jpg",
+            "https://www.arbulang.com/img/fiszki1/17b.jpg",
+            "https://www.arbulang.com/img/fiszki1/17c.jpg",
+            "https://www.arbulang.com/img/fiszki1/17d.jpg",
+            "https://www.arbulang.com/img/fiszki1/17e.jpg"
+        ],
+                                                                                                                                                    word: [
+            "http://localhost/arbulanguage.com/voice/angielski/lekcja30/your.mp3"
+        ],
+        story: [
+            "W wojsku ma<u><b>jor</u></b> to <u><b>twój</u></b> szef od musztry",
+            "F<u><b>jor</u></b>d to zatoka, gdzie <u><b>twój</u></b> wypoczynek może być fajny",
+            "W <u><b>Jor</u></b>dani kobieta musi mieć burkę, ale to <u><b>twój</u></b> wybór",
+            "<u><b>Twoje</u></b> dziecko ma fajne ba<u><b>jor</u></b>ko",
+            "B<u><b>jor</u></b>n jest ma<u><b>jor</u></b>em i mieszka na Ma<u><b>jor</u></b>ce. Każdy mu mówi - <u><b>twój</u></b> piersek </u><b>York</u></b> jest śliczny"
+        ],
+        desc: "your[jor] - łatwość/łatwością",
+        sentence2: [
+            "your"
+        ],
+                                                 sentence2b: [
+            "Twojemu"
+        ],
+                                           sentence2c: [
+            "jor"
+        ],
+        sentence: [
+            "how",
+            "to",
+            "help",
+            "your",
+            "child"
+        ],
+        key: "your",
+        category1: [
+            "sport", "wojsko",
+            "natura", "miejsca",
+            "nauka", "socjologia",
+            "czarny humor", "dzieciństwo",
+            "związki", "otoczenie"
+        ],
+        category2: ["osoby", "zaimkiosobowe"]
+    },
+    {
+        id: [
+            199,
+            30,
+            60
+        ],
+        img: "https://www.arbulang.com/img/fiszki1/201a.jpg",
+                                                                                                                                                    word: [
+            "http://localhost/arbulanguage.com/voice/angielski/lekcja30/child.mp3"
+        ],
+        story: "Bawimy się w chowanego, kolega <u><b>czai</u></b> się za murkiem. Jedno <u><b>dziecko</u></b> Wa<u><b>ld</u></b>iego - zawołała mama",
+        desc: "child[czaild] - dziecko",
+        sentence2: [
+            "child"
+        ],
+                                                 sentence2b: [
+            "dziecku"
+        ],
+                                                   sentence2c: [
+            "czaild"
+        ],
+        sentence: [
+            "how",
+            "to",
+            "help",
+            "your",
+            "child"
+        ],
+        key: "child",
+        category1: "nauka",
+        category2: ["osoby"]
     }
 );

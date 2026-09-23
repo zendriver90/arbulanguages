@@ -21,6 +21,7 @@
                 <script src="start/testowyb10v6.js"></script>
                 <script src="start/testowyb10v7.js"></script>
                 <script src="start/testowyb10v8.js"></script>
+                                <script src="start/testowyb10v9.js"></script>
         <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
         <meta charset="UTF-8">
         <title>arbulang.com</title>
@@ -28,6 +29,93 @@
         <meta name="keywords" content="naucz się angielskiego, 1000 angielskich słów, szybka nauka angielskiego, jak nauczyć się angielskiego, jak szybko nauczyć się języka, nauka angielskiego z przyjemnością" />
         <style>
             @media (min-width: 999px) {
+                /* =====================================
+   START / POWTÓRZ
+   ===================================== */
+
+.start-word-button,
+.repeat-word-button {
+
+    display: inline-flex;
+
+    align-items: center;
+    justify-content: center;
+
+    box-sizing: border-box;
+
+    min-width: 100px;
+    height: 34px;
+width: 50px;
+    padding: 0 14px;
+
+    margin: 6px 0;
+
+    border: 1px solid #999;
+    border-radius: 6px;
+
+    background: #f2f2f2;
+
+    color: #222;
+
+    font-size: 13px;
+    font-weight: 700;
+
+    line-height: 1;
+
+    cursor: pointer;
+
+    transition:
+        background 0.15s ease,
+        transform 0.1s ease,
+        box-shadow 0.15s ease;
+}
+
+
+/* =====================================
+   START
+   ===================================== */
+
+.start-word-button:hover {
+
+    background: #e2e2e2;
+
+    box-shadow:
+        0 2px 6px rgba(0,0,0,0.15);
+}
+
+
+/* =====================================
+   POWTÓRZ
+   ===================================== */
+
+.repeat-word-button {
+
+    background: #fff;
+
+    border-color: #777;
+
+    color: #333;
+}
+
+
+.repeat-word-button:hover {
+
+    background: #e8e8e8;
+
+    box-shadow:
+        0 2px 6px rgba(0,0,0,0.15);
+}
+
+
+/* =====================================
+   KLIK
+   ===================================== */
+
+.start-word-button:active,
+.repeat-word-button:active {
+
+    transform: scale(0.96);
+}
                 #word-transaction-window {
     position: fixed;
     left: 10px;
@@ -803,7 +891,13 @@ overflow-y: visible;
     background:rgba(255,255,255,.25);
     font-size:13px;
 }
+.rodzaj-button[data-rodzaj="wylosowany"]{
+    background:#e74c3c;
+}
 
+.rodzaj-button[data-rodzaj="spolecznosc"]{
+    background:#3498db;
+}
 /* Ustawienia */
 .rodzaj-button[data-rodzaj="osoby"]{
     background:#e74c3c;
@@ -3309,7 +3403,16 @@ input {
                 <p id="key3Result"></p>
 <div class="user-cards" data-user-cards-container></div>
 
-
+<button class="rodzaj-button"
+    data-rodzaj="wylosowany"
+    onclick="przekazArgument0('', '', '', '', '', 'losowyuklad', tablica3[1], 'other', false, '', '', '', '', '100')">
+    <span>Wylosowane zdania</span><span>Twój widok</span>
+</button>
+<button class="rodzaj-button"
+    data-rodzaj="spolecznosc"
+    onclick="przekazArgument0('all', 'all', '', '', '', 'fiszki', tablica3[1], 'other', false, '', '', '', '', '100')">
+    <span>Widok społecznościowy</span>
+</button>
 <template data-user-template>
     <div class="card">
         <div class="header" data-header></div>
@@ -3319,124 +3422,124 @@ input {
 <div class="rodzaj-buttons-container">
 <button class="rodzaj-button"
     data-rodzaj="osoby"
-    onclick="przekazArgument0('', 'osoby', '', '', '', '', '', tablica3[1], 'other', false, '', '', '', '', '100')">
+    onclick="przekazArgument0('', 'osoby', '', '', '', 'fiszki', tablica3[1], 'other', false, '', '', '', '', '100')">
     <span>Osoby (Rodzina, zaimki, zawody)</span>
     <span class="count" id="liczbaOsoby">0</span>
 </button>
 
 <button class="rodzaj-button"
     data-rodzaj="zaimkiosobowe"
-    onclick="przekazArgument0('', 'zaimkiosobowe', '', '', '', '', '', tablica3[1], 'other', false, '', '', '', '', '100')">
+    onclick="przekazArgument0('', 'zaimkiosobowe', '', '', '', 'fiszki', tablica3[1], 'other', false, '', '', '', '', '100')">
     <span>Zaimki osobowe</span>
     <span class="count" id="liczbaZaimki">0</span>
 </button>
 
 <button class="rodzaj-button"
     data-rodzaj="spojniki"
-    onclick="przekazArgument0('', 'spojniki', '', '', '', '', '', tablica3[1], 'other', false, '', '', '', '', '100')">
+    onclick="przekazArgument0('', 'spojniki', '', '', '', 'fiszki', tablica3[1], 'other', false, '', '', '', '', '100')">
     <span>Spójniki</span>
     <span class="count" id="liczbaSpojniki">0</span>
 </button>
 
     <button class="rodzaj-button"
         data-rodzaj="czasownik"
-        onclick="przekazArgument0('', 'czasownik', '', '', '', '', '', tablica3[1], 'other', false, '', '', '', '', '100')">
+        onclick="przekazArgument0('', 'czasownik', '', '', '', 'fiszki', tablica3[1], 'other', false, '', '', '', '', '100')">
         <span>Czasowniki</span>
             <span class="count" id="liczbaCzasownik">0</span>
     </button>
         <button class="rodzaj-button"
         data-rodzaj="czas"
-        onclick="przekazArgument0('', 'czas', '', '', '', '', '', tablica3[1], 'other', false, '', '', '', '', '100')">
+        onclick="przekazArgument0('', 'czas', '', '', '', 'fiszki', tablica3[1], 'other', false, '', '', '', '', '100')">
         <span>Czas</span>
             <span class="count" id="liczbaCzas">0</span>
     </button>
             <button class="rodzaj-button"
         data-rodzaj="okresleniaIlosci"
-        onclick="przekazArgument0('', 'okresleniaIlosci', '', '', '', '', '', tablica3[1], 'other', false, '', '', '', '', '100')">
+        onclick="przekazArgument0('', 'okresleniaIlosci', '', '', '', 'fiszki', tablica3[1], 'other', false, '', '', '', '', '100')">
         <span>Określenia ilości</span>
                     <span class="count" id="liczbaOkresleniaIlosci">0</span>
     </button>
             <button class="rodzaj-button"
         data-rodzaj="okresleniaMiejsca"
-        onclick="przekazArgument0('', 'okresleniaMiejsca', '', '', '', '', '', tablica3[1], 'other', false, '', '', '', '', '100')">
+        onclick="przekazArgument0('', 'okresleniaMiejsca', '', '', '', 'fiszki', tablica3[1], 'other', false, '', '', '', '', '100')">
         <span>Określenia miejsca</span>
                     <span class="count" id="liczbaokresleniaMiejsca">0</span>
     </button>
                 <button class="rodzaj-button"
         data-rodzaj="natura"
-        onclick="przekazArgument0('', 'natura', '', '', '', '', '', tablica3[1], 'other', false, '', '', '', '', '100')">
+        onclick="przekazArgument0('', 'natura', '', '', '', 'fiszki', tablica3[1], 'other', false, '', '', '', '', '100')">
         <span>Natura</span>
                             <span class="count" id="liczbaNatura">0</span>
     </button>
                 <button class="rodzaj-button"
         data-rodzaj="kolory"
-        onclick="przekazArgument0('', 'kolory', '', '', '', '', '', tablica3[1], 'other', false, '', '', '', '', '100')">
+        onclick="przekazArgument0('', 'kolory', '', '', '', 'fiszki', tablica3[1], 'other', false, '', '', '', '', '100')">
         <span>Kolory</span>
                                     <span class="count" id="liczbaKolory">0</span>
     </button>
             <button class="rodzaj-button"
         data-rodzaj="zwierzeta"
-        onclick="przekazArgument0('', 'zwierzeta', '', '', '', '', '', tablica3[1], 'other', false, '', '', '', '', '100')">
+        onclick="przekazArgument0('', 'zwierzeta', '', '', '', 'fiszki', tablica3[1], 'other', false, '', '', '', '', '100')">
         <span>Zwierzęta</span>
                                             <span class="count" id="liczbaZwierzeta">0</span>
     </button>
                 <button class="rodzaj-button"
         data-rodzaj="garderoba"
-        onclick="przekazArgument0('', 'garderoba', '', '', '', '', '', tablica3[1], 'other', false, '', '', '', '', '100')">
+        onclick="przekazArgument0('', 'garderoba', '', '', '', 'fiszki', tablica3[1], 'other', false, '', '', '', '', '100')">
         <span>Garderoba</span>
                                             <span class="count" id="liczbaGarderoba">0</span>
     </button>
                 <button class="rodzaj-button"
         data-rodzaj="cialo"
-        onclick="przekazArgument0('', 'cialo', '', '', '', '', '', tablica3[1], 'other', false, '', '', '', '', '100')">
+        onclick="przekazArgument0('', 'cialo', '', '', '', 'fiszki', tablica3[1], 'other', false, '', '', '', '', '100')">
         <span>Ciało</span>
                                                     <span class="count" id="liczbaCialo">0</span>
     </button>
                     <button class="rodzaj-button"
         data-rodzaj="jedzenie"
-        onclick="przekazArgument0('', 'jedzenie', '', '', '', '', '', tablica3[1], 'other', false, '', '', '', '', '100')">
+        onclick="przekazArgument0('', 'jedzenie', '', '', '', 'fiszki', tablica3[1], 'other', false, '', '', '', '', '100')">
         <span>Jedzenie</span>
                    <span class="count" id="liczbaJedzenie">0</span>
     </button>
                         <button class="rodzaj-button"
         data-rodzaj="budynki"
-        onclick="przekazArgument0('', 'budynki', '', '', '', '', '', tablica3[1], 'other', false, '', '', '', '', '100')">
+        onclick="przekazArgument0('', 'budynki', '', '', '', 'fiszki', tablica3[1], 'other', false, '', '', '', '', '100')">
         <span>Budynki</span>
                    <span class="count" id="liczbaBudynki">0</span>
     </button>
                             <button class="rodzaj-button"
         data-rodzaj="szkola"
-        onclick="przekazArgument0('', 'szkola', '', '', '', '', '', tablica3[1], 'other', false, '', '', '', '', '100')">
+        onclick="przekazArgument0('', 'szkola', '', '', '', 'fiszki', tablica3[1], 'other', false, '', '', '', '', '100')">
         <span>Szkoła</span>
                    <span class="count" id="liczbaSzkola">0</span>
     </button>
                                 <button class="rodzaj-button"
         data-rodzaj="miejsca"
-        onclick="przekazArgument0('', 'miejsca', '', '', '', '', '', tablica3[1], 'other', false, '', '', '', '', '100')">
+        onclick="przekazArgument0('', 'miejsca', '', '', '', 'fiszki', tablica3[1], 'other', false, '', '', '', '', '100')">
         <span>Miejsca</span>
                    <span class="count" id="liczbaMiejsca">0</span>
     </button>
                                 <button class="rodzaj-button"
         data-rodzaj="sport"
-        onclick="przekazArgument0('', 'sport', '', '', '', '', '', tablica3[1], 'other', false, '', '', '', '', '100')">
+        onclick="przekazArgument0('', 'sport', '', '', '', 'fiszki', tablica3[1], 'other', false, '', '', '', '', '100')">
         <span>Sport</span>
                    <span class="count" id="liczbaSport">0</span>
     </button>
                                     <button class="rodzaj-button"
         data-rodzaj="rzecz"
-        onclick="przekazArgument0('', 'rzecz', '', '', '', '', '', tablica3[1], 'other', false, '', '', '', '', '100')">
+        onclick="przekazArgument0('', 'rzecz', '', '', '', 'fiszki', tablica3[1], 'other', false, '', '', '', '', '100')">
         <span>Rzecz</span>
                    <span class="count" id="liczbaRzecz">0</span>
     </button>
                                         <button class="rodzaj-button"
         data-rodzaj="przymiotnik"
-        onclick="przekazArgument0('', 'przymiotnik', '', '', '', '', '', tablica3[1], 'other', false, '', '', '', '', '100')">
+        onclick="przekazArgument0('', 'przymiotnik', '', '', '', 'fiszki', tablica3[1], 'other', false, '', '', '', '', '100')">
         <span>Przymiotnik</span>
                    <span class="count" id="liczbaPrzymiotnik">0</span>
     </button>
                                             <button class="rodzaj-button"
         data-rodzaj="to_be"
-        onclick="przekazArgument0('', 'to_be', '', '', '', '', '', tablica3[1], 'other', false, '', '', '', '', '100')">
+        onclick="przekazArgument0('', 'to_be', '', '', '', 'fiszki', tablica3[1], 'other', false, '', '', '', '', '100')">
         <span>Odmiana czasownika To Be</span>
                    <span class="count" id="liczbaToBe">0</span>
     </button>
@@ -3591,7 +3694,7 @@ function showUniqueWordsUpToLesson73() {
 
   // 🔥 od początku do 73
   const filtered = fiszki10.filter(f => 
-    f.id && f.id[0] <= 778
+    f.id && f.id[0] <= 1000
   );
 
   const uniqueWords = getUniqueWordArray(filtered);
@@ -3812,7 +3915,7 @@ function showFiszkiForLesson5d(matchingFiszki1v, tablica41) {
             idpolski = false;
             let indexes = [];
             let pulpitstartowy = false;
-            var czasv2;
+            let czasv = 'fiszki';
 
             // Definicja zmiennej globalnej globalCategory
             var przyciskKlikniety = false;
@@ -3838,7 +3941,7 @@ function showFiszkiForLesson5d(matchingFiszki1v, tablica41) {
                         let tablica43d = [];
                         let indexDiv0;
                         let indexDiv0b;
-            function przekazArgument0(selectedCategory, category, index55, index77, buttonindex, czas, idpolski, idtranslate, id, rodzaj, isSearching, matchingLessons5, matchingLessons5b, isSearching2, staraTablica40, indexDivRange, indexDiv0, indexDiv0b, indexDiv0d, number, flagaPrzycisku2, flagaPrzycisku) {
+            function przekazArgument0(selectedCategory, category, index55, index77, buttonindex, idpolski, idtranslate, id, rodzaj, isSearching, matchingLessons5, matchingLessons5b, isSearching2, staraTablica40, indexDivRange, indexDiv0, indexDiv0b, indexDiv0d, number, flagaPrzycisku2, flagaPrzycisku) {
        console.log('Liczba 55', index55, index77); // Dodano log licznika losowań
         $('.grid-container .image-container3').remove();
                 $('.grid-container .image-container4').remove();
@@ -3854,12 +3957,24 @@ function showFiszkiForLesson5d(matchingFiszki1v, tablica41) {
                 przyciskKlikniety = true;
                 // Przypisz wartość do zmiennej globalnej
                 globalCategory = category;
+                window.savedWiCache = {};
+window.wordIndexCache = {};
+window.thumbHighlightCache = {};
+
+console.log('WYCZYSZCZONO CACHE DLA NOWEJ KATEGORII:', category);
                 tablica10.length = 0;
                 tablica15.length = 0;
                 globalIdTranslate = idtranslate;
                 // Wywołaj funkcję wybierzCharakter na podstawie trybu
-                wybierzCharakter(selectedCategory, category, tablica3[0], index55, index77, buttonindex, idpolski, tablica3[1], rodzaj, isSearching, matchingLessons5, matchingLessons5b, isSearching2, staraTablica40, indexDivRange, indexDiv0, indexDiv0b, indexDiv0d, number, flagaPrzycisku2, flagaPrzycisku);
-
+                wybierzCharakter(selectedCategory, category, index55, index77, buttonindex, idpolski, tablica3[1], rodzaj, isSearching, matchingLessons5, matchingLessons5b, isSearching2, staraTablica40, indexDivRange, indexDiv0, indexDiv0b, indexDiv0d, number, flagaPrzycisku2, flagaPrzycisku);
+console.log("===== ZMIANA KATEGORII =====");
+console.log("category z przycisku:", category);
+console.log("globalCategory:", globalCategory);
+console.log("tablica3[2]:", tablica3[2]);
+console.log("liczba fiszki:", fiszki.length);
+console.log("osoby:", findMatchingFiszkiCount('osoby', fiszki));
+console.log("natura:", findMatchingFiszkiCount('natura', fiszki));
+console.log("sport:", findMatchingFiszkiCount('sport', fiszki));
             }
 
             function ustawTryb(tryb, frazy) {
@@ -3869,8 +3984,8 @@ function showFiszkiForLesson5d(matchingFiszki1v, tablica41) {
             }
             console.log('hej33bb', tablica3);
             // Funkcja wybierająca charakter
-            function wybierzCharakter(selectedCategory, category, czas, index55, index77, buttonindex, idpolski, frazyid, rodzaj, isSearching, matchingLessons5, matchingLessons5b, isSearching2, staraTablica40, indexDivRange, indexDiv0, indexDiv0b, indexDiv0d, number, flagaPrzycisku2, flagaPrzycisku) {
-                console.log('hej223', czas, category, frazyid);
+            function wybierzCharakter(selectedCategory, category, index55, index77, buttonindex, idpolski, frazyid, rodzaj, isSearching, matchingLessons5, matchingLessons5b, isSearching2, staraTablica40, indexDivRange, indexDiv0, indexDiv0b, indexDiv0d, number, flagaPrzycisku2, flagaPrzycisku) {
+
 
                 pulpitstartowy = false;
                 // Aktualizuj matchingIndexes na podstawie nowej kategorii
@@ -3878,9 +3993,14 @@ function showFiszkiForLesson5d(matchingFiszki1v, tablica41) {
                 matchingIndexes2 = findXForMatchingFiszkab(globalCategory, fiszki);
                 matchingIndexes3 = findXForMatchingFiszka3(globalCategory, fiszki);
 console.log('hej111', matchingIndexes2);
-                wybierzRodzaj(selectedCategory, globalCategory, czas, matchingIndexes, index55, index77, buttonindex, idpolski, frazyid, matchingIndexes2, rodzaj, matchingIndexes3, isSearching, matchingLessons5, matchingLessons5b, isSearching2, staraTablica40, indexDivRange, indexDiv0, indexDiv0b, indexDiv0d, number, flagaPrzycisku2, flagaPrzycisku);
-                czasv2 = czas;
-            }
+                wybierzRodzaj(selectedCategory, globalCategory, matchingIndexes, index55, index77, buttonindex, idpolski, frazyid, matchingIndexes2, rodzaj, matchingIndexes3, isSearching, matchingLessons5, matchingLessons5b, isSearching2, staraTablica40, indexDivRange, indexDiv0, indexDiv0b, indexDiv0d, number, flagaPrzycisku2, flagaPrzycisku);
+    console.log("===== FILTROWANIE =====");
+console.log("globalCategory podczas filtrowania:", globalCategory);
+console.log("matchingIndexes:", matchingIndexes);
+console.log("matchingIndexes2:", matchingIndexes2);
+console.log("matchingIndexes3:", matchingIndexes3);        
+    }
+            
 function findXForMatchingFiszkab(category, fiszki) {
     return fiszki
 .filter(f => f.category2.includes(category))
@@ -4174,10 +4294,8 @@ function findMatchingFiszkiCount(category, fiszki) {
             let losowaniaCounter2 = 0; // Zmienna licznika losowań
             let tablica33 = [];
             let tablica33b = [];
-            function wybierzRodzaj(selectedCategory, category, czas, matchingIndexes, index55, index77, buttonindex, idpolski, frazyid, matchingIndexes2, rodzaj, matchingIndexes3, isSearching, matchingLessons5, matchingLessons5b, isSearching2, staraTablica40, indexDivRange, indexDiv0, indexDiv0b, indexDiv0d, number, flagaPrzycisku2, flagaPrzycisku) {
-                category = category || globalCategory;
-                czasv2 = czas;
-                number;
+            function wybierzRodzaj(selectedCategory, category, matchingIndexes, index55, index77, buttonindex, idpolski, frazyid, matchingIndexes2, rodzaj, matchingIndexes3, isSearching, matchingLessons5, matchingLessons5b, isSearching2, staraTablica40, indexDivRange, indexDiv0, indexDiv0b, indexDiv0d, number, flagaPrzycisku2, flagaPrzycisku) {
+
 
                        console.log('Test100', matchingIndexes); // Dodano log licznika losowań
                 console.log('hej108n', number);
@@ -4381,7 +4499,7 @@ function removeFiszka(idFiszkiGroup) {
     }, 0);
 }
                 let powiadomienieCounter = 0; // Licznik wyświetleń powiadomień
-                                if (czas === 'fiszki' && czas !== "zdania" && isSearching) {
+                                if (idpolski === 'fiszki' && idpolski !== "zdania" && isSearching) {
                     console.log('Warunek czas === "fiszki" jest spełniony');
                     $('.grid-container .image-container3b').remove();
                     $('.grid-container .image-container4').remove();
@@ -4479,7 +4597,7 @@ if (myVariable.length > 0) {
                         console.log('Liczba dodanych divów:', numberOfContainers);
                     }
                 }
-                if (czas === 'zdania' && czas !== 'fiszki' && isSearching) {
+                if (idpolski === 'zdania' && idpolski !== 'fiszki' && isSearching) {
                     $('.grid-container .image-container3b').remove();
                     $('.grid-container .image-container3').remove();
                     $('.grid-container .image-container5').remove();
@@ -4621,10 +4739,13 @@ if (myVariable.length > 0) {
                     myVariable = validLessons;
                 }
                 console.log('hej129 idpolski:', idpolski);
+                
+                
+                
+                
                                 if (idpolski === 'losowyuklad') {
-                                    console.log('hej130: wyswietla się');
-    console.log('Warunek czas === "fiszki" jest spełniony');
-    $('.grid-container .image-container3b').remove();
+
+                    $('.grid-container .image-container3b').remove();
                     $('.grid-container .image-container4').remove();
                     $('.grid-container .image-container5').remove();
 
@@ -4660,10 +4781,120 @@ if (myVariable.length > 0) {
 
         shuffleArray(lessonsGroups);
         console.log('Grupy po tasowaniu:', lessonsGroups);
+// =====================================
+// LOSOWY UKŁAD — LOCALSTORAGE
+// =====================================
+
+const STORAGE_KEY_RANDOM_LAYOUT = 'losowyuklad_selectedGroups';
+
+let selectedGroups;
+
+// Sprawdź, czy istnieje wcześniej zapisany układ
+const savedRandomLayout = localStorage.getItem(STORAGE_KEY_RANDOM_LAYOUT);
+
+if (savedRandomLayout) {
+
+    try {
+
+        selectedGroups = JSON.parse(savedRandomLayout);
+
+        console.log(
+            'Wczytano zapisany losowy układ z localStorage:',
+            selectedGroups
+        );
+
+        // Dodatkowa kontrola — czy zapis zawiera poprawne dane
+        if (
+            !Array.isArray(selectedGroups) ||
+            selectedGroups.length === 0
+        ) {
+            throw new Error('Nieprawidłowy zapisany układ');
+        }
+
+    } catch (error) {
+
+        console.warn(
+            'Błąd odczytu zapisanego układu. Tworzę nowy układ.',
+            error
+        );
+
+        shuffleArray(lessonsGroups);
+
+        selectedGroups = lessonsGroups.slice(0, 12);
+
+        localStorage.setItem(
+            STORAGE_KEY_RANDOM_LAYOUT,
+            JSON.stringify(selectedGroups)
+        );
+    }
+
+} else {
+
+    // Nie ma zapisanego układu — losujemy po raz pierwszy
+
+    shuffleArray(lessonsGroups);
+
+    console.log(
+        'Grupy po pierwszym tasowaniu:',
+        lessonsGroups
+    );
+
+    selectedGroups = lessonsGroups.slice(0, 12);
+
+    // Zapisz dokładnie te 12 grup
+    localStorage.setItem(
+        STORAGE_KEY_RANDOM_LAYOUT,
+        JSON.stringify(selectedGroups)
+    );
+
+    console.log(
+        'Zapisano nowy losowy układ:',
+        selectedGroups
+    );
+}
+
 let newIndex = 0;
 
+console.log(
+    'AKTUALNY LOSOWY UKŁAD:',
+    selectedGroups
+);
 
-lessonsGroups.forEach((group, idx) => {
+// =====================================
+// POLICZ SŁOWA W WYLOSOWANYCH LEKCJACH
+// =====================================
+
+const selectedLessonIds = [];
+
+selectedGroups.forEach(group => {
+    selectedLessonIds.push(group.lessonId1);
+    selectedLessonIds.push(group.lessonId2);
+    selectedLessonIds.push(group.lessonId3);
+});
+
+const randomizedWordsCount = fiszki.filter(fiszka => {
+    if (!fiszka.id || !Array.isArray(fiszka.id)) {
+        return false;
+    }
+
+    const lessonId = fiszka.id[1];
+
+    return selectedLessonIds.some(id => String(id) === String(lessonId));
+}).length;
+
+console.log('Wylosowane lekcje:', selectedLessonIds);
+console.log('Liczba wylosowanych słów:', randomizedWordsCount);
+
+$('.rodzaj-button[data-rodzaj="wylosowany"] span').text(
+    `Wylosowane zdania (${randomizedWordsCount} słów)`
+);
+
+
+// =====================================
+// WYŚWIETLANIE 12 WYLOSOWANYCH GRUP
+// =====================================
+
+selectedGroups.forEach((group, idx) => {
     console.log(`Grupa ${idx}:`, group);
 
     // Destrukturyzacja — teraz możesz używać lessonId1, lessonId2, lessonId3 lokalnie
@@ -4700,7 +4931,7 @@ lessonsGroups.forEach((group, idx) => {
         lesson3Sentences
     });
 
-    try {
+
         showCombinedSentenceForLesson22b(
             selectedCategory, matchingIndexes3, rodzaj, matchingIndexes2,
             buttonindex, index55, index77,
@@ -4714,9 +4945,7 @@ lessonsGroups.forEach((group, idx) => {
             cumulativeFirstPartLength1, cumulativeFirstPartLength2, cumulativeFirstPartLength3,
             lessonsArrayZ, matchingLessons5, matchingLessons5b, isSearching
         );
-    } catch (error) {
-        console.error("Błąd w showCombinedSentenceForLesson dla grupy:", group, "Błąd:", error);
-    }
+
 
     // Przykład: jeśli newIndex ma zwiększać się z każdą iteracją:
     // newIndex += lesson1PartLength + lesson2PartLength + lesson3PartLength;
@@ -4803,7 +5032,7 @@ lessonsGroups.forEach((group, idx) => {
                 
 
             
-                if (czas === 'fiszki' && czas !== "zdania" && !isSearching) {
+                if (idpolski === 'fiszki' && idpolski !== "zdania" && !isSearching) {
                     console.log('Warunek czas === "fiszki" jest spełniony');
                     $('.grid-container .image-container4').remove();
                     $('.grid-container .image-container5').remove();
@@ -4962,7 +5191,7 @@ setTimeout(() => {
 
                 }
 
-                if (czas === 'zdania' && czas !== 'fiszki' && !isSearching) {
+                if (idpolski === 'zdania' && idpolski !== 'fiszki' && !isSearching) {
                     $('.grid-container .image-container3b').remove();
                     $('.grid-container .image-container3').remove();
                     $('.grid-container .image-container5').remove();
@@ -5303,7 +5532,7 @@ if (window.matchMedia("(min-width: 999px)").matches) {
             flagaPrzycisku2[0] = true;
                 flagaPrzycisku[0] = false;
                     console.log('hej110b', number, flagaPrzycisku, flagaPrzycisku2);
-                    przekazArgument0('all', 'all', '', '', false, 'fiszki', true, true, tablica3[1], tablica3[4], false, '', '', '', '', '100', '', '', '', false, true, false);
+                    przekazArgument0('', '', '', '', '', 'losowyuklad', '', tablica3[1], 'other', false, '', '', '', '', '100');
         </script>
     </body>
 </html>
