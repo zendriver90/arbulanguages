@@ -590,7 +590,7 @@ fiszki10.push(
         ],
         key: "students",
         category1: "nauka",
-        category2: ["osoby"],
+        category2: ["osoby", "kognaty"],
         category3: ["PresentSimple", "PresentSimplePodmiot"]
     },
     {
@@ -2052,7 +2052,7 @@ fiszki10.push(
         ],
         key: "idea",
         category1: "nauka",
-        category2: ["szkola"]
+        category2: ["szkola", "kognaty"]
     },
     {
         id: [
@@ -3463,7 +3463,7 @@ fiszki10.push(
         ],
         key: "offers",
         category1: "nauka",
-        category2: ["czasownik"],
+        category2: ["czasownik", "kognaty"],
         category3: ["PresentSimple", "PresentSimpleCzasownik"]
     },
     {

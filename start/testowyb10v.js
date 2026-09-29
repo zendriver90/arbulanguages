@@ -629,7 +629,7 @@ const fiszki10 = [
         ],
         key: "procedures",
         key2: ["procedury"],
-        category2: ""
+        category2: ["kognaty"]
     },
     {
         id: [
@@ -948,7 +948,7 @@ const fiszki10 = [
             "czarny humor", "zwierzęta",
             "związki", "świętowanie"
         ],
-        category2: ["emocje"]
+        category2: ["emocje", "kognaty"]
     },
     {
         id: [
@@ -1778,7 +1778,7 @@ const fiszki10 = [
         ],
         key: "organizes",
         category1: "związki",
-        category2: ["podmiot+czas", "czasownik"],
+        category2: ["podmiot+czas", "czasownik", "kognaty"],
         category3: ["PresentSimple", "PresentSimpleCzasownik"]
     },
     {
@@ -1855,7 +1855,7 @@ const fiszki10 = [
         ],
         key: "interesting",
         category1: "sport",
-        category2: ["przymiotnik"]
+        category2: ["przymiotnik", "kognaty"]
     },
     {
         id: [
@@ -2114,7 +2114,7 @@ const fiszki10 = [
         ],
         key: "intensively",
         category1: "związki",
-        category2: ["przymiotnik"]
+        category2: ["przymiotnik", "kognaty"]
     },
     {
         id: [

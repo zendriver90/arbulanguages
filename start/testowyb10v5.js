@@ -106,7 +106,7 @@ fiszki10.push(
             ],
             key: "english",
             category1: "nauka",
-            category2: ["szkola"]
+            category2: ["szkola", "kognaty"]
         },
         {
             id: [
@@ -578,7 +578,7 @@ fiszki10.push(
             ],
             key: "math",
             category1: "nauka",
-            category2: ["szkola"]
+            category2: ["szkola", "kognaty"]
         },
         {
             id: [
@@ -696,7 +696,7 @@ fiszki10.push(
             ],
             key: "bus",
             category1: "nauka",
-            category2: ["rzecz"]
+            category2: ["rzecz", "kognaty"]
         },
         {
             id: [
@@ -1344,7 +1344,7 @@ fiszki10.push(
             ],
             key: "visit",
             category1: "nauka",
-            category2: ["czasownik"]
+            category2: ["czasownik", "kognaty"]
         },
         {
             id: [
@@ -1379,7 +1379,7 @@ fiszki10.push(
             ],
             key: "museums",
             category1: "nauka",
-            category2: ["budynki", "okresleniaMiejsca"]
+            category2: ["budynki", "okresleniaMiejsca", "kognatys"]
         },
         {
             id: [
@@ -1497,7 +1497,7 @@ fiszki10.push(
             ],
             key: "team",
             category1: "nauka",
-            category2: ["sport"]
+            category2: ["sport", "kognaty"]
         },
         {
             id: [
@@ -2421,7 +2421,7 @@ fiszki10.push(
             ],
             key: "explore",
             category1: "nauka",
-            category2: ["czasownik"]
+            category2: ["czasownik", "kognaty"]
         },
         {
             id: [
@@ -2569,7 +2569,7 @@ fiszki10.push(
             ],
             key: "practices",
             category1: "nauka",
-            category2: ["czasownik"]
+            category2: ["czasownik", "kognaty"]
         },
         {
             id: [
@@ -2602,7 +2602,7 @@ fiszki10.push(
                 "yoga"
             ],
             key: "yoga",
-            category2: ["sport"]
+            category2: ["sport", "kognaty"]
         },
         {
             id: [
@@ -3059,7 +3059,7 @@ fiszki10.push(
             ],
             key: "europe",
             category1: "nauka",
-            category2: ["okresleniaMiejsca"]
+            category2: ["okresleniaMiejsca", "kognaty"]
         },
         {
             id: [

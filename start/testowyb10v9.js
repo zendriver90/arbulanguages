@@ -9,39 +9,6 @@ fiszki10.push(
             "http://localhost/arbulanguage.com/img/fiszki1/364a.jpg"
         ],
         story: [
-            "W letni dzień piszę list a w nim jest dołączona piosenka... taka serenada"
-        ],
-        desc: "letter[leter] - list",
-        sentence2: [
-            "letter"
-        ],
-                                                    sentence1b: [
-            "list"
-        ],
-                                     sentence1c: [
-            "leter"
-        ],
-        sentence: [
-            "He",
-            "opened",
-            "the",
-            "letter",
-            "slowly"
-        ],
-        key: "letter",
-        category1: "nauka",
-        category2: ["czas"]
-    },
-                    {
-        id: [
-            801,
-            140,
-            249
-        ],
-        img: [
-            "http://localhost/arbulanguage.com/img/fiszki1/364a.jpg"
-        ],
-        story: [
             "KOGNATY PARK (PL) - PARK (ENG)"
         ],
         desc: "slowly[slołli] - powoli",
@@ -67,7 +34,7 @@ fiszki10.push(
     },
                                         {
         id: [
-            802,
+            801,
             141,
             260
         ],
@@ -104,7 +71,7 @@ fiszki10.push(
     },
     {
         id: [
-            803,
+            802,
             141,
             250
         ],
@@ -136,7 +103,7 @@ fiszki10.push(
     },
         {
         id: [
-            804,
+            803,
             141,
             250
         ],
@@ -169,7 +136,7 @@ fiszki10.push(
     },
         {
         id: [
-            805,
+            804,
             141,
             250
         ],
@@ -201,7 +168,7 @@ fiszki10.push(
     },
             {
         id: [
-            806,
+            805,
             141,
             251
         ],
@@ -232,7 +199,7 @@ fiszki10.push(
     },
             {
         id: [
-            807,
+            806,
             141,
             251
         ],
@@ -263,7 +230,7 @@ fiszki10.push(
     },
             {
         id: [
-            808,
+            807,
             141,
             251
         ],
@@ -294,7 +261,7 @@ fiszki10.push(
     },
                                         {
         id: [
-            809,
+            808,
             142,
             260
         ],
@@ -329,7 +296,7 @@ fiszki10.push(
     },
         {
         id: [
-            810,
+            809,
             142,
             252
         ],
@@ -359,7 +326,7 @@ fiszki10.push(
     },
             {
         id: [
-            811,
+            810,
             142,
             252
         ],
@@ -390,7 +357,7 @@ fiszki10.push(
     },
                 {
         id: [
-            812,
+            811,
             142,
             252
         ],
@@ -421,7 +388,7 @@ fiszki10.push(
     },
                     {
         id: [
-            813,
+            812,
             142,
             252
         ],
@@ -452,7 +419,7 @@ fiszki10.push(
     },
                                         {
         id: [
-            814,
+            813,
             143,
             260
         ],
@@ -490,7 +457,7 @@ fiszki10.push(
     },
                             {
         id: [
-            815,
+            814,
             143,
             252
         ],
@@ -523,7 +490,7 @@ fiszki10.push(
     },
                                 {
         id: [
-            816,
+            815,
             143,
             252
         ],
@@ -556,7 +523,7 @@ fiszki10.push(
     },
                                     {
         id: [
-            817,
+            816,
             143,
             252
         ],
@@ -589,7 +556,7 @@ fiszki10.push(
     },
                                         {
         id: [
-            818,
+            817,
             143,
             252
         ],
@@ -622,7 +589,7 @@ fiszki10.push(
     },
                                             {
         id: [
-            819,
+            818,
             144,
             260
         ],
@@ -658,7 +625,7 @@ fiszki10.push(
     },
                                             {
         id: [
-            820,
+            819,
             144,
             252
         ],
@@ -689,7 +656,7 @@ fiszki10.push(
     },
                                                 {
         id: [
-            821,
+            820,
             144,
             252
         ],
@@ -720,7 +687,7 @@ fiszki10.push(
     },
                                                     {
         id: [
-            822,
+            821,
             144,
             252
         ],
@@ -750,7 +717,7 @@ fiszki10.push(
     },
                                                     {
         id: [
-            823,
+            822,
             144,
             252
         ],
@@ -780,7 +747,7 @@ fiszki10.push(
     },
                                                 {
         id: [
-            824,
+            823,
             145,
             260
         ],
@@ -816,7 +783,7 @@ fiszki10.push(
     },
                                                         {
         id: [
-            825,
+            824,
             145,
             252
         ],
@@ -847,7 +814,7 @@ fiszki10.push(
     },
                                                             {
         id: [
-            826,
+            825,
             145,
             252
         ],
@@ -878,7 +845,7 @@ fiszki10.push(
     },
                                                             {
         id: [
-            827,
+            826,
             145,
             252
         ],
@@ -908,7 +875,7 @@ fiszki10.push(
     },
                                                                 {
         id: [
-            828,
+            827,
             145,
             252
         ],
@@ -938,7 +905,7 @@ fiszki10.push(
     },
                                                     {
         id: [
-            829,
+            828,
             146,
             260
         ],
@@ -974,7 +941,7 @@ fiszki10.push(
     },
                                                                     {
         id: [
-            830,
+            829,
             146,
             252
         ],
@@ -1005,7 +972,7 @@ fiszki10.push(
     },
                                                                     {
         id: [
-            831,
+            830,
             146,
             252
         ],
@@ -1670,7 +1637,7 @@ fiszki10.push(
                                                                     {
         id: [
             852,
-            149,
+            150,
             260
         ],
         img: [
@@ -1706,7 +1673,7 @@ fiszki10.push(
                                                                                                     {
         id: [
             853,
-            149,
+            150,
             252
         ],
         img: [
@@ -1737,7 +1704,7 @@ fiszki10.push(
                                                                                                         {
         id: [
             854,
-            149,
+            150,
             252
         ],
         img: [
@@ -1768,7 +1735,7 @@ fiszki10.push(
                                                                                                             {
         id: [
             855,
-            149,
+            150,
             252
         ],
         img: [
@@ -1799,7 +1766,7 @@ fiszki10.push(
                                                                                                             {
         id: [
             856,
-            149,
+            150,
             252
         ],
         img: [
@@ -1830,7 +1797,7 @@ fiszki10.push(
                                                                                                             {
         id: [
             857,
-            149,
+            150,
             252
         ],
         img: [
@@ -1861,7 +1828,7 @@ fiszki10.push(
                                                                         {
         id: [
             858,
-            150,
+            151,
             260
         ],
         img: [
@@ -1897,7 +1864,7 @@ fiszki10.push(
                                                                                                                 {
         id: [
             859,
-            150,
+            151,
             252
         ],
         img: [
@@ -1928,7 +1895,7 @@ fiszki10.push(
                                                                                                                     {
         id: [
             860,
-            150,
+            151,
             252
         ],
         img: [
@@ -1942,7 +1909,7 @@ fiszki10.push(
             "remembers"
         ],
                                                                 sentence1b: [
-            "nastawienie"
+            "pamięta"
         ],
                             sentence1c: [
             "atitjud"
@@ -1959,7 +1926,7 @@ fiszki10.push(
                                                                                                                         {
         id: [
             861,
-            150,
+            151,
             252
         ],
         img: [
@@ -1991,7 +1958,7 @@ fiszki10.push(
                                                                                                                             {
         id: [
             862,
-            150,
+            151,
             252
         ],
         img: [
@@ -2000,12 +1967,12 @@ fiszki10.push(
         story: [
             "Mati czyli Matju ma ostatnio dobrą postawę"
         ],
-        desc: "important[] - ważne",
+        desc: "dates[] - aty",
         sentence2: [
-            "important"
+            "dates"
         ],
                                                                 sentence1b: [
-            "ważne"
+            "daty"
         ],
                             sentence1c: [
             ""
@@ -2023,7 +1990,7 @@ fiszki10.push(
                                                                                                                             {
         id: [
             863,
-            150,
+            151,
             252
         ],
         img: [
@@ -2037,7 +2004,7 @@ fiszki10.push(
             "and"
         ],
                                                                 sentence1b: [
-            "ważne"
+            "i"
         ],
                             sentence1c: [
             ""
@@ -2055,7 +2022,7 @@ fiszki10.push(
                                                                                                                             {
         id: [
             864,
-            150,
+            151,
             252
         ],
         img: [
@@ -2069,7 +2036,7 @@ fiszki10.push(
             "birthdays"
         ],
                                                                 sentence1b: [
-            "ważne"
+            "daty_urodzenia"
         ],
                             sentence1c: [
             ""
@@ -2087,7 +2054,7 @@ fiszki10.push(
                                                                             {
         id: [
             865,
-            151,
+            152,
             260
         ],
         img: [
@@ -2120,12 +2087,12 @@ fiszki10.push(
         ],
         key: "we",
         category2: ["osoby"],
-        category3: ["PastPerfect"]
+        category3: ["PresentPerfect"]
     },
                                                                                                                                 {
         id: [
             866,
-            151,
+            152,
             252
         ],
         img: [
@@ -2134,19 +2101,19 @@ fiszki10.push(
         story: [
             "Mati czyli Matju ma ostatnio dobrą postawę"
         ],
-        desc: "haven't[] - ważne",
+        desc: "haven't seen[hewent sin] - nie widzieliśmy się",
         sentence2: [
-            "haven't"
+            "haven't_seen"
         ],
                                                                 sentence1b: [
-            "ważne"
+            "nie_widzieliśmy_się"
         ],
                             sentence1c: [
-            ""
+            "hewent_sin"
         ],
         sentence: [
             "We",
-            "haven't",
+            "haven't seen",
             "seen",
             "each other",
             "for months"
@@ -2155,43 +2122,10 @@ fiszki10.push(
         category1: "nauka",
         category2: ["kuchnia", "jedzenie"]
     },
-                                                                                                                                {
-        id: [
-            867,
-            151,
-            252
-        ],
-        img: [
-            "http://localhost/arbulanguage.com/img/fiszki1/800a.jpg"
-        ],
-        story: [
-            "Mati czyli Matju ma ostatnio dobrą postawę"
-        ],
-        desc: "seen[] - ważne",
-        sentence2: [
-            "seen"
-        ],
-                                                                sentence1b: [
-            "ważne"
-        ],
-                            sentence1c: [
-            ""
-        ],
-        sentence: [
-            "We",
-            "haven't",
-            "seen",
-            "each other",
-            "for months"
-        ],
-        key: "seen",
-        category1: "nauka",
-        category2: ["kuchnia", "jedzenie"]
-    },
                                                                                                                                     {
         id: [
-            868,
-            151,
+            867,
+            152,
             252
         ],
         img: [
@@ -2200,15 +2134,15 @@ fiszki10.push(
         story: [
             "Mati czyli Matju ma ostatnio dobrą postawę"
         ],
-        desc: "each other[] - ważne",
+        desc: "each other[icz ader] - nawzajem",
         sentence2: [
-            "each other"
+            "each_other"
         ],
                                                                 sentence1b: [
-            "ważne"
+            "nawazjem"
         ],
                             sentence1c: [
-            ""
+            "icz_oder"
         ],
         sentence: [
             "We",
@@ -2223,25 +2157,25 @@ fiszki10.push(
     },
                                                                                                                                     {
         id: [
-            869,
-            151,
+            868,
+            152,
             252
         ],
         img: [
             "http://localhost/arbulanguage.com/img/fiszki1/800a.jpg"
         ],
         story: [
-            "Mati czyli Matju ma ostatnio dobrą postawę"
+            "Gram w grę Need For Speed już przez miesiące i mam fantastyczne wyniki"
         ],
-        desc: "for months[] - ważne",
+        desc: "for months[for mant(h)s] - przez miesiące",
         sentence2: [
-            "for months"
+            "for_months"
         ],
                                                                 sentence1b: [
-            "ważne"
+            "przez_miesiące"
         ],
                             sentence1c: [
-            ""
+            "for mant(h)s"
         ],
         sentence: [
             "We",
@@ -2256,8 +2190,8 @@ fiszki10.push(
     },
                                                                                 {
         id: [
-            870,
-            152,
+            869,
+            153,
             260
         ],
         img: [
@@ -2293,8 +2227,8 @@ fiszki10.push(
     },
                                                                                                                                         {
         id: [
-            871,
-            152,
+            870,
+            153,
             252
         ],
         img: [
@@ -2325,8 +2259,8 @@ fiszki10.push(
     },
                                                                                                                                             {
         id: [
-            872,
-            152,
+            871,
+            153,
             252
         ],
         img: [
@@ -2357,8 +2291,8 @@ fiszki10.push(
     },
                                                                                                                                             {
         id: [
-            873,
-            152,
+            872,
+            153,
             252
         ],
         img: [
@@ -2389,8 +2323,8 @@ fiszki10.push(
     },
                                                                                                                                                 {
         id: [
-            874,
-            152,
+            873,
+            153,
             252
         ],
         img: [
@@ -2403,10 +2337,10 @@ fiszki10.push(
         sentence2: [
             "before"
         ],
-                                                                sentence1b: [
+                                                                sentence2b: [
             "ważne"
         ],
-                            sentence1c: [
+                            sentence2c: [
             ""
         ],
         sentence: [
@@ -2419,8 +2353,8 @@ fiszki10.push(
     },
                                                                                                                                                     {
         id: [
-            875,
-            152,
+            874,
+            153,
             252
         ],
         img: [
@@ -2433,10 +2367,10 @@ fiszki10.push(
         sentence2: [
             "leaving"
         ],
-                                                                sentence1b: [
+                                                                sentence2b: [
             "ważne"
         ],
-                            sentence1c: [
+                            sentence2c: [
             ""
         ],
         sentence: [
@@ -2446,5 +2380,797 @@ fiszki10.push(
         key: "leaving",
         category1: "nauka",
         category2: ["kuchnia", "jedzenie"]
-    }
-    );
+    },
+                                                                                            {
+        id: [
+            875,
+            154,
+            260
+        ],
+        img: [
+                "http://localhost/arbulanguage.com/img/fiszki1/7a.jpg"
+        ],
+        translate: "",
+        translateb: "[Ona ostatnio zmieniła swoje nastawienie]",
+        translateb2: "[]",
+        srcWord: ["http://localhost/arbulanguage.com/filmy/lekcja46/.mp4", ""],
+        srcWordimage: "http://localhost/arbulanguage.com/filmy/lekcja46/.png",
+        story: [
+                ''
+        ],
+        desc: "he[hi] - on",
+        sentence1: [
+            "She"
+        ],
+                                                                sentence1b: [
+            "On"
+        ],
+                            sentence1c: [
+            "hi"
+        ],
+        sentence: [
+            "She",
+            "decided"
+        ],
+        key: "we",
+        category2: ["osoby"],
+        category3: ["PastPerfect"]
+    },
+                                                                                                                                                        {
+        id: [
+            876,
+            154,
+            252
+        ],
+        img: [
+            "http://localhost/arbulanguage.com/img/fiszki1/800a.jpg"
+        ],
+        story: [
+            "Mati czyli Matju ma ostatnio dobrą postawę"
+        ],
+        desc: "decided[] - ważne",
+        sentence2: [
+            "decided"
+        ],
+                                                                sentence1b: [
+            ""
+        ],
+                            sentence1c: [
+            ""
+        ],
+        sentence: [
+            "She",
+            "decided"
+        ],
+        key: "decided",
+        category1: "nauka",
+        category2: ["kuchnia", "jedzenie"]
+    },
+                                                                                                                                                            {
+        id: [
+            877,
+            154,
+            252
+        ],
+        img: [
+            "http://localhost/arbulanguage.com/img/fiszki1/800a.jpg"
+        ],
+        story: [
+            "Mati czyli Matju ma ostatnio dobrą postawę"
+        ],
+        desc: "to cancel[] - ",
+        sentence2: [
+            "to_cancel"
+        ],
+                                                                sentence1b: [
+            ""
+        ],
+                            sentence1c: [
+            ""
+        ],
+        sentence: [
+            "to cancel",
+            "the",
+            "meeeting"
+        ],
+        key: "cancel",
+        category1: "nauka",
+        category2: ["kuchnia", "jedzenie"]
+    },
+                                                                                                                                                                {
+        id: [
+            878,
+            154,
+            252
+        ],
+        img: [
+            "http://localhost/arbulanguage.com/img/fiszki1/800a.jpg"
+        ],
+        story: [
+            "Mati czyli Matju ma ostatnio dobrą postawę"
+        ],
+        desc: "the[] - ważne",
+        sentence2: [
+            "the"
+        ],
+                                                                sentence1b: [
+            ""
+        ],
+                            sentence1c: [
+            ""
+        ],
+        sentence: [
+            "to cancel",
+            "the",
+            "meeeting"
+        ],
+        key: "the",
+        category1: "nauka",
+        category2: ["kuchnia", "jedzenie"]
+    },
+                                                                                                                                                                {
+        id: [
+            879,
+            154,
+            252
+        ],
+        img: [
+            "http://localhost/arbulanguage.com/img/fiszki1/800a.jpg"
+        ],
+        story: [
+            "Mati czyli Matju ma ostatnio dobrą postawę"
+        ],
+        desc: "meeting[] - spotkanie",
+        sentence2: [
+            "meeting"
+        ],
+                                                                sentence1b: [
+            ""
+        ],
+                            sentence1c: [
+            ""
+        ],
+        sentence: [
+            "to cancel",
+            "the",
+            "meeeting"
+        ],
+        key: "meeting",
+        category1: "nauka",
+        category2: ["kuchnia", "jedzenie"]
+    },
+                                                                                                {
+        id: [
+            880,
+            155,
+            260
+        ],
+        img: [
+                "http://localhost/arbulanguage.com/img/fiszki1/7a.jpg"
+        ],
+        translate: "",
+        translateb: "[Ona ostatnio zmieniła swoje nastawienie]",
+        translateb2: "[]",
+        srcWord: ["http://localhost/arbulanguage.com/filmy/lekcja46/.mp4", ""],
+        srcWordimage: "http://localhost/arbulanguage.com/filmy/lekcja46/.png",
+        story: [
+                ''
+        ],
+        desc: "I[hi] - on",
+        sentence1: [
+            "I"
+        ],
+                                                                sentence1b: [
+            "Ja"
+        ],
+                            sentence1c: [
+            "aj"
+        ],
+        sentence: [
+            "I",
+            "could"
+        ],
+        key: "I",
+        category2: ["osoby"],
+        category3: ["PastPerfect"]
+    },
+                                                                                                                                                                    {
+        id: [
+            881,
+            155,
+            252
+        ],
+        img: [
+            "http://localhost/arbulanguage.com/img/fiszki1/800a.jpg"
+        ],
+        story: [
+            "Możesz poprawić tą fryzurę, kudły Ci wszędzie odstają"
+        ],
+        desc: "could[kud] - ",
+        sentence2: [
+            "could"
+        ],
+                                                                sentence1b: [
+            ""
+        ],
+                            sentence1c: [
+            ""
+        ],
+        sentence: [
+            "I",
+            "could"
+        ],
+        key: "could",
+        category1: "nauka",
+        category2: ["kuchnia", "jedzenie"]
+    },
+                                                                                                                                                                        {
+        id: [
+            882,
+            155,
+            252
+        ],
+        img: [
+            "http://localhost/arbulanguage.com/img/fiszki1/800a.jpg"
+        ],
+        story: [
+            ""
+        ],
+        desc: "help[] - ",
+        sentence2: [
+            "help"
+        ],
+                                                                sentence1b: [
+            ""
+        ],
+                            sentence1c: [
+            ""
+        ],
+        sentence: [
+            "help",
+            "you",
+            "with",
+            "that"
+        ],
+        key: "to help",
+        category1: "nauka",
+        category2: ["kuchnia", "jedzenie"]
+    },
+                                                                                                                                                                            {
+        id: [
+            883,
+            155,
+            252
+        ],
+        img: [
+            "http://localhost/arbulanguage.com/img/fiszki1/800a.jpg"
+        ],
+        story: [
+            "Mati czyli Matju ma ostatnio dobrą postawę"
+        ],
+        desc: "you[] - ",
+        sentence2: [
+            "you"
+        ],
+                                                                sentence1b: [
+            ""
+        ],
+                            sentence1c: [
+            ""
+        ],
+        sentence: [
+            "help",
+            "you",
+            "with",
+            "that"
+        ],
+        key: "you",
+        category1: "nauka",
+        category2: ["kuchnia", "jedzenie"]
+    },
+                                                                                                                                                                                {
+        id: [
+            884,
+            155,
+            252
+        ],
+        img: [
+            "http://localhost/arbulanguage.com/img/fiszki1/800a.jpg"
+        ],
+        story: [
+            "Mati czyli Matju ma ostatnio dobrą postawę"
+        ],
+        desc: "with[] - ",
+        sentence2: [
+            "with"
+        ],
+                                                                sentence1b: [
+            ""
+        ],
+                            sentence1c: [
+            ""
+        ],
+        sentence: [
+            "help",
+            "you",
+            "with",
+            "that"
+        ],
+        key: "with",
+        category1: "nauka",
+        category2: ["kuchnia", "jedzenie"]
+    },
+                                                                                                                                                                                {
+        id: [
+            885,
+            155,
+            252
+        ],
+        img: [
+            "http://localhost/arbulanguage.com/img/fiszki1/800a.jpg"
+        ],
+        story: [
+            ""
+        ],
+        desc: "that[] - ",
+        sentence2: [
+            "that"
+        ],
+                                                                sentence1b: [
+            ""
+        ],
+                            sentence1c: [
+            ""
+        ],
+        sentence: [
+            "help",
+            "you",
+            "with",
+            "that"
+        ],
+        key: "that",
+        category1: "nauka",
+        category2: ["kuchnia", "jedzenie"]
+    },
+                                                                                                    {
+        id: [
+            886,
+            156,
+            260
+        ],
+        img: [
+                "http://localhost/arbulanguage.com/img/fiszki1/7a.jpg"
+        ],
+        translate: "",
+        translateb: "[Ona ostatnio zmieniła swoje nastawienie]",
+        translateb2: "[]",
+        srcWord: ["http://localhost/arbulanguage.com/filmy/lekcja46/.mp4", ""],
+        srcWordimage: "http://localhost/arbulanguage.com/filmy/lekcja46/.png",
+        story: [
+                ''
+        ],
+        desc: "I[hi] - on",
+        sentence1: [
+            "We"
+        ],
+                                                                sentence1b: [
+            "My"
+        ],
+                            sentence1c: [
+            "łi"
+        ],
+        sentence: [
+            "We",
+            "have been waiting"
+        ],
+        key: "we",
+        category2: ["osoby"],
+        category3: ["PastPerfect"]
+    },
+                                                                                                                                                                                    {
+        id: [
+            887,
+            156,
+            252
+        ],
+        img: [
+            "http://localhost/arbulanguage.com/img/fiszki1/800a.jpg"
+        ],
+        story: [
+            ""
+        ],
+        desc: "have been waiting[] - ",
+        sentence2: [
+            "have_been_waiting"
+        ],
+                                                                sentence1b: [
+            ""
+        ],
+                            sentence1c: [
+            ""
+        ],
+        sentence: [
+            "We",
+            "have been waiting"
+        ],
+        key: "waiting",
+        category1: "nauka",
+        category2: ["kuchnia", "jedzenie"]
+    },
+                                                                                                                                                                                        {
+        id: [
+            888,
+            156,
+            252
+        ],
+        img: [
+            "http://localhost/arbulanguage.com/img/fiszki1/800a.jpg"
+        ],
+        story: [
+            "Od teraz, czyli od południa zaczynm odpoczywać po pracy, czasami wchodzę na swój instagram"
+        ],
+        desc: "since[sins] - od",
+        sentence2: [
+            "since"
+        ],
+                                                                sentence1b: [
+            ""
+        ],
+                            sentence1c: [
+            ""
+        ],
+        sentence: [
+            "since",
+            "noon"
+        ],
+        key: "since",
+        category1: "nauka",
+        category2: ["kuchnia", "jedzenie"]
+    },
+                                                                                                                                                                                        {
+        id: [
+            889,
+            156,
+            252
+        ],
+        img: [
+            "http://localhost/arbulanguage.com/img/fiszki1/800a.jpg"
+        ],
+        story: [
+            "Nie mam żadnego planu na południe"
+        ],
+        desc: "noon[nu] - południe",
+        sentence2: [
+            "noon"
+        ],
+                                                                sentence1b: [
+            ""
+        ],
+                            sentence1c: [
+            ""
+        ],
+        sentence: [
+            "since",
+            "noon"
+        ],
+        key: "noon",
+        category1: "nauka",
+        category2: ["kuchnia", "jedzenie"]
+    },
+                                                                                                        {
+        id: [
+            890,
+            157,
+            260
+        ],
+        img: [
+                "http://localhost/arbulanguage.com/img/fiszki1/7a.jpg"
+        ],
+        translate: "",
+        translateb: "[Ona ostatnio zmieniła swoje nastawienie]",
+        translateb2: "[]",
+        srcWord: ["http://localhost/arbulanguage.com/filmy/lekcja46/.mp4", ""],
+        srcWordimage: "http://localhost/arbulanguage.com/filmy/lekcja46/.png",
+        story: [
+                ''
+        ],
+        desc: "he[hi] - on",
+        sentence1: [
+            "He"
+        ],
+                                                                sentence1b: [
+            "On"
+        ],
+                            sentence1c: [
+            "hi"
+        ],
+        sentence: [
+            "He",
+            "wants to"
+        ],
+        key: "he",
+        category2: ["osoby"],
+        category3: ["PastPerfect"]
+    },
+                                                                                                                                                                                            {
+        id: [
+            891,
+            157,
+            252
+        ],
+        img: [
+            "http://localhost/arbulanguage.com/img/fiszki1/800a.jpg"
+        ],
+        story: [
+            ""
+        ],
+        desc: "wants to[] - ",
+        sentence2: [
+            "wants_to"
+        ],
+                                                                sentence1b: [
+            ""
+        ],
+                            sentence1c: [
+            ""
+        ],
+        sentence: [
+            "He",
+            "wants to"
+        ],
+        key: "want",
+        category1: "nauka",
+        category2: ["kuchnia", "jedzenie"]
+    },
+                                                                                                                                                                                                {
+        id: [
+            892,
+            157,
+            252
+        ],
+        img: [
+            "http://localhost/arbulanguage.com/img/fiszki1/800a.jpg"
+        ],
+        story: [
+            "Im to prosto idzie rozwijanie ów firmy"
+        ],
+        desc: "improve[impruw] - rozwijać",
+        sentence2: [
+            "improve"
+        ],
+                                                                sentence1b: [
+            ""
+        ],
+                            sentence1c: [
+            ""
+        ],
+        sentence: [
+            "improve",
+            "his",
+            "pronunciation"
+        ],
+        key: "improve",
+        category1: "nauka",
+        category2: ["kuchnia", "jedzenie"]
+    },
+                                                                                                                                                                                                    {
+        id: [
+            893,
+            157,
+            252
+        ],
+        img: [
+            "http://localhost/arbulanguage.com/img/fiszki1/800a.jpg"
+        ],
+        story: [
+            ""
+        ],
+        desc: "his[] - ",
+        sentence2: [
+            "his"
+        ],
+                                                                sentence1b: [
+            ""
+        ],
+                            sentence1c: [
+            ""
+        ],
+        sentence: [
+            "improve",
+            "his",
+            "pronunciation"
+        ],
+        key: "his",
+        category1: "nauka",
+        category2: ["kuchnia", "jedzenie"]
+    },
+                                                                                                                                                                                                    {
+        id: [
+            894,
+            157,
+            252
+        ],
+        img: [
+            "http://localhost/arbulanguage.com/img/fiszki1/800a.jpg"
+        ],
+        story: [
+            "Zajęcia z wymowy prowadzi Nansi (Nancy) i jej zadaniem jest nauczyć poprawnej wymowy szynszyl"
+        ],
+        desc: "pronunciation[pronansjejszyn] - ",
+        sentence2: [
+            "pronunciation"
+        ],
+                                                                sentence1b: [
+            ""
+        ],
+                            sentence1c: [
+            ""
+        ],
+        sentence: [
+            "improve",
+            "his",
+            "pronunciation"
+        ],
+        key: "pronunciation",
+        category1: "nauka",
+        category2: ["kuchnia", "jedzenie"]
+    },
+                                                                                                            {
+        id: [
+            895,
+            158,
+            260
+        ],
+        img: [
+                "http://localhost/arbulanguage.com/img/fiszki1/7a.jpg"
+        ],
+        translate: "",
+        translateb: "[Ona ostatnio zmieniła swoje nastawienie]",
+        translateb2: "[]",
+        srcWord: ["http://localhost/arbulanguage.com/filmy/lekcja46/.mp4", ""],
+        srcWordimage: "http://localhost/arbulanguage.com/filmy/lekcja46/.png",
+        story: [
+                ''
+        ],
+        desc: "we[hi] - on",
+        sentence1: [
+            "We"
+        ],
+                                                                sentence1b: [
+            "My"
+        ],
+                            sentence1c: [
+            "łi"
+        ],
+        sentence: [
+            "We",
+            "decided"
+        ],
+        key: "he",
+        category2: ["osoby"],
+        category3: ["PastPerfect"]
+    },
+                                                                                                                                                                                                        {
+        id: [
+            896,
+            158,
+            252
+        ],
+        img: [
+            "http://localhost/arbulanguage.com/img/fiszki1/800a.jpg"
+        ],
+        story: [
+            ""
+        ],
+        desc: "decided[] - ",
+        sentence2: [
+            "decided"
+        ],
+                                                                sentence1b: [
+            ""
+        ],
+                            sentence1c: [
+            ""
+        ],
+        sentence: [
+            "We",
+            "decided"
+        ],
+        key: "decided",
+        category1: "nauka",
+        category2: ["kuchnia", "jedzenie"]
+    },
+                                                                                                                                                                                                            {
+        id: [
+            897,
+            158,
+            252
+        ],
+        img: [
+            "http://localhost/arbulanguage.com/img/fiszki1/800a.jpg"
+        ],
+        story: [
+            "Połowa odlekanego terminu była przez całą społeczność i niefrasobliwość przewodniczącego"
+        ],
+        desc: "to postpone[tu połspon] - odroczyć/odwlekać",
+        sentence2: [
+            "to_postpone"
+        ],
+                                                                sentence1b: [
+            ""
+        ],
+                            sentence1c: [
+            ""
+        ],
+        sentence: [
+            "to postpone",
+            "our",
+            "trip"
+        ],
+        key: "postpone",
+        category1: "nauka",
+        category2: ["kuchnia", "jedzenie"]
+    },
+                                                                                                                                                                                                                {
+        id: [
+            898,
+            158,
+            252
+        ],
+        img: [
+            "http://localhost/arbulanguage.com/img/fiszki1/800a.jpg"
+        ],
+        story: [
+            ""
+        ],
+        desc: "our[] - ",
+        sentence2: [
+            "our"
+        ],
+                                                                sentence1b: [
+            ""
+        ],
+                            sentence1c: [
+            ""
+        ],
+        sentence: [
+            "to postpone",
+            "our",
+            "trip"
+        ],
+        key: "our",
+        category1: "nauka",
+        category2: ["kuchnia", "jedzenie"]
+    },
+                                                                                                                                                                                                                {
+        id: [
+            899,
+            158,
+            252
+        ],
+        img: [
+            "http://localhost/arbulanguage.com/img/fiszki1/800a.jpg"
+        ],
+        story: [
+            "Podróżujemy do Rosji i kupujemy Matrioszkę. Fajna wycieczka"
+        ],
+        desc: "trip[trip] - wycieczka",
+        sentence2: [
+            "trip"
+        ],
+                                                                sentence1b: [
+            ""
+        ],
+                            sentence1c: [
+            ""
+        ],
+        sentence: [
+            "to postpone",
+            "our",
+            "trip"
+        ],
+        key: "trip",
+        category1: "nauka",
+        category2: ["kuchnia", "jedzenie"]
+    },
+);

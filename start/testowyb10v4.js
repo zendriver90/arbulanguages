@@ -242,7 +242,7 @@ id: [
         ],
         key: "London",
         category1: "nauka",
-        category2: ["miasta"]
+        category2: ["miasta", "kognaty"]
 },
 {
 id: [
@@ -418,7 +418,7 @@ id: [
         category1: [
                 "sport", "piłka nożna"
         ],
-        category2: ["sport"]
+        category2: ["sport", "kognaty"]
 },
 {
 id: [
@@ -476,7 +476,7 @@ id: [
         ],
         key: "weekends",
         category1: "nauka",
-        category2: ["czas"]
+        category2: ["czas", "kognaty"]
 },
 {
 id: [
@@ -576,7 +576,7 @@ id: [
         ],
         key: "coffe",
         category1: "nauka",
-        category2: ["rzeczy"]
+        category2: ["rzeczy", "kognaty"]
 },
 {
 id: [
@@ -2456,7 +2456,7 @@ id: [
         ],
         key: "in the park",
         category1: "nauka",
-        category2: ["okresleniaMiejsca"]
+        category2: ["okresleniaMiejsca", "kognaty"]
 },
 {
 id: [
@@ -2816,7 +2816,7 @@ id: [
         ],
         key: "tennis",
         category1: "nauka",
-        category2: ["sport"]
+        category2: ["sport", "kognaty"]
 },
 {
 id: [
@@ -3208,7 +3208,7 @@ id: [
         ],
         key: "parked",
         category1: "nauka",
-        category2: ["czasownik"]
+        category2: ["czasownik", "kognaty"]
 },
 {
 id: [

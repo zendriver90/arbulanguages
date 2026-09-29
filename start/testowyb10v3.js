@@ -1135,7 +1135,7 @@ fiszki10.push(
         category1: [
             "sport", "piłka nożna"
         ],
-        category2: ["sport"]
+        category2: ["sport", "kognaty"]
     },
     {
         id: [
@@ -1257,7 +1257,7 @@ fiszki10.push(
         ],
         key: "moment",
         category1: "nauka",
-        category2: ["czas"]
+        category2: ["czas", "kognaty"]
     },
     {
         id: [
@@ -1762,7 +1762,7 @@ fiszki10.push(
         ],
         key: "project",
         category1: "nauka",
-        category2: ["rzecz", "szkola"]
+        category2: ["rzecz", "szkola", "kognaty"]
     },
     {
         id: [
@@ -2363,7 +2363,7 @@ fiszki10.push(
         ],
         key: "park",
         category1: "nauka",
-        category2: ["miejsca"]
+        category2: ["miejsca", "kognaty"]
     },
     {
         id: [
@@ -2767,7 +2767,7 @@ fiszki10.push(
         ],
         key: "english",
         category1: "nauka",
-        category2: ["szkola"]
+        category2: ["szkola", "kognaty"]
     },
     {
         id: [
@@ -2942,7 +2942,7 @@ fiszki10.push(
         ],
         key: "Paris",
         category1: "nauka",
-        category2: ["miasta"]
+        category2: ["miasta", "kognaty"]
     },
     {
         id: [
@@ -3584,7 +3584,7 @@ id: [
         ],
         key: "started",
         category1: "nauka",
-        category2: ["czasownik"]
+        category2: ["czasownik", "kognaty"]
 },
 {
 id: [

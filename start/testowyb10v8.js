@@ -16,7 +16,7 @@ fiszki10.push(
         ],
         desc: "shop[szop] - sklep",
         sentence2: [
-            "the shop"
+            "the_shop"
         ],
             sentence2b: [
             "(tym)_sklepie"
@@ -553,7 +553,7 @@ fiszki10.push(
         ],
         key: "park",
         category1: "nauka",
-        category2: ["okresleniaMiejsca", "natura"]
+        category2: ["okresleniaMiejsca", "natura", "kognaty"]
     },
                             {
         id: [
@@ -1019,7 +1019,13 @@ fiszki10.push(
         ],
         desc: "{the) cat[de kat] - (ten) kot",
         sentence1: [
-            "The cat"
+            "The_cat"
+        ],
+            sentence1b: [
+            "Ten_kot"
+        ],
+                            sentence1c: [
+            "de_kat"
         ],
         sentence: [
             "The cat",
@@ -1047,6 +1053,12 @@ fiszki10.push(
         desc: "hides[hajds] - ukrywać",
         sentence2: [
             "hides"
+        ],
+                    sentence1b: [
+            "chowa_się"
+        ],
+                            sentence1c: [
+            "hajds"
         ],
         sentence: [
             "The cat",
@@ -1077,6 +1089,12 @@ fiszki10.push(
         sentence2: [
             "under"
         ],
+                            sentence2b: [
+            "pod"
+        ],
+                            sentence2c: [
+            "ande(r)"
+        ],
         sentence: [
             "under",
             "the table"
@@ -1102,7 +1120,13 @@ fiszki10.push(
         ],
         desc: "table[tejbul] - tablica, tabela",
         sentence2: [
-            "the table"
+            "the_table"
+        ],
+                                    sentence2b: [
+            "(tym)_stołem"
+        ],
+                            sentence2c: [
+            "tejbul"
         ],
         sentence: [
             "under",
@@ -1144,6 +1168,12 @@ fiszki10.push(
         sentence1: [
             "I"
         ],
+                                            sentence1b: [
+            "Ja"
+        ],
+                            sentence1c: [
+            "aj"
+        ],
         sentence: [
             "I",
             "close",
@@ -1168,9 +1198,15 @@ fiszki10.push(
         story: [
             "KOGNATY PARK (PL) - PARK (ENG)"
         ],
-        desc: "close[] - ",
+        desc: "close[klołs] - zamykać",
         sentence2: [
             "close"
+        ],
+                                                    sentence1b: [
+            "zamykam"
+        ],
+                            sentence1c: [
+            "klołs"
         ],
         sentence: [
             "I",
@@ -1196,9 +1232,15 @@ fiszki10.push(
         story: [
             "KOGNATY PARK (PL) - PARK (ENG)"
         ],
-        desc: "door[] - ",
+        desc: "door[de dor] - te drzwi",
         sentence2: [
             "the_door"
+        ],
+                                                            sentence1b: [
+            "drzwi"
+        ],
+                            sentence1c: [
+            "de_dor"
         ],
         sentence: [
             "I",
@@ -1224,9 +1266,15 @@ fiszki10.push(
         story: [
             "KOGNATY PARK (PL) - PARK (ENG)"
         ],
-        desc: "before[] - ",
+        desc: "before[b(i/y)for] - przed",
         sentence2: [
             "before"
+        ],
+                                                                    sentence2b: [
+            "przed"
+        ],
+                            sentence2c: [
+            "b(i/y)for"
         ],
         sentence: [
             "before",
@@ -1251,9 +1299,15 @@ fiszki10.push(
         story: [
             "KOGNATY PARK (PL) - PARK (ENG)"
         ],
-        desc: "sleeping[] - ",
+        desc: "sleeping[slipin] - ",
         sentence2: [
             "sleeping"
+        ],
+                                                                            sentence2b: [
+            "spaniem"
+        ],
+                            sentence2c: [
+            "slipin"
         ],
         sentence: [
             "before",
@@ -1295,6 +1349,12 @@ fiszki10.push(
         sentence1: [
             "They"
         ],
+                                                                                    sentence1b: [
+            "Oni"
+        ],
+                            sentence1c: [
+            "dej"
+        ],
         sentence: [
             "They",
             "plant",
@@ -1319,8 +1379,14 @@ fiszki10.push(
         story: [
             "KOGNATY PARK (PL) - PARK (ENG)"
         ],
-        desc: "plant[] - ",
+        desc: "plant[plant] - sadzić",
         sentence2: [
+            "plant"
+        ],
+                                                                                            sentence1b: [
+            "sadzą"
+        ],
+                            sentence1c: [
             "plant"
         ],
         sentence: [
@@ -1347,9 +1413,15 @@ fiszki10.push(
         story: [
             "KOGNATY PARK (PL) - PARK (ENG)"
         ],
-        desc: "flowers[] - ",
+        desc: "flowers[flałers] - kwiaty",
         sentence2: [
             "flowers"
+        ],
+                                                                                                    sentence1b: [
+            "kwiaty"
+        ],
+                            sentence1c: [
+            "flałers"
         ],
         sentence: [
             "They",
@@ -1379,6 +1451,12 @@ fiszki10.push(
         sentence2: [
             "in"
         ],
+                                                                                                            sentence2b: [
+            "w"
+        ],
+                            sentence2c: [
+            "in"
+        ],
         sentence: [
             "in",
             "the garden"
@@ -1405,6 +1483,12 @@ fiszki10.push(
         desc: "the garden[] - ",
         sentence2: [
             "the_garden"
+        ],
+                                                                                                                    sentence2b: [
+            "(tym)_ogrodzie"
+        ],
+                            sentence2c: [
+            "de_gardyn"
         ],
         sentence: [
             "in",
@@ -1438,6 +1522,12 @@ fiszki10.push(
         sentence1: [
             "The_clock"
         ],
+                sentence1b: [
+            "(ten)_zegar"
+        ],
+                            sentence1c: [
+            "de_klok"
+        ],
         sentence: [
             "The clock",
             "shows",
@@ -1468,6 +1558,12 @@ fiszki10.push(
         sentence2: [
             "shows"
         ],
+                        sentence1b: [
+            "pokazuje"
+        ],
+                            sentence1c: [
+            "szołs"
+        ],
         sentence: [
             "The clock",
             "shows",
@@ -1496,6 +1592,12 @@ fiszki10.push(
         ],
         desc: "ten[] - ",
         sentence2: [
+            "ten"
+        ],
+                                sentence1b: [
+            "dziesiątą"
+        ],
+                            sentence1c: [
             "ten"
         ],
         sentence: [
@@ -1528,6 +1630,12 @@ fiszki10.push(
         sentence2: [
             "o'clock"
         ],
+                                        sentence1b: [
+            "godzinę"
+        ],
+                            sentence1c: [
+            ""
+        ],
         sentence: [
             "The clock",
             "shows",
@@ -1557,6 +1665,12 @@ fiszki10.push(
         desc: "now[] - ",
         sentence2: [
             "now"
+        ],
+                                                sentence1b: [
+            "teraz"
+        ],
+                            sentence1c: [
+            "nał"
         ],
         sentence: [
             "The clock",
@@ -1601,6 +1715,12 @@ fiszki10.push(
         sentence1: [
             "I"
         ],
+                                                        sentence1b: [
+            "Aj"
+        ],
+                            sentence1c: [
+            "aj"
+        ],
         sentence: [
             "I",
             "draw",
@@ -1625,9 +1745,15 @@ fiszki10.push(
         story: [
             "KOGNATY PARK (PL) - PARK (ENG)"
         ],
-        desc: "draw[] - ",
+        desc: "draw[dro] - ",
         sentence2: [
             "draw"
+        ],
+                                                                sentence1b: [
+            "rysuje"
+        ],
+                            sentence1c: [
+            "dro"
         ],
         sentence: [
             "I",
@@ -1657,6 +1783,12 @@ fiszki10.push(
         sentence2: [
             "animals"
         ],
+                                                                        sentence1b: [
+            "zwierzęta"
+        ],
+                            sentence1c: [
+            ""
+        ],
         sentence: [
             "I",
             "draw",
@@ -1681,8 +1813,14 @@ fiszki10.push(
         story: [
             "KOGNATY PARK (PL) - PARK (ENG)"
         ],
-        desc: "on[] - ",
+        desc: "on[on] - na",
         sentence2: [
+            "on"
+        ],
+                                                                                sentence2b: [
+            "na"
+        ],
+                            sentence2c: [
             "on"
         ],
         sentence: [
@@ -1708,9 +1846,15 @@ fiszki10.push(
         story: [
             "KOGNATY PARK (PL) - PARK (ENG)"
         ],
-        desc: "the paper[] - ",
+        desc: "the paper[de pejper] - (tym) papierze",
         sentence2: [
             "the paper"
+        ],
+                                                                                sentence2b: [
+            "(tym)_papierze"
+        ],
+                            sentence2c: [
+            "de_pejper"
         ],
         sentence: [
             "on",
@@ -1744,6 +1888,12 @@ fiszki10.push(
         sentence1: [
             "He"
         ],
+                            sentence1b: [
+            "On"
+        ],
+                            sentence1c: [
+            "hi"
+        ],
         sentence: [
             "He",
             "climbs",
@@ -1768,9 +1918,15 @@ fiszki10.push(
         story: [
             "KOGNATY PARK (PL) - PARK (ENG)"
         ],
-        desc: "climbs[] - papier",
+        desc: "climbs[klaims] - wspina się",
         sentence2: [
             "climbs"
+        ],
+                                    sentence1b: [
+            "wspina_się_na"
+        ],
+                            sentence1c: [
+            "klaims"
         ],
         sentence: [
             "He",
@@ -1796,9 +1952,15 @@ fiszki10.push(
         story: [
             "Zrobiłem sobie tatuaż w formie tribala na ręce"
         ],
-        desc: "the tree[tri] - papier",
+        desc: "the tree[de tri] - drzewo",
         sentence2: [
             "the_tree"
+        ],
+                                            sentence1b: [
+            "(te)_drzewo"
+        ],
+                            sentence1c: [
+            "de_tri"
         ],
         sentence: [
             "He",
@@ -1824,9 +1986,15 @@ fiszki10.push(
         story: [
             "KOGNATY PARK (PL) - PARK (ENG)"
         ],
-        desc: "very[pejper] - papier",
+        desc: "very[wery] - bardzo",
         sentence2: [
             "very"
+        ],
+                                                    sentence2b: [
+            "bardzo"
+        ],
+                            sentence2c: [
+            "wery"
         ],
         sentence: [
             "very",
@@ -1851,8 +2019,14 @@ fiszki10.push(
         story: [
             "KOGNATY PARK (PL) - PARK (ENG)"
         ],
-        desc: "very[pejper] - papier",
+        desc: "fast[fast] - szybko",
         sentence2: [
+            "fast"
+        ],
+                                                            sentence2b: [
+            "szybko"
+        ],
+                            sentence2c: [
             "fast"
         ],
         sentence: [
@@ -1891,9 +2065,15 @@ fiszki10.push(
                 'Ma<span class="adannotation" data-annotation="1"><u><b>chi</u></b></span>nę do tortur wymyślił <u><b>on</u></b> - jest <span class="adannotation" data-annotation="1"><u><b>Hi</u></b></span>ndusem',
                 '<u><b>On</u></b> je ciastka <span class="adannotation" data-annotation="1"><u><b>hi</u></b></span>ty'
         ],
-        desc: "we[aj] - ja",
+        desc: "we[łi] - my",
         sentence1: [
             "We"
+        ],
+                                                                    sentence1b: [
+            "My"
+        ],
+                            sentence1c: [
+            "łi"
         ],
         sentence: [
             "We",
@@ -1923,6 +2103,12 @@ fiszki10.push(
         sentence2: [
             "eat"
         ],
+                                                                            sentence1b: [
+            "jemy"
+        ],
+                            sentence1c: [
+            "it"
+        ],
         sentence: [
             "We",
             "eat",
@@ -1951,6 +2137,12 @@ fiszki10.push(
         sentence2: [
             "pizza"
         ],
+                                                                                    sentence1b: [
+            "pizzę"
+        ],
+                            sentence1c: [
+            "pica"
+        ],
         sentence: [
             "We",
             "eat",
@@ -1958,7 +2150,7 @@ fiszki10.push(
         ],
         key: "pizza",
         category1: "nauka",
-        category2: ["jedzenie"]
+        category2: ["jedzenie", "kognaty"]
     },
                                                                     {
         id: [
@@ -1975,9 +2167,15 @@ fiszki10.push(
         story: [
             "KOGNATY PARK (PL) - PARK (ENG)"
         ],
-        desc: "with[] - papier",
+        desc: "with[łiz] - papier",
         sentence2: [
             "with"
+        ],
+                                                                                            sentence2b: [
+            "z"
+        ],
+                            sentence2c: [
+            "łiz"
         ],
         sentence: [
             "with",
@@ -2003,9 +2201,15 @@ fiszki10.push(
         story: [
             "KOGNATY PARK (PL) - PARK (ENG)"
         ],
-        desc: "our[] - papier",
+        desc: "our[aur] - naszymi",
         sentence2: [
             "our"
+        ],
+                                                                                            sentence2b: [
+            "naszymi"
+        ],
+                            sentence2c: [
+            "aur"
         ],
         sentence: [
             "with",
@@ -2031,9 +2235,15 @@ fiszki10.push(
         story: [
             "KOGNATY PARK (PL) - PARK (ENG)"
         ],
-        desc: "friends[] - papier",
+        desc: "friends[frends] - przyjaciółmi",
         sentence2: [
             "friends"
+        ],
+                                                                                            sentence2b: [
+            "przyjaciółmi"
+        ],
+                            sentence2c: [
+            "frends"
         ],
         sentence: [
             "with",
@@ -2129,10 +2339,10 @@ fiszki10.push(
         sentence2: [
             "in"
         ],
-                            sentence1b: [
+                            sentence2b: [
             "w"
         ],
-                                     sentence1c: [
+                                     sentence2c: [
             "in"
         ],
         sentence: [
@@ -2229,7 +2439,7 @@ fiszki10.push(
         story: [
             "KOGNATY PARK (PL) - PARK (ENG)"
         ],
-        desc: "cleans[] - (ta) kuchnia",
+        desc: "cleans[klins] - (ta) kuchnia",
         sentence2: [
             "cleans"
         ],
@@ -2321,7 +2531,7 @@ fiszki10.push(
         story: [
             "KOGNATY PARK (PL) - PARK (ENG)"
         ],
-        desc: "day[] - dzień",
+        desc: "day[dej] - dzień",
         sentence2: [
             "day"
         ],
@@ -2364,10 +2574,10 @@ fiszki10.push(
         sentence1: [
             "She"
         ],
-                                                            sentence2b: [
+                                                            sentence1b: [
             "Szi"
         ],
-                                     sentence2c: [
+                                     sentence1c: [
             "szi"
         ],
         sentence: [
@@ -2527,7 +2737,7 @@ fiszki10.push(
             "The_room"
         ],
                                                                             sentence1b: [
-            "(Ten)pokój"
+            "(Ten)_pokój"
         ],
                                      sentence1c: [
             "de_rum"
@@ -2744,9 +2954,15 @@ fiszki10.push(
         story: [
             "KOGNATY PARK (PL) - PARK (ENG)"
         ],
-        desc: "empty[] - ",
+        desc: "empty[empti] - pusty/pusta/puste",
         sentence2: [
             "empty"
+        ],
+                                                                                                                            sentence1b: [
+            "pustego"
+        ],
+                                     sentence1c: [
+            "empti"
         ],
         sentence: [
             "empty",
@@ -2768,9 +2984,15 @@ fiszki10.push(
         story: [
             "KOGNATY PARK (PL) - PARK (ENG)"
         ],
-        desc: "city[] - ",
+        desc: "city[siti] - miasto",
         sentence2: [
             "city"
+        ],
+                                                                                                                            sentence1b: [
+            "miasta"
+        ],
+                                     sentence1c: [
+            "hed_newer_sin"
         ],
         sentence: [
             "empty",
@@ -2975,14 +3197,14 @@ fiszki10.push(
         ],
         sentence: [
             "They",
-            "know",
+            "knew",
             "time",
             "was",
             "running out"
         ],
         key: "they",
         category2: ["osoby"],
-        category3: ["PastPerfect"]
+        category3: ["PastSimple+PastContinuous"]
     },
         {
         id: [
@@ -2996,22 +3218,21 @@ fiszki10.push(
         story: [
             "KOGNATY PARK (PL) - PARK (ENG)"
         ],
-        desc: "know[noł] - wiedzieć",
+        desc: "knew[noł] - wiedzieli (czas przeszły)",
         sentence1: [
-            "know"
+            "knew"
         ],
                                     sentence1b: [
-            "wiedzą_że"
+            "wiedzieli_że"
         ],
                                      sentence1c: [
             "noł"
         ],
         sentence: [
             "They",
-            "know",
+            "knew",
             "time",
-            "was",
-            "running out"
+            "was running out"
         ],
         key: "know",
         category1: "nauka",
@@ -3062,48 +3283,15 @@ fiszki10.push(
         story: [
             "KOGNATY PARK (PL) - PARK (ENG)"
         ],
-        desc: "was[ło-s/z] - ",
+        desc: "was running out[raning aut] - kończy się",
         sentence1: [
-            "was"
-        ],
-                                                    sentence1b: [
-            "czas"
-        ],
-                                     sentence1c: [
-            "tajm"
-        ],
-        sentence: [
-            "They",
-            "know",
-            "time",
-            "was",
-            "running out"
-        ],
-        key: "was",
-        category1: "nauka",
-        category2: ["czas"]
-    },
-            {
-        id: [
-            796,
-            139,
-            249
-        ],
-        img: [
-            "http://localhost/arbulanguage.com/img/fiszki1/364a.jpg"
-        ],
-        story: [
-            "KOGNATY PARK (PL) - PARK (ENG)"
-        ],
-        desc: "running out[raning aut] - kończy się",
-        sentence1: [
-            "running_out"
+            "was_running_out"
         ],
                                                             sentence1b: [
             "kończy_się"
         ],
                                      sentence1c: [
-            "raning_aut"
+            "łos_raning_aut"
         ],
         sentence: [
             "They",
@@ -3118,7 +3306,7 @@ fiszki10.push(
     },
                                         {
         id: [
-            797,
+            796,
             140,
             260
         ],
@@ -3156,11 +3344,11 @@ fiszki10.push(
         ],
         key: "he",
         category2: ["osoby"],
-        category3: ["PastPerfect"]
+        category3: ["PastSimple"]
     },
                             {
         id: [
-            888,
+            797,
             140,
             249
         ],
@@ -3193,7 +3381,7 @@ fiszki10.push(
     },
                     {
         id: [
-            889,
+            798,
             140,
             249
         ],
@@ -3221,6 +3409,39 @@ fiszki10.push(
             "slowly"
         ],
         key: "the",
+        category1: "nauka",
+        category2: ["czas"]
+    },
+                        {
+        id: [
+            799,
+            140,
+            249
+        ],
+        img: [
+            "http://localhost/arbulanguage.com/img/fiszki1/364a.jpg"
+        ],
+        story: [
+            "W letni dzień piszę list a w nim jest dołączona piosenka... taka serenada"
+        ],
+        desc: "letter[leter] - list",
+        sentence2: [
+            "letter"
+        ],
+                                                    sentence1b: [
+            "list"
+        ],
+                                     sentence1c: [
+            "leter"
+        ],
+        sentence: [
+            "He",
+            "opened",
+            "the",
+            "letter",
+            "slowly"
+        ],
+        key: "letter",
         category1: "nauka",
         category2: ["czas"]
     },

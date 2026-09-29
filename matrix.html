@@ -22,6 +22,7 @@
                 <script src="start/testowyb10v7.js"></script>
                 <script src="start/testowyb10v8.js"></script>
                                 <script src="start/testowyb10v9.js"></script>
+                                <script src="start/testowyb10v10.js"></script>
         <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
         <meta charset="UTF-8">
         <title>arbulang.com</title>
@@ -3406,7 +3407,7 @@ input {
 <button class="rodzaj-button"
     data-rodzaj="wylosowany"
     onclick="przekazArgument0('', '', '', '', '', 'losowyuklad', tablica3[1], 'other', false, '', '', '', '', '100')">
-    <span>Wylosowane zdania</span><span>Twój widok</span>
+    <span>Wylosowane zdania</span>
 </button>
 <button class="rodzaj-button"
     data-rodzaj="spolecznosc"
@@ -3542,6 +3543,19 @@ input {
         onclick="przekazArgument0('', 'to_be', '', '', '', 'fiszki', tablica3[1], 'other', false, '', '', '', '', '100')">
         <span>Odmiana czasownika To Be</span>
                    <span class="count" id="liczbaToBe">0</span>
+                       </button>
+                                                <button class="rodzaj-button"
+        data-rodzaj="miasta"
+        onclick="przekazArgument0('', 'miasta', '', '', '', 'fiszki', tablica3[1], 'other', false, '', '', '', '', '100')">
+        <span>Miasta</span>
+                   <span class="count" id="liczbaMiasta">0</span>
+    </button>
+    </button>
+                                                <button class="rodzaj-button"
+        data-rodzaj="to_be"
+        onclick="przekazArgument0('', 'kognaty', '', '', '', 'fiszki', tablica3[1], 'other', false, '', '', '', '', '100')">
+        <span>Kognaty - słowa podobnie brzmiące w obu językach</span>
+                   <span class="count" id="liczbaKognaty">0</span>
     </button>
 </div>
 <div id="active-word-bar"></div>
@@ -3575,7 +3589,7 @@ input {
     z-index: 9999;
 ">
     Przejrzane słowa: <span id="wordCounter">0</span>
-</div>                                                                                        <script src="start/miniatury-prezentacja.js"></script>
+</div>                                                                                        
     
         <script>
                     function findMatchingFiszkiCount(category, fiszki) {
@@ -3610,6 +3624,8 @@ if (typeof fiszki10 !== 'undefined') {
                                 $('#liczbaRzecz').text(findMatchingFiszkiCount('rzecz', fiszki10));
                                                                 $('#liczbaPrzymiotnik').text(findMatchingFiszkiCount('przymiotnik', fiszki10));
                                 $('#liczbaToBe').text(findMatchingFiszkiCount('to_be', fiszki10));
+                                                                $('#liczbaMiasta').text(findMatchingFiszkiCount('miasta', fiszki10));
+$('#liczbaKognaty').text(findMatchingFiszkiCount('kognaty', fiszki10));
 }
             for (let i = 1; i < fiszki10.length; i++) {
     if (fiszki10[i].id[0] !== fiszki10[i-1].id[0] + 1) {
@@ -4741,7 +4757,280 @@ if (myVariable.length > 0) {
                 console.log('hej129 idpolski:', idpolski);
                 
                 
-                
+// ============================================================
+// ROZSZERZENIE LOSOWEGO UKŁADU PO 6 ZAPAMIĘTANYCH SŁOWACH
+// ============================================================
+
+window.randomLayoutExpanded = false;
+
+window.expandRandomLayoutAfterSixWords = function () {
+
+    console.log('========================================');
+    console.log('🎯 ROZSZERZAM LOSOWY UKŁAD PO 6 SŁOWACH');
+    console.log('========================================');
+
+    if (window.randomLayoutExpanded) {
+        console.log('⚠️ Układ został już rozszerzony.');
+        return;
+    }
+
+    const STORAGE_KEY_RANDOM_LAYOUT = 'losowyuklad_selectedGroups';
+    const STORAGE_KEY_ALL_GROUPS = 'losowyuklad_allGroups';
+
+    const savedSelected = localStorage.getItem(STORAGE_KEY_RANDOM_LAYOUT);
+    const savedAll = localStorage.getItem(STORAGE_KEY_ALL_GROUPS);
+
+    if (!savedSelected || !savedAll) {
+        console.error('❌ Brak zapisanych grup losowego układu.');
+        console.log('selected:', savedSelected);
+        console.log('all:', savedAll);
+        return;
+    }
+
+    let selectedGroups;
+    let allGroups;
+
+    try {
+        selectedGroups = JSON.parse(savedSelected);
+        allGroups = JSON.parse(savedAll);
+    } catch (e) {
+        console.error('❌ Błąd JSON:', e);
+        return;
+    }
+
+    if (!Array.isArray(selectedGroups) || !Array.isArray(allGroups)) {
+        console.error('❌ Nieprawidłowe dane grup.');
+        return;
+    }
+
+    console.log('📌 Obecnie wyświetlane grupy:', selectedGroups.length);
+    console.log('📌 Wszystkie grupy:', allGroups.length);
+
+    // --------------------------------------------------------
+    // Pobieramy TYLKO grupy, których jeszcze nie pokazaliśmy
+    // --------------------------------------------------------
+
+    const existingKeys = new Set(
+        selectedGroups.map(group =>
+            `${group.lessonId1}_${group.lessonId2}_${group.lessonId3}`
+        )
+    );
+
+    const remainingGroups = allGroups.filter(group => {
+
+        const key =
+            `${group.lessonId1}_${group.lessonId2}_${group.lessonId3}`;
+
+        return !existingKeys.has(key);
+    });
+
+    console.log('📌 Pozostałe grupy:', remainingGroups.length);
+    console.log('📌 Pozostałe grupy:', remainingGroups);
+
+    if (!remainingGroups.length) {
+        console.log('ℹ️ Nie ma już żadnych dodatkowych lekcji.');
+        window.randomLayoutExpanded = true;
+        return;
+    }
+
+    // --------------------------------------------------------
+    // DODAJEMY GRUPY DO ISTNIEJĄCEGO UKŁADU
+    // --------------------------------------------------------
+
+    const oldLength = selectedGroups.length;
+
+    selectedGroups = [
+        ...selectedGroups,
+        ...remainingGroups
+    ];
+
+    // Zapisujemy rozszerzony układ
+    localStorage.setItem(
+        STORAGE_KEY_RANDOM_LAYOUT,
+        JSON.stringify(selectedGroups)
+    );
+
+    window.randomLayoutExpanded = true;
+
+    console.log(
+        `✅ Układ rozszerzony: ${oldLength} → ${selectedGroups.length} grup`
+    );
+
+    // --------------------------------------------------------
+    // AKTUALIZUJEMY LICZBĘ SŁÓW
+    // --------------------------------------------------------
+
+    const selectedLessonIds = [];
+
+    selectedGroups.forEach(group => {
+        selectedLessonIds.push(group.lessonId1);
+        selectedLessonIds.push(group.lessonId2);
+        selectedLessonIds.push(group.lessonId3);
+    });
+
+    const randomizedWordsCount = fiszki.filter(fiszka => {
+
+        if (!fiszka.id || !Array.isArray(fiszka.id)) {
+            return false;
+        }
+
+        const lessonId = fiszka.id[1];
+
+        return selectedLessonIds.some(
+            id => String(id) === String(lessonId)
+        );
+
+    }).length;
+
+    console.log(
+        '📚 NOWA liczba wszystkich wylosowanych słów:',
+        randomizedWordsCount
+    );
+
+    $('.rodzaj-button[data-rodzaj="wylosowany"] span').text(
+        `Wylosowane zdania (${randomizedWordsCount} słów)`
+    );
+
+    // --------------------------------------------------------
+    // TWORZYMY TYLKO NOWE LEKCJE
+    // --------------------------------------------------------
+
+    remainingGroups.forEach((group, additionalIndex) => {
+
+        const {
+            lessonId1,
+            lessonId2,
+            lessonId3
+        } = group;
+
+        // Kontynuujemy numerację po pierwszych 12 grupach
+        const groupIndexDiv =
+            oldLength + additionalIndex + 1;
+
+        console.log(
+            `➕ Dodaję nową grupę ${groupIndexDiv}:`,
+            lessonId1,
+            lessonId2,
+            lessonId3
+        );
+
+        const lesson1Sentences =
+            correlationsCount.find(
+                item => item[0] === lessonId1
+            ) || [lessonId1, 0];
+
+        const lesson2Sentences =
+            correlationsCount.find(
+                item => item[0] === lessonId2
+            ) || [lessonId2, 0];
+
+        const lesson3Sentences =
+            correlationsCount.find(
+                item => item[0] === lessonId3
+            ) || [lessonId3, 0];
+
+        const lesson1SecondPartLength =
+            partLengths2.find(
+                item => item.id === lessonId1
+            )?.count2 || 0;
+
+        const lesson2SecondPartLength =
+            partLengths2.find(
+                item => item.id === lessonId2
+            )?.count2 || 0;
+
+        const lesson3SecondPartLength =
+            partLengths2.find(
+                item => item.id === lessonId3
+            )?.count2 || 0;
+
+        const lesson1FirstPartLength =
+            partLengths1.find(
+                item => item.id === lessonId1
+            )?.count2 || 0;
+
+        const lesson2FirstPartLength =
+            partLengths1.find(
+                item => item.id === lessonId2
+            )?.count2 || 0;
+
+        const lesson3FirstPartLength =
+            partLengths1.find(
+                item => item.id === lessonId3
+            )?.count2 || 0;
+
+        const lesson1PartLength =
+            partLengths3.find(
+                item => item.id === lessonId1
+            )?.cumulativeCount || 0;
+
+        const lesson2PartLength =
+            partLengths3.find(
+                item => item.id === lessonId2
+            )?.cumulativeCount || 0;
+
+        const lesson3PartLength =
+            partLengths3.find(
+                item => item.id === lessonId3
+            )?.cumulativeCount || 0;
+
+        cumulativeFirstPartLength1 += lesson1PartLength;
+        cumulativeFirstPartLength2 += lesson2PartLength;
+        cumulativeFirstPartLength3 += lesson3PartLength;
+
+        showCombinedSentenceForLesson22b(
+            selectedCategory,
+            matchingIndexes3,
+            rodzaj,
+            matchingIndexes2,
+            buttonindex,
+            index55,
+            index77,
+
+            lessonId1,
+            lessonId2,
+            lessonId3,
+
+            fiszki,
+            matchingIndexes,
+
+            startIndex,
+            newIndex,
+            groupIndexDiv,
+
+            lessonsArray,
+
+            lesson1PartLength,
+            lesson2PartLength,
+            lesson3PartLength,
+
+            lesson1Sentences,
+            lesson2Sentences,
+            lesson3Sentences,
+
+            lesson1FirstPartLength,
+            lesson2FirstPartLength,
+            lesson3FirstPartLength,
+
+            lesson1SecondPartLength,
+            lesson2SecondPartLength,
+            lesson3SecondPartLength,
+
+            cumulativeFirstPartLength1,
+            cumulativeFirstPartLength2,
+            cumulativeFirstPartLength3,
+
+            lessonsArrayZ,
+            matchingLessons5,
+            matchingLessons5b,
+            isSearching
+        );
+    });
+
+    console.log('========================================');
+    console.log('✅ POZOSTAŁE LEKCJE ZOSTAŁY DODANE');
+    console.log('========================================');
+};
                 
                                 if (idpolski === 'losowyuklad') {
 
@@ -4779,8 +5068,16 @@ if (myVariable.length > 0) {
             }
         }
 
-        shuffleArray(lessonsGroups);
-        console.log('Grupy po tasowaniu:', lessonsGroups);
+// ZAPISUJEMY PEŁNĄ KOLEJNOŚĆ LOSOWANIA
+localStorage.setItem(
+    'losowyuklad_allGroups',
+    JSON.stringify(lessonsGroups)
+);
+
+console.log(
+    '💾 Zapisano pełną kolejność wszystkich grup:',
+    lessonsGroups
+);
 // =====================================
 // LOSOWY UKŁAD — LOCALSTORAGE
 // =====================================
@@ -5150,7 +5447,7 @@ const lesson3Sentences = (correlationsCount.find(item => item[0] === lessonId3) 
                             }
                           
 
-if (indexDiv <= 50) {
+if (indexDiv <= 60) {
 
     showCombinedSentenceForLesson22b(
         selectedCategory, matchingIndexes3, rodzaj, matchingIndexes2,
@@ -5381,7 +5678,8 @@ updateVisibleLessons();
             }
 
             </script>
-
+<script src="start/miniatury-prezentacja.js"></script>
+<script src="start/mouseenter-handler.js"></script>
                                 <script src="displayx3.js"></script>
                                     <script src="nowydzialajacy.js"></script>
         <script src="displayx1.js"></script>

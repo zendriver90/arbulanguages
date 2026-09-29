@@ -211,7 +211,7 @@ fiszki10.push(
         ],
         key: "visits",
         category1: "nauka",
-        category2: ["czasownik"]
+        category2: ["czasownik", "kognaty"]
     },
                                   {
         id: [
@@ -609,7 +609,7 @@ fiszki10.push(
         ],
         key: "explore",
         category1: "nauka",
-        category2: ["czasownik"]
+        category2: ["czasownik", "kognaty"]
     },
 {
         id: [

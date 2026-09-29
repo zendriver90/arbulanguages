@@ -2185,7 +2185,7 @@ fiszki10.push(
             "corn"
         ],
         key: "farmers",
-        category2: ["osoby"],
+        category2: ["osoby", "kognaty"],
         category3: ["PresentSimple", "PresentSimplePodmiot"]
     },
                                         {
@@ -2340,7 +2340,7 @@ fiszki10.push(
         story: "W <b><u>domu</b></u> mamy psa, który robi <b><u>hał</b></u>.. hał.. na sąsiadów i wabi się <b><u>S</b></u>ara",
         desc: "house[hałs] - dom",
         sentence1: [
-            "The house"
+            "The_house"
         ],
                                                                             sentence1b: [
             "(ten)_dom"
@@ -2611,10 +2611,10 @@ fiszki10.push(
             "tą_czerwoną"
         ],
                             sentence2c: [
-            "red"
+            "a_red"
         ],
         sentence: [
-            "_red",
+            "a red",
             "summer",
             "dress"
         ],
@@ -2637,7 +2637,7 @@ fiszki10.push(
         story: [
             "Te przyjaciółki <u><b>same</u></b> pojechały w <u><b>lato</u></b> na wakacje"
         ],
-        desc: "summer[de same] - lato",
+        desc: "summer[same] - lato",
         sentence2: [
             "summer"
         ],
@@ -2645,7 +2645,7 @@ fiszki10.push(
             "letnią"
         ],
                             sentence2c: [
-            "de_same"
+            "same"
         ],
         sentence: [
             "a_red",
@@ -3326,7 +3326,7 @@ fiszki10.push(
         ],
         desc: "baby[bejbi/beibi] - dziecko",
         sentence1: [
-            "The baby"
+            "The_baby"
         ],
                                 sentence1b: [
             "Dziecko"
