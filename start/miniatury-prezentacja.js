@@ -6838,1203 +6838,7 @@ function getCleanWordText($element) {
 
     return cleanText;
 }
-$(document).on("click", ".next-buttonvv", function () {
 
-$('#active-word-bar')
-    .find('.active-word-details')
-    .stop(true, true)
-    .slideUp(150);
-
-$('#active-word-bar')
-    .find('.active-word-details-toggle')
-    .text('▼');
-    const $line = $(this).closest(".sentence-line");
-
-    const $sentence = $line.find(".sentence-inner");
-
-    const indexDiv = Number($sentence.data("indexdiv"));
-    const pos = Number($sentence.data("pos"));
-
-    const descKey = `${indexDiv}_${pos}`;
-
-    // inicjalizacja licznika dla konkretnego zdania
-    if (wordIndexCache[descKey] === undefined)
-        wordIndexCache[descKey] = 0;
-
-// następne słowo
-const wiKey = `${indexDiv}_${pos}`;
-
-window.savedWiCache = window.savedWiCache || {};
-
-if (window.highlightMode === 'rodzaj') {
-
-    window.savedWiCache[wiKey] =
-        (window.savedWiCache[wiKey] ?? 0);
-
-    wordIndexCache[descKey] = window.savedWiCache[wiKey];
-
-    window.thumbHighlightCache[descKey] =
-        window.savedWiCache[wiKey];
-
-} else {
-
-    wordIndexCache[descKey]++;
-
-    window.thumbHighlightCache[descKey] =
-        wordIndexCache[descKey] - 1;
-
-}
-
-
-const currentWordIndex = indexDiv === 1
-    ? (window.highlightMode === 'rodzaj'
-        ? (wordIndexCache[descKey] ?? 0)
-        : (wordIndexCache[descKey] ?? 0) - 1)
-    : (wordIndexCache[descKey] ?? 0);
-
-    tablica20aa.push(currentWordIndex);
-
-    console.log("descKey5:", pos);
-    console.log("currentWordIndex55:", currentWordIndex);
-
-
-const $nextWord = $line.find(
-    `[data-word-index="${currentWordIndex}"]`
-).first();
-if ($nextWord.length) {
-
-
-
-    const $wordClone =
-        $nextWord.clone(true, false);
-
-    // =====================================
-    // 🧹 USUŃ WSZYSTKIE ELEMENTY TŁUMACZA
-    // =====================================
-
-    $wordClone.find(
-        '.translate-memory-button, ' +
-        '.active-word-translate-memory-button, ' +
-        '#active-word-translate-memory, ' +
-        '.active-word-translate-button, ' +
-        '.word-translate-button, ' +
-        '[data-ignore-word="true"]'
-    ).remove();
-
-
-    // =====================================
-    // 🧹 USUŃ TEŻ TEKST TŁUMACZA
-    // JEŚLI JAKOŚ ZOSTAŁ W TEKŚCIE
-    // =====================================
-
-    wordText =
-        $wordClone
-            .text()
-            .replace(
-                /tłumacz\s+w\s+zapisanej\s+pamięci/gi,
-                ''
-            )
-            .trim();
-
-
-    console.log(
-        '[next-buttonvv] CZYSTE wordText =',
-        wordText
-    );
-            $nextWord.css({
-            position: "relative",
-            display: "inline-block"
-        });
-
-        $nextWord.append(`
-            <div class="word-animation">
-                <span class="a1"></span>
-                <span class="a2"></span>
-                <span class="a3"></span>
-                <span class="a4"></span>
-                <span class="a5"></span>
-                <span class="a6"></span>
-                <span class="a7"></span>
-                <span class="a8"></span>
-                <span class="a9"></span>
-                <span class="a10"></span>
-            </div>
-        `);
-}
-
-// =====================================
-    // GWIAZDKA
-    // =====================================
-
-    if (
-        !$target.children(
-            '.word-play-star'
-        ).length
-    ) {
-
-        const $star =
-            $('<span>')
-                .addClass(
-                    'word-play-star'
-                );
-
-
-        $star.append(
-            $('<span>')
-                .addClass(
-                    'word-play-star-symbol'
-                )
-                .text('★')
-        );
-
-
-        const $starCount =
-            $('<span>')
-                .addClass(
-                    'word-play-star-count'
-                );
-
-
-        $starCount.append(
-            $('<span>')
-                .addClass(
-                    'word-play-segment'
-                )
-        );
-
-
-        $star.append(
-            $starCount
-        );
-
-
-        $target.append(
-            $star
-        );
-    }
-    
-   // =====================================
-// TŁUMACZ W ZAPISANEJ PAMIĘCI
-// NIE DODAWAJ DO SENTENCE-INNER
-// =====================================
-
-const $star =
-    $target
-        .children('.word-play-star')
-        .first();
-
-
-
-    // =====================================
-    // AUDIO
-    // =====================================
-
-const sentenceMap = window.sentenceMapCache?.[indexDiv] ?? [];
-const y = sentenceMap[pos];
-
-const blockWords = fiszki10
-    .filter(f => f.id?.[1] === y)
-    .sort((a, b) => a.id[0] - b.id[0]);
-
-    const fiszkaAudio = blockWords[currentWordIndex];
-
-    console.log("[audio]5 indexDiv =", indexDiv);
-    console.log("[audio] pos =", pos);
-    console.log("[audio] y =", y);
-    console.log("[audio] currentWordIndex =", currentWordIndex);
-    console.log("[audio] fiszkaAudio =", fiszkaAudio);
-
-    if (fiszkaAudio?.word?.[0]) {
-
-        const audio = new Audio(fiszkaAudio.word[0]);
-
-        audio.currentTime = 0;
-
-        audio.play().catch(err => {
-            console.warn(err);
-        });
-                // =====================================
-        // DODAJ SŁÓWKO DO GLOBALNEGO PASKA
-// =====================================
-// DODAWANIE SŁOWA DO GLOBALNEJ LISTY
-// =====================================
-
-// upewnij się, że pasek istnieje
-if (!$("#active-word-bar").length) {
-    $("body").prepend(`
-        <div id="active-word-bar"></div>
-    `);
-}
-
-
-// =====================================
-// POBIERZ CZYSTE SŁOWO
-// =====================================
-
-let wordText = "";
-
-if ($nextWord.length) {
-
-    wordText = getCleanWordText($nextWord);
-
-}
-// =====================================
-// FALLBACK Z FISZKI
-// =====================================
-
-if (!wordText && fiszkaAudio?.word?.[1]) {
-
-    wordText = fiszkaAudio.word[1];
-
-}
-// =====================================
-// ZAWSZE TWÓRZ TAG
-// =====================================
-
-{
-    const lessonId =
-        $nextWord
-            .closest('.image-container3b')
-            .attr('data-id') || '';
-    const tagKey =
-        `${indexDiv}_${pos}_${currentWordIndex}`;
-
-// =====================================
-// TŁUMACZ W ZAPISANEJ PAMIĘCI
-// PRZYPIĘTY DO GWIAZDKI
-// =====================================
-
-const $star = $target.children('.word-play-star').first();
-
-if (
-    $star.length &&
-    !$star.children('.translate-memory-button').length
-) {
-
-const $translateMemory =
-    $('<button>')
-        .attr({
-            type: 'button',
-            'data-ignore-word': 'true'
-        })
-        .addClass('translate-memory-button')
-        .text('tłumacz w zapisanej pamięci');
-
-
-// WAŻNE:
-// ten tekst nigdy nie może być liczony jako słowo
-$translateMemory.attr(
-    'data-ignore-word',
-    'true'
-);
-
-
-    $translateMemory.on(
-        'click',
-        function (e) {
-
-            e.stopPropagation();
-
-            console.log(
-                '[translate-memory] słowo:',
-                wordText
-            );
-
-            console.log(
-                '[translate-memory] indexDiv:',
-                indexDiv
-            );
-
-            console.log(
-                '[translate-memory] pos:',
-                pos
-            );
-
-            console.log(
-                '[translate-memory] wordIndex:',
-                wordIndex
-            );
-        }
-    );
-
-
-    $star.append(
-        $translateMemory
-    );
-}
-    // =====================================
-    // SPRAWDŹ CZY TAG JUŻ ISTNIEJE
-    // =====================================
-
-    let $existingTag =
-        $('#active-word-bar')
-            .find(
-                `.active-word-tag[data-tag-key="${tagKey}"]`
-            )
-            .first();
-
-
-// =====================================
-// SŁOWO JUŻ BYŁO ODTWARZANE
-// =====================================
-
-if ($existingTag.length) {
-
-    let playCount =
-        Number(
-            $existingTag.attr(
-                'data-play-count'
-            )
-        ) || 1;
-
-
-    // zwiększ liczbę odtworzeń
-
-    playCount++;
-
-
-    // =====================================
-    // GWIAZDKA — PASKI WG LICZBY ODTWORZEŃ
-    // =====================================
-
-    const $starCount =
-        $target
-            .children('.word-play-star')
-            .find('.word-play-star-count');
-
-
-    if ($starCount.length) {
-
-        // usuń stare paski
-
-        $starCount.empty();
-
-
-        // utwórz dokładnie tyle pasków,
-        // ile wynosi liczba odtworzeń
-
-        for (
-            let i = 0;
-            i < playCount;
-            i++
-        ) {
-
-            $starCount.append(
-                $('<span>')
-                    .addClass(
-                        'word-play-segment'
-                    )
-            );
-
-        }
-
-    }
-
-
-    // zapisz nową liczbę
-
-    $existingTag
-        .attr(
-            'data-play-count',
-            playCount
-        );
-
-
-    // =====================================
-    // DODAJ JEDEN ZIELONY PROSTOKĄT
-    // =====================================
-
-    $existingTag
-        .find('.word-play-count')
-        .append(
-            $('<span>')
-                .addClass(
-                    'word-play-segment'
-                )
-        );
-
-
-    console.log(
-        '[word-tag] ponowne odtworzenie:',
-        wordText,
-        'ilość:',
-        playCount,
-        'lekcja:',
-        indexDiv
-    );
-
-}
-
-    // =====================================
-    // NOWE SŁOWO
-    // =====================================
-
-    else {
-
-        const $tag = $('<button>')
-            .addClass('active-word-tag')
-            .attr({
-
-                'data-tag-key':
-                    tagKey,
-
-                'data-indexdiv':
-                    indexDiv,
-
-                'data-pos':
-                    pos,
-
-                'data-word-index':
-                    currentWordIndex - 1,
-
-                'data-play-count':
-                    1,
-
-                'data-lesson-id':
-                    lessonId
-            });
-
-// =====================================
-// PODSTAWOWE SŁOWO
-// =====================================
-
-const $wordText = $('<span>')
-    .addClass('word-tag-translation')
-    .text(wordText);
-
-$tag.append($wordText);
-// =====================================
-// FISZKA DLA AKTYWNEGO SŁOWA
-// =====================================
-
-// fiszkaAudio została już wcześniej
-// wybrana z właściwego bloku i właściwego indeksu
-
-const fiszkaForTag =
-    fiszkaAudio;
-
-
-// =====================================
-// 🧠 ZAPIS PEŁNEJ FISZKI W TAGU
-// =====================================
-
-$tag.data(
-    'fiszkaData',
-    fiszkaForTag
-);
-
-
-// =====================================
-// DEBUG
-// =====================================
-
-console.log(
-    '[word-tag] 🎯 FISZKA DLA TAGU:',
-    {
-        indexDiv,
-        pos,
-        currentWordIndex,
-        fiszkaForTag
-    }
-);
-
-
-// =====================================
-// POBIERZ DESC
-// =====================================
-
-// =====================================
-// DESC DLA TŁUMACZA
-// =====================================
-
-const descValue =
-    fiszkaForTag?.desc ??
-    '';
-
-$tag.data('desc', descValue);
-// =====================================
-// ZAPISZ DESC W TAGU
-// =====================================
-
-$tag.data(
-    'desc',
-    descValue
-);
-
-
-// =====================================
-// PRZYCISK TŁUMACZ
-// =====================================
-
-const $translateButton =
-    $('<button>')
-        .attr({
-            type: 'button'
-        })
-        .addClass(
-            'active-word-translate-button'
-        )
-        .text(
-            'TŁUMACZ'
-        );
-
-
-// =====================================
-// PO KLIKNIĘCIU TŁUMACZ POKAŻ DESC
-// =====================================
-
-$translateButton.on(
-    'click',
-    function (e) {
-
-        e.preventDefault();
-        e.stopPropagation();
-
-        const $currentTag =
-            $(this)
-                .closest(
-                    '.active-word-tag'
-                );
-
-
-        const currentDesc =
-            $currentTag.data('desc') ?? '';
-
-
-        console.log(
-            '[TŁUMACZ][next-buttonvv]',
-            {
-                currentDesc,
-                fiszkaForTag
-            }
-        );
-
-
-        // =====================================
-        // ZMIEŃ TEKST W TAGU NA DESC
-        // =====================================
-
-        $currentTag
-            .find(
-                '.word-tag-translation'
-            )
-            .first()
-            .text(
-                currentDesc
-            );
-
-    }
-);
-
-
-$tag.append(
-    $translateButton
-);
-// =====================================
-
-
-
-        // =====================================
-        // PROSTOKĄTY ODTWORZEŃ
-        // =====================================
-
-        const $playCount =
-            $('<span>')
-                .addClass('word-play-count');
-
-
-        // pierwsze odtworzenie
-        $playCount.append(
-            $('<span>')
-                .addClass('word-play-segment')
-        );
-
-
-        $tag.append($playCount);
-
-
-        // =====================================
-        // LEKCJA
-        // =====================================
-
-$tag.append(
-    $('<span>')
-        .addClass('word-lesson')
-        .text(` - lekcja ${lessonId}`)
-);
-
-
-// =====================================
-// ACTIVE WORD DETAILS — STRZAŁKA
-// =====================================
-
-const $detailsToggle =
-    $('<span>')
-        .addClass(
-            'active-word-details-toggle'
-        )
-        .text('▼');
-
-$tag.append(
-    $detailsToggle
-);
-
-
-// =====================================
-// ACTIVE WORD DETAILS — PANEL
-// =====================================
-
-// =====================================
-// ACTIVE WORD DETAILS — PANEL
-// =====================================
-
-const $details =
-    $('<div>')
-        .addClass(
-            'active-word-details'
-        )
-        .css({
-            display: 'none'
-        });
-
-
-// =====================================
-// LEKCJA
-// =====================================
-
-$details.append(`
-    <div class="active-word-details-lesson">
-        Lekcja ${lessonId}
-    </div>
-`);
-
-
-// =====================================
-// STORY KEY
-// =====================================
-
-const storyKey =
-    Array.isArray(fiszkaAudio?.id)
-        ? fiszkaAudio.id.join('_')
-        : tagKey;
-
-
-// =====================================
-// STORY COUNT
-// =====================================
-
-let storyCount = 0;
-
-if (
-    Array.isArray(fiszkaAudio?.story)
-) {
-
-    storyCount =
-        fiszkaAudio.story.length;
-
-} else if (
-    fiszkaAudio?.story
-) {
-
-    storyCount = 1;
-}
-
-
-// =====================================
-// WYBRANA WERSJA STORY
-// =====================================
-
-window.activeStoryVersionCache =
-    window.activeStoryVersionCache || {};
-
-let selectedStoryIndex =
-    window.activeStoryVersionCache[
-        storyKey
-    ];
-
-
-if (
-    selectedStoryIndex === undefined
-) {
-
-    selectedStoryIndex = 0;
-}
-
-
-selectedStoryIndex =
-    Number(
-        selectedStoryIndex
-    );
-
-
-// =====================================
-// ZABEZPIECZENIE
-// =====================================
-
-if (
-    storyCount > 0 &&
-    selectedStoryIndex >= storyCount
-) {
-
-    selectedStoryIndex = 0;
-}
-
-
-// =====================================
-// CATEGORY1
-// =====================================
-
-if (
-    Array.isArray(
-        fiszkaAudio?.category1
-    )
-) {
-
-    const $versions =
-        $('<div>')
-            .addClass(
-                'active-word-story-versions'
-            );
-
-
-    for (
-        let i = 0;
-        i < fiszkaAudio.category1.length;
-        i += 2
-    ) {
-
-        const value =
-            fiszkaAudio.category1[i];
-
-        const hashtag =
-            fiszkaAudio.category1[i + 1];
-
-
-        if (
-            value === undefined &&
-            hashtag === undefined
-        ) {
-
-            continue;
-        }
-
-
-        const storyIndex =
-            i / 2;
-
-
-        const $version =
-            $('<button>')
-                .attr({
-                    type: 'button',
-                    'data-story-index':
-                        storyIndex
-                })
-                .addClass(
-                    'active-word-story-version'
-                )
-                .text(
-                    `${value || ''} #${hashtag || ''}`
-                );
-
-
-        if (
-            storyIndex ===
-            selectedStoryIndex
-        ) {
-
-            $version.addClass(
-                'active'
-            );
-        }
-
-
-        // =================================
-        // ZMIANA WERSJI STORY
-        // =================================
-
-        $version.on(
-            'click.activeStoryVersion',
-            function (e) {
-
-                e.preventDefault();
-                e.stopPropagation();
-
-
-                const newStoryIndex =
-                    Number(
-                        $(this).attr(
-                            'data-story-index'
-                        )
-                    );
-
-
-                $versions
-                    .find(
-                        '.active-word-story-version'
-                    )
-                    .removeClass('active');
-
-
-                $(this)
-                    .addClass('active');
-
-
-                window.activeStoryVersionCache[
-                    storyKey
-                ] =
-                    newStoryIndex;
-
-
-                // -----------------------------
-                // STORY
-                // -----------------------------
-
-                let newStory;
-
-                if (
-                    Array.isArray(
-                        fiszkaAudio.story
-                    )
-                ) {
-
-                    newStory =
-                        fiszkaAudio.story[
-                            newStoryIndex
-                        ];
-
-                } else {
-
-                    newStory =
-                        fiszkaAudio.story;
-                }
-
-
-                // -----------------------------
-                // OBRAZ
-                // -----------------------------
-
-                let newImage;
-
-                if (
-                    Array.isArray(
-                        fiszkaAudio.img
-                    )
-                ) {
-
-                    newImage =
-                        fiszkaAudio.img[
-                            newStoryIndex
-                        ];
-
-                } else {
-
-                    newImage =
-                        fiszkaAudio.img;
-                }
-
-
-                const $image =
-                    $details.find(
-                        '.active-word-details-image'
-                    );
-
-
-                if (newImage) {
-
-                    if ($image.length) {
-
-                        $image.attr(
-                            'src',
-                            newImage
-                        );
-
-                    } else {
-
-                        $versions.after(`
-                            <img
-                                src="${newImage}"
-                                alt="Fiszka"
-                                class="active-word-details-image"
-                            >
-                        `);
-                    }
-
-                } else {
-
-                    $image.remove();
-                }
-
-
-                $details
-                    .find(
-                        '.active-word-details-text'
-                    )
-                    .html(
-                        newStory || ''
-                    );
-            }
-        );
-
-
-        $versions.append(
-            $version
-        );
-    }
-
-
-    $details.append(
-        $versions
-    );
-}
-
-
-// =====================================
-// POCZĄTKOWY OBRAZ
-// =====================================
-
-let imageUrl;
-
-if (
-    Array.isArray(
-        fiszkaAudio?.img
-    )
-) {
-
-    imageUrl =
-        fiszkaAudio.img[
-            selectedStoryIndex
-        ];
-
-} else {
-
-    imageUrl =
-        fiszkaAudio?.img;
-}
-
-
-if (imageUrl) {
-
-    $details.append(`
-        <img
-            src="${imageUrl}"
-            alt="Fiszka"
-            class="active-word-details-image"
-        >
-    `);
-}
-
-
-// =====================================
-// POCZĄTKOWY STORY
-// =====================================
-
-let storyText;
-
-if (
-    Array.isArray(
-        fiszkaAudio?.story
-    )
-) {
-
-    storyText =
-        fiszkaAudio.story[
-            selectedStoryIndex
-        ];
-
-} else {
-
-    storyText =
-        fiszkaAudio?.story;
-}
-
-
-$details.append(`
-    <div class="active-word-details-text">
-        ${storyText || ''}
-    </div>
-`);
-
-
-// =====================================
-// DODAJ PANEL DO TAGA
-// =====================================
-
-$tag.append(
-    $details
-);
-
-
-
-        // =====================================
-        // DODAJ DO GLOBALNEGO PASKA
-        // =====================================
-
-// =====================================
-// 🧠 RODZINA SŁÓW ZDANIA
-// =====================================
-
-const familyKey = `${indexDiv}_${pos}`;
-
-const wordIndex = currentWordIndex;
-
-console.log(
-    '[WORD-FAMILY]',
-    'familyKey =', familyKey,
-    'wordIndex =', wordIndex,
-    'wordText =', wordText
-);
-
-
-// =====================================
-// SZUKAMY RODZINY W CAŁYM PASKU
-// =====================================
-
-let $family = $('#active-word-bar')
-    .children('.active-word-family')
-    .filter(function () {
-
-        return String(
-            $(this).attr('data-family-key')
-        ) === String(familyKey);
-
-    })
-    .first();
-
-
-// =====================================
-// NOWA RODZINA
-// =====================================
-
-if (!$family.length) {
-
-    console.log(
-        '[WORD-FAMILY] NOWA RODZINA:',
-        familyKey
-    );
-
-
-    $family = $('<div>')
-        .addClass('active-word-family')
-        .attr(
-            'data-family-key',
-            familyKey
-        );
-
-
-    // -------------------------------------
-    // PIONOWE SŁOWA W RODZINIE
-    // -------------------------------------
-
-    $family.css({
-        display: 'flex',
-        flexDirection: 'column',
-        alignItems: 'flex-start',
-        justifyContent: 'flex-start',
-        flexWrap: 'nowrap',
-        gap: '3px',
-        whiteSpace: 'normal',
-        width: 'max-content'
-    });
-
-
-    // -------------------------------------
-    // PIERWSZE SŁOWO
-    // -------------------------------------
-
-    $family.append($tag);
-
-
-    // -------------------------------------
-    // CAŁA RODZINA DO PASKA
-    // -------------------------------------
-    //
-    // prepend zachowuje Twoją obecną
-    // kolejność rodzin
-    //
-
-    $('#active-word-bar')
-        .prepend($family);
-
-
-    console.log(
-        '[WORD-FAMILY] DODANO NOWĄ RODZINĘ DO BAR'
-    );
-
-}
-
-
-// =====================================
-// ISTNIEJĄCA RODZINA
-// =====================================
-
-else {
-
-    console.log(
-        '[WORD-FAMILY] ISTNIEJĄCA RODZINA:',
-        familyKey,
-        '→ DODAJĘ SŁOWO PIONOWO:',
-        wordText
-    );
-
-
-    // -------------------------------------
-    // KOLEJNE SŁOWO POD POPRZEDNIM
-    // -------------------------------------
-
-    $family.append($tag);
-
-
-    console.log(
-        '[WORD-FAMILY] DODANO POD SPODEM:',
-        wordText
-    );
-}
-
-
-// =====================================
-// INFORMACJE TAGU
-// =====================================
-
-$tag.attr({
-    'data-family-key': familyKey,
-    'data-word-index': wordIndex
-});
-
-
-        // =====================================
-        // AKTUALIZUJ PODŚWIETLENIE
-        // =====================================
-
-        updateActiveWordHighlight();
-
-
-        // =====================================
-        // WYDRUKUJ AKTYWNE SŁOWO
-        // =====================================
-
-        printActiveWord($tag);
-
-afterWordTagAdded();
-        console.log(
-            '[word-tag] added:',
-            wordText,
-            'lekcja:',
-            lessonId,
-            'index:',
-            currentWordIndex - 1
-        );
-
-    }
-    }
-    }
-    // =====================================
-    // PODŚWIETLENIE
-    // =====================================
-
-    syncHighlightForIndexDiv(indexDiv, pos);
-
-});
 // =====================================
 // TŁUMACZ — POKAŻ / UKRYJ DESC
 // =====================================
@@ -8164,515 +6968,7 @@ $(document)
 
                 // ...
             });
-            $(document).on("click", ".prev-buttonvv", function () {
 
-    const $line = $(this).closest(".sentence-line");
-
-    const $sentence = $line.find(".sentence-inner");
-
-    const indexDiv = Number($sentence.data("indexdiv"));
-    const pos = Number($sentence.data("pos"));
-
-    const descKey = `${indexDiv}_${pos}`;
-
-    // inicjalizacja licznika dla konkretnego zdania
-    if (wordIndexCache[descKey] === undefined)
-        wordIndexCache[descKey] = 0;
-
-// następne słowo
-const wiKey = `${indexDiv}_${pos}`;
-
-window.savedWiCache = window.savedWiCache || {};
-
-if (window.highlightMode === 'rodzaj') {
-
-    window.savedWiCache[wiKey] =
-        (window.savedWiCache[wiKey] ?? 0);
-
-    wordIndexCache[descKey] = window.savedWiCache[wiKey];
-
-    window.thumbHighlightCache[descKey] =
-        window.savedWiCache[wiKey];
-
-} else {
-
-    wordIndexCache[descKey]--;
-
-    window.thumbHighlightCache[descKey] =
-        wordIndexCache[descKey] - 1;
-
-}
-
-
-const currentWordIndex = indexDiv === 1
-    ? (window.highlightMode === 'rodzaj'
-        ? (wordIndexCache[descKey] ?? 0)
-        : (wordIndexCache[descKey] ?? 0) + 1)
-    : (wordIndexCache[descKey] ?? 0);
-
-    tablica20aa.push(currentWordIndex);
-console.log('hej350', indexDiv, pos, wordIndexCache[descKey], currentWordIndex);
-    console.log("descKey5:", pos);
-    console.log("currentWordIndex:", currentWordIndex);
-
-    // =====================================
-    // ANIMACJA
-    // =====================================
-
-    const $nextWord = $line.find(
-        `[data-word-index="${currentWordIndex}"]`
-    ).first();
-
-    if ($nextWord.length) {
-
-        $line.find(".word-animation").remove();
-
-        $nextWord.css({
-            position: "relative",
-            display: "inline-block"
-        });
-
-        $nextWord.append(`
-            <div class="word-animation">
-                <span class="a1"></span>
-                <span class="a2"></span>
-                <span class="a3"></span>
-                <span class="a4"></span>
-                <span class="a5"></span>
-                <span class="a6"></span>
-                <span class="a7"></span>
-                <span class="a8"></span>
-                <span class="a9"></span>
-                <span class="a10"></span>
-            </div>
-        `);
-    }
-
-    // =====================================
-    // AUDIO
-    // =====================================
-
-const sentenceMap = window.sentenceMapCache?.[indexDiv] ?? [];
-const y = sentenceMap[pos];
-
-const blockWords = fiszki10
-    .filter(f => f.id?.[1] === y)
-    .sort((a, b) => a.id[0] - b.id[0]);
-
-    const fiszkaAudio = blockWords[currentWordIndex];
-
-    console.log("[audio]5 indexDiv =", indexDiv);
-    console.log("[audio] pos =", pos);
-    console.log("[audio] y =", y);
-    console.log("[audio] currentWordIndex =", currentWordIndex);
-    console.log("[audio] fiszkaAudio =", fiszkaAudio);
-
-    if (fiszkaAudio?.word?.[0]) {
-
-        const audio = new Audio(fiszkaAudio.word[0]);
-
-        audio.currentTime = 0;
-
-        audio.play().catch(err => {
-            console.warn(err);
-        });
-                // DODAJ SŁÓWKO DO GLOBALNEGO PASKA
-// =====================================
-// DODAJ SŁÓWKO DO GLOBALNEGO PASKA
-// =====================================
-
-// upewnij się, że pasek istnieje
-if (!$("#active-word-bar").length) {
-    $("body").prepend(`
-        <div id="active-word-bar"></div>
-    `);
-}
-
-
-// =====================================
-// POBIERZ CZYSTE SŁOWO
-// =====================================
-
-let wordText = "";
-
-if ($nextWord.length) {
-
-    wordText = $nextWord
-        .clone()
-        .children()
-        .remove()
-        .end()
-        .text()
-        .trim();
-
-}
-
-
-// fallback z fiszki
-
-if (!wordText) {
-
-    wordText =
-        fiszkaAudio.word?.[1] ||
-        "";
-
-}
-
-
-if (wordText) {
-
-    // =====================================
-    // UNIKALNY KLUCZ SŁOWA
-    // =====================================
-
-    const lessonId =
-        $nextWord
-            .closest('.image-container3b')
-            .attr('data-id') || "";
-
-
-    console.log(
-        'hej100 lessonId =',
-        lessonId
-    );
-
-
-    console.log(
-        'hej100 target =',
-        $nextWord
-    );
-
-
-    const tagKey =
-        `${indexDiv}_${pos}_${currentWordIndex}`;
-
-
-    // =====================================
-    // SPRAWDŹ CZY TAG JUŻ ISTNIEJE
-    // =====================================
-
-    let $existingTag =
-        $("#active-word-bar")
-            .find(
-                `.active-word-tag[data-tag-key="${tagKey}"]`
-            )
-            .first();
-
-
-    // =====================================
-    // SŁOWO JUŻ BYŁO ODTWARZANE
-    // =====================================
-
-    if ($existingTag.length) {
-
-        let playCount =
-            Number(
-                $existingTag.attr("data-play-count")
-            ) || 1;
-
-
-        // zwiększ ilość odtworzeń
-        playCount++;
-
-
-        // zapisz nową ilość
-        $existingTag.attr(
-            "data-play-count",
-            playCount
-        );
-
-
-        // =====================================
-        // DODAJ JEDEN ZIELONY PROSTOKĄT
-        // =====================================
-
-        $existingTag
-            .find(".word-play-count")
-            .append(
-                $("<span>")
-                    .addClass("word-play-segment")
-            );
-
-
-        console.log(
-            '[word-tag] ponowne odtworzenie:',
-            wordText,
-            'ilość:',
-            playCount,
-            'lekcja:',
-            lessonId
-        );
-
-    }
-
-
-    // =====================================
-    // NOWE SŁOWO
-    // =====================================
-
-    else {
-
-        const $tag = $("<button>")
-            .addClass("active-word-tag")
-            .attr({
-
-                "data-tag-key":
-                    tagKey,
-
-                "data-indexdiv":
-                    indexDiv,
-
-                "data-pos":
-                    pos,
-
-                "data-word-index":
-                    currentWordIndex - 1,
-
-                "data-play-count":
-                    1,
-
-                "data-lesson-id":
-                    lessonId
-            });
-
-
-        // =====================================
-        // TEKST SŁOWA
-        // =====================================
-
-        $tag.append(
-            $("<span>")
-                .addClass("word-tag-text")
-                .text(wordText)
-        );
-
-
-        // =====================================
-        // PASEK ODTWORZEŃ
-        // =====================================
-
-        const $playCount = $("<span>")
-            .addClass("word-play-count");
-
-
-        // pierwsze odtworzenie = pierwszy prostokąt
-        $playCount.append(
-            $("<span>")
-                .addClass("word-play-segment")
-        );
-
-
-        $tag.append($playCount);
-
-
-        // =====================================
-        // LEKCJA
-        // =====================================
-
-        $tag.append(
-            $("<span>")
-                .addClass("word-lesson")
-                .text(` - lekcja ${lessonId}`)
-        );
-
-
-        // =====================================
-        // DODAJ DO GLOBALNEGO PASKA
-        // =====================================
-
-// =====================================
-// 🧠 RODZINA SŁÓW
-// =====================================
-
-const familyKey = `${indexDiv}_${pos}`;
-const wordIndex = currentWordIndex - 1;
-
-console.log(
-    '[WORD FAMILY] ============================',
-    '\n familyKey:', familyKey,
-    '\n wordIndex:', wordIndex,
-    '\n wordText:', wordText
-);
-
-
-// =====================================
-// OZNACZ TAG
-// =====================================
-
-$tag.attr({
-    "data-family-key": familyKey,
-    "data-word-index": wordIndex
-});
-
-
-// =====================================
-// SZUKAMY RODZINY W CAŁYM PASKU
-// NIE TYLKO W children()
-// =====================================
-
-let $family = $("#active-word-bar")
-    .find(".active-word-family")
-    .filter(function () {
-
-        return String(
-            $(this).attr("data-family-key")
-        ) === String(familyKey);
-
-    })
-    .first();
-
-
-console.log(
-    '[WORD FAMILY] znaleziono rodzinę:',
-    $family.length
-);
-
-
-// =====================================
-// JEŚLI RODZINA NIE ISTNIEJE
-// =====================================
-
-if (!$family.length) {
-
-    console.log(
-        '[WORD FAMILY] TWORZĘ NOWĄ:',
-        familyKey
-    );
-
-
-    // -------------------------------------
-    // KONTENER JEDNEJ RODZINY
-    // -------------------------------------
-
-    $family = $("<div>")
-        .addClass("active-word-family")
-        .attr(
-            "data-family-key",
-            familyKey
-        );
-
-
-    // -------------------------------------
-    // WAŻNE:
-    // RODZINA = PION
-    // -------------------------------------
-
-    $family.css({
-        "display": "flex",
-        "flex-direction": "column",
-        "align-items": "flex-start",
-        "justify-content": "flex-start",
-        "flex-wrap": "nowrap",
-        "gap": "3px",
-        "white-space": "normal",
-        "width": "max-content",
-        "height": "auto",
-        "position": "relative"
-    });
-
-
-    // -------------------------------------
-    // TAG NIE MOŻE UCIEC W POZIOMIE
-    // -------------------------------------
-
-    $tag.css({
-        "display": "block",
-        "position": "relative",
-        "left": "auto",
-        "top": "auto",
-        "float": "none",
-        "margin": "0"
-    });
-
-
-    // -------------------------------------
-    // PIERWSZE SŁOWO
-    // -------------------------------------
-
-    $family.append($tag);
-
-
-    // -------------------------------------
-    // CAŁA RODZINA DO GLOBALNEGO PASKA
-    // -------------------------------------
-
-    $("#active-word-bar").append($family);
-
-
-    console.log(
-        '[WORD FAMILY] NOWA RODZINA DODANA DO BAR:',
-        familyKey
-    );
-
-}
-
-
-// =====================================
-// RODZINA JUŻ ISTNIEJE
-// =====================================
-
-else {
-
-    console.log(
-        '[WORD FAMILY] ISTNIEJE → DODAJĘ POD SPODEM:',
-        familyKey,
-        wordText
-    );
-
-
-    // -------------------------------------
-    // WYMUSZAMY PION
-    // -------------------------------------
-
-    $family.css({
-        "display": "flex",
-        "flex-direction": "column",
-        "align-items": "flex-start",
-        "flex-wrap": "nowrap"
-    });
-
-
-    // -------------------------------------
-    // KOLEJNE SŁOWO
-    // -------------------------------------
-
-    $tag.css({
-        "display": "block",
-        "position": "relative",
-        "left": "auto",
-        "top": "auto",
-        "float": "none",
-        "margin": "0"
-    });
-
-
-    // -------------------------------------
-    // DODAJEMY DO TEJ SAMEJ RODZINY
-    // -------------------------------------
-
-    $family.append($tag);
-
-
-    console.log(
-        '[WORD FAMILY] DODANO PIONOWO:',
-        wordText,
-        '→',
-        familyKey
-    );
-}
-
-    }
-
-}
-    }
-
-    // =====================================
-    // PODŚWIETLENIE
-    // =====================================
-
-    syncHighlightForIndexDiv(indexDiv, pos);
-
-});
 // --- Pobranie bieżącego zdania na podstawie currentPos ---
             const currentSentence = sentenceCache[indexDiv][currentPos];
             console.log('hej160', currentSentence);
@@ -9245,8 +7541,12 @@ restoreWordAnimation(indexDiv, currentPos, currentWordIndex);
 
     updateHighlightAll();
 }
-function restoreWordAnimation(indexDiv, pos, currentWordIndex) {
-    currentWordIndex = currentWordIndex + 1;
+window.restoreWordAnimation = function(indexDiv, pos, currentWordIndex) {
+    // Indeks jest liczony od zera:
+    // 0 = pierwsze słowo, 1 = drugie itd.
+    currentWordIndex = Number(currentWordIndex);
+
+    console.log('[AUTOMAT/AUDIO] Uruchamiam słowo o indeksie:', currentWordIndex);
     const $line = $(`.sentence-inner[data-indexdiv="${indexDiv}"][data-pos="${pos}"]`)
         .closest('.sentence-line');
 
@@ -9490,8 +7790,7 @@ function addStartButtonsToImageContainers() {
         // START
         // text-block
         // =================================================
-
-        $startButton.insertBefore($textBlock);
+window.getStartAutomatContainer($block, $textBlock).append($startButton);
 
         console.log(
             '[START] dodano przycisk START:',
@@ -9576,7 +7875,19 @@ $(function () {
 // START / POWTÓRZ
 // START PO 3 TAGACH
 // =====================================
+// =============================================
+// WSPÓLNY KONTENER: START / POWTÓRZ + AUTOMAT
+// =============================================
+window.getStartAutomatContainer = function ($block, $textBlock) {
+    let $container = $block.find('.start-automat-buttons').first();
 
+    if (!$container.length) {
+        $container = $('<div class="start-automat-buttons"></div>');
+        $textBlock.before($container);
+    }
+
+    return $container;
+};
 window.addStartButtonsAfterThreeTags = function addStartButtonsAfterThreeTags() {
 
     // =====================================
@@ -9661,9 +7972,7 @@ window.addStartButtonsAfterThreeTags = function addStartButtonsAfterThreeTags() 
                     .text('POWTÓRZ...');
 
 
-            $repeatButton.insertBefore(
-                $textBlock
-            );
+            window.getStartAutomatContainer($block, $textBlock).append($repeatButton);
 
 
             // =====================================
@@ -9756,13 +8065,14 @@ window.addStartButtonsAfterThreeTags = function addStartButtonsAfterThreeTags() 
         );
 
 
-        // =====================================
-        // WSTAW START
-        // =====================================
+// =====================================
+// WSTAW START DO WSPÓLNEGO KONTENERA
+// =====================================
 
-        $startButton.insertBefore(
-            $textBlock
-        );
+window.getStartAutomatContainer(
+    $block,
+    $textBlock
+).append($startButton);
 
 
         console.log(
@@ -9771,7 +8081,141 @@ window.addStartButtonsAfterThreeTags = function addStartButtonsAfterThreeTags() 
         );
 
     });
+};
+
+// =====================================================
+// AUTOMAT — DODAJ PRZYCISKI PO 3 TAGACH
+// =====================================================
+
+window.addAutomatButtonsAfterThreeTags =
+function addAutomatButtonsAfterThreeTags() {
+
+    // =====================================
+    // BLOKADA — PRZED 3 TAGAMI NIC NIE DODAJEMY
+    // =====================================
+
+    if (!window.startButtonsEnabled) {
+
+        console.log(
+            '[AUTOMAT] zablokowany — jeszcze nie ma 3 active-word-tag'
+        );
+
+        return;
+    }
+
+
+    $('.image-container3b').each(function () {
+
+        const $block = $(this);
+
+
+        // =====================================
+        // JEŻELI AUTOMAT JUŻ ISTNIEJE
+        // =====================================
+
+        if (
+            $block.find('.automat-word-button').length
+        ) {
+            return;
+        }
+
+
+        // =====================================
+        // TEXT BLOCK
+        // =====================================
+
+        const $textBlock =
+            $block.find('.text-block').first();
+
+
+        if (!$textBlock.length) {
+
+            console.warn(
+                '[AUTOMAT] brak .text-block:',
+                $block.attr('data-id')
+            );
+
+            return;
+        }
+
+
+        // =====================================
+        // UTWÓRZ PRZYCISK AUTOMAT
+        // =====================================
+
+        const $automatButton =
+            $('<button>')
+                .attr({
+                    type: 'button',
+                    'data-automat-word': 'true'
+                })
+                .addClass('automat-word-button')
+                .text('AUTOMAT');
+
+
+        // =====================================
+        // KLIK AUTOMAT
+        // =====================================
+
+        $automatButton.on('click', function (e) {
+
+            e.preventDefault();
+            e.stopPropagation();
+
+            console.log(
+                '[AUTOMAT] klik:',
+                $block.attr('data-id')
+            );
+
+
+            // =================================
+            // PRZEKAŻ KONTENER DO AUTOMATU
+            // =================================
+
+            window.automatWordRequest = $block[0];
+
+
+            // =================================
+            // URUCHOM OBSŁUGĘ AUTOMATU
+            // =================================
+
+            $(document).trigger(
+                'automate-word',
+                [$block[0]]
+            );
+
+        });
+
+
+        // =====================================
+        // WSTAW PRZED TEXT-BLOCK
+        // =====================================
+// Wstaw AUTOMAT bezpośrednio obok START / POWTÓRZ.
+const $startOrRepeat = $block
+    .find('.start-word-button, .repeat-word-button')
+    .first();
+
+if ($startOrRepeat.length) {
+
+    $automatButton.insertAfter($startOrRepeat);
+
+} else {
+
+    // Jeśli START jeszcze nie istnieje, wstaw AUTOMAT
+    // przed .text-block — obok miejsca docelowego START.
+    window.getStartAutomatContainer($block, $textBlock).append($automatButton);
+
 }
+
+
+        console.log(
+            '[AUTOMAT] dodano do:',
+            $block.attr('data-id')
+        );
+
+    });
+
+};
 // =====================================
 // 🧠 LICZNIK ZAPAMIĘTANYCH SŁÓW 0/6
 // =====================================
@@ -9814,7 +8258,7 @@ function createRememberedWordsCounter() {
 // AKTUALIZACJA LICZNIKA
 // =====================================
 
-function updateRememberedWordsCounter() {
+    window.updateRememberedWordsCounter = function updateRememberedWordsCounter() {
 
     const count =
         $('#active-word-bar')
@@ -11890,7 +10334,7 @@ function restoreMainLessonView() {
 // ======================================================
 // ======================================================
 
-function afterWordTagAdded() {
+    window.afterWordTagAdded = function afterWordTagAdded() {
 
 
     // ----------------------------------------------

@@ -1356,7 +1356,7 @@ id: [
 
         ],
                                                                                                                     word: [
-            "http://localhost/arbulanguage.com/voice/angielski/lekcja54/wtih.mp3"
+            "http://localhost/arbulanguage.com/voice/angielski/lekcja54/with.mp3"
         ],
         story: [
                 "<u><b>Z</u></b> w<u><b>iz</u></b>ualizacją wygranej sportowcy są dok<u><b>ł</u></b>adnie przygotowani",

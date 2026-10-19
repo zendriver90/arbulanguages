@@ -23,6 +23,7 @@
                 <script src="start/testowyb10v8.js"></script>
                                 <script src="start/testowyb10v9.js"></script>
                                 <script src="start/testowyb10v10.js"></script>
+                                <script src="start/testowyb10v11.js"></script>
         <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
         <meta charset="UTF-8">
         <title>arbulang.com</title>
@@ -30,12 +31,15 @@
         <meta name="keywords" content="naucz się angielskiego, 1000 angielskich słów, szybka nauka angielskiego, jak nauczyć się angielskiego, jak szybko nauczyć się języka, nauka angielskiego z przyjemnością" />
         <style>
             @media (min-width: 999px) {
+                .translate-memory-button::after {
+    content: "tłumacz w zapisanej pamięci";
+}
                 /* =====================================
    START / POWTÓRZ
    ===================================== */
-
 .start-word-button,
-.repeat-word-button {
+.repeat-word-button,
+.automat-word-button {
 
     display: inline-flex;
 
@@ -111,9 +115,9 @@ width: 50px;
 /* =====================================
    KLIK
    ===================================== */
-
 .start-word-button:active,
-.repeat-word-button:active {
+.repeat-word-button:active,
+.automat-word-button:active {
 
     transform: scale(0.96);
 }
@@ -169,6 +173,30 @@ width: 50px;
     /* tekst nie może łamać się */
     white-space: nowrap;
 
+}
+/* Wspólny kontener na przyciski */
+.start-automat-buttons {
+    display: flex !important;
+    flex-direction: row !important;
+    align-items: center !important;
+    justify-content: flex-start !important;
+    flex-wrap: nowrap !important;
+    gap: 8px !important;
+    width: 100% !important;
+    box-sizing: border-box;
+}
+
+/* Przyciski obok siebie */
+.start-automat-buttons > .start-word-button,
+.start-automat-buttons > .repeat-word-button,
+.start-automat-buttons > .automat-word-button {
+    display: inline-flex !important;
+    flex: 0 0 auto !important;
+    align-items: center !important;
+    justify-content: center !important;
+    width: auto !important;
+    min-width: 100px !important;
+    margin: 6px 0 !important;
 }
                 /* =========================================
    🧠 ZAKŁADKI TRANSZ
@@ -3710,7 +3738,7 @@ function showUniqueWordsUpToLesson73() {
 
   // 🔥 od początku do 73
   const filtered = fiszki10.filter(f => 
-    f.id && f.id[0] <= 1000
+    f.id && f.id[0] <= 2000
   );
 
   const uniqueWords = getUniqueWordArray(filtered);
@@ -5447,7 +5475,7 @@ const lesson3Sentences = (correlationsCount.find(item => item[0] === lessonId3) 
                             }
                           
 
-if (indexDiv <= 60) {
+if (indexDiv <= 70) {
 
     showCombinedSentenceForLesson22b(
         selectedCategory, matchingIndexes3, rodzaj, matchingIndexes2,
@@ -5680,6 +5708,7 @@ updateVisibleLessons();
             </script>
 <script src="start/miniatury-prezentacja.js"></script>
 <script src="start/mouseenter-handler.js"></script>
+<script src="start/next-prev-buttons-handler.js"></script>
                                 <script src="displayx3.js"></script>
                                     <script src="nowydzialajacy.js"></script>
         <script src="displayx1.js"></script>

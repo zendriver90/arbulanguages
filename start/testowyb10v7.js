@@ -2915,13 +2915,13 @@ fiszki10.push(
             117,
             213
         ],
-        img: [
-                "https://www.arbulang.com/img/fiszki1/7a.jpg",
-                "https://www.arbulang.com/img/fiszki1/7b.jpg",
-                "https://www.arbulang.com/img/fiszki1/7c.jpg",
-                "https://www.arbulang.com/img/fiszki1/7d.jpg",
-                "https://www.arbulang.com/img/fiszki1/7e.jpg"
-        ],
+            img: [
+                "https://www.arbulang.com/img/fiszki1/19a.jpg",
+                "https://www.arbulang.com/img/fiszki1/19b.jpg",
+                "https://www.arbulang.com/img/fiszki1/19c.jpg",
+                "https://www.arbulang.com/img/fiszki1/19d.jpg",
+                "https://www.arbulang.com/img/fiszki1/19e.jpg"
+            ],
                                                                                                                     word: [
             "http://localhost/arbulanguage.com/voice/angielski/lekcja117/I.mp3"
         ],
@@ -2930,14 +2930,14 @@ fiszki10.push(
         translateb2: "[]",
         srcWord: ["http://localhost/arbulanguage.com/filmy/lekcja39/invite.mp4", "Matrix Reaktywacja (2003)"],
         srcWordimage: "http://localhost/arbulanguage.com/filmy/lekcja39/invite.png",
-        story: [
-                'To właśnie <u><b>on</u></b> jest <span class="adannotation" data-annotation="1"><b><u>hi</b></u></span>tem tego sezonu piłkarskiego',
-                'Samiec czyli <u><b>on</u></b> - <span class="adannotation" data-annotation="1"><b><u>hi</b></u></span>popotam',
-                '<u><b>On</b></u> - <span class="adannotation" data-annotation="1"><u><b>Hi</b></u></span>eronim odleciał balonem',
-                'Ma<span class="adannotation" data-annotation="1"><u><b>chi</u></b></span>nę do tortur wymyślił <u><b>on</u></b> - jest <span class="adannotation" data-annotation="1"><u><b>Hi</u></b></span>ndusem',
-                '<u><b>On</u></b> je ciastka <span class="adannotation" data-annotation="1"><u><b>hi</u></b></span>ty'
-        ],
-        desc: "I[hi] - on",
+            story: [
+                "<u><b>Ja</u></b> jestem Piotrek, mam okulary ochronne, gdy jechałem rowerem wleciała mi mucha do <u><b>oka</u></b>, krzyczałem <u><b>ajjj</u></b> - dlaczego to <u><b>mi</u></b> wleciała mucha do <u><b>oka</u></b>, <u><b>ajjj</u></b>",
+                "M<u><b>aj</u></b>a ma zezowate <u><b>oko</u></b> i mówi, no <u><b>JA</u></b> widzę ciebie podwójnie",
+                "Nauka o mitach, takich jak królowa G</u></b>aj</u></b>a to ten temat, gdzie <u><b>ja</u></b> mam największą wiedze",
+                "Teraz <u><b>ja</u></b> występuję na weselu jako wodzirej i śpiewam <u><b>Aj</u></b>-ja-jaj tak słodko jest tu z wami być..",
+                "Mo<u><b>ja</u></b> babcia idzie do kurnika po jaja, a <u><b>ja</u></b> będę za chwilę jadł jajecznice"
+            ],
+            desc: "I[aj] - ja",
         sentence1: [
             "I"
         ],
@@ -3190,7 +3190,7 @@ fiszki10.push(
             "Francuzi są najlepsi w <u><b>pływaniu</u></b> na Olimpiadzie, wszyscy kibicują <u><b>łi, łi</u></b> i niektórzy Polacy też <u><b>im</u></b> kibicują <u><b>sł</u></b>ownie"
         ],
         desc: "swim[słim] - pływać",
-        sentence2: [
+        sentence1: [
             "swim"
         ],
                 sentence1b: [
@@ -3220,7 +3220,7 @@ fiszki10.push(
         ],
         story: "Ten chw<b><u>ast</b></u> szybko rośnie, bo to <b><u>f</b></u>uriat wśród chwastów",
         desc: "fast[fast] - szybko",
-        sentence2: [
+        sentence1: [
             "fast"
         ],
                 sentence1b: [
@@ -3447,13 +3447,13 @@ fiszki10.push(
             120,
             219
         ],
-        img: [
-                "http://localhost/arbulanguage.com/img/fiszki1/7a.jpg",
-                "http://localhost/arbulanguage.com/img/fiszki1/7b.jpg",
-                "http://localhost/arbulanguage.com/img/fiszki1/7c.jpg",
-                "http://localhost/arbulanguage.com/img/fiszki1/7d.jpg",
-                "http://localhost/arbulanguage.com/img/fiszki1/7e.jpg"
-        ],
+            img: [
+                "https://www.arbulang.com/img/fiszki1/19a.jpg",
+                "https://www.arbulang.com/img/fiszki1/19b.jpg",
+                "https://www.arbulang.com/img/fiszki1/19c.jpg",
+                "https://www.arbulang.com/img/fiszki1/19d.jpg",
+                "https://www.arbulang.com/img/fiszki1/19e.jpg"
+            ],
                                                 word: [
             "http://localhost/arbulanguage.com/voice/angielski/lekcja120/I.mp3"
         ],
@@ -3462,9 +3462,13 @@ fiszki10.push(
         translateb2: "[]",
         srcWord: ["http://localhost/arbulanguage.com/filmy/newspaper.mp4", "Kevin sam w domu (1990)"],
         srcWordimage: "http://localhost/arbulanguage.com/filmy/newspaper.png",
-        story: [
-""
-        ],
+            story: [
+                "<u><b>Ja</u></b> jestem Piotrek, mam okulary ochronne, gdy jechałem rowerem wleciała mi mucha do <u><b>oka</u></b>, krzyczałem <u><b>ajjj</u></b> - dlaczego to <u><b>mi</u></b> wleciała mucha do <u><b>oka</u></b>, <u><b>ajjj</u></b>",
+                "M<u><b>aj</u></b>a ma zezowate <u><b>oko</u></b> i mówi, no <u><b>JA</u></b> widzę ciebie podwójnie",
+                "Nauka o mitach, takich jak królowa G</u></b>aj</u></b>a to ten temat, gdzie <u><b>ja</u></b> mam największą wiedze",
+                "Teraz <u><b>ja</u></b> występuję na weselu jako wodzirej i śpiewam <u><b>Aj</u></b>-ja-jaj tak słodko jest tu z wami być..",
+                "Mo<u><b>ja</u></b> babcia idzie do kurnika po jaja, a <u><b>ja</u></b> będę za chwilę jadł jajecznice"
+            ],
         desc: "I[aj] - ja",
         sentence1: [
             "I"

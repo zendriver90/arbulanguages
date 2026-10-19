@@ -1467,6 +1467,13 @@
                 if (typeof addStartButtonsAfterThreeTags === 'function') {
                     addStartButtonsAfterThreeTags();
                 }
+                // =====================================
+// DODAJ AUTOMAT
+// =====================================
+
+if (typeof window.addAutomatButtonsAfterThreeTags === 'function') {
+    window.addAutomatButtonsAfterThreeTags();
+}
             }
             console.log(
                 '[word-tag] added:',
@@ -1659,56 +1666,6 @@
         });
 
 
-        // =====================================
-        // GWIAZDKA
-        // =====================================
-
-        if (
-            !$target.children(
-                '.word-play-star'
-            ).length
-        ) {
-
-            const $star =
-                $('<span>')
-                    .addClass(
-                        'word-play-star'
-                    );
-
-
-            $star.append(
-                $('<span>')
-                    .addClass(
-                        'word-play-star-symbol'
-                    )
-                    .text('★')
-            );
-
-
-            const $starCount =
-                $('<span>')
-                    .addClass(
-                        'word-play-star-count'
-                    );
-
-
-            $starCount.append(
-                $('<span>')
-                    .addClass(
-                        'word-play-segment'
-                    )
-            );
-
-
-            $star.append(
-                $starCount
-            );
-
-
-            $target.append(
-                $star
-            );
-        }
 
         // =====================================
         // TŁUMACZ W ZAPISANEJ PAMIĘCI

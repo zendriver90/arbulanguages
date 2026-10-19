@@ -50,7 +50,7 @@ fiszki10.push(
         story: [
             "<u><b>K</u></b>iedy doceniam <u><b>pracę</u></b> mam taki swoisty pa<u><b>łer</u></b>(power)"
         ],
-        desc: "work[łerk] - praca, pracować, working[łerking] - pracować",
+        desc: "work[łerk albo ł|o/e|rk] - praca, pracować, working[łerking] - pracować",
         sentence2: [
             "work"
         ],
@@ -1913,7 +1913,7 @@ fiszki10.push(
         ],
         img: "https://www.arbulang.com/img/fiszki1/207b.jpg",
                                                     word: [
-            "http://localhost/arbulanguage.com/voice/angielski/lekcja93/we.mp3"
+            "http://localhost/arbulanguage.com/voice/angielski/lekcja93/they.mp3"
         ],
         translate: "Oni idą wzdłuż cichej ulicy",
         translateb: "[Dej łok elong de kłajet strit]",
@@ -2813,7 +2813,7 @@ fiszki10.push(
             "Can"
         ],
                                                             sentence1b: [
-            "Czy może"
+            "Czy_może"
         ],
             sentence1c: [
             "Ken"
